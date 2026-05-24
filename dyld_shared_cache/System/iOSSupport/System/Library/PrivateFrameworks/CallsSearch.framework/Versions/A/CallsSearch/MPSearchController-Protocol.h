@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UINavigationController;
-@protocol MPSearchResultsUpdatingProtocol;
+@class NSString, UITableViewCell;
 
 @protocol MPSearchController
+- (UITableViewCell *);
 
 // Remaining properties
-@property(nonatomic) __weak id <MPSearchResultsUpdatingProtocol> delegate;
-@property(nonatomic) __weak UINavigationController *hostingNavigationController;
-@property(readonly, nonatomic) long long maximumNumberOfRowsInSection;
-@property(retain, nonatomic) NSArray *resultIDs;
-@property(retain, nonatomic) NSArray *results;
 @property(nonatomic) long long sectionIndex;
 @property(readonly, nonatomic) NSString *sectionTitle;
-@property(readonly, nonatomic) unsigned int sectionType;
 @end
 

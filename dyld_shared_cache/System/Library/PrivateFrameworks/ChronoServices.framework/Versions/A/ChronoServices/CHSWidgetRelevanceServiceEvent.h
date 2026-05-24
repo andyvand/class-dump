@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface CHSWidgetRelevanceServiceEvent
 {
     unsigned long long _eventType;
-    NSSet *_keys;
-    NSSet *_extensionIdentities;
 }
 
 + (id);
@@ -30,8 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) NSSet *extensionIdentities; // @synthesize extensionIdentities=_extensionIdentities;
-@property(readonly, nonatomic) NSSet *keys; // @synthesize keys=_keys;
 
 @end
 

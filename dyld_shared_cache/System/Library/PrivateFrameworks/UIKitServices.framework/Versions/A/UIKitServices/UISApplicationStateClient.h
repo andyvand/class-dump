@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UISApplicationStateClient
 {
     NSString *_bundleIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _queue_invalidated;
-    BSServiceConnection *_queue_connection;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -31,15 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *badgeValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double nextWakeIntervalSinceReferenceDate;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesBackgroundNetwork;
 
 @end
 

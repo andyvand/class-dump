@@ -6,14 +6,12 @@
 
 #import <CoreWLANKit/APFormatter.h>
 
-@class NSCharacterSet, NSString;
+@class NSCharacterSet;
 
 __attribute__((visibility("hidden")))
 @interface MACFormatter : APFormatter
 {
     NSCharacterSet *_possibleSeparators;
-    NSCharacterSet *_possibleSeparatorsInvertedSet;
-    NSString *_userPreferredSeparator;
 }
 
 + (id);
@@ -23,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ertyAllocator;
 - (_Bool);
 
 @end

@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/HMDCameraIDSDeviceConnection.h>
 
-@class NSString;
-@protocol HMDCameraIDSDeviceConnectionReceiverDelegate, HMDIDSSession;
+@protocol HMDCameraIDSDeviceConnectionReceiverDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraIDSDeviceConnectionReceiver : HMDCameraIDSDeviceConnection
@@ -18,27 +17,17 @@ __attribute__((visibility("hidden")))
 + (id)ÊB;
 - (void);
 - (int);
-- (int);
+- (int)$;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)onExcessiveDurationLogEventFactory;
+- (void)HouseholdArrivalPredictionExcessiveDurationLogEventFactory;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDCameraIDSDeviceConnectionReceiverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <HMDIDSSession> idsSession;
-@property(readonly, nonatomic) int remoteAudioSocket;
-@property(readonly, nonatomic) int remoteVideoSocket;
-@property(readonly) Class superclass;
 
 @end
 

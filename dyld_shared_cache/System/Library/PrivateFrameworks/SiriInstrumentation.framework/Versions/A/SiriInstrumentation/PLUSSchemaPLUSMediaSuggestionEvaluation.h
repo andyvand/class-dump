@@ -6,23 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface PLUSSchemaPLUSMediaSuggestionEvaluation : SISchemaInstrumentationMessage
 {
     NSArray *_entitySummaries;
-    NSArray *_pommesAlternativeEntityIds;
-    NSString *_pommesSelectedMediaEntityAdamId;
-    NSString *_inferredMediaEntityAdamId;
-    _Bool _hasPommesSelectedMediaEntityAdamId;
-    _Bool _hasInferredMediaEntityAdamId;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -35,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -47,21 +42,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ving database.;
 - (id);
 - (id);
-- (id)ilable;
+- (id)_hasUeiSiriWasUnavailable;
 - (id)ID;
-- (void)INTENT__PLAYBESTANDWORSTALBUM__TITLE;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__PLAYBESTANDWORSTALBUM__TITLE;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entitySummaries; // @synthesize entitySummaries=_entitySummaries;
-@property(nonatomic) _Bool hasInferredMediaEntityAdamId; // @synthesize hasInferredMediaEntityAdamId=_hasInferredMediaEntityAdamId;
-@property(nonatomic) _Bool hasPommesSelectedMediaEntityAdamId; // @synthesize hasPommesSelectedMediaEntityAdamId=_hasPommesSelectedMediaEntityAdamId;
-@property(copy, nonatomic) NSString *inferredMediaEntityAdamId; // @synthesize inferredMediaEntityAdamId=_inferredMediaEntityAdamId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *pommesAlternativeEntityIds; // @synthesize pommesAlternativeEntityIds=_pommesAlternativeEntityIds;
-@property(copy, nonatomic) NSString *pommesSelectedMediaEntityAdamId; // @synthesize pommesSelectedMediaEntityAdamId=_pommesSelectedMediaEntityAdamId;
 
 @end
 

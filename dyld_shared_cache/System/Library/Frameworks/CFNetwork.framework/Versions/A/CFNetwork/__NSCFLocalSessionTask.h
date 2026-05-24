@@ -6,48 +6,20 @@
 
 #import <CFNetwork/NSURLSessionTask.h>
 
-@class NSInputStream, NSObject, NSOperationQueue, NSOutputStream, NSString, NSURL, __NSCFURLSessionConnection;
-@protocol OS_dispatch_data, OS_dispatch_source;
+@class __NSCFURLSessionConnection;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFLocalSessionTask : NSURLSessionTask
 {
     __NSCFURLSessionConnection *_cfConn;
-    NSURL *_uploadFile;
-    NSObject<OS_dispatch_data> *_dataTaskData;
-    CDUnknownBlockType _dataTaskCompletion;
-    NSObject<OS_dispatch_data> *_pendingResponseBytes;
-    unsigned long long _suspendCount;
-    CDUnknownBlockType _async_initialization;
-    NSObject<OS_dispatch_source> *_resourceTimeout;
-    struct os_unfair_lock_s _connKeyLock;
-    void *_connKey;
-    double _startTimeoutTime;
-    NSObject<OS_dispatch_source> *_startTimeoutTimer;
-    NSObject<OS_dispatch_source> *_payloadTransmissionTimer;
-    NSObject<OS_dispatch_source> *_willSendRequestTimer;
-    NSInputStream *_socketReadStreamForUpgrade;
-    NSOutputStream *_socketWriteStreamForUpgrade;
-    shared_ptr_8da4e70b _connectionForUpgrade;
-    NSObject<OS_dispatch_data> *_extraBytes;
-    NSOperationQueue *_connectionWorkQueue;
-    int _connectionWorkQueueSuspensionCount;
-    _Bool _pendingResponseDisposition;
-    _Bool _pendingResponseDisposition_didFinish;
-    _Bool _didIssueWaitingForConnectivity;
-    _Bool _didIssueDidFinish;
-    _Bool _suspendedForDisposition;
-    _Bool _didCheckMixedReplace;
-    _Bool _isMixedReplace;
-    _Bool _sentDidFinishCollectingMetrics;
 }
 
+- (void)eopenclosed;
+- (id)f, %.3f, %.3f);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void)bjectAtIndex:(float)arg1;
-- (void)AtAPSleep;
+- (void)removeObjectAtIndex:(float)arg1;
+- (void)_onqueue_handleConnectionsAtAPSleep;
 - (void)> attempted to create a NSURLSessionUploadTask in a session that has been invalidated;
 - (void)se_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (void);
@@ -55,9 +27,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)ü2;
 - (void);
-- (void)nload;
+- (void)AVAggregateAssetDownload;
 - (void)nknown CA;
-- (void)Connection;
+- (void)NWIOConnection;
 - (void)gss_cred_id_t_desc_struct=}16;
 - (id);
 - (void)@;
@@ -94,7 +66,7 @@ __attribute__((visibility("hidden")))
 - (void)6q9;
 - (void):(id)arg1 NJ;
 - (void).ua;
-- (void)mb;
+- (void)2mb;
 - (void)6bW;
 - (id)28 ;
 - (void)6%E;
@@ -108,13 +80,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) __NSCFURLSessionConnection *cfConn; // @synthesize cfConn=_cfConn;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,10 +8,16 @@
 @protocol MTLArgumentEncoder, MTLFunctionHandle, MTLPipelineLibrary;
 
 @protocol MTLFunctionSPI
+- (unsigned long long)FrameSecondaryAngleVector;
+- (MTLType *)(%@) CFRunLoopRunInMode() LOOP DONE!;
+- (NSArray *);
+- (void)fourcircle;
+- (NSArray *)P;
+- (const CDStruct_41a22ec7 *)2;
 - (MTLDebugInstrumentationData *)Â0@ù
 × ;
 - (NSArray *)="__begin_"^q"__end_"^q""{?="__cap_"^q}};
-- (id <MTLFunctionHandle>)rcesArrayWithEncoder: /* Error: Ran out of types for this method. */;
+- (id <MTLFunctionHandle>)retainedResourcesArrayWithEncoder: /* Error: Ran out of types for this method. */;
 - (id <MTLArgumentEncoder>)vel:(unsigned long long)arg1 sliceCount:(id *)arg2 levelCount:(id <MTLPipelineLibrary>)arg3;
 - (id <MTLArgumentEncoder>)¤¥ð¥,¨ì¨`©´«¬;
 - (MTLFunctionReflection *)ëa:(unsigned long long)arg1 @ùQþt: /* Error: Ran out of types for this method. */;
@@ -20,17 +26,6 @@
 - (NSArray *);
 
 // Remaining properties
-@property(readonly) NSArray *arguments;
-@property(readonly) NSArray *bindings;
-@property(readonly, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
 @property(readonly, copy) NSString *filePath;
-@property(readonly, nonatomic) id <MTLFunctionHandle> functionHandle;
-@property(readonly) NSArray *importedLibraries;
-@property(readonly) NSArray *importedSymbols;
-@property(readonly) long long lineNumber;
-@property(copy, nonatomic) NSArray *relocations;
-@property(readonly) unsigned long long renderTargetArrayIndexType;
-@property(readonly) MTLType *returnType;
-@property(readonly, copy) NSString *unpackedFilePath;
 @end
 

@@ -8,21 +8,18 @@ __attribute__((visibility("hidden")))
 @interface FI_TPopUpButton
 {
     struct TriStateBool _isEnabledCacheWhenNotKey;
-    _Bool _isInsideWindowChangedKeyState;
-    double _widthPadding;
-    _Bool _acceptsFirstMouse;
 }
 
 - (double);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)?;
 - (void);
 - (_Bool);
+- (void)2;
+- (_Bool)setHasAdditionalSections:(id)arg1;
+- (void)senderLeadingToSuperviewConstraint;
 - (void);
-- (void);
-- (id);
+- (id)anager";
 - (struct CGSize);
 - (id);
 - (id);
@@ -30,7 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool acceptsFirstMouse; // @synthesize acceptsFirstMouse=_acceptsFirstMouse;
-@property(nonatomic) double widthPadding; // @synthesize widthPadding=_widthPadding;
 
 @end
 

@@ -9,48 +9,11 @@
 @interface PXContentSyndicationSettings : PXSettings
 {
     _Bool _contentSyndicationEnabled;
-    _Bool _ignoreSocialLayerEnablement;
-    _Bool _showSidebarItemEvenIfNoSyndicatedContentAvailable;
-    _Bool _shouldMockChallengeQuestions;
-    _Bool _showSyndicatedContentInLibrary;
-    _Bool _enableFilteringCuratedGridsForContentSyndication;
-    _Bool _showContentSyndicationInSystemPhotoLibraryOnly;
-    _Bool _useUserLibraryForSyndicatedAssets;
-    _Bool _delayLoadingActualDataSourceUntilAfterLaunch;
-    _Bool _loadVerySmallInitialBatchOfRecentCollections;
-    _Bool _shouldHorizontallyCenterAttributionViewInGrid;
-    _Bool _alwaysLeadingAlignAttributionViewOnRegularWidthPads;
-    _Bool _showSyndicatedContentWidgetForSavedAssets;
-    _Bool _showSyndicatedContentWidgetForGuestAssets;
-    _Bool _showSyndicated1upPillUI;
-    _Bool _preventActualSaveToLibraryBehavior;
-    _Bool _preventActualRemoveSuggestionBehavior;
-    _Bool _treatEveryAssetAsGuest;
-    _Bool _enableStackAspectRatio;
-    _Bool _enableStackSmartCrop;
-    _Bool _useSystemLibraryForReview;
-    _Bool _useRandomStatusForReview;
-    _Bool _mockNumberOfAssetsSaved;
-    _Bool _waitForAndLogAssetArrivalWhenSaving;
-    unsigned short _reviewProcessingValuesScope;
-    long long _dataSourceType;
-    unsigned long long _maxNumberOfBatches;
-    unsigned long long _maxNumberOfAssetsPerBatch;
-    double _blackOverlayForFirstThumbnail;
-    double _blackOverlayForSecondThumbnail;
-    double _blackOverlayForThirdThumbnail;
-    long long _itemCellBlurStyle;
-    long long _syndicated1upPillAlignment;
-    long long _savedAssetViewVisibility;
-    unsigned long long _numberOfMinutesToShowPillUIAfterSaving;
-    long long _reviewScope;
-    unsigned long long _photosGridViewContents;
-    long long _footerMockType;
 }
 
 + (id);
++ (id)numberWithBool: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -91,18 +54,18 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
+- (long long);
+- (long long)=;
 - (unsigned short);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -111,7 +74,7 @@
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -120,7 +83,7 @@
 - (_Bool);
 - (double);
 - (double);
-- (double);
+- (double)Ri!ɚ;
 - (_Bool);
 - (void);
 - (void);
@@ -131,44 +94,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysLeadingAlignAttributionViewOnRegularWidthPads; // @synthesize alwaysLeadingAlignAttributionViewOnRegularWidthPads=_alwaysLeadingAlignAttributionViewOnRegularWidthPads;
-@property(nonatomic) double blackOverlayForFirstThumbnail; // @synthesize blackOverlayForFirstThumbnail=_blackOverlayForFirstThumbnail;
-@property(nonatomic) double blackOverlayForSecondThumbnail; // @synthesize blackOverlayForSecondThumbnail=_blackOverlayForSecondThumbnail;
-@property(nonatomic) double blackOverlayForThirdThumbnail; // @synthesize blackOverlayForThirdThumbnail=_blackOverlayForThirdThumbnail;
 @property(nonatomic) _Bool contentSyndicationEnabled; // @synthesize contentSyndicationEnabled=_contentSyndicationEnabled;
-@property(nonatomic) long long dataSourceType; // @synthesize dataSourceType=_dataSourceType;
-@property(nonatomic) _Bool delayLoadingActualDataSourceUntilAfterLaunch; // @synthesize delayLoadingActualDataSourceUntilAfterLaunch=_delayLoadingActualDataSourceUntilAfterLaunch;
-@property(nonatomic) _Bool enableFilteringCuratedGridsForContentSyndication; // @synthesize enableFilteringCuratedGridsForContentSyndication=_enableFilteringCuratedGridsForContentSyndication;
-@property(nonatomic) _Bool enableStackAspectRatio; // @synthesize enableStackAspectRatio=_enableStackAspectRatio;
-@property(nonatomic) _Bool enableStackSmartCrop; // @synthesize enableStackSmartCrop=_enableStackSmartCrop;
-@property(nonatomic) long long footerMockType; // @synthesize footerMockType=_footerMockType;
-@property(nonatomic) _Bool ignoreSocialLayerEnablement; // @synthesize ignoreSocialLayerEnablement=_ignoreSocialLayerEnablement;
-@property(nonatomic) long long itemCellBlurStyle; // @synthesize itemCellBlurStyle=_itemCellBlurStyle;
-@property(nonatomic) _Bool loadVerySmallInitialBatchOfRecentCollections; // @synthesize loadVerySmallInitialBatchOfRecentCollections=_loadVerySmallInitialBatchOfRecentCollections;
-@property(nonatomic) unsigned long long maxNumberOfAssetsPerBatch; // @synthesize maxNumberOfAssetsPerBatch=_maxNumberOfAssetsPerBatch;
-@property(nonatomic) unsigned long long maxNumberOfBatches; // @synthesize maxNumberOfBatches=_maxNumberOfBatches;
-@property(nonatomic) _Bool mockNumberOfAssetsSaved; // @synthesize mockNumberOfAssetsSaved=_mockNumberOfAssetsSaved;
-@property(nonatomic) unsigned long long numberOfMinutesToShowPillUIAfterSaving; // @synthesize numberOfMinutesToShowPillUIAfterSaving=_numberOfMinutesToShowPillUIAfterSaving;
-@property(nonatomic) unsigned long long photosGridViewContents; // @synthesize photosGridViewContents=_photosGridViewContents;
-@property(nonatomic) _Bool preventActualRemoveSuggestionBehavior; // @synthesize preventActualRemoveSuggestionBehavior=_preventActualRemoveSuggestionBehavior;
-@property(nonatomic) _Bool preventActualSaveToLibraryBehavior; // @synthesize preventActualSaveToLibraryBehavior=_preventActualSaveToLibraryBehavior;
-@property(nonatomic) unsigned short reviewProcessingValuesScope; // @synthesize reviewProcessingValuesScope=_reviewProcessingValuesScope;
-@property(nonatomic) long long reviewScope; // @synthesize reviewScope=_reviewScope;
-@property(nonatomic) long long savedAssetViewVisibility; // @synthesize savedAssetViewVisibility=_savedAssetViewVisibility;
-@property(nonatomic) _Bool shouldHorizontallyCenterAttributionViewInGrid; // @synthesize shouldHorizontallyCenterAttributionViewInGrid=_shouldHorizontallyCenterAttributionViewInGrid;
-@property(nonatomic) _Bool shouldMockChallengeQuestions; // @synthesize shouldMockChallengeQuestions=_shouldMockChallengeQuestions;
-@property(nonatomic) _Bool showContentSyndicationInSystemPhotoLibraryOnly; // @synthesize showContentSyndicationInSystemPhotoLibraryOnly=_showContentSyndicationInSystemPhotoLibraryOnly;
-@property(nonatomic) _Bool showSidebarItemEvenIfNoSyndicatedContentAvailable; // @synthesize showSidebarItemEvenIfNoSyndicatedContentAvailable=_showSidebarItemEvenIfNoSyndicatedContentAvailable;
-@property(nonatomic) _Bool showSyndicated1upPillUI; // @synthesize showSyndicated1upPillUI=_showSyndicated1upPillUI;
-@property(nonatomic) _Bool showSyndicatedContentInLibrary; // @synthesize showSyndicatedContentInLibrary=_showSyndicatedContentInLibrary;
-@property(nonatomic) _Bool showSyndicatedContentWidgetForGuestAssets; // @synthesize showSyndicatedContentWidgetForGuestAssets=_showSyndicatedContentWidgetForGuestAssets;
-@property(nonatomic) _Bool showSyndicatedContentWidgetForSavedAssets; // @synthesize showSyndicatedContentWidgetForSavedAssets=_showSyndicatedContentWidgetForSavedAssets;
-@property(nonatomic) long long syndicated1upPillAlignment; // @synthesize syndicated1upPillAlignment=_syndicated1upPillAlignment;
-@property(nonatomic) _Bool treatEveryAssetAsGuest; // @synthesize treatEveryAssetAsGuest=_treatEveryAssetAsGuest;
-@property(nonatomic) _Bool useRandomStatusForReview; // @synthesize useRandomStatusForReview=_useRandomStatusForReview;
-@property(nonatomic) _Bool useSystemLibraryForReview; // @synthesize useSystemLibraryForReview=_useSystemLibraryForReview;
-@property(nonatomic) _Bool useUserLibraryForSyndicatedAssets; // @synthesize useUserLibraryForSyndicatedAssets=_useUserLibraryForSyndicatedAssets;
-@property(nonatomic) _Bool waitForAndLogAssetArrivalWhenSaving; // @synthesize waitForAndLogAssetArrivalWhenSaving=_waitForAndLogAssetArrivalWhenSaving;
 
 @end
 

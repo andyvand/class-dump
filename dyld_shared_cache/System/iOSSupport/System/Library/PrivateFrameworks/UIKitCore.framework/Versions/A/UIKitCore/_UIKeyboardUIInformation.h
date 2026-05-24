@@ -4,38 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSAnimationFenceHandle, NSString;
-
 @interface _UIKeyboardUIInformation
 {
     _Bool _keyboardOnScreen;
-    _Bool _assistantBarVisible;
-    _Bool _requiresHeightForIntegratedAssistantBar;
-    _Bool _animated;
-    _Bool _tracking;
-    _Bool _resizing;
-    _Bool _isLocal;
-    _Bool _changedAccessoryOnly;
-    _Bool _assistantOnScreenOnly;
-    _Bool _forceNotification;
-    _Bool _wasCausedRemotely;
-    _Bool _dueToRotation;
-    _Bool _startNotification;
-    BKSAnimationFenceHandle *_animationFence;
-    NSString *_currentInputMode;
-    unsigned long long _uiPosition;
-    unsigned long long _keyboardScenePresentationMode;
-    long long _orientation;
-    NSString *_applicationIdentifier;
-    NSString *_bundleIdentifier;
-    double _duration;
-    unsigned long long _options;
-    unsigned long long _assistantPosition;
-    unsigned long long _notification;
-    struct CGRect _keyboardPosition;
-    struct CGRect _beginFrame;
-    struct CGRect _endFrame;
-    struct CGRect _assistantFrame;
 }
 
 + (id);
@@ -52,13 +23,13 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)contentViews;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
 - (void)Y1Â0@ù
 × ;
@@ -73,15 +44,15 @@
 × ;
 - (_Bool)ùÑeð1Â0@ù
 × ;
-- (void):(struct CGRect)arg1;
-- (void)ndexPath:(id)arg1;
-- (void)sOrCancelHUDPresentationIfNeeded;
-- (long long)lassicCanvasViewClass;
+- (void)titleViewContentBaseHeight:(struct CGRect)arg1;
+- (void)setInitiatingIndexPath:(id)arg1;
+- (void)dismissOrCancelHUDPresentationIfNeeded;
+- (long long)classicCanvasViewClass;
 - (void)_setShouldDeferTransitions:(id)arg1;
-- (id)Subviews;
+- (id)_ignoreLayoutSubviews;
 - (id)_preferredAttachmentEdge;
 - (id)eholder",VpdfPlaceHolderView;
-- (id)pItem;
+- (id)_UITableViewDropItem;
 - (void);
 - (_Bool)$;
 - (void)ure=%s; viewport=%s;
@@ -90,12 +61,12 @@
 - (_Bool)rarchy up
 ;
 - (void)ferredInspectorColumnWidth:(unsigned long long)arg1 ];
-- (_Bool)s;
+- (_Bool)searchBarSettings;
 - (_Bool)Variant;
 - (void)tonBar"8@"UIBarButtonItem"16@"UIView"24;
 - (void)Attempting to begin a transition on navigation bar (;
-- (unsigned long long)arFrameAssistant;
-- (void)ng;
+- (unsigned long long)FloatingBarFrameAssistant;
+- (void)KeyboardNotificationMessageProviding;
 - (_Bool);
 - (void)_UISliderColorVisualElement;
 - (struct CGRect)sþ=c43ØsþÝb43èÙsþåb43ØÙsþ½b43LØsþc43 Øsþb43Øsþb43Øsþåb43ÜØsþc43¤Ùsþíb43ÔØsþ;
@@ -115,34 +86,7 @@
 1Ðàûa;
 
 // Remaining properties
-@property(readonly) _Bool animated; // @synthesize animated=_animated;
-@property(readonly, copy) BKSAnimationFenceHandle *animationFence; // @synthesize animationFence=_animationFence;
-@property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property _Bool assistantBarVisible; // @synthesize assistantBarVisible=_assistantBarVisible;
-@property(nonatomic) struct CGRect assistantFrame; // @synthesize assistantFrame=_assistantFrame;
-@property(nonatomic) _Bool assistantOnScreenOnly; // @synthesize assistantOnScreenOnly=_assistantOnScreenOnly;
-@property(nonatomic) unsigned long long assistantPosition; // @synthesize assistantPosition=_assistantPosition;
 @property(nonatomic) struct CGRect beginFrame; // @synthesize beginFrame=_beginFrame;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) _Bool changedAccessoryOnly; // @synthesize changedAccessoryOnly=_changedAccessoryOnly;
-@property(copy, nonatomic) NSString *currentInputMode; // @synthesize currentInputMode=_currentInputMode;
-@property(nonatomic) _Bool dueToRotation; // @synthesize dueToRotation=_dueToRotation;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) struct CGRect endFrame; // @synthesize endFrame=_endFrame;
-@property(nonatomic) _Bool forceNotification; // @synthesize forceNotification=_forceNotification;
-@property _Bool isLocal; // @synthesize isLocal=_isLocal;
-@property(readonly) _Bool keyboardOnScreen; // @synthesize keyboardOnScreen=_keyboardOnScreen;
-@property(readonly) struct CGRect keyboardPosition; // @synthesize keyboardPosition=_keyboardPosition;
-@property unsigned long long keyboardScenePresentationMode; // @synthesize keyboardScenePresentationMode=_keyboardScenePresentationMode;
-@property(nonatomic) unsigned long long notification; // @synthesize notification=_notification;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly) long long orientation; // @synthesize orientation=_orientation;
-@property _Bool requiresHeightForIntegratedAssistantBar; // @synthesize requiresHeightForIntegratedAssistantBar=_requiresHeightForIntegratedAssistantBar;
-@property(nonatomic) _Bool resizing; // @synthesize resizing=_resizing;
-@property(nonatomic, getter=isStartNotification) _Bool startNotification; // @synthesize startNotification=_startNotification;
-@property(readonly) _Bool tracking; // @synthesize tracking=_tracking;
-@property unsigned long long uiPosition; // @synthesize uiPosition=_uiPosition;
-@property(nonatomic) _Bool wasCausedRemotely; // @synthesize wasCausedRemotely=_wasCausedRemotely;
 
 @end
 

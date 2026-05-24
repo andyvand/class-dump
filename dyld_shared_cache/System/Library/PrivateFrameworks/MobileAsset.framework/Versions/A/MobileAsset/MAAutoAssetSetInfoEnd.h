@@ -9,12 +9,11 @@
 @interface MAAutoAssetSetInfoEnd
 {
     NSString *_endLockReason;
-    long long _endLockCount;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)legacyExchangeMode;
 - (id);
 - (long long);
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long endLockCount; // @synthesize endLockCount=_endLockCount;
 @property(readonly, retain, nonatomic) NSString *endLockReason; // @synthesize endLockReason=_endLockReason;
 
 @end

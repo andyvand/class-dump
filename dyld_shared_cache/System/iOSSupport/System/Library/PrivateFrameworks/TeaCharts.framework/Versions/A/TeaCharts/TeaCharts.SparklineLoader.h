@@ -7,7 +7,6 @@
 @interface TeaCharts.SparklineLoader
 {
     id imageGenerator;
-    id imageGenerationQueue;
 }
 
 @end

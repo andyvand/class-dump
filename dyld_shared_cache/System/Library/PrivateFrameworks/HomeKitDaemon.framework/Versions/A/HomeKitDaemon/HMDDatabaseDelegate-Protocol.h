@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAFuture, NSString;
+@class NAFuture, NSDictionary, NSString;
 @protocol HMDDatabase;
 
 @protocol HMDDatabaseDelegate
 
 @optional
-- (NAFuture *)ticResponses:(id <HMDDatabase>)arg1 message:(NSString *)arg2;
+- (void)initWithGeoWaypointRoute:(id <HMDDatabase>)arg1 initializerData:(NSString *)arg2;
+- (void)initWithFeedbackRequestParameters:(id <HMDDatabase>)arg1 userInfo:(NSDictionary *)arg2 traits: /* Error: Ran out of types for this method. */;
+- (void)initWithDelegate:(id <HMDDatabase>)arg1 queue:(NSString *)arg2 label:(_Bool)arg3;
+- (NAFuture *)_receivedRemotelyChangedCharacteristicResponses:(id <HMDDatabase>)arg1 message:(NSString *)arg2;
 @end
 

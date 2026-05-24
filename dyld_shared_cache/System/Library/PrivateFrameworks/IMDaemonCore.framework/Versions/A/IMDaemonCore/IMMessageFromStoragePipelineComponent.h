@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDMessageFromStorageController;
-
 @interface IMMessageFromStoragePipelineComponent
 {
     unsigned long long _processingType;
-    id _broadcaster;
-    IMDMessageFromStorageController *_storageController;
 }
 
 - (id);

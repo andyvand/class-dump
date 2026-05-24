@@ -7,13 +7,6 @@
 @interface UIKit.UIScrollEdgeEffectTagReceiver__priv_86A58F9D1ED17F2B0CAEA2FDC739EFBB
 {
     id _proxy;
-    id _rootView;
-    id animation;
-    id pendingRemoved;
-    id pendingAdded;
-    id pendingUpdated;
-    id elements;
-    id _$observationRegistrar;
 }
 
 @end

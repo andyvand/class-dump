@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol UIWebSelectedItemPrivate;
 
 __attribute__((visibility("hidden")))
 @interface UIWebOptGroup
 {
     id <UIWebSelectedItemPrivate> _group;
-    NSArray *_options;
-    long long _offset;
 }
 
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)d rsa signature;
+- (void)__MPModelPropertyTVEpisodeLastDevicePlaybackDate__MAPPING_MISSING__;
 - (void);
 - (id)0@ù
 × ;
@@ -25,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (long long)lë/ÿçUØÐ,c;
 
 // Remaining properties
-@property(retain, nonatomic) id <UIWebSelectedItemPrivate> group; // @synthesize group=_group;
 @property(readonly, nonatomic) long long offset; // @synthesize offset=_offset;
-@property(retain, nonatomic) NSArray *options; // @synthesize options=_options;
 
 @end
 

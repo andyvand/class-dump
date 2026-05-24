@@ -6,17 +6,12 @@
 
 #import <OfficeImport/OCDDelayedMedia.h>
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface OADMovie : OCDDelayedMedia
 {
     NSData *mData;
-    NSString *mName;
-    float mStart;
-    float mEnd;
-    _Bool mIsAudioOnly;
-    _Bool loop;
 }
 
 - (void);
@@ -31,16 +26,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)rDataForEntry:(id)arg1;
+- (void)writeCentralFileHeaderDataForEntry:(id)arg1;
 - (void) ;
 
 // Remaining properties
 @property(retain) NSData *data; // @synthesize data=mData;
-@property _Bool isAudioOnly; // @synthesize isAudioOnly=mIsAudioOnly;
-@property _Bool loop; // @synthesize loop;
-@property float movieEndPoint; // @synthesize movieEndPoint=mEnd;
-@property float movieStartPoint; // @synthesize movieStartPoint=mStart;
-@property(retain) NSString *name; // @synthesize name=mName;
 
 @end
 

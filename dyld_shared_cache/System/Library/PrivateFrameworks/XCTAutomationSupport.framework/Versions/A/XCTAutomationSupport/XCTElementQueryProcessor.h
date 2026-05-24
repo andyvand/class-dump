@@ -10,7 +10,6 @@
 @interface XCTElementQueryProcessor
 {
     id <XCTElementSnapshotProvider><XCTElementSnapshotAttributeDataSource> _dataSource;
-    XCTCapabilities *_remoteInterfaceCapabilities;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) __weak id <XCTElementSnapshotProvider><XCTElementSnapshotAttributeDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(retain) XCTCapabilities *remoteInterfaceCapabilities; // @synthesize remoteInterfaceCapabilities=_remoteInterfaceCapabilities;
 
 @end

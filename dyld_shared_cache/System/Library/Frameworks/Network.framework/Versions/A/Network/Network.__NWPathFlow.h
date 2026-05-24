@@ -9,10 +9,9 @@
 @interface Network.__NWPathFlow
 {
     id flow;
-    id keyStorage;
 }
 
-- (void);
+- (void)lockDataProviderGetBytePointer(void * _Nullable);
 - (id);
 - (id);
 - (void)@;

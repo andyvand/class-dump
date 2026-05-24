@@ -9,24 +9,16 @@
 @interface GEOLatLng
 {
     PBUnknownFields *_unknownFields;
-    double _elevationM;
-    double _lat;
-    double _lng;
-    _Bool _gtLog;
-    struct {
-        unsigned int has_elevationM:1;
-        unsigned int has_gtLog:1;
-    } _flags;
 }
 
-+ (_Bool)ype:(id)arg1;
++ (_Bool)setHasServiceMetadataType:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -34,7 +26,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool)*ð1Â0@ù
@@ -44,7 +36,7 @@
 - (void)'°!ÔGù1¹*ð1Â0@ù
 × ;
 - (id)setOverrideCurrencyCode:(struct _NSZone *)arg1;
-- (id)me: /* Error: Ran out of types for this method. */;
+- (id)StringAsProtocolName: /* Error: Ran out of types for this method. */;
 - (id)de:%@ /* Error: Ran out of types for this method. */;
 - (void)16@?0@"GEOPeer"8;
 - (id);
@@ -58,13 +50,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(nonatomic) double elevationM;
-@property(nonatomic) _Bool gtLog;
-@property(nonatomic) _Bool hasElevationM;
-@property(nonatomic) _Bool hasGtLog;
-@property(nonatomic) double lat;
-@property(nonatomic) double lng;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

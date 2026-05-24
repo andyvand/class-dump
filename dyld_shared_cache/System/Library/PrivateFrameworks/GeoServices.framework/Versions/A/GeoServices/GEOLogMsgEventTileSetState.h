@@ -9,19 +9,9 @@
 @interface GEOLogMsgEventTileSetState
 {
     PBUnknownFields *_unknownFields;
-    double _durationInOldState;
-    double _newCoverage;
-    double _oldCoverage;
-    int _tileSetStateType;
-    struct {
-        unsigned int has_durationInOldState:1;
-        unsigned int has_newCoverage:1;
-        unsigned int has_oldCoverage:1;
-        unsigned int has_tileSetStateType:1;
-    } _flags;
 }
 
-+ (_Bool)ituteType:(id)arg1;
++ (_Bool)setHasStringSubstituteType:(id)arg1;
 - (id);
 - (int);
 - (void);
@@ -36,37 +26,29 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
-- (void);
-- (void);
+- (double)nToken">16Q24;
+- (void)CNClientLoggingIdentifier;
+- (void)$CPD;
 - (int);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)솒;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)stCIMessage=IIQ};
 - (_Bool);
 - (void);
-- (id)sTLSSessionTickets:(struct _NSZone *)arg1;
+- (id)set_allowsTLSSessionTickets:(struct _NSZone *)arg1;
 - (id)eps;
 - (id);
 - (id);
 - (void)Ê­3;
 
 // Remaining properties
-@property(nonatomic) double durationInOldState;
 @property(nonatomic) _Bool hasDurationInOldState;
-@property(nonatomic) _Bool hasNewCoverage;
-@property(nonatomic) _Bool hasOldCoverage;
-@property(nonatomic) _Bool hasTileSetStateType;
-@property(nonatomic) double newCoverage;
-@property(nonatomic) double oldCoverage;
-@property(nonatomic) int tileSetStateType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

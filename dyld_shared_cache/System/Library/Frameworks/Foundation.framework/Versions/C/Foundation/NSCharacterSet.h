@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(readonly, copy) NSData *bitmapRepresentation;
-@property(readonly, copy) NSCharacterSet *invertedSet;
 @end
 

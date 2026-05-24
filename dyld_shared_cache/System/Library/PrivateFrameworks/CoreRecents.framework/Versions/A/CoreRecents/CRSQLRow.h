@@ -11,18 +11,18 @@
 
 + (id);
 + (id);
++ (int)Ho;
 + (int);
-+ (int);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)ibrary/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities;
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 
 @end
 

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIView *_keyboardSnapshotView;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)url;
+- (void)KR9yMQG;
+- (id)attachmentsDidChange;
 - (_Bool);
 - (void);
 - (void)\G) ÆDÿ ÆDÿ;

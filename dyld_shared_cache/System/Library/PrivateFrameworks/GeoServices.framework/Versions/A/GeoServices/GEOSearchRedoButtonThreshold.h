@@ -7,24 +7,18 @@
 @interface GEOSearchRedoButtonThreshold
 {
     unsigned long long _numberOfVisiblePoisThreshold;
-    double _zoomInPercentThreshold;
-    double _zoomOutPercentThreshold;
-    double _panDeltaThresholdInMeters;
 }
 
 - (double);
 - (double);
 - (double);
 - (unsigned long long);
-- (id);
-- (id);
+- (id):(id)arg1 8@16:24 /* Error: Ran out of types for this method. */;
+- (id)substringFromIndex:(unsigned long long)arg1;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfVisiblePoisThreshold; // @synthesize numberOfVisiblePoisThreshold=_numberOfVisiblePoisThreshold;
-@property(readonly, nonatomic) double panDeltaThresholdInMeters; // @synthesize panDeltaThresholdInMeters=_panDeltaThresholdInMeters;
-@property(readonly, nonatomic) double zoomInPercentThreshold; // @synthesize zoomInPercentThreshold=_zoomInPercentThreshold;
-@property(readonly, nonatomic) double zoomOutPercentThreshold; // @synthesize zoomOutPercentThreshold=_zoomOutPercentThreshold;
 
 @end
 

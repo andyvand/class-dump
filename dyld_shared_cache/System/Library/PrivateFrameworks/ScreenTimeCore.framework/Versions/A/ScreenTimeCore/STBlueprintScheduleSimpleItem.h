@@ -9,18 +9,16 @@
 @interface STBlueprintScheduleSimpleItem
 {
     NSDateComponents *_startTime;
-    NSDateComponents *_endTime;
 }
 
 - (id);
-- (void);
+- (void)l;
 - (id);
 - (id);
 - (void);
 - (void)y;
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *endTime; // @synthesize endTime=_endTime;
 @property(retain, nonatomic) NSDateComponents *startTime; // @synthesize startTime=_startTime;
 
 @end

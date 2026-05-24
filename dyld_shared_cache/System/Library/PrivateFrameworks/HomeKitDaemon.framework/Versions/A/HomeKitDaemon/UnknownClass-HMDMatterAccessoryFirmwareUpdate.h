@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFSoftwareVersion;
-
 @interface UnknownClass (HMDMatterAccessoryFirmwareUpdate)
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(readonly, getter=isMatterAsset) _Bool matterAsset;
-@property(readonly, copy) HMFSoftwareVersion *softwareVersion;
 @end
 

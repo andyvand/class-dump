@@ -5,5 +5,9 @@
 //
 
 @protocol ACMonitoredAccountStoreDelegateProtocol
+
+@optional
+- (void)B;
+- (void)k>;
 @end
 

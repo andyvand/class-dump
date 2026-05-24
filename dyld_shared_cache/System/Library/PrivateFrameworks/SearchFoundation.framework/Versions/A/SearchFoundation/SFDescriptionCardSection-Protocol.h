@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString, NSURL, SFImage, SFText;
+@class NSArray, SFText;
 
 @protocol SFDescriptionCardSection
+- (_Bool)c;
+- (NSArray *)*;
+- (void);
+- (void)P;
+- (void)tification;
 
 // Remaining properties
-@property(retain, nonatomic) SFImage *attributionGlyph;
-@property(copy, nonatomic) NSString *attributionText;
-@property(copy, nonatomic) NSURL *attributionURL;
-@property(nonatomic) _Bool descriptionExpand;
-@property(copy, nonatomic) NSNumber *descriptionSize;
 @property(retain, nonatomic) SFText *descriptionText;
-@property(copy, nonatomic) NSNumber *descriptionWeight;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *expandText;
-@property(retain, nonatomic) SFImage *image;
-@property(nonatomic) int imageAlign;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *richDescriptions;
-@property(nonatomic) int textAlign;
-@property(nonatomic) _Bool titleNoWrap;
-@property(copy, nonatomic) NSNumber *titleWeight;
 @end
 

@@ -16,9 +16,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityCaption; // @dynamic accessibilityCaption;
-@property(readonly, nonatomic) NSString *caption; // @dynamic caption;
-@property(readonly, nonatomic) NSString *resourceIdentifier; // @dynamic resourceIdentifier;
 @property(readonly, nonatomic) NSString *stillImageIdentifier; // @dynamic stillImageIdentifier;
 
 @end

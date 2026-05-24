@@ -9,18 +9,16 @@
 @interface SGDataDetectorMatchesWithSignatureRange
 {
     NSArray *_matches;
-    struct _NSRange _signatureRange;
 }
 
 - (struct _NSRange);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)Ü;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *matches; // @synthesize matches=_matches;
-@property(nonatomic) struct _NSRange signatureRange; // @synthesize signatureRange=_signatureRange;
 
 @end
 

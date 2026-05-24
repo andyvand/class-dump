@@ -9,14 +9,13 @@
 @interface AVTAvatarEditorColorsState
 {
     AVTAvatarColorVariationStore *_variationStore;
-    NSMutableDictionary *_colorStorage;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *colorStorage; // @synthesize colorStorage=_colorStorage;
-@property(readonly, nonatomic) AVTAvatarColorVariationStore *variationStore; // @synthesize variationStore=_variationStore;
 
 @end
 

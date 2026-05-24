@@ -6,48 +6,34 @@
 
 #import <CoreHandwriting/CHPointFIFO.h>
 
-@protocol CHPointFIFODrawingTarget;
-
 @interface CHQuadCurvePointFIFO : CHPointFIFO
 {
     _Bool _emitInterpolatedPoints;
-    float _unitScale;
-    CDUnknownBlockType _emissionHandler;
-    struct CGPath *_path;
-    double _lineWidth;
-    id <CHPointFIFODrawingTarget> _drawingTarget;
-    id _lastPoint;
-    struct vector<float __attribute__((ext_vector_type(4))), std::allocator<float __attribute__((ext_vector_type(4)))>> _prevPoints;
-    struct vector<float __attribute__((ext_vector_type(4))), std::allocator<float __attribute__((ext_vector_type(4)))>> _points;
-    struct vector<float __attribute__((ext_vector_type(4))), std::allocator<float __attribute__((ext_vector_type(4)))>> _controlPoints;
 }
 
-+ (id);
-- (id);
-- (float);
++ (id)T;
+- (id)1
+(JJ!;
+- (float);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)a;
+- (void);
+- (id)B;
 - (_Bool);
 - (CDUnknownBlockType);
-- (void);
+- (void)duplicate asset resources for placeholder asset:%@ error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (struct CGPath *);
+- (struct CGPath *)_saveImagesAsJPEGRowVisible;
 - (double)updatedStrokeIdentifiers:orderedStrokeIdentifiers:strokeBoundsPerStrokeIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType emissionHandler; // @synthesize emissionHandler=_emissionHandler;
-@property(nonatomic) _Bool emitInterpolatedPoints; // @synthesize emitInterpolatedPoints=_emitInterpolatedPoints;
-@property(nonatomic) double lineWidth; // @synthesize lineWidth=_lineWidth;
-@property(nonatomic) struct CGPath *path; // @synthesize path=_path;
 @property(nonatomic) float unitScale; // @synthesize unitScale=_unitScale;
 
 @end

@@ -7,9 +7,6 @@
 @interface PhotoAnalysis.CreativePromptValidator
 {
     id logger;
-    id globalTraitsGenerator;
-    id safetyController;
-    id promptSuggestionValidator;
 }
 
 @end

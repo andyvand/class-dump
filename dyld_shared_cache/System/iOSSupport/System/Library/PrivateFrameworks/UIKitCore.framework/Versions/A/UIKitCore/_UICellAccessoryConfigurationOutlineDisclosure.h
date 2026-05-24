@@ -6,21 +6,18 @@
 
 #import <UIKitCore/_UICellAccessoryConfiguration.h>
 
-@class UIColor, UIImage;
+@class UIImage;
 
 @interface _UICellAccessoryConfigurationOutlineDisclosure : _UICellAccessoryConfiguration
 {
     _Bool _cellSelectionTogglesExpansionState;
-    double _rotationAngle;
-    UIColor *_selectedTintColor;
-    UIImage *__customImage;
 }
 
 + (id);
 + (_Bool)year, .month, .day];
-- (void);
-- (id);
-- (id);
+- (void)sourceLanguage;
+- (id)handler:messageIDDelivered:toIdentifier:fromIdentifier:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
+- (id)spatcherQueue;
 - (_Bool);
 - (id);
 - (void);
@@ -30,8 +27,8 @@
 - (id);
 - (id)°1Â0@ù
 × ;
-- (_Bool)rvice:(id)arg1;
-- (void)ctionView;
+- (_Bool)setService:(id)arg1;
+- (void)predictionView;
 - (id)stment;
 - (id)paratorView;
 - (id)ng. (selector);
@@ -40,10 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *_customImage; // @synthesize _customImage=__customImage;
-@property(readonly, nonatomic) _Bool cellSelectionTogglesExpansionState; // @synthesize cellSelectionTogglesExpansionState=_cellSelectionTogglesExpansionState;
-@property(retain, nonatomic) UIImage *image;
-@property(nonatomic) double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(retain, nonatomic) UIColor *selectedTintColor; // @synthesize selectedTintColor=_selectedTintColor;
 
 @end
 

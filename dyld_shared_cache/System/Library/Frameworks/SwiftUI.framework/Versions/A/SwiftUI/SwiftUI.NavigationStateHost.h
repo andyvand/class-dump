@@ -7,11 +7,6 @@
 @interface SwiftUI.NavigationStateHost
 {
     id navigationState;
-    id pendingRequests;
-    id selectionHost;
-    id seedHost;
-    id controllerCache;
-    id initializedNavState;
 }
 
 @end

@@ -4,66 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSDynamicColor, CHSExtensionIdentity, NSArray, NSData, NSString;
+@class CHSExtensionIdentity;
 
 @interface CHSBaseDescriptor
 {
     CHSExtensionIdentity *_extensionIdentity;
-    NSString *_nativeContainerBundleIdentifier;
-    NSString *_displayName;
-    NSString *_widgetDescription;
-    NSString *_eventMachServiceName;
-    NSData *_localeToken;
-    long long _preferredBackgroundStyle;
-    _Bool _supportsVibrantContent;
-    _Bool _internal;
-    unsigned long long _version;
-    NSString *_sdkVersion;
-    unsigned long long _platform;
-    _Bool _hiddenBySensitiveUI;
-    _Bool _promptsForUserConfiguration;
-    unsigned long long _enablement;
-    NSArray *_requiredFeatureFlags;
-    long long _requestedDataProtection;
-    CHSDynamicColor *_configurationBackgroundColor;
-    CHSDynamicColor *_configurationAccentColor;
-    _Bool _hidden;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) CHSDynamicColor *configurationAccentColor; // @synthesize configurationAccentColor=_configurationAccentColor;
-@property(readonly, nonatomic) CHSDynamicColor *configurationBackgroundColor; // @synthesize configurationBackgroundColor=_configurationBackgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *effectiveContainerBundleIdentifier;
-@property(nonatomic) unsigned long long enablement; // @synthesize enablement=_enablement;
-@property(readonly, copy, nonatomic) NSString *eventMachServiceName; // @synthesize eventMachServiceName=_eventMachServiceName;
-@property(readonly, nonatomic) CHSExtensionIdentity *extensionIdentity; // @synthesize extensionIdentity=_extensionIdentity;
-@property(readonly, nonatomic) _Bool hasIntents;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic) _Bool hiddenBySensitiveUI; // @synthesize hiddenBySensitiveUI=_hiddenBySensitiveUI;
-@property(nonatomic, getter=isInternal) _Bool internal; // @synthesize internal=_internal;
-@property(readonly, nonatomic) _Bool isEnabled;
-@property(readonly, copy, nonatomic) NSData *localeToken; // @synthesize localeToken=_localeToken;
-@property(readonly, copy, nonatomic) NSString *nativeContainerBundleIdentifier; // @synthesize nativeContainerBundleIdentifier=_nativeContainerBundleIdentifier;
-@property(readonly, nonatomic) unsigned long long platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) long long preferredBackgroundStyle; // @synthesize preferredBackgroundStyle=_preferredBackgroundStyle;
-@property(readonly, nonatomic) _Bool promptsForUserConfiguration; // @synthesize promptsForUserConfiguration=_promptsForUserConfiguration;
-@property(readonly, nonatomic) long long requestedDataProtection; // @synthesize requestedDataProtection=_requestedDataProtection;
-@property(readonly, nonatomic) NSArray *requiredFeatureFlags; // @synthesize requiredFeatureFlags=_requiredFeatureFlags;
-@property(readonly, copy, nonatomic) NSString *sdkVersion; // @synthesize sdkVersion=_sdkVersion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsVibrantContent; // @synthesize supportsVibrantContent=_supportsVibrantContent;
 @property(nonatomic) unsigned long long version; // @synthesize version=_version;
-@property(readonly, nonatomic) _Bool wasEnablementExplicitlyDeclared;
-@property(readonly, copy, nonatomic) NSString *widgetDescription; // @synthesize widgetDescription=_widgetDescription;
 
 @end
 

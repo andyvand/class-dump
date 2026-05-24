@@ -4,84 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSInternalQueueController, NSData, NSHashTable, NSMutableDictionary, NSObject, NSProtocolChecker, NSString;
-@protocol OS_dispatch_queue;
+@class IDSInternalQueueController;
 
 @interface IDSDaemonListener
 {
     IDSInternalQueueController *_internalQueueController;
-    NSObject<OS_dispatch_queue> *_ivarQueue;
-    NSHashTable *_handlers;
-    NSProtocolChecker *_protocol;
-    NSMutableDictionary *_topicToAccountDictionaries;
-    NSMutableDictionary *_topicToEnabledAccounts;
-    NSMutableDictionary *_accountToDevices;
-    NSMutableDictionary *_serviceToLinkedDevices;
-    NSMutableDictionary *_serviceToFamilyInfo;
-    NSMutableDictionary *_serviceToFamilyDevices;
-    NSMutableDictionary *_serviceToPendingInvitations;
-    NSMutableDictionary *_serviceToReceivedInvitations;
-    NSMutableDictionary *_serviceToMaxMessageSize;
-    NSMutableDictionary *_serviceToRestrictionReason;
-    NSMutableDictionary *_accountToActiveDeviceUniqueID;
-    NSMutableDictionary *_serviceToActiveDeviceUniqueID;
-    NSMutableDictionary *_directMessagingMetadata;
-    NSString *_deviceIdentifier;
-    NSData *_latestPrivateLoggingSalt;
-    long long _maxIMLPayloadSize;
-    _Bool _setupComplete;
-    _Bool _postedSetupComplete;
-    _Bool _setupInfoComplete;
-    _Bool _connectionComplete;
-    _Bool _hidingDisconnect;
 }
 
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)naryRef, APTransportConnectionRef *);
+- (id)ons dictionary;
 - (void);
+- (void);
 - (void);
+- (void)setCurrentIdentityForService:(id)arg1 identity:(id)arg2 persistentReference: /* Error: Ran out of types for this method. */;
+- (void)derive;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)BluetoothHCIBroadcomBFCReadParams:(id)arg1;
 - (id);
 - (id);
 - (void);
+- (void)KPlugIn>"16@0:(CDUnknownBlockType)arg1 8;
+- (unsigned long long)cdpContext:(id)arg1 promptForRecoveryKeyWithValidator:completion: /* Error: Ran out of types for this method. */;
+- (id)tType;
 - (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (id)MacBookPro2;
 - (long long);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)9;
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)callmodeupdateRequest;
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)h links:(id)arg1 %s;
+- (void)lu, READ, DELETE) failed with error(%d);
+- (void)), skip.;
+- (void)Request.m;
 - (void);
 - (long long);
 - (void);
@@ -89,6 +64,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,8 +72,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -114,24 +89,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)0;
 - (void);
 - (id)ngMessageBytes;
 - (void)"<IDSParakeetMessagingControllerDelegate>",W,N,V_delegate;
 - (void)er {%@}. didSendWithSuccess {%@} with error %@;
 
 // Remaining properties
-@property(nonatomic, setter=_setHidingDisconnect:) _Bool _hidingDisconnect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *deviceIdentifier;
-@property(readonly, nonatomic) _Bool hasPostedSetupComplete;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isSetupComplete;
-@property(readonly) Class superclass;
 
 @end
 

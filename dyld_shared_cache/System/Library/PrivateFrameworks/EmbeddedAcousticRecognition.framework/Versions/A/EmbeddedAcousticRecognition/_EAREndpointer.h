@@ -19,7 +19,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)etTokenIDs;
+- (id)_targetTokenIDs;
 - (void)ü;
 
 @end

@@ -6,15 +6,10 @@
 
 #import <NetAppsUtilities/_NAObserverProxy.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NAKeyValueObserverProxy : _NAObserverProxy
 {
     _Bool _isObserving;
-    CDUnknownBlockType _observerBlock;
-    id _observedObject;
-    NSString *_keyPath;
 }
 
 - (id);
@@ -22,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)scopeChangesNeedingToBePulledByClientWithMaximumCount: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly, nonatomic) __weak id observedObject; // @synthesize observedObject=_observedObject;
 @property(readonly, copy, nonatomic) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;
 
 @end

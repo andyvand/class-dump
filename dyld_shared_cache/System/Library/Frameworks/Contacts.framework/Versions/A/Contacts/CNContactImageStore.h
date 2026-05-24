@@ -14,14 +14,14 @@
 + (long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)K;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)er who should IOObjectRelease) diskIOobj=0x%x;
+- (unsigned long long)initWithCapacity:(id)arg1;
 - (void)CNXPCContactsSupport";
 
 // Remaining properties

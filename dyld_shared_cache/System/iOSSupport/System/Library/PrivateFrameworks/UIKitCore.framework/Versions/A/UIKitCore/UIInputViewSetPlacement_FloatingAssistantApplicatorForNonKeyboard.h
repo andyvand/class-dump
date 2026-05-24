@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (void)1Â0@ù
 × ;
-- (id)ForTextLayoutFragment:(id)arg1;
+- (id)textViewportLayoutController:(id)arg1 configureRenderingSurfaceForTextLayoutFragment:(id)arg2;
 
 @end
 

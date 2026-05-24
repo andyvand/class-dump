@@ -9,24 +9,17 @@
 @interface UIKBShape
 {
     UIKBGeometry *m_geometry;
-    struct CGRect m_frame;
-    struct CGRect m_paddedFrame;
-    unsigned long long m_concaveCorner;
-    struct CGSize m_concaveCornerOffset;
-    unsigned long long m_uid;
-    _Bool m_scaled;
-    UIKBShape *m_originalShape;
 }
 
-+ (id);
-+ (id);
++ (id)ification Codes | Preparing Image;
++ (id)egan generating passwordsIcon;
 + (id)Ü;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)master volume:(double)arg1 %{public}@;
 - (void);
 - (id);
 - (id);
@@ -39,20 +32,20 @@
 - (_Bool)Ô ;
 - (void)1Â0@ù
 × ;
-- (_Bool)rnersWithCornerRadii: /* Error: Ran out of types for this method. */;
-- (void)rstResponder:(id)arg1;
-- (_Bool)directory:(id)arg1 bundle: /* Error: Ran out of types for this method. */;
-- (struct CGRect):edges:inset:weight: /* Error: Ran out of types for this method. */;
-- (void)xtField;
-- (void)ng;
-- (id)ction;
+- (_Bool)updateCornersWithCornerRadii: /* Error: Ran out of types for this method. */;
+- (void)setTextFieldsCanBecomeFirstResponder:(id)arg1;
+- (_Bool)initWithNibName:(id)arg1 directory:bundle: /* Error: Ran out of types for this method. */;
+- (struct CGRect)effectWithColor:edges:inset:weight: /* Error: Ran out of types for this method. */;
+- (void)borrowedSearchTextField;
+- (void)UIKBUndoStyling;
+- (id)UIIndirectScribbleInteraction;
 - (struct CGRect)ldà<@;
 - (struct CGRect)tH§;
 - (void)ÿÿ;
 - (id)ipeActionPullView.m;
-- (unsigned long long)icPatternLibraryKeyKeyboardInputText;
+- (unsigned long long)CHHapticPatternLibraryKeyKeyboardInputText;
 - (_Bool)nst size_t, _UIBoundingPathBitmapData *);
-- (void)Style;
+- (void)preferredPresentationStyle;
 - (void)¯s¾7Sg;
 - (void);
 - (struct CGSize);
@@ -62,14 +55,7 @@
 - (void)ª¸ÿj³;
 
 // Remaining properties
-@property(nonatomic) unsigned long long concaveCorner; // @synthesize concaveCorner=m_concaveCorner;
-@property(nonatomic) struct CGSize concaveCornerOffset; // @synthesize concaveCornerOffset=m_concaveCornerOffset;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=m_frame;
-@property(retain, nonatomic) UIKBGeometry *geometry; // @synthesize geometry=m_geometry;
-@property(retain, nonatomic) UIKBShape *originalShape; // @synthesize originalShape=m_originalShape;
-@property(nonatomic) struct CGRect paddedFrame; // @synthesize paddedFrame=m_paddedFrame;
 @property(nonatomic) _Bool scaled; // @synthesize scaled=m_scaled;
-@property(readonly, nonatomic) unsigned long long uid; // @synthesize uid=m_uid;
 
 @end
 

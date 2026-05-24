@@ -9,7 +9,6 @@
 @protocol SSCAMLTimeInterval
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate;
 @property(readonly, nonatomic) NSDate *startDate;
 @end
 

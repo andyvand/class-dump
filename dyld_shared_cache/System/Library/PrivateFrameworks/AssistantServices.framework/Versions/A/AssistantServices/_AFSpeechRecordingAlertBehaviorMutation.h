@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSpeechRecordingAlertBehavior, NSString;
+@class AFSpeechRecordingAlertBehavior;
 
 @interface _AFSpeechRecordingAlertBehaviorMutation
 {
     AFSpeechRecordingAlertBehavior *_base;
-    long long _style;
-    long long _beepSoundID;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasStyle:1;
-        unsigned int hasBeepSoundID:1;
-    } _mutationFlags;
 }
 
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
-- (id)chronizeVoiceServicesLanguageCode;
-- (void)erBulletinID;
+- (id)synchronizeVoiceServicesLanguageCode;
+- (void)_publisherBulletinID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary, NSNumber, NSSet;
+
 @protocol EMFIndexStrategy
+- (NSDictionary *)oller.mm;
+- (NSNumber *)ari/Mac/Safari/Reader/ArticleFinderJSController.mm;
+- (NSArray *)8;
+- (NSSet *)ctions;
+- (NSDictionary *)w Shared with You;
 @end
 

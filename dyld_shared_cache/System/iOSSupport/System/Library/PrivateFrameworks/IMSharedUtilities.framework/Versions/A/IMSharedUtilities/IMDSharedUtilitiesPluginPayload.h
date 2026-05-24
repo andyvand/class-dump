@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL;
+@class NSData;
 
 @interface IMDSharedUtilitiesPluginPayload
 {
     _Bool _isFromMe;
-    NSData *_data;
-    NSString *_messageGUID;
-    id _dataDetectedResult;
-    NSURL *_url;
-    id _datasource;
-    NSString *_pluginBundleID;
-    NSArray *_consumedSessionPayloads;
-    NSArray *_attachments;
-    NSString *_sender;
 }
 
 - (void);
@@ -41,21 +32,11 @@
 - (id);
 - (void);
 - (void)Ù;
-- (id)odeStringValue;
+- (id)filterModeStringValue;
 - (void)g<÷;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(retain, nonatomic) NSArray *consumedSessionPayloads; // @synthesize consumedSessionPayloads=_consumedSessionPayloads;
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) id dataDetectedResult; // @synthesize dataDetectedResult=_dataDetectedResult;
-@property(nonatomic) __weak id datasource; // @synthesize datasource=_datasource;
-@property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(copy, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(retain, nonatomic) NSString *pluginBundleID; // @synthesize pluginBundleID=_pluginBundleID;
-@property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(readonly, nonatomic) _Bool supportsCollaboration;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

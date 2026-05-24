@@ -7,51 +7,39 @@
 @interface GEORPCorrectedFlag
 {
     int _flag;
-    _Bool _correctedValue;
-    _Bool _originalValue;
-    struct {
-        unsigned int has_flag:1;
-        unsigned int has_correctedValue:1;
-        unsigned int has_originalValue:1;
-    } _flags;
 }
 
-+ (_Bool)sOriginalRouteNavigable:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)setIsOriginalRouteNavigable:(id)arg1;
+- (void)Array"32@0:(_Bool)arg1 8Q16Q24;
+- (void)groupPair;
+- (void)_storeOptionsWithoutMigration;
+- (void)TB,V_showCompany;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)p;
 - (int);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)(;
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)text because there's no speech controller.;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)onName"b1"wrote_anyField"b1};
-- (id)overageOffset: /* Error: Ran out of types for this method. */;
+- (id)addCellularCoverageOffset: /* Error: Ran out of types for this method. */;
 - (id)üºÌ»¼;
 - (id)nter.powerLogging;
 
 // Remaining properties
-@property(nonatomic) _Bool correctedValue;
-@property(nonatomic) int flag;
-@property(nonatomic) _Bool hasCorrectedValue;
 @property(nonatomic) _Bool hasFlag;
-@property(nonatomic) _Bool hasOriginalValue;
-@property(nonatomic) _Bool originalValue;
 
 @end
 

@@ -7,15 +7,12 @@
 @interface NewsArticles.ANFIssueCoverViewProvider
 {
     id issue;
-    id headline;
-    id layoutAttributesFactory;
-    id renderer;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)recipe;
 
 @end
 

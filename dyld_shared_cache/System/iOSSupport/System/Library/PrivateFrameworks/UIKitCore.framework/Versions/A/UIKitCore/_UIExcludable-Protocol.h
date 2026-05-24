@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+@protocol _UIExcludable;
+
 @protocol _UIExcludable
+- (_Bool)_preferredFileTransferFromGroupPhotoGUIDs:(id <_UIExcludable>)arg1;
+- (NSString *)setReloadTimer: /* Error: Ran out of types for this method. */;
 @end
 

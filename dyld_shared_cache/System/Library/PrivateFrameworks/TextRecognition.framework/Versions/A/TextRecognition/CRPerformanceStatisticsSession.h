@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface CRPerformanceStatisticsSession
 {
     struct pc_session *_session;
-    NSDate *_start;
 }
 
 - (struct pc_session *);
 - (id);
 - (void);
 - (void)e_base<void *> *>=^v}}{?=Q}}}16;
-- (void)Fields:(id)arg1 contentType:source: /* Error: Ran out of types for this method. */;
+- (void)initWithQuad:(id)arg1 labelRegion:subFields:contentType:source: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property struct pc_session *session; // @synthesize session=_session;
-@property(retain) NSDate *start; // @synthesize start=_start;
 
 @end
 

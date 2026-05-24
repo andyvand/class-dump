@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CTNFAState
 {
     id _CTdata;
-    NSMutableDictionary *_CTinternalEdges;
-    _Bool _final;
 }
 
 - (id);
@@ -25,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id data;
-@property(nonatomic) _Bool final; // @synthesize final=_final;
 
 @end
 

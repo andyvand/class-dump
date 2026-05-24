@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBBoatTrip, _INPBReservation, _INPBSeat;
+@class _INPBBoatTrip;
 
 @interface _INPBBoatReservation
 {
     struct _has;
-    _INPBBoatTrip *_boatTrip;
-    _INPBReservation *_reservation;
-    _INPBSeat *_reservedSeat;
 }
 
 + (_Bool);
@@ -24,30 +21,18 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)ght"16;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)workTypeForNetworkName:(id)arg1;
+- (void)11 interface (non80211=%@);
 - (id);
 - (id);
-- (void)S_D_C;
+- (void)N_A_C_S_D_C;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBBoatTrip *boatTrip; // @synthesize boatTrip=_boatTrip;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBoatTrip;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly, nonatomic) _Bool hasReservedSeat;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBReservation *reservation; // @synthesize reservation=_reservation;
-@property(retain, nonatomic) _INPBSeat *reservedSeat; // @synthesize reservedSeat=_reservedSeat;
-@property(readonly) Class superclass;
 
 @end
 

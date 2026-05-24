@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTL4CommandAllocator, MTLBuffer;
+@protocol MTLBuffer;
 
 @protocol MTL4CommandBufferGGDSPI
+- (void)A;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTL4CommandAllocator> commandAllocator;
 @property(retain, nonatomic) id <MTLBuffer> privateData;
-@property(nonatomic) unsigned long long privateDataOffset;
 @end
 

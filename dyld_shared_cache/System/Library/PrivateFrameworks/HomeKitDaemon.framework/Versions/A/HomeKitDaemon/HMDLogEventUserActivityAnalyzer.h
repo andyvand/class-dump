@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDLogEventUserActivityAnalyzer : HMDHouseholdActivityLogEventContributor
 {
     HMDTimeBasedFlagsManager *_flagsManager;
-    HMDEventCounterGroup *_counterGroup;
 }
 
 + (id);
@@ -20,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)AskForPermission;
+- (void)ose connection;
 - (id);
 - (void);
 - (void);
@@ -32,20 +31,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)0@ù
 × ;
-- (void)meAsCachedIP;
-- (void)k;
+- (void)thSensorIPv4AddressSameAsCachedIP;
+- (void)HMDBackingStoreTransactionBlock;
 - (_Bool)è¶Ô¿pÃÆ¨ÆÇðÇ<É;
 - (void)led to unarchive remote streaming capabilities from remote capabilities data:(id)arg1 %@;
 - (void)ticipant local data storage with dependencies home:(id)arg1 %@ messageDispatcher:%@ dataStorage:%@ homeManager:%@ /* Error: Ran out of types for this method. */;
 - (void)%@ is not paired;
 - (void);
 - (void)Component"8;
-- (void)ortsLocalization;
+- (void)supportsLocalization;
 - (void)Ï¢;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDEventCounterGroup *counterGroup; // @synthesize counterGroup=_counterGroup;
-@property(readonly, nonatomic) HMDTimeBasedFlagsManager *flagsManager; // @synthesize flagsManager=_flagsManager;
 
 @end
 

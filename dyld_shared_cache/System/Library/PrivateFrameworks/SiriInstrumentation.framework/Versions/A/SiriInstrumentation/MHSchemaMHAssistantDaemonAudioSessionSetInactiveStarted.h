@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioSessionSetInactiveStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)nApplyingRequestPreparePackage:(_Bool)arg1 error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/t_req.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)ec:(id)arg1;
+- (id)setHasTimeDeltaToNextTurnInSec:(id)arg1;
 - (id)nd;
-- (_Bool)S;
+- (_Bool)ISOCOUNTRYCODE_ES;
 - (_Bool)$;
 - (void)¶®Z*(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

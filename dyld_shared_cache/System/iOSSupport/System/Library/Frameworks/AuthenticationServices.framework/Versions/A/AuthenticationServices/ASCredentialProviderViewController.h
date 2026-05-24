@@ -21,14 +21,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)<PKDrawingGestureRecognizerDelegate>",W,N;
 
 // Remaining properties
 @property(readonly, nonatomic) ASCredentialProviderExtensionContext *extensionContext;

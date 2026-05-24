@@ -9,7 +9,6 @@
 @interface QCProviderImageCache : QCCache
 {
     QCCache *_imageCache;
-    QCCache *_representationCache;
 }
 
 - (id);

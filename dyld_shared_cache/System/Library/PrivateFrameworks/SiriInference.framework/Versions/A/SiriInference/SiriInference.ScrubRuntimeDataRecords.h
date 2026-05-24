@@ -9,7 +9,6 @@
 @interface SiriInference.ScrubRuntimeDataRecords : SiriInference.XPCActivityOperation
 {
     id expiredRecords;
-    id tombstonedRecords;
 }
 
 - (id);

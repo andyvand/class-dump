@@ -7,7 +7,6 @@
 @interface PKColorMatrixViewPoint
 {
     long long _row;
-    long long _col;
 }
 
 + (id);
@@ -16,7 +15,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long col; // @synthesize col=_col;
 @property(readonly, nonatomic) long long row; // @synthesize row=_row;
 
 @end

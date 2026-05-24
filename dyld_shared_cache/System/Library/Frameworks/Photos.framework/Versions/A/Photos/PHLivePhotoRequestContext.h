@@ -6,32 +6,22 @@
 
 #import <Photos/PHMediaRequestContext.h>
 
-@class NSProgress, PHImageRequest, PHLivePhotoRequestOptions, PHLivePhotoResult, PHVideoRequest;
+@class NSProgress, PHLivePhotoRequestOptions;
 
 @interface PHLivePhotoRequestContext : PHMediaRequestContext
 {
     NSProgress *_imageProgress;
-    NSProgress *_videoProgress;
-    PHLivePhotoResult *_livePhotoResult;
-    PHImageRequest *_fastImageRequest;
-    PHImageRequest *_highQualityImageRequest;
-    PHVideoRequest *_videoRequest;
-    struct os_unfair_lock_s _lock;
-    _Bool _imagePartCompleted;
-    _Bool _videoPartCompleted;
-    _Bool _includeImage;
-    PHLivePhotoRequestOptions *_livePhotoOptions;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)*	;
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)ntPlayback;
 - (void);
 - (long long);
 - (id);

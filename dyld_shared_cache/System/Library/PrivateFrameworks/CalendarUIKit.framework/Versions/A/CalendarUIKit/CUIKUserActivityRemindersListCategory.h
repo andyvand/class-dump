@@ -11,17 +11,15 @@
 @interface CUIKUserActivityRemindersListCategory : CUIKUserActivityWithSource
 {
     NSString *_title;
-    NSString *_externalID;
-    _Bool _predictable;
 }
 
-- (id)ª@ÿý¸Ww© £Ñáª|ëýô;
-- (id)ñýuðB;
-- (id)ªâªñªéò	?×h@ù;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void)d ;
+- (void);
 - (id);
-- (id);
+- (id)hdr10_tm_configChanged:(id)arg1 HDRControl:TCControl:EdrAdaptationParam:AmbAdaptationParam: /* Error: Ran out of types for this method. */;
 - (void)16B24;
 
 @end

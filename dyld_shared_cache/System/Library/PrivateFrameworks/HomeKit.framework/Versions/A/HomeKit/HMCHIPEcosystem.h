@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCHIPVendor, NSArray, NSData, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMCHIPEcosystem
 {
     _Bool _owned;
-    NSUUID *_UUID;
-    NSData *_rootPublicKey;
-    HMCHIPVendor *_vendor;
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)v;
 - (_Bool);
 - (id);
 - (id);
@@ -25,39 +22,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (id)I	;
+- (_Bool)indentured;
+- (id)@};
 - (void);
+- (id)CHRecentCallOriginatingUITypeGroupFaceTimeNotification;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)connection:didReceiveMessageForTopic:userInfo: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *name;
-@property(readonly) _Bool owned; // @synthesize owned=_owned;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSData *rootPublicKey; // @synthesize rootPublicKey=_rootPublicKey;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy) HMCHIPVendor *vendor; // @synthesize vendor=_vendor;
 
 @end
 

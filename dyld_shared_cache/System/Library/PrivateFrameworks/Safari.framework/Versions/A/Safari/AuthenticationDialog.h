@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AuthenticationPanel, AuthenticationSheetRequest, NSButton, NSLayoutConstraint, NSTextField;
+@class AuthenticationPanel;
 
 __attribute__((visibility("hidden")))
 @interface AuthenticationDialog
 {
     AuthenticationPanel *_panel;
-    NSLayoutConstraint *_smallLabelToSeparateRealmLabelVerticalSpacingConstraint;
-    NSLayoutConstraint *_logInButtonToRememberThisPasswordCheckboxVerticalSpacingConstraint;
-    NSTextField *_mainLabel;
-    NSTextField *_passwordTextField;
-    NSTextField *_smallLabel;
-    NSTextField *_usernameTextField;
-    NSButton *_rememberPasswordCheckbox;
-    AuthenticationSheetRequest *_sheetRequest;
-    _Bool _useStopModalWithCodeToEndAuthenticationDialog;
 }
 
 - (void);

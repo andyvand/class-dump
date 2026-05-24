@@ -7,13 +7,12 @@
 @interface CalDistributedNotificationHandler
 {
     SEL _selector;
-    id _observer;
 }
 
 - (id);
+- (void)";
 - (void);
-- (void);
-- (id)CalendarRefreshFlags:inDictionary: /* Error: Ran out of types for this method. */;
+- (id)setSubscribedCalendarRefreshFlags:inDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) __weak id observer; // @synthesize observer=_observer;

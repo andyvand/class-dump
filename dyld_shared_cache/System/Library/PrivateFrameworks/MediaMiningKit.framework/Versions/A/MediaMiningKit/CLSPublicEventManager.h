@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSPublicEventCache, CPAnalytics;
+@class CPAnalytics;
 
 @interface CLSPublicEventManager
 {
     CPAnalytics *_analytics;
-    double _queryRadius;
-    CLSPublicEventCache *_cache;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (double);
@@ -30,21 +28,21 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)eature list key in dictionary.
+;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CLSPublicEventCache *cache; // @synthesize cache=_cache;
 @property(nonatomic) double queryRadius; // @synthesize queryRadius=_queryRadius;
 
 @end

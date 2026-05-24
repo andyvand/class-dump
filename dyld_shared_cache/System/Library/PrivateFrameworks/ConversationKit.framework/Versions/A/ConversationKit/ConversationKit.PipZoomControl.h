@@ -7,16 +7,6 @@
 @interface ConversationKit.PipZoomControl
 {
     id minimumZoomFactor;
-    id zoomCameraSwitchFactorDefault;
-    id zoomControlOffset;
-    id maximumZoomFactor;
-    id maximumZoomFactorScaler;
-    id currentZoomFactor;
-    id currentCameraUID;
-    id pinchStartZoomFactor;
-    id zoomFactorScale;
-    id angle;
-    id buttonAlpha;
 }
 
 + (_Bool);

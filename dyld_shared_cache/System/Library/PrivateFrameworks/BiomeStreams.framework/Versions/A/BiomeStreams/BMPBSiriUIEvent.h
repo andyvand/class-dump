@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBSiriUIEvent
 {
     double _absoluteTimestamp;
-    NSString *_dismissalReason;
-    NSString *_sessionID;
-    NSString *_uuid;
-    NSString *_viewMode;
-    _Bool _starting;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int starting:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (double);
@@ -36,7 +25,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (id);
@@ -46,24 +35,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (void)t_packed_size;
+- (void)pg_query__check_point_stmt__get_packed_size;
 - (void)same name;
 - (_Bool);
 - (void)é;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *dismissalReason; // @synthesize dismissalReason=_dismissalReason;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasDismissalReason;
 @property(readonly, nonatomic) _Bool hasSessionID;
-@property(nonatomic) _Bool hasStarting;
-@property(readonly, nonatomic) _Bool hasUuid;
-@property(readonly, nonatomic) _Bool hasViewMode;
-@property(retain, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(nonatomic) _Bool starting; // @synthesize starting=_starting;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSString *viewMode; // @synthesize viewMode=_viewMode;
 
 @end
 

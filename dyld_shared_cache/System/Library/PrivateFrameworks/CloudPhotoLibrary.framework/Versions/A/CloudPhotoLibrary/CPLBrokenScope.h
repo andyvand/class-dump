@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineLibrary, CPLEngineScope, NSDate, NSObject, NSString, NSURL;
+@class CPLEngineScope, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CPLBrokenScope
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_lastShownAlertDate;
-    _Bool _internal;
-    _Bool _shouldShowAlertToUser;
-    CPLEngineScope *_engineScope;
-    CPLEngineLibrary *_engineLibrary;
 }
 
 - (_Bool);
@@ -22,11 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,7 +29,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)Item"16Q24B32@?<v@?@"FPItem"@"NSError">36;
 - (id);
 - (id);
 - (void)0@ù
@@ -43,24 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *alertMessage;
-@property(readonly, nonatomic) NSString *alertTitle;
-@property(readonly, nonatomic) NSString *alternateRecoverDescription;
-@property(readonly, nonatomic) NSString *brokenMessage;
-@property(readonly, nonatomic) NSString *brokenTitle;
-@property(readonly, nonatomic) NSString *createRadarButtonTitle;
-@property(readonly, nonatomic) NSURL *createRadarURL;
-@property(readonly, nonatomic) __weak CPLEngineLibrary *engineLibrary; // @synthesize engineLibrary=_engineLibrary;
 @property(readonly, nonatomic) CPLEngineScope *engineScope; // @synthesize engineScope=_engineScope;
-@property(readonly, nonatomic) _Bool hasEngineRecoveryMechanism;
-@property(readonly, nonatomic, getter=isInternal) _Bool internal; // @synthesize internal=_internal;
-@property(readonly, nonatomic) NSString *internalRecoveryInstructions;
-@property(readonly, nonatomic) NSString *radarDescription;
-@property(readonly, nonatomic) NSString *radarTitle;
-@property(readonly, nonatomic) NSString *readMoreButtonTitle;
-@property(readonly, nonatomic) NSURL *readMoreURL;
-@property(readonly, nonatomic) NSString *recoverButtonTitle;
-@property(readonly, nonatomic) _Bool shouldShowAlertToUser; // @synthesize shouldShowAlertToUser=_shouldShowAlertToUser;
 
 @end
 

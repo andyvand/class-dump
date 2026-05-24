@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSLocale, NSMutableAttributedString, _CSVisualizer;
+@class _CSVisualizer;
 
 @interface CSStoreAttributedStringWriter
 {
     struct optional<CSStore2::AttributedStringWriter> _writer;
-    NSMutableAttributedString *_attributedString;
 }
 
 + (id);
@@ -18,10 +17,6 @@
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSAttributedString *attributedString; // @dynamic attributedString;
-@property _Bool elidesEmptyValues; // @dynamic elidesEmptyValues;
-@property _Bool insertsNewlines; // @dynamic insertsNewlines;
-@property(copy) NSLocale *locale; // @dynamic locale;
 @property(retain) _CSVisualizer *visualizer; // @dynamic visualizer;
 
 @end

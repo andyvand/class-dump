@@ -11,7 +11,7 @@
     NSDate *_lastModifiedDate;
 }
 
-+ (id);
++ (id)*;
 + (id);
 - (_Bool);
 - (_Bool);
@@ -21,13 +21,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)edDeviceEnrollmentInfo"8@"PKTrustedDeviceEnrollmentInfo"16;
 - (void);
 - (id);
 - (void)1L&°1Â0@ù
 × ;
 - (void)StateManager";
-- (void)nfo;
+- (void)setupInfo;
 
 // Remaining properties
 @property(retain) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;

@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *hashedRouteUIDs;
-@property(nonatomic) double scalingFactor;
 
 @end
 

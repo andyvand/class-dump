@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL;
+@class NSMutableDictionary;
 
 @interface SMWindowsMacPathMapper
 {
     NSMutableDictionary *encodedDomainToPathMap;
-    NSURL *_dataContainerURL;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)64;
 - (void);
 - (void);
 - (_Bool);
@@ -30,7 +29,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,10 +38,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) NSURL *dataContainerURL; // @synthesize dataContainerURL=_dataContainerURL;
 @property(retain) NSMutableDictionary *encodedDomainToPathMap; // @synthesize encodedDomainToPathMap;
 
 @end

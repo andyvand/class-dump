@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
-- (void)esentationContext;
+- (void)currentPresentationContext;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
 @protocol CRKASMOrganization, CRKASMUser;
 
 @protocol CRKASMRoster
@@ -12,9 +11,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allTrustedUserCertificates;
-@property(readonly, copy, nonatomic) NSArray *courses;
 @property(readonly, nonatomic) id <CRKASMOrganization> organization;
-@property(readonly, nonatomic) id <CRKASMUser> user;
 @end
 

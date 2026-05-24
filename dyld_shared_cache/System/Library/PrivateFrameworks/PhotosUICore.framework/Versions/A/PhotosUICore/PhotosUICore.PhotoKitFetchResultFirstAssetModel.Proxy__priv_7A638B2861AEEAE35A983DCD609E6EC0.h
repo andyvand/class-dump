@@ -7,7 +7,6 @@
 @interface PhotosUICore.PhotoKitFetchResultFirstAssetModel.Proxy__priv_7A638B2861AEEAE35A983DCD609E6EC0
 {
     id model;
-    id fetchResultKey;
 }
 
 - (id);

@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet;
+@class NSNumber;
 
 @interface MLNumericConstraint
 {
     NSNumber *_minNumber;
-    NSNumber *_maxNumber;
-    NSSet *_enumeratedNumbers;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)ViewportArrayIndexRet;
+- (void)ClipDistanceRet;
+- (void)meshThreadgroupSizeIsMultipleOfThreadExecutionWidth;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)...):send() failed with error  /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ndows Layer:Mismatch between ranks of input and output tensors. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *enumeratedNumbers; // @synthesize enumeratedNumbers=_enumeratedNumbers;
-@property(retain, nonatomic) NSNumber *maxNumber; // @synthesize maxNumber=_maxNumber;
 @property(retain, nonatomic) NSNumber *minNumber; // @synthesize minNumber=_minNumber;
 
 @end

@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSNumber;
 
 @interface CTCellularUsageWorkspaceInfo
 {
     NSNumber *_subscriberTag;
-    NSNumber *_metaDataForHomeCountry;
-    NSNumber *_metaDataForRoaming;
-    NSDate *_billingCycleEndDate;
-    NSDate *_previousBillingCycleDate;
-    NSNumber *_billingCycleSupported;
-    NSNumber *_carrierSpaceSupported;
-    NSString *_workspaceName;
-    NSString *_workspacePath;
 }
 
-+ (_Bool);
++ (_Bool)tCustomURLRequest"16^B24;
 - (id);
 - (id);
 - (id);
@@ -30,23 +22,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)#;
+- (id)a;
+- (void)ic}@ cid:(id)arg1 %u;
 - (id);
 - (void)±ª)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *billingCycleEndDate; // @synthesize billingCycleEndDate=_billingCycleEndDate;
-@property(readonly, nonatomic) NSNumber *billingCycleSupported; // @synthesize billingCycleSupported=_billingCycleSupported;
-@property(readonly, nonatomic) NSNumber *carrierSpaceSupported; // @synthesize carrierSpaceSupported=_carrierSpaceSupported;
-@property(readonly, nonatomic) NSNumber *metaDataForHomeCountry; // @synthesize metaDataForHomeCountry=_metaDataForHomeCountry;
-@property(readonly, nonatomic) NSNumber *metaDataForRoaming; // @synthesize metaDataForRoaming=_metaDataForRoaming;
-@property(readonly, nonatomic) NSDate *previousBillingCycleDate; // @synthesize previousBillingCycleDate=_previousBillingCycleDate;
 @property(readonly, nonatomic) NSNumber *subscriberTag; // @synthesize subscriberTag=_subscriberTag;
-@property(readonly, nonatomic) NSString *workspaceName; // @synthesize workspaceName=_workspaceName;
-@property(readonly, nonatomic) NSString *workspacePath; // @synthesize workspacePath=_workspacePath;
 
 @end
 

@@ -6,20 +6,17 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, CAStateController, NSArray, NSDictionary;
+@class CAStateController, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UICAMLPackageView : UIView
 {
     CAStateController *_stateController;
-    CALayer *_rootLayer;
-    struct CGSize _originalSize;
-    NSDictionary *_publishedObjectMap;
 }
 
 - (id);
-- (struct CGSize);
-- (id);
+- (struct CGSize)topRowViews;
+- (id);
 - (void);
 - (_Bool)0@ù
 × ;

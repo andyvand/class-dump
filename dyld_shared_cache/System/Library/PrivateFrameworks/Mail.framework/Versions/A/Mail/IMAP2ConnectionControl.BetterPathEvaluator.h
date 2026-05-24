@@ -7,13 +7,6 @@
 @interface IMAP2ConnectionControl.BetterPathEvaluator
 {
     id queue;
-    id engineID;
-    id delegate;
-    id state;
-    id timer;
-    id connection;
-    id makeUnderlyingConnection;
-    id coalesceDelay;
 }
 
 @end

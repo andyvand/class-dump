@@ -17,13 +17,11 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)MPModelPropertyArtistCleanDownloadedSongCount;
 - (unsigned long long)(|;
-- (void)izeAnimation;
+- (void)MaterializeAnimation;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIPencilHoverState *_hoverState;
-@property(readonly, nonatomic) unsigned long long _phase;
 @property(readonly, nonatomic) double _timestamp;
 
 @end

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDIndexingContext, NSMutableArray, NSString;
+@class IMDIndexingContext;
 
 @interface IMDINInteractionMessageDonationJob
 {
     IMDIndexingContext *_context;
-    NSMutableArray *_interactions;
 }
 
-- (void);
-- (id);
+- (void)=;
+- (id)actionRollbackSplatUpdate:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)Migration Failed;
@@ -21,14 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IMDIndexingContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *interactions; // @synthesize interactions=_interactions;
-@property(readonly) Class superclass;
 
 @end
 

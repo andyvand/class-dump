@@ -7,25 +7,10 @@
 @interface NewsSubscription.WebOptinFlowManager
 {
     id appConfigurationManager;
-    id networkReachability;
-    id tagController;
-    id purchaseController;
-    id receiptRefresher;
-    id subscriptionController;
-    id purchasingSpinnerViewControllerFactory;
-    id tracker;
-    id router;
-    id webAccessOptInProvider;
-    id postActionHandlerManager;
-    id sceneProvider;
-    id hideMyEmailService;
-    id siwaCredentialUploader;
-    id postUpsellAction;
-    id $__lazy_storage_$_verifyingSpinnerViewController;
 }
 
 - (void);
-- (id);
+- (id)Queue;
 - (void);
 
 @end

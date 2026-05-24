@@ -11,15 +11,15 @@
     NSURL *_url;
 }
 
-+ (_Bool);
++ (_Bool)ponseStartTime:%@ responseEndTime:%@ error:%@ byteRange:(%lu,%lu) readFromCache:%d networkTransactionMetrics:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)$;
+- (id)׍;
 - (id);
 - (void)0@ù
 × ;

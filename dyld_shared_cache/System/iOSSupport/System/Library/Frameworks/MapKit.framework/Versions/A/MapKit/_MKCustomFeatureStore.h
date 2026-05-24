@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFeatureStyleAttributes, MKQuadTrie, NSHashTable, NSMutableSet, NSString;
+@class MKQuadTrie;
 @protocol MKCustomFeatureStoreDelegate;
 
 @interface _MKCustomFeatureStore
 {
     MKQuadTrie *_annotationsTrie;
-    NSMutableSet *_globalAnnotations;
-    NSHashTable *_observers;
-    _Bool _isClusteringEnabled;
-    GEOFeatureStyleAttributes *_clusterStyleAttributes;
-    NSString *_annotationText;
-    NSString *_annotationLocale;
-    unsigned char _sceneID;
-    unsigned char _sceneState;
-    id <MKCustomFeatureStoreDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (_Bool);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (void);
@@ -37,34 +28,24 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)qA;
 - (void);
 - (void);
 - (void);
 - (void)!ÄBù1°1Â0@ù
 × ;
 - (unsigned char)8;
-- (void)orm;
+- (void)hasDevicePlatform;
 - (void)t now;
 
 // Remaining properties
-@property(copy, nonatomic) GEOFeatureStyleAttributes *clusterStyleAttributes; // @synthesize clusterStyleAttributes=_clusterStyleAttributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MKCustomFeatureStoreDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isClusteringEnabled; // @synthesize isClusteringEnabled=_isClusteringEnabled;
-@property(nonatomic) unsigned char sceneID; // @synthesize sceneID=_sceneID;
-@property(readonly) Class superclass;
 
 @end
 

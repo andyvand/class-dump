@@ -7,6 +7,7 @@
 @interface EnergyKit.XPCSandboxExtensionContainer
 {
     id value;
+    id ;
 }
 
 + (_Bool);

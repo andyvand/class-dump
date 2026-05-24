@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSFinanceAuthenticateResponse, AMSPaymentSheetRequest, NSDictionary, NSString;
+@class AMSFinanceAuthenticateResponse;
 
 @interface AMSFinancePaymentSheetResponse
 {
     AMSFinanceAuthenticateResponse *_authenticateResponse;
-    NSDictionary *_metricsDictionary;
-    AMSPaymentSheetRequest *_paymentSheetRequest;
 }
 
 + (id);
@@ -46,15 +44,6 @@
 
 // Remaining properties
 @property(readonly) AMSFinanceAuthenticateResponse *authenticateResponse; // @synthesize authenticateResponse=_authenticateResponse;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *metricsDictionary; // @synthesize metricsDictionary=_metricsDictionary;
-@property(readonly) AMSPaymentSheetRequest *paymentSheetRequest; // @synthesize paymentSheetRequest=_paymentSheetRequest;
-@property(readonly) Class superclass;
 
 @end
 

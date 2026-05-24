@@ -12,7 +12,8 @@
 }
 
 - (_Bool);
-- (id);
+- (id)d
+;
 - (_Bool);
 - (void);
 - (id);
@@ -23,8 +24,6 @@
 - (CDStruct_e83c9415);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasActiveCaptions;
-@property(readonly, nonatomic) _Bool needsPeriodicRefresh;
 @property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 
 @end

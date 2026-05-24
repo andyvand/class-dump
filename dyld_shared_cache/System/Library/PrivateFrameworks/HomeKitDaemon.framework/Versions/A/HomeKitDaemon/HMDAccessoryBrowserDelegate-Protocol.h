@@ -5,5 +5,9 @@
 //
 
 @protocol HMDAccessoryBrowserDelegate
+- (void);
+- (void);
+- (void)K;
+- (void)m;
 @end
 

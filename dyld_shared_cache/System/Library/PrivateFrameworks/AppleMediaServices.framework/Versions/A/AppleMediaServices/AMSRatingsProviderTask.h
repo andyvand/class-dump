@@ -6,23 +6,14 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class NSString;
-@protocol AMSBagProtocol;
-
 @interface AMSRatingsProviderTask : AMSTask
 {
     unsigned long long mediaType;
-    void storeFront;
-    void clientIdentifier;
-    id <AMSBagProtocol> bag;
-    unsigned long long useCase;
-    _Bool regionalRatingSystem;
-    void logKey;
 }
 
 + (id);
 + (id)<ø É±uGËÁ-ùÇaFhtág«eÎ$r×U:añ[5.~DRX2s Ï]##[÷¡ÌUÁf2çÈT¨uG;,¾¥ÑäÚ /* Error: Ran out of types for this method. */;
-+ (id)liveComponent;
++ (id)KeepAliveComponent;
 + (id);;
 - (id);
 - (void);
@@ -51,13 +42,7 @@
 J« å0Çû@È2ã~´,ú^L¬9 À#~ªÆ1ÛGpÇGÞ©eè	dÝK+s+´¼Þ*{K³Ô¢¾®6%¼øÚ>øX¯änÀ+*«Y=We»oiëtUgag©X:h /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) id <AMSBagProtocol> bag; // @synthesize bag;
-@property(nonatomic, readonly) NSString *clientIdentifier;
-@property(nonatomic, readonly) NSString *logKey;
 @property(nonatomic, readonly) unsigned long long mediaType; // @synthesize mediaType;
-@property(nonatomic) _Bool regionalRatingSystem; // @synthesize regionalRatingSystem;
-@property(nonatomic, readonly) NSString *storeFront;
-@property(nonatomic, readonly) unsigned long long useCase; // @synthesize useCase;
 
 @end
 

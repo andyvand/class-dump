@@ -10,12 +10,12 @@
 {
 }
 
+- (void)hintTextViewHeightConstraint;
+- (struct CGSize)_strongTextStorage;
+- (void)-image instead.;
 - (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 
 @end
 

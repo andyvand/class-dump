@@ -9,25 +9,11 @@
 @interface OSLogEventDecomposedMessage
 {
     _Bool _hasPopulatedFields;
-    _Bool _hdrNeedsFree;
-    unsigned short _pubsize;
-    unsigned short _privsize;
-    unsigned short _placeholderCount;
-    unsigned long long _variant;
-    unsigned long long _sizeof_long;
-    const struct os_log_fmt_hdr_s *_hdr;
-    const void *_pubdata;
-    const void *_privdata;
-    const char *_fmt;
-    unsigned long long _messageState;
-    struct os_log_fmt_raw_placeholder *_rawPlaceholders;
-    void *_hdr_buffer;
-    OSLogEventProxy *_proxy;
 }
 
 - (id);
 - (struct os_log_fmt_raw_placeholder *);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
@@ -40,10 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long placeholderCount;
 @property(readonly, nonatomic) OSLogEventProxy *proxy; // @synthesize proxy=_proxy;
-@property(readonly, nonatomic) unsigned long long sizeOfLong; // @synthesize sizeOfLong=_sizeof_long;
-@property(readonly, nonatomic) unsigned long long state;
 
 @end
 

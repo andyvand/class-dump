@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @protocol SXActionActivity
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *image;
 @property(readonly, nonatomic) NSString *label;
-@property(readonly, nonatomic) unsigned long long type;
 @end
 

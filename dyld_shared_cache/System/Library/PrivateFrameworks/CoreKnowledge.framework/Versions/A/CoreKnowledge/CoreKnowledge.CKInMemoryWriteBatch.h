@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)setShow_more_on_tap:(CDUnknownBlockType)arg1;
 - (_Bool);
 
 @end

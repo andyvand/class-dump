@@ -4,81 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface BTAudioSession
 {
     _Bool _activateCalled;
-    CDUnknownBlockType _activateCompletion;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
-    struct LogCategory *_ucat;
-    NSXPCConnection *_xpcCnx;
-    _Bool _inAppRouting;
-    int _audioArbitrationResult;
-    int _category;
-    unsigned int _flags;
-    int _mode;
-    unsigned int _clientID;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    double _timeoutSeconds;
-    NSXPCListenerEndpoint *_testListenerEndpoint;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)wfNameWithMaximumFractionDigits:(_Bool)arg1;
+- (void)webView:(int)arg1 didReceiveServerRedirectForProvisionalNavigation: /* Error: Ran out of types for this method. */;
+- (_Bool)wallpaperLocation;
+- (_Bool)typeFromFileExtension: /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (void);
-- (int);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (int)`;
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (int);
+- (id);
 - (void);
-- (double);
+- (void);
+- (void);
+- (int)V%;
+- (void)screenScale;
+- (double)yphText;
 - (id);
 - (void);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)P;
+- (void)B;
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)SString",R,C;
 
 // Remaining properties
-@property(nonatomic) int audioArbitrationResult; // @synthesize audioArbitrationResult=_audioArbitrationResult;
-@property(nonatomic) int category; // @synthesize category=_category;
 @property(nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(nonatomic) _Bool inAppRouting; // @synthesize inAppRouting=_inAppRouting;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) int mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) NSXPCListenerEndpoint *testListenerEndpoint; // @synthesize testListenerEndpoint=_testListenerEndpoint;
-@property(nonatomic) double timeoutSeconds; // @synthesize timeoutSeconds=_timeoutSeconds;
 
 @end
 

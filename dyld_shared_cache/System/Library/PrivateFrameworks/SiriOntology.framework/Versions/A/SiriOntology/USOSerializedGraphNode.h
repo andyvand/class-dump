@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-
 @interface USOSerializedGraphNode
 {
     int _usoElementId;
-    NSNumber *_usoVerbId;
-    NSNumber *_integerPayload;
-    NSString *_stringPayload;
-    NSString *_entityLabel;
-    NSString *_verbLabel;
-    NSArray *_normalizedStringPayloads;
 }
 
 + (_Bool);
@@ -29,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -38,13 +30,7 @@
 - (void)cArea;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *entityLabel; // @synthesize entityLabel=_entityLabel;
-@property(retain, nonatomic) NSNumber *integerPayload; // @synthesize integerPayload=_integerPayload;
-@property(retain, nonatomic) NSArray *normalizedStringPayloads; // @synthesize normalizedStringPayloads=_normalizedStringPayloads;
-@property(retain, nonatomic) NSString *stringPayload; // @synthesize stringPayload=_stringPayload;
 @property int usoElementId; // @synthesize usoElementId=_usoElementId;
-@property(retain, nonatomic) NSNumber *usoVerbId; // @synthesize usoVerbId=_usoVerbId;
-@property(retain, nonatomic) NSString *verbLabel; // @synthesize verbLabel=_verbLabel;
 
 @end
 

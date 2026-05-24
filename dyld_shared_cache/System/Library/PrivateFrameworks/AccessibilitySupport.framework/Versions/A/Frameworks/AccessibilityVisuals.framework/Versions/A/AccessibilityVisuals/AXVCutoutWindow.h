@@ -6,22 +6,11 @@
 
 #import <AccessibilityVisuals/AXVOverlayWindow.h>
 
-@class CALayer, CAShapeLayer, NSArray, NSColor;
-@protocol NSObject;
+@class NSArray;
 
 @interface AXVCutoutWindow : AXVOverlayWindow
 {
     _Bool __cutoutFramesAreSpecifiedInScreenCoordinates;
-    double _cornerRadius;
-    double _padding;
-    NSArray *__cutoutFramesInWindowCoordinates;
-    NSArray *__cutoutFramesInScreenCoordinates;
-    CALayer *__cutoutLayer;
-    CAShapeLayer *__cutoutMaskShapeLayer;
-    CALayer *__backdropLayer;
-    CALayer *__backdropMaskLayer;
-    CAShapeLayer *__backdropAlphaMaskShapeLayer;
-    id <NSObject> __windowMoveObservation;
 }
 
 - (void);
@@ -29,22 +18,22 @@
 - (void);
 - (void);
 - (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (struct CGRect);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)i;
 - (id);
 - (id);
 - (id);
@@ -58,8 +47,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)a;
+- (void)ame indicator visible;
 - (double);
 - (void);
 - (void);
@@ -67,24 +56,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *_backdropAlphaMaskShapeLayer; // @synthesize _backdropAlphaMaskShapeLayer=__backdropAlphaMaskShapeLayer;
-@property(retain, nonatomic) CALayer *_backdropLayer; // @synthesize _backdropLayer=__backdropLayer;
-@property(retain, nonatomic) CALayer *_backdropMaskLayer; // @synthesize _backdropMaskLayer=__backdropMaskLayer;
-@property(nonatomic) _Bool _cutoutFramesAreSpecifiedInScreenCoordinates; // @synthesize _cutoutFramesAreSpecifiedInScreenCoordinates=__cutoutFramesAreSpecifiedInScreenCoordinates;
-@property(retain, nonatomic, setter=_setCutoutFramesInScreenCoordinates:) NSArray *_cutoutFramesInScreenCoordinates; // @synthesize _cutoutFramesInScreenCoordinates=__cutoutFramesInScreenCoordinates;
 @property(retain, nonatomic, setter=_setCutoutFramesInWindowCoordinates:) NSArray *_cutoutFramesInWindowCoordinates; // @synthesize _cutoutFramesInWindowCoordinates=__cutoutFramesInWindowCoordinates;
-@property(retain, nonatomic) CALayer *_cutoutLayer; // @synthesize _cutoutLayer=__cutoutLayer;
-@property(retain, nonatomic) CAShapeLayer *_cutoutMaskShapeLayer; // @synthesize _cutoutMaskShapeLayer=__cutoutMaskShapeLayer;
-@property(retain, nonatomic) id <NSObject> _windowMoveObservation; // @synthesize _windowMoveObservation=__windowMoveObservation;
-@property(retain, nonatomic) NSColor *backdropColor;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(retain, nonatomic) NSColor *cutoutColor;
-@property(readonly, nonatomic) unsigned long long cutoutCount;
-@property(nonatomic) struct CGRect cutoutFrameInScreenCoordinates;
-@property(nonatomic) struct CGRect cutoutFrameInWindowCoordinates;
-@property(retain, nonatomic) NSArray *cutoutFramesInScreenCoordinates;
-@property(retain, nonatomic) NSArray *cutoutFramesInWindowCoordinates;
-@property(nonatomic) double padding; // @synthesize padding=_padding;
 
 @end
 

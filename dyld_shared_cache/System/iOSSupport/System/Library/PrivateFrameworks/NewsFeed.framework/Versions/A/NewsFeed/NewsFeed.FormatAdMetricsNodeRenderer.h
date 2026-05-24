@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatAdMetricsNodeRenderer
 {
     id adIntegrating;
-    id presentingViewController;
-    id presentationDelegateProvider;
 }
 
 @end

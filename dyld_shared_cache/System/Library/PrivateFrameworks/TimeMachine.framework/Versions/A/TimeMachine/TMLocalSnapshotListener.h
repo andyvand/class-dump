@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface TMLocalSnapshotListener
@@ -13,17 +13,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *listenerID;
 @property(readonly) NSURL *liveVolumeMountPoint; // @synthesize liveVolumeMountPoint=_liveVolumeMountPoint;
 
 @end

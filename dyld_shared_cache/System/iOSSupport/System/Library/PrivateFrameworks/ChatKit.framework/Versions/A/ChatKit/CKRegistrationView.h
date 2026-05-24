@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIActivityIndicatorView, UIButton, UIImageView, UILabel, UIView;
+@class UIImageView;
 
 @interface CKRegistrationView
 {
     UIImageView *_iconImageView;
-    UILabel *_titleLabel;
-    UILabel *_verbiageLabel;
-    UILabel *_signingInLabel;
-    UIActivityIndicatorView *_signingInSpinner;
-    UIButton *_learnMoreButton;
-    UIView *_authKitSignInView;
-    UIView *_privacyLinkView;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
+- (id)setSnippetAttachmentType: /* Error: Ran out of types for this method. */;
+- (id)initWithThumbnailType:uniqueKey:associatedObject:associatedObjectIdentifier:associatedObjectTitle:accountIdentifier:cacheLevel:preferredSize:scale:appearanceInfo:backgroundColor:hasBorder: /* Error: Ran out of types for this method. */;
+- (id)initWithThumbnailType:uniqueKey:associatedObject:associatedObjectIdentifier:associatedObjectTitle:accountIdentifier:cacheLevel:preferredSize:scale:appearanceInfo:backgroundColor:hasBorder: /* Error: Ran out of types for this method. */;
+- (void)ic_attributedStringByFlatteningInlineAttachmentsWithContext:(id)arg1 flattenUnsupportedInlineAttachmentsOnly:updateRangeValueToObjectMapBlock:replacementAttributedStringBlock: /* Error: Ran out of types for this method. */;
+- (void)s:(id)arg1;
+- (void)finishUpHighlightingWithMatchFinder:(id)arg1 forAttributedString:inRange:highlightedAttributes: /* Error: Ran out of types for this method. */;
+- (void)finishUpHighlightingWithMatchFinder:(_Bool)arg1 forAttributedString:inRange:highlightedAttributes: /* Error: Ran out of types for this method. */;
+- (void)_nonMathNotesNotesInSource;
+- (struct CGSize);
+- (id)mporarily disabled until %@;
+- (void)ICAudioPlaybackPauseNotification;
 - (void);
 - (void);
 - (id);
@@ -41,14 +34,7 @@
 - (id)$;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *authKitSignInView; // @synthesize authKitSignInView=_authKitSignInView;
 @property(retain, nonatomic) UIImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
-@property(retain, nonatomic) UIButton *learnMoreButton; // @synthesize learnMoreButton=_learnMoreButton;
-@property(retain, nonatomic) UIView *privacyLinkView; // @synthesize privacyLinkView=_privacyLinkView;
-@property(retain, nonatomic) UILabel *signingInLabel; // @synthesize signingInLabel=_signingInLabel;
-@property(retain, nonatomic) UIActivityIndicatorView *signingInSpinner; // @synthesize signingInSpinner=_signingInSpinner;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) UILabel *verbiageLabel; // @synthesize verbiageLabel=_verbiageLabel;
 
 @end
 

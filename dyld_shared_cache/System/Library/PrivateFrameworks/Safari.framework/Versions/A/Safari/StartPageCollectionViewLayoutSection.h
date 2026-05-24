@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface StartPageCollectionViewLayoutSection
 {
     long long _maximumNumberOfColumns;
-    long long _maximumNumberOfRows;
-    long long _maximumNumberOfItems;
-    long long _widthDimensionType;
-    NSArray *_supplementaryItems;
-    NSArray *_decorationItems;
-    struct CGSize _itemSize;
-    struct CGSize _interItemSpacing;
-    struct NSDirectionalEdgeInsets _contentEdgeInsets;
 }
 
 - (long long);
@@ -36,21 +26,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`
+;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct NSDirectionalEdgeInsets contentEdgeInsets; // @synthesize contentEdgeInsets=_contentEdgeInsets;
-@property(copy, nonatomic) NSArray *decorationItems; // @synthesize decorationItems=_decorationItems;
-@property(nonatomic) struct CGSize interItemSpacing; // @synthesize interItemSpacing=_interItemSpacing;
-@property(nonatomic) struct CGSize itemSize; // @synthesize itemSize=_itemSize;
-@property(nonatomic) long long maximumNumberOfColumns; // @synthesize maximumNumberOfColumns=_maximumNumberOfColumns;
-@property(nonatomic) long long maximumNumberOfItems; // @synthesize maximumNumberOfItems=_maximumNumberOfItems;
-@property(nonatomic) long long maximumNumberOfRows; // @synthesize maximumNumberOfRows=_maximumNumberOfRows;
-@property(copy, nonatomic) NSArray *supplementaryItems; // @synthesize supplementaryItems=_supplementaryItems;
-@property(nonatomic) long long widthDimensionType; // @synthesize widthDimensionType=_widthDimensionType;
 
 @end
 

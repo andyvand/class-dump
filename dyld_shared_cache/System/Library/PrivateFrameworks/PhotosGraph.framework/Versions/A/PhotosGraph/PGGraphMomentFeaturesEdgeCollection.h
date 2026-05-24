@@ -6,21 +6,17 @@
 
 #import <PhotosGraph/PGGraphEdgeCollection.h>
 
-@class NSSet;
-
 @interface PGGraphMomentFeaturesEdgeCollection : PGGraphEdgeCollection
 {
 }
 
-+ (id);
++ (id)? q@	;
 + (Class);
-- (unsigned long long);
+- (unsigned long long)attributedDescriptionOfType:forElement: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allRelevantAssetLocalIdentifiers;
-@property(readonly, nonatomic) NSSet *allRelevantAssetUUIDs;
 @property(readonly) unsigned long long numberOfRelevantAssets;
 
 @end

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSObject, NSTimer, NSURL;
-@protocol OS_dispatch_queue;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface SessionRecorder
 {
     NSTimer *_timer;
-    NSDateFormatter *_dateFormatter;
-    unsigned long long _lastHashOfDOM;
-    NSObject<OS_dispatch_queue> *_backgroundQueue;
-    unsigned long long _eventCounter;
-    NSURL *_outputURL;
 }
 
 - (void);

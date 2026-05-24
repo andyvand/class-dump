@@ -5,11 +5,15 @@
 //
 
 @class NSIndexSet, NSSet;
+@protocol _NSCollectionLayoutAuxiliaryOffsets;
 
 @protocol _NSCollectionLayoutSolveResult
+- (id <_NSCollectionLayoutAuxiliaryOffsets>)%02x%02x;
+- (NSSet *)2x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x;
+- (NSIndexSet *)ons.dylib;
+- (NSIndexSet *)__objc_classlist__DATA_CONST;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *invalidatedAuxiliaryKinds;
 @property(readonly, nonatomic) NSIndexSet *invalidatedIndexes;
 @end
 

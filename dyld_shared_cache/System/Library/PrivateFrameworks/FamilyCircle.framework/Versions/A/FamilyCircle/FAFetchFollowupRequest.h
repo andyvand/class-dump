@@ -13,7 +13,7 @@
     NSString *_altDSID;
 }
 
-- (void);
+- (void)n we haven't alerted the user;
 - (id);
 - (void);
 

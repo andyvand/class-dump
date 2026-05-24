@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CRCard, CRKCardSectionViewSourcing, CRKCardViewControllerDelegate;
+@protocol CRCard;
 
 @protocol CRKCardViewControlling
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <CRCard> card;
-@property(retain, nonatomic) id <CRKCardSectionViewSourcing> cardSectionViewSource;
-@property(nonatomic) __weak id <CRKCardViewControllerDelegate> cardViewControllerDelegate;
 @end
 

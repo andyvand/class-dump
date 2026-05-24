@@ -6,34 +6,22 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSData, NSString;
-
 @interface SAAISearch : SABaseCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)competing CN. Merge starting at ;
 - (double);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)b;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double duration;
-@property(copy, nonatomic) NSData *fingerprint;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,13 +11,11 @@
 @interface CEMNSExtensionsMappingsNSExtensionsCommand_StatusExtensionsItem : CEMPayloadBase
 {
     NSString *_statusIdentifier;
-    NSString *_statusExtensionPoint;
-    NSString *_statusDisplayName;
 }
 
 + (id);
++ (id)ersions/A/AVFoundation;
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
@@ -25,13 +23,11 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)nary;
+- (id)MelProvidingP;
+- (void)TeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/d1_srvr.c;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *statusDisplayName; // @synthesize statusDisplayName=_statusDisplayName;
-@property(copy, nonatomic) NSString *statusExtensionPoint; // @synthesize statusExtensionPoint=_statusExtensionPoint;
 @property(copy, nonatomic) NSString *statusIdentifier; // @synthesize statusIdentifier=_statusIdentifier;
 
 @end

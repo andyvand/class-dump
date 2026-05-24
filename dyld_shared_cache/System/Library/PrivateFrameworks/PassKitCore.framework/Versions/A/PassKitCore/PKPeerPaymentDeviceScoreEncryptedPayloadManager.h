@@ -9,12 +9,10 @@
 @interface PKPeerPaymentDeviceScoreEncryptedPayloadManager
 {
     _Bool _isScoringInProgress;
-    unsigned long long _pendingDeviceScoreEncryptedPayloadVersion;
-    PKPeerPaymentDeviceScoreAttributes *_currentAttributes;
 }
 
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);

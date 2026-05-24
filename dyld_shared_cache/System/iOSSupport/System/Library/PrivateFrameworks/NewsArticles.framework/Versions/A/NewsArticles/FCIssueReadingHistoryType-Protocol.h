@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol FCIssueReadingHistoryType
+- (_Bool)DefaultMoreForYouClusteringKnobsPaidBundleArticleQuotas;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allEngagedIssueIDs;
 @property(readonly, nonatomic) NSString *mostRecentlyVisitedIssueID;
-@property(readonly, nonatomic) NSArray *recentlyEngagedIssueIDs;
-@property(readonly, nonatomic) NSArray *recentlyVisitedIssueIDs;
 @end
 

@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface SMSystem
 {
     _Bool _valid;
-    _Bool _isFinalSelectedSystem;
-    NSURL *_path;
-    unsigned long long _state;
-    unsigned long long _stateError;
-    NSArray *_allUsers;
-    NSArray *_allGroups;
-    NSString *_migrationServerVersion;
-    unsigned long long _migrationServerType;
-    NSString *_productVersion;
-    NSString *_systemVersion;
-    NSString *_modelID;
-    NSString *_modelUTI;
-    unsigned long long _migratableItemsSupported;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -48,23 +35,23 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -78,31 +65,10 @@
 - (void);
 - (void)!@BùÑ	1Â0@ù
 × ;
-- (void)mMigrationDisableSoftAP;
+- (void)SystemMigrationDisableSoftAP;
 
 // Remaining properties
-@property(readonly) __weak NSArray *allGroups; // @synthesize allGroups=_allGroups;
-@property(readonly) __weak NSArray *allUsers; // @synthesize allUsers=_allUsers;
-@property(readonly, getter=isClientInstall) _Bool clientInstall;
-@property _Bool isFinalSelectedSystem; // @synthesize isFinalSelectedSystem=_isFinalSelectedSystem;
-@property(readonly, getter=isLegacyServerInstall) _Bool legacyServerInstall;
-@property(readonly) NSString *localizationPrefix;
-@property(readonly) unsigned long long migratableItemsSupported; // @synthesize migratableItemsSupported=_migratableItemsSupported;
-@property unsigned long long migrationServerType; // @synthesize migrationServerType=_migrationServerType;
-@property(retain) NSString *migrationServerVersion; // @synthesize migrationServerVersion=_migrationServerVersion;
-@property(readonly, getter=isMixedLegacyServerInstall) _Bool mixedLegacyServerInstall;
 @property(retain) NSString *modelID; // @synthesize modelID=_modelID;
-@property(retain) NSString *modelUTI; // @synthesize modelUTI=_modelUTI;
-@property(readonly, getter=isMounted) _Bool mounted;
-@property(retain) NSURL *path; // @synthesize path=_path;
-@property(readonly) id primaryIdentifier;
-@property(readonly) __weak NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(readonly, getter=isSelfContainedServerInstall) _Bool selfContainedServerInstall;
-@property unsigned long long state; // @synthesize state=_state;
-@property unsigned long long stateError; // @synthesize stateError=_stateError;
-@property(readonly) unsigned long long systemType;
-@property(readonly) __weak NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
-@property _Bool valid; // @synthesize valid=_valid;
 
 @end
 

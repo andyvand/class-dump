@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-- (void);
++ (id)%;
+- (void)appExtensionIdentityByBundleIdentifierCache;
 - (void);
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface SNVGGishCheeringModelOutput
 {
@@ -14,12 +14,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)°èúÿÜèúÿéúÿ<éúÿéúÿàéúÿ$êúÿHêúÿlêúÿêúÿtìúÿìúÿ¤ìúÿ¼ìúÿÔìúÿììúÿíúÿíúÿ4íúÿLíúÿdíúÿ|íúÿíúÿ¬íúÿÄíúÿÜíúÿôíúÿîúÿ$îúÿ<îúÿtîúÿ°îúÿÔîúÿïúÿÔïúÿøïúÿ<ðúÿHðúÿTðúÿ`ðúÿÈðúÿÈñúÿòúÿ(òúÿØòúÿüòúÿpóúÿóúÿÐóúÿtõúÿ°õúÿÔõúÿöúÿ¤öúÿÈöúÿüöúÿd÷úÿXøúÿøúÿ¸øúÿôøúÿùúÿ<ùúÿ`ùúÿùúÿ¨ùúÿÜùúÿhúúÿ¤úúÿ°úúÿ¼úúÿÈúúÿÔúúÿàúúÿìúúÿøúúÿûúÿûúÿûúÿ(ûúÿ4ûúÿ@ûúÿLûúÿXûúÿdûúÿpûúÿ|ûúÿûúÿûúÿ ûúÿ¬ûúÿ¸ûúÿÄûúÿÐûúÿÜûúÿèûúÿôûúÿ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *output1; // @synthesize output1=_output1;
 
 @end

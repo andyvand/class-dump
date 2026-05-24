@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @interface _UITextFormattingViewControllerEmphasisStyle
 {
     NSString *_styleKey;
-    NSString *_title;
-    UIColor *_color;
 }
 
 + (_Bool)Received nil font from provider %@;
 - (id);
+- (id)0;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id)
 × ;
 - (_Bool)rdChangedInformation"16@?<v@?>24;
-- (void)ForSectionIndexTitle:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
-- (id)esAffectingImageViewStyling;
+- (void)tableView:(id)arg1 indexPathForSectionIndexTitle:atIndex: /* Error: Ran out of types for this method. */;
+- (id)_base_actionPropertiesAffectingImageViewStyling;
 - (id)Windows with overrides for size classes:%@ /* Error: Ran out of types for this method. */;
 - (void)neFullscreenPlacementCG;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) UIColor *color; // @synthesize color=_color;
 @property(readonly, copy, nonatomic) NSString *styleKey; // @synthesize styleKey=_styleKey;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

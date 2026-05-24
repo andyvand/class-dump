@@ -7,8 +7,6 @@
 @interface FamilyCircleUI.SharedPasswordsItemModel
 {
     id _showICloudDisabledAlert;
-    id keychainSyncMonitor;
-    id _$observationRegistrar;
 }
 
 @end

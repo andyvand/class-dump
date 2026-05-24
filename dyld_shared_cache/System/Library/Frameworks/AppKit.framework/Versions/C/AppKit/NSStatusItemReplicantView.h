@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface NSStatusItemReplicantView : NSView
 {
     CDUnknownBlockType _drawBlock;
-    CDUnknownBlockType _shadowDrawBlock;
 }
 
-+ (double);
++ (double);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id)eOut;
-- (void)ackFontInfo;
+- (id)prepareToAnimateOut;
+- (void)_NSAttributedStringFallbackFontInfo;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType drawBlock; // @synthesize drawBlock=_drawBlock;
-@property(copy) CDUnknownBlockType shadowDrawBlock; // @synthesize shadowDrawBlock=_shadowDrawBlock;
 
 @end
 

@@ -8,13 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _UIFocusEngineFakePanGestureRecognizer
 {
     long long _state;
-    struct CGPoint _digitizerLocation;
-    struct CGPoint _velocity;
 }
 
 - (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)_progressMap;
+- (struct CGPoint)P;
 - (void);
 - (struct CGPoint)1Â0@ù
 × ;
@@ -25,9 +23,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint)¨];
 
 // Remaining properties
-@property(nonatomic) struct CGPoint digitizerLocation; // @synthesize digitizerLocation=_digitizerLocation;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) struct CGPoint velocity; // @synthesize velocity=_velocity;
 
 @end
 

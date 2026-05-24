@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSXPCConnection, TIDocumentState, UITextRange, UIWKDocumentContext;
-@protocol TIEmojiAlternativesProtocol, UITextInput, UIWKInteractionViewProtocol><UITextInput;
+@class NSXPCConnection;
 
 @interface PKEmojiAlternativesGenerator
 {
     NSXPCConnection *_connection;
-    id <TIEmojiAlternativesProtocol> _remoteObject;
-    id <UITextInput> _textInput;
-    TIDocumentState *_documentState;
-    NSArray *_localeIdentifiers;
-    NSString *_textWithAlternatives;
-    UITextRange *_rangeWithAlternatives;
-    id <UIWKInteractionViewProtocol><UITextInput> _wkInteractionView;
-    UIWKDocumentContext *_wkDocumentContext;
 }
 
 + (_Bool);

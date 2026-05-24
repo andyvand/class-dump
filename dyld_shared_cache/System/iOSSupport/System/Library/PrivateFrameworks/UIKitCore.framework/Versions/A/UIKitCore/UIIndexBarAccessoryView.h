@@ -17,9 +17,9 @@
 
 + (void)onChangedDiscontinuouslyOnChange:(id *)arg1 ,V__regionChangedDiscontinuouslyOnChange;
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)isLoadingRepresentation;
+- (_Bool)__MPModelPropertyTVEpisodeNumber__MAPPING_MISSING__;
+- (_Bool)operty is being used without prior loadAssetAndPlayerItem %{public}@;
 - (void);
 - (void)q\Ð1Â0@ù
 × ;
@@ -32,9 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <UIIndexBarAccessoryViewDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) long long edge; // @synthesize edge=_edge;
-@property(readonly, nonatomic) _Bool overlay;
-@property(nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
 
 @end
 

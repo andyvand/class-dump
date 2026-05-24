@@ -7,9 +7,6 @@
 @interface PhotosUICore.LemonadeAssetsRecoveryNotificationModel
 {
     id _title;
-    id _subtitle;
-    id _item;
-    id _$observationRegistrar;
 }
 
 @end

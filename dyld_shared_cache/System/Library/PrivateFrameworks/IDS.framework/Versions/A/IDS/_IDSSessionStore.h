@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_powerSourcesFoundHandler;
 - (void)0@ù
 × ;
 

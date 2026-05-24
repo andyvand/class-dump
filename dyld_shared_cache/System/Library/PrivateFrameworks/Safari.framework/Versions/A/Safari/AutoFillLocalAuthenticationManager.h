@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue;
 
 @interface AutoFillLocalAuthenticationManager
 {
     NSOperationQueue *_authenticationQueue;
-    NSObject<OS_dispatch_queue> *_laContextQueue;
-    long long _currentTouchIDStatus;
 }
 
-+ (long long);
++ (long long)d;
 - (void);
 - (void);
 - (long long);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property long long currentTouchIDStatus; // @synthesize currentTouchIDStatus=_currentTouchIDStatus;
-@property(readonly, nonatomic) _Bool isBiometricAuthenticationAvailable;
 
 @end
 

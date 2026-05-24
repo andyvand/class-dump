@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface IXProgressHint
 {
     NSNumber *_compressedAppAssetSizeInBytes;
-    NSNumber *_uncompressedAppAssetSizeInBytes;
-    NSNumber *_filesInAppAssetCount;
-    NSNumber *_totalODRAssetSizeInBytes;
-    NSNumber *_totalExpectedEssentialAssetSizeInBytes;
-    NSNumber *_totalExpectedDataImportSizeInBytes;
-    NSNumber *_loadingPhaseProportion;
-    NSNumber *_installingPhaseProportion;
-    NSNumber *_postProcessingPhaseProportion;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (void);
@@ -40,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
@@ -48,15 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *compressedAppAssetSizeInBytes; // @synthesize compressedAppAssetSizeInBytes=_compressedAppAssetSizeInBytes;
-@property(retain, nonatomic) NSNumber *filesInAppAssetCount; // @synthesize filesInAppAssetCount=_filesInAppAssetCount;
-@property(readonly, nonatomic) NSNumber *installingPhaseProportion; // @synthesize installingPhaseProportion=_installingPhaseProportion;
-@property(readonly, nonatomic) NSNumber *loadingPhaseProportion; // @synthesize loadingPhaseProportion=_loadingPhaseProportion;
-@property(readonly, nonatomic) NSNumber *postProcessingPhaseProportion; // @synthesize postProcessingPhaseProportion=_postProcessingPhaseProportion;
-@property(readonly, copy, nonatomic) NSDictionary *progressProportionsDictionaryForLaunchServices;
-@property(retain, nonatomic) NSNumber *totalExpectedDataImportSizeInBytes; // @synthesize totalExpectedDataImportSizeInBytes=_totalExpectedDataImportSizeInBytes;
-@property(retain, nonatomic) NSNumber *totalExpectedEssentialAssetSizeInBytes; // @synthesize totalExpectedEssentialAssetSizeInBytes=_totalExpectedEssentialAssetSizeInBytes;
-@property(retain, nonatomic) NSNumber *totalODRAssetSizeInBytes; // @synthesize totalODRAssetSizeInBytes=_totalODRAssetSizeInBytes;
-@property(retain, nonatomic) NSNumber *uncompressedAppAssetSizeInBytes; // @synthesize uncompressedAppAssetSizeInBytes=_uncompressedAppAssetSizeInBytes;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSString, NSTextField;
+@class NSImageView, NSString;
 
 @interface PXSharedLibraryRulesTableViewCell
 {
     NSImageView *_imageView;
-    NSTextField *_titleLabel;
-    NSTextField *_subtitleLabel;
-    NSTextField *_detailLabel;
 }
 
 - (void);
@@ -29,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *detail;
-@property(retain, nonatomic) NSImage *image;
-@property(copy, nonatomic) NSString *subtitle;
 @property(copy, nonatomic) NSString *title;
 
 @end

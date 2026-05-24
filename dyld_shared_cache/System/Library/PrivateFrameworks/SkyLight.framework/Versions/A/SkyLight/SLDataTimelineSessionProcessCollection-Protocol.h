@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol SLDataTimelineSessionProcessCollection
+- (double)etch %d objects but received %d objects as %@;
+- (unsigned long long)batched fetch request asked to fetch %d objects but received %d objects as %@;
+- (void)bleString:(void (^)(id <SLDataTimelineProcess>))arg1 requires a transformable blob;
+- (int)tMirroringDelegate _finishedRequest:withResult:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) int foregroundAppPID;
-@property(readonly, nonatomic) NSArray *processes;
-@property(readonly, nonatomic) unsigned long long sessionSnapshotIndex;
 @property(readonly, nonatomic) double sessionSnapshotTimestamp;
 @end
 

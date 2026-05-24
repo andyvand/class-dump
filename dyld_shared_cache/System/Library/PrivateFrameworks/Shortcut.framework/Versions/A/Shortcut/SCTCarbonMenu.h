@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 + (void);
 + (long long);
 - (void);
+- (void)R		;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (long long);
 - (void);
 - (void);

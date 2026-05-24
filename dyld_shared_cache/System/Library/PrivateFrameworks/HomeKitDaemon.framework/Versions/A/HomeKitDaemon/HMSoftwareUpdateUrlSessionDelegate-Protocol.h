@@ -5,5 +5,6 @@
 //
 
 @protocol HMSoftwareUpdateUrlSessionDelegate
+- (void)`;
 @end
 

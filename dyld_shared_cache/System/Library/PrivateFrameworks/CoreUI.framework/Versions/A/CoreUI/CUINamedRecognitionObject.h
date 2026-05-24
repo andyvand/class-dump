@@ -6,21 +6,17 @@
 
 #import <CoreUI/CUINamedLookup.h>
 
-@class NSData;
-
 @interface CUINamedRecognitionObject : CUINamedLookup
 {
 }
 
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (id);
 - (long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *objectData;
-@property(readonly, nonatomic) CDStruct_95fa7c00 referenceOriginTransformation;
 @property(readonly, nonatomic) long long version;
 
 @end

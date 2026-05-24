@@ -6,34 +6,22 @@
 
 #import <EmailCore/ECLocalMessageAction.h>
 
-@class ECLocalMessageActionID, ECMessageFlagChange, NSString, NSURL;
+@class NSString;
 
 @interface ECFlagChangeUndownloadedMessageAction : ECLocalMessageAction
 {
     NSString *_oldestPersistedRemoteID;
-    ECMessageFlagChange *_flagChange;
 }
 
-- (void);
-- (void);
+- (void)SourceTypeUnknown;
+- (void)re the problem is.;
+- (id)ssing.;
+- (id)s device or platform.;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)found in NVRAM return 0;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) ECMessageFlagChange *flagChange; // @synthesize flagChange=_flagChange;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSURL *mailboxURL;
 @property(copy, nonatomic) NSString *oldestPersistedRemoteID; // @synthesize oldestPersistedRemoteID=_oldestPersistedRemoteID;
-@property(retain, nonatomic) ECLocalMessageActionID *persistentID;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userInitiated;
 
 @end
 

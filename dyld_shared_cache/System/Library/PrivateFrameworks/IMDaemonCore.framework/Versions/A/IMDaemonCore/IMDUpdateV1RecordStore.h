@@ -13,11 +13,11 @@
 
 - (void);
 - (id);
+- (void)expandFrameForOpenView:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)à;

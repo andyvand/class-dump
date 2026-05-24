@@ -6,25 +6,11 @@
 
 #import <PassKitCore/PKPassUpcomingPassInformationEntryContent.h>
 
-@class NSURL, PKPassUpcomingPassInformationImageManifest;
+@class NSURL;
 
 @interface PKPassUpcomingPassInformationEntryContentEvent : PKPassUpcomingPassInformationEntryContent
 {
     NSURL *_sellURL;
-    NSURL *_transferURL;
-    NSURL *_bagPolicyURL;
-    NSURL *_orderFoodURL;
-    NSURL *_transitInformationURL;
-    NSURL *_parkingInformationURL;
-    NSURL *_directionsInformationURL;
-    NSURL *_merchandiseURL;
-    NSURL *_accessibilityURL;
-    NSURL *_purchaseParkingURL;
-    NSURL *_partnerAddOnURL;
-    NSURL *_venueEmailURL;
-    NSURL *_venuePhoneNumberURL;
-    NSURL *_venueWebsiteURL;
-    PKPassUpcomingPassInformationImageManifest *_venueMapImageManifest;
 }
 
 + (_Bool)qî%ð1Â0@ù
@@ -43,29 +29,15 @@
 - (id);
 - (id);
 - (id);
+- (id)`;
+- (id)%;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)IFICATION_CHANNEL_TAP_TO_VERIFY_PIN_DESCRIPTION;
+- (id)?j;
+- (void)chipCounters;
+- (void)VERIFICATION_CHANNEL_TAP_TO_VERIFY_PIN_DESCRIPTION;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *accessibilityURL; // @synthesize accessibilityURL=_accessibilityURL;
-@property(readonly, copy, nonatomic) NSURL *bagPolicyURL; // @synthesize bagPolicyURL=_bagPolicyURL;
-@property(readonly, copy, nonatomic) NSURL *directionsInformationURL; // @synthesize directionsInformationURL=_directionsInformationURL;
-@property(readonly, copy, nonatomic) NSURL *merchandiseURL; // @synthesize merchandiseURL=_merchandiseURL;
-@property(readonly, copy, nonatomic) NSURL *orderFoodURL; // @synthesize orderFoodURL=_orderFoodURL;
-@property(readonly, copy, nonatomic) NSURL *parkingInformationURL; // @synthesize parkingInformationURL=_parkingInformationURL;
-@property(readonly, copy, nonatomic) NSURL *partnerAddOnURL; // @synthesize partnerAddOnURL=_partnerAddOnURL;
-@property(readonly, copy, nonatomic) NSURL *purchaseParkingURL; // @synthesize purchaseParkingURL=_purchaseParkingURL;
 @property(readonly, copy, nonatomic) NSURL *sellURL; // @synthesize sellURL=_sellURL;
-@property(readonly, copy, nonatomic) NSURL *transferURL; // @synthesize transferURL=_transferURL;
-@property(readonly, copy, nonatomic) NSURL *transitInformationURL; // @synthesize transitInformationURL=_transitInformationURL;
-@property(readonly, copy, nonatomic) NSURL *venueEmailURL; // @synthesize venueEmailURL=_venueEmailURL;
-@property(readonly, nonatomic) PKPassUpcomingPassInformationImageManifest *venueMapImageManifest; // @synthesize venueMapImageManifest=_venueMapImageManifest;
-@property(readonly, copy, nonatomic) NSURL *venuePhoneNumberURL; // @synthesize venuePhoneNumberURL=_venuePhoneNumberURL;
-@property(readonly, copy, nonatomic) NSURL *venueWebsiteURL; // @synthesize venueWebsiteURL=_venueWebsiteURL;
 
 @end
 

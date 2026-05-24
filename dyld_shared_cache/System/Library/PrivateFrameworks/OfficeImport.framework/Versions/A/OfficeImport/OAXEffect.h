@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (id);
++ (id)Ѥg;
++ (void);
++ (void));
++ (void);
++ (void);
++ (void);
 + (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)q;
 
 @end
 

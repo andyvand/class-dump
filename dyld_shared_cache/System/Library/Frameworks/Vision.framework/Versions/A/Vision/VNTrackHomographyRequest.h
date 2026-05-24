@@ -13,7 +13,7 @@
     VNHomographyTrackerState *_state;
 }
 
-+ (Class);
++ (Class)r:] /* Error: Ran out of types for this method. */;
 + (const CDStruct_3a02d5a8 *);
 - (id);
 - (_Bool);

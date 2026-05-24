@@ -11,10 +11,10 @@
     NSTimer *_tzSupportDayRolloverTimer;
 }
 
-- (_Bool);
-- (void)àªå¶ô;
-- (void)ªÈõªý{D©ôOC©÷[B©ø@ùÿCÿ_Ö ;
-- (void)ª®Ê;
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void):8@16B24Q28 /* Error: Ran out of types for this method. */;

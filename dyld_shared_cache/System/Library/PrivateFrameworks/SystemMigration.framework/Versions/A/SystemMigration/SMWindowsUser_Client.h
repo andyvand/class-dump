@@ -6,16 +6,11 @@
 
 #import <SystemMigration/SMUser_Client.h>
 
-@class NSArray, NSData, NSDictionary, NSString, SMSystem_Client;
+@class SMSystem_Client;
 
 @interface SMWindowsUser_Client : SMUser_Client
 {
     _Bool _canTransfer;
-    SMSystem_Client *sourceSystem;
-    NSArray *_components;
-    NSDictionary *_attributes;
-    NSString *_windowsSID;
-    NSData *_accountPictureData;
 }
 
 + (id);
@@ -36,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSData *accountPictureData; // @synthesize accountPictureData=_accountPictureData;
-@property(readonly) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly) _Bool canTransfer; // @synthesize canTransfer=_canTransfer;
-@property(retain) NSArray *components; // @synthesize components=_components;
 @property(retain) SMSystem_Client *sourceSystem; // @synthesize sourceSystem;
-@property(readonly) NSString *windowsSID; // @synthesize windowsSID=_windowsSID;
 
 @end
 

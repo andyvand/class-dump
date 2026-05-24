@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSTimer, NUMediaView, PTCinematographyFrame, PXCinematicEditController, UXView;
-@protocol PXSubjectTrackingLayoutDelegate, PXSubjectTrackingViewDelegate;
-
 @interface PXSubjectTrackingView
 {
     _Bool _viewEnabled;
-    _Bool _needsUpdateFrame;
-    _Bool _needsUpdateFrameTime;
-    _Bool _needsUpdateViewCache;
-    _Bool _isAnimating;
-    _Bool _badgeVisibleAndWillAutoClose;
-    _Bool _viewCanBeEnabled;
-    id <PXSubjectTrackingViewDelegate> _delegate;
-    id <PXSubjectTrackingLayoutDelegate> _layoutDelegate;
-    id _playbackTimeObserver;
-    NSDictionary *_detectionViewCache;
-    UXView *_inProgressTrackingView;
-    long long _inProgressTrackID;
-    PTCinematographyFrame *_cinematographyFrame;
-    NSNumber *_primaryKey;
-    UXView *_focusStateBadge;
-    NSTimer *_hideFocusStateBadgeTimer;
-    long long _focusState;
-    double _lastLayoutTime;
-    NUMediaView *_mediaView;
-    PXCinematicEditController *_cineController;
 }
 
 + (struct CGPoint);
@@ -41,6 +18,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,8 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)H;
 - (struct CGPoint);
 - (_Bool);
 - (_Bool);
@@ -94,7 +71,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)];
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -117,39 +94,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)nates1).st 
+		#define ComputeTextureCoordinates2		vTextureCoordinates2 = (uTextureMatrix2 * aTextureCoordinates2).st 
+		#define ComputeInSpriteCoordinates		vInSpriteCoordinates = aInSpriteCoordinates 
+		#define ComputeForeColor				vColor = aColor 
+		;
 - (_Bool)"PXTilingController",R,N,V_animationOptionsOriginatingTilingController;
 - (void)t$}ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool badgeVisibleAndWillAutoClose; // @synthesize badgeVisibleAndWillAutoClose=_badgeVisibleAndWillAutoClose;
-@property(readonly, nonatomic) PXCinematicEditController *cineController; // @synthesize cineController=_cineController;
-@property(retain, nonatomic) PTCinematographyFrame *cinematographyFrame; // @synthesize cinematographyFrame=_cinematographyFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXSubjectTrackingViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *detectionViewCache; // @synthesize detectionViewCache=_detectionViewCache;
-@property(readonly, nonatomic) long long focusState; // @synthesize focusState=_focusState;
-@property(retain, nonatomic) UXView *focusStateBadge; // @synthesize focusStateBadge=_focusStateBadge;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSTimer *hideFocusStateBadgeTimer; // @synthesize hideFocusStateBadgeTimer=_hideFocusStateBadgeTimer;
-@property(nonatomic) long long inProgressTrackID; // @synthesize inProgressTrackID=_inProgressTrackID;
-@property(retain, nonatomic) UXView *inProgressTrackingView; // @synthesize inProgressTrackingView=_inProgressTrackingView;
-@property(nonatomic) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property(nonatomic) double lastLayoutTime; // @synthesize lastLayoutTime=_lastLayoutTime;
-@property(nonatomic) __weak id <PXSubjectTrackingLayoutDelegate> layoutDelegate; // @synthesize layoutDelegate=_layoutDelegate;
-@property(readonly, nonatomic) NUMediaView *mediaView; // @synthesize mediaView=_mediaView;
-@property(nonatomic) _Bool needsUpdateFrame; // @synthesize needsUpdateFrame=_needsUpdateFrame;
-@property(nonatomic) _Bool needsUpdateFrameTime; // @synthesize needsUpdateFrameTime=_needsUpdateFrameTime;
-@property(nonatomic) _Bool needsUpdateViewCache; // @synthesize needsUpdateViewCache=_needsUpdateViewCache;
 @property(retain, nonatomic) id playbackTimeObserver; // @synthesize playbackTimeObserver=_playbackTimeObserver;
-@property(retain, nonatomic) NSNumber *primaryKey; // @synthesize primaryKey=_primaryKey;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool viewCanBeEnabled; // @synthesize viewCanBeEnabled=_viewCanBeEnabled;
-@property(nonatomic) _Bool viewEnabled; // @synthesize viewEnabled=_viewEnabled;
 
 @end
 

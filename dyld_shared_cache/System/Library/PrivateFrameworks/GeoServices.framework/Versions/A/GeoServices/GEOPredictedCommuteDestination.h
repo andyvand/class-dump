@@ -9,29 +9,21 @@
 @interface GEOPredictedCommuteDestination
 {
     PBUnknownFields *_unknownFields;
-    double _confidenceScore;
-    int _destinationType;
-    _Bool _chosen;
-    struct {
-        unsigned int has_confidenceScore:1;
-        unsigned int has_destinationType:1;
-        unsigned int has_chosen:1;
-    } _flags;
 }
 
-+ (_Bool)IsFromRecommendationCard:(id)arg1;
++ (_Bool)setIsFromRecommendationCard:(id)arg1;
+- (void)_TtC19ContactsPersistence19SimpleCoreDataStack;
+- (void)CNEWSContactMapping;
+- (void)CNACAccountCollection;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)y available source;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (double);
-- (int);
+- (int);
 - (void);
 - (int);
 - (void);
@@ -39,26 +31,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)non-VoiceTrigger stream audio providers;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)sOfflineMapsFilter";
-- (id)ata;
+- (id)_userActionMetadata;
 - (id);
 - (id)seGeocodeResult"8;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool chosen;
-@property(nonatomic) double confidenceScore;
-@property(nonatomic) int destinationType;
-@property(nonatomic) _Bool hasChosen;
-@property(nonatomic) _Bool hasConfidenceScore;
 @property(nonatomic) _Bool hasDestinationType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

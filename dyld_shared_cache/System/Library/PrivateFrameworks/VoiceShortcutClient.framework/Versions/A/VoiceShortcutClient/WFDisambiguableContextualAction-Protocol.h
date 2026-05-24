@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, WFContextualActionParameter, WFTopHitItemContextualAction;
+
 @protocol WFDisambiguableContextualAction
++ (NSString *)3|;
++ (WFContextualActionParameter *);
++ (WFTopHitItemContextualAction *);
 @end
 

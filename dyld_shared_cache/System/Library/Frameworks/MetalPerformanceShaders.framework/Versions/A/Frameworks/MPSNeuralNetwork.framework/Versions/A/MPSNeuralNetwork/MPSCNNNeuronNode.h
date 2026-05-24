@@ -9,26 +9,21 @@
 @interface MPSCNNNeuronNode : MPSNNFilterNode
 {
     int _type;
-    float _a;
-    float _b;
-    float _c;
 }
 
 + (id);
 - (void *);
 - (id);
 - (Class);
+- (float)l;
 - (float);
-- (float);
-- (float);
+- (float)Account consent version update detected, but we didn't have an existing device session ID, creating... %@;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) float a; // @synthesize a=_a;
-@property(readonly, nonatomic) float b; // @synthesize b=_b;
-@property(readonly, nonatomic) float c; // @synthesize c=_c;
 
 @end
 

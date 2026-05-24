@@ -6,17 +6,16 @@
 
 #import <GeoServices/GEOComposedEnrouteNotice.h>
 
-@class GEOLatLng, GEOMiniCard, GEOPBTransitArtwork, GEORouteAnnotation;
+@class GEOPBTransitArtwork, GEORouteAnnotation;
 
 @interface GEOComposedRouteAnnotation : GEOComposedEnrouteNotice
 {
     GEORouteAnnotation *_annotation;
-    GEOLatLng *_derivedPosition;
 }
 
 + (_Bool)llu Name=%@;
-- (id);
-- (id);
+- (id)configureChildAccount:(id)arg1 withSettingsFromDelegateInfo:(unsigned long long)arg2 parent:(unsigned long long)arg3;
+- (id)_lock;
 - (id);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) GEOPBTransitArtwork *artwork;
-@property(readonly, nonatomic) GEOMiniCard *infoCard;
 
 @end
 

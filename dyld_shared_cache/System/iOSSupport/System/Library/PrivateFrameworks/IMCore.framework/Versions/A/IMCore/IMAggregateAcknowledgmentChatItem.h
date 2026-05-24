@@ -6,24 +6,15 @@
 
 #import <IMCore/IMAssociatedMessageChatItem.h>
 
-@class IMMessageAcknowledgmentChatItem, IMTapback, NSArray;
+@class NSArray;
 
 @interface IMAggregateAcknowledgmentChatItem : IMAssociatedMessageChatItem
 {
     _Bool _latestIsFromMe;
-    _Bool _includesMultiple;
-    NSArray *_acknowledgments;
-    IMMessageAcknowledgmentChatItem *_fromMeAcknowledgement;
-    IMTapback *_latestTapback;
 }
 
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *acknowledgments; // @synthesize acknowledgments=_acknowledgments;
-@property(readonly, nonatomic) IMMessageAcknowledgmentChatItem *fromMeAcknowledgement; // @synthesize fromMeAcknowledgement=_fromMeAcknowledgement;
-@property(readonly, nonatomic) _Bool includesFromMe;
-@property(readonly, nonatomic) _Bool includesMultiple; // @synthesize includesMultiple=_includesMultiple;
-@property(readonly, nonatomic) _Bool latestIsFromMe; // @synthesize latestIsFromMe=_latestIsFromMe;
-@property(readonly, nonatomic) IMTapback *latestTapback; // @synthesize latestTapback=_latestTapback;
 @end
 

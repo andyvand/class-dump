@@ -12,7 +12,7 @@
 {
 }
 
-- (void);
+- (void)alterExtensionStmt;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *sectionIndexTitles; // @dynamic sectionIndexTitles;

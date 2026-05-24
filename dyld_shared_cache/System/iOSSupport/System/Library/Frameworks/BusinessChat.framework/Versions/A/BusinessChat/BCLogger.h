@@ -8,9 +8,9 @@
 {
 }
 
-+ (void);
-+ (void);
-- (void);
++ (void)loadView;
++ (void)linkStrength;
+- (void)photoSettings;
 
 @end
 

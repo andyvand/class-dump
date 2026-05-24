@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class QLThumbnailQueue;
-
 __attribute__((visibility("hidden")))
 @interface QLThumbnailQueueOperation
 {
     struct __QLThumbnail *_thumbnail;
-    QLThumbnailQueue *_delegate;
-    _Bool _finished;
-    _Bool _executing;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)isEnabledForDataclass: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -29,10 +24,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void)lErrorFromQLError:(_Bool)arg1;
+- (void)thumbnailErrorFromQLError:(_Bool)arg1;
 
 // Remaining properties
-@property __weak QLThumbnailQueue *delegate; // @synthesize delegate=_delegate;
 @property struct __QLThumbnail *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end

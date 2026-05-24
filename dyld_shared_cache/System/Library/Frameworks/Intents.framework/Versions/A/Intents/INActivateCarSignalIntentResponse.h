@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INActivateCarSignalIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_thirdPartyVideoDecodersAllowed;
 + (int);
 + (long long);
-+ (_Bool);
++ (_Bool)Hnnrzo_;
 + (_Bool);
 - (void);
 - (id);
@@ -25,23 +23,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)_֋K;
+- (unsigned long long);
+- (void)yes, ;
 - (id);
 - (id);
-- (long long)uteUnsupportedReasonINIntentParameterUnsupportedReasonFormatString;
+- (long long)__INCodableAttributeUnsupportedReasonINIntentParameterUnsupportedReasonFormatString;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long signals;
-@property(readonly) Class superclass;
 
 @end
 

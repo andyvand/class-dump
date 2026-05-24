@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface TTMSchemaTTMOverrideTCUFailure : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_tcuId;
-    NSArray *_failures;
-    _Bool _hasTcuId;
 }
 
 - (id);
@@ -20,7 +18,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,20 +27,17 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)@"NSMutableArray",&,N,V_undoableCommands;
+- (_Bool)tify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE ROWID = ? ORDER BY message.ROWID ASC;;
 - (id);
 - (id);
-- (id);
-- (id)isMusicSubscriber;
-- (void)IGENCEFLOWFAILUREREASON_VALUE_DISAMBIGUATION_REJECTED;
+- (id)deleteQuery;
+- (id)_isMusicSubscriber;
+- (void)ORCHINTELLIGENCEFLOWFAILUREREASON_VALUE_DISAMBIGUATION_REJECTED;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *failures; // @synthesize failures=_failures;
-@property(nonatomic) _Bool hasTcuId; // @synthesize hasTcuId=_hasTcuId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *tcuId; // @synthesize tcuId=_tcuId;
 
 @end

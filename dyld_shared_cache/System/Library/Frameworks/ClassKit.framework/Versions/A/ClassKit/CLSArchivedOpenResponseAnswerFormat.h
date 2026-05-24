@@ -6,49 +6,37 @@
 
 #import <ClassKit/CLSArchivedAnswerFormat.h>
 
-@class NSString;
-
 @interface CLSArchivedOpenResponseAnswerFormat : CLSArchivedAnswerFormat
 {
     long long _type;
-    NSString *_teacherProvidedText;
-    long long _minimumTextLength;
-    long long _maximumTextLength;
-    _Bool _allowsMultimedia;
 }
 
 + (id);
-+ (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
++ (_Bool)_bodyParams;
+- (id)eHandle is not 0
+;
+- (void)quest received for different program!! transactionId:(id)arg1 0x%llx, req->programHandle=0x%llx, reqCb->programHandle=0x%llx
+;
+- (void)t=0x%x
+;
+- (void)n kANEUserClientCommand_DeviceOpen call failed result=0x%x
+;
+- (void)utput buffer.  Output buffer size %zd does not match available bytes %u 
+;
+- (long long);
 - (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id)_;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsMultimedia;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long maximumTextLength;
-@property(nonatomic) long long minimumTextLength; // @synthesize minimumTextLength=_minimumTextLength;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *teacherProvidedText;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

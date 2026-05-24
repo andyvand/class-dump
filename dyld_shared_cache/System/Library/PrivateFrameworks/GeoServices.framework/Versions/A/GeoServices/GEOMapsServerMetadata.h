@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOMapsServerMetadata
 {
     PBDataReader *_reader;
-    NSMutableArray *_mapsSearchResults;
-    NSMutableArray *_suggestionEntryMetadataDisplayeds;
-    NSData *_suggestionEntryMetadataTappedOn;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_mapsSearchResults:1;
-        unsigned int read_suggestionEntryMetadataDisplayeds:1;
-        unsigned int read_suggestionEntryMetadataTappedOn:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (Class);
-+ (_Bool)sTotalNavTime:(id)arg1;
++ (Class)24;
++ (_Bool)setHasTotalNavTime:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -40,30 +28,27 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)timeZoneForSecondsFromGMT: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ectorAssetMonitor startMonitor]_block_invoke;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void);
 - (id)}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16;
 - (id)ions",&,N;
 - (id)¬Ú®l#v;
-- (id)AFFIC_SQUARE;
+- (id)FormOfWay:(id)arg1:UNSTRUCTURED_TRAFFIC_SQUARE /* Error: Ran out of types for this method. */;
 - (void)q;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSuggestionEntryMetadataTappedOn;
-@property(retain, nonatomic) NSMutableArray *mapsSearchResults;
-@property(retain, nonatomic) NSMutableArray *suggestionEntryMetadataDisplayeds;
-@property(retain, nonatomic) NSData *suggestionEntryMetadataTappedOn;
 
 @end
 

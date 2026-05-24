@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, _ANEIOSurfaceObject, _ANEPerformanceStats, _ANESharedEvents;
+@class NSArray, _ANEPerformanceStats;
 
 @interface _ANERequest
 {
     NSArray *_inputArray;
-    NSArray *_inputIndexArray;
-    NSArray *_outputArray;
-    NSArray *_outputIndexArray;
-    _ANEIOSurfaceObject *_weightsBuffer;
-    _ANESharedEvents *_sharedEvents;
-    NSNumber *_transactionHandle;
-    NSNumber *_procedureIndex;
-    _ANEPerformanceStats *_perfStats;
-    NSArray *_perfStatsArray;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)r">32;
++ (id)@"NSString"16@?<v@?@"NSString"@"NSError">24;
 + (id);
 + (id);
 - (id);
@@ -37,30 +27,20 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)wUser"b1"hasUserStatusFetchError"b1"hasDateStartedResolvingUserStatus"b1"hasDateEndedResolvingUserStatus"b1"hasExperiment"b1"hasExperimentFetchError"b1"hasDateStartedResolvingExperiment"b1"hasDateEndedResolvingExperiment"b1"hasOutputVoiceCountForRecognitionLanguage"b1"hasRecognitionLanguageWithMultipleOutputVoicesExists"b1};
+- (void)1"hasIsEnabled"b1"hasPrimaryEarbudSide"b1"hasPrimaryInEarStatus"b1"hasSecondaryInEarStatus"b1};
+- (id)v32@0:8@"NSString"16@"AFDictationOptions"24 /* Error: Ran out of types for this method. */;
+- (id)Info"16@"NSString"24;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)x;
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)o LOIs nearby:(CDUnknownBlockType)arg1 %@;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) NSArray *inputArray; // @synthesize inputArray=_inputArray;
-@property(readonly, nonatomic) NSArray *inputIndexArray; // @synthesize inputIndexArray=_inputIndexArray;
-@property(readonly, nonatomic) NSArray *outputArray; // @synthesize outputArray=_outputArray;
-@property(readonly, nonatomic) NSArray *outputIndexArray; // @synthesize outputIndexArray=_outputIndexArray;
 @property(retain, nonatomic) _ANEPerformanceStats *perfStats; // @synthesize perfStats=_perfStats;
-@property(readonly, nonatomic) NSArray *perfStatsArray; // @synthesize perfStatsArray=_perfStatsArray;
-@property(readonly, copy, nonatomic) NSNumber *procedureIndex; // @synthesize procedureIndex=_procedureIndex;
-@property(retain, nonatomic) _ANESharedEvents *sharedEvents; // @synthesize sharedEvents=_sharedEvents;
-@property(copy, nonatomic) NSNumber *transactionHandle; // @synthesize transactionHandle=_transactionHandle;
-@property(readonly, nonatomic) _ANEIOSurfaceObject *weightsBuffer; // @synthesize weightsBuffer=_weightsBuffer;
 
 @end
 

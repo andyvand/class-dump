@@ -9,10 +9,6 @@
 @interface CP_DDMAppInfo
 {
     NSString *_bundleIdentifier;
-    NSString *_personaIdentifier;
-    NSString *_sourceIdentifier;
-    NSString *_declarationIdentifier;
-    NSString *_appPath;
 }
 
 + (_Bool);
@@ -20,22 +16,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)	;
+- (id)addListWithName:(id)arg1 toAccountChangeItem:listObjectID: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
+- (id)titleVisibility;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appPath; // @synthesize appPath=_appPath;
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *declarationIdentifier; // @synthesize declarationIdentifier=_declarationIdentifier;
-@property(copy, nonatomic) NSString *personaIdentifier; // @synthesize personaIdentifier=_personaIdentifier;
-@property(copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
 
 @end
 

@@ -4,71 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMMediaDestinationControllerData
 {
     NSUUID *_identifier;
-    NSUUID *_parentIdentifier;
-    NSUUID *_destinationIdentifier;
-    unsigned long long _supportedOptions;
-    NSArray *_availableDestinationIdentifiers;
 }
 
 + (id);
-+ (_Bool);
-+ (id)ntDeviceDeviceIRKDataCodingKey;
++ (_Bool);
++ (id)HMResidentDeviceDeviceIRKDataCodingKey;
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id)Ow;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)DAAPPollingInterval;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)sneer;
+- (id)genuinely;
 - (void);
 - (id);
-- (id);
+- (id)_originated;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)$c¨c@dìdg;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(copy) NSArray *availableDestinationIdentifiers; // @synthesize availableDestinationIdentifiers=_availableDestinationIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSUUID *destinationIdentifier; // @synthesize destinationIdentifier=_destinationIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSUUID *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property unsigned long long supportedOptions; // @synthesize supportedOptions=_supportedOptions;
 
 @end
 

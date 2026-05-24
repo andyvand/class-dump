@@ -15,17 +15,17 @@
 
 - (id);
 - (id);
-- (id);
+- (id)R/;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (struct PXSimpleIndexPath);
 - (id);
 - (id);
-- (long long)ionWithInvitation:presentationEnvironment:completionHandler: /* Error: Ran out of types for this method. */;
+- (long long)performActionWithInvitation:presentationEnvironment:completionHandler: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)ÿ;
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (VCSEncodings)
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);

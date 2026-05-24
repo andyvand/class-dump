@@ -12,7 +12,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned int)onWithView:printInfo: /* Error: Ran out of types for this method. */;
+- (unsigned int)printOperationWithView:printInfo: /* Error: Ran out of types for this method. */;
 - (_Bool)Runtime/Utils/C3DHitTest.c;
 
 @end

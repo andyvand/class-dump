@@ -8,14 +8,14 @@
 {
 }
 
-- (id);
+- (id)&;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)Dreamworks DUMP END --;
+- (id)emoteControlSession_invalidateInternal(FigEndpointRemoteControlSessionRef);
 - (id);
 
 @end

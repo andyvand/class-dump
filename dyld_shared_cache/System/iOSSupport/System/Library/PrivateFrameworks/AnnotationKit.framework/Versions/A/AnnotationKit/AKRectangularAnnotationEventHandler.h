@@ -9,22 +9,20 @@
 @interface AKRectangularAnnotationEventHandler : AKAnnotationEventHandler
 {
     _Bool _initialHorizontalFlip;
-    _Bool _initialVerticalFlip;
 }
 
-- (void);
+- (void)LPMetadataTwitterCard;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 
 // Remaining properties
 @property _Bool initialHorizontalFlip; // @synthesize initialHorizontalFlip=_initialHorizontalFlip;
-@property _Bool initialVerticalFlip; // @synthesize initialVerticalFlip=_initialVerticalFlip;
 
 @end
 

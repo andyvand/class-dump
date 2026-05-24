@@ -6,58 +6,41 @@
 
 #import <CoreML/MLTask.h>
 
-@class MLModel, MLUpdateProgressHandlers, NSObject, NSString, NSURL;
-@protocol MLBatchProvider, MLUpdatable, OS_dispatch_queue;
+@class MLModel;
+@protocol MLUpdatable;
 
 @interface MLUpdateTask : MLTask
 {
     _Bool _updateHasStarted;
-    MLModel<MLUpdatable> *_updatableModel;
-    id <MLBatchProvider> _trainingData;
-    MLUpdateProgressHandlers *_progressHandlers;
-    NSObject<OS_dispatch_queue> *_updateQueue;
-    NSURL *_updatableModelURL;
 }
 
++ (id)/;
++ (id)1;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
++ (_Bool)H;
+- (_Bool)lidate];
+- (id)UnifiedGamingPerfLevelMacTier2;
+- (id)UnifiedGamingPerfLevelMacTier2;
+- (id)tionTriangleGeometryDescriptor has %lu keyframes).;
+- (void)binFragmentsTemporalSplitKernel;
+- (void)dex %u is not within the range [0,1).;
+- (void)ViewportArrayIndexRet;
+- (void)RenderTargetArrayIndexRet;
+- (void)PointSizeRet;
+- (void)UserAnnotationFnAttr;
+- (void)PatchFnAttr;
+- (id)tName:(id)arg1 ];
 - (CDUnknownBlockType);
 - (void);
-- (CDUnknownBlockType);
-- (id);
-- (id);
+- (CDUnknownBlockType);
+- (id)G;
+- (id)= ;
 - (id);
 - (void)e object. It can be a system level error such as out-of-memory errors, or the model is broken or unsupported.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MLUpdateProgressHandlers *progressHandlers; // @synthesize progressHandlers=_progressHandlers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <MLBatchProvider> trainingData; // @synthesize trainingData=_trainingData;
 @property(readonly, nonatomic) MLModel<MLUpdatable> *updatableModel; // @synthesize updatableModel=_updatableModel;
-@property(readonly, nonatomic) NSURL *updatableModelURL; // @synthesize updatableModelURL=_updatableModelURL;
-@property(nonatomic) _Bool updateHasStarted; // @synthesize updateHasStarted=_updateHasStarted;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *updateQueue; // @synthesize updateQueue=_updateQueue;
 
 @end
 

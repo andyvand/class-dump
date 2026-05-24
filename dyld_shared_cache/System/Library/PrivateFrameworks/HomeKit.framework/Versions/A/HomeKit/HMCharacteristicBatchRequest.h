@@ -9,8 +9,6 @@
 @interface HMCharacteristicBatchRequest
 {
     CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _progressHandler;
-    HMBatchRequest *_batchRequest;
 }
 
 + (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) HMBatchRequest *batchRequest; // @synthesize batchRequest=_batchRequest;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

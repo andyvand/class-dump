@@ -4,63 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBScalablePipe, CBScalablePipeManager, CUReadRequest, CUWriteRequest, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CUBluetoothScalablePipe
 {
     _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct LogCategory *_ucat;
-    struct channel *_btChannel;
-    _Bool _btEndpointRegistering;
-    _Bool _btEndpointRegistered;
-    int _btPeerHostState;
-    _Bool _btPeerKVORegistered;
-    CBScalablePipe *_btPipe;
-    CBScalablePipeManager *_btPipeManager;
-    struct channel_ring_desc *_btReadRing;
-    char *_btReadLeftoverBuf;
-    unsigned long long _btReadLeftoverMaxLen;
-    char *_btReadLeftoverPtr;
-    char *_btReadLeftoverEnd;
-    struct channel_ring_desc *_btWriteRing;
-    int _channelFD;
-    CUReadRequest *_readRequestCurrent;
-    NSMutableArray *_readRequests;
-    NSObject<OS_dispatch_source> *_readSource;
-    _Bool _readSuspended;
-    CUWriteRequest *_writeRequestCurrent;
-    NSMutableArray *_writeRequests;
-    NSObject<OS_dispatch_source> *_writeSource;
-    _Bool _writeSuspended;
-    int _peerHostState;
-    int _priority;
-    int _state;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_identifier;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    NSUUID *_peerIdentifier;
-    CDUnknownBlockType _peerHostStateChangedHandler;
-    CDUnknownBlockType _stateChangedHandler;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (void)?	;
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (int);
+- (void);
+- (void)exposureProgram;
+- (void);
+- (void)%;
+- (CDUnknownBlockType);
+- (id)initWithListenerEndpoint:exportedInterface: /* Error: Ran out of types for this method. */;
+- (int)clientID:%@, 
+	clientName:%@, 
+	scopes:%@, 
+	state:%li, 
+	transferState:%@, 
+	primaryClientID:%@, 
+	origin:%@, 
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
@@ -72,7 +45,7 @@
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)annot fuse layers = %@ to ReLUN;
 - (void);
 - (_Bool);
 - (void);
@@ -81,21 +54,12 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int)AVFoundation.framework/AVFoundation;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) int peerHostState; // @synthesize peerHostState=_peerHostState;
-@property(copy, nonatomic) CDUnknownBlockType peerHostStateChangedHandler; // @synthesize peerHostStateChangedHandler=_peerHostStateChangedHandler;
-@property(copy, nonatomic) NSUUID *peerIdentifier; // @synthesize peerIdentifier=_peerIdentifier;
-@property(nonatomic) int priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(copy, nonatomic) CDUnknownBlockType stateChangedHandler; // @synthesize stateChangedHandler=_stateChangedHandler;
 
 @end
 

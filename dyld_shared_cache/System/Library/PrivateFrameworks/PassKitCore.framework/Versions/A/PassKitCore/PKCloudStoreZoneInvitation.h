@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface PKCloudStoreZoneInvitation
 {
     NSURL *_shareURL;
-    NSData *_shareInvitationToken;
-    NSString *_containerIdentifier;
-    NSString *_zoneName;
-    NSDate *_dateCreated;
 }
 
 + (id);
@@ -22,26 +18,22 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
+- (id)!;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)hasLinkOpen100pct;
 - (void);
 - (void);
 - (id);
 - (id)(Payment Application:%@) /* Error: Ran out of types for this method. */;
-- (void)OSIX;
+- (void)en_US_POSIX;
 - (id)p­ÌÿÈrmäy;
 - (void)âÝkô ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(copy, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(retain, nonatomic) NSData *shareInvitationToken; // @synthesize shareInvitationToken=_shareInvitationToken;
 @property(retain, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(copy, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

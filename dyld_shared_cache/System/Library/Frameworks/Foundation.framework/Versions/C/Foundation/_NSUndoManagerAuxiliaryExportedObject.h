@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSUndoManagerAuxiliaryExportedObject
 {
     NSUndoManager *_manager;
-    NSUUID *_uuid;
 }
 
 - (void);

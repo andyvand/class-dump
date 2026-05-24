@@ -7,13 +7,6 @@
 @interface AppStoreKit.ImageLockup
 {
     id artwork;
-    id caption;
-    id title;
-    id lockup;
-    id isDark;
-    id shelfBackground;
-    id id;
-    id impressionMetrics;
 }
 
 @end

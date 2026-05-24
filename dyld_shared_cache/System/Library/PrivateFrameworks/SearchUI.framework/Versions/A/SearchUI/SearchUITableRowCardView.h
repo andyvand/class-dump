@@ -16,12 +16,12 @@
 + (double);
 + (_Bool);
 + (_Bool);
-+ (struct NSEdgeInsets);
++ (struct NSEdgeInsets)CLASSIFICATION_PARAMETERS;
 - (struct NSEdgeInsets);
 - (struct NSEdgeInsets);
 - (void);
-- (id);
-- (id);
+- (id)_semanticClassReplyTexts;
+- (id)me;
 
 // Remaining properties
 @property(retain, nonatomic) TLKGridRowView *contentView; // @dynamic contentView;

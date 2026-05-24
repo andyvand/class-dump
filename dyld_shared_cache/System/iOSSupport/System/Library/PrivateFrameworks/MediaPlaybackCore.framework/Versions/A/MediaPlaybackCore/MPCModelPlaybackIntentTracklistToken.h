@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPIdentifierSet, MPModelRequest;
+@class MPModelRequest;
 
 @interface MPCModelPlaybackIntentTracklistToken
 {
     MPModelRequest *_request;
-    MPIdentifierSet *_startItemIdentifiers;
 }
 
 + (id);
@@ -19,13 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)ationSize;
+- (void);
+- (void)keyPathsForValuesAffectingPresentationSize;
 - (void)i %{public}@  â â° identifiers:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) MPModelRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) MPIdentifierSet *startItemIdentifiers; // @synthesize startItemIdentifiers=_startItemIdentifiers;
 
 @end
 

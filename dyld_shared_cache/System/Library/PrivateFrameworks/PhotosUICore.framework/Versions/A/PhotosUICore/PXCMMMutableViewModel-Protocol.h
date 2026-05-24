@@ -4,45 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet, NSString, NSURL, PXRecipient, PXSectionedSelectionManager;
+@class NSArray, NSString, NSURL;
 
 @protocol PXCMMMutableViewModel
+- (NSString *);
+- (unsigned long long)r;
+- (void);
+- (NSURL *)@16{CGSize=dd}24@40@48q56q64B72Q76d84Q92q100q108@116B124@128@136;
+- (void)weatherPartlyCloudy;
+- (long long)m highp vec2			shadowHardness, invShadowSize, shadowOffset; 
+		varying lowp vec2			borderAlphaXY; 
+		varying lowp vec2			shadowStrengthXY; 
+		void main() 
+		{ 
+			ComputeVertex; 
+			ComputeInSpriteCoordinates; 
+			highp vec2 p1 = aInSpriteCoordinates * a + b, relP = abs(p1) - .5 - borderSize; 
+			highp vec2 p2 = ((p1 - shadowOffset) * invShadowSize), absP2 = abs(p2); 
+			borderAlphaXY = 1. - relP * invRadii; 
+			shadowStrengthXY = max((absP2-.5)*shadowHardness+1., 0.); 
+		} 
+		;
 - (void)¡%°!äBùÑ81Â0@ù
 × ;
 - (void)
 × ;
-- (void);
 - (void)tOrientation;
 - (long long)q¸nÜo;
 - (NSString *)-up motion style:%@ /* Error: Ran out of types for this method. */;
 - (void)n't fetch the person with %s;
 - (NSArray *)iesDataSource.m;
-- (long long)ayVersion;
+- (long long)OneUpSharePlayVersion;
 
 // Remaining properties
-@property(nonatomic) _Bool containsUnverifiedPersons;
-@property(retain, nonatomic) NSSet *disabledActionTypes;
-@property(copy, nonatomic) NSDate *endDate;
-@property(nonatomic) _Bool loadingPeopleSuggestions;
-@property(nonatomic) unsigned long long numberOfReceivedAssets;
-@property(nonatomic) _Bool oneUpDisabled;
 @property(copy, nonatomic) NSString *originalTitle;
-@property(copy, nonatomic) PXRecipient *originatorRecipient;
-@property(nonatomic) long long photosCount;
-@property(copy, nonatomic) NSArray *recipients;
-@property(nonatomic) long long selectedCount;
-@property(nonatomic) long long selectedPhotosCount;
-@property(nonatomic) long long selectedVideosCount;
-@property(nonatomic, getter=isSelecting) _Bool selecting;
-@property(nonatomic) _Bool selectionEnabled;
-@property(retain, nonatomic) PXSectionedSelectionManager *selectionManager;
-@property(copy, nonatomic) NSURL *shareURL;
-@property(copy, nonatomic) NSString *shareUUID;
-@property(nonatomic) _Bool shouldShowPlaceholder;
-@property(copy, nonatomic) NSDate *startDate;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) long long totalCount;
-@property(nonatomic) long long videosCount;
 @end
 

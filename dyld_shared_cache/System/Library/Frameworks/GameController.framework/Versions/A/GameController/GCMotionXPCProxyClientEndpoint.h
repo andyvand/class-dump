@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCController, NSString;
-@protocol GCMotionXPCProxyRemoteServerEndpointInterface, NSObject><NSCopying><NSSecureCoding;
+@class GCController;
+@protocol NSObject><NSCopying><NSSecureCoding;
 
 __attribute__((visibility("hidden")))
 @interface GCMotionXPCProxyClientEndpoint
 {
     GCController *_controller;
-    id <GCMotionXPCProxyRemoteServerEndpointInterface> _serverEndpoint;
-    id _connectionInterruptionRegistration;
-    id _connectionInvalidationRegistration;
-    _Bool _sensorsActive;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
+- (void)L;
 - (void);
-- (void);
-- (id);
+- (id)|;
 - (void);
 - (void);
 - (id);
@@ -33,15 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool sensorsActive; // @synthesize sensorsActive=_sensorsActive;
-@property(readonly) Class superclass;
 
 @end
 

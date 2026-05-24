@@ -7,13 +7,15 @@
 @class NSArray;
 
 @protocol TSKDocumentViewController
+- (_Bool)tic failure];
+- (void)MPCModelRadioQueueFeederError;
+- (NSArray *);
+- (_Bool)ing paused state;
+- (_Bool)uptedState;
+- (_Bool)sition time observers;
+- (NSArray *)MPServerObjectDatabaseAssetFlavor;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *CJKLanguages;
-@property(readonly, nonatomic) NSArray *bidiLanguages;
 @property(readonly, retain, nonatomic) id documentRoot;
-@property(readonly, nonatomic) _Bool isBiDiEnabled;
-@property(readonly, nonatomic) _Bool isCJKEnabled;
-@property(readonly, nonatomic) NSArray *listLanguages;
 @end
 

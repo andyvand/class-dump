@@ -5,9 +5,9 @@
 //
 
 @protocol ITMutableLocalLibraryIdentifiers
+- (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long containedPersistentID;
 @property(nonatomic) unsigned long long persistentID;
 @end
 

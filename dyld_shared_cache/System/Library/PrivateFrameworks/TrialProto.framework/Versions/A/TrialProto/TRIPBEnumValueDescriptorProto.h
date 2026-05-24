@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIPBEnumValueOptions;
+@class NSString;
 
 @interface TRIPBEnumValueDescriptorProto : TRIPBMessage
 {
@@ -15,12 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasName; // @dynamic hasName;
-@property(nonatomic) _Bool hasNumber; // @dynamic hasNumber;
-@property(nonatomic) _Bool hasOptions; // @dynamic hasOptions;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) int number; // @dynamic number;
-@property(retain, nonatomic) TRIPBEnumValueOptions *options; // @dynamic options;
 
 @end
 

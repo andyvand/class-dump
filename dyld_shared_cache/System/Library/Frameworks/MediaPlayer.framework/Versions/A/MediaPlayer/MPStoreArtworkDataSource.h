@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)handleScrollWheel:(long long)arg1;
+- (_Bool)pixelFormat422YpCbCr8_709;
 
 @end
 

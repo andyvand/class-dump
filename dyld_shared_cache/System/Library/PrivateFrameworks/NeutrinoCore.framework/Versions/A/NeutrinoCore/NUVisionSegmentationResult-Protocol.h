@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NUImageBuffer;
-
 @protocol NUVisionSegmentationResult
 
 // Remaining properties
-@property(readonly, nonatomic) id <NUImageBuffer> confidenceMapBuffer;
-@property(readonly, nonatomic) id <NUImageBuffer> matteImageBuffer;
 @property(readonly, nonatomic) long long segmentationType;
 @end
 

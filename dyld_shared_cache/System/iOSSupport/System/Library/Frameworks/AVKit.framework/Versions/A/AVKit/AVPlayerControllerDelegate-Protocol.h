@@ -5,5 +5,9 @@
 //
 
 @protocol AVPlayerControllerDelegate
+- (void)pG;
+
+@optional
+- (void).G;
 @end
 

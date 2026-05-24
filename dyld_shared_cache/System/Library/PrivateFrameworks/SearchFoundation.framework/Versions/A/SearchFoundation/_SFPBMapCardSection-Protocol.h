@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBLatLng, _SFPBMapRegion;
+@class NSArray, NSData, _SFPBLatLng;
 
 @protocol _SFPBMapCardSection
-- (void);
+- (int)_;
+- (NSArray *);
+- (_Bool)isCoordinatorSuspended;
+- (_Bool)insertTracklist:afterItemIdentifier:playNowWithPreferredStartIndexPath:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)MPIdentifierSetRadioStationHash;
+- (void)6@24@32;
+- (NSData *)fetchFinalMergeTargetPersonForPersonWithUUID:context:predicate: /* Error: Ran out of types for this method. */;
+- (_SFPBLatLng *);
+- (void)_scoreboardCardSection;
 - (int)ð;
 - (void)õ;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(retain, nonatomic) _SFPBMapRegion *boundingMapRegion;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSString *footnote;
-@property(copy, nonatomic) NSString *footnoteLabel;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(nonatomic) _Bool interactive;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBLatLng *location;
-@property(nonatomic) int pinBehavior;
-@property(retain, nonatomic) _SFPBColor *pinColor;
-@property(copy, nonatomic) NSArray *pins;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) int sizeFormat;
-@property(copy, nonatomic) NSString *type;
 @end
 

@@ -4,63 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIDataSourceBatchUpdateMapHelper, _UIDataSourceSnapshotter;
+@class _UIDataSourceSnapshotter;
 
 __attribute__((visibility("hidden")))
 @interface _UIDataSourceUpdateMap
 {
     _UIDataSourceSnapshotter *_initialSnapshot;
-    _UIDataSourceSnapshotter *_finalSnapshot;
-    NSArray *_originalUpdateItems;
-    NSArray *_updateItems;
-    NSArray *_reverseUpdateItems;
-    _UIDataSourceBatchUpdateMapHelper *_batchUpdateMapHelper;
 }
 
++ (id)alGroupID as regular groupID (%@) in %llu chats, trying with client groupID (%@);
 + (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)@16Q24Q32@?40;
+- (void)trackedRecords;
+- (void)setGelatoService:(id)arg1;
+- (id)record1ZoneID;
+- (id)markMessageAsReadWithGUID:(id)arg1 callerOrigin:reply: /* Error: Ran out of types for this method. */;
+- (id)handleMessagesNotificationResponse:userNotificationCenter:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)broadcasterForNotificationsListeners;
 - (id);
+- (id)account:(id)arg1 vettedAliasesChanged: /* Error: Ran out of types for this method. */;
+- (id)account:(id)arg1 defaultsChanged:(id)arg2;
+- (id)_remergeChatsWithPendingParticipantIDSets;
+- (id)ssageStorageTimerInterval;
+- (id)eadReceiptsV1WithQOI;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)IDCSSG;
 - (id);
 - (long long);
 - (id);
+- (id)identifier %@ of type %ld (%@);
 - (id);
-- (id);
+- (void)find service session for replicated message with source service %@ replicating account %@ (email alias:%@) /* Error: Ran out of types for this method. */;
+- (id)ropping all chats in registry;
+- (id)d _doneLoadingAfterMerge:%d forced:%d /* Error: Ran out of types for this method. */;
+- (id)st seen message guid needs updating, old %@ new %@;
+- (id)ut of Junk. Chat with guid:%@ /* Error: Ran out of types for this method. */;
+- (id)index with error %@;
+- (_Bool)@;
+- (_Bool)tch of attachment filesize updates completed, setting new watermark to be %@;
+- (id)create the subscription, we'll still try to write the exit record as we'll retry updating the subscription on imagent launch;
+- (void)ChatToSyncHasSyncedState;
 - (void);
+- (long long)encodeWithCoder:(long long)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)resentation;
+- (id)preferredInterfaceOrientationForPresentation;
 - (id)nt=dd}{CGSize=dd}},R,N,V_rect;
 - (id)but could not load class with name "%@".;
 - (long long)UIKitCore/UIButtonConfiguration.swift;
@@ -68,13 +63,7 @@ __attribute__((visibility("hidden")))
 - (void)ÆI;
 
 // Remaining properties
-@property(retain, nonatomic) _UIDataSourceBatchUpdateMapHelper *batchUpdateMapHelper; // @synthesize batchUpdateMapHelper=_batchUpdateMapHelper;
-@property(retain, nonatomic) _UIDataSourceSnapshotter *finalSnapshot; // @synthesize finalSnapshot=_finalSnapshot;
 @property(retain, nonatomic) _UIDataSourceSnapshotter *initialSnapshot; // @synthesize initialSnapshot=_initialSnapshot;
-@property(readonly, nonatomic) _Bool isBatchUpdateMap;
-@property(copy, nonatomic) NSArray *originalUpdateItems; // @synthesize originalUpdateItems=_originalUpdateItems;
-@property(retain, nonatomic) NSArray *reverseUpdateItems; // @synthesize reverseUpdateItems=_reverseUpdateItems;
-@property(retain, nonatomic) NSArray *updateItems; // @synthesize updateItems=_updateItems;
 
 @end
 

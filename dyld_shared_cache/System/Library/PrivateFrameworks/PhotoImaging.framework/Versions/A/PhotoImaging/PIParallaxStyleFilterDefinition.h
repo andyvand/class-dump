@@ -6,28 +6,26 @@
 
 #import <PhotoImaging/PIParallaxStyleDefinition.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PIParallaxStyleFilterDefinition : PIParallaxStyleDefinition
 {
     NSString *_filterName;
-    NSDictionary *_parameters;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)rToData: /* Error: Ran out of types for this method. */;
+- (void)setRenderToData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *filterName; // @synthesize filterName=_filterName;
-@property(readonly, copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
 
 @end
 

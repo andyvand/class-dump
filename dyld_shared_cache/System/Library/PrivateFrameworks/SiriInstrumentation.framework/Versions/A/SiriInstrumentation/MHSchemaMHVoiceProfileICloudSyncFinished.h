@@ -6,29 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHVoiceProfileICloudSyncFinished : SISchemaInstrumentationMessage
 {
     NSString *_enrollmentId;
-    _Bool _isVoiceProfileSyncSuccess;
-    NSString *_voiceProfileSyncFailureReason;
-    int _locale;
-    struct {
-        unsigned int isVoiceProfileSyncSuccess:1;
-        unsigned int locale:1;
-    } _has;
-    _Bool _hasEnrollmentId;
-    _Bool _hasVoiceProfileSyncFailureReason;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -41,7 +32,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)bressl-2.2/crypto/ec/ec_pmeth.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -56,14 +47,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *enrollmentId; // @synthesize enrollmentId=_enrollmentId;
-@property(nonatomic) _Bool hasEnrollmentId; // @synthesize hasEnrollmentId=_hasEnrollmentId;
-@property(nonatomic) _Bool hasIsVoiceProfileSyncSuccess;
-@property(nonatomic) _Bool hasLocale;
-@property(nonatomic) _Bool hasVoiceProfileSyncFailureReason; // @synthesize hasVoiceProfileSyncFailureReason=_hasVoiceProfileSyncFailureReason;
-@property(nonatomic) _Bool isVoiceProfileSyncSuccess; // @synthesize isVoiceProfileSyncSuccess=_isVoiceProfileSyncSuccess;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSString *voiceProfileSyncFailureReason; // @synthesize voiceProfileSyncFailureReason=_voiceProfileSyncFailureReason;
 
 @end
 

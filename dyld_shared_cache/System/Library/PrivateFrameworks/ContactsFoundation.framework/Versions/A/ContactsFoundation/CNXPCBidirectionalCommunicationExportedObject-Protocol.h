@@ -7,6 +7,7 @@
 @class NSXPCConnection;
 
 @protocol CNXPCBidirectionalCommunicationExportedObject
+- (NSXPCConnection *);
 
 // Remaining properties
 @property(retain) NSXPCConnection *appConnection;

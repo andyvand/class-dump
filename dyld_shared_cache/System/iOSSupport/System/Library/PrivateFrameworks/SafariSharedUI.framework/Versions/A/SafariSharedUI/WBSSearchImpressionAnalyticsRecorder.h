@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSSearchProvider;
+@class NSArray;
 
 @interface WBSSearchImpressionAnalyticsRecorder
 {
     NSArray *_searchProviders;
-    WBSSearchProvider *_defaultSearchProvider;
 }
 
 + (id);
@@ -20,10 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (void)WithProtocol: /* Error: Ran out of types for this method. */;
+- (void)remoteObjectInterfaceWithProtocol: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) WBSSearchProvider *defaultSearchProvider; // @synthesize defaultSearchProvider=_defaultSearchProvider;
 @property(copy, nonatomic) NSArray *searchProviders; // @synthesize searchProviders=_searchProviders;
 
 @end

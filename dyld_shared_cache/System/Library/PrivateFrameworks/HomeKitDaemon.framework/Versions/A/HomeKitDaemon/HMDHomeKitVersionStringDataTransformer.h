@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)umCapableSiriEndpoints:(id)arg1 numEnabledSiriEndpoints:(id *)arg2;
-+ (Class)nd;
++ (id)initWithHomeUUID:(id)arg1 numCapableSiriEndpoints:(id *)arg2 numEnabledSiriEndpoints: /* Error: Ran out of types for this method. */;
++ (Class)_widgetRefreshReasonCounterGroupByKind;
 + (Class);
 
 @end

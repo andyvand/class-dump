@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, SCNView;
-
 __attribute__((visibility("hidden")))
 @interface SCNMonitor
 {
     _Bool _nibLoaded;
-    NSView *_modelViewContainer;
-    NSView *_modelInspectors[10];
-    SCNView *_scnView;
 }
 
 - (void);
@@ -23,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct __C3DScene *);
+- (void));
+- (struct __C3DScene *)k;
 - (void)ss * gridSize;
         float2 lines = step(abs(lt - fract(uv * gridSize)), gt);
         return insideRect * (lines.x + lines.y);

@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface VNMRCDetector : VNEspressoModelFileBasedDetector
 {
     unsigned long long _networkWidth;
-    unsigned long long _networkHeight;
-    struct __MRCContext *_mrcContext;
 }
 
-+ (unsigned int);
++ (unsigned int)2;
 + (id);
 + (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 

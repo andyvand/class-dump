@@ -5,40 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBThermalBrightnessCap
 {
     NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
-    CDUnknownBlockType _notificationBlock;
-    unsigned int _smcThermalCapKey;
-    unsigned int _smcJetModeKey;
-    unsigned int _smcService;
-    struct {
-        unsigned int _field1;
-        _Bool _field2;
-        struct SMCAccumPlatformInfo *_field3;
-        CDStruct_2c9214e4 _field4[4];
-        CDStruct_2c9214e4 _field5[4];
-        unsigned char _field6;
-        unsigned char _field7;
-        _Bool _field8;
-        _Bool _field9;
-        _Bool _field10;
-        struct {
-            unsigned int _field1[4];
-            unsigned int _field2[4];
-            unsigned char _field3;
-            unsigned char _field4;
-        } _field11;
-        _Bool _field12;
-        _Bool _field13;
-    } *_smcConnection;
-    float _lastCap;
-    _Bool _supportsJetMode;
 }
 
 - (void);

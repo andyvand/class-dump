@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface RTAuthorizedLocationConfirmationStatus
 {
     long long _confirmationStatusCode;
-    long long _confirmationStatus;
-    NSDate *_confirmationStatusTime;
-    long long _zdrConfirmationStatusCode;
-    long long _zdrConfirmationStatus;
-    NSDate *_zdrConfirmationStatusTime;
 }
 
-+ (id);
++ (id)v2.0;
 + (id);
 + (_Bool);
 - (id);
@@ -29,30 +22,18 @@
 - (void);
 - (void);
 - (id);
+- (id)SM Content to classic identities;
+- (long long)estore HSM content, but flag in HSM doesn't match;
+- (long long)in Silent DBR mode.;
 - (id);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (id)16@24s32c36@40@48B56B60@64@72@80@88@96@104B112@116d124@132@140@148@156@164@172;
+- (id)ng forceH2FallbackEnabled:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long confirmationStatus; // @synthesize confirmationStatus=_confirmationStatus;
-@property(nonatomic) long long confirmationStatusCode; // @synthesize confirmationStatusCode=_confirmationStatusCode;
-@property(retain, nonatomic) NSDate *confirmationStatusTime; // @synthesize confirmationStatusTime=_confirmationStatusTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) long long zdrConfirmationStatus; // @synthesize zdrConfirmationStatus=_zdrConfirmationStatus;
-@property(nonatomic) long long zdrConfirmationStatusCode; // @synthesize zdrConfirmationStatusCode=_zdrConfirmationStatusCode;
-@property(retain, nonatomic) NSDate *zdrConfirmationStatusTime; // @synthesize zdrConfirmationStatusTime=_zdrConfirmationStatusTime;
 
 @end
 

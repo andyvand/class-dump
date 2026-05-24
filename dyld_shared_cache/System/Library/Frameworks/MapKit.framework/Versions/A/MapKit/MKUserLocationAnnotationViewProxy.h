@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORouteMatch, MKAnnotationView, NSString;
+@class MKAnnotationView;
 
 __attribute__((visibility("hidden")))
 @interface MKUserLocationAnnotationViewProxy
@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     MKAnnotationView *_annotationView;
 }
 
-- (void);
+- (void)y;
 - (struct CGSize);
 - (id);
 - (_Bool);
@@ -25,32 +25,16 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (CDStruct_c3b9c2ee);
+- (CDStruct_2c43369c);
 - (struct VKEdgeInsets);
 - (double)ù
 × ;
-- (void)roundPOITicketWithIdentifier:categoryID:maxResults:traits: /* Error: Ran out of types for this method. */;
+- (void)searchAroundPOITicketWithIdentifier:categoryID:maxResults:traits: /* Error: Ran out of types for this method. */;
 - (void)age=}16;
 - (_Bool)²<Ø÷;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimatingAccuracy) _Bool animatingAccuracy;
-@property(readonly, nonatomic) struct VKEdgeInsets annotationTrackingEdgeInsets;
 @property(nonatomic) __weak MKAnnotationView *annotationView; // @synthesize annotationView=_annotationView;
-@property(readonly, nonatomic) struct CGSize collisionSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double minimumAccuracy;
-@property(nonatomic) double presentationAccuracy;
-@property(nonatomic) CDStruct_c3b9c2ee presentationCoordinate;
-@property(nonatomic) double presentationCourse;
-@property(retain, nonatomic) GEORouteMatch *routeMatch;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tracking;
 
 @end
 

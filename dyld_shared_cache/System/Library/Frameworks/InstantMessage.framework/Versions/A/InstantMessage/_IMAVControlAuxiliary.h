@@ -13,24 +13,24 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)/;
 - (void);
 - (void);
-- (void);
+- (void)_forEachCodePointsBeforeIndex:(_Bool)arg1 _do: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
-- (long long);
+- (long long)completionDateTimestamp;
 - (double);
 - (void);
 - (float);
-- (id);
+- (id);
 - (id);
 - (void);
 - (int);
 - (SEL);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 
 @end
 

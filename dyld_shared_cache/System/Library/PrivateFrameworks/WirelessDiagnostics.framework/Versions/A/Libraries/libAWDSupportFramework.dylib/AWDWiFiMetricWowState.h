@@ -7,11 +7,6 @@
 @interface AWDWiFiMetricWowState
 {
     unsigned long long _timestamp;
-    _Bool _isWowEnabled;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int isWowEnabled:1;
-    } _has;
 }
 
 - (void);
@@ -25,18 +20,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsWowEnabled;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool isWowEnabled; // @synthesize isWowEnabled=_isWowEnabled;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

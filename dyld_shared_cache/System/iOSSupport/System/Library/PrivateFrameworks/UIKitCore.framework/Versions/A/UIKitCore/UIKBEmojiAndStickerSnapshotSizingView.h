@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     UIView *_snapshotView;
 }
 
-- (id);
+- (id)lastTUConversationCreatedDate:(id)arg1 %@ lastScheduledMessageCreatedDate:%@ /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void)_;
 - (id);

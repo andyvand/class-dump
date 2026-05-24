@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDateTimeRangeValue, _INPBIntentMetadata, _INPBSettingMetadata, _INPBTemporalEventTrigger;
+@class NSString, _INPBIntentMetadata;
 
 @protocol _INPBSetTemporalSettingIntent
-- (_Bool):category:name: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)URLSessionDidFinishEventsForBackgroundURLSession:(_Bool)arg1;
+- (_Bool)",?,C,N,V_secondaryButton;
+- (int)ing",C,N,V_recoverySessionID;
+- (NSString *),V_description;
+- (_INPBIntentMetadata *)pathsProvider;
+- (void);
+- (_Bool)initWithApplicationIdentifier:category:name: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int action;
-@property(nonatomic) _Bool hasAction;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(readonly, nonatomic) _Bool hasTimeValue;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *timeValue;
 @end
 

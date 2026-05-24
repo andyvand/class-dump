@@ -6,17 +6,11 @@
 
 #import <EventKitUI/EKUIListViewCell.h>
 
-@class EKEvent, EKUIListViewCellBackground, NSLayoutConstraint, UIImageView, UILabel;
+@class EKEvent, UILabel;
 
 @interface EKUIListViewAllDayEventCell : EKUIListViewCell
 {
     UILabel *_titleField;
-    EKUIListViewCellBackground *_backgroundView;
-    UIImageView *_imageView;
-    UILabel *_dateField;
-    _Bool _dimmed;
-    NSLayoutConstraint *_titleLeadingConstraint;
-    EKEvent *_event;
 }
 
 + (id);
@@ -24,20 +18,20 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool)&s;
+- (long long)@{;
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void)thesisMessage: /* Error: Ran out of types for this method. */;
+- (void)updateUpcomingEventNotificationWithHypothesisMessage: /* Error: Ran out of types for this method. */;
 - (void)yçyÓö~G;
-- (void)sButtonsAction;
+- (void)EKEventStatusButtonsAction;
 - (void);
 
 // Remaining properties

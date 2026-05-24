@@ -9,12 +9,11 @@
 @interface _CNAtomAttachment
 {
     _CNAtomLayoutView *_atomView;
-    id _representedObject;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct CGRect);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _CNAtomLayoutView *atomView; // @synthesize atomView=_atomView;
-@property(readonly, nonatomic) id representedObject; // @synthesize representedObject=_representedObject;
 
 @end
 

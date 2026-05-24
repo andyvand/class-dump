@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (id)Bi;
-- (void);
+- (void)�;
 - (const char *);
 - (const char *);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long));
 - (unsigned long long);
 - (_Bool);
 - (oneway void);
@@ -35,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned short)edIntegerValue;
+- (unsigned short)unsignedIntegerValue;
 - (const char *)LL first argument ***;
 - (void)¡Å4j7j;j>j?jEjFjIjJjNjPjQjRjUjVj[jdjgjjjqjsj~jjjjjjjjjjjÁÅj¥j«j¯j°j±j´j½j¾j¿jÆjÉjÈjÌjÐjÔjÕjÖjÜjÝjäjçjìjðjñjòjüjýjkkkkáÅ	kkkkkkk$k(k+k,k/k5k6k;k?kFkJkMkRkVkXk]k`kgkkknkpkuk}k;
 - (_Bool);

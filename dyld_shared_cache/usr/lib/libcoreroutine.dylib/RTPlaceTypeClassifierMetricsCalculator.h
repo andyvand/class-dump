@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSUUID, RTDistanceCalculator, RTLearnedLocationStore, RTLearnedPlaceTypeInferenceStore, RTMetricManager;
+@class RTDistanceCalculator;
 
 @interface RTPlaceTypeClassifierMetricsCalculator
 {
     RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLearnedPlaceTypeInferenceStore *_learnedPlaceTypeInferenceStore;
-    RTMetricManager *_metricManager;
-    NSMutableDictionary *_metricsData;
-    NSMutableArray *_learnedPlaceTypeInferences;
-    NSUUID *_sessionId;
 }
 
 + (void);
@@ -27,24 +21,24 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)tionary"24@?<v@?B@"NSError">32;
++ (id)ring"16@"NSDictionary"24B32;
++ (id)?B@"PCSMTT"@"NSError">64;
++ (id)24@0:(unsigned long long)arg1 8^{_PCSMigrationStep=}16;
++ (id)SDate";
++ (id)4;
++ (id)_encryptionPrivateKey;
++ (id)_currentMetadata;
++ (id)_currentItemPointerModificationTime;
++ (id)tray;
++ (_Bool)token;
++ (id)soft;
++ (id)chest;
++ (id)ys was NOT dropped from HSM;
++ (id)available;
++ (id)kPCSAuthenticateAppleID;
++ (id)ta;
++ (id)nger alive (overrelease):(sp)->alive == pcsfpTruelyAlive /* Error: Ran out of types for this method. */;
 + (unsigned long long);
 + (id);
 - (void);
@@ -52,31 +46,31 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)t;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)NSError">32;
+- (id)_updateWatch;
+- (id)_successDependencies;
+- (id)_recordTypeForReading;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ies entered;
+- (id)museum;
+- (id)move;
+- (id)gallery;
+- (id)tring"40;
+- (id)r;
+- (id)g Key in Keychain, needs repair;
+- (id)@?0Q8Q16@"NSArray"24@"NSString"32@"NSError"40;
+- (id)other repair or RPD before SetupIdentities will continue;
+- (id)or"24;
+- (id)te, can't setupIdentities!;
+- (id)input entropy;
+- (id)g password in parameters;
+- (id)StoreLRCHSM;
 - (id);
 - (void);
 - (id);
@@ -84,19 +78,13 @@
 - (id);
 - (id)ls;
 - (id);
-- (void)Lon;
-- (id)rDynamicQk;
+- (void)maxLon;
+- (id)kRTLocationSmootherDynamicQk;
 - (void)nterval, startDate, %@, endDate, %@, fetched location histories, %lu, error(s), %@;
 - (void)alid parameter not satisfying:xpcActivityManager /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(readonly, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly, nonatomic) RTLearnedPlaceTypeInferenceStore *learnedPlaceTypeInferenceStore; // @synthesize learnedPlaceTypeInferenceStore=_learnedPlaceTypeInferenceStore;
-@property(readonly, nonatomic) NSMutableArray *learnedPlaceTypeInferences; // @synthesize learnedPlaceTypeInferences=_learnedPlaceTypeInferences;
-@property(readonly, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(readonly, nonatomic) NSMutableDictionary *metricsData; // @synthesize metricsData=_metricsData;
-@property(retain, nonatomic) NSUUID *sessionId; // @synthesize sessionId=_sessionId;
 
 @end
 

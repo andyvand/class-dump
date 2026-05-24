@@ -6,15 +6,11 @@
 
 #import <CoreData/NSPersistentStoreResult.h>
 
-@class NSError, NSManagedObjectContext, NSProgress;
+@class NSError, NSProgress;
 
 @interface NSPersistentStoreAsynchronousResult : NSPersistentStoreResult
 {
     NSProgress *_requestProgress;
-    NSError *_requestError;
-    NSManagedObjectContext *_requestContext;
-    id _requestCompletionBlock;
-    int _flags;
 }
 
 - (void);
@@ -23,14 +19,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)j.;
+- (id)?;
 - (id);
 
 // Remaining properties
-@property(readonly) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_requestContext;
 @property(retain) NSError *operationError; // @synthesize operationError=_requestError;
-@property(readonly) NSProgress *progress;
 
 @end
 

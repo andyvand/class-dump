@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, RTDataProtectionManager, RTStarkManager;
-@protocol OS_dispatch_queue, RTNextPredictedLocationsOfInterestCacheDelegate;
-
 @interface RTNextPredictedLocationsOfInterestCache
 {
     _Bool _enabled;
-    id <RTNextPredictedLocationsOfInterestCacheDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_nextPredictedLocationsOfInterest;
-    RTDataProtectionManager *_dataProtectionManager;
-    RTStarkManager *_starkManager;
 }
 
 + (id);
@@ -39,17 +31,12 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)tionIndex;
-- (id)eleaseBackgroundProcessingPermissionForStoreURL:cacheFileExtension: /* Error: Ran out of types for this method. */;
+- (_Bool)cachedLocationIndex;
+- (id)_releaseBackgroundProcessingPermissionForStoreURL:cacheFileExtension: /* Error: Ran out of types for this method. */;
 - (void), %@, endDate, %@, duration, %lu, stats.startDate, %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(nonatomic) __weak id <RTNextPredictedLocationsOfInterestCacheDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSArray *nextPredictedLocationsOfInterest; // @synthesize nextPredictedLocationsOfInterest=_nextPredictedLocationsOfInterest;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) RTStarkManager *starkManager; // @synthesize starkManager=_starkManager;
 
 @end
 

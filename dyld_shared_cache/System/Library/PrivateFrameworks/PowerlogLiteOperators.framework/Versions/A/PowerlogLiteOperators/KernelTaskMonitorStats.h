@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface KernelTaskMonitorStats
 {
     double _cpu_time;
-    unsigned long long _cpu_energy_p;
-    unsigned long long _cpu_energy_e;
-    unsigned long long _thread_id;
-    NSString *_thread_name;
 }
 
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,11 +22,7 @@
 - (void)ÿ}h;
 
 // Remaining properties
-@property unsigned long long cpu_energy_e; // @synthesize cpu_energy_e=_cpu_energy_e;
-@property unsigned long long cpu_energy_p; // @synthesize cpu_energy_p=_cpu_energy_p;
 @property double cpu_time; // @synthesize cpu_time=_cpu_time;
-@property unsigned long long thread_id; // @synthesize thread_id=_thread_id;
-@property(retain) NSString *thread_name; // @synthesize thread_name=_thread_name;
 
 @end
 

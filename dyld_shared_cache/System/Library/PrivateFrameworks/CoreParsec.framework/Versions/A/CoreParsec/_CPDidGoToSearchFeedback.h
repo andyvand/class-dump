@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPDidGoToSearchFeedback
 {
     int _endpoint;
-    int _triggerEvent;
-    unsigned long long _timestamp;
-    NSString *_input;
 }
 
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -27,22 +22,11 @@
 - (id);
 - (void);
 - (void);
-- (void)tNanosecondInterval:(int)arg1;
+- (void)setNanosecondInterval:(int)arg1;
 - (int),N,V_correctedQuery;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent; // @synthesize triggerEvent=_triggerEvent;
 
 @end
 

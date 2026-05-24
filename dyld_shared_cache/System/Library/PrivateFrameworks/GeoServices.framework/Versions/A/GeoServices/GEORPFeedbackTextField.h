@@ -4,48 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackTextField
 {
     PBDataReader *_reader;
-    NSString *_edited;
-    NSString *_original;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_c5c608f9 _flags;
 }
 
-+ (_Bool)unt:(id)arg1;
++ (_Bool)setLaneClosureCount:(id)arg1;
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)emp_elementsCount;
 - (void);
 - (id);
+- (id)";
+- (void);
+- (id)supportAdBlocker;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (id);
 - (void);
 - (id)"has_selectionFromQuerySequenceNumber"b1"has_selectionFromQuery"b1"read_unknownFields"b1"read_refinementKey"b1"read_refinementValueMetadata"b1"read_refinementValue"b1"wrote_anyField"b1};
 - (id)has_chargingConnectorType"b1"has_chargingLevel"b1"has_power"b1};
-- (id)uttonDisplay;
+- (id)buttonDisplay;
 - (id)H;
-- (id)NAVIGABLE_ROUTE;
+- (id)CONVERT_TO_NAVIGABLE_ROUTE;
 - (void)ADjÚÅzN@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *edited;
-@property(readonly, nonatomic) _Bool hasEdited;
 @property(readonly, nonatomic) _Bool hasOriginal;
-@property(retain, nonatomic) NSString *original;
 
 @end
 

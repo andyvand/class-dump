@@ -9,18 +9,16 @@
 @interface CKFetchTranscodeServerPublicKeyOperationInfo
 {
     NSString *_transcodeServerHostname;
-    long long _type;
 }
 
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)a;
 - (void)À¬;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *transcodeServerHostname; // @synthesize transcodeServerHostname=_transcodeServerHostname;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

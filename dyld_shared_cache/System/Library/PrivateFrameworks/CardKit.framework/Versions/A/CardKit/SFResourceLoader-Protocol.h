@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SFImage, SFImageContext;
+
 @protocol SFResourceLoader
+
+@optional
+- (_Bool)initWithModel:(SFImage *)arg1 directivesManager:(SFImageContext *)arg2 type:(void (^)(SFImage *, NSError *))arg3;
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)B,N,V__didRegisterSelectedChildrenChangedNotification;
 + (id);
 + (id);
 + (id);

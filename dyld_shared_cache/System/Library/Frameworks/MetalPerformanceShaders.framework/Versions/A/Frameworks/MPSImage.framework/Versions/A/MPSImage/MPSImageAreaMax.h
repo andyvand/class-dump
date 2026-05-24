@@ -9,9 +9,6 @@
 @interface MPSImageAreaMax : MPSUnaryImageKernel
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned int info;
-    unsigned int info_half;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -20,7 +17,7 @@
 - (void);
 - (struct MPSRegion);
 - (id);
-- (void);
+- (void)ions:(id)arg1 reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -28,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
 
 @end
 

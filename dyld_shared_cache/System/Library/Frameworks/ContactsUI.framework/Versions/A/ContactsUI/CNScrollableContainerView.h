@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNOccluderView, CNScrollViewOccluderController, NSScrollView, NSView;
+@class NSScrollView;
 
 @interface CNScrollableContainerView
 {
     NSScrollView *_scrollView;
-    CNOccluderView *_topOccluder;
-    CNOccluderView *_bottomOccluder;
-    CNScrollViewOccluderController *_occluderController;
-    NSView *_containedView;
-    struct NSEdgeInsets _contentInsets;
 }
 
-- (id);
+- (id) ;
 - (void);
 - (void);
 - (void);
@@ -26,20 +21,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)provement.changed;
 - (struct NSEdgeInsets);
 - (id);
 - (id);
 - (void);
-- (void)s:(id)arg1;
+- (void)hasCurrentLikenessInLikenesses:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) CNOccluderView *bottomOccluder; // @synthesize bottomOccluder=_bottomOccluder;
-@property(retain, nonatomic) NSView *containedView; // @synthesize containedView=_containedView;
-@property(nonatomic) struct NSEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(retain, nonatomic) CNScrollViewOccluderController *occluderController; // @synthesize occluderController=_occluderController;
 @property(retain, nonatomic) NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) CNOccluderView *topOccluder; // @synthesize topOccluder=_topOccluder;
 
 @end
 

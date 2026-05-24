@@ -9,8 +9,6 @@
 @interface TSUCGImage : TSUImage
 {
     struct CGImage *mCGImage;
-    long long mOrientation;
-    double mScale;
 }
 
 - (struct CGImage *);
@@ -18,7 +16,7 @@
 - (void);
 - (long long);
 - (double);
-- (struct CGSize);
+- (struct CGSize)TSWPInteriorCookie;
 - (id);
 - (struct CGImage *);
 

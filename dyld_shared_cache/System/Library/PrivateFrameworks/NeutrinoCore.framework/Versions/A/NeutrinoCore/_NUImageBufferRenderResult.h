@@ -6,8 +6,7 @@
 
 #import <NeutrinoCore/_NUImageRenderResult.h>
 
-@class NSString, NUImageGeometry, NURegion, NUStorageImageBuffer;
-@protocol NURenderStatistics;
+@class NUStorageImageBuffer;
 
 @interface _NUImageBufferRenderResult : _NUImageRenderResult
 {
@@ -17,20 +16,10 @@
 - (id);
 - (void);
 - (void);
-- (id)ithoutIntermediateCaching: /* Error: Ran out of types for this method. */;
+- (id)highPriorityLowMemoryRendererWithoutIntermediateCaching: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NUStorageImageBuffer *buffer; // @synthesize buffer=_buffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NUImageGeometry *geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly) NURegion *region;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

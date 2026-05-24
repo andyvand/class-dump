@@ -7,9 +7,6 @@
 @interface NewsUI2.ChannelTagRenderer
 {
     id imageApplier;
-    id styler;
-    id accessoryButtonRenderer;
-    id commandCenter;
 }
 
 @end

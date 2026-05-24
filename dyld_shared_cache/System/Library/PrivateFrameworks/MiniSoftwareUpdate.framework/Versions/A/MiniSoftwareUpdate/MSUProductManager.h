@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MSUProductManager
 {
     NSObject<OS_dispatch_queue> *_productQueue;
-    NSMutableArray *_catalogs;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R0;
 - (id);
 - (id);
 - (void);
@@ -28,14 +27,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)deviceUniqueID;
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allProducts;
-@property(retain) NSMutableArray *catalogs; // @synthesize catalogs=_catalogs;
-@property(readonly) NSArray *installableProducts;
 @property(retain) NSObject<OS_dispatch_queue> *productQueue; // @synthesize productQueue=_productQueue;
 
 @end

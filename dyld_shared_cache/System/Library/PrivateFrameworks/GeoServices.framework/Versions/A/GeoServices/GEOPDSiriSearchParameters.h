@@ -4,53 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddress, GEOPDIndexQueryNode, GEOPDRecentRouteInfo, GEOPDViewportInfo, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSiriSearchParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOAddress *_address;
-    NSMutableArray *_businessCategoryFilters;
-    GEOPDIndexQueryNode *_indexFilter;
-    GEOPDRecentRouteInfo *_recentRouteInfo;
-    NSString *_searchString;
-    NSMutableArray *_searchSubstringDescriptors;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _maxResultCount;
-    int _sortOrder;
-    _Bool _isStrictMapRegion;
-    _Bool _structuredSearch;
-    struct {
-        unsigned int has_maxResultCount:1;
-        unsigned int has_sortOrder:1;
-        unsigned int has_isStrictMapRegion:1;
-        unsigned int has_structuredSearch:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_address:1;
-        unsigned int read_businessCategoryFilters:1;
-        unsigned int read_indexFilter:1;
-        unsigned int read_recentRouteInfo:1;
-        unsigned int read_searchString:1;
-        unsigned int read_searchSubstringDescriptors:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)_initWithDomain:(id)arg1;
+- (id)fullWakePowerAssertionRetainCount;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)_historicalEstimatedSeconds"b1};
-- (id)ler: /* Error: Ran out of types for this method. */;
+- (id)_resolveMapItemFromHandle:withTraits:cachePolicy:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)E¹I@;
 

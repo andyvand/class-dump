@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol HMDAccessorySettingsLocalMessageHandlerDataSource, HMDAccessorySettingsLocalMessageHandlerDelegate, HMDLanguageValueListSettingDataProvider;
+@class NSUUID;
+@protocol HMDAccessorySettingsLocalMessageHandlerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingsLocalMessageHandler
 {
     id <HMDAccessorySettingsLocalMessageHandlerDataSource> _dataSource;
-    id <HMDAccessorySettingsLocalMessageHandlerDelegate> _delegate;
-    NSUUID *_homeUUID;
-    id <HMDLanguageValueListSettingDataProvider> _languageValuesDataProvider;
 }
 
 + (id);
-- (id);
+- (id)ching;
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)float i = dot(lms, vec3(0.4,0.4,0.2)); float p = dot(lms, vec3(4.4550,-4.8510,0.3960)); float t = dot(lms, vec3(0.8056,0.3572,-1.1628)); float chroma = sqrt(p*p+t*t); float hue = 0.5 + (atan(t, p) / 6.28318530718); vec2 huePt = vec2(hue * hueImageWidth + huePixelCenter, 0.5); float hueGamma = hueTableScaleFactor * texture2D(hueImage, huePt).a; float cd = 0.06 + 0.53 * abs(i-0.5); float lowSaturationDamp = smoothstep(0.0, 1.0, (chroma)/cd); float intensityDamp = smoothstep(0.0, 1.0, 1.0 - i); float lowLuminosityDamp = smoothstep(0.0, 1.0, 25.0 * i); float hWeight = lowSaturationDamp * intensityDamp * lowLuminosityDamp; hueGamma -= 1; hueGamma *= hWeight; hueGamma += 1; bw = pow(bw, hueGamma); float bwSDR = clamp(bw * 12.0, 0.0, 1.0); float midLumWeight = bwSDR*(1.0 - bwSDR); float grayWeight = 1.0 - smoothstep(0.0, 1.0, chroma * 10.0); float nWeight = midLumWeight * grayWeight; neutralGamma -= 1; neutralGamma *= nWeight; neutralGamma *= -2; neutralGamma += 1; bw = pow(bw, neutralGamma); bw = bw * 12.0; bw = clamp(bw, 0.0, 12.0); float df0 = 0.812379; float result; if (bw < df0) { result = 1.8031*bw*bw*bw - 2.1972*bw*bw + 1.3823*bw; } else { float scale = 12.0 - df0; float x = (bw - df0) / scale; result = 1.8031*x*x*x - 2.1972*x*x + 1.3823*x; result = result * scale + df0; result -= 0.158305860; } bw = mix(bw, result,-phototone); return vec4(bw,bw,bw,imageHDR.a); };
 - (id);
 - (id);
 - (void);
@@ -32,17 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)p==;
 
 // Remaining properties
-@property __weak id <HMDAccessorySettingsLocalMessageHandlerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDAccessorySettingsLocalMessageHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly) id <HMDLanguageValueListSettingDataProvider> languageValuesDataProvider; // @synthesize languageValuesDataProvider=_languageValuesDataProvider;
-@property(readonly) Class superclass;
 
 @end
 

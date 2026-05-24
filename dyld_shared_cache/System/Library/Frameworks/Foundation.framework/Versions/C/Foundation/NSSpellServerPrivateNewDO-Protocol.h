@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSSpellServerPrivateNewDO
+- (bycopy NSArray *);
+- (bycopy NSArray *);
+- (_Bool);
+- (_Bool);
 @end
 

@@ -13,8 +13,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)dataElements;
+- (id)HitBarcodePassResults:(id)arg1 '%@'; ;
 - (void);
 - (void);
 - (id);

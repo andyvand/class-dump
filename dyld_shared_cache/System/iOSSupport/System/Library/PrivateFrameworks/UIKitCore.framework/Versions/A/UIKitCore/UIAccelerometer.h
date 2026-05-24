@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMMotionManager;
 @protocol UIAccelerometerDelegate;
 
 @interface UIAccelerometer
 {
     double _updateInterval;
-    id <UIAccelerometerDelegate> _delegate;
-    struct {
-        unsigned int delegateDidAccelerate:1;
-        unsigned int reserved:31;
-    } _accelerometerFlags;
-    CMMotionManager *_motionManager;
 }
 
-+ (id);
++ (id)0;
 - (void);
 - (void);
 - (void);
@@ -30,7 +23,7 @@
 - (id)0@ù
 × ;
 - (void)rivate>"16@"UIViewController"24;
-- (void)bSwitch:(id)arg1 restoringZoomScale:andScrollPt: /* Error: Ran out of types for this method. */;
+- (void)updateViewHierarchyForDocumentViewTabSwitch:(id)arg1 restoringZoomScale:andScrollPt: /* Error: Ran out of types for this method. */;
 - (void)Pÿ;
 - (double)-: /* Error: Ran out of types for this method. */;
 

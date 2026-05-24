@@ -5,5 +5,6 @@
 //
 
 @protocol SCNMTLRenderContextResourceManagerMonitor
+- (void);
 @end
 

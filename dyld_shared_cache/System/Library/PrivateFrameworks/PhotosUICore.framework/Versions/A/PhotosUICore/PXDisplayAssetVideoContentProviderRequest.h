@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, PXMediaProvider, PXVideoContentProviderLoadingResult;
-@protocol OS_dispatch_queue, PXDisplayAsset, PXDisplayAssetVideoContentProviderRequestDelegate;
+@protocol PXDisplayAsset;
 
 @interface PXDisplayAssetVideoContentProviderRequest
 {
     long long _requestID;
-    _Bool _isCancelled;
-    _Bool _shouldDownloadTimeRange;
-    long long _retriesAfterTransientErrorCount;
-    PXVideoContentProviderLoadingResult *_loadingResult;
-    _Bool _requestURLOnly;
-    id <PXDisplayAsset> _asset;
-    PXMediaProvider *_mediaProvider;
-    NSArray *_strategies;
-    long long _priority;
-    double _loadingProgress;
-    id <PXDisplayAssetVideoContentProviderRequestDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_loadingQueue;
 }
 
 + (id);
@@ -36,25 +23,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (double);
+- (id);
+- (double);
 - (void);
 - (id);
 - (void);
-- (void)nsAnimation;
+- (void)_kenBurnsAnimation;
 - (id)m;
 - (void);
 - (long long)úP4W>;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;
-@property(nonatomic) __weak id <PXDisplayAssetVideoContentProviderRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) double loadingProgress; // @synthesize loadingProgress=_loadingProgress;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *loadingQueue; // @synthesize loadingQueue=_loadingQueue;
-@property(readonly, nonatomic) PXMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) _Bool requestURLOnly; // @synthesize requestURLOnly=_requestURLOnly;
-@property(readonly, nonatomic) NSArray *strategies; // @synthesize strategies=_strategies;
 
 @end
 

@@ -6,30 +6,19 @@
 
 #import <PassKitCore/PKAccountFeatureDescriptor.h>
 
-@class NSArray, NSSet, NSString;
-
 @interface PKSavingsAccountFeatureDescriptor : PKAccountFeatureDescriptor
 {
     _Bool _showCreditRewardsHubBalance;
-    _Bool _showCreditDashboardBalance;
-    _Bool _showSettingsBalance;
-    _Bool _hideCreditRewardsHubSignage;
-    _Bool _hideAuthenticationInterstitial;
-    unsigned long long _fundingSourceTypes;
-    unsigned long long _transferFrequencies;
-    NSString *_transferTermsIdentifier;
-    NSArray *_supportedFileFormatsForTransactionData;
-    unsigned long long _contactMethod;
-    NSSet *_accountLocations;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -37,37 +26,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ԡV;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)#;
 - (_Bool);
-- (void);
+- (void)_mptcpAggregateAttempt;
 - (id);
-- (id)ments:(id)arg1 pass:useCachedTemplates:completion: /* Error: Ran out of types for this method. */;
+- (id)localizedEntitlementsFromDisplayableEntitlements:(id)arg1 pass:useCachedTemplates:completion: /* Error: Ran out of types for this method. */;
 - (void)2;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *accountLocations; // @synthesize accountLocations=_accountLocations;
-@property(nonatomic) unsigned long long contactMethod; // @synthesize contactMethod=_contactMethod;
 @property(nonatomic) unsigned long long fundingSourceTypes; // @synthesize fundingSourceTypes=_fundingSourceTypes;
-@property(nonatomic) _Bool hideAuthenticationInterstitial; // @synthesize hideAuthenticationInterstitial=_hideAuthenticationInterstitial;
-@property(nonatomic) _Bool hideCreditRewardsHubSignage; // @synthesize hideCreditRewardsHubSignage=_hideCreditRewardsHubSignage;
-@property(nonatomic) _Bool showCreditDashboardBalance; // @synthesize showCreditDashboardBalance=_showCreditDashboardBalance;
-@property(nonatomic) _Bool showCreditRewardsHubBalance; // @synthesize showCreditRewardsHubBalance=_showCreditRewardsHubBalance;
-@property(nonatomic) _Bool showSettingsBalance; // @synthesize showSettingsBalance=_showSettingsBalance;
-@property(copy, nonatomic) NSArray *supportedFileFormatsForTransactionData; // @synthesize supportedFileFormatsForTransactionData=_supportedFileFormatsForTransactionData;
-@property(nonatomic) unsigned long long transferFrequencies; // @synthesize transferFrequencies=_transferFrequencies;
-@property(copy, nonatomic) NSString *transferTermsIdentifier; // @synthesize transferTermsIdentifier=_transferTermsIdentifier;
 
 @end
 

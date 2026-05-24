@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShare, NSError, NSURL, NSUUID, SFCollaborationCloudSharingMailResult;
+@class NSUUID;
 
 @interface SFCollaborationCloudSharingResult
 {
     _Bool _existingShare;
-    NSUUID *_collaborationItemIdentifier;
-    NSURL *_sharingURL;
-    CKShare *_share;
-    NSError *_error;
-    SFCollaborationCloudSharingMailResult *_mailResult;
 }
 
 + (_Bool);
@@ -27,16 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (void)nectionTime;
+- (void)connectionTime;
 - (id)Ùÿ&PP;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *collaborationItemIdentifier; // @synthesize collaborationItemIdentifier=_collaborationItemIdentifier;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool existingShare; // @synthesize existingShare=_existingShare;
-@property(retain, nonatomic) SFCollaborationCloudSharingMailResult *mailResult; // @synthesize mailResult=_mailResult;
-@property(readonly, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(readonly, nonatomic) NSURL *sharingURL; // @synthesize sharingURL=_sharingURL;
 
 @end
 

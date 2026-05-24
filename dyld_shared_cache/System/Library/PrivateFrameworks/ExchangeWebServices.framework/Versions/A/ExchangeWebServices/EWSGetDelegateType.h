@@ -6,12 +6,9 @@
 
 #import <ExchangeWebServices/EWSBaseDelegateType.h>
 
-@class NSArray;
-
 @interface EWSGetDelegateType : EWSBaseDelegateType
 {
     _Bool _IncludePermissions;
-    NSArray *_UserIds;
 }
 
 + (id);
@@ -23,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool IncludePermissions; // @synthesize IncludePermissions=_IncludePermissions;
-@property(copy, nonatomic) NSArray *UserIds; // @synthesize UserIds=_UserIds;
 
 @end
 

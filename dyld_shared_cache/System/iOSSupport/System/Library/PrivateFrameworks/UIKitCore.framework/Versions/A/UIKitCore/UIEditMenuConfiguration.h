@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIResponder, UIWindow;
 @protocol NSCopying;
 
 @interface UIEditMenuConfiguration
 {
     _Bool __ignoresPassthroughInView;
-    _Bool __prefersMenuPresentationInView;
-    _Bool __ignoresKeyboardAvoidance;
-    _Bool __didHandoff;
-    id <NSCopying> _identifier;
-    long long _preferredArrowDirection;
-    UIResponder *__firstResponderTarget;
-    UIWindow *__overrideSourceWindow;
-    unsigned long long __preferredElementDisplayMode;
-    struct CGPoint _sourcePoint;
 }
 
 + (id);
-- (struct CGPoint);
+- (struct CGPoint)delete zipped file DB at path %@ with error %@;
+- (void)geCodes from legacy service session, please file a radar-------*/;
+- (void)d fetch requests for session:(unsigned long long)arg1 %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)ge property %@ with nil buddy ID;
+- (void)u max T2 updates to write up;
+- (void)e T2 writes completed sucess:(id)arg1 %@ error %@;
+- (void)for SMS relay %@;
+- (long long)received Message ID:%@ Send Failure Message From Push Handler, from:%@ to:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -41,21 +31,12 @@
 - (void);
 - (void);
 - (id);
-- (void)edPadding;
+- (void)_contextualExpandedPadding;
 - (id)er.BatteryWidget;
 - (void)Kh;
 
 // Remaining properties
-@property(nonatomic, setter=_setDidHandoff:) _Bool _didHandoff; // @synthesize _didHandoff=__didHandoff;
-@property(nonatomic) __weak UIResponder *_firstResponderTarget; // @synthesize _firstResponderTarget=__firstResponderTarget;
-@property(nonatomic) _Bool _ignoresKeyboardAvoidance; // @synthesize _ignoresKeyboardAvoidance=__ignoresKeyboardAvoidance;
-@property(nonatomic) _Bool _ignoresPassthroughInView; // @synthesize _ignoresPassthroughInView=__ignoresPassthroughInView;
-@property(nonatomic) __weak UIWindow *_overrideSourceWindow; // @synthesize _overrideSourceWindow=__overrideSourceWindow;
-@property(nonatomic) unsigned long long _preferredElementDisplayMode; // @synthesize _preferredElementDisplayMode=__preferredElementDisplayMode;
-@property(nonatomic) _Bool _prefersMenuPresentationInView; // @synthesize _prefersMenuPresentationInView=__prefersMenuPresentationInView;
 @property(copy, nonatomic) id <NSCopying> identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long preferredArrowDirection; // @synthesize preferredArrowDirection=_preferredArrowDirection;
-@property(nonatomic) struct CGPoint sourcePoint; // @synthesize sourcePoint=_sourcePoint;
 
 @end
 

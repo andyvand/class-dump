@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAUIConfirmationOptions : AceObject
 {
@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@9;
 - (id);
 - (id);
 - (id);
@@ -31,18 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allConfirmationOptions;
-@property(copy, nonatomic) NSString *cancelTrigger;
-@property(copy, nonatomic) NSArray *confirmCommands;
-@property(copy, nonatomic) NSString *confirmText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSArray *denyCommands;
-@property(copy, nonatomic) NSString *denyText;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

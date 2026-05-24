@@ -6,39 +6,30 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLEngineFileStorage, CPLPlatformObject, NSMutableDictionary, NSObject, NSString, NSURL, _CPLPruneRequestCounter;
-@protocol OS_dispatch_queue;
+@class CPLEngineFileStorage, NSMutableDictionary;
 
 @interface CPLEngineResourceStorage : CPLEngineStorage
 {
     NSMutableDictionary *_identitiesToCommit;
-    NSMutableDictionary *_identitiesToDelete;
-    NSURL *_tempFolderURL;
-    NSObject<OS_dispatch_queue> *_pruneStatsQueue;
-    _CPLPruneRequestCounter *_pruneRequests;
-    _CPLPruneRequestCounter *_purgeabilityCheckRequests;
-    _Bool _shouldCreateTempFolder;
-    _Bool _shouldCheckFilesForUpload;
-    CPLEngineFileStorage *_fileStorage;
 }
 
-- (void);
-- (_Bool);
+- (void)+ download progress:(_Bool)arg1;
+- (_Bool)ORGANIZATION_DISALLOWS_KNOWN_FOLDER_OPERATION;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (id)ª2z;
-- (void)À	;
-- (id)ùàªs.¨_øÐ)ñEù)@ù?ë;
-- (_Bool)hþÐ;
-- (id)¥;
-- (_Bool)@ùàªª¨@ùö;
-- (_Bool)àªvÆàªý{C©ôOB©öWA©ÿÿ_ÖÂð;
+- (unsigned long long);
+- (id);
+- (void);
+- (id)qA;
+- (_Bool)<;
+- (id);
 - (_Bool);
+- (_Bool);
+- (_Bool)?נ;
 - (id);
 - (void);
 - (id);
@@ -54,17 +45,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) CPLEngineFileStorage *fileStorage; // @synthesize fileStorage=_fileStorage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(nonatomic) _Bool shouldCheckFilesForUpload; // @synthesize shouldCheckFilesForUpload=_shouldCheckFilesForUpload;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *tempFolderURL; // @synthesize tempFolderURL=_tempFolderURL;
 
 @end
 

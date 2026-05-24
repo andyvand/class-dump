@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
+@class NSString;
 
 @interface FMDActivationLockContext
 {
     NSString *_username;
-    NSString *_password;
-    NSLocale *_locale;
-    unsigned long long _activationLockAuthType;
-    unsigned long long _activationLockOperationType;
 }
 
 + (_Bool);
+- (void)rokePoint=d{CGPoint=dd}ddddddddd}16@0:(unsigned long long)arg1 8;
+- (unsigned long long)48@0:8@16r^v24d32d40 /* Error: Ran out of types for this method. */;
+- (unsigned long long)p_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}}16^v32B40B44B48@52;
+- (void)ePoint}}}16^v32B40B44;
+- (id)8{_PKStrokePointSlice={__wrap_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}{__wrap_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}}16^v32B40B44;
+- (id)T@"NSDictionary",&,N,V_renderedImage;
+- (id)kinInterval;
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
+- (id)_resultData;
+- (void)ay number;
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long activationLockAuthType; // @synthesize activationLockAuthType=_activationLockAuthType;
-@property(nonatomic) unsigned long long activationLockOperationType; // @synthesize activationLockOperationType=_activationLockOperationType;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSString *password; // @synthesize password=_password;
 @property(retain, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

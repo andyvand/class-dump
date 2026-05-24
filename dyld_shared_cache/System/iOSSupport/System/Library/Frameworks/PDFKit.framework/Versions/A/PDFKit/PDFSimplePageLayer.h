@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableDictionary, NSObject, NSString, PDFPage, PDFRenderingProperties;
-@protocol PDFPageLayerGeometryInterface;
+@class PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFSimplePageLayer
 {
     PDFPage *_page;
-    NSObject<PDFPageLayerGeometryInterface> *_geometryInterface;
-    PDFRenderingProperties *_renderingProperties;
-    NSMutableDictionary *_pageLayerEffects;
-    CALayer *_effectsLayer;
-    unsigned long long _visibilityDelegateIndex;
-    double _contentsScale;
 }
 
-- (void);
+- (void)p;
 - (unsigned long long);
+- (void)Pӫg;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,13 +47,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)@32Q40;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

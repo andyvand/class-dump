@@ -7,7 +7,6 @@
 @interface NewsArticles.EndOfArticleItemFactory
 {
     id historyService;
-    id accessLevelProvider;
 }
 
 @end

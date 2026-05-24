@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRRemindersListDataModelSourceLayoutContext
 {
     id supportedLayouts;
-    id delegate;
-    id userDefaultsProperty;
-    id observablePropertyForLegacyTableViewBasedRemindersListEnabled;
-    id internalCurrentLayout;
-    id legacyTableViewBasedRemindersListEnabled;
 }
 
 @end

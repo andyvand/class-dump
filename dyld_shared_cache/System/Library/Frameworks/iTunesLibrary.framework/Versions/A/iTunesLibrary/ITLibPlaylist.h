@@ -6,17 +6,11 @@
 
 #import <iTunesLibrary/ITLibMediaEntity.h>
 
-@class NSArray, NSDate, NSMutableArray, NSNumber, NSString;
-@protocol ITLibPlaylistDelegate;
+@class NSMutableArray, NSString;
 
 @interface ITLibPlaylist : ITLibMediaEntity
 {
     NSMutableArray *_items;
-    NSMutableArray *_playableItems;
-    NSArray *_itemIDs;
-    id <ITLibPlaylistDelegate> _playlistDelegate;
-    NSString *_globalID;
-    NSArray *_ampPlaylistEntries;
 }
 
 + (id);
@@ -33,44 +27,30 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)C;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)D;
 - (id);
 - (_Bool);
-- (id);
+- (id) );
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void), getInfo=%@, _localizedNames=%@;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *addedDate;
-@property(readonly, nonatomic, getter=isAllItemsPlaylist) _Bool allItemsPlaylist;
-@property(retain, nonatomic) NSArray *ampPlaylistEntries; // @synthesize ampPlaylistEntries=_ampPlaylistEntries;
-@property(nonatomic) unsigned long long distinguishedKind;
-@property(retain, nonatomic) NSString *globalID; // @synthesize globalID=_globalID;
-@property(retain, nonatomic) NSArray *itemIDs; // @synthesize itemIDs=_itemIDs;
-@property(readonly, retain, nonatomic) NSArray *items;
-@property(nonatomic) unsigned long long kind;
-@property(readonly, nonatomic, getter=isMaster) _Bool master;
 @property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) NSNumber *parentID;
-@property(readonly, retain, nonatomic) NSArray *playableItems;
-@property(nonatomic) __weak id <ITLibPlaylistDelegate> playlistDelegate; // @synthesize playlistDelegate=_playlistDelegate;
-@property(nonatomic, getter=isPrimary) _Bool primary;
-@property(nonatomic, getter=isVisible) _Bool visible;
 
 @end
 

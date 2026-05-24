@@ -5,11 +5,17 @@
 //
 
 @protocol PLAlbumProtocol
-- (id)onsInStore: /* Error: Ran out of types for this method. */;
+- (id)hh8J;
+- (id);
+- (id)/marisa-trie/include/marisa/scoped-ptr.h;
+- (byref)c;
+- (id)submitFileStatsToAnalytics;
+- (id)encryptedDataWithPublicKey:dataNumbers:count:error: /* Error: Ran out of types for this method. */;
+- (id)_fixupSharedStreamOrientationsInStore: /* Error: Ran out of types for this method. */;
 - (id).@count != 0));
 
 @optional
-- (id)rchAlgorithmVersion;
+- (id)currentVisualSearchAlgorithmVersion;
 - (id)`;
 - (id);
 @end

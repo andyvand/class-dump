@@ -12,7 +12,7 @@
 + (Class);
 + (Class);
 - (id);
-- (id)froster:(id)arg1;
+- (id)StringAsDefroster:(id)arg1;
 
 @end
 

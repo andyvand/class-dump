@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSUserInterfaceItemIdentification
+- (NSString *)ich do not conform to their legal range.;
 
 // Remaining properties
 @property(copy) NSString *identifier;

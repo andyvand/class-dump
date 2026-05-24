@@ -9,8 +9,6 @@
 @interface IDSServicePseudonymChange
 {
     IDSPseudonym *_pseudonym;
-    unsigned long long _changeType;
-    long long _updateFlags;
 }
 
 - (_Bool);
@@ -18,16 +16,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ect is null or does not respond to selector;
 - (long long);
 - (unsigned long long);
 - (void)ñ,ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long changeType; // @synthesize changeType=_changeType;
 @property(readonly, nonatomic) IDSPseudonym *pseudonym; // @synthesize pseudonym=_pseudonym;
-@property(readonly, nonatomic) long long updateFlags; // @synthesize updateFlags=_updateFlags;
 
 @end
 

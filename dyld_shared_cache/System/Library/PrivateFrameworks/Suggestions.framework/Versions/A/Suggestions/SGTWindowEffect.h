@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface SGTWindowEffect
 {
     unsigned int _effectID;
-    NSWindow *_window;
-    CDUnknownBlockType _preparationBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);
@@ -23,17 +18,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)drawWithBox:inContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property unsigned int effectID; // @synthesize effectID=_effectID;
 @property(copy) CDUnknownBlockType preparationBlock; // @synthesize preparationBlock=_preparationBlock;
-@property(readonly) NSWindow *window; // @synthesize window=_window;
 
 @end
 

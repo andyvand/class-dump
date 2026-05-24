@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INShortcut, NSString, NSUUID;
+@class NSUUID;
 
 @interface INVoiceShortcut
 {
     NSUUID *_identifier;
-    NSString *_invocationPhrase;
-    INShortcut *_shortcut;
 }
 
 + (_Bool);
@@ -18,12 +16,12 @@
 - (id);
 - (id);
 - (id);
+- (id)<_GCIPCObjectMaterializationContext>"16;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)setShareMyPersonalHotspotMode:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)%d:(id)arg1 %s:Clearing pathsUpdated /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *invocationPhrase; // @synthesize invocationPhrase=_invocationPhrase;
-@property(readonly, copy) INShortcut *shortcut; // @synthesize shortcut=_shortcut;
 
 @end
 

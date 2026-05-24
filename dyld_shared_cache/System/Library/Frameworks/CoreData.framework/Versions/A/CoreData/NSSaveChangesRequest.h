@@ -6,16 +6,11 @@
 
 #import <CoreData/NSPersistentStoreRequest.h>
 
-@class NSMutableArray, NSSet;
+@class NSSet;
 
 @interface NSSaveChangesRequest : NSPersistentStoreRequest
 {
     NSSet *_insertedObjects;
-    NSSet *_updatedObjects;
-    NSSet *_deletedObjects;
-    NSSet *_optimisticallyLockedObjects;
-    unsigned long long _flags;
-    NSMutableArray *_mutatedObjectIDsNotifications;
 }
 
 + (void)escription"8@"NSDictionary"16;
@@ -32,10 +27,7 @@
 - (unsigned long long)voke;
 
 // Remaining properties
-@property(readonly) NSSet *deletedObjects;
 @property(readonly) NSSet *insertedObjects;
-@property(readonly) NSSet *lockedObjects;
-@property(readonly) NSSet *updatedObjects;
 
 @end
 

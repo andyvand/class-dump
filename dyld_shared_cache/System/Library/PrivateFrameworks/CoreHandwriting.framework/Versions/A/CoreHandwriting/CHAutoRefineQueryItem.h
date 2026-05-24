@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognitionSessionAutoRefineResult, CHTokenizedTextResult, NSArray, NSDictionary, NSIndexSet, NSLocale;
+@class CHRecognitionSessionAutoRefineResult, CHTokenizedTextResult;
 
 @interface CHAutoRefineQueryItem
 {
     CHRecognitionSessionAutoRefineResult *_autoRefineResult;
-    NSDictionary *_orientationAnglePerColumn;
-    NSDictionary *_rotatedBoundsPerColumn;
-    NSIndexSet *_refinedTokenColumns;
 }
 
 - (double);
@@ -26,9 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSLocale *locale;
-@property(readonly, copy, nonatomic) NSIndexSet *refinedTokenColumns; // @synthesize refinedTokenColumns=_refinedTokenColumns;
-@property(readonly, copy, nonatomic) NSArray *strokeIdentifiers;
 @property(readonly, copy, nonatomic) CHTokenizedTextResult *textResult;
 
 @end

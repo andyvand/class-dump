@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBCallMetricsValue
 {
     struct {
         unsigned int callDuration:1;
         unsigned int timeToEstablish:1;
     } _has;
-    double _callDuration;
-    double _timeToEstablish;
 }
 
 + (_Bool);
@@ -25,27 +21,17 @@
 - (double);
 - (_Bool);
 - (double);
-- (id);
+- (id)rviceRemoteServerInterface>"16@0:(id)arg1 8;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)tworkSignature">36;
+- (void)06llu] %{public}s (%{public}s:(id)arg1 %u) IPv4:interface(%{public}@), shouldPost[%u], addresses(%{public}@), router(%{public}@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) double callDuration; // @synthesize callDuration=_callDuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCallDuration;
-@property(nonatomic) _Bool hasTimeToEstablish;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeToEstablish; // @synthesize timeToEstablish=_timeToEstablish;
 
 @end
 

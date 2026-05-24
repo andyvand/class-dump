@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDChart, CHDData, OADGraphicProperties;
+@class CHDChart;
 
 __attribute__((visibility("hidden")))
 @interface CHDErrorBar
 {
     CHDChart *mChart;
-    double mValue;
-    int mType;
-    int mValueType;
-    int mDirection;
-    _Bool mNoEndCap;
-    CHDData *mMinusValues;
-    CHDData *mPlusValues;
-    OADGraphicProperties *mGraphicProperties;
 }
 
-+ (id);
++ (id);
 - (void);
+- (void)q!;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);

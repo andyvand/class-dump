@@ -5,8 +5,13 @@
 //
 
 @protocol NFCNDEFTag
+- (void);
+- (void);
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: B16@0:8
+// Property attributes: v24@0:8@?<v@?@"NSError">16
+
 @property(readonly, nonatomic, getter=isAvailable) _Bool available;
 @end
 

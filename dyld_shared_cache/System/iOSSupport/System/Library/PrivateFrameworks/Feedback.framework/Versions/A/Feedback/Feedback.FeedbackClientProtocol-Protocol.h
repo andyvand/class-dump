@@ -5,5 +5,7 @@
 //
 
 @protocol Feedback.FeedbackClientProtocol
+- (void);
+- (void);
 @end
 

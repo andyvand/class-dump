@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSButton, NSString, NSTextField;
-@protocol StartPageEmptyTabGroupFavoritesItemDelegate;
+@class NSString, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface StartPageEmptyTabGroupFavoritesItem
 {
     NSString *_emptyFolderText;
-    NSString *_buttonText;
-    NSAppearance *_appearance;
-    id <StartPageEmptyTabGroupFavoritesItemDelegate> _delegate;
-    NSTextField *_emptyFolderTextField;
-    NSButton *_openBookmarksButton;
 }
 
 - (void);
@@ -24,22 +18,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ዹ;
 - (void);
+- (id)n`
+Hm;
 - (id);
-- (id);
-- (void);
+- (void),;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(copy, nonatomic) NSString *buttonText; // @synthesize buttonText=_buttonText;
-@property(nonatomic) __weak id <StartPageEmptyTabGroupFavoritesItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *emptyFolderText; // @synthesize emptyFolderText=_emptyFolderText;
 @property(nonatomic) __weak NSTextField *emptyFolderTextField; // @synthesize emptyFolderTextField=_emptyFolderTextField;
-@property(nonatomic) __weak NSButton *openBookmarksButton; // @synthesize openBookmarksButton=_openBookmarksButton;
 
 @end
 

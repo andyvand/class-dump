@@ -6,15 +6,10 @@
 
 #import <HMFoundation/__HMFLocationManagerOperation.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface __HMFLocationAuthorizationRequest : __HMFLocationManagerOperation
 {
     _Bool _requested;
-    _Bool _registeredForKVO;
-    struct os_unfair_lock_s _lock;
-    long long _type;
 }
 
 + (id){°1Â0@ù
@@ -23,20 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)sAndBytesInArchiveAtURL:(id)arg1 withBOMCopier:(id)arg2 totalFiles:(id)arg3 totalUncompressedBytes:(void *)arg4 error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) long long type; // @synthesize type=_type;
 
 @end

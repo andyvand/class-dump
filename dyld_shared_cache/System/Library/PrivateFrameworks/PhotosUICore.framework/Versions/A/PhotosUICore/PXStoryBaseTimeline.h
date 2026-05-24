@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXStoryBaseTimeline
 {
 }
@@ -15,7 +13,7 @@
 - (id);
 - (long long);
 - (long long);
-- (CDStruct_ae7b37d2);
+- (CDStruct_1e69568f);
 - (id);
 - (long long);
 - (long long);
@@ -38,25 +36,10 @@
 - (long long);
 - (struct CGSize);
 - (struct CGSize);
-- (CDStruct_e83c9415)NG_MULTIPLE;
+- (CDStruct_e83c9415)MERGE_DUPLICATES_ACTION_CONFIRMATION_MESSAGE_PERCEPTUAL_WARNING_MULTIPLE;
 - (id)Epÿ±³°Epÿu±³ÄEpÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long dataSourceIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) long long firstSegmentIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long lastSegmentIdentifier;
-@property(readonly, nonatomic) long long numberOfSegments;
-@property(readonly, nonatomic) NSString *objectiveCCode;
-@property(readonly, nonatomic) struct CGSize originalSize;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 
 @end

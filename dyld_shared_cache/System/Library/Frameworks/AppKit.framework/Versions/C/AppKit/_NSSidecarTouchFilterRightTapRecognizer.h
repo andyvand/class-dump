@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _NSSidecarTouchFilterRightTapRecognizer : _NSSidecarTouchFilterRecognizer
 {
     struct CGPoint _initialWinLoc;
-    unsigned int _foundTwoTouches:1;
-    unsigned int _timerStarted:1;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)dn't be reading.;
+- (void)C26t.26;
 - (void);
 - (void);
 - (void)path:/System/Library/PrivateFrameworks/ViewBridge.framework/ViewBridge /* Error: Ran out of types for this method. */;

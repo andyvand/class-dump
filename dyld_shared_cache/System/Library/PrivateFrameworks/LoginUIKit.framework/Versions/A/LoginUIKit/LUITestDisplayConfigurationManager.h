@@ -11,10 +11,10 @@
     NSArray *_displayConfigurations;
 }
 
-+ (id);
++ (id)A;
 - (id);
-- (id);
-- (void);
+- (id)7(;
+- (void)B;
 
 // Remaining properties
 @property(readonly) NSArray *displayConfigurations; // @synthesize displayConfigurations=_displayConfigurations;

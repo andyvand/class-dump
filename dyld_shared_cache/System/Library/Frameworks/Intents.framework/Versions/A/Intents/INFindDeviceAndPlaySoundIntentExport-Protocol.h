@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @protocol INFindDeviceAndPlaySoundIntentExport
+- (id)";
 - (void)Ã2;
 
 // Remaining properties
 @property(copy) NSArray *devices;
-@property(copy) NSNumber *isStopRequest;
 @end
 

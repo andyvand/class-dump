@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SidecarDevice, SidecarDisplayConfig;
+@class NSArray;
 
 @interface SidecarDisplayManager
 {
     _Atomic unsigned long long _configGeneration;
-    _Atomic unsigned long long _deviceGeneration;
-    _Atomic unsigned long long _displayGeneration;
-    SidecarDisplayConfig *_config;
-    NSArray *_devices;
-    SidecarDevice *_connectedDevice;
-    NSArray *_recentUUIDS;
-    NSArray *_recentDevices;
 }
 
 + (id);
@@ -30,13 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)iCloud Non-primary;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *connectedDevices;
 @property(readonly, nonatomic) NSArray *devices;
-@property(readonly, nonatomic) NSArray *recentDevices;
 
 @end
 

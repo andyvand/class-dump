@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPresentationController;
+
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (void);
+- (void):(UIPresentationController *)arg1 G;
+- (void)predicateForAllPaperKitBackedAttachments;
 - (_Bool)iddenKey;
-- (long long);
 - (void)ImportFromDevicesCommands;
 @end
 

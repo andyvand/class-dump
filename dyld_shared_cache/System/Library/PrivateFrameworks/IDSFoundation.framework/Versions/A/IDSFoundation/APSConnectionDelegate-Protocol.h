@@ -10,12 +10,14 @@
 - (void)x¨1;
 
 @optional
+- (void);
+- (void)*;
 - (void)m.apple.private.alloy.nsurlsessionproxy;
 - (void)emote:(APSConnection *)arg1 %lld
     initialMaxData:%lld
     initialMaxStreamDataUni:%lld
     initialMaxStreamsBidi:%lld
     initialMaxStreamsUni:%lld /* Error: Ran out of types for this method. */;
-- (void);
+- (void)facetime_mode;
 @end
 

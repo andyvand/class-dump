@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, INSettingMetadata, INTemporalEventTrigger;
+@class INSettingMetadata;
 
 @protocol INSetTemporalSettingIntentExport
 - (void);
 
 // Remaining properties
-@property long long action;
 @property(copy) INSettingMetadata *settingMetadata;
-@property(copy) INTemporalEventTrigger *temporalEventTrigger;
-@property(copy) INDateComponentsRange *timeValue;
 @end
 

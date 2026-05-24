@@ -4,27 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSSet, NSUserInterfaceCompressionOptions;
-
 __attribute__((visibility("hidden")))
 @interface NSCompressionGroupLayout
 {
     _Bool _prefersEqualWidths;
-    double _preferredItemWidth;
-    NSArray *_prioritizedCompressionOptions;
-    NSUserInterfaceCompressionOptions *_currentOptions;
-    NSMapTable *_itemsToWidths;
-    double _equalMinWidth;
-    double _equalMaxWidth;
-    double _guaranteedEqualWidth;
-    double _largestUnstretchedWidth;
-    double _largestStretchedWidth;
-    double _smallestStretchedWidth;
-    double _largestPreferredWidth;
-    NSSet *_currentItems;
-    NSArray *_effectiveCompressionOptions;
-    _Bool _hasAlertStyle;
-    NSArray *_cachedItemsExcludingSpaces;
 }
 
 - (void);
@@ -34,48 +17,43 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (double);
-- (void);
-- (void);
-- (void);
+- (void)getCredentialsForProtectionSpace:(id)arg1 task:(struct CGSize *)arg2 completionHandler:(struct CGSize *)arg3;
+- (void)backgroundTask:didReceiveResponse:transactionMetrics:reply: /* Error: Ran out of types for this method. */;
+- (void)backgroundTask:(id)arg1 didReceiveResponse:transactionMetrics:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)checked__needsDownloadDirectory;
+- (void)_NSHTTPAlternativeServicesStorageSqlite;
+- (id);
+- (void)LAuthChallenge %p>{space = %@, proposedCredential = %@, previousFailureCount = %ld, failureResponse = %@, error = %@/%ld};
+- (void)yJU7BQihVAwNctXsdFMpFYYfI7CUYqH8LaKPkdUoDAdrC/Zn6v0kPEhNhuGzh5wkDg9hTEK9IJGcTBpEnGEVqeOhcuFFALI0Mmd+DJYFRMMquQdB6GbgYt2So7YCs38JZPRgyQUUpLsLUNXlEimS0YwlpCADI8WXOAFSgUdbs0uRIm0pa8ssyoVn+IzsnhQ/gddWhQyTQ4tJAC5usZiF6/908uhvQKJS8+MCIFOimX6+S10eqm5MV2SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (id);
+- (id);
+- (double);
+- (double);
+- (double);
+- (double);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (_Bool);
-- (void);
 - (double);
 - (double);
 - (double);
 - (id);
 - (id);
 - (id);
-- (double);
-- (void);
+- (double);
+- (void);
 - (_Bool);
 - (double);
 - (void);
-- (id);
+- (id)#;
 - (_Bool);
 - (id)0@ù
 × ;
-- (id)temItemWithTitle:(struct _NSZone *)arg1 action:keyEquivalent:atIndex: /* Error: Ran out of types for this method. */;
+- (id)_insertSystemItemWithTitle:(struct _NSZone *)arg1 action:keyEquivalent:atIndex: /* Error: Ran out of types for this method. */;
 - (void)rdinator;
 
 // Remaining properties
-@property(readonly) NSUserInterfaceCompressionOptions *effectiveCompressionOptions;
-@property _Bool groupHasAlertStyle;
-@property(copy) NSSet *items;
-@property double preferredItemWidth;
 @property _Bool prefersEqualWidths;
-@property(copy) NSArray *prioritizedCompressionOptions;
 
 @end
 

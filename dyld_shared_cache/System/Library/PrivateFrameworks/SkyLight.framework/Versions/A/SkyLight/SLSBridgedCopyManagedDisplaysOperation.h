@@ -11,8 +11,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)int primary key violation;
+- (id)EGER;
 - (id);
 - (id);
 - (void);

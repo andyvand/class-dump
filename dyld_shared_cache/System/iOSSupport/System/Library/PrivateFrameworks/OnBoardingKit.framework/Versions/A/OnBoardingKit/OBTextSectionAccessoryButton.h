@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)}{CGSize=dd}}64@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32 /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

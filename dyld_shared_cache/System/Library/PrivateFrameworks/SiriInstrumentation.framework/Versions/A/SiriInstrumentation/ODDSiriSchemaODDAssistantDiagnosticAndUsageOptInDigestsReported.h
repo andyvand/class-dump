@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDFixedDimensions;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDAssistantDiagnosticAndUsageOptInDigestsReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    _Bool _hasFixedDimensions;
 }
 
 - (void);
@@ -23,11 +21,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -35,16 +33,13 @@
 - (id);
 - (id)Þ1Â0@ù
 × ;
-- (id)m;
+- (id)custom;
 - (id)OfSecondaryPassRuns;
 - (id)tEventFailed",&,N,V_failed;
-- (void)_ITEM_FILEURL;
+- (void)JRPARAMETERSUBTYPE_PRIMITIVE_SEARCHABLE_ITEM_FILEURL;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

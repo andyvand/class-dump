@@ -13,10 +13,10 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)updateName:(id)arg1 lastUpdate:postNotification: /* Error: Ran out of types for this method. */;
+- (void)_estimateRSSIForSFBLEDevice:(id)arg1 ];
 - (id);
-- (id);
+- (id);
 
 @end
 

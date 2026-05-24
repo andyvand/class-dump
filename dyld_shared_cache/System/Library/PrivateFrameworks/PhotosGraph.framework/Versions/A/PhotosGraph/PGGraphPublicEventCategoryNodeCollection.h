@@ -6,21 +6,20 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSSet, PGGraphPublicEventNodeCollection;
+@class NSSet;
 
 @interface PGGraphPublicEventCategoryNodeCollection : PGGraphNodeCollection
 {
 }
 
-+ (id);
-+ (id);
++ (id)cation.applicationQueue.%@;
++ (id)AXTextInputMarkingSessionBegan;
 + (Class);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(readonly) NSSet *categories;
-@property(readonly, nonatomic) PGGraphPublicEventNodeCollection *publicEventNodes;
 
 @end
 

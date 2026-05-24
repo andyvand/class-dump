@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, ODDAlgorithm, ODDPoint, ODDShape;
+@class ODDPoint;
 
 __attribute__((visibility("hidden")))
 @interface ODILayoutNode
 {
     ODDPoint *mPoint;
-    ODDAlgorithm *mAlgorithm;
-    ODDShape *mShape;
-    NSMutableArray *mChildren;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	@9)	;
 - (void);
 - (id);
 - (id);

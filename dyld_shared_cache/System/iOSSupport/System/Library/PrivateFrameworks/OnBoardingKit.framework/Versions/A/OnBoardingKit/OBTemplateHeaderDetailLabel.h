@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface OBTemplateHeaderDetailLabel
 {
     _Bool _forceCenterAlignment;
-    _Bool _masqueradeAsMacIdiom;
-    NSNumber *_spansAllLinesOverride;
-    struct _NSRange _titleRange;
-    struct _NSRange _bodyRange;
 }
 
 - (struct _NSRange);
@@ -30,14 +24,10 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (void);
 - (void);
-- (void);
+- (void)W;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange bodyRange; // @synthesize bodyRange=_bodyRange;
-@property(nonatomic) _Bool forceCenterAlignment; // @synthesize forceCenterAlignment=_forceCenterAlignment;
-@property(nonatomic) _Bool masqueradeAsMacIdiom; // @synthesize masqueradeAsMacIdiom=_masqueradeAsMacIdiom;
-@property(retain, nonatomic) NSNumber *spansAllLinesOverride; // @synthesize spansAllLinesOverride=_spansAllLinesOverride;
 @property(nonatomic) struct _NSRange titleRange; // @synthesize titleRange=_titleRange;
 
 @end

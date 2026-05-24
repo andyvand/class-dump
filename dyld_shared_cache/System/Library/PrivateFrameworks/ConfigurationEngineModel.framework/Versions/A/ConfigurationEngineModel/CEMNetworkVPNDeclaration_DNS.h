@@ -6,20 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface CEMNetworkVPNDeclaration_DNS : CEMPayloadBase
 {
     NSArray *_payloadServerAddresses;
-    NSArray *_payloadSearchDomains;
-    NSString *_payloadDomainName;
-    NSArray *_payloadSupplementalMatchDomains;
-    NSNumber *_payloadSupplementalMatchDomainsNoSearch;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)ion.framework/Versions/A/CoreFoundation;
 - (void);
 - (void);
 - (void);
@@ -31,16 +27,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)Sinji;
+- (id)pSgIegn_;
+- (void)SSL3_GET_MESSAGE;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadDomainName; // @synthesize payloadDomainName=_payloadDomainName;
-@property(copy, nonatomic) NSArray *payloadSearchDomains; // @synthesize payloadSearchDomains=_payloadSearchDomains;
 @property(copy, nonatomic) NSArray *payloadServerAddresses; // @synthesize payloadServerAddresses=_payloadServerAddresses;
-@property(copy, nonatomic) NSArray *payloadSupplementalMatchDomains; // @synthesize payloadSupplementalMatchDomains=_payloadSupplementalMatchDomains;
-@property(copy, nonatomic) NSNumber *payloadSupplementalMatchDomainsNoSearch; // @synthesize payloadSupplementalMatchDomainsNoSearch=_payloadSupplementalMatchDomainsNoSearch;
 
 @end
 

@@ -5,14 +5,12 @@
 //
 
 @protocol MRAudioDucker
-- (long long)ghtDirection;
+- (double);
+- (double)URLSession:task:needNewBodyStreamFromOffset:completionHandler: /* Error: Ran out of types for this method. */;
+- (double)URLSession:task:needNewBodyStream: /* Error: Ran out of types for this method. */;
+- (long long)lightDirection;
 
 // Remaining properties
-@property(readonly) double currentDuckLevel;
-@property(nonatomic) double duckInDuration;
 @property(nonatomic) double duckLevel;
-@property(nonatomic) double duckOutDuration;
-@property(nonatomic) double parentDuration;
-@property(nonatomic) long long priority;
 @end
 

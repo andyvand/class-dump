@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRDocument, ICCRSet, NSArray, NSMutableArray, NSString;
+@class ICCRSet;
 
 @interface ICCROrderedSet
 {
     ICCRSet *_contents;
-    NSMutableArray *_orderedArray;
 }
 
 - (void);
@@ -19,28 +18,29 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)@9
+;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)initWithTeamID:(id)arg1 token: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)@;
 - (id);
 - (unsigned long long);
 - (void)!d@ùñ1
@@ -53,18 +53,7 @@
 - (void)bundle that has note been moved:(id)arg1 %@. Moving to %@;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allObjects;
 @property(retain, nonatomic) ICCRSet *contents; // @synthesize contents=_contents;
-@property(readonly) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak ICCRDocument *document;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *orderedArray; // @synthesize orderedArray=_orderedArray;
-@property(readonly) Class superclass;
 
 @end
 

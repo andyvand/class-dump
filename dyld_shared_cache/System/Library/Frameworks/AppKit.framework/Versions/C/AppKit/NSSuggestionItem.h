@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage, NSString;
-
 @interface NSSuggestionItem
 {
     id _representedObject;
-    NSAttributedString *_attributedTitle;
-    NSAttributedString *_attributedSecondaryTitle;
-    NSString *_toolTip;
-    NSImage *_image;
 }
 
 - (void);
@@ -26,27 +20,21 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void)stMain"b1"RESERVED"b20};
-- (id)mumSizeConstraint;
+- (id)_tabViewMinimumSizeConstraint;
 - (id)lumn >= 0 && newColumn < _columnCount;
-- (id)eForObscuredWindows;
+- (id)minSizeForObscuredWindows;
 - (void);
 - (void)¬eÿ8§`B;
 
 // Remaining properties
-@property(copy) NSAttributedString *attributedSecondaryTitle; // @synthesize attributedSecondaryTitle=_attributedSecondaryTitle;
-@property(copy) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(copy) NSImage *image; // @synthesize image=_image;
 @property(copy) id representedObject; // @synthesize representedObject=_representedObject;
-@property(copy) NSString *secondaryTitle;
-@property(copy) NSString *title;
-@property(copy) NSString *toolTip; // @synthesize toolTip=_toolTip;
 
 @end
 

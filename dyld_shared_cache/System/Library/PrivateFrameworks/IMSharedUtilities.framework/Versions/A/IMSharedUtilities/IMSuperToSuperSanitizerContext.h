@@ -6,18 +6,11 @@
 
 #import <IMSharedUtilities/IMFromSuperParserContext.h>
 
-@class NSArray, NSAttributedString, NSMutableArray, NSMutableAttributedString, NSString;
+@class NSAttributedString, NSMutableAttributedString;
 
 @interface IMSuperToSuperSanitizerContext : IMFromSuperParserContext
 {
     NSMutableAttributedString *_content;
-    NSMutableArray *_attachments;
-    NSString *_backgroundColor;
-    NSString *_foregroundColor;
-    unsigned long long _offset;
-    long long _baseWritingDirection;
-    _Bool _extractAttachments;
-    _Bool _hadBaseWritingDirectionAttribute;
 }
 
 - (id);
@@ -27,12 +20,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id)ginator_guid;
+- (id)thread_originator_guid;
 
 // Remaining properties
-@property(readonly, retain) NSArray *attachments; // @synthesize attachments=_attachments;
 @property(readonly, retain) NSAttributedString *sanitizedContent; // @synthesize sanitizedContent=_content;
 
 @end

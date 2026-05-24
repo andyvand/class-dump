@@ -5,5 +5,6 @@
 //
 
 @protocol SearchUIButtonItemDelegate
+- (void);
 @end
 

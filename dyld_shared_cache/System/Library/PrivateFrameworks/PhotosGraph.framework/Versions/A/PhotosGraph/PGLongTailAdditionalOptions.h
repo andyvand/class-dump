@@ -7,8 +7,6 @@
 @interface PGLongTailAdditionalOptions
 {
     unsigned long long _qualityPercentile;
-    unsigned long long _verifiedPersonScoreValue;
-    unsigned long long _topTierAestheticScoreValue;
 }
 
 - (unsigned long long);
@@ -17,14 +15,12 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)e);
 - (id)Qnð1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long qualityPercentile; // @synthesize qualityPercentile=_qualityPercentile;
-@property(nonatomic) unsigned long long topTierAestheticScoreValue; // @synthesize topTierAestheticScoreValue=_topTierAestheticScoreValue;
-@property(nonatomic) unsigned long long verifiedPersonScoreValue; // @synthesize verifiedPersonScoreValue=_verifiedPersonScoreValue;
 
 @end
 

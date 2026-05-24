@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNLabelValuePair, NSDictionary, NSSet, NSString;
+@class CNLabelValuePair;
 
 @interface CNLabeledValue
 {
     CNLabelValuePair *_labelValuePair;
-    NSString *_identifier;
-    NSString *_storeIdentifier;
-    NSDictionary *_storeInfo;
-    NSSet *_linkedIdentifiers;
-    _Bool _isValueMutable;
-    int _iOSLegacyIdentifier;
 }
 
 @end

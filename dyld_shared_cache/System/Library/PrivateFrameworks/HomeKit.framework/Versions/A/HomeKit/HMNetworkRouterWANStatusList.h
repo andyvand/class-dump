@@ -13,12 +13,12 @@
 
 + (id);
 - (id);
-- (id);
+- (id)b;
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)excommunication;
 - (_Bool);
 - (id);
 - (void)|>T?;

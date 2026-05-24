@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void);
+- (void);
+- (void)setHttpResponseHeaders:(NSURLSession *)arg1;
 @end
 

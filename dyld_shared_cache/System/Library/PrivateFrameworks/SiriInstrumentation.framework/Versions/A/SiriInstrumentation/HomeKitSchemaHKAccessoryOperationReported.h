@@ -6,46 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface HomeKitSchemaHKAccessoryOperationReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sharedMetricsId;
-    NSString *_accessoryCategory;
-    int _communicationProtocol;
-    int _transportType;
-    int _operationType;
-    _Bool _wasCached;
-    _Bool _wasLocal;
-    _Bool _wasRemoteAccessAllowed;
-    _Bool _wasResidentFirstEnabled;
-    _Bool _wasRapportSlow;
-    unsigned int _residentFirstDuration;
-    NSString *_residentFirstErrorDomain;
-    unsigned int _residentFirstErrorCode;
-    unsigned int _totalDuration;
-    NSString *_finalErrorDomain;
-    unsigned int _finalErrorCode;
-    unsigned int _consecutiveFailureCount;
-    struct {
-        unsigned int communicationProtocol:1;
-        unsigned int transportType:1;
-        unsigned int operationType:1;
-        unsigned int wasCached:1;
-        unsigned int wasLocal:1;
-        unsigned int wasRemoteAccessAllowed:1;
-        unsigned int wasResidentFirstEnabled:1;
-        unsigned int wasRapportSlow:1;
-        unsigned int residentFirstDuration:1;
-        unsigned int residentFirstErrorCode:1;
-        unsigned int totalDuration:1;
-        unsigned int finalErrorCode:1;
-        unsigned int consecutiveFailureCount:1;
-    } _has;
-    _Bool _hasSharedMetricsId;
-    _Bool _hasAccessoryCategory;
-    _Bool _hasResidentFirstErrorDomain;
-    _Bool _hasFinalErrorDomain;
 }
 
 - (_Bool);
@@ -66,10 +31,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,19 +45,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned int);
-- (void);
-- (void);
+- (void)@;
+- (void)Ҟ;
 - (void);
 - (void);
 - (void);
@@ -115,73 +80,39 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)<;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)IAPDigitalAudioSupportedSampleRate;
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)}S*;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
-- (id);
+- (id)_enumerateDaysOfWeekInFMFDaysOfWeek:callback: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
-- (void)ExpirationTimestampMs:(_Bool)arg1;
-- (int)rectPartialResultIndexListCount;
+- (void)setHasUserSamplingIdExpirationTimestampMs:(_Bool)arg1;
+- (int)correctPartialResultIndexListCount;
 - (id)@"NSString",C,N,V_originEntityId;
 - (id)Xpp;
-- (void)XECUTIONERROR_LNPERFORMACTIONERRORCODE_CUSTOM_DIALOG;
+- (void)FLOWLINKEXECUTIONERROR_LNPERFORMACTIONERRORCODE_CUSTOM_DIALOG;
 - (void)ü(Éÿ$;
 - (void);
 - (int)ßµÿ;
 - (_Bool)Íë&;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;
-@property(nonatomic) int communicationProtocol; // @synthesize communicationProtocol=_communicationProtocol;
-@property(nonatomic) unsigned int consecutiveFailureCount; // @synthesize consecutiveFailureCount=_consecutiveFailureCount;
-@property(nonatomic) unsigned int finalErrorCode; // @synthesize finalErrorCode=_finalErrorCode;
-@property(copy, nonatomic) NSString *finalErrorDomain; // @synthesize finalErrorDomain=_finalErrorDomain;
-@property(nonatomic) _Bool hasAccessoryCategory; // @synthesize hasAccessoryCategory=_hasAccessoryCategory;
-@property(nonatomic) _Bool hasCommunicationProtocol;
-@property(nonatomic) _Bool hasConsecutiveFailureCount;
-@property(nonatomic) _Bool hasFinalErrorCode;
-@property(nonatomic) _Bool hasFinalErrorDomain; // @synthesize hasFinalErrorDomain=_hasFinalErrorDomain;
-@property(nonatomic) _Bool hasOperationType;
-@property(nonatomic) _Bool hasResidentFirstDuration;
-@property(nonatomic) _Bool hasResidentFirstErrorCode;
-@property(nonatomic) _Bool hasResidentFirstErrorDomain; // @synthesize hasResidentFirstErrorDomain=_hasResidentFirstErrorDomain;
-@property(nonatomic) _Bool hasSharedMetricsId; // @synthesize hasSharedMetricsId=_hasSharedMetricsId;
-@property(nonatomic) _Bool hasTotalDuration;
-@property(nonatomic) _Bool hasTransportType;
-@property(nonatomic) _Bool hasWasCached;
-@property(nonatomic) _Bool hasWasLocal;
-@property(nonatomic) _Bool hasWasRapportSlow;
-@property(nonatomic) _Bool hasWasRemoteAccessAllowed;
-@property(nonatomic) _Bool hasWasResidentFirstEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int operationType; // @synthesize operationType=_operationType;
-@property(nonatomic) unsigned int residentFirstDuration; // @synthesize residentFirstDuration=_residentFirstDuration;
-@property(nonatomic) unsigned int residentFirstErrorCode; // @synthesize residentFirstErrorCode=_residentFirstErrorCode;
-@property(copy, nonatomic) NSString *residentFirstErrorDomain; // @synthesize residentFirstErrorDomain=_residentFirstErrorDomain;
 @property(retain, nonatomic) SISchemaUUID *sharedMetricsId; // @synthesize sharedMetricsId=_sharedMetricsId;
-@property(nonatomic) unsigned int totalDuration; // @synthesize totalDuration=_totalDuration;
-@property(nonatomic) int transportType; // @synthesize transportType=_transportType;
-@property(nonatomic) _Bool wasCached; // @synthesize wasCached=_wasCached;
-@property(nonatomic) _Bool wasLocal; // @synthesize wasLocal=_wasLocal;
-@property(nonatomic) _Bool wasRapportSlow; // @synthesize wasRapportSlow=_wasRapportSlow;
-@property(nonatomic) _Bool wasRemoteAccessAllowed; // @synthesize wasRemoteAccessAllowed=_wasRemoteAccessAllowed;
-@property(nonatomic) _Bool wasResidentFirstEnabled; // @synthesize wasResidentFirstEnabled=_wasResidentFirstEnabled;
 
 @end
 

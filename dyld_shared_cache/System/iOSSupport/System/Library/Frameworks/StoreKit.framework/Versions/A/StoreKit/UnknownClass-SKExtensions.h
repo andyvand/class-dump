@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SKExtensions)
-- (_Bool);
+- (_Bool)nsupported file version;
 @end
 

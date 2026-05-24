@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksController, NSMutableArray, NSUndoManager;
-@protocol BookmarksUndoControllerDataStore;
+@class NSUndoManager;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksUndoController
 {
     NSUndoManager *_undoManager;
-    id <BookmarksUndoControllerDataStore> _dataStore;
-    BookmarksController *_bookmarksController;
-    NSUndoManager *_strongUndoManager;
-    unsigned long long _undoCompatibleChangeCount;
-    NSMutableArray *_transactionActionNameStack;
 }
 
 + (id);
@@ -31,61 +25,61 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)E;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void)teCacheIfChanged: /* Error: Ran out of types for this method. */;
+- (void)_refreshFrequentlyVisitedSitesIfNecessary:updateCacheIfChanged: /* Error: Ran out of types for this method. */;
 - (void)´;
 
 // Remaining properties

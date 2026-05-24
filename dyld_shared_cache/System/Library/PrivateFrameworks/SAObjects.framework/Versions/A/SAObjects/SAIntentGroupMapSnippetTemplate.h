@@ -6,8 +6,7 @@
 
 #import <SAObjects/SAIntentGroupSnippetTemplate.h>
 
-@class NSString, SAIntentGroupDetailLabelTemplateComponent, SALocation, SAUIColor;
-@protocol SAIntentGroupSetMapLocation;
+@class SAUIColor;
 
 @interface SAIntentGroupMapSnippetTemplate : SAIntentGroupSnippetTemplate
 {
@@ -32,11 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAUIColor *color;
-@property(retain, nonatomic) SAIntentGroupDetailLabelTemplateComponent *detailLabelComponent;
-@property(nonatomic) _Bool interactive;
-@property(retain, nonatomic) SALocation *location;
-@property(copy, nonatomic) NSString *mapSize;
-@property(retain, nonatomic) id <SAIntentGroupSetMapLocation> updateLocationCommand;
 
 @end
 

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCKeyValueStore, FCPurchaseController, FCReceiptRefresher, NFMutexLock, NSMutableDictionary, NSString;
-@protocol FCBundleSubscriptionManagerType, FCPaymentTransactionManager, FCPurchaseFlowOverrideProviderType, FCPurchaseIntegrityChecker, FCPurchaseManagerDelegate, FCPurchaseReceiptProvider;
+@protocol FCPurchaseManagerDelegate;
 
 @interface FCPurchaseManager
 {
     id <FCPurchaseManagerDelegate> _delegate;
-    id <FCPurchaseFlowOverrideProviderType> purchaseFlowOverrideProvider;
-    FCKeyValueStore *_localStore;
-    id <FCPaymentTransactionManager> _paymentTransactionManager;
-    id <FCPurchaseIntegrityChecker> _purchaseIntegrityChecker;
-    id <FCPurchaseReceiptProvider> _purchaseReceiptProvider;
-    id <FCBundleSubscriptionManagerType> _bundleSubscriptionManager;
-    FCPurchaseController *_purchaseController;
-    FCReceiptRefresher *_receiptRefresher;
-    NSMutableDictionary *_ongoingPurchaseEntriesByProductID;
-    NSMutableDictionary *_cachedPurchaseModels;
-    NSString *_lastSignedInItunesAccountDSID;
-    NFMutexLock *_accessLock;
 }
 
 - (void);
@@ -30,11 +17,24 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)5767309,0.2973769, 0.0270343) + 
+    pix.g * vec3(0.185554, 0.6273491, 0.0706872) + 
+    pix.b * vec3(0.1881852, 0.0752741, 0.9911085);  	xyzIm = xyzIm/xyzN; 
+  	stepXYZ = step( 0.008856, xyzIm ); 
+  	fXYZ	= (7.787*xyzIm+(.160/1.160))*(1.0-stepXYZ) + (pow(xyzIm, vec3(1.0/3.0))*stepXYZ); 
+  	vec4 labOther = vec4(1.16*fXYZ.y - .16, 5.0*(fXYZ.x - fXYZ.y), 2.0*(fXYZ.y - fXYZ.z), pix.a); 
+	float dist = (pow(lab.r - labOther.r, 2.0) + pow(lab.g - labOther.g, 2.0) + pow(lab.b - labOther.b, 2.0)); 
+	dist = min(dist, 1.0); 
+	dist = smoothstep(0.04, 1.0, dist); 
+	float gray = (origPix.r + origPix.g + origPix.b) / 3.0; 
+	// if we're close to zero distance, then we get gray scale, but if it's mapped more, we get a color pixel, scaled by the amount of the mapping 
+	pix.rgb = mix(vec3(gray), pix.rgb, dist); 
+ 	return pix; 
+};
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)tatusCode;
 - (void);
 - (void);
 - (void);
@@ -44,15 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FCPurchaseManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <FCPurchaseFlowOverrideProviderType> purchaseFlowOverrideProvider; // @synthesize purchaseFlowOverrideProvider;
-@property(readonly) Class superclass;
 
 @end
 

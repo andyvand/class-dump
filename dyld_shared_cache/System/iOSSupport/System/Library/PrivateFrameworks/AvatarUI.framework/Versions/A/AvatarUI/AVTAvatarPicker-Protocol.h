@@ -7,6 +7,7 @@
 @protocol AVTAvatarPickerDelegate;
 
 @protocol AVTAvatarPicker
+- (id <AVTAvatarPickerDelegate>);
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTAvatarPickerDelegate> avatarPickerDelegate;

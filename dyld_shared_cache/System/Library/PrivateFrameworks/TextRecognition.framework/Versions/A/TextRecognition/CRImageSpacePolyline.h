@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CRImageSpacePolyline
 {
     void *__points;
-    ObjectRef_52546fe6 __pathRef;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -25,30 +22,22 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)toggleHTTPSOnlyEnabled: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)unarchive CKShare:(id)arg1 %@ data:%@ /* Error: Ran out of types for this method. */;
+- (id)NSt3__120__shared_ptr_emplaceI16CImageBlockCacheNS_9allocatorIS1_EEEE;
 - (struct CGPath *);
-- (struct CGRect);
+- (struct CGRect)indices
+;
 - (void)CGPoint=dd}16{CGPoint=dd}32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) struct CGPath *path;
-@property(readonly) unsigned long long pointCount;
-@property(readonly) NSArray *pointValues;
-@property(readonly) Class superclass;
 
 @end
 

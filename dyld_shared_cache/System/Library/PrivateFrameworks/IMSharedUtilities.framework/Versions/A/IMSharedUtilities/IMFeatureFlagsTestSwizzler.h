@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSwizzledMethod;
-
 @interface IMFeatureFlagsTestSwizzler
 {
     _Bool _enabled;
-    SEL _feature;
-    IMSwizzledMethod *_originalMethod;
-    IMSwizzledMethod *_replacementMethod;
-    SEL _testMethod;
 }
 
 - (void);
@@ -24,16 +18,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)gates;
+- (void)RelayMessageDelegates;
 - (SEL);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(readonly, nonatomic) SEL feature; // @synthesize feature=_feature;
-@property(readonly, nonatomic) IMSwizzledMethod *originalMethod; // @synthesize originalMethod=_originalMethod;
-@property(readonly, nonatomic) IMSwizzledMethod *replacementMethod; // @synthesize replacementMethod=_replacementMethod;
-@property(readonly, nonatomic, getter=isSwizzled) _Bool swizzled;
-@property(readonly, nonatomic) SEL testMethod; // @synthesize testMethod=_testMethod;
 
 @end
 

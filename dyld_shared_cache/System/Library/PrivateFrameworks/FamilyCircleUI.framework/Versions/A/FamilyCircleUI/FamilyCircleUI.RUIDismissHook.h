@@ -7,7 +7,6 @@
 @interface FamilyCircleUI.RUIDismissHook
 {
     id ruiDismiss;
-    id dismissCallback;
 }
 
 @end

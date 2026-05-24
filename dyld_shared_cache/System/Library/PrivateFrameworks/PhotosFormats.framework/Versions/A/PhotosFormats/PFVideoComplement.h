@@ -4,52 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PFVideoComplement
 {
     NSString *_imagePath;
-    NSString *_videoPath;
-    NSDictionary *_metadata;
-    NSString *_originalPairingIdentifier;
-    CDStruct_1b6d18a9 _originalImageDisplayTime;
-    CDStruct_1b6d18a9 _originalVideoDuration;
-    _Bool _didReadOriginalMetadata;
 }
 
-+ (CDStruct_1b6d18a9);
-+ (CDStruct_1b6d18a9);
++ (CDStruct_198678f7);
++ (CDStruct_198678f7);
 + (unsigned long long);
 + (_Bool);
 + (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (int);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)CLClientManager_Type::AuthorizationRequestTypeVanillaAlways /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)pipActionSkipToLive: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 imageDisplayTime;
-@property(readonly, copy, nonatomic) NSString *imagePath; // @synthesize imagePath=_imagePath;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 originalImageDisplayTime;
-@property(readonly, copy, nonatomic) NSString *originalPairingIdentifier;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 originalVideoDuration;
-@property(readonly, copy, nonatomic) NSString *pairingIdentifier;
-@property(readonly, copy, nonatomic) NSString *videoPath; // @synthesize videoPath=_videoPath;
+@property(readonly, copy, nonatomic) NSString *videoPath;
 
 @end
 

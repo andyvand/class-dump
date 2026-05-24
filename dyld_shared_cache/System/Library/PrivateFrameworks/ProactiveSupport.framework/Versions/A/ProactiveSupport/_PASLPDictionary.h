@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _PASLPDictionaryContext;
 @protocol _PASLPReaderProtocol;
 
 @interface _PASLPDictionary
 {
     id <_PASLPReaderProtocol> _reader;
-    _PASLPDictionaryContext *_context;
-    NSData *_objectsAndKeys;
 }
 
 - (id);
 - (id);
+- (id)redReason;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)setX_apple_ews_changekey: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ñª'Ð1Â0@ù
 × ;
 

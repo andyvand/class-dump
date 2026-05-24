@@ -4,7 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, WK_RTCVideoEncoderQpThresholds;
+
 @protocol RTCVideoEncoder
+- (long long)IO/XMP-Toolkit-SDK/XMPCore/source/IArrayNode_I.cpp;
+- (int)0231;
+- (long long)standard mappings;
+- (NSString *)xmpDM:altTimecode /* Error: Ran out of types for this method. */;
+- (long long)property must be non-alternate array;
+- (WK_RTCVideoEncoderQpThresholds *)photoshop:ICCProfile /* Error: Ran out of types for this method. */;
 - (void)@`àÀ¨À°ÀÆÆõØ °Ààêêð@`p@@`@ Ø° °°ÀÆÆÐÐ °Ààêêð@`p@@`@ ;
 @end
 

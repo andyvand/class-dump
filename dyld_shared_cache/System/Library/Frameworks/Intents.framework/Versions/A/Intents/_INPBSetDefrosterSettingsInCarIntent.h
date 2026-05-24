@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata;
+@class _INPBDataString;
 
 @interface _INPBSetDefrosterSettingsInCarIntent
 {
@@ -12,10 +12,6 @@
         unsigned int defroster:1;
         unsigned int enable:1;
     } _has;
-    _Bool _enable;
-    int _defroster;
-    _INPBDataString *_carName;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -29,7 +25,7 @@
 - (int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)__AUTH_CONST;
 - (id);
 - (id);
 - (id);
@@ -37,30 +33,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)p;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool)PBTimestamp",&,N,V_estimatedPickupDate;
-- (void)LAR;
+- (void)POPULAR;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName; // @synthesize carName=_carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) int defroster; // @synthesize defroster=_defroster;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enable; // @synthesize enable=_enable;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(nonatomic) _Bool hasDefroster;
-@property(nonatomic) _Bool hasEnable;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (_Bool)tusBarStyle;
+- (_Bool)UIStatusBarStyle;
 
 @end
 

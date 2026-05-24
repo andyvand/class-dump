@@ -6,35 +6,33 @@
 
 #import <ChatKit/CKTranscriptStampCell.h>
 
-@class CKSenderChatItem, CKTranscriptLegibilityButton;
+@class CKTranscriptLegibilityButton;
 
 @interface CKTranscriptUnknownSenderButtonCell : CKTranscriptStampCell
 {
     CDUnknownBlockType _onButtonTapBlock;
-    CKSenderChatItem *_chatItem;
 }
 
++ (id)?|
+;
 + (id);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)noteDidPerformMerge:(id)arg1;
+- (void)managedObjectIDForURIRepresentation:(CDUnknownBlockType)arg1;
+- (void)ic_imageWithBackgroundColor:(id)arg1;
+- (CDUnknownBlockType)_accountsOfHTMLSourceObjects;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)onCell:forItemIdentifier: /* Error: Ran out of types for this method. */;
+- (id)insertSections:(struct CGRect)arg1 withRowAnimation: /* Error: Ran out of types for this method. */;
+- (id)configureConversationCell:forItemIdentifier: /* Error: Ran out of types for this method. */;
 - (void)_ADyADyH]\APyX\SgGG'L\yAQGGtGGB&\G_X\tGG{4\G.\GADy´]\yA6_GA8_GGGDU\ySbGGtGGA19__G;
 - (void)appsto.re;
 - (id)X;
 
 // Remaining properties
 @property(readonly, nonatomic) CKTranscriptLegibilityButton *button;
-@property(retain, nonatomic) CKSenderChatItem *chatItem; // @synthesize chatItem=_chatItem;
-@property(copy, nonatomic) CDUnknownBlockType onButtonTapBlock; // @synthesize onButtonTapBlock=_onButtonTapBlock;
 
 @end
 

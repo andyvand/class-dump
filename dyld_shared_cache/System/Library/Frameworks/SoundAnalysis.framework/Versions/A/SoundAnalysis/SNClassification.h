@@ -15,20 +15,19 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)u;
+- (id)4˟;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
+- (id)P;
 - (id);
-- (id);
-- (double);
+- (double);
 - (void)<ÇùÿèÇùÿÈùÿ8Èùÿ\ÈùÿÈùÿ¼ÈùÿàÈùÿÉùÿ@ÉùÿÄÉùÿèÉùÿÊùÿHÊùÿlÊùÿÊùÿ´ÊùÿðÊùÿËùÿ`ËùÿÌùÿ°ÌùÿìÌùÿÍùÿ4ÍùÿXÍùÿÍùÿ¸ÍùÿÎùÿ8Îùÿ\ÎùÿÎùÿ¼ÎùÿàÎùÿÏùÿ@ÏùÿdÏùÿ°Ïùÿ<ÐùÿxÐùÿÐùÿÑùÿDÑùÿhÑùÿTÒùÿxÒùÿ´ÒùÿØÒùÿ0ÓùÿlÓùÿÓùÿ´ÓùÿØÓùÿÔùÿ8ÔùÿÔùÿÕùÿ4ÕùÿpÕùÿ¸ÕùÿÜÕùÿ;
 - (id);
 
 // Remaining properties
-@property(readonly) double confidence; // @dynamic confidence;
 @property(readonly, copy) NSString *identifier; // @dynamic identifier;
 
 @end

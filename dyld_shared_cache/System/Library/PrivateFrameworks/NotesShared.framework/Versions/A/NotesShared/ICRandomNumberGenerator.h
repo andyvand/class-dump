@@ -9,9 +9,9 @@
     unsigned int _randomSeed;
 }
 
-- (id);
+- (id);
 - (unsigned long long);
-- (double);
+- (double)Ҁ;
 - (id);
 
 @end

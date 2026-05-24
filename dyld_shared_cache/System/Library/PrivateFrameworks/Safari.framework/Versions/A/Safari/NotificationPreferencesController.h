@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSString, NSTextField, TableViewPlus, WBSFaviconRequestsController, WBSPerSitePreference;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface NotificationPreferencesController
 {
     _Bool _didAwakeFromNib;
-    WBSFaviconRequestsController *_requestsController;
-    _Bool _isWaitingForIconRequestCancellation;
-    WBSPerSitePreference *_notificationsPreference;
-    NSButton *_removeButton;
-    NSTextField *_emptyTablePlaceholderText;
-    NSButton *_canPromptForPushNotificationsCheckbox;
-    TableViewPlus *_policyTableView;
-    NSArray *_permissionData;
 }
 
-+ (id);
++ (id)propertyListWithData:options:format:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -29,13 +21,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,26 +43,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (long long);
-- (void);
-- (void);
+- (void);
+- (void)m;
 - (id);
 - (void);
 - (void)¼;
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *canPromptForPushNotificationsCheckbox; // @synthesize canPromptForPushNotificationsCheckbox=_canPromptForPushNotificationsCheckbox;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSTextField *emptyTablePlaceholderText; // @synthesize emptyTablePlaceholderText=_emptyTablePlaceholderText;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) WBSPerSitePreference *notificationsPreference; // @synthesize notificationsPreference=_notificationsPreference;
-@property(retain, nonatomic) NSArray *permissionData; // @synthesize permissionData=_permissionData;
-@property(nonatomic) __weak TableViewPlus *policyTableView; // @synthesize policyTableView=_policyTableView;
 @property(nonatomic) __weak NSButton *removeButton; // @synthesize removeButton=_removeButton;
-@property(readonly) Class superclass;
 
 @end
 

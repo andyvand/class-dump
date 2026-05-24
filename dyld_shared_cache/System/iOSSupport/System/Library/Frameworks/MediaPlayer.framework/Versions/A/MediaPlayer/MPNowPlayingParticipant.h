@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContentItem, MRUserIdentity, NSString;
+@class MRContentItem;
 
 @interface MPNowPlayingParticipant
 {
@@ -19,21 +19,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ack archived nicknames %@;
+- (id)PERSONALIZATION_PORTRAIT_EVENTS;
 - (id);
+- (id)setDominance: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void)ive__MAPPING_MISSING__;
+- (void)__MPModelPropertyPlaylistIsCollaborative__MAPPING_MISSING__;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName;
-@property(readonly, copy, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) MRContentItem *mediaRemoteContentItem; // @synthesize mediaRemoteContentItem=_mediaRemoteContentItem;
-@property(readonly, nonatomic) MRUserIdentity *mediaRemoteUserIdentity;
-@property(copy, nonatomic) NSString *participantIdentifier;
-@property(nonatomic) long long participantIdentifierType;
 
 @end
 

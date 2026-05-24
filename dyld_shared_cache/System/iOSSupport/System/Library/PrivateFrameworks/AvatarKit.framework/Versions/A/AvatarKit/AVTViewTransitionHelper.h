@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTRendererViewTransitionTechnique, AVTStickerConfiguration, AVTStickerConfigurationReversionContext, AVTView;
+@class AVTView;
 
 __attribute__((visibility("hidden")))
 @interface AVTViewTransitionHelper
 {
     AVTView *_view;
-    AVTStickerConfiguration *_stickerConfiguration;
-    AVTStickerConfigurationReversionContext *_stickerTransitionReversionContext;
-    AVTRendererViewTransitionTechnique *_transitionTechnique;
 }
 
 - (void);

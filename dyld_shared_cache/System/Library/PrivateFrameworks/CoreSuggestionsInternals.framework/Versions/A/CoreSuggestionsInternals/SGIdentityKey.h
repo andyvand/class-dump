@@ -9,7 +9,6 @@
 @interface SGIdentityKey
 {
     NSString *_content;
-    unsigned long long _type;
 }
 
 + (id);
@@ -27,17 +26,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)ks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (id);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (id)7p;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/compatibility/Word/Binary/Reader/WrdChpParser.cpp;
 - (_Bool);
 - (id);
 - (id);
@@ -46,7 +45,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *externalId;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

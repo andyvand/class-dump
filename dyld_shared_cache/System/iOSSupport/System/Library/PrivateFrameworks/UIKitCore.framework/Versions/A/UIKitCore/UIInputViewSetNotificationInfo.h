@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIInputViewSetNotificationInfo
 {
     _Bool _changedAccessoryOnly;
-    _Bool _assistantOnScreenOnly;
-    _Bool _forceNotification;
-    _Bool _wasCausedRemotely;
-    _Bool _dueToRotation;
-    _Bool _forWritingToolsSheet;
-    _Bool _shouldSendInClient;
-    _Bool _waitingForInputUI;
-    _Bool _nonKeyboardOverride;
-    double _duration;
-    unsigned long long _options;
-    unsigned long long _assistantPosition;
-    unsigned long long _type;
-    NSString *_debugInfo;
-    struct CGPoint _beginCenter;
-    struct CGPoint _endCenter;
-    struct CGRect _beginFrame;
-    struct CGRect _endFrame;
-    struct CGRect _assistantFrame;
-    struct CGRect _bounds;
 }
 
-+ (id)ntrollerDisableTrimVideoMessage;
++ (id)_UIImagePickerControllerDisableTrimVideoMessage;
 - (id);
 - (_Bool);
 - (void);
@@ -43,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (double);
+- (double)MPAVItemModelGenericObjectDidChangeNotification;
 - (void);
 - (void);
 - (void);
@@ -60,21 +41,21 @@ __attribute__((visibility("hidden")))
 × ;
 - (unsigned long long)ion"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
 - (unsigned long long)@0:8 /* Error: Ran out of types for this method. */;
-- (struct CGRect)bilityPropagationEnabled;
-- (void)ion;
-- (void)esults:(struct CGRect)arg1 waitForNotification:withTeardownBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)DictationButton;
-- (void)llectionViewAnimationContext:(id)arg1;
-- (_Bool)forceHistoryReplacement;
-- (void)ransition:(struct CGRect)arg1;
+- (struct CGRect)visibilityPropagationEnabled;
+- (void)forceEnableDictation;
+- (void)finishedTest:(struct CGRect)arg1 extraResults:waitForNotification:withTeardownBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)canShowDictationButton;
+- (void)_setCollectionViewAnimationContext:(id)arg1;
+- (_Bool)_forceHistoryReplacement;
+- (void)_animateInProcessAlongsideTransition:(struct CGRect)arg1;
 - (_Bool)ableContainer;
-- (void)rphContainer;
+- (void)_morphContainer;
 - (void)%@, self:(unsigned long long)arg1 %@, event:%@, cmd:"%s" /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGPoint)þÿ;
 - (void);
 - (void)ëÿq~Ôøúf;
-- (_Bool);
+- (_Bool)zg;
 - (void)Fóþ;
 - (struct CGRect)4Ég;
 - (void)ñh;
@@ -90,28 +71,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÞQ×ðm;
 
 // Remaining properties
-@property(nonatomic) struct CGRect assistantFrame; // @synthesize assistantFrame=_assistantFrame;
-@property(nonatomic) _Bool assistantOnScreenOnly; // @synthesize assistantOnScreenOnly=_assistantOnScreenOnly;
-@property(nonatomic) unsigned long long assistantPosition; // @synthesize assistantPosition=_assistantPosition;
-@property(nonatomic) struct CGPoint beginCenter; // @synthesize beginCenter=_beginCenter;
-@property(nonatomic) struct CGRect beginFrame; // @synthesize beginFrame=_beginFrame;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(nonatomic) _Bool changedAccessoryOnly; // @synthesize changedAccessoryOnly=_changedAccessoryOnly;
 @property(retain, nonatomic) NSString *debugInfo; // @synthesize debugInfo=_debugInfo;
-@property(nonatomic) _Bool dueToRotation; // @synthesize dueToRotation=_dueToRotation;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) struct CGPoint endCenter; // @synthesize endCenter=_endCenter;
-@property(nonatomic) struct CGRect endFrame; // @synthesize endFrame=_endFrame;
-@property(nonatomic) _Bool forWritingToolsSheet; // @synthesize forWritingToolsSheet=_forWritingToolsSheet;
-@property(nonatomic) _Bool forceNotification; // @synthesize forceNotification=_forceNotification;
-@property(nonatomic) _Bool nonKeyboardOverride; // @synthesize nonKeyboardOverride=_nonKeyboardOverride;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSDictionary *privateUserInfo;
-@property(nonatomic) _Bool shouldSendInClient; // @synthesize shouldSendInClient=_shouldSendInClient;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSDictionary *userInfo;
-@property(nonatomic) _Bool waitingForInputUI; // @synthesize waitingForInputUI=_waitingForInputUI;
-@property(nonatomic) _Bool wasCausedRemotely; // @synthesize wasCausedRemotely=_wasCausedRemotely;
 
 @end
 

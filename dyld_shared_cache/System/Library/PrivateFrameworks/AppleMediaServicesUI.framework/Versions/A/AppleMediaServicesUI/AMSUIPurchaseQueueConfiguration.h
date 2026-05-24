@@ -10,7 +10,7 @@
 {
 }
 
-- (id)tendedCarrierCheck;
+- (id)extendedCarrierCheck;
 
 // Remaining properties
 @property(retain) id <AMSUIPurchaseResponseProtocol> delegate; // @dynamic delegate;

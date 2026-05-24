@@ -6,45 +6,40 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PFAPreprocessorOrchestratorResultsStatsReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NSArray *_orchestratorStatistics;
-    _Bool _hasContextId;
 }
 
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
 - (_Bool);
+- (_Bool)is zero length for transfer:(id)arg1 %@;
 - (id);
 - (id)!Aù±Ý1Â0@ù
 × ;
-- (id)yPersonalDevicesReported;
+- (id)_hasNearbyPersonalDevicesReported;
 - (id)B,N,V_hasAsrRank;
-- (void)ED;
+- (void)ASRSPEECHPROFILEUPDATEFAILUREREASON_SPEECH_ASSET_LOAD_FAILED;
 - (void)(·Êÿå¯NÔ#;
 - (id)¥Ã¯§Ï$;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *orchestratorStatistics; // @synthesize orchestratorStatistics=_orchestratorStatistics;
 
 @end
 

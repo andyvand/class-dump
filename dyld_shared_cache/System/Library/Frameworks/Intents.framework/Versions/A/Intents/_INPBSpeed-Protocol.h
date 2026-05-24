@@ -7,11 +7,13 @@
 @class NSArray, _INPBSpeedValue;
 
 @protocol _INPBSpeed
-- (void)ionsForSetRelationship:(_INPBSpeedValue *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
++ (Class)ock from TTY (%d)
+;
+- (void);
+- (void)provideTargetRelationshipOptionsForSetRelationship:(_INPBSpeedValue *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (_INPBSpeedValue *)aveHealthSampleIntentResponse;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

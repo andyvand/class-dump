@@ -6,17 +6,15 @@
 
 #import <VoiceShortcutClient/WFLinkSnippetDialogRequest.h>
 
-@class LNChoiceRequest, NSArray, NSString;
+@class LNChoiceRequest;
 
 @interface WFLinkChoiceDialogRequest : WFLinkSnippetDialogRequest
 {
     LNChoiceRequest *_request;
-    NSString *_title;
-    NSArray *_buttons;
 }
 
 + (_Bool);
-- (id);
+- (id)|;
 - (id);
 - (id);
 - (id);
@@ -26,9 +24,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
 @property(readonly, copy, nonatomic) LNChoiceRequest *request; // @synthesize request=_request;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

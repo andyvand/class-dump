@@ -10,7 +10,7 @@
 {
 }
 
-- (id)tuples;
+- (id)enrtuples;
 
 @end
 

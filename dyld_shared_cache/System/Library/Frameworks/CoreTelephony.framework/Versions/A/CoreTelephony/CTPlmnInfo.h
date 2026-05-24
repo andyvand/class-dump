@@ -9,25 +9,23 @@
 @interface CTPlmnInfo
 {
     NSString *_mcc;
-    NSString *_mnc;
 }
 
-+ (_Bool);
++ (_Bool)fers containing encoded media data;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)fetchGenericPasswordWithIdentifier:(id)arg1 domain:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (void)a&ð!`Fùqª)Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *mcc; // @synthesize mcc=_mcc;
-@property(readonly, nonatomic) NSString *mnc; // @synthesize mnc=_mnc;
 
 @end
 

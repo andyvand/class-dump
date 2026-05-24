@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)MLModelStructureNeuralNetwork;
 
 // Remaining properties
 @property(retain) NSLayoutConstraint *ownedConstraint; // @synthesize ownedConstraint=_ownedConstraint;

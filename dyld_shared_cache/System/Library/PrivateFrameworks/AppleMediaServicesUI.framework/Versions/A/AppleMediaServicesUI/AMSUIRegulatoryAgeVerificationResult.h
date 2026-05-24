@@ -11,10 +11,10 @@
     void tokenData;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)thType:buyParams: /* Error: Ran out of types for this method. */;
+- (void)purchaseContentWithType:buyParams: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *tokenData;

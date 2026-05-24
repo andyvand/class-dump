@@ -7,17 +7,12 @@
 @interface TSDBezierNode
 {
     struct CGPoint mIn;
-    struct CGPoint mNode;
-    struct CGPoint mOut;
-    int mReflectedState;
-    _Bool mSelected;
-    int mType;
 }
 
 + (id);
 + (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -25,15 +20,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tz;
 - (id);
 - (int);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)Du;
 - (void);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (id);
@@ -47,13 +42,7 @@
 - (_Bool)valued property.;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint inControlPoint; // @synthesize inControlPoint=mIn;
-@property(readonly, nonatomic) _Bool isCollapsed;
 @property(nonatomic) struct CGPoint nodePoint; // @synthesize nodePoint=mNode;
-@property(nonatomic) struct CGPoint outControlPoint; // @synthesize outControlPoint=mOut;
-@property(nonatomic) int reflectedState; // @synthesize reflectedState=mReflectedState;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=mSelected;
-@property(nonatomic) int type; // @synthesize type=mType;
 
 @end
 

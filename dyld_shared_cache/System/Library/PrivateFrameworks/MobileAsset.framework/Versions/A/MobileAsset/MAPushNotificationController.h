@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface MAPushNotificationController
 {
     _Bool _verboseLogging;
-    NSXPCConnection *_serviceConnection;
-    NSLock *_serviceConnectionLock;
 }
 
 + (id);
@@ -39,8 +37,6 @@
 
 // Remaining properties
 @property(retain) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(retain, nonatomic) NSLock *serviceConnectionLock; // @synthesize serviceConnectionLock=_serviceConnectionLock;
-@property(nonatomic) _Bool verboseLogging; // @synthesize verboseLogging=_verboseLogging;
 
 @end
 

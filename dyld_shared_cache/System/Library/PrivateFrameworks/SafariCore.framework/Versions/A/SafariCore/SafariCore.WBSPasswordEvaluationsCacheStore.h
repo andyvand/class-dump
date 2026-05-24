@@ -7,8 +7,6 @@
 @interface SafariCore.WBSPasswordEvaluationsCacheStore
 {
     id unownedExecutor;
-    id isForTesting;
-    id executorQueue;
 }
 
 - (void);

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInvocation, NSObject;
-@protocol OS_dispatch_group, PHAServiceOperationListener;
+@class NSInvocation;
 
 @interface PHAServiceCancelableOperation
 {
     NSInvocation *_invocation;
-    long long _operationId;
-    _Bool _cancelRequested;
-    CDUnknownBlockType _cancellationBlock;
-    NSObject<OS_dispatch_group> *_completionGroup;
-    CDUnknownBlockType _progressBlock;
-    id <PHAServiceOperationListener> _delegate;
 }
 
 + (id);
@@ -23,9 +16,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (id);
+- (void)tionCoordinate2D=dd},N,V_centroidCoordinate;
+- (CDUnknownBlockType)V_manager;
+- (id)od sent to %p;
 - (void);
 - (void);
 - (_Bool);
@@ -33,18 +26,14 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
-- (void)onents:fromDate: /* Error: Ran out of types for this method. */;
+- (void)components:fromDate: /* Error: Ran out of types for this method. */;
 - (id)	
 ;
 
 // Remaining properties
-@property __weak id <PHAServiceOperationListener> delegate; // @synthesize delegate=_delegate;
 @property(readonly) NSInvocation *invocation; // @synthesize invocation=_invocation;
-@property(readonly) _Bool isCancelled;
-@property(readonly) long long operationId;
-@property(copy) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
 
 @end
 

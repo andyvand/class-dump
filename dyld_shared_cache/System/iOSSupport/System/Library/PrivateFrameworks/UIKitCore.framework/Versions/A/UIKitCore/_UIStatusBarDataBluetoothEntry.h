@@ -14,19 +14,19 @@
     _UIStatusBarDataBatteryEntry *_batteryEntry;
 }
 
-+ (_Bool)ewCellDetailDisclosureView;
++ (_Bool)UITableViewCellDetailDisclosureView;
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)tener"16@"NSXPCConnection"24;
+- (unsigned long long)?;
 - (void)0@ù
 × ;
 - (long long)!°Bùñd1Â0@ù
 × ;
 - (_Bool)"<UIPointerInteractionDelegate>";
-- (void)ollectionOverride;
-- (id)BreakMode:baselineAdjustment:includeEmoji: /* Error: Ran out of types for this method. */;
-- (id)ontrastForBackgroundColor;
+- (void)sizeClassCollectionOverride;
+- (id)drawAtPoint:forWidth:withFont:minFontSize:actualFontSize:lineBreakMode:baselineAdjustment:includeEmoji: /* Error: Ran out of types for this method. */;
+- (id)_allowsHighContrastForBackgroundColor;
 - (void);
 
 // Remaining properties

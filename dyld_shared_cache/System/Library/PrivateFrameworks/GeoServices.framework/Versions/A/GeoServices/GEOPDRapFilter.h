@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)6;
-- (id)me;
+- (id)_merchantEnhancedName;
 - (id)³Ì³hµ´µ·è·ì¸tº;
 - (void);
 

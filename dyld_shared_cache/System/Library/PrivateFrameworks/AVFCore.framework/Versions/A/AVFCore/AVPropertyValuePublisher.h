@@ -6,13 +6,11 @@
 
 #import <AVFCore/AVPublisher.h>
 
-@class NSObject, NSString;
+@class NSObject;
 
 @interface AVPropertyValuePublisher : AVPublisher
 {
     NSObject *_object;
-    NSString *_key;
-    NSString *_notificationName;
 }
 
 + (id);

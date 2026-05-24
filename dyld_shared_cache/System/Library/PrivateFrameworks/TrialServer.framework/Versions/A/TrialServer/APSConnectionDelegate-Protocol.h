@@ -7,8 +7,9 @@
 @protocol APSConnectionDelegate
 
 @optional
-- (void)aceDescriptorSets;
-- (void)RITaskQueueControlling;
+- (void);
+- (void)parentDirForNamespaceDescriptorSets;
+- (void)TRITaskQueueControlling;
 - (void)ÈÀ;
 @end
 

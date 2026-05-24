@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MRHitBlob;
+
 @protocol MRMarimbaHitBlobSupport
+- (_Bool)componentsSeparatedByString:(MRHitBlob *)arg1;
+- (void);
+- (void)publisherLogoImageCache;
 @end
 

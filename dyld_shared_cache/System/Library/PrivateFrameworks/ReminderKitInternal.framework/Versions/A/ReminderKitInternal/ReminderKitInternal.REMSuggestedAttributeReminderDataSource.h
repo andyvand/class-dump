@@ -7,17 +7,6 @@
 @interface ReminderKitInternal.REMSuggestedAttributeReminderDataSource
 {
     id title;
-    id reminderIdentifier;
-    id creationDate;
-    id list;
-    id listName;
-    id dueDayOfWeek;
-    id location;
-    id flagged;
-    id priority;
-    id tags;
-    id contact;
-    id recurrences;
 }
 
 @end

@@ -6,29 +6,15 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSString, PXStoryModel, _PXStoryPacingControllerChangeOrigin, _PXStoryPacingControllerDecisionHistory;
-@protocol PXStoryPacingCueSource, PXStoryPacingTimeSource;
-
 @interface PXStoryPacingController : PXStoryController
 {
     _Bool _isActive;
-    _Bool _canChangePlaybackTime;
-    PXStoryModel *_model;
-    id <PXStoryPacingTimeSource> _timeSource;
-    id <PXStoryPacingCueSource> _cueSource;
-    NSString *_reasonPreventingPlaybackTimeChange;
-    _PXStoryPacingControllerChangeOrigin *_modelChangeOrigin;
-    NSString *_targetEndUpdateReason;
-    _PXStoryPacingControllerDecisionHistory *_pacingDecisionHistory;
-    long long _timelineVersion;
-    CDStruct_1b6d18a9 _targetEndTime;
-    CDStruct_12f93e2f _currentPacingDecision;
 }
 
 - (void);
 - (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (void);
 - (void);
 - (void);
@@ -41,15 +27,15 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (CDStruct_2dd41ccf);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (CDStruct_12f93e2f);
-- (id);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -57,24 +43,13 @@
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)setDirection: /* Error: Ran out of types for this method. */;
 - (id)ler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void):(_Bool)arg1;
 
 // Remaining properties
 @property(nonatomic) _Bool canChangePlaybackTime; // @synthesize canChangePlaybackTime=_canChangePlaybackTime;
-@property(readonly, nonatomic) __weak id <PXStoryPacingCueSource> cueSource; // @synthesize cueSource=_cueSource;
-@property(readonly, nonatomic) CDStruct_12f93e2f currentPacingDecision; // @synthesize currentPacingDecision=_currentPacingDecision;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) __weak PXStoryModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) _PXStoryPacingControllerChangeOrigin *modelChangeOrigin; // @synthesize modelChangeOrigin=_modelChangeOrigin;
-@property(retain, nonatomic) _PXStoryPacingControllerDecisionHistory *pacingDecisionHistory; // @synthesize pacingDecisionHistory=_pacingDecisionHistory;
-@property(retain, nonatomic) NSString *reasonPreventingPlaybackTimeChange; // @synthesize reasonPreventingPlaybackTimeChange=_reasonPreventingPlaybackTimeChange;
-@property(nonatomic) CDStruct_1b6d18a9 targetEndTime; // @synthesize targetEndTime=_targetEndTime;
-@property(retain, nonatomic) NSString *targetEndUpdateReason; // @synthesize targetEndUpdateReason=_targetEndUpdateReason;
-@property(readonly, nonatomic) id <PXStoryPacingTimeSource> timeSource; // @synthesize timeSource=_timeSource;
-@property(nonatomic) long long timelineVersion; // @synthesize timelineVersion=_timelineVersion;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AppStoreKit.AdsService
 {
     id advertPipelineProxy;
-    id onDeviceAdProvider;
 }
 
 @end

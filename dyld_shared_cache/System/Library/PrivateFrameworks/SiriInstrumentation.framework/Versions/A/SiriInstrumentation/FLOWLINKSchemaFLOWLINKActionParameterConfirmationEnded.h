@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWLINKSchemaFLOWLINKActionParameterConfirmationEnded : SISchemaInstrumentationMessage
 {
     _Bool _isCorrectParameter;
-    struct {
-        unsigned int isCorrectParameter:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)a;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ectionContext";
-- (id)hemaTTSSpeechFailed;
+- (id)TTSSchemaTTSSpeechFailed;
 - (id)Ì,;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsCorrectParameter;
 @property(nonatomic) _Bool isCorrectParameter; // @synthesize isCorrectParameter=_isCorrectParameter;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

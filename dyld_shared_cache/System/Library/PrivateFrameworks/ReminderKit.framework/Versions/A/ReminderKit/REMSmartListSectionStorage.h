@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ationOptions";
 
 // Remaining properties
 @property(retain, nonatomic) REMObjectID *smartListID;

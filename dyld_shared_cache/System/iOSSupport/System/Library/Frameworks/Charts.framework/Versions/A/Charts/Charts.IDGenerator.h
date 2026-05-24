@@ -8,7 +8,6 @@
 {
     id storage;
     id usedIDs;
-    id currentContext;
 }
 
 @end

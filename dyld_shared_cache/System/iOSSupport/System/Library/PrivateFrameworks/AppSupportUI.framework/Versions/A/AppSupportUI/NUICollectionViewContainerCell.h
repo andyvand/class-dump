@@ -15,8 +15,8 @@
 + (Class);
 - (void);
 - (struct CGSize);
-- (id);
-- (struct CGSize);
+- (id)$;
+- (struct CGSize)voiceFamily;
 - (void);
 - (id);
 

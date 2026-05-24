@@ -4,32 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, NSMutableArray, NSMutableDictionary, NSNumberFormatter, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MKScaleUnitsView
 {
     _Bool _useLightText;
-    double _segmentLengthInPixels;
-    double _unitsWidth;
-    double _justUnitsWidth;
-    NSDictionary *_legendAttributes;
-    NSMutableArray *_strings;
-    NSString *_legendBaseString;
-    NSString *_unitsString;
-    NSString *_unpaddedUnitsString;
-    NSMapTable *_legendStringWidthCache;
-    NSMutableDictionary *_legendStringForDistanceStringCache;
-    NSNumberFormatter *_floatNumberFormatter;
-    NSString *_zeroUnitsString;
-    _Bool _RTL;
-    double _fontSize;
-    double _legendMarginLeft;
 }
 
 - (_Bool);
 - (id);
-- (double);
+- (double)*;
 - (id);
 - (void);
 - (void);
@@ -48,27 +31,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (double);
 - (_Bool);
-- (void);
+- (void)/swift/libswiftUIKit.dylib;
 - (void)ù
 × ;
 - (void)initWithExtensionProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isRTL) _Bool RTL; // @synthesize RTL=_RTL;
-@property(retain, nonatomic) NSNumberFormatter *floatNumberFormatter; // @synthesize floatNumberFormatter=_floatNumberFormatter;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(retain, nonatomic) NSString *legendBaseString; // @synthesize legendBaseString=_legendBaseString;
-@property(nonatomic) double legendMarginLeft; // @synthesize legendMarginLeft=_legendMarginLeft;
-@property(nonatomic) double segmentLengthInPixels; // @dynamic segmentLengthInPixels;
-@property(retain, nonatomic) NSString *unitsString; // @synthesize unitsString=_unitsString;
-@property(readonly, nonatomic) double unitsWidth; // @synthesize unitsWidth=_unitsWidth;
-@property(copy, nonatomic) NSString *unpaddedUnitsString; // @synthesize unpaddedUnitsString=_unpaddedUnitsString;
-@property(nonatomic) _Bool useLightText; // @dynamic useLightText;
-@property(readonly, nonatomic) NSString *zeroUnitsString; // @synthesize zeroUnitsString=_zeroUnitsString;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface OSLogEntry
 {
     NSString *_composedMessage;
-    NSDate *_date;
-    long long _storeCategory;
 }
 
 + (_Bool);
@@ -18,15 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *composedMessage; // @synthesize composedMessage=_composedMessage;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) long long storeCategory; // @synthesize storeCategory=_storeCategory;
 
 @end
 

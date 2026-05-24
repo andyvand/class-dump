@@ -9,7 +9,6 @@
 @interface FCContentColorPair
 {
     FCColor *_lightColor;
-    FCColor *_darkColor;
 }
 
 + (id)nBaseEventConditions";
@@ -19,7 +18,6 @@
 - (void)troller commandQueueUrgency];
 
 // Remaining properties
-@property(readonly, copy, nonatomic) FCColor *darkColor; // @synthesize darkColor=_darkColor;
 @property(readonly, copy, nonatomic) FCColor *lightColor; // @synthesize lightColor=_lightColor;
 
 @end

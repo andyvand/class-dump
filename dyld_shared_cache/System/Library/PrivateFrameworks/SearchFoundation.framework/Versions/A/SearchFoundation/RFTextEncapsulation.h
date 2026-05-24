@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface RFTextEncapsulation
 {
     struct {
         unsigned int style:1;
     } _has;
-    int _style;
 }
 
 + (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)newCommandEventWithCommandType:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)unfilteredAssetSearchResults;
+- (id)|| type == %d;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

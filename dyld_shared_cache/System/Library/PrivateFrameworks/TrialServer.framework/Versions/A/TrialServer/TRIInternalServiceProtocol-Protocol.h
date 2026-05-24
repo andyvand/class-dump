@@ -4,6 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDate, NSString, TRIClientRolloutArtifact, TRITaskQueuingOptions;
+@protocol TRITask;
+
 @protocol TRIInternalServiceProtocol
+- (_Bool)4@0:(NSString *)arg1 8#16;
+- (NSArray *)2@0:(id *)arg1 8@16@?24;
+- (_Bool)24@32;
+- (NSArray *)Array";
+- (_Bool)6;
+- (_Bool)@16^q24;
+- (_Bool)writeReassembleAdjustmentsPropertyListAtURL:(NSArray *)arg1 toURL:(NSString *)arg2 error:(id *)arg3;
+- (_Bool)widgetZoneAdjustmentForVisibleFrame:(NSDate *)arg1 essentialRect:(int)arg2 layoutConfiguration:(NSString *)arg3;
+- (_Bool)warmColor;
+- (TRIClientRolloutArtifact *)videoCompositionWithAsset:(NSString *)arg1 applyingCIFiltersWithHandler:(int)arg2;
+- (_Bool)videoCodecFourCharCodeNumberForAVAsset:(id *)arg1;
+- (_Bool)videoChannels;
+- (_Bool)verifiedImageValue:(id *)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)unsafeAreaOverlap;
+- (NSDate *)stringByDisplayAssetCategory;
+- (_Bool)setTimeZoneLookup:(id *)arg1;
+- (NSArray *)setPrivateClientMetadata:(NSString *)arg1;
+- (NSArray *)setNormalizedVerticalOffset:(id *)arg1;
+- (_Bool)setNeedsCurrentEncodingBitRateUpdate:(NSString *)arg1;
+- (_Bool)serializedDataFromCameraClientMetadata:(id <TRITask>)arg1 error:(TRITaskQueuingOptions *)arg2;
+- (NSArray *)semanticStyleWarmthBias;
 @end
 

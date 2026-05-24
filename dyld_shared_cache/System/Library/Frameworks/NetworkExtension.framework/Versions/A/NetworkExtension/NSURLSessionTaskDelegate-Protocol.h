@@ -9,6 +9,9 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)@;
+- (void);
+- (void)";
 - (void)Ô ;
 - (void)ugin type;
 - (void)%vök¤$f:(NSURLSession *)arg1 «cZäõh4#´t+ñÉx#Ëãe-ãý¸¾üÙ"".¤|ëW¨#ðÇ4südlê0kKËÈ/ÝúK¢Àèyh3í[Ý:(NSURLSessionTask *)arg2 +<õ³¢x¦m*ø?Dø-ß1àt«j6Eè %]ÁdóÅFù«H]í~¡±Õ½~çMsúókÃÏ¢h5Fôë@	CHl×;

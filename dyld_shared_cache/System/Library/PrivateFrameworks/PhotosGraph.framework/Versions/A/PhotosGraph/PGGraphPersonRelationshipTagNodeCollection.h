@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class PGGraphPersonNodeCollection, PGGraphRelationshipTagEdgeCollection;
+@class PGGraphPersonNodeCollection;
 
 @interface PGGraphPersonRelationshipTagNodeCollection : PGGraphNodeCollection
 {
@@ -15,12 +15,11 @@
 + (id);
 + (Class);
 - (id);
-- (id);
-- (id);
+- (id)setPredicateMap:(double)arg1;
+- (id)setIsLastLineNewLine: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) PGGraphRelationshipTagEdgeCollection *relationshipTagEdges;
 
 @end
 

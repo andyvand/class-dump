@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSContactGroundTruthSourceSummary : SISchemaInstrumentationMessage
 {
     int _source;
-    unsigned long long _count;
-    struct {
-        unsigned int source:1;
-        unsigned int count:1;
-    } _has;
 }
 
 - (void);
@@ -23,26 +16,22 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)provided to %s;
 - (void);
 - (id);
 - (int);
 - (id);
-- (id)asSelectedUserEphemeralId;
+- (id)_hasSelectedUserEphemeralId;
 - (id)alogEngineId;
 - (void)@"FLOWLINKSchemaFLOWLINKActionExecutionStarted",&,N,V_startedOrChanged;
 - (unsigned long long)ystemLanguage;
 - (_Bool)nt;
-- (void)SRENTITYENROLLMENTRESULT_UNKNOWN;
+- (void)ASRENTITYENROLLMENTRESULT_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) _Bool hasCount;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int source; // @synthesize source=_source;
 
 @end

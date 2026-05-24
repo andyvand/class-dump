@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMutableSettings, NSDictionary, NSSet, NSString, UIColor, UIMutableTransformer, UISceneAsynchronousRenderingOptions, UISceneWindowLayerPresentationContext, UITransformer;
+@class BSMutableSettings;
 
 @interface UIScenePresentationContext
 {
     BSMutableSettings *_settings;
-    UIScenePresentationContext *_defaultPresentationContext;
-    UIMutableTransformer *_transformer;
 }
 
 - (_Bool);
 - (id);
+- (id)@0:8@16@24@32@40@48@56@64@72@80@88@96@104@112@120@128@136@144@152@160@168@176@184@192 /* Error: Ran out of types for this method. */;
+- (_Bool)P;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (unsigned long long)relatedMPModelClass;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)c;
 - (_Bool);
 - (id)
 × ;
@@ -39,53 +37,24 @@
 - (id)0@ù
 × ;
 - (id){?=ddddd}16;
-- (_Bool)eptAutocorrection;
-- (id)omptsAndBanners: /* Error: Ran out of types for this method. */;
-- (_Bool)hBlock:(id)arg1;
-- (_Bool)cludedFromWindowsMenu;
-- (id)itSidebarIconSize;
-- (id)nCoordinator: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ngedForSearchField: /* Error: Ran out of types for this method. */;
-- (id)isSecondaryColumnCompactInTotalWidth:withPrimaryColumnWidth:supplementaryColumnWidth: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ngFirstResponder;
-- (id)iousState: /* Error: Ran out of types for this method. */;
+- (_Bool)shouldAcceptAutocorrection;
+- (id)setShowsUserConfirmationPromptsAndBanners: /* Error: Ran out of types for this method. */;
+- (_Bool)observeCatalystHostWindowFrameWithBlock:(id)arg1;
+- (_Bool)excludedFromWindowsMenu;
+- (id)appKitSidebarIconSize;
+- (id)_window:willTransitionToTraitCollection:withTransitionCoordinator: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_selectionChangedForSearchField: /* Error: Ran out of types for this method. */;
+- (id)_isSecondaryColumnCompactInTotalWidth:withPrimaryColumnWidth:supplementaryColumnWidth: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_delegateShouldScrollToVisibleWhenBecomingFirstResponder;
+- (id)_beginCurlWithState:previousState: /* Error: Ran out of types for this method. */;
 - (id)uStyle;
-- (id)Constraint;
+- (id)_bottomAvailableSpaceConstraint;
 - (id)è;
 - (id)ring"8@"NSString"16@"UIImage"24@"NSString"32;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIScenePresentationContext *_defaultPresentationContext; // @synthesize _defaultPresentationContext;
-@property(readonly, copy, nonatomic) NSSet *_exclusiveLayerTargetsToInclude;
-@property(readonly, nonatomic) _Bool _forwardsKeyboardLayersToHost;
-@property(readonly, copy, nonatomic) NSSet *_layerTargetsToExclude;
-@property(readonly, copy, nonatomic) NSString *_minificationFilterName;
-@property(readonly, nonatomic, getter=_isVisibilityPropagationEnabled) _Bool _visibilityPropagationEnabled;
-@property(readonly, nonatomic) unsigned long long appearanceStyle;
-@property(readonly, copy, nonatomic) UISceneAsynchronousRenderingOptions *asynchronousRenderingOptions;
-@property(readonly, copy, nonatomic) UIColor *backgroundColorWhileHosting;
-@property(readonly, copy, nonatomic) UIColor *backgroundColorWhileNotHosting;
-@property(readonly, nonatomic, getter=isClippingDisabled) _Bool clippingDisabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) UITransformer *hostTransformer;
-@property(readonly, nonatomic) _Bool inheritsSecurity;
-@property(readonly, copy, nonatomic) NSDictionary *layerPresentationOverrides;
-@property(readonly, nonatomic) unsigned long long presentedLayerTypes;
-@property(readonly, nonatomic) unsigned long long renderingMode;
-@property(readonly, nonatomic) _Bool resizesHostedContext;
-@property(readonly, nonatomic) _Bool shouldPassthroughHitTestEventsIfTransparent;
-@property(readonly, nonatomic) _Bool shouldSupportFlattening;
-@property(readonly, nonatomic) _Bool stopsHitTestTransformAccumulation;
-@property(readonly, nonatomic) _Bool stopsSecureSuperlayersValidation;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) UISceneWindowLayerPresentationContext *windowLayerPresentationContext;
-@property(readonly, nonatomic) _Bool zombifiesHostedContext;
 
 @end
 

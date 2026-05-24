@@ -7,14 +7,12 @@
 @class NSString, _INPBIntentMetadata;
 
 @protocol _INPBEditMessageIntent
-- (_Bool)ddSentAnnouncements: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *), error:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)user;
+- (void)c;
+- (_Bool)addSentAnnouncements: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *editedContent;
-@property(readonly, nonatomic) _Bool hasEditedContent;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMessageIdentifier;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSString *messageIdentifier;
 @end
 

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSUUID;
+@class NSUUID;
 
 @interface MNRealtimeUpdate
 {
     NSUUID *_routeID;
-    NSDate *_lastUpdated;
-    NSError *_error;
 }
 
 + (_Bool);
+- (id)h38A;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)@"NSProgressIndicator",W,N,V_loadingProgress;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
 @property(readonly, nonatomic) NSUUID *routeID; // @synthesize routeID=_routeID;
 
 @end

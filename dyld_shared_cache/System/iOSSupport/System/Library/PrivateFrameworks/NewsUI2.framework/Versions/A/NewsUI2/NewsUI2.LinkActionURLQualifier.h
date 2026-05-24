@@ -8,9 +8,12 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)annelDescriptionFromDriverGroup kIOReportDriverIDKey invalid value 
+;
+- (_Bool)erializeWithIOReporterFormatter:(id)arg1:storeChannelDescriptionFromDriverGroup kIOReportDriverIDKey invalid value 
+ /* Error: Ran out of types for this method. */;
+- (_Bool)OSSerializeWithIOReporterFormatter:(id)arg1:storeChannelDescriptionFromDriverGroup %s expected obj is%s NULL, with type %ld, but has type %ld
+ /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

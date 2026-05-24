@@ -10,12 +10,6 @@
 @interface CSMyriadPHash
 {
     float *_hammingWindow;
-    struct OpaqueFFTSetup *_setup;
-    float *_snrWindow;
-    struct OpaqueFFTSetup *_snrSetup;
-    unsigned char _signalFractional;
-    short _signalEstimate;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (_Bool);
@@ -37,7 +31,7 @@
 - (unsigned char);
 - (unsigned char);
 - (void);
-- (void);
+- (void);
 - (unsigned short);
 - (id);
 - (id);
@@ -50,16 +44,14 @@
 - (void);
 - (void);
 - (id);
+- (id)updateBirthdayVisiblePreferenceFromVersion: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)initWithTargetedCMSampleBuffer:(id)arg1 orientation:options: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void)eVoiceTriggerOnAlwaysOnProcessorWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)disableVoiceTriggerOnAlwaysOnProcessorWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) short signalEstimate; // @synthesize signalEstimate=_signalEstimate;
-@property(nonatomic) unsigned char signalFractional; // @synthesize signalFractional=_signalFractional;
 
 @end
 

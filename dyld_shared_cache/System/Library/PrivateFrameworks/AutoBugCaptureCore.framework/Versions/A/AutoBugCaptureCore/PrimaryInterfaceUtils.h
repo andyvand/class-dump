@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface PrimaryInterfaceUtils
 {
     _Bool _hasPrimaryInterface;
-    NSDate *_interfaceBecamePrimaryDate;
-    NSDate *_estimatedInterfaceBecamePrimaryDate;
-    long long _primaryInterfaceType;
 }
 
 + (id);
 - (void);
 - (id);
+- (id)B;
+- (id)funcIZ92-[AFBBufferBuilder(_CHSWidgetRelevanceBuf) _chsCreateVectorOfWidgetRelevanceBufWithOffsets:]E3$_3FN5apple4aiml12flatbuffers26OffsetIvEEmEEE /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (long long);
-- (void);
+- (long long)drawContentsForImageWithOuterFrame:innerFrame: /* Error: Ran out of types for this method. */;
+- (void)_categoryButtonCell;
 - (_Bool);
 - (void);
-- (void);
+- (void)CoreUtilsVerifySignatureForSameAccount(const void *, size_t, const uint8_t *);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *estimatedInterfaceBecamePrimaryDate; // @synthesize estimatedInterfaceBecamePrimaryDate=_estimatedInterfaceBecamePrimaryDate;
 @property(readonly, nonatomic) _Bool hasPrimaryInterface; // @synthesize hasPrimaryInterface=_hasPrimaryInterface;
-@property(readonly, nonatomic) NSDate *interfaceBecamePrimaryDate; // @synthesize interfaceBecamePrimaryDate=_interfaceBecamePrimaryDate;
-@property(readonly, nonatomic) long long primaryInterfaceType; // @synthesize primaryInterfaceType=_primaryInterfaceType;
-@property(readonly, nonatomic) NSString *primaryInterfaceTypeString; // @dynamic primaryInterfaceTypeString;
 
 @end
 

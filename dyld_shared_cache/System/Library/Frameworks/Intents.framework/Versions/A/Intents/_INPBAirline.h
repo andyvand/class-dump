@@ -9,9 +9,6 @@
 @interface _INPBAirline
 {
     struct _has;
-    NSString *_iataCode;
-    NSString *_icaoCode;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -21,33 +18,21 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)mer";
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (_Bool)submitWiFiDiagnosticReportType:(id)arg1 reason:subtypeContext: /* Error: Ran out of types for this method. */;
+- (void)-pending XPC request (name=%{public}@, uuid=%{public}@), creating dependency to force serialization;
 - (id);
-- (id);
-- (void)pes:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setPayloadNotebookItemTypes:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIataCode;
-@property(readonly, nonatomic) _Bool hasIcaoCode;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *iataCode; // @synthesize iataCode=_iataCode;
-@property(copy, nonatomic) NSString *icaoCode; // @synthesize icaoCode=_icaoCode;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

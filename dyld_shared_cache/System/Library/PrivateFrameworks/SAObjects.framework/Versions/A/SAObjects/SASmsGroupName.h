@@ -13,17 +13,17 @@
 }
 
 + (id);
-+ (id);
++ (id)e %s, Flags %#{flags}, OurAddr %@, OurMAC %@
+;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)ier;
+- (void)externalIdentifier;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *groupName;
-@property(copy, nonatomic) NSString *groupNameId;
 
 @end
 

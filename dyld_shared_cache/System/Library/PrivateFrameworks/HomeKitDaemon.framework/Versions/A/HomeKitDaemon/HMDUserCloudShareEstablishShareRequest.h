@@ -6,33 +6,25 @@
 
 #import <HomeKitDaemon/HMDUserCloudShareRequest.h>
 
-@class HMDUser, NSData;
+@class HMDUser;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserCloudShareEstablishShareRequest : HMDUserCloudShareRequest
 {
     HMDUser *_fromUser;
-    HMDUser *_toUser;
-    NSData *_encodedShareURL;
-    NSData *_shareToken;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
-- (id);
+- (id)navigationListener:(id)arg1 didUpdateNoCellCoverage:(id)arg2;
 - (id);
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void)tion;
+- (void)HMDSiriEndpointProfileAddedNotification;
 
 // Remaining properties
-@property(readonly, copy) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly) NSData *encodedShareURL; // @synthesize encodedShareURL=_encodedShareURL;
 @property(readonly) __weak HMDUser *fromUser; // @synthesize fromUser=_fromUser;
-@property(readonly) NSData *shareToken; // @synthesize shareToken=_shareToken;
-@property(readonly) __weak HMDUser *toUser; // @synthesize toUser=_toUser;
 
 @end
 

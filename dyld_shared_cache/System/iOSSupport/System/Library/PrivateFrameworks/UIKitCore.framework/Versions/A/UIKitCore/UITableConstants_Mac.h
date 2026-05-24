@@ -12,34 +12,34 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)ng",C,N,V_headerTitle;
-- (id);
-- (int);
-- (_Bool);
-- (id);
-- (struct _UITableConstantsBackgroundProperties);
+- (id)_messageItemWithIndexesDeleted:subRangesToDeleteMapping:deleteSubject:deleteTransferCallback:createItemCallback:fromMessageItem: /* Error: Ran out of types for this method. */;
+- (int)_messageItemEditTypeForBlastdoorEditType:(_Bool)arg1;
+- (_Bool)_itemsWithHandles:(long long)arg1 onServices:(_Bool)arg2 messageGUID:threadIdentifier:limit:onlyMessages: /* Error: Ran out of types for this method. */;
+- (id)g to locate block for local message of type %@ ;
+- (struct _UITableConstantsBackgroundProperties)ng dl push:(long long)arg1 %@;
+- (double)mmand that is not FTCommandIDJunkChat, bail:(id)arg1 %ld;
+- (double)that is not BlastDoorTranslationCommand, bail:(id)arg1 %@;
+- (double)essages block:(id)arg1 blastdoor returned a result that is not BlastDoorTranslationCommand, bail:%@ /* Error: Ran out of types for this method. */;
+- (id)tion handling message send failure push:(id)arg1 %@;
+- (id)ages.SMSReceivedRelayDownloadRequest;
+- (struct UIEdgeInsets)an't find selector %@ in handler:(id)arg1 %@;
+- (double)incoming reachability request for unknown service name %@;
 - (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (double);
-- (double);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (Class);
-- (id);
-- (struct UIEdgeInsets);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (void);
+- (id)ssage GUID;
+- (id)send of %@ by %d seconds;
+- (struct UIEdgeInsets)Processing %@ after replicated message release;
+- (Class)ing release of replicated message %@;
+- (id)plication account with possible numbers %@;
+- (struct UIEdgeInsets)uld not find message part matching file transfer GUID, using 0 as the message part index.;
+- (double)@;
+- (double)packet to ID:(long long)arg1 %@;
+- (double)@;
+- (double)%@;
+- (id)ring location group chat %@;
+- (void)Chat %@ needs to be merged / un-merged & updated in spotlight;
 - (struct _UITableConstantsMacSidebarAppearance);
 - (double);
-- (struct _UITableConstantsBackgroundProperties)nIdentifier;
+- (struct _UITableConstantsBackgroundProperties)destinationIdentifier;
 
 @end
 

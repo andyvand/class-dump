@@ -5,11 +5,10 @@
 //
 
 @interface UnknownClass (EditingSPIHack)
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, getter=isEditing) _Bool editing; // @dynamic editing;
 @property(nonatomic, getter=mt_isEditing, setter=mt_setEditing:) _Bool mt_editing;
 @end
 

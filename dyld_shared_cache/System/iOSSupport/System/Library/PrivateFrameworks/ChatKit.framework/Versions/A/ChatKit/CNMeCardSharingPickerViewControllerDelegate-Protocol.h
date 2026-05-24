@@ -5,5 +5,6 @@
 //
 
 @protocol CNMeCardSharingPickerViewControllerDelegate
+- (void)edObjectContext"16@?<v@?B>24;
 @end
 

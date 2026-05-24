@@ -6,14 +6,11 @@
 
 #import <Suggestions/SGTSuggestion.h>
 
-@class NSColor, NSImage, NSUUID;
+@class NSColor;
 
 @interface SGTFileLabelSuggestion : SGTSuggestion
 {
     NSColor *labelColor;
-    NSImage *swatchImage;
-    long long label;
-    _Bool isFinderLabel;
 }
 
 + (id);
@@ -27,18 +24,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
+- (long long)@;
 - (long long);
-- (long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SCursor",&,V_annotationCursor;
 
 // Remaining properties
-@property(readonly) long long label;
 @property(readonly) NSColor *labelColor; // @synthesize labelColor;
-@property(readonly) NSUUID *labelUUID;
 
 @end
 

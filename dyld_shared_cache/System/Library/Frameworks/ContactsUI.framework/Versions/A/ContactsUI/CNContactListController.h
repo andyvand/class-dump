@@ -4,37 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroup, ABPersonEntriesList, CNContactListCellView, CNContactListHelperFactory, CNContactListView, CNContactStore, NSArray, NSDictionary, NSString;
-@protocol CNContactListControllerDelegate;
+@class ABPersonEntriesList;
 
 @interface CNContactListController
 {
     _Bool _allowsNamePicking;
-    _Bool _groupListVisible;
-    _Bool _contactCardVisible;
-    _Bool _shouldUnifyPeople;
-    ABAccount *_account;
-    ABAddressBook *_addressBook;
-    ABAddressBook *_suggestionAddressBook;
-    ABGroup *_displayedGroup;
-    NSDictionary *_cachedFetchedEntriesByUID;
-    NSArray *_displayedKeys;
-    CNContactListView *_contactListView;
-    CNContactStore *_contactStore;
-    CNContactListHelperFactory *_helperFactory;
-    id <CNContactListControllerDelegate> _delegate;
-    ABPersonEntriesList *_personEntriesList;
-    CNContactListCellView *_cellView;
-    unsigned long long _selectionStyle;
-    unsigned long long _selectionLimit;
-    unsigned long long _countOfContactsSelected;
-    NSArray *_selectedEntries;
 }
 
 - (id);
+- (void)H;
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -44,25 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)6)@9;
 - (void);
 - (void);
 - (void);
@@ -76,6 +38,24 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -86,7 +66,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)9t;
 - (_Bool);
 - (id);
 - (id);
@@ -117,7 +97,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -133,12 +113,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (id)getkCTFontContentSizeCategoryL(void);
+- (void)QMInterface24registerForNotificationsEbbbbbbbbE3$_0FvbEEE;
+- (void)+;
+- (unsigned long long)As;
 - (id);
 - (void);
 - (id);
@@ -150,39 +130,7 @@
 - (id)¤MùÿÞêG Mùÿ=ÞêG(¨ûÿ;
 
 // Remaining properties
-@property(retain) ABAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(nonatomic) _Bool allowsNamePicking; // @synthesize allowsNamePicking=_allowsNamePicking;
-@property(copy, nonatomic) NSDictionary *cachedFetchedEntriesByUID; // @synthesize cachedFetchedEntriesByUID=_cachedFetchedEntriesByUID;
-@property(retain, nonatomic) CNContactListCellView *cellView; // @synthesize cellView=_cellView;
-@property(nonatomic, getter=isContactCardVisible) _Bool contactCardVisible; // @synthesize contactCardVisible=_contactCardVisible;
-@property(retain, nonatomic) CNContactListView *contactListView; // @synthesize contactListView=_contactListView;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) unsigned long long countOfContactsExpanded;
-@property(nonatomic) unsigned long long countOfContactsSelected; // @synthesize countOfContactsSelected=_countOfContactsSelected;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CNContactListControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) ABGroup *displayedGroup; // @synthesize displayedGroup=_displayedGroup;
-@property(copy, nonatomic) NSArray *displayedKeys; // @synthesize displayedKeys=_displayedKeys;
-@property(readonly) NSArray *entries;
-@property(copy, nonatomic) NSString *filterTerms;
-@property(nonatomic, getter=isGroupListVisible) _Bool groupListVisible; // @synthesize groupListVisible=_groupListVisible;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNContactListHelperFactory *helperFactory; // @synthesize helperFactory=_helperFactory;
-@property(readonly, nonatomic) NSArray *identifiersOfSelectedContacts;
-@property(readonly) NSArray *personEntries;
 @property(retain, nonatomic) ABPersonEntriesList *personEntriesList; // @synthesize personEntriesList=_personEntriesList;
-@property(retain, nonatomic) NSArray *selectedEntries; // @synthesize selectedEntries=_selectedEntries;
-@property(nonatomic) unsigned long long selectionLimit; // @synthesize selectionLimit=_selectionLimit;
-@property(nonatomic) unsigned long long selectionStyle; // @synthesize selectionStyle=_selectionStyle;
-@property(readonly) _Bool shouldIncludeGroups;
-@property(nonatomic) _Bool shouldUnifyPeople; // @synthesize shouldUnifyPeople=_shouldUnifyPeople;
-@property(retain, nonatomic) ABAddressBook *suggestionAddressBook; // @synthesize suggestionAddressBook=_suggestionAddressBook;
-@property(readonly) Class superclass;
 
 @end
 

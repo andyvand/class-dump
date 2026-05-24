@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAnimatedImage, CKAttachmentItem, NSArray, NSObject, NSString, UIImage, UIImageView, UITapGestureRecognizer;
-@protocol CKAttachmentCellDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CKAttachmentCell
 {
     _Bool _editing;
-    _Bool _isIrisAsset;
-    _Bool _userExplicitlyUnpausedAnimation;
-    UIImage *_image;
-    CKAnimatedImage *_animatedImage;
-    UIImageView *_checkmarkView;
-    NSObject<CKAttachmentCellDelegate> *_delegate;
-    CKAttachmentItem *_representedObject;
-    NSArray *_frames;
-    UITapGestureRecognizer *_tapRecognizer;
-    UIImageView *_irisBadgeView;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)oot record or no accountID when accepting share:(id)arg1 %@;
+- (_Bool)in password for locked notes.;
+- (id)y authenticating;
 - (void);
 - (_Bool);
 - (struct CGImage *);
@@ -66,25 +55,7 @@ __attribute__((visibility("hidden")))
 - (void)xö2;
 
 // Remaining properties
-@property(retain, nonatomic) CKAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;
-@property(retain, nonatomic) UIImageView *checkmarkView; // @synthesize checkmarkView=_checkmarkView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<CKAttachmentCellDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
 @property(copy, nonatomic) NSArray *frames; // @synthesize frames=_frames;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *iconImage;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIImageView *irisBadgeView; // @synthesize irisBadgeView=_irisBadgeView;
-@property(nonatomic) _Bool isIrisAsset; // @synthesize isIrisAsset=_isIrisAsset;
-@property(retain, nonatomic) CKAttachmentItem *representedObject; // @synthesize representedObject=_representedObject;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITapGestureRecognizer *tapRecognizer; // @synthesize tapRecognizer=_tapRecognizer;
-@property(nonatomic) _Bool userExplicitlyUnpausedAnimation; // @synthesize userExplicitlyUnpausedAnimation=_userExplicitlyUnpausedAnimation;
 
 @end
 

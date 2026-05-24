@@ -9,6 +9,7 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (void)WFMontaraEnablementHelperC8ObserverP;
 - (_Bool)uePairTraits, KeyTraits = WTF:(UIPresentationController *)arg1:HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionWindowIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (long long)ayerHostingContextIdentifierType, WTF:(UIPresentationController *)arg1:(UITraitCollection *)arg2 ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>];
 - (void)uateJavaScriptFunction' can't be processed;

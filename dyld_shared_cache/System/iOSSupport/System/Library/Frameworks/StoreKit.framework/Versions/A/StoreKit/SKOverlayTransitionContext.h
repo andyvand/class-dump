@@ -11,18 +11,16 @@
     ASOOverlayTransitionContext *_backing;
 }
 
-- (id);
-- (void);
+- (id)load for all assets, removed ;
+- (void)lock.;
 - (void);
 - (struct CGRect);
-- (id);
+- (id)todayPerformanceAlertPrewarmThreshold;
 - (void);
 - (struct CGRect)`l;
 
 // Remaining properties
 @property(retain, nonatomic) ASOOverlayTransitionContext *backing; // @synthesize backing=_backing;
-@property(readonly, nonatomic) struct CGRect endFrame;
-@property(readonly, nonatomic) struct CGRect startFrame;
 
 @end
 

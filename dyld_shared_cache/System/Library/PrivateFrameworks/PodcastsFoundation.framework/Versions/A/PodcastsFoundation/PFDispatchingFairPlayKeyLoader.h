@@ -7,7 +7,6 @@
 @interface PFDispatchingFairPlayKeyLoader
 {
     id wrappedInstance;
-    id responseQueue;
 }
 
 + (id);
@@ -15,8 +14,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void)ransactionCGAHGADy_ôUy_¥Uy_æ#USo17OS_dispatch_queueCGASGAMGGÓ$GGAGGAGSgGUyA0_AHGGGAGG;

@@ -5,5 +5,6 @@
 //
 
 @protocol FLDaemonProtocol
+- (void)Rp%;
 @end
 

@@ -7,8 +7,10 @@
 @class CNContactSuggestionsViewController;
 
 @protocol CNContactSuggestionsViewControllerDelegate
+- (void)s.Parent;
 
 @optional
-- (void)etAlwaysShowSNaPOnboarding:(CNContactSuggestionsViewController *)arg1;
+- (_Bool);
+- (void)setAlwaysShowSNaPOnboarding:(CNContactSuggestionsViewController *)arg1;
 @end
 

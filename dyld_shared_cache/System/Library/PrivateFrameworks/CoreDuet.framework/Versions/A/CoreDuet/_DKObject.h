@@ -4,39 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID, _DKSource;
+@class NSUUID;
 
 @interface _DKObject
 {
     NSUUID *_UUID;
-    _DKSource *_source;
-    NSDate *_creationDate;
-    NSDate *_localCreationDate;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)@;
 + (_Bool);
 + (id)_CDPModelTuning"8f16f20f24f28f32^B36;
-- (void);
-- (_Bool);
+- (void)J;
+- (_Bool)R-;
+- (id)h
+;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
-- (double);
-- (void);
+- (double)target_path;
+- (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)netService:(id)arg1 didAcceptConnectionWithInputStream:outputStream: /* Error: Ran out of types for this method. */;
+- (id)t.;
+- (void).4o;
 - (id);
 - (id);
 - (void);
@@ -44,17 +42,7 @@
 - (id)eywordRecords finished executeFetchRequest, fetchLimit %lu object(s), elapsed %f(sec), returned %lu object(s), Predicate:%{sensitive}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain) NSDate *localCreationDate; // @synthesize localCreationDate=_localCreationDate;
-@property(retain) _DKSource *source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface AVAudioMixProcessingEffectScheduledParameterEvent
 {
     NSArray *_parameters;
-    CDStruct_1b6d18a9 _time;
 }
 
 + (id);
@@ -18,8 +17,8 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (CDStruct_1b6d18a9);
+- (id);
+- (CDStruct_1b6d18a9)stringByRemovingPercentEncoding;
 
 @end
 

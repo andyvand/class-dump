@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSLocalMessageTimedOutMetric
 {
     _Bool _isToDefaultPairedDevice;
-    NSString *_service;
-    unsigned long long _messageSize;
-    unsigned long long _linkType;
-    unsigned long long _deliveryError;
-    unsigned long long _RTT;
-    unsigned long long _priority;
 }
 
 - (_Bool);
@@ -30,22 +24,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long RTT; // @synthesize RTT=_RTT;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) unsigned long long deliveryError; // @synthesize deliveryError=_deliveryError;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isToDefaultPairedDevice; // @synthesize isToDefaultPairedDevice=_isToDefaultPairedDevice;
-@property(readonly, nonatomic) unsigned long long linkType; // @synthesize linkType=_linkType;
-@property(readonly, nonatomic) unsigned long long messageSize; // @synthesize messageSize=_messageSize;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
 @property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol CKChatItemControllerDelegate
+- (void);
+- (void)/;
+- (void)@ has pkDrawing %@ with size %lu;
+- (void)ICItemIdentifier;
+- (void)n;
 @end
 

@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXMediaViewControllerEventTracker.h>
 
-@class NSMutableDictionary, NSNumber, NSString, PXPhotosViewModel;
+@class NSNumber, PXPhotosViewModel;
 
 @interface PXPhotosViewEventTracker : PXMediaViewControllerEventTracker
 {
     PXPhotosViewModel *_viewModel;
-    NSNumber *_isInSelectModeValue;
-    double _isInSelectModeValueTimestamp;
 }
 
 + (double);
@@ -29,17 +27,7 @@
 - (id)<;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSNumber *isInSelectModeValue; // @synthesize isInSelectModeValue=_isInSelectModeValue;
-@property(readonly, nonatomic) double isInSelectModeValueTimestamp; // @synthesize isInSelectModeValueTimestamp=_isInSelectModeValueTimestamp;
-@property(copy, nonatomic) NSMutableDictionary *payload;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXPhotosViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

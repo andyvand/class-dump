@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary;
+@class NSDate;
 
 @protocol SFCalendarImage
+- (void)@36@0:(NSDate *)arg1 8B16@20@28;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

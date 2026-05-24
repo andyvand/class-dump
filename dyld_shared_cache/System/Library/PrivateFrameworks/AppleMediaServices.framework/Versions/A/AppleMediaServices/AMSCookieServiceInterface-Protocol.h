@@ -5,5 +5,6 @@
 //
 
 @protocol AMSCookieServiceInterface
+- (void)onFailed;
 @end
 

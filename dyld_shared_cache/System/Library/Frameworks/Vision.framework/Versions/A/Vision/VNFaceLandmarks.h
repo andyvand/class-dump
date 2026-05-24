@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, VNRequestSpecifier;
+@class NSData;
 
 @interface VNFaceLandmarks
 {
     float _confidence;
-    unsigned long long _pointCount;
-    NSData *_pointsData;
-    struct _Geometry2D_rect2D_ _alignedBBox;
-    struct CGRect _userFacingBBox;
-    VNRequestSpecifier *_originatingRequestSpecifier;
 }
 
 + (id);
@@ -23,27 +18,21 @@
 - (id);
 - (_Bool);
 - (id);
-- (struct _Geometry2D_rect2D_);
+- (struct _Geometry2D_rect2D_);
 - (void *);
 - (unsigned long long);
-- (id);
+- (id)consumeUpdates:(id)arg1 deletes: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
-- (float);
+- (float)_fileServices;
 - (void)eedyClusterer::deserializeStatus - failed to load memory map file /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct _Geometry2D_rect2D_ alignedBBox; // @synthesize alignedBBox=_alignedBBox;
-@property(readonly) float confidence; // @synthesize confidence=_confidence;
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier; // @synthesize originatingRequestSpecifier=_originatingRequestSpecifier;
-@property(readonly) unsigned long long pointCount; // @synthesize pointCount=_pointCount;
 @property(readonly, copy) NSData *pointsData; // @synthesize pointsData=_pointsData;
-@property(readonly, nonatomic) unsigned long long requestRevision;
-@property(readonly) struct CGRect userFacingBBox; // @synthesize userFacingBBox=_userFacingBBox;
 
 @end
 

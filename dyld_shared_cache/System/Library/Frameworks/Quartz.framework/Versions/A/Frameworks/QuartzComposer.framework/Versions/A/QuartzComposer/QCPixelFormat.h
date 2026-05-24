@@ -29,16 +29,16 @@
 + (id);
 + (id);
 + (id);
++ (id)T_;
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)__ustring;
 + (id);
 + (id);
 + (id);
@@ -56,7 +56,7 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (double);
@@ -72,7 +72,7 @@
 - (struct CGRect);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)kl;
 - (unsigned long long);
 - (int);
 - (id);

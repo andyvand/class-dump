@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MTLPostVertexDumpOutput
 {
     NSString *_airMDType;
-    unsigned long long _dataType;
-    unsigned long long _pixelFormat;
-    unsigned long long _aluType;
-    NSString *_name;
-    unsigned long long _offset;
 }
 
 - (id);
@@ -23,19 +18,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)D84CDE33;
+- (unsigned long long)SupportsMixableSiriAudio;
 - (unsigned long long)P31MTLMeshRenderPipelineDescriptorE3$_0;
-- (unsigned long long)ponentCount;
+- (unsigned long long)MTLAttributeFormatComponentCount;
 - (id);
 
 // Remaining properties
 @property(readonly) NSString *airMDType; // @synthesize airMDType=_airMDType;
-@property(readonly) unsigned long long aluType; // @synthesize aluType=_aluType;
-@property(readonly) unsigned long long dataType; // @synthesize dataType=_dataType;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end
 

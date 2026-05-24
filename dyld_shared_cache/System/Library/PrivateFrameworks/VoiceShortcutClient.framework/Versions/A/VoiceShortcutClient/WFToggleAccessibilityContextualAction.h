@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)m;
 - (unsigned long long);
 - (id);
 - (void);

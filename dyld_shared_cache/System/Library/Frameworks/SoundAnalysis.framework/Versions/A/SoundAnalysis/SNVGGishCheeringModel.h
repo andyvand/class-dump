@@ -12,18 +12,18 @@
 }
 
 + (void);
-+ (id);
++ (id)pg_query__close_portal_stmt__pack;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)erConnection dropping eventsPrunedWithStreamIdentifier due to nil stream;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)g;
 - (id);
 - (id);
 - (void)H×úÿT×úÿøØúÿ4ÙúÿXÙúÿ¨ÙúÿäÙúÿÚúÿôÚúÿ0ÛúÿTÛúÿÜúÿ0ÜúÿlÜúÿÜúÿÐÜúÿôÜúÿÝúÿTÝúÿxÝúÿXÞúÿlÞúÿÔÞúÿàÞúÿ,ßúÿÄßúÿèßúÿ$àúÿXàúÿ|àúÿ àúÿÜàúÿ;

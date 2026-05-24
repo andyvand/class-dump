@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface AACustodianshipInfo
 {
     NSUUID *_custodianID;
-    long long _status;
-    NSString *_ownerHandle;
 }
 
 + (_Bool);
+- (id)MIG_LaunchParentalControls;
+- (id)MCXLockFileInHomeDir():fsync(%d) = %d (%s) /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)&,N,V_plistToDictionaryMap;
 - (long long);
-- (void)ID:password: /* Error: Ran out of types for this method. */;
+- (void)initWithAppleID:password: /* Error: Ran out of types for this method. */;
 - (id)¿ýh#9/í!RÁ¤ª]ÊÜM±PU)ÌZ½µ¾;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *custodianID; // @synthesize custodianID=_custodianID;
-@property(readonly, nonatomic) NSString *ownerHandle; // @synthesize ownerHandle=_ownerHandle;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

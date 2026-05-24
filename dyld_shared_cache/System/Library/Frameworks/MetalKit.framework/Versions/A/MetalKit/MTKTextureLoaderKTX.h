@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface MTKTextureLoaderKTX : MTKTextureLoaderData
 {
     NSData *_imageData;
-    struct MTLPixelFormatInfo _pixelFormatInfo;
-    _Bool _packedRowStride;
 }
 
 + (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)05;
 - (unsigned long long);
 - (id);
 - (void);

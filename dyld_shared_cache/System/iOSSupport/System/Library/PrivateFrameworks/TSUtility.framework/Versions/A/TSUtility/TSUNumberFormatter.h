@@ -4,35 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
-
 @interface TSUNumberFormatter
 {
     struct __CFLocale *mLocale;
-    struct __CFArray *mDecimalFormatters;
-    struct __CFArray *mCurrencyFormatters;
-    struct __CFArray *mPercentageFormatters;
-    struct __CFArray *mScientificFormatters;
-    struct __CFNumberFormatter *mFractionFormatter;
-    NSMutableDictionary *mCurrencyCodeToSymbolMap;
-    NSMutableDictionary *mCurrencyCodeToHalfWidthSymbolMap;
-    NSString *mCurrencyString;
-    NSString *mPercentageString;
-    NSString *mScientificString;
-    NSString *mDecimalString;
-    NSString *mPercentSymbol;
-    NSMutableArray *mTransformedDecimalStrings;
-    NSMutableArray *mTransformedCurrencyStrings;
-    NSMutableArray *mTransformedPercentageStrings;
-    NSMutableArray *mTransformedScientificStrings;
-    struct __CFString *mAdditionalCurrencyCode;
-    struct __CFArray *mAdditionalCurrencyCodeFormatters;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)So39FCReadonlyPersonalizationAggregateStoreCIegg_;
 + (id);
 + (int);
 + (int);
@@ -48,10 +28,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)"M�	;
 + (void);
-- (_Bool);
-- (void);
+- (_Bool)articleUnlike;
+- (void)locationDetectionManager;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -61,7 +41,7 @@
 - (struct __CFArray *);
 - (struct __CFArray *);
 - (id);
-- (_Bool);
+- (_Bool)a;
 - (id);
 - (id);
 - (id);

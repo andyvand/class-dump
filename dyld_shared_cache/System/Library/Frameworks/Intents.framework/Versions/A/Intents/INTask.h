@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INContactEventTrigger, INSpatialEventTrigger, INSpeakableString, INTemporalEventTrigger, NSDateComponents, NSString;
+@class INSpeakableString;
 
 @interface INTask
 {
     INSpeakableString *_title;
-    long long _status;
-    INSpatialEventTrigger *_spatialEventTrigger;
-    INTemporalEventTrigger *_temporalEventTrigger;
-    NSDateComponents *_createdDateComponents;
-    NSDateComponents *_modifiedDateComponents;
-    NSString *_identifier;
-    long long _taskType;
-    long long _priority;
-    INContactEventTrigger *_contactEventTrigger;
-    long long _taskReference;
-    NSString *_parentIdentifier;
 }
 
 + (id);
@@ -28,53 +17,35 @@
 - (long long);
 - (id);
 - (id);
+- (id)T;
+- (id);
+- (id)!n;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)(;
+- (id)thirdButton;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setMISDiscoveryStateExt:(id)arg1 request:requestParams:reply: /* Error: Ran out of types for this method. */;
+- (void)i] AUTO-JOIN:(id)arg1 All pre-association scan channels have already been scanned;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id)ecution"b1"waitingForResume"b1};
 - (id)ignals:(unsigned long long)arg1 entityConfidenceSignalsEnabled:entityConfidenceSignalsFrequencyDenominatorInternal:entityConfidenceSignalsFrequencyDenominatorProd:entityConfidenceSignalsMaxItemsToDisambiguate: /* Error: Ran out of types for this method. */;
-- (void)ealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideValuesOptionsCollectionForSaveHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)Ô;
 - (long long)-ÇPm;
 - (long long)øÛÿ1%P½í;
 - (id)\^¾ÿ:(id)arg1 A+;
 
 // Remaining properties
-@property(readonly, copy) INContactEventTrigger *contactEventTrigger; // @synthesize contactEventTrigger=_contactEventTrigger;
-@property(readonly, copy) NSDateComponents *createdDateComponents; // @synthesize createdDateComponents=_createdDateComponents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSDateComponents *modifiedDateComponents; // @synthesize modifiedDateComponents=_modifiedDateComponents;
-@property(readonly, copy) NSString *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly) long long priority; // @synthesize priority=_priority;
-@property(readonly, copy) INSpatialEventTrigger *spatialEventTrigger; // @synthesize spatialEventTrigger=_spatialEventTrigger;
-@property(readonly) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(readonly) long long taskReference; // @synthesize taskReference=_taskReference;
-@property(readonly) long long taskType; // @synthesize taskType=_taskType;
-@property(readonly, copy) INTemporalEventTrigger *temporalEventTrigger; // @synthesize temporalEventTrigger=_temporalEventTrigger;
-@property(readonly, copy) INSpeakableString *title; // @synthesize title=_title;
 
 @end
 

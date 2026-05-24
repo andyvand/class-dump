@@ -5,12 +5,11 @@
 //
 
 @class NSObject;
-@protocol BSXPCServiceConnectionMessage, OS_xpc_object;
+@protocol OS_xpc_object;
 
 @interface FBSXPCMessage
 {
     NSObject<OS_xpc_object> *_payload;
-    id <BSXPCServiceConnectionMessage> _reply;
 }
 
 + (id);
@@ -21,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)iU13block_pointerFv8_CSRangePS5_S7_mEE3$_1FvP15CSCppMMapSymbolP22CSCppMMapInlinedSymbolEEE;
 - (void);
 
 // Remaining properties

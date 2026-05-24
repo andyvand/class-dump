@@ -5,5 +5,9 @@
 //
 
 @protocol VKCImageAnalysisOverlayViewDelegate
+
+@optional
+- (void);
+- (_Bool);
 @end
 

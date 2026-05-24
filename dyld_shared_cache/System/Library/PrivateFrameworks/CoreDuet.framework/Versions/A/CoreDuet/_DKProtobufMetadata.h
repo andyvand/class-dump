@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface _DKProtobufMetadata
 {
@@ -12,23 +12,16 @@
 }
 
 + (id);
-+ (id);
++ (id)Tqb;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

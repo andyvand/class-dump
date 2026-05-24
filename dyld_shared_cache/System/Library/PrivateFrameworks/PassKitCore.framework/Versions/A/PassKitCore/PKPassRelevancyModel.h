@@ -12,12 +12,12 @@
 + (_Bool);
 - (void);
 - (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)otherUniqueIDs;
 
 // Remaining properties
 @property(nonatomic, getter=isRelevancyActive) _Bool relevancyActive; // @synthesize relevancyActive=_relevancyActive;

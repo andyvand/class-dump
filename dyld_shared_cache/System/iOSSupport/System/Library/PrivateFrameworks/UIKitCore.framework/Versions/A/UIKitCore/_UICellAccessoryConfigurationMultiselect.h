@@ -14,12 +14,12 @@
 }
 
 + (_Bool)It requires at least [.year, .month, .day];
-- (void);
+- (void)sortPersonCentricChatGroups:(id)arg1;
 - (id);
 - (id);
-- (_Bool)torView:(id)arg1;
-- (void)arDebounceTimeIntervalExpired;
-- (void)n:(id)arg1;
+- (_Bool)setSeparatorView:(id)arg1;
+- (void)predictionBarDebounceTimeIntervalExpired;
+- (void)initWithTransitionDirection:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id)edView;
 - (id)s loaded (and thus is a View Controller), but it is actually not a View Controller:%@ /* Error: Ran out of types for this method. */;
 - (id)nderChainFinishCollectingDebugInfo but no collection ongoing. (array);

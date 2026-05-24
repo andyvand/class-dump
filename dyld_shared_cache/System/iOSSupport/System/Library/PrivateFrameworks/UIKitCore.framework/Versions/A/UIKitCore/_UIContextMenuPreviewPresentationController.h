@@ -6,41 +6,34 @@
 
 #import <UIKitCore/UIPresentationController.h>
 
-@class UIView, _UIContextMenuStyle;
-@protocol _UIContextMenuPreviewPresentationControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuPreviewPresentationController : UIPresentationController
 {
     _Bool _platterContentSizeDidChange;
-    UIView *_viewForRemoteTextEffectsWindowMatchAnimation;
-    id <_UIContextMenuPreviewPresentationControllerDelegate> _menuPresentationDelegate;
-    _UIContextMenuStyle *_menuStyle;
-    struct CGSize _platterContentSize;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)mpl";
+- (void)umber"40@"NSString"48@"IDSAccount"56;
+- (void)2@0:(id)arg1 8@"NSDictionary"16@"NSArray"24;
+- (_Bool)handler:localOutgoingDownloadMessage:isBeingReplayed:storageContext: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)createNetworkMonitorWithRemoteHost:delegate:allowsUltraConstrainedNetwork: /* Error: Ran out of types for this method. */;
+- (void)e:(struct CGSize)arg1;
+- (void)createDirectoryAtURL:(id)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (id)So28IMDMessageFromStorageMonitorCSgXwz_Xx;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)eLoaderWithDataFromItemProvider:typeIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_imageLoaderWithDataFromItemProvider:typeIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)r item in layout arrangement is out of bounds;
 - (void)n't get object in root set for index [%d] for identifier path %@;
 - (_Bool)s remote service:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ckingLoggingEnabled;
-- (long long)_q0_q1__qd__G;
+- (_Bool)UITraitUsageTrackingLoggingEnabled;
+- (long long)yxq_q0_q1__qd__G;
 - (struct UIEdgeInsets)gXw;
 - (void);
 - (struct CGRect)ÔQ[;
@@ -49,10 +42,7 @@ __attribute__((visibility("hidden")))
 - (id)t]ÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIContextMenuPreviewPresentationControllerDelegate> menuPresentationDelegate; // @synthesize menuPresentationDelegate=_menuPresentationDelegate;
-@property(retain, nonatomic) _UIContextMenuStyle *menuStyle; // @synthesize menuStyle=_menuStyle;
 @property(nonatomic) struct CGSize platterContentSize; // @synthesize platterContentSize=_platterContentSize;
-@property(nonatomic) _Bool platterContentSizeDidChange; // @synthesize platterContentSizeDidChange=_platterContentSizeDidChange;
 
 @end
 

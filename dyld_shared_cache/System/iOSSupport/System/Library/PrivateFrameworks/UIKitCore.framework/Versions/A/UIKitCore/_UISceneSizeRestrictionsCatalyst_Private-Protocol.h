@@ -5,6 +5,8 @@
 //
 
 @protocol _UISceneSizeRestrictionsCatalyst_Private
+- (void);
+- (void)56@64q72q80@88@?96;
 - (struct CGSize)aTimingFunction",&,N,V_mediaTimingFunction;
 
 // Remaining properties

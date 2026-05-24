@@ -7,29 +7,13 @@
 @interface IMKUICandidateLayoutTraits
 {
     long long _alignment;
-    double _candidateLeadingEdge;
-    double _candidateSpacing;
-    double _groupHeaderFontSize;
-    double _groupHeaderThickness;
-    double _lineDefaultCount;
-    double _lineDefaultLength;
-    double _lineThickness;
-    double _maxLengthOfLine;
-    unsigned long long _maxNumberOfElementsPerLine;
-    double _paddingForIndex;
-    _Bool _shrinksToFit;
-    double _spaceBetweenCandidates;
-    double _sortingBarFontSize;
-    double _titleFontSize;
-    double _gridSizeFactor;
-    double _sortingBarHeightOffset;
-    double _candidateMinimumSpacing;
 }
 
 - (double);
 - (double);
 - (_Bool);
 - (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -38,8 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,16 +31,16 @@
 - (double);
 - (double);
 - (double);
+- (double);
+- (double);
+- (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (void);
+- (double);
 - (double);
 - (void);
+- (double);
+- (void);
 - (void);
 - (double);
 - (long long);
@@ -65,23 +48,6 @@
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) double candidateLeadingEdge; // @synthesize candidateLeadingEdge=_candidateLeadingEdge;
-@property(nonatomic) double candidateMinimumSpacing; // @synthesize candidateMinimumSpacing=_candidateMinimumSpacing;
-@property(nonatomic) double candidateSpacing; // @synthesize candidateSpacing=_candidateSpacing;
-@property(nonatomic) double gridSizeFactor; // @synthesize gridSizeFactor=_gridSizeFactor;
-@property(nonatomic) double groupHeaderFontSize; // @synthesize groupHeaderFontSize=_groupHeaderFontSize;
-@property(nonatomic) double groupHeaderThickness; // @synthesize groupHeaderThickness=_groupHeaderThickness;
-@property(nonatomic) double lineDefaultCount; // @synthesize lineDefaultCount=_lineDefaultCount;
-@property(nonatomic) double lineDefaultLength; // @synthesize lineDefaultLength=_lineDefaultLength;
-@property(nonatomic) double lineThickness; // @synthesize lineThickness=_lineThickness;
-@property(nonatomic) double maxLengthOfLine; // @synthesize maxLengthOfLine=_maxLengthOfLine;
-@property(nonatomic) unsigned long long maxNumberOfElementsPerLine; // @synthesize maxNumberOfElementsPerLine=_maxNumberOfElementsPerLine;
-@property(nonatomic) double paddingForIndex; // @synthesize paddingForIndex=_paddingForIndex;
-@property(nonatomic) _Bool shrinksToFit; // @synthesize shrinksToFit=_shrinksToFit;
-@property(nonatomic) double sortingBarFontSize; // @synthesize sortingBarFontSize=_sortingBarFontSize;
-@property(nonatomic) double sortingBarHeightOffset; // @synthesize sortingBarHeightOffset=_sortingBarHeightOffset;
-@property(nonatomic) double spaceBetweenCandidates; // @synthesize spaceBetweenCandidates=_spaceBetweenCandidates;
-@property(nonatomic) double titleFontSize; // @synthesize titleFontSize=_titleFontSize;
 
 @end
 

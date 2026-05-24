@@ -6,15 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer, NSString, UIAccessibilityHUDItem, _UIStatusBarImageView;
+@class _UIStatusBarImageView;
 
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarVPNDisconnectView : UIView
 {
     _UIStatusBarImageView *_iconView;
-    CAShapeLayer *_iconSlashMaskShapeLayer;
-    UIView *_slashView;
-    CAShapeLayer *_slashShapeLayer;
 }
 
 - (id);
@@ -23,50 +20,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)setSentViaRemoteIntent:(id)arg1;
+- (void)account:(id)arg1 aliasesChanged: /* Error: Ran out of types for this method. */;
+- (void)e for relay. Relaying current SMS Filtering settings.;
+- (id)record passed to md5HashForRecord:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (struct CGSize);
 - (id)fo.plist's CFBundleDocumentTypes dictionary.;
 - (void);
-- (struct UIEdgeInsets)lexInteractionKey;
+- (struct UIEdgeInsets)FlexInteractionKey;
 - (void)NÜ­^;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CAShapeLayer *iconSlashMaskShapeLayer; // @synthesize iconSlashMaskShapeLayer=_iconSlashMaskShapeLayer;
 @property(retain, nonatomic) _UIStatusBarImageView *iconView; // @synthesize iconView=_iconView;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) CAShapeLayer *slashShapeLayer; // @synthesize slashShapeLayer=_slashShapeLayer;
-@property(retain, nonatomic) UIView *slashView; // @synthesize slashView=_slashView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

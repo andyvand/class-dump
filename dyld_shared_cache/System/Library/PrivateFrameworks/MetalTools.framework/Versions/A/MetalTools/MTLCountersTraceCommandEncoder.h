@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface MTLCountersTraceCommandEncoder
 {
     unsigned long long _timer;
-    struct BinaryBuffer *_stream;
-    unsigned long long _flags;
-    struct _NSRange _segment;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct _NSRange);
 - (unsigned long long);
-- (void);
+- (void)x{`;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) struct _NSRange segment; // @synthesize segment=_segment;
 
 @end
 

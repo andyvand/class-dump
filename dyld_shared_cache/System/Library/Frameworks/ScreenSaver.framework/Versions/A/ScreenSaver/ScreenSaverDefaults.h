@@ -4,43 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface ScreenSaverDefaults
 {
     NSMutableDictionary *_defaults;
-    NSMutableDictionary *_registeredDefaults;
-    NSString *_userName;
-    NSString *_domainName;
-    _Bool _dirty;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool)alizing unarchiving copier. sourceURL:%{mask.hash}@, error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)Â0@ù
 × ;

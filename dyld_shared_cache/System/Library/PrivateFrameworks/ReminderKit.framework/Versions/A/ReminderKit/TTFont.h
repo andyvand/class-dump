@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TTFont
 {
     unsigned int _fontHints;
-    NSString *_fontName;
-    double _pointSize;
-    id _nativeFont;
 }
 
 + (_Bool);
@@ -23,22 +18,19 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ka;
 - (void);
-- (id);
-- (id);
-- (double);
+- (id)@;
+- (id)tTarget>",R,N;
+- (double)ntifier must not be nil;
 - (void)±r Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int fontHints; // @synthesize fontHints=_fontHints;
-@property(readonly, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
 @property(retain, nonatomic) id nativeFont; // @synthesize nativeFont=_nativeFont;
-@property(readonly, nonatomic) double pointSize; // @synthesize pointSize=_pointSize;
 
 @end
 

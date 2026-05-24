@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelRequest, MPSectionedCollection;
+@class MPSectionedCollection;
 
 @interface MPModelResponse
 {
     _Bool _valid;
-    MPModelRequest *_request;
-    MPSectionedCollection *_results;
 }
 
 - (void);
-- (void);
+- (void)_daemonAlive: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
+- (void);
+- (_Bool)P; ;
+- (id)(;
 - (id);
 - (void)q,N,V_integerPredicateValue;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, copy, nonatomic) MPModelRequest *request; // @synthesize request=_request;
 @property(copy, nonatomic) MPSectionedCollection *results; // @synthesize results=_results;
-@property(readonly, nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

@@ -9,10 +9,9 @@
 @interface HMDBackgroundTaskTimeoutLogEvent
 {
     void taskIdentifier;
-    double timeout;
 }
 
-- (void);
+- (void)",W,N,V_availabilityDelegate;
 - (id);
 - (id);
 - (id);
@@ -23,16 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *diagnosticReportEventSubType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *diagnosticReportEventType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, readonly) NSString *taskIdentifier;
-@property(nonatomic, readonly) double timeout; // @synthesize timeout;
+@property(nonatomic, readonly) NSString *diagnosticReportEventType;
 
 @end
 

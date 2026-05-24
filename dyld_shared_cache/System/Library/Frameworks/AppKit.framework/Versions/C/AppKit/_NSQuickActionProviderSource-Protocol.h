@@ -7,6 +7,7 @@
 @class NSSet;
 
 @protocol _NSQuickActionProviderSource
+- (NSSet *)ustEvaluation with error %d;
 
 // Remaining properties
 @property(readonly, copy) NSSet *quickActions;

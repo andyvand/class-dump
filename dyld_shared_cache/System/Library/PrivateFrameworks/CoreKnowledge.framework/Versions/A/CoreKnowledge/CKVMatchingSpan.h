@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKVMatchingSpanMetadata, NSString, USOGraph;
+@class USOGraph;
 
 @interface CKVMatchingSpan
 {
     float _score;
-    USOGraph *_ontologyGraph;
-    NSString *_ontologyLabel;
-    NSString *_semanticValue;
-    unsigned long long _beginIndex;
-    unsigned long long _endIndex;
-    NSString *_itemId;
-    NSString *_originAppId;
-    CKVMatchingSpanMetadata *_metadata;
 }
 
 + (id);
@@ -34,8 +26,8 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)updatedLocalIdentifiers;
+- (_Bool)FPBNowPlayingCardSection"16;
 - (id);
 - (void);
 - (unsigned long long);
@@ -44,15 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long beginIndex; // @synthesize beginIndex=_beginIndex;
-@property(readonly, nonatomic) unsigned long long endIndex; // @synthesize endIndex=_endIndex;
-@property(readonly, nonatomic) NSString *itemId; // @synthesize itemId=_itemId;
-@property(readonly, nonatomic) CKVMatchingSpanMetadata *metadata; // @synthesize metadata=_metadata;
 @property(readonly, nonatomic) USOGraph *ontologyGraph; // @synthesize ontologyGraph=_ontologyGraph;
-@property(readonly, nonatomic) NSString *ontologyLabel; // @synthesize ontologyLabel=_ontologyLabel;
-@property(readonly, nonatomic) NSString *originAppId; // @synthesize originAppId=_originAppId;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
-@property(readonly, nonatomic) NSString *semanticValue; // @synthesize semanticValue=_semanticValue;
 
 @end
 

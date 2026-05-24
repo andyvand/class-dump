@@ -7,7 +7,6 @@
 @interface MPAVRoutingSheet
 {
     _Bool _mirroringOnly;
-    long long _avItemType;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=setAVItemType:) long long avItemType; // @synthesize avItemType=_avItemType;
-@property(nonatomic) _Bool mirroringOnly; // @synthesize mirroringOnly=_mirroringOnly;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol MTEpisodeLevelCalculatorProtocol
+- (void)i;
 @end
 

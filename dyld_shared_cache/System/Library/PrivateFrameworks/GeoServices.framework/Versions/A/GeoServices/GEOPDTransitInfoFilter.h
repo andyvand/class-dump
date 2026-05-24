@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)setActiveTestRecipeID:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)";
-- (id)ptionIndex;
+- (id)_sectionOptionIndex;
 - (id)Äì;
 - (void);
 

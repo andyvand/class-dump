@@ -4,59 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIATrackedActionsManager, NSIATransliterationState, NSInputAnalyticsProxy;
+@class NSInputAnalyticsProxy;
 
 __attribute__((visibility("hidden")))
 @interface NSInputAnalytics
 {
     NSInputAnalyticsProxy *_frameworkProxy;
-    NSIATrackedActionsManager *_trackedActions;
-    NSIATransliterationState *_transliterationState;
 }
 
 + (void);
 + (void);
 + (_Bool);
-+ (id);
-+ (void);
-+ (struct _NSRange);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (id)d_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_ipAddressToConnectionKey"{map<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
++ (void)nse"32;
++ (struct _NSRange)initWithConfiguration:delegate:delegateQueue:delegateDispatchQueue: /* Error: Ran out of types for this method. */;
++ (void)initWithCoder:(struct _NSRange)arg1;
++ (void),N;
++ (void)NSURLSessionTaskDependency;
++ (void)buffer;
++ (void)nable to append to this buffer;
 + (_Bool);
-+ (_Bool);
++ (_Bool)> client transitioning to foreground;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)|;
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)rter;
++ (void)r.framework/Versions/A/SymptomReporter;
++ (void)/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices;
++ (void)rk/Versions/A/NetworkServiceProxy;
++ (void)NetworkServiceProxy.framework/Versions/A/NetworkServiceProxy;
++ (void)ionalSupport;
++ (void)eworks/InternationalSupport.framework/Versions/A/InternationalSupport;
++ (void)ystem/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics;
++ (void)Library/PrivateFrameworks/AOSKit.framework/Versions/A/AOSKit;
++ (void)em/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
++ (void)ions/A/AVFoundation;
++ (void)or stream %llu has become unblocked;
++ (void)header_out_grow_buf;
++ (void)_HASH;
++ (void)header_out_write_value;
++ (void)ps:(CDUnknownBlockType)arg1 //%@:%@ /* Error: Ran out of types for this method. */;
++ (void)rNap);
 + (void);
 + (void);
 + (void);
@@ -65,17 +63,15 @@ __attribute__((visibility("hidden")))
 + (void)SIndexPath"32;
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)setShouldUseExtendedBackgroundIdleMode: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)$×ÿÓmÐA;
 
 // Remaining properties
 @property(retain, nonatomic) NSInputAnalyticsProxy *frameworkProxy; // @synthesize frameworkProxy=_frameworkProxy;
-@property(retain, nonatomic) NSIATrackedActionsManager *trackedActions; // @synthesize trackedActions=_trackedActions;
-@property(retain, nonatomic) NSIATransliterationState *transliterationState; // @synthesize transliterationState=_transliterationState;
 
 @end
 

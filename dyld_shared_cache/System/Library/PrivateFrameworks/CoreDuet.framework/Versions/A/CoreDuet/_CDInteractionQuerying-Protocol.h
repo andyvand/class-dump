@@ -5,5 +5,6 @@
 //
 
 @protocol _CDInteractionQuerying
+- (unsigned long long);
 @end
 

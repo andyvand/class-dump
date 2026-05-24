@@ -6,17 +6,9 @@
 
 #import <Intents/INCodableAttributeMetadata.h>
 
-@class NSString;
-
 @interface INCodableStringAttributeMetadata : INCodableAttributeMetadata
 {
     _Bool _multiline;
-    _Bool _disableAutocorrect;
-    _Bool _disableSmartDashes;
-    _Bool _disableSmartQuotes;
-    NSString *_defaultValue;
-    NSString *_defaultValueID;
-    long long _capitalization;
 }
 
 + (_Bool);
@@ -29,59 +21,47 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)@"_GCHapticParameterCurve";
+- (id)_GCControllerManagerAppClient;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
 - (id);
+- (_Bool)$;
+- (void);
+- (void);
+- (void)ect name '%s' does not match target host name '%s';
+- (void);
+- (void)G:(_Bool)arg1 diskimages-helper not in framework
+;
+- (id)d %d
+;
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)= '%@'; if (element.type.toLowerCase() == 'checkbox'){ element.value = value; element.checked = true; element.dispatchEvent(new Event('change', { bubbles:true, composed:true, cancelable:true } )); element.dispatchEvent(new Event('click', { bubbles:true, composed:true, cancelable:true } )); } else { element.value = value; element.dispatchEvent(new Event('input', { bubbles:true, composed:true, cancelable:true } )); } } /* Error: Ran out of types for this method. */;
+- (void)ANQP_OPERATOR_NAME;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)oriesCount;
-- (id)ETER_PER_HOUR;
-- (void)msForChangeAlarmStatus: /* Error: Ran out of types for this method. */;
+- (void)supportedMediaCategoriesCount;
+- (id)KILOMETER_PER_HOUR;
+- (void)defaultAlarmsForChangeAlarmStatus: /* Error: Ran out of types for this method. */;
 - (void)üÀíÿÅO¥;
 
 // Remaining properties
-@property(nonatomic) long long capitalization; // @synthesize capitalization=_capitalization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(copy, nonatomic) NSString *defaultValueID; // @synthesize defaultValueID=_defaultValueID;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableAutocorrect; // @synthesize disableAutocorrect=_disableAutocorrect;
-@property(nonatomic) _Bool disableSmartDashes; // @synthesize disableSmartDashes=_disableSmartDashes;
-@property(nonatomic) _Bool disableSmartQuotes; // @synthesize disableSmartQuotes=_disableSmartQuotes;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedDefaultValue;
 @property(nonatomic, getter=isMultiline) _Bool multiline; // @synthesize multiline=_multiline;
-@property(readonly) Class superclass;
 
 @end
 

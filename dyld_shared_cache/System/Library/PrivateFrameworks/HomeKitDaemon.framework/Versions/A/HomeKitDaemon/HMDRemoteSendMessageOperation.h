@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSecureRemoteMessageTransport, HMFMessage, NSArray, NSString;
+@class HMDSecureRemoteMessageTransport;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteSendMessageOperation
 {
     struct os_unfair_lock_s _lock;
-    _Bool _messageResponseHandled;
-    HMFMessage *_message;
-    HMDSecureRemoteMessageTransport *_transport;
 }
 
 + (id);
 + (id)ßLÿîøH:C /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)initWithLatitude:longitude: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)sionRequestToResumeResult:(id)arg1 ];
 - (id);
 - (id);
 - (id);
@@ -34,25 +31,6 @@ __attribute__((visibility("hidden")))
 - (void)delete empty clip;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMFMessage *message; // @synthesize message=_message;
-@property(getter=isMessageResponseHandled) _Bool messageResponseHandled; // @synthesize messageResponseHandled=_messageResponseHandled;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @property(readonly) __weak HMDSecureRemoteMessageTransport *transport; // @synthesize transport=_transport;
 
 @end

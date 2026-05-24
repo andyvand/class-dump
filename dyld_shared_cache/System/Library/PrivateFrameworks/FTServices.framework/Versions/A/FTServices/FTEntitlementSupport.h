@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface FTEntitlementSupport
 {
 }
 
 + (id);
-- (_Bool);
+- (_Bool)writeInt64:value: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -19,14 +17,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool faceTimeNonWiFiEntitled;
-@property(readonly, nonatomic) NSDictionary *registrationState;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 @interface ACUIAccountRowItem
 {
     _Bool _isHeader;
-    ACAccount *_account;
-    NSString *_identifier;
 }
 
 + (id);
@@ -19,14 +17,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isHeader; // @synthesize isHeader=_isHeader;
 
 @end
 

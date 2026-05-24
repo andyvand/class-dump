@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, NSString;
-
 @interface HMCameraUserNotificationSettings
 {
     _Bool _accessModeChangeNotificationEnabled;
-    _Bool _reachabilityEventNotificationEnabled;
-    _Bool _smartBulletinBoardNotificationEnabled;
-    long long _version;
-    NSPredicate *_smartBulletinBoardNotificationCondition;
 }
 
 + (id);
@@ -32,8 +26,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)nihilism;
+- (id)d.requestedCount;
 - (void);
 - (void);
 - (id);
@@ -41,27 +35,6 @@
 - (void)ôä;
 
 // Remaining properties
-@property(getter=isAccessModeChangeNotificationEnabled) _Bool accessModeChangeNotificationEnabled; // @synthesize accessModeChangeNotificationEnabled=_accessModeChangeNotificationEnabled;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(getter=isReachabilityEventNotificationEnabled) _Bool reachabilityEventNotificationEnabled; // @synthesize reachabilityEventNotificationEnabled=_reachabilityEventNotificationEnabled;
-@property(readonly, copy) NSString *shortDescription;
-@property(copy) NSPredicate *smartBulletinBoardNotificationCondition; // @synthesize smartBulletinBoardNotificationCondition=_smartBulletinBoardNotificationCondition;
-@property(getter=isSmartBulletinBoardNotificationEnabled) _Bool smartBulletinBoardNotificationEnabled; // @synthesize smartBulletinBoardNotificationEnabled=_smartBulletinBoardNotificationEnabled;
-@property(readonly) Class superclass;
 @property long long version; // @synthesize version=_version;
 
 @end

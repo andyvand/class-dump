@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void);
 - (void)r readToBuffer:size:] /* Error: Ran out of types for this method. */;
 
 @end

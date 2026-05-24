@@ -6,34 +6,28 @@
 
 #import <Timeline/TLTimelineOperation.h>
 
-@class NSError, TLTimeline;
+@class TLTimeline;
 
 @interface TLTimelineSetupOperation : TLTimelineOperation
 {
     double _timeout;
-    unsigned long long _entryLimit;
-    TLTimeline *_timeline;
-    NSError *_setupError;
 }
 
 + (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (double);
-- (void);
+- (void)A;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long entryLimit; // @synthesize entryLimit=_entryLimit;
-@property(retain) NSError *setupError; // @synthesize setupError=_setupError;
 @property(retain) TLTimeline *timeline; // @synthesize timeline=_timeline;
-@property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

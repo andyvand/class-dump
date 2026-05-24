@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSColor;
+
 @protocol NSColorPickerMatrixViewDelegate
+
+@optional
+- (void)DeviceSupportsDynamicEndOfChargeLegacyHW;
+- (NSColor *)DeviceSupportsDynamicEndOfCharge;
 @end
 

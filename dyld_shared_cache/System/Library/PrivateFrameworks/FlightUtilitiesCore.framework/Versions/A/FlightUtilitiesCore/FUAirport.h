@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSString, NSTimeZone;
+@class NSString;
 
 @interface FUAirport
 {
     NSString *_IATACode;
-    NSString *_name;
-    NSString *_city;
-    NSTimeZone *_timeZone;
-    CLPlacemark *_placemark;
-    struct CLLocationCoordinate2D _location;
 }
 
 + (_Bool);
@@ -24,12 +19,12 @@
 - (void);
 - (id);
 - (id);
+- (id)	;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)K_ipp_collection_t"16@?0@"PK_ipp_attribute_t"8;
 - (struct CLLocationCoordinate2D);
 - (void);
 - (void);
@@ -40,11 +35,6 @@
 
 // Remaining properties
 @property(retain) NSString *IATACode; // @synthesize IATACode=_IATACode;
-@property(retain) NSString *city; // @synthesize city=_city;
-@property struct CLLocationCoordinate2D location; // @synthesize location=_location;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) CLPlacemark *placemark; // @synthesize placemark=_placemark;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

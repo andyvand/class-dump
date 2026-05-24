@@ -7,8 +7,6 @@
 @interface NewsUI2.SearchRecipeFactory
 {
     id assetManager;
-    id tagFactory;
-    id recipeAccessProvider;
 }
 
 @end

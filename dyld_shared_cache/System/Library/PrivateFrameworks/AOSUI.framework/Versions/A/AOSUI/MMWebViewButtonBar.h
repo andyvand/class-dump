@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSDictionary, NSProgressIndicator, NSString, NSTextField, NSTouchBar, NSView, iCloudTouchBarController;
-@protocol MMWebViewButtonBarDelegate;
+@class NSView, iCloudTouchBarController;
 
 @interface MMWebViewButtonBar
 {
     NSView *_buttonBarView;
-    NSButton *_button1;
-    NSButton *_button2;
-    NSButton *_button3;
-    NSProgressIndicator *_spinner;
-    NSTextField *_spinnerTitle;
-    NSButton *_helpButton;
-    NSDictionary *_buttonBarDict;
-    NSArray *_buttonArray;
-    id <MMWebViewButtonBarDelegate> _delegate;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)&;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -44,16 +33,6 @@
 - (id)ller.m;
 
 // Remaining properties
-@property(retain) NSDictionary *buttonBarDict; // @synthesize buttonBarDict=_buttonBarDict;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <MMWebViewButtonBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
 @property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
 
 @end

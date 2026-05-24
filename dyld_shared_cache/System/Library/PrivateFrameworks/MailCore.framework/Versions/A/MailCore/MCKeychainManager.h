@@ -14,7 +14,7 @@
 + (struct __SecPolicy *);
 + (id);
 + (int);
-+ (int);
++ (int);
 + (struct __SecIdentity *);
 + (struct __SecCertificate *);
 

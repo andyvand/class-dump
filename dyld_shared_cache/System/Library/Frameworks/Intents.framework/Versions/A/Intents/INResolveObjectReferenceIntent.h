@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface INResolveObjectReferenceIntent : INIntent
 {
@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)createDirectoryAtURL:(id)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -29,14 +29,7 @@
 - (id)PBTemperatureList"24@0:8Q16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSData *reference;
-@property(readonly) Class superclass;
 
 @end
 

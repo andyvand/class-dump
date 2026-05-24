@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIUserBargeInDetected : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)getMacDaemonManagedServiceWithReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)S.Migration.Reindex_Failure;
 - (id);
 - (id);
-- (id)yQualifiedPath;
-- (id)ted;
-- (_Bool)LG_API;
-- (_Bool)TRYCODE_MZ;
+- (id)deleteFullyQualifiedPath;
+- (id)_hasConversationQualityInferenceGenerated;
+- (_Bool)RGFALLBACKREASON_NOT_ADOPTING_NLG_API;
+- (_Bool)COUNTRYCODE_MZ;
 - (void)!;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

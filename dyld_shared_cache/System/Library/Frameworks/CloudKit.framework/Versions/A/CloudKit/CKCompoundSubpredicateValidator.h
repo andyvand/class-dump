@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (void)Ä';
 
 // Remaining properties

@@ -10,8 +10,6 @@
 - (NSView *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityDescription;
-@property(readonly, nonatomic) NSView *contentView;
 @property(readonly, copy, nonatomic) NSString *thumbnailSizeObservationKey;
 @end
 

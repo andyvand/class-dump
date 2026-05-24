@@ -9,38 +9,36 @@
 @interface GEOARInfo
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_storefrontFaceGeometrys;
 }
 
-+ (Class);
-+ (_Bool)gIncidentsEnabled:(id)arg1;
++ (Class)stringWithValidatedFormat:validFormatSpecifiers:error: /* Error: Ran out of types for this method. */;
++ (_Bool)setHasMapSettingsReportingIncidentsEnabled:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_isRouteValidForEchoCancellationWithAppleSiliconMac:(id)arg1;
+- (void)P;
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)~;
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)ngIdentifier;
+- (id)logoWithoutPaddingIdentifier;
 - (id)À;
-- (id)NanomapscdTapewormTimerIntervalMs;
+- (id)__perf_NanomapscdTapewormTimerIntervalMs;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *storefrontFaceGeometrys;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

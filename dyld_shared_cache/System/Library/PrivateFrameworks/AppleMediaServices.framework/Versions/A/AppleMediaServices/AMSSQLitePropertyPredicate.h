@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSString *_property;
 }
 
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long);
+- (_Bool)@"TUConversationNotice"40;
+- (id);
 - (id){public}@ is deprecated. %{public}@ should be used instead.;
 - (id)ö«[º¶JòÊùæ$Ìñ­{åËLÒÐ·­¦ðàÈx])°M!dÏ;ffÎ9' /\bïdFQgW@ü¶®uûÑÇx6»Q'°*ýýñ\ºXiÆ4EÕì·kÁ,y:(Class)arg1 ôP2eÝjÓÌè³Q«-]aÚ:¼ÈïFñ·¬}[AGºè°;÷Æ|>ó /* Error: Ran out of types for this method. */;
 - (void)wL+ÖHtÖÒÚÇ"ÇâE_0ýwíÿf¬Ù¾¸ºÒjËàKâaì±w/èvnE¢ìÆYÃEA'ÏYåN[*Â;

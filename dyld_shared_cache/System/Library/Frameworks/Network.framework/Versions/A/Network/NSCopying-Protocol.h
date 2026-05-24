@@ -5,6 +5,6 @@
 //
 
 @protocol NSCopying
-- (id)d_child_failed;
+- (id)connected_child_failed;
 @end
 

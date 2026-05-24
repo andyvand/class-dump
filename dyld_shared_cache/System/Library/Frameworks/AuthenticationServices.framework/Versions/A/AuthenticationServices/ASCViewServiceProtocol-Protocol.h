@@ -5,5 +5,6 @@
 //
 
 @protocol ASCViewServiceProtocol
+- (void);
 @end
 

@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol PETReservoirSamplingLogStore;
-
 @interface PETReservoirSamplingLog
 {
-    struct _opaque_pthread_mutex_t _lock;
-    NSObject<PETReservoirSamplingLogStore> *_store;
-    unsigned int _limit;
-    CDStruct_9981aeec _rng;
+    struct _opaque_pthread_mutex_t {
+        long long __sig;
+        char __opaque[56];
+    } _lock;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (id)_dateField;
+- (void)P;
+- (void);
+- (void);
+- (void);
+- (id)@;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 

@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ne;
+- (id)requestWithTitle:url:minimumIconSize:maximumIconSize:monogramConfiguration:options: /* Error: Ran out of types for this method. */;
+- (id)PGMemoryTriggerRecentBreakoutOfRoutine;
 
 @end
 

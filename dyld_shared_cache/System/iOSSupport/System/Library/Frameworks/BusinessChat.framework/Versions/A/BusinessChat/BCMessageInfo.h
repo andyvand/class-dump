@@ -4,62 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, UIImage;
+@class NSString;
 
 @interface BCMessageInfo
 {
     NSString *_title;
     NSString *_subtitle;
-    NSString *_alternateTitle;
-    NSString *_imageIdentifier;
-    NSString *_imageDescription;
-    UIImage *_image;
-    NSString *__style;
 }
 
-- (id);
-- (id);
+- (id)prepareForPopoverPresentation:(id)arg1;
+- (id)possibleKeySizes;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)@;
+- (id));
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)V_items;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) NSString *_style; // @synthesize _style=__style;
-@property(retain, nonatomic) NSString *alternateTitle; // @synthesize alternateTitle=_alternateTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSString *imageDescription; // @synthesize imageDescription=_imageDescription;
-@property(retain, nonatomic) NSString *imageIdentifier; // @synthesize imageIdentifier=_imageIdentifier;
-@property(readonly, nonatomic) NSString *style;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

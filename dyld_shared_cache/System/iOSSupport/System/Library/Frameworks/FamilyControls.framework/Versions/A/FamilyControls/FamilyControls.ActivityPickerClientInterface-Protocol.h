@@ -5,6 +5,8 @@
 //
 
 @protocol FamilyControls.ActivityPickerClientInterface
+- (void)reContextualAssistanceLayers);
+- (void)ce Layers (WFTakeScreenshotIgnoreContextualAssistanceLayers);
 - (void)QîÐ1B50@ù
 × ;
 @end

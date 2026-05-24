@@ -6,24 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface TTMSchemaTTMTCUResult : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_tcuId;
-    int _decision;
-    int _decisionSource;
-    struct {
-        unsigned int decision:1;
-        unsigned int decisionSource:1;
-    } _has;
-    _Bool _hasTcuId;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -39,21 +32,15 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)selectGroupEntryWithIdentifier:(id)arg1;
+- (_Bool)ed, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE ROWID IN (SELECT message_id FROM chat_message_join WHERE message_id < ?) AND item_type = 0 ORDER BY ROWID DESC LIMIT ?;
 - (id);
-- (id);
-- (id)MediaTypeUsageSignalMusicWithoutRadio;
-- (id)omName;
-- (void)_ROUTER_DISABLED;
+- (id)=;
+- (id)deleteRawMediaTypeUsageSignalMusicWithoutRadio;
+- (id)_isQueryRelationshipLabelDerivedFromName;
+- (void)ORCHNLROUTERBRIDGEROUTINGDECISIONSOURCE_NL_ROUTER_DISABLED;
 
 // Remaining properties
-@property(nonatomic) int decision; // @synthesize decision=_decision;
-@property(nonatomic) int decisionSource; // @synthesize decisionSource=_decisionSource;
-@property(nonatomic) _Bool hasDecision;
-@property(nonatomic) _Bool hasDecisionSource;
-@property(nonatomic) _Bool hasTcuId; // @synthesize hasTcuId=_hasTcuId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *tcuId; // @synthesize tcuId=_tcuId;
 
 @end

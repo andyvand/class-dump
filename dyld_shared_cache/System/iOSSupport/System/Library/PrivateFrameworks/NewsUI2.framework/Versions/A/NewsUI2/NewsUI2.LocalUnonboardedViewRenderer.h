@@ -7,8 +7,6 @@
 @interface NewsUI2.LocalUnonboardedViewRenderer
 {
     id styler;
-    id assetHandleFactory;
-    id onLocationButtonTapped;
 }
 
 @end

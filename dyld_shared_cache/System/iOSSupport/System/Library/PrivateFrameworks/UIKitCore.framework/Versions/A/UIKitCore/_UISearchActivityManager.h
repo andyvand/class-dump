@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, UIScene;
+@class NSMapTable, UIScene;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchActivityManager
@@ -15,24 +15,16 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id)tC;
+- (id)recoveredMessagesFromRecentlyDeletedForChatsWithGUIDs:(id)arg1;
+- (void)chatForRoom:account:chatIdentifier:guid: /* Error: Ran out of types for this method. */;
+- (id)sages. No more messages to write up. ***;
+- (id)So022_UIViewControllerOneToC17TransitionContextC;
 - (void)xönþý13þ13põ¸þ;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *_activeAssertions; // @synthesize _activeAssertions=__activeAssertions;
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

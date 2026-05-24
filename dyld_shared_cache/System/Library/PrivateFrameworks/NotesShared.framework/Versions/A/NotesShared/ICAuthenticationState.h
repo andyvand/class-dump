@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSTimer;
-@protocol NSObject;
-
 @interface ICAuthenticationState
 {
     _Bool _authenticatedWithDevicePassword;
-    _Bool _didAttemptToDeauthenticateWhileBlocked;
-    double _deauthenticationTimeInterval;
-    NSArray *_deauthenticationTimerRunLoopModes;
-    NSMutableDictionary *_objectIDsToMainKey;
-    long long _blockingDeauthenticationCount;
-    NSTimer *_deauthenticationTimer;
-    id <NSObject> _passphraseChangeObserver;
 }
 
 + (double);
 + (void);
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)cxx_destruct;
+- (void)creating necessary subnet locales;
 - (void);
 - (void);
 - (void);
@@ -42,10 +32,10 @@
 - (id);
 - (id);
 - (void);
+- (_Bool)from remote object proxy - %@;
+- (_Bool)%llu bytes);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -74,23 +64,13 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void)@¾;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAuthenticated) _Bool authenticated;
 @property(nonatomic, getter=isAuthenticatedWithDevicePassword) _Bool authenticatedWithDevicePassword; // @synthesize authenticatedWithDevicePassword=_authenticatedWithDevicePassword;
-@property(readonly, nonatomic, getter=isBlockingDeauthentication) _Bool blockingDeauthentication;
-@property(nonatomic) long long blockingDeauthenticationCount; // @synthesize blockingDeauthenticationCount=_blockingDeauthenticationCount;
-@property(nonatomic) double deauthenticationTimeInterval; // @synthesize deauthenticationTimeInterval=_deauthenticationTimeInterval;
-@property(retain, nonatomic) NSTimer *deauthenticationTimer; // @synthesize deauthenticationTimer=_deauthenticationTimer;
-@property(retain, nonatomic) NSArray *deauthenticationTimerRunLoopModes; // @synthesize deauthenticationTimerRunLoopModes=_deauthenticationTimerRunLoopModes;
-@property(nonatomic) _Bool didAttemptToDeauthenticateWhileBlocked; // @synthesize didAttemptToDeauthenticateWhileBlocked=_didAttemptToDeauthenticateWhileBlocked;
-@property(readonly, nonatomic) _Bool hasAuthenticatedObject;
-@property(retain, nonatomic) NSMutableDictionary *objectIDsToMainKey; // @synthesize objectIDsToMainKey=_objectIDsToMainKey;
-@property(retain, nonatomic) id <NSObject> passphraseChangeObserver; // @synthesize passphraseChangeObserver=_passphraseChangeObserver;
 
 @end
 

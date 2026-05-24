@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVEndpointRoute, MPAVOutputDeviceRoute, MPAVRoute, MPVolumeController, NSString, UIImage, UIImageView, UILayoutGuide, UIView, UIWindowScene, _UISliderFluidConfiguration;
+@class _UISliderFluidConfiguration;
 
 @interface MPVolumeSlider
 {
     _Bool _isFluidTracking;
-    UIImageView *_thumbImageView;
-    _Bool _isOffScreen;
-    _Bool _forcingOffscreenVisibility;
-    _Bool _configuredLayoutGuide;
-    _Bool _optimisticState;
-    float _optimisticValue;
-    long long _style;
-    UIImage *_volumeWarningTrackImage;
-    _UISliderFluidConfiguration *_configuration;
-    UILayoutGuide *_trackLayoutGuide;
-    MPVolumeController *_volumeController;
-    MPAVEndpointRoute *_groupRoute;
-    MPAVOutputDeviceRoute *_outputDeviceRoute;
-    struct UIEdgeInsets _hitRectInsets;
 }
 
 - (void);
@@ -31,8 +17,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)unknownSenderRecordInfoFor: /* Error: Ran out of types for this method. */;
+- (_Bool)_sortedParticipantIDHashForParticipants:usesPersonCentricID: /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (id);
@@ -40,97 +26,60 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)rejectedImplicitly;
+- (void)be Class C locked.;
 - (float);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)allowsKeyedCoding;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)]B�;
+- (void);
+- (void);
+- (void);
+- (id)@;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)l ;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (float);
+- (id);
+- (float)URLSession:task:needNewBodyStreamFromOffset:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
+- (void);
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)ùQ@°1Â0@ù
 × ;
 - (void)Q16@24@?32;
-- (_Bool)er: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool)setHasEntityOrder: /* Error: Ran out of types for this method. */;
+- (void)_canShowCloudTracksDidChangeNotification: /* Error: Ran out of types for this method. */;
 - (id)l;
 - (void)L );
 - (_Bool)damIDs=[%@];
 - (float)odelPropertyPodcastEpisodeTranscriptIdentifier;
 
 // Remaining properties
-@property(nonatomic, setter=_setIsOffScreen:) _Bool _isOffScreen;
 @property(retain, nonatomic) _UISliderFluidConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double expansionFactor;
-@property(retain, nonatomic) MPAVEndpointRoute *groupRoute; // @synthesize groupRoute=_groupRoute;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets hitRectInsets; // @synthesize hitRectInsets=_hitRectInsets;
-@property(readonly, nonatomic, getter=isOnScreen) _Bool onScreen;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisOnScreen
-
-@property(readonly, nonatomic, getter=isOnScreenForVolumeDisplay) _Bool onScreenForVolumeDisplay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisOnScreenForVolumeDisplay
-
-@property(nonatomic, getter=isInOptimisticState) _Bool optimisticState; // @synthesize optimisticState=_optimisticState;
-@property(nonatomic) float optimisticValue; // @synthesize optimisticValue=_optimisticValue;
-@property(retain, nonatomic) MPAVOutputDeviceRoute *outputDeviceRoute; // @synthesize outputDeviceRoute=_outputDeviceRoute;
-@property(retain, nonatomic) MPAVRoute *route;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *thumbView;
-@property(readonly, nonatomic) UILayoutGuide *trackLayoutGuide; // @synthesize trackLayoutGuide=_trackLayoutGuide;
-@property(readonly, nonatomic) NSString *volumeAudioCategory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy, nonatomic) NSString *volumeControlLabel;
-@property(retain, nonatomic) MPVolumeController *volumeController; // @synthesize volumeController=_volumeController;
-@property(retain, nonatomic) UIImage *volumeWarningTrackImage; // @synthesize volumeWarningTrackImage=_volumeWarningTrackImage;
-@property(readonly, nonatomic) UIWindowScene *windowSceneForVolumeDisplay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIWindowScene",?,R,N
-
 
 @end
 

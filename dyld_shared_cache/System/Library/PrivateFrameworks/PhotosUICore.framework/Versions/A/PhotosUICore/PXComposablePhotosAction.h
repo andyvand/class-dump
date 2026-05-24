@@ -10,16 +10,11 @@ __attribute__((visibility("hidden")))
 @interface PXComposablePhotosAction : PXPhotosAction
 {
     id subActions;
-    id subActionCount;
-    id actionsCompleted;
-    id completionHandler;
-    id success;
-    id error;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void)pÚ$\±: /* Error: Ran out of types for this method. */;
 

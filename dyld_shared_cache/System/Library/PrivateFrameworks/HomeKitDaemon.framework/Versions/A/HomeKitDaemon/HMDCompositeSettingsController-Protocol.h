@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMFVersion, NSString;
+
 @protocol HMDCompositeSettingsController
+- (void)_hasLoadedContents;
+- (void)_handleIncomingMessage:(NSString *)arg1 info:(HMFVersion *)arg2 fromID:(unsigned long long)arg3 receivingHandle:(void (^)(HMDCompositeSettingOperationResult *))arg4 receivingAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool configured;

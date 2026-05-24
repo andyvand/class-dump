@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @interface _SFPBSelectableGridCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    int _initialSelectedIndex;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSArray *_entries;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (unsigned long long);
 - (id);
 - (int);
@@ -37,23 +27,23 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)B;
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)ionEndTime;
+- (_Bool)TB,R,N,V_allDSIDsShouldError;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
+- (void)k;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)setAllocationType:(id)arg1;
+- (id)failed sync decode of image:%@, status code:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -63,25 +53,7 @@
 - (int)×X;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *entries; // @synthesize entries=_entries;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int initialSelectedIndex; // @synthesize initialSelectedIndex=_initialSelectedIndex;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

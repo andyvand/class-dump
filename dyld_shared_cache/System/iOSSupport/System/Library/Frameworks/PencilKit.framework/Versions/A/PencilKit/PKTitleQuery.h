@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTitleQuery, NSString, PKDrawing;
+@class CHTitleQuery;
 @protocol PKTitleQueryDelegate;
 
 @interface PKTitleQuery
 {
     id <PKTitleQueryDelegate> _delegate;
-    CHTitleQuery *_titleQuery;
-    PKDrawing *_drawing;
 }
 
 - (id);
@@ -25,21 +23,11 @@
 - (void);
 - (id);
 - (void);
-- (void)g;
+- (void)isZoomAnimating;
 - (void)x4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKTitleQueryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CHTitleQuery *titleQuery; // @synthesize titleQuery=_titleQuery;
-@property(readonly, copy, nonatomic) NSString *transcribedTitle;
 
 @end
 

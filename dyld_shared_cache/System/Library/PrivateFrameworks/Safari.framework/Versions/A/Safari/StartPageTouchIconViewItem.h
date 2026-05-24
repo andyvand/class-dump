@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ClickGestureRecognizer, NSImage, NSImageView, NSLayoutConstraint, NSPressGestureRecognizer, NSString, NSTextField, NSView, NSVisualEffectView, StartPageViewItemVisualEffect;
-@protocol SiriSuggestionsStartPageLinkRecommendationDelegate, StartPageBackgroundImageIdentifierProvider;
+@class NSPressGestureRecognizer, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface StartPageTouchIconViewItem
 {
     NSPressGestureRecognizer *_longMousePressRecognizer;
-    ClickGestureRecognizer *_immediateActionRecognizer;
-    NSString *_previousText;
-    id _editingTerminationEventMonitor;
-    NSLayoutConstraint *_textFieldHeightConstraint;
-    StartPageViewItemVisualEffect *_visualEffectBackground;
-    NSVisualEffectView *_iconEffectView;
-    NSImageView *_iconView;
-    NSImage *_unroundedImage;
-    NSImageView *_overlay;
-    NSView *_boxShadow;
-    _Bool _didBeginDrag;
-    _Bool _allowsEditing;
-    _Bool _usesCompactAppearance;
-    NSTextField *_titleTextField;
-    id <SiriSuggestionsStartPageLinkRecommendationDelegate> _delegate;
-    double _descriptionTextFieldWidth;
-    id <StartPageBackgroundImageIdentifierProvider> _backgroundImageIdentifierProvider;
 }
 
 + (struct CGSize);
@@ -44,20 +26,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)t to look up stream path through access client for private stream;
 - (_Bool);
-- (void)indows;
-- (id);
+- (void)shouldPersistPrivateWindows;
+- (id)v;
 - (void);
 - (void);
 - (id);
@@ -66,19 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;
-@property(nonatomic) __weak id <StartPageBackgroundImageIdentifierProvider> backgroundImageIdentifierProvider; // @synthesize backgroundImageIdentifierProvider=_backgroundImageIdentifierProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriSuggestionsStartPageLinkRecommendationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double descriptionTextFieldWidth; // @synthesize descriptionTextFieldWidth=_descriptionTextFieldWidth;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
-@property(nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
 
 @end
 

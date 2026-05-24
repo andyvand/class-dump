@@ -7,9 +7,6 @@
 @interface IMCore.ImportExport.Exporter
 {
     id conversations;
-    id exportStatistics;
-    id exportOptions;
-    id fallbackAccountParticipant;
 }
 
 @end

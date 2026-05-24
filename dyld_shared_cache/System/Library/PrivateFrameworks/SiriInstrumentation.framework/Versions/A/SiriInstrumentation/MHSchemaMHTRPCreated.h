@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MHSchemaMHTRPCreated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_trpId;
-    NSString *_resultCandidateId;
-    _Bool _hasTrpId;
-    _Bool _hasResultCandidateId;
 }
 
 - (id);
@@ -22,17 +19,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)
+;
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)er a 113 bit binary field;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)!¨DùQßÐ1Â0@ù
 × ;
 - (id)nationDetectionContext;
@@ -40,10 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
 @property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end

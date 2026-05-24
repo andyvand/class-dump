@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSUUID;
 
 @interface BTMBackgroundItem
 {
     NSUUID *_identifier;
-    NSData *_bookmark;
-    long long _userElection;
-    unsigned long long _type;
 }
 
 + (_Bool);
@@ -19,31 +16,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)MPSCNNNormalization_XFast_tex2d_tex2d_XYNorm6x0;
 - (id);
-- (void);
-- (id);
+- (void)";
+- (id);
 
 // Remaining properties
-@property(retain) NSData *bookmark; // @synthesize bookmark=_bookmark;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *name;
-@property(readonly) Class superclass;
-@property unsigned long long type; // @synthesize type=_type;
-@property long long userElection; // @synthesize userElection=_userElection;
 
 @end
 

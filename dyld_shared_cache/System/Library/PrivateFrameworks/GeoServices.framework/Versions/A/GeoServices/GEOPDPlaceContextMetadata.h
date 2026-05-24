@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAutocompletePlaceContextMetadata, GEOPDSearchPlaceContextMetadata, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlaceContextMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDAutocompletePlaceContextMetadata *_autocompletePlaceContextMetadata;
-    unsigned long long _muid;
-    GEOPDSearchPlaceContextMetadata *_searchPlaceContextMetadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _placeContextMetadataType;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_placeContextMetadataType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_autocompletePlaceContextMetadata:1;
-        unsigned int read_searchPlaceContextMetadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_handleEnabledStatesUpdate: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)g";
-- (id)ng;
+- (id)_infrastructureDescriptionString;
 - (id)Pp(q;
 - (void);
 

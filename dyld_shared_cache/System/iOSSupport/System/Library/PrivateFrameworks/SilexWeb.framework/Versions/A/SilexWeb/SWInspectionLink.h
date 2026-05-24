@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SWInspectionLink
 {
     NSURL *_href;
-    NSString *_label;
-    struct CGRect _frame;
 }
 
 - (id);
@@ -20,9 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 @property(readonly, copy, nonatomic) NSURL *href; // @synthesize href=_href;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

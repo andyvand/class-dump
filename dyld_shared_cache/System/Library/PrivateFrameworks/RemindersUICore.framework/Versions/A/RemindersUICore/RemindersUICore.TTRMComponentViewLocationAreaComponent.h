@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewLocationAreaComponent
 {
     id arriving;
-    id region;
-    id enabledState;
-    id locationAreaView;
-    id action;
 }
 
 @end

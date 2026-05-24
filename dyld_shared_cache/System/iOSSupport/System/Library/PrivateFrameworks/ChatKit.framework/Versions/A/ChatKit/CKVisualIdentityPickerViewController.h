@@ -5,28 +5,25 @@
 //
 
 @class CKConversation;
-@protocol CKVisualIdentityPickerViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CKVisualIdentityPickerViewController
 {
     CKConversation *_conversation;
-    id <CKVisualIdentityPickerViewControllerDelegate> _presentationDelegate;
 }
 
-+ (id);
-+ (id);
++ (id)movieFooter;
++ (id);
 - (void);
 - (void);
+- (void);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)ueWhileRecording;
+- (void)showTickerHUDAndLogValueWhileRecording;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(nonatomic) __weak id <CKVisualIdentityPickerViewControllerDelegate> presentationDelegate; // @synthesize presentationDelegate=_presentationDelegate;
 
 @end
 

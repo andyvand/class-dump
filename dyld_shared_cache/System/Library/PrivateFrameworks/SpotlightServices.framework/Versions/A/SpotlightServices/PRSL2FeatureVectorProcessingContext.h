@@ -7,7 +7,6 @@
 @interface PRSL2FeatureVectorProcessingContext
 {
     unsigned short *_expandedFeatureExecutionOrder;
-    unsigned long long _expandedFeatureCount;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long expandedFeatureCount; // @synthesize expandedFeatureCount=_expandedFeatureCount;
 @property(nonatomic) unsigned short *expandedFeatureExecutionOrder; // @synthesize expandedFeatureExecutionOrder=_expandedFeatureExecutionOrder;
 
 @end

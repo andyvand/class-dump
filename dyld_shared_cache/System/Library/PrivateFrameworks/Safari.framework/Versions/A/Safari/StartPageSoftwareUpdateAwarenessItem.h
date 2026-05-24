@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSNumber, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface StartPageSoftwareUpdateAwarenessItem
 {
     NSImage *_icon;
-    NSString *_title;
-    NSString *_subtitle;
-    NSNumber *_rank;
 }
 
 - (void);
-- (id);
+- (id)4;
 - (void);
 - (id);
 - (void);
@@ -27,9 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) NSNumber *rank; // @synthesize rank=_rank;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

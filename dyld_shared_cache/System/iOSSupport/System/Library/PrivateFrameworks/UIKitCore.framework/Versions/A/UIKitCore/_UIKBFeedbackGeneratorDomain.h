@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)window:listener: /* Error: Ran out of types for this method. */;
-+ (id)een;
++ (id)decidePolicyForGeolocationRequestFromOrigin:requestingURL:window:listener: /* Error: Ran out of types for this method. */;
++ (id)applicationRequiresFullScreen;
 + (Class);
 
 @end

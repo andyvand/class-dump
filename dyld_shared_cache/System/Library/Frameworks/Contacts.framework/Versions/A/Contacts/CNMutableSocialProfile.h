@@ -6,7 +6,7 @@
 
 #import <Contacts/CNSocialProfile.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNMutableSocialProfile : CNSocialProfile
 {
@@ -16,13 +16,7 @@
 - (id)r %s:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *bundleIdentifiers; // @dynamic bundleIdentifiers;
-@property(copy) NSString *displayname; // @dynamic displayname;
-@property(copy) NSString *service; // @dynamic service;
-@property(copy) NSString *teamIdentifier; // @dynamic teamIdentifier;
 @property(copy) NSString *urlString; // @dynamic urlString;
-@property(copy) NSString *userIdentifier; // @dynamic userIdentifier;
-@property(copy) NSString *username; // @dynamic username;
 
 @end
 

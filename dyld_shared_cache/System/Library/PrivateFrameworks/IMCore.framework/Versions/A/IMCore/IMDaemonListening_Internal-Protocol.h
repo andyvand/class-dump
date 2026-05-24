@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSArray, NSMutableDictionary, NSString;
 
 @protocol IMDaemonListening_Internal
+- (NSString *)L}d opusRestrictedLowDelayEnabled=%{BOOL}d;
+- (void)lTTYDevice [%s] %s:(NSString *)arg1 %d @:(NSString *)arg2 @ AVCVirtualTTYDevice-start (%p);
+- (void)useWiFiTiers=%{BOOL}d;
+- (NSMutableDictionary *)re not supported currently;
+- (NSArray *)S;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *_contexts;
-@property(nonatomic, setter=_setHidingDisconnect:) _Bool _hidingDisconnect;
-@property(readonly, nonatomic) NSArray *allServices;
-@property(readonly, nonatomic) _Bool hasPostedSetupComplete;
 @property(readonly, nonatomic, getter=isSetupComplete) _Bool setupComplete;
 @end
 

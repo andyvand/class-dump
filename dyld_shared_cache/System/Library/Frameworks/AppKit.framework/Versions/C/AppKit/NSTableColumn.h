@@ -4,46 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCell, NSSortDescriptor, NSString, NSTableHeaderCell, NSTableView, _NSBindingAdaptor;
+@class NSString, NSTableView;
 
 @interface NSTableColumn
 {
     NSTableView *_tableView;
-    id _identifier;
-    double _width;
-    NSSortDescriptor *_sortDescriptorPrototype;
-    _NSBindingAdaptor *_bindingAdaptor;
-    NSString *_headerToolTip;
-    CDStruct_507282ca _cachedPosition;
-    struct {
-        unsigned int oldIsResizable:1;
-        unsigned int isEditable:1;
-        unsigned int resizedPostingDisableCount:8;
-        unsigned int canUseReorderResizeImageCache:1;
-        unsigned int userResizingAllowed:1;
-        unsigned int autoResizingAllowed:1;
-        unsigned int hidden:1;
-        unsigned int isOutlineTableColumn:1;
-    } _cFlags;
-    double _minWidth;
-    double _maxWidth;
-    NSCell *_headerCell;
-    NSCell *_dataCell;
 }
 
 
 // Remaining properties
-@property(getter=isEditable) _Bool editable;
-@property(retain) NSTableHeaderCell *headerCell;
-@property(copy) NSString *headerToolTip;
-@property(getter=isHidden) _Bool hidden;
 @property(copy) NSString *identifier;
-@property double maxWidth;
-@property double minWidth;
-@property unsigned long long resizingMask;
-@property(copy) NSSortDescriptor *sortDescriptorPrototype;
-@property __weak NSTableView *tableView;
-@property(copy) NSString *title;
-@property double width;
 @end
 

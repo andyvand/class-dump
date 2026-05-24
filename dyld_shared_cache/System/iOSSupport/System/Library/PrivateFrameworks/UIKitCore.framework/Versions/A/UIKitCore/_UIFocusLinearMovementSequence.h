@@ -9,24 +9,20 @@
 @interface _UIFocusLinearMovementSequence
 {
     _Bool _looping;
-    _Bool _restrictEnteringSequence;
-    NSArray *_items;
 }
 
++ (id)e;
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool)@"NSString"40@?<v@?B>48@"IDSMessageContext"56;
+- (id)handler:(id)arg1 receivedPriorityMessageCommand:(_Bool)arg2 fromIdentifier:(_Bool)arg3 toIdentifier:fromToken: /* Error: Ran out of types for this method. */;
+- (id)handler:(id)arg1 receivedJunkChatCommand:(_Bool)arg2 fromIdentifier:toIdentifier:fromToken: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id)ismissGrantingAccessToURL: /* Error: Ran out of types for this method. */;
-- (_Bool)ISplitViewControllerCompactColumnVC;
+- (id)dismissGrantingAccessToURL: /* Error: Ran out of types for this method. */;
+- (_Bool)UISplitViewControllerCompactColumnVC;
 - (void)µ4ÙÄ¸[;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic, getter=isLooping) _Bool looping; // @synthesize looping=_looping;
-@property(readonly, nonatomic, getter=restrictsEnteringSequence) _Bool restrictEnteringSequence; // @synthesize restrictEnteringSequence=_restrictEnteringSequence;
 
 @end
 

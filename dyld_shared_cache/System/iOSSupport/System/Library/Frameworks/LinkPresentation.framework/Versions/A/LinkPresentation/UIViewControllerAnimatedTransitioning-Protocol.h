@@ -5,5 +5,7 @@
 //
 
 @protocol UIViewControllerAnimatedTransitioning
+- (double);
+- (void)@;
 @end
 

@@ -12,7 +12,5 @@
 
 // Remaining properties
 @property(readonly) unsigned long long identifier;
-@property(readonly, nonatomic) struct CGColorSpace *workingColorSpace;
-@property(readonly, nonatomic) int workingFormat;
 @end
 

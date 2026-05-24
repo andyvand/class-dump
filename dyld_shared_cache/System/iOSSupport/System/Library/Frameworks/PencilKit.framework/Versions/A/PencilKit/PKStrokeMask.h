@@ -9,7 +9,6 @@
 @interface PKStrokeMask
 {
     struct vector<std::vector<ClipperLib::IntPoint>, std::allocator<std::vector<ClipperLib::IntPoint>>> _maskPaths;
-    struct vector<_PKFloatRange, std::allocator<_PKFloatRange>> _centerlineSlices;
 }
 
 - (id);
@@ -21,7 +20,7 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)T4;
 - (id);
 - (id);
 - (id);

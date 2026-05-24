@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)o do;
++ (void)lock file and told to not remove the file - no work to do;
 
 @end
 

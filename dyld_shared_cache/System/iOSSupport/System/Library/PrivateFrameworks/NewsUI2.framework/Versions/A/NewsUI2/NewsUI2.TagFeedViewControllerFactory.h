@@ -7,7 +7,6 @@
 @interface NewsUI2.TagFeedViewControllerFactory
 {
     id asyncFeedFactory;
-    id resolver;
 }
 
 @end

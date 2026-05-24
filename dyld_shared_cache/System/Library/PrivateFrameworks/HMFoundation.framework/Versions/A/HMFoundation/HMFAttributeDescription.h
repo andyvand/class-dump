@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFormatter, NSString;
-@protocol NSObject;
+@class NSString;
 
 @interface HMFAttributeDescription
 {
     NSString *_name;
-    id <NSObject> _value;
-    unsigned long long _options;
-    NSFormatter *_formatter;
 }
 
 + (id);
@@ -20,39 +16,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A*M*H ;
+- (unsigned long long)(	M	(	>	;
 - (unsigned long long);
-- (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)potlight.ScrollPreviewDown;
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSFormatter *formatter; // @synthesize formatter=_formatter;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <NSObject> value; // @synthesize value=_value;
 
 @end
 

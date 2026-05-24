@@ -5,17 +5,15 @@
 //
 
 @class NSXPCConnection;
-@protocol VSServiceConnectionHandlerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VSServiceConnectionHandler
 {
     NSXPCConnection *_connection;
-    id <VSServiceConnectionHandlerDelegate> _delegate;
 }
 
 - (id);
-- (void);
+- (void)cationNodeListEvE3$_4;
 - (id);
 - (void);
 - (void);
@@ -23,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) __weak id <VSServiceConnectionHandlerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

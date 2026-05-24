@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, CNUIMeContactMonitor, NSString;
-@protocol CNSchedulerProvider, CNUIPRLikenessProvider, CNUIPlaceholderProviderFactory;
+@class CNUIMeContactMonitor;
 
 @interface CNUIPRLikenessLookup
 {
     long long _prohibitedSources;
-    unsigned long long _lookupOptions;
-    CNContactStore *_contactStore;
-    id <CNSchedulerProvider> _schedulerProvider;
-    NSString *_personaId;
-    CNUIMeContactMonitor *_meMonitor;
-    id <CNUIPlaceholderProviderFactory> _placeholderProviderFactory;
 }
 
 + (_Bool);
 + (id);
++ (id)0;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -55,23 +48,23 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (id)?;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)*;
 - (id);
 - (void);
 - (id);
@@ -82,21 +75,7 @@
 - (id)L®;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <CNUIPRLikenessProvider> loadingPlaceholderLikeness;
-@property(nonatomic) unsigned long long lookupOptions; // @synthesize lookupOptions=_lookupOptions;
 @property(retain, nonatomic) CNUIMeContactMonitor *meMonitor; // @synthesize meMonitor=_meMonitor;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) id <CNUIPlaceholderProviderFactory> placeholderProviderFactory; // @synthesize placeholderProviderFactory=_placeholderProviderFactory;
-@property(nonatomic) long long prohibitedSources; // @synthesize prohibitedSources=_prohibitedSources;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSString;
 
 @interface SXComponentNode
 {
     NSString *_componentIdentifier;
-    long long _attribute;
-    NSMutableSet *_mutableDependencies;
-    NSMutableSet *_toPositionDependencies;
-    NSMutableSet *_toSizeDependencies;
 }
 
-- (id);
+- (id)?;
 - (unsigned long long);
 - (_Bool);
 - (void)oller"16@"<SXFullscreenCanvasShowable>"24Q32;

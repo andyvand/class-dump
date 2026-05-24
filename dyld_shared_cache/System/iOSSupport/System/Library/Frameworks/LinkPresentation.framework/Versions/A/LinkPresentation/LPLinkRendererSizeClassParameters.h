@@ -7,39 +7,29 @@
 @interface LPLinkRendererSizeClassParameters
 {
     _Bool _alignButtonWithCaptionTextLeadingEdge;
-    _Bool _preserveIconAspectRatioAndAlignmentWhenScaling;
-    _Bool _onlyShowIcon;
-    _Bool _neverShowIcon;
-    _Bool _neverShowText;
-    _Bool _disableTextWrapping;
-    _Bool _alignTextAndMediaHorizontalEdges;
-    _Bool _needsSpaceAffordanceForDeleteButton;
-    double _minimumMediaCornerRadius;
-    double _minimumIconCornerRadius;
-    double _mediaFixedAspectRatio;
 }
 
 + (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)textFormattingDelegate;
+- (void)textFieldShouldEndEditing:(_Bool)arg1;
+- (void)textField:(double)arg1 willDismissEditMenuWithAnimator: /* Error: Ran out of types for this method. */;
+- (void)textField:(double)arg1 shouldChangeCharactersInRanges:replacementString: /* Error: Ran out of types for this method. */;
+- (void)textField:(double)arg1 editMenuForCharactersInRanges:suggestedActions: /* Error: Ran out of types for this method. */;
+- (void)textAlignmentInsets;
+- (void)targetContentOffset;
+- (_Bool)tapbackPickerBalloonParentView:requestedPresentPlugin:payloadID: /* Error: Ran out of types for this method. */;
+- (_Bool)tapBackBubblePathForSize:tapbackBalloonFrame:flipHorizontally:flipVertically: /* Error: Ran out of types for this method. */;
+- (_Bool)taillessBalloonMaskAlignmentRectInsets;
+- (_Bool)taillessBalloonMaskAlignmentRectInsets;
+- (_Bool)tailedBubble;
+- (double)tailAttachmentPointWithOutputForMinimumContinousAnchorX:maximumContinuousAnchorX: /* Error: Ran out of types for this method. */;
+- (double)tableViewWidth;
+- (double)tableView:willBeginEditingRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)supports32BitMSAA;
+- (_Bool)subscriptions;
+- (_Bool)subscriptionSelectionMenu;
+- (void)ioritizedTextEffectIdentifiers:(_Bool)arg1 count: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -50,16 +40,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool alignButtonWithCaptionTextLeadingEdge; // @synthesize alignButtonWithCaptionTextLeadingEdge=_alignButtonWithCaptionTextLeadingEdge;
-@property(nonatomic) _Bool alignTextAndMediaHorizontalEdges; // @synthesize alignTextAndMediaHorizontalEdges=_alignTextAndMediaHorizontalEdges;
-@property(nonatomic) _Bool disableTextWrapping; // @synthesize disableTextWrapping=_disableTextWrapping;
-@property(nonatomic) double mediaFixedAspectRatio; // @synthesize mediaFixedAspectRatio=_mediaFixedAspectRatio;
-@property(nonatomic) double minimumIconCornerRadius; // @synthesize minimumIconCornerRadius=_minimumIconCornerRadius;
-@property(nonatomic) double minimumMediaCornerRadius; // @synthesize minimumMediaCornerRadius=_minimumMediaCornerRadius;
-@property(nonatomic) _Bool needsSpaceAffordanceForDeleteButton; // @synthesize needsSpaceAffordanceForDeleteButton=_needsSpaceAffordanceForDeleteButton;
-@property(nonatomic) _Bool neverShowIcon; // @synthesize neverShowIcon=_neverShowIcon;
-@property(nonatomic) _Bool neverShowText; // @synthesize neverShowText=_neverShowText;
-@property(nonatomic) _Bool onlyShowIcon; // @synthesize onlyShowIcon=_onlyShowIcon;
-@property(nonatomic) _Bool preserveIconAspectRatioAndAlignmentWhenScaling; // @synthesize preserveIconAspectRatioAndAlignmentWhenScaling=_preserveIconAspectRatioAndAlignmentWhenScaling;
 
 @end
 

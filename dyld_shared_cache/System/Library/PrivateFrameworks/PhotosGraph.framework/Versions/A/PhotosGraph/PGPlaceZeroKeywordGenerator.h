@@ -7,11 +7,6 @@
 @interface PGPlaceZeroKeywordGenerator
 {
     id graph;
-    id photoLibrary;
-    id searchComputationCache;
-    id options;
-    id locationHelper;
-    id locationOrAreaNodeByQueryToken;
 }
 
 - (id);

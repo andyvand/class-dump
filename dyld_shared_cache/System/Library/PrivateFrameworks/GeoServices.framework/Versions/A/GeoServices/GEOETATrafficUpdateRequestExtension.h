@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)supportRingtoneA2DP;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)rdType:(struct _NSZone *)arg1;
-- (id)entRangeElement;
+- (id)setHasPlacecardType:(struct _NSZone *)arg1;
+- (id)GEOPDResultRefinementRangeElement;
 - (id)ôÿÿÿÌòäÿ ´aþ¤;
 
 @end

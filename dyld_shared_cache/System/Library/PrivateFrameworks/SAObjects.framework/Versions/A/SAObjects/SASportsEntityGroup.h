@@ -6,7 +6,7 @@
 
 #import <SAObjects/SASportsEntity.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SASportsEntityGroup : SASportsEntity
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entities;
-@property(copy, nonatomic) NSString *groupType;
 
 @end
 

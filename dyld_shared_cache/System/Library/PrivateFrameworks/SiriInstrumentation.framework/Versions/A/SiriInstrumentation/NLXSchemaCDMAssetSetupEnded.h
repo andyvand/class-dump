@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMAssetSetupEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)%{public}@;
 - (id);
 - (void);
-- (void);
+- (void)PKCS12_pack_p7data;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -25,15 +22,13 @@
 - (id)!èGùñÞ1Â0@ù
 × ;
 - (id)uestPreprocessingContext;
-- (id)HasEntityAbsoluteCount10Min: /* Error: Ran out of types for this method. */;
+- (id)setHasEntityAbsoluteCount10Min: /* Error: Ran out of types for this method. */;
 - (_Bool)irmation.item.collection.values.query.typeIdentifier.custom.bundleId;
 - (_Bool)ì";
 - (void)Ö¨ÿ³°Íü&;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

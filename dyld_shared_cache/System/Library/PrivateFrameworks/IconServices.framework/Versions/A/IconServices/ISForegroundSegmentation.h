@@ -8,17 +8,10 @@ __attribute__((visibility("hidden")))
 @interface ISForegroundSegmentation
 {
     _Bool _strict;
-    int _numberOfClusters;
-    int _borderSamplingWidth;
-    int _maxNumberOfClusteringSamples;
-    int _numberOfClusteringSteps;
-    float _clusterGroupingDistanceThreshold;
-    float _borderNoiseScale;
-    int _booleanThreshold;
 }
 
 - (_Bool);
-- (id);
+- (id)initWithBytesNoCopy:(_Bool)arg1 length:deallocator: /* Error: Ran out of types for this method. */;
 
 @end
 

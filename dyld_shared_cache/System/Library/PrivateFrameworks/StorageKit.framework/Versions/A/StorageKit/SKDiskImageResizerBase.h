@@ -6,16 +6,12 @@
 
 #import <StorageKit/SKDiskResizerBase.h>
 
-@class SKDiskImage, SKDiskImageResizeParams, SKDiskImageSizeLimits, SKRecoveryMoverInfo;
+@class SKDiskImage, SKDiskImageSizeLimits;
 
 __attribute__((visibility("hidden")))
 @interface SKDiskImageResizerBase : SKDiskResizerBase
 {
     SKDiskImageSizeLimits *_limits;
-    unsigned long long _requiredSizeForRecoveryMove;
-    SKDiskImage *_image;
-    SKDiskImageResizeParams *_resizeParams;
-    SKRecoveryMoverInfo *_recoveryMoverInfo;
 }
 
 - (id);
@@ -28,23 +24,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)Handler";
 - (id);
 - (void);
 - (id)nable to set recovery key in FDE recipe;
 
 // Remaining properties
 @property(retain, nonatomic) SKDiskImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) SKDiskImageSizeLimits *limits; // @synthesize limits=_limits;
-@property(retain, nonatomic) SKRecoveryMoverInfo *recoveryMoverInfo; // @synthesize recoveryMoverInfo=_recoveryMoverInfo;
-@property(nonatomic) unsigned long long requiredSizeForRecoveryMove; // @synthesize requiredSizeForRecoveryMove=_requiredSizeForRecoveryMove;
-@property(retain, nonatomic) SKDiskImageResizeParams *resizeParams; // @synthesize resizeParams=_resizeParams;
 
 @end
 

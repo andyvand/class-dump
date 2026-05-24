@@ -7,6 +7,7 @@
 @class NSManagedObjectModel;
 
 @protocol RTPersistenceModelProvider
-- (NSManagedObjectModel *)serInActiveSessionWithError:(NSManagedObjectModel *)arg1;
+- (NSManagedObjectModel *)l;
+- (NSManagedObjectModel *)_isUserInActiveSessionWithError:(NSManagedObjectModel *)arg1;
 @end
 

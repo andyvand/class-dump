@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, NSMutableArray, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPPinnedPlaceStorage
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_contactStorages;
-    NSString *_customName;
-    NSString *_identifier;
-    GEOMapItemStorage *_mapItemStorage;
-    NSString *_originatingAddressString;
-    int _type;
-    _Bool _hidden;
-    struct {
-        unsigned int type:1;
-        unsigned int hidden:1;
-    } _has;
 }
 
 + (Class);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)es:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)J#q;
 - (void);
 - (id);
 - (void);
@@ -51,11 +40,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)};
+- (id)h@y};
 - (int);
 - (_Bool);
 - (id);
@@ -64,20 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *contactStorages; // @synthesize contactStorages=_contactStorages;
-@property(retain, nonatomic) NSString *customName; // @synthesize customName=_customName;
-@property(readonly, nonatomic) _Bool hasCustomName;
-@property(nonatomic) _Bool hasHidden;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasMapItemStorage;
-@property(readonly, nonatomic) _Bool hasOriginatingAddressString;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) GEOMapItemStorage *mapItemStorage; // @synthesize mapItemStorage=_mapItemStorage;
-@property(retain, nonatomic) NSString *originatingAddressString; // @synthesize originatingAddressString=_originatingAddressString;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

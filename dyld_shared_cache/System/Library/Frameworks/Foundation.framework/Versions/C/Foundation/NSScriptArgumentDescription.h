@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSString;
 
 @interface NSScriptArgumentDescription
 {
     NSString *_key;
-    unsigned int _appleEventCode;
-    NSObject *_typeNameOrDescription;
-    _Bool _isOptional;
-    _Bool _isHidden;
-    unsigned long long _requiresAccess;
-    NSString *_presentableDescription;
-    NSObject *_presentableNameOrNames;
-    NSArray *_synonymDescriptions;
 }
 
 + (id);
@@ -33,11 +25,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)a&;
 - (id);
 - (id);
-- (_Bool);
-- (_Bool)iquitousDataScope;
+- (_Bool)N2LM18SentencePieceCoderINS_11SuffixCoderEEE;
+- (_Bool)NSMetadataQueryUbiquitousDataScope;
 
 @end
 

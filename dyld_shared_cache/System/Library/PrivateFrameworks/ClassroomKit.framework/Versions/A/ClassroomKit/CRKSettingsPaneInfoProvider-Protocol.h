@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet;
+@class NSArray;
 
 @protocol CRKSettingsPaneInfoProvider
+- (NSArray *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *acceptedInvitationIdentifiers;
-@property(readonly, copy, nonatomic) NSSet *activeInstructors;
-@property(readonly, copy, nonatomic) NSArray *courseInvitations;
 @property(readonly, copy, nonatomic) NSArray *courses;
-@property(readonly, nonatomic) NSDictionary *observingInstructorIdentifiersByCourseIdentifiers;
-@property(readonly, nonatomic) _Bool supportsRemoteLearning;
 @end
 

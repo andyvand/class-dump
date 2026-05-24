@@ -5,5 +5,7 @@
 //
 
 @protocol ABAccountCustomizationPolicy
+- (_Bool);
+- (_Bool);
 @end
 

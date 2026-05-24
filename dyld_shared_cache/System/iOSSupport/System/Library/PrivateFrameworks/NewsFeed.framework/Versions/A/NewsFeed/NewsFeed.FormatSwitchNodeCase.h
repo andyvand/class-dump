@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatSwitchNodeCase
 {
     id expression;
-    id _children;
 }
 
 @end

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (void)sForLocale: /* Error: Ran out of types for this method. */;
+- (void)_spokenAddressForLocale: /* Error: Ran out of types for this method. */;
 
 @end
 

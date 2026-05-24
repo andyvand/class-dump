@@ -11,7 +11,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)amWrapper_Resume(FigEndpointStreamRef, CFDictionaryRef, FigEndpointStreamCompletionCallback, void *);
 - (_Bool);
 - (_Bool);
 - (void);

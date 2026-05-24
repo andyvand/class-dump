@@ -20,17 +20,18 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (int);
 - (id);
-- (void);
+- (void)(;
 - (struct CGRect);
-- (id);
+- (id)mcUtxVPEtFxhE/Library/Caches/com.apple.xbs/TemporaryDirectory.vrZUgA/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm" at line 4198
+;
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)setForceNetworkCellular:(id)arg1;
 - (id);
 - (struct _NSRange);
 - (struct _NSRange);

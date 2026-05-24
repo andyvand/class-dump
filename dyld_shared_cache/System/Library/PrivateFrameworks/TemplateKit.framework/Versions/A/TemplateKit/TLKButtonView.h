@@ -6,30 +6,26 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSString, TLKLabel, TLKStackView;
+@class NSString, TLKStackView;
 
 @interface TLKButtonView : TLKView
 {
     NSString *_title;
-    TLKStackView *_stackView;
-    TLKLabel *_titleLabel;
 }
 
 + (struct NSEdgeInsets);
 - (id);
 - (void);
-- (id);
+- (id)options on amfdr are NULL;
+- (void)AMFDREncodeMetaPropertyAddData;
+- (void)kIOReturnNotReadable;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)tworkCellularDeclaration_AttachAPN";
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) TLKStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) TLKLabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

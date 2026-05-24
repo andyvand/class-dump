@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFShowMoreOnTap;
+@class NSArray;
 
 @interface _SFPBRFTextElement
 {
     int _line_limit;
-    NSArray *_formatted_texts;
-    _SFPBRFShowMoreOnTap *_show_more_on_tap;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)R%;
 - (int);
 - (unsigned long long);
 - (id);
@@ -28,25 +26,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)`;
+- (id)requestTextFeaturesForMomentLocalIdentifiers:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)ion] failed to fetch assets with length(%lu):%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)eItemPlayerCardSection"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *formatted_texts; // @synthesize formatted_texts=_formatted_texts;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int line_limit; // @synthesize line_limit=_line_limit;
-@property(retain, nonatomic) _SFPBRFShowMoreOnTap *show_more_on_tap; // @synthesize show_more_on_tap=_show_more_on_tap;
-@property(readonly) Class superclass;
 
 @end
 

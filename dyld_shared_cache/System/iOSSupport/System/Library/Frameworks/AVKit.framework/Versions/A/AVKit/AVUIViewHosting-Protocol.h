@@ -7,6 +7,7 @@
 @protocol AVUIViewHostMacHelper;
 
 @protocol AVUIViewHosting
+- (void)G;
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVUIViewHostMacHelper> host;

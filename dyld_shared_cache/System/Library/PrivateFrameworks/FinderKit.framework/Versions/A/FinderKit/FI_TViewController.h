@@ -8,21 +8,19 @@ __attribute__((visibility("hidden")))
 @interface FI_TViewController
 {
     _Bool _callingLoadView;
-    _Bool _loadingFromNib;
-    _Bool _isViewConfigured;
 }
 
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)W;
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)__objc_classlist__DATA_CONST;
 - (id);
 - (void);
-- (void);
+- (_Bool)setSupplementaryViewProvider: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)Ii(8#;
+- (void);
 - (void)ì;
 
 @end

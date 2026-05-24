@@ -9,7 +9,6 @@
 @interface PHImportAssetNameDescription
 {
     NSString *_filename;
-    NSString *_uuid;
 }
 
 - (id);

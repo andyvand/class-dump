@@ -5,8 +5,10 @@
 //
 
 @class MLModelDescription;
+@protocol MLFeatureProvider;
 
 @protocol SNMLModelObjCProtocol
+- (id <MLFeatureProvider>);
 
 // Remaining properties
 @property(readonly) MLModelDescription *modelDescription;

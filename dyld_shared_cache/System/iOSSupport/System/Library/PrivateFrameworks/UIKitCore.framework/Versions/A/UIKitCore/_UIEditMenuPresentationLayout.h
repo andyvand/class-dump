@@ -8,30 +8,22 @@ __attribute__((visibility("hidden")))
 @interface _UIEditMenuPresentationLayout
 {
     long long _arrowDirection;
-    struct CGPoint _anchorPoint;
-    struct CGPoint _menuPosition;
-    struct CGRect _containerBounds;
-    struct CGRect _menuSourceRect;
 }
 
 - (void);
 - (void);
-- (void);
-- (struct CGRect);
+- (void)4@32@40B48q52;
+- (struct CGRect)isUsingCentralizedModel;
 - (struct CGPoint);
 - (id);
-- (void);
+- (void)N;
 - (struct CGRect);
-- (struct CGPoint)nstructions;
+- (struct CGPoint)mainThreadCpuInstructions;
 - (long long)P½Zd;?ôýT¼;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;
-@property(nonatomic) long long arrowDirection; // @synthesize arrowDirection=_arrowDirection;
 @property(nonatomic) struct CGRect containerBounds; // @synthesize containerBounds=_containerBounds;
-@property(nonatomic) struct CGPoint menuPosition; // @synthesize menuPosition=_menuPosition;
-@property(nonatomic) struct CGRect menuSourceRect; // @synthesize menuSourceRect=_menuSourceRect;
 
 @end
 

@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNDescriptionBuilder;
+
 @protocol CNFutureImpl
-- (void);
+- (void)setObjectDiscoveryMode:(CNDescriptionBuilder *)arg1;
+- (_Bool);
 @end
 

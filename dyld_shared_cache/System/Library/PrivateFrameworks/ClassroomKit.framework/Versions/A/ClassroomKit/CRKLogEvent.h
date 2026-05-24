@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface CRKLogEvent
 {
     NSString *_name;
-    NSDate *_date;
-    NSDictionary *_userInfo;
 }
 
 + (_Bool);
@@ -28,12 +26,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

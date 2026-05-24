@@ -6,16 +6,12 @@
 
 #import <ContactsUI/CNCardGroupItem.h>
 
-@class CNMutableContact, NSString;
+@class CNMutableContact;
 
 __attribute__((visibility("hidden")))
 @interface ABPostalNameGroupItem : CNCardGroupItem
 {
     CNMutableContact *_contact;
-    SEL _setter;
-    NSString *_value;
-    NSString *_property;
-    NSString *_placeholder;
 }
 
 - (SEL);
@@ -27,15 +23,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)lementState: /* Error: Ran out of types for this method. */;
+- (void)notifyOfChangedEnablementState: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNMutableContact *contact; // @synthesize contact=_contact;
-@property(copy, nonatomic) NSString *placeholder; // @synthesize placeholder=_placeholder;
-@property(copy, nonatomic) NSString *property; // @synthesize property=_property;
-@property(nonatomic) SEL setter; // @synthesize setter=_setter;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -6,26 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class LRSchemaLRDataClassificationMetadata, NSArray, NSData, NSString;
+@class NSString;
 
 @interface LRSchemaLRDataClassificationManifest : SISchemaInstrumentationMessage
 {
     NSString *_classifiedString;
-    LRSchemaLRDataClassificationMetadata *_metadata;
-    NSArray *_explainabilityIdentifiers;
-    _Bool _isRedacted;
-    struct {
-        unsigned int isRedacted:1;
-    } _has;
-    _Bool _hasClassifiedString;
-    _Bool _hasMetadata;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -49,21 +41,14 @@
 - (id);
 - (id);
 - (id);
-- (void)FollowUpPosted;
+- (void)_coreFollowUpPosted;
 - (id)_failed;
-- (id)ctedComponentsWrapper;
-- (_Bool)E_SET_VOLUME;
+- (id)PLATFORMProvisionalConnectedComponentsWrapper;
+- (_Bool)ASVUSERINTENTTYPE_SET_VOLUME;
 - (void)`¥ßÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *classifiedString; // @synthesize classifiedString=_classifiedString;
-@property(copy, nonatomic) NSArray *explainabilityIdentifiers; // @synthesize explainabilityIdentifiers=_explainabilityIdentifiers;
-@property(nonatomic) _Bool hasClassifiedString; // @synthesize hasClassifiedString=_hasClassifiedString;
-@property(nonatomic) _Bool hasIsRedacted;
-@property(nonatomic) _Bool hasMetadata; // @synthesize hasMetadata=_hasMetadata;
-@property(nonatomic) _Bool isRedacted; // @synthesize isRedacted=_isRedacted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) LRSchemaLRDataClassificationMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

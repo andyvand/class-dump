@@ -7,16 +7,14 @@
 @interface IMAudioSessionController
 {
     _Bool _active;
-    _Bool _dirty;
-    unsigned long long _options;
 }
 
-+ (void);
++ (void)qd_1_;
++ (id)t;
 + (id);
-+ (id);
-+ (id);
++ (id)t;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -31,11 +29,6 @@
 
 // Remaining properties
 @property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property(getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property unsigned long long options; // @synthesize options=_options;
-@property(readonly) _Bool shouldDuckOthers;
-@property(readonly) _Bool shouldStopPlayingWhenSilent;
-@property(readonly) _Bool shouldUseSpeaker;
 
 @end
 

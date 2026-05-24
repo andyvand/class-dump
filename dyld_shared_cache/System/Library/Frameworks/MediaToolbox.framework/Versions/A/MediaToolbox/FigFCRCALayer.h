@@ -11,14 +11,14 @@
     struct OpaqueFigCaptionRendererCALayerInternal *layerInternal;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)plets;
+- (id)attributedTriplets;
 
 @end
 

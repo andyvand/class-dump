@@ -16,19 +16,18 @@
 - (void);
 - (id);
 - (struct _CGLPixelFormatObject *);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)
 × ;
 - (id)æ3ð1Â0@ù
 × ;
-- (void)ers;
+- (void)_dividerLayers;
 - (id)onal-name;
 
 // Remaining properties
-@property(readonly) struct _CGLPixelFormatObject *CGLPixelFormatObj;
 @property(readonly) int numberOfVirtualScreens;
 
 @end

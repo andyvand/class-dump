@@ -11,9 +11,6 @@
 @interface AOSUIAccountContactInviteMessageViewModel : AOSUIAccountContactBaseViewModel
 {
     _Bool _shouldEnableFirstButtonOnLoad;
-    NSView *_messageBubbleView;
-    NSView *_contentView;
-    long long _templateContentViewLayout;
 }
 
 - (long long);

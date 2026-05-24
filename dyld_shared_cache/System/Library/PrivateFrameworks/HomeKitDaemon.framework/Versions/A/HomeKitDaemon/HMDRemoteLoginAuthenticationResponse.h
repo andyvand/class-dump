@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSDictionary, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginAuthenticationResponse
@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     ACAccount *_loggedInAccount;
 }
 
-+ (id);
-+ (id);
++ (id)movieDedupingEnabled;
++ (id)enumeratePublicEventNodesUsingBlock:(id)arg1;
 + (id);
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ticsSendEventLazy failed;
 - (id);
 - (id);
 - (id);
@@ -26,16 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)Arming FailSafe;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) ACAccount *loggedInAccount; // @synthesize loggedInAccount=_loggedInAccount;
-@property(readonly, copy, nonatomic) NSString *messageName;
-@property(readonly, nonatomic) NSDictionary *messagePayload;
-@property(readonly) Class superclass;
 
 @end
 

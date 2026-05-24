@@ -9,8 +9,6 @@
 @interface WBSRecentHistoryTopicTagController
 {
     WBSHistory *_history;
-    unsigned long long _maximumNumberOfTopics;
-    double _timeIntervalBeforeNowForFetchingTags;
 }
 
 - (double);
@@ -19,11 +17,10 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void)andler: /* Error: Ran out of types for this method. */;
+- (void)registerRequest:priority:queue:responseHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long maximumNumberOfTopics; // @synthesize maximumNumberOfTopics=_maximumNumberOfTopics;
-@property(nonatomic) double timeIntervalBeforeNowForFetchingTags; // @synthesize timeIntervalBeforeNowForFetchingTags=_timeIntervalBeforeNowForFetchingTags;
 
 @end
 

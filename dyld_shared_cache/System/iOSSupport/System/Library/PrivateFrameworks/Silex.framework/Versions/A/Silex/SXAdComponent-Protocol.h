@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @protocol SXAdComponent
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long adType;
-@property(readonly, nonatomic) UIColor *debugColor;
 @property(readonly, nonatomic) NSString *placementIdentifier;
-@property(readonly, nonatomic) unsigned long long placementType;
 @end
 

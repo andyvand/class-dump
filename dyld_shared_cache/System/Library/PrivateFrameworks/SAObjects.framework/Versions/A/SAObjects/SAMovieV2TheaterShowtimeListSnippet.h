@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, SAMovieV2MovieDetailSnippet;
+@class SAMovieV2MovieDetailSnippet;
 
 @interface SAMovieV2TheaterShowtimeListSnippet : SAUISnippet
 {
@@ -17,13 +17,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAMovieV2MovieDetailSnippet *movieDetailSnippet;
-@property(copy, nonatomic) NSArray *theaterShowtimeListCells;
 
 @end
 

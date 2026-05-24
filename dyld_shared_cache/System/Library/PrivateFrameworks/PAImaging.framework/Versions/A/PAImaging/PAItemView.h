@@ -9,7 +9,6 @@
 @interface PAItemView
 {
     PAItemViewConfiguration *_configuration;
-    _Bool _inLiveResize;
 }
 
 + (id);
@@ -43,9 +42,9 @@
 - (struct CGSize);
 - (struct CGPoint);
 - (struct CGRect);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (_Bool);
-- (void);
+- (void)CoordinatorDelegate>",W,N;
 - (void);
 - (void);
 - (long long);
@@ -68,23 +67,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) PAItemViewConfiguration *configuration;
-@property(nonatomic) struct CGPoint contentAnchor; // @dynamic contentAnchor;
-@property(readonly, nonatomic) struct CGRect contentBounds;
-@property(nonatomic) struct CGRect contentClipRect; // @dynamic contentClipRect;
-@property(nonatomic) struct CGPoint contentOrigin; // @dynamic contentOrigin;
-@property(nonatomic) struct CGPoint contentOriginPoint;
-@property(nonatomic) double contentScale; // @dynamic contentScale;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(nonatomic) CDStruct_1b6d18a9 frameRenderTime;
-@property(nonatomic) long long originalOrientation; // @dynamic originalOrientation;
-@property(nonatomic) struct CGSize originalSize; // @dynamic originalSize;
-@property(nonatomic) struct CATransform3D originalTransform; // @dynamic originalTransform;
-@property(nonatomic) struct CGPoint viewAnchorPoint;
-@property(readonly, nonatomic) struct CGRect viewContentBounds; // @dynamic viewContentBounds;
-@property(readonly, nonatomic) struct CGSize viewContentSize; // @dynamic viewContentSize;
-@property(readonly, nonatomic) struct CGRect visibleContentBounds; // @dynamic visibleContentBounds;
-@property(readonly, nonatomic) struct CGRect visibleOriginalContentBounds; // @dynamic visibleOriginalContentBounds;
-@property(readonly, nonatomic) struct CGRect visibleViewContentBounds; // @dynamic visibleViewContentBounds;
 
 @end
 

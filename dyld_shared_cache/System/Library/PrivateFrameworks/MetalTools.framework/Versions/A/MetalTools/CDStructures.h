@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4RenderPassDescriptor, MTLFunctionConstantValues, MTLGPUDebugDevice, MTLLegacySVDevice, NSData;
+@class MTLGPUDebugDevice, MTLLegacySVDevice;
 
 #pragma mark Blocks
 
@@ -12,95 +12,19 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct AppendBuffer {
-    CDUnknownFunctionPointerType *_vptr$AppendBuffer;
-    struct StreamBuffer stream;
-};
-
-struct AttachmentDescriptorSimple {
-    void *texture;
-    unsigned long long level;
-    struct _NSRange sliceRange;
-    struct _NSRange depthPlaneRange;
-    unsigned long long storeAction;
-};
-
-struct BVHTypeTable {
-    id _backingMemory;
-    id _residencySet;
-};
-
 struct BinaryBuffer {
     CDUnknownFunctionPointerType *_vptr$AppendBuffer;
     struct StreamBuffer stream;
     struct mach_timebase_info _timebase;
 };
 
-struct CheckerboardRenderTargetPipelineCache {
-    struct os_unfair_lock_s _cacheLock;
-    id _library;
-    id _vertexFunction;
-    id _depthStencilState[2];
-    MTLFunctionConstantValues *_fConstants;
-    struct unordered_map<MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>, MTLDebugCheckerboardFillHashKey::Hash, std::equal_to<MTLDebugCheckerboardFillHashKey>, std::allocator<std::pair<const MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>>> _cache;
-};
-
-struct GPUDebugBufferDescriptorHeap {
-    struct mutex s;
-    struct vector<unsigned int, std::allocator<unsigned int>> _freeIndexList;
-    struct vector<MTLGPUDebugBuffer *, std::allocator<MTLGPUDebugBuffer *>> _bufferList;
-    unsigned long long _freeIndex;
-    id _argumentEncoder;
-    id _descriptorHeap;
-};
-
-struct GPUDebugConstantBufferCache {
-    unsigned long long _totalUsedMemory;
-    struct mutex _accessMutex;
-    struct unordered_map<GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value, GPUDebugConstantBufferCache::Key::Hash, std::equal_to<GPUDebugConstantBufferCache::Key>, std::allocator<std::pair<const GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>>> _cache;
-    MTLGPUDebugDevice *_device;
-};
-
 struct GPUDebugDeviceOptions {
-    unsigned int retainReflection:1;
-    unsigned int retainPSOFunctions:1;
-    unsigned int abortOnFault:1;
-    unsigned int enableDumpToStderr:1;
-    unsigned int enableReportAllocationStackTrace:1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
 };
-
-struct GPUDebugEncoderBoundBufAddress {
-    unsigned long long gpuAddress;
-    unsigned long long stride;
-};
-
-struct GPUDebugEncoderBoundBuffers {
-    id resource;
-    unsigned long long offset;
-    unsigned long long stride;
-    unsigned long long type;
-};
-
-struct GPUDebugEventUUIDPacket {
-    unsigned long long pipelineStateID;
-    unsigned long long entryPointImageID;
-    unsigned int encoderID;
-    unsigned int eventID;
-};
-
-struct GPUDebugThreadgroupTableEntry {
-    unsigned int offset;
-    unsigned int length;
-};
-
-struct GlobalResidentBufferList {
-    MTLGPUDebugDevice *device;
-    unsigned int _iteration;
-    struct mutex _accessMutex;
-    struct list<id<MTLBuffer>, std::allocator<id<MTLBuffer>>> _bufferList;
-};
-
-struct HeapUsageTableEntry;
 
 struct IndirectArgumentBufferCapabilities {
     unsigned int :1;
@@ -109,48 +33,11 @@ struct IndirectArgumentBufferCapabilities {
     unsigned int :29;
 };
 
-struct Key {
-    CDStruct_41a22ec7 hash;
-    NSData *data;
-};
-
-struct KeyBufferPair {
-    struct Key key;
-    id buffer;
-};
-
-struct LegacySVBufferDescriptorHeap {
-    struct mutex s;
-    struct vector<unsigned int, std::allocator<unsigned int>> _freeIndexList;
-    struct vector<MTLLegacySVBuffer *, std::allocator<MTLLegacySVBuffer *>> _bufferList;
-    unsigned long long _freeIndex;
-    id _argumentEncoder;
-    id _descriptorHeap;
-};
-
-struct LegacySVConstantBufferCache {
-    unsigned long long _totalUsedMemory;
-    struct mutex _accessMutex;
-    struct unordered_map<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value, LegacySVConstantBufferCache::Key::Hash, std::equal_to<LegacySVConstantBufferCache::Key>, std::allocator<std::pair<const LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>>> _cache;
-    MTLLegacySVDevice *_device;
-};
-
 struct LegacySVDeviceOptions {
-    unsigned int retainReflection:1;
-    unsigned int retainPSOFunctions:1;
-    unsigned int abortOnFault:1;
-    unsigned int enableDumpToStderr:1;
-};
-
-struct LegacySVGlobalResidentBufferList {
-    unsigned int _iteration;
-    struct mutex _accessMutex;
-    struct list<id<MTLBuffer>, std::allocator<id<MTLBuffer>>> _bufferList;
-};
-
-struct LegacySVMetalBuffer {
-    struct LegacySVMetalBufferHeap *heap;
-    unsigned int index;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
 };
 
 struct LegacySVMetalBufferHeap {
@@ -174,51 +61,9 @@ struct MTL4DebugBindingInfo {
     _Bool _field2;
 };
 
-struct MTL4DebugCommandEncoderState {
-    unsigned int canEndEncoding:1;
-    unsigned int hasEndEncoding:1;
-};
-
-struct MTL4DebugComputeCommandEncoderState {
-    unsigned int canSetComputePipelineState:1;
-    unsigned int hasSetComputePipelineState:1;
-    unsigned int hasEncodedCommandBufferJump:1;
-    unsigned int isEncodingVirtualSubstream:1;
-    unsigned int isEncodingCommandBufferJump:1;
-};
-
-struct MTL4DebugRenderCommandEncoderState {
-    unsigned int canSetRenderPipelineState:1;
-    unsigned int canSetViewport:1;
-    unsigned int canSetVertexAmplificationFactor:1;
-    unsigned int canSetCullMode:1;
-    unsigned int canSetDepthClipMode:1;
-    unsigned int canSetDepthBias:1;
-    unsigned int canSetScissorRect:1;
-    unsigned int canSetTriangleFillMode:1;
-    unsigned int canSetBlendColor:1;
-    unsigned int canSetDepthStencilState:1;
-    unsigned int canSetStencilReferenceValue:1;
-    unsigned int canSetVisibilityResultMode:1;
-    unsigned int canSetFrontFacingWinding:1;
-    unsigned int hasSetRenderPipelineState:1;
-    unsigned int hasSetViewport:1;
-    unsigned int hasSetVertexAmplificationFactor:1;
-    unsigned int hasSetCullMode:1;
-    unsigned int hasSetDepthClipMode:1;
-    unsigned int hasSetDepthBias:1;
-    unsigned int hasSetScissorRect:1;
-    unsigned int hasSetTriangleFillMode:1;
-    unsigned int hasSetBlendColor:1;
-    unsigned int hasSetDepthStencilState:1;
-    unsigned int hasSetStencilReferenceValue:1;
-    unsigned int hasSetVisibilityResultMode:1;
-    unsigned int hasSetFrontFacingWinding:1;
-};
-
 struct MTL4DebugRenderPassInfo {
-    MTL4RenderPassDescriptor *resumingRenderPassDescriptor;
-    MTL4RenderPassDescriptor *suspendingRenderPassDescriptor;
+    id _field1;
+    id _field2;
 };
 
 struct MTLCompressedPixelFormatInfo {
@@ -242,53 +87,6 @@ struct MTLDebugFunctionArgument {
     _Bool hasLodClamp;
     float lodMinClamp;
     float lodMaxClamp;
-};
-
-struct MTLGPUDebugStageBufferHandles {
-    unsigned long long handles[31];
-    id resources[31];
-    unsigned long long offsets[31];
-    unsigned long long strides[31];
-    unsigned int lengths[31];
-    unsigned long long gpu_address[31][2];
-    _Bool needsFlush;
-};
-
-struct MTLGPUDebugThreadgroupLengths {
-    unsigned int threadgroupSizes[31];
-    struct GPUDebugThreadgroupTableEntry entries[32];
-    _Bool needsFlush;
-};
-
-struct MTLGPUDebugTileThreadgroup {
-    struct GPUDebugThreadgroupTableEntry entries[32];
-    _Bool needsFlush;
-};
-
-struct MTLLegacySVBufferSubAlloc {
-    id buffer;
-    unsigned long long offset;
-};
-
-struct MTLLegacySVStageBufferHandles {
-    unsigned long long handles[31];
-    id resources[31];
-    unsigned long long offsets[31];
-    unsigned long long strides[31];
-    unsigned int lengths[31];
-    unsigned long long gpu_address[31][2];
-    _Bool needsFlush;
-};
-
-struct MTLLegacySVThreadgroupLengths {
-    unsigned int threadgroupSizes[31];
-    struct GPUDebugThreadgroupTableEntry entries[32];
-    _Bool needsFlush;
-};
-
-struct MTLLegacySVTileThreadgroup {
-    struct GPUDebugThreadgroupTableEntry entries[32];
-    _Bool needsFlush;
 };
 
 struct MTLNormalPixelFormatInfo {
@@ -346,58 +144,9 @@ struct MTLTargetDeviceArch {
     char *_field3;
 };
 
-struct MTLTelemetryAnisoClippedCountsRec {
-    unsigned int _field1[4];
-};
-
-struct MTLTelemetryBufferDistributionRec {
-    struct MTLTelemetryBufferStatRec _field1;
-};
-
-struct MTLTelemetryBufferStatRec {
-    struct MTLTelemetryStatisticUIRec _field1;
-};
-
 struct MTLTelemetryCommandBufferCounttRec {
     unsigned int _field1;
     unsigned int _field2;
-};
-
-struct MTLTelemetryComputePipelineDistributionRec {
-    unsigned int _field1;
-    unsigned int _field2;
-    unsigned int _field3;
-    unsigned int _field4;
-    unsigned int _field5;
-};
-
-struct MTLTelemetryDepthStateDistributionRec {
-    unsigned int _field1;
-    unsigned int _field2[8];
-};
-
-struct MTLTelemetryDispatchDistributionRec {
-    unsigned int _field1;
-    struct MTLTelemetryStatisticUIRec _field2;
-    struct MTLTelemetryStatisticUIRec _field3;
-    struct MTLTelemetryStatisticUIRec _field4;
-    struct MTLTelemetryStatisticUIRec _field5;
-    struct MTLTelemetryStatisticUIRec _field6;
-    struct MTLTelemetryStatisticUIRec _field7;
-    struct MTLTelemetryStatisticUIRec _field8;
-    struct MTLTelemetryStatisticUIRec _field9;
-    struct MTLTelemetryStatisticUIRec _field10;
-    struct MTLTelemetryStatisticUIRec _field11;
-};
-
-struct MTLTelemetryDrawDistributionRec {
-    struct MTLTelemetryDrawStatRec _field1[5][3][3];
-};
-
-struct MTLTelemetryDrawStatRec {
-    unsigned int _field1;
-    struct MTLTelemetryStatisticUIRec _field2;
-    struct MTLTelemetryStatisticUIRec _field3;
 };
 
 struct MTLTelemetryEncoderCountRec {
@@ -405,49 +154,6 @@ struct MTLTelemetryEncoderCountRec {
     unsigned int _field2;
     unsigned int _field3;
     unsigned int _field4;
-};
-
-struct MTLTelemetryEncoderDistributionRec {
-    struct MTLTelemetryStatisticUIRec _field1;
-    struct MTLTelemetryStatisticUIRec _field2;
-    struct MTLTelemetryStatisticUIRec _field3;
-    struct MTLTelemetryStatisticUIRec _field4;
-    struct MTLTelemetryStatisticUIRec _field5;
-};
-
-struct MTLTelemetryKernelDistributionRec {
-    struct MTLTelemetryStatisticIRec _field1;
-    struct MTLTelemetryStatisticIRec _field2;
-    struct MTLTelemetryStatisticIRec _field3;
-    struct MTLTelemetryStatisticIRec _field4;
-};
-
-struct MTLTelemetryKernelStateRec {
-    int pbAlloc;
-    int spmRenderCount;
-    int tiledSceneBytes;
-    int renderCount;
-};
-
-struct MTLTelemetryRenderPipelineDistributionRec {
-    unsigned int _field1[8];
-    unsigned int _field2;
-    unsigned int _field3;
-    unsigned int _field4;
-    struct MTLTelemetryStatisticUIRec _field5;
-    struct MTLTelemetryStatisticUIRec _field6;
-    unsigned int _field7;
-    unsigned int _field8;
-    unsigned int _field9;
-    unsigned int _field10;
-    unsigned int _field11;
-    unsigned int _field12;
-    unsigned int _field13;
-};
-
-struct MTLTelemetrySamplerDistributionRec {
-    unsigned int _field1;
-    struct MTLTelemetrySamplerStatRec _field2[5][8];
 };
 
 struct MTLTelemetrySamplerStatRec {
@@ -461,12 +167,6 @@ struct MTLTelemetrySamplerStatRec {
     struct MTLTelemetryStatisticUIRec _field8;
 };
 
-struct MTLTelemetryScissorRectDistributionRec {
-    struct MTLTelemetryStatisticUIRec _field1;
-    struct MTLTelemetryStatisticFRec _field2;
-    struct MTLTelemetryStatisticFRec _field3;
-};
-
 struct MTLTelemetryStatisticFRec {
     float _field1;
     float _field2;
@@ -474,37 +174,11 @@ struct MTLTelemetryStatisticFRec {
     unsigned int _field4;
 };
 
-struct MTLTelemetryStatisticIRec {
-    int _field1;
-    int _field2;
-    long long _field3;
-    int _field4;
-};
-
 struct MTLTelemetryStatisticUIRec {
-    unsigned int min;
-    unsigned int max;
-    unsigned long long total;
-    unsigned int count;
-};
-
-struct MTLTelemetryStencilStateDistributionRec {
-    unsigned int _field1[8][8];
-    unsigned int _field2[8][8];
-    unsigned int _field3[8][8];
-};
-
-struct MTLTelemetrySupportQueryStatRec {
-    struct unordered_map<std::string, unsigned int, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, unsigned int>>> featureSetCount;
-    struct MTLTelemetryStatisticUIRec texSampleCount;
-};
-
-struct MTLTelemetryViewportDistributionRec {
-    struct MTLTelemetryStatisticUIRec _field1;
-    struct MTLTelemetryStatisticFRec _field2;
-    struct MTLTelemetryStatisticFRec _field3;
-    struct MTLTelemetryStatisticFRec _field4;
-    struct MTLTelemetryStatisticFRec _field5;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned long long _field3;
+    unsigned int _field4;
 };
 
 struct MTLTensorSlice {
@@ -513,8 +187,8 @@ struct MTLTensorSlice {
 };
 
 struct MetalBuffer {
-    struct MetalBufferHeap *heap;
-    unsigned int index;
+    struct MetalBufferHeap *_field1;
+    unsigned int _field2;
 };
 
 struct MetalBufferHeap {
@@ -526,54 +200,6 @@ struct MetalBufferHeap {
     unsigned long long _totalMemoryInUse;
     unsigned long long _bufferLength;
     MTLGPUDebugDevice *_device;
-};
-
-struct Options {
-    unsigned int version;
-    int mode;
-    int accessTypes;
-    int failMode;
-    unsigned int maxTrackedResourcesMultiplier;
-    struct {
-        unsigned int enableForPerPSO:1;
-        unsigned int enableReporting:1;
-        unsigned int packPointerAddresses:1;
-        unsigned int unpackPointerAddress:1;
-        unsigned int forceInline:1;
-        unsigned int enableBacktracking:1;
-        unsigned int optimizeConstantDeref:1;
-        unsigned int skipVertexFetchLoads:1;
-        unsigned int enableGEPOptimization:1;
-        unsigned int enableRuntimeStacktrace:1;
-        unsigned int emitBoundsChecking:1;
-        unsigned int runStandardOptimizations:1;
-        unsigned int backtrackFailuresAssumeSafe:1;
-        unsigned int pageDataIs32bitLength:1;
-        unsigned int forceUnrollLoops:1;
-        unsigned int mergeAccessChecks:1;
-        unsigned int convertToAB:1;
-        unsigned int arraysOfBuffersAB:1;
-        unsigned int noInlineTrivialFunctions:1;
-        unsigned int unrollMemCpyWA:1;
-        unsigned int checkGlobalConstants:1;
-        unsigned int enableTextureChecks:1;
-        unsigned int demoteGlobalConstantsToArg:1;
-        unsigned int argumentPointerIndirection:1;
-        unsigned int enableThreadgroupMemoryChecks:1;
-        unsigned int mergeThreadgroupGlobals:1;
-        unsigned int mergeThreadgroupArguments:1;
-        unsigned int tagThreadgroupPointers:1;
-        unsigned int enableJumpThreading:1;
-        unsigned int enableICBSupport:1;
-        unsigned int enableGlobalRelocations:1;
-        unsigned int enableTrapReporting:1;
-        unsigned int enableRaytracing:1;
-        unsigned int enableResourceUsageValidation:1;
-        unsigned int enableStackOverflow:1;
-        unsigned int enableDumpToStderr:1;
-        unsigned int enableAccelerationStructureChecking:1;
-        unsigned int enableRelaxedTextureArrayBindings:1;
-    } ;
 };
 
 struct ReportBufferEntry {
@@ -593,11 +219,6 @@ struct TensorUsageTable {
     id _residencySet;
 };
 
-struct TextureTypeTable {
-    id _backingMemory;
-    id _residencySet;
-};
-
 struct _MTLMessageContext {
     long long _field1;
     char *_field2;
@@ -609,17 +230,8 @@ struct _MTLMessageContext {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
-struct array<AttachmentDescriptorSimple, 8UL> {
-    struct AttachmentDescriptorSimple __elems_[8];
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct atomic<int> {
@@ -634,75 +246,16 @@ struct atomic<unsigned int> {
     } __a_;
 };
 
-struct atomic<unsigned long long> {
-    struct __cxx_atomic_impl<unsigned long long, std::__cxx_atomic_base_impl<unsigned long long>> {
-        _Atomic unsigned long long __a_value;
-    } __a_;
-};
-
-struct condition_variable {
-    struct _opaque_pthread_cond_t {
-        long long __sig;
-        char __opaque[40];
-    } __cv_;
-};
-
-struct deque<id, std::allocator<id>> {
-    struct __split_buffer<id *, std::allocator<id *>> {
-        id **__first_;
-        id **__begin_;
-        id **__end_;
-        struct {
-            id **__cap_;
-        } ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
-};
-
-struct list<LegacySVResourceAndUsage, std::allocator<LegacySVResourceAndUsage>> {
-    struct __list_node_base<LegacySVResourceAndUsage, void *> {
-        void *__prev_;
-        void *__next_;
-    } __end_;
-    CDStruct_a7186859 ;
-};
-
-struct list<id<MTLBuffer>, std::allocator<id<MTLBuffer>>> {
-    struct __list_node_base<id<MTLBuffer>, void *> {
-        void *__prev_;
-        void *__next_;
-    } __end_;
-    CDStruct_a7186859 ;
-};
-
-struct list<id<MTLHeap>, std::allocator<id<MTLHeap>>> {
-    struct __list_node_base<id<MTLHeap>, void *> {
-        void *__prev_;
-        void *__next_;
-    } __end_;
-    CDStruct_a7186859 ;
-};
-
-struct list<resourceAndUsage, std::allocator<resourceAndUsage>> {
-    struct __list_node_base<resourceAndUsage, void *> {
-        void *__prev_;
-        void *__next_;
-    } __end_;
-    CDStruct_a7186859 ;
-};
-
 struct mach_timebase_info {
     unsigned int numer;
     unsigned int denom;
 };
 
 struct mutex {
-    struct _opaque_pthread_mutex_t __m_;
-};
-
-struct once_flag {
-    unsigned long long __state_;
+    struct _opaque_pthread_mutex_t {
+        long long __sig;
+        char __opaque[56];
+    } __m_;
 };
 
 struct optional<unsigned long> {
@@ -732,134 +285,6 @@ struct pair<id<MTLBuffer>, unsigned long> {
     unsigned long long _field2;
 };
 
-struct recursive_mutex {
-    struct _opaque_pthread_mutex_t __m_;
-};
-
-struct set<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> {
-    struct __tree<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct set<unsigned long, std::less<unsigned long>, std::allocator<unsigned long>> {
-    struct __tree<unsigned long, std::less<unsigned long>, std::allocator<unsigned long>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct shared_mutex {
-    struct __shared_mutex_base {
-        struct mutex __mut_;
-        struct condition_variable __gate1_;
-        struct condition_variable __gate2_;
-        unsigned int __state_;
-    } __base_;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<AttachmentDescriptorSimple, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<AttachmentDescriptorSimple, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<AttachmentDescriptorSimple, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<MTLDebugCommandBuffer *, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<MTLDebugCommandBuffer *, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<MTLDebugCommandBuffer *, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<MTLToolsObject *, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<MTLToolsObject *, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<MTLToolsObject *, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<id<MTLDebugResourcePurgeable>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<id<MTLDebugResourcePurgeable>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<id<MTLDebugResourcePurgeable>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryBlitDistribution>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryBlitDistribution>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryBlitDistribution>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryRenderTargetDistribution>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryRenderTargetDistribution>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryRenderTargetDistribution>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SubView, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SubView, unsigned long>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SubView, unsigned long>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::array<unsigned long long, 3>, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::array<unsigned long long, 3>, unsigned int>, void *>*>*>>> {
     struct {
         void **__ptr_;
@@ -869,212 +294,22 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
     } ;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, MTLTelemetryStatisticUIRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, MTLTelemetryStatisticUIRec>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, MTLTelemetryStatisticUIRec>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned int>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned int>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryComputePipelineUsageRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryComputePipelineUsageRec>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryComputePipelineUsageRec>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderFuncUsageRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderFuncUsageRec>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderFuncUsageRec>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderPipelineUsageRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderPipelineUsageRec>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderPipelineUsageRec>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*>>> {
     struct {
-        void **__ptr_;
+        void **_field1;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLGPUDebugResidencySet *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLGPUDebugResidencySet *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLGPUDebugResidencySet *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLLegacySVResidencySet *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLLegacySVResidencySet *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLLegacySVResidencySet *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
+            CDStruct_a7186859 _field1;
+        } _field2;
+    } _field1;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>>> {
     struct {
-        void **__ptr_;
+        void **_field1;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value, GPUDebugConstantBufferCache::Key::Hash, std::equal_to<GPUDebugConstantBufferCache::Key>, std::allocator<std::pair<const GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>>> {
-    struct __hash_table<std::__hash_value_type<GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>, std::__unordered_map_hasher<GPUDebugConstantBufferCache::Key, std::pair<const GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>, GPUDebugConstantBufferCache::Key::Hash, std::equal_to<GPUDebugConstantBufferCache::Key>>, std::__unordered_map_equal<GPUDebugConstantBufferCache::Key, std::pair<const GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>, std::equal_to<GPUDebugConstantBufferCache::Key>, GPUDebugConstantBufferCache::Key::Hash>, std::allocator<std::pair<const GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<GPUDebugConstantBufferCache::Key, GPUDebugConstantBufferCache::Value>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value, LegacySVConstantBufferCache::Key::Hash, std::equal_to<LegacySVConstantBufferCache::Key>, std::allocator<std::pair<const LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>>> {
-    struct __hash_table<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, std::__unordered_map_hasher<LegacySVConstantBufferCache::Key, std::pair<const LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, LegacySVConstantBufferCache::Key::Hash, std::equal_to<LegacySVConstantBufferCache::Key>>, std::__unordered_map_equal<LegacySVConstantBufferCache::Key, std::pair<const LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, std::equal_to<LegacySVConstantBufferCache::Key>, LegacySVConstantBufferCache::Key::Hash>, std::allocator<std::pair<const LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>, MTLDebugCheckerboardFillHashKey::Hash, std::equal_to<MTLDebugCheckerboardFillHashKey>, std::allocator<std::pair<const MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>>> {
-    struct __hash_table<std::__hash_value_type<MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>, std::__unordered_map_hasher<MTLDebugCheckerboardFillHashKey, std::pair<const MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>, MTLDebugCheckerboardFillHashKey::Hash, std::equal_to<MTLDebugCheckerboardFillHashKey>>, std::__unordered_map_equal<MTLDebugCheckerboardFillHashKey, std::pair<const MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>, std::equal_to<MTLDebugCheckerboardFillHashKey>, MTLDebugCheckerboardFillHashKey::Hash>, std::allocator<std::pair<const MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLDebugCheckerboardFillHashKey, id<MTLRenderPipelineState>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLPixelFormat, MTLTelemetryBlitDistribution, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryBlitDistribution>>> {
-    struct __hash_table<std::__hash_value_type<MTLPixelFormat, MTLTelemetryBlitDistribution>, std::__unordered_map_hasher<MTLPixelFormat, std::pair<const MTLPixelFormat, MTLTelemetryBlitDistribution>, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>>, std::__unordered_map_equal<MTLPixelFormat, std::pair<const MTLPixelFormat, MTLTelemetryBlitDistribution>, std::equal_to<MTLPixelFormat>, std::hash<unsigned long long>>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryBlitDistribution>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryBlitDistribution>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryBlitDistribution>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryBlitDistribution>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLPixelFormat, MTLTelemetryRenderTargetDistribution, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryRenderTargetDistribution>>> {
-    struct __hash_table<std::__hash_value_type<MTLPixelFormat, MTLTelemetryRenderTargetDistribution>, std::__unordered_map_hasher<MTLPixelFormat, std::pair<const MTLPixelFormat, MTLTelemetryRenderTargetDistribution>, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>>, std::__unordered_map_equal<MTLPixelFormat, std::pair<const MTLPixelFormat, MTLTelemetryRenderTargetDistribution>, std::equal_to<MTLPixelFormat>, std::hash<unsigned long long>>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryRenderTargetDistribution>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryRenderTargetDistribution>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryRenderTargetDistribution>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryRenderTargetDistribution>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<MTLPixelFormat, MTLTelemetryTextureDistribution, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryTextureDistribution>>> {
-    struct __hash_table<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, std::__unordered_map_hasher<MTLPixelFormat, std::pair<const MTLPixelFormat, MTLTelemetryTextureDistribution>, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>>, std::__unordered_map_equal<MTLPixelFormat, std::pair<const MTLPixelFormat, MTLTelemetryTextureDistribution>, std::equal_to<MTLPixelFormat>, std::hash<unsigned long long>>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryTextureDistribution>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<SubView, unsigned long, SubView::hash_t, SubView::equal_t, std::allocator<std::pair<const SubView, unsigned long>>> {
-    struct __hash_table<std::__hash_value_type<SubView, unsigned long>, std::__unordered_map_hasher<SubView, std::pair<const SubView, unsigned long>, SubView::hash_t, SubView::equal_t>, std::__unordered_map_equal<SubView, std::pair<const SubView, unsigned long>, SubView::equal_t, SubView::hash_t>, std::allocator<std::pair<const SubView, unsigned long>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SubView, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SubView, unsigned long>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<SubView, unsigned long>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
+            CDStruct_a7186859 _field1;
+        } _field2;
+    } _field1;
 };
 
 struct unordered_map<std::array<unsigned long long, 3>, unsigned int, MTLSamplerDescriptorHashMap::hash_t, MTLSamplerDescriptorHashMap::equal_t, std::allocator<std::pair<const std::array<unsigned long long, 3>, unsigned int>>> {
@@ -1090,225 +325,30 @@ struct unordered_map<std::array<unsigned long long, 3>, unsigned int, MTLSampler
     } __table_;
 };
 
-struct unordered_map<std::string, MTLTelemetryStatisticUIRec, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, MTLTelemetryStatisticUIRec>>> {
-    struct __hash_table<std::__hash_value_type<std::string, MTLTelemetryStatisticUIRec>, std::__unordered_map_hasher<std::string, std::pair<const std::string, MTLTelemetryStatisticUIRec>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, MTLTelemetryStatisticUIRec>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, MTLTelemetryStatisticUIRec>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, MTLTelemetryStatisticUIRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, MTLTelemetryStatisticUIRec>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, MTLTelemetryStatisticUIRec>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<std::string, unsigned int, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, unsigned int>>> {
-    struct __hash_table<std::__hash_value_type<std::string, unsigned int>, std::__unordered_map_hasher<std::string, std::pair<const std::string, unsigned int>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, unsigned int>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, unsigned int>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned int>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned int>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned int, MTLTelemetryComputePipelineUsageRec, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, MTLTelemetryComputePipelineUsageRec>>> {
-    struct __hash_table<std::__hash_value_type<unsigned int, MTLTelemetryComputePipelineUsageRec>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, MTLTelemetryComputePipelineUsageRec>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, MTLTelemetryComputePipelineUsageRec>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, MTLTelemetryComputePipelineUsageRec>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryComputePipelineUsageRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryComputePipelineUsageRec>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryComputePipelineUsageRec>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned int, MTLTelemetryKernelUsageRec, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, MTLTelemetryKernelUsageRec>>> {
-    struct __hash_table<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, MTLTelemetryKernelUsageRec>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, MTLTelemetryKernelUsageRec>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, MTLTelemetryKernelUsageRec>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryKernelUsageRec>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned int, MTLTelemetryRenderFuncUsageRec, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, MTLTelemetryRenderFuncUsageRec>>> {
-    struct __hash_table<std::__hash_value_type<unsigned int, MTLTelemetryRenderFuncUsageRec>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, MTLTelemetryRenderFuncUsageRec>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, MTLTelemetryRenderFuncUsageRec>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, MTLTelemetryRenderFuncUsageRec>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderFuncUsageRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderFuncUsageRec>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderFuncUsageRec>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned int, MTLTelemetryRenderPipelineUsageRec, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, MTLTelemetryRenderPipelineUsageRec>>> {
-    struct __hash_table<std::__hash_value_type<unsigned int, MTLTelemetryRenderPipelineUsageRec>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, MTLTelemetryRenderPipelineUsageRec>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, MTLTelemetryRenderPipelineUsageRec>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, MTLTelemetryRenderPipelineUsageRec>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderPipelineUsageRec>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderPipelineUsageRec>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, MTLTelemetryRenderPipelineUsageRec>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
 struct unordered_map<unsigned int, NSString *, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, NSString *>>> {
     struct __hash_table<std::__hash_value_type<unsigned int, NSString *>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, NSString *>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, NSString *>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, NSString *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>>> {
-    struct __hash_table<std::__hash_value_type<unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<GPUDebugArgumentEncoderLayout>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>>> {
-    struct __hash_table<std::__hash_value_type<unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned long, (anonymous namespace)::EncoderResourceUsage, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, (anonymous namespace)::EncoderResourceUsage>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, std::__unordered_map_hasher<unsigned long, std::pair<const unsigned long, (anonymous namespace)::EncoderResourceUsage>, std::hash<unsigned long>, std::equal_to<unsigned long>>, std::__unordered_map_equal<unsigned long, std::pair<const unsigned long, (anonymous namespace)::EncoderResourceUsage>, std::equal_to<unsigned long>, std::hash<unsigned long>>, std::allocator<std::pair<const unsigned long, (anonymous namespace)::EncoderResourceUsage>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned long, MTLGPUDebugResidencySet *, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, MTLGPUDebugResidencySet *>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long, MTLGPUDebugResidencySet *>, std::__unordered_map_hasher<unsigned long, std::pair<const unsigned long, MTLGPUDebugResidencySet *>, std::hash<unsigned long>, std::equal_to<unsigned long>>, std::__unordered_map_equal<unsigned long, std::pair<const unsigned long, MTLGPUDebugResidencySet *>, std::equal_to<unsigned long>, std::hash<unsigned long>>, std::allocator<std::pair<const unsigned long, MTLGPUDebugResidencySet *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLGPUDebugResidencySet *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLGPUDebugResidencySet *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLGPUDebugResidencySet *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned long, MTLLegacySVResidencySet *, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<std::pair<const unsigned long, MTLLegacySVResidencySet *>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long, MTLLegacySVResidencySet *>, std::__unordered_map_hasher<unsigned long, std::pair<const unsigned long, MTLLegacySVResidencySet *>, std::hash<unsigned long>, std::equal_to<unsigned long>>, std::__unordered_map_equal<unsigned long, std::pair<const unsigned long, MTLLegacySVResidencySet *>, std::equal_to<unsigned long>, std::hash<unsigned long>>, std::allocator<std::pair<const unsigned long, MTLLegacySVResidencySet *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLLegacySVResidencySet *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLLegacySVResidencySet *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, MTLLegacySVResidencySet *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_multiset<AttachmentDescriptorSimple, AttachmentDescriptorSimple::hash_t, AttachmentDescriptorSimple::equal_t, std::allocator<AttachmentDescriptorSimple>> {
-    struct __hash_table<AttachmentDescriptorSimple, AttachmentDescriptorSimple::hash_t, AttachmentDescriptorSimple::equal_t, std::allocator<AttachmentDescriptorSimple>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<AttachmentDescriptorSimple, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<AttachmentDescriptorSimple, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<AttachmentDescriptorSimple, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_set<MTLDebugCommandBuffer *, std::hash<MTLDebugCommandBuffer *>, std::equal_to<MTLDebugCommandBuffer *>, std::allocator<MTLDebugCommandBuffer *>> {
-    struct __hash_table<MTLDebugCommandBuffer *, std::hash<MTLDebugCommandBuffer *>, std::equal_to<MTLDebugCommandBuffer *>, std::allocator<MTLDebugCommandBuffer *>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<MTLDebugCommandBuffer *, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<MTLDebugCommandBuffer *, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<MTLDebugCommandBuffer *, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_set<MTLToolsObject *, std::hash<MTLToolsObject *>, std::equal_to<MTLToolsObject *>, std::allocator<MTLToolsObject *>> {
-    struct __hash_table<MTLToolsObject *, std::hash<MTLToolsObject *>, std::equal_to<MTLToolsObject *>, std::allocator<MTLToolsObject *>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<MTLToolsObject *, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<MTLToolsObject *, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<MTLToolsObject *, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_set<id<MTLDebugResourcePurgeable>, std::hash<id<MTLDebugResourcePurgeable>>, std::equal_to<id<MTLDebugResourcePurgeable>>, std::allocator<id<MTLDebugResourcePurgeable>>> {
-    struct __hash_table<id<MTLDebugResourcePurgeable>, std::hash<id<MTLDebugResourcePurgeable>>, std::equal_to<id<MTLDebugResourcePurgeable>>, std::allocator<id<MTLDebugResourcePurgeable>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<id<MTLDebugResourcePurgeable>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<id<MTLDebugResourcePurgeable>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<id<MTLDebugResourcePurgeable>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
 };
 
 struct unordered_set<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> {
     struct __hash_table<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<unsigned long long, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
 };
 
 struct variant<std::pair<MTLGPUDebugBuffer *, unsigned long>, MTLIndirectCommandBufferExecutionRange> {
@@ -1337,64 +377,12 @@ struct variant<std::pair<MTLLegacySVBuffer *, unsigned long>, MTLIndirectCommand
     } _field1;
 };
 
-struct vector<(anonymous namespace)::(anonymous namespace)::HeapUsageTable::HeapUsageTableEntry, std::allocator<(anonymous namespace)::(anonymous namespace)::HeapUsageTable::HeapUsageTableEntry>> {
-    struct HeapUsageTableEntry *__begin_;
-    struct HeapUsageTableEntry *__end_;
-    CDStruct_2f33ae1a ;
-};
-
-struct vector<(anonymous namespace)::ReportBufferEntry, std::allocator<(anonymous namespace)::ReportBufferEntry>> {
-    struct ReportBufferEntry *__begin_;
-    struct ReportBufferEntry *__end_;
-    struct {
-        struct ReportBufferEntry *__cap_;
-    } ;
-};
-
-struct vector<HeapUsageTable::HeapUsageTableEntry, std::allocator<HeapUsageTable::HeapUsageTableEntry>> {
-    struct HeapUsageTableEntry *__begin_;
-    struct HeapUsageTableEntry *__end_;
-    CDStruct_2f33ae1a ;
-};
-
-struct vector<LegacySVMetalBuffer, std::allocator<LegacySVMetalBuffer>> {
-    struct LegacySVMetalBuffer *__begin_;
-    struct LegacySVMetalBuffer *__end_;
-    struct {
-        struct LegacySVMetalBuffer *__cap_;
-    } ;
-};
-
 struct vector<MTL4DebugBindingInfo, std::allocator<MTL4DebugBindingInfo>> {
     struct MTL4DebugBindingInfo *__begin_;
     struct MTL4DebugBindingInfo *__end_;
     struct {
         struct MTL4DebugBindingInfo *__cap_;
     } ;
-};
-
-struct vector<MTLGPUDebugBuffer *, std::allocator<MTLGPUDebugBuffer *>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
-struct vector<MTLLegacySVBuffer *, std::allocator<MTLLegacySVBuffer *>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
-struct vector<MTLScissorRect, std::allocator<MTLScissorRect>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
-};
-
-struct vector<MTLViewport, std::allocator<MTLViewport>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
 };
 
 struct vector<MetalBuffer, std::allocator<MetalBuffer>> {
@@ -1405,25 +393,7 @@ struct vector<MetalBuffer, std::allocator<MetalBuffer>> {
     } ;
 };
 
-struct vector<NSString *, std::allocator<NSString *>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
-struct vector<id, std::allocator<id>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
 struct vector<id<MTLBuffer>, std::allocator<id<MTLBuffer>>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
-struct vector<id<MTLFence>, std::allocator<id<MTLFence>>> {
     id *__begin_;
     id *__end_;
     CDStruct_b6058e76 ;
@@ -1435,18 +405,6 @@ struct vector<id<MTLGPUDebugViewable>, std::allocator<id<MTLGPUDebugViewable>>> 
     CDStruct_b6058e76 ;
 };
 
-struct vector<std::pair<NSData *, unsigned long>, std::allocator<std::pair<NSData *, unsigned long>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::pair<unsigned int, MTLTextureType>, std::allocator<std::pair<unsigned int, MTLTextureType>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
 struct vector<unsigned int, std::allocator<unsigned int>> {
     unsigned int *__begin_;
     unsigned int *__end_;
@@ -1454,37 +412,6 @@ struct vector<unsigned int, std::allocator<unsigned int>> {
         unsigned int *__cap_;
     } ;
 };
-
-struct vector<void (^)(id<MTLCommandBuffer>), std::allocator<void (^)(id<MTLCommandBuffer>)>> {
-    CDUnknownBlockType *__begin_;
-    CDUnknownBlockType *__end_;
-    CDStruct_73970acf ;
-};
-
-struct vector<void (^)(id<MTLIOCommandBuffer>), std::allocator<void (^)(id<MTLIOCommandBuffer>)>> {
-    CDUnknownBlockType *__begin_;
-    CDUnknownBlockType *__end_;
-    CDStruct_73970acf ;
-};
-
-#if 0
-// Names with conflicting types:
-typedef struct {
-    id _backingMemory;
-    id _residencySet;
-} TextureUsageTable_bc03d9af;
-
-typedef struct {
-    id _backingMemory;
-    id _residencySet;
-} BufferUsageTable_ae770826;
-
-typedef struct {
-    unsigned long long _heapUsage;
-    struct vector<HeapUsageTable::HeapUsageTableEntry, std::allocator<HeapUsageTable::HeapUsageTableEntry>> _heapEntries;
-} HeapUsageTable_a27726bc;
-
-#endif
 
 #pragma mark Typedef'd Structures
 
@@ -1602,9 +529,9 @@ typedef struct {
 } CDStruct_32a7f38a;
 
 typedef struct {
-    unsigned int viewportArrayIndexOffset;
-    unsigned int renderTargetArrayIndexOffset;
-} CDStruct_1987c1e3;
+    unsigned int _field1;
+    unsigned int _field2;
+} CDStruct_c0454aff;
 
 typedef struct {
     unsigned long long _field1;
@@ -1612,6 +539,17 @@ typedef struct {
     unsigned long long _field3;
     unsigned long long _field4;
 } CDStruct_33dcf794;
+
+typedef struct {
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+} CDStruct_14f26992;
+
+typedef struct {
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 
 typedef struct {
     unsigned long long __size_;
@@ -1622,20 +560,12 @@ typedef struct {
 } CDStruct_492b6082;
 
 typedef struct {
-    unsigned char key[32];
-} CDStruct_41a22ec7;
-
-typedef struct {
-    CDUnknownBlockType *__cap_;
-} CDStruct_73970acf;
+    unsigned char _field1[32];
+} CDStruct_5af0f983;
 
 typedef struct {
     id *__cap_;
 } CDStruct_b6058e76;
-
-typedef struct {
-    void *__cap_;
-} CDStruct_63fd5f43;
 
 typedef struct {
     unsigned int :8;
@@ -1670,93 +600,46 @@ typedef struct {
     float __max_load_factor_;
 } CDStruct_717dde41;
 
-typedef struct CDStruct_183601bc;
-
 typedef struct {
     _Bool _field1;
     unsigned long long _field2;
-    CDStruct_183601bc *_field3;
+    struct *_field3;
 } CDStruct_dbc1e4aa;
-
-typedef struct {
-    unsigned char count;
-    _Bool mappingsValid;
-    CDStruct_1987c1e3 mappings[2];
-} CDStruct_dc0525a1;
 
 typedef struct {
     unsigned long long _field1;
     struct _NSRange _field2;
     unsigned long long _field3;
-} CDStruct_eb0540b6;
+} CDStruct_9583062b;
 
 typedef struct {
-    CDStruct_183601bc *__cap_;
-} CDStruct_669ce3ce;
-
-typedef struct {
-    struct HeapUsageTableEntry *__cap_;
-} CDStruct_2f33ae1a;
-
-typedef struct {
-    struct {
-        unsigned long long x;
-        unsigned long long y;
-        unsigned long long z;
-    } origin;
-    CDStruct_da2e99ad size;
-} CDStruct_1e3be3a8;
+    CDStruct_14f26992 _field1;
+    CDStruct_14f26992 _field2;
+} CDStruct_4c83c94d;
 
 typedef struct {
     struct _NSRange _field1;
     unsigned long long _field2;
-} CDStruct_477d7e2c;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
+} CDStruct_d201eb49;
 
 typedef struct {
     unsigned long long _field1;
-    CDStruct_1e3be3a8 _field2;
+    CDStruct_4c83c94d _field2;
     unsigned long long _field3;
     unsigned long long _field4;
     unsigned long long _field5;
-} CDStruct_dc3d9b0d;
+} CDStruct_49fbaed9;
 
 typedef struct {
-    CDStruct_1e3be3a8 _field1;
+    CDStruct_4c83c94d _field1;
     unsigned long long _field2;
     unsigned long long _field3;
-    struct {
-        unsigned long long _field1;
-        unsigned long long _field2;
-        unsigned long long _field3;
-    } _field4;
+    CDStruct_14f26992 _field4;
     unsigned long long _field5;
     unsigned long long _field6;
-} CDStruct_0a30430b;
+} CDStruct_89bbf302;
 
-// Ambiguous groups
-typedef struct {
-    unsigned long long _field1;
-    unsigned long long _field2;
-    unsigned long long _field3;
-} CDStruct_14f26992;
-
-typedef struct {
-    unsigned long long width;
-    unsigned long long height;
-    unsigned long long depth;
-} CDStruct_da2e99ad;
-
-typedef struct {
-    unsigned long long _field1;
-    unsigned long long _field2;
-} CDStruct_4bcfbbae;
-
+// Template types
 typedef struct optional<unsigned long> {
     union {
         char _field1;
@@ -1772,29 +655,29 @@ typedef struct pair<id<MTLBuffer>, unsigned long> {
 
 typedef struct unordered_map<unsigned int, NSString *, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, NSString *>>> {
     struct __hash_table<std::__hash_value_type<unsigned int, NSString *>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, NSString *>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, NSString *>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, NSString *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-} unordered_map_db0d7cf3;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
+} unordered_map_70287d69;
 
 typedef struct unordered_set<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> {
     struct __hash_table<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<unsigned long long, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-} unordered_set_c419ef69;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
+} unordered_set_a92c6a78;
 
 typedef struct variant<std::pair<MTLGPUDebugBuffer *, unsigned long>, MTLIndirectCommandBufferExecutionRange> {
     struct __impl<std::pair<MTLGPUDebugBuffer *, unsigned long>, MTLIndirectCommandBufferExecutionRange> {
@@ -1807,7 +690,7 @@ typedef struct variant<std::pair<MTLGPUDebugBuffer *, unsigned long>, MTLIndirec
         } _field1;
         unsigned int _field2;
     } _field1;
-} variant_a1019469;
+} variant_50d733a4;
 
 typedef struct variant<std::pair<MTLLegacySVBuffer *, unsigned long>, MTLIndirectCommandBufferExecutionRange> {
     struct __impl<std::pair<MTLLegacySVBuffer *, unsigned long>, MTLIndirectCommandBufferExecutionRange> {
@@ -1820,7 +703,7 @@ typedef struct variant<std::pair<MTLLegacySVBuffer *, unsigned long>, MTLIndirec
         } _field1;
         unsigned int _field2;
     } _field1;
-} variant_c0748a4d;
+} variant_0da59ec2;
 
 typedef struct vector<MetalBuffer, std::allocator<MetalBuffer>> {
     struct MetalBuffer *__begin_;
@@ -1835,7 +718,7 @@ typedef struct vector<MetalBuffer, std::allocator<MetalBuffer>> {
 union __union<std::__variant_detail::_Trait::_TriviallyAvailable, 1UL, MTLIndirectCommandBufferExecutionRange> {
     char _field1;
     struct __alt<1UL, MTLIndirectCommandBufferExecutionRange> {
-        CDStruct_1987c1e3 _field1;
+        CDStruct_c0454aff _field1;
     } _field2;
     union __union<std::__variant_detail::_Trait::_TriviallyAvailable, 2UL> _field3;
 };

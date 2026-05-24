@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSFallbackStingrayRecordFallbackStingrayClientMetadata, NSData, NSString;
+@class NSData;
 
 @interface CSFallbackStingrayRecord
 {
     NSData *_backupKeybagSHA256;
-    CSFallbackStingrayRecordFallbackStingrayClientMetadata *_clientMetadata;
-    NSString *_timestamp;
 }
 
 + (id);
@@ -20,13 +18,13 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ing callback with options = %{public}@, notification identifier = %{public}@;
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)CNLikenessConverter;
+- (_Bool)Py;
 - (void);
-- (void);
+- (void)CL;
 - (id);
 - (id);
 - (void);
@@ -35,12 +33,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *backupKeybagSHA256; // @synthesize backupKeybagSHA256=_backupKeybagSHA256;
-@property(retain, nonatomic) CSFallbackStingrayRecordFallbackStingrayClientMetadata *clientMetadata; // @synthesize clientMetadata=_clientMetadata;
-@property(readonly, nonatomic) _Bool hasBackupKeybagSHA256;
 @property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(readonly, nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -14,12 +14,12 @@
 + (_Bool)0@ù
 × ;
 - (long long);
-- (id);
+- (id)�*	*b;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id)hRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (_Bool)setComplete:(id)arg1;
+- (void)mptcpHeuristicFallbackFirstParty;
+- (id)accountTermsWithRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long miniCardTemplateType; // @synthesize miniCardTemplateType=_miniCardTemplateType;

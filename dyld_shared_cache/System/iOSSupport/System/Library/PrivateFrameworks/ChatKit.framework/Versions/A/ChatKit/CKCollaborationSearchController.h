@@ -6,27 +6,25 @@
 
 #import <ChatKit/CKMessageTypeSearchController.h>
 
-@class NSString;
-
 @interface CKCollaborationSearchController : CKMessageTypeSearchController
 {
 }
 
 + (_Bool);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)d},R,N;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)GShyAVGGAYG;
+- (id)D;
+- (id)u;
+- (_Bool)le at %@. Error:(id)arg1 %@;
 - (void);
-- (void);
+- (void)ata:(id)arg1 ];
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (id);
 - (id);
@@ -34,16 +32,10 @@
 - (id);
 - (double);
 - (id);
-- (long long)n;
+- (long long)CKEntryViewEmptyActionDebounceDuration;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

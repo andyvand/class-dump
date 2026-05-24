@@ -9,12 +9,10 @@
 @interface SFSuggestedUser
 {
     NSString *_value;
-    long long _type;
-    long long _usageFrequency;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)inputNeutral;
 - (long long);
 - (void);
 - (id);
@@ -22,7 +20,7 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)T@"NSArray",C,N;
 - (void);
 - (id);
 - (id);
@@ -31,9 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 @property(nonatomic) long long usageFrequency; // @synthesize usageFrequency=_usageFrequency;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

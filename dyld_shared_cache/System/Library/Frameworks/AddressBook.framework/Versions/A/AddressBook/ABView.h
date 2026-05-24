@@ -15,11 +15,11 @@
 + (void);
 + (void);
 + (void);
-+ (long long);
++ (long long)�b;
 + (void);
 + (void);
 + (double);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (void);
@@ -30,7 +30,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (id);
 + (void);

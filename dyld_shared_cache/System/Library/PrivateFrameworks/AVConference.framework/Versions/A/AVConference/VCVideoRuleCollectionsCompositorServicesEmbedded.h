@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)ocalInterface:] /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
 - (_Bool);
 - (void);
 

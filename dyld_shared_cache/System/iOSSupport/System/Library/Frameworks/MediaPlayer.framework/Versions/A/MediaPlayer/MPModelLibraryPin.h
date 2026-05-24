@@ -6,33 +6,31 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelAlbum, MPModelArtist, MPModelPlaylist, MPModelSong, NSString;
-
 @interface MPModelLibraryPin : MPModelObject
 {
     MPModelObject *_pinnedEntity;
 }
 
++ (id)*P;
 + (id);
 + (id);
++ (id);
 + (id);
++ (id)aG;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (id)B;
++ (id)orks/CoreDuetContext.framework/CoreDuetContext;
++ (id)Duet;
++ (void)tream name:%@, localPublisher:%@, identifier:%@ /* Error: Ran out of types for this method. */;
++ (void)omputePublisherClient unsubscribe with connection name:%@, publisher stream name:%@, localPublisher:%@, identifier:%@ /* Error: Ran out of types for this method. */;
++ (void)%@;
++ (void)ocalPublisher:%@, subscription:%@ /* Error: Ran out of types for this method. */;
++ (void)t time on biome daemon launch donation;
++ (void)rror while unarchiving Duet Knowledge Event:%@ /* Error: Ran out of types for this method. */;
++ (void)d data.;
++ (void)ent proto;
++ (void)nowledge Event for proto:%@ /* Error: Ran out of types for this method. */;
++ (void)BGroupActivitySessionEvent proto;
 - (void);
 - (id);
 - (id);
@@ -40,17 +38,7 @@
 - (void)toreCellularNetworkingAllowed;
 
 // Remaining properties
-@property(retain, nonatomic) MPModelAlbum *album; // @dynamic album;
-@property(retain, nonatomic) MPModelArtist *artist; // @dynamic artist;
-@property(nonatomic) long long defaultAction; // @dynamic defaultAction;
-@property(readonly, nonatomic) long long persistentID; // @dynamic persistentID;
 @property(retain, nonatomic) MPModelObject *pinnedEntity; // @synthesize pinnedEntity=_pinnedEntity;
-@property(nonatomic) long long pinnedEntityPersistentID; // @dynamic pinnedEntityPersistentID;
-@property(nonatomic) long long pinnedEntityType; // @dynamic pinnedEntityType;
-@property(retain, nonatomic) MPModelPlaylist *playlist; // @dynamic playlist;
-@property(nonatomic) long long position; // @dynamic position;
-@property(copy, nonatomic) NSString *positionUUID; // @dynamic positionUUID;
-@property(retain, nonatomic) MPModelSong *song; // @dynamic song;
 
 @end
 

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError;
+@protocol BPSSubscriber;
+
 @protocol BPSPublisher
+
+@optional
+- (id)(;
+- (NSError *)voiceControllerRecordHardwareConfigurationDidChange:(id <BPSSubscriber>)arg1 toConfiguration: /* Error: Ran out of types for this method. */;
 @end
 

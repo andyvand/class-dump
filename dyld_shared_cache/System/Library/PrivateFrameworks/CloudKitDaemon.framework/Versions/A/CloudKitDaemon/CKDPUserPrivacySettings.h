@@ -7,19 +7,16 @@
 @interface CKDPUserPrivacySettings
 {
     _Bool _discoverable;
-    struct {
-        unsigned int discoverable:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)providerForImageForItem:(_Bool)arg1 scope:queue:renderingHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)dAudioData(APRTAETranscoderAndSender *);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool discoverable; // @synthesize discoverable=_discoverable;
 @property(nonatomic) _Bool hasDiscoverable;
 
 @end

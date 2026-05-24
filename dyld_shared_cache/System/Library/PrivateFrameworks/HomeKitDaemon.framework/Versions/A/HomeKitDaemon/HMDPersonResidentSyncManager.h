@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol HMDPersonResidentSyncManagerDelegate, HMDResidentSyncManager, OS_dispatch_queue;
+@class NSUUID;
+@protocol HMDPersonResidentSyncManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDPersonResidentSyncManager
 {
     id <HMDPersonResidentSyncManagerDelegate> _delegate;
-    NSUUID *_UUID;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDResidentSyncManager> _residentSyncManager;
 }
 
 + (id)B;
@@ -23,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)9Ŋ;
 - (void);
 - (id);
 - (id);
@@ -34,28 +30,12 @@ __attribute__((visibility("hidden")))
 - (id)°1Â0@ù
 × ;
 - (id){public}@ to %@;
-- (void)tupd;
+- (void)mediasetupd;
 - (id)UkpwZy7n46xuGY/Library/Caches/com.apple.xbs/TemporaryDirectory.4buT1B/Sources/HomeKit_executables/Sources/homed/Assistant/HMDAssistantCommand.m;
 - (id)±;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDPersonResidentSyncManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) id <HMDResidentSyncManager> residentSyncManager; // @synthesize residentSyncManager=_residentSyncManager;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

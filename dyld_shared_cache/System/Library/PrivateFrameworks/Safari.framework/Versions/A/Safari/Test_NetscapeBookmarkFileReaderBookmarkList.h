@@ -6,7 +6,7 @@
 
 #import <Safari/Test_NetscapeBookmarkFileReaderBookmarkItem.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface Test_NetscapeBookmarkFileReaderBookmarkList : Test_NetscapeBookmarkFileReaderBookmarkItem
@@ -25,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 
 @end
 

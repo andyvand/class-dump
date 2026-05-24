@@ -11,12 +11,9 @@
 @interface MPSCNNConvolutionTransposeGradientState : MPSCNNConvolutionGradientState
 {
     MPSCNNConvolutionTranspose *_convolutionTranspose;
-    MPSCNNConvolutionGradientState *_convolutionGradientState;
-    long long _kernelOffsetX;
-    long long _kernelOffsetY;
 }
 
-+ (id);
++ (id)`;
 + (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -35,7 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MPSCNNConvolutionGradientState *convolutionGradientState; // @synthesize convolutionGradientState=_convolutionGradientState;
-@property(readonly, retain, nonatomic) MPSCNNConvolutionTranspose *convolutionTranspose; // @synthesize convolutionTranspose=_convolutionTranspose;
 
 @end
 

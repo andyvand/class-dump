@@ -4,45 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNAPITriageLogger, CNContactsLogger, CNFavoritesLogger, CNGeminiLogger, CNImageUtilitiesLogger, CNRegulatoryLogger, CNSpotlightIndexingLogger;
+@protocol CNContactsLogger;
 
 @interface CNContactsLoggerProvider
 {
     id <CNContactsLogger> _contactsLogger;
-    id <CNSpotlightIndexingLogger> _spotlightIndexingLogger;
-    id <CNRegulatoryLogger> _regulatoryLogger;
-    id <CNFavoritesLogger> _favoritesLogger;
-    id <CNGeminiLogger> _geminiLogger;
-    id <CNAPITriageLogger> _apiTriageLogger;
-    id <CNImageUtilitiesLogger> _imageUtilitiesLogger;
 }
 
 + (id);
 - (id);
 - (id);
+- (id)removeObserver:forProviderID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)ctProviderSupportSession"16@?<v@?@"NSError">24;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNAPITriageLogger> apiTriageLogger;
 @property(readonly, nonatomic) id <CNContactsLogger> contactsLogger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CNFavoritesLogger> favoritesLogger;
-@property(readonly, nonatomic) id <CNGeminiLogger> geminiLogger;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNImageUtilitiesLogger> imageUtilitiesLogger;
-@property(readonly, nonatomic) id <CNRegulatoryLogger> regulatoryLogger;
-@property(readonly, nonatomic) id <CNSpotlightIndexingLogger> spotlightIndexingLogger;
-@property(readonly) Class superclass;
 
 @end
 

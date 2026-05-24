@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSDate, NSString, NSTimer;
+@class NSButton, NSTimer;
 
 @interface SourceIndicatorBubble
 {
     NSTimer *_timerToHide;
-    NSTimer *_timerToCaretLocationCheck;
-    long long _taskForMessage;
-    struct CGPoint _lastCaretLocation;
-    NSString *_lastSourceID;
-    NSDate *_lastDisplayTime;
-    NSDate *_lastSourceSwitch;
-    NSDate *_lastFocusSwitch;
-    struct ProcessSerialNumber _lastKeyProcess;
-    _Bool _showedIndicatorOnce;
-    _Bool _sourceChangedNotificationReceived;
-    NSButton *_button;
 }
 
-- (void);
+- (void);
 - (void);
 - (struct __CFData *);
 - (void);
@@ -36,8 +25,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)P;
+- (_Bool);
 
 // Remaining properties
 @property NSButton *button; // @synthesize button=_button;

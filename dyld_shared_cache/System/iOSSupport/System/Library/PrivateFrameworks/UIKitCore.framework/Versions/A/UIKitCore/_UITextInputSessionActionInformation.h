@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _UITextInputSessionActionInformation
 {
     _Bool _sessionHasOnlyPrimaryInput;
-    _Bool _sessionHasDictation;
-    NSString *_sessionActionString;
 }
 
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (_Bool);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sessionActionString; // @synthesize sessionActionString=_sessionActionString;
-@property(nonatomic) _Bool sessionHasDictation; // @synthesize sessionHasDictation=_sessionHasDictation;
-@property(nonatomic) _Bool sessionHasOnlyPrimaryInput; // @synthesize sessionHasOnlyPrimaryInput=_sessionHasOnlyPrimaryInput;
 
 @end
 

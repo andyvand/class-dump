@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSSet, NSString, NSUUID;
+@class NSNumber, NSUUID;
 
 @protocol SPFMIPRegisterInfo
+- (NSNumber *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *baUUID;
-@property(readonly, copy, nonatomic) NSDate *beaconZoneCreationDate;
-@property(readonly, copy, nonatomic) NSNumber *beaconZoneCreationErrorCode;
-@property(readonly, copy, nonatomic) NSDate *lastKeyRollDate;
-@property(readonly, copy, nonatomic) NSSet *serviceDisabledReasons;
-@property(readonly, copy, nonatomic) NSString *serviceState;
 @end
 

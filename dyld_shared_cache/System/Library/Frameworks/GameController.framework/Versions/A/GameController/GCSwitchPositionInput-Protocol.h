@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol GCSwitchPositionInput
+- (void (^)(id <GCPhysicalInputElement>, id <GCSwitchPositionInput>, long long))8;
+- (double);
+- (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool canWrap;
-@property(readonly) double lastPositionLatency;
-@property(readonly) double lastPositionTimestamp;
-@property(readonly) long long position;
 @property(copy) CDUnknownBlockType positionDidChangeHandler;
-@property(readonly) struct _NSRange positionRange;
-@property(readonly, getter=isSequential) _Bool sequential;
-@property(readonly, copy) NSSet *sources;
 @end
 

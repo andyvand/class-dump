@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OITSUColor;
-
 __attribute__((visibility("hidden")))
 @interface MFPen
 {
     int m_penStyle;
-    int m_penWidth;
-    OITSUColor *m_colour;
-    double *m_userStyleArray;
 }
 
 + (id);
 + (id);
-- (int);
+- (int);
 - (id);
 - (int);
 - (id);
-- (int);
-- (id);
+- (int)sg;
+- (id)sdTinyModelInferenceCallCount;
 - (void)¼;
 
 @end

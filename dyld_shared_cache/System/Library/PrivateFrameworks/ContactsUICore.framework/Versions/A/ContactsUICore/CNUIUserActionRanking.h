@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNUIInteractionAdvisor;
 
 @interface CNUIUserActionRanking
@@ -17,23 +16,16 @@
 + (id);
 + (id);
 - (id);
+- (id)k;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)H;
+- (id);
 - (id);
 - (id);
 - (void)enessProvider>"32@0:8@"NSString"16@"PRMonogramColor"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <CNUIInteractionAdvisor> interactionAdvisor; // @synthesize interactionAdvisor=_interactionAdvisor;
-@property(readonly) Class superclass;
 
 @end
 

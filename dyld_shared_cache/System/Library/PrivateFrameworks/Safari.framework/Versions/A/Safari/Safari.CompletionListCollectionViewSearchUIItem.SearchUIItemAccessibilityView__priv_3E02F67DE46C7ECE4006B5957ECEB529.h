@@ -7,10 +7,9 @@
 @interface Safari.CompletionListCollectionViewSearchUIItem.SearchUIItemAccessibilityView__priv_3E02F67DE46C7ECE4006B5957ECEB529
 {
     id indexInCompletionList;
-    id collectionViewItem;
 }
 
-- (void);
+- (void)B;
 - (_Bool);
 - (long long);
 - (_Bool);

@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @interface _LSDiskUsage
 {
     NSString *_bundleIdentifier;
-    NSMutableDictionary *_usage;
-    id _validationToken;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)"32@?<v@?^vQ>40;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)I ;
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)MTLTextureSPI;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *dynamicUsage; // @dynamic dynamicUsage;
-@property(readonly, nonatomic) NSNumber *onDemandResourcesUsage; // @dynamic onDemandResourcesUsage;
-@property(readonly, nonatomic) NSNumber *sharedUsage; // @dynamic sharedUsage;
 @property(readonly, nonatomic) NSNumber *staticUsage; // @dynamic staticUsage;
 
 @end

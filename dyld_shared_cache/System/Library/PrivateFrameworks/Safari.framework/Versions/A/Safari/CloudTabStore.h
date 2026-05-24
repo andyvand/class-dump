@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface CloudTabStore
 {
     NSTimer *_saveTabsTimer;
-    double _lastSaveTabsTimerInterval;
-    _Bool _shouldFinishRefreshingCloudTabsSupportedAfterCloudKitFetchCompletes;
-    _Bool _didAttemptToCloseAtLeastOneTab;
-    _Bool _cloudTabsSupported;
 }
 
 + (id);
@@ -60,13 +56,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool cloudTabsSupported; // @synthesize cloudTabsSupported=_cloudTabsSupported;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

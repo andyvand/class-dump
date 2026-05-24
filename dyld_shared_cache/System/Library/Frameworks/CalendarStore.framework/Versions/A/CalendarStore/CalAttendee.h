@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKParticipant, NSString, NSURL;
+@class EKParticipant;
 
 @interface CalAttendee
 {
@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -21,13 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void))	S)1
+*
+	@9I3
+@9I;
 
 // Remaining properties
-@property(readonly) NSURL *address;
-@property(readonly) NSString *commonName;
 @property(retain, nonatomic) EKParticipant *ekParticipant; // @synthesize ekParticipant=_ekParticipant;
-@property(readonly) NSString *status;
 
 @end
 

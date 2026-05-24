@@ -11,16 +11,10 @@
 @interface BWSmartStyleInfoMetadataNode : BWNode
 {
     BWNodeOutput *_passthruOutput;
-    BWNodeOutput *_boxedMetadataOutput;
-    struct opaqueCMFormatDescription *_boxedMetadataFormatDescription;
-    _Bool _currentRecordingSupportsReversibility;
-    _Bool _previousGeneratedMetadataBufferWasEmpty;
-    struct OpaqueCMBlockBuffer *_emptyMetadataSampleData;
-    unsigned int _localIDForSmartStyleInfoPlistMetadata_BE;
 }
 
 + (void)SpatialAggressorsSeenMarkerBuffer:] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)OITSUMacPrintUtilities;
 - (id);
 - (id);
 - (void);
@@ -35,7 +29,6 @@
 - (void)uÆ.ÿ|Æ,ÿÇ*ÿÈ(ÿÉ%ÿÊ!ÿ¦Ëÿ®Ëÿ¶Ìÿ¿ÍÿÇÎÿÏÎÿÔÍ;
 
 // Remaining properties
-@property(readonly, nonatomic) BWNodeOutput *boxedMetadataOutput; // @synthesize boxedMetadataOutput=_boxedMetadataOutput;
 @property(readonly, nonatomic) BWNodeOutput *passthruOutput; // @synthesize passthruOutput=_passthruOutput;
 
 @end

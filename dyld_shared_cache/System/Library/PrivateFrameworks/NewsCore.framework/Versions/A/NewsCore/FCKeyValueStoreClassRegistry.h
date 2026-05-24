@@ -11,9 +11,9 @@
 
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (Class);
-- (void)ueReadingHistory;
+- (void)IssueReadingHistory;
 
 @end
 

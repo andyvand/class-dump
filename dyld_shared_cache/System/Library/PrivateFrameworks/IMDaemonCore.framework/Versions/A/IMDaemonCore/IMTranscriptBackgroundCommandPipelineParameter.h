@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorTranscriptBackgroundCommand, IMDAccount, IMDServiceSession, NSString;
+@class NSString;
 
 @interface IMTranscriptBackgroundCommandPipelineParameter
 {
     _Bool _isFromMe;
-    NSString *_fromIdentifier;
-    NSString *_toIdentifier;
-    NSString *_replicationSourceServiceName;
-    IMDAccount *_account;
-    IMDServiceSession *_serviceSession;
-    BlastDoorTranscriptBackgroundCommand *_transcriptBackgroundCommand;
 }
 
 - (id);
@@ -35,13 +29,7 @@
 - (void)ÔÈ;
 
 // Remaining properties
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
 @property(copy, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
-@property(readonly, nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(copy, nonatomic) NSString *replicationSourceServiceName; // @synthesize replicationSourceServiceName=_replicationSourceServiceName;
-@property(retain, nonatomic) IMDServiceSession *serviceSession; // @synthesize serviceSession=_serviceSession;
-@property(copy, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
-@property(retain, nonatomic) BlastDoorTranscriptBackgroundCommand *transcriptBackgroundCommand; // @synthesize transcriptBackgroundCommand=_transcriptBackgroundCommand;
 
 @end
 

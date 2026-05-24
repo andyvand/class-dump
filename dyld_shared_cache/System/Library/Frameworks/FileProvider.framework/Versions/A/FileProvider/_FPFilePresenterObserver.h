@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSFileProviderManager *_parentConnection;
 }
 
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 

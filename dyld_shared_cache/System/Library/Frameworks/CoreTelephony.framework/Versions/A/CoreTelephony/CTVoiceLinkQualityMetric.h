@@ -11,11 +11,11 @@
     NSNumber *_linkQuality;
 }
 
-+ (_Bool);
++ (_Bool)@ does not currently support AVVideoCleanApertureKey or AVVideoPixelAspectRatioKey;
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)removeItemsWithDomain:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);

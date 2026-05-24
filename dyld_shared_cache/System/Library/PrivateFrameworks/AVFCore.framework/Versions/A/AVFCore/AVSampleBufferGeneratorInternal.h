@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference;
-
 __attribute__((visibility("hidden")))
 @interface AVSampleBufferGeneratorInternal
 {
     struct OpaqueFigSampleGenerator *figSampleGenerator;
-    AVWeakReference *weakReferenceToAsset;
-    struct OpaqueCMTimebase *timebase;
 }
 
 @end

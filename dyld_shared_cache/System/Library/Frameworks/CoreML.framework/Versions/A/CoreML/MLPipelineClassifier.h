@@ -6,7 +6,7 @@
 
 #import <CoreML/MLClassifier.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, MLPipeline, NSString;
+@class MLPipeline;
 
 @interface MLPipelineClassifier : MLClassifier
 {
@@ -29,22 +29,7 @@
 	;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) MLPipeline *engine; // @synthesize engine=_engine;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly) MLPipeline *pipeline;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 
 @end
 

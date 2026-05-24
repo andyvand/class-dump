@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface NWNumericAccumulator
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _kvo_lock;
-    NSString *_name;
-    NSMutableDictionary *_accumulations;
-    NSMutableArray *_kvoWatchers;
-    NSMutableArray *_overriddenStates;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -27,24 +22,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)icsLibrary(void);
+- (void)@' [svgsize:(id)arg1 %fx%f scale:(id)arg2 %f bpc:(_Bool)arg3 %zd bpp:%zd bitmapInfo:%d] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_	;
 - (void);
 - (void);
 - (id);
 - (id)_PORT failed %{darwin.errno}d, no backtrace;
-- (void)e;
+- (void)tcp_connection_set_extended_background_idle;
 - (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *accumulations; // @synthesize accumulations=_accumulations;
-@property(retain, nonatomic) NSMutableArray *kvoWatchers; // @synthesize kvoWatchers=_kvoWatchers;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSMutableArray *overriddenStates; // @synthesize overriddenStates=_overriddenStates;
 
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognitionSession, NSArray, NSMapTable, NSMutableArray, NSString, NSUUID, PKRecognitionSessionManager, PKVisualizationManager;
-
 @interface PKDrawing
 {
     _Bool _recognitionEnabled;
-    NSArray *_forcedRecognitionLocales;
-    NSUUID *_listenerID;
-    NSMutableArray *_cachedVisibleStrokes;
-    PKRecognitionSessionManager *_recognitionManager;
-    CHRecognitionSession *_recognitionSession;
-    NSMapTable *_ongoingQueries;
-    PKVisualizationManager *_visualizationManager;
 }
 
 + (id);
@@ -23,7 +14,7 @@
 + (id);
 + (id);
 + (Class);
-+ (id);
++ (id)4;
 + (id);
 + (id);
 + (id);
@@ -32,7 +23,7 @@
 + (struct CGRect);
 + (struct CGRect);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id)ã0;
 - (id);
 - (id);
@@ -43,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?kA;
 - (id);
 - (id);
 - (id);
@@ -56,7 +47,7 @@
 - (id);
 - (id);
 - (Class);
-- (Class);
+- (Class)q;
 - (struct CGRect);
 - (id);
 - (_Bool);
@@ -65,7 +56,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -80,7 +71,7 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -109,7 +100,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct CGRect);
 - (id);
@@ -123,7 +114,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
@@ -139,12 +130,12 @@
 - (void);
 - (void);
 - (void);
+- (id)9~;
+- (id);
+- (id)9t;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGRect);
 - (id);
@@ -164,7 +155,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)Ӛ�;
 - (id);
 - (id);
 - (id);
@@ -176,31 +167,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long)ous namespace)::PKMetalKernelKey, std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalKernelKey>>, std::__unordered_map_equal<(anonymous namespace)::PKMetalKernelKey, std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, std::equal_to<(anonymous namespace)::PKMetalKernelKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (void)H"\¨;
-- (id)iseIsHeightBased;
-- (id)esponderKey;
+- (id)noiseIsHeightBased;
+- (id)PKTextInputWindowFirstResponderControllerReloadResponderKey;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *_cachedVisibleStrokes; // @synthesize _cachedVisibleStrokes;
 @property(nonatomic) long long _orientation;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMapTable *ongoingQueries; // @synthesize ongoingQueries=_ongoingQueries;
-@property(retain, nonatomic) PKRecognitionSessionManager *recognitionManager; // @synthesize recognitionManager=_recognitionManager;
-@property(retain, nonatomic) CHRecognitionSession *recognitionSession; // @synthesize recognitionSession=_recognitionSession;
-@property(readonly, nonatomic) long long requiredContentVersion;
-@property(readonly, nonatomic) NSArray *strokes;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, setter=_setUUID:) NSUUID *uuid;
-@property(retain, nonatomic) PKVisualizationManager *visualizationManager; // @synthesize visualizationManager=_visualizationManager;
 
 @end
 

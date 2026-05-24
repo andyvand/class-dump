@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSArray;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureVideoThumbnailOutputInternal
 {
     AVWeakReference *weakReference;
-    AVWeakReference *delegateWeakReference;
-    _Bool didPropagateContents;
-    NSArray *filters;
-    NSArray *smartStyles;
-    struct CGSize thumbnailSize;
 }
 
-- (void);
+- (void)xpc_object>";
 - (id);
 
 @end

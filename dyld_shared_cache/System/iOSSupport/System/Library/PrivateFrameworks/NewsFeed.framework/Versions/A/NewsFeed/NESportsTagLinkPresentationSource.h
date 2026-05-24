@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NSString, NSURL;
-@protocol FCSportsProviding, NETagImageShareAttributeProviderType;
+@protocol FCSportsProviding;
 
 @interface NESportsTagLinkPresentationSource
 {
     id <FCSportsProviding> _sportsTag;
-    NSString *_title;
-    NSURL *_url;
-    id <NETagImageShareAttributeProviderType> _tagImageProvider;
 }
 
 + (id);
@@ -28,11 +24,7 @@
 ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) LPLinkMetadata *linkMetadata;
 @property(readonly, nonatomic) id <FCSportsProviding> sportsTag; // @synthesize sportsTag=_sportsTag;
-@property(readonly, nonatomic) id <NETagImageShareAttributeProviderType> tagImageProvider; // @synthesize tagImageProvider=_tagImageProvider;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

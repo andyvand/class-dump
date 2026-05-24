@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreFinanceItemMetadata, NSArray, NSData, NSDictionary, NSString, NSURL;
+@class NSDictionary, NSURL;
 
 @interface ICStoreFileAssetInfo
 {
     NSDictionary *_responseDictionary;
-    NSURL *_assetURL;
-    NSString *_downloadKey;
-    NSArray *_fairPlayInfoList;
-    long long _flavorType;
-    NSString *_fileExtension;
-    unsigned long long _fileSize;
-    ICStoreFinanceItemMetadata *_metadata;
-    NSData *_md5;
-    long long _expectedProtectionType;
 }
 
 - (void);
@@ -27,20 +18,20 @@
 - (long long);
 - (id);
 - (void);
+- (long long)40@0:8@"HMCameraSnapshotControl"16@"HMCameraSnapshot"24@"NSError"32 /* Error: Ran out of types for this method. */;
+- (id)lChime"b1"supportsCrossfadeAsAirPlaySource"b1"supportsDeviceSetup"b1"supportsDirectSync"b1"supportsDoorbellChime"b1"supportsHomeHub"b1"supportsHomeInvitation"b1"supportsHomeLevelAnalyticsAndImprovementSetting"b1"supportsHomeLevelLocationServiceSetting"b1"supportsInstallManagedConfigurationProfile"b1"supportsKeyTransferClient"b1"supportsKeyTransferServer"b1"supportsKeychainSync"b1"supportsManagedConfigurationProfile"b1"supportsMediaActions"b1"supportsMessagedHomePodSettings"b1"supportsMultiUser"b1"supportsMusicAlarm"b1"supportsNetworkDiagnostics"b1"supportsPreferredMediaUser"b1"supportsSoftwareUpdateV2"b1"supportsStandaloneMode"b1"supportsStereoOdeonTTSUBypassingPrimary"b1"supportsTVOSUpdateManualUpdateAvailableNotification"b1"supportsTargetControl"b1"supportsThirdPartyMusic"b1"supportsThreadBorderRouter"b1"supportsUserMediaSettings"b1"supportsWholeHouseAudio"b1"supportsWiFiRepairV2"b1"supportse28d28e7b4de"b1"supportsf9cc0d9d6aa54e7"b1};
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)setSelfIlluminationOcclusion:(id)arg1;
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void)trate;
+- (void)_minimumBitrate;
 - (id)çñiåOñi³ñi}ñi`ñièñiÕñißñiºñiñiëñiéRñiçFñiåñiëTñiéSñiçzñiåñiøñicñi ñiñiâñiñiýñiññië¯ñiéÓñiçþñiåÛñiëñiéBñiç¼ñiåÒñiñiÔñiéñiNñi?ñiÀñifñi
 ñik1ñiiGñig´ñieÁñik\ñiiñigÅñieüñiñiñieñi¥ñiöñiìñiîñiUñik<ñii¢ñigæñieñikñiiùñig!ñie'ñiðñi3ñi¾ñiñiñiñiñiêñikñii7ñigñieLñik¹ñiiØñigÙñieñiúñiñiçñi¬ñiñiAñiãñi[ñik4ñiiñigCñie±ñik#ñii©ñigxñie²ñi;ñiÃñiÇñiñi±ñi¢ñijñi)ñië§ñiéÍñiçqñiåóñiëñiéäñiçñiå+ñiQñiñinñiêñi:ñi(ñiÏñiIñië¾ñié¶ñiçñiå¥ñië$ñiézñiçwñiåñixñiõñiåñiôñiñi4ñiÖñiXñiëÌñiéeñiçcñiåñiëÉñiéÐñiçñiåtñioñiñiáñiñiîñi ñiìñi!ñiëñié¯ñiçºñiåñiëKñiéàñiçrñiåñiñilñi¦ñiñiñiñiÜñi«ñikVñiiñigñieÑñikHñiiñigñie¹ñi
 ñiWñiñipñimñiÂñi_ñi´ñik1ñiiñig*ñieñik7ñii·ñig\ñieYñiÝñiLñiiñi8ñiËñiöñiúñiÎñikñii.ñig9ñie¬ñikÛñii^ñigßñiesñi#ñiñikñi?ñifñiñiEñi	ñikÅñiihñigñie}ñik[ñiiñigñie©ñi'$|ÄÇþýFE¥¦TWìï·´56ÖÕnm	
@@ -51,16 +42,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *assetURL; // @synthesize assetURL=_assetURL;
-@property(copy, nonatomic) NSString *downloadKey; // @synthesize downloadKey=_downloadKey;
-@property(nonatomic) long long expectedProtectionType; // @synthesize expectedProtectionType=_expectedProtectionType;
-@property(copy, nonatomic) NSArray *fairPlayInfoList; // @synthesize fairPlayInfoList=_fairPlayInfoList;
-@property(copy, nonatomic) NSString *fileExtension; // @synthesize fileExtension=_fileExtension;
-@property(nonatomic) unsigned long long fileSize; // @synthesize fileSize=_fileSize;
-@property(nonatomic) long long flavorType; // @synthesize flavorType=_flavorType;
-@property(copy, nonatomic) NSData *md5; // @synthesize md5=_md5;
-@property(copy, nonatomic) ICStoreFinanceItemMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) long long protectionType;
-@property(readonly, copy, nonatomic) NSDictionary *responseDictionary;
 
 @end
 

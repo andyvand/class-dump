@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSCache, NSLock, NSMutableDictionary, NSObject, TISceneTaxonomyGenerator;
+@class NSObject, TISceneTaxonomyGenerator;
 @protocol OS_dispatch_queue;
 
 @interface TIStickerCandidateGenerator
 {
     TISceneTaxonomyGenerator *_sceneTaxonomyGenerator;
-    NSCache *_queryToUUID;
-    NSCache *_negativeQueryStrings;
-    NSMutableDictionary *_stickerToThumbnail;
-    NSLock *_stickerToThumbnailLock;
-    CAContext *_context;
-    NSObject<OS_dispatch_queue> *_backgroundOperationQueue;
 }
 
 + (id)0@ù
 × ;
 - (id);
-- (void);
-- (id);
+- (void)subscriptionInfoDidChange;
+- (id)appendCharacter:(id)arg1;
+- (struct CGImage *)%@;
+- (id)right context:(id)arg1 %@ > [%@]%@;
+- (id)urning cached version:(id)arg1 %@:(_Bool)arg2 %@;
+- (void)%@);
+- (void)eference group wrong:(id)arg1 [%@] = |%@| '%@';
+- (void)axtty_remote_conversation_updates;
+- (id)SystemTranscription;
 - (struct CGImage *);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGImage *);
 - (void);
 - (void);
 - (id);
@@ -39,13 +33,12 @@
 - (void);
 - (id);
 - (id);
+- (void)urb.mode.default.toggle;
 - (void);
-- (void);
-- (void);
+- (void)Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/AccessibilitySupport;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *backgroundOperationQueue; // @synthesize backgroundOperationQueue=_backgroundOperationQueue;
-@property(readonly, nonatomic) CAContext *context; // @synthesize context=_context;
 
 @end
 

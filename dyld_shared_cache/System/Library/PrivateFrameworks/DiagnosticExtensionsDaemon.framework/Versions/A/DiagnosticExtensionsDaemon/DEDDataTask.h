@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSHTTPURLResponse, NSURLSessionDataTask;
+@class NSURLSessionDataTask;
 
 @interface DEDDataTask
 {
     _Bool _isFinished;
-    NSURLSessionDataTask *_dataTask;
-    NSHTTPURLResponse *_response;
-    NSData *_data;
 }
 
 - (id);
@@ -19,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ror;
 - (void);
 - (void);
 - (_Bool);
@@ -27,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSData *data; // @synthesize data=_data;
 @property(retain) NSURLSessionDataTask *dataTask; // @synthesize dataTask=_dataTask;
-@property _Bool isFinished; // @synthesize isFinished=_isFinished;
-@property(retain) NSHTTPURLResponse *response; // @synthesize response=_response;
 
 @end
 

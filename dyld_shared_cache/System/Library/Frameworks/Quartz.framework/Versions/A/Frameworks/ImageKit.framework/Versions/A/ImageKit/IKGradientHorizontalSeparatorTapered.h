@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)ringMetadata] missing file %@ error:(struct CGRect)arg1 %@;
 
 @end
 

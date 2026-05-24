@@ -6,47 +6,27 @@
 
 #import <UIKitCore/_UIButtonBarButtonVisualProvider.h>
 
-@class UIColor, UIView;
+@class UIColor;
 
 @interface UIKit.ButtonBarButtonVisualProvider : _UIButtonBarButtonVisualProvider
 {
     id currentConstraints;
-    id oldConstraints;
-    id backIndicatorButton;
-    id backButtonMask;
-    id titleButton;
-    id imageButton;
-    id backgroundView;
-    id barButtonTitleAttributes;
-    id finalTitleAttributes;
-    id backgroundImages;
-    id titleContent;
-    id titleLookup;
-    id backButtonTitleMaxWidthConstraint;
-    id menuProvider;
-    id systemItem;
-    id appearanceDelegate;
-    id imageHasBaseline;
-    id _backButtonMaskEnabled;
-    id style;
-    id isSystemItem;
-    id backButtonContentTrailingPadding;
 }
 
+- (void)till waiting on account %@;
+- (id)N,V_payloadAllowCloudPhotoLibrary;
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)mmcs_base64_encode_cfdata_to_cstring;
+- (void)MPModelSharedListeningParticipantKind;
+- (void)tive assertions:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
 - (void);
 - (id)ollerDelegate>";
-- (void):(id)arg1 B:(id)arg2 C:(id)arg3 D:E:F: /* Error: Ran out of types for this method. */;
-- (id)er;
+- (void)vibrancyEffectWithA:(id)arg1 B:(id)arg2 C:(id)arg3 D:E:F: /* Error: Ran out of types for this method. */;
+- (id)_isSettingFirstResponder;
 - (id)reRecognizer:(id)arg1;
-- (id)wnAnimationWindow;
+- (id)_UIDragSetDownAnimationWindow;
 - (id)È;
 - (id)nce directly is not supported anymore, please update your app.;
 - (struct CGSize)= %@;
@@ -76,12 +56,6 @@
 - (_Bool)t;
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGRect accessoryViewAlignmentRect;
-@property(nonatomic, readonly) UIView *alignmentViewForStaticNavBarButtonLeading;
-@property(nonatomic, readonly) UIView *alignmentViewForStaticNavBarButtonTrailing;
-@property(nonatomic) _Bool backButtonMaskEnabled;
-@property(nonatomic, readonly) UIView *backIndicatorView;
-@property(nonatomic, readonly) UIView *contentView;
 @property(nonatomic, retain) UIColor *tintColor;
 
 @end

@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSString, SSFileCopy;
-
 @interface SSFileTransfer
 {
     int direction;
-    NSString *sourcePath;
-    NSString *destinationPath;
-    NSString *remoteComputerName;
-    unsigned long long bytesToCopy;
-    unsigned long long bytesCopied;
-    int state;
-    SSFileCopy *activeCopy;
-    NSString *displayName;
-    NSLock *lock;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
@@ -34,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_meaningIsReliable;
 - (id);
 - (void);
 - (void);
@@ -49,20 +37,10 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)v;
 
 // Remaining properties
-@property(retain) SSFileCopy *activeCopy;
-@property unsigned long long bytesCopied; // @synthesize bytesCopied;
-@property unsigned long long bytesToCopy; // @synthesize bytesToCopy;
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy) NSString *destinationPath; // @synthesize destinationPath;
 @property int direction; // @synthesize direction;
-@property(copy) NSString *displayName; // @synthesize displayName;
-@property(readonly) NSString *errorString;
-@property(copy) NSString *remoteComputerName; // @synthesize remoteComputerName;
-@property(copy) NSString *sourcePath; // @synthesize sourcePath;
-@property int state; // @synthesize state;
 
 @end
 

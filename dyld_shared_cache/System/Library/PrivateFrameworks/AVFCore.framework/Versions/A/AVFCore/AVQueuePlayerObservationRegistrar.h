@@ -9,11 +9,11 @@
     id registrar;
 }
 
-- (void);
+- (void)f;
 - (void);
 - (void);
 - (id);
-- (void)ctedBytes:bytesDownloaded: /* Error: Ran out of types for this method. */;
+- (void)assetDownloadSession:didUpdateProgressWithExpectedBytes:bytesDownloaded: /* Error: Ran out of types for this method. */;
 
 @end
 

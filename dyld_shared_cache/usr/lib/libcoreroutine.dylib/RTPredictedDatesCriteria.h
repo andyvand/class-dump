@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, RTLocation;
+@class NSDate;
 
 @interface RTPredictedDatesCriteria
 {
     NSDate *_referenceDate;
-    double _windowDuration;
-    RTLocation *_referenceLocation;
-    double _minimumConfidence;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)_processReceivedRemoteCandidatePairs:(id)arg1;
+- (void)disconnect_participant_landing_on_old_instance_during_resign;
 - (id);
 - (id);
 - (void);
-- (double);
+- (double);
 - (id);
 - (id);
 - (double)etedInitialWifiScan;
 - (void)tive}@,zdrSetupEntryWithOldestValidLocation,%{sensitive}@;
 
 // Remaining properties
-@property(nonatomic) double minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
 @property(retain, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
-@property(retain, nonatomic) RTLocation *referenceLocation; // @synthesize referenceLocation=_referenceLocation;
-@property(nonatomic) double windowDuration; // @synthesize windowDuration=_windowDuration;
 
 @end
 

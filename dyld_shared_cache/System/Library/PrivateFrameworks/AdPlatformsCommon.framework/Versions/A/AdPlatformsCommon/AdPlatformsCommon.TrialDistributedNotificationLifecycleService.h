@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.TrialDistributedNotificationLifecycleService
 {
     id $defaultActor;
-    id lifecycleQueue;
-    id lifecycleQueueToken;
 }
 
 @end

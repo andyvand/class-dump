@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSNumber, NSString, NSURL, NUColorSpace, NUVersion;
-@protocol NUFlexRangeProperties, NURAWImageProperties, NUSemanticStyleProperties;
+@class NSNumber, NSURL;
 
 @interface _NUImageProperties
 {
     NSNumber *_gainMapHeadroomValue;
-    NSMutableDictionary *_auxiliaryImagesProperties;
-    float _contentHeadroom;
-    NSURL *_url;
-    NSDictionary *_metadata;
-    NUColorSpace *_colorSpace;
-    long long _orientation;
-    NSString *_fileUTI;
-    long long _alphaInfo;
-    long long _componentInfo;
-    id <NURAWImageProperties> _rawProperties;
-    id <NUFlexRangeProperties> _flexRangeProperties;
-    id <NUSemanticStyleProperties> _semanticStyleProperties;
-    CDStruct_d58201db _size;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (void);
 + (_Bool);
@@ -50,23 +36,23 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (void);
-- (long long);
+- (long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (CDStruct_912cb5d2);
+- (void)ivelocity] Unexpected zero-length file encountered for %{public}s;
 - (void);
-- (void);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long)A;
+- (id);;
 - (id);
 - (void);
 - (void);
@@ -74,32 +60,10 @@
 - (float);
 - (void);
 - (void);
-- (void)ovider;
+- (void)_NUImageCIProvider;
 - (_Bool)ü¸;
 
 // Remaining properties
-@property long long alphaInfo; // @synthesize alphaInfo=_alphaInfo;
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property long long componentInfo; // @synthesize componentInfo=_componentInfo;
-@property(nonatomic) float contentHeadroom; // @synthesize contentHeadroom=_contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *fileUTI; // @synthesize fileUTI=_fileUTI;
-@property(retain) id <NUFlexRangeProperties> flexRangeProperties; // @synthesize flexRangeProperties=_flexRangeProperties;
-@property double gainMapHeadroom;
-@property(readonly) _Bool hasGainMap;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isHDR;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly) NUVersion *meteorPlusGainMapVersion;
-@property long long orientation; // @synthesize orientation=_orientation;
-@property(retain) id <NURAWImageProperties> rawProperties; // @synthesize rawProperties=_rawProperties;
-@property(retain) id <NUSemanticStyleProperties> semanticStyleProperties; // @synthesize semanticStyleProperties=_semanticStyleProperties;
-@property CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 @property(retain) NSURL *url; // @synthesize url=_url;
 
 @end

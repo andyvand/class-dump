@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface IMAttachmentDownloadMetricsContext
 {
     _Bool _isSticker;
-    _Bool _lqmEnabled;
-    _Bool _isEncrypted;
-    NSString *_serviceName;
-    unsigned long long _limitType;
-    NSNumber *_limitSize;
-    unsigned long long _qualityType;
 }
 
 - (unsigned long long);
@@ -24,17 +18,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;
-@property(readonly, nonatomic) _Bool isSticker; // @synthesize isSticker=_isSticker;
-@property(readonly, nonatomic) NSNumber *limitSize; // @synthesize limitSize=_limitSize;
-@property(readonly, nonatomic) unsigned long long limitType; // @synthesize limitType=_limitType;
-@property(readonly, nonatomic) _Bool lqmEnabled; // @synthesize lqmEnabled=_lqmEnabled;
-@property(readonly, nonatomic) unsigned long long qualityType; // @synthesize qualityType=_qualityType;
 @property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

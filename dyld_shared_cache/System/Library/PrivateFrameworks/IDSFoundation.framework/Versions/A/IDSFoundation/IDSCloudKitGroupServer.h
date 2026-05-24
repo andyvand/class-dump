@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCKDatabase, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IDSCloudKitGroupServer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    IDSCKDatabase *_database;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setTestValue:(id)arg1;
 - (void)ivate.alloy.screensharing;
 
 // Remaining properties
-@property(retain, nonatomic) IDSCKDatabase *database; // @synthesize database=_database;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

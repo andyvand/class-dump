@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MSVSQLConnection
 {
     struct sqlite3 *_connectionHandle;
-    NSMutableDictionary *_attachedDatabases;
-    NSMutableArray *_scalarFunctions;
-    NSMutableArray *_aggregateFunctions;
-    unsigned long long _options;
-    _Bool _invalid;
-    _Bool _arraySupportInstalled;
-    NSString *_databaseURI;
 }
 
-- (void);
+- (void)JM
++;
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)tem/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/Versions/A/ContactsAutocompleteUI;
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)fileURLWithPath:isDirectory: /* Error: Ran out of types for this method. */;
+- (void)ձ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

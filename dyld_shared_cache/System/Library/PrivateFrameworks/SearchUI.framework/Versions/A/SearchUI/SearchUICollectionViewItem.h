@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, SearchUICollectionViewItemView, SearchUIRowModel, SearchUISeparatorView, TLKProminenceView;
-@protocol SearchUICollectionViewItemAccessoryViewDelegate, SearchUICustomViewProvider, SearchUIFeedbackDelegate;
-
 @interface SearchUICollectionViewItem
 {
     _Bool _selfSizingInTwoAxes;
-    _Bool _selectionShouldFillWidth;
-    _Bool _disableEmphasizedSelection;
-    _Bool _isSectionSelected;
-    _Bool _shouldDrawBackgroundWithoutSelection;
-    _Bool _masksContent;
-    int _sfSeparatorStyle;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
-    id <SearchUICollectionViewItemAccessoryViewDelegate> _accessoryViewDelegate;
-    id <SearchUICustomViewProvider> _customViewProvider;
-    SearchUIRowModel *_rowModel;
-    long long _sectionBackgroundStyle;
-    NSString *_customAccessibilityIdentifier;
-    unsigned long long _maskedCorners;
-    long long _resolvedFocusStyle;
-    NSView *_selectionBackgroundView;
-    NSView *_unempasizedSelectionBackgroundView;
-    NSView *_selectionHaloView;
-    TLKProminenceView *_unempasizedSelectionHaloView;
-    SearchUISeparatorView *_bottomSeparator;
-    double _cornerRadius;
 }
 
 - (id);
@@ -49,13 +26,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
@@ -75,12 +52,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)minibatchStatsForPositiveLabel: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)ods:statusFlags:categoryIdentifier:setupHash: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -89,13 +66,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)24@0:(id)arg1 8@"NUPipelinePath"16;
 - (struct CGSize);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)previousMCT;
 - (void);
 - (_Bool);
 - (void);
@@ -106,44 +83,10 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)nHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)generateUIColorsIsDark:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <SearchUICollectionViewItemAccessoryViewDelegate> accessoryViewDelegate; // @synthesize accessoryViewDelegate=_accessoryViewDelegate;
-@property(retain) SearchUISeparatorView *bottomSeparator; // @synthesize bottomSeparator=_bottomSeparator;
-@property double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(copy, nonatomic) NSString *customAccessibilityIdentifier; // @synthesize customAccessibilityIdentifier=_customAccessibilityIdentifier;
-@property(nonatomic) __weak id <SearchUICustomViewProvider> customViewProvider; // @synthesize customViewProvider=_customViewProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableEmphasizedSelection; // @synthesize disableEmphasizedSelection=_disableEmphasizedSelection;
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGRect highlightFrame;
-@property(readonly, nonatomic) double highlightFrameCornerRadius;
-@property(readonly, nonatomic) _Bool highlightFrameMatchesHighlightView;
-@property(readonly, nonatomic) NSView *highlightReferenceView;
-@property(nonatomic) _Bool isSectionSelected; // @synthesize isSectionSelected=_isSectionSelected;
-@property(nonatomic) unsigned long long maskedCorners; // @synthesize maskedCorners=_maskedCorners;
-@property _Bool masksContent; // @synthesize masksContent=_masksContent;
 @property(nonatomic) long long resolvedFocusStyle; // @synthesize resolvedFocusStyle=_resolvedFocusStyle;
-@property(readonly, nonatomic) SearchUIRowModel *rowModel; // @synthesize rowModel=_rowModel;
-@property(nonatomic) long long searchui_focusStyle;
-@property(nonatomic) long long sectionBackgroundStyle; // @synthesize sectionBackgroundStyle=_sectionBackgroundStyle;
-@property(retain) NSView *selectionBackgroundView; // @synthesize selectionBackgroundView=_selectionBackgroundView;
-@property(retain) NSView *selectionHaloView; // @synthesize selectionHaloView=_selectionHaloView;
-@property(nonatomic) _Bool selectionShouldFillWidth; // @synthesize selectionShouldFillWidth=_selectionShouldFillWidth;
-@property(nonatomic) _Bool selfSizingInTwoAxes; // @synthesize selfSizingInTwoAxes=_selfSizingInTwoAxes;
-@property(nonatomic) int sfSeparatorStyle; // @synthesize sfSeparatorStyle=_sfSeparatorStyle;
-@property(nonatomic) _Bool shouldDrawBackgroundWithoutSelection; // @synthesize shouldDrawBackgroundWithoutSelection=_shouldDrawBackgroundWithoutSelection;
-@property(readonly) Class superclass;
-@property(retain) NSView *unempasizedSelectionBackgroundView; // @synthesize unempasizedSelectionBackgroundView=_unempasizedSelectionBackgroundView;
-@property(retain) TLKProminenceView *unempasizedSelectionHaloView; // @synthesize unempasizedSelectionHaloView=_unempasizedSelectionHaloView;
-@property(retain) SearchUICollectionViewItemView *view; // @dynamic view;
-@property(readonly, nonatomic) NSView *viewForQuickLookZoomTransitionSource;
 
 @end
 

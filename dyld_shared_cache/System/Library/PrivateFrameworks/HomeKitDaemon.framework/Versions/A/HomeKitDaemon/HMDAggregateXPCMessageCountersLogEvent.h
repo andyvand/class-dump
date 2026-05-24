@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAggregateXPCMessageCountersLogEvent
 {
     NSString *_coreAnalyticsEventName;
-    NSString *_peerInformation;
-    NSString *_messageName;
-    double _primaryResidentDuration;
-    NSNumber *_count;
 }
 
 + (id);
@@ -22,39 +18,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
+- (id)}},N,V_guideExtent;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id)@Responding to a request for notification service group with payload %@;
 - (void)üä;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName; // @synthesize coreAnalyticsEventName=_coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, nonatomic) NSNumber *count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
 @property(readonly, nonatomic) NSString *peerInformation; // @synthesize peerInformation=_peerInformation;
-@property(readonly, nonatomic) double primaryResidentDuration; // @synthesize primaryResidentDuration=_primaryResidentDuration;
-@property(readonly) Class superclass;
 
 @end
 

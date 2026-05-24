@@ -6,17 +6,11 @@
 
 #import <Foundation/NSFormatter.h>
 
-@class NSMutableDictionary, NSRecursiveLock;
+@class NSMutableDictionary;
 
 @interface NSNumberFormatter : NSFormatter
 {
     NSMutableDictionary *_attributes;
-    struct __CFNumberFormatter *_formatter;
-    unsigned long long _counter;
-    unsigned long long _behavior;
-    NSRecursiveLock *_lock;
-    unsigned long long _stateBitMask;
-    long long _cacheGeneration;
 }
 
 @end

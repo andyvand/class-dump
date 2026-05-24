@@ -7,16 +7,6 @@
 @interface NewsUI2.WebViewerConfig
 {
     id url;
-    id title;
-    id dismissButtonText;
-    id errorTitle;
-    id errorDescription;
-    id forceInitialError;
-    id hideBarShadow;
-    id errorIfOffline;
-    id preventResizing;
-    id disableZoom;
-    id webConfiguration;
 }
 
 @end

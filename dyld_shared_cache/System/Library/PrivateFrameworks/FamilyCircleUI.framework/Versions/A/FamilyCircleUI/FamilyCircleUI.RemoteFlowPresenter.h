@@ -7,8 +7,6 @@
 @interface FamilyCircleUI.RemoteFlowPresenter
 {
     id coordinator;
-    id onFlowEnd;
-    id presentingWindow;
 }
 
 @end

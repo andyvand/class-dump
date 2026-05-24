@@ -6,26 +6,24 @@
 
 #import <Intents/INIntentForwardingAction.h>
 
-@class NSString, WFOnScreenContentServiceOptions;
+@class NSString;
 
 @interface INGetOnScreenContentForwardingAction : INIntentForwardingAction
 {
     NSString *_sceneIdentifier;
-    WFOnScreenContentServiceOptions *_serviceOptions;
 }
 
 + (_Bool);
 + (Class)è±;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id),R,N,V_leftThumbstickButton;
+- (void)OfInterestManager init];
 - (id)\Ì;
-- (void)etClimateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEnableAirConditionerOptionsCollectionForSetClimateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(readonly, nonatomic) WFOnScreenContentServiceOptions *serviceOptions; // @synthesize serviceOptions=_serviceOptions;
 
 @end
 

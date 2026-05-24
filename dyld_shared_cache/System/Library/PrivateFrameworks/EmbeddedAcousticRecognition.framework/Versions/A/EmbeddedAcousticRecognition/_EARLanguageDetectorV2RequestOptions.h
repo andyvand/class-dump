@@ -7,7 +7,6 @@
 @interface _EARLanguageDetectorV2RequestOptions
 {
     _Bool _useMaxpool;
-    BOOL _reportingFrequency;
 }
 
 - (_Bool);
@@ -18,7 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) BOOL reportingFrequency; // @synthesize reportingFrequency=_reportingFrequency;
 @property(nonatomic) _Bool useMaxpool; // @synthesize useMaxpool=_useMaxpool;
 
 @end

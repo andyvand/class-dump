@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSData *_data;
 }
 
-- (id);
-- (id);
-- (unsigned long long);
+- (id)MTLMeshRenderPipelineDescriptor;
+- (id);
+- (unsigned long long);
 - (unsigned long long)1Â0@ù
 × ;
 - (void)uffers is not declared in the state feature description;

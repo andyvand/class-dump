@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIPointerLensView;
 @protocol _UIPointerArbitrating;
 
 __attribute__((visibility("hidden")))
@@ -13,12 +12,12 @@ __attribute__((visibility("hidden")))
     id <_UIPointerArbitrating> _core;
 }
 
-+ (id)etChooseSupplementalCandidateCompletion: /* Error: Ran out of types for this method. */;
++ (id)setChooseSupplementalCandidateCompletion: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)tionedIdentifierList",&,N,V_nextTrackIdentifierList;
+- (id)issing mapping for MPModelPropertyLyricsHasDownloadedCatalogLyrics;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void)1Â0@ù
 × ;
 - (long long);
@@ -26,15 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _UIPointerLensView *lensView;
 @property(readonly, nonatomic) long long pointerState;
-@property(readonly) Class superclass;
 
 @end
 

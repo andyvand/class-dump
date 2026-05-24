@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface FTServerBag
 {
@@ -14,33 +14,26 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
-- (id);
++ (id)X';
+- (id)countOfAllAssetsForMediaProcessingTaskID:(long long)arg1 priority:sceneConfidenceThreshold:error: /* Error: Ran out of types for this method. */;
+- (id)corePropertiesToFetch;
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)%;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)k#;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool allowSelfSignedCertificates;
-@property(readonly) _Bool allowUnsignedBags;
-@property(readonly) NSString *apsEnvironmentName;
 @property(readonly) NSURL *bagURL;
-@property(readonly) _Bool isInDebilitatedMode;
-@property(readonly) _Bool isLoaded;
-@property(readonly) _Bool isLoading;
-@property(readonly) _Bool isServerAvailable;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface NSHTMLWebDelegate
 {
     _Bool _loadDidFinish;
-    _Bool _loadDidSucceed;
-    NSURL *_baseURL;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -24,12 +20,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@y;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKExternalDeviceMigrationPaymentDetails;
+@class NSString;
 
 @interface PKExternalDeviceMigrationCardEntry
 {
     _Bool _credentialInSecureElement;
-    NSString *_localizedOrganization;
-    NSString *_localizedDescription;
-    NSString *_accountNumberSuffix;
-    unsigned long long _type;
-    PKExternalDeviceMigrationPaymentDetails *_paymentDetails;
-    NSData *_sanitizedPKPassArchive;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -30,19 +24,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)mapItemSourcesAtIndex:(id)arg1;
 - (void);
 - (id);
 - (void)ype:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountNumberSuffix; // @synthesize accountNumberSuffix=_accountNumberSuffix;
-@property(readonly, nonatomic) _Bool credentialInSecureElement; // @synthesize credentialInSecureElement=_credentialInSecureElement;
-@property(readonly, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(readonly, nonatomic) NSString *localizedOrganization; // @synthesize localizedOrganization=_localizedOrganization;
-@property(readonly, nonatomic) PKExternalDeviceMigrationPaymentDetails *paymentDetails; // @synthesize paymentDetails=_paymentDetails;
-@property(readonly, nonatomic) NSData *sanitizedPKPassArchive; // @synthesize sanitizedPKPassArchive=_sanitizedPKPassArchive;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSPersistentStoreCoordinator, RTDarwinNotificationHelper;
+@class NSPersistentStoreCoordinator;
 
 @interface RTPersistenceRemoteStore
 {
     NSPersistentStoreCoordinator *_coordinator;
-    NSManagedObjectID *_currentDeviceManagedObjectId;
-    RTDarwinNotificationHelper *_notificationHelper;
 }
 
 - (void);
-- (id);
+- (id)FlagRepairedKeychainRecoveryTokenFromPRecoveryToken;
 - (id);
 - (id);
 - (id);

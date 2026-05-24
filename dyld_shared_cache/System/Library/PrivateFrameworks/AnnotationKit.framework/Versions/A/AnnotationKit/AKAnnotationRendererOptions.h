@@ -7,28 +7,21 @@
 @interface AKAnnotationRendererOptions
 {
     _Bool _forDisplay;
-    _Bool _allowHDR;
-    double _availableHeadroom;
-    double _desiredHeadroom;
 }
 
-+ (id);
++ (id)%;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (double);
-- (void);
-- (double);
+- (double);
+- (void)televisionProfile;
+- (double)};
 - (_Bool);
 - (double);
 
 // Remaining properties
-@property(nonatomic) _Bool allowHDR; // @synthesize allowHDR=_allowHDR;
 @property(nonatomic) double availableHeadroom; // @synthesize availableHeadroom=_availableHeadroom;
-@property(nonatomic) double desiredHeadroom; // @synthesize desiredHeadroom=_desiredHeadroom;
-@property(nonatomic) _Bool forDisplay; // @synthesize forDisplay=_forDisplay;
-@property(readonly, nonatomic) double scaleFactor;
 
 @end
 

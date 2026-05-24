@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ICPAPlayActivityEnqueuerProperties
 {
     unsigned long long _storeAccountID;
-    NSString *_buildVersion;
-    NSString *_deviceGUID;
-    NSString *_deviceName;
-    NSString *_storeFrontID;
-    int _systemReleaseType;
-    NSString *_timeZoneName;
-    _Bool _privateListeningEnabled;
-    _Bool _sBEnabled;
-    struct {
-        unsigned int storeAccountID:1;
-        unsigned int systemReleaseType:1;
-        unsigned int privateListeningEnabled:1;
-        unsigned int sBEnabled:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);

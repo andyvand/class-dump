@@ -7,9 +7,6 @@
 @interface FamilyCircleUI.PendingMemberViewModel
 {
     id member;
-    id showBadge;
-    id showInviteDate;
-    id showNavAppearance;
 }
 
 @end

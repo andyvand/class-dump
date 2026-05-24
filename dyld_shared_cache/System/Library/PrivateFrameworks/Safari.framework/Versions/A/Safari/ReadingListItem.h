@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSImage, NSMutableDictionary, NSString, NSURL, WebBookmarkLeaf;
+@class WebBookmarkLeaf;
 
 @interface ReadingListItem
 {
     WebBookmarkLeaf *_bookmark;
-    _Bool _hasDefaultSiteIcon;
-    _Bool _isReaderAvailable;
-    _Bool _isFetchInProgress;
-    NSMutableDictionary *_pageURLStringToPageNumberMap;
-    id _faviconToken;
-    _Bool _lastRetrievedFallbackIconIsGenerated;
-    NSImage *_icon;
-    NSImage *_lastRetrievedFallbackIcon;
 }
 
 + (id);
 + (id);
 + (id);
 + (unsigned long long);
+- (id)(B;
 - (id);
-- (id);
+- (void);
+- (void)@�*;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,13 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -70,7 +62,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -88,8 +80,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (int)pdateWidthConstraintsWithAnimation:expandingViewController:collapsingViewController: /* Error: Ran out of types for this method. */;
+- (void)appendBytes:(id)arg1 length: /* Error: Ran out of types for this method. */;
+- (int)_updateWidthConstraintsWithAnimation:expandingViewController:collapsingViewController: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)¤	;
 - (_Bool);
@@ -97,42 +89,7 @@
 - (id)ô à ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UUID;
 @property(nonatomic) _Bool addedLocally;
-@property(readonly, nonatomic) WebBookmarkLeaf *bookmark; // @synthesize bookmark=_bookmark;
-@property(copy, nonatomic) NSDate *dateAdded;
-@property(copy, nonatomic) NSDate *dateLastFetched;
-@property(copy, nonatomic) NSDate *dateLastViewed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didAttemptToFetchIconFromImageURL;
-@property(nonatomic) _Bool didUserExplicitlyRequestOfflineArchive;
-@property(readonly, nonatomic) NSString *domainString;
-@property(nonatomic) int fetchResult;
-@property(nonatomic) _Bool hasDefaultSiteIcon; // @synthesize hasDefaultSiteIcon=_hasDefaultSiteIcon;
-@property(readonly, nonatomic) _Bool hasErrorDuringFetch;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) _Bool isArchiveOnDisk;
-@property(nonatomic) _Bool isFetchInProgress; // @synthesize isFetchInProgress=_isFetchInProgress;
-@property(nonatomic) _Bool isReaderAvailable; // @synthesize isReaderAvailable=_isReaderAvailable;
-@property(retain) NSImage *lastRetrievedFallbackIcon; // @synthesize lastRetrievedFallbackIcon=_lastRetrievedFallbackIcon;
-@property _Bool lastRetrievedFallbackIconIsGenerated; // @synthesize lastRetrievedFallbackIconIsGenerated=_lastRetrievedFallbackIconIsGenerated;
-@property(retain, nonatomic) NSURL *leadingImageURL;
-@property(copy, nonatomic) NSString *localPreviewText;
-@property(copy, nonatomic) NSString *localTitle;
-@property(readonly, nonatomic) _Bool needsInfoUpdated;
-@property(readonly, nonatomic) unsigned long long numberOfFailedLoadsWithUnknownOrNonRecoverableError;
-@property(copy, nonatomic) NSString *previewText;
-@property(copy, nonatomic) NSString *siteName;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic, getter=isUnread) _Bool unread;
-@property(copy, nonatomic, setter=setURLString:) NSString *urlString;
-@property(readonly, nonatomic) NSArray *urlStringsForAdditionalPages;
 
 @end
 

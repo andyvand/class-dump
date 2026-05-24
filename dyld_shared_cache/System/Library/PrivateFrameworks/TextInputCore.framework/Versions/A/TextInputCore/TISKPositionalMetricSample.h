@@ -15,17 +15,17 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool);
 - (id);
+- (void)updateTranscriptionFromOtherContactPath:(id)arg1;
+- (id)iCloudRTTRelayDidChange: /* Error: Ran out of types for this method. */;
+- (id)TTY device with updated call;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)s:(id)arg1 omitSpecialThreadId and omitOtherThreads;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)roblemFooter;
 - (_Bool);
 - (void)a!BùQi1Â0@ù
 × ;

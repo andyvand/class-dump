@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSSet;
+@class NSIndexSet;
 
 @protocol _NSIdentifierDiffer
-- (NSIndexSet *)stomizationPreviewFlexibleSectionLayout;
-- (_Bool)unterClockwiseCogOrbit;
+- (NSIndexSet *)NSTouchBarCustomizationPreviewFlexibleSectionLayout;
+- (_Bool)counterClockwiseCogOrbit;
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *deletedIndexes;
-@property(readonly, nonatomic) _Bool hasChanges;
 @property(readonly, nonatomic) NSIndexSet *insertedIndexes;
-@property(readonly, nonatomic) NSSet *movePairs;
 @end
 

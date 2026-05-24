@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CRCard;
+
 @protocol CRKCardViewControllerDelegate
+
+@optional
+- (_Bool);
+- (_Bool);
+- (void)n;
+- (_Bool)@9(;
+- (id <CRCard>);
 @end
 

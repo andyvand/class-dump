@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFApplicationDataDatabaseID, NSDate, NSDictionary, NSString, NSUUID;
-@protocol MKFAccessory, MKFActionSet, MKFHome, MKFRoom, MKFService, MKFServiceGroup;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFApplicationData : _MKFModel
@@ -24,37 +23,16 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)hasDefaultTransitType;
+- (_Bool)editByMergingStateSnapshot:mergeOptions:context:completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)\?e;
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MKFAccessory> accessory; // @dynamic accessory;
-@property(readonly, retain, nonatomic) id <MKFActionSet> actionSet; // @dynamic actionSet;
-@property(retain, nonatomic) NSDictionary *appDataDictionary; // @dynamic appDataDictionary;
-@property(readonly, copy, nonatomic) MKFApplicationDataDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly, retain, nonatomic) id <MKFRoom> room; // @dynamic room;
-@property(readonly, retain, nonatomic) id <MKFService> service; // @dynamic service;
-@property(readonly, retain, nonatomic) id <MKFServiceGroup> serviceGroup; // @dynamic serviceGroup;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

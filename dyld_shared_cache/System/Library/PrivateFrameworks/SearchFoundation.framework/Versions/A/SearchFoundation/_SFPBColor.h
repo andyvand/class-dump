@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBAppColor, _SFPBCalendarColor, _SFPBGradientColor, _SFPBGraphicalFloat, _SFPBImageDerivedColor, _SFPBWeatherColor;
+@class _SFPBGraphicalFloat;
 
 @interface _SFPBColor
 {
     int _colorTintStyle;
-    _SFPBGraphicalFloat *_redComponent;
-    _SFPBGraphicalFloat *_greenComponent;
-    _SFPBGraphicalFloat *_blueComponent;
-    _SFPBGraphicalFloat *_alphaComponent;
-    _SFPBColor *_darkModeColor;
-    _SFPBCalendarColor *_calendarColor;
-    _SFPBAppColor *_appColor;
-    _SFPBImageDerivedColor *_imageDerivedColor;
-    _SFPBGradientColor *_gradientColor;
-    _SFPBWeatherColor *_weatherColor;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
@@ -29,55 +18,36 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (int);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)insertPropertiesForUserIdentity:(id)arg1 usingBlock:error: /* Error: Ran out of types for this method. */;
+- (id)alternateKeyServerURL;
+- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)intrusiveObjectPresenceScore;
+- (id)%@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)Names: /* Error: Ran out of types for this method. */;
+- (void)setCountNgramPrefixMatchInAttachmentNames: /* Error: Ran out of types for this method. */;
 - (id)
 ^;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBGraphicalFloat *alphaComponent; // @synthesize alphaComponent=_alphaComponent;
-@property(retain, nonatomic) _SFPBAppColor *appColor; // @synthesize appColor=_appColor;
-@property(retain, nonatomic) _SFPBGraphicalFloat *blueComponent; // @synthesize blueComponent=_blueComponent;
-@property(retain, nonatomic) _SFPBCalendarColor *calendarColor; // @synthesize calendarColor=_calendarColor;
-@property(nonatomic) int colorTintStyle; // @synthesize colorTintStyle=_colorTintStyle;
-@property(retain, nonatomic) _SFPBColor *darkModeColor; // @synthesize darkModeColor=_darkModeColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBGradientColor *gradientColor; // @synthesize gradientColor=_gradientColor;
-@property(retain, nonatomic) _SFPBGraphicalFloat *greenComponent; // @synthesize greenComponent=_greenComponent;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImageDerivedColor *imageDerivedColor; // @synthesize imageDerivedColor=_imageDerivedColor;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBGraphicalFloat *redComponent; // @synthesize redComponent=_redComponent;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBWeatherColor *weatherColor; // @synthesize weatherColor=_weatherColor;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

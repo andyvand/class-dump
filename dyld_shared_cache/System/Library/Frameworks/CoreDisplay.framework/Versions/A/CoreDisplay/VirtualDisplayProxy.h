@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDVirtualDisplayConnect, VirtualDisplayListener;
+@class VirtualDisplayListener;
 
 __attribute__((visibility("hidden")))
 @interface VirtualDisplayProxy
 {
     VirtualDisplayListener *_listener;
-    CDVirtualDisplayConnect *_virtualDisplayConnect;
-    unsigned int _proxyRPC_port;
-    unsigned int _clientHandler_port;
-    struct CGSize _sizeInMillimeters;
-    unsigned int _maxPixelsWide;
-    unsigned int _maxPixelsHigh;
-    unsigned int _displayID;
 }
 
-- (int);
+- (int)b;
 - (id);
 - (int);
 - (void);

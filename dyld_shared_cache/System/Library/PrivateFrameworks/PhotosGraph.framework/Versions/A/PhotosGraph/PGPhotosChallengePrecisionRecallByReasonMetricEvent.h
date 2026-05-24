@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGPhotosChallengeMetricEvent.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface PGPhotosChallengePrecisionRecallByReasonMetricEvent : PGPhotosChallengeMetricEvent
 {
@@ -16,16 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSDictionary *payload;
 @property(readonly, nonatomic) NSArray *payloads;
-@property(readonly) Class superclass;
 
 @end
 

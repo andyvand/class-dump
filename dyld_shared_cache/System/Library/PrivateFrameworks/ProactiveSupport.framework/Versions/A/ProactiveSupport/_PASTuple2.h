@@ -9,24 +9,22 @@
 @interface _PASTuple2
 {
     NSObject *_first;
-    NSObject *_second;
 }
 
 + (id);
+- (_Bool)refreshSourcesIfNecessary;
+- (id);
+- (id);
+- (unsigned long long)_kMDItemAppEngagementValues;
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)setupFormatTemplate:forKey:locale: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject *first; // @synthesize first=_first;
-@property(readonly, nonatomic) NSObject *second; // @synthesize second=_second;
 
 @end
 

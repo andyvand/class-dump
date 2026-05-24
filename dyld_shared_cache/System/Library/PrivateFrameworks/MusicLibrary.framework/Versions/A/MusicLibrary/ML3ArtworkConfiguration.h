@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ML3ArtworkConfiguration
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSDictionary *_artworkConfigurationDictionary;
-    NSMutableDictionary *_supportedSizesCache;
-    double _mainScreenScale;
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)nge=QQ},R,N,V_rangeOfCompletionSuggestionDates;
+- (void)egory;
+- (void),N,V_collectionChangeType;
+- (void)aleSupportType;
+- (id)tByMomentUUID;
+- (id)_resetFacesProcessingForPerson:(unsigned int)arg1;
+- (id)ry:(unsigned int)arg1 %@;
+- (id)elete invitation response entry:(unsigned int)arg1 %@;
+- (id)tos issue;
+- (id)refetch:(id)arg1 %@;
+- (id)ary is in trash:(unsigned int)arg1 %@;
 - (double);
 - (id);
 - (void);
@@ -35,9 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(retain, nonatomic) NSDictionary *artworkConfigurationDictionary; // @synthesize artworkConfigurationDictionary=_artworkConfigurationDictionary;
-@property(nonatomic) double mainScreenScale; // @synthesize mainScreenScale=_mainScreenScale;
-@property(retain, nonatomic) NSMutableDictionary *supportedSizesCache; // @synthesize supportedSizesCache=_supportedSizesCache;
 
 @end
 

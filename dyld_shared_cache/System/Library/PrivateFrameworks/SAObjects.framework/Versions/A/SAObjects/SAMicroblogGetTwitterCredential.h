@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *consumerKey;
-@property(copy, nonatomic) NSString *consumerSecret;
 
 @end
 

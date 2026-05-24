@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCondition;
+@class _INPBCondition;
 
 @protocol _INPBDateTimeRangeList
+- (void);
+- (_INPBCondition *)(;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition;
-@property(copy, nonatomic) NSArray *dateRanges;
-@property(readonly, nonatomic) unsigned long long dateRangesCount;
-@property(readonly, nonatomic) _Bool hasCondition;
 @end
 

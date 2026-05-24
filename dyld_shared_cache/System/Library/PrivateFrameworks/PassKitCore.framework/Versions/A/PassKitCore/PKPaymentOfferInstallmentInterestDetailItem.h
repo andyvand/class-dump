@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, PKCurrencyAmount;
-
 @interface PKPaymentOfferInstallmentInterestDetailItem
 {
     unsigned long long _type;
-    NSDecimalNumber *_interestPercentage;
-    PKCurrencyAmount *_totalInterest;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -23,17 +19,15 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setMptcpHandshakeAggregateSuccess:(id)arg1;
+- (void)AWDIDSRegistrationPhoneNumberValidationFinished;
 - (id);
 - (void);
 - (id);
-- (id)rd:(id)arg1 codingType: /* Error: Ran out of types for this method. */;
-- (void)_INVALID_LAST_NAME;
+- (id)deleteFromCloudStoreRecord:(id)arg1 codingType: /* Error: Ran out of types for this method. */;
+- (void)IN_APP_PAYMENT_CONTACT_INVALID_LAST_NAME;
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *interestPercentage; // @synthesize interestPercentage=_interestPercentage;
-@property(retain, nonatomic) PKCurrencyAmount *totalInterest; // @synthesize totalInterest=_totalInterest;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

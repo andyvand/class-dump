@@ -11,7 +11,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)[%{ptr}] %s[0x%04X] ### Invalid volume fade type received:%d
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);

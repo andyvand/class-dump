@@ -6,30 +6,28 @@
 
 #import <SoftwareUpdateCore/SUCorePolicy.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SUCorePolicyMacUpdateBrain : SUCorePolicy
 {
     NSNumber *_compatibilityVersion;
-    NSString *_majorTargetBuildVersion;
-    NSString *_minorTargetBuildVersion;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!`!;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ity"24@0:(id)arg1 8@"NSUUID"16;
+- (id)_localizedPreferencePaneTableAccessibilityLabel;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -37,8 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(retain, nonatomic) NSString *majorTargetBuildVersion; // @synthesize majorTargetBuildVersion=_majorTargetBuildVersion;
-@property(retain, nonatomic) NSString *minorTargetBuildVersion; // @synthesize minorTargetBuildVersion=_minorTargetBuildVersion;
 
 @end
 

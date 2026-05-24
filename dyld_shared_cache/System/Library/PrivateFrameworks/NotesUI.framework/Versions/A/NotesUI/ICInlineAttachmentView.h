@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, ICAttributedStringRippler, ICInlineTextAttachment, ICSearchResultRegexMatchFinder, NSClickGestureRecognizer, NSColor, NSDictionary, NSTextField, NSTrackingArea;
-@protocol ICInlineAttachmentViewAnimationDelegate;
-
 @interface ICInlineAttachmentView
 {
     _Bool _selected;
-    _Bool _isCalculateResultAttachmentView;
-    ICInlineTextAttachment *_textAttachment;
-    double _textContainerWidth;
-    NSDictionary *_surroundingAttributes;
-    ICSearchResultRegexMatchFinder *_highlightPatternRegexFinder;
-    id <ICInlineAttachmentViewAnimationDelegate> _delegate;
-    NSTextField *_textField;
-    CADisplayLink *_rippleAnimationDisplayLink;
-    ICAttributedStringRippler *_rippler;
-    NSColor *_searchHighlightColor;
-    NSTrackingArea *_trackingArea;
-    NSClickGestureRecognizer *_clickGestureRecognizer;
 }
 
 @end

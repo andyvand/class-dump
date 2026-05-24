@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSOutlineView, NSString, NSView;
-
 __attribute__((visibility("hidden")))
 @interface SCNTypeInspector
 {
     id _instance;
-    NSView *_mainView;
-    NSOutlineView *_outlineView;
-    NSMutableDictionary *_datasource;
 }
 
 - (id);
@@ -22,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)setHasSupports2c25465bb0b47366:(id)arg1;
 - (id);
-- (id);
-- (void)oZAxisTransform;
+- (id)playlistsAreLibraryOwnedContent;
+- (void)_xAxisToZAxisTransform;
 - (void)ty = M_PI_F;
 #else
         float intensity = 1.f;
@@ -631,14 +626,7 @@ __attribute__((visibility("hidden")))
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) id instance;
-@property(readonly) Class superclass;
 
 @end
 

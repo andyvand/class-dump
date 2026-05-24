@@ -7,7 +7,6 @@
 @interface NewsFeed.DisposableMonitor__priv_BF788C03565C5DE346E5ACF4396AD4A3
 {
     id monitor;
-    id keepAliveObject;
 }
 
 @end

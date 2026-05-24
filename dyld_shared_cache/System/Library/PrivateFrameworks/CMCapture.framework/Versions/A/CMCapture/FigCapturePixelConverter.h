@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWPixelBufferPool, BWVideoFormat;
+@class BWVideoFormat;
 
 @interface FigCapturePixelConverter
 {
     struct OpaqueVTPixelTransferSession *_transferSession;
-    BWPixelBufferPool *_pool;
-    BWVideoFormat *_outputFormat;
-    struct opaqueCMFormatDescription *_outputFormatDescription;
-    int _poolCapacity;
-    _Bool _prefetchPool;
 }
 
 + (void)Position;
-- (void);
-- (id);
+- (void)rId;
+- (id);
 - (int);
 - (id);
 - (id);

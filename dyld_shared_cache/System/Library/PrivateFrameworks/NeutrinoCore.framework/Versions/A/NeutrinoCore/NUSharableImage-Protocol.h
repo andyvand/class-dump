@@ -5,6 +5,8 @@
 //
 
 @protocol NUSharableImage
+- (_Bool);
+- (_Bool);
 - (int)\c;
 @end
 

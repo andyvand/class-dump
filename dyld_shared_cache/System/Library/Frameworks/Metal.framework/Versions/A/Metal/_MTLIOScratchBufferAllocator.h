@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol MTLDevice, OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface _MTLIOScratchBufferAllocator
 {
     unsigned long long _currentSize;
-    struct _opaque_pthread_mutex_t _pool_lock;
-    id <MTLDevice> _device;
-    struct MTLIOScratchBufferPrivateQueue _activeq;
-    struct MTLIOScratchBufferPrivateQueue _poolq;
-    struct MTLIOScratchBufferPrivateQueue _volatileq;
-    unsigned long long _age_to_purge;
-    NSObject<OS_dispatch_queue> *_pool_cleanup_queue;
-    NSObject<OS_dispatch_source> *_pool_cleanup_source;
-    struct os_unfair_lock_s _pool_cleanup_lock;
-    _Bool _pool_cleanup_scheduled;
-    _Bool _pool_cleanup_requested;
 }
 
 - (void);
@@ -31,16 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)e;
+- (id)primitive_acceleration_structure;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

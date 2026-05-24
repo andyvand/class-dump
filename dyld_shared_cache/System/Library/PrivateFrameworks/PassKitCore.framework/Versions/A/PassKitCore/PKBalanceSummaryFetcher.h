@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSObject, NSString, PKAccount, PKPaymentDefaultDataProvider, PKTransactionSourceCollection;
-@protocol OS_dispatch_queue;
+@class PKTransactionSourceCollection;
 
 @interface PKBalanceSummaryFetcher
 {
     PKTransactionSourceCollection *_transactionSourceCollection;
-    PKAccount *_account;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    PKPaymentDefaultDataProvider *_paymentDataProvider;
-    NSCalendar *_currentCalendar;
 }
 
 - (id);
@@ -28,13 +22,7 @@
 - (void)on.source.identifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

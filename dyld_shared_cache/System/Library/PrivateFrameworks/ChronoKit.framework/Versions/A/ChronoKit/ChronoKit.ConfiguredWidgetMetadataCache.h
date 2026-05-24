@@ -7,8 +7,6 @@
 @interface ChronoKit.ConfiguredWidgetMetadataCache
 {
     id lock;
-    id backingStore;
-    id startDatesForWidgetIDs;
 }
 
 @end

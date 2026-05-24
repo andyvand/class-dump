@@ -9,8 +9,6 @@
 @interface QCSCN_TextureDelegateSource : QCSCN_TextureOffscreenRenderingSource
 {
     id _delegate;
-    double _lastUpdate;
-    double _nextUpdateDate;
 }
 
 - (struct __C3DTexture *);

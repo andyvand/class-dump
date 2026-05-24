@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface UISearchToken
 {
     id _representedObject;
-    NSString *_text;
-    UIImage *_image;
 }
 
-+ (id);
++ (id)re check, destinationCallerID:(id)arg1 %@;
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) id representedObject; // @synthesize representedObject=_representedObject;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

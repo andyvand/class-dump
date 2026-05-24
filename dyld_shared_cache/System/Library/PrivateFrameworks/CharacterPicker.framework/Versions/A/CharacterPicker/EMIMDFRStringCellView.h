@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)privateEmailManageURL;
 
 // Remaining properties
 @property(copy) NSString *stringValue; // @synthesize stringValue=_stringValue;

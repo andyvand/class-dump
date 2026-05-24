@@ -9,8 +9,6 @@
 @interface WBSScribbleQuirks
 {
     NSString *_highLevelDomain;
-    NSNumber *_shouldIgnorePointerEventsNone;
-    NSNumber *_shouldDisableHiddenActiveElement;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *highLevelDomain; // @synthesize highLevelDomain=_highLevelDomain;
-@property(retain, nonatomic) NSNumber *shouldDisableHiddenActiveElement; // @synthesize shouldDisableHiddenActiveElement=_shouldDisableHiddenActiveElement;
 @property(retain, nonatomic) NSNumber *shouldIgnorePointerEventsNone; // @synthesize shouldIgnorePointerEventsNone=_shouldIgnorePointerEventsNone;
 
 @end

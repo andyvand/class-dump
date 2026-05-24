@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTFollowUpActionExecutableActionLinkAction, NSData;
+@class IFTSchemaIFTFollowUpActionExecutableActionLinkAction;
 
 @interface IFTSchemaIFTFollowUpActionExecutableAction : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTFollowUpActionExecutableActionLinkAction *_linkAction;
-    _Bool _hasLinkAction;
-    unsigned long long _whichOneof_Followupactionexecutableaction;
 }
 
 - (unsigned long long);
@@ -23,22 +21,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)s:(id)arg1;
+- (id)setNumAppLaunchesLastSevenDays:(id)arg1;
 - (id)	
 ;
 - (void)Gx´Uj#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkAction; // @synthesize hasLinkAction=_hasLinkAction;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTFollowUpActionExecutableActionLinkAction *linkAction; // @synthesize linkAction=_linkAction;
-@property(readonly, nonatomic) unsigned long long whichOneof_Followupactionexecutableaction; // @synthesize whichOneof_Followupactionexecutableaction=_whichOneof_Followupactionexecutableaction;
 
 @end
 

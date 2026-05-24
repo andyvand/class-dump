@@ -15,9 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(getter=isAppleVendor) _Bool appleVendor; // @dynamic appleVendor;
 @property(copy) NSString *name; // @dynamic name;
-@property(getter=isSystemCommissionerVendor) _Bool systemCommissionerVendor; // @dynamic systemCommissionerVendor;
 
 @end
 

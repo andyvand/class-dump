@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUStateEvent, CUStateMachine, HMDHierarchicalStateMachineState, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CUStateMachine;
 
 __attribute__((visibility("hidden")))
 @interface HMDHierarchicalStateMachine
 {
     _Bool _allowSelfStateTransitions;
-    _Bool _started;
-    CUStateMachine *_cuStateMachine;
-    CUStateEvent *_eventCausingStateTransition;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMDHierarchicalStateMachineState *_currentHSMState;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)deleteWithObjects:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_updateDelegateWithUpdateState:(id)arg1 to:freshAvailable: /* Error: Ran out of types for this method. */;
+- (void)_startSharingTripWithContacts:(id)arg1 capabilityType:serviceName:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -31,35 +25,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)&;
+- (void)41;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)omeKit: /* Error: Ran out of types for this method. */;
+- (void)_handleRequestIsUserUsingHomeKit: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)angeMonitorConfirmedDeviceIdentifierChangeNotification;
-- (void)omeKitUsageStateRequestKey;
+- (void)HMDPrimaryResidentChangeMonitorConfirmedDeviceIdentifierChangeNotification;
+- (void)kQueryHomeKitUsageStateRequestKey;
 - (void)bleAdaptiveTemperatureAutomations(_:(id)arg1 );
 - (_Bool)t­ÿJà¯?;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowSelfStateTransitions; // @synthesize allowSelfStateTransitions=_allowSelfStateTransitions;
 @property(retain, nonatomic) CUStateMachine *cuStateMachine; // @synthesize cuStateMachine=_cuStateMachine;
-@property __weak HMDHierarchicalStateMachineState *currentHSMState; // @synthesize currentHSMState=_currentHSMState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CUStateEvent *eventCausingStateTransition; // @synthesize eventCausingStateTransition=_eventCausingStateTransition;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDHierarchicalStateMachineState *initialState; // @dynamic initialState;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic, getter=hasStarted) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
 
 @end
 

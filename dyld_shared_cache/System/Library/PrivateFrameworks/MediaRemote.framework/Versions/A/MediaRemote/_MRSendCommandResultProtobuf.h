@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _MRErrorProtobuf, _MRNowPlayingPlayerPathProtobuf;
+@class _MRErrorProtobuf;
 
 @interface _MRSendCommandResultProtobuf
 {
     _MRErrorProtobuf *_error;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    int _sendError;
-    NSString *_sendErrorDescription;
-    NSMutableArray *_statuses;
-    CDStruct_13a44975 _has;
 }
 
 + (Class);
@@ -44,21 +39,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)ngOutputDeviceWithUID:details:queue:completion: /* Error: Ran out of types for this method. */;
+- (id)nection activateWithRequestInfo:context:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void)A;
+- (void)addOutputDevicesWithUIDs:toGroupContainingOutputDeviceWithUID:details:queue:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)%{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) _MRErrorProtobuf *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool hasError;
 @property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(nonatomic) _Bool hasSendError;
-@property(readonly, nonatomic) _Bool hasSendErrorDescription;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
-@property(nonatomic) int sendError; // @synthesize sendError=_sendError;
-@property(retain, nonatomic) NSString *sendErrorDescription; // @synthesize sendErrorDescription=_sendErrorDescription;
-@property(retain, nonatomic) NSMutableArray *statuses; // @synthesize statuses=_statuses;
 
 @end
 

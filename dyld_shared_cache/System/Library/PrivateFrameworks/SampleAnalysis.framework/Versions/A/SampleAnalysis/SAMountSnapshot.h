@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SATimestamp;
+@class SATimestamp;
 
 __attribute__((visibility("hidden")))
 @interface SAMountSnapshot
 {
     SATimestamp *_timeWhenMeasured;
-    double _timestampOfLastResponse;
-    NSArray *_blockedThreadIDs;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityFocusedWindow;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -23,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

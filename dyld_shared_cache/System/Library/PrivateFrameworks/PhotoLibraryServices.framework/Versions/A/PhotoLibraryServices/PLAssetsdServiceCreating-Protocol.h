@@ -5,6 +5,9 @@
 //
 
 @protocol PLAssetsdServiceCreating
+- (id);
+- (id)n;
+- (double);
 - (id)Ô ;
 - (id):%{public}@ /* Error: Ran out of types for this method. */;
 - (id)##### RECOVER:Initiating recovery job (#%{public}@) of incoming files (requested at %{public}@) from %{public}@:%{public}@ /* Error: Ran out of types for this method. */;

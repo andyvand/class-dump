@@ -13,10 +13,10 @@
 
 + (_Bool);
 - (id);
+- (id)_clientMotionEndpoints;
+- (void)Disable6EModeTimestamp;
 - (id);
-- (void);
-- (id);
-- (void)Term:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideDestinationNameOptionsCollectionForCreateFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error; // @synthesize error=_error;

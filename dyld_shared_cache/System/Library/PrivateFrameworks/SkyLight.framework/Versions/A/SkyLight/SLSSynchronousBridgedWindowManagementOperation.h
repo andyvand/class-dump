@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
+- (id)ckRecordSystemFields;
+- (id)E (%@ = NEW.%@) AND (%@)) WHERE %@ = NEW.%@;;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 
 @end
 

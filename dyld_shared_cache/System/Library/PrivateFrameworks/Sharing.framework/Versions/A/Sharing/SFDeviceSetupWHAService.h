@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SFDeviceOperationHandlerCDPSetup, SFService, SFSession;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFDeviceSetupWHAService
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _prefCDPEnabled;
-    SFService *_sfService;
-    SFSession *_sfSession;
-    SFDeviceOperationHandlerCDPSetup *_cdpSetupHandler;
-    _Bool _needsCDPRepair;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _progressHandler;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)\;
+- (_Bool);
+- (void);
 - (void);
 - (void);
+- (void);
+- (void)8`;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -40,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) _Bool needsCDPRepair; // @synthesize needsCDPRepair=_needsCDPRepair;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

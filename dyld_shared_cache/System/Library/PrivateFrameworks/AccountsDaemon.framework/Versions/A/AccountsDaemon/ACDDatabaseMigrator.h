@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectContext, NSPersistentStoreCoordinator, NSURL;
+@class NSManagedObjectContext, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface ACDDatabaseMigrator
 {
     NSManagedObjectContext *_migrationContext;
-    NSPersistentStoreCoordinator *_privateCoordinator;
-    NSURL *_databaseURL;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSDictionary *_storeOptions;
 }
 
 + (id);
 - (_Bool);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
@@ -36,8 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(readonly, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
-@property(readonly, copy, nonatomic) NSDictionary *storeOptions; // @synthesize storeOptions=_storeOptions;
 
 @end
 

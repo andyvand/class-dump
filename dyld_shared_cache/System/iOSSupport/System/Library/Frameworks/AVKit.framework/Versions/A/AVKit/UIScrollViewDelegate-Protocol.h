@@ -7,6 +7,8 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)er;
+- (void);
+- (void)A;
+- (void)_activeVideoCallContentViewController;
 @end
 

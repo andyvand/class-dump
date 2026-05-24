@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, VNPixelBufferObservation, VNRequestSpecifier;
+@class NSUUID;
 
 @interface VNFaceGaze
 {
     NSUUID *_faceObservationUUID;
-    long long _direction;
-    struct CGPoint _location;
-    struct CGRect _locationBounds;
-    float _horizontalAngle;
-    NSUUID *_lookedAtFaceObservationUUID;
-    VNPixelBufferObservation *_gazeMask;
-    VNRequestSpecifier *_originatingRequestSpecifier;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (struct CGPoint);
-- (struct CGRect);
+- (struct CGRect)';
 - (id);
 - (id);
 - (id);
 - (float);
-- (id);
+- (id)collection:(id)arg1 didUpdateItems:replaceItemsByFormerID:deleteItemsWithIDs: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -40,15 +33,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) long long direction; // @synthesize direction=_direction;
 @property(readonly, nonatomic) NSUUID *faceObservationUUID; // @synthesize faceObservationUUID=_faceObservationUUID;
-@property(readonly, nonatomic) VNPixelBufferObservation *gazeMask; // @synthesize gazeMask=_gazeMask;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) float horizontalAngle; // @synthesize horizontalAngle=_horizontalAngle;
-@property(readonly, nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(readonly, nonatomic) struct CGRect locationBounds; // @synthesize locationBounds=_locationBounds;
-@property(readonly, nonatomic) NSUUID *lookedAtFaceObservationUUID; // @synthesize lookedAtFaceObservationUUID=_lookedAtFaceObservationUUID;
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier;
 
 @end
 

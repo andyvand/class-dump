@@ -14,24 +14,19 @@
 + (_Bool);
 - (id);
 - (id);
+- (id)&;
 - (id);
+- (id)NSArray";
+- (long long)transientCollectionListWithAssetCollectionsFetchResult:title: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (long long);
-- (id);
-- (_Bool);
+- (_Bool):(id)arg1 8@"SFSafariAttributes"16;
 - (void);
 - (long long);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *object;
-@property(nonatomic, readonly) NSString *predicate;
 @property(nonatomic, readonly) NSString *subject;
-@property(nonatomic, readonly) long long weight;
 
 @end
 

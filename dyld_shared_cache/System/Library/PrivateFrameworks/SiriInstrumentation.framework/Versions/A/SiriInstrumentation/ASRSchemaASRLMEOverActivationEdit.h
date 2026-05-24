@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRLMEOverActivationEdit : SISchemaInstrumentationMessage
 {
     int _speechProfileCategory;
-    struct {
-        unsigned int speechProfileCategory:1;
-    } _has;
 }
 
 - (int);
@@ -25,15 +20,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)*!;
 - (id);
-- (id)onditions;
+- (id)suppressMessageUnderConditions;
 - (id)°3;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSpeechProfileCategory;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int speechProfileCategory; // @synthesize speechProfileCategory=_speechProfileCategory;
 
 @end

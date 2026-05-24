@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol AVContentIntersectingDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AVView
 {
     struct CGRect _contentIntersection;
-    _Bool _isOverVideo;
-    id <AVContentIntersectingDelegate> _contentIntersectingDelegate;
-    NSMutableArray *_subviewsNeedingIntersectionUpdate;
-    NSMutableArray *_subviewsNeedingAVInterruptibleUpdate;
-    _Bool _automaticallyUpdatesSubviewContentIntersections;
-    _Bool _hasBackdropView;
-    _Bool _ignoresTouches;
 }
 
 - (void);
@@ -47,23 +37,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)Ð!4Eùq[ð1Â0@ù
 × ;
-- (_Bool)lwaysBounceHorizontal: /* Error: Ran out of types for this method. */;
-- (void)IP_BACK_15;
+- (_Bool)setAlwaysBounceHorizontal: /* Error: Ran out of types for this method. */;
+- (void)KEYBOARD_DISCOVERABILITY_SKIP_BACK_15;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyUpdatesSubviewContentIntersections; // @synthesize automaticallyUpdatesSubviewContentIntersections=_automaticallyUpdatesSubviewContentIntersections;
-@property(nonatomic) __weak id <AVContentIntersectingDelegate> contentIntersectingDelegate; // @synthesize contentIntersectingDelegate=_contentIntersectingDelegate;
-@property(nonatomic) struct CGRect contentIntersection; // @synthesize contentIntersection=_contentIntersection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasBackdropView; // @synthesize hasBackdropView=_hasBackdropView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoresTouches; // @synthesize ignoresTouches=_ignoresTouches;
-@property(readonly, nonatomic, getter=isOverVideo) _Bool isOverVideo; // @synthesize isOverVideo=_isOverVideo;
-@property(readonly) Class superclass;
 
 @end
 

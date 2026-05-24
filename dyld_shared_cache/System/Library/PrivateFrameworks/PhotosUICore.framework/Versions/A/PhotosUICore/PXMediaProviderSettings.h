@@ -9,24 +9,20 @@
 @interface PXMediaProviderSettings : PXSettings
 {
     _Bool _wantsSimulation;
-    _Bool _simulateError;
-    double _simulatedDelay;
 }
 
-+ (id);
++ (id)ng",?,R,C;
 + (id)Þüx: /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
-- (void);
-- (void);
+- (void)k;
+- (void)k!;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool simulateError; // @synthesize simulateError=_simulateError;
-@property(nonatomic) double simulatedDelay; // @synthesize simulatedDelay=_simulatedDelay;
 @property(nonatomic) _Bool wantsSimulation; // @synthesize wantsSimulation=_wantsSimulation;
 
 @end

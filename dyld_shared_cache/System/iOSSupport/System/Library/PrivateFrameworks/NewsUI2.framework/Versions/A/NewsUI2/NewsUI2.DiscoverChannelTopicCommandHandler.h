@@ -7,7 +7,6 @@
 @interface NewsUI2.DiscoverChannelTopicCommandHandler
 {
     id navigator;
-    id tracker;
 }
 
 @end

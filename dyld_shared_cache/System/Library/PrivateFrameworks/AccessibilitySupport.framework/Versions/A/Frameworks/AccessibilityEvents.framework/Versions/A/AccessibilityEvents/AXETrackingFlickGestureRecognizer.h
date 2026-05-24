@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXETrackingTouchEvent, NSArray, NSString;
-@protocol AXETimer, AXETrackingFlickGestureRecognizerDelegate;
-
 @interface AXETrackingFlickGestureRecognizer
 {
     double _minimumFlickDistance;
-    double _minimumFlickVelocity;
-    double _maximumFlickDuration;
-    id <AXETrackingFlickGestureRecognizerDelegate> _delegate;
-    unsigned long long __currentState;
-    AXETrackingTouchEvent *__flickStartTouchEvent;
-    NSArray *__lastTouchingTouches;
-    id <AXETimer> __flickTimeoutTimer;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)x;
 - (double);
-- (id);
+- (id)B@y	?%@q!;
 - (void);
 - (void);
 - (void);
@@ -41,24 +31,10 @@
 - (unsigned long long);
 - (double);
 - (double);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(nonatomic) unsigned long long _currentState; // @synthesize _currentState=__currentState;
-@property(retain, nonatomic) AXETrackingTouchEvent *_flickStartTouchEvent; // @synthesize _flickStartTouchEvent=__flickStartTouchEvent;
-@property(retain, nonatomic) id <AXETimer> _flickTimeoutTimer; // @synthesize _flickTimeoutTimer=__flickTimeoutTimer;
-@property(retain, nonatomic) NSArray *_lastTouchingTouches; // @synthesize _lastTouchingTouches=__lastTouchingTouches;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXETrackingFlickGestureRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maximumFlickDuration; // @synthesize maximumFlickDuration=_maximumFlickDuration;
-@property(readonly, nonatomic) double minimumFlickDistance; // @synthesize minimumFlickDistance=_minimumFlickDistance;
-@property(readonly, nonatomic) double minimumFlickVelocity; // @synthesize minimumFlickVelocity=_minimumFlickVelocity;
-@property(readonly) Class superclass;
 
 @end
 

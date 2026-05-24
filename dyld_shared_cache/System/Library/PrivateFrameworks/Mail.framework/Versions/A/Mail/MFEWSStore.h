@@ -6,14 +6,11 @@
 
 #import <Mail/MFRemoteStore.h>
 
-@class MFEWSAccount, NSLock, NSMutableSet, NSString;
+@class NSString;
 
 @interface MFEWSStore : MFRemoteStore
 {
     NSString *_syncState;
-    NSLock *_syncLock;
-    NSMutableSet *_flagsToSetDuringSync;
-    NSString *_folderIdString;
 }
 
 - (id);
@@ -27,13 +24,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)parentFrame;
 - (void);
 - (id);
 - (id);
@@ -44,16 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MFEWSAccount *account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSString *folderIdString; // @synthesize folderIdString=_folderIdString;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) NSString *syncState;
 
 @end
 

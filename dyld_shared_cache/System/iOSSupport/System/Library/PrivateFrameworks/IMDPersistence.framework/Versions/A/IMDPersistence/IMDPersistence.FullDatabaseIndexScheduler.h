@@ -7,8 +7,6 @@
 @interface IMDPersistence.FullDatabaseIndexScheduler
 {
     id context;
-    id userInfoData;
-    id dbConnection;
 }
 
 @end

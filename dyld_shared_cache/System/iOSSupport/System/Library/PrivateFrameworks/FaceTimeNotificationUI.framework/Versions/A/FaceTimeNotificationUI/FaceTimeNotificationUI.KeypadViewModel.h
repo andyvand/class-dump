@@ -8,7 +8,6 @@
 {
     id call;
     id _combinedInput;
-    id _$observationRegistrar;
 }
 
 @end

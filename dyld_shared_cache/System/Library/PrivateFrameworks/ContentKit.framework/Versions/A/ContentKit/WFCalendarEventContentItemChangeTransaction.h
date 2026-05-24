@@ -6,13 +6,12 @@
 
 #import <ContentKit/WFContentItemChangeTransaction.h>
 
-@class EKEvent, EKEventStore;
+@class EKEvent;
 
 __attribute__((visibility("hidden")))
 @interface WFCalendarEventContentItemChangeTransaction : WFContentItemChangeTransaction
 {
     EKEvent *_mutableEvent;
-    EKEventStore *_eventStore;
 }
 
 - (void);
@@ -20,13 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);ô;
+- (id);
 - (void);
 - (void)ñ°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
 @property(readonly, nonatomic) EKEvent *mutableEvent; // @synthesize mutableEvent=_mutableEvent;
 
 @end

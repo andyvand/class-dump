@@ -6,22 +6,10 @@
 
 #import <MarkupUI/MUContentViewController.h>
 
-@class MUImageView, NSDictionary, NSString, UTType;
-@protocol MUContentViewControllerDataDelegate;
-
 __attribute__((visibility("hidden")))
 @interface MUImageContentViewController : MUContentViewController
 {
     struct CGImage *_contentImage;
-    _Bool contentViewControllerCropEnabled;
-    _Bool _liveTextEnabled;
-    _Bool _editsExistSinceLastAnalysis;
-    id <MUContentViewControllerDataDelegate> _dataDelegate;
-    UTType *_sourceImageType;
-    id _sourceContent;
-    NSDictionary *_imageProperties;
-    id _frameChangedObserver;
-    MUImageView *_preloadedView;
 }
 
 - (id);
@@ -33,20 +21,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (struct CGRect);
 - (void);
 - (id);
-- (id);
+- (id)KH%;
 - (struct CGRect);
 - (id);
 - (double);
@@ -58,10 +46,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)T;
 - (id);
-- (struct CGRect);
-- (void);
+- (struct CGRect);
+- (void)k;
 - (void);
 - (_Bool);
 - (void);
@@ -69,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (void);
@@ -80,7 +68,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)	kB;
 - (id);
 - (void);
 - (_Bool);
@@ -88,56 +76,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)I;
 - (void);
 - (void);
-- (id);
+- (id)?;
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
-- (struct CGRect);
+- (struct CGRect)?qq`;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)K;
+- (void)reduceWithCompletion: /* Error: Ran out of types for this method. */;
 - (struct CGSize)A4"!lCùÉ%°1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool contentViewControllerCropEnabled; // @synthesize contentViewControllerCropEnabled;
-@property(nonatomic) __weak id <MUContentViewControllerDataDelegate> dataDelegate; // @synthesize dataDelegate=_dataDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool editsExistSinceLastAnalysis; // @synthesize editsExistSinceLastAnalysis=_editsExistSinceLastAnalysis;
-@property(retain) id frameChangedObserver; // @synthesize frameChangedObserver=_frameChangedObserver;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *imageProperties; // @synthesize imageProperties=_imageProperties;
-@property(readonly, nonatomic) _Bool liveTextActiveTextSelectionExists;
-@property(nonatomic) _Bool liveTextEnabled; // @synthesize liveTextEnabled=_liveTextEnabled;
-@property(nonatomic) _Bool liveTextVisualSearchEnabled;
-@property(readonly, copy, nonatomic) NSString *originalImageDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(retain) MUImageView *preloadedView; // @synthesize preloadedView=_preloadedView;
 @property(retain) id sourceContent; // @synthesize sourceContent=_sourceContent;
-@property(retain, nonatomic) UTType *sourceImageType; // @synthesize sourceImageType=_sourceImageType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsFormFill;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsImageDescriptionEditing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *visualSearchInfoButtonFilledGlyphName;
-@property(readonly, nonatomic) NSString *visualSearchInfoButtonGlyphName;
 
 @end
 

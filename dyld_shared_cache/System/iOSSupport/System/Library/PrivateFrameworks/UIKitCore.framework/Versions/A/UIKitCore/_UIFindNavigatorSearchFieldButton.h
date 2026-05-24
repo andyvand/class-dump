@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (struct CGSize)ifier;
+- (struct CGSize)identifier;
 
 // Remaining properties
 @property(nonatomic) _Bool usesSquareIntrinsicSize; // @synthesize usesSquareIntrinsicSize=_usesSquareIntrinsicSize;

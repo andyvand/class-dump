@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarEditorViewController, AVTAvatarInlineActionsController, AVTImageTransitioningContainerView, AVTToolBar, AVTUIEnvironment, AVTViewSession, AVTViewSessionProvider, NSString, UIImageView, UIStackView, UITapGestureRecognizer;
-@protocol AVTAvatarActionsViewControllerDelegate, AVTAvatarActionsViewControllerLayout;
+@class UIStackView;
 
 @interface AVTAvatarActionsViewController
 {
     _Bool _shouldHideUserInfoView;
-    _Bool _isAnimating;
-    _Bool _allowFacetracking;
-    id <AVTAvatarActionsViewControllerDelegate> _delegate;
-    id <AVTAvatarActionsViewControllerLayout> _currentLayout;
-    UIStackView *_buttonsView;
-    AVTImageTransitioningContainerView *_avatarContainer;
-    AVTToolBar *_toolbar;
-    AVTAvatarInlineActionsController *_actionsController;
-    AVTViewSessionProvider *_sessionProvider;
-    AVTViewSession *_avtViewSession;
-    CDUnknownBlockType _postSessionDidBecomeActiveHandler;
-    UIImageView *_transitionImageView;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    AVTUIEnvironment *_environment;
-    AVTAvatarEditorViewController *_editorViewController;
 }
 
 - (void);
@@ -34,9 +18,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)`;
 - (double);
 - (void);
 - (void);
@@ -81,51 +65,29 @@
 - (id);
 - (void);
 - (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (struct UIEdgeInsets)TH	;
+- (void)e that is different from schema enum value type;
 - (void);
 - (id);
-- (void);
+- (id)rvice presubmissionTest_testEPLMode:withParam:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)MK;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)tWithStore:(id)arg1 environment:allowAddItem:interItemSpacing: /* Error: Ran out of types for this method. */;
+- (void)initWithStore:(id)arg1 environment:allowAddItem:interItemSpacing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) AVTAvatarInlineActionsController *actionsController; // @synthesize actionsController=_actionsController;
-@property(nonatomic) _Bool allowFacetracking; // @synthesize allowFacetracking=_allowFacetracking;
-@property(retain, nonatomic) AVTImageTransitioningContainerView *avatarContainer; // @synthesize avatarContainer=_avatarContainer;
-@property(retain, nonatomic) AVTViewSession *avtViewSession; // @synthesize avtViewSession=_avtViewSession;
 @property(retain, nonatomic) UIStackView *buttonsView; // @synthesize buttonsView=_buttonsView;
-@property(retain, nonatomic) id <AVTAvatarActionsViewControllerLayout> currentLayout; // @synthesize currentLayout=_currentLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarActionsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak AVTAvatarEditorViewController *editorViewController; // @synthesize editorViewController=_editorViewController;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property(copy, nonatomic) CDUnknownBlockType postSessionDidBecomeActiveHandler; // @synthesize postSessionDidBecomeActiveHandler=_postSessionDidBecomeActiveHandler;
-@property(readonly, nonatomic) AVTViewSessionProvider *sessionProvider; // @synthesize sessionProvider=_sessionProvider;
-@property(nonatomic) _Bool shouldHideUserInfoView; // @synthesize shouldHideUserInfoView=_shouldHideUserInfoView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
-@property(retain, nonatomic) AVTToolBar *toolbar; // @synthesize toolbar=_toolbar;
-@property(retain, nonatomic) UIImageView *transitionImageView; // @synthesize transitionImageView=_transitionImageView;
 
 @end
 

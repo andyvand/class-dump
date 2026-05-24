@@ -5,5 +5,6 @@
 //
 
 @protocol NSTrustedPasteControlClientProtocol
+- (void)1plD8faLv1bhScZQ3t0PLQ;
 @end
 

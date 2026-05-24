@@ -9,15 +9,14 @@
 @interface AppKit._NSTextFormattingBaseSegmentedControl__priv_B20AA1257E16D4018E27D921D92487C8 : NSSegmentedControl
 {
     id componentKey;
-    id componentSize;
 }
 
 - (void);
-- (void);
+- (void):(id)arg1 jO;
 - (id);
 - (id);
 - (struct CGSize);
-- (id)geTransition;
+- (id)_stageTransition;
 - (void)PE;
 
 // Remaining properties

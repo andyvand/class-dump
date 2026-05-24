@@ -7,26 +7,6 @@
 @interface NewsUI2.OfflineFeedsSupervisor
 {
     id isEnabled;
-    id contentContext;
-    id offlineFeatures;
-    id offlineFeedBuilders;
-    id offlineFeedUpdaters;
-    id lazyObservableManifest;
-    id workQueue;
-    id serialOperationQueue;
-    id persistedPuzzleTypeFeedManifests;
-    id _persistedTodayFeedManifest;
-    id _persistedPuzzleHubFeedManifest;
-    id _persistedSportsFeedManifest;
-    id _persistedMagazineFeedManifest;
-    id _persistedAudioFeedManifest;
-    id _persistedSavedFeedManifest;
-    id _persistedHistoryFeedManifest;
-    id _persistedSharedWithYouFeedManifest;
-    id _persistedRecipeBoxFeedManifest;
-    id _persistedFoodHubFeedManifest;
-    id _persistedRecipeCatalogFeedManifest;
-    id _persistedSearchHubFeedManifest;
 }
 
 @end

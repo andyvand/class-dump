@@ -7,7 +7,9 @@
 @protocol LSApplicationWorkspaceObserverProtocol
 
 @optional
-- (void);
-- (void)artSyndicationType;
+- (void);
+- (void)Û;
+- (void)s;
+- (void)messagePartSyndicationType;
 @end
 

@@ -4,73 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContextState, MRImage, MRImageManager, MRShader, NSMutableDictionary;
-@protocol MZMediaManagement;
-
 @interface MRContext
 {
     MRContext *mBaseContext;
-    struct _CGLContextObject *mGLContext;
-    struct _CGLPixelFormatObject *mCGLPixelFormat;
-    struct CGPoint mPixelOffset;
-    struct CGSize mPixelSize;
-    unsigned long long mVRAM;
-    int mMaxTextureSize;
-    float mFieldOfViewFactor;
-    float mProjectionMatrix[16];
-    float mProjectionMatrixWithOrientationCorrection[16];
-    int mOrientation;
-    id <MZMediaManagement> mAssetManager;
-    MRImageManager *mImageManager;
-    _Bool mIsLocalContext;
-    _Bool mIsFlipped;
-    MRContextState *mOuterState;
-    MRContextState *mInnerState;
-    NSMutableDictionary *mVertexAttributes;
-    _Bool mCurrentVBOWasUpdated;
-    _Bool mForceShaderUpdate;
-    float mLocalAspectRatio;
-    int mScissorRect[4];
-    MRShader *mCurrentShader;
-    MRImage *mTextureUnitImages[4];
-    unsigned int mActiveTextureUnit;
-    int mRenderBuffer;
-    MRImage *mBlackImage;
-    _Bool _meshIsBound;
-    int _dimensionalMode;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
+- (void)8@?0;
+- (void)@"NSData"@"NSError">28;
+- (void)B16@"NSDictionary"20@?<v@?@"<FCNewsAppConfiguration>"@"NSDictionary"@"NSData"@"NSError">28;
+- (void)gurationObserving>"16;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)r";
+- (void)refreshAppConfigurationIfNeededWithCompletionQueue:(int)arg1 refreshCompletion:(struct CGPoint)arg2;
+- (_Bool)fc_setOfObjectsPassingTest: /* Error: Ran out of types for this method. */;
+- (void)fc_GregorianCalendarDaysSinceDate:(float *)arg1;
+- (void)environment;
+- (void)envelopeStore:(const float *)arg1 didFlushEnvelopesForEntries:(unsigned long long)arg2;
+- (void)envelopeStore:(const float *)arg1 didFlushEnvelopesForEntries: /* Error: Ran out of types for this method. */;
+- (void)envelopeIdentifier;
+- (void)componentsInTimeZone:(const float *)arg1 fromDate:(unsigned long long)arg2;
+- (void)_deleteEnvelopesForKeysFromStore:(float)arg1;
+- (void)_daysSinceSubmissionDateProperty;
+- (void)_cacheCoordinator;
+- (void)_backgroundSessionLaunchEventCounter;
+- (void)_backgroundSession;
+- (void)_appConfigurationManager;
+- (void)URLSession:(const int *)arg1 task:(int *)arg2 willPerformHTTPRedirection:newRequest:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)release;
+- (void)&,N,V_telemetryUploader;
+- (void)configProvider;
+- (void)submissionQueue;
+- (void)FCNewsAppConfigurationManager;
+- (void)NSURLSessionTaskDelegate;
 - (void);
 - (void);
 - (void);
@@ -82,10 +51,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGPoint);
-- (struct CGColorSpace *);
-- (unsigned int);
+- (void);
+- (struct CGPoint)/AppleInternal/Library/BuildRoots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeStoreEntry.m;
+- (struct CGColorSpace *)EnvelopeStore copyEnvelopes:] /* Error: Ran out of types for this method. */;
+- (unsigned int)bmitEnvelopes:withCompletion:] /* Error: Ran out of types for this method. */;
 - (float);
 - (_Bool);
 - (id);
@@ -105,7 +74,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (CDStruct_3e356df7);
+- (CDStruct_c0454aff);
 - (struct _CGLPixelFormatObject *);
 - (void);
 - (void);
@@ -124,7 +93,7 @@
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
@@ -142,15 +111,15 @@
 - (void);
 - (_Bool);
 - (struct CGColorSpace *);
-- (struct CGSize);
-- (int);
-- (void);
+- (struct CGSize)maxAIGCHeadlines;
+- (int)ary/PrivateFrameworks/TeaFoundation.framework/Versions/A/TeaFoundation;
+- (void)(;
 - (struct CGSize);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)oreMIDI.dylib;
 - (void)void main() 
 		{ 
 			ComputeVertex; 
@@ -162,31 +131,7 @@
 - (float)a;
 
 // Remaining properties
-@property(readonly, nonatomic) float aspectRatio;
-@property(retain) id <MZMediaManagement> assetManager; // @synthesize assetManager=mAssetManager;
-@property(readonly, nonatomic) const float *backColor;
 @property(readonly) MRContext *baseContext; // @synthesize baseContext=mBaseContext;
-@property(readonly) struct _CGLPixelFormatObject *cglPixelFormat;
-@property(readonly) struct CGColorSpace *colorSpace;
-@property(nonatomic) int dimensionalMode; // @synthesize dimensionalMode=_dimensionalMode;
-@property(readonly, nonatomic) const float *foreColor;
-@property(readonly, nonatomic) _Bool foreColorIsOpaqueWhite;
-@property(readonly) struct _CGLContextObject *glContext; // @synthesize glContext=mGLContext;
-@property(readonly) MRImageManager *imageManager; // @synthesize imageManager=mImageManager;
-@property(readonly, nonatomic) _Bool isDoubleBuffered;
-@property(nonatomic) _Bool isFlipped; // @synthesize isFlipped=mIsFlipped;
-@property(nonatomic) float localAspectRatio; // @synthesize localAspectRatio=mLocalAspectRatio;
-@property(readonly, nonatomic) unsigned int maxDimension;
-@property(readonly) int maxTextureSize; // @synthesize maxTextureSize=mMaxTextureSize;
-@property(readonly, nonatomic) const float *modelViewMatrix;
-@property(readonly) struct CGColorSpace *monochromaticColorSpace;
-@property(nonatomic) int orientation; // @synthesize orientation=mOrientation;
-@property(nonatomic) struct CGPoint pixelOffset; // @synthesize pixelOffset=mPixelOffset;
-@property(nonatomic) struct CGSize pixelSize; // @synthesize pixelSize=mPixelSize;
-@property(readonly, nonatomic) const float *projectionMatrix;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) unsigned long long virtualScreen;
-@property(readonly, nonatomic) unsigned long long vram; // @synthesize vram=mVRAM;
 
 @end
 

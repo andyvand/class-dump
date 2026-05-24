@@ -7,18 +7,6 @@
 @interface BlastDoor.CSDMProtoConversationActivity._StorageClass__priv_E954D71DD385455E8AA8CD6D25163487
 {
     id _identifierUuidstring;
-    id _applicationContext;
-    id _bundleIdentifier;
-    id _activityIdentifier;
-    id _metadata;
-    id _activityContext;
-    id _originatorHandle;
-    id _updatedDateEpochTime;
-    id _fallbackApplicationName;
-    id _activityMetadata;
-    id _isSystemActivity;
-    id _timestampAsTimeIntervalSinceReferenceDate;
-    id _fromHandle;
 }
 
 @end

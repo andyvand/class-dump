@@ -7,34 +7,28 @@
 #import <AppKit/NSView.h>
 
 @class NSStatusItem;
-@protocol NSPrivacyIndicatorViewDelegate;
 
 @interface NSPrivacyIndicatorView : NSView
 {
     NSStatusItem *_indicatedStatusItem;
-    long long _type;
-    id <NSPrivacyIndicatorViewDelegate> _delegate;
-    double _requiredWidth;
 }
 
 + (void)+Üô:H /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (void);
-- (unsigned int);
+- (unsigned int)e path to file for unlink.;
 - (void);
-- (id);
+- (id);
 - (void);
-- (long long);
+- (long long)tblBorders;
 - (void);
-- (void)apshot;
-- (void)ovider;
+- (void)_NSDiffableDataSourceSnapshot;
+- (void)_blackArtworkProvider;
 - (void);
 
 // Remaining properties
-@property __weak id <NSPrivacyIndicatorViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property double requiredWidth; // @synthesize requiredWidth=_requiredWidth;
-@property long long type;
 
 @end
 

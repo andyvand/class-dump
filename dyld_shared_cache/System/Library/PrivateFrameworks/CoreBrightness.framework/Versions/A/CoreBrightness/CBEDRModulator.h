@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBEDRModulator
 {
     NSObject<OS_os_log> *_logHandle;
-    _Bool _enabled;
-    NSArray *_headroomDataPointsConfig;
-    NSArray *_nitsDataPointsConfig;
 }
 
 - (void);
@@ -22,16 +19,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)F12;
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain) NSArray *headroomDataPointsConfig; // @synthesize headroomDataPointsConfig=_headroomDataPointsConfig;
-@property(retain) NSArray *nitsDataPointsConfig; // @synthesize nitsDataPointsConfig=_nitsDataPointsConfig;
 
 @end
 

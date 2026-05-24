@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAssetQuery, NSArray, NSPredicate, NSString;
+@class NSString;
 
 @interface ASAssetQuery
 {
     _Bool _queriesLocalAssetInformationOnly;
-    MAAssetQuery *maQuery;
-    NSPredicate *_predicate;
-    NSArray *_results;
-    double _networkTimeout;
-    NSString *_assetType;
-    NSString *_sessionIdentifier;
 }
 
 + (id);
-- (id);
+- (id)IDSXPCPinnedIdentity;
 - (void);
 - (id);
-- (id);
+- (id)�;
 - (void);
 - (id);
 - (void);
@@ -36,18 +30,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id)obileAssetIsPrePersonalized: /* Error: Ran out of types for this method. */;
+- (id)setSecureMobileAssetIsPrePersonalized: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(retain, nonatomic) MAAssetQuery *maQuery; // @synthesize maQuery;
-@property(nonatomic) double networkTimeout; // @synthesize networkTimeout=_networkTimeout;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(nonatomic) _Bool queriesLocalAssetInformationOnly; // @synthesize queriesLocalAssetInformationOnly=_queriesLocalAssetInformationOnly;
-@property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (void)ss;
+- (void)HEVCTemporalSubLayerAccess;
 
 @end
 

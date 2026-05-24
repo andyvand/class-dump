@@ -5,6 +5,7 @@
 //
 
 @protocol UISeparatorDisplaying
+- (void)@;
 
 // Remaining properties
 @property(nonatomic) double constantAxisDimension;

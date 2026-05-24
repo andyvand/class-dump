@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface CKEventMetricInfo
 {
     _Bool _isCKInternalMetric;
-    _Bool _isPushTriggerFired;
-    _Bool _allowsCellularAccess;
-    _Bool _allowsExpensiveNetworkAccess;
-    _Bool _preferAnonymousRequests;
-    NSUUID *_metricUUID;
-    long long _databaseScope;
-    NSString *_deviceIdentifier;
-    NSString *_sourceApplicationBundleIdentifier;
-    NSString *_sourceApplicationSecondaryIdentifier;
-    NSNumber *_privacyProxyFailClosedOverride;
-    NSString *_applicationBundleIdentifierOverrideForContainerAccess;
-    NSString *_applicationBundleIdentifierOverrideForNetworkAttribution;
-    NSString *_eventName;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSDictionary *_attributes;
-    NSDictionary *_associatedOperations;
-    NSDictionary *_associatedOperationGroups;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setNumClasses: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -45,35 +27,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)_containerRepositoryURL;
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (_Bool)zR;
 - (void)6Ü6Ø9Ð;;
 - (_Bool)ü;
-- (id)erRecordID;
+- (id)userRecordID;
 - (_Bool)/?;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsCellularAccess; // @synthesize allowsCellularAccess=_allowsCellularAccess;
-@property(readonly, nonatomic) _Bool allowsExpensiveNetworkAccess; // @synthesize allowsExpensiveNetworkAccess=_allowsExpensiveNetworkAccess;
-@property(readonly, copy, nonatomic) NSString *applicationBundleIdentifierOverrideForContainerAccess; // @synthesize applicationBundleIdentifierOverrideForContainerAccess=_applicationBundleIdentifierOverrideForContainerAccess;
-@property(readonly, copy, nonatomic) NSString *applicationBundleIdentifierOverrideForNetworkAttribution; // @synthesize applicationBundleIdentifierOverrideForNetworkAttribution=_applicationBundleIdentifierOverrideForNetworkAttribution;
-@property(readonly, copy, nonatomic) NSDictionary *associatedOperationGroups; // @synthesize associatedOperationGroups=_associatedOperationGroups;
-@property(readonly, copy, nonatomic) NSDictionary *associatedOperations; // @synthesize associatedOperations=_associatedOperations;
-@property(readonly, copy, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(readonly, copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, copy, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly, copy, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(readonly, nonatomic) _Bool isCKInternalMetric; // @synthesize isCKInternalMetric=_isCKInternalMetric;
-@property(readonly, nonatomic) _Bool isPushTriggerFired; // @synthesize isPushTriggerFired=_isPushTriggerFired;
 @property(readonly, copy, nonatomic) NSUUID *metricUUID; // @synthesize metricUUID=_metricUUID;
-@property(readonly, nonatomic) _Bool preferAnonymousRequests; // @synthesize preferAnonymousRequests=_preferAnonymousRequests;
-@property(readonly, copy, nonatomic) NSNumber *privacyProxyFailClosedOverride; // @synthesize privacyProxyFailClosedOverride=_privacyProxyFailClosedOverride;
-@property(readonly, copy, nonatomic) NSString *sourceApplicationBundleIdentifier; // @synthesize sourceApplicationBundleIdentifier=_sourceApplicationBundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *sourceApplicationSecondaryIdentifier; // @synthesize sourceApplicationSecondaryIdentifier=_sourceApplicationSecondaryIdentifier;
-@property(readonly, copy, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
 
 @end
 

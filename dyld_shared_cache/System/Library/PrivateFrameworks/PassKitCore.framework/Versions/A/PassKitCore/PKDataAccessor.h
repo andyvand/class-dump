@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSData, PKRemoteAssetManager;
+@class NSData;
 
 @interface PKDataAccessor
 {
@@ -24,36 +24,31 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)q;
+- (void));
+- (id);
+- (id);
+- (void)";
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)"isPathExpensive"b1"multipathConfigured"b1"prohibitsConstrained"b1"prohibitsExpensive"b1"resolutionRequired"b1"synthesizedExtraIPv6Address"b1"synthesizedIPv6Address"b1"systemProxyConfigured"b1"tfoConfigured"b1"tfoUsed"b1"tlsConfigured"b1"tlsHandshakeTimedOut"b1"tlsVersionTimeout"b1"triggeredPath"b1"usedFallback"b1"weakFallback"b1};
 - (id);
 - (void)ExternalDeviceMigrationCardEntry"@"NSError">24;
 - (id)_localizedTitleOverride;
-- (id)ON_CVV_DESCRIPTION;
+- (id)PRECURSOR_PASS_GENERIC_REPROVISION_CVV_DESCRIPTION;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *archiveData;
-@property(readonly, nonatomic) NSBundle *bundle;
 @property(readonly, nonatomic) NSData *manifestHash;
-@property(readonly, nonatomic) PKRemoteAssetManager *remoteAssetManager;
-@property(readonly, nonatomic) _Bool remoteAssetsDownloaded;
-@property(readonly, nonatomic) NSData *serializedFileWrapper;
 
 @end
 

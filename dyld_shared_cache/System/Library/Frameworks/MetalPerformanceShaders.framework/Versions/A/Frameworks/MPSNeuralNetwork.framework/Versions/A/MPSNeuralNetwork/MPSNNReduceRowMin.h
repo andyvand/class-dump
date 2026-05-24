@@ -10,9 +10,9 @@
 {
 }
 
+- (id)	;
 - (id);
-- (id);
-- (id)volutionGradientGroups;
+- (id)MPSCNNConvolutionGradientGroups;
 
 @end
 

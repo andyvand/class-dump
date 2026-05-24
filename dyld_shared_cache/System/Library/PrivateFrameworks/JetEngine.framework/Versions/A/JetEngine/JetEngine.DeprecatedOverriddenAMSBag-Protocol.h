@@ -7,6 +7,7 @@
 @protocol AMSBagProtocol;
 
 @protocol JetEngine.DeprecatedOverriddenAMSBag
+- (id <AMSBagProtocol>)".z;
 
 // Remaining properties
 @property(nonatomic, readonly) id <AMSBagProtocol> replacingSnapshotIfNeeded;

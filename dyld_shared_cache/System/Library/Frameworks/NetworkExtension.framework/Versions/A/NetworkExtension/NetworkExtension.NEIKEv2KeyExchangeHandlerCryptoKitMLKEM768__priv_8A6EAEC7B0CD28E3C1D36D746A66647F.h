@@ -13,7 +13,7 @@
 
 - (_Bool);
 - (id);
-- (void)up: /* Error: Ran out of types for this method. */;
+- (void)initWithPassword:domain:accessGroup: /* Error: Ran out of types for this method. */;
 
 @end
 

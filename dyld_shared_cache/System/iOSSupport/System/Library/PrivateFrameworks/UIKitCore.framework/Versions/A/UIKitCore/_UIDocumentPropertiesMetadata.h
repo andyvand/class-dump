@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     LPLinkMetadata *_metadata;
 }
 
-- (id)ion:progressDidChange:tracking: /* Error: Ran out of types for this method. */;
+- (id)scrollAwayInteraction:progressDidChange:tracking: /* Error: Ran out of types for this method. */;
 - (void)Value;
 - (void)Ý];
 

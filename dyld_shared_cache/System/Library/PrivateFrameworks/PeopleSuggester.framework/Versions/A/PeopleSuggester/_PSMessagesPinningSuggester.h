@@ -4,81 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSXPCConnection, _CDInteractionStore;
+@class NSDictionary;
 
 @interface _PSMessagesPinningSuggester
 {
     struct os_unfair_lock_s _lock;
-    NSXPCConnection *_connection;
-    _Bool _boostGroups;
-    _Bool _outgoingOnly;
-    _Bool _boostIndividualFavorites;
-    _CDInteractionStore *_interactionStore;
-    NSDictionary *_psMessagesPinningConfig;
-    double _regularityThreshold;
-    double _intensityThreshold;
-    double _regularityWeight;
-    double _intensityWeight;
-    long long _minimalInteractions;
-    long long _minimalUniqueDaysInteracted;
-    double _lookbackWindow;
-    NSString *_configVersion;
 }
 
+- (void)_hasCdmSingleServiceWarmupAttemptFailed;
+- (void)_hasAuthenticationRequired;
+- (void)_hasAudioUnderstandingTier1;
+- (void)_hasAudioStopRecordingStarted;
+- (void)_hasAudioInterfaceProductId;
+- (void)_hasAssetLoadContext;
+- (void)_hasAsrAudioConfigureStarted;
+- (void)_hasAppleMusicVoicePreviewOfferNotShown;
+- (void)_hasAppleIntelligenceLocale;
+- (void)_hardwareInterfaceVendorID;
+- (double)_genAIAccountType;
+- (double)_fullyQualifiedPath;
+- (id)_freqAnyGroup1HrTo6Hr;
+- (_Bool)_finalMitigationRecommendation;
+- (long long)_executorAppIntentAttribution;
+- (long long)_executionTimeInNs;
+- (double)_eventDuration;
+- (_Bool)_estimatedDuration;
+- (double)_entityAbsoluteCount14Day;
+- (id)_endpointedBufferTimeInNs;
+- (id)_endpointFeaturesAtEndpoint;
+- (id)_closestNegativeExampleScore;
+- (id)_assistantDaemonLoadedTimestampInNs;
+- (id)_assistantDaemonAudioTwoShotTransitionContext;
+- (id)_assistantDaemonAudioSessionSetInactiveContext;
+- (_Bool)_assistantDaemonAudioLateBufferDetected;
+- (_Bool)_assistantDaemonAudioInitContext;
+- (void)_appleNeuralEngineCpuTimeInNs;
+- (double)_appUsageCountFromSiriInf;
+- (void)_appUsageCount2Min;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
 - (id);
-- (_Bool);
-- (long long);
-- (long long);
-- (double);
-- (_Bool);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (double);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)rFeedbackEvents;
+- (id)clearFeedbackEvents;
 - (id)or predictions:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool boostGroups; // @synthesize boostGroups=_boostGroups;
-@property(nonatomic) _Bool boostIndividualFavorites; // @synthesize boostIndividualFavorites=_boostIndividualFavorites;
-@property(retain, nonatomic) NSString *configVersion; // @synthesize configVersion=_configVersion;
-@property(nonatomic) double intensityThreshold; // @synthesize intensityThreshold=_intensityThreshold;
-@property(nonatomic) double intensityWeight; // @synthesize intensityWeight=_intensityWeight;
-@property(retain, nonatomic) _CDInteractionStore *interactionStore; // @synthesize interactionStore=_interactionStore;
-@property(nonatomic) double lookbackWindow; // @synthesize lookbackWindow=_lookbackWindow;
-@property(nonatomic) long long minimalInteractions; // @synthesize minimalInteractions=_minimalInteractions;
-@property(nonatomic) long long minimalUniqueDaysInteracted; // @synthesize minimalUniqueDaysInteracted=_minimalUniqueDaysInteracted;
-@property(nonatomic) _Bool outgoingOnly; // @synthesize outgoingOnly=_outgoingOnly;
 @property(retain) NSDictionary *psMessagesPinningConfig; // @synthesize psMessagesPinningConfig=_psMessagesPinningConfig;
-@property(nonatomic) double regularityThreshold; // @synthesize regularityThreshold=_regularityThreshold;
-@property(nonatomic) double regularityWeight; // @synthesize regularityWeight=_regularityWeight;
 
 @end
 

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKNFCPayload
 {
     _Bool _requiresAuthentication;
-    NSString *_message;
-    NSData *_encryptionPublicKeyData;
-    unsigned long long _payloadState;
 }
 
 + (_Bool)î%1Â0@ù
 × ;
 - (void);
-- (void);
+- (void)q#;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -26,19 +23,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)J;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setConnectionMethod:(id)arg1;
+- (void)tcpECNStatisticsReport;
 - (id);
 - (id);
 - (void)endStation;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *encryptionPublicKeyData; // @synthesize encryptionPublicKeyData=_encryptionPublicKeyData;
 @property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) unsigned long long payloadState; // @synthesize payloadState=_payloadState;
-@property(nonatomic) _Bool requiresAuthentication; // @synthesize requiresAuthentication=_requiresAuthentication;
 
 @end
 

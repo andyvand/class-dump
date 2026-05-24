@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraPowerAssertionHandler, HMDCameraSessionInfo;
+@class HMDCameraPowerAssertionHandler;
 
 __attribute__((visibility("hidden")))
 @interface _HMDCameraPowerAssertion
 {
     HMDCameraPowerAssertionHandler *_assertionHandler;
-    HMDCameraSessionInfo *_remoteRequestHandlerSessionInfo;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)Error;
+- (void)kInternalError;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak HMDCameraPowerAssertionHandler *assertionHandler; // @synthesize assertionHandler=_assertionHandler;
-@property(readonly, nonatomic) HMDCameraSessionInfo *remoteRequestHandlerSessionInfo; // @synthesize remoteRequestHandlerSessionInfo=_remoteRequestHandlerSessionInfo;
 
 @end
 

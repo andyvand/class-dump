@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSHTTPAlternativeServicesClearEntry
 {
     NSString *_host;
-    NSString *_partition;
-    long long _port;
-    long long _serviceType;
 }
 
 - (unsigned long long);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, HAPVideoCodecTypeWrapper, NSMutableArray, NSString;
+@class HAPVideoCodecTypeWrapper;
 
 @interface HAPSupportedVideoStreamTiers
 {
     HAPVideoCodecTypeWrapper *_codec;
-    HAPTLVUnsignedNumberValue *_payloadType;
-    NSMutableArray *_tiers;
 }
 
 + (id);
@@ -18,8 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)+;
+- (void)CLLocationProvider_Type:(id)arg1:kNotificationGnssAvailabilityPredicted /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -31,15 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) HAPVideoCodecTypeWrapper *codec; // @synthesize codec=_codec;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *payloadType; // @synthesize payloadType=_payloadType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *tiers; // @synthesize tiers=_tiers;
 
 @end
 

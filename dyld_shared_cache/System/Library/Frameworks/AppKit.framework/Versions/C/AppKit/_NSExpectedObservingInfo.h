@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSExpectedObservingInfo
 {
     unsigned long long _suppressAllNotificationCounter;
-    id _allSuppressedObject;
-    id _specificSuppressedObject;
-    NSString *_specificSuppressedKeyPath;
 }
 
 - (void);
@@ -21,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)__bss;
 - (void);
-- (id);
+- (id)z;
 - (id);
 
 @end

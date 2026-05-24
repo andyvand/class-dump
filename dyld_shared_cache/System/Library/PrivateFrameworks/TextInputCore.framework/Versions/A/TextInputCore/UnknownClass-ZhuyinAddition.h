@@ -5,12 +5,12 @@
 //
 
 @interface UnknownClass (ZhuyinAddition)
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)AudioMode;
++ (id)ty-call-queue;
++ (id)shouldSuppress;
++ (id)@?0Q8;
++ (id)tionary"8;
++ (id)tty_msg_processing_queue;
 + (id);
 + (id);
 + (id);

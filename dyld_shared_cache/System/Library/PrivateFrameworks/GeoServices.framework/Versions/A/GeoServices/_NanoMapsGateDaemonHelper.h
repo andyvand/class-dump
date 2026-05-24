@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)__objc_classlist__DATA_CONST;
 
 @end
 

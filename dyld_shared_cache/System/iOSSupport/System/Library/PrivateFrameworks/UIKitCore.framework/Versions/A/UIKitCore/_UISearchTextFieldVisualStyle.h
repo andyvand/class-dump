@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, UIColor, UIFont, UISearchTextField;
+@class UISearchTextField;
 
 @interface _UISearchTextFieldVisualStyle
 {
@@ -12,53 +12,35 @@
 }
 
 + (double);
-- (_Bool);
+- (_Bool);
+- (double);
+- (double);
+- (double)setFloatValue: /* Error: Ran out of types for this method. */;
+- (double)objectAtIndex: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (id)40@"NSString"44@"NSString"52;
+- (id)setNumReadReceiptsV1NoQOI: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (double);
+- (id)lls:withQoSMarkingEnabled: /* Error: Ran out of types for this method. */;
+- (double)lRecoveryKeyCMS;
 - (double);
-- (id);
-- (double);
-- (double);
-- (double);
+- (double)etValue:forProperty:ofPlaylistWithIdentifier:completionBlock:] /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (void)Bùqd1Â0@ù
 × ;
-- (void)tViewControllerColumn:(_Bool)arg1;
-- (double)ionUpdates;
-- (id)LastUsedInputModeTimer;
+- (void)levelForSplitViewControllerColumn:(_Bool)arg1;
+- (double)_needsAutomaticContentUnavailableConfigurationUpdates;
+- (id)_disablesUpdateLastUsedInputModeTimer;
 - (void);
 - (id)çnþ13Üíÿ13;
 
 // Remaining properties
-@property(readonly, nonatomic) double backgroundCornerRadius;
-@property(readonly, nonatomic) NSNumber *clearButtonInnerInset;
-@property(readonly, nonatomic) NSNumber *clearButtonOuterInset;
-@property(readonly, nonatomic) double defaultHeight;
-@property(readonly, nonatomic) UIColor *defaultLeftViewTintColor;
-@property(readonly, nonatomic) UIFont *dynamicSearchFieldFont;
-@property(readonly, nonatomic) UIColor *filledLeftViewTintColor;
-@property(readonly, nonatomic) double leftViewInset;
-@property(readonly, nonatomic) double leftViewInsetAddition;
-@property(readonly, nonatomic) double leftViewToPlaceholderCenteredMargin;
-@property(readonly, nonatomic) double rightViewInset;
-@property(readonly, nonatomic) double searchBookmarkButtonOffset;
-@property(readonly, nonatomic) double searchResultsListButtonOffset;
 @property(readonly, nonatomic) __weak UISearchTextField *searchTextField; // @synthesize searchTextField=_searchTextField;
-@property(readonly, nonatomic) double searchTextResultsPadding;
-@property(readonly, nonatomic) double textLeadingInset;
-@property(readonly, nonatomic) double textLeftInsetLegacy;
-@property(readonly, nonatomic) double textRightInset;
-@property(readonly, nonatomic) _Bool usesCustomIntrinsicSize;
 
 @end
 

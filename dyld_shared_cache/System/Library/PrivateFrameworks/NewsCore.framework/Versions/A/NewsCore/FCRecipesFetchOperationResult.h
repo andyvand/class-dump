@@ -9,18 +9,16 @@
 @interface FCRecipesFetchOperationResult
 {
     NSArray *_recipes;
-    NSArray *_recipeLists;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)requires a configuration;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *recipeLists; // @synthesize recipeLists=_recipeLists;
 @property(copy, nonatomic) NSArray *recipes; // @synthesize recipes=_recipes;
 
 @end

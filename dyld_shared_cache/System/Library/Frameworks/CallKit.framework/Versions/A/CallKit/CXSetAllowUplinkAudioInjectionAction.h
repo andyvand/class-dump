@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)username;
 - (id);
 
 // Remaining properties

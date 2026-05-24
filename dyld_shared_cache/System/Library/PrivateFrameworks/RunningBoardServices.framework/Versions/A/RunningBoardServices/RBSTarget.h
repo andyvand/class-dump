@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RBSProcessIdentifier, RBSProcessIdentity;
-@protocol OS_xpc_object;
+@class RBSProcessIdentifier;
 
 @interface RBSTarget
 {
     RBSProcessIdentifier *_processIdentifier;
-    RBSProcessIdentity *_processIdentity;
-    NSString *_environment;
-    NSObject<OS_xpc_object> *_endpoint;
-    NSString *_shortDescription;
 }
 
 + (id);
@@ -24,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)nd;
 + (id)2Ð1Â0@ù
 × ;
 - (id);
@@ -37,8 +32,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)?;
 - (id);
 - (id);
 - (id);
@@ -48,18 +43,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSObject<OS_xpc_object> *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly, copy, nonatomic) NSString *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RBSProcessIdentifier *processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(readonly, nonatomic) RBSProcessIdentity *processIdentity; // @synthesize processIdentity=_processIdentity;
-@property(readonly, nonatomic) NSString *shortDescription; // @synthesize shortDescription=_shortDescription;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic, getter=isSystem) _Bool system;
 
 @end

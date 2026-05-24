@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString;
+@class NSSet;
 
 @interface FUApplicationDataStore
 {
     struct os_unfair_lock_s _lock;
     unsigned int _euid;
-    NSString *_bundleIdentifier;
-    NSMutableSet *_lock_scenePersistenceIDs;
-    NSString *_username;
-    _Bool _lock_dirty;
 }
 
 + (_Bool);
 + (id);
 + (void);
-- (id);
+- (id)z;
+- (void)z;
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)c	;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSSet *scenePersistenceIdentifiers; // @synthesize scenePersistenceIdentifiers=_lock_scenePersistenceIDs;
-@property(readonly) Class superclass;
 
 @end
 

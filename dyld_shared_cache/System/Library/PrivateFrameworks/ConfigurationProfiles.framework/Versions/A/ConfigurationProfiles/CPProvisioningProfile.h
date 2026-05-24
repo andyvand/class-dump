@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface CPProvisioningProfile
 {
     NSMutableDictionary *fProfileDict;
-    _Bool fVerificationStateCalculated;
-    int fVerificationState;
-    unsigned long long fIndexOfFailedVerificationSigner;
-    NSString *fSignerName;
 }
 
 + (id);
@@ -32,42 +28,23 @@
 - (int);
 - (id);
 - (id);
-- (id);
+- (id)le-position;
 - (void);
+- (id)addChangesFromObject:(id)arg1 toObjects:keep: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (_Bool):Failed compressing/splitting page %d /* Error: Ran out of types for this method. */;
+- (id)kMDItemContentTypeTree = "public.image" ||                                                                        kMDItemContentTypeTree = "com.apple.quicktime-movie" ||                                                                        kMDItemContentTypeTree = "com.apple.m4v-video" ||                                                                       kMDItemContentTypeTree = "public.mpeg-4" ||                                                                        kMDItemContentTypeTree = "public.movie";
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *appName;
-@property(readonly, retain, nonatomic) NSString *applicationID;
-@property(readonly, retain, nonatomic) NSArray *cdHashes;
-@property(readonly, retain, nonatomic) NSDate *creationDate;
-@property(readonly, retain, nonatomic) NSArray *developerCertificates;
-@property(readonly, retain, nonatomic) NSDictionary *entitlements;
-@property(readonly, retain, nonatomic) NSDate *expirationDate;
-@property(readonly, retain, nonatomic) NSData *firstInvalidSignerCertificateData;
-@property(readonly, nonatomic) _Bool hasExpired;
-@property(readonly, retain, nonatomic) NSDate *installationDate;
 @property(readonly, retain, nonatomic) NSString *name;
-@property(readonly, retain, nonatomic) NSArray *provisionedDevices;
-@property(readonly, nonatomic) _Bool provisionedForAllDevices;
-@property(readonly, retain, nonatomic) NSDate *receiveDate;
-@property(readonly, retain, nonatomic) NSArray *signerCertificatesInfo;
-@property(readonly, retain, nonatomic) NSString *signerName;
-@property(readonly, retain, nonatomic) NSArray *teamIdentifier;
-@property(readonly, retain, nonatomic) NSString *teamName;
-@property(readonly, retain, nonatomic) NSString *uuid;
-@property(readonly, nonatomic) int verificationState;
 
 @end
 

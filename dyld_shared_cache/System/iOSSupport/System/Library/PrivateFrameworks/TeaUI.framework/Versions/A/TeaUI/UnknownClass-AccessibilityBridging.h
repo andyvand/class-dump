@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITextField;
+@class NSArray;
 
 @interface UnknownClass (AccessibilityBridging)
 - (void);
@@ -12,7 +12,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UITextField *ts_editableTextField;
 @property(readonly, nonatomic) NSArray *ts_privateAccessibilityCustomActions;
 @end
 

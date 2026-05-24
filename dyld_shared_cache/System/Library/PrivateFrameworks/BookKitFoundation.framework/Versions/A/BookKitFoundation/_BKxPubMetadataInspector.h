@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface _BKxPubMetadataInspector
 {
     _Bool _includeCover;
-    NSURL *_url;
 }
 
 + (id);
++ (id)C;
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)i;
 - (_Bool);
 - (id);
 - (id);
@@ -25,11 +22,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool includeCover; // @synthesize includeCover=_includeCover;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

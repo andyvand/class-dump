@@ -9,20 +9,15 @@
 @interface NTPBFeedLoad
 {
     NSString *_feedId;
-    int _feedType;
-    NSString *_feedViewExposureId;
-    struct {
-        unsigned int feedType:1;
-    } _has;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (int);
+- (void)cameraCaptureDeviceDisplayStringForItem:(id)arg1;
+- (_Bool)_waitWhileExportingCanContinueForSemaphore:timeout: /* Error: Ran out of types for this method. */;
+- (_Bool)_waitStartTimestamp;
+- (id)_updateSortOrder;
+- (id)_updateSongControllerFailedAssets;
+- (void)_titleWidthMin;
+- (int)_tilingControllers;
 - (void);
 - (_Bool);
 - (id);
@@ -36,15 +31,10 @@
 - (id);
 - (id);
 - (int);
-- (void)aEncrypted;
+- (void)privateDataEncrypted;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *feedId; // @synthesize feedId=_feedId;
-@property(nonatomic) int feedType; // @synthesize feedType=_feedType;
-@property(retain, nonatomic) NSString *feedViewExposureId; // @synthesize feedViewExposureId=_feedViewExposureId;
-@property(readonly, nonatomic) _Bool hasFeedId;
 @property(nonatomic) _Bool hasFeedType;
-@property(readonly, nonatomic) _Bool hasFeedViewExposureId;
 
 @end
 

@@ -7,6 +7,7 @@
 @protocol CoreTelephonyClientCarrierBundleDelegate
 
 @optional
-- (void);
+- (void);
+- (void);
 @end
 

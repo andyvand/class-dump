@@ -7,18 +7,18 @@
 @interface CLLocationCoordinate
 {
     double _latitude;
-    double _longitude;
 }
 
 + (_Bool);
 - (_Bool);
 - (double);
-- (void);
+- (void)oCompressionSessionEndImageSequence:[session:%p]  seq:%d
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)uS;
 - (_Bool);
 - (void);
-- (id);
+- (id)serializePrimitiveAccelerationStructure:(struct _NSZone *)arg1 toBuffer: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (id);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
 
 @end
 

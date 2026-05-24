@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSStickerBrowserViewLayoutSpec, NSDictionary, NSMutableArray, NSMutableDictionary, NSOperationQueue, NSString, NSTimer, UICollectionView, UICollectionViewFlowLayout;
-@protocol MSStickerBrowserViewDataSource, MSStickerBrowserViewDisplayDelegate;
+@class UICollectionView;
 
 @interface MSStickerBrowserView
 {
     _Bool _isRestoringContentOffset;
-    _Bool _animating;
-    long long _stickerSize;
-    id <MSStickerBrowserViewDataSource> _dataSource;
-    UICollectionView *_collectionView;
-    UICollectionViewFlowLayout *_flowLayout;
-    MSStickerBrowserViewLayoutSpec *_layoutSpec;
-    NSMutableArray *_cellsToAnimate;
-    NSTimer *_animationTimer;
-    unsigned long long _currentlyAnimatingIndex;
-    NSMutableDictionary *_stickerCache;
-    NSOperationQueue *_stickerCacheQueue;
-    id <MSStickerBrowserViewDisplayDelegate> _displayDelegate;
-    struct CGPoint _restoredContentOffset;
-    struct CGSize _browserSizeToRestoreFrom;
 }
 
-- (long long);
+- (long long);
+- (id)�m;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)e;
 - (void);
 - (void);
 - (void);
@@ -42,7 +27,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
@@ -56,63 +41,39 @@
 - (void);
 - (void);
 - (id);
+- (void)ActionPerformer.m;
+- (void);
+- (void);
+- (id);
+- (void)B@9(+;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
 - (void);
 - (void);
 - (id);
 - (struct CGPoint);
-- (id);
+- (id)location=%@;
 - (long long);
 - (long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)teboardBeginGeneration failed;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)lityLabel;
+- (void)accessibilityLabel;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
-@property(retain, nonatomic) NSTimer *animationTimer; // @synthesize animationTimer=_animationTimer;
-@property(nonatomic) struct CGSize browserSizeToRestoreFrom; // @synthesize browserSizeToRestoreFrom=_browserSizeToRestoreFrom;
-@property(retain, nonatomic) NSMutableArray *cellsToAnimate; // @synthesize cellsToAnimate=_cellsToAnimate;
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(nonatomic) struct UIEdgeInsets contentInset;
-@property(nonatomic) struct CGPoint contentOffset;
-@property(nonatomic) unsigned long long currentlyAnimatingIndex; // @synthesize currentlyAnimatingIndex=_currentlyAnimatingIndex;
-@property(nonatomic) __weak id <MSStickerBrowserViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <MSStickerBrowserViewDisplayDelegate> displayDelegate; // @synthesize displayDelegate=_displayDelegate;
-@property(retain, nonatomic) UICollectionViewFlowLayout *flowLayout; // @synthesize flowLayout=_flowLayout;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRestoringContentOffset; // @synthesize isRestoringContentOffset=_isRestoringContentOffset;
-@property(retain, nonatomic) MSStickerBrowserViewLayoutSpec *layoutSpec; // @synthesize layoutSpec=_layoutSpec;
-@property(nonatomic) struct CGPoint restoredContentOffset; // @synthesize restoredContentOffset=_restoredContentOffset;
-@property(readonly, nonatomic) NSDictionary *stateRestorationInfo;
-@property(retain, nonatomic) NSMutableDictionary *stickerCache; // @synthesize stickerCache=_stickerCache;
-@property(retain, nonatomic) NSOperationQueue *stickerCacheQueue; // @synthesize stickerCacheQueue=_stickerCacheQueue;
-@property(readonly, nonatomic) long long stickerSize; // @synthesize stickerSize=_stickerSize;
-@property(readonly) Class superclass;
 
 @end
 

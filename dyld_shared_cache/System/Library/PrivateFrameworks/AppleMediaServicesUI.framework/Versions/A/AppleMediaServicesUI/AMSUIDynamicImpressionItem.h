@@ -9,19 +9,17 @@
 @interface AMSUIDynamicImpressionItem
 {
     AMSUIDynamicImpressionMetrics *_impressionMetrics;
-    struct CGRect _frame;
 }
 
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)setPreferredPrimary:oneTime:triggerElection:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ndow: /* Error: Ran out of types for this method. */;
+- (void)setWindow: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property struct CGRect frame; // @synthesize frame=_frame;
-@property(retain) AMSUIDynamicImpressionMetrics *impressionMetrics; // @synthesize impressionMetrics=_impressionMetrics;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDServerResourceLoadDelegate, AKURLConfiguration, NSArray, NSURLRequest;
+@class NSURLRequest;
 
 @interface AKServerRequestConfiguration
 {
     NSURLRequest *_request;
-    AKAppleIDServerResourceLoadDelegate *_resourceLoadDelegate;
-    unsigned long long _requestType;
-    unsigned long long _presentationType;
-    AKURLConfiguration *_urlConfiguration;
-    NSArray *_whitelistedPathURLs;
 }
 
 + (_Bool);
@@ -32,16 +27,11 @@
 - (void);
 - (void);
 - (void)Xx ¼;
-- (void)t;
+- (void)termsList;
 - (unsigned long long)÷íX×êùxðÁ¨A zvjËäME@ ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long presentationType; // @synthesize presentationType=_presentationType;
 @property(retain, nonatomic) NSURLRequest *request; // @synthesize request=_request;
-@property(nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
-@property(retain, nonatomic) AKAppleIDServerResourceLoadDelegate *resourceLoadDelegate; // @synthesize resourceLoadDelegate=_resourceLoadDelegate;
-@property(retain, nonatomic) AKURLConfiguration *urlConfiguration; // @synthesize urlConfiguration=_urlConfiguration;
-@property(copy, nonatomic) NSArray *whitelistedPathURLs; // @synthesize whitelistedPathURLs=_whitelistedPathURLs;
 
 @end
 

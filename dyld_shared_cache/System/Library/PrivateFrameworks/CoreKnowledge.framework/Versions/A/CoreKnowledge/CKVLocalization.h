@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CKVLocalization
 {
     NSString *_siriLanguageCode;
-    NSSet *_dictationLanguageCodes;
-    NSURL *_cachedAssetPath;
-    int _assetRequestCount;
-    _Bool _assetResolved;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -22,16 +16,16 @@
 + (_Bool);
 + (id);
 + (long long);
-- (long long);
+- (long long)usageType;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)6@0:(id)arg1 8;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (id);
 - (void);

@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _EFBackgroundProcessingAssertion;
+@class NSArray;
 
 @interface EFProtectedFileGroup
 {
     NSArray *_files;
-    _EFBackgroundProcessingAssertion *_assertion;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)w;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _EFBackgroundProcessingAssertion *assertion; // @synthesize assertion=_assertion;
-@property(readonly, nonatomic) _Bool backgroundProcessingIsAllowed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *files; // @synthesize files=_files;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSMediaTokenServicePATChallenge
 {
     NSString *_issuerName;
-    NSString *_originName;
-    NSData *_tokenKey;
-    NSData *_redemptionNonce;
 }
 
 + (id);
@@ -30,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSString *issuerName; // @synthesize issuerName=_issuerName;
-@property(retain) NSString *originName; // @synthesize originName=_originName;
-@property(retain) NSData *redemptionNonce; // @synthesize redemptionNonce=_redemptionNonce;
-@property(retain) NSData *tokenKey; // @synthesize tokenKey=_tokenKey;
 
 @end
 

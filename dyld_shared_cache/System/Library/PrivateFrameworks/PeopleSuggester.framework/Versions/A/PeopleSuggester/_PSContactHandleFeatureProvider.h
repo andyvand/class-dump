@@ -11,13 +11,13 @@
     NSXPCConnection *_connection;
 }
 
++ (id)_cloudKitErrorReported;
++ (id)_closestPositiveExampleScore;
++ (id)_alternateQuerySuggestionCount;
++ (id)_alreadyPrompteds;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
+- (id)_checkerNearMissBeforeAcceptCount;
+- (id)pe;
 - (void);
 - (id);
 - (void);

@@ -13,9 +13,9 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEE3$_0;
 - (id);
-- (id);
+- (id)@;
 - (void)0@ù
 × ;
 

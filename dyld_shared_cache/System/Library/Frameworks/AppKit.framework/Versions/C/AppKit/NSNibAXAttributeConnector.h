@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSNibAXAttributeConnector
 {
     id _destination;
-    NSString *_attributeType;
-    NSString *_attributeValue;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)_getCookieStoragePartitionsCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ad resumption;
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)urrently negotiated ciphersuite:(id)arg1 %u;
+- (id)[\*]))?(hh|h|ll|l|j|z|t|L)?[oc])(.|\n)*;
 - (id);
 - (id);
 - (void)Áê/!ôDùQß3ð1Â0@ù
 × ;
 - (void)
 × ;
-- (id)keyTargetDictionary;
+- (id)_keyTargetDictionary;
 - (void)@;
 - (void)ÿÿÿÿÿÿÿÿ;
 

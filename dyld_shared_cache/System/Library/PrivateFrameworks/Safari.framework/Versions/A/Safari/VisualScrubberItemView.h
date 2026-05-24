@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, _VisualScrubberItemViewAccessibilityWrapper;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface VisualScrubberItemView
 {
     NSView *_lighteningLayerView;
-    NSView *_tintOverlayView;
-    _VisualScrubberItemViewAccessibilityWrapper *_accessibilityWrapper;
-    NSView *_innerView;
-    NSString *_contentSizeObservationKey;
 }
 
 - (void);
-- (void);
+- (void)``J;
 - (id);
 - (void);
 - (struct CGSize);
@@ -25,15 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)ry (%@) is a candidate for international filtering.;
 - (id);
 - (void);
 - (void)ì;
 - (void)ìØ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contentSizeObservationKey; // @synthesize contentSizeObservationKey=_contentSizeObservationKey;
 @property(retain, nonatomic) NSView *innerView; // @synthesize innerView=_innerView;
 
 @end

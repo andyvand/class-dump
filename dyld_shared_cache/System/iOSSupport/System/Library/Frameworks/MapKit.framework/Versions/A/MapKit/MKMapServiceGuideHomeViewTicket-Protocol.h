@@ -7,6 +7,9 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceGuideHomeViewTicket
+- (void);
+- (void);
+- (void)_chat:(void (^)(GEOGuidesHomeResult *, NSError *))arg1 sendMessage:(void (^)(_Bool))arg2 withAccount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVExportProgressWindowController, AVPlayerView, NSSharingServicePicker;
-@protocol AVSharingServicesDelegate;
+@class AVExportProgressWindowController, NSSharingServicePicker;
 
 @interface AVShareController
 {
     NSSharingServicePicker *_sharingServicePicker;
-    AVPlayerView *_playerView;
-    id <AVSharingServicesDelegate> _delegate;
-    AVExportProgressWindowController *__exportProgressWindowController;
 }
 
 - (void);
 - (void);
 - (id);
+- (id)?;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(retain, setter=_setExportProgressWindowController:) AVExportProgressWindowController *_exportProgressWindowController; // @synthesize _exportProgressWindowController=__exportProgressWindowController;
-@property __weak id <AVSharingServicesDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

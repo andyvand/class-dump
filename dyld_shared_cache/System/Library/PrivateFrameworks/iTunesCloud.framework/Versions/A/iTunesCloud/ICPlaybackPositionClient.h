@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudServerListenerEndpointProvider, NSObject, NSString, NSXPCConnection;
+@class NSObject, NSXPCConnection;
 @protocol OS_dispatch_queue;
 
 @interface ICPlaybackPositionClient
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSXPCConnection *_connection;
-    ICCloudServerListenerEndpointProvider *_listenerEndpointProvider;
 }
 
 + (id);
@@ -32,13 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

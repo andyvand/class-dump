@@ -7,32 +7,30 @@
 @interface IMNicknameProvider_Impl
 {
     id listener;
-    id daemonConnection;
-    id nicknameController;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)run for the output queue!;
+- (void)ioReceiver [%s] %s:(id)arg1 %d AudioReceiver[%p] UNEXPECTED:IDS stream ID is not valid /* Error: Ran out of types for this method. */;
+- (void)transformForRemoteVideoOrientationEnabled=%d;
+- (void)tationEnabled=%d;
+- (void)ayer bounds xpc call failed;
+- (id)audio error=%@;
+- (void)] %s:(id)arg1 %d Failed to create buffer pool;
+- (_Bool)y rate controller about wrong action type=%d;
+- (_Bool)llocate XPC object allow list;
+- (void)brary/BuildRoots/4~CNquugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/VCSession+OneToOne.m:(id)arg1 %d:[%p] OneToOne session should reconnect (ids reinit) /* Error: Ran out of types for this method. */;
+- (void)] %s:(id)arg1 %d %@(%p) Media queue was not setup for 1:(unsigned long long)arg2 1;
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)nd;
+- (void)attachmentNotFound;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool haveNicknamesLoaded;

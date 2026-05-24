@@ -7,7 +7,6 @@
 @interface NewsUI2.PuzzlePlayStateFilterOptionPredicate
 {
     id puzzleHistoryService;
-    id requiredPlayState;
 }
 
 @end

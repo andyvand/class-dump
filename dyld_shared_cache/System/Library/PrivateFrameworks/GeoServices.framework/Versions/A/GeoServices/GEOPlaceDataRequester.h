@@ -11,10 +11,10 @@
 }
 
 + (id)Dºþ;
-- (id);
+- (id)nterfaceVendorId:withAudioInterfaceProductId: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

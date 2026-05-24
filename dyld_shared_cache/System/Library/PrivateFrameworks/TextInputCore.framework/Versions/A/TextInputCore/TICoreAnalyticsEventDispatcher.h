@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TIRevisionRateAnalyzer;
+@class TIRevisionRateAnalyzer;
 
 @interface TICoreAnalyticsEventDispatcher
 {
@@ -12,20 +12,13 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)ð!TAùi°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) TIRevisionRateAnalyzer *revisionRateAnalyzer; // @synthesize revisionRateAnalyzer=_revisionRateAnalyzer;
-@property(readonly) Class superclass;
 
 @end
 

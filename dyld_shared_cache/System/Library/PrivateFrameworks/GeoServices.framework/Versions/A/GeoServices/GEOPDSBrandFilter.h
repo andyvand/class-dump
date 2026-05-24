@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSBrandFilter
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _brandMuid;
-    struct {
-        unsigned int has_brandMuid:1;
-    } _flags;
 }
 
 - (id);
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)1"read_unknownFields"b1"read_activeScales"b1"read_activeScenarios"b1"read_hybridUnavailableRegions"b1"read_abExperimentURLLegacy"b1"read_activeNames"b1"read_activeResources"b1"read_addressCorrectionInitURLLegacy"b1"read_addressCorrectionUpdateURLLegacy"b1"read_announcementsSupportedLanguages"b1"read_announcementsURLLegacy"b1"read_attributions"b1"read_backgroundDispatcherURLLegacy"b1"read_backgroundRevGeoURLLegacy"b1"read_batchReverseGeocoderURLLegacy"b1"read_batchTrafficProbeURLLegacy"b1"read_bluePOIURLLegacy"b1"read_businessPortalBaseURLLegacy"b1"read_dataSet"b1"read_directionsURLLegacy"b1"read_dispatcherURLLegacy"b1"read_displayStrings"b1"read_environment"b1"read_etaURLLegacy"b1"read_explicitResources"b1"read_flyoverRegionVersions"b1"read_fontChecksums"b1"read_fonts"b1"read_iconChecksums"b1"read_icons"b1"read_locationShiftEnabledRegions"b1"read_logMessageUsageURLLegacy"b1"read_logMessageUsageV3URLLegacy"b1"read_muninBaseURL"b1"read_muninBuckets"b1"read_offlineMetadata"b1"read_polyLocationShiftURLLegacy"b1"read_proactiveRoutingURLLegacy"b1"read_problemCategoriesURLLegacy"b1"read_problemOptInURLLegacy"b1"read_problemStatusURLLegacy"b1"read_problemSubmissionURLLegacy"b1"read_realtimeTrafficProbeURLLegacy"b1"read_regionalResourceCanonicalNameToFileName"b1"read_regionalResourceRegions"b1"read_regionalResourceTiles"b1"read_regionalResourcesURLLegacy"b1"read_regionalResources"b1"read_releaseInfo"b1"read_reserved"b1"read_resourceCanonicalNameToFileName"b1"read_resourcesURLLegacy"b1"read_resources"b1"read_reverseGeocoderVersionsURLLegacy"b1"read_searchAttributionManifestURLLegacy"b1"read_simpleETAURLLegacy"b1"read_spatialLookupURLLegacy"b1"read_staleResources"b1"read_styleSheetChecksums"b1"read_styleSheets"b1"read_textureChecksums"b1"read_textures"b1"read_tileSets"b1"read_uniqueIdentifier"b1"read_urlInfoSet"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURLLegacy"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)ginalDescription;
+- (id)_originalDescription;
 - (id),Ð;
 - (void);
 

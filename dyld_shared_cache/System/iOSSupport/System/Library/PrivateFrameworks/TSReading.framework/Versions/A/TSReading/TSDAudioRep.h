@@ -6,23 +6,17 @@
 
 #import <TSReading/TSDMediaRep.h>
 
-@class CALayer, NSString, TSDMovieInfo, TSKAVPlayerController;
-@protocol TSDAudioHUDController;
+@class TSDMovieInfo, TSKAVPlayerController;
 
 @interface TSDAudioRep : TSDMediaRep
 {
     TSKAVPlayerController *mPlayerController;
-    CALayer *mPlayPauseButtonLayer;
-    CALayer *mAudioImageLayer;
-    float mDynamicVolume;
-    _Bool mIsChangingDynamicVolume;
-    id <TSDAudioHUDController> mAudioHUDController;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -35,12 +29,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)dG;
+- (_Bool)8G;
+- (void)00L;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -57,7 +51,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -74,17 +68,7 @@
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) id <TSDAudioHUDController> audioHUDController; // @synthesize audioHUDController=mAudioHUDController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) TSDMovieInfo *movieInfo;
-@property(readonly, nonatomic) TSKAVPlayerController *playerController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) float volume;
 
 @end
 

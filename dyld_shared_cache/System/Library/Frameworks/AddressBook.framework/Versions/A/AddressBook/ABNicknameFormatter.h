@@ -10,7 +10,7 @@
 {
 }
 
-+ (void)teIdentifier: /* Error: Ran out of types for this method. */;
++ (void)componentIdentifiersForAggregateIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)B,V_ignoreOutlineSelectionChanges;
 

@@ -7,13 +7,6 @@
 @interface ChatKit.KeyboardListenerWrapperView.Coordinator
 {
     id displayQuicklook;
-    id moveLeft;
-    id moveRight;
-    id moveUp;
-    id moveDown;
-    id deselectItem;
-    id shiftButtonChanged;
-    id commandButtonChanged;
 }
 
 @end

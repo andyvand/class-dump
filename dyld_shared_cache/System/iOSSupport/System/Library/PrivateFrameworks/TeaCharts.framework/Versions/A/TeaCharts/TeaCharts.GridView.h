@@ -7,7 +7,6 @@
 @interface TeaCharts.GridView
 {
     id gridLayers;
-    id labels;
 }
 
 - (id);

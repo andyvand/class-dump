@@ -6,39 +6,30 @@
 
 #import <MediaExperience/MXSessionManagerBase.h>
 
-@class NSArray, NSDictionary, NSLock, NSMutableDictionary, NSSet;
+@class NSDictionary, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MXSessionManager : MXSessionManagerBase
 {
     NSMutableDictionary *mMXCoreSessionIDToAudioSessionTokenMap;
-    NSLock *mLock;
-    NSSet *mNotEligibleForSmartRoutingSessions;
-    NSDictionary *mIncomingRingtoneToPhoneCallMap;
-    NSSet *mBrowserHelperBundleIDs;
-    NSArray *mAppsOptingIntoEligibleForSmartRouting;
-    NSDictionary *_figCustomizedCategoryWithBluetooth_Dict;
-    NSDictionary *_figCustomizedCategoryWithoutBluetooth_Dict;
-    NSLock *_mxCoreSessionListLock;
-    NSDictionary *_mobileAsset;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (int);
+- (void)�3y1';
 - (void);
 - (id);
+- (int)nked in this tool;
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)2;
 - (void);
 - (unsigned long long);
 - (id);
@@ -46,13 +37,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
+- (void)reconfigureSettingsForColor:(id)arg1;
 - (void);
-- (void);
-- (void);
+- (void)E;
 - (id);
 - (id);
 - (id);
@@ -60,9 +51,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *figCustomizedCategoryWithBluetooth_Dict; // @synthesize figCustomizedCategoryWithBluetooth_Dict=_figCustomizedCategoryWithBluetooth_Dict;
-@property(retain, nonatomic) NSDictionary *figCustomizedCategoryWithoutBluetooth_Dict; // @synthesize figCustomizedCategoryWithoutBluetooth_Dict=_figCustomizedCategoryWithoutBluetooth_Dict;
-@property(retain) NSDictionary *mobileAsset; // @synthesize mobileAsset=_mobileAsset;
-@property(retain, nonatomic) NSLock *mxCoreSessionListLock; // @synthesize mxCoreSessionListLock=_mxCoreSessionListLock;
 
 @end
 

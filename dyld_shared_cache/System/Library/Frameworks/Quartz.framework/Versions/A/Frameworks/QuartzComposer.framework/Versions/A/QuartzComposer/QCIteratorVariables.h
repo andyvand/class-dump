@@ -6,14 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCIndexPort, QCIterator, QCNumberPort;
+@class QCIterator;
 
 @interface QCIteratorVariables : QCPatch
 {
     QCIterator *_iterator;
-    QCIndexPort *outputIndex;
-    QCNumberPort *outputPosition;
-    QCIndexPort *outputCount;
 }
 
 + (_Bool);

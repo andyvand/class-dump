@@ -4,38 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 @protocol NSObject><NSCopying;
 
 @interface PKPaymentSetupField
 {
     id <NSObject><NSCopying> _currentValue;
-    id <NSObject><NSCopying> _originalCameraCaptureValue;
-    _Bool _optional;
-    _Bool _readonly;
-    _Bool _hidden;
-    _Bool _currentValueFromCameraCapture;
-    _Bool _requiresSecureSubmission;
-    _Bool _ignorePrefill;
-    _Bool _populateFromMeCard;
-    NSString *_identifier;
-    NSString *_localizedDisplayName;
-    NSString *_localizedPlaceholder;
-    NSString *_displayFormat;
-    NSString *_defaultValue;
-    long long _groupNumber;
-    unsigned long long _source;
-    NSString *_submissionKey;
-    NSString *_submissionDestination;
-    unsigned long long _submissionSecurity;
-    NSString *_fieldSubmissionEncryptionScheme;
-    NSArray *_fieldSubmissionEncryptionCertificates;
-    NSString *_odiAttribute;
-    NSArray *_requirements;
-    NSDictionary *_rawConfigurationDictionary;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -55,28 +32,28 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
-- (id);
+- (id)!q,Q#|Sc<c@Jq;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)k`;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id)J@9*;
+- (id);
+- (id);
+- (void)!;
 - (id);
 - (_Bool);
 - (void);
@@ -91,8 +68,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)q@;
+- (id)+1;
 - (id);
 - (_Bool);
 - (void);
@@ -110,40 +87,13 @@
 - (id);
 - (id);
 - (void)derPublicKey:'%@' /* Error: Ran out of types for this method. */;
-- (id)ING_SOURCE_BANK_ACCOUNT_DESCRIPTION_BANK_NAME_AND_ACCOUNT_SUFFIX_FORMAT_STRING;
+- (id)TRANSACTION_SECONDARY_FUNDING_SOURCE_BANK_ACCOUNT_DESCRIPTION_BANK_NAME_AND_ACCOUNT_SUFFIX_FORMAT_STRING;
 - (_Bool)phoneNumber;
 - (_Bool);
 - (void)q;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBuiltIn) _Bool builtIn;
-@property(readonly, copy, nonatomic) NSString *compactLocalizedDisplayName;
-@property(copy, nonatomic) id <NSObject><NSCopying> currentValue; // @synthesize currentValue=_currentValue;
-@property(nonatomic, getter=isCurrentValueFromCameraCapture) _Bool currentValueFromCameraCapture; // @synthesize currentValueFromCameraCapture=_currentValueFromCameraCapture;
-@property(copy, nonatomic) NSString *defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(copy, nonatomic) NSString *displayFormat; // @synthesize displayFormat=_displayFormat;
-@property(retain, nonatomic) NSArray *fieldSubmissionEncryptionCertificates; // @synthesize fieldSubmissionEncryptionCertificates=_fieldSubmissionEncryptionCertificates;
-@property(retain, nonatomic) NSString *fieldSubmissionEncryptionScheme; // @synthesize fieldSubmissionEncryptionScheme=_fieldSubmissionEncryptionScheme;
-@property(readonly, nonatomic) unsigned long long fieldType;
-@property(readonly, nonatomic) long long groupNumber; // @synthesize groupNumber=_groupNumber;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool ignorePrefill; // @synthesize ignorePrefill=_ignorePrefill;
-@property(copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
 @property(copy, nonatomic) NSString *localizedPlaceholder; // @synthesize localizedPlaceholder=_localizedPlaceholder;
-@property(readonly, copy, nonatomic) NSString *odiAttribute; // @synthesize odiAttribute=_odiAttribute;
-@property(nonatomic, getter=isOptional) _Bool optional; // @synthesize optional=_optional;
-@property(copy, nonatomic) id <NSObject><NSCopying> originalCameraCaptureValue; // @synthesize originalCameraCaptureValue=_originalCameraCaptureValue;
-@property(nonatomic) _Bool populateFromMeCard; // @synthesize populateFromMeCard=_populateFromMeCard;
-@property(readonly, copy, nonatomic) NSDictionary *rawConfigurationDictionary; // @synthesize rawConfigurationDictionary=_rawConfigurationDictionary;
-@property(nonatomic, getter=isReadonly) _Bool readonly; // @synthesize readonly=_readonly;
-@property(readonly, copy, nonatomic) NSArray *requirements; // @synthesize requirements=_requirements;
-@property(nonatomic) _Bool requiresSecureSubmission; // @synthesize requiresSecureSubmission=_requiresSecureSubmission;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(copy, nonatomic) NSString *submissionDestination; // @synthesize submissionDestination=_submissionDestination;
-@property(copy, nonatomic) NSString *submissionKey; // @synthesize submissionKey=_submissionKey;
-@property(nonatomic) unsigned long long submissionSecurity; // @synthesize submissionSecurity=_submissionSecurity;
-@property(readonly, nonatomic) _Bool supportsAddressAutofill;
 
 @end
 

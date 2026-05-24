@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBString;
-
 @protocol _INPBMediaDestination
+- (void)+;
+- (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasMediaDestinationType;
-@property(readonly, nonatomic) _Bool hasPlaylistName;
 @property(nonatomic) int mediaDestinationType;
-@property(retain, nonatomic) _INPBString *playlistName;
 @end
 

@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSNumber, NSSet, NSString, PKInstallRequest;
+@class NSString;
 
 @interface PKInstallSandbox
 {
     NSString *_sandboxPath;
-    PKInstallRequest *_installRequest;
-    NSString *_scriptsPath;
-    NSString *_temporaryPath;
-    NSNumber *_stagedSize;
-    NSDate *_stageDate;
-    NSMutableDictionary *_scriptDirsByPackageSpecifier;
-    NSMutableDictionary *_bomPathsByPackageSpecifier;
-    NSMutableArray *_cleanupPaths;
-    NSDictionary *_scriptsAttributes;
-    NSDictionary *_temporaryAttributes;
-    NSSet *_previousPackageIdentifiersSharingGroupsWithSandbox;
-    long long _relevance;
-    _Bool _safeToReset;
-    _Bool _trustedSystemSandbox;
 }
 
 + (_Bool);
-- (void);
+- (void)H;
 - (id);
 - (id);
 - (void);

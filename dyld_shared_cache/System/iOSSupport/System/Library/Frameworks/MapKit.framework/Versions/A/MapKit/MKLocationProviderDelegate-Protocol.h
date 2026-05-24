@@ -5,5 +5,6 @@
 //
 
 @protocol MKLocationProviderDelegate
+- (void)^;
 @end
 

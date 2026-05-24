@@ -6,56 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGOverrideEnded, RGSiriSchemaRGOverrideFailed, RGSiriSchemaRGOverrideStarted;
+@class RGSiriSchemaRGOverrideStarted;
 
 @interface RGSiriSchemaRGOverrideContext : SISchemaInstrumentationMessage
 {
     RGSiriSchemaRGOverrideStarted *_startedOrChanged;
-    RGSiriSchemaRGOverrideEnded *_ended;
-    RGSiriSchemaRGOverrideFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)ary/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)purchaseDownloadId;
 - (_Bool);
-- (_Bool);
+- (_Bool)yGUID(CFAllocatorRef, IMDMessageRecordRef);
 - (id);
 - (id);
-- (id)Categories:(id)arg1;
+- (id)addSpeechProfileCategories:(id)arg1;
 - (id)ationInSeconds;
-- (void)DEVICE_DISCOVERY;
+- (void)IDENTITYUSERPRESENCESOURCE_DEVICE_DISCOVERY;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGOverrideEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RGSiriSchemaRGOverrideFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RGSiriSchemaRGOverrideStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

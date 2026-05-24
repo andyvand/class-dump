@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSProgress, NSURL, PHMediaFormatConversionRequest;
+@class NSProgress;
 
 @interface PHMediaFormatConversionSinglePassVideoProgressObserver
 {
     NSProgress *_progress;
-    PHMediaFormatConversionRequest *_request;
-    NSURL *_observedFileURL;
-    NSFileHandle *_observedFileHandle;
-    unsigned long long _lastFileSize;
 }
 
 - (void);
@@ -23,19 +19,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)Hg;
+- (unsigned long long)`;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)commute1Hr15MinWarningEntityRelevanceUserFocusModeAndCoarseTimeOfDayFeatures;
 
 // Remaining properties
-@property unsigned long long lastFileSize; // @synthesize lastFileSize=_lastFileSize;
-@property(retain) NSFileHandle *observedFileHandle; // @synthesize observedFileHandle=_observedFileHandle;
-@property(retain) NSURL *observedFileURL; // @synthesize observedFileURL=_observedFileURL;
 @property __weak NSProgress *progress; // @synthesize progress=_progress;
-@property __weak PHMediaFormatConversionRequest *request; // @synthesize request=_request;
 
 @end
 

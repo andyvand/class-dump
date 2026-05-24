@@ -6,18 +6,16 @@
 
 #import <ChatKit/CKHyperlinkBalloonView.h>
 
-@class NSString, UIImageView;
+@class UIImageView;
 
 @interface CKTruncatedTextBalloonView : CKHyperlinkBalloonView
 {
     _Bool _avoidTextLineBreaks;
-    _Bool _wantsChevron;
-    UIImageView *_chevron;
 }
 
-- (struct CGSize);
-- (void);
-- (void);
+- (struct CGSize)setSnippetAttachmentCount:(struct CGSize)arg1;
+- (void)saveMergeableDataIfNeeded;
+- (void)ic_attributedStringByReplacingNewlineCharactersWithWhiteSpace;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -25,21 +23,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)isCarPlayIdiom;
 - (_Bool)`apaPbbcØc0ete<f;
-- (void)ticationUsernameKey;
+- (void)AKAuthenticationUsernameKey;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidTextLineBreaks; // @synthesize avoidTextLineBreaks=_avoidTextLineBreaks;
 @property(retain, nonatomic) UIImageView *chevron; // @synthesize chevron=_chevron;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsChevron; // @synthesize wantsChevron=_wantsChevron;
 
 @end
 

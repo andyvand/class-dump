@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXExperiment, SXLayoutOptions;
+@class SXExperiment, SXLayoutOptions;
 
 @protocol SXDOMModificationContext
+- (SXLayoutOptions *);
+- (SXExperiment *);
 
 // Remaining properties
-@property(readonly, nonatomic) SXExperiment *experiment;
 @property(readonly, nonatomic) SXLayoutOptions *layoutOptions;
-@property(readonly, nonatomic) NSString *specVersion;
 @end
 

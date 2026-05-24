@@ -9,22 +9,20 @@
 @interface BMSocialMediaHandle
 {
     NSString *_bundleId;
-    NSString *_handle;
 }
 
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id)__create_range_stmt__free_unpacked;
+- (id)pg_query__create_range_stmt__free_unpacked;
 - (void)67²³89:;< /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
 
 @end
 

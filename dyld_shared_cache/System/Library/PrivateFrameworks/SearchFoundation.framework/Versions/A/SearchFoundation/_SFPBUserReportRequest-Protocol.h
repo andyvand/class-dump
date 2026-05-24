@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBPunchout;
+@class NSData, NSString;
 
 @protocol _SFPBUserReportRequest
+- (NSString *)%;
+- (void);
+- (void)MPAVRoutingControllerErrorDomain;
+- (NSData *)ding;
 - (NSString *)ùñ¦°1Â0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *affordanceText;
-@property(copy, nonatomic) NSString *attachmentSectionTitle;
-@property(retain, nonatomic) _SFPBPunchout *disclaimerLearnMorePunchout;
-@property(copy, nonatomic) NSString *disclaimerText;
-@property(copy, nonatomic) NSString *dismissText;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *reportOptionsSectionTitle;
-@property(nonatomic) int reportType;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSArray *userReportOptions;
 @end
 

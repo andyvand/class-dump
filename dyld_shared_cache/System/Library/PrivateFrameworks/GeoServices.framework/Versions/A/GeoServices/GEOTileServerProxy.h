@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResourceManifestConfiguration, NSLocale, NSObject;
-@protocol GEOTileServerProxyDelegate, OS_dispatch_queue;
+@protocol GEOTileServerProxyDelegate;
 
 @interface GEOTileServerProxy
 {
     id <GEOTileServerProxyDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    GEOResourceManifestConfiguration *_manifestConfiguration;
-    NSLocale *_locale;
-    int _resourceNotificationToken;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)';
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)28;
+- (id)ifying Darwin VoiceTrigger Trigger!!!!;
+- (void)ndleStreamProvidingDelegateMessageBody:(unsigned long long)arg1 ];
 - (void);
 - (void);
 - (id);

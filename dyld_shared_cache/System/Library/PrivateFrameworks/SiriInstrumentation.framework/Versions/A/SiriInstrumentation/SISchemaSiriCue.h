@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaSiriCue : SISchemaInstrumentationMessage
 {
     int _siriCueType;
-    struct {
-        unsigned int siriCueType:1;
-    } _has;
 }
 
 - (int);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_offloadOnly;
+- (_Bool)ftlink:(id)arg1 r:path:/System/Library/Frameworks/Contacts.framework/Contacts /* Error: Ran out of types for this method. */;
+- (_Bool)? );;
 - (id);
-- (id);
-- (id)GB;
-- (id)PromptType;
+- (id)!;
+- (id)deleteDeviceCapacityInGB;
+- (id)_forcePromptType;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSiriCueType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int siriCueType; // @synthesize siriCueType=_siriCueType;
 
 @end

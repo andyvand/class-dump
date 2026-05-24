@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface FPProviderMonitor
 {
     NSMutableDictionary *_observersByContainerID;
-    NSMutableDictionary *_notifyTokenByContainerID;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)C9;
 - (void);
 - (_Bool);
-- (id);
+- (id)__AUTH_CONST;
 - (_Bool);
 - (void);
 - (void);

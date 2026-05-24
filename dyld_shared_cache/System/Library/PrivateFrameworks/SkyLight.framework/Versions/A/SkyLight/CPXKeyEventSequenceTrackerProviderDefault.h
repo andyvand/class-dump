@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CPXKeyEventSequenceTrackerProviderDefault
 {
 }
 
-- (unsigned short);
-- (void *);
-- (struct WSStructuralRegion *);
-- (unsigned short);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned short)Data len=%lu>;
+- (void *)qd-%qi;
+- (struct WSStructuralRegion *)ontext:(unsigned long long)arg1 error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (unsigned short)DEFERRED_TEMP__%@;
+- (unsigned long long)PDATE %@ SET %@ = %@ %@;
+- (unsigned long long)a;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentRegionID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned short mainDisplayHeight;
-@property(readonly) Class superclass;
 
 @end
 

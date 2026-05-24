@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPXKeyEventSequenceTracker, WSEventDeliveryManager;
-@protocol CPXFocusManaging;
+@class WSEventDeliveryManager;
 
 __attribute__((visibility("hidden")))
 @interface CPXKeyboardEventDestinationGenerator
 {
     WSEventDeliveryManager *_deliveryManager;
-    CPXKeyEventSequenceTracker *_sequenceTracker;
-    id <CPXFocusManaging> _focusManager;
 }
 
-- (id);
-- (id);
+- (id)OSE failed (_qGTC):(id)arg1 %d;
+- (id)r entity name '%@';
 - (void)ä;
 
 @end

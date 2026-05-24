@@ -13,9 +13,9 @@
     MTLMotionEstimationPipelineDescriptor *_descriptor;
 }
 
-- (id);
+- (id)	;
 - (void);
-- (id);
+- (id)h;
 
 // Remaining properties
 @property(readonly, nonatomic) MTLMotionEstimationPipelineDescriptor *descriptor; // @synthesize descriptor=_descriptor;

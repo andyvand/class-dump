@@ -12,23 +12,18 @@ __attribute__((visibility("hidden")))
 @interface WMSectionMapper : CMMapper
 {
     WDSection *wdSection;
-    float mTopMargin;
-    float mLeftMargin;
-    _Bool mBreakAtStart;
-    _Bool mBreakAtEnd;
-    _Bool mIsTitlePage;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (void);
-- (void);
+- (void);
 - (float);
-- (float)DChart;
+- (float)bar3DChart;
 - (void)Condition initWithType:value:data:] /* Error: Ran out of types for this method. */;
 
 @end

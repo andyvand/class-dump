@@ -5,5 +5,9 @@
 //
 
 @protocol UIActionSheetDelegate
+
+@optional
+- (void)fflineIssueAutoDownloader;
+- (void)CYq\;
 @end
 

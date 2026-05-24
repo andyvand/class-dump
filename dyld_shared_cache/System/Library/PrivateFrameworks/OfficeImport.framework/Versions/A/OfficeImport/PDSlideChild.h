@@ -6,15 +6,10 @@
 
 #import <OfficeImport/PDSlideBase.h>
 
-@class OADColorMap, OADThemeOverrides;
-
 __attribute__((visibility("hidden")))
 @interface PDSlideChild : PDSlideBase
 {
     _Bool mShowMasterPlaceholderAnimations;
-    _Bool mShowMasterShapes;
-    OADThemeOverrides *mThemeOverrides;
-    OADColorMap *mColorMapOverride;
 }
 
 - (id);
@@ -28,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)9;
 - (id);
 - (id);
 - (id);

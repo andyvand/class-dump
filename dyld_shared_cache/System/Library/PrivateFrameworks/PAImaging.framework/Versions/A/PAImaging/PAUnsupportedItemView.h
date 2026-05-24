@@ -13,14 +13,14 @@
     NSImage *_placeholderImage;
 }
 
-- (_Bool);
+- (_Bool)LemonadePhotosPagingAssetCollectionGridConfiguration;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void),;
 
 // Remaining properties
 @property(retain) NSImage *placeholderImage; // @synthesize placeholderImage=_placeholderImage;

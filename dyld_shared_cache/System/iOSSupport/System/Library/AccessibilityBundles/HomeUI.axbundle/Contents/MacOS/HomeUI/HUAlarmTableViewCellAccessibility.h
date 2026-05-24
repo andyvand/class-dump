@@ -11,13 +11,13 @@
 }
 
 + (Class);
-+ (id);
++ (id))!;
 + (void);
 - (struct CGPoint);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)UIView"8^B16;
 
 @end
 

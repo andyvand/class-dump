@@ -4,19 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSWindow;
+@class NSArray, NSNotification, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void);
+- (void)?=;
+- (NSArray *);
+- (NSArray *);
+- (void)';
+- (void)window:(NSNotification *)arg1 startCustomAnimationToEnterFullScreenWithDuration: /* Error: Ran out of types for this method. */;
+- (void):(NSNotification *)arg1 %@;
+- (NSArray *)objc.A.dylib;
+- (void)e updating (script).;
+- (void)ities not defined in XML 1.0 will be written as numeric entities to allow them to be parsed by a XML parser. The original case of tags and attributes will be preserved, regardless of other options. ;
+- (void);
+- (void)X;
 - (struct CGRect)ð1Â0@ù
 × ;
 - (void)QÌ%Ð1Â0@ù
 × ;
-- (void)UseWritablePasteboardTypes:(NSNotification *)arg1;
-- (_Bool)ilWithError:(NSWindow *)arg1 context: /* Error: Ran out of types for this method. */;
-- (void)ntext:(NSNotification *)arg1;
-- (void)Range:(NSNotification *)arg1;
-- (struct CGSize)arResults;
+- (void)tokenFieldCell:(NSNotification *)arg1 shouldUseWritablePasteboardTypes: /* Error: Ran out of types for this method. */;
+- (_Bool)searchQueryCollector:(NSWindow *)arg1 didFailWithError:context: /* Error: Ran out of types for this method. */;
+- (void)initWithQueryString:(NSNotification *)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)_setReplacementRange:(NSNotification *)arg1;
+- (struct CGSize)_clearResults;
 @end
 

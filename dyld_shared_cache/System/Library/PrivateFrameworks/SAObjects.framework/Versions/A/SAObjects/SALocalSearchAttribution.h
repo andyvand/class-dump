@@ -6,14 +6,14 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SALocalSearchAttribution : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)_;
 - (void);
 - (id);
 - (long long);
@@ -25,15 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *attributionId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *urls;
-@property(nonatomic) long long version;
 
 @end
 

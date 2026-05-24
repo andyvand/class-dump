@@ -4,39 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString, PBUnknownFields;
-@protocol GEOTransitIconDataSource;
+@class PBUnknownFields;
 
 @interface MSPTransitStorageIncident
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _muid;
-    NSMutableArray *_affectedEntities;
-    unsigned int _creationDatetime;
-    unsigned int _endDatetime;
-    NSString *_fullDescription;
-    int _iconType;
-    unsigned int _lastUpdatedDatetime;
-    NSString *_messageForNonRoutable;
-    NSString *_messageForRoutePlanning;
-    NSString *_messageForRouteStepping;
-    unsigned int _startDatetime;
-    NSString *_summary;
-    NSString *_title;
-    _Bool _blockingIncident;
-    struct {
-        unsigned int muid:1;
-        unsigned int creationDatetime:1;
-        unsigned int endDatetime:1;
-        unsigned int iconType:1;
-        unsigned int lastUpdatedDatetime:1;
-        unsigned int startDatetime:1;
-        unsigned int blockingIncident:1;
-    } _has;
 }
 
 + (Class);
 - (unsigned int);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,42 +22,41 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (_Bool);
+- (_Bool)T;
+- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
+- (_Bool);
+- (_Bool);
+- (_Bool)l;
+- (unsigned int);
 - (unsigned int);
 - (void);
-- (_Bool);
+- (_Bool)T;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (int);
+- (int);
+- (void);
+- (_Bool)h;
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (int);
-- (id);
+- (id)MigrateCleanupMailDatabaseUpgradeMessage;
+- (id)ailed:%@ /* Error: Ran out of types for this method. */;
+- (id)ation of auto download directory failed:%@ /* Error: Ran out of types for this method. */;
+- (_Bool):%@ /* Error: Ran out of types for this method. */;
+- (id)count does not match message count;
+- (int)0 END) AS deleted_count,                                                           ((SELECT count() FROM duplicates_unread_count WHERE mailbox_id = mailboxes.ROWID AND unread_count != 0) + sum(CASE WHEN flags&%lld = 0 AND flags&%lld = 0 AND message_id = 0 THEN 1 ELSE 0 END)) AS unread_count_adjusted_for_duplicates                                                           FROM messages JOIN mailboxes ON mailboxes.ROWID = messages.mailbox WHERE mailboxes.source ISNULL;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -95,12 +71,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (void)FI_TNodeViewSettings;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -110,46 +86,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *affectedEntities; // @synthesize affectedEntities=_affectedEntities;
-@property(readonly, nonatomic) id <GEOTransitIconDataSource> artworkDataSource;
-@property(nonatomic) _Bool blockingIncident; // @synthesize blockingIncident=_blockingIncident;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(nonatomic) unsigned int creationDatetime; // @synthesize creationDatetime=_creationDatetime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(nonatomic) unsigned int endDatetime; // @synthesize endDatetime=_endDatetime;
-@property(retain, nonatomic) NSString *fullDescription; // @synthesize fullDescription=_fullDescription;
-@property(nonatomic) _Bool hasBlockingIncident;
-@property(nonatomic) _Bool hasCreationDatetime;
-@property(nonatomic) _Bool hasEndDatetime;
-@property(readonly, nonatomic) _Bool hasFullDescription;
-@property(nonatomic) _Bool hasIconType;
-@property(nonatomic) _Bool hasLastUpdatedDatetime;
-@property(readonly, nonatomic) _Bool hasMessageForNonRoutable;
-@property(readonly, nonatomic) _Bool hasMessageForRoutePlanning;
-@property(readonly, nonatomic) _Bool hasMessageForRouteStepping;
-@property(nonatomic) _Bool hasMuid;
-@property(nonatomic) _Bool hasStartDatetime;
-@property(readonly, nonatomic) _Bool hasSummary;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int iconType; // @synthesize iconType=_iconType;
-@property(readonly, nonatomic) NSDate *lastUpdated;
-@property(nonatomic) unsigned int lastUpdatedDatetime; // @synthesize lastUpdatedDatetime=_lastUpdatedDatetime;
-@property(retain, nonatomic) NSString *messageForNonRoutable; // @synthesize messageForNonRoutable=_messageForNonRoutable;
-@property(retain, nonatomic) NSString *messageForRoutePlanning; // @synthesize messageForRoutePlanning=_messageForRoutePlanning;
-@property(retain, nonatomic) NSString *messageForRouteStepping; // @synthesize messageForRouteStepping=_messageForRouteStepping;
-@property(nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(nonatomic) unsigned int startDatetime; // @synthesize startDatetime=_startDatetime;
-@property(retain, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
+@property(readonly, nonatomic) unsigned long long muid;
 
 @end
 

@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBTimeZone
+- (NSData *)tensionWrapper;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

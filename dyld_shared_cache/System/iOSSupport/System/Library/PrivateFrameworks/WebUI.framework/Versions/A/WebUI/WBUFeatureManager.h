@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSObject, WBSAppleAccountInformationProvider;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBUFeatureManager
 {
     NSObject<OS_dispatch_queue> *_appleAccountQueue;
-    ACAccount *_primaryAppleAccount;
-    WBSAppleAccountInformationProvider *_accountInformationProvider;
-    _Bool _cloudAccountIsHSA2;
-    _Bool _isCloudSyncEnabled;
-    _Bool _autoFillAvailable;
-    _Bool _bookmarksAvailable;
-    _Bool _readingListAvailable;
-    _Bool _offlineReadingListAvailable;
-    _Bool _cloudSyncAvailable;
-    _Bool _inMemoryBookmarkChangeTrackingAvailable;
 }
 
 + (id);
@@ -38,7 +28,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)h_queue>"16@0:(_Bool)arg1 8;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -48,17 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAirDropPasswordsAvailable) _Bool airDropPasswordsAvailable;
-@property(readonly, nonatomic, getter=isAutoFillAvailable) _Bool autoFillAvailable; // @synthesize autoFillAvailable=_autoFillAvailable;
-@property(readonly, nonatomic, getter=isBookmarksAvailable) _Bool bookmarksAvailable; // @synthesize bookmarksAvailable=_bookmarksAvailable;
-@property(readonly, nonatomic, getter=isCloudHistorySyncAvailable) _Bool cloudHistorySyncAvailable;
-@property(readonly, nonatomic, getter=isCloudSyncAvailable) _Bool cloudSyncAvailable; // @synthesize cloudSyncAvailable=_cloudSyncAvailable;
-@property(readonly, nonatomic, getter=isCloudTabsAvailable) _Bool cloudTabsAvailable;
-@property(readonly, nonatomic, getter=isCreditCardStorageAvailable) _Bool creditCardStorageAvailable;
-@property(readonly, nonatomic, getter=isInMemoryBookmarkChangeTrackingAvailable) _Bool inMemoryBookmarkChangeTrackingAvailable; // @synthesize inMemoryBookmarkChangeTrackingAvailable=_inMemoryBookmarkChangeTrackingAvailable;
-@property(readonly, nonatomic) _Bool isCloudAccountHSA2;
-@property(readonly, nonatomic, getter=isOfflineReadingListAvailable) _Bool offlineReadingListAvailable; // @synthesize offlineReadingListAvailable=_offlineReadingListAvailable;
-@property(readonly, nonatomic, getter=isReadingListAvailable) _Bool readingListAvailable; // @synthesize readingListAvailable=_readingListAvailable;
 @property(readonly, nonatomic, getter=isSafariSyncEnabled) _Bool safariSyncEnabled;
 
 @end

@@ -22,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool drawsDropShadowAndMask;
 @property(nonatomic) long long imageViewStyle;
 
 @end

@@ -7,8 +7,9 @@
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (void);
 - (void)ùqò#Ð1Â0@ù
 × ;
-- (_Bool)ViewControllersForMemojiExtensions;
+- (_Bool)loadViewControllersForMemojiExtensions;
 @end
 

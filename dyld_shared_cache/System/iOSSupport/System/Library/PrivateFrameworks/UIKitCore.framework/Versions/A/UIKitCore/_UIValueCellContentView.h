@@ -6,47 +6,40 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutRect, NSString, UIImageView, UILabel, _UIValueCellContentViewConfiguration;
+@class _UIValueCellContentViewConfiguration;
 
 @interface _UIValueCellContentView : UIView
 {
     _UIValueCellContentViewConfiguration *_animatingFromConfiguration;
-    _UIValueCellContentViewConfiguration *_animatingToConfiguration;
-    double _preferredMaxLayoutWidth;
-    _UIValueCellContentViewConfiguration *_configuration;
-    UIImageView *_imageView;
-    UILabel *_textLabel;
-    UILabel *_valueLabel;
-    CDUnknownBlockType _primaryTextFrameDidChangeHandler;
 }
 
-- (struct _UIValueCellContentViewSizes);
+- (struct _UIValueCellContentViewSizes)ing quick switch. localDBVersion %ld gizmoDBVersion %ld;
 - (id);
 - (struct CGSize);
 - (id);
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void)kCFAllocatorNull;
 - (_Bool);
-- (void);
+- (void)tabase-UnknownPersonID;
 - (void);
 - (id);
 - (void);
 - (void)!ÈFùÑeÐ1Â0@ù
 × ;
-- (void)orKey:(id)arg1 name:style:renderConfig:size: /* Error: Ran out of types for this method. */;
-- (void)rving:(struct UIEdgeInsets)arg1;
-- (void)tBehaviorDict: /* Error: Ran out of types for this method. */;
-- (id)elWithBlock: /* Error: Ran out of types for this method. */;
-- (id):forUserActivity: /* Error: Ran out of types for this method. */;
-- (double)dDirection;
-- (CDUnknownBlockType)nged;
-- (void)lSafeAreaInsets;
-- (id)ForBounds: /* Error: Ran out of types for this method. */;
-- (void)erateBaselineCalculation;
+- (void)tokenTemplateForKey:(id)arg1 name:style:renderConfig:size: /* Error: Ran out of types for this method. */;
+- (void)setNullPreserving:(struct UIEdgeInsets)arg1;
+- (void)setBehaviorDict: /* Error: Ran out of types for this method. */;
+- (id)observeBrightnessLevelWithBlock: /* Error: Ran out of types for this method. */;
+- (id)addResponder:document:forUserActivity: /* Error: Ran out of types for this method. */;
+- (double)_resolvedDirection;
+- (CDUnknownBlockType)_isRanged;
+- (void)_internalSafeAreaInsets;
+- (id)_availableTextRectExcludingButtonsForBounds: /* Error: Ran out of types for this method. */;
+- (void)__guardAgainstDegenerateBaselineCalculation;
 - (void)ion;
-- (struct CGSize)apperView;
+- (struct CGSize)UIPanelWrapperView;
 - (struct CGSize);
 - (id)lock assertion for reason:(id)arg1 %@;
 - (struct CGSize)recorded.%@;
@@ -56,24 +49,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _preventFocus;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic, setter=_setPrimaryTextFrameDidChangeHandler:) CDUnknownBlockType _primaryTextFrameDidChangeHandler; // @synthesize _primaryTextFrameDidChangeHandler;
-@property(readonly, nonatomic) struct CGRect _primaryTextLayoutFrame;
-@property(readonly, nonatomic) NSLayoutRect *_primaryTextLayoutRect;
 @property(copy, nonatomic) _UIValueCellContentViewConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UILabel *textLabel; // @synthesize textLabel=_textLabel;
-@property(readonly, nonatomic) UILabel *valueLabel; // @synthesize valueLabel=_valueLabel;
 
 @end
 

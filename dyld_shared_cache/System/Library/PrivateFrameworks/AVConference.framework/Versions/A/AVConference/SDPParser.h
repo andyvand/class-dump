@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSEnumerator, NSString;
+@class NSArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface SDPParser
 {
     NSArray *_lines;
-    NSEnumerator *_lineEnumerator;
-    NSDictionary *_fieldNameMap;
-    NSString *_fieldName;
-    NSString *_fieldValue;
-    unsigned char _fieldType;
-    _Bool _parsingDone;
 }
 
 - (int);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)HDRProcessingDestinationDisplayTypeReferenceDisplay;
 - (unsigned char);
 - (id);
 - (id)s:%d AVCAudioStream:synchronizeWithStream %u /* Error: Ran out of types for this method. */;
@@ -30,9 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(readonly, nonatomic) unsigned char fieldType; // @synthesize fieldType=_fieldType;
-@property(readonly, nonatomic) NSString *fieldValue; // @synthesize fieldValue=_fieldValue;
-@property(readonly, nonatomic) _Bool parsingDone; // @synthesize parsingDone=_parsingDone;
 
 @end
 

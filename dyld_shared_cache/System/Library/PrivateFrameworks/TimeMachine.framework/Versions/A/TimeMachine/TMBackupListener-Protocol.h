@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSDictionary, NSString;
 
 @protocol TMBackupListener
+- (NSDictionary *);
 
 // Remaining properties
 @property(readonly) NSString *listenerID;

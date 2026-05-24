@@ -7,27 +7,19 @@
 @interface TIKeyboardLayout
 {
     _Bool _usesTwoHands;
-    unsigned long long _count;
-    struct _ShortRect *_frames;
-    unsigned long long _framesCapacity;
-    char *_strings;
-    unsigned long long _stringsSize;
-    unsigned long long _stringsCapacity;
-    _Bool _shifted;
-    struct CGRect _frame;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void)removeAssetFromUserAlbumSuggestionIfNeededWithChangedValues:(_Bool)arg1;
+- (id)predicateIncludingOnlyEntryTypes: /* Error: Ran out of types for this method. */;
+- (_Bool)public}@;
+- (id), asset with object ID %@ not found:(unsigned long long)arg1 %@;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)i;
 - (struct CGRect);
 - (void);
 - (void);
@@ -36,13 +28,11 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (const char *)KeyboardCandidate;
+- (const char *)TILabeledKeyboardCandidate;
 - (void);
-- (_Bool);
+- (_Bool)waterbird;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic, getter=isShifted, setter=setShifted:) _Bool shifted; // @synthesize shifted=_shifted;
 @property(nonatomic) _Bool usesTwoHands; // @synthesize usesTwoHands=_usesTwoHands;
 
 @end

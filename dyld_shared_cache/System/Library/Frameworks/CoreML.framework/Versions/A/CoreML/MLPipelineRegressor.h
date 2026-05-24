@@ -13,11 +13,11 @@
     MLPipeline *_engine;
 }
 
-- (id);
+- (id)ql;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void))Q;
 - (id)A$-ð!Bù1ÿ0°1Â0@ù
 × ;
 - (void)d a buffer object.;
@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(retain) MLPipeline *engine; // @synthesize engine=_engine;
-@property(readonly) MLPipeline *pipeline;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsFeed.AdPresentationDelegateProvider
 {
     id viewController;
-    id $__lazy_storage_$_delegate;
 }
 
 @end

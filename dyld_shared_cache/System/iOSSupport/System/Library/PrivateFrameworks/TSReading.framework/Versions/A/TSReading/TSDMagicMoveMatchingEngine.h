@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id)onHighlightLayerInvalidateDisplay;
+- (id)`;
+- (id)selectionHighlightLayerInvalidateDisplay;
 
 @end
 

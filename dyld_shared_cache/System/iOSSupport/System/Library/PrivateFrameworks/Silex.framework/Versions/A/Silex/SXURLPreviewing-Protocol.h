@@ -5,5 +5,6 @@
 //
 
 @protocol SXURLPreviewing
+- (void);
 @end
 

@@ -7,8 +7,13 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)hq;
+- (oneway void)!;
+- (_Bool);
+- (_Bool)__ustring;
+- (_Bool)otherFilesProcessed;
 - (id);
-- (_Bool)ionValue;
+- (_Bool)_safariHistoryImpressionValue;
 - (struct _NSZone *)resh=%{public}s, refreshInterval=%{public}f;
 
 @optional
@@ -16,12 +21,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -6,28 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, USOSchemaUSOMatchInfo, USOSchemaUSOPayloadAttachmentInfo;
-
 @interface USOSchemaUSOEntitySpan : SISchemaInstrumentationMessage
 {
     unsigned int _nodeIndex;
-    int _sourceComponent;
-    NSString *_label;
-    USOSchemaUSOMatchInfo *_matchInfo;
-    unsigned int _startIndex;
-    unsigned int _endIndex;
-    int _originAppBundleIdType;
-    USOSchemaUSOPayloadAttachmentInfo *_payloadAttachmentInfo;
-    struct {
-        unsigned int nodeIndex:1;
-        unsigned int sourceComponent:1;
-        unsigned int startIndex:1;
-        unsigned int endIndex:1;
-        unsigned int originAppBundleIdType:1;
-    } _has;
-    _Bool _hasLabel;
-    _Bool _hasMatchInfo;
-    _Bool _hasPayloadAttachmentInfo;
 }
 
 - (void);
@@ -41,14 +22,14 @@
 - (void);
 - (id);
 - (int);
+- (_Bool)_րB;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -60,47 +41,31 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)setFont:(_Bool)arg1;
 - (unsigned int);
 - (id);
-- (void);
+- (void)ClientForced;
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
+- (id)ASDAppReviewAppMetadata;
+- (_Bool)_fullDateFormatString;
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool).expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m WHERE   m.is_from_me = 1   AND m.is_sent = 0   AND m.error = 0   AND m.item_type = 0   AND m.schedule_type = 0   AND m.ROWID > ? ;
 - (unsigned int);
 - (id);
 - (void);
 - (id);
-- (id)teSliceLabel;
-- (void)tDetected;
-- (id)ed;
+- (id)deleteSliceLabel;
+- (void)adaptiveSiriVolumeUserIntentDetected;
+- (id)_numClientActionsCreated;
 - (void)vlx
 h|h;
-- (void)RB_UNKNOWN;
-- (_Bool)OMAIN_UNIFIED_ASSET_FRAMEWORK;
+- (void)PEGASUSVIDEOVERB_UNKNOWN;
+- (_Bool)CDMASSETSETUPERRORDOMAIN_UNIFIED_ASSET_FRAMEWORK;
 
 // Remaining properties
-@property(nonatomic) unsigned int endIndex; // @synthesize endIndex=_endIndex;
-@property(nonatomic) _Bool hasEndIndex;
-@property(nonatomic) _Bool hasLabel; // @synthesize hasLabel=_hasLabel;
-@property(nonatomic) _Bool hasMatchInfo; // @synthesize hasMatchInfo=_hasMatchInfo;
-@property(nonatomic) _Bool hasNodeIndex;
-@property(nonatomic) _Bool hasOriginAppBundleIdType;
-@property(nonatomic) _Bool hasPayloadAttachmentInfo; // @synthesize hasPayloadAttachmentInfo=_hasPayloadAttachmentInfo;
-@property(nonatomic) _Bool hasSourceComponent;
-@property(nonatomic) _Bool hasStartIndex;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) USOSchemaUSOMatchInfo *matchInfo; // @synthesize matchInfo=_matchInfo;
 @property(nonatomic) unsigned int nodeIndex; // @synthesize nodeIndex=_nodeIndex;
-@property(nonatomic) int originAppBundleIdType; // @synthesize originAppBundleIdType=_originAppBundleIdType;
-@property(retain, nonatomic) USOSchemaUSOPayloadAttachmentInfo *payloadAttachmentInfo; // @synthesize payloadAttachmentInfo=_payloadAttachmentInfo;
-@property(nonatomic) int sourceComponent; // @synthesize sourceComponent=_sourceComponent;
-@property(nonatomic) unsigned int startIndex; // @synthesize startIndex=_startIndex;
 
 @end
 

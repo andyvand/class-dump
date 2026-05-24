@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitSyncProgress, IMCloudKitSyncState, IMEventNotificationManager, IMWeakReferenceCollection, NSTimer;
+@class IMWeakReferenceCollection;
 @protocol IMCloudKitEventHandlerAccountInfoProvider;
 
 @interface IMCloudKitEventNotificationManager
 {
     id <IMCloudKitEventHandlerAccountInfoProvider> _accountInfoProvider;
-    double _progressPollingInterval;
-    IMWeakReferenceCollection *_eventHandlers;
-    IMEventNotificationManager *_notificationManager;
-    NSTimer *_fetchStatsTimer;
-    IMCloudKitSyncState *_previousState;
-    IMCloudKitSyncProgress *_progressToSend;
 }
 
 + (void);
@@ -27,9 +21,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
@@ -42,51 +36,43 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?ס	;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void)k.;
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
+- (id)	;
 - (id);
 - (void)-ÿÿT.ÿÿ;
 - (id)unresolvedMessages;
 
 // Remaining properties
-@property __weak id <IMCloudKitEventHandlerAccountInfoProvider> accountInfoProvider; // @synthesize accountInfoProvider=_accountInfoProvider;
-@property _Bool didPromptForCloudKitSync;
 @property(readonly) IMWeakReferenceCollection *eventHandlers; // @synthesize eventHandlers=_eventHandlers;
-@property __weak NSTimer *fetchStatsTimer; // @synthesize fetchStatsTimer=_fetchStatsTimer;
-@property(retain) IMEventNotificationManager *notificationManager; // @synthesize notificationManager=_notificationManager;
-@property(retain) IMCloudKitSyncState *previousState; // @synthesize previousState=_previousState;
-@property double progressPollingInterval; // @synthesize progressPollingInterval=_progressPollingInterval;
-@property(retain) IMCloudKitSyncProgress *progressToSend; // @synthesize progressToSend=_progressToSend;
-@property(readonly) IMCloudKitSyncState *syncState;
 
 @end
 

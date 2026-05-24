@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)icEventEE_FvSA_SD_EEE;
 - (id);
 
 @end

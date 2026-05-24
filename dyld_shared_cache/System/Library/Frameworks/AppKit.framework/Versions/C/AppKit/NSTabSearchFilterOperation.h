@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSTabSearchFilterOperation
 {
     CDUnknownBlockType _filterCompletionCallback;
-    NSString *_filterText;
-    NSArray *_tabInfo;
 }
 
 - (void);
 - (id);
-- (id);
-- (CDUnknownBlockType);
-- (void);
+- (id)ot a valid XPC dictionary;
+- (CDUnknownBlockType)%s);
+- (void)allowsConstrainedNetworkAccess;
 - (id);
 - (void)eceiveTouch"b1"reserved"b24};
 - (void)\#ÿ` ?ÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType filterCompletionCallback; // @synthesize filterCompletionCallback=_filterCompletionCallback;
-@property(readonly, nonatomic) NSString *filterText; // @synthesize filterText=_filterText;
 @property(copy, nonatomic) NSArray *tabInfo; // @synthesize tabInfo=_tabInfo;
 
 @end

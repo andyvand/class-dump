@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGTrialSession;
+@class PGTrialSession;
 
 @interface PGTrialConfigurationSource
 {
     unsigned short _namespaceType;
-    PGTrialSession *_trialSession;
 }
 
 - (void);
@@ -18,17 +17,9 @@
 - (void);
 - (unsigned short);
 - (id);
-- (void)Selfies;
+- (void)numberOfSelfies;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned short namespaceType; // @synthesize namespaceType=_namespaceType;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) PGTrialSession *trialSession; // @synthesize trialSession=_trialSession;
 
 @end

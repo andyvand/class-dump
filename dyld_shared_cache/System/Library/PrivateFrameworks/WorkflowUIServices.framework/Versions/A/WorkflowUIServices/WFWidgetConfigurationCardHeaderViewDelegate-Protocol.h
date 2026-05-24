@@ -5,5 +5,6 @@
 //
 
 @protocol WFWidgetConfigurationCardHeaderViewDelegate
+- (void);
 @end
 

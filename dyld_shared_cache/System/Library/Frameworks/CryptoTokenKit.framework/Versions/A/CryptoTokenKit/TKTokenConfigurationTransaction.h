@@ -13,8 +13,8 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void)pe.;
 
 @end
 

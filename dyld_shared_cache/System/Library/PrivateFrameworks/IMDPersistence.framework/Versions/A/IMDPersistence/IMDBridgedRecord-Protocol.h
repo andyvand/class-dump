@@ -5,5 +5,6 @@
 //
 
 @protocol IMDBridgedRecord
+- (void *);
 @end
 

@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCPlug, NSArray, NSDictionary, NSMutableDictionary, NSRecursiveLock, NSString;
+@class MCPlug, NSDictionary;
 
 @interface MCMontage
 {
     NSDictionary *mImprintWhileLoading;
-    NSMutableDictionary *mVideoAssetsForFilePaths;
-    NSMutableDictionary *mVideoAssetsForObjectIDs;
-    NSMutableDictionary *mAudioAssetsForFilePaths;
-    NSMutableDictionary *mAudioAssetsForObjectIDs;
-    NSMutableDictionary *mContainersForObjectIDs;
-    NSRecursiveLock *mLock;
-    unsigned char _styleHint;
-    MCPlug *mRootPlug;
-    double mFadeInDuration;
-    double mFadeOutDuration;
-    double mAudioFadeOutDuration;
-    NSString *mBasePath;
-    unsigned long long mUUIDSeed;
-    NSArray *mLayouts;
 }
 
-- (id);
-- (id);
-- (unsigned long long);
+- (id)EnvelopeContentTypeConfigsWithCompletion:(id)arg1 ];
+- (id)yticsPayloadAssembler _fetchAnalyticsEnvelopeContentTypeConfigsWithCompletion:(id)arg1 ];
+- (unsigned long long)stUploadDatesByContentType:completion:] /* Error: Ran out of types for this method. */;
 - (unsigned char);
 - (void);
 - (void);
-- (id);
+- (id)ֈ;
 - (void);
 - (void);
 - (void);
@@ -40,25 +26,25 @@
 - (id);
 - (id);
 - (id);
+- (double)8;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)d;
+- (id);
+- (void);
+- (void);
+- (void);
+- (double);
 - (double);
 - (id);
 - (id);
+- (void)?;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)0;
 - (void);
 - (void)1Â0@ù
 × ;
@@ -68,14 +54,7 @@
 - (id)Ü;
 
 // Remaining properties
-@property(nonatomic) double audioFadeOutDuration; // @synthesize audioFadeOutDuration=mAudioFadeOutDuration;
-@property(copy) NSString *basePath; // @synthesize basePath=mBasePath;
-@property(nonatomic) double fadeInDuration; // @synthesize fadeInDuration=mFadeInDuration;
-@property(nonatomic) double fadeOutDuration; // @synthesize fadeOutDuration=mFadeOutDuration;
-@property(retain) NSArray *layouts; // @synthesize layouts=mLayouts;
 @property(readonly, nonatomic) MCPlug *rootPlug; // @synthesize rootPlug=mRootPlug;
-@property(nonatomic) unsigned char styleHint; // @synthesize styleHint=_styleHint;
-@property(readonly, nonatomic) unsigned long long uuidSeed; // @synthesize uuidSeed=mUUIDSeed;
 
 @end
 

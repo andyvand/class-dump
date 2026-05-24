@@ -7,15 +7,6 @@
 @interface MPSImageSpatioTemporalGuidedFilterDescriptor
 {
     _Bool _preallocateIntermediates;
-    _Bool _useHighPrecisionIntermediates;
-    float _epsilon;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _arrayLength;
-    unsigned long long _kernelSpatialDiameter;
-    unsigned long long _kernelTemporalDiameter;
-    unsigned long long _sourceChannels;
-    unsigned long long _guideChannels;
 }
 
 + (id);
@@ -24,17 +15,17 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (void)K;
 - (unsigned long long);
-- (void);
-- (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -43,15 +34,6 @@
 - (float);
 
 // Remaining properties
-@property(nonatomic) unsigned long long arrayLength; // @synthesize arrayLength=_arrayLength;
-@property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(nonatomic) unsigned long long guideChannels; // @synthesize guideChannels=_guideChannels;
-@property(nonatomic) unsigned long long height; // @synthesize height=_height;
-@property(nonatomic) unsigned long long kernelSpatialDiameter; // @synthesize kernelSpatialDiameter=_kernelSpatialDiameter;
-@property(nonatomic) unsigned long long kernelTemporalDiameter; // @synthesize kernelTemporalDiameter=_kernelTemporalDiameter;
-@property(nonatomic) _Bool preallocateIntermediates; // @synthesize preallocateIntermediates=_preallocateIntermediates;
-@property(nonatomic) unsigned long long sourceChannels; // @synthesize sourceChannels=_sourceChannels;
-@property(nonatomic) _Bool useHighPrecisionIntermediates; // @synthesize useHighPrecisionIntermediates=_useHighPrecisionIntermediates;
 @property(nonatomic) unsigned long long width; // @synthesize width=_width;
 
 @end

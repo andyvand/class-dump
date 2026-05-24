@@ -9,7 +9,6 @@
 @interface CHNonTerminal : CHParseTreeNode
 {
     CHParseTreeNode *_leftNode;
-    CHParseTreeNode *_rightNode;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CHParseTreeNode *leftNode; // @synthesize leftNode=_leftNode;
-@property(readonly, nonatomic) CHParseTreeNode *rightNode; // @synthesize rightNode=_rightNode;
 
 @end
 

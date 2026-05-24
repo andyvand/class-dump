@@ -7,7 +7,6 @@
 @interface NewsArticles.HeadlineProvider
 {
     id articleIdentifier;
-    id headlineService;
 }
 
 @end

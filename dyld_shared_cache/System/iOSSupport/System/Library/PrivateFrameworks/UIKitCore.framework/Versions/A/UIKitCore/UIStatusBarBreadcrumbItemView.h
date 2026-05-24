@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     NSString *_destinationText;
 }
 
+- (void)account:(id)arg1 blockListChanged: /* Error: Ran out of types for this method. */;
+- (_Bool)_shouldShowSWYQuickActionForMessage:(id)arg1 outAppName:(int)arg2 outBundleID: /* Error: Ran out of types for this method. */;
+- (id)_completedPeriodicSyncSinceFirstFullSyncForLastSyncDate:firstFullSyncCompletedDate: /* Error: Ran out of types for this method. */;
+- (id)geTracker;
+- (void)_TtC12IMDaemonCore23TapbackInterpreterState;
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (double);
+- (long long);
+- (double)ReadOnly.;
 - (id);
 - (void)q;
 

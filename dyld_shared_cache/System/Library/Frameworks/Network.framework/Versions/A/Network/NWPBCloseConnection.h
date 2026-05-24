@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)liverComplete;
+- (id)_didDeliverComplete;
 - (id)"Ü@;
 - (void)@;
 

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechUtterance, NSString;
-
 @interface UnknownClass (PublicSpeechImplementation)
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (unsigned long long);
 - (void);
 - (void);
@@ -18,9 +16,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -37,29 +35,24 @@
 - (id);
 - (void);
 - (unsigned int);
-- (id);
+- (id) ;
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)4;
 - (id);
 - (void);
 - (_Bool)~;
 
 // Remaining properties
-@property(nonatomic) unsigned int audioDeviceId;
-@property(nonatomic) _Bool detectSSMLAndModifyUtterances;
-@property(retain, nonatomic) AVSpeechUtterance *inflightUtterance;
-@property(nonatomic) _Bool initializedWebKitUsage;
 @property(nonatomic) _Bool isInternalSynth;
-@property(retain, nonatomic) NSString *speechSource;
 @end
 

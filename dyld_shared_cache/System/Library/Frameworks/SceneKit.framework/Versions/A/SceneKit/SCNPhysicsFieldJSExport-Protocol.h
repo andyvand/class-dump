@@ -5,6 +5,12 @@
 //
 
 @protocol SCNPhysicsFieldJSExport
+- (unsigned long long);
+- (void)@l;
+- (double)g wifi credentials done;
+- (void)!;
+- (void)_postSubscriptionChangedWithType:(double)arg1;
+- (void)s;
 - (id)+= d1.w;
         return d0;
     }
@@ -697,19 +703,9 @@ inline float4 ComputeCascadedShadow(sampler shadow_sampler, float3 viewPos, floa
     return shadow;
 }
  /* Error: Ran out of types for this method. */;
-- (struct SCNVector3)imation;
+- (struct SCNVector3)enableAnimation;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) unsigned long long categoryBitMask;
-@property(nonatomic) struct SCNVector3 direction;
-@property(nonatomic, getter=isExclusive) _Bool exclusive;
-@property(nonatomic) double falloffExponent;
-@property(nonatomic) struct SCNVector3 halfExtent;
-@property(nonatomic) double minimumDistance;
-@property(nonatomic) struct SCNVector3 offset;
-@property(nonatomic) long long scope;
 @property(nonatomic) double strength;
-@property(nonatomic) _Bool usesEllipsoidalExtent;
 @end
 

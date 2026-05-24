@@ -6,7 +6,7 @@
 
 @interface UnknownClass (CPKAddition)
 + (id);
-+ (id);
++ (id)b;
 + (id);
 - (id);
 - (_Bool);

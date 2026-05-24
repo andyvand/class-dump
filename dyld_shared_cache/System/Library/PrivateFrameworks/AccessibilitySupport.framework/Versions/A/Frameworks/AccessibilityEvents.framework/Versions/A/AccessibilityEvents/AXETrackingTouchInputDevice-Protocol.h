@@ -7,6 +7,8 @@
 @protocol AXETrackingTouchInputDeviceDelegate;
 
 @protocol AXETrackingTouchInputDevice
+- (void);
+- (id <AXETrackingTouchInputDeviceDelegate>)JY;
 
 // Remaining properties
 @property(nonatomic) __weak id <AXETrackingTouchInputDeviceDelegate> delegate;

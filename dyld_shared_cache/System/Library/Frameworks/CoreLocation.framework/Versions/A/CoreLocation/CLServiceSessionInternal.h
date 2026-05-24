@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLDispatchSilo, CLLocationManager, NSData, NSString;
+@class CLDispatchSilo;
 
 @interface CLServiceSessionInternal
 {
     CLDispatchSilo *_silo;
-    void *_locationdConnection;
-    CDUnknownBlockType _clientCallback;
-    _Bool _isValid;
-    int _sessionType;
-    NSString *identityToken;
-    NSData *storageToken;
-    CLLocationManager *manager;
-    CDUnknownBlockType weakClient;
 }
 
 + (id);
@@ -32,34 +24,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)CGImageMetadataEnumerateTagsUsingBlock;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
+- (void);
+- (void)_	;
 - (void);
 - (void)gTime;
 - (int)ublic}.1lf,no DOT,too close to %{public}s intersection,dist,%{public}.2lf,speed,%{public}.2lf;
 - (void)encrypt the conditions;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identityToken; // @synthesize identityToken;
 @property _Bool isValid; // @synthesize isValid=_isValid;
-@property(retain, nonatomic) CLLocationManager *manager; // @synthesize manager;
-@property(readonly, nonatomic) int sessionType; // @synthesize sessionType=_sessionType;
-@property(retain, nonatomic) NSData *storageToken; // @synthesize storageToken;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak CDUnknownBlockType weakClient; // @synthesize weakClient;
 
 @end
 

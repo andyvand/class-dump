@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXChannelServiceServer, CXTransactionGroup, CXTransactionManager, NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol CXChannelSourceManagerDelegate, OS_dispatch_queue;
-
 @interface CXChannelSourceManager
 {
     struct os_unfair_lock_s _accessorLock;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CXChannelSourceManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSMutableDictionary *_identifierToChannelSource;
-    CXChannelServiceServer *_serviceServer;
-    CXTransactionManager *_transactionManager;
-    CXTransactionGroup *_uncommittedTransactionGroup;
 }
 
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -38,38 +28,23 @@
 - (void);
 - (void);
 - (void);
+- (id)ch | dropping [missed deadline] statuses=[%{public}@];
+- (void)ectionedCollection %p:(id)arg1 identifiersForItemAtIndexPath dataSource failed to produce identifiers:(id)arg2 dataSource=<%{public}@ %p> indexPath=%{public}@;
+- (id);
+- (void);;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(readonly, nonatomic) NSArray *channelSources;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <CXChannelSourceManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *identifierToChannelSource; // @synthesize identifierToChannelSource=_identifierToChannelSource;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) CXChannelServiceServer *serviceServer; // @synthesize serviceServer=_serviceServer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CXTransactionManager *transactionManager; // @synthesize transactionManager=_transactionManager;
-@property(retain, nonatomic) CXTransactionGroup *uncommittedTransactionGroup; // @synthesize uncommittedTransactionGroup=_uncommittedTransactionGroup;
 
 @end
 

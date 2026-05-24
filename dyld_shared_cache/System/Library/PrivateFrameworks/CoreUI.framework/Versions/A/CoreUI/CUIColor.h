@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (struct CGColor *);
 
 // Remaining properties

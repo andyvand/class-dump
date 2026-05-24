@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _HMCameraAudioControl : _HMCameraControl
 {
     HMCharacteristic *_mute;
-    HMCharacteristic *_volume;
 }
 
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMCharacteristic *mute; // @synthesize mute=_mute;
-@property(readonly, nonatomic) HMCharacteristic *volume; // @synthesize volume=_volume;
 
 @end
 

@@ -7,10 +7,10 @@
 @class NSString, NSURL;
 
 @protocol AAEndpointType
+- (NSString *)_TtCC8StoreKit19StoreProductManager25SubscriptionGroupObserver;
+- (NSString *);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *sharedContainerIdentifier;
 @property(nonatomic, readonly) NSURL *url;
 @end
 

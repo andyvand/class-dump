@@ -7,9 +7,6 @@
 @interface SwiftUI.UIKitStatusBarBridge
 {
     id statusBarHidden;
-    id _shouldDeferToChildViewController;
-    id seedTracker;
-    id host;
 }
 
 @end

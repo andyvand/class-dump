@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMSingleServiceWarmupAttemptEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)nterfacePrivate2...;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)ure codes:(id)arg1 %s;
+- (unsigned long long)T;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

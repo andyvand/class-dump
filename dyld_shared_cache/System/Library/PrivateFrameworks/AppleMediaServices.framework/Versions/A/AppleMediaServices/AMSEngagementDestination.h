@@ -9,17 +9,15 @@
 @interface AMSEngagementDestination
 {
     _Bool _allowsResponse;
-    NSString *_identifier;
-    unsigned long long _components;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)isGenmoji;
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)utDeviceVolume;
 - (void);
 - (void);
 - (unsigned long long);
@@ -28,8 +26,6 @@
 gÓEÇLë>?:ñ df¾èöæ&9|J5qÕì]'ZR\¦NÛeò¡Oà*jÃ®ô0¬xIWru²¨S /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool allowsResponse; // @synthesize allowsResponse=_allowsResponse;
-@property unsigned long long components; // @synthesize components=_components;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

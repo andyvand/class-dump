@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface SLMicroBlogUserRecord
 {
     NSString *_name;
-    NSString *_screen_name;
-    NSString *_profile_image_url;
-    UIImage *_profileImageCache;
 }
 
 + (id);
@@ -23,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ocompletion accounts;
 - (id);
 - (id);
 - (void);
@@ -32,9 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain) UIImage *profileImageCache; // @synthesize profileImageCache=_profileImageCache;
-@property(retain, nonatomic) NSString *profile_image_url; // @synthesize profile_image_url=_profile_image_url;
-@property(retain, nonatomic) NSString *screen_name; // @synthesize screen_name=_screen_name;
 
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXGGradient;
-
 @interface PXCuratedLibraryCardSectionBodyLayoutSpec
 {
     _Bool _allowsVideoPlaybackAtAnySize;
-    double _aspectRatio;
-    PXGGradient *_skimmingHintGradient;
-    double _distanceToNextLayout;
-    double _horizontalMargin;
-    CDStruct_2bd92d94 _cornerRadius;
-    struct NSEdgeInsets _padding;
-    struct NSEdgeInsets _horizontalInsets;
 }
 
 - (id);
@@ -26,8 +17,8 @@
 - (_Bool);
 - (void);
 - (double);
-- (void);
-- (CDStruct_2bd92d94)lable __strong)(BOOL, NSError * _Nullable __strong));
+- (void)cen;
+- (CDStruct_c2259bfa)lable __strong)(BOOL, NSError * _Nullable __strong));
 - (void)form to protocol %@, but it is nil;
 - (void)½C¸dÜúþ;
 - (struct NSEdgeInsets)¬­ÿ;
@@ -35,14 +26,7 @@
 - (double)À;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsVideoPlaybackAtAnySize; // @synthesize allowsVideoPlaybackAtAnySize=_allowsVideoPlaybackAtAnySize;
 @property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(nonatomic) CDStruct_2bd92d94 cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) double distanceToNextLayout; // @synthesize distanceToNextLayout=_distanceToNextLayout;
-@property(readonly, nonatomic) struct NSEdgeInsets horizontalInsets; // @synthesize horizontalInsets=_horizontalInsets;
-@property(nonatomic) double horizontalMargin; // @synthesize horizontalMargin=_horizontalMargin;
-@property(nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
-@property(readonly, nonatomic) PXGGradient *skimmingHintGradient; // @synthesize skimmingHintGradient=_skimmingHintGradient;
 
 @end
 

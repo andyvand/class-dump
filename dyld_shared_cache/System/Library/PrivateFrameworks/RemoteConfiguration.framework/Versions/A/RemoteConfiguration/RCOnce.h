@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RCMutexLock;
-
 @interface RCOnce
 {
     _Bool _finished;
-    RCMutexLock *_lock;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (void);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(retain, nonatomic) RCMutexLock *lock; // @synthesize lock=_lock;
 
 @end
 

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface PGUpNextMemoriesGenerationResult
 {
     NSArray *_memoryLocalIdentifiers;
-    NSString *_debugInfo;
 }
 
-- (id);
+- (id)__AUTH;
 - (id);
 - (id);
 - (id);
 - (void)m5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/PGMemoryElector.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *debugInfo; // @synthesize debugInfo=_debugInfo;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSArray *memoryLocalIdentifiers; // @synthesize memoryLocalIdentifiers=_memoryLocalIdentifiers;
 
 @end

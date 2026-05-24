@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PKPaperList
 {
     _Bool _hasMediaReady;
-    NSArray *_papers;
-    NSArray *_simplexPapers;
-    NSArray *_duplexPapers;
-    NSArray *_photoPapers;
-    NSArray *_rolls;
 }
 
 + (id);
@@ -21,28 +14,28 @@
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)u;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long)";
 - (_Bool);
 - (id);
 - (id);
@@ -58,18 +51,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)_AXKAlertButton;
 
 // Remaining properties
-@property(retain) NSArray *duplexPapers; // @synthesize duplexPapers=_duplexPapers;
 @property _Bool hasMediaReady; // @synthesize hasMediaReady=_hasMediaReady;
-@property(copy) NSArray *papers; // @synthesize papers=_papers;
-@property(retain) NSArray *photoPapers; // @synthesize photoPapers=_photoPapers;
-@property(retain, nonatomic) NSArray *rolls; // @synthesize rolls=_rolls;
-@property(retain) NSArray *simplexPapers; // @synthesize simplexPapers=_simplexPapers;
 
 @end
 

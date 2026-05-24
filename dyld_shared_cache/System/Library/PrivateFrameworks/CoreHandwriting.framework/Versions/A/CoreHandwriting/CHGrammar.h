@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSMutableArray, NSMutableDictionary, NSMutableSet, NSSet, NSString;
+@class NSMutableArray, NSSet;
 
 @interface CHGrammar
 {
     NSMutableArray *_terminalProductions;
-    NSMutableArray *_nonTerminalProductions;
-    NSMutableDictionary *_productionsByKey;
-    NSMutableSet *_terminals;
-    NSMutableSet *_nonTerminals;
-    NSCharacterSet *_characterSet;
-    NSString *_file;
 }
 
 - (id);
@@ -25,14 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSCharacterSet *characterSet; // @synthesize characterSet=_characterSet;
-@property(readonly, nonatomic) NSString *file; // @synthesize file=_file;
-@property(readonly, nonatomic) NSSet *nonTerminals;
 @property(readonly, nonatomic) NSSet *terminals; // @synthesize terminals=_terminals;
 
 @end

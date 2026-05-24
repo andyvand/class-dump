@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHUserEngagementFalseTriggerMitigationScoreGenerated : SISchemaInstrumentationMessage
 {
     float _uemScore;
-    float _uemThreshold;
-    struct {
-        unsigned int uemScore:1;
-        unsigned int uemThreshold:1;
-    } _has;
 }
 
 - (float);
@@ -25,14 +18,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)EC_POINT_set_affine_coordinates_GF2m;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (id)0@ù
 × ;
@@ -40,11 +33,7 @@
 - (id)ctDetected",&,N,V_voiceTriggerRejectDetected;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUemScore;
-@property(nonatomic) _Bool hasUemThreshold;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float uemScore; // @synthesize uemScore=_uemScore;
-@property(nonatomic) float uemThreshold; // @synthesize uemThreshold=_uemThreshold;
 
 @end
 

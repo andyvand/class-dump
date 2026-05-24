@@ -11,7 +11,6 @@
 @interface ICAttachmentDrawingModel : ICAttachmentModel
 {
     ICDrawingVersionedDocument *_drawingDocument;
-    _Bool _observingAttachment;
 }
 
 @end

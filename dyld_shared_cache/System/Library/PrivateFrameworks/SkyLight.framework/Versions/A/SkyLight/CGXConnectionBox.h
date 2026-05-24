@@ -163,7 +163,7 @@ __attribute__((visibility("hidden")))
     } *_connection;
 }
 
-- (void);
+- (void)ntarray values.;
 - (id);
 - (struct CGXConnection *);
 - (void);

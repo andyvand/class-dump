@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSDampeningConfigurationMO, DRSDampeningManagerMO, NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSTeamDampeningConfigurationMO
 {
 }
 
-+ (id);
++ (id)hideEmptySectionsContextInstance;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *categoryConfigurations; // @dynamic categoryConfigurations;
-@property(retain, nonatomic) DRSDampeningConfigurationMO *defaultConfiguration; // @dynamic defaultConfiguration;
-@property(retain, nonatomic) DRSDampeningManagerMO *parentDampeningManager; // @dynamic parentDampeningManager;
 @property(copy, nonatomic) NSString *teamID; // @dynamic teamID;
 
 @end

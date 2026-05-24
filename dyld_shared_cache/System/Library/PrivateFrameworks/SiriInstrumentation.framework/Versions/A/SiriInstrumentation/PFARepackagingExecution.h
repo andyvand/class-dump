@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PFAClockEnvelopeStatistics, PFARepackagingExecutionResult, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PFARepackagingExecution : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_clockIdentifier;
-    PFAClockEnvelopeStatistics *_envelopeStatistics;
-    PFARepackagingExecutionResult *_result;
-    _Bool _hasClockIdentifier;
-    _Bool _hasEnvelopeStatistics;
-    _Bool _hasResult;
 }
 
 - (void);
@@ -32,28 +27,22 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
-- (_Bool);
+- (_Bool)sibling files of %@ in %@;
 - (id);
 - (id)1Â0@ù
 × ;
 - (_Bool)ntDaemonLoadedTimestampInNs"b1"isFirstRequest"b1};
-- (void)etHasRecencyOrderOfAppUsageFromSiri:(_Bool)arg1;
-- (id)sResolved;
+- (void)setHasRecencyOrderOfAppUsageFromSiri:(_Bool)arg1;
+- (id)_hasNumberOfContactsResolved;
 - (id)dioRecordingInterruptionContext;
 - (id)8;
-- (void)ASE_SELECTION;
-- (void)Autoshortcut;
+- (void)UEIVOICECOMMANDTYPE_LOWERCASE_SELECTION;
+- (void)isAutoshortcut;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(retain, nonatomic) PFAClockEnvelopeStatistics *envelopeStatistics; // @synthesize envelopeStatistics=_envelopeStatistics;
-@property(nonatomic) _Bool hasClockIdentifier; // @synthesize hasClockIdentifier=_hasClockIdentifier;
-@property(nonatomic) _Bool hasEnvelopeStatistics; // @synthesize hasEnvelopeStatistics=_hasEnvelopeStatistics;
-@property(nonatomic) _Bool hasResult; // @synthesize hasResult=_hasResult;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PFARepackagingExecutionResult *result; // @synthesize result=_result;
 
 @end
 

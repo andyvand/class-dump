@@ -5,16 +5,15 @@
 //
 
 @protocol _INPBRecurrenceValue
+- (int)a~;
+- (void)`;
+- (int);
+- (void)isBefore:(_Bool)arg1;
+- (_Bool)c;
+- (void)_tempUserSettingMap;
 - (int)pwatch;
 
 // Remaining properties
 @property(nonatomic) int frequency;
-@property(nonatomic) _Bool hasFrequency;
-@property(nonatomic) _Bool hasInterval;
-@property(nonatomic) _Bool hasOrdinal;
-@property(nonatomic) unsigned long long interval;
-@property(nonatomic) long long ordinal;
-@property(readonly, nonatomic) int *weeklyRecurrenceDays;
-@property(readonly, nonatomic) unsigned long long weeklyRecurrenceDaysCount;
 @end
 

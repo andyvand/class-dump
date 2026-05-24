@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSimpleRestaurantMenuText
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_menuGroups;
 }
 
 - (id);
-- (void);
+- (void)_externalCondition;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"has_enableIncidents"b1"read_unknownFields"b1"read_avoidedModes"b1"read_fareOptions"b1"wrote_anyField"b1};
-- (id)ap;
+- (id)_reservedMap;
 - (id)/Ô/ø0h1;
 - (void)}^ñÔ#I@;
 

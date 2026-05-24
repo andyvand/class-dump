@@ -6,28 +6,24 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CKSQLiteReferencedDictionaryValueEntry : CKSQLiteTableEntry
 {
     NSNumber *_primaryKey;
-    NSString *_key;
-    NSString *_value;
 }
 
 + (Class);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)neWithIDWasDeletedBlock_wrapper:(id)arg1;
+- (id)model type doesn't support multi-function syntax.;
+- (id);
+- (id)B;
+- (void)setRecordZoneWithIDWasDeletedBlock_wrapper:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 @property(retain, nonatomic) NSNumber *primaryKey; // @synthesize primaryKey=_primaryKey;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

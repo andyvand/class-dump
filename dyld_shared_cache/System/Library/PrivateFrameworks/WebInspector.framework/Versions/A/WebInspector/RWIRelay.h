@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_xpc_object, RWIRelayDelegate;
+@class NSMutableDictionary, NSObject;
+@protocol OS_xpc_object;
 
 @interface RWIRelay
 {
     NSObject<OS_xpc_object> *_xpcApplicationListenConnection;
-    NSMutableArray *_pendingClientConnections;
-    NSMutableDictionary *_pendingProxyApplicationConnections;
-    NSMutableArray *_automaticInspectionDebuggers;
-    NSMutableDictionary *_automaticInspectionSessions;
-    id <RWIRelayDelegate> _delegate;
-    NSMutableDictionary *_applicationConnections;
-    NSMutableDictionary *_clientConnections;
-    NSMutableDictionary *_driverInterfaces;
 }
 
 - (void);
@@ -35,6 +27,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)⒗;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -52,46 +57,23 @@
 - (void);
 - (void);
 - (void);
+- (void)qA;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)7: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)HeaderTextWithErrorCallback:successCallback:ruleId:headerText: /* Error: Ran out of types for this method. */;
+- (void)setGroupingHeaderTextWithErrorCallback:successCallback:ruleId:headerText: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *applicationConnections; // @synthesize applicationConnections=_applicationConnections;
-@property(readonly, nonatomic) NSMutableDictionary *clientConnections; // @synthesize clientConnections=_clientConnections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <RWIRelayDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *driverInterfaces; // @synthesize driverInterfaces=_driverInterfaces;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

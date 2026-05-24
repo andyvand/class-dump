@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSExtensionIdentity, CHSWidgetRelevanceKey, NSArray, NSString;
+@class CHSWidgetRelevanceKey;
 
 @interface CHSWidgetRelevanceProperties
 {
     CDUnknownBlockType _relevanceFunction;
-    _Bool _supportsBackgroundRefresh;
-    CHSExtensionIdentity *_extensionIdentity;
-    NSString *_kind;
-    double _lastRelevanceUpdate;
 }
 
 + (_Bool);
@@ -27,7 +23,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (id);
 - (_Bool);
@@ -35,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CHSExtensionIdentity *extensionIdentity; // @synthesize extensionIdentity=_extensionIdentity;
 @property(readonly, nonatomic) CHSWidgetRelevanceKey *key;
-@property(readonly, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) double lastRelevanceUpdate; // @synthesize lastRelevanceUpdate=_lastRelevanceUpdate;
-@property(readonly, nonatomic) NSArray *relevances;
-@property(readonly, nonatomic) _Bool supportsBackgroundRefresh; // @synthesize supportsBackgroundRefresh=_supportsBackgroundRefresh;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioPlaylistURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

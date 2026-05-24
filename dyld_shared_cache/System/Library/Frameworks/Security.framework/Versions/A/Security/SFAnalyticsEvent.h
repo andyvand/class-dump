@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SFAnalyticsEvent
 {
     NSDictionary *_record;
-    NSNumber *_timestamp;
 }
 
 - (id);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *record; // @synthesize record=_record;
-@property(readonly, nonatomic) NSNumber *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

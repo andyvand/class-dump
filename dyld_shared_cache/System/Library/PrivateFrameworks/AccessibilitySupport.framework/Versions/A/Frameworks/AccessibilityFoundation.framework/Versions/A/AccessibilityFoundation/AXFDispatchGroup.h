@@ -14,12 +14,12 @@
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)__kIMAVChatParticipantWasRemovedNotification;
 - (void);
 
 // Remaining properties

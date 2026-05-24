@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSPredicate, NSString, _CDInteractionStore;
+@class NSMutableDictionary, _CDInteractionStore;
 
 @interface _CDPInteractionStoreDataHarvester
 {
     NSMutableDictionary *_identifierToContactMap;
-    _CDInteractionStore *_store;
-    NSPredicate *_predicate;
-    NSArray *_interactions;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)g*;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *interactions; // @synthesize interactions=_interactions;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(retain, nonatomic) _CDInteractionStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

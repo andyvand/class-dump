@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSColor, NSMutableArray, NSString;
-@protocol PKFingerprintGlyphViewDelegate;
+@class CALayer, NSColor;
 
 @interface PKFingerprintGlyphView
 {
     CALayer *_backgroundLayer;
-    CALayer *_foregroundLayer;
-    CALayer *_foregroundRingContainerLayer;
-    NSArray *_backgroundShapeLayers;
-    NSArray *_foregroundShapeLayers;
-    NSArray *_foregroundRingShapeLayers;
-    CALayer *_maskLayer;
-    CALayer *_maskForegroundLayer;
-    unsigned long long _transitionIndex;
-    _Bool _transitioning;
-    long long _priorState;
-    NSMutableArray *_transitionCompletionHandlers;
-    double _lastAnimationWillFinish;
-    _Bool _rotatingRing;
-    NSString *_rotationAnimationKey;
-    _Bool _fadeOnRecognized;
-    NSColor *_primaryColor;
-    NSColor *_secondaryColor;
-    long long _state;
-    CALayer *_contentLayer;
-    id <PKFingerprintGlyphViewDelegate> _delegate;
 }
 
 - (void);
@@ -42,7 +21,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -56,18 +35,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)˿;
 - (void);
 - (void);
 - (void);
 - (double);
 - (struct CGSize);
-- (void);
-- (void);
+- (void)tings initWithRequestKey:(id)arg1 responseKey:fallbackURL:userID:storefrontID:bundleID:deviceInfo:debugOverrides:useBackgroundRefreshRate:backgroundFetchConfiguration:requestMode:endpointTimeoutDuration:fallbackTimeoutDuration:] /* Error: Ran out of types for this method. */;
+- (void)dRoots/4~CNqHugAZFljHxK65KC8Q50xspTFx-2RiV9oW8As/Library/Caches/com.apple.xbs/TemporaryDirectory.cih6IQ/Sources/RemoteConfiguration/RemoteConfiguration/Utilities/RCAsyncBlockOperation.m;
+- (id)indexOfObject: /* Error: Ran out of types for this method. */;
+- (void)der";
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)wser for a plugin when the app cards feature flag is disabled. Bailing;
 - (id);
 - (id);
 - (void);
@@ -75,23 +54,11 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CALayer *contentLayer; // @synthesize contentLayer=_contentLayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKFingerprintGlyphViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fadeOnRecognized; // @synthesize fadeOnRecognized=_fadeOnRecognized;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSColor *primaryColor; // @synthesize primaryColor=_primaryColor;
-@property(copy, nonatomic) NSColor *secondaryColor; // @synthesize secondaryColor=_secondaryColor;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

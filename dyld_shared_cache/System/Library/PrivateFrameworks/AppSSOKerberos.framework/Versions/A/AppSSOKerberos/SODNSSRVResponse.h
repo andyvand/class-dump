@@ -9,11 +9,10 @@
 @interface SODNSSRVResponse
 {
     unsigned short _port;
-    NSString *_host;
 }
 
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (unsigned short);
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *host; // @synthesize host=_host;
-@property(nonatomic) unsigned short port; // @synthesize port=_port;
 
 @end
 

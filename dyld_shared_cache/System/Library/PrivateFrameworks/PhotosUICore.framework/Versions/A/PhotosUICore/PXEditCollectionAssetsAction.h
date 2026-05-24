@@ -6,23 +6,19 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSIndexSet, PHAssetCollection, PHFetchResult;
+@class PHAssetCollection;
 @protocol PXFastEnumeration;
 
 @interface PXEditCollectionAssetsAction : PXPhotosAction
 {
     PHAssetCollection *_assetCollection;
-    id <PXFastEnumeration> _assetsToAdd;
-    id <PXFastEnumeration> _assetsToRemove;
-    NSIndexSet *_assetsToRemoveUndoIndexes;
-    PHFetchResult *_assetCollectionUndoFetchResult;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)/;
 - (id);
 - (id);
 - (id);
@@ -32,11 +28,7 @@
 - (void)DW&ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(retain, nonatomic) PHFetchResult *assetCollectionUndoFetchResult; // @synthesize assetCollectionUndoFetchResult=_assetCollectionUndoFetchResult;
 @property(readonly, nonatomic) id <PXFastEnumeration> assetsToAdd; // @synthesize assetsToAdd=_assetsToAdd;
-@property(readonly, nonatomic) id <PXFastEnumeration> assetsToRemove; // @synthesize assetsToRemove=_assetsToRemove;
-@property(readonly, nonatomic) NSIndexSet *assetsToRemoveUndoIndexes; // @synthesize assetsToRemoveUndoIndexes=_assetsToRemoveUndoIndexes;
 
 @end
 

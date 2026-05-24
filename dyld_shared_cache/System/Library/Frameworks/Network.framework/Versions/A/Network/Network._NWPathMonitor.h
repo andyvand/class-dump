@@ -7,7 +7,6 @@
 @interface Network._NWPathMonitor
 {
     id lock;
-    id _nw;
 }
 
 @end

@@ -11,7 +11,7 @@
     _DASSystemContext *_context;
 }
 
-- (id);
+- (id)endeldarmbeklimmertjes;
 - (void);
 
 @end

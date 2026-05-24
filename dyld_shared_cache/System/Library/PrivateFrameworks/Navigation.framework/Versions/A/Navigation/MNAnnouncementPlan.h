@@ -10,31 +10,25 @@ __attribute__((visibility("hidden")))
 @interface MNAnnouncementPlan
 {
     NSMutableArray *_plannedEvents;
-    NSArray *_events;
-    double _distance;
-    double _speed;
 }
 
-+ (double);
++ (double)Z7gP;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (double)N;
 - (void);
 - (double);
-- (void);
-- (double);
-- (id);
+- (id)C;
 - (void)Info"28Q36;
-- (void)tionWithDeterminedAuthorization;
+- (void)_startUpdatingLocationWithDeterminedAuthorization;
 
 // Remaining properties
-@property(nonatomic) double distance; // @synthesize distance=_distance;
 @property(retain, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(retain, nonatomic) NSMutableArray *plannedEvents; // @synthesize plannedEvents=_plannedEvents;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
 
 @end
 

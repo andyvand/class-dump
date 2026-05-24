@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol NSPersistentUIStorageClient
+- (void);
+- (NSData *)g;
+- (void)vEX8QIlAusf4ew;
+- (void);
+- (void)rCookies;
 @end
 

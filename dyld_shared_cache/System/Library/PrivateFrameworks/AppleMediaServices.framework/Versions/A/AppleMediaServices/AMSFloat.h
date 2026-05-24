@@ -14,8 +14,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setIsMonitoring:(id)arg1;
+- (void)\h\;
 - (float);
 
 // Remaining properties

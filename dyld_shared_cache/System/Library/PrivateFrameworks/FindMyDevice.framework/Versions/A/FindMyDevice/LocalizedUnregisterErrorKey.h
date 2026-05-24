@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface LocalizedUnregisterErrorKey
 {
     long long _responseErrorType;
-    unsigned long long _context;
-    long long _deviceClass;
 }
 
-- (void);
-- (long long);
+- (void)trollerDelegate>";
+- (long long)}32@168;
+- (id){_PKStrokePoint=d{CGPoint=dd}ddddddddd}60@0:8{PKCompressedStrokePoint={_PKPoint=ff}ffSSSSSSfS}16d52 /* Error: Ran out of types for this method. */;
+- (id)d16B24;
+- (id)0:(unsigned long long)arg1 8r*16@24;
+- (id)ck"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (id)luesOverLimit"q"oldM"d"newM"d"oldS"d"newS"d"minValue"d"maxValue"d"limit"d"lock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(nonatomic) long long deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(readonly, nonatomic) NSString *okButtonKey;
 @property(nonatomic) long long responseErrorType; // @synthesize responseErrorType=_responseErrorType;
-@property(readonly, nonatomic) NSString *textKey;
-@property(readonly, nonatomic) NSString *titleKey;
 
 @end
 

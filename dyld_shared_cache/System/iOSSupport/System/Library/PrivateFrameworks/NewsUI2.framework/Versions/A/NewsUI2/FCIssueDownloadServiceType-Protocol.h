@@ -5,5 +5,6 @@
 //
 
 @protocol FCIssueDownloadServiceType
+- (long long)[Internal];
 @end
 

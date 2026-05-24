@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)this thread = %p, this mach thread = %u;
 
 @end
 

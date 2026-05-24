@@ -11,15 +11,12 @@
 @interface FCCKPrivateFetchRecordsOperation : FCCKPrivateDatabaseOperation
 {
     NSArray *_recordIDs;
-    NSArray *_desiredKeys;
-    CDUnknownBlockType _fetchRecordsCompletionBlock;
-    NSDictionary *_resultRecordsByRecordID;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)tionary *FCReadDictionary(NSURL *__strong, NSSet<Class> *__strong);
 - (void)Manager.m;
@@ -30,9 +27,6 @@
 - (_Bool),Îÿs;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordsCompletionBlock; // @synthesize fetchRecordsCompletionBlock=_fetchRecordsCompletionBlock;
-@property(copy, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
 @property(retain, nonatomic) NSDictionary *resultRecordsByRecordID; // @synthesize resultRecordsByRecordID=_resultRecordsByRecordID;
 
 @end

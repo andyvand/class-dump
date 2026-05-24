@@ -9,7 +9,7 @@
     unsigned long long _tokenValue;
 }
 
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (id);

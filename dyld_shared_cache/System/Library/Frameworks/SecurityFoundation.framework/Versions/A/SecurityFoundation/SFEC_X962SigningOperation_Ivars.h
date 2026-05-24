@@ -5,13 +5,11 @@
 //
 
 @class _SFECKeySpecifier;
-@protocol SFDigestOperationInternal;
 
 __attribute__((visibility("hidden")))
 @interface SFEC_X962SigningOperation_Ivars
 {
     _SFECKeySpecifier *keySpecifier;
-    id <SFDigestOperationInternal> digestOperation;
 }
 
 - (void);

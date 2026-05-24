@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol HMDNetworkRouterFirewallRuleManager
+- (void);
+- (void)captureUgcDeleteWithSignature:(NSSet *)arg1 certificates:(void (^)(NSSet *, NSError *))arg2 sessionSnapshot:trigger:queue:completion: /* Error: Ran out of types for this method. */;
+- (void)blockingIncident;
 @end
 

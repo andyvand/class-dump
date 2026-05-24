@@ -13,10 +13,6 @@
 - (OS_dispatch_queue *)s();
 
 // Remaining properties
-@property(readonly, retain, nonatomic) OS_dispatch_queue *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"OS_dispatch_queue",?,R,&,N
-
 @property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @end
 

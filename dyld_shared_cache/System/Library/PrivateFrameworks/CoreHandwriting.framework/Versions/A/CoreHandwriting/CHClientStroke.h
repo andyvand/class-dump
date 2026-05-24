@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHEncodedStrokeIdentifier, NSString;
-@protocol CHStrokeIdentifier;
-
 @interface CHClientStroke
 {
     struct CHClientStrokePoint *_points;
-    _Bool _isFinished;
-    double _startTimestamp;
-    double _endTimestamp;
-    long long _identifier;
-    unsigned long long _pointsCount;
-    long long _type;
-    unsigned long long _strokeAttributes;
-    unsigned long long _pointsCapacity;
-    CHEncodedStrokeIdentifier *_encodedStrokeIdentifier;
-    struct CGRect _boundingBox;
 }
 
 + (id);
@@ -35,21 +22,21 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (id)r) **;
 - (id);
-- (id);
-- (id);
+- (id)M;
 - (void);
 - (void);
 - (id);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (struct CHClientStrokePoint);
 - (void);
-- (void);
+- (void)PECLocationAnalysis;
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (struct CGRect);
 - (unsigned long long);
@@ -63,24 +50,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CHEncodedStrokeIdentifier *encodedStrokeIdentifier; // @synthesize encodedStrokeIdentifier=_encodedStrokeIdentifier;
-@property(readonly, nonatomic) double endTimestamp; // @synthesize endTimestamp=_endTimestamp;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;
-@property(nonatomic) unsigned long long pointsCapacity; // @synthesize pointsCapacity=_pointsCapacity;
-@property(nonatomic) unsigned long long pointsCount; // @synthesize pointsCount=_pointsCount;
-@property(readonly, nonatomic) double startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(nonatomic) unsigned long long strokeAttributes; // @synthesize strokeAttributes=_strokeAttributes;
-@property(readonly, nonatomic) id <CHStrokeIdentifier> strokeIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

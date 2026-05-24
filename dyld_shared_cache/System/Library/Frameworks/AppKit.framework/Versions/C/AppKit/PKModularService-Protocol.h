@@ -9,6 +9,7 @@
 @protocol PKModularService
 
 @optional
++ (id <PKModularService>);
 + (id <PKModularService>)0@ù
 × ;
 - (void);

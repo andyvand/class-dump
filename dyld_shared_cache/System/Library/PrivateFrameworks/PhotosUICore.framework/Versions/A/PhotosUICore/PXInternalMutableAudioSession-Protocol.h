@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber;
-
 @protocol PXInternalMutableAudioSession
-- (long long);
+- (void);
+- (CDStruct_1b6d18a9)shouldOccludeAccessibilityElement: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool)kflowViewModelKey;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *contentLoudnessInLKFS;
-@property(retain, nonatomic) NSNumber *contentPeakDecibels;
-@property(nonatomic) CDStruct_1b6d18a9 duration;
-@property(retain, nonatomic) NSError *error;
-@property(nonatomic) _Bool isReadyToPlay;
 @property(nonatomic) long long status;
 @end
 

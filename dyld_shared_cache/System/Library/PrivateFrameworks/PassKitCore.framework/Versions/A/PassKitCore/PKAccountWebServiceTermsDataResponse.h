@@ -6,24 +6,22 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface PKAccountWebServiceTermsDataResponse : PKAccountWebServiceResponse
 {
     NSData *_termsData;
-    NSString *_termsDataFileName;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)*;
 - (void);
-- (void);
-- (id);
-- (void)mpt;
+- (void)c;
+- (id)$;
+- (void)cardProvisioningPrompt;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *termsData; // @synthesize termsData=_termsData;
-@property(copy, nonatomic) NSString *termsDataFileName; // @synthesize termsDataFileName=_termsDataFileName;
 
 @end
 

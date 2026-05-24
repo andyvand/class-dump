@@ -10,7 +10,6 @@
 @interface _PXStoryPreloadingControllerInfo
 {
     PXObservable<PXStoryResourcesPreloadingCoordinatable> *_preloadingController;
-    long long _priority;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PXObservable<PXStoryResourcesPreloadingCoordinatable> *preloadingController; // @synthesize preloadingController=_preloadingController;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
 
 @end
 

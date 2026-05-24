@@ -6,14 +6,11 @@
 
 #import <WiFiPolicy/WiFiUsageLQMSample.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface WiFiUsageLQMKernelSampleScanSummary : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
-    unsigned long long _scanDurationMS;
-    NSString *_scanClient;
 }
 
 + (id);
@@ -24,16 +21,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (double);
+- (double)navigationController:interactionControllerForAnimationController: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSString *scanClient; // @synthesize scanClient=_scanClient;
-@property(nonatomic) unsigned long long scanDurationMS; // @synthesize scanDurationMS=_scanDurationMS;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

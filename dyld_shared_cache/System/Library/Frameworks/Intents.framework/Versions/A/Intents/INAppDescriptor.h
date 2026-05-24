@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL;
-
 @interface INAppDescriptor
 {
     _Bool _requiresUserConfirmation;
-    NSString *_localizedName;
-    NSString *_bundleIdentifier;
-    NSString *_extensionBundleIdentifier;
-    NSString *_teamIdentifier;
-    NSSet *_counterpartIdentifiers;
-    NSSet *_supportedIntents;
-    NSSet *_documentTypes;
-    NSURL *_bundleURL;
 }
 
 + (_Bool);

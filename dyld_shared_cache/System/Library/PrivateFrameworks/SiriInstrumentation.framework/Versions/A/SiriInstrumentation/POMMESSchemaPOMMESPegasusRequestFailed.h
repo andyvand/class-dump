@@ -6,52 +6,40 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESPegasusRequestArguments;
-
 @interface POMMESSchemaPOMMESPegasusRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    POMMESSchemaPOMMESPegasusRequestArguments *_requestArguments;
-    unsigned int _errorCode;
-    CDStruct_73fa2281 _has;
-    _Bool _hasRequestArguments;
 }
 
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (int);
+- (int)requesting walking background route because the navigation session state's location is invalid.;
 - (_Bool);
 - (id);
 - (void);
+- (void)eue;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long).apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobManifest_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)bK;
+- (_Bool)nsfer_state %@ with success %@;
 - (void);
 - (id);
 - (id);
-- (id)w_bytes;
+- (id)_raw_bytes;
 - (id)nuous;
-- (void)NTYPE_UNKNOWN;
-- (void)IAPLAYERSETAIRPLAYROUTESSTATUS_FAILURE_UNKNOWN;
+- (void)MHTRPDETECTIONTYPE_UNKNOWN;
+- (void)FLOWMEDIAPLAYERSETAIRPLAYROUTESSTATUS_FAILURE_UNKNOWN;
 - (void)ambiguation.items.value.enumeration.typeIdentifier.custom.bundleId;
 - (unsigned int)Q#;
 
 // Remaining properties
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasRequestArguments; // @synthesize hasRequestArguments=_hasRequestArguments;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusRequestArguments *requestArguments; // @synthesize requestArguments=_requestArguments;
 
 @end
 

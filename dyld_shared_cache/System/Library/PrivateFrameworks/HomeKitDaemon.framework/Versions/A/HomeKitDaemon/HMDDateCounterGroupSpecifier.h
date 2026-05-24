@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (unsigned long long);

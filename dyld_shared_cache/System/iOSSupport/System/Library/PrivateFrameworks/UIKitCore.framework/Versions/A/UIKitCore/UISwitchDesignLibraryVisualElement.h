@@ -12,37 +12,27 @@ __attribute__((visibility("hidden")))
 @interface UISwitchDesignLibraryVisualElement : UISwitchVisualElement
 {
     id isOn;
-    id isPressed;
-    id tapSeed;
-    id customizations;
-    id coreHostingView;
-    id gestureTrackingSession;
-    id longPressGestureRecognizer;
-    id panGestureRecognizer;
-    id tapGestureRecognizer;
-    id selectGestureRecognizer;
-    id feedbackGenerator;
 }
 
-+ (struct CGSize)n:subrangeIndex: /* Error: Ran out of types for this method. */;
++ (struct CGSize)targetedPreviewForTextAnimation:subrangeIndex: /* Error: Ran out of types for this method. */;
 + (_Bool)tableSceneClientSettings<_UISceneHostingContentSizePreferenceClientSettings>"8;
-- (id);
+- (id)_isShareBearURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)o do, but is cancelled;
+- (void)t, but has %ld participants. Not repairing participants.;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)setRefinedKeypointsBuffer:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void)× ;
 - (void)ableView"16@"NSArray"24;
 - (void)erDelegate>";
-- (void)ews;
-- (void)hBundleIdentifier:(id)arg1 flags:reason:name: /* Error: Ran out of types for this method. */;
-- (_Bool)lowsDragEventsToPassthrough;
+- (void)restoringInputViews;
+- (void)initWithBundleIdentifier:(id)arg1 flags:reason:name: /* Error: Ran out of types for this method. */;
+- (_Bool)allowsDragEventsToPassthrough;
 - (id)riority:(struct CGRect)arg1;
 - (_Bool)T@"_UINavigationInteractiveTransitionBase",W,N,V_interactionController;
 - (_Bool)@"NSString",R,C,N,V_customizationIdentifier;

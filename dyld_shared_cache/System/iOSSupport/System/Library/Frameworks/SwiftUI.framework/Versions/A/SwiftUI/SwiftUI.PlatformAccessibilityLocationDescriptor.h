@@ -6,27 +6,21 @@
 
 #import <SwiftUI/SwiftUIAccessibilityLocationDescriptor.h>
 
-@class NSAttributedString, NSString, UIView;
+@class UIView;
 
 @interface SwiftUI.PlatformAccessibilityLocationDescriptor : SwiftUIAccessibilityLocationDescriptor
 {
     id activationPoint;
-    id kind;
-    id resolveLabel;
-    id node;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)trackCollaborationActionSecondShareForObject:share:isInviting: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGPoint)ô±;
 - (void)ýÇþ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSAttributedString *attributedName;
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) struct CGPoint point;
 @property(nonatomic, readonly) UIView *view;
 
 @end

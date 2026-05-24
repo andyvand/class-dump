@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSServiceManager, PGGraphLocationHelper;
+@class PGGraphLocationHelper;
 
 @interface PGTitleSpecArgumentEvaluationContext
 {
     PGGraphLocationHelper *_locationHelper;
-    CLSServiceManager *_serviceManager;
 }
 
 - (id);
 - (id);
-- (void)hUpdate;
+- (void)PGGraphDataModelEnrichmentContextLiveIncrementalGraphUpdate;
 - (id)sentativeAssetQuestionFactory.m;
 
 // Remaining properties
 @property(readonly) PGGraphLocationHelper *locationHelper; // @synthesize locationHelper=_locationHelper;
-@property(readonly) CLSServiceManager *serviceManager; // @synthesize serviceManager=_serviceManager;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXEditCompositionAction.h>
 
-@class NSNumber, NSString, NUComposition;
+@class NSString;
 
 @interface PXEditAdjustmentAction : PXEditCompositionAction
 {
     NSString *_adjustmentKey;
-    NSNumber *_targetValue;
-    NUComposition *_sourceComposition;
-    NUComposition *_targetComposition;
 }
 
 + (id);
@@ -23,12 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *adjustmentKey; // @synthesize adjustmentKey=_adjustmentKey;
-@property(readonly, nonatomic) NSNumber *targetValue; // @synthesize targetValue=_targetValue;
 
 @end
 

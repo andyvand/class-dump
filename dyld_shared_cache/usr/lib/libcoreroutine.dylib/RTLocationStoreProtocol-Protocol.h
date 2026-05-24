@@ -5,5 +5,8 @@
 //
 
 @protocol RTLocationStoreProtocol
+- (void);
+- (void)Q;
+- (void)people-request-messages-v3;
 @end
 

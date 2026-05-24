@@ -8,18 +8,12 @@ __attribute__((visibility("hidden")))
 @interface _UIDocumentCarouselViewLayoutAttributes
 {
     _Bool _userInteractionEnabled;
-    double _zIndex;
-    double _alpha;
-    struct CGPoint _center;
-    struct CGSize _size;
-    struct NSDirectionalEdgeInsets _directionalLayoutMargins;
-    struct CGAffineTransform _transform;
 }
 
 - (_Bool);
-- (id);
+- (id)s;
 - (void);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)sing mapping for MPModelPropertySongHasCredits;
 - (id);
 - (struct CGSize)!!ÌBù^1Â0@ù
 × ;
@@ -37,13 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)a¢Ðva;
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
 @property(nonatomic) struct CGPoint center; // @synthesize center=_center;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins; // @synthesize directionalLayoutMargins=_directionalLayoutMargins;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
-@property(nonatomic) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
-@property(nonatomic) double zIndex; // @synthesize zIndex=_zIndex;
 
 @end
 

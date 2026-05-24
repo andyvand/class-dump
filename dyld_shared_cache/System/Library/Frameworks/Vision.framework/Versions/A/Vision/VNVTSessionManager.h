@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VNVTSessionManager
 {
     struct unique_ptr<SessionsHandler<VNVTPixelTransferSession>, std::default_delete<SessionsHandler<VNVTPixelTransferSession>>> _pixelTransferSessionsHandler;
-    struct unique_ptr<SessionsHandler<VNVTPixelRotationSession>, std::default_delete<SessionsHandler<VNVTPixelRotationSession>>> _pixelRotationSessionsHandler;
-    unsigned long long _maxSessionsCount;
 }
 
 - (id);

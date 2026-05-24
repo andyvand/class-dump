@@ -11,19 +11,19 @@
     id _values;
 }
 
-+ (id);
-+ (id);
++ (id)dateRangeTitleWithStartDate:(id)arg1 endDate:(id)arg2 category:kind:type:options: /* Error: Ran out of types for this method. */;
++ (id)%{public}@, with fileID:(id)arg1 %lld, expected at url:(id)arg2 %@;
 + (_Bool);
 - (id);
-- (id);
+- (id)CHRecentCallOriginatingUITypeRecentsSearchCall;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void)vision:(id)arg1 revisionTrackingCode:(Class)arg2 usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)";
+- (void)enumerateAlbumArtistPersistentIDsAfterRevision:(id)arg1 revisionTrackingCode:(Class)arg2 usingBlock: /* Error: Ran out of types for this method. */;
 - (void)WHERE ROWID;
 
 // Remaining properties

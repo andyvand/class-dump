@@ -5,5 +5,10 @@
 //
 
 @protocol SWScriptsManager
+- (void)A;
+- (void);
+- (void)monitorPanel;
+- (void)workflow;
+- (void)o read the System Configuration file at %@;
 @end
 

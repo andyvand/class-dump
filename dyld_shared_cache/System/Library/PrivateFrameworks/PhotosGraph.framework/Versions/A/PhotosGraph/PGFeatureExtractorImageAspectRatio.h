@@ -13,8 +13,8 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id)sedFriend;
+- (id)requestDidSucceed;
+- (id)PGSharingSuggestionSourceTimeBasedFriend;
 
 @end
 

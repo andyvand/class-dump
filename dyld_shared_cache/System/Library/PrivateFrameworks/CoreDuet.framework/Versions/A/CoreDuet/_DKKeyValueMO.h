@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 @interface _DKKeyValueMO
 {
@@ -14,8 +14,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain; // @dynamic domain;
-@property(copy, nonatomic) NSString *key; // @dynamic key;
-@property(retain, nonatomic) NSObject *value; // @dynamic value;
 
 @end
 

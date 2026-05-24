@@ -4,45 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKAnnotationView, NSString, VKCustomFeature;
+@class VKCustomFeature;
 
 __attribute__((visibility("hidden")))
 @interface _MKAnnotationViewCustomFeatureAnnotation
 {
     VKCustomFeature *_customFeature;
-    MKAnnotationView *_annotationView;
-    struct {
-        double latitude;
-        double longitude;
-    } _coordinate;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)c;
 - (id);
 - (void);
-- (CDStruct_c3b9c2ee);
-- (void)er: /* Error: Ran out of types for this method. */;
+- (CDStruct_c3b9c2ee)invalid chat GUID %@ during history load;
+- (void)getMetadataWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id)ion updates;
 
 // Remaining properties
-@property(nonatomic) __weak MKAnnotationView *annotationView; // @synthesize annotationView=_annotationView;
-@property(nonatomic) CDStruct_c3b9c2ee coordinate; // @synthesize coordinate=_coordinate;
-@property(nonatomic) double course;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) VKCustomFeature *feature;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIMultiSelectInteraction, UIMultiSelectInteractionState, UITableView;
+@class UITableView;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewMultiSelectController
 {
     UITableView *_tableView;
-    UIMultiSelectInteraction *_multiSelectInteraction;
-    UIMultiSelectInteractionState *_currentSelectionState;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)@0:8@"MTLIntersectionFunctionDescriptor"16^@24 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)MPRequestResponseController.calloutQueue;
 - (void);
 - (_Bool);
 - (void);
@@ -29,20 +27,20 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)1Â0@ù
 × ;
-- (_Bool)pShadowColor;
-- (void)dTerminator:(struct CGPoint)arg1 outputHandledByCaller: /* Error: Ran out of types for this method. */;
-- (void)ransitionToNewViewController:(id)arg1 arrowDirections:(_Bool)arg2 slideDuration:expandDuration: /* Error: Ran out of types for this method. */;
+- (_Bool)tableGroupedTopShadowColor;
+- (void)acceptTextCompletionWithInteraction:(struct CGPoint)arg1 wordTerminator:outputHandledByCaller: /* Error: Ran out of types for this method. */;
+- (void)_beginMapsTransitionToNewViewController:(id)arg1 arrowDirections:(_Bool)arg2 slideDuration:expandDuration: /* Error: Ran out of types for this method. */;
 - (void)ilingToKeyboardShortcutLeading;
 - (void)@"UILexicon",&,N,V_recentInputs;
 - (void)ñ;
 - (void)Location;
 - (_Bool)rror = %@;
-- (_Bool)tyControl;
+- (_Bool)CHHapticDynamicParameterIDHapticIntensityControl;
 - (void)UITextFormattingViewControllerTextAlignmentRightComponent;
 - (void)g;
 - (void)faults;
 - (_Bool);
-- (_Bool)sFadeTransitionCSgXwz_Xx;
+- (_Bool)So25_UITabCrossFadeTransitionCSgXwz_Xx;
 - (void)7yà¿7Gt;
 - (void)tCXc_F03tG;
 - (_Bool)inkPresentation;
@@ -52,26 +50,16 @@ __attribute__((visibility("hidden")))
 - (id)_BlurClippingMode;
 - (void);
 - (void);
-- (void)isualEffect;
+- (void)UIVisualEffect;
 - (void);
 - (_Bool)23lÝ;
-- (_Bool)ponentSystemViewProviding;
+- (_Bool)UITransitionComponentSystemViewProviding;
 - (id)3Y«;
 - (void)}43 e;
 - (id),£[;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIMultiSelectInteractionState *currentSelectionState; // @synthesize currentSelectionState=_currentSelectionState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInMultiselectInteraction) _Bool inMultiselectInteraction;
-@property(retain, nonatomic) UIMultiSelectInteraction *multiSelectInteraction; // @synthesize multiSelectInteraction=_multiSelectInteraction;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UITableView *tableView; // @synthesize tableView=_tableView;
 
 @end

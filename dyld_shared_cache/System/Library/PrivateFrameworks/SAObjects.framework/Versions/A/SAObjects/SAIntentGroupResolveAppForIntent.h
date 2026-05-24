@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SAIntentGroupProtobufMessage;
+@class NSArray;
 
 @interface SAIntentGroupResolveAppForIntent : SABaseClientBoundCommand
 {
@@ -17,8 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *appsList;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *intent;
-@property(copy, nonatomic) NSString *jsonEncodedIntent;
 
 @end
 

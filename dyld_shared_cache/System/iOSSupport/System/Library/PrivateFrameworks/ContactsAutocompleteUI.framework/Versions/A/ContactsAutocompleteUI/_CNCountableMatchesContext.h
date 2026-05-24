@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface _CNCountableMatchesContext
 {
     NSMutableDictionary *_contactsCount;
-    long long _maxCount;
-    NSMutableSet *_highestMatches;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -21,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *highestMatches; // @synthesize highestMatches=_highestMatches;
 @property(nonatomic) long long maxCount; // @synthesize maxCount=_maxCount;
 
 @end

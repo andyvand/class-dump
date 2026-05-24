@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroup, ABRecordContext;
+@class ABAccount;
 
 @interface ABGroupActionScope
 {
     ABAccount *_account;
-    ABAddressBook *_addressBook;
-    ABRecordContext *_recordContext;
-    ABGroup *_group;
 }
 
 - (id);
@@ -22,13 +19,10 @@
 - (id);
 - (void)!`Fùª°1Â0@ù
 × ;
-- (id)UseFullScreenPresentationOptions: /* Error: Ran out of types for this method. */;
+- (id)window:willUseFullScreenPresentationOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) ABAccount *account; // @synthesize account=_account;
-@property(readonly) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(readonly) ABGroup *group; // @synthesize group=_group;
-@property(readonly) ABRecordContext *recordContext; // @synthesize recordContext=_recordContext;
 
 @end
 

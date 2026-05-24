@@ -9,18 +9,15 @@
 }
 
 + (id)Failed to get URL from message %@. Not informing Safety Monitor Manager;
-- (id);
-- (id);
-- (_Bool);
+- (id)So22_UIBarBackgroundLayoutCSg;
+- (id)SgXwz_Xx;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool isDeviceCharging;
-@property(readonly) _Bool isDeviceOnData;
-@property(readonly) _Bool isDeviceOnWifi;
-@property(readonly) _Bool isOnLowBandwidthCellular;
 
 @end
 

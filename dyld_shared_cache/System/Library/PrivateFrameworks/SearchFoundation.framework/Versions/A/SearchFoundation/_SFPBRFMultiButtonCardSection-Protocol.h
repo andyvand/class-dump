@@ -7,10 +7,10 @@
 @class NSArray, NSData;
 
 @protocol _SFPBRFMultiButtonCardSection
+- (NSArray *);
+- (NSData *)edDate;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *buttons;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int layoutType;
 @end
 

@@ -9,7 +9,6 @@
 @interface IDSCTPNRInfo
 {
     NSString *_PNRPhoneNumber;
-    NSString *_phoneBookNumber;
 }
 
 - (id);
@@ -19,10 +18,7 @@
 - (void)sbook.maintenance;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *IMSI;
 @property(readonly, nonatomic) NSString *PLMN;
-@property(readonly, nonatomic) NSString *PNRPhoneNumber; // @synthesize PNRPhoneNumber=_PNRPhoneNumber;
-@property(readonly, nonatomic) NSString *phoneBookNumber; // @synthesize phoneBookNumber=_phoneBookNumber;
 
 @end
 

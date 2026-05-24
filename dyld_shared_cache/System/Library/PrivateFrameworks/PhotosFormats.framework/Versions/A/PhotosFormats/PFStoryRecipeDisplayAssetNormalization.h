@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 @protocol _PFStoryRecipeDisplayAssetNormalizationData;
 
 @interface PFStoryRecipeDisplayAssetNormalization
@@ -15,27 +15,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_TtCO10Accelerate4BNNS20RandomGeneratorState;
+- (id)_TtCO10Accelerate4BNNS15CropResizeLayer;
 - (id);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)pStreamingAssetFromStreamingAsset:forCache: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (double);
-- (void);
+- (void)elapsedTime;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *analysisData;
-@property(readonly, nonatomic) NSString *detailedDescription;
-@property(readonly, nonatomic) NSDictionary *highKeyProperties;
-@property(readonly, nonatomic) double score;
-@property(readonly, nonatomic) NSDictionary *smartColorProperties;
-@property(readonly, nonatomic) NSDictionary *smartToneProperties;
-@property(readonly, nonatomic) NSDictionary *tempTintProperties;
-@property(readonly, nonatomic) long long version;
 
 @end
 

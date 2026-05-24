@@ -7,15 +7,6 @@
 @interface PromotedContent.AdContentSession
 {
     id clientRequestID;
-    id context;
-    id placement;
-    id diagnosticDelegate;
-    id commandManager;
-    id sessionBegan;
-    id completionLock;
-    id completion;
-    id completedWithError;
-    id missedOpportunityDueToSLA;
 }
 
 @end

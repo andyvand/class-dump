@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICNote, NSTextView;
+@class NSTextView;
 
 @interface ICCalculateScrubberController
 {
     id scrubber;
-    id numberLiteral;
-    NSTextView *textView;
-    ICNote *note;
-    id scrubberView;
-    id $__lazy_storage_$_hoverController;
-    id isBlockingMerge;
-    id isPausingUndoActions;
-    id viewController;
-    id popover;
 }
 
 - (void);
@@ -28,11 +19,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)shareDiscoverMoreVideosInfo;
 - (void);
 - (_Bool);
 - (void);
@@ -40,14 +31,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)16@?0@"JSValue"8;
 - (_Bool);
-- (void)letionHandlers;
+- (void)_completionHandlers;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isScrubbing;
-@property(nonatomic, readonly) _Bool isShowing;
-@property(nonatomic, retain) ICNote *note; // @synthesize note;
 @property(nonatomic, readonly) NSTextView *textView; // @synthesize textView;
 
 @end

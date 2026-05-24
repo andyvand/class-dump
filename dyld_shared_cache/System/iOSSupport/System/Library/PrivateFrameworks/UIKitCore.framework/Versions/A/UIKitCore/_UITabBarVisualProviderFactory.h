@@ -8,8 +8,8 @@
 {
 }
 
-+ (Class);
-- (id);
++ (Class)Tracking for %@, IDS timedout waiting for SSM completion;
+- (id)A	;
 
 @end
 

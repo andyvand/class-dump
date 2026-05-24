@@ -13,7 +13,7 @@
 
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long schemaInitializationOptions; // @synthesize schemaInitializationOptions=_schemaInitializationOptions;

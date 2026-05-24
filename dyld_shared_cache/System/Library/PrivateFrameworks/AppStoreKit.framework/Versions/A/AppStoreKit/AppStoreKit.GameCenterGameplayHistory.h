@@ -7,9 +7,6 @@
 @interface AppStoreKit.GameCenterGameplayHistory
 {
     id adamId;
-    id platformId;
-    id isArcade;
-    id records;
 }
 
 @end

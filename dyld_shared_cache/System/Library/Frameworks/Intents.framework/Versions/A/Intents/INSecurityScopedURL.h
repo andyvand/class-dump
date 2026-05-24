@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface INSecurityScopedURL
 {
     long long _accessCount;
-    struct os_unfair_lock_s _lock;
-    NSURL *_url;
 }
 
-- (void);
-- (_Bool);
+- (void))A;
+- (_Bool)�;
 - (id);
 - (id);
-- (void)ionNameOptionsCollectionForSetRadioStation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideStationNameOptionsCollectionForSetRadioStation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;

@@ -12,15 +12,15 @@
 + (void);
 + (long long);
 + (void);
-+ (void);
++ (void)>;
 + (const CDStruct_47876580 *);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (const CDStruct_47876580 *);
-+ (long long)ultCopyExtractedURLWithOptions;
++ (long long)DDResultCopyExtractedURLWithOptions;
 + (void)¤ ;
-- (id);
+- (id)+;
 
 @end
 

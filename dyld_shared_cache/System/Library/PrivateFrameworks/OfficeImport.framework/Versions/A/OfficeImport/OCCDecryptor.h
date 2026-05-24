@@ -10,22 +10,19 @@ __attribute__((visibility("hidden")))
 @interface OCCDecryptor
 {
     OITSUTemporaryDirectory *mTempDirectory;
-    NSString *mOutputFilename;
-    NSString *mBaseStringForOutputFilename;
-    struct OCCStreamer *mStreamer;
 }
 
 + (id);
 + (id);
-+ (id);
-- (_Bool);
++ (id)a;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

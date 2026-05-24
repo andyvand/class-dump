@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerResponse, MPModelGenericObject;
+@class MPCPlayerResponse;
 
 @interface MPCPlayerResponseSection
 {
     MPCPlayerResponse *_response;
-    MPModelGenericObject *_metadataObject;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)Queue and Play events (eventID:%{public}@ item:%{public}@ %{public}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MPModelGenericObject *metadataObject; // @synthesize metadataObject=_metadataObject;
 @property(readonly, nonatomic) __weak MPCPlayerResponse *response; // @synthesize response=_response;
 
 @end

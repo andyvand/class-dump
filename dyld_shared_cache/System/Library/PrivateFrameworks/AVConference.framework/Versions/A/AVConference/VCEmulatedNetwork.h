@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, VCEmulatedOutputQueue;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCEmulatedNetwork
 {
     NSDictionary *_policies;
-    CDUnknownBlockType _pushCompletionHandler;
-    CDUnknownBlockType _popCompletionHandler;
-    VCEmulatedOutputQueue *_outputQueue;
-    unsigned int _numberOfPacketsWaitingInOutputQueue;
 }
 
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)R	;
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)ç;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int numberOfPacketsWaitingInOutputQueue; // @synthesize numberOfPacketsWaitingInOutputQueue=_numberOfPacketsWaitingInOutputQueue;
-@property(copy, nonatomic) CDUnknownBlockType popCompletionHandler; // @synthesize popCompletionHandler=_popCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType pushCompletionHandler; // @synthesize pushCompletionHandler=_pushCompletionHandler;
 
 @end
 

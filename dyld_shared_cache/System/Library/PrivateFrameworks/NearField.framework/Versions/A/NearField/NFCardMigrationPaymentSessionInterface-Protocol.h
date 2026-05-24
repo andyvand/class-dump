@@ -5,5 +5,7 @@
 //
 
 @protocol NFCardMigrationPaymentSessionInterface
+- (oneway void)ress"16@?0@"CNLabeledValue"8;
+- (oneway void)actionFor_;
 @end
 

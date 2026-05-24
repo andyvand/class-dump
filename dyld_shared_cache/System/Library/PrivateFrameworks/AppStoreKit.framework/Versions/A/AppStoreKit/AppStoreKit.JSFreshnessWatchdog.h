@@ -7,12 +7,6 @@
 @interface AppStoreKit.JSFreshnessWatchdog
 {
     id process;
-    id networkInquiry;
-    id isNetworkReachable;
-    id networkObservation;
-    id bagContract;
-    id reasonValidator;
-    id lastForegroundTime;
 }
 
 @end

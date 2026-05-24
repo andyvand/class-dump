@@ -10,17 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _GCGameOverlayMonitor
 {
     NSMutableSet *_observers;
-    _Atomic _Bool _overlayPresented;
-    int _overlayPresentationObserver;
-    unsigned long long _state;
-    struct {
-        unsigned long long overlayPresentationChangedCount;
-    } stats;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
-- (void);
+- (void));
 - (_Bool);
 - (void);
 - (void);

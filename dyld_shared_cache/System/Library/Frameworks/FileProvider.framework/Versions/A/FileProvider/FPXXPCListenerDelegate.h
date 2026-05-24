@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPXExtensionContext, NSString, NSXPCInterface;
+@class FPXExtensionContext;
 
 __attribute__((visibility("hidden")))
 @interface FPXXPCListenerDelegate
 {
     FPXExtensionContext *_context;
-    NSXPCInterface *_interface;
-    id _exportedObject;
-    NSString *_serviceName;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -29,16 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) FPXExtensionContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSXPCInterface *interface; // @synthesize interface=_interface;
-@property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

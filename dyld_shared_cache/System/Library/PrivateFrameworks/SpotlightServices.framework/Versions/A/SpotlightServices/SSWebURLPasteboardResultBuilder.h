@@ -6,22 +6,20 @@
 
 #import <SpotlightServices/SSPasteboardResultBuilder.h>
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface SSWebURLPasteboardResultBuilder : SSPasteboardResultBuilder
 {
     NSURL *_url;
-    NSString *_title;
-    NSData *_thumbnailData;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)webView:didCommitNavigation: /* Error: Ran out of types for this method. */;
+- (id)usesOutOfLineButton;
+- (id)updateExclusionRects;
+- (id)setPlaybackInformation: /* Error: Ran out of types for this method. */;
+- (id)setPath:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -32,8 +30,6 @@
 - (void)DItemAuthors_QUPP_ARG_SEARCH_TERM:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_FLIGHT:kMDItemTextContent_QUPP_ARG_TIME:kMDItemAppEntityTitle_QUPP_ARG_SEARCH_TERM:kMDItemSubject_QUPP_ARG_LOCATION:kMDItemSubject_QUPP_ARG_PERSON:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_HOTEL:kMDItemAppEntityTitle_QUPP_ARG_LOCATION:kMDItemTextContent_QUPP_ARG_APP_CONTAINS_TYPE_CONTACT:kMDItemTextContent_QUPP_ARG_EVENT_TYPE_RESTAURANT:kMDItemAuthors_QUPP_ARG_PERSON_SENDER:kMDItemTextContent_QUPP_ARG_LOCATION_ARRIVAL:kMDItemAuthors_QUPP_ARG_PERSON:kMDItemSubject_QUPP_ARG_TIME:kMDItemAuthorEmailAddresses_QUPP_ARG_PERSON_SENDER:kMDItemAuthors_QUPP_ARG_LOCATION: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *thumbnailData; // @synthesize thumbnailData=_thumbnailData;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -9,21 +9,19 @@
 @interface SCRCStackQueue
 {
     _SCRCStackNode *_firstNode;
-    _SCRCStackNode *_lastNode;
-    unsigned long long _count;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)Sz;
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)؆\{;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (unsigned long long);

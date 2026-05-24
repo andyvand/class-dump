@@ -6,37 +6,31 @@
 
 #import <UIKitCore/UIVisualEffect.h>
 
-@class NSString, UIColor, UIImage;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIOverlayEffect : UIVisualEffect
 {
     NSString *_filterType;
-    UIImage *_image;
-    UIColor *_color;
-    double _alpha;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)hasItems;
 - (id);
 - (id)0@ù
 × ;
-- (void)Height:(id)arg1;
-- (void)roundViewHighlight;
-- (void)ditingForIndexPath:(id)arg1;
+- (void)setPreferredMinimumHeight:(id)arg1;
+- (void)_showsBackgroundViewHighlight;
+- (void)_sendDidEndEditingForIndexPath:(id)arg1;
 - (id)ò;
 - (double)ewTransition needs to return a valid highlighter.;
 - (void)UIColor;
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(copy, nonatomic) UIColor *color; // @synthesize color=_color;
 @property(copy, nonatomic) NSString *filterType; // @synthesize filterType=_filterType;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 
 @end
 

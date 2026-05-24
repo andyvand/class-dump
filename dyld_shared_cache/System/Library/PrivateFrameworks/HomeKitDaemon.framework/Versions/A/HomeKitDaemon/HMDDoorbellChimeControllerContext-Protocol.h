@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCharacteristicsAvailabilityListener, HMDHAPAccessory, NSNotificationCenter, NSObject;
-@protocol HMDDoorbellBulletinUtilities, HMMLogEventSubmitting, OS_dispatch_queue;
+@class HMDCharacteristicsAvailabilityListener, HMDHAPAccessory, NAFuture, NSNotificationCenter;
+@protocol HMMLogEventSubmitting;
 
 @protocol HMDDoorbellChimeControllerContext
+- (NAFuture *)_handleIncomingMessage:info:fromID:receivingHandle:receivingAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (double)setHasIconType: /* Error: Ran out of types for this method. */;
 - (_Bool)
 × ;
 - (HMDCharacteristicsAvailabilityListener *)MKFTimePeriodBulletinCondition>"24@0:8@"NSUUID"16 /* Error: Ran out of types for this method. */;
@@ -21,12 +23,5 @@
 
 // Remaining properties
 @property __weak HMDHAPAccessory *accessory;
-@property(readonly, getter=isCurrentDevicePrimaryResident) _Bool currentDevicePrimaryResident;
-@property(readonly) id <HMDDoorbellBulletinUtilities> doorbellBulletinUtilities;
-@property(readonly) double doorbellChimeMaximumAnnounceDelay;
-@property(readonly) HMDCharacteristicsAvailabilityListener *listener;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter;
-@property(readonly) NSNotificationCenter *notificationCenter;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue;
 @end
 

@@ -7,13 +7,12 @@
 @interface ChatKit.CKBalloonGradientContentLayer
 {
     id configuration;
-    id gradientReferenceView;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 
 @end

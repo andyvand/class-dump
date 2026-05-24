@@ -7,13 +7,12 @@
 @class NSString;
 
 @protocol RBDisplayListContents
+- (float)6p;
+- (struct CGRect)TVSetup dealloc;
 - (void)× ;
-- (NSString *)ntsOfURL: /* Error: Ran out of types for this method. */;
+- (NSString *)libraryWithContentsOfURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) float contentHeadroom;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, copy, nonatomic) NSString *xmlDescription;
 @end
 

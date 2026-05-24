@@ -5,5 +5,8 @@
 //
 
 @protocol PKRecognitionSessionManagerDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PCCAttestation
 {
     NSString *_certificate;
-    NSData *_applicationEnclaveQuote;
-    NSData *_quotingEnclaveQuote;
-    NSData *_routingToken;
 }
 
 - (void);
@@ -26,10 +23,7 @@
 - (void)T3;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *applicationEnclaveQuote; // @synthesize applicationEnclaveQuote=_applicationEnclaveQuote;
 @property(retain, nonatomic) NSString *certificate; // @synthesize certificate=_certificate;
-@property(retain, nonatomic) NSData *quotingEnclaveQuote; // @synthesize quotingEnclaveQuote=_quotingEnclaveQuote;
-@property(retain, nonatomic) NSData *routingToken; // @synthesize routingToken=_routingToken;
 
 @end
 

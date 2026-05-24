@@ -6,21 +6,13 @@
 
 #import <UIKitCore/UIButton.h>
 
-@class UIColor;
-@protocol UITableConstants;
-
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewListDetailAccessoryButton : UIButton
 {
     _Bool _accessoryUsesMonochromaticTreatment;
-    long long _type;
-    id <UITableConstants> _constants;
-    CDUnknownBlockType _actionHandler;
-    UIColor *_accessoryTintColor;
-    UIColor *_accessoryBackgroundColor;
 }
 
-- (id);
+- (id)edDevice;
 - (void);
 - (id);
 - (void);
@@ -30,8 +22,8 @@ __attribute__((visibility("hidden")))
 × ;
 - (CDUnknownBlockType);
 - (void)plitViewControllerLayoutState";
-- (id):willTransitionToState: /* Error: Ran out of types for this method. */;
-- (id)eturningDeviceMetricsOfFirstLine:returningMultilineDeviceMetrics:forceMultiline: /* Error: Ran out of types for this method. */;
+- (id)_legacy_cell:willTransitionToState: /* Error: Ran out of types for this method. */;
+- (id)_drawTextInRect:baselineCalculationOnly:returningDeviceMetricsOfFirstLine:returningMultilineDeviceMetrics:forceMultiline: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)the view to the collection view. Avoid dequeuing views without a request from the collection view. For retrieving an existing view in the collection view, use -[UICollectionView cellForItemAtIndexPath:(id)arg1 ] or -[UICollectionView supplementaryViewForElementKind:atIndexPath:]. Dequeued view:%@; Collection view:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
 - (void)entView-bottom-secondaryTextLayoutGuide-constraint;
@@ -41,11 +33,6 @@ __attribute__((visibility("hidden")))
 - (id)ÙÕüäd;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *accessoryBackgroundColor; // @synthesize accessoryBackgroundColor=_accessoryBackgroundColor;
-@property(retain, nonatomic) UIColor *accessoryTintColor; // @synthesize accessoryTintColor=_accessoryTintColor;
-@property(nonatomic) _Bool accessoryUsesMonochromaticTreatment; // @synthesize accessoryUsesMonochromaticTreatment=_accessoryUsesMonochromaticTreatment;
-@property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(retain, nonatomic) id <UITableConstants> constants; // @synthesize constants=_constants;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

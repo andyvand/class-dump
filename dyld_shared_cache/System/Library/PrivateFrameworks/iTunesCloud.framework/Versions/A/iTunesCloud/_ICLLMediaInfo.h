@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _ICLLMediaInfo
 {
     NSString *_mediaType;
-    NSString *_playParams;
 }
 
 - (id);

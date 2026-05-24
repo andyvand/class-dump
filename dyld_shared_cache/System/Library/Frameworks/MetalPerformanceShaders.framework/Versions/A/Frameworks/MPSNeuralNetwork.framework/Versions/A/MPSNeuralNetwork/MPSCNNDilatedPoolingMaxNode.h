@@ -9,18 +9,13 @@
 @interface MPSCNNDilatedPoolingMaxNode : MPSNNFilterNode
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _strideInPixelsX;
-    unsigned long long _strideInPixelsY;
-    unsigned long long _dilationRateX;
-    unsigned long long _dilationRateY;
 }
 
 + (id);
 + (id);
 - (void *);
 - (id);
-- (id);
+- (id);
 - (id);
 - (Class);
 - (unsigned long long);
@@ -29,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dilationRateX; // @synthesize dilationRateX=_dilationRateX;
-@property(readonly, nonatomic) unsigned long long dilationRateY; // @synthesize dilationRateY=_dilationRateY;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CNAutocompleteObservableBuilder
+- (void);
+- (void);
+- (void)4`;
 @end
 

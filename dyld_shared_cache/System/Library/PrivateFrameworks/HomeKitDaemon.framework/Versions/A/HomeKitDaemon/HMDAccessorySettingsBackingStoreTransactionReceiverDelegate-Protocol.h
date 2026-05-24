@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDAccessorySettingGroupModel, HMDAccessorySettingModel;
+
 @protocol HMDAccessorySettingsBackingStoreTransactionReceiverDelegate
+- (void)plistData;
+- (void)pinsSettingsPath;
+- (void)objectForKeyedSubscript:(HMDAccessorySettingGroupModel *)arg1;
+- (void)initWithRegistrationPropertiesSupported:(HMDAccessorySettingModel *)arg1 propertiesUnsupported:(void (^)(NSError *))arg2;
+- (void)e:(HMDAccessorySettingGroupModel *)arg1 merchantIndustryCategory:(void (^)(NSError *))arg2 merchantURL:merchantFormattedAddress:transactionTime:transactionType:transactionLocation: /* Error: Ran out of types for this method. */;
 @end
 

@@ -12,19 +12,19 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)hh8;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)hjh8?;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
+- (id)N;
 
 @end
 

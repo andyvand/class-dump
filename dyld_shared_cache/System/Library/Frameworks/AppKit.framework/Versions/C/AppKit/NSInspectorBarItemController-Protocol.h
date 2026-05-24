@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSView;
+
 @protocol NSInspectorBarItemController
+- (NSView *)<;
+- (_Bool)TotalSystemAvailable;
+- (_Bool)TF31PAB6aO8KAbPyNKSxKA;
 @end
 

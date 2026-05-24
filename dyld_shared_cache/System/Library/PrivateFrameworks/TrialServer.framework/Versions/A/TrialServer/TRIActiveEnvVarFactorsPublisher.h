@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIActiveEnvVarFactorsWriter;
-@protocol TRIActiveEnvVarNamespacesProviding, TRINamespaceFactorLevelsRetrieving;
+@protocol TRIActiveEnvVarNamespacesProviding;
 
 @interface TRIActiveEnvVarFactorsPublisher
 {
     id <TRIActiveEnvVarNamespacesProviding> _namespacesProvider;
-    id <TRINamespaceFactorLevelsRetrieving> _retriever;
-    TRIActiveEnvVarFactorsWriter *_writer;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)ebugLayouts: /* Error: Ran out of types for this method. */;
+- (id)inactiveBackgroundLayer;
+- (id)identifier;
 - (void)ey}32^@40;
 
 @end

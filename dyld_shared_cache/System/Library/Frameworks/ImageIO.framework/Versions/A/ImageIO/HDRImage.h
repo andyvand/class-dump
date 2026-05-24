@@ -4,27 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HDRFlexRangeParameters, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface HDRImage
 {
     struct CGColorSpace *_imageSpace;
-    struct CGColorSpace *_gainMapSpace;
-    struct CGColorSpace *_alternateSpace;
-    _Bool _isImageReadOnly;
-    int _orientation;
-    float _headroom;
-    int _toneMappingMode;
-    int _gainMapOrientation;
-    float _alternateHeadroom;
-    int _alternateToneMappingMode;
-    long long _type;
-    struct __CVBuffer *_imageBuffer;
-    struct __CVBuffer *_gainMapBuffer;
-    HDRFlexRangeParameters *_flexRangeParams;
-    NSDictionary *_flexGTCInfo;
-    struct __CVBuffer *_alternateBuffer;
 }
 
 + (_Bool);
@@ -63,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -98,41 +81,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (struct __CVBuffer *);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)*	;
 - (struct CGColorSpace *);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)b;
+- (unsigned long long)k;
 - (long long);
 - (struct __CVBuffer *);
 - (int);
 - (float);
 - (void);
 - (id);
-- (void)d;
-- (void)rorImplENS_8__mem_fnIMNS1_16SharedObjectImplEKFvvEEENS_9allocatorIS2_EEEE;
+- (void)photoshop:DateCreated /* Error: Ran out of types for this method. */;
+- (void)NSt3__120__shared_ptr_pointerIPN16AdobeXMPCore_Int9ErrorImplENS_8__mem_fnIMNS1_16SharedObjectImplEKFvvEEENS_9allocatorIS2_EEEE;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CVBuffer *alternateBuffer; // @synthesize alternateBuffer=_alternateBuffer;
-@property(readonly, nonatomic) struct CGColorSpace *alternateColorSpace;
-@property(nonatomic) float alternateHeadroom; // @synthesize alternateHeadroom=_alternateHeadroom;
-@property(nonatomic) int alternateToneMappingMode; // @synthesize alternateToneMappingMode=_alternateToneMappingMode;
-@property(readonly, nonatomic) struct CGColorSpace *colorSpace;
-@property(readonly, copy, nonatomic) NSDictionary *flexGTCInfo; // @synthesize flexGTCInfo=_flexGTCInfo;
-@property(copy, nonatomic) HDRFlexRangeParameters *flexRangeParams; // @synthesize flexRangeParams=_flexRangeParams;
-@property(readonly, nonatomic) struct __CVBuffer *gainMapBuffer; // @synthesize gainMapBuffer=_gainMapBuffer;
-@property(nonatomic) int gainMapOrientation; // @synthesize gainMapOrientation=_gainMapOrientation;
-@property(readonly, nonatomic) _Bool hasAlternateImage;
-@property(readonly, nonatomic) _Bool hasGainMap;
-@property(nonatomic) float headroom; // @synthesize headroom=_headroom;
-@property(readonly, nonatomic) unsigned long long height;
-@property(readonly, nonatomic) struct __CVBuffer *imageBuffer; // @synthesize imageBuffer=_imageBuffer;
-@property(nonatomic) _Bool isImageReadOnly; // @synthesize isImageReadOnly=_isImageReadOnly;
-@property(nonatomic) int orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) int toneMappingMode; // @synthesize toneMappingMode=_toneMappingMode;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) unsigned long long width;
 
 @end
 

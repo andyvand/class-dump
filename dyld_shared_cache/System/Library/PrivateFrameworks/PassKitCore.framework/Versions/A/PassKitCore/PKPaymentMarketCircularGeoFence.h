@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, NSString, NSUUID;
+@class CLCircularRegion;
 
 @interface PKPaymentMarketCircularGeoFence
 {
     CLCircularRegion *_circle;
-    NSUUID *_identifier;
 }
 
 + (_Bool)qî%Ð1Â0@ù
 × ;
 - (double);
-- (id);
-- (id);
+- (id);
+- (id)}7;
 - (void);
-- (id)tifier;
-- (void)TH_ERROR;
-- (_Bool);
+- (id)currentStepIdentifier;
+- (void)AUTH_ERROR;
+- (_Bool)PEER_PAYMENT_EXCESSIVE_PAYMENTS_RECEIVED_ERROR_TITLE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

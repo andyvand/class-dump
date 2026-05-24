@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, STBlockingViewController;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DigitalHealthOverlayDialogConfiguration
 {
     _Bool _shouldHideTabContent;
-    long long _dialogType;
-    CDUnknownBlockType _presentationBlock;
-    NSURL *_url;
-    STBlockingViewController *_blockingViewController;
 }
 
 - (_Bool);
@@ -30,19 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) STBlockingViewController *blockingViewController; // @synthesize blockingViewController=_blockingViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long dialogType; // @synthesize dialogType=_dialogType;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *host;
-@property(readonly, nonatomic) CDUnknownBlockType presentationBlock; // @synthesize presentationBlock=_presentationBlock;
-@property(readonly, nonatomic) _Bool shouldHideTabContent; // @synthesize shouldHideTabContent=_shouldHideTabContent;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

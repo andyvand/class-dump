@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface AMSDarwinNotificationObserver
 {
     CDUnknownBlockType _observerBlock;
-    struct __CFString *_notificationName;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CFString *notificationName; // @synthesize notificationName=_notificationName;
-@property(copy) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;
 
 @end
 

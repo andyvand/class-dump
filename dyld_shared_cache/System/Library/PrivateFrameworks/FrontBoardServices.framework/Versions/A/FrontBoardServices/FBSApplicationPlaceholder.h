@@ -6,19 +6,11 @@
 
 #import <FrontBoardServices/FBSBundleInfo.h>
 
-@class FBSApplicationLibrary, FBSApplicationPlaceholderProgress, LSApplicationIdentity, LSApplicationProxy, NSMutableSet, NSObject;
-@protocol FBSApplicationPlaceholderProgress, OS_dispatch_queue;
+@class LSApplicationProxy;
 
 @interface FBSApplicationPlaceholder : FBSBundleInfo
 {
     LSApplicationProxy *_proxy;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callOutQueue;
-    FBSApplicationPlaceholderProgress *_queue_progress;
-    NSMutableSet *_queue_observers;
-    unsigned long long _installType;
-    LSApplicationIdentity *_applicationIdentity;
-    FBSApplicationLibrary *_appLibrary;
 }
 
 + (id);
@@ -47,14 +39,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)c$;
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)NSt3__120__shared_ptr_emplaceI24EARFormatterResultStreamNS_9allocatorIS1_EEEE;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)F�H;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -67,12 +59,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)setEnableTLS13: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (double)1Â0@ù
@@ -81,14 +73,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak FBSApplicationLibrary *appLibrary; // @synthesize appLibrary=_appLibrary;
-@property(readonly, copy, nonatomic) LSApplicationIdentity *applicationIdentity; // @synthesize applicationIdentity=_applicationIdentity;
-@property(readonly, nonatomic, getter=isCancellable) _Bool cancellable;
-@property(readonly, nonatomic, getter=isPausable) _Bool pausable;
-@property(readonly, nonatomic, getter=isPrioritizable) _Bool prioritizable;
-@property(readonly, nonatomic) id <FBSApplicationPlaceholderProgress> progress;
 @property(retain, nonatomic, getter=_proxy, setter=_setProxy:) LSApplicationProxy *proxy;
-@property(readonly, nonatomic, getter=isResumable) _Bool resumable;
 
 @end
 

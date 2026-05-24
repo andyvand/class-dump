@@ -5,20 +5,18 @@
 //
 
 @class NSObject;
-@protocol AFAnalyticsService, OS_dispatch_group, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface AFAnalytics
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_group;
-    id <AFAnalyticsService> _service;
 }
 
 + (id);
+- (void)connectionEstablished;
+- (void)_decorateDescription:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)connection;
 - (void);
 - (void);
 - (void);
@@ -27,22 +25,22 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void);
+- (void);
+- (void)A;
+- (void);
+- (void);
+- (void)Private;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)@ at path %@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)urceManager;
+- (void)AFBundleResourceManager;
 - (id);
 - (void)q;
 

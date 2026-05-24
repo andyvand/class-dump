@@ -7,14 +7,6 @@
 @interface PhotosUICore.MemoryCreationLemonadeMemoriesShelfProvider
 {
     id $__lazy_storage_$_shelfProvider;
-    id $__lazy_storage_$_wrappedProvider;
-    id $__lazy_storage_$_prependItemListManager;
-    id $__lazy_storage_$_appendItemListManager;
-    id photoLibrary;
-    id positionManager;
-    id availabilityManager;
-    id logger;
-    id forceCardVisibilityState;
 }
 
 @end

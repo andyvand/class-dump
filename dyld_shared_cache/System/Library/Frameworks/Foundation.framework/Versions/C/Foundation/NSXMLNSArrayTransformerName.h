@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (Class)cale:arguments: /* Error: Ran out of types for this method. */;
-- (id)r;
++ (Class)initWithFormat:locale:arguments: /* Error: Ran out of types for this method. */;
+- (id)_BridgedStoredNSError;
 
 @end
 

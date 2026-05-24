@@ -6,24 +6,17 @@
 
 #import <NewsCore/FCCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FCModifyNotificationsForTopicsCommand : FCCommand
 {
     int _deviceDigestMode;
-    NSArray *_topicIDsToAdd;
-    NSArray *_topicIDsToRemove;
-    NSString *_topicGroupingID;
-    NSString *_channelID;
-    NSString *_userID;
-    NSString *_deviceToken;
-    NSString *_storefrontID;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -34,7 +27,7 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (void);
 - (id);
@@ -46,14 +39,7 @@
 - (void)ation];
 
 // Remaining properties
-@property(copy, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(nonatomic) int deviceDigestMode; // @synthesize deviceDigestMode=_deviceDigestMode;
-@property(copy, nonatomic) NSString *deviceToken; // @synthesize deviceToken=_deviceToken;
-@property(copy, nonatomic) NSString *storefrontID; // @synthesize storefrontID=_storefrontID;
-@property(copy, nonatomic) NSString *topicGroupingID; // @synthesize topicGroupingID=_topicGroupingID;
 @property(copy, nonatomic) NSArray *topicIDsToAdd; // @synthesize topicIDsToAdd=_topicIDsToAdd;
-@property(copy, nonatomic) NSArray *topicIDsToRemove; // @synthesize topicIDsToRemove=_topicIDsToRemove;
-@property(copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

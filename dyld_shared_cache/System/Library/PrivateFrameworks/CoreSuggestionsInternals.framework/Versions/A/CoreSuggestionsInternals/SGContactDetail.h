@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGDuplicateKey, SGExtractionInfo, SGRecordId;
+@class NSString, SGRecordId;
 
 @interface SGContactDetail
 {
     NSString *_normalizedValue;
-    SGRecordId *_recordId;
-    unsigned long long _type;
-    NSString *_value;
-    NSString *_label;
-    SGExtractionInfo *_extractionInfo;
-    NSString *_sourceKey;
-    NSString *_context;
-    SGDuplicateKey *_duplicateKey;
 }
 
-+ (id);
-+ (id);
++ (id)mouseExited:(id)arg1;
++ (id)mainBundle;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)allocWithZone: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ColLevel_n;
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -38,15 +30,7 @@
 - (void)ô;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *context; // @synthesize context=_context;
-@property(readonly, nonatomic) SGDuplicateKey *duplicateKey; // @synthesize duplicateKey=_duplicateKey;
-@property(readonly, nonatomic) SGExtractionInfo *extractionInfo; // @synthesize extractionInfo=_extractionInfo;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *normalizedValue;
 @property(readonly, nonatomic) SGRecordId *recordId; // @synthesize recordId=_recordId;
-@property(readonly, nonatomic) NSString *sourceKey; // @synthesize sourceKey=_sourceKey;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

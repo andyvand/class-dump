@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     unsigned long long _maxLength;
 }
 
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (_Bool)q£Ð1Â0@ù
 × ;

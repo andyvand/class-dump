@@ -6,25 +6,15 @@
 
 #import <SAObjects/SAStartRequest.h>
 
-@class NSString;
-
 @interface SASStartCorrectedSpeechRequest : SAStartRequest
 {
 }
 
-+ (id);
++ (id)�;
 + (id);
 
 // Remaining properties
 @property(nonatomic) long long combinedRank;
-@property(nonatomic) double combinedScore;
-@property(copy, nonatomic) NSString *interactionId;
-@property(nonatomic) _Bool onDeviceUtterancesPresent;
-@property(nonatomic) long long originalRank;
-@property(nonatomic) double originalScore;
-@property(copy, nonatomic) NSString *previousUtterance;
-@property(copy, nonatomic) NSString *sessionId;
-@property(copy, nonatomic) NSString *utteranceSource;
 
 @end
 

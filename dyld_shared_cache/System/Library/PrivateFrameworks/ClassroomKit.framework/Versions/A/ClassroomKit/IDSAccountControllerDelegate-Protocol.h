@@ -5,5 +5,9 @@
 //
 
 @protocol IDSAccountControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

@@ -6,18 +6,13 @@
 
 #import <AVConference/VCObject.h>
 
-@class AVAudioSession, NSDictionary, NSObject, NSString, VCAudioIOControllerClient;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VCSystemAudioCaptureController : VCObject
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _running;
-    VCAudioIOControllerClient *_client;
-    AVAudioSession *_avAudioSession;
-    struct tagVCSystemAudioCaptureControllerConfig _configuration;
-    _Bool _useScreenCaptureKitForAudio;
 }
 
 + (_Bool);
@@ -37,17 +32,6 @@ __attribute__((visibility("hidden")))
 - (id)ferredMode:(const struct tagVCSystemAudioCaptureControllerConfig *)arg1 isV2Codec:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *reportingStats;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool supportsVoiceActivityDetection;
 
 @end

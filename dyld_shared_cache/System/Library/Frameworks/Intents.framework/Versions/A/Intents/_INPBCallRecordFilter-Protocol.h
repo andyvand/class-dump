@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol _INPBCallRecordFilter
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) int callCapability;
-@property(readonly, nonatomic) int *callTypes;
-@property(readonly, nonatomic) unsigned long long callTypesCount;
-@property(nonatomic) _Bool hasCallCapability;
-@property(nonatomic) _Bool hasPreferredCallProvider;
-@property(copy, nonatomic) NSArray *participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(nonatomic) int preferredCallProvider;
 @end
 

@@ -11,15 +11,15 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)M;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)aM;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)aM;
 - (id);
-- (id);
-- (void);
+- (void)bM;
 - (void);
 - (id);
 

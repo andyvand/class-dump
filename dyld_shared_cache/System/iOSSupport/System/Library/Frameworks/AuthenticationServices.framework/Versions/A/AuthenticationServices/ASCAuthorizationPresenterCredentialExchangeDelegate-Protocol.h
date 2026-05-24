@@ -5,5 +5,6 @@
 //
 
 @protocol ASCAuthorizationPresenterCredentialExchangeDelegate
+- (void);
 @end
 

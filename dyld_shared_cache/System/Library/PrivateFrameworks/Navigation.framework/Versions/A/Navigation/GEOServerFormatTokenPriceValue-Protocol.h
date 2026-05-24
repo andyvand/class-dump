@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol GEOServerFormatTokenPriceValue
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *currencyCode;
 @property(readonly, nonatomic) double value;
 @end
 

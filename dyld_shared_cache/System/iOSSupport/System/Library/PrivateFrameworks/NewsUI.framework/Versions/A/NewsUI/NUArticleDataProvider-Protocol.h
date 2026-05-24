@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticle, NSArray, NSString;
+@class NSString;
 
 @protocol NUArticleDataProvider
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) FCArticle *article;
 @property(readonly, copy, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) NSArray *linkedContentProviders;
-@property(nonatomic) long long relativePriority;
 @end
 

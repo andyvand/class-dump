@@ -9,29 +9,27 @@
 @interface AXSSKeyboardCommand
 {
     NSString *_type;
-    NSString *_standardCommandIdentifier;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@0;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)P;
+- (_Bool)cker statistics from %{public}@;
+- (void)s.#P===e.#P&&this.#f===e.#f}resolvedRangeInDocument(e){let t=this.#C?.deref();if(t?.intersectsNode(e))return t;if(this.#_&&this.#A){let t=WAS.NodePath.#E(e,[...this.#u,...this.#_]),n=WAS.NodePath.#E(e,[...this.#u,...this.#A]);if(!t||!n)return null;let o=new Range;return this.#P?o.setStart(t,this.#P):(id)arg1 o.setStartBefore(t),this.#f?o.setEnd(n,this.#f):o.setEndAfter(n),this.#C=new WeakRef(o),o}let n=WAS.NodePath.#E(e,this.#u);if(!n)return null;let o=Range.nodePath_fromNode(n);return this.#C=new WeakRef(o),o}static#E(e,t){WAS.Assert.isType(e,Node),WAS.Assert.isTrue(Document.nodePath_isDocument(e),"Must provide root document node in which to resolve this NodePath.");let n=e;e:for(let e=1;e<t.length&&n;++e){let o=t[e],a=-1,i=null;const s=()=>{n=i;let o=t.length>e?t[e+1]:null;return n&&HTMLIFrameElement.nodePath_isHTMLIFrameElement(n)&&o?.type===Node.DOCUMENT_NODE?(++e,void(n=HTMLIFrameElement.nodePath_contentWindowDocument(n))):n&&o?.type===Node.DOCUMENT_FRAGMENT_NODE?(++e,void(n=Element.nodePath_shadowRoot(n))):void 0};if(Element.nodePath_isElement(n)){let o=[],a=e;for(;a<t.length;++a){let e=t[a];if(e.type!==Node.ELEMENT_NODE)break;o.push(e.toElementCSSSelector())}if(o.length){const t=e=>o.slice(0,o.length-e).join(" > ");let d=null;for(let r=0;r<o.length;++r)if(d=Element.nodePath_querySelectorAll(n,t(r)),1===d.length){i=d.item(0),e=a-r-1,s();continue e}}}let d=0;for(let e=Node.nodePath_firstChild(n);e;e=Node.nodePath_nextSibling(e)){if(!Node.nodePath_includeWhenComputingSiblingIndex(e))continue;let t=Number.MIN_VALUE,n=!0;const s=(e,o)=>{e?t+=o:n=!1},r=(e,o)=>{1!==e&&(n=!1),t+=e*o},h=e=>{e&&(n=!1,t-=e)};if(s(Node.nodePath_nodeType(e)===o.type,WAS.NodePath.#h),Element.nodePath_isElement(e)){s(Element.nodePath_tagName(e)==o.tag,WAS.NodePath.#l),s(Element.nodePath_id(e)==o.id,WAS.NodePath.#c);let t=Element.nodePath_className(e)?.split(" ")??[],n=t.length,a=o.classes?.split(" ")??[],i=a.length;for(let e=0;e<a.length;++e){let n=a[e],o=t.indexOf(n);-1!==o&&(t.splice(o,1),a.splice(e,1),--e)}r((n?(n-t.length)/n:1)*(i?(i-a.length)/i:1),WAS.NodePath.#N),r(Node.nodePath_immediateInnerTextOfNode(e).nodePath_similarityTo(o.text),WAS.NodePath.#m)}else if(Text.nodePath_isText(e)){let t=CharacterData.nodePath_data(e)?.nodePath_similarityTo(o.text);r(t,WAS.NodePath.#m)}if(h(Math.abs(d-o.index)*WAS.NodePath.#p),n){a=Number.NaN,i=e;break}t>a&&(a=t,i=e),++d}s()}return n}};
+0; /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *standardCommandIdentifier; // @synthesize standardCommandIdentifier=_standardCommandIdentifier;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

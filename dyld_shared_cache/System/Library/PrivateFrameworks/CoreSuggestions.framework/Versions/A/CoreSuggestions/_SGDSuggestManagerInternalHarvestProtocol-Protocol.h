@@ -5,7 +5,8 @@
 //
 
 @protocol _SGDSuggestManagerInternalHarvestProtocol
-- (void)codeEndTimeZone;
+- (void)e=dd}}32;
+- (void)geocodeEndTimeZone;
 - (void)tude && longitude <= 180);
 @end
 

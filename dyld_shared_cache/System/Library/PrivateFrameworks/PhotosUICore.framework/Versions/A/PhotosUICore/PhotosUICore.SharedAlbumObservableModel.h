@@ -7,15 +7,6 @@
 @interface PhotosUICore.SharedAlbumObservableModel
 {
     id photoLibraryObservation;
-    id _sharedAlbum;
-    id _title;
-    id _publicURLEnabled;
-    id _publicURL;
-    id _notificationsEnabled;
-    id _multipleContributorsEnabled;
-    id hasBeenMigrated;
-    id observable;
-    id _$observationRegistrar;
 }
 
 @end

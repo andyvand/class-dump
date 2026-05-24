@@ -7,21 +7,17 @@
 @interface PIParallaxAssetSettlingEffectOptions
 {
     _Bool _isInteractiveRequest;
-    _Bool _needsInProcessHandling;
-    _Bool _loadVideoStatusOnly;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool isInteractiveRequest; // @synthesize isInteractiveRequest=_isInteractiveRequest;
-@property(nonatomic) _Bool loadVideoStatusOnly; // @synthesize loadVideoStatusOnly=_loadVideoStatusOnly;
-@property(nonatomic) _Bool needsInProcessHandling; // @synthesize needsInProcessHandling=_needsInProcessHandling;
 
 @end
 

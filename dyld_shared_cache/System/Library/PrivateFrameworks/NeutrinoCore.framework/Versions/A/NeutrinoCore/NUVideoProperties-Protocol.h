@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioMixInputParameters, NSArray, NSDictionary, NSURL;
+@class AVMetadataItem, NSArray, NSURL;
 
 @protocol NUVideoProperties
-- (_Bool);
+- (AVMetadataItem *);
+- (NSArray *)mRange.location && tokenNGramRange.length);
+- (_Bool)inputCropRect;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *auxiliaryVideoTrackProperties;
-@property(readonly, copy) AVAudioMixInputParameters *cinematicAudioMixInputParameters;
-@property(readonly) CDStruct_996ac03c cleanAperture;
-@property(readonly) NSDictionary *colorProperties;
-@property(readonly) CDStruct_1b6d18a9 duration;
-@property(readonly) _Bool isHDR;
-@property(readonly) CDStruct_1b6d18a9 livePhotoKeyFrameTime;
-@property(readonly, copy) NSArray *metadata;
-@property(nonatomic) float nominalFrameRate;
-@property(readonly) long long orientation;
-@property(readonly) CDStruct_996ac03c originalCleanAperture;
-@property(readonly) CDStruct_912cb5d2 originalSize;
-@property(readonly) CDStruct_912cb5d2 size;
-@property(readonly, copy) NSArray *trackGroups;
-@property(readonly, copy) NSDictionary *trackMetadata;
 @property(readonly) NSURL *url;
-@property(copy, nonatomic) NSArray *videoCorruptionInfo;
 @end
 

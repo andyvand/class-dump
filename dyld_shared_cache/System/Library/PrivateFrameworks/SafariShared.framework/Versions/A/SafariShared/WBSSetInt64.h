@@ -12,15 +12,15 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)IKFilterBrowserFilterDoubleClickNotification;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)bridgeOSCatalog;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)?;
 - (void);
 - (id)°;
 - (_Bool)¨;
@@ -28,7 +28,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) const void *set;
 
 @end

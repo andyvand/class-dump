@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSFontManager;
+@class NSFontManager;
 @protocol UINSFontManagerDelegate;
 
 @interface UINSFontManager
 {
     NSFontManager *_fontManager;
-    id <UINSFontManagerDelegate> _delegate;
-    NSFont *_originalFontBeforeFallback;
-    NSFont *_fallbackFont;
 }
 
 + (_Bool);
@@ -20,10 +17,10 @@
 + (void);
 - (id);
 - (void);
-- (id);
+- (id)substringWithRange:(id)arg1;
 - (void);
-- (void);
-- (void);
+- (void)setCharge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:(id)arg1;
+- (void)setCharge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:(id)arg1;
 - (void);
 - (id);
 - (void);

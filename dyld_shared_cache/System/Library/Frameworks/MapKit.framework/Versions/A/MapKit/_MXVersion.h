@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSArray *_components;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)napshots, quickEnergySnapshots=%@;
+- (id)extractKeys:(id)arg1 fromDictionary: /* Error: Ran out of types for this method. */;
+- (id)VNImageAnalyzerMultiDetectorOption_VN5kJNH3eYuyaLxNpZr5Z7ziConfiguration;
+- (id);
 - (long long);
-- (void)owContactActions;
+- (void)showContactActions;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *components; // @synthesize components=_components;

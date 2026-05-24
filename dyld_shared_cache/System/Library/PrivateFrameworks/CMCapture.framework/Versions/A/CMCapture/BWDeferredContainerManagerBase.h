@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface BWDeferredContainerManagerBase
 {
-    struct _opaque_pthread_rwlock_t _lock;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    NSObject<OS_dispatch_queue> *_deletionQueue;
+    struct _opaque_pthread_rwlock_t {
+        long long __sig;
+        char __opaque[192];
+    } _lock;
 }
 
 + (void)put:gatingNode.input pipelineStage:mrcPipelineStage] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)4q;
 - (int);
 - (void);
 

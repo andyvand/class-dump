@@ -7,10 +7,6 @@
 @interface PFFairPlayValidationManager
 {
     id keyLoader;
-    id episodeFetcher;
-    id episodeRemovalManager;
-    id internalQueue;
-    id $__lazy_storage_$_logPrefix;
 }
 
 - (void);

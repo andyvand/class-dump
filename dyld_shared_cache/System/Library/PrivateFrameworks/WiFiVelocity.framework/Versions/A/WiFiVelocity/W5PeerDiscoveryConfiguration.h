@@ -7,14 +7,13 @@
 @interface W5PeerDiscoveryConfiguration
 {
     long long _discoveryFlags;
-    long long _controlFlags;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)__DATA_DIRTY;
 - (void);
-- (void);
+- (void)ŀ;
 - (void);
 - (long long);
 - (id);
@@ -22,7 +21,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) long long controlFlags; // @synthesize controlFlags=_controlFlags;
 @property(nonatomic) long long discoveryFlags; // @synthesize discoveryFlags=_discoveryFlags;
 
 @end

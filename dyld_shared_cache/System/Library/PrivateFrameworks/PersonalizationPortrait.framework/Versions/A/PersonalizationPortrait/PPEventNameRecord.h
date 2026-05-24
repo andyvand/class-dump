@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PPEventNameRecord
 {
     unsigned char _changeType;
-    NSString *_identifier;
-    double _score;
-    NSString *_eventIdentifier;
-    NSString *_title;
-    NSString *_location;
-    NSArray *_participantNames;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool);
 - (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)_variableEditingEnded;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -37,22 +31,16 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)BKOptionMatchGatedByButton;
 - (unsigned char);
 - (id);
 - (id);
-- (void);
+- (void)System/Library/PrivateFrameworks/Catalyst.framework/Versions/A/Catalyst;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned char changeType; // @synthesize changeType=_changeType;
-@property(retain, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSArray *participantNames; // @synthesize participantNames=_participantNames;
-@property(nonatomic) double score; // @synthesize score=_score;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

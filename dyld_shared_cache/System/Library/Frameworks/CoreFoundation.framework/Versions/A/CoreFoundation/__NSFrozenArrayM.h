@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface __NSFrozenArrayM : NSArray
 {
     _Atomic struct __cow_state_t *cow;
-    CDStruct_a6934631 storage;
 }
 
 + (_Bool);
 + (id);
 - (void);
 - (unsigned long long);
+- (id)( ;
+- (void)is platform. Consider using layered rendering to enable the use of full-screen viewport and scissor rectangles. This warning will be issued once per process.;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void)balBlock__;
+- (id);
+- (void)__NSGlobalBlock__;
 - (id);
 - (unsigned long long);
 - (id);

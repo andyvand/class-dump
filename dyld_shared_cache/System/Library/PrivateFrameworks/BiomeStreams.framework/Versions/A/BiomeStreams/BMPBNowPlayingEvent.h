@@ -4,41 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface BMPBNowPlayingEvent
 {
     double _absoluteTimestamp;
-    NSString *_album;
-    NSString *_artist;
-    NSString *_bundleId;
-    unsigned int _duration;
-    unsigned int _elapsed;
-    NSString *_genre;
-    NSString *_groupIdentifier;
-    NSString *_iTunesAlbumIdentifier;
-    NSString *_iTunesArtistIdentifier;
-    NSString *_iTunesStoreIdentifier;
-    NSString *_iTunesSubscriptionIdentifier;
-    int _itemMediaSubtype;
-    int _itemMediaType;
-    NSString *_mediaType;
-    NSMutableArray *_outputDevices;
-    int _playbackState;
-    NSString *_title;
-    NSString *_uniqueId;
-    _Bool _isAirPlayVideo;
-    _Bool _isRemoteControl;
-    struct {
-        unsigned int absoluteTimestamp:1;
-        unsigned int duration:1;
-        unsigned int elapsed:1;
-        unsigned int itemMediaSubtype:1;
-        unsigned int itemMediaType:1;
-        unsigned int playbackState:1;
-        unsigned int isAirPlayVideo:1;
-        unsigned int isRemoteControl:1;
-    } _has;
 }
 
 + (Class);
@@ -52,7 +20,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)A;
 - (void);
 - (_Bool);
 - (id);
@@ -64,20 +32,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`!;
 - (id);
 - (double);
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)bottomLeftPointForCurrentScreenWithWindowSize: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (_Bool)kA;
 - (_Bool);
-- (_Bool);
-- (int);
-- (void);
+- (int)mountWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)bundleWithURL:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -97,30 +65,30 @@
 - (unsigned int);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (int);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)lookupAppStoreForBundleIDs:platform:replyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool)8d16Q24;
-- (_Bool)ientIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)egory;
+- (_Bool)setClientIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)poiCategory;
 - (id)4;
 - (void);
 - (void)BMLibraryStreamsPruner running pruneWithInstalledApplications:(int)arg1 installedAppExtensions: /* Error: Ran out of types for this method. */;
-- (void)ndow_def__pack_to_buffer;
+- (void)pg_query__window_def__pack_to_buffer;
 - (void)over;
 - (_Bool);
 - (void)¯°±;
@@ -135,47 +103,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *album; // @synthesize album=_album;
-@property(retain, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned int elapsed; // @synthesize elapsed=_elapsed;
-@property(retain, nonatomic) NSString *genre; // @synthesize genre=_genre;
-@property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasAlbum;
-@property(readonly, nonatomic) _Bool hasArtist;
-@property(readonly, nonatomic) _Bool hasBundleId;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasElapsed;
-@property(readonly, nonatomic) _Bool hasGenre;
-@property(readonly, nonatomic) _Bool hasGroupIdentifier;
-@property(readonly, nonatomic) _Bool hasITunesAlbumIdentifier;
-@property(readonly, nonatomic) _Bool hasITunesArtistIdentifier;
-@property(readonly, nonatomic) _Bool hasITunesStoreIdentifier;
-@property(readonly, nonatomic) _Bool hasITunesSubscriptionIdentifier;
-@property(nonatomic) _Bool hasIsAirPlayVideo;
-@property(nonatomic) _Bool hasIsRemoteControl;
-@property(nonatomic) _Bool hasItemMediaSubtype;
-@property(nonatomic) _Bool hasItemMediaType;
-@property(readonly, nonatomic) _Bool hasMediaType;
-@property(nonatomic) _Bool hasPlaybackState;
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(readonly, nonatomic) _Bool hasUniqueId;
-@property(retain, nonatomic) NSString *iTunesAlbumIdentifier; // @synthesize iTunesAlbumIdentifier=_iTunesAlbumIdentifier;
-@property(retain, nonatomic) NSString *iTunesArtistIdentifier; // @synthesize iTunesArtistIdentifier=_iTunesArtistIdentifier;
-@property(retain, nonatomic) NSString *iTunesStoreIdentifier; // @synthesize iTunesStoreIdentifier=_iTunesStoreIdentifier;
-@property(retain, nonatomic) NSString *iTunesSubscriptionIdentifier; // @synthesize iTunesSubscriptionIdentifier=_iTunesSubscriptionIdentifier;
-@property(nonatomic) _Bool isAirPlayVideo; // @synthesize isAirPlayVideo=_isAirPlayVideo;
-@property(nonatomic) _Bool isRemoteControl; // @synthesize isRemoteControl=_isRemoteControl;
-@property(nonatomic) int itemMediaSubtype; // @synthesize itemMediaSubtype=_itemMediaSubtype;
-@property(nonatomic) int itemMediaType; // @synthesize itemMediaType=_itemMediaType;
-@property(retain, nonatomic) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(retain, nonatomic) NSMutableArray *outputDevices; // @synthesize outputDevices=_outputDevices;
-@property(nonatomic) int playbackState; // @synthesize playbackState=_playbackState;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

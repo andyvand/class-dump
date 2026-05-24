@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface _IMPersistentTaskReportSetBuilder
 {
     NSMutableDictionary *_reportSetHashMap;
-    NSMutableArray *_reportSet;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *reportSet; // @synthesize reportSet=_reportSet;
 @property(readonly, nonatomic) NSMutableDictionary *reportSetHashMap; // @synthesize reportSetHashMap=_reportSetHashMap;
 
 @end

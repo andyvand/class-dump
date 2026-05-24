@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.PodcastPlaybackPositionData
 {
     id id;
-    id type;
-    id href;
-    id attributes;
 }
 
 @end

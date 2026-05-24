@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISVariant, NSMutableDictionary, NSURL;
+@class ISVariant, NSURL;
 
 @interface ISIconset
 {
     NSURL *_URL;
-    ISVariant *_primaryVariant;
-    NSMutableDictionary *_additionalVariants;
 }
 
-+ (id);
++ (id)stringByTrimmingCharactersInSet:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)__DATA_CONST;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)e=QAQ}{__DDQueryRange={__DDQueryOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly) ISVariant *_primaryVariant; // @synthesize _primaryVariant;
-@property(readonly) NSMutableDictionary *additionalVariants; // @synthesize additionalVariants=_additionalVariants;
 
 @end
 

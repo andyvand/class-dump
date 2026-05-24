@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableOrderedSet, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface CSFileProviderDomainMonitor
 {
     NSDictionary *_activeDomains;
-    struct _opaque_pthread_rwlock_t _activeDomainsLock;
-    NSMutableOrderedSet *_removedDomains;
-    struct _opaque_pthread_rwlock_t _removedDomainsLock;
-    NSDictionary *_activeProvidersMap;
-    struct _opaque_pthread_rwlock_t _activeProvidersLock;
-    CDUnknownBlockType _providerMonitor;
-    _Bool _needSave;
-    CDUnknownBlockType _domainCleaner;
-    id _fileProviderDelegate;
-    NSObject<OS_dispatch_queue> *_domainUpdateQueue;
-    NSObject<OS_dispatch_queue> *_providerMonitorQueue;
 }
 
-+ (id);
++ (id)(;
 - (void);
 - (_Bool);
 - (void);
@@ -36,25 +24,20 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (id)8;
 - (id);
 - (id);
 - (id);
-- (id);
+- (CDUnknownBlockType)?	;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)B8aG8g;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType domainCleaner; // @synthesize domainCleaner=_domainCleaner;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *domainUpdateQueue; // @synthesize domainUpdateQueue=_domainUpdateQueue;
 @property(retain, nonatomic) id fileProviderDelegate; // @synthesize fileProviderDelegate=_fileProviderDelegate;
-@property(readonly) NSURL *fileProviderDomainURL;
-@property(copy) CDUnknownBlockType providerMonitor;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *providerMonitorQueue; // @synthesize providerMonitorQueue=_providerMonitorQueue;
 
 @end
 

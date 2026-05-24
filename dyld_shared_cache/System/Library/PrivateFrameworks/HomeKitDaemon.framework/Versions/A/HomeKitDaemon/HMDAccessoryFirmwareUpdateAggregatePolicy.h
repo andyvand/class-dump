@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id)isconnected;
+- (id)numberOfTimesPrimaryClientDisconnected;
 - (void)d presence payload container;
 - (void)DB=;
 - (void)ÿ÷übD;

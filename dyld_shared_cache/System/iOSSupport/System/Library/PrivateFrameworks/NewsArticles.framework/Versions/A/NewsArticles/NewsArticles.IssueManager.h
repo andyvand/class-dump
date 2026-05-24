@@ -7,10 +7,6 @@
 @interface NewsArticles.IssueManager
 {
     id issueService;
-    id articleService;
-    id pdfReplicaService;
-    id anfPageService;
-    id issueCache;
 }
 
 @end

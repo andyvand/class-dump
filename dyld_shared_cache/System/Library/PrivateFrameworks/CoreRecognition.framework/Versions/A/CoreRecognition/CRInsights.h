@@ -10,35 +10,33 @@
 @interface CRInsights
 {
     id <CRInsightsDelegate> _delegate;
-    NSMutableDictionary *_threadsToContexts;
 }
 
 + (id);
-+ (void);
++ (void)S;
+- (id)q;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)(;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)kCellularPlanErrorFailedTransfer;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property __weak id <CRInsightsDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSMutableDictionary *threadsToContexts; // @synthesize threadsToContexts=_threadsToContexts;
 
 @end

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibrary, PXSharedLibraryStatusProvider, PhotosUICore.PXLibraryFilterObservableViewMode;
+@class PhotosUICore.PXLibraryFilterObservableViewMode;
 
 @interface PXLibraryFilterState
 {
     _Bool _sharedLibraryBadgeEnabled;
-    long long _viewMode;
-    PhotosUICore.PXLibraryFilterObservableViewMode *_viewModeObservable;
-    PXSharedLibraryStatusProvider *_sharedLibraryStatusProvider;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
@@ -27,39 +24,22 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (long long);
+- (void)ń;
+- (long long)SXDebugLayoutOptionsProviding;
 - (id);
 - (id);
-- (unsigned short);
+- (unsigned short)featurePromotionPresenter;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)slideAtIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id)ableCuration:(struct _NSZone *)arg1 enableKeyAssets:useVerboseSmartDescription:viewSourceOrigin: /* Error: Ran out of types for this method. */;
+- (id)photosDetailsContextForAssetCollection:(struct _NSZone *)arg1 assets:keyAssets:enableCuration:enableKeyAssets:useVerboseSmartDescription:viewSourceOrigin: /* Error: Ran out of types for this method. */;
 - (void)AssetEntity.getter:(id)arg1 displayRepresentation;
 - (void);
 - (id)ÖDM$Ï;;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeOthersInSocialGroupAssets;
-@property(readonly, nonatomic) _Bool isFiltering;
-@property(readonly, nonatomic) NSString *localizedDescription;
-@property(readonly, nonatomic) NSString *localizedFooterDescription;
-@property(readonly, nonatomic) long long observableViewMode;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary;
-@property(nonatomic, getter=isSharedLibraryBadgeEnabled) _Bool sharedLibraryBadgeEnabled; // @synthesize sharedLibraryBadgeEnabled=_sharedLibraryBadgeEnabled;
-@property(readonly, nonatomic) PXSharedLibraryStatusProvider *sharedLibraryStatusProvider; // @synthesize sharedLibraryStatusProvider=_sharedLibraryStatusProvider;
-@property(readonly, nonatomic) unsigned short sharingFilter;
-@property(readonly) Class superclass;
-@property(nonatomic) long long viewMode; // @synthesize viewMode=_viewMode;
 @property(readonly, nonatomic) PhotosUICore.PXLibraryFilterObservableViewMode *viewModeObservable; // @synthesize viewModeObservable=_viewModeObservable;
 
 @end

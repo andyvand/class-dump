@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripFetchedCapabilityStatus
 {
     double _fetchedTimestamp;
-    double _ttl;
-    long long _status;
-    unsigned long long _capabilityType;
-    NSString *_serviceName;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)T;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -33,12 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBlocked) _Bool blocked;
 @property(readonly, nonatomic) unsigned long long capabilityType; // @synthesize capabilityType=_capabilityType;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
-@property(readonly, nonatomic, getter=isFailedRequest) _Bool failedRequest;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

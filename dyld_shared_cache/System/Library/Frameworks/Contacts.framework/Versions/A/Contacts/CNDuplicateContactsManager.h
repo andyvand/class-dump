@@ -9,10 +9,6 @@
 @interface CNDuplicateContactsManager
 {
     id contactStore;
-    id contacts;
-    id findResult;
-    id mergeResult;
-    id didPerformMerge;
 }
 
 + (void);

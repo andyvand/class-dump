@@ -7,6 +7,7 @@
 @interface WeatherAppSupport.LocationPeakTimeCalculator
 {
     id cache;
+    id;
 }
 
 @end

@@ -4,58 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem, NSArray, NSDate, NSDictionary, NSObject, NSString;
+@class AVPlayerItem, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AVPlayerInterstitialEvent
 {
     NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    AVPlayerItem *_primaryItem;
-    struct OpaqueFigPlayerInterstitialEvent *_figEvent;
-    NSArray *_templateItems;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (_Bool);
-- (id);
-- (long long);
-- (_Bool);
-- (CDStruct_e83c9415);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id);
+- (_Bool)ge_detector::Locale>>=(?=c{vector<quasar::language_detector::Locale, std::allocator<quasar::language_detector::Locale>>=^{Locale}^{Locale}{?=^{Locale}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (id)dParserMachContinuousEndTicks;
+- (long long)endedAutoPunctuation;
+- (_Bool)dEntityRetrieval;
+- (CDStruct_e83c9415)enumerateSentencesOfType:block: /* Error: Ran out of types for this method. */;
+- (id)_bluetoothDeviceIdFilter;
+- (void)onary",R,C,N,V_speechRecognitionFeatures;
+- (void)@"NSArray",R,C,N,V_pauseDurations;
+- (void)C,N;
+- (void)V_confidences;
+- (void)valueWithRange:(CDStruct_e83c9415)arg1;
+- (void)B,N,V_allowUtteranceCompletionDelay;
+- (void)iceMitigatorResult",R,C,N,V_latticeMitigatorResult;
+- (void)uiteIdentifiers;
+- (void)formatWords:(CDStruct_1b6d18a9)arg1 task:autoPunctuate: /* Error: Ran out of types for this method. */;
+- (void)rrectAlignedPartialResultIndexList;
+- (void)_EARVoiceCommandDebugInfo;
+- (void)_EARTextNormalization;
+- (void)EMTMeaningDescription;
+- (id)_EAROnDeviceEndpointerInfo;
+- (CDStruct_1b6d18a9);
 - (id);
 - (CDStruct_1b6d18a9);
 - (id);
-- (CDStruct_1b6d18a9);
 - (id);
-- (id);
-- (id);
-- (struct OpaqueFigPlayerInterstitialEvent *);
-- (_Bool);
-- (id);
-- (id);
+- (id);
+- (struct OpaqueFigPlayerInterstitialEvent *);
+- (_Bool);
+- (id)%;
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void));
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
@@ -79,26 +76,7 @@
 - (void)orLogging: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alignsResumptionWithPrimarySegmentBoundary;
-@property(readonly, nonatomic) _Bool alignsStartWithPrimarySegmentBoundary;
-@property(readonly) NSDictionary *assetListResponse;
-@property(readonly, nonatomic) _Bool contentMayVary;
-@property(readonly, nonatomic) NSString *cue;
-@property(readonly, nonatomic) NSDate *date;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 playoutLimit;
 @property(readonly, nonatomic) __weak AVPlayerItem *primaryItem;
-@property(readonly, nonatomic) unsigned long long restrictions;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 resumptionOffset;
-@property(readonly) NSString *scheduleIdentifier;
-@property(readonly, nonatomic) NSString *skipControlLocalizedLabelBundleKey;
-@property(readonly, nonatomic) CDStruct_e83c9415 skipControlTimeRange;
-@property(readonly, nonatomic) _Bool supplementsPrimaryContent;
-@property(readonly, nonatomic) NSArray *templateItems;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 time;
-@property(readonly, nonatomic) long long timelineOccupancy;
-@property(readonly, nonatomic) NSDictionary *userDefinedAttributes;
-@property(readonly, nonatomic) _Bool willPlayOnce;
 
 @end
 

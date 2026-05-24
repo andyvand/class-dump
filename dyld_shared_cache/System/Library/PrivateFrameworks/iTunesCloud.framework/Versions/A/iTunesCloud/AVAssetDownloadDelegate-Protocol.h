@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVAggregateAssetDownloadTask, NSURL, NSURLSession;
+
 @protocol AVAssetDownloadDelegate
+
+@optional
+- (void)V_workQueue;
+- (void),V_serialQueue;
+- (void)>",&,N,V_accessQueue;
+- (void)ceID:(NSURLSession *)arg1;
+- (void)diffMetadataWithPersistentID:(NSURLSession *)arg1 containerPersistentID:(AVAggregateAssetDownloadTask *)arg2 itemPersistentID:(NSURL *)arg3 newPosition:previousPosition:uuid:positionUUD:occurrenceID: /* Error: Ran out of types for this method. */;
+- (void)defaultRenderer;
+- (void);
 @end
 

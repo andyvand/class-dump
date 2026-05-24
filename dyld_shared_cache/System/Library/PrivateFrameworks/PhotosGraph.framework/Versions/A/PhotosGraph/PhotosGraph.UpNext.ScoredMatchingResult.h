@@ -7,7 +7,6 @@
 @interface PhotosGraph.UpNext.ScoredMatchingResult
 {
     id matchingResult;
-    id score;
 }
 
 @end

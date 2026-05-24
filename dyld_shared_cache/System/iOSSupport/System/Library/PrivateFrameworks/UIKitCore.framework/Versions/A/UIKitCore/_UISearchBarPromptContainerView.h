@@ -6,18 +6,14 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UILabel;
-
 __attribute__((visibility("hidden")))
 @interface _UISearchBarPromptContainerView : UIView
 {
     long long _barMetrics;
-    UILabel *_promptLabel;
-    struct UIEdgeInsets _contentInset;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)pref key %@:merged-duplicate-chats /* Error: Ran out of types for this method. */;
+- (void)_payloadGroup;
 - (struct CGSize);
 - (id);
 - (void);
@@ -32,8 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long barMetrics; // @synthesize barMetrics=_barMetrics;
-@property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;
-@property(retain, nonatomic) UILabel *promptLabel; // @synthesize promptLabel=_promptLabel;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
-
 @interface ACDKeychainCache
 {
     struct os_unfair_lock_s _cachesLock;
-    struct os_unfair_lock_s _expirersLock;
-    unsigned int _cacheValidityDuration;
-    NSDictionary *_cachesByUsername;
-    NSMutableDictionary *_expirersByUsername;
 }
 
-- (void);
+- (void)c;
 - (void);
 - (unsigned int);
 - (void);
@@ -30,8 +24,6 @@
 
 // Remaining properties
 @property unsigned int cacheValidityDuration; // @synthesize cacheValidityDuration=_cacheValidityDuration;
-@property(retain) NSDictionary *cachesByUsername; // @synthesize cachesByUsername=_cachesByUsername;
-@property(retain) NSMutableDictionary *expirersByUsername; // @synthesize expirersByUsername=_expirersByUsername;
 
 @end
 

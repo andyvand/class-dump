@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBIndexedUserActivityCommand
 {
     NSString *_userActivityRequiredString;
-    NSString *_applicationBundleIdentifier;
 }
 
-- (void);
+- (void)p;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)negativeAutonamingUserFeedbackForPerson:(id)arg1 rejectedName: /* Error: Ran out of types for this method. */;
+- (id)V_vuObservationID;
+- (id)le to write out indicator file;
 - (id);
 - (id);
 - (void);
-- (void)Event: /* Error: Ran out of types for this method. */;
+- (void)setViewAppearEvent: /* Error: Ran out of types for this method. */;
 - (id)ò~;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *userActivityRequiredString; // @synthesize userActivityRequiredString=_userActivityRequiredString;
 
 @end

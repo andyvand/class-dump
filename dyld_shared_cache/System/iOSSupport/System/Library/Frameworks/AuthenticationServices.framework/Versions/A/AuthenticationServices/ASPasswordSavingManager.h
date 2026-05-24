@@ -7,22 +7,13 @@
 @interface ASPasswordSavingManager
 {
     id savedAccountStore;
-    id autoFillQuirksManager;
-    id passwordWarningStore;
-    id highLevelDomainsProvider;
-    id $__lazy_storage_$_passwordWarningManager;
-    id $__lazy_storage_$_credentialProvidersProvider;
-    id $__lazy_storage_$_applicationRecordResolver;
-    id $__lazy_storage_$_passwordCredentialActionsProvider;
-    id $__lazy_storage_$_autoFillInfoProvider;
-    id $__lazy_storage_$_accountUpgradeInformationProvider;
 }
 
+- (void);
+- (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)Z;
 - (void);
 
 @end

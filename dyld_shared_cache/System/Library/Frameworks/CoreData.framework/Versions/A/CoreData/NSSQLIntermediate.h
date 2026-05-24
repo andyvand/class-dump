@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSQLEntity;
+@class NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLIntermediate
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,17 +35,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)legal multi-threaded access to database connection;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)usesEncodedMessages;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSQLEntity *disambiguatingEntity;
-@property(readonly, nonatomic) NSArray *disambiguationKeypath;
-@property(readonly, nonatomic) _Bool disambiguationKeypathHasToMany;
 
 @end
 

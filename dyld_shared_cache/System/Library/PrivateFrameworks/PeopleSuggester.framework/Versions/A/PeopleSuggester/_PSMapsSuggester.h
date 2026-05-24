@@ -8,9 +8,9 @@
 {
 }
 
-- (id);
-- (void);
-- (void);
+- (id)_hasCdmDelegatedUserDialogActTier1;
+- (void)_flowPluginLoadContext;
+- (void)_cacheStoringContext;
 
 @end
 

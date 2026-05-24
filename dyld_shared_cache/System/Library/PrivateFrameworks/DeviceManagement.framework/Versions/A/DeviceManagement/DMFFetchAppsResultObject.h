@@ -11,13 +11,13 @@
     NSDictionary *_appsByBundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ing CNAutocompletePresentationType (%@) on %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *appsByBundleIdentifier; // @synthesize appsByBundleIdentifier=_appsByBundleIdentifier;

@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatSlotNode
 {
     id identifier;
-    id _extended;
-    id _children;
-    id _selectors;
-    id _options;
 }
 
 @end

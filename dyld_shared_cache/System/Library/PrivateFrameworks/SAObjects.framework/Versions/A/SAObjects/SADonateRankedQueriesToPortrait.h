@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SADonateRankedQueriesToPortrait : SABaseClientBoundCommand
 {
@@ -20,14 +20,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *queryDonations;
-@property(copy, nonatomic) NSString *resultCandidateId;
-@property(copy, nonatomic) NSString *utterance;
 
 @end
 

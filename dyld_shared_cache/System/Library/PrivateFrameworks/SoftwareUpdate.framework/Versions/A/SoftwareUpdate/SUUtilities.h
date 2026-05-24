@@ -8,21 +8,21 @@
 {
 }
 
++ (id)̩;
++ (unsigned int);
 + (id);
-+ (unsigned int);
++ (id);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (id);
 + (long long);
 + (void);
 + (unsigned long long);
-+ (int);
++ (int);
 + (unsigned long long);
 
 @end

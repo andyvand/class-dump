@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (float);
-- (void)blem:fromView:isQuickAction: /* Error: Ran out of types for this method. */;
+- (void)placeCardActionControllerDidSelectReportAProblem:fromView:isQuickAction: /* Error: Ran out of types for this method. */;
 
 @end
 

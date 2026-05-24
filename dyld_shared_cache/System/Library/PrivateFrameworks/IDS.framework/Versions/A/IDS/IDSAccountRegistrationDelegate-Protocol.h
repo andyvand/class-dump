@@ -5,5 +5,9 @@
 //
 
 @protocol IDSAccountRegistrationDelegate
+
+@optional
+- (void);
+- (void)#m;
 @end
 

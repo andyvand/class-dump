@@ -9,18 +9,10 @@
 @interface WBSReaderFont
 {
     NSString *_familyName;
-    NSString *_displayName;
-    NSString *_localizedName;
-    _Bool _hasCalculatedLocalizedName;
-    long long _type;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayName;
 @property(readonly, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, nonatomic) NSString *familyNameForWebContent;
-@property(readonly, nonatomic, getter=isInstalled) _Bool installed;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 @end
 

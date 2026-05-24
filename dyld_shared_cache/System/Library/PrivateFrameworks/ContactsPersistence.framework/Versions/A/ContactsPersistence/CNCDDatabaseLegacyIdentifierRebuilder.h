@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSString;
-@protocol CNCDIOSLegacyIdentifierRegistration;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNCDDatabaseLegacyIdentifierRebuilder
 {
     NSString *_namespaceIdentifier;
-    id <CNCDIOSLegacyIdentifierRegistration> _registrar;
-    NSManagedObjectContext *_moc;
 }
 
 - (void);
@@ -24,15 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)set required interface;
 - (id);
 - (void);
-- (id)mageSyncFailedTime;
+- (id)imageSyncFailedTime;
 
 // Remaining properties
-@property(retain, nonatomic) NSManagedObjectContext *moc; // @synthesize moc=_moc;
 @property(retain, nonatomic) NSString *namespaceIdentifier; // @synthesize namespaceIdentifier=_namespaceIdentifier;
-@property(retain, nonatomic) id <CNCDIOSLegacyIdentifierRegistration> registrar; // @synthesize registrar=_registrar;
 
 @end
 

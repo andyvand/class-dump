@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVOutputDevice, NSString;
+@class MRAVOutputDevice;
 @protocol HMDAVOutputDevice;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaOutputDevice
 {
     MRAVOutputDevice *_outputDevice;
-    NSString *_uniqueIdentifier;
-    NSString *_name;
 }
 
 - (_Bool);
@@ -38,14 +36,6 @@ To do this, select on TTR Device Diagnostics > Log Archive (Full) /* Error: Ran 
 
 // Remaining properties
 @property(readonly) id <HMDAVOutputDevice> av_OutputDevice;
-@property(readonly, nonatomic) unsigned int deviceSubtype;
-@property(readonly) _Bool isAppleMediaAccessory;
-@property(readonly, nonatomic) NSString *modelID;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) MRAVOutputDevice *outputDevice; // @synthesize outputDevice=_outputDevice;
-@property(readonly, nonatomic) _Bool supportsHAP;
-@property(readonly, nonatomic) _Bool supportsWHA;
-@property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

@@ -12,7 +12,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void)ldHideItems;
+- (void)shouldHideItems;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType hitTestHandler; // @synthesize hitTestHandler=_hitTestHandler;

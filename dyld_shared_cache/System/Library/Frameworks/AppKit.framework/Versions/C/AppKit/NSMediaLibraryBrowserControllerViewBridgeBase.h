@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface NSMediaLibraryBrowserControllerViewBridgeBase : NSMediaLibraryBrowserController
 {
     unsigned long long mediaLibraries;
-    struct CGRect frame;
 }
 
 - (void);
 - (unsigned long long);
 - (struct CGRect);
-- (void)NSPaddedButton;
+- (void)_NSPaddedButton;
 
 @end
 

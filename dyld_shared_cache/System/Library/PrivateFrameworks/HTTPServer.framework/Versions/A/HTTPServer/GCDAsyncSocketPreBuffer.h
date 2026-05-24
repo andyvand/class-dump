@@ -7,9 +7,6 @@
 @interface GCDAsyncSocketPreBuffer
 {
     char *preBuffer;
-    unsigned long long preBufferSize;
-    char *readPointer;
-    char *writePointer;
 }
 
 - (void);

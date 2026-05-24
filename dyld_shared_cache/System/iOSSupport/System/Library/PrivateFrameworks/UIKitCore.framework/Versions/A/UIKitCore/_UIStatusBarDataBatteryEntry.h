@@ -6,18 +6,12 @@
 
 #import <UIKitCore/_UIStatusBarDataEntry.h>
 
-@class NSString;
-
 @interface _UIStatusBarDataBatteryEntry : _UIStatusBarDataEntry
 {
     _Bool _saverModeActive;
-    _Bool _prominentlyShowsDetailString;
-    long long _capacity;
-    long long _state;
-    NSString *_detailString;
 }
 
-+ (_Bool)IToolbarButton;
++ (_Bool)UIToolbarButton;
 - (id);
 - (_Bool);
 - (void);
@@ -29,21 +23,17 @@
 × ;
 - (_Bool)SheetCompactPresentationController"16;
 - (long long)Size=dd}}16{CGPoint=dd}48q64@72q80;
-- (void)ckingDidBegin;
-- (void)ckUpCount;
-- (id)letterSpacing:includeEmoji: /* Error: Ran out of types for this method. */;
-- (id)owsFreezeLayoutForOrientationChangeOnDismissal;
-- (_Bool)nuContainerView;
+- (void)trackingDidBegin;
+- (void)singleStringKeyFlickUpCount;
+- (id)drawAtPoint:forWidth:withFont:lineBreakMode:letterSpacing:includeEmoji: /* Error: Ran out of types for this method. */;
+- (id)_allowsFreezeLayoutForOrientationChangeOnDismissal;
+- (_Bool)_UIEditMenuContainerView;
 - (id)0r;
 - (void)%03y¿'¿7G;
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long capacity; // @synthesize capacity=_capacity;
-@property(copy, nonatomic) NSString *detailString; // @synthesize detailString=_detailString;
-@property(nonatomic) _Bool prominentlyShowsDetailString; // @synthesize prominentlyShowsDetailString=_prominentlyShowsDetailString;
-@property(nonatomic) _Bool saverModeActive; // @synthesize saverModeActive=_saverModeActive;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

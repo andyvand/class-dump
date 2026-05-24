@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface _DASSubmissionRateLimiter
 {
     _Bool _testing;
-    struct os_unfair_lock_s _penaltyLock;
-    int _token;
-    NSCountedSet *_submittedActivityTracker;
-    NSCountedSet *_penaltyTracker;
-    NSMutableArray *_minorPenaltyActivities;
-    NSMutableArray *_majorPenaltyActivities;
-    unsigned long long _minorPenaltyTimerCount;
-    unsigned long long _majorPenaltyTimerCount;
-    NSObject<OS_os_log> *_log;
-    NSString *_limitationName;
-    NSObject<OS_dispatch_source> *_submissionTimer;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
 - (void);
+- (id)m.apple.xbs/TemporaryDirectory.hWlwa1/Sources/CVML_Espresso/E5ML/E5RT/ComputeRuntime/Src/OnDeviceAOTCompilerInterface.cpp;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)NSt3__120__shared_ptr_emplaceIN8Espresso14MPSGraphEngine7Kernels18load_random_kernelENS_9allocatorIS4_EEEE;
+- (id)utils_set_fp16_elementE3$_0;
 - (void);
 - (struct os_unfair_lock_s);
 - (void);
@@ -51,39 +39,20 @@
 - (int);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)P;
 - (void);
 - (void);
-- (void);
-- (void)bjects: /* Error: Ran out of types for this method. */;
+- (void)setObjects: /* Error: Ran out of types for this method. */;
 - (void)Object of class %@:%@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *limitationName; // @synthesize limitationName=_limitationName;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSMutableArray *majorPenaltyActivities; // @synthesize majorPenaltyActivities=_majorPenaltyActivities;
-@property(nonatomic) unsigned long long majorPenaltyTimerCount; // @synthesize majorPenaltyTimerCount=_majorPenaltyTimerCount;
-@property(retain, nonatomic) NSMutableArray *minorPenaltyActivities; // @synthesize minorPenaltyActivities=_minorPenaltyActivities;
-@property(nonatomic) unsigned long long minorPenaltyTimerCount; // @synthesize minorPenaltyTimerCount=_minorPenaltyTimerCount;
-@property(nonatomic) struct os_unfair_lock_s penaltyLock; // @synthesize penaltyLock=_penaltyLock;
-@property(retain, nonatomic) NSCountedSet *penaltyTracker; // @synthesize penaltyTracker=_penaltyTracker;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *submissionTimer; // @synthesize submissionTimer=_submissionTimer;
-@property(retain, nonatomic) NSCountedSet *submittedActivityTracker; // @synthesize submittedActivityTracker=_submittedActivityTracker;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool testing; // @synthesize testing=_testing;
-@property(nonatomic) int token; // @synthesize token=_token;
 
 @end
 

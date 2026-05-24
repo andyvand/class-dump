@@ -7,10 +7,10 @@
 @class NSArray, NSString;
 
 @protocol _UINavigationBarNSToolbarItemGroupProviding
-- (void)ckActionViewSelected;
+- (void)_leadingQuickActionViewSelected;
 - (NSString *)@i;
 - (void)PreviewAtLocation;
-- (NSArray *)eSchedulerMinScheduledDurationSeconds;
+- (NSArray *)UpdateSchedulerMinScheduledDurationSeconds;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setSectionForGeneratingToolbarIdentifiers:) NSString *_sectionForGeneratingToolbarIdentifiers;

@@ -18,7 +18,6 @@
 + (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSocialPosts; // @dynamic hasSocialPosts;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
 
 @end

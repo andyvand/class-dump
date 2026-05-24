@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSUUID, PKRemotePaymentInstrument;
+@class NSString;
 
 @interface PKRemoteDevice
 {
     _Bool _isLocked;
-    _Bool _userDisabled;
-    _Bool _deviceDisabled;
-    _Bool _supportsFaceID;
-    NSString *_deviceName;
-    long long _type;
-    NSString *_modelIdentifier;
-    NSDate *_lastSeen;
-    long long _proximityState;
-    NSArray *_remotePaymentInstruments;
-    PKRemotePaymentInstrument *_defaultRemotePaymentInstrument;
-    NSString *_uniqueID;
-    NSUUID *_bluetoothUUID;
-    NSArray *_supportedSetupFeatures;
-    long long _majorOperatingSystemVersion;
 }
 
 + (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)i	K)u;
 - (void);
 - (void);
 - (void);
@@ -42,10 +28,10 @@
 - (long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)*;
 - (long long);
 - (void);
 - (id);
@@ -59,36 +45,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)_isPathExpensive;
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void)0@ù
 × ;
-- (id)mping: /* Error: Ran out of types for this method. */;
+- (id)initWithMass:stiffness:damping: /* Error: Ran out of types for this method. */;
 - (void)Choice:%@; Configuration: /* Error: Ran out of types for this method. */;
 - (void)Info:(id)arg1 '%@'; ;
 - (id)parison:'%lu';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *bluetoothUUID; // @synthesize bluetoothUUID=_bluetoothUUID;
-@property(readonly, nonatomic) _Bool canMakePayments;
-@property(retain, nonatomic) PKRemotePaymentInstrument *defaultRemotePaymentInstrument; // @synthesize defaultRemotePaymentInstrument=_defaultRemotePaymentInstrument;
-@property(nonatomic) _Bool deviceDisabled; // @synthesize deviceDisabled=_deviceDisabled;
 @property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) _Bool isLocked; // @synthesize isLocked=_isLocked;
-@property(retain, nonatomic) NSDate *lastSeen; // @synthesize lastSeen=_lastSeen;
-@property(nonatomic) long long majorOperatingSystemVersion; // @synthesize majorOperatingSystemVersion=_majorOperatingSystemVersion;
-@property(retain, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(nonatomic) long long proximityState; // @synthesize proximityState=_proximityState;
-@property(retain, nonatomic) NSArray *remotePaymentInstruments; // @synthesize remotePaymentInstruments=_remotePaymentInstruments;
-@property(retain, nonatomic) NSArray *supportedSetupFeatures; // @synthesize supportedSetupFeatures=_supportedSetupFeatures;
-@property(nonatomic) _Bool supportsFaceID; // @synthesize supportsFaceID=_supportsFaceID;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(nonatomic) _Bool userDisabled; // @synthesize userDisabled=_userDisabled;
 
 @end
 

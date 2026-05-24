@@ -7,13 +7,9 @@
 @interface CABatchHandle
 {
     unsigned long long _handle_name;
-    unsigned long long _batch_name;
-    unsigned int _port;
-    struct SpinLock _lock;
-    _Bool _invalidated;
 }
 
-+ (id);
++ (id)`;
 + (_Bool);
 - (void);
 - (id);
@@ -21,8 +17,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)teWithCGDisplays error -6670 due to invalid display;
+- (id)transitionTypeString;
 - (id);
 
 @end

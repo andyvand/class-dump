@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CTSimDeactivationEvent
 {
     _Bool _isRoaming;
-    _Bool _isNetworkInitiated;
-    unsigned long long _sourceType;
-    NSString *_reasonCode;
-    NSString *_networkPlmn;
-    NSString *_rat;
-    long long _timeOfEvent;
 }
 
-+ (_Bool);
++ (_Bool)set reader;
 - (long long);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -30,23 +22,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)setPeerIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)@;
+- (void)isResourceNotFoundError:(id)arg1;
 - (void)1Â0@ù
 × ;
 - (void);
 - (_Bool)L;
-- (unsigned long long)RatMask;
+- (unsigned long long)kCarrierPLMNPriorityRatMask;
 
 // Remaining properties
-@property(nonatomic) _Bool isNetworkInitiated; // @synthesize isNetworkInitiated=_isNetworkInitiated;
-@property(nonatomic) _Bool isRoaming; // @synthesize isRoaming=_isRoaming;
-@property(retain, nonatomic) NSString *networkPlmn; // @synthesize networkPlmn=_networkPlmn;
-@property(retain, nonatomic) NSString *rat; // @synthesize rat=_rat;
-@property(retain, nonatomic) NSString *reasonCode; // @synthesize reasonCode=_reasonCode;
 @property(nonatomic) unsigned long long sourceType; // @synthesize sourceType=_sourceType;
-@property(nonatomic) long long timeOfEvent; // @synthesize timeOfEvent=_timeOfEvent;
 
 @end
 

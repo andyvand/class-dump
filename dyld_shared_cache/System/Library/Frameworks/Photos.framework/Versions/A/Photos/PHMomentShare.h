@@ -6,31 +6,11 @@
 
 #import <Photos/PHAssetCollection.h>
 
-@class NSData, NSDate, NSString, NSURL, PHMomentSharePreview;
+@class NSDate;
 
 @interface PHMomentShare : PHAssetCollection
 {
     NSDate *_creationDate;
-    PHMomentSharePreview *_preview;
-    _Bool _shouldIgnoreBudgets;
-    _Bool _shouldNotifyOnUploadCompletion;
-    _Bool _containsEPPAssets;
-    unsigned short _status;
-    short _publicPermission;
-    unsigned short _trashedState;
-    short _publishState;
-    unsigned long long _assetCount;
-    unsigned long long _photosCount;
-    unsigned long long _videosCount;
-    unsigned long long _cloudPhotoCount;
-    unsigned long long _cloudVideoCount;
-    unsigned long long _cloudItemCount;
-    NSURL *_shareURL;
-    NSDate *_expiryDate;
-    NSData *_ckShareData;
-    NSString *_scopeIdentifier;
-    NSData *_previewData;
-    NSData *_thumbnailImageData;
 }
 
 + (_Bool);
@@ -41,11 +21,11 @@
 + (void);
 + (id);
 + (id);
++ (id)handleAMSDialogRequest:completion: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)eason:(id)arg1;
++ (id)_handleLibraryBecameUnavailable:(id)arg1 reason:(id)arg2;
 + (_Bool);
 + (id)ÿ;
 

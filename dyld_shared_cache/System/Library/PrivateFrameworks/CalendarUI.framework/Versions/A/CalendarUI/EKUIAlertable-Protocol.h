@@ -7,9 +7,11 @@
 @class NSDate, NSString;
 
 @protocol EKUIAlertable
+- (NSString *);
+- (NSString *)߈	;
+- (long long);
 
 // Remaining properties
 @property(retain) NSDate *alarmTime;
-@property(retain) NSString *personIdentifier;
 @end
 

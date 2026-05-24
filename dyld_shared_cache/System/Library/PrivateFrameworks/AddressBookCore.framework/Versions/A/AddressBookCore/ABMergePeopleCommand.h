@@ -6,47 +6,38 @@
 
 #import <AddressBookCore/ABBookUndoableCommand.h>
 
-@class ABAddressBook, NSArray, NSDictionary, NSMutableArray;
+@class ABAddressBook, NSDictionary;
 
 @interface ABMergePeopleCommand : ABBookUndoableCommand
 {
     ABAddressBook *_addressBook;
-    NSArray *_initialPeople;
-    NSDictionary *_snapshotBefore;
-    NSDictionary *_snapshotAfter;
-    NSMutableArray *_resultingPeople;
-    NSArray *_resultingPeopleUIDs;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)C;
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *resultingPeople; // @synthesize resultingPeople=_resultingPeople;
-@property(copy) NSArray *resultingPeopleUIDs; // @synthesize resultingPeopleUIDs=_resultingPeopleUIDs;
-@property(copy) NSDictionary *snapshotAfter; // @synthesize snapshotAfter=_snapshotAfter;
 @property(copy) NSDictionary *snapshotBefore; // @synthesize snapshotBefore=_snapshotBefore;
 
 @end

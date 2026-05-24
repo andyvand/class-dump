@@ -10,11 +10,11 @@
 {
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)I;
+- (void)copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version FROM item_extra;
+- (id)B;
 - (id);
-- (id);
-- (id);
+- (id)setVideoTaskToResourceLoadingRequest: /* Error: Ran out of types for this method. */;
 
 @end
 

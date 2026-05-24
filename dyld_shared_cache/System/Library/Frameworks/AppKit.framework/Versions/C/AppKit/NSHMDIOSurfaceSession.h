@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColorSpace, NSHMDDevice, NSMutableDictionary;
+@class NSHMDDevice;
 
 @interface NSHMDIOSurfaceSession
 {
     NSHMDDevice *_device;
-    struct _opaque_pthread_mutex_t _mutex;
-    struct _SLSHMD *_hmd;
-    NSMutableDictionary *_configuration;
 }
 
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)for delegate class %llu;
+- (void)ting a new nehelper connection for delegate class %llu;
+- (void)nvalid delegate class id:(id)arg1 %llu;
 - (struct CGSize);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (long long);
-- (id);
-- (id);
-- (struct CGSize);
+- (unsigned int)_socketReadStreamForUpgrade;
+- (long long)_sniffResponse;
+- (id)_skipsStackTraceCapture;
+- (id)_maxDataSegmentCount;
+- (struct CGSize);
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void),;
 - (void);
 - (_Bool);
 - (id);
@@ -40,16 +37,6 @@
 
 // Remaining properties
 @property(readonly) NSHMDDevice *device;
-@property(retain) NSColorSpace *drawableColorSpace;
-@property unsigned int drawablePixelFormat;
-@property struct CGSize drawableSize;
-@property(readonly) struct CGSize maxDrawableSize;
-@property(readonly) struct CGSize minDrawableSize;
-@property(readonly) unsigned int preferredAcceleratorPort;
-@property(readonly) unsigned int preferredDrawablePixelFormat;
-@property(readonly) struct CGSize preferredDrawableSize;
-@property(readonly, copy) NSArray *supportedDrawablePixelFormats;
-@property(readonly, getter=isValid) _Bool valid;
 
 @end
 

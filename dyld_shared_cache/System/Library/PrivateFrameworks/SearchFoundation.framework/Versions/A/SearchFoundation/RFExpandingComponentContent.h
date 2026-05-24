@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFLongItemStandardCardSection, RFReferenceFootnoteCardSection;
+@class RFLongItemStandardCardSection;
 
 @interface RFExpandingComponentContent
 {
@@ -12,8 +12,6 @@
         unsigned int long_item_standard_card_section:1;
         unsigned int reference_footnote_card_section:1;
     } _has;
-    RFLongItemStandardCardSection *_long_item_standard_card_section;
-    RFReferenceFootnoteCardSection *_reference_footnote_card_section;
 }
 
 + (_Bool);
@@ -23,28 +21,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)insertObjectsAtStart:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)are:(id)arg1 importSessionID:bakeInAdjustmentsFromSourceAsset:flattenLivePhoto:copyTitleDescriptionAndKeywords:copyCameraProcessingAdjustmentResources:library: /* Error: Ran out of types for this method. */;
+- (id)extendedAttributes.trackFormat;
 - (id);
 - (id);
 - (void)nce;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFLongItemStandardCardSection *long_item_standard_card_section; // @synthesize long_item_standard_card_section=_long_item_standard_card_section;
-@property(retain, nonatomic) RFReferenceFootnoteCardSection *reference_footnote_card_section; // @synthesize reference_footnote_card_section=_reference_footnote_card_section;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,11 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *objectForm;
-@property(nonatomic, readonly) NSString *possessiveAdjectiveForm;
-@property(nonatomic, readonly) NSString *possessiveForm;
-@property(nonatomic, readonly) NSString *reflexiveForm;
-@property(nonatomic, readonly) NSString *subjectForm;
 
 @end
 

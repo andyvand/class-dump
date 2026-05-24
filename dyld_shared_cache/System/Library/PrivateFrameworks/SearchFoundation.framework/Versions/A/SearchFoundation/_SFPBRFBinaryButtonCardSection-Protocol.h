@@ -7,10 +7,9 @@
 @class NSData, _SFPBButtonItem;
 
 @protocol _SFPBRFBinaryButtonCardSection
+- (NSData *)PHRelationshipChangeRequestHelper",R,N,V_detectedFacesHelper;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBButtonItem *primary_button;
-@property(retain, nonatomic) _SFPBButtonItem *secondary_button;
 @end
 

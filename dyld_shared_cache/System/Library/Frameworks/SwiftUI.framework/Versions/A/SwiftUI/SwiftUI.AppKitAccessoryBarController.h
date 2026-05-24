@@ -11,10 +11,10 @@
 }
 
 - (void);
-- (long long);
+- (long long)String",?,R,C;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void),m
 ;
 

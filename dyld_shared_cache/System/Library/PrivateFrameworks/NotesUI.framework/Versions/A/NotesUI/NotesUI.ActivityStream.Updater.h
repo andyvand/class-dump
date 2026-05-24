@@ -7,8 +7,6 @@
 @interface NotesUI.ActivityStream.Updater
 {
     id resolver;
-    id selection;
-    id pressedItem;
 }
 
 @end

@@ -13,8 +13,8 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)]}16S24*28@"AAP"36;
+- (void)HeartbeatAlive;
 - (id);
 - (id);
 

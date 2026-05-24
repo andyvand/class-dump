@@ -5,5 +5,7 @@
 //
 
 @protocol SFUOutputStream
+- (void);
+- (void);
 @end
 

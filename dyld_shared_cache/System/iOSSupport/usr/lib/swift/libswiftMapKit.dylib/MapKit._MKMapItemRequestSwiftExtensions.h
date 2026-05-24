@@ -7,6 +7,7 @@
 @interface MapKit._MKMapItemRequestSwiftExtensions
 {
     id placeDescriptor;
+    id;
 }
 
 - (id);

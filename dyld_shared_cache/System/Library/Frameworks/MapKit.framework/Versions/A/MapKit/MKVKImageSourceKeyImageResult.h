@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKVKImageSourceCalculationParameters, NSArray, NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface MKVKImageSourceKeyImageResult
 {
     NSMutableArray *_mutableFullBleedColors;
-    _Bool _sameFullBleedColors;
-    MKVKImageSourceCalculationParameters *_parameters;
-    NSMutableArray *_triedKeys;
-    NSMutableArray *_mutableImages;
-    NSMutableSet *_imageDatas;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)checkOpenIntervalDuration: /* Error: Ran out of types for this method. */;
+- (void)= %@;
+- (void)nary:(id)arg1 %@) for aggregation with configuration:%@ /* Error: Ran out of types for this method. */;
+- (void)quickEnergyDiff=%f = cpuEnergyDiff=%f + networkEnergydiff=%f;
 - (id);
 - (id);
 - (_Bool);
@@ -29,15 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)lected;
+- (void)selected;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *fullBleedColors;
-@property(retain, nonatomic) NSMutableSet *imageDatas; // @synthesize imageDatas=_imageDatas;
-@property(readonly, nonatomic) NSArray *images;
-@property(retain, nonatomic) NSMutableArray *mutableImages; // @synthesize mutableImages=_mutableImages;
-@property(readonly, nonatomic) MKVKImageSourceCalculationParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic, getter=hasSameFullBleedColors) _Bool sameFullBleedColors; // @synthesize sameFullBleedColors=_sameFullBleedColors;
 @property(retain, nonatomic) NSMutableArray *triedKeys; // @synthesize triedKeys=_triedKeys;
 
 @end

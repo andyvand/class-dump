@@ -7,30 +7,11 @@
 @interface CWBTCStatus
 {
     _Bool _coexEnabled;
-    _Bool _tdmEnabled;
-    _Bool _hybridEnabled;
-    long long _btAntennaRequestsCount;
-    long long _btAntennaGrantCount;
-    long long _btAntennaGrantDurationMicroseconds;
-    long long _btAbortCount;
-    _Bool _antennaRequestedDueToACL;
-    _Bool _antennaRequestedDueToSCO;
-    _Bool _antennaRequestedDueToeSCO;
-    _Bool _antennaRequestedDueToA2DP;
-    _Bool _antennaRequestedDueToSniff;
-    _Bool _antennaRequestedDueToPageScan;
-    _Bool _antennaRequestedDueToInquiryScan;
-    _Bool _antennaRequestedDueToPage;
-    _Bool _antennaRequestedDueToInquiry;
-    _Bool _antennaRequestedDueToBLE;
-    _Bool _antennaRequestedDueToOther;
-    long long _psnullRetryCountExceededCount;
-    long long _ucodeHighLatencyDetectedCount;
 }
 
 + (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)<;
 - (void);
 - (void);
 - (void);
@@ -54,16 +35,16 @@
 - (_Bool);
 - (_Bool);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
-- (long long);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -73,36 +54,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)@;
+- (_Bool)#;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool antennaRequestedDueToA2DP; // @synthesize antennaRequestedDueToA2DP=_antennaRequestedDueToA2DP;
-@property(nonatomic) _Bool antennaRequestedDueToACL; // @synthesize antennaRequestedDueToACL=_antennaRequestedDueToACL;
-@property(nonatomic) _Bool antennaRequestedDueToBLE; // @synthesize antennaRequestedDueToBLE=_antennaRequestedDueToBLE;
-@property(nonatomic) _Bool antennaRequestedDueToInquiry; // @synthesize antennaRequestedDueToInquiry=_antennaRequestedDueToInquiry;
-@property(nonatomic) _Bool antennaRequestedDueToInquiryScan; // @synthesize antennaRequestedDueToInquiryScan=_antennaRequestedDueToInquiryScan;
-@property(nonatomic) _Bool antennaRequestedDueToOther; // @synthesize antennaRequestedDueToOther=_antennaRequestedDueToOther;
-@property(nonatomic) _Bool antennaRequestedDueToPage; // @synthesize antennaRequestedDueToPage=_antennaRequestedDueToPage;
-@property(nonatomic) _Bool antennaRequestedDueToPageScan; // @synthesize antennaRequestedDueToPageScan=_antennaRequestedDueToPageScan;
-@property(nonatomic) _Bool antennaRequestedDueToSCO; // @synthesize antennaRequestedDueToSCO=_antennaRequestedDueToSCO;
-@property(nonatomic) _Bool antennaRequestedDueToSniff; // @synthesize antennaRequestedDueToSniff=_antennaRequestedDueToSniff;
-@property(nonatomic) _Bool antennaRequestedDueToeSCO; // @synthesize antennaRequestedDueToeSCO=_antennaRequestedDueToeSCO;
-@property(nonatomic) long long btAbortCount; // @synthesize btAbortCount=_btAbortCount;
-@property(nonatomic) long long btAntennaGrantCount; // @synthesize btAntennaGrantCount=_btAntennaGrantCount;
-@property(nonatomic) long long btAntennaGrantDurationMicroseconds; // @synthesize btAntennaGrantDurationMicroseconds=_btAntennaGrantDurationMicroseconds;
-@property(nonatomic) long long btAntennaRequestsCount; // @synthesize btAntennaRequestsCount=_btAntennaRequestsCount;
 @property(nonatomic) _Bool coexEnabled; // @synthesize coexEnabled=_coexEnabled;
-@property(nonatomic) _Bool hybridEnabled; // @synthesize hybridEnabled=_hybridEnabled;
-@property(nonatomic) long long psnullRetryCountExceededCount; // @synthesize psnullRetryCountExceededCount=_psnullRetryCountExceededCount;
-@property(nonatomic) _Bool tdmEnabled; // @synthesize tdmEnabled=_tdmEnabled;
-@property(nonatomic) long long ucodeHighLatencyDetectedCount; // @synthesize ucodeHighLatencyDetectedCount=_ucodeHighLatencyDetectedCount;
 
 @end
 

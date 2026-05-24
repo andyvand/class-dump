@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, VBXPCConnection;
+@class NSObject, VBXPCConnection;
 @protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface VBXPCConnectionTransport
 {
     VBXPCConnection *_connection;
-    int _cachedProcessIdentifier;
-    struct set<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> _repliesPending;
-    struct os_unfair_lock_s _repliesPendingLock;
-    NSObject<OS_xpc_object> *_underlyingConnection;
-    CDUnknownBlockType _messageHandlerBlock;
-    CDUnknownBlockType _errorHandlerBlock;
 }
 
-- (void);
+- (void)q!;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -33,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)CloudKit.CloudCoreContainer;
 - (void);
 - (void);
 - (void);
@@ -42,21 +36,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (int);
-- (unsigned int);
-- (void);
+- (unsigned int);
+- (void)removeTrustUsingUsername:(id)arg1 password:deleteTrustAccount:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int)and explain why you tried this.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType errorHandlerBlock; // @synthesize errorHandlerBlock=_errorHandlerBlock;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType messageHandlerBlock; // @synthesize messageHandlerBlock=_messageHandlerBlock;
-@property(readonly) Class superclass;
 @property(retain) NSObject<OS_xpc_object> *underlyingConnection; // @synthesize underlyingConnection=_underlyingConnection;
 
 @end

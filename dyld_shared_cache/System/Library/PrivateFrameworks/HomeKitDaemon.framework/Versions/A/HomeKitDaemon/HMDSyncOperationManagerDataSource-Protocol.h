@@ -7,9 +7,6 @@
 @protocol HMDSyncOperationManagerDataSource
 
 // Remaining properties
-@property(readonly) _Bool isCloudAccountActive;
-@property(readonly) _Bool isNetworkConnectionAvailable;
 @property(readonly) _Bool legacyZoneHasRecordsAvailable;
-@property(readonly) _Bool zoneFetchFailed;
 @end
 

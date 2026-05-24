@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface CSRemoteDeviceProtocolInfo
 {
     unsigned long long _protocolVersion;
-    NSString *_buildVersion;
-    NSString *_deviceProductVersion;
-    NSString *_deviceProductType;
-    unsigned long long _deviceCategory;
 }
 
 + (id);
@@ -21,20 +17,15 @@
 - (id);
 - (id);
 - (id);
+- (id)ng torso bounding box dimensions;
 - (id);
 - (id);
-- (id);
-- (unsigned long long)g: /* Error: Ran out of types for this method. */;
-- (void)language:task:samplingRate:recognizedTokens:recognizedText:correctedText:selectedAlternatives:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setAllowLanguageDetectorAssetDownloading: /* Error: Ran out of types for this method. */;
+- (void)generateConfusionPairsWithUUID:parameters:language:task:samplingRate:recognizedTokens:recognizedText:correctedText:selectedAlternatives:completion: /* Error: Ran out of types for this method. */;
 - (id)edAssetMeta:%@. No mitigation functionality /* Error: Ran out of types for this method. */;
-- (unsigned long long)etrics;
+- (unsigned long long)additionalMetrics;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(readonly, nonatomic) unsigned long long deviceCategory; // @synthesize deviceCategory=_deviceCategory;
-@property(readonly, nonatomic) NSString *deviceProductType; // @synthesize deviceProductType=_deviceProductType;
-@property(readonly, nonatomic) NSString *deviceProductVersion; // @synthesize deviceProductVersion=_deviceProductVersion;
-@property(readonly, nonatomic) unsigned long long protocolVersion; // @synthesize protocolVersion=_protocolVersion;
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *xpcObject;
 
 @end

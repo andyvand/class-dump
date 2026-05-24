@@ -15,8 +15,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)	;
+- (_Bool));
 - (void);
 - (_Bool);
 - (int *);
@@ -27,7 +27,6 @@
 - (unsigned long long)p	¶	;
 
 // Remaining properties
-@property(readonly, nonatomic) int *counts;
 @property(readonly, nonatomic) unsigned long long countsCount;
 
 @end

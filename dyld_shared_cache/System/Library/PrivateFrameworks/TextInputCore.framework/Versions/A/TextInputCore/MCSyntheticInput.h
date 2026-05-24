@@ -6,22 +6,18 @@
 
 #import <TextInputCore/MCKeyboardInput.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MCSyntheticInput : MCKeyboardInput
 {
     _Bool _includeSuffixAsSearchString;
-    _Bool _useSubInputsAsSearchString;
-    NSString *_committedText;
-    NSArray *_syllables;
-    unsigned long long _cursorIndex;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (int);
-- (id);
+- (_Bool)for callID %@, messageType:%ld, senderIsMe:%@, messageText:%{private}@, translatedText:%{private}@ /* Error: Ran out of types for this method. */;
+- (id)axtty_remote_conversation_updates;
+- (id)axtty_conversation_updates;
+- (int)2@?0@"NSString"8Q16^B24;
+- (id)nContext"8Q16^B24;
 - (void);
 - (id);
 - (id);
@@ -29,7 +25,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)intingResultC_G;
 - (id);
 - (id);
 - (id);
@@ -39,12 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *committedText; // @synthesize committedText=_committedText;
-@property(readonly, nonatomic) unsigned long long cursorIndex; // @synthesize cursorIndex=_cursorIndex;
-@property(nonatomic) _Bool includeSuffixAsSearchString; // @synthesize includeSuffixAsSearchString=_includeSuffixAsSearchString;
-@property(readonly, nonatomic) NSArray *syllables; // @synthesize syllables=_syllables;
-@property(readonly, nonatomic) NSString *text;
-@property(readonly, nonatomic) NSString *uncommittedText;
-@property(nonatomic) _Bool useSubInputsAsSearchString; // @synthesize useSubInputsAsSearchString=_useSubInputsAsSearchString;
 
 @end
 

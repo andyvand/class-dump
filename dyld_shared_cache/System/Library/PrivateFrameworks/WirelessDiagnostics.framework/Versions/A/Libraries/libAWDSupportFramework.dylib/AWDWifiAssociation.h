@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface AWDWifiAssociation
 {
     unsigned long long _timestamp;
-    int _band;
-    NSData *_bssidOui;
-    int _channel;
-    NSString *_countryCode;
-    int _deauthReason;
-    NSData *_deauthSourceOui;
-    unsigned int _error;
-    int _noise;
-    unsigned int _phymode;
-    NSString *_privateMacType;
-    NSString *_security;
-    int _signal;
-    int _txrate;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int band:1;
-        unsigned int channel:1;
-        unsigned int deauthReason:1;
-        unsigned int error:1;
-        unsigned int noise:1;
-        unsigned int phymode:1;
-        unsigned int signal:1;
-        unsigned int txrate:1;
-    } _has;
 }
 
 - (int);
@@ -52,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)M9;
 - (int);
 - (id);
 - (_Bool);
@@ -62,7 +36,7 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -83,49 +57,22 @@
 - (void);
 - (int);
 - (void);
-- (id);
+- (id)@$;
 - (int);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (int);
 - (_Bool);
-- (void);
-- (int);
-- (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (int);
-- (void)WarningInteractionType:(_Bool)arg1;
-- (_Bool)tivityThreshold;
+- (void)setDuplicatedPasswordsWarningInteractionType:(_Bool)arg1;
+- (_Bool)_awdlActivityThreshold;
 
 // Remaining properties
-@property(nonatomic) int band; // @synthesize band=_band;
-@property(retain, nonatomic) NSData *bssidOui; // @synthesize bssidOui=_bssidOui;
-@property(nonatomic) int channel; // @synthesize channel=_channel;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(nonatomic) int deauthReason; // @synthesize deauthReason=_deauthReason;
-@property(retain, nonatomic) NSData *deauthSourceOui; // @synthesize deauthSourceOui=_deauthSourceOui;
-@property(nonatomic) unsigned int error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasBand;
-@property(readonly, nonatomic) _Bool hasBssidOui;
-@property(nonatomic) _Bool hasChannel;
-@property(readonly, nonatomic) _Bool hasCountryCode;
-@property(nonatomic) _Bool hasDeauthReason;
-@property(readonly, nonatomic) _Bool hasDeauthSourceOui;
-@property(nonatomic) _Bool hasError;
-@property(nonatomic) _Bool hasNoise;
-@property(nonatomic) _Bool hasPhymode;
-@property(readonly, nonatomic) _Bool hasPrivateMacType;
-@property(readonly, nonatomic) _Bool hasSecurity;
-@property(nonatomic) _Bool hasSignal;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTxrate;
-@property(nonatomic) int noise; // @synthesize noise=_noise;
-@property(nonatomic) unsigned int phymode; // @synthesize phymode=_phymode;
-@property(retain, nonatomic) NSString *privateMacType; // @synthesize privateMacType=_privateMacType;
-@property(retain, nonatomic) NSString *security; // @synthesize security=_security;
-@property(nonatomic) int signal; // @synthesize signal=_signal;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int txrate; // @synthesize txrate=_txrate;
 
 @end
 

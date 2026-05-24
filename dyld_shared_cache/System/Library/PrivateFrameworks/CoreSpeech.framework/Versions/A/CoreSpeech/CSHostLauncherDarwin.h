@@ -8,8 +8,8 @@
 {
 }
 
-+ (id)erPrewarm:activationSource:completion: /* Error: Ran out of types for this method. */;
-- (_Bool);
++ (id)_notifyBuiltInVoiceTriggerPrewarm:activationSource:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)g;
 - (id);
 
 @end

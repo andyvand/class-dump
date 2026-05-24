@@ -7,7 +7,6 @@
 @interface _EARLmModel
 {
     shared_ptr_ae20c496 _model;
-    shared_ptr_6d392393 _buildConfig;
 }
 
 + (void);
@@ -19,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (shared_ptr_6d392393);
+- (shared_ptr_b6797659);
 - (id);
-- (id);
+- (id)nRelationship.Mother;
 - (id);
 - (id);
 - (shared_ptr_ae20c496);
@@ -32,7 +31,6 @@
 - (void)|;
 
 // Remaining properties
-@property(readonly, nonatomic) shared_ptr_6d392393 buildConfig; // @synthesize buildConfig=_buildConfig;
 @property(readonly, nonatomic) shared_ptr_ae20c496 model; // @synthesize model=_model;
 
 @end

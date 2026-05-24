@@ -6,30 +6,28 @@
 
 #import <ChatKit/CKAttachmentMessagePartChatItem.h>
 
-@class CKLocationMediaObject, NSURL;
+@class CKLocationMediaObject;
 
 __attribute__((visibility("hidden")))
 @interface CKTranscriptLocationChatItem : CKAttachmentMessagePartChatItem
 {
     CKLocationMediaObject *_locationMediaObject;
-    NSURL *_locationURL;
 }
 
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (Class);
-- (void);
+- (void)initWithRootRecord:(id)arg1 shareID: /* Error: Ran out of types for this method. */;
+- (id)concurrencyType;
+- (id)MProgressWindowController",&,N,V_progressWindowController;
+- (struct CGSize)_touchBarReason;
+- (Class)o;
+- (void)pyKey is already set;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)E;
+- (void)OFFER_TIME_REMAINING_LESS_THAN_ONE_MINUTE;
 
 // Remaining properties
 @property(retain, nonatomic) CKLocationMediaObject *locationMediaObject; // @synthesize locationMediaObject=_locationMediaObject;
-@property(retain, nonatomic) NSURL *locationURL; // @synthesize locationURL=_locationURL;
 
 @end
 

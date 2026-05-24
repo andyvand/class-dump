@@ -5,6 +5,6 @@
 //
 
 @protocol NFCopying
-- (id)evel;
+- (id)localNotificationEnabledLevel;
 @end
 

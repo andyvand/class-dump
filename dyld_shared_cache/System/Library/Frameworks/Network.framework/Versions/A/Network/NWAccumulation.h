@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NWAccumulation
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isSnapshot;
-    NSString *_name;
-    NSMutableDictionary *_durations;
-    NSString *_currentState;
-    double _lastUpdateTime;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)Outline;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)<B;
 - (void);
 - (id)#;
 - (void)Mutable failed, backtrace limit exceeded;
 - (id)null registrar, backtrace limit exceeded;
-- (void)ction_get_peer_idle_timeout_handler;
+- (void)nw_quic_connection_get_peer_idle_timeout_handler;
 - (void);
-- (double)K9;
+- (double)6K9;
 - (_Bool)2 h;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *currentState; // @synthesize currentState=_currentState;
-@property(retain, nonatomic) NSMutableDictionary *durations; // @synthesize durations=_durations;
-@property(nonatomic) _Bool isSnapshot; // @synthesize isSnapshot=_isSnapshot;
-@property(nonatomic) double lastUpdateTime; // @synthesize lastUpdateTime=_lastUpdateTime;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

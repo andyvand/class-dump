@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 @interface MNRouteDivergenceResults
 {
     NSUUID *_routeID;
-    NSArray *_results;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (void)að!,DùQð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
 @property(retain, nonatomic) NSUUID *routeID; // @synthesize routeID=_routeID;
 
 @end

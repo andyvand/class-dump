@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface PDFKVOObserver
 {
     id _observedObject;
-    NSString *_keyPath;
-    CDUnknownBlockType _block;
 }
 
 - (void);
-- (id);
+- (id)d range is already %@;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)O4;
+- (void)ormalize;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(nonatomic) __weak id observedObject; // @synthesize observedObject=_observedObject;
 
 @end

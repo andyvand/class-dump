@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMHashtagCollectionViewAdaptor
 {
     id target;
-    id hashtagButtonAction;
-    id wrappingContainer;
 }
 
 @end

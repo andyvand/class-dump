@@ -7,10 +7,6 @@
 @interface NewsUI2.FollowingNotificationsLayoutBuilder
 {
     id titleViewLayoutAttributesFactory;
-    id footerViewLayoutAttributesFactory;
-    id tagViewLayoutAttributesFactory;
-    id buttonViewLayoutAttributesFactory;
-    id disabledViewLayoutAttributesFactory;
 }
 
 @end

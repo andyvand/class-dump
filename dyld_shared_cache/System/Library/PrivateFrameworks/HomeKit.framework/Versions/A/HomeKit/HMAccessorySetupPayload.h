@@ -4,23 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryOwnershipToken, HMSetupAccessoryPayload;
+@class HMSetupAccessoryPayload;
 
 @interface HMAccessorySetupPayload
 {
     HMSetupAccessoryPayload *_internalSetupPayload;
-    HMAccessoryOwnershipToken *_ownershipToken;
 }
 
-+ (_Bool);
++ (_Bool)gnitionCommandServices-1
+;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)b;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)geodesy;
+- (void)ڬ;
 - (id);
 - (id);
 - (void)ì
@@ -28,7 +28,6 @@
 
 // Remaining properties
 @property(readonly) HMSetupAccessoryPayload *internalSetupPayload; // @synthesize internalSetupPayload=_internalSetupPayload;
-@property(readonly, copy) HMAccessoryOwnershipToken *ownershipToken; // @synthesize ownershipToken=_ownershipToken;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCalendarEvent;
-
 @interface _INPBCreateEventIntentResponse
 {
     CDStruct_efdd21f4 _has;
-    int _confirmationReason;
-    NSArray *_conflictingEventIdentifiers;
-    _INPBCalendarEvent *_createdEvent;
 }
 
 + (_Bool);
@@ -34,26 +29,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)tenerDelegate>";
+- (void)last supported build currentRestoreVersion:(id)arg1 %@, lastSupportedBuild:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)ty;
+- (id)4;
+- (void)INTypeProperty;
 
 // Remaining properties
 @property(nonatomic) int confirmationReason; // @synthesize confirmationReason=_confirmationReason;
-@property(copy, nonatomic) NSArray *conflictingEventIdentifiers; // @synthesize conflictingEventIdentifiers=_conflictingEventIdentifiers;
-@property(readonly, nonatomic) unsigned long long conflictingEventIdentifiersCount;
-@property(retain, nonatomic) _INPBCalendarEvent *createdEvent; // @synthesize createdEvent=_createdEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasConfirmationReason;
-@property(readonly, nonatomic) _Bool hasCreatedEvent;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

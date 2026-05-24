@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABActionAutovalidatorCache;
-
 @interface ABActionAutovalidator
 {
     id _target;
-    ABActionAutovalidatorCache *_cache;
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (SEL);
 - (SEL);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (_Bool);
 - (id);
@@ -26,13 +23,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void));
 - (void)
 × ;
-- (_Bool)ion;
+- (_Bool)ABValueTransformation;
 
 // Remaining properties
-@property(retain, nonatomic) ABActionAutovalidatorCache *cache; // @synthesize cache=_cache;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

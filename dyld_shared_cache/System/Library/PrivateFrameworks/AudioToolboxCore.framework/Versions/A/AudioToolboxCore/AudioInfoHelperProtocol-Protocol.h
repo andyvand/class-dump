@@ -5,5 +5,6 @@
 //
 
 @protocol AudioInfoHelperProtocol
+- (void)3;
 @end
 

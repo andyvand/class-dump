@@ -6,13 +6,11 @@
 
 #import <ContentKit/WFContentItemChangeTransaction.h>
 
-@class REMReminderChangeItem, REMSaveRequest, REMStore;
+@class REMReminderChangeItem, REMStore;
 
 @interface WFReminderContentItemChangeTransaction : WFContentItemChangeTransaction
 {
     REMReminderChangeItem *_mutableReminder;
-    REMStore *_store;
-    REMSaveRequest *_saveRequest;
 }
 
 + (void);
@@ -27,16 +25,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)So30EKRequestAvailabilityOperationCSgXw;
+- (id);
 - (void);
-- (void);
+- (void)g task request.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) REMReminderChangeItem *mutableReminder; // @synthesize mutableReminder=_mutableReminder;
-@property(retain, nonatomic) REMSaveRequest *saveRequest; // @synthesize saveRequest=_saveRequest;
 @property(readonly, nonatomic) REMStore *store; // @synthesize store=_store;
 
 @end

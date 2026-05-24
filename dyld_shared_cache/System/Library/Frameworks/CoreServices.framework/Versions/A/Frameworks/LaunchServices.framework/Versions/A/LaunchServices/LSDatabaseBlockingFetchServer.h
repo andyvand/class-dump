@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCListener;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface LSDatabaseBlockingFetchServer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCListener *_listener;
-    _Bool _running;
-    _Atomic _Bool _forManualRebuild;
 }
 
 + (id);
-- (void);
+- (void)0@y)(@y)J);
 - (id);
 - (_Bool);
-- (id);
+- (id)z;
 - (_Bool);
-- (void);
+- (void)iptors (%lu) must be less than 2^24;
 - (void)ìÔ;
 
 @end

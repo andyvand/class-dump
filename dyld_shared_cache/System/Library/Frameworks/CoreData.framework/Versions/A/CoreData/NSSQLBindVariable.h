@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPropertyDescription;
-
 __attribute__((visibility("hidden")))
 @interface NSSQLBindVariable
 {
     int _cd_rc;
-    unsigned char _sqlType;
-    unsigned int _index;
-    unsigned int _flags;
-    id _value;
-    NSPropertyDescription *_propertyDescription;
-    NSPropertyDescription *_tombstonedPropertyDescription;
-    long long _int64;
 }
 
 - (void);
@@ -29,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);

@@ -8,19 +8,15 @@ __attribute__((visibility("hidden")))
 @interface UIKBPanGestureVelocitySample
 {
     struct CGPoint start;
-    struct CGPoint end;
-    double dt;
-    double force;
-    double majorRadius;
 }
 
 - (double);
-- (void);
+- (void)#;
 - (void);
 - (struct CGPoint);
 - (void)ù1^Ð1Â0@ù
 × ;
-- (struct CGPoint)leValue: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_imageWithVariableValue: /* Error: Ran out of types for this method. */;
 - (void)Vîÿðhîÿ;
 - (void)Ì/;
 - (double)ýÖ`;
@@ -29,10 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)¦Ðp¾g;
 
 // Remaining properties
-@property double dt; // @synthesize dt;
-@property struct CGPoint end; // @synthesize end;
-@property double force; // @synthesize force;
-@property double majorRadius; // @synthesize majorRadius;
 @property struct CGPoint start; // @synthesize start;
 
 @end

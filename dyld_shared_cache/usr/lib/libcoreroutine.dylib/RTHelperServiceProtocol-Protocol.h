@@ -5,7 +5,12 @@
 //
 
 @protocol RTHelperServiceProtocol
-- (void)oiAnalyticsDictionarys;
+- (void)has_isTrustedSender;
+- (void);
+- (void)pq_messages;
+- (void);
+- (void)oid *TransparencyLibrary(void);
+- (void)rolledLoiAnalyticsDictionarys;
 - (void);
 - (void)$à';
 @end

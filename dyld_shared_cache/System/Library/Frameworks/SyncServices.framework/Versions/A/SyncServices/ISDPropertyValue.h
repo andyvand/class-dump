@@ -9,14 +9,6 @@
 @interface ISDPropertyValue
 {
     NSString *_name;
-    int _clientNumber;
-    id _value;
-    id _deletedValue;
-    id _unformattedValue;
-    unsigned int _generation;
-    int _type;
-    int _collectionType;
-    _Bool _isDefaultValue;
 }
 
 + (void)yLeadToCompleteAndIrrevocableDataLoss:atTheVeryLeastItWillCauseUnexpectedBehaviourForOtherApplications:youHaveBeenWarnedAgainstDoingSo: /* Error: Ran out of types for this method. */;
@@ -52,7 +44,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id));
 - (void);
 - (void);
 - (void);
@@ -62,7 +54,7 @@
 - (id);
 - (unsigned long long);
 - (int);
-- (_Bool);
+- (_Bool);
 - (int);
 - (_Bool);
 - (void);

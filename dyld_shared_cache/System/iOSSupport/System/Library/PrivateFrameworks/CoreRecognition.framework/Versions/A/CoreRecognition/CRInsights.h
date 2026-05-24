@@ -15,27 +15,27 @@
 
 + (id);
 + (void);
+- (id)pp;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)isMapAnimating;
+- (void)^;
 
 // Remaining properties
 @property __weak id <CRInsightsDelegate> delegate; // @synthesize delegate=_delegate;

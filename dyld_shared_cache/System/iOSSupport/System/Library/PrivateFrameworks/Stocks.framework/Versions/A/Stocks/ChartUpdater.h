@@ -6,36 +6,31 @@
 
 #import <Stocks/YQLRequest.h>
 
-@class Stock, StockChartData;
+@class Stock;
 @protocol ChartUpdaterDelegate;
 
 @interface ChartUpdater : YQLRequest
 {
     Stock *_stock;
-    StockChartData *_currentChartData;
-    CDUnknownBlockType _updateCompletionHandler;
-    id <ChartUpdaterDelegate> _delegate;
-    long long _interval;
 }
 
 + (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)8;
 - (id);
 - (void);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)<v@?@"CTXPCServiceSubscriptionContext"@"NSError">;
+- (void)@"NSError">;
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <ChartUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) long long interval; // @synthesize interval=_interval;
 
 @end
 

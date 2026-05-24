@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
-
 @interface NEProcessIdentity
 {
     int _pid;
-    int _pidVersion;
-    NSUUID *_uuid;
-    NSData *_auditTokenData;
 }
 
-+ (_Bool);
++ (_Bool)setSenderURI: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)N;
 - (int);
-- (int);
+- (int)addObject: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)?;
 - (id);
 - (void)=QAQ}^{__SecKeyDescriptor}^v}16;
 - (id)ldConfig;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *auditTokenData; // @synthesize auditTokenData=_auditTokenData;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) int pidVersion; // @synthesize pidVersion=_pidVersion;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

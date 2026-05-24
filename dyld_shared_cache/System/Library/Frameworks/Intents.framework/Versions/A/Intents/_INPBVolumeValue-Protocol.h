@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBValueMetadata;
+@class NSString, _INPBValueMetadata;
 
 @protocol _INPBVolumeValue
-- (_Bool)ension;
-- (void)tifiers;
+- (NSString *);
+- (void);
+- (int)6;
+- (void)dentifier;
+- (_Bool)_fileExtension;
+- (void)notificationIdentifiers;
 - (_INPBValueMetadata *)defaultMediaItemsForSearchForMedia: /* Error: Ran out of types for this method. */;
-- (int)ecipientsOptionsForSendAnnouncement:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (int)provideRecipientsOptionsForSendAnnouncement:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMagnitude;
-@property(nonatomic) _Bool hasUnit;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) double magnitude;
-@property(nonatomic) int unit;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGDegasGraphStore, NSMutableArray, NSObject, NSURL;
-@protocol KGEntityFactory, OS_dispatch_queue;
+@class NSURL;
 
 @interface KGGraphManager
 {
     struct os_unfair_lock_s _lock;
-    id <KGEntityFactory> _entityFactory;
-    int _readRunningCount;
-    _Bool _readFeeding;
-    NSObject<OS_dispatch_queue> *_writeFeederQueue;
-    NSObject<OS_dispatch_queue> *_readFeederQueue;
-    NSObject<OS_dispatch_queue> *_executionQueue;
-    char _readStoreBooking[4];
-    _Bool _closed;
-    NSMutableArray *_readOnlyStores;
-    KGDegasGraphStore *_readWriteStore;
-    NSURL *_url;
 }
 
 - (void);
@@ -46,7 +34,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)MultipleSessionEnabled;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;

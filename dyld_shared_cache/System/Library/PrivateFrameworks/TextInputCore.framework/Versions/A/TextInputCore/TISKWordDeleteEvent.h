@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (id);
+- (void)sendTranscription:(id)arg1 forCallUUID:isNew: /* Error: Ran out of types for this method. */;
+- (id)RTTNanoSettings;
 - (id);
 
 @end

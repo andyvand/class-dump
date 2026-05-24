@@ -9,8 +9,6 @@
 @interface NUImageTransform3D : NUImageTransform
 {
     CDStruct_95fa7c00 _transformInv;
-    _Bool _inverseProjection;
-    CDStruct_95fa7c00 _transform;
 }
 
 - (CDStruct_95fa7c00);
@@ -18,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)b;
 - (_Bool);
 - (_Bool);
 - (_Bool);

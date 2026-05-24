@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (id);
-- (Class);
-- (BOOL);
+- (id)c;
+- (Class)c;
+- (BOOL)e note preview {userActivity:%@, error:%s} /* Error: Ran out of types for this method. */;
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
 - (_Bool);

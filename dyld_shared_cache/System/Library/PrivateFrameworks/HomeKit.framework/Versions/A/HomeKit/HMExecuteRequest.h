@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMRequestBase.h>
 
-@class HMActionSet, NSString;
+@class HMActionSet;
 
 @interface HMExecuteRequest : HMRequestBase
 {
@@ -17,18 +17,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)sisterhood;
 - (void)ÿÿ%;
 
 // Remaining properties
 @property(readonly, nonatomic) HMActionSet *actionSet; // @synthesize actionSet=_actionSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

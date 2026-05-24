@@ -10,48 +10,34 @@ __attribute__((visibility("hidden")))
 @interface AXVBrailleWord
 {
     _Bool _isBold;
-    _Bool _isItalic;
-    _Bool _isUnderlined;
-    NSString *_brailleString;
-    NSString *_transliterationWord;
-    double _fontSize;
-    unsigned long long _brailleCursorIndex;
-    struct _NSRange _highlightCharacterRange;
 }
 
 - (id);
+- (void)#;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (struct _NSRange);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)_;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id));
 - (double);
 - (void);
 - (void);
-- (_Bool)reenToZoomFactorLock: /* Error: Ran out of types for this method. */;
+- (_Bool)set_ScreenToZoomFactorLock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long brailleCursorIndex; // @synthesize brailleCursorIndex=_brailleCursorIndex;
 @property(copy, nonatomic) NSString *brailleString; // @synthesize brailleString=_brailleString;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(nonatomic) struct _NSRange highlightCharacterRange; // @synthesize highlightCharacterRange=_highlightCharacterRange;
-@property(nonatomic) _Bool isBold; // @synthesize isBold=_isBold;
-@property(nonatomic) _Bool isItalic; // @synthesize isItalic=_isItalic;
-@property(nonatomic) _Bool isUnderlined; // @synthesize isUnderlined=_isUnderlined;
-@property(copy, nonatomic) NSString *transliterationWord; // @synthesize transliterationWord=_transliterationWord;
 
 @end
 

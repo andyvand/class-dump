@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface AMSUIEngagementContentRecord
 {
     void app;
-    void cacheKey;
-    void contentExtension;
-    void fallbackURL;
-    void version;
 }
 
-+ (_Bool);
++ (_Bool)^\;
+- (id)#;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)seQueue:completion: /* Error: Ran out of types for this method. */;
+- (void)purchase:handleSceneBundleIdentifierRequest:purchaseQueue:completion: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *app;
-@property(nonatomic, readonly) NSString *cacheKey;
-@property(nonatomic, readonly) NSString *contentExtension;
-@property(nonatomic, readonly) NSURL *fallbackURL;
-@property(nonatomic, readonly) NSString *version;
 
 @end
 

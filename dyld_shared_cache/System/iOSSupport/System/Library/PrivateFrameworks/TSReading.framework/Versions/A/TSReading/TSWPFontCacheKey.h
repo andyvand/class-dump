@@ -9,9 +9,6 @@
 @interface TSWPFontCacheKey
 {
     NSString *_fontName;
-    double _fontSize;
-    double _fontWeight;
-    unsigned long long _hash;
 }
 
 + (id);
@@ -20,13 +17,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)_vendedAt;
 - (double);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(readonly, nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly, nonatomic) double fontWeight; // @synthesize fontWeight=_fontWeight;
 
 @end
 

@@ -12,20 +12,18 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebViewImageWrapper : AMSUICommonView
 {
     NSView *_view;
-    double _inset;
 }
 
 - (void);
-- (double);
-- (id);
-- (void);
+- (double)%@, type:%@ /* Error: Ran out of types for this method. */;
+- (id)set type:(id)arg1 (%{public}@);
+- (void)>:[normalizedValue]' or 'email:<value>:[normalizedValue]'. /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (id);
 - (void)">48;
 
 // Remaining properties
-@property double inset; // @synthesize inset=_inset;
 @property(retain) NSView *view; // @synthesize view=_view;
 
 @end

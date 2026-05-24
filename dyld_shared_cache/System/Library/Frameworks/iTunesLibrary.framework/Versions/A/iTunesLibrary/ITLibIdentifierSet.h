@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITLibModelKind, NSArray, NSString;
-@protocol ITLocalLibraryIdentifiers, ITUniversalStoreIdentifiers;
+@class ITLibModelKind;
 
 @interface ITLibIdentifierSet
 {
     unsigned long long _persistentID;
-    unsigned long long _containedPersistentID;
-    unsigned long long _adamID;
-    NSArray *_formerAdamIDs;
-    NSString *_globalPlaylistID;
-    unsigned long long _purchasedAdamID;
-    unsigned long long _reportingAdamID;
-    unsigned long long _subscriptionAdamID;
-    NSString *_universalCloudLibraryID;
-    ITLibModelKind *_modelKind;
 }
 
 - (id);
@@ -38,8 +28,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)nput_File_Size;
+- (unsigned long long)teFile;
 - (void);
 - (void);
 - (unsigned long long);
@@ -50,25 +40,7 @@
 - (unsigned long long)X>;
 
 // Remaining properties
-@property(nonatomic) unsigned long long adamID; // @synthesize adamID=_adamID;
-@property(nonatomic) unsigned long long containedPersistentID; // @synthesize containedPersistentID=_containedPersistentID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *formerAdamIDs; // @synthesize formerAdamIDs=_formerAdamIDs;
-@property(copy, nonatomic) NSString *globalPlaylistID; // @synthesize globalPlaylistID=_globalPlaylistID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <ITLocalLibraryIdentifiers> library;
 @property(readonly, nonatomic) ITLibModelKind *modelKind; // @synthesize modelKind=_modelKind;
-@property(nonatomic) unsigned long long persistentID; // @synthesize persistentID=_persistentID;
-@property(nonatomic) unsigned long long purchasedAdamID; // @synthesize purchasedAdamID=_purchasedAdamID;
-@property(nonatomic) unsigned long long reportingAdamID; // @synthesize reportingAdamID=_reportingAdamID;
-@property(nonatomic) unsigned long long subscriptionAdamID; // @synthesize subscriptionAdamID=_subscriptionAdamID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *universalCloudLibraryID; // @synthesize universalCloudLibraryID=_universalCloudLibraryID;
-@property(readonly, nonatomic) id <ITUniversalStoreIdentifiers> universalStore;
 
 @end
 

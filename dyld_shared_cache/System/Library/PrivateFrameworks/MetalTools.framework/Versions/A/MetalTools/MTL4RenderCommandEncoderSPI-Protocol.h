@@ -5,6 +5,6 @@
 //
 
 @protocol MTL4RenderCommandEncoderSPI
-- (void)tors;
+- (void)constantSamplerDescriptors;
 @end
 

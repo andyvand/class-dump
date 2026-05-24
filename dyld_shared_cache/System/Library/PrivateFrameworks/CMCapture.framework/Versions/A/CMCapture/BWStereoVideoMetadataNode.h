@@ -9,19 +9,11 @@
 @interface BWStereoVideoMetadataNode : BWNode
 {
     struct __CFData *_serializedRectificationQuaternion;
-    int _consecutiveSpatiallyAggressiveFramesThreshold;
-    int _numberOfFramesEvaluatedForAggressiveStatus;
-    int _numberOfConsecutiveLuxLevelAggressiveFrames;
-    int _numberOfLuxLevelAggressiveFrames;
-    int _numberOfConsecutiveFocusDistanceAggressiveFrames;
-    int _numberOfFocusDistanceAggressiveFrames;
-    CDStruct_1b6d18a9 _startingPTS;
-    int _aggregateStereoVideoCaptureStatus;
 }
 
 + (void)uffer:forInputIndex:inputStagingQueue:sampleBufferAlreadyAtHeadOfQueue:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)OADBiLevelEffect;
 - (void);
 - (void);
 - (id);

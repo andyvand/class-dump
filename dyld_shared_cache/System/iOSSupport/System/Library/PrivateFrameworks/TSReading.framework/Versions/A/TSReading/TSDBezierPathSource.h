@@ -11,13 +11,11 @@
 @interface TSDBezierPathSource : TSDPathSource
 {
     TSDBezierPath *mPath;
-    _Bool mIsRectangular;
-    struct CGSize mNaturalSize;
 }
 
-+ (id);
++ (id)f]ܗ;
 - (struct CGAffineTransform);
-- (void);
+- (void)L;
 - (long long);
 - (id);
 - (_Bool);

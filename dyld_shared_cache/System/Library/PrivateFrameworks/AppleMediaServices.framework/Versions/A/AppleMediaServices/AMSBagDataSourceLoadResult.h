@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagDataSourceLoadResult
 {
     NSDictionary *_data;
-    NSDate *_expirationDate;
-    NSString *_loadedBagIdentifier;
-    NSString *_loadedBagPartialIdentifier;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)requestGroupSessionWithDetails:queue:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)0ÊXÑÇáQäÙfV;
 
 // Remaining properties
 @property(readonly) NSDictionary *data; // @synthesize data=_data;
-@property(readonly) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) NSString *loadedBagIdentifier; // @synthesize loadedBagIdentifier=_loadedBagIdentifier;
-@property(readonly) NSString *loadedBagPartialIdentifier; // @synthesize loadedBagPartialIdentifier=_loadedBagPartialIdentifier;
 
 @end
 

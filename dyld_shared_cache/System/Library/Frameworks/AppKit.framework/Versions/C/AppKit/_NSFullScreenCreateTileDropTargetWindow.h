@@ -12,29 +12,25 @@ __attribute__((visibility("hidden")))
 @interface _NSFullScreenCreateTileDropTargetWindow : NSPanel
 {
     _NSFullScreenCreateTileDropTargetController *_controller;
-    CDUnknownBlockType _additionalMoveBlock;
-    struct CGRect _dropRect;
-    struct CGRect _collapsedRect;
-    _Bool _revealed;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)sequence error:(struct CGRect)arg1 %d;
+- (void)anifest, but allow unsealed, try to proceed with the data manifest...;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void)%s:marking socket attribution as user <non-app-initiated flag %d> with website context /* Error: Ran out of types for this method. */;
+- (_Bool)"32@?<v@?q@"NSURLCredential">40;
 - (_Bool);
-- (_Bool);
+- (_Bool)gging %@ = %d;
+- (_Bool)entries from the alt_services storage. Error = %d;
+- (_Bool)d;
 - (id);
 - (_Bool)",R,W;
-- (_Bool)rmattingFontPickerComponentView;
+- (_Bool)_NSTextFormattingFontPickerComponentView;
 
 @end
 

@@ -9,6 +9,7 @@
 @protocol NSCollectionViewDataSource
 
 @optional
-- (NSView *)Pos:(NSCollectionView *)arg1;
+- (long long);
+- (NSView *)setCategoryPullOutBasePos:(NSCollectionView *)arg1;
 @end
 

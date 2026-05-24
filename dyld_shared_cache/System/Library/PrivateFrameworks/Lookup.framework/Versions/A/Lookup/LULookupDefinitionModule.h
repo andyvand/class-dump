@@ -15,8 +15,8 @@
 + (void);
 + (void);
 + (id);
-+ (void);
-+ (struct _NSRange);
++ (void);
++ (struct _NSRange);
 + (void);
 + (void);
 - (void);

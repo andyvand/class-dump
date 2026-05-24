@@ -13,14 +13,14 @@
     NSString *_subtitle;
 }
 
-+ (id);
++ (id)sourceTexture;
 + (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)symbolImage;
+- (id)sublayerConfiguration;
+- (id)subjectView;
+- (id)subMenuForScreenSharingOptionsWithHandle:(id)arg1 conversation:andContactsManager: /* Error: Ran out of types for this method. */;
+- (_Bool)snapshotExistsForGUID:(id)arg1 interfaceStyle: /* Error: Ran out of types for this method. */;
+- (id)customWindowsToExitFullScreenForWindow:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);
@@ -31,14 +31,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 
 @end
 

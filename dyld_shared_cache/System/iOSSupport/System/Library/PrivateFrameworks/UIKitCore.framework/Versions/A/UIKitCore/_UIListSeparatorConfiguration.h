@@ -6,31 +6,26 @@
 
 #import <UIKitCore/UIListSeparatorConfiguration.h>
 
-@class UIColor;
-
 @interface _UIListSeparatorConfiguration : UIListSeparatorConfiguration
 {
     _Bool _adjustColorForMultipleSelection;
-    long long _hidingBehavior;
-    long long _insetAdjustmentBehavior;
-    struct NSDirectionalEdgeInsets _insetsForBoundarySeparators;
 }
 
-+ (id)ngAnimationFinished:(long long)arg1;
++ (id)movieScrubberEditingAnimationFinished:(long long)arg1;
 + (_Bool)UIAbbreviatedWeekdayMonthDayFormat;
 - (void);
 - (long long);
 - (id);
 - (struct NSDirectionalEdgeInsets);
 - (void);
-- (_Bool)ibleDomain;
-- (void)s:(id)arg1;
-- (void)avigational;
-- (long long)Info;
+- (_Bool)userVisibleDomain;
+- (void)setKeyStates:(id)arg1;
+- (void)isNavigational;
+- (long long)_documentInfo;
 - (void)oint=dd}{CGSize=dd}},N,V_trailingItemsRect;
 - (id),V__maximumDistance;
 - (void)	êÿêÿêÿ<êÿêÿdêÿêÿ|êÿêÿÐêÿôêÿ$êÿêÿ¬êÿèêÿ$êÿ`êÿêÿØêÿêÿPêÿêÿÈêÿêÿ@êÿ|êÿêÿ¸êÿtêÿêÿÔêÿêÿÄêÿÐêÿôêÿpêÿØêÿüêÿ8êÿêÿ¤êÿàêÿ`êÿ´êÿ êÿ¸êÿ`êÿ¬êÿÄêÿèêÿêÿ@êÿ`êÿêÿ¨êÿÌêÿäêÿêÿ êÿ êÿ¨ êÿô!êÿ0"êÿT"êÿx"êÿ´"êÿØ"êÿÌ*êÿ;
-- (_Bool)mEdge;
+- (_Bool)buttonMinimumDistanceFromEdge;
 - (id);
 - (void)û];
 - (id)¬^;
@@ -38,13 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=_shouldAdjustColorForMultipleSelection, setter=_setAdjustColorForMultipleSelection:) _Bool _adjustColorForMultipleSelection; // @synthesize _adjustColorForMultipleSelection;
-@property(retain, nonatomic, getter=_color, setter=_setColor:) UIColor *_color;
-@property(nonatomic, getter=_hidingBehavior, setter=_setHidingBehavior:) long long _hidingBehavior; // @synthesize _hidingBehavior;
-@property(nonatomic, getter=_insetAdjustmentBehaviour, setter=_setInsetAdjustmentBehavior:) long long _insetAdjustmentBehavior; // @synthesize _insetAdjustmentBehavior;
 @property(nonatomic, getter=_insets, setter=_setInsets:) struct NSDirectionalEdgeInsets _insets;
-@property(nonatomic, getter=_insetsForBoundarySeparators, setter=_setInsetsForBoundarySeparators:) struct NSDirectionalEdgeInsets _insetsForBoundarySeparators; // @synthesize _insetsForBoundarySeparators;
-@property(retain, nonatomic, getter=_multipleSelectionColor, setter=_setMultipleSelectionColor:) UIColor *_multipleSelectionColor;
 
 @end
 

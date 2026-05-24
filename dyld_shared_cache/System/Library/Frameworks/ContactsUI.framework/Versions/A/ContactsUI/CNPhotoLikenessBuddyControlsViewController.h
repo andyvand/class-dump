@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView;
+@class NSImageView;
 
 @interface CNPhotoLikenessBuddyControlsViewController
 {
     NSImageView *_iconView;
-    NSButton *_keepExistingPhotoButton;
-    NSButton *_choosePhotoButton;
-    CDUnknownBlockType _keepAction;
 }
 
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -23,17 +20,14 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSButton *choosePhotoButton; // @synthesize choosePhotoButton=_choosePhotoButton;
 @property(retain) NSImageView *iconView; // @synthesize iconView=_iconView;
-@property(copy, nonatomic) CDUnknownBlockType keepAction; // @synthesize keepAction=_keepAction;
-@property(retain) NSButton *keepExistingPhotoButton; // @synthesize keepExistingPhotoButton=_keepExistingPhotoButton;
 
 @end
 

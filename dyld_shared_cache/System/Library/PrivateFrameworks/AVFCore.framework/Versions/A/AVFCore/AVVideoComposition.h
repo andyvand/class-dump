@@ -12,13 +12,13 @@
 }
 
 + (id);
++ (id);
++ (void)<ztz;
 + (id);
 + (void);
 + (id);
-+ (void);
-+ (id);
-+ (id);
-+ (void)oadSessionCurrentLoadedTimeRangesKey;
++ (id)d;
++ (void)AVAssetDownloadSessionCurrentLoadedTimeRangesKey;
 
 @end
 

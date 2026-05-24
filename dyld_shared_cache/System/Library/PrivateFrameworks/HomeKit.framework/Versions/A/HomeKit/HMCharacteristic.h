@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCharacteristicMetadata, HMService, NSDate, NSNumber, NSString, NSUUID;
-
 @interface HMCharacteristic
 {
     struct os_unfair_lock_s _lock;
-    _Bool _notificationEnabled;
-    _Bool _requiresDeviceUnlock;
-    _Bool _hasAuthorizationData;
-    _Bool _hasFixedValue;
-    _Bool _notificationEnabledByThisClient;
-    NSUUID *_uniqueIdentifier;
-    NSString *_characteristicType;
-    id _value;
-    NSDate *_valueUpdatedTime;
-    NSDate *_notificationEnabledTime;
-    long long _hapProperties;
-    HMService *_service;
-    HMCharacteristicMetadata *_metadata;
-    NSNumber *_instanceID;
-    NSUUID *_serviceUniqueIdentifier;
 }
 
 + (id);

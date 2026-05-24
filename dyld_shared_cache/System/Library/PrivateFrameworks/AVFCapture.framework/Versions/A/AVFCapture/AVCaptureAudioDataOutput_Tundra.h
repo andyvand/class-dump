@@ -6,8 +6,8 @@
 
 #import <AVFCapture/AVCaptureOutput_Tundra.h>
 
-@class AVCaptureAudioDataOutputInternal_Tundra, NSDictionary, NSObject;
-@protocol AVCaptureAudioDataOutputSampleBufferDelegate_Tundra, OS_dispatch_queue;
+@class AVCaptureAudioDataOutputInternal_Tundra;
+@protocol AVCaptureAudioDataOutputSampleBufferDelegate_Tundra;
 
 @interface AVCaptureAudioDataOutput_Tundra : AVCaptureOutput_Tundra
 {
@@ -16,14 +16,17 @@
 
 + (id);
 + (void)x:[%.2f %.2f %.2f | %.2f %.2f %.2f | %.2f %.2f %.2f], extrinsicMatrix:[%.2f %.2f %.2f %.2f | %.2f %.2f %.2f %.2f | %.2f %.2f %.2f %.2f] pixelSize:%.3f mm%@, ref:{%.0fx%.0f} /* Error: Ran out of types for this method. */;
-- (id);
+- (id)-[MSVXPCTransaction endTransaction];
+- (void)y:(id)arg1 %@, lyrics line:(id)arg2 %@;
+- (void)tification %@. (status = %d);
+- (id)r:%@ (%@)
+) /* Error: Ran out of types for this method. */;
+- (id)yTextColor:%@ (%@)
+  tertiaryTextColor:%@ (%@)
+) /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)}};
+- (id);
 - (_Bool);
 - (unsigned int);
 - (int);
@@ -37,15 +40,12 @@
 - (unsigned int);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id)r;
+- (id)AVCaptureSpatialAudioMetadataSampleGenerator;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *audioSettings;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sampleBufferCallbackQueue;
 @property(readonly, nonatomic) id <AVCaptureAudioDataOutputSampleBufferDelegate_Tundra> sampleBufferDelegate;
-@property(nonatomic) unsigned int spatialAudioChannelLayoutTag;
 
 @end
 

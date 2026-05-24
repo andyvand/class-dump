@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface RRSchemaRRGroupIdentifier : SISchemaInstrumentationMessage
 {
     NSString *_groupId;
-    unsigned int _seq;
-    struct {
-        unsigned int seq:1;
-    } _has;
-    _Bool _hasGroupId;
 }
 
 - (void);
@@ -27,24 +22,21 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)h
+;
+- (unsigned long long)GkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobActivity_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)= 'iMessage';
 - (void);
 - (id);
 - (id);
-- (id)ntity1Day;
+- (id)appUsageCountForEntity1Day;
 - (id)rFrameCountInNs;
-- (void)L_ADDRESS;
+- (void)IFTPARAMETERNOTALLOWEDREASON_MISSING_REQUIRED_EMAIL_ADDRESS;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(nonatomic) _Bool hasGroupId; // @synthesize hasGroupId=_hasGroupId;
-@property(nonatomic) _Bool hasSeq;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int seq; // @synthesize seq=_seq;
 
 @end
 

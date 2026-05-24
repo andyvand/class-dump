@@ -16,15 +16,15 @@
 + (_Bool)0@ù
 × ;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)9(;
 - (id);
 - (void);
-- (long long)ngStatementBalanceMessageString;
+- (id);
+- (id);
+- (id);
+- (id)x;
+- (void);
+- (long long)_remainingStatementBalanceMessageString;
 - (void)ion;
 
 // Remaining properties

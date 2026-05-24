@@ -5,5 +5,6 @@
 //
 
 @protocol MFObject
+- (int);
 @end
 

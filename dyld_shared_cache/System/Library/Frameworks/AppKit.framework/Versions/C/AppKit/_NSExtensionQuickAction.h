@@ -6,18 +6,15 @@
 
 #import <AppKit/_NSQuickAction.h>
 
-@class NSDictionary, NSSharingService, NSString, NSURL;
+@class NSSharingService;
 
 __attribute__((visibility("hidden")))
 @interface _NSExtensionQuickAction : _NSQuickAction
 {
     NSSharingService *_sharingService;
-    NSDictionary *_extensionAttributes;
-    NSString *_extensionIdentifier;
-    NSURL *_bundleURL;
 }
 
-+ (id);
++ (id),C,N,V_olderThanCreationDate;
 - (void);
 - (void);
 - (void);
@@ -27,18 +24,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (Class);
 - (Class);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)checked_didFinishCollectingMetrics;
+- (_Bool)empted to create a NSURLSessionDataTask in a session that has been invalidated;
+- (id)nection;
+- (id).c_;
+- (_Bool)undleId == %@;
 - (id);
 - (long long);
-- (id)Map;
+- (id)_commandIdentifierToMenuLeafMap;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *_extensionIdentifier; // @synthesize _extensionIdentifier;
 @property(readonly) NSSharingService *_sharingService; // @synthesize _sharingService;
 
 @end

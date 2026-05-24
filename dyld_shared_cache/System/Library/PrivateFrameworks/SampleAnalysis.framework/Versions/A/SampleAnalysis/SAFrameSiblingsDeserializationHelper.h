@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SAFrameSiblingsDeserializationHelper
 {
     NSArray *_frameHelpers;
-    unsigned long long _index;
 }
 
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSArray *frameHelpers; // @synthesize frameHelpers=_frameHelpers;
-@property unsigned long long index; // @synthesize index=_index;
 
 @end
 

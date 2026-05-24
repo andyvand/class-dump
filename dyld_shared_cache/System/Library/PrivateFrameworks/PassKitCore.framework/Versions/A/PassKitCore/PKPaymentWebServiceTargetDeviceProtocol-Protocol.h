@@ -4,40 +4,69 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, PKOSVersionRequirement, PKPushProvisioningTarget, PKSubcredentialEncryptedContainer;
+@class NSArray, NSSet, NSString, PKAccount, PKPassUpgradeExpressAutomaticSelectionCriteriaRequest, PKPaymentWebService, PKPushProvisioningTarget, PKSecureElementPass, PKSubcredentialEncryptedContainer;
 
 @protocol PKPaymentWebServiceTargetDeviceProtocol
+- (unsigned long long)iK;
+- (_Bool)?k`;
+- (NSString *);
+- (void)@;
+- (NSString *)setHasRoundTripTimeVarActive:(PKPaymentWebService *)arg1;
+- (void);
+- (void);
+- (NSString *);
+- (void)U;
+- (NSString *);
 - (unsigned long long)@ù
 × ;
 - (void)
 × ;
-- (NSString *)essageData: /* Error: Ran out of types for this method. */;
+- (NSString *)setMessageData: /* Error: Ran out of types for this method. */;
 - (NSString *)@"NSString",&,N,V_paymentMethodDescription;
 - (void)urrently selected pass now supports merchandising. Updating the merchandising offers now. %@;
-- (PKOSVersionRequirement *);
 - (void); ;
 
 @optional
+- (void);
+- (void)4;
+- (void);
+- (void)1;
+- (void)a;
+- (void);
+- (void);
+- (void)%;
+- (_Bool)k;
+- (_Bool)8;
+- (void);
+- (void)initWithAEDescNoCopy:(PKAccount *)arg1;
+- (void)`;
+- (void);
+- (PKPassUpgradeExpressAutomaticSelectionCriteriaRequest *)sedReason"b1"symptomsDnsRecommendation"b1"totalDnsServers"b1"wanHealthAfterDecision"b1"wanHealthBeforeDecision"b1"dpsNotificationReceivedDuringStudy"b1"isCaptiveServerIPResolved"b1"isPingEnqueueFailing"b1"slowWiFiNotificationReceivedDuringStudy"b1"symptomsDnsscreenStateOn"b1};
+- (NSArray *)setLineNumber:(NSArray *)arg1;
+- (_Bool)setHasNetworkServiceType:(PKSecureElementPass *)arg1;
+- (void)hasKTxRetransmission;
+- (void)I;
+- (NSArray *)`;
+- (void);
 - (NSSet *)0@ù
 × ;
 - (void)Ô ;
-- (void);
 - (void)1Â0@ù
 × ;
 - (NSArray *)8@0:8q16B24 /* Error: Ran out of types for this method. */;
-- (void):(PKSubcredentialEncryptedContainer *)arg1 completion:(NSString *)arg2;
-- (void)thVisibleViewController:(NSString *)arg1 completion:(NSArray *)arg2;
-- (void)iewCountLargeCard;
-- (void)it:(void (^)(NSArray *))arg1;
-- (void)teForDictionary:(PKPushProvisioningTarget *)arg1 bundle:(_Bool)arg2 privateBundle:(void (^)(PKEncryptedPushProvisioningTarget *, _Bool, NSError *))arg3 passType: /* Error: Ran out of types for this method. */;
-- (_Bool)onsRequestForPreviousStatementForAccount:transactionSource:transactionType: /* Error: Ran out of types for this method. */;
-- (void)tType:(NSString *)arg1;
+- (void)updateImpressionCountsForPromotions:(PKSubcredentialEncryptedContainer *)arg1 accountIdentifier:(NSString *)arg2 completion:(void (^)(NSError *))arg3;
+- (void)requestAndStoreExternalizedAuthWithVisibleViewController:(NSString *)arg1 completion:(NSArray *)arg2;
+- (void)maxViewCountLargeCard;
+- (void)generateSummaryOfType:(void (^)(NSArray *))arg1 startingAt:withSegmentLimit: /* Error: Ran out of types for this method. */;
+- (void)createForDictionary:(PKPushProvisioningTarget *)arg1 bundle:(_Bool)arg2 privateBundle:(void (^)(PKEncryptedPushProvisioningTarget *, _Bool, NSError *))arg3 passType: /* Error: Ran out of types for this method. */;
+- (_Bool)_transactionsRequestForPreviousStatementForAccount:transactionSource:transactionType: /* Error: Ran out of types for this method. */;
+- (void)_addEnrouteTransitType:(NSString *)arg1;
 - (void)	;
 - (void)h query callback;
 - (void)KML isn't linkable or feature is off;
 - (void)%{public}hd:(void (^)(unsigned long long))arg1 Sending 'Payment Sheet Closed';
 - (_Bool)ility:SE Full /* Error: Ran out of types for this method. */;
 - (void)fest.;
-- (void)ICE_NO_DATA_PROVIDED_ERROR_TITLE;
+- (void)ACCOUNT_SERVICE_NO_DATA_PROVIDED_ERROR_TITLE;
 @end
 

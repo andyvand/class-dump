@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void);
+- (void)Ķ2;
 - (void);
 
 @end

@@ -13,9 +13,9 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CSDBLookAsideBufferConfig {
-    int lookAsideSlotSize;
-    int lookAsideSlotCount;
-    unsigned int configured:1;
+    int _field1;
+    int _field2;
+    unsigned int :1;
 };
 
 struct CSDBRecordStore {

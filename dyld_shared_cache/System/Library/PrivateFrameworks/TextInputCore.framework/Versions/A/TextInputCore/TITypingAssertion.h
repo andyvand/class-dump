@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSTimer;
+@class NSTimer;
 
 @interface TITypingAssertion
 {
     _Bool _active;
-    NSMutableSet *_restingPathIndices;
-    NSTimer *_timer;
 }
 
 + (id);
@@ -24,14 +22,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)ompletionHandler returned nil URL;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
 @property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end

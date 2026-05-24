@@ -4,27 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSWindow;
+@class NSArray, NSNotification, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
-- (void)× ;
 - (void);
+- (struct CGSize)!;
+- (NSArray *)@!;
+- (void)× ;
 - (void)Ô ;
 - (void)!¨@ù>1Â0@ù
 × ;
 - (void);
 - (void)"NSDictionary">24;
-- (unsigned long long)_lockIncrement;
-- (void)Number;
-- (void)utServer;
-- (void)tModifiers:(NSNotification *)arg1;
-- (struct CGRect)chedKeyboard:(NSWindow *)arg1 currencyFormatter:(NSWindow *)arg2;
+- (unsigned long long)replyWaitCount_lockIncrement;
+- (void)currentLineNumber;
+- (void)_inputServer;
+- (void)_forwardRotatePrimaryComposedCharactersAtModifiers:(NSNotification *)arg1;
+- (struct CGRect)inputMethodVerbatimChainWithAttachedKeyboard:(NSWindow *)arg1 currencyFormatter:(NSWindow *)arg2;
 - (void)×;
 - (void)ÄÀÔ;
 - (_Bool)ÀÜ;
-- (void)legateClass;
+- (void)IMKExtensionDelegateClass;
 - (void)sitionWithReply:(NSNotification *)arg1 Perform block invoked on %@;
 - (struct CGSize)lling _clientDOProxy;
 @end

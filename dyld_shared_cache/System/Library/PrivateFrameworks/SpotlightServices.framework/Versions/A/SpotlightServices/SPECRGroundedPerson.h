@@ -9,27 +9,22 @@
 @interface SPECRGroundedPerson
 {
     NSString *_fullName;
-    NSString *_relationLabel;
-    NSString *_ecrToken;
-    NSString *_queryRawToken;
 }
 
 - (void);
 - (void);
 - (void);
+- (id)@"WebView";
+- (id)@"<LPAudioPlayer>";
+- (id)removeTrackingArea: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)%lu
+;
 - (void);
-- (void)ntentCarRentalEvent;
+- (void)com_apple_mobilemail_LLMQUIntentCarRentalEvent;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ecrToken; // @synthesize ecrToken=_ecrToken;
 @property(retain, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(retain, nonatomic) NSString *queryRawToken; // @synthesize queryRawToken=_queryRawToken;
-@property(retain, nonatomic) NSString *relationLabel; // @synthesize relationLabel=_relationLabel;
 
 @end
 

@@ -6,45 +6,37 @@
 
 #import <UIKitCore/UIInterfaceActionConcreteVisualStyle.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIInterfaceActionConcreteVisualStyle_AppleTV : UIInterfaceActionConcreteVisualStyle
 {
 }
 
 + (Class);
-- (double);
-- (_Bool);
+- (double);
+- (_Bool)s aren't done loading, this is likely because of first unlock. Continuing to wait;
+- (id)nload batch in %f seconds;
+- (id).;
+- (struct CGSize)@ token:%@ /* Error: Ran out of types for this method. */;
+- (double)?0@"NSNumber"8@"NSArray"16^B24;
 - (id);
-- (id);
-- (struct CGSize);
-- (double);
-- (id);
-- (double);
+- (double)[;
 - (void);
-- (void);
+- (void)-:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (struct UIEdgeInsets);
 - (double);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (void)H;
 - (void);
 - (void);
-- (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)ildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/s3_both.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

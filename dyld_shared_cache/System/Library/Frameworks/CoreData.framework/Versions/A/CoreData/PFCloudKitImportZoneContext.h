@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCloudKitMirroringDelegateOptions, NSDictionary, NSMutableArray, NSMutableDictionary, NSSet, NSURL;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitImportZoneContext
 {
     NSArray *_updatedRecords;
-    NSDictionary *_deletedRecordTypeToRecordID;
-    NSSet *_deletedObjectIDs;
-    NSArray *_modifiedRecords;
-    NSMutableArray *_updatedRelationships;
-    NSArray *_deletedRelationships;
-    NSArray *_deletedMirroredRelationshipRecordIDs;
-    NSMutableDictionary *_recordTypeToRecordIDToObjectID;
-    NSMutableDictionary *_recordTypeToUnresolvedRecordIDs;
-    NSMutableArray *_metadatasToLink;
-    NSArray *_importOperations;
-    NSCloudKitMirroringDelegateOptions *_mirroringOptions;
-    NSURL *_fileBackedFuturesDirectory;
-    NSSet *_deletedShareRecordIDs;
 }
 
 - (void);

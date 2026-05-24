@@ -5,5 +5,6 @@
 //
 
 @protocol WBSAuthenticationServicesAgentCredentialSharingGroupsUserNotificationsProtocol
+- (void);
 @end
 

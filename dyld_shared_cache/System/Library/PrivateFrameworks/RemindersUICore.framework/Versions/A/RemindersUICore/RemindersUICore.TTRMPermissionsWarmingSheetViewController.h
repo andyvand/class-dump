@@ -9,9 +9,6 @@
 @interface RemindersUICore.TTRMPermissionsWarmingSheetViewController
 {
     id isImageSymbol;
-    id $__lazy_storage_$_permissionsPromptView;
-    id primaryButtonAction;
-    id secondaryButtonAction;
 }
 
 - (void);

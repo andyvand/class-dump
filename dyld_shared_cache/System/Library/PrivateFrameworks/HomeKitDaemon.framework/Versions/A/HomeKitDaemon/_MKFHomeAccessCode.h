@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFHomeAccessCodeDatabaseID, NSDate, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MKFHomeAccessCode : _MKFModel
@@ -17,26 +17,16 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (_Bool);
+- (id)isLocationShiftRequiredForCoordinate:(id)arg1;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)X;
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessCode; // @dynamic accessCode;
-@property(readonly, copy, nonatomic) MKFHomeAccessCodeDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

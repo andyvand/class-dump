@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBTransitPaymentMethod
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_identifier;
-    unsigned long long _muid;
-    NSString *_name;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _addValueName;
-    int _paymentMethodType;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_addValueName:1;
-        unsigned int has_paymentMethodType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_identifier:1;
-        unsigned int read_name:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ethod:(id)arg1;
++ (_Bool)setHasValidationMethod:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -38,7 +20,7 @@
 - (int);
 - (_Bool);
 - (id);
-- (int);
+- (int)__DATA_CONST;
 - (_Bool);
 - (int);
 - (int);
@@ -48,16 +30,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)4: /* Error: Ran out of types for this method. */;
+- (void)age:(id)arg1 ];
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void)SessionIdentifier;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)titleForDisplayStyle: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -67,22 +49,12 @@
 - (id)¬V;
 - (id)± Zï;
 - (_Bool)ad network:[%u, %0.8f] to [%u, %0.8f] | index:%d/%d, roadID:%llu, path fraction:%0.8f, %0.8f | %f, %f /* Error: Ran out of types for this method. */;
-- (id)TileDataNotification;
+- (id)GEOTileLoaderDidDeleteExternalTileDataNotification;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int addValueName;
-@property(nonatomic) _Bool hasAddValueName;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasPaymentMethodType;
-@property(retain, nonatomic) NSString *identifier;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *name;
-@property(nonatomic) int paymentMethodType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

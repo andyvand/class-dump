@@ -9,8 +9,8 @@
 }
 
 + (_Bool);
-- (id);
-- (void);
+- (id)decrypt of record %@ via its share PCS (record %@);
+- (void)egistrar completed async usersWithError {self:%@, error:%@, response:%@} /* Error: Ran out of types for this method. */;
 
 @end
 

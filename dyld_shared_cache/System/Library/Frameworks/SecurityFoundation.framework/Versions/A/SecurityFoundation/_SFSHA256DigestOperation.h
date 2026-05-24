@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFSHA256DigestOperation
 {
     id _sha256DigestOperationInternal;
@@ -26,19 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_ccDigestInfo) const struct ccdigest_info *ccDigestInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tr^{ccdigest_info=QQQQ*^v^?^?i^?},?,R,N,G_ccDigestInfo
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSData *hashValue;
 @property(readonly, nonatomic, getter=_secKeyECDSAAlgorithm) struct __CFString *secKeyECDSAAlgorithm;
-@property(readonly) Class superclass;
 
 @end
 

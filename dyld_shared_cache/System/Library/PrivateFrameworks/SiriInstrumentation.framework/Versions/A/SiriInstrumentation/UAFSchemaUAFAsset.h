@@ -6,47 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface UAFSchemaUAFAsset : SISchemaInstrumentationMessage
 {
     NSString *_assetName;
-    NSString *_assetSpecifier;
-    NSString *_assetVersion;
-    int _assetLocale;
-    int _assetSource;
-    unsigned int _assetSizeOnDisk;
-    _Bool _isAssetPathValid;
-    NSString *_assetPath;
-    unsigned long long _assetDownloadSizeInBytes;
-    unsigned long long _assetUnarchivedSizeInBytes;
-    NSString *_sourceOSBuild;
-    NSString *_promotedOSBuild;
-    struct {
-        unsigned int assetLocale:1;
-        unsigned int assetSource:1;
-        unsigned int assetSizeOnDisk:1;
-        unsigned int isAssetPathValid:1;
-        unsigned int assetDownloadSizeInBytes:1;
-        unsigned int assetUnarchivedSizeInBytes:1;
-    } _has;
-    _Bool _hasAssetName;
-    _Bool _hasAssetSpecifier;
-    _Bool _hasAssetVersion;
-    _Bool _hasAssetPath;
-    _Bool _hasSourceOSBuild;
-    _Bool _hasPromotedOSBuild;
 }
 
 - (id);
+- (void)?רC;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,11 +37,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -76,7 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -85,57 +60,33 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
+- (void)(o;
+- (unsigned int),;
 - (_Bool);
 - (_Bool);
 - (int);
 - (void);
 - (void);
-- (id);
+- (id)/;
 - (int);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)URLWithNumber:(id)arg1;
 - (id);
-- (_Bool);
+- (_Bool)tifiersOnServicesUpToGUIDOrLimitWithOptionalThreadIdentifier(CFArrayRef, CFArrayRef, CFStringRef, CFStringRef, Boolean, Boolean, int64_t);
 - (id);
 - (id);
 - (void)0@ù
 × ;
-- (id);
-- (id)s;
-- (id)RREASON_UNRECOVERABLE_ERROR;
-- (void)eoCount;
+- (id)deleteRouting;
+- (id)_mapsEntities;
+- (id)PLUSINFERENCEPLUGINERRORREASON_UNRECOVERABLE_ERROR;
+- (void)webVideoCount;
 - (void)ssionReportedTier1;
 - (id)Ñ®n\!;
 
 // Remaining properties
-@property(nonatomic) unsigned long long assetDownloadSizeInBytes; // @synthesize assetDownloadSizeInBytes=_assetDownloadSizeInBytes;
-@property(nonatomic) int assetLocale; // @synthesize assetLocale=_assetLocale;
 @property(copy, nonatomic) NSString *assetName; // @synthesize assetName=_assetName;
-@property(copy, nonatomic) NSString *assetPath; // @synthesize assetPath=_assetPath;
-@property(nonatomic) unsigned int assetSizeOnDisk; // @synthesize assetSizeOnDisk=_assetSizeOnDisk;
-@property(nonatomic) int assetSource; // @synthesize assetSource=_assetSource;
-@property(copy, nonatomic) NSString *assetSpecifier; // @synthesize assetSpecifier=_assetSpecifier;
-@property(nonatomic) unsigned long long assetUnarchivedSizeInBytes; // @synthesize assetUnarchivedSizeInBytes=_assetUnarchivedSizeInBytes;
-@property(copy, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(nonatomic) _Bool hasAssetDownloadSizeInBytes;
-@property(nonatomic) _Bool hasAssetLocale;
-@property(nonatomic) _Bool hasAssetName; // @synthesize hasAssetName=_hasAssetName;
-@property(nonatomic) _Bool hasAssetPath; // @synthesize hasAssetPath=_hasAssetPath;
-@property(nonatomic) _Bool hasAssetSizeOnDisk;
-@property(nonatomic) _Bool hasAssetSource;
-@property(nonatomic) _Bool hasAssetSpecifier; // @synthesize hasAssetSpecifier=_hasAssetSpecifier;
-@property(nonatomic) _Bool hasAssetUnarchivedSizeInBytes;
-@property(nonatomic) _Bool hasAssetVersion; // @synthesize hasAssetVersion=_hasAssetVersion;
-@property(nonatomic) _Bool hasIsAssetPathValid;
-@property(nonatomic) _Bool hasPromotedOSBuild; // @synthesize hasPromotedOSBuild=_hasPromotedOSBuild;
-@property(nonatomic) _Bool hasSourceOSBuild; // @synthesize hasSourceOSBuild=_hasSourceOSBuild;
-@property(nonatomic) _Bool isAssetPathValid; // @synthesize isAssetPathValid=_isAssetPathValid;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *promotedOSBuild; // @synthesize promotedOSBuild=_promotedOSBuild;
-@property(copy, nonatomic) NSString *sourceOSBuild; // @synthesize sourceOSBuild=_sourceOSBuild;
 
 @end
 

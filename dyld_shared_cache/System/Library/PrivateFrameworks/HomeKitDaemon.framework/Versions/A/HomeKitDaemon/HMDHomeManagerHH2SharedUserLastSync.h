@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUser, NSData, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeManagerHH2SharedUserLastSync
 {
     _Bool _valid;
-    NSUUID *_homeUUID;
-    HMDUser *_user;
-    NSDate *_creationDate;
-    NSString *_archivePath;
 }
 
 + (id);
-- (void);
+- (void)_serverDisabledDefaultListener;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)@@9;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)MegadomeClient;
 - (_Bool);
 - (id);
 - (void)ificant notification model with UUID %{public,uuid_t}.16P:%@ /* Error: Ran out of types for this method. */;
 - (id)oes not support home hub;
-- (id)rkQueueNetworkChanged;
+- (id)workQueueNetworkChanged;
 - (void)essoryFirmwareUpdateSession _resetSocketIdleTimer];
-- (id);
+- (id)ManagerError;
 - (void)`ÿq(@;
 
 // Remaining properties
-@property(readonly) NSData *archive;
-@property(readonly) NSDate *creationDate;
 @property(retain) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(retain) HMDUser *user; // @synthesize user=_user;
-@property(readonly, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

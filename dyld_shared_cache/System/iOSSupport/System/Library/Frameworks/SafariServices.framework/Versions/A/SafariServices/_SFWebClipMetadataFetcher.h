@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, _SFInjectedJavaScriptController;
+@class NSDictionary;
 
 @interface _SFWebClipMetadataFetcher
 {
     NSDictionary *_metaTags;
-    NSArray *_linkTags;
-    NSMutableArray *_metadataConsumers;
-    _Bool _fetchingCompleted;
-    _SFInjectedJavaScriptController *_jsController;
 }
 
-+ (void);
-+ (id);
-- (id);
++ (void)FindMyAirPodsFamilyShareEnvelope;
++ (id);
+- (id)ListPickerSection;
 - (void);
 - (void);
 - (void);

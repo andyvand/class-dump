@@ -9,9 +9,10 @@
     id delegate;
 }
 
-- (void);
+- (void)ithIOReporterFormatter:(id)arg1:storeChannelDescriptionFromDriverGroup kIOReportDriverNameKey expected obj %s is NULL, with type %ld, but has type %ld
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)terType;
+- (void)PuzzleContinuePlayingRouterType;
 
 @end
 

@@ -6,13 +6,15 @@
 
 #import <UIKitCore/UIVisualEffect.h>
 
-@class UIColor, _UIBlurEffectImpl;
+@class _UIBlurEffectImpl;
 
 @interface UIBlurEffect : UIVisualEffect
 {
     _UIBlurEffectImpl *_impl;
 }
 
++ (id)#;
++ (id)4@;
 + (id);
 + (id);
 + (id);
@@ -21,9 +23,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)#;
 + (id);
 + (_Bool)oes not implement required method -tableView:cellForRowAtIndexPath:%@ /* Error: Ran out of types for this method. */;
 - (long long);
@@ -31,7 +31,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)LDAPSearchSettingScopeOneLevel;
 - (id);
 - (id);
 - (id);
@@ -40,9 +40,9 @@
 - (unsigned long long);
 - (_Bool)^Ð1Â0@ù
 × ;
-- (_Bool)ifier:(id)arg1;
-- (id)Controller;
-- (void)teBackgroundViewVisiblity;
+- (_Bool)dequeueReusableHeaderFooterViewWithIdentifier:(id)arg1;
+- (id)_visualStyleOfContainingAlertController;
+- (void)_updateBackgroundViewVisiblity;
 - (_Bool)IScene",N,W,V_scene;
 - (id)>;
 - (void);
@@ -52,11 +52,7 @@
 - (long long)ÿq;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _canProvideCoreMaterialVibrancyEffect;
 @property(readonly, nonatomic) _Bool _canProvideVibrancyEffect;
-@property(readonly, nonatomic) _Bool _invertAutomaticStyle;
-@property(readonly, nonatomic) long long _style;
-@property(readonly, nonatomic) UIColor *_tintColor;
 
 @end
 

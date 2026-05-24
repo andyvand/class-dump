@@ -4,66 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface JULanguageAwareString
 {
     id baseAttributedString;
-    id $__lazy_storage_$_attributedString;
-    id cachedTextStorage;
-    id knownBaseWritingDirections;
-    void string;
-    id $__lazy_storage_$_localizedLowercase;
-    id $__lazy_storage_$_localizedUppercase;
-    id $__lazy_storage_$_newlinesCollapsedToSpace;
-    id $__lazy_storage_$_trimmed;
-    void numbers;
-    void paragraphs;
-    void words;
-    id $__lazy_storage_$_juFullRange;
-    id $__lazy_storage_$_isEmpty;
-    id $__lazy_storage_$_utf16Count;
-    id $__lazy_storage_$_utf32Count;
-    id $__lazy_storage_$_characterCount;
-    id $__lazy_storage_$_thresholdBaseWritingDirection;
 }
 
-+ (id);
++ (id)z;
 + (void);
-+ (void);
++ (void){;
 + (_Bool);
 + (_Bool);
 + (id);
 + (void);
 - (struct _NSRange);
-- (void);
+- (void)U{;
 - (id);
 - (long long);
+- (long long);
+- (long long)z;
+- (void);
+- (void);
+- (void)z;
+- (void);
+- (void);
+- (id);
+- (id)U{;
+- (id);
+- (id);
+- (id){;
+- (id);
+- (id)z;
+- (long long)U{;
+- (id);
+- (void){;
+- (void);
+- (long long)ionMetadata";
+- (id)c;
+- (id);
+- (id);
 - (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (id)WhiteList;
 - (void);
 - (id);
 - (void);
@@ -73,20 +56,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) NSAttributedString *attributedString;
-@property(nonatomic) _Bool isEmpty;
-@property(nonatomic) struct _NSRange juFullRange;
-@property(nonatomic) long long length;
-@property(nonatomic, retain) JULanguageAwareString *localizedLowercase;
-@property(nonatomic, retain) JULanguageAwareString *localizedUppercase;
-@property(nonatomic, retain) JULanguageAwareString *newlinesCollapsedToSpace;
-@property(nonatomic) long long numberOfCharacters;
-@property(nonatomic, readonly) NSArray *numbers;
-@property(nonatomic, readonly) NSArray *paragraphs;
-@property(nonatomic, readonly) NSString *string;
-@property(nonatomic) long long thresholdBaseWritingDirection;
-@property(nonatomic, retain) JULanguageAwareString *trimmed;
-@property(nonatomic) long long utf32Length;
-@property(nonatomic, readonly) NSArray *words;
 
 @end
 

@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface TIDescriptorParser
 {
     long long _errorCode;
-    NSMutableDictionary *_context;
 }
 
 - (id);
 - (id);
+- (id)3;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)[;
 - (id);
 - (id);
 - (id);
@@ -34,7 +31,6 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *context; // @synthesize context=_context;
 @property(readonly, nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
 
 @end

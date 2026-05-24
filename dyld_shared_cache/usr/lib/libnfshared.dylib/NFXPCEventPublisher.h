@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_event_publisher;
+@class NSObject;
+@protocol OS_xpc_event_publisher;
 
 @interface NFXPCEventPublisher
 {
     _Bool _receivedInitialBarrier;
-    NSObject<OS_xpc_event_publisher> *_publisher;
-    NSString *_streamName;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_pendingSendEvents;
-    NSMutableSet *_tokens;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -37,12 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *pendingSendEvents; // @synthesize pendingSendEvents=_pendingSendEvents;
 @property(retain, nonatomic) NSObject<OS_xpc_event_publisher> *publisher; // @synthesize publisher=_publisher;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool receivedInitialBarrier; // @synthesize receivedInitialBarrier=_receivedInitialBarrier;
-@property(retain, nonatomic) NSString *streamName; // @synthesize streamName=_streamName;
-@property(retain, nonatomic) NSMutableSet *tokens; // @synthesize tokens=_tokens;
 
 @end
 

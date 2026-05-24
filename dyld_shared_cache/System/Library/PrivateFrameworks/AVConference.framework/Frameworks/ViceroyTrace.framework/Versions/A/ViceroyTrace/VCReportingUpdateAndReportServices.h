@@ -8,20 +8,16 @@ __attribute__((visibility("hidden")))
 @interface VCReportingUpdateAndReportServices
 {
     _Bool _needToUpdate;
-    _Bool _needToReport;
-    CDUnknownBlockType _block;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)g;
 - (id);
-- (void);
+- (void)L;
 - (void);
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly) _Bool needToReport; // @synthesize needToReport=_needToReport;
 @property(readonly) _Bool needToUpdate; // @synthesize needToUpdate=_needToUpdate;
 
 @end

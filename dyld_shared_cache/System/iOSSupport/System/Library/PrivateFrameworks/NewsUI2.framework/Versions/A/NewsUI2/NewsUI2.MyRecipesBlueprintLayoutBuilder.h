@@ -7,7 +7,6 @@
 @interface NewsUI2.MyRecipesBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id config;
 }
 
 @end

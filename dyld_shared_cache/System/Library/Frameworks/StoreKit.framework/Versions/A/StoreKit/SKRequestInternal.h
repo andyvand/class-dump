@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SKPaymentQueueClient;
-@protocol SKRequestDelegate;
-
 __attribute__((visibility("hidden")))
 @interface SKRequestInternal
 {
     long long _backgroundTaskIdentifier;
-    SKPaymentQueueClient *_client;
-    id <SKRequestDelegate> _delegate;
-    long long _state;
 }
 
 - (void);

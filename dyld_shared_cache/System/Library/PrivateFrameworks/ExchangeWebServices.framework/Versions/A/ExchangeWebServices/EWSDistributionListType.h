@@ -11,22 +11,18 @@
 @interface EWSDistributionListType : EWSItemType
 {
     NSString *_FileAs;
-    NSString *_DisplayName;
-    long long _ContactSource;
 }
 
 + (id);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long ContactSource; // @synthesize ContactSource=_ContactSource;
-@property(copy, nonatomic) NSString *DisplayName; // @synthesize DisplayName=_DisplayName;
 @property(copy, nonatomic) NSString *FileAs; // @synthesize FileAs=_FileAs;
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol SGDSuggestManagerMailProtocol
+- (void);
 - (void)eCore:(_Bool)arg1 endDate:(long long)arg2 endDateCore:(void (^)(SGXPCResponse1 *))arg3;
 - (void)ed with nil arguments;
 - (void)acted location:(long long)arg1 %@;

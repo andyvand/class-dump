@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class IFPlatformSchemaIFPlatformClientEventMetadata, IFPlatformSchemaIFPlatformTargetContext, NSData, SISchemaInstrumentationMessage;
+@class IFPlatformSchemaIFPlatformClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface IFPlatformSchemaIFPlatformClientEvent : SISchemaTopLevelUnionType
 {
     IFPlatformSchemaIFPlatformClientEventMetadata *_eventMetadata;
-    IFPlatformSchemaIFPlatformTargetContext *_ifPlatformTargetContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasIfPlatformTargetContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -23,39 +19,33 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)�^;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)accountStatusCode;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)etal.dylib;
 - (_Bool);
 - (_Bool);
+- (id)mutableCopy;
 - (id);
-- (id);
-- (id)ointReported;
-- (unsigned long long)stWebPost: /* Error: Ran out of types for this method. */;
-- (id)t;
+- (id)mwtCheckpointReported;
+- (unsigned long long)setHasCirAlertKgWaBoostWebPost: /* Error: Ran out of types for this method. */;
+- (id)referencesCount;
 - (id)b@cÄc°eÌg	 jÜk;
-- (int)ATAKIND_URL;
+- (int)LRDATAKIND_URL;
 - (void)dËÿä;
 
 // Remaining properties
-@property(retain, nonatomic) IFPlatformSchemaIFPlatformClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasIfPlatformTargetContext; // @synthesize hasIfPlatformTargetContext=_hasIfPlatformTargetContext;
-@property(retain, nonatomic) IFPlatformSchemaIFPlatformTargetContext *ifPlatformTargetContext; // @synthesize ifPlatformTargetContext=_ifPlatformTargetContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

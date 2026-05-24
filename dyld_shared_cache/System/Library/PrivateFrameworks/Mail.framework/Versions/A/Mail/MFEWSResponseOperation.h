@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFEWSGateway, NSError;
-@protocol MFEWSErrorHandler;
+@class MFEWSGateway;
 
 @interface MFEWSResponseOperation
 {
     _Bool _isOffline;
-    id _response;
-    MFEWSGateway *_gateway;
-    id <MFEWSErrorHandler> _errorHandler;
-    NSError *_lastError;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)qA;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)x;
+- (void);
+- (id)Ptr<WebCore::Page>, WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebCore::Page>, WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebCore::Page>>, Traits = WTF::HashMap<WTF::WeakPtr<WebCore::Page>, WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebCore::Page>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)_scaleFactor;
+- (void)a;
 - (void);
 - (void);
 - (id);
@@ -39,11 +34,7 @@
 - (id)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%;
 
 // Remaining properties
-@property(retain, nonatomic) id <MFEWSErrorHandler> errorHandler; // @synthesize errorHandler=_errorHandler;
 @property(retain, nonatomic) MFEWSGateway *gateway; // @synthesize gateway=_gateway;
-@property _Bool isOffline; // @synthesize isOffline=_isOffline;
-@property(retain) NSError *lastError; // @synthesize lastError=_lastError;
-@property(retain) id response; // @synthesize response=_response;
 
 @end
 

@@ -9,7 +9,7 @@
     _Bool _ageMigrationFeatureEnabled;
 }
 
-- (_Bool);
+- (_Bool)a NSError (from:%@) /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

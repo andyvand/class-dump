@@ -7,9 +7,6 @@
 @interface AppAttestInternal.AppUUIDDataManager
 {
     id auditToken;
-    id keychainController;
-    id $__lazy_storage_$_bundleRecordController;
-    id logger;
 }
 
 @end

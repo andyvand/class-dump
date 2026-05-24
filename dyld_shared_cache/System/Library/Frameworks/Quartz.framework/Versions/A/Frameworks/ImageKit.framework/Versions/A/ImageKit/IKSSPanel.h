@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKSSBackgroundWindow, IKSSButton, IKSSToolTip, IKSlideshowHandler, IKWindowTransitionAnimation, NSBundle, NSMutableArray, NSString, NSTimer;
+@class IKSSButton, IKSlideshowHandler;
 
 @interface IKSSPanel
 {
     IKSlideshowHandler *_slideshowHandler;
-    IKSSBackgroundWindow *_backgroundWindow;
-    IKSSButton *_backButton;
-    IKSSButton *_playButton;
-    IKSSButton *_nextButton;
-    IKSSButton *_indexButton;
-    IKSSButton *_fullScreenButton;
-    IKSSButton *_addToiPhotoButton;
-    IKSSButton *_cancelButton;
-    IKSSButton *_toolTipButton;
-    NSBundle *_bundle;
-    int _currentXOffset;
-    IKSSToolTip *_slideshowToolTip;
-    NSMutableArray *_nextKeyViews;
-    NSTimer *_fadeTimer;
-    IKWindowTransitionAnimation *_animation;
-    _Bool _mouseInside;
-    _Bool _canBecomeVisible;
-    _Bool _voiceOverIsOn;
 }
 
 - (void);
@@ -36,6 +18,24 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,25 +45,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
+- (int)�;
 - (void);
 - (void);
 - (void);
@@ -72,9 +54,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,25 +65,11 @@
 - (id);
 - (id)Ð1Â0@ù
 × ;
-- (void)bindEntryAtIndex:(id)arg1 size: /* Error: Ran out of types for this method. */;
-- (void)mageBrowserFlavor:(id)arg1;
+- (void)unbindEntryAtIndex:(id)arg1 size: /* Error: Ran out of types for this method. */;
+- (void)setImageBrowserFlavor:(id)arg1;
 - (void)8¶;
 
 // Remaining properties
-@property(readonly) IKSSButton *addToiPhotoButton; // @synthesize addToiPhotoButton=_addToiPhotoButton;
-@property(readonly) IKSSButton *backButton; // @synthesize backButton=_backButton;
-@property(readonly) IKSSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) IKSSButton *fullScreenButton; // @synthesize fullScreenButton=_fullScreenButton;
-@property(readonly) unsigned long long hash;
-@property(readonly) IKSSButton *indexButton; // @synthesize indexButton=_indexButton;
-@property(readonly) IKSSButton *nextButton; // @synthesize nextButton=_nextButton;
-@property(readonly) IKSSButton *playButton; // @synthesize playButton=_playButton;
-@property(readonly) Class superclass;
 @property IKSSButton *toolTipButton; // @synthesize toolTipButton=_toolTipButton;
 
 @end

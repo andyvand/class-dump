@@ -23,14 +23,14 @@
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)@;
 - (int);
 - (struct __DADisk *);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)TKSmartCardUserInteractionForSecurePINChange;
+- (id)ExpiredSessionReports) pendingExpiredSessionReportsWithAppIdentifier:(id)arg1 storageDirectoryAtURL:] /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

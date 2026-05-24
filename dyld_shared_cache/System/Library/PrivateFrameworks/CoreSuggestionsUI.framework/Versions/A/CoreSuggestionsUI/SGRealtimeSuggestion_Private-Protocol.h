@@ -5,6 +5,7 @@
 //
 
 @protocol SGRealtimeSuggestion_Private
+- (void)C;
 
 // Remaining properties
 @property(nonatomic) int extractionSource;

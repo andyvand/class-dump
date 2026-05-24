@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RTDataProtectionManager, RTLearnedLocationManager, RTLocationManager, RTMetricManager, RTNextPredictedLocationsOfInterestCache;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTPredictedLocationOfInterestProviderStateModel
 {
     _Bool _encryptedDataAvailabilityNotificationNeeded;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTDataProtectionManager *_dataProtectionManager;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLocationManager *_locationManager;
-    RTMetricManager *_metricManager;
-    RTNextPredictedLocationsOfInterestCache *_nextPredictedLocationsOfInterestCache;
-    long long _encryptedDataAvailability;
 }
 
 - (void);
@@ -27,36 +20,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)agramSize %ld metadataSize %ld dataOffset %ld [%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x ...];
+- (_Bool)uld not find account uniqueID! self:%@ account:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)_passwordEncryption;
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void),%{public}d,isLOIAndZDRLocSameBasedOnUUID,%{public}d,loiUUID,%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long encryptedDataAvailability; // @synthesize encryptedDataAvailability=_encryptedDataAvailability;
-@property(nonatomic) _Bool encryptedDataAvailabilityNotificationNeeded; // @synthesize encryptedDataAvailabilityNotificationNeeded=_encryptedDataAvailabilityNotificationNeeded;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(readonly, nonatomic) RTNextPredictedLocationsOfInterestCache *nextPredictedLocationsOfInterestCache; // @synthesize nextPredictedLocationsOfInterestCache=_nextPredictedLocationsOfInterestCache;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

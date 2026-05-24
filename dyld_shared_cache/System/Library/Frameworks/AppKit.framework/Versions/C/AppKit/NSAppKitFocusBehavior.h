@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSAppKitFocusBehavior
 {
 }
 
 - (double);
+- (_Bool)h;
+- (_Bool);
 - (_Bool);
+- (_Bool)L	;
+- (_Bool);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool)upplementaryViewOfKind:withReuseIdentifier:forIndexPath: /* Error: Ran out of types for this method. */;
-- (_Bool)t: /* Error: Ran out of types for this method. */;
+- (_Bool)dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)_activateSuggestion:inContext: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

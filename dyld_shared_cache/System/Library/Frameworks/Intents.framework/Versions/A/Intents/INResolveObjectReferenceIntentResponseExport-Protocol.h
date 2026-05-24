@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol INResolveObjectReferenceIntentResponseExport
-- (long long)onWords;
+- (long long)hasNumberOfHomeAutomationWords;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSData *resolvedReferences;
 @end
 

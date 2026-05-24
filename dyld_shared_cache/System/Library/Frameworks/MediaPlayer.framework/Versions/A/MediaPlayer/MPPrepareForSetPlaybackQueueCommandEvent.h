@@ -6,22 +6,18 @@
 
 #import <MediaPlayer/MPRemoteCommandEvent.h>
 
-@class NSString;
-
 @interface MPPrepareForSetPlaybackQueueCommandEvent : MPRemoteCommandEvent
 {
     _Bool _isProactive;
-    NSString *_proactiveReason;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (void)lRevision;
+- (void)_localRevision;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isProactive; // @synthesize isProactive=_isProactive;
-@property(readonly, copy, nonatomic) NSString *proactiveReason; // @synthesize proactiveReason=_proactiveReason;
 
 @end
 

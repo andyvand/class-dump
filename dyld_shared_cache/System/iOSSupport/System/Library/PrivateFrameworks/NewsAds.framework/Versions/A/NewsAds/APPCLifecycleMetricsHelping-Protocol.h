@@ -5,5 +5,7 @@
 //
 
 @protocol APPCLifecycleMetricsHelping
+- (void)mediaSharingBlacklistedChannelIDs;
+- (void);
 @end
 

@@ -11,7 +11,6 @@
 @interface MapsSuggestionsDarwinNotificationTrigger : MapsSuggestionsBaseTrigger
 {
     NSString *_notificationName;
-    int _notificationToken;
 }
 
 - (void);

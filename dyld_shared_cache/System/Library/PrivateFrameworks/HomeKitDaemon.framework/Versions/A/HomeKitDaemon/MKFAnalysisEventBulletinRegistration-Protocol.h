@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFAnalysisEventBulletinRegistrationDatabaseID, NSNumber;
+@class NSNumber;
 @protocol MKFAccessory, MKFHome;
 
 @protocol MKFAnalysisEventBulletinRegistration
+- (NSNumber *)st;
+- (id <MKFAccessory>);
 - (id <MKFHome>);
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAccessory> accessory;
 @property(copy, nonatomic) NSNumber *classifierOptions;
-@property(readonly, copy, nonatomic) MKFAnalysisEventBulletinRegistrationDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @end
 

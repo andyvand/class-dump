@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (double);
+- (double);
 - (id);
-- (id);
+- (id);
 - (int);
 - (short);
 - (float)ude requested service", "RequestedServiceName":(id)arg1 %{public, location:(float)arg2 escape_only}@, "ReplacementMap":%{public, location:escape_only}@} /* Error: Ran out of types for this method. */;

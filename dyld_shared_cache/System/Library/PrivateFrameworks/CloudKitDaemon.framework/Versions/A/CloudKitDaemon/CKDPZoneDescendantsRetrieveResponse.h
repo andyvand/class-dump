@@ -9,9 +9,6 @@
 @interface CKDPZoneDescendantsRetrieveResponse
 {
     NSData *_continuationToken;
-    NSMutableArray *_descendants;
-    _Bool _isComplete;
-    CDStruct_74414baf _has;
 }
 
 + (Class);
@@ -28,8 +25,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)gEndpointStreamFlushFlags, CFDictionaryRef);
+- (_Bool)@;
 - (void);
 - (_Bool);
 - (void);
@@ -40,11 +37,7 @@
 - (id)ent for operation %{public}@ for url:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuationToken; // @synthesize continuationToken=_continuationToken;
 @property(retain, nonatomic) NSMutableArray *descendants; // @synthesize descendants=_descendants;
-@property(readonly, nonatomic) _Bool hasContinuationToken;
-@property(nonatomic) _Bool hasIsComplete;
-@property(nonatomic) _Bool isComplete; // @synthesize isComplete=_isComplete;
 
 @end
 

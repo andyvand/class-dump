@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface WBSRecentlyUsedAutoFillSet
 {
     NSArray *_fillMatches;
-    NSArray *_skipMatches;
-    NSString *_label;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *fillMatches; // @synthesize fillMatches=_fillMatches;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, copy, nonatomic) NSArray *skipMatches; // @synthesize skipMatches=_skipMatches;
 
 @end
 

@@ -6,19 +6,11 @@
 
 #import <Silex/SXMediaComponentView.h>
 
-@class AVPlayerViewController, NSString, SVAVPlayer, SXAudioComponentOverlayView;
-@protocol SXHost, SXResourceDataSource;
+@protocol SXResourceDataSource;
 
 @interface SXAudioComponentView : SXMediaComponentView
 {
     _Bool _audioHasPlayed;
-    _Bool _startPlaybackWhenReady;
-    id <SXResourceDataSource> _resourceDataSource;
-    id <SXHost> _host;
-    SXAudioComponentOverlayView *_overlayView;
-    AVPlayerViewController *_playerViewController;
-    SVAVPlayer *_player;
-    CDUnknownBlockType _cancelHandler;
 }
 
 - (void);
@@ -41,10 +33,10 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -55,28 +47,14 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void)<B@?>40;
-- (void)rameIndex: /* Error: Ran out of types for this method. */;
+- (void)setIntendedFrameIndex: /* Error: Ran out of types for this method. */;
 - (id)NSMutableDictionary",R,N,V_videoAnalyticsRouters;
 - (void)V!;
 
 // Remaining properties
-@property(nonatomic) _Bool audioHasPlayed; // @synthesize audioHasPlayed=_audioHasPlayed;
-@property(copy, nonatomic) CDUnknownBlockType cancelHandler; // @synthesize cancelHandler=_cancelHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
-@property(readonly, nonatomic) SXAudioComponentOverlayView *overlayView; // @synthesize overlayView=_overlayView;
-@property(retain, nonatomic) SVAVPlayer *player; // @synthesize player=_player;
-@property(retain, nonatomic) AVPlayerViewController *playerViewController; // @synthesize playerViewController=_playerViewController;
 @property(readonly, nonatomic) id <SXResourceDataSource> resourceDataSource; // @synthesize resourceDataSource=_resourceDataSource;
-@property(nonatomic) _Bool startPlaybackWhenReady; // @synthesize startPlaybackWhenReady=_startPlaybackWhenReady;
-@property(readonly) Class superclass;
 
 @end
 

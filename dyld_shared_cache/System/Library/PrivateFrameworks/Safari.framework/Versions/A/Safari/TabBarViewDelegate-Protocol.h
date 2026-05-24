@@ -15,7 +15,8 @@
 - (_Bool)0;
 - (void)Ì;
 - (NSMenu *)ð;
-- (_Bool)8;
+- (_Bool)d8;
+- (NSImage *)8;
 - (void);
 - (void);
 - (unsigned long long)<;

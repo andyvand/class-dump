@@ -7,7 +7,6 @@
 @interface FinderKit.SwiftAirDropReceiveAskRequest
 {
     id logger;
-    id askRequest;
 }
 
 @end

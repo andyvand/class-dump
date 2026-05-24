@@ -9,10 +9,9 @@
 @interface QCStreamExporter
 {
     QCStreamManager *_manager;
-    void *_unused[4];
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFLatLng;
+@class NSData, NSString;
 
 @protocol SFStructuredLocation
+- (void);
+- (void);
+- (NSData *)4;
+- (double)rary;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFLatLng *geoLocation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double radius;
 @property(copy, nonatomic) NSString *title;
 @end
 

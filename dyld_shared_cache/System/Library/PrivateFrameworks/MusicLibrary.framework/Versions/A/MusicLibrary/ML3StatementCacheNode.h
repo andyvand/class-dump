@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 @interface ML3StatementCacheNode
 {
     NSObject<NSCopying> *_dictionaryKey;
-    ML3StatementCacheNode *_next;
 }
 
 - (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSObject<NSCopying> *dictionaryKey; // @synthesize dictionaryKey=_dictionaryKey;
-@property(retain, nonatomic) ML3StatementCacheNode *next; // @synthesize next=_next;
 
 @end
 

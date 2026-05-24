@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSColor, NSImage, NSString;
+@class NSString;
 
 @interface NSTabBarItem
 {
     NSString *_label;
-    NSAttributedString *_attributedTitle;
-    NSString *_toolTip;
-    NSArray *_accessoryViews;
-    NSImage *_image;
-    NSColor *_themeColor;
-    _Bool _pinned;
-    _Bool _showIcon;
-    _Bool _hideTab;
 }
 
 + (_Bool);
-- (id);
+- (id)x@L;
 - (_Bool);
 - (void);
 - (void);
@@ -33,26 +25,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)FPSandboxingURLWrapper"16@"NSSecurityScopedURLWrapper"24Q32@"NSArray"40Q48@?<v@?@"NSURL"@"NSError">56;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void)r -application:(id)arg1 userAcceptedCloudKitShareWithMetadata:because an exception occurred:%@ /* Error: Ran out of types for this method. */;
-- (id)ication;
+- (id)NSApplicationWillUpdateNotification;
 - (void);
 - (void)múA;
 
 // Remaining properties
-@property(copy) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;
-@property(copy) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property _Bool hideTab; // @synthesize hideTab=_hideTab;
-@property(retain) NSImage *image; // @synthesize image=_image;
 @property(copy) NSString *label; // @synthesize label=_label;
-@property(getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property _Bool showIcon; // @synthesize showIcon=_showIcon;
-@property(copy) NSColor *themeColor; // @synthesize themeColor=_themeColor;
-@property(copy) NSString *toolTip; // @synthesize toolTip=_toolTip;
 
 @end
 

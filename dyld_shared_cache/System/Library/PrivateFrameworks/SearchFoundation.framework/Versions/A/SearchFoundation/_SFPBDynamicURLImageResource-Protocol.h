@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBGraphicalFloat;
+@class NSData, _SFPBGraphicalFloat;
 
 @protocol _SFPBDynamicURLImageResource
+- (void);
+- (void);
+- (_SFPBGraphicalFloat *)_extensionBundle;
+- (NSData *)dexSet",&,N,V_categories;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *formatURL;
-@property(copy, nonatomic) NSArray *imageOptions;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBGraphicalFloat *pixelHeight;
 @property(retain, nonatomic) _SFPBGraphicalFloat *pixelWidth;
-@property(nonatomic) _Bool supportsResizing;
 @end
 

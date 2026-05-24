@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioFeedGroupEmitterFactory
 {
     id paywallFactory;
-    id formatService;
-    id offlineContentManager;
-    id offerManager;
 }
 
 @end

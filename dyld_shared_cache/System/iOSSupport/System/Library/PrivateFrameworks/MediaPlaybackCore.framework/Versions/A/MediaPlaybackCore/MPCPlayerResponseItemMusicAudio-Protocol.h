@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerAudioFormat, MPCPlayerAudioRoute, NSArray;
+@class MPCPlayerAudioFormat, NSArray;
 
 @protocol MPCPlayerResponseItemMusicAudio
-- (MPCPlayerAudioFormat *);
+- (unsigned long long);
+- (NSArray *)*;
 - (MPCPlayerAudioFormat *)¬BÏÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) MPCPlayerAudioFormat *activeFormat;
-@property(readonly, nonatomic) long long activeFormatJustification;
-@property(readonly, nonatomic) NSArray *alternateFormats;
-@property(readonly, nonatomic) MPCPlayerAudioRoute *audioRoute;
 @property(readonly, nonatomic) MPCPlayerAudioFormat *preferredFormat;
-@property(readonly, nonatomic) unsigned long long preferredTiers;
 @end
 

@@ -9,8 +9,6 @@
 @interface HMIVideoEventBuffer
 {
     NSMutableArray *_data;
-    struct os_unfair_lock_s _lock;
-    long long _maxCapacity;
 }
 
 - (id);
@@ -18,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)q;
+- (void)!;
 - (id);
 - (unsigned long long);
 - (void);

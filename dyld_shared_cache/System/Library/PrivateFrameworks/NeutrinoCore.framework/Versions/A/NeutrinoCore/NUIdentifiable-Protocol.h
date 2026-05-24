@@ -7,6 +7,7 @@
 @class NUIdentifier;
 
 @protocol NUIdentifiable
+- (NUIdentifier *);
 
 // Remaining properties
 @property(readonly, nonatomic) NUIdentifier *identifier;

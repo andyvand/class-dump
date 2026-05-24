@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDatabase, CKRecordZone, CKRecordZoneID, NSObject, NSOperationQueue, WBSCloudHistoryConfiguration;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSCloudHistoryStore
 {
     NSObject<OS_dispatch_queue> *_databaseQueue;
-    NSOperationQueue *_cloudKitOperationQueue;
-    CKDatabase *_database;
-    CKRecordZoneID *_recordZoneID;
-    CKRecordZone *_recordZone;
-    WBSCloudHistoryConfiguration *_configuration;
-    _Bool _useManateeContainer;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (id);
 - (void);

@@ -11,7 +11,6 @@
 @interface AMSCardRegistrationTask : AMSTask
 {
     NSString *_countryCode;
-    NSString *_merchantIdentifier;
 }
 
 - (void);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(copy) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
 
 @end
 

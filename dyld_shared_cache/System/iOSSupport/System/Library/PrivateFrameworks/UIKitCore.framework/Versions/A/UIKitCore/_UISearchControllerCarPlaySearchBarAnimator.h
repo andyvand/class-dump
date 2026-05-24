@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)onController:(id)arg1;
+- (void)0@0:(id)arg1 8@16q24q32@40B48q52;
+- (void)q24;
+- (void)sOffGridProcessingPipelineComponent> Started processing;
+- (void)_setTransitionController:(id)arg1;
 
 @end
 

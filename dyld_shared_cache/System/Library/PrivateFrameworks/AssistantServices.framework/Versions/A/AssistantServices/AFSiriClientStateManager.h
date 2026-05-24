@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFNotifyStatePublisher, AFSafetyBlock, AFWatchdogTimer, NSMapTable, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFSiriClientStateManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AFNotifyStatePublisher *_publisher;
-    NSMapTable *_statesByClient;
-    long long _transactionDepth;
-    AFSafetyBlock *_presentationTransitionAssertion;
-    AFWatchdogTimer *_presentationTransitionWatchdogTimer;
-    NSObject<OS_dispatch_group> *_presentationTransitionGroup;
 }
 
 + (id);
@@ -27,14 +21,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)9*;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +39,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

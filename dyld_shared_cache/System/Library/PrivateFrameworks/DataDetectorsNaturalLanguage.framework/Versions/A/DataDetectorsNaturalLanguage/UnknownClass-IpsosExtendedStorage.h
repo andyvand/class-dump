@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPEventClassificationType, IPMessageUnit, NSArray;
-
 @interface UnknownClass (IpsosExtendedStorage)
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)kA;
 - (void);
 - (void);
 - (void);
@@ -30,7 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (double);
 - (unsigned long long);
@@ -41,27 +39,10 @@
 - (id);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);;
 - (void);
 
 // Remaining properties
-@property _Bool ipsos_allDayPreferred;
-@property double ipsos_confidence;
-@property(retain) NSArray *ipsos_dataFeatures;
-@property _Bool ipsos_disableTimeAdjustment;
-@property(readonly) double ipsos_duration;
-@property unsigned long long ipsos_eventAttributes;
-@property(retain) IPEventClassificationType *ipsos_eventClassificationType;
-@property unsigned long long ipsos_eventStatus;
-@property double ipsos_experimentalConfidence;
-@property _Bool ipsos_isDateTimeTenseDependent;
-@property _Bool ipsos_isEndTimeApproximate;
-@property _Bool ipsos_isEventTimeOnlyAndReferrengingToSentDate;
 @property _Bool ipsos_isTimeApproximate;
-@property _Bool ipsos_isTimeOffset;
-@property(retain) IPMessageUnit *ipsos_messageUnit;
-@property _Bool ipsos_timeNeedsMeridianGuess;
-@property unsigned long long ipsos_usedBubblesCount;
-@property _Bool ipsos_usesDefaultClassificationTypeStartTime;
 @end
 

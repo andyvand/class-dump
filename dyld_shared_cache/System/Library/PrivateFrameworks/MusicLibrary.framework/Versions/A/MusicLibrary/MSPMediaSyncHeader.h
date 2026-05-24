@@ -7,38 +7,30 @@
 @interface MSPMediaSyncHeader
 {
     int _syncType;
-    int _totalPackages;
-    struct {
-        unsigned int syncType:1;
-        unsigned int totalPackages:1;
-    } _has;
 }
 
-- (int);
-- (id);
-- (void);
-- (void);
+- (int)_cloneResourcesForSharePlaceholderAsset:withPlaceholderResourceURLToSourceResourceURLMap:fileManager:photoLibrary: /* Error: Ran out of types for this method. */;
+- (id)_clientName;
+- (void)_chooseFileReservationForLargeDisplayableImageFileForAsset:(int)arg1 format:forceLarge:allowMetadataSnapshot:outFilePath:outImageType: /* Error: Ran out of types for this method. */;
+- (void)_cameraAutoRenderTypeFromAssetAdjustments:(_Bool)arg1 adjustmentEnvelope: /* Error: Ran out of types for this method. */;
+- (_Bool)__SBSApplicationShortcutItemClass;
+- (void)lizer;
+- (int)personCondition;
 - (_Bool);
 - (void);
 - (int);
-- (_Bool);
-- (void);
-- (int);
 - (id);
 - (void);
-- (void);
+- (void)N3fst8internal17VectorFstBaseImplINS_11VectorStateINS_6ArcTplINS_17TropicalWeightTplIfEEEENSt3__19allocatorIS6_EEEEEE;
 - (unsigned long long);
+- (_Bool)sendModernMessagingRequestWithMessageName:(id)arg1 destination:requestPayload:options:responseHandler:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)numberWithBool:(id)arg1;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSyncType;
 @property(nonatomic) _Bool hasTotalPackages;
-@property(nonatomic) int syncType; // @synthesize syncType=_syncType;
-@property(nonatomic) int totalPackages; // @synthesize totalPackages=_totalPackages;
 
 @end
 

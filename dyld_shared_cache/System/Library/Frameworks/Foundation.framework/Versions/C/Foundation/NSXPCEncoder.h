@@ -6,31 +6,12 @@
 
 #import <Foundation/NSXPCCoder.h>
 
-@class NSObject, NSXPCConnection;
+@class NSObject;
 @protocol NSXPCEncoderDelegate, OS_xpc_object;
 
 @interface NSXPCEncoder : NSXPCCoder
 {
     NSObject<OS_xpc_object> *_oolObjects;
-    NSXPCConnection *_connection;
-    struct __CFDictionary *_replacedByDelegateObjects;
-    id <NSXPCEncoderDelegate> _delegate;
-    struct {
-        unsigned long long collectionSizeOffset[1024];
-        long long collectionRecursionIndex;
-        unsigned long long dataLen;
-        unsigned long long dataSize;
-        char *data;
-        struct __CFDictionary *_objectReferences;
-        struct __CFDictionary *_stringReferences;
-        struct __CFDictionary *_asciiReferences;
-        _Bool isVM;
-        _Bool isStack;
-    } _encoder;
-    unsigned long long _genericIndex;
-    _Bool _topLevelDictionary;
-    _Bool _finished;
-    _Bool _askForReplacement;
 }
 
 - (void);
@@ -43,16 +24,16 @@
 - (void);
 - (void);
 - (id);
+- (void)Y;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void)colorTemperature;
+- (id);
+- (void)Ab;
 - (void);
 - (void);
 - (void);

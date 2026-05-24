@@ -7,24 +7,6 @@
 @interface NewsUI2.TagFeedPoolService
 {
     id context;
-    id feedPersonalizer;
-    id headlineService;
-    id channelSectionHeadlinesService;
-    id sportsDataService;
-    id puzzleService;
-    id puzzleStatsService;
-    id recipeService;
-    id tagFeedCurationService;
-    id tagFeedHeadlineService;
-    id sportsFavoritesService;
-    id mySportsTagService;
-    id tagService;
-    id subscriptionController;
-    id localNewsChannelService;
-    id featureAvailability;
-    id appConfigurationManager;
-    id foodService;
-    id foodClusteringService;
 }
 
 @end

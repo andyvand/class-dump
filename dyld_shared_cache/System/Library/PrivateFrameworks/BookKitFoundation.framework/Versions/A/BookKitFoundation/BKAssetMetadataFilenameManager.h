@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BKAssetMetadataFilenameManager
 {
     NSObject<OS_dispatch_queue> *_reservedFilenamesAccessQueue;
-    NSMutableDictionary *_reservedFilenames;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *reservedFilenames; // @synthesize reservedFilenames=_reservedFilenames;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *reservedFilenamesAccessQueue; // @synthesize reservedFilenamesAccessQueue=_reservedFilenamesAccessQueue;
 
 @end

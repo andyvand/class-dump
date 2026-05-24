@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _MRErrorProtobuf, _MRSendCommandResultHandlerDialogProtobuf;
+@class NSData;
 
 @interface _MRSendCommandResultStatusProtobuf
 {
     NSData *_customData;
-    NSString *_customDataType;
-    _MRSendCommandResultHandlerDialogProtobuf *_dialog;
-    _MRErrorProtobuf *_error;
-    int _statusCode;
-    int _type;
-    struct {
-        unsigned int statusCode:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
@@ -39,35 +30,24 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)have all results (has pending:%{bool}d) /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ple.siri.myriad.falseemergency;
+- (id)-[AFSiriActivationConnection handleIntent:inBackgroundAppWithBundleId:reply:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (_Bool)"NSString"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
-- (void)etPromptForSetupCodeBlock:(_Bool)arg1;
-- (void)utputDeviceUID: /* Error: Ran out of types for this method. */;
+- (void)setPromptForSetupCodeBlock:(_Bool)arg1;
+- (void)addRemovingOutputDeviceUID: /* Error: Ran out of types for this method. */;
 - (_Bool)istantExternalDevice] Hosted external device connection for distant device %p volume capabilities did change to %{public}@ for endpoint %{public}@ for output device %{public}@;
 - (int);
 - (void)\ØÖÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *customData; // @synthesize customData=_customData;
-@property(retain, nonatomic) NSString *customDataType; // @synthesize customDataType=_customDataType;
-@property(retain, nonatomic) _MRSendCommandResultHandlerDialogProtobuf *dialog; // @synthesize dialog=_dialog;
-@property(retain, nonatomic) _MRErrorProtobuf *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool hasCustomData;
-@property(readonly, nonatomic) _Bool hasCustomDataType;
-@property(readonly, nonatomic) _Bool hasDialog;
-@property(readonly, nonatomic) _Bool hasError;
 @property(nonatomic) _Bool hasStatusCode;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) int statusCode; // @synthesize statusCode=_statusCode;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

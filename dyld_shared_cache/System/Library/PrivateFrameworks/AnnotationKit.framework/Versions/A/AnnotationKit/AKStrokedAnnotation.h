@@ -6,22 +6,15 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSColor, NSString;
-
 @interface AKStrokedAnnotation : AKAnnotation
 {
     _Bool _dashed;
-    _Bool _hasShadow;
-    double _strokeWidth;
-    NSColor *_strokeColorHDR;
-    NSColor *_strokeColorSDR;
-    long long _brushStyle;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)T;
 - (id);
 - (id);
 - (id);
@@ -31,7 +24,7 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)ata=%@;
 - (void);
 - (void);
 - (id);
@@ -41,24 +34,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)4;
 - (void);
 
 // Remaining properties
-@property long long brushStyle; // @synthesize brushStyle=_brushStyle;
-@property(getter=isDashed) _Bool dashed; // @synthesize dashed=_dashed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(readonly) unsigned long long hash;
-@property(copy) NSColor *strokeColor;
-@property(retain) NSColor *strokeColorHDR; // @synthesize strokeColorHDR=_strokeColorHDR;
-@property(retain) NSColor *strokeColorSDR; // @synthesize strokeColorSDR=_strokeColorSDR;
 @property double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
-@property(readonly) Class superclass;
 
 @end
 

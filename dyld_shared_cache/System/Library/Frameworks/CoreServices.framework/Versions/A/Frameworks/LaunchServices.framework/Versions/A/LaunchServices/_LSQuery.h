@@ -9,11 +9,11 @@
     _Bool _legacy;
 }
 
-+ (_Bool);
++ (_Bool)8B16;
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)w;
+- (void);
+- (id)@;
 - (id);
 - (id);
 - (unsigned long long);
@@ -22,7 +22,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)Array"40@0:(id)arg1 8@"MTLFunction"16@"NSArray"24^@32;
 - (_Bool);
 
 // Remaining properties

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, PKDrawing;
-@protocol OS_dispatch_queue, PKStrokeSpatialCacheDelegate;
-
 @interface PKStrokeSpatialCache
 {
     _Bool _hasValidOnscreenVisibleStrokes;
-    id <PKStrokeSpatialCacheDelegate> _delegate;
-    NSArray *_onscreenVisibleStrokes;
-    CDUnknownBlockType _generateOnscreenVisibleStrokesBlock;
-    NSObject<OS_dispatch_queue> *_onscreenVisibleStrokesQueue;
-    long long _currentGenerationCount;
-    PKDrawing *_cachedDrawing;
-    struct CGRect _cachedBounds;
 }
 
 - (void);
@@ -40,22 +30,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_TtC6SiriUI30SiriUISiriIconToggleButtonView;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void)nForElements:inAttachment: /* Error: Ran out of types for this method. */;
+- (void)P;
+- (void)selectionInteraction:didClearSelectionForElements:inAttachment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGRect cachedBounds; // @synthesize cachedBounds=_cachedBounds;
-@property(retain, nonatomic) PKDrawing *cachedDrawing; // @synthesize cachedDrawing=_cachedDrawing;
-@property(nonatomic) long long currentGenerationCount; // @synthesize currentGenerationCount=_currentGenerationCount;
-@property(nonatomic) __weak id <PKStrokeSpatialCacheDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy, nonatomic) CDUnknownBlockType generateOnscreenVisibleStrokesBlock; // @synthesize generateOnscreenVisibleStrokesBlock=_generateOnscreenVisibleStrokesBlock;
-@property(nonatomic) _Bool hasValidOnscreenVisibleStrokes; // @synthesize hasValidOnscreenVisibleStrokes=_hasValidOnscreenVisibleStrokes;
-@property(retain, nonatomic) NSArray *onscreenVisibleStrokes; // @synthesize onscreenVisibleStrokes=_onscreenVisibleStrokes;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *onscreenVisibleStrokesQueue; // @synthesize onscreenVisibleStrokesQueue=_onscreenVisibleStrokesQueue;
 
 @end
 

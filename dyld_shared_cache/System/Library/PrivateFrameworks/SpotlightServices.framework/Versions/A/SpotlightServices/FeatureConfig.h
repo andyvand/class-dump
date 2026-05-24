@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (void)axWeight: /* Error: Ran out of types for this method. */;
+- (void)_phraseBonus:withEvaluator:config:maxWeight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;

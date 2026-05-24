@@ -10,7 +10,7 @@
 {
 }
 
-- (void)rGrabber: /* Error: Ran out of types for this method. */;
+- (void)_setInsetsContentViewForGrabber: /* Error: Ran out of types for this method. */;
 - (id)ÿS®Ûl;
 
 @end

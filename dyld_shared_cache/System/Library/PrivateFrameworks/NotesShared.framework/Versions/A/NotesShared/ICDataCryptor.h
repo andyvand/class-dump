@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSString;
+@class NSManagedObjectContext;
 
 @interface ICDataCryptor
 {
     NSManagedObjectContext *_context;
-    NSString *_objectIdentifier;
 }
 
 + (_Bool);

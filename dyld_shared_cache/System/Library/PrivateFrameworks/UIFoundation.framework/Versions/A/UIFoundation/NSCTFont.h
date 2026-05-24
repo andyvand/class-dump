@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (_Bool)fix;
++ (_Bool)_markerPrefix;
 - (unsigned long long);
 - (oneway void);
 - (id);

@@ -6,26 +6,24 @@
 
 #import <Metal/MTL4FunctionDescriptor.h>
 
-@class MTLFunctionStitchingGraph, NSArray;
+@class MTLFunctionStitchingGraph;
 
 @interface MTL4StitchedFunctionDescriptor : MTL4FunctionDescriptor
 {
     MTLFunctionStitchingGraph *_functionGraph;
-    NSArray *_functionDescriptors;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)?;
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *functionDescriptors; // @synthesize functionDescriptors=_functionDescriptors;
 @property(copy, nonatomic) MTLFunctionStitchingGraph *functionGraph; // @synthesize functionGraph=_functionGraph;
 
 @end

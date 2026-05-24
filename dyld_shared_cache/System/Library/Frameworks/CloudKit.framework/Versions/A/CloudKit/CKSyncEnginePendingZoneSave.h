@@ -20,8 +20,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)ns;
+- (void)>";
+- (void)CKFetchArchivedRecordsOptions;
 - (id)16@"NSError"24;
 
 // Remaining properties

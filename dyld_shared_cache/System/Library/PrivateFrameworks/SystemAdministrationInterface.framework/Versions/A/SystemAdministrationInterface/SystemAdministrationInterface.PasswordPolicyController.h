@@ -7,12 +7,6 @@
 @interface SystemAdministrationInterface.PasswordPolicyController
 {
     id user;
-    id odRecord;
-    id newUserName;
-    id password;
-    id _policies;
-    id _allSatisfied;
-    id $__lazy_storage_$_odNode;
 }
 
 @end

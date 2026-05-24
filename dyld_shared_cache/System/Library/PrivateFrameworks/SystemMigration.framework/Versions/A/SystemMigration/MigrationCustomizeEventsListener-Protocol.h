@@ -5,5 +5,6 @@
 //
 
 @protocol MigrationCustomizeEventsListener
+- (void);
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface PLCoreDuetEvent
 {
     unsigned char _updateType;
-    NSString *_bundleID;
-    NSString *_processName;
-    NSDictionary *_childBundleIDToWeight;
-    NSArray *_eventIntervals;
 }
 
 - (id);
@@ -20,8 +16,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);;
 - (void);
 - (void);
 - (unsigned char);
@@ -30,10 +26,6 @@
 
 // Remaining properties
 @property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain) NSDictionary *childBundleIDToWeight; // @synthesize childBundleIDToWeight=_childBundleIDToWeight;
-@property(retain) NSArray *eventIntervals; // @synthesize eventIntervals=_eventIntervals;
-@property(retain) NSString *processName; // @synthesize processName=_processName;
-@property unsigned char updateType; // @synthesize updateType=_updateType;
 
 @end
 

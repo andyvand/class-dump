@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, TRIGenericRequiredAssets;
+@class TRIGenericRequiredAssets;
 
 @interface TRIFactorPackAssetFetchPlan
 {
     TRIGenericRequiredAssets *_metadataForRequestedUnlinkedAssets;
-    NSDictionary *_recordIdsForDiffableAssetIds;
-    NSDictionary *_recordIdsForNonDiffableAssetIds;
 }
 
-+ (id);
++ (id)firstVideoTrackFormatDebugDescriptionForAsset:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -26,14 +24,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)__AUTH_CONST;
 - (void)×!Eù1!Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) TRIGenericRequiredAssets *metadataForRequestedUnlinkedAssets; // @synthesize metadataForRequestedUnlinkedAssets=_metadataForRequestedUnlinkedAssets;
-@property(readonly, nonatomic) NSDictionary *recordIdsForDiffableAssetIds; // @synthesize recordIdsForDiffableAssetIds=_recordIdsForDiffableAssetIds;
-@property(readonly, nonatomic) NSDictionary *recordIdsForNonDiffableAssetIds; // @synthesize recordIdsForNonDiffableAssetIds=_recordIdsForNonDiffableAssetIds;
 
 @end
 

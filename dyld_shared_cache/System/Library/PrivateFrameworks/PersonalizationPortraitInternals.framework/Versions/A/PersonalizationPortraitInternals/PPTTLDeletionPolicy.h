@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PPLocalLocationStore, PPLocalNamedEntityStore, PPLocalTopicStore;
+@class NSArray;
 
 @interface PPTTLDeletionPolicy
 {
     NSArray *_rules;
-    PPLocalNamedEntityStore *_namedEntityStore;
-    PPLocalTopicStore *_topicStore;
-    PPLocalLocationStore *_locationStore;
 }
 
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSISVariable, NSString;
+@class NSISVariable;
 
 __attribute__((visibility("hidden")))
 @interface NSISPlaybackOperationVariableDelegate
 {
     NSISVariable *_variable;
-    NSString *_variableDescription;
-    NSString *_markedConstraintDescription;
-    _Bool _variableIsUserObservable;
-    int _orientationHint;
 }
 
 - (_Bool);
@@ -23,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)taskIsScheduledWithIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)isFileURL;
 - (void);
 - (id);
 - (id);
@@ -37,11 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy) NSString *markedConstraintDescription; // @synthesize markedConstraintDescription=_markedConstraintDescription;
-@property int orientationHint; // @synthesize orientationHint=_orientationHint;
 @property(retain) NSISVariable *variable; // @synthesize variable=_variable;
-@property(copy) NSString *variableDescription; // @synthesize variableDescription=_variableDescription;
-@property _Bool variableIsUserObservable; // @synthesize variableIsUserObservable=_variableIsUserObservable;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface PDFAnnotationPKDrawing : PDFAnnotation
 {
     AKInkAnnotation *_akInkAnnotation;
-    PKDrawing *_drawing;
 }
 
 - (id);

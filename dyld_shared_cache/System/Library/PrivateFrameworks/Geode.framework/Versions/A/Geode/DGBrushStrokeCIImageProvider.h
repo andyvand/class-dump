@@ -9,9 +9,6 @@
 @interface DGBrushStrokeCIImageProvider
 {
     DGBrushStroke *_stroke;
-    _Bool _closed;
-    int _pressureMode;
-    struct PFIntRect_st _extent;
 }
 
 - (id);

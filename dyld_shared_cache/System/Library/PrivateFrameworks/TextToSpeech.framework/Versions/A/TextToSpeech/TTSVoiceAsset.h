@@ -6,29 +6,18 @@
 
 #import <TextToSpeech/TTSAssetBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TTSVoiceAsset : TTSAssetBase
 {
     _Bool _neural;
-    _Bool _isInstalled;
-    _Bool _isDownloading;
-    _Bool _isBuiltInVoice;
-    NSString *_name;
-    NSString *_identifier;
-    NSArray *_languages;
-    long long _gender;
-    long long _footprint;
-    NSString *_voicePath;
-    long long _voiceType;
-    long long _fileSize;
 }
 
 + (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)proper entitlement to read voice profile data;
+- (_Bool)VTP_SetTransportSessionID;
+- (id)vcSessionParameterMixingMediaType;
+- (void)PLRThreshold;
 - (id);
 - (id);
 - (id);
@@ -38,32 +27,21 @@
 - (_Bool);
 - (void);
 - (long long);
-- (id);
+- (id)s:withCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void)	
 ;
 - (long long)8ª¬³¤­p®´¯µ$°¤°Ô°±;
 - (id)NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNOPQQNNNNNNNNNNNNNNNNRRRRRRRRRRNN£;
-- (long long)ue;
+- (long long)BufferedAudioQueue;
 
 // Remaining properties
-@property(nonatomic) long long fileSize; // @synthesize fileSize=_fileSize;
-@property(readonly, nonatomic) long long footprint; // @synthesize footprint=_footprint;
-@property(readonly, nonatomic) long long gender; // @synthesize gender=_gender;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isBuiltInVoice; // @synthesize isBuiltInVoice=_isBuiltInVoice;
-@property(nonatomic) _Bool isDownloading; // @synthesize isDownloading=_isDownloading;
-@property(readonly, nonatomic) _Bool isInstalled; // @synthesize isInstalled=_isInstalled;
-@property(readonly, nonatomic) NSArray *languages; // @synthesize languages=_languages;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool neural; // @synthesize neural=_neural;
-@property(retain, nonatomic) NSString *voicePath; // @synthesize voicePath=_voicePath;
-@property(nonatomic) long long voiceType; // @synthesize voiceType=_voiceType;
 
 @end
 

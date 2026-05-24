@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKStreamingAsset, NSString;
+@class CKStreamingAsset;
 
 @interface HMBStreamingAsset
 {
     CKStreamingAsset *_uploadStreamingAsset;
-    CKStreamingAsset *_downloadStreamingAsset;
 }
 
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool)( planId char(128) PRIMARY KEY NOT NULL, modificationTimestamp real NOT NULL, serializedPlan blob NOT NULL );
 - (id);
 - (void);
 - (void);
@@ -31,14 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CKStreamingAsset *downloadStreamingAsset; // @synthesize downloadStreamingAsset=_downloadStreamingAsset;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CKStreamingAsset *uploadStreamingAsset; // @synthesize uploadStreamingAsset=_uploadStreamingAsset;
 
 @end

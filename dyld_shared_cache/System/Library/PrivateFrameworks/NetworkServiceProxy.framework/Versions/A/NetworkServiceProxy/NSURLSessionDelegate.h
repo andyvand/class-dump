@@ -9,37 +9,22 @@
 @interface NSURLSessionDelegate
 {
     _Bool _enableExtendedValidation;
-    _Bool _ignoreInvalidCerts;
-    _Bool _revocationFailClosed;
-    NSString *_validationHostname;
-    NSString *_leafOID;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)iV;
 - (void);
 - (id);
 - (_Bool);
-- (void)°;
-- (id);
 - (void);
+- (id)#;
 - (void);
+- (void)ically, reason:(_Bool)arg1 %{public}@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool enableExtendedValidation; // @synthesize enableExtendedValidation=_enableExtendedValidation;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoreInvalidCerts; // @synthesize ignoreInvalidCerts=_ignoreInvalidCerts;
-@property(retain) NSString *leafOID; // @synthesize leafOID=_leafOID;
-@property _Bool revocationFailClosed; // @synthesize revocationFailClosed=_revocationFailClosed;
-@property(readonly) Class superclass;
 @property(retain) NSString *validationHostname; // @synthesize validationHostname=_validationHostname;
 
 @end

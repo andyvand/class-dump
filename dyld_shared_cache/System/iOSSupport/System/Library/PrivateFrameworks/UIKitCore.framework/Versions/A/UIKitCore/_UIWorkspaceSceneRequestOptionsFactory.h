@@ -14,14 +14,14 @@
 
 + (id);
 + (id);
-+ (id)sSetUpGeometryChangeResponse;
++ (id)_hasSetUpGeometryChangeResponse;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_storeMessage:(id)arg1 chatIdentifier:(id)arg2 localChat:style:account:messagesToPostArray: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

@@ -9,12 +9,10 @@
 @interface QLCacheBasicFileIdentifier : QLCacheFileIdentifier
 {
     unsigned long long _fileId;
-    struct fsid _fsid;
 }
 
 
 // Remaining properties
 @property(readonly) unsigned long long fileId; // @synthesize fileId=_fileId;
-@property(readonly) struct fsid fsid; // @synthesize fsid=_fsid;
 @end
 

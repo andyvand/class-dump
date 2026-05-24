@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCategorySearchResultSection, GEODirectionIntent, GEOGuideSummaryLayoutMetadata, GEOMapRegion, GEOMapServiceTraits, GEOPDPlaceSummaryLayoutMetadata, GEORelatedSearchSuggestion, GEOResolvedItem, GEOResultRefinementGroup, GEOSearchAutoRedoThreshold, GEOSearchRedoButtonThreshold, GEOSearchSectionList, GEOSearchSessionData, MKMapItemIdentifier, NSArray, NSError, NSString;
+@class GEOMapServiceTraits;
 @protocol GEOMapServiceTicket;
 
 __attribute__((visibility("hidden")))
 @interface _MKTicket
 {
     id <GEOMapServiceTicket> _ticket;
-    NSArray *_exactMapItems;
-    NSArray *_refinedMapItems;
-    NSError *_error;
 }
 
 - (void);
 - (void);
 - (_Bool);
+- (id)Invalidating XPC Connection.;
 - (id);
+- (id)SR;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)B>;
+- (void);
+- (_Bool)__const;
 - (_Bool);
 - (id);
 - (id);
@@ -40,78 +37,35 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)teRequest";
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool)pairingGenerateOOBDataWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)ion invalidate]_block_invoke;
+- (_Bool)kCBLEAudioArgMaxTransLatencyPtoC;
+- (unsigned int)kCBRSSIStatisticAndDetectionMaximumThresholdFurther;
+- (id)kCBScanOptionScanIntervalBackground;
+- (_Bool)kCBScanOptionAppleFilterRssi;
+- (id)12@?0C8;
+- (id)onnection centralManagerDidUpdateState:] /* Error: Ran out of types for this method. */;
+- (id):completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)bt_type_watch;
+- (id)HCI Transport:%s
+ /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
 - (void);
 - (id);
-- (void);
-- (int);
 - (id);
 - (void);
+- (id)CNManagedAccountsCache;
 - (void);
-- (void)ransitLabel: /* Error: Ran out of types for this method. */;
+- (int);
+- (id);
+- (void);
+- (void)stringByReplacingMatchesInString:(CDUnknownBlockType)arg1 options:(CDUnknownBlockType)arg2 range:withTemplate: /* Error: Ran out of types for this method. */;
+- (void)setTransitLabel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapRegion *boundingRegion;
-@property(readonly, nonatomic) NSArray *browseCategories;
-@property(readonly, nonatomic) GEOCategorySearchResultSection *categorySearchResultSection;
-@property(readonly, nonatomic, getter=isChainResultSet) _Bool chainResultSet;
-@property(readonly, nonatomic) GEOResolvedItem *clientResolvedResult;
-@property(readonly, nonatomic) NSArray *collectionResults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) GEORelatedSearchSuggestion *defaultRelatedSuggestion;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) GEODirectionIntent *directionIntent;
-@property(readonly, nonatomic) _Bool disableAdditionalViewportPadding;
-@property(readonly, nonatomic) NSArray *displayHeaderSubstitutes;
-@property(readonly, nonatomic) NSArray *dotPlaces;
-@property(readonly, nonatomic) unsigned int dymSuggestionVisibleTime;
-@property(readonly, nonatomic) _Bool enableStructuredRAPAffordance;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) NSArray *exactMapItems;
-@property(readonly, nonatomic) GEOGuideSummaryLayoutMetadata *guideSummaryLayoutMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int mapDisplayType;
-@property(readonly, nonatomic) MKMapItemIdentifier *mapItemIdentifierForSpotlight;
-@property(readonly, nonatomic) GEOPDPlaceSummaryLayoutMetadata *placeSummaryLayoutMetadata;
-@property(readonly, nonatomic) NSArray *publisherResults;
-@property(readonly, nonatomic) NSArray *refinedMapItems;
-@property(readonly, nonatomic) NSArray *relatedEntitySections;
-@property(readonly, nonatomic) NSArray *relatedSearchSuggestions;
-@property(readonly, nonatomic) NSString *resultDisplayHeader;
-@property(readonly, nonatomic) GEOResultRefinementGroup *resultRefinementGroup;
-@property(readonly, nonatomic) NSArray *retainedSearchMetadata;
-@property(readonly, nonatomic) GEOSearchAutoRedoThreshold *searchAutoRedoThreshold;
-@property(readonly, nonatomic) GEOSearchRedoButtonThreshold *searchRedoButtonThreshold;
-@property(readonly, nonatomic) NSArray *searchResultSections;
-@property(readonly, nonatomic) int searchResultType;
-@property(readonly, nonatomic) int searchResultViewType;
-@property(readonly, nonatomic) GEOSearchSectionList *searchSectionList;
-@property(readonly, nonatomic) GEOSearchSessionData *searchSessionData;
-@property(readonly, nonatomic) NSString *sectionHeader;
-@property(readonly, nonatomic) _Bool shouldAllowManualRedoButton;
-@property(readonly, nonatomic) _Bool shouldEnableRedoSearch;
-@property(readonly, nonatomic) _Bool showDymSuggestionCloseButton;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end

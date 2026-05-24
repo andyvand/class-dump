@@ -15,17 +15,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)utTranscoder13RNNRecognizer9recognizeERKNS_14InputProcessorERNS_18TranscoderMediatorEE3$_0;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)paign;
+- (void)iadNativeCampaign;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *feedId; // @synthesize feedId=_feedId;
 @property(readonly, nonatomic) _Bool hasFeedId;
 
 @end

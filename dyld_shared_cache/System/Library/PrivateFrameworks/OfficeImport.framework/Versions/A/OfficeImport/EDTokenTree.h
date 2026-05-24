@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (unsigned int);
 + (id);
-+ (id);
++ (id)y;
 
 @end
 

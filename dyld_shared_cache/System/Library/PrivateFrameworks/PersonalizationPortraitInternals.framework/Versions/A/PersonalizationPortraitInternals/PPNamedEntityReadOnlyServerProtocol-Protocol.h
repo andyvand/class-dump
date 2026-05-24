@@ -5,5 +5,6 @@
 //
 
 @protocol PPNamedEntityReadOnlyServerProtocol
+- (void);
 @end
 

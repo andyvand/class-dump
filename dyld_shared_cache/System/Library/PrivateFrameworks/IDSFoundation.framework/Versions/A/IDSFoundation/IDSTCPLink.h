@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
-@protocol IDSLinkDelegate;
-
 @interface IDSTCPLink
 {
     int _addressFamily;
-    _Bool _isSSL;
-    struct IDSTCPConnection_ *_conns;
-    CDUnknownBlockType _getPacketLength;
-    struct IDSTCPLinkCounter_ _counters;
-    struct IDSTCPLinkCounter_ _previousCounters;
-    double _previousReportTime;
-    NSString *_cbuuid;
-    NSString *_deviceUniqueID;
-    id <IDSLinkDelegate> _delegate;
-    id <IDSLinkDelegate> _alternateDelegate;
-    unsigned long long _state;
-    NSIndexSet *_cellularInterfaceIndices;
-    _Bool _wifiAssistEnabled;
 }
 
 - (_Bool);
@@ -33,14 +17,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (struct sockaddr *);
@@ -53,27 +37,11 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)controlObject: /* Error: Ran out of types for this method. */;
 - (void)@, ignore response.;
 
 // Remaining properties
-@property __weak id <IDSLinkDelegate> alternateDelegate; // @synthesize alternateDelegate=_alternateDelegate;
-@property(retain) NSString *cbuuid; // @synthesize cbuuid=_cbuuid;
-@property(retain, nonatomic) NSIndexSet *cellularInterfaceIndices; // @synthesize cellularInterfaceIndices=_cellularInterfaceIndices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <IDSLinkDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *deviceUniqueID; // @synthesize deviceUniqueID=_deviceUniqueID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long headerOverhead;
 @property(readonly, nonatomic) _Bool isSSL; // @synthesize isSSL=_isSSL;
-@property(readonly, getter=linkTypeString) NSString *linkTypeString;
-@property(readonly) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wifiAssistEnabled; // @synthesize wifiAssistEnabled=_wifiAssistEnabled;
 
 @end
 

@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PFAPreprocessorSessionStartStatsReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_clockIdentifier;
-    unsigned int _messageCount;
-    NSArray *_anyEventTypeStatistics;
-    CDStruct_e50d6a1b _has;
-    _Bool _hasClockIdentifier;
 }
 
 - (void);
@@ -39,21 +35,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)py;
 - (id);
 - (id)
 × ;
-- (id);
+- (id)_hasNlRouterHandleContext;
 - (id)etSetId;
-- (void)NDNOISEACTIVITYLEVEL_LOW;
+- (void)ASVBACKGROUNDNOISEACTIVITYLEVEL_LOW;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *anyEventTypeStatistics; // @synthesize anyEventTypeStatistics=_anyEventTypeStatistics;
 @property(retain, nonatomic) SISchemaUUID *clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(nonatomic) _Bool hasClockIdentifier; // @synthesize hasClockIdentifier=_hasClockIdentifier;
-@property(nonatomic) _Bool hasMessageCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int messageCount; // @synthesize messageCount=_messageCount;
 
 @end
 

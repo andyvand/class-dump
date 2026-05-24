@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXComponentAnimation, SXComponentView;
+@class SXComponentView;
 
 @interface SXComponentAnimationHandler
 {
     SXComponentView *_component;
-    SXComponentAnimation *_animation;
-    long long _state;
-    double _factor;
 }
 
 - (void);
@@ -23,7 +20,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (long long);
@@ -33,10 +30,7 @@
 - (void)@0:8#16@24#32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SXComponentAnimation *animation; // @synthesize animation=_animation;
 @property(readonly, nonatomic) SXComponentView *component; // @synthesize component=_component;
-@property(readonly, nonatomic) double factor; // @synthesize factor=_factor;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;

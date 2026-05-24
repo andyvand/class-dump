@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class NSArray;
 
 @interface _INPBListShortcutsIntent
 {
     struct {
         unsigned int originDevice:1;
     } _has;
-    int _originDevice;
-    NSArray *_appTitles;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)4;
 - (void);
 - (void);
 - (void);
@@ -38,25 +35,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (_Bool)cation;
+- (_Bool)dropOffLocation;
 - (void)itialize a subclass instead.;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *appTitles; // @synthesize appTitles=_appTitles;
-@property(readonly, nonatomic) unsigned long long appTitlesCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasOriginDevice;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int originDevice; // @synthesize originDevice=_originDevice;
-@property(readonly) Class superclass;
 
 @end
 

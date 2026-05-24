@@ -9,22 +9,23 @@
 @interface CTCellIdInfo
 {
     NSNumber *_cellId;
-    NSNumber *_baseId;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ibleMediaSearchCursor:%p - {
+	presentationTimeStamp:CMTime(%lld, %d)
+	matchDescription:%@
+} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)edential:(id)arg1 forProcessedEvent:%d credentialType:%d on %{public}@ cid:%u returned %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)¡&°!ôEù±ª)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *baseId; // @synthesize baseId=_baseId;
 @property(readonly, nonatomic) NSNumber *cellId; // @synthesize cellId=_cellId;
 
 @end

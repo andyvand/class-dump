@@ -5,5 +5,6 @@
 //
 
 @protocol IDSLinkStatsPacketListener
+- (void);
 @end
 

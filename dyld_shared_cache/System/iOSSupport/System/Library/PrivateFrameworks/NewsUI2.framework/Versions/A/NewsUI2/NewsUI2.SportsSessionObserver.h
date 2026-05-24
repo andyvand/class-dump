@@ -7,17 +7,10 @@
 @interface NewsUI2.SportsSessionObserver
 {
     id sessionManager;
-    id aggregateStateModeProvider;
-    id commandCenter;
-    id cloudContext;
-    id client;
-    id subscriptionController;
-    id locationDetectionManager;
-    id syncTracker;
 }
 
-- (void);
-- (void);
+- (void)copyDataTemplateToURL:error:progress: /* Error: Ran out of types for this method. */;
+- (void)ConversationRemoteParticipantsStateManaging;
 - (void);
 - (void);
 - (void);

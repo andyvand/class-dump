@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, NSArray;
+@class CLCircularRegion;
 
 @protocol PGGraphPlaceItem
-- (CLCircularRegion *)ocol_p;
+- (CLCircularRegion *)So24PGEnrichedMemoryProtocol_p;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categoryNames;
 @property(readonly, nonatomic) CLCircularRegion *region;
 @end
 

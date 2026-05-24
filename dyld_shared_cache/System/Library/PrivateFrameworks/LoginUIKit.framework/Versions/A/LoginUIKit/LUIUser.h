@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarDescriptor, AVTAvatarPhysicalizedPose, AVTStickerConfiguration, LUIClockSettings, NSAffineTransform, NSArray, NSDate, NSDictionary, NSImage, NSMutableDictionary, NSRecursiveLock, NSString, NSURL, ODNode, ODRecord;
+@class NSDictionary;
 
 @interface LUIUser
 {
     _Bool _canResetPasswordWithAppleID;
-    _Bool _hasDuplicateLongName;
-    _Bool _isSamePlatformSSOTemporaryUser;
-    _Bool _sessionOwner;
-    _Bool _smartCardUser;
-    _Bool _suspended;
-    _Bool _gatherMissingAttributes;
-    _Bool _usesComplexPassword;
-    _Bool _canResetPasswordWithAppleIDInitialized;
-    NSDictionary *_attributes;
-    ODRecord *_ODRecord;
-    NSDictionary *_smartcardContextData;
-    NSRecursiveLock *_attributesLock;
-    NSMutableDictionary *_additionalStorage;
-    NSRecursiveLock *_ODRecordLock;
 }
 
 + (id);
@@ -40,8 +26,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)k	
+J;
+- (void)J+
+
+*;
 - (void);
 - (void);
 - (_Bool);
@@ -54,16 +43,16 @@
 - (unsigned int);
 - (id);
 - (_Bool);
+- (id)Rp;
+- (_Bool);
+- (_Bool)3;
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)]9_;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -81,9 +70,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -93,7 +82,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)�(;
 - (_Bool);
 - (double);
 - (id);
@@ -103,7 +92,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -116,14 +105,14 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)wJ;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)y);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)@y	;
+- (id))@y));
 - (id);
 - (_Bool);
 - (_Bool);
@@ -132,132 +121,43 @@
 - (id);
 - (long long);
 - (id);
+- (id)!;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (unsigned int);
-- (id);
-- (_Bool);
+- (id)scheduledTimerWithTimeInterval:target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
+- (unsigned long long)TB,N,V_parentalControlsEnabled;
+- (unsigned int)onal: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)4;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)w;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (id);
 - (void);
 - (id)¬"!Bù1D&1Â0@ù
 × ;
-- (_Bool)inSection: /* Error: Ran out of types for this method. */;
+- (_Bool)indexPathForItem:inSection: /* Error: Ran out of types for this method. */;
 - (_Bool)cked;
 
 // Remaining properties
-@property(retain) ODRecord *ODRecord; // @synthesize ODRecord=_ODRecord;
-@property(retain) NSRecursiveLock *ODRecordLock; // @synthesize ODRecordLock=_ODRecordLock;
-@property(retain) NSMutableDictionary *additionalStorage; // @synthesize additionalStorage=_additionalStorage;
-@property(readonly) NSString *appleIDLoginAccount;
-@property(readonly) NSDate *appleIDVerifiedDate;
-@property(readonly) NSArray *appleIDs;
 @property(retain) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain) NSRecursiveLock *attributesLock; // @synthesize attributesLock=_attributesLock;
-@property(readonly) _Bool authenticationAllowed;
-@property(readonly) NSArray *authenticationAuthority;
-@property(readonly) NSString *avatarBackgroundColorDescription;
-@property(readonly) NSAffineTransform *avatarCropTransform;
-@property(readonly) AVTAvatarDescriptor *avatarDescriptor;
-@property(readonly) AVTAvatarPhysicalizedPose *avatarInitialPose;
-@property(readonly) AVTStickerConfiguration *avatarStickerConfiguration;
-@property(readonly) double backOffSeconds;
-@property(readonly) _Bool canLogin;
-@property(readonly) _Bool canModifyPassword;
-@property(readonly) _Bool canResetPasswordWithAppleID; // @synthesize canResetPasswordWithAppleID=_canResetPasswordWithAppleID;
-@property _Bool canResetPasswordWithAppleIDInitialized; // @synthesize canResetPasswordWithAppleIDInitialized=_canResetPasswordWithAppleIDInitialized;
-@property(readonly) LUIClockSettings *clockSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool familyControlsAllowsLogin;
-@property(readonly) NSDate *familyControlsNextCurfewTime;
-@property _Bool gatherMissingAttributes; // @synthesize gatherMissingAttributes=_gatherMissingAttributes;
-@property(readonly) NSString *guid;
-@property(readonly) _Bool hasAvatar;
-@property(readonly) _Bool hasComplexPassword;
-@property _Bool hasDuplicateLongName; // @synthesize hasDuplicateLongName=_hasDuplicateLongName;
-@property(readonly) _Bool hasSACLAccess;
-@property(readonly) _Bool hasSecureToken;
-@property(readonly) _Bool hasShadowHash;
-@property(readonly) _Bool hasValidHome;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *homePathAFP;
-@property(readonly) NSString *homePathNFS;
-@property(readonly) NSURL *homeURL;
-@property(readonly) NSString *identifier;
-@property(readonly) NSArray *inputSources;
-@property(readonly) _Bool isAdminUser;
-@property(readonly) _Bool isAppleIDLoginAccount;
-@property(readonly) _Bool isContinuityUnlockEnabled;
-@property(readonly) _Bool isDirAdminUser;
-@property(readonly) _Bool isDisabled;
-@property(readonly) _Bool isFileVaultUser;
-@property(readonly) _Bool isFindMyMacUser;
-@property(readonly) _Bool isGuestUser;
-@property(readonly) _Bool isHidden;
-@property(readonly) _Bool isLocalUser;
-@property(readonly) _Bool isLoggedIn;
-@property(readonly) _Bool isMBSetupUser;
-@property(readonly) _Bool isManaged;
-@property(readonly) _Bool isMobileHomeUser;
-@property(readonly) _Bool isNetworkUser;
-@property(readonly) _Bool isOtherUser;
-@property(readonly) _Bool isPSSOTemporaryUser;
-@property(readonly) _Bool isPSSOUser;
-@property(readonly) _Bool isPersonalRecoveryUser;
-@property(readonly) _Bool isRootUser;
-@property(readonly) _Bool isSamePlatformSSOTemporaryUser; // @synthesize isSamePlatformSSOTemporaryUser=_isSamePlatformSSOTemporaryUser;
-@property(readonly) _Bool isSwitchUser;
-@property(readonly) _Bool isXcodeUser;
-@property(readonly) NSString *longName;
-@property(readonly) _Bool migratedFromWindows;
-@property(readonly) ODNode *mobileHomeUserNode;
-@property(readonly) NSString *name;
-@property(readonly) _Bool newPasswordRequired;
-@property(readonly) ODNode *node;
-@property(readonly) NSString *password;
-@property(readonly) NSString *passwordHint;
-@property(readonly) NSDictionary *passwordPolicy;
-@property(readonly) NSImage *picture;
-@property(readonly) unsigned int primaryGroupID;
-@property(readonly) NSString *recordName;
-@property(getter=isSessionOwner) _Bool sessionOwner; // @synthesize sessionOwner=_sessionOwner;
-@property(readonly) NSString *shortName;
-@property(getter=isSmartCardUser) _Bool smartCardUser; // @synthesize smartCardUser=_smartCardUser;
-@property(retain) NSDictionary *smartcardContextData; // @synthesize smartcardContextData=_smartcardContextData;
-@property(readonly) Class superclass;
-@property(getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
-@property(readonly) NSString *toolTip;
-@property(readonly) unsigned int uid;
-@property(readonly) NSString *userListIdentifier;
-@property(readonly) NSString *userShell;
-@property(readonly) _Bool usesBasicPassword;
-@property _Bool usesComplexPassword; // @synthesize usesComplexPassword=_usesComplexPassword;
 
 @end
 

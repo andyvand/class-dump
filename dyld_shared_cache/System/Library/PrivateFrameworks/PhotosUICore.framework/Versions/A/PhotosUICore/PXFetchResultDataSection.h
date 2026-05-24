@@ -13,7 +13,7 @@
     PHFetchResult *_fetchResult;
 }
 
-- (id);
+- (id)?ח;
 - (id);
 - (id);
 - (id))¶;

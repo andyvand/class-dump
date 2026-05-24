@@ -6,27 +6,24 @@
 
 #import <KnowledgeGraphKit/MANode.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MAConcreteNode : MANode
 {
     NSMutableDictionary *_properties;
-    unsigned short _domain;
-    float _weight;
-    NSString *_label;
 }
 
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)backingAlignedRect:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (float);
 - (unsigned short);
 - (id);
-- (void);
+- (void)8k;
 
 @end
 

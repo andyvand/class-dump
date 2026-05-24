@@ -10,9 +10,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
-+ (id);
++ (id)userHasOptedInToPreference: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (void);
@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (void *);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (_Bool);
@@ -40,8 +40,8 @@
 - (id);
 - (id);
 - (void);
-- (struct CGRect);
-- (id);
+- (struct CGRect)6;
+- (id)_initWithJSONObjectRepresentation: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -10,17 +10,17 @@
 {
 }
 
-+ (id);
++ (id)MRApplicationConnection]<%p> close - invalidating);
 + (Class);
 - (void);
 - (long long);
 - (id);
-- (long long);
-- (long long);
+- (long long)setUnlockActionButtonIndex: /* Error: Ran out of types for this method. */;
+- (long long)setSharedStoreReviewMetrics:forProcess: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)ration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12;
 - (void);
 
 // Remaining properties

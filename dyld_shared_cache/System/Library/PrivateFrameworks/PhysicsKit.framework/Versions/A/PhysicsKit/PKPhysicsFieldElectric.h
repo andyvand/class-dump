@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)mSpaceGRL;
 - (id);
 
 @end

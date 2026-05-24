@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
     long long _typingDelaySampleCount;
 }
 
-- (void);
+- (void)setImagePrepared: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)le:(double)arg1;
+- (void)_setAutoAdjustTitle:(double)arg1;
 
 @end
 

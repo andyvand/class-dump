@@ -9,40 +9,35 @@
 @interface GEOVLFEntryPoint
 {
     PBUnknownFields *_unknownFields;
-    int _accessPoint;
-    struct {
-        unsigned int has_accessPoint:1;
-    } _flags;
 }
 
-+ (_Bool)stedPhotos:(id)arg1;
++ (_Bool)setNumberOfAprSuggestedPhotos:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
 - (int);
-- (int);
-- (void);
-- (void);
+- (int)A§;
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)selectedBuiltInBundleDeviceUID;
+- (id)old:%.3f
+ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)berOfVisiblePOIsThreshold:zoomInPercentThreshold:zoomOutPercentThreshold:panDeltaThresholdInMeters: /* Error: Ran out of types for this method. */;
+- (id)initWithNumberOfVisiblePOIsThreshold:zoomInPercentThreshold:zoomOutPercentThreshold:panDeltaThresholdInMeters: /* Error: Ran out of types for this method. */;
 - (id)T@"GEOPOICategoryFilter",R,N,V_poiCategoryFilter;
 - (id)y/2;
 - (void)yé&1¬¼?;
 
 // Remaining properties
-@property(nonatomic) int accessPoint;
 @property(nonatomic) _Bool hasAccessPoint;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

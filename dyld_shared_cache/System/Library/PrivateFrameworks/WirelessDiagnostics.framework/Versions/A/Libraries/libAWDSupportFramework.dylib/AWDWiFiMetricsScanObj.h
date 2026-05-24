@@ -7,44 +7,32 @@
 @interface AWDWiFiMetricsScanObj
 {
     unsigned int _durScans;
-    unsigned int _numScans;
-    unsigned int _scanType;
-    struct {
-        unsigned int durScans:1;
-        unsigned int numScans:1;
-        unsigned int scanType:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool)b;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)k;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)!;
+- (void);
 - (id);
-- (unsigned int);
+- (unsigned int)D;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int durScans; // @synthesize durScans=_durScans;
-@property(nonatomic) _Bool hasDurScans;
-@property(nonatomic) _Bool hasNumScans;
 @property(nonatomic) _Bool hasScanType;
-@property(nonatomic) unsigned int numScans; // @synthesize numScans=_numScans;
-@property(nonatomic) unsigned int scanType; // @synthesize scanType=_scanType;
 
 @end
 

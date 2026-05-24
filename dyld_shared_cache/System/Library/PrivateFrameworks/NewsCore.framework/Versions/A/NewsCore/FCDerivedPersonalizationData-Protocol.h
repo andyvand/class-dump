@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NTPBPersonalizationAggregate;
+
 @protocol FCDerivedPersonalizationData
+- (NTPBPersonalizationAggregate *)q,R,N,V__toolbarPosition;
+- (NSDictionary *)XH;
 
 // Remaining properties
-@property(readonly, nonatomic) double decayRate;
 @property(readonly, nonatomic) unsigned long long scoringType;
 @end
 

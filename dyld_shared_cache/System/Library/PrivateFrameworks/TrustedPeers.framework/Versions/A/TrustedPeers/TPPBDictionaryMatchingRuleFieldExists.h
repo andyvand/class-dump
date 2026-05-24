@@ -15,19 +15,19 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)%04X;
+- (id)> %'@, clusterSize:(struct _NSZone *)arg1 %'@ --> %'@, clusterType:%'@ --> %'@, clusterMemberID:%'@ --> %'@, model:%'@ --> %'@
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (void)imestamp;
+- (_Bool)open_dprotected_np failed %@ (%s);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
 @property(readonly, nonatomic) _Bool hasFieldName;
 
 @end

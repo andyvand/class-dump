@@ -9,7 +9,6 @@
 @interface TSULinkedPointerSetEnumerator
 {
     TSULinkedPointerSetEntry *mHead;
-    TSULinkedPointerSetEntry *mLastUsed;
 }
 
 - (id);

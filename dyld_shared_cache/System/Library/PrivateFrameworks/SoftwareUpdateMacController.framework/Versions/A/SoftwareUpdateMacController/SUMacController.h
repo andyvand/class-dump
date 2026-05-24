@@ -4,44 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSObject, NSString, SUCoreFSM, SUCoreLog, SUCoreMSU, SUCoreMobileAsset, SUCorePolicy, SUCorePolicyMacUpdateBrain, SUCoreScan, SUCoreUpdate, SUMacControllerAccessControlContext, SUMacControllerBridgeOSManager, SUMacControllerClientRequest, SUMacControllerDescriptor, SUMacControllerEventInfo, SUMacControllerPersistedStateManager, SUMacControllerRosettaManager, SUMacControllerScanManager, SUMacControllerServer, SUMacControllerSplatRollbackManager, SUMacSUCorePolicySFR;
-@protocol OS_dispatch_queue;
+@class SUCoreLog;
 
 __attribute__((visibility("hidden")))
 @interface SUMacController
 {
     _Bool _isInternalDebug;
-    _Bool _isPerformingSemiSplatActivation;
-    int _originalQoS;
-    SUCoreFSM *_stateMachine;
-    SUMacControllerScanManager *_scanManager;
-    SUCoreLog *_logger;
-    SUMacControllerPersistedStateManager *_persistedStateManager;
-    SUMacControllerServer *_sumacServer;
-    NSObject<OS_dispatch_queue> *_clientResponseDispatchQueue;
-    NSObject<OS_dispatch_queue> *_waitedOperationQueue;
-    long long _targetPhase;
-    long long _reachedPhase;
-    NSString *_pendingEvent;
-    SUMacControllerEventInfo *_pendingEventInfo;
-    NSMutableArray *_clientCompletionsWaitingForSetupCompleted;
-    NSString *_currentUUID;
-    SUMacControllerClientRequest *_currentClientRequest;
-    SUMacControllerAccessControlContext *_currentAccessControlContext;
-    NSData *_stashedSSOToken;
-    NSString *_stashedBridgeOSDownloadDirectory;
-    SUCorePolicy *_chosenUpdatePolicy;
-    SUCorePolicyMacUpdateBrain *_chosenUpdateBrainPolicy;
-    SUMacSUCorePolicySFR *_chosenSFRPolicy;
-    SUMacControllerDescriptor *_chosenDescriptor;
-    SUCoreUpdate *_coreUpdate;
-    SUCoreMSU *_coreMSU;
-    SUCoreScan *_coreBrainScanner;
-    SUCoreMobileAsset *_coreMobileAssetForUpdateBrain;
-    SUCoreMobileAsset *_coreMobileAssetForSFR;
-    SUMacControllerBridgeOSManager *_bridgeOSManager;
-    SUMacControllerRosettaManager *_rosettaManager;
-    SUMacControllerSplatRollbackManager *_splatRollbackManager;
 }
 
 + (id);
@@ -55,38 +23,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -94,7 +62,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (int);
 - (void);
 - (void);
@@ -130,6 +98,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (long long);
+- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -146,12 +116,14 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -170,6 +142,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -185,7 +158,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
+- (long long);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -204,6 +179,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -244,6 +220,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -267,8 +244,10 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -280,6 +259,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
+- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -294,21 +275,8 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (id);
+- (long long);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -318,14 +286,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -365,54 +333,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (long long);
+- (void)urce>";
+- (void)(remote:(id)arg1 %d);
+- (void)sion value;
 - (void);
 - (id)t present/linked on this device;
 - (id)·;
 
 // Remaining properties
-@property(retain, nonatomic) SUMacControllerBridgeOSManager *bridgeOSManager; // @synthesize bridgeOSManager=_bridgeOSManager;
-@property(retain, nonatomic) SUMacControllerDescriptor *chosenDescriptor; // @synthesize chosenDescriptor=_chosenDescriptor;
-@property(retain, nonatomic) SUMacSUCorePolicySFR *chosenSFRPolicy; // @synthesize chosenSFRPolicy=_chosenSFRPolicy;
-@property(retain, nonatomic) SUCorePolicyMacUpdateBrain *chosenUpdateBrainPolicy; // @synthesize chosenUpdateBrainPolicy=_chosenUpdateBrainPolicy;
-@property(retain, nonatomic) SUCorePolicy *chosenUpdatePolicy; // @synthesize chosenUpdatePolicy=_chosenUpdatePolicy;
-@property(retain, nonatomic) NSMutableArray *clientCompletionsWaitingForSetupCompleted; // @synthesize clientCompletionsWaitingForSetupCompleted=_clientCompletionsWaitingForSetupCompleted;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *clientResponseDispatchQueue; // @synthesize clientResponseDispatchQueue=_clientResponseDispatchQueue;
-@property(retain, nonatomic) SUCoreScan *coreBrainScanner; // @synthesize coreBrainScanner=_coreBrainScanner;
-@property(retain, nonatomic) SUCoreMSU *coreMSU; // @synthesize coreMSU=_coreMSU;
-@property(retain, nonatomic) SUCoreMobileAsset *coreMobileAssetForSFR; // @synthesize coreMobileAssetForSFR=_coreMobileAssetForSFR;
-@property(retain, nonatomic) SUCoreMobileAsset *coreMobileAssetForUpdateBrain; // @synthesize coreMobileAssetForUpdateBrain=_coreMobileAssetForUpdateBrain;
-@property(retain, nonatomic) SUCoreUpdate *coreUpdate; // @synthesize coreUpdate=_coreUpdate;
-@property(retain, nonatomic) SUMacControllerAccessControlContext *currentAccessControlContext; // @synthesize currentAccessControlContext=_currentAccessControlContext;
-@property(retain, nonatomic) SUMacControllerClientRequest *currentClientRequest; // @synthesize currentClientRequest=_currentClientRequest;
-@property(retain, nonatomic) NSString *currentUUID; // @synthesize currentUUID=_currentUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInternalDebug; // @synthesize isInternalDebug=_isInternalDebug;
-@property(nonatomic) _Bool isPerformingSemiSplatActivation; // @synthesize isPerformingSemiSplatActivation=_isPerformingSemiSplatActivation;
 @property(readonly, retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(nonatomic) int originalQoS; // @synthesize originalQoS=_originalQoS;
-@property(retain, nonatomic) NSString *pendingEvent; // @synthesize pendingEvent=_pendingEvent;
-@property(retain, nonatomic) SUMacControllerEventInfo *pendingEventInfo; // @synthesize pendingEventInfo=_pendingEventInfo;
-@property(retain, nonatomic) SUMacControllerPersistedStateManager *persistedStateManager; // @synthesize persistedStateManager=_persistedStateManager;
-@property(nonatomic) long long reachedPhase; // @synthesize reachedPhase=_reachedPhase;
-@property(retain, nonatomic) SUMacControllerRosettaManager *rosettaManager; // @synthesize rosettaManager=_rosettaManager;
-@property(retain, nonatomic) SUMacControllerScanManager *scanManager; // @synthesize scanManager=_scanManager;
-@property(retain, nonatomic) SUMacControllerSplatRollbackManager *splatRollbackManager; // @synthesize splatRollbackManager=_splatRollbackManager;
-@property(retain, nonatomic) NSString *stashedBridgeOSDownloadDirectory; // @synthesize stashedBridgeOSDownloadDirectory=_stashedBridgeOSDownloadDirectory;
-@property(retain, nonatomic) NSData *stashedSSOToken; // @synthesize stashedSSOToken=_stashedSSOToken;
-@property(retain, nonatomic) SUCoreFSM *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly, nonatomic) __weak SUMacControllerServer *sumacServer; // @synthesize sumacServer=_sumacServer;
-@property(readonly) Class superclass;
-@property(nonatomic) long long targetPhase; // @synthesize targetPhase=_targetPhase;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *waitedOperationQueue; // @synthesize waitedOperationQueue=_waitedOperationQueue;
 
 @end
 

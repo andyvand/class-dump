@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSyndicationOnboardingTailedBubble, NSMutableArray, NSString, UIView;
-
 @interface CKAppIconLinkView
 {
     long long _appName;
-    UIView *_previewView;
-    NSString *_previewString;
-    CKSyndicationOnboardingTailedBubble *_tailedBubble;
-    NSMutableArray *_constraints;
-    struct CGRect _linkFrame;
 }
 
+- (id);
+- (void);
+- (void);
+- (void)C9Sg;
+- (void)o6ICNoteCGG;
+- (void)78ySay۞;
+- (id)s;
+- (struct CGRect).;
+- (id)[ICAuthenticationPrompt initWithIntent:(struct CGRect)arg1 object:(long long)arg2 ];
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
-- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
-- (void)yerReusePool;
+- (void)VideoPlayerReusePool;
 
 // Remaining properties
 @property(nonatomic) long long appName; // @synthesize appName=_appName;
-@property(retain, nonatomic) NSMutableArray *constraints; // @synthesize constraints=_constraints;
-@property(nonatomic) struct CGRect linkFrame; // @synthesize linkFrame=_linkFrame;
-@property(retain, nonatomic) NSString *previewString; // @synthesize previewString=_previewString;
-@property(retain, nonatomic) UIView *previewView; // @synthesize previewView=_previewView;
-@property(retain, nonatomic) CKSyndicationOnboardingTailedBubble *tailedBubble; // @synthesize tailedBubble=_tailedBubble;
 
 @end
 

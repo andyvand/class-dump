@@ -7,8 +7,6 @@
 @interface NewsArticles.RecipeModule
 {
     id resolver;
-    id tracker;
-    id cookingKitTrackerManager;
 }
 
 @end

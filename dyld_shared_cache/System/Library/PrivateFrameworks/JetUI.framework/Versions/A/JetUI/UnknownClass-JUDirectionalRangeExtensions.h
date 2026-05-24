@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (JUDirectionalRangeExtensions)
-+ (id);
++ (id)U{;
 + (id);
 - (struct _JUDirectionalRange);
 

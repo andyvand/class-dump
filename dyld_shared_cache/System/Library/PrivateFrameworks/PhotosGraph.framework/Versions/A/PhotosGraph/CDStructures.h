@@ -15,8 +15,6 @@ struct CLLocationCoordinate2D {
     double longitude;
 };
 
-struct ExecutionStream;
-
 struct ExecutionStreamOperation;
 
 struct PGCalendarUnitMonthDayValue {
@@ -25,14 +23,14 @@ struct PGCalendarUnitMonthDayValue {
 };
 
 struct PGRoutineInfoStruct {
-    _Bool routineAvailable;
-    unsigned long long numberOfLocationsOfInterest;
-    unsigned long long numberOfVisits;
-    unsigned long long numberOfTimeMatches;
-    unsigned long long numberOfCloseByLocationMatches;
-    unsigned long long numberOfRemoteLocationMatches;
-    unsigned long long numberOfMatchRequests;
-    double pinningVisitsRatio;
+    _Bool _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    unsigned long long _field5;
+    unsigned long long _field6;
+    unsigned long long _field7;
+    double _field8;
 };
 
 struct _NSRange {
@@ -47,56 +45,6 @@ struct os_unfair_lock_s {
 struct shared_ptr<E5RT::ExecutionStreamOperation> {
     struct ExecutionStreamOperation *__ptr_;
     struct __shared_weak_count *__cntrl_;
-};
-
-struct unique_ptr<E5RT::ExecutionStream, std::default_delete<E5RT::ExecutionStream>> {
-    struct {
-        struct ExecutionStream *__ptr_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<std::string, std::shared_ptr<E5RT::BufferObject>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::BufferObject>>>> {
-    struct __hash_table<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::shared_ptr<E5RT::BufferObject>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::shared_ptr<E5RT::BufferObject>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::BufferObject>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::BufferObject>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<std::string, std::shared_ptr<E5RT::IOPort>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::IOPort>>>> {
-    struct __hash_table<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::shared_ptr<E5RT::IOPort>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::shared_ptr<E5RT::IOPort>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::IOPort>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::IOPort>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
 };
 
 #pragma mark Typedef'd Structures
@@ -120,46 +68,43 @@ typedef struct {
 } CDStruct_cf642302;
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 typedef struct {
-    float __max_load_factor_;
-} CDStruct_717dde41;
+    int _field1;
+    int _field2;
+    int _field3;
+    int _field4;
+    int _field5;
+    int _field6;
+    int _field7;
+    int _field8;
+    int _field9;
+    int _field10;
+    int _field11;
+    int _field12;
+    int _field13;
+} CDStruct_3e3b199e;
 
 typedef struct {
-    int numberOfEliminationsThruFeatureDisabled;
-    int numberOfEliminationsThruHardwareUnsupported;
-    int numberOfEliminationsThruResourceAvailability;
-    int numberOfEliminationsThruUnsupportedAdjustments;
-    int numberOfEliminationsThruGenericError;
-    int numberOfEliminationsThruMetadataCheck;
-    int numberOfEliminationsThruStabilization;
-    int numberOfEliminationsThruVideoQuality;
-    int numberOfEliminationsThruMetadataIntegrity;
-    int numberOfEliminationsThruFRC;
-    int numberOfEliminationsThruVideoDecision;
-    int numberOfEliminationsThruLayoutDecision;
-    int numberOfEliminationsThruStillTransition;
-} CDStruct_89fd307b;
+    int _field1;
+    int _field2;
+    int _field3;
+    int _field4;
+    int _field5;
+    int _field6;
+    int _field7;
+    int _field8;
+    int _field9;
+    int _field10;
+} CDStruct_66ad1804;
 
 typedef struct {
-    int numberOfAssetsGated;
-    int numberOfMediaAnalysisRequest;
-    int numberOfValidWallpaperPropertiesRequested;
-    int numberOfInvalidAnalysisVersion;
-    int numberOfFailuresFromNilResult;
-    int numberOfSuccessFromCache;
-    int numberOfFailuresFromCache;
-    int numberOfSuccessFromMediaAnalysisRequests;
-    int numberOfFailuresFromMediaAnalysisRequests;
-    int numberOfTimeoutsFromMediaAnalysisRequests;
-} CDStruct_0e6d901a;
-
-typedef struct {
-    int numberOfEliminationsThruSettlingEffectScore;
-    int numberOfSettlingEffectScoresRequested;
-} CDStruct_bf74974a;
+    int _field1;
+    int _field2;
+} CDStruct_1ef3fb1f;
 
 typedef struct {
     unsigned int _field1;
@@ -195,18 +140,18 @@ typedef struct {
 } CDStruct_a559e159;
 
 typedef struct {
-    int numberOfHighlightCandidatesForFRC;
-    int numberOfEliminationsThruSettlingEffectScore;
-    int numberOfSettlingEffectScoresRequested;
+    int _field1;
+    int _field2;
+    int _field3;
     struct {
-        int numberOfHighlightAssets;
-        int numberOfHighlightCandidates;
-        int numberOfEliminationsThruCrop;
-        int numberOfEliminationsThruNotSafeForDisplay;
-        int numberOfEliminationsThruKnownFRCFailure;
-        int numberOfEliminationsThruDeviceOwner;
-    } highlightStatistics;
-} CDStruct_bd54fcdc;
+        int _field1;
+        int _field2;
+        int _field3;
+        int _field4;
+        int _field5;
+        int _field6;
+    } _field4;
+} CDStruct_8321e18f;
 
 typedef struct {
     int _field1;
@@ -240,14 +185,14 @@ typedef struct {
 } CDStruct_ccce22f9;
 
 typedef struct {
-    int numberOfLivePhotos;
-    int numberOfWallpaperSuggestions;
-    int numberOfWallpaperSuggestionsWithoutSettlingEffect;
-    int numberOfLivePhotoWallpaperSuggestions;
-    CDStruct_bf74974a postfilteringStatistics;
-    CDStruct_89fd307b frcGatingStatistics;
-    CDStruct_bd54fcdc highlightStatistics;
-    int numberOfFRCEligibleWallpaperCandidates;
-    int numberOfFRCEligibleAssetCandidates;
-} CDStruct_42b60269;
+    int _field1;
+    int _field2;
+    int _field3;
+    int _field4;
+    CDStruct_1ef3fb1f _field5;
+    CDStruct_3e3b199e _field6;
+    CDStruct_8321e18f _field7;
+    int _field8;
+    int _field9;
+} CDStruct_3fcbe298;
 

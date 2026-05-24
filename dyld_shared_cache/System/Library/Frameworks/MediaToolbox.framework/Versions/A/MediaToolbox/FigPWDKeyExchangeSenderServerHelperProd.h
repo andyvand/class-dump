@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBag, AMSURLRequestEncoder, AMSURLSession, NSOperationQueue, NSString, NSURL;
+@class AMSURLSession;
 
 @interface FigPWDKeyExchangeSenderServerHelperProd
 {
     AMSURLSession *_urlSession;
-    AMSBag *_pwdBag;
-    AMSURLRequestEncoder *_requestEncoder;
-    NSOperationQueue *_opQueue;
-    NSURL *_endpointURL;
-    NSURL *_certURL;
 }
 
 + (int);
@@ -27,13 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

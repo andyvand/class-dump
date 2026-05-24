@@ -6,37 +6,33 @@
 
 #import <AppKit/NSCollectionViewSupplementaryViewAccessibility.h>
 
-@class NSAccessibilityWeakReferenceContainer, NSCollectionViewAccessibilityHelper, NSIndexPath, NSString;
+@class NSAccessibilityWeakReferenceContainer, NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSCollectionViewSupplementaryViewConcreteViewAccessibility : NSCollectionViewSupplementaryViewAccessibility
 {
     NSAccessibilityWeakReferenceContainer *_collectionViewAccessibilityHelper;
-    NSString *kind;
-    NSIndexPath *indexPath;
 }
 
 - (id);
+- (id);
+- (id)ge=},&,V_cfCookies;
+- (id)_remoteEndpoint;
+- (id)the xpc connection requesting pending callbacks for the background session:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (void)nController:(id)arg1 forWindow: /* Error: Ran out of types for this method. */;
-- (id)mBordered;
-- (id)anel;
+- (id)getObjects:andKeys:count: /* Error: Ran out of types for this method. */;
+- (void)_doesScrollViewAdapter:(id)arg1 meetCriteriaForRegistrationWithSectionController:forWindow: /* Error: Ran out of types for this method. */;
+- (id)NSToolbarItemBordered;
+- (id)NSTestRemoteSavePanel;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak NSCollectionViewAccessibilityHelper *collectionViewAccessibilityHelper; // @dynamic collectionViewAccessibilityHelper;
-@property(copy, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath;
 @property(copy, nonatomic) NSString *kind; // @synthesize kind;
 
 @end

@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, RBDomainRestriction, RBEntitlementPredicate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface RBDomainAttributeTemplate
 {
     NSArray *_attributeGroups;
-    NSString *_domain;
-    NSString *_name;
-    RBEntitlementPredicate *_originatorEntitlements;
-    NSDictionary *_targetBundleProperties;
-    RBEntitlementPredicate *_targetEntitlements;
-    NSDictionary *_additionalRestrictions;
-    RBDomainRestriction *_restriction;
-    NSString *_endowmentNamespace;
 }
 
-- (id);
-- (id);
+- (id)(;
+- (id)tring",&,N,V_bundleShortVersion;
 - (id);
 - (void);
-- (id);
+- (id)isCentered;
 - (void);
 - (id);
 - (void);
@@ -36,19 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)nDataProviding>",R,N;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *additionalRestrictions; // @synthesize additionalRestrictions=_additionalRestrictions;
 @property(retain, nonatomic) NSArray *attributeGroups; // @synthesize attributeGroups=_attributeGroups;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) RBEntitlementPredicate *originatorEntitlements; // @synthesize originatorEntitlements=_originatorEntitlements;
-@property(copy, nonatomic) RBDomainRestriction *restriction; // @synthesize restriction=_restriction;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *targetBundleProperties; // @synthesize targetBundleProperties=_targetBundleProperties;
-@property(copy, nonatomic) RBEntitlementPredicate *targetEntitlements; // @synthesize targetEntitlements=_targetEntitlements;
 
 @end
 

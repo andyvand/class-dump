@@ -5,5 +5,6 @@
 //
 
 @protocol PowerUISmartChargeManagingPrivate
+- (void)ore_uuid=?, name=?, value=?, cross_device=?, expires=?, last_sync=?, modified=?, deleted=0, server_provided_at=?, change_counter=?, change_cause=?, previous_value=? WHERE identifier_key=? AND modified=?;;
 @end
 

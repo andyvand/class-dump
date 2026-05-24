@@ -7,20 +7,16 @@
 @interface FCCacheCoordinatorFlushPolicy
 {
     _Bool _alwaysFlushKeysWithZeroInterest;
-    unsigned long long _highWaterMark;
-    unsigned long long _lowWaterMark;
 }
 
-- (id);
-- (_Bool);
-- (unsigned long long);
+- (id)weakToWeakObjectsMapTable;
+- (_Bool)S3_20CTCSurfaceFormOutputENS_9allocatorIS6_EEEESA_RKNS_4pairIPNS3_8PathTrieES6_EEEJPS4_NS_17reference_wrapperIS9_EESL_RKNS_12placeholders4__phILi1EEEEEEFvSG_EEE;
+- (unsigned long long)bjectElementsToAttachmentElements=function(e,t){return this.convertElementsToAttachmentElements("object[type='application/x-apple-msg-attachment']",e,t)},BodyField.prototype.convertElementsToAttachmentElements=function(e,t,n){let i={};for(let o of t.querySelectorAll(e)){let e=o.getAttribute("data"),t=safeNSURL(e);if(!t)continue;let r=n[e];r&&(i[this.replacePlaceholderWithAttachment(o,r)]=t)}return i},BodyField.prototype.replaceRangeWithNode=function(e,t){e.deleteContents(),e.insertNode(t)},BodyField.prototype.stripCustomBodyIdentifiers=function(){this.bodyInputController.stripCustomBodyIdentifiers()},BodyField.prototype.remoteContentEnabled=function(e){document.remoteContentEnabled=e},BodyField.prototype.enableQuickReply=function(e){document.mf_quickReplyDisplayHiddenNodes(!e)};let previousQuickReplyComputedHeight=0;BodyField.prototype.enableSmartReply=function(e){e?postShowSmartReplySuggestionsMessageIfNecessary(document,window):(showSmartReplySuggestions=!1,window.webkit.messageHandlers.ShowSmartReplySuggestions.postMessage(showSmartReplySuggestions))}; /* Error: Ran out of types for this method. */;
 - (unsigned long long)Gù)	ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool alwaysFlushKeysWithZeroInterest; // @synthesize alwaysFlushKeysWithZeroInterest=_alwaysFlushKeysWithZeroInterest;
-@property(readonly, nonatomic) unsigned long long highWaterMark; // @synthesize highWaterMark=_highWaterMark;
-@property(readonly, nonatomic) unsigned long long lowWaterMark; // @synthesize lowWaterMark=_lowWaterMark;
 
 @end
 

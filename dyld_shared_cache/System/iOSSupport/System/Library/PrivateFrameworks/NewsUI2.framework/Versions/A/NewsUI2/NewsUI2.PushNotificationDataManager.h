@@ -7,13 +7,9 @@
 @interface NewsUI2.PushNotificationDataManager
 {
     id pushNotificationService;
-    id subscriptionController;
-    id featureAvailability;
-    id userInfo;
-    id debounceTasks;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

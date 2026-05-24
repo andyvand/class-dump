@@ -5,5 +5,7 @@
 //
 
 @protocol CNAvatarPickerServiceHostProtocol
+- (void)-;
+- (void);
 @end
 

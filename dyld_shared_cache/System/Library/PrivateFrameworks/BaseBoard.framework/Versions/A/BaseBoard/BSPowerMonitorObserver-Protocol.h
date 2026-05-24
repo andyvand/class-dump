@@ -5,5 +5,8 @@
 //
 
 @protocol BSPowerMonitorObserver
+
+@optional
+- (_Bool);
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol UIDocumentPasswordViewDelegate
+
+@optional
+- (void);
 @end
 

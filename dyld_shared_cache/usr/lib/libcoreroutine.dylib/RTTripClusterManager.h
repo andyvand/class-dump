@@ -6,33 +6,14 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSString, RTDefaultsManager, RTTripClusterProcessor, RTTripClusterProcessorOptions, RTTripClusterRecencyStore, RTTripClusterRoadTransitionsDataStore, RTTripClusterRoadTransitionsStore, RTTripClusterRouteStore, RTTripClusterScheduleStore, RTTripClusterStore, RTTripClusterWaypointDataStore, RTTripSegment, RTTripSegmentManager;
+@class RTTripSegmentManager;
 
 @interface RTTripClusterManager : RTService
 {
     double _accumulatedDistance;
-    double _accumulatedDuration;
-    NSDate *_multiModalStartDate;
-    NSDate *_multiModalEndDate;
-    RTTripSegment *_pendingDrivingTripSegment;
-    _Bool _isClusterLearningInProgress;
-    _Bool _clustersUnlockedAfterStartUp;
-    _Bool _isTripSegmentClusteringEnabled;
-    _Bool _shouldDeferClusterProcessing;
-    RTTripSegmentManager *_tripSegmentManager;
-    RTDefaultsManager *_defaultsManager;
-    RTTripClusterProcessorOptions *_options;
-    RTTripClusterProcessor *_tripClusterProcessor;
-    RTTripClusterStore *_tripClusterStore;
-    RTTripClusterRouteStore *_tripClusterRouteStore;
-    RTTripClusterWaypointDataStore *_tripClusterWaypointStore;
-    RTTripClusterRoadTransitionsDataStore *_tripClusterRouteRoadTransitionsStore;
-    RTTripClusterRecencyStore *_tripClusterRecencyStore;
-    RTTripClusterScheduleStore *_tripClusterScheduleStore;
-    RTTripClusterRoadTransitionsStore *_tripSegmentRoadTransitionsStore;
 }
 
-+ (long long);
++ (long long);
 - (void);
 - (void);
 - (id);
@@ -40,27 +21,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (int);
-- (double);
-- (void);
+- (double);
+- (void)C;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -71,20 +52,20 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)setShareePublicKeyData:(id)arg1;
+- (_Bool)setQueryWatches:(id)arg1;
+- (_Bool)setPublicKeyInfo:(id)arg1;
+- (void)currentItemPointerModificationTime;
+- (void)_UUID;
+- (_Bool)ent;
+- (_Bool)}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I},R,N,V_shareProtection;
+- (_Bool)queryEscrowKeys;
+- (void);
+- (void)3;
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)t;
+- (void)path:(id)arg1 /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit;
 - (id);
 - (unsigned long long);
 - (void);
@@ -93,69 +74,48 @@
 - (int);
 - (int);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)0;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)0;
+- (id);
+- (id);
+- (id)PCSMobileBackupStatus;
+- (void)hed wrappingKey is valid for the current record. No need to recover via p_password;
+- (void)c:(id)arg1 %@;
+- (void)mechanism, unable to repair;
+- (void)et service ID for %@;
+- (void)attempting to fix;
 - (long long);
-- (long long);
+- (long long)service %@:(id)arg1 %@;
+- (void)ws:(id)arg1 Needs unlock;
+- (id)account for persona %@;
+- (id)invoked with current persona:(id)arg1 %@, dsid:(int)arg2 %@, altDSID:(int)arg3 %@;
+- (void)ord metatadata;
+- (unsigned long long)surprise;
+- (unsigned long long)supply;
+- (_Bool)reunion;
+- (id)olympic;
+- (int)hotel;
+- (_Bool)ys.pubkeyNumber ;    END  ; CREATE TABLE IF NOT EXISTS UpdateLimits ( updateType TEXT PRIMARY KEY NOT NULL, mod_date DATETIME DEFAULT CURRENT_TIMESTAMP, counter INTEGER, digest TEXT);;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (int);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)receiveDiagnosticChunk:(id)arg1 isLast:(CDUnknownBlockType)arg2;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)sing:(id)arg1 trainReason:currentPipelineError:enableTripSegmentProcessingOnBattery:handler: /* Error: Ran out of types for this method. */;
-- (id)nagerTrainIgnoreDeferral;
+- (void)startTripSegmentAndClusterProcessing:(id)arg1 trainReason:currentPipelineError:enableTripSegmentProcessingOnBattery:handler: /* Error: Ran out of types for this method. */;
+- (id)RTDefaultsPredictedContextManagerTrainIgnoreDeferral;
 - (void), %@, trainResult, %@;
 - (void)avedRecords, %@, deletedRecordIDs, %@, operationError, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool clustersUnlockedAfterStartUp; // @synthesize clustersUnlockedAfterStartUp=_clustersUnlockedAfterStartUp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isClusterLearningInProgress; // @synthesize isClusterLearningInProgress=_isClusterLearningInProgress;
-@property _Bool isTripSegmentClusteringEnabled; // @synthesize isTripSegmentClusteringEnabled=_isTripSegmentClusteringEnabled;
-@property(retain, nonatomic) RTTripClusterProcessorOptions *options; // @synthesize options=_options;
-@property _Bool shouldDeferClusterProcessing; // @synthesize shouldDeferClusterProcessing=_shouldDeferClusterProcessing;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTTripClusterProcessor *tripClusterProcessor; // @synthesize tripClusterProcessor=_tripClusterProcessor;
-@property(retain, nonatomic) RTTripClusterRecencyStore *tripClusterRecencyStore; // @synthesize tripClusterRecencyStore=_tripClusterRecencyStore;
-@property(retain, nonatomic) RTTripClusterRoadTransitionsDataStore *tripClusterRouteRoadTransitionsStore; // @synthesize tripClusterRouteRoadTransitionsStore=_tripClusterRouteRoadTransitionsStore;
-@property(retain, nonatomic) RTTripClusterRouteStore *tripClusterRouteStore; // @synthesize tripClusterRouteStore=_tripClusterRouteStore;
-@property(retain, nonatomic) RTTripClusterScheduleStore *tripClusterScheduleStore; // @synthesize tripClusterScheduleStore=_tripClusterScheduleStore;
-@property(retain, nonatomic) RTTripClusterStore *tripClusterStore; // @synthesize tripClusterStore=_tripClusterStore;
-@property(retain, nonatomic) RTTripClusterWaypointDataStore *tripClusterWaypointStore; // @synthesize tripClusterWaypointStore=_tripClusterWaypointStore;
 @property(retain, nonatomic) RTTripSegmentManager *tripSegmentManager; // @synthesize tripSegmentManager=_tripSegmentManager;
-@property(retain, nonatomic) RTTripClusterRoadTransitionsStore *tripSegmentRoadTransitionsStore; // @synthesize tripSegmentRoadTransitionsStore=_tripSegmentRoadTransitionsStore;
 
 @end
 

@@ -4,39 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, VNImageAestheticsObservation, VNSaliencyImageObservation, VNSceneObservation;
+@class NSArray;
 
 @interface PFCameraMetadata
 {
     _Bool _horizonLinePresent;
-    float _horizonLineAngleInDegrees;
-    NSArray *_junkImageClassificationObservations;
-    VNImageAestheticsObservation *_imageAestheticsObservation;
-    VNSaliencyImageObservation *_saliencyObservation;
-    VNSceneObservation *_scenePrintObservation;
-    NSDictionary *_smartCamInfo;
-    NSArray *_detectedHumanFaces;
-    NSArray *_detectedHumanBodies;
-    NSArray *_detectedCatBodies;
-    NSArray *_detectedDogBodies;
-    NSArray *_detectedSalientObjects;
-    unsigned long long _stitchConfidence;
-    NSArray *_semanticDevelopmentGatingObservations;
-    NSArray *_faceObservations;
-    NSArray *_torsoprints;
-    NSArray *_foodAndDrinkObservations;
-    long long _semanticEnhanceScene;
-    double _semanticEnhanceSceneConfidence;
-    NSString *_captureFolderPath;
-    NSArray *_contactIDsInProximity;
-    long long _sharedLibraryMode;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)blic}@:Ignoring attempt to subscribe to registration that doesn't support remote subscriptions:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -44,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -56,7 +35,7 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)W;
 - (id);
 - (id);
 - (double);
@@ -65,29 +44,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) NSData *JSONDebugDescription;
-@property(readonly, nonatomic) NSString *captureFolderPath; // @synthesize captureFolderPath=_captureFolderPath;
-@property(readonly, nonatomic) NSArray *contactIDsInProximity; // @synthesize contactIDsInProximity=_contactIDsInProximity;
-@property(readonly, nonatomic) NSArray *detectedCatBodies; // @synthesize detectedCatBodies=_detectedCatBodies;
-@property(readonly, nonatomic) NSArray *detectedDogBodies; // @synthesize detectedDogBodies=_detectedDogBodies;
-@property(readonly, nonatomic) NSArray *detectedHumanBodies; // @synthesize detectedHumanBodies=_detectedHumanBodies;
-@property(readonly, nonatomic) NSArray *detectedHumanFaces; // @synthesize detectedHumanFaces=_detectedHumanFaces;
-@property(readonly, nonatomic) NSArray *detectedSalientObjects; // @synthesize detectedSalientObjects=_detectedSalientObjects;
-@property(readonly, nonatomic) NSArray *faceObservations; // @synthesize faceObservations=_faceObservations;
-@property(readonly, nonatomic) NSArray *foodAndDrinkObservations; // @synthesize foodAndDrinkObservations=_foodAndDrinkObservations;
-@property(readonly, nonatomic) float horizonLineAngleInDegrees; // @synthesize horizonLineAngleInDegrees=_horizonLineAngleInDegrees;
-@property(readonly, nonatomic) _Bool horizonLinePresent; // @synthesize horizonLinePresent=_horizonLinePresent;
-@property(readonly, nonatomic) VNImageAestheticsObservation *imageAestheticsObservation; // @synthesize imageAestheticsObservation=_imageAestheticsObservation;
 @property(readonly, nonatomic) NSArray *junkImageClassificationObservations; // @synthesize junkImageClassificationObservations=_junkImageClassificationObservations;
-@property(readonly, nonatomic) VNSaliencyImageObservation *saliencyObservation; // @synthesize saliencyObservation=_saliencyObservation;
-@property(readonly, nonatomic) VNSceneObservation *scenePrintObservation; // @synthesize scenePrintObservation=_scenePrintObservation;
-@property(readonly, nonatomic) NSArray *semanticDevelopmentGatingObservations; // @synthesize semanticDevelopmentGatingObservations=_semanticDevelopmentGatingObservations;
-@property(nonatomic) long long semanticEnhanceScene; // @synthesize semanticEnhanceScene=_semanticEnhanceScene;
-@property(nonatomic) double semanticEnhanceSceneConfidence; // @synthesize semanticEnhanceSceneConfidence=_semanticEnhanceSceneConfidence;
-@property(readonly, nonatomic) long long sharedLibraryMode; // @synthesize sharedLibraryMode=_sharedLibraryMode;
-@property(readonly, nonatomic) NSDictionary *smartCamInfo; // @synthesize smartCamInfo=_smartCamInfo;
-@property(readonly, nonatomic) unsigned long long stitchConfidence; // @synthesize stitchConfidence=_stitchConfidence;
-@property(readonly, nonatomic) NSArray *torsoprints; // @synthesize torsoprints=_torsoprints;
 
 @end
 

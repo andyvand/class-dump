@@ -9,24 +9,20 @@
 @interface PKPaymentSetupProductImageAssetURLs
 {
     NSURL *_digitalCardImageUrl;
-    NSURL *_thumbnailImageUrl;
-    NSURL *_logoImageUrl;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)ion;
 - (id);
 - (void)ssDetailsResponse"8@"NSError"16;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *digitalCardImageUrl; // @synthesize digitalCardImageUrl=_digitalCardImageUrl;
-@property(readonly, nonatomic) NSURL *logoImageUrl; // @synthesize logoImageUrl=_logoImageUrl;
-@property(readonly, nonatomic) NSURL *thumbnailImageUrl; // @synthesize thumbnailImageUrl=_thumbnailImageUrl;
 
 @end
 

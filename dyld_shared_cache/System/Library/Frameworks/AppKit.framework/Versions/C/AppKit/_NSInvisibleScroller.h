@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (double);
++ (double)_private_onqueue_didReceiveResponseDisposition:(unsigned long long)arg1 completion:(long long)arg2;
 
 @end
 

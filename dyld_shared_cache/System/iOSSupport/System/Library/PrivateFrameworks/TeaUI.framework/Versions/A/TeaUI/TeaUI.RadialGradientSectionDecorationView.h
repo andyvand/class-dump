@@ -7,13 +7,11 @@
 @interface TeaUI.RadialGradientSectionDecorationView
 {
     id gradientView;
-    id gradientSize;
-    id overscrollPinPosition;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)PuzzleHistoryItemSecure2;
+- (id)setWidgetVisibleSectionsLimit:(struct CGRect)arg1;
 - (void);
 - (void);
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
 @protocol SFSafariExtensionHostDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SFSafariExtensionHostContext
 {
     id <SFSafariExtensionHostDelegate> _delegate;
-    NSUUID *_extensionUUID;
 }
 
 + (id);
@@ -41,24 +39,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)n;
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)BKTDTotalNodes;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) id <SFSafariExtensionHostDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSUUID *extensionUUID; // @synthesize extensionUUID=_extensionUUID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

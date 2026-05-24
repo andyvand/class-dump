@@ -7,8 +7,6 @@
 @interface ChatKit.CKSuggestedRepliesView
 {
     id suggestedReplies;
-    id selectedSuggestedReply;
-    id messageGUID;
 }
 
 - (void);

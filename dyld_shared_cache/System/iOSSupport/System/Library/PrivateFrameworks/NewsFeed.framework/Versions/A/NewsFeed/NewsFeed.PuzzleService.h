@@ -7,16 +7,6 @@
 @interface NewsFeed.PuzzleService
 {
     id puzzleDataDirectory;
-    id puzzleDataFileExtension;
-    id puzzleType;
-    id puzzleController;
-    id puzzleTypeController;
-    id resourceService;
-    id webArchiveService;
-    id appConfigurationManager;
-    id lock;
-    id cachedLatestPublishedPuzzleIDs;
-    id cachedLatestPublishedPuzzlesDate;
 }
 
 @end

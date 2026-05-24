@@ -11,22 +11,19 @@
 @interface CalendarNotesCell : EKUITableViewCell
 {
     UITextView *_textView;
-    NSString *_text;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)setClasses:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (void)localizedShortName;
+- (id)equest:(long long)arg1 completionHandler:(id)arg2 ];
 - (void);
-- (id);
-- (void);
-- (void)yLabelHighlighted;
+- (void)isAllDayLabelHighlighted;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *placeholder;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, retain, nonatomic) UITextView *textView;
 
 @end
 

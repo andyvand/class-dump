@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableOrderedSet;
+@class NSMutableDictionary, NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardHIDEventOrderedDescriptorSet
@@ -14,19 +14,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)%@, error %@, recordName:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id)w: /* Error: Ran out of types for this method. */;
+- (id)_initViewHierarchyForPresentationSuperview:inWindow: /* Error: Ran out of types for this method. */;
 - (id)ng;
 - (void)[_UISceneUserActivityManager _knownSceneSessionMap]_block_invoke;
 - (void);
 - (void)<Õsþu[43|Ôsþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *_eventsByDescriptor; // @synthesize _eventsByDescriptor;
 @property(readonly, nonatomic) NSMutableOrderedSet *_orderedDescriptors; // @synthesize _orderedDescriptors;
-@property(readonly, nonatomic) NSArray *events;
 
 @end
 

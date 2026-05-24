@@ -5,19 +5,17 @@
 //
 
 @class SearchUIRowModel;
-@protocol SearchUIFeedbackDelegate;
 
 @interface SearchUITableCellView
 {
     SearchUIRowModel *_rowModel;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)writeToDataWithObject:andChunks: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -25,8 +23,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) struct NSEdgeInsets customEdgeInsets;
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
 @property(retain) SearchUIRowModel *rowModel; // @synthesize rowModel=_rowModel;
 
 @end

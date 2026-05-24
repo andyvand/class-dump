@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)itespaceAndNewLine;
 + (id);
 - (unsigned long long);
 

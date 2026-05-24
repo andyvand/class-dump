@@ -4,34 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABackdropLayer, NSArray, NSString, UIImageView, UIView;
+@class NSArray, NSString, UIImageView, UIView;
 
 @protocol CKSendAnimationContextProtocol
+- (void){CGSize=dd}28@0:(NSArray *)arg1 8@16B24;
+- (void)size"{CGSize="width"d"height"d}};
+- (void)e";
+- (void)ange=QQ}20@36;
+- (void)wantsUndoCommands;
+- (void)wantsToTrackMouseForEvent:(UIView *)arg1 inRect:ofView:atCharacterIndex: /* Error: Ran out of types for this method. */;
+- (void)stringNameForDirection:(_Bool)arg1 order: /* Error: Ran out of types for this method. */;
+- (void)onTitle:(NSString *)arg1 postscript:completion: /* Error: Ran out of types for this method. */;
+- (void)setUsesAlternativeAuthenticationIfAvailable:(NSArray *)arg1;
+- (void)setTextAlignment:(struct CGSize)arg1 range:inTextStorage:inTextView: /* Error: Ran out of types for this method. */;
+- (void)setFirstFieldHeightLayoutConstraint:(UIView *)arg1;
+- (void)setFilterSubstringAttributes:(_Bool)arg1;
+- (void)setDidAuthenticateWithBiometrics:(UIImageView *)arg1;
+- (void)setDevicePasswordInfoAlert;
+- (void)setChecklistsOnly:(NSArray *)arg1;
+- (void)setChecklistZoomFactor:(NSArray *)arg1;
+- (unsigned long long)resetTimeoutTimer;
+- (struct CGRect)keyboardLanguage;
+- (UIView *)keepOriginalAttributes;
+- (NSString *)L;
+- (NSArray *)y_storage_$_reloadPublisher;
+- (struct CGSize)ultsController;
+- (NSArray *)ack audio:Creating AVAssetExportSession failed - attachment:%s /* Error: Ran out of types for this method. */;
 - (NSArray *).@01;
-- (void)PLACEHOLDER;
+- (void)BUSINESS_DESCRIPTION_PLACEHOLDER;
 - (UIView *);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *animatableTextViews;
-@property(copy, nonatomic) NSArray *animatableViews;
-@property(nonatomic) struct CGRect audioMessageSourceRect;
-@property(retain, nonatomic) UIImageView *audioRecordingPillViewSnapshot;
-@property(retain, nonatomic) CABackdropLayer *backdropLayer;
-@property(nonatomic) _Bool beginAnimationFromTranscriptPresentedState;
-@property(retain, nonatomic) UIView *behindGlassContainerView;
-@property(retain, nonatomic) UIView *containerView;
-@property(nonatomic) struct CGSize entryViewSize;
-@property(copy, nonatomic) NSArray *framesOfAddedChatItems;
-@property(copy, nonatomic) NSString *impactIdentifier;
-@property(nonatomic) _Bool isSender;
-@property(copy, nonatomic) NSArray *messages;
-@property(retain, nonatomic) UIView *quickReplySnapshotView;
-@property(nonatomic) struct CGRect quickReplySourceRect;
 @property(nonatomic) unsigned long long sendAnimationType;
-@property(nonatomic) _Bool shouldRepeat;
-@property(readonly, nonatomic) _Bool shouldUseQuickReplySourceRect;
-@property(nonatomic) struct CGRect throwAnimationSourceRect;
-@property(copy, nonatomic) NSArray *throwBalloonViewAttributesCollection;
-@property(copy, nonatomic) NSArray *throwBalloonViews;
 @end
 

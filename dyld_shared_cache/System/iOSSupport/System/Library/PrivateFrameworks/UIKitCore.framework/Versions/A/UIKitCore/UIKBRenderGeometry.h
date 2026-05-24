@@ -4,40 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSValue;
-
 @interface UIKBRenderGeometry
 {
     _Bool _detachedVariants;
-    _Bool _tallPopup;
-    int _popupBias;
-    unsigned long long _concaveCorner;
-    unsigned long long _roundRectCorners;
-    double _roundRectRadius;
-    long long _flickDirection;
-    NSValue *_splitLeftRect;
-    NSValue *_splitRightRect;
-    long long _popupDirection;
-    double _layeredBackgroundRoundRectRadius;
-    double _layeredForegroundRoundRectRadius;
-    struct CGPoint _popupSource;
-    struct CGSize _concaveCornerOffset;
-    struct CGRect _frame;
-    struct CGRect _paddedFrame;
-    struct CGRect _displayFrame;
-    struct CGRect _symbolFrame;
-    struct UIEdgeInsets _layoutMargins;
-    struct CGRect _layeredBackgroundPaddedFrame;
-    struct CGRect _layeredForegroundPaddedFrame;
 }
 
 + (id);
-+ (id)ee;
-+ (id)gPress;
++ (id)_boundingPathForSubtree;
++ (id)_UITouchObservingLongPress;
 - (double);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)_payloadAllowUntrustedTLSPrompt;
+- (void)le.predicate.onetime;
 - (long long);
 - (void);
 - (void);
@@ -45,14 +23,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (int);
-- (struct CGRect);
+- (int)headTrackedSpatialAudioEnabled;
+- (struct CGRect)__MPModelPropertyArtistDownloadedSongCount__MAPPING_MISSING__;
 - (double);
-- (id);
+- (id)C;
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -67,29 +45,29 @@
 - (id)6@"UIView"24;
 - (long long):8@16d24 /* Error: Ran out of types for this method. */;
 - (unsigned long long)CustomizationItem"8;
-- (struct CGRect)ObjectForKey: /* Error: Ran out of types for this method. */;
-- (void)ingMoreItem;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)Items:(struct CGPoint)arg1 loops:restrictEnteringSequence: /* Error: Ran out of types for this method. */;
-- (_Bool)alueOptions:(id)arg1;
-- (struct CGRect)stFactor;
-- (id)kDisabledSelectionHighlightColor;
-- (void)viewForTextInteractableItem:(long long)arg1 dismissing: /* Error: Ran out of types for this method. */;
-- (void)athChangeObserversWithChangeInfo:(double)arg1 forAncestor: /* Error: Ran out of types for this method. */;
+- (struct CGRect)unregisterClient:ofObjectForKey: /* Error: Ran out of types for this method. */;
+- (void)supportsShowingMoreItem;
+- (id)setGroupBackdrops: /* Error: Ran out of types for this method. */;
+- (void)sequenceWithItems:(struct CGPoint)arg1 loops:restrictEnteringSequence: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithLeftValueOptions:(id)arg1 rightValueOptions: /* Error: Ran out of types for this method. */;
+- (struct CGRect)edgeFlickVelocityBoostFactor;
+- (id)darkDisabledSelectionHighlightColor;
+- (void)_targetedPreviewForTextInteractableItem:(long long)arg1 dismissing: /* Error: Ran out of types for this method. */;
+- (void)_notifyBoundingPathChangeObserversWithChangeInfo:(double)arg1 forAncestor: /* Error: Ran out of types for this method. */;
 - (void)w;
 - (id)eparatorIdentifier;
-- (struct CGPoint)ontextEntryRepresentation;
-- (id)adedInteractionContextImpl;
+- (struct CGPoint)inputContextEntryRepresentation;
+- (id)UISpringLoadedInteractionContextImpl;
 - (struct CGRect);
 - (id)ô;
 - (void);
 - (void)"UIView"8Q16;
 - (double)h '%@'>;
-- (unsigned long long)SToolbarSupplementarySidebarSeparatorItem;
+- (unsigned long long)NSToolbarSupplementarySidebarSeparatorItem;
 - (id)ll;
 - (struct CGRect)apticLocalityFullGamut(void);
-- (void)tion;
-- (void)ected;
+- (void)Orientation;
+- (void)Selected;
 - (void)rAccessibilityHUDAssistantC8DelegateP;
 - (void)";
 - (struct CGSize)È03+ ;
@@ -102,29 +80,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long concaveCorner; // @synthesize concaveCorner=_concaveCorner;
-@property(nonatomic) struct CGSize concaveCornerOffset; // @synthesize concaveCornerOffset=_concaveCornerOffset;
-@property(nonatomic) _Bool detachedVariants; // @synthesize detachedVariants=_detachedVariants;
-@property(nonatomic) struct CGRect displayFrame; // @synthesize displayFrame=_displayFrame;
-@property(readonly, nonatomic) struct UIEdgeInsets displayInsets;
-@property(nonatomic) long long flickDirection; // @synthesize flickDirection=_flickDirection;
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) struct CGRect layeredBackgroundPaddedFrame; // @synthesize layeredBackgroundPaddedFrame=_layeredBackgroundPaddedFrame;
-@property(nonatomic) double layeredBackgroundRoundRectRadius; // @synthesize layeredBackgroundRoundRectRadius=_layeredBackgroundRoundRectRadius;
-@property(nonatomic) struct CGRect layeredForegroundPaddedFrame; // @synthesize layeredForegroundPaddedFrame=_layeredForegroundPaddedFrame;
-@property(nonatomic) double layeredForegroundRoundRectRadius; // @synthesize layeredForegroundRoundRectRadius=_layeredForegroundRoundRectRadius;
-@property(nonatomic) struct UIEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(nonatomic) struct CGRect paddedFrame; // @synthesize paddedFrame=_paddedFrame;
-@property(readonly, nonatomic) struct UIEdgeInsets paddedInsets;
-@property(nonatomic) int popupBias; // @synthesize popupBias=_popupBias;
-@property(nonatomic) long long popupDirection; // @synthesize popupDirection=_popupDirection;
-@property(nonatomic) struct CGPoint popupSource; // @synthesize popupSource=_popupSource;
-@property(nonatomic) unsigned long long roundRectCorners; // @synthesize roundRectCorners=_roundRectCorners;
-@property(nonatomic) double roundRectRadius; // @synthesize roundRectRadius=_roundRectRadius;
-@property(retain, nonatomic) NSValue *splitLeftRect; // @synthesize splitLeftRect=_splitLeftRect;
-@property(retain, nonatomic) NSValue *splitRightRect; // @synthesize splitRightRect=_splitRightRect;
-@property(nonatomic) struct CGRect symbolFrame; // @synthesize symbolFrame=_symbolFrame;
-@property(nonatomic) _Bool tallPopup; // @synthesize tallPopup=_tallPopup;
 
 @end
 

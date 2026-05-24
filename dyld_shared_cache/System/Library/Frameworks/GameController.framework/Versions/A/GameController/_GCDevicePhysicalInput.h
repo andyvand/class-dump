@@ -6,29 +6,20 @@
 
 #import <GameController/_GCDevicePhysicalInputBase.h>
 
-@class NSMutableArray, _GCDevicePhysicalInputTransaction;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInput : _GCDevicePhysicalInputBase
 {
     CDUnknownBlockType _elementValueDidChangeHandler;
-    CDUnknownBlockType _inputStateAvailableHandler;
-    NSMutableArray *_allTransactions;
-    _GCDevicePhysicalInputTransaction *_currentTransaction;
-    _GCDevicePhysicalInputTransaction *_pendingTransaction;
-    NSMutableArray *_bufferedTransactions;
-    unsigned long long _bufferedTransactionsQueueDepth;
-    _Atomic _Bool _isHandlingEvent;
 }
 
 - (void);
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)d`;
 - (void);
 - (void);
 - (void);

@@ -10,19 +10,14 @@ __attribute__((visibility("hidden")))
 @interface GEOComposedRouteCellularCoverage
 {
     NSData *_offsetsData;
-    NSData *_coverageData;
-    unsigned int *_offsets;
-    int *_coverage;
-    unsigned long long _coverageCount;
-    double _routeLength;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)LoadResource;
+- (id)globalAsyncScheduler;
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)nter.service;
 - (void);
 - (void):Â5 /* Error: Ran out of types for this method. */;
 

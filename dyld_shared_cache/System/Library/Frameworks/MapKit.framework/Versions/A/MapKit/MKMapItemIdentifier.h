@@ -15,19 +15,19 @@
 - (id);
 - (id);
 - (id);
+- (id)ces"b1"_reserved"b21};
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)fyFaceAttributesRequest"16^@24;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)0&;
 - (id);
 - (id);
-- (id);
-- (void)D: /* Error: Ran out of types for this method. */;
+- (void)initWithMUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifierString;

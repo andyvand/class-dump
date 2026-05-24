@@ -6,66 +6,41 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSPromise, AMSURLSession, NSNumber, NSString;
-@protocol AMSBagProtocol, AMSMetricsDataSource, AMSMetricsRegexCacheProtocol, AMSPrivateIdentifiersAutoDecorationProtocol;
+@class AMSPromise, AMSURLSession;
 
 __attribute__((visibility("hidden")))
 @interface AMSMetricsFigaroFlushTask : AMSTask
 {
     AMSPromise *_currentCancellableDataTaskPromise;
-    struct os_unfair_lock_s _currentCancellableDataTaskPromiseLock;
-    CDUnknownBlockType _postBatchBlock;
-    _Bool _includeMMeClientInfoAndDeviceHeaders;
-    AMSURLSession *_URLSession;
-    unsigned long long _maxEventsPerBatch;
-    unsigned long long _maxRequestCount;
-    NSString *_topic;
-    id <AMSMetricsRegexCacheProtocol> _regexCache;
-    unsigned long long _metricsSigningFlavour;
-    id <AMSMetricsDataSource> _dataSource;
-    id <AMSBagProtocol> _bag;
-    NSNumber *_maxBatchSizeOverride;
-    id <AMSPrivateIdentifiersAutoDecorationProtocol> _autoDecoration;
 }
 
-+ (_Bool);
-+ (_Bool);
-- (unsigned long long);
++ (_Bool)@;
++ (_Bool)�;
+- (unsigned long long)&;
+- (id);
+- (id)_notificationName;
+- (unsigned long long)message_subject;
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)teRouteIdentifier;
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)RemoveOutputDevicesInGroup;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool)× ;
-- (unsigned long long)tent;
+- (unsigned long long)_TtC18AppleMediaServices28AgeGroupContentPolicyContent;
 - (void)y}à{È¸y }P{x}{ày |PzÈ~¸x~àxx|z ~PxÈ|¸z|àzx~xí÷(ã¤À}äÒôµà2PE±;
 - (id);jç~Q*6pzïõÊí Ywùu2_²p/öß4n9;
 
 // Remaining properties
 @property(readonly, nonatomic) AMSURLSession *URLSession; // @synthesize URLSession=_URLSession;
-@property(retain, nonatomic) id <AMSPrivateIdentifiersAutoDecorationProtocol> autoDecoration; // @synthesize autoDecoration=_autoDecoration;
-@property(readonly, nonatomic) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) id <AMSMetricsDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) _Bool includeMMeClientInfoAndDeviceHeaders; // @synthesize includeMMeClientInfoAndDeviceHeaders=_includeMMeClientInfoAndDeviceHeaders;
-@property(readonly, nonatomic) NSNumber *maxBatchSizeOverride; // @synthesize maxBatchSizeOverride=_maxBatchSizeOverride;
-@property(readonly, nonatomic) unsigned long long maxEventsPerBatch; // @synthesize maxEventsPerBatch=_maxEventsPerBatch;
-@property(readonly, nonatomic) unsigned long long maxRequestCount; // @synthesize maxRequestCount=_maxRequestCount;
-@property(readonly, nonatomic) unsigned long long metricsSigningFlavour; // @synthesize metricsSigningFlavour=_metricsSigningFlavour;
-@property(readonly, nonatomic) id <AMSMetricsRegexCacheProtocol> regexCache; // @synthesize regexCache=_regexCache;
-@property(readonly, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end
 

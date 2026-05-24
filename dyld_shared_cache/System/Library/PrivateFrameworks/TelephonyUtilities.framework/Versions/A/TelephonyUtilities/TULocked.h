@@ -7,17 +7,16 @@
 @interface TULocked
 {
     struct os_unfair_recursive_lock_s _lock;
-    id _object;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)B;
+- (id);
+- (void)c;
 - (void);
 - (struct os_unfair_recursive_lock_s *);
 - (id);
 - (id);
-- (void)ceIdentifier;
+- (void)sourceIdentifier;
 
 @end
 

@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface SCNBufferBinding
 {
     NSString *_name;
-    long long _frequency;
-    CDUnknownBlockType _block;
 }
 
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (void);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic) long long frequency; // @synthesize frequency=_frequency;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

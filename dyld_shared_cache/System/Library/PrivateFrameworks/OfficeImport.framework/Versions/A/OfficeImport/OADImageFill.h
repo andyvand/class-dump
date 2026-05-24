@@ -6,19 +6,12 @@
 
 #import <OfficeImport/OADFill.h>
 
-@class OADBlipRef, OADImageFillTechnique, OADRelativeRect;
+@class OADBlipRef;
 
 __attribute__((visibility("hidden")))
 @interface OADImageFill : OADFill
 {
     OADBlipRef *mBlipRef;
-    _Bool mIsBlipRefOverridden;
-    OADRelativeRect *mSourceRect;
-    int mDpi;
-    _Bool mIsDpiOverridden;
-    _Bool mRotateWithShape;
-    _Bool mIsRotateWithShapeOverridden;
-    OADImageFillTechnique *mTechnique;
 }
 
 + (id);
@@ -40,10 +33,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (_Bool);
-- (id);
+- (id)@%{public}@:%ld /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);

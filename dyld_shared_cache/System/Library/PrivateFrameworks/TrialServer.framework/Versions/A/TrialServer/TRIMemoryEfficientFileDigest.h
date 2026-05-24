@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)initWithData:(id)arg1 cachingStrategy: /* Error: Ran out of types for this method. */;
 
 @end
 

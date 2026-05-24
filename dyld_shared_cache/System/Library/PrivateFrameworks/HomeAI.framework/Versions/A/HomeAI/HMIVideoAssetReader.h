@@ -6,14 +6,11 @@
 
 #import <HomeAI/HMIVideoNode.h>
 
-@class AVAsset, AVAssetReader, NSMutableArray, NSString;
+@class AVAsset;
 
 @interface HMIVideoAssetReader : HMIVideoNode
 {
     AVAsset *_asset;
-    AVAssetReader *_assetReader;
-    struct __CFArray *_trackSamples;
-    NSMutableArray *_trackOutputs;
 }
 
 + (id)2;
@@ -28,13 +25,7 @@
 - (id)'HH:(id)arg1 mm:ss /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

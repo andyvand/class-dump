@@ -6,32 +6,26 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class FLSchemaFLActionEvaluationContext, FLSchemaFLClientEventMetadata, FLSchemaFLInteractionDonationContext, NSData, SISchemaInstrumentationMessage;
+@class FLSchemaFLClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface FLSchemaFLClientEvent : SISchemaTopLevelUnionType
 {
     FLSchemaFLClientEventMetadata *_eventMetadata;
-    FLSchemaFLActionEvaluationContext *_evaluationContext;
-    FLSchemaFLInteractionDonationContext *_donationContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasEvaluationContext;
-    _Bool _hasDonationContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
-- (unsigned long long);
+- (unsigned long long)PM;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (id);
@@ -39,32 +33,24 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (int);
+- (id)reUpdateCoreSupport.framework/Versions/A/SoftwareUpdateCoreSupport;
+- (int)ACCExternalAccessoryProvider;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_setSwitchedOn: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)OMMESSchemaPOMMESPegasusRequestArguments";
-- (id)DecisionSource;
+- (id)hasRoutingDecisionSource;
 - (unsigned long long)icyTriggered;
 - (id)emaINFERENCEABModelResultTriggered",&,N,V_abModelResultTriggered;
 - (id)$k¨kônoDtôu;
-- (int)TATUS_INFERRED_SUCCESS;
+- (int)FLTASKSTATUS_INFERRED_SUCCESS;
 - (void)$;
 
 // Remaining properties
-@property(retain, nonatomic) FLSchemaFLInteractionDonationContext *donationContext; // @synthesize donationContext=_donationContext;
-@property(retain, nonatomic) FLSchemaFLActionEvaluationContext *evaluationContext; // @synthesize evaluationContext=_evaluationContext;
-@property(retain, nonatomic) FLSchemaFLClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasDonationContext; // @synthesize hasDonationContext=_hasDonationContext;
-@property(nonatomic) _Bool hasEvaluationContext; // @synthesize hasEvaluationContext=_hasEvaluationContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

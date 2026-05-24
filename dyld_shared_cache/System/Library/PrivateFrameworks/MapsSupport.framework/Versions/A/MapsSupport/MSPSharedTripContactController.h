@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPSharingRestorationStorage, NSDictionary, NSMutableSet, NSObject, NSOrderedSet, NSUUID;
-@protocol MSPSharedTripContactControllerDelegate, MSPSharedTripXPCServer, OS_dispatch_queue;
+@class NSOrderedSet;
+@protocol MSPSharedTripContactControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripContactController
 {
     NSOrderedSet *_activeContacts;
-    NSOrderedSet *_activeHandles;
-    NSDictionary *_serviceNamesByActiveHandle;
-    NSMutableSet *_pendingContacts;
-    id <MSPSharedTripXPCServer> _sharedTripServer;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    NSUUID *_sessionIdentifier;
-    id <MSPSharedTripContactControllerDelegate> _delegate;
 }
 
 - (void);
@@ -28,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)TFENodebbEEE;
 - (void);
 - (void);
 - (void);
@@ -45,8 +38,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *activeContactsValues;
-@property(readonly, nonatomic) MSPSharingRestorationStorage *archivedSharingStorage;
 @property(nonatomic) __weak id <MSPSharedTripContactControllerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol AppStoreKit.JSAppStoreOnDeviceSearchHistoryExports__priv_2E2C2B4647826CED63A402921B492A6C
+- (void);
+- (JSValue *);
+- (void)?;
 @end
 

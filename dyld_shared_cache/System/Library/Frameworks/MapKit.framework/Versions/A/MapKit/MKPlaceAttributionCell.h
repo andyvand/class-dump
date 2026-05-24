@@ -6,19 +6,11 @@
 
 #import <MapKit/MKPlaceSectionRowView.h>
 
-@class MKPlaceAttributionCellButton, NSArray, NSLayoutConstraint, _MKUILabel;
-@protocol MKPlaceAttributionCellDelegate;
+@class NSArray, _MKUILabel;
 
 @interface MKPlaceAttributionCell : MKPlaceSectionRowView
 {
     NSArray *_visibleConstraints;
-    NSLayoutConstraint *_collapsedConstraint;
-    _Bool _highlighted;
-    _MKUILabel *_label;
-    MKPlaceAttributionCellButton *_labelButton;
-    NSLayoutConstraint *_labelBaselineToTop;
-    NSLayoutConstraint *_labelLastBaselineToBottom;
-    id <MKPlaceAttributionCellDelegate> _cellDelegate;
 }
 
 + (id);
@@ -26,32 +18,28 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ZR;
 - (id);
 - (id);
 - (double);
 - (void);
 - (id);
 - (void);
+- (void)�Nu;
 - (void);
-- (void);
-- (void);
+- (void)arrayWithObjects:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)essionMediaServicesWereResetNotificationWithUserInfo:(struct CGRect)arg1 ];
 - (void);
 - (void)q *1Â0@ù
 × ;
-- (void)ility: /* Error: Ran out of types for this method. */;
-- (_Bool)onstraintsCreated;
+- (void)mapView:didChangeLookAroundAvailability: /* Error: Ran out of types for this method. */;
+- (_Bool)_constraintsCreated;
 
 // Remaining properties
-@property(nonatomic) __weak id <MKPlaceAttributionCellDelegate> cellDelegate; // @synthesize cellDelegate=_cellDelegate;
 @property(retain, nonatomic) _MKUILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSLayoutConstraint *labelBaselineToTop; // @synthesize labelBaselineToTop=_labelBaselineToTop;
-@property(retain, nonatomic) MKPlaceAttributionCellButton *labelButton; // @synthesize labelButton=_labelButton;
-@property(retain, nonatomic) NSLayoutConstraint *labelLastBaselineToBottom; // @synthesize labelLastBaselineToBottom=_labelLastBaselineToBottom;
 
 @end
 

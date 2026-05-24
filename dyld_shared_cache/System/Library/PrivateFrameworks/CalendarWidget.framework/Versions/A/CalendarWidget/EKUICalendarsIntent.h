@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface EKUICalendarsIntent
 {
@@ -16,8 +16,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *calendars; // @dynamic calendars;
-@property(nonatomic, retain) NSNumber *hideAllDayEvents; // @dynamic hideAllDayEvents;
 @property(nonatomic, retain) NSNumber *mirrorCalendarApp; // @dynamic mirrorCalendarApp;
 
 @end

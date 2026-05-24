@@ -9,10 +9,11 @@
 @protocol RTIInputSystemClientDelegate
 
 @optional
+- (_Bool)"2L;
 - (void)1Â0@ù
 × ;
-- (void)ognizer:(RTITextOperations *)arg1;
-- (void)erOffset;
-- (void)tionCallback;
+- (void)_setSystemProvidedGestureRecognizer:(RTITextOperations *)arg1;
+- (void)UITextMagnifierOffset;
+- (void)_UISplitKeyboardTransitionCallback;
 @end
 

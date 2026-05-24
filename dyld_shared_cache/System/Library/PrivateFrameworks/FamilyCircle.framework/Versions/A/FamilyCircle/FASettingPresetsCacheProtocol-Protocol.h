@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AAFPromise;
+
 @protocol FASettingPresetsCacheProtocol
+- (AAFPromise *)DISPLAY;
+- (AAFPromise *)recommendationId;
 @end
 

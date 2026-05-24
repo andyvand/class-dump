@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCurrencyAmount, INPaymentMethod, INPerson, NSString;
+@class INPerson;
 
 @interface INPaymentRecord
 {
     INPerson *_payee;
-    INPerson *_payer;
-    INCurrencyAmount *_currencyAmount;
-    NSString *_note;
-    long long _status;
-    INPaymentMethod *_paymentMethod;
-    INCurrencyAmount *_feeAmount;
 }
 
 + (id);
@@ -26,36 +20,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)buttonXValue;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)didUseLocationOptimizedChannelList;
+- (id)_forTestingPeriodicityForDownloadInSecs;
+- (void)Invalid BSSID;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)R(	;
 - (id);
 - (long long);
-- (id)s:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)confirmSearchForMessages:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)withCompletion: /* Error: Ran out of types for this method. */;
 - (id)$ÓÆÿHJN!m;
 
 // Remaining properties
-@property(readonly, copy) INCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INCurrencyAmount *feeAmount; // @synthesize feeAmount=_feeAmount;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *note; // @synthesize note=_note;
-@property(readonly, copy) INPerson *payee; // @synthesize payee=_payee;
-@property(readonly, copy) INPerson *payer; // @synthesize payer=_payer;
-@property(readonly, copy) INPaymentMethod *paymentMethod; // @synthesize paymentMethod=_paymentMethod;
-@property(readonly) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

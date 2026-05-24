@@ -5,8 +5,10 @@
 //
 
 @protocol UXViewControllerInteractiveTransitioning
+- (void)evelImage.m;
 
 @optional
+- (double);
 - (long long)Ú!¼Fùð°1Â0@ù
 × ;
 @end

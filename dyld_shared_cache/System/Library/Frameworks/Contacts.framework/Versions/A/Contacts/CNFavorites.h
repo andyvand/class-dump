@@ -4,36 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray, NSMutableDictionary;
-@protocol CNFavoritesLogger, CNFavoritesStore;
+@class CNContactStore, NSArray;
 
 @interface CNFavorites
 {
     NSArray *_entries;
-    _Bool _dirty;
-    _Bool _needsReload;
-    CNContactStore *_contactStore;
-    unsigned long long _postCount;
-    id <CNFavoritesLogger> _logger;
-    id <CNFavoritesStore> _favoritesStore;
-    NSMutableDictionary *_entriesByContactIdentifier;
 }
 
 + (id);
-+ (id);
-+ (void);
-+ (id)eRequestToDeleteImageForIdentifiers: /* Error: Ran out of types for this method. */;
++ (id));
++ (void)_domainIdentifier;
++ (id)saveRequestToDeleteImageForIdentifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(nonatomic) _Bool dirty; // @synthesize dirty=_dirty;
-@property(readonly, copy, nonatomic) NSArray *entries;
-@property(retain, nonatomic) NSMutableDictionary *entriesByContactIdentifier; // @synthesize entriesByContactIdentifier=_entriesByContactIdentifier;
-@property(retain, nonatomic) id <CNFavoritesStore> favoritesStore; // @synthesize favoritesStore=_favoritesStore;
-@property(readonly, nonatomic, getter=isFull) _Bool full;
-@property(readonly, nonatomic) id <CNFavoritesLogger> logger; // @synthesize logger=_logger;
-@property(nonatomic) _Bool needsReload; // @synthesize needsReload=_needsReload;
-@property(nonatomic) unsigned long long postCount; // @synthesize postCount=_postCount;
 
 @end
 

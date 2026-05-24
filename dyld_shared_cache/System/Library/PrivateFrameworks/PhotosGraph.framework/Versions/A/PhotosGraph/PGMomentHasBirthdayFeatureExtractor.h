@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGFeatureExtractor.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PGMomentHasBirthdayFeatureExtractor : PGFeatureExtractor
 {
@@ -16,13 +16,11 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)LibrarySimulationEnableDebugLogging;
+- (void)PGSharedLibrarySimulationEnableDebugLogging;
 
 // Remaining properties
-@property(nonatomic, readonly) long long featureLength;
-@property(nonatomic, readonly) NSArray *featureNames;
 @property(nonatomic, readonly) NSString *name;
 
 @end

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)mediaCompositionNaturalSizeForPlayerController:(id)arg1;
+- (id)_mediaCompositionNaturalSizeForPlayerController:(id)arg1;
 
 @end
 

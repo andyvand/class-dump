@@ -4,33 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateMapView
 {
     PBUnknownFields *_unknownFields;
-    GEOMapRegion *_mapRegion;
-    double _pitch;
-    double _styleZoomLevel;
-    double _zoomLevel;
-    int _mapType;
-    int _viewMode;
-    _Bool _isAdvancedMap;
-    _Bool _isGlobeProjection;
-    _Bool _watchProximityRadiusOn;
-    struct {
-        unsigned int has_pitch:1;
-        unsigned int has_styleZoomLevel:1;
-        unsigned int has_zoomLevel:1;
-        unsigned int has_mapType:1;
-        unsigned int has_viewMode:1;
-        unsigned int has_isAdvancedMap:1;
-        unsigned int has_isGlobeProjection:1;
-        unsigned int has_watchProximityRadiusOn:1;
-    } _flags;
 }
 
-+ (_Bool)pportExpertPartner:(id)arg1;
++ (_Bool)setHasSupportExpertPartner:(id)arg1;
 - (id);
 - (id);
 - (_Bool);
@@ -45,7 +26,7 @@
 - (int);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (_Bool);
 - (void);
@@ -53,26 +34,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)eworks/ImageIO.framework/Versions/A/ImageIO;
 - (void);
-- (id);
+- (id)!;
+- (int);
+- (void)operatingWeekdays;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (int);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)tsWithinRange:(struct _NSZone *)arg1;
+- (void)%s%o;
+- (void)preITN_nBestResults;
+- (id)supportPointsWithinRange:(struct _NSZone *)arg1;
 - (id)_hasAnyAmenities;
 - (double)Ø;
 - (double)TV´ôõdV´`ötV´ÌöV´8÷V´¨÷¤V´ø´V´øÄV´ìøÔV´XùäV´ÄùôV´0úW´úW´û$W´|û4W´èûDW´XüTW´ÈüdW´8ýtW´¤ýW´þW´þ¤W´ðþ´W´`ÿÄW´ÐÿÔW´<;
@@ -90,25 +71,7 @@
 - (_Bool)8;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAdvancedMap;
-@property(nonatomic) _Bool hasIsGlobeProjection;
 @property(readonly, nonatomic) _Bool hasMapRegion;
-@property(nonatomic) _Bool hasMapType;
-@property(nonatomic) _Bool hasPitch;
-@property(nonatomic) _Bool hasStyleZoomLevel;
-@property(nonatomic) _Bool hasViewMode;
-@property(nonatomic) _Bool hasWatchProximityRadiusOn;
-@property(nonatomic) _Bool hasZoomLevel;
-@property(nonatomic) _Bool isAdvancedMap;
-@property(nonatomic) _Bool isGlobeProjection;
-@property(retain, nonatomic) GEOMapRegion *mapRegion;
-@property(nonatomic) int mapType;
-@property(nonatomic) double pitch;
-@property(nonatomic) double styleZoomLevel;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int viewMode;
-@property(nonatomic) _Bool watchProximityRadiusOn;
-@property(nonatomic) double zoomLevel;
 
 @end
 

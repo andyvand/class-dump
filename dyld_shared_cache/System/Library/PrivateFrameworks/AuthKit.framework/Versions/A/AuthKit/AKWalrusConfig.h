@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AKWalrusConfig
 {
     long long _featureStatus;
-    NSString *_localizedStatusDescription;
 }
 
 - (void);
@@ -17,11 +14,10 @@
 - (id);
 - (long long);
 - (id);
-- (void)ContextCreate;
+- (void)AKSimpleProfileContextCreate;
 
 // Remaining properties
 @property(nonatomic) long long featureStatus; // @synthesize featureStatus=_featureStatus;
-@property(retain, nonatomic) NSString *localizedStatusDescription; // @synthesize localizedStatusDescription=_localizedStatusDescription;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface MSVSystemDialogManager
 {
     struct __CFDictionary *_registeredSystemDialogs;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
@@ -20,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)[;
 
 @end
 

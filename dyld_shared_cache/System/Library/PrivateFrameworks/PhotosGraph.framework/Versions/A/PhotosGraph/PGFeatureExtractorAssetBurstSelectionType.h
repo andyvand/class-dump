@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)StartQuestionFactory;
+- (id)removeEntriesForKeyStringsNotIncludedIn:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGSharedLibraryStartQuestionFactory;
 
 @end
 

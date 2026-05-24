@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AppStoreKit.OnDevicePersonalizationData
 {
     void appId;
-    void userSegments;
-    double onDeviceSignals;
 }
 
-- (id);
+- (id)3o;
 - (double);
 - (id);
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *appId;
-@property(nonatomic, readonly) double onDeviceSignals; // @synthesize onDeviceSignals;
-@property(nonatomic, readonly) NSArray *userSegments;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIBucket
 {
     NSMutableDictionary *_publicProperties;
-    _Bool _contentsHaveInvalidState;
-    unsigned int _windowID;
-    NSMutableDictionary *_state;
-    NSString *_frameString;
-    long long _windowNumber;
 }
 
 - (long long);
@@ -24,33 +19,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (unsigned int);
-- (void);
+- (_Bool)r session %@ with identifier %@;
+- (void);
+- (unsigned int)ot ICI instruction, count=%llu;
+- (void)ies = %p };
 - (id);
 - (_Bool);
 - (void);
 - (unsigned int);
 - (id);
-- (_Bool)eens;
+- (_Bool)targetScreens;
 - (void);
 
 // Remaining properties
-@property(setter=_setContentsHaveInvalidRestorableState:) _Bool _contentsHaveInvalidRestorableState;
-@property(readonly) unsigned int _persistentUIWindowID;
-@property(readonly) _Bool _shouldRecordPersistentState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *frameString; // @synthesize frameString=_frameString;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSMutableDictionary *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly) unsigned int windowID; // @synthesize windowID=_windowID;
-@property long long windowNumber; // @synthesize windowNumber=_windowNumber;
 
 @end
 

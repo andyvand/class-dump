@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (void);
-- (void);
++ (id)[;
+- (void)|;
+- (void)|;
 - (_Bool);
 - (id);
-- (_Bool)lectionChange;
+- (_Bool)_disableUpdateColorOnTraitCollectionChange;
 
 @end
 

@@ -6,7 +6,6 @@
 
 #import <BackBoardServices/BKSHIDEventDeferringConstraintAssertion.h>
 
-@class BKSHIDEventDeferringChangeBasis, BKSHIDEventDeferringConstraint, BKSHIDEventDeferringSelectionTarget;
 @protocol BKSHIDEventDeferringSelectionPathSymbol;
 
 @interface BKSMutableHIDEventDeferringConstraintAssertion : BKSHIDEventDeferringConstraintAssertion
@@ -21,11 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) BKSHIDEventDeferringChangeBasis *basis; // @dynamic basis;
-@property(retain, nonatomic) BKSHIDEventDeferringConstraint *constraint; // @dynamic constraint;
 @property(retain, nonatomic) id <BKSHIDEventDeferringSelectionPathSymbol> pathIdentifier; // @dynamic pathIdentifier;
-@property(retain, nonatomic) BKSHIDEventDeferringSelectionTarget *selectionTarget; // @dynamic selectionTarget;
-@property(nonatomic) double timestamp; // @dynamic timestamp;
 
 @end
 

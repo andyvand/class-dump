@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCCloudContext, FCCommandQueue, FCKeyValueStore, FCPushNotificationCenter, NSArray, NSDate, NSHashTable, NSString;
-
 @interface FCPrivateDataController
 {
     _Bool _waitingForFirstSync;
-    _Bool _preparedForUse;
-    _Bool _syncingEnabled;
-    FCPushNotificationCenter *_pushNotificationCenter;
-    NSString *_storeDirectory;
-    FCCommandQueue *_commandQueue;
-    NSArray *_syncManagers;
-    FCAsyncSerialQueue *_syncQueue;
-    NSHashTable *_stateObservers;
-    FCCloudContext *_context;
-    NSHashTable *_observers;
-    FCKeyValueStore *_localStore;
 }
 
 + (_Bool);
@@ -31,7 +18,7 @@
 + (_Bool);
 + (void);
 + (id);
-+ (long long);
++ (long long)_pushOntoCompositionControllerStack;
 + (_Bool);
 + (unsigned long long);
 + (void);
@@ -51,15 +38,15 @@
 - (void);
 - (void);
 - (void);
+- (void)[;
+- (void);
+- (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)_predictionsViewModel;
 - (void);
 - (double);
 - (void);
@@ -67,46 +54,32 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);;
 - (_Bool);
 - (id);
+- (void)ffer withFramebuffer:(_Bool)arg1 ];
+- (id);
+- (id);
+- (id);
+- (_Bool)instanceMethodSignatureForSelector: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (id);
 - (_Bool);
+- (id)NSExtensionPrincipalClass;
 - (void);
-- (_Bool);
+- (void)o fire observers for %@ :%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (id)_addressBook;
 - (id)!!ü@ùÑ(	Ð1Â0@ù
 × ;
 - (void);
 - (void)tation];
-- (id)ncurrent;
+- (id)concurrent;
 - (id)µ;
 
 // Remaining properties
-@property(readonly, nonatomic) FCCloudContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDirty) _Bool dirty;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) FCKeyValueStore *localStore; // @synthesize localStore=_localStore;
-@property(readonly, nonatomic) NSDate *modificationDate;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly, nonatomic) NSArray *recordNamesPendingSaveToCloud;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSyncingEnabled) _Bool syncingEnabled; // @synthesize syncingEnabled=_syncingEnabled;
-@property(readonly, getter=isWaitingForFirstSync) _Bool waitingForFirstSync;
+@property(readonly, nonatomic, getter=isSyncingEnabled) _Bool syncingEnabled;
 
 @end
 

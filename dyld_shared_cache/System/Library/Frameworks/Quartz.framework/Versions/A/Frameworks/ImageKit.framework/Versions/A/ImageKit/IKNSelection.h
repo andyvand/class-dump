@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, IKNImageViewHandler;
-
 @interface IKNSelection
 {
     struct CGRect _inchRect;
-    struct CGPoint _inchPosition;
-    struct CGPoint _anchor;
-    double _rotationAngle;
-    IKNImageViewHandler *_handler;
-    CAShapeLayer *_layer;
-    CAShapeLayer *_whitelayer;
-    CAShapeLayer *_dashedlayer;
-    CALayer *_patch;
-    CALayer *_patchOverlay;
-    CALayer *_orientationOverlay;
-    struct CGPath *_path;
-    struct CGPath *_clippedPath;
-    _Bool _selected;
-    _Bool _shouldClipToImageRect;
-    struct CGPoint _startPosition;
-    struct IKHandleInfo _handleInfo;
-    long long _selectionState;
-    double _percentDone;
 }
 
 - (void);
@@ -39,20 +19,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)/;
 - (struct CGRect);
 - (long long);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (struct CGPoint);
@@ -68,43 +48,33 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)parseFileHandle:(double)arg1 error: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)mailMismatch;
 - (double);
+- (void):type:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)StoryPlaybackProperties;
 - (long long);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)allowsOpeningSafari;
 - (void);
 - (id);
 - (void);
-- (struct CGPoint)tOfItemAtIndex: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)snapshotOfItemAtIndex: /* Error: Ran out of types for this method. */;
 - (void)_Color_Right]-(>=8@200)-|;
 - (_Bool)ramework/Versions/A/Resources/QuestionMark.pdf;
 - (void)s;
 
 // Remaining properties
-@property struct CGPoint anchor; // @synthesize anchor=_anchor;
-@property(readonly) struct IKHandleInfo handleInfo; // @synthesize handleInfo=_handleInfo;
-@property IKNImageViewHandler *handler; // @synthesize handler=_handler;
-@property(nonatomic) struct CGPoint inchPosition; // @synthesize inchPosition=_inchPosition;
 @property(nonatomic) struct CGRect inchRect; // @synthesize inchRect=_inchRect;
-@property CAShapeLayer *layer; // @synthesize layer=_layer;
-@property(nonatomic) double percentDone; // @synthesize percentDone=_percentDone;
-@property(nonatomic) double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property long long selectionState; // @synthesize selectionState=_selectionState;
-@property _Bool shouldClipToImageRect; // @synthesize shouldClipToImageRect=_shouldClipToImageRect;
 
 @end
 

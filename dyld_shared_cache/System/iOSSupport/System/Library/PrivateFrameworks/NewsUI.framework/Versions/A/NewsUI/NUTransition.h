@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NUTransition
 {
     CDUnknownBlockType _completion;
 }
 
 + (id);
+- (void)KIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/kit/TSKHighlightArrayController.m;
+- (CDUnknownBlockType)dd}80@96;
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void)LikeForArticleWithID:(id)arg1;
+- (void)toggleLikeForArticleWithID:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

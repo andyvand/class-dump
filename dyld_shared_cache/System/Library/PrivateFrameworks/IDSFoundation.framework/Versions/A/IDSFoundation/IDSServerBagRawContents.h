@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate;
+@class NSDate;
 
 @interface IDSServerBagRawContents
 {
     NSDate *_loadDate;
-    NSDate *_expirationDate;
-    double _timeToLive;
-    NSData *_serverSignature;
-    NSArray *_serverCerts;
-    NSData *_signedBag;
 }
 
 - (id);
@@ -28,12 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly, nonatomic) NSDate *loadDate; // @synthesize loadDate=_loadDate;
-@property(readonly, nonatomic) NSArray *serverCerts; // @synthesize serverCerts=_serverCerts;
-@property(readonly, nonatomic) NSData *serverSignature; // @synthesize serverSignature=_serverSignature;
-@property(readonly, nonatomic) NSData *signedBag; // @synthesize signedBag=_signedBag;
-@property(readonly, nonatomic) double timeToLive; // @synthesize timeToLive=_timeToLive;
 
 @end
 

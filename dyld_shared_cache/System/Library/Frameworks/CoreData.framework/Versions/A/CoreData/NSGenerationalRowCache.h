@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSPersistentStore, NSPersistentStoreCache;
+@class NSPersistentStore;
 
 __attribute__((visibility("hidden")))
 @interface NSGenerationalRowCache
 {
     NSPersistentStore *_store;
-    NSPersistentStoreCache *_primaryCache;
-    NSMutableDictionary *_rowCachesByGenerationToken;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);

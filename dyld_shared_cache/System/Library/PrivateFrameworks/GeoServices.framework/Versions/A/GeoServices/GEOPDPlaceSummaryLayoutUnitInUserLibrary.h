@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)setIncidentsOnRoutes:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void){private}@;
 - (unsigned long long);
+- (_Bool)1;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)P;
 - (id)d_proactiveAppClipURL"b1"read_proactiveRoutingURL"b1"read_problemCategoriesURL"b1"read_problemOptInURL"b1"read_problemStatusURL"b1"read_problemSubmissionURL"b1"read_rapWebBundleURL"b1"read_realtimeTrafficProbeURL"b1"read_resourcesURL"b1"read_reverseGeocoderVersionsURL"b1"read_searchAttributionManifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_tokenAuthenticationURL"b1"read_ugcLogDiscardURL"b1"read_webModuleBaseURL"b1"read_wifiConnectionQualityProbeURL"b1"read_wifiQualityTileURL"b1"read_wifiQualityURL"b1"wrote_anyField"b1};
-- (id)etionHandler: /* Error: Ran out of types for this method. */;
+- (id)_loadImmediateResources:conditionalWifiResources:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)P\8]^D^;
-- (id)aw_identifier;
+- (id)warsaw_identifier;
 
 @end
 

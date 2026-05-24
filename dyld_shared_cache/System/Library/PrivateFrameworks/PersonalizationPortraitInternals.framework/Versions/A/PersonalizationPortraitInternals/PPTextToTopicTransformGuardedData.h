@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPTopicTransform, _PASCFBurstTrie;
+@class _PASCFBurstTrie;
 
 @interface PPTextToTopicTransformGuardedData
 {
     _PASCFBurstTrie *_vocabularyTrie;
-    PPTopicTransform *_topicTransform;
 }
 
 - (void)0@ù

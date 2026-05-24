@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CMMAdditions)
-- (_Bool);
+- (_Bool)z;
 @end
 

@@ -6,41 +6,29 @@
 
 #import <ChatKit/CKAcknowledgmentBalloonView.h>
 
-@class NSString, UIView;
-@protocol CKGradientReferenceView;
+@class NSString;
 
 @interface CKAggregateAcknowledgmentBalloonView : CKAcknowledgmentBalloonView
 {
     id forcesMaterialBackground;
-    id tapbackPlatters;
-    id bottomPeekPlatter;
-    id viewModel;
-    id hidesContent;
-    _Bool hidesFirstTapbackTail;
-    id _isFadedOut;
-    id wantsBorderDestOut;
-    id wantsMaterialBackground;
-    void gradientReferenceView;
-    _Bool invertTailDirection;
-    BOOL gradientColor;
-    BOOL solidColor;
 }
 
 - (void);
 - (void);
 - (BOOL);
 - (void);
+- (void)Z8GGJI8ydD8GG;
+- (void);
+- (void)f;
+- (void)t;
+- (void)otesWelcomeViewController.swift;
+- (_Bool)atch triggering coalesced mention notification for %@, expecting %@;
+- (_Bool)black;
+- (_Bool)appearancesToPreviewImages objectForKey:appearanceInfo] == ((void*)0) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)TS
+;
 - (void);
 - (void);
 - (BOOL);
@@ -57,12 +45,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic) BOOL gradientColor; // @synthesize gradientColor;
-@property(nonatomic) __weak UIView<CKGradientReferenceView> *gradientReferenceView; // @synthesize gradientReferenceView;
-@property(nonatomic) _Bool hidesFirstTapbackTail; // @synthesize hidesFirstTapbackTail;
-@property(nonatomic) _Bool invertTailDirection; // @synthesize invertTailDirection;
-@property(nonatomic) _Bool isFadedOut;
-@property(nonatomic) BOOL solidColor; // @synthesize solidColor;
 
 @end
 

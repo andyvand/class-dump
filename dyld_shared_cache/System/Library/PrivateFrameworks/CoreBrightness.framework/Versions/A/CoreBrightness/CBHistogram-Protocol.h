@@ -7,9 +7,10 @@
 @class NSArray, NSMutableArray;
 
 @protocol CBHistogram
+- (NSMutableArray *);
+- (NSArray *);
 
 // Remaining properties
 @property(readonly) NSMutableArray *bins;
-@property(readonly) NSArray *edges;
 @end
 

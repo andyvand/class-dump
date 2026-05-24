@@ -10,13 +10,10 @@ __attribute__((visibility("hidden")))
 @interface FigCaptureFlatPlistArray
 {
     FigCaptureFlatPlist *_flatPlist;
-    const CDStruct_e993e376 *_bplist;
-    unsigned long long _offset;
-    unsigned long long _count;
 }
 
 - (id);
-- (void);
+- (void)iterate;
 - (id);
 - (unsigned long long)tíÿ¨sîÿºrîÿÉpíÿÚmíÿëkëÿùgäÿÿeÜÿÿdÔÿÿdÌÿÿfÃÿÿi»ÿÿl¶ÿÿp±ÿÿt®ÿÿx«ÿ;
 

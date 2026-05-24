@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMDCollaborationNoticeRateLimiter
 {
     NSObject<OS_dispatch_queue> *_persistenceQueue;
-    NSMutableDictionary *_noticeEventHistory;
 }
 
 + (long long);
 + (long long);
-+ (long long);
-+ (id);
++ (long long);
++ (id).;
 + (id);
 - (id);
 - (id);
@@ -31,7 +30,6 @@
 - (void)ð()ÿA3;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *noticeEventHistory; // @synthesize noticeEventHistory=_noticeEventHistory;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *persistenceQueue; // @synthesize persistenceQueue=_persistenceQueue;
 
 @end

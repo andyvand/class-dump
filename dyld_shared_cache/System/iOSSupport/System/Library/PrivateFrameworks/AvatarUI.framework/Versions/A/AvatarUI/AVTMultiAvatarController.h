@@ -4,38 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarListCell, AVTAvatarRecordDataSource, AVTCarouselPlusButtonView, AVTCenteringCollectionViewDelegate, AVTRenderingScope, AVTTransitionCoordinator, AVTUIEnvironment, AVTViewSession, AVTZIndexEngagementListCollectionViewLayout, NSArray, NSNumber, NSString, UICollectionView, UIView, _AVTAvatarRecordImageProvider;
-@protocol AVTAvatarDisplayingControllerDelegate, AVTAvatarListItem, AVTAvatarRecord, AVTPresenterDelegate, AVTUILogger, AVTViewCarouselLayout;
+@class UIView;
 
 @interface AVTMultiAvatarController
 {
     _Bool _allowsCreate;
-    _Bool _hideImageForDisplayedRecord;
-    id <AVTAvatarDisplayingControllerDelegate> delegate;
-    id <AVTPresenterDelegate> presenterDelegate;
-    double _decelerationRate;
-    AVTRenderingScope *_renderingScope;
-    UIView *_view;
-    UICollectionView *_collectionView;
-    AVTZIndexEngagementListCollectionViewLayout *_collectionViewLayout;
-    AVTCenteringCollectionViewDelegate *_centeringDelegate;
-    NSArray *_recordListItems;
-    AVTViewSession *_avtViewSession;
-    AVTCarouselPlusButtonView *_addItemView;
-    id <AVTAvatarListItem> _addListItem;
-    id <AVTAvatarRecord> _displayedRecord;
-    AVTAvatarListCell *_liveCell;
-    NSNumber *_cachedCanCreateValue;
-    AVTTransitionCoordinator *_transitionCoordinator;
-    AVTAvatarRecordDataSource *_dataSource;
-    AVTUIEnvironment *_environment;
-    id <AVTUILogger> _logger;
-    _AVTAvatarRecordImageProvider *_thumbnailRenderer;
-    id <AVTViewCarouselLayout> _avtViewLayout;
-    struct CGPoint _lastContentOffset;
 }
 
-+ (id);
++ (id)@C;
 + (id);
 + (id);
 - (void);
@@ -114,62 +90,33 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)?	;
+- (void)u
+;
 - (struct CGPoint);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (id),N,V_process;
+- (void)searchAgent;
+- (void)errorMessagesWrapper;
+- (void)xelFormat.swift;
 - (id);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
-- (id)yButtonConfiguration;
-- (id)ectViewController;
-- (id)Ended;
+- (id)grayButtonConfiguration;
+- (id)AVTObjectViewController;
+- (id)SessionEnded;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVTCarouselPlusButtonView *addItemView; // @synthesize addItemView=_addItemView;
-@property(retain, nonatomic) id <AVTAvatarListItem> addListItem; // @synthesize addListItem=_addListItem;
-@property(nonatomic) _Bool allowsCreate; // @synthesize allowsCreate=_allowsCreate;
-@property(retain, nonatomic) id <AVTViewCarouselLayout> avtViewLayout; // @synthesize avtViewLayout=_avtViewLayout;
-@property(retain, nonatomic) AVTViewSession *avtViewSession; // @synthesize avtViewSession=_avtViewSession;
-@property(nonatomic) NSNumber *cachedCanCreateValue; // @synthesize cachedCanCreateValue=_cachedCanCreateValue;
-@property(retain, nonatomic) AVTCenteringCollectionViewDelegate *centeringDelegate; // @synthesize centeringDelegate=_centeringDelegate;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) AVTZIndexEngagementListCollectionViewLayout *collectionViewLayout; // @synthesize collectionViewLayout=_collectionViewLayout;
-@property(readonly, nonatomic) AVTAvatarRecordDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double decelerationRate; // @synthesize decelerationRate=_decelerationRate;
-@property(nonatomic) __weak id <AVTAvatarDisplayingControllerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <AVTAvatarRecord> displayedRecord; // @synthesize displayedRecord=_displayedRecord;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideImageForDisplayedRecord; // @synthesize hideImageForDisplayedRecord=_hideImageForDisplayedRecord;
-@property(nonatomic) struct CGPoint lastContentOffset; // @synthesize lastContentOffset=_lastContentOffset;
-@property(retain, nonatomic) AVTAvatarListCell *liveCell; // @synthesize liveCell=_liveCell;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate;
-@property(retain, nonatomic) NSArray *recordListItems; // @synthesize recordListItems=_recordListItems;
-@property(readonly, nonatomic) AVTRenderingScope *renderingScope; // @synthesize renderingScope=_renderingScope;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _AVTAvatarRecordImageProvider *thumbnailRenderer; // @synthesize thumbnailRenderer=_thumbnailRenderer;
-@property(readonly, nonatomic) AVTTransitionCoordinator *transitionCoordinator; // @synthesize transitionCoordinator=_transitionCoordinator;
 @property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end

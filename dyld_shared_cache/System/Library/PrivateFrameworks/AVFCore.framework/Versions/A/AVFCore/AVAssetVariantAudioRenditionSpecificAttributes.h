@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaSelectionOption, FigAlternateObjC;
+@class FigAlternateObjC;
 
 @interface AVAssetVariantAudioRenditionSpecificAttributes
 {
     FigAlternateObjC *_figAlternateObjC;
-    AVMediaSelectionOption *_mediaSelectionOption;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (double);
 - (long long),Jðÿ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isBinaural) _Bool binaural;
 @property(readonly, nonatomic) long long channelCount;
-@property(readonly, nonatomic, getter=isDownmix) _Bool downmix;
-@property(readonly, nonatomic, getter=isImmersive) _Bool immersive;
 
 @end
 

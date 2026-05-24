@@ -6,33 +6,17 @@
 
 #import <AVConference/VCControlChannel.h>
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCControlChannelMultiWay : VCControlChannel
 {
     unsigned int _transportSessionID;
-    int _vfdMessage;
-    int _vfdCancel;
-    _Bool _isRunning;
-    struct _opaque_pthread_t *_pidReceiveProc;
-    NSMutableDictionary *_dialogs;
-    NSMutableDictionary *_activeParticipants;
-    _Bool _isEncryptionEnabled;
-    NSMutableDictionary *_cryptors;
-    void *_currentSendMKI;
-    void *_currentReceiveMKI;
-    NSObject<OS_dispatch_queue> *_sequentialKeyMaterialQueue;
-    long long _transactionID;
-    _Bool _didSubmitCCReliableDataNotReceivedSymptom;
 }
 
 + (id);
 - (int);
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (unsigned int);
@@ -44,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -64,7 +48,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)/;
 - (void);
 - (void);
 - (void);
@@ -75,30 +59,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)н;
 - (void);
 - (_Bool)ÜQÔjXm8n0rs;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableDictionary *dialogs; // @synthesize dialogs=_dialogs;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isEncryptionEnabled; // @synthesize isEncryptionEnabled=_isEncryptionEnabled;
-@property(readonly) _Bool isRunning; // @synthesize isRunning=_isRunning;
-@property(readonly, nonatomic) unsigned long long nextTransactionID;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned int transportSessionID; // @synthesize transportSessionID=_transportSessionID;
-@property(nonatomic) int vfdCancel; // @synthesize vfdCancel=_vfdCancel;
-@property(nonatomic) int vfdMessage; // @synthesize vfdMessage=_vfdMessage;
 
 @end
 

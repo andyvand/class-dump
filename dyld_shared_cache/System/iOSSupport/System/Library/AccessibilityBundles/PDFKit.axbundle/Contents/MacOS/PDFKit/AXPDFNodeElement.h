@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFPage, PDFView;
+@class PDFView;
 
 @interface AXPDFNodeElement
 {
     PDFView *_pdfView;
     _Bool _didDetermineLastNodeStatus;
-    _Bool _isLastNodeInPage;
-    int _type;
-    PDFPage *_page;
 }
 
 - (void);
@@ -27,15 +24,13 @@
 - (id);
 - (id);
 - (id);
-- (int);
+- (int)";
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool didDetermineLastNodeStatus; // @synthesize didDetermineLastNodeStatus=_didDetermineLastNodeStatus;
 @property(nonatomic) _Bool isLastNodeInPage; // @synthesize isLastNodeInPage=_isLastNodeInPage;
-@property(nonatomic) __weak PDFPage *page; // @synthesize page=_page;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

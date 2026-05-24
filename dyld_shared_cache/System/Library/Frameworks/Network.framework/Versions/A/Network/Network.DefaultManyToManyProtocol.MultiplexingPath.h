@@ -7,12 +7,6 @@
 @interface Network.DefaultManyToManyProtocol.MultiplexingPath
 {
     id flags;
-    id _currentPathEvent;
-    id pendingOutputFrames;
-    id parentProtocol;
-    id identifier;
-    id outputLinkage;
-    id selfAsInputLinkage;
 }
 
 @end

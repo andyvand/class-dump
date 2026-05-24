@@ -14,9 +14,9 @@
 + (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct CGPoint);
@@ -24,15 +24,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool fromDragToInsertController;
 @property(readonly, nonatomic) _Bool hasPreferredCenter;
-@property(readonly, nonatomic) _Bool insertFloating;
-@property(readonly, nonatomic) _Bool insertFromDrag;
-@property(readonly, nonatomic) _Bool insertWillBeDiscarded;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) struct CGPoint preferredCenter;
-@property(readonly, nonatomic, getter=isPreferredCenterRequired) _Bool preferredCenterRequired;
-@property(readonly, nonatomic) _Bool shouldEndEditing;
 
 @end
 

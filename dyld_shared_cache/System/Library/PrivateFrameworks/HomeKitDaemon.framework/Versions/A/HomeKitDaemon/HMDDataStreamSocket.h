@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDataStreamStreamProtocol, NSMutableArray, NSObject, NSString;
-@protocol HMDDataStreamSocketDelegate, OS_dispatch_queue;
+@class HMDDataStreamStreamProtocol;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamSocket
 {
     struct os_unfair_lock_s _lock;
-    _Bool _closing;
-    _Bool _closed;
-    NSString *_applicationProtocolName;
-    id <HMDDataStreamSocketDelegate> _delegate;
-    unsigned long long _trafficClass;
-    HMDDataStreamStreamProtocol *_streamProtocol;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableArray *_pendingReads;
 }
 
 + (id)ÕB;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)a;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)PGPlaceZeroKeywordGenerator;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)!;
+- (void)setRelativeAppUsage1Day:(_Bool)arg1;
 - (void);
 - (void);
 - (void);
@@ -46,21 +37,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)@;
 
 // Remaining properties
-@property(readonly) NSString *applicationProtocolName; // @synthesize applicationProtocolName=_applicationProtocolName;
-@property(nonatomic, getter=isClosed) _Bool closed; // @synthesize closed=_closed;
-@property(nonatomic, getter=isClosing) _Bool closing; // @synthesize closing=_closing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDDataStreamSocketDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSMutableArray *pendingReads; // @synthesize pendingReads=_pendingReads;
 @property(readonly) __weak HMDDataStreamStreamProtocol *streamProtocol; // @synthesize streamProtocol=_streamProtocol;
-@property(readonly) Class superclass;
-@property unsigned long long trafficClass; // @synthesize trafficClass=_trafficClass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

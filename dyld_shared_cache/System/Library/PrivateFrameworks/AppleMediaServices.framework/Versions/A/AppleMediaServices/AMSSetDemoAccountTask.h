@@ -6,14 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccountStore, AMSProcessInfo, NSString;
+@class ACAccountStore;
 
 @interface AMSSetDemoAccountTask : AMSTask
 {
     ACAccountStore *_accountStore;
-    AMSProcessInfo *_clientInfo;
-    NSString *_password;
-    NSString *_username;
 }
 
 - (id);
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(readonly) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(retain) NSString *password; // @synthesize password=_password;
-@property(retain) NSString *username; // @synthesize username=_username;
 
 @end
 

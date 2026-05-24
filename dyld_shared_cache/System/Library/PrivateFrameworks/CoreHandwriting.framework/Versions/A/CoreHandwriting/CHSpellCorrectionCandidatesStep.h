@@ -6,14 +6,11 @@
 
 #import <CoreHandwriting/CHPostprocessingStep.h>
 
-@class CHSpellChecker, NSLocale;
+@class NSLocale;
 
 @interface CHSpellCorrectionCandidatesStep : CHPostprocessingStep
 {
     NSLocale *_locale;
-    CHSpellChecker *_spellChecker;
-    struct _LXLexicon *_staticLexicon;
-    struct _LXLexicon *_customLexicon;
 }
 
 - (id);

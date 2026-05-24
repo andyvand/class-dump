@@ -6,6 +6,10 @@
 
 @protocol SVVideoEventTracker
 
+@optional
+- (void);
+- (void)8;
+
 // Remaining properties
 @property(readonly, nonatomic) double impressionThreshold;
 // Preceding property had unknown attributes: ?

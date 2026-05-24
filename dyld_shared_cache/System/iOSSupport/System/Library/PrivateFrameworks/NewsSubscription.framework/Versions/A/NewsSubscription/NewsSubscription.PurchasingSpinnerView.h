@@ -7,13 +7,10 @@
 @interface NewsSubscription.PurchasingSpinnerView
 {
     id titleLabel;
-    id spinner;
-    id purchasingSpinnerView;
-    id purchasingScrim;
 }
 
 - (id);
-- (id);
+- (id)BuildRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDGPUVoronoiTriangleData.mm;
 - (id);
 - (void);
 

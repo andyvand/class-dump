@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PHMediaProcessingAlgorithmVersionProvider
 {
     short _sceneAnalysisVersion;
-    short _faceAnalysisVersion;
-    short _characterRecognitionAlgorithmVersion;
-    short _visualSearchAlgorithmVersion;
-    short _stickerConfidenceAlgorithmVersion;
-    short _vaAnalysisVersion;
-    short _vaLocationAnalysisVersion;
-    short _mediaAnalysisImageVersion;
-    short _captionGenerationVersion;
-    short _imageEmbeddingVersion;
-    short _videoEmbeddingVersion;
-    short _videoSensitivityAnalysisVersion;
-    short _textUnderstandingAlgorithmVersion;
-    short _textUnderstandingGatingVersion;
-    unsigned long long _mediaAnalysisVersion;
 }
 
 - (short);
@@ -30,15 +14,15 @@
 - (short);
 - (short);
 - (short);
+- (short)@ !m;
 - (short);
-- (short);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
@@ -48,7 +32,8 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (short);
+- (short)k
+;
 - (id);
 - (id);
 - (id);
@@ -61,34 +46,13 @@
 - (short);
 - (short);
 - (short);
-- (short);
+- (short)_thresholdPixelStripIn:withImageLenth:thresholdValue:startingPtr:withThresholdLength: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)voipApplicationControllerConnection;
 
 // Remaining properties
-@property short captionGenerationVersion; // @synthesize captionGenerationVersion=_captionGenerationVersion;
-@property short characterRecognitionAlgorithmVersion; // @synthesize characterRecognitionAlgorithmVersion=_characterRecognitionAlgorithmVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property short faceAnalysisVersion; // @synthesize faceAnalysisVersion=_faceAnalysisVersion;
-@property(readonly) unsigned long long hash;
-@property short imageEmbeddingVersion; // @synthesize imageEmbeddingVersion=_imageEmbeddingVersion;
-@property short mediaAnalysisImageVersion; // @synthesize mediaAnalysisImageVersion=_mediaAnalysisImageVersion;
-@property unsigned long long mediaAnalysisVersion; // @synthesize mediaAnalysisVersion=_mediaAnalysisVersion;
 @property short sceneAnalysisVersion; // @synthesize sceneAnalysisVersion=_sceneAnalysisVersion;
-@property short stickerConfidenceAlgorithmVersion; // @synthesize stickerConfidenceAlgorithmVersion=_stickerConfidenceAlgorithmVersion;
-@property(readonly) Class superclass;
-@property short textUnderstandingAlgorithmVersion; // @synthesize textUnderstandingAlgorithmVersion=_textUnderstandingAlgorithmVersion;
-@property short textUnderstandingGatingVersion; // @synthesize textUnderstandingGatingVersion=_textUnderstandingGatingVersion;
-@property short vaAnalysisVersion; // @synthesize vaAnalysisVersion=_vaAnalysisVersion;
-@property short vaLocationAnalysisVersion; // @synthesize vaLocationAnalysisVersion=_vaLocationAnalysisVersion;
-@property short videoEmbeddingVersion; // @synthesize videoEmbeddingVersion=_videoEmbeddingVersion;
-@property short videoSensitivityAnalysisVersion; // @synthesize videoSensitivityAnalysisVersion=_videoSensitivityAnalysisVersion;
-@property short visualSearchAlgorithmVersion; // @synthesize visualSearchAlgorithmVersion=_visualSearchAlgorithmVersion;
 
 @end
 

@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TBrowserViewContainerController, FI_TSidebarViewController, FI_TSplitView, NSSplitViewItem, NSStackView, NSView;
+@class NSSplitViewItem;
 
 __attribute__((visibility("hidden")))
 @interface FI_TSidebarSplitViewController
 {
     NSSplitViewItem *_sidebarSplitViewItem;
-    FI_TSidebarViewController *_sidebarViewController;
-    double _sidebarColumnWidthCache;
-    _Bool _snapToOptimalSidebarWidth;
-    NSSplitViewItem *_browserSplitViewItem;
-    NSStackView *_stackView;
-    long long _mediaBrowserShownTypes;
-    _Bool _bumpedIn;
-    struct TNotificationCenterObserver _sidebarPreferredScrollerStyleObserver;
-    _Bool _isSidebarCollapsed;
-    _Bool _isExpanded;
-    _Bool _springLoaded;
-    _Bool _isAnimating;
-    int _sidebarStateBeforeCollapse;
-    FI_TBrowserViewContainerController *_browserViewContainerController;
-    NSView *_topView;
-    NSView *_bottomView;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (id);
@@ -46,13 +30,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct TFENode);
 - (void);
-- (void);
-- (void);
+- (void)ӋJ-
++;
+- (void);
 - (struct CGImage *);
 - (struct CGImage *);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -61,13 +46,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)b;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)+;
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -81,16 +66,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ,H;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *bottomView; // @synthesize bottomView=_bottomView;
-@property(readonly, retain) NSView *browserColumnView;
-@property(readonly, retain) FI_TBrowserViewContainerController *browserViewContainerController; // @synthesize browserViewContainerController=_browserViewContainerController;
-@property(readonly, nonatomic) _Bool isSidebarColumnCollapsed;
 @property(readonly, nonatomic) NSSplitViewItem *sidebarSplitViewItem;
-@property(readonly, retain) FI_TSidebarViewController *sidebarViewController;
-@property(retain) FI_TSplitView *splitView; // @dynamic splitView;
-@property(nonatomic, getter=isSpringLoaded) _Bool springLoaded; // @synthesize springLoaded=_springLoaded;
-@property(readonly, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain, nonatomic) NSView *topView; // @synthesize topView=_topView;
 
 @end
 

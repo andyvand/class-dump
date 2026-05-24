@@ -9,28 +9,22 @@
 @interface PXGridSettings : PXSettings
 {
     _Bool _disableSelectionOverlayView;
-    _Bool _simulateLongTitles;
-    long long _weightingScheme;
-    long long _simulatedNumberOfLocations;
 }
 
 + (id)MßQ$¬: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)H;
 - (_Bool);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)meworks/WebKit.framework/Versions/A/WebKit;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool disableSelectionOverlayView; // @synthesize disableSelectionOverlayView=_disableSelectionOverlayView;
-@property(nonatomic) _Bool simulateLongTitles; // @synthesize simulateLongTitles=_simulateLongTitles;
-@property(nonatomic) long long simulatedNumberOfLocations; // @synthesize simulatedNumberOfLocations=_simulatedNumberOfLocations;
-@property(nonatomic) long long weightingScheme; // @synthesize weightingScheme=_weightingScheme;
 
 @end
 

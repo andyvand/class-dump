@@ -4,38 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSSet, NSString, NSTimeZone;
+@class NSNumber;
 
 @interface CLSManagedPublicEvent
 {
 }
 
-+ (id)nceThresholdForSimilarity:withSimilarityModelVersion: /* Error: Ran out of types for this method. */;
++ (id)distanceThresholdForSimilarity:withSimilarityModelVersion: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
-- (id)alLookupDelay;
+- (id)spatialLookupDelay;
 
 // Remaining properties
-@property(nonatomic) double businessItemLatitude; // @dynamic businessItemLatitude;
-@property(nonatomic) double businessItemLongitude; // @dynamic businessItemLongitude;
-@property(nonatomic) unsigned long long businessItemMuid; // @dynamic businessItemMuid;
-@property(retain, nonatomic) NSString *businessItemPlaceID; // @dynamic businessItemPlaceID;
-@property(retain, nonatomic) NSSet *categories; // @dynamic categories;
-@property(nonatomic) long long expectedAttendance;
 @property(retain, nonatomic) NSNumber *expectedAttendanceAsNumber; // @dynamic expectedAttendanceAsNumber;
-@property(retain, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSDate *localEndDate; // @dynamic localEndDate;
-@property(nonatomic) double localEndTime; // @dynamic localEndTime;
-@property(retain, nonatomic) NSDate *localStartDate; // @dynamic localStartDate;
-@property(nonatomic) double localStartTime; // @dynamic localStartTime;
-@property(nonatomic) unsigned long long muid; // @dynamic muid;
-@property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSSet *performers; // @dynamic performers;
-@property(retain, nonatomic) NSSet *queryLocations; // @dynamic queryLocations;
-@property(nonatomic) long long sourceService; // @dynamic sourceService;
-@property(nonatomic) _Bool supportsEventExperience; // @dynamic supportsEventExperience;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
-@property(nonatomic) long long timeZoneOffset; // @dynamic timeZoneOffset;
 
 @end
 

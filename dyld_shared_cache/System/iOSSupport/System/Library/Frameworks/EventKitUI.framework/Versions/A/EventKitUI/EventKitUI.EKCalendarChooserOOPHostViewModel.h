@@ -7,14 +7,10 @@
 @interface EventKitUI.EKCalendarChooserOOPHostViewModel
 {
     id remoteUIConfigured;
-    id _configuration;
-    id layoutDirection;
-    id sizeCategory;
-    id viewHierarchy;
 }
 
 - (id);
-- (void)guration: /* Error: Ran out of types for this method. */;
+- (void)initWithConfiguration: /* Error: Ran out of types for this method. */;
 
 @end
 

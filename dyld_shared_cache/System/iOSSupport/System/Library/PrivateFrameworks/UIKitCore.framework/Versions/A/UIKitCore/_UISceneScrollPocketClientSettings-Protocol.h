@@ -5,11 +5,9 @@
 //
 
 @protocol _UISceneScrollPocketClientSettings
+- (void);
 
 // Remaining properties
-@property(nonatomic) long long bottomScrollPocketLuma;
-@property(nonatomic) long long leftScrollPocketLuma;
-@property(nonatomic) long long rightScrollPocketLuma;
 @property(nonatomic) long long topScrollPocketLuma;
 @end
 

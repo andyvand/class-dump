@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface ECTagValueList
 {
     struct EFAtomicObject _stringRepresentation;
-    NSDictionary *_dictionaryRepresentation;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
++ (id)lScreenIsActive=%i externalPlaybackType=%i isBeingDismissed=%i isReadyToConnect=%i isActive=%i;
++ (id)alPlayback=%i usesExternalPlaybackWhileExternalScreenIsActive=%i externalPlaybackType=%i isBeingDismissed=%i isReadyToConnect=%i isActive=%i;
+- (id)ed! message will be dropped);
+- (id)#;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)*%@*"%@) && _kMDItemBundleID="com.apple.mobilesafari");
+- (void));
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation; // @synthesize dictionaryRepresentation=_dictionaryRepresentation;
-@property(readonly, nonatomic) NSString *stringRepresentation;
 
 @end
 

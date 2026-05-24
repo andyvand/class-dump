@@ -5,5 +5,7 @@
 //
 
 @protocol HMDUserDataControllerDelegate
+- (void);
+- (_Bool);
 @end
 

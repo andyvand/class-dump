@@ -15,11 +15,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)iCDPHSMPlesio;
+- (void)points;
+- (void)completedPoints;
+- (void)@:(id)arg1 %d:(CDUnknownBlockType)arg2 %lf];
+- (void)ntity-creation-identifier;
 - (id);
 - (void)ord data that was compresssed. original data length, %llu, compressed data length, %llu;
 - (id)%@:%@,outputData or clusterRoadData is nil,options,%@,queryResponseTimeMSec,%.2lf /* Error: Ran out of types for this method. */;

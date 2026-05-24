@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
-
 @interface PKBarcodePaymentEvent
 {
     _Bool _biometricsChanged;
-    long long _version;
-    NSDate *_timestamp;
-    unsigned long long _eventType;
-    NSString *_barcodeIdentifier;
-    long long _authenticationType;
-    NSString *_deviceAccountIdentifier;
-    NSData *_eventMetadata;
 }
 
 + (_Bool)X"Ð!ÄCùî%Ð1Â0@ù
@@ -29,29 +20,22 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (long long);
+- (void)j;
+- (long long)5;
 - (id);
+- (id);
+- (unsigned long long);
+- (long long)i@9?;
 - (id);
 - (unsigned long long);
-- (long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)hasDpsNotificationReceivedDuringStudy;
+- (id)hasCallID;
 - (void);
 - (void);
 - (void);
 - (void)ookWidgets;
 
 // Remaining properties
-@property(nonatomic) long long authenticationType; // @synthesize authenticationType=_authenticationType;
-@property(copy, nonatomic) NSString *barcodeIdentifier; // @synthesize barcodeIdentifier=_barcodeIdentifier;
-@property(nonatomic) _Bool biometricsChanged; // @synthesize biometricsChanged=_biometricsChanged;
-@property(copy, nonatomic) NSString *deviceAccountIdentifier; // @synthesize deviceAccountIdentifier=_deviceAccountIdentifier;
-@property(copy, nonatomic) NSData *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end

@@ -7,7 +7,6 @@
 @interface ABMiniGridView
 {
     struct CGSize _cellSize;
-    double _horizontalSpacing;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGSize cellSize; // @synthesize cellSize=_cellSize;
-@property(nonatomic) double horizontalSpacing; // @synthesize horizontalSpacing=_horizontalSpacing;
 
 @end
 

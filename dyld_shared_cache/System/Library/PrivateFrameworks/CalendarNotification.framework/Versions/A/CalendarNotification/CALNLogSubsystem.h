@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)`C;
 + (id)hen pruning side alarms:%@ /* Error: Ran out of types for this method. */;
 
 @end

@@ -8,30 +8,19 @@ __attribute__((visibility("hidden")))
 @interface LSRegistrationInfo
 {
     unsigned int version;
-    unsigned int action;
-    unsigned int options;
-    unsigned int itemFlags;
-    unsigned int containerUnit;
-    unsigned int bundleUnit;
-    unsigned int bundleClass;
-    unsigned long long inoBundle;
-    unsigned long long inoExec;
-    double contentModDate;
-    double executableModDate;
 }
 
-+ (_Bool);
-- (unsigned int);
++ (_Bool)stimationPipelineDescriptor"16;
+- (unsigned int)X;
 - (id);
 - (id);
+- (void)H ;
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int)a;
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int action; // @synthesize action;
-@property(nonatomic) unsigned int version; // @synthesize version;
 
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
-
 @interface NFReaderSessionPollConfig
 {
     _Bool _skipMifareClassify;
-    _Bool _lpcd;
-    _Bool _fieldDetect;
-    _Bool _queryTypeFSystemCodes;
-    unsigned int _technology;
-    unsigned int _pollDuration;
-    NSData *_ecp;
-    NSNumber *_typeFSystemCode;
-    unsigned long long _type;
 }
 
 + (id);
@@ -34,31 +24,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)e mmWebKitViewControllerDidSucceed:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (void);
+- (void)yName:(id)arg1 intentType:supportedSizeClasses:widgetDescription:widgetVisibility: /* Error: Ran out of types for this method. */;
+- (void)rovided path and attributes;
 - (id);
 - (id);
-- (void);
+- (void)c	;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *ecp; // @synthesize ecp=_ecp;
-@property(nonatomic) _Bool fieldDetect; // @synthesize fieldDetect=_fieldDetect;
-@property(nonatomic) _Bool lpcd; // @synthesize lpcd=_lpcd;
-@property(nonatomic) unsigned int pollDuration; // @synthesize pollDuration=_pollDuration;
-@property(nonatomic) _Bool queryTypeFSystemCodes; // @synthesize queryTypeFSystemCodes=_queryTypeFSystemCodes;
-@property(nonatomic) _Bool skipMifareClassify; // @synthesize skipMifareClassify=_skipMifareClassify;
-@property(nonatomic) unsigned int technology; // @synthesize technology=_technology;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSNumber *typeFSystemCode; // @synthesize typeFSystemCode=_typeFSystemCode;
 
 @end
 

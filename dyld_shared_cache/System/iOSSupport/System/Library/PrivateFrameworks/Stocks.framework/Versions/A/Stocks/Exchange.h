@@ -4,49 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface Exchange
 {
     NSString *_name;
-    NSDate *_lastCloseDate;
-    NSDate *_nextOpenDate;
-    long long _status;
-    double _streamInterval;
-    double _lastUpdateTime;
 }
 
 + (id);
-- (double);
+- (double)u;
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)P;
 - (void);
-- (id);
+- (id)K9{;
 - (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (id);
+- (id)kSTStartWorkoutRequestIsOpenGoalKey;
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *lastCloseDate; // @synthesize lastCloseDate=_lastCloseDate;
-@property(readonly, nonatomic) double lastUpdateTime; // @synthesize lastUpdateTime=_lastUpdateTime;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSDate *nextOpenDate; // @synthesize nextOpenDate=_nextOpenDate;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(nonatomic) double streamInterval; // @synthesize streamInterval=_streamInterval;
 
 @end
 

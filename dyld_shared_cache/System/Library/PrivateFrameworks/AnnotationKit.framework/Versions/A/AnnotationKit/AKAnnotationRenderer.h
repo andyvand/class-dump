@@ -12,13 +12,13 @@
 + (struct CGRect);
 + (_Bool);
 + (_Bool);
-+ (struct CGPath *);
++ (struct CGPath *);
 + (_Bool);
 + (struct CGRect);
 + (struct CGSize);
 + (_Bool);
 + (void);
-+ (void);
++ (void);
 + (Class);
 + (id);
 + (struct CGPath *);

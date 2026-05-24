@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebCoreAuthenticationClientAsChallengeSender
 {
@@ -14,10 +12,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
+- (void)j;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_callsNotBackedByGroupSessionsPendingUpgrade;
+- (id);
 - (void *);
 - (void)ct, WTF:(id)arg1:SingleThreadWeakPtrImpl>, std::unique_ptr<WebCore::FilterData>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakRef<WebCore::RenderObject, WTF::SingleThreadWeakPtrImpl>, std::unique_ptr<WebCore::FilterData>>>, HashFunctions = WTF::DefaultHash<WTF::WeakRef<WebCore::RenderObject, WTF::SingleThreadWeakPtrImpl>>, Traits = WTF::HashMap<WTF::WeakRef<WebCore::RenderObject, WTF::SingleThreadWeakPtrImpl>, std::unique_ptr<WebCore::FilterData>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebCore::RenderObject, WTF::SingleThreadWeakPtrImpl>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)64_t>, unsigned long long>, WebCore:(id)arg1:LineRange>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WebCore::LineRange>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WebCore::LineRange>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WebCore::LineRange>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WebCore::LineRange>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::AXIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -27,13 +25,7 @@ __attribute__((visibility("hidden")))
 k£3aàÎão7­m÷âªRè`,*iqbèsäµteióæjïë(açêõ»gïïq$rganéìhprïê«å@@T8à+'÷åzÜôteìðß\éðÇöskinhikaùð®Pó	"lùèb×`Õàh]wåp=`'à7-viäfêXHópâÒðà,orîð÷_ððóleasåpØÒlaùïÕ½îð¬iïïhtáë¯üíðxÓoviåóëm®ïrøicïçôâð½/ackpaçí,®hNáè?rbamáð__tåð3¬î	jÄTbÀûãpconveòì%S®ãÃgíðöàeëdãtìkìmocéïì`,*ðÊo÷mìbÙàdÕpageóð-_®ðõøãdlÌì|°êðÖXackeôpÀ¬à5íhamííÍ--paçâ«!ën©$áøðdheòîB6âðÚáà+ËòðàótoavoéïüÓinhumáåíeèthatóæûa.paìèðæ-íðw-íìc£äððtouòì:ãiÞç /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

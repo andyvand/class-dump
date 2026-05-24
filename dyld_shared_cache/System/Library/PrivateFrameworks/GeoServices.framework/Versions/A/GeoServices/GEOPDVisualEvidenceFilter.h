@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)sFromBrandProfile"b1"read_brandMuids"b1"read_brandRelationshipInfos"b1"read_categoryIds"b1"read_chainId"b1"read_featureMaps"b1"read_geminiBrand"b1"read_prefCategoryIds"b1"read_relatedBrands"b1"read_tokenSet"b1"read_trigger"b1"wrote_anyField"b1};
-- (id)tDirection;
+- (id)_sortDirection;
 - (id)°È;
 - (void)sFZ*ÃJ@;
 

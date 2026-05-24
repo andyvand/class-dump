@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
-@protocol NUArticleDataProviderFactory, NUArticleKeyCommandManager, NUArticlePrefetcherType, NUArticleScrollPositionManagerType, NUDocumentSectionBlueprintProvider, NUSpotlightManager, SXAppStateMonitor, TFResolver;
+@class NSHashTable;
+@protocol NUArticleDataProviderFactory;
 
 @interface NUArticleViewControllerFactory
 {
     NSHashTable *_loadingListeners;
-    id <NUArticleDataProviderFactory> _articleDataProviderFactory;
-    id <SXAppStateMonitor> _appStateMonitor;
-    id <NUArticleKeyCommandManager> _keyCommandManager;
-    id <TFResolver> _resolver;
-    id <NUDocumentSectionBlueprintProvider> _headerBlueprintProvider;
-    id <NUArticlePrefetcherType> _articlePrefetcher;
-    id <NUArticleScrollPositionManagerType> _articleScrollPositionManager;
-    id <NUSpotlightManager> _spotlightManager;
 }
 
 - (id);
@@ -34,22 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXAppStateMonitor> appStateMonitor; // @synthesize appStateMonitor=_appStateMonitor;
 @property(readonly, nonatomic) id <NUArticleDataProviderFactory> articleDataProviderFactory; // @synthesize articleDataProviderFactory=_articleDataProviderFactory;
-@property(readonly, nonatomic) id <NUArticlePrefetcherType> articlePrefetcher; // @synthesize articlePrefetcher=_articlePrefetcher;
-@property(readonly, nonatomic) id <NUArticleScrollPositionManagerType> articleScrollPositionManager; // @synthesize articleScrollPositionManager=_articleScrollPositionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NUDocumentSectionBlueprintProvider> headerBlueprintProvider; // @synthesize headerBlueprintProvider=_headerBlueprintProvider;
-@property(readonly, nonatomic) id <NUArticleKeyCommandManager> keyCommandManager; // @synthesize keyCommandManager=_keyCommandManager;
-@property(readonly, nonatomic) NSHashTable *loadingListeners; // @synthesize loadingListeners=_loadingListeners;
-@property(readonly, nonatomic) id <TFResolver> resolver; // @synthesize resolver=_resolver;
-@property(readonly, nonatomic) id <NUSpotlightManager> spotlightManager; // @synthesize spotlightManager=_spotlightManager;
-@property(readonly) Class superclass;
 
 @end
 

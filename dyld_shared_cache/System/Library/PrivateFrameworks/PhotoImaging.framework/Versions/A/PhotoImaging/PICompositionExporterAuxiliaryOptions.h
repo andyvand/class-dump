@@ -6,31 +6,23 @@
 
 #import <PhotoImaging/PICompositionExporterOptions.h>
 
-@class NSArray, NSString, NSURL, NUImageExportFormat;
+@class NSURL;
 
 @interface PICompositionExporterAuxiliaryOptions : PICompositionExporterOptions
 {
     _Bool _applyImageOrientationAsMetadata;
-    _Bool _applyVideoOrientationAsMetadata;
-    _Bool _optimizeForBackgroundProcessing;
-    NSURL *_primaryURL;
-    NSURL *_videoComplementURL;
-    NSURL *_videoPosterFrameURL;
-    NSString *_videoCodecType;
-    NUImageExportFormat *_imageExportFormat;
-    NSArray *_auxiliaryImageTypes;
 }
 
 - (id);
+- (void);
+- (void);
+- (void)@9	;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)A;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -43,15 +35,7 @@
 - (void)iliaryImageType:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool applyImageOrientationAsMetadata; // @synthesize applyImageOrientationAsMetadata=_applyImageOrientationAsMetadata;
-@property _Bool applyVideoOrientationAsMetadata; // @synthesize applyVideoOrientationAsMetadata=_applyVideoOrientationAsMetadata;
-@property(copy, nonatomic) NSArray *auxiliaryImageTypes; // @synthesize auxiliaryImageTypes=_auxiliaryImageTypes;
-@property(copy) NUImageExportFormat *imageExportFormat; // @synthesize imageExportFormat=_imageExportFormat;
-@property _Bool optimizeForBackgroundProcessing; // @synthesize optimizeForBackgroundProcessing=_optimizeForBackgroundProcessing;
 @property(retain) NSURL *primaryURL; // @synthesize primaryURL=_primaryURL;
-@property(copy, nonatomic) NSString *videoCodecType; // @synthesize videoCodecType=_videoCodecType;
-@property(retain) NSURL *videoComplementURL; // @synthesize videoComplementURL=_videoComplementURL;
-@property(retain) NSURL *videoPosterFrameURL; // @synthesize videoPosterFrameURL=_videoPosterFrameURL;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatOptionElement
 {
     id mergeOption;
-    id selector;
-    id isEmptySelector;
-    id existsSelector;
 }
 
 @end

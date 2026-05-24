@@ -7,7 +7,6 @@
 @protocol NUANFDebugSettingsProvider
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool testingConditionEnabled;
 @property(readonly, nonatomic) _Bool viewportDebuggingEnabled;
 @end
 

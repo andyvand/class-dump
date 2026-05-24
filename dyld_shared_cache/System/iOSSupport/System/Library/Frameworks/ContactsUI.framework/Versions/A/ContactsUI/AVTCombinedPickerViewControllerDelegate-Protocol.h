@@ -5,5 +5,6 @@
 //
 
 @protocol AVTCombinedPickerViewControllerDelegate
+- (void)9�;
 @end
 

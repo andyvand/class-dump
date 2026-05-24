@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Stock, StocksListBoxView, UIImageView, UILabel, UIView;
+@class Stock, UILabel;
 
 @interface StocksListTableViewCell
 {
     UILabel *_symbolLabel;
-    UILabel *_priceLabel;
-    UILabel *_boxLabel;
-    StocksListBoxView *_boxView;
-    UIImageView *_changeSignView;
-    UIView *_rowSeparatorView;
-    _Bool _shouldStackView;
-    Stock *_stock;
-    long long _rowDataType;
 }
 
-+ (double);
++ (double)&u;
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (struct CGRect);
+- (void);
+- (void)|;
+- (long long)zm|;
+- (id)|;
+- (struct CGRect)+xo|;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_diskAppearedCallback: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long rowDataType; // @synthesize rowDataType=_rowDataType;
-@property(nonatomic) _Bool shouldStackView; // @synthesize shouldStackView=_shouldStackView;
 @property(retain, nonatomic) Stock *stock; // @synthesize stock=_stock;
 
 @end

@@ -19,15 +19,15 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)k ;
+- (_Bool)he:(id)arg1:(id)arg2 Key::Hash, std::equal_to<LegacySVConstantBufferCache::Key>>, std::__unordered_map_equal<LegacySVConstantBufferCache::Key, std::pair<const LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, std::equal_to<LegacySVConstantBufferCache::Key>, LegacySVConstantBufferCache::Key::Hash>, std::allocator<std::pair<const LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<LegacySVConstantBufferCache::Key, LegacySVConstantBufferCache::Value>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_device"@"MTLLegacySVDevice"} /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)k;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)estureXPCProxyRemoteServerEndpointInterface>"@"NSError";
 - (void)eTower.icns;
@@ -38,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (unsigned long long)ï;
-- (_Bool)nderedPromptSanitizerXPCEnvelope;
+- (_Bool)_TtC4Sage40StringRenderedPromptSanitizerXPCEnvelope;
 
 @end
 

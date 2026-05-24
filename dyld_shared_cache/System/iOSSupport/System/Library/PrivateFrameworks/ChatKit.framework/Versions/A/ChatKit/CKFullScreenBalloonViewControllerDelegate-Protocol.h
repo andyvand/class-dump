@@ -4,11 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKTranscriptCollectionView;
+@class CKBalloonView, CKFullScreenBalloonViewController, CKTranscriptCollectionView, NSArray, UIView;
+@protocol CKGradientReferenceView;
 
 @protocol CKFullScreenBalloonViewControllerDelegate
+- (_Bool)56@0:(CKFullScreenBalloonViewController *)arg1 8@"WKWebView"16@"NSURL"24@"NSURL"32Q40@?<v@?@"NSString"B>48;
+- (struct CGRect)entID;
+- (_Bool)t sample rate conversion;
 
 @optional
+- (void)stringByAppendingPathComponent:(CKFullScreenBalloonViewController *)arg1;
+- (void)itle;
+- (NSArray *)String",C,N;
+- (NSArray *);
+- (_Bool)shouldIncludeOutlineParentItems;
+- (_Bool)shiftIndexesStartingAtIndex:(CKFullScreenBalloonViewController *)arg1 by: /* Error: Ran out of types for this method. */;
+- (struct CGRect)olorDescription:(CKFullScreenBalloonViewController *)arg1;
+- (struct CGRect)R,N;
+- (void)setUserChangedWritingDirection:(CKFullScreenBalloonViewController *)arg1;
+- (void)rvableProperties;
+- (void)Set",&,N,V_associatedObjectIdentifiers;
+- (_Bool)setTextStyle:(CKFullScreenBalloonViewController *)arg1 removeExtraStyling:range:inTextStorage:inTextView: /* Error: Ran out of types for this method. */;
+- (void)xtField",W,N,V_passwordTextField;
+- (void)tViewScrollView;
+- (UIView<CKGradientReferenceView> *)gex;
+- (void)or;
+- (void)N,V_progress;
+- (BOOL)setShouldIncludeLegacyAccounts:(CKFullScreenBalloonViewController *)arg1;
+- (void)setSelectionToIndex:(CKFullScreenBalloonViewController *)arg1 onTextView:(_Bool)arg2;
+- (void)bject<OS_dispatch_queue>",R;
+- (void)NSObject<OS_dispatch_queue>",&,N,V_requestCountQueue;
+- (void)setOverrideContainerIdentifier:(CKFullScreenBalloonViewController *)arg1;
+- (void)ueue>",&,N,V_needsUpdateManagedObjectIDsSerialQueue;
+- (struct CGPoint)",&,N,V_convertDispatchQueue;
+- (struct CGRect)ssQueue;
+- (void)ct<ICTTTextUndoTarget>",R,N;
+- (void),N,V_fromValue;
+- (void)mber",C,N,V_currentTimestamp;
+- (UIView *)ableSet",R,N,V_textStorageDocumentsBeingUpdated;
+- (void)Set",&,N,V_virtualSmartFolderIdentifiers;
+- (void)rManagedObjectIDs;
+- (void)s;
+- (void)setIc_menuIcon:(CKFullScreenBalloonViewController *)arg1;
+- (void)setHasDeepLink:(CKFullScreenBalloonViewController *)arg1;
+- (void)ects;
+- (CKBalloonView *)setFolderListSectionIdentifiersToVirtualSmartFolderIdentifiers:(CKFullScreenBalloonViewController *)arg1;
+- (void);
+- (double)r;
+- (void)n;
 - (void);
 
 // Remaining properties

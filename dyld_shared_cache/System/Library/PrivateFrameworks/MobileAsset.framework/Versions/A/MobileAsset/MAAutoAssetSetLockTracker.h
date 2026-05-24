@@ -4,44 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetLockReason, MAAutoAssetSetPolicy, NSDate;
+@class MAAutoAssetLockReason;
 
 @interface MAAutoAssetSetLockTracker
 {
     MAAutoAssetLockReason *_clientLockReason;
-    MAAutoAssetSetPolicy *_lockUsagePolicy;
-    long long _activeLockCount;
-    long long _maximumLockCount;
-    long long _totalLockCount;
-    long long _continueCount;
-    NSDate *_firstLockTimestamp;
-    NSDate *_lastRefreshTimestamp;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)om.apple.routined.visit.feedbuffer.timer;
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (long long);
+- (id)localNetworksWithFlags:(id)arg1;
+- (long long)hOption Failed to load the current configurations:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
+- (void);
+- (long long)_getScheduleSendCancelRetryXpcActivityIdentifier;
 - (id);
-- (long long);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (void);
+- (id)terest from store. Error:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)i;
 - (void);
 - (id);
 - (void);
@@ -49,14 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long activeLockCount; // @synthesize activeLockCount=_activeLockCount;
 @property(readonly, retain, nonatomic) MAAutoAssetLockReason *clientLockReason; // @synthesize clientLockReason=_clientLockReason;
-@property(nonatomic) long long continueCount; // @synthesize continueCount=_continueCount;
-@property(retain, nonatomic) NSDate *firstLockTimestamp; // @synthesize firstLockTimestamp=_firstLockTimestamp;
-@property(retain, nonatomic) NSDate *lastRefreshTimestamp; // @synthesize lastRefreshTimestamp=_lastRefreshTimestamp;
-@property(retain, nonatomic) MAAutoAssetSetPolicy *lockUsagePolicy; // @synthesize lockUsagePolicy=_lockUsagePolicy;
-@property(nonatomic) long long maximumLockCount; // @synthesize maximumLockCount=_maximumLockCount;
-@property(nonatomic) long long totalLockCount; // @synthesize totalLockCount=_totalLockCount;
 
 @end
 

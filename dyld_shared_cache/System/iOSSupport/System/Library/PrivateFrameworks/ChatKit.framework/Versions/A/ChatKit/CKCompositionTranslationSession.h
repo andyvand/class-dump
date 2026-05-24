@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface CKCompositionTranslationSession
 {
     id _identifier;
-    long long version;
 }
 
 - (long long);
 - (void);
 - (void);
-- (id)pressedNotificationFontAttributes;
+- (id)_transcriptSatelliteSuppressedNotificationFontAttributes;
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSUUID *identifier;
 @property(nonatomic) long long version; // @synthesize version;
 
 @end

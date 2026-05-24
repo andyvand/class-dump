@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface DDBridgeConstantContainer
 {
     long long constant;
     void constantValues;
-    void name;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 // Remaining properties
 @property(nonatomic, readonly) long long constant; // @synthesize constant;
 @property(nonatomic, readonly) NSArray *constantValues;
-@property(nonatomic, readonly) NSString *name;
 
 @end
 

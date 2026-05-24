@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @protocol TBTileRequestItem
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *etag;
 @property(readonly, nonatomic) NSNumber *key;
 @end
 

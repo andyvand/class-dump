@@ -11,8 +11,8 @@
 
 + (void);
 - (id);
-- (id);
-- (id)otocol;
+- (id)û;
+- (id)_EntityTaggingProtocol;
 - (void);
 
 @end

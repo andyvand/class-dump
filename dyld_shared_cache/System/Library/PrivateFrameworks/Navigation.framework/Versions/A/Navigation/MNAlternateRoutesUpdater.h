@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNActiveRouteInfo, NSArray, NSMutableArray;
+@class MNActiveRouteInfo, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MNAlternateRoutesUpdater
 {
     MNActiveRouteInfo *_mainRoute;
-    NSArray *_alternateRoutes;
-    NSMutableArray *_trackedAlternateRoutes;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void)4Q32;

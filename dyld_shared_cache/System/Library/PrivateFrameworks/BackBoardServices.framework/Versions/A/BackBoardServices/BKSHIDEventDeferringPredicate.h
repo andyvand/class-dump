@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringToken, BKSHIDEventDisplay, NSString;
+@class BKSHIDEventDeferringEnvironment;
 
 @interface BKSHIDEventDeferringPredicate
 {
     BKSHIDEventDeferringEnvironment *_environment;
-    BKSHIDEventDisplay *_display;
-    BKSHIDEventDeferringToken *_token;
 }
 
-+ (_Bool);
++ (_Bool)D>;
+- (id)schedulerWithEndpoint:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)unt %ld vs input item set %ld;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)hJu8I;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) BKSHIDEventDisplay *display; // @synthesize display=_display;
 @property(readonly, copy, nonatomic) BKSHIDEventDeferringEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) BKSHIDEventDeferringToken *token; // @synthesize token=_token;
 
 @end
 

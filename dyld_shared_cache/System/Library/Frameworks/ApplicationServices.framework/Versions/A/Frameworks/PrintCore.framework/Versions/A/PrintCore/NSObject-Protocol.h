@@ -7,14 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (unsigned long long)erDelivery >>>> %s:[%p|%{public}s]:Buffers are not synchronized at sampling time %1.3f. (%s%d) /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (id)(;
+
+@optional
+- (NSString *)(3'D;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPersistedTaskAttribution;
+@class NSString;
 
 @interface TRIFetchSingleRolloutNotificationPersistedTask
 {
 }
 
-+ (id);
++ (id)SignpostSupportUniquePIDAllowlist;
 
 // Remaining properties
-@property(nonatomic) int deploymentId; // @dynamic deploymentId;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasRetryCount; // @dynamic hasRetryCount;
-@property(nonatomic) _Bool hasRolloutId; // @dynamic hasRolloutId;
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
-@property(nonatomic) int retryCount; // @dynamic retryCount;
 @property(copy, nonatomic) NSString *rolloutId; // @dynamic rolloutId;
-@property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
 
 @end
 

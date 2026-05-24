@@ -15,7 +15,7 @@
 
 - (_Bool);
 - (id);
-- (void)SSING__;
+- (void)__MPModelRelationshipTVSeasonRepresentativeEpisode__MAPPING_MISSING__;
 
 @end
 

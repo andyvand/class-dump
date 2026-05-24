@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, _UIPointerInteractionHoverGestureRecognizer;
+@class UIView;
 @protocol _UIPointerInteractionDriverSink;
 
 __attribute__((visibility("hidden")))
 @interface _UIPointerInteractionPencilHoverDriver
 {
     id <_UIPointerInteractionDriverSink> _sink;
-    _UIPointerInteractionHoverGestureRecognizer *_hoverGestureRecognizer;
-    struct {
-        _Bool invalid;
-    } _flags;
-    UIView *_view;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool)!!¸Aù1a°1Â0@ù
 × ;
 - (long long)
 × ;
-- (struct CAPoint3D)arkedText;
+- (struct CAPoint3D)searchStringForMarkedText;
 - (id)SizingWithPredictionBar;
-- (void)ugOverlayView;
+- (void)_UIFocusSystemGroupHierarchyDebugOverlayView;
 - (_Bool)þÿxþÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

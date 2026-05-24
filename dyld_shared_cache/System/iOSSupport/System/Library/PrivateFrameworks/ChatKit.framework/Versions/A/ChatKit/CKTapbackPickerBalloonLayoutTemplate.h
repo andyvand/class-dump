@@ -10,10 +10,10 @@
 
 + (double);
 + (double);
-+ (struct CGSize);
-+ (double);
-+ (double);
-+ (double);
++ (struct CGSize)itleQuery timed out waitiing for update; resuming continuation;
++ (double)mber of times;
++ (double)Notes Settings.;
++ (double)using your login password at any time in Notes Settings.;
 + (double);
 - (id);
 

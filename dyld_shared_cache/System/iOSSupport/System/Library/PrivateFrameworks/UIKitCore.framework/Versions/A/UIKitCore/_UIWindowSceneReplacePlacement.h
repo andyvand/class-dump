@@ -18,10 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)6G;
 - (id);
 - (_Bool)304;
-- (id)eadDuration;
+- (id)_commitDeadlineLeadDuration;
 - (void);
 
 // Remaining properties

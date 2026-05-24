@@ -7,7 +7,6 @@
 @interface NewsArticles.IssueEmbeddableViewControllerFactory
 {
     id resolver;
-    id tracker;
 }
 
 @end

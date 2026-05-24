@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PKSelectedPaymentOffer;
+@class NSMutableArray, PKSelectedPaymentOffer;
 
 @interface PKPaymentOffersControllerSelectedOfferDetails
 {
     PKSelectedPaymentOffer *_selectedPaymentOffer;
-    PKSelectedPaymentOffer *_previouslySelectedOffer;
-    unsigned long long _updateReason;
-    NSString *_selectedPassUniqueID;
-    NSMutableArray *_selectedOfferHistory;
 }
 
 - (void);
@@ -27,18 +23,14 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void)zedQuote;
+- (unsigned long long);
+- (_Bool)setPreviousModelVersion:(id)arg1;
+- (void)authorizedQuote;
 
 // Remaining properties
-@property(readonly, nonatomic) PKSelectedPaymentOffer *previouslySelectedOffer; // @synthesize previouslySelectedOffer=_previouslySelectedOffer;
 @property(retain, nonatomic) NSMutableArray *selectedOfferHistory; // @synthesize selectedOfferHistory=_selectedOfferHistory;
-@property(readonly, nonatomic) NSString *selectedPassUniqueID; // @synthesize selectedPassUniqueID=_selectedPassUniqueID;
-@property(readonly, nonatomic) PKSelectedPaymentOffer *selectedPaymentOffer; // @synthesize selectedPaymentOffer=_selectedPaymentOffer;
-@property(readonly, nonatomic) unsigned long long updateReason; // @synthesize updateReason=_updateReason;
 
 @end
 

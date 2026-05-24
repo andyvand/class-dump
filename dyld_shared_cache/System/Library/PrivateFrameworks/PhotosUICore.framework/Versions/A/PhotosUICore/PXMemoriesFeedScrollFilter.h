@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PXMemoriesSpec, PXScrollViewController;
-@protocol PXMemoriesFeedScrollFilterDelegate;
+@class NSDate;
 
 @interface PXMemoriesFeedScrollFilter
 {
     double _additionalContentThreshold;
-    struct {
-        _Bool respondsToShouldRequestAdditionalContent;
-    } _delegateFlags;
-    PXScrollViewController *_scrollViewController;
-    PXMemoriesSpec *_spec;
-    id <PXMemoriesFeedScrollFilterDelegate> _delegate;
-    NSDate *__lastAdditionalContentRequestDate;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -32,16 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setLastAdditionalContentRequestDate:) NSDate *_lastAdditionalContentRequestDate; // @synthesize _lastAdditionalContentRequestDate=__lastAdditionalContentRequestDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXMemoriesFeedScrollFilterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXScrollViewController *scrollViewController; // @synthesize scrollViewController=_scrollViewController;
-@property(retain, nonatomic) PXMemoriesSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
 
 @end
 

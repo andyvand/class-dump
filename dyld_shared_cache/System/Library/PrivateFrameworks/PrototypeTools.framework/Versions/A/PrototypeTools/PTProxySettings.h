@@ -11,7 +11,6 @@
 @interface PTProxySettings : PTSettings
 {
     NSMutableDictionary *_values;
-    PTProxySettingsDefinition *_definition;
 }
 
 + (id);
@@ -22,14 +21,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)g the pipe;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id)syncLoginPrefs;
+- (void)/Admin/DSRecord.m;
 
 // Remaining properties
 @property(readonly, nonatomic) PTProxySettingsDefinition *definition; // @synthesize definition=_definition;

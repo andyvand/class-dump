@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
 @protocol EMBiomeSuggestion;
 
 @interface EMSearchQueryState
 {
     _Bool _hasResults;
-    _Bool _resultEngaged;
-    _Bool _isUnsafeQuery;
-    int _resultView;
-    int _engagedSectionType;
-    int _abandonedReason;
-    id <EMBiomeSuggestion> _suggestion;
-    long long _commitReason;
-    NSNumber *_resultCount;
 }
 
 - (void);
@@ -27,10 +18,10 @@
 - (_Bool);
 - (int);
 - (long long);
-- (_Bool);
+- (_Bool)AdaptiveTemperatureAutomationsConfigurationLogEvent;
 - (int);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (int);
 - (void);
@@ -43,14 +34,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int abandonedReason; // @synthesize abandonedReason=_abandonedReason;
-@property(nonatomic) long long commitReason; // @synthesize commitReason=_commitReason;
-@property(nonatomic) int engagedSectionType; // @synthesize engagedSectionType=_engagedSectionType;
-@property(nonatomic) _Bool hasResults; // @synthesize hasResults=_hasResults;
-@property(nonatomic) _Bool isUnsafeQuery; // @synthesize isUnsafeQuery=_isUnsafeQuery;
-@property(retain, nonatomic) NSNumber *resultCount; // @synthesize resultCount=_resultCount;
-@property(nonatomic) _Bool resultEngaged; // @synthesize resultEngaged=_resultEngaged;
-@property(nonatomic) int resultView; // @synthesize resultView=_resultView;
 @property(retain, nonatomic) id <EMBiomeSuggestion> suggestion; // @synthesize suggestion=_suggestion;
 
 @end

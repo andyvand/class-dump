@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)est [%@];
 
 @end
 

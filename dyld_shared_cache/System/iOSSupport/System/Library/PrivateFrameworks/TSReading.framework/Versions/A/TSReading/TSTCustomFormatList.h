@@ -13,8 +13,8 @@
     NSMutableDictionary *mNamesList;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)ged;
+- (void)eue-source.catalog;
 - (id);
 - (id);
 - (unsigned int);
@@ -22,7 +22,7 @@
 - (void *);
 - (id);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id);
 - (long long)

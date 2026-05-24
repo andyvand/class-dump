@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDContainer, CKDOperation, NSDate, NSMutableDictionary, NSMutableSet, NSObject, NSOperationQueue, NSString;
-@protocol OS_dispatch_queue, OS_os_activity;
+@class NSObject;
+@protocol OS_os_activity;
 
 @interface CKDQueuedFetch
 {
     _Bool _isFinished;
-    _Bool _isCancelled;
-    NSDate *_queuedDate;
-    CDUnknownBlockType _completionHandler;
-    CKDQueuedFetch *_equivalentRunningFetch;
-    NSObject<OS_os_activity> *_osActivity;
-    NSMutableDictionary *_completionHandlersByItemID;
-    unsigned long long _lastCompletionHandlerCount;
-    NSDate *_lastRequestDate;
-    CKDContainer *_container;
-    NSOperationQueue *_operationQueue;
-    long long _scope;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    long long _highestQOS;
-    NSString *_runningOperationID;
-    NSMutableSet *_dependentOperationIDs;
-    NSMutableDictionary *_dependentOperationIDsByItemID;
-    NSMutableDictionary *_unitTestOverrides;
-    CKDOperation *_initialOperation;
 }
 
 - (void);
@@ -40,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)2+;
 - (void);
 - (void);
 - (int);
@@ -53,7 +35,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (_Bool);
@@ -61,20 +43,21 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (long long);
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (void)2GDataStall"B"fastTD_vote_InsufficientRxFrames"B"fastTD_RTApp"B"fastTD_Cheap5G"B};
+- (id)setDnsServers: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)(
+;
 - (_Bool);
 - (void);
 - (id);
@@ -82,32 +65,14 @@
 - (void);
 - (id)1Â0@ù
 × ;
-- (_Bool)ReplaceListRange;
+- (_Bool)hasReplaceListRange;
 - (id)olveBlock;
 - (void);
 - (void)ror transforming record:(_Bool)arg1 %@;
 - (void)ror:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSMutableDictionary *completionHandlersByItemID; // @synthesize completionHandlersByItemID=_completionHandlersByItemID;
-@property(nonatomic) __weak CKDContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) NSMutableSet *dependentOperationIDs; // @synthesize dependentOperationIDs=_dependentOperationIDs;
-@property(retain, nonatomic) NSMutableDictionary *dependentOperationIDsByItemID; // @synthesize dependentOperationIDsByItemID=_dependentOperationIDsByItemID;
-@property(nonatomic) __weak CKDQueuedFetch *equivalentRunningFetch; // @synthesize equivalentRunningFetch=_equivalentRunningFetch;
-@property(nonatomic) long long highestQOS; // @synthesize highestQOS=_highestQOS;
-@property(retain, nonatomic) CKDOperation *initialOperation; // @synthesize initialOperation=_initialOperation;
-@property(nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;
-@property(nonatomic) unsigned long long lastCompletionHandlerCount; // @synthesize lastCompletionHandlerCount=_lastCompletionHandlerCount;
-@property(retain, nonatomic) NSDate *lastRequestDate; // @synthesize lastRequestDate=_lastRequestDate;
-@property(nonatomic) __weak NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
 @property(retain, nonatomic) NSObject<OS_os_activity> *osActivity; // @synthesize osActivity=_osActivity;
-@property(readonly, nonatomic) NSDate *queuedDate; // @synthesize queuedDate=_queuedDate;
-@property(retain, nonatomic) NSString *runningOperationID; // @synthesize runningOperationID=_runningOperationID;
-@property(nonatomic) long long scope; // @synthesize scope=_scope;
-@property(retain, nonatomic) NSMutableDictionary *unitTestOverrides; // @synthesize unitTestOverrides=_unitTestOverrides;
 
 @end
 

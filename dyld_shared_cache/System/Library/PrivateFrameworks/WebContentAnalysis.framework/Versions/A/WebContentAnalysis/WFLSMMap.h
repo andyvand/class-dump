@@ -7,7 +7,6 @@
 @interface WFLSMMap
 {
     struct __LSMMap *_lsmMap;
-    float _threshold;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (struct __LSMText *);
 - (id);
 - (void);
-- (id);
+- (id)_};
 - (long long);
 
 @end

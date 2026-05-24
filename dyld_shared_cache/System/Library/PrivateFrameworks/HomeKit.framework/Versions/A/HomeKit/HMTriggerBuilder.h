@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMTrigger.h>
 
-@class HMActionSetBuilder, HMHome, HMTriggerPolicy, NSArray, NSString, NSUUID;
+@class HMTriggerPolicy;
 
 @interface HMTriggerBuilder : HMTrigger
 {
@@ -15,22 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionSets;
-@property(readonly, copy, nonatomic) NSString *configuredName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMHome *home;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) _Bool nameIsConfigured;
 @property(retain, nonatomic) HMTriggerPolicy *policy;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) HMActionSetBuilder *triggerOwnedActionSet;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

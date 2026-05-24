@@ -4,43 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3MusicLibrary, NSDictionary;
+@class NSDictionary;
 
 @interface ML3ExportItem
 {
     NSDictionary *_properties;
-    long long _persistentId;
-    ML3MusicLibrary *_library;
-    Class _entityClass;
 }
 
-+ (unsigned int *);
-- (id);
-- (short);
-- (unsigned int *);
-- (long long);
-- (long long);
++ (unsigned int *)setMinimumSpan:(Class)arg1;
+- (id)_allSnapshotValuesDescription;
+- (short)_albumsEligibleForSearchIndexing;
+- (unsigned int *)dHeight;
+- (long long)ceLevel;
+- (long long)Retry;
 - (int);
+- (id),V_notUploadedItemsCount;
+- (id)V_minimumNumberOfCuratedAssets;
+- (id);
+- (_Bool)VisSyncComplete;
+- (id)copeRuleInterpreter",&,N,V_interpreter;
+- (BOOL),V_connectionAuthorization;
+- (id)T@"NSString",&,N,V_operationName;
+- (id)ectID;
+- (id)testUTCDate;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (BOOL);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (Class)Representation;
-- (id)ndex: /* Error: Ran out of types for this method. */;
+- (Class)copyStringRepresentation;
+- (id)_numberOrZeroForColumnIndex: /* Error: Ran out of types for this method. */;
 - (void)CE INTO container_item_person (container_item_person_pid, container_item_pid, person_pid) VALUES (?, ?, ?);
 
 // Remaining properties
-@property(readonly, nonatomic) Class entityClass; // @synthesize entityClass=_entityClass;
-@property(readonly, nonatomic) ML3MusicLibrary *library; // @synthesize library=_library;
 @property(readonly, nonatomic) long long persistentId; // @synthesize persistentId=_persistentId;
 
 @end

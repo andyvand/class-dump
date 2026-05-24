@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)n"16@"GEOActiveTileGroup"24@?<v@?>32;
-- (id)unt;
+- (id)_throttleCount;
 - (id);
 
 @end

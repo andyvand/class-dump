@@ -7,11 +7,9 @@
 @interface GEOPolylineCoordinateIterator
 {
     CDStruct_3f2a7a20 _previous;
-    CDStruct_3f2a7a20 _current;
-    CDStruct_3f2a7a20 _end;
 }
 
-+ (id);
++ (id)ncatenate(%@);
 - (_Bool);
 - (struct GEOPolylineCoordinateRange);
 - (void);
@@ -20,10 +18,7 @@
 - (CDStruct_3f2a7a20)B¯þ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_3f2a7a20 current; // @synthesize current=_current;
-@property(readonly, nonatomic) GEOPolylineCoordinateRange_38d3edb7 currentSegmentRange;
 @property(readonly, nonatomic) _Bool isCurrentValid;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 previous; // @synthesize previous=_previous;
 
 @end
 

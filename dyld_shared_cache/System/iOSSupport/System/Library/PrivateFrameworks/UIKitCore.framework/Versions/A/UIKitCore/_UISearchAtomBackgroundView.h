@@ -12,16 +12,14 @@ __attribute__((visibility("hidden")))
 @interface _UISearchAtomBackgroundView : UIView
 {
     UIVisualEffectView *_visualEffectView;
-    long long _selectionStyle;
-    UIBlurEffect *_blurEffect;
 }
 
+- (void)downloadAttachmentAssetsWithActivity:restoringAttachments: /* Error: Ran out of types for this method. */;
+- (void)activeAccountsAreEligibleForFilterUnknownSendersByDefault;
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long)eViewYConstraint;
-- (id):(struct CGRect)arg1 onEdges:withOptions: /* Error: Ran out of types for this method. */;
+- (long long)symbolImageViewYConstraint;
+- (id)_inscribedRectInBoundingPathByInsettingRect:(struct CGRect)arg1 onEdges:withOptions: /* Error: Ran out of types for this method. */;
 - (id)ConfigurationState;
 - (void);
 - (void)[;

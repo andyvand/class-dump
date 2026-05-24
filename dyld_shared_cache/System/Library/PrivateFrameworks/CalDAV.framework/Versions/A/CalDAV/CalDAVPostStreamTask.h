@@ -9,24 +9,22 @@
 @interface CalDAVPostStreamTask
 {
     NSString *_previousScheduleTag;
-    NSString *_filename;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)x+;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)N,V_duraAdj;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *filename; // @synthesize filename=_filename;
 @property(retain, nonatomic) NSString *previousScheduleTag; // @synthesize previousScheduleTag=_previousScheduleTag;
 
 @end

@@ -7,10 +7,9 @@
 @interface AVAudioMixProcessingEffectParameter
 {
     unsigned int _fourcc;
-    float _value;
 }
 
-+ (id);
++ (id)E;
 - (id);
 - (unsigned int);
 - (unsigned long long);

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPPrivacyProxyErrorResponse, NSPPrivacyProxySuccessResponse;
+@class NSPPrivacyProxyErrorResponse;
 
 @interface NSPPrivacyProxyGetQuotaResponse
 {
     NSPPrivacyProxyErrorResponse *_genericError;
-    int _getQuotaResponseType;
-    NSPPrivacyProxySuccessResponse *_success;
-    struct {
-        unsigned int getQuotaResponseType:1;
-    } _has;
 }
 
 - (void);
@@ -27,26 +22,21 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)p;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)CPLTransientStatus"16;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSPPrivacyProxyErrorResponse *genericError; // @synthesize genericError=_genericError;
-@property(nonatomic) int getQuotaResponseType; // @synthesize getQuotaResponseType=_getQuotaResponseType;
-@property(readonly, nonatomic) _Bool hasGenericError;
-@property(nonatomic) _Bool hasGetQuotaResponseType;
 @property(readonly, nonatomic) _Bool hasSuccess;
-@property(retain, nonatomic) NSPPrivacyProxySuccessResponse *success; // @synthesize success=_success;
 
 @end
 

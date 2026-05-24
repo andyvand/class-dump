@@ -4,69 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IQFMapsPersonalizationResult, NSArray, NSData, NSDate, NSDictionary, NSImage, NSMutableDictionary, NSNumber, NSString, NSURL, PRSRankingItem, SFRichText, UTType;
-
 @interface SFSearchResult_SpotlightExtras
 {
     unsigned long long _matchBits;
-    _Bool _lastRestrictionStatus;
-    _Bool _needsPreviewUpdate;
-    UTType *_uniformContentType;
-    _Bool _uniformContentTypeUnavailable;
-    _Bool _autoLaunch;
-    _Bool _isFirstTopHit;
-    _Bool _isAnyTopHit;
-    _Bool _isShowAllInFinder;
-    _Bool _isTTR;
-    _Bool _isSynthetic;
-    _Bool _forceNoTopHit;
-    _Bool _isFolderQuery;
-    _Bool _isFromOneness;
-    _Bool _supportsSubView;
-    _Bool _needsShortcut;
-    _Bool _isUsed;
-    _Bool _hasUsage;
-    _Bool _isAppQueryResult;
-    _Bool _isFileProviderServerResult;
-    _Bool _isTemplateAppResult;
-    _Bool _isSafariTopHit;
-    _Bool _hasTextContentMatch;
-    float _l2score;
-    NSNumber *_groupId;
-    NSString *_groupName;
-    PRSRankingItem *_rankingItem;
-    NSString *_relatedIdentifier;
-    NSString *_relatedAppIdentifier;
-    NSString *_counterpartBundleIdentifier;
-    NSString *_uniqueIdentifier;
-    NSNumber *_documentIdentifier;
-    NSString *_displayName;
-    NSURL *_fastLaunchURL;
-    NSString *_personIdentifier;
-    NSString *_personQueryIdentifier;
-    NSNumber *_displayOrder;
-    NSArray *_otherTypes;
-    NSArray *_otherNames;
-    NSDate *_lastUsedDate;
-    NSDate *_contentCreationDate;
-    unsigned long long _localResultPosition;
-    NSString *_distinguishPathString;
-    NSURL *_altPath;
-    long long _dpos;
-    NSString *_NLPConfidence;
-    NSString *_NLPCategory;
-    double _cep;
-    long long _feedbackBlockId;
-    NSString *_customOpenSearchString;
-    NSData *_suggestionsFeedbackData;
-    NSArray *_answerAttributes;
-    NSString *_blendingCacheUUID;
-    SFRichText *_formattedSnippet;
-    IQFMapsPersonalizationResult *_mapsPersonalizationResult;
-    NSImage *_iconImageForSuggestion;
-    NSMutableDictionary *_backendData;
-    NSDictionary *_textMatches;
-    id _rank;
 }
 
 @end

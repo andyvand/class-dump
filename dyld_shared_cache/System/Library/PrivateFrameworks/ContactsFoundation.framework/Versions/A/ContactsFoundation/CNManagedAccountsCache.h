@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, CNCache;
+@class CNCache;
 
 @interface CNManagedAccountsCache
 {
     CNCache *_accountsCache;
-    ACAccountStore *_accountStore;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
 @property(retain, nonatomic) CNCache *accountsCache; // @synthesize accountsCache=_accountsCache;
 
 @end

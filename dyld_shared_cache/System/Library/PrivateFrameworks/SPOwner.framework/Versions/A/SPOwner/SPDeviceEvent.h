@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, SPAttachmentInfo;
+@class NSDate;
 
 @interface SPDeviceEvent
 {
     NSDate *_timestamp;
-    long long _source;
-    SPAttachmentInfo *_attachmentInfo;
-    NSString *_serialNumber;
 }
 
 + (_Bool);
@@ -20,16 +17,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (long long);
+- (id)FAFetchFamilyCircleRequest;
+- (long long)RemoteIntentMirrorFile;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) SPAttachmentInfo *attachmentInfo; // @synthesize attachmentInfo=_attachmentInfo;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly, nonatomic) long long source; // @synthesize source=_source;
 @property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

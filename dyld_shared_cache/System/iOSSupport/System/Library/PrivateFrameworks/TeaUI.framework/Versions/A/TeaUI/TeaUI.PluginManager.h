@@ -7,9 +7,6 @@
 @interface TeaUI.PluginManager
 {
     id pluginContainerController;
-    id plugins;
-    id pluginViewControllers;
-    id enableReuseLayoutSuppression;
 }
 
 @end

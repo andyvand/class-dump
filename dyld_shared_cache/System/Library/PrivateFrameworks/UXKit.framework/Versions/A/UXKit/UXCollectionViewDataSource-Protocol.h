@@ -10,6 +10,6 @@
 - (UXCollectionViewCell *);
 
 @optional
-- (UXCollectionReusableView *)tOfIndexesInRange:(UXCollectionView *)arg1;
+- (UXCollectionReusableView *)countOfIndexesInRange:(UXCollectionView *)arg1;
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CALNSnoozeCategory
 {
     double _timedExpirationInterval;
-    _Bool _relativeToEnd;
-    _Bool _validForAllDay;
-    NSString *_suffix;
-    NSArray *_actions;
-    double _leeway;
 }
 
 + (id);
@@ -26,8 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) double leeway; // @synthesize leeway=_leeway;
 @property(readonly, nonatomic) NSString *suffix; // @synthesize suffix=_suffix;
 
 @end

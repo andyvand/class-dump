@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EAEmailAddressSet, NSSet;
+@class EMVIP, NSSet;
 
 @protocol EMVIPManager
+- (void);
+- (NSSet *)thumbnailForAnimojiNamed:options: /* Error: Ran out of types for this method. */;
+- (void)stickerConfigurationForMemojiInStickerPack:(void (^)(NSSet *, NSError *))arg1 stickerName: /* Error: Ran out of types for this method. */;
+- (EMVIP *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) EAEmailAddressSet *allVIPEmailAddresses;
 @property(readonly, copy, nonatomic) NSSet *allVIPs;
 @end
 

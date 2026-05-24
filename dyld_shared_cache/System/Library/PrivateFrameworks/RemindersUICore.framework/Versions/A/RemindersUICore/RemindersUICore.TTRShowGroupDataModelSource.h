@@ -9,14 +9,6 @@
 @interface RemindersUICore.TTRShowGroupDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id group;
-    id store;
-    id countCompleted;
-    id showCompletedContextInstance;
-    id tipKitContextInstance;
-    id dataViewMonitor;
-    id listFetchManager;
-    id smartListFetchManager;
 }
 
 @end

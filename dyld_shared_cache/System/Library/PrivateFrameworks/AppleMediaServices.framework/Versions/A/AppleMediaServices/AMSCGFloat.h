@@ -12,7 +12,7 @@
 + (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)setAllowsHeadTrackedSpatialAudio:(id)arg1 outputDeviceUID:queue:completion: /* Error: Ran out of types for this method. */;
 - (double);
 
 // Remaining properties

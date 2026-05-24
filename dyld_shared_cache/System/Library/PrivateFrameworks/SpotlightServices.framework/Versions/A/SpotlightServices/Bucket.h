@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface Bucket
 {
     _Bool _isPerfectScoreBucket;
-    _Bool _isDefaultTemporal;
-    double _threshold;
-    double _upperBound;
-    double _lowerBound;
-    NSMutableArray *_items;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void)NSFont"16;
+- (void)ConversationActivity";
+- (_Bool)mediaPlayer:didChangePlayingState: /* Error: Ran out of types for this method. */;
+- (_Bool)localizedApplicationNameWithURL: /* Error: Ran out of types for this method. */;
+- (id)initWithHost:(id)arg1 style:(_Bool)arg2 presentationProperties:(id)arg3 captionType: /* Error: Ran out of types for this method. */;
+- (void)archiverDidFinish:(id)arg1;
+- (void);
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)ment",&,N,S_setNextStartElement:(double)arg1 ,V__nextStartElement;
 - (_Bool);
 - (id);
 - (void);
-- (void)ntWeight;
-- (double)e;
+- (void)_parentWeight;
+- (double)kMDItemEventType;
 
 // Remaining properties
-@property(nonatomic) _Bool isDefaultTemporal; // @synthesize isDefaultTemporal=_isDefaultTemporal;
-@property(nonatomic) _Bool isPerfectScoreBucket; // @synthesize isPerfectScoreBucket=_isPerfectScoreBucket;
-@property(retain) NSMutableArray *items; // @synthesize items=_items;
-@property(nonatomic) double lowerBound; // @synthesize lowerBound=_lowerBound;
 @property(nonatomic) double threshold; // @synthesize threshold=_threshold;
-@property(nonatomic) double upperBound; // @synthesize upperBound=_upperBound;
 
 @end
 

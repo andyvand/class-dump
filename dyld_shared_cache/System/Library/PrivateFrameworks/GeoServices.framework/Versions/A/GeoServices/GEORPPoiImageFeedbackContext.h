@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlace, GEORPFeedbackClientImageInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPPoiImageFeedbackContext
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPFeedbackClientImageInfo *_imageInfo;
-    NSString *_imageUrl;
-    GEOPDPlace *_place;
-    NSString *_providerImageId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_imageInfo:1;
-        unsigned int read_imageUrl:1;
-        unsigned int read_place:1;
-        unsigned int read_providerImageId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Level:(id)arg1;
++ (_Bool)setLevel:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -36,16 +20,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)tring">16;
+- (void)artSiriVolume;
+- (id)H;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -53,23 +37,15 @@
 - (void);
 - (id)_anyField"b1};
 - (void)ad_placeRequest"b1"read_place"b1"read_transitLineTileInfo"b1"wrote_anyField"b1};
-- (_Bool)onAtIndex: /* Error: Ran out of types for this method. */;
-- (id)t:finished:error: /* Error: Ran out of types for this method. */;
-- (id)ateTransitionFeedbacks;
+- (_Bool)summaryForPredictedDestinationAtIndex: /* Error: Ran out of types for this method. */;
+- (id)startUpdateRequest:finished:error: /* Error: Ran out of types for this method. */;
+- (id)clearStateTransitionFeedbacks;
 - (id);;è;>'?ì?T@;
-- (id)lEventLookupCategoryTheater;
+- (id)GEOSpatialEventLookupCategoryTheater;
 - (void)ÿËµh¦O@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasImageInfo;
-@property(readonly, nonatomic) _Bool hasImageUrl;
 @property(readonly, nonatomic) _Bool hasPlace;
-@property(readonly, nonatomic) _Bool hasProviderImageId;
-@property(retain, nonatomic) GEORPFeedbackClientImageInfo *imageInfo;
-@property(retain, nonatomic) NSString *imageUrl;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(retain, nonatomic) NSString *providerImageId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

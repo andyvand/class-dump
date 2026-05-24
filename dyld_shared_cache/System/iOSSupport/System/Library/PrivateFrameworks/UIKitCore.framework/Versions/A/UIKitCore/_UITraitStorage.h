@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _UITraitStorage
 {
     NSMutableArray *_records;
-    NSString *_keyPath;
-    id _object;
 }
 
 - (id);
-- (void);
+- (void)Error"16;
+- (id)_convertIMDHandleToDictionary: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)?;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)lue;
-- (void)r;
+- (void)timeoutValue;
+- (void)_UI3DPanGestureRecognizer;
 - (id)~íÿ;
-- (void)cureCoding_p;
+- (void)So14NSSecureCoding_p;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;

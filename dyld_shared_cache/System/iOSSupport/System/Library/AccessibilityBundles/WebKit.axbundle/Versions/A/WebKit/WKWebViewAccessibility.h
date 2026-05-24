@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)D;
 + (id);
-+ (void);
++ (void)1;
 - (_Bool);
 - (unsigned long long);
 - (long long);

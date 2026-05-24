@@ -5,10 +5,10 @@
 //
 
 @protocol INDeleteEventIntentResponseExport
-- (long long)mpletion: /* Error: Ran out of types for this method. */;
+- (long long);
+- (long long)handleSearchForNotebookItems:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property long long confirmationReason;
 @end
 

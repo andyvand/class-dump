@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSView *_proxyView;
 }
 
-- (void);
-- (id);
+- (void)on performed because invalid questions were passed in:(id)arg1 %@;
+- (id)JsQ;
 - (double);
-- (struct CGSize);
+- (struct CGSize)t has an unexpected number of policies %lu;
 - (_Bool);
-- (_Bool)rOtherItemsProxy;
+- (_Bool)NSTouchBarItemIdentifierOtherItemsProxy;
 - (void)ize color list unarchiver:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

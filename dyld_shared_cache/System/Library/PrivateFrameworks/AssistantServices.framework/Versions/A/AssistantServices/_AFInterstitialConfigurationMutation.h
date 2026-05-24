@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInterstitialConfiguration, NSString;
+@class AFInterstitialConfiguration;
 
 @interface _AFInterstitialConfigurationMutation
 {
     AFInterstitialConfiguration *_base;
-    long long _style;
-    NSString *_languageCode;
-    long long _gender;
-    NSString *_recordRoute;
-    _Bool _isVoiceTrigger;
-    _Bool _isDucking;
-    _Bool _isTwoShot;
-    unsigned long long _speechEndHostTime;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasStyle:1;
-        unsigned int hasLanguageCode:1;
-        unsigned int hasGender:1;
-        unsigned int hasRecordRoute:1;
-        unsigned int hasIsVoiceTrigger:1;
-        unsigned int hasIsDucking:1;
-        unsigned int hasIsTwoShot:1;
-        unsigned int hasSpeechEndHostTime:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -45,19 +26,13 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)y5(:(id)arg1 OG;
 - (void);
-- (void);
-- (id)artRecordingForPendingDictationWithLanguageCode:(id)arg1 options:speechOptions: /* Error: Ran out of types for this method. */;
-- (void)Queue;
+- (id)startRecordingForPendingDictationWithLanguageCode:(id)arg1 options:speechOptions: /* Error: Ran out of types for this method. */;
+- (void)_myriadMonitorQueue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

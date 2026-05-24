@@ -7,10 +7,6 @@
 @interface TeaUI.FloatingTabBarSidebarImpressionManager
 {
     id isEnabled;
-    id delegate;
-    id activeSession;
-    id activeImpressions;
-    id options;
 }
 
 @end

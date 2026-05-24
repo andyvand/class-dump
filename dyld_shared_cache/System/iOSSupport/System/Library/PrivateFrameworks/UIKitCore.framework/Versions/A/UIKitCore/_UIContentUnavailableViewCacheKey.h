@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
     struct CGColor *_color;
 }
 
-- (id);
+- (id)_markTransferAsNotBeingAbleToSyncUsingCKRecord:(unsigned long long)arg1;
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool)erviceProxy;
+- (unsigned long long);
+- (_Bool)setUpdatingKeyWindow:(id)arg1;
+- (_Bool)_viewServiceProxy;
 - (id)ComponentPhase:(struct _NSZone *)arg1;
 
 @end

@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface GCDeviceSessionConfiguration
 {
     NSString *_clientIdentifier;
-    NSArray *_supportedGameControllers;
-    _Bool _coalesceRemotes;
-    _Bool _nonUI;
-    _Bool _monitorControllerEventsInBackground;
-    _Bool _bypassUIKit;
-    _Bool _ignoresUIAlertAssertions;
-    _Bool _disableShareGestures;
-    _Bool _spatialGamepadSupported;
-    _Bool _spatialGamepadProductCategoryIncludesChirality;
-    _Bool _enableInputEventBufferingPreview;
 }
 
 + (_Bool);
-+ (void)rDefaultsXPCProxyService;
++ (void)_userDefaultsXPCProxyService;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -42,25 +32,18 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)}	;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)<;
+- (id)fetchTermsAcceptanceForAccount:(struct _NSZone *)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *clientIdentifier;
-@property(nonatomic) _Bool coalesceRemotes; // @synthesize coalesceRemotes=_coalesceRemotes;
-@property(nonatomic) _Bool enableInputEventBufferingPreview; // @synthesize enableInputEventBufferingPreview=_enableInputEventBufferingPreview;
-@property(nonatomic) _Bool monitorControllerEventsInBackground; // @synthesize monitorControllerEventsInBackground=_monitorControllerEventsInBackground;
-@property(nonatomic, getter=isNonUI) _Bool nonUI;
-@property(nonatomic) _Bool spatialGamepadProductCategoryIncludesChirality; // @synthesize spatialGamepadProductCategoryIncludesChirality=_spatialGamepadProductCategoryIncludesChirality;
-@property(nonatomic) _Bool spatialGamepadSupported; // @synthesize spatialGamepadSupported=_spatialGamepadSupported;
-@property(copy, nonatomic) NSArray *supportedGameControllers; // @synthesize supportedGameControllers=_supportedGameControllers;
 
 @end
 

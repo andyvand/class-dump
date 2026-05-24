@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     id _tripleDESKeyInternal;
 }
 
-- (id);
+- (id)T;
 - (void);
 
 @end

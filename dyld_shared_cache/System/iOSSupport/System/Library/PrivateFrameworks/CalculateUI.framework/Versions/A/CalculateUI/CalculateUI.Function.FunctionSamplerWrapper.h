@@ -8,7 +8,6 @@
 {
     id sampler;
     id cachedDefaultXDomain;
-    id cachedDefaultYDomain;
 }
 
 @end

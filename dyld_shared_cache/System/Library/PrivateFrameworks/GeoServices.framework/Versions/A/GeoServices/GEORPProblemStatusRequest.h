@@ -4,47 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOABSecondPartyPlaceRequestClientMetaData, GEOPDAnalyticMetadata, GEORPClientCapabilities, GEORPUserCredentials, GEOServicesState, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPProblemStatusRequest
 {
     PBDataReader *_reader;
-    GEOABSecondPartyPlaceRequestClientMetaData *_abAssignmentMetadata;
-    GEOPDAnalyticMetadata *_analyticMetadata;
-    GEORPClientCapabilities *_clientCapabilities;
-    NSMutableArray *_problemIds;
-    GEOServicesState *_servicesState;
-    NSString *_statusNotificationId;
-    GEORPUserCredentials *_userCredentials;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _suppressLogging;
-    struct {
-        unsigned int has_suppressLogging:1;
-        unsigned int read_abAssignmentMetadata:1;
-        unsigned int read_analyticMetadata:1;
-        unsigned int read_clientCapabilities:1;
-        unsigned int read_problemIds:1;
-        unsigned int read_servicesState:1;
-        unsigned int read_statusNotificationId:1;
-        unsigned int read_userCredentials:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)Index:(id)arg1;
++ (_Bool)setLineIndex:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)setModificationDateYear:(id)arg1;
+- (id)setManagedObjectClassName: /* Error: Ran out of types for this method. */;
+- (id)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (id)dictionaryWithObject:(unsigned long long)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void)contactPair;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -62,44 +40,30 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)B92B96B100Q104B112;
+- (void)"NSMutableArray",&,N,V_hsTimeDelta;
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (unsigned int);
-- (_Bool);
+- (_Bool)0;
+- (unsigned int)fontWithDescriptor:size: /* Error: Ran out of types for this method. */;
+- (_Bool)@;
 - (_Bool);
 - (id);
 - (void);
 - (void)m>"16;
 - (id)EntryIndex"b1"has_serverSearchCompletionSectionIndex"b1"has_type"b1};
-- (_Bool)iStorefrontBundleIDsCount;
-- (void)dateURLLegacy;
-- (id)tedSections:deselectedSections: /* Error: Ran out of types for this method. */;
+- (_Bool)poiStorefrontBundleIDsCount;
+- (void)hasAddressCorrectionUpdateURLLegacy;
+- (id)composedRoute:selectedSections:deselectedSections: /* Error: Ran out of types for this method. */;
 - (id)àoìpqðq0ss¼s8t;
-- (id)metadata;
+- (id)raw_query_tokenizer_metadata;
 - (Class)¤
 ;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOABSecondPartyPlaceRequestClientMetaData *abAssignmentMetadata;
-@property(retain, nonatomic) GEOPDAnalyticMetadata *analyticMetadata;
-@property(retain, nonatomic) GEORPClientCapabilities *clientCapabilities;
-@property(readonly, nonatomic) _Bool hasAbAssignmentMetadata;
-@property(readonly, nonatomic) _Bool hasAnalyticMetadata;
-@property(readonly, nonatomic) _Bool hasClientCapabilities;
-@property(readonly, nonatomic) _Bool hasServicesState;
-@property(readonly, nonatomic) _Bool hasStatusNotificationId;
-@property(nonatomic) _Bool hasSuppressLogging;
 @property(readonly, nonatomic) _Bool hasUserCredentials;
-@property(retain, nonatomic) NSMutableArray *problemIds;
-@property(retain, nonatomic) GEOServicesState *servicesState;
-@property(retain, nonatomic) NSString *statusNotificationId;
-@property(nonatomic) _Bool suppressLogging;
-@property(retain, nonatomic) GEORPUserCredentials *userCredentials;
 
 @end
 

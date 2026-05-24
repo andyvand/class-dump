@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, EFLazyCache, MUILocalizationListFormatter;
+@class MUILocalizationListFormatter;
 @protocol EMUserProfileProvider;
 
 @interface MUIAddressListFormatter
 {
     id <EMUserProfileProvider> _userProfileProvider;
-    CNContactStore *_contactStore;
-    MUILocalizationListFormatter *_listFormatter;
-    EFLazyCache *_commentCache;
-    EFLazyCache *_addressCache;
-    EFLazyCache *_attributedAddressCache;
 }
 
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)c;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)ion;
 - (id);
-- (id)tionContextDictionaryKeyClickedAttachmentInfo;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id)(;
+- (void)nown bucket yaw:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)mui_serializedSpotlightSuggestionRepresentation;
+- (id)0;
+- (id)MUISelectionContextDictionaryKeyClickedAttachmentInfo;
 
 // Remaining properties
-@property(retain, nonatomic) EFLazyCache *addressCache; // @synthesize addressCache=_addressCache;
-@property(retain, nonatomic) EFLazyCache *attributedAddressCache; // @synthesize attributedAddressCache=_attributedAddressCache;
-@property(retain, nonatomic) EFLazyCache *commentCache; // @synthesize commentCache=_commentCache;
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(readonly, nonatomic) MUILocalizationListFormatter *listFormatter; // @synthesize listFormatter=_listFormatter;
-@property(readonly, nonatomic) id <EMUserProfileProvider> userProfileProvider; // @synthesize userProfileProvider=_userProfileProvider;
 
 @end
 

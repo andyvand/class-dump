@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _PASLock;
-@protocol OS_dispatch_queue;
-
 @interface PPEventStorage
 {
     CDUnknownBlockType _purgerGetter;
-    _PASLock *_lock;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
@@ -20,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)_handleFileTransfer:(id)arg1 updatedWithProperties:(id)arg2;
+- (id)d;
 - (_Bool);
 - (void);
 - (id);

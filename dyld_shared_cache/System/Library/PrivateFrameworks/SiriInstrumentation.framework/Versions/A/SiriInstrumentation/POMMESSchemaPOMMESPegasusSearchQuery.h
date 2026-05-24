@@ -6,19 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, POMMESSchemaPOMMESPegasusSearchQueryAmpUserState;
-
 @interface POMMESSchemaPOMMESPegasusSearchQuery : SISchemaInstrumentationMessage
 {
     _Bool _hasRewrittenUtterances;
-    NSArray *_userSpans;
-    _Bool _hasAudioQueueStateInfo;
-    POMMESSchemaPOMMESPegasusSearchQueryAmpUserState *_ampUserState;
-    struct {
-        unsigned int hasRewrittenUtterances:1;
-        unsigned int hasAudioQueueStateInfo:1;
-    } _has;
-    _Bool _hasAmpUserState;
 }
 
 - (id);
@@ -35,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,26 +34,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)d at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobManager_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ned zero results;
 - (id);
 - (id);
-- (id)ejectReason;
+- (id)_rejectReason;
 - (id)ExactMatchPriorSiriContactFamilyName;
-- (void)ERTASKTYPE_ADD;
+- (void)FLOWMEDIAPLAYERTASKTYPE_ADD;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusSearchQueryAmpUserState *ampUserState; // @synthesize ampUserState=_ampUserState;
-@property(nonatomic) _Bool hasAmpUserState; // @synthesize hasAmpUserState=_hasAmpUserState;
-@property(nonatomic) _Bool hasAudioQueueStateInfo; // @synthesize hasAudioQueueStateInfo=_hasAudioQueueStateInfo;
-@property(nonatomic) _Bool hasHasAudioQueueStateInfo;
-@property(nonatomic) _Bool hasHasRewrittenUtterances;
 @property(nonatomic) _Bool hasRewrittenUtterances; // @synthesize hasRewrittenUtterances=_hasRewrittenUtterances;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *userSpans; // @synthesize userSpans=_userSpans;
 
 @end
 

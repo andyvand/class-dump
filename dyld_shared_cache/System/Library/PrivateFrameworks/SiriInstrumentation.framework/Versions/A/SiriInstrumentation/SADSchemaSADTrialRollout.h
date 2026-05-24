@@ -6,25 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SADSchemaSADTrialRollout : SISchemaInstrumentationMessage
 {
     NSString *_rolloutId;
-    unsigned int _deployment;
-    NSString *_factorPack;
-    struct {
-        unsigned int deployment:1;
-    } _has;
-    _Bool _hasRolloutId;
-    _Bool _hasFactorPack;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)y;
 - (void);
 - (void);
 - (_Bool);
@@ -33,26 +26,20 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)T@"NSNumber",&,V_bytesImportedByXPC;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)}@;
 - (_Bool);
 - (unsigned int);
-- (_Bool);
+- (_Bool)h(OLD.ROWID, OLD.guid); END;
 - (id);
 - (id);
-- (id)HydrationMetrics;
+- (id)clearAnswerSynthesisHydrationMetrics;
 - (id)lInterface;
-- (void)NTACTACTIONTYPE_OTHER;
+- (void)INFERENCECONTACTACTIONTYPE_OTHER;
 
 // Remaining properties
-@property(nonatomic) unsigned int deployment; // @synthesize deployment=_deployment;
-@property(copy, nonatomic) NSString *factorPack; // @synthesize factorPack=_factorPack;
-@property(nonatomic) _Bool hasDeployment;
-@property(nonatomic) _Bool hasFactorPack; // @synthesize hasFactorPack=_hasFactorPack;
-@property(nonatomic) _Bool hasRolloutId; // @synthesize hasRolloutId=_hasRolloutId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
 
 @end

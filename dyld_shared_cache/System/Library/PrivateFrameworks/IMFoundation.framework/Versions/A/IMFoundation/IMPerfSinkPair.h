@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMPerfProfilerBehavior, IMPerfProfilerSink;
+@protocol IMPerfProfilerBehavior;
 
 @interface IMPerfSinkPair
 {
     id <IMPerfProfilerBehavior> _behavior;
-    id <IMPerfProfilerSink> _sink;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMPerfProfilerBehavior> behavior; // @synthesize behavior=_behavior;
-@property(readonly, nonatomic) id <IMPerfProfilerSink> sink; // @synthesize sink=_sink;
 
 @end
 

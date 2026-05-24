@@ -6,13 +6,9 @@
 
 #import <ExchangeWebServices/EWSRecurrencePatternBaseType.h>
 
-@class NSString;
-
 @interface EWSRelativeYearlyRecurrencePatternType : EWSRecurrencePatternBaseType
 {
     long long _DaysOfWeek;
-    long long _DayOfWeekIndex;
-    long long _Month;
 }
 
 + (id);
@@ -21,20 +17,11 @@
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long DayOfWeekIndex; // @synthesize DayOfWeekIndex=_DayOfWeekIndex;
 @property(nonatomic) long long DaysOfWeek; // @synthesize DaysOfWeek=_DaysOfWeek;
-@property(nonatomic) long long Month; // @synthesize Month=_Month;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

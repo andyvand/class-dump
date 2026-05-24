@@ -4,61 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes, NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOCameraInput
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOStyleAttributes *_cameraStyling;
-    NSMutableArray *_eventPositions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_cameraStyling:1;
-        unsigned int read_eventPositions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)etHasNavSessionRelativeTimestamp:(id)arg1;
-- (void);
-- (void);
-- (_Bool);
++ (Class);
++ (_Bool)setHasNavSessionRelativeTimestamp:(id)arg1;
+- (void)NEntitlementVerification>";
+- (void)withHandlersLock_addHandlerWithIdentifier:(id)arg1 block: /* Error: Ran out of types for this method. */;
+- (_Bool)P
+Country;
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)C;
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)disableLocalSpeechRecognizer;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_appendedAutoPunctuation;
 - (void);
-- (id)Attributes;
+- (id)recentSearchStyleAttributes;
 - (id)ß;
 - (id)CT region_id, iso_code, type, sort_order, time_zone_name, name, language_code, format, representative_latitude, representative_longitude    FROM region_view_v2    WHERE (type & @type) != 0 AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND icu_match(name, @name) != 0    ORDER BY sort_order, name COLLATE region_collater, iso_code, time_zone_name;;
 - (id)|°;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOStyleAttributes *cameraStyling;
 @property(retain, nonatomic) NSMutableArray *eventPositions;
-@property(readonly, nonatomic) _Bool hasCameraStyling;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

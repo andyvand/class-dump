@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOrderedSet;
+@class NSOrderedSet;
 
 @interface MLImageSizeConstraint
 {
     long long _type;
-    NSOrderedSet *_imageSizeSet;
-    struct _NSRange _pixelsWideRange;
-    struct _NSRange _pixelsHighRange;
 }
 
 + (unsigned long long);
@@ -24,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange);
 - (struct _NSRange);
 - (id);
 - (id);
@@ -33,11 +30,7 @@
 - (void)ecommender must be integers or strings.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *enumeratedImageSizes;
 @property(readonly, nonatomic) NSOrderedSet *imageSizeSet; // @synthesize imageSizeSet=_imageSizeSet;
-@property(readonly, nonatomic) struct _NSRange pixelsHighRange; // @synthesize pixelsHighRange=_pixelsHighRange;
-@property(readonly, nonatomic) struct _NSRange pixelsWideRange; // @synthesize pixelsWideRange=_pixelsWideRange;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

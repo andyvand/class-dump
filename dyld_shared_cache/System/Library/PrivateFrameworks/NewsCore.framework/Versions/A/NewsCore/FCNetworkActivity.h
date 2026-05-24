@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID;
+@class NSObject;
 @protocol OS_nw_activity;
 
 @interface FCNetworkActivity
 {
     NSObject<OS_nw_activity> *_activity;
-    unsigned int _domain;
-    unsigned int _label;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id);
 - (unsigned int);
 - (id);
 - (void)leReadEventCount:(unsigned int)arg1 %lld;
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int domain; // @synthesize domain=_domain;
-@property(nonatomic) unsigned int label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSUUID *token;
 
 @end
 

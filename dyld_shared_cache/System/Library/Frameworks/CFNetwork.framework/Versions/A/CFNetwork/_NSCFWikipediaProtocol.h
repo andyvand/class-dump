@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCFWikipediaProtocol : NSURLProtocol
 {
     const void *_instance;
-    const struct CFURLProtocolInstanceCallbacks *_callbacks;
 }
 
 + (_Bool);
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)colonsmall;
 - (void);
 
 @end

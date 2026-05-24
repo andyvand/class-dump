@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)alwaysIncludeAuthKitHeaders;
 + (void);
 + (void)µk;
 

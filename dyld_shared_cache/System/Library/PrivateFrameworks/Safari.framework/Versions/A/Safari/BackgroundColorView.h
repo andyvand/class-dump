@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface BackgroundColorView : ConfigurableVibrancyView
 {
     NSVisualEffectView *_windowBackgroundMaterialVisualEffectView;
-    NSColor *_backgroundColor;
-    double _cornerRadius;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -31,7 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
 
 @end
 

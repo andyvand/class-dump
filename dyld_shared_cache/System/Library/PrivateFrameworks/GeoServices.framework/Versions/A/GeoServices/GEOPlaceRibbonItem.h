@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAmenityRibbonItem, GEOContactlessPaymentsRibbonItem, GEOFactoidRibbonItem;
-
 @interface GEOPlaceRibbonItem
 {
     int _type;
-    GEOAmenityRibbonItem *_amenityItem;
-    GEOFactoidRibbonItem *_factoidItem;
-    GEOContactlessPaymentsRibbonItem *_contactlessPaymentsItem;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (_Bool);
@@ -26,11 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOAmenityRibbonItem *amenityItem; // @synthesize amenityItem=_amenityItem;
-@property(readonly, nonatomic) GEOContactlessPaymentsRibbonItem *contactlessPaymentsItem; // @synthesize contactlessPaymentsItem=_contactlessPaymentsItem;
-@property(readonly, nonatomic) GEOFactoidRibbonItem *factoidItem; // @synthesize factoidItem=_factoidItem;
 @property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

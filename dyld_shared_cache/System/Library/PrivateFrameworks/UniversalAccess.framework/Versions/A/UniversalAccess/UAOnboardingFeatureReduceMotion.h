@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (long long);
-- (void);
+- (void)e"b1"isWebSearchUsed"b1"isUserSignedIn"b1"modelParty"b1"modelLocation"b1"useCase"b1"externalPartner"b1"genAIAgentUsed"b1};
+- (long long)ctionEvaluationStarted";
+- (void)chemaFLOWLocationAccessPermissionPromptStarted";
 - (id);
 
 @end

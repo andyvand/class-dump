@@ -7,7 +7,6 @@
 @interface CDPWebAccessStateCache
 {
     _Bool _isValid;
-    unsigned long long _webAccessStatus;
 }
 
 + (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool isValid; // @synthesize isValid=_isValid;
 @property unsigned long long webAccessStatus; // @synthesize webAccessStatus=_webAccessStatus;
 
 @end

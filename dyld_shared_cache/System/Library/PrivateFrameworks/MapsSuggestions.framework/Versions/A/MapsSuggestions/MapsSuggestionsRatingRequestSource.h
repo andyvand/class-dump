@@ -6,15 +6,12 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseSource.h>
 
-@class MapsSuggestionsBudget, MapsSuggestionsMapsSync, MapsSuggestionsRoutine, NSObject, NSString;
+@class NSObject;
 @protocol MapsSuggestionsSourceDelegate, OS_dispatch_queue;
 
 @interface MapsSuggestionsRatingRequestSource : MapsSuggestionsBaseSource
 {
     NSObject<OS_dispatch_queue> *_queue;
-    MapsSuggestionsMapsSync *_mapsSync;
-    MapsSuggestionsRoutine *_routine;
-    MapsSuggestionsBudget *_budget;
 }
 
 + (_Bool);
@@ -31,15 +28,7 @@
 - (void)64d72Q80B88;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MapsSuggestionsSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

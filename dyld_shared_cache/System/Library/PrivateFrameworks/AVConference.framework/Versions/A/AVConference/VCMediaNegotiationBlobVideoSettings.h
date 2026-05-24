@@ -4,38 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobVideoSettings
 {
     unsigned int _customVideoHeight;
-    unsigned int _customVideoWidth;
-    unsigned int _hdrModesSupported;
-    unsigned int _pixelFormats;
-    unsigned int _rtpSSRC;
-    unsigned int _tilesPerFrame;
-    NSMutableArray *_videoPayloadCollections;
-    _Bool _allowRTCPFB;
-    _Bool _blackFrameOnClearScreenEnabled;
-    _Bool _enableInterleavedEncoding;
-    _Bool _fecEnabled;
-    _Bool _foveationSupported;
-    _Bool _ltrpEnabled;
-    _Bool _rtxEnabled;
-    struct {
-        unsigned int customVideoHeight:1;
-        unsigned int customVideoWidth:1;
-        unsigned int hdrModesSupported:1;
-        unsigned int pixelFormats:1;
-        unsigned int tilesPerFrame:1;
-        unsigned int blackFrameOnClearScreenEnabled:1;
-        unsigned int enableInterleavedEncoding:1;
-        unsigned int fecEnabled:1;
-        unsigned int foveationSupported:1;
-        unsigned int ltrpEnabled:1;
-        unsigned int rtxEnabled:1;
-    } _has;
 }
 
 + (Class);
@@ -65,49 +37,49 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (unsigned int)R	;
+- (id)7;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (unsigned int);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)y)q;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned int);
+- (unsigned int);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned int);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (unsigned int);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
-- (_Bool);
-- (void);
-- (unsigned int);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned int);
-- (void);
+- (unsigned int)ed polyline:%@ /* Error: Ran out of types for this method. */;
+- (void):(unsigned int)arg1 %.1f;
 - (void);
 - (id);
 - (void);
@@ -120,31 +92,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowRTCPFB; // @synthesize allowRTCPFB=_allowRTCPFB;
-@property(nonatomic) _Bool blackFrameOnClearScreenEnabled; // @synthesize blackFrameOnClearScreenEnabled=_blackFrameOnClearScreenEnabled;
-@property(nonatomic) unsigned int customVideoHeight; // @synthesize customVideoHeight=_customVideoHeight;
-@property(nonatomic) unsigned int customVideoWidth; // @synthesize customVideoWidth=_customVideoWidth;
-@property(nonatomic) _Bool enableInterleavedEncoding; // @synthesize enableInterleavedEncoding=_enableInterleavedEncoding;
-@property(nonatomic) _Bool fecEnabled; // @synthesize fecEnabled=_fecEnabled;
-@property(nonatomic) _Bool foveationSupported; // @synthesize foveationSupported=_foveationSupported;
-@property(nonatomic) _Bool hasBlackFrameOnClearScreenEnabled;
-@property(nonatomic) _Bool hasCustomVideoHeight;
-@property(nonatomic) _Bool hasCustomVideoWidth;
-@property(nonatomic) _Bool hasEnableInterleavedEncoding;
-@property(nonatomic) _Bool hasFecEnabled;
-@property(nonatomic) _Bool hasFoveationSupported;
-@property(nonatomic) _Bool hasHdrModesSupported;
-@property(nonatomic) _Bool hasLtrpEnabled;
-@property(nonatomic) _Bool hasPixelFormats;
-@property(nonatomic) _Bool hasRtxEnabled;
-@property(nonatomic) _Bool hasTilesPerFrame;
-@property(nonatomic) unsigned int hdrModesSupported; // @synthesize hdrModesSupported=_hdrModesSupported;
-@property(nonatomic) _Bool ltrpEnabled; // @synthesize ltrpEnabled=_ltrpEnabled;
-@property(nonatomic) unsigned int pixelFormats; // @synthesize pixelFormats=_pixelFormats;
 @property(nonatomic) unsigned int rtpSSRC; // @synthesize rtpSSRC=_rtpSSRC;
-@property(nonatomic) _Bool rtxEnabled; // @synthesize rtxEnabled=_rtxEnabled;
-@property(nonatomic) unsigned int tilesPerFrame; // @synthesize tilesPerFrame=_tilesPerFrame;
-@property(retain, nonatomic) NSMutableArray *videoPayloadCollections; // @synthesize videoPayloadCollections=_videoPayloadCollections;
 
 @end
 

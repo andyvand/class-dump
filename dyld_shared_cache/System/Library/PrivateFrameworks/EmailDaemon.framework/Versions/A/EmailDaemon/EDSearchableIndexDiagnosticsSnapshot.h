@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber;
+@class NSDate;
 
 @interface EDSearchableIndexDiagnosticsSnapshot
 {
     _Bool _turboMode;
-    NSDate *_date;
-    NSNumber *_indexableMessages;
-    NSNumber *_messagesIndexed;
-    NSNumber *_messagesToRedonate;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,11 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSNumber *indexableMessages; // @synthesize indexableMessages=_indexableMessages;
-@property(readonly, nonatomic) NSNumber *messagesIndexed; // @synthesize messagesIndexed=_messagesIndexed;
-@property(readonly, nonatomic) NSNumber *messagesToRedonate; // @synthesize messagesToRedonate=_messagesToRedonate;
-@property(readonly, nonatomic) _Bool turboMode; // @synthesize turboMode=_turboMode;
 
 @end
 

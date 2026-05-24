@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliSuggestedActionShowCoordinates, CTLazuliSuggestedActionShowQuery, NSString;
+@class CTLazuliSuggestedActionShowCoordinates;
 
 @interface CTLazuliSuggestedActionShowLocation
 {
     CTLazuliSuggestedActionShowCoordinates *_coordinates;
-    CTLazuliSuggestedActionShowQuery *_query;
-    NSString *_label;
-    NSString *_fallbackUrl;
 }
 
-+ (_Bool);
++ (_Bool)bytesDownloadedCount;
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void)ܗ;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)automaticallyNotifiesObserversForKey:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -34,9 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliSuggestedActionShowCoordinates *coordinates; // @synthesize coordinates=_coordinates;
-@property(retain, nonatomic) NSString *fallbackUrl; // @synthesize fallbackUrl=_fallbackUrl;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) CTLazuliSuggestedActionShowQuery *query; // @synthesize query=_query;
 
 @end
 

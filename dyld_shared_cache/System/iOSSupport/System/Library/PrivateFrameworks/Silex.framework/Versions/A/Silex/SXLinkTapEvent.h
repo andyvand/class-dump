@@ -6,12 +6,11 @@
 
 #import <Silex/SXAnalyticsEvent.h>
 
-@class NSURL, SXJSONDictionary;
+@class NSURL;
 
 @interface SXLinkTapEvent : SXAnalyticsEvent
 {
     NSURL *_destinationURL;
-    SXJSONDictionary *_analytics;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics=_analytics;
 @property(readonly, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
 
 @end

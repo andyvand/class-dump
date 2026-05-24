@@ -16,10 +16,10 @@
 + (id);
 + (id);
 + (unsigned short);
-+ (id);
++ (id)B;
 + (unsigned short);
 - (id);
-- (id);
+- (id)AMSNSUserNotificationStrategy;
 - (void);
 
 @end

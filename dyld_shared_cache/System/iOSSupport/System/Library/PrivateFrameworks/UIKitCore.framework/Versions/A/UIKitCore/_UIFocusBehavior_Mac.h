@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)`yÿ>h;
-- (long long);
+- (long long)?;
 - (_Bool);
+- (_Bool)};
+- (_Bool)_payloadAllowWebDistributionAppInstallation;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool)feature_inliers_delta_absmax;
+- (_Bool)file %s;
+- (long long)5.0;
 - (long long);
 - (_Bool);
 - (long long);
@@ -29,8 +29,8 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÔáÐ!Dù_ð1Â0@ù
 × ;
 - (long long);
-- (_Bool)eView:(id)arg1;
-- (_Bool)tyItemsConfigurationCanPerformAction:(id)arg1 sender: /* Error: Ran out of types for this method. */;
+- (_Bool)setReflectionImageView:(id)arg1;
+- (_Bool)_handleActivityItemsConfigurationCanPerformAction:(id)arg1 sender: /* Error: Ran out of types for this method. */;
 - (_Bool)total for this environment.;
 - (_Bool)pareSceneForLayout:(id)arg1 ];
 - (long long)SJG;

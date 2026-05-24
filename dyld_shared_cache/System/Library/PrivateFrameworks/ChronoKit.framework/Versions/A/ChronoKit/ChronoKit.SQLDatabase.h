@@ -7,13 +7,6 @@
 @interface ChronoKit.SQLDatabase
 {
     id defaultCacheSize;
-    id lock;
-    id database;
-    id databaseOpenedSuccessfully;
-    id corruptionHandler;
-    id locked_transactionCount;
-    id locked_attemptingTransactionCount;
-    id locked_largeCacheAssertionCount;
 }
 
 @end

@@ -7,8 +7,6 @@
 @interface NewsFeed.TagImageApplier
 {
     id imageCache;
-    id feedNavImageStyler;
-    id assetManager;
 }
 
 @end

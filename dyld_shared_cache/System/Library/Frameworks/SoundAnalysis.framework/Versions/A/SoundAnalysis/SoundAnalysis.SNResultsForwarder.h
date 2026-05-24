@@ -7,7 +7,6 @@
 @interface SoundAnalysis.SNResultsForwarder
 {
     id completionHandler;
-    id resultsHandler;
 }
 
 - (void);

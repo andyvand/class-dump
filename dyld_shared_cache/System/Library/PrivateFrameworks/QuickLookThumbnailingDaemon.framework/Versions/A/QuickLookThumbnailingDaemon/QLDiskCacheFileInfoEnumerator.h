@@ -6,17 +6,13 @@
 
 #import <QuickLookThumbnailingDaemon/QLDiskCacheEnumerator.h>
 
-@class QLCacheIndexDatabaseFileInfoEnumerator;
-
 __attribute__((visibility("hidden")))
 @interface QLDiskCacheFileInfoEnumerator : QLDiskCacheEnumerator
 {
     _Bool _extraInfo;
-    _Bool _ubiquitous;
-    QLCacheIndexDatabaseFileInfoEnumerator *_indexEnumerator;
 }
 
-- (id);
+- (id)case_identifier;
 - (id);
 - (void);
 

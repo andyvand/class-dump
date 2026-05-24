@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol PXFilterState
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool includeOthersInSocialGroupAssets;
 @property(readonly, nonatomic) _Bool isFiltering;
-@property(readonly, nonatomic) NSString *localizedDescription;
-@property(readonly, nonatomic) NSString *localizedFooterDescription;
 @end
 

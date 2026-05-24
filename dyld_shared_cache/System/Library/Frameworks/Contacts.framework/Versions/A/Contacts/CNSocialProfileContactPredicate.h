@@ -6,7 +6,7 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class CNSocialProfile, NSString;
+@class CNSocialProfile;
 
 __attribute__((visibility("hidden")))
 @interface CNSocialProfileContactPredicate : CNPredicate
@@ -26,24 +26,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AllowIPv6UnicastAddress;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)';
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CNSocialProfile *socialProfile; // @synthesize socialProfile=_socialProfile;
-@property(readonly) Class superclass;
 
 @end
 

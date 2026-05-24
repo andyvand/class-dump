@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface AMSDeviceOfferRegistrationItem
 {
     NSString *_model;
-    NSString *_serialNumber;
-    NSData *_validationData;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)plugin_type;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setGroupedDevices:(id)arg1;
 - (id);
 - (id)y",C,V_buttons;
 - (void)\ÈÕ.U×â1?éþûÞðk¯£ðGÏVX{êÖj7ÔGÓÁÊ£ùxÇ t}m1äQm3,I«ÆjØ¾Ñ|âÂÃt1íô§0ãD\mVp]ÌH¦.ª³èÝ´öo19Âb
 aÐ¨¨keÙËuKïÀþs°lË£¤v·â÷Üâê¶ç:°gÊ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *model; // @synthesize model=_model;
-@property(readonly) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly) Class superclass;
-@property(readonly) NSData *validationData; // @synthesize validationData=_validationData;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface AFAggregator
 {
     unsigned long long _type;
-    double _startTime;
-    _Bool _hasActiveRequest;
-    _Bool _sessionIsRetrying;
-    _Bool _retryPrefersWWAN;
 }
 
 + (void);
@@ -21,6 +17,17 @@
 + (void);
 + (void);
 + (void);
++ (void)h
+;
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void)N;
 + (void);
 + (void);
 + (void);
@@ -44,26 +51,16 @@
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)RIA;
++ (id)*;
 + (id);
-+ (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -73,7 +70,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long connectionType; // @synthesize connectionType=_type;
-@property(nonatomic) _Bool hasActiveRequest; // @synthesize hasActiveRequest=_hasActiveRequest;
 
 @end
 

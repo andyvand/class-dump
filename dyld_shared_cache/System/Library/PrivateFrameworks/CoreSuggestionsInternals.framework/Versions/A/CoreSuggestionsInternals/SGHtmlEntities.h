@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)IAccountSetupViewController",&,V_setupViewController;
 
 @end
 

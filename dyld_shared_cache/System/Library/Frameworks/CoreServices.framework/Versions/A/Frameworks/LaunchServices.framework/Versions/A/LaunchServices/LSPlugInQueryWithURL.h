@@ -13,14 +13,14 @@
     NSURL *_bundleURL;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)4;
+- (id)@;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (void)LW;
 
 @end

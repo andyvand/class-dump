@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOKService, NSObject, _TSF_IODConnection, _TSF_TSDgPTPClock;
-@protocol OS_dispatch_queue;
+@class IOKService;
 
 @interface _TSF_TSDgPTPManager
 {
     IOKService *_service;
-    _TSF_IODConnection *_connection;
-    _TSF_TSDgPTPClock *_systemDomain;
-    NSObject<OS_dispatch_queue> *_systemDomainQueue;
-    unsigned long long _systemDomainClockIdentifier;
 }
 
 + (id);
@@ -42,7 +37,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,14 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long airPlayPTPInstanceClockIdentifier;
 @property(readonly, nonatomic) unsigned long long avbPTPInstance0ClockIdentifier;
-@property(readonly, nonatomic) unsigned long long avbPTPInstance1ClockIdentifier;
-@property(readonly, nonatomic) unsigned long long avbPTPInstance2ClockIdentifier;
-@property(readonly, nonatomic) unsigned long long avbPTPInstance3ClockIdentifier;
-@property(readonly, nonatomic) unsigned long long copresencePTPInstanceClockIdentifier;
-@property(readonly, retain, nonatomic) _TSF_TSDgPTPClock *systemDomain; // @dynamic systemDomain;
-@property(readonly, nonatomic) unsigned long long systemDomainClockIdentifier; // @synthesize systemDomainClockIdentifier=_systemDomainClockIdentifier;
 
 @end
 

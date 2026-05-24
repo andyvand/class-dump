@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlaceInfosModuleConfiguration, NSArray;
+@class GEOPDPlaceInfosModuleConfiguration;
 
 @interface GEOPlaceDetailsModuleConfiguration
 {
@@ -18,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int attributionStyle;
-@property(readonly, nonatomic) NSArray *factoidReferences;
 @property(readonly, nonatomic) int locationStyle;
 
 @end

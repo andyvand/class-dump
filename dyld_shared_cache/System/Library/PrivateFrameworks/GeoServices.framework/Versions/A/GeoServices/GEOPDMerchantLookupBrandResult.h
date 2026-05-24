@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMerchantLookupBrandResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_merchantBrandLookupResponses;
-    int _statusCode;
-    CDStruct_ade9d5f7 _flags;
 }
 
 - (id);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ad_retainSearchs"b1"read_searchClientBehavior"b1"read_searchResultSections"b1"read_searchSessionData"b1"read_searchTierMetadatas"b1"read_sectionList"b1"wrote_anyField"b1};
-- (id)ssedDataViaAlgo: /* Error: Ran out of types for this method. */;
+- (id)_geo_compressedDataViaAlgo: /* Error: Ran out of types for this method. */;
 - (id)´35ô5x7;
 - (void);
 

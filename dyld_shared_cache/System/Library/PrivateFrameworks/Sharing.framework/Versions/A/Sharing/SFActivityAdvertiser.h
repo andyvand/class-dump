@@ -6,7 +6,6 @@
 
 #import <Sharing/SFXPCClient.h>
 
-@class NSString;
 @protocol SFActivityAdvertiserDelegate;
 
 @interface SFActivityAdvertiser : SFXPCClient
@@ -22,24 +21,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id)i;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)onRef, size_t, APTransportPackageRef *);
+- (void)imageWidth;
+- (void)QLDebugServerController;
+- (void)_isTBFCCapable;
 - (id)öÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id <SFActivityAdvertiserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

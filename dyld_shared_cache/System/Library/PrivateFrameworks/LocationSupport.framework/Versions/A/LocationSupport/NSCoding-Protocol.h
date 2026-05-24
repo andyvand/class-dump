@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id);
+- (void)olts) (Vp0C);
 @end
 

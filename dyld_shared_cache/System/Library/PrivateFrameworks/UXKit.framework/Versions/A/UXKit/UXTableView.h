@@ -6,9 +6,6 @@
 
 #import <UXKit/UXCollectionView.h>
 
-@class NSColor, NSIndexPath, NSMenu;
-@protocol UXTableViewDataSource, UXTableViewDelegate;
-
 @interface UXTableView : UXCollectionView
 {
     struct {
@@ -25,20 +22,6 @@
         unsigned int delegateImplementsEditingStyleForRowAtIndexPath:1;
         unsigned int delegateImplementsDidDeselectRowAtIndexPath:1;
     } _tableViewDelegateFlags;
-    struct {
-        unsigned int dataSourceImplementsNumberOfSectionsInTableView:1;
-        unsigned int dataSourceImplementsCanEditRowAtIndexPath:1;
-        unsigned int dataSourceImplementsCommitEditingStyleForRowAtIndexPath:1;
-    } _tableViewDataSourceFlags;
-    NSIndexPath *_highlightedIndexPath;
-    NSMenu *_observedMenu;
-    _Bool __floatingHeadersDisabled;
-    id <UXTableViewDataSource> _tableViewDataSource;
-    id <UXTableViewDelegate> _tableViewDelegate;
-    double _rowHeight;
-    long long _separatorStyle;
-    NSColor *_separatorColor;
-    struct NSEdgeInsets _separatorInset;
 }
 
 + (Class);
@@ -54,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -67,7 +50,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -81,16 +64,16 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)*;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -103,35 +86,78 @@
 - (long long);
 - (struct CGSize);
 - (long long);
-- (id);
-- (struct CGSize);
+- (id)"NUCropModel";
+- (struct CGSize)tch2DRect(sampler, ivec2(k0.x + oX, k0.y + oY));
+vec4 t0 = mix(t01, t00, a.y);
+vec4 t1 = mix(t11, t10, a.y);
+vec4 t = mix(t1, t0, a.x);
+return t;
+}
+vec4 linearSample3D(sampler3D sampler, vec3 coord)
+{
+ivec3 size = textureSize3D(sampler, 0);
+vec3 pos = coord * vec3(size - 1);
+ivec3 i = ivec3(pos);
+vec4 t000 = texelFetch3DOffset(sampler, i, 0, ivec3(0, 0, 0));
+vec4 t100 = texelFetch3DOffset(sampler, i, 0, ivec3(1, 0, 0));
+vec4 t010 = texelFetch3DOffset(sampler, i, 0, ivec3(0, 1, 0));
+vec4 t110 = texelFetch3DOffset(sampler, i, 0, ivec3(1, 1, 0));
+vec4 t001 = texelFetch3DOffset(sampler, i, 0, ivec3(0, 0, 1));
+vec4 t101 = texelFetch3DOffset(sampler, i, 0, ivec3(1, 0, 1));
+vec4 t011 = texelFetch3DOffset(sampler, i, 0, ivec3(0, 1, 1));
+vec4 t111 = texelFetch3DOffset(sampler, i, 0, ivec3(1, 1, 1));
+vec3 a = fract(pos);
+vec4 t00 = mix(t000, t001, a.z);
+vec4 t10 = mix(t100, t101, a.z);
+vec4 t01 = mix(t010, t011, a.z);
+vec4 t11 = mix(t110, t111, a.z);
+vec4 t0 = mix(t00, t01, a.y);
+vec4 t1 = mix(t10, t11, a.y);
+return mix(t0, t1, a.x);
+}
+vec4 tileSample(sampler2DRect tex, vec2 pos, vec2 zInv, vec4 validRect)
+{
+return linearSample2DRect(tex, pos, zInv, validRect);
+}
+vec4 colorMatch(vec4 color, sampler3D lut)
+{
+vec4 outColor = linearSample3D(lut, color.bgr);
+return outColor;
+}
+uniform sampler2DRect texture;
+uniform vec2 scaleInv;
+uniform vec4 textureValidRect;
+uniform sampler3D colorLUT;
+uniform vec4 debugColor;
+uniform vec4 channelMask;
+noperspective centroid varying vec2 texCoord;
+void main()
+{
+vec4 texColor = tileSample(texture, texCoord, scaleInv, textureValidRect);
+vec4 outColor = colorMatch(texColor, colorLUT);
+texColor = outColor + debugColor;
+gl_FragColor = texColor * channelMask;
+}
+;
 - (double);
-- (void);
+- (void)retainedWriteableTileAtIndex:(double)arg1;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)	;
 - (void);
 - (void)1Â0@ù
 × ;
 - (id)Úð!lFù1ð°1Â0@ù
 × ;
-- (struct NSEdgeInsets)rationViewOfKind:andIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ithRoundedRect:xRadius:yRadius: /* Error: Ran out of types for this method. */;
-- (id)edView;
-- (void)tioning;
+- (struct NSEdgeInsets)collectionItemKeyForDecorationViewOfKind:andIndexPath: /* Error: Ran out of types for this method. */;
+- (void)bezierPathWithRoundedRect:xRadius:yRadius: /* Error: Ran out of types for this method. */;
+- (id)_titleCenteringTrackedView;
+- (void)_isTransitioning;
 - (void)ÿ;
 - (long long)VûÿÂoUk^;
 
 // Remaining properties
-@property(nonatomic, setter=_setFloatingHeadersDisabled:) _Bool _floatingHeadersDisabled; // @synthesize _floatingHeadersDisabled=__floatingHeadersDisabled;
-@property(nonatomic) double alpha;
-@property(nonatomic) double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property(copy, nonatomic) NSColor *separatorColor; // @synthesize separatorColor=_separatorColor;
-@property(nonatomic) struct NSEdgeInsets separatorInset; // @synthesize separatorInset=_separatorInset;
-@property(nonatomic) long long separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(nonatomic) __weak id <UXTableViewDataSource> tableViewDataSource; // @synthesize tableViewDataSource=_tableViewDataSource;
-@property(nonatomic) __weak id <UXTableViewDelegate> tableViewDelegate; // @synthesize tableViewDelegate=_tableViewDelegate;
 @property(nonatomic, getter=isUserInteractionEnabled) _Bool userInteractionEnabled;
 
 @end

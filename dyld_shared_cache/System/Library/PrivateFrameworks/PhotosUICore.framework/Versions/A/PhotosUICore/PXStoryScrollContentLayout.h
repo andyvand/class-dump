@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXStoryScrollContentLayoutDelegate;
-
 @interface PXStoryScrollContentLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    struct {
-        _Bool scrollOffsetDidChange;
-    } _delegateRespondsTo;
-    id <PXStoryScrollContentLayoutDelegate> _delegate;
-    struct CGPoint _scrollOffset;
-    struct NSEdgeInsets _scrollableOutsets;
 }
 
 - (void);
@@ -22,7 +14,7 @@
 - (struct NSEdgeInsets);
 - (struct CGPoint);
 - (struct CGPoint);
-- (void);
+- (void);
 - (struct CGPoint);
 - (void);
 - (struct CGPoint);
@@ -33,13 +25,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (struct CGPoint)yndication;
+- (void)s; 
+			gl_FragColor = mix(color, borderColor, clamp(borderAlpha, 0., 1.)); 
+		} 
+		;
+- (struct CGPoint)internalPredicateToFilterAssetsEligibleForSyndication;
 - (void)! ;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXStoryScrollContentLayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) struct CGPoint scrollOffset; // @synthesize scrollOffset=_scrollOffset;
 @property(nonatomic) struct NSEdgeInsets scrollableOutsets; // @synthesize scrollableOutsets=_scrollableOutsets;
 
 @end

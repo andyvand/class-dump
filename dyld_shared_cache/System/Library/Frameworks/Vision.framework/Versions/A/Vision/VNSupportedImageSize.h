@@ -9,15 +9,9 @@
 @interface VNSupportedImageSize
 {
     unsigned long long _cachedCalculatedHash;
-    _Bool _orientationAgnostic;
-    unsigned int _idealImageFormat;
-    unsigned int _idealOrientation;
-    VNSizeRange *_pixelsWideRange;
-    VNSizeRange *_pixelsHighRange;
-    unsigned long long _aspectRatioHandling;
 }
 
-+ (_Bool);
++ (_Bool)v;
 - (_Bool);
 - (id);
 - (id);
@@ -27,7 +21,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)initWithPlistEntry:(id)arg1 bundle:bundleIdentifier: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -35,11 +29,6 @@
 - (void)d. Please use kCVPixelFormatType_OneComponent32Float or kCVPixelFormatType_OneComponent8;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long aspectRatioHandling; // @synthesize aspectRatioHandling=_aspectRatioHandling;
-@property(readonly, nonatomic) unsigned int idealImageFormat; // @synthesize idealImageFormat=_idealImageFormat;
-@property(readonly, nonatomic) unsigned int idealOrientation; // @synthesize idealOrientation=_idealOrientation;
-@property(readonly, nonatomic, getter=isOrientationAgnostic) _Bool orientationAgnostic; // @synthesize orientationAgnostic=_orientationAgnostic;
-@property(readonly, nonatomic) VNSizeRange *pixelsHighRange; // @synthesize pixelsHighRange=_pixelsHighRange;
 @property(readonly, nonatomic) VNSizeRange *pixelsWideRange; // @synthesize pixelsWideRange=_pixelsWideRange;
 
 @end

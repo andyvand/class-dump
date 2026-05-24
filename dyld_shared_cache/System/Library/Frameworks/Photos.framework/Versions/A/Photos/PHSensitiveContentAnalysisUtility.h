@@ -30,7 +30,7 @@
 + (_Bool);
 + (struct CGImage *);
 + (struct CGImage *);
-+ (void);
++ (void);
 + (_Bool);
 + (_Bool);
 

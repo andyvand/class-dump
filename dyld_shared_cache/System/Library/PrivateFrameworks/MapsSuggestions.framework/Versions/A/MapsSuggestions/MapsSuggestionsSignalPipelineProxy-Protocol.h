@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSuggestionsSignalPipelineProxy
+- (void);
 @end
 

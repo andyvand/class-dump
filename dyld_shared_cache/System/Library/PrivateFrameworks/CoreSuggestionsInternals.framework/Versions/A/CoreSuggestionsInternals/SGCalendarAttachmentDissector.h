@@ -6,7 +6,7 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class NSString, SGAccountsAdapter;
+@class SGAccountsAdapter;
 
 @interface SGCalendarAttachmentDissector : SGPipelineDissector
 {
@@ -19,9 +19,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)WithString:(id)arg1 … | creating mutable connection [mutating sql statement] statement=%{public}@;
 - (struct SGMEventICSSourceType_);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -29,13 +29,7 @@
 |À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

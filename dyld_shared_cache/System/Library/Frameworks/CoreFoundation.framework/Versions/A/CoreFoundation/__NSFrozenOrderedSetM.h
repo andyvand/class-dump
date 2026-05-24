@@ -10,19 +10,18 @@ __attribute__((visibility("hidden")))
 @interface __NSFrozenOrderedSetM : NSOrderedSet
 {
     _Atomic struct __cow_state_t *cow;
-    CDStruct_2595eaee storage;
 }
 
 + (_Bool);
 + (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)MTLTransformFeedbackState.;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)preferRunningInstance;
 - (id);
 - (id);
-- (void)ct;
+- (void)dict;
 - (id);
 - (unsigned long long);
 - (id)ÿÿÿÿ`yþÿÿÿÿÿÿÿÿÿÿÿÿÿðØÿÿÿÿÿÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;

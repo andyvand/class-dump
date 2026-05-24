@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (FezBundleHelpers)
-- (id);
+- (id)edEl";
 @end
 

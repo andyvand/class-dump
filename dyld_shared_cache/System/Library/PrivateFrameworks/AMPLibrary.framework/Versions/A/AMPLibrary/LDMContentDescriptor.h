@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface LDMContentDescriptor
 {
     struct DBContentDescriptor _contentDescriptor;
@@ -13,7 +11,7 @@
 
 + (_Bool);
 - (void *);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -22,14 +20,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)?;
 - (void);
-- (id)fo:(const void *)arg1 withClientID:withMediaDomains:withEventsDelegate:protocolVersion:error: /* Error: Ran out of types for this method. */;
+- (id)initWithClientInfo:(const void *)arg1 withClientID:withMediaDomains:withEventsDelegate:protocolVersion:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *cloudUniversalLibraryID;
 @property(readonly, nonatomic) _Bool isValid;
-@property(readonly, copy, nonatomic) NSString *libraryIdentifier;
 
 @end
 

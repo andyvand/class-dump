@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSISEngine, UIView;
+@class NSISEngine;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewLayoutEngineRelativeAlignmentRectOriginCache
 {
     struct CGPoint _cachedOrigin;
-    UIView *_delegate;
-    NSISEngine *_cacheEngine;
-    unsigned long long _variableChangeCount;
 }
 
 - (id);
@@ -21,18 +18,14 @@ __attribute__((visibility("hidden")))
 - (void)@ù
 × ;
 - (unsigned long long);
-- (id)t:velocity:currentPanTranslation: /* Error: Ran out of types for this method. */;
-- (id)lFocusRedirect;
+- (id)_rubberBandingReversalOffsetForOriginalOffset:velocity:currentPanTranslation: /* Error: Ran out of types for this method. */;
+- (id)_reloadInputViewsAfterPotentialFocusRedirect;
 - (struct CGPoint)TB,N,GisInOrderedArrangementUpdateSection,V_inOrderedArrangementUpdateSection;
 - (void)@?,C,N,V_menuHighlightBackgroundDescriptorProvider;
-- (void)SgXw;
+- (void)So23UIZoomTransitionOptionsCSgXw;
 
 // Remaining properties
 @property(nonatomic) __weak NSISEngine *cacheEngine; // @synthesize cacheEngine=_cacheEngine;
-@property(readonly, nonatomic) __weak UIView *delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) struct CGPoint origin;
-@property(nonatomic) unsigned long long variableChangeCount; // @synthesize variableChangeCount=_variableChangeCount;
 
 @end
 

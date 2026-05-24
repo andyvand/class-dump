@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMentionDetectorSpanData : SISchemaInstrumentationMessage
 {
     double _score;
-    CDStruct_4b1634df _has;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)?;
+- (_Bool)ally re-generated.;
+- (void)found;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (id)±Þ°1Â0@ù
 × ;
-- (double)tSampledAudioFileDeletionFailed: /* Error: Ran out of types for this method. */;
+- (double)setSampledAudioFileDeletionFailed: /* Error: Ran out of types for this method. */;
 - (id)TB,N,V_isSameCallRouteForSiriAndFollowup;
 - (id)chemaDictationContentEdited",&,N,V_dictationContentEdited;
 - (void)ÿÿøÿÿÿÿ0ÿÿLÿÿhÿÿÿÿ ÿÿ¼ÿÿØÿÿôÿÿÿÿ,ÿÿHÿÿdÿÿÿÿÿÿ¸ÿÿÔÿÿðÿÿÿÿ(ÿÿDÿÿ`ÿÿ|ÿÿÿÿ´ÿÿÐÿÿìÿÿÿÿ$ÿÿ@ÿÿ\ÿÿxÿÿÿÿ°ÿÿÌÿÿèÿÿÿÿ ÿÿ<ÿÿXÿÿtÿÿÿÿ¬ÿÿÈÿÿäÿÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double score; // @synthesize score=_score;
 
 @end

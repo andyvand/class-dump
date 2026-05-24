@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol AFDictationService
-- (oneway void)eCaseIdentifiersSettings;
+- (oneway void)_currentStatement;
+- (oneway void);
+- (oneway void);
+- (oneway void)sts:(NSString *)arg1 YES (isRunningPBAT);
+- (oneway void)desiredUseCaseIdentifiersSettings;
 @end
 

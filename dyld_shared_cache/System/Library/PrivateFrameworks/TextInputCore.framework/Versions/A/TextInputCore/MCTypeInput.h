@@ -6,16 +6,14 @@
 
 #import <TextInputCore/MCKeyboardInput.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MCTypeInput : MCKeyboardInput
 {
     NSString *_characters;
-    NSArray *_nearbyKeys;
-    struct CGPoint _point;
 }
 
-- (id);
+- (id)essibility.dictionary.TTY;
 - (id);
 - (id);
 - (id);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *characters; // @synthesize characters=_characters;
-@property(readonly, copy, nonatomic) NSArray *nearbyKeys; // @synthesize nearbyKeys=_nearbyKeys;
-@property(readonly, nonatomic) struct CGPoint point; // @synthesize point=_point;
 
 @end
 

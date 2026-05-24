@@ -7,26 +7,18 @@
 @interface WorkflowUIServices.ParameterSummaryView
 {
     id viewModel;
-    id font;
-    id suffixFont;
-    id textColor;
-    id suffixColor;
-    id suffixString;
-    id delegate;
-    id templateView;
-    id selectionQueue;
 }
 
 - (void);
-- (void);
+- (void)g;
 - (id);
+- (void)T*T;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
+- (void)zg;
+- (id)`w_n;
+- (id);
+- (struct CGSize)NIntentForwardingActionResponse";
 - (id);
 - (void);
 

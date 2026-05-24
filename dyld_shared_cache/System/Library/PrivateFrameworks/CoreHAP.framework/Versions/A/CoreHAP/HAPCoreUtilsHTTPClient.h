@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HAPCoreUtilsHTTPClient
 {
     struct os_unfair_lock_s _lock;
-    struct HTTPClientPrivate *_httpClient;
-    _Bool _isInvalidated;
 }
 
 - (void);
@@ -19,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (int);
 - (unsigned int);
 - (void);
-- (void);
+- (void)removeBreadcrumbsFromMessage: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)e.disk-image-udif;
 - (void);
 - (int);
 - (void);

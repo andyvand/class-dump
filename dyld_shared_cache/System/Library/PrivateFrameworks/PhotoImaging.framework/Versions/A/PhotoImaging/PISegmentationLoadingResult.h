@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface PISegmentationLoadingResult
 {
     _Bool _success;
-    id _object;
-    NSError *_error;
 }
 
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void)lass;
+- (id)a@9;
+- (_Bool)RE;
+- (void)superclass;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) id object; // @synthesize object=_object;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

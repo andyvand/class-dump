@@ -9,7 +9,6 @@
 @interface NewsFeed.RecipeLinkPresentationSource
 {
     id recipe;
-    id imageShareAttributeProvider;
 }
 
 - (id);

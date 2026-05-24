@@ -5,5 +5,9 @@
 //
 
 @protocol NUIContainerViewDelegate
+
+@optional
+- (void);
+- (struct CGSize);
 @end
 

@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)num: /* Error: Ran out of types for this method. */;
++ (long long)setCodableEnum: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ingAsCallCapability:(id)arg1;
+- (id)StringAsCallCapability:(id)arg1;
 
 @end
 

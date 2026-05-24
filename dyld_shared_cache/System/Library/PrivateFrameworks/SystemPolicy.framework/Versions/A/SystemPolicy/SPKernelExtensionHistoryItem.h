@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SPKernelExtensionHistoryItem
 {
     _Bool isNotarized;
-    _Bool isDeprecated;
-    _Bool isUnsupported;
-    _Bool isCodeless;
-    NSString *path;
-    NSString *bundleID;
-    NSString *teamID;
-    NSString *cdHash;
-    NSDate *lastUsed;
 }
 
 + (_Bool);
@@ -36,15 +28,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID;
-@property(readonly, nonatomic) NSString *cdHash; // @synthesize cdHash;
-@property(readonly, nonatomic) _Bool isCodeless; // @synthesize isCodeless;
-@property(readonly, nonatomic) _Bool isDeprecated; // @synthesize isDeprecated;
-@property(readonly, nonatomic) _Bool isNotarized; // @synthesize isNotarized;
-@property(readonly, nonatomic) _Bool isUnsupported; // @synthesize isUnsupported;
-@property(readonly, nonatomic) NSDate *lastUsed; // @synthesize lastUsed;
 @property(readonly, nonatomic) NSString *path; // @synthesize path;
-@property(readonly, nonatomic) NSString *teamID; // @synthesize teamID;
 
 @end
 

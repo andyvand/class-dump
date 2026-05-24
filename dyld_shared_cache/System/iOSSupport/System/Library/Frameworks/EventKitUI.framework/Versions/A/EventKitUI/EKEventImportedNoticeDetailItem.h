@@ -18,7 +18,7 @@
 - (_Bool);
 - (double)1Â0@ù
 × ;
-- (void)wVisible: /* Error: Ran out of types for this method. */;
+- (void)setIsNowVisible: /* Error: Ran out of types for this method. */;
 
 @end
 

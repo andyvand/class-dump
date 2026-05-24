@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RTAccount
 {
     _Bool _primaryEmailVerified;
-    _Bool _underageAccount;
-    NSString *_dsid;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_appleID;
-    NSString *_altDSID;
-    NSString *_primaryEmail;
-    NSString *_appleIDAlias;
-    NSArray *_appleIDAliases;
 }
 
 - (void);
@@ -25,13 +16,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)uitting;
+- (id)o CKKS:%@ /* Error: Ran out of types for this method. */;
+- (id)iled to push service %@ to CKKS:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)allocbind for %@ (token %lu bytes, key %lu bytes), participantID:%llu (LinkEngine) /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -48,16 +39,7 @@
 - (id)àÞÄÿô,w;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(retain, nonatomic) NSString *appleIDAlias; // @synthesize appleIDAlias=_appleIDAlias;
-@property(retain, nonatomic) NSArray *appleIDAliases; // @synthesize appleIDAliases=_appleIDAliases;
 @property(retain, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSString *primaryEmail; // @synthesize primaryEmail=_primaryEmail;
-@property(nonatomic) _Bool primaryEmailVerified; // @synthesize primaryEmailVerified=_primaryEmailVerified;
-@property(nonatomic) _Bool underageAccount; // @synthesize underageAccount=_underageAccount;
 
 @end
 

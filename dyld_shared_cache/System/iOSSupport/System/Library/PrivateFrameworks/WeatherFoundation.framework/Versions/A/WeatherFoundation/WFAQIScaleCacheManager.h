@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, WFAQIScale;
-
 @interface WFAQIScaleCacheManager
 {
     struct os_unfair_lock_s _dataSynchronizationLock;
-    WFAQIScale *_defaultScale;
-    NSMutableDictionary *_aqiScaleCache;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
+- (id)}}48@0:8{?={?=qq}{?=qq}}16 /* Error: Ran out of types for this method. */;
+- (id)ge>";
+- (void)dd}}16;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)irmation alert message to ask whether a user really wants to delete multiple sections, which do not have completed reminders;
 - (struct os_unfair_lock_s);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *aqiScaleCache; // @synthesize aqiScaleCache=_aqiScaleCache;
 @property(readonly, nonatomic) struct os_unfair_lock_s dataSynchronizationLock; // @synthesize dataSynchronizationLock=_dataSynchronizationLock;
-@property(readonly, nonatomic) WFAQIScale *defaultScale; // @synthesize defaultScale=_defaultScale;
 
 @end
 

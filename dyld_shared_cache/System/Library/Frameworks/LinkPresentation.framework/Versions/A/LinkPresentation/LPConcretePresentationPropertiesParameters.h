@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCaptionButtonPresentationProperties, NSAttributedString, NSColor;
-
 __attribute__((visibility("hidden")))
 @interface LPConcretePresentationPropertiesParameters
 {
     _Bool _usesComputedPresentationProperties;
-    _Bool _inComposeContext;
-    _Bool _inSenderContext;
-    _Bool _allowsTapping;
-    unsigned long long _effectiveSizeClass;
-    NSColor *_overrideSubtitleButtonColor;
-    NSColor *_overrideActionButtonColor;
-    NSAttributedString *_overrideSubtitle;
-    LPCaptionButtonPresentationProperties *_captionButton;
-    LPCaptionButtonPresentationProperties *_captionTextButton;
-    LPCaptionButtonPresentationProperties *_secondaryCaptionButton;
 }
 
 - (_Bool);
@@ -38,16 +26,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsTapping; // @synthesize allowsTapping=_allowsTapping;
-@property(readonly, nonatomic) LPCaptionButtonPresentationProperties *captionButton; // @synthesize captionButton=_captionButton;
-@property(readonly, nonatomic) LPCaptionButtonPresentationProperties *captionTextButton; // @synthesize captionTextButton=_captionTextButton;
-@property(readonly, nonatomic) unsigned long long effectiveSizeClass; // @synthesize effectiveSizeClass=_effectiveSizeClass;
-@property(readonly, nonatomic) _Bool inComposeContext; // @synthesize inComposeContext=_inComposeContext;
-@property(readonly, nonatomic) _Bool inSenderContext; // @synthesize inSenderContext=_inSenderContext;
-@property(readonly, nonatomic) NSColor *overrideActionButtonColor; // @synthesize overrideActionButtonColor=_overrideActionButtonColor;
-@property(readonly, nonatomic) NSAttributedString *overrideSubtitle; // @synthesize overrideSubtitle=_overrideSubtitle;
-@property(readonly, nonatomic) NSColor *overrideSubtitleButtonColor; // @synthesize overrideSubtitleButtonColor=_overrideSubtitleButtonColor;
-@property(readonly, nonatomic) LPCaptionButtonPresentationProperties *secondaryCaptionButton; // @synthesize secondaryCaptionButton=_secondaryCaptionButton;
 @property(readonly, nonatomic) _Bool usesComputedPresentationProperties; // @synthesize usesComputedPresentationProperties=_usesComputedPresentationProperties;
 
 @end

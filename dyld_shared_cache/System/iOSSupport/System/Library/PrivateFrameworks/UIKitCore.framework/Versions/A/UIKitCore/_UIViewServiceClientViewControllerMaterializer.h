@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtensionContext, NSString, NSUUID, UIViewController, _UIViewServiceSessionManager;
+@class UIViewController, _UIViewServiceSessionManager;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceClientViewControllerMaterializer
 {
     _UIViewServiceSessionManager *_sessionManager;
-    NSString *_requestedViewControllerClass;
-    NSUUID *_contextToken;
-    NSExtensionContext *_context;
-    UIViewController *_serviceViewController;
-    UIViewController *_containerViewController;
-    UIViewController *_materializedViewController;
 }
 
 - (void);
+- (id)I@yJ@y+;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)³µ;

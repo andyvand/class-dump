@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSKeyValueObserving)
-- (void);
+- (void)A;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterProtocol
 {
@@ -13,26 +11,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)momentOfPerson;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)Preferred;
+- (id)isMatterLocalLinkConnectedAndPreferred;
 - (long long);
 - (void)l&<æþåk&dæþåk&`æþåk&\æþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long protocol; // @synthesize protocol=_protocol;
-@property(readonly) Class superclass;
 
 @end
 

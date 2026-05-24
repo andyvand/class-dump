@@ -6,7 +6,7 @@
 
 @interface UnknownClass (UIScrollViewAccessibility)
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 

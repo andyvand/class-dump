@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, MPMediaLibrary, MPMediaLibraryArtwork, NSDictionary, NSNumber, NSString;
+@class ICUserIdentity;
 
 @interface MPMediaLibraryArtworkRequest
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _mediaType;
-    _Bool _hasRetrievedTokens;
-    double _retrievalTime;
-    NSString *_availableArtworkToken;
-    NSString *_fetchableArtworkToken;
-    NSNumber *_fetchableArtworkSource;
-    long long _entityType;
-    unsigned long long _libraryID;
-    long long _artworkType;
-    long long _variantType;
-    MPMediaLibraryArtwork *_libraryArtwork;
-    MPMediaLibrary *_library;
-    NSDictionary *_colorInfo;
-    ICUserIdentity *_userIdentity;
 }
 
 + (id);
@@ -40,45 +26,26 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)isGreatest;
+- (id)createOpFamilyStmt;
+- (id)alterFunctionStmt;
+- (void)aggregationMetadataFieldNotFound;
 - (void);
 - (long long);
-- (long long);
+- (long long)lityRequest"16@"<IMServiceReachabilityResponseHandler>"24;
 - (unsigned long long);
 - (id);
 - (long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)initWithParseRoot:scalarSubscoreCount:arraySubscoreCount:objectSubscoreCount: /* Error: Ran out of types for this method. */;
+- (id)duetReadBatchSize;
 - (unsigned long long);
 - (_Bool);
 - (id)>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_mutex"{shared_mutex="__base_"{__shared_mutex_base="__mut_"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}} /* Error: Ran out of types for this method. */;
 - (void),V_donatingAppEligible;
-- (id)teForMediaType:artworkType:artworkVariantType: /* Error: Ran out of types for this method. */;
+- (id)sizesToAutogenerateForMediaType:artworkType:artworkVariantType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long artworkType; // @synthesize artworkType=_artworkType;
-@property(copy, nonatomic) NSString *availableArtworkToken; // @synthesize availableArtworkToken=_availableArtworkToken;
-@property(copy, nonatomic) NSDictionary *colorInfo; // @synthesize colorInfo=_colorInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long entityType; // @synthesize entityType=_entityType;
-@property(copy, nonatomic) NSNumber *fetchableArtworkSource; // @synthesize fetchableArtworkSource=_fetchableArtworkSource;
-@property(copy, nonatomic) NSString *fetchableArtworkToken; // @synthesize fetchableArtworkToken=_fetchableArtworkToken;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MPMediaLibrary *library; // @synthesize library=_library;
-@property(readonly, nonatomic) MPMediaLibraryArtwork *libraryArtwork; // @synthesize libraryArtwork=_libraryArtwork;
-@property(readonly, nonatomic) unsigned long long libraryID; // @synthesize libraryID=_libraryID;
-@property(readonly, nonatomic) unsigned long long mediaType;
-@property(nonatomic) double retrievalTime; // @synthesize retrievalTime=_retrievalTime;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
-@property(readonly, nonatomic) long long variantType; // @synthesize variantType=_variantType;
 
 @end
 

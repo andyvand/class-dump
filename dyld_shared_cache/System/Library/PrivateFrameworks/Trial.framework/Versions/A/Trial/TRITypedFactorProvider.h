@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol TRINamespaceFactorProviding;
-
 @interface TRITypedFactorProvider
 {
     unsigned long long _type;
-    id <TRINamespaceFactorProviding> _provider;
-    NSString *_logDesc;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -31,8 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *logDesc; // @synthesize logDesc=_logDesc;
-@property(readonly, nonatomic) id <TRINamespaceFactorProviding> provider; // @synthesize provider=_provider;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

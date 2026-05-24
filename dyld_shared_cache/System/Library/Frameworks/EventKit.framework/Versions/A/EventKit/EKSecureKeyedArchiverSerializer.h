@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSString;
+@class EKEventStore;
 
 @interface EKSecureKeyedArchiverSerializer
 {
     EKEventStore *_eventStore;
-    NSString *_version;
 }
 
 - (id);
 - (id);
+- (id);
+- (id)id=%{sonic:(id)arg1 fourCC}d count not be ended [not found];
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)⽯r;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

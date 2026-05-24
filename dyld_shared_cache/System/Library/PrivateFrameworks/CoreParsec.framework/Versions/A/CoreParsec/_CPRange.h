@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPRange
 {
     unsigned long long _location;
-    unsigned long long _length;
 }
 
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)initWithDevice:(unsigned long long)arg1 calls:activeConversations:recentCalls:recentCallsContacts: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void)b;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(nonatomic) unsigned long long length; // @synthesize length=_length;
 @property(nonatomic) unsigned long long location; // @synthesize location=_location;
-@property(readonly) Class superclass;
 
 @end
 

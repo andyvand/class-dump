@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSObject, NSSet, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSScriptCommandDescriptionMoreIVars
 {
     NSArray *argumentDescriptions;
-    NSString *presentableDescription;
-    NSObject *presentableNameOrNames;
-    NSString *presentableResultDescription;
-    NSArray *synonymDescriptions;
-    NSSet *accessGroups;
-    _Bool isHidden;
-    _Bool isFromLegacyPropertyLists;
-    NSDictionary *cachedArgumentDescriptionsByName;
 }
 
 @end

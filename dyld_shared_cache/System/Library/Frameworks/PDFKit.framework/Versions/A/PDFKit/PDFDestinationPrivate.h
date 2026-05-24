@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFDocument, PDFPage;
+@class PDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface PDFDestinationPrivate
 {
     PDFDocument *document;
-    PDFPage *page;
-    struct CGPDFArray *array;
-    int type;
-    double left;
-    double top;
-    double right;
-    double bottom;
-    double zoom;
 }
 
-- (void);
+- (void)!';
 
 @end
 

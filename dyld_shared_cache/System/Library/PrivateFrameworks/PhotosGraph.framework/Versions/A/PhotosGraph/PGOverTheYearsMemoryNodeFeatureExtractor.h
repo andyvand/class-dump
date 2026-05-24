@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)set_attributesToInclude:(long long)arg1;
 - (id);
 
 @end

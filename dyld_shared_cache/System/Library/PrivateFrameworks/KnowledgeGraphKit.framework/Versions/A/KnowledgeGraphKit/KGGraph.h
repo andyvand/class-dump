@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-@protocol KGEntityFactory, KGGraphImplementation;
+@protocol KGGraphImplementation;
 
 @interface KGGraph
 {
     id <KGGraphImplementation> _implementation;
-    id <KGEntityFactory> _entityFactory;
 }
 
 - (id);
@@ -36,19 +34,17 @@
 - (id);
 - (id);
 - (id);
+- (id)updatePanelConfigurationForBackupBrowser: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)tion was disabled!;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)com.apple.menuextra.TimeMachine;
 
 // Remaining properties
-@property(readonly, nonatomic) id <KGEntityFactory> entityFactory; // @synthesize entityFactory=_entityFactory;
-@property(readonly, nonatomic) NSUUID *graphIdentifier;
 @property(readonly, nonatomic) id <KGGraphImplementation> implementation; // @synthesize implementation=_implementation;
 
 @end

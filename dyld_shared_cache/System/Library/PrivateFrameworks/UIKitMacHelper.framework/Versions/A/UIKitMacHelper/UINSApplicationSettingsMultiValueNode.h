@@ -6,23 +6,18 @@
 
 #import <UIKitMacHelper/UINSApplicationSettingsDefaultsSettingsNode.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UINSApplicationSettingsMultiValueNode : UINSApplicationSettingsDefaultsSettingsNode
 {
     _Bool _shouldSortByLocalizedTitles;
-    NSArray *_values;
-    NSArray *_localizedValueTitles;
-    NSArray *_localizedShortValueTitles;
-    NSString *_localizedDecoration;
-    NSString *_localizedFooter;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (id);
@@ -30,11 +25,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedDecoration; // @synthesize localizedDecoration=_localizedDecoration;
-@property(readonly, nonatomic) NSString *localizedFooter; // @synthesize localizedFooter=_localizedFooter;
-@property(readonly, copy, nonatomic) NSArray *localizedShortValueTitles; // @synthesize localizedShortValueTitles=_localizedShortValueTitles;
-@property(readonly, copy, nonatomic) NSArray *localizedValueTitles; // @synthesize localizedValueTitles=_localizedValueTitles;
-@property(readonly, nonatomic) _Bool shouldSortByLocalizedTitles; // @synthesize shouldSortByLocalizedTitles=_shouldSortByLocalizedTitles;
 @property(readonly, copy, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end

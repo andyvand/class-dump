@@ -5,5 +5,8 @@
 //
 
 @protocol IMDaemonListenerAVProtocol
+- (void);
+- (void)RemoteNetworkPaymentWebsocket;
+- (void)LUITesting;
 @end
 

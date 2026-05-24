@@ -6,12 +6,9 @@
 
 #import <ReplayKit/RPBorderlessEffectWindow.h>
 
-@class CALayer;
-
 @interface RPBlurWindow : RPBorderlessEffectWindow
 {
     _Bool animatesTransitions;
-    CALayer *_blurLayer;
 }
 
 - (void);
@@ -25,16 +22,14 @@
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (void);
+- (void).;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool animatesTransitions; // @synthesize animatesTransitions;
 @property struct CGRect blurFrame;
-@property(retain, nonatomic) CALayer *blurLayer; // @synthesize blurLayer=_blurLayer;
 
 @end
 

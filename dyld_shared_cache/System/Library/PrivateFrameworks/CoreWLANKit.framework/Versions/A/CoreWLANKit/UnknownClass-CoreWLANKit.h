@@ -5,6 +5,7 @@
 //
 
 @interface UnknownClass (CoreWLANKit)
++ (id);
 + (id);
 + (id);
 + (id);
@@ -13,10 +14,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Tj;
++ (id);
++ (id)";
 + (id);
 + (id);
 + (id);

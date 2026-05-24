@@ -11,7 +11,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)VNFaceLandmarkDetectorType;
 
 @end
 

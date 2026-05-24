@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PBReaderHyperlinkInfo
 {
     NSString *mHyperlink1;
-    NSString *mHyperlink2;
-    NSString *mScreenTip;
 }
 
 - (void);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *hyperlink1; // @synthesize hyperlink1=mHyperlink1;
-@property(retain, nonatomic) NSString *hyperlink2; // @synthesize hyperlink2=mHyperlink2;
-@property(retain, nonatomic) NSString *screenTip; // @synthesize screenTip=mScreenTip;
 
 @end
 

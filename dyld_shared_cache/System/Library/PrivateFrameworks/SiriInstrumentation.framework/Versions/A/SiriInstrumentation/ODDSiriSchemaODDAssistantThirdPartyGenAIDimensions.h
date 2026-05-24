@@ -6,28 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssistantDimensions;
+@class ODDSiriSchemaODDAssistantDimensions;
 
 @interface ODDSiriSchemaODDAssistantThirdPartyGenAIDimensions : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantDimensions *_assistantDimensions;
-    int _thirdPartyGenAIAgent;
-    int _requestStatus;
-    _Bool _isExplicitGenAIRequest;
-    int _requestType;
-    _Bool _isGenAIAware;
-    _Bool _isSuitableForGenAI;
-    _Bool _isAmbiguousRequest;
-    struct {
-        unsigned int thirdPartyGenAIAgent:1;
-        unsigned int requestStatus:1;
-        unsigned int isExplicitGenAIRequest:1;
-        unsigned int requestType:1;
-        unsigned int isGenAIAware:1;
-        unsigned int isSuitableForGenAI:1;
-        unsigned int isAmbiguousRequest:1;
-    } _has;
-    _Bool _hasAssistantDimensions;
 }
 
 - (int);
@@ -35,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,16 +31,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)˿;
 - (void);
 - (void);
 - (id);
@@ -66,7 +49,7 @@
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (unsigned long long);
@@ -85,22 +68,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantDimensions *assistantDimensions; // @synthesize assistantDimensions=_assistantDimensions;
-@property(nonatomic) _Bool hasAssistantDimensions; // @synthesize hasAssistantDimensions=_hasAssistantDimensions;
-@property(nonatomic) _Bool hasIsAmbiguousRequest;
-@property(nonatomic) _Bool hasIsExplicitGenAIRequest;
-@property(nonatomic) _Bool hasIsGenAIAware;
-@property(nonatomic) _Bool hasIsSuitableForGenAI;
-@property(nonatomic) _Bool hasRequestStatus;
-@property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) _Bool hasThirdPartyGenAIAgent;
-@property(nonatomic) _Bool isAmbiguousRequest; // @synthesize isAmbiguousRequest=_isAmbiguousRequest;
-@property(nonatomic) _Bool isExplicitGenAIRequest; // @synthesize isExplicitGenAIRequest=_isExplicitGenAIRequest;
-@property(nonatomic) _Bool isGenAIAware; // @synthesize isGenAIAware=_isGenAIAware;
-@property(nonatomic) _Bool isSuitableForGenAI; // @synthesize isSuitableForGenAI=_isSuitableForGenAI;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int requestStatus; // @synthesize requestStatus=_requestStatus;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
-@property(nonatomic) int thirdPartyGenAIAgent; // @synthesize thirdPartyGenAIAgent=_thirdPartyGenAIAgent;
 
 @end
 

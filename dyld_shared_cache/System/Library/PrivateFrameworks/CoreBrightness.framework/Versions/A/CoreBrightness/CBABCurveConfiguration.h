@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CBABCurveConfiguration
 {
     _Bool _isBuiltin;
-    _Bool _isEnergySaving;
-    NSString *_uuid;
-    NSNumber *_vendorID;
-    NSNumber *_productID;
-    NSNumber *_maxBrightness;
-    NSNumber *_minBrightness;
 }
 
 - (void);
@@ -33,17 +27,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id)tsBrightnessControlForDisplayWithVID:andPID: /* Error: Ran out of types for this method. */;
+- (id)supportsBrightnessControlForDisplayWithVID:andPID: /* Error: Ran out of types for this method. */;
 - (void)isMemberOfClass:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool isBuiltin; // @synthesize isBuiltin=_isBuiltin;
-@property(nonatomic) _Bool isEnergySaving; // @synthesize isEnergySaving=_isEnergySaving;
-@property(retain, nonatomic) NSNumber *maxBrightness; // @synthesize maxBrightness=_maxBrightness;
-@property(retain, nonatomic) NSNumber *minBrightness; // @synthesize minBrightness=_minBrightness;
-@property(retain, nonatomic) NSNumber *productID; // @synthesize productID=_productID;
 @property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSNumber *vendorID; // @synthesize vendorID=_vendorID;
 
 @end
 

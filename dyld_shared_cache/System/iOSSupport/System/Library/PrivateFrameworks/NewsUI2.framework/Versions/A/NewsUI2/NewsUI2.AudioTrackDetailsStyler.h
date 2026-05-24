@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioTrackDetailsStyler
 {
     id baseStyler;
-    id fontBookFactory;
-    id fontBookProviding;
 }
 
 @end

@@ -6,6 +6,9 @@
 
 @protocol TLKExtendedTableViewDelegate
 
+@optional
+- (void)s;
+
 // Remaining properties
 @property(readonly) _Bool selectOnHover;
 @end

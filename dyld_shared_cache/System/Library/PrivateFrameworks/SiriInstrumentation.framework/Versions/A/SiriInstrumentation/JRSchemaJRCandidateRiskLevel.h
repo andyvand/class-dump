@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJRCandidateRiskLevel : SISchemaInstrumentationMessage
 {
@@ -28,11 +28,10 @@
 - (id);
 - (id);
 - (id)rPack;
-- (id)ICSchemaSICInvocationStarted;
+- (id)SICSchemaSICInvocationStarted;
 - (void)ÈÝÿ	1É&";
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *riskLevels; // @synthesize riskLevels=_riskLevels;
 
 @end

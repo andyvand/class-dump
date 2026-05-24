@@ -13,9 +13,9 @@
 }
 
 + (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)deviceConditions;
 - (id);
-- (id);
+- (id);
 - (void)~a;
 
 // Remaining properties

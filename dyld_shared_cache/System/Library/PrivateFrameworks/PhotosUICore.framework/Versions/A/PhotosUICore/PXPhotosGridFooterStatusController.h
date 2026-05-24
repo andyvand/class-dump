@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, PHPhotoLibrary, PXAssetsDataSourceCountsController, PXCPLPhotoLibrarySource, PXCPLUIStatusProvider, PXLemonadeFeatureAvailabilityMonitor, PXPhotosViewModel;
+@class PXPhotosViewModel;
 @protocol PXPhotosGridFooterStatusControllerDelegate;
 
 @interface PXPhotosGridFooterStatusController
 {
     PXPhotosViewModel *_viewModel;
-    PHPhotoLibrary *_photoLibrary;
-    PXAssetsDataSourceCountsController *_countsController;
-    PXCPLPhotoLibrarySource *_photoLibrarySource;
-    PXCPLUIStatusProvider *_cplUIStatusProvider;
-    Class _cplActionManagerClass;
-    PXLemonadeFeatureAvailabilityMonitor *_featureAvailabilityMonitor;
-    NSView *_migratedSharedAlbumBannerView;
-    id <PXPhotosGridFooterStatusControllerDelegate> _delegate;
 }
 
 - (id);
@@ -33,14 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PXPhotosGridFooterStatusControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

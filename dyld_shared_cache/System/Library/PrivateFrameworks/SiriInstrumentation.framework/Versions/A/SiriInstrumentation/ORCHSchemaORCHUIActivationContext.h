@@ -6,27 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHUIActivationEnded, ORCHSchemaORCHUIActivationStarted, SISchemaUUID;
+@class ORCHSchemaORCHUIActivationStarted;
 
 @interface ORCHSchemaORCHUIActivationContext : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHUIActivationStarted *_startedOrChanged;
-    ORCHSchemaORCHUIActivationEnded *_ended;
-    SISchemaUUID *_trpId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasTrpId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (void);
@@ -35,28 +29,21 @@
 - (void);
 - (void);
 - (id);
+- (id)$;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool):(id)arg1 %@   (Results:%ld) /* Error: Ran out of types for this method. */;
+- (id);
 - (id)!lGùñÝ°1Â0@ù
 × ;
-- (id)errorKind;
+- (id)_errorKind;
 - (id)emaPSEHomeFollowupSignalGenerated",&,N,V_homeFollowupSignalGenerated;
 - (void)m.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHUIActivationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHUIActivationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

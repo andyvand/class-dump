@@ -6,13 +6,9 @@
 
 #import <PhotosUICore/PXStoryConcreteTransition.h>
 
-@class CAMediaTimingFunction;
-
 @interface PXStoryTransitionRotate : PXStoryConcreteTransition
 {
     double _angle;
-    CAMediaTimingFunction *_transformAnimationCurve;
-    CAMediaTimingFunction *_effectAnimationCurve;
 }
 
 - (void);

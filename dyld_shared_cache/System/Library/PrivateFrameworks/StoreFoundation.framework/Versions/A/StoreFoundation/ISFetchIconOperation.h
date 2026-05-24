@@ -11,9 +11,6 @@
 @interface ISFetchIconOperation : ISOperation
 {
     NSURL *_remoteURL;
-    NSURL *_localURL;
-    NSURL *_localIconURL;
-    NSNumber *_productID;
 }
 
 - (id);
@@ -23,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSURL *iconURL; // @synthesize iconURL=_localIconURL;
 @property(readonly) NSNumber *productID; // @synthesize productID=_productID;
 
 @end

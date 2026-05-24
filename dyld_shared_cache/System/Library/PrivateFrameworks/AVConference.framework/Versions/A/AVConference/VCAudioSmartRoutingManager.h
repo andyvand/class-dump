@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (void)cond=%f supportedPayloads=0x%08x streamID=%d qualityIndex=%d hasRepaired:(id)arg1 %u repairedMaxNetworkBitrate=%d repairedStreamID=%d;
-+ (id)_SplitVideoIntoPackets;
++ (id)VTU_SplitVideoIntoPackets;
 + (void)¨{ÿbí;
 - (void);
 - (_Bool);
-- (void);
+- (void)HN;
 - (id);
-- (void)gTask_block_invoke;
+- (void)_VCAudioReceiver_RegisterReportingTask_block_invoke;
 - (void)éâ';
 
 @end

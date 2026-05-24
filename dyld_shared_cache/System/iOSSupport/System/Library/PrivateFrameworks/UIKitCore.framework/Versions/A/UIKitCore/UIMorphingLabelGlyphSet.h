@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSMutableArray, UIMorphingLabel;
+@class UIMorphingLabel;
 
 __attribute__((visibility("hidden")))
 @interface UIMorphingLabelGlyphSet
 {
     UIMorphingLabel *_label;
-    NSAttributedString *_attributedString;
-    struct __CTLine *_line;
-    NSMutableArray *_glyphViews;
-    unsigned long long _glyphCount;
-    unsigned short *_glyphs;
-    struct CGRect *_glyphFrames;
-    struct CGPoint *_glyphPositions;
-    struct CGPoint _lineOrigin;
-    double _lineWidth;
 }
 
-- (void);
-- (const struct CGPoint *);
+- (void)wPasscodeModification;
+- (const struct CGPoint *)ڨ;
 - (void);
 - (id);
 - (const struct CGRect *)°!8CùñZ1Â0@ù
 × ;
 - (unsigned long long)Fù\Ð1Â0@ù
 × ;
-- (void)eparentingWrapper;
-- (const unsigned short *)LayoutGuideConstraintIfNecessaryAtTop: /* Error: Ran out of types for this method. */;
-- (id)ue;
-- (void)kgroundViewConfigurationGrouping;
+- (void)deparentingWrapper;
+- (const unsigned short *)_setUpLayoutGuideConstraintIfNecessaryAtTop: /* Error: Ran out of types for this method. */;
+- (id)_maxValue;
+- (void)_backgroundViewConfigurationGrouping;
 - (id)ment:%@ saving to URL:%@ with file type:%@, using final URL:%@ /* Error: Ran out of types for this method. */;
 - (struct CGRect)Provider.m;
 - (struct CGPoint)inerFrameVisibleFrame(CGRect, CGRect, CGRect, NSRectAlignment);
@@ -40,14 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)/^Ë;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
 @property(readonly, nonatomic) unsigned long long glyphCount; // @synthesize glyphCount=_glyphCount;
-@property(readonly, nonatomic) const struct CGRect *glyphFrames; // @synthesize glyphFrames=_glyphFrames;
-@property(readonly, nonatomic) const struct CGPoint *glyphPositions; // @synthesize glyphPositions=_glyphPositions;
-@property(readonly, nonatomic) NSArray *glyphViews; // @synthesize glyphViews=_glyphViews;
-@property(readonly, nonatomic) const unsigned short *glyphs; // @synthesize glyphs=_glyphs;
-@property(readonly, nonatomic) struct CGPoint lineOrigin; // @synthesize lineOrigin=_lineOrigin;
-@property(readonly, nonatomic) double lineWidth; // @synthesize lineWidth=_lineWidth;
 
 @end
 

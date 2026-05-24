@@ -15,10 +15,10 @@
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)";
 - (struct DMUDSPrivRec *);
 - (id);
-- (id);
+- (id)SampleBuffer=}16^{?={CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}24;
 - (_Bool);
 - (void);
 - (id);

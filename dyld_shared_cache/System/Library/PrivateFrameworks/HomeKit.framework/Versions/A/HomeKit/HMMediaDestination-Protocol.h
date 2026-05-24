@@ -7,12 +7,9 @@
 @class NSString;
 
 @protocol HMMediaDestination
+- (_Bool)=;
 
 // Remaining properties
 @property(readonly, copy) NSString *audioDestinationIdentifier;
-@property(readonly, copy) NSString *audioDestinationName;
-@property(readonly) long long audioDestinationType;
-@property(readonly) _Bool supportsAudioDestination;
-@property(readonly) _Bool supportsAudioGroup;
 @end
 

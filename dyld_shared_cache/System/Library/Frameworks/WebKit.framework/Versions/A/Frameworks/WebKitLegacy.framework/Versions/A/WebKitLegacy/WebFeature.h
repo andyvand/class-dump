@@ -9,36 +9,22 @@
 @interface WebFeature
 {
     _Bool _defaultValue;
-    _Bool _hidden;
-    NSString *_key;
-    NSString *_preferenceKey;
-    NSString *_name;
-    unsigned long long _status;
-    unsigned long long _category;
-    NSString *_details;
 }
 
+- (id)-: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)led for unknown reasons;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (id)MaskForLocal: /* Error: Ran out of types for this method. */;
+- (_Bool)loadMDMConfigurationWithError: /* Error: Ran out of types for this method. */;
+- (id)draggingSourceOperationMaskForLocal: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long category; // @synthesize category=_category;
-@property(readonly, nonatomic) _Bool defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, copy, nonatomic) NSString *details; // @synthesize details=_details;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
 @property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *preferenceKey; // @synthesize preferenceKey=_preferenceKey;
-@property(readonly, nonatomic) unsigned long long status; // @synthesize status=_status;
 
 @end
 

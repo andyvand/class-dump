@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol CKDismissViewDelegate;
 
 @interface CKDismissView
 {
     id <CKDismissViewDelegate> _delegate;
-    NSArray *_passthroughViews;
 }
 
-- (id);
+- (id)(!;
 - (id);
 - (void);
-- (void);
+- (void)8@16;
 - (void);
 - (id)HÀ;
 - (void)ÄxDÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKDismissViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSArray *passthroughViews; // @synthesize passthroughViews=_passthroughViews;
 
 @end
 

@@ -7,16 +7,10 @@
 @interface SwiftUI.TableOutlineItem
 {
     id id;
-    id row;
-    id parent;
-    id children;
-    id childrenIDs;
-    id resolvedRow;
-    id isExpanded;
 }
 
 - (id);
-- (long long);
+- (long long)!(cI;
 - (_Bool);
 - (void)ü¢¾þ;
 

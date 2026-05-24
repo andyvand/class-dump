@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTPickExpression : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    long long _index;
-    CDStruct_bde79ab9 _has;
-    _Bool _hasStatementId;
 }
 
 - (id);
@@ -22,9 +19,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)_getKeychainBackupDictionary;
+- (_Bool)ewController clickedOnLink:] /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
@@ -33,17 +30,13 @@
 - (id);
 - (id)
 × ;
-- (id)t;
+- (id)srt;
 - (long long)",&,N,V_failure;
-- (id)etArrivalContext;
+- (id)ASRSchemaASRAudioPacketArrivalContext;
 - (void)9ÐÿËz­'P#;
 - (void)öz¯®ì';
 
 // Remaining properties
-@property(nonatomic) _Bool hasIndex;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end

@@ -11,5 +11,8 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N
 
+// Error: Property attributes should begin with the type ('T') attribute, property name: v24@0:8@"<FCAppActivityObserving>"16
+// Property attributes: v24@0:8@"<FCAppActivityObserving>"16
+
 @end
 

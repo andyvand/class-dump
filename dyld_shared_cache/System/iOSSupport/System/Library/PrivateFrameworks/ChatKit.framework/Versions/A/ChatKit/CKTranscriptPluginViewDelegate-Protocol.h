@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CKTranscriptPluginView;
+
 @protocol CKTranscriptPluginViewDelegate
+- (void)initWithModernNoteContext:(id <CKTranscriptPluginView>)arg1 htmlNoteContext: /* Error: Ran out of types for this method. */;
 @end
 

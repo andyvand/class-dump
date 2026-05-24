@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)rences to itemID %lld;
 + (id)mnWidth,S_setPreferredPrimaryColumnWidth:(long long)arg1;
 - (id);
 - (id);
@@ -17,9 +17,9 @@
 - (id)@ù
 × ;
 - (id)n"16{_NSRange=QQ}24;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)UIWindowSceneActivationInteraction;
-- (id)yCt;
+- (id)inputSnapshotViewForInputMode:orientation: /* Error: Ran out of types for this method. */;
+- (id)_UIWindowSceneActivationInteraction;
+- (id)So18NSAttributedStringC_So12NSDictionaryCt;
 
 @end
 

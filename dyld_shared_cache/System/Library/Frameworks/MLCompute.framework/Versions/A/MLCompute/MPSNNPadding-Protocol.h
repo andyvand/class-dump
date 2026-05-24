@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPSImageDescriptor;
+
 @protocol MPSNNPadding
+
+@optional
+- (MPSImageDescriptor *);
 @end
 

@@ -4,81 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSLayoutDimension, NSMapTable, NSMutableArray, NSString, UIBarButtonItem, UIView, _UIBarButtonItemData, _UIButtonBarGroupOrderer, _UIButtonBarLayoutMetrics, _UIButtonBarStackView, _UIPointerInteractionAssistant;
-@protocol UIPointerInteractionDelegate, _UIButtonBarAppearanceDelegate, _UIButtonBarDelegate;
+@class NSArray, _UIButtonBarStackView;
 
 @interface _UIButtonBar
 {
     _UIButtonBarStackView *_stackView;
-    NSLayoutDimension *_flexibleSpaceEqualSizeAnchor;
-    NSLayoutDimension *_minimumInterItemSpaceAnchor;
-    NSLayoutConstraint *_minimumInterItemSpaceConstraint;
-    UIView *_centeredView;
-    NSLayoutConstraint *_centeringConstraint;
-    _UIButtonBarLayoutMetrics *_layoutMetrics;
-    NSMutableArray *_groupLayouts;
-    NSMutableArray *_effectiveLayout;
-    NSMapTable *_groupLayoutMap;
-    NSMutableArray *_layoutViews;
-    NSMutableArray *_layoutGuides;
-    NSMutableArray *_layoutActiveConstraints;
-    NSMapTable *_senderActionMap;
-    struct {
-        unsigned int isInLayoutReentrancyGuard:1;
-        unsigned int needsAppearanceUpdate:1;
-        unsigned int plainAppearanceChanged:1;
-        unsigned int doneAppearanceChanged:1;
-        unsigned int denyPointerInteractions:1;
-        unsigned int effectiveLayoutHasCriticalGroup:1;
-    } _buttonBarFlags;
-    _Bool _itemsInGroupUseSameSize;
-    _Bool _forceFixedSpacing;
-    _Bool _supportsOverflow;
-    _Bool _supportsAlwaysOverflowGroups;
-    NSArray *_barButtonGroups;
-    double _minimumInterItemSpace;
-    NSArray *_fixedLeadingGroups;
-    NSArray *_fixedTrailingGroups;
-    id <_UIButtonBarDelegate> _delegate;
-    double _targetLayoutWidth;
-    _UIButtonBarGroupOrderer *_groupOrderer;
-    CDUnknownBlockType _defaultActionFilter;
-    id <_UIButtonBarAppearanceDelegate> __appearanceDelegate;
-    _UIBarButtonItemData *_plainItemAppearance;
-    _UIBarButtonItemData *_doneItemAppearance;
-    _UIPointerInteractionAssistant *_assistant;
-    UIBarButtonItem *_popOverPresentingSourceItem;
-    CDUnknownBlockType _viewUpdater;
 }
 
 - (id);
 - (void);
 - (double);
 - (id);
+- (void)B;
+- (void)"MTL4MachineLearningPipelineReflection"16@0:8 /* Error: Ran out of types for this method. */;
+- (id);
+- (void)buildWithCertificate:(_Bool)arg1;
+- (_Bool)buildRequiredOnlyWithIdentifier:withName:withIdentityIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_payloadVPNSubType;
+- (void)_payloadAllowLockScreenControlCenter;
+- (id);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets).mmcs.%@;
 - (void);
 - (id);
 - (struct CGRect);
 - (void);
-- (CDStruct_39925896);
-- (CDUnknownBlockType);
-- (id);
+- (CDStruct_bd34ff7f)zed"b1"name"b1"artwork"b1};
+- (CDUnknownBlockType)__MPModelPropertyPodcastEpisodeReleaseDateComponents__MAPPING_MISSING__;
+- (id)importSubscriptionItemArtworkForPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -121,14 +81,14 @@
 - (id)atorContext"32@?<v@?>40;
 - (void)berpadPopoverController";
 - (void)"b1"textToUseIsAttributed"b1"forDrawing"b1"intrinsicMeasurement"b1};
-- (void)etReordering:(CDUnknownBlockType)arg1;
-- (CDStruct_39925896)em: /* Error: Ran out of types for this method. */;
-- (_Bool)owsReordering: /* Error: Ran out of types for this method. */;
-- (void)cenePresentationBinder:(CDUnknownBlockType)arg1 didStopPresentingScene: /* Error: Ran out of types for this method. */;
-- (void)ent:(id)arg1;
-- (void)entAnimations;
-- (id)cursivelySetHiddenForBackdropMaskViews: /* Error: Ran out of types for this method. */;
-- (_Bool)ationRunning;
+- (void)setReordering:(CDUnknownBlockType)arg1;
+- (CDStruct_bd34ff7f)setAnimatedAppearanceBarButtonItem: /* Error: Ran out of types for this method. */;
+- (_Bool)setAllowsReordering: /* Error: Ran out of types for this method. */;
+- (void)scenePresentationBinder:(CDUnknownBlockType)arg1 didStopPresentingScene: /* Error: Ran out of types for this method. */;
+- (void)requestFocusUpdateToEnvironment:(id)arg1;
+- (void)persistentAnimations;
+- (id)_recursivelySetHiddenForBackdropMaskViews: /* Error: Ran out of types for this method. */;
+- (_Bool)_isDictationRunning;
 - (_Bool)N,V_moveFromRange;
 - (void)isFrozen;
 - (unsigned long long)N,V_isUserTyping;
@@ -136,17 +96,17 @@
 - (void)r;
 - (id)el;
 - (id)napshot,S_setViewToSnapshot: /* Error: Ran out of types for this method. */;
-- (void)osition;
+- (void)centerForCurrentPlatterPosition;
 - (void)ightAttributes;
 - (id)xtLineRects,S_setTextLineRects:(id)arg1 ,V_textLineRects;
 - (void)¼Æ;
-- (id);
+- (id)m;
 - (void)@; dependentItems == %@;
 - (void);
 - (void)sed for displaying full-window/full-screen media content with views that are direct subviews or close descendants of the guide's window. %@;
 - (id)@;
 - (id)sform = capitalized;
-- (void)ringPresentation;
+- (void)UISearchControllerDimsBackgroundDuringPresentation;
 - (_Bool)ifier %@;
 - (id)eAccepted.isSticker;
 - (_Bool)+_forceLegacyVisualProvider override.;
@@ -181,51 +141,7 @@
 - (void)äÓe;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIButtonBarAppearanceDelegate> _appearanceDelegate; // @synthesize _appearanceDelegate=__appearanceDelegate;
-@property(readonly, nonatomic) UIView *_viewForOverlayRects;
-@property(nonatomic) _Bool allowsViewWrappers;
-@property(nonatomic) __weak _UIPointerInteractionAssistant *assistant; // @synthesize assistant=_assistant;
-@property(readonly, nonatomic) UIView<UIPointerInteractionDelegate> *assistantView;
-@property(copy, nonatomic) NSArray *barButtonGroups; // @synthesize barButtonGroups=_barButtonGroups;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) CDUnknownBlockType defaultActionFilter; // @synthesize defaultActionFilter=_defaultActionFilter;
-@property(nonatomic) __weak id <_UIButtonBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIBarButtonItemData *doneItemAppearance; // @synthesize doneItemAppearance=_doneItemAppearance;
-@property(readonly, nonatomic) _Bool doneItemAppearanceNeedsUpdate;
-@property(readonly, copy, nonatomic) NSArray *elementsForOverflowMenu;
-@property(readonly, copy, nonatomic) NSArray *elementsRepresentingOrderedGroups;
 @property(copy, nonatomic) NSArray *fixedLeadingGroups; // @synthesize fixedLeadingGroups=_fixedLeadingGroups;
-@property(copy, nonatomic) NSArray *fixedTrailingGroups; // @synthesize fixedTrailingGroups=_fixedTrailingGroups;
-@property(nonatomic) _Bool forceFixedSpacing; // @synthesize forceFixedSpacing=_forceFixedSpacing;
-@property(retain, nonatomic) _UIButtonBarGroupOrderer *groupOrderer; // @synthesize groupOrderer=_groupOrderer;
-@property(readonly, copy, nonatomic) NSArray *groupRealizedOrder;
-@property(readonly, nonatomic) _Bool hasAlwaysOverflowGroups;
-@property(readonly, nonatomic) _Bool hasVisibleContent;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct NSDirectionalEdgeInsets hitTestDirectionalInsets;
-@property(nonatomic) struct UIEdgeInsets hitTestInsets;
-@property(nonatomic) long long itemDistribution;
-@property(nonatomic) _Bool itemsInGroupUseSameSize; // @synthesize itemsInGroupUseSameSize=_itemsInGroupUseSameSize;
-@property(readonly, nonatomic) UIBarButtonItem *leadingVisibleItem;
-@property(nonatomic) double minimumInterItemSpace; // @synthesize minimumInterItemSpace=_minimumInterItemSpace;
-@property(readonly, nonatomic) _Bool needsLeadingSpacer;
-@property(readonly, nonatomic) _Bool needsTrailingSpacer;
-@property(retain, nonatomic) _UIBarButtonItemData *plainItemAppearance; // @synthesize plainItemAppearance=_plainItemAppearance;
-@property(readonly, nonatomic) _Bool plainItemAppearanceNeedsUpdate;
-@property(nonatomic) __weak UIBarButtonItem *popOverPresentingSourceItem; // @synthesize popOverPresentingSourceItem=_popOverPresentingSourceItem;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAlwaysOverflowGroups; // @synthesize supportsAlwaysOverflowGroups=_supportsAlwaysOverflowGroups;
-@property(nonatomic) _Bool supportsOverflow; // @synthesize supportsOverflow=_supportsOverflow;
-@property(nonatomic) double targetLayoutWidth; // @synthesize targetLayoutWidth=_targetLayoutWidth;
-@property(readonly, nonatomic) UIBarButtonItem *trailingClippingItem;
-@property(readonly, nonatomic) UIBarButtonItem *trailingVisibleItem;
-@property(readonly, nonatomic) UIView *view;
-@property(copy, nonatomic) CDUnknownBlockType viewUpdater; // @synthesize viewUpdater=_viewUpdater;
-@property(readonly, nonatomic) CDStruct_39925896 widthInfo;
 
 @end
 

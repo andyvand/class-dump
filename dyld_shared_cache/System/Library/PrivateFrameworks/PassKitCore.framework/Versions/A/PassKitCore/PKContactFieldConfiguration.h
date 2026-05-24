@@ -12,12 +12,12 @@
 + (id);
 + (_Bool)î%Ð1Â0@ù
 × ;
+- (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)readDefaultAppearanceStringFromPDFDictionary:ofPage:toDictionary: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)rovisioningCertificatesResponse;
+- (id)PKPaymentIssuerProvisioningCertificatesResponse;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;

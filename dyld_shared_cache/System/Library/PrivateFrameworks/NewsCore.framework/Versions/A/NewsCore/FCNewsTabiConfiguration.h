@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiAdSegmentsEndpoint, FCNewsTabiChannelPickerSuggestionsConfiguration, FCNewsTabiChannelPickerSuggestionsEndpoint, FCNewsTabiEventAggregationConfiguration, FCNewsTabiFeedPersonalizationConfiguration, FCNewsTabiFeedPersonalizationEndpoint, FCNewsTabiMyMagazinesConfiguration, FCNewsTabiMyMagazinesEndpoint, FCNewsTabiNotificationScoringConfiguration, FCNewsTabiNotificationScoringEndpoint, FCNewsTabiPersonalizedPaywallsConfiguration, FCNewsTabiPersonalizedPaywallsEndpoint, FCNewsTabiRecipeDiversificationConfiguration, FCNewsTabiRecipeDiversificationEndpoint, FCNewsTabiRecipeScoringConfiguration, FCNewsTabiRecipeScoringEndpoint, FCNewsTabiRecipeTagSuggestionsConfiguration, FCNewsTabiRecipeTagSuggestionsEndpoint, FCNewsTabiRecommendedIssuesConfiguration, FCNewsTabiRecommendedIssuesEndpoint, FCNewsTabiRecommendedTagsConfiguration, FCNewsTabiRecommendedTagsEndpoint, FCNewsTabiSmarterFetchConfiguration, FCNewsTabiSmarterFetchEndpoint, FCNewsTabiTagCohortMembershipConfiguration, FCNewsTabiTagCohortMembershipEndpoint, FCNewsTabiTagScoringConfiguration, FCNewsTabiTagScoringEndpoint, FCNewsTabiTagSuggestionsConfiguration, FCNewsTabiTagSuggestionsEndpoint, FCNewsTabiUnloadGraphOnBackgroundConfiguration, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface FCNewsTabiConfiguration
 {
     NSString *_version;
-    FCNewsTabiAdSegmentsEndpoint *_adSegmentsEndpoint;
-    FCNewsTabiChannelPickerSuggestionsConfiguration *_channelPickerSuggestionsConfiguration;
-    FCNewsTabiEventAggregationConfiguration *_eventAggregationConfiguration;
-    FCNewsTabiFeedPersonalizationConfiguration *_feedPersonalizationConfiguration;
-    long long _mlComputeUnits;
-    NSArray *_packageAssetIDs;
-    FCNewsTabiPersonalizedPaywallsConfiguration *_personalizedPaywallsConfiguration;
-    FCNewsTabiRecommendedIssuesConfiguration *_recommendedIssuesConfiguration;
-    FCNewsTabiUnloadGraphOnBackgroundConfiguration *_unloadGraphOnBackgroundConfiguration;
-    NSDictionary *_dictionary;
-    FCNewsTabiChannelPickerSuggestionsEndpoint *_channelPickerSuggestionsEndpoint;
-    FCNewsTabiFeedPersonalizationEndpoint *_feedPersonalizationEndpoint;
-    FCNewsTabiMyMagazinesEndpoint *_myMagazinesEndpoint;
-    FCNewsTabiNotificationScoringEndpoint *_notificationScoringEndpoint;
-    FCNewsTabiPersonalizedPaywallsEndpoint *_personalizedPaywallsEndpoint;
-    FCNewsTabiRecommendedIssuesEndpoint *_recommendedIssuesEndpoint;
-    FCNewsTabiRecommendedTagsEndpoint *_recommendedTagsEndpoint;
-    FCNewsTabiTagCohortMembershipEndpoint *_tagCohortMembershipEndpoint;
-    FCNewsTabiTagScoringEndpoint *_tagScoringEndpoint;
-    FCNewsTabiTagSuggestionsEndpoint *_tagSuggestionsEndpoint;
-    FCNewsTabiRecipeScoringEndpoint *_recipeScoringEndpoint;
-    FCNewsTabiRecipeDiversificationEndpoint *_recipeDiversificationEndpoint;
-    FCNewsTabiRecipeTagSuggestionsEndpoint *_recipeTagSuggestionsEndpoint;
-    FCNewsTabiSmarterFetchEndpoint *_smarterFetchEndpoint;
 }
 
 - (id);
@@ -44,6 +20,7 @@
 - (id);
 - (id);
 - (id);
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -56,13 +33,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id)9	}S)	(H*;
 - (id);
 - (id);
 - (id);
@@ -74,11 +54,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
@@ -90,52 +66,18 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)M;
 - (void);
 - (id)
 × ;
 - (void)KRecordZoneID"8@"CKRecordZone"16^B24;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiAdSegmentsEndpoint *adSegmentsEndpoint; // @synthesize adSegmentsEndpoint=_adSegmentsEndpoint;
-@property(retain, nonatomic) FCNewsTabiChannelPickerSuggestionsConfiguration *channelPickerSuggestionsConfiguration; // @synthesize channelPickerSuggestionsConfiguration=_channelPickerSuggestionsConfiguration;
-@property(retain, nonatomic) FCNewsTabiChannelPickerSuggestionsEndpoint *channelPickerSuggestionsEndpoint; // @synthesize channelPickerSuggestionsEndpoint=_channelPickerSuggestionsEndpoint;
-@property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(retain, nonatomic) FCNewsTabiEventAggregationConfiguration *eventAggregationConfiguration; // @synthesize eventAggregationConfiguration=_eventAggregationConfiguration;
-@property(retain, nonatomic) FCNewsTabiFeedPersonalizationConfiguration *feedPersonalizationConfiguration; // @synthesize feedPersonalizationConfiguration=_feedPersonalizationConfiguration;
-@property(retain, nonatomic) FCNewsTabiFeedPersonalizationEndpoint *feedPersonalizationEndpoint; // @synthesize feedPersonalizationEndpoint=_feedPersonalizationEndpoint;
-@property(nonatomic) long long mlComputeUnits; // @synthesize mlComputeUnits=_mlComputeUnits;
-@property(readonly, nonatomic) FCNewsTabiMyMagazinesConfiguration *myMagazinesConfiguration;
-@property(retain, nonatomic) FCNewsTabiMyMagazinesEndpoint *myMagazinesEndpoint; // @synthesize myMagazinesEndpoint=_myMagazinesEndpoint;
-@property(readonly, nonatomic) FCNewsTabiNotificationScoringConfiguration *notificationScoringConfiguration;
-@property(retain, nonatomic) FCNewsTabiNotificationScoringEndpoint *notificationScoringEndpoint; // @synthesize notificationScoringEndpoint=_notificationScoringEndpoint;
-@property(retain, nonatomic) NSArray *packageAssetIDs; // @synthesize packageAssetIDs=_packageAssetIDs;
-@property(retain, nonatomic) FCNewsTabiPersonalizedPaywallsConfiguration *personalizedPaywallsConfiguration; // @synthesize personalizedPaywallsConfiguration=_personalizedPaywallsConfiguration;
-@property(retain, nonatomic) FCNewsTabiPersonalizedPaywallsEndpoint *personalizedPaywallsEndpoint; // @synthesize personalizedPaywallsEndpoint=_personalizedPaywallsEndpoint;
-@property(readonly, nonatomic) FCNewsTabiRecipeDiversificationConfiguration *recipeDiversificationConfiguration;
-@property(retain, nonatomic) FCNewsTabiRecipeDiversificationEndpoint *recipeDiversificationEndpoint; // @synthesize recipeDiversificationEndpoint=_recipeDiversificationEndpoint;
-@property(readonly, nonatomic) FCNewsTabiRecipeScoringConfiguration *recipeScoringConfiguration;
-@property(retain, nonatomic) FCNewsTabiRecipeScoringEndpoint *recipeScoringEndpoint; // @synthesize recipeScoringEndpoint=_recipeScoringEndpoint;
-@property(readonly, nonatomic) FCNewsTabiRecipeTagSuggestionsConfiguration *recipeTagSuggestionsConfiguration;
-@property(retain, nonatomic) FCNewsTabiRecipeTagSuggestionsEndpoint *recipeTagSuggestionsEndpoint; // @synthesize recipeTagSuggestionsEndpoint=_recipeTagSuggestionsEndpoint;
-@property(retain, nonatomic) FCNewsTabiRecommendedIssuesConfiguration *recommendedIssuesConfiguration; // @synthesize recommendedIssuesConfiguration=_recommendedIssuesConfiguration;
-@property(retain, nonatomic) FCNewsTabiRecommendedIssuesEndpoint *recommendedIssuesEndpoint; // @synthesize recommendedIssuesEndpoint=_recommendedIssuesEndpoint;
-@property(readonly, nonatomic) FCNewsTabiRecommendedTagsConfiguration *recommendedTagsConfiguration;
-@property(retain, nonatomic) FCNewsTabiRecommendedTagsEndpoint *recommendedTagsEndpoint; // @synthesize recommendedTagsEndpoint=_recommendedTagsEndpoint;
-@property(readonly, nonatomic) FCNewsTabiSmarterFetchConfiguration *smarterFetchConfiguration;
-@property(retain, nonatomic) FCNewsTabiSmarterFetchEndpoint *smarterFetchEndpoint; // @synthesize smarterFetchEndpoint=_smarterFetchEndpoint;
-@property(readonly, nonatomic) FCNewsTabiTagCohortMembershipConfiguration *tagCohortMembershipConfiguration;
-@property(retain, nonatomic) FCNewsTabiTagCohortMembershipEndpoint *tagCohortMembershipEndpoint; // @synthesize tagCohortMembershipEndpoint=_tagCohortMembershipEndpoint;
-@property(readonly, nonatomic) FCNewsTabiTagScoringConfiguration *tagScoringConfiguration;
-@property(retain, nonatomic) FCNewsTabiTagScoringEndpoint *tagScoringEndpoint; // @synthesize tagScoringEndpoint=_tagScoringEndpoint;
-@property(readonly, nonatomic) FCNewsTabiTagSuggestionsConfiguration *tagSuggestionsConfiguration;
-@property(retain, nonatomic) FCNewsTabiTagSuggestionsEndpoint *tagSuggestionsEndpoint; // @synthesize tagSuggestionsEndpoint=_tagSuggestionsEndpoint;
-@property(readonly, nonatomic) FCNewsTabiUnloadGraphOnBackgroundConfiguration *unloadGraphOnBackgroundConfiguration; // @synthesize unloadGraphOnBackgroundConfiguration=_unloadGraphOnBackgroundConfiguration;
 @property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

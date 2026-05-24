@@ -8,11 +8,11 @@
 {
 }
 
-+ (unsigned long long);
++ (unsigned long long))%ښ);
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)updateBackForwardReferencesFromBrowserViewController:oldBackForwardListItemsToNewBackForwardListItemsMap: /* Error: Ran out of types for this method. */;
 
 @end
 

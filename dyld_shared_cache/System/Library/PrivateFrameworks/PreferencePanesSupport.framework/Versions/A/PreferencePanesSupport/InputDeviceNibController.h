@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class InputDeviceController, NSButton, NSString, NSView;
+@class NSView;
 
 @interface InputDeviceNibController
 {
     NSView *mContentView;
-    NSButton *mSetupBTButton;
-    InputDeviceController *mController;
-    NSButton *mSetupBTBackButton;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,10 +32,6 @@
 
 // Remaining properties
 @property(readonly) NSView *contentView; // @synthesize contentView=mContentView;
-@property(readonly) InputDeviceController *controller; // @synthesize controller=mController;
-@property(readonly) NSString *nibFileName; // @dynamic nibFileName;
-@property(readonly) NSButton *setupBTBackButton; // @synthesize setupBTBackButton=mSetupBTBackButton;
-@property(readonly) NSButton *setupBTButton; // @synthesize setupBTButton=mSetupBTButton;
 
 @end
 

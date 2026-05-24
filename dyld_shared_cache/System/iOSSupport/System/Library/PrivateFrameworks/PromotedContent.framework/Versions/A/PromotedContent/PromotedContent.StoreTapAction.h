@@ -9,7 +9,6 @@
 @interface PromotedContent.StoreTapAction : APPCTapAction
 {
     id adamIdentifier;
-    id iTunesMetadata;
 }
 
 - (id);

@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)initWithBlock:(unsigned long long)arg1;
 - (id);
 - (id);
 - (id);

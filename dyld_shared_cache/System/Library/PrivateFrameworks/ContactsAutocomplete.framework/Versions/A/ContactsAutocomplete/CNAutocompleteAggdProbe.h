@@ -9,9 +9,6 @@
 @interface CNAutocompleteAggdProbe
 {
     NSString *_keyPrefix;
-    NSMutableDictionary *_setData;
-    NSMutableDictionary *_addData;
-    NSString *_bundleID;
 }
 
 + (id);
@@ -31,17 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *addData; // @synthesize addData=_addData;
-@property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *keyPrefix; // @synthesize keyPrefix=_keyPrefix;
 @property(retain, nonatomic) NSMutableDictionary *setData; // @synthesize setData=_setData;
-@property(readonly) Class superclass;
 
 @end
 

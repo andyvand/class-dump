@@ -11,22 +11,21 @@
     NSData *_formatSettingsPlistData;
 }
 
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)32;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ad Ignore Adjusted Boost;
 - (void)rnKeyType;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *formatSettingsPlistData; // @synthesize formatSettingsPlistData=_formatSettingsPlistData;
 @property(readonly, nonatomic) _Bool hasFormatSettingsPlistData;
 
 @end

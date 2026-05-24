@@ -9,9 +9,6 @@
 @interface ConversationKit.CoupledHUDActivity__priv_1110C52F52D8EDCF5F7A893547109D29 : ConversationKit.HUDActivity
 {
     id parentActivity;
-    id banner;
-    id childActivityObserver;
-    id childActivity;
 }
 
 @end

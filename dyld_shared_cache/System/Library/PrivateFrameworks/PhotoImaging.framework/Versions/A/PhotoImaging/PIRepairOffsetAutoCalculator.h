@@ -9,7 +9,7 @@
     struct CGRect _strokeExtent;
 }
 
-+ (CDStruct_996ac03c);
++ (CDStruct_0973877e);
 - (id);
 - (void);
 

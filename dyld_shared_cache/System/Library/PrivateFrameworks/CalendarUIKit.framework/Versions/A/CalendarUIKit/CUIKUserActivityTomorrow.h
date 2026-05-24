@@ -10,11 +10,11 @@
 {
 }
 
-- (id)õ;
-- (void)Ñô;
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)hdr10_tm_reserveConfig:(id)arg1 HDRControl:EdrAdaptationParam:AmbAdaptationParam: /* Error: Ran out of types for this method. */;
 
 @end
 

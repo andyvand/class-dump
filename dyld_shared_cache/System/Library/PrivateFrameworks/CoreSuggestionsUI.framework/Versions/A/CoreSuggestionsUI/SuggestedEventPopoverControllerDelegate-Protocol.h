@@ -5,5 +5,6 @@
 //
 
 @protocol SuggestedEventPopoverControllerDelegate
+- (void);
 @end
 

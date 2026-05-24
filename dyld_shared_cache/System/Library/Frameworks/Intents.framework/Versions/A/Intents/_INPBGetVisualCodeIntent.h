@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBGetVisualCodeIntent
 {
     struct {
         unsigned int visualCodeType:1;
     } _has;
-    int _visualCodeType;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -21,32 +19,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (int);
+- (int);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)work-sharing] Removing ask-to-share notification (error=%{public}@, status=%lu, reason=%{public}@);
 - (id);
-- (id);
+- (id)I;
 - (void);
 - (_Bool)T@"NSArray",&,N,V_values;
-- (void)PropertyConfigurable;
+- (void)INTypePropertyConfigurable;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasVisualCodeType;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(nonatomic) int visualCodeType; // @synthesize visualCodeType=_visualCodeType;
 
 @end
 

@@ -10,15 +10,11 @@ __attribute__((visibility("hidden")))
 @interface UIKeyboardTaskExecutionContext
 {
     UIKeyboardTaskExecutionContext *_parentExecutionContext;
-    CDUnknownBlockType _continuation;
-    CDUnknownBlockType _pendingCompletionBlock;
-    id _info;
-    UIKeyboardTaskQueue *_executionQueue;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)formattedTextItems;
+- (void)%@:(CDUnknownBlockType)arg1 %p operationName=%@ routes=%@>;
 - (id);
 - (id);
 - (id)!ÄBù\1Â0@ù

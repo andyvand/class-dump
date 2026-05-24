@@ -6,7 +6,7 @@
 
 #import <TextInputCore/TIKeyboardInteractionProtocolBase.h>
 
-@class NSString, TIKeyboardLayout;
+@class TIKeyboardLayout;
 
 @interface TIKeyboardInteractionProtocolEventLayoutDidChange : TIKeyboardInteractionProtocolBase
 {
@@ -14,24 +14,17 @@
 }
 
 + (_Bool);
-- (id);
+- (id)TTYMessageHangupString;
 - (void);
+- (id)erialized SAModelExecution v2 struct;
 - (id);
-- (id);
-- (void);
+- (void)tion",&,N,V_spotlightSuggestion;
 - (id);
 - (void)aÐ!DDùQið1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) TIKeyboardLayout *keyLayout; // @synthesize keyLayout=_keyLayout;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface AWDWiFiMetricsManagerNetworkTransitionCumulative
 {
     CDStruct_9f2792e4 _channelScanCounts;
-    unsigned long long _timestamp;
-    unsigned int _colocatedNetworksFoundCount;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int colocatedNetworksFoundCount:1;
-    } _has;
 }
 
 - (void);
@@ -22,31 +16,26 @@
 - (void);
 - (unsigned long long);
 - (unsigned int *);
-- (unsigned int);
+- (unsigned int)@;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)(};
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *channelScanCounts;
-@property(readonly, nonatomic) unsigned long long channelScanCountsCount;
-@property(nonatomic) unsigned int colocatedNetworksFoundCount; // @synthesize colocatedNetworksFoundCount=_colocatedNetworksFoundCount;
-@property(nonatomic) _Bool hasColocatedNetworksFoundCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

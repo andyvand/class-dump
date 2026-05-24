@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
-
 @interface CKDPRecordOneTimeStableUrl
 {
     double _createdTime;
-    NSData *_encryptedFullTokenInfo;
-    NSMutableArray *_participantIds;
-    NSData *_protectedFullToken;
-    NSData *_shortTokenHash;
-    struct {
-        unsigned int createdTime:1;
-    } _has;
 }
 
-+ (Class);
++ (Class);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)is not editable!;
+- (id)6;
 - (void);
 - (void);
 - (void);
@@ -37,8 +28,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)DataBBuf from sample buffer is empty.
+;
+- (_Bool)H;
 - (id);
 - (double);
 - (_Bool);
@@ -50,15 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double createdTime; // @synthesize createdTime=_createdTime;
-@property(retain, nonatomic) NSData *encryptedFullTokenInfo; // @synthesize encryptedFullTokenInfo=_encryptedFullTokenInfo;
-@property(nonatomic) _Bool hasCreatedTime;
-@property(readonly, nonatomic) _Bool hasEncryptedFullTokenInfo;
-@property(readonly, nonatomic) _Bool hasProtectedFullToken;
 @property(readonly, nonatomic) _Bool hasShortTokenHash;
-@property(retain, nonatomic) NSMutableArray *participantIds; // @synthesize participantIds=_participantIds;
-@property(retain, nonatomic) NSData *protectedFullToken; // @synthesize protectedFullToken=_protectedFullToken;
-@property(retain, nonatomic) NSData *shortTokenHash; // @synthesize shortTokenHash=_shortTokenHash;
 
 @end
 

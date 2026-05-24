@@ -9,24 +9,20 @@
 @interface TLKFormattedTextItem : TLKObject
 {
     _Bool _isBold;
-    _Bool _isEmphasized;
-    long long _color;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)Si18 2_pIegndzo_;
 - (_Bool);
 - (_Bool);
 - (_Bool)ÔaÜ!Eùñ2Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long color; // @synthesize color=_color;
 @property(nonatomic) _Bool isBold; // @synthesize isBold=_isBold;
-@property(nonatomic) _Bool isEmphasized; // @synthesize isEmphasized=_isEmphasized;
 
 @end
 

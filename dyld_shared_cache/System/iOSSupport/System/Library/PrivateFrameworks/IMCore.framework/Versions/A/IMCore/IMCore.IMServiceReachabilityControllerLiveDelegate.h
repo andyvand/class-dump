@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *serviceNamesForSending;
-@property(nonatomic, readonly) long long taskDeadlineSeconds;
 
 @end
 

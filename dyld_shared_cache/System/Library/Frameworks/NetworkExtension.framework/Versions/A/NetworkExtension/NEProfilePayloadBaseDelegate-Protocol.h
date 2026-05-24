@@ -5,5 +5,7 @@
 //
 
 @protocol NEProfilePayloadBaseDelegate
+- (_Bool)>;
+- (id)`;
 @end
 

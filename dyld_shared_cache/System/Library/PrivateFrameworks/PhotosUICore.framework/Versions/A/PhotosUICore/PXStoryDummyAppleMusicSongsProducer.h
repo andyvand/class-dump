@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXStoryDummyAppleMusicSongsProducer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSArray *_queue_assets;
-    unsigned long long logContext;
 }
 
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (void)ation;
+- (id)0;
+- (void)_invalidateAvPlayerDuration;
 - (void);
 
 // Remaining properties

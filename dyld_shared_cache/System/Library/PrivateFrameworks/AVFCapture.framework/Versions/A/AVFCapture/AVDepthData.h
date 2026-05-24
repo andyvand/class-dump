@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCameraCalibrationData, AVDepthDataInternal, NSArray;
+@class AVDepthDataInternal, NSArray;
 
 @interface AVDepthData
 {
@@ -14,22 +14,22 @@
 + (id);
 + (id);
 + (void);
-- (_Bool);
-- (float);
-- (_Bool);
-- (id);
-- (id);
-- (short);
-- (short);
-- (float);
-- (id);
-- (struct CGImageMetadata *);
+- (_Bool)_translations;
+- (float)_translatedLyrics:forLanguage: /* Error: Ran out of types for this method. */;
+- (_Bool)__msv_inspectWithOptions: /* Error: Ran out of types for this method. */;
+- (id)V_timeoutCallback;
+- (id)eadDataBlock;
+- (short)_MSVSQLDatabaseTransactionSavepoint;
+- (short)MSVSQLDatabaseTransaction;
+- (float)MSVStreamReader;
+- (id)MSVSegmentedEncoder;
+- (struct CGImageMetadata *)MSVDebugUtilities;
 - (id);
 - (struct __CFString *);
-- (struct __CVBuffer *);
-- (long long);
-- (id);
-- (long long);
+- (struct __CVBuffer *)rary(void);
+- (long long)Apr;
+- (id)LDR?;
+- (long long)47. How did that go into our CLDR?;
 - (id);
 - (unsigned int);
 - (struct __CVBuffer *);
@@ -37,18 +37,12 @@
 - (id);
 - (void);
 - (id);
+- (id));
 - (id);
-- (id);
-- (float)EnabledDidChangeNotification;
+- (float)AVControlCenterVideoEffectsModuleEffectEnabledDidChangeNotification;
 
 // Remaining properties
 @property(readonly) NSArray *availableDepthDataTypes;
-@property(readonly) AVCameraCalibrationData *cameraCalibrationData;
-@property(readonly) long long depthDataAccuracy;
-@property(readonly, getter=isDepthDataFiltered) _Bool depthDataFiltered;
-@property(readonly) struct __CVBuffer *depthDataMap;
-@property(readonly) long long depthDataQuality;
-@property(readonly) unsigned int depthDataType;
 
 @end
 

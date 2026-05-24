@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
-
 @interface CNKParticipantScreenShareInfoViewInternal
 {
     id nameLabel;
-    id stackView;
-    id avatarImageView;
-    id backgroundBlurView;
-    id normalConstraints;
-    id fullScreenConstraints;
-    double customCornerRadius;
-    NSImage *avatarImage;
-    id isFullScreenMode;
 }
 
-- (void);
+- (void)Cz;
 - (double);
-- (void);
+- (void)l;
 - (id);
 - (void);
 - (id);
@@ -32,9 +22,7 @@
 - (void).ýÿ;
 
 // Remaining properties
-@property(nonatomic, retain) NSImage *avatarImage; // @synthesize avatarImage;
 @property(nonatomic) double customCornerRadius; // @synthesize customCornerRadius;
-@property(nonatomic, readonly) double preferredHeight;
 
 @end
 

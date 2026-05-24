@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 @protocol TRIFactorPackId;
 
 @interface TRIPurgeableConstruct
 {
     NSString<TRIFactorPackId> *_factorPackId;
-    NSString *_treatmentId;
-    NSString *_namespaceName;
-    NSSet *_purgeableAssetFactorNames;
 }
 
-+ (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)compressionSession;
+- (id)recordVideoConfigurationWithValidValues: /* Error: Ran out of types for this method. */;
+- (_Bool)prepareForPlaybackWithTargetSize:(id)arg1 options:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)pairingIdentifier;
+- (id)layoutByUpdatingNormalizedPortraitVisibleFrame:(id)arg1 landscapeVisibleFrame: /* Error: Ran out of types for this method. */;
+- (id)layoutByUpdatingInactiveFrame:(id)arg1;
+- (id)AVMobileChromelessContainerView"16@"NSArray"24;
 - (id);
 - (id);
 - (unsigned long long);
@@ -29,16 +26,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)8;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString<TRIFactorPackId> *factorPackId; // @synthesize factorPackId=_factorPackId;
-@property(readonly, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
-@property(readonly, nonatomic) NSSet *purgeableAssetFactorNames; // @synthesize purgeableAssetFactorNames=_purgeableAssetFactorNames;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

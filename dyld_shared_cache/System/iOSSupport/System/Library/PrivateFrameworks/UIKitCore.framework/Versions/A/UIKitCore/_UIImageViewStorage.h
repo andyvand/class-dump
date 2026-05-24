@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSString, UIImage, UIImageSymbolConfiguration, UIImageView, UILayoutGuide, UIView, _UIImageCIImageRenderer, _UIImageLoader, _UIImageSymbolVariant, _UIImageViewSymbolAnimationPresetManager;
-@protocol UITraitChangeRegistration, _UIImageViewLoadingDelegate, _UIImageViewStorage;
+@class UIImageView;
+@protocol _UIImageViewStorage;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageViewStorage
@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
     id <_UIImageViewStorage> _storage;
 }
 
-+ (id);
++ (id)messages.iMessageReceivedNotifyReceipt;
 - (id);
 - (void);
+- (id)8;
+- (id)ror"16;
+- (void);
+- (void);
+- (void);
+- (id)/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/s23_srvr.c;
+- (void)d:(_Bool)arg1;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -33,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_containedMediaTypes;
 - (id);
 - (id);
 - (id);
@@ -47,25 +47,25 @@ __attribute__((visibility("hidden")))
 - (id)olConfiguration"b1"hasCustomizedTintColor"b1"hasCustomizedCornerRadius"b1"hasCustomizedReservedLayoutSize"b1"hasCustomizedMaximumSize"b1};
 - (void)ndentWhileEditing"b1"fontSet"b1"usingDefaultSelectedBackgroundView"b1"usingDefaultBackgroundView"b1"wasSwiped"b1"highlighted"b1"separatorDirty"b1"drawn"b1"drawingDisabled"b1"style"b12"shouldShowMenu"b1"animatingSelection"b1"backgroundColorSet"b1"needsSetup"b1"usingMultiselectbackgroundView"b1"deleteAnimationInProgress"b1"animating"b1"animatingEditing"b1"shouldHaveFullLengthBottomSeparator"b1"shouldHaveFullLengthTopSeparator"b1"topSeparatorFollowsLayoutMargins"b1"drawsSeparatorAtTopOfSection"b1"drawsSeparatorAtBottomOfSection"b1"separatorBackdropOverlayBlendMode"b3"separatorDrawsInVibrantLightMode"b1"separatorHidden"b1"hidingSeparatorsForSelection"b1"wantsClipping"b1"allowsReorderingWhenNotEditing"b1"needsHeightCalculation"b1"focusStyle"b3"accessoryViewsHidden"b1"skipsLayout"b1"separatorInsetIsRelativeToCellEdges"b1"highlightingInteractively"b1"userInteractionEnabledWhileDragging"b1"userInteractionEnabledBeforeDragging"b2"insetsContentViewsToSafeArea"b1"needsAccessoriesUpdate"b1"needsAccessoriesUpdateForced"b1"badgeVisible"b1"shouldRestoreTextLabelAfterSystemTextSizeChange"b1"shouldRestoreDetailTextLabelAfterSystemTextSizeChange"b1"shouldRestoreEditableTextFieldAfterSystemTextSizeChange"b1"tableViewHasBeenExplicitlySet"b1"ignoresMultipleSelectionDuringEditing"b1"hasEverUsedRoundedGroups"b1"preserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
 - (id)ServiceOptions"16;
-- (id)tNotificationCategories: /* Error: Ran out of types for this method. */;
-- (_Bool)vigator:didInvokeNextResultInDirection: /* Error: Ran out of types for this method. */;
-- (id)nInteraction;
-- (void)gInternal;
-- (_Bool)AnimatedBackdrop;
+- (id)setNotificationCategories: /* Error: Ran out of types for this method. */;
+- (_Bool)findNavigator:didInvokeNextResultInDirection: /* Error: Ran out of types for this method. */;
+- (id)bandSelectionInteraction;
+- (void)_unsafeScenesIncludingInternal;
+- (_Bool)_isUsingAnimatedBackdrop;
 - (long long)sEndTime;
 - (void)idebar;
-- (void)ants:(id)arg1 baseKeyForVariants: /* Error: Ran out of types for this method. */;
+- (void)_typeCharacter:(id)arg1 withError:shouldTypeVariants:baseKeyForVariants: /* Error: Ran out of types for this method. */;
 - (void)V_secondaryDisplayStrings;
-- (id);
-- (void)essibility;
+- (id)UIApplicationSceneSpecification;
+- (void)UIKitApplicationAccessibility;
 - (void)T;
 - (void)tSizeThatFits:(_Bool)arg1 fixedAxes: /* Error: Ran out of types for this method. */;
 - (void);
 - (double)H:|-5-[backgroundViewImage]-5-| /* Error: Ran out of types for this method. */;
 - (id)InputUI;
 - (id)mpact-Bold;
-- (void)tentStoreUbiquitousContentNameKey;
-- (void)gisterConflict;
+- (void)NSPersistentStoreUbiquitousContentNameKey;
+- (void)UIAXZoomRegisterConflict;
 - (void);
 - (void);
 - (_Bool);
@@ -78,41 +78,7 @@ __attribute__((visibility("hidden")))
 - (id)àb;
 
 // Remaining properties
-@property(retain, nonatomic) _UIImageCIImageRenderer *CIRenderer;
-@property(nonatomic) _Bool adjustsImageSizeForAccessibilityContentSizeCategory;
-@property(nonatomic) double animationDuration;
-@property(retain, nonatomic) NSArray *animationImages;
-@property(retain, nonatomic) _UIImageViewSymbolAnimationPresetManager *animationPresetManager;
-@property(nonatomic) long long animationRepeatCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long defaultRenderingMode;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int drawMode;
-@property(nonatomic, getter=isEnqueueingLoad) _Bool enqueueingLoad;
 @property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(retain, nonatomic) NSArray *highlightedAnimationImages;
-@property(retain, nonatomic) UIImage *highlightedImage;
-@property(retain, nonatomic) UIImage *image;
-@property(retain, nonatomic) UIImage *imageBeingSetByLoader;
-@property(retain, nonatomic) UILayoutGuide *imageContentGuide;
-@property(retain, nonatomic) _UIImageLoader *imageLoader;
-@property(retain, nonatomic) NSMapTable *layouts;
-@property(retain, nonatomic) id <_UIImageViewLoadingDelegate> loadingDelegate;
-@property(nonatomic) _Bool masksTemplateImages;
-@property(retain, nonatomic) UIImageSymbolConfiguration *overridingSymbolConfiguration;
-@property(retain, nonatomic) UIView *placeholderView;
-@property(retain, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfiguration;
-@property(retain, nonatomic) _UIImageSymbolVariant *preferredSymbolVariant;
-@property(retain, nonatomic) UIImage *resolvedHighlightedImage;
-@property(retain, nonatomic) UIImage *resolvedImage;
-@property(nonatomic, getter=isStartingLoad) _Bool startingLoad;
-@property(nonatomic, getter=isStoppingLoad) _Bool stoppingLoad;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <UITraitChangeRegistration> systemIconAppearanceTraitRegistration;
 
 @end
 

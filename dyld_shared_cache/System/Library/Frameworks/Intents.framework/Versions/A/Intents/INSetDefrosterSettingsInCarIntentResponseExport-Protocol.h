@@ -5,7 +5,7 @@
 //
 
 @protocol INSetDefrosterSettingsInCarIntentResponseExport
-- (long long)ighestAttributeTag;
+- (long long)highestAttributeTag;
 
 // Remaining properties
 @property(readonly) long long code;

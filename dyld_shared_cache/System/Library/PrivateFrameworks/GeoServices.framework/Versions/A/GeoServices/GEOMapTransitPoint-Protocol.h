@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol GEOMapTransitPoint
-- (CDStruct_90e2a262);
+- (unsigned long long)P;
+- (double);
+- (CDStruct_02837cd9);
 
 // Remaining properties
-@property(readonly, nonatomic) double boundingRadius;
-@property(readonly, nonatomic) CDStruct_90e2a262 boundingRect;
 @property(readonly, nonatomic) CDStruct_c3b9c2ee coordinate;
-@property(readonly, nonatomic) NSString *internalName;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee *polygonPoints;
-@property(readonly, nonatomic) long long polygonPointsCount;
-@property(readonly, nonatomic) unsigned long long transitID;
 @end
 

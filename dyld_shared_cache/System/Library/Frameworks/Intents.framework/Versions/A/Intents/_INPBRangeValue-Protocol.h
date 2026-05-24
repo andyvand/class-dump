@@ -7,18 +7,14 @@
 @class _INPBValueMetadata;
 
 @protocol _INPBRangeValue
-- (_Bool)ceIdiom;
-- (_Bool)tsUnreachable;
-- (void)m:(_INPBValueMetadata *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBValueMetadata *)rofileInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (unsigned long long));
 - (void);
+- (_Bool)ceIdiom;
+- (_Bool)INSendAnnouncementIntentResponseCodeFailureRecipientsUnreachable;
+- (void)m:(_INPBValueMetadata *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)provideProfileNumberOptionsCollectionForSaveProfileInCar:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLength;
-@property(nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) unsigned long long length;
-@property(nonatomic) unsigned long long location;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

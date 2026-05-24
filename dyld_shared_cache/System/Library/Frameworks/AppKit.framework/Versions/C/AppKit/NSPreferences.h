@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSLayoutConstraint, NSMatrix, NSMutableArray, NSMutableDictionary, NSString, NSWindow;
+@class NSWindow;
 
 @interface NSPreferences
 {
     NSWindow *_preferencesPanel;
-    NSBox *_preferenceBox;
-    NSMatrix *_moduleMatrix;
-    NSButton *_okButton;
-    NSButton *_cancelButton;
-    NSButton *_applyButton;
-    NSMutableArray *_preferenceTitles;
-    NSMutableArray *_preferenceModules;
-    NSMutableDictionary *_masterPreferenceViews;
-    NSMutableDictionary *_currentSessionPreferenceViews;
-    NSBox *_originalContentView;
-    _Bool _isModal;
-    double _constrainedWidth;
-    id _currentModule;
-    void *_reserved;
-    _Bool _needsCentering;
-    NSLayoutConstraint *_helpButtonLeadingConstraint;
-    NSLayoutConstraint *_helpButtonTopConstraint;
-    NSButton *_helpButton;
 }
 
-+ (void);
-+ (void);
++ (void)autorelease;
++ (void)ry",C,V_options;
 + (Class);
 + (id);
 - (id);
@@ -46,14 +28,14 @@
 - (void);
 - (long long);
 - (long long);
+- (void)}16q24;
+- (void)appWasLaunchedForBackgroundSession:(id)arg1;
+- (void)_systemClientOfPrivateAccessTokens;
+- (void)NSProxyConnectionStreamTask;
+- (void)d state when supplying credential %p for challenge %p %d:%@ /* Error: Ran out of types for this method. */;
+- (id)or %@ host %@ port %d;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)t required;
 - (id);
 - (id);
 - (void);
@@ -68,13 +50,7 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

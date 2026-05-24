@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString, UIImageConfiguration;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageCacheKey
 {
     NSString *_name;
-    UIImageConfiguration *_configuration;
-    NSBundle *_bundle;
-    struct {
-        unsigned int system:1;
-        unsigned int private:1;
-    } _flags;
 }
 
 + (id);
-+ (id);
++ (id)MPMusicPlayerPlayParametersQueueDescriptorStartItemPlayParameters;
 + (id)@ù
 × ;
 - (id);
 - (unsigned long long);
-- (_Bool)p:(id)arg1;
+- (_Bool)touchUp:(id)arg1;
 - (id)eTableLayoutDelegateMetrics;
 - (void);
 

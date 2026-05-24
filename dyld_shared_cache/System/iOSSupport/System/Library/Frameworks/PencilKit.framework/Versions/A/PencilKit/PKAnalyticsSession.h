@@ -7,9 +7,6 @@
 @interface PKAnalyticsSession
 {
     long long _undosPerSession;
-    long long _strokesPerSession;
-    long long _textLineStraighteningPerSession;
-    long long _textLineStraighteningUndoPerSession;
 }
 
 - (long long);
@@ -29,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long strokesPerSession; // @synthesize strokesPerSession=_strokesPerSession;
-@property(nonatomic) long long textLineStraighteningPerSession; // @synthesize textLineStraighteningPerSession=_textLineStraighteningPerSession;
-@property(nonatomic) long long textLineStraighteningUndoPerSession; // @synthesize textLineStraighteningUndoPerSession=_textLineStraighteningUndoPerSession;
 @property(nonatomic) long long undosPerSession; // @synthesize undosPerSession=_undosPerSession;
 
 @end

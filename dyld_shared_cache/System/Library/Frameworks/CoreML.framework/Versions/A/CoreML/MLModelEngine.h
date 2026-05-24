@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, NSString;
+@class MLModelDescription;
 
 @interface MLModelEngine
 {
     unsigned long long _signpostID;
-    MLModelDescription *_modelDescription;
-    MLModelConfiguration *_configuration;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)MTLTileRenderPipelineDescriptor;
+- (void)h shaders;
 - (id);
 - (id);
+- (id);
+- (id)a;
 - (id);
 - (unsigned long long);
 - (id);
@@ -37,20 +35,7 @@
 - (void)´Ut;Ûú»Z{:Úûº[zh	(Èè¨Ii)Éé©H¾_~?ßþ¿^>ÞÿÌí­Ml,Íì¬Lm-ó³Rr2Òò²Ss3Ó!Áà¡@a /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
 @property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 
 @end
 

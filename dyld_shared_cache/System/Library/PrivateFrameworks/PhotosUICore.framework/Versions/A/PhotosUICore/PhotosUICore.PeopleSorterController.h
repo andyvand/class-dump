@@ -7,7 +7,6 @@
 @interface PhotosUICore.PeopleSorterController
 {
     id itemListManager;
-    id observation;
 }
 
 @end

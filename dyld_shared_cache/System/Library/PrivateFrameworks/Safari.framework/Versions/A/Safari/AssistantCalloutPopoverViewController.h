@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface AssistantCalloutPopoverViewController
 {
     AssistantCalloutPopoverView *_calloutPopoverView;
-    id <AssistantCalloutPopoverViewControllerDelegate> _delegate;
-    CDUnknownBlockType _assistantCalloutPopoverAction;
 }
 
 - (void);
@@ -25,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType assistantCalloutPopoverAction; // @synthesize assistantCalloutPopoverAction=_assistantCalloutPopoverAction;
 @property(nonatomic) __weak id <AssistantCalloutPopoverViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

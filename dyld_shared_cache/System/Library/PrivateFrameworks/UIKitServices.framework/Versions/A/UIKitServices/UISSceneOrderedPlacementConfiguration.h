@@ -6,12 +6,9 @@
 
 #import <UIKitServices/UISScenePlacementConfiguration.h>
 
-@class NSString;
-
 @interface UISSceneOrderedPlacementConfiguration : UISScenePlacementConfiguration
 {
     long long *_order;
-    NSString *_relativeScenePersistenceIdentifier;
 }
 
 + (unsigned long long);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Descriptor;
 - (_Bool);
 - (void);
 - (void);
@@ -31,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long *order; // @synthesize order=_order;
-@property(readonly, nonatomic) NSString *relativeScenePersistenceIdentifier; // @synthesize relativeScenePersistenceIdentifier=_relativeScenePersistenceIdentifier;
 
 @end
 

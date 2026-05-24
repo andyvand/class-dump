@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDateTimeRange, _INPBLocationValue, _INPBRentalCar, _INPBReservation;
+@class _INPBDateTimeRange, _INPBLocationValue;
 
 @protocol _INPBRentalCarReservation
+- (_INPBDateTimeRange *)֘	;
+- (_INPBLocationValue *);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBLocationValue *dropOffLocation;
-@property(readonly, nonatomic) _Bool hasDropOffLocation;
-@property(readonly, nonatomic) _Bool hasPickupLocation;
-@property(readonly, nonatomic) _Bool hasRentalCar;
-@property(readonly, nonatomic) _Bool hasRentalDuration;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(retain, nonatomic) _INPBLocationValue *pickupLocation;
-@property(retain, nonatomic) _INPBRentalCar *rentalCar;
-@property(retain, nonatomic) _INPBDateTimeRange *rentalDuration;
-@property(retain, nonatomic) _INPBReservation *reservation;
 @end
 

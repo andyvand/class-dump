@@ -7,7 +7,6 @@
 @interface ReminderKitInternal.REMGenerativeModelsAvailabilityManager
 {
     id cachedFeatureGenerativeModelsAvailabilityLock;
-    id arrayOfNotifications;
 }
 
 @end

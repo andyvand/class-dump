@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONavCameraState, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateNavigation
 {
     PBUnknownFields *_unknownFields;
-    double _distanceToDestination;
-    GEONavCameraState *_navCameraState;
-    int _lineType;
-    int _navState;
-    struct {
-        unsigned int has_distanceToDestination:1;
-        unsigned int has_lineType:1;
-        unsigned int has_navState:1;
-    } _flags;
 }
 
-+ (_Bool)nce:(id)arg1;
++ (_Bool)setHasSupportStructuredRapAffordance:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -34,39 +25,31 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (void);
-- (int);
-- (void);
-- (int);
+- (void)_cn_take:(_Bool)arg1;
+- (int)ts;
+- (void)sGrantedCachedValue;
+- (int)CNObservableTimeoutAfterDelayBlockObserver;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)R[;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id)RestaurantQueueing;
+- (_Bool)hV;
+- (void)ryDirectory.S2bGou/Sources/SpeechRecognitionCore/Sources/RXLanguageObject.mm;
+- (id)supportsRestaurantQueueing;
 - (id)ptcpNegotiated;
 - (id)of routes in response (%d). Returning original response.;
 - (id)hÀ;
 - (void)X3;
 
 // Remaining properties
-@property(nonatomic) double distanceToDestination;
-@property(nonatomic) _Bool hasDistanceToDestination;
 @property(nonatomic) _Bool hasLineType;
-@property(readonly, nonatomic) _Bool hasNavCameraState;
-@property(nonatomic) _Bool hasNavState;
-@property(nonatomic) int lineType;
-@property(retain, nonatomic) GEONavCameraState *navCameraState;
-@property(nonatomic) int navState;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

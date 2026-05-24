@@ -5,5 +5,12 @@
 //
 
 @protocol NSTableViewDelegate
+
+@optional
+- (void);
+- (_Bool)h;
+- (_Bool)";
+- (_Bool)c;
+- (_Bool)#A�Y;
 @end
 

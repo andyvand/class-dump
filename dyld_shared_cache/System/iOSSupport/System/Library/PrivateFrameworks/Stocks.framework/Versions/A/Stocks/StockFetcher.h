@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, SymbolValidator;
+@class SymbolValidator;
 
 @interface StockFetcher
 {
     double _timeoutDuration;
-    SymbolValidator *_validator;
-    CDUnknownBlockType _completionHandler;
-    NSTimer *_timeoutTimer;
 }
 
+- (void)m|;
+- (void);
+- (void)z;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)z;
 - (double);
 - (id);
-- (void);
+- (void)a{;
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@@"NSString";
 - (id);
 - (void);
-- (void);
+- (void)_action;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property double timeoutDuration; // @synthesize timeoutDuration=_timeoutDuration;
-@property(retain, nonatomic) NSTimer *timeoutTimer; // @synthesize timeoutTimer=_timeoutTimer;
 @property(retain) SymbolValidator *validator; // @synthesize validator=_validator;
 
 @end

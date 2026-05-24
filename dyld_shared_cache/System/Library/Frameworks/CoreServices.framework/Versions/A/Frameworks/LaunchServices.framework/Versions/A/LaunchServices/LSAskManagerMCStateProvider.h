@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationRestrictionsManager, NSString;
+@class LSApplicationRestrictionsManager;
 
 __attribute__((visibility("hidden")))
 @interface LSAskManagerMCStateProvider
@@ -12,21 +12,15 @@ __attribute__((visibility("hidden")))
     LSApplicationRestrictionsManager *_manager;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)5;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

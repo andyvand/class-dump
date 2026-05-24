@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(getter=isCanceled) _Bool canceled;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler;
 @end
 

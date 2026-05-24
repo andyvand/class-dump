@@ -5,5 +5,8 @@
 //
 
 @protocol ICFlowControl
+
+@optional
+- (_Bool);
 @end
 

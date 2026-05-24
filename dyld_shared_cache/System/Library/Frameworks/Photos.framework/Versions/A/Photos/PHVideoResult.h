@@ -6,38 +6,30 @@
 
 #import <Photos/PHCompositeMediaResult.h>
 
-@class NSData, NSString, NSURL, PFSlowMotionTimeRangeMapper;
+@class NSURL;
 
 @interface PHVideoResult : PHCompositeMediaResult
 {
     NSURL *_videoURL;
-    NSData *_videoMediaItemMakerData;
-    NSString *_fingerPrint;
-    NSString *_uniformTypeIdentifier;
-    PFSlowMotionTimeRangeMapper *_timeRangeMapper;
 }
 
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (_Bool);
 - (void);
+- (id)k;
 - (id);
-- (id);
-- (void)ier:(id)arg1;
-- (id)SuggestionSubype: /* Error: Ran out of types for this method. */;
-- (void)AssetUUIDWithCreationRequest:recoveredFromFileURL: /* Error: Ran out of types for this method. */;
+- (void)readOnlyUrlWithIdentifier:(id)arg1;
+- (id)hasPersonLocalIdentifierInContextForSuggestionSubype: /* Error: Ran out of types for this method. */;
+- (void)_checkAndResolveExistingAssetUUIDWithCreationRequest:recoveredFromFileURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fingerPrint; // @synthesize fingerPrint=_fingerPrint;
-@property(retain, nonatomic) PFSlowMotionTimeRangeMapper *timeRangeMapper; // @synthesize timeRangeMapper=_timeRangeMapper;
-@property(copy, nonatomic) NSString *uniformTypeIdentifier; // @synthesize uniformTypeIdentifier=_uniformTypeIdentifier;
-@property(retain, nonatomic) NSData *videoMediaItemMakerData; // @synthesize videoMediaItemMakerData=_videoMediaItemMakerData;
 @property(retain, nonatomic) NSURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end

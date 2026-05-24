@@ -19,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *guid;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

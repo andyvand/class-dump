@@ -9,11 +9,10 @@
 @interface ADPersonalizedAdsStatusManager
 {
     _Bool _sendingPersonalizedAdsToAdPlatforms;
-    NSNumber *_pendingJingleRequestToken;
 }
 
 + (id);
-- (void);
+- (void)nctions.h;
 - (_Bool);
 - (id);
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *pendingJingleRequestToken; // @synthesize pendingJingleRequestToken=_pendingJingleRequestToken;
-@property(nonatomic) _Bool sendingPersonalizedAdsToAdPlatforms; // @synthesize sendingPersonalizedAdsToAdPlatforms=_sendingPersonalizedAdsToAdPlatforms;
 
 @end
 

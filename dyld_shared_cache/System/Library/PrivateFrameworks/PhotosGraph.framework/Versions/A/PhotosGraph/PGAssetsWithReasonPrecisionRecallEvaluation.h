@@ -13,11 +13,11 @@
     NSMutableDictionary *_evaluationByReason;
 }
 
-- (void);
+- (void)__suppressionCheckbox;
 - (id);
-- (id);
-- (void);
-- (void)esterFilteringContextRequiresNoBlink;
+- (id)4;
+- (void)4;
+- (void)PGSinglePersonWallpaperAssetSuggesterFilteringContextRequiresNoBlink;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *evaluationByReason; // @synthesize evaluationByReason=_evaluationByReason;

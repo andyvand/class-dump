@@ -6,35 +6,18 @@
 
 #import <MediaConversionService/PHMediaFormatConversionContent.h>
 
-@class NSString, PFMetadata;
+@class PFMetadata;
 
 @interface PHMediaFormatConversionSource : PHMediaFormatConversionContent
 {
     _Bool _preflighted;
-    _Bool _containsVideoWithFormatEligibleForTranscoding;
-    _Bool _containsProResVideoWithFormatEligibleForTranscoding;
-    _Bool _containsImageWithFormatEligibleForTranscoding;
-    _Bool _containsHEIFImage;
-    _Bool _didCheckForLivePhotoPairingIdentifier;
-    _Bool _didCheckForVideoWithFormatEligibleForTranscoding;
-    _Bool _isHDR;
-    _Bool _didCheckForIsHDR;
-    unsigned int _firstVideoTrackCodec;
-    PFMetadata *_cachedMetadata;
-    NSString *_renderOriginatingSignature;
-    NSString *_livePhotoPairingIdentifier;
-    long long _locationMetadataStatus;
-    long long _captionMetadataStatus;
-    long long _accessibilityDescriptionMetadataStatus;
-    id _transcodingEligibleVideoTrackFormatDescription;
-    struct CGSize _imageDimensions;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)_maximumRowsPerQuery;
++ (id)0@"HMBCloudZonePushResult"8@"NSError"16;
 + (Class);
 - (id);
 - (long long);
@@ -42,13 +25,13 @@
 - (long long);
 - (void);
 - (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -58,11 +41,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -74,42 +57,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (long long);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)@ options:(id)arg1 %@;
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)commute1Hr15MinWarningEntityRelevanceUserFocusModeAndTimeOfDayFeatures;
 - (_Bool)callStackReturnAddresses;
 
 // Remaining properties
-@property(nonatomic) long long accessibilityDescriptionMetadataStatus; // @synthesize accessibilityDescriptionMetadataStatus=_accessibilityDescriptionMetadataStatus;
-@property(nonatomic) long long captionMetadataStatus; // @synthesize captionMetadataStatus=_captionMetadataStatus;
-@property(readonly, nonatomic) _Bool containsHEIFImage; // @synthesize containsHEIFImage=_containsHEIFImage;
-@property(readonly, nonatomic) _Bool containsHEVCVideo;
-@property(readonly, nonatomic) _Bool containsImageWithFormatEligibleForTranscoding; // @synthesize containsImageWithFormatEligibleForTranscoding=_containsImageWithFormatEligibleForTranscoding;
-@property(readonly, nonatomic) _Bool containsProResVideoWithFormatEligibleForTranscoding; // @synthesize containsProResVideoWithFormatEligibleForTranscoding=_containsProResVideoWithFormatEligibleForTranscoding;
-@property(nonatomic) _Bool containsVideoWithFormatEligibleForTranscoding; // @synthesize containsVideoWithFormatEligibleForTranscoding=_containsVideoWithFormatEligibleForTranscoding;
-@property(nonatomic) _Bool didCheckForIsHDR; // @synthesize didCheckForIsHDR=_didCheckForIsHDR;
-@property _Bool didCheckForLivePhotoPairingIdentifier; // @synthesize didCheckForLivePhotoPairingIdentifier=_didCheckForLivePhotoPairingIdentifier;
-@property _Bool didCheckForVideoWithFormatEligibleForTranscoding; // @synthesize didCheckForVideoWithFormatEligibleForTranscoding=_didCheckForVideoWithFormatEligibleForTranscoding;
-@property(nonatomic) unsigned int firstVideoTrackCodec; // @synthesize firstVideoTrackCodec=_firstVideoTrackCodec;
-@property struct CGSize imageDimensions; // @synthesize imageDimensions=_imageDimensions;
-@property(nonatomic) _Bool isHDR; // @synthesize isHDR=_isHDR;
-@property(retain, nonatomic) NSString *livePhotoPairingIdentifier; // @synthesize livePhotoPairingIdentifier=_livePhotoPairingIdentifier;
-@property(nonatomic) long long locationMetadataStatus; // @synthesize locationMetadataStatus=_locationMetadataStatus;
 @property(retain, nonatomic) PFMetadata *metadata; // @synthesize metadata=_cachedMetadata;
-@property _Bool preflighted; // @synthesize preflighted=_preflighted;
-@property(copy) NSString *renderOriginatingSignature; // @synthesize renderOriginatingSignature=_renderOriginatingSignature;
-@property(readonly, nonatomic) id transcodingEligibleVideoTrackFormatDescription; // @synthesize transcodingEligibleVideoTrackFormatDescription=_transcodingEligibleVideoTrackFormatDescription;
 
 @end
 

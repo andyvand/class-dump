@@ -9,23 +9,21 @@
 @interface _INPBCarHeadUnit
 {
     struct _has;
-    NSString *_bluetoothIdentifier;
-    NSString *_iAP2Identifier;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)32@0:(id)arg1 8Q16@"NSError"24;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)rkProfile"24@"CWFRequestParameters"32@?<v@?@"NSError">40;
+- (void)falling back to network stack (intf=%{public}@);
 - (id);
 - (id);
 - (void)nt:%u, hit:%u)
@@ -35,16 +33,6 @@ image service load:%u
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bluetoothIdentifier; // @synthesize bluetoothIdentifier=_bluetoothIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBluetoothIdentifier;
-@property(readonly, nonatomic) _Bool hasIAP2Identifier;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *iAP2Identifier; // @synthesize iAP2Identifier=_iAP2Identifier;
-@property(readonly) Class superclass;
 
 @end
 

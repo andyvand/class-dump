@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSUUID, PKPassShareActivationOptions;
+@class NSString;
 
 @interface PKPassShare
 {
     unsigned long long _status;
-    _Bool _isForCurrentUser;
-    NSString *_identifier;
-    NSString *_senderGroupIdentifier;
-    NSDate *_creationDate;
-    unsigned long long _manageability;
-    NSString *_recipientNickname;
-    NSString *_recipientHandle;
-    NSArray *_sharedEntitlements;
-    NSArray *_displayableSharedEntitlements;
-    NSArray *_credentialShares;
-    NSString *_groupIdentifier;
-    NSString *_subcredentialIdentifier;
-    PKPassShareActivationOptions *_activationOptions;
-    NSString *_senderShareIdentifier;
 }
 
 + (id);
@@ -31,14 +17,14 @@
 - (id);
 - (id);
 - (id);
+- (void)8;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -62,48 +48,29 @@
 - (void);
 - (id);
 - (void);
+- (void)b;
+- (id);
+- (id));
+- (id);
+- (id)(;
 - (void);
+- (id)G^;
+- (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)setHasHighRxPhyPERFalse:(id)arg1;
+- (void)probeResult;
+- (void)V;n0{;
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id)dForBalanceIdentifier:(id)arg1 withPassUniqueIdentifier:handler: /* Error: Ran out of types for this method. */;
+- (id)balanceReminderThresholdForBalanceIdentifier:(id)arg1 withPassUniqueIdentifier:handler: /* Error: Ran out of types for this method. */;
 - (void)entifier:'%@';  /* Error: Ran out of types for this method. */;
-- (_Bool)PKSecureElementProvisioningStateCytIegnr_;
+- (_Bool)So32PKSecureElementProvisioningStateCytIegnr_;
 
 // Remaining properties
-@property(retain, nonatomic) PKPassShareActivationOptions *activationOptions; // @synthesize activationOptions=_activationOptions;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSArray *credentialShares; // @synthesize credentialShares=_credentialShares;
-@property(retain, nonatomic) NSArray *displayableSharedEntitlements; // @synthesize displayableSharedEntitlements=_displayableSharedEntitlements;
-@property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isEditable;
-@property(nonatomic) _Bool isForCurrentUser; // @synthesize isForCurrentUser=_isForCurrentUser;
-@property(readonly, nonatomic) _Bool isLocalShare;
-@property(readonly, nonatomic) _Bool isRevokable;
-@property(nonatomic) unsigned long long manageability; // @synthesize manageability=_manageability;
-@property(readonly, nonatomic) unsigned long long mostRestrictiveShareability;
-@property(retain, nonatomic) NSString *recipientHandle; // @synthesize recipientHandle=_recipientHandle;
-@property(retain, nonatomic) NSString *recipientNickname; // @synthesize recipientNickname=_recipientNickname;
-@property(retain, nonatomic) NSString *senderGroupIdentifier; // @synthesize senderGroupIdentifier=_senderGroupIdentifier;
 @property(retain, nonatomic) NSString *senderShareIdentifier; // @synthesize senderShareIdentifier=_senderShareIdentifier;
-@property(retain, nonatomic) NSArray *sharedEntitlements; // @synthesize sharedEntitlements=_sharedEntitlements;
-@property(nonatomic) unsigned long long status;
-@property(retain, nonatomic) NSString *subcredentialIdentifier; // @synthesize subcredentialIdentifier=_subcredentialIdentifier;
-@property(readonly, nonatomic) NSUUID *uuidIdentifier;
 
 @end
 

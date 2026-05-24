@@ -17,11 +17,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(%lld/%d) sbufDuration = %1.6f (%lld/%d) sbufEndPTS = %1.6f (%lld/%d) RemoteMediaTimestamp = %1.6f (%lld/%d)
+;
 - (_Bool);
 - (_Bool);
 - (void);

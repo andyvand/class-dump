@@ -4,28 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNotification;
+@class NSArray, NSNotification, NSScreen, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (NSArray *)webProcessPlugInBrowserContextController:(NSWindow *)arg1 frame:didFinishLoadForResource: /* Error: Ran out of types for this method. */;
+- (NSArray *)webProcessPlugInBrowserContextController:(NSWindow *)arg1 frame:(NSScreen *)arg2 didFailLoadForResource:error: /* Error: Ran out of types for this method. */;
+- (NSArray *)rame:(NSWindow *)arg1;
+- (void)fc_arrayByTransformingWithKeyAndValueBlock:(NSNotification *)arg1;
 - (void);
 - (void)rsListCurrentTipCapability:(NSNotification *)arg1 Dismissed an add urgent alarm tip;
 - (void)ing for 'Untitled';
-- (void)dentifier;
+- (void)lastSelectedListIdentifier;
 - (NSArray *).swift;
-- (void)AG;
+- (void)DELETE_SMART_LIST_ALERT_MESSAGE_N_LISTS_ONE_TAG;
 - (void)ccess;
 - (void)ags';
 - (void)election for a tagged list with one label.;
 - (void)S]s;
 - (unsigned long long)Ke;
-- (void)odelUpdater;
+- (void)TTRLazilyLoadedViewModelUpdater;
 - (void);
 - (void);
-- (struct CGRect)MReminderCellAttachmentCollectionPresenter;
-- (void)finedContentPopulator;
-- (_Bool)dersEditingSessionProviderType;
+- (struct CGRect)TTRMReminderCellAttachmentCollectionPresenter;
+- (void)TTRGridViewPredefinedContentPopulator;
+- (_Bool)TTRSECreateRemindersEditingSessionProviderType;
 - (void)\ÿ}þ^,|ÿ;
 @end
 

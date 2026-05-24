@@ -7,10 +7,6 @@
 @interface CWFMLOLink
 {
     unsigned char _channel;
-    _Bool _isPrimaryLink;
-    int _band;
-    int _width;
-    int _subchannel;
 }
 
 + (_Bool);
@@ -25,19 +21,15 @@
 - (unsigned long long);
 - (int);
 - (_Bool);
+- (void)"	;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)t;
+- (id);
 - (unsigned char);
 - (int);
 
 // Remaining properties
 @property(nonatomic) int band; // @synthesize band=_band;
-@property(nonatomic) unsigned char channel; // @synthesize channel=_channel;
-@property(nonatomic) _Bool isPrimaryLink; // @synthesize isPrimaryLink=_isPrimaryLink;
-@property(nonatomic) int subchannel; // @synthesize subchannel=_subchannel;
-@property(nonatomic) int width; // @synthesize width=_width;
 
 @end
 

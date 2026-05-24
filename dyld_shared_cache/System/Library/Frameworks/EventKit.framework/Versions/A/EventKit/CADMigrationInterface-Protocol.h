@@ -5,5 +5,8 @@
 //
 
 @protocol CADMigrationInterface
+- (void)and <%@>;
+- (void)r:(void (^)(int))arg1 %@;
+- (void):(void (^)(int))arg1 %{public}@;
 @end
 

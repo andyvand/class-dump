@@ -4,72 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECEmailAddress, NSArray, NSString;
+@class NSString;
 
 @interface ECEmailAddressComponents
 {
     NSString *_simpleAddress;
-    NSString *_localPart;
-    NSString *_domain;
-    NSString *_idnaDomain;
-    NSArray *_groupList;
-    NSString *_displayName;
 }
 
 + (id);
-+ (id);
++ (id)m;
 - (void);
+- (id);
+- (_Bool)_trackMediaCharateristic;
+- (id);
+- (void);
+- (void)4
+;
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)Ti,R,V_processID;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)LateOnGlassPresents;
+- (_Bool)etch is needed, ncv-compatible rollout v2 are not present for namespace names:%@ and are present for namespace names:{public}%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)parseSectionsFromDict: /* Error: Ran out of types for this method. */;
+- (id)kMDItemPhotosBusinessCategories_TermFrequencies_Min_Word;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)ported in Framework;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) ECEmailAddress *emailAddressValue;
-@property(copy) NSArray *groupList; // @synthesize groupList=_groupList;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *idnaAddress;
-@property(copy, setter=setIDNADomain:) NSString *idnaDomain; // @synthesize idnaDomain=_idnaDomain;
-@property(copy) NSString *localPart; // @synthesize localPart=_localPart;
-@property(readonly) NSString *simpleAddress; // @synthesize simpleAddress=_simpleAddress;
-@property(readonly) NSString *stringValue;
-@property(readonly) Class superclass;
 
 @end
 

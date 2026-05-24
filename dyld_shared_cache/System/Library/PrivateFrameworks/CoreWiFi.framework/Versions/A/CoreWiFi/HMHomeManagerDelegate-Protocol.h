@@ -5,5 +5,9 @@
 //
 
 @protocol HMHomeManagerDelegate
+
+@optional
+- (void);
+- (void)-SHA;
 @end
 

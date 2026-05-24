@@ -9,15 +9,13 @@
 @interface CNPrivateAccessEntry
 {
     _Bool _isPrivateAccessTipDismissedByUser;
-    NSString *_bundleIdentifier;
-    double _lastAccessTimestamp;
 }
 
 + (_Bool);
 + (id)0@ù
 × ;
 - (void);
-- (double);
+- (double)q;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -27,13 +25,10 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)dContainerContextPreservingChanges: /* Error: Ran out of types for this method. */;
+- (void)_reloadContainerContextPreservingChanges: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) _Bool isExpired;
-@property(readonly, nonatomic) _Bool isPrivateAccessTipDismissedByUser; // @synthesize isPrivateAccessTipDismissedByUser=_isPrivateAccessTipDismissedByUser;
-@property(readonly, nonatomic) double lastAccessTimestamp; // @synthesize lastAccessTimestamp=_lastAccessTimestamp;
 
 @end
 

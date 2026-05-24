@@ -6,34 +6,28 @@
 
 #import <ScreenReaderCore/SCRCMathExpression.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface SCRCMathMultiscriptsExpression : SCRCMathExpression
 {
     SCRCMathExpression *_base;
-    NSArray *_postScripts;
-    NSArray *_preScripts;
 }
 
+- (id)m;
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)-m;
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)?׀C;
+- (id);
+- (void)8@"NSUUID"16@?<v@?@"NSData">24;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SCRCMathExpression *base; // @synthesize base=_base;
-@property(retain, nonatomic) NSArray *postScripts; // @synthesize postScripts=_postScripts;
-@property(retain, nonatomic) NSArray *preScripts; // @synthesize preScripts=_preScripts;
 
 @end
 

@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContact, _INPBDateTimeRange, _INPBIntentMetadata;
-
 @interface _INPBSearchCallHistoryIntent
 {
     CDStruct_95bda58d _callCapabilities;
-    CDStruct_95bda58d _callTypes;
-    CDStruct_95bda58d _capabilities;
-    struct {
-        unsigned int callType:1;
-        unsigned int preferredCallProvider:1;
-        unsigned int unseen:1;
-    } _has;
-    _Bool _unseen;
-    int _callType;
-    int _preferredCallProvider;
-    _INPBDateTimeRange *_dateCreated;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBContact *_recipient;
-    _INPBContact *_targetContact;
 }
 
 + (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -46,7 +30,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (unsigned long long);
 - (int);
 - (id);
@@ -62,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);
@@ -71,7 +55,7 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)depth;
 - (int);
 - (void);
 - (id);
@@ -84,39 +68,13 @@
 - (void);
 - (id);
 - (int *);
-- (id);
+- (id);
 - (void);
 - (_Bool)imeRange",&,N,V_recordDate;
 - (void)nse initWithCode:userActivity:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int *callCapabilities;
-@property(readonly, nonatomic) unsigned long long callCapabilitiesCount;
-@property(nonatomic) int callType; // @synthesize callType=_callType;
-@property(readonly, nonatomic) int *callTypes;
-@property(readonly, nonatomic) unsigned long long callTypesCount;
-@property(readonly, nonatomic) int *capabilities;
-@property(readonly, nonatomic) unsigned long long capabilitiesCount;
-@property(retain, nonatomic) _INPBDateTimeRange *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCallType;
-@property(readonly, nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPreferredCallProvider;
-@property(readonly, nonatomic) _Bool hasRecipient;
-@property(readonly, nonatomic) _Bool hasTargetContact;
-@property(nonatomic) _Bool hasUnseen;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int preferredCallProvider; // @synthesize preferredCallProvider=_preferredCallProvider;
-@property(retain, nonatomic) _INPBContact *recipient; // @synthesize recipient=_recipient;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBContact *targetContact; // @synthesize targetContact=_targetContact;
-@property(nonatomic) _Bool unseen; // @synthesize unseen=_unseen;
 
 @end
 

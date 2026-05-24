@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id);
++ (id)ncated by Transformer's tokenizer.;
 - (void);
 - (id);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *provider;
-@property(copy, nonatomic) NSString *query;
 
 @end
 

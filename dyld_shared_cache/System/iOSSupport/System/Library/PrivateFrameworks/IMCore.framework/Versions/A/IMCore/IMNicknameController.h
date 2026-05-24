@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMNickname, NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSSet;
-@protocol OS_dispatch_queue;
+@class IMNickname;
 
 @interface IMNicknameController
 {
     _Bool _isInitialLoad;
-    IMNickname *_personalNickname;
-    NSDictionary *_pendingNicknameUpdates;
-    NSDictionary *_handledNicknames;
-    NSDictionary *_archivedNicknames;
-    NSSet *_allowListedHandlesForSharing;
-    NSSet *_denyListedHandlesForSharing;
-    NSSet *_transitionedHandles;
-    NSDictionary *_activeRecords;
-    NSDictionary *_ignoredRecords;
-    NSDictionary *_unknownSenderRecords;
-    NSMutableDictionary *_responseHandlers;
-    NSMutableSet *_scrutinyNicknameHandles;
-    NSObject<OS_dispatch_queue> *_loadQueue;
 }
 
 + (_Bool);
@@ -39,9 +25,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -52,61 +38,61 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ֿR;
 - (id);
+- (id);
+- (void);
+- (void);
+- (void)V;
+- (void)P;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void)Ss;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)RTTServiceUpdates;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!;
+- (id)H;
 - (_Bool);
 - (void);
 - (void);
@@ -123,20 +109,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *activeRecords; // @synthesize activeRecords=_activeRecords;
-@property(retain, nonatomic) NSSet *allowListedHandlesForSharing; // @synthesize allowListedHandlesForSharing=_allowListedHandlesForSharing;
-@property(retain) NSDictionary *archivedNicknames; // @synthesize archivedNicknames=_archivedNicknames;
-@property(retain, nonatomic) NSSet *denyListedHandlesForSharing; // @synthesize denyListedHandlesForSharing=_denyListedHandlesForSharing;
-@property(retain) NSDictionary *handledNicknames; // @synthesize handledNicknames=_handledNicknames;
-@property(retain, nonatomic) NSDictionary *ignoredRecords; // @synthesize ignoredRecords=_ignoredRecords;
-@property(nonatomic) _Bool isInitialLoad; // @synthesize isInitialLoad=_isInitialLoad;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *loadQueue; // @synthesize loadQueue=_loadQueue;
-@property(retain) NSDictionary *pendingNicknameUpdates; // @synthesize pendingNicknameUpdates=_pendingNicknameUpdates;
 @property(retain, nonatomic) IMNickname *personalNickname; // @synthesize personalNickname=_personalNickname;
-@property(retain, nonatomic) NSMutableDictionary *responseHandlers; // @synthesize responseHandlers=_responseHandlers;
-@property(retain, nonatomic) NSMutableSet *scrutinyNicknameHandles; // @synthesize scrutinyNicknameHandles=_scrutinyNicknameHandles;
-@property(retain, nonatomic) NSSet *transitionedHandles; // @synthesize transitionedHandles=_transitionedHandles;
-@property(retain, nonatomic) NSDictionary *unknownSenderRecords; // @synthesize unknownSenderRecords=_unknownSenderRecords;
 
 @end
 

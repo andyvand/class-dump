@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VNEntityIdentificationModelAlgorithm, VNRequestSpecifier;
+@class VNEntityIdentificationModelAlgorithm;
 
 @interface VNEntityIdentificationModelConfiguration
 {
     unsigned long long _maximumEntities;
-    unsigned long long _maximumTrainingPrintsPerEntity;
-    VNRequestSpecifier *_entityPrintOriginatingRequestSpecifier;
-    VNEntityIdentificationModelAlgorithm *_algorithm;
 }
 
 + (id);
 + (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long)%s;
 + (_Bool);
 - (void);
 - (void);
@@ -27,10 +24,10 @@
 - (unsigned long long);
 - (int);
 - (int);
-- (id);
+- (id)appLibraryCollectionForProviderDomain:(id)arg1;
 - (int);
 - (id);
-- (id);
+- (id);
 - (int);
 - (id);
 - (unsigned long long);
@@ -39,15 +36,11 @@
 - (int);
 - (id);
 - (id);
-- (void)ow;
+- (void)rightFrontElbow;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *acceptableEntityPrintOriginatingRequestSpecifiers;
 @property(copy, nonatomic) VNEntityIdentificationModelAlgorithm *algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, copy) VNRequestSpecifier *entityPrintOriginatingRequestSpecifier; // @synthesize entityPrintOriginatingRequestSpecifier=_entityPrintOriginatingRequestSpecifier;
-@property unsigned long long maximumEntities;
-@property unsigned long long maximumTrainingPrintsPerEntity;
 
 @end
 

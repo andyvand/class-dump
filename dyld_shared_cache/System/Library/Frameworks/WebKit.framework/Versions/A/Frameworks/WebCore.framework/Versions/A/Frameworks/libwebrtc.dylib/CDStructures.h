@@ -10,8 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct BitrateAdjuster;
-
 struct Chromaticity {
     float _field1;
     float _field2;
@@ -175,27 +173,6 @@ struct GofInfoVP9 {
     unsigned short _field6;
 };
 
-struct H264BitstreamParser {
-    CDUnknownFunctionPointerType *_vptr$BitstreamParser;
-    struct optional<webrtc::SpsParser::SpsState> sps_;
-    struct optional<webrtc::PpsParser::PpsState> pps_;
-    struct optional<int> last_slice_qp_delta_;
-};
-
-struct H264ProfileLevelId {
-    int profile;
-    int level;
-};
-
-struct H265BitstreamParser {
-    CDUnknownFunctionPointerType *_vptr$BitstreamParser;
-    struct flat_map<unsigned int, webrtc::H265VpsParser::VpsState, std::less<void>, std::vector<std::pair<unsigned int, webrtc::H265VpsParser::VpsState>>> vps_;
-    struct flat_map<unsigned int, webrtc::H265SpsParser::SpsState, std::less<void>, std::vector<std::pair<unsigned int, webrtc::H265SpsParser::SpsState>>> sps_;
-    struct flat_map<unsigned int, webrtc::H265PpsParser::PpsState, std::less<void>, std::vector<std::pair<unsigned int, webrtc::H265PpsParser::PpsState>>> pps_;
-    struct optional<int> last_slice_qp_delta_;
-    struct optional<unsigned int> last_slice_pps_id_;
-};
-
 struct HdrMasteringMetadata {
     struct Chromaticity _field1;
     struct Chromaticity _field2;
@@ -241,40 +218,10 @@ struct InlinedVector<webrtc::ScalabilityMode, 34UL, std::allocator<webrtc::Scala
     struct Storage<webrtc::ScalabilityMode, 34UL, std::allocator<webrtc::ScalabilityMode>> _field1;
 };
 
-struct Mutex {
-    struct MutexImpl impl_;
-};
-
-struct MutexImpl {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } mutex_;
-};
-
-struct PpsState {
-    _Bool bottom_field_pic_order_in_frame_present_flag;
-    _Bool weighted_pred_flag;
-    _Bool entropy_coding_mode_flag;
-    unsigned int num_ref_idx_l0_default_active_minus1;
-    unsigned int num_ref_idx_l1_default_active_minus1;
-    unsigned int weighted_bipred_idc;
-    unsigned int redundant_pic_cnt_present_flag;
-    int pic_init_qp_minus26;
-    unsigned int id;
-    unsigned int sps_id;
-};
-
 struct Psnr {
     double _field1;
     double _field2;
     double _field3;
-};
-
-struct RTCVideoFrameReorderQueue {
-    struct deque<std::unique_ptr<webrtc::RTCVideoFrameReorderQueue::RTCVideoFrameWithOrder>, std::allocator<std::unique_ptr<webrtc::RTCVideoFrameReorderQueue::RTCVideoFrameWithOrder>>> _reorderQueue;
-    unsigned char _reorderSize;
-    struct Mutex _reorderQueueLock;
 };
 
 struct Resolution {
@@ -334,23 +281,6 @@ struct SimulcastStream {
     unsigned int _field8;
     _Bool _field9;
     struct optional<webrtc::SdpVideoFormat> _field10;
-};
-
-struct SpsState {
-    unsigned int pic_width_in_mbs_minus1;
-    unsigned int pic_height_in_map_units_minus1;
-    unsigned int width;
-    unsigned int height;
-    unsigned int delta_pic_order_always_zero_flag;
-    unsigned int chroma_format_idc;
-    unsigned int separate_colour_plane_flag;
-    unsigned int frame_mbs_only_flag;
-    unsigned int log2_max_frame_num;
-    unsigned int log2_max_pic_order_cnt_lsb;
-    unsigned int pic_order_cnt_type;
-    unsigned int max_num_ref_frames;
-    unsigned int vui_params_present;
-    unsigned int id;
 };
 
 struct Storage<int, 10UL, std::allocator<int>> {
@@ -525,36 +455,11 @@ struct bitset<32UL> {
     unsigned long long _field1;
 };
 
-struct deque<std::unique_ptr<webrtc::RTCVideoFrameReorderQueue::RTCVideoFrameWithOrder>, std::allocator<std::unique_ptr<webrtc::RTCVideoFrameReorderQueue::RTCVideoFrameWithOrder>>> {
-    struct __split_buffer<std::unique_ptr<webrtc::RTCVideoFrameReorderQueue::RTCVideoFrameWithOrder>*, std::allocator<std::unique_ptr<webrtc::RTCVideoFrameReorderQueue::RTCVideoFrameWithOrder>*>> {
-        void **__first_;
-        void **__begin_;
-        void **__end_;
-        struct {
-            void **__cap_;
-        } ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
-};
-
-struct flat_map<unsigned int, webrtc::H265PpsParser::PpsState, std::less<void>, std::vector<std::pair<unsigned int, webrtc::H265PpsParser::PpsState>>> {
-    struct vector<std::pair<unsigned int, webrtc::H265PpsParser::PpsState>, std::allocator<std::pair<unsigned int, webrtc::H265PpsParser::PpsState>>> body_;
-};
-
-struct flat_map<unsigned int, webrtc::H265SpsParser::SpsState, std::less<void>, std::vector<std::pair<unsigned int, webrtc::H265SpsParser::SpsState>>> {
-    struct vector<std::pair<unsigned int, webrtc::H265SpsParser::SpsState>, std::allocator<std::pair<unsigned int, webrtc::H265SpsParser::SpsState>>> body_;
-};
-
-struct flat_map<unsigned int, webrtc::H265VpsParser::VpsState, std::less<void>, std::vector<std::pair<unsigned int, webrtc::H265VpsParser::VpsState>>> {
-    struct vector<std::pair<unsigned int, webrtc::H265VpsParser::VpsState>, std::allocator<std::pair<unsigned int, webrtc::H265VpsParser::VpsState>>> body_;
-};
-
 struct map<int, unsigned long, std::less<int>, std::allocator<std::pair<const int, unsigned long>>> {
     struct __tree<std::__value_type<int, unsigned long>, std::__map_value_compare<int, std::pair<const int, unsigned long>, std::less<int>>, std::allocator<std::pair<const int, unsigned long>>> {
         void *_field1;
         CDStruct_2684d8d4 _field2;
-        CDStruct_a7186859 _field3;
+        CDStruct_69d7cc99 _field3;
     } _field1;
 };
 
@@ -562,7 +467,7 @@ struct map<std::string, std::string, std::less<std::string>, std::allocator<std:
     struct __tree<std::__value_type<std::string, std::string>, std::__map_value_compare<std::string, std::pair<const std::string, std::string>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::string>>> {
         void *_field1;
         CDStruct_2684d8d4 _field2;
-        CDStruct_a7186859 _field3;
+        CDStruct_69d7cc99 _field3;
     } _field1;
 };
 
@@ -576,10 +481,10 @@ struct optional<double> {
 
 struct optional<int> {
     union {
-        char __null_state_;
-        int __val_;
-    } ;
-    _Bool __engaged_;
+        char _field1;
+        int _field2;
+    } _field1;
+    _Bool _field2;
 };
 
 struct optional<std::string> {
@@ -600,10 +505,10 @@ struct optional<std::vector<unsigned int>> {
 
 struct optional<unsigned int> {
     union {
-        char __null_state_;
-        unsigned int __val_;
-    } ;
-    _Bool __engaged_;
+        char _field1;
+        unsigned int _field2;
+    } _field1;
+    _Bool _field2;
 };
 
 struct optional<unsigned short> {
@@ -662,28 +567,12 @@ struct optional<webrtc::GenericFrameInfo> {
     _Bool _field2;
 };
 
-struct optional<webrtc::H264ProfileLevelId> {
-    union {
-        char __null_state_;
-        struct H264ProfileLevelId __val_;
-    } ;
-    _Bool __engaged_;
-};
-
 struct optional<webrtc::HdrMetadata> {
     union {
         char _field1;
         struct HdrMetadata _field2;
     } _field1;
     _Bool _field2;
-};
-
-struct optional<webrtc::PpsParser::PpsState> {
-    union {
-        char __null_state_;
-        struct PpsState __val_;
-    } ;
-    _Bool __engaged_;
 };
 
 struct optional<webrtc::Resolution> {
@@ -718,14 +607,6 @@ struct optional<webrtc::SdpVideoFormat> {
     _Bool _field2;
 };
 
-struct optional<webrtc::SpsParser::SpsState> {
-    union {
-        char __null_state_;
-        struct SpsState __val_;
-    } ;
-    _Bool __engaged_;
-};
-
 struct optional<webrtc::Timestamp> {
     union {
         char _field1;
@@ -754,12 +635,6 @@ struct scoped_refptr<webrtc::RtpPacketInfos::Data> {
     struct Data *_field1;
 };
 
-struct unique_ptr<webrtc::BitrateAdjuster, std::default_delete<webrtc::BitrateAdjuster>> {
-    struct {
-        struct BitrateAdjuster *__ptr_;
-    } ;
-};
-
 struct unique_ptr<webrtc::VideoDecoder, std::default_delete<webrtc::VideoDecoder>> {
     struct {
         struct VideoDecoder *__ptr_;
@@ -775,7 +650,7 @@ struct unique_ptr<webrtc::VideoEncoder, std::default_delete<webrtc::VideoEncoder
 struct vector<bool, std::allocator<bool>> {
     unsigned long long *_field1;
     unsigned long long _field2;
-    CDStruct_a7186859 _field3;
+    CDStruct_69d7cc99 _field3;
 };
 
 struct vector<double, std::allocator<double>> {
@@ -784,32 +659,6 @@ struct vector<double, std::allocator<double>> {
     struct {
         double *_field1;
     } _field3;
-};
-
-struct vector<std::pair<unsigned int, webrtc::H265PpsParser::PpsState>, std::allocator<std::pair<unsigned int, webrtc::H265PpsParser::PpsState>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::pair<unsigned int, webrtc::H265SpsParser::SpsState>, std::allocator<std::pair<unsigned int, webrtc::H265SpsParser::SpsState>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::pair<unsigned int, webrtc::H265VpsParser::VpsState>, std::allocator<std::pair<unsigned int, webrtc::H265VpsParser::VpsState>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<unsigned char, std::allocator<unsigned char>> {
-    char *__begin_;
-    char *__end_;
-    struct {
-        char *__cap_;
-    } ;
 };
 
 struct vector<unsigned int, std::allocator<unsigned int>> {
@@ -848,12 +697,8 @@ typedef struct {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
-    void *__cap_;
-} CDStruct_63fd5f43;
+    unsigned long long _field1;
+} CDStruct_69d7cc99;
 
 typedef struct {
     struct __tree_end_node<std::__tree_node_base<void *>*> {

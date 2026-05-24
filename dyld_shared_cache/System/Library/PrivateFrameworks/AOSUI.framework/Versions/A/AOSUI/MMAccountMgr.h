@@ -9,13 +9,11 @@
 @interface MMAccountMgr
 {
     NSMutableDictionary *_accounts;
-    NSWindow *_parentWindow;
-    struct os_unfair_lock_s _accountContextLock;
 }
 
-+ (void);
++ (void)1	3;
++ (id)9;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -27,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q	3;
 - (void);
 - (void);
 - (void);

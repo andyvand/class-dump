@@ -10,19 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _CDBadgeLayer
 {
     NSString *_label;
-    struct __CTFramesetter *_labelFramesetter;
-    _Bool _drawBackground;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)c;
+- (id)t;
+- (void);
 
 // Remaining properties
-@property _Bool drawBackground; // @synthesize drawBackground=_drawBackground;
 @property(copy) NSString *label;
 
 @end

@@ -9,23 +9,15 @@
 @interface NewsArticles.AdComponentViewFactory
 {
     id resolver;
-    id bannerAdFactory;
-    id viewManager;
-    id requestManager;
-    id bannerAdRenderer;
-    id integrator;
-    id exposureMonitor;
-    id journal;
 }
 
 - (id);
 - (id);
 - (id);
 - (int);
-- (void)ider;
+- (void)recipeAccessProvider;
 
 // Remaining properties
-@property(nonatomic, readonly) int role;
 @property(nonatomic, readonly) NSString *type;
 
 @end

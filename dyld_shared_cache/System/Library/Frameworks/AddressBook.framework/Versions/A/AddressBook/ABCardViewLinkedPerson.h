@@ -9,11 +9,6 @@
 @interface ABCardViewLinkedPerson
 {
     NSString *_fullName;
-    NSString *_accountName;
-    _Bool _unified;
-    NSString *_identifier;
-    _Bool _showName;
-    _Bool _isPreferredForName;
 }
 
 - (id);
@@ -21,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -31,12 +26,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountName; // @synthesize accountName=_accountName;
 @property(readonly, copy, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isPreferredForName; // @synthesize isPreferredForName=_isPreferredForName;
-@property(readonly) _Bool showName; // @synthesize showName=_showName;
-@property(readonly) _Bool unified; // @synthesize unified=_unified;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AppSandboxAdditions)
-- (id);
+- (id)h;
 @end
 

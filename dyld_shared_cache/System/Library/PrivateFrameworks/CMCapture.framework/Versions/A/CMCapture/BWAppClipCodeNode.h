@@ -6,24 +6,17 @@
 
 #import <CMCapture/BWNode.h>
 
-@class FigWeakReference, NSObject;
+@class NSObject;
 @protocol BWMetadataDetectedResultsObserver, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface BWAppClipCodeNode : BWNode
 {
     NSObject<OS_dispatch_queue> *_processingQueue;
-    FigWeakReference *_weakSelf;
-    _Bool _haveInputTransform;
-    int _rotationDegrees;
-    _Bool _mirroringHorizontal;
-    _Bool _mirroringVertical;
-    id <BWMetadataDetectedResultsObserver> _detectedResultsObserver;
-    long long _lastAppClipCodeCount;
 }
 
 + (void)initWithFigCaptureSynchronizedStreamsGroup:bwFigCaptureStreams:figCaptureStreams:] /* Error: Ran out of types for this method. */;
-- (id);
+- (id)bulletCharacterProperties;
 - (void);
 - (void);
 - (void);

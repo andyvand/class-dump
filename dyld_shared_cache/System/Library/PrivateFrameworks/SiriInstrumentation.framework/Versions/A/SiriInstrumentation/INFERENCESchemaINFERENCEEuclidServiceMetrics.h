@@ -6,26 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCEEuclidServiceMetrics : SISchemaInstrumentationMessage
 {
     _Bool _isAsrE3Invoked;
-    unsigned int _numEuclidCandidates;
-    struct {
-        unsigned int isAsrE3Invoked:1;
-        unsigned int numEuclidCandidates:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ר;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (id);
@@ -37,14 +30,10 @@
 - (id)ÁsÐ!EùñßÐ1Â0@ù
 × ;
 - (id)a",&,N,V_eventMetadata;
-- (id)ions;
+- (id)ODDSiriSchemaODDAssetSetStatusDimensions;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAsrE3Invoked;
-@property(nonatomic) _Bool hasNumEuclidCandidates;
 @property(nonatomic) _Bool isAsrE3Invoked; // @synthesize isAsrE3Invoked=_isAsrE3Invoked;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numEuclidCandidates; // @synthesize numEuclidCandidates=_numEuclidCandidates;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSPredicate, NSSet;
-
 @interface RTPredicateValidator
 {
     _Bool _validated;
-    NSPredicate *_predicate;
-    NSSet *_allowedKeys;
-    NSError *_error;
 }
 
 + (_Bool);
@@ -31,9 +26,6 @@
 - (void) +±;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *allowedKeys; // @synthesize allowedKeys=_allowedKeys;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 @property(nonatomic) _Bool validated; // @synthesize validated=_validated;
 
 @end

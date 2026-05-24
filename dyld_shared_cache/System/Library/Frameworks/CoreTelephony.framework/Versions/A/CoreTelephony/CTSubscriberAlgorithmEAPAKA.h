@@ -11,21 +11,19 @@
 @interface CTSubscriberAlgorithmEAPAKA : CTSubscriberAlgorithm
 {
     NSData *_rand;
-    NSData *_autn;
 }
 
-+ (_Bool);
++ (_Bool)ot be called before reading has started;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)optionFaceDetectLength;
 - (void)a&ð!Aùqª)°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *autn; // @synthesize autn=_autn;
 @property(retain, nonatomic) NSData *rand; // @synthesize rand=_rand;
 
 @end

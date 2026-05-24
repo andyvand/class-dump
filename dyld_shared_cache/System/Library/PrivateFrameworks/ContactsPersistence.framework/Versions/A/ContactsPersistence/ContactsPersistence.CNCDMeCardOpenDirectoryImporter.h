@@ -7,8 +7,6 @@
 @interface ContactsPersistence.CNCDMeCardOpenDirectoryImporter
 {
     id context;
-    id dict;
-    id contact;
 }
 
 - (id);

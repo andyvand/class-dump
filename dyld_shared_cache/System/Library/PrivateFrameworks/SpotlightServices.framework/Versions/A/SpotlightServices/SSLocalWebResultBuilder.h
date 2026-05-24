@@ -6,32 +6,28 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SSLocalWebResultBuilder : SSResultBuilder
 {
     NSString *_siteName;
-    NSURL *_url;
-    NSString *_cloudTabDeviceName;
 }
 
-+ (id);
-+ (_Bool);
++ (id)"LPPlayButtonControl";
++ (_Bool);
+- (void);
+- (id)setAttributedStringValue: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)thStream:startDate:endDate:identifierStringValue:metadata: /* Error: Ran out of types for this method. */;
+- (void)eventWithStream:startDate:endDate:identifierStringValue:metadata: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cloudTabDeviceName; // @synthesize cloudTabDeviceName=_cloudTabDeviceName;
 @property(retain, nonatomic) NSString *siteName; // @synthesize siteName=_siteName;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

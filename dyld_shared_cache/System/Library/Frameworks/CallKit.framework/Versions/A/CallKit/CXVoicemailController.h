@@ -10,13 +10,12 @@
 @interface CXVoicemailController
 {
     CXVoicemailObserver *_voicemailObserver;
-    NSObject<OS_dispatch_queue> *_completionQueue;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)6,;
 - (id);
 - (void);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(readonly, nonatomic) CXVoicemailObserver *voicemailObserver; // @synthesize voicemailObserver=_voicemailObserver;
 
 @end
 

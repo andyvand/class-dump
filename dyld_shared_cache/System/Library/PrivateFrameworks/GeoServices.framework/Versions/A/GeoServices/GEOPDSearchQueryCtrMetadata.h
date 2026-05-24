@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)tion:(id)arg1 %{public}@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ds"b1"read_contactHome"b1"read_contactOther"b1"read_contactWork"b1"read_custom"b1"read_home"b1"read_pointOfInterest"b1"read_streetAddress"b1"read_unknown"b1"read_work"b1"wrote_anyField"b1};
-- (id)reSequenceIndex;
+- (id)_problematicDepartureSequenceIndex;
 - (id)¤_Lale°fgPhl;
 - (void)Ø.m8,ÇH@;
 

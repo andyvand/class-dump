@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RVItem, UIView;
-@protocol UIActivityItemsConfigurationReading;
-
 __attribute__((visibility("hidden")))
 @interface _UIMenuBarController
 {
     _Bool _didBuildMenuBarAtLeastOnce;
-    id <UIActivityItemsConfigurationReading> __activityItemsConfiguration;
-    UIView *_contextMenuView;
-    RVItem *_contextMenuRVItem;
-    CDUnknownBlockType _contextMenuDidClose;
-    struct CGPoint _contextMenuLocation;
 }
 
 + (id)HEk;
@@ -25,50 +17,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)"NSString"16@"IMItem"24@"NSArray"32;
+- (_Bool)idsDestination;
+- (id)deviceSignedOutOfiMessage;
+- (id)deleteChatCKOperationUsingRecordIDstoDelete: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)deleteAttachmentZone;
+- (void)conversationManager:(id)arg1 remoteScreenShareEndedWithReason:(SEL)arg2;
+- (void)appendTranslation:toMessageItem:partIndex:toChatIdentifier:style:account: /* Error: Ran out of types for this method. */;
+- (void)appendInlineImageWithGUID:(id)arg1 filename:(id)arg2 width:(struct CGPoint)arg3 height:(id)arg4 isAnimoji:isAdaptiveImageGlyph: /* Error: Ran out of types for this method. */;
+- (void)_numMessagesSent;
+- (void)_numChatsMarkedReadWithV1NoQOI;
+- (void)_fileTransferSizeForSpatialImageFromServerBag:(id)arg1;
 - (void);
 - (void);
+- (void):(id)arg1 ;
 - (void);
-- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)%@;
+- (id)ets a mergedContactID:(id)arg1 [%@];
+- (id)chat:(id)arg1 %@;
+- (id)ScheduledMessageBlocklistController;
+- (id)PreviewTranscodingSelectedByUser;
+- (void)4;
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)A;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void)^;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setActivityItemsConfiguration:) id <UIActivityItemsConfigurationReading> _activityItemsConfiguration; // @synthesize _activityItemsConfiguration=__activityItemsConfiguration;
 @property(copy, nonatomic) CDUnknownBlockType contextMenuDidClose; // @synthesize contextMenuDidClose=_contextMenuDidClose;
-@property(nonatomic) struct CGPoint contextMenuLocation; // @synthesize contextMenuLocation=_contextMenuLocation;
-@property(retain, nonatomic) RVItem *contextMenuRVItem; // @synthesize contextMenuRVItem=_contextMenuRVItem;
-@property(retain, nonatomic) UIView *contextMenuView; // @synthesize contextMenuView=_contextMenuView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didBuildMenuBarAtLeastOnce; // @synthesize didBuildMenuBarAtLeastOnce=_didBuildMenuBarAtLeastOnce;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

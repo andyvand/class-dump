@@ -5,14 +5,12 @@
 //
 
 @class NSSet, NSValue;
-@protocol UIAvoidanceClientApplicator, UIAvoidanceClientDelegate;
 
 @protocol UIAvoidanceClient
+- (void);
+- (NSValue *);
 
 // Remaining properties
-@property(retain, nonatomic) id <UIAvoidanceClientApplicator> avoidanceApplicator;
-@property(retain, nonatomic) id <UIAvoidanceClientDelegate> avoidanceController;
-@property(retain, nonatomic) NSValue *avoidancePosition;
 @property(readonly, nonatomic) NSSet *blockades;
 @end
 

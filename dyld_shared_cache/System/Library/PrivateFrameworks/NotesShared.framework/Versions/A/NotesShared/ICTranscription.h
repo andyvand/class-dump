@@ -7,9 +7,6 @@
 @interface ICTranscription
 {
     id queue;
-    id _currentlyTranscribingAttachment;
-    id _downloadingModel;
-    id workerContext;
 }
 
 + (void);

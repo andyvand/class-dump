@@ -5,5 +5,7 @@
 //
 
 @protocol CNPropertyCellDelegate
+- (void)q!;
+- (void);
 @end
 

@@ -13,7 +13,6 @@ __attribute__((visibility("hidden")))
 @interface CKTranscriptActionButtonCell : CKTranscriptAbstractLabelCell
 {
     id <CKTranscriptActionButtonCellDelegate> _delegate;
-    CKTranscriptLegibilityButton *_actionButton;
 }
 
 + (struct CGSize);
@@ -25,14 +24,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)kTemplateImageNamed: /* Error: Ran out of types for this method. */;
+- (id)_shouldAnimateAtomViewChanges;
+- (id)ckTemplateImageNamed: /* Error: Ran out of types for this method. */;
 - (void)SgtGGANGANGtGGG_Qo_;
 - (void)P;
 
 // Remaining properties
 @property(retain, nonatomic) CKTranscriptLegibilityButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(nonatomic) __weak id <CKTranscriptActionButtonCellDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

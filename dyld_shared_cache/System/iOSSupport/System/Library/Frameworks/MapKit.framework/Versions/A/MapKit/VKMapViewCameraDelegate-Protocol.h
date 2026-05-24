@@ -5,5 +5,11 @@
 //
 
 @protocol VKMapViewCameraDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)D;
 @end
 

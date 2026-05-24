@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface WiFiUsageAccessPointProfileInfo
 {
     NSString *_bssid;
-    NSString *_ssid;
-    NSDictionary *_apProfileWPSInfo;
-    NSString *_apProfileVersion;
-    NSString *_apProfile_shortID;
-    NSString *_apProfileID;
-    NSData *_beacon;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (id);
@@ -35,13 +29,7 @@
 - (id)Manager.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *apProfileID; // @synthesize apProfileID=_apProfileID;
-@property(retain, nonatomic) NSString *apProfileVersion; // @synthesize apProfileVersion=_apProfileVersion;
-@property(retain, nonatomic) NSDictionary *apProfileWPSInfo; // @synthesize apProfileWPSInfo=_apProfileWPSInfo;
-@property(retain, nonatomic) NSString *apProfile_shortID; // @synthesize apProfile_shortID=_apProfile_shortID;
-@property(retain, nonatomic) NSData *beacon; // @synthesize beacon=_beacon;
 @property(retain, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(retain, nonatomic) NSString *ssid; // @synthesize ssid=_ssid;
 
 @end
 

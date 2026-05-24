@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _DKPrivacyPolicyEnforcer, _DKRateLimitPolicyEnforcer;
-@protocol OS_dispatch_queue, _DKKnowledgeQuerying><_DKKnowledgeSaving><_DKKnowledgeDeleting><_DKKnowledgeEventStreamDeleting;
+@class NSObject;
+@protocol _DKKnowledgeQuerying><_DKKnowledgeSaving><_DKKnowledgeDeleting><_DKKnowledgeEventStreamDeleting;
 
 @interface _DKKnowledgeStore
 {
     NSObject<_DKKnowledgeQuerying><_DKKnowledgeSaving><_DKKnowledgeDeleting><_DKKnowledgeEventStreamDeleting> *_knowledgeStoreHandle;
-    _DKRateLimitPolicyEnforcer *_rateLimitEnforcer;
-    _DKPrivacyPolicyEnforcer *_privacyEnforcer;
-    NSObject<OS_dispatch_queue> *_defaultQueue;
 }
 
 + (id);
@@ -20,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id)recipients:%@
  /* Error: Ran out of types for this method. */;
 - (id);
@@ -28,8 +25,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)I^{CGXSession}i{CGXConnectionNotificationContext=II^{CGXConnectionNotice}}{CGXConnectionNotificationContext=II^{CGXConnectionNotice}}b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1^vI^{__CFDictionary}^{CGSRegionObject}IIIdd^QQQII^{CGSRegionObject}^{CGXCursor}^{__CFDictionary}^vIIIiI{CPSProcessSerNum=II}IIIb1b1b1b1b1b1b1b1b1b1b1b1b1^{CGXEventTap}^{CGXCaptureState}I^v^?dddddI^{CGXDirtyScreenState}IB^{PKGSpace}{WSSymbolicHotKeyBitMask=[9I]}iQ^{x_list_struct}b1b1b1IdId^{SLSStructuralRegionIDRange}{?=III{?=[2I]}{?=[8I]}}^{x_list_struct}^{CGSRegionObject}b1b1IBBQ{?=[8I]}^{CGSRegionObject}B^{CGSRegionObject}b1b1b1Qb1b1ii^{CGXConnectionCAContextTrackingState}^{__CGXConnectionBox}Bd^{__CFString}b1b1b1b1b1b1b1b1b1b1b1b1b1^vQ^{x_list_struct}Ib1ib1}16Q24;
+- (_Bool)ruleForDispatchingDiscreteEventsMatchingPredicate:(id *)arg1 toTarget: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);

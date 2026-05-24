@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUCrossFadeViewAnimator, NUTextAndGlyphView, NUTitleViewUpdate, UIImageView, UILabel;
+@class UIImageView;
 @protocol NUTitleViewStyler;
 
 @interface NUCrossFadeTitleView
 {
     id <NUTitleViewStyler> _styler;
-    UIImageView *_titleImageView;
-    UILabel *_titleLabel;
-    NUTextAndGlyphView *_textAndGlyphView;
-    unsigned long long _displayValueType;
-    NUCrossFadeViewAnimator *_animator;
-    NUTitleViewUpdate *_update;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)A7;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)feedAdScreenfulsToPrefetch;
 - (void);
-- (unsigned long long);
+- (unsigned long long)FCChannelProviding>",?,R,C,N;
 - (id);
 - (id);
 - (id);
@@ -42,14 +36,7 @@
 - (id)r;
 
 // Remaining properties
-@property(readonly, nonatomic) NUCrossFadeViewAnimator *animator; // @synthesize animator=_animator;
-@property(nonatomic) unsigned long long displayValueType; // @synthesize displayValueType=_displayValueType;
-@property(retain, nonatomic) id <NUTitleViewStyler> styler; // @synthesize styler=_styler;
-@property(readonly, nonatomic) NUTextAndGlyphView *textAndGlyphView; // @synthesize textAndGlyphView=_textAndGlyphView;
 @property(readonly, nonatomic) UIImageView *titleImageView; // @synthesize titleImageView=_titleImageView;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NUTitleViewUpdate *update; // @synthesize update=_update;
-@property(readonly, nonatomic) struct CGRect visibleFrame;
 
 @end
 

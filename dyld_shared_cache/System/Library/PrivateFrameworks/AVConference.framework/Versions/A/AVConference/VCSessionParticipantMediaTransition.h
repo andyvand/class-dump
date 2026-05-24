@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface VCSessionParticipantMediaTransition
 {
     unsigned int _mediaType;
-    unsigned int _fromState;
-    unsigned int _toState;
 }
 
 + (_Bool)agCONNRESULT}i}16;
-- (id);
+- (id)5;
 - (id);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
-- (void);
-- (unsigned int)deoStreamBandwidthProbing: /* Error: Ran out of types for this method. */;
+- (void)[%.*s] (result=%ld);
+- (unsigned int)setOneToOneVideoStreamBandwidthProbing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int fromState; // @synthesize fromState=_fromState;
 @property(readonly, nonatomic) unsigned int mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) unsigned int toState; // @synthesize toState=_toState;
 
 @end
 

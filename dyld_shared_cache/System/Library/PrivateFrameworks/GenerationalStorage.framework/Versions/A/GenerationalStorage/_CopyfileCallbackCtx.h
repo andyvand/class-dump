@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress;
-
 __attribute__((visibility("hidden")))
 @interface _CopyfileCallbackCtx
 {
     _Bool _doArchive;
-    _Bool _doUnarchive;
-    NSProgress *_progress;
-    unsigned long long _generationSize;
 }
 
 - (void);
@@ -22,14 +17,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool doArchive; // @synthesize doArchive=_doArchive;
-@property(nonatomic) _Bool doUnarchive; // @synthesize doUnarchive=_doUnarchive;
-@property(nonatomic) unsigned long long generationSize; // @synthesize generationSize=_generationSize;
-@property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
 
 @end
 

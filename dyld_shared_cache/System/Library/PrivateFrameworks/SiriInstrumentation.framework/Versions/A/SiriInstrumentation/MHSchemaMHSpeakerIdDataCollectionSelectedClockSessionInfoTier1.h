@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_clockIdentifier;
-    SISchemaUUID *_requestId;
-    unsigned long long _approximateSessionTimeStamp;
-    struct {
-        unsigned int approximateSessionTimeStamp:1;
-    } _has;
-    _Bool _hasClockIdentifier;
-    _Bool _hasRequestId;
 }
 
 - (void);
@@ -35,7 +28,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ec/ec_check.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -49,13 +42,7 @@
 - (id)ù³';
 
 // Remaining properties
-@property(nonatomic) unsigned long long approximateSessionTimeStamp; // @synthesize approximateSessionTimeStamp=_approximateSessionTimeStamp;
 @property(retain, nonatomic) SISchemaUUID *clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(nonatomic) _Bool hasApproximateSessionTimeStamp;
-@property(nonatomic) _Bool hasClockIdentifier; // @synthesize hasClockIdentifier=_hasClockIdentifier;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 
 @end
 

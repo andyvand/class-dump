@@ -5,5 +5,9 @@
 //
 
 @protocol NSUserActivityDelegate
+
+@optional
+- (void)okies;
+- (void)cess time;
 @end
 

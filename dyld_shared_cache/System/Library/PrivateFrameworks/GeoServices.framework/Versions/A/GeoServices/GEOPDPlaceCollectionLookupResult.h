@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDComponent, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlaceCollectionLookupResult
 {
     PBUnknownFields *_unknownFields;
-    GEOPDComponent *_collectionComponent;
 }
 
-- (id);
+- (id)U;
 - (void);
 - (unsigned long long);
 - (_Bool);

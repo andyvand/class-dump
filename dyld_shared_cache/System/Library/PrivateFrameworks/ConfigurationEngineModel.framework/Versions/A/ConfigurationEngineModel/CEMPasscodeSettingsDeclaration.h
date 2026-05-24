@@ -6,27 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMPasscodeSettingsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowSimple;
-    NSNumber *_payloadForcePIN;
-    NSNumber *_payloadMaxFailedAttempts;
-    NSNumber *_payloadMaxInactivity;
-    NSNumber *_payloadMaxPINAgeInDays;
-    NSNumber *_payloadMinComplexChars;
-    NSNumber *_payloadMinLength;
-    NSNumber *_payloadRequireAlphanumeric;
-    NSNumber *_payloadPinHistory;
-    NSNumber *_payloadMaxGracePeriod;
-    NSNumber *_payloadMinutesUntilFailedLoginReset;
-    NSNumber *_payloadChangeAtNextAuth;
-    NSNumber *_payloadManualFetchingWhenRoaming;
-    NSNumber *_payloadAllowFingerprintForUnlock;
-    NSNumber *_payloadAllowFingerprintModification;
-    NSNumber *_payloadAllowPasscodeModification;
-    NSNumber *_payloadAllowAutoUnlock;
 }
 
 + (id);
@@ -39,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -57,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -76,34 +60,11 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
-- (void);
+- (id)yxq___G;
+- (void)ite;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowAutoUnlock; // @synthesize payloadAllowAutoUnlock=_payloadAllowAutoUnlock;
-@property(copy, nonatomic) NSNumber *payloadAllowFingerprintForUnlock; // @synthesize payloadAllowFingerprintForUnlock=_payloadAllowFingerprintForUnlock;
-@property(copy, nonatomic) NSNumber *payloadAllowFingerprintModification; // @synthesize payloadAllowFingerprintModification=_payloadAllowFingerprintModification;
-@property(copy, nonatomic) NSNumber *payloadAllowPasscodeModification; // @synthesize payloadAllowPasscodeModification=_payloadAllowPasscodeModification;
 @property(copy, nonatomic) NSNumber *payloadAllowSimple; // @synthesize payloadAllowSimple=_payloadAllowSimple;
-@property(copy, nonatomic) NSNumber *payloadChangeAtNextAuth; // @synthesize payloadChangeAtNextAuth=_payloadChangeAtNextAuth;
-@property(copy, nonatomic) NSNumber *payloadForcePIN; // @synthesize payloadForcePIN=_payloadForcePIN;
-@property(copy, nonatomic) NSNumber *payloadManualFetchingWhenRoaming; // @synthesize payloadManualFetchingWhenRoaming=_payloadManualFetchingWhenRoaming;
-@property(copy, nonatomic) NSNumber *payloadMaxFailedAttempts; // @synthesize payloadMaxFailedAttempts=_payloadMaxFailedAttempts;
-@property(copy, nonatomic) NSNumber *payloadMaxGracePeriod; // @synthesize payloadMaxGracePeriod=_payloadMaxGracePeriod;
-@property(copy, nonatomic) NSNumber *payloadMaxInactivity; // @synthesize payloadMaxInactivity=_payloadMaxInactivity;
-@property(copy, nonatomic) NSNumber *payloadMaxPINAgeInDays; // @synthesize payloadMaxPINAgeInDays=_payloadMaxPINAgeInDays;
-@property(copy, nonatomic) NSNumber *payloadMinComplexChars; // @synthesize payloadMinComplexChars=_payloadMinComplexChars;
-@property(copy, nonatomic) NSNumber *payloadMinLength; // @synthesize payloadMinLength=_payloadMinLength;
-@property(copy, nonatomic) NSNumber *payloadMinutesUntilFailedLoginReset; // @synthesize payloadMinutesUntilFailedLoginReset=_payloadMinutesUntilFailedLoginReset;
-@property(copy, nonatomic) NSNumber *payloadPinHistory; // @synthesize payloadPinHistory=_payloadPinHistory;
-@property(copy, nonatomic) NSNumber *payloadRequireAlphanumeric; // @synthesize payloadRequireAlphanumeric=_payloadRequireAlphanumeric;
-@property(readonly) Class superclass;
 
 @end
 

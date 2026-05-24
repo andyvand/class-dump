@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorAnimatedImageMetadata
 {
@@ -14,15 +14,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Kit;
 - (struct CGSize);
 - (void)ingMessagesData;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *durations;
-@property(nonatomic, readonly) struct CGSize pixelSize;
-@property(nonatomic, readonly) NSString *utTypeString;
 
 @end
 

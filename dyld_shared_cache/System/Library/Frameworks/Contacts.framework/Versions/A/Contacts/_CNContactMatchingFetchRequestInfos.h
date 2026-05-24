@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate;
+@class NSPredicate;
 
 __attribute__((visibility("hidden")))
 @interface _CNContactMatchingFetchRequestInfos
 {
     NSPredicate *_predicate;
-    NSArray *_properties;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(retain, nonatomic) NSArray *properties; // @synthesize properties=_properties;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface AppStoreKit.Ratings : AppStoreKit.ProductRatingsAndReviewsComponent
 {
     id productId;
-    id ratingAverage;
-    id ratingCounts;
-    id totalNumberOfRatings;
-    id totalNumberOfReviews;
-    id status;
 }
 
 @end

@@ -9,12 +9,10 @@
 @interface INDefaultCardTemplate
 {
     NSString *_title;
-    NSString *_subtitle;
-    INImage *_image;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)te>",W,N,V_delegate;
 - (void);
 - (id);
 - (unsigned long long);
@@ -22,27 +20,17 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)__isAutoJoinCancelled:(id)arg1;
+- (void)89abb0d9;
+- (void);
 - (id);
 - (void);
-- (id)ebookItems:completion: /* Error: Ran out of types for this method. */;
-- (long long)lueTransformer;
+- (id)resolveDateSearchTypeForSearchForNotebookItems:completion: /* Error: Ran out of types for this method. */;
+- (long long)INIntentSpeakerIDInfoSlotValueTransformer;
 - (void)hCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) INImage *_keyImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INImage *image; // @synthesize image=_image;
-@property(copy) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

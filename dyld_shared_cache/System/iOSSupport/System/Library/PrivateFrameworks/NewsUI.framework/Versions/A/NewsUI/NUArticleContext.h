@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXScrollPosition;
-
 @interface NUArticleContext
 {
     _Bool _shouldAutoPlayVideo;
-    SXScrollPosition *_scrollPosition;
 }
 
 - (_Bool);
@@ -19,7 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SXScrollPosition *scrollPosition; // @synthesize scrollPosition=_scrollPosition;
 @property(readonly, nonatomic) _Bool shouldAutoPlayVideo; // @synthesize shouldAutoPlayVideo=_shouldAutoPlayVideo;
 
 @end

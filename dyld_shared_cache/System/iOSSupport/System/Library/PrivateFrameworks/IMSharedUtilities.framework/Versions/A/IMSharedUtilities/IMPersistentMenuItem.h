@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMAttributableContent;
-
 @interface IMPersistentMenuItem
 {
     long long type;
-    id <IMAttributableContent> content;
 }
 
 + (id);
@@ -20,12 +17,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)SettingValueForBundleKey:uniqueID: /* Error: Ran out of types for this method. */;
+- (id)_getCachedCarrierSettingValueForBundleKey:uniqueID: /* Error: Ran out of types for this method. */;
 - (void)itor for reachability to %s;
 
 // Remaining properties
-@property(nonatomic, readonly) id <IMAttributableContent> content; // @synthesize content;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end

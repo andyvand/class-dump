@@ -11,9 +11,9 @@
 }
 
 - (id);
+- (id)ySupport.framework/Versions/A/Frameworks/AccessibilityEvents.framework/Versions/A/AccessibilityEvents;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)WBSFoundInRecommendationManagerDidUpdateSuggestionsNotification;
 
 @end
 

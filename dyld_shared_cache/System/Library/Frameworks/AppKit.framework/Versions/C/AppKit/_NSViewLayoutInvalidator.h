@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSViewLayoutInvalidator
 {
     NSView *_observedView;
-    NSSet *_observedKeyPaths;
-    _Bool _handleAlignmentRectInsets;
 }
 
-+ (id);
++ (id)n;
 - (void);
-- (id);
-- (id);
+- (id)copyDeviceTreeProperty(IODeviceTree:/product side-button-location) /* Error: Ran out of types for this method. */;
+- (id)dictionary from file contents:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (id)Ø;
 
 // Remaining properties

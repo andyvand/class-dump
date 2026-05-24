@@ -7,8 +7,6 @@
 @interface NewsUI2.FollowingNotificationsViewCellProvider
 {
     id delegate;
-    id tagViewRenderer;
-    id buttonViewRenderer;
 }
 
 @end

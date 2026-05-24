@@ -7,11 +7,6 @@
 @interface TeaUI.SharingActivity
 {
     id type;
-    id category;
-    id titleBlock;
-    id imageBlock;
-    id canExecuteBlock;
-    id executeBlock;
 }
 
 @end

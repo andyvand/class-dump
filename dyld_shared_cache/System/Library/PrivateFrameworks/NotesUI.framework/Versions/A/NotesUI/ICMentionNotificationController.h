@@ -30,7 +30,7 @@
 - (void);
 - (id);
 - (void);
-- (void)MLInsertionPoint;
+- (void)ic_HTMLInsertionPoint;
 - (void)e Ancestor Map: /* Error: Ran out of types for this method. */;
 
 // Remaining properties

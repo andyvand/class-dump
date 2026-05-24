@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSFastEnumeration;
+@class IMTranscriptChatItem;
 
 @protocol IMChatTranscriptItemVending
+- (IMTranscriptChatItem *)T;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) id <NSFastEnumeration> chatTranscriptItems;
 @property(readonly, nonatomic) unsigned long long numberOfChatTranscriptItems;
 @end
 

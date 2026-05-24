@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, UXView, UXViewController;
-@protocol PXPeopleFlowController, PXPeopleFlowViewController;
+@class UXView, UXViewController;
+@protocol PXPeopleFlowViewController;
 
 @interface PXPeopleSheetViewController
 {
     UXView *_contentView;
-    id <PXPeopleFlowController> _flowController;
-    UXViewController<PXPeopleFlowViewController> *_currentViewController;
-    NSButton *_cancelButton;
-    NSButton *_backButton;
-    NSButton *_nextButton;
-    NSButton *_doneButton;
 }
 
 - (void);
@@ -40,11 +34,11 @@
 - (id);
 - (void);
 - (void);
-- (void)ntCreationDate;
-- (void)mated:(id)arg1;
+- (void)mostRecentCreationDate;
+- (void)contentViewWillAppearForContentController:(id)arg1 animated: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)e;
-- (void)sPreparation;
+- (void)newCustomTitle;
+- (void)DaysToMonthsPreparation;
 - (id)itle_%@Memory;
 - (id);
 - (void)¯öþ;
@@ -52,20 +46,7 @@
 - (id)øAÿÖêO´<;
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *backButton; // @synthesize backButton=_backButton;
-@property(retain, nonatomic) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain, nonatomic) UXView *contentView; // @synthesize contentView=_contentView;
 @property(retain, nonatomic) UXViewController<PXPeopleFlowViewController> *currentViewController; // @synthesize currentViewController=_currentViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(retain, nonatomic) id <PXPeopleFlowController> flowController; // @synthesize flowController=_flowController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSButton *nextButton; // @synthesize nextButton=_nextButton;
-@property(readonly) Class superclass;
 
 @end
 

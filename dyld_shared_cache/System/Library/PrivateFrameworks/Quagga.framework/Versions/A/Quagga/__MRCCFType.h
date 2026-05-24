@@ -11,10 +11,10 @@
 + (_Bool)¤Ä;
 - (unsigned long long);
 - (oneway void);
+- (id)s  Could not get records to be synced count, error:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)L ,(!!@%;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)initWithNumberOfInputs:(id)arg1 mediaType:holdMessages: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);

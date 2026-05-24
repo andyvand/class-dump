@@ -5,5 +5,21 @@
 //
 
 @protocol FAAgeRangeDaemonProtocol
+- (void)GetCachedSyncAnchors;
+- (void)disambiguationPromptAmbiguityId;
+- (void)AceBargeInState;
+- (void)GetActiveWorkoutApplicationIdentifierResponse;
+- (void)ShowChannel;
+- (void)DigitalTouch;
+- (void)ProtobufMessage;
+- (void)primeToken;
+- (void)removedFrequency;
+- (void)HeroImageItem;
+- (void)Monday;
+- (void)UserState;
+- (void)userHistoryUnmodifiable;
+- (void)ShowRequestHandlingStatus;
+- (void)phoneSearchResults;
+- (void)WatchListChannelDetails;
 @end
 

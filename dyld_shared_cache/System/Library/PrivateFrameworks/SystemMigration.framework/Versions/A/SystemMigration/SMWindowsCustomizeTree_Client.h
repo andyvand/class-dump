@@ -6,35 +6,17 @@
 
 #import <SystemMigration/SMCustomizeTree_Client.h>
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString, SMCustomizeTreeNode_Client;
+@class SMCustomizeTreeNode_Client;
 
 @interface SMWindowsCustomizeTree_Client : SMCustomizeTree_Client
 {
     _Bool _someUserNeedsToLogin;
-    _Bool _customPathsSystemToSystemSizeFinal;
-    _Bool _customPathsSystemToUserSizeFinal;
-    SMCustomizeTreeNode_Client *settings;
-    SMCustomizeTreeNode_Client *network;
-    SMCustomizeTreeNode_Client *machine;
-    NSString *migratableStateDescription;
-    NSMutableArray *_otherDiskNodes;
-    SMCustomizeTreeNode_Client *_users;
-    SMCustomizeTreeNode_Client *_systemLevelComponents;
-    SMCustomizeTreeNode_Client *_customPaths;
-    NSMutableDictionary *_customPathsUserToUserSize;
-    NSMutableDictionary *_customPathsUserToUserSizeFinal;
-    NSMutableDictionary *_customPathsUserToSystemSize;
-    NSMutableDictionary *_customPathsUserToSystemSizeFinal;
-    unsigned long long _customPathsSystemToSystemSize;
-    unsigned long long _customPathsSystemToUserSize;
-    NSMutableArray *_userCustomPaths;
-    NSArray *_transferredUsers;
 }
 
+- (void){;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)8ԑd;
 - (id);
 - (_Bool);
 - (void);
@@ -53,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,28 +78,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)sProgressInfoDelegateProtocol;
+- (void);
+- (void)SMPathsProgressInfoDelegateProtocol;
 
 // Remaining properties
-@property(retain) SMCustomizeTreeNode_Client *customPaths; // @synthesize customPaths=_customPaths;
-@property unsigned long long customPathsSystemToSystemSize; // @synthesize customPathsSystemToSystemSize=_customPathsSystemToSystemSize;
-@property _Bool customPathsSystemToSystemSizeFinal; // @synthesize customPathsSystemToSystemSizeFinal=_customPathsSystemToSystemSizeFinal;
-@property unsigned long long customPathsSystemToUserSize; // @synthesize customPathsSystemToUserSize=_customPathsSystemToUserSize;
-@property _Bool customPathsSystemToUserSizeFinal; // @synthesize customPathsSystemToUserSizeFinal=_customPathsSystemToUserSizeFinal;
-@property(retain) NSMutableDictionary *customPathsUserToSystemSize; // @synthesize customPathsUserToSystemSize=_customPathsUserToSystemSize;
-@property(retain) NSMutableDictionary *customPathsUserToSystemSizeFinal; // @synthesize customPathsUserToSystemSizeFinal=_customPathsUserToSystemSizeFinal;
-@property(retain) NSMutableDictionary *customPathsUserToUserSize; // @synthesize customPathsUserToUserSize=_customPathsUserToUserSize;
-@property(retain) NSMutableDictionary *customPathsUserToUserSizeFinal; // @synthesize customPathsUserToUserSizeFinal=_customPathsUserToUserSizeFinal;
-@property(retain) SMCustomizeTreeNode_Client *machine; // @synthesize machine;
-@property(retain) NSString *migratableStateDescription; // @synthesize migratableStateDescription;
-@property(retain) SMCustomizeTreeNode_Client *network; // @synthesize network;
-@property(retain) NSMutableArray *otherDiskNodes; // @synthesize otherDiskNodes=_otherDiskNodes;
-@property(retain) SMCustomizeTreeNode_Client *settings; // @synthesize settings;
-@property _Bool someUserNeedsToLogin; // @synthesize someUserNeedsToLogin=_someUserNeedsToLogin;
-@property(retain) SMCustomizeTreeNode_Client *systemLevelComponents; // @synthesize systemLevelComponents=_systemLevelComponents;
-@property(retain) NSArray *transferredUsers; // @synthesize transferredUsers=_transferredUsers;
-@property(retain) NSMutableArray *userCustomPaths; // @synthesize userCustomPaths=_userCustomPaths;
 @property(retain) SMCustomizeTreeNode_Client *users; // @synthesize users=_users;
 
 @end

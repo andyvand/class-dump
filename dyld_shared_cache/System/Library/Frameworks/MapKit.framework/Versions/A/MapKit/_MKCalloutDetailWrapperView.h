@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (double);
+- (double)iOSLegacyIdentifier;
 - (double);
 - (struct CGSize);
-- (void)ToRenderWhenOccluded: /* Error: Ran out of types for this method. */;
+- (void)setContinueToRenderWhenOccluded: /* Error: Ran out of types for this method. */;
 - (id)roundGestureControllerDelegate>",W,N,V_delegate;
 
 @end

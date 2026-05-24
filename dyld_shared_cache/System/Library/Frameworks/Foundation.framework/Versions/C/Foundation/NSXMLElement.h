@@ -6,23 +6,14 @@
 
 #import <Foundation/NSXMLNode.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NSXMLElement : NSXMLNode
 {
     NSString *_name;
-    id _attributes;
-    id _namespaces;
-    NSArray *_children;
-    _Bool _childrenHaveMutated;
-    _Bool _zeroOrOneAttributes;
-    _Bool _zeroOrOneNamespaces;
-    unsigned char _padding;
-    NSString *_URI;
-    long long _prefixIndex;
 }
 
-+ (id);
++ (id);
 + (id);
 
 @end

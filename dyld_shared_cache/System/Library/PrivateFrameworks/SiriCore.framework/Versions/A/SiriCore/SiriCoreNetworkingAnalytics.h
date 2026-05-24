@@ -4,87 +4,74 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID, SiriCoreNetEventMessage;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SiriCoreNetworkingAnalytics
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSUUID *_netId;
-    NSUUID *_networkConnectionId;
-    int _connectionProvider;
-    NSUUID *_orchestratorRequestId;
-    _Bool _isConnectionActive;
-    _Bool _netIdAvailable;
-    unsigned int _sequenceNumber;
-    SiriCoreNetEventMessage *_httpHeaderEvent;
-    SiriCoreNetEventMessage *_preparationSnapshotEvent;
-    SiriCoreNetEventMessage *_debugPreparationSnapshotEvent;
-    SiriCoreNetEventMessage *_readySnapshotEvent;
-    SiriCoreNetEventMessage *_debugReadySnapshotEvent;
-    SiriCoreNetEventMessage *_sessionConnectionSnapthotEvent;
-    SiriCoreNetEventMessage *_debugSessionConnectionSnapthotEvent;
-    SiriCoreNetEventMessage *_sessionConnectionFailedEvent;
-    SiriCoreNetEventMessage *_peerConnectionFailedEvent;
-    NSUUID *_netIdForRequestLink;
 }
 
++ (int)"16@?0@"EMMailSearchUIEventBuilder"8;
++ (int)QueryComponentCr;
++ (id)version;
++ (int)"margin:(id)arg1 3px 10px 0px">%@</div></div></div>;
++ (int)in:(id)arg1 4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
++ (id)ext-align:(id)arg1 center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
++ (id):(id)arg1 #007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
++ (id)Neue',sans-serif;"><a href="%@" style="text-align:(id)arg1 center; text-decoration:(id)arg2 none; font-size:(id)arg3 14px; color:(id)arg4 #007AFF; display:(_Bool)arg5 block; margin:(id)arg6 40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
++ (int)bleArray"8;
++ (id)EFPropertyKey_bucket;
++ (int)IMEError:(id)arg1 %@;
++ (id)EFPropertyKey_signers;
++ (int)ery:(id)arg1 %@;
 + (int);
 + (int);
-+ (id);
-+ (int);
-+ (int);
-+ (id);
-+ (id);
-+ (id);
-+ (int);
-+ (id);
-+ (int);
-+ (id);
-+ (int);
-+ (int);
-+ (int);
-+ (id);
-+ (id);
-+ (int);
-+ (id);
-+ (id);
-+ (id);
-+ (int);
-+ (id);
-+ (id);
-+ (id);
-+ (int);
-+ (int);
-+ (int);
++ (id)@) %p queryString %d;
++ (id)g query;
++ (int)EFPropertyKey_sourceIsManaged;
++ (id)EFPropertyKey_deliveryAccount;
++ (id)Metadata;
++ (id)timezone;
++ (int)reate formattedDate, date is nil;
++ (id)secondsFromGMT;
++ (id)departureActualTime;
++ (id)@"EMMessageDeliveryResult"8;
++ (int)EFPropertyKey_originalMessageID;
++ (int)l-reply;
++ (int)ple-mail;
+- (void)SuggestionsFollowUpDebugStartDate;
+- (void)RemindMeDebugDate;
+- (void)FilesMarkedPurgeable;
+- (void)AddLogoOriginBadges;
+- (void)GroupedSendersShowsBIMI;
+- (id)QueryComponentCr;
+- (void)earchViewAppeared reason:(id)arg1 %ld;
+- (void)%llu;
+- (void)son:(id)arg1 %@>;
+- (void)View:%@ resultEngaged:%@ resultEngagedSectionType:%@ abandonedReason:%@> /* Error: Ran out of types for this method. */;
+- (void)@ queryStatus:(id)arg1 %@ hasResults:%@ resultView:%@ resultEngaged:%@ resultEngagedSectionType:%@ abandonedReason:%@> /* Error: Ran out of types for this method. */;
+- (void)EFPropertyKey_individualActions;
+- (void)(%lu);
+- (void)NSUbiquitousKeyValueStoreQuotaViolationChange;
+- (void)NSUbiquitousKeyValueStoreServerChange;
+- (void)This is not the store we were looking for!;
+- (_Bool)value;
+- (void)bscribeType:%ld
+	Date:%@
+	DisplayDate:%@
+	Mailboxes:%@
+	Count:%lu /* Error: Ran out of types for this method. */;
+- (unsigned int)ge.m;
+- (_Bool)n-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void)EMQuery.m;
+- (id)stenceInfo.plist;
+- (id).Email.kMailAccountDirectoryLock;
+- (void);
+- (void)UsoEntityBuilder_commonTimer_TimerAttribute;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)ssetsOperationInfo"16@?<v@?@"NSError">24;
 - (id);
 - (void);
 

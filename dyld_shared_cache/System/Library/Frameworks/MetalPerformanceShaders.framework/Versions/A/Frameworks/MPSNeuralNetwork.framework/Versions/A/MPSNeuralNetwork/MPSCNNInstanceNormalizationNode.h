@@ -11,7 +11,6 @@
 @interface MPSCNNInstanceNormalizationNode : MPSNNFilterNode
 {
     id <MPSCNNInstanceNormalizationDataSource> _dataSource;
-    unsigned long long _trainingStyle;
 }
 
 @end

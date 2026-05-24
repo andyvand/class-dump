@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
-@protocol BMBookmark;
+@class BPSPublisher, NSArray, NSError;
+@protocol BMBookmark, BMBookmarkablePublisher;
 
 @protocol BMBookmarkablePublisher
++ (BPSPublisher<BMBookmarkablePublisher> *)P;
+- (NSError *)B;
 - (NSError *);
 - (id <BMBookmark>)ÿÿË;
 - (NSArray *)ÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿ¢;

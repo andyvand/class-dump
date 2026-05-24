@@ -8,9 +8,9 @@
 @protocol HMFSystemInfoNameDataSourceDelegate;
 
 @protocol HMFSystemInfoNameDataSource
+- (NSString *)DH1;
 
 // Remaining properties
 @property __weak id <HMFSystemInfoNameDataSourceDelegate> delegate;
-@property(readonly, copy, nonatomic) NSString *name;
 @end
 

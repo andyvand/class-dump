@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol HMHAPMetadataService
+- (void)s command will also update the default number of columns and rows displayed while the numbered grid is shown. To view or change the number of columns and rows displayed, go to Settings > Accessibility > Voice Control > Overlay > Numbered Grid.;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *svcDescription;
 @property(retain, nonatomic) NSString *uuidStr;
 @end
 

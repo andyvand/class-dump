@@ -7,6 +7,6 @@
 @protocol UIViewControllerInteractiveTransitioning_Internal
 
 @optional
-- (_Bool)arMetrics: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateBarsWithWantsHostedTabBarMetrics: /* Error: Ran out of types for this method. */;
 @end
 

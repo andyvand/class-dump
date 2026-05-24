@@ -7,14 +7,9 @@
 @interface MAAutoAssetSetProgress
 {
     _Bool _isStalled;
-    long long _downloadedAssetCount;
-    long long _remainingAssetCount;
-    long long _totalExpectedBytes;
-    long long _totalWrittenBytes;
-    double _expectedTimeRemainingSecs;
 }
 
-+ (_Bool);
++ (_Bool)�1;
 - (long long);
 - (void);
 - (void);
@@ -25,7 +20,7 @@
 - (double);
 - (long long);
 - (id);
-- (id);
+- (id)minimumTLSVersion;
 - (id);
 - (long long);
 - (id);
@@ -37,11 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) long long downloadedAssetCount; // @synthesize downloadedAssetCount=_downloadedAssetCount;
-@property(nonatomic) double expectedTimeRemainingSecs; // @synthesize expectedTimeRemainingSecs=_expectedTimeRemainingSecs;
-@property(nonatomic) _Bool isStalled; // @synthesize isStalled=_isStalled;
-@property(nonatomic) long long remainingAssetCount; // @synthesize remainingAssetCount=_remainingAssetCount;
-@property(nonatomic) long long totalExpectedBytes; // @synthesize totalExpectedBytes=_totalExpectedBytes;
-@property(nonatomic) long long totalWrittenBytes; // @synthesize totalWrittenBytes=_totalWrittenBytes;
 
 @end
 

@@ -6,26 +6,11 @@
 
 #import <CallKit/CXCallAction.h>
 
-@class CXHandle, NSArray, NSDate, NSString, NSUUID;
+@class NSDate;
 
 @interface CXStartCallAction : CXCallAction
 {
     _Bool _video;
-    _Bool _relay;
-    _Bool _upgrade;
-    _Bool _retry;
-    _Bool _emergency;
-    _Bool _voicemail;
-    _Bool _shouldSuppressInCallUI;
-    _Bool _launchInBackground;
-    _Bool _isUpgradeToVideo;
-    NSString *_contactIdentifier;
-    NSDate *_dateStarted;
-    long long _ttyType;
-    NSUUID *_localSenderIdentityUUID;
-    NSArray *_handles;
-    struct CGSize _localPortraitAspectRatio;
-    struct CGSize _localLandscapeAspectRatio;
 }
 
 + (_Bool);
@@ -33,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (void);
 - (_Bool);
@@ -41,20 +26,20 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)NSt3__120__shared_ptr_emplaceINS_6vectorIhNS_9allocatorIhEEEENS2_IS4_EEEE;
+- (void)ctual=[;
+- (void)CM_CALL_CMD_ERR_EMERGENCY_MODE_S;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
+- (void)dateAffineScale - no valid rep;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (_Bool);
@@ -65,43 +50,20 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)MPMediaGroupingPodcastTitle;
+- (void)libraryPlaylistId;
+- (struct CGSize)rs:forPlaylistWithIdentifier:completionBlock:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
 - (struct CGSize);
 - (id);
-- (struct CGSize);
-- (id);
-- (id);
+- (id)ty as network fetching for passwords is not enabled.;
 - (void);
+- (void)"size"{CGSize="width"d"height"d}};
 - (void);
-- (void);
-- (void)lock:(id)arg1;
+- (void)setStoreCreationBlock:(id)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
 @property(copy, nonatomic) NSDate *dateStarted; // @synthesize dateStarted=_dateStarted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEmergency) _Bool emergency; // @synthesize emergency=_emergency;
-@property(copy, nonatomic) CXHandle *handle;
-@property(copy, nonatomic) NSArray *handles; // @synthesize handles=_handles;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isUpgradeToVideo; // @synthesize isUpgradeToVideo=_isUpgradeToVideo;
-@property(nonatomic) _Bool launchInBackground; // @synthesize launchInBackground=_launchInBackground;
-@property(nonatomic) struct CGSize localLandscapeAspectRatio; // @synthesize localLandscapeAspectRatio=_localLandscapeAspectRatio;
-@property(nonatomic) struct CGSize localPortraitAspectRatio; // @synthesize localPortraitAspectRatio=_localPortraitAspectRatio;
-@property(retain, nonatomic) NSUUID *localSenderIdentityUUID; // @synthesize localSenderIdentityUUID=_localSenderIdentityUUID;
-@property(nonatomic, getter=isRelay) _Bool relay; // @synthesize relay=_relay;
-@property(nonatomic, getter=isRetry) _Bool retry; // @synthesize retry=_retry;
-@property(nonatomic) _Bool shouldSuppressInCallUI; // @synthesize shouldSuppressInCallUI=_shouldSuppressInCallUI;
-@property(readonly) Class superclass;
-@property(nonatomic, setter=setTTYType:) long long ttyType; // @synthesize ttyType=_ttyType;
-@property(nonatomic, getter=isUpgrade) _Bool upgrade; // @synthesize upgrade=_upgrade;
-@property(nonatomic, getter=isVideo) _Bool video; // @synthesize video=_video;
-@property(nonatomic, getter=isVoicemail) _Bool voicemail; // @synthesize voicemail=_voicemail;
 
 @end
 

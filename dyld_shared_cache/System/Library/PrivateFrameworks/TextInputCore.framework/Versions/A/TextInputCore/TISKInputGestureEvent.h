@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
-- (id);
+- (void)messageWithPayload:(id)arg1;
+- (void)messagePayloadFromDictionary:(id)arg1 andIdentifier:(id)arg2;
+- (id)for callUUID %@;
 - (id);
 
 @end

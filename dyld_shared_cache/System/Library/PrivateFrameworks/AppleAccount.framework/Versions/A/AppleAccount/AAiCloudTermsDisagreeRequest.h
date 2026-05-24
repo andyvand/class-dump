@@ -6,38 +6,31 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class ACAccount, NSDictionary, NSNumber, NSString;
+@class ACAccount;
 
 @interface AAiCloudTermsDisagreeRequest : AARequest
 {
     ACAccount *_account;
-    _Bool _preferPassword;
-    NSDictionary *_additionalHeaders;
-    NSNumber *_slaVersion;
-    NSString *_serverInfo;
 }
 
-+ (Class);
++ (Class)HEQ(;
+- (id)ta _________________________________________________;
+- (void)ager.installProfile backing out installation of profile in store;
+- (void)alled domains = 
+%s;
+- (void)_________________________________;
+- (_Bool)managed.PlugInKit.plist;
+- (id)udConfig:Device enrollment record info available - cache hit returns YES /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)erEnabled;
-- (void)AddingAccount:(id)arg1;
+- (void);
+- (void)setupAssistantServerEnabled;
+- (void)refreshActionsForAddingAccount:(id)arg1;
 - (id)Ü	;
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSDictionary *additionalHeaders; // @synthesize additionalHeaders=_additionalHeaders;
-@property(nonatomic) _Bool preferPassword; // @synthesize preferPassword=_preferPassword;
-@property(copy, nonatomic) NSString *serverInfo; // @synthesize serverInfo=_serverInfo;
-@property(retain, nonatomic) NSNumber *slaVersion; // @synthesize slaVersion=_slaVersion;
 
 @end
 

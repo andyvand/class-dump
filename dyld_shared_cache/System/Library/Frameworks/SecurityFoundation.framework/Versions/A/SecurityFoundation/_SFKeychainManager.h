@@ -10,7 +10,6 @@
 @interface _SFKeychainManager
 {
     NSObject<OS_dispatch_queue> *_keychainManagerQueue;
-    NSObject<OS_dispatch_queue> *_keychainReplyQueue;
 }
 
 + (id);
@@ -21,29 +20,28 @@
 - (_Bool);
 - (struct __CFDictionary *);
 - (id);
-- (struct __SecKey *);
+- (struct __SecKey *),N,V_isSilentAppTransfer;
 - (id);
 - (struct __CFDictionary *);
 - (void);
 - (struct __CFDictionary *);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)ondaryOffset:(id)arg1 kernelOffset] Error:(id)arg2 This is a binary filter. sourceImages should be an array of at least length 2.;
 - (id);
-- (id);
 - (void);
-- (void);
-- (struct __CFDictionary *);
-- (void);
+- (void)l	Ú)	Ú;
+- (struct __CFDictionary *)65P/Sources/Marisa/lib/marisa/grimoire/io/mapper.cc;
+- (void)_;
 - (void);
 
 // Remaining properties
 @property(retain) NSObject<OS_dispatch_queue> *keychainManagerQueue; // @synthesize keychainManagerQueue=_keychainManagerQueue;
-@property(retain) NSObject<OS_dispatch_queue> *keychainReplyQueue; // @synthesize keychainReplyQueue=_keychainReplyQueue;
 
 @end
 

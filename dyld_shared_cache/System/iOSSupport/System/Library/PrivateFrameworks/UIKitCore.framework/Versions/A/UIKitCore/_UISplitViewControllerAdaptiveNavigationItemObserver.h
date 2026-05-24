@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol _UISplitViewControllerAdaptiveNavigationItemObserverDelegate;
 
 __attribute__((visibility("hidden")))
@@ -28,34 +27,27 @@ __attribute__((visibility("hidden")))
 × ;
 - (void);
 - (void)tInteractableItem";
-- (void)ebView:(id)arg1 unableToImplementPolicyWithError:(long long)arg2 frame:(id)arg3;
-- (void)lors;
-- (void)ing;
-- (_Bool)isplayForDownloadingURL:(id)arg1 copyToURL:sourceViewController:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 unableToImplementPolicyWithError:(long long)arg2 frame:(id)arg3;
+- (void)updateColors;
+- (void)hasPerformedReordering;
+- (_Bool)displayForDownloadingURL:(id)arg1 copyToURL:sourceViewController:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)avoidAnimation;
-- (_Bool)PrefersSingleCharacter;
-- (id)nalRotation;
+- (_Bool)_previewImagePrefersSingleCharacter;
+- (id)_originalRotation;
 - (id)cale;
 - (void)roller;
-- (_Bool)IMenuBarCustomItems;
-- (void)IBackdropViewSettingsUltraLight;
+- (_Bool)_UIMenuBarCustomItems;
+- (void)_UIBackdropViewSettingsUltraLight;
 - (void)<l@n¤n;
 - (void)task.;
 - (void);
 - (void)ableViewContainer.m;
-- (void)oardLayoutGuide;
-- (void)tionBarCompactAppearance;
+- (void)KeyboardLayoutGuide;
+- (void)UINavigationBarCompactAppearance;
 - (void)mUÙw@£<órØ½ó?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UISplitViewControllerAdaptiveNavigationItemObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

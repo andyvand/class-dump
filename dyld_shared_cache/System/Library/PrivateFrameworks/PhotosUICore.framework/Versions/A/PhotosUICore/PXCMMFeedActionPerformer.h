@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXCMMStatusController;
+@class PXCMMStatusController;
 @protocol PXCMMFeedActionPerformerDelegate;
 
 @interface PXCMMFeedActionPerformer
 {
     PXCMMStatusController *_statusController;
-    id <PXCMMFeedActionPerformerDelegate> _delegate;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -26,14 +25,7 @@
 - (void)?ÿ(?ÿ8<Ê;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PXCMMFeedActionPerformerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

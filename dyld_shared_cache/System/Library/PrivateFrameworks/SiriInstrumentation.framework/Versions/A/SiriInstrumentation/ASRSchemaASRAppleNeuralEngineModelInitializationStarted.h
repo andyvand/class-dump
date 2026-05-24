@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRAppleNeuralEngineModelInitializationStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id),V_manufacturer;
 - (void);
-- (void);
+- (void);;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)TrueRegressions: /* Error: Ran out of types for this method. */;
+- (id)setTrueRegressions: /* Error: Ran out of types for this method. */;
 - (id)pÙ;
 - (id)4Øöÿ@÷2ÿ;
 - (_Bool)Ôºÿq;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

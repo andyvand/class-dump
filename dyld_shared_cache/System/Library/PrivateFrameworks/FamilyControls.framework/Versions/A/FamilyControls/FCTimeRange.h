@@ -9,18 +9,17 @@
 @interface FCTimeRange
 {
     FCTime *_startTime;
-    FCTime *_endTime;
 }
 
-+ (id);
-+ (id);
-- (_Bool);
++ (id)initWithStrokeStartT0:(id)arg1 strokeStartT1:strokeEndT0:strokeEndT1: /* Error: Ran out of types for this method. */;
++ (id)initWithSenderMetadata:(id)arg1;
+- (_Bool)initWithTier:(id)arg1 localizedTitle:localizedSubtitle: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (_Bool);
 - (id);
 - (long long);

@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPerson, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface iCloudAddFamilyInvitee
 {
     NSString *_firstName;
-    NSString *_lastName;
-    NSString *_emailAddress;
-    NSString *_nickname;
-    ABPerson *_abPerson;
-    NSString *_displayString;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P+;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)c;
 - (void)ñXÐ1Â0@ù
 × ;
 - (id);
 - (id);
 
 // Remaining properties
-@property ABPerson *abPerson; // @synthesize abPerson=_abPerson;
-@property(copy) NSString *displayString; // @synthesize displayString=_displayString;
-@property(copy) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
 @property(copy) NSString *firstName; // @synthesize firstName=_firstName;
-@property(copy) NSString *lastName; // @synthesize lastName=_lastName;
-@property(copy) NSString *nickname; // @synthesize nickname=_nickname;
 
 @end
 

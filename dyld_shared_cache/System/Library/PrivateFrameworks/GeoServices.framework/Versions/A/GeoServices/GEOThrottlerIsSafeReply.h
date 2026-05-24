@@ -6,13 +6,9 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEODataRequestThrottlerToken, NSString;
-
 @interface GEOThrottlerIsSafeReply : GEOXPCReply
 {
     int _availableRequestCount;
-    double _nextSafeRequestTime;
-    GEODataRequestThrottlerToken *_throttlerToken;
 }
 
 - (id);
@@ -20,23 +16,14 @@
 - (void);
 - (void);
 - (double);
-- (int);
+- (int)m;
 - (id);
 - (_Bool);
-- (void);
+- (void)setMapsSuggestionsIsTouristScore:(id)arg1;
 - (void)ÞWåBå4Q@;
 
 // Remaining properties
-@property(nonatomic) int availableRequestCount; // @synthesize availableRequestCount=_availableRequestCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double nextSafeRequestTime; // @synthesize nextSafeRequestTime=_nextSafeRequestTime;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) GEODataRequestThrottlerToken *throttlerToken; // @synthesize throttlerToken=_throttlerToken;
 
 @end
 

@@ -14,7 +14,8 @@
 × ;
 
 @optional
-- (void)ponderTargetForConfiguration:(NSTextViewportLayoutController *)arg1;
+- (void);
+- (void)firstResponderTargetForConfiguration:(NSTextViewportLayoutController *)arg1;
 - (id <NSTextViewportRenderingSurface>);
 @end
 

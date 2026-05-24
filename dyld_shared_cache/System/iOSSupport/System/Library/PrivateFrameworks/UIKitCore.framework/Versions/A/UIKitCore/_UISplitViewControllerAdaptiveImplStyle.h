@@ -6,14 +6,12 @@
 
 #import <UIKitCore/_UISplitViewControllerStyle.h>
 
-@class UIColor, _UISidebarPlatformMetrics;
-
 @interface _UISplitViewControllerAdaptiveImplStyle : _UISplitViewControllerStyle
 {
 }
 
-- (struct _UISidebarWidths);
-- (id);
+- (struct _UISidebarWidths)record:%@ /* Error: Ran out of types for this method. */;
+- (id)witch to enabled={%@};
 - (double);
 - (_Bool);
 - (double);
@@ -27,16 +25,11 @@
 - (id);
 - (id);
 - (long long);
-- (id)roperties:containsAny: /* Error: Ran out of types for this method. */;
+- (id)changedProperties:containsAny: /* Error: Ran out of types for this method. */;
 - (id)hd;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool prefersInsetSidebar;
-@property(nonatomic, readonly) UIColor *primaryBackgroundColor;
 @property(nonatomic, readonly) double separatorWidth;
-@property(nonatomic, readonly) _UISidebarPlatformMetrics *sidebarMetrics;
-@property(nonatomic, readonly) struct _UISidebarWidths sidebarWidthMetrics;
-@property(nonatomic, readonly) long long userInterfaceIdiom;
 
 @end
 

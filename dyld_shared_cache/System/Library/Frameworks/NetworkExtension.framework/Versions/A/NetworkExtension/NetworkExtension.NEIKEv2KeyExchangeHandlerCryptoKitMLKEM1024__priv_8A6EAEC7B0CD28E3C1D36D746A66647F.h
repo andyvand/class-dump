@@ -13,7 +13,7 @@
 
 - (_Bool);
 - (id);
-- (void)ad:aad:psk:pskID:keyData: /* Error: Ran out of types for this method. */;
+- (void)initWithPayload:aad:psk:pskID:keyData: /* Error: Ran out of types for this method. */;
 
 @end
 

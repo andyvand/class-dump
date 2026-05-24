@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)PartialClientization"b1};
-- (id)Location;
+- (id)_diskCacheExternalLocation;
 - (id)ì;
 - (void)õ?\Âõ(Ty@;
 

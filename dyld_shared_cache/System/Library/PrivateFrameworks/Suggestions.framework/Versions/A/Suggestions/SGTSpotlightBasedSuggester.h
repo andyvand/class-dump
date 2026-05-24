@@ -14,11 +14,11 @@
 }
 
 + (id);
-+ (id);
++ (id)RA;
 - (id);
+- (id)$;
 - (id);
-- (id);
-- (void);
+- (void)attachments;
 
 @end
 

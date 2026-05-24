@@ -7,8 +7,6 @@
 @interface BiomeSQLParser.PgQuery_A_Indices._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _isSlice;
-    id _lidx;
-    id _uidx;
 }
 
 @end

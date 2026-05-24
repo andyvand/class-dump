@@ -5,14 +5,10 @@
 //
 
 @class NSString, SFSearchResult;
-@protocol FCHeadlineProviding;
 
 @interface FCArticleSearchResult
 {
     NSString *_articleID;
-    id <FCHeadlineProviding> _deflatedHeadline;
-    id <FCHeadlineProviding> _inflatedHeadline;
-    SFSearchResult *_searchResult;
 }
 
 - (void);
@@ -22,12 +18,9 @@
 - (void);
 - (id);
 - (id)ordSource;
-- (void)gConfirmationChannelMessage;
+- (void)blockingConfirmationChannelMessage;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *articleID; // @synthesize articleID=_articleID;
-@property(readonly, nonatomic) id <FCHeadlineProviding> deflatedHeadline; // @synthesize deflatedHeadline=_deflatedHeadline;
-@property(retain, nonatomic) id <FCHeadlineProviding> inflatedHeadline; // @synthesize inflatedHeadline=_inflatedHeadline;
 @property(retain, nonatomic) SFSearchResult *searchResult; // @synthesize searchResult=_searchResult;
 
 @end

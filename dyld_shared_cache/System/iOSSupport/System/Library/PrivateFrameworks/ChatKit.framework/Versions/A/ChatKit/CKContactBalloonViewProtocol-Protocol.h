@@ -7,9 +7,9 @@
 @class CKMediaObject, UIImageView;
 
 @protocol CKContactBalloonViewProtocol
+- (UIImageView *);
 
 // Remaining properties
-@property(readonly, nonatomic) UIImageView *chevron;
 @property(retain, nonatomic) CKMediaObject *mediaObject;
 @end
 

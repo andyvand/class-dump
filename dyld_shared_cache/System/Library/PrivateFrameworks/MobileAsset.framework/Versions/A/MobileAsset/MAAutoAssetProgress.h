@@ -7,9 +7,6 @@
 @interface MAAutoAssetProgress
 {
     _Bool _isStalled;
-    long long _totalExpectedBytes;
-    long long _totalWrittenBytes;
-    double _expectedTimeRemainingSecs;
 }
 
 + (_Bool);
@@ -19,11 +16,11 @@
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)initWithPersistentReference:(id)arg1 keyReference:isModernSystem:domain:accessGroup: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)WorkoutComparison;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -31,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double expectedTimeRemainingSecs; // @synthesize expectedTimeRemainingSecs=_expectedTimeRemainingSecs;
-@property(nonatomic) _Bool isStalled; // @synthesize isStalled=_isStalled;
 @property(nonatomic) long long totalExpectedBytes; // @synthesize totalExpectedBytes=_totalExpectedBytes;
-@property(nonatomic) long long totalWrittenBytes; // @synthesize totalWrittenBytes=_totalWrittenBytes;
 
 @end
 

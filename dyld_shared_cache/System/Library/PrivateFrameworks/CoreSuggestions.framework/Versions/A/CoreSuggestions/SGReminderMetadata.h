@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGRecordId;
+@class SGRecordId;
 
 @interface SGReminderMetadata
 {
     SGRecordId *_recordId;
-    NSString *_sourceUniqueIdentifier;
 }
 
 + (_Bool);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SGRecordId *recordId; // @synthesize recordId=_recordId;
-@property(readonly, nonatomic) NSString *sourceUniqueIdentifier; // @synthesize sourceUniqueIdentifier=_sourceUniqueIdentifier;
 
 @end
 

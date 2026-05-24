@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIMenuSystem;
+@class UIMenuSystem;
 
 @interface _UIMenuBuilder
 {
     UIMenuSystem *_system;
-    long long _changeCountStorage;
-    long long _actualChangeCountStorage;
-    id _currentBookkeeping;
-    id _cachedKeyboardShortcutLeaves;
 }
 
 - (void);
@@ -25,50 +21,44 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (void);
+- (id)6@"NSSet"24@"NSString"32@?<v@?B>40;
+- (void)unsupported;
+- (void)unsignedIntegerValue;
+- (void)uncanonicalizedURIString;
+- (void)uncachedAttachmentCountQuery:(id)arg1 chatID:(SEL)arg2 services:(id)arg3 finishedWithResult: /* Error: Ran out of types for this method. */;
+- (void)unblackholeAndLoadChatWithHandleIDs:(id)arg1 reply:(id)arg2;
+- (void)unassignIdentifier:(id)arg1 fromChatRecordWithGUID:(id)arg2 forDomain:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)unassignIdentifier:(id)arg1 fromChatRecordWithGUID:(id)arg2 forDomain:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)unarchivedObjectOfClasses:(id)arg1 fromData:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)unarchivedObjectOfClass:(id)arg1 fromData:(SEL)arg2 error:(id)arg3;
+- (void)unarchivedDictionaryWithKeysOfClass:(id)arg1 objectsOfClass:(id)arg2 fromData:error: /* Error: Ran out of types for this method. */;
+- (void)typeWithIdentifier:(id)arg1;
+- (void)tryToRepairCallerID:(id)arg1 forIDSAccount:(id)arg2;
+- (id)startFinalizingTransfer:(id)arg1;
+- (id)shouldAllowHighQualityPhotoUploadForNetworkConditions;
+- (id)conversationManager:(SEL)arg1 activeRemoteParticipantsChangedForConversation:(id)arg2 fromOldConversation: /* Error: Ran out of types for this method. */;
+- (void)?;
 - (void);
 - (id);
+- (id)pped because chat is already junk.;
+- (_Bool)maintain ordering;
+- (id)family contacts change notification:(id)arg1 %u;
+- (id)[%@] could not find a chat as a source of truth, marking it as clean and moving on.;
+- (id)existing data.;
+- (long long):%f /* Error: Ran out of types for this method. */;
+- (long long)IMTransferAgent:%@ /* Error: Ran out of types for this method. */;
+- (long long)INoChat %lud v1MarkedAfterInitial %lud } numChats %lud { v0 %lud v1NoQOI %lud v1WithQOI %lud };
+- (long long)OI %lud v1WithQOI %lud v1WithQOINoChat %lud v1MarkedAfterInitial %lud } numChats %lud { v0 %lud v1NoQOI %lud v1WithQOI %lud };
+- (void)te-PeriodicSync;
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)%p [redacted description due to non-main thread]>;
+- (id);
 - (id)udeAngle;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long _actualChangeCount;
-@property(nonatomic) long long _actualChangeCountStorage; // @synthesize _actualChangeCountStorage;
-@property(nonatomic, readonly) long long _changeCount;
-@property(nonatomic) long long _changeCountStorage; // @synthesize _changeCountStorage;
-@property(nonatomic, readonly) NSArray *_keyCommands;
-@property(nonatomic, retain) UIMenuSystem *_system; // @synthesize _system;
 @property(nonatomic, readonly) UIMenuSystem *system;
 
 @end

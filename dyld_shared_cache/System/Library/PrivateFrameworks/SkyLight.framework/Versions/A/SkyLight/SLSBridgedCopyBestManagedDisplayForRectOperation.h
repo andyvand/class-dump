@@ -12,9 +12,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)R;;
+- (id)ESTAMP FLOAT;
+- (id)o;
 - (void);
 - (struct CGRect);
 - (id);

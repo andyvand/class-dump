@@ -9,13 +9,6 @@
 @interface WFAQIScaleCategory
 {
     NSString *_categoryName;
-    NSString *_color;
-    NSString *_glyph;
-    NSString *_recommendation;
-    unsigned long long _categoryNumber;
-    unsigned long long _categoryIndex;
-    NSString *_localizedCategoryDescription;
-    struct _NSRange _range;
 }
 
 + (_Bool);

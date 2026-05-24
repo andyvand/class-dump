@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDZoneModel : HMDBackingStoreModelObject
 {
@@ -21,15 +19,7 @@ __attribute__((visibility("hidden")))
 - (id)tionTimeoutTimer;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSArray *roomUUIDs; // @dynamic roomUUIDs;
-@property(readonly) Class superclass;
 
 @end
 

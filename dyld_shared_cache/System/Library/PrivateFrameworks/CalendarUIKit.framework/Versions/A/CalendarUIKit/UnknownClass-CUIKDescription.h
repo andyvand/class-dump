@@ -5,18 +5,17 @@
 //
 
 @interface UnknownClass (CUIKDescription)
-- (id)=à#À=à=à'À=à=à+À=à=àÀ=à=àÀ=à
-=àÀ=à=àÀ=à=à£Ê<à¢<÷BÑÖ;
-- (id)è·(à¶(ì@;
-- (id)ª+;
-- (void);
-- (id)ñ	ªñÇåò0ÁÚñªñGÁÚë@;
-- (id)ôO©ý{©ýà;
-- (id)ÁÚáªP;
-- (id)Pø;
-- (id)RZÿÿá;
-- (id)Ò;
-- (_Bool);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)7;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)to report:(unsigned long long)arg1 %@;
 @end
 

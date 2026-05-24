@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol AFEndpointInfoMutating
+- (void)initWithSenderContext_Impl:(NSString *)arg1;
 @end
 

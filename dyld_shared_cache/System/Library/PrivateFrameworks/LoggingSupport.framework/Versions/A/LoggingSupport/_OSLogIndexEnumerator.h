@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _BaseTracepointBuffer, _OSLogCatalogFilter, _OSLogIndex;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _OSLogIndexEnumerator
 {
     NSMutableArray *_subchunkStartQ;
-    NSMutableArray *_subchunkEndQ;
-    NSMutableArray *_catalogStartQ;
-    NSMutableArray *_fileStartQ;
-    NSMutableArray *_fileEndQ;
-    NSMutableArray *_fileBootQ;
-    NSMutableArray *_oversizeChunks;
-    struct os_timesync_range_s *_bounds[6];
-    struct os_timesync_range_s *_live_bound;
-    _Bool _memEffic;
-    _BaseTracepointBuffer *_tracepoints;
-    _OSLogIndex *_index;
-    _OSLogCatalogFilter *_catalogFilter;
 }
 
 - (void);
@@ -34,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *oversizeChunks; // @synthesize oversizeChunks=_oversizeChunks;
-@property(readonly, nonatomic) _BaseTracepointBuffer *tracepoints; // @synthesize tracepoints=_tracepoints;
 
 @end
 

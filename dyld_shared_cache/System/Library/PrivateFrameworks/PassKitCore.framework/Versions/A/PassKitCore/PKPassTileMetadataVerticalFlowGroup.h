@@ -9,25 +9,21 @@
 @interface PKPassTileMetadataVerticalFlowGroup : PKPassTileMetadata
 {
     unsigned long long _rows;
-    long long _widthClass;
-    long long _heightClass;
 }
 
 + (_Bool);
 - (long long);
 - (void);
-- (long long);
+- (long long)R_;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)!;
+- (void)knownNetworksFoundInScans;
 - (unsigned long long)L,~ÿ;
 
 // Remaining properties
-@property(nonatomic) long long heightClass; // @synthesize heightClass=_heightClass;
 @property(nonatomic) unsigned long long rows; // @synthesize rows=_rows;
-@property(nonatomic) long long widthClass; // @synthesize widthClass=_widthClass;
 
 @end
 

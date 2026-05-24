@@ -15,11 +15,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (float)e;
+- (float)loudnessMainValue;
 - (void)>;
 
 // Remaining properties

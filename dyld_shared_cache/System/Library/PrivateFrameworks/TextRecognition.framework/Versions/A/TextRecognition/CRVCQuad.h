@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface CRVCQuad
 {
     int _homographyGroupID;
-    NSUUID *_UUID;
-    struct CGPoint _bottomLeft;
-    struct CGPoint _bottomRight;
-    struct CGPoint _topLeft;
-    struct CGPoint _topRight;
 }
 
 - (void);
@@ -26,25 +21,13 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
+- (id)%@;
 - (id);
-- (id);
-- (void);
+- (void)autoFillPreferencesDidChange;
 - (void)NSRange, std::allocator<_NSRange>>=^{_NSRange}^{_NSRange}{?=^{_NSRange}}}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) struct CGPoint bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property(readonly, nonatomic) struct CGPoint bottomRight; // @synthesize bottomRight=_bottomRight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int homographyGroupID; // @synthesize homographyGroupID=_homographyGroupID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGPoint topLeft; // @synthesize topLeft=_topLeft;
-@property(readonly, nonatomic) struct CGPoint topRight; // @synthesize topRight=_topRight;
 
 @end
 

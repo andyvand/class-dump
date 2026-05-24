@@ -5,5 +5,10 @@
 //
 
 @protocol SNResultsObserving
+- (void));
+
+@optional
+- (void)Posting failure for error %#m from transport session [%{ptr}].;
+- (void);
 @end
 

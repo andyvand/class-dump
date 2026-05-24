@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWInterface, CWWiFiClient, NSDate, NSString, PLCFNotificationOperatorComposition, PLEntry, PLEntryNotificationOperatorComposition, PLXPCListenerOperatorComposition;
+@class PLEntry;
 
 @interface PLWifiAgent
 {
     _Bool _powerStateLastOn;
-    _Bool _powerStateLastOnInit;
-    PLEntry *_lastEntryForMetricd;
-    PLCFNotificationOperatorComposition *_notificationWiFiChanged;
-    void *_wifiManager;
-    void *_wifiDevice;
-    void *_wifiAwdlDevice;
-    void *_wifiHotspotDevice;
-    PLEntryNotificationOperatorComposition *_batteryLevelChanged;
-    PLEntryNotificationOperatorComposition *_sbcLevelChanged;
-    PLEntryNotificationOperatorComposition *_deviceWake;
-    PLXPCListenerOperatorComposition *_remoteControlSessionListener;
-    unsigned long long _lastLoggedTimestamp;
-    unsigned long long _locationScanDuration;
-    unsigned long long _pipelineScanDuration;
-    unsigned long long _autoJoinScanDuration;
-    unsigned long long _setupScanDuration;
-    unsigned long long _unknownScanDuration;
-    NSString *_wifiChipset;
-    NSString *_wifiManufacturer;
-    unsigned long long _remainingAllowedRSSIEntryCount;
-    double _wifi_segment_power_data;
-    double _wifi_segment_power_idle;
-    double _wifi_segment_power_location;
-    double _wifi_segment_power_pipeline;
-    NSDate *_wifi_segment_lastWrittenDate;
-    double _wifi_segment_lastWrittenTimestamp;
-    NSDate *_wifi_segment_date;
-    double _wifi_segment_timestamp;
-    CWWiFiClient *_client;
-    CWInterface *_iface;
-    PLEntryNotificationOperatorComposition *_remoteSessionCallback;
 }
 
 + (id);
@@ -48,22 +17,22 @@
 + (id);
 + (id);
 + (id);
++ (id)P;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)r;
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)=;
 + (id);
-+ (id);
++ (id)ουρλού;
 + (id);
 + (id);
 + (id);
@@ -111,16 +80,16 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (double);
+- (void);
+- (double);
 - (id);
 - (void);
 - (void);
@@ -132,11 +101,11 @@
 - (void);
 - (void);
 - (void);
-- (void *);
+- (void *)enculad;
+- (void)NSt3__120__shared_ptr_pointerIPN4siri12dialogengine8IntValueENS_10shared_ptrINS2_9JSONValueEE27__shared_ptr_default_deleteIS6_S3_EENS_9allocatorIS3_EEEE;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (unsigned long long);
 - (unsigned int);
 - (id);
@@ -147,7 +116,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -166,47 +135,16 @@
 - (id)TFù÷Ð1Â0@ù
 × ;
 - (void *);
-- (void)aEventListener:(id)arg1;
+- (void)setDasPoliciesBlockingCriteriaEventListener:(id)arg1;
 - (void)ouble_gauge>",&,V_process_count;
 - (void)h %d for pid %d;
 - (id)bytes;
-- (id)l_;
+- (id)turboRaidMinCyclesBetweenRel_;
 - (void)rToCxt:slcDemandBurstCount(564) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 - (id)ialFlow(119):Cannot add 5 elements to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned long long autoJoinScanDuration; // @synthesize autoJoinScanDuration=_autoJoinScanDuration;
-@property(retain) PLEntryNotificationOperatorComposition *batteryLevelChanged; // @synthesize batteryLevelChanged=_batteryLevelChanged;
-@property(retain, nonatomic) CWWiFiClient *client; // @synthesize client=_client;
-@property(retain) PLEntryNotificationOperatorComposition *deviceWake; // @synthesize deviceWake=_deviceWake;
-@property(retain, nonatomic) CWInterface *iface; // @synthesize iface=_iface;
 @property(retain, nonatomic) PLEntry *lastEntryForMetricd; // @synthesize lastEntryForMetricd=_lastEntryForMetricd;
-@property unsigned long long lastLoggedTimestamp; // @synthesize lastLoggedTimestamp=_lastLoggedTimestamp;
-@property unsigned long long locationScanDuration; // @synthesize locationScanDuration=_locationScanDuration;
-@property(readonly) PLCFNotificationOperatorComposition *notificationWiFiChanged; // @synthesize notificationWiFiChanged=_notificationWiFiChanged;
-@property unsigned long long pipelineScanDuration; // @synthesize pipelineScanDuration=_pipelineScanDuration;
-@property(nonatomic) _Bool powerStateLastOn; // @synthesize powerStateLastOn=_powerStateLastOn;
-@property(nonatomic) _Bool powerStateLastOnInit; // @synthesize powerStateLastOnInit=_powerStateLastOnInit;
-@property unsigned long long remainingAllowedRSSIEntryCount; // @synthesize remainingAllowedRSSIEntryCount=_remainingAllowedRSSIEntryCount;
-@property(retain) PLXPCListenerOperatorComposition *remoteControlSessionListener; // @synthesize remoteControlSessionListener=_remoteControlSessionListener;
-@property(retain) PLEntryNotificationOperatorComposition *remoteSessionCallback; // @synthesize remoteSessionCallback=_remoteSessionCallback;
-@property(retain) PLEntryNotificationOperatorComposition *sbcLevelChanged; // @synthesize sbcLevelChanged=_sbcLevelChanged;
-@property unsigned long long setupScanDuration; // @synthesize setupScanDuration=_setupScanDuration;
-@property unsigned long long unknownScanDuration; // @synthesize unknownScanDuration=_unknownScanDuration;
-@property(nonatomic) void *wifiAwdlDevice; // @synthesize wifiAwdlDevice=_wifiAwdlDevice;
-@property(readonly) NSString *wifiChipset; // @synthesize wifiChipset=_wifiChipset;
-@property(nonatomic) void *wifiDevice; // @synthesize wifiDevice=_wifiDevice;
-@property(nonatomic) void *wifiHotspotDevice; // @synthesize wifiHotspotDevice=_wifiHotspotDevice;
-@property(nonatomic) void *wifiManager; // @synthesize wifiManager=_wifiManager;
-@property(readonly) NSString *wifiManufacturer; // @synthesize wifiManufacturer=_wifiManufacturer;
-@property(retain) NSDate *wifi_segment_date; // @synthesize wifi_segment_date=_wifi_segment_date;
-@property(retain) NSDate *wifi_segment_lastWrittenDate; // @synthesize wifi_segment_lastWrittenDate=_wifi_segment_lastWrittenDate;
-@property double wifi_segment_lastWrittenTimestamp; // @synthesize wifi_segment_lastWrittenTimestamp=_wifi_segment_lastWrittenTimestamp;
-@property double wifi_segment_power_data; // @synthesize wifi_segment_power_data=_wifi_segment_power_data;
-@property double wifi_segment_power_idle; // @synthesize wifi_segment_power_idle=_wifi_segment_power_idle;
-@property double wifi_segment_power_location; // @synthesize wifi_segment_power_location=_wifi_segment_power_location;
-@property double wifi_segment_power_pipeline; // @synthesize wifi_segment_power_pipeline=_wifi_segment_power_pipeline;
-@property double wifi_segment_timestamp; // @synthesize wifi_segment_timestamp=_wifi_segment_timestamp;
 
 @end
 

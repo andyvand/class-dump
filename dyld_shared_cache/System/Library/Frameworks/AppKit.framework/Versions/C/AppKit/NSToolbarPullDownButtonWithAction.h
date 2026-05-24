@@ -6,21 +6,20 @@
 
 #import <AppKit/NSSegmentedControl.h>
 
-@class NSFont, NSImage, NSMenu, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarPullDownButtonWithAction : NSSegmentedControl
 {
     _Bool _showsIndicator;
-    NSMenu *_menu;
 }
 
 + (Class);
 - (_Bool);
 - (void);
+- (void)t;
 - (void);
-- (void);
-- (void);
+- (void)�;
 - (id);
 - (id);
 - (void)v24@0:(id)arg1 8@"NSVisualTabPickerThumbnailView"16;
@@ -29,14 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property SEL action;
-@property unsigned long long controlSize;
-@property(copy) NSFont *font;
 @property(retain) NSImage *image;
-@property(retain) NSMenu *menu;
-@property _Bool showsIndicator;
-@property __weak id target;
-@property(copy) NSString *title;
 
 @end
 

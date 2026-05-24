@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
 @protocol UIScrollViewDelegate><TSKScrollViewDelegate;
 
 @interface TSKScrollView
 {
     unsigned long long mAnimatingContentOffsetCount;
-    _Bool _mayPassScrollEventsToNextResponder;
-    _Bool _shouldDisableScrollingWhenCursorIsHidden;
-    struct CGRect _scrollableAreaBounds;
 }
 
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect)ent"8^B16;
+- (_Bool)Core._MediaRemotePublisher;
+- (void)d out [pending ready to play status] event=;
+- (void)chronization completed [removed all player items] - player:(_Bool)arg1;
+- (struct CGRect)AVPlayerItemTimeJumpedReasonKey;
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGRect)rredFilename:filename:didCopyDataToBundle: /* Error: Ran out of types for this method. */;
+- (struct CGRect)writeToBundleWriter:preferredFilename:filename:didCopyDataToBundle: /* Error: Ran out of types for this method. */;
 - (id)°(;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *contentView;
 @property(nonatomic) id <UIScrollViewDelegate><TSKScrollViewDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool mayPassScrollEventsToNextResponder; // @synthesize mayPassScrollEventsToNextResponder=_mayPassScrollEventsToNextResponder;
-@property(readonly, nonatomic) struct CGRect scrollableAreaBounds; // @synthesize scrollableAreaBounds=_scrollableAreaBounds;
-@property(readonly, nonatomic, getter=isScrolling) _Bool scrolling;
-@property(nonatomic) _Bool shouldDisableScrollingWhenCursorIsHidden; // @synthesize shouldDisableScrollingWhenCursorIsHidden=_shouldDisableScrollingWhenCursorIsHidden;
-@property(readonly, nonatomic) struct CGRect tsk_bounds;
 
 @end
 

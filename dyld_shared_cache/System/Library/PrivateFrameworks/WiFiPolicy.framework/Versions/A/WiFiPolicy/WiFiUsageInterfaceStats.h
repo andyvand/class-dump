@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface WiFiUsageInterfaceStats
 {
     unsigned long long _txBytes;
-    unsigned long long _rxBytes;
-    unsigned long long _txL3Packets;
-    unsigned long long _rxL3Packets;
-    NSDate *_timestamp;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)@;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)DERDecodeItemPB;
 - (unsigned long long);
 - (unsigned long long);
 - (void)× ;
@@ -32,17 +26,13 @@
 × ;
 - (unsigned long long)f!ìFù1¥ð1Â0@ù
 × ;
-- (unsigned long long)ry:linkChangeReason:linkChangeSubreason:withNetworkDetails:forInterface: /* Error: Ran out of types for this method. */;
-- (void)ry10thOverRatioScale:(unsigned long long)arg1 As: /* Error: Ran out of types for this method. */;
-- (void)acRandomizationVersions;
+- (unsigned long long)setLinkEvent:isInvoluntary:linkChangeReason:linkChangeSubreason:withNetworkDetails:forInterface: /* Error: Ran out of types for this method. */;
+- (void)getBinEvery10thOverRatioScale:(unsigned long long)arg1 As: /* Error: Ran out of types for this method. */;
+- (void)_disabledMacRandomizationVersions;
 - (void)c;
 
 // Remaining properties
-@property(nonatomic) unsigned long long rxBytes; // @synthesize rxBytes=_rxBytes;
-@property(nonatomic) unsigned long long rxL3Packets; // @synthesize rxL3Packets=_rxL3Packets;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(nonatomic) unsigned long long txBytes; // @synthesize txBytes=_txBytes;
-@property(nonatomic) unsigned long long txL3Packets; // @synthesize txL3Packets=_txL3Packets;
 
 @end
 

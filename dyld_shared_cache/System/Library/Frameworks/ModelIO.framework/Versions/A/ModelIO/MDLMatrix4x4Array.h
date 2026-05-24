@@ -7,7 +7,6 @@
 @interface MDLMatrix4x4Array
 {
     struct VtValue _data;
-    unsigned long long _elementCount;
 }
 
 - (void);
@@ -15,19 +14,18 @@
 - (void);
 - (id);
 - (struct VtValue);
-- (void);
+- (void)seMatrix+PML.m;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)a	;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long elementCount; // @synthesize elementCount=_elementCount;
-@property(readonly, nonatomic) unsigned long long precision;
 
 @end
 

@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSMutableDictionary, NSPersistentStoreMap, NSString;
+@class NSPersistentStoreMap;
 
 __attribute__((visibility("hidden")))
 @interface NSStoreMapNode
 {
     NSPersistentStoreMap *_map;
-    NSManagedObjectID *_objectID;
-    NSMutableDictionary *_relatedNodes;
-    NSString *_entityName;
-    unsigned int _version;
 }
 
 + (void)uteDescription"16;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (id);
 - (_Bool);
 - (const id *);
 - (void);
+- (id)16@24@32@?40;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)h;
 
 @end
 

@@ -7,11 +7,12 @@
 @class NSArray, _INPBEnergyValue;
 
 @protocol _INPBEnergy
++ (Class)Information:inBackingStore->openDataFork returned %d
+ /* Error: Ran out of types for this method. */;
 - (void):(_INPBEnergyValue *)arg1 %@;
 - (_INPBEnergyValue *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

@@ -6,47 +6,39 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UIFloatingTabBarPinnedItemsView : UIView
 {
     _Bool _editing;
-    long long _selectionViewIndex;
-    long long _highlightedIndex;
-    NSArray *_items;
-    NSMutableDictionary *_itemViews;
 }
 
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)nnection";
+- (void)spamModelMetadata;
+- (id)junkChatContainingMessageWithGUID: /* Error: Ran out of types for this method. */;
+- (long long)itemID;
+- (long long)isiMessageSpam;
+- (struct CGRect)isValidSubAction:(long long)arg1 subAction: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (long long);
-- (long long);
-- (struct CGRect);
+- (id)r | Recently Deleted:(long long)arg1 could not write record:%@ encountered error:%@ /* Error: Ran out of types for this method. */;
+- (id)ecoverableMessageSyncController | Recently Deleted:(id)arg1 could not write record:%@ encountered error:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)7;
 - (long long);
 - (struct CGSize);
 - (void);
-- (void)dateContentLayoutGuideConstraints;
-- (id)ionAlternativesForSelectedText;
-- (id)rentFromPosition;
+- (void)updateContentLayoutGuideConstraints;
+- (id)dictationAlternativesForSelectedText;
+- (id)_currentFromPosition;
 - (_Bool)ÜÊ[;
 - (void),é[;
 
 // Remaining properties
-@property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(nonatomic) long long highlightedIndex; // @synthesize highlightedIndex=_highlightedIndex;
 @property(readonly, nonatomic) NSMutableDictionary *itemViews; // @synthesize itemViews=_itemViews;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) long long selectionViewIndex; // @synthesize selectionViewIndex=_selectionViewIndex;
 
 @end
 

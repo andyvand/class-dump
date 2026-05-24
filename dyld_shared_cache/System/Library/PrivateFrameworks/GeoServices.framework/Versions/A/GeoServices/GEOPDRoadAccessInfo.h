@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRoadAccessInfo
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_roadAccessPoints;
 }
 
-+ (id);
++ (id)Y;
 - (id);
-- (void);
+- (void)є;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)nknownFields"b1"read_displayName"b1"read_identifier"b1"read_originatingBundleIdentifier"b1"read_region"b1"wrote_anyField"b1};
-- (id)e;
+- (id)_originName;
 - (id)4z|zP{ÄäÜ;
 - (void);
 

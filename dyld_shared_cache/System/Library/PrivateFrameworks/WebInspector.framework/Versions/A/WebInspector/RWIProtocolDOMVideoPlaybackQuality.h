@@ -10,18 +10,16 @@
 {
 }
 
-- (int);
-- (void);
+- (int);
+- (void);
 - (void);
 - (void);
 - (id);
 - (int);
-- (int);
+- (int);
 
 // Remaining properties
 @property(nonatomic) int displayCompositedVideoFrames;
-@property(nonatomic) int droppedVideoFrames;
-@property(nonatomic) int totalVideoFrames;
 
 @end
 

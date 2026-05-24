@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PLTimer;
+@class PLTimer;
 
 @interface PLPMUMetricsAgent
 {
     unsigned int _railEnergyPMUConn;
-    PLTimer *_railEnergyTimer;
-    NSDate *_lastEntryDate;
 }
 
 + (id);
@@ -30,12 +28,10 @@
 - (id);
 - (id);
 - (void);
-- (void)gent;
+- (void)PLLocaleAgent;
 - (void)(#25) cfg elements != (%d) buffer elements;
 
 // Remaining properties
-@property(retain) NSDate *lastEntryDate; // @synthesize lastEntryDate=_lastEntryDate;
-@property unsigned int railEnergyPMUConn; // @synthesize railEnergyPMUConn=_railEnergyPMUConn;
 @property(retain) PLTimer *railEnergyTimer; // @synthesize railEnergyTimer=_railEnergyTimer;
 
 @end

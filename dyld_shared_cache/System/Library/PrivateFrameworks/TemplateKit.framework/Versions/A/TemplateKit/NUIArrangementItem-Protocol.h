@@ -5,5 +5,6 @@
 //
 
 @protocol NUIArrangementItem
+- (double);
 @end
 

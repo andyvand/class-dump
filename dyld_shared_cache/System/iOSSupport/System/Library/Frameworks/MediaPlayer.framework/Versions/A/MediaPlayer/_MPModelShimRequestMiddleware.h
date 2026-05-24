@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelResponse, NSArray, NSString;
+@class MPModelResponse, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _MPModelShimRequestMiddleware
 {
     NSArray *_invalidationObservers;
-    MPModelResponse *_modelResponse;
 }
 
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)_currentAdTimeRanges;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *invalidationObservers; // @synthesize invalidationObservers=_invalidationObservers;
 @property(retain, nonatomic) MPModelResponse *modelResponse; // @synthesize modelResponse=_modelResponse;
-@property(readonly) Class superclass;
 
 @end
 

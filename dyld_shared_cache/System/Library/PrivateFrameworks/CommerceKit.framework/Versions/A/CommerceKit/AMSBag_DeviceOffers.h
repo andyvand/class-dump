@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBagValue, CKStoreClient, NSString;
+@class CKStoreClient;
 
 @interface AMSBag_DeviceOffers
 {
@@ -19,16 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) AMSBagValue *appleMusicDeviceOfferDeepLink;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSBagValue *iCloudDeviceOfferDeepLink;
 @property(retain, nonatomic) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
-@property(readonly) Class superclass;
 
 @end
 

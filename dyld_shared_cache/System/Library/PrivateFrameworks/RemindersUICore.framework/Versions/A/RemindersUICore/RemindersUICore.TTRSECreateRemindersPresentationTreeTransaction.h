@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRSECreateRemindersPresentationTreeTransaction
 {
     id remindersListTree;
-    id remindersListTreeHasChanges;
-    id suggestedRemindersState;
-    id itemToStartEditing;
-    id synchronizeStatesWithHost;
-    id suggestedRemindersStateHasChanges;
-    id needsReload;
-    id prefersNoAnimation;
 }
 
 @end

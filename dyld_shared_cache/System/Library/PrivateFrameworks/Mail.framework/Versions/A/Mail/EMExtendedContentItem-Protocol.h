@@ -5,6 +5,7 @@
 //
 
 @protocol EMExtendedContentItem
+- (void)@;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType loaderBlock;

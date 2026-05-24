@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNScheduler;
 
 @interface _CNOffMainThreadScheduler
 {
     id <CNScheduler> _alreadyOffMainThreadScheduler;
-    id <CNScheduler> _needToGetOffMainThreadScheduler;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (double);
-- (void);
-- (id);
+- (void)egistryEntryCreateCFProperties err=%d=0x%x obtainedProps=%p;
+- (id)updateValue:(double)arg1 forCharacteristic:(CDUnknownBlockType)arg2 onSubscribedCentrals: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNScheduler> alreadyOffMainThreadScheduler; // @synthesize alreadyOffMainThreadScheduler=_alreadyOffMainThreadScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNScheduler> needToGetOffMainThreadScheduler; // @synthesize needToGetOffMainThreadScheduler=_needToGetOffMainThreadScheduler;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

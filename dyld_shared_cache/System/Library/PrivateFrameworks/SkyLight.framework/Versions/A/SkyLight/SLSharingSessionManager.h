@@ -4,46 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
 @protocol SLSharingSessionManagerDelegate, SLSharingSessionManagerSystemDelegate;
 
 @interface SLSharingSessionManager
 {
     id <SLSharingSessionManagerDelegate> _delegate;
-    id <SLSharingSessionManagerSystemDelegate> _systemDelegate;
-    CDUnknownBlockType _delegateBlock;
-    NSMapTable *_clientContexts;
 }
 
 + (id);
-- (id);
+- (id)itHistoryAnalyzerContext processChange:error:] /* Error: Ran out of types for this method. */;
+- (void)st];
+- (void)ecoverFromPartialError:(CDUnknownBlockType)arg1 forStore:inMonitor:] /* Error: Ran out of types for this method. */;
+- (void)te recoverFromError:(id)arg1 ]_block_invoke;
+- (void)roringDelegate _enqueueRequest:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)There is another instance of this persistent store actively syncing with CloudKit in this process.;
+- (id)coredata.cloudkit.%@.%@;
+- (void)binaryData;
+- (void)supportsAtomicChanges;
+- (CDUnknownBlockType)transformedValue;
+- (id)PFCloudKitMetadataFrameworkVersionKey;
+- (id):%@ /* Error: Ran out of types for this method. */;
+- (id)iption;
+- (id)IndexDescription;
+- (id)NSFetchIndexDescription;
+- (id)ad to send backupd;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)J^;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMapTable *clientContexts; // @synthesize clientContexts=_clientContexts;
-@property(nonatomic) id <SLSharingSessionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) CDUnknownBlockType delegateBlock; // @synthesize delegateBlock=_delegateBlock;
-@property(nonatomic) id <SLSharingSessionManagerSystemDelegate> systemDelegate; // @synthesize systemDelegate=_systemDelegate;
+@property(nonatomic) id <SLSharingSessionManagerSystemDelegate> systemDelegate;
 
 @end
 

@@ -22,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SearchUIImage *searchUIImage; // @synthesize searchUIImage=_searchUIImage;
 @property(retain, nonatomic) SFImageDerivedColor *sfColor; // @dynamic sfColor;
 
 @end

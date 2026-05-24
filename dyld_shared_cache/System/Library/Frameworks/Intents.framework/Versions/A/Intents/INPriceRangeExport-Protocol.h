@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @protocol INPriceRangeExport
+- (void)and must validate iCDP state.;
 
 // Remaining properties
-@property(copy) NSString *currencyCode;
-@property(copy) NSDecimalNumber *maximumPrice;
 @property(copy) NSDecimalNumber *minimumPrice;
 @end
 

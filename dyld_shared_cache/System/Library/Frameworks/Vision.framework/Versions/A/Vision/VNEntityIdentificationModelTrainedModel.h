@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)O;
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)etionHandler:(id)arg1;
 - (unsigned long long);
 - (void);
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWPreviewStitcherFencedAnimationInfo : BWFencedAnimationInfo
 {
     int _primaryCaptureRectCenterXPixelOffset;
-    int _primaryCaptureRectCenterYPixelOffset;
-    double _primaryCaptureAspectRatio;
-    struct CGPoint _primaryCaptureRectCenter;
 }
 
 + (id);
@@ -21,16 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (int);
-- (double);
+- (double),;
 - (id);
 - (void);
 - (struct CGPoint);
 
 // Remaining properties
 @property double primaryCaptureAspectRatio; // @synthesize primaryCaptureAspectRatio=_primaryCaptureAspectRatio;
-@property struct CGPoint primaryCaptureRectCenter; // @synthesize primaryCaptureRectCenter=_primaryCaptureRectCenter;
-@property int primaryCaptureRectCenterXPixelOffset; // @synthesize primaryCaptureRectCenterXPixelOffset=_primaryCaptureRectCenterXPixelOffset;
-@property int primaryCaptureRectCenterYPixelOffset; // @synthesize primaryCaptureRectCenterYPixelOffset=_primaryCaptureRectCenterYPixelOffset;
 
 @end
 

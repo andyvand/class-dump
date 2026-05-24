@@ -6,8 +6,7 @@
 
 #import <FrontBoardServices/FBSCoreSettingsExtension.h>
 
-@class BSKeyedSettings, FBSDisplayConfiguration;
-@protocol FBSceneClientProcess;
+@class FBSDisplayConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface FBSSceneSettingsCore : FBSCoreSettingsExtension
@@ -24,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (unsigned short);
+- (unsigned short);
 - (long long);
 - (void);
 - (BOOL);
@@ -38,38 +37,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (struct CGRect);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool)D: /* Error: Ran out of types for this method. */;
-- (double)ssRepositoryClient;
+- (id)fetchPasswordHintForUserWithUUID:error: /* Error: Ran out of types for this method. */;
+- (void)R!;
+- (_Bool);
+- (_Bool)taskNameForPID: /* Error: Ran out of types for this method. */;
+- (double)FBApplicationDataStoreInProcessRepositoryClient;
 
 // Remaining properties
-@property(nonatomic) BOOL activityMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tc,?,N
-
-@property(nonatomic, getter=isClientFuture) _Bool clientFuture;
-@property(retain, nonatomic) id <FBSceneClientProcess> clientProcess;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FBSceneClientProcess>",?,&,N
-
 @property(copy, nonatomic) FBSDisplayConfiguration *displayConfiguration;
-@property(nonatomic, getter=isForeground) _Bool foreground;
-@property(nonatomic) struct CGRect frame; // @dynamic frame;
-@property(nonatomic) long long interfaceOrientation;
-@property(nonatomic) long long interruptionPolicy;
-@property(nonatomic) unsigned short jetsamPriority;
-@property(nonatomic) double level;
-@property(nonatomic, getter=isOccluded) _Bool occluded;
-@property(nonatomic) _Bool prefersProcessTaskSuspensionWhileSceneForeground;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) BSKeyedSettings *propagatedSettings; // @dynamic propagatedSettings;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"BSKeyedSettings",?,&,D,N
-
 
 @end
 

@@ -7,35 +7,6 @@
 @interface ConversationKit.LocalParticipantViewConstraintManager
 {
     id widthConstraint;
-    id heightConstraint;
-    id trailingConstraint;
-    id bottomConstraint;
-    id leadingConstraint;
-    id topConstraint;
-    id centerXConstraint;
-    id centerYConstraint;
-    id autoWidthConstraint;
-    id autoHeightConstraint;
-    id autoTrailingConstraint;
-    id autoBottomConstraint;
-    id aboveBannerConstraint;
-    id belowBannerConstraint;
-    id controlsBottomConstraint;
-    id centeredConstraints;
-    id centeredUpdatingConstraint;
-    id fullScreenConstraints;
-    id constraints;
-    id aspectRatio;
-    id centeringGuide;
-    id containingGuide;
-    id localPIPView;
-    id controlsView;
-    id effectsBrowserContainerView;
-    id rosterCellLayoutGuide;
-    id type;
-    id mostRecentLocalParticipantCorner;
-    id bannerLayoutGuide;
-    id currentWindowSize;
 }
 
 @end

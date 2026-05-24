@@ -5,6 +5,7 @@
 //
 
 @interface UnknownClass (AKPlatformColor_Extensions)
++ (id);
 + (id);
 + (id);
 + (id);
@@ -13,25 +14,24 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id)c;
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)&;
 + (struct CGColorSpace *);
-+ (id);
-+ (id);
-- (void);
-- (id);
++ (id)kServiceType;
++ (id)10-46C1-BFDD-A95D726265FD;
+- (void);
+- (id);
 - (_Bool);
 - (float);
 - (_Bool);
@@ -42,7 +42,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)r:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) float akHeadroom;

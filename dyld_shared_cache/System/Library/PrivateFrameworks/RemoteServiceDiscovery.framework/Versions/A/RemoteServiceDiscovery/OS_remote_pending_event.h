@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface OS_remote_pending_event
 {
     const char *service_name;
-    NSObject<OS_xpc_object> *event;
-    OS_remote_pending_event *next;
 }
 
 - (void);
-- (void);
+- (void)i;
 
 @end
 

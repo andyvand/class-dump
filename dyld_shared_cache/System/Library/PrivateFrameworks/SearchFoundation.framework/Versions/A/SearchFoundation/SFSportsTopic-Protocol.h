@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol SFSportsTopic
+- (NSString *)*;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *requestedEntityType;

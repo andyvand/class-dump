@@ -7,8 +7,6 @@
 @interface IMDPersistence.AttachmentDirectoryEnumerator
 {
     id directoryEnumerator;
-    id directoryURL;
-    id error;
 }
 
 @end

@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SCNUIScrubber
 {
     float deltaX;
-    float v0;
-    struct CGPoint p0;
-    float minValue;
-    float maxValue;
-    _Bool drag;
-    _Bool rejectFirstResponder;
 }
 
 - (float);

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface PHSearchFeedbackDiagnostics
 {
     _Bool _isSharedLibraryEnabled;
-    NSDictionary *_queryResultJSON;
-    NSDictionary *_indexStatusJSON;
-    NSDictionary *_resultAttributesJSON;
-    NSDictionary *_assetThumbnailPaths;
 }
 
 + (id);
@@ -38,7 +32,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)v;
 - (id);
 - (id);
 - (id);
@@ -48,18 +42,7 @@
 - (void)N,V_participantKind;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *assetThumbnailPaths; // @synthesize assetThumbnailPaths=_assetThumbnailPaths;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSDictionary *indexStatusJSON; // @synthesize indexStatusJSON=_indexStatusJSON;
 @property(readonly, nonatomic) _Bool isSharedLibraryEnabled; // @synthesize isSharedLibraryEnabled=_isSharedLibraryEnabled;
-@property(readonly, copy, nonatomic) NSDictionary *queryResultJSON; // @synthesize queryResultJSON=_queryResultJSON;
-@property(readonly, copy, nonatomic) NSDictionary *resultAttributesJSON; // @synthesize resultAttributesJSON=_resultAttributesJSON;
-@property(readonly) Class superclass;
 
 @end
 

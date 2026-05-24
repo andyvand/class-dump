@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol ABAccountPersistenceBackend, ABAccountPersistenceDelegate, CNCancelable;
+@protocol ABAccountPersistenceBackend;
 
 @interface ABAccountPersistence
 {
     id <ABAccountPersistenceBackend> _backend;
-    NSString *_accountType;
-    _Bool _invalidated;
-    id <CNCancelable> _delayedApplyToken;
-    _Bool _hasChanges;
-    NSMutableDictionary *_persistentValues;
-    id <ABAccountPersistenceDelegate> _delegate;
 }
 
 - (unsigned long long);
@@ -28,34 +21,32 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)$T;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (double)eIDServerResourceLoadDelegate";
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (double);
+- (void)setRelevanceScore:(id)arg1;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool)referredNameForLink: /* Error: Ran out of types for this method. */;
+- (void)P;
+- (_Bool)personWithPreferredNameForLink: /* Error: Ran out of types for this method. */;
 - (void)).@count;
 - (void)w\d]+)/?$;
 
 // Remaining properties
-@property __weak id <ABAccountPersistenceDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool hasChanges; // @synthesize hasChanges=_hasChanges;
 @property(getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
 
 @end

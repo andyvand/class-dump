@@ -12,9 +12,9 @@
 + (id);
 + (id);
 + (id);
++ (id)nds.icloud;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 
 @end

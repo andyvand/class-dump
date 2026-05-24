@@ -4,58 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurfaceSharedEventListener, MLE5ProgramLibrary, MLModelConfiguration, MLModelDescription, MLPixelBufferPool, NSArray, NSError, NSString;
-@protocol MLFeatureProvider, MTLSharedEvent;
+@class MLE5ProgramLibrary;
 
 __attribute__((visibility("hidden")))
 @interface MLE5ExecutionStreamOperation
 {
     struct unique_ptr<e5rt_async_event, MLE5ObjectDeleter<e5rt_async_event>> _cachedWaitEvent;
-    MLPixelBufferPool *_pixelBufferPool;
-    struct e5rt_execution_stream_operation *_operationHandle;
-    NSString *_debugLabel;
-    NSError *_asyncSubmissionError;
-    NSString *_functionName;
-    NSString *_shapeHash;
-    MLE5ProgramLibrary *_programLibrary;
-    MLModelDescription *_modelDescription;
-    MLModelConfiguration *_modelConfiguration;
-    NSArray *_inputPorts;
-    NSArray *_statePorts;
-    NSArray *_outputPorts;
-    long long _state;
-    IOSurfaceSharedEventListener *_waitEventListener;
-    unsigned long long _modelSignpostId;
-    NSArray *_waitSharedEventsBoundToESOP;
-    id <MTLSharedEvent> _completionSharedEventBoundToESOP;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)@;
 - (void);
 - (void);
 - (void);
+- (void)(;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)E;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool)9;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)n
+;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -66,7 +49,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct e5rt_execution_stream_operation *);
-- (_Bool);
+- (_Bool)ȉ
+;
 - (void);
 - (_Bool);
 - (void);
@@ -82,7 +66,7 @@ __attribute__((visibility("hidden")))
 - (struct e5rt_execution_stream_operation *);
 - (id);
 - (id);
-- (void);
+- (void)d16d24d32d40d48i56;
 - (void);
 - (id);
 - (void);
@@ -95,26 +79,7 @@ __attribute__((visibility("hidden")))
 - (id)y/BuildRoots/4~CNqRugBrOq6izYqLX9v_RFW1Du7289uk-BX0VhM/Library/Caches/com.apple.xbs/TemporaryDirectory.5hldGP/Sources/CoreML/CoreML/Tensor/Operations/GatherScatter.swift;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *asyncSubmissionError; // @synthesize asyncSubmissionError=_asyncSubmissionError;
-@property(retain, nonatomic) id <MTLSharedEvent> completionSharedEventBoundToESOP; // @synthesize completionSharedEventBoundToESOP=_completionSharedEventBoundToESOP;
-@property(readonly, copy, nonatomic) NSString *debugLabel; // @synthesize debugLabel=_debugLabel;
-@property(readonly, copy, nonatomic) NSArray *directlyBoundInputFeatureNames;
-@property(readonly, copy, nonatomic) NSArray *directlyBoundOutputFeatureNames;
-@property(readonly, copy) NSString *functionName; // @synthesize functionName=_functionName;
-@property(copy, nonatomic) NSArray *inputPorts; // @synthesize inputPorts=_inputPorts;
-@property(readonly, nonatomic) MLModelConfiguration *modelConfiguration; // @synthesize modelConfiguration=_modelConfiguration;
-@property(readonly, nonatomic) MLModelDescription *modelDescription; // @synthesize modelDescription=_modelDescription;
-@property(readonly, nonatomic) unsigned long long modelSignpostId; // @synthesize modelSignpostId=_modelSignpostId;
-@property(nonatomic) struct e5rt_execution_stream_operation *operationHandle; // @synthesize operationHandle=_operationHandle;
-@property(readonly, nonatomic) id <MLFeatureProvider> outputFeatures;
-@property(copy, nonatomic) NSArray *outputPorts; // @synthesize outputPorts=_outputPorts;
-@property(retain, nonatomic) MLPixelBufferPool *pixelBufferPool; // @synthesize pixelBufferPool=_pixelBufferPool;
 @property(readonly, nonatomic) MLE5ProgramLibrary *programLibrary; // @synthesize programLibrary=_programLibrary;
-@property(copy) NSString *shapeHash; // @synthesize shapeHash=_shapeHash;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(copy, nonatomic) NSArray *statePorts; // @synthesize statePorts=_statePorts;
-@property(readonly, nonatomic) IOSurfaceSharedEventListener *waitEventListener; // @synthesize waitEventListener=_waitEventListener;
-@property(copy, nonatomic) NSArray *waitSharedEventsBoundToESOP; // @synthesize waitSharedEventsBoundToESOP=_waitSharedEventsBoundToESOP;
 
 @end
 

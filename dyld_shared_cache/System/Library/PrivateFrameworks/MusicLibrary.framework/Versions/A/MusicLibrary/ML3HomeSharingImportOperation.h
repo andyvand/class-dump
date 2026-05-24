@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     int _playlistNameOrder;
 }
 
-- (void);
-- (shared_ptr_9dbb0ac9);
-- (shared_ptr_9dbb0ac9);
-- (_Bool);
-- (unsigned long long);
-- (void);
+- (void)_applyPayloadProperty:(float)arg1 toManagedObject:key:payloadAttributesToUpdate:payloadDictionary:info: /* Error: Ran out of types for this method. */;
+- (shared_ptr_9dbb0ac9)es;
+- (shared_ptr_9dbb0ac9)removeEmptyAlbumsAndFoldersForCloudResetInManagedObjectContext:(shared_ptr_37fa1f3d)arg1;
+- (_Bool)descriptionForNonCloudResources;
+- (unsigned long long)%{public}@ on asset %{public}@;
+- (void)`;
 
 @end
 

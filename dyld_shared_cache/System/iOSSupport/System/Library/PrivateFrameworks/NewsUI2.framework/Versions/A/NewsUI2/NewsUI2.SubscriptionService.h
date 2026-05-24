@@ -7,18 +7,12 @@
 @interface NewsUI2.SubscriptionService
 {
     id observers;
-    id tagService;
-    id pushNotificationDataManager;
-    id notificationService;
-    id subscriptionController;
-    id purchaseController;
-    id bundleSubscriptionManager;
 }
 
+- (void)ences.framework/Versions/A/IntlPreferences;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ConversationControls;
 - (id);
 - (void)9^ ¢°þY^T:Wÿ /* Error: Ran out of types for this method. */;
 

@@ -6,30 +6,25 @@
 
 #import <AppKit/_NSCollectionLayoutItem.h>
 
-@class NSString, _NSCollectionLayoutAnchor;
+@class NSString;
 
 @interface _NSCollectionLayoutDecorationItem : _NSCollectionLayoutItem
 {
     NSString *_elementKind;
-    _NSCollectionLayoutAnchor *_containerAnchor;
-    long long _zIndex;
-    Class _registrationViewClass;
-    _Bool _isBackgroundDecoration;
 }
 
 + (id);
 + (id))hGõ2hG;
 - (id);
-- (id);
+- (id)public}@> All tasks completed getting auth headers, sending did finish app wake for session %@ with identifier %@;
 - (void);
-- (long long)entaryIndexPaths;
-- (Class)rSpaceItem: /* Error: Ran out of types for this method. */;
-- (id)ted:(struct _NSZone *)arg1;
-- (void)oSetFilenameWithProperSelection:(long long)arg1;
-- (void)entDismissed;
+- (long long)invalidatedSupplementaryIndexPaths;
+- (Class)initWithSize:forSpaceItem: /* Error: Ran out of types for this method. */;
+- (id)dismissSingleSubmenuAnimated:(struct _NSZone *)arg1;
+- (void)MondoSetFilenameWithProperSelection:(long long)arg1;
+- (void)IntentDismissed;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setRegistrationViewClass:) Class _registrationViewClass;
 @property(nonatomic) long long zIndex; // @synthesize zIndex=_zIndex;
 
 @end

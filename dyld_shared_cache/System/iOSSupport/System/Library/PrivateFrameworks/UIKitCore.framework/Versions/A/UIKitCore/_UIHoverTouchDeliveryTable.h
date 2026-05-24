@@ -10,17 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _UIHoverTouchDeliveryTable
 {
     NSMutableSet *_beginningGestureRecognizers;
-    NSMutableSet *_updatingGestureRecognizers;
-    NSMutableSet *_exitingGestureRecognizers;
-    UITouch *_touch;
 }
 
 - (long long);
+- (void)@;
+- (id)messageSyncController;
+- (id)_payloadDisableScreenLockImmediate;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)r;
+- (void)Coordinator;
 - (void)Ô~[;
 - (id)ð];
 

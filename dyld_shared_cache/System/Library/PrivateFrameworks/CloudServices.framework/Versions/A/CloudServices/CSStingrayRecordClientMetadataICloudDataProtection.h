@@ -9,19 +9,6 @@
 @interface CSStingrayRecordClientMetadataICloudDataProtection
 {
     NSData *_escrowedKeys;
-    NSData *_wrappedKeys;
-    _Bool _icdp;
-    _Bool _icdpArmed;
-    _Bool _icdpDBRv2;
-    _Bool _icdpDrop;
-    _Bool _icdpWalrus;
-    struct {
-        unsigned int icdp:1;
-        unsigned int icdpArmed:1;
-        unsigned int icdpDBRv2:1;
-        unsigned int icdpDrop:1;
-        unsigned int icdpWalrus:1;
-    } _has;
 }
 
 - (id);
@@ -32,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -53,29 +40,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)lic}@.;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *escrowedKeys; // @synthesize escrowedKeys=_escrowedKeys;
-@property(readonly, nonatomic) _Bool hasEscrowedKeys;
 @property(nonatomic) _Bool hasIcdp;
-@property(nonatomic) _Bool hasIcdpArmed;
-@property(nonatomic) _Bool hasIcdpDBRv2;
-@property(nonatomic) _Bool hasIcdpDrop;
-@property(nonatomic) _Bool hasIcdpWalrus;
-@property(readonly, nonatomic) _Bool hasWrappedKeys;
-@property(nonatomic) _Bool icdp; // @synthesize icdp=_icdp;
-@property(nonatomic) _Bool icdpArmed; // @synthesize icdpArmed=_icdpArmed;
-@property(nonatomic) _Bool icdpDBRv2; // @synthesize icdpDBRv2=_icdpDBRv2;
-@property(nonatomic) _Bool icdpDrop; // @synthesize icdpDrop=_icdpDrop;
-@property(nonatomic) _Bool icdpWalrus; // @synthesize icdpWalrus=_icdpWalrus;
-@property(retain, nonatomic) NSData *wrappedKeys; // @synthesize wrappedKeys=_wrappedKeys;
 
 @end
 

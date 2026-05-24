@@ -11,7 +11,7 @@
     NSDictionary *_descriptorsByExtensionIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)4;
 - (id);
 - (id);
 - (void);
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *descriptors;
-@property(readonly, copy, nonatomic) NSDictionary *descriptorsByExtensionIdentifier; // @synthesize descriptorsByExtensionIdentifier=_descriptorsByExtensionIdentifier;
 
 @end
 

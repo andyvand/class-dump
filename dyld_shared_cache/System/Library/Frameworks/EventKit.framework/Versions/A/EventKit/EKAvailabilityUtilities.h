@@ -8,17 +8,17 @@
 {
 }
 
-+ (long long);
-+ (_Bool);
-+ (_Bool);
-+ (long long);
-+ (int);
-+ (id);
-+ (id);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
-+ (int);
++ (long long)ts] %{public}@ UpdatingCache:(id)arg1 playbackQueue %@;
++ (_Bool)proxy to restore state. Giving up.;
++ (_Bool)fyTopology;
++ (long long)endpoint volume changed to <%f>. Endpoint=<%{public}@>;
++ (int)<%{public}@> reloading due to player path invalidation.;
++ (id){public}@<%{public}@> for %@ %@;
++ (id)leftTrigger;
++ (long long)AudioAccessory;
++ (_Bool)kMRMediaRemoteBrowsableContentErrorDomainKey;
++ (_Bool)artworkDataDigest;
++ (int)"8@"MRTransactionPacket"16;
 
 @end
 

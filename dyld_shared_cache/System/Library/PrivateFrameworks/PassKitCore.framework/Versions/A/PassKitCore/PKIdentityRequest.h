@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSString;
 @protocol PKIdentityDocumentDescriptor;
 
 @interface PKIdentityRequest
 {
     id <PKIdentityDocumentDescriptor> _descriptor;
-    NSData *_nonce;
-    NSString *_merchantIdentifier;
-    NSString *_usageDescriptionKey;
-    NSString *_applicationIdentifierOverride;
-    NSString *_merchantNameOverride;
-    NSURL *_merchantPrivacyPolicyOverride;
-    long long _merchantLogoOverride;
 }
 
-- (id);
+- (id);
+- (void)_ka;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id)ngController;
-- (void)mount;
+- (id)PKSubcredentialProvisioningController;
+- (void)displayedBalanceAmount;
 - (id)t.executed;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifierOverride; // @synthesize applicationIdentifierOverride=_applicationIdentifierOverride;
-@property(retain, nonatomic) id <PKIdentityDocumentDescriptor> descriptor; // @synthesize descriptor=_descriptor;
-@property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(nonatomic) long long merchantLogoOverride; // @synthesize merchantLogoOverride=_merchantLogoOverride;
-@property(copy, nonatomic) NSString *merchantNameOverride; // @synthesize merchantNameOverride=_merchantNameOverride;
-@property(copy, nonatomic) NSURL *merchantPrivacyPolicyOverride; // @synthesize merchantPrivacyPolicyOverride=_merchantPrivacyPolicyOverride;
-@property(copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
-@property(copy, nonatomic) NSString *usageDescriptionKey; // @synthesize usageDescriptionKey=_usageDescriptionKey;
 
 @end
 

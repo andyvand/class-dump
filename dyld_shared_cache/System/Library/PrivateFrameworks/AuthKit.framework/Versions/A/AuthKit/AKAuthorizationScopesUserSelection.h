@@ -9,7 +9,6 @@
 @interface AKAuthorizationScopesUserSelection
 {
     _Bool _makePrivateEmail;
-    AKUserInformation *_userInformation;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool makePrivateEmail; // @synthesize makePrivateEmail=_makePrivateEmail;
 @property(copy, nonatomic) AKUserInformation *userInformation; // @synthesize userInformation=_userInformation;
 
 @end

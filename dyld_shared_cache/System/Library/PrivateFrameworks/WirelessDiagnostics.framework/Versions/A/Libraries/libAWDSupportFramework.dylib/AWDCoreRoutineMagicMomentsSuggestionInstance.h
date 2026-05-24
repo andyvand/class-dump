@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface AWDCoreRoutineMagicMomentsSuggestionInstance
 {
     unsigned long long _timestamp;
-    int _confidence;
-    int _durationSinceLastSuggestion;
-    int _reposponceTime;
-    NSString *_suggestionId;
-    NSMutableArray *_suggestions;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int confidence:1;
-        unsigned int durationSinceLastSuggestion:1;
-        unsigned int reposponceTime:1;
-    } _has;
 }
 
 + (Class);
@@ -28,7 +15,7 @@
 - (void);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)rMT/;
 - (int);
 - (_Bool);
 - (void);
@@ -39,7 +26,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void));
 - (id);
 - (unsigned long long);
 - (void);
@@ -51,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)o;
 - (id);
 - (id);
 - (int);
@@ -60,17 +47,7 @@
 - (void)TQ,N,V_mptcpHandshakeHandoverSuccessCellFirstParty;
 
 // Remaining properties
-@property(nonatomic) int confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) int durationSinceLastSuggestion; // @synthesize durationSinceLastSuggestion=_durationSinceLastSuggestion;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasDurationSinceLastSuggestion;
-@property(nonatomic) _Bool hasReposponceTime;
-@property(readonly, nonatomic) _Bool hasSuggestionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int reposponceTime; // @synthesize reposponceTime=_reposponceTime;
-@property(retain, nonatomic) NSString *suggestionId; // @synthesize suggestionId=_suggestionId;
-@property(retain, nonatomic) NSMutableArray *suggestions; // @synthesize suggestions=_suggestions;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

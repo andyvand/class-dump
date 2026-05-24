@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol SXActionActivityGroup;
+
 @protocol SXActionActivityManager
+- (void);
+- (id <SXActionActivityGroup>)WiFiFWTrapBinary;
+- (id <SXActionActivityGroup>)0@"NSFileHandle"8;
 @end
 

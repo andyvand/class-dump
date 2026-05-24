@@ -7,8 +7,6 @@
 @interface Foundation._TimeZoneICU
 {
     id _timeZone;
-    id lock;
-    id name;
 }
 
 @end

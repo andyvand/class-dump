@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)supportRecentlyDeletedList;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *logType; // @dynamic logType;

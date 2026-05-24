@@ -9,29 +9,19 @@
 @interface FCAuthKitAuthorizationCredential
 {
     NSString *_authorizationCode;
-    NSString *_identityToken;
-    NSString *_userIdentifier;
-    NSString *_email;
-    NSString *_familyName;
-    NSString *_givenName;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (void)TagFeedGroup;
+- (void)ArticleListTagFeedGroup;
 - (id)|¹ÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *authorizationCode; // @synthesize authorizationCode=_authorizationCode;
-@property(readonly, copy, nonatomic) NSString *email; // @synthesize email=_email;
-@property(readonly, copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly, copy, nonatomic) NSString *identityToken; // @synthesize identityToken=_identityToken;
-@property(readonly, copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

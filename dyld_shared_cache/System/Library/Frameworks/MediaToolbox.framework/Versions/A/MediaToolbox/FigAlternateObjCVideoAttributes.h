@@ -6,16 +6,11 @@
 
 #import <MediaToolbox/FigKVCInspectable.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FigAlternateObjCVideoAttributes : FigKVCInspectable
 {
     struct OpaqueFigAlternate *_alternate;
-    NSArray *_videoCodecTypes;
-    NSArray *_videoLayoutAttributes;
-    struct OpaqueFigSimpleMutex *_mutex;
-    double _nominalFrameRate;
-    struct CGSize _presentationSize;
 }
 
 - (id);
@@ -29,12 +24,6 @@
 - (struct CGSize)s:%p saving data %@ in cache /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *codecTypes;
-@property(readonly, nonatomic) double nominalFrameRate; // @synthesize nominalFrameRate=_nominalFrameRate;
-@property(readonly, nonatomic) double presentationHeight;
-@property(readonly, nonatomic) struct CGSize presentationSize; // @synthesize presentationSize=_presentationSize;
-@property(readonly, nonatomic) double presentationWidth;
-@property(readonly, nonatomic) NSArray *videoLayoutAttributes;
 @property(readonly, nonatomic) NSString *videoRange;
 
 @end

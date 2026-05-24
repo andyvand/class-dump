@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFAppEntityAnnotation;
+@class NSData;
 
 @protocol SFFillToolAppEntityParameterCommand
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSData *encodedTypedValue;
-@property(retain, nonatomic) SFAppEntityAnnotation *entity;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

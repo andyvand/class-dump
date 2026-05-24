@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter;
+@class HMFExponentialBackoffTimer, NSNotificationCenter;
 @protocol HMMLogEventSubmitting;
 
 @protocol HMDPrimaryResidentDiscoveryManagerDataSource
-- (id <HMMLogEventSubmitting>)ding;
+- (HMFExponentialBackoffTimer *)ed platform. Not donating log discard signal.;
+- (id <HMMLogEventSubmitting>)hasAnyUserAcknowledgedCameraRecordingOnboarding;
 - (NSNotificationCenter *)stic found for: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter;
 @property(readonly) NSNotificationCenter *notificationCenter;
 @end
 

@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMutableContact, CNSharingProfileAudienceDataSource, NSLayoutConstraint, NSString, OBBoldTrayButton, UITextField;
+@class NSLayoutConstraint;
 @protocol CNSharingProfileOnboardingAudienceControllerDelegate;
 
 @interface CNSharingProfileOnboardingAudienceViewController
 {
     id <CNSharingProfileOnboardingAudienceControllerDelegate> _delegate;
-    NSLayoutConstraint *_tableViewHeightConstraint;
-    OBBoldTrayButton *_confirmButton;
-    UITextField *_givenNameField;
-    UITextField *_familyNameField;
-    id _traitCollectionChangeToken;
-    CNMutableContact *_contact;
-    CNSharingProfileAudienceDataSource *_sharingAudienceDataSource;
-    double _keyboardHeight;
-    long long _nameOrder;
 }
 
 + (id);
-+ (id)ByDefault;
++ (id)shouldDisplayPronounPickerByDefault;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)'@�_;
+- (id);
+- (void);
+- (id);
+- (void)c;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)(@9
+;
 - (void);
 - (double);
 - (_Bool);
-- (id);
+- (id)';
 - (id);
 - (double);
 - (id);
@@ -52,39 +44,23 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)RECOVERY_FORGOT_ALL_PASSWORDS_OR_PASSCODE_ALERT_TITLE;
+- (long long)useLocalIdsAsGlobalIds;
+- (void)er on its concrete subclass, ISyncConcreteRecordGraphNode;
+- (void);
+- (void);
 - (long long);
+- (id)!;
+- (void);
+- (void)!;
+- (void);
+- (id)esses as keys;
 - (void);
 - (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)tionButtonPressed: /* Error: Ran out of types for this method. */;
+- (void)actionButtonPressed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) OBBoldTrayButton *confirmButton; // @synthesize confirmButton=_confirmButton;
-@property(retain, nonatomic) CNMutableContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNSharingProfileOnboardingAudienceControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UITextField *familyNameField; // @synthesize familyNameField=_familyNameField;
-@property(retain, nonatomic) UITextField *givenNameField; // @synthesize givenNameField=_givenNameField;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double keyboardHeight; // @synthesize keyboardHeight=_keyboardHeight;
-@property(nonatomic) long long nameOrder; // @synthesize nameOrder=_nameOrder;
-@property(retain, nonatomic) CNSharingProfileAudienceDataSource *sharingAudienceDataSource; // @synthesize sharingAudienceDataSource=_sharingAudienceDataSource;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSLayoutConstraint *tableViewHeightConstraint; // @synthesize tableViewHeightConstraint=_tableViewHeightConstraint;
-@property(retain, nonatomic) id traitCollectionChangeToken; // @synthesize traitCollectionChangeToken=_traitCollectionChangeToken;
 
 @end
 

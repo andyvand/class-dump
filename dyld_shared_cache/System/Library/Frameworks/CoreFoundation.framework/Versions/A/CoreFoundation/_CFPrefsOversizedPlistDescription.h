@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _CFPrefsOversizedPlistDescription
 {
     struct __CFDictionary *existingValues;
-    struct __CFDictionary *newValues;
 }
 
 - (id);

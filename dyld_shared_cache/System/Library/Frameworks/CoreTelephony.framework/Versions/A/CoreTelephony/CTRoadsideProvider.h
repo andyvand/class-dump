@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CTRoadsideProvider
 {
     _Bool _supportsPayPerUse;
-    _Bool _isActive;
-    _Bool _isCarrierProvider;
-    long long _providerId;
-    NSString *_providerName;
-    NSString *_bizId;
-    NSArray *_associatedPhoneNumbers;
 }
 
-+ (_Bool);
++ (_Bool)ut.Provider;
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (_Bool);
 - (id);
 - (id);
@@ -34,21 +26,15 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)initWithCoreMechanism:(id)arg1;
 - (id);
 - (_Bool);
 - (void)!HGùqª)Ð1Â0@ù
 × ;
-- (void)tusNotification;
+- (void)kCTCellularDataPlanStatusNotification;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *associatedPhoneNumbers; // @synthesize associatedPhoneNumbers=_associatedPhoneNumbers;
-@property(retain, nonatomic) NSString *bizId; // @synthesize bizId=_bizId;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(nonatomic) _Bool isCarrierProvider; // @synthesize isCarrierProvider=_isCarrierProvider;
 @property(nonatomic) long long providerId; // @synthesize providerId=_providerId;
-@property(retain, nonatomic) NSString *providerName; // @synthesize providerName=_providerName;
-@property(nonatomic) _Bool supportsPayPerUse; // @synthesize supportsPayPerUse=_supportsPayPerUse;
 
 @end
 

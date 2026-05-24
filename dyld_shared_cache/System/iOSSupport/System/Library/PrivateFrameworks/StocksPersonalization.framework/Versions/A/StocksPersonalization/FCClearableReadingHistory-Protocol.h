@@ -5,5 +5,6 @@
 //
 
 @protocol FCClearableReadingHistory
+- (void)__DATA_CONST;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <AddressBook/ABCollectionAbstractAction.h>
 
-@class ABCollectionViewItem, NSString;
+@class ABCollectionViewItem;
 
 @interface ABCollectionMessageAction : ABCollectionAbstractAction
 {
@@ -23,13 +23,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) ABCollectionViewItem *target; // @synthesize target=_target;
 
 @end

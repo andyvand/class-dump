@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXBasicTileAnimationOptions;
+@class PXBasicTileAnimationOptions;
 
 @interface PXMemoriesFeedTransitionAnimationCoordinator
 {
     PXBasicTileAnimationOptions *_basicOptions;
-    _Bool _useDoubleSidedAnimation;
 }
 
 - (_Bool);
@@ -22,13 +21,6 @@
 - (void)Øÿÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool useDoubleSidedAnimation; // @synthesize useDoubleSidedAnimation=_useDoubleSidedAnimation;
 
 @end

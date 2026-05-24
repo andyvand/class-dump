@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface EKVirtualConference
 {
     NSString *_title;
-    NSArray *_joinMethods;
-    NSString *_conferenceDetails;
-    NSString *_serializationBlockTitle;
-    unsigned long long _source;
 }
 
 + (void);
 - (id);
 - (void);
 - (id);
+- (id)XB;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)';
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)viewWillMoveToHostWindow: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *conferenceDetails; // @synthesize conferenceDetails=_conferenceDetails;
-@property(readonly, nonatomic) NSURL *firstPhoneNumber;
-@property(readonly, nonatomic) _Bool isWritable;
-@property(copy, nonatomic) NSArray *joinMethods; // @synthesize joinMethods=_joinMethods;
-@property(copy, nonatomic) NSString *serializationBlockTitle; // @synthesize serializationBlockTitle=_serializationBlockTitle;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *urlWithAllowedScheme;
 
 @end
 

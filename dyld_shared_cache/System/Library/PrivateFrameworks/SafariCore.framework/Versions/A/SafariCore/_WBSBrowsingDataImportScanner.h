@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DSArchiveService, NSFileHandle, NSFileManager, NSMutableDictionary, NSObject, NSString, NSURL;
+@class NSObject;
 @protocol OS_dispatch_group;
 
 @interface _WBSBrowsingDataImportScanner
 {
     NSObject<OS_dispatch_group> *_scannerGroup;
-    NSFileManager *_fileManager;
-    NSMutableDictionary *_results;
-    struct os_unfair_lock_s _resultLock;
-    NSURL *_temporaryUnarchiveDestinationFolder;
-    NSFileHandle *_temporaryUnarchiveDestinationFileHandle;
-    NSString *_temporaryUnarchiveDestinationFolderSandboxExtension;
-    DSArchiveService *_archiveService;
 }
 
 - (void);

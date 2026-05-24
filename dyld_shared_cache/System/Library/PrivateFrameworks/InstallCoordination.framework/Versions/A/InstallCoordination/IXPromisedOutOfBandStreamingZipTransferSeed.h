@@ -6,14 +6,9 @@
 
 #import <InstallCoordination/IXOpaqueDataPromiseSeed.h>
 
-@class NSDictionary, NSURL;
-
 @interface IXPromisedOutOfBandStreamingZipTransferSeed : IXOpaqueDataPromiseSeed
 {
     unsigned long long _archiveBytesConsumed;
-    unsigned long long _archiveSizeBytes;
-    NSURL *_extractionPath;
-    NSDictionary *_szOptions;
 }
 
 + (_Bool);
@@ -26,16 +21,13 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long archiveBytesConsumed; // @synthesize archiveBytesConsumed=_archiveBytesConsumed;
-@property(nonatomic) unsigned long long archiveSizeBytes; // @synthesize archiveSizeBytes=_archiveSizeBytes;
-@property(retain, nonatomic) NSURL *extractionPath; // @synthesize extractionPath=_extractionPath;
-@property(copy, nonatomic) NSDictionary *szOptions; // @synthesize szOptions=_szOptions;
 
 @end
 

@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface UIAccessibilityElementTraversalOptions
 {
     _Bool _shouldReturnScannerGroups;
-    _Bool _shouldOnlyIncludeElementsWithVisibleFrame;
-    _Bool _shouldIncludeKeyboardObscuredElements;
-    _Bool _shouldUseAllSubviews;
-    _Bool _includeHiddenViews;
-    _Bool _includeWindowlessViews;
-    _Bool _sorted;
-    _Bool _includeAncestorsOfSelfInSiblingMatch;
-    _Bool _honorsElementGrouping;
-    _Bool _shouldExcludeSupplementaryViews;
-    _Bool _forSpeakScreen;
-    _Bool _shouldIncludeStatusBarWindow;
-    long long _direction;
-    CDUnknownBlockType _leafNodePredicate;
-    NSArray *_allowedElementsForTraversal;
-    CDUnknownBlockType _alternateViewChildrenHandler;
 }
 
 + (id);
@@ -65,29 +48,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)e cannot be nil;
 - (id);
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allowedElementsForTraversal; // @synthesize allowedElementsForTraversal=_allowedElementsForTraversal;
-@property(copy, nonatomic) CDUnknownBlockType alternateViewChildrenHandler; // @synthesize alternateViewChildrenHandler=_alternateViewChildrenHandler;
-@property(nonatomic) long long direction; // @synthesize direction=_direction;
-@property(nonatomic) _Bool forSpeakScreen; // @synthesize forSpeakScreen=_forSpeakScreen;
 @property(nonatomic) _Bool honorsElementGrouping; // @synthesize honorsElementGrouping=_honorsElementGrouping;
-@property(nonatomic) _Bool includeAncestorsOfSelfInSiblingMatch; // @synthesize includeAncestorsOfSelfInSiblingMatch=_includeAncestorsOfSelfInSiblingMatch;
-@property(nonatomic) _Bool includeHiddenViews; // @synthesize includeHiddenViews=_includeHiddenViews;
-@property(nonatomic) _Bool includeWindowlessViews; // @synthesize includeWindowlessViews=_includeWindowlessViews;
-@property(copy, nonatomic) CDUnknownBlockType leafNodePredicate; // @synthesize leafNodePredicate=_leafNodePredicate;
-@property(nonatomic) _Bool shouldExcludeSupplementaryViews; // @synthesize shouldExcludeSupplementaryViews=_shouldExcludeSupplementaryViews;
-@property(nonatomic) _Bool shouldIncludeKeyboardObscuredElements; // @synthesize shouldIncludeKeyboardObscuredElements=_shouldIncludeKeyboardObscuredElements;
-@property(nonatomic) _Bool shouldIncludeStatusBarWindow; // @synthesize shouldIncludeStatusBarWindow=_shouldIncludeStatusBarWindow;
-@property(nonatomic) _Bool shouldOnlyIncludeElementsWithVisibleFrame; // @synthesize shouldOnlyIncludeElementsWithVisibleFrame=_shouldOnlyIncludeElementsWithVisibleFrame;
-@property(nonatomic) _Bool shouldReturnScannerGroups; // @synthesize shouldReturnScannerGroups=_shouldReturnScannerGroups;
-@property(nonatomic) _Bool shouldUseAllSubviews; // @synthesize shouldUseAllSubviews=_shouldUseAllSubviews;
-@property(nonatomic) _Bool sorted; // @synthesize sorted=_sorted;
 
 @end
 

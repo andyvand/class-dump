@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSObject, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSScriptClassDescriptionMoreIVars
 {
     NSString *defaultSubcontainerAttributeKey;
-    NSDictionary *inverseRelationshipKeysByKey;
-    NSString *presentableDescription;
-    NSObject *presentableNameOrNames;
-    NSString *presentablePluralName;
-    NSArray *synonymDescriptions;
-    _Bool isHidden;
-    _Bool isFromLegacyPropertyLists;
-    _Bool isSynonym;
-    NSDictionary *cachedPropertyDescriptionsByKey;
-    NSObject *primitiveTypeNameOrDescription;
 }
 
 @end

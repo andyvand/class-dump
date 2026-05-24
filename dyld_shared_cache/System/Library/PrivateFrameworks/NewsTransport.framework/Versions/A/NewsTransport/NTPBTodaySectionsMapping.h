@@ -11,18 +11,18 @@
     NSMutableArray *_identifiers;
 }
 
-+ (Class);
++ (Class)_originalClipIdentifiersByDuplicateClipIdentifiers;
 - (id);
 - (void);
 - (unsigned long long);
+- (void)B;
+- (id)A;
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setPlaceholderImageView: /* Error: Ran out of types for this method. */;
+- (_Bool)oolBox migrateExtraHiddenSystemUsersFrom:(id)arg1 toDestinationSystem:] /* Error: Ran out of types for this method. */;
+- (_Bool)ourcesURL:(id)arg1 %@, newsletterURL:%@, appHeartbeatUrl:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)deoInFeed"b1};

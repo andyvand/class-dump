@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ODNode, ODRecord;
+@class ODNode;
 
 @interface ODHelper
 {
     ODNode *searchNode;
-    ODNode *localNode;
-    ODNode *directoryNode;
-    ODRecord *groupRecord;
 }
 
 - (id);
@@ -22,28 +19,28 @@
 - (id);
 - (id);
 - (id);
+- (id)(	;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)l-export;
 - (id);
 - (id);
 - (id);
@@ -51,9 +48,6 @@
 - (void)%d;
 
 // Remaining properties
-@property(retain) ODNode *directoryNode; // @synthesize directoryNode;
-@property(retain) ODRecord *groupRecord; // @synthesize groupRecord;
-@property(retain) ODNode *localNode; // @synthesize localNode;
 @property(retain) ODNode *searchNode; // @synthesize searchNode;
 
 @end

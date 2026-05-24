@@ -15,12 +15,12 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)TriggerInfo:writeFile: /* Error: Ran out of types for this method. */;
+- (void)generatePHashFromExclaveVoiceTriggerInfo:writeFile: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <CSSPGEndpointAnalyzerDelegate> delegate; // @synthesize delegate=_delegate;

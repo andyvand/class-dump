@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class HMDDevice, NSData, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentDeviceModel : HMDBackingStoreModelObject
@@ -16,12 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *changeToken; // @dynamic changeToken;
-@property(retain, nonatomic) NSNumber *confirmed; // @dynamic confirmed;
-@property(retain, nonatomic) HMDDevice *device; // @dynamic device;
 @property(retain, nonatomic) NSString *deviceUUID; // @dynamic deviceUUID;
-@property(retain, nonatomic) NSNumber *enabled; // @dynamic enabled;
-@property(retain, nonatomic) NSData *residentCapabilities; // @dynamic residentCapabilities;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSSet, NSString, NSUUID, REMAccount, REMAccountCapabilities, REMColor, REMList, REMObjectID, REMResolutionTokenMap, REMSmartListCustomContext, REMSmartListSectionContext, REMSmartListStorage, REMStore;
+@class REMAccount, REMStore;
 
 @interface REMSmartList
 {
     REMStore *_store;
-    REMSmartListStorage *_storage;
-    REMAccount *_account;
-    REMList *_parentList;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)q;
 - (id);
 - (id);
 - (id);
@@ -25,55 +22,27 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (_Bool)#;
+- (_Bool);
+- (void)ion=}32;
+- (_Bool)tion of empty name from %{public}@;
+- (id)D#;
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id)Activity;
+- (id);
+- (_Bool)SEGMENT;
+- (void);
+- (void);
+- (id)NSUserActivity;
 
 // Remaining properties
 @property(retain, nonatomic) REMAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) REMAccountCapabilities *accountCapabilities;
-@property(readonly, nonatomic) REMObjectID *accountID; // @dynamic accountID;
-@property(readonly, nonatomic) NSString *badgeEmblem; // @dynamic badgeEmblem;
-@property(readonly, nonatomic) REMColor *color; // @dynamic color;
-@property(readonly, nonatomic) REMSmartListCustomContext *customContext;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion; // @dynamic effectiveMinimumSupportedVersion;
-@property(readonly, nonatomic) NSData *filterData; // @dynamic filterData;
-@property(readonly, nonatomic) _Bool isOriginOfExistingTemplate;
-@property(nonatomic) _Bool isPersisted; // @dynamic isPersisted;
-@property(readonly, nonatomic) _Bool isPinned;
-@property(readonly, nonatomic) long long minimumSupportedVersion; // @dynamic minimumSupportedVersion;
-@property(readonly, nonatomic) NSUUID *mostRecentTargetTemplateIdentifier; // @dynamic mostRecentTargetTemplateIdentifier;
-@property(readonly, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, nonatomic) REMObjectID *objectID; // @dynamic objectID;
-@property(readonly, nonatomic) REMObjectID *parentAccountID; // @dynamic parentAccountID;
-@property(retain, nonatomic) REMList *parentList; // @synthesize parentList=_parentList;
-@property(readonly, nonatomic) REMObjectID *parentListID; // @dynamic parentListID;
-@property(readonly, nonatomic) NSDate *pinnedDate; // @dynamic pinnedDate;
-@property(readonly, nonatomic) REMObjectID *remObjectID; // @dynamic remObjectID;
-@property(readonly, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @dynamic resolutionTokenMap;
-@property(readonly, nonatomic) NSData *resolutionTokenMapData; // @dynamic resolutionTokenMapData;
-@property(readonly, nonatomic) REMSmartListSectionContext *sectionContext;
-@property(readonly, nonatomic) NSSet *sectionIDsToUndelete; // @dynamic sectionIDsToUndelete;
-@property(readonly, nonatomic) _Bool showingLargeAttachments; // @dynamic showingLargeAttachments;
-@property(copy, nonatomic) NSString *smartListType; // @dynamic smartListType;
-@property(readonly, nonatomic) NSString *sortingStyle; // @dynamic sortingStyle;
-@property(copy, nonatomic) REMSmartListStorage *storage; // @synthesize storage=_storage;
-@property(readonly, nonatomic) REMStore *store; // @synthesize store=_store;
 
 @end
 

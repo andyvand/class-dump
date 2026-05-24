@@ -7,6 +7,7 @@
 @class SWDatastore;
 
 @protocol SWDatastoreManager
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) SWDatastore *datastore;

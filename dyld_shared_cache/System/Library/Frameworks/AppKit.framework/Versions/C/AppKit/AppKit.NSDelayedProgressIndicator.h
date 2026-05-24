@@ -11,10 +11,10 @@
     id startDelay;
 }
 
-- (void);
+- (void)@;
 - (id);
 - (void);
-- (id)snipConstraintsToAnchor:(struct CGRect)arg1;
+- (id)_snipConstraintsToAnchor:(struct CGRect)arg1;
 - (void)`hQz;
 
 @end

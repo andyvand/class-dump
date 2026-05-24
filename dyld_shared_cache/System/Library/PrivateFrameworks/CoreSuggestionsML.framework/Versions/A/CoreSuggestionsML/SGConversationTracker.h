@@ -12,9 +12,9 @@
 }
 
 + (id);
++ (id)I %d;
 + (id);
-+ (id);
-- (id);
+- (id)cific decoding not yet implemented for TYP %@;
 - (id);
 - (id);
 - (void);

@@ -4,25 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureConnectionInternal_Tundra, AVCaptureOutput_Tundra, AVCaptureVideoPreviewLayer_Tundra, NSArray;
+@class AVCaptureConnectionInternal_Tundra, NSArray;
 
 @interface AVCaptureConnection_Tundra
 {
     AVCaptureConnectionInternal_Tundra *_internal;
-    _Bool _videoStabilizationEnabled;
-    _Bool _enablesVideoStabilizationWhenAvailable;
 }
 
-+ (id);
++ (id);
 + (id);
 + (void)dth;
 - (unsigned int);
-- (int *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (int *)aservices.MSVQRConnection.serialQueue;
+- (void).*g</real>
+;
+- (void)real>
+;
+- (void)lying error:(void *)arg1 %@;
+- (void)ment, an MSVLyricsTranslationText object should be top of stack;
+- (void)itunes:(_Bool)arg1 timing;
 - (void *);
 - (void);
 - (void *);
@@ -38,7 +38,7 @@
 - (void);
 - (void);
 - (int *);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (struct opaqueCMFormatDescription *);
@@ -55,19 +55,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (_Bool);
 - (int);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)+
+;
 - (double);
 - (float);
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)5;
 - (float);
 - (id);
 - (void);
@@ -80,64 +81,38 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (long long)defaultOutputIndex;
+- (CDStruct_1b6d18a9)_singleCameraOverCaptureShouldStopOverCaptureRendering;
+- (void)_sifrRawThumbnailMetadataTag;
+- (_Bool)_coreImageTableCache;
+- (_Bool)isSemanticStyleRenderingEnabled;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (long long);
-- (CDStruct_1b6d18a9);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
-- (_Bool);
-- (id);
+- (id)GeometricDistortionCorrectionSourceFormat;
 - (void);
 - (double);
+- (_Bool)`;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (long long);
 - (_Bool);
 - (void);
 - (CDStruct_1b6d18a9);
-- (_Bool)ssionWillRunDeferredStart: /* Error: Ran out of types for this method. */;
+- (_Bool)sessionWillRunDeferredStart: /* Error: Ran out of types for this method. */;
 - (_Bool)ata input sync node;
 - (void);
 - (void)/p;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic) long long activeVideoStabilizationMode;
-@property(readonly, nonatomic) NSArray *audioChannels;
-@property(nonatomic) _Bool automaticallyAdjustsVideoMirroring;
-@property(nonatomic, getter=isCameraIntrinsicMatrixDeliveryEnabled) _Bool cameraIntrinsicMatrixDeliveryEnabled;
-@property(readonly, nonatomic, getter=isCameraIntrinsicMatrixDeliverySupported) _Bool cameraIntrinsicMatrixDeliverySupported;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) _Bool enablesVideoStabilizationWhenAvailable; // @synthesize enablesVideoStabilizationWhenAvailable=_enablesVideoStabilizationWhenAvailable;
 @property(readonly, nonatomic) NSArray *inputPorts;
-@property(readonly, nonatomic) AVCaptureOutput_Tundra *output;
-@property(nonatomic) long long preferredVideoStabilizationMode;
-@property(readonly, nonatomic, getter=isVideoFieldModeSupported) _Bool supportsVideoFieldMode;
-@property(readonly, nonatomic, getter=isVideoMaxFrameDurationSupported) _Bool supportsVideoMaxFrameDuration;
-@property(readonly, nonatomic, getter=isVideoMinFrameDurationSupported) _Bool supportsVideoMinFrameDuration;
-@property(readonly, nonatomic, getter=isVideoMirroringSupported) _Bool supportsVideoMirroring;
-@property(readonly, nonatomic, getter=isVideoOrientationSupported) _Bool supportsVideoOrientation;
-@property(readonly, nonatomic, getter=isVideoStabilizationSupported) _Bool supportsVideoStabilization;
-@property(nonatomic) long long videoFieldMode;
-@property(nonatomic) CDStruct_1b6d18a9 videoMaxFrameDuration;
-@property(readonly, nonatomic) double videoMaxScaleAndCropFactor;
-@property(nonatomic) CDStruct_1b6d18a9 videoMinFrameDuration;
-@property(nonatomic, getter=isVideoMirrored) _Bool videoMirrored;
-@property(nonatomic) long long videoOrientation;
-@property(readonly, nonatomic) AVCaptureVideoPreviewLayer_Tundra *videoPreviewLayer;
-@property(nonatomic) double videoRotationAngle;
-@property(nonatomic) double videoScaleAndCropFactor;
-@property(readonly, nonatomic, getter=isVideoStabilizationEnabled) _Bool videoStabilizationEnabled; // @synthesize videoStabilizationEnabled=_videoStabilizationEnabled;
 
 @end
 

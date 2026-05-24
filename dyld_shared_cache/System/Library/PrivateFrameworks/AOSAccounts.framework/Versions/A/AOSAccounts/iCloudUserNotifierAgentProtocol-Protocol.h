@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol iCloudUserNotifierAgentProtocol
+- (void)createDestinationInstancesForSourceInstance:(NSString *)arg1 entityMapping:manager:error: /* Error: Ran out of types for this method. */;
+- (void)itPlace",&,D,N;
 @end
 

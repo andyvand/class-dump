@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, NSWindow, SFPasswordAsstView;
+@class NSWindow;
 
 @interface SFPasswordAssistantInspectorController
 {
     NSWindow *_baseWindow;
-    NSWindow *_passwordAssistantPanel;
-    SFPasswordAsstView *_passwordAssistantView;
-    NSTextField *_originalPassword;
-    NSTextField *_newPassword;
-    NSTextField *_verifyPassword;
-    NSTextField *_extOriginalPassword;
-    NSTextField *_extNewPassword;
-    NSTextField *_extVerifyPassword;
 }
 
 - (void);

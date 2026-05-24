@@ -7,16 +7,13 @@
 @interface TSWPTwoPartAction
 {
     CDUnknownBlockType _startAction;
-    CDUnknownBlockType _cancelAction;
-    CDUnknownBlockType _finishAction;
-    _Bool _performImmediately;
 }
 
 + (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void), monoContinuous, monoTimebaseNS, userNS, threadPriority, payload, _ns FROM events WHERE _ns > @lastNS ORDER BY _ns;
+- (_Bool)nuous;
+- (void)@monoContinuous, @monoTimebaseNS, @userNS, @threadPriority, @payload);
+- (id)!;
 - (void);
 - (void);
 - (void);

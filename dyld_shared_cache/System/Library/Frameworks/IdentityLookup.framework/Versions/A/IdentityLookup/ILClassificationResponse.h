@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface ILClassificationResponse
 {
     long long _action;
-    NSString *_userString;
-    NSDictionary *_userInfo;
 }
 
-+ (_Bool);
++ (_Bool)labelsTextColor;
 - (id);
 - (void);
 - (id);
 - (id);
+- (_Bool)oiseInformationMatrix,non-positive correlation time constant specified;
+- (id)s at frequency found,freq,%i,slot0,%i,slot1,%i,elevation1,%lf;
+- (id);
+- (unsigned long long)@;
 - (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
 - (void);
-- (void);
+- (void)<;
 - (long long);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long action; // @synthesize action=_action;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(copy, nonatomic) NSString *userString; // @synthesize userString=_userString;
 
 @end
 

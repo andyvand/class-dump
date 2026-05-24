@@ -7,7 +7,6 @@
 @interface TeaUI.ImageAssetHandle
 {
     id fallbackImage;
-    id uniqueKey;
 }
 
 @end

@@ -5,5 +5,10 @@
 //
 
 @protocol QLSeamlessOpenerDelegate
+
+@optional
+- (struct CGRect);
+- (void)B;
+- (void);
 @end
 

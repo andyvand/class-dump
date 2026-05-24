@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, _ICResultCache;
-@protocol OS_dispatch_queue;
+@class NSArray, _ICResultCache;
 
 @interface _ICPredictionManager
 {
     NSArray *_predictionSources;
-    NSString *_lastUsedSource;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    _ICResultCache *_cache;
 }
 
 - (void);
@@ -20,16 +16,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B6;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_generateDerivativesForChange:(id)arg1 derivativesFilter:(id)arg2 fingerprintScheme:(int)arg3 completionHandler:(id *)arg4;
 - (id);
 - (id);
 - (id);
@@ -37,13 +33,6 @@
 
 // Remaining properties
 @property(readonly) _ICResultCache *cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

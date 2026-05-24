@@ -6,84 +6,9 @@
 
 #import <IOBluetooth/IOBluetoothObject.h>
 
-@class CBClassicPeer, CBPeripheral, IOBluetoothRFCOMMConnection, NSArray, NSDate, NSString, NSUUID;
-
 @interface IOBluetoothDevice : IOBluetoothObject
 {
     id mServerDevice;
-    unsigned int mDeviceConnectNotification;
-    struct BluetoothDeviceAddress mAddress;
-    NSString *mName;
-    NSDate *mLastNameUpdate;
-    unsigned int mClassOfDevice;
-    unsigned char mPageScanRepetitionMode;
-    unsigned char mPageScanPeriodMode;
-    unsigned char mPageScanMode;
-    unsigned short mClockOffset;
-    NSDate *mLastInquiryUpdate;
-    unsigned short mConnectionHandle;
-    unsigned char mLinkType;
-    unsigned char mEncryptionMode;
-    NSArray *mServiceArray;
-    NSDate *mLastServicesUpdate;
-    IOBluetoothRFCOMMConnection *mRFCOMMConnection;
-    id _mReserved;
-    unsigned char _connectionMode;
-    _Bool _lowEnergyDevice;
-    _Bool _isLowEnergyConnection;
-    unsigned char _addressType;
-    _Bool _connecting;
-    _Bool _lowEnergyDeviceHID2;
-    _Bool _lowEnergyKeyboard;
-    _Bool _lowEnergyPointer;
-    _Bool _isFirstPairing;
-    unsigned char _capabilityMask;
-    unsigned char _batteryPercentSingle;
-    unsigned char _batteryPercentLeft;
-    unsigned char _batteryPercentRight;
-    unsigned char _batteryPercentCase;
-    unsigned char _batteryPercentCombined;
-    _Bool _inEarDetect;
-    _Bool _inEar;
-    unsigned char _primaryInEar;
-    unsigned char _secondaryInEar;
-    unsigned char _micMode;
-    unsigned char _buttonMode;
-    unsigned char _leftDoubleTap;
-    unsigned char _rightDoubleTap;
-    unsigned char _primaryBud;
-    _Bool _isDevFused;
-    unsigned char _listeningMode;
-    _Bool _switchControlEnabled;
-    _Bool _heySiriEnabled;
-    unsigned char _singleClickMode;
-    unsigned char _doubleClickMode;
-    unsigned char _leftClickHoldMode;
-    unsigned char _rightClickHoldMode;
-    _Bool _highPriority;
-    _Bool _midPriority;
-    unsigned char _codecType;
-    _Bool _magicCloudPairedPaired;
-    _Bool _isTBFCSuspended;
-    _Bool _isConnnectionLLREnabled;
-    _Bool _isTBFCCapable;
-    _Bool _isTBFCPageCapable;
-    unsigned short _connectionHandle;
-    unsigned short _connectionModeInterval;
-    unsigned short _SCOConnectionHandle;
-    unsigned int _classOfDevice;
-    unsigned int _serviceClassMajor;
-    unsigned int _serviceMask;
-    unsigned int _listeningModeConfigs;
-    NSDate *_lastNameUpdate;
-    NSArray *_services;
-    CBClassicPeer *_peer;
-    CBPeripheral *_peripheral;
-    id _targetDelegate;
-    unsigned long long _deviceID;
-    long long _headsetBatteryPercent;
-    NSString *_accessoryFWVersion;
-    NSUUID *_identifier;
 }
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 @interface UARPTLVMeasuredPayload
 {
     NSString *_payload4cc;
-    NSString *_payloadLongname;
-    long long _hashAlgorithm;
-    NSNumber *_effectiveSecurityMode;
-    NSNumber *_effectiveProductionMode;
-    NSNumber *_isTrusted;
-    NSNumber *_digestListSize;
-    NSData *_payloadDigest;
 }
 
 + (_Bool);
@@ -32,23 +25,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy) NSNumber *digestListSize; // @synthesize digestListSize=_digestListSize;
-@property(copy) NSNumber *effectiveProductionMode; // @synthesize effectiveProductionMode=_effectiveProductionMode;
-@property(copy) NSNumber *effectiveSecurityMode; // @synthesize effectiveSecurityMode=_effectiveSecurityMode;
-@property long long hashAlgorithm; // @synthesize hashAlgorithm=_hashAlgorithm;
-@property(copy) NSNumber *isTrusted; // @synthesize isTrusted=_isTrusted;
 @property(copy) NSString *payload4cc; // @synthesize payload4cc=_payload4cc;
-@property(copy) NSData *payloadDigest; // @synthesize payloadDigest=_payloadDigest;
-@property(copy) NSString *payloadLongname; // @synthesize payloadLongname=_payloadLongname;
 
 @end
 

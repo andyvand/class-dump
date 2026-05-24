@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _NSAlertConstraintLayoutContext
 {
     NSMutableDictionary *_contentAlignmentConstraints;
-    NSArray *_transientConstraints;
-    NSArray *_persistentConstraints;
 }
 
-- (id);
+- (id)__DATA_DIRTY;
 - (id);
 - (void);
 - (void);
@@ -24,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *persistentConstraints; // @synthesize persistentConstraints=_persistentConstraints;
 @property(readonly, copy) NSArray *transientConstraints; // @synthesize transientConstraints=_transientConstraints;
 
 @end

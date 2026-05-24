@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableData;
+@class NSData;
 
 @interface HAPSecuritySessionEncryption
 {
     NSData *_inputKey;
-    NSMutableData *_inputNonce;
-    NSData *_outputKey;
-    NSMutableData *_outputNonce;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)N8cnmatrix8CNMatrixILj10ELj20EdEE;
+- (void)N8cnmatrix8CNMatrixILj88ELj1EPN12cnestimation19MeasurementArgsBaseEEE;
+- (void)N8cnmatrix8CNMatrixILj88ELj1EPN12cnestimation19MeasurementArgsBaseEEE;
+- (id)N8cnmatrix12CNMatrixBaseIPFiRKNS_8CNMatrixILj8ELj1EdEES4_dPvRS2_RNS1_ILj8ELj8EdEES8_EEE;
+- (id)ZN11cnframework12ActiveObjectIN5raven32RavenUserGaitTrackerActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_18ActivityStateEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (id)ntEE_FvSA_SD_EEE;
+- (void)orActiveObjectINS4_14UserSpeedEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (id);
 - (id);
 - (void)@56;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *inputKey; // @synthesize inputKey=_inputKey;
-@property(retain, nonatomic) NSMutableData *inputNonce; // @synthesize inputNonce=_inputNonce;
-@property(retain, nonatomic) NSData *outputKey; // @synthesize outputKey=_outputKey;
-@property(retain, nonatomic) NSMutableData *outputNonce; // @synthesize outputNonce=_outputNonce;
 
 @end
 

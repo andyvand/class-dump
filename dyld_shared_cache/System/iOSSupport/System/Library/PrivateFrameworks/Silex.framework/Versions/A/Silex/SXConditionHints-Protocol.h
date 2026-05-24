@@ -5,33 +5,11 @@
 //
 
 @protocol SXConditionHints
-- (long long)eyOptions:valueOptions: /* Error: Ran out of types for this method. */;
+- (long long);
+- (long long);
+- (long long)mapTableWithKeyOptions:valueOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long app;
-@property(readonly, nonatomic) long long configurationKey;
-@property(readonly, nonatomic) long long experimentVariant;
-@property(readonly, nonatomic) long long following;
-@property(readonly, nonatomic) long long horizontalSizeClass;
-@property(readonly, nonatomic) long long maxColumns;
-@property(readonly, nonatomic) long long maxContentSizeCategory;
-@property(readonly, nonatomic) long long maxSpecVersion;
-@property(readonly, nonatomic) long long maxViewportAspectRatio;
-@property(readonly, nonatomic) long long maxViewportWidth;
-@property(readonly, nonatomic) long long minColumns;
-@property(readonly, nonatomic) long long minContentSizeCategory;
-@property(readonly, nonatomic) long long minSpecVersion;
-@property(readonly, nonatomic) long long minViewportAspectRatio;
 @property(readonly, nonatomic) long long minViewportWidth;
-@property(readonly, nonatomic) long long newsletter;
-@property(readonly, nonatomic) long long offerIdentifier;
-@property(readonly, nonatomic) long long platform;
-@property(readonly, nonatomic) long long preferredColorScheme;
-@property(readonly, nonatomic) long long subscriptionActivationEligibility;
-@property(readonly, nonatomic) long long subscriptionStatus;
-@property(readonly, nonatomic) long long testing;
-@property(readonly, nonatomic) long long upsellScenario;
-@property(readonly, nonatomic) long long verticalSizeClass;
-@property(readonly, nonatomic) long long viewLocation;
 @end
 

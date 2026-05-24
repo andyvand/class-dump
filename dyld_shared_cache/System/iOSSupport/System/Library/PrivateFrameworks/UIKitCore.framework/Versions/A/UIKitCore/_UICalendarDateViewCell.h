@@ -6,43 +6,28 @@
 
 #import <UIKitCore/UICollectionViewCell.h>
 
-@class NSArray, NSString, UICalendarView, UILabel, UIPointerInteraction, UIView, UIVisualEffectView;
+@class UIPointerInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UICalendarDateViewCell : UICollectionViewCell
 {
     UIPointerInteraction *_pointerInteraction;
-    struct {
-        unsigned int overhangMonth:1;
-        unsigned int outOfRange:1;
-        unsigned int isToday:1;
-        unsigned int highlightsToday:1;
-        unsigned int wantsRoundedSquare:1;
-    } _flags;
-    NSString *_fontDesign;
-    NSArray *_decorations;
-    UILabel *_dayLabel;
-    UIView *_decorationContentView;
-    UIVisualEffectView *_backgroundView;
-    UIView *_labelContentView;
-    unsigned long long _selectionRoundedEdge;
-    UICalendarView *_calendarView;
 }
 
 + (id)1_Ð1Â0@ù
 × ;
+- (void)sharedController;
+- (void)initWithSubscriptionValidationToken:(id)arg1 encryptionValidationToken: /* Error: Ran out of types for this method. */;
+- (unsigned long long)handleMessageDeliveredQuietlyReceiptWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)monCore30ClientConnectionRouteProvidingP;
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id)ter;
+- (id)_appliesMinificationFilter;
 - (void);
 - (void)8;
 - (id)3;
@@ -50,15 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)Âa;
 
 // Remaining properties
-@property(nonatomic) __weak UICalendarView *calendarView; // @synthesize calendarView=_calendarView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long selectionRoundedEdge; // @synthesize selectionRoundedEdge=_selectionRoundedEdge;
-@property(readonly) Class superclass;
 
 @end
 

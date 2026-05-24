@@ -7,14 +7,13 @@
 @interface IMServiceReachabilityController
 {
     id delegate;
-    id taskIDToTask;
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)decryptMessageWithMKI:(id)arg1 message='%@' is too long (%d > %d);
+- (id)ge='%@', sequenceNumber='%d';
+- (void)%s] %s:(id)arg1 %d Negotiated p2pEncryptionExperimentEnabled=%d;
+- (void):(id)arg1 1 screen not supported;
 - (id);
 - (id);
 - (void);

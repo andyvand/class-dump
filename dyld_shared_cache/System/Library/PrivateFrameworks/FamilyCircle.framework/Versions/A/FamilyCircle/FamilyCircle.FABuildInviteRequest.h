@@ -7,7 +7,6 @@
 @interface FamilyCircle.FABuildInviteRequest
 {
     id familyCircleRequest;
-    id inviteRecipients;
 }
 
 @end

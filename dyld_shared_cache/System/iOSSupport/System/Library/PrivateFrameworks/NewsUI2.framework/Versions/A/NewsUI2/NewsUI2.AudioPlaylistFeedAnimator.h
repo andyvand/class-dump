@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedAnimator
 {
     id blueprintProvider;
-    id viewProvider;
 }
 
 @end

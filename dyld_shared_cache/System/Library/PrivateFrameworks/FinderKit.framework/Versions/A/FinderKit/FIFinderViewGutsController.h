@@ -6,76 +6,25 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FIBrowserOverlayStackViewController, FIContainerController, FIFinderView, FI_NewFolderController, FI_TBrowserContentViewController, FI_TUpdateLayerView, NSArray, NSStackView, NSString, NSURL;
+@class FIBrowserOverlayStackViewController;
 
 __attribute__((visibility("hidden")))
 @interface FIFinderViewGutsController : FI_TViewController
 {
     FIBrowserOverlayStackViewController *_overlayStackViewController;
-    struct TKeyValueBinder _viewStyleBinder;
-    FI_TBrowserContentViewController *_contentViewController;
-    FIContainerController *_activeContainer;
-    struct TKeyValueBinder _activeContainerBinder;
-    FI_TUpdateLayerView *_popoverView;
-    TNSWeakPtr_db0eab6c _pendingWindowOrderedOutToken;
-    FIFinderView *_finderView;
-    FI_NewFolderController *_newFolderController;
-    struct list<NSURL *, std::allocator<NSURL *>> _pendingTargetURLQueue;
-    NSURL *_lastTargetedURL;
-    struct TFENode _pendingTargetNode;
-    NSArray *_cachedSelectedURLs;
-    struct TFENodeVector _targetPath;
-    struct TFENodeVector _pendingSelectionToOpen;
-    unsigned long long _mediaBrowserShownTypes;
-    _Bool _pendingSelectFirstKeyView;
-    _Bool _expanded;
-    _Bool _isPopulationInProgress;
-    int _pendingViewStyle;
-    _Bool _treatsFilePackagesAsDirectories;
-    _Bool _resolvesAliases;
-    _Bool _canClickDisabledFiles;
-    _Bool _allowsExpandingMultipleDirectories;
-    _Bool _updatingTargetPath;
-    _Bool _allowsMultipleSelection;
-    _Bool _alreadySetIsSavePanel;
-    _Bool _isSavePanel;
-    _Bool _showsNewDocumentButton;
-    _Bool _binding;
-    _Bool _inDelegateCallback;
-    _Bool _offersHideExtension;
-    _Bool _hideExtension;
-    TNSWeakPtr_db0eab6c _handleInitialTargetingToken;
-    TNSWeakPtr_db0eab6c _historyBeginsNowToken;
-    struct mutex _enableStatesCacheLock;
-    long long _enableStatesGenerationCount;
-    struct unordered_map<TFENode, std::optional<bool>, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, std::optional<bool>>>> _enableStatesCache;
-    struct TNotificationCenterObserver _nodeDidResolveObserver;
-    struct TNotificationCenterObserver _windowWillStartLiveResizeObserver;
-    struct TNotificationCenterObserver _windowDidEndLiveResizeObserver;
-    struct TNotificationCenterObserver _windowDidLiveResizeObserver;
-    struct TNotificationCenterObserver _ubiquityIdentityChangedObserver;
-    struct TNotificationCenterObserver _urlResolutionCompletedObserver;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _prefObservers;
-    struct TKeyValueBinder _isPopulationInProgressBinder;
-    struct TKeyValueBinder _arrangeByMenuBinder;
-    _Bool _animatingExpandOrCollapse;
-    _Bool _showing;
-    _Bool _forcedReloadIsPending;
-    _Bool _allowNonemptyTarget;
-    int _previousViewStyle;
 }
 
 + (void);
-+ (void);
++ (void)q@;
 + (_Bool);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)?;
 + (struct TFENode);
-+ (void);
++ (void)(;
 + (id);
 - (void);
 - (_Bool);
@@ -105,7 +54,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -117,12 +66,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct TFENode);
 - (_Bool);
-- (int);
+- (int)q@;
 - (void);
 - (void);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (void);
 - (void);
@@ -131,7 +80,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (_Bool);
 - (void);
@@ -142,23 +91,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
+- (_Bool)(;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -176,7 +125,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (optional_34114161);
+- (optional_a953c506);
 - (void);
 - (void);
 - (Class);
@@ -185,12 +134,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)qA;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (struct TFENode);
@@ -203,12 +152,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
@@ -219,7 +168,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)insertSublayer:atIndex: /* Error: Ran out of types for this method. */;
 - (const void *);
 - (void);
 - (long long);
@@ -227,23 +176,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setCurrentLocalSearchFeedback: /* Error: Ran out of types for this method. */;
+- (_Bool)e:(id)arg1 flagChange:copyMessages:origin:actor: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithIdentifier:date:mailRankingSignals: /* Error: Ran out of types for this method. */;
+- (_Bool)ef_midnightInNdays:(id)arg1;
+- (_Bool)_currentFeedback;
+- (void)lic}@, isGeneratedSummary:(_Bool)arg1 %{BOOL}d, duration:%f /* Error: Ran out of types for this method. */;
+- (void)il.categories.onboarding.transactions;
+- (void)tegorizeSender.transactions;
+- (void)ail.ActionsViewController.Recategroization;
+- (void)ist.cell.view.replyButton;
+- (void)Mail.mailboxList;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (void);
@@ -259,15 +208,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool):8@"WKWebView"16@"NSMenu"24@"_WKContextMenuElementInfo"32@"<NSSecureCoding>"40@?<v@?@"NSMenu">48 /* Error: Ran out of types for this method. */;
+- (_Bool)setForegroundColor: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)cacheDisplayInRect:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
+- (void);
+- (id);
+- (_Bool)4;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -290,40 +239,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id)110__function6__funcIZ32-[FI_TBrowserTableView keyDown:(id)arg1 ]E4$_16FvRKbEEE;
-- (_Bool)tionController;
+- (_Bool)22ISFOperationController;
 - (id)-Ú;
 
 // Remaining properties
-@property(retain, nonatomic) FIContainerController *activeContainer; // @synthesize activeContainer=_activeContainer;
-@property(nonatomic) _Bool allowNonemptyTarget; // @synthesize allowNonemptyTarget=_allowNonemptyTarget;
-@property(nonatomic) _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property(nonatomic) _Bool animatingExpandOrCollapse; // @synthesize animatingExpandOrCollapse=_animatingExpandOrCollapse;
-@property(nonatomic) _Bool binding; // @synthesize binding=_binding;
-@property(readonly, retain, nonatomic) NSStackView *bottomBrowserOverlayStackView;
-@property(readonly, nonatomic) _Bool canCreateNewFolder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool downloadsUbiquitousContents;
-@property(readonly, nonatomic) _Bool expanded; // @synthesize expanded=_expanded;
-@property(readonly, nonatomic) __weak FIFinderView *finderView; // @synthesize finderView=_finderView;
-@property(readonly, nonatomic) _Bool forcedReloadIsPending; // @synthesize forcedReloadIsPending=_forcedReloadIsPending;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPopulationInProgress; // @synthesize isPopulationInProgress=_isPopulationInProgress;
-@property(nonatomic) _Bool isSavePanel; // @synthesize isSavePanel=_isSavePanel;
-@property(nonatomic) int pendingViewStyle; // @synthesize pendingViewStyle=_pendingViewStyle;
-@property(nonatomic) int previousViewStyle; // @synthesize previousViewStyle=_previousViewStyle;
-@property(readonly, nonatomic) NSArray *selectedRawURLs;
-@property(copy, nonatomic) NSArray *selectedURLs;
-@property(readonly, nonatomic) _Bool showing; // @synthesize showing=_showing;
-@property(nonatomic) _Bool showsNewDocumentButton;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct TFENode targetNode;
 @property const void *targetPath;
-@property(readonly, retain, nonatomic) NSStackView *topBrowserOverlayStackView;
-@property(readonly, nonatomic) int viewStyle;
 
 @end
 

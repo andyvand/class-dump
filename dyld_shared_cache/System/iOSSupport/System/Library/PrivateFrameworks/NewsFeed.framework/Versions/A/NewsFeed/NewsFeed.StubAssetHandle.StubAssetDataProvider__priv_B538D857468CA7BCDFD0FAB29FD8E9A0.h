@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface NewsFeed.StubAssetHandle.StubAssetDataProvider__priv_B538D857468CA7BCDFD0FAB29FD8E9A0
 {
     void data;
-    void filePath;
-    _Bool isRawFileConsumable;
 }
 
 - (id);
@@ -19,8 +17,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *data;
-@property(nonatomic, readonly) NSString *filePath;
-@property(nonatomic, readonly) _Bool isRawFileConsumable; // @synthesize isRawFileConsumable;
 
 @end
 

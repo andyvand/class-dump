@@ -5,5 +5,7 @@
 //
 
 @protocol CHHapticServerInterface
+- (void);
+- (void);
 @end
 

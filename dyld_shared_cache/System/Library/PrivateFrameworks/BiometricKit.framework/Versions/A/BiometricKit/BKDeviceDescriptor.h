@@ -11,8 +11,8 @@
 
 + (id);
 + (void);
-- (long long);
-- (void);
+- (long long)scaleDrawingWithWidth:height:desiredDistanceBetweenDigitCenters: /* Error: Ran out of types for this method. */;
+- (void)#;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

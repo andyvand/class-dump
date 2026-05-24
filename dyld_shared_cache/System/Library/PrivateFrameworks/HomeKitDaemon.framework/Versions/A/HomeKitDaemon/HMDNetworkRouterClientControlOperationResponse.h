@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterClientConfiguration, HMDNetworkRouterControlOperationStatus, NSString;
+@class HMDNetworkRouterControlOperationStatus;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientControlOperationResponse
 {
     HMDNetworkRouterControlOperationStatus *_status;
-    HMDNetworkRouterClientConfiguration *_configuration;
 }
 
-+ (id);
++ (id)momentIsLongTimeNoSeeForPeopleWithMomentNode:(id)arg1;
+- (id)state;
 - (id);
-- (id);
-- (id);
+- (id)tR;
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)nManagerData;
-- (id)rDeviceIdentifier: /* Error: Ran out of types for this method. */;
+- (id)isAllowedToSharePhotosPersonManagerData;
+- (id)_meshStorageForDeviceIdentifier: /* Error: Ran out of types for this method. */;
 - (void)@ (%d);
 
 // Remaining properties
-@property(retain, nonatomic) HMDNetworkRouterClientConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMDNetworkRouterControlOperationStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

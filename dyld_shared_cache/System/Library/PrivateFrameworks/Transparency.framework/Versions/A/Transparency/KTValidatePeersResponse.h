@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface KTValidatePeersResponse
 {
     NSString *_application;
-    NSDictionary *_results;
-    NSString *_traceUUID;
 }
 
 + (_Bool);
@@ -18,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ection",&,V_serviceConnection;
 - (id);
 - (void);
 - (void);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain) NSString *application; // @synthesize application=_application;
-@property(retain) NSDictionary *results; // @synthesize results=_results;
-@property(retain) NSString *traceUUID; // @synthesize traceUUID=_traceUUID;
 
 @end
 

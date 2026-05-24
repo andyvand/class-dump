@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) unsigned long long occurrenceCount;
 @end
 

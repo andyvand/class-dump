@@ -5,5 +5,8 @@
 //
 
 @protocol XCTMessagingChannel_RunnerToUIProcess
+
+@optional
+- (void);
 @end
 

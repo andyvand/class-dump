@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CTLazuliChatBotMenuL2
 {
     NSString *_displayText;
-    NSArray *_list;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)serverAddress;
+- (id)am;
 - (_Bool);
+- (id)B;
+- (id)[;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (id);
 - (void);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(retain, nonatomic) NSArray *list; // @synthesize list=_list;
 
 @end
 

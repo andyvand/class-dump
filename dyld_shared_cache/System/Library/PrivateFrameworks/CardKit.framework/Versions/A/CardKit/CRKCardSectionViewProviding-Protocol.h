@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol CRCard;
 
 @protocol CRKCardSectionViewProviding
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRCard> card;
-@property(readonly, nonatomic) NSArray *viewConfigurations;
 @end
 

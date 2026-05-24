@@ -6,36 +6,15 @@
 
 #import <UIKitCore/UITrackingLayoutGuide.h>
 
-@class NSArray, NSLayoutConstraint, NSString, _UIAssertionController, _UIKBLightEffectsBackground;
-
 @interface UIKeyboardLayoutGuide : UITrackingLayoutGuide
 {
     _Bool _docked;
-    _Bool _windowGuide;
-    _Bool _transitioning;
-    _Bool _addsHeightWhenUndocked;
-    _Bool _followsUndockedKeyboard;
-    _Bool _usesBottomSafeArea;
-    _Bool _ignoresSafeArea;
-    _Bool _ignoreKeyboardChanges;
-    _UIAssertionController *_assertionController;
-    double _keyboardDismissPadding;
-    NSLayoutConstraint *_viewBottomConstraint;
-    long long _followTypes;
-    _UIKBLightEffectsBackground *_lightEffectsBackdrop;
-    NSArray *_backdropConstraints;
-    NSLayoutConstraint *_assistantHeightConstraint;
-    long long _currentKeyboardVisualState;
-    struct UIOffset _previousOffset;
-    struct CGSize _previousSize;
-    struct UIOffset _interactionResetOffset;
-    struct CGSize _interactionResetSize;
 }
 
 - (long long);
 - (struct UIOffset);
 - (_Bool);
-- (void);
+- (void)oo large for cipher;
 - (void);
 - (void);
 - (_Bool);
@@ -46,20 +25,20 @@
 - (_Bool);
 - (struct CGSize);
 - (void);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGSize);
+- (unsigned long long)designatedGroupLeaderName;
+- (void)sEntry;
+- (void)MPMoviePlayerFullscreenAnimationDurationUserInfoKey;
+- (_Bool)MPModelPropertyAlbumIsClassical;
+- (struct CGSize)MPMediaItemsQuery;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (void);
@@ -76,25 +55,25 @@
 × ;
 - (void)n";
 - (long long)peSelectInteractionDelegate>";
-- (_Bool);
-- (void):(long long)arg1;
-- (_Bool)ardTV;
+- (_Bool)willPresentAlertView: /* Error: Ran out of types for this method. */;
+- (void)transitionWithContentTransition:(long long)arg1;
+- (_Bool)slimLinearKeyboardTV;
 - (void)setFrame:(long long)arg1;
-- (void)FeedbackLabel:(double)arg1;
-- (void)ionControllerClassName;
-- (_Bool)sForShortcutConversion;
-- (void)nIdentifier:(id)arg1;
-- (void)ActionForTouchUp:(id)arg1 withActions:timestamp:interval:didLongPress:prevActions:executionContext: /* Error: Ran out of types for this method. */;
-- (_Bool)actAppearance;
-- (_Bool)den;
-- (double)SeparatorForCustomHeaderView;
-- (void)AppearingFocusEnvironmentRequest;
-- (_Bool)ngWhitespace:(id)arg1;
-- (_Bool)tionUsingState:(struct UIOffset)arg1;
-- (void)esEndedOrCancelled:(id)arg1 withEvent: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ewWithImage: /* Error: Ran out of types for this method. */;
-- (void)t: /* Error: Ran out of types for this method. */;
-- (void)hange:(long long)arg1 fence: /* Error: Ran out of types for this method. */;
+- (void)setFeedbackLabel:(double)arg1;
+- (void)navigationControllerClassName;
+- (_Bool)isForShortcutConversion;
+- (void)initRemoveOperationWithLexiconIdentifier:(id)arg1;
+- (void)completeSendStringActionForTouchUp:(id)arg1 withActions:timestamp:interval:didLongPress:prevActions:executionContext: /* Error: Ran out of types for this method. */;
+- (_Bool)compactAppearance;
+- (_Bool)accessibilityElementsHidden;
+- (double)_wantsSeparatorForCustomHeaderView;
+- (void)_validatedAppearingFocusEnvironmentRequest;
+- (_Bool)_updateFrameOfTrailingWhitespace:(id)arg1;
+- (_Bool)_updateContentUnavailableConfigurationUsingState:(struct UIOffset)arg1;
+- (void)_shouldAllowKeyboardHandlingForTouchesEndedOrCancelled:(id)arg1 withEvent: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_setToolbarBackgroundViewWithImage: /* Error: Ran out of types for this method. */;
+- (void)_hitTestForSystemEditControlAtPoint: /* Error: Ran out of types for this method. */;
+- (void)__viewServiceInstrinsicContentSizeDidChange:(long long)arg1 fence: /* Error: Ran out of types for this method. */;
 - (void)N;
 - (void)surface;
 - (void)T|ìÀ;
@@ -115,33 +94,7 @@
 - (void)h/f;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIAssertionController *_assertionController; // @synthesize _assertionController;
-@property(nonatomic) _Bool addsHeightWhenUndocked; // @synthesize addsHeightWhenUndocked=_addsHeightWhenUndocked;
-@property(retain, nonatomic) NSLayoutConstraint *assistantHeightConstraint; // @synthesize assistantHeightConstraint=_assistantHeightConstraint;
-@property(retain, nonatomic) NSArray *backdropConstraints; // @synthesize backdropConstraints=_backdropConstraints;
-@property(nonatomic) long long currentKeyboardVisualState; // @synthesize currentKeyboardVisualState=_currentKeyboardVisualState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDocked) _Bool docked; // @synthesize docked=_docked;
-@property(nonatomic) long long followTypes; // @synthesize followTypes=_followTypes;
-@property(nonatomic) _Bool followsUndockedKeyboard; // @synthesize followsUndockedKeyboard=_followsUndockedKeyboard;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreKeyboardChanges; // @synthesize ignoreKeyboardChanges=_ignoreKeyboardChanges;
-@property(nonatomic) _Bool ignoresSafeArea; // @synthesize ignoresSafeArea=_ignoresSafeArea;
-@property(nonatomic) struct UIOffset interactionResetOffset; // @synthesize interactionResetOffset=_interactionResetOffset;
-@property(nonatomic) struct CGSize interactionResetSize; // @synthesize interactionResetSize=_interactionResetSize;
-@property(nonatomic) double keyboardDismissPadding; // @synthesize keyboardDismissPadding=_keyboardDismissPadding;
-@property(retain, nonatomic) _UIKBLightEffectsBackground *lightEffectsBackdrop; // @synthesize lightEffectsBackdrop=_lightEffectsBackdrop;
 @property(nonatomic) struct UIOffset previousOffset; // @synthesize previousOffset=_previousOffset;
-@property(nonatomic) struct CGSize previousSize; // @synthesize previousSize=_previousSize;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isTransitioning) _Bool transitioning; // @synthesize transitioning=_transitioning;
-@property(nonatomic) _Bool usesBottomSafeArea; // @synthesize usesBottomSafeArea=_usesBottomSafeArea;
-@property(retain, nonatomic) NSLayoutConstraint *viewBottomConstraint; // @synthesize viewBottomConstraint=_viewBottomConstraint;
-@property(nonatomic, getter=isWindowGuide) _Bool windowGuide; // @synthesize windowGuide=_windowGuide;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBSProcessIdentity;
+@class NSString;
 
 @interface FBSSceneClientIdentity
 {
     NSString *_description;
-    _Bool _local;
-    _Bool _direct;
-    RBSProcessIdentity *_processIdentity;
 }
 
 + (id);
@@ -19,8 +16,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id)D?;
++ (_Bool)SUBTITLE_TRACK_DISPLAY_FORMAT;
 - (id);
 - (id);
 - (id);
@@ -32,20 +29,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)initWithValue:label:identifier: /* Error: Ran out of types for this method. */;
+- (id)@40o^@48;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isLocal) _Bool local; // @synthesize local=_local;
-@property(readonly, copy, nonatomic) RBSProcessIdentity *processIdentity; // @synthesize processIdentity=_processIdentity;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool targetsClientEndpoint; // @synthesize targetsClientEndpoint=_direct;
 
 @end

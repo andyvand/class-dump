@@ -4,62 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDebugTDViewHierarchyOutlineTreeNode, NSDictionary, NSNumber, NSString, NSView;
+@class NSString, NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDViewHierarchyItem
 {
     NSString *_title;
-    struct _NSRange _selectedRange;
-    NSDictionary *_layoutFragmentStorageInfo;
-    NSDebugTDViewHierarchyOutlineTreeNode *_inspectorRootNode;
-    _Bool _isTextItem;
-    NSView *_nsViewObject;
-    Class _kindOfClass;
 }
 
-+ (id);
++ (id)ataTask in a session that has been invalidated;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (Class);
-- (_Bool);
+- (id)@"NSURLSession"16@"NSURLSessionTask"24q32@?<v@?@"NSInputStream">40;
+- (Class)totalUnitCount;
+- (_Bool)set_connectionCacheCellPurgeTimeout: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id)%.1f
 	rpcs/sec:%.1f /* Error: Ran out of types for this method. */;
-- (struct _NSRange)oolbar;
+- (struct _NSRange)kCUIWidgetTickMarkModernToolbar;
 - (void)teÿbí;
 - (id);
 - (id)I;
 - (_Bool)Ö8I;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *addressAsNumber;
-@property(readonly, copy, nonatomic) NSString *addressAsString;
-@property(readonly, copy, nonatomic) NSString *className;
-@property(readonly, nonatomic) _Bool isFirstResponder;
-@property(nonatomic) _Bool isTextItem; // @synthesize isTextItem=_isTextItem;
-@property(retain, nonatomic) Class kindOfClass; // @synthesize kindOfClass=_kindOfClass;
-@property(readonly, nonatomic) NSDictionary *layoutFragmentStorageInfo;
 @property(nonatomic) __weak NSView *nsViewObject; // @synthesize nsViewObject=_nsViewObject;
-@property(readonly, copy, nonatomic) NSAttributedString *presentableTextStorageContents;
-@property(readonly, nonatomic) struct _NSRange selectedRange;
-@property(readonly, copy, nonatomic) NSString *shortenedTextContents;
-@property(readonly, copy, nonatomic) NSAttributedString *textContents;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) _Bool usesTextKit1;
-@property(readonly, nonatomic) _Bool usesTextKit2;
-@property(readonly, copy, nonatomic) NSString *windowTitle;
 
 @end
 

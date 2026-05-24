@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFenceHandle, NSString;
+@class CAFenceHandle;
 
 @interface BKSAnimationFenceHandle
 {
@@ -18,31 +18,23 @@
 - (unsigned int);
 - (void);
 - (void);
+- (id)remoteObjectProxy;
 - (id);
-- (id);
-- (id);
+- (id)inality%d (yMap INTEGER, xCardinality REAL, pKey INTEGER PRIMARY KEY);;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)B;
+- (id)u;
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)8;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long fenceName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isUsable) _Bool usable;
 
 @end
 

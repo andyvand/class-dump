@@ -7,17 +7,12 @@
 @interface ConversationKit.ConversationControlsJoinCallCountdownView
 {
     id ringLayer;
-    id countdownLayer;
-    id percentageAnimation;
-    id ringWidth;
-    id fillColor;
-    id strokeColor;
 }
 
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect),R,C,N,V_buttons;
 - (id);
 - (void);
 - (void);

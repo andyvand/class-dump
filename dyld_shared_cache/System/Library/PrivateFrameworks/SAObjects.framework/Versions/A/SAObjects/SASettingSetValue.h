@@ -16,13 +16,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ng error (%d) to client app connection
+;
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool dryRun;
-@property(nonatomic) _Bool failOnSiriDisconnectWarnings;
 
 @end
 

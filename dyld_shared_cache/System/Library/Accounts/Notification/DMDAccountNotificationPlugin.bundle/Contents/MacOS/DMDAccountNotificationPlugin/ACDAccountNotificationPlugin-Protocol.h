@@ -5,5 +5,11 @@
 //
 
 @protocol ACDAccountNotificationPlugin
+
+@optional
+- (void);
+- (_Bool)m;
+- (_Bool);
+- (void)createAssetSizeCannotBeVerifiedError;
 @end
 

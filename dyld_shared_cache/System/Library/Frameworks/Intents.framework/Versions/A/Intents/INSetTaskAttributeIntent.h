@@ -6,13 +6,13 @@
 
 #import <Intents/INIntent.h>
 
-@class INContactEventTrigger, INSpatialEventTrigger, INSpeakableString, INTask, INTemporalEventTrigger, NSString;
+@class INTask;
 
 @interface INSetTaskAttributeIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (id);
 - (id);
 - (id);
@@ -30,7 +30,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)6;
 - (id);
 - (long long);
 - (void);
@@ -44,20 +44,7 @@
 - (long long)H(;
 
 // Remaining properties
-@property(copy) INContactEventTrigger *contactEventTrigger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long priority;
-@property(readonly, copy) INSpatialEventTrigger *spatialEventTrigger;
-@property(readonly) long long status;
-@property(readonly) Class superclass;
 @property(readonly, copy) INTask *targetTask;
-@property(readonly, copy) INSpeakableString *taskTitle;
-@property(readonly, copy) INTemporalEventTrigger *temporalEventTrigger;
 
 @end
 

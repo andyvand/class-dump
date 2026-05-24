@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXETrackingTapGestureRecognizer, NSArray, NSMutableDictionary, NSString;
-@protocol AXETimer, AXETrackingHoldGestureRecognizerDelegate;
+@class NSArray;
 
 @interface AXETrackingHoldGestureRecognizer
 {
     _Bool _allowInstabilityBeforeHold;
-    unsigned long long _fingerCount;
-    unsigned long long _preHoldTapCount;
-    double _maximumHoldDeviation;
-    double _minimumHoldDuration;
-    double _minimumPreStabilizationDuration;
-    id <AXETrackingHoldGestureRecognizerDelegate> _delegate;
-    NSArray *__touchingTouches;
-    NSMutableDictionary *__touchHistories;
-    unsigned long long __currentState;
-    id <AXETimer> __preStabilizationTimer;
-    id <AXETimer> __holdStartTimeoutTimer;
-    id <AXETimer> __holdTimer;
-    AXETrackingTapGestureRecognizer *__preHoldTapRecognizer;
 }
 
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -34,28 +21,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (double);
+- (double)X;
+- (double);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)?%@qA;
 - (id);
 - (void);
+- (void);
+- (id)@9;
+- (id);
+- (void)(@9;
 - (void);
 - (unsigned long long);
 - (double);
@@ -63,34 +49,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)	;
+- (id)_;
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long _currentState; // @synthesize _currentState=__currentState;
-@property(retain, nonatomic) id <AXETimer> _holdStartTimeoutTimer; // @synthesize _holdStartTimeoutTimer=__holdStartTimeoutTimer;
-@property(retain, nonatomic) id <AXETimer> _holdTimer; // @synthesize _holdTimer=__holdTimer;
-@property(retain, nonatomic) AXETrackingTapGestureRecognizer *_preHoldTapRecognizer; // @synthesize _preHoldTapRecognizer=__preHoldTapRecognizer;
-@property(retain, nonatomic) id <AXETimer> _preStabilizationTimer; // @synthesize _preStabilizationTimer=__preStabilizationTimer;
-@property(retain, nonatomic) NSMutableDictionary *_touchHistories; // @synthesize _touchHistories=__touchHistories;
 @property(retain, nonatomic) NSArray *_touchingTouches; // @synthesize _touchingTouches=__touchingTouches;
-@property(readonly, nonatomic) _Bool allowInstabilityBeforeHold; // @synthesize allowInstabilityBeforeHold=_allowInstabilityBeforeHold;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXETrackingHoldGestureRecognizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long fingerCount; // @synthesize fingerCount=_fingerCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maximumHoldDeviation; // @synthesize maximumHoldDeviation=_maximumHoldDeviation;
-@property(readonly, nonatomic) double minimumHoldDuration; // @synthesize minimumHoldDuration=_minimumHoldDuration;
-@property(readonly, nonatomic) double minimumPreStabilizationDuration; // @synthesize minimumPreStabilizationDuration=_minimumPreStabilizationDuration;
-@property(readonly, nonatomic) unsigned long long preHoldTapCount; // @synthesize preHoldTapCount=_preHoldTapCount;
-@property(readonly) Class superclass;
 
 @end
 

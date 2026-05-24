@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface PMPrinterDestination
 {
     NSURL *_URL;
-    NSString *_displayName;
-    NSData *_txtRecord;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (struct _ipp_s *);
-- (id);
-- (id);
-- (void);
-- (void);
+- (struct _ipp_s *);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)'3~H1y;
+- (id)Fy;
 - (void);
 
 // Remaining properties
 @property(copy) NSURL *URL; // @synthesize URL=_URL;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy) NSData *txtRecord; // @synthesize txtRecord=_txtRecord;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol MTLAccelerationStructureCommandEncoderSPI
+
+@optional
+- (void)!;
 @end
 

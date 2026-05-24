@@ -7,6 +7,8 @@
 @class UITraitCollection;
 
 @protocol UISheetPresentationControllerDetentResolutionContext
+- (double);
+- (UITraitCollection *);
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *containerTraitCollection;

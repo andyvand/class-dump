@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, NSThread;
+@class ML3DatabaseConnection;
 
 @interface _ML3DatabaseConnectionWrapper
 {
     ML3DatabaseConnection *_connection;
-    NSThread *_owningThread;
-    NSThread *_borrowingThread;
-    unsigned long long _useCount;
 }
 
 - (id);
@@ -19,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)with message name:(id)arg1 %@, options:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)ing;
@@ -28,10 +25,7 @@
 - (unsigned long long)<(õÿ?÷;
 
 // Remaining properties
-@property(retain, nonatomic) NSThread *borrowingThread; // @synthesize borrowingThread=_borrowingThread;
 @property(retain, nonatomic) ML3DatabaseConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSThread *owningThread; // @synthesize owningThread=_owningThread;
-@property(nonatomic) unsigned long long useCount; // @synthesize useCount=_useCount;
 
 @end
 

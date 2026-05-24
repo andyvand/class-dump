@@ -6,27 +6,15 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSString;
+@class NSString;
 
 @interface IMAutomaticTranslationIndicatorChatItem : IMTranscriptChatItem
 {
     _Bool _isShowingTranslationText;
-    NSString *_translationLanguageCode;
-    NSString *_userTranslationLanguageCode;
-    NSString *_incomingLanguageCode;
-    IMHandle *_senderHandle;
-    long long _translationLanguageStatus;
-    long long _userTranslationLanguageStatus;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *incomingLanguageCode; // @synthesize incomingLanguageCode=_incomingLanguageCode;
-@property(readonly, nonatomic) _Bool isShowingTranslationText; // @synthesize isShowingTranslationText=_isShowingTranslationText;
-@property(readonly, nonatomic) IMHandle *senderHandle; // @synthesize senderHandle=_senderHandle;
 @property(readonly, nonatomic) NSString *translationLanguageCode; // @synthesize translationLanguageCode=_translationLanguageCode;
-@property(nonatomic) long long translationLanguageStatus; // @synthesize translationLanguageStatus=_translationLanguageStatus;
-@property(readonly, nonatomic) NSString *userTranslationLanguageCode; // @synthesize userTranslationLanguageCode=_userTranslationLanguageCode;
-@property(nonatomic) long long userTranslationLanguageStatus; // @synthesize userTranslationLanguageStatus=_userTranslationLanguageStatus;
 @end
 

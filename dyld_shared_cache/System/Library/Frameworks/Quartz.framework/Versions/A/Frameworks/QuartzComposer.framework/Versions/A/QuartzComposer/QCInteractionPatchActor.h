@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)l;
 - (unsigned long long);
 - (void);
 - (void);

@@ -16,19 +16,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)43TDwarfReadDW_FORM_Sec_OffsetAttributeActionI5DwarfI7Dwarf329Pointer3212LittleEndianEE;
+- (_Bool)K;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isChild) _Bool child;
-@property(readonly, nonatomic, getter=isClient) _Bool client;
 @property(readonly, copy, nonatomic) NSString *endpointDescription;
-@property(readonly, nonatomic, getter=isNonLaunching) _Bool nonLaunching; // @dynamic nonLaunching;
-@property(readonly, nonatomic, getter=isRoot) _Bool root;
-@property(readonly, nonatomic, getter=isServer) _Bool server;
 
 @end
 

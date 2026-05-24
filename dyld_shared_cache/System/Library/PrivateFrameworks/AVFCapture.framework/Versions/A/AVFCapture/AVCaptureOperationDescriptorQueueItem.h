@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureOperationDescriptorQueueItem
 {
     id <AVCaptureOperationDescriptor> _operationDescriptor;
-    CDStruct_1b6d18a9 _operationTime;
 }
 
-- (CDStruct_1b6d18a9);
-- (id);
-- (id);
-- (void);
+- (CDStruct_1b6d18a9)ion [failed readonly open] result=%d;
+- (id)RI:%{public}@ options:%lu… | opening database [] result=%d /* Error: Ran out of types for this method. */;
+- (id)sertion:(id)arg1 %{public}@ (dealloc);
+- (void)dirtyAccountProperties;
 - (id);
 
 @end

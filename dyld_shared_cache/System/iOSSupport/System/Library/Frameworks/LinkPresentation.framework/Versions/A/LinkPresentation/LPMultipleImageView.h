@@ -6,23 +6,21 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPImageViewStyle, NSArray, NSMutableArray;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface LPMultipleImageView : LPComponentView
 {
     NSArray *_images;
-    LPImageViewStyle *_style;
-    NSMutableArray *_imageViews;
 }
 
 - (struct CGSize);
 - (void);
-- (id);
-- (void);
+- (id)tapbackPickerBalloonParentViewReturningToSuggestionPicker:(id)arg1;
+- (void)tableView:selectionFollowsFocusForRowAtIndexPath: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)startPulseAnimation;
+- (struct CGSize)oreFoundation.dylib;
 - (id);
 - (void)Á÷ð!èGùQÐ1Â0@ù
 × ;

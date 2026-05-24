@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaISOLocale;
-
 @interface SISchemaVoiceSettings : SISchemaInstrumentationMessage
 {
     int _voiceGender;
-    int _voiceAccent;
-    NSString *_voiceName;
-    SISchemaISOLocale *_voiceAccentV2;
-    struct {
-        unsigned int voiceGender:1;
-        unsigned int voiceAccent:1;
-    } _has;
-    _Bool _hasVoiceName;
-    _Bool _hasVoiceAccentV2;
 }
 
 - (int);
@@ -34,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)&;
 - (void);
 - (void);
 - (void);
@@ -45,25 +34,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)isNewsAppPurchase;
 - (_Bool);
-- (_Bool);
+- (_Bool)IMDIndexing_CoreSpotlightRecipientIndexer;
 - (id);
-- (id);
-- (id)putTokensCount;
-- (id)asFollowupQuery;
-- (void)ETACQUISITIONMODEL_UNKNOWN;
+- (id)@;
+- (id)deleteInputTokensCount;
+- (id)_hasFollowupQuery;
+- (void)MILASSETACQUISITIONMODEL_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasVoiceAccent;
-@property(nonatomic) _Bool hasVoiceAccentV2; // @synthesize hasVoiceAccentV2=_hasVoiceAccentV2;
-@property(nonatomic) _Bool hasVoiceGender;
-@property(nonatomic) _Bool hasVoiceName; // @synthesize hasVoiceName=_hasVoiceName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int voiceAccent; // @synthesize voiceAccent=_voiceAccent;
-@property(retain, nonatomic) SISchemaISOLocale *voiceAccentV2; // @synthesize voiceAccentV2=_voiceAccentV2;
 @property(nonatomic) int voiceGender; // @synthesize voiceGender=_voiceGender;
-@property(copy, nonatomic) NSString *voiceName; // @synthesize voiceName=_voiceName;
 
 @end
 

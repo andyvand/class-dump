@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSticker, NSString;
+@class INSticker;
 
 @interface INMessageReaction
 {
     long long _reactionType;
-    NSString *_reactionDescription;
-    NSString *_emoji;
-    INSticker *_sticker;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (long long);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)_sourceDownExtendedEventFieldIndex;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)cachedScanResultsForInterface:(id)arg1;
+- (void)}            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('focusout', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:(id)arg1 true}); }); await p; return p;;
 - (id);
 - (id);
-- (id)eTypes;
-- (void)deFiltersOptionsCollectionForControlHome:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)clearPayloadOutgoingMessageTypes;
+- (void)provideFiltersOptionsCollectionForControlHome:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *emoji; // @synthesize emoji=_emoji;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *reactionDescription; // @synthesize reactionDescription=_reactionDescription;
-@property(readonly) long long reactionType; // @synthesize reactionType=_reactionType;
 @property(readonly, copy) INSticker *sticker; // @synthesize sticker=_sticker;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TSDDrawableInfo, TSKDocumentRoot;
-@protocol TSDCanvasSelection, TSKAnnotation;
+@protocol TSDCanvasSelection;
 
 @interface TSDCanvasSearchReference
 {
     id <TSDCanvasSelection> mCanvasSelection;
-    TSDDrawableInfo *mDrawableInfo;
-    TSKDocumentRoot *mDocumentRoot;
-    _Bool mAutohideHighlight;
-    _Bool mPulseHighlight;
-    NSArray *mFindHighlights;
-    id <TSKAnnotation> mAnnotation;
-    struct CGPoint mSearchReferencePoint;
 }
 
 + (id);
 - (void);
+- (void)m.duration;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (struct CGPoint);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -45,18 +37,7 @@
 - (id)äCT£¬;
 
 // Remaining properties
-@property(retain, nonatomic) id <TSKAnnotation> annotation; // @synthesize annotation=mAnnotation;
-@property(nonatomic) _Bool autohideHighlight; // @synthesize autohideHighlight=mAutohideHighlight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *findHighlights; // @synthesize findHighlights=mFindHighlights;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool pulseHighlight; // @synthesize pulseHighlight=mPulseHighlight;
 @property(nonatomic) struct CGPoint searchReferencePoint; // @synthesize searchReferencePoint=mSearchReferencePoint;
-@property(readonly) Class superclass;
 
 @end
 

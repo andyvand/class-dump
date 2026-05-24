@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     NSString *_notChargingString;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)_updateMessageDictionaryWithNicknameUpdateRecordIDs:(id)arg1;
+- (id)ished processing junk chat command %@;
 - (void)¼¾b;
 - (id)DOÿUIÑdQi;
 

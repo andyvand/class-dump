@@ -6,18 +6,12 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDCounterThresholdTTRTrigger, HMDEventCounterGroup, NSString;
-@protocol HMDUserNotificationCenterSettingsProviding, HMMLogEventSubmitting;
+@protocol HMDUserNotificationCenterSettingsProviding;
 
 __attribute__((visibility("hidden")))
 @interface HMDLogEventBulletinNotificationsAnalyzer : HMDLogEventAnalyzer
 {
     id <HMDUserNotificationCenterSettingsProviding> _notificationSettingsProvider;
-    HMDEventCounterGroup *_aggregationEventGroup;
-    HMDEventCounterGroup *_topicEventGroup;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMDCounterThresholdTTRTrigger *_homeHubReachabilityTTRTrigger;
-    HMDCounterThresholdTTRTrigger *_cameraReachabilityTTRTrigger;
 }
 
 + (id);
@@ -37,19 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDEventCounterGroup *aggregationEventGroup; // @synthesize aggregationEventGroup=_aggregationEventGroup;
-@property(readonly, nonatomic) HMDCounterThresholdTTRTrigger *cameraReachabilityTTRTrigger; // @synthesize cameraReachabilityTTRTrigger=_cameraReachabilityTTRTrigger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDCounterThresholdTTRTrigger *homeHubReachabilityTTRTrigger; // @synthesize homeHubReachabilityTTRTrigger=_homeHubReachabilityTTRTrigger;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
 @property(readonly, nonatomic) id <HMDUserNotificationCenterSettingsProviding> notificationSettingsProvider; // @synthesize notificationSettingsProvider=_notificationSettingsProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) HMDEventCounterGroup *topicEventGroup; // @synthesize topicEventGroup=_topicEventGroup;
 
 @end
 

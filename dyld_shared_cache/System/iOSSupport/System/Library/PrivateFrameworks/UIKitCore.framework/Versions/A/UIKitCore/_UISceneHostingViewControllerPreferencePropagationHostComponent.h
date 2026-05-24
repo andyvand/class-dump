@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
 @protocol _UISceneHostingViewControllerPreferencePropagationHostComponentDelegate;
 
 __attribute__((visibility("hidden")))
@@ -16,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (long long);
-- (int);
+- (int)4;
 - (_Bool);
 - (id);
 - (void);
@@ -29,24 +28,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)¼;
 - (unsigned long long)%@;
-- (void)cationIntelligenceCollector;
+- (void)_UIApplicationIntelligenceCollector;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UISceneHostingViewControllerPreferencePropagationHostComponentDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool homeIndicatorAutoHidden;
-@property(readonly, nonatomic) NSArray *multitaskingDragExclusionRects;
-@property(readonly, nonatomic) long long preferredPointerLockStatus;
-@property(readonly, nonatomic) unsigned long long screenEdgesDeferringSystemGestures;
-@property(readonly, nonatomic) long long statusBarStyle;
-@property(readonly, nonatomic) int statusBarVisibility;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long whitePointAdaptivityStyle;
 
 @end
 

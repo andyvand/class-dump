@@ -7,11 +7,6 @@
 @interface CryptoTokenKit.CertificateData
 {
     id publicKey;
-    id privateKey;
-    id algorithm;
-    id keyType;
-    id keySize;
-    id scBlob;
 }
 
 @end

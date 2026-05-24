@@ -4,45 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedStringCondition, NSArray;
+@class NSArray;
 
 @interface GEOComposedString
 {
     NSArray *_formatStrings;
-    NSArray *_arguments;
-    NSArray *_separators;
-    NSArray *_formatStyles;
-    GEOComposedString *_alternativeString;
-    GEOComposedStringCondition *_alternativeStringCondition;
-    _Bool _isPrivate;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)Circle";
+- (id)getValue:(id)arg1 forExtendendAttribute:url:error: /* Error: Ran out of types for this method. */;
+- (id)ession"8@"NSString"16^B24;
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (id)partureBar:(struct _NSZone *)arg1;
-- (id)BCATEGORY_PICKER;
+- (void);
+- (id)setDepartureBar:(struct _NSZone *)arg1;
+- (id)TRANSIT_SUBCATEGORY_PICKER;
 - (id);
 - (void);
 - (_Bool)èZ_ÿN`;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *arguments;
-@property(readonly, nonatomic) _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
 
 @end
 

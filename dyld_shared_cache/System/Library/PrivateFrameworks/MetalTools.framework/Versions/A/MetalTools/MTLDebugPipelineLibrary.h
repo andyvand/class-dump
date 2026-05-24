@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)KN;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;

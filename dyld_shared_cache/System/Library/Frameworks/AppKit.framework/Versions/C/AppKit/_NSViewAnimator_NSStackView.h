@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)rmed AttributeTypeAndValue format:(id)arg1 %d;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)asks are not supported in background sessions;
 - (void);
 - (void)ÿÿ>;
 - (void)ÿÿ;

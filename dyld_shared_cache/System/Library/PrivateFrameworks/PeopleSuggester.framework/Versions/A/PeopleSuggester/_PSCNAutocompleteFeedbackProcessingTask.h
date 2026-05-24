@@ -8,14 +8,14 @@
 {
 }
 
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
++ (id)_cardSectionId;
++ (void)_appContactFreqForPhoneCallUsingSiri;
++ (void)_allAssets;
++ (id),V_inputTokensCount;
++ (id)V_appFreqForPhoneCall;
++ (id)FreqForPhoneCallInf;
++ (void)f,N,V_wallRealTimeFactor;
++ (void)Tf,N,V_std;
 - (void);
 
 @end

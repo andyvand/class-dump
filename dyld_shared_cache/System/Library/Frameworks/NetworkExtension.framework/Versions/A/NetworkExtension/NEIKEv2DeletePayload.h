@@ -6,20 +6,17 @@
 
 #import <NetworkExtension/NEIKEv2Payload.h>
 
-@class NSArray;
-
 @interface NEIKEv2DeletePayload : NEIKEv2Payload
 {
     unsigned long long _protocol;
-    NSArray *_spis;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)hParameters:errorStr: /* Error: Ran out of types for this method. */;
+- (void)setProtocolWithParameters:errorStr: /* Error: Ran out of types for this method. */;
 - (id)I;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol BSXPCSecureCoding
+- (void);
 @end
 

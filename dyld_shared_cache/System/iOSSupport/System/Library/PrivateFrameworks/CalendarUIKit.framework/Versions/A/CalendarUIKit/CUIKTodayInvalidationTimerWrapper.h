@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void)arator: /* Error: Ran out of types for this method. */;
+- (void)sortUsingComparator: /* Error: Ran out of types for this method. */;
 
 @end
 

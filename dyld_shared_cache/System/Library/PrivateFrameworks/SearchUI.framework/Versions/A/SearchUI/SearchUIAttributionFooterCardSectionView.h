@@ -6,14 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class SFAttributionFooterCardSection, TLKStackView, TLKTextButton;
+@class TLKStackView;
 
 @interface SearchUIAttributionFooterCardSectionView : SearchUICardSectionView
 {
     TLKStackView *_stackView;
-    TLKTextButton *_leadingTextButton;
-    TLKTextButton *_trailingTextButton;
-    SFAttributionFooterCardSection *_cardSection;
 }
 
 + (_Bool);
@@ -31,18 +28,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ickResponsesToRobotsConfig.m;
+- (void)hasTimedOut;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFAttributionFooterCardSection *cardSection; // @synthesize cardSection=_cardSection;
-@property(retain, nonatomic) TLKTextButton *leadingTextButton; // @synthesize leadingTextButton=_leadingTextButton;
 @property(retain, nonatomic) TLKStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain, nonatomic) TLKTextButton *trailingTextButton; // @synthesize trailingTextButton=_trailingTextButton;
 
 @end
 

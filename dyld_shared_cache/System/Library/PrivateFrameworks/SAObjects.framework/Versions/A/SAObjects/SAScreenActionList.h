@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAbstractItemList.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SAScreenActionList : SAAbstractItemList
 {
@@ -18,15 +18,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appId;
-@property(copy, nonatomic) NSString *mainEntitySemanticData;
-@property(copy, nonatomic) NSURL *viewId;
 
 @end
 

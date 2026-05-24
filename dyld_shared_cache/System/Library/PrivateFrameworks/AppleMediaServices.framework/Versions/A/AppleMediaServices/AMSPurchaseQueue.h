@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPurchaseQueueBatchList, AMSPurchaseQueueConfiguration, AMSThreadSafeSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AMSPurchaseQueueBatchList;
 
 @interface AMSPurchaseQueue
 {
     _Bool _suspended;
-    AMSPurchaseQueueConfiguration *_config;
-    AMSPurchaseQueueBatchList *_batches;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    AMSThreadSafeSet *_preAuthenticatedDSIDs;
 }
 
 + (id);
@@ -32,7 +27,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -43,23 +38,12 @@
 - (void);
 - (id)0@ù
 × ;
-- (id)icitVerifyCardInAseStack;
+- (id)ImplicitVerifyCardInAseStack;
 - (void)§qóÕíð:¬|l£C
 º®´ÍX¦õ&ÌÆ}1mNYØÛs÷ÍÛº÷áíµè·ÁC_N8Ø?^Kø3G²m¹ðfóüèÔÙÚN	ørÆ!V¾ÀGkâ*NÛVåR~¹S´úßsÏ3_ áÛmø°¢7¾µí)Á?¤¼Ãøç»aLu®³ºÅ3e°Cße¬Ø±#;²ëäx\[ýå, /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) AMSPurchaseQueueBatchList *batches; // @synthesize batches=_batches;
-@property(retain) AMSPurchaseQueueConfiguration *config; // @synthesize config=_config;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSThreadSafeSet *preAuthenticatedDSIDs; // @synthesize preAuthenticatedDSIDs=_preAuthenticatedDSIDs;
-@property(readonly) Class superclass;
-@property(getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

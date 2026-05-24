@@ -7,11 +7,6 @@
 @interface IMAP2ConnectionControl.DataTransferReportAccumulator
 {
     id queue;
-    id engineID;
-    id logger;
-    id state;
-    id handler;
-    id timer;
 }
 
 @end

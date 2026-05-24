@@ -6,20 +6,18 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray;
-
 @interface SALocalSearchMapViewport : SADomainObject
 {
 }
 
 + (id);
 + (id);
-- (double);
+- (double)W;
 - (double);
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)l;
 - (void);
 - (void);
 - (void);
@@ -33,12 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) double eastLongitude;
-@property(nonatomic) double northLatitude;
-@property(nonatomic) double southLatitude;
-@property(nonatomic) double timeInSecondsSinceViewportChanged;
-@property(nonatomic) double timeInSecondsSinceViewportEnteredForeground;
-@property(copy, nonatomic) NSArray *vertices;
-@property(nonatomic) double westLongitude;
 
 @end
 

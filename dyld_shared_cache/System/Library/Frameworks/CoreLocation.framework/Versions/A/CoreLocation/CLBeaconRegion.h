@@ -6,15 +6,9 @@
 
 #import <CoreLocation/CLRegion.h>
 
-@class NSNumber, NSUUID;
-
 @interface CLBeaconRegion : CLRegion
 {
     _Bool _notifyEntryStateOnDisplay;
-    int _definitionMask;
-    NSUUID *_UUID;
-    NSNumber *_major;
-    NSNumber *_minor;
 }
 
 + (id);

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, PKContact, PKPeerPaymentQuote;
+@class PKPeerPaymentQuote;
 
 @interface PKAuthorizedPeerPaymentQuote
 {
     PKPeerPaymentQuote *_peerPaymentQuote;
-    PKContact *_contact;
-    NSData *_transactionData;
-    NSDictionary *_certificates;
-    unsigned long long _paymentMethodType;
-    unsigned long long _senderAddressType;
-    NSString *_senderAddress;
-    NSString *_encryptedRecipientData;
-    unsigned long long _encryptionScheme;
-    NSString *_publicKeyHash;
-    NSString *_ephemeralPublicKey;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -32,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)(�;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -46,21 +36,11 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id)PAN_MESSAGE;
-- (void)URL;
+- (id)INVALID_PAN_MESSAGE;
+- (void)transferURL;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *certificates; // @synthesize certificates=_certificates;
-@property(retain, nonatomic) PKContact *contact; // @synthesize contact=_contact;
-@property(copy, nonatomic) NSString *encryptedRecipientData; // @synthesize encryptedRecipientData=_encryptedRecipientData;
-@property(nonatomic) unsigned long long encryptionScheme; // @synthesize encryptionScheme=_encryptionScheme;
-@property(copy, nonatomic) NSString *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
-@property(nonatomic) unsigned long long paymentMethodType; // @synthesize paymentMethodType=_paymentMethodType;
 @property(readonly, nonatomic) PKPeerPaymentQuote *peerPaymentQuote; // @synthesize peerPaymentQuote=_peerPaymentQuote;
-@property(copy, nonatomic) NSString *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(nonatomic) unsigned long long senderAddressType; // @synthesize senderAddressType=_senderAddressType;
-@property(readonly, nonatomic) NSData *transactionData; // @synthesize transactionData=_transactionData;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface MNWalkingTurnByTurnLocationTracker : MNTurnByTurnLocationTracker
 {
     int _detectedTransportType;
-    CDStruct_2c43369c _detectedTransportTypeOrigin;
 }
 
 - (void);
@@ -19,7 +18,7 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (int)WithObjects: /* Error: Ran out of types for this method. */;
+- (int)initWithObjects: /* Error: Ran out of types for this method. */;
 
 @end
 

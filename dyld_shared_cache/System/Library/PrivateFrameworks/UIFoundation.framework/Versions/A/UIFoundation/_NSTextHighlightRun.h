@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSTextRange, _NSTextHighlightCluster;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextHighlightRun
 {
     NSMutableArray *_drawnSegmentCGPaths;
-    unsigned long long _runIndex;
-    unsigned long long _lineBoundaryOptions;
-    _Bool _leadingRun;
-    _Bool _trailingRun;
-    _NSTextHighlightCluster *_cluster;
-    NSTextRange *_textRange;
-    NSMutableArray *_segments;
-    double _cornerRadius;
-    double _cornerOutset;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -29,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPath *);
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

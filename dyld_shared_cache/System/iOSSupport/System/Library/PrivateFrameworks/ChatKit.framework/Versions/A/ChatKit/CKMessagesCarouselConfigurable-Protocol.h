@@ -8,9 +8,12 @@
 @protocol CKMessagesCarouselViewDelegate;
 
 @protocol CKMessagesCarouselConfigurable
+- (void)?36;
+- (void)setKeyTimes:(PXSectionedDataSourceManager *)arg1;
+- (void)setDisableFirstResponderChanges:(id <CKMessagesCarouselViewDelegate>)arg1;
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) __weak id <CKMessagesCarouselViewDelegate> carouselDelegate;
 @property(retain, nonatomic) PXSectionedDataSourceManager *dataSourceManager;
 @end
 

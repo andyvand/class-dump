@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSObject;
-@protocol NSPersistentUIStorageClient, OS_dispatch_queue;
+@protocol NSPersistentUIStorageClient;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIWindowSnapshotter
 {
     id <NSPersistentUIStorageClient> _store;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_windowsPendingSnapshotting;
-    _Bool _hasDisabledSuddenTermination;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_windowIDsToSnapshotInfo;
-    NSData *_cryptoKey;
-    NSData *_cryptoUUID;
-    unsigned int _cryptoKeyGeneration;
 }
 
 - (_Bool);
@@ -32,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)setResumableUploadState:(long long)arg1;
+- (void)connection:willCacheResponse:responseCallback: /* Error: Ran out of types for this method. */;
+- (void)tsIdleSleep;
+- (id)@"NSData",C,V_resumableUploadData;
 - (id)ç3ð1Â0@ù
 × ;
 - (void)D@;

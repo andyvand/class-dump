@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlayerPath, NSArray;
+@class MRPlayerPath;
 
 @interface MRPlayerClientParticipantsUpdateMessage : MRProtocolMessage
 {
@@ -18,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *participants;
 @property(readonly, nonatomic) MRPlayerPath *playerPath;
 
 @end

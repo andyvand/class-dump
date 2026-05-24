@@ -9,15 +9,12 @@
 @interface PKPhysicsJointPrismatic : PKPhysicsJoint
 {
     struct b2PrismaticJointDef _jointDef;
-    struct b2PrismaticJoint *_joint;
-    struct CGPoint _anchor;
-    struct CGVector _axis;
 }
 
-+ (id);
++ (id)h;
 + (_Bool);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (double);
 - (_Bool);
@@ -27,15 +24,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)q;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double lowerDistanceLimit;
 @property(nonatomic) _Bool shouldEnableLimits;
-@property(nonatomic) double upperDistanceLimit;
 
 @end
 

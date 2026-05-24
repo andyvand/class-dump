@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol SXProxyConfiguration
+- (_Bool)24B32;
+- (NSString *)_TtC8NewsFeed32SportsLineScoreDataVisualization;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *proxyAutoConfigScript;
 @property(readonly, copy, nonatomic) NSString *proxyHost;
-@property(readonly, nonatomic) _Bool usePrivateRelay;
 @end
 

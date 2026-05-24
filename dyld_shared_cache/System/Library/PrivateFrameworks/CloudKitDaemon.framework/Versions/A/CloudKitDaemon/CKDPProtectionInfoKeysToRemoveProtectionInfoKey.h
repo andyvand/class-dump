@@ -9,10 +9,6 @@
 @interface CKDPProtectionInfoKeysToRemoveProtectionInfoKey
 {
     NSData *_keyId;
-    int _keyType;
-    struct {
-        unsigned int keyType:1;
-    } _has;
 }
 
 - (void);
@@ -20,13 +16,14 @@
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
+- (void)16;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)r}] (%s) Resting = %d anyMessagesPrepared = %d haveDataToSend = %d bufferIdx = %u firstValidIdx = %u firstValidSeq = %d
+;
 - (_Bool);
 - (int);
 - (_Bool);
@@ -37,9 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKeyId;
-@property(nonatomic) _Bool hasKeyType;
-@property(retain, nonatomic) NSData *keyId; // @synthesize keyId=_keyId;
-@property(nonatomic) int keyType; // @synthesize keyType=_keyType;
 
 @end
 

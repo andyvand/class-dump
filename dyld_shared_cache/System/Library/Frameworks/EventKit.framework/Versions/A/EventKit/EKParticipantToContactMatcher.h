@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface EKParticipantToContactMatcher
 {
     NSArray *_contacts;
-    NSSet *_contactEmailAddresses;
-    NSSet *_contactNameComponents;
-    NSSet *_contactCompanyNames;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)StringRef);
++ (id)SetLocalizedDurationString(MRContentItemRef, CFStringRef);
++ (id)eGetNetworkPort(MRExternalDeviceRef);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)@.;
+- (id)eDidChangeNotification with new PlaybackState %@.;
+- (id)er] <%@> processing PlaybackStateDidChangeNotification with new PlaybackState %@.;
+- (_Bool)ler][C] <%p> Deallocated while still holding screen mirroring assertion.;
+- (_Bool)still holding quick controls assertion.;
+- (_Bool)n.;
+- (void)ic}@ for context:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -37,9 +34,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *contactCompanyNames; // @synthesize contactCompanyNames=_contactCompanyNames;
-@property(retain, nonatomic) NSSet *contactEmailAddresses; // @synthesize contactEmailAddresses=_contactEmailAddresses;
-@property(retain, nonatomic) NSSet *contactNameComponents; // @synthesize contactNameComponents=_contactNameComponents;
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
 
 @end

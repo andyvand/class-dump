@@ -7,14 +7,11 @@
 @class NSString;
 
 @protocol _INPBAirline
+- (NSString *)eply:%s
+ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIataCode;
-@property(readonly, nonatomic) _Bool hasIcaoCode;
-@property(readonly, nonatomic) _Bool hasName;
 @property(copy, nonatomic) NSString *iataCode;
-@property(copy, nonatomic) NSString *icaoCode;
-@property(copy, nonatomic) NSString *name;
 @end
 

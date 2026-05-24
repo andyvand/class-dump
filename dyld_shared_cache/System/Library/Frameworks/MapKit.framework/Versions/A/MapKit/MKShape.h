@@ -9,28 +9,18 @@
 @interface MKShape
 {
     NSString *_title;
-    NSString *_subtitle;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (struct CLLocationCoordinate2D);
+- (void)osdAnalyzer;
+- (struct CLLocationCoordinate2D)enableAlwaysOnVoiceTrigger;
 - (id);
 - (void)points;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

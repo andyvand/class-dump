@@ -6,20 +6,19 @@
 
 #import <Contacts/CNContactPosterDataDeleteRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNContactPosterDeleteRequest : CNContactPosterDataDeleteRequest
 {
     NSString *_attributeName;
-    NSArray *_attributesToDeleteBy;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)N;
++ (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
@@ -28,11 +27,10 @@
 - (_Bool);
 - (void);
 - (void)r";
-- (void)ualTo:(id)arg1;
+- (void)isAvatarContacts:(id)arg1 equalTo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attributeName; // @synthesize attributeName=_attributeName;
-@property(readonly, copy, nonatomic) NSArray *attributesToDeleteBy; // @synthesize attributesToDeleteBy=_attributesToDeleteBy;
 
 @end
 

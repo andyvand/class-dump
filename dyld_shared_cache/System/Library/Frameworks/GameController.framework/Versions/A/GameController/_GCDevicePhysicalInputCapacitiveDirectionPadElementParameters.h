@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputCapacitiveDirectionPadElementParameters : _GCDevicePhysicalInputClickableDirectionPadElementParameters
 {
     NSSet *_touchedSources;
-    unsigned long long _eventTouchedValueField;
 }
 
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)setCodeLength:(struct _NSZone *)arg1;
+- (void);
 
 @end
 

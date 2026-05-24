@@ -4,89 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSUUID;
-@protocol AAInheritanceContactInfo;
+@class NSString;
 
 @interface AALocalContactInfo
 {
     _Bool _isChild;
-    _Bool _isAcceptedAndShared;
-    _Bool _isIdMSConfirmed;
-    NSString *_handle;
-    NSString *_fullName;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSNumber *_familyDSID;
-    NSString *_familyMemberType;
-    NSData *_imageData;
-    NSData *_imageDataFull;
-    long long _contactType;
-    NSUUID *_custodianID;
-    long long _trustedContactStatus;
-    long long _preflightStatus;
-    id <AAInheritanceContactInfo> _inheritanceContactInfo;
 }
 
 + (_Bool);
+- (long long)secs;
+- (void)m;
+- (void)onProfiles/.enabled;
+- (void)Level = %d
+;
+- (void)ebug file is not root owned
+;
+- (void)vel unable to collate logs because permissions on debug file is not root owned
+;
+- (_Bool)dsAttrTypeStandard:UniqueID /* Error: Ran out of types for this method. */;
+- (_Bool)cfDictionaryNominallyEqual():cfDictionary1 and cfDictionary2 have bad type /* Error: Ran out of types for this method. */;
+- (id)dInfo write failed;
+- (id)onfigRecordFound;
+- (id)File:(id)arg1 Unable to clean up lock:(id)arg2 %s ==> %d;
+- (id)unt;
+- (id)arddav.account;
+- (id)extWithBootstrapToken:Error %d (0x%08x) adding ACM Credential /* Error: Ran out of types for this method. */;
+- (id)%s:%s:returning.
+ /* Error: Ran out of types for this method. */;
+- (id)contextDestroyed=%s).
+;
+- (id)deUpdateState calling mcxUsr_getpasscodeupdatestate;
+- (id)gth = %d;
+- (_Bool)zer in CPIdentificationPayloads class;
+- (id)a string;
+- (id)SetProxiesConfiguration SCNetworkProtocolSetConfiguration failed;
+- (_Bool)tImportKeychainAccessList SecTrustedApplicationCreateFromRequirement failed for:%s (%d) /* Error: Ran out of types for this method. */;
+- (void)= %d;
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
 - (long long);
-- (long long);
-- (void);
+- (void)builder object in Finish call for E5Operand;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)+;
 - (void);
-- (id);
-- (id);
+- (id)timestamp_c2_start;
+- (id)_isMLBackgroundActivity;
 - (id);
 - (_Bool);
-- (id);
+- (id)@a_;
 - (void)listAllPersonaWithAttributes;
 
 // Remaining properties
-@property(nonatomic) long long contactType; // @synthesize contactType=_contactType;
-@property(copy, nonatomic) NSUUID *custodianID; // @synthesize custodianID=_custodianID;
-@property(readonly, nonatomic) NSNumber *familyDSID; // @synthesize familyDSID=_familyDSID;
-@property(readonly, nonatomic) NSString *familyMemberType; // @synthesize familyMemberType=_familyMemberType;
-@property(readonly, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
 @property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(copy, nonatomic) NSData *imageDataFull; // @synthesize imageDataFull=_imageDataFull;
-@property(retain, nonatomic) id <AAInheritanceContactInfo> inheritanceContactInfo; // @synthesize inheritanceContactInfo=_inheritanceContactInfo;
-@property(nonatomic) _Bool isAcceptedAndShared; // @synthesize isAcceptedAndShared=_isAcceptedAndShared;
-@property(readonly, nonatomic) _Bool isChild; // @synthesize isChild=_isChild;
-@property(nonatomic) _Bool isIdMSConfirmed; // @synthesize isIdMSConfirmed=_isIdMSConfirmed;
-@property(readonly, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(nonatomic) long long preflightStatus; // @synthesize preflightStatus=_preflightStatus;
-@property(nonatomic) long long trustedContactStatus; // @synthesize trustedContactStatus=_trustedContactStatus;
 
 @end
 

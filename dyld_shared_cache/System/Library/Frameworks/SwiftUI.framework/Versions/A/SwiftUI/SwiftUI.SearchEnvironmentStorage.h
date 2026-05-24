@@ -7,9 +7,6 @@
 @interface SwiftUI.SearchEnvironmentStorage
 {
     id _properties;
-    id _boundProperties;
-    id version;
-    id _$observationRegistrar;
 }
 
 @end

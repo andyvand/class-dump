@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface PAVideoConversionServiceClient
 {
     NSXPCConnection *_serviceConnection;
-    NSMutableDictionary *_pendingRequestIdentifierToProgressMap;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    unsigned long long _state;
 }
 
 - (void);
@@ -23,12 +19,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)143580;
+- (void)redWithYou.framework/Contents/MacOS/SharedWithYou;
+- (void);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -36,22 +32,12 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)commute15MinWarningEntityRelevanceLargeGeoHashAndCoarseTimeOfDayFeatures;
 - (id)@
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_dispatch_queue> *isolationQueue; // @synthesize isolationQueue=_isolationQueue;
-@property(retain) NSMutableDictionary *pendingRequestIdentifierToProgressMap; // @synthesize pendingRequestIdentifierToProgressMap=_pendingRequestIdentifierToProgressMap;
 @property(retain) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

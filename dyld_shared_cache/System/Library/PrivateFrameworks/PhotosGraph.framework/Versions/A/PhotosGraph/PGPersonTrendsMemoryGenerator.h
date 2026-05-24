@@ -6,24 +6,20 @@
 
 #import <PhotosGraph/PGTrendsMemoryGenerator.h>
 
-@class PGMemoryMomentRequirements;
-
 @interface PGPersonTrendsMemoryGenerator : PGTrendsMemoryGenerator
 {
     _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    _Bool _intersectRelevantAssetsForFeatures;
-    PGMemoryMomentRequirements *_momentRequirements;
 }
 
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (_Bool)e>";
+- (id)keyboardFocusedApplicationElement;
+- (void)__confirmButton;
+- (id)ial - ACMCredentialDataBiometryMatched;
 - (void)ional Day_TW;
 
 @end

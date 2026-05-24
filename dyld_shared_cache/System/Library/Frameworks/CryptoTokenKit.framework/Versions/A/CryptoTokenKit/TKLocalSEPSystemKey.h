@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface TKLocalSEPSystemKey : TKLocalSEPKey
 {
     unsigned int _AKSSystemKeyType;
-    unsigned int _AKSSystemKeyGeneration;
-    unsigned long long _debugID;
 }
 
-+ (_Bool);
-+ (void);
++ (_Bool);
++ (void)5G;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)cB;
 - (id);
 - (_Bool);
 - (id);

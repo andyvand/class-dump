@@ -4,90 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, SCNCameraController, SCNNode, SCNView, UIGestureRecognizer;
-@protocol SCNCameraNavigationControllerDelegate;
+@class SCNCameraController, UIGestureRecognizer;
 
 @interface SCNCameraNavigationController
 {
     UIGestureRecognizer *_pressGesture;
-    UIGestureRecognizer *_tapGesture;
-    UIGestureRecognizer *_pinchGesture;
-    UIGestureRecognizer *_panGesture;
-    UIGestureRecognizer *_rotateGesture;
-    _Bool _isDraggingWithOneFinger;
-    long long _lastGestureFingerCount;
-    long long _browseMode;
-    float _cameraOriginalFieldOfView;
-    float _fieldOfViewZoomFactor;
-    float _originalOrthoScale;
-    float _orthographicZoomFactor;
-    _Bool _enabled;
-    _Bool _translationAllowed;
-    _Bool _didEverFocusNode;
-    _Bool _isSceneBoundingSphereComputed;
-    _Bool _cameraTargetComputed;
-    _Bool _pinchShouldMoveCamera;
-    _Bool _shouldUpdateTarget;
-    _Bool _shouldIgnoreMomentumEvents;
-    _Bool _isOrbiting;
-    _Bool _recordingPointOfViewEvents;
-    _Bool _mouseDown;
-    CDUnion_915c2b1f _sceneBoundingSphere;
-    id _translationOrigin;
-    float _initialZoom;
-    id _initialPointOfViewWorldPosition;
-    double _lastKeyInputTime;
-    double _flyModeVelocity;
-    double _panSensitivity;
-    double _truckSensitivity;
-    double _rotationSensitivity;
-    struct CGPoint _initialInputLocation;
-    struct CGPoint _lastInputLocation;
-    struct CGPoint _accumulatedDrag;
-    double _lastRotationAngle;
-    struct os_unfair_lock_s _drawAtTimeLock;
-    struct {
-        _Bool stickyMoveEnabled;
-        unsigned long long direction__pickedAxis;
-        unsigned long long userStickyAxis;
-    } _stickyAxis;
-    struct {
-        _Bool automaticLocationUpToDate;
-        _Bool hasAutomatic;
-    } _target;
-    struct {
-        struct CGPoint lastDragLocation;
-        struct CGPoint velocity;
-        double lastDragTime;
-    } _inertia;
-    struct {
-        struct os_unfair_lock_s lock;
-        NSDictionary *keyCodeConfiguration;
-        struct set<unsigned short, std::less<unsigned short>, std::allocator<unsigned short>> keyDown;
-        struct vector<unsigned short, std::allocator<unsigned short>> forward;
-        struct vector<unsigned short, std::allocator<unsigned short>> backward;
-        struct vector<unsigned short, std::allocator<unsigned short>> left;
-        struct vector<unsigned short, std::allocator<unsigned short>> right;
-    } _keyboard;
-    struct {
-        _Bool hasShift;
-        _Bool hasOption;
-    } _scrollWheelModifiers;
-    _Bool _enableFreeCamera;
-    _Bool _autoSwitchToFreeCamera;
-    SCNCameraController *_cameraController;
-    id <SCNCameraNavigationControllerDelegate> _delegate;
-    SCNView *_view;
-    SCNNode *_freeViewCameraNode;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)controllerForCard:(id)arg1 didReceiveAsyncCard:withAsyncCardReceiptFeedback: /* Error: Ran out of types for this method. */;
+- (void)controller:(id)arg1 setVoiceTriggerUserEnabled: /* Error: Ran out of types for this method. */;
+- (void)controller:(id)arg1 setSiriEnablementLanguageCodes: /* Error: Ran out of types for this method. */;
+- (void)controller:(id)arg1 markSATEnrollmentSuccessForVoiceProfile: /* Error: Ran out of types for this method. */;
+- (void)controller:(id)arg1 discardSiriEnrollmentForProfileId:forLanguageCode: /* Error: Ran out of types for this method. */;
+- (void)controller:(id)arg1 discardSiriEnrollmentForProfileId:forLanguageCode: /* Error: Ran out of types for this method. */;
+- (void)controller:(id)arg1 addUtterance:toProfile: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -120,7 +50,7 @@
 - (void);
 - (void);
 - (void);
-- (CDUnion_915c2b1f);
+- (CDUnion_9a075853);
 - (void);
 - (_Bool);
 - (float);
@@ -145,7 +75,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct SCNVector3);
@@ -166,17 +96,17 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)selectionHidden;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)ets=dddd}16;
 - (void);
 - (_Bool);
-- (id);
+- (id)windowWithRootViewController: /* Error: Ran out of types for this method. */;
 - (_Bool)1Â0@ù
 × ;
 - (void)= fract(frame.x);
@@ -373,31 +303,7 @@ void main()
 - (double)xÐáÿ³¤-;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsTranslation;
-@property(nonatomic) _Bool autoSwitchToFreeCamera; // @synthesize autoSwitchToFreeCamera=_autoSwitchToFreeCamera;
-@property(nonatomic) _Bool automaticCameraTarget;
 @property(readonly, nonatomic) SCNCameraController *cameraController; // @synthesize cameraController=_cameraController;
-@property(nonatomic) struct SCNVector3 cameraTarget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <SCNCameraNavigationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableFreeCamera; // @synthesize enableFreeCamera=_enableFreeCamera;
-@property(nonatomic) _Bool enableInertia;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic) double flyModeVelocity; // @synthesize flyModeVelocity=_flyModeVelocity;
-@property(readonly, nonatomic) SCNNode *freeCamera; // @synthesize freeCamera=_freeViewCameraNode;
-@property(nonatomic) double friction;
-@property(nonatomic) _Bool gimbalLockMode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double panSensitivity; // @synthesize panSensitivity=_panSensitivity;
-@property(nonatomic) double rotationSensitivity; // @synthesize rotationSensitivity=_rotationSensitivity;
-@property(nonatomic) unsigned long long stickyAxis;
-@property(readonly) Class superclass;
-@property(nonatomic) double truckSensitivity; // @synthesize truckSensitivity=_truckSensitivity;
-@property(nonatomic) SCNView *view; // @synthesize view=_view;
 
 @end
 

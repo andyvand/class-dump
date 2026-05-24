@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface PPContactDiskCacheHistoryRecordSet
 {
     NSString *_filename;
-    NSMutableArray *_adds;
-    NSMutableArray *_updates;
-    NSMutableArray *_deletes;
 }
 
-- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void)erLanguagesWithoutCanonicalSuffixes;
+- (void)userLanguagesWithoutCanonicalSuffixes;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *adds; // @synthesize adds=_adds;
-@property(readonly, nonatomic) NSMutableArray *deletes; // @synthesize deletes=_deletes;
 @property(readonly, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(readonly, nonatomic) NSMutableArray *updates; // @synthesize updates=_updates;
 
 @end
 

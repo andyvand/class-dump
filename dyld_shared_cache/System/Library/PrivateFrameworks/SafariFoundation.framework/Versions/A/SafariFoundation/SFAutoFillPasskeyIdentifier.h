@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSPublicKeyCredentialIdentifier;
+@class WBSPublicKeyCredentialIdentifier;
 
 @interface SFAutoFillPasskeyIdentifier
 {
     WBSPublicKeyCredentialIdentifier *_coreIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)inputCalibrationIlluminant1;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool),V_allowedCredentials;
 - (void);
+- (id)unentitledReserveAmount;
 - (id);
-- (id);
-- (void);
+- (void)U;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) WBSPublicKeyCredentialIdentifier *coreIdentifier; // @synthesize coreIdentifier=_coreIdentifier;
-@property(readonly, copy, nonatomic) NSString *credentialID;
-@property(readonly, copy, nonatomic) NSString *groupID;
 
 @end
 

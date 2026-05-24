@@ -7,8 +7,6 @@
 @interface NewsFeed.FeedWeatherReferenceService
 {
     id weatherService;
-    id channelLocationService;
-    id tagService;
 }
 
 @end

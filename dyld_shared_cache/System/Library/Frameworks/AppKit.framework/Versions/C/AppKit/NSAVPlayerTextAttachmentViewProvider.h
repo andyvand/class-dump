@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, NSImage, __NSTemporaryFileURL;
+@class AVPlayer;
 
 __attribute__((visibility("hidden")))
 @interface NSAVPlayerTextAttachmentViewProvider
 {
     AVPlayer *_avPlayer;
-    __NSTemporaryFileURL *_temporaryFileURL;
-    double _maximumHeight;
-    struct CGSize _presentationSize;
-    NSImage *_previewImage;
-    struct {
-        long long value;
-        int timescale;
-        unsigned int flags;
-        long long epoch;
-    } _previewTime;
-    _Bool _observed;
 }
 
-+ (id);
-+ (_Bool);
++ (id)ficateForHost:(id)arg1;
++ (_Bool);
 + (void);
++ (Class)@;
 + (Class);
 + (Class);
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
++ (id):(id)arg1 Rk;
 + (id);
-+ (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)initWithURL:(id)arg1 statusCode:HTTPVersion:headerFields: /* Error: Ran out of types for this method. */;
+- (id)entifier;
+- (id)roxy response;
+- (id)_precisionPreservingTimings;
 - (id);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
 - (double);
-- (void)xturedWindow;
-- (void)onScreen;
+- (void)_isTexturedWindow;
+- (void)_destinationScreen;
 - (struct CGSize)H@;
 
 // Remaining properties
-@property(retain) AVPlayer *avPlayer; // @synthesize avPlayer=_avPlayer;
-@property double maximumHeight; // @synthesize maximumHeight=_maximumHeight;
 @property(readonly) struct CGSize presentationSize;
 
 @end

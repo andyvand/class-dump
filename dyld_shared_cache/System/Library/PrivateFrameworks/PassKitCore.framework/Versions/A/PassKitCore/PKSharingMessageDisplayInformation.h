@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKSharingMessageDisplayInformation
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSURL *_imageURL;
-    NSURL *_openGraphURL;
 }
 
-+ (_Bool);
++ (_Bool)=;
 - (void);
 - (id);
+- (id);
+- (id)	k ;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)_txManagement;
 - (id)rlyingCardArt;
 - (void)apple.wallet.transaction;
 - (id)imum:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(retain, nonatomic) NSURL *openGraphURL; // @synthesize openGraphURL=_openGraphURL;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -12,18 +12,17 @@ __attribute__((visibility("hidden")))
 @interface EKEventAvailabilityDetailItem : EKEventDetailItem
 {
     UITableViewCell *_cell;
-    long long _availability;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (id);
+- (_Bool);
+- (unsigned long long);
+- (void)hB;
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void)ButtonClicked: /* Error: Ran out of types for this method. */;
+- (void)searchBarResultsListButtonClicked: /* Error: Ran out of types for this method. */;
 - (double)êúÿ;
 
 @end

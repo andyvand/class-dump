@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSMutableSet, NSString, UIScenePresentationContext, UIScenePresentationManager, _UISceneLayerHostContainerView, _UIScenePresenter;
-@protocol UISceneLayerTarget, _UIScenePresenterOwnerDelegate;
+@class UIScenePresentationManager;
+@protocol UISceneLayerTarget;
 
 __attribute__((visibility("hidden")))
 @interface _UIScenePresenterOwner
 {
     UIScenePresentationManager *_scenePresentationManager;
-    id <UISceneLayerTarget> _layerTarget;
-    _UISceneLayerHostContainerView *_realSceneHostViewsContainer;
-    NSMutableOrderedSet *_activePresentersByPriority;
-    NSMutableSet *_inactivePresentersByPriority;
-    _UIScenePresenter *_prioritizedPresenter;
-    _Bool _invalidated;
-    id <_UIScenePresenterOwnerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)CEMDeviceeSIMCellularPlanManagementCommand_Status;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)setNowPlayingIdentifiers:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -42,24 +35,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)"UIEditMenuConfiguration"24@"<UIEditMenuInteractionAnimating>"32;
 - (void)searchResults;
-- (id)orShouldDismissOnResponderChange: /* Error: Ran out of types for this method. */;
-- (void)kButton;
-- (id)nochrome;
+- (id)findNavigatorShouldDismissOnResponderChange: /* Error: Ran out of types for this method. */;
+- (void)_setupBackButton;
+- (id)_hasSpecifiedPrefersMonochrome;
 - (_Bool)onInProgress;
-- (void)orGesture:(id)arg1;
+- (void)clearKeyboardTouchesForGesture:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) UIScenePresentationContext *defaultPresentationContext;
-@property(nonatomic) __weak id <_UIScenePresenterOwnerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <UISceneLayerTarget> layerTarget; // @synthesize layerTarget=_layerTarget;
-@property(readonly) Class superclass;
 
 @end
 

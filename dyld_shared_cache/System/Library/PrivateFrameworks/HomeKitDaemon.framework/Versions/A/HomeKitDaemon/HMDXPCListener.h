@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCListener;
-@protocol HMDXPCListenerDelegate, OS_dispatch_queue;
+@class NSXPCListener;
+@protocol HMDXPCListenerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCListener
 {
     id <HMDXPCListenerDelegate> _delegate;
-    NSXPCListener *_xpcListener;
 }
 
-- (id);
+- (id)r> Timescale Set alloc failed
+;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool)ContainerConfigurations;
+- (_Bool)_mediaContainerConfigurations;
 - (id)ason;
 - (id)&_pSg;
-- (void)ersOfFrameworkSwitchDelayInterval;
+- (void)NotifyOwnersOfFrameworkSwitchDelayInterval;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDXPCListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) Class superclass;
 @property(readonly) NSXPCListener *xpcListener; // @synthesize xpcListener=_xpcListener;
 
 @end

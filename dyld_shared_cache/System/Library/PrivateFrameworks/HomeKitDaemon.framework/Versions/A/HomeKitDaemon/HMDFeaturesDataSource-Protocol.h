@@ -5,8 +5,27 @@
 //
 
 @protocol HMDFeaturesDataSource
-- (_Bool)portsDataSource: /* Error: Ran out of types for this method. */;
-- (_Bool)efaultDataSource;
+- (_Bool);
+- (_Bool);
+- (_Bool)kets Sent:%u /* Error: Ran out of types for this method. */;
+- (_Bool)(lum0, table, domain, normalizer).a;
+float lum1c = clamp(lum1, -8.0 * abs(lum0), 8.0 * abs(lum0));
+float lum_scale = (lum0 == 0.0 ? 0.0 :lum1c / lum0);
+float lum_offset = lum1 - lum1c;
+pixel.rgb = lum_scale * pixel.rgb + lum_offset;
+return pixel;
+}
+
+ /* Error: Ran out of types for this method. */;
+- (_Bool)rgb *= pix.rgb*pix.rgb*pix.rgb; 
+ pix.rgb += min(im.rgb, 0.0) + max(im.rgb,1.0) -1.0; 
+ return pix; 
+ };
+- (_Bool);
+- (_Bool);
+- (_Bool)˟;
+- (_Bool)supportsDataSource: /* Error: Ran out of types for this method. */;
+- (_Bool)HMDLocationDefaultDataSource;
 - (_Bool)í;
 - (_Bool)ø;
 - (_Bool)blic}@Accessory event does not have expected suffix %@;
@@ -14,29 +33,6 @@
 - (int)A;
 
 // Remaining properties
-@property(readonly, getter=isHKSV3Enabled) _Bool HKSV3Enabled;
-@property(readonly, getter=isSHADEREnabled) _Bool SHADEREnabled;
-@property(readonly, getter=isSHADERMercuryEnabled) _Bool SHADERMercuryEnabled;
-@property(readonly, getter=isCheckAdaptiveTemperatureAutomationsMFiCapabilityEnabled) _Bool checkAdaptiveTemperatureAutomationsMFiCapabilityEnabled;
-@property(readonly, getter=isCheckCleanEnergyAutomationMFiCapabilityEnabled) _Bool checkCleanEnergyAutomationMFiCapabilityEnabled;
-@property(readonly, getter=isCommunicationTrustInvitationsEnabled) _Bool communicationTrustInvitationsEnabled;
-@property(readonly, getter=isDemoModeV2Enabled) _Bool demoModeV2Enabled;
-@property(readonly, getter=isHH2AutoMigrationEnabled) _Bool hh2AutoMigrationEnabled;
-@property(readonly, getter=isHH2MigrationDryRunEnabled) _Bool hh2MigrationDryRunEnabled;
-@property(readonly, getter=isBlockHomeInvitationInHH1Enabled) _Bool homeInvitationDisabledInHH1;
-@property(readonly, getter=isHomeTheaterSubSecondEnabled) _Bool homeTheaterSubSecondEnabled;
 @property(readonly) _Bool isWatch;
-@property(readonly, getter=isLocalPresenceDebugBulletinEnabled) _Bool localPresenceDebugBulletinEnabled;
-@property(readonly, getter=isMediaPrivilegeEnabled) _Bool mediaPrivilegeEnabled;
-@property(readonly, getter=isNetworkDiagnosticsEnabled) _Bool networkDiagnosticsEnabled;
-@property(readonly, getter=isOnDemandLoadingLocalStoreEnabled) _Bool onDemandLoadingLocalStoreEnabled;
-@property(readonly, getter=isPersistentBulletinRegistrationsFeatureEnabled) _Bool persistentBulletinRegistrationsFeatureEnabled;
-@property(readonly) int productType;
-@property(readonly, getter=isRapportOverBLEEnabled) _Bool rapportOverBLEEnabled;
-@property(readonly, getter=isStereoOdeonTTSUBypassingPrimaryEnabled) _Bool stereoOdeonTTSUBypassingPrimaryEnabled;
-@property(readonly, getter=isTransportRetryEnabled) _Bool transportRetryEnabled;
-@property(readonly, getter=isWakeOnLanV2Enabled) _Bool wakeOnLanV2Enabled;
-@property(readonly, getter=isWifiPickerApiEnabled) _Bool wifiPickerApiEnabled;
-@property(readonly, getter=isWiFiRepairV2Enabled) _Bool wifiRepairV2Enabled;
 @end
 

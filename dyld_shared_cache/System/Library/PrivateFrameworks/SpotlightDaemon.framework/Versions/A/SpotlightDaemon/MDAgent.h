@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
++ (id)will not fail TTSU as the HH2 key will be created by the newly setup device.;
 - (void);
-- (id);
+- (id)r nicht;
 
 @end
 

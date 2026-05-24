@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void)al/Library/BuildRoots/4~CN9YugApH0mH_9-HFHVT0Z8_aVrrjkCIjv-m-hY/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/StdLibExtras.h;
-- (id)mplementary;
+- (id)ARIALandmarkComplementary;
 - (void)ÿÿ
 4ì;
 - (void)ÀHíðÛ&ståðpòomaX2OÊËlive®pÜçBDÈC±l² äý®jEe`Àð`6êA>IuÀéîp~àVcãäQç	lÿâWòm;Çáwéuposdåâirlóð®ï-ÝageîðÖÊåðß@íð±boosôðL©áùpàÃmåîÙ8æ	`#?âQõð¬fìêxråîðÒ>åpûà'<ïmZ[áiép±·à2ghôíEÅåíómaìîÐããÀaîðÆêôæå'7n¬aõOmàÃÜöðKòï½ï	p¯y`1ØÅ%shoåíqºáðq×îðï
@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 pCÂ`'Ã;gameòì"¾designlab®ìôndaçï¬keðpÙËSfâêêwépLáàÌeibåðÔáð£¡nçpEàdäð-node-æè÷á`"ïÐiùdungóî#áðTöípÒôðä±aká`"iftÌfÅã«6òî|áðÚ&âð­îìXaôp/à%iíðÞnåpÄËØÃäï«(í`"Ið£UöìateõâÓlafléïH5kåðâ¢9¹ðÕ77·ðæ³pÊ¿.xbéðL ²ê?N²ïñ4.simontoëæZ±08°ðM.hasilsdyharéïßÅ®	
 	
 pÝ]Æmuzâìo¬tubåð¹tpornoðéõîíqýmydesi²ðÞ'erogiäðâÄáðÙhåïªT91shåîõá­		l«Ób4Éa;
-- (void)MediaCharacteristicDescribesVideoForAccessibility;
+- (void)AVMediaCharacteristicDescribesVideoForAccessibility;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isRenderingInContext; // @synthesize isRenderingInContext=_isRenderingInContext;

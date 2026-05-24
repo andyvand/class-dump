@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDictionary;
+@class _INPBDictionary;
 
 @interface _INPBPlayMediaIntentResponse
 {
     struct _has;
-    _INPBDictionary *_nowPlayingInfo;
 }
 
 + (_Bool);
@@ -22,20 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)air;
+- (id)setStartedCall: /* Error: Ran out of types for this method. */;
+- (void)_payloadWellnessMetadataPair;
 - (void)_þ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasNowPlayingInfo;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBDictionary *nowPlayingInfo; // @synthesize nowPlayingInfo=_nowPlayingInfo;
-@property(readonly) Class superclass;
 
 @end
 

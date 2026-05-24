@@ -8,10 +8,10 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
-+ (id)ht;
++ (id)Si6height_Si5widtht;
 
 @end
 

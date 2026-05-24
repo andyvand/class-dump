@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXComponentAnimation, SXComponentClassification, SXComponentConditions, SXJSONArray, SXJSONDictionary;
-@protocol SXComponentAnchor;
+@class NSString;
 
 @interface SXInsertedDebugComponent
 {
     NSString *_identifier;
-    SXComponentAnimation *_animation;
-    SXJSONArray *_behaviors;
-    NSString *_style;
-    id <SXComponentAnchor> _anchor;
-    NSString *_layout;
-    SXComponentConditions *_conditions;
-    SXJSONDictionary *_analytics;
-    SXJSONArray *_additions;
 }
 
 - (unsigned long long);
+- (id);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -36,38 +27,11 @@
 - (int);
 - (id);
 - (void)0@0:8@"WKWebView"16@"NSString"24@"NSString"32 /* Error: Ran out of types for this method. */;
-- (id)ype:onCompletion: /* Error: Ran out of types for this method. */;
+- (id)textContentForType:onCompletion: /* Error: Ran out of types for this method. */;
 - (void):(id)arg1 Û;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityLabel;
-@property(readonly, nonatomic) SXJSONArray *additions; // @synthesize additions=_additions;
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics=_analytics;
-@property(readonly, nonatomic) id <SXComponentAnchor> anchor;
-@property(readonly, nonatomic) SXComponentAnimation *animation; // @synthesize animation=_animation;
-@property(readonly, nonatomic) SXJSONArray *behaviors; // @synthesize behaviors=_behaviors;
-@property(readonly, nonatomic) SXComponentClassification *classification;
-@property(readonly, nonatomic) SXJSONArray *conditional;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SXJSONArray",?,R,N
-
-@property(readonly, nonatomic) SXComponentConditions *conditions; // @synthesize conditions=_conditions;
-@property(readonly, nonatomic) unsigned long long contentRelevance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hidden;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *layout;
-@property(readonly, nonatomic) _Bool requiresLinkedContent;
-@property(readonly, nonatomic) int role;
-@property(readonly, nonatomic) NSString *style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long traits;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

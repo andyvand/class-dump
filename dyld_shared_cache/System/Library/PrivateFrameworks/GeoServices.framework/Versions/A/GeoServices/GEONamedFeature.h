@@ -9,36 +9,32 @@
 @interface GEONamedFeature
 {
     PBUnknownFields *_unknownFields;
-    NSString *_name;
-    double _value;
 }
 
-+ (_Bool)ype:(id)arg1;
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
++ (_Bool)setHasTransitMessageType:(id)arg1;
+- (void);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (void)countByEnumeratingWithState:(_Bool)arg1 objects:count: /* Error: Ran out of types for this method. */;
+- (void)v;
+- (void)invocationTypeID;
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)A;
 - (id)Info>>="__map_"{__split_buffer<ErrorInfo *, std:(struct _NSZone *)arg1:allocator<ErrorInfo *>>="__first_"^^{ErrorInfo}"__begin_"^^{ErrorInfo}"__end_"^^{ErrorInfo}""{?="__cap_"^^{ErrorInfo}}}"__start_"Q""{?="__size_"Q}} /* Error: Ran out of types for this method. */;
-- (double)onRoutable;
+- (double)messageForNonRoutable;
 - (id)T@"NSArray",&,N,V_resources;
 - (id)³;
-- (id)etString;
+- (id)SetString;
 - (void);
 - (void)Æv2;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) double value;
 
 @end
 

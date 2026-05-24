@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKDocumentContent, NSImage, NSString, _STKSticker;
+@class IMKDocumentContent, NSString;
 
 @protocol IMKCandidate
+- (IMKDocumentContent *);
+- (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *annotation;
 @property(copy, nonatomic) NSString *displayText;
-@property(readonly, copy, nonatomic) IMKDocumentContent *documentContentToReplace;
-@property(copy, nonatomic) NSImage *icon;
-@property(retain, nonatomic) _STKSticker *sticker;
-@property(readonly, copy, nonatomic) NSString *text;
-@property(readonly, nonatomic) unsigned long long type;
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString, NSSwitch, NSView, NSWidgetView;
+@class NSSwitch, NSWidgetView;
 
 __attribute__((visibility("hidden")))
 @interface NSSwitchAppearanceVisualProvider
 {
     NSWidgetView *_trackView;
-    NSWidgetView *_shadowView;
-    NSWidgetView *_knobView;
-    NSWidgetView *_axIndicatorView;
-    NSWidgetView *_knobMaskView;
-    CDStruct_04135deb _currentDrawingState;
-    NSColor *_trackColor;
-    NSSwitch *_nsSwitch;
 }
 
 - (void);
@@ -29,36 +22,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)setCompletedUnitCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)d to get url wrapper:%@ /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void)com.apple.xbs/TemporaryDirectory.tLhrrW/Sources/AppKit/AppKit.subproj/NSColor.m;
 - (void);
 - (struct NSEdgeInsets)N@;
 
 // Remaining properties
-@property(readonly) NSWidgetView *_axIndicatorView;
-@property(readonly) NSWidgetView *_knobMaskView;
-@property(readonly) NSWidgetView *_knobView;
-@property(readonly) NSWidgetView *_shadowView;
-@property(readonly) NSWidgetView *_trackView;
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSView *designatedFocusRingView;
-@property(readonly) unsigned long long hash;
-@property(readonly) struct CGSize intrinsicContentSize;
 @property __weak NSSwitch *nsSwitch; // @synthesize nsSwitch=_nsSwitch;
-@property(readonly) Class superclass;
 
 @end
 

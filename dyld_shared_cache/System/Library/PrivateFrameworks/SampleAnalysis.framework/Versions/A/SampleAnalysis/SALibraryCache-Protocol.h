@@ -7,15 +7,11 @@
 @class NSArray, NSUUID;
 
 @protocol SALibraryCache
+- (unsigned long long)p;
 - (unsigned long long);
 - (NSArray *)¤;
 
 // Remaining properties
-@property(readonly) NSArray *binaryLoadInfos;
-@property(readonly) unsigned long long endAddress;
-@property(readonly) unsigned long long startAddress;
-@property(readonly) unsigned long long textSegmentsEndAddress;
-@property(readonly) unsigned long long textSegmentsStartAddress;
 @property(readonly) NSUUID *uuid;
 @end
 

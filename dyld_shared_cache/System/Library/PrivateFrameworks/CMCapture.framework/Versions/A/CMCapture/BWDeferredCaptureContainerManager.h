@@ -6,25 +6,13 @@
 
 #import <CMCapture/BWDeferredContainerManagerBase.h>
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface BWDeferredCaptureContainerManager : BWDeferredContainerManagerBase
 {
     unsigned int _cacheSize;
-    unsigned int _cacheResidencySeconds;
-    NSObject<OS_dispatch_source> *_cacheExpiryTimer;
-    NSMutableArray *_stagedContainers;
-    NSMutableArray *_inflightContainers;
-    NSMutableArray *_cachedContainers;
-    NSObject<OS_dispatch_queue> *_flushQueue;
-    NSObject<OS_dispatch_queue> *_flushQueueBackground;
-    unsigned long long _cachedLowDiskThresholdBytes;
-    NSMutableDictionary *_pools;
 }
 
-+ (id)rayForPrewarm;
++ (id)PortraitFacesLandmarksArrayForPrewarm;
 - (int);
 - (int);
 - (int);
@@ -34,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
+- (int);
 - (int);
-- (int);
-- (_Bool);
+- (_Bool);
 - (int);
 - (int);
 - (int);

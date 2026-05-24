@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BerkeleyDatabase, NSData, NSString;
+@class BerkeleyDatabase;
 
 __attribute__((visibility("hidden")))
 @interface FirefoxCryptoKeyStoreV3
 {
     BerkeleyDatabase *_database;
-    _Bool _databasePassedSanityCheck;
-    NSData *_passwordCheckData;
-    NSData *_passwordCheckHeader;
-    NSData *_passwordCheckEntrySalt;
-    NSData *_passwordCheckPayload;
 }
 
 - (_Bool);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -36,19 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canOpen;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSData *globalSaltData;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isKeyStorageUsingFirefox75AndAbove;
-@property(readonly, copy, nonatomic) NSData *passwordCheckEntrySalt;
-@property(readonly, copy, nonatomic) NSData *passwordCheckIV;
-@property(readonly, copy, nonatomic) NSData *passwordCheckPayload;
-@property(readonly, nonatomic) _Bool storesRawPrivateKey;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MapsSuggestionsMapsSyncShortcutStorage
 {
     CDUnknownBlockType _changeHandler;
-    NSArray *storeSubscriptionTypes;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (_Bool);
@@ -30,19 +28,10 @@
 - (_Bool);
 - (void);
 - (void)e"B};
-- (void)printConfidence;
+- (void)wifiFingerprintConfidence;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *storeSubscriptionTypes; // @synthesize storeSubscriptionTypes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

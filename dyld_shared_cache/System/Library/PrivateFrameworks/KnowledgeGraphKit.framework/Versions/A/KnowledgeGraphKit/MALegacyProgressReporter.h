@@ -9,21 +9,18 @@
 @interface MALegacyProgressReporter : MAProgressReporter
 {
     double _lastProgressCallTime;
-    _Bool _isCancelled;
-    CDUnknownBlockType _progressBlock;
 }
 
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)CMSampleBuffer;
 - (_Bool);
 - (void);
 - (void)Ü;
 
 // Remaining properties
 @property(nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(readonly, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
 
 @end
 

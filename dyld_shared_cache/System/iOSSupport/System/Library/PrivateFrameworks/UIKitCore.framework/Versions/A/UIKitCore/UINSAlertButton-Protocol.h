@@ -7,17 +7,16 @@
 @class NSString;
 
 @protocol UINSAlertButton
+- (void);
+- (NSString *);
+- (_Bool)uninitialized property:%@ /* Error: Ran out of types for this method. */;
 - (void)fetchSettingsModifiers;
-- (void)eedsUpdate;
-- (long long)IWindowSceneActivationAction;
-- (_Bool)sedLayoutThrowExceptionOnUnsatisfiableConstraints;
+- (void)_textAttachmentGeometryNeedsUpdate;
+- (long long)_UIWindowSceneActivationAction;
+- (_Bool)UIConstraintBasedLayoutThrowExceptionOnUnsatisfiableConstraints;
 - (NSString *)collapsed layout. Split view controller:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool destructive;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic) long long identifier;
-@property(copy, nonatomic) NSString *keyEquivalent;
 @property(copy, nonatomic) NSString *title;
 @end
 

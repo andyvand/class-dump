@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PXFilterGroup
 {
     NSString *_name;
-    NSArray *_filterIdentifiers;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)Q;
+- (unsigned long long)B;
 - (_Bool);
-- (id)ion;
+- (id)motion;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *filterIdentifiers; // @synthesize filterIdentifiers=_filterIdentifiers;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

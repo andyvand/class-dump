@@ -11,7 +11,6 @@
 @interface FPUpdateIgnoreStateOperation : FPActionOperation
 {
     NSArray *_items;
-    _Bool _ignoreState;
 }
 
 - (id);

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFShortcutActionDatabaseID, NSData;
+@class NSData;
 @protocol MKFHome;
 
 @protocol MKFShortcutAction
+- (void);
 - (id <MKFHome>);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data;
-@property(readonly, copy, nonatomic) MKFShortcutActionDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @end
 

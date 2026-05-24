@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSToolbar;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSToolbarItemPlaceholder
 {
     NSString *_itemIdentifier;
-    NSToolbar *_tb;
-    long long _visibilityPriority;
-    _Bool _hasCustomVisibilityPriority;
-    id _propertyListRepresentation;
 }
 
-- (long long);
+- (long long)?;
 - (void);
 - (void);
 - (_Bool);

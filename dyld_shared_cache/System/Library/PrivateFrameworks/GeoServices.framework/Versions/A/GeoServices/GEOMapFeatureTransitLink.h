@@ -6,29 +6,26 @@
 
 #import <GeoServices/GEOMapFeatureLine.h>
 
-@class GEOTransitLink, NSString;
+@class GEOTransitLink;
 
 @interface GEOMapFeatureTransitLink : GEOMapFeatureLine
 {
     GEOTransitLink *_transitLink;
-    unsigned long long _lineIndex;
 }
 
 - (id);
 - (id);
 - (id);
-- (float *);
-- (id);
-- (struct GeoCodecsVectorTilePoint *);
+- (float *)className;
+- (id)checkAuthorizationStatusOfAuditToken: /* Error: Ran out of types for this method. */;
+- (struct GeoCodecsVectorTilePoint *)URLSession:(unsigned long long)arg1 task:(out unsigned long long *)arg2 didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)sitRouteUpdateRequestWithDirectionsRequest:(struct _NSZone *)arg1 directionsResponse:composedRoutes: /* Error: Ran out of types for this method. */;
+- (id)transitRouteUpdateRequestWithDirectionsRequest:(struct _NSZone *)arg1 directionsResponse:composedRoutes: /* Error: Ran out of types for this method. */;
 - (void):3 /* Error: Ran out of types for this method. */;
 - (struct _GEOTileKey)s: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *internalLineName;
 @property(readonly, nonatomic) struct _GEOTileKey tileKey;
-@property(readonly, nonatomic) GEOTransitLink *transitLink;
 
 @end
 

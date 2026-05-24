@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void)etion: /* Error: Ran out of types for this method. */;
+- (void)provideOperationOptionsForUpdateAlarm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionIntentType; // @synthesize actionIntentType=_actionIntentType;

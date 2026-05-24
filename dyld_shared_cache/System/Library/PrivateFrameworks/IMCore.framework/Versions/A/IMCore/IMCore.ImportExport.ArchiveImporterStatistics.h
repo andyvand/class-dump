@@ -7,7 +7,6 @@
 @interface IMCore.ImportExport.ArchiveImporterStatistics
 {
     id importStatistics;
-    id missingAttachments;
 }
 
 @end

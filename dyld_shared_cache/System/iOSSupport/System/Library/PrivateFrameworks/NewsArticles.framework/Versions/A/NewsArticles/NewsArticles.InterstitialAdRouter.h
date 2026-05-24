@@ -7,8 +7,6 @@
 @interface NewsArticles.InterstitialAdRouter
 {
     id controller;
-    id resolver;
-    id tracker;
 }
 
 @end

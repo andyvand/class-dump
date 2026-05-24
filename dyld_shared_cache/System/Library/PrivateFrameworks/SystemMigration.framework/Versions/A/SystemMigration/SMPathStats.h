@@ -7,11 +7,9 @@
 @interface SMPathStats
 {
     unsigned long long allocatedSize;
-    unsigned long long copierSize;
-    unsigned long long fileCount;
 }
 
-- (void);
+- (void)MapsSuggestionsRoutineFilterProactiveEntriesWithoutVisitsKey;
 - (void);
 
 @end

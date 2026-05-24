@@ -9,16 +9,6 @@
 @interface MPSNNBinaryArithmeticNode : MPSNNFilterNode
 {
     float _primaryScale;
-    float _secondaryScale;
-    float _bias;
-    unsigned long long _primaryStrideInPixelsX;
-    unsigned long long _primaryStrideInPixelsY;
-    unsigned long long _primaryStrideInFeatureChannels;
-    unsigned long long _secondaryStrideInPixelsX;
-    unsigned long long _secondaryStrideInPixelsY;
-    unsigned long long _secondaryStrideInFeatureChannels;
-    float _minimumValue;
-    float _maximumValue;
 }
 
 + (id);
@@ -45,24 +35,14 @@
 - (id);
 - (id);
 - (void);
-- (float);
+- (float)supportsRenderDynamicLibraries;
 - (float);
 - (void);
 - (void);
 - (float);
 
 // Remaining properties
-@property(nonatomic) float bias; // @synthesize bias=_bias;
-@property(nonatomic) float maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(nonatomic) float minimumValue; // @synthesize minimumValue=_minimumValue;
 @property(nonatomic) float primaryScale; // @synthesize primaryScale=_primaryScale;
-@property(nonatomic) unsigned long long primaryStrideInFeatureChannels; // @synthesize primaryStrideInFeatureChannels=_primaryStrideInFeatureChannels;
-@property(nonatomic) unsigned long long primaryStrideInPixelsX; // @synthesize primaryStrideInPixelsX=_primaryStrideInPixelsX;
-@property(nonatomic) unsigned long long primaryStrideInPixelsY; // @synthesize primaryStrideInPixelsY=_primaryStrideInPixelsY;
-@property(nonatomic) float secondaryScale; // @synthesize secondaryScale=_secondaryScale;
-@property(nonatomic) unsigned long long secondaryStrideInFeatureChannels; // @synthesize secondaryStrideInFeatureChannels=_secondaryStrideInFeatureChannels;
-@property(nonatomic) unsigned long long secondaryStrideInPixelsX; // @synthesize secondaryStrideInPixelsX=_secondaryStrideInPixelsX;
-@property(nonatomic) unsigned long long secondaryStrideInPixelsY; // @synthesize secondaryStrideInPixelsY=_secondaryStrideInPixelsY;
 
 @end
 

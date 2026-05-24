@@ -6,14 +6,12 @@
 
 #import <AppKit/NSComboBox.h>
 
-@class NSFindPatternAttachmentCell, NSString;
 @protocol NSFindPatternManager;
 
 __attribute__((visibility("hidden")))
 @interface NSFindPatternComboBox : NSComboBox
 {
     id <NSFindPatternManager> findPatternManager;
-    NSFindPatternAttachmentCell *selectedAttachment;
 }
 
 - (id);
@@ -29,39 +27,32 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (void)hLoading"^?"didFail"^?"didReceiveAuthenticationChallenge"^?};
+- (_Bool)countOfRequestBodyBytesBeforeEncoding;
+- (id)_prohibitPrivacyProxy;
+- (id)_prohibitEncryptedDNS;
+- (id)_private_onqueue_didReceiveResponseDisposition:completion: /* Error: Ran out of types for this method. */;
+- (id)_priority;
 - (void);
+- (void);
+- (void);
+- (void)SC LIMIT %d);
+- (id)NSURLSessionResumeResponse;
+- (_Bool)@;
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)fChild:(id)arg1;
+- (void)_accessibilityIndexOfChild:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property id <NSFindPatternManager> findPatternManager; // @synthesize findPatternManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDatabase, CKRecordID, NSString;
+@class CKDatabase;
 
 @interface FCHCRecordExistenceExpectation
 {
     _Bool _shouldExist;
-    CKDatabase *_database;
-    CKRecordID *_recordID;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)rrideShortExcerpt:(id)arg1;
-- (void)iveTrackTextRanges;
-- (void)etForYouShadowDaemonFetchEnabled;
+- (id)ize="-webkit-xxx-large",defaultEmojiFontSize="-apple-system-body",maxNumberBigEmoji=3,largeInheritedFontSize=7;;
+- (void)overrideShortExcerpt:(id)arg1;
+- (void)narrativeTrackTextRanges;
+- (void)widgetForYouShadowDaemonFetchEnabled;
 
 // Remaining properties
 @property(retain, nonatomic) CKDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(nonatomic) _Bool shouldExist; // @synthesize shouldExist=_shouldExist;
-@property(readonly) Class superclass;
 
 @end
 

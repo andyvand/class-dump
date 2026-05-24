@@ -6,36 +6,27 @@
 
 #import <LinkPresentation/LPFetcher.h>
 
-@class AVURLAsset, NSMutableData, NSString, NSURL, NSURLSession;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LPMediaAssetFetcher : LPFetcher
 {
     CDUnknownBlockType _completionHandler;
-    AVURLAsset *_asset;
-    _Bool _hasAudio;
-    NSString *_MIMEType;
-    NSURLSession *_session;
-    NSMutableData *_receivedData;
-    _Bool _loadingIsNonAppInitiated;
-    _Bool _fetchIsNotUserInitiated;
-    _Bool _shouldDownloadIfPossible;
-    NSURL *_URL;
 }
 
-- (_Bool);
+- (_Bool)tokenFilterQueries;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)tableView:(id)arg1 didEndDisplayingCell:(CDUnknownBlockType)arg2 forRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)suggestionBackgroundVisualEffectView;
+- (void)startDownloadingTranslationAssetsForLanguageCodes:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)startDeferredSetup;
+- (id)spellCheckingTypeDidChange: /* Error: Ran out of types for this method. */;
+- (id)expanseActivityHeaderViewForSection: /* Error: Ran out of types for this method. */;
+- (void)}}32;
 - (void);
 - (id);
+- (void);
+- (id)circleTrustStopped;
 - (void);
 - (void);
 - (void);
@@ -44,14 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldDownloadIfPossible; // @synthesize shouldDownloadIfPossible=_shouldDownloadIfPossible;
-@property(readonly) Class superclass;
 
 @end
 

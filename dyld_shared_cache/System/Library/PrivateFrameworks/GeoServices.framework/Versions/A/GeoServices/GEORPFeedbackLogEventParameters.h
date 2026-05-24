@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackLogEventDetails, GEORPTimestamp, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackLogEventParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_clientEventUuid;
-    GEORPTimestamp *_createdAt;
-    GEORPFeedbackLogEventDetails *_details;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_clientEventUuid:1;
-        unsigned int read_createdAt:1;
-        unsigned int read_details:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
-- (void);
++ (_Bool)setJunctionView:(id)arg1;
+- (void)addSqlitePersistentStoreWithURL:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -37,9 +21,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ully: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)i;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -49,8 +33,8 @@
 - (id);
 - (void);
 - (id)b36})}32@0:(struct _NSZone *)arg1 8r^{_GEOTileKey=b7b1(?={_GEOStandardTileKey=b40b6b26b26b14b4b4}{_GEOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16i24i28;
-- (void)sDrivingVoiceSettings;
-- (id)Name;
+- (void)hasDrivingVoiceSettings;
+- (id)authorName;
 - (int)
 ¨
 T
@@ -85,15 +69,7 @@
 - (id)6;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientEventUuid;
-@property(retain, nonatomic) GEORPTimestamp *createdAt;
-@property(retain, nonatomic) GEORPFeedbackLogEventDetails *details;
 @property(readonly, nonatomic) _Bool hasClientEventUuid;
-@property(readonly, nonatomic) _Bool hasCreatedAt;
-@property(readonly, nonatomic) _Bool hasDetails;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPNamedEntityDissector;
+@class PPNamedEntityDissector;
 
 @interface PPNamedEntityExtractionPlugin
 {
     PPNamedEntityDissector *_dissector;
 }
 
-+ (id)nHandler: /* Error: Ran out of types for this method. */;
++ (id)reverseGeocodeLocation:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)csv;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Dq;
+- (id)ificationsQueue != nil;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void)1÷°1Â0@ù
 × ;
-- (id)raitMusicDataCollectionAMPBundleIds;
+- (id)portraitMusicDataCollectionAMPBundleIds;
 - (id)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

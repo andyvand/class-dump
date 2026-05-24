@@ -7,17 +7,13 @@
 @interface AWDWiFiNWActivityTraffic
 {
     unsigned long long _value;
-    int _traffic;
-    struct {
-        unsigned int value:1;
-        unsigned int traffic:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (int);
+- (int)n L`x
+;
 - (void);
 - (id);
 - (void);
@@ -30,15 +26,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTraffic;
 @property(nonatomic) _Bool hasValue;
-@property(nonatomic) int traffic; // @synthesize traffic=_traffic;
-@property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

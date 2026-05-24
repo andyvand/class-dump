@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)contentDidChangePublisher;
 - (_Bool);
 - (void);
 - (void);

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNNullResult
 {
     id impl;
 }
 
-+ (_Bool);
++ (_Bool)`];
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
@@ -25,8 +23,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

@@ -7,19 +7,12 @@
 @interface PRSRankingSpanCalculator
 {
     _Bool _pathExists;
-    _Bool _n2Exists;
-    _Bool _n3Exists;
-    float _unordered;
-    float _ordered;
-    float _firstTermPosition;
-    float _normCount;
-    float _pairDist;
 }
 
-+ (long long);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (long long)isiCloudURL:(unsigned long long **)arg1;
++ (long long)isTweetURL:(unsigned long long **)arg1;
++ (_Bool)accessibilityTitle;
++ (_Bool)accessibilityFrame;
 - (void);
 - (void);
 - (void);
@@ -28,27 +21,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)GPoint=dd}24;
+- (_Bool)webView:didReceiveAuthenticationChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (float)videoCount;
+- (float)updateEffectiveFontForSize: /* Error: Ran out of types for this method. */;
+- (_Bool)unspecializedPresentationProperties;
+- (_Bool)unsignedLongValue;
+- (float)preferredFontDescriptorForTextStyle:options: /* Error: Ran out of types for this method. */;
 - (float);
-- (float);
-- (_Bool);
-- (_Bool);
-- (float);
-- (float);
-- (float);
+- (float)9);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) float firstTermPosition; // @synthesize firstTermPosition=_firstTermPosition;
-@property(nonatomic) _Bool n2Exists; // @synthesize n2Exists=_n2Exists;
-@property(nonatomic) _Bool n3Exists; // @synthesize n3Exists=_n3Exists;
-@property(nonatomic) float normCount; // @synthesize normCount=_normCount;
-@property(nonatomic) float ordered; // @synthesize ordered=_ordered;
-@property(nonatomic) float pairDist; // @synthesize pairDist=_pairDist;
-@property(nonatomic) _Bool pathExists; // @synthesize pathExists=_pathExists;
 @property(nonatomic) float unordered; // @synthesize unordered=_unordered;
 
 @end

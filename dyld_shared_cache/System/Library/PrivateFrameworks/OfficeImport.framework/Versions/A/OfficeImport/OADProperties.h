@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADProperties
 {
     OADProperties *mParent;
-    unsigned int mIsMerged:1;
-    unsigned int mIsMergedWithParent:1;
 }
 
 + (id);
@@ -18,19 +16,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id));
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
+- (void)j;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)5;
+- (unsigned long long)";
 - (_Bool);
 - (void);
 - (id);

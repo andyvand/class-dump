@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, WBSPasswordPatternMatch;
+@class NSString;
 
 @interface WBSPasswordEvaluation
 {
     double _guessesRequired;
-    NSString *_password;
-    NSArray *_patternMatches;
-    long long _evaluationType;
 }
 
 + (_Bool);
@@ -26,29 +23,21 @@
 - (double);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)reportCADroppedBeforePersistPayloadFromBundleID:category:size: /* Error: Ran out of types for this method. */;
+- (id)|;
 - (long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)yCriteria"16B24@?<B@?>28@?<v@?q@"NSDictionary"^B>36;
+- (id)issing mapping for MPModelPropertySharedListeningParticipantArtwork;
 - (id);
 - (void)A×°!0Cù±XÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WBSPasswordPatternMatch *bestPatternMatchForUserFeedback;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) long long evaluationType; // @synthesize evaluationType=_evaluationType;
-@property(readonly, nonatomic) double guessesRequired; // @synthesize guessesRequired=_guessesRequired;
 @property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly, copy, nonatomic) NSArray *patternMatches; // @synthesize patternMatches=_patternMatches;
-@property(readonly, nonatomic) unsigned long long strength;
-@property(readonly, nonatomic) _Bool userShouldBeShownActiveWarning;
-@property(readonly, nonatomic) _Bool userShouldBeShownPassiveWarning;
 
 @end
 

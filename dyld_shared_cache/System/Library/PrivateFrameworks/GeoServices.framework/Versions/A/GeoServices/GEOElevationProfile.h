@@ -4,64 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOMinimumVisibleElevationRange, NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOElevationProfile
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_elevationDescription;
-    GEOMinimumVisibleElevationRange *_minimumVisibleElevationRange;
-    NSMutableArray *_points;
-    NSMutableArray *_segmentDescriptions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _sumElevationGainCm;
-    unsigned int _sumElevationLossCm;
-    struct {
-        unsigned int has_sumElevationGainCm:1;
-        unsigned int has_sumElevationLossCm:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_elevationDescription:1;
-        unsigned int read_minimumVisibleElevationRange:1;
-        unsigned int read_points:1;
-        unsigned int read_segmentDescriptions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (Class);
-+ (_Bool)etHasRemainingTravelRange:(id)arg1;
++ (Class)e;
++ (Class)CNPostalAddressValues;
++ (_Bool)setHasRemainingTravelRange:(id)arg1;
 - (unsigned int);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)setOnCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)setObserverReceiving: /* Error: Ran out of types for this method. */;
+- (_Bool)doesStringLookLikePhoneNumber: /* Error: Ran out of types for this method. */;
+- (id)servable",R,N,V_observable;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)ould not statfs file at path:(id)arg1 %s:%d /* Error: Ran out of types for this method. */;
+- (_Bool)I;
+- (void)T)d;
 - (void);
 - (id);
+- (id)y;
+- (void);
+- (void)voiceTriggerRTModelForVersion:(id)arg1 minorVersion:accessoryRTModelType:endpointId:downloadedModels:preinstalledModels:completion: /* Error: Ran out of types for this method. */;
+- (id)ionMode:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -72,25 +52,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)ization:(struct _NSZone *)arg1;
-- (id)esisMonitorETAProvider;
+- (id)setHasShouldCallPlacesForClientization:(struct _NSZone *)arg1;
+- (id)_GEORouteHypothesisMonitorETAProvider;
 - (id)ð/cþx¼`þ;
 - (id);
 - (void)ÈÿÐ@;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *elevationDescription;
-@property(readonly, nonatomic) _Bool hasElevationDescription;
-@property(readonly, nonatomic) _Bool hasMinimumVisibleElevationRange;
-@property(nonatomic) _Bool hasSumElevationGainCm;
-@property(nonatomic) _Bool hasSumElevationLossCm;
-@property(retain, nonatomic) GEOMinimumVisibleElevationRange *minimumVisibleElevationRange;
 @property(retain, nonatomic) NSMutableArray *points;
-@property(retain, nonatomic) NSMutableArray *segmentDescriptions;
-@property(nonatomic) unsigned int sumElevationGainCm;
-@property(nonatomic) unsigned int sumElevationLossCm;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

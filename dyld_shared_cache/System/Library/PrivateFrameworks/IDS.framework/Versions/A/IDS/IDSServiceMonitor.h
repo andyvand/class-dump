@@ -9,8 +9,6 @@
 @interface IDSServiceMonitor
 {
     long long _availability;
-    NSString *_service;
-    int _token;
 }
 
 - (id);
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)AcceptCodingKeys;
 - (void)ñ,ð1Â0@ù
 × ;
 - (long long);

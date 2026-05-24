@@ -8,36 +8,6 @@
 {
     id _siteName;
     id _latitude;
-    id _longitude;
-    id _utilityID;
-    id _subscriptionID;
-    id _accessToken;
-    id _refreshToken;
-    id _timezone;
-    id _currentRatePlan;
-    id _usagePointCustomIndex;
-    id _usageSummaryCustomIndex;
-    id _intervalBlockCustomIndex;
-    id _ckFunctionToken;
-    id _accountName;
-    id _accountNumber;
-    id _address;
-    id _serviceLocationID;
-    id _alternateSupplier;
-    id _accessTokenExpirationDate;
-    id _utilitySupportedCheckDate;
-    id _amiLastRefreshDate;
-    id _hasExportedEnergy_p;
-    id _usagePointNextRefreshDate;
-    id _usageSummaryNextRefreshDate;
-    id _intervalBlockNextRefreshDate;
-    id _subscriptionState;
-    id _subscriptionCreationDate;
-    id _subscriptionStartDate;
-    id _siteTombstone;
-    id _siteVersion;
-    id _generationMeters;
-    id _includeRatePlanInGuidance;
 }
 
 @end

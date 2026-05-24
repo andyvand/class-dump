@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     double _timestamp;
 }
 
-- (id);
+- (id)c;
 - (double);
 
 // Remaining properties

@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSCALayerGraphicsContext : NSWindowGraphicsContext
 {
     CALayer *_layer;
-    struct {
-        unsigned int _isFlipped:1;
-        unsigned int _unused:31;
-    } _lgcFlags;
 }
 
 - (id);

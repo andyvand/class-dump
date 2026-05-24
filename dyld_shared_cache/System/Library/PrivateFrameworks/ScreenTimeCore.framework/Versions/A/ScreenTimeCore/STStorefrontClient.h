@@ -9,12 +9,12 @@
     id amsStorefrontClient;
 }
 
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)ore_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0;
+- (void)se_location_id) WHERE is_streaming_quality = 1 AND path = 'CloudAssets' AND LENGTH(location) > 0;
+- (id)a USING(item_pid) JOIN base_location USING(base_location_id) WHERE is_streaming_quality = 1 AND path = 'CloudAssets' AND LENGTH(location) > 0;
+- (void)a/LoFiCloudAssets;
+- (void)base_location_id = %d WHERE path = 'iTunes_Control/Music/F%02d';
+- (void)ase_location_id) WHERE path = 'iTunes_Control/Music/F%02d');
 - (id);
 - (void);
 

@@ -8,6 +8,7 @@
 {
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
@@ -23,6 +24,29 @@
 + (id);
 + (id);
 + (id);
++ (id)itemType":"familyGroceryListItem",
+          "ranking":8
+        },
+        {
+          "itemType":"sharedFamilyCalendarItem",
+          "ranking":6
+        },
+        {
+          "itemType":"sharedPasswordItem",
+          "ranking":5
+        },
+        {
+          "itemType":"contactItem",
+          "ranking":4
+        },
+        {
+          "itemType":"iMessageConfigItem",
+          "ranking":4
+        }
+      ]
+    }
+  ]
+} /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -36,39 +60,39 @@
 + (id);
 + (id);
 + (id);
++ (id)uter info gathering, compositorDict was empty;
++ (id)transferUpdateBundle:options: /* Error: Ran out of types for this method. */;
++ (id)H;
++ (id)ry"16@?<v@?@"NSArray"@"NSError">24;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)D*J
+;
++ (id);
++ (id)/J
+;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)ric:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
++ (id)troller";
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 
 @end

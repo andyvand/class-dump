@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray, NSMutableArray, NSString;
+@class CNContactStore;
 
 @interface PPContactNameRecordChangeHistoryAccumulator
 {
     CNContactStore *_store;
-    NSArray *_keysToFetch;
-    NSMutableArray *_records;
-    _Bool _truncated;
 }
 
+- (void):(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ontinueBlock:error: /* Error: Ran out of types for this method. */;
+- (void)vacuumWithShouldContinueBlock:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

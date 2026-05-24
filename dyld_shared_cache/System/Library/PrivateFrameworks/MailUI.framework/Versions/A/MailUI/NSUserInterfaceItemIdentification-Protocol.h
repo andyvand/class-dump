@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSUserInterfaceItemIdentification
+- (void);
 
 // Remaining properties
 @property(copy) NSString *identifier;

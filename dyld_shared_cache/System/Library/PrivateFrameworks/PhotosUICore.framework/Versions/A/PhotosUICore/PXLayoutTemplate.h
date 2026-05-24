@@ -12,7 +12,7 @@
 - (struct CGRect);
 - (void)1Â0@ù
 × ;
-- (void)KeyItemIndex: /* Error: Ran out of types for this method. */;
+- (void)setKeyItemIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

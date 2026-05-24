@@ -7,16 +7,14 @@
 @interface (extension in C2):__C.C2RequestManager.C2AsyncDataStreamDelegate__priv_84EE1E58F246DCD3EE191A742089E5F1
 {
     id responseConitnuation;
-    id responseNeeded;
-    id bytesStreamContinuation;
 }
 
-- (void);
+- (void)NS_24generic_batchnorm_kernelEEE;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)P;
+- (void)(;
+- (void)A;
 - (void);
 - (void);
 - (void);

@@ -12,20 +12,18 @@ __attribute__((visibility("hidden")))
     unsigned long long eventMask;
 }
 
-- (void);
+- (void)eginning ingestion;
+- (id){;
+- (id)(;
 - (id);
-- (id);
-- (id);
-- (void)wWithTintColor:(id)arg1 inContext: /* Error: Ran out of types for this method. */;
-- (void)BackProjectTimeFactor;
+- (void)drawWithTintColor:(id)arg1 inContext: /* Error: Ran out of types for this method. */;
+- (void)_maximumBackProjectTimeFactor;
 - (unsigned long long)_UITraitMetadata _UIGetTraitMetadataWithTraitTokenValueAcquireLock(const _UITraitDataType, const NSUInteger, const BOOL);
 - (SEL);
 - (void)ÿÓ´ég;
 
 // Remaining properties
-@property(readonly) SEL action;
 @property unsigned long long eventMask; // @synthesize eventMask;
-@property(readonly) id target;
 
 @end
 

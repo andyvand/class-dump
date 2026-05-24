@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (void);
-- (id)ID:(struct _NSZone *)arg1;
+- (id)findEventWithModelID:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;

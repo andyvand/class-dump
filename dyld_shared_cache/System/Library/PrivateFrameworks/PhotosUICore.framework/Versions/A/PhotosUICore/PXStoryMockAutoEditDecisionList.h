@@ -5,45 +5,30 @@
 //
 
 @class NSString;
-@protocol PXAudioAsset;
 
 @interface PXStoryMockAutoEditDecisionList
 {
     _Bool _allowsNUp;
-    NSString *_colorGradeCategory;
-    id <PXAudioAsset> _song;
-    long long _numberOfClips;
-    CDStruct_1b6d18a9 _defaultDisplayAssetPresentationDuration;
-    CDStruct_1b6d18a9 _outroDuration;
-    CDStruct_5d4c7ed3 _overallDurationInfo;
 }
 
 - (CDStruct_1b6d18a9);
 - (id);
 - (void);
-- (CDStruct_1b6d18a9);
-- (id);
+- (CDStruct_1b6d18a9)X;
+- (id);
 - (id);
 - (_Bool);
-- (CDStruct_5d4c7ed3);
+- (CDStruct_f0d1f9bc);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)¸ó;
-- (void)taNotificationEventLocation;
+- (void)CloudQuotaNotificationEventLocation;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsNUp; // @synthesize allowsNUp=_allowsNUp;
 @property(readonly, nonatomic) NSString *colorGradeCategory; // @synthesize colorGradeCategory=_colorGradeCategory;
-@property(readonly, nonatomic) NSString *decisionPapertrail;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 defaultDisplayAssetPresentationDuration; // @synthesize defaultDisplayAssetPresentationDuration=_defaultDisplayAssetPresentationDuration;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) long long numberOfClips; // @synthesize numberOfClips=_numberOfClips;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 outroDuration; // @synthesize outroDuration=_outroDuration;
-@property(readonly, nonatomic) CDStruct_5d4c7ed3 overallDurationInfo; // @synthesize overallDurationInfo=_overallDurationInfo;
-@property(readonly, nonatomic) id <PXAudioAsset> song; // @synthesize song=_song;
 
 @end
 

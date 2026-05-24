@@ -6,20 +6,9 @@
 
 #import <PhotosUICore/PXCuratedLibraryLayoutAnimationHelper.h>
 
-@class NSArray, NSView, PXCuratedLibraryLayoutSnapshotGeometryDescriptor, PXCuratedLibrarySectionGeometryDescriptor, PXVisualPositionsChangeDetails;
-@protocol PXAnonymousCoordinateSpace;
-
 @interface _PXCuratedLibraryLayoutZoomLevelChangeAnimationHelper : PXCuratedLibraryLayoutAnimationHelper
 {
     unsigned long long _userInterfaceDirection;
-    PXCuratedLibraryLayoutSnapshotGeometryDescriptor *_fromLayoutSnapshotGeometryDescriptor;
-    PXCuratedLibraryLayoutSnapshotGeometryDescriptor *_toLayoutSnapshotGeometryDescriptor;
-    NSArray *_changeDetails;
-    PXVisualPositionsChangeDetails *_visualPositionsChangeDetails;
-    long long _transitionType;
-    PXCuratedLibrarySectionGeometryDescriptor *_nullSectionGeometryDescriptor;
-    NSView<PXAnonymousCoordinateSpace> *_coordinateSpace;
-    _Bool _shouldAlwaysFadeDecoration;
 }
 
 - (_Bool);
@@ -32,7 +21,7 @@
 - (void);
 - (id);
 - (double)latestResult;
-- (unsigned int)nvitationAlertMessage_HasSharedLibrary;
+- (unsigned int)PXSharedLibrary_Owner_InvitationAlertMessage_HasSharedLibrary;
 - (void)çÿÿÿ;
 
 @end

@@ -6,30 +6,21 @@
 
 #import <XQuery/XQueryExpr.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface XQueryComputedAttributeExpr : XQueryExpr
 {
     id _name;
-    id _value;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)@;
+- (id)onst data_map_extra_data_t data_map_ext_get_extra_with_key(data_map_ext_t, const uint8_t *, ssize_t, _Bool *);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

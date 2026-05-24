@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPM2LocationItemDonation
 {
     long long _rank;
-    NSString *_activeTreatments;
-    int _algorithm;
-    int _donationSource;
-    NSString *_groupId;
-    _Bool _newItem;
-    _Bool _userCreated;
-    CDStruct_9710aa02 _has;
 }
 
 - (_Bool);
@@ -41,7 +32,7 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (unsigned long long);
 - (id);
@@ -49,9 +40,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)isAnonymous;
+- (_Bool)_chat_markMessageAsUnread:message: /* Error: Ran out of types for this method. */;
+- (void)oundVersion:(id)arg1 %@, Performing tie break:%{bool}d. Incoming uses old timestamp %{bool}d /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (id);
@@ -60,20 +51,7 @@
 - (void)ate bundleId purge handler with notification %s .;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) int donationSource; // @synthesize donationSource=_donationSource;
-@property(retain, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
 @property(nonatomic) _Bool hasDonationSource;
-@property(readonly, nonatomic) _Bool hasGroupId;
-@property(nonatomic) _Bool hasNewItem;
-@property(nonatomic) _Bool hasRank;
-@property(nonatomic) _Bool hasUserCreated;
-@property(nonatomic) _Bool newItem; // @synthesize newItem=_newItem;
-@property(nonatomic) long long rank; // @synthesize rank=_rank;
-@property(nonatomic) _Bool userCreated; // @synthesize userCreated=_userCreated;
 
 @end
 

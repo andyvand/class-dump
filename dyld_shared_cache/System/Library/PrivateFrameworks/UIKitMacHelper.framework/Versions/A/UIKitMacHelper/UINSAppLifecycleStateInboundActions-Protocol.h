@@ -5,5 +5,8 @@
 //
 
 @protocol UINSAppLifecycleStateInboundActions
+- (void)A;
+- (void);
+- (void)rB;
 @end
 

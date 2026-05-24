@@ -10,13 +10,13 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)(c;
 - (float);
 - (_Bool);
 - (long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

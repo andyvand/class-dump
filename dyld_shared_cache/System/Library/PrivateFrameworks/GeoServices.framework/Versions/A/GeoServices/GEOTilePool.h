@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileCache, NSObject;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface GEOTilePool
 {
     NSObject<OS_dispatch_source> *_memoryNotificationEventSource;
-    struct _GEOGenericContainer<_GEOTileKey, GEOTileData *, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0UL, 0UL, geo::GEOGenericContainerLockingTag, geo::detail::_default_pointer_type> _pool;
-    struct _GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0UL, 0UL, geo::GEOGenericContainerLockingTag, geo::detail::_default_pointer_type> _decodedPool;
-    GEOTileCache *_cache;
 }
 
 - (void);
@@ -23,26 +20,23 @@
 - (id);
 - (id);
 - (void);
+- (void)e-bracketed, or quoted name;
 - (void);
-- (void);
-- (id);
+- (id)_imageFrame;
 - (_Bool);
 - (void);
 - (unsigned long long)a	'Ð!¨Eùñ¹*°1Â0@ù
 × ;
 - (void)Cùº*°1Â0@ù
 × ;
-- (unsigned long long)umValue;
+- (unsigned long long)_shieldEnumValue;
 - (void)ing",R,N,V_isoCode;
-- (id)ute_id;
+- (id)occurrence_route_id;
 - (unsigned long long)È;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentCost;
 @property(readonly, nonatomic) unsigned long long currentCount;
-@property unsigned long long maxCapacity;
-@property unsigned long long maxCost;
 
 @end
 

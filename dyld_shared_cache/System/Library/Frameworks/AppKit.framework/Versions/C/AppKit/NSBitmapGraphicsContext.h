@@ -11,11 +11,6 @@
 @interface NSBitmapGraphicsContext : NSWindowGraphicsContext
 {
     NSBitmapImageRep *_imageRep;
-    struct {
-        unsigned int _isFlipped:1;
-        unsigned int _isDrawingToScreen:1;
-        unsigned int _unused:30;
-    } _bgcFlags;
 }
 
 - (id);

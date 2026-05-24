@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSString, PHFetchResult, PHPhotoLibrary, PHUserFeedbackCalculator, PXTimelineDataSourceOptions;
+@class NSArray, PHPhotoLibrary;
 
 @interface PXTimelineDataSource
 {
     NSArray *_assets;
-    NSDictionary *_keyAssetByMemoryLocalIdentifier;
-    NSDictionary *_keyAssetByFeaturedPhotoLocalIdentifier;
-    NSDictionary *_suggestedCropByFeaturedPhotoLocalIdentifier;
-    unsigned long long _sourceType;
-    unsigned long long _widgetSizeClass;
-    PHFetchResult *_featuredMemories;
-    NSString *_sourceIdentifier;
-    PHPhotoLibrary *_photoLibrary;
-    NSMutableArray *_memoryCandidates;
-    NSMutableArray *_featuredPhotoCandidates;
-    NSMutableArray *_filteredContent;
-    PHUserFeedbackCalculator *_userFeedbackCalculator;
-    PXTimelineDataSourceOptions *_options;
 }
 
 + (_Bool);
@@ -33,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -42,7 +29,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)� ;
 - (id);
 - (id);
 - (id);
@@ -62,33 +49,18 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)feedItemIdentifier;
 - (id);
-- (id);
-- (id);
-- (id)cWorkaround;
+- (id)setPhaseInDuration: /* Error: Ran out of types for this method. */;
+- (id)mTextBoxArrowFlippedProvider;
+- (id)_disableInfoButtonMonochromaticWorkaround;
 - (id)ÿïþÿ(	ûÿîÇûÿæûÿ;
 - (void);
 - (id)ý·&úþ;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) PHFetchResult *featuredMemories; // @synthesize featuredMemories=_featuredMemories;
-@property(retain, nonatomic) NSMutableArray *featuredPhotoCandidates; // @synthesize featuredPhotoCandidates=_featuredPhotoCandidates;
-@property(readonly, nonatomic) NSArray *featuredPhotos;
-@property(retain, nonatomic) NSMutableArray *filteredContent; // @synthesize filteredContent=_filteredContent;
-@property(readonly, nonatomic) NSDictionary *keyAssetByFeaturedPhotoLocalIdentifier; // @synthesize keyAssetByFeaturedPhotoLocalIdentifier=_keyAssetByFeaturedPhotoLocalIdentifier;
-@property(readonly, nonatomic) NSDictionary *keyAssetByMemoryLocalIdentifier; // @synthesize keyAssetByMemoryLocalIdentifier=_keyAssetByMemoryLocalIdentifier;
-@property(readonly, nonatomic) NSArray *memories;
-@property(retain, nonatomic) NSMutableArray *memoryCandidates; // @synthesize memoryCandidates=_memoryCandidates;
-@property(retain, nonatomic) PXTimelineDataSourceOptions *options; // @synthesize options=_options;
 @property(readonly, nonatomic) __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(readonly, nonatomic) unsigned long long sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly, nonatomic) NSDictionary *suggestedCropByFeaturedPhotoLocalIdentifier; // @synthesize suggestedCropByFeaturedPhotoLocalIdentifier=_suggestedCropByFeaturedPhotoLocalIdentifier;
-@property(retain, nonatomic) PHUserFeedbackCalculator *userFeedbackCalculator; // @synthesize userFeedbackCalculator=_userFeedbackCalculator;
-@property(readonly, nonatomic) unsigned long long widgetSizeClass; // @synthesize widgetSizeClass=_widgetSizeClass;
 
 @end
 

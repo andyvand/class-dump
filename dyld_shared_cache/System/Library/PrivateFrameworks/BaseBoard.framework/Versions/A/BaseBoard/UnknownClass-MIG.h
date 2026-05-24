@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MIG)
-+ (id);
++ (id)3;
 - (void *);
 - (unsigned int);
 @end

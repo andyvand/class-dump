@@ -7,14 +7,13 @@
 @interface CKGlassSendButton
 {
     BOOL ckTintColor;
-    id cachedHitTestPath;
 }
 
 + (struct CGSize);
 - (BOOL);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)";
 - (id);
 - (struct CGSize);
 - (_Bool);
@@ -26,9 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) BOOL ckTintColor; // @synthesize ckTintColor;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic) _Bool userInteractionEnabled;
 
 @end
 

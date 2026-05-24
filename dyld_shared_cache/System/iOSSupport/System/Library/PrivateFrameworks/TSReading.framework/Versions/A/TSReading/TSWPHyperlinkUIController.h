@@ -4,77 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDRep, TSWPChangeSession, TSWPEditingController, TSWPHyperlinkField, TSWPInteractiveCanvasController, TSWPStorage, UIViewController;
+@class NSString, TSDRep;
 @protocol TSWPHyperlinkHostRepProtocol;
 
 @interface TSWPHyperlinkUIController
 {
     TSDRep<TSWPHyperlinkHostRepProtocol> *_hyperlinkRep;
-    TSWPHyperlinkField *_hyperlinkField;
-    TSWPStorage *_observedStorage;
-    unsigned long long _hyperlinkUISessionID;
-    TSWPEditingController *_cachedEditingController;
-    TSWPChangeSession *_changeSession;
-    NSString *_originalDisplayText;
-    NSString *_editedDisplayText;
-    NSString *_editedURLString;
-    _Bool _removeHyperlink;
-    _Bool _closingDocument;
-    _Bool _shouldMaintainKeyboardWhenEndingSession;
 }
 
++ (id));
 + (id);
-+ (id);
-- (id);
+- (id)%@;
+- (void)ed non-placeholder identifers:(id)arg1 %@;
+- (void)@;
+- (void)Object"8;
+- (_Bool)wnloaded asset on play;
+- (void)n either identifier list:(_Bool)arg1 %@;
+- (void)d;
+- (void)ics;
+- (void)-changed;
+- (struct CGRect)PLAYBACK_ERROR_ALERT_ASSET_REVOKED_MESSAGE;
+- (void)e event with rate: /* Error: Ran out of types for this method. */;
+- (_Bool)r event ;
+- (_Bool)rossfade User Defaults;
+- (void)rController - Queue->Player synchronization completed [removed all player items] - player: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (int);
-- (_Bool);
-- (_Bool);
-- (void);
+- (int)isualIdenticalityToken;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSString *editedDisplayText; // @synthesize editedDisplayText=_editedDisplayText;
-@property(retain, nonatomic) NSString *editedURLString; // @synthesize editedURLString=_editedURLString;
-@property(readonly, nonatomic) TSWPEditingController *editingController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) TSWPInteractiveCanvasController *interactiveCanvasController;
-@property(readonly, nonatomic) _Bool isCanvasInReadMode;
-@property(nonatomic) _Bool shouldMaintainKeyboardWhenEndingSession; // @synthesize shouldMaintainKeyboardWhenEndingSession=_shouldMaintainKeyboardWhenEndingSession;
-@property(readonly, nonatomic) NSString *stringForDisplay;
-@property(readonly, nonatomic) NSString *stringForURL;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIViewController *viewControllerForPresenting;
 
 @end
 

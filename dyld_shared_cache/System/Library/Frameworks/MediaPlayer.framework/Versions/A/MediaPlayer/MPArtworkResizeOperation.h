@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSImage, NSObject, NSURL;
-@protocol OS_dispatch_group;
+@class NSImage;
 
 @interface MPArtworkResizeOperation
 {
     _Bool _usesExactFittingSizeAsDestinationSize;
-    NSImage *_resizedImage;
-    NSError *_error;
-    NSURL *_destinationURL;
-    NSObject<OS_dispatch_group> *_operationGroup;
-    NSImage *_image;
-    struct CGSize _scaledFittingSize;
 }
 
-- (_Bool);
+- (_Bool)|;
 - (void);
 - (void);
 - (struct CGSize);
@@ -29,20 +22,14 @@
 - (struct CGSize);
 - (id);
 - (void);
+- (id)ces;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)DateComponents__MAPPING_MISSING__;
+- (void)insertTracklist:atPosition:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)__MPModelPropertyPlaylistLastModifiedDateComponents__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *operationGroup; // @synthesize operationGroup=_operationGroup;
-@property(readonly, nonatomic) NSImage *resizedImage; // @synthesize resizedImage=_resizedImage;
-@property(nonatomic) struct CGSize scaledFittingSize; // @synthesize scaledFittingSize=_scaledFittingSize;
-@property(nonatomic) _Bool usesExactFittingSizeAsDestinationSize; // @synthesize usesExactFittingSizeAsDestinationSize=_usesExactFittingSizeAsDestinationSize;
 
 @end
 

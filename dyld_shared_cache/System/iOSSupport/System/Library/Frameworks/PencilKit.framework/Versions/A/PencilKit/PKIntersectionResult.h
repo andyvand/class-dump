@@ -9,8 +9,6 @@
 @interface PKIntersectionResult
 {
     NSOrderedSet *_intersectedStrokes;
-    long long _intersectionAlgorithmType;
-    long long _contentType;
 }
 
 + (id);
@@ -18,14 +16,12 @@
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long)currentAzimuthOffsetValue;
 - (void)T	 	;
-- (void)electionActionTypeInsertSpace;
+- (void)selectionActionTypeInsertSpace;
 
 // Remaining properties
-@property(nonatomic) long long contentType; // @synthesize contentType=_contentType;
 @property(retain, nonatomic) NSOrderedSet *intersectedStrokes; // @synthesize intersectedStrokes=_intersectedStrokes;
-@property(nonatomic) long long intersectionAlgorithmType; // @synthesize intersectionAlgorithmType=_intersectionAlgorithmType;
 
 @end
 

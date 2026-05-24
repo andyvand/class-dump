@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMISystemResourceUsage, HMISystemResourceUsageMonitorImpl, NSObject;
-@protocol HMISystemResourceUsageMonitorDelegate, OS_dispatch_queue;
+@class HMISystemResourceUsageMonitorImpl;
 
 @interface HMISystemResourceUsageMonitor
 {
     HMISystemResourceUsageMonitorImpl *_systemResourceUsageMonitorImpl;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (float);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)_;
 - (id);
 - (void);
+- (id);
+- (void)9N:(id)arg1 N;N<;
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) HMISystemResourceUsage *currentSystemResourceUsage;
-@property __weak id <HMISystemResourceUsageMonitorDelegate> delegate;
-@property(readonly) float maxAnalysisFPS;
-@property(readonly) unsigned long long maxNumberOfAnalyzers;
 @property(readonly) HMISystemResourceUsageMonitorImpl *systemResourceUsageMonitorImpl; // @synthesize systemResourceUsageMonitorImpl=_systemResourceUsageMonitorImpl;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

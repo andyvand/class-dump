@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHTTPURLResponse;
-
 @interface FAHTTPResponse
 {
     _Bool _familyRefreshTriggered;
-    NSHTTPURLResponse *_HTTPResponse;
-    id _body;
 }
 
-- (void);
+- (void)description;
+- (id)PCM_Mono_16Bit_11025Hz;
+- (id)MovieTheater;
+- (_Bool)zed object group:%@ class:%@ aceId:%@ refId:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)C;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSHTTPURLResponse *HTTPResponse; // @synthesize HTTPResponse=_HTTPResponse;
-@property(readonly, nonatomic) id body; // @synthesize body=_body;
 @property(nonatomic) _Bool familyRefreshTriggered; // @synthesize familyRefreshTriggered=_familyRefreshTriggered;
 
 @end

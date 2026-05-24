@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NSExtendedCorrectionCheckingResult
 {
     struct _NSRange _sentenceRange;
-    NSDictionary *_detail;
 }
 
 - (struct _NSRange);
-- (_Bool);
-- (id);
+- (_Bool){weak_ptr<TransportConnection>="__ptr_"^{TransportConnection}"__cntrl_"^{__shared_weak_count}};
+- (id)set_duetPreauthorized:(struct _NSRange)arg1;
 - (id);
 - (void);
 

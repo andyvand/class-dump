@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDDCloudKitServerConfiguration, CKScheduler, NSError, NSObject, NSPersistentContainer, NSString, NSXPCListener, PFCloudKitContainerProvider;
-@protocol OS_dispatch_group;
+@class NSXPCListener;
 
 __attribute__((visibility("hidden")))
 @interface CDDCloudKitServer
 {
     _Bool _initialized;
-    NSXPCListener *_listener;
-    CDDCloudKitServerConfiguration *_configuration;
-    NSPersistentContainer *_metadataContainer;
-    NSObject<OS_dispatch_group> *_initializationGroup;
-    NSError *_lastInitializationError;
-    PFCloudKitContainerProvider *_containerProvider;
-    CKScheduler *_scheduler;
 }
 
 - (void);
 - (id);
 - (id);
 - (oneway void);
-- (void);
+- (void)Z;
 - (id);
 - (id);
 - (id);
@@ -34,17 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)SetNonPurgeable failed to set vm buffer as non-purgeable:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDDCloudKitServerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) PFCloudKitContainerProvider *containerProvider; // @synthesize containerProvider=_containerProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly, nonatomic) CKScheduler *scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
 
 @end
 

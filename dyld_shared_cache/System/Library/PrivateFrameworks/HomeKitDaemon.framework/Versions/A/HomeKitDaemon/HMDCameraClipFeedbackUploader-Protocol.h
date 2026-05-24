@@ -5,5 +5,6 @@
 //
 
 @protocol HMDCameraClipFeedbackUploader
+- (void)8h;
 @end
 

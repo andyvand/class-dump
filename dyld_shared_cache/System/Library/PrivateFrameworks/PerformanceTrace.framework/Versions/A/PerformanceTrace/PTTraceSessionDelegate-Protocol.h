@@ -5,5 +5,10 @@
 //
 
 @protocol PTTraceSessionDelegate
+
+@optional
+- (void)MessageSummaryInfo;
+- (void)IMSharedUtilitiesProtoCloudKitEncryptedMessageP2;
+- (void)IMMutedChatList;
 @end
 

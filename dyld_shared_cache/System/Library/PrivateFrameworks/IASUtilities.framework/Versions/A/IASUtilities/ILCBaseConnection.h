@@ -4,55 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSThread;
+@class NSString;
 
 @interface ILCBaseConnection
 {
     int _servernonce;
-    int _clientnonce;
-    int _socket;
-    NSString *_hostname;
-    NSString *_password;
-    NSData *_passwordHash;
-    NSThread *_workThread;
 }
 
 - (void);
 - (void);
 - (int);
 - (int);
-- (id);
-- (int);
+- (id)R;
+- (int);
 - (id);
 - (void);
 - (_Bool);
-- (int);
+- (int);
 - (void);
 - (void);
 - (int);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)_;
 - (int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void):(id)arg1 8@16@24;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property int clientnonce; // @synthesize clientnonce=_clientnonce;
 @property(retain) NSString *hostname; // @synthesize hostname=_hostname;
-@property(retain) NSString *password; // @synthesize password=_password;
-@property(retain) NSData *passwordHash; // @synthesize passwordHash=_passwordHash;
-@property int servernonce; // @synthesize servernonce=_servernonce;
-@property int socket; // @synthesize socket=_socket;
-@property(retain) NSThread *workThread; // @synthesize workThread=_workThread;
 
 @end
 

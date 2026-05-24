@@ -7,13 +7,6 @@
 @interface AWDLibnetcoreNetworkdStatsReport
 {
     unsigned long long _fallbackConnectionCount;
-    unsigned long long _totalConnectionCount;
-    unsigned long long _totalSuccessfulConnectionCount;
-    struct {
-        unsigned int fallbackConnectionCount:1;
-        unsigned int totalConnectionCount:1;
-        unsigned int totalSuccessfulConnectionCount:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -24,27 +17,22 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id));
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)S;
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long fallbackConnectionCount; // @synthesize fallbackConnectionCount=_fallbackConnectionCount;
-@property(nonatomic) _Bool hasFallbackConnectionCount;
 @property(nonatomic) _Bool hasTotalConnectionCount;
-@property(nonatomic) _Bool hasTotalSuccessfulConnectionCount;
-@property(nonatomic) unsigned long long totalConnectionCount; // @synthesize totalConnectionCount=_totalConnectionCount;
-@property(nonatomic) unsigned long long totalSuccessfulConnectionCount; // @synthesize totalSuccessfulConnectionCount=_totalSuccessfulConnectionCount;
 
 @end
 

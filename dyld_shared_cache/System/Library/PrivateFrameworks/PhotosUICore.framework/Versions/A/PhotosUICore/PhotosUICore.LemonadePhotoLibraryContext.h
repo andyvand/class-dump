@@ -7,11 +7,6 @@
 @interface PhotosUICore.LemonadePhotoLibraryContext
 {
     id photoLibrary;
-    id libraryFilterState;
-    id itemListManagerFactory;
-    id pickerConfiguration;
-    id bookmarksManager;
-    id memoriesCreationAvailabilityManager;
 }
 
 @end

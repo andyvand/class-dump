@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMailboxPersistence, EDMessagePersistence;
-@protocol EDAccountsProvider, EMVIPManager;
+@protocol EDAccountsProvider;
 
 @interface EDMessageQueryTransformer
 {
     id <EDAccountsProvider> _accountsProvider;
-    EDMailboxPersistence *_mailboxPersistence;
-    EDMessagePersistence *_messagePersistence;
-    id <EMVIPManager> _vipManager;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <EDAccountsProvider> accountsProvider; // @synthesize accountsProvider=_accountsProvider;
-@property(readonly, nonatomic) EDMailboxPersistence *mailboxPersistence; // @synthesize mailboxPersistence=_mailboxPersistence;
-@property(readonly, nonatomic) __weak EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) id <EMVIPManager> vipManager; // @synthesize vipManager=_vipManager;
 
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWDisplayedScanResult, NSButton, NSData, NSImageView, NSString, NSTextField;
+@class CWDisplayedScanResult;
 
 @interface CWLockdownModeDialog
 {
     CWDisplayedScanResult *_scanResult;
-    NSString *_username;
-    NSString *_password;
-    NSData *_identityData;
-    _Bool _remember;
-    NSTextField *_title;
-    NSTextField *_description;
-    NSButton *_okButton;
-    NSButton *_cancelButton;
-    NSImageView *_imageView;
-    id _delegate;
 }
 
 - (void);
@@ -44,11 +34,6 @@
 
 // Remaining properties
 @property __weak id delegate; // @synthesize delegate=_delegate;
-@property(copy) NSData *identityData; // @synthesize identityData=_identityData;
-@property(copy) NSString *password; // @synthesize password=_password;
-@property _Bool remember; // @synthesize remember=_remember;
-@property(readonly, copy) CWDisplayedScanResult *scanResult; // @synthesize scanResult=_scanResult;
-@property(copy) NSString *username; // @synthesize username=_username;
 
 @end
 

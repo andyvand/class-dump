@@ -7,14 +7,10 @@
 @interface Pø¹S8©¨ÑPø¨CÑPø¸[9©¡Ñ
 {
     id @;
-    id jv¸³þÿ5ø7è?@ù@ù	;
 }
 
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: jv¸³þÿ5ø7è?@ù@ù	
-// Property attributes: è'
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: @
 // Property attributes: q?×|"AùúªHCøàª!
 

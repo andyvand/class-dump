@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarImageRenderer, CNAvatarView, CNCardSharedProfileCellMenuButton, CNContact, CNPropertyGroupItem, CNSharedProfileStateOracle, NSArray, NSString, UIImageView, UILabel, UIStackView;
-@protocol CNAvatarImageRenderingScope, CNCardSharedProfileCellViewDelegate;
+@class CNAvatarView;
 
 __attribute__((visibility("hidden")))
 @interface CNCardSharedProfileCellView
 {
     _Bool _allowsEditing;
-    CNContact *_contact;
-    id <CNCardSharedProfileCellViewDelegate> _delegate;
-    CNPropertyGroupItem *_propertyItem;
-    CNSharedProfileStateOracle *_sharedProfileStateOracle;
-    CNAvatarView *_avatarView;
-    UIStackView *_labelStackView;
-    UILabel *_titleLabel;
-    UILabel *_valueLabel;
-    UIImageView *_chevronImageView;
-    CNCardSharedProfileCellMenuButton *_menuButton;
-    NSArray *_constraints;
-    CNAvatarImageRenderer *_avatarImageRenderer;
-    id <CNAvatarImageRenderingScope> _renderingScope;
-    unsigned long long _actionToPerformUponCacheInvalidation;
 }
 
 + (id)ÁDÐ!TGùqt°1Â0@ù
@@ -37,42 +22,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)*;
+- (id);
+- (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long)]	;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)*;
 - (long long);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (id);
@@ -88,28 +73,7 @@ __attribute__((visibility("hidden")))
 - (id)CNContactOrbHeaderViewController",&,N,V_orbHeaderViewController;
 
 // Remaining properties
-@property(nonatomic) unsigned long long actionToPerformUponCacheInvalidation; // @synthesize actionToPerformUponCacheInvalidation=_actionToPerformUponCacheInvalidation;
-@property(nonatomic) _Bool allowsEditing; // @synthesize allowsEditing=_allowsEditing;
-@property(retain, nonatomic) CNAvatarImageRenderer *avatarImageRenderer; // @synthesize avatarImageRenderer=_avatarImageRenderer;
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) UIImageView *chevronImageView; // @synthesize chevronImageView=_chevronImageView;
-@property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNCardSharedProfileCellViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIStackView *labelStackView; // @synthesize labelStackView=_labelStackView;
-@property(retain, nonatomic) CNCardSharedProfileCellMenuButton *menuButton; // @synthesize menuButton=_menuButton;
-@property(retain, nonatomic) CNPropertyGroupItem *propertyItem; // @synthesize propertyItem=_propertyItem;
-@property(retain, nonatomic) id <CNAvatarImageRenderingScope> renderingScope; // @synthesize renderingScope=_renderingScope;
-@property(retain, nonatomic) CNSharedProfileStateOracle *sharedProfileStateOracle; // @synthesize sharedProfileStateOracle=_sharedProfileStateOracle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) UILabel *valueLabel; // @synthesize valueLabel=_valueLabel;
 
 @end
 

@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableDictionary, NSString;
+@class NSDate;
 
 @interface MPClusterSlide
 {
     NSDate *mCaptureDate;
-    NSString *mPath;
-    long long mReferenceCounter;
-    NSMutableDictionary *mUsageCounterPerLayer;
-    NSMutableArray *mUsableSlideClusters;
-    long long mIndex;
 }
 
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void)sEnvelopeTracker.m;
+- (void)s/NewsDaemon/newsd/Analytics/NAUAnalyticsEnvelopeTracker.m;
+- (void)Directory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NAUAnalyticsEnvelopeTracker.m;
+- (void)3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeStore.m;
 - (void);
 - (long long);
 - (void);
@@ -37,15 +32,10 @@
 - (id);
 - (long long);
 - (long long);
-- (void)ContainerParallelizer;
+- (void)MCContainerParallelizer;
 
 // Remaining properties
 @property(copy) NSDate *captureDate; // @synthesize captureDate=mCaptureDate;
-@property long long index; // @synthesize index=mIndex;
-@property(copy) NSString *path; // @synthesize path=mPath;
-@property long long referenceCounter; // @synthesize referenceCounter=mReferenceCounter;
-@property(retain) NSMutableArray *usableSlideClusters; // @synthesize usableSlideClusters=mUsableSlideClusters;
-@property(retain) NSMutableDictionary *usageCounterPerLayer; // @synthesize usageCounterPerLayer=mUsageCounterPerLayer;
 
 @end
 

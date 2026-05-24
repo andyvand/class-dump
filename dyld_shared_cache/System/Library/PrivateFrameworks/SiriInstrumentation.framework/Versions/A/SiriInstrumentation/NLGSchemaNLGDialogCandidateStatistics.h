@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLGSchemaNLGDialogCandidateStatistics : SISchemaInstrumentationMessage
 {
     unsigned int _count;
-    CDStruct_bbadad30 _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)GostR3411-94-with-GostR3410-2001-cc;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -27,13 +24,11 @@
 × ;
 - (id)tted;
 - (id)r",&,N,V_underLyingError;
-- (void)dpointerContext;
+- (void)MHSchemaMHOnDeviceEndpointerContext;
 - (unsigned int);
 
 // Remaining properties
 @property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(nonatomic) _Bool hasCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

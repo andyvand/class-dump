@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTStickerSheetCollectionView, AVTStickerSheetModel, NSString, UIImage, UIView;
-@protocol AVTAvatarRecord, AVTPresenterDelegate, AVTStickerDisclosureValidationDelegate, AVTStickerSheetControllerDelegate, AVTStickerTaskScheduler;
+@class UIView;
 
 @interface AVTStickerSheetController
 {
     _Bool _allowsPeel;
-    _Bool _isPageVisible;
-    _Bool _areAllStickersRendered;
-    _Bool _showPrereleaseSticker;
-    id <AVTPresenterDelegate> presenterDelegate;
-    id <AVTStickerSheetControllerDelegate> delegate;
-    id <AVTStickerDisclosureValidationDelegate> disclosureValidationDelegate;
-    UIView *_view;
-    AVTStickerSheetCollectionView *_collectionView;
-    AVTStickerSheetModel *_model;
-    UIImage *_placeholderImage;
-    id <AVTStickerTaskScheduler> _taskScheduler;
-    struct UIEdgeInsets _sectionInsets;
 }
 
 - (void);
@@ -42,8 +29,8 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (struct CGPoint);
-- (_Bool);
+- (struct CGPoint);
+- (_Bool)C;
 - (id);
 - (id);
 - (id);
@@ -59,15 +46,15 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)reference element ;
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)H;
+- (void)NSt3__110shared_ptrIN3pci9transport2thEE27__shared_ptr_default_deleteIS3_S3_EE;
+- (id)removeItemAtPath:error: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (id);
@@ -77,35 +64,15 @@
 - (id);
 - (long long);
 - (struct UIEdgeInsets);
-- (long long);
+- (long long)}@ - %@ Retrieval state:(id)arg1 %d;
 - (void);
-- (double);
+- (double)rror">24;
 - (void);
 - (_Bool);
 - (void);
-- (id)ayer:(id)arg1 atIndex:(id)arg2;
+- (id)insertSublayer:(id)arg1 atIndex:(id)arg2;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsPeel; // @synthesize allowsPeel=_allowsPeel;
-@property(nonatomic) _Bool areAllStickersRendered; // @synthesize areAllStickersRendered=_areAllStickersRendered;
-@property(readonly, nonatomic) id <AVTAvatarRecord> avatarRecord;
-@property(retain, nonatomic) AVTStickerSheetCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTStickerSheetControllerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <AVTStickerDisclosureValidationDelegate> disclosureValidationDelegate; // @synthesize disclosureValidationDelegate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isPageVisible; // @synthesize isPageVisible=_isPageVisible;
-@property(retain, nonatomic) AVTStickerSheetModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) UIImage *placeholderImage; // @synthesize placeholderImage=_placeholderImage;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate;
-@property(nonatomic) struct UIEdgeInsets sectionInsets; // @synthesize sectionInsets=_sectionInsets;
-@property(nonatomic) _Bool showPrereleaseSticker; // @synthesize showPrereleaseSticker=_showPrereleaseSticker;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <AVTStickerTaskScheduler> taskScheduler; // @synthesize taskScheduler=_taskScheduler;
 @property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end

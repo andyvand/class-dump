@@ -5,6 +5,7 @@
 //
 
 @protocol TDuplicateTaskDelegateProtocol
+- (_Bool)R;
 
 // Remaining properties
 @property(nonatomic) _Bool nextSelectionAllowsRetarget;

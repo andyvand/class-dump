@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSObject, NSSet, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, TUConversationManagerDataSourceDelegate, TUConversationMediaControllerDataSourceDelegate, TUConversationReactionsControllerDataSourceDelegate, TUScreenSharingRemoteControlProviderDelegate;
-
 @interface TUConversationManagerXPCClient
 {
     _Bool _autoSharePlayEnabled;
-    _Bool _hasRequestedInitialState;
-    _Bool _hasInitialState;
-    _Bool _shouldConnectToHost;
-    _Bool _shouldPopulatePseudonymsOnSetup;
-    struct os_unfair_lock_s _accessorLock;
-    int _shouldConnectToken;
-    int _daemonLaunchToken;
-    id <TUConversationManagerDataSourceDelegate> _delegate;
-    id <TUConversationMediaControllerDataSourceDelegate> _mediaDelegate;
-    id <TUConversationReactionsControllerDataSourceDelegate> _reactionsDelegate;
-    NSXPCConnection *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDictionary *_conversationsByGroupUUID;
-    NSDictionary *_pseudonymsByCallUUID;
-    NSDictionary *_advertisementsOnSystem;
-    NSDictionary *_activityAuthorizedBundleIdentifiers;
-    NSNumber *_sharePlayAvailable;
-    NSNumber *_screenSharingAvailable;
-    id <TUScreenSharingRemoteControlProviderDelegate> _remoteControlProviderDelegate;
 }
 
 + (id);
@@ -37,23 +15,23 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)(;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (oneway void);
 - (void);
 - (oneway void);
-- (void);
+- (void);
 - (void);
 - (oneway void);
 - (oneway void);
 - (void);
+- (void)qA;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)q3;
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -69,7 +47,7 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
+- (oneway void);
 - (id);
 - (oneway void);
 - (void);
@@ -77,40 +55,41 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)1;
 - (oneway void);
 - (oneway void);
 - (void);
+- (void);
+- (id);
+- (void)?;
+- (void)T;
+- (void)h;
+- (void)
+;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)s;
 - (void);
 - (void);
 - (id);
+- (void);
+- (id)`;
+- (void)E;
+- (void);
+- (void);
+- (id)(@A9;
 - (void);
 - (oneway void);
 - (void);
 - (struct os_unfair_lock_s);
 - (void);
 - (void);
+- (oneway void);
+- (void)P;
 - (oneway void);
 - (void);
 - (oneway void);
 - (void);
-- (oneway void);
-- (void);
-- (oneway void);
+- (oneway void)P;
 - (void);
 - (void);
 - (oneway void);
@@ -119,20 +98,7 @@
 - (void);
 - (void);
 - (void);
-- (oneway void);
-- (oneway void);
-- (void);
-- (oneway void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (oneway void);
-- (void);
-- (void);
-- (oneway void);
-- (void);
+- (oneway void)qA;
 - (oneway void);
 - (void);
 - (oneway void);
@@ -141,6 +107,19 @@
 - (id);
 - (void);
 - (void);
+- (oneway void);
+- (void);
+- (void);
+- (oneway void);
+- (void);
+- (oneway void);
+- (void);
+- (oneway void)qA;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)`;
 - (void);
 - (oneway void);
 - (void);
@@ -154,40 +133,40 @@
 - (oneway void);
 - (oneway void);
 - (void);
-- (void);
+- (void)?�|;
 - (oneway void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void)h;
 - (void);
 - (oneway void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)interfaceWithProtocol:(id)arg1;
 - (void);
-- (void);
-- (oneway void);
-- (void);
+- (oneway void)";
+- (void)D;
 - (void);
 - (void)
 × ;
 - (int)0@ù
 × ;
-- (void)calVideo: /* Error: Ran out of types for this method. */;
-- (void)ier:(CDUnknownBlockType)arg1;
-- (oneway void)mSmartHoldingRequestWithType:(id)arg1 forCallWithUUID:(id)arg2 completion:(id)arg3;
-- (void)omplete:tokens:utteranceNumber:updateNumber:utteranceStartTimestamp:utteranceDuration: /* Error: Ran out of types for this method. */;
+- (void)setLocalVideo: /* Error: Ran out of types for this method. */;
+- (void)pickableRouteWithUniqueIdentifier:(CDUnknownBlockType)arg1;
+- (oneway void)performSmartHoldingRequestWithType:(id)arg1 forCallWithUUID:(id)arg2 completion:(id)arg3;
+- (void)initWithText:utteranceComplete:tokens:utteranceNumber:updateNumber:utteranceStartTimestamp:utteranceDuration: /* Error: Ran out of types for this method. */;
 - (_Bool)CGSize=dd},N,V_remoteScreenLandscapeAspectRatio;
 - (void)alDevice;
 - (int)rdingSession",R,N;
 - (void)SValue",&,N,V_originalResolution;
 - (void)tionStateByIdentifier;
-- (void)nversationMessagesGroupProviderXPCClient;
+- (void)TUConversationMessagesGroupProviderXPCClient;
 - (void)ð;
 - (id)ÿÞRùÿ;
 - (_Bool)ier failed with error %@;
@@ -195,42 +174,12 @@
 - (void)¬áúÿ;
 - (void);
 - (id)s/MacOS/Intents;
-- (_Bool)dMusicChangedNotification;
-- (_Bool)racefulFallback;
+- (_Bool)TUCallCenterCallWantsHoldMusicChangedNotification;
+- (_Bool)DefaultCallingAppsGracefulFallback;
 - (void)pple.homebuttonless-ipad;
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(readonly, copy, nonatomic) NSSet *activatedConversationLinks;
-@property(copy, nonatomic) NSDictionary *activityAuthorizedBundleIdentifiers; // @synthesize activityAuthorizedBundleIdentifiers=_activityAuthorizedBundleIdentifiers;
-@property(copy, nonatomic) NSDictionary *advertisementsOnSystem; // @synthesize advertisementsOnSystem=_advertisementsOnSystem;
-@property(nonatomic) _Bool autoSharePlayEnabled; // @synthesize autoSharePlayEnabled=_autoSharePlayEnabled;
-@property(copy, nonatomic) NSDictionary *conversationsByGroupUUID; // @synthesize conversationsByGroupUUID=_conversationsByGroupUUID;
-@property(nonatomic) int daemonLaunchToken; // @synthesize daemonLaunchToken=_daemonLaunchToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TUConversationManagerDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasInitialState; // @synthesize hasInitialState=_hasInitialState;
-@property(nonatomic) _Bool hasRequestedInitialState; // @synthesize hasRequestedInitialState=_hasRequestedInitialState;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSDictionary *incomingPendingConversationsByGroupUUID;
-@property(readonly, nonatomic) _Bool isScreenSharingAvailable;
-@property(readonly, nonatomic) _Bool isSharePlayAvailable;
-@property(nonatomic) __weak id <TUConversationMediaControllerDataSourceDelegate> mediaDelegate; // @synthesize mediaDelegate=_mediaDelegate;
-@property(copy, nonatomic) NSDictionary *pseudonymsByCallUUID; // @synthesize pseudonymsByCallUUID=_pseudonymsByCallUUID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) __weak id <TUConversationReactionsControllerDataSourceDelegate> reactionsDelegate; // @synthesize reactionsDelegate=_reactionsDelegate;
-@property(nonatomic) __weak id <TUScreenSharingRemoteControlProviderDelegate> remoteControlProviderDelegate; // @synthesize remoteControlProviderDelegate=_remoteControlProviderDelegate;
-@property(copy, nonatomic) NSNumber *screenSharingAvailable; // @synthesize screenSharingAvailable=_screenSharingAvailable;
-@property(copy, nonatomic) NSNumber *sharePlayAvailable; // @synthesize sharePlayAvailable=_sharePlayAvailable;
-@property(nonatomic) _Bool shouldConnectToHost; // @synthesize shouldConnectToHost=_shouldConnectToHost;
-@property(nonatomic) int shouldConnectToken; // @synthesize shouldConnectToken=_shouldConnectToken;
-@property(nonatomic) _Bool shouldPopulatePseudonymsOnSetup; // @synthesize shouldPopulatePseudonymsOnSetup=_shouldPopulatePseudonymsOnSetup;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

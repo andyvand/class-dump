@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol GEOTransitShieldDataSource
+- (NSString *)sensitive,mask.mailbox}s] Found %ld new UIDs on server. Querying server..;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *shieldColorString;
-@property(readonly, nonatomic) NSString *shieldText;
 @property(readonly, nonatomic) long long shieldType;
 @end
 

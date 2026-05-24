@@ -7,6 +7,6 @@
 @class NSDate;
 
 @protocol CalDateProvider
-- (NSDate *)redUserAddress;
+- (NSDate *)preferredUserAddress;
 @end
 

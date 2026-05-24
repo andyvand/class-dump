@@ -9,16 +9,6 @@
 @interface _MRCryptoPairingMessageProtobuf
 {
     NSData *_pairingData;
-    int _state;
-    int _status;
-    _Bool _isRetrying;
-    _Bool _isUsingSystemPairing;
-    struct {
-        unsigned int state:1;
-        unsigned int status:1;
-        unsigned int isRetrying:1;
-        unsigned int isUsingSystemPairing:1;
-    } _has;
 }
 
 - (void);
@@ -30,8 +20,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)7�P7�07�87�@7� 7�(7�	7�
+7�7�;
 - (void);
 - (_Bool);
 - (id);
@@ -45,23 +36,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (int);
-- (id);
+- (int)h
+@;
+- (id)ReceiveNotificationWithToken:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void)eApplicationDidChangeNotification: /* Error: Ran out of types for this method. */;
+- (void)_handleActiveApplicationDidChangeNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRetrying;
-@property(nonatomic) _Bool hasIsUsingSystemPairing;
 @property(readonly, nonatomic) _Bool hasPairingData;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool isRetrying; // @synthesize isRetrying=_isRetrying;
-@property(nonatomic) _Bool isUsingSystemPairing; // @synthesize isUsingSystemPairing=_isUsingSystemPairing;
-@property(retain, nonatomic) NSData *pairingData; // @synthesize pairingData=_pairingData;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(nonatomic) int status; // @synthesize status=_status;
 
 @end
 

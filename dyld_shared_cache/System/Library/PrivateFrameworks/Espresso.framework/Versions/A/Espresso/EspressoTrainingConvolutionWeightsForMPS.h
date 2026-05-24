@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface EspressoTrainingConvolutionWeightsForMPS : EspressoConvolutionWeightsForMPS
 {
     _Bool is_training;
-    id <MTLBuffer> _weightsBuffer;
-    id <MTLBuffer> _biasesBuffer;
 }
 
 - (float *);
@@ -28,7 +26,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)F17e5rt_error_code_tvEEE;
 
 // Remaining properties
-@property(retain) id <MTLBuffer> biasesBuffer; // @synthesize biasesBuffer=_biasesBuffer;
 @property(retain) id <MTLBuffer> weightsBuffer; // @synthesize weightsBuffer=_weightsBuffer;
 
 @end

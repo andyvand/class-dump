@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface WSHIDEventDeliveryObserverService
 {
     WSHIDEventDeliveryObserverServer *_server;
-    BKHIDEventDeliveryObserverService *_bkService;
 }
 
-- (id);
+- (id)supportsRecordSharing;
 - (id);
 - (void)è;
 

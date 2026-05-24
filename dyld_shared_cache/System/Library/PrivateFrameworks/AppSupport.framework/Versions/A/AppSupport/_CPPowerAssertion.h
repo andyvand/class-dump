@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _CPPowerAssertion
 {
     double _timeout;
-    NSString *_identifier;
-    NSArray *_stack;
 }
 
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (double);
 

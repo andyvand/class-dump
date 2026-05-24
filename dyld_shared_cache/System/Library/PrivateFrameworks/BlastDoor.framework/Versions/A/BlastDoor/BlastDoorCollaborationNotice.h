@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface BlastDoorCollaborationNotice
 {
@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (id);
+- (id){CGRect={CGPoint=dd}{CGSize=dd}}16B48@52@?60;
 - (long long);
 - (id);
 - (id);
@@ -22,11 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *guidString;
-@property(nonatomic, readonly) NSData *highlightEvent;
-@property(nonatomic, readonly) unsigned long long highlightEventType;
-@property(nonatomic, readonly) NSDate *noticeDate;
-@property(nonatomic, readonly) long long version;
 
 @end
 

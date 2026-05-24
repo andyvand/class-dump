@@ -6,40 +6,28 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSString;
-
 @interface NSTouchBarControlStripPlatter : NSView
 {
     double _cornerRadius;
-    NSColor *_platterColor;
 }
 
-+ (id);
++ (id)on;
 + (_Bool)qâ3ð1Â0@ù
 × ;
-- (_Bool);
+- (_Bool)AMFDRDecodeIterateSysconfigBegin;
 - (void);
 - (void);
 - (id);
+- (void)!;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id)indow:(struct CGRect)arg1;
+- (id)setOnlySmoothAnimateWhenNotInTheWindow:(struct CGRect)arg1;
 - (void)ÿÿÿÿL;
 - (double);
-- (void)mTUINSWindow;
+- (void)NSWindowSuppressWillAndDidCloseNotificationsFromTUINSWindow;
 
 // Remaining properties
-@property double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property(copy) NSColor *platterColor;
-@property(readonly) Class superclass;
 
 @end
 

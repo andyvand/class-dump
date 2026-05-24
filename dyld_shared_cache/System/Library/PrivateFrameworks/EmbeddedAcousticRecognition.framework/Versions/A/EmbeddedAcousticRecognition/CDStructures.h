@@ -65,12 +65,6 @@ struct EARCSpeechRecognitionResultStream {
 
 struct EARContinuousListeningResultHelper;
 
-struct EARModelInitializeContext;
-
-struct G2Embedding;
-
-struct G2P;
-
 struct Geography;
 
 struct HybridClientConfigs {
@@ -111,23 +105,10 @@ struct LmeConfig;
 
 struct LmeData;
 
-struct LmeDataFactory;
-
-struct LmeDataSearch;
-
-struct LmePackedUserData {
-    struct SymbolTable dataPronSyms;
-    struct map<std::string, std::vector<std::vector<quasar::LmePackedWord>>, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<std::vector<quasar::LmePackedWord>>>>> data;
-};
-
 struct Locale {
     basic_string_cc40eacf _field1;
     basic_string_cc40eacf _field2;
 };
-
-struct ModelLoader;
-
-struct Munger;
 
 struct NgramFstConfig;
 
@@ -139,29 +120,13 @@ struct PMBuilder;
 
 struct PSRAudioProcessor;
 
-struct PTree {
-    int dataType;
-    basic_string_cc40eacf dataValue;
-    struct vector<std::pair<std::string, quasar::PTree>, std::allocator<std::pair<std::string, quasar::PTree>>> map;
-    _Bool isALeaf;
-};
-
 struct Parser;
-
-struct Path {
-    CDUnknownFunctionPointerType *_vptr$Path;
-    basic_string_cc40eacf str;
-};
-
-struct PersonalizationRecipe;
 
 struct PersonalizedLmData;
 
 struct PhonesetMapping;
 
 struct PronChoice;
-
-struct PronunciationRecognizer;
 
 struct QuasarEuclid;
 
@@ -174,8 +139,6 @@ struct RecogResultStreamBase;
 struct ResultCombiner;
 
 struct ResultHandler;
-
-struct ResultStreamWrapper;
 
 struct SegmentInfo {
     int _field1;
@@ -190,8 +153,6 @@ struct SegmentInfo {
 struct SentencePieceProcessor;
 
 struct SilencePosteriorGenerator;
-
-struct SpeakerCodeTraining;
 
 struct SpeechITN;
 
@@ -225,55 +186,9 @@ struct SpeechRecognizerActiveConfiguration {
     struct optional<std::set<std::string>> _field8;
 };
 
-struct SymbolTable {
-    CDUnknownFunctionPointerType *_vptr$SymbolTable;
-    struct SymbolTableImpl *impl_;
-};
-
-struct SymbolTableImpl;
-
 struct SyncPSRAudioProcessor;
 
-struct SyncSpeechRecognizer;
-
-struct SystemConfig {
-    CDUnknownFunctionPointerType *_vptr$OptionsItf;
-    struct SystemConfigInfo info;
-    basic_string_cc40eacf prefix;
-    struct shared_ptr<quasar::ModelLoader> modelLoader;
-    basic_string_cc40eacf mainModelVersion;
-    basic_string_cc40eacf mainConfigDirectory;
-    struct SpeechModelInfo mainSpeechModelInfo;
-    struct map<std::string, bool *, std::less<std::string>, std::allocator<std::pair<const std::string, bool *>>> boolMap;
-    struct map<std::string, int *, std::less<std::string>, std::allocator<std::pair<const std::string, int *>>> intMap;
-    struct map<std::string, unsigned int *, std::less<std::string>, std::allocator<std::pair<const std::string, unsigned int *>>> uintMap;
-    struct map<std::string, long long *, std::less<std::string>, std::allocator<std::pair<const std::string, long long *>>> int64Map;
-    struct map<std::string, float *, std::less<std::string>, std::allocator<std::pair<const std::string, float *>>> floatMap;
-    struct map<std::string, double *, std::less<std::string>, std::allocator<std::pair<const std::string, double *>>> doubleMap;
-    struct map<std::string, std::string *, std::less<std::string>, std::allocator<std::pair<const std::string, std::string *>>> stringMap;
-    struct map<std::string, std::vector<std::string>*, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<std::string>*>>> stringVecMap;
-    struct map<std::string, std::vector<std::pair<std::string, std::string>>*, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<std::pair<std::string, std::string>>*>>> stringPairVecMap;
-    struct map<std::string, std::unordered_map<std::string, std::string>*, std::less<std::string>, std::allocator<std::pair<const std::string, std::unordered_map<std::string, std::string>*>>> stringUnorderedMapMap;
-    struct map<std::string, std::unordered_set<std::string>*, std::less<std::string>, std::allocator<std::pair<const std::string, std::unordered_set<std::string>*>>> stringUnorderedSetMap;
-    struct map<std::string, quasar::filesystem::Path *, std::less<std::string>, std::allocator<std::pair<const std::string, quasar::filesystem::Path *>>> pathMap;
-    struct map<std::string, quasar::SystemConfig::Version, std::less<std::string>, std::allocator<std::pair<const std::string, quasar::SystemConfig::Version>>> paramMinVersionMap;
-    struct map<std::string, quasar::SystemConfig::Version, std::less<std::string>, std::allocator<std::pair<const std::string, quasar::SystemConfig::Version>>> paramMaxVersionMap;
-    struct map<std::string, std::set<std::string>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::string>>>> requiredParams;
-    int state;
-};
-
-struct SystemConfigInfo {
-    basic_string_cc40eacf jsonConfigFilePath;
-    struct Version configFileVersion;
-    struct Path configPath;
-    struct PTree pTree;
-    struct SpeechModelInfo speechModelInfo;
-    struct TranslationModelInfo translationModelInfo;
-    struct HybridClientConfigs hybridClientConfigs;
-    int configType;
-    unordered_set_5ba7d335 requiredAbsolutePaths;
-    unordered_set_5ba7d335 optionalAbsolutePaths;
-};
+struct SystemConfig;
 
 struct TextTokenizer;
 
@@ -309,17 +224,6 @@ struct TokenProns {
     struct vector<quasar::PronChoice, std::allocator<quasar::PronChoice>> _field3;
 };
 
-struct TranslationModelInfo {
-    basic_string_cc40eacf version;
-    struct set<std::string, std::less<std::string>, std::allocator<std::string>> tasks;
-    struct vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string>>> languagePairs;
-    struct unordered_map<std::string, std::vector<std::pair<std::string, std::string>>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::vector<std::pair<std::string, std::string>>>>> taskSpecificLanguagePairs;
-    struct unordered_map<std::string, quasar::TranslationPairSetting, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, quasar::TranslationPairSetting>>> pairSpecificSettings;
-    struct unordered_map<std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>>> taskLangPairSpecificSettings;
-    struct unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::string>>> taskAlias;
-    struct unordered_map<std::string, std::unordered_set<std::string>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::unordered_set<std::string>>>> supportedOverridesPerTask;
-};
-
 struct Translator;
 
 struct TranslatorCompiler;
@@ -328,16 +232,9 @@ struct TranslatorFactory;
 
 struct URegularExpressionWrapper;
 
-struct Version {
-    int versionMajor;
-    int versionMinor;
-};
-
-struct WordPronCache;
-
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct __shared_weak_count;
@@ -381,38 +278,6 @@ struct map<quasar::language_detector::Locale, double, std::less<quasar::language
     } _field1;
 };
 
-struct map<std::string, bool *, std::less<std::string>, std::allocator<std::pair<const std::string, bool *>>> {
-    struct __tree<std::__value_type<std::string, bool *>, std::__map_value_compare<std::string, std::pair<const std::string, bool *>, std::less<std::string>>, std::allocator<std::pair<const std::string, bool *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, double *, std::less<std::string>, std::allocator<std::pair<const std::string, double *>>> {
-    struct __tree<std::__value_type<std::string, double *>, std::__map_value_compare<std::string, std::pair<const std::string, double *>, std::less<std::string>>, std::allocator<std::pair<const std::string, double *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, float *, std::less<std::string>, std::allocator<std::pair<const std::string, float *>>> {
-    struct __tree<std::__value_type<std::string, float *>, std::__map_value_compare<std::string, std::pair<const std::string, float *>, std::less<std::string>>, std::allocator<std::pair<const std::string, float *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, int *, std::less<std::string>, std::allocator<std::pair<const std::string, int *>>> {
-    struct __tree<std::__value_type<std::string, int *>, std::__map_value_compare<std::string, std::pair<const std::string, int *>, std::less<std::string>>, std::allocator<std::pair<const std::string, int *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct map<std::string, int, std::less<std::string>, std::allocator<std::pair<const std::string, int>>> {
     struct __tree<std::__value_type<std::string, int>, std::__map_value_compare<std::string, std::pair<const std::string, int>, std::less<std::string>>, std::allocator<std::pair<const std::string, int>>> {
         void *__begin_node_;
@@ -421,88 +286,8 @@ struct map<std::string, int, std::less<std::string>, std::allocator<std::pair<co
     } __tree_;
 };
 
-struct map<std::string, long long *, std::less<std::string>, std::allocator<std::pair<const std::string, long long *>>> {
-    struct __tree<std::__value_type<std::string, long long *>, std::__map_value_compare<std::string, std::pair<const std::string, long long *>, std::less<std::string>>, std::allocator<std::pair<const std::string, long long *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, long long, std::less<std::string>, std::allocator<std::pair<const std::string, long long>>> {
-    struct __tree<std::__value_type<std::string, long long>, std::__map_value_compare<std::string, std::pair<const std::string, long long>, std::less<std::string>>, std::allocator<std::pair<const std::string, long long>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, quasar::SystemConfig::Version, std::less<std::string>, std::allocator<std::pair<const std::string, quasar::SystemConfig::Version>>> {
-    struct __tree<std::__value_type<std::string, quasar::SystemConfig::Version>, std::__map_value_compare<std::string, std::pair<const std::string, quasar::SystemConfig::Version>, std::less<std::string>>, std::allocator<std::pair<const std::string, quasar::SystemConfig::Version>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, quasar::filesystem::Path *, std::less<std::string>, std::allocator<std::pair<const std::string, quasar::filesystem::Path *>>> {
-    struct __tree<std::__value_type<std::string, quasar::filesystem::Path *>, std::__map_value_compare<std::string, std::pair<const std::string, quasar::filesystem::Path *>, std::less<std::string>>, std::allocator<std::pair<const std::string, quasar::filesystem::Path *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, std::set<std::string>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::string>>>> {
-    struct __tree<std::__value_type<std::string, std::set<std::string>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::string>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::string>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, std::string *, std::less<std::string>, std::allocator<std::pair<const std::string, std::string *>>> {
-    struct __tree<std::__value_type<std::string, std::string *>, std::__map_value_compare<std::string, std::pair<const std::string, std::string *>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::string *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct map<std::string, std::string, std::less<std::string>, std::allocator<std::pair<const std::string, std::string>>> {
     struct __tree<std::__value_type<std::string, std::string>, std::__map_value_compare<std::string, std::pair<const std::string, std::string>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::string>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, std::unordered_map<std::string, std::string>*, std::less<std::string>, std::allocator<std::pair<const std::string, std::unordered_map<std::string, std::string>*>>> {
-    struct __tree<std::__value_type<std::string, std::unordered_map<std::string, std::string>*>, std::__map_value_compare<std::string, std::pair<const std::string, std::unordered_map<std::string, std::string>*>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::unordered_map<std::string, std::string>*>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, std::unordered_set<std::string>*, std::less<std::string>, std::allocator<std::pair<const std::string, std::unordered_set<std::string>*>>> {
-    struct __tree<std::__value_type<std::string, std::unordered_set<std::string>*>, std::__map_value_compare<std::string, std::pair<const std::string, std::unordered_set<std::string>*>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::unordered_set<std::string>*>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, std::vector<std::pair<std::string, std::string>>*, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<std::pair<std::string, std::string>>*>>> {
-    struct __tree<std::__value_type<std::string, std::vector<std::pair<std::string, std::string>>*>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<std::pair<std::string, std::string>>*>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<std::pair<std::string, std::string>>*>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, std::vector<std::string>*, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<std::string>*>>> {
-    struct __tree<std::__value_type<std::string, std::vector<std::string>*>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<std::string>*>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<std::string>*>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
@@ -523,34 +308,6 @@ struct map<std::string, std::vector<std::vector<quasar::LmeDataFactoryBase::Word
         CDStruct_09bd28e6 _field2;
         CDStruct_a7186859 _field3;
     } _field1;
-};
-
-struct map<std::string, std::vector<std::vector<quasar::LmePackedWord>>, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<std::vector<quasar::LmePackedWord>>>>> {
-    struct __tree<std::__value_type<std::string, std::vector<std::vector<quasar::LmePackedWord>>>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<std::vector<quasar::LmePackedWord>>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<std::vector<quasar::LmePackedWord>>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, unsigned int *, std::less<std::string>, std::allocator<std::pair<const std::string, unsigned int *>>> {
-    struct __tree<std::__value_type<std::string, unsigned int *>, std::__map_value_compare<std::string, std::pair<const std::string, unsigned int *>, std::less<std::string>>, std::allocator<std::pair<const std::string, unsigned int *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct mersenne_twister_engine<unsigned int, 32UL, 624UL, 397UL, 31UL, 2567483615U, 11UL, 4294967295U, 7UL, 2636928640U, 15UL, 4022730752U, 18UL, 1812433253U> {
-    unsigned int __x_[624];
-    unsigned long long __i_;
-};
-
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
 };
 
 struct optional<bool> {
@@ -633,30 +390,26 @@ struct optional<std::vector<quasar::language_detector::Locale>> {
     _Bool _field2;
 };
 
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
 struct pair<std::vector<std::vector<unsigned int>>, std::vector<std::vector<std::vector<quasar::Token>>>> {
     struct vector<std::vector<unsigned int>, std::allocator<std::vector<unsigned int>>> _field1;
     struct vector<std::vector<std::vector<quasar::Token>>, std::allocator<std::vector<std::vector<quasar::Token>>>> _field2;
 };
 
 struct powerSummary {
-    double total_energy;
-    double ane_energy;
-    double gpu_energy;
-    double ecpu_energy;
-    double pcpu_energy;
-    double dram_energy;
-    double other_energy;
-    double total_power;
-    double ane_power;
-    double gpu_power;
-    double ecpu_power;
-    double pcpu_power;
-    double dram_power;
-    double other_power;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    double _field11;
+    double _field12;
+    double _field13;
+    double _field14;
 };
 
 struct set<bool, std::less<bool>, std::allocator<bool>> {
@@ -691,14 +444,6 @@ struct set<std::string, std::less<std::string>, std::allocator<std::string>> {
     } __tree_;
 };
 
-struct set<std::vector<std::string>, quasar::NameEnumerator::EnumComparator, std::allocator<std::vector<std::string>>> {
-    struct __tree<std::vector<std::string>, quasar::NameEnumerator::EnumComparator, std::allocator<std::vector<std::string>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct set<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> {
     struct __tree<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> {
         void *_field1;
@@ -708,13 +453,8 @@ struct set<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> 
 };
 
 struct shared_ptr<EARContinuousListeningResultHelper> {
-    struct EARContinuousListeningResultHelper *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<EARModelInitializeContext> {
-    struct EARModelInitializeContext *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct EARContinuousListeningResultHelper *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<bool> {
@@ -733,8 +473,8 @@ struct shared_ptr<kaldi::quasar::LmHandle> {
 };
 
 struct shared_ptr<quasar::ASRTaggerElectraConfig> {
-    struct ASRTaggerElectraConfig *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct ASRTaggerElectraConfig *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<quasar::AppLmData> {
@@ -763,8 +503,8 @@ struct shared_ptr<quasar::DataFeed> {
 };
 
 struct shared_ptr<quasar::LmBuildConfig> {
-    struct LmBuildConfig *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct LmBuildConfig *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<quasar::LmEvaluator> {
@@ -783,23 +523,13 @@ struct shared_ptr<quasar::LmModel2> {
 };
 
 struct shared_ptr<quasar::LmeData> {
-    struct LmeData *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<quasar::LmeDataFactory> {
-    struct LmeDataFactory *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<quasar::ModelLoader> {
-    struct ModelLoader *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct LmeData *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<quasar::NgramFstConfig> {
-    struct NgramFstConfig *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct NgramFstConfig *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<quasar::NgramLmModel2> {
@@ -813,8 +543,8 @@ struct shared_ptr<quasar::PDecAligner> {
 };
 
 struct shared_ptr<quasar::PMBuilder> {
-    struct PMBuilder *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct PMBuilder *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<quasar::PSRAudioProcessor> {
@@ -823,17 +553,12 @@ struct shared_ptr<quasar::PSRAudioProcessor> {
 };
 
 struct shared_ptr<quasar::PersonalizedLmData> {
-    struct PersonalizedLmData *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct PersonalizedLmData *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<quasar::PhonesetMapping> {
     struct PhonesetMapping *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<quasar::PronCache<std::string, std::vector<std::string>>> {
-    void *__ptr_;
     struct __shared_weak_count *__cntrl_;
 };
 
@@ -857,23 +582,13 @@ struct shared_ptr<quasar::SilencePosteriorGenerator> {
     struct __shared_weak_count *__cntrl_;
 };
 
-struct shared_ptr<quasar::SpeakerCodeTraining> {
-    struct SpeakerCodeTraining *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<quasar::SpeechRecognizer> {
-    struct SpeechRecognizer *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct SpeechRecognizer *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<quasar::SyncPSRAudioProcessor> {
     struct SyncPSRAudioProcessor *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<quasar::SyncSpeechRecognizer> {
-    struct SyncSpeechRecognizer *__ptr_;
     struct __shared_weak_count *__cntrl_;
 };
 
@@ -883,8 +598,8 @@ struct shared_ptr<quasar::TextTokenizer> {
 };
 
 struct shared_ptr<quasar::Translator> {
-    struct Translator *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct Translator *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<quasar::TranslatorCompiler> {
@@ -913,13 +628,13 @@ struct shared_ptr<quasar::artifact::Artifact> {
 };
 
 struct shared_ptr<quasar::corrective_reranking::Parser> {
-    struct Parser *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct Parser *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<quasar::result_handler::ResultHandler> {
-    struct ResultHandler *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct ResultHandler *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<sentencepiece::SentencePieceProcessor> {
@@ -968,18 +683,6 @@ struct unique_ptr<quasar::CustomLMBuilder, std::default_delete<quasar::CustomLMB
     } ;
 };
 
-struct unique_ptr<quasar::G2Embedding, std::default_delete<quasar::G2Embedding>> {
-    struct {
-        struct G2Embedding *__ptr_;
-    } ;
-};
-
-struct unique_ptr<quasar::G2P, std::default_delete<quasar::G2P>> {
-    struct {
-        struct G2P *__ptr_;
-    } ;
-};
-
 struct unique_ptr<quasar::Geography, std::default_delete<quasar::Geography>> {
     struct {
         struct Geography *__ptr_;
@@ -1010,24 +713,6 @@ struct unique_ptr<quasar::LmeConfig, std::default_delete<quasar::LmeConfig>> {
     } ;
 };
 
-struct unique_ptr<quasar::LmeDataSearch, std::default_delete<quasar::LmeDataSearch>> {
-    struct {
-        struct LmeDataSearch *__ptr_;
-    } ;
-};
-
-struct unique_ptr<quasar::Munger, std::default_delete<quasar::Munger>> {
-    struct {
-        struct Munger *__ptr_;
-    } ;
-};
-
-struct unique_ptr<quasar::PersonalizationRecipe, std::default_delete<quasar::PersonalizationRecipe>> {
-    struct {
-        struct PersonalizationRecipe *__ptr_;
-    } ;
-};
-
 struct unique_ptr<quasar::QuasarEuclid, std::default_delete<quasar::QuasarEuclid>> {
     struct {
         struct QuasarEuclid *__ptr_;
@@ -1048,20 +733,8 @@ struct unique_ptr<quasar::SystemConfig, std::default_delete<quasar::SystemConfig
 
 struct unique_ptr<quasar::TextTokenizer, std::default_delete<quasar::TextTokenizer>> {
     struct {
-        struct TextTokenizer *__ptr_;
-    } ;
-};
-
-struct unique_ptr<quasar::WordPronCache, std::default_delete<quasar::WordPronCache>> {
-    struct {
-        struct WordPronCache *__ptr_;
-    } ;
-};
-
-struct unique_ptr<quasar::ptt::PronunciationRecognizer, std::default_delete<quasar::ptt::PronunciationRecognizer>> {
-    struct {
-        struct PronunciationRecognizer *__ptr_;
-    } ;
+        struct TextTokenizer *_field1;
+    } _field1;
 };
 
 struct unique_ptr<sentencepiece::SentencePieceProcessor, std::default_delete<sentencepiece::SentencePieceProcessor>> {
@@ -1088,24 +761,6 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
     } _field1;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, quasar::TranslationPairSetting>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, quasar::TranslationPairSetting>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, quasar::TranslationPairSetting>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *>*>*>>> {
     struct {
         void **__ptr_;
@@ -1115,49 +770,13 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
     } ;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<std::string>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<std::string>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<std::string>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::vector<std::pair<std::string, std::string>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::vector<std::pair<std::string, std::string>>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::vector<std::pair<std::string, std::string>>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned long>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned long>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *>*>*>>> {
     struct {
-        void **__ptr_;
+        void **_field1;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
+            CDStruct_a7186859 _field1;
+        } _field2;
+    } _field1;
 };
 
 struct unordered_map<char32_t, char32_t, std::hash<char32_t>, std::equal_to<char32_t>, std::allocator<std::pair<const char32_t, char32_t>>> {
@@ -1186,32 +805,6 @@ struct unordered_map<std::string, double, std::hash<std::string>, std::equal_to<
     } _field1;
 };
 
-struct unordered_map<std::string, int, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, int>>> {
-    struct __hash_table<std::__hash_value_type<std::string, int>, std::__unordered_map_hasher<std::string, std::pair<const std::string, int>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, int>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, int>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, int>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<std::string, quasar::TranslationPairSetting, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, quasar::TranslationPairSetting>>> {
-    struct __hash_table<std::__hash_value_type<std::string, quasar::TranslationPairSetting>, std::__unordered_map_hasher<std::string, std::pair<const std::string, quasar::TranslationPairSetting>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, quasar::TranslationPairSetting>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, quasar::TranslationPairSetting>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, quasar::TranslationPairSetting>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, quasar::TranslationPairSetting>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, quasar::TranslationPairSetting>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
 struct unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::string>>> {
     struct __hash_table<std::__hash_value_type<std::string, std::string>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::string>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::string>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::string>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::string>, void *>*>*>>> __bucket_list_;
@@ -1225,69 +818,17 @@ struct unordered_map<std::string, std::string, std::hash<std::string>, std::equa
     } __table_;
 };
 
-struct unordered_map<std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>>> {
-    struct __hash_table<std::__hash_value_type<std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, quasar::TranslationPairSetting>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<std::string, std::unordered_set<std::string>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::unordered_set<std::string>>>> {
-    struct __hash_table<std::__hash_value_type<std::string, std::unordered_set<std::string>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::unordered_set<std::string>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::unordered_set<std::string>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::unordered_set<std::string>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<std::string>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<std::string>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_set<std::string>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<std::string, std::vector<std::pair<std::string, std::string>>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::vector<std::pair<std::string, std::string>>>>> {
-    struct __hash_table<std::__hash_value_type<std::string, std::vector<std::pair<std::string, std::string>>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::vector<std::pair<std::string, std::string>>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::vector<std::pair<std::string, std::string>>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::vector<std::pair<std::string, std::string>>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::vector<std::pair<std::string, std::string>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::vector<std::pair<std::string, std::string>>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::vector<std::pair<std::string, std::string>>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<std::string, unsigned long, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, unsigned long>>> {
-    struct __hash_table<std::__hash_value_type<std::string, unsigned long>, std::__unordered_map_hasher<std::string, std::pair<const std::string, unsigned long>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, unsigned long>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, unsigned long>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned long>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned long>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
 struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> {
     struct __hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::string, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
 };
 
 struct vector<double, std::allocator<double>> {
@@ -1295,14 +836,6 @@ struct vector<double, std::allocator<double>> {
     double *__end_;
     struct {
         double *__cap_;
-    } ;
-};
-
-struct vector<float, std::allocator<float>> {
-    float *__begin_;
-    float *__end_;
-    struct {
-        float *__cap_;
     } ;
 };
 
@@ -1322,20 +855,12 @@ struct vector<quasar::PronChoice, std::allocator<quasar::PronChoice>> {
     } _field3;
 };
 
-struct vector<quasar::SystemConfig, std::allocator<quasar::SystemConfig>> {
-    struct SystemConfig *__begin_;
-    struct SystemConfig *__end_;
-    struct {
-        struct SystemConfig *__cap_;
-    } ;
-};
-
 struct vector<quasar::Token, std::allocator<quasar::Token>> {
-    struct Token *__begin_;
-    struct Token *__end_;
+    struct Token *_field1;
+    struct Token *_field2;
     struct {
-        struct Token *__cap_;
-    } ;
+        struct Token *_field1;
+    } _field3;
 };
 
 struct vector<quasar::TranslationPhrase::SegmentInfo, std::allocator<quasar::TranslationPhrase::SegmentInfo>> {
@@ -1378,18 +903,6 @@ struct vector<std::pair<std::string, float>, std::allocator<std::pair<std::strin
     CDStruct_63fd5f43 ;
 };
 
-struct vector<std::pair<std::string, quasar::PTree>, std::allocator<std::pair<std::string, quasar::PTree>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::pair<std::string, std::string>, std::allocator<std::pair<std::string, std::string>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
 struct vector<std::string, std::allocator<std::string>> {
     void *__begin_;
     void *__end_;
@@ -1403,9 +916,9 @@ struct vector<std::vector<int>, std::allocator<std::vector<int>>> {
 };
 
 struct vector<std::vector<quasar::Token>, std::allocator<std::vector<quasar::Token>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
 };
 
 struct vector<std::vector<std::vector<quasar::Token>>, std::allocator<std::vector<std::vector<quasar::Token>>>> {
@@ -1426,19 +939,6 @@ struct vector<unsigned long, std::allocator<unsigned long>> {
     struct {
         unsigned long long *__cap_;
     } ;
-};
-
-struct vector<void *, std::allocator<void *>> {
-    void **__begin_;
-    void **__end_;
-    struct {
-        void **__cap_;
-    } ;
-};
-
-struct weak_ptr<ResultStreamWrapper> {
-    struct ResultStreamWrapper *__ptr_;
-    struct __shared_weak_count *__cntrl_;
 };
 
 struct weak_ptr<quasar::SpeechRecognizer> {
@@ -1520,9 +1020,9 @@ typedef struct pair<std::vector<std::vector<unsigned int>>, std::vector<std::vec
 } pair_d57d7550;
 
 typedef struct shared_ptr<EARContinuousListeningResultHelper> {
-    struct EARContinuousListeningResultHelper *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_9d440e49;
+    struct EARContinuousListeningResultHelper *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_05eebbb1;
 
 typedef struct shared_ptr<bool> {
     _Bool *_field1;
@@ -1540,9 +1040,9 @@ typedef struct shared_ptr<kaldi::quasar::LmHandle> {
 } shared_ptr_fa7bd617;
 
 typedef struct shared_ptr<quasar::ASRTaggerElectraConfig> {
-    struct ASRTaggerElectraConfig *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_0ad4eadf;
+    struct ASRTaggerElectraConfig *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_ea32eee7;
 
 typedef struct shared_ptr<quasar::AppLmData> {
     struct AppLmData *__ptr_;
@@ -1565,9 +1065,9 @@ typedef struct shared_ptr<quasar::DataFeed> {
 } shared_ptr_5cf7ddf4;
 
 typedef struct shared_ptr<quasar::LmBuildConfig> {
-    struct LmBuildConfig *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_6d392393;
+    struct LmBuildConfig *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_b6797659;
 
 typedef struct shared_ptr<quasar::LmModel2> {
     struct LmModel2 *__ptr_;
@@ -1575,14 +1075,14 @@ typedef struct shared_ptr<quasar::LmModel2> {
 } shared_ptr_ae20c496;
 
 typedef struct shared_ptr<quasar::LmeData> {
-    struct LmeData *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_4c8a54ee;
+    struct LmeData *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_b3f22a55;
 
 typedef struct shared_ptr<quasar::NgramFstConfig> {
-    struct NgramFstConfig *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_638ae3ea;
+    struct NgramFstConfig *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_e6ed261e;
 
 typedef struct shared_ptr<quasar::NgramLmModel2> {
     struct NgramLmModel2 *__ptr_;
@@ -1590,14 +1090,14 @@ typedef struct shared_ptr<quasar::NgramLmModel2> {
 } shared_ptr_33ae5576;
 
 typedef struct shared_ptr<quasar::PMBuilder> {
-    struct PMBuilder *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_67f74a86;
+    struct PMBuilder *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_0aa56158;
 
 typedef struct shared_ptr<quasar::PersonalizedLmData> {
-    struct PersonalizedLmData *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_3024e64e;
+    struct PersonalizedLmData *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_46b1bbf0;
 
 typedef struct shared_ptr<quasar::RecogAudioBufferBase> {
     struct RecogAudioBufferBase *__ptr_;
@@ -1610,9 +1110,9 @@ typedef struct shared_ptr<quasar::RecogResultStreamBase> {
 } shared_ptr_5cb47a18;
 
 typedef struct shared_ptr<quasar::SpeechRecognizer> {
-    struct SpeechRecognizer *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_22b796d4;
+    struct SpeechRecognizer *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_bf958b33;
 
 typedef struct shared_ptr<quasar::TextTokenizer> {
     struct TextTokenizer *__ptr_;
@@ -1620,9 +1120,9 @@ typedef struct shared_ptr<quasar::TextTokenizer> {
 } shared_ptr_dcd14800;
 
 typedef struct shared_ptr<quasar::Translator> {
-    struct Translator *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_712e6641;
+    struct Translator *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_97c082d8;
 
 typedef struct shared_ptr<quasar::artifact::AppLmArtifact> {
     struct AppLmArtifact *_field1;
@@ -1630,20 +1130,20 @@ typedef struct shared_ptr<quasar::artifact::AppLmArtifact> {
 } shared_ptr_12953206;
 
 typedef struct shared_ptr<quasar::corrective_reranking::Parser> {
-    struct Parser *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_b48fefe2;
+    struct Parser *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_65f69a58;
 
 typedef struct shared_ptr<quasar::result_handler::ResultHandler> {
-    struct ResultHandler *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_ec6f41eb;
+    struct ResultHandler *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_e547ae1c;
 
 typedef struct unique_ptr<quasar::TextTokenizer, std::default_delete<quasar::TextTokenizer>> {
     struct {
-        struct TextTokenizer *__ptr_;
-    } ;
-} unique_ptr_32eee79d;
+        struct TextTokenizer *_field1;
+    } _field1;
+} unique_ptr_668bcbb0;
 
 typedef struct unordered_map<std::string, double, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, double>>> {
     struct __hash_table<std::__hash_value_type<std::string, double>, std::__unordered_map_hasher<std::string, std::pair<const std::string, double>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, double>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, double>>> {
@@ -1660,16 +1160,16 @@ typedef struct unordered_map<std::string, double, std::hash<std::string>, std::e
 
 typedef struct unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> {
     struct __hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::string, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-} unordered_set_5ba7d335;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
+} unordered_set_18d18e9c;
 
 typedef struct vector<double, std::allocator<double>> {
     double *__begin_;
@@ -1688,12 +1188,12 @@ typedef struct vector<int, std::allocator<int>> {
 } vector_5ed94be2;
 
 typedef struct vector<quasar::Token, std::allocator<quasar::Token>> {
-    struct Token *__begin_;
-    struct Token *__end_;
+    struct Token *_field1;
+    struct Token *_field2;
     struct {
-        struct Token *__cap_;
-    } ;
-} vector_9a34c3e7;
+        struct Token *_field1;
+    } _field3;
+} vector_fa1a2223;
 
 typedef struct vector<quasar::TranslationPhrase::SegmentInfo, std::allocator<quasar::TranslationPhrase::SegmentInfo>> {
     struct SegmentInfo *_field1;
@@ -1728,8 +1228,8 @@ typedef struct vector<std::vector<int>, std::allocator<std::vector<int>>> {
 } vector_a196e018;
 
 typedef struct vector<std::vector<quasar::Token>, std::allocator<std::vector<quasar::Token>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-} vector_260926f7;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
+} vector_362e99ae;
 

@@ -13,9 +13,9 @@
     _NSAttributeRun *_attributes;
 }
 
-- (void);
+- (void)nd;
 - (id);
-- (void);
+- (void);
 
 @end
 

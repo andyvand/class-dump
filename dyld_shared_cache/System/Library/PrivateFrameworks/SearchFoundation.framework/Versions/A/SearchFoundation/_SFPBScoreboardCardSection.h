@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBSportsTeam;
+@class NSArray;
 
 @interface _SFPBScoreboardCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSString *_title;
-    NSString *_subtitle;
-    _SFPBSportsTeam *_team1;
-    _SFPBSportsTeam *_team2;
-    NSString *_accessibilityDescription;
-    NSString *_eventStatus;
 }
 
 - (id);
@@ -33,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -41,27 +27,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)Reused;
+- (_Bool)V_continuityCameraUsed;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id)hDictionaryRepresentation - there is no versionvector;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)Identifier;
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)sendMakeAvailableRequestForResource:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (id)has different category before and after setup;
 - (void);
 - (id);
 - (id);
@@ -71,29 +57,7 @@
 - (int)ìÁ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *eventStatus; // @synthesize eventStatus=_eventStatus;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBSportsTeam *team1; // @synthesize team1=_team1;
-@property(retain, nonatomic) _SFPBSportsTeam *team2; // @synthesize team2=_team2;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

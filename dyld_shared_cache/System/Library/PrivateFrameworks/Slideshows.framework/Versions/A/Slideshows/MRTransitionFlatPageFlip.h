@@ -6,18 +6,17 @@
 
 #import <Slideshows/MRTransition.h>
 
-@class MRCAMLBezierData, MRImageProvider;
+@class MRCAMLBezierData;
 
 @interface MRTransitionFlatPageFlip : MRTransition
 {
     MRCAMLBezierData *mCurves[2];
-    MRImageProvider *mPortraitShadow;
 }
 
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)initWithDelegate:(double)arg1;
+- (id)descriptionWithObject:(id)arg1;
 - (_Bool);
 - (void);
 - (void);

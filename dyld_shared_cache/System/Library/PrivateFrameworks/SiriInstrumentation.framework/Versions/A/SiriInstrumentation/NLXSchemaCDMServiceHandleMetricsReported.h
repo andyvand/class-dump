@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaCDMServiceHandleMetricsReported : SISchemaInstrumentationMessage
 {
@@ -18,23 +18,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@�bA�u[;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)TS_RESP_CTX_set_signer_cert;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)valuation;
-- (id)t: /* Error: Ran out of types for this method. */;
+- (id)setIntentFinalExecutionContext: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *handleMetrics; // @synthesize handleMetrics=_handleMetrics;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

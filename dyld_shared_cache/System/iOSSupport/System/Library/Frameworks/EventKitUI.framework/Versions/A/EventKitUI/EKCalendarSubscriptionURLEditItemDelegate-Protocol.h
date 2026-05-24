@@ -5,5 +5,6 @@
 //
 
 @protocol EKCalendarSubscriptionURLEditItemDelegate
+- (void)s;
 @end
 

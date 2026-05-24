@@ -7,13 +7,10 @@
 @interface NewsArticles.RecipeRadarReporter
 {
     id commandCenter;
-    id recipeCoordinator;
-    id recipeDiagnosticsCollector;
-    id collectEmbedData;
 }
 
 - (id);
-- (void)r;
+- (void)resolver;
 
 @end
 

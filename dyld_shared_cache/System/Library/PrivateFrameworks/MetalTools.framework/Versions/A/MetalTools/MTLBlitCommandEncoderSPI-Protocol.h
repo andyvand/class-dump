@@ -5,5 +5,6 @@
 //
 
 @protocol MTLBlitCommandEncoderSPI
+- (void);
 @end
 

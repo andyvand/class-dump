@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)RE;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UIApplicationShortcutItem *uiShortcutItem;

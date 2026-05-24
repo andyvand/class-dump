@@ -6,97 +6,18 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWFigCaptureISPProcessingSession, BWIrisStillImageMovieMetadataCache, BWLimitedGMErrorLogger, BWStats, BWVISProcessorController, BWVISProcessorControllerConfiguration, BWVideoFormatRequirements, NSArray, NSData, NSDictionary, NSMutableDictionary, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
-
 @interface BWVISNode : BWNode
 {
     int _stabilizationMethod;
-    int _stabilizationType;
-    BWVISProcessorControllerConfiguration *_processorControllerConfiguration;
-    BWVISProcessorController *_processorController;
-    _Bool _flushingProcessor;
-    NSArray *_supportedInputPixelFormats;
-    NSArray *_supportedOutputPixelFormats;
-    int _maxLossyCompressionLevel;
-    CDStruct_79c71658 _outputDimensions;
-    CDStruct_79c71658 _generatedTransformsOutputDimensionsOverride;
-    int _gpuPriority;
-    _Bool _sphereVideoEnabled;
-    _Bool _onlyGeneratingTransforms;
-    _Bool _stabilizeMetadata;
-    _Bool _flipHorizontalExcludingIris;
-    _Bool _liveFlipHorizontal;
-    int _pipelineTraceID;
-    _Bool _videoSTFEnabled;
-    _Bool _videoGreenGhostMitigationEnabled;
-    _Bool _videoGreenGhostOfflineMetadataEnabled;
-    _Bool _videoGreenGhostOfflineLightSourceMaskEnabled;
-    _Bool _lowLightGreenGhostMitigationEnabled;
-    _Bool _lightSourceMaskAndKeypointDescriptorDataEnabled;
-    _Bool _fillExtendedRowsOfOutputBuffer;
-    _Bool _usingExtendedCVISLivePhotoStabilization;
-    _Bool _stabilizeForLongPressVideo;
-    int _visExecutionMode;
-    NSDictionary *_offlineCameraInfoByPortType;
-    float _videoStabilizationOverscanOverride;
-    _Bool _generatesDroppedSampleMarkerBuffers;
-    BWVideoFormatRequirements *_visOutputFormatRequirements;
-    NSObject<OS_dispatch_semaphore> *_emitSampleBufferSemaphore;
-    _Bool _firstFrameProcessed;
-    int _numberOfBuffersEmitted;
-    int _cinematicLookAheadFrameCount;
-    double _maxFrameRate;
-    BWIrisStillImageMovieMetadataCache *_irisStillImageMovieMetadataCache;
-    NSNumber *_cachedLivePhotoKeyFrame;
-    NSString *_cachedStillImageKeyFrameSettingsID;
-    BWLimitedGMErrorLogger *_limitedGMErrorLogger;
-    struct BWVISMotionTensors _frameMotionTensorsRingBuffer[10];
-    unsigned int _frameMotionTensorsRingBufferWriteIndex;
-    struct os_unfair_lock_s _frameMotionTensorsRingBuffeLock;
-    int _outputColorSpaceProperties;
-    BWStats *_ioSurfaceCompressionRatioStats;
-    int _pixelBufferCompressionType;
-    unsigned long long _totalCompressedDataSize;
-    unsigned long long _totalUncompressedDataSize;
-    CDStruct_1b6d18a9 _lastEmittedPTS;
-    _Bool _frameRateConversionEnabled;
-    _Bool _stabilizeDepthAttachments;
-    CDStruct_79c71658 _outputDepthDimensions;
-    NSMutableDictionary *_intermediatePixelBufferResolvedFormats;
-    NSMutableDictionary *_intermediatePixelBufferPools;
-    _Bool _smartStyleRenderingEnabled;
-    _Bool _smartStyleReversibilityEnabled;
-    NSDictionary *_smartStyleConfigurationDict;
-    _Bool _stabilizeForSmartStyleReversibility;
-    _Bool _lowResImageUsedByVideoEncoderEnabled;
-    struct opaqueCMFormatDescription *_lowResImageUsedByVideoEncoderFormatDescription;
-    _Bool _personSegmentationRenderingEnabled;
-    NSData *_foregroundColorCube;
-    NSData *_backgroundColorCube;
-    NSData *_cameraExtrinsicMatrix;
-    _Bool _zoomSmoothingEnabled;
-    _Bool _overrideFinalCropRect;
-    _Bool _systemIsUnderCriticalThermalPressure;
-    _Bool _faceStabilizationEnabled;
-    float _faceStabilizationSigmaMultiplierForFaceFiltering;
-    float _faceStabilizationSigmaMultiplierForBiasTracking;
-    float _faceStabilizationSigmaModulationExponent;
-    float _faceStabilizationSigmaModulationSmoothTransitionMultiplier;
-    struct FigCaptureGreenGhostOfflineParams _greenGhostOfflineParameters;
-    struct FigCaptureGreenGhostStatus _greenGhostStatus;
-    int _stereoMode;
-    NSObject<OS_dispatch_semaphore> *_processingSemaphore;
-    BWFigCaptureISPProcessingSession *_ispProcessingSession;
 }
 
-+ (void)ding;
-- (void);
-- (id);
++ (void)StartingRecording;
+- (void)in daemon;
+- (id)L;
 - (_Bool);
-- (CDStruct_1ef3fb1f);
-- (id);
-- (void);
+- (CDStruct_1ef3fb1f)compressHorizontalInVerticalOverridden;
+- (id)addShapeForTransition:(id)arg1 startAngle:(int)arg2 endAngle:(int)arg3 state:(id)arg4;
+- (void)CMColorProperty;
 - (CDStruct_1ef3fb1f);
 - (_Bool);
 - (void);
@@ -111,28 +32,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)RenewCredentials;
+- (void)localeWithLocaleIdentifier:(_Bool)arg1;
+- (_Bool)rtcuts into Ubiquity container.;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)unionSet:(id)arg1;
 - (CDStruct_1ef3fb1f);
+- (void)e_naiveBayesModelsGlobalCounts_featureName_idx ON mailIntelligence_naiveBayesModelsGlobalCounts(featureName);
 - (void);
-- (void);
-- (int);
+- (int)H;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)X;
+- (id)#;
 - (void);
 - (int);
 - (void);
@@ -149,26 +70,16 @@
 - (_Bool)ü%ÿ;
 - (void)¼;
 - (_Bool)utput:previousOutput toInput:deskCamNode.videoCaptureInput pipelineStage:videoDataPipelineStage] /* Error: Ran out of types for this method. */;
-- (void)AcrossUnderlyingStreams;
+- (void)csu_reconcileDerivedSourceInfoDictionaryAcrossUnderlyingStreams;
 - (id)ode osStatePropertyList];
 - (void)error:(_Bool)arg1 ];
-- (void)ntFirstLowMagneticFieldTime;
-- (int)rThermalMitigationConfiguration;
+- (void)FrontFirstLowMagneticFieldTime;
+- (int)FrameRateThrottlingForThermalMitigationConfiguration;
 - (void)m.apple.web-browser-engine.rendering;
 - (void)Ì¥%;
 
 // Remaining properties
 @property(readonly) int cinematicLookAheadFrameCount; // @synthesize cinematicLookAheadFrameCount=_cinematicLookAheadFrameCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *emitSampleBufferSemaphore;
-@property _Bool firstFrameProcessed; // @synthesize firstFrameProcessed=_firstFrameProcessed;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) BWFigCaptureISPProcessingSession *ispProcessingSession; // @synthesize ispProcessingSession=_ispProcessingSession;
-@property(readonly) Class superclass;
 
 @end
 

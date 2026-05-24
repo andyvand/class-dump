@@ -14,7 +14,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)@�;
 + (void);
 + (struct __C3DScene *);
 + (_Bool);
@@ -23,13 +23,13 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
-+ (id);
++ (_Bool)toolShadowMaxOpacityNormal;
++ (id)setAllowsGroupBlending: /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)ndle_id, fp_folder_item, event_type, last_hit_date, frecency_at_last_hit_date FROM hotfolders WHERE app_bundle_id = %@ ORDER BY last_hit_date DESC LIMIT 500;;
 + (id);
 + (unsigned int);
 + (double);
@@ -2183,12 +2183,12 @@ fragment SCNOutput commonprofile_frag(commonprofile_io                   in     
 + (void)es:(CDUnknownBlockType)arg1 unable to solve the equation;
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)16;
+- (id)strokeGroupQuery;
 - (void);
+- (void)"f;
 - (void);
-- (void);
-- (void);
+- (void)initWithArray:copyItems: /* Error: Ran out of types for this method. */;
 - (double);
 - (void)pped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
 }

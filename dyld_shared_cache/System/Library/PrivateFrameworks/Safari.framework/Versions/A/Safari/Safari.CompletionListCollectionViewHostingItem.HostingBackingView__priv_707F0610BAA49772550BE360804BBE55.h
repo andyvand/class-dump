@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (id)rceOverlayVisible;
+- (id)keyboardInputSourceOverlayVisible;
 
 @end
 

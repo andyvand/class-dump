@@ -7,17 +7,10 @@
 @interface NewsFeed.DebugFormatInspectorResizingCell
 {
     id resizing;
-    id frameLayer;
-    id widthLayer;
-    id heightLayer;
-    id leftMarginLayer;
-    id rightMarginLayer;
-    id topMarginLayer;
-    id bottomMarginLayer;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)size:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ØËÿýH:©wþýH:$²}þ /* Error: Ran out of types for this method. */;
 

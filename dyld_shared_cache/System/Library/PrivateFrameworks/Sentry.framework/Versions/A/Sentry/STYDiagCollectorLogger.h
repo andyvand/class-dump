@@ -12,7 +12,7 @@
     NSObject<OS_os_log> *_logHandle;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (void);

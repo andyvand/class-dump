@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSInformant, CLSProfile, NSDictionary, NSString;
+@class NSString;
 
 @interface CLSClue
 {
     _Bool _transient;
-    NSString *_key;
-    id _value;
-    double _confidence;
-    double _relevance;
-    NSDictionary *_extraParameters;
-    CLSInformant *_informant;
-    CLSProfile *_profile;
-    NSString *_informantIdentifier;
-    NSString *_profileIdentifier;
-    unsigned long long _versionCount;
 }
 
 + (id);
@@ -39,39 +29,30 @@
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)y] Total number of identical nodes in graph1 and graph2 = %lu
+;
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)@"NSString"16q24@"NSDictionary"32@?<v@?@"NSString"@"NSString"@"NSError">40;
 - (id);
 - (double);
 - (double);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)oordinate: /* Error: Ran out of types for this method. */;
+- (_Bool)canUseCoordinate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double confidence; // @synthesize confidence=_confidence;
-@property(retain) NSDictionary *extraParameters; // @synthesize extraParameters=_extraParameters;
-@property(retain) CLSInformant *informant; // @synthesize informant=_informant;
-@property(retain) NSString *informantIdentifier; // @synthesize informantIdentifier=_informantIdentifier;
 @property(copy) NSString *key; // @synthesize key=_key;
-@property(retain) CLSProfile *profile; // @synthesize profile=_profile;
-@property(retain) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property double relevance; // @synthesize relevance=_relevance;
-@property _Bool transient; // @synthesize transient=_transient;
-@property(retain) id value; // @synthesize value=_value;
-@property unsigned long long versionCount; // @synthesize versionCount=_versionCount;
 
 @end
 

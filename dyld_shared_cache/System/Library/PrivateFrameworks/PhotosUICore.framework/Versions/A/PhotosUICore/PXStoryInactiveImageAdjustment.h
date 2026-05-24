@@ -15,13 +15,12 @@
 - (long long);
 - (id);
 - (_Bool);
-- (id);
-- (id)idChange:(void *)arg1;
+- (id);
+- (id)feedRecentsManagerRecentAssetsDidChange:(void *)arg1;
 - (void)m1Sú¢: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowsUnadjustedOpportunisticDelivery;
-@property(nonatomic, readonly) _Bool wantsSingleHighQualityDelivery;
 
 @end
 

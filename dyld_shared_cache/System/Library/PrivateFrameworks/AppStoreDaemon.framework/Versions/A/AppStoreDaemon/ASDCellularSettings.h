@@ -18,11 +18,10 @@
 - (long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)*;
 
 // Remaining properties
 @property(nonatomic) _Bool allowAutomaticDownloads;
-@property(nonatomic) long long cellularDataPrompt;
 
 @end
 

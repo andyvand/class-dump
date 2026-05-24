@@ -10,17 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSStatusItemNavigationController
 {
     NSStatusItem *_statusItem;
-    struct {
-        unsigned int theftID;
-        id eventMonitorToken;
-    } _keyThief;
-    struct {
-        unsigned int navigationByKeyboard:1;
-        unsigned int navigationByRollover:1;
-        unsigned int navigationMenuRevealed:1;
-        unsigned int keyThiefActive:1;
-        unsigned int reserved:28;
-    } _flags;
 }
 
 - (unsigned int);
@@ -31,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
+- (void)%s:%s /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)initWithUploadTask:uniqueIdentifier:bundleID:sessionID: /* Error: Ran out of types for this method. */;
+- (void)NSURLAuthenticationMethodPrivateAccessToken;
 - (void);
 - (void);
 

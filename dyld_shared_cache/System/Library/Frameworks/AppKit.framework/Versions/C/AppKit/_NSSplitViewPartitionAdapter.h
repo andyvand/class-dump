@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSplitView, NSString;
+@class NSSplitView;
 
 __attribute__((visibility("hidden")))
 @interface _NSSplitViewPartitionAdapter
 {
     NSSplitView *_splitView;
-    long long _dividerIndex;
-    double _dividerPosition;
-    _Bool _inManualResize;
-    double _cachedOriginX;
-    double _minimumThickness;
-    _Bool sidebarIsTrailingDivider;
 }
 
 + (id);
-+ (id);
-- (_Bool);
-- (void);
++ (id);
+- (_Bool);
+- (void);
 - (void);
 - (long long);
-- (id);
+- (id)";
 - (_Bool);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)uld not get power source info;
 - (double);
 - (double);
 - (double);
@@ -40,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (long long);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (id);
@@ -51,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)AOSKit:unable to allocate CFDataRef to hold raw token data. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -59,40 +53,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) long long depthOfView;
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGRect dividerCursorRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(readonly) double dividerWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isCollapsed;
-@property(readonly) _Bool isValidConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) double logicalDividerPosition;
-@property(readonly) double maximumDividerPosition;
-@property(readonly) double minimumDividerPosition;
-@property(readonly, getter=isOverlaidAsSidebar) _Bool overlaidAsSidebar;
-@property(readonly) NSObject *representedView;
-@property struct NSEdgeInsets sidebarAdditionalSafeAreaInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?
-
-@property(readonly) double sidebarDividerPosition;
-@property(nonatomic) _Bool sidebarIsTrailingDivider; // @synthesize sidebarIsTrailingDivider;
 @property(retain, nonatomic) NSSplitView *splitView;
-@property(nonatomic) long long splitViewDividerIndex;
-@property(readonly) Class superclass;
 
 @end
 

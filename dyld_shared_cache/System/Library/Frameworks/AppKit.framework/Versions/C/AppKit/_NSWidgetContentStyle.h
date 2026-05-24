@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (id);
-- (void);
-- (int);
+- (void)connection:(id)arg1 didReceiveData:(long long)arg2 lengthReceived:(long long)arg3;
+- (int)orage=},&,V_cfCreds;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)dler:(struct _NSZone *)arg1;
+- (_Bool)<;
+- (id)initWithPhase:(struct _NSZone *)arg1 handler: /* Error: Ran out of types for this method. */;
 
 @end
 

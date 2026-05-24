@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPluginPayload, NSColor, NSDate, NSFont, NSMenuItem, NSNumber, NSOperationQueue, NSSet, NSString, NSURL, NSUserDefaults, NSView, SOInputLineAutoSender, SOTimer, SOTimerCenter;
-@protocol SOInputLineDelegate;
+@class NSDate, NSFont;
 
 @interface SOInputLine
 {
     NSDate *_firstKey;
-    NSDate *_lastKey;
-    SOTimer *_timer;
-    SOTimerCenter *_timerCenter;
-    NSColor *_textColor;
-    unsigned int _nonEmpty:1;
-    unsigned int _significantChange:1;
-    unsigned int _sTermToggled:1;
-    _Bool _delegateRespondsToInputLineDidChangeSignificantly;
-    _Bool _delegateRespondsToInputLineRequestedPriorOutgoingMessage;
-    _Bool _delegateRespondsToInputLineRequestedNextOutgoingMessage;
-    _Bool _delegateRespondsToInputLineShouldInsertNewLine;
-    _Bool _canDisplayInlineFileTransfers;
-    _Bool _placeholderAttributedStringNeedsUpdate;
-    NSOperationQueue *_filePromiseReceivingQueue;
-    _Bool _dirty;
-    _Bool _automaticEmojiSubstitutionEnabled;
-    _Bool _useBigEmoji;
-    NSFont *_defaultFont;
-    NSFont *_lastUsedSubstitutedFont;
-    NSString *_placeholderText;
-    NSNumber *_forcedMinimumHeight;
-    NSView *_keyForwardingView;
-    NSMenuItem *_substituteEmojiMenuItem;
-    double _lastChangedTime;
-    SOInputLineAutoSender *_autoSender;
-    IMPluginPayload *_balloonPluginPayloadToInsert;
-    NSUserDefaults *_inputLineDefaults;
-    NSURL *_dropDirectoryURL;
 }
 
 + (_Bool);
@@ -53,8 +24,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)+;
 - (void);
 - (void);
 - (void);
@@ -121,65 +92,65 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)lastBaselineAnchor;
+- (void)_prepareCellsForOverdraw:(id)arg1;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)__DATA_CONST;
 - (id);
 - (unsigned long long);
 - (void);
+- (id)_observersQueue_copyChangeObserversForWriteIfNeeded;
+- (id)_observersQueue_changeObserversWithContexts;
+- (_Bool),R,N,V_isInteracting;
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)mplProtocol>",&,N,V_containingContext;
+- (void)playDelegate>",W,N,V_displayDelegate;
+- (id)ntext has already been created.;
+- (void);
+- (unsigned long long)>HB;
+- (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithDiskImageURL:(id)arg1 qos: /* Error: Ran out of types for this method. */;
+- (id)_customPathsUserToSystemSize;
+- (id)_customPathsSystemToUserSizeFinal;
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (_Bool)maxSportRecommendationsWithLeagueTypeCollege;
+- (void)initWithURL:(id)arg1 statusCode:HTTPVersion:headerFields: /* Error: Ran out of types for this method. */;
+- (void)cachesDirectoryURL;
+- (void)CPersonalizationScoringConfig",R,N,V_newspaperMagazineFeedScoringConfig;
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (id)A$;
+- (void)2;
+- (void)__swift5_assocty__TEXT;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)@;
+- (void);
+- (void)FactoryTypeP;
 - (id);
 - (void);
-- (void);
+- (void)I;
 - (id);
 - (id);
 - (void);
@@ -189,45 +160,12 @@
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (_Bool)emoveViews;
-- (_Bool)yphAtIndex:(id)arg1 effectiveRange: /* Error: Ran out of types for this method. */;
+- (_Bool)removeViews;
+- (_Bool)lineFragmentUsedRectForGlyphAtIndex:(id)arg1 effectiveRange: /* Error: Ran out of types for this method. */;
 - (void)NSMenuDelegate;
 
 // Remaining properties
-@property(retain, nonatomic) SOInputLineAutoSender *autoSender; // @synthesize autoSender=_autoSender;
-@property(nonatomic, getter=isAutomaticEmojiSubstitutionEnabled) _Bool automaticEmojiSubstitutionEnabled; // @synthesize automaticEmojiSubstitutionEnabled=_automaticEmojiSubstitutionEnabled;
-@property(retain, nonatomic) IMPluginPayload *balloonPluginPayloadToInsert; // @synthesize balloonPluginPayloadToInsert=_balloonPluginPayloadToInsert;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSFont *defaultFont; // @synthesize defaultFont=_defaultFont;
-@property id <SOInputLineDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dirty; // @synthesize dirty=_dirty;
-@property(retain) NSURL *dropDirectoryURL; // @synthesize dropDirectoryURL=_dropDirectoryURL;
-@property(retain, nonatomic) NSNumber *forcedMinimumHeight; // @synthesize forcedMinimumHeight=_forcedMinimumHeight;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUserDefaults *inputLineDefaults; // @synthesize inputLineDefaults=_inputLineDefaults;
-@property(retain) NSView *keyForwardingView; // @synthesize keyForwardingView=_keyForwardingView;
-@property(nonatomic) double lastChangedTime; // @synthesize lastChangedTime=_lastChangedTime;
 @property(retain, nonatomic) NSFont *lastUsedSubstitutedFont; // @synthesize lastUsedSubstitutedFont=_lastUsedSubstitutedFont;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(retain, nonatomic) NSString *placeholderText; // @synthesize placeholderText=_placeholderText;
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(retain, nonatomic) NSMenuItem *substituteEmojiMenuItem; // @synthesize substituteEmojiMenuItem=_substituteEmojiMenuItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSColor *transferBackgroundColor;
-@property(readonly, nonatomic) NSColor *transferTextColor;
-@property(nonatomic) _Bool useBigEmoji; // @synthesize useBigEmoji=_useBigEmoji;
 
 @end
 

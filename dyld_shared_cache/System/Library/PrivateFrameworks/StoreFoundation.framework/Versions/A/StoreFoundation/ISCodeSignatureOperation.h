@@ -6,15 +6,11 @@
 
 #import <StoreFoundation/ISOperation.h>
 
-@class ISServiceProxy, NSString;
+@class ISServiceProxy;
 
 @interface ISCodeSignatureOperation : ISOperation
 {
     ISServiceProxy *_proxy;
-    NSString *_bundlePath;
-    _Bool _showProgress;
-    _Bool _isDeveloperSigned;
-    _Bool _isAppleSigned;
 }
 
 + (id);
@@ -22,8 +18,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setRedactConnectedEvents: /* Error: Ran out of types for this method. */;
+- (void)setPostprocessingEntityCategoryCounts:(_Bool)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -33,11 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *bundlePath; // @synthesize bundlePath=_bundlePath;
-@property _Bool isAppleSigned; // @synthesize isAppleSigned=_isAppleSigned;
-@property _Bool isDeveloperSigned; // @synthesize isDeveloperSigned=_isDeveloperSigned;
 @property(retain) ISServiceProxy *proxy; // @synthesize proxy=_proxy;
-@property _Bool showProgress; // @synthesize showProgress=_showProgress;
 
 @end
 

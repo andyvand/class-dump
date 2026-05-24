@@ -9,10 +9,6 @@
 @interface _EDMessageQueryHelperEntry
 {
     EMMessageObjectID *_messageObjectID;
-    unsigned long long _sectionIndex;
-    id _primarySortValue;
-    id _secondarySortValue;
-    long long _searchResultType;
 }
 
 - (id);
@@ -21,17 +17,13 @@
 - (id);
 - (long long);
 - (unsigned long long);
-- (long long);
-- (_Bool);
+- (long long)ken;
+- (_Bool)BCD:(id)arg1 Overflow detected during result computation at index %zu;
 - (id);
 - (void)EDIndexingDiagnosticsGatherer;
 
 // Remaining properties
 @property(readonly, nonatomic) EMMessageObjectID *messageObjectID; // @synthesize messageObjectID=_messageObjectID;
-@property(readonly) id primarySortValue; // @synthesize primarySortValue=_primarySortValue;
-@property(readonly) long long searchResultType; // @synthesize searchResultType=_searchResultType;
-@property(readonly) id secondarySortValue; // @synthesize secondarySortValue=_secondarySortValue;
-@property(readonly) unsigned long long sectionIndex; // @synthesize sectionIndex=_sectionIndex;
 
 @end
 

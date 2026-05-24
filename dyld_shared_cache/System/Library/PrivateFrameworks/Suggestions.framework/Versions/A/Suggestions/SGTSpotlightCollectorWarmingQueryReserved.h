@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SGTSpotlightCollectorWarmingQueryReserved
 {
     NSObject<OS_dispatch_queue> *warmingQueryQueue;
-    NSObject<OS_dispatch_source> *warmingQueryTimer;
-    struct __MDQuery *warmingQuery;
-    _Bool runWarmingQuery;
-    NSString *baseQuery;
-    NSArray *searchScope;
 }
 
 - (void);
-- (void);
+- (void)boundsForPage: /* Error: Ran out of types for this method. */;
 
 @end
 

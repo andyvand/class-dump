@@ -7,18 +7,13 @@
 @class NSData, NSString;
 
 @protocol BKSHIDKeyboardDevicePropertiesProviding
+- (unsigned int)T;
+- (NSData *)';
+- (NSString *);
+- (unsigned char)a;
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool capsLockKeyHasLanguageSwitchLabel;
-@property(readonly, nonatomic) unsigned char countryCode;
-@property(readonly, copy, nonatomic) NSString *exclusivityIdentifier;
-@property(readonly, nonatomic) _Bool globeKeyLabelHasGlobeSymbol;
-@property(readonly, copy, nonatomic) NSString *language;
-@property(readonly, copy, nonatomic) NSString *layout;
-@property(readonly, copy, nonatomic) NSData *platformInputModeConfiguration;
 @property(readonly, nonatomic) unsigned long long senderID;
-@property(readonly, nonatomic) unsigned int standardType;
-@property(readonly, nonatomic) long long subinterfaceID;
-@property(readonly, copy, nonatomic) NSString *transport;
 @end
 

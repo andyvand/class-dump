@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
+- (id)e.spotlight.contacts;
 - (id);
-- (id);
-- (void);
+- (void)b;
 - (void);
 
 @end

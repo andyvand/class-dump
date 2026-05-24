@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, PKValueAddedMerchant;
+@class PKValueAddedMerchant;
 
 @interface PKValueAddedServiceTransaction
 {
     _Bool _didSucceed;
-    PKValueAddedMerchant *_merchant;
-    NSString *_identifier;
-    NSString *_merchantURL;
-    NSNumber *_terminalApplicationVersion;
-    long long _terminalMode;
-    NSDate *_transactionDate;
-    long long _error;
 }
 
-+ (_Bool);
++ (_Bool)L;
 - (long long);
 - (id);
 - (void);
@@ -36,20 +29,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)cellNrSNR;
 - (void);
 - (id);
 - (void)ntity;
 
 // Remaining properties
-@property(nonatomic) _Bool didSucceed; // @synthesize didSucceed=_didSucceed;
-@property(nonatomic) long long error; // @synthesize error=_error;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) PKValueAddedMerchant *merchant; // @synthesize merchant=_merchant;
-@property(retain, nonatomic) NSString *merchantURL; // @synthesize merchantURL=_merchantURL;
-@property(retain, nonatomic) NSNumber *terminalApplicationVersion; // @synthesize terminalApplicationVersion=_terminalApplicationVersion;
-@property(nonatomic) long long terminalMode; // @synthesize terminalMode=_terminalMode;
-@property(retain, nonatomic) NSDate *transactionDate; // @synthesize transactionDate=_transactionDate;
 
 @end
 

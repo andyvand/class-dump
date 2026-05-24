@@ -11,8 +11,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) id activityItem;
-@property(readonly, nonatomic) _Bool hasDocumentForLegacyNote;
 @property(readonly, nonatomic) _Bool hasDocumentForNote;
 @end
 

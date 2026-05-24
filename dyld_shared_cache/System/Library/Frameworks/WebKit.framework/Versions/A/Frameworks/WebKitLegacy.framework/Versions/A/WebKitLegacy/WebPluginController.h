@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSString, NSView, WebDataSource;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface WebPluginController
 {
     NSView *_documentView;
-    WebDataSource *_dataSource;
-    NSMutableArray *_views;
-    _Bool _started;
-    NSMutableSet *_checksInProgress;
 }
 
 + (_Bool);
@@ -24,6 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,27 +32,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)cancel SiWA authorization with error %{public}@;
 - (void);
 - (id)ÿ÷Â\R¹;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

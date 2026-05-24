@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (const void *);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)?@"NSError">32;
 + (id);
 - (_Bool);
 

@@ -7,30 +7,6 @@
 @interface IDSFoundation.H3_AllocBind.Request._StorageClass__priv_8B0E16784F004DAD1F473F6E14CD0257
 {
     id _serviceID;
-    id _clientOsVersion;
-    id _clientHwVersion;
-    id _capabilities;
-    id _publishedStreamIds;
-    id _subscribedStreams;
-    id _allWildcardSubscription;
-    id _maxConcurrentStreams;
-    id _channelBindingInfo;
-    id _maxEmbeddedStatsResponseDelay;
-    id _quicConnectionInfo;
-    id _stateFlags;
-    id _clientContextBlob;
-    id _reason;
-    id _serverBlob;
-    id _materials;
-    id _randomSalt;
-    id _accessToken;
-    id _legacySoftwareVersion;
-    id _callModeInfo;
-    id _fastPluginRegisterRequests;
-    id _staleLinks;
-    id _pqGroupEpochs;
-    id _testOption;
-    id _sessionExperiments;
 }
 
 @end

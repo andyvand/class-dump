@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarCache, CNAvatarViewController, FI_TAirDropProgressView, FI_TButton, FI_TTextField, NSLayoutConstraint, NSString, NSView;
+@class FI_TAirDropProgressView, FI_TTextField;
 
 __attribute__((visibility("hidden")))
 @interface FIAirDropListViewCellView
 {
     FI_TAirDropProgressView *_progressView;
-    NSView *_avatarView;
-    FI_TButton *_cancelButton;
-    FI_TTextField *_statusTextField;
-    struct TKeyValueBinder _pressedBinder;
-    struct TKeyValueBinder _cancellableBinder;
-    struct TKeyValueBinder _percentCompleteBinder;
-    struct TKeyValueBinder _indeterminateProgressBinder;
-    struct TKeyValueBinder _contactBinder;
-    struct TKeyValueBinder _personNameBinder;
-    CNAvatarViewController *_avatarViewController;
-    _Bool _isCancellable;
-    NSLayoutConstraint *_cancelButtonWidthConstraint;
-    double _defaultCancelButtonWidth;
-    NSLayoutConstraint *_subtitleToCancelButtonGapConstraint;
-    double _defaultSubtitleToCancelButtonGap;
-    _Bool _pressed;
-    NSString *_statusStr;
-    NSString *_personNameStr;
-    function_785e0e51 _ignoreClickHandler;
-    function_0418c310 _clickHandler;
 }
 
 - (id);
@@ -37,42 +17,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)qa;
 - (id);
 - (id);
-- (function_785e0e51);
+- (function_821e31af);
 - (_Bool);
-- (function_0418c310);
+- (function_312d42b2);
 - (id);
 - (id);
-- (id);
+- (id)>@pB;
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)setAllowsRunningApplicationSubstitution:(id)arg1;
+- (void)propertyListForType: /* Error: Ran out of types for this method. */;
+- (_Bool)expressionForConstantValue: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)wsWithIndexes:(_Bool)arg1 inColumn: /* Error: Ran out of types for this method. */;
+- (void)browser:(_Bool)arg1 namesOfPromisedFilesDroppedAtDestination:forDraggedRowsWithIndexes:inColumn: /* Error: Ran out of types for this method. */;
 - (void)è
 ;
-- (void)hared_ptrIK16IQLThumbnailDataEENS_6vectorINS_8weak_ptrIK17TQLThumbnailQueueEENS_9allocatorISA_EEEEN13memory_extras17shared_value_hashENSE_21shared_value_equal_toENSB_INS_4pairIKS5_SD_EEEEEENSB_ISL_EEEE;
+- (void)NSt3__120__shared_ptr_emplaceINS_13unordered_mapINS_10shared_ptrIK16IQLThumbnailDataEENS_6vectorINS_8weak_ptrIK17TQLThumbnailQueueEENS_9allocatorISA_EEEEN13memory_extras17shared_value_hashENSE_21shared_value_equal_toENSB_INS_4pairIKS5_SD_EEEEEENSB_ISL_EEEE;
 - (void)ÿêÌ;
 
 // Remaining properties
-@property(getter=isCancellable) _Bool cancellable;
-@property(nonatomic) function_0418c310 clickHandler; // @synthesize clickHandler=_clickHandler;
-@property(nonatomic) function_785e0e51 ignoreClickHandler; // @synthesize ignoreClickHandler=_ignoreClickHandler;
 @property(readonly, retain) FI_TTextField *machineNameTxtFld;
-@property(retain) NSString *personNameStr; // @synthesize personNameStr=_personNameStr;
-@property(getter=isPressed) _Bool pressed; // @synthesize pressed=_pressed;
-@property(retain, nonatomic) CNAvatarCache *sharedAvatarCache;
-@property(readonly, retain) NSString *statusStr; // @synthesize statusStr=_statusStr;
-@property(readonly, retain) FI_TTextField *statusTextField; // @synthesize statusTextField=_statusTextField;
 
 @end
 

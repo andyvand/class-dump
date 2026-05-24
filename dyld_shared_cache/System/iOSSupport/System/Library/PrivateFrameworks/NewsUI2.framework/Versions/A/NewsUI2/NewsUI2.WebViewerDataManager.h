@@ -7,8 +7,6 @@
 @interface NewsUI2.WebViewerDataManager
 {
     id config;
-    id observer;
-    id startDate;
 }
 
 @end

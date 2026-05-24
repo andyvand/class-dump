@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface _FMObserverProxy
 {
     _Bool _valid;
-    id _weakObserver;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ng back to 0;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 @property(readonly, nonatomic) __weak id weakObserver; // @synthesize weakObserver=_weakObserver;
 
 @end

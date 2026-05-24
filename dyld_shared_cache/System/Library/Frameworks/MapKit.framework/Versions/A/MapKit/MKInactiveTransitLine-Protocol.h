@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol GEOTransitDepartureSequence, GEOTransitLine;
+@protocol GEOTransitLine;
 
 @protocol MKInactiveTransitLine
+- (id <GEOTransitLine>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitDepartureSequence> departuresSequence;
 @property(readonly, nonatomic) id <GEOTransitLine> line;
-@property(readonly, nonatomic) NSString *serviceResumesDescription;
 @end
 

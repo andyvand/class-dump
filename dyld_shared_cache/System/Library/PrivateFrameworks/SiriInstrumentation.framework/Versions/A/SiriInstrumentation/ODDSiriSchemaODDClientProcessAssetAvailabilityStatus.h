@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDGmsAssetAvailabilityStatus;
+@class ODDSiriSchemaODDGmsAssetAvailabilityStatus;
 
 @interface ODDSiriSchemaODDClientProcessAssetAvailabilityStatus : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDGmsAssetAvailabilityStatus *_gmsAssetAvailabilityStatus;
-    _Bool _hasGmsAssetAvailabilityStatus;
 }
 
 - (void);
@@ -21,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)e]/history;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,8 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ODDSiriSchemaODDGmsAssetAvailabilityStatus *gmsAssetAvailabilityStatus; // @synthesize gmsAssetAvailabilityStatus=_gmsAssetAvailabilityStatus;
-@property(nonatomic) _Bool hasGmsAssetAvailabilityStatus; // @synthesize hasGmsAssetAvailabilityStatus=_hasGmsAssetAvailabilityStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

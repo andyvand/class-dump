@@ -6,13 +6,12 @@
 
 #import <Spotlight/SPQueryTask.h>
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SPZKWQueryTask : SPQueryTask
 {
     NSObject<OS_dispatch_queue> *_queryProcessor;
-    NSMutableArray *_mutableSections;
 }
 
 + (int);
@@ -20,23 +19,22 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)WebPageCacheEntryDateKey;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)^;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *mutableSections; // @synthesize mutableSections=_mutableSections;
 @property(retain) NSObject<OS_dispatch_queue> *queryProcessor; // @synthesize queryProcessor=_queryProcessor;
 
 @end

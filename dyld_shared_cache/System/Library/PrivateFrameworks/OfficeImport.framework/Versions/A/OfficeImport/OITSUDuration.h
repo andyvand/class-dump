@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (unsigned long long);
-- (id);
+- (id)HyAAyACG_AHtGACQo_;
 - (_Bool);
 - (id);
 - (double);

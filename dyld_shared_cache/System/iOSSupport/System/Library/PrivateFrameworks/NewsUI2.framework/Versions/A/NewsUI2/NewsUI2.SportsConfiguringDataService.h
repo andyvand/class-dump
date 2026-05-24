@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsConfiguringDataService
 {
     id sportsDataService;
-    id sportsEmbedConfigurationManager;
 }
 
 @end

@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSourceConfiguration, FigDepthDataCaptureConnectionConfiguration, FigVideoCaptureConnectionConfiguration, NSArray;
+@class FigCaptureSourceConfiguration;
 
 @interface FigCaptureSessionParsedCameraSourceConfiguration
 {
     FigCaptureSourceConfiguration *_cameraConfiguration;
-    NSArray *_connectionConfigurations;
-    FigVideoCaptureConnectionConfiguration *_videoPreviewSinkConnectionConfiguration;
-    NSArray *_previewDerivedConnectionConfigurations;
-    NSArray *_videoCaptureConnectionConfigurations;
-    NSArray *_videoDataConnectionConfigurations;
-    FigVideoCaptureConnectionConfiguration *_stillImageConnectionConfiguration;
-    FigDepthDataCaptureConnectionConfiguration *_depthDataConnectionConfiguration;
-    NSArray *_visionDataConnectionConfigurations;
-    NSArray *_metadataObjectConnectionConfigurations;
-    NSArray *_movieFileDetectedObjectMetadataConnectionConfigurations;
-    NSArray *_pointCloudDataConnectionConfigurations;
-    NSArray *_cameraCalibrationDataConnectionConfigurations;
-    int _multiCamClientCompositingPrimaryCameraVideoStabilizationStrength;
 }
 
 - (id);
-- (void);
-- (int);
+- (void)playRegion:in_size:objectIndex: /* Error: Ran out of types for this method. */;
+- (int)anim;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -42,20 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *cameraCalibrationDataConnectionConfigurations; // @synthesize cameraCalibrationDataConnectionConfigurations=_cameraCalibrationDataConnectionConfigurations;
-@property(readonly, nonatomic) FigCaptureSourceConfiguration *cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;
-@property(readonly, nonatomic) NSArray *connectionConfigurations; // @synthesize connectionConfigurations=_connectionConfigurations;
-@property(readonly, nonatomic) FigDepthDataCaptureConnectionConfiguration *depthDataConnectionConfiguration; // @synthesize depthDataConnectionConfiguration=_depthDataConnectionConfiguration;
-@property(readonly, nonatomic) NSArray *metadataObjectConnectionConfigurations; // @synthesize metadataObjectConnectionConfigurations=_metadataObjectConnectionConfigurations;
-@property(readonly, nonatomic) NSArray *movieFileDetectedObjectMetadataConnectionConfigurations; // @synthesize movieFileDetectedObjectMetadataConnectionConfigurations=_movieFileDetectedObjectMetadataConnectionConfigurations;
 @property(nonatomic) int multiCamClientCompositingPrimaryCameraVideoStabilizationStrength; // @synthesize multiCamClientCompositingPrimaryCameraVideoStabilizationStrength=_multiCamClientCompositingPrimaryCameraVideoStabilizationStrength;
-@property(readonly, nonatomic) NSArray *pointCloudDataConnectionConfigurations; // @synthesize pointCloudDataConnectionConfigurations=_pointCloudDataConnectionConfigurations;
-@property(readonly, nonatomic) NSArray *previewDerivedConnectionConfigurations; // @synthesize previewDerivedConnectionConfigurations=_previewDerivedConnectionConfigurations;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *stillImageConnectionConfiguration; // @synthesize stillImageConnectionConfiguration=_stillImageConnectionConfiguration;
-@property(readonly, nonatomic) NSArray *videoCaptureConnectionConfigurations; // @synthesize videoCaptureConnectionConfigurations=_videoCaptureConnectionConfigurations;
-@property(readonly, nonatomic) NSArray *videoDataConnectionConfigurations; // @synthesize videoDataConnectionConfigurations=_videoDataConnectionConfigurations;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *videoPreviewSinkConnectionConfiguration; // @synthesize videoPreviewSinkConnectionConfiguration=_videoPreviewSinkConnectionConfiguration;
-@property(readonly, nonatomic) NSArray *visionDataConnectionConfigurations; // @synthesize visionDataConnectionConfigurations=_visionDataConnectionConfigurations;
 
 @end
 

@@ -9,16 +9,13 @@
 @interface WBSSiteIconKeyColorExtractorCache
 {
     NSColor *_color;
-    double _confidence;
-    double _nonTransparentConfidence;
-    struct NSEdgeInsets _insets;
 }
 
 - (void);
 - (double);
-- (id);
-- (struct NSEdgeInsets);
-- (void);
+- (id)_imageView;
+- (struct NSEdgeInsets)D0;
+- (void)i;
 - (void);
 - (double);
 - (void);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) struct NSEdgeInsets insets; // @synthesize insets=_insets;
-@property(nonatomic) double nonTransparentConfidence; // @synthesize nonTransparentConfidence=_nonTransparentConfidence;
 
 @end
 

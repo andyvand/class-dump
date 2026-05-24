@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)D;
++ (id)tracking;
 + (void);
 - (void);
 - (id);

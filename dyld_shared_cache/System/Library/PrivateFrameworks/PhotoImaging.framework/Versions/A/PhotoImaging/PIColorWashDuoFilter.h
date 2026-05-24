@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIImage, NSString;
+@class CIImage;
 
 @interface PIColorWashDuoFilter
 {
     CIImage *_inputImage;
-    CIColor *_inputShadowColor;
-    CIColor *_inputHighlightColor;
-    NSString *_inputMode;
 }
 
-+ (id);
++ (id)(;
 + (id);
 + (id);
 + (id);
@@ -32,15 +29,12 @@
 - (id);
 - (void);
 - (id);
-- (void)ecessary: /* Error: Ran out of types for this method. */;
+- (void)portraitVideoAdjustmentControllerCreatingIfNecessary: /* Error: Ran out of types for this method. */;
 - (void)nContextInfo",&,N,V_contextInfo;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CIColor *inputHighlightColor; // @synthesize inputHighlightColor=_inputHighlightColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(retain, nonatomic) CIColor *inputShadowColor; // @synthesize inputShadowColor=_inputShadowColor;
 
 @end
 

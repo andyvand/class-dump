@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPLinkMetadataStatusTransformer, NSAttributedString, NSURL;
+
 @protocol LPLinkMetadataStatusTransformer
+- (NSAttributedString *)unitTestRunner:(LPLinkMetadataStatusTransformer *)arg1 runningTestsInBundleAtPath:failedWithError: /* Error: Ran out of types for this method. */;
+- (NSURL *)toolbarDidRemoveItem:(LPLinkMetadataStatusTransformer *)arg1;
+
+@optional
+- (void)transcriptCollectionViewControllerPerformBatchUpdateCompleted:(LPLinkMetadataStatusTransformer *)arg1;
+- (void)transcriptButtonContentEdgeInsets;
 @end
 

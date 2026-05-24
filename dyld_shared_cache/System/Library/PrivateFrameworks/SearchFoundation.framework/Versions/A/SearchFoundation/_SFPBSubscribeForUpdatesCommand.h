@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCloudChannelsRequestItem, _SFPBDomainSubscriptionRequestItem;
+@class _SFPBCloudChannelsRequestItem;
 
 @interface _SFPBSubscribeForUpdatesCommand
 {
     _SFPBCloudChannelsRequestItem *_cloudChannelsRequestItem;
-    _SFPBDomainSubscriptionRequestItem *_domainSubscriptionRequestItem;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)R%;
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)setConversationID:(id)arg1;
+- (id)...;
 - (id);
 - (id);
 - (void)4@0:8@"_SFPBURLCopyItem"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCloudChannelsRequestItem *cloudChannelsRequestItem; // @synthesize cloudChannelsRequestItem=_cloudChannelsRequestItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBDomainSubscriptionRequestItem *domainSubscriptionRequestItem; // @synthesize domainSubscriptionRequestItem=_domainSubscriptionRequestItem;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

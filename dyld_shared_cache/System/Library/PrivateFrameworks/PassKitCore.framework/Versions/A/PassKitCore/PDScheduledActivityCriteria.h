@@ -9,15 +9,6 @@
 @interface PDScheduledActivityCriteria
 {
     NSString *_priorityKey;
-    long long _gracePeriod;
-    _Bool _requireMainsPower;
-    _Bool _requireScreenSleep;
-    _Bool _requireNetworkConnectivity;
-    _Bool _repeating;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    double _repeatInterval;
-    NSString *_reason;
 }
 
 + (id);
@@ -30,35 +21,28 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)q):(double)arg1;
+- (id)";
 - (double);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (void);
 - (_Bool);
+- (void)Q;
+- (_Bool)_peerPreferredChannelFlags;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (_Bool);
-- (id)tionEventExtensionHostContext;
+- (id)PKPaymentInformationEventExtensionHostContext;
 - (void)hecking %lu applications for region network match;
-- (void)tStateDirty;
+- (void)accountStateDirty;
 - (void)lCGIegn_;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) double repeatInterval; // @synthesize repeatInterval=_repeatInterval;
-@property(nonatomic, getter=isRepeating) _Bool repeating; // @synthesize repeating=_repeating;
-@property(nonatomic) _Bool requireMainsPower; // @synthesize requireMainsPower=_requireMainsPower;
-@property(nonatomic) _Bool requireNetworkConnectivity; // @synthesize requireNetworkConnectivity=_requireNetworkConnectivity;
-@property(nonatomic) _Bool requireScreenSleep; // @synthesize requireScreenSleep=_requireScreenSleep;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

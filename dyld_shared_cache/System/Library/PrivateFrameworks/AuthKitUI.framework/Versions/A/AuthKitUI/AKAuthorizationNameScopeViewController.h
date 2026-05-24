@@ -4,80 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKUserInformation, NSArray, NSButton, NSLayoutConstraint, NSLayoutGuide, NSMutableArray, NSString, NSTextField;
-@protocol AKAuthorizationNameScopeViewControllerDelegate;
-
 @interface AKAuthorizationNameScopeViewController
 {
     _Bool _isEditable;
-    _Bool _hasClearButton;
-    _Bool _internalIsEditingName;
-    id <AKAuthorizationNameScopeViewControllerDelegate> _delegate;
-    double _valueLeadingInset;
-    NSTextField *_scopeLabel;
-    NSTextField *_valueLabel;
-    NSString *_detailText;
-    NSButton *_clearButton;
-    NSLayoutConstraint *_viewHeightConstraint;
-    NSArray *_editValueLabels;
-    unsigned long long _fieldType;
-    unsigned long long _selectionStyle;
-    NSString *_internalScopeString;
-    NSString *_internalValueString;
-    AKUserInformation *_userInformation;
-    NSTextField *_detailTextLabel;
-    NSLayoutGuide *_maidCenterYLayoutGuide;
-    NSMutableArray *_constraints;
 }
 
 - (id);
-- (double);
+- (double)r<;
 - (void);
+- (void);
+- (void)$q;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)X(a;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (_Bool)R%;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (void)4	;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)%;
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)CalRepresentedDate;
+- (id)ector canceled in a different runloop than it started in.;
+- (void);
+- (void)h;
 - (id);
 - (id);
 - (id);
@@ -98,35 +77,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSButton *clearButton; // @synthesize clearButton=_clearButton;
-@property(retain, nonatomic) NSMutableArray *constraints; // @synthesize constraints=_constraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKAuthorizationNameScopeViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *detailText; // @synthesize detailText=_detailText;
-@property(retain, nonatomic) NSTextField *detailTextLabel; // @synthesize detailTextLabel=_detailTextLabel;
-@property(readonly, nonatomic) NSArray *editValueLabels; // @synthesize editValueLabels=_editValueLabels;
-@property(nonatomic, getter=isEditingName) _Bool editingName;
 @property(nonatomic) unsigned long long fieldType; // @synthesize fieldType=_fieldType;
-@property(nonatomic) _Bool hasClearButton; // @synthesize hasClearButton=_hasClearButton;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool internalIsEditingName; // @synthesize internalIsEditingName=_internalIsEditingName;
-@property(copy, nonatomic) NSString *internalScopeString; // @synthesize internalScopeString=_internalScopeString;
-@property(copy, nonatomic) NSString *internalValueString; // @synthesize internalValueString=_internalValueString;
-@property(nonatomic) _Bool isEditable;
-@property(retain, nonatomic) NSLayoutGuide *maidCenterYLayoutGuide; // @synthesize maidCenterYLayoutGuide=_maidCenterYLayoutGuide;
-@property(readonly, nonatomic) NSTextField *scopeLabel; // @synthesize scopeLabel=_scopeLabel;
-@property(copy, nonatomic) NSString *scopeString;
-@property(nonatomic) unsigned long long selectionStyle; // @synthesize selectionStyle=_selectionStyle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AKUserInformation *userInformation; // @synthesize userInformation=_userInformation;
-@property(readonly, nonatomic) NSTextField *valueLabel; // @synthesize valueLabel=_valueLabel;
-@property(nonatomic) double valueLeadingInset; // @synthesize valueLeadingInset=_valueLeadingInset;
-@property(copy, nonatomic) NSString *valueString;
-@property(readonly, nonatomic) NSLayoutConstraint *viewHeightConstraint; // @synthesize viewHeightConstraint=_viewHeightConstraint;
 
 @end
 

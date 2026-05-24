@@ -6,37 +6,18 @@
 
 #import <AccessibilityVisuals/AXVCGMagicZoomWindow.h>
 
-@class AXVBorderedLayer, AXVOverlayWindow, NSColor, NSString;
-@protocol AXVBorderedZoomWindowDelegate;
+@class AXVOverlayWindow;
 
 @interface AXVBorderedZoomWindow : AXVCGMagicZoomWindow
 {
     _Bool _showBorder;
-    _Bool __inResizeMode;
-    id <AXVBorderedZoomWindowDelegate> _delegate;
-    unsigned long long _borderStyle;
-    double _borderThickness;
-    NSColor *_borderColor;
-    double _highlightRatio;
-    NSColor *_highlightColor;
-    double _cornerRadius;
-    unsigned long long _allowedResizeTargets;
-    AXVOverlayWindow *__overlayWindow;
-    AXVBorderedLayer *__borderedLayer;
-    AXVBorderedLayer *__resizeModeOKButtonLayer;
-    CDUnknownBlockType __customPlacementBlock;
-    unsigned long long __mouseOverRegion;
-    unsigned long long __mouseDownRegion;
-    struct CGPoint __mouseLocationAtDragStart;
-    struct CGPoint __previousDragMouseLocation;
-    struct CGRect __zoomWindowFrameAtDragStart;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)C;
 + (id);
 + (unsigned long long);
 + (int);
@@ -45,10 +26,10 @@
 - (double);
 - (void);
 - (void);
+- (void)y	?%@qa;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -57,17 +38,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (double);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (struct CGPoint);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGPoint);
 - (unsigned long long);
 - (_Bool);
@@ -86,44 +67,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void), WTF:(id)arg1:FastMalloc>="m_table"^v}} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
+- (void);
 - (void);
-- (void);
-- (void)railleLeftStatusCellsView;
+- (void)__brailleLeftStatusCellsView;
 
 // Remaining properties
-@property(retain, nonatomic) AXVBorderedLayer *_borderedLayer; // @synthesize _borderedLayer=__borderedLayer;
-@property(copy, nonatomic) CDUnknownBlockType _customPlacementBlock; // @synthesize _customPlacementBlock=__customPlacementBlock;
-@property(nonatomic, setter=_setInResizeMode:) _Bool _inResizeMode; // @synthesize _inResizeMode=__inResizeMode;
-@property(nonatomic) unsigned long long _mouseDownRegion; // @synthesize _mouseDownRegion=__mouseDownRegion;
-@property(nonatomic) struct CGPoint _mouseLocationAtDragStart; // @synthesize _mouseLocationAtDragStart=__mouseLocationAtDragStart;
-@property(nonatomic) unsigned long long _mouseOverRegion; // @synthesize _mouseOverRegion=__mouseOverRegion;
 @property(retain, nonatomic) AXVOverlayWindow *_overlayWindow; // @synthesize _overlayWindow=__overlayWindow;
-@property(nonatomic) struct CGPoint _previousDragMouseLocation; // @synthesize _previousDragMouseLocation=__previousDragMouseLocation;
-@property(retain, nonatomic) AXVBorderedLayer *_resizeModeOKButtonLayer; // @synthesize _resizeModeOKButtonLayer=__resizeModeOKButtonLayer;
-@property(nonatomic) struct CGRect _zoomWindowFrameAtDragStart; // @synthesize _zoomWindowFrameAtDragStart=__zoomWindowFrameAtDragStart;
-@property(nonatomic) unsigned long long allowedResizeTargets; // @synthesize allowedResizeTargets=_allowedResizeTargets;
-@property(copy, nonatomic) NSColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(nonatomic) unsigned long long borderStyle; // @synthesize borderStyle=_borderStyle;
-@property(nonatomic) double borderThickness; // @synthesize borderThickness=_borderThickness;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXVBorderedZoomWindowDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(nonatomic) double highlightRatio; // @synthesize highlightRatio=_highlightRatio;
-@property(nonatomic) _Bool showBorder; // @synthesize showBorder=_showBorder;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double totalBorderThickness;
 
 @end
 

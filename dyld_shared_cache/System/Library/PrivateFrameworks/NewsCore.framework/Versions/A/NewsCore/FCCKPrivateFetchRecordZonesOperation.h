@@ -11,8 +11,6 @@
 @interface FCCKPrivateFetchRecordZonesOperation : FCCKPrivateDatabaseOperation
 {
     NSArray *_recordZoneIDs;
-    CDUnknownBlockType _fetchRecordZonesCompletionBlock;
-    NSDictionary *_resultRecordZonesByZoneID;
 }
 
 - (void);
@@ -20,7 +18,7 @@
 - (void);
 - (CDUnknownBlockType)¡Ð!8Bù)	Ð1Â0@ù
 × ;
-- (void)ithError:(CDUnknownBlockType)arg1;
+- (void)URLSession:(CDUnknownBlockType)arg1 task:didCompleteWithError: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)poraryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFeedTransformationUnreadFirst.m;
 - (void)ecause its article record is not cached;
@@ -29,8 +27,6 @@
 Íÿ s;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordZonesCompletionBlock; // @synthesize fetchRecordZonesCompletionBlock=_fetchRecordZonesCompletionBlock;
-@property(copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
 @property(retain, nonatomic) NSDictionary *resultRecordZonesByZoneID; // @synthesize resultRecordZonesByZoneID=_resultRecordZonesByZoneID;
 
 @end

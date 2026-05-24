@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface VSErrorRecoveryAttempter
 {
     NSArray *_options;
-    NSOperationQueue *_recoveryAttemptingQueue;
 }
 
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *options; // @synthesize options=_options;
 @property(retain, nonatomic) NSOperationQueue *recoveryAttemptingQueue; // @synthesize recoveryAttemptingQueue=_recoveryAttemptingQueue;
 
 @end

@@ -7,8 +7,10 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (void)/;
+- (void)u) not multiple of jetsam entry type (%lu);
 - (_Bool)lastContentOffset;
-- (long long)rGenerator;
-- (void)airClassification;
+- (long long)_stickerGenerator;
+- (void)AVTArrayPairClassification;
 @end
 

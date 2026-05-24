@@ -10,8 +10,8 @@
 {
 }
 
-+ (unsigned long long);
-- (_Bool);
++ (unsigned long long);
+- (_Bool)account:vettedAliasesChanged: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

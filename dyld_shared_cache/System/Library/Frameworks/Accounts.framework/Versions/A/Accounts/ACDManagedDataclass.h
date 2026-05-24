@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSString;
 
 @interface ACDManagedDataclass
 {
@@ -12,11 +12,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *enabledAccounts; // @dynamic enabledAccounts;
-@property(retain, nonatomic) NSNumber *enumValue; // @dynamic enumValue;
 @property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSSet *provisionedAccounts; // @dynamic provisionedAccounts;
-@property(retain, nonatomic) NSSet *supportedTypes; // @dynamic supportedTypes;
-@property(retain, nonatomic) NSSet *syncableTypes; // @dynamic syncableTypes;
 @end
 

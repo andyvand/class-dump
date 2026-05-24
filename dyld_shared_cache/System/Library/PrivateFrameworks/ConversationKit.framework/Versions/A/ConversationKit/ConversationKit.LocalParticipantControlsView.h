@@ -9,55 +9,32 @@
 @interface ConversationKit.LocalParticipantControlsView
 {
     NSControl *cameraBlurButton;
-    NSControl *cinematicFramingButton;
-    NSControl *collapseButton;
-    NSControl *rotateButton;
-    NSControl *cameraFlipButton;
-    NSControl *cameraFlipButtonWithText;
-    NSControl *reactionEffectGestureButton;
-    NSControl *studioLightButton;
-    id currentConstraints;
-    id delegate;
-    id zoomButtonLayoutGuide;
-    id style;
-    id viewModel;
-    id blurEnabled;
-    id cinematicFramingIsEnabled;
-    id reactionEffectGestureIsEnabled;
-    id studioLightIsEnabled;
-    id isDisabled;
-    id tuFeatures;
-    id previewButtonConstraints;
-    id cameraFlipButtonConstraints;
-    id _videoMessagingState;
-    id subscriptions;
-    id timerSink;
 }
 
 - (id);
 - (id);
+- (void)z;
 - (void);
+- (void){;
+- (void)z;
+- (void){;
+- (void)z;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void){;
 - (id);
 - (id);
+- (id)r;
+- (id);
+- (void)r;
+- (void)hzQr;
+- (id)z;
+- (id);
+- (id)"NSError">;
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool),&,N,V_request;
+- (void);
 - (id);
 - (void)1Â0@ù
 × ;
@@ -65,14 +42,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSControl *cameraBlurButton; // @synthesize cameraBlurButton;
-@property(nonatomic, readonly) NSControl *cameraFlipButton; // @synthesize cameraFlipButton;
-@property(nonatomic, readonly) NSControl *cameraFlipButtonWithText; // @synthesize cameraFlipButtonWithText;
-@property(nonatomic, readonly) NSControl *cinematicFramingButton; // @synthesize cinematicFramingButton;
-@property(nonatomic, readonly) NSControl *collapseButton; // @synthesize collapseButton;
-@property(nonatomic, readonly) _Bool flipped;
-@property(nonatomic, readonly) NSControl *reactionEffectGestureButton; // @synthesize reactionEffectGestureButton;
-@property(nonatomic, readonly) NSControl *rotateButton; // @synthesize rotateButton;
-@property(nonatomic, readonly) NSControl *studioLightButton; // @synthesize studioLightButton;
 
 @end
 

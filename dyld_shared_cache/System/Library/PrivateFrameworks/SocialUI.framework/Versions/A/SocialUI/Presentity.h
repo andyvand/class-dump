@@ -9,8 +9,6 @@
 @interface Presentity
 {
     BuddyPicture *_customPicture;
-    BuddyPicture *_picture;
-    _Bool _isCustomPictureChecked;
 }
 
 - (void);
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)k`;
 - (void);
 - (void);
 - (id);

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, QLInlinePreviewController, QLPreviewView;
+@class NSObject;
 @protocol TDesktopInlinePreviewDataSource;
 
 __attribute__((visibility("hidden")))
 @interface FI_TDesktopInlinePreviewController
 {
     struct mutex _lock;
-    struct TNSWeakPtr<NSObject<TDesktopInlinePreviewDataSource>> _weakDataSource;
-    QLInlinePreviewController *_rolloverInlinePreviewController;
-    QLInlinePreviewController *_playInlinePreviewController;
-    QLInlinePreviewController *_mouseInlinePreviewController;
 }
 
 - (void);
@@ -28,15 +24,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
 - (int);
 - (struct CGRect);
-- (void);
-- (void);
+- (void)*	;
+- (void)!;
 - (void);
 - (id);
 - (void);
@@ -49,15 +45,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<TDesktopInlinePreviewDataSource> *dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inlinePreviewEnabled;
-@property(readonly, retain, nonatomic) QLPreviewView *sharedPreviewView;
-@property(readonly) Class superclass;
 
 @end
 

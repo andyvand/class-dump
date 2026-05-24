@@ -5,5 +5,7 @@
 //
 
 @protocol FPItemCollectionIndexPathBasedDelegate
+- (void)M;
+- (void)#;
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMStream;
-@protocol _DKKnowledgeEventStreamDeleting;
-
 @interface USWebHistory
 {
     _Bool _usageTrusted;
-    id <_DKKnowledgeEventStreamDeleting> _eventStorage;
-    BMStream *_mediaUsageStream;
-    BMStream *_webUsageStream;
 }
 
 + (_Bool);
@@ -39,14 +33,11 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) id <_DKKnowledgeEventStreamDeleting> eventStorage; // @synthesize eventStorage=_eventStorage;
-@property(readonly) BMStream *mediaUsageStream; // @synthesize mediaUsageStream=_mediaUsageStream;
 @property(readonly) _Bool usageTrusted; // @synthesize usageTrusted=_usageTrusted;
-@property(readonly) BMStream *webUsageStream; // @synthesize webUsageStream=_webUsageStream;
 
 @end
 

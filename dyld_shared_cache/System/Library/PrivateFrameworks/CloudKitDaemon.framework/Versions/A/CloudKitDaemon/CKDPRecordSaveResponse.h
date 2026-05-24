@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPDateStatistics, CKDPRecord, NSString;
+@class NSString;
 
 @interface CKDPRecordSaveResponse
 {
     NSString *_etag;
-    CKDPDate *_expirationTime;
-    CKDPRecord *_serverFields;
-    CKDPDateStatistics *_timeStatistics;
 }
 
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)lSetRateError(FigEndpointStreamAudioEngineRef, APSAudioProtocolDriverHoseControlRef, OSStatus, Boolean);
+- (_Bool)`;
+- (_Bool);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)GMPBP256Key",&,N,V_dhKey;
+- (void)Failed to find corresponding MessageKey to discard on all sessions.;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) CKDPDate *expirationTime; // @synthesize expirationTime=_expirationTime;
 @property(readonly, nonatomic) _Bool hasEtag;
-@property(readonly, nonatomic) _Bool hasExpirationTime;
-@property(readonly, nonatomic) _Bool hasServerFields;
-@property(readonly, nonatomic) _Bool hasTimeStatistics;
-@property(retain, nonatomic) CKDPRecord *serverFields; // @synthesize serverFields=_serverFields;
-@property(retain, nonatomic) CKDPDateStatistics *timeStatistics; // @synthesize timeStatistics=_timeStatistics;
 
 @end
 

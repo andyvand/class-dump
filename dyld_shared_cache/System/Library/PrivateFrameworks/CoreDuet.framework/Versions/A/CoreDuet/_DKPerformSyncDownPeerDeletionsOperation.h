@@ -6,28 +6,18 @@
 
 #import <CoreDuet/_DKSyncCompositeOperation.h>
 
-@class NSDate, _DKSync2Policy, _DKSyncHistory, _DKSyncPeer, _DKSyncType;
-@protocol _DKSyncLocalKnowledgeStorage, _DKSyncRemoteKnowledgeStorage;
+@protocol _DKSyncLocalKnowledgeStorage;
 
 @interface _DKPerformSyncDownPeerDeletionsOperation : _DKSyncCompositeOperation
 {
     id <_DKSyncLocalKnowledgeStorage> _localStorage;
-    id <_DKSyncRemoteKnowledgeStorage> _transport;
-    _DKSyncPeer *_peer;
-    _DKSync2Policy *_policy;
-    _DKSyncType *_type;
-    _Bool _highPriority;
-    _DKSyncHistory *_history;
-    NSDate *_highWaterMark;
-    unsigned long long _batchNumber;
-    _Bool _foundDeletions;
 }
 
-- (void);
-- (void);
+- (void)[;
+- (void)@;
 - (void)
 × ;
-- (_Bool)te;
+- (_Bool)AutoSUTimeRestrictionOverwrite;
 
 @end
 

@@ -9,11 +9,10 @@
 @interface MTLCaptureManager
 {
     _Bool _isCapturing;
-    id <MTLCaptureScope> _defaultCaptureScope;
 }
 
 + (id);
-- (id);
+- (id)uber shader:(id)arg1 %@;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -23,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)T);
 - (void);
 - (void);
 - (void);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(retain) id <MTLCaptureScope> defaultCaptureScope; // @synthesize defaultCaptureScope=_defaultCaptureScope;
-@property(readonly) _Bool isCapturing; // @synthesize isCapturing=_isCapturing;
 
 @end
 

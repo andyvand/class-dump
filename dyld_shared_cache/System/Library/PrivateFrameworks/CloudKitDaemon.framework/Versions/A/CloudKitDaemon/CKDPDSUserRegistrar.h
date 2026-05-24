@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, PDSRegistrar, PDSUser;
+@class PDSRegistrar;
 
 @interface CKDPDSUserRegistrar
 {
     PDSRegistrar *_registrar;
-    PDSUser *_user;
-    NSCache *_cache;
 }
 
 - (_Bool);
+- (_Bool)H;
+- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void)eIDs;
+- (id)9	;
+- (id)needed;
+- (id);
+- (void)zoneIDs;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSCache *cache; // @synthesize cache=_cache;
 @property(readonly, nonatomic) PDSRegistrar *registrar; // @synthesize registrar=_registrar;
-@property(readonly, nonatomic) PDSUser *user; // @synthesize user=_user;
 
 @end
 

@@ -6,33 +6,17 @@
 
 #import <PersonalizationPortrait/PPContactNameRecord.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface PPClientContactNameRecord : PPContactNameRecord
 {
     NSString *_identifier;
-    double _score;
-    unsigned char _source;
-    NSString *_sourceIdentifier;
-    unsigned char _changeType;
-    NSString *_firstName;
-    NSString *_phoneticFirstName;
-    NSString *_middleName;
-    NSString *_phoneticMiddleName;
-    NSString *_lastName;
-    NSString *_phoneticLastName;
-    NSString *_organizationName;
-    NSString *_jobTitle;
-    NSString *_nickname;
-    NSDictionary *_relatedNames;
-    NSArray *_streetNames;
-    NSArray *_cityNames;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)CloudKitTreatmentRecordAssetWithOffsets:]E3$_0 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -42,7 +26,7 @@
 - (double);
 - (id);
 - (unsigned char);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)1Â0@ù

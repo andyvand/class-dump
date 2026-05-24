@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TSSStyle;
+@class TSSStyle;
 
 @interface TSSStylePromise
 {
     TSSStyle *_sourceStyle;
-    NSMutableArray *_promisees;
 }
 
 + (id);

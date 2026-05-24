@@ -9,14 +9,11 @@
 @interface TRIRolloutIdentifiers
 {
     int _deploymentId;
-    NSString *_rolloutId;
-    NSString *_factorPackId;
-    NSString *_rampId;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -29,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(readonly, nonatomic) NSString *factorPackId; // @synthesize factorPackId=_factorPackId;
-@property(readonly, nonatomic) NSString *rampId; // @synthesize rampId=_rampId;
 @property(readonly, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
 
 @end

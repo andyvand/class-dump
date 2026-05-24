@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface WFOnScreenContentExtractor
 {
     long long _applicationLevel;
-    NSObject<OS_dispatch_queue> *_itemProviderQueue;
-    struct CGRect _applicationFrame;
 }
 
 - (void);
@@ -19,8 +14,8 @@
 - (id);
 - (id);
 - (long long);
-- (struct CGRect);
-- (void);
+- (struct CGRect)q;
+- (void)!o;
 - (id);
 - (id);
 - (void)!UÐ!EùÑ^Ð1Â0@ù
@@ -28,8 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGRect applicationFrame; // @synthesize applicationFrame=_applicationFrame;
-@property(nonatomic) long long applicationLevel; // @synthesize applicationLevel=_applicationLevel;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *itemProviderQueue; // @synthesize itemProviderQueue=_itemProviderQueue;
 
 @end
 

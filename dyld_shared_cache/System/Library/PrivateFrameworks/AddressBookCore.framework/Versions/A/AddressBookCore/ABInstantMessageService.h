@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface ABInstantMessageService
 {
     NSString *_serviceKey;
-    NSDictionary *_actionURITemplates;
 }
 
 + (id);
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *actionURITemplates; // @synthesize actionURITemplates=_actionURITemplates;
 @property(copy) NSString *serviceKey; // @synthesize serviceKey=_serviceKey;
 
 @end

@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)eApplyChangesOnly;
+- (id)dule a retry.;
+- (id)h;
+- (void)unsafeApplyChangesOnly;
 
 @end
 

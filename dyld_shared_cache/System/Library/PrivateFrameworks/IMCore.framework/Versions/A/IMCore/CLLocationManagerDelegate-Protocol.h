@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CLLocationManager;
+
 @protocol CLLocationManagerDelegate
 
 @optional
+- (void)removeMappingFromClockIDToCoreAudioClockDomainForClockID:(CLLocationManager *)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)FDREncodeCreateOfflineSignedData;
+- (void)%@;
 - (void)0@ù
 × ;
 @end

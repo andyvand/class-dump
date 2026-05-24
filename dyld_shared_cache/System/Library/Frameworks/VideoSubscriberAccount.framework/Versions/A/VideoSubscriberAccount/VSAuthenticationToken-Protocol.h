@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSDate;
 
 @protocol VSAuthenticationToken
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *body;
 @property(readonly, copy, nonatomic) NSDate *expirationDate;
-@property(readonly, copy, nonatomic) NSData *serializedData;
 @end
 

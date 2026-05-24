@@ -5,5 +5,9 @@
 //
 
 @protocol AKFormFeatureDetectorDelegate
+
+@optional
+- (_Bool)BREntitlementSharingPrivateInterface;
+- (double);
 @end
 

@@ -6,38 +6,33 @@
 
 #import <PhotosGraph/PGTitleGenerator.h>
 
-@class NSSet, NSString, PGTimeTitleOptions;
+@class NSString;
 
 @interface PGPeopleMemoryTitleGenerator : PGTitleGenerator
 {
     NSString *_seasonName;
-    unsigned long long _type;
-    NSSet *_personNodes;
-    PGTimeTitleOptions *_timeTitleOptions;
 }
 
-+ (id);
++ (id)ssertApplicationQueue];
+- (id);
+- (id);
+- (id)localizedStringFromNumber:(id)arg1 numberStyle:(id)arg2;
+- (id)loadNibNamed:(id)arg1 owner:(id)arg2 topLevelObjects:(id)arg3;
+- (id)layoutHash;
+- (_Bool)aC;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (void)rtInteresting;
+- (void)isSmartInteresting;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *personNodes; // @synthesize personNodes=_personNodes;
-@property(readonly, nonatomic) PGTimeTitleOptions *timeTitleOptions; // @synthesize timeTitleOptions=_timeTitleOptions;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

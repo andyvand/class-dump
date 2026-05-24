@@ -10,15 +10,15 @@
 }
 
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_ֽ ;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)requestWithMethod:URL:parameters: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, SMMedicalIDMO;
+@class NSUUID;
 
 @interface SMEmergencyContactMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)updateMirrorKey:(id)arg1 service:(id)arg2 type:(id)arg3 newType:current: /* Error: Ran out of types for this method. */;
++ (id)update;
++ (id)k(%@) succeeded;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(retain, nonatomic) SMMedicalIDMO *medicalID; // @dynamic medicalID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSString *phoneNumber; // @dynamic phoneNumber;
 
 @end
 

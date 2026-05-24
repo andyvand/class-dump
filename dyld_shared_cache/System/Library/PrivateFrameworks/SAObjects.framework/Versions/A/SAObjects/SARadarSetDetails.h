@@ -13,9 +13,9 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,8 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *classification;
-@property(copy, nonatomic) NSString *description;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

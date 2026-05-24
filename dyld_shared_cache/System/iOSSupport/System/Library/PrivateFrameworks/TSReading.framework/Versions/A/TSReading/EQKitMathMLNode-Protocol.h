@@ -5,5 +5,6 @@
 //
 
 @protocol EQKitMathMLNode
+- (const void *)rEvent.setQueueWithItem - identifier: /* Error: Ran out of types for this method. */;
 @end
 

@@ -6,25 +6,18 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSButton, NSString;
-@protocol NSTouchBarColorPickerSwitcherDelegate;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSwitcher : NSView
 {
     NSButton *_popupButton;
-    NSView *_popoverContainerView;
-    _Bool _presentingPopover;
-    long long _selectedItemIndex;
-    NSArray *_items;
-    id <NSTouchBarColorPickerSwitcherDelegate> _delegate;
-    NSView *_container;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)VolumeDownButtonCGRect;
+- (void)equipment info dictionary;
+- (void)fo dictionary;
+- (void)guykxGaRwHdenUK8fJRl8w;
 - (void);
 - (long long);
 - (void);
@@ -33,33 +26,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)accept_didFinishCollectingMetrics;
 - (void);
 - (id);
-- (void);
+- (void)defaultFontForTextStyle:(id)arg1;
 - (id)
 × ;
-- (id)Object:(struct CGRect)arg1;
+- (id)setNsViewObject:(struct CGRect)arg1;
 - (void)ülôÌÈ¤¬À°äøÐô,´;
 - (void);
 - (void)ppressedByMoreFocusedTouchBars` set to YES and is followed by bars (e.g., %@) closer to first responder, so it is removed;
-- (id)ectory;
-- (void)xtMovement;
+- (id)defaultDirectory;
+- (void)NSTextMovement;
 - (void)ÀÜtB;
 
 // Remaining properties
-@property __weak NSView *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSTouchBarColorPickerSwitcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *items;
-@property(readonly) _Bool presentingPopover; // @synthesize presentingPopover=_presentingPopover;
 @property long long selectedItemIndex;
-@property(readonly) Class superclass;
 
 @end
 

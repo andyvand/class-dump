@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPNowPlayingInfoLanguageOption, NSArray;
-
 @interface MPNowPlayingInfoLanguageOptionGroup
 {
     void *_mrLanguageOptionGroup;
@@ -20,9 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowEmptySelection; // @dynamic allowEmptySelection;
-@property(readonly, nonatomic) MPNowPlayingInfoLanguageOption *defaultLanguageOption; // @dynamic defaultLanguageOption;
-@property(readonly, nonatomic) NSArray *languageOptions; // @dynamic languageOptions;
 @property(readonly, nonatomic) void *mrLanguageOptionGroup; // @synthesize mrLanguageOptionGroup=_mrLanguageOptionGroup;
 
 @end

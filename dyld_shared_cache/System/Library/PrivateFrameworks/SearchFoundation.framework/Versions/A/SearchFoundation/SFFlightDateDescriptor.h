@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSNumber, NSString;
+@class NSDate;
 
 @interface SFFlightDateDescriptor
 {
     NSDate *_scheduled;
-    NSDate *_current;
-    NSNumber *_bufferMinutes;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id):(id)arg1;
 - (unsigned long long);
 - (_Bool);
+- (void)property list representation:(id)arg1 %{public}@.;
+- (id)8B16B20;
+- (id)PHAssetCollectionTypeImportSession;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)ved;
+- (id);
+- (void)_assetsRetrieved;
 - (id)ø;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *bufferMinutes; // @synthesize bufferMinutes=_bufferMinutes;
-@property(copy, nonatomic) NSDate *current; // @synthesize current=_current;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSDate *scheduled; // @synthesize scheduled=_scheduled;
-@property(readonly) Class superclass;
 
 @end
 

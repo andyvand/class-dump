@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNGeminiChannel, NSArray;
+@class CNGeminiChannel;
 
 @interface CNGeminiResult
 {
     CNGeminiChannel *_channel;
-    long long _usage;
-    NSArray *_availableChannels;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly) NSArray *availableChannels; // @synthesize availableChannels=_availableChannels;
 @property(readonly) CNGeminiChannel *channel; // @synthesize channel=_channel;
-@property(readonly) long long usage; // @synthesize usage=_usage;
 
 @end
 

@@ -4,111 +4,73 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NTPBIssueData;
+@class NSString;
 
 @interface NTPBPaywallButtonTap
 {
     NSString *_articleId;
-    NSData *_articleViewingSessionId;
-    int _groupType;
-    NTPBIssueData *_issueData;
-    int _paidSubscriptionConversionPointType;
-    int _parentFeedType;
-    NSString *_purchaseId;
-    int _purchaseType;
-    NSString *_sectionId;
-    NSString *_sourceChannelId;
-    int _subscriptionButtonTargetType;
-    struct {
-        unsigned int groupType:1;
-        unsigned int paidSubscriptionConversionPointType:1;
-        unsigned int parentFeedType:1;
-        unsigned int purchaseType:1;
-        unsigned int subscriptionButtonTargetType:1;
-    } _has;
 }
 
+- (id)fetchRequestWithEntityName:(int)arg1;
+- (int)fetchRepresentativeAssetsInAssetCollection: /* Error: Ran out of types for this method. */;
+- (void)yles:(int)arg1 separatorEffectParameters:handler: /* Error: Ran out of types for this method. */;
+- (void)enumerateHeroSpritesInRect:(int)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)enumerateFetchedItemsUsingBlock:(int)arg1;
+- (void)emphasizedTextAttributes;
+- (void)diptychDurationMultiplier;
+- (void)diagnosticDescriptionForAllHUDTypes;
+- (void)dependencies;
+- (void)denormalizePoint:(_Bool)arg1 masterSize:flipYCoordinate: /* Error: Ran out of types for this method. */;
+- (void)customSolidBackgroundView;
+- (id)configurationWithCollectionsFetchResult:(int)arg1;
+- (id)completeAssistantWithError:(int)arg1;
+- (int)completeAssistantForAssistantViewController: /* Error: Ran out of types for this method. */;
+- (id)compareMemoryInfo:(int)arg1 byRelevanceScoreToMemoryInfo: /* Error: Ran out of types for this method. */;
+- (int)compareByClipFrameOriginY: /* Error: Ran out of types for this method. */;
 - (id);
-- (int);
+- (_Bool)cameraAssemble;
+- (_Bool)calendarWithIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)baseFetchOptionsWithPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (_Bool)autoupdatingCurrentLocale;
+- (id)arrayWithObject:(int)arg1;
+- (_Bool)activityEntryFeedReadableWidth;
+- (_Bool)activityEntryFeedCompactCellDisplayStyle;
+- (int)actionPerformer:(id)arg1 dismissViewController:completionHandler: /* Error: Ran out of types for this method. */;
+- (int)actionNameForCollection:(id)arg1;
+- (int)actionItemsForActionTypes:(id)arg1 handler: /* Error: Ran out of types for this method. */;
+- (int)_wantsToBeAddedToPeopleAlbum;
+- (int)_wantsSidebarVisible;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (int);
-- (id);
-- (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (void);
-- (int);
+- (int)?;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)gestionsAppGuardian.m;
 - (id);
+- (_Bool)g"16@"NSString"24q32@?<v@?@"NSData">40;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void),;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (id)plist;
+- (_Bool)ndle/;
+- (void);
+- (id)-Length;
+- (void)WithPrivateChannelMembershipController:(id)arg1 ];
+- (_Bool)So11FCDateRangeC;
 - (id);
 - (_Bool);
-- (void);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void)asMax: /* Error: Ran out of types for this method. */;
+- (void)setHasMax: /* Error: Ran out of types for this method. */;
 - (int)éæÿæD$6;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(retain, nonatomic) NSData *articleViewingSessionId; // @synthesize articleViewingSessionId=_articleViewingSessionId;
-@property(nonatomic) int groupType; // @synthesize groupType=_groupType;
-@property(readonly, nonatomic) _Bool hasArticleId;
-@property(readonly, nonatomic) _Bool hasArticleViewingSessionId;
-@property(nonatomic) _Bool hasGroupType;
-@property(readonly, nonatomic) _Bool hasIssueData;
-@property(nonatomic) _Bool hasPaidSubscriptionConversionPointType;
-@property(nonatomic) _Bool hasParentFeedType;
-@property(readonly, nonatomic) _Bool hasPurchaseId;
-@property(nonatomic) _Bool hasPurchaseType;
-@property(readonly, nonatomic) _Bool hasSectionId;
 @property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(nonatomic) _Bool hasSubscriptionButtonTargetType;
-@property(retain, nonatomic) NTPBIssueData *issueData; // @synthesize issueData=_issueData;
-@property(nonatomic) int paidSubscriptionConversionPointType; // @synthesize paidSubscriptionConversionPointType=_paidSubscriptionConversionPointType;
-@property(nonatomic) int parentFeedType; // @synthesize parentFeedType=_parentFeedType;
-@property(retain, nonatomic) NSString *purchaseId; // @synthesize purchaseId=_purchaseId;
-@property(nonatomic) int purchaseType; // @synthesize purchaseType=_purchaseType;
-@property(retain, nonatomic) NSString *sectionId; // @synthesize sectionId=_sectionId;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
-@property(nonatomic) int subscriptionButtonTargetType; // @synthesize subscriptionButtonTargetType=_subscriptionButtonTargetType;
 
 @end
 

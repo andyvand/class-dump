@@ -17,12 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)kd;
 - (int);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *currentPin;
-@property(readonly, nonatomic) NSString *updatedPin;
 
 @end
 

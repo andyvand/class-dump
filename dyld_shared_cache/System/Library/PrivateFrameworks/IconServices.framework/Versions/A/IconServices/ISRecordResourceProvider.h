@@ -6,14 +6,12 @@
 
 #import <IconServices/ISResourceProvider.h>
 
-@class LSRecord, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ISRecordResourceProvider : ISResourceProvider
 {
     NSString *_templateType;
-    LSRecord *_record;
-    NSString *_fileExtension;
 }
 
 - (id);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)__AUTH_CONST;
 - (void);
 - (void);
 - (_Bool);
@@ -37,20 +35,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
+- (id)D;
 - (id);
-- (id);
-- (id);
+- (id)VTDecoderMetalRegistryID;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)String",R,V_identifier;
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *fileExtension; // @synthesize fileExtension=_fileExtension;
-@property(readonly) _Bool iconStackResourcesAllowed;
-@property(readonly) LSRecord *record; // @synthesize record=_record;
-@property(retain) NSString *templateType; // @synthesize templateType=_templateType;
 
 @end
 

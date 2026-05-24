@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)scannerResult;
++ (void);
 - (void);
 - (id);
 - (void);

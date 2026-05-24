@@ -4,60 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemInitialRequestData, GEOPDMapsIdentifier, GEOPDPlacecardLayoutData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDPlace
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_abExpBranchIds;
-    NSMutableArray *_components;
-    unsigned long long _createdTime;
-    GEOPDMapsIdentifier *_mapsId;
-    unsigned long long _muid;
-    NSString *_placeCacheKey;
-    GEOPDPlacecardLayoutData *_placeLayoutData;
-    unsigned long long _preferredMuid;
-    GEOMapItemInitialRequestData *_requestData;
-    unsigned long long _updateVersion;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _mapDisplayType;
-    int _rapFlowType;
-    int _referenceFrame;
-    int _resultProviderId;
-    int _status;
-    _Bool _isPartiallyClientizedSearchResult;
-    _Bool _nilPlace;
-    struct {
-        unsigned int has_createdTime:1;
-        unsigned int has_muid:1;
-        unsigned int has_preferredMuid:1;
-        unsigned int has_updateVersion:1;
-        unsigned int has_mapDisplayType:1;
-        unsigned int has_rapFlowType:1;
-        unsigned int has_referenceFrame:1;
-        unsigned int has_resultProviderId:1;
-        unsigned int has_status:1;
-        unsigned int has_isPartiallyClientizedSearchResult:1;
-        unsigned int has_nilPlace:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_abExpBranchIds:1;
-        unsigned int read_components:1;
-        unsigned int read_mapsId:1;
-        unsigned int read_placeCacheKey:1;
-        unsigned int read_placeLayoutData:1;
-        unsigned int read_requestData:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
++ (Class)_transitCurrentStateTo: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-+ (_Bool)d:(id)arg1;
++ (_Bool)setImageId:(id)arg1;
 + (Class)GEOPDSearchEnrichmentRequestMetadata;
 + (id)6;
 - (int);
@@ -73,8 +31,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -91,18 +49,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)dsAttrTypeNative:(id)arg1 _shadow_passwd;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)!;
+- (void)_^;
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (void)setEARLanguageDetectorSpeechRequestId:(_Bool)arg1;
+- (id)_getModelPathFromInstallationStatusString: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_alertDictionaryForRecordRoute:playbackRoute:speechEvent:ringerState:startingAlertBeepOverideID:presentationMode:hasPlayedStartAlert:supportsEchoCancellation:isVoiceOverTouchEnabled:isVibrationEnabled:isVibrationSupported:activationHostTime:isVoiceOverSiriSoundsEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool)honeCallState;
+- (void)ithNumChannels:(id)arg1 withUserIntentOptions:handlingDaemon:started:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)	;
 - (id);
 - (void);
 - (unsigned long long);
@@ -111,24 +69,24 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (id)`;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)v=;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (int);
-- (id);
+- (_Bool)tyle";
+- (unsigned long long)setDepartureCutoffDate: /* Error: Ran out of types for this method. */;
+- (void)initWithGeoCompletionItem:(id)arg1 serverSectionIndex:serverItemIndexInSection: /* Error: Ran out of types for this method. */;
+- (void)actionDetailsWithMapItem:(id)arg1 timestamp:resultIndex: /* Error: Ran out of types for this method. */;
+- (int)_setRouteContextAnnotationFocus:(id)arg1 forRoute: /* Error: Ran out of types for this method. */;
+- (id)ScreenCover,S_setFullScreenCover:(id)arg1 ,V_fullScreenCover;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -156,14 +114,14 @@
 × ;
 - (id)verKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16r^v24@?32;
 - (id)ace"b1"wrote_anyField"b1};
-- (void)eparturesWithLookupOrigin:(int)arg1 userLocation:traits: /* Error: Ran out of types for this method. */;
-- (void)up: /* Error: Ran out of types for this method. */;
-- (int)n;
-- (int)enterLngE7;
-- (id)ntIndices:(int)arg1;
-- (int)gResult;
-- (void)sNearbyWidget;
-- (id)ncludeAllHeadsigns;
+- (void)ticketForNearbyTransitDeparturesWithLookupOrigin:(int)arg1 userLocation:traits: /* Error: Ran out of types for this method. */;
+- (void)setConstantlyChangeTileGroup: /* Error: Ran out of types for this method. */;
+- (int)hasPreBoardingTimeInstruction;
+- (int)centerLngE7;
+- (id)addIncidentIndices:(int)arg1;
+- (int)_reverseGeocodingResult;
+- (void)_mapsNearbyWidget;
+- (id)_includeAllHeadsigns;
 - (_Bool)ÿÿÿÿÀ;
 - (void)Ô6	¤7	ä7	9	|:(_Bool)arg1 L;	T<	;
 - (id)¼´Ð¶;
@@ -173,7 +131,7 @@
 - (id)on failed:segments.count == 0 /* Error: Ran out of types for this method. */;
 - (id)JOIN children_of_recursive ON parent=X AND (areas & @areas) != 0)SELECT region_id, iso_code, type, sort_order, time_zone_name, name, language_code, format, representative_latitude, representative_longitude    FROM region_view_v2    WHERE (type & @type) != 0 AND language_code = @language_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id != @region_id AND region_id IN children_of_recursive    ORDER BY name COLLATE region_collater, sort_order, iso_code, time_zone_name;;
 - (unsigned long long)iderID=%u;
-- (id)search_suggestion;
+- (id)related_search_suggestion;
 - (_Bool);
 - (void)`¨;
 - (id);
@@ -203,40 +161,7 @@
 - (id)*%8;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *abExpBranchIds;
-@property(retain, nonatomic) NSMutableArray *components;
-@property(nonatomic) unsigned long long createdTime;
 @property(nonatomic) double firstSeenTimestamp;
-@property(nonatomic) _Bool hasCreatedTime;
-@property(nonatomic) _Bool hasIsPartiallyClientizedSearchResult;
-@property(nonatomic) _Bool hasMapDisplayType;
-@property(readonly, nonatomic) _Bool hasMapsId;
-@property(nonatomic) _Bool hasMuid;
-@property(nonatomic) _Bool hasNilPlace;
-@property(readonly, nonatomic) _Bool hasPlaceCacheKey;
-@property(readonly, nonatomic) _Bool hasPlaceLayoutData;
-@property(nonatomic) _Bool hasPreferredMuid;
-@property(nonatomic) _Bool hasRapFlowType;
-@property(nonatomic) _Bool hasReferenceFrame;
-@property(readonly, nonatomic) _Bool hasRequestData;
-@property(nonatomic) _Bool hasResultProviderId;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool hasUpdateVersion;
-@property(nonatomic) _Bool isPartiallyClientizedSearchResult;
-@property(nonatomic) int mapDisplayType;
-@property(retain, nonatomic) GEOPDMapsIdentifier *mapsId;
-@property(nonatomic) unsigned long long muid;
-@property(nonatomic) _Bool nilPlace;
-@property(retain, nonatomic) NSString *placeCacheKey;
-@property(retain, nonatomic) GEOPDPlacecardLayoutData *placeLayoutData;
-@property(nonatomic) unsigned long long preferredMuid;
-@property(nonatomic) int rapFlowType;
-@property(nonatomic) int referenceFrame;
-@property(retain, nonatomic) GEOMapItemInitialRequestData *requestData;
-@property(nonatomic) int resultProviderId;
-@property(nonatomic) int status;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned long long updateVersion;
 
 @end
 

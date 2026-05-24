@@ -6,13 +6,9 @@
 
 #import <MPSImage/MPSImagePyramid.h>
 
-@class NSDictionary;
-
 @interface MPSImageLaplacianPyramid : MPSImagePyramid
 {
     struct AutotuningState _autotuningState;
-    struct HighlevelState _state;
-    // Error: parsing type: '{DerivedState="padHeight"Q"padWidth"Q"h_WeightsRawFull"@"NSMutableData""h_WeightsRawHalf"@"NSMutableData""d_WeightsRawFull"@"<MTLBuffer>""d_WeightsRawHalf"@"<MTLBuffer>""linearScaleFull"{LinearScale<float>="offset"f"factor"f}"linearScaleHalf"{LinearScale<__fp16>="offset" "factor" }}', name: _derivedState
 }
 
 + (const struct MPSLibraryInfo *);
@@ -28,10 +24,10 @@
 - (id);
 - (unsigned long long);
 - (float);
-- (float);
+- (float)#;
 - (id);
 - (_Bool);
-- (void);
+- (void)h;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -40,18 +36,11 @@
 - (struct MPSRegion);
 - (id);
 - (id);
-- (void);
+- (void)initWithDisplayName:(id)arg1 handles:handleIdentifier:photosPersonIdentifier:isPhotosPerson:personType:nameAlternatives:faceAttributes: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=getAutotuningEnabled, setter=setAutotuningEnabled:) _Bool autotuningEnabled;
-@property(nonatomic, getter=getCopyConfigID, setter=setCopyConfigID:) unsigned long long copyConfigID;
-@property(readonly, nonatomic, getter=getCopyConfigs) NSDictionary *copyConfigs;
 @property(nonatomic, getter=getIsPyramidAdd, setter=setIsPyramidAdd:) _Bool isPyramidAdd;
-@property(nonatomic, getter=getLaplacianBias, setter=setLaplacianBias:) float laplacianBias;
-@property(nonatomic, getter=getLaplacianScale, setter=setLaplacianScale:) float laplacianScale;
-@property(nonatomic, getter=getUpsampleConfigID, setter=setUpsampleConfigID:) unsigned long long upsampleConfigID;
-@property(readonly, nonatomic, getter=getUpsampleConfigs) NSDictionary *upsampleConfigs;
 
 @end
 

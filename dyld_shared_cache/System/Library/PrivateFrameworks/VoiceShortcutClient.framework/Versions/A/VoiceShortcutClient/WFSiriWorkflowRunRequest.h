@@ -13,10 +13,10 @@
     WFSiriWorkflowRunnerClientOptions *_options;
 }
 
-+ (_Bool);
++ (_Bool)__objc_dictobj;
 - (_Bool);
 - (id);
-- (void);
+- (void)CAccount";
 - (id);
 - (id);
 - (void);

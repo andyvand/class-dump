@@ -15,10 +15,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id),;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long detailsOptions; // @synthesize detailsOptions=_detailsOptions;
 @property(readonly, nonatomic) PXPhotosDetailsSpec *spec; // @dynamic spec;
 
 @end

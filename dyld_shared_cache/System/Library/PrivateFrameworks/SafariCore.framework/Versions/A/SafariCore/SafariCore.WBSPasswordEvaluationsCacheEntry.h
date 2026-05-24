@@ -7,12 +7,11 @@
 @interface SafariCore.WBSPasswordEvaluationsCacheEntry
 {
     id passwordEvaluations;
-    id evaluatorVersion;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (void)0@ù
 × ;

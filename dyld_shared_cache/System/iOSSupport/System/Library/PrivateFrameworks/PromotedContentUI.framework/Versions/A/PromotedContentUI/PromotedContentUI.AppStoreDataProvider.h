@@ -7,22 +7,6 @@
 @interface PromotedContentUI.AppStoreDataProvider
 {
     id metadataExpirationTimer;
-    id storeFront;
-    id storeFrontLocale;
-    id metaFields;
-    id theLock;
-    id subsequentRequestsDisabled;
-    id session;
-    id fetchingSession;
-    id lastFetch;
-    id searchAdsFacade;
-    id sessionPersistence;
-    id firstInitializeCall;
-    id greenTeaLogger;
-    id initializedAt;
-    id previousGetAdAt;
-    id missedOpportunity;
-    id $__lazy_storage_$_diagnostics;
 }
 
 @end

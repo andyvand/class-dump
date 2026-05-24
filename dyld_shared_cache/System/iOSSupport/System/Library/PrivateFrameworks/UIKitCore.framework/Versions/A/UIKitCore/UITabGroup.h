@@ -6,34 +6,21 @@
 
 #import <UIKitCore/UITab.h>
 
-@class NSArray, NSString, UINavigationController;
 @protocol UITraitChangeRegistration;
 
 @interface UITabGroup : UITab
 {
     id <UITraitChangeRegistration> _sizeClassTraitRegistration;
-    _Bool _isUpdatingManagedNavigationController;
-    _Bool _allowsReordering;
-    _Bool _isSidebarDestination;
-    _Bool _collapsedByDefault;
-    NSArray *_displayOrder;
-    UITab *_selectedChild;
-    NSString *_defaultChildIdentifier;
-    NSArray *_children;
-    NSArray *_displayOrderIdentifiers;
-    UINavigationController *_managingNavigationController;
-    NSArray *_sidebarActions;
-    unsigned long long _sidebarAppearance;
 }
 
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)_shouldDeferCoreDuetMessagesSyncWithActivity:(id)arg1;
+- (unsigned long long)_itemsWithHandles:onServices:messageGUID:threadIdentifier:limit:onlyMessages: /* Error: Ran out of types for this method. */;
+- (id)_itemsWithHandles:onServices:messageGUID:threadIdentifier:limit:onlyMessages: /* Error: Ran out of types for this method. */;
+- (void)replacementGUID;
+- (void)eceivedDuringStorage;
+- (void)base64EncodedStringWithOptions:(id)arg1;
+- (void)TUConversationManagerDelegate;
+- (void)IMItemErrorProtocol;
 - (void);
 - (void);
 - (void);
@@ -43,60 +30,43 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (id)ices for iMessage account:%@ /* Error: Ran out of types for this method. */;
+- (id)PITargetHandler failed to find process handle for %d;
+- (void)ntFileSizeWithRowIDGreaterThanWatermark with rowID %@ iteration %@;
+- (void)e is a typing indicator, not processing for junk;
+- (void)filter is disabled;
+- (void)elineComponent> Started processing;
+- (void)%@;
+- (void)UID:(id)arg1 %@ to originated Message Map;
+- (_Bool)pple.messages;
 - (id);
 - (void);
-- (id);
+- (void)SchedulingContext;
+- (void)R;
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void)C;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)_effectStyleID;
+- (_Bool)_existingChatSiblingsForHandle: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void)Yb;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsReordering; // @synthesize allowsReordering=_allowsReordering;
-@property(copy, nonatomic) NSArray *children; // @synthesize children=_children;
 @property(nonatomic, getter=isCollapsedByDefault) _Bool collapsedByDefault; // @synthesize collapsedByDefault=_collapsedByDefault;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultChildIdentifier; // @synthesize defaultChildIdentifier=_defaultChildIdentifier;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *displayOrder; // @synthesize displayOrder=_displayOrder;
-@property(copy, nonatomic) NSArray *displayOrderIdentifiers; // @synthesize displayOrderIdentifiers=_displayOrderIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSidebarDestination; // @synthesize isSidebarDestination=_isSidebarDestination;
-@property(retain, nonatomic) UINavigationController *managingNavigationController; // @synthesize managingNavigationController=_managingNavigationController;
-@property(retain, nonatomic) UITab *selectedChild; // @synthesize selectedChild=_selectedChild;
-@property(copy, nonatomic) NSArray *sidebarActions; // @synthesize sidebarActions=_sidebarActions;
-@property(nonatomic) unsigned long long sidebarAppearance; // @synthesize sidebarAppearance=_sidebarAppearance;
-@property(readonly) Class superclass;
 
 @end
 

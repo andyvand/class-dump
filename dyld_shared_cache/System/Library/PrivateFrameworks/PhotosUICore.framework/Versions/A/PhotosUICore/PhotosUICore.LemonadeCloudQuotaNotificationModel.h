@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeCloudQuotaNotificationModel
 {
     id _item;
-    id _$observationRegistrar;
 }
 
 @end

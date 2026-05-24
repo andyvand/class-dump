@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface SACommandFailed : SABaseClientBoundCommand
 {
@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)to load SentencePiece model:(id)arg1;
+- (id)?<;
 - (id);
 - (id);
 - (id);
@@ -29,28 +29,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)onary:(long long)arg1 context: /* Error: Ran out of types for this method. */;
+- (void)profileSnippetTemplateWithDictionary:(long long)arg1 context: /* Error: Ran out of types for this method. */;
 - (long long)Ýc;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(copy, nonatomic) NSString *appId; // @dynamic appId;
-@property(copy, nonatomic) NSArray *callbacks; // @dynamic callbacks;
 @property(copy, nonatomic) NSNumber *customErrorCode;
-@property(copy, nonatomic) NSString *customErrorDomain;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long errorCode;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *localizedDescription;
-@property(copy, nonatomic) NSString *reason;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *turnId;
-@property(copy, nonatomic) NSDictionary *userInfo;
 
 @end
 

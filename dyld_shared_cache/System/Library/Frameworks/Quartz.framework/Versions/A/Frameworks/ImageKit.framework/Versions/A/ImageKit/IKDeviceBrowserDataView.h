@@ -4,31 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSLayoutConstraint, NSProgressIndicator, NSStackView, NSString;
-
 @interface IKDeviceBrowserDataView
 {
     _Bool showLocation;
-    id buttonTarget;
-    SEL buttonAction;
-    _Bool _showEject;
-    _Bool _showCloud;
-    _Bool _showLock;
-    _Bool _showProgress;
-    id representedObject;
-    NSString *extaInfoStringNormal;
-    NSString *extaInfoStringAlternate;
-    NSLayoutConstraint *_imageViewHeight;
-    NSLayoutConstraint *_iconHeight;
-    NSStackView *_stackView;
-    NSButton *_ejectIcon;
-    NSImageView *_cloudIcon;
-    NSImageView *_lockIcon;
-    NSProgressIndicator *_progress;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -64,13 +46,13 @@
 - (void);
 - (id);
 - (id);
+- (void)setDidFetchInitialApplicationState:(id)arg1;
+- (id)STAskForTimeWebsiteResource;
 - (void);
-- (id);
+- (void);
+- (void)cx_setAllowedClassesForProviderVendorProtocol;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)weight;
 - (void);
 - (void);
 - (id);
@@ -83,21 +65,7 @@
 ;
 
 // Remaining properties
-@property NSImageView *cloudIcon; // @synthesize cloudIcon=_cloudIcon;
-@property NSButton *ejectIcon; // @synthesize ejectIcon=_ejectIcon;
-@property(copy) NSString *extaInfoStringAlternate; // @synthesize extaInfoStringAlternate;
-@property(copy) NSString *extaInfoStringNormal; // @synthesize extaInfoStringNormal;
-@property NSLayoutConstraint *iconHeight; // @synthesize iconHeight=_iconHeight;
-@property NSLayoutConstraint *imageViewHeight; // @synthesize imageViewHeight=_imageViewHeight;
-@property NSImageView *lockIcon; // @synthesize lockIcon=_lockIcon;
-@property NSProgressIndicator *progress; // @synthesize progress=_progress;
 @property(retain, nonatomic) id representedObject; // @synthesize representedObject;
-@property _Bool showCloud; // @synthesize showCloud=_showCloud;
-@property _Bool showEject; // @synthesize showEject=_showEject;
-@property(nonatomic) _Bool showLocation; // @synthesize showLocation;
-@property _Bool showLock; // @synthesize showLock=_showLock;
-@property _Bool showProgress; // @synthesize showProgress=_showProgress;
-@property NSStackView *stackView; // @synthesize stackView=_stackView;
 
 @end
 

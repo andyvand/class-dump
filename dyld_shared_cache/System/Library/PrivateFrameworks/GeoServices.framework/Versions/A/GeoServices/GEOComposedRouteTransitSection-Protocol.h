@@ -5,12 +5,9 @@
 //
 
 @protocol GEOComposedRouteTransitSection
+- (CDStruct_79c5c966)setEyePlaneByInvModelviewLoc: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_79c5c966 fromNodeID;
-@property(readonly, nonatomic) _Bool isTransfer;
-@property(readonly, nonatomic) unsigned long long lineID;
-@property(readonly, nonatomic) CDStruct_79c5c966 toNodeID;
-@property(readonly, nonatomic) int toNodeSignificance;
 @end
 

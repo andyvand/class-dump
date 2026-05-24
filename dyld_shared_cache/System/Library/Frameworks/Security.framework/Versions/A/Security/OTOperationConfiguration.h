@@ -7,9 +7,6 @@
 @interface OTOperationConfiguration
 {
     _Bool _discretionaryNetwork;
-    _Bool _useCachedAccountStatus;
-    unsigned long long _timeoutWaitForCKAccount;
-    long long _qualityOfService;
 }
 
 + (_Bool);
@@ -20,16 +17,13 @@
 - (_Bool);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (void)port:(long long)arg1 SecPkcs12ExportKeychainItems failure;
 
 // Remaining properties
-@property(nonatomic) _Bool discretionaryNetwork; // @synthesize discretionaryNetwork=_discretionaryNetwork;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 @property(nonatomic) unsigned long long timeoutWaitForCKAccount; // @synthesize timeoutWaitForCKAccount=_timeoutWaitForCKAccount;
-@property(nonatomic) _Bool useCachedAccountStatus; // @synthesize useCachedAccountStatus=_useCachedAccountStatus;
 
 @end
 

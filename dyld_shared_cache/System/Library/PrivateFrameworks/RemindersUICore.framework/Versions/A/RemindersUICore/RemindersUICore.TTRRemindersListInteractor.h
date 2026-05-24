@@ -9,18 +9,11 @@
 @interface RemindersUICore.TTRRemindersListInteractor
 {
     id delegate;
-    id optimisticUpdatesDelegate;
-    id store;
-    id canChangeSortingStyle;
-    id defaultListType;
-    id committer;
-    id fixedUndoContext;
-    id removeTemplateCapability;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void)L×ÿÿ¬Uùÿ\SnÿT;
 
 // Remaining properties

@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCInterestToken, NSData, NSString;
+@class NSData, NSString;
 
 @interface FCANEFFileDataProvider
 {
     NSString *_filePath;
-    NSData *_wrappingKey;
-    long long _options;
-    FCInterestToken *_holdToken;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)SM_CURRENT_USER_UID;
 - (id);
 - (void)ration-configurable-offers-mapping-143441-en;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
-@property(readonly, nonatomic) FCInterestToken *holdToken; // @synthesize holdToken=_holdToken;
-@property(readonly, nonatomic) _Bool isRawFileConsumable;
-@property(readonly, nonatomic) long long options; // @synthesize options=_options;
 @property(readonly, copy, nonatomic) NSData *wrappingKey; // @synthesize wrappingKey=_wrappingKey;
 
 @end

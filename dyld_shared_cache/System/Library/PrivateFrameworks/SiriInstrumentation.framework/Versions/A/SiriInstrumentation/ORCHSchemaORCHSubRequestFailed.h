@@ -6,49 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHSubRequestFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _errorDomain;
-    int _errorCode;
-    CDStruct_8409a264 _has;
 }
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (_Bool)@"NSViewController"16;
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)4;
 - (_Bool);
-- (_Bool);
+- (_Bool)o create handle record for ID:(id)arg1 %@  service:%@ /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (id);
-- (id)tyAbsoluteCount6Hr;
+- (id)_entityAbsoluteCount6Hr;
 - (id);
-- (_Bool)IFFERENT_HOME_MEMBER;
+- (_Bool)FLOWSTATUSREASON_FORCED_DISAMBIGUATION_DIFFERENT_HOME_MEMBER;
 - (void)O;
-- (_Bool)sorDataProvenance;
+- (_Bool)LRSchemaLRSensorDataProvenance;
 - (void)¡¬O%;
 - (int)]%eÕ%%;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

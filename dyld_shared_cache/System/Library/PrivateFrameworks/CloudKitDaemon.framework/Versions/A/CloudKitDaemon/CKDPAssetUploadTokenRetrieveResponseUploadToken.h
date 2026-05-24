@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAsset, NSString;
-
 @interface CKDPAssetUploadTokenRetrieveResponseUploadToken
 {
     long long _tokenExpiration;
-    CKDPAsset *_asset;
-    NSString *_token;
-    _Bool _duplicateAsset;
-    struct {
-        unsigned int tokenExpiration:1;
-        unsigned int duplicateAsset:1;
-    } _has;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void)t
+;
 - (long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)pendAsync(void *);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)a;
 - (void);
-- (void);
+- (void));
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void)!@ùÛ°1Â0@ù
@@ -47,14 +39,7 @@
 - (void)t value in comparison expression:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic) _Bool duplicateAsset; // @synthesize duplicateAsset=_duplicateAsset;
-@property(readonly, nonatomic) _Bool hasAsset;
-@property(nonatomic) _Bool hasDuplicateAsset;
 @property(readonly, nonatomic) _Bool hasToken;
-@property(nonatomic) _Bool hasTokenExpiration;
-@property(retain, nonatomic) NSString *token; // @synthesize token=_token;
-@property(nonatomic) long long tokenExpiration; // @synthesize tokenExpiration=_tokenExpiration;
 
 @end
 

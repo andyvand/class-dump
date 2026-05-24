@@ -9,49 +9,43 @@
 @interface NTPBURLMappingPath
 {
     NSMutableArray *_channelTags;
-    NSString *_path;
-    NSMutableArray *_sectionTags;
-    NSMutableArray *_topicTags;
 }
 
-+ (Class);
-+ (Class);
-+ (Class);
-- (unsigned long long);
++ (Class)assetCollectionDuplicateTypeMappingForAssetCollectionUUIDs:photoLibrary:error: /* Error: Ran out of types for this method. */;
++ (Class)brary: /* Error: Ran out of types for this method. */;
++ (Class)_oneShelfExpandingMovementAnimationDelay;
+- (unsigned long long)initWithTitle:subtitle:fontName: /* Error: Ran out of types for this method. */;
+- (id)initWithTitle:(unsigned long long)arg1 subtitle:fallbackActionTitle:url: /* Error: Ran out of types for this method. */;
+- (id)initWithTitle:subtitle:fallbackActionTitle:url: /* Error: Ran out of types for this method. */;
+- (void)initWithProviders:(id)arg1;
+- (unsigned long long)filteredModelsFromModels:inAssetCollections:assetCollectionsById: /* Error: Ran out of types for this method. */;
+- (id)filteredModelsFromModels:(unsigned long long)arg1 inAssetCollections:assetCollectionsById: /* Error: Ran out of types for this method. */;
+- (id)filteredFetchResult;
+- (void)curationKind;
+- (void)curatedLibraryTransitionToolbarBlurRadius;
+- (void)FaceCrop:eyelinePoint: /* Error: Ran out of types for this method. */;
+- (unsigned long long)creationRequestForQuestionWithEntityIdentifier:type:state:entityType:displayType:score:additionalInfo:creationDate:questionVersion: /* Error: Ran out of types for this method. */;
+- (id)creationRequestForQuestionWithEntityIdentifier:(unsigned long long)arg1 type:state:entityType:displayType:score:additionalInfo:creationDate:questionVersion: /* Error: Ran out of types for this method. */;
+- (id)creationRequestForOwnedLibraryScopeInPreviewStateWithTitle: /* Error: Ran out of types for this method. */;
+- (void)createAnchorWithConstraints:(id)arg1;
+- (void)convertRect:(id)arg1 fromLayout: /* Error: Ran out of types for this method. */;
+- (void)contentPrivacyEnabled;
+- (void)contentPrefersPresentationTypeView;
+- (void)constraintGreaterThanOrEqualToSystemSpacingBelowAnchor:(id)arg1 multiplier: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (unsigned long long)layerWillRelinquishVideoPlayer"B"videoPlayerForPlayer"B};
+- (_Bool)createGroup:(id)arg1 inDB:] /* Error: Ran out of types for this method. */;
+- (void)FeedTransform;
+- (_Bool)uration manager received error:(id)arg1 %@, returning cached configuration;
 - (id);
 - (id);
 - (id);
 - (void)entExposure";
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *channelTags; // @synthesize channelTags=_channelTags;
 @property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSMutableArray *sectionTags; // @synthesize sectionTags=_sectionTags;
-@property(retain, nonatomic) NSMutableArray *topicTags; // @synthesize topicTags=_topicTags;
 
 @end
 

@@ -6,17 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, UIColor, UIVisualEffectView;
+@class UIVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface UITableViewCellSelectedBackground : UIView
 {
     UIVisualEffectView *_selectionEffectsView;
-    _Bool _multiselect;
-    long long _selectionStyle;
-    UIColor *_multiselectBackgroundColor;
-    UIColor *_selectionTintColor;
-    UIColor *_noneStyleBackgroundColor;
 }
 
 - (void);
@@ -29,22 +24,17 @@ __attribute__((visibility("hidden")))
 - (void)@ù
 × ;
 - (id)delegateAllowsPanVertically"b1"queriedDelegateAllowsPanHorizontally"b1"queriedDelegateAllowsPanVertically"b1"failsPastMaxTouches"b1"multitouchTimerOn"b1"requiresImmediateMultipleTouches"b1"sawNonzeroStifledDeltaX"b1"sawNonzeroStifledDeltaY"b1"shouldConsiderAllowedScrollTypeCompatibility"b1"evaluatedAllowedScrollTypeCompatibility"b1};
-- (void)ering:(long long)arg1;
-- (long long)ingDrag;
-- (id)anMode;
+- (void)setPreviousLastBaselineOffsetForAttributeLowering:(long long)arg1;
+- (long long)isTrackingDrag;
+- (id)_beganMode;
 - (id)r;
-- (id)andidatePocketShadow;
+- (id)UIKeyboardCandidatePocketShadow;
 - (void)ver> _Nonnull);
 - (void)Ýa;
 - (void)ägÿý7;
 
 // Remaining properties
-@property(nonatomic, getter=isMultiselect) _Bool multiselect; // @synthesize multiselect=_multiselect;
-@property(retain, nonatomic) UIColor *multiselectBackgroundColor; // @synthesize multiselectBackgroundColor=_multiselectBackgroundColor;
-@property(retain, nonatomic) UIColor *noneStyleBackgroundColor; // @synthesize noneStyleBackgroundColor=_noneStyleBackgroundColor;
-@property(copy, nonatomic) NSArray *selectionEffects;
 @property(nonatomic) long long selectionStyle; // @synthesize selectionStyle=_selectionStyle;
-@property(retain, nonatomic) UIColor *selectionTintColor; // @synthesize selectionTintColor=_selectionTintColor;
 
 @end
 

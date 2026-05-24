@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSData;
 
 @interface CDPCustodianRecoveryInfo
 {
     NSData *_wrappedRKC;
-    NSData *_wrappingKey;
-    NSUUID *_custodianUUID;
-    NSString *_recordBuildVersion;
 }
 
 + (_Bool);
@@ -24,14 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)createNetworkInputPixelBufferFrom32BGRA;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSUUID *custodianUUID; // @synthesize custodianUUID=_custodianUUID;
-@property(readonly, copy, nonatomic) NSString *recordBuildVersion; // @synthesize recordBuildVersion=_recordBuildVersion;
 @property(readonly, copy, nonatomic) NSData *wrappedRKC; // @synthesize wrappedRKC=_wrappedRKC;
-@property(readonly, copy, nonatomic) NSData *wrappingKey; // @synthesize wrappingKey=_wrappingKey;
 
 @end
 

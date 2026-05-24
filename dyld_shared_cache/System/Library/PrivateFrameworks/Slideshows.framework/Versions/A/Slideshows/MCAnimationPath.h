@@ -11,8 +11,6 @@
 @interface MCAnimationPath : MCObjectLight
 {
     _Bool mIsTriggered;
-    _Bool mIsSnapshot;
-    NSString *mKey;
 }
 
 + (id);
@@ -21,14 +19,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)?;
 - (id);
 - (void);
 - (_Bool)ation;
 
 // Remaining properties
-@property(nonatomic) _Bool isTriggered; // @synthesize isTriggered=mIsTriggered;
 @property(copy) NSString *key; // @synthesize key=mKey;
 
 @end

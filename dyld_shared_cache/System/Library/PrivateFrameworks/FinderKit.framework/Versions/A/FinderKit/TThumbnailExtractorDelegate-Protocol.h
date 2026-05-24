@@ -5,5 +5,7 @@
 //
 
 @protocol TThumbnailExtractorDelegate
+- (struct TFENode);
+- (void)k;
 @end
 

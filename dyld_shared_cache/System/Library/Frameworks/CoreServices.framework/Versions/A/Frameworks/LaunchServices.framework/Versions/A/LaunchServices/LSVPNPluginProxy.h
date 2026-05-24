@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)te>"32@0:8@"MTLComputePipelineDescriptor"16^@24 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void)L ;
 
 @end
 

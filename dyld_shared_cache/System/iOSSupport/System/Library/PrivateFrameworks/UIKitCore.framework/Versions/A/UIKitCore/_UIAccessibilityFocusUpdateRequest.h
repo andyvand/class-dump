@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     long long _options;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)setProperties:ofParticipant:inChatID:identifier:style: /* Error: Ran out of types for this method. */;
+- (_Bool)_shouldSendBackwardsCompatibleUnreadCountUpdates;
+- (void)_itemIdentifierToStoreItemMetadata;
 - (long long)qdÐ1Â0@ù
 × ;
 

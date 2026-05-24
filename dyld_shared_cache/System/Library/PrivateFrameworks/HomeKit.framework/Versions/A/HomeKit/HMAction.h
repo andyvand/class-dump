@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMActionSet, NSString, NSUUID, _HMContext;
+@class _HMContext;
 
 @interface HMAction
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_uniqueIdentifier;
-    NSUUID *_uuid;
-    _HMContext *_context;
-    HMActionSet *_actionSet;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -32,8 +28,8 @@
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)2	6	>	9	@	;
+- (_Bool)granddaughter;
 - (void);
 - (id);
 - (id);
@@ -41,25 +37,11 @@
 - (id);
 - (_Bool)!EùZ°1Â0@ù
 × ;
-- (void)entConnectedHH2;
+- (void)numberOfTimesPrimaryClientConnectedHH2;
 - (void)ÿÿJ;
 
 // Remaining properties
-@property(readonly) __weak HMActionSet *actionSet; // @synthesize actionSet=_actionSet;
-@property(readonly, getter=isAffectedByEndEvents) _Bool affectedByEndEvents;
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool requiresDeviceUnlock;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long type;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(copy) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, getter=isValid) _Bool valid;
 
 @end
 

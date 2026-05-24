@@ -5,10 +5,9 @@
 //
 
 @protocol MPServerObjectDatabaseOperations
+- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long importedAssetsCount;
-@property(readonly, nonatomic) long long importedHLSAssetsCount;
 @property(readonly, nonatomic) long long importedObjectsCount;
 @end
 

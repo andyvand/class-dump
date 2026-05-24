@@ -6,18 +6,11 @@
 
 #import <TextInputMenuUI/InputSource.h>
 
-@class NSBundle, NSDictionary, NSString;
+@class NSString;
 
 @interface IMInputSource : InputSource
 {
     NSString *fIMDisplayName;
-    NSString *fComponentBundleID;
-    NSBundle *fSourceBundle;
-    short fParentScript;
-    long long _dynamicSourceNameMode;
-    NSDictionary *_dynamicSourceNameKeys;
-    NSString *_dynamicSourceName;
-    NSString *_familyID;
 }
 
 + (id);
@@ -30,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)@;
 - (id);
 - (id);
 - (_Bool);
@@ -41,13 +34,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)ScreenProfileChanges: /* Error: Ran out of types for this method. */;
+- (_Bool)setDisplaysWhenScreenProfileChanges: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *dynamicSourceName; // @synthesize dynamicSourceName=_dynamicSourceName;
-@property(readonly) NSDictionary *dynamicSourceNameKeys; // @synthesize dynamicSourceNameKeys=_dynamicSourceNameKeys;
 @property long long dynamicSourceNameMode; // @synthesize dynamicSourceNameMode=_dynamicSourceNameMode;
-@property(readonly) NSString *familyID; // @synthesize familyID=_familyID;
 
 @end
 

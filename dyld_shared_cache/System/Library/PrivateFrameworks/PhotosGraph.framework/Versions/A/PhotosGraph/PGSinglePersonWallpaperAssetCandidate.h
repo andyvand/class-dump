@@ -4,52 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PHAsset;
+@class PHAsset;
 
 @interface PGSinglePersonWallpaperAssetCandidate
 {
     _Bool _isFavorite;
-    _Bool _headroomEngaged;
-    float _wallpaperScore;
-    PHAsset *_asset;
-    NSString *_assetUUID;
-    NSDate *_creationDate;
-    double _aestheticScore;
-    double _score;
-    double _faceQualityPenalty;
 }
 
 - (void);
 - (void);
-- (double);
-- (_Bool);
+- (double)_signalForElement:stringDeleted:wasSelected:editTracker: /* Error: Ran out of types for this method. */;
+- (_Bool)iled to insert %{public}ld identifiers after %{public}@. Could not find validExistingItemId;
 - (float);
 - (id);
 - (double);
-- (id);
+- (id):nodesInMenu:data:genCount:]E3$_8 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (double);
-- (id)BusinessItemTitleWithMomentNodes:locationHelper:serviceManager: /* Error: Ran out of types for this method. */;
+- (double);
+- (id)_generateBusinessItemTitleWithMomentNodes:locationHelper:serviceManager: /* Error: Ran out of types for this method. */;
 - (void)sis/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerRecentMeaningfulEvent.m;
-- (id)allengeAlgorithmEvaluator;
+- (id)PhotosChallengeAlgorithmEvaluator;
 
 // Remaining properties
-@property(readonly) double aestheticScore; // @synthesize aestheticScore=_aestheticScore;
 @property(readonly) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly) NSString *assetUUID; // @synthesize assetUUID=_assetUUID;
-@property(readonly) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double faceQualityPenalty; // @synthesize faceQualityPenalty=_faceQualityPenalty;
-@property(readonly) unsigned long long hash;
-@property _Bool headroomEngaged; // @synthesize headroomEngaged=_headroomEngaged;
-@property(readonly) _Bool isFavorite; // @synthesize isFavorite=_isFavorite;
-@property(readonly) double score; // @synthesize score=_score;
-@property(readonly) Class superclass;
-@property(readonly) float wallpaperScore; // @synthesize wallpaperScore=_wallpaperScore;
 
 @end
 

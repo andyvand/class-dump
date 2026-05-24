@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceSnapshotExporter
 {
     id editor;
-    id serverService;
-    id canvasGenerator;
-    id encoder;
 }
 
 @end

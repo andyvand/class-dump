@@ -7,8 +7,6 @@
 @interface ReminderKitInternal.WordpieceTokenizer
 {
     id unkToken;
-    id maxInputCharsPerWord;
-    id vocab;
 }
 
 @end

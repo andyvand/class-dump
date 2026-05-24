@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface MRExternalDeviceConnectionDetails
 {
     unsigned int _qos;
-    NSDate *_startDate;
-    NSString *_reason;
-    NSString *_requestID;
-    CDUnknownBlockType _completion;
 }
 
+- (id) ;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)setQualityOfService: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)J;
 - (unsigned int);
 - (void);
 - (void),V_contentItems;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(nonatomic) unsigned int qos; // @synthesize qos=_qos;
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

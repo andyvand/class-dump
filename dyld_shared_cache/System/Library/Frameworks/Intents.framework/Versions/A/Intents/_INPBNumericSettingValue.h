@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBNumericSettingValue
 {
     struct {
         unsigned int unit:1;
         unsigned int value:1;
     } _has;
-    int _unit;
-    double _value;
 }
 
 + (_Bool);
@@ -23,31 +19,21 @@
 - (int);
 - (void);
 - (id);
+- (void)`;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)C;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (double);
-- (id);
+- (id);
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasUnit;
-@property(nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) int unit; // @synthesize unit=_unit;
-@property(nonatomic) double value; // @synthesize value=_value;
 
 @end
 

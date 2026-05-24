@@ -4,18 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSValue, NSDictionary, NSNumber, NSString;
-
 @protocol InternetAccountExports
+- (void)+w�2;
+- (void))h;
+- (void);
+- (unsigned long long)ontroller"16@"AKAppleIDAuthenticationContext"24@?<v@?>32;
+
+@optional
+- (void);
+- (void)2;
+- (void)�	i;
+- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *account;
-@property(retain, nonatomic, getter=icaButtonBar, setter=icaSetButtonBar:) JSValue *buttonBar;
-@property(readonly, nonatomic) NSDictionary *environment;
-@property(readonly, nonatomic) NSNumber *isIMChangingEnabledState;
-@property(readonly, nonatomic) NSNumber *isIMEnabled;
-@property(readonly, nonatomic) NSString *numberOfDaysSinceIMExit;
 @property(readonly, nonatomic) unsigned long long protocolVersion;
-@property(readonly, nonatomic) NSDictionary *workflow;
 @end
 

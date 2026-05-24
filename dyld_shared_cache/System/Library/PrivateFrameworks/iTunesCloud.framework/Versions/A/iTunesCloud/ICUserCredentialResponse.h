@@ -9,7 +9,6 @@
 @interface ICUserCredentialResponse
 {
     ICUserIdentityProperties *_identityProperties;
-    ICUserIdentityProperties *_iCloudIdentityProperties;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void)&,N,V_value;
 
 // Remaining properties
-@property(copy, nonatomic) ICUserIdentityProperties *iCloudIdentityProperties; // @synthesize iCloudIdentityProperties=_iCloudIdentityProperties;
 @property(copy, nonatomic) ICUserIdentityProperties *identityProperties; // @synthesize identityProperties=_identityProperties;
 
 @end

@@ -9,17 +9,15 @@
 @interface SXTextHighlightLayer
 {
     TSWPRep *_rep;
-    struct _NSRange _range;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)<;
+- (void)@C;
 - (struct _NSRange);
 - (void)áÝ°!;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 @property(readonly, nonatomic) TSWPRep *rep; // @synthesize rep=_rep;
 
 @end

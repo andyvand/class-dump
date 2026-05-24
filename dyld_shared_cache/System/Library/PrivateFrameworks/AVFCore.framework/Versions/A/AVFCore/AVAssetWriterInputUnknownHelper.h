@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (void);
@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)fetchRecoveryKeysInTargetDisk:(struct CGAffineTransform)arg1;
 - (long long);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)setSchedulingPolicy:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -40,10 +40,10 @@ __attribute__((visibility("hidden")))
 - (id))Ð1Â0@ù
 × ;
 - (void)aReader=}16;
-- (void)Time;
+- (void)_startOnQueueFirstTime;
 - (void)VStreamDataParser after session expired;
 - (void)ed after canceling or finishing writing;
-- (void)ateDidChangeReasonPauseAtItemEnd;
+- (void)AVPlayerRateDidChangeReasonPauseAtItemEnd;
 
 @end
 

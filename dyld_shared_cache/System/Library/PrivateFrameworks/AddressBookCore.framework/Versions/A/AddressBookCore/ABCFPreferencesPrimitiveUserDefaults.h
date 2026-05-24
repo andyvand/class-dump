@@ -9,7 +9,6 @@
 @interface ABCFPreferencesPrimitiveUserDefaults
 {
     NSString *_applicationID;
-    long long _autosyncTimerIsActive;
 }
 
 - (void);
@@ -18,18 +17,12 @@
 - (void);
 - (_Bool);
 - (id)\@;
-- (void)cription;
+- (void)ABCDSubscription;
 - (void)A*u;
 - (long long)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

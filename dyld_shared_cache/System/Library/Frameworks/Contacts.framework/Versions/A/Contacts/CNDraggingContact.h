@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, NSURL;
+@class CNContact;
 
 @interface CNDraggingContact
 {
     CNContact *_contact;
-    CNContactStore *_contactStore;
-    NSURL *_cachedFileURLRepresentation;
 }
 
 + (id);
@@ -22,18 +20,16 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)Frameworks/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (void)Aq&°!;
-- (void);
+- (void)879;
 - (id)ÿÿ8;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *cachedFileURLRepresentation; // @synthesize cachedFileURLRepresentation=_cachedFileURLRepresentation;
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 
 @end
 

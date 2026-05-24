@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, _UIBackdropViewSettings;
+@class _UIBackdropViewSettings;
 
 @interface _UIBackdropColorSettings
 {
@@ -17,25 +17,19 @@
 - (double);
 - (_Bool);
 - (double);
-- (void);
+- (void);
 - (void)mn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
 - (id){CGSize=dd}}48d80d88d96@104{CATransform3D=dddddddddddddddd}112;
 - (void)BETextDocumentRequest"32@?<v@?@"BETextDocumentContext">40;
-- (void)ntDirection;
+- (void)movementDirection;
 - (void);
-- (_Bool)idPerformLoupeSelectionHandoff;
+- (_Bool)didPerformLoupeSelectionHandoff;
 - (void);
 - (void)¼ó_;
 - (double)c;
 - (void)«ÿ±È;
 
 // Remaining properties
-@property(nonatomic) double averageBrightness;
-@property(nonatomic) double averageHue;
-@property(nonatomic) double averageSaturation;
-@property(readonly, nonatomic) UIColor *color;
-@property(nonatomic) double contrast;
-@property(nonatomic) _Bool hasObservedValues; // @synthesize hasObservedValues=_hasObservedValues;
 @property(nonatomic) _UIBackdropViewSettings *parentSettings; // @synthesize parentSettings=_parentSettings;
 
 @end

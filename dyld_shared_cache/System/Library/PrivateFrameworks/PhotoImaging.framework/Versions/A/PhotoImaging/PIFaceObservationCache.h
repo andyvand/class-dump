@@ -5,20 +5,18 @@
 //
 
 @class NSObject;
-@protocol NUFaceDetectionResult, OS_dispatch_group, OS_dispatch_queue;
+@protocol OS_dispatch_group;
 
 @interface PIFaceObservationCache
 {
     NSObject<OS_dispatch_group> *_group;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <NUFaceDetectionResult> _result;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
-- (void)thBlockPredicate:action: /* Error: Ran out of types for this method. */;
+- (void)ruleWithBlockPredicate:action: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,28 +6,24 @@
 
 #import <AppKit/_NSDrawingHandlerView.h>
 
-@class NSString, NSTextView, NSTrackingArea;
+@class NSTrackingArea;
 
 __attribute__((visibility("hidden")))
 @interface NSDataDetectionIndicatorView : _NSDrawingHandlerView
 {
     NSTrackingArea *_trackingArea;
-    id _dataResult;
-    NSString *_string;
-    struct _NSRange _range;
-    NSTextView *_textView;
 }
 
-- (void);
+- (void)abling TLS for terminal delegate;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)tIndexPath:(struct CGRect)arg1;
-- (void)indow:(id)arg1;
+- (void).i ;
+- (void);
+- (void)a;
+- (id)collectionView:(struct CGRect)arg1 willDisplaySupplementaryView:forElementKind:atIndexPath: /* Error: Ran out of types for this method. */;
+- (void)_modalSessionForWindow:(id)arg1;
 
 @end
 

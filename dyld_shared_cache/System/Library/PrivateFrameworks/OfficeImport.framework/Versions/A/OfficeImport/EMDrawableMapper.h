@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface EMDrawableMapper : CMDrawableMapper
 {
     double *mRowGrid;
-    double *mColumnGrid;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,11 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
+- (id);
 - (id);
 - (id);
-- (id);
-- (struct CGRect);
-- (id);
+- (struct CGRect)T	;
+- (id);
 - (struct CGPoint);
 - (id);
 

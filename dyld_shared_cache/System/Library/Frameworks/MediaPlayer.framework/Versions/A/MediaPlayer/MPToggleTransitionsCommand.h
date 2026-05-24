@@ -9,7 +9,6 @@
 @interface MPToggleTransitionsCommand : MPRemoteCommand
 {
     _Bool _active;
-    long long _transitionStyle;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) long long transitionStyle; // @synthesize transitionStyle=_transitionStyle;
 
 @end
 

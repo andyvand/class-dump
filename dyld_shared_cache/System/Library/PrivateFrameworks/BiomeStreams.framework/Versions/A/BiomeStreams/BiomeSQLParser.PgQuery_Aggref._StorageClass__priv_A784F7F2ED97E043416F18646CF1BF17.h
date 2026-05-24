@@ -7,23 +7,6 @@
 @interface BiomeSQLParser.PgQuery_Aggref._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _aggfnoid;
-    id _aggtype;
-    id _aggcollid;
-    id _inputcollid;
-    id _aggtranstype;
-    id _aggargtypes;
-    id _aggdirectargs;
-    id _args;
-    id _aggorder;
-    id _aggdistinct;
-    id _aggfilter;
-    id _aggstar;
-    id _aggvariadic;
-    id _aggkind;
-    id _agglevelsup;
-    id _aggsplit;
-    id _location;
 }
 
 @end

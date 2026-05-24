@@ -12,16 +12,15 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_registry;
 }
 
+- (void)axtty_contactID;
 - (void);
-- (void);
-- (id);
+- (id)?;
 - (id);
 - (unsigned long long);
 - (void)a°!@ùQi°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) NSMutableArray *registry; // @synthesize registry=_registry;
 
 @end

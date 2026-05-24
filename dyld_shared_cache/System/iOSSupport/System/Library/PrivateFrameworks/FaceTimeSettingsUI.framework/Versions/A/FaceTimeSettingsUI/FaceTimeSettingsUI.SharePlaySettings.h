@@ -8,7 +8,6 @@
 {
     id _sharePlayEnabled;
     id _apps;
-    id _$observationRegistrar;
 }
 
 @end

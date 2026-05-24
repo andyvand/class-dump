@@ -11,7 +11,7 @@
     long long _DeliverMeetingRequests;
 }
 
-+ (id);
++ (id)qd__;
 - (void);
 - (long long);
 

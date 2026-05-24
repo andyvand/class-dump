@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, MPNowPlayingInfoCenter, MPRemoteCommandCenter, NSArray, NSString;
+@class MPNowPlayingInfoCenter;
 
 @protocol MPCPlaybackEngineInitializationParameters
 
 // Remaining properties
-@property(readonly, nonatomic) AVAudioSession *audioSession;
-@property(readonly, nonatomic) NSArray *eventStreamConsumers;
 @property(readonly, nonatomic) MPNowPlayingInfoCenter *nowPlayingInfoCenter;
-@property(readonly, copy, nonatomic) NSString *playerID;
-@property(readonly, nonatomic) MPRemoteCommandCenter *remoteCommandCenter;
 @end
 

@@ -4,66 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSLock, NSObject, NSString, NSURLCredential, NSXPCConnection, SUPowerSourceMonitor;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface SUAppStoreUpdateController
 {
     NSXPCConnection *_conn;
-    struct os_unfair_lock_s _connectionLock;
-    NSArray *_currentUpdates;
-    NSArray *_currentMajorUpdates;
-    NSArray *_queuedUpdates;
-    NSObject<OS_dispatch_queue> *_q;
-    _Bool _requireACPower;
-    _Bool _deferredUpdatesExist;
-    SUPowerSourceMonitor *_powerMonitor;
-    NSObject<OS_dispatch_queue> *_scanAndSessionQ;
-    NSError *_lastCantStartError;
-    struct AuthorizationOpaqueRef *_authRef;
-    _Bool _didSendAuth;
-    _Bool _destroyAuthRef;
-    _Bool _serviceInterrupted;
-    long long _numServiceInterruptionsDetected;
-    NSObject<OS_dispatch_queue> *_authQueue;
-    NSLock *_statusTimerLock;
-    NSObject<OS_dispatch_queue> *_initialAvailableUpdatesQueryQueue;
-    _Bool _isSystemAppleInternal;
-    _Bool _shouldRegisterBundleURLWithLaunchServices;
-    NSURLCredential *_sharedURLCredential;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
+- (id)27;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)r;
+- (id)ܱ;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
+- (id)--;
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -74,19 +52,19 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (int);
-- (void);
+- (void)|;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (_Bool);
+- (void)0T;
+- (void)#;
+- (void)ʬ;
+- (id);
+- (id);
+- (void)!;
 - (id);
 - (id);
 - (long long);
@@ -121,18 +99,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool canStartUpdate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) _Bool deferredUpdatesExist; // @synthesize deferredUpdatesExist=_deferredUpdatesExist;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool requireACPower; // @synthesize requireACPower=_requireACPower;
-@property(retain) NSURLCredential *sharedURLCredential; // @synthesize sharedURLCredential=_sharedURLCredential;
-@property _Bool shouldRegisterBundleURLWithLaunchServices; // @synthesize shouldRegisterBundleURLWithLaunchServices=_shouldRegisterBundleURLWithLaunchServices;
-@property(readonly) Class superclass;
 
 @end
 

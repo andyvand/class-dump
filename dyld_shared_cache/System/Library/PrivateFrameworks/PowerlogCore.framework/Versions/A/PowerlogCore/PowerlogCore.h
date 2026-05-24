@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, PLCoreAgent, PLCoreService, PLCoreStorage, PPSCollectionOperator, PPSCoreStorage;
+@class NSObject;
 @protocol OS_dispatch_source, OS_os_transaction;
 
 @interface PowerlogCore
 {
     NSObject<OS_dispatch_source> *_fVMPressureSource;
-    NSDate *_launchDate;
-    PLCoreStorage *_storage;
-    PLCoreAgent *_agents;
-    PLCoreService *_services;
-    PPSCoreStorage *_coreStorage;
-    PPSCollectionOperator *_collection;
-    NSObject<OS_os_transaction> *_userRequestTransaction;
 }
 
 + (_Bool);
@@ -31,24 +24,18 @@
 - (id);
 - (id);
 - (id);
+- (id):Lock action triggered /* Error: Ran out of types for this method. */;
+- (void)password passed to _AOSAccountCreateWithMemberName (%@);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)r;
 - (id);
 - (void);
 - (id);
 - (void)tes;
 
 // Remaining properties
-@property(readonly) PLCoreAgent *agents; // @synthesize agents=_agents;
-@property(readonly) PPSCollectionOperator *collection; // @synthesize collection=_collection;
-@property(readonly) PPSCoreStorage *coreStorage; // @synthesize coreStorage=_coreStorage;
-@property(readonly) NSDate *launchDate; // @synthesize launchDate=_launchDate;
-@property(readonly) PLCoreService *services; // @synthesize services=_services;
-@property(readonly) PLCoreStorage *storage; // @synthesize storage=_storage;
 @property(retain) NSObject<OS_os_transaction> *userRequestTransaction; // @synthesize userRequestTransaction=_userRequestTransaction;
 
 @end

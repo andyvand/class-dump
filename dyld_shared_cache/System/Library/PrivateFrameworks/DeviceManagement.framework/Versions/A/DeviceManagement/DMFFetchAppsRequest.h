@@ -6,22 +6,13 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSArray, NSNumber, NSURL;
-
 @interface DMFFetchAppsRequest : DMFTaskRequest
 {
     _Bool _deleteFeedback;
-    _Bool _managedAppsOnly;
-    _Bool _advanceTransientStates;
-    unsigned long long _type;
-    NSArray *_bundleIdentifiers;
-    NSNumber *_storeItemIdentifier;
-    NSURL *_manifestURL;
-    NSArray *_propertyKeys;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -35,10 +26,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)rType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::NetworkSessionCocoa::BlobDataTaskClient>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
@@ -47,13 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool advanceTransientStates; // @synthesize advanceTransientStates=_advanceTransientStates;
-@property(copy, nonatomic) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(nonatomic) _Bool deleteFeedback; // @synthesize deleteFeedback=_deleteFeedback;
-@property(nonatomic) _Bool managedAppsOnly; // @synthesize managedAppsOnly=_managedAppsOnly;
-@property(copy, nonatomic) NSURL *manifestURL; // @synthesize manifestURL=_manifestURL;
-@property(copy, nonatomic) NSArray *propertyKeys; // @synthesize propertyKeys=_propertyKeys;
-@property(copy, nonatomic) NSNumber *storeItemIdentifier; // @synthesize storeItemIdentifier=_storeItemIdentifier;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

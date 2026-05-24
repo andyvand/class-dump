@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)etionHandler:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);

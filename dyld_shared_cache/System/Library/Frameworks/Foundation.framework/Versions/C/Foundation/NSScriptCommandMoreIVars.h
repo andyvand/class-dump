@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppleEventDescriptor, NSAppleEventHandling, NSArray, NSInvocation, NSMutableArray, NSString;
+@class NSAppleEventHandling;
 
 __attribute__((visibility("hidden")))
 @interface NSScriptCommandMoreIVars
 {
     NSAppleEventHandling *appleEventHandling;
-    NSArray *flattenedReceivers;
-    unsigned long long nextReceiverIndex;
-    NSMutableArray *collectedResults;
-    Class cachedHanderInvocationReceiverClass;
-    NSInvocation *cachedHandlerInvocation;
-    int errorNumber;
-    NSString *errorString;
-    NSAppleEventDescriptor *errorOffendingObjectDescriptor;
-    NSAppleEventDescriptor *errorExpectedTypeDescriptor;
 }
 
 @end

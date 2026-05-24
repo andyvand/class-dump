@@ -24,11 +24,11 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)�h;
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)T;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *safari_profileIdentifier;

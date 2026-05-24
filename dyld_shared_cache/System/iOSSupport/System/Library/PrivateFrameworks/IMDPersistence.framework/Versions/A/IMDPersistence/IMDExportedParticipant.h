@@ -9,21 +9,16 @@
 @interface IMDExportedParticipant
 {
     void formattedAddress;
-    void unformattedAddress;
-    void countryCode;
-    _Bool isSelf;
-    long long sequenceID;
-    long long accountUsageCount;
 }
 
-+ (_Bool);
++ (_Bool),;
 - (id);
 - (id);
 - (long long);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -31,13 +26,7 @@
 - (void)d;
 
 // Remaining properties
-@property(nonatomic, readonly) long long accountUsageCount; // @synthesize accountUsageCount;
-@property(nonatomic, readonly) NSString *countryCode;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSString *formattedAddress;
-@property(nonatomic, readonly) _Bool isSelf; // @synthesize isSelf;
-@property(nonatomic, readonly) long long sequenceID; // @synthesize sequenceID;
-@property(nonatomic, readonly) NSString *unformattedAddress;
 
 @end
 

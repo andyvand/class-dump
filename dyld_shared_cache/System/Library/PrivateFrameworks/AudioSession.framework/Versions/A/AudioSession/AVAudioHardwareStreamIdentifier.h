@@ -9,8 +9,6 @@
 @interface AVAudioHardwareStreamIdentifier
 {
     unsigned int direction;
-    NSString *deviceUID;
-    unsigned long long streamIndex;
 }
 
 - (unsigned long long);
@@ -20,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceUID; // @synthesize deviceUID;
-@property(readonly, nonatomic) unsigned int direction; // @synthesize direction;
-@property(readonly, nonatomic) unsigned long long streamIndex; // @synthesize streamIndex;
 
 @end
 

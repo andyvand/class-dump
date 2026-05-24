@@ -7,9 +7,6 @@
 @interface (extension in NotesUI):__C.ICCalculateDocumentController.Index
 {
     id selection;
-    id textStorage;
-    id cachedRange;
-    id paperKitIndex;
 }
 
 @end

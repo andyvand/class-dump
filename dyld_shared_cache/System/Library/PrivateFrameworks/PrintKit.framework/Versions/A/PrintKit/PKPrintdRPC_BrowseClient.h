@@ -7,21 +7,18 @@
 #import <PrintKit/PKPrinterTool_Client.h>
 
 @class NSDictionary;
-@protocol PKPrintdRPC_BrowseClient_ClientProtocol;
 
 __attribute__((visibility("hidden")))
 @interface PKPrintdRPC_BrowseClient : PKPrinterTool_Client
 {
     NSDictionary *_infoDictionary;
-    unsigned long long _provenance;
-    id <PKPrintdRPC_BrowseClient_ClientProtocol> _delegate;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
+- (void)@"AXFUIElement",&,N;
 
 @end
 

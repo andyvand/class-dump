@@ -5,5 +5,6 @@
 //
 
 @protocol WFTTSStringAnnotation
++ (id);
 @end
 

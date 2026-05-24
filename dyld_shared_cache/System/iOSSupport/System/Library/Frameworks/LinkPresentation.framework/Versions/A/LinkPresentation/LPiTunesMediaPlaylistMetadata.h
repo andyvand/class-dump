@@ -6,43 +6,36 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString, NSURL;
+@class NSString;
 
 @interface LPiTunesMediaPlaylistMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_curator;
-    NSURL *_curatorProfileURL;
-    NSString *_curatorHandle;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
-+ (id);
++ (id)startFetchingMetadataForURL:completionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)transferUpdated:(id)arg1;
+- (id)transferRemoved:(id)arg1;
+- (void)transcriptCollectionViewControllerOuterEffectPresentingView:(id)arg1;
+- (void)transcriptCollectionViewControllerOuterEffectPresentingView:(id)arg1;
+- (void)transcriptCollectionViewControllerBottomDockingPadding:(id)arg1;
+- (id)transcriptCollectionViewController:(id)arg1 requestDeleteJunkConversation: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 previewForHighlightingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 previewForDismissingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 didTapTruncatedCaptionForRichCard:onBalloonView: /* Error: Ran out of types for this method. */;
+- (id)tipKitLayoutSectionForEnvironment: /* Error: Ran out of types for this method. */;
+- (_Bool)thumbnailFillToSize:(id)arg1;
+- (id)textView:(id)arg1 shouldInteractWithURL:inRange:interaction: /* Error: Ran out of types for this method. */;
+- (void)tableView:(CDUnknownBlockType)arg1 didDeselectRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (id)supportsQuicklookForResult: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -55,21 +48,7 @@
 - (id)¸ê;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *curator; // @synthesize curator=_curator;
-@property(copy, nonatomic) NSString *curatorHandle; // @synthesize curatorHandle=_curatorHandle;
-@property(copy, nonatomic) NSURL *curatorProfileURL; // @synthesize curatorProfileURL=_curatorProfileURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

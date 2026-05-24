@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAccountTransferExternalAccount, PKCurrencyAmount;
+@class PKCurrencyAmount;
 
 @interface PKAccountScheduledTransfer
 {
     PKCurrencyAmount *_currencyAmount;
-    unsigned long long _type;
-    PKAccountTransferExternalAccount *_externalAccount;
 }
 
 + (_Bool)X"ð!lAùî%ð1Â0@ù
@@ -18,8 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)#@�_;
+- (void)*;
 - (id);
 - (id);
 - (id);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(retain, nonatomic) PKAccountTransferExternalAccount *externalAccount; // @synthesize externalAccount=_externalAccount;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

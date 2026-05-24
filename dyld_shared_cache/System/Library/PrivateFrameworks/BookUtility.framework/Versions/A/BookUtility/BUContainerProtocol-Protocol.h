@@ -7,6 +7,7 @@
 @class NSURL;
 
 @protocol BUContainerProtocol
+- (NSURL *)performSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url;

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol _UISceneCarPlaySessionTouchpadFeedbackDelegate;
-
 @protocol _UISceneCarPlaySessionHost
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long availableInteractionModels;
-@property(nonatomic) unsigned long long primaryInteractionModel;
-@property(nonatomic) long long touchLevel;
-@property(nonatomic) __weak id <_UISceneCarPlaySessionTouchpadFeedbackDelegate> touchpadFeedbackDelegate;
-@property(retain, nonatomic) NSArray *touchpads;
 @end
 

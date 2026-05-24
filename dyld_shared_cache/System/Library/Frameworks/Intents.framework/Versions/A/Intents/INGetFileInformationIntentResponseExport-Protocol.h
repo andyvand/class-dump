@@ -9,16 +9,13 @@
 @protocol INGetFileInformationIntentResponseExport
 - (INFileProperty *)
 × ;
-- (NSNumber *)pletion: /* Error: Ran out of types for this method. */;
-- (long long)ation;
-- (void)sponseCodeSuccess;
-- (void)alization;
+- (NSNumber *)resolveFaceTimeLinkForStartCall:completion: /* Error: Ran out of types for this method. */;
+- (long long)hasArrivalBoatTerminalLocation;
+- (void)INUncompressFileIntentResponseCodeSuccess;
+- (void)INIntentResponseParameterMetadataCapitalization;
 - (NSString *);
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *entityName;
-@property(copy) INFileProperty *property;
-@property(copy) NSNumber *success;
 @end
 

@@ -4,33 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNotification, NSWindow;
+@class NSArray, NSNotification, NSUndoManager, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (NSUndoManager *)\;
+- (void);
+- (void)lT;
+- (void)D;
+- (_Bool)s not allowed request via internal API;
+- (NSWindow *)KContextFingerprintMinHash ;
+- (void)includePartsOfSpeech;
+- (void)overrideBlendGamma;
+- (void)overrideBlendAlpha;
+- (void)fingerprintMax;
+- (void)overrideConstellationMinCount;
+- (void)overrideEnableCoreNLPTagging;
+- (void)"8@"NSError"16;
+- (struct CGSize)�J;
+- (void);
+- (void);
+- (NSArray *)ere must be one and only device with a given UUID.;
+- (NSArray *)erDeviceState).;
+- (NSArray *)DeviceState.;
+- (struct CGRect)setDisplayScale:(NSWindow *)arg1;
 - (void)0@ù
 × ;
 - (void)0@ù
 × ;
-- (void);
 - (void)Ô!j°!ðAùïÐ1Â0@ù
 × ;
 - (void)*16@0:(NSNotification *)arg1 8;
 - (id)"d"y"d};
-- (void)sForDrag:(NSNotification *)arg1;
-- (void):(NSNotification *)arg1;
-- (NSArray *)Correction:(NSWindow *)arg1;
-- (void)View;
-- (void)ringForOpenWith;
+- (void)tableView:(NSNotification *)arg1 updateDraggingItemsForDrag: /* Error: Ran out of types for this method. */;
+- (void)setScannerDeviceViewHandler:(NSNotification *)arg1;
+- (NSArray *)setFilterCorrection:(NSWindow *)arg1;
+- (void)scrollView;
+- (void)placeholderStringForOpenWith;
 - (void)handleFileFormatChangeToTag:(NSNotification *)arg1 fromTag: /* Error: Ran out of types for this method. */;
-- (void)opMode;
-- (void)teManualImageCorrectionColor;
-- (void)wLayout;
+- (void)enterCropMode;
+- (void)createManualImageCorrectionColor;
+- (void)_useNarrowLayout;
 - (unsigned long long)_autoSelectCallback;
-- (void)Running;
-- (void)yncTaskBagItem;
-- (void)KImageRenderInfo;
+- (void)selfTestRunning;
+- (void)IKSyncTaskBagItem;
+- (void)IKImageRenderInfo;
 - (struct CGRect)DÈ;
 - (void)1a,_line1b,_line2a,_line2b,_line3a,_line3b,_line4a,_line4b, self;
 - (void)- t*t)/(p1*p1);               
@@ -58,7 +77,7 @@ kernel vec4 moreMagenta (sampler src, float param)
 ;
 - (_Bool)IKScannerDeviceViewScanStarted;
 - (void)0@"NSWindow"8Q16^B24;
-- (void)ue;
-- (struct CGSize)rtzFilterObj;
+- (void)blue;
+- (struct CGSize)quartzFilterObj;
 @end
 

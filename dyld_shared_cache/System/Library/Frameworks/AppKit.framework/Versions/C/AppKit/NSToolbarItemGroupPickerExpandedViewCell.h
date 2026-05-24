@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (double);
-- (id);
+- (id) ;
 - (void)ameAnimation`).;
 
 @end

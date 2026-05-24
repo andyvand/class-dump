@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBValueMetadata;
+@class NSString;
 
 @interface _INPBStringValue
 {
     struct _has;
-    NSString *_value;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -23,25 +21,15 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool)l;
+- (_Bool)INDeviceDetail;
 - (void)rActivity:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id)Xâ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *value; // @synthesize value=_value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

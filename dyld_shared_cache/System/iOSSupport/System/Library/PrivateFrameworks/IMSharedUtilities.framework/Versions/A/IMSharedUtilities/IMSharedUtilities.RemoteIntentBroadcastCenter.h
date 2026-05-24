@@ -7,10 +7,6 @@
 @interface IMSharedUtilities.RemoteIntentBroadcastCenter
 {
     id lastRequestTime;
-    id rateLimitInterval;
-    id nextNotificationTimer;
-    id broadcastCache;
-    id observerTask;
 }
 
 @end

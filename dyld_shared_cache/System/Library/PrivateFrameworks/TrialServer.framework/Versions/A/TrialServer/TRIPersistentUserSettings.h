@@ -12,10 +12,18 @@
 }
 
 + (id);
+- (id)ftsp;
+- (void)sMA0GCSqGSIb3DQEBCwUAA4IBAQBdmg0EmUI3o92H
+y+Q8JHPgc/5EabuKh2Vql9WXxM5gDR9BjiCE4bFpXeneRt3zMWgVUTaDdjdAb9BY
+K4nkbd1Te72wqypt97k+8qzpkYsXDbweuynQL70dWMOVMbPUgoL7ekuHspqLfzfk
+BvxmBxk+fIy/ZEtwSKZhvMBFrlkVpIuGMLWAS9D1hnYfMcxi3p06hNiV5s1gkAxz
+qqj3wCI6TjxItv9ByQvPX0y04yA5Xg8Hj1zd3grk77zYtPCf3gdzD3FjSvHm3VW1
+6nReYxR31GxYV1cbUCvdkfS2xfrl3GfWTTsnyJidUx+s1OKwEo+0Nzdk7P/Ug1xJ
+i99sZxtr
+-----END CERTIFICATE-----
+;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)_HAP2AutoUpdateCachedCountdownCharacteristic:(id)arg1;
 - (unsigned char);
 - (void);
 - (id);
@@ -35,7 +43,7 @@
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)loiEntityRelevanceCoarseTimeOfDayAndDayOfWeekFeatures;
 - (void);
 - (void);
 

@@ -6,14 +6,11 @@
 
 #import <iLifeMediaBrowser/ILObserverNode.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ILWatchedQueryNode : ILObserverNode
 {
     NSString *query;
-    struct __MDQuery *queryRef;
-    NSArray *queryScope;
-    int queryRunMode;
 }
 
 - (void);
@@ -25,7 +22,7 @@
 - (struct __MDQuery *);
 - (void);
 - (void);
-- (id);
+- (id)becomeFirstResponder;
 
 @end
 

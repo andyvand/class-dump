@@ -5,5 +5,7 @@
 //
 
 @protocol CLSClientRemoteObject
+- (oneway void)riv is NULL
+;
 @end
 

@@ -9,11 +9,6 @@
 @interface AppStoreKit.PurchasesPage : AppStoreKit.BasePage
 {
     id shelfOrdering;
-    id shelfMapping;
-    id isIncomplete;
-    id nextPage;
-    id contentMode;
-    id familyMember;
 }
 
 @end

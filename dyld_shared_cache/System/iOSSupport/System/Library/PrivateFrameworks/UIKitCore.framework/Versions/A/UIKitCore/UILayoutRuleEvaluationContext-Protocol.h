@@ -8,16 +8,12 @@
 
 @protocol UILayoutRuleEvaluationContext
 - (struct CGSize);
-- (struct UIEdgeInsets)tles;
+- (struct UIEdgeInsets)allowLargeTitles;
 - (struct NSDirectionalEdgeInsets);
-- (struct UIEdgeInsets)ySo16UIViewControllerCG;
+- (struct UIEdgeInsets)SaySo16UIViewControllerCG;
 - (UITraitCollection *)8TR0;
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(readonly, nonatomic) struct UIEdgeInsets layoutMargins;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsets;
 @property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
 @end
 

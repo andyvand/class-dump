@@ -6,57 +6,44 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaSSUBackgroundUpdateEnded, NLXSchemaSSUBackgroundUpdateFailed, NLXSchemaSSUBackgroundUpdateStarted, NSData;
+@class NLXSchemaSSUBackgroundUpdateStarted;
 
 @interface NLXSchemaSSUBackgroundUpdateContext : SISchemaInstrumentationMessage
 {
     NLXSchemaSSUBackgroundUpdateStarted *_startedOrChanged;
-    NLXSchemaSSUBackgroundUpdateEnded *_ended;
-    NLXSchemaSSUBackgroundUpdateFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
+- (_Bool)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)P;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)or">32;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)asTieBreakerForcedSkipped;
 - (id)es;
-- (void)GORY_ASR_RECOGNITION_ERROR;
+- (void)CHUSERALIGNMENTISSUECATEGORY_ASR_RECOGNITION_ERROR;
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaSSUBackgroundUpdateEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaSSUBackgroundUpdateFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaSSUBackgroundUpdateStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

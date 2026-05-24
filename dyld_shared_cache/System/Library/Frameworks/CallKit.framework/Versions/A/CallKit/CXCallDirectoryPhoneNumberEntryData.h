@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CXCallDirectoryPhoneNumberEntryData
 {
@@ -12,28 +12,19 @@
 }
 
 + (_Bool);
-- (void);
+- (void)(64;
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)ITLibMediaItemPropertyFileSize;
+- (unsigned long long)t: /* Error: Ran out of types for this method. */;
 - (const long long *);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *phoneNumberData; // @synthesize phoneNumberData=_phoneNumberData;
-@property(readonly, nonatomic) const long long *phoneNumbers;
-@property(readonly) Class superclass;
 
 @end
 

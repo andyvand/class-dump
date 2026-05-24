@@ -13,9 +13,9 @@
 + (id);
 - (double);
 - (double);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool):8@"NSURLAuthenticationChallenge"16 /* Error: Ran out of types for this method. */;
+- (_Bool)ntial"16@"NSURLAuthenticationChallenge"24;
+- (id)ailed to bind partition (%@) to the delete statement. r = %d;
 - (id);
 
 @end

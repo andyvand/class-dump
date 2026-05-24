@@ -5,9 +5,10 @@
 //
 
 @protocol VKPuckAnimatorTarget
+- (struct CGSize);
+- (void)ztu;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize collisionSize;
 @property(nonatomic) double presentationCourse;
 @end
 

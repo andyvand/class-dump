@@ -7,24 +7,15 @@
 @class NSData, NSString, _INPBURLValue;
 
 @protocol _INPBFile
-- (_Bool)dleIdentifier;
-- (void)FormatStringDictionaryKey;
-- (NSString *)oneNumber;
-- (void)e;
-- (_INPBURLValue *)QueryHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)4;
+- (_Bool)tvOSBundleIdentifier;
+- (void)__INCodableDescriptionConciseFormatStringDictionaryKey;
+- (NSString *)CNPhoneNumber;
+- (void)lowerValue;
+- (_INPBURLValue *)provideUnitOptionsCollectionForQueryHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *bookmarkData;
-@property(copy, nonatomic) NSData *data;
-@property(retain, nonatomic) _INPBURLValue *fileURL;
-@property(copy, nonatomic) NSString *filename;
-@property(readonly, nonatomic) _Bool hasBookmarkData;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) _Bool hasFileURL;
-@property(readonly, nonatomic) _Bool hasFilename;
-@property(nonatomic) _Bool hasRemovedOnCompletion;
-@property(readonly, nonatomic) _Bool hasTypeIdentifier;
-@property(nonatomic) _Bool removedOnCompletion;
-@property(copy, nonatomic) NSString *typeIdentifier;
 @end
 

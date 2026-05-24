@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface HOMESchemaHOMEClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_homeComponentId;
-    _Bool _hasHomeComponentId;
 }
 
 - (void);
@@ -25,16 +24,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_createdByIdentifier;
 - (id);
 - (id)ameOfTypedValue;
 - (id)ä%&;
 - (void)(Éÿë3±Éü#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomeComponentId; // @synthesize hasHomeComponentId=_hasHomeComponentId;
 @property(retain, nonatomic) SISchemaUUID *homeComponentId; // @synthesize homeComponentId=_homeComponentId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

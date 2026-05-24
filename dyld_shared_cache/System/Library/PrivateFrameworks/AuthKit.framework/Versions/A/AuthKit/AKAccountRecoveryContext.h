@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationContext, NSString, NSURL;
-
 @interface AKAccountRecoveryContext
 {
     _Bool _supportsMasterKeyRecovery;
-    _Bool _mandatesRecoveryKey;
-    NSString *_encodedRecoveryIdentityToken;
-    NSString *_encodedRecoveryPET;
-    NSURL *_recoveryContinuationURL;
-    AKAppleIDAuthenticationContext *_authContext;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool){;
 - (_Bool);
 - (void);
 - (void);
@@ -34,18 +27,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)reportarcongresopublicarcomerciocontratojóvenesdistritotécnicaconjuntoenergíatrabajarasturiasrecienteutilizarboletínsalvadorcorrectatrabajosprimerosnegocioslibertaddetallespantallapróximoalmeríaanimalesquiénescorazónsecciónbuscandoopcionesexteriorconceptotodavíagaleríaescribirmedicinalicenciaconsultaaspectoscríticadólaresjusticiadeberánperíodonecesitamantenerpequeñorecibidatribunaltenerifecancióncanariasdescargadiversosmallorcarequieretécnicodeberíaviviendafinanzasadelantefuncionaconsejosdifícilciudadesantiguasavanzadatérminounidadessánchezcampañasoftonicrevistascontienesectoresmomentosfacultadcréditodiversassupuestofactoressegundospequeñaгодаеслиестьбылобытьэтомЕслитогоменявсехэтойдажебылигодуденьэтотбыласебяодинсебенадосайтфотонегосвоисвойигрытожевсемсвоюлишьэтихпокаднейдомамиралиботемухотядвухсетилюдиделомиретебясвоевидечегоэтимсчеттемыценысталведьтемеводытебевышенамитипатомуправлицаоднагодызнаюмогудругвсейидеткиноодноделаделесрокиюнявесьЕстьразанашиاللهالتيجميعخاصةالذيعليهجديدالآنالردتحكمصفحةكانتاللييكونشبكةفيهابناتحواءأكثرخلالالحبدليلدروساضغطتكونهناكساحةناديالطبعليكشكرايمكنمنهاشركةرئيسنشيطماذاالفنشبابتعبررحمةكافةيقولمركزكلمةأحمدقلبييعنيصورةطريقشاركجوالأخرىمعناابحثعروضبشكلمسجلبنانخالدكتابكليةبدونأيضايوجدفريقكتبتأفضلمطبخاكثرباركافضلاحلىنفسهأيامردودأنهاديناالانمعرضتعلمداخلممكن;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AKAppleIDAuthenticationContext *authContext; // @synthesize authContext=_authContext;
-@property(readonly, nonatomic) NSString *decodedRecoveryIdentityTokenString;
-@property(readonly, nonatomic) NSString *decodedRecoveryPETString;
-@property(copy, nonatomic) NSString *encodedRecoveryIdentityToken; // @synthesize encodedRecoveryIdentityToken=_encodedRecoveryIdentityToken;
-@property(copy, nonatomic) NSString *encodedRecoveryPET; // @synthesize encodedRecoveryPET=_encodedRecoveryPET;
-@property(nonatomic) _Bool mandatesRecoveryKey; // @synthesize mandatesRecoveryKey=_mandatesRecoveryKey;
-@property(copy, nonatomic) NSURL *recoveryContinuationURL; // @synthesize recoveryContinuationURL=_recoveryContinuationURL;
 @property(nonatomic) _Bool supportsMasterKeyRecovery; // @synthesize supportsMasterKeyRecovery=_supportsMasterKeyRecovery;
 
 @end

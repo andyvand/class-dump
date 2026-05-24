@@ -5,5 +5,6 @@
 //
 
 @protocol ISOSUpdateScanObserver
+- (void)c;
 @end
 

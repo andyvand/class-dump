@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol _UISliderTickProvidingConfiguration
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) long long behavior;
-@property(readonly, nonatomic) double neutralPosition;
-@property(readonly, nonatomic) float snappingDistance;
-@property(readonly, nonatomic) long long tickStyle;
-@property(readonly, copy, nonatomic) NSArray *ticks;
-@property(readonly, nonatomic) _Bool ticksAreEvenlySpaced;
 @end
 

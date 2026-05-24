@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface VisionSignalGradingEntry
 {
     int _count;
-    NSString *_identifier;
-    struct {
-        unsigned int count:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)lic}@ is complete and received server trust, marking as secure;
+- (void)le.DispatchHost-Shared;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (int);
+- (void)PEER_DID_NOT_RETURN_A_CERTIFICATE;
+- (int)baba.DingTalkMac;
 - (void)·/Ð!LDùª3ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) int count; // @synthesize count=_count;
-@property(nonatomic) _Bool hasCount;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <MediaPlayer/MPRemoteCommandEvent.h>
 
-@class NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface MPPreloadPlaybackSessionCommandEvent : MPRemoteCommandEvent
 {
     NSString *_identifier;
-    NSString *_type;
-    long long _priority;
-    NSString *_revision;
-    NSURL *_playbackSessionDataFilePath;
-    NSDictionary *_metadata;
 }
 
 - (id);
@@ -23,17 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void)Contexts;
-- (id)sPending_KEY;
+- (void)_loadingContexts;
+- (id)__collaborationJoinRequestIsPending_KEY;
 - (long long)gits;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSURL *playbackSessionDataFilePath; // @synthesize playbackSessionDataFilePath=_playbackSessionDataFilePath;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) NSString *revision; // @synthesize revision=_revision;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

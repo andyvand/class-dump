@@ -13,7 +13,7 @@
     NSSet *_momentUUIDs;
 }
 
-- (id);
+- (id)%li is invalid;
 - (id);
 - (id);
 - (unsigned long long);

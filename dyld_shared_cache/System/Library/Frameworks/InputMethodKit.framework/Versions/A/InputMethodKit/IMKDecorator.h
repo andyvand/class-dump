@@ -15,16 +15,15 @@
 - (Class);
 - (_Bool);
 - (Class);
+- (id)*;
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)+;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id coreInstance;
 @property(readonly, nonatomic) id decoratedInstance; // @synthesize decoratedInstance=_decoratedInstance;
 
 @end

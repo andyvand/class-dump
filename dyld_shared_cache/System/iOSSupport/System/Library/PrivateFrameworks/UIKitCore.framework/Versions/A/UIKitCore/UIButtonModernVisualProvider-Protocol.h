@@ -5,6 +5,8 @@
 //
 
 @protocol UIButtonModernVisualProvider
+- (_Bool)initWithDispatchGroup:pipelineStates:errors: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
 - (double)>";
 - (double)ate for candidate window:%p; scene:%@ /* Error: Ran out of types for this method. */;
 - (struct CGSize)ocket %p.;
@@ -14,20 +16,14 @@
 - (void)rect:%@ fraction:%g->%g curve:%d from current position:%@ delete after anim:%@ editing:%@ /* Error: Ran out of types for this method. */;
 - (void)troller.m;
 - (void)UITableConstants> _UITableConstantsForTraitCollection(UITraitCollection *__strong);
-- (void)ndaryTextProperties;
-- (void)nfo;
+- (void)secondaryTextProperties;
+- (void)remoteNotificationInfo;
 - (void)tifierForInstance(id  _Nonnull __strong);
 - (void)= %@;
 - (void)'t begin a drag session from state %d;
 - (void)stMetricsShadowD0P;
-- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasBaseline;
-@property(readonly, nonatomic) _Bool hasMultilineText;
-@property(nonatomic) double previousFirstBaselineOffsetForAttributeLowering;
-@property(nonatomic) double previousLastBaselineOffsetForAttributeLowering;
-@property(nonatomic) _Bool vendsBaselineInformationToAutoLayout;
 @property(nonatomic) double widthForMultilineTextLayout;
 @end
 

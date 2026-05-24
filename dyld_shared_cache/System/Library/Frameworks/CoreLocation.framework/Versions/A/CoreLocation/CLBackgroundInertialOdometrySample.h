@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLBIO_Calibration, CLBIO_DeltaPosition, CLBIO_DeltaVelocity, CLBIO_Quaternion, NSDate;
+@class NSDate;
 
 @interface CLBackgroundInertialOdometrySample
 {
     NSDate *_cfAbsTimestamp;
-    double _machContinuousTimestamp_s;
-    double _sampleInterval_s;
-    CLBIO_DeltaPosition *_deltaPosition_m;
-    CLBIO_DeltaVelocity *_deltaVelocity_mps;
-    CLBIO_Quaternion *_quaternion;
-    unsigned long long _referenceFrameContinuity;
-    unsigned long long _sessionReferenceFrame;
-    unsigned long long _staticFlag;
-    unsigned long long _mountState;
-    unsigned long long _zupt;
-    unsigned long long _dotBiasChange;
-    CLBIO_Calibration *_calibration;
 }
 
 @end

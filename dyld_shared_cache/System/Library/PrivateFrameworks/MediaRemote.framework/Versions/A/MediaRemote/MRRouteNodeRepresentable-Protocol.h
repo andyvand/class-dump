@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol MRRouteNodeRepresentable
+- (void));
 
 // Remaining properties
 @property(retain, nonatomic) NSString *avOutputDeviceIdentifier;
-@property(retain, nonatomic) NSString *idsIdentifier;
-@property(nonatomic) _Bool isLocal;
-@property(retain, nonatomic) NSString *rapportIdentifier;
 @end
 

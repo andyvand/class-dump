@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TRIPBFileDescriptor;
+@class NSArray, NSString;
 
 @interface TRIPBDescriptor
 {
     NSArray *fields_;
-    NSArray *oneofs_;
-    unsigned int storageSize_;
-    Class messageClass_;
-    TRIPBFileDescriptor *file_;
-    _Bool wireFormat_;
-    unsigned int extensionRangesCount_;
-    const struct TRIPBExtensionRange *extensionRanges_;
 }
 
 + (id);
-- (void);
-- (id);
-- (void);
+- (void)safari_sharedBrowserKitDefaults;
+- (id)L*+Д-;
+- (void)~,;
 - (void);
 - (_Bool);
 - (id);
-- (const struct TRIPBExtensionRange *);
-- (void);
+- (const struct TRIPBExtensionRange *)_sanitizedCallFromCall:forCallControllerHostConnection: /* Error: Ran out of types for this method. */;
+- (void)q,N,V_lastAddIdentificationEntriesCount;
 - (id);
+- (id)int64_t, NSURL *__strong, NSString *__strong, NSString *__strong, NSString *__strong, BOOL, PHAssetExportRequestMetadataOperation, CLLocation * _Nullable __strong, PHAssetExportRequestMetadataOperation, NSString * _Nullable __strong, PHAssetExportRequestMetadataOperation, NSString * _Nullable __strong, void (^__strong)(NSURL * _Nullable __strong, NSError * _Nullable __strong));
 - (id);
-- (id);
-- (id);
+- (id)7;
 - (id);
 - (unsigned int);
 - (id);
@@ -42,16 +35,7 @@
 - (id)quired;
 
 // Remaining properties
-@property(readonly) TRIPBDescriptor *containingType;
-@property(readonly, nonatomic) const struct TRIPBExtensionRange *extensionRanges; // @synthesize extensionRanges=extensionRanges_;
-@property(readonly, nonatomic) unsigned int extensionRangesCount; // @synthesize extensionRangesCount=extensionRangesCount_;
-@property(readonly, nonatomic) NSArray *fields; // @synthesize fields=fields_;
-@property(readonly, nonatomic) TRIPBFileDescriptor *file; // @synthesize file=file_;
-@property(readonly) NSString *fullName;
-@property(readonly, nonatomic) Class messageClass; // @synthesize messageClass=messageClass_;
 @property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSArray *oneofs; // @synthesize oneofs=oneofs_;
-@property(readonly, nonatomic, getter=isWireFormat) _Bool wireFormat; // @synthesize wireFormat=wireFormat_;
 
 @end
 

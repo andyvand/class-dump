@@ -6,16 +6,11 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVHrefItem, CoreDAVItemWithNoChildren;
+@class CoreDAVHrefItem;
 
 @interface CoreDAVPrincipalItem : CoreDAVItem
 {
     CoreDAVHrefItem *_href;
-    CoreDAVItemWithNoChildren *_all;
-    CoreDAVItemWithNoChildren *_authenticated;
-    CoreDAVItemWithNoChildren *_unauthenticated;
-    CoreDAVItem *_property;
-    CoreDAVItemWithNoChildren *_selfItem;
 }
 
 + (id);
@@ -27,29 +22,24 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)<;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)accessibilityTopLevelUIElement;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ggeredEvent.Directions;
 - (void);
-- (id);
+- (id)7-4A6A-9CC6-4BCCA8B38C14:BlackMode /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *all; // @synthesize all=_all;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *authenticated; // @synthesize authenticated=_authenticated;
 @property(retain, nonatomic) CoreDAVHrefItem *href; // @synthesize href=_href;
-@property(retain, nonatomic) CoreDAVItem *property; // @synthesize property=_property;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *selfItem; // @synthesize selfItem=_selfItem;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *unauthenticated; // @synthesize unauthenticated=_unauthenticated;
 
 @end
 

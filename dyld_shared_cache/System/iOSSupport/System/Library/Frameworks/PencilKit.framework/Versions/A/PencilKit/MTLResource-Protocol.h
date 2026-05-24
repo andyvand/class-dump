@@ -5,26 +5,18 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLHeap;
+@protocol MTLHeap;
 
 @protocol MTLResource
 - (unsigned long long)2;
 - (unsigned long long)q24;
-- (unsigned long long)kView;
-- (void)tion;
+- (unsigned long long)hideFeedbackView;
+- (void)didBeginBrushSelection;
 - (unsigned long long)on;
 - (unsigned long long)ì;
 - (id <MTLHeap>);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface SCKStubContainer
 {
     _Bool _accountInfoSupportsDeviceToDeviceEncryption;
-    long long _modifyZonesErrorMode;
-    unsigned long long _modifyZonesOperationCount;
-    NSArray *_modifyZonesSavedZones;
-    long long _zoneChangesErrorMode;
-    CDUnknownBlockType _willFinishZoneChanges;
-    unsigned long long _zoneChangesOperationCount;
-    long long _modifyRecordsErrorMode;
-    CDUnknownBlockType _willModifyRecords;
-    unsigned long long _modifyRecordsOperationCount;
-    NSArray *_modifyRecordsSavedRecords;
-    unsigned long long _modifySubscriptionsOperationCount;
-    NSArray *_modifySubscriptionsSavedSubscriptions;
-    unsigned long long _databaseChangesOperationCount;
-    NSArray *_databaseChangesOperationChangedZoneIDs;
-    long long _accountInfoErrorMode;
-    NSMutableDictionary *_zoneContentsByZoneID;
 }
 
 - (id);
@@ -34,27 +18,27 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)=|;
+- (void)|;
+- (void)l;
+- (void)l;
+- (void)l;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)u;
 - (id);
+- (id);
+- (unsigned long long);
+- (long long)m;
+- (id);
+- (unsigned long long)m;
 - (id);
 - (unsigned long long);
 - (long long);
-- (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)l;
 - (_Bool);
 - (long long);
 - (id);
@@ -66,22 +50,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long accountInfoErrorMode; // @synthesize accountInfoErrorMode=_accountInfoErrorMode;
-@property(nonatomic) _Bool accountInfoSupportsDeviceToDeviceEncryption; // @synthesize accountInfoSupportsDeviceToDeviceEncryption=_accountInfoSupportsDeviceToDeviceEncryption;
-@property(copy, nonatomic) NSArray *databaseChangesOperationChangedZoneIDs; // @synthesize databaseChangesOperationChangedZoneIDs=_databaseChangesOperationChangedZoneIDs;
-@property(readonly, nonatomic) unsigned long long databaseChangesOperationCount; // @synthesize databaseChangesOperationCount=_databaseChangesOperationCount;
-@property(nonatomic) long long modifyRecordsErrorMode; // @synthesize modifyRecordsErrorMode=_modifyRecordsErrorMode;
-@property(readonly, nonatomic) unsigned long long modifyRecordsOperationCount; // @synthesize modifyRecordsOperationCount=_modifyRecordsOperationCount;
-@property(readonly, copy, nonatomic) NSArray *modifyRecordsSavedRecords; // @synthesize modifyRecordsSavedRecords=_modifyRecordsSavedRecords;
-@property(readonly, nonatomic) unsigned long long modifySubscriptionsOperationCount; // @synthesize modifySubscriptionsOperationCount=_modifySubscriptionsOperationCount;
-@property(readonly, copy, nonatomic) NSArray *modifySubscriptionsSavedSubscriptions; // @synthesize modifySubscriptionsSavedSubscriptions=_modifySubscriptionsSavedSubscriptions;
-@property(nonatomic) long long modifyZonesErrorMode; // @synthesize modifyZonesErrorMode=_modifyZonesErrorMode;
-@property(readonly, nonatomic) unsigned long long modifyZonesOperationCount; // @synthesize modifyZonesOperationCount=_modifyZonesOperationCount;
-@property(readonly, copy, nonatomic) NSArray *modifyZonesSavedZones; // @synthesize modifyZonesSavedZones=_modifyZonesSavedZones;
-@property(copy, nonatomic) CDUnknownBlockType willFinishZoneChanges; // @synthesize willFinishZoneChanges=_willFinishZoneChanges;
-@property(copy, nonatomic) CDUnknownBlockType willModifyRecords; // @synthesize willModifyRecords=_willModifyRecords;
-@property(nonatomic) long long zoneChangesErrorMode; // @synthesize zoneChangesErrorMode=_zoneChangesErrorMode;
-@property(readonly, nonatomic) unsigned long long zoneChangesOperationCount; // @synthesize zoneChangesOperationCount=_zoneChangesOperationCount;
 @property(retain, nonatomic) NSMutableDictionary *zoneContentsByZoneID; // @synthesize zoneContentsByZoneID=_zoneContentsByZoneID;
 
 @end

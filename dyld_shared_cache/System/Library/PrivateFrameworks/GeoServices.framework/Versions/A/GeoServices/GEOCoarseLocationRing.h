@@ -7,18 +7,16 @@
 @interface GEOCoarseLocationRing
 {
     struct GEOCoarseLocationPoint *_points;
-    unsigned long long _pointsCount;
-    unsigned long long _pointsSpace;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setHasNotMoving:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)initWithMessage:(id)arg1 makeAppFrontmost: /* Error: Ran out of types for this method. */;
+- (void)tionEvent failed (Not Ready) :(struct GEOCoarseLocationPoint *)arg1 %{public}d;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -28,14 +26,13 @@
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)teIdentifierAtIndex:(struct _NSZone *)arg1;
+- (id)routeIdentifierAtIndex:(struct _NSZone *)arg1;
 - (id)D]@`;
-- (id)gory;
+- (id)ratingCategory;
 - (id);
 - (struct GEOCoarseLocationPoint *)þ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct GEOCoarseLocationPoint *points;
 @property(readonly, nonatomic) unsigned long long pointsCount;
 
 @end

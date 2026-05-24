@@ -6,36 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, ODDSiriSchemaODDMANetworkAccessTypes;
+@class NSString;
 
 @interface ODDSiriSchemaODDMAErrorsDimensions : SISchemaInstrumentationMessage
 {
     NSString *_AssetSpecifier;
-    NSString *_AssetType;
-    NSString *_AssetVersion;
-    NSString *_Result;
-    _Bool _IsMAAutoAsset;
-    _Bool _IsDiscretionary;
-    _Bool _IsUserPriority;
-    int _operationType;
-    NSString *_operationFailureReason;
-    NSString *_operationResult;
-    ODDSiriSchemaODDMANetworkAccessTypes *_networkAccessType;
-    NSString *_subSystemName;
-    struct {
-        unsigned int IsMAAutoAsset:1;
-        unsigned int IsDiscretionary:1;
-        unsigned int IsUserPriority:1;
-        unsigned int operationType:1;
-    } _has;
-    _Bool _hasAssetSpecifier;
-    _Bool _hasAssetType;
-    _Bool _hasAssetVersion;
-    _Bool _hasResult;
-    _Bool _hasOperationFailureReason;
-    _Bool _hasOperationResult;
-    _Bool _hasNetworkAccessType;
-    _Bool _hasSubSystemName;
 }
 
 - (id);
@@ -51,59 +26,59 @@
 - (void);
 - (void);
 - (void);
+- (void)R;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool)@9*;
+- (_Bool);
+- (_Bool)4;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool)6;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)I;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)+&;
 - (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (unsigned long long)8;
 - (void);
 - (_Bool);
-- (id);
+- (void);
+- (_Bool);
+- (id);
 - (id)0@ù
 × ;
 - (_Bool)nContext";
 - (void)hScore"b1"lowestMatchScore"b1};
-- (void)ri:(_Bool)arg1;
-- (int)Score;
+- (void)setHasAppContactAffinityScoreForPhoneCallUsingSiri:(_Bool)arg1;
+- (int)odldScore;
 - (id)Ms;
 - (id)N,V_failed;
 - (void)ngReported;
@@ -113,30 +88,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *AssetSpecifier; // @synthesize AssetSpecifier=_AssetSpecifier;
-@property(copy, nonatomic) NSString *AssetType; // @synthesize AssetType=_AssetType;
-@property(copy, nonatomic) NSString *AssetVersion; // @synthesize AssetVersion=_AssetVersion;
-@property(nonatomic) _Bool IsDiscretionary; // @synthesize IsDiscretionary=_IsDiscretionary;
-@property(nonatomic) _Bool IsMAAutoAsset; // @synthesize IsMAAutoAsset=_IsMAAutoAsset;
-@property(nonatomic) _Bool IsUserPriority; // @synthesize IsUserPriority=_IsUserPriority;
-@property(copy, nonatomic) NSString *Result; // @synthesize Result=_Result;
-@property(nonatomic) _Bool hasAssetSpecifier; // @synthesize hasAssetSpecifier=_hasAssetSpecifier;
-@property(nonatomic) _Bool hasAssetType; // @synthesize hasAssetType=_hasAssetType;
-@property(nonatomic) _Bool hasAssetVersion; // @synthesize hasAssetVersion=_hasAssetVersion;
-@property(nonatomic) _Bool hasIsDiscretionary;
-@property(nonatomic) _Bool hasIsMAAutoAsset;
-@property(nonatomic) _Bool hasIsUserPriority;
-@property(nonatomic) _Bool hasNetworkAccessType; // @synthesize hasNetworkAccessType=_hasNetworkAccessType;
-@property(nonatomic) _Bool hasOperationFailureReason; // @synthesize hasOperationFailureReason=_hasOperationFailureReason;
-@property(nonatomic) _Bool hasOperationResult; // @synthesize hasOperationResult=_hasOperationResult;
-@property(nonatomic) _Bool hasOperationType;
-@property(nonatomic) _Bool hasResult; // @synthesize hasResult=_hasResult;
-@property(nonatomic) _Bool hasSubSystemName; // @synthesize hasSubSystemName=_hasSubSystemName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDMANetworkAccessTypes *networkAccessType; // @synthesize networkAccessType=_networkAccessType;
-@property(copy, nonatomic) NSString *operationFailureReason; // @synthesize operationFailureReason=_operationFailureReason;
-@property(copy, nonatomic) NSString *operationResult; // @synthesize operationResult=_operationResult;
-@property(nonatomic) int operationType; // @synthesize operationType=_operationType;
-@property(copy, nonatomic) NSString *subSystemName; // @synthesize subSystemName=_subSystemName;
 
 @end
 

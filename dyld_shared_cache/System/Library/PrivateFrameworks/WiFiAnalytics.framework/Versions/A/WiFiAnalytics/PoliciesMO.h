@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface PoliciesMO
 {
@@ -13,13 +13,10 @@
 + (unsigned long long);
 + (unsigned long long);
 + (id);
-- (_Bool);
+- (_Bool);;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(nonatomic) _Bool outcome; // @dynamic outcome;
-@property(copy, nonatomic) NSString *policyType; // @dynamic policyType;
-@property(copy, nonatomic) NSString *reasonForRunning; // @dynamic reasonForRunning;
 
 @end
 

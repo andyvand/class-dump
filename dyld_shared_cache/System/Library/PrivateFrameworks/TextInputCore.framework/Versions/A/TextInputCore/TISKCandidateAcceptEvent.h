@@ -6,22 +6,20 @@
 
 #import <TextInputCore/TISKEvent.h>
 
-@class NSString, TIKeyboardCandidate;
+@class TIKeyboardCandidate;
 
 __attribute__((visibility("hidden")))
 @interface TISKCandidateAcceptEvent : TISKEvent
 {
     _Bool _isAutocorrection;
-    TIKeyboardCandidate *_candidate;
-    NSString *_wordBucketCategory;
 }
 
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)unifiedContactsMatchingPredicate:(id)arg1 keysToFetch:error: /* Error: Ran out of types for this method. */;
+- (void)setCallUID:(_Bool)arg1;
+- (void)isEqualToNumber:(id)arg1;
 - (id);
-- (_Bool);
+- (_Bool)nishRecognitionWithError(_:) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -30,8 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardCandidate *candidate; // @synthesize candidate=_candidate;
-@property(nonatomic) _Bool isAutocorrection; // @synthesize isAutocorrection=_isAutocorrection;
-@property(retain, nonatomic) NSString *wordBucketCategory; // @synthesize wordBucketCategory=_wordBucketCategory;
 
 @end
 

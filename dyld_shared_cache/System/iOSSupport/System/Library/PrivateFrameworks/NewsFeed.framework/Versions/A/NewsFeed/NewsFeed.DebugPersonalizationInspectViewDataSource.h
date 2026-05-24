@@ -7,19 +7,6 @@
 @interface NewsFeed.DebugPersonalizationInspectViewDataSource
 {
     id name;
-    id placeholderImage;
-    id emptyImage;
-    id naImage;
-    id desiredItemIdentifiers;
-    id undesiredItemIdentifiers;
-    id feedItemIdentifierDict;
-    id nonVisibleItemIdentifiers;
-    id visibleItemIdentifiers;
-    id key;
-    id sections;
-    id feedItemImages;
-    id headlineService;
-    id recipeService;
 }
 
 @end

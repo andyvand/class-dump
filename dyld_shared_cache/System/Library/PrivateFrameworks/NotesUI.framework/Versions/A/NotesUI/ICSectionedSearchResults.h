@@ -4,45 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ICSectionedSearchResults
 {
     _Bool _disableAutomaticUpdates;
-    NSMutableDictionary *_searchResultsBySection;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (void);;
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (id)1;
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
@@ -51,11 +50,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)pe;
+- (void)activityType;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allSearchResults;
-@property(nonatomic) _Bool disableAutomaticUpdates; // @synthesize disableAutomaticUpdates=_disableAutomaticUpdates;
 @property(retain, nonatomic) NSMutableDictionary *searchResultsBySection; // @synthesize searchResultsBySection=_searchResultsBySection;
 
 @end

@@ -6,51 +6,27 @@
 
 #import <HomeKitDaemon/_MKFAction.h>
 
-@class MKFCharacteristicWriteActionDatabaseID, NSDate, NSNumber, NSObject, NSString, NSUUID;
-@protocol MKFActionSet, MKFHAPAccessory, MKFHome, MKFService;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFCharacteristicWriteAction : _MKFAction
 {
 }
 
-+ (id);
-+ (Class);
-+ (id);
++ (id)E;
++ (Class)!;
++ (id)!;
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)q;
 - (id);
 - (id)1Â0@ù
 × ;
 - (void)àçþM,~&àçþ=,~&¼ýþ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFHAPAccessory> accessory; // @dynamic accessory;
-@property(readonly, retain, nonatomic) id <MKFActionSet> actionSet;
 @property(copy, nonatomic) NSNumber *characteristicID; // @dynamic characteristicID;
-@property(readonly, copy, nonatomic) MKFCharacteristicWriteActionDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(retain, nonatomic) id <MKFService> service; // @dynamic service;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject *targetValue; // @dynamic targetValue;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

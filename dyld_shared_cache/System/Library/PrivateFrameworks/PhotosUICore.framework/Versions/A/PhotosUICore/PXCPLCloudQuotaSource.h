@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXCPLCloudQuotaSource
 {
     long long _state;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_actionTitle;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -30,10 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionTitle; // @synthesize actionTitle=_actionTitle;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

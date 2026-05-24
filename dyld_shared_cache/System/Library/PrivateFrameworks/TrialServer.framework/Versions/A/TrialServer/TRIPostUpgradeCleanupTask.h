@@ -6,8 +6,7 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSMutableSet, NSString;
-@protocol TRITaskQueueStateProviding;
+@class NSMutableSet;
 
 @interface TRIPostUpgradeCleanupTask : TRIBaseTask
 {
@@ -17,14 +16,14 @@
 + (id);
 + (id);
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)inputImageForRenderScale:(id)arg1;
+- (_Bool)initialDurationMultiplier;
+- (_Bool)initWithOriginalVideoURL:(id)arg1 fullSizeRenderedVideoURL:adjustmentBaseVideoURL:spatialOvercaptureVideoURL:adjustmentsURL:originalAdjustmentsURL:mediaSubtypes:playbackStyle:playbackVariation: /* Error: Ran out of types for this method. */;
+- (id)ectedObjectsInfoHumanBodies:(int)arg1 detectedObjectsInfoCatBodies:detectedObjectsInfoDogBodies:detectedObjectsSalientObjects:smartCamInfo:stitchConfidence:horizonLinePresent:horizonLineAngleInDegrees:captureFolderPath:semanticDevelopmentGatingObservations:faceObservations:torsoprints:foodAndDrinkObservations:semanticEnhanceScene:contactIDsInProximity:sharedLibraryMode: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithImageURL:(id)arg1 contentType:timeZoneLookup: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithImageURL:(id)arg1 contentType:options:timeZoneLookup:cacheImageSource:cacheImageData: /* Error: Ran out of types for this method. */;
+- (_Bool)initForReadingFromData:(id)arg1 error:(id)arg2;
+- (id)tring:(id)arg1 %@;
 - (id);
 - (void);
 - (void);
@@ -33,18 +32,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
 @property(readonly, nonatomic) int taskType;
 
 @end

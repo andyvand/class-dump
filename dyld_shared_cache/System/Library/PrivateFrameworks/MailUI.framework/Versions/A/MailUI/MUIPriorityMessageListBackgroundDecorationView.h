@@ -9,8 +9,8 @@
 }
 
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)HMIFaceprint;
 
 @end
 

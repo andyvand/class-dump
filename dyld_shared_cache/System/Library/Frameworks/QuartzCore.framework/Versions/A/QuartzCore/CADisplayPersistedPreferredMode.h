@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CADisplayPersistedPreferredMode
 {
     NSString *_uuid;
-    NSDictionary *_mode;
 }
 
 + (_Bool);
 - (void);
+- (id);
 - (id);
+- (id))q;
+- (void)P;
+- (void)t;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *mode; // @synthesize mode=_mode;
 @property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

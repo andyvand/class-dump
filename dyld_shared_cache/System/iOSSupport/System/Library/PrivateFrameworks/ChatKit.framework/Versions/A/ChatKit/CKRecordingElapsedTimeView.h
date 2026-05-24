@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateComponentsFormatter, NSTimer, UILabel, UIView;
+@class NSDateComponentsFormatter;
 
 __attribute__((visibility("hidden")))
 @interface CKRecordingElapsedTimeView
 {
     NSDateComponentsFormatter *__durationFormatter;
-    UILabel *__timeLabel;
-    UIView *__recordingDotView;
-    NSTimer *__updateTimer;
-    NSDate *__startTime;
 }
 
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
+- (id)ebody** added a note;
+- (id)icationState == %@;
+- (void)Crypto;
+- (id)ICNoteSectionTypeNotes;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (struct CGSize)(@@y@;
+- (id);
+- (void);
+- (void);
+- (id)ic}@ %p:(struct CGRect)arg1 %{private}@;
 - (id);
 - (void);
 - (void)y<;
@@ -37,10 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateComponentsFormatter *_durationFormatter; // @synthesize _durationFormatter=__durationFormatter;
-@property(readonly, nonatomic) UIView *_recordingDotView; // @synthesize _recordingDotView=__recordingDotView;
-@property(readonly, nonatomic) NSDate *_startTime; // @synthesize _startTime=__startTime;
-@property(readonly, nonatomic) UILabel *_timeLabel; // @synthesize _timeLabel=__timeLabel;
-@property(readonly, nonatomic) NSTimer *_updateTimer; // @synthesize _updateTimer=__updateTimer;
 
 @end
 

@@ -6,18 +6,10 @@
 
 #import <UIKitMacHelper/UINSApplicationSettingsDefaultsSettingsNode.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UINSApplicationSettingsRangeButtonNode : UINSApplicationSettingsDefaultsSettingsNode
 {
     id _minimumValue;
-    id _maximumValue;
-    id _incrementImageName;
-    id _decrementImageName;
-    NSString *_localizedIncrementToolTip;
-    NSString *_localizedDecrementToolTip;
-    NSString *_localizedFooter;
 }
 
 - (id);
@@ -27,17 +19,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)registerModelUpdatingActivity;
 - (void);
 - (id)umContentSizeForWindowOnScreen:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id decrementImageName; // @synthesize decrementImageName=_decrementImageName;
-@property(readonly, nonatomic) id incrementImageName; // @synthesize incrementImageName=_incrementImageName;
-@property(readonly, nonatomic) NSString *localizedDecrementToolTip; // @synthesize localizedDecrementToolTip=_localizedDecrementToolTip;
-@property(readonly, nonatomic) NSString *localizedFooter; // @synthesize localizedFooter=_localizedFooter;
-@property(readonly, nonatomic) NSString *localizedIncrementToolTip; // @synthesize localizedIncrementToolTip=_localizedIncrementToolTip;
-@property(readonly, nonatomic) id maximumValue; // @synthesize maximumValue=_maximumValue;
 @property(readonly, nonatomic) id minimumValue; // @synthesize minimumValue=_minimumValue;
 
 @end

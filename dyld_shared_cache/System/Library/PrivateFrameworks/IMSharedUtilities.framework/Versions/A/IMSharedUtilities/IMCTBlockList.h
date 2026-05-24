@@ -11,7 +11,7 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)tion.success;
 - (void)framework/FamilyCircle;
 
 @end

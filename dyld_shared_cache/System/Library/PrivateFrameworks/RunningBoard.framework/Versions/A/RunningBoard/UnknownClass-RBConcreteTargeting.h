@@ -7,8 +7,8 @@
 @interface UnknownClass (RBConcreteTargeting)
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)n that does not support security layers;
+- (id)calculationDefaultValue:calculationDependencies:bucketThresholds:bucketValues: /* Error: Ran out of types for this method. */;
 - (id);
 @end
 

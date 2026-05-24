@@ -6,13 +6,13 @@
 
 @interface UnknownClass (AKExtensions)
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)kAccessoryCertificationStatusKey;
 @end
 

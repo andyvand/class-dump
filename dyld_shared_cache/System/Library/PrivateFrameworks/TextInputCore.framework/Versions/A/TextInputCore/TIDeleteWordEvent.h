@@ -6,48 +6,38 @@
 
 #import <TextInputCore/TIUserAction.h>
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface TIDeleteWordEvent : TIUserAction
 {
     NSMutableArray *_allKeyboardInputsM;
-    NSMutableArray *_allTouchesM;
-    NSMutableArray *_candidatesOfferedM;
-    NSMutableArray *_touchLayoutsM;
 }
 
-+ (_Bool);
++ (_Bool);
+- (id)ng initial text because it looks like garbage:%@ /* Error: Ran out of types for this method. */;
+- (id)to database;
+- (void)e messages:(id)arg1 %@;
+- (void)RPCompanionLinkClient"8Q16^B24;
+- (void)ttyIMSSupported;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)c;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)0x%llx) with length 0;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allKeyboardInputs;
 @property(retain, nonatomic) NSMutableArray *allKeyboardInputsM; // @synthesize allKeyboardInputsM=_allKeyboardInputsM;
-@property(readonly, nonatomic) NSArray *allTouches;
-@property(retain, nonatomic) NSMutableArray *allTouchesM; // @synthesize allTouchesM=_allTouchesM;
-@property(readonly, nonatomic) NSArray *candidatesOffered;
-@property(retain, nonatomic) NSMutableArray *candidatesOfferedM; // @synthesize candidatesOfferedM=_candidatesOfferedM;
-@property(readonly, nonatomic) NSArray *touchLayouts;
-@property(retain, nonatomic) NSMutableArray *touchLayoutsM; // @synthesize touchLayoutsM=_touchLayoutsM;
 
 @end
 

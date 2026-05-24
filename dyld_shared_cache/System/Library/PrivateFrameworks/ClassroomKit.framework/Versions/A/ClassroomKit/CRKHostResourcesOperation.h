@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKHostResourcesConfiguration, NSDictionary, NSError, NSMutableDictionary, NSMutableSet, NSNetService, NSString;
-@protocol CRKHostResourcesOperationDelegate;
+@class CRKHostResourcesConfiguration;
 
 @interface CRKHostResourcesOperation
 {
     CRKHostResourcesConfiguration *mConfiguration;
-    NSDictionary *mFileURLsByFilePath;
-    NSMutableDictionary *mStartedDownloadCountByFileURL;
-    NSMutableDictionary *mFinishedDownloadCountByFileURL;
-    NSNetService *mNetService;
-    NSMutableSet *mConnections;
-    _Bool mPublished;
-    NSMutableSet *mConnectionCloseTimers;
-    NSError *mStashedError;
-    NSMutableDictionary *mZipOperationsByDirectoryURL;
-    _Bool _observingIPAddress;
-    id <CRKHostResourcesOperationDelegate> _delegate;
 }
 
 - (void);
@@ -50,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)g;
 - (void);
 - (void);
 - (void);
@@ -58,19 +46,11 @@
 - (void);
 - (id);
 - (void);
-- (void)ryingToSecure: /* Error: Ran out of types for this method. */;
+- (void)transport:encounteredTrustDecisionWhileTryingToSecure: /* Error: Ran out of types for this method. */;
 - (_Bool)4¦;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CRKHostResourcesOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isObservingIPAddress) _Bool observingIPAddress; // @synthesize observingIPAddress=_observingIPAddress;
-@property(readonly) Class superclass;
 
 @end
 

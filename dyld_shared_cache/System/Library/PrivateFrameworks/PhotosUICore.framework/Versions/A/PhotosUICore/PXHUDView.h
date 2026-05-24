@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSStackView;
+@class NSMapTable;
 
 @interface PXHUDView
 {
     NSMapTable *_visualizationToView;
-    NSStackView *_stackView;
 }
 
-+ (Class);
++ (Class)j!;
 - (id);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
 @property(retain, nonatomic) NSMapTable *visualizationToView; // @synthesize visualizationToView=_visualizationToView;
 
 @end

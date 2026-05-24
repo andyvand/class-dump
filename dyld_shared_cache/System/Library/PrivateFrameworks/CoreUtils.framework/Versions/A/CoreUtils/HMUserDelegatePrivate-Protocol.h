@@ -5,5 +5,11 @@
 //
 
 @protocol HMUserDelegatePrivate
+
+@optional
+- (void);
+- (void){;
+- (void)0;
+- (void)filename (prefix, UNK_DIC_FILE).c_str());
 @end
 

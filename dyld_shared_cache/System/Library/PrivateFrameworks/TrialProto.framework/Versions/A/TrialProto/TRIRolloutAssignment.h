@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface TRIRolloutAssignment : TRIPBMessage
 {
@@ -15,12 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *factorPackIdArray; // @dynamic factorPackIdArray;
-@property(readonly, nonatomic) unsigned long long factorPackIdArray_Count; // @dynamic factorPackIdArray_Count;
-@property(copy, nonatomic) NSString *factorPackSetId; // @dynamic factorPackSetId;
-@property(nonatomic) _Bool hasFactorPackSetId; // @dynamic hasFactorPackSetId;
 @property(retain, nonatomic) NSMutableArray *predicateArray; // @dynamic predicateArray;
-@property(readonly, nonatomic) unsigned long long predicateArray_Count; // @dynamic predicateArray_Count;
 
 @end
 

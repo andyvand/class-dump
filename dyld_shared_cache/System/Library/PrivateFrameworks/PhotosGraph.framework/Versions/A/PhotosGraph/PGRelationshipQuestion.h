@@ -6,16 +6,9 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGRelationshipQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    unsigned short _displayType;
-    unsigned short _entityType;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
@@ -27,8 +20,8 @@
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)cForYou;
-- (void)ecurrent;
+- (id)includeGetUpMixInMusicForYou;
+- (void)TripRecurrent;
 
 @end
 

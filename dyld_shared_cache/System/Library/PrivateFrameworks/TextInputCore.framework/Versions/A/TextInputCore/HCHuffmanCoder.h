@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HCBurstTrie, HCIndexTable, NSUUID;
+@class HCBurstTrie;
 
 __attribute__((visibility("hidden")))
 @interface HCHuffmanCoder
 {
     HCBurstTrie *_burstTrie;
-    HCIndexTable *_indexTable;
 }
 
++ (id)addChild:(id)arg1 withPendingUnitCount: /* Error: Ran out of types for this method. */;
++ (id)hUIWatchListCardsManager";
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
+- (id)told us:%@ /* Error: Ran out of types for this method. */;
+- (id)AudioCategory;
 - (void);
 - (void);
 - (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)ɖ;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) HCBurstTrie *burstTrie; // @synthesize burstTrie=_burstTrie;
-@property(readonly, nonatomic) unsigned long long count;
-@property(retain, nonatomic) HCIndexTable *indexTable; // @synthesize indexTable=_indexTable;
-@property(readonly, nonatomic) NSUUID *versionUUID;
 
 @end
 

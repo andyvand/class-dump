@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSMutableDictionary, NSObject, NSString, PowerUITrialManager;
-@protocol OS_os_log, _CDLocalContext;
+@class NSString;
 
 @interface PowerUIMLRelevantDrainPredictor
 {
     struct os_unfair_lock_s _loadModelLock;
-    MLModel *_relevantDrainPredictorModel;
-    double _threshold;
-    NSString *_defaultsDomain;
-    id <_CDLocalContext> _context;
-    PowerUITrialManager *_trialManager;
-    NSObject<OS_os_log> *_log;
-    NSMutableDictionary *_modelCache;
 }
 
 - (void);
@@ -26,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (struct os_unfair_lock_s);
+- (struct os_unfair_lock_s);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -46,14 +38,7 @@
 - (double)' HH:mm /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
 @property(retain, nonatomic) NSString *defaultsDomain; // @synthesize defaultsDomain=_defaultsDomain;
-@property(nonatomic) struct os_unfair_lock_s loadModelLock; // @synthesize loadModelLock=_loadModelLock;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSMutableDictionary *modelCache; // @synthesize modelCache=_modelCache;
-@property(readonly, retain, nonatomic) MLModel *relevantDrainPredictorModel; // @synthesize relevantDrainPredictorModel=_relevantDrainPredictorModel;
-@property(nonatomic) double threshold; // @synthesize threshold=_threshold;
-@property(retain, nonatomic) PowerUITrialManager *trialManager; // @synthesize trialManager=_trialManager;
 
 @end
 

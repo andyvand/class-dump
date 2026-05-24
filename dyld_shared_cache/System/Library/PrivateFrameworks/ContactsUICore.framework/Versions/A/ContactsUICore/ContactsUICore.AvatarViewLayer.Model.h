@@ -7,11 +7,10 @@
 @interface ContactsUICore.AvatarViewLayer.Model
 {
     id spec;
-    id layer;
 }
 
 - (id);
-- (void);
+- (void)scope;
 
 @end
 

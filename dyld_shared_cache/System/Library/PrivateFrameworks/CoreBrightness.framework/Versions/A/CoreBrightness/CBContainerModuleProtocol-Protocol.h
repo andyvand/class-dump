@@ -5,5 +5,7 @@
 //
 
 @protocol CBContainerModuleProtocol
+- (id)/Versions/A/ColorSyncLegacy;
+- (void)b;
 @end
 

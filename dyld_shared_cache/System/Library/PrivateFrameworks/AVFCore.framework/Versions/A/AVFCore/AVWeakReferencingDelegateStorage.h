@@ -10,24 +10,21 @@
 @interface AVWeakReferencingDelegateStorage
 {
     NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    id _weakDelegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
-+ (void);
++ (void)AVAssetDownloadSessionCachePrimingDownloadTokenKey;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)#!Lħ;
 - (void);
 - (void);
 - (void)taggedBufferOutputs;
 
 // Remaining properties
 @property(readonly, nonatomic) id delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
 
 @end
 

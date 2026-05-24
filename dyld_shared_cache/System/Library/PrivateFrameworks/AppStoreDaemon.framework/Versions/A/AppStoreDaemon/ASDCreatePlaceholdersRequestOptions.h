@@ -6,13 +6,9 @@
 
 #import <AppStoreDaemon/ASDRequestOptions.h>
 
-@class NSArray;
-
 @interface ASDCreatePlaceholdersRequestOptions : ASDRequestOptions
 {
     _Bool _completeDataPromise;
-    _Bool _createAsMobileBackup;
-    NSArray *_items;
 }
 
 - (void);
@@ -21,13 +17,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)nt event tracking;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool completeDataPromise; // @synthesize completeDataPromise=_completeDataPromise;
-@property(nonatomic) _Bool createAsMobileBackup; // @synthesize createAsMobileBackup=_createAsMobileBackup;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 
 @end
 

@@ -11,13 +11,13 @@
     double _quantity;
 }
 
-+ (_Bool);
-- (id);
-- (void);
++ (_Bool)_delegate_performWalrusValidationForAccount:completion: /* Error: Ran out of types for this method. */;
+- (id).;
+- (void)l2_write_intra_conflict_count;
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)s;
 - (void);
 - (id);
 - (id);

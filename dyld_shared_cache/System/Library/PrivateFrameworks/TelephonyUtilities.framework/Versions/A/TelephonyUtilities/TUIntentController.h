@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)strictDialRequest:performSynchronously: /* Error: Ran out of types for this method. */;
+- (id)i;
+- (void)shouldRestrictDialRequest:performSynchronously: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <TUHandleContactProvider> contactProvider; // @synthesize contactProvider=_contactProvider;

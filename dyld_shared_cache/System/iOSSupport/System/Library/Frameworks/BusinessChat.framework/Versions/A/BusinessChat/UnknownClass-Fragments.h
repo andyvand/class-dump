@@ -10,6 +10,9 @@
 - (id);
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: Fragments
+// Property attributes: |E
+
 @property(readonly, copy, nonatomic) NSDictionary *fragments;
 @end
 

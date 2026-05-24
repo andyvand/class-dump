@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface LPPadding
 {
     LPPointUnit *_top;
-    LPPointUnit *_leading;
-    LPPointUnit *_bottom;
-    LPPointUnit *_trailing;
 }
 
 - (void);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets);
 - (id);
 - (id);
-- (void);
+- (void)visorE;
 - (id);
 - (id);
 - (id);
@@ -30,10 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) LPPointUnit *bottom; // @synthesize bottom=_bottom;
-@property(retain, nonatomic) LPPointUnit *leading; // @synthesize leading=_leading;
 @property(retain, nonatomic) LPPointUnit *top; // @synthesize top=_top;
-@property(retain, nonatomic) LPPointUnit *trailing; // @synthesize trailing=_trailing;
 
 @end
 

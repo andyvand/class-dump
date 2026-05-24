@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) long long minimumNewsVersion;
 @end
 

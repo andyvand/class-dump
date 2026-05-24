@@ -9,46 +9,36 @@
 @interface GEOInterpolationParameters
 {
     PBUnknownFields *_unknownFields;
-    double _fractionalDistance;
-    unsigned int _sideOfLine;
-    struct {
-        unsigned int has_fractionalDistance:1;
-        unsigned int has_sideOfLine:1;
-    } _flags;
 }
 
-+ (_Bool)nt:(id)arg1;
++ (_Bool)setHasRouteStopCount:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (double);
+- (_Bool)d16@?24;
+- (_Bool)roundNumber:usingSignificantDigits: /* Error: Ran out of types for this method. */;
+- (double)initWithAuxiliaryValues:transform: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@16@24@32^v40;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)ePlateTemplate:(struct _NSZone *)arg1;
-- (id)Notification;
+- (id)setLicensePlateTemplate:(struct _NSZone *)arg1;
+- (id)GEORPFeedbackNotification;
 - (id)ed to archive_read_data_block():%s /* Error: Ran out of types for this method. */;
 - (id)à;
 - (void)¸4;
 
 // Remaining properties
-@property(nonatomic) double fractionalDistance;
 @property(nonatomic) _Bool hasFractionalDistance;
-@property(nonatomic) _Bool hasSideOfLine;
-@property(nonatomic) unsigned int sideOfLine;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

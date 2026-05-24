@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDLabelGeometry
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_labelShapes;
-    _Bool _hasSelectionPolygon;
-    struct {
-        unsigned int has_hasSelectionPolygon:1;
-    } _flags;
 }
 
-+ (id);
++ (id)ncent and the Grenadines;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)rameters";
-- (id)aCurrent;
+- (id)_existingCachedDataCurrent;
 - (id)0bc;
 - (void)Clë?Ù=yXîg@;
 

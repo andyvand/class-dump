@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TColumnPreviewViewController : FI_TBaseInfoWindowViewController
 {
     FI_TColumnQLPreviewViewController *_qlPreviewViewController;
-    struct TNSWeakPtr<NSLayoutConstraint> _maxRelativeHeightConstraint;
-    struct TNSWeakPtr<NSLayoutConstraint> _heightHintConstraint;
 }
 
 - (void);
@@ -23,12 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (struct TFENode);
-- (id);
+- (id);
 - (void)È;
 
 // Remaining properties
 @property(nonatomic, getter=isApplicableToUI) _Bool applicableToUI;
-@property(nonatomic) struct TFENode browserTargetNode;
 
 @end
 

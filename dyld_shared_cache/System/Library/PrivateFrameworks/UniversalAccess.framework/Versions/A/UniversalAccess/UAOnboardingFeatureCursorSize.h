@@ -10,27 +10,21 @@ __attribute__((visibility("hidden")))
 @interface UAOnboardingFeatureCursorSize : UAOnboardingSelectFromOptionsFeature
 {
     double __smallestCursorSize;
-    double __smallCursorSize;
-    double __bigCursorSize;
-    double __biggestCursorSize;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (double);
-- (double);
-- (double);
-- (double);
+- (void)?="tokensPerSecond"b1"responseTokensCount"b1"kbPerSecond"b1"responseKbCount"b1"imagePerSecond"b1"imageCount"b1"timeToFirstTokenInSeconds"b1"timeToLastTokenInSeconds"b1"responseCharactersCount"b1"responseTimeInMilliseconds"b1};
+- (void)ntStarted";
+- (void)1};
+- (void)ngEventStarted";
+- (void)d"b1};
+- (long long)Request"b1};
+- (double)ier1";
+- (double)"FLOWSchemaFLOWMapsExecutionTier1";
+- (double)sult"b1};
+- (double)sult"b1"isPreciseLocationResult"b1};
 - (id);
 
 // Remaining properties
-@property(nonatomic) double _bigCursorSize; // @synthesize _bigCursorSize=__bigCursorSize;
-@property(nonatomic) double _biggestCursorSize; // @synthesize _biggestCursorSize=__biggestCursorSize;
-@property(nonatomic) double _smallCursorSize; // @synthesize _smallCursorSize=__smallCursorSize;
 @property(nonatomic) double _smallestCursorSize; // @synthesize _smallestCursorSize=__smallestCursorSize;
 
 @end

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MailIntelligencePETContactEvents, NSString;
+@class NSString;
 
 @interface MailIntelligencePETMailIntelligenceAnalysisEvent
 {
     unsigned long long _mailIntelligenceUserId;
-    int _batch;
-    NSString *_collectionId;
-    MailIntelligencePETContactEvents *_contactEvents;
-    NSString *_sessionId;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)U~;
 - (void);
 - (unsigned long long);
 - (id);
@@ -29,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
+- (void)econdition Failed;
 - (id);
 - (id);
 - (void);
@@ -38,11 +34,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) int batch; // @synthesize batch=_batch;
 @property(retain, nonatomic) NSString *collectionId; // @synthesize collectionId=_collectionId;
-@property(retain, nonatomic) MailIntelligencePETContactEvents *contactEvents; // @synthesize contactEvents=_contactEvents;
-@property(nonatomic) unsigned long long mailIntelligenceUserId; // @synthesize mailIntelligenceUserId=_mailIntelligenceUserId;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
 
 @end
 

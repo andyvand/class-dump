@@ -4,57 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITargetedPreview, UIViewPropertyAnimator, _UIContextMenuAnimator, _UIContextMenuUIController;
+@class UITargetedPreview;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuPresentationAnimation
 {
     _Bool _isDismissTransition;
-    UITargetedPreview *_sourcePreview;
-    _UIContextMenuUIController *_uiController;
-    _UIContextMenuAnimator *_presentationAlongsideAnimator;
-    _UIContextMenuAnimator *_dismissalAlongsideAnimator;
-    unsigned long long _dismissalStyle;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
+- (void)nversationMember"24@"TUConversationLink"32;
+- (void)updatePendingIncomingSatelliteMessageCount:(_Bool)arg1;
+- (void)setSubscriptionValidationTokenByHandleIDCache:(unsigned long long)arg1;
+- (void)setStrugglingMessageIndicationSent:(id)arg1;
+- (void)originalTimestamp;
+- (id)initWithImageName:imageFilePath:contentIsSensitive: /* Error: Ran out of types for this method. */;
+- (void)initWithGUIDString:(id)arg1 sender:metadata:date:dateViewed: /* Error: Ran out of types for this method. */;
+- (void)handleMarkAsReviewedCommandWithPipeline:(id)arg1 input:(id)arg2 completionBlock:(id)arg3;
+- (void)handleIncomingNoticeProtobuf:service:account:fromID:context: /* Error: Ran out of types for this method. */;
+- (_Bool)addObserver:selector:key: /* Error: Ran out of types for this method. */;
+- (id)iceType:(id)arg1;
+- (unsigned long long)devices;
+- (id)ults",&,N,V_sharedDefaultsInstance;
 - (id);
 - (void);
 - (void)Ì/];
 - (_Bool)lÍIÿG;
 
 // Remaining properties
-@property(readonly, nonatomic) UIViewPropertyAnimator *customAnimator;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIViewPropertyAnimator",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIContextMenuAnimator *dismissalAlongsideAnimator; // @synthesize dismissalAlongsideAnimator=_dismissalAlongsideAnimator;
-@property(nonatomic) unsigned long long dismissalStyle; // @synthesize dismissalStyle=_dismissalStyle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDismissTransition; // @synthesize isDismissTransition=_isDismissTransition;
-@property(retain, nonatomic) _UIContextMenuAnimator *presentationAlongsideAnimator; // @synthesize presentationAlongsideAnimator=_presentationAlongsideAnimator;
 @property(copy, nonatomic) UITargetedPreview *sourcePreview; // @synthesize sourcePreview=_sourcePreview;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UIContextMenuUIController *uiController; // @synthesize uiController=_uiController;
 
 @end
 

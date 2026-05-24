@@ -9,10 +9,6 @@
 @interface MTL4RenderPipelineBinaryFunctionsDescriptor
 {
     NSArray *_vertexAdditionalBinaryFunctions;
-    NSArray *_fragmentAdditionalBinaryFunctions;
-    NSArray *_tileAdditionalBinaryFunctions;
-    NSArray *_objectAdditionalBinaryFunctions;
-    NSArray *_meshAdditionalBinaryFunctions;
 }
 
 - (id);
@@ -25,18 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)kCIImageProviderTileHeightArray;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *fragmentAdditionalBinaryFunctions; // @synthesize fragmentAdditionalBinaryFunctions=_fragmentAdditionalBinaryFunctions;
-@property(copy, nonatomic) NSArray *meshAdditionalBinaryFunctions; // @synthesize meshAdditionalBinaryFunctions=_meshAdditionalBinaryFunctions;
-@property(copy, nonatomic) NSArray *objectAdditionalBinaryFunctions; // @synthesize objectAdditionalBinaryFunctions=_objectAdditionalBinaryFunctions;
-@property(copy, nonatomic) NSArray *tileAdditionalBinaryFunctions; // @synthesize tileAdditionalBinaryFunctions=_tileAdditionalBinaryFunctions;
 @property(copy, nonatomic) NSArray *vertexAdditionalBinaryFunctions; // @synthesize vertexAdditionalBinaryFunctions=_vertexAdditionalBinaryFunctions;
 
 @end

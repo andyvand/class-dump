@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContactEventTrigger, _INPBDataString, _INPBDateTime, _INPBSpatialEventTrigger, _INPBTemporalEventTrigger;
+@class NSString, _INPBContactEventTrigger, _INPBDateTime, _INPBTemporalEventTrigger;
 
 @protocol _INPBTask
-- (void)lEventTriggerTypesForSearchForNotebookItems:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
-- (int)outCustomization;
-- (int)ile:withCompletion: /* Error: Ran out of types for this method. */;
-- (int)tionForCreateEvent:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBTemporalEventTrigger *);
+- (NSString *);
+- (int),;
+- (void)4Ai;
+- (void);
+- (_Bool)Aj;
+- (_INPBDateTime *)!;
+- (void)_serverPortToNotificationCenterMapDispatchQueue;
+- (_Bool)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
+- (int);
+- (NSString *);
+- (void)resolveTemporalEventTriggerTypesForSearchForNotebookItems:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (int)INWorkoutCustomization;
+- (int)providePropertiesOptionsCollectionForMoveFile:withCompletion: /* Error: Ran out of types for this method. */;
+- (int)provideDateTimeRangeOptionsCollectionForCreateEvent:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBContactEventTrigger *contactEventTrigger;
-@property(retain, nonatomic) _INPBDateTime *createdDateTime;
-@property(readonly, nonatomic) _Bool hasContactEventTrigger;
-@property(readonly, nonatomic) _Bool hasCreatedDateTime;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasModifiedDateTime;
-@property(readonly, nonatomic) _Bool hasParentIdentifier;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasSpatialEventTrigger;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool hasTaskReference;
-@property(nonatomic) _Bool hasTaskType;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(copy, nonatomic) NSString *identifier;
-@property(retain, nonatomic) _INPBDateTime *modifiedDateTime;
-@property(copy, nonatomic) NSString *parentIdentifier;
-@property(nonatomic) int priority;
-@property(retain, nonatomic) _INPBSpatialEventTrigger *spatialEventTrigger;
-@property(nonatomic) int status;
-@property(nonatomic) int taskReference;
-@property(nonatomic) int taskType;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger;
-@property(retain, nonatomic) _INPBDataString *title;
 @end
 

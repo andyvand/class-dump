@@ -6,38 +6,21 @@
 
 #import <CoreWiFi/CWFInterface.h>
 
-@class BSServiceConnection, CWFCloudSyncManager, CWFKeyValueStore, CWFNearbySyncManager, CWFWiFiNetworkSharingClientID, NSArray, NSObject, NSString, UNNotificationRequest, UNUserNotificationCenter;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CWFWiFiUserAgent : CWFInterface
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    CWFCloudSyncManager *_cloudSyncManager;
-    CWFNearbySyncManager *_nearbySyncManager;
-    CWFKeyValueStore *_recentlyRemovedNetworkKVS;
-    CWFKeyValueStore *_nearbyRecommendedNetworksKVS;
-    NSArray *_nearbyRecommendedNetworks;
-    NSObject<OS_dispatch_source> *_nearbyRecommendedNetworksExpirationTimer;
-    NSObject<OS_dispatch_source> *_captiveCredentialsExpirationTimer;
-    CDUnknownBlockType _allowCloudSyncableNetworkHandler;
-    CDUnknownBlockType _allowNearbySyncableNetworkHandler;
-    UNNotificationRequest *_askToShareUserNotificationRequest;
-    UNUserNotificationCenter *_userNotificationCenter;
-    CDUnknownBlockType _presentAskToShareUserNotificationCompletionHandler;
-    BSServiceConnection *_launchAngelConnection;
-    CWFWiFiNetworkSharingClientID *_askToShareProxCardClientID;
-    CDUnknownBlockType _presentAskToShareProxCardCompletionHandler;
-    CDUnknownBlockType _presentAuthorizationProxCardCompletionHandler;
-    CWFWiFiNetworkSharingClientID *_authorizationProxCardClientID;
 }
 
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -48,7 +31,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -58,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,7 +52,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void)J!;
 - (id);
 - (void);
 - (void);
@@ -79,24 +62,7 @@
 - (void)]_block_invoke_2;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType allowCloudSyncableNetworkHandler; // @synthesize allowCloudSyncableNetworkHandler=_allowCloudSyncableNetworkHandler;
-@property(copy) CDUnknownBlockType allowNearbySyncableNetworkHandler; // @synthesize allowNearbySyncableNetworkHandler=_allowNearbySyncableNetworkHandler;
-@property(copy) CWFWiFiNetworkSharingClientID *askToShareProxCardClientID; // @synthesize askToShareProxCardClientID=_askToShareProxCardClientID;
-@property(copy) UNNotificationRequest *askToShareUserNotificationRequest; // @synthesize askToShareUserNotificationRequest=_askToShareUserNotificationRequest;
-@property(copy) CWFWiFiNetworkSharingClientID *authorizationProxCardClientID; // @synthesize authorizationProxCardClientID=_authorizationProxCardClientID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) BSServiceConnection *launchAngelConnection; // @synthesize launchAngelConnection=_launchAngelConnection;
 @property(copy) NSArray *nearbyRecommendedNetworks; // @dynamic nearbyRecommendedNetworks;
-@property(copy) CDUnknownBlockType presentAskToShareProxCardCompletionHandler; // @synthesize presentAskToShareProxCardCompletionHandler=_presentAskToShareProxCardCompletionHandler;
-@property(copy) CDUnknownBlockType presentAskToShareUserNotificationCompletionHandler; // @synthesize presentAskToShareUserNotificationCompletionHandler=_presentAskToShareUserNotificationCompletionHandler;
-@property(copy) CDUnknownBlockType presentAuthorizationProxCardCompletionHandler; // @synthesize presentAuthorizationProxCardCompletionHandler=_presentAuthorizationProxCardCompletionHandler;
-@property(readonly) Class superclass;
-@property(retain) UNUserNotificationCenter *userNotificationCenter; // @synthesize userNotificationCenter=_userNotificationCenter;
 
 @end
 

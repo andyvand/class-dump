@@ -7,7 +7,6 @@
 @interface IDSFoundation.IDSLinkSelectionLifecycle
 {
     id tags;
-    id didSelectLinksHook;
 }
 
 @end

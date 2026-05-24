@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKBCBPBarcodeFlight
 {
     NSString *_passengerName;
-    NSArray *_legs;
 }
 
 + (_Bool)0@ù
@@ -22,12 +21,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasConnectionTimeInMs;
 - (void);
 - (void)ransaction.end.incompatible;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *legs; // @synthesize legs=_legs;
 @property(readonly, copy, nonatomic) NSString *passengerName; // @synthesize passengerName=_passengerName;
 
 @end

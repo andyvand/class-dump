@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface PKEncryptedPaymentSetupFieldSubmissionContainer
 {
     NSString *_value;
-    unsigned long long _format;
-    NSString *_encryptionScheme;
-    NSArray *_encryptionCertificates;
-    NSData *_nonce;
-    NSData *_transactionId;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)+);
 - (id);
 - (void);
 - (void);
@@ -26,16 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long)tOfType:containingPassUniqueIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)requestStateOfRelevancyPresentmentOfType:containingPassUniqueIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (void)deviceIdentifier;
-- (id)FrontImage;
+- (id)documentFrontImage;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *encryptionCertificates; // @synthesize encryptionCertificates=_encryptionCertificates;
-@property(readonly, nonatomic) NSString *encryptionScheme; // @synthesize encryptionScheme=_encryptionScheme;
-@property(readonly, nonatomic) unsigned long long format; // @synthesize format=_format;
-@property(retain, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
-@property(retain, nonatomic) NSData *transactionId; // @synthesize transactionId=_transactionId;
 @property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end

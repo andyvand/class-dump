@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIDelayedHoverButton, NSTrackingArea;
+@class CalUIDelayedHoverButton;
 
 @interface CalUIDelayedHoverButtonTableCellView
 {
     _Bool _cancelButtonTimer;
-    CalUIDelayedHoverButton *_button;
-    NSTrackingArea *_trackingArea;
 }
 
 - (void);
@@ -32,16 +30,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void)!<EùqÃ#1Â0@ù
 × ;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)loadEventsWithPreviewEvents: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) CalUIDelayedHoverButton *button; // @synthesize button=_button;
-@property _Bool cancelButtonTimer; // @synthesize cancelButtonTimer=_cancelButtonTimer;
-@property(retain) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
 
 @end
 

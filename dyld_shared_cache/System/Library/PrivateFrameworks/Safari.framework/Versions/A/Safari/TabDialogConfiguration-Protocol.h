@@ -8,7 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long dialogType;
-@property(readonly, nonatomic) CDUnknownBlockType presentationBlock;
-@property(readonly, nonatomic) _Bool shouldHideTabContent;
 @end
 

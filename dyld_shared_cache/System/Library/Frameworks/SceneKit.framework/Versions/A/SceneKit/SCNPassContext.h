@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLCommandBuffer, MTLCommandQueue, MTLDevice;
-
 @interface SCNPassContext
 {
     struct {
@@ -27,14 +25,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (double);
 - (id)ÜÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿØÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿüÿÿÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLCommandBuffer> commandBuffer;
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue;
-@property(readonly, nonatomic) id <MTLDevice> device;
 @property(readonly, nonatomic) double time;
 
 @end

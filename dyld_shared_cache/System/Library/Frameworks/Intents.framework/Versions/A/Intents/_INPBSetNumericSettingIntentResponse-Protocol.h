@@ -7,18 +7,11 @@
 @class NSString, _INPBNumericSettingValue;
 
 @protocol _INPBSetNumericSettingIntentResponse
-- (_INPBNumericSettingValue *)ion: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)didSelectAnonymousEmail: /* Error: Ran out of types for this method. */;
+- (_INPBNumericSettingValue *)provideAlarmsOptionsForSearchAlarm:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(readonly, nonatomic) _Bool hasMaxValue;
-@property(readonly, nonatomic) _Bool hasMinValue;
-@property(readonly, nonatomic) _Bool hasOldValue;
-@property(readonly, nonatomic) _Bool hasUpdatedValue;
-@property(retain, nonatomic) _INPBNumericSettingValue *maxValue;
-@property(retain, nonatomic) _INPBNumericSettingValue *minValue;
-@property(retain, nonatomic) _INPBNumericSettingValue *oldValue;
-@property(retain, nonatomic) _INPBNumericSettingValue *updatedValue;
 @end
 

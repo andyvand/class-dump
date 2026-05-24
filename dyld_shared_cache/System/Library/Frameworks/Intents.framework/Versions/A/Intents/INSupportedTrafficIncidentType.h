@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface INSupportedTrafficIncidentType
 {
     long long _type;
-    NSString *_localizedDisplayString;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)synchronousRemoteProxyWithErrorHandler:(id)arg1;
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)setLastJoinedByUserAt:(id)arg1;
+- (void)i] AUTO-JOIN:(id)arg1 Derived pre-association scan channel list for '%{public}@' (nearby=%{public}s, addedToSSIDList=%{public}s, locationChannels=%{public}@, recentChannels=%{public}@, maxBSSChannelAge=%lu, minBSSLocationAccuracy=%f, maxBSSLocationDistance=%f, maxBSSChannelCount=%lu, location=%{public}@);
 - (id);
-- (id);
+- (id);
 - (id)ectionSignalsFrequencyDenominator:(unsigned long long)arg1 shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay: /* Error: Ran out of types for this method. */;
-- (void)thSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideRecordDateOptionsCollectionForSaveHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)¨;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedDisplayString; // @synthesize localizedDisplayString=_localizedDisplayString;
-@property(readonly) Class superclass;
 @property(readonly) long long type; // @synthesize type=_type;
 
 @end

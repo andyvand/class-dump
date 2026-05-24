@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol GEOMapServiceFeedbackReportTicket
+- (GEOMapServiceTraits *)-!Ț;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

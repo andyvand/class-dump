@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXPlacesImageCache;
-@protocol PXPlacesGeotaggedItemDataSource, PXPlacesMapAnnotationRenderer, PXPlacesMapLayout, PXPlacesMapSelectionHandler, PXPlacesMapUpdatePlan;
+@protocol PXPlacesGeotaggedItemDataSource, PXPlacesMapLayout;
 
 @interface PXPlacesMapPipeline
 {
     id <PXPlacesMapLayout> _layout;
-    id <PXPlacesMapUpdatePlan> _updatePlan;
-    id <PXPlacesMapAnnotationRenderer> _renderer;
-    id <PXPlacesMapSelectionHandler> _selectionHandler;
-    PXPlacesImageCache *_imageCache;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (id)rw¥GG;
 - (id)ing sort order persistence controller;
@@ -31,18 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXPlacesGeotaggedItemDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) PXPlacesImageCache *imageCache; // @synthesize imageCache=_imageCache;
-@property(readonly) id <PXPlacesMapLayout> layout; // @synthesize layout=_layout;
-@property(readonly) id <PXPlacesMapAnnotationRenderer> renderer; // @synthesize renderer=_renderer;
-@property(readonly) id <PXPlacesMapSelectionHandler> selectionHandler; // @synthesize selectionHandler=_selectionHandler;
-@property(readonly) Class superclass;
-@property(readonly) id <PXPlacesMapUpdatePlan> updatePlan; // @synthesize updatePlan=_updatePlan;
 
 @end
 

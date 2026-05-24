@@ -6,41 +6,29 @@
 
 #import <CoreBluetooth/CBAttribute.h>
 
-@class CBPeripheral, NSArray, NSNumber;
-
 @interface CBService : CBAttribute
 {
     _Bool _isPrimary;
-    CBPeripheral *_peripheral;
-    NSArray *_includedServices;
-    NSArray *_characteristics;
-    NSNumber *_startHandle;
-    NSNumber *_endHandle;
 }
 
 - (id);
 - (void);
+- (id);;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)?;
+- (id)B;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)GenerativeFunctionMetrics::Summarization /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSArray *characteristics; // @synthesize characteristics=_characteristics;
-@property(readonly, nonatomic) NSNumber *endHandle; // @synthesize endHandle=_endHandle;
-@property(retain) NSArray *includedServices; // @synthesize includedServices=_includedServices;
 @property(nonatomic) _Bool isPrimary; // @synthesize isPrimary=_isPrimary;
-@property(readonly, nonatomic) __weak CBPeripheral *peripheral; // @synthesize peripheral=_peripheral;
-@property(readonly, nonatomic) NSNumber *startHandle; // @synthesize startHandle=_startHandle;
 
 @end
 

@@ -12,13 +12,18 @@
 }
 
 - (void);
-- (void *);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (long long);
-- (id);
+- (void *)value.;
+- (unsigned long long)nent,		 kCGImageAlphaNoneSkipLast
+	16 bits per pixel,		 8  bits per component,		 kCGImageAlphaPremultipliedLast
+	16 bits per pixel,		 16 bits per component,		 kCGImageAlphaNone
+	16 bits per pixel,		 16 bits per component,		 kCGImageAlphaNone|kCGBitmapFloatComponents|kCGBitmapByteOrder16Little
+	32 bits per pixel,		 32 bits per component,		 kCGImageAlphaNone|kCGBitmapFloatComponents
+valid byte order flags are kCGBitmapByteOrderDefault, kCGBitmapByteOrder16Big, kCGBitmapByteOrder16Little;
+- (void)marked content sequence once one has already started;
+- (unsigned long long)eDrawing}^{DisplayListEntryStateFill}^{DisplayListEntryStateStroke}^{DisplayListEntryStatePattern}}8^B16;
+- (void)nullptr;
+- (long long);
+- (id));
 - (long long);
 - (void);
 - (_Bool);
@@ -36,13 +41,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)cationContext=II^{CGXConnectionNotice}}{CGXConnectionNotificationContext=II^{CGXConnectionNotice}}b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1^vI^{__CFDictionary}^{CGSRegionObject}IIIdd^QQQII^{CGSRegionObject}^{CGXCursor}^{__CFDictionary}^vIIIiI{CPSProcessSerNum=II}IIIb1b1b1b1b1b1b1b1b1b1b1b1b1^{CGXEventTap}^{CGXCaptureState}I^v^?dddddI^{CGXDirtyScreenState}IB^{PKGSpace}{WSSymbolicHotKeyBitMask=[9I]}iQ^{x_list_struct}b1b1b1IdId^{SLSStructuralRegionIDRange}{?=III{?=[2I]}{?=[8I]}}^{x_list_struct}^{CGSRegionObject}b1b1IBBQ{?=[8I]}^{CGSRegionObject}B^{CGSRegionObject}b1b1b1Qb1b1ii^{CGXConnectionCAContextTrackingState}^{__CGXConnectionBox}Bd^{__CFString}b1b1b1b1b1b1b1b1b1b1b1b1b1^{SLSeedResolver}Q^{x_list_struct}Ib1ib1};
+- (unsigned long long)eenTelemetryResultsSnapshotZoneData>=^{SLSScreenTelemetryResultsSnapshotZoneData}^{__shared_weak_count}}16;
 - (id);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)b;
 - (long long);
 - (void);
 - (void);
@@ -53,9 +58,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long currentDiskUsage;
-@property(readonly) unsigned long long currentMemoryUsage;
-@property unsigned long long diskCapacity;
 @property unsigned long long memoryCapacity;
 
 @end

@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerSetupInfo, CKShare, NSArray, NSData, NSString, NSURL, NSUUID;
+@class NSUUID;
 
 @interface SFCollaborationCloudSharingMailRequest
 {
     NSUUID *_collaborationItemIdentifier;
-    NSArray *_options;
-    NSURL *_fileOrFolderURL;
-    CKShare *_share;
-    CKContainerSetupInfo *_setupInfo;
-    NSURL *_sharingURL;
-    NSString *_appName;
-    NSData *_appIconData;
 }
 
-+ (_Bool);
++ (_Bool)q;
 - (id);
 - (id);
 - (id);
@@ -30,18 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (void)ingOwnContact;
+- (void)missingOwnContact;
 - (id)ê;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *appIconData; // @synthesize appIconData=_appIconData;
-@property(readonly, copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
 @property(readonly, copy, nonatomic) NSUUID *collaborationItemIdentifier; // @synthesize collaborationItemIdentifier=_collaborationItemIdentifier;
-@property(readonly, nonatomic) NSURL *fileOrFolderURL; // @synthesize fileOrFolderURL=_fileOrFolderURL;
-@property(readonly, copy, nonatomic) NSArray *options; // @synthesize options=_options;
-@property(readonly, nonatomic) CKContainerSetupInfo *setupInfo; // @synthesize setupInfo=_setupInfo;
-@property(readonly, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(readonly, nonatomic) NSURL *sharingURL; // @synthesize sharingURL=_sharingURL;
 
 @end
 

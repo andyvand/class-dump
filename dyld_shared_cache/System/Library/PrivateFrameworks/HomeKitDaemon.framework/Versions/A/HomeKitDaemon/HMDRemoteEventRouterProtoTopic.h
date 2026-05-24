@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterProtoTopic
 {
     NSString *_eventUUID;
-    NSString *_topic;
 }
 
-- (_Bool);
+- (_Bool)"GEORPFeedbackResponse"8@"NSData"16@"NSError"24;
 - (_Bool);
 - (void);
 - (id);
@@ -26,16 +25,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)q1Â0@ù
 × ;
-- (id)e:(struct _NSZone *)arg1 targetFragmentDuration:quality:bufferManagementService:workQueue:logIdentifier: /* Error: Ran out of types for this method. */;
-- (id)cationsSupported;
+- (id)makeInstanceWithClipUUID:(struct _NSZone *)arg1 startDate:targetFragmentDuration:quality:bufferManagementService:workQueue:logIdentifier: /* Error: Ran out of types for this method. */;
+- (id)bulletinNotificationsSupported;
 - (id);
-- (void)tionGracePeriod;
+- (void)pairingInterruptionGracePeriod;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *eventUUID; // @synthesize eventUUID=_eventUUID;
-@property(readonly, nonatomic) _Bool hasEventUUID;
 @property(readonly, nonatomic) _Bool hasTopic;
-@property(retain, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end
 

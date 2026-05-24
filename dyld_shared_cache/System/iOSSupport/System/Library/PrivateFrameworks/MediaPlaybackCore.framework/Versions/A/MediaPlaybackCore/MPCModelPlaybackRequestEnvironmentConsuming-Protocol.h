@@ -7,6 +7,7 @@
 @class MPCPlaybackRequestEnvironment;
 
 @protocol MPCModelPlaybackRequestEnvironmentConsuming
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) MPCPlaybackRequestEnvironment *playbackRequestEnvironment;

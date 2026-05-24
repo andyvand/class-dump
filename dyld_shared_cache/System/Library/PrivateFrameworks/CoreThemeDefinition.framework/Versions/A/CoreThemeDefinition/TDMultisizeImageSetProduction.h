@@ -16,7 +16,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *multisizeImageSetRenditions; // @dynamic multisizeImageSetRenditions;
 @property(retain, nonatomic) NSSet *sizeIndexes; // @dynamic sizeIndexes;
 
 @end

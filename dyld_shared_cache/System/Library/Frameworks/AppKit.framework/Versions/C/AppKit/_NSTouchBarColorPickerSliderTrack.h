@@ -6,40 +6,34 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSColor, NSTouchBarColorPickerSliderArtworkProvider;
+@class NSColor, NSTouchBarColorPickerSliderArtworkProvider;
 
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarColorPickerSliderTrack : NSView
 {
     NSTouchBarColorPickerSliderArtworkProvider *_artworkProvider;
-    NSArray *_allowedColorSpaces;
-    NSColor *_displayedColor;
-    id _autounbinder;
-    _Bool _valueIsFlipped;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)ferGetDotPitch failed:(id)arg1 %d
+;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)n,V_backgroundSession;
+- (id)rs while negotiating auth.;
 - (void);
 - (oneway void);
-- (void);
-- (struct CGSize);
+- (void)stringByDeletingLastPathComponent;
+- (struct CGSize)4 ;
 - (id)ew"136;
 
 // Remaining properties
-@property(copy) NSArray *allowedColorSpaces; // @synthesize allowedColorSpaces=_allowedColorSpaces;
-@property(copy) NSTouchBarColorPickerSliderArtworkProvider *artworkProvider; // @synthesize artworkProvider=_artworkProvider;
 @property(copy) NSColor *displayedColor; // @synthesize displayedColor=_displayedColor;
-@property _Bool valueIsFlipped; // @synthesize valueIsFlipped=_valueIsFlipped;
 
 @end
 

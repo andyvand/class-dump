@@ -9,28 +9,26 @@
 @interface GEOCoarseLocationMetadata
 {
     PBUnknownFields *_unknownFields;
-    int _type;
-    CDStruct_3af5a977 _flags;
 }
 
-+ (_Bool)commendedRoutesOption:(id)arg1;
++ (_Bool)setHasNonRecommendedRoutesOption:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)initWithHash:(id)arg1 goodness:confidence:absTime:frac: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)_mapPointsLength;
 - (_Bool);
 - (void);
-- (id)n:(struct _NSZone *)arg1;
-- (void);
+- (id)routeDetailsPrimaryArtworkForRideOption:(struct _NSZone *)arg1;
+- (void)GEOVLFARFailureTypes;
 - (id)$kk;
-- (int)tener_ServerToD10_Interface_p;
-- (id)x_number_of_photos;
+- (int)11GeoServices030GEONavigationListener_ServerToD10_Interface_p;
+- (id)max_number_of_photos;
 - (id)ÿÿ;
 - (id)gªI@;
 - (_Bool)ä!ÿ;
@@ -39,8 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

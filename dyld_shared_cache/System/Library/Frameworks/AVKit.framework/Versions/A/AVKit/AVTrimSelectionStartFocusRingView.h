@@ -10,8 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
+- (void)es
+WHERE uuid = ?1 AND is_local = 1;
+- (id)peName() [DesiredTypeName = SimplifyGenericIRUserDynamicLibraryPass];
 
 @end
 

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKConversation, UITableViewCell;
+
 @protocol CKConversationListCellDelegate
+
+@optional
+- (void);
+- (void)setExpanded:(CKConversation *)arg1 itemIdentifier:(UITableViewCell *)arg2 itemType:context: /* Error: Ran out of types for this method. */;
+- (_Bool)V_listStyle;
+- (void);
 @end
 

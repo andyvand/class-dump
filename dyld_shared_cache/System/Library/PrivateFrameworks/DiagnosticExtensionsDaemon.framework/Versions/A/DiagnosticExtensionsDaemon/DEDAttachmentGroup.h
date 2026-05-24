@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDBugSession, DEDExtensionIdentifier, NSArray, NSString, NSURL;
+@class DEDBugSession, DEDExtensionIdentifier;
 
 @interface DEDAttachmentGroup
 {
     DEDBugSession *_fromBugSession;
-    NSString *_deviceID;
-    NSURL *_rootURL;
-    NSString *_displayName;
-    NSString *_extensionID;
-    NSArray *_attachmentItems;
-    DEDExtensionIdentifier *_dedExtensionIdentifier;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)j;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setUpperBufferIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -34,28 +28,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (id);
-- (void);
+- (void)Stack:(id)arg1 toURL:options:error:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)internalRemoteObjectProxyWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSArray *attachmentItems; // @synthesize attachmentItems=_attachmentItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) DEDExtensionIdentifier *dedExtensionIdentifier; // @synthesize dedExtensionIdentifier=_dedExtensionIdentifier;
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain) NSString *extensionID; // @synthesize extensionID=_extensionID;
-@property(retain) DEDBugSession *fromBugSession; // @synthesize fromBugSession=_fromBugSession;
-@property(readonly) unsigned long long hash;
-@property(retain) NSURL *rootURL; // @synthesize rootURL=_rootURL;
-@property(readonly) Class superclass;
 
 @end
 

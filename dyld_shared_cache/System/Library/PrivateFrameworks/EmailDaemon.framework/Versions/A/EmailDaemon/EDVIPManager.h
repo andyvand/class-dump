@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, EAEmailAddressSet, NSMutableDictionary, NSObject, NSSet, NSString, NSURL, NSUbiquitousKeyValueStore;
-@protocol EDAccountsProvider, EDVIPManagerDelegate, OS_dispatch_queue;
+@class CNContactStore, NSMutableDictionary;
 
 @interface EDVIPManager
 {
     NSMutableDictionary *_vipsByIdentifier;
-    EAEmailAddressSet *_cachedEmailAddresses;
-    struct os_unfair_lock_s _initializeLock;
-    _Bool _initialized;
-    id <EDVIPManagerDelegate> _delegate;
-    CNContactStore *_contactStore;
-    NSUbiquitousKeyValueStore *_keyValueStore;
-    id <EDAccountsProvider> _accountsProvider;
-    NSObject<OS_dispatch_queue> *_operationQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSURL *_plistURL;
 }
 
 + (id);
@@ -31,16 +20,16 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)setSelectionLayer: /* Error: Ran out of types for this method. */;
+- (void)setIconView:(CDUnknownBlockType)arg1;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)t;
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)prefixSuffixConfidence;
+- (void)core_Time_Midnight;
 - (void);
 - (void);
 - (id);
@@ -54,12 +43,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)assetDownloadStartedOn;
 - (void);
-- (id);
+- (id)ObjectFromString() which guesses type from format.
+;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -81,23 +71,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EDAccountsProvider> accountsProvider; // @synthesize accountsProvider=_accountsProvider;
-@property(readonly, copy, nonatomic) EAEmailAddressSet *allVIPEmailAddresses;
-@property(readonly, copy, nonatomic) NSSet *allVIPs;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EDVIPManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasVIPs;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUbiquitousKeyValueStore *keyValueStore; // @synthesize keyValueStore=_keyValueStore;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, nonatomic) NSURL *plistURL; // @synthesize plistURL=_plistURL;
-@property(readonly) Class superclass;
 
 @end
 

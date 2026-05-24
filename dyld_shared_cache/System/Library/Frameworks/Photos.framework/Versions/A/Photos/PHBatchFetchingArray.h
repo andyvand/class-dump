@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSMutableDictionary, NSObject, NSSet, NSString, PHBatchFetchingArrayFetchedClass, PHPhotoLibrary;
-@protocol OS_dispatch_queue, PHBatchFetchingArrayDataSource;
+@class NSArray, PHPhotoLibrary;
 
 @interface PHBatchFetchingArray
 {
     NSArray *_oids;
-    NSSet *_oidsSet;
-    id <PHBatchFetchingArrayDataSource> _dataSource;
-    unsigned long long _count;
-    struct os_unfair_lock_s _cacheLock;
-    NSCache *_cache;
-    struct os_unfair_lock_s _lastBatchLock;
-    unsigned long long _lastBatchIndex;
-    NSArray *_lastBatch;
-    NSObject<OS_dispatch_queue> *_uuidsQueue;
-    NSMutableDictionary *_uuidsByOIDs;
-    unsigned long long _batchSize;
-    PHBatchFetchingArrayFetchedClass *_overridenFetchResultClass;
-    unsigned long long _propertyHint;
 }
 
 + (_Bool)àÿìæ
@@ -32,47 +18,38 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)p;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)lastMetadataChangeTime;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)%@%@%@%@;
 - (_Bool);
 - (id);
 - (id);
+- (void)P;
+- (id)_screenShareRequestType;
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ltip;
+- (unsigned long long);
 - (id)á°!AùÐ1Â0@ù
 × ;
 - (id);
-- (id)ons;
+- (id)countOfFetchResultsRegisteredForChangeNotifications;
 - (void)Format;
-- (id)jectIDsForAssetsExposedToPTP;
+- (id)fetchAllObjectIDsForAssetsExposedToPTP;
 - (id)lable on the main thread;
-- (unsigned long long)tMonth;
+- (unsigned long long)photosHighlightMonth;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *oids; // @synthesize oids=_oids;
-@property(readonly) NSSet *oidsSet;
 @property(readonly) PHPhotoLibrary *photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

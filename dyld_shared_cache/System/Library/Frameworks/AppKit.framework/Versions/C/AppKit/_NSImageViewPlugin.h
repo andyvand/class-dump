@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (Class);
+- (Class)Y;
 - (id);
-- (void);
-- (_Bool);
+- (void)E;
+- (_Bool)2kuITg6XPwXl8zbpx+hoCw;
 - (unsigned long long);
 - (Class);
 

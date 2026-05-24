@@ -7,20 +7,6 @@
 @interface ChatKit.PopExplosionRenderer
 {
     id parameters;
-    id bulge;
-    id device;
-    id bufferResourceOptions;
-    id computePipelineState;
-    id renderPipelineState;
-    id vertexCount;
-    id vertexBuffer;
-    id indexCount;
-    id indexBuffer;
-    id pieceCount;
-    id pieceBuffer;
-    id totalSize;
-    id dimensions;
-    id isPrepared;
 }
 
 @end

@@ -6,8 +6,6 @@
 
 #import <CoreThemeDefinition/TDNamedArtworkProduction.h>
 
-@class TDSimpleArtworkElementProduction;
-
 @interface TDLayerStackProduction : TDNamedArtworkProduction
 {
 }
@@ -15,6 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) TDNamedArtworkProduction *flattenedImageProduction; // @dynamic flattenedImageProduction;
-@property(retain, nonatomic) TDSimpleArtworkElementProduction *radiosityImageProduction; // @dynamic radiosityImageProduction;
 @end
 

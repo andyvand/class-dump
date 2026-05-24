@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GCSonyPSVR2SenseControllerProfile
 {
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)M;
++ (_Bool)l;
 + (unsigned char);
++ (id)y;
 + (id);
++ (void);
++ (void);
++ (void);
 + (id);
-+ (void);
-+ (void);
-+ (void);
++ (id)};
++ (id)Ќ;
++ (_Bool);
++ (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSArrayM : NSMutableArray
 {
     _Atomic struct __cow_state_t *cow;
-    CDStruct_a6934631 storage;
 }
 
 + (_Bool);
@@ -19,27 +18,27 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ICB_Inherit_Buffers_VertexPipelineState;
+- (void)tes:(unsigned long long)arg1 withRange:(CDUnknownBlockType)arg2 ];
+- (void)localizedStringsForCanonicalString:(unsigned long long)arg1 context:(id)arg2;
+- (void)_LSApplicationLoadedJobMonitor;
+- (void)pple.accounts.facebook.defaultaccess;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id)8@?<v@?@"<CKXPCDaemonTestServerManager>">16;
-- (void)tries:forMessage:withPreflightData: /* Error: Ran out of types for this method. */;
-- (void)wnloadingKey;
-- (void)umerator;
+- (void)_onqueue_postflightNewEntries:forMessage:withPreflightData: /* Error: Ran out of types for this method. */;
+- (void)NSURLUbiquitousItemIsDownloadingKey;
+- (void)QTNodeEnumerator;
 - (void)__NSCFInputStream;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (id)0 ä;
-- (id)nsionProcessHandle;
+- (id)_EXExtensionProcessHandle;
 - (unsigned long long)jð;
 
 @end

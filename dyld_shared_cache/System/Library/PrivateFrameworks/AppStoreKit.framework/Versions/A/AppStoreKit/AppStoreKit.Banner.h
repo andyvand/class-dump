@@ -7,15 +7,6 @@
 @interface AppStoreKit.Banner
 {
     id message;
-    id action;
-    id leadingArtwork;
-    id leadingArtworkTintColor;
-    id leadingArtworkSymbolConfiguration;
-    id includeBackgroundBorder;
-    id hideCriteria;
-    id kind;
-    id id;
-    id automationMetadata;
 }
 
 @end

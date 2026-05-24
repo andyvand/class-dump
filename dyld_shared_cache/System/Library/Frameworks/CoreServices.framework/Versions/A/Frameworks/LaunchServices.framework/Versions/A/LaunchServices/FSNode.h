@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface FSNode
 {
     NSURL *_url;
-    unsigned long long _cacheExpiration;
-    unsigned int _isDirectory:2;
-    unsigned int _hasReferringAliasNode:1;
-    unsigned int _canUseFileCache:1;
-    unsigned int _isInitialized:1;
 }
 
 + (_Bool);
 + (void);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)@;
 + (id);
 + (_Bool);
 + (id);
 + (_Bool);
-+ (void);
++ (void)@;
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)?!;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -46,8 +41,8 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (void *);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)neDataSetSerializerDescriptor"16;
++ (_Bool)ot allowed for Shared Textures.;
 + (_Bool)X;
 + (_Bool)¼L;
 + (id)Runningboard informed us that the launch of %{public}@ %{private}@ was unnecessary, as it is already running.;
@@ -57,19 +52,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)&;
 - (const struct _FSInternetLocatorTypeInfo *);
 - (id);
-- (id);
+- (id)i";
 - (_Bool);
-- (_Bool);
+- (_Bool)q(;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (const struct _FSInternetLocatorTypeInfo *);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -107,10 +102,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)@;
+- (id)o ;
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -118,19 +113,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct OpaqueMappedResourceFileRef *);
 - (id);
+- (id)f;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)	;
 - (_Bool);
 - (id);
+- (_Bool);
+- (id) ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)K ;
+- (_Bool)I ;
 - (id);
 - (_Bool);
 - (void);
@@ -141,60 +136,30 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
+- (_Bool)';
+- (_Bool)- ;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)"@"<MTLBuffer>""_residencySet"@"<MTLResidencySet>"};
+- (_Bool)ength:(id)arg1 stage:(id)arg2 ];
+- (id)drawPrimitives:(const char *)arg1 vertexStart:(unsigned int)arg2 vertexCount:(id *)arg3 instanceCount;
 - (id);
 - (id);
-- (id);
 - (_Bool);
-- (_Bool)oding:(_Bool *)arg1 error: /* Error: Ran out of types for this method. */;
-- (_Bool)onRecordEnumerator;
+- (_Bool)archivedDataWithRootObject:(_Bool *)arg1 requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_LSApplicationExtensionRecordEnumerator;
 - (id)ÈX;
 - (_Bool);
 - (void)ÑìË;
 - (_Bool);
 - (_Bool);
 - (_Bool)directly.;
-- (id)tems;
+- (id)kLSSharedFileListRecentApplicationItems;
 
 // Remaining properties
-@property(readonly, getter=isAVCHDCollection) _Bool AVCHDCollection;
-@property(readonly, nonatomic, getter=isAliasFile) _Bool aliasFile; // @dynamic aliasFile;
-@property(readonly, nonatomic, getter=isBusyDirectory) _Bool busyDirectory; // @dynamic busyDirectory;
-@property(readonly, nonatomic) _Bool canIssueIO;
-@property(readonly, nonatomic, getter=isDataContainer) _Bool dataContainer; // @dynamic dataContainer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDirectory) _Bool directory; // @dynamic directory;
-@property(readonly, nonatomic, getter=isExecutable) _Bool executable; // @dynamic executable;
-@property(readonly, nonatomic, getter=isExecutableModeFile) _Bool executableModeFile; // @dynamic executableModeFile;
-@property(readonly, nonatomic) _Bool hasHiddenExtension; // @dynamic hasHiddenExtension;
-@property(readonly, nonatomic) _Bool hasPackageBit; // @dynamic hasPackageBit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden; // @dynamic hidden;
-@property(readonly, getter=isInTrash) _Bool inTrash; // @dynamic inTrash;
 @property(readonly, getter=isInternetLocatorFile) _Bool internetLocatorFile;
-@property(readonly, nonatomic, getter=isMountTrigger) _Bool mountTrigger; // @dynamic mountTrigger;
-@property(readonly, nonatomic, getter=isOnDiskImage) _Bool onDiskImage; // @dynamic onDiskImage;
-@property(readonly, nonatomic, getter=isOnLocalVolume) _Bool onLocalVolume; // @dynamic onLocalVolume;
-@property(readonly, nonatomic, getter=isOnTimeMachineVolume) _Bool onTimeMachineVolume; // @dynamic onTimeMachineVolume;
-@property(readonly, nonatomic, getter=isRegularFile) _Bool regularFile; // @dynamic regularFile;
-@property(readonly, nonatomic, getter=isResolvable) _Bool resolvable; // @dynamic resolvable;
-@property(readonly, nonatomic, getter=isSecuredSystemContent) _Bool securedSystemContent; // @dynamic securedSystemContent;
-@property(readonly, nonatomic, getter=isSideFault) _Bool sideFault; // @dynamic sideFault;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isSymbolicLink) _Bool symbolicLink; // @dynamic symbolicLink;
-@property(readonly, getter=isTrashFolder) _Bool trashFolder; // @dynamic trashFolder;
-@property(readonly, nonatomic, getter=isVolume) _Bool volume; // @dynamic volume;
 
 @end
 

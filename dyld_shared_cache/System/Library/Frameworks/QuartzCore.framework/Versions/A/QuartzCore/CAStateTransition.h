@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CAStateTransition
 {
     NSString *_fromState;
-    NSString *_toState;
-    NSArray *_elements;
 }
 
 + (void);
@@ -20,22 +18,20 @@
 - (id);
 - (double);
 - (id);
+- (id)NoPushToken;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)H@;
 - (void);
 - (id);
+- (void);
+- (id)^vQQQ}80@0:8^v16Q24Q32Q40Q48Q56^B64^{CGSize=dd}72 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id)ame=indicator, signpost.telemetry:string1}s x=%{public, name=x, signpost.telemetry:number1}d y=%{public, name=y, signpost.telemetry:number2}d enableTelemetry=YES  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *elements; // @synthesize elements=_elements;
 @property(copy, nonatomic) NSString *fromState; // @synthesize fromState=_fromState;
-@property(copy, nonatomic) NSString *toState; // @synthesize toState=_toState;
 
 @end
 

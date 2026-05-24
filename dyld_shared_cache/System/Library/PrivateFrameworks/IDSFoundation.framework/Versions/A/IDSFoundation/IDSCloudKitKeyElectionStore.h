@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCKDatabase, NSObject;
-@protocol OS_dispatch_queue;
+@class IDSCKDatabase;
 
 @interface IDSCloudKitKeyElectionStore
 {
     IDSCKDatabase *_database;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (_Bool);
@@ -18,18 +16,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)m:(id)arg1;
+- (void)setTimeLimitForItem:(id)arg1;
 - (void)enshotter;
 
 // Remaining properties
 @property(retain, nonatomic) IDSCKDatabase *database; // @synthesize database=_database;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

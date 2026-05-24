@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
-
 @interface SFMailResultDetails
 {
     struct {
         unsigned int dataSources:1;
     } _has;
-    int _dataSources;
-    NSNumber *_suggestionScore;
-    NSNumber *_skgMegadomeSpotlightIndexEntries;
 }
 
 + (_Bool);
@@ -23,30 +18,19 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setLikedState:(id)arg1 forPlaylistWithGlobalID: /* Error: Ran out of types for this method. */;
 - (int);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ic}@.;
 - (id);
+- (id)Embedding Timeout:%ld,  /* Error: Ran out of types for this method. */;
+- (id)180;
 - (id);
-- (id);
-- (id);
-- (void)dingText;
+- (void)_leadingText;
 
 // Remaining properties
 @property(nonatomic) int dataSources; // @synthesize dataSources=_dataSources;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *skgMegadomeSpotlightIndexEntries; // @synthesize skgMegadomeSpotlightIndexEntries=_skgMegadomeSpotlightIndexEntries;
-@property(copy, nonatomic) NSNumber *suggestionScore; // @synthesize suggestionScore=_suggestionScore;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,19 +6,13 @@
 
 #import <MusicLibrary/_ML3BaseMusicLibraryResourcesManager.h>
 
-@class ACAccountStore, NSObject, NSOperationQueue, NSString;
-@protocol MLMediaLibraryAccountChangeObserver, OS_dispatch_queue, _MSVAccountInformationProviding;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _ML3MultiUserDaemonMusicLibraryResourcesManager : _ML3BaseMusicLibraryResourcesManager
 {
     NSString *_currentActiveAccountDSID;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSOperationQueue *_accountChangeOperationQueue;
-    id <_MSVAccountInformationProviding> _accountInfo;
-    id <MLMediaLibraryAccountChangeObserver> _accountChangeObserver;
-    ACAccountStore *_accountStore;
 }
 
 - (void);
@@ -30,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)HMMediaGroupStageRequestMessage;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)enumerateObjectsUsingBlock: /* Error: Ran out of types for this method. */;
+- (void)T;
 - (void);
 - (void);
 - (id);
@@ -52,20 +46,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <MLMediaLibraryAccountChangeObserver> accountChangeObserver; // @synthesize accountChangeObserver=_accountChangeObserver;
-@property(retain, nonatomic) NSOperationQueue *accountChangeOperationQueue; // @synthesize accountChangeOperationQueue=_accountChangeOperationQueue;
-@property(retain, nonatomic) id <_MSVAccountInformationProviding> accountInfo; // @synthesize accountInfo=_accountInfo;
-@property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(copy, nonatomic) NSString *currentActiveAccountDSID; // @synthesize currentActiveAccountDSID=_currentActiveAccountDSID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
 
 @end
 

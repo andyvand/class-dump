@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)oad:(CDStruct_70511ce9 *)arg1;
+- (unsigned long long)initWithName:(CDStruct_70511ce9 *)arg1 qualityOfService:(id *)arg2 destination:(unsigned long long)arg3 userInfo:headers:payload: /* Error: Ran out of types for this method. */;
 @end
 

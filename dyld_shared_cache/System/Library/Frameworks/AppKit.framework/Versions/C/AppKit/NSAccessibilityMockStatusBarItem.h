@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)uiltin %d};
+- (void)rl_cache_schema_version;;
+- (_Bool)Comment;
+- (id)or name %s, port %d;
+- (id)opportunistic;
+- (id)l.AuthPayXConcordClient;
 - (id);
 - (id);
 - (id);

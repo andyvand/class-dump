@@ -11,26 +11,24 @@
 @interface CoreDAVHrefItem : CoreDAVLeafItem
 {
     NSURL *_baseURL;
-    int _writeStyle;
 }
 
 - (id);
+- (id)kSimStateReady;
 - (id);
-- (id);
-- (id);
+- (id)_updateCornerRadius;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (int);
-- (void);
+- (void)t;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(nonatomic) int writeStyle; // @synthesize writeStyle=_writeStyle;
 
 @end
 

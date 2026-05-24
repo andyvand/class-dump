@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SUCoreProgress;
+
 @protocol SUCoreConnectClientProxyProtocol
+
+@optional
+- (void)esFromSource (VCCaptureSourceCamera) failed; self = %p;
+- (void)willAttachTextDocument:(SUCoreProgress *)arg1;
 @end
 

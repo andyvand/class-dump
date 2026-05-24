@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (void);
++ (void)@y	@9))*	;
 + (id);
 + (void);
 + (unsigned long long);

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKDrawingConcrete;
-
 @interface PKReplicaEntry
 {
     unsigned int _replicaUUIDIndex;
-    unsigned int _clock;
-    unsigned int _subclock;
-    _Bool _inUse;
-    PKDrawingConcrete *_drawing;
 }
 
 - (id);
@@ -24,18 +18,14 @@
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)gP0yIUmKSjWxBVSlY/Library/Caches/com.apple.xbs/TemporaryDirectory.Sf5OaB/Sources/ToneLibrary/Library/Utilities/TLBacklight.m;
 - (void);
 - (void);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 
 // Remaining properties
-@property(nonatomic) unsigned int clock; // @synthesize clock=_clock;
-@property(nonatomic) PKDrawingConcrete *drawing; // @synthesize drawing=_drawing;
-@property(nonatomic) _Bool inUse; // @synthesize inUse=_inUse;
 @property(nonatomic) unsigned int replicaUUIDIndex; // @synthesize replicaUUIDIndex=_replicaUUIDIndex;
-@property(nonatomic) unsigned int subclock; // @synthesize subclock=_subclock;
 
 @end
 

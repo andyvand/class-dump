@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"read_icons"b1"wrote_anyField"b1};
-- (id)o;
+- (id)_pauseSpokenAudio;
 - (id)l
 <|d;
 - (void);

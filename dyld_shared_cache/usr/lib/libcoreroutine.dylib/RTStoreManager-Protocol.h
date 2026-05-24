@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTEnumerationOptions;
+@class NSSet, RTEnumerationOptions;
 
 @protocol RTStoreManager
++ (NSSet *);
 - (void)nID:(RTEnumerationOptions *)arg1 %@,%@,%@, notifying cache manager of user viewing session details;
 @end
 

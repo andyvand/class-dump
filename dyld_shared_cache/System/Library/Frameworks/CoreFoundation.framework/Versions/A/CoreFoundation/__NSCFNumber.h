@@ -12,19 +12,19 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 - (unsigned long long);
-- (unsigned char);
+- (unsigned char) ;
 - (oneway void);
 - (id);
-- (_Bool);
+- (_Bool)( ;
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long).;
+- (_Bool)a;
 - (long long);
 - (long long);
-- (unsigned int);
+- (unsigned int)hj{8;
 - (_Bool);
-- (double);
+- (double)%ld;
 - (long long);
 - (BOOL);
 - (unsigned short);
@@ -32,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (float);
+- (float);
 - (long long)2!Aùñ61Â0@ù
 × ;
 - (id)"PBSaveResponse"8@"NSError"16;

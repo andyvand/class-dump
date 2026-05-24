@@ -6,36 +6,29 @@
 
 #import <QuartzComposer/QCImageProvider.h>
 
-@class NSArray, QCRegion;
-
 @interface QCProvider_CoreVideo : QCImageProvider
 {
     struct __CVBuffer *_buffer;
-    struct CGColorSpace *_colorSpace;
-    struct CGSize _size;
-    QCRegion *_domainOfDefinition;
-    NSArray *_pixelFormats;
-    unsigned int _target;
 }
 
 + (_Bool);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)";
 - (struct CGColorSpace *);
-- (void);
+- (void);
 
 @end
 

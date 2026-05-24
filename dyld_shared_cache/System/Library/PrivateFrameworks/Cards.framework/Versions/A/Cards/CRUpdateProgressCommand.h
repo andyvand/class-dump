@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSProgress, NSString;
-
 @interface CRUpdateProgressCommand
 {
     _Bool _animatesProgress;
-    unsigned long long commandDirection;
-    NSDictionary *userInfo;
-    unsigned long long _event;
-    NSProgress *_progress;
 }
 
-- (void);
-- (_Bool);
-- (void);
+- (void)DGGNGSharpenOperation;
+- (_Bool)CIColorMonochrome;
+- (void)a;
 - (unsigned long long);
 - (id);
 - (id);
@@ -27,21 +21,10 @@
 - (id);
 - (void);
 - (void);
-- (void)col:(unsigned long long)arg1;
+- (void)conformsToProtocol:(unsigned long long)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool animatesProgress; // @synthesize animatesProgress=_animatesProgress;
-@property(nonatomic) unsigned long long commandDirection; // @synthesize commandDirection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo;
 
 @end
 

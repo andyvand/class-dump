@@ -10,11 +10,11 @@
 }
 
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)setImages: /* Error: Ran out of types for this method. */;
+- (_Bool)attributedSubstringFromRange: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDUnknownBlockType);
-- (void)trategies;
+- (void)_sectionDisplayStrategies;
 - (void)kMDItemStartDate_Ranking,$time.today,$time.today(+1Y));
 
 // Remaining properties

@@ -5,5 +5,6 @@
 //
 
 @protocol EKCalendarSubscriptionSpamCheckEditItemDelegate
+- (void)Y%s;
 @end
 

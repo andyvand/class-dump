@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)_aceCommandContext;
++ (id)_conversionMetricType;
 + (id);
 + (id);
 

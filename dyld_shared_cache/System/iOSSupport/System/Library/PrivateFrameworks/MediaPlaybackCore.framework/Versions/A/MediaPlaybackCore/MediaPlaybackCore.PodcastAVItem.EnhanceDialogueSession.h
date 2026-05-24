@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.PodcastAVItem.EnhanceDialogueSession
 {
     id item;
-    id subscription;
 }
 
 @end

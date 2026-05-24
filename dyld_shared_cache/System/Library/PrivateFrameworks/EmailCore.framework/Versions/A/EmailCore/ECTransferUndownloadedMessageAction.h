@@ -6,48 +6,29 @@
 
 #import <EmailCore/ECLocalMessageAction.h>
 
-@class ECLocalMessageActionID, NSArray, NSString, NSURL;
-
 @interface ECTransferUndownloadedMessageAction : ECLocalMessageAction
 {
     long long _transferType;
-    NSURL *_sourceMailboxURL;
-    NSURL *_destinationMailboxURL;
-    NSString *_oldestPersistedRemoteID;
-    NSArray *_itemsToDelete;
 }
 
 - (void);
 - (id);
+- (void)ܰ;
+- (void)}
+;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (id)cting '%{public}@';
+- (id)ntroller is transitioning. Will continue fullscreen dismissal once complete. %@;
+- (id)et been loaded; we're about to force it;
 - (long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)+';
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *destinationMailboxURL; // @synthesize destinationMailboxURL=_destinationMailboxURL;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *itemsToDelete; // @synthesize itemsToDelete=_itemsToDelete;
-@property(retain, nonatomic) NSURL *mailboxURL;
-@property(copy, nonatomic) NSString *oldestPersistedRemoteID; // @synthesize oldestPersistedRemoteID=_oldestPersistedRemoteID;
-@property(retain, nonatomic) ECLocalMessageActionID *persistentID;
-@property(retain, nonatomic) NSURL *sourceMailboxURL; // @synthesize sourceMailboxURL=_sourceMailboxURL;
-@property(readonly) Class superclass;
 @property(nonatomic) long long transferType; // @synthesize transferType=_transferType;
-@property(nonatomic) _Bool userInitiated;
 
 @end
 

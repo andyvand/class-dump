@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerLayer, CALayer, NSColor, NSDictionary, NSString, NUTiledImageLayer, PADisplay, PAItemViewConfiguration, PANeutrinoImage, PASnapshotLayer;
-@protocol PAImageDrawingDelegate;
+@class CALayer;
 
 @interface PANeutrinoImageLayer
 {
     CALayer *_containerLayer;
-    NUTiledImageLayer *_backfillLayer;
-    NUTiledImageLayer *_roiLayer;
-    CALayer *_overlayLayer;
-    PANeutrinoImage *_currentImage;
-    _Bool _useContentTransform;
-    struct CGRect _playerSnapshotClipRect;
-    AVPlayerLayer *_avPlayerLayer;
-    _Bool _playerIsReadyForDisplay;
-    PASnapshotLayer *_playerSnapshotLayer;
-    AVPlayer *_playerFromSnapshot;
-    long long _snapshotOrientation;
-    _Bool _observerDetached;
-    _Bool _isPlayerForCrop;
-    _Bool _isSnapshotForCrop;
-    PAItemViewConfiguration *_lastValidCropConfiguration;
-    _Bool _wantsOverlay;
-    _Bool _displayPlayerSnapshot;
-    _Bool _showAVPlayer;
-    long long _imageOrientation;
-    long long _viewOrientation;
-    long long _playerOrientation;
-    PAItemViewConfiguration *_viewConfiguration;
-    NSDictionary *_images;
-    NSColor *_overlayColor;
-    CDUnknownBlockType _playerReadyHandler;
-    PADisplay *_displayDevice;
-    id <PAImageDrawingDelegate> _drawingDelegate;
-    unsigned long long _maximumDrawCount;
-    struct CGRect _imageBounds;
-    struct CATransform3D _imageTransform;
-    struct CATransform3D _contentTransform;
 }
 
 - (void);
@@ -53,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_ց;
 - (void);
 - (void);
 - (void);
@@ -63,7 +31,7 @@
 - (struct CATransform3D);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (struct __CVBuffer *);
 - (void);
@@ -80,7 +48,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -105,37 +73,13 @@
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)A;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CATransform3D contentTransform; // @synthesize contentTransform=_contentTransform;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) PADisplay *displayDevice; // @synthesize displayDevice=_displayDevice;
-@property(nonatomic) _Bool displayPlayerSnapshot; // @synthesize displayPlayerSnapshot=_displayPlayerSnapshot;
-@property(nonatomic) __weak id <PAImageDrawingDelegate> drawingDelegate; // @synthesize drawingDelegate=_drawingDelegate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect imageBounds; // @synthesize imageBounds=_imageBounds;
-@property(readonly, nonatomic) long long imageOrientation; // @synthesize imageOrientation=_imageOrientation;
-@property(nonatomic) struct CGSize imageSize;
-@property(nonatomic) struct CATransform3D imageTransform; // @synthesize imageTransform=_imageTransform;
-@property(copy, nonatomic) NSDictionary *images; // @synthesize images=_images;
-@property(nonatomic) struct CATransform3D layerImageTransform;
-@property(nonatomic) unsigned long long maximumDrawCount; // @synthesize maximumDrawCount=_maximumDrawCount;
-@property(copy, nonatomic) NSColor *overlayColor; // @synthesize overlayColor=_overlayColor;
-@property(nonatomic) __weak AVPlayer *player;
-@property(nonatomic) long long playerOrientation; // @synthesize playerOrientation=_playerOrientation;
-@property(copy, nonatomic) CDUnknownBlockType playerReadyHandler; // @synthesize playerReadyHandler=_playerReadyHandler;
 @property(nonatomic) _Bool showAVPlayer; // @synthesize showAVPlayer=_showAVPlayer;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) PAItemViewConfiguration *viewConfiguration; // @synthesize viewConfiguration=_viewConfiguration;
-@property(nonatomic) long long viewOrientation; // @synthesize viewOrientation=_viewOrientation;
 
 @end
 

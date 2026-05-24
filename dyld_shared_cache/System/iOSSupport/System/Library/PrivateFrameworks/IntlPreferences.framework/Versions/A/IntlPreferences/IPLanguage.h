@@ -9,8 +9,6 @@
 @interface IPLanguage
 {
     NSString *_identifier;
-    NSString *_name;
-    NSString *_localizedStringForName;
 }
 
 + (id);
@@ -19,20 +17,17 @@
 - (void);
 - (id);
 - (id);
+- (id)_commitChangesForContext:forceCommit:shouldClose: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)performCreateFolderWithSelection: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id)i;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *localizedStringForName; // @synthesize localizedStringForName=_localizedStringForName;
-@property(readonly, nonatomic) IPLanguage *minimizedLanguage;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

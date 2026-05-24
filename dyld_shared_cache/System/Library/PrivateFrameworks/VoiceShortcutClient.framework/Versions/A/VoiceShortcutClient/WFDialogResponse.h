@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFDialogResponseContext;
-
 @interface WFDialogResponse
 {
     long long _responseCode;
-    WFDialogResponseContext *_context;
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,15 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(retain, nonatomic) WFDialogResponseContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long responseCode; // @synthesize responseCode=_responseCode;
-@property(readonly) Class superclass;
 
 @end
 

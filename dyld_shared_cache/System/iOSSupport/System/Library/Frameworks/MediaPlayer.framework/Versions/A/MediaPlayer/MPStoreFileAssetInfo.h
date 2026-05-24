@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreFileAssetInfo, NSArray, NSData, NSString, NSURL;
+@class ICStoreFileAssetInfo, NSURL;
 
 @interface MPStoreFileAssetInfo
 {
@@ -18,19 +18,12 @@
 - (id);
 - (id);
 - (long long);
-- (void)_isDisliked_KEY;
-- (id)dPredicate;
+- (void)__isDisliked_KEY;
+- (id)compoundPredicate;
 - (unsigned long long)}¡j|¡1jc¡Qjb¡3ja¡áj`¡2jg¡Àjf¡;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *assetURL;
-@property(readonly, copy, nonatomic) NSString *downloadKey;
-@property(readonly, copy, nonatomic) NSArray *fairPlayInfoList;
-@property(readonly, copy, nonatomic) NSString *fileExtension;
-@property(readonly, nonatomic) unsigned long long fileSize;
-@property(readonly, nonatomic) long long flavorType;
-@property(readonly, copy, nonatomic) NSData *md5;
-@property(readonly, nonatomic) long long protectionType;
 
 @end
 

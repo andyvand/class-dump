@@ -6,38 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchRecordsOperationInfo, NSArray, NSDictionary, NSMutableDictionary, NSString;
 @protocol CKFetchRecordsOperationCallbacks;
 
 @interface CKFetchRecordsOperation : CKDatabaseOperation
 {
     _Bool _isFetchCurrentUserOperation;
-    _Bool _shouldRequestEncryptedAssetOwnerIdentifier;
-    _Bool _shouldFetchAssetContent;
-    _Bool _shouldFetchAssetContentInMemory;
-    _Bool _dropInMemoryAssetContentASAP;
-    _Bool _shouldCloneFileInAssetCache;
-    NSMutableDictionary *_assetInfoByArrayIndexByRecordKeyByRecordID;
-    CDUnknownBlockType _perRecordProgressBlock;
-    CDUnknownBlockType _perRecordCompletionBlock;
-    CDUnknownBlockType _perRecordETagMatchedBlock;
-    CDUnknownBlockType _fetchRecordsCompletionBlock;
-    NSArray *_recordIDs;
-    NSArray *_desiredKeys;
-    unsigned long long _mergeableValueCount;
-    unsigned long long _mergeableDeltaCount;
-    unsigned long long _assetBackedMergeableDeltaCount;
-    CDUnknownBlockType _perRecordProgressBlock_wrapper;
-    CDUnknownBlockType _perRecordCompletionBlock_wrapper;
-    CDUnknownBlockType _perRecordETagMatchedBlock_wrapper;
-    CDUnknownBlockType _fetchRecordsCompletionBlock_wrapper;
-    NSMutableDictionary *_recordErrors;
-    NSDictionary *_webSharingIdentityDataByRecordID;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
-    NSMutableDictionary *_recordIDsToRecords;
-    NSDictionary *_desiredPackageFileIndices;
-    NSDictionary *_recordIDsToETags;
-    NSDictionary *_recordIDsToVersionETags;
 }
 
 + (SEL);
@@ -45,38 +18,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *assetInfoByArrayIndexByRecordKeyByRecordID; // @synthesize assetInfoByArrayIndexByRecordKeyByRecordID=_assetInfoByArrayIndexByRecordKeyByRecordID;
-@property(copy, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
 @property(readonly, nonatomic) id <CKFetchRecordsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(copy, nonatomic) NSDictionary *desiredPackageFileIndices; // @synthesize desiredPackageFileIndices=_desiredPackageFileIndices;
-@property(nonatomic) _Bool dropInMemoryAssetContentASAP; // @synthesize dropInMemoryAssetContentASAP=_dropInMemoryAssetContentASAP;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordsCompletionBlock; // @synthesize fetchRecordsCompletionBlock=_fetchRecordsCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordsCompletionBlock_wrapper; // @synthesize fetchRecordsCompletionBlock_wrapper=_fetchRecordsCompletionBlock_wrapper;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFetchCurrentUserOperation; // @synthesize isFetchCurrentUserOperation=_isFetchCurrentUserOperation;
-@property(readonly, nonatomic) CKFetchRecordsOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perRecordCompletionBlock; // @synthesize perRecordCompletionBlock=_perRecordCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordCompletionBlock_wrapper; // @synthesize perRecordCompletionBlock_wrapper=_perRecordCompletionBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType perRecordETagMatchedBlock; // @synthesize perRecordETagMatchedBlock=_perRecordETagMatchedBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordETagMatchedBlock_wrapper; // @synthesize perRecordETagMatchedBlock_wrapper=_perRecordETagMatchedBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType perRecordProgressBlock; // @synthesize perRecordProgressBlock=_perRecordProgressBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordProgressBlock_wrapper; // @synthesize perRecordProgressBlock_wrapper=_perRecordProgressBlock_wrapper;
-@property(copy, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(copy, nonatomic) NSDictionary *recordIDsToETags; // @synthesize recordIDsToETags=_recordIDsToETags;
-@property(retain, nonatomic) NSMutableDictionary *recordIDsToRecords; // @synthesize recordIDsToRecords=_recordIDsToRecords;
-@property(copy, nonatomic) NSDictionary *recordIDsToVersionETags; // @synthesize recordIDsToVersionETags=_recordIDsToVersionETags;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
-@property(nonatomic) _Bool shouldFetchAssetContentInMemory; // @synthesize shouldFetchAssetContentInMemory=_shouldFetchAssetContentInMemory;
-@property(nonatomic) _Bool shouldRequestEncryptedAssetOwnerIdentifier; // @synthesize shouldRequestEncryptedAssetOwnerIdentifier=_shouldRequestEncryptedAssetOwnerIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *webSharingIdentityDataByRecordID; // @synthesize webSharingIdentityDataByRecordID=_webSharingIdentityDataByRecordID;
 
 @end
 

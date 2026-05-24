@@ -7,10 +7,6 @@
 @interface NewsFeed.SportsDataServiceRequestFetcher
 {
     id connection;
-    id jsonDecoder;
-    id resourceService;
-    id authTokenManager;
-    id callbackQueue;
 }
 
 @end

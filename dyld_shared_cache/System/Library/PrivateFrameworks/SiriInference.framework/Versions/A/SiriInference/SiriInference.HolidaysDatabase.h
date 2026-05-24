@@ -7,8 +7,6 @@
 @interface SiriInference.HolidaysDatabase
 {
     id readonly;
-    id dbLock;
-    id storedDatabase;
 }
 
 @end

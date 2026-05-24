@@ -4,44 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IAMEvent
 {
     NSString *_name;
-    long long _type;
 }
 
-- (_Bool);
-- (id);
-- (long long);
-- (void);
+- (_Bool)I;
+- (id)i;
+- (long long)experimentUpdateScheduler;
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSDictionary *payload;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *source;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) id value;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,C,N
-
 
 @end
 

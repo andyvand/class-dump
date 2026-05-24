@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class SAUIAssistantUtteranceView, SAUIButton;
+@class SAUIButton;
 
 @interface SAUIDialogPunchout : SAAceView
 {
@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAUIButton *buttonView;
-@property(retain, nonatomic) SAUIAssistantUtteranceView *utteranceView;
 
 @end
 

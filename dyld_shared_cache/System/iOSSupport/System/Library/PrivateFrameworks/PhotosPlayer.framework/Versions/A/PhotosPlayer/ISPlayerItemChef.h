@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue;
 
 @interface ISPlayerItemChef
 {
     NSOperationQueue *__operationQueue;
-    NSObject<OS_dispatch_queue> *__isolationQueue;
-    NSMutableDictionary *__operationsByRequestID;
-    long long __currentRequestID;
 }
 
-+ (id);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
++ (id)N,V_retryCount;
+- (long long)_defaultTextAlignment;
+- (long long)_debugLayoutOptionsProvider;
+- (void)_allowsScrollPositionRestore;
+- (void){CGSize=dd}},N,V_typographicBounds;
+- (id)dd}{CGSize=dd}},N;
+- (long long)eHeight;
+- (id)on;
+- (id)Index;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setCurrentRequestID:) long long _currentRequestID; // @synthesize _currentRequestID=__currentRequestID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *_isolationQueue; // @synthesize _isolationQueue=__isolationQueue;
 @property(readonly, nonatomic) NSOperationQueue *_operationQueue; // @synthesize _operationQueue=__operationQueue;
-@property(readonly, nonatomic) NSMutableDictionary *_operationsByRequestID; // @synthesize _operationsByRequestID=__operationsByRequestID;
 
 @end
 

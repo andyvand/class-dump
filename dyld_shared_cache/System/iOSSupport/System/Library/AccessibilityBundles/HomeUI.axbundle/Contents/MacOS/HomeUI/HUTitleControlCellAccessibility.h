@@ -14,11 +14,11 @@
 + (id);
 + (void);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)=;
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)validateClass:hasInstanceMethod:withFullSignature: /* Error: Ran out of types for this method. */;
 
 @end
 

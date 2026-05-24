@@ -8,23 +8,21 @@ __attribute__((visibility("hidden")))
 @interface LSSliceInfo
 {
     int _type;
-    int _subtype;
 }
 
-+ (_Bool);
++ (_Bool)0:8@"MTLBufferDescriptor"16 /* Error: Ran out of types for this method. */;
 - (struct LSSliceData);
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (id);
 - (unsigned long long);
 - (int);
 - (_Bool);
-- (void);
+- (void)H ;
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) int subtype; // @synthesize subtype=_subtype;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end

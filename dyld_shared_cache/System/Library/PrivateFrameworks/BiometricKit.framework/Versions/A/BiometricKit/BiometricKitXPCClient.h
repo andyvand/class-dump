@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BiometricKitXPCClientConnection;
 @protocol BiometricKitXPCClientDelegate><BiometricKitDelegateXpcProtocol;
 
 @interface BiometricKitXPCClient
 {
     unsigned long long _clientID;
-    unsigned long long _connectionID;
-    long long _clientType;
-    BiometricKitXPCClientConnection *_connection;
-    _Bool _connectionInitialized;
-    _Bool _connectionInvalidated;
-    _Bool _connectionInterrupted;
-    id <BiometricKitXPCClientDelegate><BiometricKitDelegateXpcProtocol> _delegate;
 }
 
-+ (id);
++ (id)tx;
 + (void);
 - (int);
 - (long long);
@@ -33,25 +25,25 @@
 - (int);
 - (_Bool);
 - (void);
+- (id)%@;
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (void);
+- (int);
+- (int);
 - (id);
 - (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (void);
-- (int);
-- (int);
-- (id);
-- (int);
 - (void);
 - (void);
-- (int);
+- (int);
 - (int);
 - (_Bool);
 - (id);
 - (int);
-- (id);
+- (id)setCurrentRequestingViewIdentifier: /* Error: Ran out of types for this method. */;
 - (int);
 - (int);
 - (id);
@@ -62,17 +54,17 @@
 - (long long);
 - (void);
 - (int);
-- (void);
-- (long long);
-- (void);
+- (void)oLineBreakMinVerticalDistance;
+- (long long);
+- (void)ector;
 - (int);
 - (id);
 - (int);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)R#;
 - (void);
 - (void);
 - (int);
@@ -93,10 +85,10 @@
 - (void);
 - (unsigned long long);
 - (int);
-- (int);
-- (int);
+- (int)$<;
+- (int)didPostScanCompleteNotification;
 - (id);
-- (int);
+- (int);
 - (void);
 - (void);
 - (id);
@@ -107,8 +99,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clientID;
-@property(readonly, nonatomic) unsigned long long connectionId;
 @property(nonatomic) __weak id <BiometricKitXPCClientDelegate><BiometricKitDelegateXpcProtocol> delegate; // @synthesize delegate=_delegate;
 
 @end

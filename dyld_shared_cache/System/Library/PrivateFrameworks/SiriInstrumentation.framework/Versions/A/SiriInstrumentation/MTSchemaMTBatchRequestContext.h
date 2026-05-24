@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTBatchRequestCancelled, MTSchemaMTBatchRequestEnded, MTSchemaMTBatchRequestFailed, MTSchemaMTBatchRequestStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MTSchemaMTBatchRequestContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    MTSchemaMTBatchRequestStarted *_startedOrChanged;
-    MTSchemaMTBatchRequestEnded *_ended;
-    MTSchemaMTBatchRequestFailed *_failed;
-    MTSchemaMTBatchRequestCancelled *_cancelled;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -31,7 +21,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)	?׹j:8H /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -40,13 +30,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)40@0:(_Bool)arg1 8@16q24q32;
+- (_Bool),N,V_parentView;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/evp/evp_pbe.c;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -58,23 +48,12 @@
 - (void)torSiriSchemaExecutorIdentifierQueryCallFailed";
 - (id)upMissingAssetsDetected;
 - (id)V_nearMissPitchLists;
-- (void)ate;
+- (void)NETSchemaNETConnectionState;
 - (void)rë&;
 - (id)óå';
 
 // Remaining properties
-@property(retain, nonatomic) MTSchemaMTBatchRequestCancelled *cancelled; // @synthesize cancelled=_cancelled;
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) MTSchemaMTBatchRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) MTSchemaMTBatchRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MTSchemaMTBatchRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

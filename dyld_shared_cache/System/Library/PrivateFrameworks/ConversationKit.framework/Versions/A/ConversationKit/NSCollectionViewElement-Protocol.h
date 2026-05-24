@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCollectionViewLayout, NSCollectionViewLayoutAttributes;
+
 @protocol NSCollectionViewElement
+
+@optional
+- (void)essed_pair<std:(NSCollectionViewLayout *)arg1:(NSCollectionViewLayout *)arg2 __1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}}{CLDaemonLocation=i{?=dd}ddddddddidi{?=dd}diIiii}ii}{LteCell=iiiiiiiddiiii}} /* Error: Ran out of types for this method. */;
+- (void)@@;
+- (NSCollectionViewLayoutAttributes *);
+- (void)ChartLayoutAttributesFactoryType;
 @end
 

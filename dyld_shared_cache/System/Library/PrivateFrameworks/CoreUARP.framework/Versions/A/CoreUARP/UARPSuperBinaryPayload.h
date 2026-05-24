@@ -4,40 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTABFile, NSArray, NSData, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableString, NSNumber, NSString, UARPAssetTag, UARPAssetVersion;
+@class NSMutableArray, UARPAssetTag;
 
 @interface UARPSuperBinaryPayload
 {
     NSMutableArray *_tlvs;
-    _Bool _needsHostPersonalization;
-    FTABFile *_ftab;
-    NSData *_manifest;
-    NSMutableDictionary *_tssRequest;
-    NSMutableString *_keyManifest;
-    unsigned long long _uinitNumber;
-    NSString *_ticketPrefix;
-    _Bool _ticketNeedsUnitNumber;
-    _Bool _suffixNeedsUnitNumber;
-    _Bool _prefixNeedsUnitNumber;
-    NSMutableArray *_measurements;
-    NSMutableArray *_trimmedTlvs;
-    NSMutableArray *_subfiles;
-    unsigned char _productionMode;
-    unsigned char _securityDomain;
-    unsigned char _securityMode;
-    unsigned int _boardID;
-    unsigned int _chipID;
-    UARPAssetTag *_tag;
-    UARPAssetVersion *_version;
-    NSData *_payloadData;
-    NSData *_metaData;
-    unsigned long long _ecID;
-    NSData *_nonce;
-    NSNumber *_trustedOverride;
-    NSNumber *_demote;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -50,63 +24,46 @@
 - (void);
 - (void);
 - (unsigned char);
-- (id);
+- (id) ;
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned char);
+- (void);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)1%;
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)}}};
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id)!ʚ;
 - (id);
 - (void);
 - (void);
 - (unsigned char);
 - (void);
-- (id);
+- (id)setHasShouldBeginRadioPlayback: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id)#;
 - (id);
 - (void);
-- (id);
+- (id)ackpoint %f is greater than max %f, clamping;
 
 // Remaining properties
-@property unsigned int boardID; // @synthesize boardID=_boardID;
-@property unsigned int chipID; // @synthesize chipID=_chipID;
-@property(copy) NSNumber *demote; // @synthesize demote=_demote;
-@property unsigned long long ecID; // @synthesize ecID=_ecID;
-@property(copy) NSData *manifest; // @synthesize manifest=_manifest;
-@property(readonly) NSArray *measurements; // @synthesize measurements=_measurements;
-@property(readonly) NSData *metaData; // @synthesize metaData=_metaData;
-@property(readonly) _Bool needsHostPersonalization; // @synthesize needsHostPersonalization=_needsHostPersonalization;
-@property(copy) NSData *nonce; // @synthesize nonce=_nonce;
-@property(readonly) NSData *payloadData; // @synthesize payloadData=_payloadData;
-@property unsigned char productionMode; // @synthesize productionMode=_productionMode;
-@property unsigned char securityDomain; // @synthesize securityDomain=_securityDomain;
-@property unsigned char securityMode; // @synthesize securityMode=_securityMode;
 @property(readonly) UARPAssetTag *tag; // @synthesize tag=_tag;
-@property(readonly) NSArray *tlvs; // @synthesize tlvs=_tlvs;
-@property(copy) NSNumber *trustedOverride; // @synthesize trustedOverride=_trustedOverride;
-@property(readonly) NSDictionary *tssRequest; // @synthesize tssRequest=_tssRequest;
-@property(readonly) UARPAssetVersion *version; // @synthesize version=_version;
 
 @end
 

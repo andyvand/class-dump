@@ -9,16 +9,13 @@
 @interface MNVehicleMonitor
 {
     id <MNVehicleMonitorDelegate> _delegate;
-    int _vehicleConnectedToken;
-    int _vehicleDisconnectedToken;
-    _Bool _isMonitoring;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)";
+- (void)verDidLaunchNotification;
 - (void)a°!CùQ1Â0@ù
 × ;
 

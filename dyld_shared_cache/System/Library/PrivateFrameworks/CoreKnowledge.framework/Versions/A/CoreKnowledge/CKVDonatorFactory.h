@@ -12,7 +12,7 @@
     NSObject<CCDonateServiceProvider> *_serviceProvider;
 }
 
-- (id);
+- (id)TRIPBStringUInt64Dictionary;
 - (void);
 
 @end

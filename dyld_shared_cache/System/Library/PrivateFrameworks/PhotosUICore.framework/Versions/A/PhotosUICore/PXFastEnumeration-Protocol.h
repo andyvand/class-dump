@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(readonly) unsigned long long count;
-@property(readonly, nonatomic) id firstObject;
 @end
 

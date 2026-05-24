@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKApplyWebServiceResponse.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface PKApplyWebServiceTermsDataResponse : PKApplyWebServiceResponse
 {
     NSData *_termsData;
-    NSString *_termsDataFileName;
 }
 
 + (_Bool)X"ð!@Cùî%ð1Â0@ù
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *termsData; // @synthesize termsData=_termsData;
-@property(copy, nonatomic) NSString *termsDataFileName; // @synthesize termsDataFileName=_termsDataFileName;
 
 @end
 

@@ -9,25 +9,19 @@
 @interface IPCircularBufferArray
 {
     NSMutableArray *_backingStore;
-    unsigned long long _currentIndex;
-    unsigned long long _capacity;
-    unsigned long long _mutationDetector;
-    id _lastObject;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long)n;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allObjects;
-@property(readonly) unsigned long long count;
-@property(readonly, nonatomic) id lastObject;
 
 @end
 

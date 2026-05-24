@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSURL, NSUUID;
+@class NSDate, NSUUID;
 
 @protocol AFClockItem
+- (_Bool);
+- (NSUUID *);
+- (NSDate *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *dismissedDate;
-@property(readonly, copy, nonatomic) NSDate *firedDate;
-@property(readonly, nonatomic) _Bool isFiring;
 @property(readonly, nonatomic) NSUUID *itemID;
-@property(readonly, nonatomic) NSURL *itemURL;
-@property(readonly, copy, nonatomic) NSDate *lastModifiedDate;
 @end
 

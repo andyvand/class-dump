@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface VCSwitchManager
 {
     unsigned int _localSwitches;
-    unsigned int _remoteSwitches;
-    unsigned int _negotiatedSwitches;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -23,8 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,8 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property unsigned int localSwitches; // @synthesize localSwitches=_localSwitches;
-@property unsigned int negotiatedSwitches; // @synthesize negotiatedSwitches=_negotiatedSwitches;
-@property unsigned int remoteSwitches; // @synthesize remoteSwitches=_remoteSwitches;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface ProximityReader.MobileDocumentReaderSession
 {
     id sessionIdentifier;
+    id;
 }
 
 @end

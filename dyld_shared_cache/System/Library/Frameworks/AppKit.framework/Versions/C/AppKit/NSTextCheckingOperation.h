@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSOrthography, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSTextCheckingOperation
 {
     NSString *_string;
-    struct _NSRange _range;
-    unsigned long long _offset;
-    unsigned long long _checkingTypes;
-    NSDictionary *_options;
-    long long _tag;
-    long long _sequenceNumber;
-    id _completionHandler;
-    NSArray *_results;
-    NSOrthography *_orthography;
-    long long _wordCount;
 }
 
-- (long long);
+- (long long)m.apple.MobileGestalt;
 - (void);
 - (id);
 - (id);
@@ -32,10 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSOrthography *orthography;
-@property(readonly) NSArray *results;
 @property(readonly) long long sequenceNumber;
-@property(readonly) long long wordCount;
 
 @end
 

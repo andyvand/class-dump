@@ -6,14 +6,11 @@
 
 #import <MPSNDArray/MPSNDArrayMultiaryKernel.h>
 
-@class MPSParallelRandom, MPSParallelRandomDistributionDescriptor;
+@class MPSParallelRandomDistributionDescriptor;
 
 @interface MPSNDArrayInitialization : MPSNDArrayMultiaryKernel
 {
     MPSParallelRandomDistributionDescriptor *_distribution;
-    MPSParallelRandom *_generator;
-    unsigned long long _seed;
-    float _constantValue;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -23,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

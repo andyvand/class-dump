@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBCurrencyAmountValue, _INPBDateTimeRange, _INPBFinancialAccountValue, _INPBPaymentAmountValue;
+@class _INPBFinancialAccountValue;
 
 @interface _INPBTransferMoneyIntentResponse
 {
     struct _has;
-    _INPBFinancialAccountValue *_fromAccount;
-    _INPBFinancialAccountValue *_toAccount;
-    _INPBPaymentAmountValue *_transactionAmount;
-    NSString *_transactionNote;
-    _INPBDateTimeRange *_transactionScheduledDate;
-    _INPBCurrencyAmountValue *_transferFee;
 }
 
 + (_Bool);
@@ -39,33 +33,15 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)";
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)nseCodeFailureOnlyAnnouncersDeviceIsAvailable;
+- (void)INSendAnnouncementIntentResponseCodeFailureOnlyAnnouncersDeviceIsAvailable;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBFinancialAccountValue *fromAccount; // @synthesize fromAccount=_fromAccount;
-@property(readonly, nonatomic) _Bool hasFromAccount;
-@property(readonly, nonatomic) _Bool hasToAccount;
-@property(readonly, nonatomic) _Bool hasTransactionAmount;
-@property(readonly, nonatomic) _Bool hasTransactionNote;
-@property(readonly, nonatomic) _Bool hasTransactionScheduledDate;
-@property(readonly, nonatomic) _Bool hasTransferFee;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBFinancialAccountValue *toAccount; // @synthesize toAccount=_toAccount;
-@property(retain, nonatomic) _INPBPaymentAmountValue *transactionAmount; // @synthesize transactionAmount=_transactionAmount;
-@property(copy, nonatomic) NSString *transactionNote; // @synthesize transactionNote=_transactionNote;
-@property(retain, nonatomic) _INPBDateTimeRange *transactionScheduledDate; // @synthesize transactionScheduledDate=_transactionScheduledDate;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *transferFee; // @synthesize transferFee=_transferFee;
 
 @end
 

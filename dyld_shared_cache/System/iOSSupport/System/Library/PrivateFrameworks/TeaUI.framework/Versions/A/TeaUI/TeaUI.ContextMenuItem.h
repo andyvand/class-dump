@@ -7,13 +7,6 @@
 @interface TeaUI.ContextMenuItem
 {
     id identifier;
-    id imageBlock;
-    id optionsBlock;
-    id stateBlock;
-    id actionBlock;
-    id titleBlock;
-    id subtitleBlock;
-    id canExecute;
 }
 
 @end

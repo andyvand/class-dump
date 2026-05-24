@@ -7,14 +7,6 @@
 @interface ChronoKit.DuetWidgetViewRecorder
 {
     id maxTimeElapsedBeforeFlush;
-    id maxTimeElapsedBeforeFlushLeeway;
-    id viewProvider;
-    id records;
-    id completedEntries;
-    id timer;
-    id assertionExpirationTimer;
-    id runningAssertion;
-    id processTarget;
 }
 
 @end

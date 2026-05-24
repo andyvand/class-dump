@@ -5,5 +5,10 @@
 //
 
 @protocol _UIDocumentPickerViewControllerHost
+- (void)16@"NSString"24C32@"IMMessageItem"36@"NSNumber"44B52;
+- (void)IMMarkUnreadRequestPipelineParameter;
+- (void)IMDeferReplicatedMessageParameter;
+- (void)IMTextMessagePipelineParameter;
+- (void)IMReadReceiptProcessingPipelineComponent;
 @end
 

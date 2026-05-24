@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PKEnumerator;
+@protocol PKApplicationWorkspaceProxy;
+
 @protocol PKLaunchServicesProvider
+- (PKEnumerator *)'F;
+- (_Bool)';
+- (id <PKApplicationWorkspaceProxy>);
 
 // Remaining properties
 @property(readonly) _Bool hasLSDatabaseAccess;

@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)on;
++ (id)_UIWindowDidBecomeApplicationKeyNotification;
 + (long long)¼Æ`þÐg;
 
 @end

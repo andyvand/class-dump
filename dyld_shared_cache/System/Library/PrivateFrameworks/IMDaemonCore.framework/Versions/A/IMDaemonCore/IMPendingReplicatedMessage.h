@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface IMPendingReplicatedMessage
 {
     NSString *_messageGUID;
-    NSArray *_replicatedFallbackGUIDs;
-    CDUnknownBlockType _releaseBlock;
-    NSDate *_date;
 }
 
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)qk;
 - (id);
 - (void);
 - (void)};
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(copy, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(copy, nonatomic) CDUnknownBlockType releaseBlock; // @synthesize releaseBlock=_releaseBlock;
-@property(copy, nonatomic) NSArray *replicatedFallbackGUIDs; // @synthesize replicatedFallbackGUIDs=_replicatedFallbackGUIDs;
 
 @end
 

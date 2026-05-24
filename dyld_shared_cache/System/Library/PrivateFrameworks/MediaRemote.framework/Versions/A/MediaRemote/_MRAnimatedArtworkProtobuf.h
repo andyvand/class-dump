@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _MRAnimatedArtworkProtobuf
 {
     NSData *_assetFileURLData;
-    NSString *_type;
 }
 
 - (void);
@@ -19,21 +18,18 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)unitTesting;
+- (id)eturning carrier bundle value %tu for key IMiMessageMaxTransferVideoFileSizeForWifiForPhoneNumber;
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool)etPlaybackSessionMigratePostMessage: /* Error: Ran out of types for this method. */;
+- (void)!= nil;
+- (id)tions]_block_invoke;
+- (_Bool)setPlaybackSessionMigratePostMessage: /* Error: Ran out of types for this method. */;
 - (void)Td,N,V_deviceRemovedWaitInterval;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *assetFileURLData; // @synthesize assetFileURLData=_assetFileURLData;
-@property(readonly, nonatomic) _Bool hasAssetFileURLData;
 @property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

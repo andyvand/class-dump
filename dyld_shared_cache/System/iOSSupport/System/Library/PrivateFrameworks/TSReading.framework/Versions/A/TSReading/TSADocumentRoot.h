@@ -6,51 +6,38 @@
 
 #import <TSReading/TSKDocumentRoot.h>
 
-@class NSMutableDictionary, NSMutableSet, NSSet, NSString, TSADrawableFactory, TSTCustomFormatList;
-@protocol TSADocumentRootDelegate;
-
 @interface TSADocumentRoot : TSKDocumentRoot
 {
     int _needsToCaptureViewState;
-    id <TSADocumentRootDelegate> _delegate;
-    NSMutableDictionary *_upgradeState;
-    NSMutableSet *_warnings;
-    NSString *_creationLanguage;
-    unsigned long long _creationLanguageWritingDirection;
-    TSTCustomFormatList *_tablesCustomFormatList;
-    _Bool _needsMovieCompatibilityUpgrade;
-    _Bool _isClosed;
-    NSString *_templateIdentifier;
-    _Bool _hasPreUFFVersion;
 }
 
 + (id);
+- (_Bool)PausedAtQueueEndState;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)NMPCExternalContentErrorCode;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id));
+- (void);
+- (void);
+- (void);
+- (void)$;;
 - (id);
+- (void)+]B;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -61,7 +48,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (_Bool);
@@ -97,33 +84,10 @@
 - (void);
 - (void);
 - (id);
-- (id)fr_elementMax;
+- (id)sfr_elementMax;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *defaultDraftName;
-@property(nonatomic) id <TSADocumentRootDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDocumentEditedSinceLastSave) _Bool documentEditedSinceLastSave;
-@property(readonly, nonatomic) TSADrawableFactory *drawableFactory;
 @property(nonatomic) _Bool hasPreUFFVersion; // @synthesize hasPreUFFVersion=_hasPreUFFVersion;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool importingDesignDemoDoc;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isBrowsingVersions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSSet *missingFontWarningMessages;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) _Bool needsMovieCompatibilityUpgrade;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *templateIdentifier;
 
 @end
 

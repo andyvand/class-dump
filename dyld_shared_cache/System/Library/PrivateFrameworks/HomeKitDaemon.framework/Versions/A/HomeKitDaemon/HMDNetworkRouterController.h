@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, HMDService, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterController
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHAPAccessory *_accessory;
-    HMDService *_routerService;
 }
 
 + (id)º½ÿ4°B;
@@ -26,12 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,16 +46,6 @@ __attribute__((visibility("hidden")))
 - (void)ventNotificationObserver>"8;
 
 // Remaining properties
-@property(nonatomic) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDService *routerService; // @synthesize routerService=_routerService;
-@property(readonly) Class superclass;
-@property(readonly) NSString *wiFiSSID;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -6,13 +6,11 @@
 
 #import <MLCompute/MLCOptimizer.h>
 
-@class MLCOptimizerDescriptor, NSString;
+@class MLCOptimizerDescriptor;
 
 @interface MLCSGDOptimizer : MLCOptimizer
 {
     _Bool _usesNesterovMomentum;
-    float _momentumScale;
-    MLCOptimizerDescriptor *_optimizerDescriptor;
 }
 
 + (id);
@@ -27,16 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) float momentumScale; // @synthesize momentumScale=_momentumScale;
 @property(readonly, nonatomic) MLCOptimizerDescriptor *optimizerDescriptor; // @synthesize optimizerDescriptor=_optimizerDescriptor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesNesterovMomentum; // @synthesize usesNesterovMomentum=_usesNesterovMomentum;
 
 @end
 

@@ -6,36 +6,21 @@
 
 #import <AppKit/NSVisualEffectView.h>
 
-@class NSFloatRange;
-
 @interface NSPopoverFrame : NSVisualEffectView
 {
     id _privatePopoverFrameData;
-    struct {
-        unsigned int useDragWindowAppearance:1;
-        unsigned int unused1:1;
-        unsigned int unused2:1;
-        unsigned int unused3:1;
-        unsigned int unused4:1;
-        unsigned int unused5:1;
-        unsigned int shouldInsetForAnchor:1;
-        unsigned int wantsDragWindowAppearance:1;
-        unsigned int _reserved:24;
-    } _flags;
-    _Bool _usesLayerMasking;
-    _Bool _hasFullSizeContent;
 }
 
-+ (struct CGSize);
++ (struct CGSize)r be called;
 + (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect)h;
 + (struct CGRect);
 + (id);
-+ (struct CGRect);
-+ (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect)initialize;
++ (struct CGRect)r %d converting];
++ (struct CGRect)-SEND;
++ (_Bool)t DB opened at %@.;
 + (_Bool);
-+ (_Bool);
 - (id);
 - (_Bool);
 - (struct CGRect);
@@ -43,19 +28,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool);
+- (id)ate() failed %s;
 - (id);
 - (id);
 - (_Bool);
@@ -64,37 +49,37 @@
 - (unsigned long long);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)tionMetrics";
+- (void)16r*24;
+- (id)40@0:8@"NSURLSession"16@"NSURLSessionTask"24@"NSError"32 /* Error: Ran out of types for this method. */;
+- (struct CGSize)connection:didReceiveResponse: /* Error: Ran out of types for this method. */;
+- (unsigned long long)connection:didReceiveData:lengthReceived: /* Error: Ran out of types for this method. */;
+- (void)_preventsIdleSystemSleep;
+- (void)tpConnectionInfoCompletionBlock;
+- (_Bool)"NSDictionary",C,V_connectionProxyDictionary;
+- (id)AssetDownloadChildDownloadSessionIdentifier;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)lic}@ url %@ code %ld token %@ flag %lu;
+- (void)ed frame type %llu;
+- (void)e %{public}@;
+- (void)pt SO_TRAFFIC_CLASS failed;
+- (void)=%@;
+- (void);
 - (void);
 - (id);
-- (struct CGSize);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
+- (_Bool)est_object,									 proto_props, user_info) 									 VALUES (%q, %q, %q, %q, %q);;
+- (_Bool)AIL:_sqlInsertStmtResponse=%p, DB=%@, error-code:%d. /* Error: Ran out of types for this method. */;
+- (void)headerFields;
+- (_Bool)ection %p (PowerNap);
+- (_Bool)NSURLDownloadMacBinaryDataForkLength;
+- (_Bool)ject<OS_nw_endpoint>"12d20;
+- (long long)http/1.1;
+- (id)@;
 - (double);
-- (struct CGPath *);
+- (struct CGPath *)@;
 - (id);
 - (id);
 - (struct CGPath *);
@@ -102,37 +87,28 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)/lib/libz.1.dylib;
 - (void);
 - (_Bool);
 - (struct NSEdgeInsets);
 - (void);
 - (void);
 - (double);
-- (void)ationForWindow:(id)arg1;
-- (id)tialValue;
+- (void)tabBar:(id)arg1 didFinishTransitionAnimationForWindow: /* Error: Ran out of types for this method. */;
+- (id)initialValue;
 - (struct CGPoint)FÜþÿ¤¤üÿ@(ýÿ'ýÿ;
 - (id)Windows.m;
-- (void)lValueKey;
+- (void)kCUINeutralValueKey;
 
 // Remaining properties
-@property(setter=_setWantsDragWindowAppearance:) _Bool _wantsDragWindowAppearance;
 @property unsigned long long anchorEdge;
-@property struct CGPoint anchorPoint;
-@property struct CGSize anchorSize;
-@property struct NSEdgeInsets contentInset;
-@property(nonatomic) _Bool hasFullSizeContent; // @synthesize hasFullSizeContent=_hasFullSizeContent;
-@property(retain, nonatomic) NSFloatRange *rangeOfInterest1;
-@property(retain, nonatomic) NSFloatRange *rangeOfInterest2;
-@property _Bool shouldInsetForAnchor;
-@property(nonatomic) _Bool usesLayerMasking; // @synthesize usesLayerMasking=_usesLayerMasking;
 
 @end
 

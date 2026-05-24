@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UXView;
+@class UXView;
 
 @interface PXToastConfiguration
 {
     _Bool _canSwipeToDismiss;
-    NSString *_message;
-    NSString *_iconSystemImageName;
-    double _autoDismissalDelay;
-    UXView *_contentView;
-    UXView *_sourceView;
-    double _bottomMargin;
 }
 
 - (void);
@@ -28,21 +22,15 @@
 - (void);
 - (id);
 - (void);
-- (void)oManager:(id)arg1 resultHandler: /* Error: Ran out of types for this method. */;
-- (id)tion:(struct _NSZone *)arg1 delegate: /* Error: Ran out of types for this method. */;
-- (void)urce;
-- (id)PXFaceTilePasteboardItemData;
+- (void)writePersistableRecipe:(id)arg1 assetEdits:undoManager:resultHandler: /* Error: Ran out of types for this method. */;
+- (id)sharedLibraryBannerViewForConfiguration:(struct _NSZone *)arg1 delegate: /* Error: Ran out of types for this method. */;
+- (void)lastPlaybackTimeChangeSource;
+- (id)IPXFaceTilePasteboardItemData;
 - (void)ÿ;
 - (id)A¹ë;
 
 // Remaining properties
-@property(nonatomic) double autoDismissalDelay; // @synthesize autoDismissalDelay=_autoDismissalDelay;
-@property(nonatomic) double bottomMargin; // @synthesize bottomMargin=_bottomMargin;
-@property(nonatomic) _Bool canSwipeToDismiss; // @synthesize canSwipeToDismiss=_canSwipeToDismiss;
 @property(retain, nonatomic) UXView *contentView; // @synthesize contentView=_contentView;
-@property(copy, nonatomic) NSString *iconSystemImageName; // @synthesize iconSystemImageName=_iconSystemImageName;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) __weak UXView *sourceView; // @synthesize sourceView=_sourceView;
 
 @end
 

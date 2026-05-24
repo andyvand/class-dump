@@ -9,37 +9,30 @@
 @interface MKApplicationStateMonitor
 {
     RBSProcessMonitor *_processMonitor;
-    _Bool _inBackground;
-    _Bool _active;
-    _Bool _isVisible;
-    unsigned long long _observerCount;
-    _Bool _forceRunningBoardServicesMonitoring;
 }
 
-+ (id)rrentLocation;
++ (id)_isCurrentLocation;
+- (void);
 - (void);
+- (void)s;
+- (void)@;
 - (void);
-- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void)?;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)presentation: /* Error: Ran out of types for this method. */;
-- (void)laceCollectionIds;
+- (_Bool)annotationManager:didDeselectAnnotationRepresentation: /* Error: Ran out of types for this method. */;
+- (void)_placeCollectionIds;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
 @property(nonatomic) _Bool forceRunningBoardServicesMonitoring; // @synthesize forceRunningBoardServicesMonitoring=_forceRunningBoardServicesMonitoring;
-@property(readonly, nonatomic, getter=isInBackground) _Bool inBackground; // @synthesize inBackground=_inBackground;
 
 @end
 

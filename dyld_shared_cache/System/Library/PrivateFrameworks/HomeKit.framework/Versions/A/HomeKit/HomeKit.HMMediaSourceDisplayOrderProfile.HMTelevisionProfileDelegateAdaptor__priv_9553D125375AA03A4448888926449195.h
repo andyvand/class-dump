@@ -7,7 +7,6 @@
 @interface HomeKit.HMMediaSourceDisplayOrderProfile.HMTelevisionProfileDelegateAdaptor__priv_9553D125375AA03A4448888926449195
 {
     id televisionProfile;
-    id displayOrderProfile;
 }
 
 - (void);

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol WBSSearchEnginePreferenceObserverDelegate, WBSSearchProviderContext;
 
 @interface WBSSearchEnginePreferenceObserver
 {
     id <WBSSearchProviderContext> _searchProviderContext;
-    _Bool _duckDuckGoDefaultSearchEngine;
-    _Bool _googleIsDefaultSearchEngine;
-    _Bool _isGoogleEnabledSearchEngine;
-    id <WBSSearchEnginePreferenceObserverDelegate> _delegate;
 }
 
 + (void);
@@ -27,19 +22,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)setSingleDotRect: /* Error: Ran out of types for this method. */;
+- (void)ICSecureKeyDeliveryRequestOperation;
 - (void)XÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool defaultSearchEngineMatchesExperiment;
-@property(readonly, copy, nonatomic) NSString *defaultSearchEngineShortName;
 @property(nonatomic) __weak id <WBSSearchEnginePreferenceObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool duckDuckGoDefaultSearchEngine; // @synthesize duckDuckGoDefaultSearchEngine=_duckDuckGoDefaultSearchEngine;
-@property(readonly, nonatomic) _Bool googleIsDefaultSearchEngine; // @synthesize googleIsDefaultSearchEngine=_googleIsDefaultSearchEngine;
-@property(readonly, nonatomic) _Bool isABTestingEnabled;
-@property(readonly, nonatomic) _Bool isGoogleEnabledSearchEngine; // @synthesize isGoogleEnabledSearchEngine=_isGoogleEnabledSearchEngine;
 
 @end
 

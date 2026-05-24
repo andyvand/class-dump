@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, NWBrowser;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface NWRemoteBrowserWrapper
 {
     NSUUID *_clientID;
-    NWBrowser *_browser;
 }
 
 - (void);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void)@;
 
 // Remaining properties
-@property(retain) NWBrowser *browser; // @synthesize browser=_browser;
 @property(retain) NSUUID *clientID; // @synthesize clientID=_clientID;
 
 @end

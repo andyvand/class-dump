@@ -7,14 +7,12 @@
 @class NSString;
 
 @protocol PXCMMInvitationParticipant
+- (NSString *)";
+- (NSString *)a;
 - (NSString *)dä;
 - (NSString *)Error:Accept Invitation Failed (U13) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *emailAddressString;
-@property(readonly, nonatomic) NSString *firstName;
-@property(readonly, nonatomic) NSString *lastName;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *phoneNumberString;
 @end
 

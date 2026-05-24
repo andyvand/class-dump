@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
-@protocol UICoordinateSpace, UIFocusEnvironment, UIFocusItem;
+@protocol UIFocusEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusGroup
@@ -16,57 +15,40 @@ __attribute__((visibility("hidden")))
         unsigned int primaryItemValid:1;
         unsigned int primaryRectValid:1;
     } _flags;
-    NSMutableArray *_childGroups;
-    NSMutableArray *_items;
-    id <UIFocusItem> _primaryItem;
-    NSString *_identifier;
-    _UIFocusGroup *_parentGroup;
-    id <UICoordinateSpace> _coordinateSpace;
-    id <UIFocusEnvironment> _owningEnvironment;
-    struct CGRect _primaryRect;
-    struct CGRect _boundingBox;
 }
 
 + (id);
+- (struct CGRect)stringByDeletingLastPathComponent;
+- (id)identifier:error: /* Error: Ran out of types for this method. */;
+- (_Bool)makeTopLevelMessageDictionaryFrom:(id)arg1 batchContext: /* Error: Ran out of types for this method. */;
+- (id)groupPhotoUpdatedForChatIdentifier:(id)arg1 style:(id)arg2 account:(id)arg3 userInfo: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void).;
+- (void)Delete record operation unsupported.;
+- (void)Not calling write messages on second callback from fetch archived records;
+- (void)ng live messages, currentBatchCount %@ maxNumberOfBatches %@;
+- (void)lyUsingCKRecord transferGUID %@;
+- (id)und for recordName (%@) with local guid (%@);
+- (void);
+- (id);
+- (void)ableRecordsToDownload;
+- (id)?;
+- (id)";
+- (id);
+- (id);
+- (unsigned long long);
 - (struct CGRect);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (struct CGRect);
-- (_Bool)cationProxy;
-- (id)nBecomeFirstResponder;
+- (_Bool)targetApplicationProxy;
+- (id)disableScrollToSelectionOnBecomeFirstResponder;
 - (id);
 - (id)@?0;
 - (void)Ç[;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly, nonatomic) NSArray *childGroups;
-@property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSArray *items;
 @property(readonly, nonatomic) id <UIFocusEnvironment> owningEnvironment; // @synthesize owningEnvironment=_owningEnvironment;
-@property(readonly, nonatomic) __weak _UIFocusGroup *parentGroup; // @synthesize parentGroup=_parentGroup;
-@property(readonly, nonatomic) id <UIFocusItem> primaryItem; // @synthesize primaryItem=_primaryItem;
-@property(readonly, nonatomic) struct CGRect primaryRect; // @synthesize primaryRect=_primaryRect;
 
 @end
 

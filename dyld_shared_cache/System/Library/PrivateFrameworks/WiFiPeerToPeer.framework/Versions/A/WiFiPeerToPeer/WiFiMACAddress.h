@@ -9,7 +9,6 @@
 @interface WiFiMACAddress
 {
     NSData *_data;
-    NSData *_ipv6LinkLocalAddress;
 }
 
 + (id);

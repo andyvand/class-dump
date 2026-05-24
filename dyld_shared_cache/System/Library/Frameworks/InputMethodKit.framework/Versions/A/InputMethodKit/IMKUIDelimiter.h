@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSView;
+@class CALayer;
 
 @interface IMKUIDelimiter
 {
     _Bool _usesLayer;
-    CALayer *_internalLayer;
-    NSView *_view;
 }
 
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (void);
@@ -21,13 +19,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *internalLayer; // @synthesize internalLayer=_internalLayer;
-@property(nonatomic) _Bool usesLayer; // @synthesize usesLayer=_usesLayer;
-@property(nonatomic) __weak NSView *view; // @synthesize view=_view;
 
 @end
 

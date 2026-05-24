@@ -7,8 +7,6 @@
 @interface NewsFeed.WebEmbedConfigurationProvider
 {
     id locale;
-    id storeFront;
-    id contentEnvironment;
 }
 
 @end

@@ -13,21 +13,20 @@
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)C]}16^{BluetoothHCISimplePairingOOBData=[16C]}24;
+- (void)is platform;
 - (id);
 - (id);
 - (void)tionary, %d entries, saveIdentifier %u;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasReportingDataBlob;
-@property(retain, nonatomic) NSData *reportingDataBlob; // @synthesize reportingDataBlob=_reportingDataBlob;
 
 @end
 

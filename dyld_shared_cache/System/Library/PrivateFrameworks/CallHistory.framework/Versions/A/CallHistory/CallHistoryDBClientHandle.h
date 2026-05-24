@@ -6,15 +6,12 @@
 
 #import <CallHistory/CHSynchronizedLoggable.h>
 
-@class CHNotifyObserver, CallDBManager, CallHistoryDBHandle, NSString;
+@class CallHistoryDBHandle;
 @protocol NSObject;
 
 @interface CallHistoryDBClientHandle : CHSynchronizedLoggable
 {
     CallHistoryDBHandle *dbStoreHandle;
-    CallDBManager *_manager;
-    id <NSObject> _observerCallTimersRef;
-    CHNotifyObserver *_callsDidChangeNotifyObserver;
 }
 
 + (id);
@@ -22,20 +19,20 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool){CGImageSource=}16{CGSize=dd}24B40;
+- (id)_validateAndUpdateKeyAssetsIfNeeded;
+- (_Bool)_inqGroupIdForCategory:(id)arg1 owningGroupId:(id *)arg2 contentString:normalizedString:identifier:rankingScore:insertIfNeeded:tokenOutput:shouldUpdateOwningGroupId:shouldUpdateRankingScore: /* Error: Ran out of types for this method. */;
+- (id)PLModelMigrationAction_DeleteOrphanedFaces;
+- (id)publicEventServerFetchLimit;
+- (void)gory); END;;
+- (_Bool)te;
+- (_Bool)sd;
 - (unsigned int);
 - (_Bool);
 - (id);
@@ -43,9 +40,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
-- (id);
+- (id).;
 - (id);
 - (id);
 - (_Bool);
@@ -71,8 +68,8 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)q"fields"{?="displayed"b1"autoDisplayMode"b1});
+- (_Bool)B	&	K	;
 - (id);
 - (_Bool);
 - (id);
@@ -83,17 +80,7 @@
 - (id)!	;
 
 // Remaining properties
-@property(readonly, nonatomic) CHNotifyObserver *callsDidChangeNotifyObserver; // @synthesize callsDidChangeNotifyObserver=_callsDidChangeNotifyObserver;
-@property(readonly, nonatomic) CallHistoryDBHandle *dbStoreHandle; // @synthesize dbStoreHandle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) CallDBManager *manager; // @synthesize manager=_manager;
 @property(readonly, nonatomic) id <NSObject> observerCallTimersRef; // @synthesize observerCallTimersRef=_observerCallTimersRef;
-@property(readonly) Class superclass;
 
 @end
 

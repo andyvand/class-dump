@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ASPublicKeyCredentialClientData *clientData;
-@property(nonatomic) _Bool shouldShowHybridTransport;
 @end
 

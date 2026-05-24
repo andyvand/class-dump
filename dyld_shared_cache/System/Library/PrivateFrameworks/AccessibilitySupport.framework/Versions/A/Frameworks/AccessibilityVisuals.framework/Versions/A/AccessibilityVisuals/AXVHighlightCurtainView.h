@@ -11,8 +11,6 @@
 @interface AXVHighlightCurtainView : AXVHighlightView
 {
     NSColor *_curtainColor;
-    CAShapeLayer *__curtainLayer;
-    struct CGRect _nonCoveredRect;
 }
 
 - (void);
@@ -24,13 +22,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setCurtainLayer:) CAShapeLayer *_curtainLayer; // @synthesize _curtainLayer=__curtainLayer;
-@property(retain, nonatomic) NSColor *curtainColor; // @synthesize curtainColor=_curtainColor;
-@property(nonatomic) struct CGRect nonCoveredRect; // @synthesize nonCoveredRect=_nonCoveredRect;
 
 @end
 

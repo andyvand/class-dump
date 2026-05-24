@@ -8,7 +8,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)ionRequest.statementResults.payload.outcome.success.returnValue.collection.values.enumeration.typeIdentifier.custom.bundleId;
 
 @end
 

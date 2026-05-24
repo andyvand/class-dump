@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, RFShowMoreOnTap;
+@class NSArray;
 
 @protocol RFTextElement
+- (NSArray *)1.0/;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSArray *formatted_text;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *line_limit;
-@property(retain, nonatomic) RFShowMoreOnTap *show_more_on_tap;
 @end
 

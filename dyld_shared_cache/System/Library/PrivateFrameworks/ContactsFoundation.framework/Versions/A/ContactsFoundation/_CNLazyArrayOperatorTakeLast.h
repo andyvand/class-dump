@@ -11,7 +11,6 @@
 @interface _CNLazyArrayOperatorTakeLast : _CNLazyArrayOperator
 {
     CNQueue *_buffer;
-    _Bool _haveFilledBuffer;
 }
 
 - (id);

@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _ICLLParticipantQuery, _ICLLPlaybackControlSettingsQuery, _ICLLPlaybackSyncStateQuery, _ICLLQueueQuery;
+@class _ICLLParticipantQuery;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLQueryMessage
 {
     _ICLLParticipantQuery *_participant;
-    _ICLLPlaybackControlSettingsQuery *_playbackControlSettings;
-    _ICLLPlaybackSyncStateQuery *_playbackSyncState;
-    int _query;
-    _ICLLQueueQuery *_queue;
-    struct {
-        unsigned int query:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (void)rverPlaybackContextDataCreationHandler;
 
 @end

@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableAttributedString, NSString;
+@class NSMutableAttributedString;
 
 @interface EKParticipantForDisplay
 {
     _Bool _optionalParticipant;
-    NSMutableAttributedString *_displayString;
-    unsigned long long _blocked;
-    NSString *_email;
-    NSString *_phone;
 }
 
-- (void);
+- (void)&s;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)initWithAction:appBundleIdentifier:extensionBundleIdentifier:authenticationPolicy: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ndicatorInsets: /* Error: Ran out of types for this method. */;
-- (id)e:forKey: /* Error: Ran out of types for this method. */;
+- (void)setVerticalScrollIndicatorInsets: /* Error: Ran out of types for this method. */;
+- (id)encodeCGSize:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long blocked; // @synthesize blocked=_blocked;
 @property(retain, nonatomic) NSMutableAttributedString *displayString; // @synthesize displayString=_displayString;
-@property(retain, nonatomic) NSString *email; // @synthesize email=_email;
-@property(nonatomic, getter=isOptionalParticipant) _Bool optionalParticipant; // @synthesize optionalParticipant=_optionalParticipant;
-@property(retain, nonatomic) NSString *phone; // @synthesize phone=_phone;
 
 @end
 

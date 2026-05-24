@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, OSPRequest;
+@class OSPRequest;
 
 @interface OSPTelemetry
 {
     _Bool _isAppleInternal;
-    _Bool _multipleVariants;
-    OSPRequest *_request;
-    NSString *_client;
-    NSString *_sessionUUID;
-    NSError *_error;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id).A3M3;
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void)errorRepresentation;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSString *client; // @synthesize client=_client;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property _Bool isAppleInternal; // @synthesize isAppleInternal=_isAppleInternal;
-@property _Bool multipleVariants; // @synthesize multipleVariants=_multipleVariants;
 @property(retain) OSPRequest *request; // @synthesize request=_request;
-@property(retain) NSString *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 
 @end
 

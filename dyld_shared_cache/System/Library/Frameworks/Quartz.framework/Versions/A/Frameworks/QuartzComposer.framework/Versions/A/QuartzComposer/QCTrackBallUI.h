@@ -6,14 +6,11 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSButton, NSSlider;
+@class NSSlider;
 
 @interface QCTrackBallUI : QCInspector
 {
     NSSlider *sensibilitySlider;
-    NSButton *autorotationButton;
-    NSSlider *inertiaSlider;
-    NSSlider *frictionSlider;
 }
 
 + (id);

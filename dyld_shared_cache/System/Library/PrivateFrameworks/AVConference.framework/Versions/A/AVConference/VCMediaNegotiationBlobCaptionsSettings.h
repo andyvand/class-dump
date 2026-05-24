@@ -8,17 +8,12 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobCaptionsSettings
 {
     unsigned int _senderLanguages;
-    _Bool _canDisplayCaptions;
-    struct {
-        unsigned int senderLanguages:1;
-        unsigned int canDisplayCaptions:1;
-    } _has;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void));
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,15 +25,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool canDisplayCaptions; // @synthesize canDisplayCaptions=_canDisplayCaptions;
 @property(nonatomic) _Bool hasCanDisplayCaptions;
-@property(nonatomic) _Bool hasSenderLanguages;
-@property(nonatomic) unsigned int senderLanguages; // @synthesize senderLanguages=_senderLanguages;
 
 @end
 

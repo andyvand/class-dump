@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSDictionary, NSURLSession;
+@class CDPContext;
 
 @interface CDPDSecureBackupConfiguration
 {
     CDPContext *_context;
-    NSDictionary *_configurationURLs;
-    NSDictionary *_escrowConfigurationURLs;
-    NSURLSession *_session;
 }
 
 + (id);

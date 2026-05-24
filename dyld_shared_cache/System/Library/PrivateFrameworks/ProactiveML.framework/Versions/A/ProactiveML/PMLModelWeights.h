@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PMLMutableDenseVector;
+@class PMLMutableDenseVector;
 
 @interface PMLModelWeights
 {
@@ -27,22 +27,15 @@
 - (id);
 - (id);
 - (id);
-- (int);
+- (int)_didRetryAuth;
 - (id);
 - (float *);
 - (void);
-- (id);
+- (id)yet.;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int length;
-@property(readonly) Class superclass;
 
 @end
 

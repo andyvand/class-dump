@@ -11,7 +11,6 @@
 @interface PXKeyAssetsCollectionFetchOperation : PXCollectionFetchOperation
 {
     long long _maxKeyAssets;
-    NSDictionary *_outputOtherFetchResultsByAssetCollection;
 }
 
 - (void);
@@ -24,7 +23,6 @@
 - (void)XYÊ·0´;
 
 // Remaining properties
-@property(nonatomic) long long maxKeyAssets; // @synthesize maxKeyAssets=_maxKeyAssets;
 @property(retain, nonatomic) NSDictionary *outputOtherFetchResultsByAssetCollection; // @synthesize outputOtherFetchResultsByAssetCollection=_outputOtherFetchResultsByAssetCollection;
 
 @end

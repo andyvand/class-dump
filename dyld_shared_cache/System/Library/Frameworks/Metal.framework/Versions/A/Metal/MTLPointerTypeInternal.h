@@ -6,24 +6,14 @@
 
 #import <Metal/MTLPointerType.h>
 
-@class MTLType;
-
 __attribute__((visibility("hidden")))
 @interface MTLPointerTypeInternal : MTLPointerType
 {
     unsigned long long _dataType;
-    unsigned long long _elementType;
-    MTLType *_elementTypeInfo;
-    unsigned long long _access;
-    unsigned long long _alignment;
-    unsigned long long _dataSize;
-    _Bool _elementIsArgumentBuffer;
-    _Bool _isConstantBuffer;
-    _Bool _doRetain;
 }
 
 - (void);
-- (id);
+- (id)ObservationDateTrial;
 - (_Bool);
 - (id);
 - (void);
@@ -33,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)4u;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)SupportsFitnessUIOverlay;
 - (id);
 - (unsigned long long);
 - (id)ÿ;

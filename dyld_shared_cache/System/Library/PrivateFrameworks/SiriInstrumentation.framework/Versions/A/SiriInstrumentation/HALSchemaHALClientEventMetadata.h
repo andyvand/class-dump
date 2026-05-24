@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface HALSchemaHALClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_halId;
-    SISchemaUUID *_requestId;
-    _Bool _hasHalId;
-    _Bool _hasRequestId;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -40,10 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *halId; // @synthesize halId=_halId;
-@property(nonatomic) _Bool hasHalId; // @synthesize hasHalId=_hasHalId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 
 @end
 

@@ -14,7 +14,7 @@
 
 + (id);
 - (id);
-- (id);
+- (id)t3;
 - (id)·ç ;
 
 // Remaining properties

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)v@?@"NSArray">8;
 @end
 

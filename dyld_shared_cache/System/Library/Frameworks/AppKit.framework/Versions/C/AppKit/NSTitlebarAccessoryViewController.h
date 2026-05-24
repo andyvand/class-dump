@@ -6,37 +6,18 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSClipView, NSDictionary, NSScrollEdgeEffectStyle, NSString, NSTitlebarSeparatorView;
-
 @interface NSTitlebarAccessoryViewController : NSViewController
 {
     long long _layoutAttribute;
-    double _fullScreenMinHeight;
-    NSClipView *_containingClipView;
-    NSTitlebarSeparatorView *_separatorView;
-    double _revealAmount;
-    _Bool _inFullScreen;
-    _Bool _isToolbarAccessoryView;
-    _Bool _allowsAutomaticSeparator;
-    _Bool _automaticallyAdjustsSize;
-    NSScrollEdgeEffectStyle *_preferredScrollEdgeEffectStyle;
-    long long _updateCount;
-    unsigned int _hidden:1;
-    unsigned int _unusedTVC2:1;
-    unsigned int _updatingFrame:1;
-    unsigned int _registered:1;
-    unsigned int _reservedTVC:28;
-    id _animationData;
-    double _visibleAmount;
 }
 
 + (id);
-- (double);
+- (double)iFPGA;
+- (void)ZDN+suOIwkPvg;
+- (void)me;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,23 +40,24 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@16@24@32@?40;
+- (void)storeCookies:(_Bool)arg1 forTask:(_Bool)arg2;
+- (void)setHTTPShouldUsePipelining:(unsigned long long)arg1;
+- (void)_needNewBodyStreamFromOffset: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)uccessfully;
 - (struct CGRect);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (Class);
-- (long long);
+- (unsigned long long)ed read event %ld
+;
+- (void)tingNetConnection;
+- (Class)payloadTransmissionTimeout;
+- (long long)Evaluation;
 - (void);
 - (id);
 - (id);
@@ -83,35 +65,17 @@
 - (void);
 - (_Bool)ì/Ð!Eùá3ð1Â0@ù
 × ;
-- (void);
-- (id)Constraints;
+- (void)updateBatchSizeForRange:(_Bool)arg1;
+- (id)_setViewsNeedUpdateConstraints;
 - (id);
 - (id);
-- (void)ewSupportsGapsBetweenRows;
+- (void)NSTableViewSupportsGapsBetweenRows;
 - (void);
 - (void)er of keys found, expected one.;
 - (id)ê¨ÐC;
 
 // Remaining properties
-@property(copy) NSDictionary *animations;
-@property _Bool automaticallyAdjustsSize;
-@property(readonly) NSClipView *containingClipView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double fullScreenMinHeight;
-@property(readonly) unsigned long long hash;
-@property(getter=isHidden) _Bool hidden;
-@property _Bool inFullScreen; // @synthesize inFullScreen=_inFullScreen;
-@property _Bool isToolbarAccessoryView; // @synthesize isToolbarAccessoryView=_isToolbarAccessoryView;
-@property long long layoutAttribute; // @synthesize layoutAttribute=_layoutAttribute;
-@property(retain) NSScrollEdgeEffectStyle *preferredScrollEdgeEffectStyle;
 @property double revealAmount;
-@property(readonly) NSTitlebarSeparatorView *separatorView;
-@property(readonly) Class superclass;
-@property(readonly) double visibleAmount;
 
 @end
 

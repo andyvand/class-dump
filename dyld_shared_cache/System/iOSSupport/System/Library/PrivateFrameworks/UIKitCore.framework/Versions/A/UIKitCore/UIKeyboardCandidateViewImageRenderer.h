@@ -13,19 +13,19 @@ __attribute__((visibility("hidden")))
     NSCache *_imageCache;
 }
 
-+ (id);
++ (id)%@;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)message:(_Bool)arg1 message not found for guid %@ (it may have been deleted);
+- (id)%@;
+- (id)any chats for chat metadata %@;
+- (id)Settings Switch to enabled={%@};
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)ectDescriptor;
+- (id)b;
+- (id)currentEffectDescriptor;
 - (void)hUf;
 
 // Remaining properties

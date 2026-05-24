@@ -5,5 +5,6 @@
 //
 
 @protocol CNProbabilityUtility
+- (_Bool);
 @end
 

@@ -9,9 +9,6 @@
 @interface PKTransactionReleasedDataElement
 {
     NSString *_elementNamespace;
-    NSString *_identifier;
-    unsigned long long _retentionIntent;
-    long long _retentionPeriod;
 }
 
 + (_Bool);
@@ -19,24 +16,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)
+n@N;
 - (unsigned long long);
 - (long long);
-- (id);
+- (id)im8k	;
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (void)addTxRetries:(id)arg1;
 - (void);
-- (void);
+- (id)Hhu8;
 - (id);
-- (id);
-- (void)0462163505354756;
+- (void)1580462163505354756;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *elementNamespace; // @synthesize elementNamespace=_elementNamespace;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long retentionIntent; // @synthesize retentionIntent=_retentionIntent;
-@property(nonatomic) long long retentionPeriod; // @synthesize retentionPeriod=_retentionPeriod;
 
 @end
 

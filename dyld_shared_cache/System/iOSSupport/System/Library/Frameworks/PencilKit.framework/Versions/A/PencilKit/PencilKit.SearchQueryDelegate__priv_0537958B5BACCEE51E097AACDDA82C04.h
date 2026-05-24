@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (id);
+- (id)P;
 - (void)t~7;
 
 @end

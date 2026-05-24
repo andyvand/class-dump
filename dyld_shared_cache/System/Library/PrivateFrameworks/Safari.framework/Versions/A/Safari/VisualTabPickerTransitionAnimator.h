@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VisualTabPickerTransitionPerformanceTracker;
-@protocol VisualTabPickerTransitionAnimatorDelegate, VisualTabPickerTransitioning;
+@protocol VisualTabPickerTransitionAnimatorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerTransitionAnimator
 {
     float _velocity;
-    CDUnknownBlockType _lastAnimationCompletionHandler;
-    struct __CVDisplayLink *_displayLink;
-    float _initialInteractiveProgress;
-    _Bool _interactive;
-    _Bool _hasRenderedSinceBecomingInteractive;
-    VisualTabPickerTransitionPerformanceTracker *_performanceTracker;
-    float _currentProgress;
-    float _targetProgress;
-    id <VisualTabPickerTransitionAnimatorDelegate> _delegate;
-    id <VisualTabPickerTransitioning> _transitionCoordinator;
 }
 
 - (float);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -39,16 +28,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool)conResponse;
+- (_Bool)touchIconResponse;
 - (void)Ìä;
 - (id)¨;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnimating) _Bool animating;
-@property(readonly, nonatomic) float currentProgress; // @synthesize currentProgress=_currentProgress;
 @property(nonatomic) __weak id <VisualTabPickerTransitionAnimatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) float targetProgress; // @synthesize targetProgress=_targetProgress;
-@property(readonly, nonatomic) __weak id <VisualTabPickerTransitioning> transitionCoordinator; // @synthesize transitionCoordinator=_transitionCoordinator;
 
 @end
 

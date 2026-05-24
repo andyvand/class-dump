@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPXPCClientHelper, PPXPCClientPipelinedBatchQueryManager;
+@class PPXPCClientHelper;
 
 @interface PPNamedEntityReadOnlyClient
 {
     PPXPCClientHelper *_clientHelper;
-    PPXPCClientPipelinedBatchQueryManager *_queryManager;
 }
 
 + (id);
@@ -18,12 +17,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)�h;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)dd;
+- (void)Add;
 
 @end
 

@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarEventInvitationNotificationAttendee, EKEvent;
-@protocol EKEventViewDelegate, EKUIViewControllerNavigationDelegate, EKViewControllerRemoteUIDelegate;
+@protocol EKEventViewDelegate;
 
 @protocol EKUIProposedTimeEventViewControllerImpl
-- (void)rvalForPresetIdentifier: /* Error: Ran out of types for this method. */;
-- (void)s;
+- (void);
+- (_Bool)xX%s;
+- (void);
+- (id <EKEventViewDelegate>),;
+- (void)@0:(id <EKEventViewDelegate>)arg1 8:16@24@32 /* Error: Ran out of types for this method. */;
+- (void)invalidate;
+- (_Bool)emplateTextStorage.m;
+- (void)intervalForPresetIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_participantAddressesForInFlightAvailabilityOperations;
 - (void)@;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCalendarPreview;
-@property(nonatomic) _Bool allowsEditing;
-@property(nonatomic) _Bool calendarPreviewIsInlineDayView;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock;
 @property(nonatomic) __weak id <EKEventViewDelegate> delegate;
-@property(retain, nonatomic) EKEvent *event;
-@property(nonatomic) __weak id <EKUIViewControllerNavigationDelegate> navigationDelegate;
-@property(retain, nonatomic) EKCalendarEventInvitationNotificationAttendee *proposedTimeAttendee;
-@property(nonatomic) __weak id <EKViewControllerRemoteUIDelegate> remoteUIDelegate;
-@property(nonatomic) _Bool showsDetectedConferenceItem;
 @end
 

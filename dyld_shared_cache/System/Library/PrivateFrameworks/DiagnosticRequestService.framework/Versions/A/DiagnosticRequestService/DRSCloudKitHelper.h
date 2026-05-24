@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, DRSRapidCloudKitHelper;
-
 @interface DRSCloudKitHelper
 {
     long long _environment;
-    long long _rapidEnvironment;
-    CKContainer *__targetContainer;
-    DRSRapidCloudKitHelper *_rapidHelper;
 }
 
 + (id);
@@ -28,18 +23,15 @@
 - (long long);
 - (id);
 - (id);
-- (void);
-- (long long);
-- (void);
-- (void);
+- (void)P@�5;
+- (long long)z-;
+- (void)Preferences;
+- (void);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CKContainer *_targetContainer; // @synthesize _targetContainer=__targetContainer;
 @property(readonly, nonatomic) long long environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) long long rapidEnvironment; // @synthesize rapidEnvironment=_rapidEnvironment;
-@property(readonly, nonatomic) DRSRapidCloudKitHelper *rapidHelper; // @synthesize rapidHelper=_rapidHelper;
 
 @end
 

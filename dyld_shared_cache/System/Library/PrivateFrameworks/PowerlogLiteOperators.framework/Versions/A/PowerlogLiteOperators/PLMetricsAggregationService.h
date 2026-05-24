@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLCFNotificationOperatorComposition, PLXPCListenerOperatorComposition, PLXPCResponderOperatorComposition;
+@class PLCFNotificationOperatorComposition;
 
 @interface PLMetricsAggregationService
 {
     PLCFNotificationOperatorComposition *_aggregateMetricsListener;
-    PLCFNotificationOperatorComposition *_aggregateMetricsForceListener;
-    PLCFNotificationOperatorComposition *_aggregateMetricsTodayListener;
-    PLCFNotificationOperatorComposition *_aggregateMetricsTodayForceListener;
-    PLCFNotificationOperatorComposition *_aggregateMetrics24hrsListener;
-    PLCFNotificationOperatorComposition *_aggregateMetrics24hrsForceListener;
-    PLCFNotificationOperatorComposition *_aggregateMetrics1hrListener;
-    PLCFNotificationOperatorComposition *_aggregateMetrics1hrForceListener;
-    PLXPCResponderOperatorComposition *_metricSummarizationStateResponder;
-    PLXPCListenerOperatorComposition *_metrickitClientAvailabilityListener;
 }
 
 + (_Bool);
@@ -38,32 +29,23 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void)Object;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)PLSMCAccumOutputObject;
 - (void)t to context;
 
 // Remaining properties
-@property(retain) PLCFNotificationOperatorComposition *aggregateMetrics1hrForceListener; // @synthesize aggregateMetrics1hrForceListener=_aggregateMetrics1hrForceListener;
-@property(retain) PLCFNotificationOperatorComposition *aggregateMetrics1hrListener; // @synthesize aggregateMetrics1hrListener=_aggregateMetrics1hrListener;
-@property(retain) PLCFNotificationOperatorComposition *aggregateMetrics24hrsForceListener; // @synthesize aggregateMetrics24hrsForceListener=_aggregateMetrics24hrsForceListener;
-@property(retain) PLCFNotificationOperatorComposition *aggregateMetrics24hrsListener; // @synthesize aggregateMetrics24hrsListener=_aggregateMetrics24hrsListener;
-@property(retain) PLCFNotificationOperatorComposition *aggregateMetricsForceListener; // @synthesize aggregateMetricsForceListener=_aggregateMetricsForceListener;
 @property(retain) PLCFNotificationOperatorComposition *aggregateMetricsListener; // @synthesize aggregateMetricsListener=_aggregateMetricsListener;
-@property(retain) PLCFNotificationOperatorComposition *aggregateMetricsTodayForceListener; // @synthesize aggregateMetricsTodayForceListener=_aggregateMetricsTodayForceListener;
-@property(retain) PLCFNotificationOperatorComposition *aggregateMetricsTodayListener; // @synthesize aggregateMetricsTodayListener=_aggregateMetricsTodayListener;
-@property(retain) PLXPCResponderOperatorComposition *metricSummarizationStateResponder; // @synthesize metricSummarizationStateResponder=_metricSummarizationStateResponder;
-@property(retain) PLXPCListenerOperatorComposition *metrickitClientAvailabilityListener; // @synthesize metrickitClientAvailabilityListener=_metrickitClientAvailabilityListener;
 
 @end
 

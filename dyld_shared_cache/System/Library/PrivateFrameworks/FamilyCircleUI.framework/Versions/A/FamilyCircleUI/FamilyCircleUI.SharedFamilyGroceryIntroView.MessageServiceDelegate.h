@@ -7,14 +7,12 @@
 @interface FamilyCircleUI.SharedFamilyGroceryIntroView.MessageServiceDelegate
 {
     id onDoneSharing;
-    id onCancel;
-    id window;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void)È&;
 
 @end

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface SlalomDecoder
 {
     _Bool _eotInProgress;
-    _Bool _debug;
-    NSMutableArray *_hciArray;
-    NSNumber *_serviceProvider;
 }
 
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -26,13 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)identifiersToReindex;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)ommutePlanIdentifier: /* Error: Ran out of types for this method. */;
+- (void)getCommutePlanIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

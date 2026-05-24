@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, UIScreen, UIWindowScene;
+@class UIScreen;
 @protocol UISplitKeyboardSource;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardMotionSupport
 {
     UIScreen *_screen;
-    UIWindowScene *_scene;
-    id <UISplitKeyboardSource> _controller;
 }
 
-+ (id);
-+ (id);
++ (id)for transfer %@;
++ (id)g;
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)quest for attachment with guid:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)sage with %@ is not yet complete, Retrying it a bit ;
 - (void);
 - (void);
+- (void);
 - (_Bool);
 - (id)4Q*ÿ±È;
 - (id)ð_;
@@ -34,16 +32,7 @@ __attribute__((visibility("hidden")))
 - (id)üj;
 
 // Remaining properties
-@property(readonly) UIScreen *_intendedScreen;
-@property(readonly) NSDictionary *_options;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <UISplitKeyboardSource> masterController;
-@property(readonly) Class superclass;
 
 @end
 

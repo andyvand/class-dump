@@ -4,100 +4,63 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface SOAuthorizationRequestParameters
 {
     _Bool _useInternalExtensions;
-    _Bool _cfNetworkInterception;
-    _Bool _callerManaged;
-    _Bool _enableUserInteraction;
-    _Bool _showOnCoverScreen;
-    NSString *_identifier;
-    NSURL *_url;
-    NSString *_requestedOperation;
-    NSDictionary *_httpHeaders;
-    NSData *_httpBody;
-    NSString *_realm;
-    NSDictionary *_extensionData;
-    NSData *_auditTokenData;
-    NSString *_callerBundleIdentifier;
-    NSDictionary *_authorizationOptions;
-    long long _responseCode;
-    NSString *_callerTeamIdentifier;
-    NSString *_localizedCallerDisplayName;
-    NSString *_impersonationBundleIdentifier;
-    long long _pssoAuthenticationMethod;
 }
 
 + (_Bool);
 - (id);
+- (long long)h
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)_;
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id),N,V_entitySyncID;
+- (void)PODShowChangeEntityData;
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void)familyLearnMoreURL;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)SString"24@"NSString"32@"NSString"40@?<v@?@@"NSError">48;
+- (id);
+- (id)8{CGPoint=dd}16;
+- (void),&,N,V_rightTrigger;
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (void);
+- (void)T;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *auditTokenData; // @synthesize auditTokenData=_auditTokenData;
-@property(retain, nonatomic) NSDictionary *authorizationOptions; // @synthesize authorizationOptions=_authorizationOptions;
-@property(copy, nonatomic) NSString *callerBundleIdentifier; // @synthesize callerBundleIdentifier=_callerBundleIdentifier;
-@property(nonatomic, getter=isCallerManaged) _Bool callerManaged; // @synthesize callerManaged=_callerManaged;
-@property(copy, nonatomic) NSString *callerTeamIdentifier; // @synthesize callerTeamIdentifier=_callerTeamIdentifier;
-@property(nonatomic, getter=isCFNetworkInterception) _Bool cfNetworkInterception; // @synthesize cfNetworkInterception=_cfNetworkInterception;
-@property(nonatomic, getter=isUserInteractionEnabled) _Bool enableUserInteraction; // @synthesize enableUserInteraction=_enableUserInteraction;
-@property(copy, nonatomic) NSDictionary *extensionData; // @synthesize extensionData=_extensionData;
-@property(copy, nonatomic) NSData *httpBody; // @synthesize httpBody=_httpBody;
-@property(copy, nonatomic) NSDictionary *httpHeaders; // @synthesize httpHeaders=_httpHeaders;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *impersonationBundleIdentifier; // @synthesize impersonationBundleIdentifier=_impersonationBundleIdentifier;
-@property(copy, nonatomic) NSString *localizedCallerDisplayName; // @synthesize localizedCallerDisplayName=_localizedCallerDisplayName;
-@property(nonatomic) long long pssoAuthenticationMethod; // @synthesize pssoAuthenticationMethod=_pssoAuthenticationMethod;
-@property(copy, nonatomic) NSString *realm; // @synthesize realm=_realm;
-@property(copy, nonatomic) NSString *requestedOperation; // @synthesize requestedOperation=_requestedOperation;
-@property(nonatomic) long long responseCode; // @synthesize responseCode=_responseCode;
-@property(nonatomic, getter=canShowOnCoverScreen) _Bool showOnCoverScreen; // @synthesize showOnCoverScreen=_showOnCoverScreen;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) _Bool useInternalExtensions; // @synthesize useInternalExtensions=_useInternalExtensions;
 
 @end
 

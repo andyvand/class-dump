@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIMenu;
+
 @protocol UITextViewDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (_Bool)�;
+- (_Bool);
+- (UIMenu *)4z;
+- (UIMenu *)u;
+- (void)`p;
+- (void)k;
+- (void);
+- (void)?;
 @end
 

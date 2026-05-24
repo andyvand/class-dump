@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPanGestureRecognizer, UIView;
-@protocol _UIFluidSliderDirectDrivingDelegate, _UIFluidSliderDrivable;
-
 __attribute__((visibility("hidden")))
 @interface _UIFluidSliderInelasticPanDriver
 {
     _Bool _enabled;
-    id <_UIFluidSliderDrivable> _drivable;
-    UIView *_view;
-    double _stretchAmount;
-    double _velocityMultiplier;
-    unsigned long long _trackAxis;
-    id <_UIFluidSliderDirectDrivingDelegate> _delegate;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    double __previousTranslation;
-    double __previousValue;
 }
 
-- (double);
+- (double)copyWithZone: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (double);
 - (void);
@@ -31,45 +19,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (double);
-- (double);
+- (id)_resetTransferStateIfAttachmentIsMissingAndDownloadable;
+- (double)languages;
+- (double)esumed connection for PID %d;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)NSString",&,N,V_property;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ardWithName:create: /* Error: Ran out of types for this method. */;
+- (void)pasteboardWithName:create: /* Error: Ran out of types for this method. */;
 - (id)iew;
 - (id)ocusEnvironment:%@  focusItemContainer:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)19_RotaryDeadbandSize;
+- (_Bool)B519_RotaryDeadbandSize;
 - (void)tÞ[;
 - (double)Òþx×äkb;
 
 // Remaining properties
 @property(nonatomic) double _previousTranslation; // @synthesize _previousTranslation=__previousTranslation;
-@property(nonatomic) double _previousValue; // @synthesize _previousValue=__previousValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIFluidSliderDirectDrivingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <_UIFluidSliderDrivable> drivable; // @synthesize drivable=_drivable;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) UIPanGestureRecognizer *panGestureRecognizer; // @synthesize panGestureRecognizer=_panGestureRecognizer;
-@property(nonatomic) double stretchAmount; // @synthesize stretchAmount=_stretchAmount;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long trackAxis; // @synthesize trackAxis=_trackAxis;
-@property(nonatomic) double velocityMultiplier; // @synthesize velocityMultiplier=_velocityMultiplier;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

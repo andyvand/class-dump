@@ -7,14 +7,12 @@
 @interface ISyncTCCAccessOperation
 {
     _Bool _isExecuting;
-    _Bool _isFinished;
-    _Bool _accessGranted;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool)error but plenty of free space %@;
 

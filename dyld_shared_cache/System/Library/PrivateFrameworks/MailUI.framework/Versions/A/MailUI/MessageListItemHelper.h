@@ -18,10 +18,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)j
+J,
+
+*;
 - (void);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setMessageListFetchHelper: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <MessageListItemHelperDelegate> delegate; // @synthesize delegate=_delegate;

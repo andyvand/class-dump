@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, NSXPCStore;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NSXPCStoreConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCStore *_store;
-    NSXPCConnection *_connection;
 }
 
 - (void);

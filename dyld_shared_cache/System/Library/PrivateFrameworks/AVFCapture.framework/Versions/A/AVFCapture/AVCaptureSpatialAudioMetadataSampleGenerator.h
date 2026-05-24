@@ -9,11 +9,11 @@
 }
 
 + (void);
-- (struct opaqueCMFormatDescription *);
-- (void);
-- (struct opaqueCMSampleBuffer *);
-- (int);
-- (void);
+- (struct opaqueCMFormatDescription *)decodedObjectOfClass:fromPackage:error: /* Error: Ran out of types for this method. */;
+- (void)Td,N,V_lyricsOffset;
+- (struct opaqueCMSampleBuffer *)elegate>",W,N,V_delegate;
+- (int)validated. duration=%f;
+- (void)valueForKeyPath: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

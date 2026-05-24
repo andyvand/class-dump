@@ -6,29 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface VCMacScreenCaptureDisplayStream : VCObject
 {
     id _delegate;
-    struct CGDisplayStream *_displayStream;
-    struct _VCMacScreenCaptureSourceContext _frameCallback;
-    NSObject<OS_dispatch_semaphore> *_stopSemaphore;
-    NSObject<OS_dispatch_queue> *_streamQueue;
-    struct OpaqueCMMemoryPool *_dirtyRectsMemoryPool;
-    struct __CFAllocator *_dirtyRectsArrayAllocator;
-    unsigned int _injectedFoveationBufferSize;
-    struct OpaqueCMMemoryPool *_warpParameterInjectionMemoryPool;
-    struct __CFAllocator *_warpParameterInjectionAllocator;
-    int _captureWidth;
-    int _captureHeight;
-    int _displayWidth;
-    int _displayHeight;
-    _Bool _foveationEnabled;
-    struct __CFAllocator *_gazeAttachmentAllocator;
-    CDStruct_4c969caf _clientAuditToken;
 }
 
 - (int);
@@ -38,17 +19,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (int);
+- (int)vv;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

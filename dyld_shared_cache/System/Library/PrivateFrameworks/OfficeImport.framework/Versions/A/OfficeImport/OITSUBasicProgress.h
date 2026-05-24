@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)r]|;
 - (void);
 - (void);
 - (id);
@@ -24,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(getter=isIndeterminate) _Bool indeterminate;
 @property double value;
 
 @end

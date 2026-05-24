@@ -7,10 +7,10 @@
 @class NSData, _SFPBRFImageElement;
 
 @protocol _SFPBRFVisualElement
+- (void);
+- (NSData *)minMatchPercentByCategoriesType;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBRFImageElement *image_element;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichElement;
 @end
 

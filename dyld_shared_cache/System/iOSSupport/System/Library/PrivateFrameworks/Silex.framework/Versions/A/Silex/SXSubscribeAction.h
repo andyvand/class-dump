@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXJSONDictionary;
+@class NSString;
 @protocol SXAction;
 
 @interface SXSubscribeAction
 {
     id <SXAction> postPurchaseAction;
-    SXJSONDictionary *analytics;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)z;
+- (id)DefaultServerScoreCoefficientHalfLife;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @synthesize analytics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *inAppPurchaseIdKey;
-@property(readonly, nonatomic) id <SXAction> postPurchaseAction; // @synthesize postPurchaseAction;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

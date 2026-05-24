@@ -9,10 +9,9 @@
 @interface _NS2DVelocityFilter
 {
     _NS1DVelocityFilter *xFilter;
-    _NS1DVelocityFilter *yFilter;
 }
 
-- (void);
+- (void)quipment info dictionary;
 - (_Bool);
 - (double);
 - (struct CGPoint);
@@ -20,12 +19,10 @@
 - (void);
 - (void);
 - (id);
-- (double)htAndModifySelection: /* Error: Ran out of types for this method. */;
+- (double)moveRightAndModifySelection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct CGPoint filteredVelocity;
 @property(readonly) double lastTimestamp;
-@property double maxAllowedVelocity;
 
 @end
 

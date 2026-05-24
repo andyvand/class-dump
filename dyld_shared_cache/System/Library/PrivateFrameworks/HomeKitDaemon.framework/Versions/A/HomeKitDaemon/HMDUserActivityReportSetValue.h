@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)eDataContainerSetupErrorCodeHH2;
+- (id)firstCoreDataContainerSetupErrorCodeHH2;
 - (void)%@;
 
 // Remaining properties

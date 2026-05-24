@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSManagedObject, _NSDefaultSectionInfo;
+@class NSManagedObject;
 
 __attribute__((visibility("hidden")))
 @interface _PFChangeInfo
 {
     NSManagedObject *_object;
-    unsigned long long _changeType;
-    NSIndexPath *_startIndexPath;
-    NSIndexPath *_finalIndexPath;
-    _NSDefaultSectionInfo *_startSectionInfo;
-    _NSDefaultSectionInfo *_finalSectionInfo;
 }
 
 - (void);

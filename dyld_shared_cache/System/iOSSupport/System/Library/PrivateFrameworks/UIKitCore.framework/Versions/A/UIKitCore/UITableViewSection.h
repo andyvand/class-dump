@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIView;
+@class NSString;
 
 @interface UITableViewSection
 {
     NSString *_headerTitle;
-    UIView *_headerView;
-    NSString *_footerTitle;
-    UIView *_footerView;
-    NSArray *_rows;
 }
 
 + (id);
@@ -23,19 +19,15 @@
 - (void);
 - (id);
 - (void);
-- (void)onItemStyle:(id)arg1;
-- (id)ectionProvider;
+- (void)initWithImage:(id)arg1 width:style:applyBezel:forBarStyle:buttonItemStyle: /* Error: Ran out of types for this method. */;
+- (id)SectionProvider;
 - (void);
 - (void)üF ÿívÐ®a;
 - (id)°;
 - (id)è¦;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *footerTitle; // @synthesize footerTitle=_footerTitle;
-@property(retain, nonatomic) UIView *footerView; // @synthesize footerView=_footerView;
 @property(copy, nonatomic) NSString *headerTitle; // @synthesize headerTitle=_headerTitle;
-@property(retain, nonatomic) UIView *headerView; // @synthesize headerView=_headerView;
-@property(copy, nonatomic) NSArray *rows; // @synthesize rows=_rows;
 
 @end
 

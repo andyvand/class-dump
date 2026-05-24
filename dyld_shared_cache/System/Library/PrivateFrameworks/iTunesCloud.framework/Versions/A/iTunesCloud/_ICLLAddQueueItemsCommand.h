@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _ICLLRadioSource;
-
 __attribute__((visibility("hidden")))
 @interface _ICLLAddQueueItemsCommand
 {
     int _insertPositionType;
-    NSMutableArray *_items;
-    int _position;
-    NSString *_queueContext;
-    _ICLLRadioSource *_radioSource;
-    int _revision;
-    struct {
-        unsigned int insertPositionType:1;
-        unsigned int position:1;
-        unsigned int revision:1;
-    } _has;
 }
 
 - (id);
@@ -28,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)";
 - (void)erverHostName;
 
 @end

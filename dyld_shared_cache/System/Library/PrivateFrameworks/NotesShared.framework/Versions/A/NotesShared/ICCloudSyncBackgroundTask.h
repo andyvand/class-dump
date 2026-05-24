@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudContext, NSString;
+@class ICCloudContext;
 
 @interface ICCloudSyncBackgroundTask
 {
@@ -15,21 +15,14 @@
 + (_Bool);
 + (id);
 + (id)jLrib3m-DUd6A/Library/Caches/com.apple.xbs/TemporaryDirectory.FLj4fX/Sources/NotesFramework/Source/Shared/protobuf-lite/airdrop-document.pb.cc;
-- (void);
+- (void)removeObjectsInArray:(CDUnknownBlockType)arg1;
 - (id);
 - (void);
-- (id);
+- (id)orks/Noticeboard.framework/Versions/A/Noticeboard;
 - (void)¼%P&;
 
 // Remaining properties
 @property(readonly, nonatomic) ICCloudContext *cloudContext; // @synthesize cloudContext=_cloudContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

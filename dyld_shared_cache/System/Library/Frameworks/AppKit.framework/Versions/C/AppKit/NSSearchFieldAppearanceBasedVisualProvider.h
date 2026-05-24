@@ -6,14 +6,12 @@
 
 #import <AppKit/NSTextFieldAppearanceBasedVisualProvider.h>
 
-@class NSButton, NSSearchField, NSSearchFieldCell, NSString, NSTextFieldBezelConfiguration;
+@class NSSearchFieldCell;
 
 __attribute__((visibility("hidden")))
 @interface NSSearchFieldAppearanceBasedVisualProvider : NSTextFieldAppearanceBasedVisualProvider
 {
     _Bool _isDVTSearchField;
-    NSButton *_cancelButton;
-    NSButton *_searchButton;
 }
 
 + (Class);
@@ -24,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGRect);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)tworkextension.fallback-default;
 - (struct NSEdgeInsets);
 - (struct CGRect);
 - (void);
@@ -33,29 +31,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGRect);
 - (id);
-- (void)rRow:(id)arg1;
-- (id)NotDisturbTemplate;
+- (void)_removeRowViewForRow:(id)arg1;
+- (id)NSTouchBarControlStripDoNotDisturbTemplate;
 - (void)6;
-- (void)ring;
+- (void)StringOrAttributedString;
 - (id);
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) _Bool allowsTextTightening;
-@property(readonly) double bezelCellSizeHeightPadding;
-@property(copy) NSTextFieldBezelConfiguration *bezelConfiguration;
-@property(retain, nonatomic) NSButton *cancelButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSButton *searchButton;
-@property(readonly) __weak NSSearchField *searchField;
 @property(readonly) __weak NSSearchFieldCell *searchFieldCell;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsSeparatedSubviews;
 
 @end
 

@@ -14,7 +14,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)ableForPlaceData:(id)arg1 withTimeZone:(id *)arg2;
+- (_Bool)currentOperatingHoursAvailableForPlaceData:(id)arg1 withTimeZone:(id *)arg2;
 - (void)¶u6;
 
 @end

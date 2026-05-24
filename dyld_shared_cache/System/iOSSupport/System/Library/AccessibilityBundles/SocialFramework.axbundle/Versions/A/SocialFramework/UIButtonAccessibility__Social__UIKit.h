@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)ARRaycastQuery;
 - (id);
-- (id);
+- (id);
 - (id);
 
 @end

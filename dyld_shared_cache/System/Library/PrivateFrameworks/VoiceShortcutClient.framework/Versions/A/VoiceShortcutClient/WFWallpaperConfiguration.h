@@ -4,45 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSecurityScopedURLWrapper, NSString, NSURL;
+@class NSSecurityScopedURLWrapper, NSString;
 
 @interface WFWallpaperConfiguration
 {
     NSString *_assetIdentifier;
-    long long _location;
-    NSNumber *_usePreview;
-    NSNumber *_legibilityBlur;
-    NSNumber *_smartCrop;
-    NSSecurityScopedURLWrapper *_assetURLWrapper;
 }
 
-+ (_Bool);
++ (_Bool);
+- (id);
+- (id);
+- (id)|;
+- (id)~x){;
+- (id);
 - (id);
 - (id);
+- (id)n;
+- (id);
+- (id)c;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (long long);
 - (void)!´Cù±^ð1Â0@ù
 × ;
 - (id)taCGG;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(readonly, nonatomic) NSURL *assetURL;
 @property(readonly, nonatomic) NSSecurityScopedURLWrapper *assetURLWrapper; // @synthesize assetURLWrapper=_assetURLWrapper;
-@property(readonly, nonatomic) NSNumber *legibilityBlur; // @synthesize legibilityBlur=_legibilityBlur;
-@property(readonly, nonatomic) long long location; // @synthesize location=_location;
-@property(readonly, nonatomic) NSNumber *smartCrop; // @synthesize smartCrop=_smartCrop;
-@property(readonly, nonatomic) NSNumber *usePreview; // @synthesize usePreview=_usePreview;
 
 @end
 

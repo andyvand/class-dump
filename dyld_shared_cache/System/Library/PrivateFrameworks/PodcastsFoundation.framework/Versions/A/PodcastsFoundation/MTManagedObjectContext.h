@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PFDatabaseHangDetector;
-
 @interface MTManagedObjectContext
 {
     _Bool _isResetable;
-    long long _type;
-    NSString *_mt_immutableName;
-    PFDatabaseHangDetector *_hangDetector;
 }
 
 - (void);
@@ -27,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);
@@ -41,9 +36,6 @@
 - (void)rÕÿ;
 
 // Remaining properties
-@property(retain, nonatomic) PFDatabaseHangDetector *hangDetector; // @synthesize hangDetector=_hangDetector;
-@property(nonatomic) _Bool isResetable; // @synthesize isResetable=_isResetable;
-@property(readonly, nonatomic) NSString *mt_immutableName; // @synthesize mt_immutableName=_mt_immutableName;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

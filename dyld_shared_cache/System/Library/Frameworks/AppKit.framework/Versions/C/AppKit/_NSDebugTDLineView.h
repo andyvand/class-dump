@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)ticalInterstice;
+- (void)ches/com.apple.xbs/TemporaryDirectory.WBOEkW/Sources/boringssl/ssl/dtls_method.cc;
+- (id)verticalInterstice;
 - (void)nts:count:] /* Error: Ran out of types for this method. */;
 
 @end

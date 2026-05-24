@@ -6,21 +6,19 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INBillDetails, INDateComponentsRange, INPaymentAccount, INPaymentAmount, NSString;
-
 @interface INPayBillIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setPendingGenerationRequests:(long long)arg1;
++ (int)didGenerateThumbnailForRequestWithUUID:(long long)arg1 images:metadata:contentRect:iconFlavor:thumbnailType:clientShouldTakeOwnership: /* Error: Ran out of types for this method. */;
++ (long long)coordinateAccessWithIntents:(int)arg1 queue:(int)arg2 byAccessor:(_Bool)arg3;
++ (_Bool)associateThumbnailsForDocumentAtURL:(long long)arg1 withImmutableDocument:atURL:error: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
-- (id);
+- (id)<;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,30 +28,18 @@
 - (id);
 - (long long);
 - (void);
+- (id));
+- (void)B;
+- (id)Ћ;
+- (id)arrayForKey:(id)arg1 withReply: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)statesList;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)tringAsPayloadMessageEffects: /* Error: Ran out of types for this method. */;
+- (long long)StringAsPayloadMessageEffects: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) INBillDetails *billDetails;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) INPaymentAccount *fromAccount;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) INPaymentAmount *transactionAmount;
-@property(copy) NSString *transactionNote;
-@property(copy) INDateComponentsRange *transactionScheduledDate;
 
 @end
 

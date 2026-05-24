@@ -9,22 +9,20 @@
 @interface CKDDownloadAssetURLInfo
 {
     CKAsset *_asset;
-    struct _OpaquePCSShareProtection *_recordPCS;
 }
 
 - (void);
-- (struct _OpaquePCSShareProtection *);
+- (struct _OpaquePCSShareProtection *);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)RemoteFileNonEncrypted;
+- (_Bool)IndexSchedulable>"16@"NSString"24@"NSDictionary"32;
 - (void)ÑÛð1Â0@ù
 × ;
 - (id)"16@?<v@?@"NSURL"@"NSFileHandle"@"NSError">24;
-- (void)oaded;
+- (void)recordsDownloaded;
 
 // Remaining properties
 @property(retain, nonatomic) CKAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic) struct _OpaquePCSShareProtection *recordPCS; // @synthesize recordPCS=_recordPCS;
 
 @end
 

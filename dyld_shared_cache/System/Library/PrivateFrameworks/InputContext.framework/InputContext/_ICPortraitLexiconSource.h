@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPContactNameRecordLoadingDelegate, PPContactStore, PPNamedEntityRecordLoadingDelegate, PPNamedEntityStore, _ICLexiconManager;
+@class _ICLexiconManager;
 
 @interface _ICPortraitLexiconSource
 {
     _ICLexiconManager *_manager;
-    PPContactStore *_contactStore;
-    PPContactNameRecordLoadingDelegate *_contactDelegate;
-    PPNamedEntityStore *_namedEntityStore;
-    PPNamedEntityRecordLoadingDelegate *_namedEntityDelegate;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

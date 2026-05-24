@@ -6,30 +6,18 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWPhotoDecompressor, NSMutableArray, NSMutableSet;
-
 @interface BWPhotoDecompressorNode : BWNode
 {
     _Bool _downstreamIsSharingOutputPool;
-    _Bool _synchronizedSlaveAttachedMediaDecompressionEnabled;
-    BWPhotoDecompressor *_photoDecompressor;
-    BWPhotoDecompressor *_synchronizedSlavePhotoDecompressor;
-    NSMutableArray *_emitSampleBufferSemaphores;
-    NSMutableArray *_emitSynchronizedSlaveSampleBufferSemaphores;
-    NSMutableSet *_disabledSynchronizedSlaveSemaphores;
-    int _numberOfTimesWaited;
-    int _numberOfBuffersEmitted;
-    int _numberOfTimesSynchronizedSlaveWaited;
-    int _numberOfSynchronizedSlaveBuffersEmitted;
 }
 
 + (void)pe isEqual:(NSString *)kFigFileType_QuickTimeMovie] /* Error: Ran out of types for this method. */;
+- (void));
 - (void);
-- (void);
-- (void);
+- (void)readCHDDisplayBlanksAsEnumFrom:(_Bool)arg1;
 - (void);
 - (_Bool);
-- (void);
+- (void)+;
 - (id);
 - (void);
 - (id);

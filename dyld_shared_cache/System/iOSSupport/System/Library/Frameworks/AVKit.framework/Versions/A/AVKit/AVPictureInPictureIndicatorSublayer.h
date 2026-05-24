@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CATextLayer, NSAttributedString, NSString;
+@class NSAttributedString, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVPictureInPictureIndicatorSublayer
 {
     NSAttributedString *_attributedText;
-    struct CGSize _imageSize;
-    struct NSEdgeInsets _languageAwareOutsets;
-    double _lineHeight;
-    double _baselineOffset;
-    CATextLayer *_textLayer;
-    CALayer *_imageLayer;
-    NSString *_customText;
 }
 
 - (struct CGRect);

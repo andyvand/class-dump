@@ -6,28 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MTSchemaMTLanguageIdentificationConfidence : SISchemaInstrumentationMessage
 {
     int _locale;
-    unsigned int _confidenceInThousands;
-    struct {
-        unsigned int locale:1;
-        unsigned int confidenceInThousands:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)˟;
 - (void);
 - (void);
 - (unsigned int);
 - (id);
 - (_Bool);
-- (void);
+- (void)a;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -40,10 +33,6 @@
 - (id)@"NSString",C,N,V_assistantId;
 
 // Remaining properties
-@property(nonatomic) unsigned int confidenceInThousands; // @synthesize confidenceInThousands=_confidenceInThousands;
-@property(nonatomic) _Bool hasConfidenceInThousands;
-@property(nonatomic) _Bool hasLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int locale; // @synthesize locale=_locale;
 
 @end

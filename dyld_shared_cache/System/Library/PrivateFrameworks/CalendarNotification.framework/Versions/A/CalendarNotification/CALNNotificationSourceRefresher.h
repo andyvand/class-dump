@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNInboxNotificationMonitor, NSArray, NSObject;
-@protocol CALNNotificationManager, CALNNotificationSource, OS_dispatch_queue;
+@class NSArray;
+@protocol CALNNotificationSource;
 
 @interface CALNNotificationSourceRefresher
 {
     _Bool _needsRefreshOnNotificationsLoaded;
-    NSObject<OS_dispatch_queue> *_refreshQueue;
-    NSArray<CALNNotificationSource> *_sources;
-    CALNInboxNotificationMonitor *_inboxNotificationMonitor;
-    id <CALNNotificationManager> _notificationManager;
 }
 
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (id);
@@ -28,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CALNInboxNotificationMonitor *inboxNotificationMonitor; // @synthesize inboxNotificationMonitor=_inboxNotificationMonitor;
-@property(readonly, nonatomic) id <CALNNotificationManager> notificationManager; // @synthesize notificationManager=_notificationManager;
 @property(readonly, copy, nonatomic) NSArray<CALNNotificationSource> *sources; // @synthesize sources=_sources;
 
 @end

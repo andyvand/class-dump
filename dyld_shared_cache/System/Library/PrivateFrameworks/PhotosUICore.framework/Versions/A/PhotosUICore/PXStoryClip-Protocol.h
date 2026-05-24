@@ -5,19 +5,14 @@
 //
 
 @class PFStoryRecipeDisplayAssetNormalization;
-@protocol PXStoryResource;
 
 @protocol PXStoryClip
-- (long long)RotateAsset: /* Error: Ran out of types for this method. */;
-- (CDStruct_c0304e72)	
+- (PFStoryRecipeDisplayAssetNormalization *);
+- (long long)canRotateAsset: /* Error: Ran out of types for this method. */;
+- (CDStruct_58af7e62)	
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) PFStoryRecipeDisplayAssetNormalization *colorNormalization;
-@property(readonly, nonatomic) unsigned long long hash;
 @property(readonly, nonatomic) long long identifier;
-@property(readonly, nonatomic) CDStruct_c0304e72 info;
-@property(readonly, nonatomic) id <PXStoryResource> resource;
-@property(readonly, nonatomic) CDStruct_e83c9415 videoTimeRange;
 @end
 

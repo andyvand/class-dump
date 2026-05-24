@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, UIAlertView;
-
 __attribute__((visibility("hidden")))
 @interface UIDocumentAlertPresenter
 {
     CDUnknownBlockType _completionHandler;
-    NSError *_error;
-    UIAlertView *_alert;
 }
 
 + (id);
-- (id);
+- (id)PrefixFilter;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)\;
 - (void)è¿2$h;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

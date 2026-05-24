@@ -7,24 +7,14 @@
 @interface NewsUI2.HistoryFeedDataManager
 {
     id delegate;
-    id clearUserDataManager;
-    id newsletterManager;
-    id userActivityManager;
-    id readingHistory;
-    id readingList;
-    id headlineService;
-    id accessQueue;
-    id feedServiceContextFactory;
-    id feedServiceConfigFetcher;
-    id feedService;
 }
 
+- (void)CallScreeningOverride;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

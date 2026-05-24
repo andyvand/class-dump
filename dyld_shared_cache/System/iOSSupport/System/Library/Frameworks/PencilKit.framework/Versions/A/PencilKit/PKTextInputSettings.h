@@ -4,77 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface PKTextInputSettings
 {
     _Bool _preventLeftoverCharsInSubwordGestures;
-    _Bool _activePreviewEnabled;
-    _Bool _styledActivePreview;
-    _Bool _floatingBackgroundEnabled;
-    _Bool _continuousRecognition;
-    _Bool _outOfProcessRecognition;
-    _Bool _enableOnNonEditableViews;
-    _Bool _enableOnRemoteViews;
-    _Bool _enableViewControllerSupport;
-    _Bool _enableReserveSpace;
-    _Bool _enableReserveSpaceTapForNewlines;
-    _Bool _UCBPaletteEnabled;
-    _Bool _alwaysIncludeReturnKeyAndInputAssistantItems;
-    _Bool _hideDefaultReturnKeyWhenSpecialReturnKeyIsPresent;
-    _Bool _lineBreakVerticalBarGestureEnabled;
-    _Bool _lineBreakVerticalBarUpToDelete;
-    _Bool _autoLineBreakEnabled;
-    _Bool _autoLineBreakRequireWeakCursor;
-    _Bool _lineBreakOnTapEnabled;
-    _Bool _enableWeakCursor;
-    _Bool _scratchOutMakesTheCursorStrong;
-    _Bool _enableTargetedAppWorkarounds;
-    _Bool _useLargeHitTestArea;
-    _Bool _useSlidingCanvas;
-    _Bool _slidingCanvasDebugBorder;
-    _Bool _useSingleComponentCanvas;
-    _Bool _useTransformStrokesAnimation;
-    _Bool _forceUserTextInputSettingEnabled;
-    double _textInputViewHitTestSlackHorizontal;
-    double _textInputViewHitTestSlackVertical;
-    double _firstResponderAttractionHorizontal;
-    double _firstResponderAttractionVertical;
-    double _subwordGestureEndingSpeedRange;
-    double _subwordGestureSpeedThreshold;
-    double _minimumWritingSpaceWidth;
-    double _interactionDisablingDelay;
-    double _textInputStrokeFadeOutDelay;
-    double _textInputStrokeFadeOutDuration;
-    double _textInputStandardCommitDelay;
-    double _singleCharacterCommitDelay;
-    long long _incrementalCommitWordsBack;
-    double _continuousRecognitionWritingInterval;
-    double _recognitionCoalescingDelay;
-    double _debugRecognitionRequestArtificialDelay;
-    double _debugElementFinderArtificialDelay;
-    double _debugFirstResponderArtificialDelay;
-    double _drawingGestureMinimumPanDistanceThreshold;
-    double _drawingGestureMinimumScrollDistanceThreshold;
-    double _drawingGestureTapDetectionDistanceThreshold;
-    double _drawingGestureTapDetectionTimeInterval;
-    double _drawingGestureDetectTapAwayFromCurrentStrokesHorizontalDistance;
-    double _drawingGestureDetectTapAwayFromCurrentStrokesVerticalDistance;
-    double _drawingGestureLongPressMaxDistance;
-    double _drawingGestureLongPressDetectionTimeInterval;
-    double _asyncElementRequestTimeout;
-    double _inkWeight;
-    double _inkWeightForIncreasedContrast;
-    double _autoLineBreakVerticalDistance;
-    double _autoLineBreakDualVerticalDistance;
-    double _autoLineBreakAreaWidthFactor;
-    double _tapToLineBreakVerticalDistance;
-    double _weakCursorVisibilityTimeout;
-    double _strongCursorRestoreDelay;
-    double _strongCursorMaximumYDistance;
-    double _slidingCanvasWidth;
-    double _slidingCanvasHeight;
-    double _emojiConversionDelay;
 }
 
 + (long long);
@@ -236,78 +168,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool UCBPaletteEnabled; // @synthesize UCBPaletteEnabled=_UCBPaletteEnabled;
-@property(nonatomic) _Bool activePreviewEnabled; // @synthesize activePreviewEnabled=_activePreviewEnabled;
-@property(nonatomic) _Bool alwaysIncludeReturnKeyAndInputAssistantItems; // @synthesize alwaysIncludeReturnKeyAndInputAssistantItems=_alwaysIncludeReturnKeyAndInputAssistantItems;
-@property(nonatomic) double asyncElementRequestTimeout; // @synthesize asyncElementRequestTimeout=_asyncElementRequestTimeout;
-@property(nonatomic) double autoLineBreakAreaWidthFactor; // @synthesize autoLineBreakAreaWidthFactor=_autoLineBreakAreaWidthFactor;
-@property(nonatomic) double autoLineBreakDualVerticalDistance; // @synthesize autoLineBreakDualVerticalDistance=_autoLineBreakDualVerticalDistance;
-@property(nonatomic) _Bool autoLineBreakEnabled; // @synthesize autoLineBreakEnabled=_autoLineBreakEnabled;
-@property(nonatomic) _Bool autoLineBreakRequireWeakCursor; // @synthesize autoLineBreakRequireWeakCursor=_autoLineBreakRequireWeakCursor;
-@property(nonatomic) double autoLineBreakVerticalDistance; // @synthesize autoLineBreakVerticalDistance=_autoLineBreakVerticalDistance;
-@property(nonatomic) _Bool continuousRecognition; // @synthesize continuousRecognition=_continuousRecognition;
-@property(nonatomic) double continuousRecognitionWritingInterval; // @synthesize continuousRecognitionWritingInterval=_continuousRecognitionWritingInterval;
-@property(readonly, nonatomic) NSString *currentLanguageIdentifier;
-@property(nonatomic) double debugElementFinderArtificialDelay; // @synthesize debugElementFinderArtificialDelay=_debugElementFinderArtificialDelay;
-@property(nonatomic) double debugFirstResponderArtificialDelay; // @synthesize debugFirstResponderArtificialDelay=_debugFirstResponderArtificialDelay;
-@property(nonatomic) double debugRecognitionRequestArtificialDelay; // @synthesize debugRecognitionRequestArtificialDelay=_debugRecognitionRequestArtificialDelay;
-@property(nonatomic) double drawingGestureDetectTapAwayFromCurrentStrokesHorizontalDistance; // @synthesize drawingGestureDetectTapAwayFromCurrentStrokesHorizontalDistance=_drawingGestureDetectTapAwayFromCurrentStrokesHorizontalDistance;
-@property(nonatomic) double drawingGestureDetectTapAwayFromCurrentStrokesVerticalDistance; // @synthesize drawingGestureDetectTapAwayFromCurrentStrokesVerticalDistance=_drawingGestureDetectTapAwayFromCurrentStrokesVerticalDistance;
-@property(nonatomic) double drawingGestureLongPressDetectionTimeInterval; // @synthesize drawingGestureLongPressDetectionTimeInterval=_drawingGestureLongPressDetectionTimeInterval;
-@property(nonatomic) double drawingGestureLongPressMaxDistance; // @synthesize drawingGestureLongPressMaxDistance=_drawingGestureLongPressMaxDistance;
-@property(nonatomic) double drawingGestureMinimumPanDistanceThreshold; // @synthesize drawingGestureMinimumPanDistanceThreshold=_drawingGestureMinimumPanDistanceThreshold;
-@property(nonatomic) double drawingGestureMinimumScrollDistanceThreshold; // @synthesize drawingGestureMinimumScrollDistanceThreshold=_drawingGestureMinimumScrollDistanceThreshold;
-@property(nonatomic) double drawingGestureTapDetectionDistanceThreshold; // @synthesize drawingGestureTapDetectionDistanceThreshold=_drawingGestureTapDetectionDistanceThreshold;
-@property(nonatomic) double drawingGestureTapDetectionTimeInterval; // @synthesize drawingGestureTapDetectionTimeInterval=_drawingGestureTapDetectionTimeInterval;
-@property(nonatomic) double emojiConversionDelay; // @synthesize emojiConversionDelay=_emojiConversionDelay;
-@property(nonatomic) _Bool enableOnNonEditableViews; // @synthesize enableOnNonEditableViews=_enableOnNonEditableViews;
-@property(nonatomic) _Bool enableOnRemoteViews; // @synthesize enableOnRemoteViews=_enableOnRemoteViews;
-@property(nonatomic) _Bool enableReserveSpace; // @synthesize enableReserveSpace=_enableReserveSpace;
-@property(nonatomic) _Bool enableReserveSpaceTapForNewlines; // @synthesize enableReserveSpaceTapForNewlines=_enableReserveSpaceTapForNewlines;
-@property(nonatomic) _Bool enableTargetedAppWorkarounds; // @synthesize enableTargetedAppWorkarounds=_enableTargetedAppWorkarounds;
-@property(nonatomic) _Bool enableViewControllerSupport; // @synthesize enableViewControllerSupport=_enableViewControllerSupport;
-@property(nonatomic) _Bool enableWeakCursor; // @synthesize enableWeakCursor=_enableWeakCursor;
-@property(nonatomic) double firstResponderAttractionHorizontal; // @synthesize firstResponderAttractionHorizontal=_firstResponderAttractionHorizontal;
-@property(nonatomic) double firstResponderAttractionVertical; // @synthesize firstResponderAttractionVertical=_firstResponderAttractionVertical;
-@property(nonatomic) _Bool floatingBackgroundEnabled; // @synthesize floatingBackgroundEnabled=_floatingBackgroundEnabled;
-@property(nonatomic) _Bool forceUserTextInputSettingEnabled; // @synthesize forceUserTextInputSettingEnabled=_forceUserTextInputSettingEnabled;
-@property(nonatomic) _Bool hideDefaultReturnKeyWhenSpecialReturnKeyIsPresent; // @synthesize hideDefaultReturnKeyWhenSpecialReturnKeyIsPresent=_hideDefaultReturnKeyWhenSpecialReturnKeyIsPresent;
-@property(nonatomic) long long incrementalCommitWordsBack; // @synthesize incrementalCommitWordsBack=_incrementalCommitWordsBack;
-@property(nonatomic) double inkWeight; // @synthesize inkWeight=_inkWeight;
-@property(nonatomic) double inkWeightForIncreasedContrast; // @synthesize inkWeightForIncreasedContrast=_inkWeightForIncreasedContrast;
-@property(nonatomic) double interactionDisablingDelay; // @synthesize interactionDisablingDelay=_interactionDisablingDelay;
 @property(readonly, nonatomic) _Bool isScribbleActive;
-@property(nonatomic) _Bool lineBreakOnTapEnabled; // @synthesize lineBreakOnTapEnabled=_lineBreakOnTapEnabled;
-@property(nonatomic) _Bool lineBreakVerticalBarGestureEnabled; // @synthesize lineBreakVerticalBarGestureEnabled=_lineBreakVerticalBarGestureEnabled;
-@property(nonatomic) _Bool lineBreakVerticalBarUpToDelete; // @synthesize lineBreakVerticalBarUpToDelete=_lineBreakVerticalBarUpToDelete;
-@property(nonatomic) double minimumWritingSpaceWidth; // @synthesize minimumWritingSpaceWidth=_minimumWritingSpaceWidth;
-@property(nonatomic) _Bool outOfProcessRecognition; // @synthesize outOfProcessRecognition=_outOfProcessRecognition;
-@property(nonatomic) _Bool preventLeftoverCharsInSubwordGestures; // @synthesize preventLeftoverCharsInSubwordGestures=_preventLeftoverCharsInSubwordGestures;
-@property(nonatomic) double recognitionCoalescingDelay; // @synthesize recognitionCoalescingDelay=_recognitionCoalescingDelay;
-@property(readonly, copy, nonatomic) NSString *recognitionLocaleIdentifier;
-@property(readonly, copy, nonatomic) NSArray *recognitionLocaleIdentifiers;
-@property(nonatomic) _Bool scratchOutMakesTheCursorStrong; // @synthesize scratchOutMakesTheCursorStrong=_scratchOutMakesTheCursorStrong;
-@property(nonatomic) double singleCharacterCommitDelay; // @synthesize singleCharacterCommitDelay=_singleCharacterCommitDelay;
-@property(nonatomic) _Bool slidingCanvasDebugBorder; // @synthesize slidingCanvasDebugBorder=_slidingCanvasDebugBorder;
-@property(nonatomic) double slidingCanvasHeight; // @synthesize slidingCanvasHeight=_slidingCanvasHeight;
-@property(nonatomic) double slidingCanvasWidth; // @synthesize slidingCanvasWidth=_slidingCanvasWidth;
-@property(nonatomic) double strongCursorMaximumYDistance; // @synthesize strongCursorMaximumYDistance=_strongCursorMaximumYDistance;
-@property(nonatomic) double strongCursorRestoreDelay; // @synthesize strongCursorRestoreDelay=_strongCursorRestoreDelay;
-@property(nonatomic) _Bool styledActivePreview; // @synthesize styledActivePreview=_styledActivePreview;
-@property(nonatomic) double subwordGestureEndingSpeedRange; // @synthesize subwordGestureEndingSpeedRange=_subwordGestureEndingSpeedRange;
-@property(nonatomic) double subwordGestureSpeedThreshold; // @synthesize subwordGestureSpeedThreshold=_subwordGestureSpeedThreshold;
-@property(readonly, nonatomic) _Bool supportedKeyboardLocaleExists;
-@property(nonatomic) double tapToLineBreakVerticalDistance; // @synthesize tapToLineBreakVerticalDistance=_tapToLineBreakVerticalDistance;
-@property(nonatomic) double textInputStandardCommitDelay; // @synthesize textInputStandardCommitDelay=_textInputStandardCommitDelay;
-@property(nonatomic) double textInputStrokeFadeOutDelay; // @synthesize textInputStrokeFadeOutDelay=_textInputStrokeFadeOutDelay;
-@property(nonatomic) double textInputStrokeFadeOutDuration; // @synthesize textInputStrokeFadeOutDuration=_textInputStrokeFadeOutDuration;
-@property(nonatomic) double textInputViewHitTestSlackHorizontal; // @synthesize textInputViewHitTestSlackHorizontal=_textInputViewHitTestSlackHorizontal;
-@property(nonatomic) double textInputViewHitTestSlackVertical; // @synthesize textInputViewHitTestSlackVertical=_textInputViewHitTestSlackVertical;
-@property(nonatomic) _Bool useLargeHitTestArea; // @synthesize useLargeHitTestArea=_useLargeHitTestArea;
-@property(nonatomic) _Bool useSingleComponentCanvas; // @synthesize useSingleComponentCanvas=_useSingleComponentCanvas;
-@property(nonatomic) _Bool useSlidingCanvas; // @synthesize useSlidingCanvas=_useSlidingCanvas;
-@property(nonatomic) _Bool useTransformStrokesAnimation; // @synthesize useTransformStrokesAnimation=_useTransformStrokesAnimation;
-@property(nonatomic) double weakCursorVisibilityTimeout; // @synthesize weakCursorVisibilityTimeout=_weakCursorVisibilityTimeout;
 
 @end
 

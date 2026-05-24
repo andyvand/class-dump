@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, ContactsUI.ContactHeaderViewWrapper, NSView;
-@protocol CNContactHeaderViewControllerDelegate;
+@class NSView;
 
 @interface CNContactHeaderViewController
 {
     _Bool _enableStatusBadges;
-    id <CNContactHeaderViewControllerDelegate> _delegate;
-    CNContact *_contact;
-    long long _quickActionViewStyle;
-    NSView *_headerView;
-    ContactsUI.ContactHeaderViewWrapper *_headerViewWrapper;
 }
 
 + (id);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (long long);
@@ -31,24 +25,19 @@
 - (void);
 - (_Bool);
 - (void);
-- (double);
+- (double)+;
 - (void);
 - (id);
-- (id);
+- (id)ssibility.cache.gax.haspasscode;
 - (void);
-- (void);
+- (void)33CTXPCSubscriptionManagerInterface;
 - (id);
 - (id);
 - (void);
 - (id)20¸;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(nonatomic) __weak id <CNContactHeaderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool enableStatusBadges; // @synthesize enableStatusBadges=_enableStatusBadges;
 @property(retain, nonatomic) NSView *headerView; // @synthesize headerView=_headerView;
-@property(retain, nonatomic) ContactsUI.ContactHeaderViewWrapper *headerViewWrapper; // @synthesize headerViewWrapper=_headerViewWrapper;
-@property(nonatomic) long long quickActionViewStyle; // @synthesize quickActionViewStyle=_quickActionViewStyle;
 
 @end
 

@@ -13,10 +13,10 @@
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTurnID;
-@property(retain, nonatomic) NSData *turnID; // @synthesize turnID=_turnID;
 
 @end
 

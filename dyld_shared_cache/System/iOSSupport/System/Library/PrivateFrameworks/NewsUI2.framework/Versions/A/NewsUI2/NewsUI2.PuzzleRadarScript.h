@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKUserScript;
+@class NSString;
 
 @interface NewsUI2.PuzzleRadarScript
 {
@@ -17,10 +17,7 @@
 - (id)hæÀèé¸éê8ê;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *executableScript;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) _Bool queueable;
-@property(nonatomic, readonly) WKUserScript *userScript;
 
 @end
 

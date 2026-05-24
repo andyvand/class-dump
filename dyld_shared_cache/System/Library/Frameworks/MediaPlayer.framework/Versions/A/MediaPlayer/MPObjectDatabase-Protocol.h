@@ -5,5 +5,6 @@
 //
 
 @protocol MPObjectDatabase
+- (void);
 @end
 

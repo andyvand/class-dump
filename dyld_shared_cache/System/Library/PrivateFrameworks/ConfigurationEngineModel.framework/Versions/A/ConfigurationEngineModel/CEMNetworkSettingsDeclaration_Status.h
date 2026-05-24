@@ -10,12 +10,12 @@
 {
 }
 
++ (id)orkScore.framework/Versions/A/NetworkScore;
 + (id);
-+ (id);
-+ (id);
++ (id)/Versions/A/SymptomDiagnosticReporter;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)framework bundle. bundleWithPath came back nil;
 
 @end
 

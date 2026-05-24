@@ -5,5 +5,8 @@
 //
 
 @protocol QLPreviewControllerConformingDelegate
+
+@optional
+- (void);
 @end
 

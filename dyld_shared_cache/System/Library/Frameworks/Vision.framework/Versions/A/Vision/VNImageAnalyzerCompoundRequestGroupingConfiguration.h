@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VNImageAnalyzerCompoundRequestGroupingConfiguration
 {
     NSMutableArray *_originalRequests;
-    NSMutableDictionary *_kindToOriginalRequestsMapping;
-    NSMutableDictionary *_detectorConfigurationOptions;
-    NSMutableDictionary *_computeStageDeviceAssignments;
-    unsigned long long _detectorModel;
 }
 
 - (void);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (id)k output buffer:%@ /* Error: Ran out of types for this method. */;

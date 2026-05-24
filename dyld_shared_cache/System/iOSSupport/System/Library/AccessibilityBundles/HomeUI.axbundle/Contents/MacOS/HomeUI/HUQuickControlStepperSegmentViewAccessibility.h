@@ -10,15 +10,15 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
++ (Class)h;
++ (id);
++ (void)'};
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
+- (id);
+- (unsigned long long);
+- (id)guidesItemViewModelForMapItem: /* Error: Ran out of types for this method. */;
 
 @end
 

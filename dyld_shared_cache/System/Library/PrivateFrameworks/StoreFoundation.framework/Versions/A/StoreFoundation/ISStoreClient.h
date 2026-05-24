@@ -4,39 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISStoreAccount, NSArray, NSDictionary, NSString;
-
 @interface ISStoreClient
 {
     _Bool __alwaysUseSandboxEnvironment;
-    _Bool _isDaemon;
-    int _pid;
-    unsigned long long _frameworkVersion;
-    NSString *_identifier;
-    long long _clientType;
-    ISStoreAccount *_primaryAccount;
-    NSString *_userAgentAppName;
-    NSString *_userAgentAppVersion;
-    NSString *_agentPreferencesDomain;
-    NSString *_appPreferencesDomain;
-    NSString *_storeFrontBagKey;
-    NSArray *_productionBagURLs;
-    NSArray *_sandboxBagURLs;
-    NSString *_toolbarBagKey;
-    long long _requiredBagType;
-    NSString *_aslDomain;
-    NSString *_storeURLScheme;
-    NSString *_storeSecureURLScheme;
-    NSString *_tempPathClientIdentifier;
-    long long _mediaTypeMask;
-    NSString *_pushServiceName;
-    NSString *_appPath;
-    NSDictionary *_daap;
-    NSString *_displayUIHostID;
-    NSString *_agentListenerName;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
@@ -52,18 +25,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void);
 - (void);
+- (_Bool)!;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -76,6 +47,8 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,7 +56,7 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)";
 - (int);
 - (id);
 - (id);
@@ -93,41 +66,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (id).E'
+;
+- (unsigned long long)F
+;
+- (id)n;
 - (_Bool);
 - (void);
 - (long long)pleInternal/Library/BuildRoots/4~CNq4ugDaAWdUnNWOjGwo_we9b0TL3ErS6EezKWQ/Library/Caches/com.apple.xbs/TemporaryDirectory.o484aD/Sources/Commerce/CommerceKit/iTunes Protocol/Store Services Framework/SSPurchase.m;
 
 // Remaining properties
-@property(setter=_setAlwaysUseSandboxEnvironment:) _Bool _alwaysUseSandboxEnvironment; // @synthesize _alwaysUseSandboxEnvironment=__alwaysUseSandboxEnvironment;
-@property(copy) NSString *agentListenerName; // @synthesize agentListenerName=_agentListenerName;
-@property(copy) NSString *agentPreferencesDomain; // @synthesize agentPreferencesDomain=_agentPreferencesDomain;
-@property(copy) NSString *appPath; // @synthesize appPath=_appPath;
-@property(copy) NSString *appPreferencesDomain; // @synthesize appPreferencesDomain=_appPreferencesDomain;
-@property(copy) NSString *aslDomain; // @synthesize aslDomain=_aslDomain;
-@property long long clientType; // @synthesize clientType=_clientType;
-@property(copy) NSDictionary *daap; // @synthesize daap=_daap;
-@property(copy) NSString *displayUIHostID; // @synthesize displayUIHostID=_displayUIHostID;
 @property unsigned long long frameworkVersion; // @synthesize frameworkVersion=_frameworkVersion;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isDaemon; // @synthesize isDaemon=_isDaemon;
-@property(readonly) NSString *mediaType;
-@property long long mediaTypeMask; // @synthesize mediaTypeMask=_mediaTypeMask;
-@property(readonly) int pid; // @synthesize pid=_pid;
-@property(copy) ISStoreAccount *primaryAccount; // @synthesize primaryAccount=_primaryAccount;
-@property(copy) NSArray *productionBagURLs; // @synthesize productionBagURLs=_productionBagURLs;
-@property(copy) NSString *pushServiceName; // @synthesize pushServiceName=_pushServiceName;
-@property long long requiredBagType; // @synthesize requiredBagType=_requiredBagType;
-@property(copy) NSArray *sandboxBagURLs; // @synthesize sandboxBagURLs=_sandboxBagURLs;
-@property(copy) NSString *storeFrontBagKey; // @synthesize storeFrontBagKey=_storeFrontBagKey;
-@property(copy) NSString *storeSecureURLScheme; // @synthesize storeSecureURLScheme=_storeSecureURLScheme;
-@property(copy) NSString *storeURLScheme; // @synthesize storeURLScheme=_storeURLScheme;
-@property(copy) NSString *tempPathClientIdentifier; // @synthesize tempPathClientIdentifier=_tempPathClientIdentifier;
-@property(copy) NSString *toolbarBagKey; // @synthesize toolbarBagKey=_toolbarBagKey;
-@property(copy) NSString *userAgentAppName; // @synthesize userAgentAppName=_userAgentAppName;
-@property(copy) NSString *userAgentAppVersion; // @synthesize userAgentAppVersion=_userAgentAppVersion;
 
 @end
 

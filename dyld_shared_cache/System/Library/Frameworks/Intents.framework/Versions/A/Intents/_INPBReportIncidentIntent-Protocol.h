@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBLocation, _INPBString, _INPBSupportedTrafficIncidentType;
+@class _INPBLocation, _INPBString;
 
 @protocol _INPBReportIncidentIntent
-- (_Bool)sDeviceName;
+- (_Bool)j;
+- (_INPBLocation *);
+- (void)@16@24;
+- (void)rtFeatureCheckpoint Failed:(_INPBString *)arg1 Server error %@;
+- (_Bool);
+- (_Bool)hasDeviceName;
 - (_Bool)ÜmLp$r;
-- (void)han;
+- (void)DoubleValueIsGreaterThan;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *additionalDetails;
-@property(readonly, nonatomic) _Bool hasAdditionalDetails;
-@property(readonly, nonatomic) _Bool hasIncidentType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasIsClear;
-@property(nonatomic) _Bool hasStartTime;
-@property(readonly, nonatomic) _Bool hasUserLocation;
-@property(retain, nonatomic) _INPBSupportedTrafficIncidentType *incidentType;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) _Bool isClear;
-@property(nonatomic) double startTime;
-@property(retain, nonatomic) _INPBLocation *userLocation;
 @end
 

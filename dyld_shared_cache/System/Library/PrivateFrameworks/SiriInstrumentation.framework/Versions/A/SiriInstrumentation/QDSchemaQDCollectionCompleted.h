@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface QDSchemaQDCollectionCompleted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ath = %@;
 - (_Bool);
-- (_Bool);
+- (_Bool)startDate;
 - (id);
 - (id);
-- (id)totalPreviousSuggestionsShown;
+- (id)_totalPreviousSuggestionsShown;
 - (id)pCount;
-- (_Bool)ANCEDVOICETRIGGERMODE_NOT_APPLICABLE;
+- (_Bool)ENHANCEDVOICETRIGGERMODE_NOT_APPLICABLE;
 - (_Bool)put;
 - (void)ÿ¬Ç!#;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMapTable, NSNumber, NSString;
+@class NSMapTable;
 
 @interface HMBModelQuery
 {
     NSMapTable *_preparedQueries;
-    NSString *_sqlPredicate;
-    unsigned long long _maximumRowsPerSelect;
-    NSNumber *_initialSequence;
-    NSDictionary *_arguments;
-    Class _modelClass;
-    NSString *_sqlSelect;
-    NSDictionary *_argumentFields;
-    NSDictionary *_encodedDefaultValuesByArgumentName;
 }
 
 - (id);
@@ -38,16 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *argumentFields; // @synthesize argumentFields=_argumentFields;
-@property(readonly, copy, nonatomic) NSDictionary *arguments; // @synthesize arguments=_arguments;
-@property(readonly, nonatomic) NSDictionary *encodedDefaultValuesByArgumentName; // @synthesize encodedDefaultValuesByArgumentName=_encodedDefaultValuesByArgumentName;
-@property(readonly, nonatomic) _Bool hasExpectedIndexes;
-@property(readonly, nonatomic) NSNumber *initialSequence; // @synthesize initialSequence=_initialSequence;
-@property(readonly, nonatomic) unsigned long long maximumRowsPerSelect; // @synthesize maximumRowsPerSelect=_maximumRowsPerSelect;
-@property(retain, nonatomic) Class modelClass; // @synthesize modelClass=_modelClass;
 @property(readonly, nonatomic) NSMapTable *preparedQueries; // @synthesize preparedQueries=_preparedQueries;
-@property(readonly, nonatomic) NSString *sqlPredicate; // @synthesize sqlPredicate=_sqlPredicate;
-@property(readonly, nonatomic) NSString *sqlSelect; // @synthesize sqlSelect=_sqlSelect;
 
 @end
 

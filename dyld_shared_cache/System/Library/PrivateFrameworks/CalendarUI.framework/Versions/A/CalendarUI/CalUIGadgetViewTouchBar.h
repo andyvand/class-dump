@@ -4,49 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, NSTouchBar;
+@class NSTouchBar;
 
 @interface CalUIGadgetViewTouchBar
 {
     CDUnknownBlockType _doneBlock;
-    CDUnknownBlockType _removeFieldBlock;
-    NSTouchBar *_wrappedBar;
-    NSTouchBar *_touchBar;
-    NSButton *_removeButton;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)6(;
 - (void);
 - (void);
 - (id);
 - (void)!°FùQÃ#ð1Â0@ù
 × ;
-- (id)tColor;
+- (id)CalUnknownStatusTokenTextColor;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType doneBlock; // @synthesize doneBlock=_doneBlock;
-@property(readonly) unsigned long long hash;
-@property(retain) NSButton *removeButton; // @synthesize removeButton=_removeButton;
-@property(copy, nonatomic) CDUnknownBlockType removeFieldBlock; // @synthesize removeFieldBlock=_removeFieldBlock;
-@property(readonly) Class superclass;
 @property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
-@property(retain) NSTouchBar *wrappedBar; // @synthesize wrappedBar=_wrappedBar;
 
 @end
 

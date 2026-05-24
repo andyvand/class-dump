@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSXPCInterface;
+@class NSXPCInterface;
 
 @interface CLSServerInterfaceConfigurator
 {
     NSXPCInterface *_interface;
-    NSSet *_contextsSet;
-    NSSet *_arraySet;
 }
 
 - (void);
@@ -33,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);

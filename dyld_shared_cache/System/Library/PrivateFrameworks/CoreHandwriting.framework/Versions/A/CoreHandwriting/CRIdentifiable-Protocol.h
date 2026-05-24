@@ -7,6 +7,7 @@
 @class NSUUID;
 
 @protocol CRIdentifiable
+- (NSUUID *)@;
 
 // Remaining properties
 @property(readonly) NSUUID *uuid;

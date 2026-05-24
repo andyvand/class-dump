@@ -7,23 +7,21 @@
 @interface TSDCurveFitter
 {
     double mErrorDistance;
-    long long mErrorIterations;
 }
 
 + (id);
-- (void);
+- (void)meline;
 - (void);
 - (void);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id);
 - (long long);
-- (id);
+- (id)�C;
 
 // Remaining properties
 @property(nonatomic) double errorDistance; // @synthesize errorDistance=mErrorDistance;
-@property(nonatomic) long long errorIterations; // @synthesize errorIterations=mErrorIterations;
 
 @end
 

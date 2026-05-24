@@ -6,7 +6,7 @@
 
 #import <TextInput/TIInputContextEntry.h>
 
-@class NSDate, NSSet, NSString;
+@class NSString;
 
 @interface TIMutableInputContextEntry : TIInputContextEntry
 {
@@ -14,15 +14,6 @@
 
 
 // Remaining properties
-@property(copy, nonatomic) NSString *entryIdentifier;
-@property(nonatomic) long long entryType;
-@property(nonatomic) _Bool isFromMe;
-@property(retain, nonatomic) NSSet *primaryRecipientIdentifiers;
-@property(retain, nonatomic) NSSet *secondaryRecipientIdentifiers;
-@property(copy, nonatomic) NSString *senderIdentifier;
-@property(copy, nonatomic) NSString *spotlightCacheKey;
 @property(copy, nonatomic) NSString *text;
-@property(copy, nonatomic) NSString *threadIdentifier;
-@property(retain, nonatomic) NSDate *timestamp;
 @end
 

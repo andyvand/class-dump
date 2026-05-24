@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *fileArray; // @dynamic fileArray;
-@property(readonly, nonatomic) unsigned long long fileArray_Count; // @dynamic fileArray_Count;
 
 @end
 

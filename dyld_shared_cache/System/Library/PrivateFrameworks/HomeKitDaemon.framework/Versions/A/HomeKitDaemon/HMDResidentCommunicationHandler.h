@@ -4,47 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMDMessageDispatcher, HMFTimer, NSMapTable, NSMutableArray, NSObject, NSString, NSUUID;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentCommunicationHandler
 {
     _Bool _ownerUser;
-    int _numOutstandingReadRequests;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMapTable *_deviceMapping;
-    NSMutableArray *_pendingReadRequests;
-    NSMapTable *_dispatchedReadRequests;
-    HMFTimer *_multiReadCoalesceTimer;
-    NSUUID *_homeUUID;
-    HMDMessageDispatcher *_remoteDispatcher;
 }
 
 + (id);
 + (void);
 + (void);
-+ (void);
++ (void)*[F;
 + (id)B;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__objc_ivar;
 - (id);
 - (void);
 - (long long);
 - (id);
 - (int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (id);
@@ -55,22 +47,6 @@ __attribute__((visibility("hidden")))
 - (id)x	Ü´?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMapTable *deviceMapping; // @synthesize deviceMapping=_deviceMapping;
-@property(readonly, nonatomic) NSMapTable *dispatchedReadRequests; // @synthesize dispatchedReadRequests=_dispatchedReadRequests;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(retain, nonatomic) HMFTimer *multiReadCoalesceTimer; // @synthesize multiReadCoalesceTimer=_multiReadCoalesceTimer;
-@property(nonatomic) int numOutstandingReadRequests; // @synthesize numOutstandingReadRequests=_numOutstandingReadRequests;
-@property(readonly, nonatomic, getter=isOwnerUser) _Bool ownerUser; // @synthesize ownerUser=_ownerUser;
-@property(readonly, nonatomic) NSMutableArray *pendingReadRequests; // @synthesize pendingReadRequests=_pendingReadRequests;
-@property(readonly, nonatomic) HMDDevice *preferredDevice;
-@property(readonly, nonatomic) __weak HMDMessageDispatcher *remoteDispatcher; // @synthesize remoteDispatcher=_remoteDispatcher;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileCacheReserved, NSObject;
-@protocol OS_dispatch_source;
+@class GEOTileCacheReserved;
 
 @interface GEOTileCache
 {
     GEOTileCacheReserved *_reserved;
-    NSObject<OS_dispatch_source> *_memoryNotificationEventSource;
 }
 
 - (void);
@@ -19,11 +17,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -34,15 +32,12 @@
 - (void)× ;
 - (unsigned long long)_searchOriginationEditingServerWaypoints;
 - (void)_placecardsReceived;
-- (id)D_OPTION_ROUTE_STEP_LANE_GUIDANCE;
+- (id)FEEDBACK_FIELD_OPTION_ROUTE_STEP_LANE_GUIDANCE;
 - (unsigned long long)¼;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentCost;
 @property(readonly, nonatomic) unsigned long long currentCount;
-@property unsigned long long maxCapacity;
-@property unsigned long long maxCost;
 
 @end
 

@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXDocumentProviding, SXHintsConfigurationOptionProvider;
+@protocol SXDocumentProviding;
 
 @interface SXConditionalResolverModifierInstructions
 {
     id <SXDocumentProviding> _documentProvider;
-    id <SXHintsConfigurationOptionProvider> _hintsConfigurationOptionProvider;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)F;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -27,22 +25,7 @@
 - (void):8@"TSDInteractiveCanvasController"16@"TSDRep"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <SXDocumentProviding> documentProvider; // @synthesize documentProvider=_documentProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXHintsConfigurationOptionProvider> hintsConfigurationOptionProvider; // @synthesize hintsConfigurationOptionProvider=_hintsConfigurationOptionProvider;
-@property(readonly, nonatomic) _Bool shouldResolveAutoplacement;
-@property(readonly, nonatomic) _Bool shouldResolveComponentLayouts;
-@property(readonly, nonatomic) _Bool shouldResolveComponentStyles;
-@property(readonly, nonatomic) _Bool shouldResolveComponentTextStyles;
-@property(readonly, nonatomic) _Bool shouldResolveComponents;
-@property(readonly, nonatomic) _Bool shouldResolveDocumentStyle;
-@property(readonly, nonatomic) _Bool shouldResolveTextStyles;
-@property(readonly) Class superclass;
 
 @end
 

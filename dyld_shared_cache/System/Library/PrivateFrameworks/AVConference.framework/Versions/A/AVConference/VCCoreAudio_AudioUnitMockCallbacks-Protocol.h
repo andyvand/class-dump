@@ -5,5 +5,7 @@
 //
 
 @protocol VCCoreAudio_AudioUnitMockCallbacks
+- (_Bool);
+- (_Bool);
 @end
 

@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface GEOMapDataSubscription
 {
     long long _updateInterval;
-    NSString *_identifier;
-    NSString *_originatingBundleIdentifier;
-    unsigned long long _dataTypes;
-    long long _policy;
-    NSDate *_expirationDate;
-    GEOMapRegion *_region;
-    NSString *_displayName;
-    NSNumber *_regulatoryRegionID;
 }
 
 + (_Bool)ion failed:legPointsData != nullptr /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
+- (id)observerScheduler_sendResultToObserver: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)Discarding;
 - (unsigned long long);
 - (long long);
 - (id);
@@ -37,18 +29,10 @@
 - (id)Ü;
 - (void)ÈñWÿ;
 - (id)Ïÿ;
-- (double)D9;
+- (double)VD9;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dataTypes; // @synthesize dataTypes=_dataTypes;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic, getter=_originatingBundleIdentifier) NSString *originatingBundleIdentifier; // @synthesize originatingBundleIdentifier=_originatingBundleIdentifier;
-@property(readonly, nonatomic) long long policy; // @synthesize policy=_policy;
-@property(readonly, nonatomic) GEOMapRegion *region; // @synthesize region=_region;
-@property(readonly, nonatomic) NSNumber *regulatoryRegionID; // @synthesize regulatoryRegionID=_regulatoryRegionID;
-@property(readonly, nonatomic) double updateInterval;
 
 @end
 

@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsRequest, GEODirectionsResponse, MNDirectionsRequestDetails, MNNavigationClientProxy, MNTraceRecordingData, NSUUID;
+@class GEODirectionsRequest, NSUUID;
 
 @interface MNNavigationServiceDirectionsRequestTicket
 {
     NSUUID *_requestIdentifier;
-    MNNavigationClientProxy *_proxy;
-    MNDirectionsRequestDetails *_request;
-    GEODirectionsRequest *_directionsRequest;
-    GEODirectionsResponse *_directionsResponse;
-    MNTraceRecordingData *_traceRecordingData;
 }
 
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)glassAvatarProfileViewController _accountProfilePictureDidChange:] /* Error: Ran out of types for this method. */;
 - (void)@"NSString"24;
 
 // Remaining properties
 @property(readonly, nonatomic) GEODirectionsRequest *directionsRequest; // @synthesize directionsRequest=_directionsRequest;
-@property(readonly, nonatomic) GEODirectionsResponse *directionsResponse; // @synthesize directionsResponse=_directionsResponse;
-@property(readonly, nonatomic) MNTraceRecordingData *traceRecordingData; // @synthesize traceRecordingData=_traceRecordingData;
 
 @end
 

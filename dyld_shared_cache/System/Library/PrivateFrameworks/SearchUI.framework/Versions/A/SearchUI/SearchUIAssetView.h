@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)%@ because it has no targeted bundle ids;
 - (void);
 - (void);
 

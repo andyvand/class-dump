@@ -7,11 +7,6 @@
 @interface IDSFoundation.IDSDistrubtedActors
 {
     id $defaultActor;
-    id _realTimeGroupSessionEventProvider;
-    id realTimeGroupSessionEventProviderActor;
-    id actorSystem;
-    id sessionTask;
-    id lastFailure;
 }
 
 @end

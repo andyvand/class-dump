@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBNote;
+@class _INPBNote;
 
 @interface _INPBAppendToNoteIntentResponse
 {
     struct _has;
-    _INPBNote *_note;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)16@24;
+- (void)(;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)wasCancelled;
+- (id)setAutoHotspotDidFindCandidateCount: /* Error: Ran out of types for this method. */;
+- (void)public}s (%{public}s:(id)arg1 %u) Unexpected event payload length for APPLE80211_M_STA_LEAVE (expected=%lu, actual=%lu);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)ied;
+- (void)INTransferMoneyIntentResponseCodeFailureCredentialsUnverified;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasNote;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBNote *note; // @synthesize note=_note;
-@property(readonly) Class superclass;
 
 @end
 

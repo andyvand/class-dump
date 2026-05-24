@@ -10,7 +10,7 @@
     id suggestionText;
 }
 
-- (id);
+- (id)P;
 - (id);
 - (void);
 

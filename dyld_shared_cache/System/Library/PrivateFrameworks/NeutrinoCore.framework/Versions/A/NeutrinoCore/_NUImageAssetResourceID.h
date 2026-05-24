@@ -13,7 +13,7 @@
 
 - (id);
 - (long long);
-- (id);
+- (id):b /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long auxiliaryType; // @synthesize auxiliaryType=_auxiliaryType;

@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetHandle, FCColor, NSArray, NSDictionary, NSString;
-@protocol FCPuzzleTypeThumbnailDirectoryType;
+@class FCAssetHandle, FCColor, NSArray, NSString;
 
 @protocol FCPuzzleTypeProviding
-- (NSString *);
+- (NSArray *);
+- (FCColor *)r;
+- (FCAssetHandle *)@;
 - (FCAssetHandle *)	
 ;
 - (NSString *)n÷ÿ;
@@ -18,29 +19,6 @@
 - (NSString *)WebEmbedDataSourceCacheEntry;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long behaviorFlags;
-@property(readonly, nonatomic) FCAssetHandle *coverImageAssetHandle;
-@property(readonly, nonatomic) FCColor *darkStylePuzzlePrimaryColor;
-@property(readonly, nonatomic) FCColor *darkStyleThemeColor;
-@property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
-@property(readonly, copy, nonatomic) NSString *engineResourceID;
-@property(readonly, nonatomic) FCAssetHandle *exploreTileImageAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *imageResourceID;
 @property(readonly, copy, nonatomic) NSString *kind;
-@property(readonly, copy, nonatomic) NSArray *latestPuzzleIDs;
-@property(readonly, copy, nonatomic) NSString *nameCompact;
-@property(readonly, nonatomic) FCAssetHandle *nameImageAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *nameImageCompactAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *nameImageForDarkBackgroundAssetHandle;
-@property(readonly, nonatomic) FCAssetHandle *nameImageMaskAssetHandle;
-@property(readonly, nonatomic) NSDictionary *navigationBarThemeByRankID;
-@property(readonly, nonatomic) NSArray *orderedNavigationBarThemes;
-@property(readonly, copy, nonatomic) NSArray *promotedPuzzleIDs;
-@property(readonly, nonatomic) FCColor *puzzlePrimaryColor;
-@property(readonly, nonatomic) FCColor *themeColor;
-@property(readonly, nonatomic) id <FCPuzzleTypeThumbnailDirectoryType> thumbnailDirectory;
 @end
 

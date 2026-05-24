@@ -5,5 +5,6 @@
 //
 
 @protocol PODMigratorProtocol
+- (void);
 @end
 

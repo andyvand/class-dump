@@ -10,25 +10,22 @@ __attribute__((visibility("hidden")))
 @interface TKAKSParameters
 {
     struct aks_params_s *_params;
-    NSData *_encoded;
 }
 
 + (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (const void *);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)onfirmation:(long long)arg1;
+- (void)setPINConfirmation:(long long)arg1;
 
 // Remaining properties
-@property(readonly) const void *bytes;
 @property(readonly, copy) NSData *data;
-@property(readonly) unsigned long long length;
 
 @end
 

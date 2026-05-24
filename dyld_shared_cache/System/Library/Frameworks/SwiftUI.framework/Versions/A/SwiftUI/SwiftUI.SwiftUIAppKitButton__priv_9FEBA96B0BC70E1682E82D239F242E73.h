@@ -7,10 +7,6 @@
 @interface SwiftUI.SwiftUIAppKitButton__priv_9FEBA96B0BC70E1682E82D239F242E73
 {
     id viewType;
-    id configuration;
-    id repeatTiming;
-    id repeatState;
-    id customAcceptsFirstMouse;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);

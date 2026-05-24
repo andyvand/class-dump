@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, TIContextTokens;
+
 @protocol TIRevisionHistoryDelegate
+- (void);
+- (_Bool)ttyShouldBeRealtimeForContext: /* Error: Ran out of types for this method. */;
+- (void)lastUtteranceForMe:(NSString *)arg1 withText:(unsigned int)arg2;
+- (void)lastUtteranceForMe:(_Bool)arg1;
+- (void)lastDBVacuum;
+- (void)isRTTSupportedForContext:(NSString *)arg1 excludeRelay:(NSString *)arg2;
+- (struct TITokenID)debugDescription;
+- (struct TITokenID)currentTranscription;
+- (void)context:(TIContextTokens *)arg1 getCarrierBundleValue:error: /* Error: Ran out of types for this method. */;
+- (void)telephonyClient;
+- (struct TITokenID)he same value, no need to set again;
 @end
 

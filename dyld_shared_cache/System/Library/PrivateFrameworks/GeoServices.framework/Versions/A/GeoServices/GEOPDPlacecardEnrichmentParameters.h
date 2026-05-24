@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlacecardEnrichmentParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_enrichmentInfos;
-    GEOPDMapsIdentifier *_mapsId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _skipHtml;
-    struct {
-        unsigned int has_skipHtml:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_enrichmentInfos:1;
-        unsigned int read_mapsId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_secondPassAssetQueryCompleteTime;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)q32@?<v@?B>40@"NSObject<OS_dispatch_queue>"48;
-- (id)urer;
+- (id)_manufacturer;
 - (id)h4;
 - (void);
 

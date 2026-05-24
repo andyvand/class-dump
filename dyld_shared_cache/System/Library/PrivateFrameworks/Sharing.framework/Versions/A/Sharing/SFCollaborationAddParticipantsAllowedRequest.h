@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShare, NSURL;
+@class NSURL;
 
 @interface SFCollaborationAddParticipantsAllowedRequest
 {
     NSURL *_url;
-    CKShare *_share;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)ingEndpoint;
+- (id)cx;
+- (void)missingEndpoint;
 - (id)k;
 
 // Remaining properties
-@property(readonly, nonatomic) CKShare *share; // @synthesize share=_share;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

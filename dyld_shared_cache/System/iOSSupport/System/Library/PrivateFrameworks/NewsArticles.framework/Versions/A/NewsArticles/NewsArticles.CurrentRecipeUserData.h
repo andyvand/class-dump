@@ -7,9 +7,6 @@
 @interface NewsArticles.CurrentRecipeUserData
 {
     id recipeUserDataManager;
-    id recipeID;
-    id recipeUserData;
-    id observationTask;
 }
 
 @end

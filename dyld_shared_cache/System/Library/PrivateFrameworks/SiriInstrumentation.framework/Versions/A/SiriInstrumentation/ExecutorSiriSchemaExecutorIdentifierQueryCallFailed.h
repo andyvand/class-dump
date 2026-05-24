@@ -6,24 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ExecutorSiriSchemaExecutorIdentifierQueryCallFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
+- (void);
+- (id)Skip IAPLocationSendEphemeris, no ephemeris, connectionID %u
+;
+- (void)AppleInternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ocsp/ocsp_vfy.c;
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)>!;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)1"routeType"b1"formatLayoutValue"b1"assetSource"b1"assetLocation"b1"subscriptionType"b1"hasLookupWaitTime"b1"hasBagWaitTime"b1"hasLeaseWaitTime"b1"hasSuzeLeaseWaitTime"b1"hasSubscriptionAssetLoadWaitTime"b1"hasMediaRedownloadWaitTime"b1"cmInitialStartupItemCreationToReadyToPlayDurationInMs"b1"cmInitialStartupItemCreationToLtluDurationInMs"b1"masterPlaylistConnectionTlsHandshakeDurationInMs"b1"masterPlaylistRequestDurationInMs"b1"subPlaylistConnectionTlsHandshakeDurationInMs"b1"subPlaylistRequestDurationInMs"b1"contentConnectionTlsHandshakeDurationInMs"b1"contentFirstSegmentDurationInMs"b1};
-- (id)g;
+- (id)SISchemaAudioStopRecording;
 - (id)`ç;
 - (_Bool)\ÎÿÈ5¶ï#;
 - (_Bool)ìê;
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

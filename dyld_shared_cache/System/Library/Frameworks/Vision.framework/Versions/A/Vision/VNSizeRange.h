@@ -7,25 +7,21 @@
 @interface VNSizeRange
 {
     unsigned long long _minimumDimension;
-    unsigned long long _maximumDimension;
-    unsigned long long _idealDimension;
 }
 
 + (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@;
 - (id);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)initWithObservedItemID:(id)arg1 domainContext:previousChangeToken:nsFileProviderRequest: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long idealDimension; // @synthesize idealDimension=_idealDimension;
-@property(readonly, nonatomic) unsigned long long maximumDimension; // @synthesize maximumDimension=_maximumDimension;
 @property(readonly, nonatomic) unsigned long long minimumDimension; // @synthesize minimumDimension=_minimumDimension;
 
 @end

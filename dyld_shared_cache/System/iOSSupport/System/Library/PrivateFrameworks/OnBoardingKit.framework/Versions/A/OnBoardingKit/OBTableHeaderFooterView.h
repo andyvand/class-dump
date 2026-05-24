@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface OBTableHeaderFooterView
 {
     UIView *_internalContentView;
-    UIView *_hostedView;
-    unsigned long long _layout;
-    NSArray *_hostedConstraints;
-    NSArray *_internalContentConstraints;
-    struct UIEdgeInsets _internalContentPadding;
-    struct UIEdgeInsets _hostedViewPadding;
 }
 
 - (void);
@@ -32,21 +26,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *hostedConstraints; // @synthesize hostedConstraints=_hostedConstraints;
-@property(retain, nonatomic) UIView *hostedView; // @synthesize hostedView=_hostedView;
-@property(nonatomic) struct UIEdgeInsets hostedViewPadding; // @synthesize hostedViewPadding=_hostedViewPadding;
-@property(retain, nonatomic) NSArray *internalContentConstraints; // @synthesize internalContentConstraints=_internalContentConstraints;
-@property(nonatomic) struct UIEdgeInsets internalContentPadding; // @synthesize internalContentPadding=_internalContentPadding;
 @property(retain, nonatomic) UIView *internalContentView; // @synthesize internalContentView=_internalContentView;
-@property(nonatomic) unsigned long long layout; // @synthesize layout=_layout;
 
 @end
 

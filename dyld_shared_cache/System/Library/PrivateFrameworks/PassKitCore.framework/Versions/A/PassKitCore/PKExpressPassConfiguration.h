@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKExpressPassInformation;
+@class NSString;
 
 @interface PKExpressPassConfiguration
 {
     _Bool _isNFCExpressEnabled;
-    _Bool _isUWBExpressEnabled;
-    NSString *_passUniqueIdentifier;
-    PKExpressPassInformation *_passInformation;
 }
 
 + (_Bool)0@ù
@@ -23,19 +20,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)kMACRxUnicastCTStoOther;
 - (void);
 - (id);
-- (void)lmentOfferAfterRetryReasonError;
+- (void)loadPreconfiguredInstallmentOfferAfterRetryReasonError;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isNFCExpressEnabled; // @synthesize isNFCExpressEnabled=_isNFCExpressEnabled;
-@property(readonly, nonatomic) _Bool isUWBExpressEnabled; // @synthesize isUWBExpressEnabled=_isUWBExpressEnabled;
-@property(readonly, nonatomic) PKExpressPassInformation *passInformation; // @synthesize passInformation=_passInformation;
 @property(readonly, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
 
 @end

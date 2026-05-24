@@ -6,35 +6,27 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSMutableDictionary, RTBluePOIMetricManager, RTBluePOIMonitorEnabler, RTDefaultsManager, RTWiFiManager;
+@class NSMutableDictionary, RTDefaultsManager;
 
 @interface RTBluePOIWiFiScanner : RTService
 {
     NSMutableDictionary *targettedChannelsLastSeenDates;
-    NSDate *lastTargettedScan;
-    RTDefaultsManager *_defaultsManager;
-    RTWiFiManager *_wifiManager;
-    RTBluePOIMonitorEnabler *_bluePOIEnabler;
-    RTBluePOIMetricManager *_bluePOIMetricManager;
 }
 
 - (void);
 - (id);
+- (id)iCDP state is (%@);
+- (void);
+- (void)fingerprint;
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)ializingStateTimeout;
-- (id)aily_total_uninterrupted_WiFi_connection_duration_home_bucketed;
+- (id)RTDefaultsSMWatchdogInitializingStateTimeout;
+- (id)mean_daily_total_uninterrupted_WiFi_connection_duration_home_bucketed;
 - (void)sitionPreprocessor:merging transitions into, %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) RTBluePOIMonitorEnabler *bluePOIEnabler; // @synthesize bluePOIEnabler=_bluePOIEnabler;
-@property(readonly, nonatomic) RTBluePOIMetricManager *bluePOIMetricManager; // @synthesize bluePOIMetricManager=_bluePOIMetricManager;
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
 
 @end
 

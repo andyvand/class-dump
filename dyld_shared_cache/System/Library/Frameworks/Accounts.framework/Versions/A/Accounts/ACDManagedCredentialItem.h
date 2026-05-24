@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface ACDManagedCredentialItem
 {
@@ -13,8 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accountIdentifier; // @dynamic accountIdentifier;
-@property(retain, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(retain, nonatomic) NSNumber *persistent; // @dynamic persistent;
-@property(retain, nonatomic) NSString *serviceName; // @dynamic serviceName;
 @end
 

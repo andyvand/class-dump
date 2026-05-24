@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_tokens;
 }
 
+- (id)c;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void)er;
+- (unsigned long long)selectItemWithTag: /* Error: Ran out of types for this method. */;
+- (void)printer;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface PKIntersectionResult
 {
     NSOrderedSet *_intersectedStrokes;
-    long long _intersectionAlgorithmType;
-    long long _contentType;
 }
 
 + (id);
@@ -19,13 +17,11 @@
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (void)peIdentifiers.framework/Versions/A/UniformTypeIdentifiers;
 - (void)Controller;
 
 // Remaining properties
-@property(nonatomic) long long contentType; // @synthesize contentType=_contentType;
 @property(retain, nonatomic) NSOrderedSet *intersectedStrokes; // @synthesize intersectedStrokes=_intersectedStrokes;
-@property(nonatomic) long long intersectionAlgorithmType; // @synthesize intersectionAlgorithmType=_intersectionAlgorithmType;
 
 @end
 

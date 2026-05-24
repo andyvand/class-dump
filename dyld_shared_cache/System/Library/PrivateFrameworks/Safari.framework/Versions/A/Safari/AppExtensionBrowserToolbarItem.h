@@ -6,16 +6,12 @@
 
 #import <Safari/BrowserToolbarItem.h>
 
-@class AppExtensionToolbarItem, BrowserWindowController, NSMenuItem, NSString, NSUUID, SafariAppExtensionsController;
+@class SafariAppExtensionsController;
 
 __attribute__((visibility("hidden")))
 @interface AppExtensionBrowserToolbarItem : BrowserToolbarItem
 {
     SafariAppExtensionsController *_appExtensionsController;
-    NSMenuItem *_menuItemForOverflowMenu;
-    AppExtensionToolbarItem *_appExtensionToolbarItem;
-    BrowserWindowController *_browserWindowController;
-    NSUUID *_uuid;
 }
 
 - (void);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (void);
@@ -40,17 +36,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak AppExtensionToolbarItem *appExtensionToolbarItem; // @synthesize appExtensionToolbarItem=_appExtensionToolbarItem;
-@property(readonly, nonatomic) __weak BrowserWindowController *browserWindowController; // @synthesize browserWindowController=_browserWindowController;
 @property(readonly, nonatomic) _Bool canBeDisabledByExtension;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

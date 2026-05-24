@@ -6,76 +6,54 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer, UIKBTutorialConversationBubbleBackdropLayer, UIKBTutorialConversationBubbleShadowLayer, UILabel;
+@class CAShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface UIKBTutorialConversationBubble : UIView
 {
     CAShapeLayer *_backdropMaskShapeLayer;
-    UIKBTutorialConversationBubbleShadowLayer *_broadShadowLayer;
-    UIKBTutorialConversationBubbleShadowLayer *_tightShadowLayer;
-    UIKBTutorialConversationBubbleBackdropLayer *_backdropLayer;
-    UIView *_contentView;
-    long long _originationDirection;
-    double _preferredTailAttachmentPointXCoordinate;
-    UILabel *_summaryLabel;
-    struct CGPoint _originationPoint;
-    struct CGPoint _tailAttachmentPoint;
-    struct CGSize _parentAvatarViewSize;
 }
 
-- (id);
+- (id)0;
 - (struct CGPoint);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (struct CGRect);
-- (double);
-- (struct CGSize);
-- (struct CGPoint);
-- (long long);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
+- (void)ent with route:(struct CGSize)arg1 %s id:%s selector:%s /* Error: Ran out of types for this method. */;
+- (void)iled to generate image preview:(struct CGPoint)arg1 %s;
+- (void)TrustKit inference;
+- (void)repair;
+- (void)dMyLocateSession startUpdatingFriendsWithCompletion completed without an error;
+- (double)ld;
+- (struct CGRect)ion;
+- (double)error %@;
+- (struct CGSize)************* We hit max number of attempts to load dirty messages needing a T1 update. Bailing for now;
+- (struct CGPoint)eting batch %d of messages for chatIdentifiers %@ onServices %@. %d messages will be deleted.;
+- (long long)ed %d messages with guids:%@ /* Error: Ran out of types for this method. */;
+- (id)or transfer %@, but ignoring due to override;
+- (struct UIEdgeInsets)groupName;
 - (id);
 - (double);
-- (void);
+- (double);
+- (double);
+- (double);
 - (id);
+- (double);
+- (void);
+- (id);
 - (struct CGPoint);
 - (struct CGSize);
 - (void);
 - (void);
 - (struct CGSize)1Â0@ù
 × ;
-- (id)es:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)buildLayoutPreferences:usingBlock: /* Error: Ran out of types for this method. */;
 - (void)a`Q;
 - (id)87l;
 
 // Remaining properties
-@property(retain, nonatomic) UIKBTutorialConversationBubbleBackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;
 @property(retain, nonatomic) CAShapeLayer *backdropMaskShapeLayer; // @synthesize backdropMaskShapeLayer=_backdropMaskShapeLayer;
-@property(retain, nonatomic) UIKBTutorialConversationBubbleShadowLayer *broadShadowLayer; // @synthesize broadShadowLayer=_broadShadowLayer;
-@property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) struct UIEdgeInsets contentViewPadding;
-@property(nonatomic) long long originationDirection; // @synthesize originationDirection=_originationDirection;
-@property(nonatomic) struct CGPoint originationPoint; // @synthesize originationPoint=_originationPoint;
-@property(nonatomic) struct CGSize parentAvatarViewSize; // @synthesize parentAvatarViewSize=_parentAvatarViewSize;
-@property(readonly, nonatomic) double pillCornerRadius;
-@property(nonatomic) double preferredTailAttachmentPointXCoordinate; // @synthesize preferredTailAttachmentPointXCoordinate=_preferredTailAttachmentPointXCoordinate;
-@property(retain, nonatomic) UILabel *summaryLabel; // @synthesize summaryLabel=_summaryLabel;
-@property(readonly, nonatomic) struct CGPoint tailAttachmentPoint; // @synthesize tailAttachmentPoint=_tailAttachmentPoint;
-@property(retain, nonatomic) UIKBTutorialConversationBubbleShadowLayer *tightShadowLayer; // @synthesize tightShadowLayer=_tightShadowLayer;
 
 @end
 

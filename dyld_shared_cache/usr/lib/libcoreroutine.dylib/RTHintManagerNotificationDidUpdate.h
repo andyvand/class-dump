@@ -14,7 +14,7 @@
 }
 
 + (id);
-- (id);
+- (id)implement pathMTUDidChange;
 - (void);
 - (id);
 - (id);

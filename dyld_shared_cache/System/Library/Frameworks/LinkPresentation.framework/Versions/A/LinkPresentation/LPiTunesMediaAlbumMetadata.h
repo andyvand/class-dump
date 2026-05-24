@@ -6,17 +6,11 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSArray, NSString;
+@class NSString;
 
 @interface LPiTunesMediaAlbumMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
-    NSArray *_offers;
 }
 
 + (id);
@@ -24,25 +18,25 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (id)SimulateMissingSigningIdentityForDeviceCapabilities;
+- (id)zone %@ to V2.;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)B;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)exportRampCurveExponent;
 - (id);
 - (id);
 - (void);
@@ -50,20 +44,7 @@
 - (id),ô;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

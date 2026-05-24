@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileKeyList, GEOTileRequester;
+@class GEOTileKeyList;
 
 __attribute__((visibility("hidden")))
 @interface GEOTileServerLocalProxyBatchContext
 {
     GEOTileKeyList *_fullList;
-    GEOTileKeyList *_interestList;
-    GEOTileKeyList *_requesterList;
-    GEOTileKeyList *_pendingRequesterList;
-    GEOTileKeyList *_cacheMissNoDataList;
-    GEOTileKeyList *_cacheMissStaleDataList;
-    GEOTileKeyList *_cacheMissStaleUnusableDataList;
-    unsigned char _loadReason;
-    _Bool _proactivelyLoadOnFailure;
-    GEOTileRequester *_tileRequester;
 }
 
 - (void);
@@ -26,16 +17,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)setStopAlertBehavior:(id)arg1;
+- (void)er:(id)arg1 disableOnDeviceCompilation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (unsigned char);
 - (void);
 - (id)walletPlaceLocalizedStringLocale;
-- (void)ributionMap:(id)arg1;
-- (id)xElementIndex;
+- (void)initWithCaptionedPhotoCategory:(id)arg1 attributionMap: /* Error: Ran out of types for this method. */;
+- (id)_selectedMaxElementIndex;
 - (id)8þ;
 - (id)SString"24Q32Q40Q48@"NSData"56@"NSString"64q72;
 - (void)¼;
@@ -44,16 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)Ñ$±¤ÜHQ@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOTileKeyList *cacheMissNoDataList; // @synthesize cacheMissNoDataList=_cacheMissNoDataList;
-@property(retain, nonatomic) GEOTileKeyList *cacheMissStaleDataList; // @synthesize cacheMissStaleDataList=_cacheMissStaleDataList;
-@property(retain, nonatomic) GEOTileKeyList *cacheMissStaleUnusableDataList; // @synthesize cacheMissStaleUnusableDataList=_cacheMissStaleUnusableDataList;
 @property(retain, nonatomic) GEOTileKeyList *fullList; // @synthesize fullList=_fullList;
-@property(retain, nonatomic) GEOTileKeyList *interestList; // @synthesize interestList=_interestList;
-@property(nonatomic) unsigned char loadReason; // @synthesize loadReason=_loadReason;
-@property(retain, nonatomic) GEOTileKeyList *pendingRequesterList; // @synthesize pendingRequesterList=_pendingRequesterList;
-@property(nonatomic) _Bool proactivelyLoadOnFailure; // @synthesize proactivelyLoadOnFailure=_proactivelyLoadOnFailure;
-@property(retain, nonatomic) GEOTileKeyList *requesterList; // @synthesize requesterList=_requesterList;
-@property(retain, nonatomic) GEOTileRequester *tileRequester; // @synthesize tileRequester=_tileRequester;
 
 @end
 

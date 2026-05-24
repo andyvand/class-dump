@@ -9,8 +9,6 @@
 @interface DGiPhotoEdgeBlurEffect
 {
     CIFilter *_filter;
-    float _level;
-    float _intensity;
 }
 
 - (void);

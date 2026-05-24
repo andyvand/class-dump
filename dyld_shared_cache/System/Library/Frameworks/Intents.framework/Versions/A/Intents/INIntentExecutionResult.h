@@ -4,31 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, INIntentResponse;
+@class INIntent;
 
 @interface INIntentExecutionResult
 {
     INIntent *_intent;
-    INIntentResponse *_intentResponse;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)_cached_collectionEventBufferCount;
 - (id);
 - (unsigned long long);
+- (id)URL:entry for encoding level %d
+ /* Error: Ran out of types for this method. */;
+- (id)tory.MoIAiI/Sources/libressl/libressl-2.8/crypto/pkcs7/pk7_smime.c;
+- (_Bool)_preferUserConfiguredNetworks;
+- (void)NetworkOfInterestWorkStateUpdatedAt;
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)ionResults:(unsigned long long)arg1;
-- (void)ityNameOptionsForCreateFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)addResolutionResults:(unsigned long long)arg1;
+- (void)provideEntityNameOptionsForCreateFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) INIntent *intent; // @synthesize intent=_intent;
-@property(readonly) INIntentResponse *intentResponse; // @synthesize intentResponse=_intentResponse;
 
 @end
 

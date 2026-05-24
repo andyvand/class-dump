@@ -6,47 +6,29 @@
 
 #import <AppleAccount/AABeneficiary.h>
 
-@class AKInheritanceAccessKey, NSString, NSUUID;
+@class NSString;
 
 @interface AABeneficiaryInfo : AABeneficiary
 {
     NSString *_handle;
-    NSUUID *_otPeerID;
-    NSString *_repairDate;
-    unsigned long long _repairCount;
-    NSString *_recordBuildVersion;
 }
 
 + (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)ived Bootstrap Token:%d /* Error: Ran out of types for this method. */;
+- (unsigned long long)CP_HasBootstrapTokenBeenReceivedByMDM;
+- (id)udConfiguration mcxUsr_cloudconfiguration returned error:%ld (%s) domain = %s /* Error: Ran out of types for this method. */;
+- (id)lockUserAccount:(id)arg1 policy info contains unexpected data;
+- (id)ata was%s found;
+- (id)executing a BNNS Op: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)lName;
+- (void)V;
+- (id)p1;
+- (id)CreationQueue;
+- (void)fullName;
 
 // Remaining properties
-@property(retain, nonatomic) AKInheritanceAccessKey *accessKey;
-@property(readonly, nonatomic) NSString *benefactorAltDSID;
-@property(readonly, nonatomic) NSUUID *beneficiaryID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSString *handle; // @synthesize handle=_handle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *otPeerID; // @synthesize otPeerID=_otPeerID;
-@property(readonly, nonatomic) NSString *recordBuildVersion; // @synthesize recordBuildVersion=_recordBuildVersion;
-@property(readonly, nonatomic) unsigned long long repairCount; // @synthesize repairCount=_repairCount;
-@property(readonly, nonatomic) NSString *repairDate; // @synthesize repairDate=_repairDate;
-@property(readonly) Class superclass;
 
 @end
 

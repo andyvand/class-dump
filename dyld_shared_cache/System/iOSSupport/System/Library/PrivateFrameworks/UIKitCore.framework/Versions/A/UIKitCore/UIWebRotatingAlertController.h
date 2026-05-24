@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)denied;
 - (_Bool);
 - (void){`;
 

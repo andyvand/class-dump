@@ -9,18 +9,18 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)constraintGreaterThanOrEqualToAnchor:(id)arg1;
++ (_Bool)constraintEqualToConstant:(id)arg1;
++ (_Bool)constraintEqualToAnchor:(id)arg1 multiplier:(long long *)arg2;
++ (_Bool)constraintEqualToAnchor:(id)arg1 constant:(int *)arg2;
++ (_Bool)constraintEqualToAnchor:(id)arg1;
++ (_Bool)constrainView:(id)arg1 toParentView:(struct CGPoint *)arg2 withInsets: /* Error: Ran out of types for this method. */;
++ (_Bool)constrainView:(id)arg1 toFillBoundsOfParentView:(long long *)arg2;
++ (_Bool)conformsToProtocol:(id)arg1;
++ (_Bool)configurationWithPointSize:(id)arg1 weight:(float *)arg2;
++ (_Bool)configurationByApplyingConfiguration:(id)arg1;
++ (_Bool)compare:(id)arg1;
++ (_Bool)colorWithSRGBRed:(id)arg1 green:(_Bool *)arg2 blue:alpha: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSArray, NSValue, UIDelayedAction;
+@class UIDelayedAction;
 
 @interface _UISimplePressGestureRecognizer : UIGestureRecognizer
 {
     UIDelayedAction *_delayedAction;
-    NSValue *_activeTrigger;
-    NSArray *_triggers;
 }
 
 - (void);
@@ -21,22 +19,18 @@
 - (id);
 - (void);
 - (id)ntentInset"b1"delegateWasNonNil"b1"preserveCenterDuringRotation"b1"delaysTrackingWhileDecelerating"b1"avoidJumpOnInterruptedBounceWithDelayedTrackingWhileDecelerating"b1"pinnedZoomMin"b1"pinnedXMin"b1"pinnedYMin"b1"pinnedXMax"b1"pinnedYMax"b1"staysCenteredDuringPinch"b1"wasDelayingPinchForSystemGestures"b1"disableContentOffsetRounding"b1"alwaysDisableContentOffsetRounding"b1"adjustedDecelerationTargetX"b1"adjustedDecelerationTargetY"b1"hasScrolled"b1"wantsConstrainedContentSize"b1"constrainedContentSizeNeedsUpdate"b1"updateInsetBottom"b1"beingDraggedByChildScrollView"b1"adjustsTargetsOnContentOffsetChanges"b1"skipsContentOffsetAdjustmentsIfScrolling"b1"forwardsTouchesUpResponderChain"b1"firstResponderKeyboardAvoidanceDisabled"b1"hasGradientMaskView"b1"configureForObservingByTVSearchController"b1"interruptingDeceleration"b1"delegateScrollViewAdjustedOffset"b1"delegateAsynchronouslyHandleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
-- (id)sReversionUI;
+- (id)supportsReversionUI;
 - (void)target;
 - (id)t recommended. Use an explicit constant for your constraint to override this.;
 - (void)f,%4.2f,%4.2f,%4.2f);
-- (void)th;
-- (void)nloadedViewController;
+- (void)UISegmentWidth;
+- (void)UnloadedViewController;
 - (void)¸ëQ¸®?;
 - (void)yÜ _[;
 - (void)Hâ^;
 
 // Remaining properties
-@property(readonly, nonatomic) NSValue *activeTrigger; // @synthesize activeTrigger=_activeTrigger;
-@property(copy, nonatomic) NSArray *allowedPressTypes;
-@property(copy, nonatomic) NSArray *allowedTouchTypes;
 @property(retain, nonatomic) UIDelayedAction *delayedAction; // @synthesize delayedAction=_delayedAction;
-@property(retain, nonatomic) NSArray *triggers; // @synthesize triggers=_triggers;
 
 @end
 

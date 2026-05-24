@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface WiFiAnalyticsAWDWiFiNWPeerActivity
 {
     unsigned long long _timestamp;
-    NSMutableArray *_peerStats;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
@@ -20,25 +16,23 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ID1:%@, acctObjID2:%@}. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)]3*;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool));
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)ResistanceTraining;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *peerStats; // @synthesize peerStats=_peerStats;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

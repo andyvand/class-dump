@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIStyleEngineProcessor, NSDictionary, NSString, _NUStyleEngineConfiguration;
-@protocol MTLCommandQueue;
+@class NSString;
 
 @interface _NUStyleEngine
 {
     unsigned long long _sid;
-    NSString *_usage;
-    id <MTLCommandQueue> _metalCommandQueue;
-    _NUStyleEngineConfiguration *_configuration;
-    NSDictionary *_tuningParams;
-    CMIStyleEngineProcessor *_processor;
 }
 
 + (_Bool);
@@ -26,7 +20,7 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -35,10 +29,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _NUStyleEngineConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) id <MTLCommandQueue> metalCommandQueue; // @synthesize metalCommandQueue=_metalCommandQueue;
-@property(readonly, nonatomic) CMIStyleEngineProcessor *processor; // @synthesize processor=_processor;
-@property(readonly, nonatomic) NSDictionary *tuningParams; // @synthesize tuningParams=_tuningParams;
 @property(readonly, nonatomic) NSString *usage; // @synthesize usage=_usage;
 
 @end

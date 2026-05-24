@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString, VSAccountStore, VSDevice, VSPreferences, VSRemoteNotifier;
+@class VSPreferences;
 
 @interface VSIdentityProviderInfoCenter
 {
     VSPreferences *_preferences;
-    NSOperationQueue *_privateQueue;
-    VSRemoteNotifier *_remoteNotifier;
-    VSDevice *_device;
-    VSAccountStore *_accountStore;
-    CDUnknownBlockType _newIdentityProviderFetchAllOperationBlock;
-    CDUnknownBlockType _newIdentityProviderFetchOperationBlock;
 }
 
 + (id);
@@ -35,15 +29,15 @@
 - (void);
 - (void);
 - (void);
+- (void)5ratioILl1ELl1000EEEEEE3$_0;
+- (id);
+- (id);
+- (void)?	;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -51,20 +45,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) VSAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) VSDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType newIdentityProviderFetchAllOperationBlock; // @synthesize newIdentityProviderFetchAllOperationBlock=_newIdentityProviderFetchAllOperationBlock;
-@property(copy, nonatomic) CDUnknownBlockType newIdentityProviderFetchOperationBlock; // @synthesize newIdentityProviderFetchOperationBlock=_newIdentityProviderFetchOperationBlock;
 @property(retain, nonatomic) VSPreferences *preferences; // @synthesize preferences=_preferences;
-@property(retain, nonatomic) NSOperationQueue *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(retain, nonatomic) VSRemoteNotifier *remoteNotifier; // @synthesize remoteNotifier=_remoteNotifier;
-@property(readonly) Class superclass;
 
 @end
 

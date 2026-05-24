@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface SHKLatencyMeasurement
 {
     NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 - (id);
@@ -24,9 +23,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSNumber *durationMs;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly) _Bool isComplete;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

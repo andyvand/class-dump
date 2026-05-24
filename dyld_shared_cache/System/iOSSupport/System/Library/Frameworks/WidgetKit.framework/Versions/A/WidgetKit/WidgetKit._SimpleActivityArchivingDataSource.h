@@ -7,8 +7,6 @@
 @interface WidgetKit._SimpleActivityArchivingDataSource
 {
     id supportedListItemFamilies;
-    id viewSource;
-    id viewContextProvider;
 }
 
 @end

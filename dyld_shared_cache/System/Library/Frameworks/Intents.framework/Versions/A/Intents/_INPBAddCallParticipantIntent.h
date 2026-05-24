@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBAddCallParticipantIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_participants;
 }
 
 + (Class);
 + (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)"shifter"b7"unused"b2"wheel"S"pedalGas"b8"pedalBrake"b8"pedalClutch"b8"vendor1"b1"vendor2"b1"vendor3"b1"unused2"b5}"g29Classic"{LogitechWheelG29ClassicReport="dpad"b4"buttonX"b1"buttonSquare"b1"buttonCircle"b1"buttonTriangle"b1"rightPaddle"b1"leftPaddle"b1"buttonR2"b1"buttonL2"b1"buttonShare"b1"buttonOptions"b1"buttonR3"b1"buttonL3"b1"shifter"b7"buttonPlus"b1"buttonMinus"b1"dialRight"b1"dialLeft"b1"buttonReturn"b1"buttonLogo"b1"unused"b3"wheel"S"pedalGas"b8"pedalBrake"b8"pedalClutch"b8"vendor1"[2C]"vendor2"C}"raw"[64C]);
 - (void);
 - (id);
 - (void);
@@ -26,26 +24,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)startCellularDataUsageAccountingPostTD:(id)arg1 withMinRSSI: /* Error: Ran out of types for this method. */;
+- (void)nearbysync] Cloud keychain is DISABLED;
 - (id);
 - (id);
 - (void);
-- (_Bool)String;
-- (void)DING;
+- (_Bool)__INIntentResponseCodableCodeFormatString;
+- (void)SLEEP_READING;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,28 +6,24 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSString;
-
 @interface DMFRemoveProfileRequest : DMFTaskRequest
 {
     unsigned long long _type;
-    NSString *_profileIdentifier;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)autocompleteExtendedResultAccountLabelTextColor;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

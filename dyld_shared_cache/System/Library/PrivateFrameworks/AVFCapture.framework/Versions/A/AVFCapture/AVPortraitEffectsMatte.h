@@ -11,17 +11,17 @@
     AVPortraitEffectsMatteInternal *_internal;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (void)ObservationRegistrarWrapper;
-- (short);
-- (short);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct CGImageMetadata *);
-- (struct __CFString *);
+- (short)setServiceColorAnalysisOperationQueue: /* Error: Ran out of types for this method. */;
+- (short)setServerConnection: /* Error: Ran out of types for this method. */;
+- (id)enumerateItemsUsingBlock:(struct __CVBuffer *)arg1;
+- (id)enumerateIndexesUsingBlock:(unsigned int)arg1;
+- (id)_msv_errorWithDomain:(struct __CVBuffer *)arg1 code:(id)arg2 underlyingError:underlyingErrors:userInfo:debugDescriptionFormat:arguments: /* Error: Ran out of types for this method. */;
+- (id)_maximumCapacity;
+- (struct CGImageMetadata *)_lyricsSections;
+- (struct __CFString *)MSVAutoBugCapture;
 - (struct __CVBuffer *);
 - (id);
 - (unsigned int);
@@ -30,7 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) struct __CVBuffer *mattingImage;
 @property(readonly) unsigned int pixelFormatType;
 
 @end

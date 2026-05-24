@@ -13,9 +13,9 @@
 
 + (_Bool);
 - (id);
-- (unsigned long long);
-- (long long);
-- (long long);
+- (unsigned long long)|;
+- (long long)8;
+- (long long)_kMDItemGroupId;
 - (void);
 - (id);
 - (id);
@@ -27,17 +27,12 @@
 - (id);
 - (void);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)SSLEncodeCertificateVerify;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) long long channelBand; // @dynamic channelBand;
-@property(readonly) long long channelNumber; // @dynamic channelNumber;
-@property(readonly) unsigned long long channelProperties; // @dynamic channelProperties;
-@property(readonly) long long channelWidth; // @dynamic channelWidth;
-@property(readonly) unsigned long long flags; // @dynamic flags;
-@property(copy) NSDictionary *info; // @synthesize info=_info;
+@property(readonly, copy) NSDictionary *info; // @dynamic info;
 
 @end
 

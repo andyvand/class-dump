@@ -9,7 +9,6 @@
 @interface NUDigest
 {
     NSString *_stringValue;
-    struct CC_MD5state_st _context;
 }
 
 - (void);

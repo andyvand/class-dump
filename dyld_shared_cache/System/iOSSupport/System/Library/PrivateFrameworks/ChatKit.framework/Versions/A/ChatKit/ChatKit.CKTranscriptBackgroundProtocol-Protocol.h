@@ -7,14 +7,30 @@
 @class UIViewController;
 
 @protocol ChatKit.CKTranscriptBackgroundProtocol
-- (double)ctItemIdentifier: /* Error: Ran out of types for this method. */;
-- (UIViewController *)ViewControllerDelegate;
-- (double)ToImage:imageDisplayTime:pairingIdentifier: /* Error: Ran out of types for this method. */;
-- (UIViewController *)CameraViewController;
+- (void)nfo>"24Q32Q40;
+- (void)setIsDrawingStroke: /* Error: Ran out of types for this method. */;
+- (void)loadFromNib;
+- (void)enrollInReaskForAccount:(struct CGRect)arg1;
+- (void)endSkippingTimestampUpdates;
+- (void)effectiveLayoutCornerRadius;
+- (void)<ICSearchIndexable>",R,N,V_object;
+- (void),C,N,V_dismissTitle;
+- (long long)ICTableCellMergeableStringDelegate;
+- (double)initWithMessage:contentScale:attachedContactItemIdentifier: /* Error: Ran out of types for this method. */;
+- (UIViewController *)CKSyndicationOnboardingPageViewControllerDelegate;
+- (void)otConfiguration";
+- (void)setMaximumIntegerDigits: /* Error: Ran out of types for this method. */;
+- (void)markerFormat;
+- (void)extendDeauthenticationTimer;
+- (void)expressionRangeInTextStorage;
+- (void)exceptionWithName:(struct CGRect)arg1 reason:(struct CGRect)arg2 userInfo:(float)arg3;
+- (void)allKeys;
+- (void)_maximumNumberOfNotesPerAccount;
+- (long long)ICSearchIndexerAppDataSource;
+- (double)initWithPathToVideo:pathToImage:imageDisplayTime:pairingIdentifier: /* Error: Ran out of types for this method. */;
+- (UIViewController *)CKFunCameraViewController;
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentDerivedUserInterfaceStyle;
-@property(readonly, nonatomic) double luminance;
 @property(readonly, nonatomic) UIViewController *rootViewController;
 @end
 

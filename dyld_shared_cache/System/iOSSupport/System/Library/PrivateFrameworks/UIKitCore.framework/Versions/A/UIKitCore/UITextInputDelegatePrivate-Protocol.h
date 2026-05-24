@@ -5,11 +5,11 @@
 //
 
 @protocol UITextInputDelegatePrivate
-- (void)t: /* Error: Ran out of types for this method. */;
+- (void)reloadForPlacementForInputViewSet: /* Error: Ran out of types for this method. */;
 - (void)Must have a keyboard layer tracked.;
 - (void)p;
 - (void)¸Rtþe43¼qþU43ðRtþ;
-- (void)ionDomain;
+- (void)_UITabCrossFadeTransitionDomain;
 - (void);
 
 @optional

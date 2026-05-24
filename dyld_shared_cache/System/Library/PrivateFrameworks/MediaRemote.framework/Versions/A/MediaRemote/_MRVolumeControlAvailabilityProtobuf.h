@@ -7,11 +7,6 @@
 @interface _MRVolumeControlAvailabilityProtobuf
 {
     int _volumeCapabilities;
-    _Bool _volumeControlAvailable;
-    struct {
-        unsigned int volumeCapabilities:1;
-        unsigned int volumeControlAvailable:1;
-    } _has;
 }
 
 - (_Bool);
@@ -20,23 +15,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)delayNextInvocationByTimeInterval:(struct _NSZone *)arg1;
+- (id).bvra1.received;
 - (void);
-- (int);
-- (_Bool)tialAudio: /* Error: Ran out of types for this method. */;
+- (int);
+- (_Bool)setSupportsHeadTrackedSpatialAudio: /* Error: Ran out of types for this method. */;
 - (void)ath=%@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasVolumeCapabilities;
 @property(nonatomic) _Bool hasVolumeControlAvailable;
-@property(nonatomic) int volumeCapabilities; // @synthesize volumeCapabilities=_volumeCapabilities;
-@property(nonatomic) _Bool volumeControlAvailable; // @synthesize volumeControlAvailable=_volumeControlAvailable;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXMomentShareStatusPresentation;
+@class PXMomentShareStatusPresentation;
 @protocol PXCMMFooterViewModelDelegate;
 
 @interface PXCMMFooterViewModel
 {
     PXMomentShareStatusPresentation *_momentShareStatusPresentation;
-    long long _mode;
-    id <PXCMMFooterViewModelDelegate> _delegate;
 }
 
 - (id);
@@ -24,14 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PXCMMFooterViewModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

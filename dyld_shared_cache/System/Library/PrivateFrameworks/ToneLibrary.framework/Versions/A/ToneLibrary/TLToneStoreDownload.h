@@ -10,17 +10,6 @@
 @interface TLToneStoreDownload
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSString *_accessQueueLabel;
-    NSString *_name;
-    NSString *_albumTitle;
-    NSString *_artistName;
-    double _duration;
-    NSString *_genreName;
-    _Bool _isRingtone;
-    unsigned long long _storeItemIdentifier;
-    float _downloadProgress;
-    NSString *_toneIdentifier;
-    NSString *_identifier;
 }
 
 - (_Bool);
@@ -44,22 +33,13 @@
 - (id);
 - (id);
 - (id);
+- (void)m.apple.ScreenTime.shadowMigrationResult;
 - (void);
-- (void);
-- (float);
-- (void);
+- (float)= ?) ORDER BY Extension.priority LIMIT 1;
+- (void)h;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setAlbumTitle:) NSString *albumTitle;
-@property(copy, nonatomic, setter=_setArtistName:) NSString *artistName;
-@property(nonatomic, setter=_setDownloadProgress:) float downloadProgress;
-@property(nonatomic, setter=_setDuration:) double duration;
-@property(copy, nonatomic, setter=_setGenreName:) NSString *genreName;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(copy, nonatomic, setter=_setName:) NSString *name;
-@property(nonatomic, getter=isRingtone, setter=_setRingtone:) _Bool ringtone;
-@property(nonatomic, setter=_setStoreItemIdentifier:) unsigned long long storeItemIdentifier;
-@property(copy, nonatomic, setter=_setToneIdentifier:) NSString *toneIdentifier;
 
 @end
 

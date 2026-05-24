@@ -5,11 +5,10 @@
 //
 
 @protocol TSAppMonitorType
-- (_Bool)ityEvent;
+- (_Bool)TodayVisibilityEvent;
 - (void)cØßþÙûctßþ;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;
-@property(nonatomic, readonly) _Bool isTracking;
 @end
 

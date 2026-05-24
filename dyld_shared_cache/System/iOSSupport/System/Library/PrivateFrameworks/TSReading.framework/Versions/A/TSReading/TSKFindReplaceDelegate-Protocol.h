@@ -5,5 +5,10 @@
 //
 
 @protocol TSKFindReplaceDelegate
+- (struct _NSRange)DeviceAlreadyUsedByAnotherSession;
+
+@optional
+- (void)e;
+- (void);
 @end
 

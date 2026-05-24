@@ -4,41 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString, NSUUID, SFClient, SFService, SFSession;
-@protocol OS_dispatch_queue;
-
 @interface SFDeviceSetupServiceiOS
 {
     _Bool _activateCalled;
-    _Bool _advertiseFast;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSUUID *_peer;
-    _Bool _pinShowing;
-    SFClient *_preventExitForLocaleClient;
-    NSData *_resumeAuthTag;
-    NSString *_resumePassword;
-    int _resumeState;
-    SFService *_sfService;
-    _Bool _sfServiceActivated;
-    SFSession *_sfSession;
-    _Bool _suspendPending;
-    CDUnknownBlockType _completionHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _showPINHandlerEx;
-    CDUnknownBlockType _showPINHandler;
-    CDUnknownBlockType _hidePINHandler;
-    CDUnknownBlockType _progressHandlerEx;
-    CDUnknownBlockType _receivedObjectHandler;
 }
 
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ŗ;
 - (int);
 - (void);
-- (void);
+- (void){;
 - (void);
 - (void);
 - (void);
@@ -57,9 +34,9 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)qh;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)x^;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -71,12 +48,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType hidePINHandler; // @synthesize hidePINHandler=_hidePINHandler;
-@property(copy, nonatomic) CDUnknownBlockType progressHandlerEx; // @synthesize progressHandlerEx=_progressHandlerEx;
-@property(copy, nonatomic) CDUnknownBlockType receivedObjectHandler; // @synthesize receivedObjectHandler=_receivedObjectHandler;
-@property(copy, nonatomic) CDUnknownBlockType showPINHandler; // @synthesize showPINHandler=_showPINHandler;
-@property(copy, nonatomic) CDUnknownBlockType showPINHandlerEx; // @synthesize showPINHandlerEx=_showPINHandlerEx;
 
 @end
 

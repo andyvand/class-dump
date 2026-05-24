@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)fiers;
+- (id)_webNotificationIdentifiers;
 
 @end
 

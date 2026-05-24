@@ -6,31 +6,26 @@
 
 #import <IMAP/IMAPNetworkTaskOperation.h>
 
-@class NSArray;
 @protocol IMAPFetchMailboxStatusOperationDelegate;
 
 @interface IMAPFetchMailboxStatusOperation : IMAPNetworkTaskOperation
 {
     id <IMAPFetchMailboxStatusOperationDelegate> _delegate;
-    NSArray *_mailboxNames;
-    unsigned long long _dataItems;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
+- (id)(;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)spatch_queueCGAHGSo11SHSignatureCG;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dataItems; // @synthesize dataItems=_dataItems;
 @property(readonly, nonatomic) __weak id <IMAPFetchMailboxStatusOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSArray *mailboxNames; // @synthesize mailboxNames=_mailboxNames;
 
 @end
 

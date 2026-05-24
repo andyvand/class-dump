@@ -9,11 +9,6 @@
 @interface CoreSuggestionsUI.SGContactSuggestion
 {
     void suggestionDelegate;
-    id kStringKeyLabeledValueFormat;
-    id realtimeContact;
-    id logger;
-    id contactViewController;
-    id bannerForVisionDevice;
 }
 
 - (long long);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

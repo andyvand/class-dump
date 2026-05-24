@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUXPCAgent, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class CUXPCAgent;
 
 __attribute__((visibility("hidden")))
 @interface CUXPCAgentConnection
 {
     CUXPCAgent *_agent;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSXPCConnection *_xpcCnx;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

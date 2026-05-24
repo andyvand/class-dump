@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCluster, MPDocument, NSDate, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MPClusterController
 {
     NSMutableDictionary *mSlides;
-    NSMutableDictionary *mSlideClusters;
-    MPCluster *mAllSlidesCluster;
-    double mMinimumRequiredClusterRating;
-    MPDocument *mAuthoredDocument;
-    NSDate *mOldestSlideTimestamp;
-    NSDate *mNewestSlideTimestamp;
 }
 
 + (void);
@@ -28,6 +22,7 @@
 - (void);
 - (void);
 - (void);
+- (void)G;
 - (void);
 - (void);
 - (void);
@@ -36,43 +31,42 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)ualToString:(id *)arg1 NDAnalyticsUploadSchedulerBackgroundSessionIdentifier];
+- (id)errorCode;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)z;
 - (id);
 - (id);
 - (void);
 - (void);
+- (id)#;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)T);
+- (id);
+- (id);
+- (id)@;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id).;
 - (id);
 - (id);
 - (id);

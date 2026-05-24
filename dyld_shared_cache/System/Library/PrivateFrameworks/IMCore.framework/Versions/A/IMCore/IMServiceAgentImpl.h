@@ -10,29 +10,29 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
++ (id)audio transmitter=%p;
++ (id)rectoryURL=%@ is NOT present on disk;
++ (void)item:%@ /* Error: Ran out of types for this method. */;
++ (void)<<<;
++ (void)AudioObjectPropertyScopeGlobal listener;
 + (id);
 + (void)ðÄì¤<;
-+ (id)rs;
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
++ (id)UseAlternateStatusIndicators;
+- (unsigned long long)%d Jitter buffer configured with mode=%d;
+- (void)dioSessionMediaProperties property changed:(id)arg1 networkUplinkClockUsesBaseband=%u became networkUplinkClockUsesBaseband=%u;
+- (void)sBaseband=%u;
+- (id)itializing... no results dict;
+- (id)tream [%s] %s:%d %@(%p) Error initializing... no results dict /* Error: Ran out of types for this method. */;
+- (void)BOOL}d;
+- (void)%s] %s:(id)arg1 %d [%p];
+- (void)nc source timestamp information is not yet available. Dropping video frame.;
+- (void)o frame.;
+- (void)tly sending streamIDs %@;
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)#;
 - (id)ä´;
 
 @end

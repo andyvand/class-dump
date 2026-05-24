@@ -9,25 +9,21 @@
 @interface AVContentKey
 {
     struct OpaqueFigContentKeyBoss *_keyBoss;
-    struct OpaqueFigContentKeySpecifier *_contentKeySpecifier;
-    struct OpaqueFigCPECryptor *_cryptor;
-    AVContentKeySpecifier *contentKeySpecifier;
 }
 
 + (id);
-- (void);
+- (void)';
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id);
 - (struct OpaqueFigContentKeySpecifier *);
 - (struct OpaqueFigCPECryptor *);
 - (long long);
-- (void);
-- (struct OpaqueFigCPECryptor *);
+- (void)a;
+- (struct OpaqueFigCPECryptor *)ystem/Library/PrivateFrameworks/SAObjects.framework/Versions/A/SAObjects;
 
 // Remaining properties
 @property(readonly) AVContentKeySpecifier *contentKeySpecifier; // @synthesize contentKeySpecifier;
-@property(readonly) long long externalContentProtectionStatus;
 
 @end
 

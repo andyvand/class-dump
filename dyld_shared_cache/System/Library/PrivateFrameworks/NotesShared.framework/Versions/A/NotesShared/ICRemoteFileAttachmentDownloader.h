@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSOperationQueue;
+@class NSMutableDictionary;
 
 @interface ICRemoteFileAttachmentDownloader
 {
     NSMutableDictionary *_operationsByAttachmentIdentifier;
-    NSOperationQueue *_operationQueue;
 }
 
 + (id);
-+ (void);
++ (void)__TEXT;
 + (_Bool);
 + (void);
 + (id);
 - (void);
-- (void);
-- (id);
+- (void)U;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -31,7 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
 @property(retain, nonatomic) NSMutableDictionary *operationsByAttachmentIdentifier; // @synthesize operationsByAttachmentIdentifier=_operationsByAttachmentIdentifier;
 
 @end

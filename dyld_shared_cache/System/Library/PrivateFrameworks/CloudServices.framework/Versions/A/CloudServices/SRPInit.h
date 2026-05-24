@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AppleIDPasswordMetadata, NSData, NSDictionary, NSString, SecureBackup;
+@class NSString;
 
 @interface SRPInit
 {
     _Bool _dbr;
-    _Bool _dbrFDE;
-    _Bool _fallBackSR;
-    _Bool _lrcFed;
-    _Bool _lrc;
-    _Bool _guitarfish;
-    _Bool _guitarfishToken;
-    NSString *_recordLabel;
-    NSData *_passcodeStashSecret;
-    NSDictionary *_escrowRecord;
-    NSString *_recordID;
-    SecureBackup *_sb;
-    AppleIDPasswordMetadata *_appleIDPasswordMetadata;
 }
 
 - (id);
@@ -36,7 +24,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -46,28 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AppleIDPasswordMetadata *appleIDPasswordMetadata; // @synthesize appleIDPasswordMetadata=_appleIDPasswordMetadata;
-@property(readonly, nonatomic) _Bool dbr; // @synthesize dbr=_dbr;
-@property(readonly, nonatomic) _Bool dbrFDE; // @synthesize dbrFDE=_dbrFDE;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *dsid;
-@property(retain, nonatomic) NSDictionary *escrowRecord; // @synthesize escrowRecord=_escrowRecord;
-@property(readonly, nonatomic) _Bool fallBackSR; // @synthesize fallBackSR=_fallBackSR;
-@property(readonly, nonatomic) _Bool guitarfish; // @synthesize guitarfish=_guitarfish;
-@property(readonly, nonatomic) _Bool guitarfishToken; // @synthesize guitarfishToken=_guitarfishToken;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool lrc; // @synthesize lrc=_lrc;
-@property(readonly, nonatomic) _Bool lrcFed; // @synthesize lrcFed=_lrcFed;
-@property(readonly, copy, nonatomic) NSData *passcodeStashSecret; // @synthesize passcodeStashSecret=_passcodeStashSecret;
-@property(copy, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(copy, nonatomic) NSString *recordLabel; // @synthesize recordLabel=_recordLabel;
-@property(readonly, copy, nonatomic) NSString *recoveryPassphrase;
-@property(readonly, retain, nonatomic) SecureBackup *sb; // @synthesize sb=_sb;
-@property(readonly) Class superclass;
 
 @end
 

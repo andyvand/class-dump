@@ -9,6 +9,12 @@
 @protocol SpotlightReceiver
 
 @optional
-- (NSArray *)fetchLimit:sortAscending:updateTelemetry:withBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)H;
+- (void);
+- (void)ce;
+- (void))A;
+- (void)Th6;
+- (NSArray *)iterInteractionRecordsWithPredicate:fetchLimit:sortAscending:updateTelemetry:withBlock: /* Error: Ran out of types for this method. */;
 @end
 

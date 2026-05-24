@@ -7,11 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBOpenFileProviderItemCommand
+- (NSData *)sceneTaxonomy84;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(copy, nonatomic) NSString *fileProviderIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool shouldRevealFile;
 @end
 

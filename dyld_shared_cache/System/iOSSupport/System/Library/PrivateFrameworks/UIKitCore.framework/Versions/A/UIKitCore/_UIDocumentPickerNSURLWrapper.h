@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface _UIDocumentPickerNSURLWrapper
 {
     NSURL *_url;
-    NSURL *_promiseURL;
-    NSData *_scope;
-    NSData *_promiseScope;
 }
 
-+ (id);
-+ (id);
++ (id)icking off another batch of fetching;
++ (id):(id)arg1 %@;
 + (void);
 + (id)0@ù
 × ;
 + (id)Ô¡	ð!0Dùñeð1Â0@ù
 × ;
-+ (_Bool)ICTFontTextStyleSection1;
-- (id);
-- (id);
-- (void);
++ (_Bool)UICTFontTextStyleSection1;
+- (id)3qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/ssl_sess.c;
+- (id)applyRowBoundedSizingToImageView:(id)arg1 isCompactWidth: /* Error: Ran out of types for this method. */;
+- (void)_alwaysShowSearchBarInLibrary;
 - (id);
 - (void);
 - (void)EdgePreferenceMode"Q};
-- (void)maximumPointSize:(id)arg1;
+- (void)scaledFontForFont:(id)arg1 maximumPointSize: /* Error: Ran out of types for this method. */;
 - (id)@"<UIColorPickerViewControllerDelegate>",W,N,V_delegate;
 - (void)$U;
 - (id)sionIdentifier:viewController:beginHandler:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain) NSData *promiseScope; // @synthesize promiseScope=_promiseScope;
-@property(retain) NSURL *promiseURL; // @synthesize promiseURL=_promiseURL;
-@property(retain) NSData *scope; // @synthesize scope=_scope;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

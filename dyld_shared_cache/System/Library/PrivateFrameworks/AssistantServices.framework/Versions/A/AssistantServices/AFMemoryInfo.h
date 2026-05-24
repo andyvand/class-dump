@@ -7,23 +7,18 @@
 @interface AFMemoryInfo
 {
     int _numberOfRegions;
-    int _pageSizeInBytes;
-    unsigned long long _virtualMemorySizeInBytes;
-    unsigned long long _residentMemorySizeInBytes;
-    unsigned long long _peakResidentMemorySizeInBytes;
-    unsigned long long _physicalMemoryFootprintInBytes;
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)FPANSuffix;
 - (int);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -35,11 +30,6 @@
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) int numberOfRegions; // @synthesize numberOfRegions=_numberOfRegions;
-@property(readonly, nonatomic) int pageSizeInBytes; // @synthesize pageSizeInBytes=_pageSizeInBytes;
-@property(readonly, nonatomic) unsigned long long peakResidentMemorySizeInBytes; // @synthesize peakResidentMemorySizeInBytes=_peakResidentMemorySizeInBytes;
-@property(readonly, nonatomic) unsigned long long physicalMemoryFootprintInBytes; // @synthesize physicalMemoryFootprintInBytes=_physicalMemoryFootprintInBytes;
-@property(readonly, nonatomic) unsigned long long residentMemorySizeInBytes; // @synthesize residentMemorySizeInBytes=_residentMemorySizeInBytes;
 @property(readonly, nonatomic) unsigned long long virtualMemorySizeInBytes; // @synthesize virtualMemorySizeInBytes=_virtualMemorySizeInBytes;
 
 @end

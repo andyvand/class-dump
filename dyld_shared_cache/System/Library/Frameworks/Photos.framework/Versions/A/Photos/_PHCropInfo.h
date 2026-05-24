@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface _PHCropInfo
 {
     PHAsset *_asset;
-    double _cropScore;
 }
 
 - (id);
 - (double);
 - (id);
-- (void)acheAfterFetchResultDealloc;
+- (void)_clearsOIDCacheAfterFetchResultDealloc;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) double cropScore; // @synthesize cropScore=_cropScore;
 
 @end
 

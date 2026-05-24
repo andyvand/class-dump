@@ -6,19 +6,9 @@
 
 #import <DTXConnectionServices/DTXTransport.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface DTXFileDescriptorTransport : DTXTransport
 {
     int _inFD;
-    int _outFD;
-    NSObject<OS_dispatch_queue> *_inputQueue;
-    NSObject<OS_dispatch_queue> *_outputQueue;
-    int _outputWaitKQ;
-    NSObject<OS_dispatch_source> *_inputSource;
-    CDUnknownBlockType _inputReaderBlock;
-    CDUnknownBlockType _disconnectBlock;
 }
 
 - (unsigned long long);

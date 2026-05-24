@@ -10,9 +10,9 @@
 {
 }
 
+- (id)V;
 - (id);
-- (id);
-- (struct NSEdgeInsets)EMPLATE_SHARING_STOP_SHARING_ERROR_ALERT_TITLE;
+- (struct NSEdgeInsets)TEMPLATE_SHARING_STOP_SHARING_ERROR_ALERT_TITLE;
 - (void);
 
 // Remaining properties

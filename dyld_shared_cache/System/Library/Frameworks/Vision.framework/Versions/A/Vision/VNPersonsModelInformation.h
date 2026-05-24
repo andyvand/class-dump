@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, VNPersonsModelAlgorithm;
-
 @interface VNPersonsModelInformation
 {
     _Bool _readOnly;
-    unsigned long long _version;
-    NSDate *_lastModificationDate;
-    VNPersonsModelAlgorithm *_algorithm;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)rror">64;
+- (id)fp_isCJKLanguageIdentifier;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void)entifierType;
+- (void)VNJunkIdentifierType;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) VNPersonsModelAlgorithm *algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, copy, nonatomic) NSDate *lastModificationDate; // @synthesize lastModificationDate=_lastModificationDate;
-@property(readonly, nonatomic, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
 @property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end

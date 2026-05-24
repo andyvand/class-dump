@@ -6,29 +6,28 @@
 
 #import <ChatKit/CKChatItem.h>
 
-@class IMSatelliteAvailabilityChatItem, NSAttributedString;
+@class NSAttributedString;
 
 @interface CKSatelliteAvailabilityChatItem : CKChatItem
 {
     NSAttributedString *_satelliteAvailabilityTitleLabelAttributedText;
 }
 
-- (void);
-- (BOOL);
-- (void);
+- (void)setLocale: /* Error: Ran out of types for this method. */;
+- (BOOL)setColorUsageCountMinimum: /* Error: Ran out of types for this method. */;
+- (void)fill;
+- (id)Available;
 - (id);
-- (id);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (_Bool);
 - (id);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)c;
 - (Class);
 - (unsigned long long)IMCloudKitEventNotificationManager"16@"IMCloudKitSyncProgress"24;
 - (void)è$ÿUG;
 
 // Remaining properties
-@property(readonly, nonatomic) IMSatelliteAvailabilityChatItem *imSatelliteAvailabilityChatItem;
 @property(retain, nonatomic) NSAttributedString *satelliteAvailabilityTitleLabelAttributedText; // @synthesize satelliteAvailabilityTitleLabelAttributedText=_satelliteAvailabilityTitleLabelAttributedText;
 
 @end

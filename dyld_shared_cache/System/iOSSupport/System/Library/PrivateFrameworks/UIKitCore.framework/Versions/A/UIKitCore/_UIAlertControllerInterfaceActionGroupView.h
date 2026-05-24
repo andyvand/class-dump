@@ -15,16 +15,16 @@ __attribute__((visibility("hidden")))
     UIAlertController *_alertController;
 }
 
-- (void);
-- (void);
-- (_Bool);
+- (void)processMessageForSending:(_Bool)arg1 toChat:style:allowWatchdog:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)clearPendingNicknamePhotoForHandleID:(id)arg1;
+- (_Bool)assignTransfer:toAccount:otherPerson: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)+;
 - (void);
-- (double);
-- (_Bool);
-- (_Bool);
-- (double);
+- (double)background asset to disk because of nil path! Asset from ckrecord with guid %@ has path %@, finalAssetPath %@;
+- (_Bool)tify:%ld /* Error: Ran out of types for this method. */;
+- (_Bool)wing quick action since we did not get an AppName;
+- (double):%@, wallpaperHash:%@, lowResWallpaperHash:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

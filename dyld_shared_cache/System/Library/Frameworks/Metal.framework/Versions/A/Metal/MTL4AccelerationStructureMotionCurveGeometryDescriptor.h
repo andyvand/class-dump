@@ -9,33 +9,20 @@
 @interface MTL4AccelerationStructureMotionCurveGeometryDescriptor : MTL4AccelerationStructureGeometryDescriptor
 {
     unsigned long long _controlPointCount;
-    unsigned long long _controlPointStride;
-    unsigned long long _controlPointFormat;
-    unsigned long long _radiusFormat;
-    unsigned long long _radiusStride;
-    unsigned long long _indexType;
-    unsigned long long _segmentCount;
-    unsigned long long _segmentControlPointCount;
-    long long _curveBasis;
-    long long _curveType;
-    long long _curveEndCaps;
-    struct MTL4BufferRange _controlPointBuffers;
-    struct MTL4BufferRange _radiusBuffers;
-    struct MTL4BufferRange _indexBuffer;
 }
 
 - (void);
 - (void);
+- (void)?׈@9;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void) ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)#;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -56,26 +43,13 @@
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)Z;
 - (id);
 - (unsigned long long)0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) struct MTL4BufferRange controlPointBuffers; // @synthesize controlPointBuffers=_controlPointBuffers;
-@property(nonatomic) unsigned long long controlPointCount; // @synthesize controlPointCount=_controlPointCount;
-@property(nonatomic) unsigned long long controlPointFormat; // @synthesize controlPointFormat=_controlPointFormat;
-@property(nonatomic) unsigned long long controlPointStride; // @synthesize controlPointStride=_controlPointStride;
-@property(nonatomic) long long curveBasis; // @synthesize curveBasis=_curveBasis;
-@property(nonatomic) long long curveEndCaps; // @synthesize curveEndCaps=_curveEndCaps;
-@property(nonatomic) long long curveType; // @synthesize curveType=_curveType;
-@property(nonatomic) struct MTL4BufferRange indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(nonatomic) struct MTL4BufferRange radiusBuffers; // @synthesize radiusBuffers=_radiusBuffers;
-@property(nonatomic) unsigned long long radiusFormat; // @synthesize radiusFormat=_radiusFormat;
-@property(nonatomic) unsigned long long radiusStride; // @synthesize radiusStride=_radiusStride;
-@property(nonatomic) unsigned long long segmentControlPointCount; // @synthesize segmentControlPointCount=_segmentControlPointCount;
-@property(nonatomic) unsigned long long segmentCount; // @synthesize segmentCount=_segmentCount;
 
 @end
 

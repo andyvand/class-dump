@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface BioUserDefaults
 {
     NSMutableDictionary *_registeredDefaults;
-    NSMutableArray *_updateBlocks;
 }
 
 + (void);
@@ -18,7 +17,7 @@
 + (id);
 + (void);
 - (unsigned int);
-- (void);
+- (void)s;
 - (void);
 - (id);
 - (int);

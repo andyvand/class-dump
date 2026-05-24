@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABGroupListNotificationHandler, ABPersonListUIReflector, NSMutableArray;
+@class ABGroupListNotificationHandler;
 
 @interface CNContactPickerNotificationWatcher
 {
     ABGroupListNotificationHandler *_groupListHandler;
-    ABPersonListUIReflector *_personListReflector;
-    ABAddressBook *_addressBook;
-    NSMutableArray *_observers;
 }
 
 - (_Bool);

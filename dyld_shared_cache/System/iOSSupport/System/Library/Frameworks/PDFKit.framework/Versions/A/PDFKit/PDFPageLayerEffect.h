@@ -24,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)copyWithZone:(unsigned long long)arg1;
 - (void);
 - (id);
+- (void);
+- (id)rrayRef);
 - (void);
 
 @end

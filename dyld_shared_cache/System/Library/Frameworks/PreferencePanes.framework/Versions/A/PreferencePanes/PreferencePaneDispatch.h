@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPreferencePane, NSString, NSView, NSXPCConnection;
+@class NSPreferencePane;
 
 @interface PreferencePaneDispatch
 {
     NSPreferencePane *_prefPaneObject;
-    CDUnknownBlockType _replyToShouldUnselectBlock;
-    NSXPCConnection *_connection;
-    unsigned long long _savedReplyToShouldUnselect;
-    NSString *_legacyPreferencePanePath;
-    id _eventMonitor;
-    NSView *_shieldView;
-    _Bool allowLegacyInteface;
-    int _hostPID;
 }
 
 + (id);
@@ -51,22 +43,19 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (int);
+- (int)filterName;
 - (id);
-- (void);
+- (void)tes (indexes %lu-%lu)
+;
 - (id);
-- (void);
-- (oneway void);
-- (oneway void);
+- (void)_wallTimeStringWithTimeZone:(int)arg1 isBegin: /* Error: Ran out of types for this method. */;
+- (oneway void)4@?0@"TRIRolloutRecord"8@"TRIRolloutRecord"16;
+- (oneway void)pe;
 - (oneway void);
 - (void);
 
 // Remaining properties
-@property _Bool allowLegacyInteface; // @synthesize allowLegacyInteface;
-@property(retain) NSXPCConnection *connection; // @dynamic connection;
 @property int hostPID; // @synthesize hostPID=_hostPID;
-@property(readonly) NSString *legacyPreferencePanePath; // @dynamic legacyPreferencePanePath;
-@property(retain) NSPreferencePane *prefPaneObject; // @synthesize prefPaneObject=_prefPaneObject;
 
 @end
 

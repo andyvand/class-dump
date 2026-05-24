@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _NSDataSourceSnapshotter;
-@protocol _NSCollectionViewUpdateTranslating;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionCompositionalLayoutSolverUpdate
 {
     NSArray *_updateItems;
-    id <_NSCollectionViewUpdateTranslating> _updateTranslator;
-    _NSDataSourceSnapshotter *_finalDataSourceSnapshot;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)_maxBatchesPerSync;
 - (id);
 - (id)SgGGATyahGGATyÂhSgGGATyÖ#hGG;
 - (void)height, and %ld planes.;
 
 // Remaining properties
-@property(readonly, nonatomic) _NSDataSourceSnapshotter *finalDataSourceSnapshot; // @synthesize finalDataSourceSnapshot=_finalDataSourceSnapshot;
 @property(readonly, nonatomic) NSArray *updateItems; // @synthesize updateItems=_updateItems;
-@property(readonly, nonatomic) id <_NSCollectionViewUpdateTranslating> updateTranslator; // @synthesize updateTranslator=_updateTranslator;
 
 @end
 

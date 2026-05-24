@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
-
 @interface CPSearchMatcher
 {
     int _options;
-    NSArray *_components;
-    NSArray *_asciiComponents;
-    NSData *_wholeSearchStringData;
-    NSData *_context;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (_Bool);
 
 @end

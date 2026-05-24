@@ -6,16 +6,15 @@
 
 #import <HomeKit/HMYearDayScheduleRule.h>
 
-@class NSArray, NSDate, NSDateInterval, NSString;
+@class NSDate;
 
 @interface HMMutableYearDayScheduleRule : HMYearDayScheduleRule
 {
     NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 - (void);
-- (void);
+- (void)shareSheetSuggestLessFeedback;
 - (id);
 - (id);
 - (void);
@@ -24,28 +23,7 @@
 - (void)Ô=(>;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(copy) NSDateInterval *dateInterval; // @dynamic dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
 @property(copy) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(copy) NSDate *validFrom; // @dynamic validFrom;
-@property(copy) NSDate *validUntil; // @dynamic validUntil;
 
 @end
 

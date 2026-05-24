@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFNodeManagerView, NSScrollView;
+@class NSScrollView;
 
 @interface GFGraphEditorView
 {
     NSScrollView *_scrollView;
-    GFNodeManagerView *_nodeManager;
-    void *_unused[4];
 }
 
 - (void);
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -29,27 +27,27 @@
 - (id);
 - (struct CGSize);
 - (struct CGPoint);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)7;
 - (_Bool);
 - (void);
 - (void);
+- (void)em/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
+- (_Bool)c}@);
+- (void);
+- (void);
 - (void);
 - (id);
+- (id)5;
+- (void);
+- (id)normalUVSet;
 - (void)In;
 - (void)±È;
 - (float)ÔMh;

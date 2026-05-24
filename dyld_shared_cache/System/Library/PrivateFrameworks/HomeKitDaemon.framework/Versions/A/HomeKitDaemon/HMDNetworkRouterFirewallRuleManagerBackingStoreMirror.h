@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudDatabase, HMBLocalDatabase, HMBLocalZone, HMDNetworkRouterFirewallRuleManagerBackingStoreMirrorInternalStateModel, NAFuture, NAPromise, NSObject, NSString;
-@protocol HMBLocalZoneID, NAScheduler, OS_dispatch_queue;
+@class HMBCloudDatabase;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerBackingStoreMirror
 {
     _Bool _shuttingDown;
-    _Bool _useAnonymousRequests;
-    id <HMBLocalZoneID> _zoneID;
-    HMBLocalZone *_localZone;
-    NAFuture *_lastAsyncFuture;
-    HMDNetworkRouterFirewallRuleManagerBackingStoreMirrorInternalStateModel *_internalState;
-    HMBCloudDatabase *_cloudDatabase;
-    HMBLocalDatabase *_localDatabase;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NAPromise *_startupPromise;
-    NAPromise *_shutdownPromise;
-    id <NAScheduler> _workQueueScheduler;
 }
 
 + (id);
@@ -42,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)modern lastLocation;
 - (void);
 - (id);
 - (id);
@@ -51,54 +39,54 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)";
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)#;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
 - (id);
+- (_Bool);
+- (id);
+- (id)8;
 - (_Bool);
 - (id);
 - (void);
@@ -110,7 +98,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)!øFù°1Â0@ù
 × ;
-- (id)orMessage: /* Error: Ran out of types for this method. */;
+- (id)handleFetchWalletKeyColorMessage: /* Error: Ran out of types for this method. */;
 - (void)elegate>",R,W,V_delegate;
 - (id)PHDäà¬<¼Ðä¨;
 - (_Bool)for enumerating faceprints:%@ /* Error: Ran out of types for this method. */;
@@ -119,33 +107,11 @@ __attribute__((visibility("hidden")))
 - (id)Connection sendMatterMessagePayloadToPrimaryResident succeeded;
 - (id)essory apply not ready reasons changed to %{public}@;
 - (void)ries:Yes, IgnoreFailure:Yes} /* Error: Ran out of types for this method. */;
-- (id)ttributePaths;
+- (id)attributePaths;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) HMBCloudDatabase *cloudDatabase; // @synthesize cloudDatabase=_cloudDatabase;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDNetworkRouterFirewallRuleManagerBackingStoreMirrorInternalStateModel *internalState; // @synthesize internalState=_internalState;
-@property(retain, nonatomic) NAFuture *lastAsyncFuture; // @synthesize lastAsyncFuture=_lastAsyncFuture;
-@property(readonly, nonatomic) HMBLocalDatabase *localDatabase; // @synthesize localDatabase=_localDatabase;
-@property(retain, nonatomic) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly, nonatomic) NAFuture *shutdownFuture;
-@property(readonly, nonatomic) NAPromise *shutdownPromise; // @synthesize shutdownPromise=_shutdownPromise;
-@property(nonatomic, getter=isShuttingDown) _Bool shuttingDown; // @synthesize shuttingDown=_shuttingDown;
-@property(readonly, nonatomic) NAFuture *startUp;
-@property(readonly, nonatomic) NAFuture *startupFuture;
-@property(readonly, nonatomic) NAPromise *startupPromise; // @synthesize startupPromise=_startupPromise;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useAnonymousRequests; // @synthesize useAnonymousRequests=_useAnonymousRequests;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, nonatomic) id <NAScheduler> workQueueScheduler; // @synthesize workQueueScheduler=_workQueueScheduler;
-@property(readonly, nonatomic) id <HMBLocalZoneID> zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

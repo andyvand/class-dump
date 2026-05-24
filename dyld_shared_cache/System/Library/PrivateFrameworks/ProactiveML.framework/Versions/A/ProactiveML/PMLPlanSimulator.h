@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PMLSessionDescriptor, _PASRng;
+@class NSArray;
 
 @interface PMLPlanSimulator
 {
     NSArray *_stores;
-    PMLSessionDescriptor *_sessionDescriptor;
-    _PASRng *_rng;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 

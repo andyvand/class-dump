@@ -5,5 +5,6 @@
 //
 
 @protocol AFInstanceInfoMutating
+- (void);
 @end
 

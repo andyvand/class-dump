@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSImage, NSMenu, NSView;
+@class NSBundle;
 @protocol NSMenuExtraController;
 
 @interface NSMenuExtra
 {
     NSBundle *_bundle;
-    NSMenu *_menu;
-    NSView *_view;
-    double _length;
-    struct {
-        unsigned int customView:1;
-        unsigned int menuDown:1;
-        unsigned int reserved:30;
-    } _flags;
-    id _controller;
-    _Bool _reserved1;
-    NSArray *_reserved2;
-    double _reserved3;
-    double _reserved4;
-    _Bool _supportsAnimation;
 }
 
 + (unsigned int);
@@ -60,14 +46,14 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void):(id)arg1;
+- (void)W;
 - (_Bool);
 - (void);
 - (void);
@@ -76,10 +62,10 @@
 - (id);
 - (_Bool);
 - (double);
-- (void);
-- (id);
+- (void)B;
+- (id)_atrString;
 - (SEL);
-- (id);
+- (id)5s:%-5d Failed to load App class from last App UUID keychain values, tampering possible. { lastAppUUIDValues=%@, requestAppUUID=%@, keychainLabel=%@ } /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -90,16 +76,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *alternateImage;
-@property(readonly) NSBundle *bundle;
 @property(nonatomic) __weak id <NSMenuExtraController> controller;
-@property(readonly) _Bool convertedForNewUI;
-@property(nonatomic) double imageFrameRate;
-@property(copy, nonatomic) NSArray *images;
-@property(nonatomic) double maxWidth;
-@property(nonatomic, getter=isMenuDown) _Bool menuDown;
-@property(readonly, getter=isMenuDownForAX) _Bool menuDownForAX;
-@property(nonatomic) _Bool supportsAnimation; // @synthesize supportsAnimation=_supportsAnimation;
 
 @end
 

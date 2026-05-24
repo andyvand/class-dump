@@ -6,21 +6,18 @@
 
 #import <Mail/MFLibraryUpgradeStep.h>
 
-@class NSDirectoryEnumerator, NSRegularExpression, NSString;
-@protocol MFUpdateAttachmentsWithAttachmentIDUpgradeStepDataSource;
+@class NSDirectoryEnumerator;
 
 @interface MFUpdateAttachmentsWithAttachmentIDUpgradeStep : MFLibraryUpgradeStep
 {
     NSDirectoryEnumerator *_directoryEnumerator;
-    NSRegularExpression *_attachmentFileRegularExpression;
-    id <MFUpdateAttachmentsWithAttachmentIDUpgradeStepDataSource> _dataSource;
 }
 
 + (unsigned long long);
 + (id);
 - (_Bool);
 - (CDUnknownBlockType);
-- (void);
+- (void)65;
 - (void);
 - (void);
 - (void);
@@ -30,20 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_findLabeledElementsThatIntersectLabelRect:(id)arg1 fromLabeledElement:justLabelRect:additionalElements: /* Error: Ran out of types for this method. */;
 - (void)ô0è;
 
 // Remaining properties
-@property(retain, nonatomic) NSRegularExpression *attachmentFileRegularExpression; // @synthesize attachmentFileRegularExpression=_attachmentFileRegularExpression;
-@property(nonatomic) __weak id <MFUpdateAttachmentsWithAttachmentIDUpgradeStepDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSDirectoryEnumerator *directoryEnumerator; // @synthesize directoryEnumerator=_directoryEnumerator;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

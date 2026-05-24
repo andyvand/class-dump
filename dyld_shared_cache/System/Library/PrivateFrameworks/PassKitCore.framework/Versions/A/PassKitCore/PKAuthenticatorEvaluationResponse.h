@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKAuthenticatorEvaluationResponse
 {
     _Bool _biometricMatch;
-    long long _result;
-    NSString *_kextBlacklistVersion;
-    NSData *_credential;
 }
 
 + (id);
-+ (id);
-- (void);
++ (id)x;
+- (void)kB;
 - (id);
 - (_Bool);
-- (id);
+- (id)	;
 - (long long)Keychain;
-- (void)ntryCode;
+- (void)issuerCountryCode;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool biometricMatch; // @synthesize biometricMatch=_biometricMatch;
-@property(readonly, copy, nonatomic) NSData *credential; // @synthesize credential=_credential;
 @property(copy, nonatomic) NSString *kextBlacklistVersion; // @synthesize kextBlacklistVersion=_kextBlacklistVersion;
-@property(readonly, nonatomic) long long result; // @synthesize result=_result;
 
 @end
 

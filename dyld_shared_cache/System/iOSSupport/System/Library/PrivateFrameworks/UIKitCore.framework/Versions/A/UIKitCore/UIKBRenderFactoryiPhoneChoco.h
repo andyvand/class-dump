@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (double);
 - (struct UIEdgeInsets);
 - (_Bool);
@@ -23,10 +23,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGPoint)á	ð!lGùQfÐ1Â0@ù
 × ;
-- (struct CGPoint)ldSendInClient;
-- (struct CGPoint)ineByWordBeforeCharacterAtIndex: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)aintsForEdge: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ntentOffsetAdjustmentEnabledWhenLastIdle;
+- (struct CGPoint)shouldSendInClient;
+- (struct CGPoint)layoutManager:shouldBreakLineByWordBeforeCharacterAtIndex: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)constraintsForEdge: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_refreshControlAutomaticContentOffsetAdjustmentEnabledWhenLastIdle;
 - (struct CGPoint)L!;
 - (struct UIEdgeInsets);
 

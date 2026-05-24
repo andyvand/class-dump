@@ -6,64 +6,45 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesMediaTVEpisodeMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_episodeName;
-    NSString *_seasonName;
-    NSString *_genre;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
-+ (id);
++ (id)startLocation;
 + (_Bool);
+- (id)tuConversationBalloonContentStandardLayoutJoinButtonInsets;
+- (void)transferGUIDsWithRecoverablePreviewRetryAttempted;
+- (void)transcriptHeight;
+- (id)transcriptDynamicsDisabledReasons;
+- (id)transcriptCollectionViewControllerShouldSuppressDockingBehavior:(id)arg1;
+- (id)transcriptCollectionViewControllerShouldShouldScrollToTopForStatusBarTap:(id)arg1;
+- (id)transcriptCollectionViewControllerShouldScrollToBottomForLocalSentMessage:(id)arg1;
+- (void)transcriptCollectionViewControllerShouldForceOpaqueMask:(id)arg1;
+- (_Bool)toggleSendReadReceiptsWithReload:(id)arg1;
+- (void)tapbackDismissalDuration;
+- (void)systemImageNamed:(id)arg1;
+- (id)systemDidFastUserSwitchIn;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)q;
+- (id)q;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)h;
+- (void);
 - (void);
 - (id)Í;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *episodeName; // @synthesize episodeName=_episodeName;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *seasonName; // @synthesize seasonName=_seasonName;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

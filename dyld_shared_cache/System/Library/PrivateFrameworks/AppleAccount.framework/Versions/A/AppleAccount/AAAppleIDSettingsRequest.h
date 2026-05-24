@@ -11,20 +11,17 @@
 @interface AAAppleIDSettingsRequest : AARequest
 {
     ACAccountStore *_store;
-    _Bool _forceGSToken;
-    ACAccount *_grandSlamAccount;
 }
 
 + (Class);
-- (void);
+- (void)al;
+- (id)ins both '%@' and '%@' keys. %@;
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void)hSuggestedBeneficiaries: /* Error: Ran out of types for this method. */;
+- (_Bool)compressedx962PointByteCountForCurveParameters: /* Error: Ran out of types for this method. */;
+- (void)fetchSuggestedBeneficiaries: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool forceGSToken; // @synthesize forceGSToken=_forceGSToken;
 @property(readonly, nonatomic) ACAccount *grandSlamAccount; // @synthesize grandSlamAccount=_grandSlamAccount;
 
 @end

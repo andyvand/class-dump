@@ -6,18 +6,15 @@
 
 #import <Email/EMObject.h>
 
-@class EMObjectID, EMReadLater, NSDate, NSString;
+@class NSDate;
 
 @interface EMSortableMessage : EMObject
 {
     NSDate *_date;
-    NSDate *_displayDate;
-    EMReadLater *_readLater;
-    NSDate *_sendLaterDate;
 }
 
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -25,22 +22,6 @@
 
 // Remaining properties
 @property(readonly) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDate *displayDate; // @synthesize displayDate=_displayDate;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) EMObjectID *objectID;
-@property(readonly) EMReadLater *readLater; // @synthesize readLater=_readLater;
-@property(readonly) NSDate *sendLaterDate; // @synthesize sendLaterDate=_sendLaterDate;
-@property(readonly) Class superclass;
 
 @end
 

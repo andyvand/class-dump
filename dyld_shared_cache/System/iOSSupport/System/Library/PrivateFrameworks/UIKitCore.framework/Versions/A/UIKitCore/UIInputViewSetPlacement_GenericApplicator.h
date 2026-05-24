@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, UIView;
-@protocol UIInputViewSetPlacementOwner;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface UIInputViewSetPlacement_GenericApplicator
 {
     NSLayoutConstraint *_horizontalConstraint;
-    NSLayoutConstraint *_verticalConstraint;
-    NSLayoutConstraint *_widthConstraint;
-    id <UIInputViewSetPlacementOwner> _owner;
-    _Bool _isInteractiveStateTransition;
 }
 
 + (id);
 - (struct CGRect);
-- (void);
-- (void);
+- (void);
+- (void)o;
 - (struct UIEdgeInsets);
 - (struct CGRect);
 - (id);
-- (_Bool);
+- (_Bool)bundleVersion;
 - (struct UIEdgeInsets);
 - (void)1Â0@ù
 × ;
@@ -34,11 +29,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)× ;
 - (id);
-- (_Bool)ithEvent:(id)arg1;
-- (_Bool)eScrollAnimationDidEnd;
-- (void)cacyAccumulatorEntry;
-- (void)lSceneHostingEnvironmentHostComponent;
-- (id)RotationFollowing;
+- (_Bool)tabBarTouchesEnded:(id)arg1 withEvent:(_Bool *)arg2;
+- (_Bool)ignoreScrollAnimationDidEnd;
+- (void)_UITextInputSessionEfficacyAccumulatorEntry;
+- (void)_UISystemShellSceneHostingEnvironmentHostComponent;
+- (id)_UIApplicationRotationFollowing;
 - (_Bool)øv;
 - (struct CGPoint)H¿ÔÁLÂ;
 - (id)g;
@@ -47,22 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)Øg;
 
 // Remaining properties
-@property(readonly) UIView *backdropContainer;
-@property(readonly) NSArray *constraints;
-@property(readonly) struct UIEdgeInsets contentInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) UIView *draggableView;
-@property(readonly) unsigned long long hash;
-@property(readonly) struct UIEdgeInsets inputAccessoryPadding;
-@property(readonly) struct UIEdgeInsets inputAssistantPadding;
 @property(readonly) struct CGPoint origin;
-@property(readonly) struct CGRect popoverFrame;
-@property(readonly) Class superclass;
-@property(readonly) UIView *twoFingerDraggableView;
 
 @end
 

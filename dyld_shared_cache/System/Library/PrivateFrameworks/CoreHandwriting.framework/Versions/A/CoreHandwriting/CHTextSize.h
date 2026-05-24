@@ -7,9 +7,6 @@
 @interface CHTextSize
 {
     double _xHeight;
-    double _ascenderHeight;
-    double _descenderHeight;
-    unsigned long long _activeLines;
 }
 
 + (id);
@@ -24,9 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activeLines; // @synthesize activeLines=_activeLines;
-@property(readonly, nonatomic) double ascenderHeight; // @synthesize ascenderHeight=_ascenderHeight;
-@property(readonly, nonatomic) double descenderHeight; // @synthesize descenderHeight=_descenderHeight;
 @property(readonly, nonatomic) double xHeight; // @synthesize xHeight=_xHeight;
 
 @end

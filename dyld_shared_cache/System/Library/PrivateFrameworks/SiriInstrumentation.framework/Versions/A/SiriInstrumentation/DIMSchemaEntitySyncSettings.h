@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface DIMSchemaEntitySyncSettings : SISchemaInstrumentationMessage
 {
     _Bool _isMediaEntitySyncEnabled;
-    struct {
-        unsigned int isMediaEntitySyncEnabled:1;
-    } _has;
 }
 
 - (void);
@@ -26,15 +21,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)sResolvedApp"b1"isResolvedContactInApp"b1"appTimeSpentAffinityScore"b1"isForegroundApp"b1"timeSinceAppLastLaunchedInSec"b1"isFirstPartyApp"b1"appTimeSpentInSec"b1"timeSinceAppContactLastLaunchedInSec"b1"isDefaultApp"b1"isRequestByLabel"b1"isRequestByHandleType"b1};
-- (id)hemaCDMServiceHandleMetric;
+- (id)NLXSchemaCDMServiceHandleMetric;
 - (id)ü*à-/;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsMediaEntitySyncEnabled;
 @property(nonatomic) _Bool isMediaEntitySyncEnabled; // @synthesize isMediaEntitySyncEnabled=_isMediaEntitySyncEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

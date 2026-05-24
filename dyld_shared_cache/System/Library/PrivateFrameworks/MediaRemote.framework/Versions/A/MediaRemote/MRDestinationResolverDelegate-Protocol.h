@@ -5,5 +5,9 @@
 //
 
 @protocol MRDestinationResolverDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

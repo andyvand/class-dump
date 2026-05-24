@@ -6,15 +6,10 @@
 
 #import <OfficeImport/WMParagraphMapper.h>
 
-@class NSMutableString, NSString;
-
 __attribute__((visibility("hidden")))
 @interface WMFieldMapper : WMParagraphMapper
 {
     int mMode;
-    unsigned int mType;
-    NSMutableString *mMarkerText;
-    NSString *mLink;
 }
 
 - (void);

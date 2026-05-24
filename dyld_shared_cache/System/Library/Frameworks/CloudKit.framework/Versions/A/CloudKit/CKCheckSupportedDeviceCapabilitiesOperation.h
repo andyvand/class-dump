@@ -6,23 +6,14 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKCheckSupportedDeviceCapabilitiesOperationInfo, CKDeviceCapabilityCheckOptions, NSArray, NSMutableDictionary, NSString;
 @protocol CKCheckSupportedDeviceCapabilitiesOperationCallbacks;
 
 @interface CKCheckSupportedDeviceCapabilitiesOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _perResultBlock;
-    CDUnknownBlockType _checkSupportedDeviceCapabilitiesCompletionBlock;
-    NSArray *_zoneIDs;
-    NSArray *_desiredCapabilitySets;
-    CKDeviceCapabilityCheckOptions *_options;
-    NSMutableDictionary *_recordZoneErrors;
-    NSMutableDictionary *_resultsByRecordZoneID;
-    CDUnknownBlockType _perResultBlock_wrapper;
-    CDUnknownBlockType _checkSupportedDeviceCapabilitiesCompletionBlock_wrapper;
 }
 
-+ (SEL);
++ (SEL);
 + (void);
 - (void);
 - (void);
@@ -32,7 +23,7 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -44,7 +35,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (_Bool)ä;
 - (void)Äß;
@@ -52,22 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType checkSupportedDeviceCapabilitiesCompletionBlock; // @synthesize checkSupportedDeviceCapabilitiesCompletionBlock=_checkSupportedDeviceCapabilitiesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType checkSupportedDeviceCapabilitiesCompletionBlock_wrapper; // @synthesize checkSupportedDeviceCapabilitiesCompletionBlock_wrapper=_checkSupportedDeviceCapabilitiesCompletionBlock_wrapper;
 @property(readonly, nonatomic) id <CKCheckSupportedDeviceCapabilitiesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *desiredCapabilitySets; // @synthesize desiredCapabilitySets=_desiredCapabilitySets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKCheckSupportedDeviceCapabilitiesOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(readonly, copy, nonatomic) CKDeviceCapabilityCheckOptions *options; // @synthesize options=_options;
-@property(copy, nonatomic) CDUnknownBlockType perResultBlock; // @synthesize perResultBlock=_perResultBlock;
-@property(copy, nonatomic) CDUnknownBlockType perResultBlock_wrapper; // @synthesize perResultBlock_wrapper=_perResultBlock_wrapper;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end
 

@@ -5,6 +5,8 @@
 //
 
 @protocol TITypologyProfileOptInManaging
+- (_Bool)k
+;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isProfileInstalledAndUserEnabled;

@@ -7,17 +7,14 @@
 @interface IOAccelMemoryMapInfo
 {
     int pid;
-    unsigned long long address;
-    id _expansionData;
 }
 
 - (int);
 - (void);
-- (void);
+- (void)O;
 - (unsigned long long);
 
 // Remaining properties
-@property unsigned long long address; // @synthesize address;
 @property int pid; // @synthesize pid;
 
 @end

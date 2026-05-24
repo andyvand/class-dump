@@ -7,6 +7,7 @@
 @protocol UICollectionViewDragDelegate
 
 @optional
+- (void)_ak_buttonType;
 - (_Bool)v1Â0@ù
 × ;
 @end

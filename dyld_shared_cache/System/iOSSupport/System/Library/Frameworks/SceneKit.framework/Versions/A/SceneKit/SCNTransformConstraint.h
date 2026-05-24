@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)formObservedChangeIndicatingFormSubmission;
 - (id);
 - (id);
 - (id);

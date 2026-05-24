@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary, NSMutableSet, NSObject, NSString, TSUBasicProgress, TSUDownloadManager, TSUProgress;
-@protocol OS_dispatch_group, OS_dispatch_queue, TSUDownloadSessionDelegate;
-
 @interface TSUDownloadSession
 {
     _Bool _isCancelled;
-    TSUDownloadManager *_manager;
-    id <TSUDownloadSessionDelegate> _delegate;
-    _Bool _didFinishInitialization;
-    NSObject<OS_dispatch_group> *_initializationGroup;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSMutableSet *_remainingTasks;
-    NSMutableDictionary *_taskProgress;
-    double _lastProgressValue;
-    NSObject<OS_dispatch_group> *_completionGroup;
-    TSUBasicProgress *_progress;
-    NSError *_error;
-    NSString *_sessionDescription;
-    long long _totalBytesDownloaded;
-    long long _totalBytesExpectedToBeDownloaded;
 }
 
-- (id);
+- (id)puzzleHistoryService;
 - (void);
-- (long long);
+- (long long)latestStories;
+- (void)contentVerticalManagement;
+- (void)followingEngagementViewManager;
+- (void)dimNonSubscriberContentOffline;
+- (id)height;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -51,12 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isActive;
 @property(readonly, nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(readonly, nonatomic) TSUProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) NSString *sessionDescription; // @synthesize sessionDescription=_sessionDescription;
-@property(readonly, nonatomic) long long totalBytesDownloaded; // @synthesize totalBytesDownloaded=_totalBytesDownloaded;
-@property(readonly, nonatomic) long long totalBytesExpectedToBeDownloaded; // @synthesize totalBytesExpectedToBeDownloaded=_totalBytesExpectedToBeDownloaded;
 
 @end
 

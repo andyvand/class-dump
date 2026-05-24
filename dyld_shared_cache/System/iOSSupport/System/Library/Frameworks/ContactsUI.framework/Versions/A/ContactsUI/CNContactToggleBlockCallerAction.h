@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)r;
+- (void)_actionsMaskLayer;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *isBlockedCachedValue; // @synthesize isBlockedCachedValue=_isBlockedCachedValue;

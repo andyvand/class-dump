@@ -9,13 +9,13 @@
     long long _maxLength;
 }
 
-- (long long);
+- (long long)circleStatusChangedForAccountContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)*	;
 - (_Bool);
 - (id)qq;
 

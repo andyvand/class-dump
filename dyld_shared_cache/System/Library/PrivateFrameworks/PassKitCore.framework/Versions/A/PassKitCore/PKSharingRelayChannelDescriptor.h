@@ -6,15 +6,9 @@
 
 #import <PassKitCore/PKSharingChannelDescriptor.h>
 
-@class NSString;
-
 @interface PKSharingRelayChannelDescriptor : PKSharingChannelDescriptor
 {
     _Bool _stateful;
-    unsigned long long _subtype;
-    NSString *_region;
-    NSString *_existingChannelURL;
-    NSString *_existingMailboxIdentifier;
 }
 
 + (id);
@@ -22,21 +16,17 @@
 + (id);
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)_txPowerBackoffDBs;
 - (unsigned long long)roximityState;
 - (void)tPass"8@"PKSecureElementPass"16;
 - (id)et;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *existingChannelURL; // @synthesize existingChannelURL=_existingChannelURL;
-@property(readonly, nonatomic) NSString *existingMailboxIdentifier; // @synthesize existingMailboxIdentifier=_existingMailboxIdentifier;
-@property(readonly, nonatomic) NSString *region; // @synthesize region=_region;
-@property(readonly, nonatomic) _Bool stateful; // @synthesize stateful=_stateful;
 @property(readonly, nonatomic) unsigned long long subtype; // @synthesize subtype=_subtype;
 
 @end

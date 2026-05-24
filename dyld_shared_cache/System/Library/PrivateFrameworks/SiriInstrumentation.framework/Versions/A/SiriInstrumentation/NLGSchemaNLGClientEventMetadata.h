@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLGSchemaNLGClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_nlgId;
-    _Bool _hasNlgId;
 }
 
 - (void);
@@ -21,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)is;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,8 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasNlgId; // @synthesize hasNlgId=_hasNlgId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *nlgId; // @synthesize nlgId=_nlgId;
 
 @end

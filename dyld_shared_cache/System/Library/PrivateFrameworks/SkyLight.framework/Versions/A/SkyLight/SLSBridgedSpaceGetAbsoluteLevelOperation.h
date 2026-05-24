@@ -11,8 +11,8 @@
     unsigned long long _spaceID;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)`;
+- (id)@?0@"NSString"8@"NSArray"16^B24;
 - (id);
 - (id);
 - (unsigned long long);

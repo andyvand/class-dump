@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSPredicate;
+@class NSPredicate;
 
 @interface FigAlternatePredicateValidator
 {
     NSPredicate *_predicate;
-    struct OpaqueFigSimpleMutex *_mutex;
-    _Bool _result;
-    NSError *_error;
-    _Bool _isEvaluated;
 }
 
 + (_Bool);
@@ -23,8 +19,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)adMaxMB;
-- (_Bool)gCollectionRule;
+- (void)readAheadMaxMB;
+- (_Bool)FigCollectionRule;
 - (void)drop-pssh;
 - (void)xoÿbí;
 

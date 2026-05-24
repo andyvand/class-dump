@@ -7,8 +7,6 @@
 @interface PromotedContentUI.AdMetricsHelper
 {
     id hasBeenOnScreen;
-    id isCurrentlyOnScreen;
-    id adMetricsReceiver;
 }
 
 @end

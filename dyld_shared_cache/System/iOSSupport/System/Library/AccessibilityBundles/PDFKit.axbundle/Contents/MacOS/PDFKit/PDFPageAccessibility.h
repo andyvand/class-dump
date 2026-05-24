@@ -10,22 +10,22 @@
 {
 }
 
-+ (Class);
++ (Class)s/Metal.framework/Versions/A/Metal;
 + (id);
 + (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct CGPDFPage *);
-- (id);
+- (struct CGPDFPage *);
+- (id)։;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (_Bool);

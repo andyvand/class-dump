@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, RPFileTransferSession;
-
 @interface NWRPFileTransferSession
 {
     _Bool _isTarget;
-    CDUnknownBlockType _receivedFileHandler;
-    CDUnknownBlockType _completionHandler;
-    RPFileTransferSession *_session;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -24,27 +19,20 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)-;
+- (id)services;
 - (void);
+- (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void)_is_transparent;
+- (void)D;
+- (void)network_proxy_is_transparent;
 - (void)@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly, nonatomic) _Bool isTarget; // @synthesize isTarget=_isTarget;
-@property(copy, nonatomic) NSData *peerPublicKey;
-@property(copy, nonatomic) CDUnknownBlockType receivedFileHandler; // @synthesize receivedFileHandler=_receivedFileHandler;
-@property(readonly, copy, nonatomic) NSData *selfPublicKey;
-@property(readonly, nonatomic) RPFileTransferSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) NSString *targetID;
-@property(copy, nonatomic) NSURL *temporaryDirectoryURL;
 
 @end
 

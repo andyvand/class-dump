@@ -12,17 +12,17 @@
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)q`;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)eHandles:forService:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (id)Wu;
+- (void)validateHandles:forService:schedulerProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNUIIDSAvailabilityProvider *idsAvailabilityProvider; // @synthesize idsAvailabilityProvider=_idsAvailabilityProvider;

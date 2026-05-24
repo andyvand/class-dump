@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)D;
+- (id)lightProfileUUID;
 - (id);
 - (void)erManager;
 

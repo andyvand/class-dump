@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface STYUserScenarioCache
 {
     NSMutableDictionary *_scenarioObjects;
-    NSDictionary *_bundleIdForAppName;
-    NSString *_hwModel;
-    NSError *_badConfigError;
-    NSError *_bundledIdLookupFailedrror;
-    NSDictionary *_responsivenessConfigForWhitelistedSubsystems;
-    NSDictionary *_responsivenessConfigForWhitelistedCategories;
-    NSDictionary *_responsivenessConfigForWhitelistedNames;
-    NSDictionary *_animationConfigForWhitelistedSubsystems;
-    NSDictionary *_animationConfigForWhitelistedCategories;
-    NSDictionary *_animationConfigForWhitelistedNames;
-    NSMutableDictionary *_lifecycleScenarios;
-    NSMutableDictionary *_scenarioTitles;
 }
 
 + (id);
@@ -34,7 +22,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (float);
+- (float)R;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -63,39 +51,27 @@
 - (void);
 - (void);
 - (void);
+- (id)_enabledEntryTypeRecentHistory;
+- (id)acity:(id)arg1 ];
+- (void);
+- (_Bool);
 - (id);
 - (id);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)t make sense. :(id)arg1 %@;
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(retain) NSDictionary *animationConfigForWhitelistedCategories; // @synthesize animationConfigForWhitelistedCategories=_animationConfigForWhitelistedCategories;
-@property(retain) NSDictionary *animationConfigForWhitelistedNames; // @synthesize animationConfigForWhitelistedNames=_animationConfigForWhitelistedNames;
-@property(retain) NSDictionary *animationConfigForWhitelistedSubsystems; // @synthesize animationConfigForWhitelistedSubsystems=_animationConfigForWhitelistedSubsystems;
-@property(retain) NSError *badConfigError; // @synthesize badConfigError=_badConfigError;
-@property(retain) NSDictionary *bundleIdForAppName; // @synthesize bundleIdForAppName=_bundleIdForAppName;
-@property(retain) NSError *bundledIdLookupFailedrror; // @synthesize bundledIdLookupFailedrror=_bundledIdLookupFailedrror;
-@property(retain) NSString *hwModel; // @synthesize hwModel=_hwModel;
-@property(retain) NSMutableDictionary *lifecycleScenarios; // @synthesize lifecycleScenarios=_lifecycleScenarios;
-@property(retain) NSDictionary *responsivenessConfigForWhitelistedCategories; // @synthesize responsivenessConfigForWhitelistedCategories=_responsivenessConfigForWhitelistedCategories;
-@property(retain) NSDictionary *responsivenessConfigForWhitelistedNames; // @synthesize responsivenessConfigForWhitelistedNames=_responsivenessConfigForWhitelistedNames;
-@property(retain) NSDictionary *responsivenessConfigForWhitelistedSubsystems; // @synthesize responsivenessConfigForWhitelistedSubsystems=_responsivenessConfigForWhitelistedSubsystems;
 @property(retain) NSMutableDictionary *scenarioObjects; // @synthesize scenarioObjects=_scenarioObjects;
-@property(retain) NSMutableDictionary *scenarioTitles; // @synthesize scenarioTitles=_scenarioTitles;
 
 @end
 

@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOReferenceTimeData, NSObject, NSString, geo_isolater;
-@protocol OS_dispatch_semaphore;
+@class GEOReferenceTimeData;
 
 @interface GEOReferenceTimeManager
 {
     GEOReferenceTimeData *_refTimeData;
-    geo_isolater *_iso;
-    NSObject<OS_dispatch_semaphore> *_syncSem;
-    _Bool _synchronized;
-    _Bool _isGEOAPD;
-    double _managerStartTime;
-    unsigned int _attemptNum;
 }
 
-+ (id);
++ (id)pL;
 - (id);
 - (void);
 - (void);
@@ -28,24 +21,18 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (void);
+- (void)lastReportedEndpointTimeMs;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)ncodedDistancesToDestination;
+- (id)_encodedDistancesToDestination;
 - (void)ô®ÀÕO;
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

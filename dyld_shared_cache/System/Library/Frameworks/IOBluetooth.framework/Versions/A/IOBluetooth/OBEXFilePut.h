@@ -6,15 +6,9 @@
 
 #import <IOBluetooth/OBEXFileAction.h>
 
-@class NSData, NSString;
-
 @interface OBEXFilePut : OBEXFileAction
 {
     int mIsFileTransfer;
-    unsigned int mLastFileOffset;
-    NSData *mData;
-    NSString *mDataName;
-    NSString *mDataType;
 }
 
 + (id);

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOGraphTier1;
+@class USOSchemaUSOGraphTier1;
 
 @interface RRSchemaRRUsoGraphTier1 : SISchemaInstrumentationMessage
 {
     USOSchemaUSOGraphTier1 *_usoGraphTier1;
-    _Bool _hasUsoGraphTier1;
 }
 
 - (id);
@@ -20,20 +19,18 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (id);
+- (void);
+- (unsigned long long)Unimplemented at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDClaimApplicationsRequest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)N (SELECT ROWID FROM handle h1 WHERE ((SELECT 1 from chat_handle_join WHERE handle_id = h1.ROWID LIMIT 1) IS NULL AND (SELECT 1 from message WHERE handle_id = h1.ROWID LIMIT 1) IS NULL AND (SELECT 1 from message WHERE other_handle = h1.ROWID LIMIT 1) IS NULL));;
 - (id);
 - (id);
-- (id)gineCpuTimeInNs;
+- (id)appleNeuralEngineCpuTimeInNs;
 - (id)alConfirmationRate;
-- (void)MITIVETYPE_SEARCHABLE_ITEM;
+- (void)IFTPRIMITIVETYPE_SEARCHABLE_ITEM;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUsoGraphTier1; // @synthesize hasUsoGraphTier1=_hasUsoGraphTier1;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) USOSchemaUSOGraphTier1 *usoGraphTier1; // @synthesize usoGraphTier1=_usoGraphTier1;
 
 @end

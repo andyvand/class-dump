@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol AVCaptureOperationDescriptor;
+
 @protocol AVCaptureOperationDescriptor
+- (id <AVCaptureOperationDescriptor>)enumerateDestinationsUsingBlock:(id <AVCaptureOperationDescriptor>)arg1;
 @end
 

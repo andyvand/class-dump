@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, PHPhotoLibrary, PXContentSyndicationDataSourceManager, PXContentSyndicationHighlightCenter, PXLibraryFilterState;
+@class PXContentSyndicationHighlightCenter;
 
 @interface PXContentSyndicationConfigurationProvider
 {
     PXContentSyndicationHighlightCenter *_socialLayerHighlightCenter;
-    _Bool _contentSyndicationIsAvailable;
-    _Bool _showUnsavedSyndicatedContentInPhotosGrids;
-    _Bool _showUnsavedSyndicatedContentInMemories;
-    _Bool _showUnsavedSyndicatedContentInFeaturedPhotos;
-    _Bool _showContentSyndicationItemInSidebar;
-    _Bool _readyToLoadActualDataSourceManager;
-    int _systemLibraryChangeToken;
-    long long _dataSourceType;
-    PXContentSyndicationDataSourceManager *_syndicationItemsDataSourceManager;
-    PHPhotoLibrary *_syndicationPhotoLibrary;
-    PHPhotoLibrary *_photoLibrary;
-    PXLibraryFilterState *_libraryFilterState;
-    NSNumber *_testingOverride_contentSyndicationEnabled;
 }
 
-+ (void);
++ (void)C;
 + (id);
 + (id);
 - (id);
@@ -32,23 +19,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,8 +32,19 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
+- (void)RD;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -68,32 +55,13 @@
 - (id);
 - (void);
 - (id);
-- (id)ationOutOfNetworkAlertSettingsAction;
+- (id)LemonadeSharedAlbumInvitationOutOfNetworkAlertSettingsAction;
 - (void)arRequestAlerts;
 - (void);
 - (id)q;
 
 // Remaining properties
 @property(nonatomic) _Bool contentSyndicationIsAvailable; // @synthesize contentSyndicationIsAvailable=_contentSyndicationIsAvailable;
-@property(nonatomic) long long dataSourceType; // @synthesize dataSourceType=_dataSourceType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(nonatomic) _Bool readyToLoadActualDataSourceManager; // @synthesize readyToLoadActualDataSourceManager=_readyToLoadActualDataSourceManager;
-@property(nonatomic) _Bool showContentSyndicationItemInSidebar; // @synthesize showContentSyndicationItemInSidebar=_showContentSyndicationItemInSidebar;
-@property(readonly, nonatomic) _Bool showUnsavedSyndicatedContentInFeaturedPhotos; // @synthesize showUnsavedSyndicatedContentInFeaturedPhotos=_showUnsavedSyndicatedContentInFeaturedPhotos;
-@property(readonly, nonatomic) _Bool showUnsavedSyndicatedContentInMemories; // @synthesize showUnsavedSyndicatedContentInMemories=_showUnsavedSyndicatedContentInMemories;
-@property(nonatomic) _Bool showUnsavedSyndicatedContentInPhotosGrids; // @synthesize showUnsavedSyndicatedContentInPhotosGrids=_showUnsavedSyndicatedContentInPhotosGrids;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXContentSyndicationDataSourceManager *syndicationItemsDataSourceManager; // @synthesize syndicationItemsDataSourceManager=_syndicationItemsDataSourceManager;
-@property(retain, nonatomic) PHPhotoLibrary *syndicationPhotoLibrary; // @synthesize syndicationPhotoLibrary=_syndicationPhotoLibrary;
-@property(nonatomic) int systemLibraryChangeToken; // @synthesize systemLibraryChangeToken=_systemLibraryChangeToken;
-@property(retain, nonatomic) NSNumber *testingOverride_contentSyndicationEnabled; // @synthesize testingOverride_contentSyndicationEnabled=_testingOverride_contentSyndicationEnabled;
 
 @end
 

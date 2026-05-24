@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientControl
@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_operations;
 }
 
-+ (id);
++ (id)momentIsLongTimeNoSeeForLocationWithMomentNode:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -20,19 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)loadImmediately:(id)arg1 payload: /* Error: Ran out of types for this method. */;
-- (id)sActivityHistory;
+- (id)submitEventWithName:(id)arg1 serviceName:uploadImmediately:payload: /* Error: Ran out of types for this method. */;
+- (id)isAllowedToAccessActivityHistory;
 - (void)tivity-info;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableArray *operations; // @synthesize operations=_operations;
-@property(readonly) Class superclass;
 
 @end
 

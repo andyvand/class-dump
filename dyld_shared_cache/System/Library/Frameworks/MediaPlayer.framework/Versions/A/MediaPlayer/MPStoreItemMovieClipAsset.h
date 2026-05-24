@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSDictionary;
 
 @interface MPStoreItemMovieClipAsset
 {
@@ -14,17 +14,13 @@
 - (id);
 - (double);
 - (id);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (void)udeFromShuffle;
+- (void)_shouldExcludeFromShuffle;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration;
-@property(readonly, copy, nonatomic) NSString *flavor;
-@property(readonly, copy, nonatomic) NSURL *hlsURL;
 @property(readonly, copy, nonatomic) NSDictionary *lookupDictionary; // @synthesize lookupDictionary=_lookupDictionary;
-@property(readonly, copy, nonatomic) NSURL *url;
 
 @end
 

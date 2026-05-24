@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface BrowserParentalControls
 {
     _Bool _parentalControlsEnabled;
-    _Bool _adultContentFilterEnabled;
 }
 
 + (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -27,10 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool adultContentFilterEnabled; // @synthesize adultContentFilterEnabled=_adultContentFilterEnabled;
-@property(readonly, nonatomic) _Bool isManagedUser;
 @property(readonly, nonatomic) _Bool parentalControlsEnabled; // @synthesize parentalControlsEnabled=_parentalControlsEnabled;
-@property(readonly, nonatomic) _Bool shouldFillWithBuiltInBookmarks;
 
 @end
 

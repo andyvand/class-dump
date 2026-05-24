@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSIndexSet, NSString, NSURL, SGTCategory, SGTQueryGenius, SGTSuggestionReserved;
+@class NSImage, SGTSuggestionReserved;
 
 @interface SGTSuggestion
 {
@@ -13,8 +13,8 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)^;
++ (id)P;
 + (id);
 + (id);
 + (id);
@@ -27,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,7 +39,7 @@
 - (long long);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (id);
 - (id);
@@ -52,7 +52,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id) ;
 - (_Bool);
 - (id);
 - (id);
@@ -61,7 +61,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,21 +74,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)k`!;
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -109,38 +109,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)controller:shouldPlaceSingleShotAnnotation:onProposedPageModelController: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long alignmentScore;
-@property(readonly) NSArray *attributeNames;
-@property(readonly) NSArray *attributeValues;
-@property(retain) SGTCategory *category;
-@property(readonly) long long defaultScope;
-@property(readonly) NSString *displayName;
-@property(readonly) NSString *displayNameForMenu;
-@property(nonatomic) _Bool enforceStrictMatch;
-@property _Bool exactMatch;
-@property(nonatomic) _Bool forceLastPosition;
-@property(retain) SGTQueryGenius *genius;
-@property(readonly) NSImage *imageForMenu;
-@property(copy) NSString *inputString;
-@property(nonatomic) _Bool intermediateResult;
-@property(readonly) _Bool isTopHit;
-@property(nonatomic) _Bool lastWordMatch;
-@property(readonly) NSString *queryStringFragment;
-@property(retain) id representedObject;
-@property long long scope;
-@property(readonly) long long scopeForUI;
-@property(readonly) NSIndexSet *scopes;
-@property double score;
-@property(copy) NSURL *spotlightScope;
-@property(readonly) NSString *suggestionDebugDescription;
-@property(copy) NSIndexSet *titleHighlights;
 @property(readonly) NSImage *tokenImage;
-@property(readonly) NSString *tokenTitle;
-@property(copy) NSIndexSet *uniquifierHighlights;
 
 @end
 

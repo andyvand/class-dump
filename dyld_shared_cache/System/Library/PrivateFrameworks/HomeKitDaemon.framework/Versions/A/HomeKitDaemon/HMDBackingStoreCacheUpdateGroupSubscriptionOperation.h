@@ -6,13 +6,12 @@
 
 #import <HomeKitDaemon/HMDBackingStoreOperation.h>
 
-@class CKRecordZoneSubscription, HMDBackingStoreCacheGroup;
+@class HMDBackingStoreCacheGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheUpdateGroupSubscriptionOperation : HMDBackingStoreOperation
 {
     HMDBackingStoreCacheGroup *_record;
-    CKRecordZoneSubscription *_subscription;
 }
 
 - (id);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) HMDBackingStoreCacheGroup *record; // @synthesize record=_record;
-@property(retain, nonatomic) CKRecordZoneSubscription *subscription; // @synthesize subscription=_subscription;
 
 @end
 

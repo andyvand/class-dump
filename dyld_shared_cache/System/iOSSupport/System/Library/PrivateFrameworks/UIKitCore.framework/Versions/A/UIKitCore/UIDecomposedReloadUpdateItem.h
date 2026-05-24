@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id)ctPatternsForPatterns:inItemSet:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)detectPatternsForPatterns:inItemSet:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)<RÿÇÕ<¸h;
 - (void)þ#;
 

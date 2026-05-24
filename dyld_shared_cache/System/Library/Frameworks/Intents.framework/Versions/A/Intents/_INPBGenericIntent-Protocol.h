@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class NSString, _INPBIntentMetadata;
 
 @protocol _INPBGenericIntent
-- (_Bool)scene;
+- (void)to read %lu but actually read %lu;
+- (unsigned long long);
+- (_INPBIntentMetadata *)__isNetworkListUpdateEventRegisteredForClientID: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (_Bool)_scene;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domain;
-@property(readonly, nonatomic) _Bool hasDomain;
-@property(readonly, nonatomic) _Bool hasMetadata;
-@property(readonly, nonatomic) _Bool hasVerb;
-@property(retain, nonatomic) _INPBIntentMetadata *metadata;
-@property(copy, nonatomic) NSArray *parameters;
-@property(readonly, nonatomic) unsigned long long parametersCount;
-@property(copy, nonatomic) NSString *verb;
 @end
 

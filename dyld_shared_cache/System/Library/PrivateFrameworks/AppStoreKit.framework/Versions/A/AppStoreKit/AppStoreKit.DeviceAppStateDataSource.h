@@ -7,22 +7,11 @@
 @interface AppStoreKit.DeviceAppStateDataSource
 {
     id logger;
-    id appQuery;
-    id store;
-    id isBetaAppsDataSource;
-    id delegate;
-    id accessQueue;
-    id expectedAppStates;
-    id previouslyInstalledLibraryItems;
-    id availableUpdatesCache;
-    id greenTeaLogger;
-    id adamIdsByBundleId;
-    id betaAppBundleVersions;
 }
 
 - (void);
 - (id);
-- (void)19AMSEngagementResultCSgSo7NSErrorCSgIeyByy_;
+- (void)So19AMSEngagementResultCSgSo7NSErrorCSgIeyByy_;
 
 @end
 

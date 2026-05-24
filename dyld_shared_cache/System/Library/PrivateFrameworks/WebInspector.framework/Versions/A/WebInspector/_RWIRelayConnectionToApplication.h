@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object, _RWIRelayConnectionToApplicationDelegate;
+@protocol _RWIRelayConnectionToApplicationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _RWIRelayConnectionToApplication
 {
     id <_RWIRelayConnectionToApplicationDelegate> _delegate;
-    NSObject<OS_xpc_object> *_connection;
-    NSString *_tag;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)4;
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool available; // @dynamic available;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
 @property(nonatomic) __weak id <_RWIRelayConnectionToApplicationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *tag; // @synthesize tag=_tag;
 
 @end
 

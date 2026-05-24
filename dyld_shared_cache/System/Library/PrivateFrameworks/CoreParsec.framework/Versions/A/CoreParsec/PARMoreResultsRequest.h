@@ -14,8 +14,8 @@
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)ected format.;
+- (id)rMainThreadAccessTraits<uint64_t>, unsigned long long>>::operator*() & [T = WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Traits = WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (void);

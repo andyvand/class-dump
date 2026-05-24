@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleMediaAccessory, HMDRemoteLoginHandler, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginBase
 {
     NSUUID *_uuid;
-    HMDAppleMediaAccessory *_accessory;
-    HMDRemoteLoginHandler *_remoteLoginHandler;
-    NSString *_logString;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
 }
 
 + (id)yB;
 - (void);
-- (id);
+- (id)_mapsDirectory;
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)AVConferenceDelegate;
 - (id);
 - (id);
 - (id);
@@ -33,28 +27,11 @@ __attribute__((visibility("hidden")))
 - (id)rted range %ld (%ld:%ld) /* Error: Ran out of types for this method. */;
 - (id)ting home location as user is not Admin.;
 - (void)sioner Pairing - Adding Root Certificate;
-- (void)CCESSORY_LEGACYWAC_DETAIL;
+- (void)ACCESSORY_LEGACYWAC_DETAIL;
 - (id)Q>;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDAppleMediaAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *logString; // @synthesize logString=_logString;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly, nonatomic) __weak HMDRemoteLoginHandler *remoteLoginHandler; // @synthesize remoteLoginHandler=_remoteLoginHandler;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

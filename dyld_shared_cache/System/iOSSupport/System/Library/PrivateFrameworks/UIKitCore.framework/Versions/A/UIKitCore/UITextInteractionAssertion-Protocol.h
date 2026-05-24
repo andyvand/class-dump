@@ -7,7 +7,8 @@
 @class NSDictionary, NSString;
 
 @protocol UITextInteractionAssertion
-- (void)ge:(NSDictionary *)arg1;
+- (void);
+- (void)indexesOfItemsWithoutPreferredSizesInRange:(NSDictionary *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *reason;

@@ -6,64 +6,41 @@
 
 #import <AVKit/AVButton.h>
 
-@class AVMicaPackage, NSString, UIView, UIViewPropertyAnimator;
-@protocol AVMobileControlsStyleFontsSheet;
+@class AVMicaPackage;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessPlaybackControlButton : AVButton
 {
     unsigned long long _playbackControlButtonType;
-    UIView *_highlightView;
-    UIViewPropertyAnimator *_highlightAnimator;
-    _Bool _isPreparingMicaPackage;
-    _Bool _prefersMicaPackage;
-    _Bool _imageUpdateInProgress;
-    CDStruct_1b6d18a9 _skipInterval5;
-    CDStruct_1b6d18a9 _skipInterval10;
-    CDStruct_1b6d18a9 _skipInterval15;
-    CDStruct_1b6d18a9 _skipInterval30;
-    CDStruct_1b6d18a9 _skipInterval45;
-    CDStruct_1b6d18a9 _skipInterval60;
-    CDStruct_1b6d18a9 _skipInterval75;
-    CDStruct_1b6d18a9 _skipInterval90;
-    id <AVMobileControlsStyleFontsSheet> _styleSheet;
-    NSString *_playbackControlButtonIconState;
-    AVMicaPackage *_buttonMicaPackage;
-    UIView *_buttonMicaPackageContainerView;
-    CDStruct_1b6d18a9 _skipInterval;
 }
 
 + (id);
 + (id);
++ (id)7;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
+- (void)Tabs;
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
+- (void)LPTapToLoadViewStyle;
+- (void)com.apple.LinkPresentation.AnimatedImageTranscoder;
 - (void);
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)ContentIntersections;
+- (id)_automaticallyUpdatesSubviewContentIntersections;
 
 // Remaining properties
 @property(retain, nonatomic) AVMicaPackage *buttonMicaPackage; // @synthesize buttonMicaPackage=_buttonMicaPackage;
-@property(retain, nonatomic) UIView *buttonMicaPackageContainerView; // @synthesize buttonMicaPackageContainerView=_buttonMicaPackageContainerView;
-@property(retain, nonatomic) NSString *playbackControlButtonIconState; // @synthesize playbackControlButtonIconState=_playbackControlButtonIconState;
-@property(nonatomic) CDStruct_1b6d18a9 skipInterval; // @synthesize skipInterval=_skipInterval;
-@property(retain, nonatomic) id <AVMobileControlsStyleFontsSheet> styleSheet; // @synthesize styleSheet=_styleSheet;
 
 @end
 

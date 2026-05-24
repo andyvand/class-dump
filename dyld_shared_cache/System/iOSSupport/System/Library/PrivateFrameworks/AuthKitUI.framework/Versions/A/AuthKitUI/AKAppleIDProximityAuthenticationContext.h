@@ -6,17 +6,12 @@
 
 #import <AuthKitUI/AKAppleIDAuthenticationInAppContext.h>
 
-@class NSString;
-@protocol AKAppleIDProximityAuthenticationContextDelegate;
-
 @interface AKAppleIDProximityAuthenticationContext : AKAppleIDAuthenticationInAppContext
 {
     CDUnknownBlockType _proximityAIDAHandler;
-    id <AKAppleIDProximityAuthenticationContextDelegate> _proxDelegate;
-    NSString *_secondaryButtonTitle;
 }
 
-- (void);
+- (void)};
 - (void);
 - (void);
 - (id);
@@ -27,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AKAppleIDProximityAuthenticationContextDelegate> proxDelegate; // @synthesize proxDelegate=_proxDelegate;
 @property(nonatomic) CDUnknownBlockType proximityAIDAHandler; // @synthesize proximityAIDAHandler=_proximityAIDAHandler;
-@property(copy, nonatomic) NSString *secondaryButtonTitle; // @synthesize secondaryButtonTitle=_secondaryButtonTitle;
 
 @end
 

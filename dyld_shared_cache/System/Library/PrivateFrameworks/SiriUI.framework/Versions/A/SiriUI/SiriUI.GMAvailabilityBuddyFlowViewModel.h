@@ -9,9 +9,6 @@
 @interface SiriUI.GMAvailabilityBuddyFlowViewModel
 {
     id provider;
-    id state;
-    id waitlistFailureAlert;
-    void delegate;
 }
 
 - (void);
@@ -25,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <SiriUI.GMAvailabilityBuddyFlowViewModelDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) _Bool joinWaitlistReady;
-@property(nonatomic, readonly) _Bool optInReady;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface DRSTaskingSystemMessage
 {
     NSString *_version;
-    NSUUID *_messageUUID;
-    NSDate *_dateReceived;
-    NSDate *_dateBroadcast;
 }
 
 + (_Bool);
@@ -20,23 +17,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)address nor search string!;
 - (_Bool);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (id)aR;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *dateBroadcast; // @synthesize dateBroadcast=_dateBroadcast;
-@property(readonly, nonatomic) NSDate *dateReceived; // @synthesize dateReceived=_dateReceived;
-@property(readonly, nonatomic) NSString *messageType;
-@property(readonly, nonatomic) NSUUID *messageUUID; // @synthesize messageUUID=_messageUUID;
 @property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

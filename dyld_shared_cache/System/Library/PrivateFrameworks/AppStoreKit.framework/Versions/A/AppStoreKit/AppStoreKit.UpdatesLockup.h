@@ -9,11 +9,6 @@
 @interface AppStoreKit.UpdatesLockup : AppStoreKit.Lockup
 {
     id whatsNew;
-    id version;
-    id size;
-    id externalVersionId;
-    id releaseDate;
-    id installDate;
 }
 
 @end

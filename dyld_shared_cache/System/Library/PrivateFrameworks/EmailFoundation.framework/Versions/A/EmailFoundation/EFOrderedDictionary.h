@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSOrderedSet;
-@protocol NSCopying;
+@class NSOrderedSet;
 
 @interface EFOrderedDictionary
 {
     NSOrderedSet *_orderedKeys;
-    NSDictionary *_objectsByKey;
 }
 
-+ (_Bool);
++ (_Bool)ticMetadata",C,N,V_metadata;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,9 +27,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)norClass;
+- (id)er is too small, truncating bytes! ------
+;
+- (id)"NSError">24;
 - (void);
 - (id);
 - (id);
@@ -41,14 +40,7 @@
 - (id)qy;
 
 // Remaining properties
-@property(readonly, copy) NSOrderedSet *allKeys;
-@property(readonly, copy) NSArray *allValues;
 @property(readonly) unsigned long long count;
-@property(readonly, copy) NSDictionary *dictionary;
-@property(readonly, nonatomic) id <NSCopying> firstKey;
-@property(readonly, nonatomic) id firstObject;
-@property(readonly, nonatomic) id <NSCopying> lastKey;
-@property(readonly, nonatomic) id lastObject;
 
 @end
 

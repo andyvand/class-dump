@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneIdentityToken;
-
 @interface UIKBArbiterClientFocusContext
 {
     unsigned int _contextID;
-    FBSSceneIdentityToken *_sceneIdentity;
-    FBSSceneIdentityToken *_layeringSceneIdentity;
 }
 
-+ (id);
++ (id)DTLS1_SEND_CLIENT_KEY_EXCHANGE;
 + (id)!<Cù±c1Â0@ù
 × ;
-+ (_Bool)regate;
-- (void);
++ (_Bool)aggregate;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -25,17 +21,15 @@
 - (id)× ;
 - (unsigned int)Qg°1Â0@ù
 × ;
-- (_Bool)ex:(id)arg1;
+- (_Bool)initAlignmentHunkAtIndex:(id)arg1;
 - (void):(id)arg1;
-- (id)ualStyle;
+- (id)_UINavigationBarPhonePadVisualStyle;
 - (void);
 - (void)Ï;
 - (id)Lt	;
 
 // Remaining properties
 @property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;
-@property(retain, nonatomic) FBSSceneIdentityToken *layeringSceneIdentity; // @synthesize layeringSceneIdentity=_layeringSceneIdentity;
-@property(retain, nonatomic) FBSSceneIdentityToken *sceneIdentity; // @synthesize sceneIdentity=_sceneIdentity;
 
 @end
 

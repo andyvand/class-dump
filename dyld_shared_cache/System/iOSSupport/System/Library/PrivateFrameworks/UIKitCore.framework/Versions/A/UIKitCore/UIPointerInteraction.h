@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIPointerRegion, UIView;
-@protocol UIInteractionEffect, UIPointerInteractionDelegate;
+@class NSArray;
 
 @interface UIPointerInteraction
 {
@@ -17,31 +16,20 @@
         _Bool asyncRegionForRequest;
         _Bool targetRegionForDeceleratingPointerWithRequests;
     } _delegateImplements;
-    unsigned long long _generationID;
-    _Bool _observingPresentationNotification;
-    _Bool _enabled;
-    _Bool _pausesPointerUpdatesWhilePanning;
-    UIView *_view;
-    UIPointerRegion *_defaultRegion;
-    id <UIPointerInteractionDelegate> _delegate;
-    NSArray *_drivers;
-    UIPointerRegion *_currentRegion;
-    UIPointerRegion *_mostRecentRegion;
-    long long _currentModifiers;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)buildRequiredOnlyWithIdentifier:withCertServer:withCertTemplate: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)S^;
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ress;
 - (void);
 - (id);
 - (_Bool);
@@ -60,49 +48,30 @@
 - (void)0@ù
 × ;
 - (void)w";
-- (void)nge;
-- (void):(id)arg1;
-- (id)tyCount: /* Error: Ran out of types for this method. */;
-- (void)correctionContext;
-- (long long)ranceForEnabled: /* Error: Ran out of types for this method. */;
-- (void)ionsForAutoFill:(id)arg1;
-- (void)Through;
+- (void)willSelectionChange;
+- (void)targetContentOffsetForProposedContentOffset:(id)arg1;
+- (id)setGranularityCount: /* Error: Ran out of types for this method. */;
+- (void)autocorrectionContext;
+- (long long)_updateAppearanceForEnabled: /* Error: Ran out of types for this method. */;
+- (void)_performTextOperationsForAutoFill:(id)arg1;
+- (void)_lastHitTestPassedThrough;
 - (id)entDirectionIsDown:(id)arg1;
 - (id)",&,N,V_stickerPrewarmingViewController;
-- (void)ngContent;
-- (id)edbackDragBehaviorConfiguration;
+- (void)_UILabelAttributedStringContent;
+- (id)_UIFeedbackDragBehaviorConfiguration;
 - (id)hØ Ù¸Üá°ã;
 - (id)éoêp@ì¬ìq<íÐî;
 - (void)registration that was created inside -collectionView:(id)arg1 viewForSupplementaryElementOfKind:(_Bool)arg2 atIndexPath:or inside a UICollectionViewDiffableDataSource supplementary view provider. Creating a new registration each time a supplementary view is requested will prevent reuse and cause created supplementary views to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:%@ /* Error: Ran out of types for this method. */;
-- (void)asNoHomeButton;
+- (void)ForceHasNoHomeButton;
 - (void)ttributes for a supplementary view with an invalid section index. View:(id)arg1 %@; view attributes:%@; collection view:%@; number of sections:%ld /* Error: Ran out of types for this method. */;
-- (void)iveNonDismissDetents;
+- (void)numberOfActiveNonDismissDetents;
 - (void)»b;
 - (void)¸2ÞþÌAÚxÈd;
 - (void)8·g;
 - (void)@h;
 
 // Remaining properties
-@property(nonatomic) long long currentModifiers; // @synthesize currentModifiers=_currentModifiers;
-@property(copy, nonatomic) UIPointerRegion *currentRegion; // @synthesize currentRegion=_currentRegion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) UIPointerRegion *defaultRegion; // @synthesize defaultRegion=_defaultRegion;
-@property(readonly, nonatomic) __weak id <UIPointerInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *drivers; // @synthesize drivers=_drivers;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <UIInteractionEffect> interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIInteractionEffect>",?,&,N
-
-@property(copy, nonatomic) UIPointerRegion *mostRecentRegion; // @synthesize mostRecentRegion=_mostRecentRegion;
-@property(nonatomic, getter=_pausesPointerUpdatesWhilePanning, setter=_setPausesPointerUpdatesWhilePanning:) _Bool pausesPointerUpdatesWhilePanning; // @synthesize pausesPointerUpdatesWhilePanning=_pausesPointerUpdatesWhilePanning;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

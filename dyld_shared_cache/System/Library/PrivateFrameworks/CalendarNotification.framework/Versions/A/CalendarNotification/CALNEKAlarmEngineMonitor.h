@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSString, _EKAlarmEngine;
+@class NSNotificationCenter;
 
 @interface CALNEKAlarmEngineMonitor
 {
     _Bool _active;
-    NSNotificationCenter *_notificationCenter;
-    _EKAlarmEngine *_alarmEngine;
 }
 
 - (void);
@@ -20,25 +18,16 @@
 - (id);
 - (id);
 - (void);
+- (void)terested parties;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)StringsAndAttachments: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)setHtmlStringsAndAttachments: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) _EKAlarmEngine *alarmEngine; // @synthesize alarmEngine=_alarmEngine;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
 
 @end
 

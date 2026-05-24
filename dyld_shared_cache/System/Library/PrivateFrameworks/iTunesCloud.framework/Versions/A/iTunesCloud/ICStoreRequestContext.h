@@ -6,30 +6,18 @@
 
 #import <iTunesCloud/ICRequestContext.h>
 
-@class ICStoreDialogResponseHandler, ICURLBag, ICUserIdentity, ICUserIdentityStore;
+@class ICUserIdentity;
 
 @interface ICStoreRequestContext : ICRequestContext
 {
     ICUserIdentity *_delegatedIdentity;
-    ICUserIdentity *_identity;
-    ICUserIdentityStore *_identityStore;
-    ICStoreDialogResponseHandler *_storeDialogResponseHandler;
-    long long _personalizationStyle;
-    _Bool _allowsExpiredBags;
-    ICURLBag *_preloadedBag;
 }
 
 + (id);
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsExpiredBags; // @synthesize allowsExpiredBags=_allowsExpiredBags;
-@property(readonly, copy, nonatomic) ICUserIdentity *delegatedIdentity; // @synthesize delegatedIdentity=_delegatedIdentity;
 @property(readonly, copy, nonatomic) ICUserIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) ICUserIdentityStore *identityStore; // @synthesize identityStore=_identityStore;
-@property(readonly, nonatomic) long long personalizationStyle; // @synthesize personalizationStyle=_personalizationStyle;
-@property(readonly, nonatomic) ICURLBag *preloadedBag; // @synthesize preloadedBag=_preloadedBag;
-@property(readonly, copy, nonatomic) ICStoreDialogResponseHandler *storeDialogResponseHandler; // @synthesize storeDialogResponseHandler=_storeDialogResponseHandler;
 
 @end
 

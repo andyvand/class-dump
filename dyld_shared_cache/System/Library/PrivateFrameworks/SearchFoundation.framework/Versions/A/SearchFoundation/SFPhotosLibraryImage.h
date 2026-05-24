@@ -6,17 +6,13 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFPhotosLibraryImage : SFImage
 {
     struct {
         unsigned int isSyndicated:1;
     } _has;
-    _Bool _isSyndicated;
-    NSString *_photoIdentifier;
-    NSArray *_peopleInPhoto;
-    NSString *_applicationBundleIdentifier;
 }
 
 + (_Bool);
@@ -26,46 +22,21 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)setStoreSubscriptionAdamID:(id)arg1;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id),N,V_batchQueryQueue;
+- (id)PHPhotosErrorShareNetworkError;
+- (id)L:(struct _NSZone *)arg1 %@;
 - (id);
 - (void);
-- (void)thumbnail;
+- (void)_thumbnail;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isSyndicated; // @synthesize isSyndicated=_isSyndicated;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
-@property(copy, nonatomic) NSArray *peopleInPhoto; // @synthesize peopleInPhoto=_peopleInPhoto;
 @property(copy, nonatomic) NSString *photoIdentifier; // @synthesize photoIdentifier=_photoIdentifier;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
 
 @end
 

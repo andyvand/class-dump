@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKImageView, PKSelectionController, PKStrokeSelection, PKStrokeSelectionImage;
-@protocol PKSelectionRendering;
+@class PKImageView, PKStrokeSelection;
 
 @interface PKAdornmentView
 {
     PKImageView *_strokeSelectionImageView;
-    _Bool _isInteracting;
-    PKStrokeSelection *_strokeSelection;
-    PKSelectionController *_selectionController;
-    id <PKSelectionRendering> _selectionRenderer;
-    PKStrokeSelectionImage *_strokeSelectionImage;
 }
 
 + (Class);
@@ -36,10 +30,7 @@
 - (void)ÁTÄ)ÄÆ É;
 
 // Remaining properties
-@property(nonatomic) __weak PKSelectionController *selectionController; // @synthesize selectionController=_selectionController;
-@property(retain, nonatomic) id <PKSelectionRendering> selectionRenderer; // @synthesize selectionRenderer=_selectionRenderer;
 @property(retain, nonatomic) PKStrokeSelection *strokeSelection; // @synthesize strokeSelection=_strokeSelection;
-@property(retain, nonatomic) PKStrokeSelectionImage *strokeSelectionImage; // @synthesize strokeSelectionImage=_strokeSelectionImage;
 
 @end
 

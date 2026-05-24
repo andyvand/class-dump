@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WKUserContentController;
+
 @protocol WKScriptMessageHandler
+- (void)accessibilityPreprocessForPointConversionFromSceneReferenceCoordinates:(WKUserContentController *)arg1;
 @end
 

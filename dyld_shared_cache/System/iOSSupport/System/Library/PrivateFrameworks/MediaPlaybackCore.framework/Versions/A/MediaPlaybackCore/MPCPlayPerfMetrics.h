@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSNumber, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MPCPlayPerfMetrics
 {
     NSMutableDictionary *_data;
-    NSDate *_firstAudioFrameDate;
 }
 
-+ (id);
-+ (id);
++ (id)d photo library;
++ (id)dPhotoLibrary...;
+- (id)nt:completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -43,20 +38,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -86,22 +87,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
+- (id);
 - (id);
+- (id);
 - (id);
+- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)__LINKEDIT;
 - (id);
 - (id);
 - (id);
@@ -109,6 +109,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)__objc_classname__TEXT;
 - (id);
 - (id);
 - (id);
@@ -120,26 +121,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)O;
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)(;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)K;
 - (void);
 - (void);
+- (void)F;
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -147,8 +146,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
 - (id);
+- (id)ore"28@"ACAccount"36;
 - (id);
 - (void);
 - (id);
@@ -167,104 +166,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)downloadArtworkIfNeededForEpisodeUuid:successCallback: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
-- (id);
-- (id);
 - (id);
 - (id);
+- (id)5;
 - (id);
 - (id);
 - (id);
+- (id);
 - (void)ic}@:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)2i %{public}@  â recommendation-data:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)lapsed time %{private,mask.hash}f.;
-- (id)ceTypes;
+- (id)BinauralAudioForUnknownAudioDeviceTypes;
 - (id);
 - (id)ª;
 
 // Remaining properties
-@property(retain, nonatomic, setter=set_AVPlayerItemPerformanceMetrics:) NSDictionary *AVPlayerItemPerformanceMetrics; // @dynamic AVPlayerItemPerformanceMetrics;
-@property(retain, nonatomic, setter=set_assetCacheAge:) NSNumber *assetCacheAge; // @dynamic assetCacheAge;
-@property(retain, nonatomic, setter=set_assetLoadWaitTime:) NSNumber *assetLoadWaitTime; // @dynamic assetLoadWaitTime;
-@property(retain, nonatomic, setter=set_assetLocation:) NSNumber *assetLocation; // @dynamic assetLocation;
-@property(retain, nonatomic, setter=set_assetProtectionType:) NSNumber *assetProtectionType; // @dynamic assetProtectionType;
-@property(retain, nonatomic, setter=set_assetSource:) NSNumber *assetSource; // @dynamic assetSource;
-@property(retain, nonatomic, setter=set_assetType:) NSNumber *assetType; // @dynamic assetType;
-@property(readonly, nonatomic) NSNumber *avTime;
-@property(retain, nonatomic, setter=set_bagWaitTime:) NSNumber *bagWaitTime; // @dynamic bagWaitTime;
-@property(retain, nonatomic, setter=set_checkpointAssetLoadBegin:) NSNumber *checkpointAssetLoadBegin; // @dynamic checkpointAssetLoadBegin;
-@property(retain, nonatomic, setter=set_checkpointAssetLoadEnd:) NSNumber *checkpointAssetLoadEnd; // @dynamic checkpointAssetLoadEnd;
-@property(retain, nonatomic, setter=set_checkpointFirstAudioFrame:) NSNumber *checkpointFirstAudioFrame; // @dynamic checkpointFirstAudioFrame;
-@property(retain, nonatomic, setter=set_checkpointLikelyToKeepUp:) NSNumber *checkpointLikelyToKeepUp; // @dynamic checkpointLikelyToKeepUp;
-@property(retain, nonatomic, setter=set_checkpointMRPlay:) NSNumber *checkpointMRPlay; // @dynamic checkpointMRPlay;
-@property(retain, nonatomic, setter=set_checkpointMRSetQueueBegin:) NSNumber *checkpointMRSetQueueBegin; // @dynamic checkpointMRSetQueueBegin;
-@property(retain, nonatomic, setter=set_checkpointPlay:) NSNumber *checkpointPlay; // @dynamic checkpointPlay;
-@property(retain, nonatomic, setter=set_checkpointRateOne:) NSNumber *checkpointRateOne; // @dynamic checkpointRateOne;
-@property(retain, nonatomic, setter=set_checkpointRateZero:) NSNumber *checkpointRateZero; // @dynamic checkpointRateZero;
-@property(retain, nonatomic, setter=set_checkpointReadyToPlay:) NSNumber *checkpointReadyToPlay; // @dynamic checkpointReadyToPlay;
-@property(retain, nonatomic, setter=set_checkpointSetQueueBegin:) NSNumber *checkpointSetQueueBegin; // @dynamic checkpointSetQueueBegin;
-@property(retain, nonatomic, setter=set_checkpointSetQueueEnd:) NSNumber *checkpointSetQueueEnd; // @dynamic checkpointSetQueueEnd;
 @property(retain, nonatomic) NSMutableDictionary *data; // @synthesize data=_data;
-@property(retain, nonatomic, setter=set_endpointType:) NSNumber *endpointType; // @dynamic endpointType;
-@property(retain, nonatomic, setter=set_errorResolution:) NSNumber *errorResolution; // @dynamic errorResolution;
-@property(retain, nonatomic, setter=set_errorSignature:) NSString *errorSignature; // @dynamic errorSignature;
-@property(retain, nonatomic, setter=set_eventTime:) NSNumber *eventTime; // @dynamic eventTime;
-@property(retain, nonatomic, setter=set_eventType:) NSString *eventType; // @dynamic eventType;
-@property(retain, nonatomic, setter=set_experimentID:) NSString *experimentID; // @dynamic experimentID;
-@property(retain, nonatomic, setter=set_featureName:) NSString *featureName; // @dynamic featureName;
-@property(retain, nonatomic) NSDate *firstAudioFrameDate; // @synthesize firstAudioFrameDate=_firstAudioFrameDate;
-@property(retain, nonatomic, setter=set_firstAudioFrameWaitTime:) NSNumber *firstAudioFrameWaitTime; // @dynamic firstAudioFrameWaitTime;
-@property(retain, nonatomic, setter=set_formatInfo:) NSDictionary *formatInfo; // @dynamic formatInfo;
-@property(retain, nonatomic, setter=set_hasAccountInfo:) NSNumber *hasAccountInfo; // @dynamic hasAccountInfo;
-@property(retain, nonatomic, setter=set_hasOfflinePlaybackKeys:) NSNumber *hasOfflinePlaybackKeys; // @dynamic hasOfflinePlaybackKeys;
-@property(retain, nonatomic, setter=set_hasOnlinePlaybackKeys:) NSNumber *hasOnlinePlaybackKeys; // @dynamic hasOnlinePlaybackKeys;
-@property(retain, nonatomic, setter=set_hlsMetadataWaitTime:) NSNumber *hlsMetadataWaitTime; // @dynamic hlsMetadataWaitTime;
-@property(retain, nonatomic, setter=set_isActiveAccount:) NSNumber *isActiveAccount; // @dynamic isActiveAccount;
-@property(retain, nonatomic, setter=set_isAutoPlayEnabled:) NSNumber *isAutoPlayEnabled; // @dynamic isAutoPlayEnabled;
-@property(retain, nonatomic, setter=set_isDelegatedPlayback:) NSNumber *isDelegatedPlayback; // @dynamic isDelegatedPlayback;
-@property(retain, nonatomic, setter=set_isFirstPlay:) NSNumber *isFirstPlay; // @dynamic isFirstPlay;
-@property(retain, nonatomic, setter=set_isRemoteSetQueue:) NSNumber *isRemoteSetQueue; // @dynamic isRemoteSetQueue;
-@property(retain, nonatomic, setter=set_isReplacingPlayback:) NSNumber *isReplacingPlayback; // @dynamic isReplacingPlayback;
-@property(retain, nonatomic, setter=set_isSharePlay:) NSNumber *isSharePlay; // @dynamic isSharePlay;
-@property(retain, nonatomic, setter=set_isShuffled:) NSNumber *isShuffled; // @dynamic isShuffled;
-@property(retain, nonatomic, setter=set_itemIdentifier:) NSString *itemIdentifier; // @dynamic itemIdentifier;
-@property(retain, nonatomic, setter=set_itemMetadata:) NSDictionary *itemMetadata; // @dynamic itemMetadata;
-@property(retain, nonatomic, setter=set_leaseWaitTime:) NSNumber *leaseWaitTime; // @dynamic leaseWaitTime;
-@property(retain, nonatomic, setter=set_lookupWaitTime:) NSNumber *lookupWaitTime; // @dynamic lookupWaitTime;
-@property(readonly, nonatomic) NSNumber *mediaPlayerTime;
-@property(retain, nonatomic, setter=set_mediaRedownloadWaitTime:) NSNumber *mediaRedownloadWaitTime; // @dynamic mediaRedownloadWaitTime;
-@property(readonly, nonatomic) NSNumber *musicTotalTime;
-@property(readonly, nonatomic) NSNumber *musicWaitTime;
-@property(readonly, nonatomic) NSNumber *networkTime;
-@property(retain, nonatomic, setter=set_networkType:) NSNumber *networkType; // @dynamic networkType;
-@property(retain, nonatomic, setter=set_nextItemWaitTime:) NSNumber *nextItemWaitTime; // @dynamic nextItemWaitTime;
-@property(retain, nonatomic, setter=set_playCommandSendTime:) NSNumber *playCommandSendTime; // @dynamic playCommandSendTime;
-@property(retain, nonatomic, setter=set_playCommandWaitTime:) NSNumber *playCommandWaitTime; // @dynamic playCommandWaitTime;
-@property(retain, nonatomic, setter=set_queueCommandType:) NSNumber *queueCommandType; // @dynamic queueCommandType;
-@property(retain, nonatomic, setter=set_queueLoadWaitTime:) NSNumber *queueLoadWaitTime; // @dynamic queueLoadWaitTime;
-@property(retain, nonatomic, setter=set_queueType:) NSString *queueType; // @dynamic queueType;
-@property(retain, nonatomic, setter=set_rateChangeWaitTime:) NSNumber *rateChangeWaitTime; // @dynamic rateChangeWaitTime;
-@property(retain, nonatomic, setter=set_readyToPlayStatusWaitTime:) NSNumber *readyToPlayStatusWaitTime; // @dynamic readyToPlayStatusWaitTime;
-@property(retain, nonatomic, setter=set_routeInfo:) NSDictionary *routeInfo; // @dynamic routeInfo;
-@property(retain, nonatomic, setter=set_sectionIdentifier:) NSString *sectionIdentifier; // @dynamic sectionIdentifier;
-@property(retain, nonatomic, setter=set_seekBeforePlaying:) NSNumber *seekBeforePlaying; // @dynamic seekBeforePlaying;
-@property(retain, nonatomic, setter=set_sessionActivationAVTime:) NSNumber *sessionActivationAVTime; // @dynamic sessionActivationAVTime;
-@property(retain, nonatomic, setter=set_sessionActivationClientTime:) NSNumber *sessionActivationClientTime; // @dynamic sessionActivationClientTime;
-@property(retain, nonatomic, setter=set_sessionActivationWaitTime:) NSNumber *sessionActivationWaitTime; // @dynamic sessionActivationWaitTime;
-@property(retain, nonatomic, setter=set_setQueueCommandSendTime:) NSNumber *setQueueCommandSendTime; // @dynamic setQueueCommandSendTime;
-@property(retain, nonatomic, setter=set_siriRefId:) NSString *siriRefId; // @dynamic siriRefId;
-@property(retain, nonatomic, setter=set_storefront:) NSString *storefront; // @dynamic storefront;
-@property(retain, nonatomic, setter=set_subscriptionAssetLoadWaitTime:) NSNumber *subscriptionAssetLoadWaitTime; // @dynamic subscriptionAssetLoadWaitTime;
-@property(retain, nonatomic, setter=set_subscriptionType:) NSNumber *subscriptionType; // @dynamic subscriptionType;
-@property(retain, nonatomic, setter=set_suzeLeaseWaitTime:) NSNumber *suzeLeaseWaitTime; // @dynamic suzeLeaseWaitTime;
-@property(retain, nonatomic, setter=set_timeSinceBoot:) NSNumber *timeSinceBoot; // @dynamic timeSinceBoot;
-@property(retain, nonatomic, setter=set_timeSinceLaunch:) NSNumber *timeSinceLaunch; // @dynamic timeSinceLaunch;
-@property(retain, nonatomic, setter=set_timeSincePaused:) NSNumber *timeSincePaused; // @dynamic timeSincePaused;
-@property(retain, nonatomic, setter=set_treatmentID:) NSString *treatmentID; // @dynamic treatmentID;
-@property(retain, nonatomic, setter=set_userActionHandlingTime:) NSNumber *userActionHandlingTime; // @dynamic userActionHandlingTime;
-@property(retain, nonatomic, setter=set_vocalsControlActive:) NSNumber *vocalsControlActive; // @dynamic vocalsControlActive;
 
 @end
 

@@ -8,7 +8,7 @@
 + (id);
 + (double);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (_Bool);
 @end

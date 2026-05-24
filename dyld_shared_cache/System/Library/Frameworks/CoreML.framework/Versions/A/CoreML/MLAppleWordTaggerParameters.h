@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface MLAppleWordTaggerParameters
 {
     unsigned long long _revision;
-    NSString *_language;
-    NSString *_inputFeatureName;
-    NSString *_tokensOutputFeatureName;
-    NSString *_tokenTagsOutputFeatureName;
-    NSString *_tokenLocationsOutputFeatureName;
-    NSString *_tokenLengthsOutputFeatureName;
-    NSData *_modelParameterData;
-    NSArray *_tagNames;
-    NSDictionary *_metadata;
 }
 
 - (id);
+- (id)D;
 - (id);
-- (id);
-- (void);
+- (void)L;
 - (void);
 - (void);
 - (void);
@@ -46,16 +35,7 @@
 v[	ò¶[ú&XÓ3È´/îÚ÷ÁO^ZvýõJ¾æÖ¡õÀçF.OÖ;
 
 // Remaining properties
-@property(retain) NSString *inputFeatureName; // @synthesize inputFeatureName=_inputFeatureName;
-@property(retain) NSString *language; // @synthesize language=_language;
-@property(retain) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain) NSData *modelParameterData; // @synthesize modelParameterData=_modelParameterData;
 @property unsigned long long revision; // @synthesize revision=_revision;
-@property(retain) NSArray *tagNames; // @synthesize tagNames=_tagNames;
-@property(retain) NSString *tokenLengthsOutputFeatureName; // @synthesize tokenLengthsOutputFeatureName=_tokenLengthsOutputFeatureName;
-@property(retain) NSString *tokenLocationsOutputFeatureName; // @synthesize tokenLocationsOutputFeatureName=_tokenLocationsOutputFeatureName;
-@property(retain) NSString *tokenTagsOutputFeatureName; // @synthesize tokenTagsOutputFeatureName=_tokenTagsOutputFeatureName;
-@property(retain) NSString *tokensOutputFeatureName; // @synthesize tokensOutputFeatureName=_tokensOutputFeatureName;
 
 @end
 

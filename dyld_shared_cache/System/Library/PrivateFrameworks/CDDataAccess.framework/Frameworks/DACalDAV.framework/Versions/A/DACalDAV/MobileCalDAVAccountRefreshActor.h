@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVRefreshContext, CalDiagAccountSync, DATransaction, MobileCalDAVAccount, NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_group;
+@class DATransaction, MobileCalDAVAccount;
 
 @interface MobileCalDAVAccountRefreshActor
 {
     DATransaction *_transaction;
-    _Bool _shouldCancel;
-    _Bool _didFinish;
-    _Bool _refreshing;
-    int _state;
-    CalDiagAccountSync *_accountSyncDiagnostics;
-    CalDAVRefreshContext *_context;
-    MobileCalDAVAccount *_account;
-    CDUnknownBlockType _completionBlock;
-    NSMutableDictionary *_pathsToCTags;
-    NSMutableDictionary *_pathsToSyncTokens;
-    NSMutableArray *_calendarsToRefresh;
-    NSObject<OS_dispatch_group> *_outstandingOperationGroup;
-    NSMutableSet *_outstandingTaskGroups;
-    NSMutableSet *_outstandingTasks;
-    NSString *_calendarHomeSyncToken;
-    NSArray *_attachmentUUIDsToUpload;
 }
 
 - (void);
@@ -39,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -59,19 +42,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
+- (void)((;
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -92,28 +75,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak MobileCalDAVAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) CalDiagAccountSync *accountSyncDiagnostics; // @synthesize accountSyncDiagnostics=_accountSyncDiagnostics;
-@property(retain, nonatomic) NSArray *attachmentUUIDsToUpload; // @synthesize attachmentUUIDsToUpload=_attachmentUUIDsToUpload;
-@property(retain, nonatomic) NSString *calendarHomeSyncToken; // @synthesize calendarHomeSyncToken=_calendarHomeSyncToken;
-@property(retain, nonatomic) NSMutableArray *calendarsToRefresh; // @synthesize calendarsToRefresh=_calendarsToRefresh;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) CalDAVRefreshContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didFinish; // @synthesize didFinish=_didFinish;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *outstandingOperationGroup; // @synthesize outstandingOperationGroup=_outstandingOperationGroup;
-@property(retain, nonatomic) NSMutableSet *outstandingTaskGroups; // @synthesize outstandingTaskGroups=_outstandingTaskGroups;
-@property(retain, nonatomic) NSMutableSet *outstandingTasks; // @synthesize outstandingTasks=_outstandingTasks;
-@property(retain, nonatomic) NSMutableDictionary *pathsToCTags; // @synthesize pathsToCTags=_pathsToCTags;
-@property(retain, nonatomic) NSMutableDictionary *pathsToSyncTokens; // @synthesize pathsToSyncTokens=_pathsToSyncTokens;
-@property(nonatomic) _Bool refreshing; // @synthesize refreshing=_refreshing;
-@property(nonatomic) _Bool shouldCancel; // @synthesize shouldCancel=_shouldCancel;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

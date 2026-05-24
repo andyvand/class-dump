@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFetchRequest, NSManagedObjectID, NSSet;
+@class NSFetchRequest;
 
 @interface _PHFetchRequestWrapper
 {
     unsigned long long _hash;
-    NSFetchRequest *_fetchRequest;
-    NSManagedObjectID *_containerIdentifier;
-    NSSet *_fetchPropertySets;
 }
 
-- (id);
+- (id)P;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id)Ð1Â0@ù
 × ;
-- (id)tchedPersonUUIDs;
-- (void)ions;
+- (id)_matchedPersonUUIDs;
+- (void)_clientLinkedOnOrAfterFall2023OSVersions;
 - (id)tring:%@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSManagedObjectID *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly, nonatomic) NSSet *fetchPropertySets; // @synthesize fetchPropertySets=_fetchPropertySets;
 @property(readonly, nonatomic) NSFetchRequest *fetchRequest; // @synthesize fetchRequest=_fetchRequest;
-@property(readonly, nonatomic) unsigned long long hash; // @synthesize hash=_hash;
 
 @end
 

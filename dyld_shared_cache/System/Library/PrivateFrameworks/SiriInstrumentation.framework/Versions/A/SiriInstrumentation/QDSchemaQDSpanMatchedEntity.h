@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, QDSchemaQDEntityType, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface QDSchemaQDSpanMatchedEntity : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sessionScopedUniqueId;
-    QDSchemaQDEntityType *_valueType;
-    NSArray *_matches;
-    int _dataProtectionClass;
-    struct {
-        unsigned int dataProtectionClass:1;
-    } _has;
-    _Bool _hasSessionScopedUniqueId;
-    _Bool _hasValueType;
 }
 
 - (void);
@@ -34,36 +26,29 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (id)exSet"24@"NSPasteboard"32;
+- (void)at path:(id)arg1 %{public}@;
+- (id);
+- (_Bool);
 - (id);
 - (void);
-- (id);
+- (unsigned long long)ries/AppStoreDaemon/Stubs/ASDRestoreDemotedApplicationsRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool), original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat LEFT OUTER JOIN chat_message_join ON    chat_message_join.chat_id == chat.rowid    AND chat_message_join.message_date = (       SELECT MAX(cmj_inner.message_date)        FROM chat_message_join cmj_inner        INNER JOIN message m ON m.ROWID = cmj_inner.message_id        WHERE cmj_inner.chat_id = chat.rowid            AND m.is_finished = 1 AND m.item_type = 0 AND m.associated_message_type != 3 AND NOT (m.schedule_type = 2 AND (m.schedule_state = 1 OR m.schedule_state = 2)) )WHERE    chat.is_archived = 0 %@ GROUP BY    chat.rowid HAVING    chat_message_join.message_date < ? ORDER BY    chat_message_join.message_date %@ LIMIT    ?;;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void)SchemaORCHMUXEphemeralToAggregationIdentifierMapContext";
-- (id)supportedOnDevice;
+- (id)_unsupportedOnDevice;
 - (id)aluatedFromPlanner;
-- (void)N_CONTENT_REQUEST_ERRORS;
+- (void)GATERRORDOMAIN_CONTENT_REQUEST_ERRORS;
 - (int);
 
 // Remaining properties
-@property(nonatomic) int dataProtectionClass; // @synthesize dataProtectionClass=_dataProtectionClass;
-@property(nonatomic) _Bool hasDataProtectionClass;
-@property(nonatomic) _Bool hasSessionScopedUniqueId; // @synthesize hasSessionScopedUniqueId=_hasSessionScopedUniqueId;
-@property(nonatomic) _Bool hasValueType; // @synthesize hasValueType=_hasValueType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *matches; // @synthesize matches=_matches;
 @property(retain, nonatomic) SISchemaUUID *sessionScopedUniqueId; // @synthesize sessionScopedUniqueId=_sessionScopedUniqueId;
-@property(retain, nonatomic) QDSchemaQDEntityType *valueType; // @synthesize valueType=_valueType;
 
 @end
 

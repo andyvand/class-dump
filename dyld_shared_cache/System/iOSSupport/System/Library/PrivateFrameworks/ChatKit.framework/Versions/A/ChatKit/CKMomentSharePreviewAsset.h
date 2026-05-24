@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PHMomentShare, UIImage;
+@class PHMomentShare, UIImage;
 
 __attribute__((visibility("hidden")))
 @interface CKMomentSharePreviewAsset
 {
     UIImage *_cachedImage;
-    PHMomentShare *_momentShare;
 }
 
-- (_Bool);
+- (_Bool);
 - (long long);
 - (id);
-- (Class);
-- (struct CGRect);
-- (struct CGRect);
+- (Class)a;
+- (struct CGRect)ail view when it is hidden;
+- (struct CGRect)n %@ for %@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (struct CGSize);
-- (id)82FAED4A25LoadingIndicatorCoverView;
+- (id)_TtC7ChatKitP33_BD78CF6CDE905E05AD6D455A82FAED4A25LoadingIndicatorCoverView;
 - (void)ÿ=.;
 - (double)ÿt7°Ë0;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isPreviewImageDataAvailable;
 @property(readonly, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;
-@property(readonly, nonatomic) UIImage *previewImage;
-@property(readonly, nonatomic) NSData *previewImageData;
 
 @end
 

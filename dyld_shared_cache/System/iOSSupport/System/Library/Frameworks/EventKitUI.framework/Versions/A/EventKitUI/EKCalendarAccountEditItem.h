@@ -6,36 +6,27 @@
 
 #import <EventKitUI/EKCalendarEditItem.h>
 
-@class EKSource, NSString;
+@class EKSource;
 @protocol EKCalendarAccountEditItemDelegate;
 
 @interface EKCalendarAccountEditItem : EKCalendarEditItem
 {
     EKSource *_limitedToSource;
-    _Bool _editable;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)(s;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)setLeftButton: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ollAnimating;
+- (void)isScrollAnimating;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EKCalendarAccountEditItemDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool editable; // @synthesize editable=_editable;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

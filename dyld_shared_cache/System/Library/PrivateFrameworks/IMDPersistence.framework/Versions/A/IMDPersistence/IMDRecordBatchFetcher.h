@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate;
-
 @interface IMDRecordBatchFetcher
 {
     id *_fastEnumerationBuffer;
-    unsigned long long _fastEnumerationBufferSize;
-    NSArray *_fastEnumerationLastBatch;
-    unsigned long long _batchSize;
-    NSPredicate *_predicate;
-    long long _lastRowID;
 }
 
 - (void);
@@ -21,18 +14,16 @@
 - (long long);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)!;
+- (id)onService"16@"NSArray"24@"NSDictionary"32;
+- (void)_iCloudCacheUpdatedNotificationToken;
 - (unsigned long long);
 - (void);
 - (void)Recoverable: /* Error: Ran out of types for this method. */;
 - (unsigned long long)hats for filter modes;
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
 @property(nonatomic) long long lastRowID; // @synthesize lastRowID=_lastRowID;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 
 @end
 

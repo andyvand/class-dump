@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSSubscription, MFEWSAccount, MFEWSAccountSyncActivity, MFEWSLocalActionSyncTask, NSString;
+@class MFEWSAccount;
 
 @interface MFEWSAccountTaskManager
 {
     MFEWSAccount *_account;
-    MFEWSAccountSyncActivity *_syncActivity;
-    EWSSubscription *_subscription;
-    MFEWSLocalActionSyncTask *_localActionSyncTask;
 }
 
 + (id)g_ABt;
@@ -22,45 +19,30 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)insertAdjacentHTML:html: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)ccount;
-- (void)´à!;
-
-// Remaining properties
 @property(readonly, nonatomic) __weak MFEWSAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *accountName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasActivity;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MFEWSLocalActionSyncTask *localActionSyncTask; // @synthesize localActionSyncTask=_localActionSyncTask;
-@property(retain, nonatomic) EWSSubscription *subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MFEWSAccountSyncActivity *syncActivity; // @synthesize syncActivity=_syncActivity;
+- (void)´à!;
 
 @end
 

@@ -17,7 +17,7 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id)ss;
+- (id)analogPress;
 - (unsigned long long)driver connection %@ to %@;
 
 // Remaining properties

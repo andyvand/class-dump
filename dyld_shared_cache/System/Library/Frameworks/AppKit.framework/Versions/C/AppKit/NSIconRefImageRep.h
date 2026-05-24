@@ -6,32 +6,27 @@
 
 #import <AppKit/NSImageRep.h>
 
-@class NSBitmapImageRep;
-
 __attribute__((visibility("hidden")))
 @interface NSIconRefImageRep : NSImageRep
 {
     struct OpaqueIconRef *_iconRef;
-    unsigned int _sizeIdentifier;
-    unsigned int _scaleIdentifier;
-    NSBitmapImageRep *_fallbackBitmap;
 }
 
-- (unsigned int);
+- (unsigned int);
 - (long long);
 - (long long);
-- (id);
-- (_Bool);
-- (struct CGImage *);
+- (id)tor>>>>="__tree_"{__tree<std:(struct OpaqueIconRef *)arg1:(unsigned int)arg2 __value_type<std:(unsigned int)arg3:string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (_Bool)setShouldUseExtendedBackgroundIdleMode: /* Error: Ran out of types for this method. */;
+- (struct CGImage *);
 - (unsigned int);
-- (id);
+- (id);
 - (struct CGImage *);
-- (struct OpaqueIconRef *);
-- (void);
+- (struct OpaqueIconRef *)2pl;
+- (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id)archBoundaryAfterOrIncluding:(struct _NSZone *)arg1 index:forward: /* Error: Ran out of types for this method. */;
+- (id)_nextSearchBoundaryAfterOrIncluding:(struct _NSZone *)arg1 index:forward: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)¤;
 - (_Bool)%d;

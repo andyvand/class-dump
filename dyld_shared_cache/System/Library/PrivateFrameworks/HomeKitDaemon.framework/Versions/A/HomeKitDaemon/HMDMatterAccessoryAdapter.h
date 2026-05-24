@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMFMessageDispatcher, MTRDevice, NSArray, NSDictionary, NSMutableArray, NSObject, NSSet, NSString, NSUUID;
-@protocol HMDMatterAccessoryProtocol, HMFAsyncContext, OS_dispatch_queue;
+@protocol HMFAsyncContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterAccessoryAdapter
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_rvcRooms;
-    NSArray *_rvcZones;
-    NSArray *_rvcMaps;
-    NSArray *_rvcAreas;
-    NSDictionary *_rvcCleaningPayload;
-    NSDictionary *_rvcServiceAreaFeatureMapByEndpoint;
-    NSMutableArray *_hmdMatterPaths;
-    NSArray *_mtrPaths;
-    MTRDevice *_matterDevice;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSDictionary *_bulletinBoardNotificationByEndpoint;
-    NSDictionary *_endpointToDeviceTypesMap;
-    HMDAccessory<HMDMatterAccessoryProtocol> *_accessory;
-    NSMutableArray *_pendingFetchPromises;
-    MTRDevice *_testMatterDevice;
-    double _retryFetchTimeout;
-    NSSet *_testAllKnownRootPublicKeys;
 }
 
 + (id);
-+ (id);
++ (id)deduplicateItems:(id)arg1 withDuration:(id)arg2 andSimilarity:(id)arg3 debugInfo: /* Error: Ran out of types for this method. */;
 + (id)~ªÿ;
 - (void);
 - (id);
@@ -54,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)reText;
 - (void);
 - (void);
 - (void);
@@ -69,15 +51,71 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void)@"IDSMessageContext"48;
+- (double)6@?<v@?@"<MSPHistoryEntryRoute>">24@?<v@?@"<MSPHistoryEntryPlaceDisplay>">32@?<v@?@"<MSPHistoryEntryTransitLineItem>">40;
+- (id)showParkedCarReplacementBulletinForEvent:(id)arg1 replacingEvent:(double)arg2;
+- (id)setMinimalStrategyIdentifiers:(id)arg1;
+- (void)setMessagesIdentifiers:(id)arg1;
+- (void)setComposedRouteFromState:(CDUnknownBlockType)arg1;
+- (id)intersectSet:(id)arg1;
+- (void)intermediateArrivalWaypointPostedNotifications;
+- (id)intermediateArrivalNotificationBody;
+- (void)initWithOptions:(id)arg1 capacity:(id)arg2;
+- (id)_startSharingWithContact:completion: /* Error: Ran out of types for this method. */;
+- (id)_origin;
+- (id)_nextStopsMuids;
+- (id)&,N,V_endWaypoint;
+- (id)EOSharedNavWaypointInfo",R,N;
+- (id)p7;
+- (id);
+- (id);
+- (_Bool)or pending handle %{private}@ as that session is over;
+- (_Bool)shareWithContactValue will not retry sharing for pending handle %{private}@ as that session is over;
+- (_Bool)ll wait for response.;
+- (_Bool)Only returned %lu certificate(s);
+- (void)ual to traffic color offsets count (%d). Attempting to continue anyway;
+- (void)te + latlng;
 - (void);
-- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)b;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -85,30 +123,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -116,54 +145,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)set local bitmap. Result = %d  Disconnect.;
 - (id);
 - (void);
 - (id);
@@ -175,49 +157,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)N,V_currentlyPairingAccessories;
 - (id)fully handled pending operation when primary resident updated %@;
-- (void)icRequestGroup;
+- (void)HMDLogEventMessageAnalyzerRxRapportMessagesCountPeriodicRequestGroup;
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak HMDAccessory<HMDMatterAccessoryProtocol> *accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic) NSArray *attributePaths;
-@property(retain) NSDictionary *bulletinBoardNotificationByEndpoint; // @synthesize bulletinBoardNotificationByEndpoint=_bulletinBoardNotificationByEndpoint;
-@property(readonly, nonatomic) NSArray *commandPaths;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSDictionary *endpointToDeviceTypesMap; // @synthesize endpointToDeviceTypesMap=_endpointToDeviceTypesMap;
-@property(readonly, nonatomic) NSArray *endpoints;
-@property(readonly, nonatomic) NSArray *eventPaths;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MTRDevice *matterDevice; // @synthesize matterDevice=_matterDevice;
-@property(readonly, nonatomic) NSArray *matterPaths;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) HMFMessageDispatcher *msgDispatcher;
-@property(readonly, nonatomic) NSArray *mtrAttributePaths;
-@property(readonly, nonatomic) NSArray *mtrCommandPaths;
-@property(readonly, nonatomic) NSArray *mtrEventPaths;
-@property(readonly, nonatomic) NSArray *mtrPaths;
-@property(retain, nonatomic) NSMutableArray *pendingFetchPromises; // @synthesize pendingFetchPromises=_pendingFetchPromises;
-@property(nonatomic) double retryFetchTimeout; // @synthesize retryFetchTimeout=_retryFetchTimeout;
-@property(readonly, nonatomic) NSArray *rvcAreas;
-@property(retain, nonatomic) NSDictionary *rvcCleaningPayload;
-@property(readonly, nonatomic) NSArray *rvcMaps;
-@property(readonly, nonatomic) NSArray *rvcRooms;
-@property(readonly, nonatomic) NSDictionary *rvcServiceAreaFeatureMapByEndpoint;
-@property(readonly, nonatomic) NSArray *rvcZones;
-@property(readonly) Class superclass;
-@property(retain) NSSet *testAllKnownRootPublicKeys; // @synthesize testAllKnownRootPublicKeys=_testAllKnownRootPublicKeys;
-@property(retain, nonatomic) MTRDevice *testMatterDevice; // @synthesize testMatterDevice=_testMatterDevice;
-@property(readonly, nonatomic) _Bool useMatterPlugin;
 @property(readonly, nonatomic) id <HMFAsyncContext> workContext;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

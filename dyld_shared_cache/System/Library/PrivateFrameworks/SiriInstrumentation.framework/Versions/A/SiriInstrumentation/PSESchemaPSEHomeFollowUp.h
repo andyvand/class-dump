@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PSESchemaPSEHomeFollowUp : SISchemaInstrumentationMessage
 {
     int _followUpType;
-    int _followUpSource;
-    NSString *_followUpAccessoryType;
-    _Bool _isFollowUpInSameContainerAsSiriRequest;
-    unsigned int _followUpDayOfWeek;
-    unsigned int _followUpHourOfDay;
-    unsigned int _followUpDurationSinceSiriRequestInSeconds;
-    struct {
-        unsigned int followUpType:1;
-        unsigned int followUpSource:1;
-        unsigned int isFollowUpInSameContainerAsSiriRequest:1;
-        unsigned int followUpDayOfWeek:1;
-        unsigned int followUpHourOfDay:1;
-        unsigned int followUpDurationSinceSiriRequestInSeconds:1;
-    } _has;
-    _Bool _hasFollowUpAccessoryType;
 }
 
 - (void);
@@ -51,7 +34,7 @@
 - (int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)pn;
 - (id);
 - (void);
 - (void);
@@ -65,31 +48,17 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)aryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:52 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)atch #%ld...;
 - (id);
 - (id);
-- (id)sionReason;
+- (id)_suppressionReason;
 - (id)patibilityVersion;
-- (void)E_FOR_EXECUTION_STARTED;
+- (void)FLOWSTATETYPE_PREPARE_FOR_EXECUTION_STARTED;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *followUpAccessoryType; // @synthesize followUpAccessoryType=_followUpAccessoryType;
-@property(nonatomic) unsigned int followUpDayOfWeek; // @synthesize followUpDayOfWeek=_followUpDayOfWeek;
-@property(nonatomic) unsigned int followUpDurationSinceSiriRequestInSeconds; // @synthesize followUpDurationSinceSiriRequestInSeconds=_followUpDurationSinceSiriRequestInSeconds;
-@property(nonatomic) unsigned int followUpHourOfDay; // @synthesize followUpHourOfDay=_followUpHourOfDay;
-@property(nonatomic) int followUpSource; // @synthesize followUpSource=_followUpSource;
 @property(nonatomic) int followUpType; // @synthesize followUpType=_followUpType;
-@property(nonatomic) _Bool hasFollowUpAccessoryType; // @synthesize hasFollowUpAccessoryType=_hasFollowUpAccessoryType;
-@property(nonatomic) _Bool hasFollowUpDayOfWeek;
-@property(nonatomic) _Bool hasFollowUpDurationSinceSiriRequestInSeconds;
-@property(nonatomic) _Bool hasFollowUpHourOfDay;
-@property(nonatomic) _Bool hasFollowUpSource;
-@property(nonatomic) _Bool hasFollowUpType;
-@property(nonatomic) _Bool hasIsFollowUpInSameContainerAsSiriRequest;
-@property(nonatomic) _Bool isFollowUpInSameContainerAsSiriRequest; // @synthesize isFollowUpInSameContainerAsSiriRequest=_isFollowUpInSameContainerAsSiriRequest;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

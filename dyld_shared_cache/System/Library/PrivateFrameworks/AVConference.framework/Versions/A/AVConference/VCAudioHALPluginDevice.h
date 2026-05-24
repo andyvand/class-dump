@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, VCAudioHALPluginMockAudioInject, VCAudioHALPluginStream;
-@protocol OS_dispatch_queue;
+@class VCAudioHALPluginStream;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioHALPluginDevice
 {
     VCAudioHALPluginStream *_outputStream;
-    _Bool _isRunning;
-    NSObject<OS_dispatch_queue> *_timeQueue;
-    struct VCAudioHALPluginTimestamp _timestamp;
-    unsigned long long _currentSeed;
-    double _clockFrequency;
-    unsigned int _samplesPerFrame;
-    CDUnknownBlockType _zeroTimestampBlock;
-    CDUnknownBlockType _willDoReadInputBlock;
-    CDUnknownBlockType _willDoWriteMixBlock;
-    VCAudioHALPluginMockAudioInject *_mockAudioInject;
 }
 
 + (id);
@@ -39,19 +28,13 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (int)ply local quality with bitrate=%u quality=%d error=%d errorFourCC=%s;
 - (id)nference(AudioProcessing) updateSpeaking:(struct tagVCAudioHALPluginConfiguration *)arg1 timeStamp:] /* Error: Ran out of types for this method. */;
-- (void)atus;
-- (_Bool);
+- (void)VCConnectionManager_UpdateNetworkOutageStatus;
+- (_Bool)MPRL;
 - (int);
 - (CDUnknownBlockType)éo';
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

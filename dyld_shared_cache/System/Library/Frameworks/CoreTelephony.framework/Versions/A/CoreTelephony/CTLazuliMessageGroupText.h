@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliCustomMetaData, CTLazuliGroupChatInformation, NSString;
+@class CTLazuliGroupChatInformation;
 
 @interface CTLazuliMessageGroupText
 {
     CTLazuliGroupChatInformation *_chatInformation;
-    NSString *_content;
-    CTLazuliCustomMetaData *_metaData;
 }
 
-+ (_Bool);
++ (_Bool)videoRendition:%@ audioRendition:%@ subtitleRendition:%@ loadedTimeRanges:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -21,9 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (_Bool);
-- (void);
+- (void)_authenticationContext;
 - (id);
 - (void);
 - (id);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CTLazuliGroupChatInformation *chatInformation; // @synthesize chatInformation=_chatInformation;
-@property(retain, nonatomic) NSString *content; // @synthesize content=_content;
-@property(retain, nonatomic) CTLazuliCustomMetaData *metaData; // @synthesize metaData=_metaData;
 
 @end
 

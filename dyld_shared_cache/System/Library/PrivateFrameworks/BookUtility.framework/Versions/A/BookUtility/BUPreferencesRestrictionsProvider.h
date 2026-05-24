@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface BUPreferencesRestrictionsProvider
 {
     struct os_unfair_lock_s _observersLock;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    _Bool _isBookStoreAllowed;
-    _Bool _isExplicitContentAllowed;
-    _Bool _isAccountModificationAllowed;
-    NSHashTable *_observers;
 }
 
 - (void);
@@ -29,27 +21,17 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ceTrigger;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAccountModificationAllowed; // @synthesize isAccountModificationAllowed=_isAccountModificationAllowed;
 @property(nonatomic) _Bool isBookStoreAllowed; // @synthesize isBookStoreAllowed=_isBookStoreAllowed;
-@property(nonatomic) _Bool isExplicitContentAllowed; // @synthesize isExplicitContentAllowed=_isExplicitContentAllowed;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
 
 @end
 

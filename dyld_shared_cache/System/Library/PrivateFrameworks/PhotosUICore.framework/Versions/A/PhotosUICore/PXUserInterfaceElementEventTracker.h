@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PXUpdater;
-
 @interface PXUserInterfaceElementEventTracker
 {
     _Bool _isVisible;
-    _Bool _hasAppeared;
-    _Bool _isAppActive;
-    NSMutableDictionary *_payload;
-    PXUpdater *_updater;
 }
 
 - (double);
@@ -22,17 +16,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)relativeLineHeight;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)4˟;
 - (void)hFetchLimit(PHPhotoLibrary *__strong _Nonnull, NSUInteger, NSUInteger);
 - (void);
 - (_Bool)·»;
@@ -40,12 +34,7 @@
 - (id)LemonadePeopleCellSpecsConstants;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTimestamp;
 @property(nonatomic) _Bool hasAppeared; // @synthesize hasAppeared=_hasAppeared;
-@property(nonatomic) _Bool isAppActive; // @synthesize isAppActive=_isAppActive;
-@property(readonly, nonatomic) _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(copy, nonatomic) NSMutableDictionary *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end
 

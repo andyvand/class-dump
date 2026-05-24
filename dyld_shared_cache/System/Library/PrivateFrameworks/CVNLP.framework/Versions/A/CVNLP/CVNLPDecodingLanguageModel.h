@@ -11,13 +11,10 @@
 @interface CVNLPDecodingLanguageModel : CVNLPInformationStream
 {
     int _lmSPIType;
-    void *_tokenizer;
-    NSLocale *_locale;
-    void *_languageModel;
 }
 
 + (id);
-+ (id);
++ (id)('/;
 + (id);
 + (unsigned int);
 + (id);
@@ -27,18 +24,17 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)';
 - (id);
+- (vector_9c509c4c)';
 - (id);
-- (id);
-- (vector_9c509c4c);
-- (id);
-- (void);
+- (void)i;
 - (void *);
-- (id);
-- (void);
+- (id);
+- (void)C;
 
 // Remaining properties
-@property(readonly, nonatomic) void *languageModel; // @synthesize languageModel=_languageModel;
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 
 @end

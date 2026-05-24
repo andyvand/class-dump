@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKAction, NSData;
+@class FLOWLINKSchemaFLOWLINKAction;
 
 @interface FLOWLINKSchemaFLOWLINKActionConversionEnded : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKAction *_action;
-    _Bool _hasAction;
 }
 
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)updateNavigationManeuverInfo:(id)arg1 forAccessory:withComponent: /* Error: Ran out of types for this method. */;
+- (id)allSystemCodes;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"NLXSchemaCDMUserAccepted";
-- (void)jectBeforeActivationTimeDiffInNs;
+- (void)_checkerJSRejectBeforeActivationTimeDiffInNs;
 - (id)SUGSchemaSUGRequestEnded;
 - (id)¬ZX[Ü[d^;
 - (id)Ü¤ P!Ô!l#;
-- (void)iaSignal;
+- (void)mediaSignal;
 - (void)úêÿ¾´2%;
 
 // Remaining properties
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKAction *action; // @synthesize action=_action;
-@property(nonatomic) _Bool hasAction; // @synthesize hasAction=_hasAction;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

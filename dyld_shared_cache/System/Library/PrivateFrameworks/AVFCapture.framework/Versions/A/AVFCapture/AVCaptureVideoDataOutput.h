@@ -6,8 +6,8 @@
 
 #import <AVFCapture/AVCaptureOutput.h>
 
-@class AVCaptureVideoDataOutputInternal, NSArray, NSDictionary, NSObject, NSString;
-@protocol AVCaptureVideoDataOutputSampleBufferDelegate, OS_dispatch_queue;
+@class AVCaptureVideoDataOutputInternal;
+@protocol AVCaptureVideoDataOutputSampleBufferDelegate;
 
 @interface AVCaptureVideoDataOutput : AVCaptureOutput
 {
@@ -16,103 +16,83 @@
 
 + (id);
 + (void)âuýÝÐ?czÂ(Ï¿;
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (struct CGSize);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)isRoot;
+- (_Bool)isConcurrent;
+- (void)initWithTimeout:(id)arg1 interruptionHandler: /* Error: Ran out of types for this method. */;
+- (id)initWithContentsOfFile: /* Error: Ran out of types for this method. */;
+- (id)initWithBlock: /* Error: Ran out of types for this method. */;
+- (void)executablePath;
+- (void)exceptionWithName:(_Bool)arg1 reason:userInfo: /* Error: Ran out of types for this method. */;
+- (void)exceptionWithName:(id)arg1 reason:userInfo: /* Error: Ran out of types for this method. */;
+- (void)defaultColors;
+- (void)decodedObjectOfClasses:(id)arg1 fromPackage:error: /* Error: Ran out of types for this method. */;
+- (void)dataWithBytesNoCopy:(_Bool)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
+- (void)columnNameAtIndex:(CDStruct_1b6d18a9)arg1;
+- (void)addSandboxExtensionIfNeededForURL:(_Bool)arg1;
+- (void)_stopped;
+- (void)_secondaryTextColorHex;
+- (void)_runLoop;
+- (id)_parentTextElement;
+- (id)_parentLine;
+- (unsigned int)_maximumBufferSize;
+- (id)_lyricsLineKey;
+- (id)_gradientColorEndPosition;
+- (id)_formatString:(id)arg1 withWidth:(id)arg2 alignment: /* Error: Ran out of types for this method. */;
+- (id)_firstCallback;
+- (id)_encodeNumber:(id)arg1 forKey:(id)arg2;
+- (int)_encodeData: /* Error: Ran out of types for this method. */;
+- (_Bool)_checkEntitlement:inGroup:shouldLogForMissingEntitlement: /* Error: Ran out of types for this method. */;
+- (_Bool)_cancellationHandler;
+- (struct CGSize)ize;
+- (id)totalForOutcomeA;
+- (_Bool)setInputStream: /* Error: Ran out of types for this method. */;
+- (_Bool)setEntitlement: /* Error: Ran out of types for this method. */;
+- (_Bool)setDismissOverlaysOnLockscreen: /* Error: Ran out of types for this method. */;
+- (_Bool)setDatabaseURL: /* Error: Ran out of types for this method. */;
+- (_Bool)&,N,V_subcoders;
+- (_Bool)bleArray",R,N,V_allowedClassesStack;
+- (_Bool)MSVTaskCapturingCompletion;
 - (id);
 - (id);
 - (_Bool);
+- (id)atus codes to server.;
+- (id)ection] <%p> Should not be sending status codes to server.;
+- (id)No header found on output message.;
+- (_Bool)tion] <%p> Could not parse error message.;
+- (_Bool)Participant ID:(id)arg1 %{public}@;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)@;
+- (_Bool)<%p> Connection in state %{public}@ cannot send message:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)lly indicates that the process is not properly code-signed. This is a client-issue. Check the crash report for the process. PID:(id)arg1 %lld.;
+- (void)matched element names! start:(id)arg1 %@, end:(id)arg2 %@;
+- (void)inside <iTunesMetadata>;
+- (void)ate failed. ret=%d. in_len = %lu, _zstreamp->avail_out=%lu;
+- (void)bg;
+- (_Bool)name:%@, identifier:%@, artistID:%@ /* Error: Ran out of types for this method. */;
+- (id)writeSystemColorID: /* Error: Ran out of types for this method. */;
+- (void)h_queue>";
 - (CDStruct_1b6d18a9);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Fig;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)ackgroundBlur;
-- (void)redStyleBackgroundBlur;
-- (id)fferWasDropped: /* Error: Ran out of types for this method. */;
-- (void)faceDrivenAEAFMode;
-- (void)a_Tundra;
+- (id)videoFrameRateRangeForBackgroundBlur;
+- (void)_isSharedStyleBackgroundBlur;
+- (id)_initWithSampleBuffer:sampleBufferWasDropped: /* Error: Ran out of types for this method. */;
+- (void)_faceDrivenAEAFMode;
+- (void)AVCaptureSynchronizedMetadataObjectData_Tundra;
 - (void)EnabledChanging:(id)arg1 YES;
 - (void)o the selector captureOutput:(id)arg1 didFinishProcessingPhoto:error:if you set cameraCalibrationDataDeliveryEnabled to YES /* Error: Ran out of types for this method. */;
-- (_Bool)tchingBehaviorForRecording;
+- (_Bool)primaryConstituentDeviceSwitchingBehaviorForRecording;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysDiscardsLateVideoFrames;
-@property(nonatomic) _Bool automaticallyConfiguresOutputBufferDimensions;
-@property(readonly, nonatomic) NSArray *availableVideoCVPixelFormatTypes;
-@property(readonly, nonatomic) NSArray *availableVideoCodecTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id delegateOverride;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateOverrideCallbackQueue;
-@property(nonatomic) _Bool deliversPreviewSizedOutputBuffers;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) CDStruct_1b6d18a9 minFrameDuration;
-@property _Bool preparesCellularRadioForNetworkConnection;
-@property _Bool preservesDynamicHDRMetadata;
-@property(readonly, nonatomic) int recommendedMediaTimeScaleForAssetWriter;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sampleBufferCallbackQueue;
 @property(readonly, nonatomic) id <AVCaptureVideoDataOutputSampleBufferDelegate> sampleBufferDelegate;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *videoSettings;
 
 @end
 

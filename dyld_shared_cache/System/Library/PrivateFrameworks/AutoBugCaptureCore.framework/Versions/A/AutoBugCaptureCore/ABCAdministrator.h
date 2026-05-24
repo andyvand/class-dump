@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCConfigurationManager, ABCPersistentStoreController, AutoBugCaptureCacheDelete, CloudKitUploadController, DiagCollectionTransport, DiagnosticCaseManager, DiagnosticExtensionController, DiagnosticLiaison, DiagnosticStorageManager, DiagnosticsTransport, KernelMsgSignalHandlerSDXC, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CloudKitUploadController;
 
 @interface ABCAdministrator
 {
     CloudKitUploadController *_uploadController;
-    NSObject<OS_dispatch_queue> *adminQueue;
-    DiagCollectionTransport *diagCollectionTransport;
-    DiagnosticsTransport *diagTransport;
-    _Bool _autoBugCaptureAdministrativelyEnabled;
-    KernelMsgSignalHandlerSDXC *kernelHandler;
-    int _autoBugCaptureState;
-    DiagnosticExtensionController *_diagExtensionController;
-    AutoBugCaptureCacheDelete *_cacheDeleteHandler;
-    DiagnosticCaseManager *_caseManager;
-    DiagnosticStorageManager *_storageManager;
-    ABCPersistentStoreController *_storeController;
-    ABCConfigurationManager *_configurationManager;
-    DiagnosticLiaison *_diagnosticLiaison;
 }
 
 + (id);
@@ -32,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)˿;
 - (int);
 - (void);
 - (void);
@@ -41,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)gk;
 - (void);
 - (id);
 - (void);
@@ -49,25 +35,25 @@
 - (id);
 - (id);
 - (void);
+- (void)CPKScrollEnclosureView;
+- (id)`;
+- (void)kSUCoreErrorPersistedStateLoadFailed;
 - (void);
+- (void)RollbackLoadBrain:PreflightFailed /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)updateCurrentRouteInfo:rerouteReason: /* Error: Ran out of types for this method. */;
+- (void)setIncludeRoutingPathLeg:(id)arg1;
+- (id)courseDelta;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ocsp/ocsp_ht.c;
 - (_Bool);
 - (void);
-- (void);
+- (void)callEditCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -76,21 +62,6 @@
 
 // Remaining properties
 @property(nonatomic) int autoBugCaptureState; // @synthesize autoBugCaptureState=_autoBugCaptureState;
-@property(retain, nonatomic) AutoBugCaptureCacheDelete *cacheDeleteHandler; // @synthesize cacheDeleteHandler=_cacheDeleteHandler;
-@property(retain, nonatomic) DiagnosticCaseManager *caseManager; // @synthesize caseManager=_caseManager;
-@property(retain, nonatomic) CloudKitUploadController *ckUploadController; // @synthesize ckUploadController=_uploadController;
-@property(retain, nonatomic) ABCConfigurationManager *configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) DiagnosticExtensionController *diagExtensionController; // @synthesize diagExtensionController=_diagExtensionController;
-@property(retain, nonatomic) DiagnosticLiaison *diagnosticLiaison; // @synthesize diagnosticLiaison=_diagnosticLiaison;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) DiagnosticStorageManager *storageManager; // @synthesize storageManager=_storageManager;
-@property(retain, nonatomic) ABCPersistentStoreController *storeController; // @synthesize storeController=_storeController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _HMAccessoryCollectionSettingItemClassManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_classes;
 }
 
 + (id);

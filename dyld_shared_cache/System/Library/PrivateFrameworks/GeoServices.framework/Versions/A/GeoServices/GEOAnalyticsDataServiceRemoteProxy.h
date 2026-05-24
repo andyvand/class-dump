@@ -8,7 +8,7 @@
 {
 }
 
-- (int);
+- (int)setFormatWidth:(id)arg1;
 
 @end
 

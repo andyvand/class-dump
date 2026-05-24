@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
+- (id)sendNotificationMessageIfNeededForIncomingMessageFromChatIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool)0@ù
 × ;

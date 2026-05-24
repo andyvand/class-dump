@@ -9,16 +9,15 @@
 @interface VNCircle
 {
     VNPoint *_center;
-    double _radius;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)B9;
 - (_Bool);
-- (id);
+- (id)_itemIdentifierByAppBundleID;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,14 +25,12 @@
 - (_Bool);
 - (void);
 - (id);
+- (double)W;
 - (double);
-- (double);
-- (void)core;
+- (void)pleasantPatternScore;
 
 // Remaining properties
 @property(readonly) VNPoint *center; // @synthesize center=_center;
-@property(readonly) double diameter;
-@property(readonly) double radius; // @synthesize radius=_radius;
 
 @end
 

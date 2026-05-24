@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     long long _lastReturnedNumberOfRows;
 }
 
-+ (_Bool);
++ (_Bool)2ve;
+- (_Bool)iv;
 - (_Bool);
+- (_Bool)geDB:_openDBReadConnections:failed to open read connection to DB @ %s.  Error=%d. Cause=%s /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)%;
+- (id)_buffer.cc;
 - (long long)d}âQhäÛ;
 
 @end

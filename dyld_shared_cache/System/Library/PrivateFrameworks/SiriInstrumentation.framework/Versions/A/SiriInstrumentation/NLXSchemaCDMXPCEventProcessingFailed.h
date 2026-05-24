@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMXPCEventProcessingFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    unsigned int _errorCode;
-    CDStruct_73fa2281 _has;
 }
 
 - (void);
@@ -22,10 +18,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)e.relativename;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id)1Â0@ù
@@ -37,10 +33,6 @@
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

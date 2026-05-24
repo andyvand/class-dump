@@ -9,17 +9,15 @@
 @interface AVTimeRangeMarkUIProxy
 {
     float _cornerRadius;
-    NSColor *_backgroundColor;
 }
 
 + (id);
 - (id);
-- (float);
+- (float)numberWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) float cornerRadius; // @synthesize cornerRadius=_cornerRadius;
 
 @end
 

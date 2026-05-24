@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, BlastDoorNicknameInformation, BlastDoorTextMessageMessageTypeWrapper, BlastDoorTextMessage_MessageSummaryInfo, NSArray, NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface BlastDoorTextMessage
 {
@@ -24,12 +24,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,62 +37,24 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long)24@32@40@48@56@64;
+- (id)=dd}{CGSize=dd}}16c48;
+- (id)dexPath"24;
+- (id)"16;
+- (_Bool)ntentView";
+- (_Bool):8@"CKFullscreenEffectMessageFilter"16 /* Error: Ran out of types for this method. */;
+- (_Bool)<CKMessageEditingViewControllerInteractionDelegate>";
+- (id)B>40;
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (id)Ìýÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *availabilityOffGridRecipientEncryptionValidationToken;
-@property(nonatomic, readonly) NSString *availabilityOffGridRecipientSubscriptionValidationToken;
-@property(nonatomic, readonly) NSString *availabilityVerificationRecipientChannelIDPrefix;
-@property(nonatomic, readonly) NSString *availabilityVerificationRecipientEncryptionValidationToken;
-@property(nonatomic, readonly) NSString *biaReferenceID;
-@property(nonatomic, readonly) NSString *currentGroupName;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *expressiveSendStyleIdentifier;
-@property(nonatomic, readonly) NSString *groupID;
-@property(nonatomic, readonly) unsigned long long groupParticipantVersion;
-@property(nonatomic, readonly) unsigned long long groupPhotoCreationTime;
-@property(nonatomic, readonly) unsigned long long groupProtocolVersion;
-@property(nonatomic, readonly) _Bool has_groupParticipantVersion;
-@property(nonatomic, readonly) _Bool has_groupPhotoCreationTime;
-@property(nonatomic, readonly) _Bool has_groupProtocolVersion;
-@property(nonatomic, readonly) _Bool has_isBIAMessage;
-@property(nonatomic, readonly) _Bool has_replicationSourceID;
-@property(nonatomic, readonly) _Bool has_seenAsOffGrid;
-@property(nonatomic, readonly) _Bool has_transcriptBackgroundVersion;
-@property(nonatomic, readonly) _Bool isAutoReply;
-@property(nonatomic, readonly) _Bool isBIAMessage;
-@property(nonatomic, readonly) _Bool isCritical;
-@property(nonatomic, readonly) _Bool isExpirable;
-@property(nonatomic, readonly) _Bool isSOS;
-@property(nonatomic, readonly) NSString *lastPublisherOfOffGridStatus;
-@property(nonatomic, readonly) BlastDoorTextMessageMessageTypeWrapper *messageSubType;
-@property(nonatomic, readonly) BlastDoorTextMessage_MessageSummaryInfo *messageSummaryInfo;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) BlastDoorNicknameInformation *nicknameInformation;
-@property(nonatomic, readonly) NSArray *replicatedFallbackGUIDs;
-@property(nonatomic, readonly) long long replicationSourceID;
-@property(nonatomic, readonly) NSUUID *replyToGUID;
-@property(nonatomic, readonly) long long scheduleType;
-@property(nonatomic, readonly) NSDate *scheduledDate;
-@property(nonatomic, readonly) _Bool seenAsOffGrid;
-@property(nonatomic, readonly) NSString *threadIdentifierGUID;
-@property(nonatomic, readonly) NSString *threadOriginatorFallbackHash;
-@property(nonatomic, readonly) unsigned long long transcriptBackgroundVersion;
-@property(nonatomic, readonly) NSString *truncatedNicknameRecordKey;
 
 @end
 

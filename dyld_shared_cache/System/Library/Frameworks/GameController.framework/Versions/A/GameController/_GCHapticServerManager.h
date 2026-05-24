@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSApplicationStateMonitor, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface _GCHapticServerManager
 {
     unsigned long long _nextClientID;
-    unsigned long long _tickCount;
-    float _tickLengthSeconds;
-    _Bool _running;
-    _Bool _idle;
-    unsigned long long _channelID;
-    NSObject<OS_dispatch_queue> *queue;
-    NSMutableDictionary *_logicalHapticDevices;
-    NSMutableDictionary *_clientInvalidationHandlers;
-    NSMutableDictionary *_hapticPlayers;
-    BKSApplicationStateMonitor *_appMonitor;
-    _Bool _activeEvents;
-    NSMutableDictionary *_clients;
-    NSObject<OS_dispatch_queue> *_runloopQueue;
 }
 
-+ (id);
++ (id)C;
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)1;
 - (_Bool);
 - (void);
 - (void);
@@ -52,9 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool activeEvents; // @synthesize activeEvents=_activeEvents;
 @property(retain, nonatomic) NSMutableDictionary *clients; // @synthesize clients=_clients;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *runloopQueue; // @synthesize runloopQueue=_runloopQueue;
 
 @end
 

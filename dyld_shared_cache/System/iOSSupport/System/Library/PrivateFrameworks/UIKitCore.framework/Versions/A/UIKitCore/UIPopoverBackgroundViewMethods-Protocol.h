@@ -5,6 +5,7 @@
 //
 
 @protocol UIPopoverBackgroundViewMethods
++ (struct UIEdgeInsets);
 + (double)horizontal constraints;
 @end
 

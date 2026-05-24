@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface IKTintCorrection
 {
     CIImage *inputImage;
-    NSNumber *inputPower;
 }
 
 + (void);
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)"RFMapMarkerImage"16;
 - (id);
 
 @end

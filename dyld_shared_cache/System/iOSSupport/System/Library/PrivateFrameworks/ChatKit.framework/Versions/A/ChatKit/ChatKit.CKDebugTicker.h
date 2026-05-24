@@ -7,15 +7,9 @@
 @interface ChatKit.CKDebugTicker
 {
     id window;
-    id parentWindow;
-    id _tickCounter;
-    id displayLink;
-    id logFrequency;
-    id lastLogTimestamp;
-    id capturedDidChangeObserver;
 }
 
-+ (id);
++ (id)l;
 - (unsigned long long);
 - (void);
 - (void);

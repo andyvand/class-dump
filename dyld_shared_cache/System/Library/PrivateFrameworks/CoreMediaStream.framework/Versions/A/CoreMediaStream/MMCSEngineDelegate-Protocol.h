@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MMCSEngine;
+@protocol MMCSAsset;
+
 @protocol MMCSEngineDelegate
+- (void)rikit.DeviceState.isDisplayDriven;
+
+@optional
+- (id <MMCSAsset>)d out:(MMCSEngine *)arg1 %@;
+- (_Bool)il;
+- (void)t snapshot is still valid, sending it with payload %@;
+- (void)alized, skipping controller side checks to disallow snapshot requests;
 @end
 

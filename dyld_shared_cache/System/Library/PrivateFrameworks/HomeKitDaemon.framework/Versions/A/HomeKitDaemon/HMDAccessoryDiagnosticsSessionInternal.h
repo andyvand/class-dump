@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryDiagnosticsSessionInternal
 {
     HMDAccessory *_accessory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_filePath;
-    unsigned long long _maxBytes;
-    unsigned long long _bytesWritten;
 }
 
 + (id)e
 ¼C;
 - (void);
 - (void);
-- (id);
+- (id)nodesRelatedToNodes:(id)arg1 withRelation: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)_redactionReasons;
 - (void);
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)tHandle:(unsigned long long)arg1 home:pairingIdentity:privilege:dataSource: /* Error: Ran out of types for this method. */;
+- (void)initWithAccountHandle:(unsigned long long)arg1 home:pairingIdentity:privilege:dataSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)inform presence status to resident:[%@], with :auth:%{public}@, region:%{public}@, reason:%{public}@, UUID:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
@@ -37,17 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(nonatomic) unsigned long long bytesWritten; // @synthesize bytesWritten=_bytesWritten;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *filePath; // @synthesize filePath=_filePath;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maxBytes; // @synthesize maxBytes=_maxBytes;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -9,14 +9,11 @@
 @interface CNUserSetupPictureData
 {
     NSData *_imageData;
-    NSData *_thumbnailImageData;
-    NSData *_memojiMetadata;
-    struct CGRect _cropRect;
 }
 
 + (id);
 + (_Bool);
-+ (id);
++ (id)B;
 - (id);
 - (void);
 - (void);
@@ -30,13 +27,10 @@
 - (id);
 - (void)!Bù*1Â0@ù
 × ;
-- (struct CGRect)NChangeHistoryLegacyResultConverter;
+- (struct CGRect)CNChangeHistoryLegacyResultConverter;
 
 // Remaining properties
-@property(nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
 @property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) NSData *memojiMetadata; // @synthesize memojiMetadata=_memojiMetadata;
-@property(retain, nonatomic) NSData *thumbnailImageData; // @synthesize thumbnailImageData=_thumbnailImageData;
 
 @end
 

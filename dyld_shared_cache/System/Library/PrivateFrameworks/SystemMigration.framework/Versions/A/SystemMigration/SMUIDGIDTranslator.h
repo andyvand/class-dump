@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableIndexSet, NSObject, SMMigrationRequest;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface SMUIDGIDTranslator
 {
     unsigned int _managedUserUID;
-    unsigned int _managedUserGID;
-    SMMigrationRequest *_migrationRequest;
-    NSMutableIndexSet *_existingUIDs;
-    NSArray *_overwriteUsernames;
-    NSMutableDictionary *_uidTranslationTable;
-    NSMutableDictionary *_gidTranslationTable;
-    NSObject<OS_dispatch_queue> *_tableAccessQueue;
-    NSMutableIndexSet *_existingGIDs;
 }
 
 + (_Bool);
@@ -27,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,18 +39,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)splitView:(id)arg1 effectiveRect:forDrawnRect:ofDividerAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableIndexSet *existingGIDs; // @synthesize existingGIDs=_existingGIDs;
-@property(retain) NSMutableIndexSet *existingUIDs; // @synthesize existingUIDs=_existingUIDs;
-@property(retain) NSMutableDictionary *gidTranslationTable; // @synthesize gidTranslationTable=_gidTranslationTable;
-@property unsigned int managedUserGID; // @synthesize managedUserGID=_managedUserGID;
-@property unsigned int managedUserUID; // @synthesize managedUserUID=_managedUserUID;
-@property(retain) SMMigrationRequest *migrationRequest; // @synthesize migrationRequest=_migrationRequest;
-@property(retain) NSArray *overwriteUsernames; // @synthesize overwriteUsernames=_overwriteUsernames;
-@property(retain) NSObject<OS_dispatch_queue> *tableAccessQueue; // @synthesize tableAccessQueue=_tableAccessQueue;
 @property(retain) NSMutableDictionary *uidTranslationTable; // @synthesize uidTranslationTable=_uidTranslationTable;
 
 @end

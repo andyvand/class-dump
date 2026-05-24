@@ -4,48 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSMutableAttributedString, NSString;
+@class NSLocale, NSMutableAttributedString;
 
 @interface AXMSemanticText
 {
     NSMutableAttributedString *_text;
-    NSString *_transformedSpeechText;
-    NSLocale *_locale;
-    long long _tokenizedLength;
 }
 
+- (id);
+- (void)t;
+- (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)\|;
+- (id),z[|;
+- (void);
+- (void)[|;
+- (void)\|;
+- (void)o8\|;
 - (void);
 - (void);
+- (void)|;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)[|;
+- (void);
+- (void);
 - (long long);
-- (void);
+- (void)edentialsDataSet";
 - (struct _NSRange);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSemanticallyComplete;
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSString *preprocessedText;
-@property(nonatomic) long long tokenizedLength; // @synthesize tokenizedLength=_tokenizedLength;
-@property(retain, nonatomic) NSString *transformedSpeechText; // @synthesize transformedSpeechText=_transformedSpeechText;
 
 @end
 

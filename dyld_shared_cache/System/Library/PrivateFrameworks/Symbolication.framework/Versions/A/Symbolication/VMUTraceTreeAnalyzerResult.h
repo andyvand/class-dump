@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VMUCallTreeNode;
+@class VMUCallTreeNode;
 
 @interface VMUTraceTreeAnalyzerResult
 {
     unsigned int _rootsCount;
-    VMUCallTreeNode *_traceTreeRoot;
-    NSString *_traceListString;
-    NSString *_traceNodeDescription;
 }
 
 - (id);
@@ -22,12 +19,9 @@
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void)_unlockWithSuccessMainCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int rootsCount; // @synthesize rootsCount=_rootsCount;
-@property(retain, nonatomic) NSString *traceListString; // @synthesize traceListString=_traceListString;
-@property(retain, nonatomic) NSString *traceNodeDescription; // @synthesize traceNodeDescription=_traceNodeDescription;
 @property(retain, nonatomic) VMUCallTreeNode *traceTreeRoot; // @synthesize traceTreeRoot=_traceTreeRoot;
 
 @end

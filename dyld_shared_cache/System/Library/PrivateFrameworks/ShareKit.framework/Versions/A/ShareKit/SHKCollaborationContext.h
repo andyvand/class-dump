@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFCollaborationCloudSharingResult, SHKCollaborationService;
-@protocol SFCollaborationItem;
-
 __attribute__((visibility("hidden")))
 @interface SHKCollaborationContext
 {
     _Bool _isCollaborationMode;
-    id <SFCollaborationItem> _collaborationItem;
-    SFCollaborationCloudSharingResult *_cloudSharingResult;
-    SHKCollaborationService *_collaborationService;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SFCollaborationCloudSharingResult *cloudSharingResult; // @synthesize cloudSharingResult=_cloudSharingResult;
-@property(readonly, nonatomic) id <SFCollaborationItem> collaborationItem; // @synthesize collaborationItem=_collaborationItem;
-@property(readonly, nonatomic) SHKCollaborationService *collaborationService; // @synthesize collaborationService=_collaborationService;
 @property(readonly, nonatomic) _Bool isCollaborationMode; // @synthesize isCollaborationMode=_isCollaborationMode;
 
 @end

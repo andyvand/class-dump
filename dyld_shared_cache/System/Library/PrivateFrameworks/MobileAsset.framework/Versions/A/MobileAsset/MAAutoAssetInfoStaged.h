@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface MAAutoAssetInfoStaged
 {
     long long _totalStagedBytes;
-    unsigned long long _assetsSuccessfullyStaged;
-    NSDictionary *_byGroupTotalStagedBytes;
-    NSDictionary *_byGroupAssetsSuccessfullyStaged;
 }
 
 + (_Bool);
@@ -24,15 +19,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)Queue:(id)arg1 delegate:delegateQueue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)X3;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long assetsSuccessfullyStaged; // @synthesize assetsSuccessfullyStaged=_assetsSuccessfullyStaged;
-@property(readonly, retain, nonatomic) NSDictionary *byGroupAssetsSuccessfullyStaged; // @synthesize byGroupAssetsSuccessfullyStaged=_byGroupAssetsSuccessfullyStaged;
-@property(readonly, retain, nonatomic) NSDictionary *byGroupTotalStagedBytes; // @synthesize byGroupTotalStagedBytes=_byGroupTotalStagedBytes;
 @property(readonly, nonatomic) long long totalStagedBytes; // @synthesize totalStagedBytes=_totalStagedBytes;
 
 @end

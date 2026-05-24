@@ -6,40 +6,29 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSArray, NSMutableArray;
-
 @interface TSTTableTile : TSPObject
 {
     unsigned char mMaxColumn;
-    unsigned short mMaxRow;
-    unsigned short mNumCells;
-    NSMutableArray *mRowInfos;
-    unsigned short mNumRows;
-    unsigned char mStorageVersion;
 }
 
-- (id);
-- (id);
+- (id)nd.m;
+- (id)LastFullyDownloadedItem;
 - (unsigned short);
 - (unsigned short);
 - (unsigned char);
-- (id);
-- (void);
-- (unsigned long long);
+- (id);
+- (void);
+- (unsigned long long);
 - (void);
 - (unsigned short);
 - (void);
 - (id);
-- (void);
+- (void),;
 - (id)NSMutableIndexSet"16@"TSDTilingLayer"24{CGRect={CGPoint=dd}{CGSize=dd}}32;
 - (void)ÄR;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char maxColumn;
-@property(readonly, nonatomic) unsigned short maxRow;
-@property(readonly, nonatomic) unsigned short numCells;
-@property(readonly, nonatomic) unsigned short numRows;
-@property(readonly, nonatomic) NSArray *rowInfos;
 
 @end
 

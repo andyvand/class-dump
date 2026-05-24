@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface WBSHistoryDatabaseAccessBroker
 {
     NSURL *_historyDatabaseURL;
-    NSObject<OS_dispatch_queue> *_writeRequestQueue;
 }
 
 - (void);
@@ -21,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)U;
 - (void)à;
 
 @end

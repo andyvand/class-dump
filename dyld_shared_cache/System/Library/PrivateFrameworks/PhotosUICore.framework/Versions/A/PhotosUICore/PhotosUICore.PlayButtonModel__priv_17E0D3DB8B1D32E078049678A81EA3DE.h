@@ -7,7 +7,6 @@
 @interface PhotosUICore.PlayButtonModel__priv_17E0D3DB8B1D32E078049678A81EA3DE
 {
     id _opacity;
-    id _$observationRegistrar;
 }
 
 @end

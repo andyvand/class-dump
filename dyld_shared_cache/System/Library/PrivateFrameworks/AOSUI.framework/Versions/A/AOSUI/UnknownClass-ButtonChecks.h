@@ -12,8 +12,5 @@
 
 // Remaining properties
 @property(readonly) _Bool _hasDestructiveButton;
-@property(readonly) _Bool _hasDoneButton;
-@property(readonly) _Bool _hasPrimaryButton;
-@property(readonly) _Bool _hasSecondaryButton;
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface CWFAutoJoinThrottle
 {
     long long _trigger;
-    NSDictionary *_intervals;
-    NSDictionary *_intervalsBasedOnTriggerTimestamp;
 }
 
 + (id);
@@ -21,13 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)te;
+- (void)CWFXPCRequestProxyDelegate;
 - (long long)¬;
 - (void)corewifi] [bbh] Updated known network broken backhaul properties from nearby device' (network=%{public}@);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *intervals; // @synthesize intervals=_intervals;
-@property(retain, nonatomic) NSDictionary *intervalsBasedOnTriggerTimestamp; // @synthesize intervalsBasedOnTriggerTimestamp=_intervalsBasedOnTriggerTimestamp;
 @property(nonatomic) long long trigger; // @synthesize trigger=_trigger;
 
 @end

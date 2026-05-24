@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSUUID;
 @protocol HMIHomePersonManagerDataSource;
 
 @interface HMIAssociateFaceCropsOperation
 {
     id <HMIHomePersonManagerDataSource> _dataSource;
-    NSSet *_faceCropUUIDs;
-    NSUUID *_personUUID;
-    long long _source;
 }
 
 + (id);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(readonly) id <HMIHomePersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSSet *faceCropUUIDs; // @synthesize faceCropUUIDs=_faceCropUUIDs;
-@property(readonly, copy) NSUUID *personUUID; // @synthesize personUUID=_personUUID;
-@property(readonly) long long source; // @synthesize source=_source;
 
 @end
 

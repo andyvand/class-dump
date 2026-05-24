@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol BPSWindowMetadata, NSCopying;
-
 @interface BPSWindowerInput
 {
     id _aggregate;
-    id <NSCopying> _key;
-    id <BPSWindowMetadata> _metadata;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)sharing_startPairSetupForDevice:fromInbound: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -23,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id aggregate; // @synthesize aggregate=_aggregate;
-@property(readonly, nonatomic) id <NSCopying> key; // @synthesize key=_key;
-@property(readonly, nonatomic) id <BPSWindowMetadata> metadata; // @synthesize metadata=_metadata;
 
 @end
 

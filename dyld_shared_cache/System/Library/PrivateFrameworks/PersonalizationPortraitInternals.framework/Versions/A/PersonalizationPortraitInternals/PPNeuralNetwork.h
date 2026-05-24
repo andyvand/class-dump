@@ -9,33 +9,20 @@
 @interface PPNeuralNetwork
 {
     NSData *_data;
-    const char *_dataBytes;
-    unsigned long long _nlayers;
-    const struct {
-        unsigned int _field1;
-        unsigned int _field2;
-        unsigned int _field3;
-        unsigned int _field4;
-        unsigned char _field5;
-        unsigned char _field6;
-        unsigned char _field7;
-        unsigned char _field8;
-    } *_layers;
 }
 
 - (double);
 - (double);
 - (unsigned long long);
-- (id);
+- (id)܂;
 - (id);
 - (unsigned long long);
-- (void);
+- (void)R;
 - (void)1÷°1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long inputSize;
-@property(readonly, nonatomic) unsigned long long outputSize;
 
 @end
 

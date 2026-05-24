@@ -5,5 +5,6 @@
 //
 
 @protocol CKDSystemAvailabilityWatcher
+- (_Bool)setInScoEventCount:(unsigned long long)arg1;
 @end
 

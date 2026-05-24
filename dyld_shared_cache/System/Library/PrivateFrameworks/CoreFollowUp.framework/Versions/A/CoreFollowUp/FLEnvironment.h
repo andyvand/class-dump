@@ -11,7 +11,7 @@
     NSUserDefaults *_followupDefaults;
 }
 
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -19,7 +19,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@A;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -31,8 +31,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool followUpExtensionSupportEnabled;
-@property(readonly, nonatomic) _Bool followUpZeroActionsForTheWorld;
 @property(retain, nonatomic) NSUserDefaults *followupDefaults; // @synthesize followupDefaults=_followupDefaults;
 
 @end

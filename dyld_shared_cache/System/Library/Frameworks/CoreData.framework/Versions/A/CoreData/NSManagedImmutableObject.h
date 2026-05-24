@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityDescription, NSManagedObjectID;
+@class NSEntityDescription;
 
 @interface NSManagedImmutableObject
 {
@@ -13,20 +13,19 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (CDStruct_977f6bcf *);
++ (CDStruct_977f6bcf *);
 + (void);
 + (void);
 + (id);
-+ (Class);
++ (Class)[y;
 + (id)%@.%@ is not valid:'%@' is not a property of '%@'. /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (CDUnknownFunctionPointerType);
-- (id);
-- (id);
+- (id)CredentialItemsForAccountWithServiceName;
+- (id)h*@y	;
 
 // Remaining properties
 @property(readonly) NSEntityDescription *entity; // @dynamic entity;
-@property(readonly) NSManagedObjectID *objectID; // @dynamic objectID;
 
 @end
 

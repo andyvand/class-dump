@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface FFFeatureIdentifier
 {
     NSString *_domainName;
-    NSString *_featureName;
 }
 
-+ (id);
++ (id);
 - (id);
-- (id);
+- (id)unlikelyHasLatinContents;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)+;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *domainName; // @synthesize domainName=_domainName;
-@property(readonly, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
 
 @end
 

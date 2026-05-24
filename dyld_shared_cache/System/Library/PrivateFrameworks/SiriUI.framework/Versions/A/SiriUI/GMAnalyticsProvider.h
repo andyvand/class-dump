@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GMAnalyticsProvider
 {
     id gmAvailabilityProvider;
-    id sendFunction;
 }
 
 - (_Bool);

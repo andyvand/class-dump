@@ -9,25 +9,22 @@
 @interface TRIPBInt64Array
 {
     TRIPBMessage *_autocreator;
-    long long *_values;
-    unsigned long long _count;
-    unsigned long long _capacity;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)imeSettings",&,D,N;
+- (id)c;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)B,N,V_allowsMove;
 - (void);
 - (void);
 - (void);
@@ -36,10 +33,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)TRINamespaceManagementProtocol;
 - (void)"output"@"NSOutputStream"};
-- (long long)geabilityLevel;
-- (void);
+- (long long)_purgeabilityLevel;
+- (void)VisualIntelligenceLandmarks;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;

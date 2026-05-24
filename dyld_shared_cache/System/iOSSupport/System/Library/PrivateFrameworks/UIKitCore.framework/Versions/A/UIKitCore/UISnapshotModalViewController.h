@@ -6,21 +6,17 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class UINavigationController;
-
 __attribute__((visibility("hidden")))
 @interface UISnapshotModalViewController : UIViewController
 {
     long long _interfaceOrientation;
-    UIViewController *_disappearingViewController;
-    UINavigationController *_parentController;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)hable:(long long)arg1 Any]];
+- (id)y have its ID, moving on;
 - (_Bool);
-- (void)ze:(_Bool)arg1;
+- (void)_beginDeferredContentOffsetTransitionToOffset:(_Bool)arg1 contentSize: /* Error: Ran out of types for this method. */;
 - (void),Dc;
 - (void)à, ÿ;
 

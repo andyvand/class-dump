@@ -5,6 +5,12 @@
 //
 
 @protocol PLGraphEdgeModeledProperties
-- (id)ncelAllRequests;
+- (id);
+- (id);
+- (id)E'
+;
+- (id)authenticationOperation;
+- (id)tableView:toolTipForCell:rect:tableColumn:row:mouseLocation: /* Error: Ran out of types for this method. */;
+- (id)cancelAllRequests;
 @end
 

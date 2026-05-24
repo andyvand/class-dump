@@ -7,8 +7,6 @@
 @interface IMCore.ImportExport.ArchiveImporter
 {
     id archiveManifest;
-    id importer;
-    id archiveImporterStatistics;
 }
 
 @end

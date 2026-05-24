@@ -5,22 +5,15 @@
 //
 
 @class NSDate, NSString;
-@protocol GEOServerFormattedString;
 
 @protocol GEOTransitDeparture
+- (_Bool)_groupIdentifierSet;
+- (NSDate *)24@32f40^@44;
+- (NSString *)initWithEKRecurrenceRule: /* Error: Ran out of types for this method. */;
 - (NSString *)èN;
 - (_Bool),øJ°,ÜJÄ,ÀJÐ,¤Jà,Jü,¤;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *departureDate;
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _Bool isCanceled;
-@property(readonly, nonatomic) _Bool isPastDeparture;
-@property(readonly, nonatomic) NSDate *liveDepartureDate;
-@property(readonly, nonatomic) long long liveStatus;
-@property(readonly, nonatomic) id <GEOServerFormattedString> liveStatusString;
-@property(readonly, nonatomic) NSDate *scheduledDepartureDate;
-@property(readonly, nonatomic) unsigned long long tripIdentifier;
-@property(readonly, nonatomic) NSString *vehicleIdentifier;
 @end
 

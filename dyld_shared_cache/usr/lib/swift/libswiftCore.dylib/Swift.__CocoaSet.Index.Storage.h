@@ -9,7 +9,6 @@
 @interface Swift.__CocoaSet.Index.Storage : Swift._SwiftObject
 {
     id base;
-    id allKeys;
 }
 
 @end

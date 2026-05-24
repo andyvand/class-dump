@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     struct __OIChart *_chart;
 }
 
-- (void);
-- (void);
-- (id);
+- (void);
+- (void);
+- (id)i|o;
 - (struct __OIChart *);
 - (void);
 

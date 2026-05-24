@@ -6,32 +6,28 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class NSProgressIndicator, NSVisualEffectView;
+@class NSVisualEffectView;
 
 @interface LUI2SpinnerViewController : LUI2ViewController
 {
     _Bool _drawsBackground;
-    NSProgressIndicator *_progressIndicator;
-    NSVisualEffectView *_backgroundView;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)6@?<v@?B>24;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)4;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property _Bool drawsBackground; // @synthesize drawsBackground=_drawsBackground;
-@property(readonly) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
 
 @end
 

@@ -9,20 +9,16 @@
 @interface NSCalibratedRGBColor : NSColor
 {
     double redComponent;
-    double greenComponent;
-    double blueComponent;
-    double alphaComponent;
-    struct CGColor *_cachedCGColor;
 }
 
-+ (id);
-- (double);
-- (double);
-- (_Bool);
-- (double);
-- (double);
-- (void);
-- (id);
++ (id)challenge so canceling;
+- (double)@?<v@?>32;
+- (double)setPartition: /* Error: Ran out of types for this method. */;
+- (_Bool)_allowsUltraConstrainedInternal;
+- (double)Hz;
+- (double)ontext now;
+- (void)n a dispatch queue, but now want to be on a runloop?;
+- (id);
 - (id);
 - (double);
 - (double);
@@ -30,17 +26,17 @@
 - (id);
 - (struct CGColor *);
 - (void);
-- (id);
+- (id)transportBundleID;
 - (Class);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (long long);
 - (_Bool);
 - (void)ñà3°1Â0@ù
 × ;
-- (long long)LeftCornerRect;
+- (long long)_bottomLeftCornerRect;
 - (id)esentationContext;
-- (id)ags;
+- (id)StyleAttributeTags;
 - (struct CGColor *)Cut;
 - (void);
 - (void)ÉÜKG;

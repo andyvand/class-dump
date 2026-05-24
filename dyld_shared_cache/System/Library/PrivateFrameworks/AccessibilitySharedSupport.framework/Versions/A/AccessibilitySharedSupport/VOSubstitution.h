@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString;
-
 @interface VOSubstitution
 {
 }
@@ -14,21 +12,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool appliesToAllApps; // @dynamic appliesToAllApps;
-@property(copy, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
-@property(retain, nonatomic) NSData *ckRecordSystemFields; // @dynamic ckRecordSystemFields;
-@property(retain, nonatomic) NSSet *iOSBundles; // @dynamic iOSBundles;
-@property(nonatomic) _Bool ignoreCase; // @dynamic ignoreCase;
-@property(nonatomic) _Bool isActive; // @dynamic isActive;
-@property(nonatomic) _Bool isUserSubstitution; // @dynamic isUserSubstitution;
-@property(retain, nonatomic) NSSet *languages; // @dynamic languages;
-@property(retain, nonatomic) NSSet *macOSBundles; // @dynamic macOSBundles;
-@property(copy, nonatomic) NSString *originalString; // @dynamic originalString;
-@property(copy, nonatomic) NSString *phonemes; // @dynamic phonemes;
-@property(nonatomic) long long replacementLength; // @dynamic replacementLength;
-@property(nonatomic) long long replacementLocation; // @dynamic replacementLocation;
-@property(copy, nonatomic) NSString *replacementString; // @dynamic replacementString;
-@property(nonatomic) short version; // @dynamic version;
-@property(retain, nonatomic) NSSet *voices; // @dynamic voices;
 
 @end
 

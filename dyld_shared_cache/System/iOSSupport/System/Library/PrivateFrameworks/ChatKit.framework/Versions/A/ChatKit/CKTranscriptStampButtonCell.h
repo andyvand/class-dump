@@ -14,9 +14,9 @@
 
 + (id);
 + (id);
-- (id);
-- (id);
-- (id)onfigurationWithTextStyle:scale: /* Error: Ran out of types for this method. */;
+- (id)setTextStyle:range:inTextStorage: /* Error: Ran out of types for this method. */;
+- (id)setTextLists: /* Error: Ran out of types for this method. */;
+- (id)configurationWithTextStyle:scale: /* Error: Ran out of types for this method. */;
 - (void)yAAyKù\y½d\ywn]ySay¦|GGSS}c\yAAy$ø\yn`\y8_\y_Qo__°/\yú%\GQo__Qo_­GSSGGGò3\GA0_Gt;
 
 // Remaining properties

@@ -13,7 +13,7 @@
 + (Class);
 + (long long)C,N,V_resultValues;
 - (id);
-- (id)FocusStatusIntent;
+- (id)_INPBShareFocusStatusIntent;
 
 @end
 

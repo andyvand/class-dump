@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSDataStore, CNAutocompleteResultFactory, NSMutableArray;
+@class CNAutocompleteResultFactory, NSMutableArray;
 
 @interface CNAClassKitResultTransformVisitor
 {
     NSMutableArray *_results;
-    CNAutocompleteResultFactory *_factory;
-    CLSDataStore *_dataStore;
-    unsigned long long _searchType;
-    long long _groupResultStyle;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
-- (void);
 - (id);
 - (id);
-- (long long);
+- (long long)8;
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CLSDataStore *dataStore; // @synthesize dataStore=_dataStore;
 @property(readonly, nonatomic) CNAutocompleteResultFactory *factory; // @synthesize factory=_factory;
-@property(readonly, nonatomic) long long groupResultStyle; // @synthesize groupResultStyle=_groupResultStyle;
-@property(readonly, nonatomic) unsigned long long searchType; // @synthesize searchType=_searchType;
 
 @end
 

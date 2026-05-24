@@ -5,30 +5,28 @@
 //
 
 @class NSString;
-@protocol MPCQueueControllerBehaviorHost;
 
 __attribute__((visibility("hidden")))
 @interface _MPCQueueControllerBehaviorEmpty
 {
     NSString *_identifier;
-    id <MPCQueueControllerBehaviorHost> _host;
 }
 
 + (_Bool);
 + (_Bool);
-- (long long);
-- (id);
+- (long long)accountType;
+- (id)cted;
 - (_Bool);
-- (id);
+- (id)s	;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)@16i24@28@36;
 - (id);
 - (id);
 - (_Bool);
@@ -41,18 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)r trigger [finished waitingForItems];
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsRestorableContent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <MPCQueueControllerBehaviorHost> host; // @synthesize host=_host;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) long long playbackPositionRestorationPolicy;
 @property(readonly, copy, nonatomic) NSString *sessionID;
-@property(readonly) Class superclass;
 
 @end
 

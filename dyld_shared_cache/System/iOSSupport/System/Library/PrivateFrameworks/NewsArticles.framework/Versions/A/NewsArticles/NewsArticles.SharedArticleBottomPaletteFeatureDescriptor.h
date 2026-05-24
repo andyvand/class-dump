@@ -7,9 +7,6 @@
 @interface NewsArticles.SharedArticleBottomPaletteFeatureDescriptor
 {
     id featureAvailability;
-    id sharedItemManager;
-    id attributionViewReuseManager;
-    id styler;
 }
 
 @end

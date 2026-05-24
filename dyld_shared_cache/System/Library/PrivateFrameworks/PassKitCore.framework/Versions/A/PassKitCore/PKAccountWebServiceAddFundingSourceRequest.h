@@ -6,20 +6,14 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL, PKAccountPaymentFundingSource, PKAccountWebServiceCertificatesResponse, PKPaymentDeviceMetadata;
+@class NSString;
 
 @interface PKAccountWebServiceAddFundingSourceRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    PKAccountPaymentFundingSource *_fundingSource;
-    NSString *_fundingSourceTermsIdentifier;
-    PKAccountWebServiceCertificatesResponse *_certificatesResponse;
-    PKPaymentDeviceMetadata *_deviceMetadata;
-    NSString *_odiAssessment;
 }
 
-- (void);
+- (void);;
 - (void);
 - (void);
 - (void);
@@ -38,12 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) PKAccountWebServiceCertificatesResponse *certificatesResponse; // @synthesize certificatesResponse=_certificatesResponse;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(retain, nonatomic) PKAccountPaymentFundingSource *fundingSource; // @synthesize fundingSource=_fundingSource;
-@property(retain, nonatomic) NSString *fundingSourceTermsIdentifier; // @synthesize fundingSourceTermsIdentifier=_fundingSourceTermsIdentifier;
-@property(copy, nonatomic) NSString *odiAssessment; // @synthesize odiAssessment=_odiAssessment;
 
 @end
 

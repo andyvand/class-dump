@@ -5,5 +5,6 @@
 //
 
 @protocol MKSelectionAccessoryViewDelegate
+- (void)c;
 @end
 

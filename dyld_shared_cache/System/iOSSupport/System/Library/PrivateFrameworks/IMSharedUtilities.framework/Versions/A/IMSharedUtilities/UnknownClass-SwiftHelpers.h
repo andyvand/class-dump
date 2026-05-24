@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SwiftHelpers)
-- (id);
+- (id)7yqd__GIegnn_;
 @end
 

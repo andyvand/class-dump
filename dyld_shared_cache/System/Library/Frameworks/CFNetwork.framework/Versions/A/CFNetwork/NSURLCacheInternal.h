@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface NSURLCacheInternal
 {
     unsigned long long memoryCapacity;
-    unsigned long long diskCapacity;
-    void *_cacheRef;
 }
 
-- (void);
+- (void)PDFContentStreamBeginStructuralMarkedContentSequence;
 
 @end
 

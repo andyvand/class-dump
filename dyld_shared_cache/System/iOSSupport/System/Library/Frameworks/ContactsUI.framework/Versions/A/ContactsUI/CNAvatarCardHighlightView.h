@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, UIColor;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface CNAvatarCardHighlightView
@@ -17,18 +17,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)<;
+- (id)coldestFrameIsNotThreadId;
 - (id);
 - (void)1t°1Â0@ù
 × ;
 - (void);
-- (void)fileBannerAction;
+- (void)tappedSharedProfileBannerAction;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *highlightColor;
 @property(retain, nonatomic) CALayer *highlightLayer; // @synthesize highlightLayer=_highlightLayer;
-@property(readonly, nonatomic) _Bool highlighted;
 
 @end
 

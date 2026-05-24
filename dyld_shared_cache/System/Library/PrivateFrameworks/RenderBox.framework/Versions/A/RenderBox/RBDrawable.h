@@ -4,48 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, RBDevice;
-@protocol MTLEvent, MTLTexture, RBDrawableDelegate;
+@class RBDevice;
 
 @interface RBDrawable
 {
     struct refcounted_ptr<RB::Drawable> _drawable;
-    struct weak_objc_ptr<id<RBDrawableDelegate>> _delegate;
-    struct objc_ptr<RBDevice *> _device;
-    struct objc_ptr<id<MTLTexture>> _texture;
-    struct objc_ptr<NSString *> _label;
-    struct objc_ptr<id<MTLEvent>> _event;
-    struct objc_ptr<void (^)()> _scheduled_handler;
-    struct objc_ptr<void (^)()> _completed_handler;
-    struct objc_ptr<void (^)(NSError *)> _error_handler;
-    struct optional<unsigned char> _gpu_priority;
-    struct optional<unsigned char> _bg_gpu_priority;
-    int _workingColorSpace;
-    int _targetColorSpace;
-    float _targetHeadroom;
-    int _initialState;
-    double _scale;
-    unsigned long long _pixelFormat;
-    unsigned long long _eventValue;
-    struct CGSize _size;
-    CDStruct_0b1c536a _clearColor;
 }
 
-- (int);
+- (int)z6;
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)C+;
+- (void).;
 - (void);
 - (void);
 - (double);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (void)ive;
+- (unsigned long long)enessProvider>"8;
 - (void);
 - (CDUnknownBlockType);
-- (int);
-- (void);
+- (int)AyAAyAAyAAyAAyTt;
+- (void)ed likeness for:(id)arg1 %{public}@;
 - (void);
 - (void);
 - (float);
@@ -56,10 +36,10 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)7;
 - (id);
 - (void);
 - (void);
@@ -71,42 +51,21 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (CDStruct_0b1c536a);
+- (CDStruct_818bb265);
 - (int);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (unsigned long long);
+- (void)7;
+- (unsigned long long)addTextRect:forCharacterRange:granularity:isVertical: /* Error: Ran out of types for this method. */;
 - (id)ð!0Aù±$1Â0@ù
 × ;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double GPUDuration;
-@property unsigned long long GPUPriority;
-@property unsigned long long backgroundGPUPriority;
-@property(nonatomic) CDStruct_0b1c536a clearColor; // @synthesize clearColor=_clearColor;
-@property(copy, nonatomic) CDUnknownBlockType completedHandler;
-@property(nonatomic) __weak id <RBDrawableDelegate> delegate;
 @property(readonly, nonatomic) RBDevice *device;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler;
-@property(retain, nonatomic) id <MTLEvent> event;
-@property(nonatomic) unsigned long long eventValue; // @synthesize eventValue=_eventValue;
-@property(nonatomic) int initialState; // @synthesize initialState=_initialState;
-@property(copy, nonatomic) NSString *label;
-@property(nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(copy, nonatomic) CDUnknownBlockType scheduledHandler;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly, copy, nonatomic) NSDictionary *statistics;
-@property(copy, nonatomic) CDUnknownBlockType statisticsHandler;
-@property(nonatomic) int targetColorSpace; // @synthesize targetColorSpace=_targetColorSpace;
-@property(nonatomic) float targetHeadroom; // @synthesize targetHeadroom=_targetHeadroom;
-@property(retain, nonatomic) id <MTLTexture> texture;
-@property(nonatomic) int workingColorSpace; // @synthesize workingColorSpace=_workingColorSpace;
 
 @end
 

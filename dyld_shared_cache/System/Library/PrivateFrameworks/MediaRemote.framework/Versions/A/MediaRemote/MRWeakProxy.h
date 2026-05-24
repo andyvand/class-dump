@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Protocol;
-
 @interface MRWeakProxy
 {
     id _object;
-    Protocol *_protocol;
 }
 
-+ (id);
++ (id)drawBezelWithFrame:(id)arg1 inView:(id)arg2;
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)B,N,V_volumeMuted;
 - (id)emote.MRNowPlayingOriginClient.avscQueue;
-- (void)dingContent;
+- (void)BeginLoadingContent;
 
 // Remaining properties
 @property(nonatomic) __weak id object; // @synthesize object=_object;
-@property(retain, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end
 

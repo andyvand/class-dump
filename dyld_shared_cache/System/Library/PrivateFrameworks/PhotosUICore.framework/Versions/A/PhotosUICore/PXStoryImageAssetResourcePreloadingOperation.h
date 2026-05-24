@@ -12,10 +12,6 @@
 @interface PXStoryImageAssetResourcePreloadingOperation : PXStoryDisplayAssetResourcePreloadingOperation
 {
     _Bool _isInline;
-    NSObject<OS_dispatch_group> *_loadingGroup;
-    long long _imageRequestID;
-    double _fractionComplete;
-    struct CGSize _targetSize;
 }
 
 + (id);
@@ -36,11 +32,7 @@
 - (void);
 
 // Remaining properties
-@property double fractionComplete; // @synthesize fractionComplete=_fractionComplete;
-@property long long imageRequestID; // @synthesize imageRequestID=_imageRequestID;
-@property(readonly, nonatomic) _Bool isInline; // @synthesize isInline=_isInline;
 @property(retain) NSObject<OS_dispatch_group> *loadingGroup; // @synthesize loadingGroup=_loadingGroup;
-@property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end
 

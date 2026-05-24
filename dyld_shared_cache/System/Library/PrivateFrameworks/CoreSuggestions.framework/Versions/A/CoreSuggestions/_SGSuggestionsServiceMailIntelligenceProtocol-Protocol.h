@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SGMailHeaders, SGMailIntelligenceSaliency;
+@class NSArray, NSNumber, SGMailHeaders, SGMailIntelligenceFollowUpWarning, SGMailIntelligenceSaliency;
 
 @protocol _SGSuggestionsServiceMailIntelligenceProtocol
-- (NSArray *)llDay;
+- (NSNumber *);
+- (SGMailIntelligenceFollowUpWarning *);
+- (NSArray *);
+- (NSArray *)allDay;
 - (SGMailIntelligenceSaliency *)traction:(SGMailHeaders *)arg1 invalid categoryValue:(id *)arg2 %ld;
-- (NSArray *)ocialProfile;
-- (void)on;
+- (NSArray *)socialProfile;
+- (void)extractionModelVersion;
 @end
 

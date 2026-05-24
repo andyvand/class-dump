@@ -7,8 +7,6 @@
 @interface NewsArticles.IssueViewerEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKBarcodeEventConfigurationRequest
 {
     NSString *_deviceAccountIdentifier;
-    NSData *_configurationData;
-    long long _configurationDataType;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -19,16 +17,14 @@
 - (void);
 - (id);
 - (long long);
+- (void)Jz�;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)tEmitter;
+- (void)transactionEffectEmitter;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *configurationData; // @synthesize configurationData=_configurationData;
-@property(nonatomic) long long configurationDataType; // @synthesize configurationDataType=_configurationDataType;
 @property(copy, nonatomic) NSString *deviceAccountIdentifier; // @synthesize deviceAccountIdentifier=_deviceAccountIdentifier;
 
 @end

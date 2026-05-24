@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCInterface;
+@class NSString;
 
 @interface FMNSXPCConnectionConfiguration
 {
     _Bool _machService;
-    NSString *_serviceName;
-    NSXPCInterface *_remoteInterface;
-    NSXPCInterface *_exportedInterface;
-    unsigned long long _options;
 }
 
++ (id)setService: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -23,8 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)R/#;
 + (id);
 - (id);
 - (void);
@@ -32,25 +28,14 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void):(id)arg1 ;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool machService; // @synthesize machService=_machService;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(retain, nonatomic) NSXPCInterface *remoteInterface; // @synthesize remoteInterface=_remoteInterface;
 @property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

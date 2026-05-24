@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolDebuggerLocation;
-
 @interface RWIProtocolDOMEventListener : RWIProtocolJSONObject
 {
 }
@@ -15,7 +13,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,10 +22,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)sB;
 - (int);
 - (void);
 - (int);
@@ -39,18 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool disabled;
 @property(nonatomic) int eventListenerId;
-@property(copy, nonatomic) NSString *handlerName;
-@property(nonatomic) _Bool hasBreakpoint;
-@property(nonatomic) _Bool isAttribute;
-@property(retain, nonatomic) RWIProtocolDebuggerLocation *location;
-@property(nonatomic) int nodeId;
-@property(nonatomic) _Bool onWindow;
-@property(nonatomic) _Bool once;
-@property(nonatomic) _Bool passive;
-@property(copy, nonatomic) NSString *type;
-@property(nonatomic) _Bool useCapture;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsManagementBlueprintLayoutBuilder
 {
     id layoutAttributesFactory;
-    id titleViewLayoutAttributesFactory;
 }
 
 @end

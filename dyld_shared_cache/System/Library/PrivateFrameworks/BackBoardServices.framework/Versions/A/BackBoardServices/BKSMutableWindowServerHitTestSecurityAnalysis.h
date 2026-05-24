@@ -21,12 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CATransform3D cumulativeLayerTransform; // @dynamic cumulativeLayerTransform;
-@property(nonatomic) float cumulativeOpacity; // @dynamic cumulativeOpacity;
-@property(nonatomic) _Bool hasInsecureFilter; // @dynamic hasInsecureFilter;
-@property(nonatomic) unsigned int occlusionMask; // @dynamic occlusionMask;
-@property(nonatomic) float occlusionPercentage; // @dynamic occlusionPercentage;
-@property(nonatomic) long long occlusionType; // @dynamic occlusionType;
-@property(nonatomic) _Bool parentsHaveInsecureLayerProperties; // @dynamic parentsHaveInsecureLayerProperties;
 
 @end
 

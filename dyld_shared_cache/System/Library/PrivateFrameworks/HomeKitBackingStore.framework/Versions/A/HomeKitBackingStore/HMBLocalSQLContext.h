@@ -6,41 +6,33 @@
 
 #import <HomeKitBackingStore/HMBSQLContext.h>
 
-@class HMBSQLQueryStatement, NSDictionary, NSMapTable, NSMutableDictionary;
+@class HMBSQLQueryStatement, NSDictionary;
 
 @interface HMBLocalSQLContext : HMBSQLContext
 {
     HMBSQLQueryStatement *_selectReadyInputBlocks;
-    HMBSQLQueryStatement *_selectReadyRollbackBlocks;
-    HMBSQLQueryStatement *_selectAllRecordRows;
-    HMBSQLQueryStatement *_selectAllRecordTypeRows;
-    HMBSQLQueryStatement *_selectAllRecordParentModelIDRows;
-    HMBSQLQueryStatement *_selectAllRecordParentModelIDTypeRows;
-    NSDictionary *_queryTables;
-    NSMapTable *_queryContextsByClass;
-    NSMutableDictionary *_queryContextsByModelType;
 }
 
 + (void);
-+ (id);
++ (id),Could not add receiver band correction uncertainty to weighted average filter,uncertainty,%.4f;
 + (id)B24@0:8@16 /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)_parentID;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool),&T&;
+- (_Bool)y was %{public}@);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
 - (unsigned long long);
@@ -49,36 +41,36 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (unsigned long long)sions/A/_LocationEssentials;
+- (void)ryFreePsr_RavenIonosphere,alpha==1.0,cannot proceed;
+- (_Bool)d solution due to still being in tunnel after recent GNSS starvation or nonhealthy period, time_since_last_tunnel_bridge_notification_event,%.2lf,time_since_first_tunnel_rejection,%.2lf;
+- (unsigned long long)cessorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_13PositionEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)h;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)I;
 - (_Bool);
 - (id);
 - (void);
@@ -87,46 +79,38 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (id);
+- (id)in server response, assuming request failed;
+- (_Bool)log>",R;
+- (_Bool)ddress;
+- (void)rtCompletion is nil;
+- (unsigned long long);
 - (long long);
 - (_Bool);
-- (id);
+- (id)lsePositives;
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ionary",R,N,V_modelExistsForLanguage;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)ilePath:(id)arg1 includeCustomResponses:(CDUnknownBlockType)arg2 includeResponsesToRobots: /* Error: Ran out of types for this method. */;
+- (id)pathForResource:(unsigned long long)arg1 ofType:(unsigned long long)arg2;
+- (id)_negativeRate;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool)AÐ!ÜFù1T°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSMapTable *queryContextsByClass; // @synthesize queryContextsByClass=_queryContextsByClass;
-@property(retain) NSMutableDictionary *queryContextsByModelType; // @synthesize queryContextsByModelType=_queryContextsByModelType;
 @property(retain) NSDictionary *queryTables; // @synthesize queryTables=_queryTables;
-@property(retain, nonatomic) HMBSQLQueryStatement *selectAllRecordParentModelIDRows; // @synthesize selectAllRecordParentModelIDRows=_selectAllRecordParentModelIDRows;
-@property(retain, nonatomic) HMBSQLQueryStatement *selectAllRecordParentModelIDTypeRows; // @synthesize selectAllRecordParentModelIDTypeRows=_selectAllRecordParentModelIDTypeRows;
-@property(retain, nonatomic) HMBSQLQueryStatement *selectAllRecordRows; // @synthesize selectAllRecordRows=_selectAllRecordRows;
-@property(retain, nonatomic) HMBSQLQueryStatement *selectAllRecordTypeRows; // @synthesize selectAllRecordTypeRows=_selectAllRecordTypeRows;
-@property(retain, nonatomic) HMBSQLQueryStatement *selectReadyInputBlocks; // @synthesize selectReadyInputBlocks=_selectReadyInputBlocks;
-@property(retain, nonatomic) HMBSQLQueryStatement *selectReadyRollbackBlocks; // @synthesize selectReadyRollbackBlocks=_selectReadyRollbackBlocks;
 
 @end
 

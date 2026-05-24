@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSHashTable, NSObject, TURoute;
-@protocol OS_dispatch_queue, TURouteControllerActions;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TURouteController
 {
     float _volume;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <TURouteControllerActions> _actionsDelegate;
-    NSHashTable *_delegates;
-    NSDictionary *_routesByUniqueIdentifier;
 }
 
 - (id);
@@ -24,40 +20,30 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
 - (id);
+- (id);
 - (id);
 - (float);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ByGroupSessionWithCall: /* Error: Ran out of types for this method. */;
+- (void)updateConversationsNotBackedByGroupSessionWithCall: /* Error: Ran out of types for this method. */;
 - (void)handleIsValidObject:%@ /* Error: Ran out of types for this method. */;
 - (void)=%d;
 - (void *)]R;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <TURouteControllerActions> actionsDelegate; // @synthesize actionsDelegate=_actionsDelegate;
-@property(readonly, nonatomic) _Bool areAuxiliaryRoutesAvailable;
-@property(readonly, nonatomic) NSHashTable *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy, nonatomic) TURoute *pickedRoute;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) void *queueContext;
-@property(readonly, copy, nonatomic) TURoute *receiverRoute;
-@property(readonly, copy, nonatomic) NSArray *routes;
-@property(copy, nonatomic) NSDictionary *routesByUniqueIdentifier; // @synthesize routesByUniqueIdentifier=_routesByUniqueIdentifier;
-@property(readonly, copy, nonatomic) TURoute *speakerRoute;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

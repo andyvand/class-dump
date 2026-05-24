@@ -9,13 +9,12 @@
 @interface AMSStoreReviewGatingController
 {
     id <AMSBagProtocol> bag;
-    id ledger;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)LsþòLs9òLsÉòLs,òLsòLs òLs?òLsòLsòLs¹òLs°òLsPòLsLòLs	òLsòLsòLsBòLsÜòLsìòLsÎòLs®òLsòLsvòLsÖòLsÏòLsòLsNòLs¦òLs'òLstòLsòLsòLsòòLsòLsØòLsÅòLs&òLseòLsöòLsUòLs¥òLsûòLsòLsòLsyòLsêòLs¸òLsòLsVòLsZòLsòLs!òLsOòLsnòLsòLsòLs1òLs£òLsÆòLsÝòLssòLs^òLs$òLs0òLsÃòLsròLs#òLs2òLsºòLsòLsòLsòLsàòLsòLs6òLsòLsòLs\òLsxòLsçòLs½òLs8òLs)òLsõòLs5òLsòLs~òLs>òLsïòLsüòLs·òLsMòLs7òLs¢òLsÐòLsÿòLsTòLsmòLszòLs¶òLs¤òLsòLsÀòLs¨òLséòLs/òLs3òLs²òLsåòLsòLsòLsXòLsòLs@òLs»òLsfòLs´òLsJòLsHòLsKòLsòLsYòLsjòLs%òLsÞòLsòLsòLsGòLsòLsýòLs³òLs¯òLsòLs(òLsðòLsQòLsòLs*òLsÓòLs=òLs÷òLspòLs×òLsÂòLs+òLsîòLsòLsíòLsbòLs{òLs}òLsIòLsòLsòLsòLsWòLsÁòLsòLsqòLs±òLsòLs-òLsgòLs©òLsÄòLsòLsèòLsâòLs_òLsòLs§òLsòLsßòLsÑòLsòLs<òLsòLsCòLsªòLsòLsDòLsFòLsóòLsËòLs[òLsSòLs]òLs òLsÙòLsdòLsòLsòLs"òLsëòLsaòLsãòLsÛòLsÍòLsÈòLsùòLsÔòLsòLs:òLsEòLs4òLsRòLs¿òLsôòIIÁâ!.­òùaþ¢n-$QY²ñ7þ«;|Õc_|'×qX]ÅÏË)ò/CDGy%M²´®É>å	!²PcÜ/5¹u.I±	_î­ÊAÉoÑ[0óÿ<4º*Ç=ÃÓè¹ËÖX²2¦!e]uÒM.YÔùãß!¨åä@YÔîwf£{E¹>ã7UÄZ+2 /* Error: Ran out of types for this method. */;
 - (id)riMvFÃôA4Ñ?àEÓâd«Åú]û¡´½Á¼v#¢á þÙ£Â\ÈsF÷¸öKDqBpÑàUrË­ÉÊGúA~øXÝÑ¤Öôq-ÎÜSp[W/10	*H÷;

@@ -9,8 +9,6 @@
 @interface IOBluetoothConcreteDeviceSelectorController : IOBluetoothConcreteDeviceController
 {
     id mShowAdvancedButton;
-    id mBTAddrTextBox;
-    id mPerformSDPCheck;
 }
 
 - (void);

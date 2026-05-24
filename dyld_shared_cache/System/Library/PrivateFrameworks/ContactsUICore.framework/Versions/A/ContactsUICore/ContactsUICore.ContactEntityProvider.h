@@ -7,9 +7,6 @@
 @interface ContactsUICore.ContactEntityProvider
 {
     id contactStore;
-    id intentActionPerformer;
-    id contactFormatter;
-    id applicationWorkspace;
 }
 
 @end

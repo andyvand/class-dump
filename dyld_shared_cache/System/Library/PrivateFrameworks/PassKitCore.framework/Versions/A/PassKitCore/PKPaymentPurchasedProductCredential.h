@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSString, PKPaymentSetupProduct, PKServiceProviderPurchase;
+@class PKPaymentSetupProduct;
 
 @interface PKPaymentPurchasedProductCredential : PKPaymentCredential
 {
     PKPaymentSetupProduct *_product;
-    NSString *_productIdentifier;
-    PKServiceProviderPurchase *_purchase;
 }
 
 - (id);
@@ -24,19 +22,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)By;
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)setTcpECNIntOnTotalOOPkts:(id)arg1;
+- (id)AsCaptive;
 - (void)ent.transaction.duration;
 - (id)øÆ²ÿÂ,m¨q;
 
 // Remaining properties
 @property(retain, nonatomic) PKPaymentSetupProduct *product; // @synthesize product=_product;
-@property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(readonly, nonatomic) PKServiceProviderPurchase *purchase; // @synthesize purchase=_purchase;
-@property(readonly, copy, nonatomic) NSString *statusDescription;
-@property(readonly, copy, nonatomic) NSString *summaryMetadataDescription;
 
 @end
 

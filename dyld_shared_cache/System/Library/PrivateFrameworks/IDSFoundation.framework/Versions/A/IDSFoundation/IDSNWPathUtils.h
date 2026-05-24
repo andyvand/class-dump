@@ -9,10 +9,9 @@
 @interface IDSNWPathUtils
 {
     NSMutableDictionary *_sessionIDToSlicingPathEvaluator;
-    NSMutableDictionary *_sessionIDToSlicingBitMask;
 }
 
-+ (id);
++ (id)IncomingResource;
 - (_Bool);
 - (id);
 - (_Bool);

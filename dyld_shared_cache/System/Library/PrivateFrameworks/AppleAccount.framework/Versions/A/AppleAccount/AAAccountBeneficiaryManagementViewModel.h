@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface AAAccountBeneficiaryManagementViewModel
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_IsActivationLockAllowed:Device is enrolled with Remote Management /* Error: Ran out of types for this method. */;
+- (id)DEP:%s  DEP+MDM:%d  Super:%d /* Error: Ran out of types for this method. */;
+- (id)CP_IsActivationLockAllowed:MDM:%d  inDEP:%s  DEP+MDM:%d  Super:%d /* Error: Ran out of types for this method. */;
+- (id)cause MDM protocol version > 1;
+- (id)data to property list:%@ /* Error: Ran out of types for this method. */;
+- (id)KeychainInfoFromData unable to import data status = %d;
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *beneficiaryForGroupTitle;
-@property(readonly, copy, nonatomic) NSString *learnMore;
-@property(readonly, copy, nonatomic) NSURL *learnMoreURL;
-@property(readonly, copy, nonatomic) NSString *myBeneficiariesAdd;
-@property(readonly, copy, nonatomic) NSString *myBeneficiariesGroupFooter;
-@property(readonly, copy, nonatomic) NSString *myBeneficiariesGroupTitle;
-@property(readonly, copy, nonatomic) NSString *noBenefactorFooter;
 @property(readonly, copy, nonatomic) NSString *title;
 
 @end

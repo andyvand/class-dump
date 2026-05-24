@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CADisplayMode
 {
     struct CADisplayModePriv *_priv;
@@ -33,32 +31,16 @@
 - (unsigned long long);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)ώ;
 - (double);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)!;
 - (_Bool);
 - (id)(position %ld);
 - (id)rKit/render/render-remote-effect.mm;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bitDepth;
-@property(readonly, copy, nonatomic) NSString *colorGamut;
-@property(readonly, copy, nonatomic) NSString *colorMode;
-@property(readonly, nonatomic) _Bool colorModeIsYCbCr;
-@property(readonly, copy, nonatomic) NSString *hdrMode;
-@property(readonly, nonatomic) unsigned long long height;
-@property(readonly, nonatomic, getter=isHighBandwidth) _Bool highBandwidth;
-@property(readonly, nonatomic) unsigned long long internalRepresentation;
-@property(readonly, nonatomic) _Bool isVRR;
-@property(readonly, nonatomic) _Bool isVirtual;
-@property(readonly, nonatomic) unsigned long long maximumSourceBandwidth;
-@property(readonly, nonatomic) unsigned int maximumSourceHeight;
-@property(readonly, nonatomic) unsigned int maximumSourceWidth;
-@property(readonly, nonatomic) double pixelAspectRatio;
-@property(readonly, nonatomic) unsigned long long preferredScale;
-@property(readonly, nonatomic) double refreshRate;
 @property(readonly, nonatomic) unsigned long long width;
 
 @end

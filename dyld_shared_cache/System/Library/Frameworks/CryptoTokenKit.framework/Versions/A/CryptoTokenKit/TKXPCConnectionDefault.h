@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 @protocol TKXPCConnectionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface TKXPCConnectionDefault
 {
     id <TKXPCConnectionDelegate> delegate;
-    NSXPCConnection *_connection;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)h;
 - (id);
 - (void);
+- (id);
+- (void)isOnDemand;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)on to server interrupted (recovery:%d, willRetry:%d) /* Error: Ran out of types for this method. */;
 - (id)te certificate from advertised item of token %{public}@, data:(id)arg1 %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TKXPCConnectionDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id remoteObjectProxy;
-@property(readonly) Class superclass;
 
 @end
 

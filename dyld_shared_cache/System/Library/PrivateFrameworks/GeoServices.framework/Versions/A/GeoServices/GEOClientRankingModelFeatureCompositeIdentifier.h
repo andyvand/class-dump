@@ -11,18 +11,16 @@
 @interface GEOClientRankingModelFeatureCompositeIdentifier : GEOClientRankingModelFeatureIdentifier
 {
     float _featureWeight;
-    NSArray *_unitExponentPairs;
 }
 
 - (id);
 - (void);
-- (id);
-- (float);
-- (long long);
+- (id)appendName:(id)arg1 selector:(float)arg2;
+- (float)State, Country;
+- (long long)ry;
 - (void)6;
 
 // Remaining properties
-@property(readonly, nonatomic) float featureWeight; // @synthesize featureWeight=_featureWeight;
 @property(copy, nonatomic) NSArray *unitExponentPairs; // @synthesize unitExponentPairs=_unitExponentPairs;
 
 @end

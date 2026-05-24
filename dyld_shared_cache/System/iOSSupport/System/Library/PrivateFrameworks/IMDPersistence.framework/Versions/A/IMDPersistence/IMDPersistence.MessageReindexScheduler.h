@@ -7,11 +7,6 @@
 @interface IMDPersistence.MessageReindexScheduler
 {
     id userInfoData;
-    id chunkedGUIDs;
-    id flag;
-    id lane;
-    id reason;
-    id dbConnection;
 }
 
 @end

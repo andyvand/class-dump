@@ -5,5 +5,11 @@
 //
 
 @protocol WiFiAwareSubscriberDelegate
+- (void);;
+- (void)4ȍ;
+
+@optional
+- (void);
+- (void)ȍ;
 @end
 

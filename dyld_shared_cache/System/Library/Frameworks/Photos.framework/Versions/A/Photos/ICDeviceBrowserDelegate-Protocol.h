@@ -5,5 +5,8 @@
 //
 
 @protocol ICDeviceBrowserDelegate
+
+@optional
+- (void);
 @end
 

@@ -5,27 +5,17 @@
 //
 
 @class NSDictionary, NSString;
+@protocol FPMemoryObject;
 
 @protocol FPMemoryObject
+- (NSDictionary *);
+- (id <FPMemoryObject>)A=;
+- (NSString *))}
+;
+- (_Bool);
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *auxData;
-@property(readonly, nonatomic) NSString *auxDataName;
-@property(readonly, nonatomic) unsigned long long cleanSize;
-@property(readonly, nonatomic) _Bool containsFakeRegion;
-@property(readonly, nonatomic) _Bool couldHaveProcessView;
-@property(readonly, nonatomic) NSDictionary *detailedAuxData;
-@property(readonly, nonatomic) NSString *detailedAuxDataName;
-@property(readonly, nonatomic) NSString *detailedName;
 @property(readonly, nonatomic) unsigned long long dirtySize;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) _Bool hasNoFootprint;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) int ownerPid;
-@property(readonly, nonatomic) unsigned long long reclaimableSize;
-@property(readonly, nonatomic) unsigned long long swappedSize;
-@property(readonly, nonatomic) unsigned int totalRegions;
-@property(readonly, nonatomic) _Bool verbose;
-@property(readonly, nonatomic) unsigned long long wiredSize;
 @end
 

@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAccount, ICCloudSyncingObject, ICNote, NSArray, NSString;
+@class NSString;
 
 @interface ICAuthenticationPrompt
 {
     _Bool _usesSecondaryAuthenticationIfAvailable;
-    _Bool _usesAlternativeAuthenticationIfAvailable;
-    _Bool _usesBiometricAuthenticationIfAvailable;
-    _Bool _updatesUserRecordIfNeeded;
-    _Bool _internetReachable;
-    _Bool _biometricAuthenticationEnabled;
-    _Bool _keychainAvailable;
-    _Bool _hasKeychainItem;
-    _Bool _hasCloudAccount;
-    _Bool _hasDevicePassword;
-    short _secondaryAuthenticationMode;
-    unsigned long long _intent;
-    ICCloudSyncingObject *_object;
-    ICAccount *_account;
-    ICNote *_note;
-    unsigned long long _authenticationAction;
-    unsigned long long _authenticationMechanism;
-    NSString *_title;
-    NSString *_reason;
-    NSString *_touchBarReason;
-    NSString *_fallbackButtonTitle;
-    NSArray *_successAlerts;
-    NSArray *_failureAlerts;
-    NSArray *_notes;
-    long long _biometricAuthenticationType;
 }
 
 + (id);
@@ -115,59 +91,21 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)`*;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (void)CGPoint=dd}{CGSize=dd}},N,V_snippetAttributedStringInsideFrame;
-- (_Bool)nal;
+- (_Bool)ICCollaborationAnalyticsTrackerInternal;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) ICAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) _Bool allowsAlternativeAuthentication;
-@property(readonly, nonatomic) _Bool allowsAuthentication;
-@property(readonly, nonatomic) _Bool allowsBiometricAuthentication;
-@property(readonly, nonatomic) _Bool allowsCustomPasswordAuthentication;
-@property(readonly, nonatomic) _Bool allowsDevicePasswordAuthentication;
-@property(nonatomic) unsigned long long authenticationAction; // @synthesize authenticationAction=_authenticationAction;
-@property(nonatomic) unsigned long long authenticationMechanism; // @synthesize authenticationMechanism=_authenticationMechanism;
-@property(readonly, nonatomic) ICCloudSyncingObject *authenticationObject;
-@property(nonatomic, getter=isBiometricAuthenticationEnabled) _Bool biometricAuthenticationEnabled; // @synthesize biometricAuthenticationEnabled=_biometricAuthenticationEnabled;
-@property(nonatomic) long long biometricAuthenticationType; // @synthesize biometricAuthenticationType=_biometricAuthenticationType;
-@property(readonly, copy, nonatomic) NSString *cloudAccountName;
 @property(readonly, copy, nonatomic) NSString *customAccountName;
-@property(readonly, copy, nonatomic) NSString *deviceAccountName;
-@property(copy, nonatomic) NSArray *failureAlerts; // @synthesize failureAlerts=_failureAlerts;
-@property(copy, nonatomic) NSString *fallbackButtonTitle; // @synthesize fallbackButtonTitle=_fallbackButtonTitle;
-@property(nonatomic) _Bool hasCloudAccount; // @synthesize hasCloudAccount=_hasCloudAccount;
-@property(nonatomic) _Bool hasDevicePassword; // @synthesize hasDevicePassword=_hasDevicePassword;
-@property(nonatomic) _Bool hasKeychainItem; // @synthesize hasKeychainItem=_hasKeychainItem;
-@property(readonly, nonatomic) unsigned long long intent; // @synthesize intent=_intent;
-@property(nonatomic, getter=isInternetReachable) _Bool internetReachable; // @synthesize internetReachable=_internetReachable;
-@property(nonatomic, getter=isKeychainAvailable) _Bool keychainAvailable; // @synthesize keychainAvailable=_keychainAvailable;
-@property(readonly, nonatomic) _Bool needsAuthentication;
-@property(readonly, nonatomic) _Bool needsSecondaryAuthentication;
-@property(readonly, nonatomic) _Bool needsUserRecordUpdate;
-@property(readonly, nonatomic) ICNote *note; // @synthesize note=_note;
-@property(copy, nonatomic) NSArray *notes; // @synthesize notes=_notes;
-@property(readonly, nonatomic) ICCloudSyncingObject *object; // @synthesize object=_object;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) short secondaryAuthenticationMode; // @synthesize secondaryAuthenticationMode=_secondaryAuthenticationMode;
-@property(copy, nonatomic) NSArray *successAlerts; // @synthesize successAlerts=_successAlerts;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *touchBarReason; // @synthesize touchBarReason=_touchBarReason;
-@property(readonly, copy, nonatomic) NSArray *unauthenticatedNotes;
-@property(readonly, nonatomic) _Bool unlocksNotes;
-@property(nonatomic) _Bool updatesUserRecordIfNeeded; // @synthesize updatesUserRecordIfNeeded=_updatesUserRecordIfNeeded;
-@property(nonatomic) _Bool usesAlternativeAuthenticationIfAvailable; // @synthesize usesAlternativeAuthenticationIfAvailable=_usesAlternativeAuthenticationIfAvailable;
-@property(nonatomic) _Bool usesBiometricAuthenticationIfAvailable; // @synthesize usesBiometricAuthenticationIfAvailable=_usesBiometricAuthenticationIfAvailable;
-@property(nonatomic) _Bool usesSecondaryAuthenticationIfAvailable; // @synthesize usesSecondaryAuthenticationIfAvailable=_usesSecondaryAuthenticationIfAvailable;
 
 @end
 

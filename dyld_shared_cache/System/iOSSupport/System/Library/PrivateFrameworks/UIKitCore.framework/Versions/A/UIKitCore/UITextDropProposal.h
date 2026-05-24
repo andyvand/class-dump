@@ -9,27 +9,21 @@
 @interface UITextDropProposal : UIDropProposal
 {
     _Bool _useFastSameViewOperations;
-    unsigned long long _dropAction;
-    unsigned long long _dropProgressMode;
-    unsigned long long _dropPerformer;
 }
 
-- (_Bool);
+- (_Bool)isConnectionEntitled: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)changeLocalProperty:(unsigned long long)arg1 ofBuddy:to: /* Error: Ran out of types for this method. */;
+- (void)er;
+- (void)&,N,V_relayEnrollmentController;
+- (id)x;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)}};
 - (unsigned long long);
 - (id)setShouldIncludeConstantOffset:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(nonatomic) unsigned long long dropAction; // @synthesize dropAction=_dropAction;
-@property(nonatomic) unsigned long long dropPerformer; // @synthesize dropPerformer=_dropPerformer;
-@property(nonatomic) unsigned long long dropProgressMode; // @synthesize dropProgressMode=_dropProgressMode;
-@property(nonatomic) _Bool useFastSameViewOperations; // @synthesize useFastSameViewOperations=_useFastSameViewOperations;
 
 @end
 

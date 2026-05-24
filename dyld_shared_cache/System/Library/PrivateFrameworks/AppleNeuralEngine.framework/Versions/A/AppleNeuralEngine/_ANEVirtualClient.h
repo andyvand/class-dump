@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface _ANEVirtualClient
 {
     unsigned int _connect;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (_Bool);
@@ -30,7 +26,7 @@
 + (struct __CFDictionary *);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)ϚR黼rB;
 + (id);
 + (id);
 + (id);
@@ -42,10 +38,10 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_setStorefrontFromURLResponse:(id)arg1 bagData:(id)arg2;
 - (void);
 - (struct DeviceExtendedInfo);
-- (id);
+- (id)ability check for countryCode:(id)arg1;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -57,8 +53,8 @@
 - (struct __IOSurface *);
 - (_Bool);
 - (struct __IOSurface *);
-- (_Bool);
-- (_Bool);
+- (_Bool)=;
+- (_Bool)K;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
@@ -69,21 +65,22 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)q
+;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (struct BuildVersionInfo);
+- (struct BuildVersionInfo)8J;
 - (id);
 - (void);
 - (_Bool);
 - (struct __IOSurface *);
 - (long long);
 - (void);
-- (struct __CFDictionary *);
+- (struct __CFDictionary *)cӯrC;
 - (unsigned int);
 - (id);
 - (_Bool);
@@ -92,13 +89,13 @@
 - (struct __CFDictionary *);
 - (_Bool);
 - (void);
+- (_Bool)x;
+- (void);
 - (_Bool);
-- (void);
+- (_Bool)setDrain_duration_count_at_charge_start_soc_curr_static_bin:(id)arg1;
+- (id)handleDisengagement;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
@@ -106,7 +103,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int connect; // @synthesize connect=_connect;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

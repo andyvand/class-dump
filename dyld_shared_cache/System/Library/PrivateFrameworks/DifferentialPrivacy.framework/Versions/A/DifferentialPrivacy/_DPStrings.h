@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)-;
++ (id)IgnoreVersionIntegrityChecksOnBuild;
++ (id)Databases;
 + (id);
 + (id);
 + (id);

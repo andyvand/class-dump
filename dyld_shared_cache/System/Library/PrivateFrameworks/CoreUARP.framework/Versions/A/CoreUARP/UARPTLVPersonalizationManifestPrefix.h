@@ -15,14 +15,14 @@
 
 + (id);
 + (id);
-+ (id);
-+ (unsigned int);
++ (id);
++ (unsigned int)g file urls.;
 - (id);
 - (id);
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)AMSUserNotificationMetricsEvent;
 - (void);
 
 // Remaining properties

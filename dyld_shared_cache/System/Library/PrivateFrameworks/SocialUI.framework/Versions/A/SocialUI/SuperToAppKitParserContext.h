@@ -9,10 +9,6 @@
 @interface SuperToAppKitParserContext
 {
     NSMutableAttributedString *_appKitAttributedString;
-    long long _baseWritingDirection;
-    _Bool _didAddBodyAttributes;
-    _Bool _shouldEncodeFileTransfers;
-    _Bool _shouldEncodeInlineAttachments;
 }
 
 - (_Bool);
@@ -20,11 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)SMNetworkSourceProxy",W,V_proxy;
 - (id);
 - (id);
 - (void);

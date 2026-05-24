@@ -9,28 +9,25 @@
 @interface NTPBArticleInfo
 {
     NSString *_articleId;
-    NSString *_storeFrontId;
 }
 
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id)changeOverallDuration:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)cacheGroup;
+- (_Bool)_resource;
+- (id)#	;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)d articles are expired;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)hasDiversificationPenaltyHalfLife;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(readonly, nonatomic) _Bool hasStoreFrontId;
-@property(retain, nonatomic) NSString *storeFrontId; // @synthesize storeFrontId=_storeFrontId;
 
 @end
 

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSBoxOldStyleVisualProvider
 {
     id configuration;
-    void box;
-    id backgroundView;
-    id titleTextField;
 }
 
 - (_Bool);
@@ -20,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
+- (struct CGRect)col_definition>"8Q16Q24;
+- (void)YPE = CFNACOAuthSigner];
 - (struct CGRect);
-- (void);
-- (struct CGRect);
-- (void);
-- (id);
+- (void)6x6;
+- (id)6kg;
 - (struct CGRect);
 - (void);
 - (id);
@@ -35,14 +32,7 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets)äG;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) struct CGRect borderRect;
 @property(nonatomic) __weak NSBox *box; // @synthesize box;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) _Bool isFixedHeight;
-@property(nonatomic, readonly) _Bool isFixedWidth;
-@property(nonatomic, readonly) struct CGRect titleRect;
-@property(nonatomic, readonly) _Bool wantsSubviews;
 
 @end
 

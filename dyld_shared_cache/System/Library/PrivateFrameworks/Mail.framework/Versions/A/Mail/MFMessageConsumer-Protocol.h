@@ -6,6 +6,9 @@
 
 @protocol MFMessageConsumer
 
+@optional
+- (void);
+
 // Remaining properties
 @property(readonly) _Bool shouldCancel;
 @end

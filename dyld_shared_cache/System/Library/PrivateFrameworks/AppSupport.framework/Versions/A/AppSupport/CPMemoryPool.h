@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface CPMemoryPool
 {
     struct _opaque_pthread_mutex_t _lock;
-    NSMutableArray *_files;
-    char *_label;
-    unsigned long long _slotLength;
 }
 
 

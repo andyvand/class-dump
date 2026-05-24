@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)dToRect:percentOfCellsToSplit:randomGenerator:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

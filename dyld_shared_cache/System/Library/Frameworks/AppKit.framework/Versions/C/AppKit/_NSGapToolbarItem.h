@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)7RXOxvlqK+SxkwcM2A;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
+- (_Bool)quest():called while waiting for proxy info! /* Error: Ran out of types for this method. */;
 - (void)n;
 
 @end

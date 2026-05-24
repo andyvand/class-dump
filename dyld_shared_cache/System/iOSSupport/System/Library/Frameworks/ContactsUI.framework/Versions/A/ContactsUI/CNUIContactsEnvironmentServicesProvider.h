@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
++ (id)i;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)conformsToProtocol: /* Error: Ran out of types for this method. */;
 
 @end
 

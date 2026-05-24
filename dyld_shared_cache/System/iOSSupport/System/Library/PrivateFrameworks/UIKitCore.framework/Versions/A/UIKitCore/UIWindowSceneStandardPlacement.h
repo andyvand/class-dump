@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)s guid %@ (rowid %@);
 + (unsigned long long);
 - (id);
 

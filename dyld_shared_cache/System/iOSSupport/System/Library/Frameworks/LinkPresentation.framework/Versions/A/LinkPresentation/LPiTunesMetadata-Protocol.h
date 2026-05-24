@@ -7,6 +7,7 @@
 @class LPImage;
 
 @protocol LPiTunesMetadata
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork;

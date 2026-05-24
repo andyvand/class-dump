@@ -4,45 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetTrack, AVThumbnailGenerator, AVTouchBarMediaSelectionOption, AVValueTiming, AVWaveform, NSArray, NSString, NSURL;
+@class AVWaveform;
 @protocol AVTouchBarPlaybackControlsControlling;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarPlaybackControlsController
 {
     id <AVTouchBarPlaybackControlsControlling> _externalTouchBarPlaybackControlsController;
-    struct {
-        _Bool _isPlaying;
-        _Bool _setPlaying;
-        _Bool _canTogglePlayback;
-        _Bool _togglePlayback;
-        _Bool _defaultPlaybackRate;
-        _Bool _allowsPictureInPicturePlayback;
-        _Bool _isPictureInPictureActive;
-        _Bool _setPictureInPictureActive;
-        _Bool _canTogglePictureInPicture;
-        _Bool _togglePictureInPicture;
-        _Bool _seekableTimeRanges;
-        _Bool _audioTouchBarMediaSelectionOptions;
-        _Bool _currentAudioTouchBarMediaSelectionOption;
-        _Bool _setCurrentAudioTouchBarMediaSelectionOption;
-        _Bool _legibleTouchBarMediaSelectionOptions;
-        _Bool _currentLegibleTouchBarMediaSelectionOption;
-        _Bool _setCurrentLegibleTouchBarMediaSelectionOption;
-        _Bool _canBeginTouchBarScrubbing;
-        _Bool _beginTouchBarScrubbing;
-        _Bool _endTouchBarScrubbing;
-        _Bool _generateTouchBarThumbnailsForTimesToleranceSizeThumbnailHandler;
-        _Bool _cancelThumbnailGeneration;
-        _Bool _assetURL;
-        _Bool _controlsViewWillAppear;
-        _Bool _controlsViewDidDisappear;
-        _Bool _canSeek;
-    } _externalControllerRespondsTo;
-    AVThumbnailGenerator *_thumbnailGenerator;
-    NSURL *_currentWaveformURL;
-    AVWaveform *_audioWaveform;
-    AVAssetTrack *_currentAudioTrack;
 }
 
 + (id);
@@ -69,6 +37,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (id)doRequestMetadata;
 + (id);
 + (id);
 + (id);
@@ -76,15 +45,14 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id)invalidate;
 + (id);
++ (_Bool);
 + (id);
 + (id);
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
-+ (id);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -95,36 +63,38 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)p;
+- (id)performActivationLockOperationWithInfo:usingCallback: /* Error: Ran out of types for this method. */;
+- (_Bool)-;
+- (void);
 - (double);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)=%llu;
+- (_Bool)quic_stream_process_block_invoke;
+- (_Bool)_quic_recovery_destroy;
 - (void);
 - (double);
-- (void);
+- (void)JJ
+*
+K_	;
 - (void);
 - (double);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -141,57 +111,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (double)Ô ;
 - (_Bool);
-- (id)ringService: /* Error: Ran out of types for this method. */;
-- (id)TouchBarMediaSelectionOptions;
-- (void)ayer:(id)arg1 initialRenderSize:playbackDelegate: /* Error: Ran out of types for this method. */;
-- (_Bool)aybackIndicatorView;
-- (_Bool)rollerWillHideView: /* Error: Ran out of types for this method. */;
+- (id)sharingServicePicker:didChooseSharingService: /* Error: Ran out of types for this method. */;
+- (id)keyPathsForValuesAffectingHasLegibleTouchBarMediaSelectionOptions;
+- (void)initWithSampleBufferDisplayLayer:(id)arg1 initialRenderSize:playbackDelegate: /* Error: Ran out of types for this method. */;
+- (_Bool)externalPlaybackIndicatorView;
+- (_Bool)controlsContainerViewControllerWillHideView: /* Error: Ran out of types for this method. */;
 - (void)ybackContentContainerView.videoContentView.stereoLayersView.videoBounds;
 - (void)durationStyleToggleButton;
 
 // Remaining properties
-@property(readonly) _Bool allowsPictureInPicturePlayback;
-@property(readonly) NSArray *audioTouchBarMediaSelectionOptions;
 @property(retain, nonatomic) AVWaveform *audioWaveform; // @synthesize audioWaveform=_audioWaveform;
-@property(readonly) _Bool canBeginTouchBarScrubbing;
-@property(readonly) _Bool canScanBackward;
-@property(readonly) _Bool canScanForward;
-@property(readonly) _Bool canSeek;
-@property(readonly) _Bool canTogglePictureInPicture;
-@property(readonly) _Bool canTogglePlayback;
-@property(readonly, getter=isCompletelySeekable) _Bool completelySeekable;
-@property(readonly) double contentDuration;
-@property(readonly) double contentDurationWithinEndTimes;
-@property(retain) AVTouchBarMediaSelectionOption *currentAudioTouchBarMediaSelectionOption;
-@property(retain, nonatomic) AVAssetTrack *currentAudioTrack; // @synthesize currentAudioTrack=_currentAudioTrack;
-@property(retain) AVTouchBarMediaSelectionOption *currentLegibleTouchBarMediaSelectionOption;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property double defaultPlaybackRate;
-@property(readonly, copy) NSString *description;
-@property __weak id <AVTouchBarPlaybackControlsControlling> externalTouchBarPlaybackControlsController;
-@property(readonly) _Bool hasAudioTouchBarMediaSelectionOptions;
-@property(readonly) _Bool hasEnabledAudio;
-@property(readonly) _Bool hasEnabledVideo;
-@property(readonly) _Bool hasLegibleTouchBarMediaSelectionOptions;
-@property(readonly) _Bool hasLiveStreamingContent;
-@property(readonly) _Bool hasSeekableLiveStreamingContent;
-@property(readonly) _Bool hasTouchBarMediaSelectionOptions;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *legibleTouchBarMediaSelectionOptions;
-@property(readonly) double maxTime;
-@property(readonly) AVValueTiming *maxTiming;
-@property(readonly) double minTime;
-@property(readonly) AVValueTiming *minTiming;
-@property(readonly, getter=isPictureInPictureActive) _Bool pictureInPictureActive;
-@property(getter=isPlaying) _Bool playing;
-@property(readonly) double seekToTime;
-@property(readonly) NSArray *seekableTimeRanges;
-@property(readonly, getter=isSeeking) _Bool seeking;
-@property(readonly) Class superclass;
-@property(readonly) AVValueTiming *timing;
 
 @end
 

@@ -4,33 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface NEFilterProviderConfiguration
 {
     _Bool _filterBrowsers;
-    _Bool _filterSockets;
-    _Bool _filterPackets;
-    _Bool _controlProviderInitialized;
-    _Bool _disableDefaultDrop;
-    _Bool _preserveExistingConnections;
-    NSDictionary *_vendorConfiguration;
-    NSString *_serverAddress;
-    NSString *_username;
-    NSString *_organization;
-    NSData *_passwordReference;
-    NSData *_identityReference;
-    NSString *_filterDataProviderBundleIdentifier;
-    NSString *_filterPacketProviderBundleIdentifier;
-    NSString *_pluginType;
-    NSString *_packetProviderDesignatedRequirement;
-    NSString *_keychainAccessGroup;
-    NSURL *_dataProviderURL;
-    NSURL *_packetProviderURL;
-    NSString *_dataProviderDesignatedRequirement;
 }
 
-+ (_Bool);
++ (_Bool)setPairedDeviceInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -67,32 +48,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (void);
-- (void);
+- (void)setDirection: /* Error: Ran out of types for this method. */;
 - (_Bool)handleHotspotProviderStopped;
 - (id).filter-packet;
 
 // Remaining properties
-@property(copy) NSString *dataProviderDesignatedRequirement; // @synthesize dataProviderDesignatedRequirement=_dataProviderDesignatedRequirement;
-@property(copy) NSURL *dataProviderURL; // @synthesize dataProviderURL=_dataProviderURL;
-@property _Bool disableDefaultDrop; // @synthesize disableDefaultDrop=_disableDefaultDrop;
-@property _Bool filterBrowsers; // @synthesize filterBrowsers=_filterBrowsers;
-@property(copy) NSString *filterDataProviderBundleIdentifier; // @synthesize filterDataProviderBundleIdentifier=_filterDataProviderBundleIdentifier;
-@property(copy) NSString *filterPacketProviderBundleIdentifier; // @synthesize filterPacketProviderBundleIdentifier=_filterPacketProviderBundleIdentifier;
-@property _Bool filterPackets; // @synthesize filterPackets=_filterPackets;
-@property _Bool filterSockets; // @synthesize filterSockets=_filterSockets;
-@property(copy) NSData *identityReference; // @synthesize identityReference=_identityReference;
-@property(copy) NSString *organization; // @synthesize organization=_organization;
-@property(copy) NSString *packetProviderDesignatedRequirement; // @synthesize packetProviderDesignatedRequirement=_packetProviderDesignatedRequirement;
-@property(copy) NSURL *packetProviderURL; // @synthesize packetProviderURL=_packetProviderURL;
-@property(copy) NSData *passwordReference; // @synthesize passwordReference=_passwordReference;
 @property(copy) NSString *pluginType; // @synthesize pluginType=_pluginType;
-@property _Bool preserveExistingConnections; // @synthesize preserveExistingConnections=_preserveExistingConnections;
-@property(copy) NSString *serverAddress; // @synthesize serverAddress=_serverAddress;
-@property(copy) NSString *username; // @synthesize username=_username;
-@property(copy) NSDictionary *vendorConfiguration; // @synthesize vendorConfiguration=_vendorConfiguration;
 
 @end
 

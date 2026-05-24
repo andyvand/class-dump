@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapFeatureAccess, MNTraceRecorder, NSDate;
+@class GEOMapFeatureAccess, MNTraceRecorder;
 
 @interface MNRouteEditor
 {
     GEOMapFeatureAccess *_mapFeatureAccess;
-    double _maxDistanceFromRoads;
-    MNTraceRecorder *_traceRecorder;
-    _Bool _isTraceRecordingEnabled;
-    NSDate *_sessionStartDate;
 }
 
-+ (id);
++ (id)7;
++ (void)atZ7#;
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
++ (void)_CheckboxToggleStyle;
 + (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface NWURLSessionDelegateQueue
 {
     struct os_unfair_lock_s lock;
-    NSOperationQueue *__operationQueue;
-    NSObject<OS_dispatch_queue> *__dispatchQueue;
 }
 
 - (void)@;

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIRequestCategorization : SISchemaInstrumentationMessage
 {
     int _requestType;
-    int _requestStatus;
-    struct {
-        unsigned int requestType:1;
-        unsigned int requestStatus:1;
-    } _has;
 }
 
 - (void);
@@ -23,26 +16,22 @@
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)executeQueryWithPredicate:onRemoteDevice:withReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)IMDCreateIMDMessageRecordRefFromIMMessageItem;
 - (id);
 - (_Bool);
 - (id);
-- (id)FinalMitigationRecommendation;
-- (id)ported;
+- (id)deleteFinalMitigationRecommendation;
+- (id)_hasCdmServiceSetupMetricsReported;
 - (void)rtedOrChanged;
-- (void)LEAPP__APPNAME;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__COMMONTCC__PROMPTTOENABLEAPP__APPNAME;
 - (int)rimitive.app.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestStatus;
-@property(nonatomic) _Bool hasRequestType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int requestStatus; // @synthesize requestStatus=_requestStatus;
 @property(nonatomic) int requestType; // @synthesize requestType=_requestType;
 
 @end

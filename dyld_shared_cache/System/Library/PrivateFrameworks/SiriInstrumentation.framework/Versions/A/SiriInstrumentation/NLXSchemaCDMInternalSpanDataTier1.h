@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMSiriVocabularySpanDataTier1, NSData;
+@class NLXSchemaCDMSiriVocabularySpanDataTier1;
 
 @interface NLXSchemaCDMInternalSpanDataTier1 : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMSiriVocabularySpanDataTier1 *_siriVocabularySpanData;
-    _Bool _hasSiriVocabularySpanData;
 }
 
 - (id);
@@ -21,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)PKEY_RSA_VERIFYRECOVER;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -32,8 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSiriVocabularySpanData; // @synthesize hasSiriVocabularySpanData=_hasSiriVocabularySpanData;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaCDMSiriVocabularySpanDataTier1 *siriVocabularySpanData; // @synthesize siriVocabularySpanData=_siriVocabularySpanData;
 
 @end

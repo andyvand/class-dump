@@ -4,54 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TUCallProviderManager, UINavigationController;
-@protocol MPSearchResultsUpdatingProtocol, MPSuggestedSearch;
+@class TUCallProviderManager;
+@protocol MPSuggestedSearch;
 
 @interface MPSuggestionsSearchController
 {
     id featureFlags;
     TUCallProviderManager *callProviderManager;
-    id $__lazy_storage_$_searchManager;
-    id RecentsSupportedSuggestionTypes;
-    id searchText;
-    void suggestionsDelegate;
-    id suggestionsTableViewController;
-    long long sectionIndex;
-    void sectionTitle;
-    unsigned int sectionType;
-    void delegate;
-    void hostingNavigationController;
-    id detailsPresenter;
-    void results;
-    void resultIDs;
 }
 
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)C;
+- (void);
+- (id);
+- (void);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (long long);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)_G;
+- (void)_;
 - (void);
 - (id);
 - (void);
@@ -59,14 +46,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager;
-@property(nonatomic) __weak id <MPSearchResultsUpdatingProtocol> delegate; // @synthesize delegate;
-@property(nonatomic) __weak UINavigationController *hostingNavigationController; // @synthesize hostingNavigationController;
-@property(nonatomic, readonly) long long maximumNumberOfRowsInSection;
-@property(nonatomic, copy) NSArray *resultIDs;
-@property(nonatomic, copy) NSArray *results;
-@property(nonatomic) long long sectionIndex; // @synthesize sectionIndex;
-@property(nonatomic, readonly) NSString *sectionTitle;
-@property(nonatomic) unsigned int sectionType; // @synthesize sectionType;
 @property(nonatomic) __weak id <MPSuggestedSearch> suggestionsDelegate; // @synthesize suggestionsDelegate;
 
 @end

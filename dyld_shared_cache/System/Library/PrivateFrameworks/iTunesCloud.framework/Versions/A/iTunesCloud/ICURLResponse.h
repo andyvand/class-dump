@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, ICURLPerformanceMetrics, NSData, NSDate, NSURL, NSURLRequest, NSURLResponse;
+@class NSURLRequest;
 
 @interface ICURLResponse
 {
     long long _parsedBodyResponseType;
-    id _parsedBodyResponse;
-    NSURLRequest *_urlRequest;
-    NSURLResponse *_urlResponse;
-    NSData *_bodyData;
-    NSURL *_bodyDataURL;
-    ICURLAggregatedPerformanceMetrics *_aggregatedPerformanceMetrics;
 }
 
 - (id);
@@ -25,24 +19,17 @@
 - (id);
 - (id);
 - (id);
+- (id)_usesDeferredShadows;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)alignmentFilter;
 - (id);
 - (void)V_adamID;
 - (long long);;
 
 // Remaining properties
-@property(readonly, nonatomic) ICURLAggregatedPerformanceMetrics *aggregatedPerformanceMetrics; // @synthesize aggregatedPerformanceMetrics=_aggregatedPerformanceMetrics;
-@property(readonly, nonatomic) NSData *bodyData; // @synthesize bodyData=_bodyData;
-@property(readonly, nonatomic) NSURL *bodyDataURL; // @synthesize bodyDataURL=_bodyDataURL;
-@property(readonly, nonatomic) NSDate *expirationDate;
-@property(readonly, nonatomic) ICURLPerformanceMetrics *performanceMetrics;
-@property(readonly, nonatomic) long long statusCode;
 @property(readonly, nonatomic) NSURLRequest *urlRequest; // @synthesize urlRequest=_urlRequest;
-@property(readonly, nonatomic) NSURLResponse *urlResponse; // @synthesize urlResponse=_urlResponse;
 
 @end
 

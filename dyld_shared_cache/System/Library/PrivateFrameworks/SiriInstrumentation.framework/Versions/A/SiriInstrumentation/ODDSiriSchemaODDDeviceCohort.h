@@ -6,24 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDTimeInterval;
+@class ODDSiriSchemaODDTimeInterval;
 
 @interface ODDSiriSchemaODDDeviceCohort : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDTimeInterval *_cohortInterval;
-    int _cohortType;
-    int _cohortDataAvailabilityState;
-    struct {
-        unsigned int cohortType:1;
-        unsigned int cohortDataAvailabilityState:1;
-    } _has;
-    _Bool _hasCohortInterval;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)j4x;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -33,12 +26,12 @@
 - (void);
 - (int);
 - (id);
-- (int);
+- (int);
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)sen;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -46,16 +39,10 @@
 × ;
 - (id)otToFirstRequestSeconds;
 - (id)aClassificationMetadata",&,N,V_metadata;
-- (void)yNLContextTier1;
+- (void)nlxLegacyNLContextTier1;
 
 // Remaining properties
-@property(nonatomic) int cohortDataAvailabilityState; // @synthesize cohortDataAvailabilityState=_cohortDataAvailabilityState;
 @property(retain, nonatomic) ODDSiriSchemaODDTimeInterval *cohortInterval; // @synthesize cohortInterval=_cohortInterval;
-@property(nonatomic) int cohortType; // @synthesize cohortType=_cohortType;
-@property(nonatomic) _Bool hasCohortDataAvailabilityState;
-@property(nonatomic) _Bool hasCohortInterval; // @synthesize hasCohortInterval=_hasCohortInterval;
-@property(nonatomic) _Bool hasCohortType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

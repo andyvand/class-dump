@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHPommesRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
-- (int);
+- (int)ceLocalProxy navigationSessionManager:usePersistentDisplay:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)P;
+- (_Bool)A;
 - (_Bool);
 - (void);
 - (id);
 - (id)
 × ;
-- (id)tionsInMillionsPerSecond;
+- (id)_cpuInstructionsInMillionsPerSecond;
 - (id)on",&,N,V_planCreatedToLastResolverEventTime;
-- (void)XECUTIONERROR_LNPERFORMACTIONERRORCODE_CUSTOM_DIALOG;
+- (void)FLOWLINKEXECUTIONERROR_LNPERFORMACTIONERRORCODE_CUSTOM_DIALOG;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

@@ -15,12 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int attempts; // @dynamic attempts;
 @property(copy, nonatomic) NSString *factorPackId; // @dynamic factorPackId;
-@property(nonatomic) _Bool hasAttempts; // @dynamic hasAttempts;
-@property(nonatomic) _Bool hasFactorPackId; // @dynamic hasFactorPackId;
-@property(nonatomic) _Bool hasRejected; // @dynamic hasRejected;
-@property(nonatomic) _Bool rejected; // @dynamic rejected;
 
 @end
 

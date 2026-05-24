@@ -4,46 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIRecurrenceAlertController, NSString;
-@protocol EKEditItemViewControllerDelegate, EKViewControllerRemoteUIDelegate;
+@protocol EKViewControllerRemoteUIDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EKEditItemViewController
 {
     struct CGRect _initialFrame;
-    unsigned long long _subitem;
-    _Bool _modal;
-    id <EKEditItemViewControllerDelegate> _editDelegate;
-    EKUIRecurrenceAlertController *_recurrenceAlertController;
-    _Bool _showsDoneButton;
-    id <EKViewControllerRemoteUIDelegate> _remoteUIDelegate;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
+- (void)&s;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)s;
+- (void)X8*s;
+- (void)%s;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (double);
-- (double);
-- (double);
+- (double);
+- (double);
+- (double)m;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)brary bundle is auto-created if necessary by calling cloudInternalClient isReadyForCloudPhotoLibrary...;
 - (id);
-- (void);
+- (void)interCellHorizontalSpacing:%.2f
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -54,33 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)resetOccurrenceViewColors;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <EKEditItemViewControllerDelegate> editDelegate; // @synthesize editDelegate=_editDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<EKEditItemViewControllerDelegate>",?,W,N,V_editDelegate
-
-@property(nonatomic) _Bool editItemShouldBeAskedForInjectableViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool modal; // @synthesize modal=_modal;
-@property(nonatomic) _Bool presentModally;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 @property(nonatomic) __weak id <EKViewControllerRemoteUIDelegate> remoteUIDelegate; // @synthesize remoteUIDelegate=_remoteUIDelegate;
-@property(nonatomic) _Bool showsDoneButton; // @synthesize showsDoneButton=_showsDoneButton;
-@property(nonatomic) unsigned long long subitem; // @synthesize subitem=_subitem;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useCustomBackButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 
 @end
 

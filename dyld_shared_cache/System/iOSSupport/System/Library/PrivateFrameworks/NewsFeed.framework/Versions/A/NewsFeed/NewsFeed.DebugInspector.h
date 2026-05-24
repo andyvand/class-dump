@@ -7,14 +7,6 @@
 @interface NewsFeed.DebugInspector
 {
     id $__lazy_storage_$_inspection;
-    id cloudContext;
-    id feedPersonalizer;
-    id tagService;
-    id feedItems;
-    id deduplicateItemIdentifiers;
-    id inspectionGroup;
-    id webEmbedDataSourceService;
-    id history;
 }
 
 @end

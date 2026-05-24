@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSArray, NSError, NSString, NSURL;
-@protocol AVCaptureFileOutputRecordingDelegate_Tundra;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureFileOutputRecordingOperationDescriptor
 {
     NSURL *_outputFileURL;
-    NSError *_stopError;
-    _Bool _didStartWriting;
-    _Bool _paused;
-    AVWeakReference *_weakReferenceDelegate;
-    NSArray *_connections;
 }
 
 + (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)MSVLyricsSection;
+- (void);
+- (_Bool)losing _outputStream;
+- (id)y song duration;
+- (id)dTaskProvider %p Task #%ld ended [%{public}@];
+- (id)0@"NSString"8@"NSCoder<MSVSegmentedSubEncoder>"16^B24;
+- (void)accountTypeWithAccountTypeIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -33,18 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)\­êÿ<Û.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *connections; // @synthesize connections=_connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <AVCaptureFileOutputRecordingDelegate_Tundra> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSURL *outputFileURL; // @synthesize outputFileURL=_outputFileURL;
-@property(getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(copy) NSError *stopError; // @synthesize stopError=_stopError;
-@property(readonly) Class superclass;
 
 @end
 

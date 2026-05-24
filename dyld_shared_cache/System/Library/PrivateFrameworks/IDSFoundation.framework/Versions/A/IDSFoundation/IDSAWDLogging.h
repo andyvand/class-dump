@@ -10,19 +10,18 @@
 @interface IDSAWDLogging
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AWDServerConnection *_AWDServerConnection;
 }
 
 + (id)leteRequestWithTransactionID:%llu, status:%d /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)q;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)beed;
+- (void)honeybeed;
 
 // Remaining properties
 @property(readonly) AWDServerConnection *AWDServerConnection; // @synthesize AWDServerConnection=_AWDServerConnection;

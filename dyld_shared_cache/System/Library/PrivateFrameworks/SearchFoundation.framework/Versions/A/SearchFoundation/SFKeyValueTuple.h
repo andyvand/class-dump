@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFKeyValueTuple
 {
     NSString *_key;
-    NSString *_value;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)setGenreName:(id)arg1;
 - (unsigned long long);
-- (id);
+- (id)%;
 - (_Bool);
-- (void);
+- (void)IdentifierForAlertType:(id)arg1 (%{public}@) […]. persistedToneIdentifier = %{public}@.;
+- (id)2@40;
+- (id)Conversation;
+- (id)changeFlag0;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)l;
+- (void)ersions/A/Metal;
+- (void)_email;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

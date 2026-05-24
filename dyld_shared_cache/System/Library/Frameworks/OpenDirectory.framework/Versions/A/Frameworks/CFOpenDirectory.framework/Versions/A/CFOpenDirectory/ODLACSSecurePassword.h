@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     LACSSecurePassword *_underlying;
 }
 
-- (void);
-- (id);
+- (void)eature length mismatch. Got features of length %d expected length of %d;
+- (id)@"_SFLItem",R,V_internalItem;
 
 @end
 

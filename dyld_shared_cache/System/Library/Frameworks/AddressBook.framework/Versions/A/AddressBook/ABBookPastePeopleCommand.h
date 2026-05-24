@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABImportRecordFactory, ABRecordContext, NSArray, NSDictionary, NSMutableArray;
+@class ABRecordContext;
 
 @interface ABBookPastePeopleCommand
 {
     ABRecordContext *_recordContext;
-    NSArray *_groups;
-    NSDictionary *_pasteboardDictionary;
-    NSMutableArray *_addedPersonUids;
-    ABImportRecordFactory *_importRecordFactory;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -29,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (id);

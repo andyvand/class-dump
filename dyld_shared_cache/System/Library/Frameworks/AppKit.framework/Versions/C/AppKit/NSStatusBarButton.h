@@ -13,19 +13,19 @@
 + (void)³_ÿ +H;
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (struct NSEdgeInsets);
 - (_Bool);
 - (id);
 - (SEL);
-- (id);
+- (id)_responseHeaderBytesReceived;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)_zoomBottomAndTop:(long long)arg1;
 
 // Remaining properties
 @property _Bool appearsDisabled;

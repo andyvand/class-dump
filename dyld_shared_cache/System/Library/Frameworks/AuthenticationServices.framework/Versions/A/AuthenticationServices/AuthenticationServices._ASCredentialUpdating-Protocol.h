@@ -5,5 +5,6 @@
 //
 
 @protocol AuthenticationServices._ASCredentialUpdating
+- (void)2;
 @end
 

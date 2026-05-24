@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate;
+@class NSString;
 
 @interface _SFPBReminder
 {
     NSString *_title;
-    _SFPBDate *_dueDate;
-    NSString *_notes;
 }
 
 - (void);
@@ -22,8 +20,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)resourceIdentity;
+- (id)orig (%p);
 - (id);
 - (void);
 - (id);
@@ -31,16 +29,6 @@
 - (void)dCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBDate *dueDate; // @synthesize dueDate=_dueDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

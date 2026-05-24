@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFColor;
-
 @interface SFButtonItemAppearance
 {
     struct {
@@ -14,11 +12,6 @@
         unsigned int renderingMode:1;
         unsigned int preferNoFallbackImage:1;
     } _has;
-    _Bool _preferNoFallbackImage;
-    int _style;
-    int _role;
-    int _renderingMode;
-    SFColor *_tintColor;
 }
 
 + (_Bool);
@@ -28,39 +21,26 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)pinLibraryArtistWithPersistentID:(id)arg1 cloudArtistID:defaultAction:completion: /* Error: Ran out of types for this method. */;
 - (int);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)videoLiveRenderContextWithRequestID:(id)arg1 managerID:asset:options:targetSize:contentMode:renderedVideoHandler: /* Error: Ran out of types for this method. */;
+- (id)PHUserFeedbackPropertyType;
 - (id);
 - (id);
 - (void);
 - (id);
 - (int);
 - (void)",&,N,V_sectionHeaderCardSection;
-- (_Bool)eProviderIdentifier;
+- (_Bool)_fileProviderIdentifier;
 - (void);
 - (void)};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool preferNoFallbackImage; // @synthesize preferNoFallbackImage=_preferNoFallbackImage;
-@property(nonatomic) int renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(nonatomic) int role; // @synthesize role=_role;
 @property(nonatomic) int style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SFColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

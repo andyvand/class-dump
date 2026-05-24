@@ -7,24 +7,6 @@
 @interface SkyLight.PresetHostShim
 {
     id disableHarmony;
-    id disableNightShift;
-    id disableAutoBrightness;
-    id disableAutoBlackLevel;
-    id maxAutoBrightness;
-    id disableHDRToneMapping;
-    id maxPotentialEDRHeadroom;
-    id disableUserAdjustment;
-    id disableUserAdjustmentInterfaces;
-    id systemGammaValue;
-    id targetAmbientBrightness;
-    id targetAmbientBrightnessExcursion;
-    id minBrightnessForSlider;
-    id maxBrightnessForSlider;
-    id defaultBrightnessForSlider;
-    id allowAppleLook;
-    id highPrecision;
-    id visibleByDefault;
-    id allowNotifications;
 }
 
 @end

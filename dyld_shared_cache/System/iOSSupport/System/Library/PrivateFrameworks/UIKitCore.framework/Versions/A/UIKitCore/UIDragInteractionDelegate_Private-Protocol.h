@@ -4,15 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDragInteraction;
+@class UIDragInteraction, UIView;
 
 @protocol UIDragInteractionDelegate_Private
 
 @optional
+- (UIView *);
+- (void)amework/Versions/A/CacheDelete;
 - (_Bool)1Â0@ù
 × ;
-- (_Bool)howsDeleteButton:(UIDragInteraction *)arg1;
-- (long long)nControllerSourceItem;
+- (_Bool)_setShowsDeleteButton:(UIDragInteraction *)arg1;
+- (long long)_UIObscuredPopoverPresentationControllerSourceItem;
 - (long long);
 @end
 

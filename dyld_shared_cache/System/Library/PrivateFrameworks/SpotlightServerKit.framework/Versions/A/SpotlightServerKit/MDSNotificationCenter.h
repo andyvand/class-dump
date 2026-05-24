@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSObject;
-@protocol OS_dispatch_queue;
+@class NSNotificationCenter;
 
 @interface MDSNotificationCenter
 {
     NSNotificationCenter *_localCenter;
-    NSObject<OS_dispatch_queue> *_postingQueue;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Created reporter delegate:(id)arg1;
 - (void);
 - (void);
 - (void);

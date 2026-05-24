@@ -8,23 +8,15 @@
 
 @protocol _INPBPaymentMethodValue
 - (void);
-- (NSString *)sedTimeForUpdateAlarm:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (_Bool)currencyCode;
+- (void);
+- (NSString *)resolveProposedTimeForUpdateAlarm:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)_currencyCode;
 - (_Bool)iri;
 - (void)onnectedCall",&,N,V_startedCall;
-- (void)ck;
-- (_INPBValueMetadata *)efaultParticipantsForAddCallParticipant: /* Error: Ran out of types for this method. */;
+- (void)callRecordToCallBack;
+- (_INPBValueMetadata *)defaultParticipantsForAddCallParticipant: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIcon;
-@property(readonly, nonatomic) _Bool hasIdentificationHint;
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(retain, nonatomic) _INPBImageValue *icon;
-@property(copy, nonatomic) NSString *identificationHint;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) int type;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

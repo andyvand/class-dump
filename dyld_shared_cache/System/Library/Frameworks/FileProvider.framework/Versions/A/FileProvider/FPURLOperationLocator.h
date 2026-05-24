@@ -9,7 +9,6 @@
 @interface FPURLOperationLocator : FPActionOperationLocator
 {
     _Bool _attachSandboxExtensionOnXPCEncoding;
-    long long _size;
 }
 
 + (_Bool);

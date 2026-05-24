@@ -6,42 +6,34 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class UIVisualEffectView, _UILumaTrackingBackdropView;
+@class UIVisualEffectView;
 
 @interface _UIGrabber : UIControl
 {
     _Bool __lumaTrackingEnabled;
-    _Bool __blurEnabled;
-    UIVisualEffectView *__visualEffectView;
-    _UILumaTrackingBackdropView *__lumaTrackingBackdropView;
-    unsigned long long __backgroundLuminanceLevel;
 }
 
 - (_Bool);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)__objc_protolist__DATA_CONST;
+- (void)_name;
+- (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void);
 - (id);
 - (id);
-- (id)ItemAtIndexPath:(struct CGRect)arg1;
-- (void)Interaction;
+- (id)_delegateAllowsSelectingItemAtIndexPath:(struct CGRect)arg1;
+- (void)UIScribbleInteraction;
 - (void)<;
 - (struct CGSize)pøÐH;
 - (id)ðîÿ;
 - (_Bool)ontentView.m;
-- (id)tyDidChangeNotification;
-- (id)mpactHeight;
+- (id)UIViewGlassLegibilityDidChangeNotification;
+- (id)_tucksIntoUnsafeAreaInCompactHeight;
 - (void)ä±[;
 - (unsigned long long)ãEÓâ_;
 
 // Remaining properties
-@property(nonatomic, setter=_setBackgroundLuminanceLevel:) unsigned long long _backgroundLuminanceLevel; // @synthesize _backgroundLuminanceLevel=__backgroundLuminanceLevel;
-@property(nonatomic, getter=_isBlurEnabled, setter=_setBlurEnabled:) _Bool _blurEnabled; // @synthesize _blurEnabled=__blurEnabled;
-@property(readonly, nonatomic) _UILumaTrackingBackdropView *_lumaTrackingBackdropView; // @synthesize _lumaTrackingBackdropView=__lumaTrackingBackdropView;
-@property(nonatomic, setter=_setLumaTrackingEnabled:) _Bool _lumaTrackingEnabled; // @synthesize _lumaTrackingEnabled=__lumaTrackingEnabled;
 @property(readonly, nonatomic) UIVisualEffectView *_visualEffectView; // @synthesize _visualEffectView=__visualEffectView;
 
 @end

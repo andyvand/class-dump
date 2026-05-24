@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupEntry, NSArray, NSDictionary, NSString;
-@protocol ABGroupEntriesFactory;
+@class NSArray, NSDictionary;
 
 @interface ABGroupEntriesList
 {
     NSArray *_groupEntries;
-    NSDictionary *_groupEntriesByIdentifier;
-    ABGroupEntry *_allDirectoriesGroupEntry;
-    ABGroupEntry *_defaultDirectoryGroupEntry;
-    id <ABGroupEntriesFactory> _groupEntriesFactory;
-    _Bool _needsRebuild;
-    _Bool _defersRebuild;
-    NSString *_identifierOfAccountCreatingNewGroup;
 }
 
 - (void);
@@ -38,25 +30,21 @@
 - (id);
 - (void);
 - (id);
+- (void)!;
 - (void);
+- (void)<hb;
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)ª1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) ABGroupEntry *allDirectoriesGroupEntry; // @synthesize allDirectoriesGroupEntry=_allDirectoriesGroupEntry;
-@property(retain) ABGroupEntry *defaultDirectoryGroupEntry; // @synthesize defaultDirectoryGroupEntry=_defaultDirectoryGroupEntry;
-@property(readonly, copy) NSArray *groupEntries;
 @property(copy) NSDictionary *groupEntriesByIdentifier; // @synthesize groupEntriesByIdentifier=_groupEntriesByIdentifier;
-@property(copy) NSString *identifierOfAccountCreatingNewGroup; // @synthesize identifierOfAccountCreatingNewGroup=_identifierOfAccountCreatingNewGroup;
 
 @end
 

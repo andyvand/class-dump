@@ -7,21 +7,19 @@
 @interface IMMockItemInfo
 {
     _Bool _outgoing;
-    long long _type;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool)gnmentMode:numRegions: /* Error: Ran out of types for this method. */;
-- (id);
++ (_Bool)convertSparsePixelRegions:toTileRegions:withTileSize:alignmentMode:numRegions: /* Error: Ran out of types for this method. */;
+- (id)utedString",R,N;
 - (_Bool);
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool outgoing; // @synthesize outgoing=_outgoing;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

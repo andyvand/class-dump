@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPStartSearchFeedback
 {
     int _triggerEvent;
-    int _searchType;
-    unsigned long long _timestamp;
-    NSString *_input;
-    NSString *_uuid;
-    unsigned long long _queryId;
 }
 
 - (int);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)q;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -30,27 +23,15 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)rgencyCallbackPossible:%d
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)16@0:(int)arg1 8;
 - (int)Request;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(nonatomic) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(nonatomic) int searchType; // @synthesize searchType=_searchType;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent; // @synthesize triggerEvent=_triggerEvent;
-@property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -4,60 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCompanionTransitAlightMessage, GEOLatLng, GEOLocation, NSArray, NSData, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOCompanionRouteStatus
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _selectedRideIndexs;
-    GEOCompanionTransitAlightMessage *_alightMessage;
-    GEOLocation *_location;
-    NSData *_routeID;
-    GEOLatLng *_routeMatchCoordinate;
-    double _timestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _displayedStepID;
-    unsigned int _distanceRemainingOnRoute;
-    unsigned int _distanceToManeuver;
-    unsigned int _distanceToRoute;
-    int _feedbackType;
-    int _hapticsType;
-    unsigned int _remainingTime;
-    unsigned int _routeLocationIndex;
-    float _routeLocationOffset;
-    unsigned int _stepID;
-    _Bool _guidancePromptsEnabled;
-    _Bool _isConnectedToCarplay;
-    _Bool _isOffline;
-    _Bool _lowGuidanceNavigation;
-    struct {
-        unsigned int has_timestamp:1;
-        unsigned int has_displayedStepID:1;
-        unsigned int has_distanceRemainingOnRoute:1;
-        unsigned int has_distanceToManeuver:1;
-        unsigned int has_distanceToRoute:1;
-        unsigned int has_feedbackType:1;
-        unsigned int has_hapticsType:1;
-        unsigned int has_remainingTime:1;
-        unsigned int has_routeLocationIndex:1;
-        unsigned int has_routeLocationOffset:1;
-        unsigned int has_stepID:1;
-        unsigned int has_guidancePromptsEnabled:1;
-        unsigned int has_isConnectedToCarplay:1;
-        unsigned int has_isOffline:1;
-        unsigned int has_lowGuidanceNavigation:1;
-        unsigned int read_selectedRideIndexs:1;
-        unsigned int read_alightMessage:1;
-        unsigned int read_location:1;
-        unsigned int read_routeID:1;
-        unsigned int read_routeMatchCoordinate:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)bjectGroupId:(id)arg1;
++ (_Bool)setHasObjectGroupId:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -70,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S;
 - (void);
 - (void);
 - (void);
@@ -94,37 +48,37 @@
 - (id);
 - (float);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)nobiliaryParticleElements;
+- (_Bool)r:workloopSchedulerProvider:synchronousSerialSchedulerProvider:readerWriterSchedulerProvider: /* Error: Ran out of types for this method. */;
+- (id)givenLocalizedString:(unsigned long long)arg1 forKey:table:bundleForClass: /* Error: Ran out of types for this method. */;
+- (id):(id)arg1;
+- (id)countryCodeForCountryName:(id)arg1;
+- (_Bool)CNDateComponentsFormatter;
+- (_Bool)CNObservableThrottleFirstSchedulerBlockObserver;
+- (_Bool)CNObservableThrottleFirstSchedulerBlockObserver;
+- (_Bool)CNObservableTakeLastBlockObserver;
+- (_Bool)CNObservableOnErrorHandlerBlockObserver;
+- (_Bool)CNImmediateSchedulerCancelationToken;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)onQueue;
+- (_Bool)error;
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
-- (id);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (_Bool)noun;
+- (_Bool)oked up because the future has deallocated;
+- (id)w undefined.;
+- (int), but the behavior is now undefined.;
+- (id)nnot be nil;
+- (unsigned int)];
+- (unsigned int)gana:][:scx=Kana:][:Bopomofo:][:Hangul:]] /* Error: Ran out of types for this method. */;
+- (unsigned int)alau;
+- (unsigned int)apua New Guinea;
 - (void);
 - (id);
 - (void);
@@ -148,14 +102,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)isDoAPAudioRouteWithRecordRoute:(id)arg1;
+- (id)thAlertOverride:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (double);
-- (void);
+- (double)(;
+- (void)32@0:(_Bool)arg1 8{IOUSBHostCIMessage=IIQ}16;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -163,11 +117,11 @@
 - (id);
 - (void)
 × ;
-- (void);
-- (id)GapAtIndex:(struct _NSZone *)arg1;
+- (void)targetCharType;
+- (id)serviceGapAtIndex:(struct _NSZone *)arg1;
 - (id)l<¬;
-- (id)unded_to_hour;
-- (_Bool)haracters;
+- (id)first_event_time_rounded_to_hour;
+- (_Bool)valid_characters;
 - (id)ÿÿ;
 - (id)þÿÿÿ;
 - (void)Dº;
@@ -178,60 +132,7 @@
 - (void);Ô;
 
 // Remaining properties
-@property(retain, nonatomic) GEOCompanionTransitAlightMessage *alightMessage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int displayedStepID;
-@property(nonatomic) unsigned int distanceRemainingOnRoute;
-@property(nonatomic) unsigned int distanceToManeuver;
-@property(nonatomic) unsigned int distanceToRoute;
-@property(readonly, nonatomic) unsigned int effectiveDistanceToManeuver;
-@property(readonly, nonatomic) unsigned int effectiveStepID;
-@property(nonatomic) int feedbackType;
-@property(nonatomic) _Bool guidancePromptsEnabled;
-@property(nonatomic) int hapticsType;
-@property(readonly, nonatomic) _Bool hasAlightMessage;
-@property(nonatomic) _Bool hasDisplayedStepID;
-@property(nonatomic) _Bool hasDistanceRemainingOnRoute;
-@property(nonatomic) _Bool hasDistanceToManeuver;
-@property(nonatomic) _Bool hasDistanceToRoute;
-@property(readonly, nonatomic) _Bool hasEffectiveDistanceToManeuver;
-@property(readonly, nonatomic) _Bool hasEffectiveStepID;
-@property(nonatomic) _Bool hasFeedbackType;
-@property(nonatomic) _Bool hasGuidancePromptsEnabled;
-@property(nonatomic) _Bool hasHapticsType;
-@property(nonatomic) _Bool hasIsConnectedToCarplay;
-@property(nonatomic) _Bool hasIsOffline;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasLowGuidanceNavigation;
-@property(nonatomic) _Bool hasRemainingTime;
-@property(readonly, nonatomic) _Bool hasRouteID;
-@property(nonatomic) _Bool hasRouteLocationIndex;
-@property(nonatomic) _Bool hasRouteLocationOffset;
-@property(readonly, nonatomic) _Bool hasRouteMatchCoordinate;
-@property(nonatomic) _Bool hasStepID;
-@property(nonatomic) _Bool hasTimestamp;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isConnectedToCarplay;
-@property(readonly, nonatomic) _Bool isNavigating;
-@property(nonatomic) _Bool isOffline;
-@property(readonly, nonatomic) _Bool isRecalculating;
-@property(retain, nonatomic) GEOLocation *location;
-@property(nonatomic) _Bool lowGuidanceNavigation;
-@property(nonatomic) unsigned int remainingTime;
-@property(retain, nonatomic) NSData *routeID;
-@property(nonatomic) unsigned int routeLocationIndex;
-@property(nonatomic) float routeLocationOffset;
-@property(retain, nonatomic) GEOLatLng *routeMatchCoordinate;
-@property(readonly, nonatomic) unsigned int *selectedRideIndexs;
-@property(readonly, nonatomic) unsigned long long selectedRideIndexsCount;
-@property(readonly, nonatomic) NSArray *selectedRideIndices;
-@property(nonatomic) unsigned int stepID;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ASRSchemaASRFinalAudioPacketContainingSpeechReadyUpstream : SISchemaInstrumentationMessage
 {
     NSString *_loggableSharedUserId;
-    NSString *_resultCandidateId;
-    NSString *_loggableUserIdHash;
-    _Bool _hasLoggableSharedUserId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasLoggableUserIdHash;
 }
 
 - (void);
@@ -32,27 +27,21 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)setIAPTimeSyncParams:(id)arg1;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)adata;
+- (id)siriPegasusMetadata;
 - (id)Üîï;
 - (id);
 - (void)?¨ÿ±±	';
 
 // Remaining properties
-@property(nonatomic) _Bool hasLoggableSharedUserId; // @synthesize hasLoggableSharedUserId=_hasLoggableSharedUserId;
-@property(nonatomic) _Bool hasLoggableUserIdHash; // @synthesize hasLoggableUserIdHash=_hasLoggableUserIdHash;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *loggableSharedUserId; // @synthesize loggableSharedUserId=_loggableSharedUserId;
-@property(copy, nonatomic) NSString *loggableUserIdHash; // @synthesize loggableUserIdHash=_loggableUserIdHash;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
 
 @end
 

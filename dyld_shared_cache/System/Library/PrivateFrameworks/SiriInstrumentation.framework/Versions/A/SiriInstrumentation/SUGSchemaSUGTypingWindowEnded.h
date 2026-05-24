@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGTypingWindowEnded : SISchemaInstrumentationMessage
 {
     int _typingWindowEndReason;
-    struct {
-        unsigned int typingWindowEndReason:1;
-    } _has;
 }
 
 - (int);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)(;
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)umber"16@?<v@?@"NSError">24;
+- (_Bool)g>",&,V_searchNode;
+- (_Bool)id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE associated_message_guid = ? ORDER BY message.ROWID ASC;;
 - (id);
 - (id);
-- (id)ialRepetitionConfidence;
-- (id)ts;
+- (id)deletePartialRepetitionConfidence;
+- (id)_hits;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTypingWindowEndReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int typingWindowEndReason; // @synthesize typingWindowEndReason=_typingWindowEndReason;
 
 @end

@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface ADSegmentUpdateRequest
 {
     CDStruct_95bda58d _accountStates;
-    CDStruct_95bda58d _accountTypes;
-    CDStruct_95bda58d _deviceModes;
-    double _iTunesRefreshTime;
-    double _updateSentTime;
-    NSString *_advertisingIdentifier;
-    int _advertisingIdentifierMonthResetCount;
-    NSData *_dPID;
-    NSData *_iAdID;
-    NSString *_localeIdentifier;
-    NSString *_osVersionAndBuild;
-    NSString *_segmentInfo;
-    float _timezone;
-    _Bool _isFirstPartyIdentifier;
-    struct {
-        unsigned int iTunesRefreshTime:1;
-        unsigned int updateSentTime:1;
-        unsigned int advertisingIdentifierMonthResetCount:1;
-        unsigned int timezone:1;
-        unsigned int isFirstPartyIdentifier:1;
-    } _has;
 }
 
 + (id);
@@ -59,82 +37,55 @@
 - (void);
 - (unsigned long long);
 - (int);
-- (void);
-- (id);
-- (id);
+- (void)ints:(_Bool)arg1 WARNING:Moving State not yet available. /* Error: Ran out of types for this method. */;
+- (id)not initialized; not configured;
+- (id)hB9;
 - (void);
 - (int);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void)_addImageGPSPropertiesToSyndicationProperties:(int *)arg1;
 - (void);
-- (void);
-- (int);
+- (int);
 - (_Bool);
-- (void);
-- (int);
+- (void)/;
+- (int)tant(%@/%@; %@/%@/%@) Ace/%@;
 - (int *);
 - (_Bool);
 - (int *);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)isManateeContainer;
 - (id);
-- (void);
+- (void)playerControllerIsPlayingObservationToken;
 - (int);
 - (id);
 - (void);
 - (void);
-- (float);
-- (void);
+- (float)P;
+- (void)walrus_muttonChops_shadow;
 - (int);
 - (int);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (int *);
+- (void)A;
+- (int *)7;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int *accountStates;
-@property(readonly, nonatomic) unsigned long long accountStatesCount;
-@property(readonly, nonatomic) int *accountTypes;
-@property(readonly, nonatomic) unsigned long long accountTypesCount;
-@property(retain, nonatomic) NSString *advertisingIdentifier; // @synthesize advertisingIdentifier=_advertisingIdentifier;
-@property(nonatomic) int advertisingIdentifierMonthResetCount; // @synthesize advertisingIdentifierMonthResetCount=_advertisingIdentifierMonthResetCount;
-@property(retain, nonatomic) NSData *dPID; // @synthesize dPID=_dPID;
-@property(readonly, nonatomic) int *deviceModes;
-@property(readonly, nonatomic) unsigned long long deviceModesCount;
-@property(readonly, nonatomic) _Bool hasAdvertisingIdentifier;
-@property(nonatomic) _Bool hasAdvertisingIdentifierMonthResetCount;
-@property(readonly, nonatomic) _Bool hasDPID;
 @property(readonly, nonatomic) _Bool hasIAdID;
-@property(nonatomic) _Bool hasITunesRefreshTime;
-@property(nonatomic) _Bool hasIsFirstPartyIdentifier;
-@property(readonly, nonatomic) _Bool hasLocaleIdentifier;
-@property(readonly, nonatomic) _Bool hasOsVersionAndBuild;
-@property(readonly, nonatomic) _Bool hasSegmentInfo;
-@property(nonatomic) _Bool hasTimezone;
-@property(nonatomic) _Bool hasUpdateSentTime;
-@property(retain, nonatomic) NSData *iAdID; // @synthesize iAdID=_iAdID;
-@property(nonatomic) double iTunesRefreshTime; // @synthesize iTunesRefreshTime=_iTunesRefreshTime;
-@property(nonatomic) _Bool isFirstPartyIdentifier; // @synthesize isFirstPartyIdentifier=_isFirstPartyIdentifier;
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(retain, nonatomic) NSString *osVersionAndBuild; // @synthesize osVersionAndBuild=_osVersionAndBuild;
-@property(retain, nonatomic) NSString *segmentInfo; // @synthesize segmentInfo=_segmentInfo;
-@property(nonatomic) float timezone; // @synthesize timezone=_timezone;
-@property(nonatomic) double updateSentTime; // @synthesize updateSentTime=_updateSentTime;
 
 @end
 

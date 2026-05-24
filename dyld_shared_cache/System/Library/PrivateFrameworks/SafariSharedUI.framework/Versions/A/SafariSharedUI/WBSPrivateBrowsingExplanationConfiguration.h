@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSPrivacyProxyAvailabilityManager, WBSSearchProvider;
-
 @interface WBSPrivateBrowsingExplanationConfiguration
 {
     _Bool _userHasPassword;
-    long long _biometryType;
-    WBSPrivacyProxyAvailabilityManager *_privacyProxyAvailabilityManager;
-    WBSSearchProvider *_privateBrowsingSearchEngine;
 }
 
 - (void);
-- (id);
-- (_Bool);
-- (void);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -26,9 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) long long biometryType; // @synthesize biometryType=_biometryType;
-@property(retain, nonatomic) WBSPrivacyProxyAvailabilityManager *privacyProxyAvailabilityManager; // @synthesize privacyProxyAvailabilityManager=_privacyProxyAvailabilityManager;
-@property(retain, nonatomic) WBSSearchProvider *privateBrowsingSearchEngine; // @synthesize privateBrowsingSearchEngine=_privateBrowsingSearchEngine;
-@property(nonatomic) _Bool userHasPassword; // @synthesize userHasPassword=_userHasPassword;
 
 @end
 

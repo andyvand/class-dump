@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 + (void);
 + (struct CGRect);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)_proxy;
+- (id)urrentDevice:%@, call:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);

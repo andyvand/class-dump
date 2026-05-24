@@ -9,7 +9,7 @@
     id completionHandler;
 }
 
-- (void);
+- (void)onse"24@"NSError"32;
 - (id);
 - (void)èNE;
 

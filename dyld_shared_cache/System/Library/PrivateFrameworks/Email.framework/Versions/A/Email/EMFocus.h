@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface EMFocus
 {
@@ -16,24 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)startFetchActivityWithInterval:(id)arg1;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 @property(readonly, copy, nonatomic) NSSet *focusedAccountIdentifiers; // @synthesize focusedAccountIdentifiers=_focusedAccountIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

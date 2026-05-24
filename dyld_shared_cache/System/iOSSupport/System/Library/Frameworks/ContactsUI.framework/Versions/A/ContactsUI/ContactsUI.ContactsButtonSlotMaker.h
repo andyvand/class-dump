@@ -7,15 +7,6 @@
 @interface ContactsUI.ContactsButtonSlotMaker
 {
     id logger;
-    id slotView;
-    id queryStr;
-    id ignoredEmails;
-    id ignoredPhones;
-    id traits;
-    id didFaultAlreadyForUndesiredRendering;
-    id cachedCalculatedFrame;
-    id $__lazy_storage_$_connection;
-    id $__lazy_storage_$_proxy;
 }
 
 @end

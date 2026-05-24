@@ -6,15 +6,13 @@
 
 #import <UIKitCore/_UIVisibilityPropagationView.h>
 
-@class CALayerHost;
-
 @interface _UILayerHostView : _UIVisibilityPropagationView
 {
     int _pid;
     unsigned int _contextID;
 }
 
-+ (Class);
++ (Class)_setOrderingProperties: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (unsigned int)0@ù
@@ -23,15 +21,13 @@
 × ;
 - (id)
 × ;
-- (id)allbackMonth:(struct CGRect)arg1;
+- (id)_ensureReferenceMonthWithFallbackMonth:(struct CGRect)arg1;
 - (void)r _deactivateWithCompletionBlock:(unsigned int)arg1 ];
 - (void)tion that was not started interactively;
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned int contextID;
-@property(nonatomic) _Bool inheritsSecurity;
-@property(readonly, retain, nonatomic) CALayerHost *layerHost;
 
 @end
 

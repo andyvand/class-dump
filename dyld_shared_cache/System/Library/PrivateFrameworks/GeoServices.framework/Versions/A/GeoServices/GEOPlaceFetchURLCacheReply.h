@@ -6,29 +6,22 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface GEOPlaceFetchURLCacheReply : GEOXPCReply
 {
     NSDictionary *_allCacheEntries;
 }
 
-- (void);
+- (void)_$!<EX-ImAddress2>!$_;
 - (id);
 - (id);
 - (_Bool);
-- (void)ressStatus;
+- (void)keypressStatus;
 - (void)Ðïû7/jK@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *allCacheEntries; // @synthesize allCacheEntries=_allCacheEntries;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

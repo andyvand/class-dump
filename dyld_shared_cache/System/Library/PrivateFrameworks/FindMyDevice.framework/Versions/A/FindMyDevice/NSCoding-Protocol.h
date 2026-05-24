@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id)_stopOnSuccess;
+- (void)rkit.storeChanged;
 @end
 

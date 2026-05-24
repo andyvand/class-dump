@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface ODMSiriSchemaODMTrialExperimentIdentifiers : SISchemaInstrumentationMessage
 {
     NSString *_experimentId;
-    SISchemaUUID *_treatmentId;
-    long long _deploymentId;
-    CDStruct_487889ba _has;
-    _Bool _hasExperimentId;
-    _Bool _hasTreatmentId;
 }
 
 - (void);
@@ -23,37 +18,31 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)lerProvider>";
+- (void)_OKButton;
+- (void)MediaServiceLibraryExitType;
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)licensePlate;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)ON                             c.ROWID = j.chat_id                           WHERE                             j.message_id = message.ROWID                           ) WHERE message.ROWID = (select j.message_id FROM chat c INNER JOIN chat_message_join j ON c.rowid = j.chat_id WHERE c.room_name IS NOT NULL); ;
+- (_Bool);
 - (id);
 - (id);
 - (id)!ÈFù1Þ°1Â0@ù
 × ;
-- (void)sAdaptiveSiriVolumeUserIntentDetected:(id)arg1;
+- (void)setHasAdaptiveSiriVolumeUserIntentDetected:(id)arg1;
 - (id)Ti,N,V_userResponseCategory;
 - (long long)sOrganizationNameMatch;
-- (id)sDonationTime;
+- (id)hasDonationTime;
 - (void)entEvent.rfGradingDialogReportedTier1;
 
 // Remaining properties
-@property(nonatomic) long long deploymentId; // @synthesize deploymentId=_deploymentId;
 @property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) _Bool hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasTreatmentId; // @synthesize hasTreatmentId=_hasTreatmentId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

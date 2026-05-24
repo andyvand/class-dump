@@ -15,10 +15,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_extensionToken;
 - (void)
 × ;
-- (id)ludeIsFlagged;
+- (id)includeIsFlagged;
 
 // Remaining properties
 @property(readonly, nonatomic) REMStore *store; // @synthesize store=_store;

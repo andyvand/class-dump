@@ -19,7 +19,7 @@
 + (id);
 + (unsigned short);
 - (id);
-- (id);
+- (id)AMSNotificationSettingsSection;
 - (void);
 
 @end

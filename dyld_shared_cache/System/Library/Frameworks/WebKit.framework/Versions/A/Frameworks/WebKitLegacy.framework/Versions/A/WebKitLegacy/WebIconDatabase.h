@@ -17,7 +17,7 @@
 + (void)gacy;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

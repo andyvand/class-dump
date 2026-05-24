@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-
 @interface SPOfflineAdvertisingKeys
 {
     long long _rotationInterval;
-    NSArray *_keys;
 }
 
 + (_Bool);
@@ -23,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy, nonatomic) NSArray *keys; // @synthesize keys=_keys;
 @property(readonly, nonatomic) long long rotationInterval; // @synthesize rotationInterval=_rotationInterval;
 
 @end

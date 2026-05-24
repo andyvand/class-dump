@@ -6,24 +6,11 @@
 
 #import <IOBluetooth/OBEXSession.h>
 
-@class IOBluetoothDevice, IOBluetoothRFCOMMChannel;
+@class IOBluetoothDevice;
 
 @interface IOBluetoothOBEXSession : OBEXSession
 {
     IOBluetoothDevice *mDevice;
-    unsigned char mRFCOMMChannelID;
-    IOBluetoothRFCOMMChannel *mRFCOMMChannel;
-    char *outBuffer;
-    unsigned long long bufferSize;
-    unsigned long long currentOffsetInBuffer;
-    _Bool waitingForRfcommSpace;
-    unsigned int mOpenConnectionTimeout;
-    SEL mOpenConnectionSelector;
-    id mOpenConnectionSelectorTarget;
-    void *mOpenConnectionRefCon;
-    CDUnknownFunctionPointerType mOpenConnectionCallback;
-    void *mOpenConnectionCallbackRefCon;
-    unsigned long long _asyncSizeUpdateCount;
 }
 
 + (id);
@@ -31,7 +18,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (void);
@@ -40,17 +27,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)6W;
+- (void)RC;
 - (int);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned char);
 - (unsigned char);
 - (id);
-- (id);
+- (id);
 - (int);
 - (unsigned long long);
 - (int);
@@ -64,10 +51,7 @@
 - (void);
 
 // Remaining properties
-@property unsigned long long asyncSizeUpdateCount; // @synthesize asyncSizeUpdateCount=_asyncSizeUpdateCount;
-@property unsigned char channelID; // @synthesize channelID=mRFCOMMChannelID;
 @property(retain) IOBluetoothDevice *device; // @synthesize device=mDevice;
-@property(retain) IOBluetoothRFCOMMChannel *rfcommChannel; // @synthesize rfcommChannel=mRFCOMMChannel;
 
 @end
 

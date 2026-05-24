@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface CMCaptureFrameSenderEndpoint
 {
     NSObject<OS_xpc_object> *_endpoint;
-    NSString *_endpointUniqueID;
-    NSString *_endpointType;
-    NSData *_endpointAuditToken;
-    NSData *_endpointProxyAuditToken;
-    int _endpointPID;
-    int _endpointProxyPID;
-    NSString *_endpointCameraUniqueID;
 }
 
 - (id);
 - (int);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)cterSet",R,V_decimalDigitAndSeperatorsCharacterSet;
 - (id);
 - (id);
 - (id);
@@ -34,13 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSObject<OS_xpc_object> *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly, copy) NSData *endpointAuditToken; // @synthesize endpointAuditToken=_endpointAuditToken;
-@property(readonly, copy) NSString *endpointCameraUniqueID; // @synthesize endpointCameraUniqueID=_endpointCameraUniqueID;
-@property(readonly) int endpointPID; // @synthesize endpointPID=_endpointPID;
-@property(readonly, copy) NSData *endpointProxyAuditToken; // @synthesize endpointProxyAuditToken=_endpointProxyAuditToken;
-@property(readonly) int endpointProxyPID; // @synthesize endpointProxyPID=_endpointProxyPID;
-@property(readonly, copy) NSString *endpointType; // @synthesize endpointType=_endpointType;
-@property(readonly, copy) NSString *endpointUniqueID; // @synthesize endpointUniqueID=_endpointUniqueID;
 
 @end
 

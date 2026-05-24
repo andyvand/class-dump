@@ -4,30 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemPhotosAttribution, NSDate, NSString, NSURL;
+@class NSDate, NSString;
 
 @protocol GEOMapItemPhoto
-- (NSString *);
+- (_Bool);
+- (NSDate *);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapItemPhotosAttribution *attribution;
 @property(readonly, nonatomic) NSString *author;
-@property(readonly, nonatomic) NSString *backgroundJoeColor;
-@property(readonly, nonatomic) _Bool businessProvided;
-@property(readonly, nonatomic) NSString *caption;
-@property(readonly, nonatomic) NSDate *dateCreated;
-@property(readonly, nonatomic) _Bool displayFullScreenPhotoGallery;
-@property(readonly, nonatomic) NSString *firstPhotoUrl;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool highQuality;
-@property(readonly, nonatomic) _Bool isBackgroundJoeColorCurated;
-@property(readonly, nonatomic) NSString *licenseDescription;
-@property(readonly, nonatomic) NSURL *licenseURL;
-@property(readonly, nonatomic) _Bool needsObfuscationWhenRenderedInFullScreen;
-@property(readonly, nonatomic) double sizeRatio;
-@property(readonly, nonatomic) NSString *uid;
-@property(readonly, nonatomic) _Bool useGallery;
 @end
 

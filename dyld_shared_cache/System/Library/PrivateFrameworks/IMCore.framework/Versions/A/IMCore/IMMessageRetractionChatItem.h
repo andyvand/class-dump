@@ -6,27 +6,23 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, IMMessage, IMMessageItem, NSArray, NSString;
+@class IMHandle;
 
 @interface IMMessageRetractionChatItem : IMTranscriptChatItem
 {
     _Bool _isFromMe;
-    _Bool _isFailedRetraction;
-    IMHandle *_sender;
-    long long _partIndex;
-    NSArray *_retractionUnsupportedByHandles;
 }
 
-- (id);
-- (unsigned long long);
+- (id)s:%d Invalid captureSourceID=%d /* Error: Ran out of types for this method. */;
+- (unsigned long long)or audio enabled[%d] did succeed[%d];
+- (_Bool):%d Failed to allocate packetThread struct /* Error: Ran out of types for this method. */;
+- (id)...;
+- (id)found video stream with stream ID %@;
 - (_Bool);
+- (id)BootArgs;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
+- (_Bool)8Ԅ|;
+- (long long)HN;
 - (_Bool);
 - (id);
 - (id);
@@ -34,17 +30,7 @@
 - (void),;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canRetryFailedRetraction;
-@property(readonly, nonatomic) _Bool isFailedRetraction; // @synthesize isFailedRetraction=_isFailedRetraction;
-@property(readonly, nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, nonatomic) IMMessage *message;
-@property(readonly, copy, nonatomic) NSString *messageGUID;
-@property(readonly, nonatomic) IMMessageItem *messageItem;
-@property(readonly, nonatomic) long long partIndex; // @synthesize partIndex=_partIndex;
-@property(readonly, nonatomic) unsigned long long replyCount;
-@property(readonly, copy, nonatomic) NSArray *retractionUnsupportedByHandles; // @synthesize retractionUnsupportedByHandles=_retractionUnsupportedByHandles;
 @property(readonly, copy, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
-@property(readonly, copy, nonatomic) NSString *threadIdentifier;
 
 @end
 

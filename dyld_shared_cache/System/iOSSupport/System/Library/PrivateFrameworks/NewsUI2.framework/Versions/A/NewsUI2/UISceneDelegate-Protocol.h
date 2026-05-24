@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUserActivity;
+
 @protocol UISceneDelegate
 
 @optional
-- (void)n;
 - (void);
+- (void)_TtC17PromotedContentUI23SLPCCMExpirationHandler;
+- (NSUserActivity *)appVersion;
+- (void)n;
 @end
 

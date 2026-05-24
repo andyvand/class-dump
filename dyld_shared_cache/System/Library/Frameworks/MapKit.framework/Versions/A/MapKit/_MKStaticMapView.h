@@ -4,76 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKAnnotationContainerView, MKAnnotationManager, MKAnnotationView, MKImageView, MKLocationManager, MKMapCamera, MKMapConfiguration, MKMapSnapshot, MKMapSnapshotOptions, MKMapSnapshotter, MKUserLocation, NSArray, NSMapTable, NSMutableArray, NSMutableOrderedSet, NSString;
-@protocol _MKStaticMapViewDelegate;
+@class MKMapSnapshotOptions;
 
 @interface _MKStaticMapView
 {
     MKMapSnapshotOptions *_snapshotOptions;
-    MKImageView *_imageView;
-    MKMapSnapshotter *_currentSnapshotter;
-    MKMapSnapshot *_gridSnapshot;
-    MKMapSnapshot *_snapshot;
-    MKAnnotationManager *_annotationManager;
-    MKAnnotationContainerView *_annotationContainer;
-    NSMutableOrderedSet *_overlays[2];
-    NSMapTable *_overlaysToRenderers;
-    NSMapTable *_mapItemCustomFeaturesToMapItems;
-    NSMapTable *_mapItemsToMapItemCustomFeatures;
-    _Bool _isUpdatingUserLocation;
-    _Bool _showsUserLocation;
-    MKLocationManager *_locationManager;
-    MKUserLocation *_userLocation;
-    MKAnnotationView *_userLocationView;
-    struct NSEdgeInsets _additionalEdgeInsets;
-    struct NSEdgeInsets _lastSnapshotLayoutMargins;
-    NSMutableArray *_currentUpdateAddedAnnotations;
-    _Bool _currentUpdateRemovedCustomFeatureAnnotation;
-    unsigned long long _snapshotGeneration;
-    unsigned long long _batchingCount;
-    _Bool _batchHasChanges;
-    _Bool _loading;
-    _Bool _canShowGrid;
-    _Bool _changingSize;
-    _Bool _userLocationSelected;
-    NSMutableArray *_whenSizedBlocks;
-    _Bool _honorsLayoutMargins;
-    id <_MKStaticMapViewDelegate> _delegate;
-    MKMapConfiguration *_preferredConfiguration;
-    struct NSEdgeInsets _layoutMargins;
 }
 
+- (struct CGRect)Library/PrivateFrameworks/AppleIDAuthSupport.framework/Versions/A/AppleIDAuthSupport;
+- (CDStruct_2f492f29);
 - (struct CGRect);
-- (CDStruct_02837cd9);
-- (struct CGRect);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)^{PPSTelemetryIdentifier=[512c][512c]}32@0:(id)arg1 8r*16r*24;
+- (void)setConnectionToServer:(_Bool)arg1;
+- (void)_xpcConnectionQueue;
+- (void)_xpcConnectionHelper;
+- (void)_talkToPowerlogHelper;
+- (void)_startCount;
+- (id)ring",&,V_processName;
+- (void)ource>",&,N,V_powerlogQueryTimer;
+- (id)PLModelingUtilities;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)nt activityName=%@, info=%@ from energyMonitor;
+- (_Bool)=%@;
+- (void)naryEnergyMonitor...;
+- (void)=%@, endDate=%@, openCount=%f, startCount=%f;
+- (id)cpuEnergyBilledToOthers;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -98,9 +66,9 @@
 - (void);
 - (void);
 - (void);
+- (void)a!;
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (long long);
 - (unsigned long long);
@@ -115,10 +83,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)X;
 - (struct CGRect);
-- (void);
-- (id);
+- (void)Y;
+- (id)setApplePayloadType: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -126,54 +94,34 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)e';
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)|;
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (struct CGPoint);
-- (id);
+- (id)s Postpone calling audio session activation til we receive didStart;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)blayerTransform: /* Error: Ran out of types for this method. */;
-- (struct NSEdgeInsets);
-- (struct CLLocationCoordinate2D)aSource:(struct CGPoint)arg1 featuresDidChangeForRect:(id)arg2;
+- (void)ticketForSearchCategory:(struct NSEdgeInsets)arg1 venueIdentifier:maxResults:traits: /* Error: Ran out of types for this method. */;
+- (void)setSublayerTransform: /* Error: Ran out of types for this method. */;
+- (struct NSEdgeInsets)defaultTraitsWithTraits: /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D)dataSource:(struct CGPoint)arg1 featuresDidChangeForRect:(id)arg2;
 - (id)xtensionUIIdentifiers;
-- (CDStruct_b7cb895d)`Ì;
-- (id)KPOICategoryHotel;
+- (CDStruct_4760c753)`Ì;
+- (id)MKPOICategoryHotel;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *annotations;
-@property(copy, nonatomic) MKMapCamera *camera;
-@property(nonatomic) _Bool canShowGrid; // @synthesize canShowGrid=_canShowGrid;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_MKStaticMapViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasUserLocation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool honorsLayoutMargins; // @synthesize honorsLayoutMargins=_honorsLayoutMargins;
-@property(nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(readonly, nonatomic) NSArray *mapItems;
-@property(nonatomic, getter=_networkUsageMode, setter=_setNetworkUsageMode:) long long networkUsageMode;
-@property(readonly, nonatomic) NSArray *overlays;
-@property(copy, nonatomic) MKMapConfiguration *preferredConfiguration; // @synthesize preferredConfiguration=_preferredConfiguration;
-@property(nonatomic) CDStruct_b7cb895d region;
-@property(nonatomic) _Bool showsUserLocation; // @synthesize showsUserLocation=_showsUserLocation;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_02837cd9 visibleMapRect;
+@property(nonatomic) CDStruct_4760c753 region;
 
 @end
 

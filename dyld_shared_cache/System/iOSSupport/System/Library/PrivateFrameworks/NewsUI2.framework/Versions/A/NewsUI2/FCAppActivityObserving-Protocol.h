@@ -7,6 +7,10 @@
 @protocol FCAppActivityObserving
 
 @optional
+- (void)LocalParticipantAction;
+- (void)LocalParticipantViewDelegate;
+- (void)e, and update the app's JetPack.;
+- (void)$;
 - (void)R;
 - (void)à;
 @end

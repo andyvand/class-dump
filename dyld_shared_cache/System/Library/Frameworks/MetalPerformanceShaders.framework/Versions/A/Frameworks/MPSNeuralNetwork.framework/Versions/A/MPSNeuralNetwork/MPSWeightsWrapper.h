@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSCNNConvolutionDescriptor, NSString;
-@protocol MPSCNNBatchNormalizationDataSource, MPSCNNConvolutionDataSource;
+@protocol MPSCNNBatchNormalizationDataSource;
 
 @interface MPSWeightsWrapper
 {
     id <MPSCNNBatchNormalizationDataSource> _dataSource;
-    id <MPSCNNConvolutionDataSource> _source;
-    struct NeuronInfo _info;
-    MPSCNNConvolutionDescriptor *_descriptor;
 }
 
 - (id);
@@ -26,16 +22,10 @@
 - (void *);
 - (id);
 - (void);
-- (_Bool)2darray_TGMCHNorm_fw6_false;
+- (_Bool)MPSCNNNormalization_tex2darray_tex2darray_TGMCHNorm_fw6_false;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

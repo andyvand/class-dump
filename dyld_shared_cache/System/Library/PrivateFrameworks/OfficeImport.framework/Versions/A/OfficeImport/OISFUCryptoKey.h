@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OISFUCryptoKey
 {
     unsigned int mIterationCount;
-    char *mKey;
-    unsigned long long mKeyLength;
-    NSData *mSaltData;
-    NSString *_passphrase;
 }
 
 - (id);
@@ -25,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id)s;
 - (void);
 - (int);
 - (const char *);

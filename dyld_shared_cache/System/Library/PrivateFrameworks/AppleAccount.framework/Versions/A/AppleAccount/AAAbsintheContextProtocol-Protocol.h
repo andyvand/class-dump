@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol AAAbsintheContextProtocol
+- (NSData *)ionProfileState don't remove job;
+- (NSData *)ingPayload mdmType = %d;
+- (_Bool)mPrefApp.icns;
 @end
 

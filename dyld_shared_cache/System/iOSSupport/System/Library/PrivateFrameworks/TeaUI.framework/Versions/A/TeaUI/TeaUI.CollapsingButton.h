@@ -7,33 +7,24 @@
 @interface TeaUI.CollapsingButton
 {
     id animationDelegate;
-    id isCollapsed;
-    id configuration;
-    id anchor;
-    id button;
-    id animatedTitleLabel;
-    id collapsedSize;
-    id animationState;
 }
 
 - (void);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)K;
 - (void);
-- (struct CGSize);
+- (struct CGSize)I;
 - (id);
-- (id);
-- (void);
+- (id)16@0:8 /* Error: Ran out of types for this method. */;
+- (void)PlaylistArticles;
 - (struct CGSize);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)usesProxyProfile;
+- (void);
 - (struct CGSize);
 - (void)(ýúÿ<ÿúÿXÿúÿ|ÿúÿ ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accessibilityTraits;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 @property(nonatomic) _Bool isAccessibilityElement;
 
 @end

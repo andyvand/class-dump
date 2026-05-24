@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLSyncSessionThroughputMetrics, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 @protocol CPLSyncThroughputReporterDelegate;
 
 @interface CPLSyncThroughputReporter
 {
     NSMutableDictionary *_kindOfWorkReporters;
-    NSString *_parentMetricsIdentifier;
-    id <CPLSyncThroughputReporterDelegate> _delegate;
-    CPLSyncSessionThroughputMetrics *_metrics;
 }
 
-- (void);
+- (void)commute15MinWarningEntityRelevanceUserFocusModeAndTimeOfDayFeatures;
 - (id);
 - (id);
 - (id);
@@ -27,15 +24,14 @@
 - (void);
 - (id);
 - (id);
-- (id)ces:forItemWithCloudScopedIdentifier: /* Error: Ran out of types for this method. */;
-- (void)R;
+- (id);
+- (void);
 - (void);
 - (void)aÂ!,Cù±ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) __weak id <CPLSyncThroughputReporterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) CPLSyncSessionThroughputMetrics *metrics; // @synthesize metrics=_metrics;
 
 @end
 

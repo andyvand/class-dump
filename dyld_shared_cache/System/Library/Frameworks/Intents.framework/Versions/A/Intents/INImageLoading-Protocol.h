@@ -5,6 +5,8 @@
 //
 
 @protocol INImageLoading
-- (void)pePropertyConfigurable;
+- (_Bool);
+- (void);
+- (void)INTypePropertyConfigurable;
 @end
 

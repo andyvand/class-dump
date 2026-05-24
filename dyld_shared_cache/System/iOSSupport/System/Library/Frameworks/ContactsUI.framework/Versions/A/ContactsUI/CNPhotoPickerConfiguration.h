@@ -7,16 +7,6 @@
 @interface CNPhotoPickerConfiguration
 {
     _Bool _includeContactImage;
-    _Bool _includeUnifiedContactImages;
-    _Bool _includeFaces;
-    _Bool _includeMonograms;
-    _Bool _includeAnimoji;
-    _Bool _includeRecents;
-    _Bool _includeEmoji;
-    _Bool _allowPhotoCapture;
-    _Bool _allowPhotoFromLibrary;
-    _Bool _allowAnimojiCreation;
-    _Bool _allowRotation;
 }
 
 + (id);
@@ -24,8 +14,8 @@
 + (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)TW;
+- (_Bool)xx	;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -33,21 +23,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowAnimojiCreation; // @synthesize allowAnimojiCreation=_allowAnimojiCreation;
-@property(readonly, nonatomic) _Bool allowPhotoCapture; // @synthesize allowPhotoCapture=_allowPhotoCapture;
-@property(readonly, nonatomic) _Bool allowPhotoFromLibrary; // @synthesize allowPhotoFromLibrary=_allowPhotoFromLibrary;
-@property(readonly, nonatomic) _Bool allowRotation; // @synthesize allowRotation=_allowRotation;
-@property(readonly, nonatomic) _Bool includeAnimoji; // @synthesize includeAnimoji=_includeAnimoji;
 @property(readonly, nonatomic) _Bool includeContactImage; // @synthesize includeContactImage=_includeContactImage;
-@property(readonly, nonatomic) _Bool includeEmoji; // @synthesize includeEmoji=_includeEmoji;
-@property(readonly, nonatomic) _Bool includeFaces; // @synthesize includeFaces=_includeFaces;
-@property(readonly, nonatomic) _Bool includeMonograms; // @synthesize includeMonograms=_includeMonograms;
-@property(readonly, nonatomic) _Bool includeRecents; // @synthesize includeRecents=_includeRecents;
-@property(readonly, nonatomic) _Bool includeUnifiedContactImages; // @synthesize includeUnifiedContactImages=_includeUnifiedContactImages;
 
 @end
 

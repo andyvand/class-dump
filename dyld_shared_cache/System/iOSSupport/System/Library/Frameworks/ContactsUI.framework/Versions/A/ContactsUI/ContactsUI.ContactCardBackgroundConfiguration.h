@@ -7,9 +7,6 @@
 @interface ContactsUI.ContactCardBackgroundConfiguration
 {
     id _foregroundColor;
-    id _wallpaper;
-    id _wallpaperType;
-    id _$observationRegistrar;
 }
 
 @end

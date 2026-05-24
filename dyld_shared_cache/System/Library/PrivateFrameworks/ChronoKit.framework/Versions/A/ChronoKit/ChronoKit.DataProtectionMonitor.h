@@ -7,9 +7,6 @@
 @interface ChronoKit.DataProtectionMonitor
 {
     id _maxUnlockedProtectionLevelPublisher;
-    id maxUnlockedProtectionLevel;
-    id keybagStateProvider;
-    id token;
 }
 
 @end

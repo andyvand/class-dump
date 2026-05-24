@@ -9,7 +9,6 @@
 @interface HMAccessoryDiagnosticInfoProtoVisibleDeviceInfo
 {
     NSString *_idsIdentifierString;
-    NSString *_mediaRouteIdString;
 }
 
 - (void);
@@ -23,7 +22,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)count;
 - (void);
 - (id);
 - (id);
@@ -31,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdsIdentifierString;
-@property(readonly, nonatomic) _Bool hasMediaRouteIdString;
-@property(retain, nonatomic) NSString *idsIdentifierString; // @synthesize idsIdentifierString=_idsIdentifierString;
-@property(retain, nonatomic) NSString *mediaRouteIdString; // @synthesize mediaRouteIdString=_mediaRouteIdString;
 
 @end
 

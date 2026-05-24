@@ -7,8 +7,6 @@
 @interface PhotosUICore.PhotosSceneOrientation__priv_0353D17CBE1C867E9E0FB31C003D8826.NotificationObserver
 {
     id _viewController;
-    id _orientation;
-    id _$observationRegistrar;
 }
 
 @end

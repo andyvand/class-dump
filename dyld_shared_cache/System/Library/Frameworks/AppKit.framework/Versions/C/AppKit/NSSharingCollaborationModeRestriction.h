@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface NSSharingCollaborationModeRestriction
 {
     _Bool _allowContinueToMode;
-    long long _disabledMode;
-    NSString *_alertTitle;
-    NSString *_alertMessage;
-    NSString *_alertDismissButtonTitle;
-    NSString *_alertRecoverySuggestionButtonTitle;
-    NSURL *_alertRecoverySuggestionButtonLaunchURL;
 }
 
 + (_Bool)Ü$;
@@ -30,22 +22,16 @@
 - (id);
 - (id);
 - (id);
+- (id)4;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (void);
-- (id)hods;
+- (id)_shouldPropagateWindowLevelToInputMethods;
 - (id)se popover;
 - (void)Ps;
 
 // Remaining properties
-@property(readonly, copy) NSString *alertDismissButtonTitle; // @synthesize alertDismissButtonTitle=_alertDismissButtonTitle;
-@property(readonly, copy) NSString *alertMessage; // @synthesize alertMessage=_alertMessage;
-@property(readonly, copy) NSURL *alertRecoverySuggestionButtonLaunchURL; // @synthesize alertRecoverySuggestionButtonLaunchURL=_alertRecoverySuggestionButtonLaunchURL;
-@property(readonly, copy) NSString *alertRecoverySuggestionButtonTitle; // @synthesize alertRecoverySuggestionButtonTitle=_alertRecoverySuggestionButtonTitle;
-@property(readonly, copy) NSString *alertTitle; // @synthesize alertTitle=_alertTitle;
 @property(readonly) _Bool allowContinueToMode; // @synthesize allowContinueToMode=_allowContinueToMode;
-@property(readonly) long long disabledMode; // @synthesize disabledMode=_disabledMode;
 
 @end
 

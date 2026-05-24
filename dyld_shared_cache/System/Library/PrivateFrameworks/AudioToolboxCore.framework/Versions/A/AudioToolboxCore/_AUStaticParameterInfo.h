@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _AUStaticParameterInfo
 {
     float _minValue;
-    float _maxValue;
-    unsigned int _unit;
-    unsigned int _flags;
-    unsigned int _clumpID;
-    float _defaultValue;
-    unsigned int _originalOrder;
-    NSString *_unitName;
-    NSArray *_valueStrings;
 }
 
 + (_Bool);
@@ -27,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (float);
+- (float)N4AMCP25Clock_Filter_One_Pole_IIRE;
 - (void);
 - (void);
 - (void);
@@ -36,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (id);
+- (id).;
 - (id);
 - (float);
 - (void)øÂ4;
@@ -45,15 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)damr;
 
 // Remaining properties
-@property(nonatomic) unsigned int clumpID; // @synthesize clumpID=_clumpID;
-@property(nonatomic) float defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(nonatomic) float maxValue; // @synthesize maxValue=_maxValue;
 @property(nonatomic) float minValue; // @synthesize minValue=_minValue;
-@property(nonatomic) unsigned int originalOrder; // @synthesize originalOrder=_originalOrder;
-@property(nonatomic) unsigned int unit; // @synthesize unit=_unit;
-@property(retain, nonatomic) NSString *unitName; // @synthesize unitName=_unitName;
-@property(retain, nonatomic) NSArray *valueStrings; // @synthesize valueStrings=_valueStrings;
 
 @end
 

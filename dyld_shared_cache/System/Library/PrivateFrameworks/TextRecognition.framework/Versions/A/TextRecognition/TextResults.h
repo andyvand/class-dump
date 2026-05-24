@@ -9,7 +9,6 @@
 @interface TextResults
 {
     NSArray *_cols;
-    NSMutableArray *_mutableCols;
 }
 
 - (id);
@@ -18,14 +17,12 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)initWithName:fileURL:dataSourceQueue:dataSourceBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)32Q40;
 
 // Remaining properties
-@property(readonly) unsigned long long colCount;
-@property(retain, nonatomic) NSArray *cols; // @synthesize cols=_cols;
 @property(retain, nonatomic) NSMutableArray *mutableCols; // @synthesize mutableCols=_mutableCols;
 
 @end

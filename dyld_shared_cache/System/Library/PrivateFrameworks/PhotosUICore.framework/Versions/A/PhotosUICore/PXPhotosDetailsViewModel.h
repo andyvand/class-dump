@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PXSectionedSelectionManager;
-
 @interface PXPhotosDetailsViewModel
 {
     _Bool _selecting;
-    _Bool _supportsSelection;
-    _Bool _faceModeEnabled;
-    PXSectionedSelectionManager *_selectionManager;
-    NSSet *_disabledActionTypes;
 }
 
 - (void);
@@ -30,18 +24,7 @@
 - (void)èKÊ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSSet *disabledActionTypes; // @synthesize disabledActionTypes=_disabledActionTypes;
-@property(readonly, nonatomic, getter=isFaceModeEnabled) _Bool faceModeEnabled; // @synthesize faceModeEnabled=_faceModeEnabled;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isSelecting) _Bool selecting; // @synthesize selecting=_selecting;
-@property(readonly, nonatomic) PXSectionedSelectionManager *selectionManager; // @synthesize selectionManager=_selectionManager;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsSelection; // @synthesize supportsSelection=_supportsSelection;
 
 @end
 

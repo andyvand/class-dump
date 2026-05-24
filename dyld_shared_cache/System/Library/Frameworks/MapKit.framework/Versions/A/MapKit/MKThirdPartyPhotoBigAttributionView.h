@@ -6,34 +6,26 @@
 
 #import <MapKit/MKPhotoBigAttributionView.h>
 
-@class NSString, NSView, _MKUILabel;
+@class _MKUILabel;
 
 __attribute__((visibility("hidden")))
 @interface MKThirdPartyPhotoBigAttributionView : MKPhotoBigAttributionView
 {
     _MKUILabel *_firstLineLabel;
-    _MKUILabel *_secondLineLabel;
-    NSView *_labelsView;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)shouldLogNowForClientID:withKey:withPayload:withFilterInterval: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)0@9;
+- (void);
+- (id)i;
 - (void)rebuildConstraints;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

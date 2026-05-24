@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol HMMLogEventSubmitting;
 
 __attribute__((visibility("hidden")))
@@ -14,22 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)ßÿEZeHÙB;
-- (id);
-- (void);
-- (void);
+- (id)g connection retries;
+- (void)sharing trip;
+- (void)_startSharingTripWithContacts:(id)arg1 capabilityType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <HMMLogEventSubmitting> submitter; // @synthesize submitter=_submitter;
-@property(readonly) Class superclass;
 
 @end
 

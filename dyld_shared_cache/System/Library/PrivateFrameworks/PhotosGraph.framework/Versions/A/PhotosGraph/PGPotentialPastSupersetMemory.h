@@ -6,14 +6,11 @@
 
 #import <PhotosGraph/PGPotentialMemory.h>
 
-@class NSDateInterval, PGGraphLocationNode, PGGraphLocationNodeCollection, PGGraphMomentNodeCollection;
+@class PGGraphLocationNode;
 
 @interface PGPotentialPastSupersetMemory : PGPotentialMemory
 {
     PGGraphLocationNode *_supersetLocationNode;
-    NSDateInterval *_supersetDateInterval;
-    PGGraphMomentNodeCollection *_interestingMomentNodes;
-    PGGraphLocationNodeCollection *_supersetLocationNodes;
 }
 
 - (id);
@@ -23,15 +20,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)@40@0:(id)arg1 8@16Q24Q32;
 - (unsigned long long);
 - (void)XqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Suggestions/Suggesters/Single Asset Suggester/PGRecentSyndicatedAssetSuggester.m;
 
 // Remaining properties
-@property(readonly) PGGraphMomentNodeCollection *interestingMomentNodes; // @synthesize interestingMomentNodes=_interestingMomentNodes;
-@property(readonly) NSDateInterval *supersetDateInterval; // @synthesize supersetDateInterval=_supersetDateInterval;
 @property(readonly) PGGraphLocationNode *supersetLocationNode; // @synthesize supersetLocationNode=_supersetLocationNode;
-@property(retain) PGGraphLocationNodeCollection *supersetLocationNodes; // @synthesize supersetLocationNodes=_supersetLocationNodes;
 
 @end
 

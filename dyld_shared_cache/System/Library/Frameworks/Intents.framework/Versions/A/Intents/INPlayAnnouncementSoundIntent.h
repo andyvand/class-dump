@@ -6,13 +6,11 @@
 
 #import <Intents/INIntent.h>
 
-@class NSString;
-
 @interface INPlayAnnouncementSoundIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -23,7 +21,7 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)oviderVersionedFileIdentifier",&,N,V_fileProviderFileIdentifier;
 - (id);
 - (void);
 - (long long);
@@ -31,14 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) long long soundType;
-@property(readonly) Class superclass;
 
 @end
 

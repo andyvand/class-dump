@@ -6,21 +6,17 @@
 
 #import <UIKitCore/_UIViewVisitor.h>
 
-@class UIView;
-
 __attribute__((visibility("hidden")))
 @interface _UITintColorVisitor : _UIViewVisitor
 {
     unsigned long long _reasons;
-    UIView *_originalVisitedView;
-    UIView *_changedSubview;
 }
 
 - (_Bool);
 - (id);
 - (_Bool)
 × ;
-- (id)fectiveSecondaryItemIdentifiers;
+- (id)_effectiveSecondaryItemIdentifiers;
 
 @end
 

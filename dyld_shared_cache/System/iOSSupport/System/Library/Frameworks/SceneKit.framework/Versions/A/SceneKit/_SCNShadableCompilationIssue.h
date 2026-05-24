@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SCNShadable;
 
 @interface _SCNShadableCompilationIssue
 {
     id <SCNShadable> _shadable;
-    NSString *_entryPoint;
-    NSString *_effectiveModifier;
-    NSString *_message;
-    unsigned long long _type;
-    long long _line;
 }
 
 + (id);
@@ -23,16 +17,12 @@
 - (id);
 - (void);
 - (long long);
-- (unsigned long long);
-- (id);
+- (unsigned long long)_initPageCornerRadiusForMagnification: /* Error: Ran out of types for this method. */;
+- (id)ntrolWithID(t){let e=t?FormMetadataJS.formControlWithUniqueID(t):null;e&&e.blur()}setStrongPasswordElementViewableIfAppropriate(t,e){for(let o of t){let t=FormMetadataJS.formControlWithUniqueID(o);if(!t)return;if("text"===t.type)return FormMetadataJSController.setInputElementAutoFilledAndViewable(t,!1),void FormMetadataJSController.setInputElementAutofilled(t,!1);FormMetadataJSController.setInputElementAutoFilledAndViewable(t,e)}}}var AutomaticPasswordsJS=new AutomaticPasswords;
+0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *effectiveModifier; // @synthesize effectiveModifier=_effectiveModifier;
-@property(readonly, nonatomic) NSString *entryPoint; // @synthesize entryPoint=_entryPoint;
-@property(readonly, nonatomic) long long line; // @synthesize line=_line;
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
 @property(readonly, nonatomic) id <SCNShadable> shadable; // @synthesize shadable=_shadable;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

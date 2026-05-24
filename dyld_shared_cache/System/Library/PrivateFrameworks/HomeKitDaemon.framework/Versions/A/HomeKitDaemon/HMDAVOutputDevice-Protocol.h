@@ -7,16 +7,13 @@
 @class NSString;
 
 @protocol HMDAVOutputDevice
-- (NSString *)ger;
+- (NSString *)HMDMetricsHomeDataChangedManager;
 - (NSString *)sory:%@. %@ /* Error: Ran out of types for this method. */;
-- (void)owController;
+- (void)WFHomeWorkflowController;
 - (NSString *): /* Error: Ran out of types for this method. */;
 - (NSString *)@»=;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *firmwareVersion;
-@property(readonly, nonatomic) NSString *manufacturer;
 @property(readonly, nonatomic) NSString *modelID;
-@property(readonly, nonatomic) NSString *serialNumber;
 @end
 

@@ -7,10 +7,6 @@
 @interface PodcastsFoundation.MultiTimer__priv_D8DC80449EE77C4DA4BB398C4E1A338F
 {
     id workQueue;
-    id repeatingTimer;
-    id timeUpdateHandler;
-    id notificationBlocks;
-    id startDate;
 }
 
 @end

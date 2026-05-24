@@ -6,32 +6,24 @@
 
 #import <UIKitCore/_UITargetedProxy.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIUserNotificationRestrictedAlertViewProxy : _UITargetedProxy
 {
     id _delegate;
 }
 
-+ (id);
++ (id)IMDSafetyMonitorLogDomain;
 - (id);
 - (void)0@ù
 × ;
 - (_Bool)!Eùgð1Â0@ù
 × ;
-- (void)eparator;
+- (void)wantsSectionSeparator;
 - (id)l"|?ÑP$"?Ñ3"°?Ñs"ä?Ñ@u"ü?Ñ0"@Ñ¤"@Ñ ",@Ñd"D@Ñ "T@Ñ"d@Ñ"t@Ñð"@Ñ"¸@Ñ4-#Ð@ÑØ³#ø@Ñ¬¶#0AÑ|r%AÑP& AÑpS&BÑ;
 - (void)±;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

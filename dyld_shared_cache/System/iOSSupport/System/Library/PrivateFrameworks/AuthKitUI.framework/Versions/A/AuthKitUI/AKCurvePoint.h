@@ -7,11 +7,6 @@
 @interface AKCurvePoint
 {
     double _x;
-    double _y;
-    double _roundness;
-    double _smoothness;
-    struct CGPoint _leftTangentPoint;
-    struct CGPoint _rightTangentPoint;
 }
 
 + (id);
@@ -21,25 +16,20 @@
 - (void);
 - (void);
 - (double);
+- (struct CGPoint);
 - (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)H;
 - (id);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)<N
+&;
 - (double);
-- (double);
+- (double)@"NSString",&,N,V_identifier;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint CGPoint;
-@property(nonatomic) struct CGPoint leftTangentPoint; // @synthesize leftTangentPoint=_leftTangentPoint;
-@property(nonatomic) struct CGPoint rightTangentPoint; // @synthesize rightTangentPoint=_rightTangentPoint;
-@property(nonatomic) double roundness; // @synthesize roundness=_roundness;
-@property(nonatomic) double smoothness; // @synthesize smoothness=_smoothness;
 @property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

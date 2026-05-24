@@ -7,7 +7,6 @@
 @interface ControlCenter.SiriPreferences
 {
     id cancellables;
-    id _statusItemEnabled;
 }
 
 @end

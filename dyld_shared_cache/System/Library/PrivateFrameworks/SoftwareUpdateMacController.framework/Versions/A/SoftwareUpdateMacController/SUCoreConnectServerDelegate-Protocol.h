@@ -5,5 +5,8 @@
 //
 
 @protocol SUCoreConnectServerDelegate
+
+@optional
+- (void)SMutableDictionary",&,N,V_tooltipIdentifierDictionary;
 @end
 

@@ -4,12 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceQueue;
+@class BSServiceQueue, FBSSceneActivitySession, NSString;
 @protocol FBSProcess;
 
 @protocol FBSSceneHandle
+- (FBSSceneActivitySession *);
+- (void)ZN23CSCppMemoryMappingCache34read_size_ignoring_extra_bits_implILm16ELb0EEEbyPvEUlPKvE_;
+- (NSString *)k&;
+- (id <FBSProcess>)sequenceOfRecordsFromData: /* Error: Ran out of types for this method. */;
 - (id <FBSProcess>)
 × ;
-- (BSServiceQueue *)s: /* Error: Ran out of types for this method. */;
+- (BSServiceQueue *)applyClientSettings: /* Error: Ran out of types for this method. */;
 @end
 

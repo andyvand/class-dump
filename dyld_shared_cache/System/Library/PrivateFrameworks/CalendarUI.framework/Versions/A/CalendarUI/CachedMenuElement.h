@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface CachedMenuElement
 {
     NSString *_sourceTitle;
-    NSString *_calendarIdentifier;
-    NSImage *_smallIcon;
-    NSImage *_largeIcon;
 }
 
-- (id);
+- (id)IC9	;
 - (void);
 - (void);
 - (id);
@@ -26,9 +23,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
-@property(retain) NSImage *largeIcon; // @synthesize largeIcon=_largeIcon;
-@property(retain) NSImage *smallIcon; // @synthesize smallIcon=_smallIcon;
 @property(retain) NSString *sourceTitle; // @synthesize sourceTitle=_sourceTitle;
 
 @end

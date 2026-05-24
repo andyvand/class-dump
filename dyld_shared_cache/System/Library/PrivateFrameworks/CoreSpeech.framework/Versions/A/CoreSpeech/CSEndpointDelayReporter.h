@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface CSEndpointDelayReporter
 {
     _Bool _didReportEndpointDelay;
-    _Bool _isMedocEnabled;
-    double _endpointTimeInMs;
-    double _userSpeakingStartedTimeInMs;
-    double _userSpeakingEndedTimeInMs;
-    unsigned long long _endpointBufferHostTime;
-    unsigned long long _endpointHostTime;
-    unsigned long long _audioDeliveryHostTimeDelta;
-    unsigned long long _userSpeakingStartedHostTime;
-    unsigned long long _userSpeakingEndedHostTime;
-    unsigned long long _stopRecordingHostTime;
-    NSString *_requestMHUUID;
-    NSUUID *_turnIdentifier;
-    NSString *_curTRPId;
 }
 
 - (double);
@@ -38,12 +23,12 @@
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -59,27 +44,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A	;
 - (void);
 - (id);
 - (id);
-- (void)uckAudioDevice;
+- (void)clientForMacOSDuckAudioDevice;
 
 // Remaining properties
-@property(nonatomic) unsigned long long audioDeliveryHostTimeDelta; // @synthesize audioDeliveryHostTimeDelta=_audioDeliveryHostTimeDelta;
-@property(retain, nonatomic) NSString *curTRPId; // @synthesize curTRPId=_curTRPId;
-@property(nonatomic) _Bool didReportEndpointDelay; // @synthesize didReportEndpointDelay=_didReportEndpointDelay;
-@property(nonatomic) unsigned long long endpointBufferHostTime; // @synthesize endpointBufferHostTime=_endpointBufferHostTime;
-@property(nonatomic) unsigned long long endpointHostTime; // @synthesize endpointHostTime=_endpointHostTime;
-@property(nonatomic) double endpointTimeInMs; // @synthesize endpointTimeInMs=_endpointTimeInMs;
 @property(nonatomic) _Bool isMedocEnabled; // @synthesize isMedocEnabled=_isMedocEnabled;
-@property(retain, nonatomic) NSString *requestMHUUID; // @synthesize requestMHUUID=_requestMHUUID;
-@property(nonatomic) unsigned long long stopRecordingHostTime; // @synthesize stopRecordingHostTime=_stopRecordingHostTime;
-@property(retain, nonatomic) NSUUID *turnIdentifier; // @synthesize turnIdentifier=_turnIdentifier;
-@property(nonatomic) unsigned long long userSpeakingEndedHostTime; // @synthesize userSpeakingEndedHostTime=_userSpeakingEndedHostTime;
-@property(nonatomic) double userSpeakingEndedTimeInMs; // @synthesize userSpeakingEndedTimeInMs=_userSpeakingEndedTimeInMs;
-@property(nonatomic) unsigned long long userSpeakingStartedHostTime; // @synthesize userSpeakingStartedHostTime=_userSpeakingStartedHostTime;
-@property(nonatomic) double userSpeakingStartedTimeInMs; // @synthesize userSpeakingStartedTimeInMs=_userSpeakingStartedTimeInMs;
 
 @end
 

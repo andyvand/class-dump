@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMapTable;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _NSCGSWindowOrderingProperties
 {
     NSMapTable *_levelByWindow;
-    NSMapTable *_orderingGroupByWindow;
-    NSMapTable *_movementGroupByWindow;
-    NSHashTable *_spaceAssignmentPending;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)*;
+- (void)FrontCameraRotationForISP;
+- (void)DeviceSupportsAlwaysAPVoiceTrigger;
+- (void)#;
+- (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

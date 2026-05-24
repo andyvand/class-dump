@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PSGOperationalPredictedItem
 {
     NSString *_itemIdentifier;
-    NSString *_value;
-    NSString *_bundleIdentifier;
-    NSDictionary *_operationData;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(6?;
 - (id);
 - (id);
 - (id);
@@ -25,15 +22,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)dataSharingPreviouslySpecified;
+- (void)J;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) NSDictionary *operationData; // @synthesize operationData=_operationData;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

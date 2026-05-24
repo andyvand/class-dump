@@ -9,24 +9,22 @@
 @interface AKMarkupButtonContainerView
 {
     _Bool _selected;
-    UIButton *_button;
 }
 
 - (void);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (struct CGSize);
+- (struct CGSize)�;
 - (id);
 - (void);
-- (void);
+- (void)"32@"WKWebProcessPlugInFrame"40@"NSDictionary"48;
 - (void);
 - (id)h=}16^{CGPath=}24{CGPoint=dd}32B48@52;
 - (_Bool)nController",&,N,V_navController;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

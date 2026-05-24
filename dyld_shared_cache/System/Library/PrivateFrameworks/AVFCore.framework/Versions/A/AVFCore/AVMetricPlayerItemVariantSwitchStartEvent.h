@@ -6,38 +6,28 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class AVAssetVariant, AVMetricMediaRendition, NSArray;
+@class AVAssetVariant;
 
 @interface AVMetricPlayerItemVariantSwitchStartEvent : AVMetricEvent
 {
     AVAssetVariant *_fromVariant;
-    AVAssetVariant *_toVariant;
-    AVMetricMediaRendition *_videoRendition;
-    AVMetricMediaRendition *_audioRendition;
-    AVMetricMediaRendition *_subtitleRendition;
-    NSArray *_loadedTimeRanges;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)dEmojis;
+- (id)_EARCustomPronData;
+- (id)EMTAlternativeDescription;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)zationOptions:assetLoggingIdentifier:figAssetCreationFlags:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)_getFigAssetCreationOptionsFromURLAssetInitializationOptions:assetLoggingIdentifier:figAssetCreationFlags:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) AVMetricMediaRendition *audioRendition;
 @property(readonly) AVAssetVariant *fromVariant;
-@property(readonly) NSArray *loadedTimeRanges;
-@property(readonly) AVMetricMediaRendition *subtitleRendition;
-@property(readonly) AVAssetVariant *toVariant;
-@property(readonly) AVMetricMediaRendition *videoRendition;
 
 @end
 

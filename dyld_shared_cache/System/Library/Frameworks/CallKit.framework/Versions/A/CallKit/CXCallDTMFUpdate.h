@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface CXCallDTMFUpdate
 {
     NSString *_digits;
-    NSUUID *_UUID;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
-- (void);
+- (void)stringByReplacingMatchesInString:(id)arg1 options:range:withTemplate: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)@;
+- (id)entifier %{public}@. err=%{public}@;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)Index:(id)arg1 inPlaylistWithIdentifier:completionBlock:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *digits; // @synthesize digits=_digits;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

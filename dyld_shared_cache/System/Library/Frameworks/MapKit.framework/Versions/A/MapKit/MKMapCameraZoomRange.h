@@ -7,29 +7,25 @@
 @interface MKMapCameraZoomRange
 {
     _Bool _bouncesZoom;
-    double _minCenterCoordinateDistance;
-    double _maxCenterCoordinateDistance;
 }
 
 + (_Bool);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)m;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)e with the model requirement of %@;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic, getter=_bouncesZoom, setter=_setBouncesZoom:) _Bool bouncesZoom; // @synthesize bouncesZoom=_bouncesZoom;
-@property(readonly, nonatomic) double maxCenterCoordinateDistance; // @synthesize maxCenterCoordinateDistance=_maxCenterCoordinateDistance;
-@property(readonly, nonatomic) double minCenterCoordinateDistance; // @synthesize minCenterCoordinateDistance=_minCenterCoordinateDistance;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-+ (Class);
++ (Class)R;
 - (void);
 - (void);
 - (id);

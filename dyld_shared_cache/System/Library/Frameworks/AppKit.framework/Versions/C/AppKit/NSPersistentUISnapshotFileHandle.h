@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface NSPersistentUISnapshotFileHandle
 {
     unsigned int checksum;
-    int fd;
 }
 
 - (void);
-- (id);
+- (id)?;
 
 @end
 

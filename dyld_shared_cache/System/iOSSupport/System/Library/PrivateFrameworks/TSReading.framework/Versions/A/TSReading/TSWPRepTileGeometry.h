@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSWPRepTileGeometry
 {
     struct vector<TSWPRepBoundsAnalyzer::Info, std::allocator<TSWPRepBoundsAnalyzer::Info>> _infos;
-    _Bool _tileGeometryDirty;
-    struct CGSize _maxTileSize;
 }
 
-- (_Bool);
-- (struct CGRect);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (_Bool)or"16;
+- (struct CGRect)NowPlayingContentReference;
+- (_Bool)CL_PrefetchThreshold;
+- (unsigned long long)CL_MaxQueueReferences;
+- (void)onalizationResponse"8@"NSError"16;
+- (void)^B24;
+- (void)s=[%@] resolvedIDs=%@>;
 - (struct CGSize);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)bject;
+- (void)TSKDocumentObject;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct CGSize maxTileSize; // @synthesize maxTileSize=_maxTileSize;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tileGeometryDirty; // @synthesize tileGeometryDirty=_tileGeometryDirty;
 
 @end
 

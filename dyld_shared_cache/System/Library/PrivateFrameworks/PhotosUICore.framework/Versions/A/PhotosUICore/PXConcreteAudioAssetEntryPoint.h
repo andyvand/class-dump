@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface PXConcreteAudioAssetEntryPoint
 {
     double _time;
-    NSArray *_fadeInKeyTimeOffsets;
-    NSArray *_fadeInKeyGainValues;
 }
 
 - (id);
@@ -24,15 +20,6 @@
 - (void)At¸H3ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *fadeInKeyGainValues; // @synthesize fadeInKeyGainValues=_fadeInKeyGainValues;
-@property(readonly, copy, nonatomic) NSArray *fadeInKeyTimeOffsets; // @synthesize fadeInKeyTimeOffsets=_fadeInKeyTimeOffsets;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double time; // @synthesize time=_time;
 
 @end

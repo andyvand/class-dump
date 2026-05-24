@@ -7,10 +7,6 @@
 @interface AppStoreKit.InAppPurchaseShowcase
 {
     id lockup;
-    id subtitle;
-    id descriptionText;
-    id id;
-    id automationMetadata;
 }
 
 @end

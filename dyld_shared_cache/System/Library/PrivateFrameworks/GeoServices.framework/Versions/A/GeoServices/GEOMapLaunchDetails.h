@@ -8,17 +8,17 @@
 {
 }
 
-+ (_Bool)x:(id)arg1;
++ (_Bool)setHasSystemIndex:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)erAssetHandler notifyObservers:(id)arg1 endpointId:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (void);
-- (id)MuidsCount;
+- (id)variantBrandMuidsCount;
 - (id)EOLogMsgEventPressureData",&,N;
 - (id)8A;
 - (id)ZZZ;

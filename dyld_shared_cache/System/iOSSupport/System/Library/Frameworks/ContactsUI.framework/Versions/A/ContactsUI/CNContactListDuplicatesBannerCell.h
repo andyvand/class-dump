@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactListDuplicatesBannerView, CNContactListStyleApplier, NSString;
 @protocol CNContactListDuplicatesBannerCellDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListDuplicatesBannerCell
 {
     id <CNContactListDuplicatesBannerCellDelegate> _delegate;
-    CNContactListStyleApplier *_contactListStyleApplier;
-    unsigned long long _state;
-    long long _duplicatesCount;
-    CNContactListDuplicatesBannerView *_duplicatesBannerView;
 }
 
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -28,29 +23,18 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)ange;
 - (void)@"UIView",&,N,V_buttonTray;
 - (void)/éÿç°!8ï;
 - (id)$0
 ;
 
 // Remaining properties
-@property(retain, nonatomic) CNContactListStyleApplier *contactListStyleApplier; // @synthesize contactListStyleApplier=_contactListStyleApplier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactListDuplicatesBannerCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNContactListDuplicatesBannerView *duplicatesBannerView; // @synthesize duplicatesBannerView=_duplicatesBannerView;
-@property(nonatomic) long long duplicatesCount; // @synthesize duplicatesCount=_duplicatesCount;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

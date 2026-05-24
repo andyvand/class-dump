@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 @protocol MCTaskListDelegate;
 
 @interface MCTaskList
 {
     id <MCTaskListDelegate> _delegate;
-    NSArray *_sortingKeys;
-    NSDictionary *_listsByKey;
-    NSDictionary *_comparatorsByKey;
 }
 
 + (CDUnknownBlockType);
 - (unsigned long long);
 - (id);
+- (id)y(;
 - (id);
-- (id);
-- (id);
+- (id)RC;
 - (void);
 - (void);
 - (id);
@@ -30,17 +27,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)EventsHandler><MTURLSessionInvalidator>";
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *comparatorsByKey; // @synthesize comparatorsByKey=_comparatorsByKey;
-@property(nonatomic) __weak id <MCTaskListDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSDictionary *listsByKey; // @synthesize listsByKey=_listsByKey;
 @property(readonly, copy, nonatomic) NSArray *sortingKeys; // @synthesize sortingKeys=_sortingKeys;
-@property(readonly, nonatomic) unsigned long long taskCount;
 
 @end
 

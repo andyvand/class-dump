@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface MLStreamingInputDataSource
 {
     unsigned long long _batchSize;
-    NSMutableArray *_dataSources;
 }
 
-- (unsigned long long);
+- (unsigned long long)refitInstanceResourceIDsUserIDKernel;
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void)tion;
+- (void)_valueDescription;
 - (void)is_surface failed. E5RT:%s (%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(retain, nonatomic) NSMutableArray *dataSources; // @synthesize dataSources=_dataSources;
 
 @end
 

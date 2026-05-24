@@ -7,31 +7,6 @@
 @interface AWDWPA2Counters
 {
     unsigned long long _ccmpfmterr;
-    unsigned long long _ccmpreplay;
-    unsigned long long _ccmpundec;
-    unsigned long long _decsuccess;
-    unsigned long long _fourwayfail;
-    unsigned long long _tkipcntrmsr;
-    unsigned long long _tkipicverr;
-    unsigned long long _tkipmicfaill;
-    unsigned long long _tkipreplay;
-    unsigned long long _wepexcluded;
-    unsigned long long _wepicverr;
-    unsigned long long _wepundec;
-    struct {
-        unsigned int ccmpfmterr:1;
-        unsigned int ccmpreplay:1;
-        unsigned int ccmpundec:1;
-        unsigned int decsuccess:1;
-        unsigned int fourwayfail:1;
-        unsigned int tkipcntrmsr:1;
-        unsigned int tkipicverr:1;
-        unsigned int tkipmicfaill:1;
-        unsigned int tkipreplay:1;
-        unsigned int wepexcluded:1;
-        unsigned int wepicverr:1;
-        unsigned int wepundec:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -40,7 +15,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)Q;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,73 +31,44 @@
 - (void);
 - (void);
 - (void);
+- (void)^!8b;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)o;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)i;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long ccmpfmterr; // @synthesize ccmpfmterr=_ccmpfmterr;
-@property(nonatomic) unsigned long long ccmpreplay; // @synthesize ccmpreplay=_ccmpreplay;
-@property(nonatomic) unsigned long long ccmpundec; // @synthesize ccmpundec=_ccmpundec;
-@property(nonatomic) unsigned long long decsuccess; // @synthesize decsuccess=_decsuccess;
-@property(nonatomic) unsigned long long fourwayfail; // @synthesize fourwayfail=_fourwayfail;
-@property(nonatomic) _Bool hasCcmpfmterr;
-@property(nonatomic) _Bool hasCcmpreplay;
-@property(nonatomic) _Bool hasCcmpundec;
-@property(nonatomic) _Bool hasDecsuccess;
-@property(nonatomic) _Bool hasFourwayfail;
-@property(nonatomic) _Bool hasTkipcntrmsr;
-@property(nonatomic) _Bool hasTkipicverr;
 @property(nonatomic) _Bool hasTkipmicfaill;
-@property(nonatomic) _Bool hasTkipreplay;
-@property(nonatomic) _Bool hasWepexcluded;
-@property(nonatomic) _Bool hasWepicverr;
-@property(nonatomic) _Bool hasWepundec;
-@property(nonatomic) unsigned long long tkipcntrmsr; // @synthesize tkipcntrmsr=_tkipcntrmsr;
-@property(nonatomic) unsigned long long tkipicverr; // @synthesize tkipicverr=_tkipicverr;
-@property(nonatomic) unsigned long long tkipmicfaill; // @synthesize tkipmicfaill=_tkipmicfaill;
-@property(nonatomic) unsigned long long tkipreplay; // @synthesize tkipreplay=_tkipreplay;
-@property(nonatomic) unsigned long long wepexcluded; // @synthesize wepexcluded=_wepexcluded;
-@property(nonatomic) unsigned long long wepicverr; // @synthesize wepicverr=_wepicverr;
-@property(nonatomic) unsigned long long wepundec; // @synthesize wepundec=_wepundec;
 
 @end
 

@@ -9,22 +9,12 @@
 @interface GEONavigationRouteTransitSummary
 {
     PBDataReader *_reader;
-    NSMutableArray *_possibleStops;
-    NSMutableArray *_scheduledLinks;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_possibleStops:1;
-        unsigned int read_scheduledLinks:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (Class);
-+ (_Bool)edLocationTraversalPercent:(id)arg1;
-- (void);
++ (Class)`;
++ (Class)e with account ID %@ cannot be saved, error %{public}@;
++ (_Bool)setHasTriggeredLocationTraversalPercent:(id)arg1;
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -42,8 +32,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)setMeta for current locale:%@, preinstalledAssetMeta:%@. No mitigation functionality /* Error: Ran out of types for this method. */;
+- (void)ly:(id)arg1 ];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -56,7 +46,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *possibleStops;
 @property(retain, nonatomic) NSMutableArray *scheduledLinks;
 
 @end

@@ -11,8 +11,6 @@
 @interface _NSArithmeticLayoutDimension : NSLayoutDimension
 {
     NSLayoutDimension *_rootLayoutDimension;
-    double _multiplier;
-    double _constant;
 }
 
 - (id);
@@ -22,9 +20,9 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)ModelKeyServerAPIRawKey;
 - (id);
-- (void);
+- (void)_inheritedParticipants;
 
 // Remaining properties
 @property(readonly) NSArray *_childAnchors;

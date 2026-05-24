@@ -17,9 +17,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)Posting 'ALACStreamingSupportChanged' with ALACIsAllowed=true;
+- (id)tearDownReason;
+- (void)donationQueueEvictionRate;
 - (id);
 - (void)etching Zone PCS;
 

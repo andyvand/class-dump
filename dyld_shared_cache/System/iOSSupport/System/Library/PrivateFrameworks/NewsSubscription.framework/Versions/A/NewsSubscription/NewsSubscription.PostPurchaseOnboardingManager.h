@@ -7,14 +7,6 @@
 @interface NewsSubscription.PostPurchaseOnboardingManager
 {
     id completionEventManager;
-    id onboardingSteps;
-    id onboardingStepCounter;
-    id urlHandler;
-    id presenter;
-    id configurationManager;
-    id onboardingViewControllerFactory;
-    id onboardingContainerViewController;
-    id userInfo;
 }
 
 @end

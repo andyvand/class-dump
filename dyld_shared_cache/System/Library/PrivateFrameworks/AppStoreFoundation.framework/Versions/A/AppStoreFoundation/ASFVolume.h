@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SKDisk;
+@class SKDisk;
 
 @interface ASFVolume
 {
     _Bool _isAPFS;
-    NSString *_iconFilePath;
-    NSString *_mountPoint;
-    NSString *_name;
-    NSString *_volumeID;
-    SKDisk *_disk;
 }
 
 + (id);
@@ -29,7 +24,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)icationInitializationContextAlwaysVend;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -38,13 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long availableSpace;
 @property(retain) SKDisk *disk; // @synthesize disk=_disk;
-@property(readonly) NSString *iconFilePath; // @synthesize iconFilePath=_iconFilePath;
-@property(readonly) _Bool isAPFS; // @synthesize isAPFS=_isAPFS;
-@property(readonly) NSString *mountPoint; // @synthesize mountPoint=_mountPoint;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSString *volumeID; // @synthesize volumeID=_volumeID;
 
 @end
 

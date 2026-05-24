@@ -9,10 +9,6 @@
 @interface HMAccessoryInfoMediaState
 {
     NSString *_mediaIdentifier;
-    double _volume;
-    long long _playbackState;
-    long long _shuffleState;
-    long long _repeatState;
 }
 
 - (long long);
@@ -20,22 +16,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)d;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)cyclosis;
 - (double);
 - (void)cteristic type %@ service type %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *mediaIdentifier; // @synthesize mediaIdentifier=_mediaIdentifier;
-@property(readonly) long long playbackState; // @synthesize playbackState=_playbackState;
-@property(readonly) long long repeatState; // @synthesize repeatState=_repeatState;
-@property(readonly) long long shuffleState; // @synthesize shuffleState=_shuffleState;
-@property(readonly) double volume; // @synthesize volume=_volume;
 
 @end
 

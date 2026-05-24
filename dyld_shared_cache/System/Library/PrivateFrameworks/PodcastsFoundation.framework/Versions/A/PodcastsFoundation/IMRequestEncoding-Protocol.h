@@ -5,6 +5,7 @@
 //
 
 @protocol IMRequestEncoding
+- (void)1@9;
 
 // Remaining properties
 @property(nonatomic) _Bool personalizeRequests;

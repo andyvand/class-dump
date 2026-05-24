@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ATXSearchFeedbackListener, NSObject, NSString, PARSession, SIFeedbackListener;
-@protocol OS_dispatch_queue;
+@class PARSession;
 
 @interface PRSFeedbackProxy
 {
     PARSession *_listener;
-    ATXSearchFeedbackListener *_atxListener;
-    NSObject<OS_dispatch_queue> *_feedbackQueue;
-    SIFeedbackListener *_siFeedbackListener;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)date entry:(id)arg1 %{public}s;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)clickAttributionWithReportEndpoint:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)perimentStatus=2 AND eventTimestamp < '%f';
 - (id);
 - (void);
 - (void);
@@ -42,28 +38,18 @@
 - (void);
 - (void)!ÈAù±<1Â0@ù
 × ;
-- (void);
+- (void)_senderContactIds;
 - (void)fari.quickWebsiteSearchProvider;
-- (void)ermFrequencies_Mean_Word;
-- (void)e_TermFrequencies_Max_Prefix;
-- (void)or_smss_sent_this_day;
-- (void)ed_prefix_min_pair_distance;
-- (void)s;
+- (void)enum_kMDItemPhotosDescription_TermFrequencies_Mean_Word;
+- (void)enum_kMDItemPhotosTitle_TermFrequencies_Max_Prefix;
+- (void)author_smss_sent_this_day;
+- (void)kMDItemVendorName_ordered_prefix_min_pair_distance;
+- (void)kMDItemLPMediaPaths;
 - (void)È÷ÿÐ7òp	;
 - (void)°¿ñÿXXà	;
 
 // Remaining properties
-@property(retain, nonatomic) ATXSearchFeedbackListener *atxListener; // @synthesize atxListener=_atxListener;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *feedbackQueue; // @synthesize feedbackQueue=_feedbackQueue;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak PARSession *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) SIFeedbackListener *siFeedbackListener; // @synthesize siFeedbackListener=_siFeedbackListener;
-@property(readonly) Class superclass;
 
 @end
 

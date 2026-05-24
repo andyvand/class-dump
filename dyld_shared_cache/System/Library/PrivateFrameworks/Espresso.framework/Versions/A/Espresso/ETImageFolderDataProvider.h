@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ETImagePreprocessor, NSArray, NSString;
-
 @interface ETImageFolderDataProvider
 {
     struct vector<std::pair<NSString *, unsigned long>, std::allocator<std::pair<NSString *, unsigned long>>> samples;
-    struct vector<NSString *, std::allocator<NSString *>> classes;
-    struct shared_ptr<Espresso::blob_cpu> labelBlob;
-    NSString *imageTensorName;
-    NSString *labelTensorName;
-    NSArray *labelShape;
-    struct linear_congruential_engine<unsigned int, 48271U, 0U, 2147483647U> randomgen;
-    ETImagePreprocessor *imageProcessor;
-    _Bool shuffleBeforeEpoch;
 }
 
-- (id);
+- (id)A;
 - (unsigned long long);
 - (id);
 - (void);
@@ -27,13 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

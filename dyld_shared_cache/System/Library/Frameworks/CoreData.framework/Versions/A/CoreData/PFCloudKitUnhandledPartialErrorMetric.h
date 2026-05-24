@@ -6,13 +6,12 @@
 
 #import <CoreData/PFCloudKitBaseMetric.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitUnhandledPartialErrorMetric : PFCloudKitBaseMetric
 {
     NSNumber *_errorCode;
-    NSString *_errorDomain;
 }
 
 - (void);

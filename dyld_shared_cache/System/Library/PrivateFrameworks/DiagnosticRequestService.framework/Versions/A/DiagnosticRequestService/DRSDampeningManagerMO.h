@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSDampeningConfigurationMO, DRSDampeningEnforcementSettingsMO, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface DRSDampeningManagerMO
 {
 }
 
-+ (id);
++ (id)disabledListID;
 
 // Remaining properties
-@property(retain, nonatomic) DRSDampeningConfigurationMO *defaultSignatureConfiguration; // @dynamic defaultSignatureConfiguration;
-@property(retain, nonatomic) DRSDampeningEnforcementSettingsMO *enforcementSettings; // @dynamic enforcementSettings;
-@property(retain, nonatomic) NSSet *resourceConfigurations; // @dynamic resourceConfigurations;
-@property(retain, nonatomic) NSSet *teamConfigurations; // @dynamic teamConfigurations;
 @property(nonatomic) long long totalCap; // @dynamic totalCap;
 
 @end

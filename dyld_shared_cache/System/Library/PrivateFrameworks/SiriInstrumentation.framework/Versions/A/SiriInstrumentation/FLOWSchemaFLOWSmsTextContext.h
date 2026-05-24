@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWSmsAttachmentMetadata, FLOWSchemaFLOWSmsTextContentMetadata, NSData;
+@class FLOWSchemaFLOWSmsTextContentMetadata;
 
 @interface FLOWSchemaFLOWSmsTextContext : SISchemaInstrumentationMessage
 {
     FLOWSchemaFLOWSmsTextContentMetadata *_smsTextContentMetadata;
-    FLOWSchemaFLOWSmsAttachmentMetadata *_smsAttachmentMetadata;
-    _Bool _hasSmsTextContentMetadata;
-    _Bool _hasSmsAttachmentMetadata;
 }
 
 - (id);
@@ -21,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,10 +36,6 @@
 - (void)9U´µ°$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSmsAttachmentMetadata; // @synthesize hasSmsAttachmentMetadata=_hasSmsAttachmentMetadata;
-@property(nonatomic) _Bool hasSmsTextContentMetadata; // @synthesize hasSmsTextContentMetadata=_hasSmsTextContentMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLOWSchemaFLOWSmsAttachmentMetadata *smsAttachmentMetadata; // @synthesize smsAttachmentMetadata=_smsAttachmentMetadata;
 @property(retain, nonatomic) FLOWSchemaFLOWSmsTextContentMetadata *smsTextContentMetadata; // @synthesize smsTextContentMetadata=_smsTextContentMetadata;
 
 @end

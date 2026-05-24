@@ -7,6 +7,7 @@
 @interface StocksPersonalization.ComputeServiceConfigurationManager
 {
     id configurationManager;
+    id;
 }
 
 @end

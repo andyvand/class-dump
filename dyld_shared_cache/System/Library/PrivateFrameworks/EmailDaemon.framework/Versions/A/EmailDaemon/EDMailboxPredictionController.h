@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCachingMailboxPredictor, EDMailboxPersistence, EDMessagePersistence, EDPersistenceHookRegistry, NSObject, NSString;
-@protocol EMUserProfileProvider, OS_dispatch_queue;
+@class EDMessagePersistence;
 
 @interface EDMailboxPredictionController
 {
     EDMessagePersistence *_messagePersistence;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    EDCachingMailboxPredictor *_cachingPredictor;
-    EDMailboxPersistence *_mailboxPersistence;
-    EDPersistenceHookRegistry *_hookRegistry;
-    id <EMUserProfileProvider> _userProfileProvider;
 }
 
 + (id)0@ù
@@ -22,13 +16,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)0@ù
@@ -37,19 +31,7 @@
 - (id),;
 
 // Remaining properties
-@property(readonly, nonatomic) EDCachingMailboxPredictor *cachingPredictor; // @synthesize cachingPredictor=_cachingPredictor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(readonly, nonatomic) EDMailboxPersistence *mailboxPersistence; // @synthesize mailboxPersistence=_mailboxPersistence;
 @property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <EMUserProfileProvider> userProfileProvider; // @synthesize userProfileProvider=_userProfileProvider;
 
 @end
 

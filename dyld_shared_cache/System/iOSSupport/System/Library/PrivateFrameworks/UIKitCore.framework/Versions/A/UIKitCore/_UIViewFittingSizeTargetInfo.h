@@ -8,29 +8,23 @@ __attribute__((visibility("hidden")))
 @interface _UIViewFittingSizeTargetInfo
 {
     _Bool _dummy;
-    float _horizontalPriority;
-    float _verticalPriority;
-    struct CGSize _targetSize;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (struct CGSize)
 × ;
 - (_Bool)ransformer";
-- (_Bool)anged:(id)arg1;
+- (_Bool)setMoreViewControllersChanged:(id)arg1;
 - (id)dampingRatioSmoothing;
-- (float)pOperationAnimated:transitionAssistant: /* Error: Ran out of types for this method. */;
-- (id)AppearanceTransitionIfPossible:(struct _NSZone *)arg1 animated: /* Error: Ran out of types for this method. */;
+- (float)_completePopOperationAnimated:transitionAssistant: /* Error: Ran out of types for this method. */;
+- (id)_child:(struct _NSZone *)arg1 beginAppearanceTransitionIfPossible:animated: /* Error: Ran out of types for this method. */;
 - (float)oq|rðsduØvLxÀy4{¨|;
 - (void)¸uv;
 
 // Remaining properties
-@property(nonatomic, getter=isDummy) _Bool dummy; // @synthesize dummy=_dummy;
-@property(readonly, nonatomic) float horizontalPriority; // @synthesize horizontalPriority=_horizontalPriority;
 @property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
-@property(readonly, nonatomic) float verticalPriority; // @synthesize verticalPriority=_verticalPriority;
 
 @end
 

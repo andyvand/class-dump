@@ -7,13 +7,11 @@
 @class NSArray, NSData, NSString;
 
 @protocol _SFPBLinkPresentationCardSection
-- (_Bool)ryItemPairNumberCardSection: /* Error: Ran out of types for this method. */;
+- (NSArray *);
+- (NSData *)collectionShare;
+- (_Bool)setRfSummaryItemPairNumberCardSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(nonatomic) _Bool isHighlighted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *peopleToBadges;
-@property(copy, nonatomic) NSString *url;
 @end
 

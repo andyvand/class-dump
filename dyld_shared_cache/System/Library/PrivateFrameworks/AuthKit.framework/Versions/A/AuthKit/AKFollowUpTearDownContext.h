@@ -9,12 +9,6 @@
 @interface AKFollowUpTearDownContext
 {
     _Bool _isContinuityPush;
-    NSString *_itemIdentifier;
-    NSString *_akAction;
-    NSString *_altDSID;
-    NSString *_telemetryFlowID;
-    NSString *_txnid;
-    NSString *_idmsData;
 }
 
 + (_Bool);
@@ -38,13 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *akAction; // @synthesize akAction=_akAction;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *idmsData; // @synthesize idmsData=_idmsData;
-@property(nonatomic) _Bool isContinuityPush; // @synthesize isContinuityPush=_isContinuityPush;
 @property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
-@property(copy, nonatomic) NSString *txnid; // @synthesize txnid=_txnid;
 
 @end
 

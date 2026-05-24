@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RKColorUtil;
-
 __attribute__((visibility("hidden")))
 @interface RKSHL
 {
     void *m_vectorDataElem;
-    void *m_vectorGainArray;
-    RKColorUtil *m_rkColorUtil;
-    unsigned long long m_grid;
-    unsigned long long m_clutDataSize;
-    float *m_clutData;
-    long long m_overlayElem;
-    long long m_overlayOption;
 }
 
 - (void);

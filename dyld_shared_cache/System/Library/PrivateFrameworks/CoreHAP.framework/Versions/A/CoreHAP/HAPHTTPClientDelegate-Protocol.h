@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol HAPHTTPClientDelegate
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;

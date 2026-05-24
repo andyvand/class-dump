@@ -9,20 +9,9 @@
 @interface RemindersUICore.TTRMQuickBarEntryView : RemindersUICore.TTRMQuickBarEntryPlatterView
 {
     id horizontalConstraintMode;
-    id isEditing;
-    id quickBarFont;
-    id stackView;
-    id iconImageView;
-    id textField;
-    id clearButton;
-    id isIconOnlyMode;
-    id trackingArea;
-    id horizontalConstraints;
-    id iconOnlyConstraint;
-    id iconViewImageConstraint;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);

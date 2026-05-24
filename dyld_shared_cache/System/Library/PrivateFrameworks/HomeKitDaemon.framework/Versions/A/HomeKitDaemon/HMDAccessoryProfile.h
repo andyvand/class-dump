@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMFMessageDispatcher, NSArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMFMessageDispatcher, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryProfile
 {
     HMFMessageDispatcher *_msgDispatcher;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_uniqueIdentifier;
-    HMDAccessory *_accessory;
-    NSArray *_services;
-    NSString *_logIdentifier;
 }
 
-+ (id);
++ (id)authorNodes;
 + (_Bool)|Z;
 + (id)C;
 - (id);
@@ -28,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ConnectionStartToTLSHandshake;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -50,26 +44,7 @@ __attribute__((visibility("hidden")))
 - (id)lÁd	C;
 
 // Remaining properties
-@property(readonly) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
 @property(readonly, copy, nonatomic) NSString *contextID;
-@property(readonly, copy, nonatomic) NSUUID *contextSPIUniqueIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly, nonatomic) NSArray *services; // @synthesize services=_services;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

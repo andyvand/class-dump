@@ -5,5 +5,9 @@
 //
 
 @protocol SUCoreUpdateDownloaderDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

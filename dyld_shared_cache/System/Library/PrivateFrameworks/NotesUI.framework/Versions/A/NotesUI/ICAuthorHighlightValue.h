@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSNumber;
+@class NSNumber;
 
 @interface ICAuthorHighlightValue
 {
     _Bool _aboveImplicitHighlights;
-    NSNumber *_value;
-    NSColor *_color;
 }
 
 - (void);
 - (_Bool);
+- (void)q24;
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void)tionHandler;
+- (id)onQueryGeocode for search string %@;
+- (void)_actionHandler;
 
 // Remaining properties
-@property(nonatomic, getter=isAboveImplicitHighlights) _Bool aboveImplicitHighlights; // @synthesize aboveImplicitHighlights=_aboveImplicitHighlights;
-@property(copy, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(copy, nonatomic) NSNumber *value; // @synthesize value=_value;
 
 @end

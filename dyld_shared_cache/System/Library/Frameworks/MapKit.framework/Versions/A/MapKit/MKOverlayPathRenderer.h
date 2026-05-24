@@ -6,30 +6,17 @@
 
 #import <MapKit/MKOverlayRenderer.h>
 
-@class MKUsageCounter, NSArray, NSColor, NSMutableDictionary;
+@class NSColor;
 
 @interface MKOverlayPathRenderer : MKOverlayRenderer
 {
     NSColor *_fillColor;
-    NSColor *_strokeColor;
-    double _lineWidth;
-    int _lineJoin;
-    int _lineCap;
-    double _miterLimit;
-    double _lineDashPhase;
-    NSArray *_lineDashPattern;
-    struct CGPath *_path;
-    _Bool _shouldRasterize;
-    struct os_unfair_lock_s _runningVectorGeometryAnimationsLock;
-    NSMutableDictionary *_runningVectorGeometryAnimations;
-    _Bool _externalSubclassOverridesDrawingMethods;
-    MKUsageCounter *_usageCounter;
 }
 
 + (Class);
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool);
+- (void)t;
+- (void)~&;
 - (id);
 - (void);
 - (void);
@@ -40,11 +27,11 @@
 - (id);
 - (void);
 - (void);
+- (_Bool)xcX;
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)"32@?<v@?@"NSDictionary">40;
 - (double);
 - (id);
 - (int);
@@ -55,32 +42,21 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)groupFromABCDGroup: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)_textElements;
 - (void);
 - (struct CGPath *);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)blockText;
+- (void)fffffffffffffff}[16f]),N,V_invModelviewMatrix;
+- (void)5;
 - (double);
-- (void)topUserInteraction: /* Error: Ran out of types for this method. */;
-- (void)xpectedCoordinateUpdateInterval;
+- (void)lookAroundViewDidStopUserInteraction: /* Error: Ran out of types for this method. */;
+- (void)_expectedCoordinateUpdateInterval;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_externalSubclassOverridesDrawingMethods) _Bool externalSubclassOverridesDrawingMethods; // @synthesize externalSubclassOverridesDrawingMethods=_externalSubclassOverridesDrawingMethods;
-@property(retain) NSColor *fillColor;
-@property int lineCap;
-@property(copy) NSArray *lineDashPattern;
-@property double lineDashPhase;
-@property int lineJoin;
-@property double lineWidth;
-@property double miterLimit;
-@property struct CGPath *path;
-@property(nonatomic) _Bool shouldRasterize; // @synthesize shouldRasterize=_shouldRasterize;
-@property(retain) NSColor *strokeColor;
-@property(nonatomic, getter=_usageCounter, setter=_setUsageCounter:) __weak MKUsageCounter *usageCounter; // @synthesize usageCounter=_usageCounter;
 
 @end
 

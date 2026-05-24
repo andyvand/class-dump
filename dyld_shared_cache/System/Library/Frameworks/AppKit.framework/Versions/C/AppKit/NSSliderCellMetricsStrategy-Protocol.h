@@ -5,6 +5,12 @@
 //
 
 @protocol NSSliderCellMetricsStrategy
+- (struct CGRect)e payload:(struct CGRect)arg1 %d;
+- (struct CGRect)rror %03X;
+- (struct CGRect)dUipfYkyvM80t4IkmMBVgQ;
+- (struct NSEdgeInsets)-second;
+- (struct CGRect);
+- (CDStruct_6717dab8)_NSCustomTextRenderingDisplayLinkInfo;
 - (struct NSEdgeInsets)\U201D couldn\U2019t be mounted.;
 
 // Remaining properties

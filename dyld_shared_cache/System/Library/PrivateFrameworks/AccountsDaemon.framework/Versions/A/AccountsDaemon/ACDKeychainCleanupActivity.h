@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class ACAccountStore;
 
 @interface ACDKeychainCleanupActivity
 {
     ACAccountStore *_accountStore;
-    NSObject<OS_xpc_object> *_xpcActivity;
-    NSObject<OS_dispatch_queue> *_activityQueue;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)deactivateAccountUID:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)setObject:forKeyedSubscript: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);

@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVRoutingClientController, MRMediaRemoteService, MRNotificationClient, MRNotificationServiceClient, MRNowPlayingSessionServiceClient, MRPlayerPath, NSArray, NSDate, NSHashTable, NSMutableSet, NSObject, NSString;
+@class MRMediaRemoteService, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRMediaRemoteServiceClient
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    MRAVRoutingClientController *_routingClientController;
-    MRPlayerPath *_activePlayerPath;
-    MRPlayerPath *_currentSessionPlayerPath;
-    NSDate *_currentSessionPlayerPathDate;
-    NSString *_currentSessionRoutingContextID;
-    NSDate *_currentSessionRoutingContextIDDate;
-    NSMutableSet *_playerPathInvalidationHandlers;
-    NSHashTable *_weakEndpointObservers;
-    NSHashTable *_weakNowPlayingControllers;
-    NSHashTable *_weakDiscoverySessions;
-    NSHashTable *_weakEndpoints;
-    NSHashTable *_weakExternalDevices;
-    MRNotificationServiceClient *_notificationService;
-    MRNowPlayingSessionServiceClient *_nowPlayingSessionService;
-    MRMediaRemoteService *_service;
-    MRNotificationClient *_notificationClient;
-    NSArray *_registeredOrigins;
-    NSObject<OS_dispatch_queue> *_playbackQueueDispatchQueue;
 }
 
 + (id);
@@ -38,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -46,32 +28,25 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)sed"C"secondsToGetLinkUpOnSWAP"d"wifiJoinSWAPError"i"hitJoiningTargetSWAPTimeout"C"rssiOfSWAP"i"snrOfSWAP"I"channelOfSWAP"I};
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)SpeakingStateDelegate>";
+- (id)AFProviderServiceDelegate;
+- (id)%p;
 - (void);
 - (id);
-- (void)OnClusterActivate:(id)arg1;
-- (void)MaxConcurrentOperationCount: /* Error: Ran out of types for this method. */;
+- (void)setEngageOnClusterActivate:(id)arg1;
+- (void)setMaxConcurrentOperationCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MRPlayerPath *activePlayerPath;
-@property(retain, nonatomic) MRPlayerPath *currentSessionPlayerPath;
-@property(retain, nonatomic) NSString *currentSessionRoutingContextID;
-@property(readonly, nonatomic) MRNotificationClient *notificationClient; // @synthesize notificationClient=_notificationClient;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *playbackQueueDispatchQueue; // @synthesize playbackQueueDispatchQueue=_playbackQueueDispatchQueue;
-@property(readonly, nonatomic) NSArray *registeredOrigins; // @synthesize registeredOrigins=_registeredOrigins;
 @property(readonly, nonatomic) MRMediaRemoteService *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workerQueue;
 
 @end
 

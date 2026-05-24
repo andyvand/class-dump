@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface QDSchemaQDClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_qdId;
-    _Bool _hasQdId;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)hasUnknownDistributor;
 - (_Bool);
-- (_Bool);
+- (_Bool)goFetchAllActiveChats;
 - (id);
 - (id);
-- (id)opicalityAttributes;
+- (id)_topicalityAttributes;
 - (id)eWordLength;
-- (void)OME_UNKNOWN;
+- (void)FLCANDIDATEOUTCOME_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) _Bool hasQdId; // @synthesize hasQdId=_hasQdId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *qdId; // @synthesize qdId=_qdId;
 
 @end

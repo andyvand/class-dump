@@ -8,12 +8,12 @@
 {
 }
 
-+ (void);
++ (void);
 + (void);
 + (unsigned long long);
-+ (id);
-+ (_Bool);
-+ (double);
++ (id)thumbnailRequestForFileAtURL:(long long)arg1 size:minimumSize:scale:iconMode: /* Error: Ran out of types for this method. */;
++ (_Bool)sharedInstanceWithError:(long long)arg1;
++ (double)_physicalFileExtensionToken;
 
 @end
 

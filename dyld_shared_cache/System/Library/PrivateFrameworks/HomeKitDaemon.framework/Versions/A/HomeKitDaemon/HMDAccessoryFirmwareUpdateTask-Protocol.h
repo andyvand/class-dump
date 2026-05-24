@@ -8,15 +8,12 @@
 @protocol OS_xpc_object;
 
 @protocol HMDAccessoryFirmwareUpdateTask
+- (_Bool)setLastButtonMask: /* Error: Ran out of types for this method. */;
 - (NSObject<OS_xpc_object> *)payload missing Matter clusterID:%s /* Error: Ran out of types for this method. */;
 - (double)rror"16;
 - (void)cutables/Sources/homed/Assistant/HMDAssistantCommand.m;
 
 // Remaining properties
-@property(readonly) NSObject<OS_xpc_object> *criteria;
 @property(readonly) double initialDelay;
-@property(readonly, nonatomic) _Bool shouldRun;
-@property(readonly) _Bool shouldRunOnCurrentDevice;
-@property(readonly, nonatomic, getter=isUserInitiated) _Bool userInitiated;
 @end
 

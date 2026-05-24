@@ -7,16 +7,11 @@
 @interface ContactsUICore.SensitiveContentActionsView.Model
 {
     id _shouldShowDisclaimer;
-    id contact;
-    id _actionsProvider;
-    id sensitiveContentAnalysisManager;
-    id popoverSourceView;
-    id _$observationRegistrar;
 }
 
 - (void);
 - (id);
-- (void)fiedContact:fromScratchpad: /* Error: Ran out of types for this method. */;
+- (void)scratchpadByRemovingModifiedContact:fromScratchpad: /* Error: Ran out of types for this method. */;
 
 @end
 

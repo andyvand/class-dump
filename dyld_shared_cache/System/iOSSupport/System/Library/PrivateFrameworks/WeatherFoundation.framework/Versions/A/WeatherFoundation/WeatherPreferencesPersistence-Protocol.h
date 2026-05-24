@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol WeatherPreferencesPersistence
-- (void)ype;
+- (void)startEditingStructuredHashtagHandler;
+- (NSArray *)*;
+- (void)symbolType;
 @end
 

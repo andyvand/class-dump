@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSString;
 @protocol VNPersonsModelDataDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VNPersonsModelData
 {
     unsigned long long _maximumIdentities;
-    unsigned long long _faceprintRequestRevision;
-    NSMutableArray *_personUniqueIdentifiers;
-    NSMutableDictionary *_personUniqueIdentifierToSerialNumberMapping;
-    NSMutableDictionary *_serialNumberToFaceObservationsMapping;
-    NSMutableIndexSet *_availablePersonSerialNumbers;
-    NSDate *_lastModificationDate;
-    id <VNPersonsModelDataDelegate> _delegate;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)@
+;
 - (_Bool);
 - (id);
 - (id);
@@ -43,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -51,16 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)region map data has length of %lu instead of the expected %lu;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <VNPersonsModelDataDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long faceprintRequestRevision; // @synthesize faceprintRequestRevision=_faceprintRequestRevision;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *lastModificationDate; // @synthesize lastModificationDate=_lastModificationDate;
-@property(readonly) Class superclass;
 
 @end
 

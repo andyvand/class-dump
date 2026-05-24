@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     PDFDestination *destination;
 }
 
-- (void);
+- (void)_%;
 
 @end
 

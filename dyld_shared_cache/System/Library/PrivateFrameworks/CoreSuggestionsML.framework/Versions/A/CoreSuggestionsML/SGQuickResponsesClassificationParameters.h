@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGQuickResponsesClassificationParameters
 {
     double _positiveSamplingRate;
-    double _dynamicLabelSamplingRate;
-    double _negativeSamplingRate;
-    unsigned long long _maxReplyLength;
-    unsigned long long _maxPromptLength;
-    double _maxPromptWindowSeconds;
-    NSString *_promptJoiningString;
 }
 
 - (double);
 - (double);
 - (id);
 - (double);
-- (id);
+- (id)&;
 - (unsigned long long);
 - (double);
-- (unsigned long long);
+- (unsigned long long)A000000337102001;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double dynamicLabelSamplingRate; // @synthesize dynamicLabelSamplingRate=_dynamicLabelSamplingRate;
-@property(readonly, nonatomic) unsigned long long maxPromptLength; // @synthesize maxPromptLength=_maxPromptLength;
-@property(readonly, nonatomic) double maxPromptWindowSeconds; // @synthesize maxPromptWindowSeconds=_maxPromptWindowSeconds;
-@property(readonly, nonatomic) unsigned long long maxReplyLength; // @synthesize maxReplyLength=_maxReplyLength;
-@property(readonly, nonatomic) double negativeSamplingRate; // @synthesize negativeSamplingRate=_negativeSamplingRate;
 @property(readonly, nonatomic) double positiveSamplingRate; // @synthesize positiveSamplingRate=_positiveSamplingRate;
-@property(readonly, nonatomic) NSString *promptJoiningString; // @synthesize promptJoiningString=_promptJoiningString;
 
 @end
 

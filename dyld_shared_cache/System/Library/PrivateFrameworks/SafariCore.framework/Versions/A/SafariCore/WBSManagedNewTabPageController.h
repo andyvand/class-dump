@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MOEffectiveSettingsStore, NSString;
-@protocol MOCancellable;
+@class MOEffectiveSettingsStore;
 
 @interface WBSManagedNewTabPageController
 {
     MOEffectiveSettingsStore *_managedSettingsStore;
-    id <MOCancellable> _managedNewTabPageSubscription;
-    _Bool _hasCachedNewTabPageState;
-    long long _cachedNewTabPageState;
 }
 
 + (id);
@@ -25,8 +21,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *managedNewTabPageExtensionComposedIdentifier;
-@property(readonly, copy, nonatomic) NSString *managedNewTabPageHomepageURLString;
 @property(readonly, nonatomic) long long managedNewTabPageState;
 
 @end

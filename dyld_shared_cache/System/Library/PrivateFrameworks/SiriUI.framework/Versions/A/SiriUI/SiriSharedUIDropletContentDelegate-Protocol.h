@@ -5,5 +5,6 @@
 //
 
 @protocol SiriSharedUIDropletContentDelegate
+- (void);
 @end
 

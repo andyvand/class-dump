@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSStackView, STLockoutPolicyController, STPasscodeField;
+@class NSArray, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface STLockoutAlertController
 {
     NSStackView *_stackView;
-    NSArray *_actions;
-    STLockoutPolicyController *_policyController;
-    long long _style;
 }
 
 - (id);
@@ -20,23 +17,20 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
+- (id)+;
 - (id);
 - (void);
+- (long long)A;
+- (id);
 - (void);
 - (void);
+- (void)canPerformTrackingDetail;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly) STPasscodeField *passcodeField;
-@property(readonly) STLockoutPolicyController *policyController; // @synthesize policyController=_policyController;
-@property(nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

@@ -6,33 +6,15 @@
 
 #import <MetalTools/MTLToolsRenderPipelineState.h>
 
-@class MTLGPUDebugBuffer, MTLGPUDebugImageData, MTLRenderPipelineReflection, NSArray, NSMutableArray, NSString;
+@class MTLRenderPipelineReflection, NSArray;
 
 @interface MTLGPUDebugRenderPipelineState : MTLToolsRenderPipelineState
 {
     MTLRenderPipelineReflection *_internalReflection;
-    MTLRenderPipelineReflection *_userReflection;
-    NSMutableArray *_binaryFunctionData;
-    MTLGPUDebugImageData *_vertexFunctionData;
-    MTLGPUDebugImageData *_fragmentFunctionData;
-    MTLGPUDebugImageData *_tileFunctionData;
-    MTLGPUDebugImageData *_objectFunctionData;
-    MTLGPUDebugImageData *_meshFunctionData;
-    NSMutableArray *_retainedFunctions;
-    MTLGPUDebugBuffer *_indirectStateBuffer;
-    _Bool _supportsIndirectCommandBuffers;
-    long long _shaderValidation;
-    long long _shaderValidationState;
-    int _vertexMaxCallStackDepth;
-    int _fragmentMaxCallStackDepth;
-    int _meshMaxCallStackDepth;
-    int _objectMaxCallStackDepth;
-    int _tileMaxCallStackDepth;
-    NSString *_UID;
 }
 
 - (int);
-- (id);
+- (id)N;
 - (id);
 - (id);
 - (id);
@@ -43,27 +25,36 @@
 - (int);
 - (id);
 - (id);
+- (int);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (int);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id)T;
+- (id);
+- (id);
+- (id)`;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -72,43 +63,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)3;
 - (id);
 - (long long)¡T;
 - (long long)íÿuU;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *UID; // @synthesize UID=_UID;
 @property(readonly, nonatomic) NSArray *binaryFunctionData; // @synthesize binaryFunctionData=_binaryFunctionData;
-@property(readonly, nonatomic) MTLGPUDebugBuffer *fragmentConstantsBuffer;
-@property(readonly, nonatomic) MTLGPUDebugImageData *fragmentFunctionData;
-@property(readonly, nonatomic) int fragmentMaxCallStackDepth; // @synthesize fragmentMaxCallStackDepth=_fragmentMaxCallStackDepth;
-@property(readonly, nonatomic) MTLGPUDebugBuffer *indirectStateBuffer;
-@property(readonly, nonatomic) MTLRenderPipelineReflection *internalReflection;
-@property(readonly, nonatomic) MTLGPUDebugBuffer *meshConstantsBuffer;
-@property(readonly, nonatomic) MTLGPUDebugImageData *meshFunctionData;
-@property(readonly, nonatomic) int meshMaxCallStackDepth; // @synthesize meshMaxCallStackDepth=_meshMaxCallStackDepth;
-@property(readonly, nonatomic) MTLGPUDebugBuffer *objectConstantsBuffer;
-@property(readonly, nonatomic) MTLGPUDebugImageData *objectFunctionData;
-@property(readonly, nonatomic) int objectMaxCallStackDepth; // @synthesize objectMaxCallStackDepth=_objectMaxCallStackDepth;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly, nonatomic) long long shaderValidationState;
-@property(readonly, nonatomic) MTLGPUDebugBuffer *tileConstantsBuffer;
-@property(readonly, nonatomic) MTLGPUDebugImageData *tileFunctionData;
-@property(readonly, nonatomic) int tileMaxCallStackDepth; // @synthesize tileMaxCallStackDepth=_tileMaxCallStackDepth;
-@property(readonly, nonatomic) MTLRenderPipelineReflection *userReflection;
-@property(readonly, nonatomic) MTLGPUDebugBuffer *vertexConstantsBuffer;
-@property(readonly, nonatomic) MTLGPUDebugImageData *vertexFunctionData;
-@property(readonly, nonatomic) int vertexMaxCallStackDepth; // @synthesize vertexMaxCallStackDepth=_vertexMaxCallStackDepth;
 
 @end
 

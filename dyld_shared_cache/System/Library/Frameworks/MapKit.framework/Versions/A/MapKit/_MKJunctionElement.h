@@ -8,24 +8,20 @@ __attribute__((visibility("hidden")))
 @interface _MKJunctionElement
 {
     struct CGPoint _leftBasePoint;
-    struct CGPoint _rightBasePoint;
-    double _angle;
 }
 
-- (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (void)setNumberOfBytesDownloadedCell:(struct CGPoint)arg1;
+- (void)Ĥ;
+- (struct CGPoint)Connection.;
+- (struct CGPoint)ame not recognized;
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
 - (id);
-- (double);
+- (double)_spIdSiriDebugVoiceProfileCacheDirectoryForProfile:locale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double angle; // @synthesize angle=_angle;
 @property(nonatomic) struct CGPoint leftBasePoint; // @synthesize leftBasePoint=_leftBasePoint;
-@property(nonatomic) struct CGPoint rightBasePoint; // @synthesize rightBasePoint=_rightBasePoint;
 
 @end
 

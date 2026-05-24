@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSRBSKeepAlive, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_os_transaction;
 
 __attribute__((visibility("hidden")))
 @interface AMSKeepAlive
 {
     NSObject<OS_os_transaction> *_transaction;
-    NSString *_logKey;
-    AMSRBSKeepAlive *_rbsKeepAlive;
-    NSString *_name;
-    long long _style;
 }
 
 + (id);
 + (id);
 + (id);
++ (void)CoreServices.framework/Contents/MacOS/CoreServices;
++ (id)Observed outputDevice removed <%{public}@> from <%{public}@>;
 + (void);
-+ (id);
-+ (void);
-+ (id);
++ (id)L;
 + (void)o will attach storefront header manually;
 - (long long);
 - (id);
@@ -31,13 +27,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id)_hexAddressDescription;
-- (id)TokenOverride;
+- (id)ams_hexAddressDescription;
+- (id)AMSMediaTokenOverride;
 - (void)ÐÛ¸ã_ûXÝÅu¢¸cÿ2W´_Ã®^vab¤]¨Ý«Áb½ÆìÄS;jç~Q*6pzïõÊí Ywùu2_²p/öß4n9;
 
 // Remaining properties
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) long long style; // @synthesize style=_style;
 
 @end
 

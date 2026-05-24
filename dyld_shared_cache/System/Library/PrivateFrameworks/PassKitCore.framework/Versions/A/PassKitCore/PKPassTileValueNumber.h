@@ -6,37 +6,33 @@
 
 #import <PassKitCore/PKPassTileValue.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PKPassTileValueNumber : PKPassTileValue
 {
     NSNumber *_content;
-    NSString *_currencyCode;
-    long long _numberStyle;
 }
 
 + (id);
 + (_Bool)X"!,Bùqî%ð1Â0@ù
 × ;
 - (id);
-- (id);
+- (id)`;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)9	qL;
 - (long long);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)_k;
+- (void)txControl;
 - (void)ntRewardsRedemptionTransactionDetails";
-- (id)ateSEEncryptionCertificateForSubCredentialId:completion: /* Error: Ran out of types for this method. */;
+- (id)usingSynchronousProxy:generateSEEncryptionCertificateForSubCredentialId:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)6@?0@8;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *content; // @synthesize content=_content;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(nonatomic) long long numberStyle; // @synthesize numberStyle=_numberStyle;
 
 @end
 

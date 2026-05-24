@@ -6,50 +6,48 @@
 
 #import <ChatKit/CKConversationListCell.h>
 
-@class CKAvatarView, ChatKit.CKConversationListIndicatorsView, NSString, UIImageView, UIView;
+@class CKAvatarView;
 
 @interface CKConversationListStandardCell : CKConversationListCell
 {
     _Bool _showTypingIndicator;
-    _Bool _showDownloadingPendingMessages;
-    CKAvatarView *_avatarView;
-    UIView *_footer;
-    UIImageView *_unreadIndicatorImageView;
-    ChatKit.CKConversationListIndicatorsView *_indicatorContainerView;
 }
 
-+ (double);
++ (double)bug.NotesImporter;
 + (id);
+- (void)assetWriter;
+- (void)archiveEvernoteNotesFromFileURL:(id)arg1 completionBlock:(_Bool)arg2;
+- (void)applyUnconfirmedMentionToTextStorage:participants:range:textView:mentionString: /* Error: Ran out of types for this method. */;
+- (void)activityIndicator;
+- (void)accountsOfModernSourceObjects;
+- (void)_webView:(id)arg1 startXRSessionWithCompletionHandler:(_Bool)arg2;
+- (void)_webView:(id)arg1 setWindowFrame: /* Error: Ran out of types for this method. */;
+- (void)_webView:didStartInputSession: /* Error: Ran out of types for this method. */;
+- (void)_webView:(_Bool)arg1 didResignInputElementStrongPasswordAppearanceWithUserInfo: /* Error: Ran out of types for this method. */;
+- (id)onHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)setInitialFont: /* Error: Ran out of types for this method. */;
+- (_Bool)",R,N,V_legacyNoteFetchedResultsController;
+- (_Bool)N,V_folder;
+- (void)ICAccountPassphraseManager;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)R;
+- (void)`a;
 - (id);
+- (void);
+- (void)Summary %d hasPreviewImage %d;
+- (void)All to Large;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)dg
+;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)I/-di
+;
+- (_Bool)>|s
+;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -71,21 +69,21 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)k#ɚ_;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)0@ù
 × ;
-- (void)ator:(id)arg1;
-- (id)n:(long long)arg1 shouldBypassScreenTimeShield:(id)arg2 presentingViewController:sender: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 textItemMenuWillEndForTextItem:animator: /* Error: Ran out of types for this method. */;
+- (id)addToContactsAction:(long long)arg1 shouldBypassScreenTimeShield:(id)arg2 presentingViewController:sender: /* Error: Ran out of types for this method. */;
 - (void)e>",W,N,V_textFormattingDelegate;
 - (void)and previous filter modes:(_Bool)arg1 %s;
 - (_Bool);
@@ -93,18 +91,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIView *footer; // @synthesize footer=_footer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ChatKit.CKConversationListIndicatorsView *indicatorContainerView; // @synthesize indicatorContainerView=_indicatorContainerView;
-@property(nonatomic) _Bool showDownloadingPendingMessages; // @synthesize showDownloadingPendingMessages=_showDownloadingPendingMessages;
-@property(nonatomic) _Bool showTypingIndicator; // @synthesize showTypingIndicator=_showTypingIndicator;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIImageView *unreadIndicatorImageView; // @synthesize unreadIndicatorImageView=_unreadIndicatorImageView;
 
 @end
 

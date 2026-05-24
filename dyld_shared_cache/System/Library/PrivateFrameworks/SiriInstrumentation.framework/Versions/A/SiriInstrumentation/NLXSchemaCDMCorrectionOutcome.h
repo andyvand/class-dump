@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMCorrectionOutcome : SISchemaInstrumentationMessage
 {
     int _correctionType;
-    CDStruct_be50a511 _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (int);
+- (_Bool)addSubscriberForFileURL:withPublishingHandler: /* Error: Ran out of types for this method. */;
+- (int)deOverLay;
 - (id);
-- (void);
+- (void)find certificate;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)ñÞ1Â0@ù
 × ;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int correctionType; // @synthesize correctionType=_correctionType;
-@property(nonatomic) _Bool hasCorrectionType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

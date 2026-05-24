@@ -7,12 +7,11 @@
 @interface SACallTreeNode
 {
     unsigned long long _sampleCount;
-    unsigned long long _startSampleIndex;
 }
 
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Array">40;
 - (unsigned long long);
 - (void)rkQueueThreads:(unsigned long long)arg1 %d
 displayAllBinaries:%d
@@ -70,7 +69,6 @@ processUUIDsToPrint:%@
 
 // Remaining properties
 @property unsigned long long sampleCount; // @synthesize sampleCount=_sampleCount;
-@property unsigned long long startSampleIndex; // @synthesize startSampleIndex=_startSampleIndex;
 
 @end
 

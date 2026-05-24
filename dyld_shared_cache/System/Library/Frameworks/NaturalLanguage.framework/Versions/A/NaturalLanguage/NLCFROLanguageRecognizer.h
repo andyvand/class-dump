@@ -6,21 +6,18 @@
 
 #import <NaturalLanguage/NLLanguageRecognizer.h>
 
-@class NSMutableString;
-
 @interface NLCFROLanguageRecognizer : NLLanguageRecognizer
 {
     void *_tagger;
-    NSMutableString *_string;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)viewWithPriorityAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

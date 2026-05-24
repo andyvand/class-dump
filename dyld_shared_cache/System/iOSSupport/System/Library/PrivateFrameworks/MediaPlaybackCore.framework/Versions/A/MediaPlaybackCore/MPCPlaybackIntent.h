@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackSharedListeningProperties, NSData, NSDictionary, NSNumber, NSString;
-@protocol MPCPlaybackIntentDataSource, NSSecureCoding;
+@protocol MPCPlaybackIntentDataSource;
 
 @interface MPCPlaybackIntent
 {
     id <MPCPlaybackIntentDataSource> _resolvedTracklistDataSource;
-    _Bool _prefersEnqueuingUsingAirPlay;
-    NSDictionary *_startTimeModifications;
-    NSDictionary *_endTimeModifications;
-    long long _actionAfterQueueLoad;
-    long long _shuffleMode;
-    long long _repeatMode;
-    NSNumber *_privateListeningOverride;
-    NSString *_queueGroupingID;
-    NSString *_playActivityFeatureName;
-    NSData *_playActivityRecommendationData;
-    NSString *_siriAssetInfo;
-    NSString *_siriReferenceIdentifier;
-    NSDictionary *_siriWHAMetricsInfo;
-    NSData *_delegateTokenB;
-    long long _replaceIntent;
-    long long _tracklistSource;
-    id <NSSecureCoding> _tracklistToken;
 }
 
 + (id);
@@ -42,10 +24,10 @@
 + (id);
 + (void);
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)lasses for account %@. Proceeding with save.;
+- (id)is migrated, so we won't provision it for this basic account %@;
+- (id)ount change:No parent account /* Error: Ran out of types for this method. */;
+- (id)for account (%@) with dataclass actions:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -53,15 +35,15 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)j;
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -83,30 +65,12 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)`;
 - (long long);
 - (void)CHANGED       %{public}@ %{public}@;
 
 // Remaining properties
-@property(nonatomic) long long actionAfterQueueLoad; // @synthesize actionAfterQueueLoad=_actionAfterQueueLoad;
-@property(copy, nonatomic) NSData *delegateTokenB; // @synthesize delegateTokenB=_delegateTokenB;
-@property(copy, nonatomic) NSDictionary *endTimeModifications; // @synthesize endTimeModifications=_endTimeModifications;
-@property(copy, nonatomic) NSString *playActivityFeatureName; // @synthesize playActivityFeatureName=_playActivityFeatureName;
-@property(copy, nonatomic) NSData *playActivityRecommendationData; // @synthesize playActivityRecommendationData=_playActivityRecommendationData;
-@property(nonatomic) _Bool prefersEnqueuingUsingAirPlay; // @synthesize prefersEnqueuingUsingAirPlay=_prefersEnqueuingUsingAirPlay;
-@property(copy, nonatomic) NSNumber *privateListeningOverride; // @synthesize privateListeningOverride=_privateListeningOverride;
-@property(copy, nonatomic) NSString *queueGroupingID; // @synthesize queueGroupingID=_queueGroupingID;
-@property(nonatomic) long long repeatMode; // @synthesize repeatMode=_repeatMode;
-@property(nonatomic) long long replaceIntent; // @synthesize replaceIntent=_replaceIntent;
-@property(readonly, nonatomic) MPCPlaybackSharedListeningProperties *sharedListeningProperties;
-@property(nonatomic) long long shuffleMode; // @synthesize shuffleMode=_shuffleMode;
-@property(copy, nonatomic) NSString *siriAssetInfo; // @synthesize siriAssetInfo=_siriAssetInfo;
-@property(copy, nonatomic) NSString *siriReferenceIdentifier; // @synthesize siriReferenceIdentifier=_siriReferenceIdentifier;
-@property(copy, nonatomic) NSDictionary *siriWHAMetricsInfo; // @synthesize siriWHAMetricsInfo=_siriWHAMetricsInfo;
-@property(copy, nonatomic) NSDictionary *startTimeModifications; // @synthesize startTimeModifications=_startTimeModifications;
 @property(readonly, nonatomic) id <MPCPlaybackIntentDataSource> tracklistDataSource;
-@property(nonatomic) long long tracklistSource; // @synthesize tracklistSource=_tracklistSource;
-@property(retain, nonatomic) id <NSSecureCoding> tracklistToken; // @synthesize tracklistToken=_tracklistToken;
 
 @end
 

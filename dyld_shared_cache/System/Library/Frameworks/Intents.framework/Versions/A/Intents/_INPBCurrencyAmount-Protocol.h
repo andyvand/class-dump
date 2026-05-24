@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCurrencyAmountValue;
+@class NSArray;
 
 @protocol _INPBCurrencyAmount
++ (Class)specified.;
+- (unsigned long long);
 - (void)D;
-- (_INPBCurrencyAmountValue *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

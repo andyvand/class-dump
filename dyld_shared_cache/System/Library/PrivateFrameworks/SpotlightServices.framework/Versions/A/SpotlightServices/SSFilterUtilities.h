@@ -9,16 +9,16 @@
 }
 
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
++ (_Bool)"16@0:(id)arg1 8;
++ (_Bool)v32@0:(id)arg1 8@"LPMetadataProviderSpecialization"16@"LPLinkMetadata"24;
++ (_Bool)podcastPlaybackInformationWithStoreIdentifier:(id)arg1 storefrontIdentifier:offers: /* Error: Ran out of types for this method. */;
++ (_Bool)isMuninURL:(id)arg1;
++ (id)decimalDigitCharacterSet;
++ (id)checkPromisedItemIsReachableAndReturnError:(id)arg1;
++ (_Bool)adjustedForString:(id)arg1;
++ (id)_resolvedMetadata;
++ (_Bool)_lp_CSSTextHexFormatForcingUserInterfaceStyle:(id)arg1;
++ (id)setTarget_Max_Dimension_800:(id)arg1;
 + (id);
 + (id);
 + (id);

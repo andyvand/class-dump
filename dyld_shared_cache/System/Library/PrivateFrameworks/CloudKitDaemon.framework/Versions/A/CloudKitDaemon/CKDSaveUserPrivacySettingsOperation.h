@@ -12,10 +12,10 @@
 }
 
 + (long long);
-- (void);
+- (void)setTaskScheduler:(long long)arg1;
 - (long long);
-- (_Bool);
-- (id);
+- (_Bool)nd on disk. Writing attachment %@ to disk;
+- (id);
 - (void);
 - (int);
 - (id);

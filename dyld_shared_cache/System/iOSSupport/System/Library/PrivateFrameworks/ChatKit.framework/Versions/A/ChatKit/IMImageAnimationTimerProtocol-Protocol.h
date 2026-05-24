@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol IMAnimationTimerObserver;
+
 @protocol IMImageAnimationTimerProtocol
+- (void)6@0:(_Bool)arg1 8Q16{CGRect={CGPoint=dd}{CGSize=dd}}24;
+- (void)objectForCKShareRecordID:(id <IMAnimationTimerObserver>)arg1 accountID:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldStopWhenBackgrounded;

@@ -6,28 +6,26 @@
 
 #import <MediaPlayer/MPMediaPredicate.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface MPMediaContainmentPredicate : MPMediaPredicate
 {
     NSString *_property;
-    NSSet *_values;
 }
 
-+ (id);
++ (id)8o;
 + (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ontroller;
 - (void);
 - (id);
 - (id);
-- (void)ationshipGenericPlaylist__MAPPING_MISSING__;
+- (void)__MPModelRelationshipGenericPlaylist__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *property; // @synthesize property=_property;
-@property(readonly, copy, nonatomic) NSSet *values; // @synthesize values=_values;
 
 @end
 

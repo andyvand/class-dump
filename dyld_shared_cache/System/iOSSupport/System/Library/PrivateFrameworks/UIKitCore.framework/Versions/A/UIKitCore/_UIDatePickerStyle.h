@@ -10,29 +10,29 @@
 }
 
 - (long long);
-- (double);
-- (_Bool);
-- (struct UIOffset);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (struct CGSize);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (long long);
-- (id);
+- (double)isLocalUserAvailableForContactInActiveMode:error: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithIdsTrustedData:editCommandGUID:timestamp:isFromStorage:isLastFromStorage:editedMessageGUID:editedMessagePartIndex:editType:editedMessagePartBody:editedMessagePartTranslation:editedMessagePartFileTransferGUIDs:shouldRetractMessageSubject:hasEditTypeAndPartIndex: /* Error: Ran out of types for this method. */;
+- (struct UIOffset)ge:(struct UIEdgeInsets)arg1 isFromDefaultPairedDevice:(long long)arg2;
+- (double)initWithIdsTrustedData:GUID:timestamp:isFromStorage:isLastFromStorage:isFromDefaultPairedDevice: /* Error: Ran out of types for this method. */;
+- (double)initWithIdsTrustedData:GUID:timestamp:isFromStorage:isLastFromStorage: /* Error: Ran out of types for this method. */;
+- (double)initWithIdsTrustedData:GUID:timestamp:isFromStorage:isLastFromStorage: /* Error: Ran out of types for this method. */;
+- (double)ger:relayPushHandler: /* Error: Ran out of types for this method. */;
+- (double)initWithIdentityLookupDecisioningManager:trustKitDecisioningManager:communicationTrustManager:relayPushHandler: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)fetchUserRecordIDWithCompletionHandler:(struct UIEdgeInsets)arg1;
+- (double)cancelScheduledMessageWithGUID:destinations:cancelType: /* Error: Ran out of types for this method. */;
+- (double)cancelScheduledMessageWithGUID:destination: /* Error: Ran out of types for this method. */;
+- (double)canMarkPurgeableWithCKSyncState:transferState:isAudio:isSticker:isGroupPhoto:isPluginPayload:isRichLink: /* Error: Ran out of types for this method. */;
+- (double)canMarkPurgeable;
+- (double)canMakeExpireStateChecks;
+- (struct CGSize)_nicknamesForParticipants;
+- (double)_messageSummaryAdditions;
+- (double)_messageStoreSharedInstance;
+- (double)_messageStoreCompletion:inputMessage:outputMessage:originalMessage:completionBlock: /* Error: Ran out of types for this method. */;
+- (double)_messageRequestsServiceForSendingBypass: /* Error: Ran out of types for this method. */;
+- (double)_messagePartMatchingAssociatedMessageGUID:associatedMessageItem: /* Error: Ran out of types for this method. */;
+- (double)_messageItemsSupportingBreakthroughNotifications: /* Error: Ran out of types for this method. */;
+- (long long)_plainTextPartWithString:index: /* Error: Ran out of types for this method. */;
+- (id)IMDaemonListenerCollaborationProtocol;
 - (id);
 - (_Bool);
 - (double);
@@ -46,31 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double compactDateLabelPlatterHorizontalPadding;
-@property(readonly, nonatomic) double compactDateLabelPlatterVerticalPadding;
-@property(readonly, nonatomic) struct CGSize compactLabelBackgroundPadding;
-@property(readonly, nonatomic) double compactLabelButtonSpacing;
-@property(readonly, nonatomic) double compactLabelCornerRadius;
-@property(readonly, nonatomic) double compactLabelInputBackgroundCornerRadius;
-@property(readonly, nonatomic) _Bool compactLabelInputBackgroundPrefersConcentricPointerEffect;
-@property(readonly, nonatomic) long long datePickerModalPresentationStyle;
 @property(readonly, nonatomic) double horizontalDatePadding;
-@property(readonly, nonatomic) double horizontalPaddingForAMPM;
-@property(readonly, nonatomic) double horizontalTimeColumnPadding;
-@property(readonly, nonatomic) double horizontalWeekMonthDayPadding;
-@property(readonly, nonatomic) double horizontalWeekdayTimePadding;
-@property(readonly, nonatomic) double inlineDatePickerMaximumWidth;
-@property(readonly, nonatomic) double inlineDatePickerMinimumMargin;
-@property(readonly, nonatomic) double inlineDateViewMinimumWidth;
-@property(readonly, nonatomic) double inlineTimeAndDateSpacing;
-@property(readonly, nonatomic) double inlineTimeViewMinimumWidth;
-@property(readonly, nonatomic) double overlayPlatterCornerRadius;
-@property(readonly, nonatomic) double overlayPlatterDefaultMargin;
-@property(readonly, nonatomic) double overlayPlatterDefaultSpacing;
-@property(readonly, nonatomic) double overlayPlatterInitialHeight;
-@property(readonly, nonatomic) double overlayPlatterInitialScale;
-@property(readonly, nonatomic) _Bool overlayPlatterWantsShadowView;
-@property(readonly, nonatomic) double pickerHorizontalEdgeInset; // @synthesize pickerHorizontalEdgeInset=_pickerHorizontalEdgeInset;
 
 @end
 

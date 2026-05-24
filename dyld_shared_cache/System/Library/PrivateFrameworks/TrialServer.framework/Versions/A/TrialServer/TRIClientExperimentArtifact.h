@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString, TRIClientExperiment, TRIExperimentDeployment;
+@class TRIExperimentDeployment;
 
 @interface TRIClientExperimentArtifact
 {
     _Bool _internalBuildOnly;
-    _Bool _forLaunchDaemon;
-    int _deploymentId;
-    int _deploymentEnvironment;
-    int _cloudKitContainer;
-    int _experimentState;
-    int _experimentType;
-    int _experimentPriority;
-    NSString *_experimentId;
-    NSString *_teamId;
-    NSData *_encodedExperimentDefinition;
-    NSString *_encodedExperimentDefinitionSignature;
-    NSData *_publicCertificate;
-    NSDate *_deploymentDate;
-    NSArray *_namespaces;
-    NSArray *_namespaceCompatibilityVersions;
 }
 
++ (id)";
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -39,11 +24,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (_Bool);
-- (id);
+- (id)ublic}@Disconnecting on services changed:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
@@ -52,12 +37,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ChronoKit;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)|%@);
 - (_Bool);
 - (int);
 - (_Bool);
@@ -66,16 +51,16 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)0;
 - (void);
 - (id);
-- (void);
+- (void)36@0:(int)arg1 8@"AVConference"16q24B32;
 - (_Bool);
 - (int);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)d in %s;
+- (id)[treeNode isKindOfClass:[SACallTreeState class]] || [treeNode isKindOfClass:[NSString class]] || [treeNode isKindOfClass:[NSArray class]] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -85,32 +70,14 @@
 - (void);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)__objc_doubleobj__AUTH_CONST;
 - (int)0@ù
 × ;
 - (void);
-- (id);
+- (id)assetsWithCloudKit:(id)arg1 mobileAsset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int cloudKitContainer; // @synthesize cloudKitContainer=_cloudKitContainer;
-@property(retain, nonatomic) NSDate *deploymentDate; // @synthesize deploymentDate=_deploymentDate;
-@property(nonatomic) int deploymentEnvironment; // @synthesize deploymentEnvironment=_deploymentEnvironment;
-@property(nonatomic) int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(retain, nonatomic) NSData *encodedExperimentDefinition; // @synthesize encodedExperimentDefinition=_encodedExperimentDefinition;
-@property(retain, nonatomic) NSString *encodedExperimentDefinitionSignature; // @synthesize encodedExperimentDefinitionSignature=_encodedExperimentDefinitionSignature;
-@property(readonly, nonatomic) TRIClientExperiment *experiment;
 @property(readonly) TRIExperimentDeployment *experimentDeployment;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(nonatomic) int experimentPriority; // @synthesize experimentPriority=_experimentPriority;
-@property(nonatomic) int experimentState; // @synthesize experimentState=_experimentState;
-@property(nonatomic) int experimentType; // @synthesize experimentType=_experimentType;
-@property(nonatomic) _Bool forLaunchDaemon; // @synthesize forLaunchDaemon=_forLaunchDaemon;
-@property(readonly) _Bool hasDeploymentId;
-@property(nonatomic) _Bool internalBuildOnly; // @synthesize internalBuildOnly=_internalBuildOnly;
-@property(retain, nonatomic) NSArray *namespaceCompatibilityVersions; // @synthesize namespaceCompatibilityVersions=_namespaceCompatibilityVersions;
-@property(retain, nonatomic) NSArray *namespaces; // @synthesize namespaces=_namespaces;
-@property(retain, nonatomic) NSData *publicCertificate; // @synthesize publicCertificate=_publicCertificate;
-@property(retain, nonatomic) NSString *teamId; // @synthesize teamId=_teamId;
 
 @end
 

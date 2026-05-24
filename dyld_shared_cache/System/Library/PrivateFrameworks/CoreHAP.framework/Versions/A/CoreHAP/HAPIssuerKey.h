@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPNFCAccessKeyTypeWrapper, NSData, NSString;
+@class HAPNFCAccessKeyTypeWrapper;
 
 @interface HAPIssuerKey
 {
     HAPNFCAccessKeyTypeWrapper *_type;
-    NSData *_key;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)writeFrameForBytes:(id)arg1 length:dataVersion:timestamp: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)i;
 - (void)}I}16^{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I}24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *key; // @synthesize key=_key;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) HAPNFCAccessKeyTypeWrapper *type; // @synthesize type=_type;
 
 @end

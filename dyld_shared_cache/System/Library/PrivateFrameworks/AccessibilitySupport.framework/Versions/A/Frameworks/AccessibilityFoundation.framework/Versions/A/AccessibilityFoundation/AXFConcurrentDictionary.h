@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFDispatchQueue, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface AXFConcurrentDictionary
 {
     NSMutableDictionary *__storage;
-    AXFDispatchQueue *__queue;
 }
 
 - (id);
@@ -21,10 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)g;
 
 // Remaining properties
-@property(readonly, nonatomic) AXFDispatchQueue *_queue; // @synthesize _queue=__queue;
 @property(readonly, nonatomic) NSMutableDictionary *_storage; // @synthesize _storage=__storage;
 
 @end

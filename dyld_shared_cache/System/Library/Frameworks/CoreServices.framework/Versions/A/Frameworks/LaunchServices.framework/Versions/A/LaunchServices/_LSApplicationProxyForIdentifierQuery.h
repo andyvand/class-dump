@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool)ing"16@"NSArray"24^@32;
++ (id)copyIOSurfaceSharedTextureProperties: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)setBufferOffset:attributeStride:atIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)ÿÿX;
 

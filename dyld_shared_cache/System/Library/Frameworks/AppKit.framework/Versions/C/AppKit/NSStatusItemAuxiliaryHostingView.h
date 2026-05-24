@@ -6,19 +6,17 @@
 
 #import <AppKit/NSView.h>
 
-@class NSSceneHostingController, NSStatusItemHost, NSString;
+@class NSSceneHostingController, NSString;
 
 @interface NSStatusItemAuxiliaryHostingView : NSView
 {
     NSString *_name;
-    NSSceneHostingController *_controller;
-    NSStatusItemHost *_statusItemHost;
 }
 
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)h;
+- (void)w;
 - (void)qä3°1Â0@ù
 × ;
 - (id)owInnerRimDensityInactive;
@@ -26,14 +24,6 @@
 
 // Remaining properties
 @property(readonly) NSSceneHostingController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak NSStatusItemHost *statusItemHost; // @synthesize statusItemHost=_statusItemHost;
-@property(readonly) Class superclass;
 
 @end
 

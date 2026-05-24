@@ -10,13 +10,10 @@ __attribute__((visibility("hidden")))
 @interface AUAudioUnitProperty
 {
     NSString *_key;
-    unsigned int _v2propID;
-    unsigned int _scope;
-    unsigned int _element;
 }
 
 + (id);
-+ (id);
++ (id)I!;
 + (id);
 + (_Bool);
 - (void);
@@ -24,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)scripti;
 
 @end

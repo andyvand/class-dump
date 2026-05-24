@@ -14,9 +14,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
-- (void);
+- (void)Argument-Dim_X;
 - (id);
 - (id);
 - (void);

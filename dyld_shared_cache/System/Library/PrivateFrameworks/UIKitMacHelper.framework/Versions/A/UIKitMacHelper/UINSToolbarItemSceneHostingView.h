@@ -6,28 +6,25 @@
 
 #import <UIKitMacHelper/UINSSceneHostingView.h>
 
-@class NSObject, NSString, NSToolbarItem;
+@class NSObject;
 @protocol NSISEngineDelegate;
 
 @interface UINSToolbarItemSceneHostingView : UINSSceneHostingView
 {
     NSObject<NSISEngineDelegate> *_secondaryEngineDelegate;
-    unsigned long long _controlSize;
-    _Bool _controlSizeWasSet;
-    NSToolbarItem *hostingItem;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)_;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_n_drain_below_90_15days;
 - (unsigned long long);
 - (void);
 - (void);
@@ -39,18 +36,6 @@
 
 // Remaining properties
 @property unsigned long long controlSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak NSToolbarItem *hostingItem; // @synthesize hostingItem;
-@property(readonly) struct CGSize maxSize;
-@property(readonly) struct CGSize minSize;
-@property(readonly) unsigned long long preferredGlassBehavior;
-@property __weak NSObject<NSISEngineDelegate> *secondaryEngineDelegate;
-@property(readonly) Class superclass;
 
 @end
 

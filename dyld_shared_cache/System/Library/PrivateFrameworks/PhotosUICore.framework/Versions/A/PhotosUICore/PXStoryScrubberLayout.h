@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, PXStoryModel, PXStoryScrubberContentLayout, PXStoryScrubberScrollLayout, PXStoryViewModel;
+@class PXStoryViewModel;
 
 @interface PXStoryScrubberLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    _Bool _isUpdatingWantsVisible;
-    unsigned int _focusGuideSpriteIndex;
-    _Bool _isHidden;
-    unsigned short _focusGuideContentVersion;
-    PXStoryViewModel *_viewModel;
-    PXStoryModel *_mainModel;
-    NSDate *_currentSkipSegmentActionDate;
-    NSDate *_lastScrubbedDate;
-    PXStoryScrubberContentLayout *_contentLayout;
-    PXStoryScrubberScrollLayout *_scrollLayout;
-    NSNumber *_alphaOverride;
 }
 
 - (void);
@@ -36,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -57,7 +46,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,25 +63,10 @@
 - (_Bool);
 - (void)v32@?0@"<PXStoryMutableAutoEditClip>"8@"<PXStoryMutableAutoEditClip>"16^B24;
 - (void)_Nonnull PXLocalizedStringForPeople(id<PXFastEnumeration>  _Nullable __strong, NSString *__strong _Nonnull);
-- (void)nadeMutableContainerSizeSpecsProviderModel;
+- (void)LemonadeMutableContainerSizeSpecsProviderModel;
 - (id)Õ@;;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *alphaOverride; // @synthesize alphaOverride=_alphaOverride;
-@property(retain, nonatomic) PXStoryScrubberContentLayout *contentLayout; // @synthesize contentLayout=_contentLayout;
-@property(retain, nonatomic) NSDate *currentSkipSegmentActionDate; // @synthesize currentSkipSegmentActionDate=_currentSkipSegmentActionDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned short focusGuideContentVersion; // @synthesize focusGuideContentVersion=_focusGuideContentVersion;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isHidden; // @synthesize isHidden=_isHidden;
-@property(retain, nonatomic) NSDate *lastScrubbedDate; // @synthesize lastScrubbedDate=_lastScrubbedDate;
-@property(retain, nonatomic) PXStoryModel *mainModel; // @synthesize mainModel=_mainModel;
-@property(retain, nonatomic) PXStoryScrubberScrollLayout *scrollLayout; // @synthesize scrollLayout=_scrollLayout;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

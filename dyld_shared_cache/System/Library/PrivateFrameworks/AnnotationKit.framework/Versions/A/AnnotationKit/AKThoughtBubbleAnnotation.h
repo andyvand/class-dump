@@ -13,17 +13,17 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (id);
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)Voice Control commands are entered as text. In Command mode, those words are ignored and aren’t entered as text.;
+- (void)ublic}@Failed to restore missing wallet keys, context not specified;
 - (id);
 - (id);
 - (void);

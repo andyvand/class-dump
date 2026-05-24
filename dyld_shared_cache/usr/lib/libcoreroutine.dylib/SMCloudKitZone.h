@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, CKContainer, CKDatabase, CKRecordZone, CKRecordZoneID, CKShare, NSDictionary, NSObject, NSString;
+@class NSDictionary, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SMCloudKitZone
 {
     NSDictionary *_invitationTokenMap;
-    NSObject<OS_dispatch_queue> *_queue;
-    CKContainer *_container;
-    CKRecordZone *_zone;
-    CKShare *_share;
-    CDUnknownBlockType _zoneUpdateHandler;
-    APSConnection *_pushConnection;
 }
 
 + (void);
 + (_Bool);
-+ (id);
++ (id)rely;
++ (void)clever;
++ (void):(id)arg1 data argument not CFData;
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)CoreSuggestionsPseudoEvents;
++ (void)TAccountKey;
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -34,35 +28,35 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void)P;
+- (id);
+- (void)connection:(id)arg1 incomingDataFromDirectConnection:withGUID:forTopic:toIdentifier:fromID:context: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)`";
+- (id);
+- (id);
+- (void)A;
 - (void)
 × ;
-- (id)mSumNorthings:cumSumEastings:cumSumSquaredNorthings:cumSumSuaredEastings:firstLocationIndex:lastLocationIndex: /* Error: Ran out of types for this method. */;
+- (id)computeRadiusFromCumSumNorthings:cumSumEastings:cumSumSquaredNorthings:cumSumSuaredEastings:firstLocationIndex:lastLocationIndex: /* Error: Ran out of types for this method. */;
 - (id)lo;
-- (id)itePlace;
+- (id)RTSourceMapsSupportFavoritePlace;
 - (void)TSynthesizedLocationStore removeLocationsPredating:(id)arg1 ];
 - (void)eviceIdentifier %@;
 - (id)ve}@;
@@ -71,26 +65,7 @@
 - (id)Ë+;
 
 // Remaining properties
-@property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *invitationTokenMap; // @synthesize invitationTokenMap=_invitationTokenMap;
-@property(readonly, nonatomic) NSString *ownerName;
-@property(readonly, nonatomic) CKDatabase *privateDatabase;
-@property(retain, nonatomic) APSConnection *pushConnection; // @synthesize pushConnection=_pushConnection;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(readonly, nonatomic) CKDatabase *sharedDatabase;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CKRecordZone *zone; // @synthesize zone=_zone;
-@property(readonly, nonatomic) CKRecordZoneID *zoneID;
-@property(readonly, nonatomic) NSString *zoneName;
-@property(readonly, nonatomic) NSString *zoneSubscriptionID;
-@property(copy, nonatomic) CDUnknownBlockType zoneUpdateHandler; // @synthesize zoneUpdateHandler=_zoneUpdateHandler;
 
 @end
 

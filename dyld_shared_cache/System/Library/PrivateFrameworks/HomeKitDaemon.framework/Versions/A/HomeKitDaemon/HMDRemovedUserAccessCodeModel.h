@@ -6,36 +6,24 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class HMRemovedUserInfo, NSData, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDRemovedUserAccessCodeModel : HMDBackingStoreModelObject
 {
 }
 
-+ (id);
++ (id)";
 + (id);
 + (id);
 + (Class)ùð1Â0@ù
 × ;
 - (id);
-- (id);
+- (id)",&,N,V_intermediateArrivalWaypointPostedNotifications;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy) NSString *accessCode; // @dynamic accessCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain) NSUUID *hh2ModelID; // @dynamic hh2ModelID;
-@property(readonly, copy) HMRemovedUserInfo *removedUserInfo;
-@property(retain) NSData *removedUserInfoData; // @dynamic removedUserInfoData;
-@property(readonly) Class superclass;
 
 @end
 

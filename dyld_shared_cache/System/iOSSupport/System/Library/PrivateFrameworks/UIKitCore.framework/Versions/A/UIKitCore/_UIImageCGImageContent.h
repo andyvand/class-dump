@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (id)e server done A;
+- (_Bool);
+- (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (double);
@@ -26,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)
 × ;
-- (_Bool)ror;
-- (_Bool)essories;
-- (id)ontentsForCIImageBackedImage:(struct CGSize)arg1;
-- (struct CGImage *)nDefaultUnfocusingDurationScaleFactorLowerBound;
+- (_Bool)touchError;
+- (_Bool)_trailingAccessories;
+- (id)_setImageViewContentsForCIImageBackedImage:(struct CGSize)arg1;
+- (struct CGImage *)FocusAnimationDefaultUnfocusingDurationScaleFactorLowerBound;
 - (id)transition;
 - (id)SInteger) const;
 - (_Bool);

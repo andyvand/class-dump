@@ -7,15 +7,10 @@
 #import <Photos/PHChangeRequest.h>
 
 @class NSManagedObjectID, NSString;
-@protocol PLChangesForServiceHandling;
 
 @interface PHObjectDeleteRequest : PHChangeRequest
 {
     NSString *_uuid;
-    NSManagedObjectID *_objectID;
-    _Bool _clientEntitled;
-    NSString *_clientName;
-    NSString *_clientBundleID;
 }
 
 + (id);
@@ -23,7 +18,7 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (id);
@@ -33,26 +28,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)&;
+- (id)OperationQueueLock;
 - (void)ImageAndAVAsset;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled; // @synthesize clientEntitled=_clientEntitled;
-@property(readonly, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *managedEntityName;
 @property(readonly, nonatomic) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly) Class superclass;
 
 @end
 

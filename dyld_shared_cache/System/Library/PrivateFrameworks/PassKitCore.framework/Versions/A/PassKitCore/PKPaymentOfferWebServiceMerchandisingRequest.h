@@ -6,44 +6,34 @@
 
 #import <PassKitCore/PKPaymentOfferWebServiceRequest.h>
 
-@class NSArray, NSData, NSSet, NSURL, PKPaymentOffersSessionDetails;
+@class NSURL;
 
 @interface PKPaymentOfferWebServiceMerchandisingRequest : PKPaymentOfferWebServiceRequest
 {
     NSURL *_baseURL;
-    NSSet *_merchandisingIdentifiers;
-    NSSet *_needsProvisioningMerchandisingIdentifiers;
-    PKPaymentOffersSessionDetails *_sessionDetails;
-    NSArray *_certificates;
-    NSData *_signature;
 }
 
 + (id);
 + (_Bool);
 - (void);
+- (void)7aW;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (id)suerRegionsWithCapabilities returning NO;
-- (id);
+- (id)managingDevice;
 - (void)est invitation:(id)arg1 %s >;
-- (void)mptions;
-- (void)nths;
+- (void)redemptions;
+- (void)PayInFourMonths;
 - (id)@'; ;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(copy, nonatomic) NSSet *merchandisingIdentifiers; // @synthesize merchandisingIdentifiers=_merchandisingIdentifiers;
-@property(copy, nonatomic) NSSet *needsProvisioningMerchandisingIdentifiers; // @synthesize needsProvisioningMerchandisingIdentifiers=_needsProvisioningMerchandisingIdentifiers;
-@property(retain, nonatomic) PKPaymentOffersSessionDetails *sessionDetails; // @synthesize sessionDetails=_sessionDetails;
-@property(copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

@@ -6,18 +6,12 @@
 
 #import <AOSUI/MMService.h>
 
-@class ICQInternetPrivacyPrefPaneViewController, ICQInternetPrivacyViewModel, MMWebKitViewController, NSObject, NSString;
-@protocol OS_os_log;
+@class ICQInternetPrivacyViewModel;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIPrivateConnectService : MMService
 {
     _Bool _waitingForCSFResponse;
-    ICQInternetPrivacyViewModel *_viewModel;
-    ICQInternetPrivacyPrefPaneViewController *_viewController;
-    MMWebKitViewController *_webKitViewController;
-    id _observationToken;
-    NSObject<OS_os_log> *_quotaLog;
 }
 
 + (_Bool);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)(`;
 - (id);
 - (id);
 - (void);
@@ -38,12 +32,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)�H;
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)r;
 - (id);
 - (void);
 - (void);
@@ -54,26 +48,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)1;
 - (id);
 - (void)!Ì@ùQY1Â0@ù
 × ;
-- (id)ERY_FORGOT_OTHER_DEVICE_BUTTON;
+- (id)KECHAINRECOVERY_FORGOT_OTHER_DEVICE_BUTTON;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id observationToken; // @synthesize observationToken=_observationToken;
-@property(retain, nonatomic) NSObject<OS_os_log> *quotaLog; // @synthesize quotaLog=_quotaLog;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) ICQInternetPrivacyPrefPaneViewController *viewController; // @synthesize viewController=_viewController;
 @property(retain, nonatomic) ICQInternetPrivacyViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property _Bool waitingForCSFResponse; // @synthesize waitingForCSFResponse=_waitingForCSFResponse;
-@property(retain, nonatomic) MMWebKitViewController *webKitViewController; // @synthesize webKitViewController=_webKitViewController;
 
 @end
 

@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPiTunesMediaAsset, NSArray, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaSoftwareUnresolvedMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_subtitle;
-    NSString *_genre;
-    NSString *_platform;
-    NSNumber *_isHiddenFromSpringboard;
-    NSNumber *_hasMessagesExtension;
-    LPiTunesMediaAsset *_icon;
-    LPiTunesMediaAsset *_messagesAppIcon;
-    NSArray *_screenshots;
-    LPiTunesMediaAsset *_previewVideo;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)transcriptTitleViewKTBadgePadding;
+- (void)transcriptSendLaterButtonConfigurationUpdateHandler;
+- (void)transcriptQuickActionButtonHorizontalSpacing;
+- (id)transcriptCollectionViewControllerWillUpdateTranscriptChatItems: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewControllerDidSetChatItems: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)systemApplicationDidResumeForEventsOnly;
+- (id)syndicationOnboardingLastShownVersion;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)__kIMSmileyDescriptionAttributeName;
 - (id);
 - (void);
 - (void);
@@ -47,30 +36,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)rE;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
-@property(copy, nonatomic) NSNumber *hasMessagesExtension; // @synthesize hasMessagesExtension=_hasMessagesExtension;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPiTunesMediaAsset *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSNumber *isHiddenFromSpringboard; // @synthesize isHiddenFromSpringboard=_isHiddenFromSpringboard;
-@property(retain, nonatomic) LPiTunesMediaAsset *messagesAppIcon; // @synthesize messagesAppIcon=_messagesAppIcon;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) LPiTunesMediaAsset *previewVideo; // @synthesize previewVideo=_previewVideo;
-@property(retain, nonatomic) NSArray *screenshots; // @synthesize screenshots=_screenshots;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 
 @end
 

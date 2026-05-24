@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMRemindersListCellFirstResponderChangeFilter
 {
     id shouldIgnoreCurrentCall;
-    id cell;
-    id previousCall;
 }
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol CDPRecoveryKeyUIProvider
+
+@optional
+- (void);
 @end
 

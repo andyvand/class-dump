@@ -13,10 +13,10 @@
     NSArray *_spaces;
 }
 
-+ (_Bool);
-- (id);
-- (void);
-- (id);
++ (_Bool))}S;
+- (id)e tied to a given instance of NSPersistentStore.;
+- (void)g the record metadata hit an unhandled exception.;
+- (id)ete=1;
 - (id);
 - (void);
 - (void);

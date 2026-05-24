@@ -6,27 +6,18 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSString;
-
 @interface PGDayHighlightSharingSuggester : PGAbstractSuggester
 {
 }
 
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)aceManagerDelegate>",W;
++ (_Bool);
++ (id)h);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool lastSuggestionWasColliding;
-@property(readonly) Class superclass;
 
 @end
 

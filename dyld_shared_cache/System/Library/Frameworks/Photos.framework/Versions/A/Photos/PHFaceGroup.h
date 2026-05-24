@@ -9,22 +9,20 @@
 @interface PHFaceGroup : PHObject
 {
     long long _unnamedFaceCount;
-    long long _personModelId;
-    long long _personBuilderState;
 }
 
++ (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
++ (id)fileURLWithPath: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)oneNumberBlockingEntry.phone_number_id) WHERE (PhoneNumber.number IN %@) LIMIT 1);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)etchSceneClassificationsGroupedByAssetLocalIdentifierForAssets:(id)arg1 includeTemporalClassifications:(id)arg2 sceneClassificationTypePredicate: /* Error: Ran out of types for this method. */;
++ (id)_fetchSceneClassificationsGroupedByAssetLocalIdentifierForAssets:(id)arg1 includeTemporalClassifications:(id)arg2 sceneClassificationTypePredicate: /* Error: Ran out of types for this method. */;
 + (id);
 - (long long);
 - (long long);
@@ -34,9 +32,7 @@
 - (Class);
 
 // Remaining properties
-@property(readonly, nonatomic) long long personBuilderState; // @synthesize personBuilderState=_personBuilderState;
 @property(readonly, nonatomic) long long personModelId; // @synthesize personModelId=_personModelId;
-@property(readonly, nonatomic) long long unnamedFaceCount; // @synthesize unnamedFaceCount=_unnamedFaceCount;
 
 @end
 

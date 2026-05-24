@@ -6,23 +6,16 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSArray, NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPMapCollectionMetadata : _BlastDoorLPSpecializationMetadata
 {
     unsigned int _numberOfItems;
-    NSString *_name;
-    _BlastDoorLPImage *_icon;
-    _BlastDoorLPImage *_image;
-    _BlastDoorLPImage *_darkImage;
-    NSArray *_addresses;
-    NSString *_publisherName;
-    _BlastDoorLPImage *_publisherIcon;
 }
 
 + (id);
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,19 +35,12 @@
 - (void);
 - (id);
 - (id);
-- (void)tDefined;
-- (unsigned int)DownRecoveryInfoNotFound;
+- (void)tearDownStatusNotDefined;
+- (unsigned int)tearDownRecoveryInfoNotFound;
 - (void)HøÈÿe fyÿ54PÌÿDPÌÿut©ÃÿLPÌÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *addresses; // @synthesize addresses=_addresses;
-@property(retain, nonatomic) _BlastDoorLPImage *darkImage; // @synthesize darkImage=_darkImage;
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) _BlastDoorLPImage *image; // @synthesize image=_image;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(retain, nonatomic) _BlastDoorLPImage *publisherIcon; // @synthesize publisherIcon=_publisherIcon;
-@property(copy, nonatomic) NSString *publisherName; // @synthesize publisherName=_publisherName;
 
 @end
 

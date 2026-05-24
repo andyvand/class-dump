@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSKSelection;
+@protocol TSDHint;
+
 @protocol TSDHint
++ (Class);
+- (_Bool)due to missing persistentID for action key:(TSKSelection *)arg1;
+- (void)RADIO_NETWORK_UNAVAILABLE_MESSAGE;
+- (id <TSDHint>)ded;
+
+@optional
+- (_Bool)UnexpectedAssetLoadOutcome;
+- (id <TSDHint>);
 @end
 

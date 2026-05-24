@@ -4,48 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface NTPBPersonalizationChangeGroup
 {
     unsigned long long _changeNumber;
-    NSMutableArray *_deltas;
-    NSString *_instanceIdentifier;
-    struct {
-        unsigned int changeNumber:1;
-    } _has;
 }
 
 + (Class);
+- (void)currentCombinedNotifications;
+- (void)convertRects:(unsigned long long)arg1 outFrames:count:forReferenceSize: /* Error: Ran out of types for this method. */;
+- (unsigned long long)allowSkipToSegmentWithPlaceholder;
+- (_Bool)_zoomTransitionDimmingBlurEffectStyle;
+- (unsigned long long);
+- (id)?;
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (unsigned long long)S,;
+- (_Bool)url;
+- (void)ent.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:(id)arg1 function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}};;
+- (_Bool)om_AASg2tot;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long changeNumber; // @synthesize changeNumber=_changeNumber;
 @property(retain, nonatomic) NSMutableArray *deltas; // @synthesize deltas=_deltas;
-@property(nonatomic) _Bool hasChangeNumber;
-@property(readonly, nonatomic) _Bool hasInstanceIdentifier;
-@property(retain, nonatomic) NSString *instanceIdentifier; // @synthesize instanceIdentifier=_instanceIdentifier;
 
 @end
 

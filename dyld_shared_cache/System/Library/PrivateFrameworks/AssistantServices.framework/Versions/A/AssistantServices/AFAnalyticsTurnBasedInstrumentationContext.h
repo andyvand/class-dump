@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, SISchemaClientTurnContext;
+@class NSUUID;
 
 @interface AFAnalyticsTurnBasedInstrumentationContext
 {
     NSUUID *_turnIdentifier;
-    SISchemaClientTurnContext *_turnContext;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
+- (id)=;
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)steningOptions;
+- (void)AFTriggerlessListeningOptions;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *turnIdentifier;

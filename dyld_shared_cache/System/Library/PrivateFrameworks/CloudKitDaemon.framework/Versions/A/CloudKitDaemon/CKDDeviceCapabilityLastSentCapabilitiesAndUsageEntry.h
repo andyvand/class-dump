@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber;
+@class NSNumber;
 
 @interface CKDDeviceCapabilityLastSentCapabilitiesAndUsageEntry
 {
     NSNumber *_rowID;
-    NSArray *_deviceCapabilityStringSet;
-    NSDate *_capabilitySetSavedDate;
-    NSDate *_usageSavedDate;
 }
 
 - (id);
@@ -20,15 +17,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)agent. %p
+;
 - (id);
 - (void)lector %@ not part of expected protocol %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *capabilitySetSavedDate; // @synthesize capabilitySetSavedDate=_capabilitySetSavedDate;
-@property(retain, nonatomic) NSArray *deviceCapabilityStringSet; // @synthesize deviceCapabilityStringSet=_deviceCapabilityStringSet;
 @property(retain, nonatomic) NSNumber *rowID; // @synthesize rowID=_rowID;
-@property(retain, nonatomic) NSDate *usageSavedDate; // @synthesize usageSavedDate=_usageSavedDate;
 
 @end
 

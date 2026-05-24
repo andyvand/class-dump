@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMMatchingSpanEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NSArray *_matchingSpans;
-    SISchemaUUID *_linkId;
-    _Bool _hasContextId;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -28,13 +24,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)U;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (id);
-- (void);
+- (void)type is not 01;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -49,11 +45,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *matchingSpans; // @synthesize matchingSpans=_matchingSpans;
 
 @end
 

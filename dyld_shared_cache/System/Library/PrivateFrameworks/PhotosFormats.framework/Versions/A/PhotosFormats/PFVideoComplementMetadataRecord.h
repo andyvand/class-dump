@@ -9,28 +9,21 @@
 @interface PFVideoComplementMetadataRecord
 {
     NSString *_pairingIdentifier;
-    CDStruct_1b6d18a9 _videoDuration;
-    CDStruct_1b6d18a9 _imageDisplayTime;
 }
 
-- (_Bool);
+- (_Bool)_TtCO10Accelerate4BNNS12PaddingLayer;
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (CDStruct_1b6d18a9);
-- (void);
+- (CDStruct_198678f7);
+- (void)prerollAttributesForAdContentWithRequiredLinearPlaybackEndTime:preferredTintColor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool hasValidImageDisplayTime;
-@property(readonly) _Bool hasValidPairingIdentifier;
-@property(readonly) _Bool hasValidVideoDuration;
-@property CDStruct_1b6d18a9 imageDisplayTime; // @synthesize imageDisplayTime=_imageDisplayTime;
 @property(copy) NSString *pairingIdentifier; // @synthesize pairingIdentifier=_pairingIdentifier;
-@property CDStruct_1b6d18a9 videoDuration; // @synthesize videoDuration=_videoDuration;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABGroup, NSMutableArray;
+@class ABGroup;
 
 @interface ABRemoveMembersCommandBuilder
 {
     ABGroup *_group;
-    NSMutableArray *_memberIdentifiers;
-    ABAddressBook *_addressBook;
 }
 
 - (id);

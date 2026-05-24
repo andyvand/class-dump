@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface PKTextInputDebugSharpenerLog
 {
     NSArray *_logEntries;
-    NSDictionary *_metadataDictionary;
 }
 
 + (_Bool);
@@ -21,16 +20,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)p;
 - (id);
 - (_Bool);
 - (void)C,N;
 - (id)ÿÿ'§ÿÿdºÏÿP4;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasContent;
 @property(readonly, nonatomic) NSArray *logEntries; // @synthesize logEntries=_logEntries;
-@property(readonly, nonatomic) NSDictionary *metadataDictionary; // @synthesize metadataDictionary=_metadataDictionary;
 
 @end
 

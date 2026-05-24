@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSString;
+@class NSString;
 
 @interface AppleMediaServices.CachedBagCore__priv_DB210F3D31AA4C5BFE8754B925F1C106
 {
     void profile;
-    void profileVersion;
-    AMSProcessInfo *processInfo;
-    id bagLoader;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)sInGroup.fetchGroupLeader;
 - (void);
+- (id)O;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool)dUsePipelining: /* Error: Ran out of types for this method. */;
-- (id)onResponse;
+- (_Bool)setHTTPShouldUsePipelining: /* Error: Ran out of types for this method. */;
+- (id)AMSFinanceActionResponse;
 - (void)NÞ1ÜÍÇj"ºIßªý}æ#oÛÍù,©ïôJéV;rÍsj¸Y1v­ó©õ7õ]ÔÄAÈM¤ù»­2Ø0?ÞÚ7Ô^!ÎÐFyÙ]~=ìö°(ú Cë¥ðL	¬eo&æs@+BÜÒ½åê8Ï%Qï¾w¿³aôgDýOÌáxËÃ©ä$1HiZ®
 ;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *expirationDate;
-@property(nonatomic, readonly) _Bool expired;
-@property(nonatomic, readonly) AMSProcessInfo *processInfo; // @synthesize processInfo;
 @property(nonatomic, readonly) NSString *profile;
-@property(nonatomic, readonly) NSString *profileVersion;
 
 @end
 

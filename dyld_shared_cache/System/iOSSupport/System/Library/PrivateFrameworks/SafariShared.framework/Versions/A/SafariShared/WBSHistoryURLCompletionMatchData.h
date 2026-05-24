@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol WBSCloudTabItem;
 
 @interface WBSHistoryURLCompletionMatchData
 {
     struct RefPtr<SafariShared::HistoryURLCompletionItem, WTF::RawPtrTraits<SafariShared::HistoryURLCompletionItem>, WTF::DefaultRefDerefTraits<SafariShared::HistoryURLCompletionItem>> _item;
-    _Bool _isSynthesized;
 }
 
 - (_Bool);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (float);
-- (float);
+- (float);
 - (_Bool);
 - (void);
 - (id);
@@ -32,8 +30,8 @@
 - (void);
 - (_Bool);
 - (long long);
-- (id);
-- (double);
+- (id)__objc_superrefs__DATA_CONST;
+- (double)__dlopen_cstrs;
 - (_Bool);
 - (long long);
 - (id);
@@ -42,44 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <WBSCloudTabItem> cloudTab;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<WBSCloudTabItem>",?,R,N
-
-@property(readonly, copy, nonatomic) NSString *cloudTabDeviceName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool containsBookmark;
-@property(readonly, nonatomic) _Bool containsReadingListItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSynthesized; // @synthesize isSynthesized=_isSynthesized;
-@property(readonly, nonatomic) _Bool lastVisitWasFailure;
-@property(readonly, nonatomic) double lastVisitedTimeInterval;
-@property(readonly, nonatomic) _Bool onlyContainsCloudTab;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSString *originalURLString;
-@property(readonly, nonatomic) _Bool shouldPreload;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long visitCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long visitCountScore;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool visitWasClientError;
 
 @end
 

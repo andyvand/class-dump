@@ -7,14 +7,13 @@
 @interface ChatKit.ContactViewController.ContactViewCoordinator
 {
     id parent;
-    id viewController;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)atuses;
+- (void)beginObservingHandleStatuses;
 - (void)y¢k`ð;
 
 @end

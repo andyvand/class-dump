@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIPBTimestamp;
-
 @interface TRIPersistedAllocationCommon
 {
 }
@@ -13,9 +11,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTimestamp; // @dynamic hasTimestamp;
-@property(nonatomic) _Bool hasType; // @dynamic hasType;
-@property(retain, nonatomic) TRIPBTimestamp *timestamp; // @dynamic timestamp;
 @property(nonatomic) unsigned int type; // @dynamic type;
 
 @end

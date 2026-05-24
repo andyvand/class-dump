@@ -6,25 +6,11 @@
 
 #import <CoreData/NSIncrementalStore.h>
 
-@class NSDictionary, NSGenerationalRowCache, NSObject, NSSQLCore, NSSQLModel, NSString, NSXPCStoreConnectionManager, NSXPCStoreNotificationObserver;
-@protocol OS_dispatch_semaphore;
+@class NSDictionary, NSString;
 
 @interface NSXPCStore : NSIncrementalStore
 {
     NSDictionary *_metadata;
-    NSGenerationalRowCache *_cache;
-    NSString *_fileBackedFuturesDirectory;
-    NSXPCStoreConnectionManager *_connectionManager;
-    NSSQLModel *_model;
-    NSSQLCore *_core;
-    NSString *_sanityCheckToken;
-    NSXPCStoreNotificationObserver *_observer;
-    NSString *_remoteStoreChangedNotificationName;
-    struct os_unfair_lock_s _stateLock;
-    NSDictionary *_ancillaryModels;
-    NSDictionary *_ancillarySQLModels;
-    int _outstandingRequests;
-    NSObject<OS_dispatch_semaphore> *_requestTerminationSem;
 }
 
 + (_Bool);
@@ -37,7 +23,7 @@
 + (void)tSerializer applyUpdatedRecords:deletedRecordIDs:toStore:inManagedObjectContext:onlyUpdatingAttributes:andRelationships:madeChanges:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,28 +38,28 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (Class);
-- (Class);
+- (Class)C;
+- (Class)enumerateObjectsUsingBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)c;
 - (_Bool)!TFùñÆ2Ð1Â0@ù
 × ;
-- (id)Predicate:(id)arg1;
-- (_Bool)gs;
+- (id)setPartialIndexPredicate:(id)arg1;
+- (_Bool)_mSqlDropStrings;
 - (id)batch insert request
 ;
 - (id)le times.;

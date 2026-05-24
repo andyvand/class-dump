@@ -9,21 +9,10 @@
 @protocol NSPreviewRepresentableActivityItem
 
 @optional
+- (NSItemProvider *)_relevantShortcutsStream;
 - (NSString *)to run phase despite menu being nil.;
 
 // Remaining properties
-@property(readonly) NSItemProvider *iconProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSItemProvider",?,R
-
-@property(readonly) NSItemProvider *imageProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSItemProvider",?,R
-
 @property(readonly) id item;
-@property(readonly, copy) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @end
 

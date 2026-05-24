@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, SUCorePolicy, SUCoreProgress, SUCoreRollback;
-
 @interface SUCoreUpdateParam
 {
     long long _targetPhase;
-    SUCorePolicy *_policy;
-    SUCoreProgress *_downloadProgress;
-    SUCoreProgress *_prepareProgress;
-    SUCoreProgress *_applyProgress;
-    SUCoreRollback *_rollback;
-    long long _resultCode;
-    NSError *_error;
 }
 
 + (id);
@@ -30,15 +21,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)v40@0:(id)arg1 8@"NSCandidateListTouchBarItem"16q24q32;
+- (id)_migrateOrderedToolbarItemIdentifiersToExtensionsToolbarConfiguration;
 - (id);
 - (id);
 - (void);
@@ -54,13 +45,6 @@
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) SUCoreProgress *applyProgress; // @synthesize applyProgress=_applyProgress;
-@property(retain, nonatomic) SUCoreProgress *downloadProgress; // @synthesize downloadProgress=_downloadProgress;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) SUCorePolicy *policy; // @synthesize policy=_policy;
-@property(retain, nonatomic) SUCoreProgress *prepareProgress; // @synthesize prepareProgress=_prepareProgress;
-@property(nonatomic) long long resultCode; // @synthesize resultCode=_resultCode;
-@property(retain, nonatomic) SUCoreRollback *rollback; // @synthesize rollback=_rollback;
 @property(nonatomic) long long targetPhase; // @synthesize targetPhase=_targetPhase;
 
 @end

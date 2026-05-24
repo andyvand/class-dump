@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface ICPBDGSPlayerInfoContextRequestToken
 {
     unsigned long long _accountID;
-    unsigned long long _sessionID;
-    NSData *_token;
-    struct {
-        unsigned int accountID:1;
-        unsigned int sessionID:1;
-    } _has;
 }
 
 - (id);
@@ -24,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (void)okies: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ams_addCookies: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface CNVirtualSchedulerJob
 {
     unsigned long long _time;
-    CDUnknownBlockType _block;
 }
 
 + (id);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) CDUnknownBlockType block; // @synthesize block=_block;
 @property unsigned long long time; // @synthesize time=_time;
 
 @end

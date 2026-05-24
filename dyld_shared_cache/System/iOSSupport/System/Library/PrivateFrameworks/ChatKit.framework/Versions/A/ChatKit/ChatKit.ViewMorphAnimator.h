@@ -7,11 +7,6 @@
 @interface ChatKit.ViewMorphAnimator
 {
     id delegate;
-    id destinationPortalView;
-    id morphContainerView;
-    id isAnimating;
-    id currentMorphConfiguration;
-    id currentMorphSnapshot;
 }
 
 @end

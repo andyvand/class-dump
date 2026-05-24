@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)declarationKey;
 - (void);
 
 @end

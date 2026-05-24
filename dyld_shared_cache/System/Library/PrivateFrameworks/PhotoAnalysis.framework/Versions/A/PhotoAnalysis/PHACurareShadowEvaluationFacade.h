@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPAnalytics, PGManager, PHPhotoLibrary;
+@class CPAnalytics;
 
 @interface PHACurareShadowEvaluationFacade
 {
     CPAnalytics *_analytics;
-    PGManager *_graphManager;
-    PHPhotoLibrary *_systemPhotoLibrary;
 }
 
 - (void);
@@ -21,12 +19,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ByCreationDate: /* Error: Ran out of types for this method. */;
+- (void)_recentlySuggestedMoodsFromExistingMemoriesSortedByCreationDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CPAnalytics *analytics; // @synthesize analytics=_analytics;
-@property(retain, nonatomic) PGManager *graphManager; // @synthesize graphManager=_graphManager;
-@property(retain, nonatomic) PHPhotoLibrary *systemPhotoLibrary; // @synthesize systemPhotoLibrary=_systemPhotoLibrary;
 
 @end
 

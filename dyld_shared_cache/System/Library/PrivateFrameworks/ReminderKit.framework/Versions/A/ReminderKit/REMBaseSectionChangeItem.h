@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, REMAccountCapabilities, REMBaseSectionStorage, REMChangedKeysObserver, REMObjectID, REMResolutionTokenMap, REMSaveRequest;
+@class REMChangedKeysObserver, REMSaveRequest;
 
 @interface REMBaseSectionChangeItem
 {
     REMSaveRequest *_saveRequest;
-    REMBaseSectionStorage *_storage;
-    REMChangedKeysObserver *_changedKeysObserver;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (void)X;
 - (id);
@@ -25,11 +23,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)ition;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)imulating user input.;
 - (_Bool);
 - (id);
 - (void);
@@ -38,27 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) REMAccountCapabilities *accountCapabilities; // @dynamic accountCapabilities;
-@property(retain, nonatomic) REMObjectID *accountID; // @dynamic accountID;
 @property(retain, nonatomic) REMChangedKeysObserver *changedKeysObserver; // @synthesize changedKeysObserver=_changedKeysObserver;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion; // @dynamic effectiveMinimumSupportedVersion;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long minimumSupportedVersion; // @dynamic minimumSupportedVersion;
-@property(readonly, nonatomic) REMObjectID *objectID; // @dynamic objectID;
-@property(retain, nonatomic) REMObjectID *parentID; // @dynamic parentID;
-@property(readonly, nonatomic) REMObjectID *remObjectID; // @dynamic remObjectID;
-@property(retain, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @dynamic resolutionTokenMap;
-@property(retain, nonatomic) NSData *resolutionTokenMapData; // @dynamic resolutionTokenMapData;
-@property(readonly, nonatomic) REMSaveRequest *saveRequest; // @synthesize saveRequest=_saveRequest;
-@property(retain, nonatomic) REMBaseSectionStorage *storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
 
 @end
 

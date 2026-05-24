@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NUCacheNodeRegistry
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_registry;
 }
 
 - (Class);
 - (void);
 - (id);
-- (void)Y:Z: /* Error: Ran out of types for this method. */;
+- (void)vectorWithX:Y:Z: /* Error: Ran out of types for this method. */;
 
 @end
 

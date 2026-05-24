@@ -9,17 +9,6 @@
 @interface CNKDestinationQueryControllerInternal
 {
     void delegate;
-    id scheduleIDSQuerySubject;
-    id scheduleIDSQueryGroupSubject;
-    id scheduleIDSCachedQuerySubject;
-    id scheduleIDSQueryDebouncer;
-    id scheduleIDSQueryGroupDebouncer;
-    id scheduleIDSCachedQueryDebouncer;
-    id scheduleNotificationSubject;
-    id scheduleNotificationDebouncer;
-    id idsDestinations;
-    id idsGroupDestinations;
-    id idsLookupManager;
 }
 
 - (long long);
@@ -27,12 +16,12 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)/usr/lib/libobjc.A.dylib;
 - (id);
 - (void);
 - (void)Ñ1Â0@ù

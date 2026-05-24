@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface FCPuzzleHistoryItem
 {
     NSString *_identifier;
-    NSString *_puzzleID;
-    NSString *_puzzleTypeID;
-    NSData *_progressData;
-    long long _progressLevel;
-    NSNumber *_score;
-    NSNumber *_scoreType;
-    NSString *_rankID;
-    NSNumber *_usedReveal;
-    long long _playDuration;
-    NSDate *_lastPlayedDate;
-    NSDate *_completedDate;
-    NSDate *_firstCompletedDate;
-    NSNumber *_firstPlayDuration;
-    NSNumber *_bestScore;
-    NSString *_progressMovesDescription;
-    NSNumber *_difficulty;
-    NSDate *_publishDate;
-    NSNumber *_behaviorFlags;
 }
 
 - (id);
@@ -45,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)removeObjectIdenticalTo: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -56,26 +38,7 @@
 - (void)ArticleHeadline initWithArticleRecordData:sourceChannel:parentIssue:storyStyleConfigs:storyTypeTimeout:rapidUpdatesTimeout:assetManager:experimentalTitleProvider:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CKRecord *asCKRecord;
-@property(readonly, nonatomic) NSNumber *behaviorFlags; // @synthesize behaviorFlags=_behaviorFlags;
-@property(readonly, nonatomic) NSNumber *bestScore; // @synthesize bestScore=_bestScore;
-@property(readonly, nonatomic) NSDate *completedDate; // @synthesize completedDate=_completedDate;
-@property(readonly, nonatomic) NSNumber *difficulty; // @synthesize difficulty=_difficulty;
-@property(readonly, nonatomic) NSDate *firstCompletedDate; // @synthesize firstCompletedDate=_firstCompletedDate;
-@property(readonly, nonatomic) NSNumber *firstPlayDuration; // @synthesize firstPlayDuration=_firstPlayDuration;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDate *lastPlayedDate; // @synthesize lastPlayedDate=_lastPlayedDate;
-@property(readonly, nonatomic) long long playDuration; // @synthesize playDuration=_playDuration;
-@property(readonly, nonatomic) NSData *progressData; // @synthesize progressData=_progressData;
-@property(readonly, nonatomic) long long progressLevel; // @synthesize progressLevel=_progressLevel;
-@property(readonly, copy, nonatomic) NSString *progressMovesDescription; // @synthesize progressMovesDescription=_progressMovesDescription;
-@property(readonly, nonatomic) NSDate *publishDate; // @synthesize publishDate=_publishDate;
-@property(readonly, copy, nonatomic) NSString *puzzleID; // @synthesize puzzleID=_puzzleID;
-@property(readonly, copy, nonatomic) NSString *puzzleTypeID; // @synthesize puzzleTypeID=_puzzleTypeID;
-@property(readonly, copy, nonatomic) NSString *rankID; // @synthesize rankID=_rankID;
-@property(readonly, nonatomic) NSNumber *score; // @synthesize score=_score;
-@property(readonly, nonatomic) NSNumber *scoreType; // @synthesize scoreType=_scoreType;
-@property(readonly, nonatomic) NSNumber *usedReveal; // @synthesize usedReveal=_usedReveal;
 
 @end
 

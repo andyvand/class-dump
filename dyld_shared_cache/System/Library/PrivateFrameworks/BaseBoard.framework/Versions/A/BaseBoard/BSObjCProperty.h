@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSObjCMethod, BSObjCValue, NSDictionary, NSString;
+@class BSObjCValue, NSString;
 
 @interface BSObjCProperty
 {
     BSObjCValue *_value;
-    BSObjCMethod *_getter;
-    BSObjCMethod *_setter;
-    _Bool _required;
-    NSString *_customGetter;
-    NSString *_customSetter;
-    NSDictionary *_customAttributes;
-    _Bool _nonatomic;
-    _Bool _readonly;
-    _Bool _copy;
-    _Bool _strong;
-    _Bool _weak;
-    NSString *_name;
 }
 
 + (id);
@@ -29,16 +17,16 @@
 + (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)T(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id)7*;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)R;
 - (id);
 - (id);
 - (id);
@@ -53,26 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAssign) _Bool assign;
-@property(readonly, nonatomic, getter=isAtomic) _Bool atomic;
-@property(readonly, nonatomic, getter=isCopy) _Bool copy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) BSObjCMethod *getter; // @synthesize getter=_getter;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isNonAtomic) _Bool nonAtomic;
-@property(readonly, nonatomic, getter=isReadOnly) _Bool readOnly;
-@property(readonly, nonatomic, getter=isReadWrite) _Bool readWrite;
-@property(readonly, nonatomic, getter=isRequired) _Bool required; // @synthesize required=_required;
-@property(readonly, nonatomic) BSObjCMethod *setter; // @synthesize setter=_setter;
-@property(readonly, nonatomic, getter=isStrong) _Bool strong;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) BSObjCValue *value; // @synthesize value=_value;
-@property(readonly, nonatomic, getter=isWeak) _Bool weak;
 
 @end
 

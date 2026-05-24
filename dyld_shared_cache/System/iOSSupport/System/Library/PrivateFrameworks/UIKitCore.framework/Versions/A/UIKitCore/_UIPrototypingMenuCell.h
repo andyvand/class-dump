@@ -6,14 +6,12 @@
 
 #import <UIKitCore/UITableViewCell.h>
 
-@class UILabel, UIStackView, _UIPrototypingValue;
+@class UIStackView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPrototypingMenuCell : UITableViewCell
 {
     UIStackView *_stackView;
-    UILabel *_titleLabel;
-    _UIPrototypingValue *_prototypingSetting;
 }
 
 + (long long);
@@ -26,9 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)13ÄÞþõì13è÷oþ;
 
 // Remaining properties
-@property(retain, nonatomic) _UIPrototypingValue *prototypingSetting; // @synthesize prototypingSetting=_prototypingSetting;
 @property(readonly, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

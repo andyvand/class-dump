@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage;
+@class NSAttributedString;
 
 @interface UINSSuggestionItem
 {
     NSAttributedString *_attributedTitle;
-    NSImage *_image;
-    CDUnknownBlockType _didSelectCallback;
 }
 
 - (void);
@@ -20,12 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (void)eplacedBySubmenuItems;
+- (void)isReplacedBySubmenuItems;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(copy, nonatomic) CDUnknownBlockType didSelectCallback; // @synthesize didSelectCallback=_didSelectCallback;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
 
 @end
 

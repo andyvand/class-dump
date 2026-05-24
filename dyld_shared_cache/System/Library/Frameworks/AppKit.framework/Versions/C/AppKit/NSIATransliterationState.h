@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface NSIATransliterationState
 {
     NSString *_markedText;
-    struct _NSRange _cursorPositionRange;
 }
 
-- (void);
-- (struct _NSRange);
+- (void)r-uid;
+- (struct _NSRange)_adoptEffectiveConfiguration: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (id)7s\\H;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange cursorPositionRange; // @synthesize cursorPositionRange=_cursorPositionRange;
 @property(copy, nonatomic) NSString *markedText; // @synthesize markedText=_markedText;
 
 @end

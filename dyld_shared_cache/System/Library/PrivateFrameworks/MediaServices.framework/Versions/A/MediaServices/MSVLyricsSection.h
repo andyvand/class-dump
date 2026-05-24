@@ -6,19 +6,15 @@
 
 #import <MediaServices/MSVLyricsElement.h>
 
-@class NSArray, NSString;
-
 @interface MSVLyricsSection : MSVLyricsElement
 {
     long long _songPart;
-    NSString *_songPartText;
-    NSArray *_lines;
 }
 
 + (long long);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *lines; // @synthesize lines=_lines;
 @property(nonatomic) long long songPart; // @synthesize songPart=_songPart;
-@property(copy, nonatomic) NSString *songPartText; // @synthesize songPartText=_songPartText;
 
 @end
 

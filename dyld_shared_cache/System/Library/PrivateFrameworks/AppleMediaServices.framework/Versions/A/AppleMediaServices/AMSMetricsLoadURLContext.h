@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBuyParams, AMSProcessInfo, AMSURLRequestProperties, NSData, NSDictionary, NSError, NSURLSession, NSURLSessionTask, NSURLSessionTaskMetrics;
-@protocol AMSBagProtocol;
+@class AMSBuyParams, NSDictionary;
 
 @interface AMSMetricsLoadURLContext
 {
     NSDictionary *_decodedResponseBody;
-    id <AMSBagProtocol> _bag;
-    NSError *_error;
-    AMSProcessInfo *_processInfo;
-    NSData *_responseBody;
-    NSURLSession *_session;
-    NSURLSessionTask *_task;
-    NSURLSessionTaskMetrics *_taskMetrics;
-    AMSBuyParams *_buyParams;
-    AMSURLRequestProperties *_properties;
 }
 
 - (id);
@@ -26,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)entryViewRefreshEnabled;
 - (id);
 - (void);
 - (id);
@@ -35,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)eue_t, __strong MRTelevisionGameControllerInputModeCallback);
 - (id);
 - (void)erviceValueFetcher;
 - (id)Time":(id)arg1;
@@ -52,15 +42,7 @@ o((6((Ñ(x(;
 - (id);
 
 // Remaining properties
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(retain) AMSBuyParams *buyParams; // @synthesize buyParams=_buyParams;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) AMSProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
-@property(retain) AMSURLRequestProperties *properties; // @synthesize properties=_properties;
-@property(retain) NSData *responseBody; // @synthesize responseBody=_responseBody;
-@property(retain) NSURLSession *session; // @synthesize session=_session;
-@property(retain) NSURLSessionTask *task; // @synthesize task=_task;
-@property(retain) NSURLSessionTaskMetrics *taskMetrics; // @synthesize taskMetrics=_taskMetrics;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, WiFiP2PXPCConnection;
+@class WiFiP2PXPCConnection;
 
 @interface WiFiP2PAWDLStateMonitor
 {
     WiFiP2PXPCConnection *_xpcConnection;
-    NSMutableArray *_interestedUniqueIdentifiers;
-    CDUnknownBlockType _stateUpdatedHandler;
-    CDUnknownBlockType _statisticsUpdatedHandler;
-    CDUnknownBlockType _lowLatencyStatisticsUpdatedHandler;
-    CDUnknownBlockType _realtimeModeUpdatedHandler;
-    CDUnknownBlockType _threadCoexistenceEventHandler;
-    CDUnknownBlockType _softAPChannelChangedEventHandler;
-    CDUnknownBlockType _channelSequenceUpdatedEventHandler;
-    CDUnknownBlockType _serviceAvailabilityUpdatedHandler;
 }
 
 - (void);
@@ -25,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -54,8 +45,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (int);
+- (id)d off Siri Suggestions for maps. Not attempting to fetch locations;
+- (int)arsForEntityType:(id)arg1 ];
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -63,21 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType channelSequenceUpdatedEventHandler; // @synthesize channelSequenceUpdatedEventHandler=_channelSequenceUpdatedEventHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType lowLatencyStatisticsUpdatedHandler; // @synthesize lowLatencyStatisticsUpdatedHandler=_lowLatencyStatisticsUpdatedHandler;
-@property(copy, nonatomic) CDUnknownBlockType realtimeModeUpdatedHandler; // @synthesize realtimeModeUpdatedHandler=_realtimeModeUpdatedHandler;
-@property(copy, nonatomic) CDUnknownBlockType serviceAvailabilityUpdatedHandler; // @synthesize serviceAvailabilityUpdatedHandler=_serviceAvailabilityUpdatedHandler;
-@property(copy, nonatomic) CDUnknownBlockType softAPChannelChangedEventHandler; // @synthesize softAPChannelChangedEventHandler=_softAPChannelChangedEventHandler;
 @property(copy, nonatomic) CDUnknownBlockType stateUpdatedHandler; // @synthesize stateUpdatedHandler=_stateUpdatedHandler;
-@property(copy, nonatomic) CDUnknownBlockType statisticsUpdatedHandler; // @synthesize statisticsUpdatedHandler=_statisticsUpdatedHandler;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType threadCoexistenceEventHandler; // @synthesize threadCoexistenceEventHandler=_threadCoexistenceEventHandler;
 
 @end
 

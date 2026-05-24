@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicyPreflightPrerequisiteCheck
 {
     _Bool _performPhase;
-    NSDictionary *_basePreflightOptions;
-    NSDictionary *_additionalOptions;
 }
 
-+ (_Bool);
++ (_Bool)@5;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)H;
+- (id)@"NSArray"24;
+- (id)_lockedBrowsingViewController;
 - (id);
 - (_Bool);
 - (void);
@@ -30,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(retain, nonatomic) NSDictionary *basePreflightOptions; // @synthesize basePreflightOptions=_basePreflightOptions;
 @property(nonatomic) _Bool performPhase; // @synthesize performPhase=_performPhase;
 
 @end

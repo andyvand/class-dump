@@ -9,10 +9,6 @@
 @interface PKPassCredentialShare
 {
     NSString *_identifier;
-    NSString *_channelTransportIdentifier;
-    long long _targetDevice;
-    unsigned long long _status;
-    NSString *_senderKeyIdentifier;
 }
 
 + (_Bool);
@@ -30,8 +26,8 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)setHasBrowseAddFilteredCount:(id)arg1;
+- (void)alternate_probe_time_msecs;
 - (void);
 - (id);
 - (unsigned long long);
@@ -40,12 +36,7 @@
 - (long long)Dmêÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *channelTransportIdentifier; // @synthesize channelTransportIdentifier=_channelTransportIdentifier;
-@property(readonly, nonatomic, getter=isForWatch) _Bool forWatch;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *senderKeyIdentifier; // @synthesize senderKeyIdentifier=_senderKeyIdentifier;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(nonatomic) long long targetDevice; // @synthesize targetDevice=_targetDevice;
 
 @end
 

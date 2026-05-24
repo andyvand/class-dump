@@ -9,12 +9,14 @@
 @protocol HMDIDSServiceDelegate
 
 @optional
+- (void);
+- (void)Emitting contact candidates info event to SELF;
 - (void)
 × ;
 - (void);
 - (void)lv data %@:(id <HMDIDSService>)arg1 %@;
 - (void)se target home could not setup fabric with error:(id <HMDIDSService>)arg1 %@;
-- (void)entifier;
+- (void)pairingIdentifier;
 - (void)8@"HMDActionSetResponse"16;
 @end
 

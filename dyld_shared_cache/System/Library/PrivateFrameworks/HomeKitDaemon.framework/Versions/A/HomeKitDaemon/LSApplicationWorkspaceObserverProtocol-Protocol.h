@@ -7,6 +7,11 @@
 @protocol LSApplicationWorkspaceObserverProtocol
 
 @optional
+- (_Bool) ;
+- (void)ry;
+- (void)u;
+- (void);
+- (void)ightSrcBlue;
 - (void)!Ü@ù1Â0@ù
 × ;
 - (void)uld not find the invite;

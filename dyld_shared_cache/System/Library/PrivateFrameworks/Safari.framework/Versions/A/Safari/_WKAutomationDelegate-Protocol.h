@@ -5,5 +5,8 @@
 //
 
 @protocol _WKAutomationDelegate
+
+@optional
+- (void);
 @end
 

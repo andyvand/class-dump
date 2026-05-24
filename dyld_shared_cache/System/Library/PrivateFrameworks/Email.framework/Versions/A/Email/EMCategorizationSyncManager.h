@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMAccountRepository, EMMailboxCategoryCloudStorage, EMMailboxRepository, MCCCategoryRulesController, NSString;
+@class MCCCategoryRulesController;
 @protocol EFScheduler;
 
 @interface EMCategorizationSyncManager
 {
     id <EFScheduler> _icloudSyncScheduler;
-    MCCCategoryRulesController *_rulesController;
-    EMMailboxCategoryCloudStorage *_mailboxCategoryCloudStorage;
-    EMMailboxRepository *_mailboxRepository;
-    EMAccountRepository *_accountRepository;
 }
 
 - (id);
@@ -21,24 +17,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void);
 - (id);
 - (id);
 - (void)!;
 
 // Remaining properties
-@property(readonly, nonatomic) EMAccountRepository *accountRepository; // @synthesize accountRepository=_accountRepository;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EMMailboxCategoryCloudStorage *mailboxCategoryCloudStorage; // @synthesize mailboxCategoryCloudStorage=_mailboxCategoryCloudStorage;
-@property(readonly, nonatomic) EMMailboxRepository *mailboxRepository; // @synthesize mailboxRepository=_mailboxRepository;
 @property(readonly, nonatomic) MCCCategoryRulesController *rulesController; // @synthesize rulesController=_rulesController;
-@property(readonly) Class superclass;
 
 @end
 

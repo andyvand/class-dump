@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface TUConversationProviderConfiguration
 {
     _Bool _supportsLinks;
-    _Bool _supportsSharePlay;
-    _Bool _supportsConversationHandoff;
-    _Bool _wantsLeaveOnInvalidation;
-    NSString *_serviceName;
-    NSString *_pseudonymFeatureID;
-    NSString *_bundleID;
-    NSSet *_supportedMediaTypes;
 }
 
 + (_Bool);
@@ -26,37 +19,29 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void)A;
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)__objc_methname;
 - (void)16d24@32@?40;
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setRemoteUplinkMuted: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *pseudonymFeatureID; // @synthesize pseudonymFeatureID=_pseudonymFeatureID;
 @property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(copy, nonatomic) NSSet *supportedMediaTypes; // @synthesize supportedMediaTypes=_supportedMediaTypes;
-@property(nonatomic) _Bool supportsConversationHandoff; // @synthesize supportsConversationHandoff=_supportsConversationHandoff;
-@property(nonatomic) _Bool supportsLinks; // @synthesize supportsLinks=_supportsLinks;
-@property(nonatomic) _Bool supportsSharePlay; // @synthesize supportsSharePlay=_supportsSharePlay;
-@property(readonly, nonatomic) _Bool supportsVideo;
-@property(nonatomic) _Bool wantsLeaveOnInvalidation; // @synthesize wantsLeaveOnInvalidation=_wantsLeaveOnInvalidation;
 
 @end
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_xpc_object;
+
 @protocol CNDonationAnalyticsLogger
+- (void)espace):(NSObject<OS_xpc_object> *)arg1:PKMetalResourceHandlerHashFunctions, std::equal_to<PKShaderPipelineConfig>>, std::__unordered_map_equal<PKShaderPipelineConfig, std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, std::equal_to<PKShaderPipelineConfig>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)renderVerticies:size:numRenderedVertices:vertexSize:numIndices:localClipRect:animatingStroke:secondaryParticles:renderEncoder: /* Error: Ran out of types for this method. */;
+- (void)_imageAffineTransform;
+- (void)emperature_Color_Label, _temperature_Color_Left, _temperature_Color_Slider, _temperature_Color_Right, _saturation_Color_Label, _saturation_Color_Left, _saturation_Color_Slider, _saturation_Color_Right, _resetImageCorrectionLabel, _resetImageCorrection, _selfTestLabel, _selfTestButton, _line1a,_line1b,_line2a,_line2b,_line3a,_line3b,_line4a,_line4b;
+- (void);
+- (void);
 @end
 

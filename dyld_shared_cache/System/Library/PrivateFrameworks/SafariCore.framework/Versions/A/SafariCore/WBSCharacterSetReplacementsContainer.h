@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSDictionary;
+@class NSDictionary;
 
 @interface WBSCharacterSetReplacementsContainer
 {
     NSDictionary *_replacementStringsToCharacterSets;
-    NSCharacterSet *_allCharacters;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSCharacterSet *allCharacters; // @synthesize allCharacters=_allCharacters;
 @property(readonly, copy, nonatomic) NSDictionary *replacementStringsToCharacterSets; // @synthesize replacementStringsToCharacterSets=_replacementStringsToCharacterSets;
 
 @end

@@ -9,7 +9,6 @@
 @interface NSAttributeDictionaryEnumerator
 {
     NSAttributeDictionary *dictionary;
-    unsigned long long nextElement;
 }
 
 - (void);

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, PKMapsBrand, PKMapsMerchant;
-
 @interface PKMerchantLookupResponse
 {
     long long _result;
-    long long _fallbackCategory;
-    PKMapsMerchant *_merchant;
-    PKMapsBrand *_brand;
-    CLPlacemark *_placemark;
 }
 
 - (void);
@@ -28,10 +22,6 @@
 - (void)aymentQuote"12@"NSError"20;
 
 // Remaining properties
-@property(retain, nonatomic) PKMapsBrand *brand; // @synthesize brand=_brand;
-@property(nonatomic) long long fallbackCategory; // @synthesize fallbackCategory=_fallbackCategory;
-@property(retain, nonatomic) PKMapsMerchant *merchant; // @synthesize merchant=_merchant;
-@property(retain, nonatomic) CLPlacemark *placemark; // @synthesize placemark=_placemark;
 @property(nonatomic) long long result; // @synthesize result=_result;
 
 @end

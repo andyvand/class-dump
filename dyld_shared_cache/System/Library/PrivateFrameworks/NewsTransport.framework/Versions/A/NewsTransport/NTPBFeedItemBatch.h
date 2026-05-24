@@ -11,16 +11,16 @@
     NSMutableArray *_feedItems;
 }
 
-+ (Class);
-- (unsigned long long);
++ (Class)_previousFocusedAccessibilityElement;
+- (unsigned long long)_updateSettingsVectors: /* Error: Ran out of types for this method. */;
+- (id)_updateSelectionSnapshotIfNeeded;
+- (void)_updateImageRequestIfNeeded;
+- (void)_updateAtBeginningOrEndWithPlayerItemDuration:(id)arg1 success:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)|;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

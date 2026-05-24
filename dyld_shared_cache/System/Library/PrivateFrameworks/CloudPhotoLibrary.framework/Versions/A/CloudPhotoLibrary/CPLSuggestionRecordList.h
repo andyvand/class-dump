@@ -9,24 +9,20 @@
 @interface CPLSuggestionRecordList
 {
     NSMutableArray *_assets;
-    NSMutableArray *_memorys;
-    NSMutableArray *_persons;
-    unsigned int _version;
-    CDStruct_f20694ce _has;
 }
 
 + (Class);
 + (Class);
-+ (Class)sionInformation;
++ (Class)popSessionInformation;
 - (id);
-- (id);
+- (id)̫;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)enum_kMDItemPhotosTitle_n3_prefix;
 - (void);
 - (void);
 - (void);
@@ -40,23 +36,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)ãª;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long)cation;
+- (unsigned long long)_CPLStatusDidChangeNotification;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *assets; // @synthesize assets=_assets;
-@property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSMutableArray *memorys; // @synthesize memorys=_memorys;
-@property(retain, nonatomic) NSMutableArray *persons; // @synthesize persons=_persons;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

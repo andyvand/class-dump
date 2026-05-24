@@ -6,17 +6,11 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSDate, NSString;
+@class NSString;
 
 @interface LPFileMetadata : LPSpecializationMetadata
 {
     NSString *_name;
-    NSString *_type;
-    unsigned long long _size;
-    LPImage *_thumbnail;
-    LPImage *_smallThumbnail;
-    LPImage *_icon;
-    NSDate *_creationDate;
 }
 
 + (id);
@@ -27,8 +21,8 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)P;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -57,16 +51,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)llbackWithMetadata:(id)arg1 error:called twice on %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)TI;
 - (id);
-- (void);
+- (void)et_ptrIvlmLm0EEELm0EEENS0_10iset_indexEEEEEEEN2pf18SceneGeographyNodeENS_4hashISK_EENS7_8equal_toISK_EENSA_ISM_SI_EEEEEE;
 - (id);
 - (void);
 - (void);
@@ -75,20 +69,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(retain, nonatomic) LPImage *smallThumbnail; // @synthesize smallThumbnail=_smallThumbnail;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) LPImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

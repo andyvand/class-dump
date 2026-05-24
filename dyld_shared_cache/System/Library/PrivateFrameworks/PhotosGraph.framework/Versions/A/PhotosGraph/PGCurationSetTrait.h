@@ -11,20 +11,18 @@
 @interface PGCurationSetTrait : PGCurationTrait
 {
     NSSet *_items;
-    NSSet *_negativeItems;
 }
 
-- (id);
+- (id)CMCredential - ACMCredentialDataKextDenyList;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)insertScene:fromMomentNode: /* Error: Ran out of types for this method. */;
 - (void)hlightForHighlightNode:inPhotoLibrary:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *items; // @synthesize items=_items;
-@property(readonly, nonatomic) NSSet *negativeItems; // @synthesize negativeItems=_negativeItems;
 
 @end
 

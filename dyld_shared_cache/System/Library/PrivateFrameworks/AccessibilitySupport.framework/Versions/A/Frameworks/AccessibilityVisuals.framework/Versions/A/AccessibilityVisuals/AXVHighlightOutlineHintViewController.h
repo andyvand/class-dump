@@ -9,21 +9,19 @@
 @interface AXVHighlightOutlineHintViewController
 {
     NSString *_hintText;
-    NSTextField *__hintTextField;
 }
 
+- (void)(	;
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)b;
+- (id)	;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSTextField *_hintTextField; // @synthesize _hintTextField=__hintTextField;
-@property(retain, nonatomic) NSString *hintText; // @synthesize hintText=_hintText;
 
 @end
 

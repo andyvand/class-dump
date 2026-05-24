@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)handleFailureInFunction:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray, NSString;
 
 @protocol GEOMapItemTransitSchedule
-- (double)ChangeList;
-- (NSString *)eo;
+- (NSArray *);
+- (NSString *)w;
+- (double)localizedChangeList;
+- (NSString *)has_below_street_geo;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *departureSequences;
-@property(readonly, nonatomic) NSDate *lastFullScheduleValidDate;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) double timeToLive;
-@property(readonly, nonatomic) NSString *title;
 @end
 

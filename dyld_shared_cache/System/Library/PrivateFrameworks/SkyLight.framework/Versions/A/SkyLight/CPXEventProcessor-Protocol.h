@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CPXEventDispatching;
+
 @protocol CPXEventProcessor
+- (long long)IDs:(struct SLSEventRecord *)arg1 forStore:(struct CPXEventProcessorContext *)arg2 inMonitor:(id <CPXEventDispatching>)arg3 ]_block_invoke;
+- (void)[PFCloudKitImporterFetchRecordsWorkItem executeImportOperationsAndAccumulateRecordsWithManagedObjectContext:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 @end
 

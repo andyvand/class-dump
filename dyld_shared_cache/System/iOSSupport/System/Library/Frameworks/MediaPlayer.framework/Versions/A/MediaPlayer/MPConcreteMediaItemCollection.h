@@ -6,32 +6,28 @@
 
 #import <MediaPlayer/MPMediaItemCollection.h>
 
-@class MPConcreteMediaEntityPropertiesCache, MPMediaItem, MPMediaQuery;
+@class MPConcreteMediaEntityPropertiesCache;
 
 __attribute__((visibility("hidden")))
 @interface MPConcreteMediaItemCollection : MPMediaItemCollection
 {
     long long _identifier;
-    MPMediaQuery *_itemsQuery;
-    long long _grouping;
-    MPMediaItem *_representativeItem;
-    MPConcreteMediaEntityPropertiesCache *_propertiesCache;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)tokenInformation;
+- (id)constrAttrImmediate;
+- (id)atChangeOwner;
+- (id)atAddIndexConstraint;
+- (long long)boolExpr;
+- (void)sysid;
+- (id)failedToPrepareStatement;
 - (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)Streams11LibraryBaseP;
 - (void);
 - (id);
 - (_Bool);
@@ -39,14 +35,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)featureValueWithDictionary:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void)n;
+- (void)isConfiguredForVocalAttenuation;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MPConcreteMediaEntityPropertiesCache *cachedPropertyValues;

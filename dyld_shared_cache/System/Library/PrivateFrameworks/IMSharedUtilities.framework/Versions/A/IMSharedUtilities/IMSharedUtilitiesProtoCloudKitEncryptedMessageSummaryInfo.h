@@ -9,7 +9,6 @@
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageSummaryInfo
 {
     NSData *_messageSummaryInfo;
-    NSData *_padding;
 }
 
 - (void);
@@ -18,8 +17,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ected dictionary of provisioning pass data.
+JSON:(id)arg1 %@;
+- (void)skit.balancereminderupdate.unique_id;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -27,13 +27,10 @@
 - (id);
 - (id);
 - (id)heart from;
-- (void)yncStateDownloading;
+- (void)IMCloudKitSyncControllerSyncStateDownloading;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMessageSummaryInfo;
-@property(readonly, nonatomic) _Bool hasPadding;
-@property(retain, nonatomic) NSData *messageSummaryInfo; // @synthesize messageSummaryInfo=_messageSummaryInfo;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
 
 @end
 

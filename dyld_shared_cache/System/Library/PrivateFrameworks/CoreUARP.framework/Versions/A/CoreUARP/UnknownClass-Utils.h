@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface UnknownClass (Utils)
-- (id);
+- (id)requested). All requested guids:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *byteString;

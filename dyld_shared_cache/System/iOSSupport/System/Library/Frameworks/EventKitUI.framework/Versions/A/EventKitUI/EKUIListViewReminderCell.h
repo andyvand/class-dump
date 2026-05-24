@@ -6,29 +6,22 @@
 
 #import <EventKitUI/EKUIListViewCell.h>
 
-@class EKEvent, EKUIViewWithCornerRadius, UIImageView, UILabel;
-@protocol EKUIListViewReminderCellDelegate;
+@class EKEvent, UILabel;
 
 @interface EKUIListViewReminderCell : EKUIListViewCell
 {
     UILabel *_titleField;
-    EKUIViewWithCornerRadius *_backgroundView;
-    UIImageView *_circleIcon;
-    UILabel *_timeField;
-    _Bool _dimmed;
-    id <EKUIListViewReminderCellDelegate> _delegate;
-    EKEvent *_event;
 }
 
 + (id);
 + (struct UIEdgeInsets);
+- (void)s;
+- (id)s;
 - (void);
-- (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)?{;
+- (id)lable>";
 - (void);
 - (id);
 - (void);
@@ -43,7 +36,6 @@
 - (void);
 
 // Remaining properties
-@property __weak id <EKUIListViewReminderCellDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) EKEvent *event; // @synthesize event=_event;
 
 @end

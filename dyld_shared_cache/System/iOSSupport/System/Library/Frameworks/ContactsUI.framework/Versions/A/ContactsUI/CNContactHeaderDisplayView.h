@@ -6,33 +6,11 @@
 
 #import <ContactsUI/CNContactHeaderView.h>
 
-@class CNContactDowntimeView, CNContactFormatter, CNMetricsUIReporter, NSDictionary, NSLayoutConstraint, NSString, UILabel, UIView;
-@protocol UITraitChangeRegistration;
+@class NSDictionary, UIView;
 
 @interface CNContactHeaderDisplayView : CNContactHeaderView
 {
     NSDictionary *_taglineTextAttributes;
-    NSDictionary *_downtimeTextAttributes;
-    _Bool _isEmergencyContact;
-    _Bool _isRestrictedContact;
-    _Bool _isDowntimeContact;
-    _Bool _allowsPickerActions;
-    _Bool _usesBrandedCallFormat;
-    CNContactFormatter *_contactFormatter;
-    NSDictionary *_importantTextAttributes;
-    NSString *_alternateName;
-    NSString *_message;
-    NSString *_importantMessage;
-    UIView *_personHeaderView;
-    UILabel *_taglineLabel;
-    UILabel *_importantLabel;
-    CNContactDowntimeView *_downtimeView;
-    double _minLabelsHeight;
-    double _maxLabelsHeight;
-    NSLayoutConstraint *_avatarNameSpacingConstraint;
-    id <UITraitChangeRegistration> _traitChangeRegistration;
-    CNMetricsUIReporter *_metricsReporter;
-    NSString *_selectedChannel;
 }
 
 + (id);
@@ -51,25 +29,25 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)b);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)Tc;
+- (id)7@yr;
 - (id);
 - (id);
 - (void);
@@ -86,33 +64,33 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)@9;
 - (id);
 - (void);
 - (double);
 - (double);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)D1;
 - (void);
 - (double);
+- (void)writeToFile:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)=}36@0:8@16^v24B32 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)ller"16@24;
 - (void),&,N,V_poseButton;
@@ -120,35 +98,7 @@
 - (void)ò­"¸=;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPickerActions; // @synthesize allowsPickerActions=_allowsPickerActions;
-@property(retain, nonatomic) NSString *alternateName; // @synthesize alternateName=_alternateName;
-@property(retain) NSLayoutConstraint *avatarNameSpacingConstraint; // @synthesize avatarNameSpacingConstraint=_avatarNameSpacingConstraint;
-@property(nonatomic) unsigned long long avatarStyle;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNContactDowntimeView *downtimeView; // @synthesize downtimeView=_downtimeView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILabel *importantLabel; // @synthesize importantLabel=_importantLabel;
-@property(retain, nonatomic) NSString *importantMessage; // @synthesize importantMessage=_importantMessage;
-@property(copy, nonatomic) NSDictionary *importantTextAttributes; // @synthesize importantTextAttributes=_importantTextAttributes;
-@property(nonatomic) _Bool isDowntimeContact; // @synthesize isDowntimeContact=_isDowntimeContact;
-@property(nonatomic) _Bool isEmergencyContact; // @synthesize isEmergencyContact=_isEmergencyContact;
-@property(nonatomic) _Bool isRestrictedContact; // @synthesize isRestrictedContact=_isRestrictedContact;
-@property(nonatomic) double maxLabelsHeight; // @synthesize maxLabelsHeight=_maxLabelsHeight;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) CNMetricsUIReporter *metricsReporter; // @synthesize metricsReporter=_metricsReporter;
-@property(nonatomic) double minLabelsHeight; // @synthesize minLabelsHeight=_minLabelsHeight;
 @property(retain, nonatomic) UIView *personHeaderView; // @synthesize personHeaderView=_personHeaderView;
-@property(retain, nonatomic) NSString *selectedChannel; // @synthesize selectedChannel=_selectedChannel;
-@property(readonly) Class superclass;
-@property(retain) UILabel *taglineLabel; // @synthesize taglineLabel=_taglineLabel;
-@property(copy, nonatomic) NSDictionary *taglineTextAttributes;
-@property(retain) id <UITraitChangeRegistration> traitChangeRegistration; // @synthesize traitChangeRegistration=_traitChangeRegistration;
-@property(nonatomic) _Bool usesBrandedCallFormat; // @synthesize usesBrandedCallFormat=_usesBrandedCallFormat;
 
 @end
 

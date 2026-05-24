@@ -9,7 +9,6 @@
 @interface PXGBlurEffectView
 {
     PXGBlurEffectViewConfiguration *_userData;
-    struct CGRect _clippingRect;
 }
 
 - (struct CGPoint);
@@ -26,21 +25,7 @@
 - (id)1þ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
 @property(readonly, nonatomic) UXView *contentView;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic) PXGBlurEffectViewConfiguration *userData; // @synthesize userData=_userData;
 
 @end
 

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UIDismissInteraction, _UIDismissInteractionUpdate;
+
 @protocol _UIDismissInteractionDelegate
+- (double)__ustring;
+- (_Bool)count;
+- (void)connectionUpdated:(_UIDismissInteraction *)arg1 forName:(_UIDismissInteractionUpdate *)arg2;
+- (void)caseInsensitiveCompare:(_UIDismissInteraction *)arg1;
+- (void)bytesPerPixelForPixelFormat:(_UIDismissInteraction *)arg1;
+- (void)audioDeviceUID;
 @end
 

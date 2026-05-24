@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKUserScript;
+@class NSString;
 
 @interface NewsFeed.LiveActivityEmbedScript
 {
     id newDatastore;
-    void identifier;
-    _Bool queueable;
 }
 
 - (_Bool);
@@ -21,10 +19,7 @@
 - (void)0ñþ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *executableScript;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) _Bool queueable; // @synthesize queueable;
-@property(nonatomic, readonly) WKUserScript *userScript;
 
 @end
 

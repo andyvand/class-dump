@@ -6,16 +6,15 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEOETATrafficUpdateErrorInfo, GEOETATrafficUpdateResponse, NSString;
+@class GEOETATrafficUpdateResponse;
 
 @interface GEOETAReplyUpdateable : GEOXPCReply
 {
     GEOETATrafficUpdateResponse *_response;
-    GEOETATrafficUpdateErrorInfo *_errorInfo;
 }
 
 - (void);
-- (id);
+- (id)CNPostalAddressFormatsLocalizer;
 - (id);
 - (id);
 - (_Bool);
@@ -24,15 +23,7 @@
 - (void)ü,nþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEOETATrafficUpdateErrorInfo *errorInfo; // @synthesize errorInfo=_errorInfo;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOETATrafficUpdateResponse *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

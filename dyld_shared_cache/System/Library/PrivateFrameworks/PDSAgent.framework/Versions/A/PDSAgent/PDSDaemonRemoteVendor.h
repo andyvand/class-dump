@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, PDSDaemonListenerVendor;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PDSDaemonRemoteVendor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <PDSDaemonListenerVendor> _daemonListenerVendor;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)r:(id)arg1 %{public}s;
+- (id)l GUID.;
+- (id)object unarchival from path %@:(_Bool)arg1 %{public}@. Ignored.;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)*%;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <PDSDaemonListenerVendor> daemonListenerVendor; // @synthesize daemonListenerVendor=_daemonListenerVendor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

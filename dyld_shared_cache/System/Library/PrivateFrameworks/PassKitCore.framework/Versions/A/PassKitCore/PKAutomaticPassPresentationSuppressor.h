@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableIndexSet, NSObject, PKAssertion;
-@protocol OS_dispatch_queue;
+@class PKAssertion;
 
 @interface PKAutomaticPassPresentationSuppressor
 {
     PKAssertion *_suppressionAssertion;
-    NSMutableIndexSet *_suppressionRequestTokens;
-    NSMutableIndexSet *_backgrounedSuppressionIdentifiers;
-    NSDate *_backgroundedDate;
-    unsigned long long _nextRequestToken;
-    NSObject<OS_dispatch_queue> *_suppressorQueue;
 }
 
-+ (id)AuthorizationDestinationProviderManager;
++ (id)ProvisioningExistingCardAuthorizationDestinationProviderManager;
 - (unsigned long long);
 - (_Bool);
+- (void)	j!f;
+- (void)g;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void)arcodePayment;
+- (void)supportsBarcodePayment;
 - (void)¹ ;
 
 // Remaining properties

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSURL;
+@class NSURL;
 
 @interface WBSRemoteHistoryVisit
 {
     NSURL *_url;
-    NSDate *_date;
 }
 
-+ (_Bool);
++ (_Bool)63;
 - (id);
-- (id);
-- (id);
+- (id)supportsOpacity;
+- (id)IKSFEffectDescriptionParameterInvertValueValueKey;
 - (id);
 - (id);
 - (void);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

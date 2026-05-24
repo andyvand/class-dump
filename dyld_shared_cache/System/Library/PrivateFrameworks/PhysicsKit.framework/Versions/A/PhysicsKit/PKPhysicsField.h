@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKRegion;
-@protocol NSObject;
-
 @interface PKPhysicsField
 {
     shared_ptr_307a0f33 _field;
-    PKRegion *_region;
-    id _position;
-    float _rotation;
-    id _scale;
 }
 
 - (void);
@@ -22,23 +15,23 @@
 - (unsigned int);
 - (_Bool);
 - (void);
-- (float);
+- (float)};
 - (void);
 - (float);
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)?;
 - (float);
-- (float);
+- (float);
 - (id);
 - (id);
+- (_Bool)e bundle URL (%{public}@) not supported by platform configuration:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id)PodcastsFoundation;
 - (id);
 - (void);
 - (void);
@@ -47,20 +40,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 
 // Remaining properties
-@property(nonatomic) unsigned int categoryBitMask;
-@property(nonatomic) id direction;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) float falloff;
-@property(nonatomic) float minimumRadius;
-@property(nonatomic, getter=isOverride) _Bool override;
-@property(nonatomic) id position;
-@property(retain, nonatomic) id region;
-@property(nonatomic) __weak id <NSObject> representedObject;
-@property(nonatomic) float rotation;
-@property(nonatomic) id scale;
 @property(nonatomic) float strength;
 
 @end

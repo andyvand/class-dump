@@ -7,26 +7,6 @@
 @interface AppStoreKit.Brick
 {
     id artworks;
-    id isMediaDark;
-    id accessibilityLabel;
-    id shortEditorialDescription;
-    id caption;
-    id title;
-    id subtitle;
-    id collectionIcons;
-    id editorialDisplayOptions;
-    id clickAction;
-    id impressionMetrics;
-    id personalizationStyle;
-    id originalModel;
-    id shelfBackground;
-    id id;
-    id titleLineCount;
-    id artworkSafeArea;
-    id textSafeArea;
-    id backgroundColor;
-    id placementStyle;
-    id threeDimensionalArtworkRenderSize;
 }
 
 @end

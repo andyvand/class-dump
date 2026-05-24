@@ -6,53 +6,20 @@
 
 #import <TelephonyUtilities/TUAudioController.h>
 
-@class NSArray, NSDictionary, NSNumber, NSObject;
-@protocol OS_dispatch_queue, TUAudioSystemControllerDelegate, TUFeatureFlags;
+@class NSObject;
+@protocol OS_dispatch_queue, TUAudioSystemControllerDelegate;
 
 @interface TUAudioSystemController : TUAudioController
 {
     NSObject<OS_dispatch_queue> *_uplinkMutedQueue;
-    NSObject<OS_dispatch_queue> *_downlinkMutedQueue;
-    NSObject<OS_dispatch_queue> *_ttyQueue;
-    NSObject<OS_dispatch_queue> *_pickableRoutesQueue;
-    NSNumber *_isUplinkMutedCached;
-    NSNumber *_isDownlinkMutedCached;
-    NSNumber *_isTTYCached;
-    NSArray *_pickableRoutesForTTY;
-    NSArray *_pickableRoutesForPhoneCall;
-    NSArray *_pickableRoutesForPlayAndRecordVideo;
-    NSArray *_pickableRoutesForPlayAndRecordVoice;
-    NSArray *_pickableRoutesForPlayAndRecordRemoteVoice;
-    NSArray *_pickableRoutesForVoicemail;
-    NSArray *_currentPickableRoutes;
-    _Bool _isRequestingUplinkMuted;
-    _Bool _isRequestingDownlinkMuted;
-    _Bool _isRequestingTTY;
-    _Bool _isRequestingPickableRoutesForTTY;
-    _Bool _isRequestingPickableRoutesForPhoneCall;
-    _Bool _isRequestingPickableRoutesForPlayAndRecordVideo;
-    _Bool _isRequestingPickableRoutesForPlayAndRecordVoice;
-    _Bool _isRequestingPickableRoutesForPlayAndRecordRemoteVoice;
-    _Bool _isRequestingPickableRoutesForVoicemail;
-    unsigned long long _lastUplinkMutedRequestScheduleTime;
-    unsigned long long _lastDownlinkMutedRequestScheduleTime;
-    unsigned long long _lastTTYRequestScheduleTime;
-    unsigned long long _lastTTYPickableRoutesScheduleTime;
-    unsigned long long _lastPhoneCallCategoryRoutesScheduleTime;
-    unsigned long long _lastPlayAndRecordVideoRoutesScheduleTime;
-    unsigned long long _lastPlayAndRecordVoiceRoutesScheduleTime;
-    unsigned long long _lastPlayAndRecordRemoteVoiceRoutesScheduleTime;
-    unsigned long long _lastVoicemailRoutesScheduleTime;
-    id <TUFeatureFlags> _featureFlags;
-    id <TUAudioSystemControllerDelegate> _delegate;
 }
 
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)M0;
 - (void);
-- (id);
+- (id)9(;
 - (id);
 - (id);
 - (void);
@@ -87,22 +54,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (_Bool);
 - (id);
-- (void);
-- (void)erServerDied: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)momentsControllerServerDied: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) float activeCategoryVolume;
-@property(readonly, copy, nonatomic) NSArray *bestGuessPickableRoutesForAnyCall;
 @property(nonatomic) __weak id <TUAudioSystemControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isDownlinkMuted) _Bool downlinkMuted;
-@property(readonly, nonatomic) _Bool otherSessionsRequestNoRingtoneInterruption;
-@property(readonly, copy, nonatomic) NSArray *pickableRoutesForTTY;
-@property(readonly, copy, nonatomic) NSDictionary *pickedRouteAttribute;
-@property(readonly, nonatomic, getter=isTTY) _Bool tty;
-@property(nonatomic, getter=isUplinkMuted) _Bool uplinkMuted;
 
 @end
 

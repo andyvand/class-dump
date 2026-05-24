@@ -5,5 +5,12 @@
 //
 
 @protocol CWEventDelegate
+
+@optional
+- (void)__text;
+- (void);
+- (void)synchronizeFollowUpsWithServerPayload:altDSID:error: /* Error: Ran out of types for this method. */;
+- (void)sourceCount don't match;
+- (void)descriptor should be nil for singe source;
 @end
 

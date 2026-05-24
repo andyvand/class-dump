@@ -5,5 +5,13 @@
 //
 
 @protocol VCMediaStreamDelegate
+
+@optional
+- (void)$;
+- (void);
+- (void)qA;
+- (void)(;
+- (void)A;
+- (void)(;
 @end
 

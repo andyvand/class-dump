@@ -4,13 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSSPropertySetChangeDetails;
+
 @protocol TSDChangeableInfo
+- (void)MPCPlayActivityUtilitiesPlayEndEventStartTimeKey;
+- (_Bool)ed playbackDidStart while playing (no stall flags) - forwarding to cancel stall timer;
+- (void);
+
+@optional
+- (void)imated artwork preview image loading than when we requested %@ -> %@;
+- (TSSPropertySetChangeDetails *);
 
 // Remaining properties
-@property(readonly, nonatomic) Class editorClass;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T#,?,R,N
-
 @property(readonly, nonatomic) _Bool isUserModifiable;
 @end
 

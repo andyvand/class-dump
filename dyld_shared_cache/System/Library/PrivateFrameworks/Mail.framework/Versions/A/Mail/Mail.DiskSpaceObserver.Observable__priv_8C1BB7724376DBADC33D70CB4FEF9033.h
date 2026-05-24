@@ -7,7 +7,6 @@
 @interface Mail.DiskSpaceObserver.Observable__priv_8C1BB7724376DBADC33D70CB4FEF9033
 {
     id observable;
-    id observer;
 }
 
 @end

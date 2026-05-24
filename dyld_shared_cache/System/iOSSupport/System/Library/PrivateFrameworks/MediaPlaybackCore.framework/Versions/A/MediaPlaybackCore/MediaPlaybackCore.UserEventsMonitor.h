@@ -9,13 +9,10 @@
 @interface MediaPlaybackCore.UserEventsMonitor
 {
     id timeout;
-    id delegate;
-    id monitors;
-    id reporter;
 }
 
 - (void);
-- (id);
+- (id)7;
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *stateDictionary;

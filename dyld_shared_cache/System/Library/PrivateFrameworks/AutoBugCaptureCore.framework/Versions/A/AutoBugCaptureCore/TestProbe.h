@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface TestProbe
 {
     _Bool _running;
-    unsigned int _status;
-    NSUUID *_uuid;
-    NSString *_diagSessionUUID;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_periodicTimer;
-    NSMutableArray *_probeOutputFilePaths;
 }
 
 + (id);
 + (void *);
-+ (void);
++ (void)=;
 - (_Bool);
 - (void);
 - (void);
@@ -35,9 +28,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ta ORDER BY relative_timestamp ASC;
 - (void);
-- (void);
+- (void)6 ;
 - (unsigned int);
 - (id);
 - (_Bool);
@@ -47,12 +40,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *diagSessionUUID; // @synthesize diagSessionUUID=_diagSessionUUID;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *periodicTimer; // @synthesize periodicTimer=_periodicTimer;
-@property(readonly, nonatomic) NSMutableArray *probeOutputFilePaths; // @synthesize probeOutputFilePaths=_probeOutputFilePaths;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;
-@property(nonatomic) unsigned int status; // @synthesize status=_status;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

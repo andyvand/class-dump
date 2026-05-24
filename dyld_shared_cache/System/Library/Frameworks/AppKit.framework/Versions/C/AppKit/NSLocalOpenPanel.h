@@ -13,29 +13,29 @@
 + (id);
 - (void);
 - (void);
+- (void)EnTr_Activation_End;
+- (void)lic}u sub_activation_id = %{public}lu;
+- (void)onent = %{public}u sub_opcode = %{public}u sub_activation_id = %{public}lu;
+- (_Bool);
 - (void);
-- (void);
+- (id)WMF;
+- (_Bool);
+- (_Bool)set_skipsStackTraceCapture:(id)arg1;
+- (_Bool)taskAdditionalPropertiesClasses;
+- (_Bool)k",R,&,N,V_mainDocumentTask;
+- (_Bool)hskip_credStorage;
+- (_Bool)options;
+- (id);
+- (_Bool)text();
+- (id);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void)6yg;
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 
 @end
 

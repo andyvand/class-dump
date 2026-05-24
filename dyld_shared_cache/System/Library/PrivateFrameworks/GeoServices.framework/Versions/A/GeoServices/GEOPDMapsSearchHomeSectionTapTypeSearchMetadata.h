@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMapsSearchHomeSectionTapTypeSearchMetadata
 {
     PBUnknownFields *_unknownFields;
-    NSData *_suggestionEntryMetadata;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)has_sortDirection"b1"has_sortOrder"b1"has_requestAddressesForPostCode"b1"has_supportDirectionIntentSearch"b1"has_supportDymSuggestion"b1"has_supportSearchEnrichment"b1"has_supportSearchResultSection"b1"has_supportStructuredRapAffordance"b1"has_supportUnresolvedDirectionIntent"b1"read_unknownFields"b1"read_knownRefinementTypes"b1"read_supportedPlaceSummaryFormatTypes"b1"read_supportedRelatedEntitySectionTypes"b1"read_supportedSearchSectionTypes"b1"read_supportedSearchTierTypes"b1"read_enrichmentCampaignNamespace"b1"read_etaFilter"b1"read_evChargingParameters"b1"read_inferredSignals"b1"read_mostRecentAutocompleteRequestSessionData"b1"read_paginationParameters"b1"read_previousSearchViewport"b1"read_punchInHints"b1"read_recentRouteInfo"b1"read_resultRefinementQuery"b1"read_retainedSearch"b1"read_searchEnrichmentRequestMetadata"b1"read_searchEnrichmentRevisionMetadatas"b1"read_searchFilter"b1"read_searchLocationParameters"b1"read_searchLocation"b1"read_searchOriginationInfo"b1"read_searchSessionData"b1"read_searchString"b1"read_searchStructureIntentType"b1"read_sessionUserActionMetadata"b1"read_suggestionEntryMetadata"b1"read_suggestionEntry"b1"read_suggestionMetadata"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)Mps;
+- (id)_freeflowSpeedMps;
 - (id)äÔ;
 - (void)cîZB>èô?Ü×sFt,@;
 

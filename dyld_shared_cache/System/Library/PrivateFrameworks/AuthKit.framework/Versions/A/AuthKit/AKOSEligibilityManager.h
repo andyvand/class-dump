@@ -17,16 +17,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)J;
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)#;
 - (unsigned long long);
 - (_Bool);
 

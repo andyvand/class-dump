@@ -7,6 +7,8 @@
 @class NSMenu;
 
 @protocol NSMenuTrackingSessionDelegate
+- (void)y;
+- (NSMenu *)ntrol;
 
 // Remaining properties
 @property(readonly) NSMenu *mainMenu;

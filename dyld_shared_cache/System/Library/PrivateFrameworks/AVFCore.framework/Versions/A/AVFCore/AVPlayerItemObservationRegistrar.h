@@ -9,11 +9,11 @@
     id registrar;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void)LoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelection: /* Error: Ran out of types for this method. */;
+- (void)assetDownloadSession:didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelection: /* Error: Ran out of types for this method. */;
 
 @end
 

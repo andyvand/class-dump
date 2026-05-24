@@ -6,21 +6,12 @@
 
 #import <CloudPhotoLibrary/CPLEngineSyncTask.h>
 
-@class CPLEngineScopeStorage, CPLEngineScopedTask, CPLScopeFilter, NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class CPLEngineScopeStorage, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CPLEngineMultiscopeSyncTask : CPLEngineSyncTask
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_currentTaskQueue;
-    CPLEngineScopedTask *_currentTask;
-    NSMutableArray *_coveredScopes;
-    NSMutableArray *_excludedScopes;
-    NSMutableDictionary *_transportScopes;
-    NSString *_clientCacheIdentifier;
-    CPLScopeFilter *_baseScopeFilter;
-    CPLScopeFilter *_additionalScopeFilter;
-    CPLEngineScopeStorage *_scopes;
 }
 
 - (_Bool);
@@ -29,35 +20,27 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)/;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)J;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CPLEngineScopeStorage *scopes; // @synthesize scopes=_scopes;
-@property(readonly, nonatomic) _Bool shouldSkipScopesWithMissingTransportScope;
-@property(readonly) Class superclass;
 
 @end
 

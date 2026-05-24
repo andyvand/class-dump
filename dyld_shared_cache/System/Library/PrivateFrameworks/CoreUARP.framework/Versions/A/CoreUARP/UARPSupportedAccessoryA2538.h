@@ -14,9 +14,9 @@
 }
 
 + (id);
-+ (unsigned short);
-- (id);
-- (void);
++ (unsigned short)n;
+- (id)AMSPaymentViewServiceProtocol;
+- (void)%;
 
 @end
 

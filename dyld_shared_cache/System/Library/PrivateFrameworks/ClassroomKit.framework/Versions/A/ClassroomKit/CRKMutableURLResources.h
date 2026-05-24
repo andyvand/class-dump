@@ -6,7 +6,7 @@
 
 #import <ClassroomKit/CRKURLResources.h>
 
-@class NSDate, NSNumber;
+@class NSNumber;
 
 @interface CRKMutableURLResources : CRKURLResources
 {
@@ -15,13 +15,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)atchIS8_E4TypeEEUlPNS1_25UplinkProxyImplementationEE_;
 
 // Remaining properties
 @property(retain, nonatomic, getter=isDirectory) NSNumber *directory; // @dynamic directory;
-@property(copy, nonatomic) NSNumber *documentIdentifier; // @dynamic documentIdentifier;
-@property(retain, nonatomic) NSDate *lastModificationDate; // @dynamic lastModificationDate;
-@property(nonatomic) unsigned long long size; // @dynamic size;
 
 @end
 

@@ -6,34 +6,24 @@
 
 #import <UIKitCore/_UIVisibilityPropagationView.h>
 
-@class FBSSceneSettings, FBSSceneSettingsDiffInspector, FBScene, NSHashTable, NSString, UIScenePresentationContext, UIView, _UISceneLayerHostContainerView, _UIScenePresenter, _UIScenePresenterGeometryDriverStorage;
-@protocol UIScenePresenter;
+@class _UIScenePresenter;
 
 __attribute__((visibility("hidden")))
 @interface _UIScenePresentationView : _UIVisibilityPropagationView
 {
     _UIScenePresenter *_presenter;
-    FBScene *_scene;
-    FBSSceneSettings *_effectiveSettings;
-    UIScenePresentationContext *_currentPresentationContext;
-    _UISceneLayerHostContainerView *_hostContainerView;
-    UIView *_backgroundView;
-    FBSSceneSettingsDiffInspector *_geometrySettingsDiffInspector;
-    NSHashTable *_observers;
-    _Bool _invalidated;
-    _UIScenePresenterGeometryDriverStorage *_geometryDriverStorage;
 }
 
 - (void);
 - (id);
 - (void);
+- (id)CEMApplicationListActiveNSExtensionsCommand_StatusExtensionsItem;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)setMinimumEndCharacterCount:(id)arg1;
+- (void)collectionStoreID;
+- (void)MPModelPropertyLyricsHasDownloadedCatalogLyrics;
 - (void);
 - (id);
 - (void);
@@ -44,11 +34,11 @@ __attribute__((visibility("hidden")))
 - (id)ñcÐ1Â0@ù
 × ;
 - (Class)Item>"32q40;
-- (void)ws;
-- (id)crollViewWillEndDraggingInvocationsToPerform;
-- (void)m;
-- (id)eCancelledByGestureRecognizer: /* Error: Ran out of types for this method. */;
-- (void)ssary: /* Error: Ran out of types for this method. */;
+- (void)weakSimultaneouslyPresentedGroupViews;
+- (id)_hasScrollViewWillEndDraggingInvocationsToPerform;
+- (void)_droppedItem;
+- (id)_delegateCanBeCancelledByGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (void)_completeCacheImageWithTraitsIfNecessary: /* Error: Ran out of types for this method. */;
 - (void)gestureRecognizerForPreviewActions;
 - (id),&,N,V_scrollPocketInteraction;
 - (void),V_continuousDisplayedPage;
@@ -56,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (id)Tâ;
 - (void)Ô;
 - (id)for key %@ from requested class %@, to class %@;
-- (id);
+- (id)UIAccessoryButtonQuestionMark;
 - (void)aryEnroller.m;
 - (id)ses;
 - (void)UÂ03¬E;
@@ -65,19 +55,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setGeometryDriverStorage:) _UIScenePresenterGeometryDriverStorage *_geometryDriverStorage; // @synthesize _geometryDriverStorage;
 @property(nonatomic, readonly) Class _intelligenceBaseClass;
-@property(retain, nonatomic) UIView *backgroundView;
-@property(retain, nonatomic) UIScenePresentationContext *currentPresentationContext; // @synthesize currentPresentationContext=_currentPresentationContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UISceneLayerHostContainerView *hostContainerView; // @synthesize hostContainerView=_hostContainerView;
-@property(readonly, nonatomic) __weak id <UIScenePresenter> presenter;
-@property(readonly) Class superclass;
 
 @end
 

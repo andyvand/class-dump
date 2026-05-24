@@ -12,8 +12,6 @@
 @interface OSActivityTraceMessageEvent : OSActivityEventMessage
 {
     unsigned char _messageType;
-    NSObject<OS_xpc_object> *_payload;
-    unsigned long long _senderProgramCounter;
 }
 
 - (unsigned long long);
@@ -24,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char messageType; // @synthesize messageType=_messageType;
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) unsigned long long senderProgramCounter; // @synthesize senderProgramCounter=_senderProgramCounter;
 
 @end
 

@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMRange, NSMapTable, NSMutableArray, NSMutableRangeArray, NSProgress, NSString, NSTextFinder, NSTextFinderAsyncSearch, NSTextFinderIndicatorManager, WebView;
-@protocol NSTextFinderAsynchronousDocumentFindMatch;
+@class DOMRange, NSTextFinder;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextFinderImpl
 {
     NSTextFinder *_finder;
-    _Bool _lastFindWasSuccessful;
-    long long _lastChangeCount;
-    long long _ignoreCancelCount;
-    long long _matchCount;
-    _Bool _disableDelay;
-    NSTextFinderIndicatorManager *_indicator;
-    id _indicatorDelay;
-    struct _NSRange _matchRange;
-    _Bool _incremental;
-    NSTextFinderAsyncSearch *_asyncSearch;
-    NSMutableArray *_retiredAsyncSearches;
-    NSMutableRangeArray *_incrementalMatchRanges;
-    NSMapTable *_webViewsToDOMRanges;
-    DOMRange *_matchDOMRange;
-    WebView *_matchWebView;
-    NSMutableArray *_matchWebViews;
-    NSProgress *_currentAsynchronousDocumentFindProgress;
-    id <NSTextFinderAsynchronousDocumentFindMatch> _asynchronousDocumentCurrentMatch;
-    NSMutableArray *_incrementalAsynchronousDocumentMatches;
 }
 
 + (void);
 + (void);
-+ (double);
-- (void);
++ (double)@;
+- (void);
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -44,17 +24,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)win.dylib;
 - (void);
-- (void);
-- (void);
+- (void)eStateKey in power source dictionary;
 - (void);
 - (long long);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (struct _NSRange);
-- (void);
+- (id)brary/BuildRoots/4~CNpwugA7e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MobileGestaltCache.c;
+- (void)youtube;
+- (id)tion failed with status 0x%llX;
+- (struct _NSRange)sha1;
+- (void)4szz4QLjIlB52alQ4J3R1g;
 - (id);
 - (id);
 - (_Bool);
@@ -81,14 +61,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)et domain - is_tracker %d domain %s owner %s, tracker domain %s;
+- (void)ionary;
 - (void);
 - (void);
 - (void);
@@ -97,7 +77,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
@@ -110,41 +90,41 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct _NSRange);
-- (struct _NSRange);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)@?72;
+- (_Bool)ing, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)nKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)initializeHTTPAuthenticatorWithAppleIDContext:statusCodes: /* Error: Ran out of types for this method. */;
+- (void)initWithMemoryCapacity:(struct _NSRange)arg1 diskCapacity:(_Bool)arg2 diskPath:(_Bool)arg3;
+- (void)initWithMemoryCapacity:(id)arg1 diskCapacity:(_Bool)arg2 directoryURL:(_Bool)arg3;
+- (void)createResumeDataForTaskInfo;
+- (struct _NSRange)timeRangeExpectedToLoad:forMediaSelectionPropertyList: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)tions:identifier:uniqueIdentifier:taskKind:enableSPIDelegateCallbacks:reply: /* Error: Ran out of types for this method. */;
+- (id)_parentTask;
+- (void)_onqueue_didReceiveDispatchData:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)_allowsConstrainedOverride;
+- (void)_allowedProtocolTypes;
+- (void)_afterConnectQueue;
+- (void)_TLSMaximumSupportedProtocol;
+- (void)_CFURLProtectionSpace;
+- (void)TLSMaximumSupportedProtocolVersion;
+- (void)T@,R,V_underlyingStorage;
+- (void)setResolvedMediaSelectionPlist: /* Error: Ran out of types for this method. */;
+- (_Bool)RL",C,N,V_inURL;
+- (_Bool)dealloc;
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)_ZN5STube26_onqueue_notifyTubeManagerE13CFStreamError;
+- (void)failed to rename the current cache dir %s to new cache dir %s.  Errno=%{errno}d;
+- (void)sionTask with nil URL.;
+- (_Bool)dly canceled:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)%@ - is there a specialization;
+- (id)X-mobile me token from AOSkit;
+- (void)ublic}@ AppSSO performing default handling for %@;
+- (id)g tasks getting auth headers for session %@ with identifier %@ outstanding auth tasks %@;
+- (id)008;
 - (long long);
 - (void);
 - (void);
@@ -160,18 +140,7 @@ __attribute__((visibility("hidden")))
 - (id)^;
 
 // Remaining properties
-@property(retain) id <NSTextFinderAsynchronousDocumentFindMatch> asynchronousDocumentCurrentMatch; // @synthesize asynchronousDocumentCurrentMatch=_asynchronousDocumentCurrentMatch;
-@property(retain) NSProgress *currentAsynchronousDocumentProgress; // @synthesize currentAsynchronousDocumentProgress=_currentAsynchronousDocumentFindProgress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableArray *incrementalAsynchronousDocumentMatches; // @synthesize incrementalAsynchronousDocumentMatches=_incrementalAsynchronousDocumentMatches;
 @property(retain) DOMRange *matchDOMRange; // @synthesize matchDOMRange=_matchDOMRange;
-@property(retain) WebView *matchWebView; // @synthesize matchWebView=_matchWebView;
-@property(readonly) Class superclass;
 
 @end
 

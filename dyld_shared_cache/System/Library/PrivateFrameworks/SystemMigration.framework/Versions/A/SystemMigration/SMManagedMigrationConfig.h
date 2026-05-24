@@ -6,17 +6,9 @@
 
 #import <SystemMigration/SMManagedMigrationXPCClient.h>
 
-@class NSArray;
-
 @interface SMManagedMigrationConfig : SMManagedMigrationXPCClient
 {
     _Bool _shouldDoManagedMigration;
-    _Bool _shouldMigrateSecurityPrivacySettings;
-    _Bool _shouldMigrateOtherFiles;
-    NSArray *_excludedAccounts;
-    NSArray *_excludedPaths;
-    NSArray *_requiredPaths;
-    NSArray *_declarationKeys;
 }
 
 + (_Bool);
@@ -42,18 +34,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)imageNamed:(id)arg1;
 - (void)áÐ!øAùñ	1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSArray *declarationKeys; // @synthesize declarationKeys=_declarationKeys;
-@property(retain) NSArray *excludedAccounts; // @synthesize excludedAccounts=_excludedAccounts;
-@property(retain) NSArray *excludedPaths; // @synthesize excludedPaths=_excludedPaths;
-@property(retain) NSArray *requiredPaths; // @synthesize requiredPaths=_requiredPaths;
 @property _Bool shouldDoManagedMigration; // @synthesize shouldDoManagedMigration=_shouldDoManagedMigration;
-@property _Bool shouldMigrateOtherFiles; // @synthesize shouldMigrateOtherFiles=_shouldMigrateOtherFiles;
-@property _Bool shouldMigrateSecurityPrivacySettings; // @synthesize shouldMigrateSecurityPrivacySettings=_shouldMigrateSecurityPrivacySettings;
 
 @end
 

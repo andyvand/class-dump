@@ -9,7 +9,7 @@
     _Bool _classWasModified;
 }
 
-- (id);
+- (id)#;
 - (_Bool);
 - (id);
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXPeopleDataSourceSection
 {
     _Bool _disclosed;
-    unsigned long long _personFetchType;
-    NSString *_disclosedTitle;
-    NSString *_unDisclosedTitle;
 }
 
 - (id);
@@ -20,15 +15,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void)LemonadeShelvesViewModelDisplayState;
 
 // Remaining properties
-@property(getter=isDisclosed) _Bool disclosed; // @synthesize disclosed=_disclosed;
-@property(copy, nonatomic) NSString *disclosedTitle; // @synthesize disclosedTitle=_disclosedTitle;
 @property(readonly, nonatomic) unsigned long long personFetchType; // @synthesize personFetchType=_personFetchType;
-@property(copy, nonatomic) NSString *unDisclosedTitle; // @synthesize unDisclosedTitle=_unDisclosedTitle;
 
 @end
 

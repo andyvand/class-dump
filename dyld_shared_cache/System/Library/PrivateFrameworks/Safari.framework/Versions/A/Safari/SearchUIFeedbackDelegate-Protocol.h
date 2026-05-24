@@ -9,6 +9,8 @@
 @protocol SearchUIFeedbackDelegate
 
 @optional
-- (id <SearchUICommandDelegate>)VisualTreatmentInFrame:formID:passwordControlUniqueIDs: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (id <SearchUICommandDelegate>)removeAutomaticPasswordVisualTreatmentInFrame:formID:passwordControlUniqueIDs: /* Error: Ran out of types for this method. */;
 @end
 

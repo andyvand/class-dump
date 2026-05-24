@@ -20,23 +20,23 @@
 + (id);
 + (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -54,8 +54,6 @@
 - (id);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType SHK_completionBlock;
-@property(copy) CDUnknownBlockType SHK_preparationBlock;
 @property __weak CALayer *SHK_targetLayer;
 @end
 

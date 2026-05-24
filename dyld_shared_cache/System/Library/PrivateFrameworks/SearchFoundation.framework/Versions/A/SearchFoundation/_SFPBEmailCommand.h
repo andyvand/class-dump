@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBEmailCommand
 {
@@ -17,23 +17,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)livePhotoWithResourceFileURLs:(id)arg1 targetSize:contentMode:skipInstantiatingImageAndAVAsset:error: /* Error: Ran out of types for this method. */;
+- (id)stem. Possibly purged due to CacheDelete. Requesting download.;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (void)setPegasusDefinedState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *email; // @synthesize email=_email;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

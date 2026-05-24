@@ -4,54 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLogMsgEventTableBookedSession
 {
     PBDataReader *_reader;
-    NSString *_bookedTableSessionId;
-    NSMutableArray *_bookedTables;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_bookedTableSessionId:1;
-        unsigned int read_bookedTables:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ointOffset:(id)arg1;
++ (_Bool)setHasStepEndPathPointOffset:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
+- (void)objectForKey:onCacheMiss: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithLength:timeInterval:scheduler:observable: /* Error: Ran out of types for this method. */;
+- (id)initWithLength:timeInterval:scheduler:observable: /* Error: Ran out of types for this method. */;
+- (id)initWithLeft:right: /* Error: Ran out of types for this method. */;
+- (id)initWithLabel:(unsigned long long)arg1;
+- (void)r;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)Wireless Splitter start;
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)openWithOptions:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (id)eShown:(struct _NSZone *)arg1;
-- (id)con;
+- (id)setVenueExperienceShown:(struct _NSZone *)arg1;
+- (id)hasRapStateIcon;
 - (id)ed waypoint status must be set for request type `ModifyWaypoints`.;
 - (id);
 - (void)@úóþQ4zº3;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bookedTableSessionId;
-@property(retain, nonatomic) NSMutableArray *bookedTables;
 @property(readonly, nonatomic) _Bool hasBookedTableSessionId;
 
 @end

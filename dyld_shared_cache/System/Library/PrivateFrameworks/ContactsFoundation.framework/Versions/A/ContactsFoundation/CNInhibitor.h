@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNInhibitor
 {
     _Bool _debugIsInhibiting;
@@ -15,21 +13,14 @@
 + (id);
 + (id);
 + (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)>';
 - (_Bool);
-- (void)Capacity:(_Bool)arg1;
+- (void)strategyWithCapacity:(_Bool)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) _Bool debugIsInhibiting; // @synthesize debugIsInhibiting=_debugIsInhibiting;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

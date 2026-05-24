@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)ccessibilityBundles_Alias2/UIKitAccessibility/UIApplicationAccessibility.m;
 + (void);
-- (_Bool);
+- (_Bool)yle;
 - (id);
 - (id);
 - (id);

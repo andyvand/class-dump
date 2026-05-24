@@ -10,27 +10,19 @@
 {
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)numberOfAchievements;
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *clientIdentifier;
-@property(nonatomic, readonly) NSString *clientVersion;
-@property(nonatomic, readonly) NSString *deviceLocalizedModel;
-@property(nonatomic, readonly) NSString *deviceMarketingFamilyName;
-@property(nonatomic, readonly) NSString *deviceModel;
-@property(nonatomic, readonly) NSString *deviceModelFamily;
-@property(nonatomic, readonly) NSString *devicePhysicalModel;
-@property(nonatomic, readonly) NSString *osBuild;
 @property(nonatomic, readonly) NSString *platform;
 
 @end

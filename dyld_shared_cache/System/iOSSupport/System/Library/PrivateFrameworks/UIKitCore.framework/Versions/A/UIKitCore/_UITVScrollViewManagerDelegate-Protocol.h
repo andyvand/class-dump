@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UITVScrollViewManager;
+
 @protocol _UITVScrollViewManagerDelegate
+
+@optional
+- (void)handler:(_UITVScrollViewManager *)arg1 incomingGroupMutationMessage:timeStamp:storageContext:fromToken:fromID:isInProxyMode: /* Error: Ran out of types for this method. */;
 @end
 

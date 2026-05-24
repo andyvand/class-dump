@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestRelationshipProcessor
 {
@@ -13,10 +13,10 @@
 
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)shouldIncludeControllerInPromotedHierarchy;
+- (void)setControllerClass:(id)arg1;
+- (void)setApplicationElement:(id)arg1;
+- (id)cancelAllOperations;
 - (void);
 - (id);
 - (id);
@@ -24,13 +24,7 @@
 - (void)@count;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

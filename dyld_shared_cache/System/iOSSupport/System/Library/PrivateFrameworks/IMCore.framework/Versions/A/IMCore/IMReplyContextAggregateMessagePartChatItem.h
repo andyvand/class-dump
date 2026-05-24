@@ -6,19 +6,15 @@
 
 #import <IMCore/IMAggregateMessagePartChatItem.h>
 
-@class IMItem, NSString;
+@class IMItem;
 
 @interface IMReplyContextAggregateMessagePartChatItem : IMAggregateMessagePartChatItem
 {
     _Bool _replyIsFromMe;
-    IMItem *_parentItem;
-    NSString *_replyMessageGUID;
 }
 
 
 // Remaining properties
 @property(retain, nonatomic) IMItem *_parentItem; // @synthesize _parentItem;
-@property(nonatomic) _Bool replyIsFromMe; // @synthesize replyIsFromMe=_replyIsFromMe;
-@property(copy, nonatomic) NSString *replyMessageGUID; // @synthesize replyMessageGUID=_replyMessageGUID;
 @end
 

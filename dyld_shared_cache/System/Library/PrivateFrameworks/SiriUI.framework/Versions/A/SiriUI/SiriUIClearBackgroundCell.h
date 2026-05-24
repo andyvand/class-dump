@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue, NSView, SiriUISnippetViewController;
-
 @interface SiriUIClearBackgroundCell
 {
     _Bool _selected;
-    NSView *_backgroundView;
-    NSView *_selectedBackgroundView;
-    NSValue *_selectionFrameValue;
-    long long _highlightStyle;
 }
 
 + (double);
@@ -24,36 +18,21 @@
 - (id);
 - (void);
 - (long long);
-- (struct CGRect);
+- (struct CGRect)<;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void)qÐ1Â0@ù
 × ;
-- (_Bool)egate: /* Error: Ran out of types for this method. */;
-- (void)erForName:(id)arg1 object:queue:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)setTextInputFieldViewTransferDelegate: /* Error: Ran out of types for this method. */;
+- (void)addObserverForName:(id)arg1 object:queue:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSView *backgroundView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long highlightStyle; // @synthesize highlightStyle=_highlightStyle;
-@property(copy) NSString *identifier;
 @property(getter=isSelected) _Bool selected;
-@property struct CGRect selectionFrame;
-@property(nonatomic) __weak SiriUISnippetViewController *snippetViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SiriUISnippetViewController",?,W,N
-
-@property(readonly) Class superclass;
 
 @end
 

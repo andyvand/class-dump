@@ -4,58 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEntityCodingDescription, NSArray, NSDictionary, NSManagedObjectModel, NSOrderedSet, NSString;
+@class NSManagedObjectModel;
 
 __attribute__((visibility("hidden")))
 @interface HMDManagedObjectCodingModel
 {
     NSManagedObjectModel *_model;
-    unsigned long long _options;
-    HMDEntityCodingDescription *_root;
-    NSDictionary *_descriptions;
-    NSOrderedSet *_conditions;
-    _Bool _hasAnyReferenceRelationships;
-    NSString *_typeIDConfigKey;
-    NSString *_keyAttributesConfigKey;
-    NSString *_refContextConfigKey;
-    NSString *_includeConfigKey;
-    NSString *_codingKeyConfigKey;
-    NSString *_transformerConfigKey;
-    NSString *_inlineConfigKey;
-    NSString *_conditionalConfigKey;
-    SEL _contextualizeConditionsSelector;
-    SEL _attributeValueForKeySelector;
 }
 
 + (unsigned long long);
 - (_Bool);
 - (id);
+- (_Bool)- Skipping %{private}@, no requested handles;
+- (_Bool)Controller] shareWithContactValue called for handle %@ with %{public}@/%{public}@. Will pass to trip service.;
+- (id)nfo;
+- (id)�;
+- (id)H;
+- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (id);
+- (id)c;
 - (id);
-- (void)ivilegeInHome;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void)currentUserPrivilegeInHome;
 
 // Remaining properties
-@property(readonly) NSArray *allDescriptions;
-@property(readonly) _Bool hasOnlyParentChildRelationships;
 @property(readonly) NSManagedObjectModel *objectModel;
-@property(readonly) HMDEntityCodingDescription *rootDescription;
 
 @end
 

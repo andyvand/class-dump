@@ -5,11 +5,11 @@
 //
 
 @interface UnknownClass (_CDSpotlightRecorderAdditions)
-- (id);
-- (_Bool);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (id)kxmN;
+- (_Bool)kxmJ;
+- (id)kxmA;
+- (long long);
+- (id)kxm9;
+- (id)kxm2;
 @end
 

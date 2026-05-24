@@ -5,5 +5,6 @@
 //
 
 @protocol CNUICoreScreentimePasscodeCheck
+- (unsigned long long)q;
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GKLeaderboard, NSArray, NSString, NSURL;
+@class NSString;
 
 @interface GKChallengeDefinition
 {
     void identifier;
     void groupIdentifier;
-    void title;
-    void details;
-    _Bool isRepeatable;
-    void durationOptions;
-    GKLeaderboard *leaderboard;
-    unsigned long long releaseState;
-    NSURL *imageUrl;
 }
 
 + (void);
@@ -36,15 +29,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *details;
-@property(nonatomic, readonly) NSArray *durationOptions;
 @property(nonatomic, readonly) NSString *groupIdentifier;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) NSURL *imageUrl; // @synthesize imageUrl;
-@property(nonatomic, readonly) _Bool isRepeatable; // @synthesize isRepeatable;
-@property(nonatomic, readonly) GKLeaderboard *leaderboard; // @synthesize leaderboard;
-@property(nonatomic, readonly) unsigned long long releaseState; // @synthesize releaseState;
-@property(nonatomic, readonly) NSString *title;
 
 @end
 

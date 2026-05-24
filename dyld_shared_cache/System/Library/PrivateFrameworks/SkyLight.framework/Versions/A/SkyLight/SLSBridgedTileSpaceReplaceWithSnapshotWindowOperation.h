@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)ory.aLAJrA/Sources/Persistence/PFCloudKitMetadataModel.m;
+- (id)%qi;
 - (id);
 - (unsigned long long);
 - (id);

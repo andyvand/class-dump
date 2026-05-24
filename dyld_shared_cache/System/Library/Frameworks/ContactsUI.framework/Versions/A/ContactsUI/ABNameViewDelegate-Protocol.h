@@ -5,5 +5,7 @@
 //
 
 @protocol ABNameViewDelegate
+- (_Bool);
+- (_Bool);
 @end
 

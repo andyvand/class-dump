@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBCollectionStyleGrid, _SFPBCollectionStyleHorizontallyScrolling, _SFPBCollectionStyleRow;
+@class NSData, _SFPBCollectionStyleRow;
 
 @protocol _SFPBCollectionStyle
+- (void);
+- (NSData *)PHAssetOriginalMetadataProperties;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCollectionStyleGrid *collectionStyleGrid;
 @property(retain, nonatomic) _SFPBCollectionStyleRow *collectionStyleRow;
-@property(retain, nonatomic) _SFPBCollectionStyleHorizontallyScrolling *collectionStyleScrolling;
-@property(nonatomic) unsigned int initiallyVisibleCardSectionCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

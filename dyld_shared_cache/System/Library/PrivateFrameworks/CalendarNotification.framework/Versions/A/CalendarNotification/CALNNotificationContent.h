@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNNotificationSound, NSArray, NSDate, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface CALNNotificationContent
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_body;
-    NSString *_categoryIdentifier;
-    NSString *_sectionIdentifier;
-    NSString *_appEntityIdentifier;
-    long long _entityType;
-    NSDate *_date;
-    NSDate *_expirationDate;
-    NSURL *_defaultActionURL;
-    NSString *_iconIdentifier;
-    _Bool _shouldHideTime;
-    _Bool _shouldSuppressSyncDismissalWhenRemoved;
-    NSArray *_peopleIdentifiers;
-    CALNNotificationSound *_sound;
-    NSDictionary *_userInfo;
-    NSString *_threadIdentifier;
-    unsigned long long _interruptionLevel;
-    NSString *_filterCriteria;
 }
 
 + (_Bool);
@@ -36,15 +18,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)*;
 - (long long);
 - (unsigned long long);
 - (id);
@@ -52,9 +34,9 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)calUI_attendeeWithAddress:(struct _NSZone *)arg1 name: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -62,25 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *appEntityIdentifier; // @synthesize appEntityIdentifier=_appEntityIdentifier;
-@property(readonly, copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, copy, nonatomic) NSString *categoryIdentifier; // @synthesize categoryIdentifier=_categoryIdentifier;
-@property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy, nonatomic) NSURL *defaultActionURL; // @synthesize defaultActionURL=_defaultActionURL;
-@property(readonly, nonatomic) long long entityType; // @synthesize entityType=_entityType;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSString *filterCriteria; // @synthesize filterCriteria=_filterCriteria;
-@property(readonly, copy, nonatomic) NSString *iconIdentifier; // @synthesize iconIdentifier=_iconIdentifier;
-@property(readonly, nonatomic) unsigned long long interruptionLevel; // @synthesize interruptionLevel=_interruptionLevel;
-@property(readonly, copy, nonatomic) NSArray *peopleIdentifiers; // @synthesize peopleIdentifiers=_peopleIdentifiers;
-@property(readonly, copy, nonatomic) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
-@property(readonly, nonatomic) _Bool shouldHideTime; // @synthesize shouldHideTime=_shouldHideTime;
-@property(readonly, nonatomic) _Bool shouldSuppressSyncDismissalWhenRemoved; // @synthesize shouldSuppressSyncDismissalWhenRemoved=_shouldSuppressSyncDismissalWhenRemoved;
-@property(readonly, copy, nonatomic) CALNNotificationSound *sound; // @synthesize sound=_sound;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

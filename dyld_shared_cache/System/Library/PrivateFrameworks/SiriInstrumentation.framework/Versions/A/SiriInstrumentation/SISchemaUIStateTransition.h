@@ -6,25 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUIStateDismissed, SISchemaUIStatePresenting;
-
 @interface SISchemaUIStateTransition : SISchemaInstrumentationMessage
 {
     int _currentState;
-    int _previousState;
-    int _siriPresentationType;
-    int _dismissalReason;
-    SISchemaUIStatePresenting *_presenting;
-    SISchemaUIStateDismissed *_dismissed;
-    struct {
-        unsigned int currentState:1;
-        unsigned int previousState:1;
-        unsigned int siriPresentationType:1;
-        unsigned int dismissalReason:1;
-    } _has;
-    _Bool _hasPresenting;
-    _Bool _hasDismissed;
-    unsigned long long _whichPresentationstate;
 }
 
 - (unsigned long long);
@@ -50,41 +34,28 @@
 - (void);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void)setObject:(int)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (void);
-- (unsigned long long);
+- (unsigned long long)ithReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (int);
-- (void);
-- (_Bool);
+- (int)initWorkspaceWithName:atPath:useReadOnly: /* Error: Ran out of types for this method. */;
+- (void)_detectedClientStateMismatchWithError:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)d);
 - (id);
+- (id)b;
 - (id);
-- (id);
-- (void)estDurationInMs;
-- (int)dyUpstream;
-- (id)DetectionSource;
-- (id)viceAggregationId;
-- (void)PUT;
+- (void)subPlaylistRequestDurationInMs;
+- (int)firstAudioPacketReadyUpstream;
+- (id)deleteHallucinationDetectionSource;
+- (id)_hasDeviceAggregationId;
+- (void)CDMSERVICEFAILURECODE_ERROR_EMPTY_OUTPUT;
 
 // Remaining properties
 @property(nonatomic) int currentState; // @synthesize currentState=_currentState;
-@property(nonatomic) int dismissalReason; // @synthesize dismissalReason=_dismissalReason;
-@property(retain, nonatomic) SISchemaUIStateDismissed *dismissed; // @synthesize dismissed=_dismissed;
-@property(nonatomic) _Bool hasCurrentState;
-@property(nonatomic) _Bool hasDismissalReason;
-@property(nonatomic) _Bool hasDismissed; // @synthesize hasDismissed=_hasDismissed;
-@property(nonatomic) _Bool hasPresenting; // @synthesize hasPresenting=_hasPresenting;
-@property(nonatomic) _Bool hasPreviousState;
-@property(nonatomic) _Bool hasSiriPresentationType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUIStatePresenting *presenting; // @synthesize presenting=_presenting;
-@property(nonatomic) int previousState; // @synthesize previousState=_previousState;
-@property(nonatomic) int siriPresentationType; // @synthesize siriPresentationType=_siriPresentationType;
-@property(readonly, nonatomic) unsigned long long whichPresentationstate; // @synthesize whichPresentationstate=_whichPresentationstate;
 
 @end
 

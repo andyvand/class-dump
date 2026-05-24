@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface GRRSchemaGRRRanking : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_parseId;
-    int _parseType;
-    double _score;
-    struct {
-        unsigned int parseType:1;
-        unsigned int score:1;
-    } _has;
-    _Bool _hasParseId;
 }
 
 - (void);
@@ -31,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)waitedOperationQueue;
 - (id);
 - (_Bool);
 - (id);
@@ -39,22 +32,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)O;
 - (id)StepContext";
-- (double)LocalesEnableds;
+- (double)keyboardLocalesEnableds;
 - (id),C,N,V_spans;
 - (id)4;
-- (void)eChannel;
+- (void)activeChannel;
 - (void)ø;
 
 // Remaining properties
-@property(nonatomic) _Bool hasParseId; // @synthesize hasParseId=_hasParseId;
-@property(nonatomic) _Bool hasParseType;
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *parseId; // @synthesize parseId=_parseId;
-@property(nonatomic) int parseType; // @synthesize parseType=_parseType;
-@property(nonatomic) double score; // @synthesize score=_score;
 
 @end
 

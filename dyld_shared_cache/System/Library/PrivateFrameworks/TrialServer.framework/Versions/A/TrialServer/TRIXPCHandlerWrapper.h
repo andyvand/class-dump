@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, Protocol;
+@class NSObject;
 
 @interface TRIXPCHandlerWrapper
 {
     NSObject *_underlying;
-    Protocol *_protocol;
 }
 
-+ (id);
-- (id);
++ (id)capabilitiesInformationForCurrentDeviceWithOptions:(id)arg1;
+- (id)setValue:(id)arg1;
 - (void);
-- (id);
+- (id)B;
 - (void)a×°!0@ù!°1Â0@ù
 × ;
 

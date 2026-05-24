@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface TITokenizationRevision
 {
     unsigned long long _revisedDocumentLocation;
-    unsigned long long _branchedTokenIndex;
-    unsigned long long _mergedTokenIndex;
-    NSMutableArray *_branchTokens;
-    struct _NSRange _originalSelectedTokenRange;
-    struct _TIRevisionHistoryTokenIterator _originalIterator;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (struct _NSRange);
-- (struct _TIRevisionHistoryTokenIterator);
-- (unsigned long long);
+- (void)unsignedIntegerValue;
+- (unsigned long long)sharedUtilityProvider;
+- (struct _NSRange)isInternalInstall;
+- (struct _TIRevisionHistoryTokenIterator)isHostedOnCurrentDevice;
+- (unsigned long long)getUserDefaultVoiceSubscriptionContext: /* Error: Ran out of types for this method. */;
+- (id)_contactIsEmergencyServices:(struct _TIRevisionHistoryTokenIterator)arg1;
+- (unsigned long long)TTYMessageCompleteString;
+- (id)RTTUtteranceIsTranscriptionKey;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (void)&;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *branchTokens; // @synthesize branchTokens=_branchTokens;
-@property(nonatomic) unsigned long long branchedTokenIndex; // @synthesize branchedTokenIndex=_branchedTokenIndex;
-@property(nonatomic) unsigned long long mergedTokenIndex; // @synthesize mergedTokenIndex=_mergedTokenIndex;
-@property(nonatomic) struct _TIRevisionHistoryTokenIterator originalIterator; // @synthesize originalIterator=_originalIterator;
 @property(nonatomic) struct _NSRange originalSelectedTokenRange; // @synthesize originalSelectedTokenRange=_originalSelectedTokenRange;
-@property(nonatomic) unsigned long long revisedDocumentLocation; // @synthesize revisedDocumentLocation=_revisedDocumentLocation;
 
 @end
 

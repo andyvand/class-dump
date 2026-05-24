@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineHeroAppImpressionInstance
 {
     unsigned long long _timestamp;
-    NSString *_suggestionId;
-    int _uiPlacement;
-    CDStruct_a6119c26 _has;
 }
 
 - (void);
@@ -37,12 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSuggestionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUiPlacement;
-@property(retain, nonatomic) NSString *suggestionId; // @synthesize suggestionId=_suggestionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int uiPlacement; // @synthesize uiPlacement=_uiPlacement;
 
 @end
 

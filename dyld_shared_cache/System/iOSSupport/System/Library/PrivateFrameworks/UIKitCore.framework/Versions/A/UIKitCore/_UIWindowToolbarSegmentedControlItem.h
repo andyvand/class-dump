@@ -19,9 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (long long);
-- (void);
-- (void);
+- (long long)AudioDataAnalysisType;
+- (void);
+- (void)SoundDetectionCodingKeys;
 - (void);
 - (void);
 - (void);
@@ -38,12 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(copy, nonatomic) NSArray *segmentImageNames;
 @property(copy, nonatomic) NSArray *segmentTitles;
-@property(nonatomic) long long selectedSegment;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(nonatomic) long long trackingMode;
 
 @end
 

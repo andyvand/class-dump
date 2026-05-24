@@ -4,35 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPUIPlaceHolderViewController, NSArray, NSError, NSString, NSURL;
-@protocol FPUIActionExtensionViewControllerProtocol, FPUIActionViewControllerDelegate;
+@class NSString;
+@protocol FPUIActionExtensionViewControllerProtocol;
 
 @interface FPUIActionViewController
 {
     id <FPUIActionExtensionViewControllerProtocol> _extensionViewController;
-    FPUIPlaceHolderViewController *_placeholderVC;
-    _Bool _displayInline;
-    id <FPUIActionViewControllerDelegate> _delegate;
-    NSString *_actionTitle;
-    NSError *_error;
-    NSURL *_authenticationURL;
-    CDUnknownBlockType _didLoadRemoteViewControllerCompletionHandler;
-    NSString *_providerIdentifier;
-    NSString *_actionIdentifier;
-    NSURL *_serverConnectionURL;
-    NSArray *_items;
-    NSString *_domainIdentifier;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_boolForKey:(id)arg1 defaultValue:(id)arg2 domain:(id)arg3;
++ (id)_bodyObjectFromRequest:(id)arg1;
++ (id)_blockToInvokeWithErrorForwardingForInvocation:(id)arg1 errorArgumentIndex:(id)arg2;
++ (id)_bindCookieProperties:(id)arg1 column:(id)arg2 position:(id)arg3 using: /* Error: Ran out of types for this method. */;
++ (id)_beginExecutingBlockWithPromise:(id)arg1;
++ (id)_baseSleepInterval;
++ (id)_bagValueForBagKey:(id)arg1 bagValueType:(id)arg2;
+- (void)_companionDeviceClientInfo;
+- (void)_commerceUIArrayForKey:(_Bool)arg1;
+- (void)_combinationOperation;
+- (void)_columnIndexByName;
+- (id)_closeDueToError:error: /* Error: Ran out of types for this method. */;
+- (void)_clientVersionFromProcessInfo:(id)arg1 clientName:(id)arg2;
+- (void)_clientName;
+- (void)_clientCorrelationKey;
+- (void)_centerForBundleId:(id)arg1;
+- (_Bool)_centerBundleIdentifier;
+- (CDUnknownBlockType)_carrierStatus;
+- (id)_captureBugReportForPurchaseEventEnqueueFailure:process: /* Error: Ran out of types for this method. */;
+- (id)_cacheCertData:(id *)arg1 expiration: /* Error: Ran out of types for this method. */;
+- (void)_buyParamsFromString: /* Error: Ran out of types for this method. */;
+- (void)_bundleInfo;
+- (void)_buildPaymentRequest;
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id)ation_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:charge_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_count_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_var_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_mean_at_charge_start_soc_curr_static_bin:drain_duration_count_at_charge_start_soc_curr_static_bin:drain_duration_var_at_charge_start_soc_curr_static_bin:drain_duration_p_0_00_at_charge_start_soc_curr_static_bin:drain_duration_p_0_10_at_charge_start_soc_curr_static_bin:drain_duration_p_0_25_at_charge_start_soc_curr_static_bin:drain_duration_p_0_50_at_charge_start_soc_curr_static_bin:drain_duration_p_0_75_at_charge_start_soc_curr_static_bin:drain_duration_p_0_90_at_charge_start_soc_curr_static_bin:drain_duration_p_1_00_at_charge_start_soc_curr_static_bin:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_1:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -40,51 +50,12 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id)Protocol;
+- (id)FPUIActionExtensionContextProtocol;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(retain, nonatomic) NSString *actionTitle; // @synthesize actionTitle=_actionTitle;
-@property(retain, nonatomic) NSURL *authenticationURL; // @synthesize authenticationURL=_authenticationURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FPUIActionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didLoadRemoteViewControllerCompletionHandler; // @synthesize didLoadRemoteViewControllerCompletionHandler=_didLoadRemoteViewControllerCompletionHandler;
-@property(nonatomic) _Bool displayInline; // @synthesize displayInline=_displayInline;
-@property(retain, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(retain, nonatomic) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(copy, nonatomic) NSURL *serverConnectionURL; // @synthesize serverConnectionURL=_serverConnectionURL;
-@property(readonly) Class superclass;
 
 @end
 

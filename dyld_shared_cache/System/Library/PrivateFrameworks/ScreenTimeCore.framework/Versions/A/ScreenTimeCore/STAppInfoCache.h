@@ -4,56 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableSet, NSObject, NSOperationQueue, NSPersistentContainer, NSURLSession;
-@protocol OS_dispatch_queue;
+@class NSCache, NSPersistentContainer;
 
 @interface STAppInfoCache
 {
     NSPersistentContainer *_persistentContainer;
-    NSCache *_appInfoByBundleIdentifier;
-    NSObject<OS_dispatch_queue> *_lookupQueue;
-    NSURLSession *_urlSession;
-    NSMutableSet *_bundleIdentifiersWithPendingRequests;
-    NSOperationQueue *_completionHandlerQueue;
 }
 
-+ (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
++ (id)%;
+- (void)WHERE artwork_token='';
+- (id)id, representative_item_artwork_token, keep_local, keep_local_status) SELECT album_artist_pid, album_artist, sort_album_artist, grouping_key, cloud_status, artist_artwork_cache_id, representative_item_pid, artwork_cache_id, keep_local, keep_local_status FROM album_artist;
+- (void)?;
+- (void)tra where item_pid = ?;
+- (id)0 ELSE 0 END) END);
+- (id)artwork_cache_id INTEGER NOT NULL DEFAULT 0, disc_count INTEGER DEFAULT 0, track_count INTEGER DEFAULT 0, total_time_ms REAL NOT NULL DEFAULT 0, year INTEGER DEFAULT 0, location TEXT NOT NULL DEFAULT '', file_size INTEGER NOT NULL DEFAULT 0, integrity BLOB, is_compilation INTEGER NOT NULL DEFAULT 0, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, category_id INTEGER DEFAULT 0, location_kind_id INTEGER NOT NULL DEFAULT 0;
+- (id)d FROM item JOIN base_location USING(base_location_id) WHERE path = 'iTunes_Control/Music/F%02d');
+- (id)m SET base_location_id = %d WHERE item_pid IN (SELECT item_pid FROM item JOIN base_location USING(base_location_id) WHERE path = 'iTunes_Control/Music/F%02d');
+- (id)00 WHERE path = 'Purchases';
+- (void)pid from item JOIN base_location USING (base_location_id) WHERE base_location_id != 0 AND path != 'Purchases' AND path != 'CloudAssets');
+- (id)date_accessed;
+- (id)tarted, rental_date_started, is_demo FROM item_extra;
+- (id)_pid, is_hd, is_rental, has_chapter_data, season_number, episode_id, network_name, extended_content_rating, movie_info, has_alternate_audio, has_subtitles, audio_language, audio_track_index, audio_track_id, subtitle_language, subtitle_track_index, rental_duration, rental_playback_duration, rental_playback_date_started, rental_date_started, is_demo FROM item_extra;
+- (void)uration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
+- (void)0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
+- (void)udio_language INTEGER NOT NULL DEFAULT 0, audio_track_index INTEGER NOT NULL DEFAULT 0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
+- (id)T NULL DEFAULT 0, has_subtitles INTEGER NOT NULL DEFAULT 0, audio_language INTEGER NOT NULL DEFAULT 0, audio_track_index INTEGER NOT NULL DEFAULT 0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
+- (void)M item_extra;
+- (void), start_time_ms, stop_time_ms, volume_normalization_energy FROM item_extra;
+- (id)pless_last_frame_resynch, has_video, relative_volume, sample_rate, start_time_ms, stop_time_ms, volume_normalization_energy FROM item_extra;
+- (id)NULL DEFAULT 0, eq_preset TEXT, format TEXT, gapless_heuristic_info INTEGER NOT NULL DEFAULT 0, gapless_encoding_delay INTEGER NOT NULL DEFAULT 0, gapless_encoding_drain INTEGER NOT NULL DEFAULT 0, gapless_last_frame_resynch INTEGER NOT NULL DEFAULT 0, has_video INTEGER NOT NULL DEFAULT 0, relative_volume INTEGER, sample_rate REAL NOT NULL DEFAULT 0, start_time_ms REAL NOT NULL DEFAULT 0, stop_time_ms REAL NOT NULL DEFAULT 0, volume_normalization_energy INTEGER NOT NULL DEFAULT 0);
+- (void)Tooltip_Class;
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)8;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSCache *appInfoByBundleIdentifier; // @synthesize appInfoByBundleIdentifier=_appInfoByBundleIdentifier;
-@property(readonly, nonatomic) NSMutableSet *bundleIdentifiersWithPendingRequests; // @synthesize bundleIdentifiersWithPendingRequests=_bundleIdentifiersWithPendingRequests;
-@property(readonly, nonatomic) NSOperationQueue *completionHandlerQueue; // @synthesize completionHandlerQueue=_completionHandlerQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *lookupQueue; // @synthesize lookupQueue=_lookupQueue;
-@property(retain) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
-@property(readonly, nonatomic) NSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

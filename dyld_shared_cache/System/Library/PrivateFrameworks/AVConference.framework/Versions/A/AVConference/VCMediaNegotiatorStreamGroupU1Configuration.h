@@ -4,28 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSOrderedSet, NSSet, VCVideoRuleCollections;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorStreamGroupU1Configuration
 {
     unsigned char _supportedDirection;
-    unsigned int _ssrc;
-    _Bool _allowAudioRecording;
-    NSSet *_audioPayloads;
-    NSOrderedSet *_supportedCipherSuites;
-    NSArray *_payloadPreference;
-    unsigned int _screenPixelCount;
-    VCVideoRuleCollections *_videoRuleCollections;
-    NSDictionary *_videoFeatureStrings;
-    NSDictionary *_videoFeatureStringsFixedPosition;
-    NSArray *_videoPayloads;
-    NSArray *_videoParameterSet;
-    _Bool _fullScreenFrontCameraCaptureSupported;
-    _Bool _fullScreenBackCameraCaptureSupported;
-    int _deviceInitialOrientation;
-    _Bool _enableACC24ForU1;
-    int _videoFrameMetadataSupportedVersion;
 }
 
 + (_Bool);
@@ -37,18 +19,18 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 + (id);
++ (id)�@;
 + (id);
-+ (id);
-+ (long long);
++ (long long)+;
 + (void);
 + (id);
 + (id);
 - (id);
 - (id);
+- (id);
+- (int)j;
 - (id);
-- (int);
-- (id);
-- (id);
+- (id);
 - (void);
 - (unsigned char);
 - (id);
@@ -68,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (id);
@@ -82,27 +64,11 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)+;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowAudioRecording; // @synthesize allowAudioRecording=_allowAudioRecording;
-@property(retain, nonatomic) NSSet *audioPayloads; // @synthesize audioPayloads=_audioPayloads;
-@property(nonatomic) int deviceInitialOrientation; // @synthesize deviceInitialOrientation=_deviceInitialOrientation;
-@property(nonatomic) _Bool enableACC24ForU1; // @synthesize enableACC24ForU1=_enableACC24ForU1;
-@property(nonatomic) _Bool fullScreenBackCameraCaptureSupported; // @synthesize fullScreenBackCameraCaptureSupported=_fullScreenBackCameraCaptureSupported;
-@property(nonatomic) _Bool fullScreenFrontCameraCaptureSupported; // @synthesize fullScreenFrontCameraCaptureSupported=_fullScreenFrontCameraCaptureSupported;
-@property(retain, nonatomic) NSArray *payloadPreference; // @synthesize payloadPreference=_payloadPreference;
-@property(nonatomic) unsigned int screenPixelCount; // @synthesize screenPixelCount=_screenPixelCount;
-@property(nonatomic) unsigned int ssrc; // @synthesize ssrc=_ssrc;
-@property(retain, nonatomic) NSOrderedSet *supportedCipherSuites; // @synthesize supportedCipherSuites=_supportedCipherSuites;
 @property(nonatomic) unsigned char supportedDirection; // @synthesize supportedDirection=_supportedDirection;
-@property(retain, nonatomic) NSDictionary *videoFeatureStrings; // @synthesize videoFeatureStrings=_videoFeatureStrings;
-@property(retain, nonatomic) NSDictionary *videoFeatureStringsFixedPosition; // @synthesize videoFeatureStringsFixedPosition=_videoFeatureStringsFixedPosition;
-@property(nonatomic) int videoFrameMetadataSupportedVersion; // @synthesize videoFrameMetadataSupportedVersion=_videoFrameMetadataSupportedVersion;
-@property(retain, nonatomic) NSArray *videoParameterSet; // @synthesize videoParameterSet=_videoParameterSet;
-@property(retain, nonatomic) NSArray *videoPayloads; // @synthesize videoPayloads=_videoPayloads;
-@property(retain, nonatomic) VCVideoRuleCollections *videoRuleCollections; // @synthesize videoRuleCollections=_videoRuleCollections;
 
 @end
 

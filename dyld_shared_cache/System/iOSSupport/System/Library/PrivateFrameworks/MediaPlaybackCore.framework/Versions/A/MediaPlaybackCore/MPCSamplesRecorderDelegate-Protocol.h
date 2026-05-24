@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPCSamplesRecorder;
+
 @protocol MPCSamplesRecorderDelegate
+- (void)supportsAccountType:(MPCSamplesRecorder *)arg1;
 @end
 

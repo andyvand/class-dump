@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface SKWaitingForDiskElement
 {
     NSDictionary *_diskDictionary;
-    CDUnknownBlockType _block;
 }
 
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)totalButtonWidthWithButtons: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType block; // @synthesize block=_block;
 @property(retain) NSDictionary *diskDictionary; // @synthesize diskDictionary=_diskDictionary;
 
 @end

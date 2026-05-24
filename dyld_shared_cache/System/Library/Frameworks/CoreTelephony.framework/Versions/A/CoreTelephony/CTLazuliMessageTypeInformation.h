@@ -9,16 +9,16 @@
     long long _type;
 }
 
-+ (_Bool);
++ (_Bool)nt:%ld variantSwitchCount:%ld playbackDuration:%ld mediaResourceRequestCount:%ld timeSpentRecoveringFromStall:%f timeSpentInInitialStartup:%f timeWeightedAverageBitrate:%ld timeWeightedPeakBitrate:%ld> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)_evaluatedPolicyDomainState;
 - (id);
-- (void);
+- (void)8^{__CFString=}16;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

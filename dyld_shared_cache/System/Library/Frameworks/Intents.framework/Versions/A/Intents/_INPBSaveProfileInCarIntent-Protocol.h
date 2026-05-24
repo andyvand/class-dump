@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBInteger, _INPBIntentMetadata, _INPBString;
+@class _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBSaveProfileInCarIntent
-- (_Bool)lDuration;
+- (void)icaSetButtonBar:(_INPBString *)arg1;
+- (_Bool)hasRentalDuration;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasProfileName;
-@property(readonly, nonatomic) _Bool hasProfileNumber;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBString *profileName;
-@property(retain, nonatomic) _INPBInteger *profileNumber;
 @end
 

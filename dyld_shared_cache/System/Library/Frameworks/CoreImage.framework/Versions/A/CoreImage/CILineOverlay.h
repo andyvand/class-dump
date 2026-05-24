@@ -6,17 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CILineOverlay : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputNRNoiseLevel;
-    NSNumber *inputNRSharpness;
-    NSNumber *inputEdgeIntensity;
-    NSNumber *inputThreshold;
-    NSNumber *inputContrast;
 }
 
 + (id);

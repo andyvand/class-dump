@@ -6,13 +6,11 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTTripClusterRecencyStore : RTStore
 {
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -25,24 +23,18 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)_currentIdentity;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)em needs upgrading;
+- (void)Identities Complete:(id)arg1 Status:(CDUnknownBlockType)arg2 %@;
+- (void)d for DBRv2, returning;
+- (void)tity is %@;
+- (void)te, not unwrapping;
 - (id);
 - (id)et state for %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

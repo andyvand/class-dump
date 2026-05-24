@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, NSString, UIActivityIndicatorView, UIImageView, UIView;
+@class UIImageView, UIView;
 
 __attribute__((visibility("hidden")))
 @interface MKPhotoBigAttributionView
 {
     UIImageView *_imageView;
-    UIView *_backgroundView;
-    _Bool _needsImageLoad;
-    UIActivityIndicatorView *_spinner;
-    long long _context;
-    long long _type;
-    MKMapItem *_mapItem;
-    UIView *_contentView;
 }
 
 + (id);
-- (id);
+- (id)unknown;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,24 +26,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ary/PrivateFrameworks/IDSFoundation.framework/Versions/A/IDSFoundation;
 - (void)ewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
-- (void)tocompleteCellType;
+- (void)autocompleteCellType;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) long long context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic) UIActivityIndicatorView *spinner; // @synthesize spinner=_spinner;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

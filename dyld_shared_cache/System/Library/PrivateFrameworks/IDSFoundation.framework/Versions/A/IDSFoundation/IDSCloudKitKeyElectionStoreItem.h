@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENGroupID, NSString;
+@class NSString;
 
 @interface IDSCloudKitKeyElectionStoreItem
 {
     NSString *_groupName;
-    ENGroupID *_groupID;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void)ºÿ±È;
 
 // Remaining properties
-@property(retain, nonatomic) ENGroupID *groupID; // @synthesize groupID=_groupID;
 @property(retain, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
 
 @end

@@ -6,24 +6,17 @@
 
 #import <AppSSOKerberos/SOAsynchronousOperation.h>
 
-@class NSString;
-
 @interface SOAsynchronousLDAPOperation : SOAsynchronousOperation
 {
     _Bool _requireTLSForLDAP;
-    unsigned short _port;
-    CDUnknownBlockType _completion;
-    NSString *_realm;
-    NSString *_host;
-    NSString *_bundleIdentifier;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)nt, noEngagement, positiveEngagement, blockedWarningCount) VALUES ('*', :regexLanguage, :type, :incomingMessage, :signature, :negativeEngagement, 0, :positiveEngagement, 0) ON CONFLICT (emailLanguage, regexLanguage, type, incomingMessage, signature) DO UPDATE SET negativeEngagement = negativeEngagement + :negativeEngagement, positiveEngagement = positiveEngagement + :positiveEngagement, noEngagement = noEngagement - 1 /* Error: Ran out of types for this method. */;
+- (id);
+- (void):(CDUnknownBlockType)arg1 %@;
 - (id);
 - (void);
 - (unsigned short);
@@ -35,12 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(copy) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSString *host; // @synthesize host=_host;
-@property(nonatomic) unsigned short port; // @synthesize port=_port;
-@property(retain, nonatomic) NSString *realm; // @synthesize realm=_realm;
-@property(nonatomic) _Bool requireTLSForLDAP; // @synthesize requireTLSForLDAP=_requireTLSForLDAP;
 
 @end
 

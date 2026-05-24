@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutomobileOptions, GEOCyclingOptions, GEOTransitOptions, GEOWalkingOptions, MKMapItem, NSError, NSObject, _MKRouteETA, _MKRouteETAFetcher;
-@protocol MKQuickRouteConfigurableView, MKQuickRouteManagerDelegate, MKQuickRouteTransportTypeFinding;
+@class _MKRouteETAFetcher;
 
 @interface _MKQuickRouteManager
 {
     _MKRouteETAFetcher *_etaFetcher;
-    _MKRouteETA *_lastETA;
-    unsigned long long _lastPreferredDirectionsType;
-    NSError *_lastError;
-    double _closeWalkTravelTime;
-    double _maxWalkingDistance;
-    _Bool _viewHasChangedSinceLastUpdate;
-    _Bool _fetchAllTransportTypes;
-    _Bool _allowsDistantETA;
-    id <MKQuickRouteManagerDelegate> _delegate;
-    id <MKQuickRouteTransportTypeFinding> _transportTypeFinder;
-    NSObject<MKQuickRouteConfigurableView> *_view;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
 + (unsigned long long);
@@ -31,11 +18,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (void)clearBatchedTaskCache;
+- (void)PLCPUEnergySnapshot",&,V_cpuEnergySnapshot;
+- (id)lterSaved;
+- (void)PR;
+- (_Bool)GenerativeFunctionMetrics::Summarization /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -46,47 +33,34 @@
 - (_Bool);
 - (void);
 - (double);
-- (_Bool);
-- (struct CLLocationCoordinate2D);
-- (struct CLLocationCoordinate2D);
+- (_Bool)[;
+- (struct CLLocationCoordinate2D)setMacKeyDiagInfo: /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D)device lost decode failed:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)setResetStandby:(id)arg1;
+- (id);
+- (id)yMBR",C,N,V_inputSignatureprint;
+- (id)able to obtain data array %s - %s;
+- (id);
+- (void)`!`e;
 - (void);
+- (void);
+- (void);
+- (struct CLLocationCoordinate2D)locale;
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)URLSession:(id)arg1 task:willPerformHTTPRedirection:newRequest:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct CLLocationCoordinate2D);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)tSearchLocation:zoomLevel: /* Error: Ran out of types for this method. */;
+- (void)setSearchLocation:zoomLevel: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)J;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsDistantETA; // @synthesize allowsDistantETA=_allowsDistantETA;
-@property(copy, nonatomic) GEOAutomobileOptions *automobileOptions;
-@property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(copy, nonatomic) GEOCyclingOptions *cyclingOptions;
-@property(nonatomic) __weak id <MKQuickRouteManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool fetchAllTransportTypes; // @synthesize fetchAllTransportTypes=_fetchAllTransportTypes;
 @property(readonly, nonatomic) _Bool isOnlyDriving;
-@property(retain, nonatomic) MKMapItem *mapItem;
-@property(retain, nonatomic) MKMapItem *originMapItem;
-@property(copy, nonatomic) GEOTransitOptions *transitOptions;
-@property(nonatomic) __weak id <MKQuickRouteTransportTypeFinding> transportTypeFinder; // @synthesize transportTypeFinder=_transportTypeFinder;
-@property(readonly, nonatomic, getter=isUsingCurrentLocationForOrigin) _Bool usingCurrentLocationForOrigin;
-@property(nonatomic) __weak NSObject<MKQuickRouteConfigurableView> *view; // @synthesize view=_view;
-@property(copy, nonatomic) GEOWalkingOptions *walkingOptions;
 
 @end
 

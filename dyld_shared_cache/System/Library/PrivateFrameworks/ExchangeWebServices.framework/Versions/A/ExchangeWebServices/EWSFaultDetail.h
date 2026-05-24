@@ -6,32 +6,19 @@
 
 #import <ExchangeWebServices/SOAPFaultDetail.h>
 
-@class EWSFaultDetailMessageXML, NSNumber, NSString;
-
 @interface EWSFaultDetail : SOAPFaultDetail
 {
 }
 
 + (id);
-- (long long);
+- (long long));
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *Line;
-@property(readonly, copy, nonatomic) NSString *Message;
-@property(readonly, nonatomic) EWSFaultDetailMessageXML *MessageXml;
-@property(readonly, nonatomic) NSNumber *Position;
 @property(readonly, nonatomic) long long ResponseCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

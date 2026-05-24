@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (void);
-+ (void)isappearAnimation;
++ (void)IKImageBrowserDisappearAnimation;
 - (float);
 - (id);
 - (int);
@@ -28,10 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)xtendedAttributes.timezoneName;
 - (id);
 - (id);
 

@@ -4,31 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEIKEv2PacketTunnelProvider, NSArray, NSObject, NSString, NWHostEndpoint;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, OS_nw_connection, OS_nw_error;
-
 @interface NEIKEv2CompanionDatapath
 {
     _Bool _wasReady;
-    unsigned char _state;
-    unsigned char _connectionSetupAttempts;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _identifier;
-    long long _connectedInterfaceType;
-    NSObject<OS_nw_connection> *_datapathConnection;
-    NSString *_connectedEndpointString;
-    NSArray *_resolvedEndpoints;
-    NWHostEndpoint *_remoteEndpoint;
-    NWHostEndpoint *_localEndpointForDatapath;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_semaphore> *_completionSemaphore;
-    NEIKEv2PacketTunnelProvider *_provider;
-    NSObject<OS_nw_error> *_lastConnectionError;
 }
 
 - (void);
-- (id);
-- (void)irAuthenticationToken: /* Error: Ran out of types for this method. */;
+- (id)t request ;
+- (void)setPirAuthenticationToken: /* Error: Ran out of types for this method. */;
 
 @end
 

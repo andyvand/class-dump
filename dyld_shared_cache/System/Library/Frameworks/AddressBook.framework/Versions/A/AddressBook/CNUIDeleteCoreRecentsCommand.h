@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNUICoreRecentsManager, NSArray, NSObject;
-@protocol OS_os_log;
+@class CNContact;
 
 @interface CNUIDeleteCoreRecentsCommand
 {
     CNContact *_contact;
-    CNUICoreRecentsManager *_manager;
-    NSObject<OS_os_log> *_log;
-    NSArray *_recentContacts;
 }
 
 + (id);
-+ (id);
++ (id)at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Services/InstallApps/Metadata/ASDWatchAppMetadata.m:162 :Unsupported on macOS /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -33,14 +29,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ASDJobManagerOptions;
 - (void);
 
 // Remaining properties
 @property(readonly) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) CNUICoreRecentsManager *manager; // @synthesize manager=_manager;
-@property(copy) NSArray *recentContacts; // @synthesize recentContacts=_recentContacts;
 
 @end
 

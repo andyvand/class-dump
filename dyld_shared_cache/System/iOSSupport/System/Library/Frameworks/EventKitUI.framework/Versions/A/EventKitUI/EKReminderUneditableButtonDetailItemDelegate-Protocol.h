@@ -5,5 +5,6 @@
 //
 
 @protocol EKReminderUneditableButtonDetailItemDelegate
+- (void)s;
 @end
 

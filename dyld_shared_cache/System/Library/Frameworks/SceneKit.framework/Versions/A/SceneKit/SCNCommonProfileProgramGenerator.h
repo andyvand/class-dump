@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SCNCommonProfileProgramGenerator
 {
     struct os_unfair_lock_s _programMutex;
-    struct __CFDictionary *_shaders;
-    struct __CFDictionary *_trackedResourcesToHashcode;
 }
 
 + (id);
@@ -18,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)insert with %@ property:no column /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int profile;

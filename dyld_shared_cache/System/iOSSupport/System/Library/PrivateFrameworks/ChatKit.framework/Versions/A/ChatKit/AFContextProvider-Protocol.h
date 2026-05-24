@@ -5,5 +5,6 @@
 //
 
 @protocol AFContextProvider
+- (_Bool)!;
 @end
 

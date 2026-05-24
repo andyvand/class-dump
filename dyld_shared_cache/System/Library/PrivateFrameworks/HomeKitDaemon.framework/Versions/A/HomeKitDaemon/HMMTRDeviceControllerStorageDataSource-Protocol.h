@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData, NSDictionary, NSString;
 
 @protocol HMMTRDeviceControllerStorageDataSource
-- (NSData *)igured:(NSString *)arg1;
+- (NSData *)handleCompositeSettingsControllerConfigured:(NSString *)arg1;
+
+@optional
+- (NSDictionary *)_clearBlockedTripIdentifiers;
 @end
 

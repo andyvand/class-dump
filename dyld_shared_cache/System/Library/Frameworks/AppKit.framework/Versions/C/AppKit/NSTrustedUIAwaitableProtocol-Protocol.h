@@ -5,5 +5,11 @@
 //
 
 @protocol NSTrustedUIAwaitableProtocol
+- (void)_counted_by(dataLength), uint32_t, const char *__single __terminated_by(0));
+- (void)rminated_by(0), const uint8_t *__single __counted_by(dataLength), uint32_t, const char *__single __terminated_by(0));
+- (void)fig3MetadataEntry(const char *__single __terminated_by(0), const uint8_t *__single __counted_by(dataLength), uint32_t, const char *__single __terminated_by(0));
+- (void)Config3MetadataEntry *__singleallocSysConfig3MetadataEntry(const char *__single __terminated_by(0), const uint8_t *__single __counted_by(dataLength), uint32_t, const char *__single __terminated_by(0));
+- (void)__single);
+- (void)3PayloadEntry *__single, SysConfigData *__single);
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFSportsItem;
+@class SFSportsItem;
 
 @protocol SFUpdateSportsFollowingStatusCommand
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool follow;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFSportsItem *sportsItem;
 @end
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMFrame, BMStreamMetadata, NSData, NSString;
 @protocol BMStoreData;
 
 @interface BMStoreEvent
 {
     id <BMStoreData> _eventBody;
-    Class _dataType;
-    NSString *_segmentName;
-    unsigned long long _frameOffset;
-    unsigned char _error;
-    unsigned int _eventBodyDataVersion;
-    double _timestamp;
-    BMFrame *_frame;
-    BMStreamMetadata *_metadata;
-    NSData *_eventBodyData;
-    unsigned long long _eventCategory;
 }
 
 + (id);

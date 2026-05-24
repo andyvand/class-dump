@@ -7,15 +7,22 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)interactionCacheFromStore:size:queryPredicate:filterBlock: /* Error: Ran out of types for this method. */;
+- (id)interactionAvailableForHandle:(SEL)arg1 interactionStoreDB:(id)arg2;
+- (id)interactionAvailableForHandle:(SEL)arg1;
+- (id)interaction;
+- (Class)insertNewObjectForEntityForName:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (_Bool)itle change %{public}@;
+- (oneway void)modified faces;
+- (NSString *)the next loop.;
+- (id);
+- (id)stranded;
 - (struct _NSZone *)rvice_provider = %@) OR (service_provider = %@);
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)pontiff;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

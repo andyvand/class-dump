@@ -6,34 +6,22 @@
 
 #import <FTServices/FTIDSMessage.h>
 
-@class NSData, NSDictionary, NSMutableDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSWebTunnelRequestMessage : FTIDSMessage
 {
     NSString *_messageRequestUUID;
-    NSString *_messageURL;
-    NSData *_messageRequestBodyData;
-    NSDictionary *_messageRequestBodyDictionary;
-    NSMutableDictionary *_messageHeaders;
-    NSNumber *_maximumResponseSize;
-    NSDictionary *_responseBodyDictionary;
-    NSData *_responseBodyData;
-    NSDictionary *_responseHeaders;
-    NSNumber *_responseCode;
-    NSNumber *_responseStatus;
-    _Bool _disableIDSTranslation;
-    NSString *_userAgentOverride;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)endSheet:returnCode: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)_originalImageIsInvalid;
 - (id);
 - (id);
 - (void);
@@ -41,7 +29,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id):
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -49,16 +38,16 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)SUOSUMajorProductStubImpl;
+- (void)sting OS updates available follow-up;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)componentsSeparatedByCharactersInSet:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -67,19 +56,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool disableIDSTranslation; // @synthesize disableIDSTranslation=_disableIDSTranslation;
-@property(copy, nonatomic) NSNumber *maximumResponseSize; // @synthesize maximumResponseSize=_maximumResponseSize;
-@property(copy, nonatomic) NSMutableDictionary *messageHeaders; // @synthesize messageHeaders=_messageHeaders;
-@property(copy, nonatomic) NSData *messageRequestBodyData; // @synthesize messageRequestBodyData=_messageRequestBodyData;
-@property(copy, nonatomic) NSDictionary *messageRequestBodyDictionary; // @synthesize messageRequestBodyDictionary=_messageRequestBodyDictionary;
 @property(copy, nonatomic) NSString *messageRequestUUID; // @synthesize messageRequestUUID=_messageRequestUUID;
-@property(copy, nonatomic) NSString *messageURL; // @synthesize messageURL=_messageURL;
-@property(copy, nonatomic) NSData *responseBodyData; // @synthesize responseBodyData=_responseBodyData;
-@property(copy, nonatomic) NSDictionary *responseBodyDictionary; // @synthesize responseBodyDictionary=_responseBodyDictionary;
-@property(copy, nonatomic) NSNumber *responseCode; // @synthesize responseCode=_responseCode;
-@property(copy, nonatomic) NSDictionary *responseHeaders; // @synthesize responseHeaders=_responseHeaders;
-@property(copy, nonatomic) NSNumber *responseStatus; // @synthesize responseStatus=_responseStatus;
-@property(copy, nonatomic) NSString *userAgentOverride; // @synthesize userAgentOverride=_userAgentOverride;
 
 @end
 

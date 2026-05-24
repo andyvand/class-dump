@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBPerson, _SFPBURL;
+@class NSData, _SFPBPerson;
 
 @protocol _SFPBContactCopyItem
+- (void);
+- (NSData *)PHMomentShareChangeRequest;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBURL *contactFileLocation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPerson *person;
 @end
 

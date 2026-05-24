@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXAction.h>
 
-@class NSArray, PXStoryChapterCollectionManager;
+@class PXStoryChapterCollectionManager;
 
 @interface PXStoryChapterCollectionAction : PXAction
 {
     PXStoryChapterCollectionManager *_chapterCollectionManager;
-    NSArray *_edits;
-    NSArray *_originalChapters;
 }
 
 - (id);
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryChapterCollectionManager *chapterCollectionManager; // @synthesize chapterCollectionManager=_chapterCollectionManager;
-@property(readonly, nonatomic) NSArray *edits; // @synthesize edits=_edits;
-@property(readonly, nonatomic) NSArray *originalChapters; // @synthesize originalChapters=_originalChapters;
 
 @end
 

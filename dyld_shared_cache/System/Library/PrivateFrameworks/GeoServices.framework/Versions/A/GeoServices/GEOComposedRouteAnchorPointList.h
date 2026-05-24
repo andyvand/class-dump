@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRouteAnchorPoint, NSArray, NSMutableArray, geo_isolater;
+@class NSArray, NSMutableArray;
 
 @interface GEOComposedRouteAnchorPointList
 {
     NSMutableArray *_elements;
-    geo_isolater *_anchorPointsIsolater;
-    unsigned long long _mutationsCount;
 }
 
 + (id);
@@ -20,29 +18,29 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)withHandlersLock_cancelExistingOperationWithIdentifier:(CDStruct_3f2a7a20)arg1;
+- (id)withHandlersLock_cancelExistingOperationWithIdentifier:(CDStruct_3f2a7a20)arg1;
+- (_Bool)performOnObject: /* Error: Ran out of types for this method. */;
+- (id)addEntriesFromDictionary:(id)arg1;
+- (unsigned long long)_isNotesAccessGranted;
+- (void)atin:][:Common:][:Inherited:]] /* Error: Ran out of types for this method. */;
+- (void)etic Chile;
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)setEndpointerOperationMode:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id)gumentIndex:(struct _NSZone *)arg1 ofReply: /* Error: Ran out of types for this method. */;
+- (id)setClasses:(struct _NSZone *)arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 - (id)ä;
 - (id);
 - (unsigned long long)rn	 (4
@@ -71,11 +69,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *anchorPoints;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) GEOComposedRouteAnchorPoint *firstObject;
-@property(readonly, nonatomic) _Bool isOutAndBackAllowed;
-@property(readonly, nonatomic) GEOComposedRouteAnchorPoint *lastObject;
-@property(readonly, nonatomic) _Bool startAndEndAreTheSame;
 
 @end
 

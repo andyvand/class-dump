@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, PFCoalescerContext, PFStateCaptureHandler;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction;
+@class NSString;
 
 @interface PFCoalescer
 {
     long long _resetSequenceNumber;
-    long long _lastUpdateResetSequenceNumber;
-    PFStateCaptureHandler *_stateCaptureHandler;
-    NSDate *_lastTransactionStartDate;
-    NSDate *_lastTransactionEndDate;
-    _Bool _usesTarget;
-    _Bool _initialDelayTimerIsArmed;
-    double _initialDelay;
-    NSString *_label;
-    id _target;
-    id _buffer;
-    NSObject<OS_dispatch_queue> *_sourceQueue;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    NSObject<OS_dispatch_source> *_source;
-    CDUnknownBlockType _snapshotAndDrainHandler;
-    CDUnknownBlockType _action;
-    PFCoalescerContext *_context;
-    long long _state;
-    NSObject<OS_os_transaction> *_transaction;
 }
 
 + (id);
++ (id)setDisclosureTitle:(id)arg1;
++ (id)auxiliaryRegistrationRequirementPushTopic;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)c;
 + (id);
 + (id);
 + (CDUnknownBlockType);
@@ -43,11 +23,11 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)suppressPendingPurchases;
+- (id)savingsAccountDictionary;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (id);
 - (void);
@@ -66,7 +46,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
@@ -85,28 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType action; // @synthesize action=_action;
-@property(retain) id buffer; // @synthesize buffer=_buffer;
-@property(retain) PFCoalescerContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property double initialDelay; // @synthesize initialDelay=_initialDelay;
-@property _Bool initialDelayTimerIsArmed; // @synthesize initialDelayTimerIsArmed=_initialDelayTimerIsArmed;
-@property(retain) NSObject<OS_dispatch_queue> *isolationQueue; // @synthesize isolationQueue=_isolationQueue;
 @property(retain) NSString *label; // @synthesize label=_label;
-@property(copy) CDUnknownBlockType snapshotAndDrainHandler; // @synthesize snapshotAndDrainHandler=_snapshotAndDrainHandler;
-@property(retain) NSObject<OS_dispatch_source> *source; // @synthesize source=_source;
-@property(retain) NSObject<OS_dispatch_queue> *sourceQueue; // @synthesize sourceQueue=_sourceQueue;
-@property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property __weak id target; // @synthesize target=_target;
-@property(retain) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
-@property(retain) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
-@property _Bool usesTarget; // @synthesize usesTarget=_usesTarget;
 
 @end
 

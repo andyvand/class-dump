@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBProcessMap;
-
 @interface RBCoalition
 {
     unsigned long long _level;
-    RBProcessMap *_processes;
-    RBProcessMap *_processStates;
-    unsigned long long _coalitionID;
-    unsigned long long _previousCoalitionLevel;
-    double _creationTime;
-    double _lastModificationTime;
 }
 
 - (void);
@@ -23,7 +15,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)initWithSubsystem:category:timebaseRatio:unixDate:unixTimeZone: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -36,11 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long coalitionID; // @synthesize coalitionID=_coalitionID;
-@property(nonatomic) unsigned long long coalitionLevel;
-@property(readonly, nonatomic) double creationTime; // @synthesize creationTime=_creationTime;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) double lastModificationTime; // @synthesize lastModificationTime=_lastModificationTime;
-@property(readonly, nonatomic) unsigned long long previousCoalitionLevel; // @synthesize previousCoalitionLevel=_previousCoalitionLevel;
 
 @end
 

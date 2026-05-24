@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordZoneIdentifier, NSData;
+@class NSData;
 
 @interface CKDPZoneDescendantsRetrieveRequest
 {
     NSData *_continuationToken;
-    unsigned int _limit;
-    int _traversalType;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    CDStruct_276d9fd9 _has;
 }
 
 + (id);
@@ -21,21 +17,23 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (int);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)_completionSemaphore;
+- (unsigned long long)sync
+;
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)onated
+           AND ;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned int);
@@ -45,14 +43,7 @@
 - (id)operation %{public}@ for url:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuationToken; // @synthesize continuationToken=_continuationToken;
-@property(readonly, nonatomic) _Bool hasContinuationToken;
-@property(nonatomic) _Bool hasLimit;
-@property(nonatomic) _Bool hasTraversalType;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) unsigned int limit; // @synthesize limit=_limit;
-@property(nonatomic) int traversalType; // @synthesize traversalType=_traversalType;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

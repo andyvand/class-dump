@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDMPTCPSubflowSwitchingReport
 {
     unsigned long long _timestamp;
-    int _switchCount;
-    NSString *_switchFromInterfaceName;
-    NSString *_switchToInterfaceName;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int switchCount:1;
-    } _has;
 }
 
 - (id);
@@ -26,7 +17,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (void);
 - (id);
@@ -34,24 +25,17 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)+;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSwitchCount;
-@property(readonly, nonatomic) _Bool hasSwitchFromInterfaceName;
-@property(readonly, nonatomic) _Bool hasSwitchToInterfaceName;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int switchCount; // @synthesize switchCount=_switchCount;
-@property(retain, nonatomic) NSString *switchFromInterfaceName; // @synthesize switchFromInterfaceName=_switchFromInterfaceName;
-@property(retain, nonatomic) NSString *switchToInterfaceName; // @synthesize switchToInterfaceName=_switchToInterfaceName;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

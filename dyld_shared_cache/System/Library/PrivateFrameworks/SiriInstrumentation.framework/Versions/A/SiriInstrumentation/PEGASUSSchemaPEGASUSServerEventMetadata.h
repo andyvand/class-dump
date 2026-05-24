@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PEGASUSSchemaPEGASUSServerEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_pegasusId;
-    NSString *_resultCandidateId;
-    _Bool _hasPegasusId;
-    _Bool _hasResultCandidateId;
 }
 
 - (void);
@@ -31,20 +28,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)s;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ationVoiceCommandInfoTier1;
+- (id)_hasDictationVoiceCommandInfoTier1;
 - (id),V_stGlobalSearchContext;
 - (void)SpeechReceived;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPegasusId; // @synthesize hasPegasusId=_hasPegasusId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *pegasusId; // @synthesize pegasusId=_pegasusId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
 
 @end
 

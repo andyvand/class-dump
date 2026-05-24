@@ -13,7 +13,7 @@
 + (long long);
 + (long long);
 + (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

@@ -6,30 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHSelfTriggerSuppressionSession : SISchemaInstrumentationMessage
 {
     unsigned int _numSelfTriggersDetectedInSession;
-    double _sessionDurationInSeconds;
-    int _audioSource;
-    _Bool _isBluetoothSpeakerActive;
-    _Bool _isBuiltInSpeakerActive;
-    struct {
-        unsigned int numSelfTriggersDetectedInSession:1;
-        unsigned int sessionDurationInSeconds:1;
-        unsigned int audioSource:1;
-        unsigned int isBluetoothSpeakerActive:1;
-        unsigned int isBuiltInSpeakerActive:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
-- (void);
-- (void);
+- (void)T0W;
 - (double);
 - (unsigned int);
 - (_Bool);
@@ -50,7 +37,7 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)/Sources/libressl/libressl-2.2/crypto/dsa/dsa_ossl.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -61,17 +48,7 @@
 - (id)uthGenerated;
 
 // Remaining properties
-@property(nonatomic) int audioSource; // @synthesize audioSource=_audioSource;
-@property(nonatomic) _Bool hasAudioSource;
-@property(nonatomic) _Bool hasIsBluetoothSpeakerActive;
-@property(nonatomic) _Bool hasIsBuiltInSpeakerActive;
-@property(nonatomic) _Bool hasNumSelfTriggersDetectedInSession;
-@property(nonatomic) _Bool hasSessionDurationInSeconds;
-@property(nonatomic) _Bool isBluetoothSpeakerActive; // @synthesize isBluetoothSpeakerActive=_isBluetoothSpeakerActive;
-@property(nonatomic) _Bool isBuiltInSpeakerActive; // @synthesize isBuiltInSpeakerActive=_isBuiltInSpeakerActive;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int numSelfTriggersDetectedInSession; // @synthesize numSelfTriggersDetectedInSession=_numSelfTriggersDetectedInSession;
-@property(nonatomic) double sessionDurationInSeconds; // @synthesize sessionDurationInSeconds=_sessionDurationInSeconds;
 
 @end
 

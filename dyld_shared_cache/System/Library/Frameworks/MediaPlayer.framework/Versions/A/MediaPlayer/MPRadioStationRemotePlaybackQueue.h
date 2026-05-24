@@ -6,19 +6,15 @@
 
 #import <MediaPlayer/MPRemotePlaybackQueue.h>
 
-@class NSString;
-
 @interface MPRadioStationRemotePlaybackQueue : MPRemotePlaybackQueue
 {
     long long _stationID;
-    NSString *_stationStringID;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) long long stationID; // @synthesize stationID=_stationID;
-@property(readonly, nonatomic) NSString *stationStringID; // @synthesize stationStringID=_stationStringID;
 
 @end
 

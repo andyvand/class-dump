@@ -6,41 +6,33 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSecurityTimeLimitsDeclaration_Allowance : CEMPayloadBase
 {
     NSNumber *_payloadEnabled;
-    NSNumber *_payloadRangeType;
-    NSString *_payloadStart;
-    NSString *_payloadEnd;
-    NSNumber *_payloadSecondsPerDay;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
+- (void)k;
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (_Bool)ntifier to %@;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/t1_enc.c;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *payloadEnabled; // @synthesize payloadEnabled=_payloadEnabled;
-@property(copy, nonatomic) NSString *payloadEnd; // @synthesize payloadEnd=_payloadEnd;
-@property(copy, nonatomic) NSNumber *payloadRangeType; // @synthesize payloadRangeType=_payloadRangeType;
-@property(copy, nonatomic) NSNumber *payloadSecondsPerDay; // @synthesize payloadSecondsPerDay=_payloadSecondsPerDay;
-@property(copy, nonatomic) NSString *payloadStart; // @synthesize payloadStart=_payloadStart;
 
 @end
 

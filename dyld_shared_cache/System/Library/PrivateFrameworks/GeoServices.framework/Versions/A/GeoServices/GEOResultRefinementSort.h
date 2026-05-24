@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface GEOResultRefinementSort
 {
     NSString *_displayName;
-    NSArray *_sorts;
-    NSNumber *_selectedElementIndex;
-    NSNumber *_defaultSelectedElementIndex;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)contactMembershipPredicateWithUniqueIds:(id)arg1;
+- (id)nary",&,V_publicUserInfo;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)eMonitor:(id)arg1 didReceiveLanguageCodeChanged:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *defaultSelectedElementIndex; // @synthesize defaultSelectedElementIndex=_defaultSelectedElementIndex;
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSNumber *selectedElementIndex; // @synthesize selectedElementIndex=_selectedElementIndex;
-@property(copy, nonatomic) NSArray *sorts; // @synthesize sorts=_sorts;
 
 @end
 

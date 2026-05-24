@@ -6,7 +6,7 @@
 
 #import <ContactsPersistence/ABCDOwnedObject.h>
 
-@class ABCDCustomProperty, NSString;
+@class ABCDCustomProperty;
 
 @interface ABCDCustomPropertyValue : ABCDOwnedObject
 {
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ABCDCustomProperty *customProperty; // @dynamic customProperty;
-@property(retain, nonatomic) NSString *stringValue; // @dynamic stringValue;
 
 @end
 

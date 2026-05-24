@@ -4,87 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface PKPaymentMerchantSession
 {
     _Bool _isDelegatedSession;
-    unsigned long long _epochTimestamp;
-    unsigned long long _expiresAt;
-    NSString *_merchantSessionIdentifier;
-    NSString *_nonce;
-    NSString *_merchantIdentifier;
-    NSString *_operationalAnalyticsIdentifier;
-    NSString *_domain;
-    NSString *_displayName;
-    NSString *_initiativeContext;
-    NSString *_initiative;
-    NSData *_ampEnrollmentPinning;
-    NSArray *_signedFields;
-    NSData *_signature;
-    NSString *_retryNonce;
-    NSString *_delegateDisplayName;
 }
 
-+ (id);
++ (id)AN;
 + (long long);
 + (_Bool)0@ù
 × ;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)RC;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)�3Y8*;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)setIDQueryStart:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)fier: /* Error: Ran out of types for this method. */;
-- (id)viceIdentifier;
+- (unsigned long long)setReferenceIdentifier: /* Error: Ran out of types for this method. */;
+- (id)customerServiceIdentifier;
 - (id)ask %lu;
-- (void)entMemo;
-- (id)ine;
+- (void)PKPeerPaymentRecurringPaymentMemo;
+- (id)underline;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *ampEnrollmentPinning; // @synthesize ampEnrollmentPinning=_ampEnrollmentPinning;
-@property(copy, nonatomic) NSString *delegateDisplayName; // @synthesize delegateDisplayName=_delegateDisplayName;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(readonly, nonatomic) unsigned long long epochTimestamp; // @synthesize epochTimestamp=_epochTimestamp;
-@property(readonly, nonatomic) unsigned long long expiresAt; // @synthesize expiresAt=_expiresAt;
-@property(readonly, nonatomic) NSString *initiative; // @synthesize initiative=_initiative;
-@property(readonly, nonatomic) NSString *initiativeContext; // @synthesize initiativeContext=_initiativeContext;
-@property(readonly, nonatomic) _Bool isDelegatedSession; // @synthesize isDelegatedSession=_isDelegatedSession;
-@property(readonly, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(readonly, nonatomic) NSString *merchantSessionIdentifier; // @synthesize merchantSessionIdentifier=_merchantSessionIdentifier;
-@property(readonly, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(readonly, nonatomic) NSString *operationalAnalyticsIdentifier; // @synthesize operationalAnalyticsIdentifier=_operationalAnalyticsIdentifier;
-@property(retain, nonatomic) NSString *retryNonce; // @synthesize retryNonce=_retryNonce;
-@property(readonly, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(readonly, nonatomic) NSArray *signedFields; // @synthesize signedFields=_signedFields;
 
 @end
 

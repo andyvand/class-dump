@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorTranscriptBackgroundCommandTypeWrapper, NSString;
+@class NSString;
 
 @interface BlastDoorTranscriptBackgroundCommand
 {
@@ -14,15 +14,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)setSyncSettings: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)¹Tµÿ©árÿµÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_replicationSourceID;
-@property(nonatomic, readonly) long long replicationSourceID;
-@property(nonatomic, readonly) BlastDoorTranscriptBackgroundCommandTypeWrapper *type;
 
 @end
 

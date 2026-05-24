@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id)teConcreteBadgeManager;
+- (id)px_createConcreteBadgeManager;
 - (void);
 
 @end

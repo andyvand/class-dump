@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (unsigned long long);
 - (Class);
@@ -24,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)P;
+- (id)ReferencedStopControlPointIndex;
 - (id);
 - (id);
 - (id);

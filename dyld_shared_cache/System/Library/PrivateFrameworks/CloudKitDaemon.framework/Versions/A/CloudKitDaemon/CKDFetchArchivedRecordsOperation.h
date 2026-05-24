@@ -6,16 +6,15 @@
 
 #import <CloudKitDaemon/CKDFetchBatchedRecordsOperation.h>
 
-@class NSObject, NSString;
-@protocol CKFetchArchivedRecordsOperationCallbacks><CKDOperationCallbackProxy, OS_dispatch_queue;
+@protocol CKFetchArchivedRecordsOperationCallbacks><CKDOperationCallbackProxy;
 
 @interface CKDFetchArchivedRecordsOperation : CKDFetchBatchedRecordsOperation
 {
     CDUnknownBlockType _recordFetchedBlock;
-    CDUnknownBlockType _serverChangeTokenUpdatedBlock;
 }
 
-- (void);
+- (void)event handler called on %p for %p evcount %lu errcount %lu
+;
 - (id);
 - (void);
 - (id);
@@ -23,10 +22,10 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (int);
+- (int)C] %s (%s:%u)null isPasswordPresentCallback /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void);
@@ -36,18 +35,7 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue;
 @property(retain, nonatomic) id <CKFetchArchivedRecordsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *pipeliningDescription;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchedBlock; // @synthesize recordFetchedBlock=_recordFetchedBlock;
-@property(copy, nonatomic) CDUnknownBlockType serverChangeTokenUpdatedBlock; // @synthesize serverChangeTokenUpdatedBlock=_serverChangeTokenUpdatedBlock;
-@property(readonly) Class superclass;
 
 @end
 

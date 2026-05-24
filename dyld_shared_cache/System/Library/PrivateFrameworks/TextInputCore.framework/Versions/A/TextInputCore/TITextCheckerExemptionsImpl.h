@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSUUID;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface TITextCheckerExemptionsImpl
 {
     CDUnknownBlockType _contactObserver;
-    id _userDictionaryObserver;
-    unsigned long long _observerAssertionCount;
-    NSSet *_addressBookTokens;
-    NSSet *_userDictionaryTokens;
-    NSUUID *_userDictionaryUUID;
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)P;
+- (void);
 - (void);
 - (id);
+- (void)AXChildrenContainerGroupingBehaviorHasOverridingParentDelegate;
+- (id)ithCompletion;
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)4;
+- (void)/Versions/A/Frameworks/AccessibilityVisuals.framework/Versions/A/AccessibilityVisuals;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *addressBookTokens; // @synthesize addressBookTokens=_addressBookTokens;
-@property(retain, nonatomic) NSSet *userDictionaryTokens; // @synthesize userDictionaryTokens=_userDictionaryTokens;
-@property(copy, nonatomic) NSUUID *userDictionaryUUID; // @synthesize userDictionaryUUID=_userDictionaryUUID;
 
 @end
 

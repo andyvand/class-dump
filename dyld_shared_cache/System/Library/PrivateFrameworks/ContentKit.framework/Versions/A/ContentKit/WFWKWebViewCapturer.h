@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFCoercionOptions, WFWebResource, WKNavigation, WKWebView;
+@class WKWebView;
 
 @interface WFWKWebViewCapturer
 {
     _Bool _didAttemptToLoadRemoteResources;
-    _Bool _userDidAllowLoadingExternalResources;
-    _Bool _didPresentSmartPrompt;
-    WKWebView *_webView;
-    WKNavigation *_pageNavigation;
-    WFWebResource *_webResource;
-    WFCoercionOptions *_coercionOptions;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (void);
@@ -25,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (id);
 - (void);
 - (id);
@@ -39,29 +32,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ficationQueue={__CFRuntimeBase=QAQ}^{__CFDictionary}^{__CFDictionary}{os_unfair_lock_s=I}dBBB^v}16@0:(id)arg1 8;
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)�M;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) WFCoercionOptions *coercionOptions; // @synthesize coercionOptions=_coercionOptions;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool didAttemptToLoadRemoteResources; // @synthesize didAttemptToLoadRemoteResources=_didAttemptToLoadRemoteResources;
-@property _Bool didPresentSmartPrompt; // @synthesize didPresentSmartPrompt=_didPresentSmartPrompt;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) WKNavigation *pageNavigation; // @synthesize pageNavigation=_pageNavigation;
-@property(readonly) Class superclass;
-@property _Bool userDidAllowLoadingExternalResources; // @synthesize userDidAllowLoadingExternalResources=_userDidAllowLoadingExternalResources;
-@property(retain, nonatomic) WFWebResource *webResource; // @synthesize webResource=_webResource;
 @property(retain, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end

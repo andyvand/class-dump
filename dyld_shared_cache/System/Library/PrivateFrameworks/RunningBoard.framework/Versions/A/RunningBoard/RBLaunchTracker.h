@@ -5,13 +5,10 @@
 //
 
 @class NSMutableDictionary;
-@protocol RBTimeProviding;
 
 @interface RBLaunchTracker
 {
     NSMutableDictionary *_lastLaunch;
-    NSMutableDictionary *_launchBeforeLast;
-    id <RBTimeProviding> _timeProvider;
 }
 
 - (void);

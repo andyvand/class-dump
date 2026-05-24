@@ -9,23 +9,12 @@
 @interface BMPBHealthKitWorkoutEvent
 {
     NSString *_activityType;
-    NSString *_activityUUID;
-    int _eventType;
-    _Bool _isFirstPartyDonation;
-    _Bool _isIndoor;
-    _Bool _isUpdate;
-    struct {
-        unsigned int eventType:1;
-        unsigned int isFirstPartyDonation:1;
-        unsigned int isIndoor:1;
-        unsigned int isUpdate:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -33,9 +22,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)eCollectionsForScreen:(id)arg1 isCellular16x9Capable:isLocalConfig:] /* Error: Ran out of types for this method. */;
+- (id)path;
+- (void)tartInputForClient:(_Bool)arg1 error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -46,11 +35,11 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)intersectionOfLineFrom:(id)arg1 to:withLineFrom:to: /* Error: Ran out of types for this method. */;
+- (_Bool)';
 - (id);
 - (void);
-- (id);
+- (id)Ah;
 - (id);
 - (void)ABCD;
 - (id);
@@ -58,18 +47,7 @@
 - (int)´;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(retain, nonatomic) NSString *activityUUID; // @synthesize activityUUID=_activityUUID;
-@property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) _Bool hasActivityType;
-@property(readonly, nonatomic) _Bool hasActivityUUID;
-@property(nonatomic) _Bool hasEventType;
 @property(nonatomic) _Bool hasIsFirstPartyDonation;
-@property(nonatomic) _Bool hasIsIndoor;
-@property(nonatomic) _Bool hasIsUpdate;
-@property(nonatomic) _Bool isFirstPartyDonation; // @synthesize isFirstPartyDonation=_isFirstPartyDonation;
-@property(nonatomic) _Bool isIndoor; // @synthesize isIndoor=_isIndoor;
-@property(nonatomic) _Bool isUpdate; // @synthesize isUpdate=_isUpdate;
 
 @end
 

@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSMemoryFootprintMallocZone;
+@class NSArray;
 
 @interface WBSMemoryFootprint
 {
     struct task_vm_info _vmInfo;
-    NSArray *_zones;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)v);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (id);
+- (id)MPModelPropertyRadioStationBeats1;
 - (id);
 - (void)1Â0@ù
 × ;
-- (unsigned long long)ablePerSiteSettingsSync;
+- (unsigned long long)WBSEnablePerSiteSettingsSync;
 
 // Remaining properties
-@property(readonly, nonatomic) WBSMemoryFootprintMallocZone *defaultMallocZone;
-@property(readonly, nonatomic) unsigned long long dirtySize;
-@property(readonly, nonatomic) unsigned long long residentSize;
 @property(readonly, nonatomic) NSArray *zones; // @synthesize zones=_zones;
 
 @end

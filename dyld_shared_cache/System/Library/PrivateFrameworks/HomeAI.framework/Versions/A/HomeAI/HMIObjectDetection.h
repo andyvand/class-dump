@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface HMIObjectDetection
 {
     int _labelIndex;
-    double _confidence;
-    NSNumber *_yaw;
-    NSNumber *_roll;
-    struct CGRect _boundingBox;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (int);
@@ -23,7 +17,7 @@
 - (id);
 - (unsigned long long);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (void);
 - (double);
 - (id);
@@ -31,11 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly) double confidence; // @synthesize confidence=_confidence;
 @property(readonly) int labelIndex; // @synthesize labelIndex=_labelIndex;
-@property(readonly) NSNumber *roll; // @synthesize roll=_roll;
-@property(readonly) NSNumber *yaw; // @synthesize yaw=_yaw;
 
 @end
 

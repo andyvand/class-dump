@@ -12,33 +12,31 @@ __attribute__((visibility("hidden")))
 @interface _UINavigationBarTitleRenamerRemoteSession : _UINavigationBarTitleRenamerSession
 {
     unsigned long long _currentState;
-    NSURL *_fileURL;
-    FBSSceneIdentityToken *_sceneOriginIdentityToken;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)valueWithBytes:(id)arg1 objCType:(id)arg2;
+- (id)geCache:(id)arg1 calculateUnreadCount:(id)arg2 reindexMessage:(id *)arg3;
+- (id)has_stickerRotation;
+- (void)dateBySettingHour:(_Bool)arg1 minute:second:ofDate:options: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id)add participants:(id)arg1 %@ to 1:(inout struct _NSRange *)arg2 1 chat :%@ /* Error: Ran out of types for this method. */;
+- (_Bool)le a radar!;
+- (void)roupID domain, but groupID is non-nil:(id)arg1 %@. Please file a radar!;
+- (void)Chat is missing latest identifier in iMessageGroupID domain, but groupID is non-nil:(id)arg1 %@. Please file a radar!;
+- (void):%@ /* Error: Ran out of types for this method. */;
+- (void)tion type to:(id)arg1 %ld, syndication date to:(id)arg2 %@, for chat:%@ /* Error: Ran out of types for this method. */;
+- (void)type %ld for chat:(id)arg1 %@;
+- (void)ast hour.;
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void)tterDynamicsController;
+- (void)g!;
+- (void)_configurePlatterDynamicsController;
 - (void)þP23þ;
 - (id)­Óþ;
 

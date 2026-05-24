@@ -4,63 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSUUID;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDFetchAccessorySettingsLogEvent
 {
     NSArray *_failedKeyPaths;
-    NSArray *_succeededKeyPaths;
-    unsigned long long _responseTimeStamp;
-    NSArray *_keyPaths;
-    unsigned long long _startTimeStamp;
-    NSString *_requestingClientName;
 }
 
+- (id)te"24;
+- (void)participantsByCapabilities;
+- (void)stringByAppendingPathComponent:(id)arg1;
+- (id)ll retry in %#.1lfs;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)ningfulEventLocationCollectionTrait";
+- (unsigned long long);
+- (unsigned long long).;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)!;
 - (void)ityStatus>"16@0:(unsigned long long)arg1 8;
 - (void)eteAllIndexedEntities.signpost;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *failedKeyPaths; // @synthesize failedKeyPaths=_failedKeyPaths;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *keyPaths; // @synthesize keyPaths=_keyPaths;
-@property(readonly, copy, nonatomic) NSString *requestingClientName; // @synthesize requestingClientName=_requestingClientName;
-@property(nonatomic) unsigned long long responseTimeStamp; // @synthesize responseTimeStamp=_responseTimeStamp;
-@property(readonly, nonatomic) unsigned long long startTimeStamp; // @synthesize startTimeStamp=_startTimeStamp;
-@property(copy, nonatomic) NSArray *succeededKeyPaths; // @synthesize succeededKeyPaths=_succeededKeyPaths;
-@property(readonly) Class superclass;
 
 @end
 

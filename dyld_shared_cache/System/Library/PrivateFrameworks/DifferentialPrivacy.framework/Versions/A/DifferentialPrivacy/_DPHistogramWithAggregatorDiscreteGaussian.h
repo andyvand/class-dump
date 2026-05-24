@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DPSymmetricRAPPORWithOHE;
-
 @interface _DPHistogramWithAggregatorDiscreteGaussian
 {
     double _sigma;
-    _DPSymmetricRAPPORWithOHE *_rappor;
-    double _squaredL2Sensitivity;
 }
 
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (double);
-- (void);
+- (void)_observeNotificationsForTextField:keyWindow:isForOneTimeCode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _DPSymmetricRAPPORWithOHE *rappor; // @synthesize rappor=_rappor;
 @property(readonly, nonatomic) double sigma; // @synthesize sigma=_sigma;
-@property(readonly, nonatomic) double squaredL2Sensitivity; // @synthesize squaredL2Sensitivity=_squaredL2Sensitivity;
-@property(readonly) Class superclass;
 
 @end
 

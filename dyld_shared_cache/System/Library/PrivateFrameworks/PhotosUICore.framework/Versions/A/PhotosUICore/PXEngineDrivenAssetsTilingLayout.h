@@ -6,22 +6,11 @@
 
 #import <PhotosUICore/PXAssetsTilingLayout.h>
 
-@class PXLayoutSnapshot;
 @protocol PXEngineDrivenAssetsTilingLayoutDelegate;
 
 @interface PXEngineDrivenAssetsTilingLayout : PXAssetsTilingLayout
 {
     CDStruct_183601bc _needsUpdateFlags;
-    struct {
-        _Bool respondsToEngineDrivenLayoutReferenceSizeDidChange;
-        _Bool respondsToEngineDrivenLayoutAspectRatioForItemAtIndexPath;
-        _Bool respondsToEngineDrivenLayoutZPositionForItemAtIndexPath;
-        _Bool respondsToEngineDrivenLayoutContentsRectForItemAtIndexPathForAspectRatio;
-        _Bool respondsToEngineDrivenLayoutPlayButtonSizeForItemAtIndexPathForAspectRatio;
-    } _delegateFlags;
-    id <PXEngineDrivenAssetsTilingLayoutDelegate> _delegate;
-    PXLayoutSnapshot *_layoutSnapshot;
-    long long _contentMode;
 }
 
 - (void);
@@ -34,26 +23,24 @@
 - (void);
 - (double);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (double);
 - (void);
 - (struct CGRect);
+- (id)historyService;
+- (void)EndOfArticleDataManagerTypeDelegate;
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)tedDirections;
 - (void);
 - (long long);
 - (void)ù
 × ;
 - (id)e *__strong _Nonnull, void (^ _Nullable __strong)(PHLibraryScope * _Nullable __strong, NSError * _Nullable __strong));
 - (void)gnLocationFromPasteboardToAsset(PHAsset *__strong);
-- (void)col;
+- (void)DataSectionItemListProtocol;
 
 // Remaining properties
-@property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
 @property(nonatomic) __weak id <PXEngineDrivenAssetsTilingLayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) PXLayoutSnapshot *layoutSnapshot; // @synthesize layoutSnapshot=_layoutSnapshot;
 
 @end
 

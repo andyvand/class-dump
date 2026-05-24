@@ -13,7 +13,7 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)_fromStorage;
 
 // Remaining properties
 @property(readonly, nonatomic) long long proxCardType; // @synthesize proxCardType=_proxCardType;

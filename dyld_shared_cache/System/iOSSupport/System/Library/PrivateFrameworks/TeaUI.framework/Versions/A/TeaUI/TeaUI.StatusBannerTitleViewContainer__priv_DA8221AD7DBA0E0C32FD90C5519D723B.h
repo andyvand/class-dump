@@ -11,7 +11,7 @@
 
 - (id);
 - (struct CGSize);
-- (id);
+- (id)storekitErrorAsString:(struct CGRect)arg1;
 - (void);
 
 // Remaining properties

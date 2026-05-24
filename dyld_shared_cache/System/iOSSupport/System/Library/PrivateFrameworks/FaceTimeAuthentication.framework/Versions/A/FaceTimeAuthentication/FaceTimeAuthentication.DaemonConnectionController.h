@@ -8,12 +8,6 @@
 {
     id $defaultActor;
     id logger;
-    id connected;
-    id connectedContinuation;
-    id connectionTimeout;
-    id daemonController;
-    id daemonConnection;
-    id $__lazy_storage_$__accountManager;
 }
 
 - (void);

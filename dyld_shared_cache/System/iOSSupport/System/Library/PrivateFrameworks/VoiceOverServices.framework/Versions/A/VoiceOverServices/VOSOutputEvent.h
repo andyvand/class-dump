@@ -9,8 +9,6 @@
 @interface VOSOutputEvent
 {
     NSString *_rawValue;
-    _Bool _supportsSoundEffect;
-    _Bool _supportsHaptic;
 }
 
 + (id);
@@ -96,13 +94,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *rawValue;
-@property(nonatomic) _Bool supportsHaptic; // @synthesize supportsHaptic=_supportsHaptic;
 @property(nonatomic) _Bool supportsSoundEffect; // @synthesize supportsSoundEffect=_supportsSoundEffect;
 
 @end

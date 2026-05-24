@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (void);
+- (void)areKeysAvailable:(double)arg1;
 
 // Remaining properties
 @property double maxValue; // @synthesize maxValue=mMaxValue;

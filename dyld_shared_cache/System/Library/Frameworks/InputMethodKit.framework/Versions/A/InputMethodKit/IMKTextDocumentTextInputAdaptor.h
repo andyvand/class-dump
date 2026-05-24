@@ -6,39 +6,21 @@
 
 #import <InputMethodKit/IMKAbstractTextDocument.h>
 
-@class IMKTextDocument, IMKTextDocumentTraits, NSMutableSet, NSNumber;
+@class NSMutableSet;
 @protocol IMKTextInput;
 
 @interface IMKTextDocumentTextInputAdaptor : IMKAbstractTextDocument
 {
     id <IMKTextInput> _textInput;
-    NSMutableSet *_unreliableApps;
-    CDStruct_66d8504c _textInputReliability;
-    CDStruct_66d8504c _textInputReliabilityChecked;
-    IMKTextDocument *_cache;
-    NSNumber *_cacheStartPosition;
-    _Bool _hasMoreTextBeforeCache;
-    _Bool _hasMoreTextAfterCache;
-    _Bool _editingInternally;
-    _Bool _hasChanges;
-    struct _NSRange _composingTextRangeInTextInput;
-    CDUnknownBlockType _willInvalidateCacheBlock;
-    CDUnknownBlockType _didInvalidateCacheBlock;
-    unsigned long long _dereferenceCount;
-    _Bool _alwaysShowsComposingTextAsMarkedText;
-    _Bool _hasComposingTextChanges;
-    _Bool _recomposing;
-    _Bool _allowClientQueries;
-    IMKTextDocumentTraits *_clientTraits;
 }
 
 + (id);
 - (CDUnknownBlockType);
-- (id);
-- (CDStruct_66d8504c);
-- (CDStruct_66d8504c);
+- (id)�	*	o;
+- (CDStruct_3d581f42);
+- (CDStruct_3d581f42);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -49,15 +31,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)8h;
 - (_Bool);
 - (void);
 - (void);
@@ -92,8 +74,8 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (long long);
+- (_Bool);
+- (long long)#;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -107,52 +89,29 @@
 - (void);
 - (void);
 - (void);
+- (void)N;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)eParam=ffff}})}ffffifffff}{_TMData=iiiIiifffifffffffffffffffffBfiiff{_Percentiles_t=[8f][8f]I}BBBBBffi[10f]ffffffffffffffffffffffffff}{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_HLGTMParam=f{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}60;
+- (void);
+- (id);
+- (_Bool)slotForStreamToken:videoMode: /* Error: Ran out of types for this method. */;
+- (id)addConnectionBasedTopPacketCountsTelemetry:reportingKey:mapLinkIDToLinkUUID:isOutgoing: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool)Flipped:withSize:degrees: /* Error: Ran out of types for this method. */;
+- (_Bool)drawArrowFlipped:withSize:degrees: /* Error: Ran out of types for this method. */;
 - (unsigned long long)&,N,V_lineLayout;
 - (id)³;
 
 // Remaining properties
-@property(nonatomic) _Bool allowClientQueries; // @synthesize allowClientQueries=_allowClientQueries;
-@property(readonly, nonatomic) _Bool alwaysShowsComposingTextAsMarkedText; // @synthesize alwaysShowsComposingTextAsMarkedText=_alwaysShowsComposingTextAsMarkedText;
-@property(readonly, nonatomic) IMKTextDocument *cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) NSNumber *cacheStartPosition; // @synthesize cacheStartPosition=_cacheStartPosition;
-@property(readonly, nonatomic) IMKTextDocumentTraits *clientTraits; // @synthesize clientTraits=_clientTraits;
-@property(readonly, nonatomic) struct _NSRange composingTextAndSelectedTextRangeUnionInTextInput;
-@property(readonly, nonatomic) unsigned long long composingTextEndPosition;
-@property(nonatomic) struct _NSRange composingTextRangeInTextInput; // @synthesize composingTextRangeInTextInput=_composingTextRangeInTextInput;
-@property(readonly, nonatomic) unsigned long long composingTextStartPosition;
-@property(readonly, nonatomic) unsigned long long cursorPosition;
-@property(nonatomic) unsigned long long dereferenceCount; // @synthesize dereferenceCount=_dereferenceCount;
-@property(copy, nonatomic) CDUnknownBlockType didInvalidateCacheBlock; // @synthesize didInvalidateCacheBlock=_didInvalidateCacheBlock;
-@property(nonatomic, getter=isEditingInternally) _Bool editingInternally; // @synthesize editingInternally=_editingInternally;
-@property(nonatomic) _Bool hasChanges; // @synthesize hasChanges=_hasChanges;
-@property(nonatomic) _Bool hasComposingTextChanges; // @synthesize hasComposingTextChanges=_hasComposingTextChanges;
-@property(nonatomic) _Bool hasMoreTextAfterCache; // @synthesize hasMoreTextAfterCache=_hasMoreTextAfterCache;
-@property(nonatomic) _Bool hasMoreTextBeforeCache; // @synthesize hasMoreTextBeforeCache=_hasMoreTextBeforeCache;
-@property(nonatomic, getter=isRecomposing) _Bool recomposing; // @synthesize recomposing=_recomposing;
-@property(nonatomic) _Bool showsComposingTextAsMarkedText;
-@property(readonly, nonatomic) __weak id <IMKTextInput> textInput; // @synthesize textInput=_textInput;
-@property(nonatomic) CDStruct_66d8504c textInputReliability; // @synthesize textInputReliability=_textInputReliability;
-@property(nonatomic) CDStruct_66d8504c textInputReliabilityChecked; // @synthesize textInputReliabilityChecked=_textInputReliabilityChecked;
 @property(readonly, nonatomic) NSMutableSet *unreliableApps; // @synthesize unreliableApps=_unreliableApps;
-@property(copy, nonatomic) CDUnknownBlockType willInvalidateCacheBlock; // @synthesize willInvalidateCacheBlock=_willInvalidateCacheBlock;
 
 @end
 

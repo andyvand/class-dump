@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol HMDStatusChannelProtocolV2;
+
 @protocol HMDStatusChannelDelegateV2
+
+@optional
+- (void)service:(id <HMDStatusChannelProtocolV2>)arg1 account:incomingUnhandledProtobuf:fromID:context: /* Error: Ran out of types for this method. */;
+- (void)_updatedObjects;
+- (void)_traits;
+- (void)GEOMapRegion",&,N,V_region;
 @end
 

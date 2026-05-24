@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORRRequestResponseEvent, NSData, NSDate, NSString, NSURL, PBCodable;
+@class GEORRRequestResponseEvent, NSDate;
 
 @interface GEORequestResponsePersistedEvent
 {
     GEORRRequestResponseEvent *_event;
-    PBCodable *_decodedMessage;
-    int _eventType;
-    int _messageType;
-    NSDate *_timestamp;
-    NSString *_appId;
-    NSString *_identifier;
-    NSURL *_serviceURL;
-    unsigned long long _size;
-    NSURL *_eventFileURL;
-    NSString *_errorMessage;
 }
 
 + (CDUnknownBlockType);
@@ -28,26 +18,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)id*)0));
 - (int);
-- (id);
+- (id)_buttonMakeReservation;
 - (int);
 - (id)@"GEORPUserPath",&,N;
 - (id)d4 ì $¡;
 - (void)\Êùbï&P@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appId; // @synthesize appId=_appId;
-@property(readonly, nonatomic) PBCodable *decodedMessage;
-@property(readonly, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(readonly, nonatomic) NSURL *eventFileURL; // @synthesize eventFileURL=_eventFileURL;
-@property(readonly, nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) int messageType; // @synthesize messageType=_messageType;
-@property(readonly, nonatomic) NSData *rawMessage;
-@property(readonly, nonatomic) GEORRRequestResponseEvent *rrEvent;
-@property(readonly, nonatomic) NSURL *serviceURL; // @synthesize serviceURL=_serviceURL;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 @property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

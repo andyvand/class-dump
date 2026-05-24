@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber;
+
 @protocol HMDThreadOperation
+- (void)container:(NSNumber *)arg1 didEditWithNewContents:(void (^)(NSError *))arg2 orderedEdits:cause:context: /* Error: Ran out of types for this method. */;
+- (void)ge %d;
 - (long long)hÇ;
 
 // Remaining properties

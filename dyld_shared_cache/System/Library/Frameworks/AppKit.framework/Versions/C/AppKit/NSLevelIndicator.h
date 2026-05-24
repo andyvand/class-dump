@@ -6,18 +6,16 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSColor, NSImage;
-
 @interface NSLevelIndicator : NSControl
 {
 }
 
-+ (id);
++ (id)enc_action;
 + (void)8fH;
 - (double);
 - (id);
 - (void);
-- (double);
+- (double)Rc;
 - (unsigned long long);
 - (void);
 - (void);
@@ -28,33 +26,33 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)__objc_classlist__DATA_CONST;
+- (void)__DATA_CONST;
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (id);
+- (id);
+- (id)!;
+- (long long)5;
 - (long long);
-- (long long);
-- (long long);
+- (long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (double);
-- (id);
+- (_Bool)length;
+- (id)_socketReadStreamForUpgrade;
+- (id)_shouldHandleCookies;
+- (double)_requiresSustainedDataDelivery;
+- (id)_requiresSecureHTTPSProxyConnection;
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)@;
+- (id);
 - (double);
 - (struct CGSize);
 - (_Bool);
-- (double);
-- (void);
+- (double);
+- (void)(;
 - (void);
 - (void)dings"b1"insertionPointDisabled"b1"smartnessEnabled"b1"rulerDisabled"b1"continueKillRing"b1"trackingAttachmentCell"b1"bufferingAltKeypadDigits"b1"allowsUndo"b1"delegateProvidesUndoManager"b1};
 - (id)are;
@@ -65,22 +63,7 @@
 - (double)ÿÜ&G;
 
 // Remaining properties
-@property(copy) NSColor *criticalFillColor;
-@property double criticalValue;
-@property _Bool drawsTieredCapacityLevels;
-@property(getter=isEditable) _Bool editable;
-@property(copy) NSColor *fillColor;
 @property unsigned long long levelIndicatorStyle;
-@property double maxValue;
-@property double minValue;
-@property long long numberOfMajorTickMarks;
-@property long long numberOfTickMarks;
-@property long long placeholderVisibility;
-@property(retain) NSImage *ratingImage;
-@property(retain) NSImage *ratingPlaceholderImage;
-@property unsigned long long tickMarkPosition;
-@property(copy) NSColor *warningFillColor;
-@property double warningValue;
 
 @end
 

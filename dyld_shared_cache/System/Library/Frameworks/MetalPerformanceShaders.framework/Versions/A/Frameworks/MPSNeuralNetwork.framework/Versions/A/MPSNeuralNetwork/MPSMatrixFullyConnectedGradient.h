@@ -7,9 +7,6 @@
 @interface MPSMatrixFullyConnectedGradient
 {
     unsigned long long _sourceNumberOfFeatureVectors;
-    unsigned long long _sourceInputFeatureChannels;
-    unsigned long long _sourceOutputFeatureChannels;
-    double _alpha;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -22,17 +19,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (double);
 - (id)ommon.direction;
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) unsigned long long sourceInputFeatureChannels; // @synthesize sourceInputFeatureChannels=_sourceInputFeatureChannels;
 @property(nonatomic) unsigned long long sourceNumberOfFeatureVectors; // @synthesize sourceNumberOfFeatureVectors=_sourceNumberOfFeatureVectors;
-@property(nonatomic) unsigned long long sourceOutputFeatureChannels; // @synthesize sourceOutputFeatureChannels=_sourceOutputFeatureChannels;
 
 @end
 

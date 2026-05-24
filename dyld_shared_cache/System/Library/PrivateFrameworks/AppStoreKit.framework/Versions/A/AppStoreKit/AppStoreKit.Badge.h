@@ -7,23 +7,6 @@
 @interface AppStoreKit.Badge
 {
     id type;
-    id key;
-    id caption;
-    id heading;
-    id longCaption;
-    id content;
-    id leadingValue;
-    id style;
-    id accessibilityTitle;
-    id accessibilityCaption;
-    id artwork;
-    id trailingArtwork;
-    id isMonochrome;
-    id clickAction;
-    id clickSender;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

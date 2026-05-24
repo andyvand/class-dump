@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMReminderPasteboardItem
 {
     id objectID;
-    id accountID;
-    id listID;
-    id parentReminderID;
-    id isFromRecentlyDeletedList;
 }
 
 + (id);

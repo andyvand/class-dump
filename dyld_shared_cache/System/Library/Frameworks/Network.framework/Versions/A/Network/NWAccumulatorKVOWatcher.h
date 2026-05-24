@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NWAccumulatorKVOWatcher
 {
     struct os_unfair_lock_s _lock;
-    NSString *_state;
-    NSString *_name;
-    NSObject *_object;
-    NSString *_keyPath;
-    CDUnknownBlockType _callback;
 }
 
 - (void);
@@ -23,20 +18,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)u;
 - (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)crets;
+- (void)nw_qpod_setup_secrets;
 - (void);
 - (void)21S;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSObject *object; // @synthesize object=_object;
 @property(retain) NSString *state; // @synthesize state=_state;
 
 @end

@@ -6,13 +6,12 @@
 
 #import <SiriUI/SiriUIEditScript.h>
 
-@class NSString, SiriUIEditScriptRangedAtom;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIEditScriptRanged : SiriUIEditScript
 {
     long long _options;
-    SiriUIEditScriptRangedAtom *_currentScriptAtom;
 }
 
 + (id);
@@ -32,7 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *stringA;
-@property(readonly, nonatomic) NSString *stringB;
 
 @end
 

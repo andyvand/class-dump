@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESKnowledgeFallbackContext : SISchemaInstrumentationMessage
 {
     _Bool _isKnowledgeFallbackOffered;
-    struct {
-        unsigned int isKnowledgeFallbackOffered:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)yDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRollableLog_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)T2UpdateSync updated messages with syndicationRanges as dirty for T2 update;
+- (id);
 - (id);
-- (id);
-- (id)on;
+- (id)_playedAudioDuration;
 - (id)UserEditExperimentContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsKnowledgeFallbackOffered;
 @property(nonatomic) _Bool isKnowledgeFallbackOffered; // @synthesize isKnowledgeFallbackOffered=_isKnowledgeFallbackOffered;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

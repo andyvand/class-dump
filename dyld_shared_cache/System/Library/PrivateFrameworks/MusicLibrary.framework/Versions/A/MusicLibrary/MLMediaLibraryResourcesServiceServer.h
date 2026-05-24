@@ -4,62 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MLMediaLibraryResourcesServiceServer
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSObject<OS_dispatch_semaphore> *_accountChangeSemaphore;
-    NSXPCListener *_xpcServiceListener;
-    NSMutableSet *_observers;
 }
 
 + (id)tore.extended_playback_attribute;
+- (id)_clusterAssetsWithUsableLocation: /* Error: Ran out of types for this method. */;
+- (void)ue:(id)arg1;
+- (void)h:(id)arg1 originalImageEXIFOrientation:renderedImageFilePath:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_addWaitingNotification:(CDUnknownBlockType)arg1 forPhotosBatchID: /* Error: Ran out of types for this method. */;
+- (void)_addHighlightStatusToProcessingSnapshot:(CDUnknownBlockType)arg1 photoLibrary:progress:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_abortFromMocExecFail_NSMOC_SQLITE_ERROR_1_withCode:(id)arg1;
+- (id)_isLegacy;
+- (void),R,N;
+- (void)removeAllAssets;
+- (id)predicateToExcludeUnknownShares;
+- (id)toFinalizer",R,N,V_deferredPhotoFinalizer;
+- (void)hypotension;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)anished;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 - (void)brary) OR new.is_ota_purchased THEN 1 ELSE 0 END) WHERE item_pid = new.item_pid; END;;
 - (id)MA user_version = 1950040;;
 - (id)LE container ADD COLUMN external_vendor_identifier TEXT NOT NULL DEFAULT '';
-- (void)dio;
+- (void)MLMediaTypeITunesUAudio;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *accountChangeSemaphore; // @synthesize accountChangeSemaphore=_accountChangeSemaphore;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(retain, nonatomic) NSXPCListener *xpcServiceListener; // @synthesize xpcServiceListener=_xpcServiceListener;
 
 @end
 

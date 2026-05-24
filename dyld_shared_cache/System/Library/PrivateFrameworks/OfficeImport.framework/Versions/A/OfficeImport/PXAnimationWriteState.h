@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OCXWriteState, TCXmlPrefixStreamWriter;
+@class OCXWriteState;
 
 __attribute__((visibility("hidden")))
 @interface PXAnimationWriteState
 {
     unsigned long long mCommonTimeNodeDataId;
-    OCXWriteState *mWriteState;
-    TCXmlPrefixStreamWriter *mFile;
-    _Bool mHasMainSeqTimeNodeId;
-    unsigned long long mMainSeqTimeNodeId;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -28,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)eFormatterStyle, CFDateFormatterStyle);
 
 // Remaining properties
-@property(retain, nonatomic) TCXmlPrefixStreamWriter *file; // @synthesize file=mFile;
 @property(retain, nonatomic) OCXWriteState *writeState; // @synthesize writeState=mWriteState;
 
 @end

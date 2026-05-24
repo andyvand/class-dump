@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSWidgetConfiguration, NSString;
+@class NSString;
 
 @interface _CHSWidgetHostForConnection
 {
     NSString *_identifier;
-    CHSWidgetConfiguration *_configuration;
-    unsigned long long _activationState;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_didPrevClientSaveOverlapWithEndTimestamp;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activationState; // @synthesize activationState=_activationState;
-@property(readonly, nonatomic) CHSWidgetConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

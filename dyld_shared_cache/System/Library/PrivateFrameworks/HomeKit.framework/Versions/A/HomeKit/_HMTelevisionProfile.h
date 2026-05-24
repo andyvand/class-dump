@@ -7,17 +7,14 @@
 #import <HomeKit/_HMAccessoryProfile.h>
 
 @class NSArray;
-@protocol _HMTelevisionProfileDelegate;
 
 @interface _HMTelevisionProfile : _HMAccessoryProfile
 {
     _Bool _mediaSourceDisplayOrderModifiable;
-    NSArray *_mediaSourceDisplayOrder;
-    id <_HMTelevisionProfileDelegate> _delegate;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -28,13 +25,11 @@
 - (id);
 - (void);
 - (id);
-- (void)rAssetURL;
+- (void)_serverAssetURL;
 - (id)sory out of resources;
 
 // Remaining properties
-@property __weak id <_HMTelevisionProfileDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSArray *mediaSourceDisplayOrder; // @synthesize mediaSourceDisplayOrder=_mediaSourceDisplayOrder;
-@property(readonly) _Bool mediaSourceDisplayOrderModifiable; // @synthesize mediaSourceDisplayOrderModifiable=_mediaSourceDisplayOrderModifiable;
 
 @end
 

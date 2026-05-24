@@ -9,7 +9,6 @@
 @interface DEDataReader
 {
     NSData *_data;
-    unsigned long long _dataOffset;
 }
 
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) unsigned long long dataOffset; // @synthesize dataOffset=_dataOffset;
 
 @end
 

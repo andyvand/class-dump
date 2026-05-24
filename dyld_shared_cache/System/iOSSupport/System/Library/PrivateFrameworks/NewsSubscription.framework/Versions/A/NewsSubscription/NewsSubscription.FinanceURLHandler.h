@@ -7,7 +7,6 @@
 @interface NewsSubscription.FinanceURLHandler
 {
     id patterns;
-    id router;
 }
 
 @end

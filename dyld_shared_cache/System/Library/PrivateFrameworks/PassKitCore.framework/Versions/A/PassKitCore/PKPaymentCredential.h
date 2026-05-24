@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPaymentEligibilityResponse, PKPaymentRequirementsResponse, PKSecureElementProvisioningState;
-
 @interface PKPaymentCredential
 {
     _Bool _deletable;
-    long long _credentialType;
-    NSString *_sanitizedPrimaryAccountNumber;
-    NSString *_sanitizedPrimaryAccountName;
-    NSString *_expiration;
-    NSString *_longDescription;
-    long long _cardType;
-    NSArray *_metadata;
-    NSArray *_activationMethods;
-    NSArray *_paymentApplications;
-    NSArray *_appletTypes;
-    NSString *_secureElementReservationGroupIdentifier;
-    PKSecureElementProvisioningState *_state;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -45,36 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -82,7 +39,36 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)	k;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)%;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)qb;
 - (long long);
 - (id);
 - (id);
@@ -97,42 +83,26 @@
 - (void);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)T
+;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)setHasTcpECNIntOnSACKE:(id)arg1;
+- (id)setContentVersion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void)WithAppearanceData:(id)arg1 nonce:completion: /* Error: Ran out of types for this method. */;
-- (void)entWebServiceDidChangeNotification;
+- (void)recipientMetadataWithAppearanceData:(id)arg1 nonce:completion: /* Error: Ran out of types for this method. */;
+- (void)PDSharedPeerPaymentWebServiceDidChangeNotification;
 - (id)%@'; ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activationMethods; // @synthesize activationMethods=_activationMethods;
-@property(retain, nonatomic) NSArray *appletTypes; // @synthesize appletTypes=_appletTypes;
-@property(nonatomic) long long cardType; // @synthesize cardType=_cardType;
-@property(readonly, nonatomic) _Bool couldSupportSuperEasyProvisioning;
 @property(nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;
-@property(nonatomic, getter=isDeletable) _Bool deletable; // @synthesize deletable=_deletable;
-@property(retain, nonatomic) PKPaymentEligibilityResponse *eligibilityResponse;
-@property(copy, nonatomic) NSString *expiration; // @synthesize expiration=_expiration;
-@property(copy, nonatomic) NSString *longDescription; // @synthesize longDescription=_longDescription;
-@property(copy, nonatomic) NSArray *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSArray *paymentApplications; // @synthesize paymentApplications=_paymentApplications;
-@property(retain, nonatomic) PKPaymentRequirementsResponse *requirementsResponse;
-@property(copy, nonatomic) NSString *sanitizedPrimaryAccountName; // @synthesize sanitizedPrimaryAccountName=_sanitizedPrimaryAccountName;
-@property(copy, nonatomic) NSString *sanitizedPrimaryAccountNumber; // @synthesize sanitizedPrimaryAccountNumber=_sanitizedPrimaryAccountNumber;
-@property(retain, nonatomic) NSString *secureElementReservationGroupIdentifier; // @synthesize secureElementReservationGroupIdentifier=_secureElementReservationGroupIdentifier;
-@property(retain, nonatomic) PKSecureElementProvisioningState *state; // @synthesize state=_state;
-@property(readonly, nonatomic) _Bool supportsExistingCardAuthorization;
-@property(readonly, nonatomic) _Bool supportsFrictionlessProvisioning;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface PKSelectionTileProperties
 {
     NSArray *_strokes;
-    struct CGRect _frame;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) NSArray *strokes; // @synthesize strokes=_strokes;
 
 @end
 

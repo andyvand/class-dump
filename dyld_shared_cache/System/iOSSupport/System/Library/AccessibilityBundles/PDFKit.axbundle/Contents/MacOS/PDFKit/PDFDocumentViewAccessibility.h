@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)aphics.framework/Versions/A/CoreGraphics;
++ (id)1;
 + (void);
 - (void);
 - (id);

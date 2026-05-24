@@ -5,5 +5,6 @@
 //
 
 @protocol MRRouteRecommendationUIControllable
+- (void)hh8);
 @end
 

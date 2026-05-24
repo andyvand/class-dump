@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
-
 @interface MPStoreAssetInfoPlaybackCache
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_accessOrderedRequests;
-    NSMutableDictionary *_requestToCachedResponse;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (id)targetElement;
 - (id);
-- (id);
-- (void)rties;
+- (void)_requestedCuratorProperties;
 
 @end
 

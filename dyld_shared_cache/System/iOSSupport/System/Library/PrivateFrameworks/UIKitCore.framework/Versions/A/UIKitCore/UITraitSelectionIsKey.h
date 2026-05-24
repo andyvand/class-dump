@@ -12,7 +12,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)FirstResponderDidChangeNotification;
++ (id)UIWindowFirstResponderDidChangeNotification;
 + (long long)¨tg;
 
 @end

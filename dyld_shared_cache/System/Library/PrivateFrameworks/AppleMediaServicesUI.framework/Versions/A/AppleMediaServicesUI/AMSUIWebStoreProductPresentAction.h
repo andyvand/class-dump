@@ -6,20 +6,18 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSBinaryPromise, AMSUIWebClientContext, NSDictionary, NSString, SKStoreProductViewController;
+@class SKStoreProductViewController;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebStoreProductPresentAction : AMSUIWebAction
 {
     SKStoreProductViewController *_controller;
-    NSDictionary *_parameters;
-    AMSBinaryPromise *_presentPromise;
 }
 
 - (void);
-- (id);
-- (id);
-- (id);
+- (id));
+- (id)ublic}@, Evicted objects:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)rror:(id)arg1 %{public}@;
 - (void);
 - (void);
 - (void);
@@ -28,17 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)urchaseResult"24@"NSError"32;
 
 // Remaining properties
-@property(readonly) AMSUIWebClientContext *context;
 @property(retain) SKStoreProductViewController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(retain) AMSBinaryPromise *presentPromise; // @synthesize presentPromise=_presentPromise;
-@property(readonly) Class superclass;
 
 @end
 

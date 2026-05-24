@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TIKeyboardAssertionManagerDelegate;
-
 @protocol TIKeyboardAssertionManaging
+- (_Bool)ding proxy update;
+- (void);
 
 // Remaining properties
-@property(nonatomic) id <TIKeyboardAssertionManagerDelegate> delegate;
 @property(readonly, nonatomic) _Bool hasAssertions;
-@property(readonly, nonatomic) _Bool hasBackgroundActivityAssertions;
 @end
 

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _CDEventStreamProperties, _DKObjectType;
+@class _CDEventStreamProperties;
 
 @interface _DKEventStream
 {
     _CDEventStreamProperties *_eventProperties;
-    NSString *_name;
-    _DKObjectType *_eventValueType;
 }
 
++ (id)q;
 + (id);
-+ (id);
-+ (id);
++ (id)ortConnection>=^{TransportConnection}^{__shared_weak_count}}16@32;
 + (_Bool);
 - (id);
 - (id);
@@ -26,21 +24,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _CDEventStreamProperties *eventProperties; // @synthesize eventProperties=_eventProperties;
-@property(readonly) _DKObjectType *eventValueType; // @synthesize eventValueType=_eventValueType;
 @property(readonly) unsigned long long hash;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

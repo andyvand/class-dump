@@ -7,11 +7,6 @@
 @interface NewsArticles.PDFReplicaViewerRouter
 {
     id controller;
-    id resolver;
-    id router;
-    id hasVisitedTableOfContents;
-    id featureAvailability;
-    id offlineProvider;
 }
 
 @end

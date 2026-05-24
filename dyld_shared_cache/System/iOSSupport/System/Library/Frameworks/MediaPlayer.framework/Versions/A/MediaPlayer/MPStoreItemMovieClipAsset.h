@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSDictionary;
 
 @interface MPStoreItemMovieClipAsset
 {
@@ -15,16 +15,12 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)CEMSecuritySingleSignOnDeclaration_Kerberos;
 - (id);
 - (void)roperties:trackList:playlistEntryProperties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration;
-@property(readonly, copy, nonatomic) NSString *flavor;
-@property(readonly, copy, nonatomic) NSURL *hlsURL;
 @property(readonly, copy, nonatomic) NSDictionary *lookupDictionary; // @synthesize lookupDictionary=_lookupDictionary;
-@property(readonly, copy, nonatomic) NSURL *url;
 
 @end
 

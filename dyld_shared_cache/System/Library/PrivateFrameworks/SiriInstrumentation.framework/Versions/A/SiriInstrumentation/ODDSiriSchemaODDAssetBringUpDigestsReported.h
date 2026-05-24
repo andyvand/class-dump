@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDFixedDimensions;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDAssetBringUpDigestsReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    _Bool _hasFixedDimensions;
 }
 
 - (void);
@@ -28,23 +26,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)__objc_superrefs__DATA_CONST;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)Ár!EùÞ°1Â0@ù
 × ;
-- (id)raintsAtIndex: /* Error: Ran out of types for this method. */;
+- (id)constraintsAtIndex: /* Error: Ran out of types for this method. */;
 - (id)onsLastInfinity;
 - (id)undleRecencyS;
-- (void)CODE_NG;
+- (void)ISOCOUNTRYCODE_NG;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

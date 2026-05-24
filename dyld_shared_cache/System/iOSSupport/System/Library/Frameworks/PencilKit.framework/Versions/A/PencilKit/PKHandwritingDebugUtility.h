@@ -14,7 +14,7 @@
 + (void);
 + (id);
 + (id);
-+ (void);
++ (void)handleOperationDidCompleteWithMetrics:(id)arg1 error: /* Error: Ran out of types for this method. */;
 
 @end
 

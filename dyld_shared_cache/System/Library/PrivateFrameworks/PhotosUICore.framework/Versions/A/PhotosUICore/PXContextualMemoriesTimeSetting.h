@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateFormatter, NSString;
+@class NSDate, NSDateFormatter;
 
 @interface PXContextualMemoriesTimeSetting
 {
     NSDate *_date;
-    NSDateFormatter *_dateFormatter;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)Վ;
+- (id);
 - (void)0@ù
 × ;
-- (id)mponent;
+- (id)Component;
 - (id)odelManager init];
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *headerTitle;
-@property(readonly, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

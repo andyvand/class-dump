@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, NSArray, NSDictionary;
+@class NSArray;
 
 @interface ML3ContainerItemDiffOperation
 {
     long long _containerPersistentID;
-    NSArray *_updatedItemsPersistentIDs;
-    NSDictionary *_updatedItemsProperties;
-    ML3DatabaseConnection *_connection;
-    NSArray *_containerItemsToUpdate;
-    NSArray *_containerItemsToDelete;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)ea;
+- (void)ndOfSameDayTimestamp;
+- (id)sceneTaxonomyProvider;
+- (id)viousSceneTaxonomy;
+- (id)"NSString",C,N,SsetUUID:,V_uuid /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)_pid NOT IN (SELECT album_pid FROM item);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *containerItemsToDelete; // @synthesize containerItemsToDelete=_containerItemsToDelete;
 @property(retain, nonatomic) NSArray *containerItemsToUpdate; // @synthesize containerItemsToUpdate=_containerItemsToUpdate;
 
 @end

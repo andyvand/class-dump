@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUReachabilityMonitor, NSObject, SFSession, SKSetupCaptiveNetworkJoinServer;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_nw_path_monitor;
+@class SFSession, SKSetupCaptiveNetworkJoinServer;
 
 @interface SFDeviceOperationHandlerCNJSetup
 {
     SKSetupCaptiveNetworkJoinServer *_cnjServer;
-    _Bool _invalidateCalled;
-    CUReachabilityMonitor *_reachabilityMonitor;
-    int _cnsNotifyToken;
-    _Bool _reachabilityDone;
-    CDUnknownBlockType _responseHandler;
-    _Bool _captiveAuthenticated;
-    NSObject<OS_dispatch_source> *_ipAssignTimeout;
-    NSObject<OS_nw_path_monitor> *_pathMonitor;
-    _Bool _didAssignIP;
-    SFSession *_sfSession;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 - (id);
@@ -37,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
 @property(retain, nonatomic) SFSession *sfSession; // @synthesize sfSession=_sfSession;
 
 @end

@@ -9,26 +9,26 @@
 @interface EFPair
 {
     id <NSObject> _first;
-    id <NSObject> _second;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ata;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool)P;
+- (void)+
+;
+- (id)s:(struct _NSZone *)arg1:%s:file path has not been initialized
+ /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)sions/A/MobileStoreDemoCore;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSObject> first; // @synthesize first=_first;
-@property(readonly, nonatomic) id <NSObject> second; // @synthesize second=_second;
 
 @end
 

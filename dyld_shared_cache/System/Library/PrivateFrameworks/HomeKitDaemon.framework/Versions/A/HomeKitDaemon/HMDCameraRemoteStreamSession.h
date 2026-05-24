@@ -6,20 +6,17 @@
 
 #import <HomeKitDaemon/HMDCameraStreamSession.h>
 
-@class NSString;
-@protocol HMDCameraRemoteStreamReceiverProtocol, HMDCameraRemoteStreamSenderProtocol;
+@protocol HMDCameraRemoteStreamSenderProtocol;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRemoteStreamSession : HMDCameraStreamSession
 {
     id <HMDCameraRemoteStreamSenderProtocol> _streamSender;
-    id <HMDCameraRemoteStreamReceiverProtocol> _streamReceiver;
-    unsigned long long _streamState;
 }
 
 + (id)ÿ=]æÿC;
-- (id);
-- (id);
+- (id)_performInitialLoadNotifyingObservers:kickOffSynchronously:completion: /* Error: Ran out of types for this method. */;
+- (id)_performDelegateNotificationBlockIfReady: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -30,17 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *stateDescription;
-@property(readonly) id <HMDCameraRemoteStreamReceiverProtocol> streamReceiver; // @synthesize streamReceiver=_streamReceiver;
 @property(readonly) id <HMDCameraRemoteStreamSenderProtocol> streamSender; // @synthesize streamSender=_streamSender;
-@property unsigned long long streamState; // @synthesize streamState=_streamState;
-@property(readonly) Class superclass;
 
 @end
 

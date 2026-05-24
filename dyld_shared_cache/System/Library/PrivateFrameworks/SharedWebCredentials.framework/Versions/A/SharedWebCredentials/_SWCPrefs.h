@@ -10,7 +10,7 @@
 
 + (id);
 - (double);
-- (id);
+- (id)`;
 - (id);
 - (double);
 - (_Bool);
@@ -20,7 +20,7 @@
 - (double);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)TW;
 - (void);
 - (_Bool);
 - (double);
@@ -28,12 +28,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, getter=isAppleInternal) _Bool appleInternal;
-@property(readonly, getter=isFastCheckEnabled) _Bool fastCheckEnabled;
 @property(readonly) unsigned long long maximumRetryCount;
-@property(readonly) double retryIntervalAfterFailure;
-@property(readonly) double retryIntervalAfterSuccess;
-@property(readonly) _Bool verifyExtendedValidation;
 
 @end
 

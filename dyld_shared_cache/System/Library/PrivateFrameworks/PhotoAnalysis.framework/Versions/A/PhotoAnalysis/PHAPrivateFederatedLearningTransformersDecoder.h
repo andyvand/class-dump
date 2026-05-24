@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void)earCatalogMusicFromCacheWithPhotoLibrary:progressReporter:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)clearCatalogMusicFromCacheWithPhotoLibrary:progressReporter:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *transformerNameToClass; // @synthesize transformerNameToClass=_transformerNameToClass;

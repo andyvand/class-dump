@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MTLDebugLocation
 {
     MTLDebugInstrumentationData *_data;
-    struct DebugLocation *_debugLoc;
 }
 
 - (oneway void);
@@ -21,13 +20,10 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (unsigned int);
-- (id);
+- (id)daemon invalidated.;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int column;
-@property(readonly, nonatomic) MTLDebugLocation *inlinedAt;
-@property(readonly, nonatomic) unsigned int line;
 @property(readonly, nonatomic) MTLDebugSubProgram *scope;
 
 @end

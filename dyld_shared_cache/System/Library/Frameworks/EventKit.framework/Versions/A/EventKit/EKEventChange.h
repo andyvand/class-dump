@@ -6,16 +6,9 @@
 
 #import <EventKit/EKCalendarItemChange.h>
 
-@class EKObjectID;
-
 @interface EKEventChange : EKCalendarItemChange
 {
     _Bool _availabilityChanged;
-    _Bool _privacyLevelChanged;
-    _Bool _travelTimeChanged;
-    _Bool _travelStartLocationChanged;
-    _Bool _statusChanged;
-    EKObjectID *_originalItemID;
 }
 
 + (int);
@@ -23,19 +16,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)state. Giving up.;
+- (_Bool)in state:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)mte;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool availabilityChanged; // @synthesize availabilityChanged=_availabilityChanged;
-@property(readonly, nonatomic) EKObjectID *originalItemID; // @synthesize originalItemID=_originalItemID;
-@property(readonly, nonatomic) _Bool privacyLevelChanged; // @synthesize privacyLevelChanged=_privacyLevelChanged;
-@property(readonly, nonatomic) _Bool statusChanged; // @synthesize statusChanged=_statusChanged;
-@property(readonly, nonatomic) _Bool travelStartLocationChanged; // @synthesize travelStartLocationChanged=_travelStartLocationChanged;
-@property(readonly, nonatomic) _Bool travelTimeChanged; // @synthesize travelTimeChanged=_travelTimeChanged;
 
 @end
 

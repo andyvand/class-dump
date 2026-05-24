@@ -4,60 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface BMPBContextualActionEvent
 {
     NSString *_actionName;
-    NSString *_appName;
-    NSMutableArray *_contents;
-    NSString *_identifier;
-    NSMutableArray *_parameters;
 }
 
-+ (Class);
++ (Class);
 + (Class)ictionary"16;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long):8^S16C24^S28C36 /* Error: Ran out of types for this method. */;
+- (void)videoConference:(id)arg1 didReceiveData:forCallID: /* Error: Ran out of types for this method. */;
+- (void)startRecordingWithContext:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ndle;
+- (id)WOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/TCPTunnelClient.m:(unsigned long long)arg1 %d:TCPTUNNEL:socket error, tear down the connection. /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id)racters:%{public}ld before:%{public}@. Now composing '%{private}@' (length:%{public}lu) /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)_lprPowerType;
+- (void);
+- (void)decodeIntegerForKey:(id)arg1;
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id);;
 - (_Bool);
 - (id);
 - (void) !";
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
-@property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(retain, nonatomic) NSMutableArray *contents; // @synthesize contents=_contents;
-@property(readonly, nonatomic) _Bool hasActionName;
-@property(readonly, nonatomic) _Bool hasAppName;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSMutableArray *parameters; // @synthesize parameters=_parameters;
 
 @end
 

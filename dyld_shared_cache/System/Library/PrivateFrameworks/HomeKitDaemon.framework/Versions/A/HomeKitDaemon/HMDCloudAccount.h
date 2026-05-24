@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudAccount
 {
     NSObject<OS_dispatch_queue> *_clientQueue;
-    NSOperationQueue *_queue;
 }
 
 - (id);
 - (id)ryInfoProtoPublicPairingIdentity",N,&;
-- (void)DatabaseID;
+- (void)MKFCharacteristicEventDatabaseID;
 - (id)Clear or MTRDoorLockDataOperationTypeAdd (we are not clearing or adding the credential, we are modifying it).;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
 
 @end
 

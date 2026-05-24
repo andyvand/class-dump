@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeNotificationsStackModel
 {
     id _item;
-    id _$observationRegistrar;
 }
 
 @end

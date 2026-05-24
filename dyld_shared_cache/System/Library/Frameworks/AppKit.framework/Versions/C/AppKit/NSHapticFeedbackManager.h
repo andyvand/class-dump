@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)_sessionSendsLaunchOnDemandEvents;
 + (void);
 
 @end

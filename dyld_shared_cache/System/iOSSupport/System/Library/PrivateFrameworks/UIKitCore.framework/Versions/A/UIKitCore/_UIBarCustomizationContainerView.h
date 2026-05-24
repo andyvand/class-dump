@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
+- (void)shouldFilterIncomingMessages;
+- (void)repairACAccountEnablementStatusIfNeeded;
+- (id)_previousDisplayName;
 - (void);
 - (id);
 - (void)^;

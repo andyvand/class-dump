@@ -6,15 +6,12 @@
 
 #import <OfficeImport/MFPGradientBrush.h>
 
-@class NSArray, OITSUBezierPath, OITSUColor;
+@class OITSUColor;
 
 __attribute__((visibility("hidden")))
 @interface MFPPathGradientBrush : MFPGradientBrush
 {
     OITSUColor *mCenterColor;
-    struct CGPoint mCenterPoint;
-    NSArray *mSurroundColors;
-    OITSUBezierPath *mPath;
 }
 
 - (void);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void)è;
 

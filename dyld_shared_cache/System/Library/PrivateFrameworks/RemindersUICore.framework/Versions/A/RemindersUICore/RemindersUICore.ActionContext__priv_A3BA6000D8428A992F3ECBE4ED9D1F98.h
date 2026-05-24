@@ -7,16 +7,6 @@
 @interface RemindersUICore.ActionContext__priv_A3BA6000D8428A992F3ECBE4ED9D1F98
 {
     id hostInteractor;
-    id internalSuggestionContext;
-    id pendingMoveCapability;
-    id saveRequest;
-    id accounts;
-    id initialListChangeItem;
-    id extractorResult;
-    id groceryListCreationContext;
-    id uncommittedReminderByID;
-    id uncommittedList;
-    id reminderIDWithExtractorResultApplied;
 }
 
 @end

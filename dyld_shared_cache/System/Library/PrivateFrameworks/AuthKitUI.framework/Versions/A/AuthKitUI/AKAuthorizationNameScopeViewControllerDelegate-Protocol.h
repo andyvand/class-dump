@@ -5,5 +5,9 @@
 //
 
 @protocol AKAuthorizationNameScopeViewControllerDelegate
+
+@optional
+- (void);
+- (void)NCFNumberRef;
 @end
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface AMSUserNotificationAuthorizationOptions
 {
     _Bool _userInitiated;
-    unsigned long long _authorizationOptions;
-    NSDictionary *_metricsOverlay;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)p;
+- (id)sing sandbox extension):%@ /* Error: Ran out of types for this method. */;
+- (void)B12;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)52@60@68;
+- (void)_MRNowPlayingClientProtobuf;
 - (id);
 - (id);
 - (void)ZøÒ°A¤TÌ¯ßftýTè1Ì;
@@ -32,8 +28,6 @@
 
 // Remaining properties
 @property unsigned long long authorizationOptions; // @synthesize authorizationOptions=_authorizationOptions;
-@property(retain) NSDictionary *metricsOverlay; // @synthesize metricsOverlay=_metricsOverlay;
-@property _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end
 

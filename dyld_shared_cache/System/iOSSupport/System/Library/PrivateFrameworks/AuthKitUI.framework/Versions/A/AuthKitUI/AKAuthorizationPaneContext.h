@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationPaneViewController, NSMutableArray, UIStackView;
+@class AKAuthorizationPaneViewController, NSMutableArray;
 
 @interface AKAuthorizationPaneContext
 {
     AKAuthorizationPaneViewController *_paneViewController;
-    UIStackView *_stackView;
-    NSMutableArray *_internalMutableConstraints;
 }
 
 - (void);
@@ -26,9 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *internalMutableConstraints; // @synthesize internalMutableConstraints=_internalMutableConstraints;
-@property(readonly, nonatomic) NSMutableArray *mutableConstraints;
-@property(readonly, nonatomic) AKAuthorizationPaneViewController *paneViewController; // @synthesize paneViewController=_paneViewController;
-@property(readonly, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
 
 @end
 

@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlace, GEOPDPlaceRequest, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPLocalityFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDPlaceRequest *_placeRequest;
-    GEOPDPlace *_place;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_placeRequest:1;
-        unsigned int read_place:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etCm:(id)arg1;
-- (void);
++ (_Bool)setLastValidUserOffsetCm:(id)arg1;
+- (void)`;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (id);
+- (void)h;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)writeToFile:options:error: /* Error: Ran out of types for this method. */;
+- (void)SpeakerRecognition;
+- (void)voke;
 - (id);
 - (unsigned long long);
 - (id);
@@ -44,19 +32,15 @@
 - (void);
 - (id)"GEOPDPlaceSummaryLayoutUnitHighlightMain";
 - (void)90"b1"has_winDistanceKmP95"b1"has_winDistanceKmP99"b1"has_hasBelowStreetGeo"b1"has_isBlendingScope"b1"has_isMixedIntent"b1"read_center"b1"read_mapRegion"b1"read_multiMapRegion"b1"read_winDistanceGeohash4"b1"wrote_anyField"b1};
-- (_Bool)ddress;
-- (id)intToInsert: /* Error: Ran out of types for this method. */;
-- (id)SubactionTypeAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)spokenAddress;
+- (id)setWaypointToInsert: /* Error: Ran out of types for this method. */;
+- (id)childItemSubactionTypeAtIndex: /* Error: Ran out of types for this method. */;
 - (id)xæÀæéé;
 - (id)et;
 - (void)¯_°¶O@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlace;
-@property(readonly, nonatomic) _Bool hasPlaceRequest;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(retain, nonatomic) GEOPDPlaceRequest *placeRequest;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

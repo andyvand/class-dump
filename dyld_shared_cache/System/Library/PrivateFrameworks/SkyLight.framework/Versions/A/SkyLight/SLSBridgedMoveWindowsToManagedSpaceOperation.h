@@ -11,20 +11,18 @@
 @interface SLSBridgedMoveWindowsToManagedSpaceOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     NSArray *_windows;
-    unsigned long long _spaceID;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)group_concat(ATTRIBUTENAME) FROM %@ GROUP BY ENTITYID, PRIMEKEY;
+- (id)ary keys;
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 @property(readonly, copy) NSArray *windows; // @synthesize windows=_windows;
 
 @end

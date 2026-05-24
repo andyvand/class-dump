@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)_myReadToHisWriteError;
+- (id)H;
+- (id)NSAllowsArbitraryLoadsInWebContent;
 
 @end
 

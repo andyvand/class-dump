@@ -15,12 +15,13 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)annelsPerFrame;
+- (id)specialSeekForwardCommand;
+- (id);
+- (void)er.usernotifications.filtering;
+- (void)_acquire;
+- (id)dleIdentifier:(struct _NSZone *)arg1 %@
+;
+- (void)channelsPerFrame;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;

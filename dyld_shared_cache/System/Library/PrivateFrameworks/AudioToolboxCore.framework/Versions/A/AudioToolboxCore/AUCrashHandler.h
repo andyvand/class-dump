@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AUCrashHandler
 {
     NSXPCConnection *_connectionToService;
-    CDUnknownBlockType _crashCallback;
 }
 
 - (id);

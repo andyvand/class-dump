@@ -9,17 +9,11 @@
 @interface UIKit._UITabBarAuxiliaryView : UIView
 {
     id tabBarButton;
-    id minimizedTabButton;
-    id displayState;
-    id minimizedItemSize;
-    id minimizedItemInset;
-    id primaryPlatterView;
-    id minimizedPlatterView;
 }
 
 - (id);
 - (void);
-- (id)ionView;
+- (id)UIKBMultilingualSettingIntroductionView;
 - (void)@«l;
 
 @end

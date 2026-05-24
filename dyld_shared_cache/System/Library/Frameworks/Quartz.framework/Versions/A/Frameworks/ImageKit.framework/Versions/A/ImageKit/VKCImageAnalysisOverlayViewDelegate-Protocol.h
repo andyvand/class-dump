@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSView;
+
 @protocol VKCImageAnalysisOverlayViewDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (void);
+- (NSView *)`";
 @end
 

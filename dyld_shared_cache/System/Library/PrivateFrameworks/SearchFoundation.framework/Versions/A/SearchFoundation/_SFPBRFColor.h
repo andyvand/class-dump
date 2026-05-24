@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFOptionalFloat, _SFPBRFRGBValue;
+@class _SFPBRFRGBValue;
 
 @interface _SFPBRFColor
 {
     int _name;
-    _SFPBRFRGBValue *_rgb_value;
-    _SFPBRFOptionalFloat *_alpha;
-    unsigned long long _whichValue;
 }
 
 - (unsigned long long);
@@ -24,8 +21,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)publicPHObjectChangeClasses;
+- (id)re not deleted:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -33,18 +30,7 @@
 - (void)renceRichCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFOptionalFloat *alpha; // @synthesize alpha=_alpha;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int name; // @synthesize name=_name;
 @property(retain, nonatomic) _SFPBRFRGBValue *rgb_value; // @synthesize rgb_value=_rgb_value;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long whichValue; // @synthesize whichValue=_whichValue;
 
 @end
 

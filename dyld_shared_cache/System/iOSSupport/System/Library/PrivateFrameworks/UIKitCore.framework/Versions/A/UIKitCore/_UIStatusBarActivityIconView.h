@@ -6,26 +6,23 @@
 
 #import <UIKitCore/_UIStatusBarImageView.h>
 
-@class CAShapeLayer, NSString;
+@class CAShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarActivityIconView : _UIStatusBarImageView
 {
     _Bool _ringing;
-    double _ringingIconScale;
-    CAShapeLayer *_innerRingShapeLayer;
-    CAShapeLayer *_outerRingShapeLayer;
 }
 
+- (void)setEndTime:forItemWithPlayParameters: /* Error: Ran out of types for this method. */;
+- (void)k;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)ùQf°1Â0@ù
 × ;
-- (void)atingResponder;
+- (void)_originatingResponder;
 - (id)dditional info:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (struct UIEdgeInsets)É;
@@ -33,15 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)_;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CAShapeLayer *innerRingShapeLayer; // @synthesize innerRingShapeLayer=_innerRingShapeLayer;
-@property(retain, nonatomic) CAShapeLayer *outerRingShapeLayer; // @synthesize outerRingShapeLayer=_outerRingShapeLayer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,17 +6,12 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class NSMutableArray, NSMutableDictionary;
-@protocol CKMapShareURLsToInstalledBundleIDsOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDMapShareURLsToInstalledBundleIDsOperation : CKDOperation
 {
     CDUnknownBlockType _bundleIDsFetchedBlock;
-    NSMutableArray *_shareURLs;
-    NSMutableDictionary *_shareMetadatasByURL;
 }
 
-+ (id);
++ (id)setRxUcastCTSOverRxCtrlFrmsPercentage:(unsigned long long)arg1;
 - (id);
 - (void);
 - (void);
@@ -26,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)chatGUID;
 - (_Bool);
 - (id);
 - (void);
@@ -35,10 +30,6 @@
 - (void)hen fetching record PCS:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType bundleIDsFetchedBlock; // @synthesize bundleIDsFetchedBlock=_bundleIDsFetchedBlock;
-@property(retain, nonatomic) id <CKMapShareURLsToInstalledBundleIDsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) NSMutableDictionary *shareMetadatasByURL; // @synthesize shareMetadatasByURL=_shareMetadatasByURL;
-@property(retain, nonatomic) NSMutableArray *shareURLs; // @synthesize shareURLs=_shareURLs;
 @property(nonatomic) unsigned long long state; // @dynamic state;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <ChronoServices/CHSControlConfiguration.h>
 
-@class CHSRemoteDevicePredicate, NSArray;
+@class NSArray;
 
 @interface CHSMutableControlConfiguration : CHSControlConfiguration
 {
@@ -24,14 +24,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)rH;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyOrphaned;
 @property(nonatomic, copy) NSArray *controlItems;
-@property(nonatomic) double expirationTimeout;
-@property(nonatomic, retain) CHSRemoteDevicePredicate *replicationPredicate;
 
 @end
 

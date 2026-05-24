@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDouble, _INPBInteger, _INPBString;
+@class _INPBDouble;
 
 @interface _INPBWellnessMetadataValue
 {
     struct _has;
-    _INPBDouble *_pbDoubleValue;
-    _INPBInteger *_ordinalValue;
-    _INPBString *_pbStringValue;
 }
 
 + (_Bool);
@@ -27,27 +24,15 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)4;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)penSettingIntentResponseCodeFailureSettingUnsupported;
+- (void)INOpenSettingIntentResponseCodeFailureSettingUnsupported;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasOrdinalValue;
-@property(readonly, nonatomic) _Bool hasPbDoubleValue;
-@property(readonly, nonatomic) _Bool hasPbStringValue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBInteger *ordinalValue; // @synthesize ordinalValue=_ordinalValue;
 @property(retain, nonatomic) _INPBDouble *pbDoubleValue; // @synthesize pbDoubleValue=_pbDoubleValue;
-@property(retain, nonatomic) _INPBString *pbStringValue; // @synthesize pbStringValue=_pbStringValue;
-@property(readonly) Class superclass;
 
 @end
 

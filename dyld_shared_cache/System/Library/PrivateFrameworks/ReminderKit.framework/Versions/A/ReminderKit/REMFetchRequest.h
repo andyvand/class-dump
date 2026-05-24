@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class REMFetchResultToken, _REMFetchExecutor;
+@class _REMFetchExecutor;
 
 @interface REMFetchRequest
 {
     unsigned long long _fetchLimit;
-    _REMFetchExecutor *_fetchExecutor;
-    REMFetchResultToken *_fetchResultToken;
-    long long _type;
 }
 
 + (_Bool);
-- (id);
+- (id)H;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -32,7 +29,7 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (void)1Â0@ù
 × ;
@@ -40,9 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _REMFetchExecutor *fetchExecutor; // @synthesize fetchExecutor=_fetchExecutor;
-@property(nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(retain, nonatomic) REMFetchResultToken *fetchResultToken; // @synthesize fetchResultToken=_fetchResultToken;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface Safari.RWIApplicationDetailViewModel
 {
     id _application;
-    id _jsContextAutoInspectionPolicy;
-    id _serviceWorkerAutoInspectionPolicy;
-    id _$observationRegistrar;
 }
 
 @end

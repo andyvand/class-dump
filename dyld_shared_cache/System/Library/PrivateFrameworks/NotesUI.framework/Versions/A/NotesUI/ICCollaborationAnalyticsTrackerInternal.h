@@ -7,9 +7,6 @@
 @interface ICCollaborationAnalyticsTrackerInternal
 {
     id trackedShareMetrics;
-    id trackedShareMetricsObservers;
-    id delegate;
-    id shareAnalyticsQueue;
 }
 
 - (void);

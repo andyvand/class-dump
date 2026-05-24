@@ -6,19 +6,16 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIColorControls : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputSaturation;
-    NSNumber *inputBrightness;
-    NSNumber *inputContrast;
 }
 
 + (id);
-- (void);
+- (void)k;
 - (id);
 - (id);
 - (void);
@@ -29,10 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)vwsxysly©©©©¨®®¢¢¢¢wwwwXe_eN\T]`c^cuuuuonfqfe[fUg_m}}}}}hh`o`iblssssfvswtsntUeZspvoM_Sh?WI`vvvvpzz||||wwwweniouuuuxxxx`kgpVb[e____J\T\\\R\M]TfxxxxUle~eyu=^Qw_oizozwwxt~~~~uuuuJe`mmmmmiiii__W_EPC[\e^errrrivszkwtIaVrHcYt    zhhghNRGRTTLTqqqqkxv;\QoP_Sj]ngv|    ¢§§m}Giaxzzzzxxxx<]QoloixVvs~~~~?VKcRd]i;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputBrightness; // @synthesize inputBrightness;
-@property(retain, nonatomic) NSNumber *inputContrast; // @synthesize inputContrast;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputSaturation; // @synthesize inputSaturation;
 
 @end
 

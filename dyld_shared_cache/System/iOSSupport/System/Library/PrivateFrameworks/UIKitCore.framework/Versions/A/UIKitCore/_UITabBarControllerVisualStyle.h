@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILongPressGestureRecognizer, UITabBarController, UITapGestureRecognizer, _UIScrollPocketContainerInteraction;
+@class UITabBarController, UITapGestureRecognizer;
 
 @interface _UITabBarControllerVisualStyle
 {
     UITapGestureRecognizer *_backGestureRecognizer;
-    UITapGestureRecognizer *_selectGestureRecognizer;
-    UILongPressGestureRecognizer *_accessibilityLongPressGestureRecognizer;
-    _UIScrollPocketContainerInteraction *_tabBarScrollPocketContainerInteraction;
-    _Bool _suppressTabBarControllerNotification;
-    _Bool _barHidden;
-    _Bool _isBottomBarSuppressedByNavigation;
-    UITabBarController *_tabBarController;
 }
 
 - (void);
@@ -24,8 +17,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -41,8 +34,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -65,28 +58,28 @@
 - (_Bool);
 - (struct UIEdgeInsets);
 - (id);
-- (struct CGRect);
+- (struct CGRect)16@"NSString"24@"NSString"32@"NSString"40C48@"NSString"52;
+- (void)@"NSDictionary"20;
+- (void)8@16@24d32@40;
+- (_Bool)"NSNumber"32@"NSString"40@"NSString"48B56;
+- (_Bool)"NSString"188@"IDSService"196@204B212B216B220B224B228q232q240@?<v@?>248;
+- (_Bool)4@"NSString"172@"NSString"180@"NSString"188@"IDSService"196@204B212B216B220B224B228q232q240@?<v@?>248;
+- (struct UIEdgeInsets)0:8@"IMDRelayPushHandler"16@"BlastDoorTranslationCommand"24 /* Error: Ran out of types for this method. */;
+- (long long)updateSMSFilterCapabilitiesOptionsForDeviceID:smsFilterCapabilitiesOptions:filterExtensionName: /* Error: Ran out of types for this method. */;
+- (struct CGRect)sharedHelper;
+- (struct CGRect)sharedFeatureFlags;
+- (struct CGRect)set_broadcasterForTesting:(struct CGRect)arg1;
+- (void)setValue:(id)arg1 ofProperty: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)setTimeExpressiveSentPlayed: /* Error: Ran out of types for this method. */;
+- (void)isGroupInBlocklist: /* Error: Ran out of types for this method. */;
+- (id)fileTransfer:explicitDownloadSucceededWithPath:livePhotoBundlePath: /* Error: Ran out of types for this method. */;
 - (void);
+- (void),;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct UIEdgeInsets);
-- (long long);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)that is in an urgent message grace period, should ignore do not disturb;
+- (void)iled part delivery. GUID:(id)arg1 %@;
+- (void)wngrade flag;
+- (void)ror:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)1Â0@ù
@@ -94,47 +87,26 @@
 - (void)°!ø@ùa°1Â0@ù
 × ;
 - (void)utViewKeylineView";
-- (void):(_Bool)arg1;
-- (_Bool)ableAnimationTracking:(id)arg1 clearTrackedAnimations:(id)arg2;
+- (void)_setUseInlineBackgroundHeightWhenLarge:(_Bool)arg1;
+- (_Bool)_disableAnimationTracking:(id)arg1 clearTrackedAnimations:(id)arg2;
 - (void)_customizeLetterSymbolStyle:forKey: /* Error: Ran out of types for this method. */;
-- (void)ship: /* Error: Ran out of types for this method. */;
+- (void)setShouldTransferViewOwnership: /* Error: Ran out of types for this method. */;
 - (void)¸þÿ;
 - (id)itViewControllerSeparatorTrackingAdapter.m;
-- (void)ePanRecognizerTouchModifierNone;
+- (void)_UIScreenEdgePanRecognizerTouchModifierNone;
 - (long long)tionController:] requires at least one of viewController or navigationController to be non-nil /* Error: Ran out of types for this method. */;
 - (long long)yFA03y;
 - (void);
 - (_Bool)QH23´Y;
 - (long long);
-- (id)onState;
+- (id)DataSourceBackedViewIntelligenceCollectionState;
 - (void);
 - (void)-;
 - (long long);
 - (void)ám`;
 
 // Remaining properties
-@property(readonly, nonatomic) long long backGestureRecognizerPressType;
-@property(nonatomic, getter=isBarHidden) _Bool barHidden; // @synthesize barHidden=_barHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool ignoresDefaultTabBarVisibilityAnimation;
-@property(readonly, nonatomic) _Bool isBottomBarSuppressedByNavigation; // @synthesize isBottomBarSuppressedByNavigation=_isBottomBarSuppressedByNavigation;
-@property(readonly, nonatomic) _Bool isTabBarEffectivelyHidden;
-@property(readonly, nonatomic) _Bool overrideUISplitViewControllerToCompact;
-@property(readonly, nonatomic) _Bool prefersTabBarFocusedOnViewDidLoad;
-@property(readonly, nonatomic) _Bool removeTabBarFocusedOnViewDidDisappear;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsFocusGestures;
-@property(readonly, nonatomic) _Bool supportsShowingMoreItem;
-@property(readonly, nonatomic) _Bool suppressesEditingUI;
 @property(readonly, nonatomic) __weak UITabBarController *tabBarController; // @synthesize tabBarController=_tabBarController;
-@property(readonly, nonatomic) unsigned long long tabBarFocusSpeedBumpEdges;
-@property(readonly, nonatomic) _Bool updatesTabBarFocusHeadingOnChange;
-@property(readonly, nonatomic) _Bool wantsDefaultTabBar;
 
 @end
 

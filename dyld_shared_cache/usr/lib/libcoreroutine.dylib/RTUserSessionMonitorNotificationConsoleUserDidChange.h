@@ -11,9 +11,9 @@
     _Bool _activeUser;
 }
 
+- (id)(	;
 - (id);
-- (id);
-- (_Bool)ir;
+- (_Bool)ODPair;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=activeUser) _Bool activeUser; // @synthesize activeUser=_activeUser;

@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString;
-@protocol _MKPlaceReservationDelegate;
+@class NSArray, NSString;
 
 @interface _MKPlaceReservationInfo
 {
     NSString *_attributionProviderDisplayName;
-    NSImage *_attributionProviderLogoImage;
-    NSArray *_openTimes;
-    id <_MKPlaceReservationDelegate> _reservationDelegate;
 }
 
+- (id)XPC Send Message - not batched xpcSendMessageWithRateLimitingforClient:%d withKey:%@ message %@ /* Error: Ran out of types for this method. */;
+- (id)erval:originalStartDate=%@, currentStartDate=%@, endDate=%@, openCount=%f, startCount=%f /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ModifierFlags: /* Error: Ran out of types for this method. */;
+- (id)';
+- (void)setModifierFlags: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *attributionProviderDisplayName; // @synthesize attributionProviderDisplayName=_attributionProviderDisplayName;
-@property(readonly, nonatomic) NSImage *attributionProviderLogoImage; // @synthesize attributionProviderLogoImage=_attributionProviderLogoImage;
 @property(readonly, copy, nonatomic) NSArray *openTimes; // @synthesize openTimes=_openTimes;
-@property(readonly, nonatomic) __weak id <_MKPlaceReservationDelegate> reservationDelegate; // @synthesize reservationDelegate=_reservationDelegate;
 
 @end
 

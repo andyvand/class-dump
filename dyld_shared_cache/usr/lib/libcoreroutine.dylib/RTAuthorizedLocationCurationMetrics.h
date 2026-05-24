@@ -7,17 +7,6 @@
 @interface RTAuthorizedLocationCurationMetrics
 {
     float _maxCumulativeDwellTimeForNotFamiliarLoiHours;
-    int _maxUniqueVisitDaysForNotFamiliarLois;
-    int _ageDaysRegistry;
-    int _ageDaysFirstAnyLoiVisit;
-    int _ageDaysFirstTopLoiVisit;
-    int _ageDaysFirstTopLoiRegisteredVisit;
-    int _ageDaysFirstTopLoiGeoVisit;
-    float _visitRegistrationFraction;
-    float _registrationUsesBestTimeFraction;
-    int _visitsToTopLOIWithTechAvailabilityKnown;
-    float _fractionOfVisitsToTopLOIWithGPS;
-    float _fractionOfVisitsToTopLOIWithWiFiHI;
 }
 
 - (int);
@@ -37,28 +26,19 @@
 - (float);
 - (int);
 - (float);
+- (float)tity %@;
+- (int)push_notifications;
+- (int)fetch_record_zone_changes;
+- (int)rdModify:%lld
+ /* Error: Ran out of types for this method. */;
+- (int)Notifications:%lld
+ /* Error: Ran out of types for this method. */;
 - (float);
-- (int);
-- (int);
-- (int);
-- (int);
-- (float);
-- (int);
+- (int)9;
 - (id);
 
 // Remaining properties
-@property int ageDaysFirstAnyLoiVisit; // @synthesize ageDaysFirstAnyLoiVisit=_ageDaysFirstAnyLoiVisit;
-@property int ageDaysFirstTopLoiGeoVisit; // @synthesize ageDaysFirstTopLoiGeoVisit=_ageDaysFirstTopLoiGeoVisit;
-@property int ageDaysFirstTopLoiRegisteredVisit; // @synthesize ageDaysFirstTopLoiRegisteredVisit=_ageDaysFirstTopLoiRegisteredVisit;
-@property int ageDaysFirstTopLoiVisit; // @synthesize ageDaysFirstTopLoiVisit=_ageDaysFirstTopLoiVisit;
-@property int ageDaysRegistry; // @synthesize ageDaysRegistry=_ageDaysRegistry;
-@property float fractionOfVisitsToTopLOIWithGPS; // @synthesize fractionOfVisitsToTopLOIWithGPS=_fractionOfVisitsToTopLOIWithGPS;
-@property float fractionOfVisitsToTopLOIWithWiFiHI; // @synthesize fractionOfVisitsToTopLOIWithWiFiHI=_fractionOfVisitsToTopLOIWithWiFiHI;
 @property float maxCumulativeDwellTimeForNotFamiliarLoiHours; // @synthesize maxCumulativeDwellTimeForNotFamiliarLoiHours=_maxCumulativeDwellTimeForNotFamiliarLoiHours;
-@property int maxUniqueVisitDaysForNotFamiliarLois; // @synthesize maxUniqueVisitDaysForNotFamiliarLois=_maxUniqueVisitDaysForNotFamiliarLois;
-@property float registrationUsesBestTimeFraction; // @synthesize registrationUsesBestTimeFraction=_registrationUsesBestTimeFraction;
-@property float visitRegistrationFraction; // @synthesize visitRegistrationFraction=_visitRegistrationFraction;
-@property int visitsToTopLOIWithTechAvailabilityKnown; // @synthesize visitsToTopLOIWithTechAvailabilityKnown=_visitsToTopLOIWithTechAvailabilityKnown;
 
 @end
 

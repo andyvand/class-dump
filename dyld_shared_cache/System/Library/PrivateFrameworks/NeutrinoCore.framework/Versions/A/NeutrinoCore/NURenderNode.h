@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioMix, AVComposition, AVVideoComposition, CIImage, NSDictionary, NSMutableDictionary, NSString, NUGeometrySpaceMap, NUImageGeometry;
-@protocol NUImageProperties, NUVideoProperties;
+@class CIImage;
 
 @interface NURenderNode
 {
     unsigned long long _hashValue;
-    _Bool _isGeometryNode;
-    _Bool _cached;
-    _Bool _isCached;
-    NSDictionary *_inputs;
-    NSDictionary *_settings;
-    NSDictionary *_xforms;
-    CIImage *_cached_outputImage;
-    NSMutableDictionary *_cached_auxiliaryImages;
-    AVComposition *_cached_outputVideo;
-    AVVideoComposition *_cached_outputVideoComposition;
-    AVAudioMix *_cached_outputAudioMix;
-    NUImageGeometry *_cached_outputImageGeometry;
-    id <NUImageProperties> _cached_imageProperties;
-    id <NUVideoProperties> _cached_videoProperties;
-    NUGeometrySpaceMap *_cached_geometrySpaceMap;
-    long long __evaluatedForMode;
-    NSString *_dominantInputKey;
-    NSString *_spaceMapKey;
-    double _nodeCreationTime;
-    NSString *_nodeCreationJobName;
-    long long _cacheHitsCount;
 }
 
 + (id);
@@ -45,9 +23,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)w;
 - (void);
 - (void);
 - (void);
@@ -69,7 +47,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (double);
 - (id);
 - (id);
@@ -99,19 +77,19 @@
 - (id);
 - (id);
 - (id);
+- (id)R>;
+- (id);
+- (long long);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)hju8;
 - (id);
 - (id);
 - (id);
@@ -135,32 +113,10 @@
 × ;
 - (void);
 - (id)ibutes:] /* Error: Ran out of types for this method. */;
-- (unsigned long long)geStatistics;
+- (unsigned long long)smartStyleImageStatistics;
 
 // Remaining properties
-@property long long _evaluatedForMode; // @synthesize _evaluatedForMode=__evaluatedForMode;
-@property(nonatomic) long long cacheHitsCount; // @synthesize cacheHitsCount=_cacheHitsCount;
-@property(getter=isCached) _Bool cached; // @synthesize cached=_cached;
-@property(retain) NSMutableDictionary *cached_auxiliaryImages; // @synthesize cached_auxiliaryImages=_cached_auxiliaryImages;
-@property(retain) NUGeometrySpaceMap *cached_geometrySpaceMap; // @synthesize cached_geometrySpaceMap=_cached_geometrySpaceMap;
-@property(retain) id <NUImageProperties> cached_imageProperties; // @synthesize cached_imageProperties=_cached_imageProperties;
-@property(retain) AVAudioMix *cached_outputAudioMix; // @synthesize cached_outputAudioMix=_cached_outputAudioMix;
 @property(retain) CIImage *cached_outputImage; // @synthesize cached_outputImage=_cached_outputImage;
-@property(retain) NUImageGeometry *cached_outputImageGeometry; // @synthesize cached_outputImageGeometry=_cached_outputImageGeometry;
-@property(retain) AVComposition *cached_outputVideo; // @synthesize cached_outputVideo=_cached_outputVideo;
-@property(retain) AVVideoComposition *cached_outputVideoComposition; // @synthesize cached_outputVideoComposition=_cached_outputVideoComposition;
-@property(retain) id <NUVideoProperties> cached_videoProperties; // @synthesize cached_videoProperties=_cached_videoProperties;
-@property(readonly, nonatomic) NSString *dominantInputKey; // @synthesize dominantInputKey=_dominantInputKey;
-@property(nonatomic) long long evaluatedForMode;
-@property(readonly) NSDictionary *inputs; // @synthesize inputs=_inputs;
-@property(readonly, nonatomic) _Bool isCached; // @synthesize isCached=_isCached;
-@property(readonly) _Bool isGeometryNode; // @synthesize isGeometryNode=_isGeometryNode;
-@property(readonly) _Bool isPlaceholderNode;
-@property(retain, nonatomic) NSString *nodeCreationJobName; // @synthesize nodeCreationJobName=_nodeCreationJobName;
-@property(readonly, nonatomic) double nodeCreationTime; // @synthesize nodeCreationTime=_nodeCreationTime;
-@property(readonly) NSDictionary *settings; // @synthesize settings=_settings;
-@property(readonly, nonatomic) NSString *spaceMapKey; // @synthesize spaceMapKey=_spaceMapKey;
-@property(readonly) NSDictionary *xforms; // @synthesize xforms=_xforms;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatCacheManager
 {
     id cacheDirectories;
-    id queue;
-    id indexCache;
-    id fileCache;
 }
 
 @end

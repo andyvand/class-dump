@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AKAuthenticatableResource
 {
     long long _resourceType;
-    NSString *_resourceName;
-    NSString *_customShieldTitle;
-    NSString *_customShieldDetailText;
-    NSString *_customShieldAssetID;
 }
 
 + (_Bool);
@@ -35,18 +29,7 @@
 - (long long)Eù>äôºs'ÒEªóp¼s°CZï	¤r¿@Á6J§éNü Ø;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *customShieldAssetID; // @synthesize customShieldAssetID=_customShieldAssetID;
-@property(copy, nonatomic) NSString *customShieldDetailText; // @synthesize customShieldDetailText=_customShieldDetailText;
-@property(copy, nonatomic) NSString *customShieldTitle; // @synthesize customShieldTitle=_customShieldTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *resourceName; // @synthesize resourceName=_resourceName;
 @property(nonatomic) long long resourceType; // @synthesize resourceType=_resourceType;
-@property(readonly) Class superclass;
 
 @end
 

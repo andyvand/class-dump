@@ -9,16 +9,15 @@
 @interface CDPDRemoteDeviceSecretValidator : CDPDDeviceSecretValidator
 {
     CDUnknownBlockType _requestToJoinCompletion;
-    _Bool _isWaitingForRemoteApproval;
 }
 
+- (void)UnifiedTabBarVisualEffectView;
+- (void)RemoteNotificationVerificationRequestProxyDelegate;
+- (id)OneStepBookmarkingButtonController;
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

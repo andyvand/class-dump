@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RTContactsManager, RTDefaultsManager, RTStarkManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SMCarPlayAlertManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    RTContactsManager *_contactsManager;
-    RTDefaultsManager *_defaultsManager;
-    RTStarkManager *_starkManager;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)KeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
+- (id)_iCDP;
+- (id)_firstStep;
 - (id);
 - (id)ì+;
 - (void)ectivePairedDevice changed %@;
 - (id)er not satisfying:receiverHandles && receiverHandles.count /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) RTContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) RTStarkManager *starkManager; // @synthesize starkManager=_starkManager;
 
 @end
 

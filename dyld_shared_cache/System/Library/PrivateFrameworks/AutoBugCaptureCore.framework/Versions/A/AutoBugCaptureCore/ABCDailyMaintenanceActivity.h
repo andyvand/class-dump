@@ -10,7 +10,7 @@
 {
 }
 
-+ (const char *);
++ (const char *)queue_subscriptions;
 + (long long);
 + (id);
 

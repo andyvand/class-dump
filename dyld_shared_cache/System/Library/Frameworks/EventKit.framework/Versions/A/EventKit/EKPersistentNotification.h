@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (id);
-- (id);
+- (void)Operation"8;
+- (id)ef, float, __strong dispatch_queue_t, __strong MRExternalDeviceSetVolumeCallback);
+- (id)#;
 - (int);
 - (id);
-- (void);
-- (id);
+- (void)lic}@}.;
+- (id)setCecTemporarilyDisabledDate: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)earchResult"8;

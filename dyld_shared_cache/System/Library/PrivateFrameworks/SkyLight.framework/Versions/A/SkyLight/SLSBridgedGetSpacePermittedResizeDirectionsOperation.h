@@ -9,24 +9,20 @@
 @interface SLSBridgedGetSpacePermittedResizeDirectionsOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    unsigned long long _verticalIndex;
-    unsigned long long _horizontalIndex;
 }
 
 + (_Bool);
+- (id)IBUTENAME) FROM %@ GROUP BY ENTITYID, PRIMEKEY;
 - (id);
-- (id);
-- (id);
+- (id)rmine if old history table 1 Exists - %s;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long horizontalIndex; // @synthesize horizontalIndex=_horizontalIndex;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly) unsigned long long verticalIndex; // @synthesize verticalIndex=_verticalIndex;
 
 @end
 

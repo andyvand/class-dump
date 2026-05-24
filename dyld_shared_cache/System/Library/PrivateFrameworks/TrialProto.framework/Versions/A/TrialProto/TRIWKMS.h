@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *authData; // @dynamic authData;
-@property(nonatomic) _Bool hasAuthData; // @dynamic hasAuthData;
 
 @end
 

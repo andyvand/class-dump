@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RowSeparatorView, UIColor, UIVisualEffect, UIVisualEffectView;
+@class UIVisualEffectView;
 
 @interface EKUITableViewCell
 {
     UIVisualEffectView *_bottomRowSeparatorParentView;
-    RowSeparatorView *_bottomSeparatorViewForNonOpaqueTables;
-    UIVisualEffectView *_topRowSeparatorParentView;
-    RowSeparatorView *_topSeparatorViewForNonOpaqueTables;
-    _Bool _drawsOwnRowSeparators;
-    _Bool _disableSelectedBackground;
-    _Bool _usesInsetMargin;
-    UIColor *_rowSeparatorColor;
-    UIVisualEffect *_rowSeparatorVisualEffect;
-    unsigned long long _separatorEdges;
 }
 
 + (double);
@@ -26,32 +17,27 @@
 - (void);
 - (void);
 - (void);
+- (void)s;
+- (void)Y%s;
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)s;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)s;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_m;
 - (id);
 - (void);
-- (id);
+- (id)L;
 - (void)ler"16i24;
 
 // Remaining properties
-@property(nonatomic) _Bool disableSelectedBackground; // @synthesize disableSelectedBackground=_disableSelectedBackground;
 @property(nonatomic) _Bool drawsOwnRowSeparators; // @synthesize drawsOwnRowSeparators=_drawsOwnRowSeparators;
-@property(retain, nonatomic) UIColor *rowSeparatorColor; // @synthesize rowSeparatorColor=_rowSeparatorColor;
-@property(retain, nonatomic) UIVisualEffect *rowSeparatorVisualEffect; // @synthesize rowSeparatorVisualEffect=_rowSeparatorVisualEffect;
-@property(nonatomic) unsigned long long separatorEdges; // @synthesize separatorEdges=_separatorEdges;
-@property(nonatomic) _Bool usesInsetMargin; // @synthesize usesInsetMargin=_usesInsetMargin;
 
 @end
 

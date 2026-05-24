@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol ECDKIMPublicKeySource
+- (void)media selection option:(NSString *)arg1 %@;
 @end
 

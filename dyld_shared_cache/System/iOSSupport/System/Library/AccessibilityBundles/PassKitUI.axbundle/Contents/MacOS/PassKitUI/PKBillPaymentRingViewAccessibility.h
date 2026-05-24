@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
-- (void);
++ (id)VKImageAnalysisBarButtonItem;
++ (void);
+- (void)works/PhotosSwiftUICore.framework/Versions/A/PhotosSwiftUICore;
 - (_Bool);
 - (id);
 - (id);

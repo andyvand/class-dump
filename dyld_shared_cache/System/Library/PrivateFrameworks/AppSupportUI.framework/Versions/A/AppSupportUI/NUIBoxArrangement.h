@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NUIArrangementContainer, NUIBoxArrangementDataSource;
+@protocol NUIArrangementContainer;
 
 @interface NUIBoxArrangement
 {
     struct _NUIBoxArrangement _arrangement;
-    id <NUIArrangementContainer> _container;
-    id <NUIBoxArrangementDataSource> _dataSource;
-    struct {
-        unsigned int containerDirection:1;
-    } _flags;
-    double _scale;
-    struct CGRect _bounds;
 }
 
 - (void);
@@ -26,22 +18,14 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (void);
-- (void)ArrangedSubviews: /* Error: Ran out of types for this method. */;
+- (void)addColumnWithArrangedSubviews: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <NUIArrangementContainer> container;
-@property(readonly, nonatomic) __weak id <NUIBoxArrangementDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

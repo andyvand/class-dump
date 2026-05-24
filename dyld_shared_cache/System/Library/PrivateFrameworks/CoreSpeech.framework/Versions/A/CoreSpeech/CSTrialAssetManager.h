@@ -11,10 +11,10 @@
     NSDictionary *_trialClientDict;
 }
 
-+ (id)rs;
-- (void);
++ (id)_observers;
+- (void)tionaryEnergyMonitor...;
 - (id);
-- (void)SilenceDuration:endOfSentenceLikelihood:acousticEndpointerScore:pauseCounts:silencePosterior:clientSilenceFramesCountMs:clientSilenceProbability:silencePosteriorNF:serverFeaturesLatency:eagerResultEndTime: /* Error: Ran out of types for this method. */;
+- (void)initWithWordCount:trailingSilenceDuration:endOfSentenceLikelihood:acousticEndpointerScore:pauseCounts:silencePosterior:clientSilenceFramesCountMs:clientSilenceProbability:silencePosteriorNF:serverFeaturesLatency:eagerResultEndTime: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -8,10 +8,12 @@
 @protocol ECMessage;
 
 @protocol ECTransferMessageActionItemBuilder
+- (NSString *)$s;
+- (void);
+- (void)G;
+- (id <ECMessage>).;
 
 // Remaining properties
-@property(retain, nonatomic) id <ECMessage> destinationMessage;
-@property(retain, nonatomic) id <ECMessage> sourceMessage;
 @property(copy, nonatomic) NSString *sourceRemoteID;
 @end
 

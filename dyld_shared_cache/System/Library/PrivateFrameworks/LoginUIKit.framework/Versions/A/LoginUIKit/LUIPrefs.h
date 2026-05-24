@@ -8,20 +8,20 @@
 {
 }
 
-+ (void);
++ (void)N;
 + (void);
 + (id);
 + (double);
 + (id);
 + (id);
 + (id);
-+ (long long);
++ (long long);
 + (id);
 + (float);
 + (id);
 + (_Bool);
 + (id);
-+ (void);
++ (void);
 
 @end
 

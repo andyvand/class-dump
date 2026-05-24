@@ -9,15 +9,9 @@
 @interface GEOFareOptions
 {
     PBUnknownFields *_unknownFields;
-    int _paymentType;
-    int _preferredSurchargeType;
-    struct {
-        unsigned int has_paymentType:1;
-        unsigned int has_preferredSurchargeType:1;
-    } _flags;
 }
 
-+ (_Bool)HasRequestTransactionType:(id)arg1;
++ (_Bool)setHasRequestTransactionType:(id)arg1;
 - (void);
 - (_Bool);
 - (int);
@@ -26,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)24@?<v@?B@"NSArray">32;
 - (void);
 - (id);
 - (unsigned long long);
@@ -35,22 +29,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)tHasTrailingEntityType:(struct _NSZone *)arg1;
-- (id)xt;
-- (int)LaneWidths;
-- (id)ly;
+- (void);
+- (id)setHasTrailingEntityType:(struct _NSZone *)arg1;
+- (id)hasSpeedLimitText;
+- (int)hasIncludeLaneWidths;
+- (id)GEOPlaceByIdentifiersReply;
 - (id)}@;
 - (id)d;
 - (_Bool);
 - (void)æÆ4;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPaymentType;
 @property(nonatomic) _Bool hasPreferredSurchargeType;
-@property(nonatomic) int paymentType;
-@property(nonatomic) int preferredSurchargeType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

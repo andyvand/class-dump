@@ -4,35 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSNumber, NSString, NSUUID;
+@class NSMutableDictionary;
 
 @interface CKEventMetric
 {
     _Bool _isPushTriggerFired;
-    _Bool _hasBeenSubmitted;
-    _Bool _inferredAllowsCellular;
-    _Bool _inferredAllowsExpensive;
-    _Bool _inferredPreferAnonymousRequests;
-    _Bool _isCKInternalMetric;
-    NSMutableDictionary *_attributes;
-    NSString *_eventName;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSUUID *_metricUUID;
-    long long _inferredDatabaseScope;
-    NSString *_inferredDeviceIdentifier;
-    NSString *_inferredSourceApplicationBundleIdentifier;
-    NSString *_inferredApplicationBundleIdentifierOverrideForContainerAccess;
-    NSString *_inferredApplicationBundleIdentifierOverrideForNetworkAttribution;
-    NSNumber *_inferredPrivacyProxyFailClosedOverride;
-    NSString *_inferredSourceApplicationSecondaryIdentifier;
-    NSMutableDictionary *_associatedOperations;
-    NSMutableDictionary *_associatedOperationGroups;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)(>;
 - (id);
 - (id);
 - (id);
@@ -40,8 +21,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)`;
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -54,11 +35,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMutableDictionary *attributes; // @synthesize attributes=_attributes;
-@property(copy) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly, copy, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(nonatomic) _Bool isCKInternalMetric; // @synthesize isCKInternalMetric=_isCKInternalMetric;
-@property _Bool isPushTriggerFired; // @synthesize isPushTriggerFired=_isPushTriggerFired;
-@property(copy) NSDate *startTime; // @synthesize startTime=_startTime;
 
 @end
 

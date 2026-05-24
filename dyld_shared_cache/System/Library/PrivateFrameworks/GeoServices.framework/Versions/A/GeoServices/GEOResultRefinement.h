@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResultRefinementMultiSelect, GEOResultRefinementOpenOptions, GEOResultRefinementSort, GEOResultRefinementToggle;
-
 @interface GEOResultRefinement
 {
     long long _type;
-    GEOResultRefinementToggle *_toggle;
-    GEOResultRefinementMultiSelect *_multiSelect;
-    GEOResultRefinementSort *_sort;
-    GEOResultRefinementOpenOptions *_openOptions;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)updateContactIndex;
+- (id)setPrimitivePhoneticOrganization: /* Error: Ran out of types for this method. */;
+- (id)countByEnumeratingWithState:(id)arg1 objects:count: /* Error: Ran out of types for this method. */;
+- (id)cache;
+- (id)_scheduler;
+- (id)_readAccountsAtURL:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void)egories:(long long)arg1 maxResultCount: /* Error: Ran out of types for this method. */;
+- (long long)5;
+- (void)initWithCoordinate:(long long)arg1 radius:categories:maxResultCount: /* Error: Ran out of types for this method. */;
 - (void)º¸BAZ¶Ö>P@;
 - (id)5°Ú4;
 
 // Remaining properties
-@property(retain, nonatomic) GEOResultRefinementMultiSelect *multiSelect; // @synthesize multiSelect=_multiSelect;
-@property(retain, nonatomic) GEOResultRefinementOpenOptions *openOptions; // @synthesize openOptions=_openOptions;
-@property(retain, nonatomic) GEOResultRefinementSort *sort; // @synthesize sort=_sort;
-@property(retain, nonatomic) GEOResultRefinementToggle *toggle; // @synthesize toggle=_toggle;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

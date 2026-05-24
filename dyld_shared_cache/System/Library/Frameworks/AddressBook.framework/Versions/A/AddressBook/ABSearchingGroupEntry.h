@@ -6,14 +6,11 @@
 
 #import <AddressBook/ABGroupEntry.h>
 
-@class ABAccount, ABAddressBook, NSString;
-@protocol ABSearchOperationsFactory;
+@class ABAccount, NSString;
 
 @interface ABSearchingGroupEntry : ABGroupEntry
 {
     ABAccount *_account;
-    id <ABSearchOperationsFactory> _operationsFactory;
-    ABAddressBook *_addressBookForCreatingGroups;
 }
 
 - (id);
@@ -27,19 +24,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)lugins failed.  Continuing with no transports
+;
 - (void)Ñ©Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

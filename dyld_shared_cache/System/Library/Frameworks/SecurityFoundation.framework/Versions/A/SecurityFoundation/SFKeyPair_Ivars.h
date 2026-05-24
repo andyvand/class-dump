@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SFKeyPair_Ivars
 {
     struct __SecKey *secKey;
-    NSString *privateKeyDomain;
 }
 
-- (void);
+- (void);
 - (void);
 
 @end

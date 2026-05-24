@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface MPCAudioAssetTypeSelection
 {
     long long _type;
-    NSString *_explanation;
-    NSDictionary *_justification;
 }
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)@;
+- (id)P;
 - (long long);
 - (void);
 - (void)sing:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
-@property(copy, nonatomic) NSDictionary *justification; // @synthesize justification=_justification;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

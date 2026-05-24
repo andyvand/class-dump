@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface BMDiscoverabilitySignalEvent
 {
     NSString *_identifier;
-    NSString *_bundleID;
-    NSString *_context;
-    NSDictionary *_userInfo;
 }
 
 + (id);
@@ -26,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy, nonatomic) NSString *context; // @synthesize context=_context;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFAudioSessionEventInformConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_xpcConnection;
-    AFInstanceContext *_instanceContext;
 }
 
 - (void);
+- (void)9		=;
+- (void)?	;
+- (void)0@"PKPassTile"8;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)L;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void)n;
+- (void)AFDictationConnection;
 - (id)lock_invoke;
 
 // Remaining properties
-@property(retain, nonatomic) AFInstanceContext *instanceContext; // @synthesize instanceContext=_instanceContext;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

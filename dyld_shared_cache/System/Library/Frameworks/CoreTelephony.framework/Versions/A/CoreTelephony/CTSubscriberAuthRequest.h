@@ -11,10 +11,10 @@
     CTSubscriberAlgorithm *_algorithm;
 }
 
-+ (_Bool);
++ (_Bool)reader has entered a failure state;
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)optionPINMaxLength;
 - (void);
 - (void);
 

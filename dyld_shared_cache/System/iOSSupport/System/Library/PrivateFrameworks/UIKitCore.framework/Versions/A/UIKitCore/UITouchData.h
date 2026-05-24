@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITouch;
-
 __attribute__((visibility("hidden")))
 @interface UITouchData
 {
     struct CGPoint startTouchDownLocation;
-    unsigned long long lastTapCount;
-    double lastTouchUpTimestamp;
-    double lastTouchDownTimestamp;
-    _Bool touchIsValidTap;
-    UITouch *lastTouch;
 }
 
 @end

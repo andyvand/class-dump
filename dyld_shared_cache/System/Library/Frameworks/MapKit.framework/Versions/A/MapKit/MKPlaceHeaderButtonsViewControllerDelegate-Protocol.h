@@ -5,5 +5,6 @@
 //
 
 @protocol MKPlaceHeaderButtonsViewControllerDelegate
+- (void);
 @end
 

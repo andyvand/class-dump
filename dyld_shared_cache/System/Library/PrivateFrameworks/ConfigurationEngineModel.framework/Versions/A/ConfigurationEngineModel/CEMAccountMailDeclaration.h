@@ -6,42 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMAccountMailDeclaration : CEMConfigurationBase
 {
     NSString *_payloadEmailAccountDescription;
-    NSString *_payloadEmailAccountName;
-    NSString *_payloadEmailAccountType;
-    NSString *_payloadEmailAddress;
-    NSString *_payloadIncomingMailServerAuthentication;
-    NSString *_payloadIncomingMailServerHostName;
-    NSNumber *_payloadIncomingMailServerPortNumber;
-    NSNumber *_payloadIncomingMailServerUseSSL;
-    NSNumber *_payloadOutgoingPasswordSameAsIncomingPassword;
-    NSString *_payloadOutgoingMailServerAuthentication;
-    NSNumber *_payloadOutgoingMailServerPortNumber;
-    NSNumber *_payloadOutgoingMailServerUseSSL;
-    NSString *_payloadOutgoingMailServerUsername;
-    NSNumber *_payloadPreventMove;
-    NSNumber *_payloadPreventAppSheet;
-    NSNumber *_payloadSMIMEEnabled;
-    NSNumber *_payloadSMIMESigningEnabled;
-    NSString *_payloadSMIMESigningCertificateUUID;
-    NSNumber *_payloadSMIMEEncryptionEnabled;
-    NSString *_payloadSMIMEEncryptionCertificateUUID;
-    NSNumber *_payloadSMIMEEnablePerMessageSwitch;
-    NSNumber *_payloadDisableMailRecentsSyncing;
-    NSNumber *_payloadAllowMailDrop;
-    NSString *_payloadIncomingMailServerIMAPPathPrefix;
-    NSString *_payloadIncomingCredentials;
-    NSString *_payloadOutgoingCredentials;
-    NSNumber *_payloadSMIMESigningOverrideable;
-    NSNumber *_payloadSMIMESigningCertificateUUIDOverrideable;
-    NSNumber *_payloadSMIMEEncryptByDefault;
-    NSNumber *_payloadSMIMEEncryptByDefaultOverrideable;
-    NSNumber *_payloadSMIMEEncryptionCertificateUUIDOverrideable;
-    NSNumber *_payloadSMIMEEnableEncryptionPerMessageSwitch;
 }
 
 + (id);
@@ -63,6 +32,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,13 +46,16 @@
 - (void);
 - (void);
 - (void);
+- (void)@9@y;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -96,11 +69,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)|;
 - (id);
 - (id);
 - (id);
@@ -125,45 +94,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowMailDrop; // @synthesize payloadAllowMailDrop=_payloadAllowMailDrop;
-@property(copy, nonatomic) NSNumber *payloadDisableMailRecentsSyncing; // @synthesize payloadDisableMailRecentsSyncing=_payloadDisableMailRecentsSyncing;
 @property(copy, nonatomic) NSString *payloadEmailAccountDescription; // @synthesize payloadEmailAccountDescription=_payloadEmailAccountDescription;
-@property(copy, nonatomic) NSString *payloadEmailAccountName; // @synthesize payloadEmailAccountName=_payloadEmailAccountName;
-@property(copy, nonatomic) NSString *payloadEmailAccountType; // @synthesize payloadEmailAccountType=_payloadEmailAccountType;
-@property(copy, nonatomic) NSString *payloadEmailAddress; // @synthesize payloadEmailAddress=_payloadEmailAddress;
-@property(copy, nonatomic) NSString *payloadIncomingCredentials; // @synthesize payloadIncomingCredentials=_payloadIncomingCredentials;
-@property(copy, nonatomic) NSString *payloadIncomingMailServerAuthentication; // @synthesize payloadIncomingMailServerAuthentication=_payloadIncomingMailServerAuthentication;
-@property(copy, nonatomic) NSString *payloadIncomingMailServerHostName; // @synthesize payloadIncomingMailServerHostName=_payloadIncomingMailServerHostName;
-@property(copy, nonatomic) NSString *payloadIncomingMailServerIMAPPathPrefix; // @synthesize payloadIncomingMailServerIMAPPathPrefix=_payloadIncomingMailServerIMAPPathPrefix;
-@property(copy, nonatomic) NSNumber *payloadIncomingMailServerPortNumber; // @synthesize payloadIncomingMailServerPortNumber=_payloadIncomingMailServerPortNumber;
-@property(copy, nonatomic) NSNumber *payloadIncomingMailServerUseSSL; // @synthesize payloadIncomingMailServerUseSSL=_payloadIncomingMailServerUseSSL;
-@property(copy, nonatomic) NSString *payloadOutgoingCredentials; // @synthesize payloadOutgoingCredentials=_payloadOutgoingCredentials;
-@property(copy, nonatomic) NSString *payloadOutgoingMailServerAuthentication; // @synthesize payloadOutgoingMailServerAuthentication=_payloadOutgoingMailServerAuthentication;
-@property(copy, nonatomic) NSNumber *payloadOutgoingMailServerPortNumber; // @synthesize payloadOutgoingMailServerPortNumber=_payloadOutgoingMailServerPortNumber;
-@property(copy, nonatomic) NSNumber *payloadOutgoingMailServerUseSSL; // @synthesize payloadOutgoingMailServerUseSSL=_payloadOutgoingMailServerUseSSL;
-@property(copy, nonatomic) NSString *payloadOutgoingMailServerUsername; // @synthesize payloadOutgoingMailServerUsername=_payloadOutgoingMailServerUsername;
-@property(copy, nonatomic) NSNumber *payloadOutgoingPasswordSameAsIncomingPassword; // @synthesize payloadOutgoingPasswordSameAsIncomingPassword=_payloadOutgoingPasswordSameAsIncomingPassword;
-@property(copy, nonatomic) NSNumber *payloadPreventAppSheet; // @synthesize payloadPreventAppSheet=_payloadPreventAppSheet;
-@property(copy, nonatomic) NSNumber *payloadPreventMove; // @synthesize payloadPreventMove=_payloadPreventMove;
-@property(copy, nonatomic) NSNumber *payloadSMIMEEnableEncryptionPerMessageSwitch; // @synthesize payloadSMIMEEnableEncryptionPerMessageSwitch=_payloadSMIMEEnableEncryptionPerMessageSwitch;
-@property(copy, nonatomic) NSNumber *payloadSMIMEEnablePerMessageSwitch; // @synthesize payloadSMIMEEnablePerMessageSwitch=_payloadSMIMEEnablePerMessageSwitch;
-@property(copy, nonatomic) NSNumber *payloadSMIMEEnabled; // @synthesize payloadSMIMEEnabled=_payloadSMIMEEnabled;
-@property(copy, nonatomic) NSNumber *payloadSMIMEEncryptByDefault; // @synthesize payloadSMIMEEncryptByDefault=_payloadSMIMEEncryptByDefault;
-@property(copy, nonatomic) NSNumber *payloadSMIMEEncryptByDefaultOverrideable; // @synthesize payloadSMIMEEncryptByDefaultOverrideable=_payloadSMIMEEncryptByDefaultOverrideable;
-@property(copy, nonatomic) NSString *payloadSMIMEEncryptionCertificateUUID; // @synthesize payloadSMIMEEncryptionCertificateUUID=_payloadSMIMEEncryptionCertificateUUID;
-@property(copy, nonatomic) NSNumber *payloadSMIMEEncryptionCertificateUUIDOverrideable; // @synthesize payloadSMIMEEncryptionCertificateUUIDOverrideable=_payloadSMIMEEncryptionCertificateUUIDOverrideable;
-@property(copy, nonatomic) NSNumber *payloadSMIMEEncryptionEnabled; // @synthesize payloadSMIMEEncryptionEnabled=_payloadSMIMEEncryptionEnabled;
-@property(copy, nonatomic) NSString *payloadSMIMESigningCertificateUUID; // @synthesize payloadSMIMESigningCertificateUUID=_payloadSMIMESigningCertificateUUID;
-@property(copy, nonatomic) NSNumber *payloadSMIMESigningCertificateUUIDOverrideable; // @synthesize payloadSMIMESigningCertificateUUIDOverrideable=_payloadSMIMESigningCertificateUUIDOverrideable;
-@property(copy, nonatomic) NSNumber *payloadSMIMESigningEnabled; // @synthesize payloadSMIMESigningEnabled=_payloadSMIMESigningEnabled;
-@property(copy, nonatomic) NSNumber *payloadSMIMESigningOverrideable; // @synthesize payloadSMIMESigningOverrideable=_payloadSMIMESigningOverrideable;
-@property(readonly) Class superclass;
 
 @end
 

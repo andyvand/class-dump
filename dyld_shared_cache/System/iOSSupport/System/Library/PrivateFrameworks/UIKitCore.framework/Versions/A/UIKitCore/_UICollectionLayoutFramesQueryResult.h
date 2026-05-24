@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutItem, NSCollectionLayoutSupplementaryItem, NSUUID;
-@protocol _UICollectionLayoutAuxillaryItem;
-
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutFramesQueryResult
 {
     _Bool _isFrameAdjustedForPinning;
-    long long _index;
-    long long _zIndex;
-    long long _resultKind;
-    NSCollectionLayoutItem *_item;
-    long long _auxillaryKind;
-    NSUUID *_supplementaryEnrollmentIdentifier;
-    long long _pinningAlignment;
-    double _visibleRectDisplacement;
-    struct CGRect _frame;
 }
 
 + (id);
 - (_Bool);
+- (id);
+- (id);
+- (void)NSArray",C,N,V_payloadApplicationRules;
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
+- (id)staticTallEditorialArtworkCatalogBlock;
+- (_Bool);
+- (long long);
 - (id);
 - (long long);
 - (_Bool)
@@ -41,16 +29,16 @@ __attribute__((visibility("hidden")))
 - (id)\°1Â0@ù
 × ;
 - (_Bool)ide"b1"touchDragged"b1"deliveredCancel"b1};
-- (id)iewControllerForInputDelegate: /* Error: Ran out of types for this method. */;
-- (_Bool)URL: /* Error: Ran out of types for this method. */;
-- (double)torVC: /* Error: Ran out of types for this method. */;
-- (struct CGRect)etDecorationViewSymbolConfiguration: /* Error: Ran out of types for this method. */;
-- (_Bool)ountDownDuration: /* Error: Ran out of types for this method. */;
-- (long long)vedForObservingAnimatorWithId: /* Error: Ran out of types for this method. */;
-- (id):(struct CGRect)arg1 forDate:(long long)arg2;
-- (id)ingEnabled;
-- (id)setsNeedsUpdate;
-- (_Bool)oupName;
+- (id)shouldShowEmojiSearchViewControllerForInputDelegate: /* Error: Ran out of types for this method. */;
+- (_Bool)setRepresentedURL: /* Error: Ran out of types for this method. */;
+- (double)setEditorVC: /* Error: Ran out of types for this method. */;
+- (struct CGRect)setDecorationViewSymbolConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)setCountDownDuration: /* Error: Ran out of types for this method. */;
+- (long long)removeAllObservedForObservingAnimatorWithId: /* Error: Ran out of types for this method. */;
+- (id)rangeOfUnit:(struct CGRect)arg1 startDate:(long long)arg2 interval:forDate: /* Error: Ran out of types for this method. */;
+- (id)_wifiCallingEnabled;
+- (id)_setAvoidanceInsetsNeedsUpdate;
+- (_Bool)__backdropGroupName;
 - (long long)ion;
 - (long long)CustomPresentation:,VoverrideUseCustomPresentation /* Error: Ran out of types for this method. */;
 - (id)electionWidgetAnimating>",R,N;
@@ -60,27 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)²ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_UICollectionLayoutAuxillaryItem> auxillaryItem;
-@property(readonly, nonatomic) long long auxillaryKind; // @synthesize auxillaryKind=_auxillaryKind;
-@property(readonly, nonatomic) long long effectiveZIndex;
 @property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) _Bool isAuxillary;
-@property(readonly, nonatomic) _Bool isAuxillaryKindGlobal;
-@property(readonly, nonatomic) _Bool isAuxillaryKindGroup;
-@property(readonly, nonatomic) _Bool isAuxillaryKindItem;
-@property(readonly, nonatomic) _Bool isAuxillaryKindSection;
-@property(readonly, nonatomic) _Bool isDecoration;
-@property(readonly, nonatomic) _Bool isFrameAdjustedForPinning; // @synthesize isFrameAdjustedForPinning=_isFrameAdjustedForPinning;
-@property(readonly, nonatomic) _Bool isItem;
-@property(readonly, nonatomic) _Bool isSupplementary;
-@property(readonly, nonatomic) NSCollectionLayoutItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) long long pinningAlignment; // @synthesize pinningAlignment=_pinningAlignment;
-@property(readonly, nonatomic) long long resultKind; // @synthesize resultKind=_resultKind;
-@property(readonly, nonatomic) NSUUID *supplementaryEnrollmentIdentifier; // @synthesize supplementaryEnrollmentIdentifier=_supplementaryEnrollmentIdentifier;
-@property(readonly, nonatomic) NSCollectionLayoutSupplementaryItem *supplementaryItem;
-@property(readonly, nonatomic) double visibleRectDisplacement; // @synthesize visibleRectDisplacement=_visibleRectDisplacement;
-@property(readonly, nonatomic) long long zIndex; // @synthesize zIndex=_zIndex;
 
 @end
 

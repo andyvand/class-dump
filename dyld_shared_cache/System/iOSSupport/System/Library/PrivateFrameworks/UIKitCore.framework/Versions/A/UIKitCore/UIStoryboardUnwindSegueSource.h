@@ -9,13 +9,10 @@
 @interface UIStoryboardUnwindSegueSource
 {
     NSMutableArray *_searchChain;
-    UIViewController *_sourceViewController;
-    SEL _unwindAction;
-    id _sender;
 }
 
-- (SEL);
-- (id);
+- (SEL)account:chat:style:messageUpdated:suppressNotification: /* Error: Ran out of types for this method. */;
+- (id)_checkRecordZoneExists:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -24,9 +21,7 @@
 - (void)ìaþV¤ÿ;
 
 // Remaining properties
-@property(readonly) id sender; // @synthesize sender=_sender;
 @property(readonly) UIViewController *sourceViewController; // @synthesize sourceViewController=_sourceViewController;
-@property(readonly) SEL unwindAction; // @synthesize unwindAction=_unwindAction;
 
 @end
 

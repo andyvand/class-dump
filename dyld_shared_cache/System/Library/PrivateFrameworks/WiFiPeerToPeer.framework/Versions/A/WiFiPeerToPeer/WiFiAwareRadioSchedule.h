@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, WiFiAwareBandSchedule, WiFiMACAddress;
+@class NSString;
 
 @interface WiFiAwareRadioSchedule
 {
     _Bool _isEnabled;
-    _Bool _supportsDualBand;
-    _Bool _supportsSimultaneousDualBand;
-    unsigned int _preferredChannelsCount;
-    NSString *_interfaceName;
-    WiFiMACAddress *_interfaceAddr;
-    WiFiAwareBandSchedule *_band24GHz;
-    WiFiAwareBandSchedule *_band5GHz;
-    NSNumber *_primaryChannel;
-    NSNumber *_primaryChannelClass;
-    NSNumber *_secondaryChannel;
-    NSNumber *_secondaryChannelClass;
-    NSNumber *_infraChannel;
-    NSNumber *_infraChannelClass;
-    NSArray *_preferredChannelNumbers;
-    NSArray *_preferredChannelClasses;
 }
 
 + (_Bool);
@@ -57,22 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WiFiAwareBandSchedule *band24GHz; // @synthesize band24GHz=_band24GHz;
-@property(readonly, nonatomic) WiFiAwareBandSchedule *band5GHz; // @synthesize band5GHz=_band5GHz;
-@property(readonly, nonatomic) NSNumber *infraChannel; // @synthesize infraChannel=_infraChannel;
-@property(readonly, nonatomic) NSNumber *infraChannelClass; // @synthesize infraChannelClass=_infraChannelClass;
-@property(copy, nonatomic) WiFiMACAddress *interfaceAddr; // @synthesize interfaceAddr=_interfaceAddr;
 @property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) NSArray *preferredChannelClasses; // @synthesize preferredChannelClasses=_preferredChannelClasses;
-@property(readonly, nonatomic) NSArray *preferredChannelNumbers; // @synthesize preferredChannelNumbers=_preferredChannelNumbers;
-@property(readonly, nonatomic) unsigned int preferredChannelsCount; // @synthesize preferredChannelsCount=_preferredChannelsCount;
-@property(readonly, nonatomic) NSNumber *primaryChannel; // @synthesize primaryChannel=_primaryChannel;
-@property(readonly, nonatomic) NSNumber *primaryChannelClass; // @synthesize primaryChannelClass=_primaryChannelClass;
-@property(readonly, nonatomic) NSNumber *secondaryChannel; // @synthesize secondaryChannel=_secondaryChannel;
-@property(readonly, nonatomic) NSNumber *secondaryChannelClass; // @synthesize secondaryChannelClass=_secondaryChannelClass;
-@property(readonly, nonatomic) _Bool supportsDualBand; // @synthesize supportsDualBand=_supportsDualBand;
-@property(readonly, nonatomic) _Bool supportsSimultaneousDualBand; // @synthesize supportsSimultaneousDualBand=_supportsSimultaneousDualBand;
 
 @end
 

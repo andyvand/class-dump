@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)rnalContextMenuInteractionDelegate: /* Error: Ran out of types for this method. */;
-- (void)nizersFromContainer:withBlock: /* Error: Ran out of types for this method. */;
+- (void)setExternalContextMenuInteractionDelegate: /* Error: Ran out of types for this method. */;
+- (void)_collectGestureRecognizersFromContainer:withBlock: /* Error: Ran out of types for this method. */;
 - (void)empt to present %@ on %@ which is waiting for a delayed presention of %@ to complete;
-- (void)ectBlurStyle;
+- (void)UIVibrancyEffectBlurStyle;
 
 @end
 

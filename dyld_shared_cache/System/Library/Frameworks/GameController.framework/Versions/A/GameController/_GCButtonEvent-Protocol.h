@@ -7,7 +7,6 @@
 @protocol _GCButtonEvent
 
 // Remaining properties
-@property(readonly) long long mask;
 @property(readonly) unsigned long long timestamp;
 @end
 

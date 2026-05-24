@@ -4,39 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSString, NUIContainerBoxView, NUIContainerStackView, SFButtonItemAppearance, SFImage, SearchUIButtonBackgroundView, SearchUICommandHandler, SearchUIImageView, TLKLabel;
-@protocol SearchUIButtonItemViewDelegate;
+@class NUIContainerBoxView;
 
 @interface SearchUIButtonItemView
 {
     _Bool _isCompact;
-    _Bool _allowsAnimation;
-    _Bool _shouldAvoidBackgroundView;
-    _Bool _isHovered;
-    NSString *_buttonTitle;
-    SFButtonItemAppearance *_buttonAppearance;
-    SFImage *_sfImage;
-    id <SearchUIButtonItemViewDelegate> _delegate;
-    NSFont *_iconFont;
-    NSFont *_buttonFont;
-    unsigned long long _buttonProminence;
-    double _horizontalPadding;
-    double _verticalPaddingFontMultipler;
-    NUIContainerBoxView *_buttonContentBoxView;
-    SearchUIButtonBackgroundView *_backgroundView;
-    TLKLabel *_tlkTitleLabel;
-    SearchUIImageView *_iconView;
-    SearchUIButtonBackgroundView *_iconBackgroundView;
-    NUIContainerBoxView *_iconBoxView;
-    SearchUICommandHandler *_commandHandler;
-    NUIContainerStackView *_imageViewAndLabelStackView;
 }
 
 + (Class);
 - (double);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)yB;
 - (void);
 - (id);
 - (double);
@@ -48,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -57,7 +36,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (struct CGSize);
 - (id);
 - (_Bool);
@@ -83,28 +62,28 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)x%x, codeSize=0x%x;
 - (_Bool);
-- (id);
+- (id)OThreadDelegate>";
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)caleTransform:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)r;
+- (id);
+- (void)CFString=}16^v24;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)tifact.pbobjc.m;
 - (id);
 - (double);
 - (id);
@@ -112,39 +91,10 @@
 - (void);
 - (long long);
 - (void);
-- (void)Component:(id)arg1;
+- (void)setAlphaComponent:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsAnimation; // @synthesize allowsAnimation=_allowsAnimation;
-@property(retain) SearchUIButtonBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) SFButtonItemAppearance *buttonAppearance; // @synthesize buttonAppearance=_buttonAppearance;
 @property(retain) NUIContainerBoxView *buttonContentBoxView; // @synthesize buttonContentBoxView=_buttonContentBoxView;
-@property(retain, nonatomic) NSFont *buttonFont; // @synthesize buttonFont=_buttonFont;
-@property(nonatomic) unsigned long long buttonProminence; // @synthesize buttonProminence=_buttonProminence;
-@property(retain, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(retain) SearchUICommandHandler *commandHandler; // @synthesize commandHandler=_commandHandler;
-@property(readonly) double cornerRadius;
-@property(readonly) NSFont *defaultButtonFont;
-@property(readonly) NSFont *defaultIconFont;
-@property(nonatomic) __weak id <SearchUIButtonItemViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) _Bool drawsBackgroundPlatter;
-@property(readonly) _Bool drawsIconBackgroundPlatter;
-@property(readonly) _Bool drawsTitle;
-@property(readonly) double horizontalPadding; // @synthesize horizontalPadding=_horizontalPadding;
-@property(retain) SearchUIButtonBackgroundView *iconBackgroundView; // @synthesize iconBackgroundView=_iconBackgroundView;
-@property(retain) NUIContainerBoxView *iconBoxView; // @synthesize iconBoxView=_iconBoxView;
-@property(retain, nonatomic) NSFont *iconFont; // @synthesize iconFont=_iconFont;
-@property(retain) SearchUIImageView *iconView; // @synthesize iconView=_iconView;
-@property(retain) NUIContainerStackView *imageViewAndLabelStackView; // @synthesize imageViewAndLabelStackView=_imageViewAndLabelStackView;
-@property(nonatomic) _Bool isCompact; // @synthesize isCompact=_isCompact;
-@property(nonatomic) _Bool isHovered; // @synthesize isHovered=_isHovered;
-@property(retain, nonatomic) SFImage *sfImage; // @synthesize sfImage=_sfImage;
-@property(readonly) _Bool shouldAvoidBackgroundView; // @synthesize shouldAvoidBackgroundView=_shouldAvoidBackgroundView;
-@property(readonly) double spacingBetweenImageAndText;
-@property(readonly) long long symbolScale;
-@property(retain) TLKLabel *tlkTitleLabel; // @synthesize tlkTitleLabel=_tlkTitleLabel;
-@property(readonly) _Bool useContinuousCorners;
-@property(readonly) double verticalPaddingFontMultipler; // @synthesize verticalPaddingFontMultipler=_verticalPaddingFontMultipler;
 
 @end
 

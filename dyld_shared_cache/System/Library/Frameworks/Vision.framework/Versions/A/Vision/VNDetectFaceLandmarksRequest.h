@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSNumber, NSString;
-
 @interface VNDetectFaceLandmarksRequest : VNImageBasedRequest
 {
 }
@@ -24,16 +22,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)_itemPendingScanningDiskNumberOfChildrenPendingSyncDownDeletion;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)contact image, refusing. This is expected for avatar-only recents.;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)localDateOccurringAtNoonOnSameCalendarDayAsDateInGMT:(id)arg1;
 - (void);
 - (unsigned long long);
 - (void);
@@ -45,21 +43,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *cascadeStepCount;
-@property unsigned long long constellation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *inputFaceObservations;
-@property(nonatomic) _Bool performBlinkDetection;
-@property(nonatomic) _Bool refineLeftEyeRegion;
 @property(nonatomic) _Bool refineMouthRegion;
-@property(nonatomic) _Bool refineRightEyeRegion;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) Class superclass;
 
 @end
 

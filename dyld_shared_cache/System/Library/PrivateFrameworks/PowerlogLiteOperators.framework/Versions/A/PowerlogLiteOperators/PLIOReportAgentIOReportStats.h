@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLAgent, PLTimer;
+@class PLAgent;
 
 @interface PLIOReportAgentIOReportStats
 {
     PLAgent *_agent;
-    unsigned long long _sampleAPAwakeTime;
-    PLTimer *_halfHourTimer;
 }
 
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)p={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}BBBi})B},V_Obj /* Error: Ran out of types for this method. */;
 + (int);
 + (id);
 - (void);
@@ -25,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)**en;
 - (void);
 - (id);
 - (unsigned long long);
@@ -34,8 +32,6 @@
 
 // Remaining properties
 @property(retain) PLAgent *agent; // @synthesize agent=_agent;
-@property(retain) PLTimer *halfHourTimer; // @synthesize halfHourTimer=_halfHourTimer;
-@property unsigned long long sampleAPAwakeTime; // @synthesize sampleAPAwakeTime=_sampleAPAwakeTime;
 
 @end
 

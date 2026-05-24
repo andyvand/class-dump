@@ -9,23 +9,19 @@
 @interface PXErrorRecoveryOption
 {
     NSString *_title;
-    long long _style;
-    CDUnknownBlockType _handler;
 }
 
 + (id);
 - (void);
 - (id);
 - (long long);
-- (void);
-- (CDUnknownBlockType)eWallpaperSuggestions;
+- (void)`;
+- (CDUnknownBlockType)predicateForAllShuffleWallpaperSuggestions;
 - (id)y Layout;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

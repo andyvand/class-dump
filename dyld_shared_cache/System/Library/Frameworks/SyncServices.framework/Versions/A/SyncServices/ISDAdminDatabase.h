@@ -6,35 +6,13 @@
 
 #import <SyncServices/ISDDatabase.h>
 
-@class ISDDataManager, NSConditionLock, NSMutableArray, NSThread;
-
 @interface ISDAdminDatabase : ISDDatabase
 {
     struct sqlite3_stmt *_getAllClientsStatement;
-    struct sqlite3_stmt *_insertClientStatement;
-    struct sqlite3_stmt *_removeClientStatement;
-    struct sqlite3_stmt *_getSyncGenerationStatement;
-    struct sqlite3_stmt *_setSyncGenerationStatement;
-    struct sqlite3_stmt *_getSyncStateStatement;
-    struct sqlite3_stmt *_setSyncStateStatement;
-    struct sqlite3_stmt *_removeSyncStateForClientStatement;
-    struct sqlite3_stmt *_removeSyncStateForEntityStatement;
-    struct sqlite3_stmt *_getEarliestGenerationsForEntitiesStatement;
-    struct sqlite3_stmt *_getMostRecentSyncDatesForClientsStatement;
-    struct sqlite3_stmt *_recordSyncModesStatement;
-    struct sqlite3_stmt *_recordSyncPlanStatement;
-    struct sqlite3_stmt *_getTableNamesStatement;
-    struct sqlite3_stmt *_purgeSyncDetailStatement;
-    struct sqlite3_stmt *_getSyncPlanBeforeDateStatement;
-    struct sqlite3_stmt *_purgeClientSyncModesStatement;
-    NSThread *_threadWithLock;
-    NSConditionLock *_transactionLock;
-    ISDDataManager *_dataManager;
-    NSMutableArray *_dataObjectsToConfigureWithDataManager;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,7 +26,7 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,7 +34,7 @@
 - (id);
 - (void);
 - (struct _EarliestSyncGenerationForEntityNamesMap *);
-- (id);
+- (id)';
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -65,11 +43,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)6TK97XK9;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)traint;
 - (void);
 - (void);
 

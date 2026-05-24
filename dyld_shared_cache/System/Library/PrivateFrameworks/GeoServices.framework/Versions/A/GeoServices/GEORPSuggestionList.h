@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlaceRequest, GEOPDPlaceResponse, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPSuggestionList
 {
     PBDataReader *_reader;
-    GEOPDPlaceRequest *_autocompleteRequest;
-    GEOPDPlaceResponse *_autocompleteResponse;
-    NSMutableArray *_entrys;
-    NSString *_query;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_autocompleteRequest:1;
-        unsigned int read_autocompleteResponse:1;
-        unsigned int read_entrys:1;
-        unsigned int read_query:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)alityFeedback:(id)arg1;
++ (_Bool)setLocalityFeedback:(id)arg1;
 - (void);
-- (void);
+- (void)"CNResult"32@0:(id)arg1 8@"NSFetchRequest"16@"NSManagedObjectContext"24;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -41,13 +27,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)e>",W,N,V_delegate;
+- (void)TriggerEvent:(unsigned long long)arg1 myriadHash:remoteTriggerType:remoteDeviceId:isTriggeredFromFullWake:completion:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -56,19 +42,13 @@
 - (id);
 - (void);
 - (id)ead_serviceTags"b1"read_suggestionsOptions"b1"read_suggestionsPrefix"b1"read_viewportCenterCountryCode"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)lEventLookupResultForLookupResults:usingPlaces:completion:queue: /* Error: Ran out of types for this method. */;
+- (id)createSpatialEventLookupResultForLookupResults:usingPlaces:completion:queue: /* Error: Ran out of types for this method. */;
 - (id)`v;
 - (id)?0@"GEOResource"8;
 - (void)Á6âÉnP@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDPlaceRequest *autocompleteRequest;
-@property(retain, nonatomic) GEOPDPlaceResponse *autocompleteResponse;
-@property(retain, nonatomic) NSMutableArray *entrys;
-@property(readonly, nonatomic) _Bool hasAutocompleteRequest;
-@property(readonly, nonatomic) _Bool hasAutocompleteResponse;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(retain, nonatomic) NSString *query;
 
 @end
 

@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 @interface PFStateCaptureEventLog
 {
     Class _eventClass;
-    unsigned long long _maxEvents;
-    struct os_unfair_lock_s _lock;
-    NSMutableArray *_lock_events;
-    long long _lock_headIndex;
 }
 
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy, nonatomic) NSArray *eventDescriptions;
 
 @end
 

@@ -6,16 +6,12 @@
 
 #import <UIKitMacHelper/UINSGameModuleConfigViewController.h>
 
-@class NSSlider, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface UINSGameModuleJoystickViewController : UINSGameModuleConfigViewController
 {
     NSTextField *_keyUp;
-    NSTextField *_keyLeft;
-    NSTextField *_keyRight;
-    NSTextField *_keyDown;
-    NSSlider *_radius;
 }
 
 - (void);
@@ -33,11 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property __weak NSTextField *keyDown; // @synthesize keyDown=_keyDown;
-@property __weak NSTextField *keyLeft; // @synthesize keyLeft=_keyLeft;
-@property __weak NSTextField *keyRight; // @synthesize keyRight=_keyRight;
 @property __weak NSTextField *keyUp; // @synthesize keyUp=_keyUp;
-@property __weak NSSlider *radius; // @synthesize radius=_radius;
 
 @end
 

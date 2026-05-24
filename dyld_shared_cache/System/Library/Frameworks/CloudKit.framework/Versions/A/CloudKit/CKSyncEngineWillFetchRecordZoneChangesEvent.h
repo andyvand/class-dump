@@ -13,11 +13,11 @@
     CKRecordZoneID *_zoneID;
 }
 
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (id);
-- (void)atabaseChangesOperationInfo;
+- (void)CKFetchDatabaseChangesOperationInfo;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;

@@ -6,35 +6,18 @@
 
 #import <Intents/INCodableAttributeMetadata.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface INCodableBooleanAttributeMetadata : INCodableAttributeMetadata
 {
     NSNumber *_defaultValue;
-    NSString *_falseDisplayName;
-    NSString *_falseDisplayNameID;
-    NSString *_trueDisplayName;
-    NSString *_trueDisplayNameID;
 }
 
 + (_Bool);
-+ (id)e:(id)arg1 qualifier:(id *)arg2;
++ (id)initWithEntityType:(id)arg1 entityName:(id *)arg2 propertyName:qualifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(copy, nonatomic) NSNumber *defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *falseDisplayName; // @synthesize falseDisplayName=_falseDisplayName;
-@property(copy, nonatomic) NSString *falseDisplayNameID; // @synthesize falseDisplayNameID=_falseDisplayNameID;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedFalseDisplayName;
-@property(readonly, copy) NSString *localizedTrueDisplayName;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *trueDisplayName; // @synthesize trueDisplayName=_trueDisplayName;
-@property(copy, nonatomic) NSString *trueDisplayNameID; // @synthesize trueDisplayNameID=_trueDisplayNameID;
 
 @end
 

@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface IDSOffTheGridModeMetric
 {
     _Bool _previousStewieConnectionState;
-    _Bool _currentStewieConnectionState;
-    _Bool _previousNetworkConnectionState;
-    _Bool _currentNetworkConnectionState;
-    NSNumber *_previousMode;
-    NSNumber *_currentMode;
-    NSNumber *_previousPublishStatus;
-    NSNumber *_currentPublishStatus;
-    NSNumber *_duration;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)R;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -34,24 +26,7 @@
 - (void)nil:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *currentMode; // @synthesize currentMode=_currentMode;
-@property(readonly, nonatomic) _Bool currentNetworkConnectionState; // @synthesize currentNetworkConnectionState=_currentNetworkConnectionState;
-@property(readonly, nonatomic) NSNumber *currentPublishStatus; // @synthesize currentPublishStatus=_currentPublishStatus;
-@property(readonly, nonatomic) _Bool currentStewieConnectionState; // @synthesize currentStewieConnectionState=_currentStewieConnectionState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSNumber *duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
 @property(readonly, nonatomic) NSNumber *previousMode; // @synthesize previousMode=_previousMode;
-@property(readonly, nonatomic) _Bool previousNetworkConnectionState; // @synthesize previousNetworkConnectionState=_previousNetworkConnectionState;
-@property(readonly, nonatomic) NSNumber *previousPublishStatus; // @synthesize previousPublishStatus=_previousPublishStatus;
-@property(readonly, nonatomic) _Bool previousStewieConnectionState; // @synthesize previousStewieConnectionState=_previousStewieConnectionState;
-@property(readonly) Class superclass;
 
 @end
 

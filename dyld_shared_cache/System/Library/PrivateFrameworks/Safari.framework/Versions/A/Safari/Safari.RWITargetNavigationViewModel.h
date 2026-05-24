@@ -7,7 +7,6 @@
 @interface Safari.RWITargetNavigationViewModel
 {
     id _modelsState;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFMyriadSession, NSData, NSDictionary, NSString, NSUUID;
+@class AFMyriadSession;
 
 @interface _AFMyriadSessionMutation
 {
     AFMyriadSession *_base;
-    unsigned long long _generation;
-    NSUUID *_sessionId;
-    NSUUID *_currentElectionAdvertisementId;
-    NSData *_currentElectionAdvertisementData;
-    NSDictionary *_electionAdvertisementDataByIds;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasGeneration:1;
-        unsigned int hasSessionId:1;
-        unsigned int hasCurrentElectionAdvertisementId:1;
-        unsigned int hasCurrentElectionAdvertisementData:1;
-        unsigned int hasElectionAdvertisementDataByIds:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -29,24 +16,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void)0@ù
 × ;
-- (id)MonitoringAvailability;
-- (void)verriddenAdjustedScore;
+- (id)stopMonitoringAvailability;
+- (void)_overriddenAdjustedScore;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

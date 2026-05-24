@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CRKConcreteIDSMessageDidReceiveSubscriptionDelegate;
-
 @interface CRKConcreteIDSMessageDidReceiveSubscription
 {
     _Bool _resumed;
-    id <CRKConcreteIDSMessageDidReceiveSubscriptionDelegate> _delegate;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
@@ -18,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void))A;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -26,9 +22,7 @@
 - (_Bool)erationQueue;
 
 // Remaining properties
-@property(nonatomic) __weak id <CRKConcreteIDSMessageDidReceiveSubscriptionDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(nonatomic, getter=isResumed) _Bool resumed; // @synthesize resumed=_resumed;
 
 @end
 

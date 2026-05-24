@@ -6,68 +6,51 @@
 
 #import <CoreMediaStream/MSCupidStateMachine.h>
 
-@class MSDeleteStreamsProtocol, MSMediaStreamDaemon, MSObjectQueue, NSMutableArray, NSString;
-@protocol MSDeleterDelegate;
+@class MSDeleteStreamsProtocol, MSMediaStreamDaemon;
 
 @interface MSDeleter : MSCupidStateMachine
 {
     MSDeleteStreamsProtocol *_protocol;
-    int _state;
-    MSObjectQueue *_deleteQueue;
-    NSMutableArray *_requestedDeleteWrappers;
-    int _batchSize;
-    int _maxErrorCount;
-    id <MSDeleterDelegate> _delegate;
-    MSMediaStreamDaemon *_daemon;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)h;
 + (void);
 + (void);
-+ (void);
-+ (id);
++ (void);
++ (id)F;
 + (id);
 + (void);
 + (_Bool)}@;
+- (void)%{public}@Camera profile settings are not initialized, skipping cancelling pending snapshot requests;
+- (void)t received confirmation to the sender;
+- (void)r unknown session UUID:(id)arg1 %{public}@;
+- (void)y reference is nil;
+- (void)t}.16P] Accessory is not reachable and this is a remote gateway capable device;
+- (_Bool)setup is in progress, adding this to pending request queue;
+- (id)adata for merge id %@ in owner %@:%@ /* Error: Ran out of types for this method. */;
+- (void)ooking for home metadata for merge id %@ in owner %@:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)the expected type; IGNORING.;
+- (void)value updated notification:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)"PLAudioAgent",W,N,V_ctx;
 - (id);
 - (void);
-- (int);
+- (id);
+- (void);
+- (int);
 - (void);
 - (void);
-- (void);
+- (void)__cstring;
 
 // Remaining properties
-@property(nonatomic) int batchSize; // @synthesize batchSize=_batchSize;
 @property(nonatomic) MSMediaStreamDaemon *daemon; // @synthesize daemon=_daemon;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <MSDeleterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

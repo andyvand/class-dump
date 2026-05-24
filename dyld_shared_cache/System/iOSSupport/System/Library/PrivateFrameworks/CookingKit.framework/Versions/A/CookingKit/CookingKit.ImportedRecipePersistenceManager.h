@@ -8,7 +8,6 @@
 {
     id fileManager;
     id rootPersistenceDirectoryURL;
-    id imageLoader;
 }
 
 @end

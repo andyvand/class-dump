@@ -14,19 +14,17 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (id);
-- (void);
+- (id)GetSpeechSynthesisVolumeResponse;
+- (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSUUID *externalDataUUID;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSUUID *uuid;
 
 @end

@@ -6,16 +6,9 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFSoftwareVersion, NSString;
-
 @interface HMFProductInfo : HMFObject
 {
     long long _productPlatform;
-    long long _productClass;
-    NSString *_modelIdentifier;
-    long long _productVariant;
-    HMFSoftwareVersion *_softwareVersion;
-    long long _productColor;
 }
 
 + (id);
@@ -25,34 +18,29 @@
 + (void);
 - (id);
 - (id);
+- (id)};
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)0	M	/	;
+- (unsigned long long)>		M	/	;
 - (long long);
 - (long long);
 - (long long);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)InLM.Dictation} through [the word] {BuiltInLM.Dictation.2};
 - (id);
-- (void);
+- (void)P;
+- (id)HMHomeActivityStateComingHomeFromVacation;
 - (id);
-- (id);
-- (id);
+- (id)i;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(readonly) long long productClass; // @synthesize productClass=_productClass;
-@property(readonly, nonatomic) long long productColor; // @synthesize productColor=_productColor;
 @property(readonly) long long productPlatform; // @synthesize productPlatform=_productPlatform;
-@property(readonly) long long productVariant; // @synthesize productVariant=_productVariant;
-@property(readonly, nonatomic) HMFSoftwareVersion *softwareVersion; // @synthesize softwareVersion=_softwareVersion;
 
 @end
 

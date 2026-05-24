@@ -4,11 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView;
+@class NSIndexPath, UICollectionView, UITargetedPreview;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)mateLiftWithAnimator:(UICollectionView *)arg1 session:(NSIndexPath *)arg2;
+- (void)olbarItems;
+- (void)Suggestions/MapsSuggestionsHomeWorkImprover.m;
+- (UITargetedPreview *)MapsSuggestionsAppConnectionIdentifierKey;
+- (_Bool);
+- (void)!;
+- (void)ceholder:(UICollectionView *)arg1 location:(NSIndexPath *)arg2 error: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (_Bool)_previousFrameTime;
+- (_Bool)dragInteraction:(UICollectionView *)arg1 willAnimateLiftWithAnimator:(NSIndexPath *)arg2 session: /* Error: Ran out of types for this method. */;
 @end
 

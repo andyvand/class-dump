@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSObject, NSString, NSXPCConnection, NSXPCInterface;
+@class NSObject, NSString;
 
 @interface SLRemoteSessionProxy
 {
     NSString *_serviceName;
-    NSXPCInterface *_remoteInterface;
-    id _remoteProxy;
-    NSXPCConnection *_connection;
-    NSMutableArray *_guaranteedRemoteCalls;
-    NSLock *_guaranteedRemoteCallsLock;
-    NSObject *_exportedObject;
-    NSXPCInterface *_exportedInterface;
-    CDUnknownBlockType _connectionResetBlock;
 }
 
 - (void);
@@ -26,19 +18,17 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)E5RTExecutionContext;
 - (void);
-- (void);
-- (void);
+- (void)creating audio file at url %{public}@ %{public}d;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)i,N,V_baseLightingColorLoc;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType connectionResetBlock; // @synthesize connectionResetBlock=_connectionResetBlock;
-@property(retain) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
 @property __weak NSObject *exportedObject; // @synthesize exportedObject=_exportedObject;
 
 @end

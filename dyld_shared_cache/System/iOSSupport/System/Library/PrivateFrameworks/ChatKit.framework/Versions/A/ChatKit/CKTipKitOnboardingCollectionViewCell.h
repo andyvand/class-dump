@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAPackage, CAStateController, NSArray, NSMutableArray, NSString, UIView;
+@class NSArray, UIView;
 
 __attribute__((visibility("hidden")))
 @interface CKTipKitOnboardingCollectionViewCell
 {
     UIView *_tipUIView;
-    NSArray *_recommendedPinningConversations;
-    CAPackage *_package;
-    CALayer *_packageLayer;
-    CAStateController *_stateController;
-    long long _state;
-    UIView *_micaView;
-    NSArray *_layerNames;
-    NSMutableArray *_avatarViews;
 }
 
 + (id);
+- (void)xmlStringFromDictionary: /* Error: Ran out of types for this method. */;
+- (id)setPinnedOnly: /* Error: Ran out of types for this method. */;
+- (void)searchableItemAttributeSet;
+- (void)isTextList;
+- (void)isTagItemIdentifier:(id)arg1;
+- (void)initForNoteGalleryWithNote:(id)arg1 preferredSize:scale:appearanceInfo: /* Error: Ran out of types for this method. */;
+- (void)ic_isOptionKeyPressedWithoutOtherModifiers;
+- (void)_webView:requestStorageAccessPanelForDomain:underCurrentDomain:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)chBarItem;
+- (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -47,31 +39,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (long long);
-- (id);
+- (id)_removeAddressAtomSubview:(struct CGRect)arg1;
 - (void)0@ù
 × ;
 - (void);
 - (id)ó7x|.;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *avatarViews; // @synthesize avatarViews=_avatarViews;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *layerNames; // @synthesize layerNames=_layerNames;
-@property(retain, nonatomic) UIView *micaView; // @synthesize micaView=_micaView;
-@property(retain, nonatomic) CAPackage *package; // @synthesize package=_package;
-@property(retain, nonatomic) CALayer *packageLayer; // @synthesize packageLayer=_packageLayer;
 @property(retain, nonatomic) NSArray *recommendedPinningConversations; // @synthesize recommendedPinningConversations=_recommendedPinningConversations;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) CAStateController *stateController; // @synthesize stateController=_stateController;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *tipUIView; // @synthesize tipUIView=_tipUIView;
 
 @end
 

@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AVAudioHardwareObject
 {
     struct synchronized<std::shared_ptr<avas::client::HardwareObjectBase>, caulk::shared_ptr_mutex<avas::client::KVOMutex>, avas::client::unguarded_accessor<std::shared_ptr<avas::client::HardwareObjectBase>>> _guarded_impl;
 }
 
+- (unsigned int)NEVPNIKEv1ProposalParameters;
+- (_Bool)NETunnelProviderProtocol;
+- (_Bool)NEEthernetTunnelProvider;
+- (id)NEIKEv2ConfigurationDelegate;
+- (id)NEIKEv2Listener;
+- (id)NEHotspotHelperResponse;
+- (id)rCryptoKitP256;
+- (_Bool)NEIKEv2KeyExchangeHandlerCryptoKit;
+- (id);
+- (id);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned int);
-- (_Bool);
-- (id);
+- (id)rces/libFontRegistry.dylib;
 - (void);
-- (_Bool);
+- (_Bool)TalkingAlertsCustomPhraseArray;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *manufacturer;
-@property(readonly, nonatomic) NSString *modelName;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned int objectType;
 @property(readonly, nonatomic) __weak AVAudioHardwareObject *owningObject;
-@property(readonly, nonatomic) unsigned int standardObjectType;
 
 @end
 

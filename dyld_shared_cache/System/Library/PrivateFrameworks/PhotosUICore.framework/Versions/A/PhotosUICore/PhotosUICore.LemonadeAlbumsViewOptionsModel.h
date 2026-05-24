@@ -7,12 +7,6 @@
 @interface PhotosUICore.LemonadeAlbumsViewOptionsModel
 {
     id _cellStyle;
-    id defaultCellStyle;
-    id _isEditing;
-    id _contentFilter;
-    id userDefaults;
-    id cellStyleKey;
-    id _$observationRegistrar;
 }
 
 @end

@@ -7,13 +7,11 @@
 @interface AFOneArgumentSafetyBlock
 {
     struct atomic_flag _hasInvoked;
-    CDUnknownBlockType _block;
-    id _defaultValue;
 }
 
-- (_Bool);
+- (_Bool)p$Q	;
 - (id);
-- (void);
+- (void)passbook.webservices.error.moderate_push_rate_abuse;
 - (id);
 - (void)fidentScoreThreshold;
 

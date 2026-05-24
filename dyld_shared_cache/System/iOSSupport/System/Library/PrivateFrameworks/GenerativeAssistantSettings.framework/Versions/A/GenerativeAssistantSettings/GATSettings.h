@@ -9,8 +9,8 @@
 }
 
 + (_Bool);
-+ (void);
-+ (_Bool);
++ (void)z;
++ (_Bool)|;
 + (long long);
 + (long long);
 + (_Bool);

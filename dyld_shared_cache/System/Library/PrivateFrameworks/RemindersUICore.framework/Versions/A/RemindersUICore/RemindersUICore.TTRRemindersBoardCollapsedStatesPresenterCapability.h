@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRRemindersBoardCollapsedStatesPresenterCapability
 {
     id collapsedStateDidChangeExplicitly;
-    id collapsedStatesPersistence;
-    id collapsedItemIDs;
-    id deferredAction;
 }
 
 @end

@@ -7,8 +7,6 @@
 @interface (extension in WorkflowUIServices):__C.WFIconViewImageGenerator.CacheKey__priv_5A2BAA5A6811C037F85666266B46C910
 {
     id icon;
-    id size;
-    id style;
 }
 
 @end

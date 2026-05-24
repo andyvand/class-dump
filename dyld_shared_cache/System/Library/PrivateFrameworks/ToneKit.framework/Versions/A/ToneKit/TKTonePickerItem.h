@@ -6,19 +6,11 @@
 
 #import <ToneKit/TKPickerSelectableItem.h>
 
-@class NSArray, NSString, TKTonePickerSectionItem;
+@class TKTonePickerSectionItem;
 
 @interface TKTonePickerItem : TKPickerSelectableItem
 {
     _Bool _needsRoomForCheckmark;
-    _Bool _needsActivityIndicator;
-    _Bool _needsSwitch;
-    _Bool _switchedOn;
-    _Bool _needsDownloadProgress;
-    float _downloadProgress;
-    unsigned long long _itemKind;
-    TKTonePickerSectionItem *_parentSectionItem;
-    NSArray *_childrenToneClassicsPickerItems;
 }
 
 - (id);
@@ -28,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,30 +32,14 @@
 - (void);
 - (unsigned long long);
 - (long long);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)=;
+- (unsigned long long)signInFlowController:enableFindMyWithAction:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)VENT;
 - (float);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setChildrenToneClassicsPickerItems:) NSArray *childrenToneClassicsPickerItems; // @synthesize childrenToneClassicsPickerItems=_childrenToneClassicsPickerItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, setter=_setDownloadProgress:) float downloadProgress; // @synthesize downloadProgress=_downloadProgress;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, setter=_setItemKind:) unsigned long long itemKind; // @synthesize itemKind=_itemKind;
-@property(nonatomic, setter=_setNeedsActivityIndicator:) _Bool needsActivityIndicator; // @synthesize needsActivityIndicator=_needsActivityIndicator;
-@property(nonatomic, setter=_setNeedsDownloadProgress:) _Bool needsDownloadProgress; // @synthesize needsDownloadProgress=_needsDownloadProgress;
-@property(nonatomic, setter=_setNeedsRoomForCheckmark:) _Bool needsRoomForCheckmark; // @synthesize needsRoomForCheckmark=_needsRoomForCheckmark;
-@property(nonatomic, setter=_setNeedsSwitch:) _Bool needsSwitch; // @synthesize needsSwitch=_needsSwitch;
-@property(readonly, nonatomic) long long numberOfChildren;
 @property(nonatomic, setter=_setParentSectionItem:) __weak TKTonePickerSectionItem *parentSectionItem; // @synthesize parentSectionItem=_parentSectionItem;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSwitchedOn, setter=_setSwitchedOn:) _Bool switchedOn; // @synthesize switchedOn=_switchedOn;
 
 @end
 

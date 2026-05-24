@@ -12,6 +12,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCContentArchive *contentArchive;
-@property(readonly, nonatomic) FCContentManifest *contentManifest;
 @end
 

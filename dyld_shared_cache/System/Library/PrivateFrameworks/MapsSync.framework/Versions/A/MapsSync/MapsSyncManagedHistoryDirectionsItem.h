@@ -6,8 +6,6 @@
 
 #import <MapsSync/MapsSyncManagedHistoryItem.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedHistoryDirectionsItem : MapsSyncManagedHistoryItem
 {
@@ -18,8 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool navigationInterrupted; // @dynamic navigationInterrupted;
-@property(nonatomic, copy) NSData *routeRequestStorage; // @dynamic routeRequestStorage;
-@property(nonatomic, copy) NSData *sharedETAData; // @dynamic sharedETAData;
 
 @end
 

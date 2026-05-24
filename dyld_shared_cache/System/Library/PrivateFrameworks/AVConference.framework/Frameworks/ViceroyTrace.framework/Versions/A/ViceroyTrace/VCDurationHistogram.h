@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCDurationHistogram : VCReportingHistogram
 {
     _Bool _isFinalized;
-    unsigned int _previousBucket;
-    double _previousSwitchTime;
 }
 
 - (void);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);;
 - (_Bool);
 
 // Remaining properties

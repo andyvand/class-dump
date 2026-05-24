@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface SXJSONObject
 {
     struct os_unfair_lock_s _unfairLock;
-    NSDictionary *_jsonDictionary;
-    NSString *_specificationVersion;
-    NSMutableDictionary *_objectStorage;
 }
 
 + (id);
@@ -20,12 +17,12 @@
 + (id);
 + (CDUnknownBlockType);
 + (Class);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (void);
 + (void);
-+ (id)ndices;
-+ (void)lculatedSize;
++ (id)indices;
++ (void)_calculatedSize;
 - (id);
 - (void);
 - (void);
@@ -40,14 +37,11 @@
 - (struct os_unfair_lock_s);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *jsonDictionary; // @synthesize jsonDictionary=_jsonDictionary;
 @property(readonly, nonatomic) NSMutableDictionary *objectStorage; // @synthesize objectStorage=_objectStorage;
-@property(readonly, nonatomic) NSString *specificationVersion; // @synthesize specificationVersion=_specificationVersion;
-@property(readonly, nonatomic) struct os_unfair_lock_s unfairLock; // @synthesize unfairLock=_unfairLock;
 
 @end
 

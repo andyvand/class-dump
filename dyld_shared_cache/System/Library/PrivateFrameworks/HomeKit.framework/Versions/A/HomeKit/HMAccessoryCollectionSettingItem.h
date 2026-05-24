@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCollectionSetting, NSData, NSUUID;
-@protocol NSObject><NSCopying><NSSecureCoding;
+@class HMAccessoryCollectionSetting;
 
 @interface HMAccessoryCollectionSettingItem
 {
     struct os_unfair_lock_s _lock;
-    id <NSObject><NSCopying><NSSecureCoding> _value;
-    NSData *_serializedValue;
-    NSUUID *_identifier;
-    HMAccessoryCollectionSetting *_setting;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSData *serializedValue; // @synthesize serializedValue=_serializedValue;
 @property __weak HMAccessoryCollectionSetting *setting; // @synthesize setting=_setting;
-@property(readonly, copy) id <NSObject><NSCopying><NSSecureCoding> value; // @synthesize value=_value;
 @end
 

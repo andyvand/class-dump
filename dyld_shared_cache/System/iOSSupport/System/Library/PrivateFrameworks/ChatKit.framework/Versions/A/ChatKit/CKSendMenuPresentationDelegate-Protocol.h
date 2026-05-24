@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKSendMenuPresentation;
+
 @protocol CKSendMenuPresentationDelegate
+- (void)sectionIdentifier;
+- (void)ICAttachmentViewInitializing;
+- (void)hing record from share %@:(CKSendMenuPresentation *)arg1 %@;
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)olume;
+- (void)MediaExperienceVolume;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *homeSettingsConfigurations; // @synthesize homeSettingsConfigurations=_homeSettingsConfigurations;

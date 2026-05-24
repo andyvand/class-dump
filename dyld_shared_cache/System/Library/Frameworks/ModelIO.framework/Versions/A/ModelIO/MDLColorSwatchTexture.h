@@ -9,10 +9,6 @@
 @interface MDLColorSwatchTexture : MDLTexture
 {
     float _colorTemperature1;
-    float _colorTemperature2;
-    struct CGColor *_color1;
-    struct CGColor *_color2;
-    int _type;
 }
 
 - (id);

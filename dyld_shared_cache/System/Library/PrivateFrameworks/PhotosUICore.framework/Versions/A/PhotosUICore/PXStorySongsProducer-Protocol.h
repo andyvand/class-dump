@@ -5,7 +5,7 @@
 //
 
 @protocol PXStorySongsProducer
-- (void)erItemHighlightRanges;
+- (void)_updatePlayerItemHighlightRanges;
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext;

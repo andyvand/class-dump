@@ -9,11 +9,11 @@
     struct unique_ptr<CLRegulatoryConfigInternal, std::default_delete<CLRegulatoryConfigInternal>> _config;
 }
 
-- (void);
+- (void)A;
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)R;
 - (id);
 - (_Bool);
 - (void)utlierRejector;

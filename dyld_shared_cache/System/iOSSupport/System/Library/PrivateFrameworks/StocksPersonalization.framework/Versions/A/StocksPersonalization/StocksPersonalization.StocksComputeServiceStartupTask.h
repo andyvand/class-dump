@@ -7,6 +7,7 @@
 @interface StocksPersonalization.StocksComputeServiceStartupTask
 {
     id computeService;
+    id;
 }
 
 @end

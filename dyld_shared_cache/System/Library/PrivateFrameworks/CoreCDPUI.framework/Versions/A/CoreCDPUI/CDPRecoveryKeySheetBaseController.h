@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPRecoveryKeyPrintController, CDPRemoteDeviceSecretValidator, NSButton, NSImage, NSImageView, NSProgressIndicator, NSString, NSTextField, NSView, NSWindow;
-@protocol CDPRecoveryKeyValidator;
+@class CDPRecoveryKeyPrintController;
 
 @interface CDPRecoveryKeySheetBaseController
 {
     _Bool _isCreation;
-    _Bool _isRKForgotten;
-    NSImage *_displayImage;
-    NSTextField *_title;
-    NSTextField *_cdpKey;
-    NSTextField *_cdpKeyEntry;
-    NSTextField *_cdpKeyEntryErrorLabel;
-    NSButton *_continueButton;
-    NSButton *_cancelButton;
-    NSButton *_otherButton;
-    NSView *_containerView;
-    NSView *_cdpRecoveryKeyEntryView;
-    NSView *_cdpRecoveryKeyDisplayView;
-    NSImageView *_cdpRecoveryKeyImageView;
-    NSProgressIndicator *_spinner;
-    NSTextField *_cdpKeyDisplayTitle;
-    NSTextField *_cdpKeyDisplayDescription;
-    CDPContext *_cdpContext;
-    id <CDPRecoveryKeyValidator> _recoveryKeyValidator;
-    CDPRemoteDeviceSecretValidator *_remoteDeviceSecretValidator;
-    NSWindow *_parentWindow;
-    long long _mode;
-    CDUnknownBlockType _completionHandler;
-    CDPRecoveryKeyPrintController *_printController;
-    NSString *_recoveryKey;
 }
 
 - (void);
@@ -48,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -71,69 +46,46 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils;
+- (void)onfig_kind_is_bitfit(allocator->config_kind);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)SHC;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (long long);
+- (void);
+- (void)7;
+- (void);
 - (id);
 - (void);
 - (id);
+- (long long)T;
+- (id);
+- (void);
+- (id)
+*yS	yS_	kb;
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)-;
+- (void)(;
+- (id);
 - (void)stackViewTopConstraint;
 - (id)showResetFailedAlertWithUnderlyingError:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain) CDPContext *cdpContext; // @synthesize cdpContext=_cdpContext;
-@property(retain) NSTextField *cdpKey; // @synthesize cdpKey=_cdpKey;
-@property(retain) NSTextField *cdpKeyDisplayDescription; // @synthesize cdpKeyDisplayDescription=_cdpKeyDisplayDescription;
-@property(retain) NSTextField *cdpKeyDisplayTitle; // @synthesize cdpKeyDisplayTitle=_cdpKeyDisplayTitle;
-@property(retain) NSTextField *cdpKeyEntry; // @synthesize cdpKeyEntry=_cdpKeyEntry;
-@property(retain) NSTextField *cdpKeyEntryErrorLabel; // @synthesize cdpKeyEntryErrorLabel=_cdpKeyEntryErrorLabel;
-@property(retain) NSView *cdpRecoveryKeyDisplayView; // @synthesize cdpRecoveryKeyDisplayView=_cdpRecoveryKeyDisplayView;
-@property(retain) NSView *cdpRecoveryKeyEntryView; // @synthesize cdpRecoveryKeyEntryView=_cdpRecoveryKeyEntryView;
-@property(retain) NSImageView *cdpRecoveryKeyImageView; // @synthesize cdpRecoveryKeyImageView=_cdpRecoveryKeyImageView;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain) NSView *containerView; // @synthesize containerView=_containerView;
-@property(retain) NSButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(retain, nonatomic) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property _Bool isCreation; // @synthesize isCreation=_isCreation;
-@property _Bool isRKForgotten; // @synthesize isRKForgotten=_isRKForgotten;
-@property(readonly) long long mode; // @synthesize mode=_mode;
-@property(retain) NSButton *otherButton; // @synthesize otherButton=_otherButton;
-@property __weak NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
 @property(retain) CDPRecoveryKeyPrintController *printController; // @synthesize printController=_printController;
-@property(retain, nonatomic) NSString *recoveryKey; // @synthesize recoveryKey=_recoveryKey;
-@property(retain) id <CDPRecoveryKeyValidator> recoveryKeyValidator; // @synthesize recoveryKeyValidator=_recoveryKeyValidator;
-@property(retain) CDPRemoteDeviceSecretValidator *remoteDeviceSecretValidator; // @synthesize remoteDeviceSecretValidator=_remoteDeviceSecretValidator;
-@property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(retain) NSTextField *title; // @synthesize title=_title;
 
 @end
 

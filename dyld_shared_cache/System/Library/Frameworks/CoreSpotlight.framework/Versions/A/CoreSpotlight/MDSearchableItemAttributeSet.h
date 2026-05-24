@@ -22,8 +22,6 @@
 
 // Remaining properties
 @property(copy) NSArray *authorPersons;
-@property(copy) NSArray *primaryRecipientPersons;
-@property(copy) NSArray *recipients;
 
 @end
 

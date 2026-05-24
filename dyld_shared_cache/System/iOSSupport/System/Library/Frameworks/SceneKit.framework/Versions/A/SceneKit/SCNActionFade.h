@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)SYNotesActivationObserver;
 - (id);
 - (id);
 - (id);

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTransitRouteDisplayStrings, GEOTransitRouteIdentifier, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitRouteUpdate
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_alerts;
-    GEOTransitRouteDisplayStrings *_displayStrings;
-    GEOTransitRouteIdentifier *_routeIdentifier;
-    NSMutableArray *_stepUpdates;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _status;
-    struct {
-        unsigned int has_status:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_alerts:1;
-        unsigned int read_displayStrings:1;
-        unsigned int read_routeIdentifier:1;
-        unsigned int read_stepUpdates:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
@@ -38,13 +20,13 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)concurrencyType;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)without migration (path:%{public}@) /* Error: Ran out of types for this method. */;
+- (id)add prepared store without migration (path:%{public}@) /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)the store is not a contacts store;
+- (void)reason;
 - (void);
 - (id);
 - (id);
@@ -52,25 +34,25 @@
 - (id);
 - (id);
 - (_Bool);
+- (void));
 - (void);
-- (void);
-- (void);
+- (void)checkHapticTrackAvailabilityForMediaMatchingCode:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)isRemoteVADAvailableStream;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)b;
 - (_Bool);
 - (id);
 - (void);
 - (id)1Â0@ù
 × ;
-- (int)portsMultipathTCP: /* Error: Ran out of types for this method. */;
-- (id)ses: /* Error: Ran out of types for this method. */;
-- (id)mStyle: /* Error: Ran out of types for this method. */;
+- (int)setSupportsMultipathTCP: /* Error: Ran out of types for this method. */;
+- (id)initForDirectionsToAddresses: /* Error: Ran out of types for this method. */;
+- (id)StringAsUserFormStyle: /* Error: Ran out of types for this method. */;
 - (id)A³[@ÐA³Pb@äA³4j@øA³l@B³Xn@ B³ p@4B³Ôä@HB³è@\B³xô@¬B³Äø@ÀB³ú@ÔB³°þ@èB³t;
-- (id)dTimestamp;
-- (_Bool)HOME_AND_WORK;
+- (id)localUpdatedTimestamp;
+- (_Bool)DISPLAY_ADD_HOME_AND_WORK;
 - (void);
 - (int)@;
 - (void)9ëSMQ@;
@@ -78,15 +60,7 @@
 - (id)-2;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *alerts;
-@property(retain, nonatomic) GEOTransitRouteDisplayStrings *displayStrings;
-@property(readonly, nonatomic) _Bool hasDisplayStrings;
 @property(readonly, nonatomic) _Bool hasRouteIdentifier;
-@property(nonatomic) _Bool hasStatus;
-@property(retain, nonatomic) GEOTransitRouteIdentifier *routeIdentifier;
-@property(nonatomic) int status;
-@property(retain, nonatomic) NSMutableArray *stepUpdates;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

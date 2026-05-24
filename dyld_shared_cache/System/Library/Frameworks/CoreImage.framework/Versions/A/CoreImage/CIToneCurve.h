@@ -6,18 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIToneCurve : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputPoint0;
-    CIVector *inputPoint1;
-    CIVector *inputPoint2;
-    CIVector *inputPoint3;
-    CIVector *inputPoint4;
-    NSNumber *inputExtrapolate;
 }
 
 + (id);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id));
 - (void);
 - (void);
 - (void);
@@ -39,13 +33,7 @@ __attribute__((visibility("hidden")))
 - (id)}~{xxxx]olvr{£¡¥¥¨¨¨¨   }]vo~\ldvXkewjxv|~~~~{zy{~~}}{}zpn|yz¥¥¥¥¥¥¥¥{}zgkcy_tpp}}}Za[cTTMTKUJZanjq||||`mjmaa[a\\\\PYO^fe]ivwtzg{yv{{{{nnnncc_cddadjmkm\qou{{{{~~~~sª¯¯¹¹¹¹µµµµ¢§««¤¥¥¥¥¥¤¤¤¤i~{k|{rrrr=UHade^i¤¤¤¤    ezw|zus}xourvJaXmZkeqzzzzm|{{~}|wc~|²²²²³³³³©©©©¤¤¤¤¢¢¢¢m|Mpe¡¡¡¡l~{~~~~~{~~~~Xmgy¤¤¤¤¤¤¤¤e{uvzbvo}muoz{yv|[tr~syyykkkk=SH_W_Wg{{{{`yyjpkxttpt;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputExtrapolate; // @synthesize inputExtrapolate;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) CIVector *inputPoint0; // @synthesize inputPoint0;
-@property(copy, nonatomic) CIVector *inputPoint1; // @synthesize inputPoint1;
-@property(copy, nonatomic) CIVector *inputPoint2; // @synthesize inputPoint2;
-@property(copy, nonatomic) CIVector *inputPoint3; // @synthesize inputPoint3;
-@property(copy, nonatomic) CIVector *inputPoint4; // @synthesize inputPoint4;
 
 @end
 

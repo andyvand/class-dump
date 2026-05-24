@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryFirmwareUpdateManager, HMDHomeManager, HMMTRAnnounceOtaScheduler, HMMTRSoftwareUpdateProvider, NSString;
+@class HMDHomeManager;
 @protocol HMDMatterSoftwareUpdateProviderDelegateDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterSoftwareUpdateProviderDelegate
 {
     HMDHomeManager *_homeManager;
-    HMDAccessoryFirmwareUpdateManager *_accessoryFirmwareUpdateManager;
-    id <HMDMatterSoftwareUpdateProviderDelegateDataSource> _dataSource;
-    HMMTRSoftwareUpdateProvider *_softwareUpdateProvider;
-    HMMTRAnnounceOtaScheduler *_otaScheduler;
 }
 
 + (id);
@@ -22,42 +18,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)dTripRelay";
+- (void)ler"16@"NSError"24;
+- (void)intermediateArrivalMessage;
+- (id)_sharingContactController;
+- (void)_groupSession;
+- (void)_geoCollectionsSettingsPath;
+- (void)_connectionError;
+- (void);
 - (void);
-- (void);
-- (void);
+- (_Bool)}@ (startSharingWith %{public}@);
+- (id)h;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (_Bool);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)minimumValue;
 - (id):%@ /* Error: Ran out of types for this method. */;
 - (void)ublic}@Creating new fabric data;
-- (void)HouseholdHomeActivityStateTransitionTypeByReasonLogEvent;
+- (void)HMDHouseholdHomeActivityStateTransitionTypeByReasonLogEvent;
 - (id)ì=;
 
 // Remaining properties
-@property __weak HMDAccessoryFirmwareUpdateManager *accessoryFirmwareUpdateManager; // @synthesize accessoryFirmwareUpdateManager=_accessoryFirmwareUpdateManager;
 @property(readonly) id <HMDMatterSoftwareUpdateProviderDelegateDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(retain, nonatomic) HMMTRAnnounceOtaScheduler *otaScheduler; // @synthesize otaScheduler=_otaScheduler;
-@property __weak HMMTRSoftwareUpdateProvider *softwareUpdateProvider; // @synthesize softwareUpdateProvider=_softwareUpdateProvider;
-@property(readonly) Class superclass;
 
 @end
 

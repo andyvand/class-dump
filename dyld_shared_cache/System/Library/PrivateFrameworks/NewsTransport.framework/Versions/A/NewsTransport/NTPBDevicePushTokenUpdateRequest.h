@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBDeviceInfo;
+@class NTPBDeviceInfo;
 
 @interface NTPBDevicePushTokenUpdateRequest
 {
     NTPBDeviceInfo *_deviceInfoToAdd;
-    NTPBDeviceInfo *_deviceInfoToRemove;
-    NSString *_notificationUserId;
-    NSString *_userStorefrontId;
 }
 
+- (id)dataSectionObjectForTransformedObject: /* Error: Ran out of types for this method. */;
+- (void)creationRequestForAssetCollectionWithTitle:(id)arg1;
+- (void)configureSectionHeaderLayout:(id)arg1 inAssetSectionLayout:forSectionedLayout: /* Error: Ran out of types for this method. */;
+- (void)assetTypeCountsForAssets:(id)arg1 photosCount:videosCount:othersCount: /* Error: Ran out of types for this method. */;
+- (void)assetTypeCounter;
+- (id)allPeople;
+- (_Bool)addAssetsTo:assets:comment:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_vfxAssembleCameraChromaticTransformIntensity;
+- (_Bool)_updateMapWithAllDataSources: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateManuallyCuratedAssets;
+- (id)_unformattedAllPhones;
+- (id)_styleSwitcherDetailsLabelAttributesC;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)onEnumerateCandidatesE3$_0FbNS_10unique_ptrIN15InputTranscoder13CandidateImplENS_14default_deleteIS5_EEEEEEE;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)ged;
+- (void)isAudioEngaged;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBDeviceInfo *deviceInfoToAdd; // @synthesize deviceInfoToAdd=_deviceInfoToAdd;
-@property(retain, nonatomic) NTPBDeviceInfo *deviceInfoToRemove; // @synthesize deviceInfoToRemove=_deviceInfoToRemove;
-@property(readonly, nonatomic) _Bool hasDeviceInfoToAdd;
-@property(readonly, nonatomic) _Bool hasDeviceInfoToRemove;
 @property(readonly, nonatomic) _Bool hasNotificationUserId;
-@property(readonly, nonatomic) _Bool hasUserStorefrontId;
-@property(retain, nonatomic) NSString *notificationUserId; // @synthesize notificationUserId=_notificationUserId;
-@property(retain, nonatomic) NSString *userStorefrontId; // @synthesize userStorefrontId=_userStorefrontId;
 
 @end
 

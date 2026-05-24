@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface SCNUIHandleButton
 {
     id _instance;
-    _Bool _removeButton;
-    _Bool _allowsCreation;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)edTime;
 - (id);
-- (id);
+- (id)ML3TrackIntegrityVerify;
 - (void)if
         if (debugCascades) {
             float4 shadowDebug = ComputeCascadedShadow(scn_shadow_sampler, surface.position, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius);
@@ -586,8 +584,6 @@ __attribute__((visibility("hidden")))
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool allowsCreation;
-@property(retain) id instance;
 @property _Bool removeButton;
 
 @end

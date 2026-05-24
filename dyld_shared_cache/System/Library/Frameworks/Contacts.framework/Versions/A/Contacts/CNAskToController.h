@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void)edContacts: /* Error: Ran out of types for this method. */;
+- (void)unifyContactMatchInfos:linkedContacts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CNXPCContactsSupport *contactsSupport; // @synthesize contactsSupport=_contactsSupport;

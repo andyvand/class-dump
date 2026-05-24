@@ -9,15 +9,12 @@
 @interface _Feedback
 {
     _Bool _isFallbackFetch;
-    NSString *_conversationId;
-    long long _feedbackActionType;
-    NSString *_transportBundleId;
 }
 
-- (id);
-- (void);
-- (void);
-- (long long);
+- (id)_euclidAsrConfidenceThreshold;
+- (void)_endpointAudioDurationInNs;
+- (void)_contextSubmissionMessage;
+- (long long)cationSource;
 - (void);
 - (id);
 - (_Bool);
@@ -26,9 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *conversationId; // @synthesize conversationId=_conversationId;
-@property(nonatomic) long long feedbackActionType; // @synthesize feedbackActionType=_feedbackActionType;
-@property(nonatomic) _Bool isFallbackFetch; // @synthesize isFallbackFetch=_isFallbackFetch;
-@property(retain, nonatomic) NSString *transportBundleId; // @synthesize transportBundleId=_transportBundleId;
 
 @end
 

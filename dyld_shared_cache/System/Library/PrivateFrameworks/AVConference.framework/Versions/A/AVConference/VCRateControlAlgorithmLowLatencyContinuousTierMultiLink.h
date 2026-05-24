@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCRateControlAlgorithmLowLatencyContinuousTierMultiLink : VCRateControlAlgorithmLowLatencyContinuousTier
 {
     struct tagVCStatisticsMessage _poorestLinkStatistics;
-    unsigned int _linkSSRCs[7];
-    unsigned char _numOfLinkSSRCs;
-    double _lastRateControlProceedTime;
-    double _lastPoorestLinkUpdateTime;
-    double _lastAboveMinimumTargetBitrateTime;
-    struct tagVCStatisticsMessage _linkStatistics[7];
-    _Bool _isTargetBitrateStuckAtMinTierInMultiLinkMode;
 }
 
 - (unsigned int);
@@ -28,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isTargetBitrateStuckAtMinTierInMultiLinkMode; // @synthesize isTargetBitrateStuckAtMinTierInMultiLinkMode=_isTargetBitrateStuckAtMinTierInMultiLinkMode;
-@property(readonly, nonatomic) struct tagVCStatisticsMessage poorestLinkStatistics; // @synthesize poorestLinkStatistics=_poorestLinkStatistics;
 
 @end
 

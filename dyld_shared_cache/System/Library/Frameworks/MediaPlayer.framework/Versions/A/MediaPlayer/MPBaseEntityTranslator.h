@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface MPBaseEntityTranslator
 {
     NSMutableDictionary *_propertiesToTranslators;
-    NSMutableDictionary *_relationshipsToTranslators;
-    CDUnknownBlockType _sourcePreprocessorBlock;
-    NSMutableSet *_unsupportedKeys;
-    struct {
-        unsigned int _relationshipPreparesSource:1;
-    } _optionalHooks;
-    Class _MPModelClass;
 }
 
 + (id);
@@ -31,8 +24,8 @@
 - (id);
 - (id);
 - (Class);
-- (id);
-- (void)itorNotes__MAPPING_MISSING__;
+- (id)D;
+- (void)__MPModelPropertyPlaylistShortEditorNotes__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) Class MPModelClass; // @synthesize MPModelClass=_MPModelClass;

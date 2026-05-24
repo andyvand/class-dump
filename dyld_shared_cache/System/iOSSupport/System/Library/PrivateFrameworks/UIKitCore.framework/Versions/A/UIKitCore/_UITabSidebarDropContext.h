@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UITabGroup;
+@class UITabGroup;
 
 __attribute__((visibility("hidden")))
 @interface _UITabSidebarDropContext
 {
     UITabGroup *_activeTabGroup;
-    NSIndexPath *_proposedIndexPath;
-    long long _insertionIndex;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)shouldRepairAccountWithAccountStatus:securityLevel: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)itP;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UITabGroup *activeTabGroup; // @synthesize activeTabGroup=_activeTabGroup;
-@property(readonly, nonatomic) long long insertionIndex; // @synthesize insertionIndex=_insertionIndex;
-@property(readonly, copy, nonatomic) NSIndexPath *proposedIndexPath; // @synthesize proposedIndexPath=_proposedIndexPath;
 
 @end
 

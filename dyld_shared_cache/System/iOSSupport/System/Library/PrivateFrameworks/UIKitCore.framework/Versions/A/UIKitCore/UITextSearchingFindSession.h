@@ -6,93 +6,57 @@
 
 #import <UIKitCore/UIFindSession.h>
 
-@class NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSString, UIFindInteraction, UITextRange, UITextSearchOptions, _UITextSearchingFindSessionAggregator;
-@protocol NSObject><NSCopying, UITextSearching;
-
 @interface UITextSearchingFindSession : UIFindSession
 {
     _Bool _isSearching;
-    _Bool _awaitingFirstResults;
-    _Bool _readyToPerformDelayedSearchOperations;
-    _Bool _needsResultCountUpdate;
-    UITextRange *_highlightedTextRange;
-    id <NSObject><NSCopying> _highlightedDocument;
-    NSMutableOrderedSet *_sortedDocumentIdentifiers;
-    NSMutableDictionary *_sortedResultsByDocument;
-    NSMutableArray *_blocksAwaitingSearchResults;
-    NSString *_lastSearchQuery;
-    UITextSearchOptions *_lastSearchOptions;
-    _UITextSearchingFindSessionAggregator *_aggregator;
-    UITextRange *_highlightedRangeBeforeSubsequentSearch;
-    id <NSObject><NSCopying> _highlightedDocumentBeforeSubsequentSearch;
-    struct {
-        unsigned int supportsTextReplacement:1;
-        unsigned int shouldReplaceFoundTextInRange:1;
-        unsigned int replaceFoundTextInRange:1;
-        unsigned int replaceAllOccurrencesOfQueryString:1;
-        unsigned int willHighlightFoundTextRange:1;
-        unsigned int scrollRangeToVisible:1;
-        unsigned int shouldBeginTextSearchOperation:1;
-        unsigned int didBeginTextSearchOperation:1;
-        unsigned int didEndTextSearchOperation:1;
-        unsigned int searchResultDisplayStyle:1;
-        unsigned int selectedTextSearchDocument:1;
-        unsigned int compareOrderFromDocument:1;
-        unsigned int compareFoundRangeToRange:1;
-    } _searchableObjectConformsTo;
-    UIFindInteraction *_parentInteraction;
-    id <UITextSearching> _searchableObject;
-    id <UITextSearching> _stronglyHeldSearchableObject;
 }
 
-- (_Bool);
+- (_Bool)groupChatsBasedOnIdentityUsingCacheIfApplicable: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (void)accountController:(id)arg1 accountRemoved: /* Error: Ran out of types for this method. */;
+- (void)_numberOfChatsToFetch;
 - (void);
 - (id);
-- (void);
+- (void)Sg_ABt;
 - (id);
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)abled by server bag;
+- (void)h archived records from message zone as device condition does not allow sync;
+- (void)rds again. Attempt count %lu;
+- (CDUnknownBlockType)ed list update with key %@ -  %@;
+- (void)r unable to determine recipient for 1 on 1 chat;
+- (void)eturning date:%@ /* Error: Ran out of types for this method. */;
+- (void)alHandle:(id)arg1 %@;
+- (void)stive Access synchronously;
+- (void)24@"NSData"32B40@"NSError"44;
+- (void)ile-url;
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ֽ1;
+- (void);
+- (void)!;
+- (id)1;
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)stationGlyph"b1"editorialArtwork"b1"attributionLabel"b1"providerName"b1"live"b1"startingAirDate"b1"endingAirDate"b1"subscriptionRequired"b1};
 - (_Bool);
 - (id)ÿ6Ï _`;
 - (void)È¹kþ;;
 - (long long)¼ºg;
 
 // Remaining properties
-@property(nonatomic) __weak id <UITextSearching> searchableObject; // @synthesize searchableObject=_searchableObject;
 @property(readonly, nonatomic, getter=isSearching) _Bool searching; // @synthesize searching=_isSearching;
-@property(retain, nonatomic) id <UITextSearching> stronglyHeldSearchableObject; // @synthesize stronglyHeldSearchableObject=_stronglyHeldSearchableObject;
 
 @end
 

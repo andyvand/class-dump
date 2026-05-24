@@ -10,24 +10,20 @@ __attribute__((visibility("hidden")))
 @interface MPAVRoutingControllerSelection
 {
     NSArray *_routes;
-    long long _selectionOperation;
-    CDUnknownBlockType _completion;
 }
 
 - (void);
 - (long long);
-- (id);
+- (id)tableAction;
 - (void);
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)e;
 - (void)outingDataSource",R,N,V_dataSource;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(retain, nonatomic) NSArray *routes; // @synthesize routes=_routes;
-@property(nonatomic) long long selectionOperation; // @synthesize selectionOperation=_selectionOperation;
 
 @end
 

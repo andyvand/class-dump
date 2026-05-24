@@ -5,5 +5,6 @@
 //
 
 @protocol MEPluginRegistration
++ (void)__DATA_CONST;
 @end
 

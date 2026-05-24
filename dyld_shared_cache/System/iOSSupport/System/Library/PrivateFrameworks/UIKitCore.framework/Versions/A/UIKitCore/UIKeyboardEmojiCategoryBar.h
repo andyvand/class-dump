@@ -6,44 +6,38 @@
 
 #import <UIKitCore/UIKeyboardEmojiKeyView.h>
 
-@class UIKeyboardEmojiGraphicsTraits, UIResponder, UIView;
-@protocol UIKBEmojiHitTestResponder;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiCategoryBar : UIKeyboardEmojiKeyView
 {
     unsigned long long _selectedIndex;
-    UIView *_scrubView;
-    UIKeyboardEmojiGraphicsTraits *_emojiGraphicsTraits;
-    _Bool _isScrubbing;
-    double _scrubStartXLocation;
-    UIResponder<UIKBEmojiHitTestResponder> *_hitTestResponder;
 }
 
-+ (_Bool);
++ (_Bool)rvice with name:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)unformattedFamilyHandles;
+- (void)intentClientBroadcaster;
+- (void);
+- (void)}ld results for %{public}ld identifiers;
+- (void)e:(id)arg1 Any]];
+- (unsigned long long)eview, no persistedPreviewURL;
+- (id)as Junk by CTS:%@ /* Error: Ran out of types for this method. */;
+- (id)g for services %@;
+- (id)or %@;
+- (id)d to me, however I was told to reflect it only;
+- (struct CGRect)rating safe render succeeded, but still using the original path since we cannot transcode the entire asset:(int)arg1 %@;
+- (unsigned long long)ng message %@, %@;
+- (id)(%@) is not a candidate for spam filtering.;
 - (struct CGRect);
-- (unsigned long long);
-- (id);
-- (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void)CEMApplicationRemoveApplicationCommand;
 - (unsigned long long);
 - (void);
 - (void)ller"b1"delegatePreferredSearchColumnForSplitViewController"b1"delegateInteractivePresentationGestureWillBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
-- (void)ccessoryContainer;
-- (void)ConfigurationState;
+- (void)_titleWithAccessoryContainer;
+- (void)_contentUnavailableConfigurationState;
 - (void)tainerConstraints;
 - (struct CGRect);
 - (void)Ä_þÿ0`þÿP`þÿ|`þÿ`þÿ¼`þÿà`þÿaþÿ$aþÿbþÿ4bþÿTbþÿbþÿ¬bþÿÄbþÿcþÿhcþÿ¸dþÿðdþÿ(eþÿ@eþÿheþÿeþÿ¸eþÿÐeþÿèeþÿfþÿ(fþÿ@fþÿXfþÿfþÿ´fþÿÌfþÿäfþÿüfþÿgþÿ,gþÿdgþÿ|gþÿgþÿ¬gþÿÄgþÿÜgþÿôgþÿhþÿ$hþÿ<hþÿThþÿlhþÿhþÿhþÿ´hþÿÌhþÿähþÿühþÿiþÿ,iþÿDiþÿiþÿ´iþÿjþÿÄjþÿDkþÿ\kþÿtkþÿÀkþÿlþÿlþÿ¨lþÿÀlþÿØlþÿðlþÿ0mþÿHmþÿtmþÿmþÿ°mþÿÈmþÿàmþÿømþÿ nþÿ¸nþÿÐnþÿðnþÿhoþÿoþÿ¤oþÿ¼oþÿÔoþÿ<pþÿpþÿÄpþÿ,qþÿpqþÿ¨qþÿÀqþÿØqþÿðqþÿHuþÿÄvþÿìvþÿwþÿLxþÿdxþÿÀxþÿàxþÿpyþÿzþÿ zþÿ8{þÿä{þÿ(|þÿP|þÿt|þÿ|þÿ¤|þÿ¼|þÿÔ|þÿì|þÿ}þÿ<}þÿd}þÿ}þÿ´}þÿÜ}þÿô}þÿ~þÿ8~þÿX~þÿp~þÿ~þÿ ~þÿ¸~þÿ\þÿ¤þÿÄþÿÜþÿôþÿþÿ$þÿ<þÿTþÿlþÿþÿ´þÿÌþÿäþÿüþÿþÿ,þÿÔþÿþÿ`þÿþÿþÿþÿ¸þÿþÿÄþÿÜþÿtþÿþÿDþÿþÿþÿ¼þÿþÿÄþÿðþÿþÿ(þÿÔþÿ,þÿ\þÿØþÿ;
@@ -53,10 +47,7 @@ __attribute__((visibility("hidden")))
 - (void)Ô<g;
 
 // Remaining properties
-@property(retain, nonatomic) UIKeyboardEmojiGraphicsTraits *emojiGraphicsTraits; // @synthesize emojiGraphicsTraits=_emojiGraphicsTraits;
-@property(nonatomic) UIResponder<UIKBEmojiHitTestResponder> *hitTestResponder; // @synthesize hitTestResponder=_hitTestResponder;
 @property(retain, nonatomic) UIView *scrubView; // @synthesize scrubView=_scrubView;
-@property unsigned long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString;
-
 @interface SATTSSpeechSynthesisFailure : SABaseClientBoundCommand
 {
 }
@@ -15,19 +13,17 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (long long)tTypes;
+- (_Bool);
+- (void)P;
+- (long long)productTypes;
 
 // Remaining properties
 @property(nonatomic) long long errorCode;
-@property(copy, nonatomic) NSString *reason;
-@property(copy, nonatomic) NSString *reasonDescription;
 
 @end
 

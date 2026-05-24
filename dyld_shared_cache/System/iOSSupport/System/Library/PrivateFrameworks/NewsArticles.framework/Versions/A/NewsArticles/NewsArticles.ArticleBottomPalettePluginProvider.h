@@ -7,8 +7,6 @@
 @interface NewsArticles.ArticleBottomPalettePluginProvider
 {
     id descriptors;
-    id bottomPaletteStyler;
-    id $__lazy_storage_$_viewController;
 }
 
 @end

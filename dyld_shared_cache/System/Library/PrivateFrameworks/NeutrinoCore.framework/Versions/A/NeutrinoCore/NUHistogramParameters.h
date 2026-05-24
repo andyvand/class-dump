@@ -9,9 +9,9 @@
     CDStruct_68f7c993 _colorMatrix;
 }
 
-- (void);
+- (void)writeToURL:(CDStruct_68f7c993)arg1 atomically: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)`";
 - (CDStruct_68f7c993);
 - (id);
 

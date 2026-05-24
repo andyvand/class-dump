@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLProgramContext, MLProgramEvaluator;
-@protocol MLFeatureProvider, MLModeling, MLProgramInternal;
+@protocol MLProgramInternal;
 
 @interface MLProgramTrainer
 {
     double _learningRate;
-    id <MLProgramInternal> _program;
-    MLProgramContext *_context;
-    MLProgramEvaluator *_evaluator;
-    id <MLFeatureProvider> _currentUpdatedWeights;
 }
 
+- (id)encodeMTLInstanceBVHLeafNodeIndirectKernel;
+- (id)encodeMTLInstanceBVHLeafNodeUserIDKernel;
+- (void)MTLRenderPassDepthAttachmentDescriptor.;
+- (void)MatrixType;
+- (id)) must be < %lu.;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)D;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)TN;
 - (void);
 - (double);
 - (id);
 - (void)encountered while converting objective C NSArray shape to std:vector shape /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MLProgramContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) id <MLFeatureProvider> currentUpdatedWeights; // @synthesize currentUpdatedWeights=_currentUpdatedWeights;
-@property(retain, nonatomic) MLProgramEvaluator *evaluator; // @synthesize evaluator=_evaluator;
-@property(readonly, copy) id <MLModeling> inferenceModel;
-@property(nonatomic) double learningRate; // @synthesize learningRate=_learningRate;
 @property(retain, nonatomic) id <MLProgramInternal> program; // @synthesize program=_program;
 
 @end

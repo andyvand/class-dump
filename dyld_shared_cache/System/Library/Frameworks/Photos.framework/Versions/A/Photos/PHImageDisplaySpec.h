@@ -7,9 +7,6 @@
 @interface PHImageDisplaySpec
 {
     long long _contentMode;
-    struct CGSize _fallbackTargetSizeIfRequestedSizeNotLocallyAvailable;
-    struct CGSize _targetSize;
-    struct CGRect _normalizedCropRect;
 }
 
 - (id);
@@ -17,7 +14,7 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)[KQ	J;
 - (void);
 - (id);
 - (_Bool);
@@ -26,15 +23,12 @@
 - (struct CGSize);
 - (long long);
 - (struct CGRect);
-- (void);
+- (void)isExplicitMediaAllowed;
 - (void);
 - (struct CGSize);
 
 // Remaining properties
-@property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
 @property(nonatomic) struct CGSize fallbackTargetSizeIfRequestedSizeNotLocallyAvailable; // @synthesize fallbackTargetSizeIfRequestedSizeNotLocallyAvailable=_fallbackTargetSizeIfRequestedSizeNotLocallyAvailable;
-@property(nonatomic) struct CGRect normalizedCropRect; // @synthesize normalizedCropRect=_normalizedCropRect;
-@property(nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end
 

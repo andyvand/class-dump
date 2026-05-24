@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol MLPipeline
+- (NSArray *);
 
 // Remaining properties
-@property(readonly) NSArray *modelNames;
 @property(readonly) NSArray *models;
 @end
 

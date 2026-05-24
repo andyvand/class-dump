@@ -8,15 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCDuplicationHandler
 {
     unsigned char _duplicationState;
-    unsigned char _duplicationReason;
-    _Bool _moreThanOneConnectionAvailable;
-    CDStruct_634abacb _localAlertInfo;
-    CDStruct_634abacb _remoteAlertInfo;
-    _Bool _isUserMoving;
-    _Bool _allowDuplication;
-    _Bool _forceDisableDuplication;
-    _Bool _isRemotePreAzul;
-    _Bool _iRATDuplicationEnabled;
 }
 
 - (void);
@@ -31,11 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property _Bool allowDuplication; // @synthesize allowDuplication=_allowDuplication;
-@property _Bool iRATDuplicationEnabled; // @synthesize iRATDuplicationEnabled=_iRATDuplicationEnabled;
 @property(readonly) _Bool isDuplicationPending;
-@property _Bool isRemotePreAzul; // @synthesize isRemotePreAzul=_isRemotePreAzul;
-@property _Bool isUserMoving; // @synthesize isUserMoving=_isUserMoving;
 
 @end
 

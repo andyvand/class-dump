@@ -5,5 +5,6 @@
 //
 
 @protocol IMPhotoLibraryPersistenceManagerListener
+- (void)%s] %s:%d %@(%p) VCAudioSessionMediaProperties property changed:networkUplinkClockUsesBaseband=%u became networkUplinkClockUsesBaseband=%u /* Error: Ran out of types for this method. */;
 @end
 

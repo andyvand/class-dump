@@ -8,10 +8,6 @@
 {
     id delegate;
     id featureSettings;
-    id eventManager;
-    id placementRequestDate;
-    id throttleInterval;
-    id $__lazy_storage_$_isEnabled;
 }
 
 @end

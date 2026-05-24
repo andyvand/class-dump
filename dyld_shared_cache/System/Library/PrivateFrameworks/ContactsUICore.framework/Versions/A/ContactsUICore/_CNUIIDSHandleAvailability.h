@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNUIIDSHandle;
 
 @interface _CNUIIDSHandleAvailability
 {
     _Bool _available;
-    id <CNUIIDSHandle> _handle;
 }
 
 - (id);
@@ -20,16 +18,7 @@
 - (void)4;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAvailable) _Bool available; // @synthesize available=_available;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <CNUIIDSHandle> handle; // @synthesize handle=_handle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAvailable; // @dynamic isAvailable;
-@property(readonly) Class superclass;
 
 @end
 

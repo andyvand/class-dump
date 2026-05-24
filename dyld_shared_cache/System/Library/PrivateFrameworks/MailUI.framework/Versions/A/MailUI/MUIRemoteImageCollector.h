@@ -9,14 +9,13 @@
 @interface MUIRemoteImageCollector
 {
     NSMutableArray *_attachments;
-    NSOperationQueue *_downloadQueue;
 }
 
 - (id);
 - (void);
+- (id)0;
 - (id);
-- (id);
-- (void)ionary: /* Error: Ran out of types for this method. */;
+- (void)selectionAndClickInformationFromSelectionContextDictionary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOperationQueue *downloadQueue; // @synthesize downloadQueue=_downloadQueue;

@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void)Behavior;
+- (void)_applicationShouldOverrideHardwareVolumeBehavior;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *personID; // @synthesize personID=_personID;

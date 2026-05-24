@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFuture, NSString;
+@class FMFuture;
 
 @interface FMPromise
 {
     FMFuture *_future;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)H86;
 - (_Bool);
 - (_Bool);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
@@ -25,15 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *descriptor;
 @property(readonly) FMFuture *future; // @synthesize future=_future;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

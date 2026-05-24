@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 
 + (Class)°1Â0@ù
 × ;
-- (_Bool);
+- (_Bool)cation Ranges for Message:%@. isSWYSpam %@, showQuickAction:%@ swyAppName:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (void);
-- (void)eading:(id)arg1;
+- (void)initWithURL:(id)arg1 cachePolicy:timeoutInterval: /* Error: Ran out of types for this method. */;
+- (void)_entryPointInNormalizedFrame:(id)arg1 forHeading: /* Error: Ran out of types for this method. */;
 - (void)`	ÖäHc;
 
 @end

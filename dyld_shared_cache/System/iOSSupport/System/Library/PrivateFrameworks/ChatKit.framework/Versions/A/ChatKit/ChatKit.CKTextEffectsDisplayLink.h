@@ -7,10 +7,9 @@
 @interface ChatKit.CKTextEffectsDisplayLink
 {
     id tokens;
-    id displayLink;
 }
 
-- (id);
+- (id)ICLockedNotesWelcomeViewController;
 - (void);
 - (id);
 - (void)tryViewController"8@"UITraitCollection"16;

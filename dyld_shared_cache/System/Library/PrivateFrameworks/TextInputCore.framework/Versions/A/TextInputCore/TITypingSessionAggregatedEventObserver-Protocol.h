@@ -5,8 +5,9 @@
 //
 
 @protocol TITypingSessionAggregatedEventObserver
+- (void)#;
 
 @optional
-- (void)e: /* Error: Ran out of types for this method. */;
+- (void)_generateQueries:tokenize: /* Error: Ran out of types for this method. */;
 @end
 

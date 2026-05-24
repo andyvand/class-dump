@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, IMKUICandidateItemLayout, NSAttributedString, NSImage, NSIndexPath, NSNumber, NSString;
-
 @interface IMKUICandidate
 {
     long long _alignment;
-    double _annotationLeadingMargin;
-    NSAttributedString *_annotationAttributedStringValue;
-    IMKCandidate *_candidate;
-    NSNumber *_hasDefinitionValue;
-    NSNumber *_hasNoteValue;
-    _Bool _hidden;
-    NSIndexPath *_indexPath;
-    IMKUICandidateItemLayout *_layout;
-    _Bool _selected;
-    double _spacing;
-    struct CGSize _size;
-    struct CGPoint _position;
-    double _rightEdge;
-    long long _selectionKeyAlignment;
-    double _selectionKeyLeadingEdge;
-    double _thickness;
-    NSAttributedString *_titleAttributedStringValue;
-    NSImage *_stickerView;
-    double _titleLeadingEdge;
-    long long _truncationType;
-    _Bool _hasCandidateSeparator;
-    _Bool _hasLineSeparator;
-    double _minimumSpacing;
-    struct CGPoint _iconPosition;
-    struct CGSize _iconSize;
 }
 
 + (id);
@@ -41,7 +14,7 @@
 - (void);
 - (long long);
 - (double);
-- (double);
+- (double)*)q;
 - (void);
 - (void);
 - (void);
@@ -63,37 +36,37 @@
 - (double);
 - (double);
 - (struct CGSize);
+- (void)9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)	;
 - (struct CGSize);
 - (double);
 - (double);
 - (_Bool);
 - (id);
 - (double);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
 - (struct CGSize);
 - (double);
-- (_Bool);
-- (_Bool);
-- (id);
-- (struct CGSize);
+- (_Bool)setContentsGravity: /* Error: Ran out of types for this method. */;
+- (_Bool)already;
+- (id)cate 720p15 rule;
+- (struct CGSize)nsaction];
 - (struct CGSize);
 - (id);
 - (id);
@@ -110,48 +83,17 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
-- (void)ouchBar:(double)arg1;
+- (void)setHasTouchBar:(double)arg1;
 - (void)¬
 ;
 - (_Bool)t;
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(copy, nonatomic) NSAttributedString *annotationAttributedStringValue; // @synthesize annotationAttributedStringValue=_annotationAttributedStringValue;
-@property(nonatomic) double annotationLeadingMargin; // @synthesize annotationLeadingMargin=_annotationLeadingMargin;
-@property(retain, nonatomic) IMKCandidate *candidate; // @synthesize candidate=_candidate;
-@property(readonly, nonatomic) double finalLeadingEdgeForTitle;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(nonatomic) _Bool hasCandidateSeparator; // @synthesize hasCandidateSeparator=_hasCandidateSeparator;
-@property(readonly, nonatomic) _Bool hasDefinition;
-@property(nonatomic) _Bool hasLineSeparator; // @synthesize hasLineSeparator=_hasLineSeparator;
-@property(readonly, nonatomic) _Bool hasNote;
-@property(nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
 @property(readonly, nonatomic) struct CGRect iconFrame;
-@property(nonatomic) struct CGPoint iconPosition; // @synthesize iconPosition=_iconPosition;
-@property(nonatomic) struct CGSize iconSize; // @synthesize iconSize=_iconSize;
-@property(retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) struct CGSize intrinsicContentSize;
-@property(retain, nonatomic) IMKUICandidateItemLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) struct CGSize minimumContentSize;
-@property(nonatomic) double minimumSpacing; // @synthesize minimumSpacing=_minimumSpacing;
-@property(nonatomic) struct CGPoint position; // @synthesize position=_position;
-@property(nonatomic) double rightEdge; // @synthesize rightEdge=_rightEdge;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(nonatomic) long long selectionKeyAlignment; // @synthesize selectionKeyAlignment=_selectionKeyAlignment;
-@property(nonatomic) double selectionKeyLeadingEdge; // @synthesize selectionKeyLeadingEdge=_selectionKeyLeadingEdge;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly, nonatomic) double spaceBetweenIconAndTitle;
-@property(nonatomic) double spacing; // @synthesize spacing=_spacing;
-@property(readonly, nonatomic) NSString *stringIdentifier;
-@property(nonatomic) double thickness; // @synthesize thickness=_thickness;
-@property(copy, nonatomic) NSAttributedString *titleAttributedStringValue; // @synthesize titleAttributedStringValue=_titleAttributedStringValue;
-@property(nonatomic) double titleLeadingEdge; // @synthesize titleLeadingEdge=_titleLeadingEdge;
-@property(nonatomic) long long truncationType; // @synthesize truncationType=_truncationType;
 
 @end
 

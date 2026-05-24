@@ -9,20 +9,14 @@
 @interface PXStoryMultipartPanoramaSettings : PXSettings
 {
     _Bool _isFeatureEnabled;
-    long long _maximumNumberOfParts;
-    long long _overlappingTileCount;
-    double _maximumTileSide;
-    double _tileOverlapThreshold;
-    double _productionSimulatedDelay;
-    double _productionReportsTimeInterval;
 }
 
-+ (id);
++ (id),R,N,V_errorLabel;
 + (id)LemonadeInlineStoryContentPlayerView;
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)@9;
 - (void);
 - (void);
 - (void);
@@ -32,18 +26,12 @@
 - (long long);
 - (long long);
 - (double);
-- (_Bool);
-- (id);
+- (_Bool)C;
+- (id)h;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool isFeatureEnabled; // @synthesize isFeatureEnabled=_isFeatureEnabled;
-@property(nonatomic) long long maximumNumberOfParts; // @synthesize maximumNumberOfParts=_maximumNumberOfParts;
-@property(nonatomic) double maximumTileSide; // @synthesize maximumTileSide=_maximumTileSide;
-@property(nonatomic) long long overlappingTileCount; // @synthesize overlappingTileCount=_overlappingTileCount;
-@property(nonatomic) double productionReportsTimeInterval; // @synthesize productionReportsTimeInterval=_productionReportsTimeInterval;
-@property(nonatomic) double productionSimulatedDelay; // @synthesize productionSimulatedDelay=_productionSimulatedDelay;
-@property(nonatomic) double tileOverlapThreshold; // @synthesize tileOverlapThreshold=_tileOverlapThreshold;
 
 @end
 

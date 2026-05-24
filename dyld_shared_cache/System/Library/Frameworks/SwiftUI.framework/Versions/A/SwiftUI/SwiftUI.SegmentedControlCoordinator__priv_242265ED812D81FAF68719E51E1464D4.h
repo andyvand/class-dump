@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id);
+- (id)J_Q;
 - (void);
 
 @end

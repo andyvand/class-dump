@@ -6,44 +6,33 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCDContactsMatchingSearchStringInGroupsOrContainersWithIdentifiersPredicate : CNPredicate
 {
     NSArray *_containerIdentifiers;
-    NSArray *_groupIdentifiers;
-    NSString *_searchString;
 }
 
 + (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)lidation-Passed;
+- (id)20SipTypedStateMachineI24BambiConferenceCallStateE;
+- (id)5;
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)updateWithContactImage:pairedPoster: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containerIdentifiers; // @synthesize containerIdentifiers=_containerIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *groupIdentifiers; // @synthesize groupIdentifiers=_groupIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface KnowledgeGraphKit.GraphManager
 {
     id $defaultActor;
-    id url;
-    id entityFactory;
-    id _storeManager;
 }
 
 @end

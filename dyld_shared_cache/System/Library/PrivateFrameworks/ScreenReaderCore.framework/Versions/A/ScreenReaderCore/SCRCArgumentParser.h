@@ -6,20 +6,16 @@
 
 #import <ScreenReaderCore/SCRCArgumentSubcommand.h>
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface SCRCArgumentParser : SCRCArgumentSubcommand
 {
     _Bool _isLaunchedAtLogin;
-    NSString *_appName;
-    NSMutableArray *__subcommandArray;
-    SCRCArgumentSubcommand *__subcommand;
-    NSArray *__arguments;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)postedLocalNotifyWhenFoundNotificationForUUID:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -36,16 +32,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)debugDescription;
 - (int);
-- (_Bool);
+- (_Bool)isEllipsis;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *_arguments; // @synthesize _arguments=__arguments;
-@property(retain, nonatomic) SCRCArgumentSubcommand *_subcommand; // @synthesize _subcommand=__subcommand;
 @property(retain, nonatomic) NSMutableArray *_subcommandArray; // @synthesize _subcommandArray=__subcommandArray;
-@property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(nonatomic) _Bool isLaunchedAtLogin; // @synthesize isLaunchedAtLogin=_isLaunchedAtLogin;
 
 @end
 

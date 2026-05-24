@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-@protocol SUOSULaterDelegate;
-
 @interface SUOSULaterObserver
 {
     _Bool _isArmed;
-    _Bool _isSimulated;
-    NSDate *_estimatedFireDate;
-    id <SUOSULaterDelegate> _delegate;
 }
 
 - (void);
@@ -27,13 +21,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)0;
 
 // Remaining properties
-@property __weak id <SUOSULaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSDate *estimatedFireDate; // @synthesize estimatedFireDate=_estimatedFireDate;
 @property _Bool isArmed; // @synthesize isArmed=_isArmed;
-@property _Bool isSimulated; // @synthesize isSimulated=_isSimulated;
 
 @end
 

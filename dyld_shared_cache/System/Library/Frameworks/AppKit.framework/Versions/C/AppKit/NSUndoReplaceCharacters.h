@@ -6,17 +6,14 @@
 
 #import <AppKit/NSUndoTextOperation.h>
 
-@class NSAttributedString;
-
 @interface NSUndoReplaceCharacters : NSUndoTextOperation
 {
     struct _NSRange _replacementRange;
-    NSAttributedString *_attributedString;
 }
 
-- (void);
+- (void)decode params;
 - (id);
-- (id);
+- (id)convert nil to a dictionary.;
 - (void);
 
 @end

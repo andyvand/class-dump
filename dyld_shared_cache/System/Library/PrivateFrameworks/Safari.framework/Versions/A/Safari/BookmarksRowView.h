@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksViewController, NSButton;
+@class BookmarksViewController;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksRowView
 {
     BookmarksViewController *_bookmarksViewController;
-    NSButton *_disclosureButton;
-    id _item;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)K;
 - (id);
 - (void)t %@;
 - (void);

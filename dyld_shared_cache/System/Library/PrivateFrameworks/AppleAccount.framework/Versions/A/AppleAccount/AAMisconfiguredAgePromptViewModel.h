@@ -9,37 +9,24 @@
 @interface AAMisconfiguredAgePromptViewModel
 {
     void title;
-    void message;
-    void primaryButtonText;
-    void secondaryButtonText;
-    void cancelButtonText;
-    void bundleID;
-    void altDSID;
 }
 
 + (_Bool);
+- (id)narchiver:(id)arg1 %s;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!*;
 - (id);
 - (id);
 - (void);
+- (id)ed thumbnail at %@;
+- (id)alternativeButtonString;
 - (id);
-- (id);
-- (id);
-- (void)psEnvironment;
+- (void)apsEnvironment;
 - (id)Mú!`0®qAoH¡ÁnÎ$L×©ß­²¾*\üì¦m)«3£».¢=J1¨ah¤wrPI6¥]ÆOêe_èTª[¿-z7Y#¼f½9Êu·ÂÍxÜ¹ã;CïÝë÷/â§;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *altDSID;
-@property(nonatomic, readonly) NSString *bundleID;
-@property(nonatomic, readonly) NSString *cancelButtonText;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *message;
-@property(nonatomic, readonly) NSString *primaryButtonText;
-@property(nonatomic, readonly) NSString *secondaryButtonText;
 @property(nonatomic, readonly) NSString *title;
 
 @end

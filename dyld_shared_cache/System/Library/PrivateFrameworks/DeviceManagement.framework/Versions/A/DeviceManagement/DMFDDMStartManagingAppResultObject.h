@@ -9,7 +9,6 @@
 @interface DMFDDMStartManagingAppResultObject
 {
     NSString *_bundleIdentifier;
-    unsigned long long _state;
 }
 
 + (_Bool);
@@ -19,11 +18,10 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)gin@999)-|;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface DUSchemaDUContent : SISchemaInstrumentationMessage
 {
     NSData *_dataPayload;
-    _Bool _hasDataPayload;
 }
 
 - (void);
@@ -19,22 +18,21 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ConnectionID received an XPC_ERROR_CONNECTION_INVALID error.
+;
+- (id)coder:(id)arg1 decodeArrayOfClass:forKey:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)oudnessLevel"b1"backgroundNoiseLevel"b1"backgroundNoiseActivityLevel"b1"isMediaPlaybackOn"b1"invocationType"b1"isPermanentOffsetEnabled"b1"permanentOffsetFactor"b1};
-- (id)maPEGASUSWebAnswerCitationInfoTier1;
+- (id)PEGASUSSchemaPEGASUSWebAnswerCitationInfoTier1;
 - (id)KÌK;
 - (void)Ü¸ÿûs®²%;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *dataPayload; // @synthesize dataPayload=_dataPayload;
-@property(nonatomic) _Bool hasDataPayload; // @synthesize hasDataPayload=_hasDataPayload;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

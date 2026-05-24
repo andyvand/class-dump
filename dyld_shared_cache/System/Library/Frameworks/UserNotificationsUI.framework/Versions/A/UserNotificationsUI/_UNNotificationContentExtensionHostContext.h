@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSObject;
-@protocol OS_dispatch_queue, _UNNotificationContentExtensionHostContextDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _UNNotificationContentExtensionHostContext
 {
     _Bool _wantsToBecomeFirstResponder;
-    _Bool _wantsToReceiveActionResponses;
-    _Bool _delegateQueueSuspended;
-    unsigned long long _playPauseMediaButtonType;
-    NSColor *_playPauseMediaButtonColor;
-    id <_UNNotificationContentExtensionHostContextDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct CGRect _playPauseMediaButtonFrame;
 }
 
 + (id);
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
+- (void);
+- (void);
+- (void)S�;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -46,15 +40,14 @@
 - (void);
 - (void);
 - (void);
+- (void)i;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@9;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,14 +67,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <_UNNotificationContentExtensionHostContextDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(nonatomic, getter=isDelegateQueueSuspended) _Bool delegateQueueSuspended; // @synthesize delegateQueueSuspended=_delegateQueueSuspended;
-@property(retain, nonatomic) NSColor *playPauseMediaButtonColor; // @synthesize playPauseMediaButtonColor=_playPauseMediaButtonColor;
-@property(nonatomic) struct CGRect playPauseMediaButtonFrame; // @synthesize playPauseMediaButtonFrame=_playPauseMediaButtonFrame;
-@property(nonatomic) unsigned long long playPauseMediaButtonType; // @synthesize playPauseMediaButtonType=_playPauseMediaButtonType;
-@property(nonatomic) _Bool wantsToBecomeFirstResponder; // @synthesize wantsToBecomeFirstResponder=_wantsToBecomeFirstResponder;
-@property(nonatomic) _Bool wantsToReceiveActionResponses; // @synthesize wantsToReceiveActionResponses=_wantsToReceiveActionResponses;
 
 @end
 

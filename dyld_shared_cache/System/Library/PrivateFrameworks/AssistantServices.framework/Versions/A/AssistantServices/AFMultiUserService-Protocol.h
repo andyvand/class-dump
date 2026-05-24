@@ -5,5 +5,9 @@
 //
 
 @protocol AFMultiUserService
+- (oneway void)T
+%@y_=;
+- (oneway void)<)*J;
+- (oneway void);
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSData;
 
 @protocol _SFPBTitleCardSection
-- (int)tityIdentifier;
+- (void);
+- (_Bool)@16@24@32@40@48;
+- (_Bool)setPlatformIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)setKeyServerProtocolType: /* Error: Ran out of types for this method. */;
+- (void)presentation kind:(int)arg1 %ld;
+- (void)eGraphics;
+- (NSData *)"PHSearchQuery",R,N,V_searchQuery;
+- (void);
+- (int)_entityIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(nonatomic) _Bool isCentered;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *type;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)lMax %f levelOff %f ambientOffset %f ambientSlope %f ambientLowThreshold %f ambientHighThreshold %f suspend %d userActive %d HW available %d;
 @end
 

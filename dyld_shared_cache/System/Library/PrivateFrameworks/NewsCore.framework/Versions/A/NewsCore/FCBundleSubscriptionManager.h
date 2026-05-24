@@ -4,59 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCBundleSubscription, FCBundleSubscriptionLookUpEntryManager, FCKeyValueStore, NFMutexLock, NSHashTable, NSString;
-@protocol FCBundleChannelProviderType, FCBundleEntitlementsProviderType, FCContentContext, FCCoreConfigurationManager, FCEntitlementsOverrideProviderType;
+@class FCBundleSubscription;
 
 @interface FCBundleSubscriptionManager
 {
     _Bool _hasRunEntitlementOnce;
-    id <FCBundleEntitlementsProviderType> _bundleEntitlementsProvider;
-    id <FCContentContext> _contentContext;
-    FCKeyValueStore *_localStore;
-    FCBundleSubscriptionLookUpEntryManager *_bundleSubscriptionLookupEntryManager;
-    NSHashTable *_observers;
-    NFMutexLock *_accessLock;
-    id <FCBundleChannelProviderType> _bundleChannelProvider;
-    id <FCCoreConfigurationManager> _configurationManager;
-    FCAsyncSerialQueue *_refreshQueue;
-    FCBundleSubscription *_cachedSubscription;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setFooterReferenceSize:(CDUnknownBlockType)arg1;
+- (void)removeLastObject;
 - (id);
-- (void)g;
+- (void)setAvoidTolls:(id)arg1;
+- (id)->_config.circuits containsObject:circuit] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)8;
+- (void);
+- (void)etc;
+- (id);
+- (void)Testing;
 - (void)eInternal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNetworkBehaviorMonitor.m;
 - (void)VÔÿµ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) FCBundleSubscription *bundleSubscription;
 @property(retain, nonatomic) FCBundleSubscription *cachedSubscription; // @synthesize cachedSubscription=_cachedSubscription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider; // @dynamic entitlementsOverrideProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) FCBundleSubscription *validatedCachedSubscription;
 
 @end
 

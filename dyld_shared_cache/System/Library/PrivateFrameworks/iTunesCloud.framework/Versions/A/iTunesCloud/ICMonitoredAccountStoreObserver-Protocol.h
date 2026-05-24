@@ -5,5 +5,8 @@
 //
 
 @protocol ICMonitoredAccountStoreObserver
+
+@optional
+- (void));
 @end
 

@@ -5,9 +5,9 @@
 //
 
 @protocol PISensitiveContentAnalysisResult
+- (double)V;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isSafe;
-@property(readonly, nonatomic) double sensitivityScore;
 @end
 

@@ -6,42 +6,29 @@
 
 #import <CoreImage/CIFeature.h>
 
-@class CIQRCodeDescriptor, NSString;
-
 @interface CIQRCodeFeature : CIFeature
 {
     struct CGRect bounds;
-    struct CGPoint topLeft;
-    struct CGPoint topRight;
-    struct CGPoint bottomLeft;
-    struct CGPoint bottomRight;
-    CIQRCodeDescriptor *symbolDescriptor;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)9;
 - (id);
 - (void);
-- (id);
+- (id);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)b;
 - (struct CGPoint);
 - (id);
 - (struct CGRect);
 - (struct CGPoint);
-- (void);
-- (id);
+- (void)a;
+- (id)(;
 
 // Remaining properties
-@property(readonly) struct CGPoint bottomLeft; // @synthesize bottomLeft;
-@property(readonly) struct CGPoint bottomRight; // @synthesize bottomRight;
 @property(readonly) struct CGRect bounds; // @synthesize bounds;
-@property(readonly) NSString *messageString;
-@property(readonly) CIQRCodeDescriptor *symbolDescriptor; // @synthesize symbolDescriptor;
-@property(readonly) struct CGPoint topLeft; // @synthesize topLeft;
-@property(readonly) struct CGPoint topRight; // @synthesize topRight;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SAUISetMapsAnalytics : SABaseClientBoundCommand
 {
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *extSessionGuid;
-@property(copy, nonatomic) NSDate *extSessionGuidCreatedTimestamp;
 
 @end
 

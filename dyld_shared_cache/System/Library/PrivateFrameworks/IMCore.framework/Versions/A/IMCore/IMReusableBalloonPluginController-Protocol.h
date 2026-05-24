@@ -5,5 +5,6 @@
 //
 
 @protocol IMReusableBalloonPluginController
+- (void)^Q24^S32;
 @end
 

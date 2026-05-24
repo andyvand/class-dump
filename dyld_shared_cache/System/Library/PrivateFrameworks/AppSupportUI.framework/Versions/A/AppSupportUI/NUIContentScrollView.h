@@ -7,27 +7,24 @@
 @interface NUIContentScrollView
 {
     _Bool _canScrollDocumentViewHorizontally;
-    _Bool _canScrollDocumentViewVertically;
-    long long _horizontalAlignment;
-    long long _verticalAlignment;
 }
 
-+ (_Bool);
++ (_Bool)destinationContext;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (_Bool);
 - (struct CGSize);
 - (struct CGSize);
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (unsigned long long);
-- (struct CGSize);
+- (struct CGSize)g:(struct CGSize)arg1 Asset audience is set to obsolete seed audience, resetting it;
 - (CDStruct_6c92d79e);
 - (id);
 - (struct CGSize);
@@ -38,10 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool canScrollDocumentViewHorizontally; // @synthesize canScrollDocumentViewHorizontally=_canScrollDocumentViewHorizontally;
-@property(nonatomic) _Bool canScrollDocumentViewVertically; // @synthesize canScrollDocumentViewVertically=_canScrollDocumentViewVertically;
 @property(nonatomic) long long horizontalAlignment; // @synthesize horizontalAlignment=_horizontalAlignment;
-@property(nonatomic) long long verticalAlignment; // @synthesize verticalAlignment=_verticalAlignment;
 
 @end
 

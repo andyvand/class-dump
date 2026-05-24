@@ -4,58 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
-@protocol MTLBuffer, MTLDeadlineProfile;
+@protocol MTLBlitCommandEncoder, MTLDeadlineProfile;
 
 @protocol MTLCommandBufferSPI
+- (void);
+- (id <MTLDeadlineProfile>);
+- (void)A;
+- (void)# ;
 - (void)om.;
 
 @optional
+- (void);
+- (void)A;
+- (double)`;
+- (id <MTLBlitCommandEncoder>);
+- (void)J;
+- (void)i ;
+- (unsigned long long)ʫ;
+- (void)oJ;
 - (unsigned long long)ribution>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<MTLPixelFormat, MTLTelemetryTextureDistribution>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (unsigned long long).computeFunction must not be nil.;
 - (void)celeration descriptor is using primitive motion blur which is not supported by the device.;
 
 // Remaining properties
-@property(readonly) double GPUEndTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double GPUStartTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly, retain) id <MTLDeadlineProfile> deadlineProfile;
-@property(readonly) unsigned long long globalTraceObjectID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) double kernelEndTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double kernelStartTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
 @property(readonly, nonatomic, getter=getListIndex) unsigned long long listIndex;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R,N,GgetListIndex
 
-@property(retain, nonatomic) id <MTLBuffer> privateData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MTLBuffer>",?,&,N
-
-@property(nonatomic) unsigned long long privateDataOffset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) id <MTLBuffer> privateLoggingBuffer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MTLBuffer>",?,N
-
-@property(getter=isProfilingEnabled) _Bool profilingEnabled;
-@property(readonly) NSDictionary *profilingResults;
-@property(nonatomic) _Bool sharedIndirectionTable;
-@property(readonly, nonatomic) NSMutableDictionary *userDictionary;
 @end
 

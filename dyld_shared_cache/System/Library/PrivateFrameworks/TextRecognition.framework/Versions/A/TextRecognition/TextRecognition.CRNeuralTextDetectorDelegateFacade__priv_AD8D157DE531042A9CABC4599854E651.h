@@ -7,7 +7,6 @@
 @interface TextRecognition.CRNeuralTextDetectorDelegateFacade__priv_AD8D157DE531042A9CABC4599854E651
 {
     id roi;
-    _Bool detectTables;
 }
 
 - (void);

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SUCoreErrorAttributes
 {
     NSString *_domain;
-    long long _code;
-    NSString *_codeName;
-    long long _indications;
-    NSString *_keyMatchTrue;
-    NSDictionary *_keyMatchTrueMap;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
++ (id)outlineView:(long long)arg1 autoExpandItem: /* Error: Ran out of types for this method. */;
++ (id)notificationCenter;
+- (id)popUpContextMenu:(id)arg1 withEvent:(long long)arg2 forView:(id)arg3;
+- (id)platformElementPropertiesDirty;
 - (void);
 - (long long);
 - (void);
@@ -32,12 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long code; // @synthesize code=_code;
-@property(readonly, retain, nonatomic) NSString *codeName; // @synthesize codeName=_codeName;
 @property(readonly, retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) long long indications; // @synthesize indications=_indications;
-@property(retain, nonatomic) NSString *keyMatchTrue; // @synthesize keyMatchTrue=_keyMatchTrue;
-@property(retain, nonatomic) NSDictionary *keyMatchTrueMap; // @synthesize keyMatchTrueMap=_keyMatchTrueMap;
 
 @end
 

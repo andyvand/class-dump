@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBagValue, NSString;
-@protocol AMSBagProtocol, AMSMescalBagContract, AMSMetricsBagContract;
+@protocol AMSBagProtocol;
 
 __attribute__((visibility("hidden")))
 @interface AMSDeprecatedBagContract
@@ -18,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (id);
@@ -46,106 +45,7 @@ __attribute__((visibility("hidden")))
 f­¤îR§7oQÔ¯uÒ%´0N²íûfÞ-%ÝFÛÈr3éF[Gn~luÎí7¡³÷øÆ:ÕÝcä,æg#Ía+{/hå¶}l¦Ð¾\¶Êx²¬-åàvÁf¸ëGÜË«|ldkp]Ì¦äk]ë	òöu×Ð<ÝL49×h½BD}nsÂÑ}²¿­^æ_:»T_1ºZÇ#BÂmt­ÒfÔÖ¡rýÔ¹`ùP-Â1áAçvQìreRüú?Uq,ÕùÔª»AX.«^BÑWûGë»ÄÐïÈ³°ÅÐøºvi¶vü\±¿|Ø*:àMù[üÑ2 5ÜC-¦ÆKÉÍBg2[ wcF~6eaØåRÑb©ÅHôn:Öª®õö; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) AMSBagValue *TFOSamplingPercentage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *TFOSamplingSessionDuration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *TLSSamplingPercentage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *TLSSamplingSessionDuration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *appleMusicDeviceOfferDeepLink;
-@property(readonly) AMSBagValue *apsAllowedProductTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *apsEnabledPatterns;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *apsSamplingPercent;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) AMSBagValue *guidRegexes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *guidSchemes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSBagValue *iCloudDeviceOfferDeepLink;
-@property(readonly) AMSBagValue *mescalCertificateURL;
-@property(readonly) id <AMSMescalBagContract> mescalContract;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<AMSMescalBagContract>",?,R
-
-@property(readonly) AMSBagValue *mescalPrimingURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *mescalSetupURL;
-@property(readonly) AMSBagValue *mescalSignSapRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *mescalSignSapResponses;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *mescalSignedActions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) id <AMSMetricsBagContract> metricsContract;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<AMSMetricsBagContract>",?,R
-
-@property(readonly) AMSBagValue *metricsDictionary;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *metricsURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *metricsUrl;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *personalizedLookupURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *storefrontSuffix;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) Class superclass;
-@property(readonly) AMSBagValue *trustedDomains;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *unpersonalizedLookupURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
 
 @end
 

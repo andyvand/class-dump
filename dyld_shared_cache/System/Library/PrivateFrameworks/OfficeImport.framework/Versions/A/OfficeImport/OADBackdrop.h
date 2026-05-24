@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADPoint3D, OADVector3D;
+@class OADPoint3D;
 
 __attribute__((visibility("hidden")))
 @interface OADBackdrop
 {
     OADPoint3D *mAnchor;
-    OADVector3D *mNormal;
-    OADVector3D *mUp;
 }
 
 - (void);
@@ -19,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)lationSuccessRate"b1"sdTargetModelInferenceCallCount"b1"sdTargetModelTotalLatencyMillis"b1"sdTinyModelInferenceCallCount"b1"sdTinyModelTotalLatencyMillis"b1"sdTinyTokenAcceptanceRate"b1"sdTotalOutputTokensCount"b1"timeToFirstTokenMillis"b1"tokensPerSecond"b1"totalLatencyMillis"b1"version"b1"requestType"b1};
+- (unsigned long long)	;
 - (_Bool);
 - (id);
 - (void);

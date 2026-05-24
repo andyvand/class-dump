@@ -11,13 +11,12 @@
 @interface CKDFetchUserRecordURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _recordFetchedBlock;
-    CKRecord *_userRecord;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)recordsAndShares;
 - (void)a wasn't decrypted because a prior attempt failed after key sync.;
 - (id)ry/BuildRoots/4~CNqwugBiCB7YYOj9K-g_YLQNIMyKIpsYw_srFtQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ch2LMp/Sources/CloudKitTools/Sources/CloudKitDaemon/Caches/Records/CKDRecordCache.m;
 - (CDUnknownBlockType)s no walrus availability cached but we are not allowed to fetch.;
@@ -25,7 +24,6 @@
 - (void)%@, %@, ...), signatureToMutableData=%@, mutableData=%@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType recordFetchedBlock; // @synthesize recordFetchedBlock=_recordFetchedBlock;
 @property(retain, nonatomic) CKRecord *userRecord; // @synthesize userRecord=_userRecord;
 
 @end

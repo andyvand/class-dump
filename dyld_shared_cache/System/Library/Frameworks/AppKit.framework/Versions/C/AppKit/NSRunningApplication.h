@@ -4,54 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSImage, NSLock, NSString, NSURL;
-
 @interface NSRunningApplication
 {
     void *_asn;
-    void **_helpers;
-    id _obsInfo;
-    NSLock *_lock;
-    NSString *_bundleID;
-    NSString *_localizedName;
-    NSURL *_bundleURL;
-    NSURL *_executableURL;
-    NSDate *_launchDate;
-    NSImage *_icon;
-    int _pid;
-    unsigned int _lastSeed;
-    unsigned int _activeSeed;
-    unsigned int _staleSeed;
-    unsigned long long _obsMask;
-    struct {
-        unsigned int fetchedDynamic:1;
-        unsigned int deadToUs:1;
-        unsigned int terminated:1;
-        unsigned int finishedLaunching:1;
-        unsigned int hidden:1;
-        unsigned int active:1;
-        unsigned int ownsMenuBar:1;
-        unsigned int arch:3;
-        unsigned int activationPolicy:3;
-        unsigned int reserved1:19;
-    } _aflags;
 }
 
 
 // Remaining properties
-@property(readonly) long long activationPolicy;
-@property(readonly, getter=isActive) _Bool active;
-@property(readonly, copy) NSString *bundleIdentifier;
-@property(readonly, copy) NSURL *bundleURL;
-@property(readonly) long long executableArchitecture;
-@property(readonly, copy) NSURL *executableURL;
-@property(readonly, getter=isFinishedLaunching) _Bool finishedLaunching;
-@property(readonly, getter=isHidden) _Bool hidden;
-@property(readonly) NSImage *icon;
-@property(readonly, copy) NSDate *launchDate;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly) _Bool ownsMenuBar;
-@property(readonly) int processIdentifier;
 @property(readonly, getter=isTerminated) _Bool terminated;
 @end
 

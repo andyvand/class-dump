@@ -13,7 +13,7 @@
     NSMutableDictionary *_attributes;
 }
 
-+ (id);
++ (id)#1;
 + (_Bool);
 - (id);
 - (void);

@@ -4,20 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENAccountIdentity, NSArray, NSMutableArray, NSObject;
-@protocol ENGroupContextDataSource, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface ENGroupContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    ENAccountIdentity *_accountIdentity;
-    NSMutableArray *_middlewares;
-    id <ENGroupContextDataSource> _dataSource;
-    NSArray *_allMiddlewares;
 }
 
 + (id);
 + (id);
+- (void)qa;
+- (void);
+- (id);
+- (void)qa;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)L�?;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)˛_';
+- (void);
 - (void);
 - (void);
 - (id);
@@ -26,16 +47,6 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -44,33 +55,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)`;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ENAccountIdentity *accountIdentity; // @synthesize accountIdentity=_accountIdentity;
-@property(readonly, nonatomic) NSArray *allMiddlewares; // @synthesize allMiddlewares=_allMiddlewares;
-@property(retain, nonatomic) id <ENGroupContextDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) NSMutableArray *middlewares; // @synthesize middlewares=_middlewares;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

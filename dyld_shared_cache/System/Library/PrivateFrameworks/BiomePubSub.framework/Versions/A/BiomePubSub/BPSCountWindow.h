@@ -6,39 +6,27 @@
 
 #import <BiomePubSub/BPSWindow.h>
 
-@class BPSSubscriptionStatus, NSString;
-
 @interface BPSCountWindow : BPSWindow
 {
     struct os_unfair_lock_s _lock;
-    BPSSubscriptionStatus *_status;
-    NSString *_identifier;
-    _Bool _downstreamRequested;
-    unsigned long long _capacity;
-    unsigned long long _currentCount;
-    id _accumulator;
-    CDUnknownBlockType _closure;
 }
 
 - (id);
 - (void);
 - (CDUnknownBlockType);
+- (void)4@0:(id)arg1 8@"LPMultipleMetadataPresentationTransformer"16;
+- (id);
+- (unsigned long long)data; algorithm name '%{public}@' is not recognized;
+- (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)ry/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/gost/gostr341001_pmeth.c;
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id accumulator; // @synthesize accumulator=_accumulator;
 @property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, nonatomic) CDUnknownBlockType closure; // @synthesize closure=_closure;
-@property(readonly, nonatomic) unsigned long long currentCount; // @synthesize currentCount=_currentCount;
 
 @end
 

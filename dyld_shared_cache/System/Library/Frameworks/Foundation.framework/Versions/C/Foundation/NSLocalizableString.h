@@ -9,14 +9,13 @@
 @interface NSLocalizableString : NSString
 {
     NSString *_stringsFileKey;
-    NSString *_developmentLanguageString;
 }
 
 + (id);
-+ (_Bool)lProcessFirstEvent;
++ (_Bool)NSAppleEventManagerWillProcessFirstEvent;
 - (id);
 - (void);
-- (void);
+- (void)}�@;
 - (id);
 - (id);
 - (void);
@@ -26,10 +25,9 @@
 - (id);
 - (void);
 - (id)4d32@?<v@?@"NSDictionary"@"NSError">40;
-- (unsigned short)donly;
+- (unsigned short)readonly;
 
 // Remaining properties
-@property(readonly, copy) NSString *developmentLanguageString;
 @property(readonly, copy) NSString *stringsFileKey;
 
 @end

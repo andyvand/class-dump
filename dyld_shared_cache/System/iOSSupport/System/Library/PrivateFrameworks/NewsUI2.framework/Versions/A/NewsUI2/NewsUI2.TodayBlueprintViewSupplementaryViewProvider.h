@@ -7,8 +7,6 @@
 @interface NewsUI2.TodayBlueprintViewSupplementaryViewProvider
 {
     id delegate;
-    id feedItemSupplementaryRenderer;
-    id embeddedSupplementaryRenderer;
 }
 
 @end

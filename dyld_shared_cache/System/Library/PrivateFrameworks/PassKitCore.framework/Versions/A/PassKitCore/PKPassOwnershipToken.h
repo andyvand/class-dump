@@ -9,7 +9,6 @@
 @interface PKPassOwnershipToken
 {
     NSString *_ownershipToken;
-    NSString *_ownershipTokenIdentifier;
 }
 
 + (void);
@@ -23,13 +22,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void)8;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ownershipToken;
 @property(readonly, copy, nonatomic) NSString *ownershipTokenIdentifier; // @synthesize ownershipTokenIdentifier=_ownershipTokenIdentifier;
 
 @end

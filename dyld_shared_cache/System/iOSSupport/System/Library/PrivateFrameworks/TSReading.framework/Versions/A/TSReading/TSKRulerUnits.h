@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFormatter;
-
 @interface TSKRulerUnits
 {
     int _rulerUnits;
-    _Bool _showRulerAsPercentage;
-    _Bool _centerRulerOrigin;
-    int _preferredPixelUnit;
-    NSFormatter *_formatter;
-    NSFormatter *_lenientFormatter;
-    NSFormatter *_highPrecisionFormatter;
-    NSFormatter *_lenientHighPrecisionFormatter;
 }
 
 + (id);
-+ (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (int);
++ (id)`;
+- (_Bool).MPCAVPlayerItemMetricSubscription;
+- (void)yback failure event  ;
+- (void)nknown external playback type returned from player ;
+- (void)fier:(int)arg1;
+- (void)ngItemStartTime:(_Bool)arg1;
+- (int)ip - identifier: /* Error: Ran out of types for this method. */;
+- (int)cloudLibraryItemPlayCount;
 - (id);
-- (id);
+- (id)-;
 - (double);
 - (double);
 - (id);
@@ -37,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool centerRulerOrigin; // @synthesize centerRulerOrigin=_centerRulerOrigin;
-@property(nonatomic) int preferredPixelUnit; // @synthesize preferredPixelUnit=_preferredPixelUnit;
 @property(nonatomic) int rulerUnits; // @synthesize rulerUnits=_rulerUnits;
-@property(nonatomic) _Bool showRulerAsPercentage; // @synthesize showRulerAsPercentage=_showRulerAsPercentage;
 
 @end
 

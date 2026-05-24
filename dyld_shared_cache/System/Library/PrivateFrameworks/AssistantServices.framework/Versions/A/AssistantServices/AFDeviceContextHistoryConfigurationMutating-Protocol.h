@@ -5,5 +5,6 @@
 //
 
 @protocol AFDeviceContextHistoryConfigurationMutating
+- (void)*%@y_=;
 @end
 

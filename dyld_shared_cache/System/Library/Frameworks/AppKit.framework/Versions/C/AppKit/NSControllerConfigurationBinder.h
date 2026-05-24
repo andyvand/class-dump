@@ -15,23 +15,23 @@ __attribute__((visibility("hidden")))
     } _controllerConfigurationBinderFlags;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)lready have a response for this request!;
++ (_Bool)nnection;
++ (id)com.apple.CFNetwork.Connection;
++ (id)@;
 - (Class);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (unsigned long long);
-- (void);
+- (void)ng prob above desired threshold;
 
 @end
 

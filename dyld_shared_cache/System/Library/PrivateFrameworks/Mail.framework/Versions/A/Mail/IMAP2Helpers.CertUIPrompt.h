@@ -7,13 +7,9 @@
 @interface IMAP2Helpers.CertUIPrompt
 {
     id underlying;
-    id _setTrust;
-    id _setHostname;
-    id _setService;
-    id _show;
 }
 
-- (void);
+- (void)p;
 - (void);
 - (void)nProgressMessageDownload already has new headers for %u.;
 - (void);

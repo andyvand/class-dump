@@ -6,14 +6,10 @@
 
 #import <Metal/MTLBindingInternal.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MTLTextureBindingInternal : MTLBindingInternal
 {
     unsigned int _textureType:15;
-    unsigned int _isDepthTexture:1;
-    unsigned short _textureDataType;
 }
 
 - (_Bool);
@@ -24,23 +20,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long access;
-@property(readonly, getter=isArgument) _Bool argument;
-@property(readonly) unsigned long long arrayLength;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, getter=isDepthTexture) _Bool depthTexture;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long index;
-@property(readonly) NSString *name;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long textureDataType;
 @property(readonly) unsigned long long textureType;
-@property(readonly) long long type;
-@property(readonly, getter=isUsed) _Bool used;
 
 @end
 

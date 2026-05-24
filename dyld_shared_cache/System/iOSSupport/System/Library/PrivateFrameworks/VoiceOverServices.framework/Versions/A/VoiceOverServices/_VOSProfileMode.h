@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, VOSScreenreaderMode;
+@class VOSScreenreaderMode;
 
 @interface _VOSProfileMode
 {
     VOSScreenreaderMode *_mode;
-    NSMutableSet *_commands;
 }
 
 + (id);
@@ -21,13 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@@"NSString";
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *commands; // @synthesize commands=_commands;
 @property(retain, nonatomic) VOSScreenreaderMode *mode; // @synthesize mode=_mode;
 
 @end

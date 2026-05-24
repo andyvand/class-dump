@@ -6,11 +6,11 @@
 
 @interface UnknownClass (MinPlayableSize)
 - (struct CGSize);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

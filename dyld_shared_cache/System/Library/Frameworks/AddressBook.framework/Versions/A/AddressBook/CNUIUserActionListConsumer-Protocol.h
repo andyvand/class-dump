@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CNUIUserActionListConsumerDelegate;
+
 @protocol CNUIUserActionListConsumer
+
+@optional
+- (id <CNUIUserActionListConsumerDelegate>)setDisfavoredLocations:on: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBComscoreEventSend
 {
     int _comscoreEventType;
-    NSString *_contentViewedId;
-    NSString *_eventUdid;
-    NSString *_failureReasonCode;
-    int _resultType;
-    NSString *_sourceChannelId;
-    struct {
-        unsigned int comscoreEventType:1;
-        unsigned int resultType:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (int);
-- (id);
-- (id);
-- (void);
+- (void)attributedStringBoundingSizeForSpriteAtIndex:(_Bool)arg1 inLayout: /* Error: Ran out of types for this method. */;
+- (void)assetAspectRatio;
+- (void)areAllUnsavedAssetsSelectedWithImportStatusManager:(id)arg1;
+- (void)otLayout:(id)arg1;
+- (void)animation:(int)arg1 adjustPresentedGeometries:styles:infos:count: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateFooterIfNeededWithReason: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateExitingWithChangeNotification: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateConfiguration:fromDataSourceManager: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateCollectionIndexMappingForFilteredFetchResults;
+- (id)_topAddParticipantsToContainerConstraint;
+- (id)_titleUseCenterAlignment;
+- (int)_timeAtLocation:forElement: /* Error: Ran out of types for this method. */;
+- (id)_spriteSnapshotsCount;
+- (id)settingsGroup:didRemoveSettings:atIndex: /* Error: Ran out of types for this method. */;
+- (void)MapsSuggestionsEntryTypeTicketedEvent;
 - (id);
 - (void);
 - (_Bool);
@@ -47,22 +36,11 @@
 - (id);
 - (id);
 - (void);
-- (int);
-- (void)nimumGlobalScoreThresholdForSubscribedChannel;
+- (int): /* Error: Ran out of types for this method. */;
+- (void)hasTopicFeedMinimumGlobalScoreThresholdForSubscribedChannel;
 
 // Remaining properties
-@property(nonatomic) int comscoreEventType; // @synthesize comscoreEventType=_comscoreEventType;
-@property(retain, nonatomic) NSString *contentViewedId; // @synthesize contentViewedId=_contentViewedId;
-@property(retain, nonatomic) NSString *eventUdid; // @synthesize eventUdid=_eventUdid;
-@property(retain, nonatomic) NSString *failureReasonCode; // @synthesize failureReasonCode=_failureReasonCode;
 @property(nonatomic) _Bool hasComscoreEventType;
-@property(readonly, nonatomic) _Bool hasContentViewedId;
-@property(readonly, nonatomic) _Bool hasEventUdid;
-@property(readonly, nonatomic) _Bool hasFailureReasonCode;
-@property(nonatomic) _Bool hasResultType;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

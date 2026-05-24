@@ -9,32 +9,29 @@
 @interface TPPBDictionaryMatchingRuleFieldRegexMatch
 {
     NSString *_fieldName;
-    NSString *_regex;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ith unrecognized version 0x%x;
+- (id)groupID:(struct _NSZone *)arg1 %'@ --> %'@, groupContainsDiscoverableGroupLeader:%'@ --> %'@
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)dMacRandomizationVersions;
+- (_Bool)%@ as purgeable with flags 0x%llx, supplemental 0x%llx, notBeforeDate:%@:(%d) %s /* Error: Ran out of types for this method. */;
+- (void)a;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
 @property(readonly, nonatomic) _Bool hasFieldName;
-@property(readonly, nonatomic) _Bool hasRegex;
-@property(retain, nonatomic) NSString *regex; // @synthesize regex=_regex;
 
 @end
 

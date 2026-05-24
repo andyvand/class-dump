@@ -4,59 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCharacteristicMetadata, HMDHAPAccessory, HMDService, NSData, NSDate, NSDictionary, NSMutableSet, NSNumber, NSSet, NSString, NSUUID;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristic
 {
     struct os_unfair_lock_s _lock;
-    _Bool _notificationRegisteredWithRemoteGateway;
-    _Bool _broadcastNotificationEnabled;
-    unsigned short _characteristicProperties;
-    NSMutableSet *_notificationRegistrations;
-    NSSet *_hapCharacteristicTuples;
-    id _previousValue;
-    NSNumber *_stateNumber;
-    HMDCharacteristicMetadata *_metadata;
-    id _lastKnownValue;
-    NSDate *_lastKnownValueUpdateTime;
-    NSDate *_notificationEnabledTime;
-    NSData *_notificationContext;
-    NSData *_authorizationData;
-    HMDService *_service;
-    NSString *_characteristicType;
-    NSNumber *_characteristicInstanceID;
 }
 
-+ (_Bool);
++ (_Bool);
 + (CDUnknownBlockType);
 + (id);
 + (_Bool)lÀá;
 + (id)ÜB;
+- (id)r";
+- (void)startLiveUpdatesForCapabilityVersion:(id)arg1;
+- (void)setContactStorages: /* Error: Ran out of types for this method. */;
+- (void)participantsByCapabilities;
+- (_Bool)hasNavigationState;
+- (_Bool)hasLastUpdateTimestamp;
+- (_Bool)hasIconFallbackShield;
+- (_Bool)hasIconAttributeKey;
+- (id)_sharingETAGroupSession;
+- (_Bool)_participantsByCapabilities;
+- (_Bool)_maps_isCancellation;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)orage clearing storage, %s;
+- (void){public}@] updateGroupSessionStorage clearing storage, %s;
+- (void)ed, not expired;
+- (void)oad | set local copy of identifiers:(id)arg1 %@;
+- (void)nding compatible state:(_Bool)arg1 %{public}@;
+- (id)rvice"8@"NSError"16;
+- (id);
+- (_Bool)4;
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -65,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -96,13 +80,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)4;
+- (id)replaceMergeCandidates;
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -110,59 +94,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)";
+- (id)`;
 - (void);
 - (id);
 - (id)Áß!ðFùñ°1Â0@ù
 × ;
-- (id)Configuration;
+- (id)_recordingAudioConfiguration;
 - (_Bool)ø Hp;
 - (id)SFDeviceDiscovery with error %@;
 - (_Bool)tup payload from setup payload URL string:(id)arg1 %@;
 - (id)to %@;
-- (id)2OptionStructCG;
+- (id)SaySo022MTRRVCCleanModeClusterB12OptionStructCG;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak HMDHAPAccessory *accessory;
-@property(readonly, copy, nonatomic) NSData *authorizationData; // @synthesize authorizationData=_authorizationData;
-@property _Bool broadcastNotificationEnabled; // @synthesize broadcastNotificationEnabled=_broadcastNotificationEnabled;
 @property(readonly, nonatomic) NSDictionary *bulletinContext;
-@property(readonly, copy, nonatomic) NSNumber *changeThresholdForEnabledNotifications;
-@property(readonly, copy, nonatomic) NSNumber *changeThresholdForNonHomeClientEnabledNotifications;
-@property(retain, nonatomic) NSNumber *characteristicInstanceID; // @synthesize characteristicInstanceID=_characteristicInstanceID;
-@property(nonatomic) unsigned short characteristicProperties; // @synthesize characteristicProperties=_characteristicProperties;
-@property(retain, nonatomic) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;
-@property(readonly, copy, nonatomic) NSString *contextID;
-@property(readonly, copy, nonatomic) NSUUID *contextSPIUniqueIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSSet *hapCharacteristicTuples; // @synthesize hapCharacteristicTuples=_hapCharacteristicTuples;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSNumber *instanceID;
-@property(retain, nonatomic) id lastKnownValue; // @synthesize lastKnownValue=_lastKnownValue;
-@property(retain, nonatomic) NSDate *lastKnownValueUpdateTime; // @synthesize lastKnownValueUpdateTime=_lastKnownValueUpdateTime;
-@property(readonly, nonatomic) HMDCharacteristicMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSData *notificationContext; // @synthesize notificationContext=_notificationContext;
-@property(retain, nonatomic) NSDate *notificationEnabledTime; // @synthesize notificationEnabledTime=_notificationEnabledTime;
-@property(nonatomic) _Bool notificationRegisteredWithRemoteGateway; // @synthesize notificationRegisteredWithRemoteGateway=_notificationRegisteredWithRemoteGateway;
-@property(readonly, copy, nonatomic) NSSet *notificationRegistrations;
-@property(readonly, nonatomic) id previousValue; // @synthesize previousValue=_previousValue;
-@property(readonly, nonatomic) long long properties;
-@property(readonly, nonatomic) NSString *serializedIdentifier;
-@property(readonly, nonatomic) __weak HMDService *service; // @synthesize service=_service;
-@property(readonly) _Bool shouldIgnoreCacheValueForRead;
-@property(readonly, copy, nonatomic) NSUUID *spiClientIdentifier;
-@property(copy, nonatomic, setter=setStateNumber:) NSNumber *stateNumber; // @synthesize stateNumber=_stateNumber;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsNotificationContext;
-@property(readonly, copy, nonatomic) NSString *type;
-@property(readonly, copy, nonatomic) id value;
 
 @end
 

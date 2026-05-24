@@ -7,9 +7,6 @@
 @interface EventKitUI._AppExtensionEventHostView.HostCoordinator
 {
     id parent;
-    id identity;
-    id conn;
-    id configurationChangedPublisherSink;
 }
 
 - (void);
@@ -18,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (void)us: /* Error: Ran out of types for this method. */;
+- (void)initWithCornerRadius: /* Error: Ran out of types for this method. */;
 
 @end
 

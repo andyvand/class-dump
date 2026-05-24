@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKComposer, IKImageBackgroundLayer, IKImageLayer;
+@class IKComposer;
 
 @interface IKImageViewPrivateData
 {
     IKComposer *_composer;
-    IKImageBackgroundLayer *_backgroundLayer;
-    IKImageLayer *_imageLayer;
-    id _delegate;
-    id _trackedView;
-    _Bool _initialized;
-    _Bool _initalizedWithCoder;
-    _Bool _doubleClickOpensEditPanel;
-    _Bool _editable;
-    _Bool _embedded;
-    _Bool _selected;
-    _Bool _autoresizes;
-    _Bool _supportsDragAndDrop;
-    _Bool _needsToReplaceClipView;
-    _Bool _isInInterfaceBuilderApp;
-    _Bool _isInInterfaceBuilderSimulator;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,10 +31,10 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)searchSuggestionsFromPLSearchSuggestions:suggestions:queryId:batchId:rangeOfSuggestionText: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -60,22 +45,7 @@
 - (_Bool)ations/Preview.app;
 
 // Remaining properties
-@property _Bool autoresizes; // @synthesize autoresizes=_autoresizes;
-@property IKImageBackgroundLayer *backgroundLayer; // @synthesize backgroundLayer=_backgroundLayer;
 @property IKComposer *composer; // @synthesize composer=_composer;
-@property id delegate; // @synthesize delegate=_delegate;
-@property _Bool doubleClickOpensEditPanel; // @synthesize doubleClickOpensEditPanel=_doubleClickOpensEditPanel;
-@property _Bool editable; // @synthesize editable=_editable;
-@property _Bool embedded; // @synthesize embedded=_embedded;
-@property IKImageLayer *imageLayer; // @synthesize imageLayer=_imageLayer;
-@property _Bool initalizedWithCoder; // @synthesize initalizedWithCoder=_initalizedWithCoder;
-@property _Bool initialized; // @synthesize initialized=_initialized;
-@property _Bool isInInterfaceBuilderApp; // @synthesize isInInterfaceBuilderApp=_isInInterfaceBuilderApp;
-@property _Bool isInInterfaceBuilderSimulator; // @synthesize isInInterfaceBuilderSimulator=_isInInterfaceBuilderSimulator;
-@property _Bool needsToReplaceClipView; // @synthesize needsToReplaceClipView=_needsToReplaceClipView;
-@property _Bool selected; // @synthesize selected=_selected;
-@property _Bool supportsDragAndDrop; // @synthesize supportsDragAndDrop=_supportsDragAndDrop;
-@property id trackedView; // @synthesize trackedView=_trackedView;
 
 @end
 

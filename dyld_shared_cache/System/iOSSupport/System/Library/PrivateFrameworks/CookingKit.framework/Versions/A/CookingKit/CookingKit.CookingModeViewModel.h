@@ -8,23 +8,6 @@
 {
     id loggingID;
     id _recipeID;
-    id _recipeTitle;
-    id _recipeTheme;
-    id _lastStepIndex;
-    id _nextStepIndex;
-    id _previousStepIndex;
-    id _region;
-    id _fullScreenSheet;
-    id _currentStep;
-    id _highlightedStep;
-    id _currentSectionTitle;
-    id _sectionTitles;
-    id _scrollToStep;
-    id _scrollPosition;
-    id _appEntityIdentifier;
-    id _showMarkAsCookedButton;
-    id _$scope;
-    id _$observationRegistrar;
 }
 
 @end

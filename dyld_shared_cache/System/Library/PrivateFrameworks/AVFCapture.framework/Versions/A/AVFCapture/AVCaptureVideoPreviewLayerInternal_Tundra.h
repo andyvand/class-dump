@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureConnection_Tundra, AVCaptureSession_Tundra, CALayer, NSDictionary, NSString;
+@class AVCaptureSession_Tundra;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureVideoPreviewLayerInternal_Tundra
 {
     AVCaptureSession_Tundra *session;
-    AVCaptureConnection_Tundra *connection;
-    CALayer *sublayer;
-    struct CGSize sourceSize;
-    NSString *gravity;
-    _Bool disableActions;
-    _Bool isPresentationLayer;
-    _Bool visible;
-    struct __CFDictionary *videoPreviewSynchronizerUnits;
-    struct __CFDictionary *videoPreviewOutputUnits;
-    NSDictionary *pixelBufferAttributes;
-    struct CGAffineTransform metadataTransform;
-    double rollAdjustment;
-    struct os_unfair_lock_s internalLock;
 }
 
 @end

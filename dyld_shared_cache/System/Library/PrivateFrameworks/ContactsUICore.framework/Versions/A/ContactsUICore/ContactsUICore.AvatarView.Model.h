@@ -7,13 +7,6 @@
 @interface ContactsUICore.AvatarView.Model
 {
     id contactID;
-    id recipe;
-    id _representation;
-    id subscriptions;
-    id contactFetchingTask;
-    id contactType;
-    id listener;
-    id isObservationEnabled;
 }
 
 @end

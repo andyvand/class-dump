@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBString;
+@class NSArray;
 
 @protocol _INPBEvent
-- (NSArray *)wed;
+- (void);
+- (_Bool)(;
+- (NSArray *)INControlHomeIntentResponseCodeFailureNotAllowed;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *eventDescriptors;
-@property(readonly, nonatomic) unsigned long long eventDescriptorsCount;
-@property(retain, nonatomic) _INPBString *eventType;
-@property(readonly, nonatomic) _Bool hasEventType;
 @end
 

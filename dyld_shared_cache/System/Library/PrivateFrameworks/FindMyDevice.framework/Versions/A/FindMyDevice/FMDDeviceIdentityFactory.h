@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)ePaintStrokePoint>>="__begin_"^{PKMetalLiveStrokePaintStrokePoint}"__end_"^{PKMetalLiveStrokePaintStrokePoint}""{?="__cap_"^{PKMetalLiveStrokePaintStrokePoint}}};
+- (void)d}}16{CGAffineTransform=dddddd}48;
 
 @end
 

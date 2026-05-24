@@ -4,75 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString, TSDGPUDataBuffer, TSDGPUDataBufferAttribute, TSDMetalContext;
-@protocol MTLTexture;
-
 @interface TSDGPUParticleSystem
 {
     _Bool *_visibilities;
-    _Bool _isInitialized;
-    _Bool _isDataBufferInitialized;
-    unsigned long long _textureCount;
-    _Bool _hasParticleTexture;
-    NSMutableSet *_attributesInShader;
-    _Bool _shouldDraw;
-    id _randomGenerator;
-    TSDMetalContext *_metalContext;
-    id <MTLTexture> _vertexColorTexture;
-    unsigned long long _particleCount;
-    unsigned long long _visibleParticleCount;
-    unsigned long long _particlesWide;
-    unsigned long long _particlesHigh;
-    double _duration;
-    unsigned long long _direction;
-    TSDGPUDataBufferAttribute *_positionAttribute;
-    TSDGPUDataBufferAttribute *_centerAttribute;
-    TSDGPUDataBufferAttribute *_texCoordAttribute;
-    TSDGPUDataBufferAttribute *_particleTexCoordAttribute;
-    TSDGPUDataBufferAttribute *_colorAttribute;
-    TSDGPUDataBufferAttribute *_lifeSpanAttribute;
-    TSDGPUDataBufferAttribute *_speedAttribute;
-    TSDGPUDataBufferAttribute *_rotationAttribute;
-    TSDGPUDataBufferAttribute *_scaleAttribute;
-    TSDGPUDataBufferAttribute *_colorTexCoordAttribute;
-    TSDGPUDataBuffer *_dataBuffer;
-    struct CGSize _vertexTextureSize;
-    struct CGSize _particleSize;
-    struct CGSize _objectSize;
-    struct CGSize _slideSize;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (struct CGSize);
-+ (unsigned long long);
++ (unsigned long long);
 + (id);
 + (id);
 + (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)using queue behavior to retain hard queue;
+- (_Bool)create queue from event:(struct CGPoint)arg1;
 - (struct CGSize);
-- (CDStruct_6e3f967a);
-- (id);
-- (id);
+- (CDStruct_b2fbf00d);
+- (id)ericTracklistPlaybackQueue;
+- (id);
 - (struct CGPoint);
+- (double);
+- (id)9[;
+- (CDStruct_869f9c67)AVFeatures;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (double);
 - (double);
 - (id);
 - (CDStruct_869f9c67);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (double);
-- (id);
-- (CDStruct_869f9c67);
-- (id);
+- (id)AlignmentTaskState;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -85,17 +52,17 @@
 - (struct CGSize);
 - (void);
 - (struct CGSize);
-- (struct CGContext *);
+- (struct CGContext *);
 - (id);
-- (CDStruct_6e3f967a);
+- (CDStruct_b2fbf00d);
 - (id);
 - (struct CGPoint);
 - (void);
 - (id);
-- (CDStruct_6e3f967a);
+- (CDStruct_b2fbf00d);
 - (id);
-- (CDStruct_83984b6f);
-- (CDStruct_6e3f967a);
+- (CDStruct_818bb265);
+- (CDStruct_b2fbf00d);
 - (id);
 - (void);
 - (unsigned long long);
@@ -108,43 +75,11 @@
 - (void);
 - (id);
 - (double);
-- (id);
+- (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *centerAttribute; // @synthesize centerAttribute=_centerAttribute;
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *colorAttribute; // @synthesize colorAttribute=_colorAttribute;
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *colorTexCoordAttribute; // @synthesize colorTexCoordAttribute=_colorTexCoordAttribute;
-@property(readonly, nonatomic) TSDGPUDataBuffer *dataBuffer; // @synthesize dataBuffer=_dataBuffer;
-@property(readonly, nonatomic) NSArray *dataBufferAttributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *lifeSpanAttribute; // @synthesize lifeSpanAttribute=_lifeSpanAttribute;
-@property(readonly, nonatomic) TSDMetalContext *metalContext; // @synthesize metalContext=_metalContext;
-@property(readonly, nonatomic) struct CGSize objectSize; // @synthesize objectSize=_objectSize;
 @property(readonly, nonatomic) unsigned long long particleCount; // @synthesize particleCount=_particleCount;
-@property(readonly, nonatomic) struct CGSize particleSize; // @synthesize particleSize=_particleSize;
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *particleTexCoordAttribute; // @synthesize particleTexCoordAttribute=_particleTexCoordAttribute;
-@property(readonly, nonatomic) unsigned long long particlesHigh; // @synthesize particlesHigh=_particlesHigh;
-@property(readonly, nonatomic) unsigned long long particlesWide; // @synthesize particlesWide=_particlesWide;
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *positionAttribute; // @synthesize positionAttribute=_positionAttribute;
-@property(readonly, nonatomic) id randomGenerator; // @synthesize randomGenerator=_randomGenerator;
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *rotationAttribute; // @synthesize rotationAttribute=_rotationAttribute;
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *scaleAttribute; // @synthesize scaleAttribute=_scaleAttribute;
-@property(readonly, nonatomic) _Bool shouldDraw; // @synthesize shouldDraw=_shouldDraw;
-@property(readonly, nonatomic) struct CGSize slideSize; // @synthesize slideSize=_slideSize;
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *speedAttribute; // @synthesize speedAttribute=_speedAttribute;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) TSDGPUDataBufferAttribute *texCoordAttribute; // @synthesize texCoordAttribute=_texCoordAttribute;
-@property(readonly, nonatomic) id <MTLTexture> vertexColorTexture; // @synthesize vertexColorTexture=_vertexColorTexture;
-@property(readonly, nonatomic) struct CGSize vertexTextureSize; // @synthesize vertexTextureSize=_vertexTextureSize;
-@property(readonly, nonatomic) unsigned long long visibleParticleCount; // @synthesize visibleParticleCount=_visibleParticleCount;
 
 @end
 

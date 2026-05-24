@@ -10,21 +10,19 @@
 @interface BlockableScrollView
 {
     _Bool _isResizing;
-    NSObject<BlockableScrollViewDelegate> *_blockableDelegate;
 }
 
-- (_Bool);
+- (_Bool)~\!{;
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (_Bool)
 × ;
-- (void)ngForAttendees: /* Error: Ran out of types for this method. */;
+- (void)inviteeStringForAttendees: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<BlockableScrollViewDelegate> *blockableDelegate; // @synthesize blockableDelegate=_blockableDelegate;
-@property(nonatomic) _Bool isResizing; // @synthesize isResizing=_isResizing;
 
 @end
 

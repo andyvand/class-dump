@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void);
+- (void)EVP_AEAD_CTX_open;
 - (_Bool);
 - (id);
 

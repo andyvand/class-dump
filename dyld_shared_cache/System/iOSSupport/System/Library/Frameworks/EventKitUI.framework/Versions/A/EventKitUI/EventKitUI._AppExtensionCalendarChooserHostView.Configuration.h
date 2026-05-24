@@ -7,14 +7,6 @@
 @interface EventKitUI._AppExtensionCalendarChooserHostView.Configuration
 {
     id identity;
-    id sceneID;
-    id eventStore;
-    id layoutDirection;
-    id sizeCategory;
-    id viewHierarchy;
-    id changedCustomViewConfigurationDictionary;
-    id _customViewConfigurationChangedPublisher;
-    id toggleAllCalendarsCallback;
 }
 
 @end

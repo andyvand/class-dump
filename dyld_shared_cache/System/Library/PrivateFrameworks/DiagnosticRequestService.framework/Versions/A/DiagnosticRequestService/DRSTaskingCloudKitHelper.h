@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, NSObject;
-@protocol OS_dispatch_queue;
+@class CKContainer;
 
 @interface DRSTaskingCloudKitHelper
 {
     CKContainer *__targetContainer;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)!!;
 - (void);
 - (id);
 - (void);
@@ -30,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CKContainer *_targetContainer; // @synthesize _targetContainer=__targetContainer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

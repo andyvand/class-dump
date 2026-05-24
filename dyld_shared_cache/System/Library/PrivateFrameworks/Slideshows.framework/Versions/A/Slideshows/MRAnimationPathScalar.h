@@ -9,9 +9,6 @@
 @interface MRAnimationPathScalar
 {
     MCAnimationPath *animationPath;
-    double value;
-    double speed;
-    double time;
 }
 
 - (id);

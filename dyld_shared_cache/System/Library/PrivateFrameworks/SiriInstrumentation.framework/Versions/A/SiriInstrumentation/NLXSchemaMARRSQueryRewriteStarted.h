@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMARRSQueryRewriteStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)_splatComboAssociatedDescriptor;
 - (id);
 - (void);
-- (void);
+- (void)aryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509v3/v3_utl.c;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)20;
 - (id);
 - (id);
 - (id),V_isPayloadMultilingual;
 - (id)SString",C,N,V_siriSpeechId;
-- (_Bool)R;
+- (_Bool)LOCALE_FR_FR;
 - (_Bool){";
 - (void)©­ÿÇ;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

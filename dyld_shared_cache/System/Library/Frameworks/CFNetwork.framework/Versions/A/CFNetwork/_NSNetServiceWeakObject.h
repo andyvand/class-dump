@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     id _object;
 }
 
-- (void);
+- (void)cyrflex;
 - (void)@;
 
 @end

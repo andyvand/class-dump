@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 
 + (id)est. del.:%@
  /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool)Range:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)kicking off another batch. (number of retries:(id)arg1 %lu) Error was %@;
+- (void)not junk for message guid:(CDUnknownBlockType)arg1 %@;
+- (id)to sms watch service relay , accounts count %@ devices count %@;
+- (id)kit account info failed with error:(id)arg1 %@ ;
+- (id)"16@?0@"IMDHandle"8;
 - (id);
 - (id);
 - (id);

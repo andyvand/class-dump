@@ -7,8 +7,6 @@
 @interface PhotosUICore.StoryAssetPicker
 {
     id viewModel;
-    id pickerHelper;
-    id completion;
 }
 
 - (void);

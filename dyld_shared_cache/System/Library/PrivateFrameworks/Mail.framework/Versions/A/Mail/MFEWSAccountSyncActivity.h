@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFEWSAccount, MFEWSBackgroundBodyFetchTask, MFEWSFolderHierarchyReconcileTask, MFEWSRetrievePersistedFolderDataTask, NSMutableDictionary, NSString;
-@protocol MFEWSMailboxDataCache;
+@class MFEWSFolderHierarchyReconcileTask, NSMutableDictionary;
 
 @interface MFEWSAccountSyncActivity
 {
     NSMutableDictionary *_mailboxSyncTasksByMailboxURLString;
-    _Bool _userInitiated;
-    id <MFEWSMailboxDataCache> _mailboxDataCache;
-    MFEWSFolderHierarchyReconcileTask *_folderHierarchyReconcileTask;
-    MFEWSRetrievePersistedFolderDataTask *_retrievePersistedFolderDataTask;
-    MFEWSBackgroundBodyFetchTask *_backgroundBodyFetchTask;
-    MFEWSAccount *_account;
 }
 
 - (void);
@@ -30,33 +23,20 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)s;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)initializationAllowedWebView: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)ReportAccumulator;
+- (id)dataTransferReportAccumulator;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak MFEWSAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) MFEWSBackgroundBodyFetchTask *backgroundBodyFetchTask; // @synthesize backgroundBodyFetchTask=_backgroundBodyFetchTask;
-@property(readonly, nonatomic) _Bool currentlySynchronizingMailboxContents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) MFEWSFolderHierarchyReconcileTask *folderHierarchyReconcileTask; // @synthesize folderHierarchyReconcileTask=_folderHierarchyReconcileTask;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <MFEWSMailboxDataCache> mailboxDataCache; // @synthesize mailboxDataCache=_mailboxDataCache;
-@property(retain, nonatomic) MFEWSRetrievePersistedFolderDataTask *retrievePersistedFolderDataTask; // @synthesize retrievePersistedFolderDataTask=_retrievePersistedFolderDataTask;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userInitiated;
 
 @end
 

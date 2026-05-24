@@ -7,19 +7,17 @@
 @interface AVPlayerSetRateOptions
 {
     _Bool _preferCoordinatedPlaybackBehavior;
-    _Bool _overrideAutowaitRestriction;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)locator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}B{DecodingSignals=ffff}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}},R,N,V_quasarToken;
+- (_Bool)uageDetectorV2Delegate>",W,N,V_lidDelegate;
+- (_Bool)C,N,V_suiteIdentifiers;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool overrideAutowaitRestriction; // @synthesize overrideAutowaitRestriction=_overrideAutowaitRestriction;
 @property(nonatomic) _Bool preferCoordinatedPlaybackBehavior; // @synthesize preferCoordinatedPlaybackBehavior=_preferCoordinatedPlaybackBehavior;
 
 @end

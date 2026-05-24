@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBString;
+@class NSString, _INPBString;
 
 @protocol _INPBSpeakerIDInfo
+- (NSString *);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSharedUserID;
-@property(nonatomic) _Bool hasSpeakerIDConfidence;
 @property(retain, nonatomic) _INPBString *sharedUserID;
-@property(nonatomic) int speakerIDConfidence;
 @end
 

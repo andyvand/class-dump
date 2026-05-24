@@ -5,11 +5,11 @@
 //
 
 @interface UnknownClass (CWChannel)
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)m;
 - (id);
 - (id);
 - (id);

@@ -6,22 +6,21 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class CKComposeSubscriptionSelectorButton, NSString, UIMenu;
+@class CKComposeSubscriptionSelectorButton;
 
 @interface CKDetailsSIMCell : CKDetailsCell
 {
     CKComposeSubscriptionSelectorButton *_button;
-    UIMenu *_menu;
 }
 
 + (_Bool);
 + (id);
 + (double)path:/System/Library/PrivateFrameworks/FindMyUICore.framework/FindMyUICore /* Error: Ran out of types for this method. */;
+- (void)NSTextAttachmentCell;
+- (id)c;
 - (void);
-- (id);
 - (void);
-- (void);
-- (id)thRecognizer:(long long)arg1 didChangeValue:(id)arg2;
+- (id)audioBalloonScrubberWithRecognizer:(long long)arg1 didChangeValue:(id)arg2;
 - (void)àÈÈè¡;
 - (void)jÏùÿDÿþÿ;
 - (void);
@@ -30,14 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKComposeSubscriptionSelectorButton *button; // @synthesize button=_button;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIMenu *menu; // @synthesize menu=_menu;
-@property(readonly) Class superclass;
 
 @end
 

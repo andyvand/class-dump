@@ -11,7 +11,7 @@
     id <AMSURLProtocolDelegate><NSURLSessionDelegate><AMSPurchaseDelegate> _taskDelegate;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

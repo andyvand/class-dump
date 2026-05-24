@@ -9,15 +9,10 @@
 @interface _UIVisualEffectViewBackdropCaptureGroup
 {
     NSPointerArray *_backdrops;
-    _Bool _disableInPlaceFiltering;
-    NSString *_groupName;
-    NSString *_groupNamespace;
-    double _scale;
-    double _minimumScale;
 }
 
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (_Bool);
@@ -26,24 +21,20 @@
 - (void);
 - (double);
 - (void)@0:(id)arg1 8@"_UIInternalDraggingSessionSource"16@"UIDragItem"24;
-- (void):(double)arg1 loops:restrictEnteringSequence: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)estionsList;
+- (void)sequenceWithItems:(double)arg1 loops:restrictEnteringSequence: /* Error: Ran out of types for this method. */;
+- (id)iconWithSystemImageName: /* Error: Ran out of types for this method. */;
+- (_Bool)_hideSearchSuggestionsList;
 - (long long)TransformerIdentifier;
 - (id)tendedHoursFormat;
 - (void)erRingShapeLayer;
-- (void);
+- (void)_UIToolbarDelegate;
 - (void)d extensions;
 - (void)mationManagerP;
 - (double);
 - (void)V\;
 
 // Remaining properties
-@property(nonatomic) _Bool disableInPlaceFiltering; // @synthesize disableInPlaceFiltering=_disableInPlaceFiltering;
 @property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(copy, nonatomic) NSString *groupNamespace; // @synthesize groupNamespace=_groupNamespace;
-@property(nonatomic) double minimumScale; // @synthesize minimumScale=_minimumScale;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

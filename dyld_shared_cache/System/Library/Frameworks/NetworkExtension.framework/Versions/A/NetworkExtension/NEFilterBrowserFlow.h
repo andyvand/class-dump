@@ -6,16 +6,14 @@
 
 #import <NetworkExtension/NEFilterFlow.h>
 
-@class NSURL, NSURLRequest, NSURLResponse;
+@class NSURLRequest;
 
 @interface NEFilterBrowserFlow : NEFilterFlow
 {
     NSURLRequest *_request;
-    NSURLResponse *_response;
-    NSURL *_parentURL;
 }
 
-+ (_Bool);
++ (_Bool)setMuted:forSessionWithUniqueID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -23,18 +21,16 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)apple.private.ids.session-private;
+- (void);
+- (void)J;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)icationIdentifier: /* Error: Ran out of types for this method. */;
+- (void)setApplicationIdentifier: /* Error: Ran out of types for this method. */;
 - (id)guration;
 
 // Remaining properties
-@property(retain) NSURL *parentURL; // @synthesize parentURL=_parentURL;
 @property(retain) NSURLRequest *request; // @synthesize request=_request;
-@property(retain) NSURLResponse *response; // @synthesize response=_response;
 
 @end
 

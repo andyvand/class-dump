@@ -9,7 +9,7 @@
     id localizerFactory;
 }
 
-- (id);
+- (id)authorSpace;
 - (id);
 - (void)ø;
 

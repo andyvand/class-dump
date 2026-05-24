@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBOpenCalculationCommand
 {
     _Bool _shouldOpenCurrencyConversionProvider;
-    NSString *_input;
-    NSString *_output;
 }
 
 - (_Bool);
@@ -22,26 +20,16 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (void)b;
+- (id)placeholderDataForFormat:(id)arg1 photoImageSize:width:height:bytesPerRow:dataWidth:dataHeight:imageDataOffset: /* Error: Ran out of types for this method. */;
+- (id)ithout a photoLibrary;
+- (id)Z;
 - (id);
 - (void)@"NSMutableDictionary";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *output; // @synthesize output=_output;
-@property(nonatomic) _Bool shouldOpenCurrencyConversionProvider; // @synthesize shouldOpenCurrencyConversionProvider=_shouldOpenCurrencyConversionProvider;
-@property(readonly) Class superclass;
 
 @end
 

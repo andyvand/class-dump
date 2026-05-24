@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL, NSUUID, SPHandle;
+@class NSString;
 
 @interface SPRepairDeviceAttributes
 {
     NSString *_name;
-    NSUUID *_identifier;
-    NSString *_serialNumber;
-    SPHandle *_owner;
-    NSString *_deviceClass;
-    NSString *_deviceModel;
-    NSString *_rawDeviceModel;
-    NSString *_deviceColor;
-    NSNumber *_isMine;
-    NSNumber *_thisDevice;
-    NSNumber *_isRepairCapable;
-    long long _repairState;
-    NSURL *_imageBaseUrl;
 }
 
 - (void);
@@ -34,11 +22,11 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void)";
+- (void)6;
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (id);
@@ -50,22 +38,10 @@
 - (void)0@ù
 × ;
 - (id)fetchConfigFromServerWithCompletion: /* Error: Ran out of types for this method. */;
-- (void)able;
+- (void)IsNetworkAvailable;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(copy, nonatomic) NSString *deviceColor; // @synthesize deviceColor=_deviceColor;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSURL *imageBaseUrl; // @synthesize imageBaseUrl=_imageBaseUrl;
-@property(copy, nonatomic) NSNumber *isMine; // @synthesize isMine=_isMine;
-@property(copy, nonatomic) NSNumber *isRepairCapable; // @synthesize isRepairCapable=_isRepairCapable;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) SPHandle *owner; // @synthesize owner=_owner;
-@property(copy, nonatomic) NSString *rawDeviceModel; // @synthesize rawDeviceModel=_rawDeviceModel;
-@property(nonatomic) long long repairState; // @synthesize repairState=_repairState;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy, nonatomic) NSNumber *thisDevice; // @synthesize thisDevice=_thisDevice;
 
 @end
 

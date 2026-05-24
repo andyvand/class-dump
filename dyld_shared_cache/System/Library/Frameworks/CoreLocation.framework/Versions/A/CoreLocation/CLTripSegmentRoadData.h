@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationCoordinate, NSArray;
-
 @interface CLTripSegmentRoadData
 {
     int _roadClass;
-    int _formOfWay;
-    unsigned long long _roadID;
-    unsigned long long _clRoadID;
-    NSArray *_coordinates;
-    unsigned long long _connectingCLRoadID;
-    CLLocationCoordinate *_connectingRoadStartCoordinate;
-    CLLocationCoordinate *_connectingRoadEndCoordinate;
-    double _familiarityIndex;
-    double _sequenceNumber;
 }
 
 + (_Bool);
@@ -28,34 +17,26 @@
 - (_Bool);
 - (id);
 - (double);
-- (double);
+- (double)= ;
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)00 - bad minorVersion? [0x%08X] '%c%c%c%c'
+;
+- (id)#;
 - (id);
 - (_Bool);
 - (void);
 - (double);
 - (void);
 - (int);
-- (id);
+- (id)setOverrideTriple:(struct _NSZone *)arg1;
 - (id);
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clRoadID; // @synthesize clRoadID=_clRoadID;
-@property(readonly, nonatomic) unsigned long long connectingCLRoadID; // @synthesize connectingCLRoadID=_connectingCLRoadID;
-@property(readonly, nonatomic) CLLocationCoordinate *connectingRoadEndCoordinate; // @synthesize connectingRoadEndCoordinate=_connectingRoadEndCoordinate;
-@property(readonly, nonatomic) CLLocationCoordinate *connectingRoadStartCoordinate; // @synthesize connectingRoadStartCoordinate=_connectingRoadStartCoordinate;
-@property(readonly, nonatomic) NSArray *coordinates; // @synthesize coordinates=_coordinates;
-@property(readonly, nonatomic) double familiarityIndex; // @synthesize familiarityIndex=_familiarityIndex;
-@property(readonly, nonatomic) int formOfWay; // @synthesize formOfWay=_formOfWay;
-@property(readonly, nonatomic) int roadClass; // @synthesize roadClass=_roadClass;
 @property(readonly, nonatomic) unsigned long long roadID; // @synthesize roadID=_roadID;
-@property(readonly, nonatomic) double sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end
 

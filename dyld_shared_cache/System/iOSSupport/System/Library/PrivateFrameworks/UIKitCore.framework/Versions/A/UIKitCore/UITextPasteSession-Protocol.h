@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, UITextRange;
+@class UITextRange;
 @protocol UITextPasteSessionDelegate;
 
 @protocol UITextPasteSession
+- (id <UITextPasteSessionDelegate>)&;
 - (void)
 × ;
 - (UITextRange *)QbÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) __weak id <UITextPasteSessionDelegate> delegate;
-@property(copy, nonatomic) NSArray *originalItems;
-@property(readonly, nonatomic) NSAttributedString *pasteResult;
 @property(readonly, nonatomic) UITextRange *range;
 @end
 

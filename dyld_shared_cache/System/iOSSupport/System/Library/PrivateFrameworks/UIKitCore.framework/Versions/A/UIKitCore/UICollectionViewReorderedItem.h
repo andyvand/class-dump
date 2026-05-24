@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionViewCell;
+@class UICollectionViewCell;
 
 __attribute__((visibility("hidden")))
 @interface UICollectionViewReorderedItem
 {
     UICollectionViewCell *_cell;
-    NSIndexPath *_originalIndexPath;
-    NSIndexPath *_targetIndexPath;
-    _Bool _isUncommitted;
-    NSIndexPath *_lastCommittedIndexPath;
 }
 
-- (id);
-- (_Bool);
+- (id)AnalyticDataKey;
+- (_Bool)tics-reporting;
 - (id);
 - (id);
 - (void);
@@ -26,16 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool)confined manner is dangerous and can lead to deadlocks. Please always submit updates either always on the main queue or always off the main queue - view=%@;
-- (id)MorphPresentationAnimationC;
+- (id)So46_UIContextMenuLiquidMorphPresentationAnimationC;
 - (void);
 - (void)ÉX;
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionViewCell *cell; // @synthesize cell=_cell;
-@property(readonly, nonatomic) _Bool isUncommitted; // @synthesize isUncommitted=_isUncommitted;
-@property(readonly, nonatomic) NSIndexPath *lastCommittedIndexPath; // @synthesize lastCommittedIndexPath=_lastCommittedIndexPath;
-@property(retain, nonatomic) NSIndexPath *originalIndexPath; // @synthesize originalIndexPath=_originalIndexPath;
-@property(retain, nonatomic) NSIndexPath *targetIndexPath; // @synthesize targetIndexPath=_targetIndexPath;
 
 @end
 

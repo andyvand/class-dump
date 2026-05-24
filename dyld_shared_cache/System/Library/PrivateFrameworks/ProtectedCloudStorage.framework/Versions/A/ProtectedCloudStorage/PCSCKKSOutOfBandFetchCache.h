@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface PCSCKKSOutOfBandFetchCache
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct _PCSIdentitySetData *_identities;
-    NSMutableSet *_currentItemNegativeCache;
-    NSMutableDictionary *_identityNegativeCache;
 }
 
 + (id);
@@ -26,17 +23,14 @@ __attribute__((visibility("hidden")))
 - (struct _PCSIdentityData *);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (void);
 - (id);
 - (struct _PCSIdentitySetData *);
-- (void);
+- (void)ion the first time;
 
 // Remaining properties
-@property(retain) NSMutableSet *currentItemNegativeCache; // @synthesize currentItemNegativeCache=_currentItemNegativeCache;
-@property(readonly) struct _PCSIdentitySetData *identities; // @synthesize identities=_identities;
-@property(retain) NSMutableDictionary *identityNegativeCache; // @synthesize identityNegativeCache=_identityNegativeCache;
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

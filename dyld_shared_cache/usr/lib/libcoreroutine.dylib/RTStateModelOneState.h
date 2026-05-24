@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSUUID, RTStateDepiction;
+@class NSUUID;
 
 @interface RTStateModelOneState
 {
     NSUUID *_uniqueId;
-    RTStateDepiction *_stateDepiction;
-    NSMutableDictionary *_stateTransitions;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)t, skipping;
 - (id);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 - (void)em or LOI fetched;
 
 // Remaining properties
-@property(retain, nonatomic) RTStateDepiction *stateDepiction; // @synthesize stateDepiction=_stateDepiction;
-@property(retain, nonatomic) NSMutableDictionary *stateTransitions; // @synthesize stateTransitions=_stateTransitions;
 @property(retain, nonatomic) NSUUID *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

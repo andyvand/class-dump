@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol HAP2AccessoryServerCoordinator, HAP2UnpairedAccessoryServer;
+
 @protocol HAP2AccessoryServerCoordinatorDelegate
+- (void)createDigitalZeroReporterWithVoiceTriggerEventInfo:(id <HAP2AccessoryServerCoordinator>)arg1 withSessionStatus:(id <HAP2UnpairedAccessoryServer>)arg2;
 - (void)erlying bridged accessory is not reachable;
 @end
 

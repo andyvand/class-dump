@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, PCSLockAssertion, PCSMTT;
+@class NSObject;
 @protocol OS_os_transaction;
 
 @interface PCSCKKSItemModifyContext
 {
     _Bool _sync;
-    _Bool _forceSync;
-    struct _PCSIdentitySetData *_set;
-    struct __PCSLogContext *_log;
-    long long _timeoutValue;
-    NSString *_dsid;
-    NSMutableDictionary *_serviceContexts;
-    PCSMTT *_mtt;
-    NSObject<OS_os_transaction> *_transaction;
-    PCSLockAssertion *_lockAssertion;
-    id _activityAssertion;
 }
 
 - (long long);
@@ -34,7 +24,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -43,23 +33,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)a dictionary (ignoring):%@ /* Error: Ran out of types for this method. */;
+- (void)	k;
+- (void);
 - (struct _PCSIdentitySetData *);
 - (void)w key (%d);
 
 // Remaining properties
-@property(retain) id activityAssertion; // @synthesize activityAssertion=_activityAssertion;
-@property(retain) NSString *dsid; // @synthesize dsid=_dsid;
-@property _Bool forceSync; // @synthesize forceSync=_forceSync;
-@property(retain) PCSLockAssertion *lockAssertion; // @synthesize lockAssertion=_lockAssertion;
-@property struct __PCSLogContext *log; // @synthesize log=_log;
-@property(readonly) PCSMTT *mtt; // @synthesize mtt=_mtt;
-@property(retain) NSMutableDictionary *serviceContexts; // @synthesize serviceContexts=_serviceContexts;
-@property struct _PCSIdentitySetData *set; // @synthesize set=_set;
-@property _Bool sync; // @synthesize sync=_sync;
-@property long long timeoutValue; // @synthesize timeoutValue=_timeoutValue;
 @property(retain) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 
 @end

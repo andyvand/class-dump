@@ -7,11 +7,6 @@
 @interface NewsUI2.PuzzleArchiveFilterOptionsManager
 {
     id _filterOptions;
-    id filterOptionsObservers;
-    id filterOptionPredicates;
-    id commandCenter;
-    id configurationManager;
-    id cachedDefaultFilterOptions;
 }
 
 @end

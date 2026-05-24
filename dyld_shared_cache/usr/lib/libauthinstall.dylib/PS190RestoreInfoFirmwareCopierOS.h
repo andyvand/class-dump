@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface PS190RestoreInfoFirmwareCopierOS : PS190SoCRestoreInfoFirmwareCopierOS
 {
     unsigned int _boardID;
-    unsigned int _securityDomain;
 }
 
-- (id);
-- (id);
+- (id)_thread;
+- (id)@"EDBiomeBlackPearlLogger",&,N,V_receiveBiomeCollector;
 - (unsigned int);
 - (unsigned int);
 
 // Remaining properties
 @property(readonly) unsigned int boardID; // @synthesize boardID=_boardID;
-@property(readonly) unsigned int securityDomain; // @synthesize securityDomain=_securityDomain;
 
 @end
 

@@ -7,34 +7,24 @@
 @interface TSDImageRepCachedSizedImage
 {
     struct CGImage *mImageRef;
-    struct CGPath *mImageMaskPath;
-    _Bool mImageHasMaskBakedIn;
-    _Bool mImageHasAdjustmentsBakedImage;
-    long long mImageOrientation;
-    struct CGSize mImageSize;
 }
 
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (struct CGPath *);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)`;
 - (void);
 - (struct CGImage *);
 - (struct CGSize);
-- (void)orProperty:(struct CGSize)arg1;
+- (void)validateIntValueAsBool:(struct CGSize)arg1 forProperty: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool imageHasAdjustmentsBakedImage; // @synthesize imageHasAdjustmentsBakedImage=mImageHasAdjustmentsBakedImage;
-@property(nonatomic) _Bool imageHasMaskBakedIn; // @synthesize imageHasMaskBakedIn=mImageHasMaskBakedIn;
-@property(nonatomic) struct CGPath *imageMaskPath;
-@property(nonatomic) long long imageOrientation; // @synthesize imageOrientation=mImageOrientation;
 @property(nonatomic) struct CGImage *imageRef;
-@property(nonatomic) struct CGSize imageSize; // @synthesize imageSize=mImageSize;
 
 @end
 

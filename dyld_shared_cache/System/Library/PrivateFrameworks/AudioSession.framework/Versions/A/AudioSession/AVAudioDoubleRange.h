@@ -7,7 +7,6 @@
 @interface AVAudioDoubleRange
 {
     double minimum;
-    double maximum;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double maximum; // @synthesize maximum;
 @property(readonly, nonatomic) double minimum; // @synthesize minimum;
 
 @end

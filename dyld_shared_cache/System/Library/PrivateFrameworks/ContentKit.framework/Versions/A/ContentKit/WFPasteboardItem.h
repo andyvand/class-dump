@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface WFPasteboardItem
 {
     NSDictionary *_itemsByType;
-    NSArray *_fileURLs;
 }
 
 - (id);
-- (id);
+- (id)c-;
 - (id);
 - (void);
 - (id)28WFGenerativeSessionProvidingP;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *fileURLItems;
-@property(readonly, nonatomic) NSArray *fileURLs; // @synthesize fileURLs=_fileURLs;
 @property(readonly, nonatomic) NSDictionary *itemsByType; // @synthesize itemsByType=_itemsByType;
 
 @end

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPTrialWrapper, _PASCFBurstTrie;
-@protocol TRINotificationToken;
+@class _PASCFBurstTrie;
 
 @interface PPTopicBlocklist
 {
     _PASCFBurstTrie *_blocklistTrie;
-    PPTrialWrapper *_trialWrapper;
-    id <TRINotificationToken> _trialToken;
 }
 
-+ (id): /* Error: Ran out of types for this method. */;
++ (id)scoredEntitiesFromMapsIntent: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

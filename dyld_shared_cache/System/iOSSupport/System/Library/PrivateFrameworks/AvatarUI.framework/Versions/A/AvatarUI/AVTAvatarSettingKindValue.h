@@ -14,7 +14,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)T5;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_597dd055 settingKind; // @synthesize settingKind=_settingKind;

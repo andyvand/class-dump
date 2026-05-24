@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSArray, NSData, NSString;
+@class DMFControlGroupIdentifier;
 
 @interface CRKDownloadResourcesRequest
 {
     _Bool _openAfterDownloadCompletes;
-    DMFControlGroupIdentifier *_courseIdentifier;
-    NSArray *_resources;
-    NSString *_resourcesDescription;
-    NSData *_previewImageData;
-    NSString *_sourceBundleIdentifier;
 }
 
 + (Class);
@@ -27,20 +22,15 @@
 - (void);
 - (id);
 - (id);
+- (void):(id)arg1 eanBootReadsHist(621):(#10) cfg elements != (%d) buffer elements /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)8@16@?24;
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(nonatomic) _Bool openAfterDownloadCompletes; // @synthesize openAfterDownloadCompletes=_openAfterDownloadCompletes;
-@property(retain, nonatomic) NSData *previewImageData; // @synthesize previewImageData=_previewImageData;
-@property(copy, nonatomic) NSArray *resources; // @synthesize resources=_resources;
-@property(copy, nonatomic) NSString *resourcesDescription; // @synthesize resourcesDescription=_resourcesDescription;
-@property(copy, nonatomic) NSString *sourceBundleIdentifier; // @synthesize sourceBundleIdentifier=_sourceBundleIdentifier;
 
 @end
 

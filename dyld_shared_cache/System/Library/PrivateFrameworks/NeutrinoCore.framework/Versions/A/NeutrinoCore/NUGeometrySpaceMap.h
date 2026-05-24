@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NUGeometrySpaceMap
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_spaces;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)6T;
 - (void);
 - (void);
 - (void);
@@ -29,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void)16;
 
 @end

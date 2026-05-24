@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, VNContoursObservation;
+@class VNContoursObservation;
 
 @interface VNContour
 {
     VNContoursObservation *_observation;
-    struct vector<float __attribute__((ext_vector_type(2))), std::allocator<float __attribute__((ext_vector_type(2)))>> _contourPoints;
-    unsigned long long _topLevelIndex;
-    struct os_unfair_lock_s _pathLock;
-    struct CGPath *_normalizedPath;
-    float _aspectRatio;
-    NSIndexPath *_indexPath;
 }
 
 - (unsigned long long);
@@ -29,12 +23,12 @@
 - (long long);
 - (id);
 - (float);
-- (long long);
+- (long long)";
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)o;
 - (unsigned long long);
 - (id);
 - (void)rInverted: /* Error: Ran out of types for this method. */;
@@ -42,14 +36,6 @@
 - (float)À;
 
 // Remaining properties
-@property(readonly) float aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(readonly) long long childContourCount;
-@property(readonly) NSArray *childContours;
-@property(readonly) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly) struct CGPath *normalizedPath;
-@property(readonly) const id *normalizedPoints;
-@property(readonly) long long pointCount;
-@property(readonly, nonatomic) unsigned long long requestRevision;
 @property(readonly) unsigned long long topLevelIndex; // @synthesize topLevelIndex=_topLevelIndex;
 
 @end

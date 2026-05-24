@@ -4,40 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString, SFActionItem, SFImage, SFRichText;
+@class NSArray, NSNumber, NSString;
 
 @protocol SFRichTitleCardSection
+- (int);
+- (NSString *)*;
+- (void)@e;
+- (void)`9`|aW;
+- (void)';
+- (void)installExistingAlchemistImageAtPath:(NSArray *)arg1 error: /* Error: Ran out of types for this method. */;
+- (NSNumber *)dateRangeTitleWithStartDate:endDate:category:kind:type:options: /* Error: Ran out of types for this method. */;
 - (void)tionCardSection",&,N;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *auxiliaryAlignment;
-@property(copy, nonatomic) NSString *auxiliaryBottomText;
-@property(nonatomic) int auxiliaryBottomTextColor;
-@property(copy, nonatomic) NSString *auxiliaryMiddleText;
-@property(copy, nonatomic) NSString *auxiliaryTopText;
-@property(copy, nonatomic) NSArray *buttonItems;
 @property(copy, nonatomic) NSString *contentAdvisory;
-@property(copy, nonatomic) NSString *descriptionText;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *footnote;
-@property(nonatomic) _Bool hideVerticalDivider;
-@property(retain, nonatomic) SFImage *imageOverlay;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *moreGlyphs;
-@property(copy, nonatomic) NSArray *offers;
-@property(retain, nonatomic) SFActionItem *playAction;
-@property(nonatomic) int playActionAlign;
-@property(copy, nonatomic) NSNumber *rating;
-@property(copy, nonatomic) NSString *ratingText;
-@property(retain, nonatomic) SFImage *reviewGlyph;
-@property(nonatomic) _Bool reviewNewLine;
-@property(copy, nonatomic) NSString *reviewText;
-@property(retain, nonatomic) SFRichText *richSubtitle;
-@property(nonatomic) _Bool subtitleIsEmphasized;
-@property(nonatomic) _Bool thumbnailCropCircle;
-@property(nonatomic) int titleAlign;
-@property(retain, nonatomic) SFImage *titleImage;
-@property(nonatomic) _Bool titleNoWrap;
-@property(copy, nonatomic) NSNumber *titleWeight;
 @end
 

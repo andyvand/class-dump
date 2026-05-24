@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, NSUUID, UIWindow, _UIActiveViewServiceSessionTracker;
-@protocol _UIViewServiceSessionActivityProviding;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceSessionActivityRecord
 {
     NSHashTable *_associatedHostedWindows;
-    _Bool _hasInvalidated;
-    int _lastViewControllerAppearState;
-    _UIActiveViewServiceSessionTracker *_tracker;
-    id <_UIViewServiceSessionActivityProviding> _lastActivityProvider;
-    unsigned long long _lastActivity;
-    unsigned long long _lastActivityTimestamp;
-    NSUUID *_sessionIdentifier;
-    long long _userInterfaceIdiom;
-    UIWindow *_primaryHostedWindow;
 }
 
 + (id);
+- (void);;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -34,47 +24,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)service:account:messageIdentifier:alternateCallbackID:updatedWithResponseCode:error:lastCall:messageContext: /* Error: Ran out of types for this method. */;
+- (int)rticipantVersion:receivedGroupProtocolVersion:messageTimeStamp:groupPhotoCreationTime:pendingGroupModification: /* Error: Ran out of types for this method. */;
+- (unsigned long long)"<IMDaemonListenerAccountsProtocol>",R,N;
+- (id)_addDeviceToChallengedSMSRelay: /* Error: Ran out of types for this method. */;
+- (unsigned long long)enerAVProtocol>",R,N;
 - (id);
-- (int);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (id)EAPFASTProvisionPAC;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long);
+- (long long)Queue;
 - (void);
 - (id)1Â0@ù
 × ;
 - (id)A!Gù±bÐ1Â0@ù
 × ;
-- (id)imumDifference;
-- (id)ent;
-- (void);
+- (id)_minimumDifference;
+- (id)TabAccessoryEnvironment;
+- (void)SS_So6NSNullCt;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _hostedWindowCount;
-@property(nonatomic) unsigned long long _lastActivity; // @synthesize _lastActivity;
-@property(nonatomic) __weak id <_UIViewServiceSessionActivityProviding> _lastActivityProvider; // @synthesize _lastActivityProvider;
-@property(nonatomic) unsigned long long _lastActivityTimestamp; // @synthesize _lastActivityTimestamp;
-@property(nonatomic) int _lastViewControllerAppearState; // @synthesize _lastViewControllerAppearState;
-@property(nonatomic) __weak _UIActiveViewServiceSessionTracker *_tracker; // @synthesize _tracker;
-@property(readonly, copy, nonatomic) NSHashTable *allHostedWindows;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasInvalidated; // @synthesize hasInvalidated=_hasInvalidated;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak UIWindow *primaryHostedWindow; // @synthesize primaryHostedWindow=_primaryHostedWindow;
-@property(readonly, nonatomic) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long userInterfaceIdiom; // @synthesize userInterfaceIdiom=_userInterfaceIdiom;
 
 @end
 

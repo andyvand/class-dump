@@ -16,9 +16,9 @@
 + (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)_criteria;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelStaticResponse *staticResponse; // @synthesize staticResponse=_staticResponse;

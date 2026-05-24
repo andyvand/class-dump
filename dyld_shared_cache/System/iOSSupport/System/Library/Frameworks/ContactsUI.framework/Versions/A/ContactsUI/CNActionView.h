@@ -4,40 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNActionMenuHelper, NSString, NUIContainerBoxView, NUIContainerStackView, UIColor, UIFont, UIImage, UIImageView, UILabel, UILongPressGestureRecognizer, UIView, UIVisualEffectView, _UIVisualEffectBackdropView;
-@protocol CNActionViewDelegate;
+@class NUIContainerStackView;
 
 @interface CNActionView
 {
     _Bool _disabled;
-    _Bool _swiftUIContactCardEnabled;
-    id <CNActionViewDelegate> _actionDelegate;
-    UIImage *_image;
-    NSString *_title;
-    NSString *_type;
-    long long _style;
-    NUIContainerStackView *_containerView;
-    NUIContainerBoxView *_platterBoxView;
-    UIView *_platterView;
-    UIImageView *_imageView;
-    NUIContainerStackView *_horizontalContentView;
-    UILabel *_titleLabel;
-    CNActionMenuHelper *_actionMenuHelper;
-    UIVisualEffectView *_colorMatrixView;
-    UILongPressGestureRecognizer *_longPressGestureRecognizer;
-    UIFont *_titleFont;
-    UIColor *_posterTintColor;
-    _UIVisualEffectBackdropView *_visualEffectViewCaptureView;
 }
 
 + (id);
-+ (struct CGSize);
-+ (double);
-+ (void);
++ (struct CGSize)!;
++ (double)ja;
++ (void){#;
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)
+@9_;
 + (id);
 - (id);
 - (void);
@@ -54,32 +36,32 @@
 - (struct CGSize);
 - (id);
 - (id);
-- (id);
+- (id)R	ja;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
+- (void);
 - (id);
 - (long long);
 - (id);
+- (struct CGSize)textView:(struct CGSize)arg1 shouldUpdateTouchBarItemIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)8;
+- (void)alert to %@ for %@;
+- (void);
+- (void)secondaryTextColor;
+- (id)predicateForAutomaticDeletionOnShow:deletePlayedEpisodes:episodeLimit: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)s:(id)arg1 Failed to fetch podcasts from MAPI with unknown error.;
+- (void);
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
 - (id);
 - (id);
 - (id);
@@ -87,7 +69,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)oreFoundation.framework/CoreFoundation;
 - (id);
 - (void);
 - (void);
@@ -98,8 +80,8 @@
 × ;
 - (id)Ñu1Â0@ù
 × ;
-- (void)el;
-- (id)ActionButtonBackgroundFillColorDisabled;
+- (void)labelLabel;
+- (id)carPlayQuickActionButtonBackgroundFillColorDisabled;
 - (void)N,V_property;
 - (void)&,N,V_doneItem;
 - (id)N,V_delegate;
@@ -112,32 +94,7 @@
 - (void)¨);
 
 // Remaining properties
-@property(nonatomic) __weak id <CNActionViewDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(retain, nonatomic) CNActionMenuHelper *actionMenuHelper; // @synthesize actionMenuHelper=_actionMenuHelper;
-@property(retain, nonatomic) UIVisualEffectView *colorMatrixView; // @synthesize colorMatrixView=_colorMatrixView;
 @property(retain, nonatomic) NUIContainerStackView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NUIContainerStackView *horizontalContentView; // @synthesize horizontalContentView=_horizontalContentView;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UILongPressGestureRecognizer *longPressGestureRecognizer; // @synthesize longPressGestureRecognizer=_longPressGestureRecognizer;
-@property(retain, nonatomic) NUIContainerBoxView *platterBoxView; // @synthesize platterBoxView=_platterBoxView;
-@property(retain, nonatomic) UIView *platterView; // @synthesize platterView=_platterView;
-@property(retain, nonatomic) UIColor *posterTintColor; // @synthesize posterTintColor=_posterTintColor;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool swiftUIContactCardEnabled; // @synthesize swiftUIContactCardEnabled=_swiftUIContactCardEnabled;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) UIFont *titleFont; // @synthesize titleFont=_titleFont;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) _UIVisualEffectBackdropView *visualEffectViewCaptureView; // @synthesize visualEffectViewCaptureView=_visualEffectViewCaptureView;
 
 @end
 

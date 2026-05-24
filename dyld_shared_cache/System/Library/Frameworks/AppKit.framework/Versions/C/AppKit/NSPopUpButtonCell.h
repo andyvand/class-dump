@@ -6,39 +6,20 @@
 
 #import <AppKit/NSMenuItemCell.h>
 
-@class NSArray, NSMenu, NSMenuItem, NSString;
-@protocol NSPopUpButtonCellDelegate;
+@class NSMenu;
 
 @interface NSPopUpButtonCell : NSMenuItemCell
 {
     NSMenu *_menu;
-    int _selectedIndex;
-    struct __pbcFlags {
-        unsigned int pullsDown:1;
-        unsigned int preferredEdge:3;
-        unsigned int menuIsAttached:1;
-        unsigned int usesItemFromMenu:1;
-        unsigned int altersStateOfSelectedItem:1;
-        unsigned int decoding:1;
-        unsigned int arrowPosition:2;
-        unsigned int drawing:1;
-        unsigned int menuShouldBeUniquedAgainstMain:1;
-        unsigned int RESERVED:20;
-    } _pbcFlags;
-    id _popupReserved;
-    long long _sizingBehavior;
-    unsigned int _matchMenuItemImageSizeToPopUp:1;
-    unsigned int _shouldAnimateImageUpdates:1;
-    id <NSPopUpButtonCellDelegate> _delegate;
 }
 
-+ (Class);
-+ (Class);
-+ (long long);
++ (Class)_loaderClientEvent_DidReceiveChallenge;
++ (Class)@;
++ (long long);
 + (id);
 + (void)(GH;
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (struct CGRect);
@@ -61,8 +42,8 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)[%d] %s;
+- (void)tials;
 - (id);
 - (_Bool);
 - (struct CGRect);
@@ -74,10 +55,10 @@
 - (void);
 - (id);
 - (id);
+- (long long);
+- (long long)q ;
 - (long long);
-- (long long);
-- (long long);
-- (long long);
+- (long long)R;
 - (long long);
 - (struct CGRect);
 - (unsigned long long);
@@ -91,61 +72,61 @@
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (struct CGSize)set_isKnownTracker:(struct CGRect)arg1;
+- (id)removeObjectAtIndex:(id)arg1;
+- (_Bool)redactedDescription;
+- (_Bool)endpointWithCEndpoint: /* Error: Ran out of types for this method. */;
+- (void)developerType;
+- (unsigned long long)decodeIntForKey: /* Error: Ran out of types for this method. */;
+- (_Bool)backgroundAVAssetDownloadTask:didReceiveDownloadToken: /* Error: Ran out of types for this method. */;
+- (void)_responseBodyBytesReceived;
+- (id)_neTrackerTCCResult;
+- (id)_flags;
+- (void)_downloadTaskWithRequest:(id)arg1 delegate:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_createCFAuthChallenge;
+- (_Bool)_authenticatorConfiguredViaTaskProperty;
+- (_Bool)_allowsExpensiveOverride;
+- (id)URLSession:aggregateAssetDownloadTask:willDownloadToURL: /* Error: Ran out of types for this method. */;
+- (id)URLAssetWithURL:options: /* Error: Ran out of types for this method. */;
+- (void)requestPriority;
+- (_Bool)set_downloadFileProtectionType: /* Error: Ran out of types for this method. */;
+- (_Bool)orage",&,V_phskip_hstsStorage;
+- (_Bool)SURLSessionTask",R,&,N,V_parentTask;
 - (void);
 - (void);
+- (void);
+- (_Bool)re - unable to allocate string for new path.;
+- (unsigned long long)=%{errno}d;
+- (_Bool)obile me token from AOSkit;
+- (_Bool)lu isQUIC=%{bool}d;
+- (_Bool)reams;
 - (void);
+- (void)d to release assertion(%d), result(%d);
+- (void)ed to init the insert statement for alt_services;
+- (void)d;
 - (void);
-- (void);
-- (void);
+- (void)*;
 - (void);
 - (long long);
-- (long long);
+- (long long)l;
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (double);
-- (struct CGPoint);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (_Bool)Should've been invalidated;
+- (void)s;
+- (double)a Type;
+- (struct CGPoint)y Authentication Required;
+- (void)nWebSocketTask _onqueue_validateWebSocketHandshake];
+- (id)via;
+- (void)protocol;
+- (void)p DB=%@ Truncate Database failed:(id)arg1 %s ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (void).;
+- (id)CoreWriteStream;
+- (_Bool)uld not be called;
+- (void)NDRemoteHostKey;
 - (void);
 - (double);
 - (unsigned long long);
@@ -155,22 +136,22 @@
 - (id);
 - (void);
 - (Class);
-- (_Bool);
-- (long long);
+- (_Bool);
+- (long long)@;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (long long);
 - (_Bool);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (_Bool);
@@ -181,14 +162,14 @@
 - (void);
 - (void)ê/ð!°Cù1ß31Â0@ù
 × ;
-- (void)upplementaryItems;
-- (void)tionWithDuration:(id)arg1;
-- (id);
+- (void)supplementaryItems;
+- (void)scrollerImp:(id)arg1 animateExpansionTransitionWithDuration: /* Error: Ran out of types for this method. */;
+- (id)_roundsLeftCorners;
 - (void)cation completeStateRestoration] called too many times (counter %{public}s);
 - (long long)top level items;
 - (void)DocumentController Coordination;
 - (_Bool)uImpl _globalCarbonCommandProcessEvent:handlerCallRef:] /* Error: Ran out of types for this method. */;
-- (id)cator;
+- (id)NSSecureTextFieldShowsNumLockIndicator;
 - (id);
 - (void)8ë?;
 - (id)HoB;
@@ -198,29 +179,6 @@
 
 // Remaining properties
 @property(setter=_setSizingBehavior:) long long _sizingBehavior;
-@property _Bool altersStateOfSelectedItem;
-@property unsigned long long arrowPosition;
-@property _Bool autoenablesItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSPopUpButtonCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long indexOfSelectedItem;
-@property(readonly, copy) NSArray *itemArray;
-@property(readonly, copy) NSArray *itemTitles;
-@property(readonly) NSMenuItem *lastItem;
-@property _Bool matchMenuItemImageSizeToPopUp;
-@property(retain) NSMenu *menu;
-@property(readonly) long long numberOfItems;
-@property unsigned long long preferredEdge;
-@property _Bool pullsDown;
-@property(readonly) NSMenuItem *selectedItem;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *titleOfSelectedItem;
-@property _Bool usesItemFromMenu;
 
 @end
 

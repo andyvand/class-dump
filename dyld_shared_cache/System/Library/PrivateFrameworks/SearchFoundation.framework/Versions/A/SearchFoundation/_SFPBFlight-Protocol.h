@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData, NSString;
 
 @protocol _SFPBFlight
+- (NSString *)deleteOutputPortForKey: /* Error: Ran out of types for this method. */;
+- (NSString *)_maxSize;
+- (NSString *)selectionBounds;
+- (void)C3DTransformsGetParent;
+- (NSString *)(%s) in function "%s";
+- (void);
+- (void);
+- (void);
+- (NSData *)@"NSArray",&,N,V_assetUUIDsManuallyAddedToLibraryScope;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *carrierCode;
-@property(copy, nonatomic) NSString *carrierName;
-@property(copy, nonatomic) NSString *carrierPhoneNumber;
-@property(copy, nonatomic) NSString *carrierWebsite;
 @property(copy, nonatomic) NSString *flightID;
-@property(copy, nonatomic) NSString *flightNumber;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *legs;
-@property(copy, nonatomic) NSString *operatorCarrierCode;
-@property(copy, nonatomic) NSString *operatorFlightNumber;
 @end
 

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCDPTrustedTargetCryptoMetadata, CKDPCodeFunctionInvokeRequestAttestationRequest, CKDPCodeFunctionInvokeRequestProtectedCloudComputeMetadata, NSData, NSString;
+@class CKDPCodeFunctionInvokeRequestAttestationRequest;
 
 @interface CKDPCodeFunctionInvokeRequest
 {
     CKDPCodeFunctionInvokeRequestAttestationRequest *_attestationRequest;
-    NSString *_functionName;
-    CKDPCodeFunctionInvokeRequestProtectedCloudComputeMetadata *_protectedCloudComputeMetadata;
-    NSData *_serializedParameters;
-    NSString *_serviceName;
-    CKCDPTrustedTargetCryptoMetadata *_trustedTargetCryptoMetadata;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)h;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -30,12 +25,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)rb_common_MeasurementUnit;
+- (id)UsoTaskBuilder_like_common_UserFavorite;
 - (id);
-- (id);
+- (void)checkCompatibilityWithPassInformation:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)void *, CFStringRef, const void *, CFTypeRef);
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -45,24 +40,13 @@
 - (id);
 - (_Bool)ÑÚð1Â0@ù
 × ;
-- (Class)ionHandler: /* Error: Ran out of types for this method. */;
+- (Class)createSharePCSFromData:ofType:withService:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)using anonymous to server share participants;
 - (id)dentity Set:%p
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPCodeFunctionInvokeRequestAttestationRequest *attestationRequest; // @synthesize attestationRequest=_attestationRequest;
-@property(retain, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(readonly, nonatomic) _Bool hasAttestationRequest;
-@property(readonly, nonatomic) _Bool hasFunctionName;
-@property(readonly, nonatomic) _Bool hasProtectedCloudComputeMetadata;
-@property(readonly, nonatomic) _Bool hasSerializedParameters;
 @property(readonly, nonatomic) _Bool hasServiceName;
-@property(readonly, nonatomic) _Bool hasTrustedTargetCryptoMetadata;
-@property(retain, nonatomic) CKDPCodeFunctionInvokeRequestProtectedCloudComputeMetadata *protectedCloudComputeMetadata; // @synthesize protectedCloudComputeMetadata=_protectedCloudComputeMetadata;
-@property(retain, nonatomic) NSData *serializedParameters; // @synthesize serializedParameters=_serializedParameters;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, nonatomic) CKCDPTrustedTargetCryptoMetadata *trustedTargetCryptoMetadata; // @synthesize trustedTargetCryptoMetadata=_trustedTargetCryptoMetadata;
 
 @end
 

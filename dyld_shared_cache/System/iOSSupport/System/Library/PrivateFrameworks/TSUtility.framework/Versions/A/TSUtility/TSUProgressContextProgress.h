@@ -6,14 +6,11 @@
 
 #import <TSUtility/TSUProgress.h>
 
-@class NSObject, TSUProgressContext;
-@protocol OS_dispatch_queue;
+@class TSUProgressContext;
 
 @interface TSUProgressContextProgress : TSUProgress
 {
     TSUProgressContext *mProgressContext;
-    NSObject<OS_dispatch_queue> *mProgressContextObserverQueue;
-    _Bool hasAddedProgressContextObserver;
 }
 
 - (void);

@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PFPhotoSharingOperation, PFVideoSharingOperation;
+@class NSString;
 
 @interface PFSharingRemakerOperation
 {
     long long _inputType;
-    NSURL *_imageOutputURL;
-    NSURL *_videoOutputURL;
-    NSString *__uuid;
-    PFVideoSharingOperation *__videoOperation;
-    PFPhotoSharingOperation *__imageOperation;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -33,12 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setImageOperation:) PFPhotoSharingOperation *_imageOperation; // @synthesize _imageOperation=__imageOperation;
 @property(copy, nonatomic, setter=_setUUID:) NSString *_uuid; // @synthesize _uuid=__uuid;
-@property(retain, nonatomic, setter=_setVideoOperation:) PFVideoSharingOperation *_videoOperation; // @synthesize _videoOperation=__videoOperation;
-@property(copy, nonatomic, setter=_setImageOutputURL:) NSURL *imageOutputURL; // @synthesize imageOutputURL=_imageOutputURL;
-@property(nonatomic, setter=_setInputType:) long long inputType; // @synthesize inputType=_inputType;
-@property(copy, nonatomic, setter=_setVideoOutputURL:) NSURL *videoOutputURL; // @synthesize videoOutputURL=_videoOutputURL;
 
 @end
 

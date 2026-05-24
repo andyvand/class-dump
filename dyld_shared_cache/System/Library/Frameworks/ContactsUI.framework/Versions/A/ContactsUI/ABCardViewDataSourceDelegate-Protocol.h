@@ -5,5 +5,6 @@
 //
 
 @protocol ABCardViewDataSourceDelegate
+- (void);
 @end
 

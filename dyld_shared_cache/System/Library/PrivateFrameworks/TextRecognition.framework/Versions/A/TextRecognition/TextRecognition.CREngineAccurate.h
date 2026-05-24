@@ -9,22 +9,6 @@
 @interface TextRecognition.CREngineAccurate
 {
     id confidenceThresholdProviderFacade;
-    id recognizerStats;
-    id lineWrappingStats;
-    id tableStructureRecognitionStats;
-    id formAnalyzerStats;
-    id formDetectionStats;
-    id formPostProcessingStats;
-    id ocrDetector;
-    id ocrRecognizer;
-    id lineWrapper;
-    id tableStructureRecognizer;
-    id formAnalyzer;
-    id ocrRecognizerTasks;
-    id revision;
-    id shouldCancel;
-    id requestedComputeDevice;
-    id _loadFormAnalyzerLock;
 }
 
 - (id);

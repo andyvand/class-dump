@@ -9,19 +9,13 @@
 @interface AKAuthorizationUpgradeContext
 {
     NSString *_appName;
-    NSString *_appID;
-    NSString *_bundleID;
-    NSString *_serviceID;
-    NSString *_teamID;
-    NSString *_nonce;
-    NSString *_state;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -44,13 +38,7 @@
 Qô\Vw9Þyú¥Â,(º««<?`PY2ÓÍ¬òØkFº´h½¯åãÒ!±ÐïÎÎ0°ÜïÒÛ-ñ"$øõyGV%f¸+*§ãØ5ÈdÍZY¸ªèVæD^C)¢ÞbÐþD¼Ê}xpóðÇ¯³ËN6ÀÂ®·«(uò6!%ì©ìI»uN¦ÊJgÿ¨Mzd·¡+­ô0>°G<}:â.CYc¾á38²°*Z_×³ËP½KùëI¥(uTbÿóMÇp /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appID; // @synthesize appID=_appID;
 @property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(copy, nonatomic) NSString *serviceID; // @synthesize serviceID=_serviceID;
-@property(copy, nonatomic) NSString *state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end
 

@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAPSyncAnchor, AAPSyncAppIdentifier, LSApplicationProxy, NSString;
+@class AAPSyncAppIdentifier;
 
 @interface AAPSyncMetaDataItemUpdate
 {
     AAPSyncAppIdentifier *_identifier;
-    LSApplicationProxy *_appProxy;
-    AAPSyncAnchor *_anchor;
-    int _appType;
 }
 
+- (id)z{;
+- (id)z;
+- (id)ջz{;
+- (id)YD|;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -28,20 +25,11 @@
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)9;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) AAPSyncAnchor *anchor; // @synthesize anchor=_anchor;
 @property(readonly, nonatomic) int appType; // @synthesize appType=_appType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) AAPSyncAppIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

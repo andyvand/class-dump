@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     LARecoveryKey *_underlying;
 }
 
++ (id));
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)ed length of %d;
 - (id);
 
 // Remaining properties

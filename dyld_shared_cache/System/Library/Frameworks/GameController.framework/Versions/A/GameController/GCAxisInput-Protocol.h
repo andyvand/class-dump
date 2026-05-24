@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol GCAxisInput
+- (void (^)(id <GCPhysicalInputElement>, id <GCAxisInput>, float));
+- (double);
 
 // Remaining properties
-@property(readonly, getter=isAnalog) _Bool analog;
-@property(readonly) _Bool canWrap;
-@property(readonly) double lastValueLatency;
-@property(readonly) double lastValueTimestamp;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) float value;
 @property(copy) CDUnknownBlockType valueDidChangeHandler;
 @end
 

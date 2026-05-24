@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PXGPPTLayoutTester
 {
@@ -21,17 +21,10 @@
 - (void);
 - (void);
 - (id);
-- (void)eEntities;
+- (void)PostInvalidatableEntities;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *inputItems; // @synthesize inputItems=_inputItems;
-@property(readonly) Class superclass;
 
 @end
 

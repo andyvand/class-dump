@@ -11,7 +11,7 @@
     NSMutableDictionary *_storage;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (char *);

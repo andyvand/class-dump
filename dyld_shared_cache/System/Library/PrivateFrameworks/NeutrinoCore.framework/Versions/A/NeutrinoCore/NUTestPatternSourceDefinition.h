@@ -9,18 +9,16 @@
 @interface NUTestPatternSourceDefinition : NUSingleSourceDefinition
 {
     long long _orientation;
-    CDStruct_d58201db _size;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long)?=;
 - (id);
 - (CDStruct_912cb5d2);
 - (long long);
 
 // Remaining properties
-@property(readonly) long long orientation; // @synthesize orientation=_orientation;
 @property(readonly) CDStruct_912cb5d2 size; // @synthesize size=_size;
 
 @end

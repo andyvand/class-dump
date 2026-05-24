@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSDateValue, ICSDuration;
+@class ICSDateValue;
 
 @interface ICSPeriod
 {
     ICSDateValue *_start;
-    ICSDateValue *_end;
-    ICSDuration *_duration;
 }
 
 + (_Bool);
@@ -18,13 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ctors() + dup == old + added;
 - (void);
-- (void);
+- (void)7;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 @end
 

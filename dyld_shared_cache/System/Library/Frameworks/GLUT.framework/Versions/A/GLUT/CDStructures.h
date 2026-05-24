@@ -25,17 +25,6 @@ struct CGSize {
     double _field2;
 };
 
-struct _GLUTList {
-    struct _GLUTNode head;
-    struct _GLUTNode tail;
-};
-
-struct _GLUTNode {
-    struct _GLUTNode *succ;
-    struct _GLUTNode *pred;
-    void *obj;
-};
-
 struct _GLUTWorkEvent {
     struct _GLUTWorkEvent *_field1;
     unsigned int _field2;

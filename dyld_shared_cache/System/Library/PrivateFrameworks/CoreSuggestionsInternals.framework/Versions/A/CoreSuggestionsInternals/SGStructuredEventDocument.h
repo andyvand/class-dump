@@ -6,31 +6,28 @@
 
 #import <CoreSuggestionsInternals/SGExtractionDocument.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SGStructuredEventDocument : SGExtractionDocument
 {
     _Bool _fromSuggestTool;
-    unsigned char _category;
-    NSString *_plainText;
-    NSArray *_dataDetectorMatches;
 }
 
 + (id);
++ (id)qh;
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)uiDataclasses;
++ (_Bool)tableView:(id)arg1 viewForTableColumn:(id)arg2 row: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 shouldShowCellExpansionForTableColumn:(id)arg2 row:(id)arg3;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)B32@0:(id)arg1 8@16Q24;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -48,8 +45,6 @@
 - (void)@"NSArray",C,N,V_bcc;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSArray *dataDetectorMatches; // @synthesize dataDetectorMatches=_dataDetectorMatches;
 @property(readonly, nonatomic) NSString *plainText; // @synthesize plainText=_plainText;
 
 @end

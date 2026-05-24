@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AppKitExtensions)
-- (id);
+- (id)};
 @end
 

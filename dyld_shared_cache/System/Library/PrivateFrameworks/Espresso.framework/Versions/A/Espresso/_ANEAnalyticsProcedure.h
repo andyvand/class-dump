@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface _ANEAnalyticsProcedure
 {
     NSArray *_groupInfo;
-    NSDictionary *_procedureMetrics;
-    NSString *_identifier;
 }
 
 + (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *groupInfo; // @synthesize groupInfo=_groupInfo;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDictionary *procedureMetrics; // @synthesize procedureMetrics=_procedureMetrics;
 
 @end
 

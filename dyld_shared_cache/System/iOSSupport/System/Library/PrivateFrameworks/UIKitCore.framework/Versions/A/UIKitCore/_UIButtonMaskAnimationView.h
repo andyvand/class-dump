@@ -6,20 +6,17 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor;
 @protocol _UIButtonMaskAnimationViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonMaskAnimationView : UIView
 {
     unsigned long long _hardEdge;
-    UIView *_hardEdgeLine;
-    id <_UIButtonMaskAnimationViewDelegate> _delegate;
 }
 
-- (void);
-- (unsigned long long);
-- (struct CGRect);
+- (void)pendingIncomingSatelliteMessageCount;
+- (unsigned long long)IMBalloonPluginPipelineParameter;
+- (struct CGRect)andle:%@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -28,24 +25,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)!EùÑeð1Â0@ù
 × ;
-- (id)onBarTitleFontProviderTV;
+- (id)_UINavigationBarTitleFontProviderTV;
 - (double);
 - (void)q;
 - (void)l-ÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) UIColor *borderColor;
-@property double borderWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) id <_UIButtonMaskAnimationViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property unsigned long long hardEdge;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

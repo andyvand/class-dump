@@ -7,25 +7,20 @@
 @interface NSFocusStack
 {
     struct __CFArray *_stack;
-    long long _topIndex;
-    struct {
-        unsigned int _noAltHandler:1;
-        unsigned int _reserved:31;
-    } _fsFlags;
 }
 
-+ (id);
++ (id)ortConnection(%p);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)ject<OS_nw_endpoint>";
+- (void)addOperationWithBlock:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)2=4;
+- (void))A;
 - (id);
 - (id);
 

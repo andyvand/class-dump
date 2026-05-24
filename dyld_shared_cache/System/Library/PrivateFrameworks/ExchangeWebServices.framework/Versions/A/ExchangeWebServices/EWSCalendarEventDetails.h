@@ -9,18 +9,11 @@
 @interface EWSCalendarEventDetails
 {
     _Bool _IsMeeting;
-    _Bool _IsRecurring;
-    _Bool _IsException;
-    _Bool _IsReminderSet;
-    _Bool _IsPrivate;
-    NSString *_ID;
-    NSString *_Subject;
-    NSString *_Location;
 }
 
 + (id);
 - (void);
-- (void);
+- (void));
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,27 +25,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_attachQueue;
 - (void);
-- (void)essage;
+- (void)ErrorNotSupportedSharingMessage;
 - (void)dÿüÿvßzZ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *ID; // @synthesize ID=_ID;
-@property(nonatomic) _Bool IsException; // @synthesize IsException=_IsException;
-@property(nonatomic) _Bool IsMeeting; // @synthesize IsMeeting=_IsMeeting;
-@property(nonatomic) _Bool IsPrivate; // @synthesize IsPrivate=_IsPrivate;
-@property(nonatomic) _Bool IsRecurring; // @synthesize IsRecurring=_IsRecurring;
-@property(nonatomic) _Bool IsReminderSet; // @synthesize IsReminderSet=_IsReminderSet;
-@property(copy, nonatomic) NSString *Location; // @synthesize Location=_Location;
-@property(copy, nonatomic) NSString *Subject; // @synthesize Subject=_Subject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

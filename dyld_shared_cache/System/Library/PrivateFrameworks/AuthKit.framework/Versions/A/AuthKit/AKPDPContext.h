@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface AKPDPContext
 {
     NSString *_altDSID;
-    NSUUID *_identifier;
-    NSString *_rawPassword;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (id);
 - (void)$@;
 - (id)¨TIÓDÅØ³½8ô;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *_identifier; // @synthesize _identifier;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *rawPassword; // @synthesize rawPassword=_rawPassword;
-@property(readonly) Class superclass;
 
 @end
 

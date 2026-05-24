@@ -7,25 +7,20 @@
 @interface IMRichCardStyle
 {
     _Bool bold;
-    _Bool italics;
-    _Bool underline;
 }
 
 - (id);
 - (_Bool);
+- (_Bool)*	;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)passbook.payment.blesseduser.ownership.foreignuser;
 - (long long);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool bold; // @synthesize bold;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool italics; // @synthesize italics;
-@property(nonatomic, readonly) _Bool underline; // @synthesize underline;
 
 @end
 

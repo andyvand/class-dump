@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHCDMRequestEnded : SISchemaInstrumentationMessage
 {
     int _status;
-    _Bool _delegatedUserDialogAct;
-    struct {
-        unsigned int status:1;
-        unsigned int delegatedUserDialogAct:1;
-    } _has;
 }
 
 - (void);
@@ -28,22 +21,18 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)Y;
+- (_Bool);
 - (id);
-- (int);
+- (int)HCA9	A;
 - (id)Þð1Â0@ù
 × ;
-- (id)ontactFreqForPhoneCallUsingSiri;
-- (id)und;
-- (_Bool)es;
-- (void)untBucket;
+- (id)_appContactFreqForPhoneCallUsingSiri;
+- (id)isAppForeground;
+- (_Bool)clearCategories;
+- (void)participantCountBucket;
 
 // Remaining properties
-@property(nonatomic) _Bool delegatedUserDialogAct; // @synthesize delegatedUserDialogAct=_delegatedUserDialogAct;
-@property(nonatomic) _Bool hasDelegatedUserDialogAct;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int status; // @synthesize status=_status;
 
 @end

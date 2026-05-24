@@ -7,18 +7,16 @@
 @interface NSFileProviderKernelFileMaterializationInfo
 {
     long long size;
-    long long offset;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
 - (long long)ð7NkÜpOk;
 
 // Remaining properties
-@property(readonly) long long offset; // @synthesize offset;
 @property(readonly) long long size; // @synthesize size;
 
 @end

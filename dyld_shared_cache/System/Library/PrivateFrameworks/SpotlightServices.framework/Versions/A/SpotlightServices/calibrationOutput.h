@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface calibrationOutput
@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     MLMultiArray *_output;
 }
 
-- (id);
+- (id)setTranslatesAutoresizingMaskIntoConstraints:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -20,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (id)parsec_corrected_query_n2_prefixlast;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *output; // @synthesize output=_output;
 
 @end

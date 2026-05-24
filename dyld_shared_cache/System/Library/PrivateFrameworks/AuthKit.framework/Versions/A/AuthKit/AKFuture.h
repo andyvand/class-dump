@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSDate, NSMutableArray;
-
 @interface AKFuture
 {
     _Bool _resolved;
-    double _maxWait;
-    NSDate *_beginDate;
-    NSCondition *_valueCondition;
-    NSMutableArray *_internalWrapper;
 }
 
 - (void);
@@ -22,21 +16,17 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)Af;
 - (id);
-- (id);
+- (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)p' modifier applied to ip6 %s;
 - (void)X`;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(retain, nonatomic) NSMutableArray *internalWrapper; // @synthesize internalWrapper=_internalWrapper;
-@property(nonatomic) double maxWait; // @synthesize maxWait=_maxWait;
 @property(nonatomic) _Bool resolved; // @synthesize resolved=_resolved;
-@property(retain, nonatomic) NSCondition *valueCondition; // @synthesize valueCondition=_valueCondition;
 
 @end
 

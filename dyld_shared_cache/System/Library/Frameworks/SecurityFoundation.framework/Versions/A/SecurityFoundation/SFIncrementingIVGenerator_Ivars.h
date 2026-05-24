@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SFIncrementingIVGenerator_Ivars
 {
     NSMutableData *messageID;
-    unsigned long long numBytesRolled;
 }
 
 - (void);

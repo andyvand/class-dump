@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
-
 @interface SFPhotosRankingInfo
 {
     struct {
@@ -17,17 +15,6 @@
         unsigned int assetsRetrieved:1;
         unsigned int collectionsRetrieved:1;
     } _has;
-    int _totalNumberOfAssetsIndexed;
-    int _totalNumberOfAssetsInLibrary;
-    int _totalNumberOfEmbeddingMatchedAssets;
-    int _totalNumberOfMetadataMatchedAssets;
-    int _assetEstimationOffAmount;
-    int _assetsRetrieved;
-    int _collectionsRetrieved;
-    NSNumber *_indexedAssetsPercentage;
-    NSNumber *_analyzedAssetsPercentage;
-    NSNumber *_analyzedAndIndexedAssetsPercentage;
-    NSNumber *_embeddedAssetsPercentage;
 }
 
 + (_Bool);
@@ -60,37 +47,18 @@
 - (id);
 - (id);
 - (int);
-- (id);
+- (id)setSupportedQueueEndActions:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)TLAlertPlaybackBackEndController;
 - (id);
+- (id)PHPhotosErrorImageManagerResourceDecodeError;
+- (id)ble but network access not allowed;
 - (id);
-- (id);
-- (id);
-- (void)enString;
+- (void)_tokenString;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *analyzedAndIndexedAssetsPercentage; // @synthesize analyzedAndIndexedAssetsPercentage=_analyzedAndIndexedAssetsPercentage;
-@property(copy, nonatomic) NSNumber *analyzedAssetsPercentage; // @synthesize analyzedAssetsPercentage=_analyzedAssetsPercentage;
-@property(nonatomic) int assetEstimationOffAmount; // @synthesize assetEstimationOffAmount=_assetEstimationOffAmount;
-@property(nonatomic) int assetsRetrieved; // @synthesize assetsRetrieved=_assetsRetrieved;
-@property(nonatomic) int collectionsRetrieved; // @synthesize collectionsRetrieved=_collectionsRetrieved;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *embeddedAssetsPercentage; // @synthesize embeddedAssetsPercentage=_embeddedAssetsPercentage;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *indexedAssetsPercentage; // @synthesize indexedAssetsPercentage=_indexedAssetsPercentage;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) int totalNumberOfAssetsInLibrary; // @synthesize totalNumberOfAssetsInLibrary=_totalNumberOfAssetsInLibrary;
 @property(nonatomic) int totalNumberOfAssetsIndexed; // @synthesize totalNumberOfAssetsIndexed=_totalNumberOfAssetsIndexed;
-@property(nonatomic) int totalNumberOfEmbeddingMatchedAssets; // @synthesize totalNumberOfEmbeddingMatchedAssets=_totalNumberOfEmbeddingMatchedAssets;
-@property(nonatomic) int totalNumberOfMetadataMatchedAssets; // @synthesize totalNumberOfMetadataMatchedAssets=_totalNumberOfMetadataMatchedAssets;
 
 @end
 

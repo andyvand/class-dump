@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSString, SAUIAddViews;
+@class NSString;
 
 @interface SAARAlternativeResultsView : SAAceView
 {
@@ -17,10 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *dialogIdentifier;
-@property(nonatomic) long long rank;
-@property(retain, nonatomic) SAUIAddViews *resultView;
-@property(nonatomic) _Bool suggestedResult;
-@property(copy, nonatomic) NSString *utterance;
 
 @end
 

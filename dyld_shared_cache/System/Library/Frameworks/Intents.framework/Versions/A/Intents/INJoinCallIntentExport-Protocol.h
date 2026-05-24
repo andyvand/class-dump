@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCallGroupConversation, INCallGroupConversationFilter;
+@class INCallGroupConversationFilter;
 
 @protocol INJoinCallIntentExport
 
 // Remaining properties
-@property(copy) INCallGroupConversation *groupConversation;
 @property(copy) INCallGroupConversationFilter *groupConversationFilter;
 @end
 

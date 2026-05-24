@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDNetworkServiceProxyProbeStatistics
 {
     unsigned long long _alternateProbeTimeMsecs;
-    unsigned long long _genericDNSProbeTimeMsecs;
-    unsigned long long _genericProbeTimeMsecs;
-    unsigned long long _timestamp;
-    int _interfaceType;
-    NSString *_label;
-    int _protocolType;
-    struct {
-        unsigned int alternateProbeTimeMsecs:1;
-        unsigned int genericDNSProbeTimeMsecs:1;
-        unsigned int genericProbeTimeMsecs:1;
-        unsigned int timestamp:1;
-        unsigned int interfaceType:1;
-        unsigned int protocolType:1;
-    } _has;
 }
 
 - (void);
@@ -30,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (id);
 - (id);
@@ -38,15 +22,15 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)2;
+- (unsigned long long)-(7)!JJi;
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)c;
 - (int);
 - (void);
 - (int);
-- (void);
+- (void)B9H;
 - (id);
 - (void);
 - (void);
@@ -58,31 +42,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (id);
+- (id)!;
 - (id);
 - (void)
 × ;
-- (_Bool)asHeRxtrigMyaid;
-- (void)tmHasPreferredCandidateList;
+- (_Bool)hasHeRxtrigMyaid;
+- (void)_btmHasPreferredCandidateList;
 - (int);
 
 // Remaining properties
-@property(nonatomic) unsigned long long alternateProbeTimeMsecs; // @synthesize alternateProbeTimeMsecs=_alternateProbeTimeMsecs;
-@property(nonatomic) unsigned long long genericDNSProbeTimeMsecs; // @synthesize genericDNSProbeTimeMsecs=_genericDNSProbeTimeMsecs;
-@property(nonatomic) unsigned long long genericProbeTimeMsecs; // @synthesize genericProbeTimeMsecs=_genericProbeTimeMsecs;
-@property(nonatomic) _Bool hasAlternateProbeTimeMsecs;
-@property(nonatomic) _Bool hasGenericDNSProbeTimeMsecs;
-@property(nonatomic) _Bool hasGenericProbeTimeMsecs;
-@property(nonatomic) _Bool hasInterfaceType;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasProtocolType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int interfaceType; // @synthesize interfaceType=_interfaceType;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) int protocolType; // @synthesize protocolType=_protocolType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

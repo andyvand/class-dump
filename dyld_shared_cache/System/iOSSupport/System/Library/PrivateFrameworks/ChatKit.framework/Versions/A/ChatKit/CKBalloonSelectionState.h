@@ -7,19 +7,17 @@
 @interface CKBalloonSelectionState
 {
     long long _style;
-    struct _NSRange _textSelectionRange;
 }
 
 + (id);
 + (id);
 - (struct _NSRange);
-- (id);
-- (long long);
+- (id)thPrompt:(long long)arg1 displayWindow:(struct _NSRange)arg2 completionHandler:] /* Error: Ran out of types for this method. */;
+- (long long)";
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly, nonatomic) struct _NSRange textSelectionRange; // @synthesize textSelectionRange=_textSelectionRange;
 
 @end
 

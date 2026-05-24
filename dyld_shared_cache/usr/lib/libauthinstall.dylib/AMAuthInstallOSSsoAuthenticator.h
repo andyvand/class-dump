@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationController, NSString;
+@class ASAuthorizationController;
 
 __attribute__((visibility("hidden")))
 @interface AMAuthInstallOSSsoAuthenticator
 {
     _Bool _useLegacyAuthURL;
-    _Bool _stealthMode;
-    CDUnknownBlockType _completionHandler;
-    ASAuthorizationController *_authenticationController;
-    NSString *_ssoRealm;
-    NSString *_ssoEnv;
-    NSString *_ssoHost;
-    const CDStruct_5f936dbf *_service;
-    unsigned long long _flags;
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)_pruneThreshold;
+- (_Bool)Info",R,N,V_bimiInfo;
+- (id)_propertyMapper;
+- (id),N,V_messageID;
+- (void)_postChangeNotificationForConversationID:(_Bool)arg1 flags:oldFlags:reason: /* Error: Ran out of types for this method. */;
+- (void)_postChangeNotificationForConversationID:(id)arg1 flags:oldFlags:reason: /* Error: Ran out of types for this method. */;
+- (void)_postChangeNotificationForConversationID:(id)arg1 flags:oldFlags:reason: /* Error: Ran out of types for this method. */;
+- (void)acketIDHash",R;
+- (id)_performMessageTransferActionToSpecialMailbox:(id)arg1 returnUndoAction: /* Error: Ran out of types for this method. */;
+- (_Bool)vider;
+- (id)R,N,V_userProfileProvider;
+- (void)T@"<EMUserProfileProvider>",R,N,V_userProfileProvider;
 - (id);
 - (void);
 - (id);
@@ -39,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (const CDStruct_5f936dbf *);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)st:%{private}@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
@@ -48,21 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) ASAuthorizationController *authenticationController; // @synthesize authenticationController=_authenticationController;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) const CDStruct_5f936dbf *service; // @synthesize service=_service;
-@property(retain, nonatomic) NSString *ssoEnv; // @synthesize ssoEnv=_ssoEnv;
-@property(retain, nonatomic) NSString *ssoHost; // @synthesize ssoHost=_ssoHost;
-@property(retain, nonatomic) NSString *ssoRealm; // @synthesize ssoRealm=_ssoRealm;
-@property(nonatomic) _Bool stealthMode; // @synthesize stealthMode=_stealthMode;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useLegacyAuthURL; // @synthesize useLegacyAuthURL=_useLegacyAuthURL;
 
 @end
 

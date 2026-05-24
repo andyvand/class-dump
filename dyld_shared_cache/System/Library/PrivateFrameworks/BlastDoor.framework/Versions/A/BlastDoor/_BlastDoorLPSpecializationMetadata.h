@@ -9,9 +9,9 @@
     _Bool __dummyPropertyForObservation;
 }
 
-+ (id);
++ (id)@9;
 + (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);

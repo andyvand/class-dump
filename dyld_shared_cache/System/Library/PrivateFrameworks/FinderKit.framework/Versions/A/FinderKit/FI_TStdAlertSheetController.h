@@ -5,15 +5,12 @@
 //
 
 @class NSObject;
-@protocol NSAlertDelegate, TStdAlertSheetClientProtocol;
+@protocol TStdAlertSheetClientProtocol;
 
 __attribute__((visibility("hidden")))
 @interface FI_TStdAlertSheetController
 {
     NSObject<TStdAlertSheetClientProtocol> *_client;
-    function_e88ba8d7 _notifySuppression;
-    FI_TStdAlertSheetController *_selfReference;
-    NSObject<NSAlertDelegate> *_strongAlertDelegate;
 }
 
 + (void);
@@ -22,12 +19,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)IC;
 - (void)0ä;
 
 // Remaining properties
 @property(retain, nonatomic) FI_TStdAlertSheetController *selfReference; // @synthesize selfReference=_selfReference;
-@property(retain, nonatomic) NSObject<NSAlertDelegate> *strongAlertDelegate; // @synthesize strongAlertDelegate=_strongAlertDelegate;
 
 @end
 

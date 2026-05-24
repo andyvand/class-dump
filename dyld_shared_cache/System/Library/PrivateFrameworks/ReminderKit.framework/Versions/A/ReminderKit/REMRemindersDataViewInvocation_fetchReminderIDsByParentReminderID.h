@@ -11,13 +11,10 @@
 @interface REMRemindersDataViewInvocation_fetchReminderIDsByParentReminderID : REMStoreInvocation
 {
     _Bool _includeIncomplete;
-    _Bool _includeCompleted;
-    _Bool _isUnsupported;
-    REMObjectID *_parentReminderID;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -26,14 +23,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)leValue == RTVisitConfidenceLow || confidence.doubleValue == RTVisitConfidenceHigh));
 - (void)áê°!dFùÑr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool includeCompleted; // @synthesize includeCompleted=_includeCompleted;
-@property(readonly, nonatomic) _Bool includeIncomplete; // @synthesize includeIncomplete=_includeIncomplete;
-@property(readonly, nonatomic) _Bool isUnsupported; // @synthesize isUnsupported=_isUnsupported;
 @property(readonly, nonatomic) REMObjectID *parentReminderID; // @synthesize parentReminderID=_parentReminderID;
 
 @end

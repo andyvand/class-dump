@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDefaultDictionary, NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface CUIKObjectGroup
 {
     NSDictionary *_originalObjectMap;
-    NSMutableDictionary *_objectMap;
-    CalDefaultDictionary *_spawnedObjectIdentifiers;
 }
 
 + (id);
@@ -30,12 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (void)nceRules: /* Error: Ran out of types for this method. */;
+- (void)setRecurrenceRules: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *objectMap; // @synthesize objectMap=_objectMap;
 @property(retain) NSDictionary *originalObjectMap; // @synthesize originalObjectMap=_originalObjectMap;
-@property(retain) CalDefaultDictionary *spawnedObjectIdentifiers; // @synthesize spawnedObjectIdentifiers=_spawnedObjectIdentifiers;
 
 @end
 

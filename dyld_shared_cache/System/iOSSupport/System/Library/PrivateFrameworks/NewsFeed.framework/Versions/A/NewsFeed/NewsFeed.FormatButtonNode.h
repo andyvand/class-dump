@@ -7,25 +7,6 @@
 @interface NewsFeed.FormatButtonNode
 {
     id _identifier;
-    id _size;
-    id resize;
-    id _adjustments;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id _children;
-    id _stateMasks;
-    id action;
-    id actionName;
-    id longPressAction;
-    id longPressActionName;
-    id accessibilityRole;
-    id animation;
-    id _selectors;
-    id name;
-    id _behaviors;
-    id _sourceItems;
-    id flex;
 }
 
 @end

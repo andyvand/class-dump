@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, RemindersUICore.TTRMSuggestionTableView;
+@class RemindersUICore.TTRMSuggestionTableView;
 
 @interface RemindersUICore.TTRMSuggestionTableViewController
 {
     id items;
-    id delegate;
-    id maxWidth;
-    id minWidth;
-    id maxHeight;
-    id minHeight;
-    id maxContentSize;
-    void tableView;
-    void tableViewLeadingConstraint;
-    id cellInfoByIdentifier;
 }
 
 - (id);
@@ -29,8 +20,8 @@
 - (_Bool);
 - (double);
 - (long long);
-- (void);
-- (void);
+- (void)draftIssueListID;
+- (void)articleSearchCompletion;
 - (id);
 - (id);
 - (void);
@@ -39,11 +30,10 @@
 - (void);
 - (void);
 - (void)ent alarm in reminders details row when urgent alarm is toggle off.;
-- (id)dar157507897;
+- (id)TTRMTableViewStyleData_rdar157507897;
 
 // Remaining properties
 @property(nonatomic) __weak RemindersUICore.TTRMSuggestionTableView *tableView; // @synthesize tableView;
-@property(nonatomic) __weak NSLayoutConstraint *tableViewLeadingConstraint; // @synthesize tableViewLeadingConstraint;
 
 @end
 

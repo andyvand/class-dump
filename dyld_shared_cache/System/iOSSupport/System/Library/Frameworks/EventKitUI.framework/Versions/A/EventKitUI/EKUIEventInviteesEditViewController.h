@@ -6,26 +6,24 @@
 
 #import <EventKitUI/EKEditItemViewController.h>
 
-@class EKEvent, EKUIEventInviteesViewController, NSDate;
+@class EKEvent, NSDate;
 
 __attribute__((visibility("hidden")))
 @interface EKUIEventInviteesEditViewController : EKEditItemViewController
 {
     EKEvent *_event;
-    EKUIEventInviteesViewController *_controller;
 }
 
 - (id);
-- (void);
+- (void)s;
 - (id);
+- (void){;
+- (id)%m;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void)IndexPath: /* Error: Ran out of types for this method. */;
+- (void)tableView:accessoryTypeForRowWithIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *selectedEndDate;
 @property(readonly, nonatomic) NSDate *selectedStartDate;
 
 @end

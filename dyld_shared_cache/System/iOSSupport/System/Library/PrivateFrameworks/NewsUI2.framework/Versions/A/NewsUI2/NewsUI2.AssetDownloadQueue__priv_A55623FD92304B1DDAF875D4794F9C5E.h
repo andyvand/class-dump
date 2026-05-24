@@ -7,12 +7,6 @@
 @interface NewsUI2.AssetDownloadQueue__priv_A55623FD92304B1DDAF875D4794F9C5E
 {
     id remainingAssetHandles;
-    id dispatchQueue;
-    id enqueued;
-    id assetHandles;
-    id _isSuspended;
-    id onDownloadCompletion;
-    id onQueueEmpty;
 }
 
 @end

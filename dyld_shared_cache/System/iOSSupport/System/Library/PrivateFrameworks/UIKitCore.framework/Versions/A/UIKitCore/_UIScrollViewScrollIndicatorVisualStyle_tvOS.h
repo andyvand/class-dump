@@ -10,7 +10,7 @@
 {
 }
 
-- (double)splay:withElementKind:indexPath:elementCategory: /* Error: Ran out of types for this method. */;
+- (double)_configureSupplementaryViewForDisplay:withElementKind:indexPath:elementCategory: /* Error: Ran out of types for this method. */;
 
 @end
 

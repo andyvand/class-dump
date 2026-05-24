@@ -6,52 +6,31 @@
 
 #import <Photos/PHObject.h>
 
-@class NSData, NSDate, NSString, NSURL;
-
 @interface PHLibraryScope : PHObject
 {
     _Bool _libraryScopeInLocalMode;
-    unsigned short _status;
-    short _publicPermission;
-    unsigned short _trashedState;
-    short _publishState;
-    short _participantCloudUpdateState;
-    short _autoSharePolicy;
-    short _previewState;
-    short _scopeSyncingState;
-    unsigned long long _cloudPhotoCount;
-    unsigned long long _cloudVideoCount;
-    unsigned long long _cloudItemCount;
-    NSURL *_shareURL;
-    NSDate *_creationDate;
-    NSDate *_expiryDate;
-    NSData *_ckShareData;
-    NSData *_rulesData;
-    long long _exitState;
-    NSString *_title;
-    NSString *_scopeIdentifier;
 }
 
 + (void);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)nU;
++ (id)!@;
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (void);
++ (void)?;
 + (void);
 + (id);
 + (unsigned long long);
 + (id);
++ (id)getDataStatus:error: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)PrepareCurrentBaseVersionInAddition;
++ (id)_forcePrepareCurrentBaseVersionInAddition;
 + (id);
 - (void);
 - (void);
@@ -76,12 +55,13 @@
 - (short);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)String",R,N,V_jingleCorrelationKey;
 - (id);
 - (id);
 - (unsigned short);
 - (long long);
-- (short);
+- (short)------ [1]didRemoveDevice:%@
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (short)ð!4AùÑÐ1Â0@ù
 × ;
@@ -89,36 +69,7 @@
 - (void)Asset;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long assetCount; // @dynamic assetCount;
-@property(readonly, nonatomic) short autoSharePolicy; // @synthesize autoSharePolicy=_autoSharePolicy;
-@property(readonly, nonatomic) NSData *ckShareData; // @synthesize ckShareData=_ckShareData;
-@property(readonly, nonatomic) unsigned long long cloudItemCount; // @synthesize cloudItemCount=_cloudItemCount;
-@property(readonly, nonatomic) unsigned long long cloudPhotoCount; // @synthesize cloudPhotoCount=_cloudPhotoCount;
-@property(readonly, nonatomic) unsigned long long cloudVideoCount; // @synthesize cloudVideoCount=_cloudVideoCount;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long exitState; // @synthesize exitState=_exitState;
-@property(readonly, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool libraryScopeInLocalMode; // @synthesize libraryScopeInLocalMode=_libraryScopeInLocalMode;
-@property(readonly, nonatomic) short participantCloudUpdateState; // @synthesize participantCloudUpdateState=_participantCloudUpdateState;
-@property(readonly, nonatomic) unsigned long long photosCount; // @dynamic photosCount;
-@property(readonly, nonatomic) short previewState; // @synthesize previewState=_previewState;
-@property(readonly, nonatomic) short publicPermission; // @synthesize publicPermission=_publicPermission;
-@property(readonly, nonatomic) short publishState; // @synthesize publishState=_publishState;
-@property(readonly, nonatomic) NSData *rulesData; // @synthesize rulesData=_rulesData;
-@property(readonly, nonatomic) NSString *scopeIdentifier; // @synthesize scopeIdentifier=_scopeIdentifier;
 @property(readonly, nonatomic) short scopeSyncingState; // @synthesize scopeSyncingState=_scopeSyncingState;
-@property(readonly, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(readonly, nonatomic) unsigned short status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) unsigned short trashedState; // @synthesize trashedState=_trashedState;
-@property(readonly, nonatomic) unsigned long long videosCount; // @dynamic videosCount;
 
 @end
 

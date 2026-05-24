@@ -9,15 +9,15 @@
     struct Transform _transform;
 }
 
-+ (id);
++ (id)or: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)dealloc;
+- (id)ation;
 - (void);
 - (void)8i6þ4°3³1×/,&¦¬×¯³±°³þ´i¶<¸=8j6þ4«3¬1Ä/,î%î¥¬Ä¯¬±«³þ´j¶=¸>8j6ý4©3©1¼/x,Å%Å¥x¬¼¯©±©³ý´j¶>¸;
 

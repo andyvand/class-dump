@@ -11,10 +11,10 @@
     BRLTServiceTranslator *_translator;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)ckd=%d NoOrIncmplCrypt=%d PassReq=%d EnDe=%d ENcrypting=%d DEcrypting=%d ACT=%d DoMnt=%d DoBoot=%d REposs=%d REverting=%d CONverting=%d;
+- (id)DissenterPID;
+- (id)op;
+- (id)CS, so no error, and result, and stop;
 - (void);
 - (id);
 - (void);

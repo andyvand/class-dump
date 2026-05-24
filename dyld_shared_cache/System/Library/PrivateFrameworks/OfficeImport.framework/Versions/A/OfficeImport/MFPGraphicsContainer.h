@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MFPGraphicsContainer
 {
     MFPGraphicsState *mParentGraphicsState;
-    struct CGAffineTransform mContainerTransform;
 }
 
 - (id);

@@ -4,65 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSColorWell, NSImage;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSColorWellAquaduckVisualProvider
 {
     id hostingView;
-    NSColor *color;
-    _Bool isMouseInside;
-    long long style;
-    NSImage *image;
-    void showColorPanelTarget;
-    SEL showColorPanelAction;
-    void controlView;
-    unsigned long long controlSize;
-    _Bool supportsAlpha;
-    double maxGain;
-    _Bool isEnabled;
-    _Bool isActive;
-    _Bool isBordered;
-    _Bool isOnEndcapButton;
-    _Bool showsMixedState;
-    _Bool hasPullDownBehavior;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
-- (SEL);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (struct CGSize);
+- (_Bool)setTaskKind: /* Error: Ran out of types for this method. */;
+- (id)getDefaultCredentialForProtectionSpace:task:completionHandler: /* Error: Ran out of types for this method. */;
+- (SEL)getDefaultCredentialForProtectionSpace:task:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_protocolClassForRequest:(_Bool)arg1 skipAppSSO: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_didFinishWithError:(_Bool)arg1;
+- (void)_olderThanLastAccess;
+- (void)_olderThanExpirationDate;
+- (void)URLSession:(_Bool)arg1 assetDownloadTask:didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad: /* Error: Ran out of types for this method. */;
+- (void)ary}^{__CFDictionary}i^{__CFData}^{HTTPResponse}{os_unfair_lock_s=I}},V__cf_resp_data;
+- (void)submitActivity:(_Bool)arg1 inGroupWithName: /* Error: Ran out of types for this method. */;
+- (void)elegate>",&;
+- (void)`W;
+- (struct CGRect)il url;
+- (struct CGSize)s %sallowed to set HSTS for main doc %{sensitive}@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void);
-- (double);
-- (void);
+- (void):(id)arg1 xV;
+- (double)6w%;
+- (void):(struct CGRect)arg1 qR;
 - (_Bool);
-- (void);
+- (void)2Re;
 - (long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)adviseSocialInteractionsForDate:(id)arg1 andSeedContacts:usingSettings:reply: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct CGSize);
 - (id);
-- (_Bool);
+- (_Bool));
 - (void);
 - (_Bool);
 - (void);
@@ -76,27 +60,7 @@ __attribute__((visibility("hidden")))
 - (void)Ôãÿ1i|AH;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=isActive;
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) double baselineOffsetFromBottom;
-@property(nonatomic) _Bool bordered; // @synthesize bordered=isBordered;
 @property(nonatomic, retain) NSColor *color; // @synthesize color;
-@property(nonatomic) unsigned long long controlSize; // @synthesize controlSize;
-@property(nonatomic) __weak NSColorWell *controlView; // @synthesize controlView;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=isEnabled;
-@property(nonatomic) _Bool hasPullDownBehavior; // @synthesize hasPullDownBehavior;
-@property(nonatomic, retain) NSImage *image; // @synthesize image;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic) _Bool isOnEndcapButton; // @synthesize isOnEndcapButton;
-@property(nonatomic) double maxGain; // @synthesize maxGain;
-@property(nonatomic, readonly) struct CGSize minimumDrawingSize;
-@property(nonatomic) _Bool mouseInside; // @synthesize mouseInside=isMouseInside;
-@property(nonatomic, readonly) struct CGRect relativeRectForPopover;
-@property(nonatomic) SEL showColorPanelAction; // @synthesize showColorPanelAction;
-@property(nonatomic) __weak id showColorPanelTarget; // @synthesize showColorPanelTarget;
-@property(nonatomic) _Bool showsMixedState; // @synthesize showsMixedState;
-@property(nonatomic) long long style; // @synthesize style;
-@property(nonatomic) _Bool supportsAlpha; // @synthesize supportsAlpha;
 
 @end
 

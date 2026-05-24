@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (CDUnknownBlockType)tart:end:contentsEnd:forRange: /* Error: Ran out of types for this method. */;
-- (id)ingRule;
+- (CDUnknownBlockType)getParagraphStart:end:contentsEnd:forRange: /* Error: Ran out of types for this method. */;
+- (id)defaultWindingRule;
 
 // Remaining properties
 @property(readonly, copy) CDUnknownBlockType handler; // @synthesize handler=_handler;

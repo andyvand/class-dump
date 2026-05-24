@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 @interface EMHMERecipientCreationRequest
 {
     ACAccount *_account;
-    NSString *_recipient;
-    NSString *_hmeAddress;
 }
 
 + (_Bool);
@@ -18,10 +16,10 @@
 + (Class);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void)
 × ;
-- (id)bpredicate: /* Error: Ran out of types for this method. */;
+- (id)notPredicateWithSubpredicate: /* Error: Ran out of types for this method. */;
 
 @end
 

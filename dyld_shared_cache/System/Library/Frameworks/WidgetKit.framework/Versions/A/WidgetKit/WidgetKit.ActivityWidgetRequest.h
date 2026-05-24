@@ -7,13 +7,12 @@
 @interface WidgetKit.ActivityWidgetRequest
 {
     id fileHandle;
-    id _innerRequest;
 }
 
-+ (_Bool);
++ (_Bool)5;
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)Uncertainty:(id)arg1 originDevice:slope:maxAbsSlope: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -6,16 +6,12 @@
 
 #import <PhotosUICore/PXPhotoKitAssetCollectionActionPerformer.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface PXMovePersonActionPerformer : PXPhotoKitAssetCollectionActionPerformer
 {
     void sourcePeople;
-    long long sourceType;
-    long long destinationManualOrder;
-    long long destinationType;
-    void targetLocalIdentifier;
 }
 
 + (id);
@@ -36,11 +32,7 @@ __attribute__((visibility("hidden")))
 - (long long)@;
 
 // Remaining properties
-@property(nonatomic) long long destinationManualOrder; // @synthesize destinationManualOrder;
-@property(nonatomic) long long destinationType; // @synthesize destinationType;
 @property(nonatomic, copy) NSArray *sourcePeople;
-@property(nonatomic) long long sourceType; // @synthesize sourceType;
-@property(nonatomic, copy) NSString *targetLocalIdentifier;
 
 @end
 

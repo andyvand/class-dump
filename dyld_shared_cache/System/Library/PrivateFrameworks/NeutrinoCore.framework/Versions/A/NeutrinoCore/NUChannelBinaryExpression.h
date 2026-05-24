@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannelExpression *leftExpression;
-@property(readonly, nonatomic) NUChannelExpression *rightExpression;
 
 @end
 

@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RSSSchemaRSSSiriVocabSyncCompanionSyncPluginSyncRequested : SISchemaInstrumentationMessage
 {
     int _syncData;
-    struct {
-        unsigned int syncData:1;
-    } _has;
 }
 
 - (int);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)orted on macOS;
 - (_Bool);
-- (_Bool);
+- (_Bool)tRecordRef);
 - (id);
 - (id);
-- (id)ation;
+- (id)assetLocation;
 - (id)elPromptGenerationTimeInMs;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSyncData;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int syncData; // @synthesize syncData=_syncData;
 
 @end

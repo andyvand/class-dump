@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, TRIDownloadOptions, TRIPersistedTaskAttribution;
+
 @protocol TRITaskAttributing
+- (TRIPersistedTaskAttribution *)8;
+- (TRIDownloadOptions *)d:aspectChanged:cameraWillSwitch:camera:orentation:aspect: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (NSString *);
 @end
 

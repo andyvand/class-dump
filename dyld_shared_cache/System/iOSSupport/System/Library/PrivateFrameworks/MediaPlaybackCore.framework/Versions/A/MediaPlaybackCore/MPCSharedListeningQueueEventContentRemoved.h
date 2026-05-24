@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)=;
 - (void)omingItems:completion:| evaluating autoPlayIsTriggered [no other datasources triggered load] triggered=YES /* Error: Ran out of types for this method. */;
 - (id)ternalController.player.externalPlaybackActive;
 

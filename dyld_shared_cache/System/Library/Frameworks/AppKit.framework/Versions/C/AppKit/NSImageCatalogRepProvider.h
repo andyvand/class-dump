@@ -4,49 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUICatalog, NSArray, NSString;
+@class CUICatalog;
 
 __attribute__((visibility("hidden")))
 @interface NSImageCatalogRepProvider
 {
     CUICatalog *_catalog;
-    NSString *_imageName;
-    NSArray *_allRepresentationsCache;
 }
 
 - (_Bool);
 - (id);
 - (void);
+- (id)A;
 - (id);
-- (id);
-- (id):(struct _NSZone *)arg1;
+- (id)_noteDeleteSections:(struct _NSZone *)arg1;
 - (void)pGA;
 
 // Remaining properties
-@property(readonly) _Bool _isIconAppearanceSensitive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool _isSymbolImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(readonly) CUICatalog *catalog;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) struct CGSize defaultSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSString *symbolName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
 
 @end
 

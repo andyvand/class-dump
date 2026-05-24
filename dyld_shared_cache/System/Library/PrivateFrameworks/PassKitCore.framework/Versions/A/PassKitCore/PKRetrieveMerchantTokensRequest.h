@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSNumber, NSString, PKSecureElementPass;
+@class PKSecureElementPass;
 
 @interface PKRetrieveMerchantTokensRequest : PKPaymentWebServiceRequest
 {
     PKSecureElementPass *_pass;
-    NSString *_merchantTokenId;
-    NSNumber *_pageNumber;
-    NSNumber *_pageSize;
 }
 
 - (void);
@@ -28,9 +25,6 @@
 - (void)@?0@"NSDictionary"8;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *merchantTokenId; // @synthesize merchantTokenId=_merchantTokenId;
-@property(copy, nonatomic) NSNumber *pageNumber; // @synthesize pageNumber=_pageNumber;
-@property(copy, nonatomic) NSNumber *pageSize; // @synthesize pageSize=_pageSize;
 @property(retain, nonatomic) PKSecureElementPass *pass; // @synthesize pass=_pass;
 
 @end

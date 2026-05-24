@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NewsFeed.FormatAccessibilityShadowElement
 {
@@ -13,36 +13,28 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)};
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)4z;
 - (void);
 - (struct CGRect);
-- (id);
-- (void);
+- (id)(=;
+- (void)InputBundle.m;
 - (id);
 - (unsigned long long);
 - (void)ÀóÀô¨õö÷¤øùlü\ý<ÿD;
-- (void)ScaleY;
+- (void)transformScaleY;
 - (id)áå,,­àÿáå,lFjþáå,Liþ;
 - (void);
 - (id);ûþ;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *accessibilityCustomActions;
-@property(nonatomic) struct CGRect accessibilityFrame;
 @property(nonatomic, copy) NSString *accessibilityIdentifier;
-@property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic, copy) NSString *accessibilityLanguage;
-@property(nonatomic) unsigned long long accessibilityTraits;
-@property(nonatomic, copy) NSString *accessibilityValue;
-@property(nonatomic) _Bool isAccessibilityElement;
-@property(nonatomic, copy) NSString *ts_accessibilityElementHelp;
 
 @end
 

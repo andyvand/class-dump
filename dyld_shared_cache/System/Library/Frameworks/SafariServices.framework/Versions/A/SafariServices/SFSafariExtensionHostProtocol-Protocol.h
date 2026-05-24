@@ -5,5 +5,11 @@
 //
 
 @protocol SFSafariExtensionHostProtocol
+- (void);
+- (void);;
+- (void)f;
+- (void);
+- (void);
+- (void);
 @end
 

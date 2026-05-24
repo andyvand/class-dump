@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, PHFetchResult, PHPhotoLibrary;
+@class PHFetchResult;
 
 @interface PXPhotoKitPersonActionManager
 {
     PHFetchResult *_people;
-    PHPhotoLibrary *_photoLibrary;
-    NSDictionary *_performerClassByType;
-    NSDictionary *_personActionTypeByGenericType;
-    NSArray *_primaryActionTypes;
-    NSArray *_secondaryActionTypes;
-    NSArray *_internalActionTypes;
 }
 
 - (id);
@@ -34,19 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (id)ellationHandler:(id)arg1;
+- (id)setCancellationHandler:(id)arg1;
 - (id)ror unliking asset %{public}s:(id)arg1 %@;
 - (void);
 - (id)°;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *internalActionTypes; // @synthesize internalActionTypes=_internalActionTypes;
 @property(readonly, nonatomic) PHFetchResult *people; // @synthesize people=_people;
-@property(readonly, nonatomic) NSDictionary *performerClassByType; // @synthesize performerClassByType=_performerClassByType;
-@property(readonly, nonatomic) NSDictionary *personActionTypeByGenericType; // @synthesize personActionTypeByGenericType=_personActionTypeByGenericType;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) NSArray *primaryActionTypes; // @synthesize primaryActionTypes=_primaryActionTypes;
-@property(readonly, nonatomic) NSArray *secondaryActionTypes; // @synthesize secondaryActionTypes=_secondaryActionTypes;
 
 @end
 

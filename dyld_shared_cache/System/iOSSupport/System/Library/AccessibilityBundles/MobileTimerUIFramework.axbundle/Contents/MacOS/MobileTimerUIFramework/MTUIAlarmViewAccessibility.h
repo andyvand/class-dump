@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)_thumbnailUpdater;
 + (id);
 + (void);
 - (struct CGPoint);

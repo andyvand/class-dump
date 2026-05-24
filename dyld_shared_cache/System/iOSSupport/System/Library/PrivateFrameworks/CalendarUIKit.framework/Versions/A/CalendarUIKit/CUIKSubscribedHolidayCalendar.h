@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString, NSURL;
+@class NSString;
 
 @interface CUIKSubscribedHolidayCalendar
 {
     NSString *_cachedLocalizedDescription;
-    NSString *_cachedDescriptionInLocaleLanguage;
-    NSString *_countryCode;
-    struct os_unfair_lock_s _localizedDescriptionCacheLock;
-    NSLocale *_locale;
-    NSString *_languageCode;
-    NSURL *_URL;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)utPixelBufferAdaptor";
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)renceRule;
+- (void)";
+- (void)singleRecurrenceRule;
 - (id)yAAyAAyAAyjXÂGA23_GA27_GA29_GtGGtGGA9_GA12_G_Qo_hËySbGG_AAyAAyAAyAAyAAyA21_yAAy¾iA35_GGA23_GA25_yAVGGA29_Gð·GA23_GSgtGGA9_GA12_GGA3_GtGAGG_iSgAAyAFyAJiAGGANyåSgGGSgAAyAFyAHyAEyAJ_A1_½èyAAyAAyAkNyA26_SgGGANyêäSgGG_Qo_SgtGG@iAGGA75_GSgAAyAFyAJq`yaGAGGA75_GAAyAFyAjEyi_iSgA93_y	eGSg	iSgtGAByAJSgGGA75_GAAyAFyAjEyAAyíhA3_GSg_A113_ähSgtGAGGA75_GSgAFyAJÜÍyA111_|yAJ_øÖQo_GAGGSgtGGA23_GjÚG_Qo__÷[Qo_GANykd_pGG;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 
 @end
 

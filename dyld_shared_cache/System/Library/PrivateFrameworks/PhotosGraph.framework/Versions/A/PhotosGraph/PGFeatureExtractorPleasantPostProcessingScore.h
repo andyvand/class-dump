@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)ountyNode;
+- (long long)@;
+- (id)restoreDefaultShortcutForCommand: /* Error: Ran out of types for this method. */;
+- (id)PGGraphLocationCountyNode;
 
 @end
 

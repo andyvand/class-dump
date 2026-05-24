@@ -12,11 +12,11 @@
 }
 
 + (id);
+- (id)backcore.videodebug;
+- (_Bool)Track"8@"NSIndexPath"16^B24;
+- (_Bool)v24@?0@"MPStoreLibraryPersonalizationResponse"8@"NSError"16;
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)##;
 - (id);
 - (void);
 - (void);

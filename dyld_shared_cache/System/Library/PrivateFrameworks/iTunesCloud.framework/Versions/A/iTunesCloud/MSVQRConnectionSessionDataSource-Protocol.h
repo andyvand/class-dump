@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAccount, IDSService, NSDictionary, NSString, NSUUID;
+@class IDSService, NSString;
 
 @protocol MSVQRConnectionSessionDataSource
+- (NSString *)@9;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSAccount *account;
-@property(readonly, nonatomic) NSString *applicationProtocol;
-@property(readonly, nonatomic) NSUUID *groupSessionIdentifier;
-@property(readonly, nonatomic) NSDictionary *groupSessionOptions;
-@property(readonly, nonatomic) NSString *pluginIdentifier;
-@property(readonly, nonatomic) NSString *rpcPath;
 @property(readonly, nonatomic) IDSService *service;
-@property(readonly, nonatomic) CDUnknownBlockType trustHandler;
 @end
 

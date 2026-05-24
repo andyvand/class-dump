@@ -7,14 +7,6 @@
 @interface NewsUI2.TagFeedServiceConfigFetcher
 {
     id name;
-    id appConfigManager;
-    id configManager;
-    id paidBundleConfigManager;
-    id sportsOnboardingManager;
-    id puzzleArchiveFilterOptionsManager;
-    id featureAvailability;
-    id subscriptionController;
-    id sportsDataService;
 }
 
 @end

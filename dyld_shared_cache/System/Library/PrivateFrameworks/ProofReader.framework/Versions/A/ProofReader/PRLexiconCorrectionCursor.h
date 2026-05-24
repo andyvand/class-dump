@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PRLexiconCorrectionCursor
 {
     struct _LXCursor *_cursor;
-    unsigned long long _replacementsCount;
-    unsigned long long _insertionsCount;
-    unsigned long long _deletionsCount;
-    unsigned long long _transpositionsCount;
-    unsigned long long _advancementLength;
 }
 
 - (unsigned long long);
@@ -20,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (double);
 - (unsigned long long);
@@ -29,15 +24,7 @@ __attribute__((visibility("hidden")))
 - (struct _LXCursor *);
 
 // Remaining properties
-@property(readonly) unsigned long long advancementLength; // @synthesize advancementLength=_advancementLength;
 @property(readonly) struct _LXCursor *cursor; // @synthesize cursor=_cursor;
-@property(readonly) unsigned long long deletionsCount; // @synthesize deletionsCount=_deletionsCount;
-@property(readonly) unsigned long long errorType;
-@property(readonly) unsigned long long insertionsCount; // @synthesize insertionsCount=_insertionsCount;
-@property(readonly) double prefixProbability;
-@property(readonly) unsigned long long replacementsCount; // @synthesize replacementsCount=_replacementsCount;
-@property(readonly) unsigned long long totalEdits;
-@property(readonly) unsigned long long transpositionsCount; // @synthesize transpositionsCount=_transpositionsCount;
 
 @end
 

@@ -7,7 +7,7 @@
 @interface UnknownClass (TSUTemporaryDirectoryAdditions)
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);

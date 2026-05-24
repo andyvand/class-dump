@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _GEOPlaceSearchCompletionGroup
 {
     NSString *_localizedSectionHeader;
-    NSArray *_items;
-    _Bool _shouldInterleaveClientResults;
-    _Bool _enforceServerResultsOrder;
-    _Bool _enableMapsSuggestServerReranking;
-    _Bool _isSectionForClientOnlyResults;
-    NSArray *_includedClientResultTypes;
-    NSArray *_excludedClientResultTypes;
 }
 
 - (_Bool);
@@ -24,28 +17,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)em/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)__TEXT;
+- (id)P;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enableMapsSuggestServerReranking; // @synthesize enableMapsSuggestServerReranking=_enableMapsSuggestServerReranking;
-@property(readonly, nonatomic) _Bool enforceServerResultsOrder; // @synthesize enforceServerResultsOrder=_enforceServerResultsOrder;
-@property(readonly, nonatomic) NSArray *excludedClientResultTypes; // @synthesize excludedClientResultTypes=_excludedClientResultTypes;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *includedClientResultTypes; // @synthesize includedClientResultTypes=_includedClientResultTypes;
-@property(readonly, nonatomic) _Bool isSectionForClientOnlyResults; // @synthesize isSectionForClientOnlyResults=_isSectionForClientOnlyResults;
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) NSString *localizedSectionHeader; // @synthesize localizedSectionHeader=_localizedSectionHeader;
-@property(readonly, nonatomic) _Bool shouldInterleaveClientResults; // @synthesize shouldInterleaveClientResults=_shouldInterleaveClientResults;
-@property(readonly) Class superclass;
 
 @end
 

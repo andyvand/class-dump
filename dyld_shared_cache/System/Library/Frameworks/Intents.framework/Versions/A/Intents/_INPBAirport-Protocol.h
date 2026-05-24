@@ -7,15 +7,11 @@
 @class NSString;
 
 @protocol _INPBAirport
+- (NSString *)SIMULATOR_ROOT;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIataCode;
-@property(readonly, nonatomic) _Bool hasIcaoCode;
-@property(readonly, nonatomic) _Bool hasName;
 @property(copy, nonatomic) NSString *iataCode;
-@property(copy, nonatomic) NSString *icaoCode;
-@property(copy, nonatomic) NSString *name;
 @end
 

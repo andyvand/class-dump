@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDVisualEvidenceItem
 {
     PBUnknownFields *_unknownFields;
-    NSString *_value;
 }
 
-+ (_Bool)llNeededTappedAppId:(id)arg1;
++ (_Bool)setInstallNeededTappedAppId:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ker state from AVVC, default to inactive;
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
-- (_Bool);
+- (_Bool)T@"NSData",R,N,G_externalTransitStationCode;
 - (_Bool);
 - (void);
 - (id)b1"read_prefCategoryIds"b1"read_relatedBrands"b1"read_tokenSet"b1"read_trigger"b1"wrote_anyField"b1};
-- (id)ifier: /* Error: Ran out of types for this method. */;
-- (id)sorts;
+- (id)setServerOverrideIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_sorts;
 - (id)ôë;
 - (id)RAP_ZOOM_OUT;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *value;
 
 @end
 

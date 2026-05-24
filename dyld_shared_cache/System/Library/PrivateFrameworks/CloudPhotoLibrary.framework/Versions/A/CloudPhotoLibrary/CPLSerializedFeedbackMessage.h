@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLServerFeedbackMessage, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface CPLSerializedFeedbackMessage
 {
     NSUUID *_uuid;
-    CPLServerFeedbackMessage *_serverMessage;
-    NSString *_feedbackType;
 }
 
 + (id);
@@ -19,15 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)SI;
 - (id);
 - (void);
-- (id)cheme:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)generateDerivativesForChange:derivativesFilter:fingerprintScheme:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSString *feedbackType; // @synthesize feedbackType=_feedbackType;
-@property(readonly, nonatomic) CPLServerFeedbackMessage *serverMessage; // @synthesize serverMessage=_serverMessage;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

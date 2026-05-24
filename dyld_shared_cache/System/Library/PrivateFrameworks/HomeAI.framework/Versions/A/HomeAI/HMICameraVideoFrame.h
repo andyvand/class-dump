@@ -4,55 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface HMICameraVideoFrame
 {
     unsigned long long _frameId;
-    unsigned long long _fragmentSequenceNumber;
-    struct __CVBuffer *_pixelBuffer;
-    NSData *_jpegData;
-    NSArray *_motionDetections;
-    struct CGSize _size;
-    CDStruct_1b6d18a9 _presentationTime;
 }
 
 + (_Bool);
 + (id)ÿÿÿ¤ÿÿÿ ÿÿÿ;
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (CDStruct_1b6d18a9);
 - (void);
-- (id);
-- (id);
+- (id)V;
+- (id);
 - (unsigned long long);
 - (struct CGSize);
 - (_Bool);
 - (void);
-- (id);
+- (id)hB9S;
 - (struct __CVBuffer *);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long fragmentSequenceNumber; // @synthesize fragmentSequenceNumber=_fragmentSequenceNumber;
-@property(readonly) unsigned long long frameId; // @synthesize frameId=_frameId;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSData *jpegData; // @synthesize jpegData=_jpegData;
-@property(retain) NSArray *motionDetections; // @synthesize motionDetections=_motionDetections;
 @property(readonly) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
-@property(readonly) CDStruct_1b6d18a9 presentationTime; // @synthesize presentationTime=_presentationTime;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

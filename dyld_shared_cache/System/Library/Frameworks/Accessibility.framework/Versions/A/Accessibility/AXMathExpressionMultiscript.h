@@ -6,28 +6,22 @@
 
 #import <Accessibility/AXMathExpression.h>
 
-@class NSArray;
-
 @interface AXMathExpressionMultiscript : AXMathExpression
 {
     AXMathExpression *_baseExpression;
-    NSArray *_prescriptExpressions;
-    NSArray *_postscriptExpressions;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)IOContent;
+- (void)P because unable to determine child's IOContent;
+- (void)tWithArguments;
+- (id)ray=%@;
+- (id)c=%ld;
+- (id)IsRevertible;
+- (id)of known online status:CSSaysParentOfflineCombined=%d /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) AXMathExpression *baseExpression; // @synthesize baseExpression=_baseExpression;
-@property(retain, nonatomic) NSArray *postscriptExpressions; // @synthesize postscriptExpressions=_postscriptExpressions;
-@property(retain, nonatomic) NSArray *prescriptExpressions; // @synthesize prescriptExpressions=_prescriptExpressions;
 
 @end
 

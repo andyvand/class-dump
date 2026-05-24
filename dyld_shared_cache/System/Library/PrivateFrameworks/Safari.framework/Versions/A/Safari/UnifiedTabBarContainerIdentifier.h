@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface UnifiedTabBarContainerIdentifier
 {
     _Bool _isPinned;
-    UnifiedTabBarItem *_mainTabBarItem;
-    UnifiedTabBarItem *_firstChildItem;
-    UnifiedTabBarItem *_lastChildItem;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -26,15 +23,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)favoritesPickerViewController:styleForFavoriteAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UnifiedTabBarItem *firstChildItem; // @synthesize firstChildItem=_firstChildItem;
-@property(readonly, nonatomic) _Bool isPinned; // @synthesize isPinned=_isPinned;
-@property(readonly, nonatomic) _Bool isSingleTabBarItemContainer;
-@property(readonly, nonatomic) UnifiedTabBarItem *lastChildItem; // @synthesize lastChildItem=_lastChildItem;
 @property(readonly, nonatomic) UnifiedTabBarItem *mainTabBarItem; // @synthesize mainTabBarItem=_mainTabBarItem;
 
 @end

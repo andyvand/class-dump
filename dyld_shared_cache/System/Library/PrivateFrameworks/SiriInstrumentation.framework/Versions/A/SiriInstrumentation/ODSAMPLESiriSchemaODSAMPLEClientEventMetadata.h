@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODSAMPLESiriSchemaODSAMPLEClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_odsampleId;
-    _Bool _hasOdsampleId;
 }
 
 - (void);
@@ -19,12 +18,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)B;
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
@@ -33,8 +32,6 @@
 - (void)ExecutionTier1.answerId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOdsampleId; // @synthesize hasOdsampleId=_hasOdsampleId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *odsampleId; // @synthesize odsampleId=_odsampleId;
 
 @end

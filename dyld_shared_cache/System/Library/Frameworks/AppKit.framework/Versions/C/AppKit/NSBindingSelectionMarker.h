@@ -8,12 +8,12 @@
 {
 }
 
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id)orFocusRingIfNecessaryInClipRect:(struct _NSZone *)arg1;
++ (void)_allHTTPHeaderFieldsAsArrays;
++ (id)rying AuthBrokerAgent;
++ (id)ileReadStreamCB():unrecognized event /* Error: Ran out of types for this method. */;
++ (id)eam read error [%p]:%ld %d /* Error: Ran out of types for this method. */;
++ (id)kCFHTTPServerStreamSSLSettings;
+- (id)_drawTableExteriorFocusRingIfNecessaryInClipRect:(struct _NSZone *)arg1;
 
 @end
 

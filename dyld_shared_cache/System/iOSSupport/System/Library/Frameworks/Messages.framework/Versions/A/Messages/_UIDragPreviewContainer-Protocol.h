@@ -5,5 +5,6 @@
 //
 
 @protocol _UIDragPreviewContainer
+- (void));
 @end
 

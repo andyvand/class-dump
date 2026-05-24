@@ -9,8 +9,6 @@
 @interface PXPhotosDetailsVisualLookupData
 {
     NSString *_displayMessage;
-    NSString *_glyphImageName;
-    NSString *_visualDomain;
 }
 
 - (id);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayMessage; // @synthesize displayMessage=_displayMessage;
-@property(copy, nonatomic) NSString *glyphImageName; // @synthesize glyphImageName=_glyphImageName;
-@property(copy, nonatomic) NSString *visualDomain; // @synthesize visualDomain=_visualDomain;
 
 @end
 

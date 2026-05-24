@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaAsset;
+@class SISchemaAsset;
 
 @interface CLPInstSchemaCLPCDMReplayTaskStarted : SISchemaInstrumentationMessage
 {
     SISchemaAsset *_pluginTaskAsset;
-    NSArray *_availableSiriAssets;
-    int _replayType;
-    NSArray *_habitualUsages;
-    struct {
-        unsigned int replayType:1;
-    } _has;
-    _Bool _hasPluginTaskAsset;
 }
 
 - (void);
@@ -31,7 +24,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -44,26 +37,20 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)e;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id)riments";
-- (id)LOWSchemaFLOWContactTier1;
+- (id)FLOWSchemaFLOWContactTier1;
 - (id)hù¸ù|û;
 - (void)aA&;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *availableSiriAssets; // @synthesize availableSiriAssets=_availableSiriAssets;
-@property(copy, nonatomic) NSArray *habitualUsages; // @synthesize habitualUsages=_habitualUsages;
-@property(nonatomic) _Bool hasPluginTaskAsset; // @synthesize hasPluginTaskAsset=_hasPluginTaskAsset;
-@property(nonatomic) _Bool hasReplayType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaAsset *pluginTaskAsset; // @synthesize pluginTaskAsset=_pluginTaskAsset;
-@property(nonatomic) int replayType; // @synthesize replayType=_replayType;
 
 @end
 

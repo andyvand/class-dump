@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, OSPDevice;
+@class NSDictionary;
 
 @interface OSPBuildIdentity
 {
     _Bool _isSFR;
-    NSString *_variant;
-    OSPDevice *_device;
-    NSString *_restoreVersion;
-    NSArray *_entries;
-    NSDictionary *_buildIdentityDictionary;
-    NSDictionary *_manifest;
-    NSArray *_osEntries;
-    NSArray *_cryptex1Entries;
-    NSArray *_centauriEntries;
 }
 
 - (void);
@@ -48,19 +39,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain) NSDictionary *buildIdentityDictionary; // @synthesize buildIdentityDictionary=_buildIdentityDictionary;
-@property(retain) NSArray *centauriEntries; // @synthesize centauriEntries=_centauriEntries;
-@property(retain) NSArray *cryptex1Entries; // @synthesize cryptex1Entries=_cryptex1Entries;
-@property(retain) OSPDevice *device; // @synthesize device=_device;
-@property(retain) NSArray *entries; // @synthesize entries=_entries;
-@property _Bool isSFR; // @synthesize isSFR=_isSFR;
-@property(retain) NSDictionary *manifest; // @synthesize manifest=_manifest;
-@property(retain) NSArray *osEntries; // @synthesize osEntries=_osEntries;
-@property(retain) NSString *restoreVersion; // @synthesize restoreVersion=_restoreVersion;
-@property(retain) NSString *variant; // @synthesize variant=_variant;
 
 @end
 

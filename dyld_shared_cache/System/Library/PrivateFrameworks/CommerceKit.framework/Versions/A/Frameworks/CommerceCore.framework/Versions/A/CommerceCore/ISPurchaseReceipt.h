@@ -4,82 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSData, NSString;
 
 @interface ISPurchaseReceipt
 {
     NSData *mReceiptData;
-    struct _CMSDecoder *mDecoder;
-    NSString *mReceiptPath;
-    NSString *mBundleID;
-    NSString *mBundleVersion;
-    NSString *mParentalControls;
-    NSString *mDownloadID;
-    NSString *mAdamID;
-    NSDate *mPurchaseDate;
-    NSString *mPurchaseDateString;
-    NSString *mOpaqueDSIDString;
-    NSString *mHWType;
-    NSDate *mReceiptCreationDate;
-    NSString *mDeveloperID;
-    NSString *mInstallerVersionID;
-    NSString *mReceiptType;
-    NSNumber *mFRToolVersion;
-    NSString *mExpirationDateString;
-    NSDate *mExpirationDate;
-    NSString *mRenewalDateString;
-    NSDate *mRenewalDate;
-    NSString *mOraganizationDisplayName;
-    NSString *mCancellationReason;
-    _Bool mHashIsValid;
-    _Bool _createdFromCoder;
-    _Bool _verbose;
-    NSString *_dsid;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
++ (id)performBlockAsyncOnInternalSession:(id)arg1;
++ (id)performBillPaymentActionWithAmount:(id)arg1 scheduledDate:billPaymentSuggestedAmountDataEvent: /* Error: Ran out of types for this method. */;
++ (id):(id)arg1;
++ (id)performAction:(id)arg1 withPaymentIdentifier:(id)arg2 completion: /* Error: Ran out of types for this method. */;
++ (id)performAction:(id)arg1 onServiceProviderPurchase:(id)arg2 completion: /* Error: Ran out of types for this method. */;
++ (id)pendingRemoteAssetsItemsForScreenScale:(id)arg1 suffix: /* Error: Ran out of types for this method. */;
++ (id)peerPaymentRecurringPaymentsForAccountIdentifier:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)performRegistrationForRegion:(_Bool *)arg1 withReason:completion: /* Error: Ran out of types for this method. */;
+- (id)performPeerPaymentEnrollment:error: /* Error: Ran out of types for this method. */;
+- (id)performNotificationActionRequest:completion: /* Error: Ran out of types for this method. */;
+- (id)performNearbyAuthorizedQuote:completion: /* Error: Ran out of types for this method. */;
+- (id)performNearbyAuthorizedQuote:completion: /* Error: Ran out of types for this method. */;
+- (id)performIsolatedAbsoluteTransactionWithBlock:completion: /* Error: Ran out of types for this method. */;
+- (id)performInstallmentBindWithRequest:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)performInstallmentAuthorizationWithRequest:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)performInstallmentAuthorizationWithRequest:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)performECommercePayment:request:error: /* Error: Ran out of types for this method. */;
+- (id)performDeviceRegistrationReturningContextForReason:brokerURL:actionType:completion: /* Error: Ran out of types for this method. */;
+- (id)performDeviceRegistrationForReason:brokerURL:completion: /* Error: Ran out of types for this method. */;
+- (id)performDeviceRegistrationForReason:brokerURL:completion: /* Error: Ran out of types for this method. */;
+- (long long)performCardMigrationPaymentRequest:request:error: /* Error: Ran out of types for this method. */;
+- (long long)performBlockWithSession: /* Error: Ran out of types for this method. */;
+- (long long)performBlockSyncOnInternalSession: /* Error: Ran out of types for this method. */;
+- (id)performBlockAsyncOnInternalSession: /* Error: Ran out of types for this method. */;
+- (long long)performBillPaymentActionWithAmount:(struct SecCmsSignedDataStr *)arg1 scheduledDate:(id)arg2 billPaymentSuggestedAmountDataEvent:(_Bool)arg3;
+- (long long)performBillPaymentActionWithAmount:(_Bool)arg1 billPaymentSuggestedAmountDataEvent:(_Bool)arg2;
+- (_Bool)performBillPaymentActionWithAmount:(struct __SecTrust *)arg1;
+- (void)performBillPaymentActionWithAmount:(id)arg1;
+- (_Bool)performBackgroundTransactionSyncFromDate:(struct SecCmsMessageStr *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (struct SecCmsSignedDataStr *)performAction:(struct SecCmsMessageStr *)arg1 withPaymentIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)performAction:(id)arg1 onServiceProviderPurchase:(inout struct SecCmsMessageStr **)arg2 completion: /* Error: Ran out of types for this method. */;
+- (struct __CFArray *)performAction:(struct SecCmsSignedDataStr *)arg1 inContainerWithName:completion: /* Error: Ran out of types for this method. */;
+- (id)peerPaymentUserInfoForAccountIdentifier:lastUpdated:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)peerPaymentPerformQuoteWithRequest:(_Bool *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)hideCardBenefitMerchandisingOffers;
+- (id)PKPassbookUIServiceFieldProperties;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (long long);
-- (id);
-- (long long);
-- (long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (struct SecCmsSignedDataStr *);
-- (_Bool);
-- (struct __CFArray *);
 - (id);
-- (_Bool);
+- (id)b;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)errorDescription;
 - (_Bool);
 - (void);
 - (id);
@@ -90,31 +64,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *adamID; // @synthesize adamID=mAdamID;
-@property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=mBundleID;
-@property(readonly) NSString *bundleVersion; // @synthesize bundleVersion=mBundleVersion;
-@property(readonly) NSString *cancellationReason; // @synthesize cancellationReason=mCancellationReason;
-@property(readonly) NSString *developerID; // @synthesize developerID=mDeveloperID;
-@property(readonly) NSString *downloadID; // @synthesize downloadID=mDownloadID;
-@property(readonly) NSString *dsid; // @synthesize dsid=_dsid;
-@property(readonly) NSDate *expirationDate; // @synthesize expirationDate=mExpirationDate;
-@property(readonly) NSNumber *frToolVersion; // @synthesize frToolVersion=mFRToolVersion;
-@property(readonly) NSString *hwtype; // @synthesize hwtype=mHWType;
-@property(readonly) NSString *installerVersionID; // @synthesize installerVersionID=mInstallerVersionID;
-@property(readonly) _Bool isDSIDless; // @dynamic isDSIDless;
-@property(readonly) _Bool isProductionReceipt; // @dynamic isProductionReceipt;
-@property(readonly) _Bool isRevoked; // @dynamic isRevoked;
-@property(readonly) _Bool isVPPLicensed; // @dynamic isVPPLicensed;
-@property(readonly) NSString *opaqueDSIDString; // @synthesize opaqueDSIDString=mOpaqueDSIDString;
-@property(readonly) NSString *organizationDisplayName; // @synthesize organizationDisplayName=mOraganizationDisplayName;
-@property(readonly) NSString *parentalControls; // @synthesize parentalControls=mParentalControls;
-@property(readonly) NSDate *purchaseDate; // @synthesize purchaseDate=mPurchaseDate;
-@property(readonly) NSString *purchaseDateString; // @synthesize purchaseDateString=mPurchaseDateString;
-@property(readonly) NSDate *receiptCreationDate; // @synthesize receiptCreationDate=mReceiptCreationDate;
-@property(readonly) NSData *receiptData; // @synthesize receiptData=mReceiptData;
-@property(readonly) NSString *receiptDataString; // @dynamic receiptDataString;
 @property(readonly) NSString *receiptType; // @synthesize receiptType=mReceiptType;
-@property(readonly) NSDate *renewalDate; // @synthesize renewalDate=mRenewalDate;
 
 @end
 

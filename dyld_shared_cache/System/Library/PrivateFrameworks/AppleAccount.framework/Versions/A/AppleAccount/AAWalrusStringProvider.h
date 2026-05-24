@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)cns;
++ (id)portKeychainAccessList SecACLSetSimpleContents returned %d;
 
 @end
 

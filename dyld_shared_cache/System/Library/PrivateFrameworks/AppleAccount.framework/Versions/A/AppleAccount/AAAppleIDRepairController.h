@@ -11,14 +11,14 @@
     ACAccount *primaryAccount;
 }
 
+- (void)returned error:(CDUnknownBlockType)arg1 %ld (%s) domain = %s;
+- (_Bool)veWifiNetworkProfile mcxUsr_removewifinetworkprofile kern_result returned %d;
+- (void)Entitlements;
+- (unsigned long long)MS decoder (%d);
+- (id) ;
 - (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
 - (id);
-- (void);
-- (id);
-- (void)yCustodians: /* Error: Ran out of types for this method. */;
+- (void)fetchMyCustodians: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) ACAccount *primaryAccount; // @synthesize primaryAccount;

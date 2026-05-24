@@ -6,20 +6,10 @@
 
 #import <HomeKit/_HMAccessoryProfile.h>
 
-@class HMAccessoryNetworkAccessViolation, NSArray, NSString;
-@protocol _HMNetworkConfigurationProfileDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _HMNetworkConfigurationProfile : _HMAccessoryProfile
 {
     _Bool _networkAccessRestricted;
-    _Bool _supportsWiFiReconfiguration;
-    long long _targetProtectionMode;
-    long long _currentProtectionMode;
-    NSArray *_allowedHosts;
-    HMAccessoryNetworkAccessViolation *_accessViolation;
-    long long _credentialType;
-    id <_HMNetworkConfigurationProfileDelegate> _delegate;
 }
 
 + (id)ithCompletion:] /* Error: Ran out of types for this method. */;
@@ -38,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (void);
+- (void)u;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)u;
 - (void);
 - (void);
 - (void);
@@ -55,24 +45,10 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (void)mediaGroupType;
-- (id)StoreNotStarted;
+- (void)_mediaGroupType;
+- (id)numUsersSharedBackingStoreNotStarted;
 
 // Remaining properties
-@property(readonly) HMAccessoryNetworkAccessViolation *accessViolation; // @synthesize accessViolation=_accessViolation;
-@property(readonly) NSArray *allowedHosts; // @synthesize allowedHosts=_allowedHosts;
-@property(readonly) long long credentialType; // @synthesize credentialType=_credentialType;
-@property(readonly) long long currentProtectionMode; // @synthesize currentProtectionMode=_currentProtectionMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_HMNetworkConfigurationProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isNetworkAccessRestricted) _Bool networkAccessRestricted; // @synthesize networkAccessRestricted=_networkAccessRestricted;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsWiFiReconfiguration; // @synthesize supportsWiFiReconfiguration=_supportsWiFiReconfiguration;
 @property(readonly) long long targetProtectionMode; // @synthesize targetProtectionMode=_targetProtectionMode;
 
 @end

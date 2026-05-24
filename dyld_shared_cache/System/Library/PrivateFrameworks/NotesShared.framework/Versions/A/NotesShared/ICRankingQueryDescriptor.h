@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ICRankingQueryDescriptor
 {
     NSString *_rankingQuery;
-    NSArray *_queryFields;
-    NSArray *_expandedTokens;
-    long long _rankingQueryType;
-    NSString *_rankingQueryFlags;
-    unsigned long long _displayedMatchedFields;
-    unsigned long long _purpose;
 }
 
-- (void);
+- (void);
 - (double);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)r name supplied - unable to add server;
+- (id)ailed:(id)arg1 %@ (%d);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)';
 - (unsigned long long);
 - (void)4;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long displayedMatchedFields; // @synthesize displayedMatchedFields=_displayedMatchedFields;
-@property(readonly, nonatomic) NSArray *expandedTokens; // @synthesize expandedTokens=_expandedTokens;
-@property(readonly, nonatomic) unsigned long long purpose; // @synthesize purpose=_purpose;
-@property(readonly, nonatomic) NSArray *queryFields; // @synthesize queryFields=_queryFields;
 @property(retain, nonatomic) NSString *rankingQuery; // @synthesize rankingQuery=_rankingQuery;
-@property(readonly, nonatomic) NSString *rankingQueryFlags; // @synthesize rankingQueryFlags=_rankingQueryFlags;
-@property(readonly, nonatomic) long long rankingQueryType; // @synthesize rankingQueryType=_rankingQueryType;
-@property(readonly, nonatomic) NSArray *tokens;
 
 @end
 

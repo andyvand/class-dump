@@ -7,8 +7,6 @@
 @interface NewsArticles.ArticleAdLayoutProcessor
 {
     id layoutEnvironmentProvider;
-    id bannerAdRequesterFactory;
-    id layoutEnvironment;
 }
 
 - (void);

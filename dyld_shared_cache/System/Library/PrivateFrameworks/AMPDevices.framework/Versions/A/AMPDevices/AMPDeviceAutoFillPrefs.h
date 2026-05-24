@@ -7,11 +7,6 @@
 @interface AMPDeviceAutoFillPrefs
 {
     _Bool _autoFillHigherRatedSongs;
-    _Bool _autoFillRandomSongs;
-    _Bool _autoFillReplaceSongs;
-    unsigned long long _autoFillSourcePlaylistID;
-    unsigned long long _autoFillReserveFreeBytes;
-    unsigned long long _autoFillTotalDiskBytes;
 }
 
 + (_Bool);
@@ -34,11 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool autoFillHigherRatedSongs; // @synthesize autoFillHigherRatedSongs=_autoFillHigherRatedSongs;
-@property(nonatomic) _Bool autoFillRandomSongs; // @synthesize autoFillRandomSongs=_autoFillRandomSongs;
-@property(nonatomic) _Bool autoFillReplaceSongs; // @synthesize autoFillReplaceSongs=_autoFillReplaceSongs;
-@property(nonatomic) unsigned long long autoFillReserveFreeBytes; // @synthesize autoFillReserveFreeBytes=_autoFillReserveFreeBytes;
-@property(nonatomic) unsigned long long autoFillSourcePlaylistID; // @synthesize autoFillSourcePlaylistID=_autoFillSourcePlaylistID;
-@property(nonatomic) unsigned long long autoFillTotalDiskBytes; // @synthesize autoFillTotalDiskBytes=_autoFillTotalDiskBytes;
 
 @end
 

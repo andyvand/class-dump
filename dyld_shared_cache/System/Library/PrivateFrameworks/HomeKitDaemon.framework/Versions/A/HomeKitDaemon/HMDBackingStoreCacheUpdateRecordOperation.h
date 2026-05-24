@@ -6,17 +6,12 @@
 
 #import <HomeKitDaemon/HMDBackingStoreOperation.h>
 
-@class CKRecord, HMDBackingStoreCacheGroup, HMDBackingStoreModelObject, NSData, NSString;
+@class HMDBackingStoreCacheGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheUpdateRecordOperation : HMDBackingStoreOperation
 {
     HMDBackingStoreCacheGroup *_group;
-    NSString *_recordName;
-    CKRecord *_record;
-    NSData *_data;
-    HMDBackingStoreModelObject *_model;
-    unsigned long long _encoding;
 }
 
 - (id);
@@ -27,18 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)Predicate:validValues: /* Error: Ran out of types for this method. */;
-- (unsigned long long)e;
+- (id)bitwiseAndValueWithKeyPath:inPredicate:validValues: /* Error: Ran out of types for this method. */;
+- (unsigned long long)addAccessoryFinishTime;
 - (id)%{public}@Starting matter diagnostic manager:%@ /* Error: Ran out of types for this method. */;
 - (void)SÙ;
 
 // Remaining properties
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly) unsigned long long encoding; // @synthesize encoding=_encoding;
 @property(readonly) HMDBackingStoreCacheGroup *group; // @synthesize group=_group;
-@property(readonly) HMDBackingStoreModelObject *model; // @synthesize model=_model;
-@property(readonly) CKRecord *record; // @synthesize record=_record;
-@property(readonly) NSString *recordName; // @synthesize recordName=_recordName;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioPlaylistFeedModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

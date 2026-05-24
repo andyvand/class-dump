@@ -6,39 +6,28 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIColor;
-@protocol UIActivityIndicatorProvider;
-
 @interface _UIActivityIndicatorViewStyleView : UIView
 {
     _Bool _animating;
-    _Bool _hidesWhenStopped;
-    long long _activityIndicatorViewStyle;
-    UIColor *_color;
-    id <UIActivityIndicatorProvider> _provider;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)ion"16;
+- (void)Stamp:(_Bool)arg1 storageContext: /* Error: Ran out of types for this method. */;
+- (void)chatRegistry;
+- (_Bool)ȱ;
 - (long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)UA;
+- (void)payloadLDAPSearchSettingDescription;
 - (struct CGSize);
-- (id);
+- (id)celled;
 - (id)B40;
-- (void)emUpdatedContentLayout:(id)arg1;
+- (void)_navigationController:(id)arg1 navigationBar:topItemUpdatedContentLayout: /* Error: Ran out of types for this method. */;
 - (id)¥þþÿ;
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long activityIndicatorViewStyle; // @synthesize activityIndicatorViewStyle=_activityIndicatorViewStyle;
-@property(nonatomic) _Bool animating; // @synthesize animating=_animating;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(nonatomic) _Bool hidesWhenStopped; // @synthesize hidesWhenStopped=_hidesWhenStopped;
-@property(readonly, nonatomic) __weak id <UIActivityIndicatorProvider> provider; // @synthesize provider=_provider;
 
 @end
 

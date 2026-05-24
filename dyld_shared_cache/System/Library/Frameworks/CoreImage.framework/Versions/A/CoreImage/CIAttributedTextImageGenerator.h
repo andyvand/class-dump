@@ -6,19 +6,17 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class NSAttributedString, NSNumber;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface CIAttributedTextImageGenerator : CIFilter
 {
     NSAttributedString *inputText;
-    NSNumber *inputScaleFactor;
-    NSNumber *inputPadding;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (id);
 - (id);
@@ -26,8 +24,6 @@ __attribute__((visibility("hidden")))
 - (id)nzy~drosekhk]jgjjlllllllbbbbBQJR7G<N____wwww{{{{\iejhhhhvvvvoluqyYleuoxt{Yne{Kh]z}xnqxt~zzvz|xt|q{yyywy7PAfVcZn;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputPadding; // @synthesize inputPadding;
-@property(retain, nonatomic) NSNumber *inputScaleFactor; // @synthesize inputScaleFactor;
 @property(retain, nonatomic) NSAttributedString *inputText; // @synthesize inputText;
 
 @end

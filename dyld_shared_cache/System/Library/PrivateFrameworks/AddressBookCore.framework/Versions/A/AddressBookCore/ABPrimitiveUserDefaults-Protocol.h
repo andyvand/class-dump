@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol ABPrimitiveUserDefaults
+- (id);
 - (void)ll use %{public}@ to save ABAddressBook;
 - (void)ing DS search node:(NSString *)arg1 %@;
 - (long long)ddressBook/ABSearchOperation.m;

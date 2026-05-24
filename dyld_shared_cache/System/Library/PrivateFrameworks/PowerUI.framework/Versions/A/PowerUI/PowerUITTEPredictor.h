@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSArray, NSDictionary, NSObject, NSString, NSUserDefaults, PowerUITTEPredParam;
-@protocol MLFeatureProvider, OS_os_log, _CDLocalContext;
+@class PowerUITTEPredParam;
 
 @interface PowerUITTEPredictor
 {
     struct os_unfair_lock_s _modelLock;
-    struct os_unfair_lock_s _learnTableLock;
-    int _modelType;
-    long long _ttePredictionModelStatus;
-    PowerUITTEPredParam *_ttePredictionParameters;
-    MLModel *_ttePredictionModel;
-    NSString *_modelName;
-    NSUserDefaults *_defaults;
-    id <_CDLocalContext> _context;
-    NSString *_name;
-    NSArray *_predictedFeatureNames;
-    NSString *_version;
-    NSObject<OS_os_log> *_log;
-    NSDictionary *_tteLearningTable;
-    id <MLFeatureProvider> _inputFeatures;
 }
 
 - (void);
@@ -33,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,19 +38,19 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)@20@0:8i16 /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)	k;
 - (void);
 - (id);
 - (void)!s#!@ù'1Â0@ù
@@ -74,21 +59,7 @@
 - (int)ï±]çx;
 
 // Remaining properties
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
-@property(retain, nonatomic) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(retain, nonatomic) id <MLFeatureProvider> inputFeatures; // @synthesize inputFeatures=_inputFeatures;
-@property(nonatomic) struct os_unfair_lock_s learnTableLock; // @synthesize learnTableLock=_learnTableLock;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) struct os_unfair_lock_s modelLock; // @synthesize modelLock=_modelLock;
-@property(retain, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(nonatomic) int modelType; // @synthesize modelType=_modelType;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSArray *predictedFeatureNames; // @synthesize predictedFeatureNames=_predictedFeatureNames;
-@property(retain, nonatomic) NSDictionary *tteLearningTable; // @synthesize tteLearningTable=_tteLearningTable;
-@property(retain, nonatomic) MLModel *ttePredictionModel; // @synthesize ttePredictionModel=_ttePredictionModel;
-@property(nonatomic) long long ttePredictionModelStatus; // @synthesize ttePredictionModelStatus=_ttePredictionModelStatus;
 @property(retain, nonatomic) PowerUITTEPredParam *ttePredictionParameters; // @synthesize ttePredictionParameters=_ttePredictionParameters;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

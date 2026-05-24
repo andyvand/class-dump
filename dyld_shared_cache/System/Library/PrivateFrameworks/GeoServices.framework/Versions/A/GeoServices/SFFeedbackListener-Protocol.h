@@ -4,19 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFCardViewAppearFeedback;
+@class SFCardViewAppearFeedback, SFEndSearchFeedback, SFResultGradingFeedback;
 
 @protocol SFFeedbackListener
 
 @optional
-- (void)× ;
-- (void)Ctr:(SFCardViewAppearFeedback *)arg1;
-- (void)æ;
+- (void)0:(SFResultGradingFeedback *)arg1 8B16@"NSData"20;
 - (void);
+- (void)}@;
+- (void)R;
+- (void)incidentsForSystem:(SFEndSearchFeedback *)arg1;
+- (void)× ;
+- (void)setExpectedCtr:(SFCardViewAppearFeedback *)arg1;
+- (void)æ;
 - (void)iÿO@;
 - (void)²BAo,(Ê$O@;
 - (void)M@;
 - (void))èöÆrL@;
-- (void)ult_deleteIN8addr_obj15V0AddressObjectEEE;
+- (void)NSt3__114default_deleteIN8addr_obj15V0AddressObjectEEE;
 @end
 

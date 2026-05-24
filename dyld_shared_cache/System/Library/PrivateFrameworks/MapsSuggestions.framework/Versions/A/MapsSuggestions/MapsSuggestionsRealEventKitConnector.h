@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol MapsSuggestionsEventKitConnectorDelegate, OS_dispatch_queue;
 
 @interface MapsSuggestionsRealEventKitConnector
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <MapsSuggestionsEventKitConnectorDelegate> delegate;
 }
 
 - (id);
@@ -29,15 +28,7 @@
 - (void)stionsTimer>""wakeUpTimer"@"<MapsSuggestionsTimer>""entries"@"NSArray"};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MapsSuggestionsEventKitConnectorDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TTSRegex, TTSRuleGroup, TTSRuleset;
+@class TTSRegex;
 
 @interface TTSRuleReplacement
 {
     _Bool _isTerminalRule;
-    unsigned int _originalRulesetIndex;
-    TTSRegex *_regex;
-    NSString *_replacement;
-    CDUnknownBlockType _postMatch;
-    TTSRuleset *_ruleset;
-    unsigned long long _index;
-    TTSRuleGroup *_group;
 }
 
 - (void);
@@ -33,21 +26,13 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)4˟;
 - (id);
 - (void);
 - (void)A;
 
 // Remaining properties
-@property(retain, nonatomic) TTSRuleGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) NSString *identifier;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(nonatomic) _Bool isTerminalRule; // @synthesize isTerminalRule=_isTerminalRule;
-@property(nonatomic) unsigned int originalRulesetIndex; // @synthesize originalRulesetIndex=_originalRulesetIndex;
-@property(copy, nonatomic) CDUnknownBlockType postMatch; // @synthesize postMatch=_postMatch;
 @property(retain, nonatomic) TTSRegex *regex; // @synthesize regex=_regex;
-@property(retain, nonatomic) NSString *replacement; // @synthesize replacement=_replacement;
-@property(nonatomic) __weak TTSRuleset *ruleset; // @synthesize ruleset=_ruleset;
 
 @end
 

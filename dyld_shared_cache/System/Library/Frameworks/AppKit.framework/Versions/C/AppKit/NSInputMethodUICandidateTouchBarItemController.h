@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSInputMethodUICandidateItemLayout, NSInputMethodUICandidateLayoutTraits, NSInputMethodUIScrubberView, NSTouchBarInputMethodCandidate, NSTouchBarInputMethodCandidateList, NSViewController;
-@protocol NSInputMethodUICandidateControllerDelegate;
+@class NSInputMethodUIScrubberView;
 
 @interface NSInputMethodUICandidateTouchBarItemController
 {
     double _touchBarItemWidth;
-    NSInputMethodUIScrubberView *_view;
-    NSViewController *_viewController;
-    _Bool _showsChevron;
-    double _annotationFontSize;
-    long long _annotationType;
-    id <NSInputMethodUICandidateControllerDelegate> _delegate;
-    double _fixedWidth;
-    NSInputMethodUICandidateItemLayout *_itemLayout;
-    NSInputMethodUICandidateLayoutTraits *_layoutTraits;
-    unsigned long long _numberOfFixedWidthCandidates;
-    NSTouchBarInputMethodCandidate *_selectedCandidate;
-    long long _style;
-    NSTouchBarInputMethodCandidateList *_candidateList;
-    NSInputMethodUIScrubberView *_scrubberView;
 }
 
 - (id);
@@ -41,23 +26,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)iled for %s;
+- (void)-localaddr;
+- (void)6@?0^v8;
 - (id);
 - (id);
 - (struct CGRect);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (double);
 - (unsigned long long);
 - (id);
-- (void);
-- (double);
-- (void);
-- (id);
-- (double);
+- (void)se"32;
+- (double)setGroupConcurrencyLimit: /* Error: Ran out of types for this method. */;
+- (void)_storagePartitionIdentifier;
+- (id)er;
+- (double)ceApplicationBundleIdentifier;
 - (long long);
 - (double);
 - (id);
@@ -65,34 +50,19 @@
 - (id);
 - (id);
 - (id);
+- (void)_debugPrintVariableName:(long long)arg1 andRange: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)eHighlighted;
-- (void)IfNeeded;
+- (void)canBeHighlighted;
+- (void)_postSessionNotificationIfNeeded;
 - (double)T@"NSViewController",&,V_viewController;
 - (id);
 - (id)cannot be found.;
-- (void);
+- (void)NSImageViewShowImageDrawingFrame;
 - (void)©t;
 - (void)ÀH;
 
 // Remaining properties
-@property(nonatomic) double annotationFontSize; // @synthesize annotationFontSize=_annotationFontSize;
-@property(nonatomic) long long annotationType; // @synthesize annotationType=_annotationType;
-@property(retain, nonatomic) NSTouchBarInputMethodCandidateList *candidateList; // @synthesize candidateList=_candidateList;
-@property(nonatomic) __weak id <NSInputMethodUICandidateControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double fixedWidth; // @synthesize fixedWidth=_fixedWidth;
-@property(nonatomic) double fontSize;
-@property(retain, nonatomic) NSInputMethodUICandidateItemLayout *itemLayout; // @synthesize itemLayout=_itemLayout;
-@property(retain, nonatomic) NSInputMethodUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
-@property(nonatomic) unsigned long long numberOfFixedWidthCandidates; // @synthesize numberOfFixedWidthCandidates=_numberOfFixedWidthCandidates;
 @property(retain, nonatomic) NSInputMethodUIScrubberView *scrubberView; // @synthesize scrubberView=_scrubberView;
-@property(retain, nonatomic) NSTouchBarInputMethodCandidate *selectedCandidate; // @synthesize selectedCandidate=_selectedCandidate;
-@property(nonatomic) _Bool showsChevron; // @synthesize showsChevron=_showsChevron;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(nonatomic) double touchBarItemWidth; // @synthesize touchBarItemWidth=_touchBarItemWidth;
-@property(readonly, nonatomic) NSViewController *viewController;
-@property(readonly, nonatomic) NSArray *visibleCandidates;
 
 @end
 

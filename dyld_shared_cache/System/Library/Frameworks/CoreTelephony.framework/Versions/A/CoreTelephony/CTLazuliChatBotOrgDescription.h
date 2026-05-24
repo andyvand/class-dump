@@ -11,10 +11,10 @@
     NSString *_orgDescription;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)responseStartTime;
+- (void)@9	;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);

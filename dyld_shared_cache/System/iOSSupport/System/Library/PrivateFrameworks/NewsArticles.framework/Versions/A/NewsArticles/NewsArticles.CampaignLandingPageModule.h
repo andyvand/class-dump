@@ -7,7 +7,6 @@
 @interface NewsArticles.CampaignLandingPageModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

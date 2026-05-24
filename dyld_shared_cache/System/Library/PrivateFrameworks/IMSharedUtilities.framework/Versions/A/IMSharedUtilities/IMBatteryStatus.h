@@ -11,13 +11,12 @@
     id <IMBatteryStatusTestDelegate> _testDelegate;
 }
 
-- (id);
+- (id)stion",&,N,V_question;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isCharging) _Bool charging;
 @property(nonatomic) __weak id <IMBatteryStatusTestDelegate> testDelegate; // @synthesize testDelegate=_testDelegate;
 
 @end

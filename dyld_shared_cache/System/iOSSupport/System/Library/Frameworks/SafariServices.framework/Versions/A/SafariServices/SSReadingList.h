@@ -12,8 +12,8 @@
 }
 
 + (id);
-+ (_Bool);
-- (_Bool);
++ (_Bool)_setInk:(id)arg1;
+- (_Bool)SecureLocationsKeyUpdateEnvelope;
 - (_Bool);
 - (id);
 - (id);

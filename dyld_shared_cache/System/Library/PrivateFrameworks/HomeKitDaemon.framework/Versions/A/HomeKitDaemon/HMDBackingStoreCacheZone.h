@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheZone
 {
     long long _zoneID;
-    NSString *_zoneName;
-    NSMutableArray *_actualGroups;
 }
 
 - (void);
 - (id);
 - (id);
-- (long long)l;
+- (long long)_upgradeInterval;
 - (id)g asset was found:%@ /* Error: Ran out of types for this method. */;
 - (id)on.statuskit.channel.residentStatus.priorityUpdate;
 - (void)ôRØ#'~&¤;
@@ -25,9 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSMutableArray *actualGroups; // @synthesize actualGroups=_actualGroups;
-@property(readonly) NSArray *groups;
-@property(readonly) long long zoneID; // @synthesize zoneID=_zoneID;
-@property(readonly) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

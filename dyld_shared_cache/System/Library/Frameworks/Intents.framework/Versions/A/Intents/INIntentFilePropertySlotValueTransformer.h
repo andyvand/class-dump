@@ -11,7 +11,7 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)D: /* Error: Ran out of types for this method. */;
++ (long long)setAppBundleID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)NAlarm",R,C;
 

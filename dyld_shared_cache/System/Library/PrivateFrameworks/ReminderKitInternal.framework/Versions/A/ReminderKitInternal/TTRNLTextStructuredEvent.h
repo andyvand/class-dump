@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TTRNLTextStructuredEventRecurrentEvent;
-
 @interface TTRNLTextStructuredEvent
 {
     void *_structuredEvent;
 }
 
-- (void);
-- (id);
+- (void);
+- (id)H;
 - (id);
 - (void *);
-- (void);
+- (void)HANGZHOU_Hangzhou_Metro_HangHai_Intercity_Railway;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *locations;
-@property(readonly, nonatomic) TTRNLTextStructuredEventRecurrentEvent *recurrentEvent;
 @property(nonatomic) void *structuredEvent; // @synthesize structuredEvent=_structuredEvent;
 
 @end

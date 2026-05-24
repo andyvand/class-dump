@@ -9,13 +9,9 @@
 @interface GEOWalkingSupportedFeatures
 {
     PBUnknownFields *_unknownFields;
-    _Bool _supportsWalkingExperience2022;
-    struct {
-        unsigned int has_supportsWalkingExperience2022:1;
-    } _flags;
 }
 
-+ (_Bool)ta:(id)arg1;
++ (_Bool)setOfflineMetadata:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -25,17 +21,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setNumOfAudioPackets:(id)arg1;
+- (id)tion :allowVoiceTriggerAssetsDownload ? %@;           allowEndpointAssetDownload ? %@;           allowLanguageDetectorAssetDownload ? %@;           allowAdBlockerAssetDownload ? %@;           allowSpeakerRecognitionAssetDownload ? %@;           allowGibraltarVoiceTriggerAssetDownloading ? %@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ñ¹*Ð1Â0@ù
 × ;
-- (id)thTransitTripDetailsAtStation:line:referenceTripId:includeAllDirectionNames:routingParameters:traits: /* Error: Ran out of types for this method. */;
-- (id)l:sinceDate: /* Error: Ran out of types for this method. */;
-- (id)OMMUNITY_NON_PII;
+- (id)initWithTransitTripDetailsAtStation:line:referenceTripId:includeAllDirectionNames:routingParameters:traits: /* Error: Ran out of types for this method. */;
+- (id)initWithTimeInterval:sinceDate: /* Error: Ran out of types for this method. */;
+- (id)COMMUNITY_NON_PII;
 - (void)scriptorProto0
 options (2.google.protobuf.MessageOptionsF
 reserved_range	 (2..google.protobuf.DescriptorProto.ReservedRange
@@ -170,8 +166,6 @@ deprecated (:false
 
 // Remaining properties
 @property(nonatomic) _Bool hasSupportsWalkingExperience2022;
-@property(nonatomic) _Bool supportsWalkingExperience2022;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

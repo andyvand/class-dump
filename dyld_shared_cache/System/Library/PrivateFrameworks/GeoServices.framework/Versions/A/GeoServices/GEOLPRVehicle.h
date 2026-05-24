@@ -9,32 +9,12 @@
 @interface GEOLPRVehicle
 {
     PBDataReader *_reader;
-    NSString *_licensePlate;
-    NSString *_name;
-    NSString *_powerTypeKey;
-    NSString *_vehicleTypeKey;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_licensePlate:1;
-        unsigned int read_name:1;
-        unsigned int read_powerTypeKey:1;
-        unsigned int read_vehicleTypeKey:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)BasedPosition:(id)arg1;
++ (_Bool)setHasSelectionBasedPosition:(id)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLicensePlate;
-@property(readonly, nonatomic) _Bool hasPowerTypeKey;
-@property(readonly, nonatomic) _Bool hasVehicleTypeKey;
-@property(retain, nonatomic) NSString *licensePlate;
 @property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) NSString *powerTypeKey;
-@property(retain, nonatomic) NSString *vehicleTypeKey;
 
 @end
 

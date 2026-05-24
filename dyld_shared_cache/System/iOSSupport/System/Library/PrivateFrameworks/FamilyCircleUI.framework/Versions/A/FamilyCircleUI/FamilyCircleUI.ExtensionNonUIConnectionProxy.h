@@ -8,9 +8,6 @@
 {
     id $defaultActor;
     id extensionPointIdentifier;
-    id extensionBundleIdentifier;
-    id cachedConnection;
-    id connectionTask;
 }
 
 @end

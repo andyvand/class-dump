@@ -7,11 +7,6 @@
 @interface AppKit.NSScrollPocket.ElementContainerModel__priv_EC3F85FAB7755D56E669206D2B17725B
 {
     id container;
-    id pocket;
-    id scrollPocketContributorObserverID;
-    id hidesTitlebarElementsObserverID;
-    id registeredElements;
-    id hidesTitlebarElements;
 }
 
 @end

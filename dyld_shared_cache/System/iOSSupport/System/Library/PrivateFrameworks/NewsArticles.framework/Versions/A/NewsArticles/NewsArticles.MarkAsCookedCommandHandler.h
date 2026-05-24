@@ -7,11 +7,6 @@
 @interface NewsArticles.MarkAsCookedCommandHandler
 {
     id recipeUserDataManager;
-    id recipeUserFeedDataRepository;
-    id featureAvailability;
-    id sceneProvider;
-    id commandCenter;
-    id recipeAccessProvider;
 }
 
 @end

@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSNumber, NSString, PXStoryModel;
-@protocol PXStoryLayoutSpec, PXStoryThumbnailActionPerformer;
+@protocol PXStoryLayoutSpec;
 
 @interface PXStoryThumbnailChromeLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    unsigned int _actionMenuButtonSpriteIndex;
-    unsigned int _favoriteButtonSpriteIndex;
-    unsigned int _playButtonSpriteIndex;
-    unsigned int _detailsViewButtonSpriteIndex;
-    unsigned short _contentVersion;
-    _Bool _isFavorite;
-    NSIndexSet *_axSpriteIndexes;
-    PXStoryModel *_model;
-    id <PXStoryThumbnailActionPerformer> _actionPerformer;
-    double _scaleFromTopRightCorner;
-    NSNumber *_alphaOverride;
 }
 
 - (id);
 - (Class);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)<;
 - (unsigned int);
 - (id);
 - (void);
@@ -55,28 +43,15 @@
 - (void);
 - (id);
 - (void);
-- (id)etAllowZoomFromSheets: /* Error: Ran out of types for this method. */;
-- (_Bool)itWithInput: /* Error: Ran out of types for this method. */;
+- (id)setAllowZoomFromSheets: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithInput: /* Error: Ran out of types for this method. */;
 - (id)elButtonHeight;
-- (void)mPlacesDetailShowMorePreparation;
+- (void)EnterOneUpFromPlacesDetailShowMorePreparation;
 - (void)rtAlbumPhotoKitEditingContext.m;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryThumbnailActionPerformer> actionPerformer; // @synthesize actionPerformer=_actionPerformer;
-@property(retain, nonatomic) NSNumber *alphaOverride; // @synthesize alphaOverride=_alphaOverride;
-@property(readonly, nonatomic) NSIndexSet *axSpriteIndexes; // @synthesize axSpriteIndexes=_axSpriteIndexes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFavorite; // @synthesize isFavorite=_isFavorite;
-@property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(nonatomic) double scaleFromTopRightCorner; // @synthesize scaleFromTopRightCorner=_scaleFromTopRightCorner;
 @property(readonly, nonatomic) id <PXStoryLayoutSpec> spec;
-@property(readonly) Class superclass;
 
 @end
 

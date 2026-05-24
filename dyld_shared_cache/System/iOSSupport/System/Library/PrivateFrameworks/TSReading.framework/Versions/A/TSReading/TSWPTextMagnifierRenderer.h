@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer;
 @protocol TSWPTextMagnifierRendererDelegate;
 
 @interface TSWPTextMagnifierRenderer
 {
     id <TSWPTextMagnifierRendererDelegate> _delegate;
-    CALayer *_underlayLayer;
-    CALayer *_canvasLayer;
-    CALayer *_overlayLayer;
-    int _autoscrollDirections;
 }
 
-- (id);
-- (void);
+- (id)llerImplementation;
+- (void)FullAlignmentTaskV2;
 - (int);
 - (void);
 - (void);
@@ -32,7 +27,6 @@
 - (void)ôÁVíæ;
 
 // Remaining properties
-@property(nonatomic) int autoscrollDirections; // @synthesize autoscrollDirections=_autoscrollDirections;
 @property(nonatomic) id <TSWPTextMagnifierRendererDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

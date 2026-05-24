@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)faultPaymentApplication;
+- (void)userDefaultPaymentApplication;
 
 @end
 

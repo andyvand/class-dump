@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, SSCAMetalLayerSession, SignpostAggregation;
+@class SSCAMetalLayerSession;
 
 @interface SSInflightCAMetalLayerIntervalStats
 {
     SSCAMetalLayerSession *_parentSession;
-    unsigned long long _intervalBeginMCT;
-    unsigned long long _intervalEndMCT;
-    double _timebaseRatio;
-    NSDate *_intervalBeginDate;
-    NSDate *_intervalEndDate;
-    SignpostAggregation *_presentedFrameStatsAggregation;
-    SignpostAggregation *_skippedFrameStatsAggregation;
-    SignpostAggregation *_lateClientPresentStatsAggregation;
-    SignpostAggregation *_latePresentOnGlassStatsAggregation;
 }
 
-+ (_Bool);
++ (_Bool);
 - (double);
 - (id);
+- (void)#;
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
@@ -36,13 +27,13 @@
 - (id);
 - (id);
 - (id);
+- (id)#;
+- (id);
+- (id)";
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (void);
@@ -52,16 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *intervalBeginDate; // @synthesize intervalBeginDate=_intervalBeginDate;
-@property(readonly, nonatomic) unsigned long long intervalBeginMCT; // @synthesize intervalBeginMCT=_intervalBeginMCT;
-@property(readonly, nonatomic) NSDate *intervalEndDate; // @synthesize intervalEndDate=_intervalEndDate;
-@property(readonly, nonatomic) unsigned long long intervalEndMCT; // @synthesize intervalEndMCT=_intervalEndMCT;
-@property(retain, nonatomic) SignpostAggregation *lateClientPresentStatsAggregation; // @synthesize lateClientPresentStatsAggregation=_lateClientPresentStatsAggregation;
-@property(retain, nonatomic) SignpostAggregation *latePresentOnGlassStatsAggregation; // @synthesize latePresentOnGlassStatsAggregation=_latePresentOnGlassStatsAggregation;
 @property(readonly, nonatomic) __weak SSCAMetalLayerSession *parentSession; // @synthesize parentSession=_parentSession;
-@property(retain, nonatomic) SignpostAggregation *presentedFrameStatsAggregation; // @synthesize presentedFrameStatsAggregation=_presentedFrameStatsAggregation;
-@property(retain, nonatomic) SignpostAggregation *skippedFrameStatsAggregation; // @synthesize skippedFrameStatsAggregation=_skippedFrameStatsAggregation;
-@property(readonly, nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
 
 @end
 

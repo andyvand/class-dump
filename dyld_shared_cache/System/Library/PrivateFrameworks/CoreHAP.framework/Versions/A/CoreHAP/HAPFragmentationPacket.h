@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface HAPFragmentationPacket
 {
     unsigned short _transactionIdentifier;
-    unsigned int _length;
-    unsigned int _offset;
-    NSData *_data;
 }
 
 - (id);
@@ -23,16 +18,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)updateMetadata:(id)arg1 pruningPolicy: /* Error: Ran out of types for this method. */;
+- (id)lastFrameStoreOrCreateWithTimestamp: /* Error: Ran out of types for this method. */;
+- (id)e empty trust object hash
+;
 - (void)<HAP2Cancelable>"32@0:8@"NSData"16@?<v@?@"NSArray"@"NSError">24 /* Error: Ran out of types for this method. */;
 - (unsigned int)se;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) unsigned int length; // @synthesize length=_length;
-@property(readonly, nonatomic) unsigned int offset; // @synthesize offset=_offset;
 @property(readonly, nonatomic) unsigned short transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, POUserLoginConfiguration;
+@class POUserLoginConfiguration;
 
 @interface ASAuthorizationProviderExtensionUserLoginConfiguration
 {
@@ -23,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *loginUserName;
 @property(readonly, nonatomic) POUserLoginConfiguration *userLoginConfiguration; // @synthesize userLoginConfiguration=_userLoginConfiguration;
 
 @end

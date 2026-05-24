@@ -7,6 +7,7 @@
 @protocol HMDIDSSession;
 
 @protocol HMDCameraRemoteStreamReceiverProtocol
+- (id <HMDIDSSession>):8Q16@?<v@?@"NSError">24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <HMDIDSSession> idsSession;

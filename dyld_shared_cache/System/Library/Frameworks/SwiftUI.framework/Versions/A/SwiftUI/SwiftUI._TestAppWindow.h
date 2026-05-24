@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)initWithUser:password:site:creationDate:customTitle: /* Error: Ran out of types for this method. */;
 
 @end
 

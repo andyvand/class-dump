@@ -11,9 +11,9 @@
     MFEWSAccount *_account;
 }
 
+- (id)nextObject;
 - (id);
-- (id);
-- (id)ypes;
+- (id)prohibitedInterfaceTypes;
 - (void)Ð0;
 
 // Remaining properties

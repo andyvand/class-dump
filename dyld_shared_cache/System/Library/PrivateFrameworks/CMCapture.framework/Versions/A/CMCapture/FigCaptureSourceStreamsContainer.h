@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFigCaptureDevice, BWFigCaptureStream, NSArray, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureSourceStreamsContainer
 {
     int _deviceType;
-    int _stillImageDepthDataType;
-    BWFigCaptureDevice *_device;
-    NSArray *_streams;
-    BWFigCaptureStream *_primaryStream;
-    NSDictionary *_streamsByPortType;
-    NSDictionary *_baseZoomFactorsByPortType;
-    NSDictionary *_baseZoomFactorsByPortTypeWithoutFudge;
-    float _minZoomFactorForDepth;
 }
 
-- (void);
+- (void)transformStruct;
 
 @end
 

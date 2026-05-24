@@ -7,9 +7,6 @@
 @interface VMUBacktrace
 {
     unsigned long long _timestamp;
-    int _flavor;
-    CDStruct_a87923d2 _callstack;
-    CDStruct_a87923d2 _asyncCallstack;
 }
 
 + (_Bool);
@@ -22,11 +19,11 @@
 - (id);
 - (id);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (unsigned int);
+- (unsigned int)managedObjectClassName;
 - (unsigned long long *);
-- (void);
+- (void)setArtworkType:(struct sampling_context_t *)arg1;
 - (void);
 - (void);
 - (unsigned long long *);
@@ -34,7 +31,7 @@
 - (id);
 - (unsigned long long *);
 - (int);
-- (void);
+- (void)h;
 - (unsigned long long);
 
 // Remaining properties

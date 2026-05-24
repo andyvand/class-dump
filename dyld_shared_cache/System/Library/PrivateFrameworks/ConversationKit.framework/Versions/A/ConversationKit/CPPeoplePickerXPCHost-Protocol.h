@@ -5,5 +5,7 @@
 //
 
 @protocol CPPeoplePickerXPCHost
+- (void);
+- (void);
 @end
 

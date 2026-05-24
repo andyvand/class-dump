@@ -10,7 +10,7 @@
 - (void))" -> %llu;
 - (void)y view provider. Creating a new registration each time a supplementary view is requested will prevent reuse and cause created supplementary views to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:(_UIKBRTRecognizer *)arg1 %@;
 - (void);
-- (void)ltStatusBarHeightLandscapeLeft;
+- (void)defaultStatusBarHeightLandscapeLeft;
 - (void)7y_t¾7SgycSgG;
 @end
 

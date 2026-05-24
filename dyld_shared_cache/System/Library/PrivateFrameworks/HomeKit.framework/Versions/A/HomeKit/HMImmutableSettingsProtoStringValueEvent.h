@@ -14,11 +14,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)2	;
+- (_Bool)mirage;
 - (void);
 - (id);
 - (id);
@@ -28,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

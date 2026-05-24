@@ -7,7 +7,6 @@
 @protocol _OSLogIndexTimeRangable
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long endTime;
 @property(readonly, nonatomic) unsigned long long oldestTime;
 @end
 

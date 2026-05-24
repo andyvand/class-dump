@@ -5,5 +5,6 @@
 //
 
 @protocol SGTextMessageProcessing
+- (void);
 @end
 

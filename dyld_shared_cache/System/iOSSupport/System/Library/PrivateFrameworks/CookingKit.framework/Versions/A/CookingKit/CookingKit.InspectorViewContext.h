@@ -8,8 +8,6 @@
 {
     id _isContainerHCompact;
     id _hasLeadingTitle;
-    id _confirmationButtonSystemItem;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAnalyticsMultiUserSettingsValueByKeyPath
 {
     int _type;
-    long long _multiUserSettingsValueInteger;
-    NSData *_multiUserSettingsValueData;
-    NSString *_multiUserSettingsValueString;
 }
 
 - (void);
@@ -26,10 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)M&xÙ;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *multiUserSettingsValueData; // @synthesize multiUserSettingsValueData=_multiUserSettingsValueData;
 @property long long multiUserSettingsValueInteger; // @synthesize multiUserSettingsValueInteger=_multiUserSettingsValueInteger;
-@property(copy, nonatomic) NSString *multiUserSettingsValueString; // @synthesize multiUserSettingsValueString=_multiUserSettingsValueString;
-@property int type; // @synthesize type=_type;
 
 @end
 

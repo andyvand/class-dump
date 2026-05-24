@@ -11,14 +11,9 @@
 @interface BMUserFocusComputedModeEvent : BMEventBase
 {
     _Bool _starting;
-    NSString *_mode;
-    NSString *_semanticModeIdentifier;
-    unsigned long long _modeUpdateReason;
-    long long _modeSemanticType;
-    long long _modeUpdateSource;
 }
 
-+ (id);
++ (id)2;
 - (void);
 - (void);
 - (void);
@@ -29,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%<痣;
 - (id);
 - (unsigned int);
 - (id);
@@ -38,31 +33,18 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)Ԇ;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (long long)sationId;
-- (void)y__xml_serialize__free_unpacked;
+- (void)pg_query__xml_serialize__free_unpacked;
 - (id)e->base.descriptor == &pg_query__refresh_mat_view_stmt__descriptor;
 - (void)¤¥¦§;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *mode; // @synthesize mode=_mode;
-@property(nonatomic) long long modeSemanticType; // @synthesize modeSemanticType=_modeSemanticType;
-@property(nonatomic) unsigned long long modeUpdateReason; // @synthesize modeUpdateReason=_modeUpdateReason;
-@property(nonatomic) long long modeUpdateSource; // @synthesize modeUpdateSource=_modeUpdateSource;
-@property(copy, nonatomic) NSString *semanticModeIdentifier; // @synthesize semanticModeIdentifier=_semanticModeIdentifier;
-@property(nonatomic, getter=isStarting) _Bool starting; // @synthesize starting=_starting;
-@property(readonly) Class superclass;
 
 @end
 

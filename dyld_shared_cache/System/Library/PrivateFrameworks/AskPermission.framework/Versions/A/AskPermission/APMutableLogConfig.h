@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(copy) NSString *category; // @dynamic category;
-@property(copy) NSString *subsystem; // @dynamic subsystem;
 @end
 

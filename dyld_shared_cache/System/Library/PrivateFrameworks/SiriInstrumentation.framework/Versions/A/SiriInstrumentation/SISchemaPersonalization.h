@@ -6,55 +6,40 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaVoiceSettings;
-
 @interface SISchemaPersonalization : SISchemaInstrumentationMessage
 {
     _Bool _personalDomainsSetup;
-    _Bool _appleMusicSubscriber;
-    SISchemaVoiceSettings *_voiceSettings;
-    struct {
-        unsigned int personalDomainsSetup:1;
-        unsigned int appleMusicSubscriber:1;
-    } _has;
-    _Bool _hasVoiceSettings;
 }
 
 - (void);
 - (void);
+- (void);
+- (void)";
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
+- (void)�	;
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (_Bool);
 - (id);
+- (void) ;
 - (id);
-- (id)nQualityComplexity;
-- (id)Tasks;
-- (void)_2_1;
+- (id);
+- (void);
+- (unsigned long long)_circularAppIconArtworkToken;
+- (_Bool)a;
+- (_Bool)n WHERE chat_id = OLD.ROWID; END;;
+- (id);
+- (id);
+- (id)deleteConversationQualityComplexity;
+- (id)_executedTasks;
+- (void)MWTFORMATLAYOUT_ITU_3_2_1;
 
 // Remaining properties
-@property(nonatomic) _Bool appleMusicSubscriber; // @synthesize appleMusicSubscriber=_appleMusicSubscriber;
-@property(nonatomic) _Bool hasAppleMusicSubscriber;
-@property(nonatomic) _Bool hasPersonalDomainsSetup;
-@property(nonatomic) _Bool hasVoiceSettings; // @synthesize hasVoiceSettings=_hasVoiceSettings;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool personalDomainsSetup; // @synthesize personalDomainsSetup=_personalDomainsSetup;
-@property(retain, nonatomic) SISchemaVoiceSettings *voiceSettings; // @synthesize voiceSettings=_voiceSettings;
 
 @end
 

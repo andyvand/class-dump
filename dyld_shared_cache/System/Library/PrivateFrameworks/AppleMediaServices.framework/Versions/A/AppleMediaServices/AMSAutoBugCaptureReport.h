@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AMSAutoBugCaptureReport
 {
     void domain;
-    void type;
-    void subtype;
-    void subtypeContext;
-    void process;
-    void thresholdValues;
-    id reporter;
-    id callbackDelegate;
 }
 
 + (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (id)lic}@, urlKnownToBeTrusted:%{public}d /* Error: Ran out of types for this method. */;
@@ -33,11 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *domain;
-@property(nonatomic, readonly) NSString *process;
-@property(nonatomic, readonly) NSString *subtype;
-@property(nonatomic, readonly) NSString *subtypeContext;
-@property(nonatomic, readonly) NSArray *thresholdValues;
-@property(nonatomic, readonly) NSString *type;
 
 @end
 

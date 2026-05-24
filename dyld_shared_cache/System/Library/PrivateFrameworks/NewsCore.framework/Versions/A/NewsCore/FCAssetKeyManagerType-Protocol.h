@@ -5,5 +5,7 @@
 //
 
 @protocol FCAssetKeyManagerType
+- (void);
+- (void);
 @end
 

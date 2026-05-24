@@ -7,42 +7,28 @@
 @interface TopicalityAnonymousFeaturesForAttribute
 {
     long long _countAttributeQUTokenMatch;
-    long long _countAttributeUnigramMatch;
-    long long _countAttributeBigramMatch;
-    long long _countAttributeNgramMatch;
-    long long _countAttributeQUPrefixMatch;
-    long long _countAttributeUnigramPrefixMatch;
-    long long _countAttributeBigramPrefixMatch;
-    long long _countAttributeNgramPrefixMatch;
 }
 
 - (void);
-- (long long);
-- (long long);
+- (long long)6B24@?28;
+- (long long)rSpecialization"16;
+- (void)setQuotedText:(long long)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
+- (long long)facialhair_highlights_preset_picker;
+- (long long)nestedPresetPickers;
+- (long long)FACIALHAIR_ONE_COLOR_MESSAGE;
+- (long long)your facial hair.;
+- (long long)MULTI_COLOR_EYEWEAR_SECONDARY_PLACEHOLDER;
+- (long long)variant_wavy_medium_down_centerPart;
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long countAttributeBigramMatch; // @synthesize countAttributeBigramMatch=_countAttributeBigramMatch;
-@property(nonatomic) long long countAttributeBigramPrefixMatch; // @synthesize countAttributeBigramPrefixMatch=_countAttributeBigramPrefixMatch;
-@property(nonatomic) long long countAttributeNgramMatch; // @synthesize countAttributeNgramMatch=_countAttributeNgramMatch;
-@property(nonatomic) long long countAttributeNgramPrefixMatch; // @synthesize countAttributeNgramPrefixMatch=_countAttributeNgramPrefixMatch;
-@property(nonatomic) long long countAttributeQUPrefixMatch; // @synthesize countAttributeQUPrefixMatch=_countAttributeQUPrefixMatch;
 @property(nonatomic) long long countAttributeQUTokenMatch; // @synthesize countAttributeQUTokenMatch=_countAttributeQUTokenMatch;
-@property(nonatomic) long long countAttributeUnigramMatch; // @synthesize countAttributeUnigramMatch=_countAttributeUnigramMatch;
-@property(nonatomic) long long countAttributeUnigramPrefixMatch; // @synthesize countAttributeUnigramPrefixMatch=_countAttributeUnigramPrefixMatch;
 
 @end
 

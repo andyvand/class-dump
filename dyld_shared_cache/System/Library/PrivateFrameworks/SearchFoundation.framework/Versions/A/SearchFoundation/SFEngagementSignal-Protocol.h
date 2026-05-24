@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber;
+@class NSData, NSNumber;
 
 @protocol SFEngagementSignal
+- (void);
+- (NSData *)H.3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *domainEngagementScores;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *localScore;
-@property(copy, nonatomic) NSNumber *localScoreConfidence;
-@property(copy, nonatomic) NSNumber *serverScore;
-@property(copy, nonatomic) NSNumber *serverScoreConfidence;
 @property(copy, nonatomic) NSNumber *version;
 @end
 

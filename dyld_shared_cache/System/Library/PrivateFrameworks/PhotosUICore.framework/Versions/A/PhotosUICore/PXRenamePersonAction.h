@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSString, PHPerson;
+@class PHPerson;
 
 @interface PXRenamePersonAction : PXPhotosAction
 {
     PHPerson *_person;
-    NSString *_name;
-    NSString *_originalName;
-    NSString *_originalUri;
 }
 
 - (id);
@@ -23,15 +20,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (id)ÿfþÿ;
 - (void)üMTÿ$NTÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *originalName; // @synthesize originalName=_originalName;
-@property(readonly, copy, nonatomic) NSString *originalUri; // @synthesize originalUri=_originalUri;
 @property(readonly, nonatomic) PHPerson *person; // @synthesize person=_person;
 
 @end

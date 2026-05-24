@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)7;
 + (id);
-+ (void);
++ (void)3i;
 - (_Bool);
 - (id);
 - (id);

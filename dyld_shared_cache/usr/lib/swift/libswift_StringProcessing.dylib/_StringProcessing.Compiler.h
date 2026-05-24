@@ -8,7 +8,6 @@
 {
     id tree;
     id options;
-    id compileOptions;
 }
 
 @end

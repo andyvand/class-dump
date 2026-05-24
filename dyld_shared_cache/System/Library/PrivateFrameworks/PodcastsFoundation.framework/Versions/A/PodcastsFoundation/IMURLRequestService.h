@@ -22,7 +22,6 @@
 - (void)lay.itunes.apple.com/WebObjects/MZPlay.woa/podcast/hls/license/streaming/renew;
 
 // Remaining properties
-@property(retain, nonatomic) NSURLRequest *mutableRequest; // @synthesize mutableRequest=_mutableRequest;
 @property(retain, nonatomic) id <NSURLSessionDelegate><AMSURLProtocolDelegate> urlSessionDelegate;
 
 @end

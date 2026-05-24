@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIButtonConfiguration, UIColor, UIFont, UITraitCollection;
+@class UIColor, UIFont, UIImageSymbolConfiguration, UITraitCollection;
 
 @protocol UIContentUnavailableConstants
 + (id)_startEngineIfNecessaryOnQueueWithReason:completionBlock: /* Error: Ran out of types for this method. */;
+- (UIColor *);
+- (UIImageSymbolConfiguration *)homography;
 - (double)1Â0@ù
 × ;
 - (UIColor *)0@ù
@@ -16,9 +18,8 @@
 × ;
 - (UIColor *)× ;
 - (UIColor *)"UITableView"16@"UIContextMenuConfiguration"24@"<UIContextMenuInteractionCommitAnimating>"32;
-- (UIFont *)kdrop:(UITraitCollection *)arg1;
+- (UIFont *)setBelowGlassWarpBackdrop:(UITraitCollection *)arg1;
 - (double);
-- (UIButtonConfiguration *);
 - (UIColor *)%@; view:%@; layout attributes:%@ /* Error: Ran out of types for this method. */;
 - (double)the default value of %@. Ensure that your app is properly entitled.;
 @end

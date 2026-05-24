@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id)ntentMarginsGuideIfExists;
+- (id)_contentMarginsGuideIfExists;
 - (void);
 
 // Remaining properties

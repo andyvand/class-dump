@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RoundedWindow, TabPreviewViewController;
-@protocol TabBarViewItem, TabPreviewWindowControllerDelegate;
+@class RoundedWindow;
+@protocol TabPreviewWindowControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface TabPreviewWindowController
 {
     RoundedWindow *_tabPreviewWindow;
-    TabPreviewViewController *_tabPreviewViewController;
-    unsigned long long _pendingShowAnimations;
-    _Bool _previewsVerticalTab;
-    id <TabPreviewWindowControllerDelegate> _delegate;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -31,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <TabPreviewWindowControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool previewsVerticalTab; // @synthesize previewsVerticalTab=_previewsVerticalTab;
-@property(readonly, nonatomic) id <TabBarViewItem> tabBarViewItem;
 
 @end
 

@@ -9,34 +9,32 @@
 @interface NTPBPurchaseOffersItem
 {
     NSString *_purchaseId;
-    int _purchaseType;
-    CDStruct_53d4ade2 _has;
 }
 
+- (void)excludeSharedAlbums;
+- (id)customWindowsToEnterFullScreenForWindow:(int)arg1;
+- (_Bool)assetVideoPresentationController:didReachTime: /* Error: Ran out of types for this method. */;
+- (int)assetIdentifiersForPersonIdentifiers:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (_Bool);
 - (int);
-- (void);
-- (int);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)t0;
+- (_Bool)RemoteDiskID		:(id)arg1 %@
+Is Final Selected System:%d
+Is latest Backup	:%d
+Backups			:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)ccsivEncryptionFailure;
 - (id);
 - (id);
-- (void)iclesShown: /* Error: Ran out of types for this method. */;
+- (void)setMaxArticlesShown: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPurchaseId;
-@property(nonatomic) _Bool hasPurchaseType;
-@property(retain, nonatomic) NSString *purchaseId; // @synthesize purchaseId=_purchaseId;
-@property(nonatomic) int purchaseType; // @synthesize purchaseType=_purchaseType;
 
 @end
 

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface OSAExclaveContainer
 {
     _Bool _isExclaveValid;
-    NSMutableDictionary *_addressSpaces;
-    NSMutableDictionary *_layouts;
-    NSMutableDictionary *_threads;
-    NSMutableDictionary *_threadIdToScId;
-    NSMutableArray *_sharedCaches;
-    NSMutableArray *_notes;
 }
 
-- (id);
+- (id)needsTinting;
 - (void);
-- (void);
-- (void);
-- (struct kcdata_iter);
+- (void)ler;
+- (void)N,V_drawPlattersIfNecessary;
+- (struct kcdata_iter)is:(struct kcdata_iter)arg1;
 - (_Bool);
-- (id);
-- (id);
+- (id)@"TLKLabel",&,V_tlkTitleLabel;
+- (id)tate",&,N,V_watchListState;
 - (id);
 - (id);
 - (id);
@@ -36,12 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *addressSpaces; // @synthesize addressSpaces=_addressSpaces;
-@property(nonatomic) _Bool isExclaveValid; // @synthesize isExclaveValid=_isExclaveValid;
-@property(readonly, nonatomic) NSMutableDictionary *layouts; // @synthesize layouts=_layouts;
-@property(retain, nonatomic) NSMutableArray *notes; // @synthesize notes=_notes;
-@property(retain, nonatomic) NSMutableArray *sharedCaches; // @synthesize sharedCaches=_sharedCaches;
-@property(readonly, nonatomic) NSMutableDictionary *threadIdToScId; // @synthesize threadIdToScId=_threadIdToScId;
-@property(readonly, nonatomic) NSMutableDictionary *threads; // @synthesize threads=_threads;
 
 @end
 

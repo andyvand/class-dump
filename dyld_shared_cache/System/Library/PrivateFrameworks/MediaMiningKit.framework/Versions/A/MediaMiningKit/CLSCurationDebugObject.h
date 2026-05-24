@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface CLSCurationDebugObject
 {
     NSMutableArray *_stateHistory;
-    unsigned long long _tentativeSectionStateHistoryLength;
-    unsigned long long _stateAtBeginningOfTentativeSection;
-    unsigned long long _state;
 }
 
 + (id);
@@ -20,7 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)%@
+	numberOfSuccessfulNotifications:%lu
+	numberOfUnsuccessfulNotifications:%lu
+	 /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
@@ -28,7 +28,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long state; // @synthesize state=_state;
-@property(readonly) NSArray *stateHistory; // @synthesize stateHistory=_stateHistory;
 
 @end
 

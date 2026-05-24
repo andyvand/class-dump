@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-@protocol FCCoreConfigurationManager, FCNetworkBehaviorMonitor, FCNetworkReachabilityType;
+@protocol FCCoreConfigurationManager;
 
 @interface FCCKContentDatabase
 {
     _Bool _isProductionEnvironment;
-    _Bool _shouldUseCloudd;
-    _Bool _shouldUseSecureConnectionForCKAssetURLs;
-    _Bool _shouldBypassCDNForCKAssetURLs;
-    NSString *_containerIdentifier;
-    id <FCNetworkBehaviorMonitor> _networkBehaviorMonitor;
-    id <FCNetworkReachabilityType> _networkReachability;
-    double _maximumRetryAfterForCK;
-    id <FCCoreConfigurationManager> _configurationManager;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)wantsStraighten;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)%{public}s:%d, %{public}s forbids:%{public}s. Requires a destinationd entry /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -38,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)ntCount;
+- (_Bool)articleDislikedEventCount;
 - (void)ndleQueryOperation:(id)arg1 withRecords:droppedFeeds:] /* Error: Ran out of types for this method. */;
 - (void)OS=%@, macOS=%@, watchOS=%@, visionOS=%@;
 - (id);
@@ -47,20 +38,7 @@
 - (double)¿Ýÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *baseURLForEdgeCachedMultiFetch;
-@property(readonly, copy, nonatomic) NSURL *baseURLForEdgeCachedOrderFeed;
-@property(readonly, copy, nonatomic) NSURL *baseURLForMultiFetch;
-@property(readonly, copy, nonatomic) NSURL *baseURLForOrderFeed;
-@property(readonly, copy, nonatomic) NSURL *baseURLForRecordFetch;
 @property(readonly, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, copy, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly, nonatomic) _Bool isProductionEnvironment; // @synthesize isProductionEnvironment=_isProductionEnvironment;
-@property(nonatomic) double maximumRetryAfterForCK; // @synthesize maximumRetryAfterForCK=_maximumRetryAfterForCK;
-@property(readonly, nonatomic) id <FCNetworkBehaviorMonitor> networkBehaviorMonitor; // @synthesize networkBehaviorMonitor=_networkBehaviorMonitor;
-@property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability; // @synthesize networkReachability=_networkReachability;
-@property(nonatomic) _Bool shouldBypassCDNForCKAssetURLs; // @synthesize shouldBypassCDNForCKAssetURLs=_shouldBypassCDNForCKAssetURLs;
-@property(readonly, nonatomic) _Bool shouldUseCloudd; // @synthesize shouldUseCloudd=_shouldUseCloudd;
-@property(nonatomic) _Bool shouldUseSecureConnectionForCKAssetURLs; // @synthesize shouldUseSecureConnectionForCKAssetURLs=_shouldUseSecureConnectionForCKAssetURLs;
 
 @end
 

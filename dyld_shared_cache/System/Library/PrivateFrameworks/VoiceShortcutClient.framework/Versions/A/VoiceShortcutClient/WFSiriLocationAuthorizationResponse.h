@@ -11,12 +11,12 @@
     _Bool _didAuthorize;
 }
 
-+ (_Bool);
-- (id);
-- (_Bool);
++ (_Bool)__objc_doubleobj__AUTH_CONST;
+- (id)$z;
+- (_Bool)l;
 - (id);
 - (void);
-- (id);
+- (id)eys '%@';
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool didAuthorize; // @synthesize didAuthorize=_didAuthorize;

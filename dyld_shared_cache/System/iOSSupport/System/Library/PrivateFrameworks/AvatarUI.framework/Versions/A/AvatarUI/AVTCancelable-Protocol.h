@@ -5,5 +5,6 @@
 //
 
 @protocol AVTCancelable
+- (void)@9	;
 @end
 

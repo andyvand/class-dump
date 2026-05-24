@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIImageView, UILabel;
-
 __attribute__((visibility("hidden")))
 @interface AVMobileFullscreenPlaceholderView
 {
     _Bool _viewHasBeenSetUp;
-    _Bool _scaleHasBeenSetUp;
-    unsigned long long _activeIndicatorScale;
-    NSArray *_variableConstraints;
-    UIImageView *_imageView;
-    UILabel *_infoTextLabel;
 }
 
 + (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)S;
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (id)ersVolumeButtonIncluded:animated: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)setPrefersVolumeSliderExpanded:prefersVolumeButtonIncluded:animated: /* Error: Ran out of types for this method. */;
 
 @end
 

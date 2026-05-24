@@ -6,7 +6,7 @@
 
 @interface UnknownClass (CUIKCalendarListSorter)
 - (id);
-- (id);
+- (id)4;
 - (id);
 @end
 

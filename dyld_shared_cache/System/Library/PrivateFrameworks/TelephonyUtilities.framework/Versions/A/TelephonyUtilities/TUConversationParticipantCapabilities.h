@@ -7,30 +7,14 @@
 @interface TUConversationParticipantCapabilities
 {
     _Bool _momentsAvailable;
-    _Bool _screenSharingAvailable;
-    _Bool _gondolaCallingAvailable;
-    _Bool _personaAvailable;
-    _Bool _gftDowngradeToOneToOneAvailable;
-    _Bool _uPlusNDowngradeAvailable;
-    _Bool _uPlusOneScreenShareAvailable;
-    _Bool _uPlusOneAVLessAvailable;
-    _Bool _supportsLeaveContext;
-    _Bool _supportsRequestToScreenShare;
-    _Bool _uPlusOneVisionToVisionAvailable;
-    _Bool _photosSharePlayAvailable;
-    _Bool _translationAvailable;
-    unsigned long long _sharePlayProtocolVersion;
-    unsigned long long _visionFeatureVersion;
-    unsigned long long _visionCallEstablishmentVersion;
-    unsigned long long _nearbyFeatureVersion;
 }
 
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long))�A9	;
 - (void);
 - (void);
 - (void);
@@ -40,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,28 +49,12 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)?;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, getter=isGFTDowngradeToOneToOneAvailable) _Bool gftDowngradeToOneToOneAvailable; // @synthesize gftDowngradeToOneToOneAvailable=_gftDowngradeToOneToOneAvailable;
-@property(nonatomic, getter=isGondolaCallingAvailable) _Bool gondolaCallingAvailable; // @synthesize gondolaCallingAvailable=_gondolaCallingAvailable;
 @property(nonatomic, getter=isMomentsAvailable) _Bool momentsAvailable; // @synthesize momentsAvailable=_momentsAvailable;
-@property(nonatomic) unsigned long long nearbyFeatureVersion; // @synthesize nearbyFeatureVersion=_nearbyFeatureVersion;
-@property(nonatomic, getter=isPersonaAvailable) _Bool personaAvailable; // @synthesize personaAvailable=_personaAvailable;
-@property(nonatomic, getter=isPhotosSharePlayAvailable) _Bool photosSharePlayAvailable; // @synthesize photosSharePlayAvailable=_photosSharePlayAvailable;
-@property(nonatomic, getter=isScreenSharingAvailable) _Bool screenSharingAvailable; // @synthesize screenSharingAvailable=_screenSharingAvailable;
-@property(nonatomic) unsigned long long sharePlayProtocolVersion; // @synthesize sharePlayProtocolVersion=_sharePlayProtocolVersion;
-@property(nonatomic) _Bool supportsLeaveContext; // @synthesize supportsLeaveContext=_supportsLeaveContext;
-@property(nonatomic) _Bool supportsRequestToScreenShare; // @synthesize supportsRequestToScreenShare=_supportsRequestToScreenShare;
-@property(nonatomic, getter=isTranslationAvailable) _Bool translationAvailable; // @synthesize translationAvailable=_translationAvailable;
-@property(nonatomic, getter=isUPlusNDowngradeAvailable) _Bool uPlusNDowngradeAvailable; // @synthesize uPlusNDowngradeAvailable=_uPlusNDowngradeAvailable;
-@property(nonatomic, getter=isUPlusOneAVLessAvailable) _Bool uPlusOneAVLessAvailable; // @synthesize uPlusOneAVLessAvailable=_uPlusOneAVLessAvailable;
-@property(nonatomic, getter=isUPlusOneScreenShareAvailable) _Bool uPlusOneScreenShareAvailable; // @synthesize uPlusOneScreenShareAvailable=_uPlusOneScreenShareAvailable;
-@property(nonatomic, getter=isUPlusOneVisionToVisionAvailable) _Bool uPlusOneVisionToVisionAvailable; // @synthesize uPlusOneVisionToVisionAvailable=_uPlusOneVisionToVisionAvailable;
-@property(nonatomic) unsigned long long visionCallEstablishmentVersion; // @synthesize visionCallEstablishmentVersion=_visionCallEstablishmentVersion;
-@property(nonatomic) unsigned long long visionFeatureVersion; // @synthesize visionFeatureVersion=_visionFeatureVersion;
 
 @end
 

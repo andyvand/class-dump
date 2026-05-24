@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSPObjectContext, TSPUnknownContent;
-@protocol TSPObjectDelegate;
-
 @interface TSPObject
 {
     long long _identifier;
-    long long _modifyObjectToken;
-    long long _unarchiverIdentifier;
-    TSPUnknownContent *_unknownContent;
-    id <TSPObjectDelegate> _delegate;
 }
 
 + (_Bool);
 - (void);
-- (id);
-- (long long);
-- (long long);
-- (long long);
+- (id)d;
+- (long long)cy-end;
+- (long long)reated;
+- (long long)on-tick;
+- (id)ed-metadata-end;
+- (_Bool)CommandTimeout;
+- (_Bool)a playback session could not be created.;
+- (void)mmand event:(long long)arg1;
+- (void)issing session data type for command event:(long long)arg1;
+- (void)currentItemDuration;
+- (id)queueHideCount;
+- (_Bool)PlayerEffectiveRateChange;
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (_Bool);
 - (void);
 - (id);
@@ -49,21 +42,7 @@
 L ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsImplicitComponentOwnership;
-@property(readonly, nonatomic) TSPObject *componentRootObject;
-@property(readonly, nonatomic) TSPObjectContext *context;
-@property(readonly, nonatomic) unsigned int delayedArchivingPriority;
-@property(readonly, nonatomic) _Bool isCommandObject;
-@property(readonly, nonatomic) _Bool isComponentRoot;
-@property(readonly, nonatomic) _Bool needsArchiving;
-@property(readonly, nonatomic) NSString *packageLocator;
-@property(readonly, nonatomic) _Bool shouldDelayArchiving;
-@property(readonly, nonatomic) _Bool storeOutsideObjectArchive;
-@property(nonatomic) __weak id <TSPObjectDelegate> tsp_delegate; // @synthesize tsp_delegate=_delegate;
 @property(nonatomic) long long tsp_identifier; // @synthesize tsp_identifier=_identifier;
-@property(nonatomic) long long tsp_modifyObjectToken; // @synthesize tsp_modifyObjectToken=_modifyObjectToken;
-@property(readonly, nonatomic) long long tsp_unarchiverIdentifier; // @synthesize tsp_unarchiverIdentifier=_unarchiverIdentifier;
-@property(readonly, nonatomic) TSPUnknownContent *tsp_unknownContent; // @synthesize tsp_unknownContent=_unknownContent;
 
 @end
 

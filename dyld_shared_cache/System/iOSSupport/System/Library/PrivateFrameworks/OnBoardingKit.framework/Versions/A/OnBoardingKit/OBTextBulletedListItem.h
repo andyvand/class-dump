@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (double);
-- (double);
+- (double)or = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::IDBDatabaseIdentifier, std::unique_ptr<WebCore::IDBServer::UniqueIDBDatabase>>>, HashFunctions = WTF::DefaultHash<WebCore::IDBDatabaseIdentifier>, Traits = WTF::HashMap<WebCore::IDBDatabaseIdentifier, std::unique_ptr<WebCore::IDBServer::UniqueIDBDatabase>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::IDBDatabaseIdentifier>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 

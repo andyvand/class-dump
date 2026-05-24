@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol INMoveFileIntent
-- (void)ion:(NSString *)arg1;
+- (NSString *)ckedByDefault;
+- (void);
+- (void)provideLocationOptionsForCreateEvent:(NSString *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (NSString *);
 
 // Remaining properties
-@property(copy) NSString *destinationName;
-@property(copy) NSString *destinationType;
-@property(copy) NSArray *entityNames;
 @property unsigned long long entityTypes;
-@property(copy) NSArray *properties;
-@property(copy) NSString *sourceName;
-@property(copy) NSString *sourceType;
 @end
 

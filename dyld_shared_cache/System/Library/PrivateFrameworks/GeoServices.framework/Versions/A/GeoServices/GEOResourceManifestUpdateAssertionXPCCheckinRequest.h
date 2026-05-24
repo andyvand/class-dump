@@ -11,32 +11,23 @@
 @interface GEOResourceManifestUpdateAssertionXPCCheckinRequest : GEOXPCRequest
 {
     NSString *_reason;
-    double _timestamp;
 }
 
-+ (Class);
++ (Class)Array"32@"NSString"40@"NSString"48;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)until all data is sent to the kernel;
 - (void);
 - (void)0@ù
 × ;
-- (void)reTime:(id)arg1;
+- (void)setExpectedDepartureTime:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

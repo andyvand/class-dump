@@ -5,5 +5,8 @@
 //
 
 @protocol CNContactViewControllerDelegate
+
+@optional
+- (_Bool);
 @end
 

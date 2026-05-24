@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface RTDTWResult
 {
     double _distance;
-    NSArray *_cellIndices;
 }
 
-- (id);
-- (id);
+- (id)setMasterKeyId:(double)arg1;
+- (id)got %@ from the record;
 - (void);
 - (double);
 - (void)onPreprocessor:applyRule_largeDistanceTransitionsAreInvalid_ForTransitionAtIndex:failed to fetch visit location for identifiers %@ and %@. Passthrough. /* Error: Ran out of types for this method. */;
 - (void)%@, poi category, %@, timezone, %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *cellIndices; // @synthesize cellIndices=_cellIndices;
 @property(nonatomic) double distance; // @synthesize distance=_distance;
 
 @end

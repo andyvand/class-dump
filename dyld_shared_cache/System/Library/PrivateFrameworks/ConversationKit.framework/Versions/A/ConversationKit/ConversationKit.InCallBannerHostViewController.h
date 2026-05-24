@@ -9,8 +9,6 @@
 @interface ConversationKit.InCallBannerHostViewController : PlatformViewController
 {
     id inCallBannerDelegate;
-    id isDismissed;
-    id requiresControlsHidden;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID, SFLBookmark;
 @protocol SFLInternalItem;
 
 @interface SFLItem
 {
     id _internalItem;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
@@ -22,32 +20,26 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)sFloat32FilteringSupported;
+- (void)l;
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)buffer
+;
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long)¦P¦°¦Ô¦§ô¨ø¨© ©ð©ªª¨ª\««`¬t¬­­x¯|¯È°Ì° ¶à¶8·L·ä·ø·X¸¸¼(¼ ¼Ü¼¬½À½p¾;
 
 // Remaining properties
-@property(retain) id <SFLInternalItem> _internalItem; // @synthesize _internalItem;
-@property(copy) SFLBookmark *bookmark;
-@property(readonly) NSUUID *identifier;
 @property(retain) id <SFLInternalItem> internalItem;
-@property(retain) NSString *listIdentifier;
-@property(copy) NSString *name;
-@property(copy) NSDictionary *properties;
-@property(readonly) unsigned long long seed;
 
 @end
 

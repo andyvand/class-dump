@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineStore, CPLPlatformObject, NSString;
+@class CPLEngineStore;
 
 @interface CPLEngineStorage
 {
     _Bool _superWasCalled;
-    _Bool _shouldBeCreatedDynamically;
-    CPLPlatformObject *_platformObject;
-    NSString *_name;
-    CPLEngineStore *_engineStore;
 }
 
 + (id);
 - (_Bool);
-- (id);
+- (id)L;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -29,13 +25,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)oïà©Ð;
-- (_Bool)ó;
-- (id)àªj  ;
-- (void)P;
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)AL;
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -46,22 +42,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) CPLEngineStore *engineStore; // @synthesize engineStore=_engineStore;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAlive;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) NSString *mainScopeIdentifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject; // @synthesize platformObject=_platformObject;
-@property(readonly, nonatomic) unsigned long long scopeType;
-@property(readonly, nonatomic) _Bool shouldBeCreatedDynamically; // @synthesize shouldBeCreatedDynamically=_shouldBeCreatedDynamically;
-@property(readonly, nonatomic) _Bool shouldIncludeInStatus;
-@property(readonly) Class superclass;
 
 @end
 

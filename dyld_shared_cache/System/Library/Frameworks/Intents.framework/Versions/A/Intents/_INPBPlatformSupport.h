@@ -11,8 +11,6 @@
     struct {
         unsigned int supportedPlatform:1;
     } _has;
-    int _supportedPlatform;
-    NSString *_minimumOsVersion;
 }
 
 + (_Bool);
@@ -20,12 +18,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)9h;
 - (_Bool);
 - (_Bool);
 - (int);
-- (int);
-- (id);
+- (int)_cancelBlock;
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -33,20 +31,10 @@
 - (void);
 - (id);
 - (id);
-- (void)ta;
+- (void)_payloadGetSettingResponseData;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMinimumOsVersion;
-@property(nonatomic) _Bool hasSupportedPlatform;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *minimumOsVersion; // @synthesize minimumOsVersion=_minimumOsVersion;
-@property(readonly) Class superclass;
-@property(nonatomic) int supportedPlatform; // @synthesize supportedPlatform=_supportedPlatform;
 
 @end
 

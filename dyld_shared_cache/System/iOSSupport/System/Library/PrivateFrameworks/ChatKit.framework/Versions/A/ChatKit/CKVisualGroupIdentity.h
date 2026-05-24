@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)reservedForCollaborationColorManager;
+- (id)isCalculateResultAttachmentView;
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (void);
-- (void)ouldHideProgressBar;
+- (void)ShouldHideProgressBar;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *groupParticipantCount; // @synthesize groupParticipantCount=_groupParticipantCount;

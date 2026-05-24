@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGSongEntry;
+@class NSString;
 
 @interface PGSongPlaybackInfoEntry
 {
@@ -14,14 +14,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *dateUTC; // @dynamic dateUTC;
-@property(nonatomic, copy) NSString *devices; // @dynamic devices;
-@property(nonatomic, copy) NSString *hoursUTC; // @dynamic hoursUTC;
-@property(nonatomic) _Bool ignoreForRecommendations; // @dynamic ignoreForRecommendations;
-@property(nonatomic, copy) NSString *lastEndReason; // @dynamic lastEndReason;
-@property(nonatomic) long long playCount; // @dynamic playCount;
-@property(nonatomic) long long playDurationInMilliseconds; // @dynamic playDurationInMilliseconds;
-@property(nonatomic) long long skipCount; // @dynamic skipCount;
-@property(nonatomic, retain) PGSongEntry *song; // @dynamic song;
 
 @end
 

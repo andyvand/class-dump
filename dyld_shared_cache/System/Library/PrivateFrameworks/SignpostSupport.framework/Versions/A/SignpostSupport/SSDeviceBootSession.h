@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, SSCAMetalLayerClientSessionAccumulator;
+@class NSMutableArray;
 
 @interface SSDeviceBootSession
 {
     _Bool _includeTimelines;
-    NSDate *_earliestDate;
-    NSDate *_latestDate;
-    NSMutableArray *_mutableChronologicalClientSessions;
-    SSCAMetalLayerClientSessionAccumulator *_parentAccumulator;
-    NSMutableDictionary *_mutableProcessIDToClientSession;
 }
 
 - (void);
@@ -21,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)\;
 - (id);
 - (_Bool);
 - (id);
@@ -36,21 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *earliestDate; // @synthesize earliestDate=_earliestDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeTimelines; // @synthesize includeTimelines=_includeTimelines;
-@property(retain, nonatomic) NSDate *latestDate; // @synthesize latestDate=_latestDate;
 @property(readonly, nonatomic) NSMutableArray *mutableChronologicalClientSessions; // @synthesize mutableChronologicalClientSessions=_mutableChronologicalClientSessions;
-@property(readonly, nonatomic) NSMutableDictionary *mutableProcessIDToClientSession; // @synthesize mutableProcessIDToClientSession=_mutableProcessIDToClientSession;
-@property(readonly, nonatomic) __weak SSCAMetalLayerClientSessionAccumulator *parentAccumulator; // @synthesize parentAccumulator=_parentAccumulator;
-@property(readonly, nonatomic) NSDictionary *processIDToClientSession;
-@property(readonly, nonatomic) NSDictionary *processNameToClientSessions;
-@property(readonly) Class superclass;
 
 @end
 

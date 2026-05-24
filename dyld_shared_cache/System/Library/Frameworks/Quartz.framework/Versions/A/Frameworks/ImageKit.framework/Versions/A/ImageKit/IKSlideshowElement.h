@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKSlideshowDataSourceHandler, NSString, NSURL;
+@class IKSlideshowDataSourceHandler;
 
 __attribute__((visibility("hidden")))
 @interface IKSlideshowElement
 {
     IKSlideshowDataSourceHandler *_dataSourceHandler;
-    unsigned long long _dataSourceIndex;
-    unsigned long long _subIndex;
-    IKSlideshowElement *_prev;
-    IKSlideshowElement *_next;
-    NSString *_name;
-    NSString *_utType;
-    NSURL *_cachedURL;
-    double _transitionTime;
-    int _direction;
-    _Bool _loading;
-    _Bool _displayAfterLoad;
-    _Bool _thumbnailLoaded;
-    _Bool _dataSourceItemIsCached;
-    _Bool _didHandleSiblings;
-    struct CGSize _thumbnailSize;
-    struct CGImage *_thumbnail;
-    _Bool _imageLoaded;
-    _Bool _markedForExport;
-    _Bool _preventZoom;
-    _Bool _loadDidFail;
 }
 
 + (struct CGImage *);
@@ -50,9 +30,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)т;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -66,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tringDictionary"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -76,28 +56,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGImage *);
-- (struct CGSize)ndexForClientIndex: /* Error: Ran out of types for this method. */;
-- (void)ed;
+- (struct CGSize)groupIndexForClientIndex: /* Error: Ran out of types for this method. */;
+- (void)_stopCacheTimeOutTimerIfNeeded;
 - (void);
-- (id);
+- (id)_showDetailsButton;
 
 // Remaining properties
-@property(copy) NSURL *cachedURL; // @synthesize cachedURL=_cachedURL;
-@property unsigned long long dataSourceIndex; // @synthesize dataSourceIndex=_dataSourceIndex;
-@property _Bool dataSourceItemIsCached; // @synthesize dataSourceItemIsCached=_dataSourceItemIsCached;
-@property int direction; // @synthesize direction=_direction;
-@property _Bool imageLoaded; // @synthesize imageLoaded=_imageLoaded;
-@property _Bool loadDidFail; // @synthesize loadDidFail=_loadDidFail;
-@property _Bool markedForExport; // @synthesize markedForExport=_markedForExport;
-@property(copy) NSString *name; // @synthesize name=_name;
 @property IKSlideshowElement *next; // @synthesize next=_next;
-@property IKSlideshowElement *prev; // @synthesize prev=_prev;
-@property _Bool preventZoom; // @synthesize preventZoom=_preventZoom;
-@property unsigned long long subIndex; // @synthesize subIndex=_subIndex;
-@property _Bool thumbnailLoaded; // @synthesize thumbnailLoaded=_thumbnailLoaded;
-@property struct CGSize thumbnailSize; // @synthesize thumbnailSize=_thumbnailSize;
-@property double transitionTime; // @synthesize transitionTime=_transitionTime;
-@property(copy) NSString *utType; // @synthesize utType=_utType;
 
 @end
 

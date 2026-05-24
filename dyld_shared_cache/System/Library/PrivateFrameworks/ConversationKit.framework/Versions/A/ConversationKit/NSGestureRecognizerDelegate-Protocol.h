@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSGestureRecognizer;
+
 @protocol NSGestureRecognizerDelegate
 
 @optional
+- (_Bool)"<IDSXPCPinnedIdentity>";
+- (_Bool);
+- (_Bool)SError";
+- (_Bool)editorForPasteboardManager:(NSGestureRecognizer *)arg1;
 - (_Bool)úýÿìÿÿ;
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPlayer, AVSecondScreenViewController, CADisplay, NSString, UIScene;
+@class AVPlayer, CADisplay;
 
 __attribute__((visibility("hidden")))
 @interface AVSecondScreenDebugAssistant
 {
     AVPlayer *_player;
-    UIScene *_scene;
-    NSString *_debugText;
-    AVSecondScreenViewController *_secondScreenViewController;
-    CADisplay *_debugInfoDisplay;
-    AVObservationController *_observationController;
 }
 
 - (void);
@@ -26,26 +21,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)reTropicalSavanna;
+- (void)";
+- (id)setSparseFloatFeatureMatrix: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void)ð!Gù1[Ð1Â0@ù
 × ;
-- (id)imator: /* Error: Ran out of types for this method. */;
+- (id)overflowButtonWillHideContextMenu:animator: /* Error: Ran out of types for this method. */;
 - (void)oard command discoverability title;
 
 // Remaining properties
 @property(retain, nonatomic) CADisplay *debugInfoDisplay; // @synthesize debugInfoDisplay=_debugInfoDisplay;
-@property(copy, nonatomic) NSString *debugText; // @synthesize debugText=_debugText;
-@property(retain, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(retain, nonatomic) AVPlayer *player; // @synthesize player=_player;
-@property(nonatomic) __weak UIScene *scene; // @synthesize scene=_scene;
-@property(nonatomic) __weak AVSecondScreenViewController *secondScreenViewController; // @synthesize secondScreenViewController=_secondScreenViewController;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol SharingWriteConfigSync
+
+@optional
+- (oneway void);
 @end
 

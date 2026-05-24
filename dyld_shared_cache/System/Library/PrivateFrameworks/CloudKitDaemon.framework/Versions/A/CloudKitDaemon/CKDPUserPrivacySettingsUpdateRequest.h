@@ -4,39 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPUserPrivacySettings, NSString;
+@class NSString;
 
 @interface CKDPUserPrivacySettingsUpdateRequest
 {
     NSString *_bundleIdentifier;
-    CKDPUserPrivacySettings *_userPrivacySettings;
 }
 
 + (id);
+- (id)q ;
+- (void);
+- (_Bool);
 - (id);
-- (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ream [%{ptr}]...;
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)pper:(id)arg1;
+- (void)setupMMCSWrapper:(id)arg1;
 - (Class)itemTypeHint;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasUserPrivacySettings;
-@property(retain, nonatomic) CKDPUserPrivacySettings *userPrivacySettings; // @synthesize userPrivacySettings=_userPrivacySettings;
 
 @end
 

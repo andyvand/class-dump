@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface _ICDelegationServiceConnectionPendingRequestContext
 {
     ICPBDGSRequest *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)QMI_ERR_INVALID_TX_ID;
 - (id);
 - (void)tring",R,C,N,V_referencePositionUUID;
 
 // Remaining properties
 @property(readonly, nonatomic) ICPBDGSRequest *request; // @synthesize request=_request;
-@property(readonly, copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

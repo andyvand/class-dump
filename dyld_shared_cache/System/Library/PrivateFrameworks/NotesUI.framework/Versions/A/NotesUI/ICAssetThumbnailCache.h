@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id);
 + (id)_dateLabel;
 - (id);
 - (void);

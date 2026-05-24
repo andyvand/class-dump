@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDestination, MRNowPlayingControllerConfiguration, MRNowPlayingPlayerResponse, NSDate, NSError, NSObject;
-@protocol MRNowPlayingControllerDelegate, MRNowPlayingControllerImpl, OS_dispatch_queue;
+@class MRNowPlayingPlayerResponse;
+@protocol MRNowPlayingControllerImpl;
 
 @interface MRNowPlayingController
 {
     MRNowPlayingPlayerResponse *_response;
-    id <MRNowPlayingControllerDelegate> _delegate;
-    MRNowPlayingControllerConfiguration *_configuration;
-    id <MRNowPlayingControllerImpl> _impl;
-    NSObject<OS_dispatch_queue> *_workerQueue;
-    NSError *_lastError;
-    NSDate *_allocationDate;
-    NSDate *_beginDate;
-    NSDate *_endDate;
-    NSDate *_lastInitialLoadDate;
-    NSDate *_lastInvalidationDate;
-    NSDate *_lastErrorDate;
-    NSDate *_lastUpdateDate;
 }
 
 + (id);
@@ -29,7 +17,7 @@
 + (id);
 + (void);
 + (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -41,65 +29,52 @@
 - (void);
 - (id);
 - (void);
+- (id)setStackView: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (void);
+- (void)serviceType;
+- (void)ader",R,N,V_bundleLoader;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void). Took %f seconds;
+- (void)weight;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void):(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)initWithName:(id)arg1 options:queue:delegate: /* Error: Ran out of types for this method. */;
+- (id)AFDismissAlarmRequest;
+- (void)th:(id)arg1 /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)!;
+- (void);
+- (void)setHasEngageOnClusterActivate:(id)arg1;
 - (void)lectionIdentifier;
 - (id)¬;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *allocationDate; // @synthesize allocationDate=_allocationDate;
-@property(retain, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(copy, nonatomic) MRNowPlayingControllerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) __weak id <MRNowPlayingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) MRDestination *destination;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(retain, nonatomic) id <MRNowPlayingControllerImpl> impl; // @synthesize impl=_impl;
-@property(retain, nonatomic) NSError *lastError; // @synthesize lastError=_lastError;
-@property(retain, nonatomic) NSDate *lastErrorDate; // @synthesize lastErrorDate=_lastErrorDate;
-@property(retain, nonatomic) NSDate *lastInitialLoadDate; // @synthesize lastInitialLoadDate=_lastInitialLoadDate;
-@property(retain, nonatomic) NSDate *lastInvalidationDate; // @synthesize lastInvalidationDate=_lastInvalidationDate;
-@property(retain, nonatomic) NSDate *lastUpdateDate; // @synthesize lastUpdateDate=_lastUpdateDate;
-@property(retain, nonatomic) MRNowPlayingPlayerResponse *response; // @synthesize response=_response;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workerQueue; // @synthesize workerQueue=_workerQueue;
 
 @end
 

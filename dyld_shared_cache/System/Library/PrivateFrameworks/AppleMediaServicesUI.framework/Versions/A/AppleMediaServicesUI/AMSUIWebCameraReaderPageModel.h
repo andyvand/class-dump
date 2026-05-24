@@ -4,67 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, AMSPromise, AMSUIImageQualityRequest, AMSUIWebAction, AMSUIWebClientContext, AMSUIWebNavigationBarModel, NSArray, NSNumber, NSString, NSViewController, UTType;
 @protocol AMSUIWebActionRunnable;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebCameraReaderPageModel
 {
     _Bool _allowsCameraToggle;
-    _Bool _allowsTextEntry;
-    _Bool _fullScreen;
-    _Bool _prefersSessionTeardown;
-    NSString *_backgroundColor;
-    AMSMetricsEvent *_impressionEvent;
-    AMSUIWebNavigationBarModel *_navigationBar;
-    long long _userInterfaceStyle;
-    NSString *_bottomLinkLabel;
-    id <AMSUIWebActionRunnable> _bottomLinkAction;
-    long long _pageStyle;
-    long long _pageType;
-    NSString *_primaryLabel;
-    NSString *_secondaryLabel;
-    NSString *_textFieldPlaceholder;
-    NSArray *_ctaButtons;
-    NSNumber *_outputImageWidth;
-    NSNumber *_manualCaptureImagePadding;
-    UTType *_outputFormat;
-    NSNumber *_outputFormatCompression;
-    AMSUIImageQualityRequest *_imageQualityRequest;
-    AMSPromise *_imageQualityPromise;
-    id <AMSUIWebActionRunnable> _invalidDocumentAction;
-    id <AMSUIWebActionRunnable> _action;
-    AMSUIWebClientContext *_context;
-    NSViewController *_presentedViewController;
-    struct CGSize _windowSize;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)ined new build version:%@, previously on:%@ /* Error: Ran out of types for this method. */;
+- (void)ot create auto asset instance with selector:(id)arg1 %@, error:%@ /* Error: Ran out of types for this method. */;
+- (void)ation:(id)arg1 %{public}@;
+- (void)ound assertions:(id)arg1 (%{public}@) for clientID:(%{public}@) /* Error: Ran out of types for this method. */;
+- (void)or clientID, manager interface is nil for asset type:(_Bool)arg1 %@;
+- (void)rrupted:(long long)arg1 %{public}@;
+- (void)lic}@;
+- (void)ified the DDS folder is present at %{public}@;
+- (void)alog for %@:(id)arg1 %lu;
+- (void):(id)arg1 %lu);
+- (void)compatibilityVersion;
+- (void)retries;
+- (void)SpellChecker;
+- (void)DDSUAFAssetProviderErrorDomain;
+- (void)L"20@"MAAutoAssetStatus"28@"NSError"36;
+- (void)0@"MAAutoAssetSelector"8B16@"NSURL"20@"MAAutoAssetStatus"28@"NSError"36;
+- (void)ailed;
+- (void)update is failed;
+- (void)ices.ddsserver.queue;
 - (id);
 - (_Bool);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (id);
@@ -83,13 +56,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
+- (id)(<;
+- (id);
 - (void);
 - (void)ing"40@?<v@?@"AMSEngagementResult"@"NSError">48;
-- (void)eetTaskClass:(id)arg1;
+- (void)setPaymentSheetTaskClass:(id)arg1;
 - (id)ÿÿÿÿ4;
 - (void);
 - (long long);
@@ -99,44 +72,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) id <AMSUIWebActionRunnable> action; // @synthesize action=_action;
-@property _Bool allowsCameraToggle; // @synthesize allowsCameraToggle=_allowsCameraToggle;
-@property _Bool allowsTextEntry; // @synthesize allowsTextEntry=_allowsTextEntry;
-@property(readonly) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) id <AMSUIWebActionRunnable> bottomLinkAction; // @synthesize bottomLinkAction=_bottomLinkAction;
-@property(retain) NSString *bottomLinkLabel; // @synthesize bottomLinkLabel=_bottomLinkLabel;
-@property(retain) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(retain) NSArray *ctaButtons; // @synthesize ctaButtons=_ctaButtons;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool disableReappearPlaceholder;
-@property(getter=isFullScreen) _Bool fullScreen; // @synthesize fullScreen=_fullScreen;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSPromise *imageQualityPromise; // @synthesize imageQualityPromise=_imageQualityPromise;
-@property(retain) AMSUIImageQualityRequest *imageQualityRequest; // @synthesize imageQualityRequest=_imageQualityRequest;
-@property(readonly) AMSMetricsEvent *impressionEvent; // @synthesize impressionEvent=_impressionEvent;
-@property(retain) id <AMSUIWebActionRunnable> invalidDocumentAction; // @synthesize invalidDocumentAction=_invalidDocumentAction;
-@property(retain) NSNumber *manualCaptureImagePadding; // @synthesize manualCaptureImagePadding=_manualCaptureImagePadding;
-@property(readonly) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(retain) UTType *outputFormat; // @synthesize outputFormat=_outputFormat;
-@property(retain) NSNumber *outputFormatCompression; // @synthesize outputFormatCompression=_outputFormatCompression;
-@property(retain) NSNumber *outputImageWidth; // @synthesize outputImageWidth=_outputImageWidth;
-@property long long pageStyle; // @synthesize pageStyle=_pageStyle;
-@property long long pageType; // @synthesize pageType=_pageType;
-@property _Bool prefersSessionTeardown; // @synthesize prefersSessionTeardown=_prefersSessionTeardown;
-@property __weak NSViewController *presentedViewController; // @synthesize presentedViewController=_presentedViewController;
-@property(retain) NSString *primaryLabel; // @synthesize primaryLabel=_primaryLabel;
-@property(retain) NSString *secondaryLabel; // @synthesize secondaryLabel=_secondaryLabel;
-@property(readonly) Class superclass;
-@property(readonly) AMSUIWebAction *swipeToDismissAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSUIWebAction",?,R
-
-@property(retain) NSString *textFieldPlaceholder; // @synthesize textFieldPlaceholder=_textFieldPlaceholder;
-@property(readonly) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
-@property(readonly) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end
 

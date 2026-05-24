@@ -12,10 +12,10 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)CLKComplicationTemplateGraphicRectangularTextGaugeViewBridge;
 - (_Bool);
 - (id);
 - (unsigned long long);

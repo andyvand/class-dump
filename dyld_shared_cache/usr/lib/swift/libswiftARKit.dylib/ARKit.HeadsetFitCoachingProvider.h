@@ -8,7 +8,6 @@
 {
     id _cHeadsetFitCoachingProvider;
     id updateQueue;
-    id headsetFitCoachingDataContinuations;
 }
 
 @end

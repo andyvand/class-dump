@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKHomeObject.h>
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKPerson : MKFCKHomeObject
@@ -14,16 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)getSnapshot:(id)arg1 data:(id)arg2 mergingCurrentState:(id)arg3 withState:mergeOptions:error: /* Error: Ran out of types for this method. */;
+- (_Bool)[Service] Network reachability changed:(id)arg1 %{public}@ -> %{public}@, notifying sending observers;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

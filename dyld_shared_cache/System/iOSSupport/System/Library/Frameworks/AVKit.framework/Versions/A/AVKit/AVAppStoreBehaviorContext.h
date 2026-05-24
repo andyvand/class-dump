@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAppStoreBehavior, AVPlayerViewController, NSString;
+@class AVAppStoreBehavior, AVPlayerViewController;
 
 @interface AVAppStoreBehaviorContext
 {
     AVPlayerViewController *_playerViewController;
-    AVAppStoreBehavior *_behavior;
 }
 
 - (void);
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -27,14 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak AVAppStoreBehavior *behavior; // @synthesize behavior=_behavior;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak AVPlayerViewController *playerViewController; // @synthesize playerViewController=_playerViewController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 - (int);
-- (void);
+- (void);
 
 @end
 

@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)__UIActionAccessibility_super;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)brary/Frameworks/CoreAudioKit.framework/Versions/A/CoreAudioKit;
+- (id);
 
 @end
 

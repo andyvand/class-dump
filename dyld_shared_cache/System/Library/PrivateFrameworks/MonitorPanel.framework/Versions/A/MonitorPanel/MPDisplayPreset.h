@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface MPDisplayPreset
 {
     unsigned int _displayID;
-    NSString *_presetName;
-    NSDictionary *_presetDictionary;
-    unsigned long long _presetIndex;
-    _Bool _isWritable;
-    long long _presetGroup;
 }
 
 - (unsigned long long);
 - (long long);
 - (id);
-- (id);
+- (id)z;
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)g_;
 - (unsigned int);
 
 // Remaining properties
 @property(readonly) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(readonly) _Bool isValid;
-@property(readonly) _Bool isWritable; // @synthesize isWritable=_isWritable;
-@property(readonly) NSString *presetDescription;
-@property(readonly) NSDictionary *presetDictionary; // @synthesize presetDictionary=_presetDictionary;
-@property(readonly) long long presetGroup; // @synthesize presetGroup=_presetGroup;
-@property(readonly) unsigned long long presetIndex; // @synthesize presetIndex=_presetIndex;
-@property(readonly) NSString *presetName;
 
 @end
 

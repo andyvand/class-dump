@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ve-style;
 - (void);
 - (void);
 

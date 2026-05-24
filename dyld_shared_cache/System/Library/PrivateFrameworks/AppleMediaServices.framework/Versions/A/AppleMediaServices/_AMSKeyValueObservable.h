@@ -6,24 +6,22 @@
 
 #import <AppleMediaServices/AMSObservable.h>
 
-@class NSObject, NSString;
+@class NSObject;
 
 __attribute__((visibility("hidden")))
 @interface _AMSKeyValueObservable : AMSObservable
 {
     NSObject *_context;
-    NSString *_keyPath;
-    NSObject *_object;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_tellSpeechDelegateToPerformTwoShotPromptWithType:(id)arg1 reply:(id)arg2;
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)setLeftThumbstickX:(id)arg1;
+- (_Bool)v16@?0@"MRPlaybackQueue"8;
 - (void);
 - (_Bool)_Á.í¥zÜ ¥ög¥àV?¿¥äÇ¬#C¥>«j,q96ß,spì¥¸©¾åHÍ¥(Í;Òo}2GÅ;
 - (void)í¬Ò
@@ -31,8 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSObject *context; // @synthesize context=_context;
-@property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property __weak NSObject *object; // @synthesize object=_object;
 
 @end
 

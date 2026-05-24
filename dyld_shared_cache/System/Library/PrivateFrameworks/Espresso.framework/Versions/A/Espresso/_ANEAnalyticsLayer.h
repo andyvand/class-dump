@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _ANEAnalyticsLayer
 {
     NSString *_layerName;
-    NSNumber *_weight;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *layerName; // @synthesize layerName=_layerName;
-@property(readonly, nonatomic) NSNumber *weight; // @synthesize weight=_weight;
 
 @end
 

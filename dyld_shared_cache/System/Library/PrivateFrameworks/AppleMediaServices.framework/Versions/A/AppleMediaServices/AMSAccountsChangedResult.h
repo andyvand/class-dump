@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSAccountsChangedResult
@@ -13,20 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)tatus, so the newly invited handle is able to decrypt the published value;
 - (id)red incorrect SMS code. (failureType:(id)arg1 %@);
 - (void)·yc-·Ð¿5ÔNÞYª¶k+æ?ßkhÛ :ÑÏ{ÿnÄ`ÀÙmen?G|×õZ·çôúÈ%(Õíê /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *hashedDescription;
-@property(readonly) Class superclass;
 
 @end
 

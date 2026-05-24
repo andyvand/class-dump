@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBatchMerchantLookupBrandParameters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_merchantLookupBrandParameters;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)B24@0:(struct _NSZone *)arg1 8@?16;
-- (id)ackingTask;
+- (id)_backingTask;
 - (id)DSÐ½³Sô½³S¾³ôSH¾³¤-S\¾³Ü3Sp¾³:S¾³D>S¾³AS¼¾³ÔASÐ¾³HFS¿³´HS¿³hLS,¿³<OSP¿³øOSd¿³lTS¿³üXS¬¿³T\SÐ¿³^Sä¿³T_Sø¿³iS,À³ðiS@À³ÌjSTÀ³$£SPÁ³x«SdÁ³8­S|Á³À®SÁ³°S¬Á³Ø¸SÐÁ³`»SôÁ³|ÌSÂ³ÐÎSHÂ³ôSÂ³PõSÂ³øSÄÂ³ôTØÂ³tTìÂ³T /* Error: Ran out of types for this method. */;
 - (void)¹S¯UÈ;
 

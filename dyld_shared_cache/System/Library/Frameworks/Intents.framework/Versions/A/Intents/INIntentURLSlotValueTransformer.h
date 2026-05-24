@@ -13,7 +13,7 @@
 + (Class);
 + (long long),C,V_priceRange;
 - (id);
-- (id)ntTriggerTypes:(id)arg1;
+- (id)StringAsTemporalEventTriggerTypes:(id)arg1;
 
 @end
 

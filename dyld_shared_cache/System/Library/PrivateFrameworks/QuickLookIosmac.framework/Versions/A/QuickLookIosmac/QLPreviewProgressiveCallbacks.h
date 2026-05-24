@@ -7,9 +7,6 @@
 @interface QLPreviewProgressiveCallbacks
 {
     CDUnknownBlockType _startDataRepresentation;
-    CDUnknownBlockType _startAttachment;
-    CDUnknownBlockType _appendData;
-    CDUnknownBlockType _createSafeAttachmentURL;
 }
 
 - (CDUnknownBlockType);
@@ -23,9 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType appendData; // @synthesize appendData=_appendData;
-@property(copy, nonatomic) CDUnknownBlockType createSafeAttachmentURL; // @synthesize createSafeAttachmentURL=_createSafeAttachmentURL;
-@property(copy, nonatomic) CDUnknownBlockType startAttachment; // @synthesize startAttachment=_startAttachment;
 @property(copy, nonatomic) CDUnknownBlockType startDataRepresentation; // @synthesize startDataRepresentation=_startDataRepresentation;
 
 @end

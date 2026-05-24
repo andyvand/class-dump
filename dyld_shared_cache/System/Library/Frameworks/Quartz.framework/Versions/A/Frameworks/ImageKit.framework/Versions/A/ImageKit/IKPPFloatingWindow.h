@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKPPFloatingWindowAnimation, NSString;
-
 @interface IKPPFloatingWindow
 {
     struct CGRect _srcRect;
-    struct CGRect _dstRect;
-    double _dstAngle;
-    unsigned int _cid;
-    IKPPFloatingWindowAnimation *_animation;
-    CDUnknownBlockType _completionBlock;
-    double _upscaleIncrement;
-    id _floatingWindowDelegate;
 }
 
 - (double);
@@ -31,25 +22,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)a(;
 - (void);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (void)ache:(CDUnknownBlockType)arg1 atSize:validForUID: /* Error: Ran out of types for this method. */;
+- (void)alreadyHasIconInCache:(CDUnknownBlockType)arg1 atSize:validForUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double destinationAngle; // @synthesize destinationAngle=_dstAngle;
 @property(nonatomic) struct CGRect destinationRect; // @synthesize destinationRect=_dstRect;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_srcRect;
-@property(readonly) Class superclass;
-@property(nonatomic) double upscaleIncrement; // @synthesize upscaleIncrement=_upscaleIncrement;
 
 @end
 

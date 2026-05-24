@@ -9,10 +9,6 @@
 @interface NSPulseGestureRecognizer : NSGestureRecognizer
 {
     struct CGPoint _location;
-    double _pressure;
-    long long _stage;
-    double _stageTransition;
-    long long _flags;
 }
 
 - (void);
@@ -22,7 +18,7 @@
 - (double);
 - (void);
 - (void);
-- (long long);
+- (long long)Rh;
 - (void);
 - (id);
 - (id);
@@ -36,10 +32,7 @@
 - (void)4ÚF;
 
 // Remaining properties
-@property(readonly) double pressure; // @synthesize pressure=_pressure;
 @property _Bool recognizesOnMouseDown;
-@property(readonly) long long stage; // @synthesize stage=_stage;
-@property(readonly) double stageTransition; // @synthesize stageTransition=_stageTransition;
 
 @end
 

@@ -6,12 +6,9 @@
 
 #import <PassKitCore/PKPassVerificationMethod.h>
 
-@class NSString;
-
 @interface PKPassVerificationPhoneCallMethod : PKPassVerificationMethod
 {
     unsigned long long _direction;
-    NSString *_phoneNumber;
 }
 
 + (_Bool);
@@ -23,17 +20,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id)ing;
+- (void)packets;
 - (unsigned long long)±î%Ð1Â0@ù
 × ;
 - (id)calendarUnit:(id)arg1 type: /* Error: Ran out of types for this method. */;
-- (void)ageIDRemoteRegistrationRequest;
+- (void)PKIDSGeneralMessageIDRemoteRegistrationRequest;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end
 

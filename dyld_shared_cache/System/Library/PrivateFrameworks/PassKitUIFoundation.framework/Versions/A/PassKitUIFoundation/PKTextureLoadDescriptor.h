@@ -9,10 +9,6 @@
 @interface PKTextureLoadDescriptor
 {
     unsigned long long _storageMode;
-    _Bool _premultiplyAlpha;
-    int _renderingIntent;
-    id <MTLDevice> _device;
-    struct CGColorSpace *_colorSpace;
 }
 
 - (void);
@@ -21,17 +17,14 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)ize=dd}}24;
 - (id);
 - (struct CGColorSpace *);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(nonatomic) _Bool premultiplyAlpha; // @synthesize premultiplyAlpha=_premultiplyAlpha;
-@property(readonly, nonatomic) int renderingIntent; // @synthesize renderingIntent=_renderingIntent;
 
 @end
 

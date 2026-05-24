@@ -4,20 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSURL;
+@class NSURL;
 
 @protocol NSFilePresenter
 
+@optional
+- (NSURL *)SMPairingEventsListener;
+- (void)SMDPCustomizeProtocol;
+- (void)SMLegacyNetworkDirectoryEnumerator;
+- (void)SMWirelessController;
+- (void)SMDDebugCommands_XPCClientConnection;
+- (void)SMDUtilitiesProtocol;
+- (void)SMRunPostRebootRulesStep;
+- (void)SMODDBEntry;
+- (void)SMPathsPreliminaryPathGroupSizeCallback;
+- (void)SMMigrateFilesStep;
+- (void)ompleted.;
+- (void).bootargs;
+- (void)ouldMigrateApplicationBundle:(NSURL *)arg1 withVersion:andSourceLocation:presentInLocation:relocateToLocation:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void)newsTodayWidgetPresentationBaselineImpressionValue;
+- (void)countByEnumeratingWithState:(void (^)(void (^)(void)))arg1 objects:count: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
 @end
 

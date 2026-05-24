@@ -13,11 +13,9 @@ __attribute__((visibility("hidden")))
 @interface MSPSenderMessageStrategy : MSPSenderStrategy
 {
     NSString *_serviceName;
-    unsigned long long _type;
-    id <MSPSenderMessageStrategyDelegate> _delegate;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (void);
 - (id);

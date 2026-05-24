@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceCanvasSorter
 {
     id $__lazy_storage_$_sortBarButtonItem;
-    id editor;
 }
 
 - (void);

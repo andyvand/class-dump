@@ -11,7 +11,7 @@
     PPTopicDissector *_dissector;
 }
 
-+ (id)ecayRate:decayRate:sourceStats:decayedFeedbackCounts:streamingScorer:mlModel: /* Error: Ran out of types for this method. */;
++ (id)scoredEntityFromRecords:scoringDate:perRecordDecayRate:decayRate:sourceStats:decayedFeedbackCounts:streamingScorer:mlModel: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

@@ -16,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ary/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (_Bool);
 
 @end

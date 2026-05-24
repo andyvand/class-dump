@@ -7,7 +7,6 @@
 @interface SiriOntology.Com_Apple_Siri_Product_Proto_ScalarValue._StorageClass__priv_FC4EE5074104C85BFB570AF81C8E8EC6
 {
     id _value;
-    id _unit;
 }
 
 @end

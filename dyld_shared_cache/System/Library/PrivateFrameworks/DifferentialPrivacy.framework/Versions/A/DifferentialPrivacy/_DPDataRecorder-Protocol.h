@@ -5,5 +5,8 @@
 //
 
 @protocol _DPDataRecorder
+- (void)rror">24;
+- (void)<;
+- (void)Enabled;
 @end
 

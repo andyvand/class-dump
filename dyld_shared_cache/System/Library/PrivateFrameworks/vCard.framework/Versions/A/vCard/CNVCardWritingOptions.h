@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CNVCardWritingOptions
 {
     _Bool _includePrivateFields;
-    _Bool _includePrivateBundleIdentifiers;
-    _Bool _includeNotes;
-    _Bool _includeUserSettings;
-    _Bool _includePhotos;
-    _Bool _includeWallpaper;
-    _Bool _includePosterIdentifiers;
-    _Bool _includeMeCardOnlySharingProperties;
-    _Bool _includePronouns;
-    _Bool _useUnencryptedPronouns;
-    _Bool _compressPhotos;
-    _Bool _prefersUncroppedPhotos;
-    _Bool _usePhotoReferencesIfAvailable;
-    _Bool _shouldSuppressRegulatoryLogging;
-    unsigned long long _maximumEncodingLength;
-    unsigned long long _maximumImageEncodingLength;
-    NSArray *_treatAsUnknownProperties;
-    unsigned long long _outputVersion;
-    NSArray *_availableEncodings;
-    struct CGSize _maximumImageSize;
 }
 
 + (id);
@@ -46,26 +25,26 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)H;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)SharingEDTWombatCameraPicker;
 - (void);
 - (void);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)SymbolOwnerData41for_each_inline_range_for_symbol_at_depthEP16CSCppSymbolOwner10_CSTypeRefiU13block_pointerFv8_CSRangePS5_S7_mEE3$_1FvP15CSCppMMapSymbolP22CSCppMMapInlinedSymbolEEE;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)applicationBundleIdentifier;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long):%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -76,26 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSArray *availableEncodings; // @synthesize availableEncodings=_availableEncodings;
-@property _Bool compressPhotos; // @synthesize compressPhotos=_compressPhotos;
-@property _Bool includeMeCardOnlySharingProperties; // @synthesize includeMeCardOnlySharingProperties=_includeMeCardOnlySharingProperties;
-@property _Bool includeNotes; // @synthesize includeNotes=_includeNotes;
-@property _Bool includePhotos; // @synthesize includePhotos=_includePhotos;
-@property _Bool includePosterIdentifiers; // @synthesize includePosterIdentifiers=_includePosterIdentifiers;
-@property _Bool includePrivateBundleIdentifiers; // @synthesize includePrivateBundleIdentifiers=_includePrivateBundleIdentifiers;
 @property _Bool includePrivateFields; // @synthesize includePrivateFields=_includePrivateFields;
-@property _Bool includePronouns; // @synthesize includePronouns=_includePronouns;
-@property _Bool includeUserSettings; // @synthesize includeUserSettings=_includeUserSettings;
-@property _Bool includeWallpaper; // @synthesize includeWallpaper=_includeWallpaper;
-@property unsigned long long maximumEncodingLength; // @synthesize maximumEncodingLength=_maximumEncodingLength;
-@property unsigned long long maximumImageEncodingLength; // @synthesize maximumImageEncodingLength=_maximumImageEncodingLength;
-@property struct CGSize maximumImageSize; // @synthesize maximumImageSize=_maximumImageSize;
-@property unsigned long long outputVersion; // @synthesize outputVersion=_outputVersion;
-@property _Bool prefersUncroppedPhotos; // @synthesize prefersUncroppedPhotos=_prefersUncroppedPhotos;
-@property _Bool shouldSuppressRegulatoryLogging; // @synthesize shouldSuppressRegulatoryLogging=_shouldSuppressRegulatoryLogging;
-@property(copy) NSArray *treatAsUnknownProperties; // @synthesize treatAsUnknownProperties=_treatAsUnknownProperties;
-@property _Bool usePhotoReferencesIfAvailable; // @synthesize usePhotoReferencesIfAvailable=_usePhotoReferencesIfAvailable;
-@property _Bool useUnencryptedPronouns; // @synthesize useUnencryptedPronouns=_useUnencryptedPronouns;
 
 @end
 

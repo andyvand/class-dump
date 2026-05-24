@@ -6,13 +6,11 @@
 
 #import <CloudDocs/BROperation.h>
 
-@class NSOperationQueue, NSURL;
+@class NSURL;
 
 @interface BRiWorkWebShareMigrateOperation : BROperation
 {
     NSURL *_url;
-    NSOperationQueue *_operationQueue;
-    CDUnknownBlockType _shareMigrationCompletionBlock;
 }
 
 - (CDUnknownBlockType);
@@ -21,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)P;
+- (id)(;
 - (id);
 - (void);
 - (void);
@@ -30,8 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(copy) CDUnknownBlockType shareMigrationCompletionBlock; // @synthesize shareMigrationCompletionBlock=_shareMigrationCompletionBlock;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

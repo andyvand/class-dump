@@ -10,25 +10,21 @@ __attribute__((visibility("hidden")))
 @interface OADBaseFontCollection
 {
     NSString *_latinFont;
-    NSString *_eastAsianFont;
-    NSString *_complexScriptFont;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)$;;
 - (void)¨4;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *complexScriptFont; // @synthesize complexScriptFont=_complexScriptFont;
-@property(copy, nonatomic) NSString *eastAsianFont; // @synthesize eastAsianFont=_eastAsianFont;
 @property(copy, nonatomic) NSString *latinFont; // @synthesize latinFont=_latinFont;
 
 @end

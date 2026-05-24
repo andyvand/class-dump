@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (void);
-- (void);
+- (void)o;
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -24,8 +24,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)H�;
 - (void);
 - (id);
 

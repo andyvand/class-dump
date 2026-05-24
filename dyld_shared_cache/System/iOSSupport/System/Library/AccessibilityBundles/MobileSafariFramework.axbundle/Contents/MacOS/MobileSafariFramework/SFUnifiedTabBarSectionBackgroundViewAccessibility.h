@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)keyboardInput:shouldInsertText:isMarkedText: /* Error: Ran out of types for this method. */;
 + (void);
 - (_Bool);
 - (unsigned long long);

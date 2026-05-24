@@ -7,16 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (id)C;
+- (_Bool);
+- (_Bool)set_multitouchTrackpadUserDefaults:(id)arg1;
+- (_Bool)n();
 - (struct _NSZone *)parseDebugArgs
 ;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)_;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

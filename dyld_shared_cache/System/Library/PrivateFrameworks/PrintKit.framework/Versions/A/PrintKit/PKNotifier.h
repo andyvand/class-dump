@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKNotification;
-
 @interface PKNotifier
 {
     struct __CFUserNotification *_outstandingRef;
-    PKNotification *_outstandingNote;
-    struct __CFRunLoopSource *_outstandingSource;
 }
 
 + (id);
@@ -18,12 +14,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)RhB;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)AXKElementDescriberConfiguration;
 
 @end
 

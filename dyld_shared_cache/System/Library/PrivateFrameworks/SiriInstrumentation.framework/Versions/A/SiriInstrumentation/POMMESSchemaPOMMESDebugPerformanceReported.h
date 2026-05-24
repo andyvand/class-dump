@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface POMMESSchemaPOMMESDebugPerformanceReported : SISchemaInstrumentationMessage
 {
@@ -17,23 +17,22 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)24@?0@"NSURLRequest"8@"NSError"16;
 - (_Bool);
-- (_Bool);
+- (_Bool)rDate limit:(id)arg1 %lld  date:%lld /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)alizedItemInfos;
+- (id)_personalizedItemInfos;
 - (id)ted;
-- (void)E_MESSAGE_SIRI_REMEMBERS_WRITE;
+- (void)FLOWDOMAINEXECUTIONTYPE_MESSAGE_SIRI_REMEMBERS_WRITE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *performanceMeasurements; // @synthesize performanceMeasurements=_performanceMeasurements;
 
 @end

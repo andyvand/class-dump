@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechSynthesisProviderVoice, NSArray, NSString;
-
 @interface TTSAXResource
 {
     id voice;
 }
 
 + (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)_isDefaultMode;
+- (void)kWRMAVConferencePeriodicReport_TargetJitterQueueSize;
+- (void)VCSessionPartipantLocal_OnVideoFrame;
+- (id)VCConnection_ReportingConnectionInterface;
+- (_Bool)A9+;
 - (id);
 - (_Bool);
 - (id);
@@ -26,13 +24,13 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
-- (void);
+- (void);;
 - (_Bool);
 - (void);
-- (void);
+- (void)ed %d times;
 - (void);
 - (_Bool);
 - (long long);
@@ -47,14 +45,14 @@
 - (void);
 - (void);
 - (void);
+- (void)˟;
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
+- (unsigned long long)c;
 - (void);
 - (id);
-- (long long);
+- (void);
+- (id);
+- (long long).?;
 - (void)	
 ;
 - (long long)Ô¬æÿD±æÿ¤·æÿ¼æÿÂæÿìÈæÿPÎæÿÒæÿ4Õæÿ¸Ýæÿ¬àæÿèáæÿåæÿ$ëæÿñæÿ0ùæÿÚÿ(9ÙÿÈJÙÿ 9ÙÿÀJÙÿÐãéÿ9Ùÿ9Ùÿ°JÙÿ9Ùÿ¨JÙÿXÊêÿÐÏêÿÄÒêÿtÜêÿ¬ãêÿTåêÿ;
@@ -63,24 +61,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool canBeDownloaded;
-@property(nonatomic, copy) NSString *contentPath;
-@property(nonatomic) long long footprint;
-@property(nonatomic) long long gender;
-@property(nonatomic, copy) NSString *identifier;
-@property(nonatomic) _Bool isDefault;
-@property(nonatomic) _Bool isNoveltyVoice;
-@property(nonatomic) _Bool isPersonalVoice;
-@property(nonatomic) _Bool isSystemVoice;
-@property(nonatomic, copy) NSString *language;
-@property(nonatomic, copy) NSArray *languages;
-@property(nonatomic, copy) NSString *localizedName;
-@property(nonatomic, copy) NSString *localizedNameWithFootprint;
-@property(nonatomic, copy) NSString *name;
-@property(nonatomic) unsigned long long subtype;
-@property(nonatomic, retain) AVSpeechSynthesisProviderVoice *synthesisProviderVoice;
-@property(nonatomic) unsigned long long type;
-@property(nonatomic, copy) NSString *voiceId;
-@property(nonatomic) long long voiceType;
 
 @end
 

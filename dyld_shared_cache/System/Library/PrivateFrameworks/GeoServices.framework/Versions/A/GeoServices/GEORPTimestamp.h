@@ -7,22 +7,21 @@
 @interface GEORPTimestamp
 {
     long long _seconds;
-    int _nanos;
 }
 
-+ (_Bool)dCategories:(id)arg1;
++ (_Bool)setLocalizedCategories:(id)arg1;
 - (void);
 - (void);
-- (int);
+- (int)cacheKeyForAllSources;
 - (long long);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)U;
+- (void),V_builtInVoiceTriggerMetaData;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (id)16@"GEOComposedRoute"24@"NSArray"32@"NSArray"40;
 - (id)hold:openToMidnight:openFromMidnight: /* Error: Ran out of types for this method. */;
@@ -30,7 +29,6 @@
 - (id)X%02hhX:(id)arg1 %02hhX%02hhX:%02hhX%02hhX:%02hhX%02hhX:%02hhX%02hhX /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int nanos;
 @property(nonatomic) long long seconds;
 
 @end

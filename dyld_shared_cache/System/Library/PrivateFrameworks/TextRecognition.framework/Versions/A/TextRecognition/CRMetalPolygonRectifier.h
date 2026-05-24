@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRenderPassDescriptor, NSObject;
-@protocol MTLCommandQueue, MTLDevice, MTLRenderPipelineState, MTLTexture, OS_dispatch_group, OS_dispatch_queue, OS_dispatch_semaphore;
+@protocol MTLDevice;
 
 @interface CRMetalPolygonRectifier
 {
     id <MTLDevice> _device;
-    int _ioColorSpace;
-    unsigned long long _pixelFormat;
-    id <MTLRenderPipelineState> _pipelineState;
-    id <MTLCommandQueue> _commandQueue;
-    MTLRenderPassDescriptor *_renderPassDescriptor;
-    struct CGSize _imageSize;
-    struct CGRect _regionOfInterest;
-    id <MTLTexture> _texture;
-    NSObject<OS_dispatch_group> *_textureCreationGroup;
-    NSObject<OS_dispatch_queue> *_textureCreationQueue;
-    id <MTLTexture> _renderDestination;
-    id _viewportSize;
-    id <MTLTexture> _managedBlitTexture;
-    NSObject<OS_dispatch_semaphore> *_renderDestinationSem;
 }
 
 - (void);

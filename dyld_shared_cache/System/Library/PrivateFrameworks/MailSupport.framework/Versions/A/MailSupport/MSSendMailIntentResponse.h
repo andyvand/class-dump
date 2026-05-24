@@ -11,7 +11,7 @@
 
 - (id);
 - (long long);
-- (void);
+- (void)|4;
 
 // Remaining properties
 @property long long code; // @synthesize code=_code;

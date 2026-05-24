@@ -8,6 +8,7 @@
 @protocol OS_dispatch_semaphore;
 
 @protocol BWNodeBackPressureSemaphoreProvider
+- (void)fontName;
 - (NSObject<OS_dispatch_semaphore> *)ÿx·ÿ·ÿ¸ÿ¹ÿ¹ÿ¦¹ÿ¯¹ÿ¹¹ÿÁ¶ÿÉ²ÿÐ¯ÿ×¬ÿÝ;
 
 // Remaining properties

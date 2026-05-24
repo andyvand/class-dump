@@ -7,15 +7,10 @@
 @interface TeaUI.OnboardingViewController
 {
     id configuration;
-    id stepsToBeShown;
-    id onboardingStepMonitor;
-    id onDismissal;
-    id $__lazy_storage_$_onboardingViewControllers;
-    id currentIndex;
 }
 
 - (id);
-- (id);
+- (id)J;
 - (void);
 - (void);
 

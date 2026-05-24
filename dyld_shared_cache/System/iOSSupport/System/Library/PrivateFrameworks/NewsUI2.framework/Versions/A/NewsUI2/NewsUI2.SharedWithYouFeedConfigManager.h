@@ -7,8 +7,6 @@
 @interface NewsUI2.SharedWithYouFeedConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
 }
 
 @end

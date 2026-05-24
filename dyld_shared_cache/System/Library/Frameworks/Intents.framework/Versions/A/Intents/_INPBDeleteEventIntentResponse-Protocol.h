@@ -5,9 +5,9 @@
 //
 
 @protocol _INPBDeleteEventIntentResponse
+- (void);
 
 // Remaining properties
 @property(nonatomic) int confirmationReason;
-@property(nonatomic) _Bool hasConfirmationReason;
 @end
 

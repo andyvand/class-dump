@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDBusinessPersistence, EDMessagePersistence, MCCCategoryRulesController, NSString;
-@protocol EDAccountsProvider, EFScheduler;
+@class EDMessagePersistence;
+@protocol EFScheduler;
 
 @interface EDCategorizationSyncManager
 {
     id <EFScheduler> _icloudSyncScheduler;
-    EDMessagePersistence *_messagePersistence;
-    MCCCategoryRulesController *_rulesController;
-    EDBusinessPersistence *_businessPersistence;
-    id <EDAccountsProvider> _accountsProvider;
 }
 
 + (id);
@@ -31,25 +27,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (id)´ð1Â0@ù
 × ;
-- (id)ence_SQLHelper;
+- (id)_EDThreadPersistence_SQLHelper;
 - (void)T NULL DEFAULT 0,UNIQUE(scope, conversation) ON CONFLICT ABORT);;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EDAccountsProvider> accountsProvider; // @synthesize accountsProvider=_accountsProvider;
-@property(readonly, nonatomic) EDBusinessPersistence *businessPersistence; // @synthesize businessPersistence=_businessPersistence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) MCCCategoryRulesController *rulesController; // @synthesize rulesController=_rulesController;
-@property(readonly) Class superclass;
 
 @end
 

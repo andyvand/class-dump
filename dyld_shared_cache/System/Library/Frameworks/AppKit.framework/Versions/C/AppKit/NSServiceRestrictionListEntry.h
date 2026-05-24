@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSServiceRestrictionListEntry
 {
     NSString *_bundleID;
-    NSString *_title;
 }
 
 - (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly) NSString *title; // @synthesize title=_title;
 
 @end
 

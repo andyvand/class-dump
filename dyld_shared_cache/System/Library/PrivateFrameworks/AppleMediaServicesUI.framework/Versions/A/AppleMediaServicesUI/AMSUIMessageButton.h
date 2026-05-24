@@ -6,16 +6,12 @@
 
 #import <AppleMediaServicesUI/AMSUICommonButton.h>
 
-@class AMSDialogAction, NSColor, NSFont;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIMessageButton : AMSUICommonButton
 {
     NSColor *_preferredBackgroundColor;
-    NSColor *_preferredForegroundColor;
-    AMSDialogAction *_dialogAction;
-    NSFont *_preferredFont;
-    unsigned long long _messageStyle;
 }
 
 + (id);
@@ -28,23 +24,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)tings with key paths:(id)arg1 %@;
 - (id);
 - (id)0:8@"AMSEngagement"16@"NSString"24q32@"NSString"40@"NSString"48 /* Error: Ran out of types for this method. */;
-- (void)dateJSObject: /* Error: Ran out of types for this method. */;
+- (void)validateJSObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) AMSDialogAction *dialogAction; // @synthesize dialogAction=_dialogAction;
 @property unsigned long long messageStyle; // @synthesize messageStyle=_messageStyle;
-@property(retain) NSColor *preferredBackgroundColor; // @synthesize preferredBackgroundColor=_preferredBackgroundColor;
-@property(retain) NSFont *preferredFont; // @synthesize preferredFont=_preferredFont;
-@property(retain) NSColor *preferredForegroundColor; // @synthesize preferredForegroundColor=_preferredForegroundColor;
 
 @end
 

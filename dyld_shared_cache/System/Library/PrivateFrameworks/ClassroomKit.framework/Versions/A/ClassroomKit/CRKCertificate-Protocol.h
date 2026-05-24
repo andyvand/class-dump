@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDateInterval, NSString;
+@class NSArray;
 
 @protocol CRKCertificate
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCertificateAuthority) _Bool certificateAuthority;
 @property(readonly, copy, nonatomic) NSArray *commonNames;
-@property(readonly, copy, nonatomic) NSData *dataRepresentation;
-@property(readonly, copy, nonatomic) NSString *fingerprint;
-@property(readonly, nonatomic) unsigned int hashingAlgorithm;
-@property(readonly, nonatomic) long long keySizeInBits;
-@property(readonly, nonatomic, getter=isTemporallyValid) _Bool temporallyValid;
-@property(readonly, nonatomic) struct __SecCertificate *underlyingCertificate;
-@property(readonly, nonatomic) NSDateInterval *validityDateInterval;
 @end
 

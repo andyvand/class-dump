@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
++ (id)NSObject<OS_nw_authentication_credential>"B>16;
+- (id)ig %p;
+- (_Bool)transitioning to background;
+- (void)object=%q,									 proto_props=%q, user_info=%q WHERE entry_ID=%q;;
+- (id)?0@"BGNonRepeatingSystemTask"8;
+- (id)nCacheEntry.cpp;
 - (id);
 - (_Bool);
 

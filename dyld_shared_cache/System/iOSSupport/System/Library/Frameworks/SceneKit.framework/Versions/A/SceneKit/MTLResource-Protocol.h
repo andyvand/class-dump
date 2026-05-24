@@ -5,10 +5,13 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLHeap;
+@protocol MTLHeap;
 
 @protocol MTLResource
-- (unsigned long long)CNMTLBuffer;
+- (unsigned long long)interactionDisablingDelay;
+- (unsigned long long)presentationMode;
+- (void);
+- (unsigned long long)SCNMTLBuffer;
 - (unsigned long long)77\:; /* Error: Ran out of types for this method. */;
 - (unsigned long long)dof-Resolve</string>
 			<key>clientProgram</key>
@@ -512,14 +515,6 @@
 - (id <MTLHeap>)½4/>l?Éq1@ºeG½HS>5a?@%@!:D½eR>d?@¤m<½4¢ô=èj?K@@8½9	å=Æn?ýÀ@G>½$Õ×=Ûi?@9¸4½FîÉ=r?BBô?2½X7¾=ït?_²ç?2½h®³=êu?&TÜ?×P*½+Þ¨=t}?ÈÒ?#,*½ =_~?¯È?R"½ª=ù?¾/À? ½=a?Dj¸?­½xG=!?h±?}	½ {}=?ïª?½Ñ²n=?/¥?JÎ	½ÁÇ`=8¢?ÛÂ?B$½ÐR=~©?<Þ?xù¼\E=°?zm?ñî¼÷8=ª¶?B_?vÁà¼ì,=ñ½? /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

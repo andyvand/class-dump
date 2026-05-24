@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)hb;
 - (struct CGSize);
 - (_Bool);
 

@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)mythological;
 - (id);
 - (id);
 - (void)TÁ;

@@ -7,13 +7,6 @@
 @interface PhotosUICore.DynamicHeaderGeometryModel__priv_5C50824EE1B9DC3BA10A85442AFF3CEE
 {
     id _mainContentInsets;
-    id _floatingInsets;
-    id _maximumFloatingAreaInsets;
-    id _viewportSize;
-    id _wantsBlur;
-    id _wantsTitleLegibilityGradient;
-    id _spec;
-    id _$observationRegistrar;
 }
 
 @end

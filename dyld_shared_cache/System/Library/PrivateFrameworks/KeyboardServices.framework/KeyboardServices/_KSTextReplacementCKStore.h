@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _KSCloudKitManager, _KSTextReplacementCoreDataStore;
+@class NSObject, _KSTextReplacementCoreDataStore;
 @protocol OS_dispatch_queue;
 
 @interface _KSTextReplacementCKStore
 {
     NSObject<OS_dispatch_queue> *_syncQueue;
-    NSObject<OS_dispatch_queue> *_dataQueue;
-    _Bool _ckMigrationStatusOnCloud;
-    _KSCloudKitManager *_cloudKitManager;
-    _KSTextReplacementCoreDataStore *_coreDataStore;
-    unsigned long long _numPullRequests;
 }
 
 + (_Bool);
+- (id);
+- (void);
+- (void)ionViewController",&,N,V_cardCollectionViewController;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)otherThirdPartyCallProviders;
+- (void)_contentIsSensitive;
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -35,15 +30,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)age virtualGarageGetLatestStateOfVehicleWithIdentifier:(unsigned long long)arg1 syncAcrossDevices:(CDUnknownBlockType)arg2 withReply:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long)Struct"{?="mInitialValue"i"mMultipleChoiceListFormatID"I"mData"@"<TSUMultipleChoiceListChoiceProviding>"})};
+- (void)readLocalFileHeaderEntriesFromChannel:(id)arg1 offset:previousEntry:seekAttempts:seekForward:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -51,7 +46,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)b&b;
 - (void);
 - (void);
 - (void);
@@ -63,17 +58,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool ckMigrationStatusOnCloud; // @synthesize ckMigrationStatusOnCloud=_ckMigrationStatusOnCloud;
-@property(retain, nonatomic) _KSCloudKitManager *cloudKitManager; // @synthesize cloudKitManager=_cloudKitManager;
 @property(retain, nonatomic) _KSTextReplacementCoreDataStore *coreDataStore; // @synthesize coreDataStore=_coreDataStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long numPullRequests; // @synthesize numPullRequests=_numPullRequests;
-@property(readonly) Class superclass;
 
 @end
 

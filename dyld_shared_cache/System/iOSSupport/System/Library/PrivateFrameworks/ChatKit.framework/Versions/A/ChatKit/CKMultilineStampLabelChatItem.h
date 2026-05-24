@@ -10,7 +10,7 @@
 {
 }
 
-- (struct CGSize);
+- (struct CGSize)isKeyboardMathSolvingAllowedObservation;
 - (Class);
 
 @end

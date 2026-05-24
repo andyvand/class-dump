@@ -6,22 +6,18 @@
 
 #import <OfficeImport/PDTimeNode.h>
 
-@class NSMutableArray, NSString, PDAnimationTarget;
+@class PDAnimationTarget;
 
 __attribute__((visibility("hidden")))
 @interface PDSequentialTimeNode : PDTimeNode
 {
     _Bool mConcurrent;
-    int mPreviousAction;
-    int mNextAction;
-    NSMutableArray *mPreviousConditions;
-    NSMutableArray *mNextConditions;
 }
 
 + (id);
++ (id)T_	k";
 + (id);
-+ (id);
-+ (id);
++ (id)T;
 + (unsigned long long);
 - (void);
 - (void);
@@ -40,35 +36,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)setContentsScaling: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
-- (int);
-- (double);
-- (void);
+- (int));
+- (double)v40@0:8@16^d24^q32 /* Error: Ran out of types for this method. */;
+- (void)initWithBackgroundScheduler:(id)arg1 mainThreadScheduler:immediateScheduler:serialSchedulerProvider:synchronousSerialSchedulerProvider:readerWriterSchedulerProvider: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (double);
 - (void);
-- (void)ct:(int)arg1 nBottomRect:nXStartArc:nYStartArc:nXEndArc:nYEndArc: /* Error: Ran out of types for this method. */;
-- (void)es;
+- (void)arcTo:(int)arg1 nLeftRect:nTopRect:nRightRect:nBottomRect:nXStartArc:nYStartArc:nXEndArc:nYEndArc: /* Error: Ran out of types for this method. */;
+- (void)OADAutoNumberBulletProperties;
 - (void);
 - (void) ÷;
 
 // Remaining properties
-@property(nonatomic) _Bool concurrent; // @synthesize concurrent=mConcurrent;
-@property(nonatomic) double delay;
-@property(nonatomic) double direction;
-@property(retain, nonatomic) NSString *groupId;
-@property(nonatomic) int iterateType;
-@property(nonatomic) int nextAction; // @synthesize nextAction=mNextAction;
-@property(retain, nonatomic) NSMutableArray *nextConditions; // @synthesize nextConditions=mNextConditions;
-@property(nonatomic) int presetClass;
-@property(nonatomic) int presetId;
-@property(nonatomic) int previousAction; // @synthesize previousAction=mPreviousAction;
-@property(retain, nonatomic) NSMutableArray *previousConditions; // @synthesize previousConditions=mPreviousConditions;
 @property(retain, nonatomic) PDAnimationTarget *target;
-@property(nonatomic) int triggerType;
 
 @end
 

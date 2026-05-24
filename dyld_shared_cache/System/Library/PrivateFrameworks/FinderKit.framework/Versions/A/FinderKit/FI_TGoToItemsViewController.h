@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, NSTableView;
-@protocol TGoToItemProtocol;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface FI_TGoToItemsViewController
 {
     NSArray *_dataSource;
-    NSTableView *_tableView;
-    NSLayoutConstraint *_tableViewHeightMin;
-    NSLayoutConstraint *_tableViewHeightMax;
-    NSArray *_items;
-    id <TGoToItemProtocol> _relativeToItem;
 }
 
 - (id);
@@ -24,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void))A;
 - (void);
 - (void);
 - (struct TFENode);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (_Bool);
@@ -44,15 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)49-[FI_TNodeViewSettings refreshColumnViewSettings]E3$_7;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) id <TGoToItemProtocol> relativeToItem; // @synthesize relativeToItem=_relativeToItem;
-@property(readonly) Class superclass;
 
 @end
 

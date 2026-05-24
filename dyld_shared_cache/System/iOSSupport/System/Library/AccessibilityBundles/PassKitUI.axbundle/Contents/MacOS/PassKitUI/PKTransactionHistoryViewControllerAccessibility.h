@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
-- (id);
++ (Class);
++ (id)_showCornerLookupButtonsForResults: /* Error: Ran out of types for this method. */;
++ (void);
+- (id);
 - (void);
 
 @end

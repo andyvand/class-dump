@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCalendar, NSDate, NSTimeZone;
+@class NSCalendar, NSDate;
 
 @interface CalRecurrenceGenerator
 {
     NSCalendar *_calendar;
-    _Bool _allDay;
-    _Bool _shouldPinMonthDays;
-    _Bool _onlyIncludeInitialDateIfItMatchesRecurrence;
-    int _interval;
-    int _frequency;
-    NSDate *_eventStartDate;
-    NSDate *_eventEndDate;
-    NSTimeZone *_eventTimeZone;
-    NSDate *_endDate;
-    NSArray *_daysOfTheWeek;
-    NSArray *_daysOfTheMonth;
-    NSArray *_daysOfTheYear;
-    NSArray *_weeksOfTheYear;
-    NSArray *_monthsOfTheYear;
-    NSArray *_setPositions;
-    unsigned long long _weekStart;
 }
 
 - (unsigned long long);
@@ -43,7 +27,7 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)S!;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -55,44 +39,29 @@
 - (void);
 - (void);
 - (void);
+- (id)nter module is already available;
 - (id);
 - (id);
-- (id);
+- (void)?;
+- (void)(t;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)on:%@ /* Error: Ran out of types for this method. */;
+- (id)updated power tables and wrote to plist;
+- (id)E:original=%.2f - elapsed=%.2f = %.2f minutes /* Error: Ran out of types for this method. */;
+- (_Bool)over the interval. Not using this hour's (load x emissions) in the savings computation.;
 - (int);
 - (double);
 - (void);
 - (id);
 - (id);
+- (void)5;
 - (void);
 - (void);
-- (void);
-- (void):(_Bool)arg1 withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)placemarkForLocation:(_Bool)arg1 withCompletionBlock: /* Error: Ran out of types for this method. */;
 - (int)vs %@;
 
 // Remaining properties
-@property(nonatomic) _Bool allDay; // @synthesize allDay=_allDay;
-@property(copy, nonatomic) NSArray *daysOfTheMonth; // @synthesize daysOfTheMonth=_daysOfTheMonth;
-@property(copy, nonatomic) NSArray *daysOfTheWeek; // @synthesize daysOfTheWeek=_daysOfTheWeek;
-@property(copy, nonatomic) NSArray *daysOfTheYear; // @synthesize daysOfTheYear=_daysOfTheYear;
-@property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(copy, nonatomic) NSDate *eventEndDate; // @synthesize eventEndDate=_eventEndDate;
 @property(copy, nonatomic) NSDate *eventStartDate; // @synthesize eventStartDate=_eventStartDate;
-@property(copy, nonatomic) NSTimeZone *eventTimeZone; // @synthesize eventTimeZone=_eventTimeZone;
-@property(nonatomic) int frequency; // @synthesize frequency=_frequency;
-@property(nonatomic) int interval; // @synthesize interval=_interval;
-@property(copy, nonatomic) NSArray *monthsOfTheYear; // @synthesize monthsOfTheYear=_monthsOfTheYear;
-@property(nonatomic) _Bool onlyIncludeInitialDateIfItMatchesRecurrence; // @synthesize onlyIncludeInitialDateIfItMatchesRecurrence=_onlyIncludeInitialDateIfItMatchesRecurrence;
-@property(copy, nonatomic) NSArray *setPositions; // @synthesize setPositions=_setPositions;
-@property(nonatomic) _Bool shouldPinMonthDays; // @synthesize shouldPinMonthDays=_shouldPinMonthDays;
-@property(nonatomic) unsigned long long weekStart; // @synthesize weekStart=_weekStart;
-@property(copy, nonatomic) NSArray *weeksOfTheYear; // @synthesize weeksOfTheYear=_weeksOfTheYear;
 
 @end
 

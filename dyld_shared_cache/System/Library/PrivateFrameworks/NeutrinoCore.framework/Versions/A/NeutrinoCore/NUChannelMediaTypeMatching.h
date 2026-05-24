@@ -11,7 +11,8 @@
     long long _mediaType;
 }
 
-- (_Bool);
+- (_Bool)(%d)
+;
 - (long long);
 - (id);
 - (id);

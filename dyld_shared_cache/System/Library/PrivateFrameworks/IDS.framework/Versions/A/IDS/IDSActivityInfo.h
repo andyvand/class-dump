@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString;
+@class NSArray, NSString;
 
 @interface IDSActivityInfo
 {
     NSString *_subActivity;
-    NSDate *_expirationDate;
-    NSData *_appContext;
-    NSArray *_deviceUniqueIDs;
-    NSArray *_tokens;
-    NSArray *_URIs;
 }
 
 + (id);
@@ -21,11 +16,11 @@
 + (_Bool);
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -36,12 +31,7 @@
 - (id);;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *URIs; // @synthesize URIs=_URIs;
-@property(copy, nonatomic) NSData *appContext; // @synthesize appContext=_appContext;
 @property(readonly, nonatomic) NSArray *deviceUniqueIDs; // @synthesize deviceUniqueIDs=_deviceUniqueIDs;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) NSString *subActivity; // @synthesize subActivity=_subActivity;
-@property(readonly, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

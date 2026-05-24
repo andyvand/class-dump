@@ -7,8 +7,6 @@
 @interface SoundAnalysis.SNSoundActionsDetector
 {
     id graphStorage;
-    id request;
-    id postProcessingFn;
 }
 
 @end

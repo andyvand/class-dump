@@ -6,12 +6,11 @@
 
 #import <NewsCore/FCPrivateDataController.h>
 
-@class FCMTWriterLock, NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface FCIssueReadingHistory : FCPrivateDataController
 {
     NSMutableDictionary *_itemsByID;
-    FCMTWriterLock *_itemsLock;
 }
 
 + (_Bool);
@@ -20,7 +19,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (long long);
++ (long long)_minSize;
 + (_Bool);
 + (unsigned long long);
 + (void);
@@ -33,41 +32,31 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)strongSelfMeCard went away in %{public}s;
+- (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id)iAwarePublishServiceSpecificInfo"16q24@?<v@?q@"WiFiAwarePairingInfo">32;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)Ђ;
 - (id);
 - (id);
 - (id);
 - (void)dpoint",&,N,V_recipeTagSuggestionsEndpoint;
-- (void)ftLimit;
+- (void)softLimit;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allEngagedIssueIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *mostRecentlyVisitedIssueID;
-@property(readonly, nonatomic) NSArray *recentlyEngagedIssueIDs;
-@property(readonly, nonatomic) NSArray *recentlyVisitedIssueIDs;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class IMServiceImpl;
 
 @protocol IMDaemonListening_Internal
+- (void);
+- (IMServiceImpl *)9h^;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *_contexts;
-@property(nonatomic, setter=_setHidingDisconnect:) _Bool _hidingDisconnect;
-@property(readonly, nonatomic) NSArray *allServices;
-@property(readonly, nonatomic) _Bool hasPostedSetupComplete;
 @property(readonly, nonatomic, getter=isSetupComplete) _Bool setupComplete;
 @end
 

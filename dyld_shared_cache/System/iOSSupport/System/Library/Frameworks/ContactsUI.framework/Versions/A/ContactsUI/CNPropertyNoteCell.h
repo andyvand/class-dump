@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CNPropertyNoteCell : CNPropertyCell
 {
     UITextView *_textView;
-    UILabel *_labelLabel;
 }
 
 + (_Bool);
@@ -21,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -33,12 +32,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)ileBannerContainerTrailingConstraint;
+- (void)_sharedProfileBannerContainerTrailingConstraint;
 - (void)"UIImageView",&,N,V_chevronImageView;
 
 // Remaining properties
 @property(readonly, nonatomic) UILabel *labelLabel; // @synthesize labelLabel=_labelLabel;
-@property(retain, nonatomic) UITextView *textView; // @synthesize textView=_textView;
 
 @end
 

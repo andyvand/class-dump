@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SDRDiagnosticReporter;
-@protocol HMMLogEventDispatching, OS_dispatch_queue;
+@protocol HMMLogEventDispatching;
 
 __attribute__((visibility("hidden")))
 @interface HMDDiagnosticReporterLogObserver
 {
     id <HMMLogEventDispatching> _logEventDispatcher;
-    unsigned long long _memoryExceptionThreshold;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    SDRDiagnosticReporter *_reporter;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id)ð1Â0@ù
 × ;
 + (id);
@@ -28,24 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool)pe:(id)arg1 outcome:numberOfEntities:numberOfFailures:numberOfIncompletions:serverConfigurationVersion:configurationVersion:lastSyncedConfigurationVersion: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithDuration:(id)arg1 actionType:outcome:numberOfEntities:numberOfFailures:numberOfIncompletions:serverConfigurationVersion:configurationVersion:lastSyncedConfigurationVersion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)èd;
 - (id)on data set:%@ /* Error: Ran out of types for this method. */;
 - (void)Entity.HomeQuery.entities.signpost;
 - (void)4;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak id <HMMLogEventDispatching> logEventDispatcher; // @synthesize logEventDispatcher=_logEventDispatcher;
-@property(readonly) unsigned long long memoryExceptionThreshold; // @synthesize memoryExceptionThreshold=_memoryExceptionThreshold;
-@property(readonly) SDRDiagnosticReporter *reporter; // @synthesize reporter=_reporter;
-@property(readonly) Class superclass;
 
 @end
 

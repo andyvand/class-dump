@@ -4,46 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSHashTable, NSString, PKTool;
+@class NSColor, NSHashTable;
 
 @interface PKToolPickerItem
 {
     NSHashTable *_observers;
-    PKTool *__tool;
 }
 
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)newPhotoLibraryWithName:loadedFromURL:options:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (double);
+- (double)lityURL;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)oolWithCount:block:]E3$_6 /* Error: Ran out of types for this method. */;
 - (void);
 - (void)¸	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *_dictionaryRepresentation;
-@property(retain, nonatomic) PKTool *_tool; // @synthesize _tool=__tool;
-@property(readonly, nonatomic) _Bool _toolShouldBeSetOnCanvasView;
 @property(retain, nonatomic) NSColor *color;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) PKTool *tool;
-@property(nonatomic) double width;
 
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface TMURLDisk
 {
     unsigned long long _traits;
-    NSString *_nsURLVolumeName;
-    NSNumber *_bytesFree;
 }
 
 - (id);
@@ -20,8 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSNumber *bytesFree; // @synthesize bytesFree=_bytesFree;
-@property(readonly, copy) NSString *nsURLVolumeName; // @synthesize nsURLVolumeName=_nsURLVolumeName;
 @property(readonly) unsigned long long traits; // @synthesize traits=_traits;
 
 @end

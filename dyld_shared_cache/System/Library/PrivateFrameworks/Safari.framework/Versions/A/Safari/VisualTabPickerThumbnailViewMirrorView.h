@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VisualTabPickerThumbnailViewMirrorView
 {
     NSView *_sourceView;
-    double _scale;
-    struct CGPoint _translation;
 }
 
 - (void);
@@ -21,14 +19,12 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (double);
 - (id);
-- (void);
-- (void)tBrowserInformativeViewTopSpaceConstraint:(double)arg1;
+- (void)etd;
+- (void)setNonDefaultBrowserInformativeViewTopSpaceConstraint:(double)arg1;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 @property(nonatomic) __weak NSView *sourceView; // @synthesize sourceView=_sourceView;
-@property(nonatomic) struct CGPoint translation; // @synthesize translation=_translation;
 
 @end
 

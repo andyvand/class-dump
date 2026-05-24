@@ -7,7 +7,6 @@
 @interface Calculate._NumberFormatterObserver
 {
     id numberFormatter;
-    id observers;
 }
 
 - (void);

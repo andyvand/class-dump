@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PEGASUSSchemaPEGASUSAudioPlaybackSignal, PEGASUSSchemaPEGASUSAudioQueueStateInfo, PEGASUSSchemaPEGASUSAudioUnderstanding;
+@class PEGASUSSchemaPEGASUSAudioPlaybackSignal;
 
 @interface PEGASUSSchemaPEGASUSAudioExecution : SISchemaInstrumentationMessage
 {
     PEGASUSSchemaPEGASUSAudioPlaybackSignal *_audioPlaybackSignal;
-    PEGASUSSchemaPEGASUSAudioUnderstanding *_audioUnderstanding;
-    PEGASUSSchemaPEGASUSAudioQueueStateInfo *_audioQueueStateInfo;
-    _Bool _hasAudioPlaybackSignal;
-    _Bool _hasAudioUnderstanding;
-    _Bool _hasAudioQueueStateInfo;
 }
 
 - (void);
@@ -32,28 +27,22 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)?׀J;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)d:(id)arg1 %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)sPeakScoreHS;
+- (id)_firstPassPeakScoreHS;
 - (id)setIsMaximized: /* Error: Ran out of types for this method. */;
 - (void)interpretedStatementResults.outcome.success.returnValue.value.entity.typeIdentifier.custom.bundleId;
 
 // Remaining properties
 @property(retain, nonatomic) PEGASUSSchemaPEGASUSAudioPlaybackSignal *audioPlaybackSignal; // @synthesize audioPlaybackSignal=_audioPlaybackSignal;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAudioQueueStateInfo *audioQueueStateInfo; // @synthesize audioQueueStateInfo=_audioQueueStateInfo;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAudioUnderstanding *audioUnderstanding; // @synthesize audioUnderstanding=_audioUnderstanding;
-@property(nonatomic) _Bool hasAudioPlaybackSignal; // @synthesize hasAudioPlaybackSignal=_hasAudioPlaybackSignal;
-@property(nonatomic) _Bool hasAudioQueueStateInfo; // @synthesize hasAudioQueueStateInfo=_hasAudioQueueStateInfo;
-@property(nonatomic) _Bool hasAudioUnderstanding; // @synthesize hasAudioUnderstanding=_hasAudioUnderstanding;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

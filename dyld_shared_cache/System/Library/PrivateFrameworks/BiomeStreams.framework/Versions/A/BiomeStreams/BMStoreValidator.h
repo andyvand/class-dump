@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BPSBiomeStorePublisher, NSString;
+@class NSString;
 
 @interface BMStoreValidator
 {
     NSString *_identifier;
-    BPSBiomeStorePublisher *_publisher;
 }
 
 + (id);
 - (int);
+- (int);
 - (int);
 - (int);
-- (int);
-- (id);
+- (id)(;
 - (id);
 - (void)ÅÆ;
 

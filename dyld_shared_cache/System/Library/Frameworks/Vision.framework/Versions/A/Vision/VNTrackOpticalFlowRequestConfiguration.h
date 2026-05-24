@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface VNTrackOpticalFlowRequestConfiguration : VNStatefulRequestConfiguration
 {
     _Bool _keepNetworkOutput;
-    unsigned int _outputPixelFormat;
-    unsigned long long _computationAccuracy;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
-- (unsigned int);
+- (void)_txAddressData;
+- (unsigned int)CNEnableContactProviderInternalExtensions;
 - (id);
 - (id)ÀG;
 
 // Remaining properties
 @property(nonatomic) unsigned long long computationAccuracy; // @synthesize computationAccuracy=_computationAccuracy;
-@property(nonatomic) _Bool keepNetworkOutput; // @synthesize keepNetworkOutput=_keepNetworkOutput;
-@property(nonatomic) unsigned int outputPixelFormat; // @synthesize outputPixelFormat=_outputPixelFormat;
 
 @end
 

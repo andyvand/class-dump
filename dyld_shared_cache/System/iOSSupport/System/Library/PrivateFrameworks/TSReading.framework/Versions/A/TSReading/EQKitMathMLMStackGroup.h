@@ -6,29 +6,23 @@
 
 #import <TSReading/EQKitMathMLNode.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface EQKitMathMLMStackGroup : EQKitMathMLNode
 {
     NSArray *mChildren;
 }
 
-- (id);
+- (id)MSVBackgroundTaskIdentifier;
 - (const void *);
-- (struct Schemata);
-- (_Bool);
+- (struct Schemata);;
+- (_Bool)Y;
 - (id);
 - (void);
-- (id)VisibleUnscaledRect;
+- (id)mVisibleUnscaledRect;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface SSRLoggingAggregator
 {
     NSString *_eventString;
-    NSMutableDictionary *_eventContext;
-    unsigned long long explicitUtteranceIndex;
-    unsigned long long explicitFailedUtteranceIndex;
-    unsigned long long implicitUtteranceIndex;
-    unsigned long long implicitDiscardedUtteranceIndex;
-    float _voiceProfileUpdateScoreMSE;
-    unsigned long long _voiceProfilePruningFailureReasonCode;
-    unsigned long long _voiceProfileDiscardedUtteranceCount;
-    unsigned long long _voiceProfilePrunedUtteranceCount;
-    unsigned long long _voiceProfileRetainedUtteranceCount;
-    unsigned long long _voiceProfileRetrainingFailureReasonCode;
-    double _retrainingWaitTime;
-    unsigned long long _speakerRecognitionProcessingStatus;
-    double _speakerRecognitionWaitTime;
-    unsigned long long _speakerRecognitionPSRProcessingStatus;
-    unsigned long long _speakerRecognitionSATProcessingStatus;
 }
 
 - (float);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)Y>�(a?�;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -46,9 +30,9 @@
 - (void);
 - (void);
 - (void);
+- (void)$;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (double);
 - (void);
 - (void);
@@ -60,17 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double retrainingWaitTime; // @synthesize retrainingWaitTime=_retrainingWaitTime;
-@property(nonatomic) unsigned long long speakerRecognitionPSRProcessingStatus; // @synthesize speakerRecognitionPSRProcessingStatus=_speakerRecognitionPSRProcessingStatus;
-@property(nonatomic) unsigned long long speakerRecognitionProcessingStatus; // @synthesize speakerRecognitionProcessingStatus=_speakerRecognitionProcessingStatus;
-@property(nonatomic) unsigned long long speakerRecognitionSATProcessingStatus; // @synthesize speakerRecognitionSATProcessingStatus=_speakerRecognitionSATProcessingStatus;
-@property(nonatomic) double speakerRecognitionWaitTime; // @synthesize speakerRecognitionWaitTime=_speakerRecognitionWaitTime;
-@property(nonatomic) unsigned long long voiceProfileDiscardedUtteranceCount; // @synthesize voiceProfileDiscardedUtteranceCount=_voiceProfileDiscardedUtteranceCount;
-@property(nonatomic) unsigned long long voiceProfilePrunedUtteranceCount; // @synthesize voiceProfilePrunedUtteranceCount=_voiceProfilePrunedUtteranceCount;
 @property(nonatomic) unsigned long long voiceProfilePruningFailureReasonCode; // @synthesize voiceProfilePruningFailureReasonCode=_voiceProfilePruningFailureReasonCode;
-@property(nonatomic) unsigned long long voiceProfileRetainedUtteranceCount; // @synthesize voiceProfileRetainedUtteranceCount=_voiceProfileRetainedUtteranceCount;
-@property(nonatomic) unsigned long long voiceProfileRetrainingFailureReasonCode; // @synthesize voiceProfileRetrainingFailureReasonCode=_voiceProfileRetrainingFailureReasonCode;
-@property(nonatomic) float voiceProfileUpdateScoreMSE; // @synthesize voiceProfileUpdateScoreMSE=_voiceProfileUpdateScoreMSE;
 
 @end
 

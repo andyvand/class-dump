@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITargetedPreview;
-
 __attribute__((visibility("hidden")))
 @interface _UITableViewContextMenuInteractionEffect
 {
     _Bool _isSourceList;
-    UITargetedPreview *_targetedPreview;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)quietly receipt for messageGuid %@ in chatGuid %@;
 - (void);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType)HHapticEventParameterIDAudioPan;
+- (CDUnknownBlockType)CHHapticEventParameterIDAudioPan;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isSourceList; // @synthesize isSourceList=_isSourceList;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITargetedPreview *targetedPreview; // @synthesize targetedPreview=_targetedPreview;
-@property(readonly, nonatomic) UITargetedPreview *targetedPreviewForEffectContinuation;
 
 @end
 

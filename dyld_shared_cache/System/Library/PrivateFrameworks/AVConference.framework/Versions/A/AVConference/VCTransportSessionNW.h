@@ -6,33 +6,22 @@
 
 #import <AVConference/VCTransportSession.h>
 
-@class NSObject, VCNWConnectionInfo;
-@protocol OS_dispatch_semaphore;
+@class VCNWConnectionInfo;
 
 __attribute__((visibility("hidden")))
 @interface VCTransportSessionNW : VCTransportSession
 {
     VCNWConnectionInfo *_rtpConnectionInfo;
-    VCNWConnectionInfo *_rtcpConnectionInfo;
-    _Bool _isSharedConnection;
-    _Bool _didScheduleReceive;
-    int _networkInterfaceType;
-    NSObject<OS_dispatch_semaphore> *_startWaitSemaphore;
-    NSObject<OS_dispatch_semaphore> *_cancelWaitSemaphore;
-    _Bool _isConnectionStartDelayed;
-    _Bool _connectionStartDidSucceed;
-    _Bool _isIPv6;
-    unsigned int _networkMTU;
 }
 
 - (int);
-- (int);
+- (int)A;
 - (int);
 - (void);
 - (void);
 - (int);
 - (int);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (int);
@@ -41,27 +30,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)9;
 - (void);
 - (int);
+- (int)R;
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
+- (int);
 - (int);
 - (void);
 - (int);
 - (struct tagVCNWConnectionMonitor *);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)b.;
+- (void)0;
 
 // Remaining properties
-@property(retain, nonatomic) VCNWConnectionInfo *rtcpConnectionInfo; // @synthesize rtcpConnectionInfo=_rtcpConnectionInfo;
 @property(retain, nonatomic) VCNWConnectionInfo *rtpConnectionInfo; // @synthesize rtpConnectionInfo=_rtpConnectionInfo;
 
 @end

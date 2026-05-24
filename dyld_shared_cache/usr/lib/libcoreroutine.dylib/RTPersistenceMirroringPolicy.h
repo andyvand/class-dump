@@ -9,7 +9,6 @@
 @interface RTPersistenceMirroringPolicy
 {
     long long _qualityOfService;
-    RTTokenBucket *_tokenBucket;
 }
 
 - (id);
@@ -17,20 +16,17 @@
 - (id);
 - (_Bool);
 - (double);
-- (id);
-- (id);
+- (id),N,V_payload;
+- (id)essRegisterResponse failed, invalid local relay link ID!;
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id)@ù
 × ;
 - (void)ailed:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsMirroringViaCellular;
-@property(readonly, nonatomic) _Bool mirroringOperationAllowed;
-@property(readonly, nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 @property(retain, nonatomic) RTTokenBucket *tokenBucket; // @synthesize tokenBucket=_tokenBucket;
 
 @end

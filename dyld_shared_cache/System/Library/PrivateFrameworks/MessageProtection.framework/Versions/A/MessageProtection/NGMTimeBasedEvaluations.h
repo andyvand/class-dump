@@ -16,7 +16,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)setSuppress_SymptomsNODataStall_Duration: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (id);

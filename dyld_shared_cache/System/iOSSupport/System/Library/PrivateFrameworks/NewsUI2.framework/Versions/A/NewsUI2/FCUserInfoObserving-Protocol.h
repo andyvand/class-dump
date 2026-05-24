@@ -4,9 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FCUserInfo;
+
 @protocol FCUserInfoObserving
 
 @optional
+- (void)rt of a view hierarchy %@;
+- (void)ctedAVLessConversationUUIDs;
+- (void)%@;
+- (void)@;
+- (void)%@;
+- (void)er:(FCUserInfo *)arg1 %@ %@;
+- (void)TUCallCenter:(FCUserInfo *)arg1 %@ %@;
+- (void)tes %@;
+- (void)cipant %@ in ;
+- (void)ationKit.CallCenter;
+- (void)ould not determine conversation from %@;
+- (void)n %@;
+- (void)versation;
+- (void)d not set AV mode to .none because call %@ has no active conversation;
+- (void)ting call because default to mute is set;
+- (void)ouldn't look up a link for the active conversation (error:(FCUserInfo *)arg1 %@);
+- (void)GridSize;
 - (void)|X±	¹!a¼¿;
 @end
 

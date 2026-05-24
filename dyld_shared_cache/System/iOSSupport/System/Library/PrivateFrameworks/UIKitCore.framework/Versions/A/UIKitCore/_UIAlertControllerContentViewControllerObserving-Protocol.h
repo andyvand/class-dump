@@ -5,5 +5,7 @@
 //
 
 @protocol _UIAlertControllerContentViewControllerObserving
+- (void)60;
+- (void)initWithBlastDoorResult: /* Error: Ran out of types for this method. */;
 @end
 

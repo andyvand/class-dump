@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKASMCredentialStore, NSString;
-@protocol CRKIdentity;
+@class NSString;
 
 @interface CRKASMIdentityVendor
 {
     NSString *_userIdentifier;
-    NSString *_commonNamePrefix;
-    CRKASMCredentialStore *_credentialStore;
 }
 
 - (id);
@@ -28,9 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *commonNamePrefix; // @synthesize commonNamePrefix=_commonNamePrefix;
-@property(readonly, nonatomic) CRKASMCredentialStore *credentialStore; // @synthesize credentialStore=_credentialStore;
-@property(readonly, nonatomic) id <CRKIdentity> identity;
 @property(readonly, copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end

@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface OADDuotoneEffect : OADBlipEffect
 {
     OADColor *mColor1;
-    OADColor *mColor2;
-    int mTransferMode1;
-    int mTransferMode2;
 }
 
 - (int);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);

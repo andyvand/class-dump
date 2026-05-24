@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface SpringAnimationEvaluator
 {
     double _mass;
-    double _stiffness;
-    double _damping;
-    double _w0;
-    double _wd;
-    double _zeta;
-    double _A;
-    double _B;
-    struct __CVDisplayLink *_displayLink;
-    NSDate *_startDate;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
@@ -30,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)tem;
+- (_Bool)_arrangeTabsByWebsiteMenuItem;
 - (void)(x;
 
 // Remaining properties

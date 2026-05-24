@@ -14,12 +14,12 @@
 + (id);
 + (id);
 + (id);
-+ (unsigned int);
++ (unsigned int)mplete.;
 - (id);
 - (id);
 - (id);
-- (unsigned short);
-- (id);
+- (unsigned short)URLProtocol:wasRedirectedToRequest:redirectResponse: /* Error: Ran out of types for this method. */;
+- (id)AMSURLSecurityPolicy;
 - (void);
 
 // Remaining properties

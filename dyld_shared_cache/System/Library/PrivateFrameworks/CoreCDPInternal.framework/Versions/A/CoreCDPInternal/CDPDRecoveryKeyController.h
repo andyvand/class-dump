@@ -4,49 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPDPCSController, CDPDSecureBackupController, NSString;
-@protocol CDPAuthProviderInternal, CDPDAuthProviderInternal, CDPDCircleProxy, CDPDOctagonTrustProxy, CDPDSecureBackupProxy, CDPStateUIProviderInternal;
+@class CDPContext;
+@protocol CDPStateUIProviderInternal;
 
 @interface CDPDRecoveryKeyController
 {
     CDPContext *_context;
-    CDPDPCSController *_pcsController;
-    CDPDSecureBackupController *_secureBackupController;
-    id <CDPStateUIProviderInternal> _uiProvider;
-    id <CDPDCircleProxy> _circleProxy;
-    id <CDPDSecureBackupProxy> _sbProxy;
-    id <CDPDOctagonTrustProxy> _otProxy;
-    id <CDPAuthProviderInternal> _recoveryAuthProvider;
-    id <CDPDAuthProviderInternal> _internalAuthProvider;
 }
 
+- (void)WBSFluidProgressControllerObserving;
+- (void)_TopSiteCandidate;
+- (void)ToolbarDownloadsButtonProgressBar;
+- (void)ToolbarController;
+- (void)TabSnapshotOnDiskImageStorageMetadataStore;
+- (_Bool)_TabSnapshotOnDiskImageStorageSaveOperation;
+- (void)TabSnapshotVendingInformationProvider;
+- (id)StartPagePrivateRelayInPrivateBrowsingCollectionViewItem;
+- (void)StartPagePrivateRelayInPrivateBrowsingCollectionViewItem;
+- (void)StartPagePrivateBrowsingCollectionViewItem;
+- (void)StartPagePrivacyReportRedesignViewItemDelegate;
+- (id)StartPageCollectionViewLayout;
+- (id)StartPageFullDescriptionViewItemDelegate;
+- (id)StartPageBackgroundFileBrowser;
+- (void)WBSSandboxExtensionStore;
+- (id)WKWebExtensionControllerDelegate;
+- (_Bool)NSScriptCommandAdditions;
+- (void)StartPageCollectionSectionProvider;
+- (void)_ASCredentialAuthenticationViewControllerDelegate;
+- (id)egate;
+- (id)PMSafariAutoFillStrongPasswordIntroductionViewControllerDelegate;
+- (id)topOrigin;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)inputNeutral;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)(ki;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -57,18 +49,6 @@
 - (id).remoteui.iforgot_recovery_verify_smscode_send_pinView_1;
 
 // Remaining properties
-@property(retain, nonatomic) id <CDPDCircleProxy> circleProxy; // @synthesize circleProxy=_circleProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CDPDAuthProviderInternal> internalAuthProvider; // @synthesize internalAuthProvider=_internalAuthProvider;
-@property(retain, nonatomic) id <CDPDOctagonTrustProxy> otProxy; // @synthesize otProxy=_otProxy;
-@property(retain, nonatomic) id <CDPAuthProviderInternal> recoveryAuthProvider; // @synthesize recoveryAuthProvider=_recoveryAuthProvider;
-@property(retain, nonatomic) id <CDPDSecureBackupProxy> sbProxy; // @synthesize sbProxy=_sbProxy;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) id <CDPStateUIProviderInternal> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end

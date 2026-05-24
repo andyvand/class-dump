@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, INTimer;
+@class INTimer;
 
 @protocol INSetTimerAttributeIntentExport
+- (INTimer *);
+- (void);
 
 // Remaining properties
 @property(copy) INTimer *targetTimer;
-@property double toDuration;
-@property(copy) INSpeakableString *toLabel;
 @end
 

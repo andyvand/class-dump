@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSString;
-@protocol DADataclassLockWatcher;
-
 @interface DALocalDBGateKeeper
 {
     _Bool _claimedOwnershipOfEvents;
-    id <DADataclassLockWatcher> _eventsLockHolder;
-    NSMutableArray *_eventsWaiters;
-    NSMutableSet *_waiterIDsExpectingEventsLock;
-    NSString *_unitTestHackRunLoopMode;
 }
 
 + (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)4;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id);
+- (_Bool)�;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
+- (id)emory_limit_info=iBBB}44;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool claimedOwnershipOfEvents; // @synthesize claimedOwnershipOfEvents=_claimedOwnershipOfEvents;
-@property(retain, nonatomic) id <DADataclassLockWatcher> eventsLockHolder; // @synthesize eventsLockHolder=_eventsLockHolder;
-@property(retain, nonatomic) NSMutableArray *eventsWaiters; // @synthesize eventsWaiters=_eventsWaiters;
-@property(retain, nonatomic) NSString *unitTestHackRunLoopMode; // @synthesize unitTestHackRunLoopMode=_unitTestHackRunLoopMode;
-@property(retain, nonatomic) NSMutableSet *waiterIDsExpectingEventsLock; // @synthesize waiterIDsExpectingEventsLock=_waiterIDsExpectingEventsLock;
 
 @end
 

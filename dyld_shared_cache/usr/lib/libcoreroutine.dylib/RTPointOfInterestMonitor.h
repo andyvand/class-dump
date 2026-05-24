@@ -6,35 +6,9 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSMutableArray, NSString, RTAppClipManager, RTBuildingPolygonManager, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationManager, RTLocation, RTLocationManager, RTMapServiceManager, RTMotionActivityManager, RTNavigationManager, RTPlatform, RTPointOfInterestMonitorDailyMetrics, RTPointOfInterestMonitorEventMetrics, RTTimer, RTTimerManager, RTVehicleLocationProvider, RTVisitLabeler, RTVisitStore;
-
 @interface RTPointOfInterestMonitor : RTService
 {
     _Bool _requestingHighAccuracyLocation;
-    _Bool _registeredForRegionEvents;
-    RTAppClipManager *_appClipManager;
-    RTBuildingPolygonManager *_buildingPolygonManager;
-    RTDefaultsManager *_defaultsManager;
-    RTPointOfInterestMonitorDailyMetrics *_dailyMetrics;
-    RTDistanceCalculator *_distanceCalculator;
-    RTPointOfInterestMonitorEventMetrics *_eventMetrics;
-    RTLearnedLocationManager *_learnedLocationManager;
-    NSDate *_lastMonitoringDate;
-    RTLocationManager *_locationManager;
-    RTTimer *_locationRequestTimer;
-    RTMapServiceManager *_mapServiceManager;
-    RTTimer *_metricsSubmissionTimer;
-    RTMotionActivityManager *_motionActivityManager;
-    RTLocation *_navigationDestination;
-    RTNavigationManager *_navigationManager;
-    RTPlatform *_platform;
-    NSString *_regionMonitoringClientIdentifer;
-    RTTimer *_regionMonitorTimer;
-    RTTimerManager *_timerManager;
-    RTVehicleLocationProvider *_vehicleLocationProvider;
-    RTVisitLabeler *_visitLabeler;
-    RTVisitStore *_visitStore;
-    NSMutableArray *_monitoringLocationDenyList;
 }
 
 - (void);
@@ -47,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)PathMTUDiscovery;
 - (void);
 - (void);
 - (void);
@@ -57,7 +31,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,11 +42,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)readFromOSChannel:ring:maximumDatagrams:readHandler:readHandlerWithOptions: /* Error: Ran out of types for this method. */;
+- (void)eave(to:(id)arg1;
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -87,10 +61,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -125,31 +99,7 @@
 - (void)ÿeæ+ud;
 
 // Remaining properties
-@property(retain, nonatomic) RTAppClipManager *appClipManager; // @synthesize appClipManager=_appClipManager;
-@property(retain, nonatomic) RTBuildingPolygonManager *buildingPolygonManager; // @synthesize buildingPolygonManager=_buildingPolygonManager;
-@property(retain, nonatomic) RTPointOfInterestMonitorDailyMetrics *dailyMetrics; // @synthesize dailyMetrics=_dailyMetrics;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) RTPointOfInterestMonitorEventMetrics *eventMetrics; // @synthesize eventMetrics=_eventMetrics;
-@property(retain, nonatomic) NSDate *lastMonitoringDate; // @synthesize lastMonitoringDate=_lastMonitoringDate;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTTimer *locationRequestTimer; // @synthesize locationRequestTimer=_locationRequestTimer;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTTimer *metricsSubmissionTimer; // @synthesize metricsSubmissionTimer=_metricsSubmissionTimer;
-@property(readonly, nonatomic) NSMutableArray *monitoringLocationDenyList; // @synthesize monitoringLocationDenyList=_monitoringLocationDenyList;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(retain, nonatomic) RTLocation *navigationDestination; // @synthesize navigationDestination=_navigationDestination;
-@property(retain, nonatomic) RTNavigationManager *navigationManager; // @synthesize navigationManager=_navigationManager;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) RTTimer *regionMonitorTimer; // @synthesize regionMonitorTimer=_regionMonitorTimer;
-@property(retain, nonatomic) NSString *regionMonitoringClientIdentifer; // @synthesize regionMonitoringClientIdentifer=_regionMonitoringClientIdentifer;
-@property(nonatomic) _Bool registeredForRegionEvents; // @synthesize registeredForRegionEvents=_registeredForRegionEvents;
 @property(nonatomic) _Bool requestingHighAccuracyLocation; // @synthesize requestingHighAccuracyLocation=_requestingHighAccuracyLocation;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(retain, nonatomic) RTVehicleLocationProvider *vehicleLocationProvider; // @synthesize vehicleLocationProvider=_vehicleLocationProvider;
-@property(retain, nonatomic) RTVisitLabeler *visitLabeler; // @synthesize visitLabeler=_visitLabeler;
-@property(retain, nonatomic) RTVisitStore *visitStore; // @synthesize visitStore=_visitStore;
 
 @end
 

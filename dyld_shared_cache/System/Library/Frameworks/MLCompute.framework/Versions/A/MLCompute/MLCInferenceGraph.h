@@ -9,17 +9,16 @@
 @interface MLCInferenceGraph : MLCGraph
 {
     unsigned long long _inferenceNodeInit;
-    unsigned long long _inferenceNodeIndexInGraphLayerList;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -27,24 +26,22 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)� ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long deviceMemorySize;
-@property(nonatomic) unsigned long long inferenceNodeIndexInGraphLayerList; // @synthesize inferenceNodeIndexInGraphLayerList=_inferenceNodeIndexInGraphLayerList;
 @property(nonatomic) unsigned long long inferenceNodeInit; // @synthesize inferenceNodeInit=_inferenceNodeInit;
 
 @end

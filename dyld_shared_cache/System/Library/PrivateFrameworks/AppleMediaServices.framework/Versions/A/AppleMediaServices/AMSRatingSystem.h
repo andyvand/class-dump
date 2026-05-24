@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AMSRatingSystem
 {
     NSString *_kind;
-    NSString *_label;
-    NSArray *_contentRatings;
-    NSString *_ratingSystemID;
-    NSArray *_types;
 }
 
 + (id);
 - (id);
 - (id);
+- (id)tion? %@, sourceURL? %@;
 - (id);
-- (id);
-- (id)DiversityBagWithData:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)importDiversityBagWithData:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)-«¯ÖÄ½PõºÐ¡¼Êí.ÏS!*/'©{Z¶h¾«&ô;
 - (id)=¥x¼ã¨õîu
 QÈ_a¡ýÇ|§ypGå.[0&¨}!9<<ÝàÛ;
 
 // Remaining properties
-@property(readonly) NSArray *contentRatings; // @synthesize contentRatings=_contentRatings;
 @property(readonly) NSString *kind; // @synthesize kind=_kind;
-@property(readonly) NSString *label; // @synthesize label=_label;
-@property(readonly) NSString *ratingSystemID; // @synthesize ratingSystemID=_ratingSystemID;
-@property(readonly) NSArray *types; // @synthesize types=_types;
 
 @end
 

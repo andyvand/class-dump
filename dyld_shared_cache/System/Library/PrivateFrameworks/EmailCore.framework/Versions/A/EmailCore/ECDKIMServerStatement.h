@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ECDKIMServerStatement
 {
     long long _dkimServerResult;
-    NSString *_dkimServerSigningDomain;
-    NSString *_dkimServerResultSelector;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (void);
+- (void)ncy. Failed to return a transition coordinator for detached full screen dismissal.;
+- (void)presentation.;
+- (void)nerate transition coordinator for presentation.;
+- (id)ived message %{public}@;
+- (id)views can substitute others.;
+- (long long)only overflow, but no layout views can substitute others.;
+- (void)TokenKeyForAccount returned NULL;
 
 // Remaining properties
 @property(nonatomic) long long dkimServerResult; // @synthesize dkimServerResult=_dkimServerResult;
-@property(copy, nonatomic) NSString *dkimServerResultSelector; // @synthesize dkimServerResultSelector=_dkimServerResultSelector;
-@property(copy, nonatomic) NSString *dkimServerSigningDomain; // @synthesize dkimServerSigningDomain=_dkimServerSigningDomain;
 
 @end
 

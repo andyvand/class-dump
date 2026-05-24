@@ -7,7 +7,6 @@
 @interface SiriIntentEvents.IntentStart
 {
     id intentType;
-    id timestamp;
 }
 
 @end

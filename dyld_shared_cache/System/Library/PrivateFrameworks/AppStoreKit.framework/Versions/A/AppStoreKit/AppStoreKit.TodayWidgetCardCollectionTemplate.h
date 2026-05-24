@@ -7,7 +7,6 @@
 @interface AppStoreKit.TodayWidgetCardCollectionTemplate
 {
     id cards;
-    id displayDate;
 }
 
 @end

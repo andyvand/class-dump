@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MEDecodedMessageBanner, MEMessageSecurityInformation, NSAttributedString, NSData, NSDictionary, NSError, NSMutableDictionary, NSString, NSURL;
+@class NSMutableDictionary, NSString;
 
 @interface MCMessageBody
 {
     NSMutableDictionary *_attachmentsByURL;
-    _Bool _isPlainText;
-    _Bool _hasEncryptedDescendantPart;
-    NSString *_html;
-    unsigned long long _originalEncoding;
-    NSString *_mimeType;
-    NSURL *_baseURL;
-    MEMessageSecurityInformation *_securityInformation;
-    NSData *_decodingContext;
-    MEDecodedMessageBanner *_messageDecodingBanner;
 }
 
++ (void);
 + (void);
-+ (void);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -33,7 +24,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (void);
@@ -42,7 +33,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (_Bool);
 - (id);
@@ -54,36 +45,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)d(enum-count)**;
 - (void);
-- (id);
+- (id)/;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSDictionary *attachmentsByURL;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedString;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSData *decodingContext; // @synthesize decodingContext=_decodingContext;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasEncryptedDescendantPart; // @synthesize hasEncryptedDescendantPart=_hasEncryptedDescendantPart;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *html; // @synthesize html=_html;
-@property(readonly, nonatomic) _Bool isEncrypted;
-@property(nonatomic) _Bool isPlainText; // @synthesize isPlainText=_isPlainText;
-@property(readonly, nonatomic) _Bool isSigned;
-@property(retain, nonatomic) MEDecodedMessageBanner *messageDecodingBanner; // @synthesize messageDecodingBanner=_messageDecodingBanner;
-@property(copy, nonatomic) NSString *mimeType; // @synthesize mimeType=_mimeType;
-@property(nonatomic) unsigned long long originalEncoding; // @synthesize originalEncoding=_originalEncoding;
-@property(retain, nonatomic) MEMessageSecurityInformation *securityInformation; // @synthesize securityInformation=_securityInformation;
-@property(readonly, nonatomic) NSError *smimeError;
-@property(readonly) Class superclass;
 
 @end
 

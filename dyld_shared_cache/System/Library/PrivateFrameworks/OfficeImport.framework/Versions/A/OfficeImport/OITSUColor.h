@@ -4,44 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-
 __attribute__((visibility("hidden")))
 @interface OITSUColor
 {
     struct CGColor *mCGColor;
-    unsigned long long mColorRGBSpace;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)�;
++ (id);
++ (id);
++ (id);
++ (id)T*;
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id)__DATA;
++ (id)__objc_const;
 + (id);
 + (id);
 + (id);
++ (id)__auth_got;
 + (id);
 + (id);
 + (id);
++ (id)initWithPlacemark: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -58,7 +55,7 @@ __attribute__((visibility("hidden")))
 + (id)(;
 - (unsigned int);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (double);
 - (double);
@@ -70,7 +67,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -85,7 +82,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (id);
 - (double);
@@ -95,11 +92,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (id);
-- (double);
-- (double);
-- (struct CGColorSpace *);
-- (unsigned long long);
-- (void);
+- (double)R5;
+- (double)OPTION_NOT_SUPPORTED;
+- (struct CGColorSpace *)IZNK20MaxDataRateInterface26carrierAndDeviceSupportLTEEvE3$_0FvNS_8optionalIbEEEEE;
+- (unsigned long long)R,N;
+- (void)Ұ;
 - (id);
 - (id);
 - (_Bool);
@@ -112,9 +109,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id)!,@ùÑ3$ð1Â0@ù
 × ;
-- (id)otationDocument;
-- (struct CGColor *)ment: /* Error: Ran out of types for this method. */;
-- (id)rent:(double)arg1;
+- (id)mAnnotationDocument;
+- (struct CGColor *)initWithDocument: /* Error: Ran out of types for this method. */;
+- (id)initWithDefaultWidth:(double)arg1 span:(double)arg2 parent:(double)arg3;
 - (id)¨;
 - (void);
 - (void);
@@ -123,27 +120,7 @@ __attribute__((visibility("hidden")))
 - (void)ðÙÿ@;
 
 // Remaining properties
-@property(readonly) struct CGColor *CGColor;
-@property(readonly) struct CGColorSpace *CGColorSpace;
-@property(readonly) int CGColorSpaceModel;
-@property(readonly, nonatomic) NSColor *NSColor;
-@property(readonly, nonatomic) double alphaComponent;
-@property(readonly) double blackComponent;
-@property(readonly, nonatomic) double blueComponent;
-@property(readonly, nonatomic) unsigned long long colorRGBSpace; // @synthesize colorRGBSpace=mColorRGBSpace;
-@property(readonly) double cyanComponent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double greenComponent;
-@property(readonly) unsigned long long hash;
-@property(readonly) double magentaComponent;
-@property(readonly, nonatomic) double redComponent;
-@property(readonly) Class superclass;
 @property(readonly) double whiteComponent;
-@property(readonly) double yellowComponent;
 
 @end
 

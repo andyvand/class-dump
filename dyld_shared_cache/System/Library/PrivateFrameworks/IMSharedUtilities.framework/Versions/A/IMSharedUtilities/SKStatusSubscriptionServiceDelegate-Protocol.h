@@ -5,5 +5,8 @@
 //
 
 @protocol SKStatusSubscriptionServiceDelegate
+
+@optional
+- (void);
 @end
 

@@ -18,12 +18,12 @@
 + (_Bool);
 + (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void)tWithSession:parsecSession:handler:queue:queryContext:queryIdent: /* Error: Ran out of types for this method. */;
+- (id)trailingAccessory;
+- (id)touchesEnded:withEvent: /* Error: Ran out of types for this method. */;
+- (id)titleSimplifiedByDeduplicatingMicroblogUsernameComponents:forMetadata: /* Error: Ran out of types for this method. */;
+- (id)substringWithRange: /* Error: Ran out of types for this method. */;
+- (long long)setImageMetadata: /* Error: Ran out of types for this method. */;
+- (void)initWithSession:parsecSession:handler:queue:queryContext:queryIdent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) SSApplicationResultBuilder *appResultBuilder; // @synthesize appResultBuilder=_appResultBuilder;

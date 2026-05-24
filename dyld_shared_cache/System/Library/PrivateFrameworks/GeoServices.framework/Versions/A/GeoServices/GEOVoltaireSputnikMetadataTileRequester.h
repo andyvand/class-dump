@@ -13,8 +13,8 @@
 + (unsigned char);
 - (unsigned int);
 - (id);
-- (CDUnion_20bcf645);
-- (id)pports_silent_route_updates;
+- (CDUnion_20bcf645);
+- (id)supports_silent_route_updates;
 
 @end
 

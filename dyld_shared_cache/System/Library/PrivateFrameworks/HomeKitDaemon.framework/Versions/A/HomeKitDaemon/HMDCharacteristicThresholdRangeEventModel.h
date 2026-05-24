@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDCharacteristicEventBaseModel.h>
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicThresholdRangeEventModel : HMDCharacteristicEventBaseModel
 {
@@ -19,15 +17,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *max; // @dynamic max;
-@property(retain, nonatomic) NSNumber *min; // @dynamic min;
-@property(readonly) Class superclass;
 
 @end
 

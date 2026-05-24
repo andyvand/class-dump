@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventAuthenticationMessage, NSArray, NSDictionary, NSString, NSUUID, TIAttributedDocumentState, TIDocumentState, TIInputContextHistory, TIKeyboardCandidate, TIKeyboardLayout, TIKeyboardLayoutState, TIKeyboardSecureCandidateRenderTraits, TITextInputTraits;
-
 @interface TIKeyboardState
 {
     union {
@@ -39,37 +37,6 @@
             unsigned int needCellularAutofill:1;
         } fields;
     } _mask;
-    union {
-        long long integerValue;
-        struct {
-            unsigned int displayed:1;
-            unsigned int autoDisplayMode:1;
-        } fields;
-    } _autocorrectionListUIState;
-    int _shiftState;
-    unsigned long long _supplementalLexiconIdentifier;
-    NSUUID *_documentIdentifier;
-    NSString *_clientIdentifier;
-    NSString *_inputMode;
-    NSArray *_auxiliaryInputModeLanguages;
-    NSString *_recipientIdentifier;
-    TIInputContextHistory *_inputContextHistory;
-    TIKeyboardLayout *_keyLayout;
-    TIKeyboardLayoutState *_layoutState;
-    TIDocumentState *_documentState;
-    TIAttributedDocumentState *_attributedDocumentState;
-    TIKeyboardSecureCandidateRenderTraits *_secureCandidateRenderTraits;
-    BKSHIDEventAuthenticationMessage *_eventAuthenticationMessage;
-    NSString *_inputForMarkedText;
-    NSString *_searchStringForMarkedText;
-    TIKeyboardCandidate *_currentCandidate;
-    TITextInputTraits *_textInputTraits;
-    NSString *_responseContext;
-    unsigned long long _autofillMode;
-    unsigned long long _autofillSubMode;
-    NSDictionary *_autofillContext;
-    NSArray *_supportedPayloadIds;
-    NSArray *_statisticChanges;
 }
 
 + (_Bool);
@@ -78,7 +45,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)__PSKnnModelShareSheetSuggestionEngagedMinimumOccurenceRegularizer;
 - (void);
 - (_Bool);
 - (void);
@@ -90,14 +57,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)prefetchResourcesWithPredicates:photoLibrary:prefetchPhase:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)payloadCRC;
+- (void)duplicateResourceErrorAmongResources:(_Bool)arg1 forAsset: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)ts in identifiersToFileTypes for:(_Bool)arg1 %@;
+- (id)UBQUERY(modernResources, $resource, $resource.dataStoreSubtype == %@ && $resource.remoteAvailability == %@).@count == 0;
+- (void)or fetching client state;
+- (void)tion"8Q16^B24;
 - (id);
 - (_Bool);
 - (void);
@@ -138,19 +105,19 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)$/;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)!;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)#;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -158,11 +125,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (void)Â0@ù
 × ;
-- (void)raseBoundary:(id)arg1;
+- (void)setSupportsSetPhraseBoundary:(id)arg1;
 - (void)M$A!A/;
 - (unsigned long long)	$	?	;
 - (void)	A	+	>	;
@@ -198,77 +165,21 @@
 - (void)a;
 - (_Bool)h database to wal mode:%s %d %s /* Error: Ran out of types for this method. */;
 - (void)Multiscript;
-- (void)e;
-- (_Bool);
-- (_Bool)reman;
-- (id);
-- (id);
-- (_Bool);
-- (void)owhood;
-- (id)al;
-- (_Bool)ntate;
+- (void)ovine;
+- (_Bool)armless;
+- (_Bool)fireman;
+- (id)volition;
+- (id)instil;
+- (_Bool)dryer;
+- (void)widowhood;
+- (id)suppositional;
+- (_Bool)commentate;
 - (id)inconsiderateness;
 - (void)inputManagerHint;
 - (void)ÊýÿA¥Òò;
 
 // Remaining properties
-@property(retain, nonatomic) TIAttributedDocumentState *attributedDocumentState; // @synthesize attributedDocumentState=_attributedDocumentState;
-@property(nonatomic) _Bool autocapitalizationEnabled;
-@property(nonatomic) unsigned long long autocapitalizationType;
-@property(nonatomic) _Bool autocorrectionEnabled;
-@property(nonatomic) _Bool autocorrectionListUIAutoDisplayMode;
-@property(nonatomic) _Bool autocorrectionListUIDisplayed;
-@property(retain, nonatomic) NSDictionary *autofillContext; // @synthesize autofillContext=_autofillContext;
-@property(nonatomic) unsigned long long autofillMode; // @synthesize autofillMode=_autofillMode;
-@property(nonatomic) unsigned long long autofillSubMode; // @synthesize autofillSubMode=_autofillSubMode;
-@property(copy, nonatomic) NSArray *auxiliaryInputModeLanguages; // @synthesize auxiliaryInputModeLanguages=_auxiliaryInputModeLanguages;
-@property(nonatomic) _Bool canSendCurrentLocation;
-@property(nonatomic) _Bool canSuggestSupplementalItemsForCurrentSelection;
-@property(nonatomic) _Bool candidateSelectionPredictionEnabled;
-@property(copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain, nonatomic) TIKeyboardCandidate *currentCandidate; // @synthesize currentCandidate=_currentCandidate;
-@property(retain, nonatomic) NSUUID *documentIdentifier; // @synthesize documentIdentifier=_documentIdentifier;
-@property(retain, nonatomic) TIDocumentState *documentState; // @synthesize documentState=_documentState;
-@property(nonatomic) _Bool emojiPopoverMode;
-@property(nonatomic) _Bool emojiSearchMode;
-@property(copy, nonatomic) BKSHIDEventAuthenticationMessage *eventAuthenticationMessage; // @synthesize eventAuthenticationMessage=_eventAuthenticationMessage;
-@property(nonatomic) _Bool floatingKeyboardMode;
-@property(nonatomic) _Bool hardwareKeyboardMode;
-@property(nonatomic) _Bool imageSuggestionEnabled;
-@property(nonatomic) _Bool inlineCompletionEnabled;
-@property(retain, nonatomic) TIInputContextHistory *inputContextHistory; // @synthesize inputContextHistory=_inputContextHistory;
-@property(copy, nonatomic) NSString *inputForMarkedText; // @synthesize inputForMarkedText=_inputForMarkedText;
-@property(copy, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(nonatomic) _Bool isScreenLocked;
-@property(retain, nonatomic) TIKeyboardLayout *keyLayout; // @synthesize keyLayout=_keyLayout;
-@property(nonatomic) _Bool keyboardEventsLagging;
-@property(nonatomic) unsigned long long keyboardType;
-@property(nonatomic) _Bool landscapeOrientation;
-@property(copy, nonatomic) TIKeyboardLayoutState *layoutState; // @synthesize layoutState=_layoutState;
-@property(nonatomic) _Bool longPredictionListEnabled;
-@property(nonatomic) _Bool needAutofill;
-@property(nonatomic) _Bool needCellularAutofill;
-@property(readonly, nonatomic) _Bool needContactAutofill;
-@property(nonatomic) _Bool needOneTimeCodeAutofill;
-@property(nonatomic) _Bool needsCandidateMetadata;
-@property(nonatomic) _Bool omitEmojiCandidates;
-@property(copy, nonatomic) NSString *recipientIdentifier; // @synthesize recipientIdentifier=_recipientIdentifier;
-@property(copy, nonatomic) NSString *responseContext; // @synthesize responseContext=_responseContext;
-@property(copy, nonatomic) NSString *searchStringForMarkedText; // @synthesize searchStringForMarkedText=_searchStringForMarkedText;
-@property(copy, nonatomic) TIKeyboardSecureCandidateRenderTraits *secureCandidateRenderTraits; // @synthesize secureCandidateRenderTraits=_secureCandidateRenderTraits;
-@property(nonatomic) _Bool secureTextEntry;
-@property(nonatomic) int shiftState; // @synthesize shiftState=_shiftState;
-@property(nonatomic) _Bool shortcutConversionEnabled;
-@property(readonly, nonatomic) _Bool shouldOutputFullwidthSpace;
-@property(nonatomic) _Bool shouldSkipCandidateSelection;
-@property(nonatomic) _Bool splitKeyboardMode;
-@property(copy, nonatomic) NSArray *statisticChanges; // @synthesize statisticChanges=_statisticChanges;
 @property(nonatomic) unsigned long long supplementalLexiconIdentifier; // @synthesize supplementalLexiconIdentifier=_supplementalLexiconIdentifier;
-@property(copy, nonatomic) NSArray *supportedPayloadIds; // @synthesize supportedPayloadIds=_supportedPayloadIds;
-@property(nonatomic) _Bool suppressingCandidateSelection;
-@property(retain, nonatomic) TITextInputTraits *textInputTraits; // @synthesize textInputTraits=_textInputTraits;
-@property(nonatomic) _Bool userSelectedCurrentCandidate;
-@property(nonatomic) _Bool wordLearningEnabled;
 
 @end
 

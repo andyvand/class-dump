@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFComposeRecipient, MFModernComposeRecipientAtom;
-
 @interface _MFAtomTextAttachment
 {
     _Bool _isPlaceholder;
-    MFModernComposeRecipientAtom *_atomView;
 }
 
 - (void);
 - (id);
 - (id);
+- (id)C;
 - (id);
 - (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect)__DATA_CONST;
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MFModernComposeRecipientAtom *atomView; // @synthesize atomView=_atomView;
 @property(nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
-@property(readonly, nonatomic) MFComposeRecipient *recipient;
 
 @end
 

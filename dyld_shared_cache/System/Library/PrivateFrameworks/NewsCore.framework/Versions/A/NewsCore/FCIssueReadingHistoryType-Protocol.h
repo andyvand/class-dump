@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray, NSDate, NSString;
 
 @protocol FCIssueReadingHistoryType
+- (NSDate *)alues;
+- (void)_dirty;
+- (NSArray *)Filter shouldKeepEntry:] /* Error: Ran out of types for this method. */;
+- (void)ey;
 - (void)tionEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allEngagedIssueIDs;
 @property(readonly, nonatomic) NSString *mostRecentlyVisitedIssueID;
-@property(readonly, nonatomic) NSArray *recentlyEngagedIssueIDs;
-@property(readonly, nonatomic) NSArray *recentlyVisitedIssueIDs;
 @end
 

@@ -9,15 +9,6 @@
 @interface SwiftUI.AppKitSearchFieldCoordinator : SwiftUI.PlatformViewCoordinator
 {
     id configuration;
-    id location;
-    id suggestionsView;
-    id environment;
-    id preferredWidth;
-    id focusUpdate;
-    id lastText;
-    id lastAttachmentCells;
-    id isViewUpdating;
-    id expectedSelectionVersion;
 }
 
 - (id);

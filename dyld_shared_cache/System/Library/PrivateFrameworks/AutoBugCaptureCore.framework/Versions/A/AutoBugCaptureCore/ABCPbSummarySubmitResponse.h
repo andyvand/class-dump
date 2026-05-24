@@ -10,38 +10,27 @@ __attribute__((visibility("hidden")))
 @interface ABCPbSummarySubmitResponse
 {
     NSString *_message;
-    NSString *_status;
 }
 
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)brary/Caches/com.apple.xbs/TemporaryDirectory.aCINrX/Sources/Navigation/Location/MNLocation.m;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)g;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMessage;
-@property(readonly, nonatomic) _Bool hasStatus;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSString *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

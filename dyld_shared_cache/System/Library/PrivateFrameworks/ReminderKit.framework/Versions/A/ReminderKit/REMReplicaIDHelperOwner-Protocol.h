@@ -7,6 +7,7 @@
 @protocol REMReplicaManagerProviding;
 
 @protocol REMReplicaIDHelperOwner
+- (id <REMReplicaManagerProviding>)sfied. Defering.;
 
 // Remaining properties
 @property(retain, nonatomic) id <REMReplicaManagerProviding> replicaManagerProvider;

@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 
 + (id)þÜ;
 - (id);
-- (id);
+- (id),V_outputStream;
 - (void)ngUndoGroupPrematurelyEnded"b1"automaticallyAdjustsWritingDirection"b1};
 - (id)bleConstraints:(unsigned int)arg1;
-- (id)ctionMethod:(unsigned int)arg1 inputType: /* Error: Ran out of types for this method. */;
+- (id)emojiSearchWillInsertEmoji:(unsigned int)arg1 forSearchQuery:selectionMethod:inputType: /* Error: Ran out of types for this method. */;
 - (id)k;
 - (void)<oþ¶þ;
 

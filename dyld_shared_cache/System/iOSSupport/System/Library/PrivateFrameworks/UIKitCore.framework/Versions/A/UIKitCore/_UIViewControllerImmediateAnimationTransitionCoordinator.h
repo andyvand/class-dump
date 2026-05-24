@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewControllerImmediateAnimationTransitionCoordinator
@@ -13,19 +13,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (id)xtInputSessionActionAnalytics] inputMode - overrode source with '%{private}@';
-- (long long)skWillExpireNotification;
-- (_Bool)gationControllerLastVisibleViewController;
+- (long long)UIApplicationBackgroundTaskWillExpireNotification;
+- (_Bool)UINavigationControllerLastVisibleViewController;
 - (double)onBarPressedIndicator.png;
-- (id)ionY;
+- (id)UISolariumFloatingContentViewOverrideTranslationY;
 - (_Bool)feAreaEdgeInsetResolver.swift;
 - (struct CGAffineTransform)Impl/Layout/_UISplitViewControllerAdaptiveLayoutTransition.swift;
 - (_Bool)ÿÊÅþÿøþÿ;
 - (_Bool)onCG;
-- (void)25FBSSceneTransitionContextCSgIggggg_;
+- (void)So11FBSSettingsCABSo0A4DiffCSgSo25FBSSceneTransitionContextCSgIggggg_;
 - (void)putModelP;
-- (_Bool)pIgl_;
+- (_Bool)_pIgl_;
 - (_Bool)eFrameworks/MediaRemote.framework/MediaRemote;
-- (void)veParentScrollViewAndSubview;
+- (void)ActiveParentScrollViewAndSubview;
 - (_Bool)2¥Á03HE;
 - (id);
 - (double)(~þ;
@@ -35,25 +35,7 @@ __attribute__((visibility("hidden")))
 - (long long)m43ËÅ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnimated) _Bool animated;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) long long completionCurve;
-@property(readonly, nonatomic) double completionVelocity;
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool initiallyInteractive;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) _Bool isInterruptible;
-@property(readonly, nonatomic) double percentComplete;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) double transitionDuration;
 
 @end
 

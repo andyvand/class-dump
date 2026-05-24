@@ -19,11 +19,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)?;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *seriesId;
-@property(copy, nonatomic) NSString *seriesTitle;
 
 @end
 

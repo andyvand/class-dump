@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface RTStateModelDateStats
 {
     int _numOfDates;
-    NSDate *_averageDate;
-    double _stdDeviation;
-    double _timeIntervalToLatestDateSum;
-    double _timeIntervalToLatestDateSum2;
 }
 
 - (double);
@@ -21,18 +15,14 @@
 - (void);
 - (void);
 - (void);
-- (int);
-- (id);
-- (void);
-- (void);
+- (int);
+- (id)initManager;
+- (void)arrange;
+- (void)DataRef, const NSString *__strong, CFDataRef, CFErrorRef *);
 - (void), fetching calendar events between startDate, %@, endDate, %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *averageDate; // @synthesize averageDate=_averageDate;
-@property(nonatomic) int numOfDates; // @synthesize numOfDates=_numOfDates;
-@property(nonatomic) double stdDeviation; // @synthesize stdDeviation=_stdDeviation;
 @property(nonatomic) double timeIntervalToLatestDateSum; // @synthesize timeIntervalToLatestDateSum=_timeIntervalToLatestDateSum;
-@property(nonatomic) double timeIntervalToLatestDateSum2; // @synthesize timeIntervalToLatestDateSum2=_timeIntervalToLatestDateSum2;
 
 @end
 

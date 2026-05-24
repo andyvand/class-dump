@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng, _SFPBRFMapPoint, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBLatLng, _SFPBRFTextProperty, _SFPBRFVisualProperty;
 
 @protocol _SFPBRFMapAnnotation
-- (_SFPBRFMapPoint *);
-- (void)tURL;
+- (_SFPBRFTextProperty *)WBSCancellableContinuation;
+- (void);
+- (NSData *)_formatedDeletedUUidsByObjectId;
+- (_SFPBRFVisualProperty *);
+- (void)contentURL;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFMapPoint *anchor;
-@property(retain, nonatomic) _SFPBRFVisualProperty *content;
 @property(retain, nonatomic) _SFPBLatLng *coordinate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFTextProperty *label;
-@property(copy, nonatomic) NSString *title;
 @end
 

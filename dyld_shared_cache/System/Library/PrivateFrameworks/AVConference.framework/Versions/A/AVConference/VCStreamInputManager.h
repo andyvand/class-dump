@@ -6,20 +6,18 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VCStreamInputManager : VCObject
 {
     NSObject<OS_dispatch_queue> *_xpcQueue;
-    NSObject<OS_dispatch_queue> *_streamInputQueue;
-    NSMutableDictionary *_streamInputs;
 }
 
 + (id);
 + (id)ber"8Q16^B24;
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -38,20 +36,14 @@ __attribute__((visibility("hidden")))
 - (oneway void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)read}i[60c]II};
 - (id)uld be initialized first before we can update security key material;
-- (id);
+- (id)_AVCRateController_ApplyServerBagPauseResumeConfig;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

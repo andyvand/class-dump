@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSString;
-@protocol NSCopying;
-
 @interface STWebRemoteViewController
 {
     _Bool _URLIsBlocked;
-    NSExtension *_extension;
-    id <NSCopying> _extensionRequestIdentifier;
 }
 
-+ (void);
++ (void)DefaultClientSideEngagementBoostFeaturedArticleMultiplier;
++ (id)DefaultClientSideEngagementBoostFreeCohortCTRCap;
++ (void)DefaultClientSideEngagementBoostReduceVisibilityMultiplier;
 + (id);
-+ (void);
 + (id);
 + (id);
-+ (id);
+- (void)DefaultRelatedTopicRatioFilter;
+- (void)DefaultRelatedTopicRatioFilter;
+- (void);
+- (id);
+- (_Bool)$;
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)a MockURLSession at %@;
 
 // Remaining properties
 @property _Bool URLIsBlocked; // @synthesize URLIsBlocked=_URLIsBlocked;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(copy, nonatomic) id <NSCopying> extensionRequestIdentifier; // @synthesize extensionRequestIdentifier=_extensionRequestIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

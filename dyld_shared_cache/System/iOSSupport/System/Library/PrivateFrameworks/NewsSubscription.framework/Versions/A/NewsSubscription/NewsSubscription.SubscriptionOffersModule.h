@@ -7,7 +7,6 @@
 @interface NewsSubscription.SubscriptionOffersModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

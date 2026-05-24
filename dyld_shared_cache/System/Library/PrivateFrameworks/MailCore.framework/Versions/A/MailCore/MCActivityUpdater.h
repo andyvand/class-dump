@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCActivityMonitor, NSProgress;
+@class MCActivityMonitor;
 
 @interface MCActivityUpdater
 {
     _Bool _valid;
-    MCActivityMonitor *_monitor;
-    NSProgress *_progress;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)setLastTouchDate:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)teDidChange;
+- (id)_MCPowerSourceIsLimitedStateDidChange;
 
 // Remaining properties
 @property(retain, nonatomic) MCActivityMonitor *monitor; // @synthesize monitor=_monitor;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

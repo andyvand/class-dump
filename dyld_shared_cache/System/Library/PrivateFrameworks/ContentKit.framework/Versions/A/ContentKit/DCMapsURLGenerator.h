@@ -6,13 +6,12 @@
 
 #import <ContentKit/DCURLGenerator.h>
 
-@class DCMapsLink, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface DCMapsURLGenerator : DCURLGenerator
 {
     NSMutableDictionary *_queryDictionary;
-    DCMapsLink *_mapsLink;
 }
 
 + (id);
@@ -24,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)1;.;
 - (id);
 - (id);
 - (id);
@@ -32,7 +31,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) DCMapsLink *mapsLink; // @synthesize mapsLink=_mapsLink;
 @property(readonly, nonatomic) NSMutableDictionary *queryDictionary; // @synthesize queryDictionary=_queryDictionary;
 
 @end

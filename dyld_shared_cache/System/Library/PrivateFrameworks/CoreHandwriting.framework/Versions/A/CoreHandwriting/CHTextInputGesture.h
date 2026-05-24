@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, CHTextInputTargetContentInfo, CHTokenizedTextResult, NSLocale;
-@protocol CHStroke;
-
 @interface CHTextInputGesture
 {
     _Bool _preferCharacterLevel;
-    long long _gestureType;
-    CHTextInputTargetContentInfo *_targetContentInfo;
-    NSLocale *_locale;
-    CHDrawing *_normalizedDrawing;
-    CHDrawing *_originalDrawing;
-    id <CHStroke> _lastStroke;
-    CHTokenizedTextResult *__textResult;
-    struct _NSRange __storedAffectedRange;
 }
 
 + (id);
@@ -33,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (struct _NSRange);
+- (struct _NSRange)2;
 - (id);
 - (long long);
 - (void);
@@ -42,12 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) long long gestureType; // @synthesize gestureType=_gestureType;
-@property(readonly, nonatomic) id <CHStroke> lastStroke; // @synthesize lastStroke=_lastStroke;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) CHDrawing *normalizedDrawing; // @synthesize normalizedDrawing=_normalizedDrawing;
-@property(readonly, nonatomic) CHDrawing *originalDrawing; // @synthesize originalDrawing=_originalDrawing;
-@property(readonly, nonatomic) _Bool preferCharacterLevel; // @synthesize preferCharacterLevel=_preferCharacterLevel;
-@property(readonly, nonatomic) CHTextInputTargetContentInfo *targetContentInfo; // @synthesize targetContentInfo=_targetContentInfo;
 
 @end
 

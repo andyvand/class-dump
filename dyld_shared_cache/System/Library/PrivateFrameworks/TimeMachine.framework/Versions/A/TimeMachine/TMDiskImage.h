@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface TMDiskImage
 {
     long long _qos;
-    NSURL *_diskImageURL;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 + (id);
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (_Bool);
 - (id);
@@ -43,7 +42,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)%;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -52,12 +51,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -65,32 +64,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)clientCompletedWithError: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *backupDiskDevicePath;
-@property(readonly) _Bool backupDiskIsAPFS;
-@property(readonly) _Bool backupDiskIsHFS;
-@property(readonly) _Bool backupDiskIsMountable;
-@property(readonly) _Bool backupDiskIsWritable;
-@property(readonly) NSURL *backupDiskMountPoint;
-@property(readonly) NSString *backupDiskRawDevicePath;
 @property(copy) NSURL *diskImageURL; // @synthesize diskImageURL=_diskImageURL;
-@property(readonly) NSString *displayName;
-@property(readonly) unsigned int encryptionState;
-@property(readonly) NSString *hostUUID;
-@property(readonly) _Bool isIncomplete;
-@property(readonly) _Bool isPartiallyCreated;
-@property(readonly) _Bool isPurgeable;
-@property(readonly) _Bool isSafeToDelete;
-@property(readonly) NSString *macAddress;
-@property(readonly) long long qos; // @synthesize qos=_qos;
 
 @end
 

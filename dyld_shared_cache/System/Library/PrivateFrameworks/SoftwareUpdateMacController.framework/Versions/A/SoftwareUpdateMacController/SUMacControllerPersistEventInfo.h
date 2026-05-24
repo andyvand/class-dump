@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, SUMacControllerAccessControlContext, SUMacControllerDescriptor, SUMacControllerOverrides;
+@class NSString;
 
 @interface SUMacControllerPersistEventInfo
 {
     long long _reachedPhase;
-    NSString *_updateUUID;
-    SUMacControllerAccessControlContext *_accessControlContext;
-    SUMacControllerDescriptor *_descriptor;
-    SUMacControllerOverrides *_overrides;
-    NSError *_error;
-    CDUnknownBlockType _completion;
-    NSString *_persistenceDescription;
 }
 
 + (_Bool);
@@ -27,11 +20,11 @@
 - (long long);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -42,19 +35,12 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)_viewController;
 - (void);
 - (void)ÿæºRÄ;
 
 // Remaining properties
-@property(retain, nonatomic) SUMacControllerAccessControlContext *accessControlContext; // @synthesize accessControlContext=_accessControlContext;
-@property(readonly, retain, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) SUMacControllerDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) SUMacControllerOverrides *overrides; // @synthesize overrides=_overrides;
 @property(retain, nonatomic) NSString *persistenceDescription; // @synthesize persistenceDescription=_persistenceDescription;
-@property(nonatomic) long long reachedPhase; // @synthesize reachedPhase=_reachedPhase;
-@property(retain, nonatomic) NSString *updateUUID; // @synthesize updateUUID=_updateUUID;
 
 @end
 

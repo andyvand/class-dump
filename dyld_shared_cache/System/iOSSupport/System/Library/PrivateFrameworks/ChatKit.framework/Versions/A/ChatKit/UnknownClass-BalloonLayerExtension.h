@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (BalloonLayerExtension)
-+ (double);
++ (double)?0@"CKShareParticipant"8;
 + (struct UIEdgeInsets);
 + (struct CGRect);
 - (void);

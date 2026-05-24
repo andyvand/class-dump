@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NSURL;
-@protocol HMDFileManager, OS_dispatch_queue;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface HMDLaunchHandler
 {
     NSURL *_relaunchPlistFileURL;
-    id <HMDFileManager> _fileManager;
-    CDUnknownBlockType _jetsamPriorityHandler;
-    NSObject<OS_dispatch_queue> *_handlerQueue;
-    NSMutableSet *_registeredRelaunchClients;
 }
 
-+ (id);
++ (id)Filtered the contacts from %ld candidates to %ld candidates by handles.;
 + (id)ÆÜ¤B;
 - (void);
-- (void);
+- (void)ction error:(id)arg1 %s;
 - (id);
 - (void);
 - (void);
@@ -29,24 +24,13 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType)@ù
 × ;
 - (id)"IDSGroupSessionActiveParticipant"36;
-- (id)y: /* Error: Ran out of types for this method. */;
+- (id)removeObserver:forSubActivity: /* Error: Ran out of types for this method. */;
 - (void)for accessory %@/%{public}@/%{public}@ with %ld requests;
-- (void)essoryChangedRoom;
+- (void)HMDNotificationAccessoryChangedRoom;
 - (id)Ðÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <HMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *handlerQueue; // @synthesize handlerQueue=_handlerQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDUnknownBlockType jetsamPriorityHandler; // @synthesize jetsamPriorityHandler=_jetsamPriorityHandler;
-@property(readonly, nonatomic) NSMutableSet *registeredRelaunchClients; // @synthesize registeredRelaunchClients=_registeredRelaunchClients;
 @property(readonly, copy, nonatomic) NSURL *relaunchPlistFileURL; // @synthesize relaunchPlistFileURL=_relaunchPlistFileURL;
-@property(readonly) Class superclass;
 
 @end
 

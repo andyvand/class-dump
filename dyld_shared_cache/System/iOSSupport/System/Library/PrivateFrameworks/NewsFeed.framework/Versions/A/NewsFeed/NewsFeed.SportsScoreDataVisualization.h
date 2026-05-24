@@ -7,19 +7,6 @@
 @interface NewsFeed.SportsScoreDataVisualization
 {
     id identifier;
-    id competitorTags;
-    id umcCanonicalId;
-    id event;
-    id leagueTag;
-    id embedUrl;
-    id urlDataSources;
-    id eventStatus;
-    id metadata;
-    id debugData;
-    id config;
-    id traits;
-    id groupingIdentifier;
-    id representsCollapsedEventGroup;
 }
 
 @end

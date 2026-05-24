@@ -6,25 +6,23 @@
 
 #import <Contacts/CNContactUpdate.h>
 
-@class CNMultiValueDiff, CNMultiValuePropertyDescription;
+@class CNMultiValuePropertyDescription;
 
 __attribute__((visibility("hidden")))
 @interface CNContactMultiValueDiffUpdate : CNContactUpdate
 {
     CNMultiValuePropertyDescription *_property;
-    CNMultiValueDiff *_diff;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)legate.stack.;
+- (id)?;
 - (void)16@?<v@?@"NSObject<OS_ldap_connection>"i>24;
 - (id)=;
 
 // Remaining properties
-@property(readonly) CNMultiValueDiff *diff; // @synthesize diff=_diff;
 @property(readonly) CNMultiValuePropertyDescription *property; // @synthesize property=_property;
 
 @end

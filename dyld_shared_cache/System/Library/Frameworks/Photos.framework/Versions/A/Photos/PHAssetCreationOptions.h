@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHAssetCreationAdjustmentBakeInOptions, PHAssetCreationMetadataCopyOptions;
-
 @interface PHAssetCreationOptions
 {
     _Bool _shouldDownloadOrCloudReReferenceMissingResources;
-    _Bool _resetUserSpecificMetadata;
-    _Bool _copyStillPhotoFromLivePhoto;
-    _Bool _copyOriginal;
-    _Bool _copySinglePhotoFromBurst;
-    _Bool _copyAsAlternateAsset;
-    _Bool _useRecoverableStagingDirectory;
-    _Bool _shouldCreateScreenshot;
-    _Bool _shouldUseAutomaticallyGeneratedOriginalFilename;
-    PHAssetCreationAdjustmentBakeInOptions *_adjustmentBakeInOptions;
-    PHAssetCreationMetadataCopyOptions *_metadataCopyOptions;
-    unsigned long long _migrationKitSubtype;
-    long long _creationCrashType;
-    CDStruct_1b6d18a9 _stillSourceTime;
 }
 
 - (_Bool);
@@ -31,10 +16,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)( @:(unsigned long long)arg1 ':$:%$*$L /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -44,33 +29,20 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (CDStruct_1b6d18a9);
+- (void);
+- (CDStruct_198678f7);
 - (id);
-- (id);
-- (void)Info;
+- (id)artWhenStaged;
+- (void)_additionalInfo;
 
 // Remaining properties
-@property(copy, nonatomic) PHAssetCreationAdjustmentBakeInOptions *adjustmentBakeInOptions; // @synthesize adjustmentBakeInOptions=_adjustmentBakeInOptions;
-@property(nonatomic) _Bool copyAsAlternateAsset; // @synthesize copyAsAlternateAsset=_copyAsAlternateAsset;
-@property(nonatomic) _Bool copyOriginal; // @synthesize copyOriginal=_copyOriginal;
-@property(nonatomic) _Bool copySinglePhotoFromBurst; // @synthesize copySinglePhotoFromBurst=_copySinglePhotoFromBurst;
-@property(nonatomic) _Bool copyStillPhotoFromLivePhoto; // @synthesize copyStillPhotoFromLivePhoto=_copyStillPhotoFromLivePhoto;
 @property(nonatomic) long long creationCrashType; // @synthesize creationCrashType=_creationCrashType;
-@property(copy, nonatomic) PHAssetCreationMetadataCopyOptions *metadataCopyOptions; // @synthesize metadataCopyOptions=_metadataCopyOptions;
-@property(nonatomic) unsigned long long migrationKitSubtype; // @synthesize migrationKitSubtype=_migrationKitSubtype;
-@property(nonatomic) _Bool resetUserSpecificMetadata; // @synthesize resetUserSpecificMetadata=_resetUserSpecificMetadata;
-@property(nonatomic) _Bool shouldCreateScreenshot; // @synthesize shouldCreateScreenshot=_shouldCreateScreenshot;
-@property(nonatomic) _Bool shouldDownloadOrCloudReReferenceMissingResources; // @synthesize shouldDownloadOrCloudReReferenceMissingResources=_shouldDownloadOrCloudReReferenceMissingResources;
-@property(nonatomic) _Bool shouldUseAutomaticallyGeneratedOriginalFilename; // @synthesize shouldUseAutomaticallyGeneratedOriginalFilename=_shouldUseAutomaticallyGeneratedOriginalFilename;
-@property(nonatomic) CDStruct_1b6d18a9 stillSourceTime; // @synthesize stillSourceTime=_stillSourceTime;
-@property(nonatomic) _Bool useRecoverableStagingDirectory; // @synthesize useRecoverableStagingDirectory=_useRecoverableStagingDirectory;
 
 @end
 

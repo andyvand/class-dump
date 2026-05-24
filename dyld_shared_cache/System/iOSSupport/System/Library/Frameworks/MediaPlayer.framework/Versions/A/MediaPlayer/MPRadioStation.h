@@ -9,34 +9,28 @@
 @interface MPRadioStation
 {
     long long _uniqueIdentifier;
-    NSString *_localizedName;
-    NSString *_localizedDescription;
-    NSString *_stationStringID;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)__kIMBalloonPluginExtensionsLoaded;
 - (id);
-- (id);
-- (id);
+- (id)initWithInput_1:Confidence:Detected:thresholdedHistoryOut:detectedHistoryOut: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (long long);
-- (void);
+- (void)ectionFunctionTable>"32@0:(long long)arg1 8@"MTLIntersectionFunctionTableDescriptor"16Q24;
 - (id);
-- (void);
-- (void)APPING_MISSING__;
+- (void)configuration.system.web.contentfilter.basic;
+- (void)__MPModelPropertySongBeatsPerMinute__MAPPING_MISSING__;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
 @property(copy, nonatomic) NSString *stationStringID; // @synthesize stationStringID=_stationStringID;
-@property(nonatomic) long long uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

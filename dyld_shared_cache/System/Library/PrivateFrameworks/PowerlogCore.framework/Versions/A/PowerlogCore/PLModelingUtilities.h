@@ -27,12 +27,14 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)J
+;
++ (_Bool)J
+;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool)izeOfEntryCache: /* Error: Ran out of types for this method. */;
-+ (_Bool)148;
-+ (_Bool)ctivityPredictionInterruption;
++ (_Bool)logSizeOfEntryCache: /* Error: Ran out of types for this method. */;
++ (_Bool)P148;
++ (_Bool)InactivityPredictionInterruption;
 
 @end
 

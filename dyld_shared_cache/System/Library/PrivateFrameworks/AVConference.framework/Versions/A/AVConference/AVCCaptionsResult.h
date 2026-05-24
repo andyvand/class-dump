@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
-
 @interface AVCCaptionsResult
 {
     _Bool _utteranceComplete;
-    NSMutableArray *_tokens;
-    unsigned int _utteranceNumber;
-    unsigned int _updateNumber;
-    double _utteranceStartTimestamp;
-    double _utteranceDuration;
 }
 
 - (id);
@@ -30,14 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *segments;
-@property(readonly, nonatomic) NSString *text;
-@property(readonly, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
-@property(readonly, nonatomic) unsigned int updateNumber; // @synthesize updateNumber=_updateNumber;
 @property(readonly, nonatomic) _Bool utteranceComplete; // @synthesize utteranceComplete=_utteranceComplete;
-@property(readonly, nonatomic) double utteranceDuration; // @synthesize utteranceDuration=_utteranceDuration;
-@property(readonly, nonatomic) unsigned int utteranceNumber; // @synthesize utteranceNumber=_utteranceNumber;
-@property(readonly, nonatomic) double utteranceStartTimestamp; // @synthesize utteranceStartTimestamp=_utteranceStartTimestamp;
 
 @end
 

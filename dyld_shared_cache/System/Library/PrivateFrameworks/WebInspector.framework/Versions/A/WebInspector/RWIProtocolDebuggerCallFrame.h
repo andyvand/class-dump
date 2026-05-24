@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString, RWIProtocolDebuggerLocation, RWIProtocolRuntimeRemoteObject;
+@class NSString;
 
 @interface RWIProtocolDebuggerCallFrame : RWIProtocolJSONObject
 {
@@ -28,11 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *callFrameId;
-@property(copy, nonatomic) NSString *functionName;
-@property(nonatomic) _Bool isTailDeleted;
-@property(retain, nonatomic) RWIProtocolDebuggerLocation *location;
-@property(copy, nonatomic) NSArray *scopeChain;
-@property(retain, nonatomic) RWIProtocolRuntimeRemoteObject *thisObject;
 
 @end
 

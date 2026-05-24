@@ -7,13 +7,9 @@
 @interface HomeKitDaemon.CascadeIndexer
 {
     id $defaultActor;
-    id indexerDataSource;
-    id timerProvider;
-    id debounceTimer;
-    id currentIndexingTask;
 }
 
-- (void);
+- (void)_replacementImmutableObjects;
 
 @end
 

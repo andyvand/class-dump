@@ -4,48 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUPixelFormat;
-@protocol NUAuxiliaryImage;
+@class NSString;
 
 @interface NUCMPhotoAuxiliaryImageProperties
 {
     id _container;
-    long long _type;
-    id <NUAuxiliaryImage> _auxImage;
-    NSString *_auxiliaryImageURN;
-    NUPixelFormat *_pixelFormat;
-    NSString *_auxiliaryImageTypeCGIdentifier;
-    CDStruct_d58201db _size;
 }
 
 - (id);
 - (id);
 - (struct CGImageMetadata *);
 - (id);
-- (id);
+- (id)@;
 - (struct CGImageMetadata *);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (CDStruct_912cb5d2);
 - (id);
-- (void)e:version: /* Error: Ran out of types for this method. */;
+- (void)validateIdentifierString:namespace:name:version: /* Error: Ran out of types for this method. */;
 - (id)ameTime;
 
 // Remaining properties
 @property(readonly) NSString *auxiliaryImageTypeCGIdentifier; // @synthesize auxiliaryImageTypeCGIdentifier=_auxiliaryImageTypeCGIdentifier;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(readonly, nonatomic) struct CGImageMetadata *compatibilityMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NUPixelFormat *pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

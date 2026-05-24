@@ -9,7 +9,6 @@
 @interface ConversationKit.ForegroundApp
 {
     id bundleIdentifier;
-    id type;
 }
 
 - (id);

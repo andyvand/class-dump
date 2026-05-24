@@ -6,28 +6,18 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CEMSystemAllowedMediaDeclaration_MediaItems : CEMPayloadBase
 {
     NSString *_payloadAllMedia;
-    NSArray *_payloadCd;
-    NSArray *_payloadDvd;
-    NSArray *_payloadBd;
-    NSArray *_payloadBlankcd;
-    NSArray *_payloadBlankdvd;
-    NSArray *_payloadBlankbd;
-    NSArray *_payloadDvdram;
-    NSArray *_payloadDiskImage;
-    NSArray *_payloadHarddiskInternal;
-    NSArray *_payloadHarddiskExternal;
-    NSArray *_payloadNetworkdisk;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,7 +28,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -48,27 +41,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)ed to initialize TTS voice asset;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadAllMedia; // @synthesize payloadAllMedia=_payloadAllMedia;
-@property(copy, nonatomic) NSArray *payloadBd; // @synthesize payloadBd=_payloadBd;
-@property(copy, nonatomic) NSArray *payloadBlankbd; // @synthesize payloadBlankbd=_payloadBlankbd;
-@property(copy, nonatomic) NSArray *payloadBlankcd; // @synthesize payloadBlankcd=_payloadBlankcd;
-@property(copy, nonatomic) NSArray *payloadBlankdvd; // @synthesize payloadBlankdvd=_payloadBlankdvd;
-@property(copy, nonatomic) NSArray *payloadCd; // @synthesize payloadCd=_payloadCd;
-@property(copy, nonatomic) NSArray *payloadDiskImage; // @synthesize payloadDiskImage=_payloadDiskImage;
-@property(copy, nonatomic) NSArray *payloadDvd; // @synthesize payloadDvd=_payloadDvd;
-@property(copy, nonatomic) NSArray *payloadDvdram; // @synthesize payloadDvdram=_payloadDvdram;
-@property(copy, nonatomic) NSArray *payloadHarddiskExternal; // @synthesize payloadHarddiskExternal=_payloadHarddiskExternal;
-@property(copy, nonatomic) NSArray *payloadHarddiskInternal; // @synthesize payloadHarddiskInternal=_payloadHarddiskInternal;
-@property(copy, nonatomic) NSArray *payloadNetworkdisk; // @synthesize payloadNetworkdisk=_payloadNetworkdisk;
 
 @end
 

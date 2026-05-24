@@ -6,14 +6,11 @@
 
 #import <DocumentManager/DOCFrecencyBasedEvent.h>
 
-@class FPItem, NSNumber, NSString;
+@class FPItem, NSNumber;
 
 @interface DOCSmartFolderHit : DOCFrecencyBasedEvent
 {
     FPItem *_folderItem;
-    unsigned long long _type;
-    NSString *_value;
-    NSNumber *_rowId;
 }
 
 - (void);
@@ -29,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) FPItem *folderItem; // @synthesize folderItem=_folderItem;
 @property(retain, nonatomic) NSNumber *rowId; // @synthesize rowId=_rowId;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

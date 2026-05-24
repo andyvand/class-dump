@@ -6,12 +6,11 @@
 
 #import <AuthKitUI/AKAuthorizationSubPane.h>
 
-@class NSArray, UIImage, UIImageView;
+@class UIImageView;
 
 @interface AKAuthorizationSubPaneImage : AKAuthorizationSubPane
 {
     UIImageView *_imageView;
-    NSArray *_imageViewConstraints;
 }
 
 + (id);
@@ -20,16 +19,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4_G;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *image;
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(copy, nonatomic) NSArray *imageViewConstraints; // @synthesize imageViewConstraints=_imageViewConstraints;
 
 @end
 

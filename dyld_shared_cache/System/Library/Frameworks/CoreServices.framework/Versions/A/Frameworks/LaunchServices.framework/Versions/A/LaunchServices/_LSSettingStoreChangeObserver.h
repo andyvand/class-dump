@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface _LSSettingStoreChangeObserver
 {
     CDUnknownBlockType block;
-    struct NotifyToken notifyToken;
 }
 
-- (id);
+- (id)%;
 - (void)Ä;
 
 @end

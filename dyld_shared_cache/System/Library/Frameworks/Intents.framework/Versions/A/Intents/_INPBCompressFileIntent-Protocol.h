@@ -7,15 +7,13 @@
 @class _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBCompressFileIntent
-- (_Bool)onary;
+- (void);
+- (void)7;
+- (_INPBIntentMetadata *)a message handler;
+- (_Bool)_typeForSemanticKeypathDictionary;
 - (_INPBString *)pported by %@;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *entityName;
-@property(nonatomic) int entityType;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

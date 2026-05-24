@@ -20,7 +20,7 @@
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)AMSStreamHTTPArchiveEntryController;
 
 // Remaining properties
 @property(readonly) unsigned int chipRevision; // @synthesize chipRevision=_chipRevision;

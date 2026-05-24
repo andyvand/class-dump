@@ -16,14 +16,14 @@
 - (id);
 - (id);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)@16@24;
 
 @end
 

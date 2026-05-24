@@ -11,9 +11,6 @@ __attribute__((visibility("hidden")))
 @interface UIKeyboardTypingStyleEstimator
 {
     NSTimer *_tapTypingFlipTimer;
-    double _lastContinuousPathEvent;
-    unsigned long long _currentTypingStyle;
-    id <UIKeyboardTypingStyleEstimatorDelegate> _delegate;
 }
 
 - (void);

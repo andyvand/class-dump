@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id)sUpgrade;
+- (id)clientprofile result = %d;
+- (id)needsUpgrade;
 
 @end
 

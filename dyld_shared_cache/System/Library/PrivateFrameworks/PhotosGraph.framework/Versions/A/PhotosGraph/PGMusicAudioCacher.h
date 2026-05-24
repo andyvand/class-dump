@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
++ (id)accessibilityApplicationFocusedUIElement;
 + (void);
-+ (void);
++ (void)2;
 + (void);
 
 @end

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOPBTransitPaymentMethodSuggestion, NSArray;
+@class GEOPBTransitPaymentMethodSuggestion;
 
 @interface GEOTransitPaymentMethodSuggestion
 {
     GEOPBTransitPaymentMethodSuggestion *_suggestion;
-    int purpose;
-    int type;
-    unsigned long long marketMUID;
-    NSArray *paymentMethodIndices;
-    GEOFormattedString *tipTitle;
-    GEOFormattedString *tipSubtitle;
-    NSArray *educationalScreenAssets;
-    NSArray *educationalScreenPaymentBody;
-    GEOFormattedString *educationalScreenTitle;
 }
 
 - (id);
@@ -25,9 +16,9 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (id)copyMemojiMetadataPropertyValuesToContacts: /* Error: Ran out of types for this method. */;
+- (id)copyImageHashValuesToContacts: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (id);
@@ -35,15 +26,7 @@
 - (void)ò	ÙyLQ@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *educationalScreenAssets; // @synthesize educationalScreenAssets;
-@property(readonly, nonatomic) NSArray *educationalScreenPaymentBody; // @synthesize educationalScreenPaymentBody;
-@property(readonly, nonatomic) GEOFormattedString *educationalScreenTitle; // @synthesize educationalScreenTitle;
 @property(readonly, nonatomic) unsigned long long marketMUID; // @synthesize marketMUID;
-@property(readonly, nonatomic) NSArray *paymentMethodIndices; // @synthesize paymentMethodIndices;
-@property(readonly, nonatomic) int purpose; // @synthesize purpose;
-@property(readonly, nonatomic) GEOFormattedString *tipSubtitle; // @synthesize tipSubtitle;
-@property(readonly, nonatomic) GEOFormattedString *tipTitle; // @synthesize tipTitle;
-@property(readonly, nonatomic) int type; // @synthesize type;
 
 @end
 

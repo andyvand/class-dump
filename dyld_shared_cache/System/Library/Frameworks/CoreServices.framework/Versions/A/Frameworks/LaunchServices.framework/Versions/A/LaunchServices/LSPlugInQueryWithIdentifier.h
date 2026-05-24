@@ -6,20 +6,17 @@
 
 #import <LaunchServices/LSPlugInQuery.h>
 
-@class NSString;
-
 @interface LSPlugInQueryWithIdentifier : LSPlugInQuery
 {
     int _bindingMap;
-    NSString *_identifier;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool)16;
+- (void);
+- (id)<;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)H ;
 - (_Bool);
 - (id);
 - (id);

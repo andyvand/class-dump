@@ -4,33 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEventRouterTimerProvider, HMDRemoteEventRouterServerMessageReceiver, HMEMessageDatagramServer, HMFMessageDispatcher, NSMapTable, NSMutableArray, NSMutableDictionary, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDRemoteEventRouterServerDataSource, HMMLogEventSubmitting, OS_dispatch_queue, OS_os_log;
+@class NSMutableArray, NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterServer
 {
     NSObject<OS_os_log> *_logger;
-    struct os_unfair_lock_s _lock;
-    _Bool _isPrimaryResident;
-    _Bool _isResidentEventProviding;
-    double _diagnosticLastConnectTime;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_homeUUID;
-    NSUUID *_accessoryUUID;
-    NSString *_routerRequestMessageName;
-    NSString *_routerUpdateMessageName;
-    NSString *_routerMultiHopFetchResponseMessageName;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSNotificationCenter *_notificationCenter;
-    HMDEventRouterTimerProvider *_timerProvider;
-    HMEMessageDatagramServer *_connectionServer;
-    id <HMDRemoteEventRouterServerDataSource> _dataSource;
-    NSMutableDictionary *_accessControls;
-    NSMapTable *_pendingFetchRequests;
-    HMDRemoteEventRouterServerMessageReceiver *_accessoryMessageReceiver;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSMutableArray *_currentConnections;
 }
 
 + (id)YB;
@@ -44,68 +24,55 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id)P;
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType)ersions/A/ImageIO;
+- (void)amework/Versions/A/CoreText;
+- (void)s;
+- (id)ramework/Versions/A/IMCore;
+- (void);
+- (void);
+- (void);
+- (id)tType"b1"iconAttributeKey"b1"iconAttributeValue"b1"iconType"b1};
+- (void)newStateSnapshot;
+- (_Bool)descriptorForRequiredKeys;
+- (id)MSPMapsDefaultsAccessor;
+- (id)MSPSharedTripCapabilityFetchingQueueDelegate;
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)rberos url = %s;
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id)°1Â0@ù
 × ;
 - (id)lted in an unexpected failure, will schedule work for accessory:%@ and guest %@. /* Error: Ran out of types for this method. */;
-- (void)bleWACBrowser;
+- (void)disableWACBrowser;
 - (id)b>;
 
 // Remaining properties
 @property(readonly) NSMutableArray *currentConnections; // @synthesize currentConnections=_currentConnections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSUUID *residentModeUUID;
-@property(readonly) Class superclass;
 
 @end
 

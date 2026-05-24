@@ -7,22 +7,19 @@
 @interface SwiftUI.SelectionTextField
 {
     id textInsets;
-    id openURL;
-    id customAcceptsFirstMouse;
-    id id;
 }
 
 + (void);
 + (Class);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)IMOneTimeCodeDisplayKey;
 - (struct CGSize);
 - (id);
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)=;
 - (void)u¤Y7¼þu¤Y7©¼þ}¤Y7©¼þ;
 - (struct NSEdgeInsets)³\7¨#ÿe³\7_#ÿ=³\7_#ÿE³\7_#ÿU³\7¨_#ÿU³\7À_#ÿU³\7è_#ÿu³\7`#ÿ³\7`#ÿ³\7`#ÿõ²\7(`#ÿE³\74`#ÿÕ²\7@`#ÿÕ²\7@#ÿ³\7D`#ÿU³\7'½þ%³\7D`#ÿ;
 

@@ -14,8 +14,8 @@
 }
 
 + (const struct MPSLibraryInfo *);
-- (void);
-- (void);
+- (void)(;
+- (void)J!;
 - (void);
 - (id);
 - (id);

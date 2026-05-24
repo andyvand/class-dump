@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4GPUDebugBinaryFunction, MTLDebugInstrumentationData, MTLGPUDebugBuffer, MTLGPUDebugDevice, MTLGPUDebugDynamicLibrary, MTLGPUDebugFunction, NSString;
+@class MTLGPUDebugBuffer, NSString;
 
 __attribute__((visibility("hidden")))
 @interface MTLGPUDebugImageData
 {
     MTLGPUDebugBuffer *constantDataBuffer;
-    MTLGPUDebugDevice *_device;
-    struct mutex _constantDataMutex;
-    unsigned long long _constantDataBufferIndex;
-    struct KeyBufferPair _constantDataKeyPair;
-    NSString *_loadedImageName;
-    MTLDebugInstrumentationData *_debugInstrumentationData;
-    int _imageType;
-    unsigned long long _imageID;
-    unsigned long long _functionType;
-    MTLGPUDebugFunction *_function;
-    MTLGPUDebugDynamicLibrary *_dynamicLibrary;
-    MTL4GPUDebugBinaryFunction *_binaryFunction;
 }
 
 - (void);
@@ -29,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
@@ -38,19 +26,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (int);
+- (int)0createLemmatizerPathEPK10__CFLocaleE3$_0FbPK7__CFURLPK10__CFStringEEE;
 - (id);
 - (id);
 - (void)"16;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak MTL4GPUDebugBinaryFunction *binaryFunction; // @synthesize binaryFunction=_binaryFunction;
-@property(readonly, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly, nonatomic) __weak MTLGPUDebugDynamicLibrary *dynamicLibrary;
-@property(readonly, nonatomic) __weak MTLGPUDebugFunction *function;
-@property(readonly, nonatomic) unsigned long long functionType;
-@property(readonly, nonatomic) int imageType;
 @property(readonly, nonatomic) NSString *loadedImageName;
 
 @end

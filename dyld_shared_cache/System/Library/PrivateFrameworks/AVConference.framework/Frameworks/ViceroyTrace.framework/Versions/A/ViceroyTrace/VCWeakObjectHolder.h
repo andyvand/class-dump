@@ -7,19 +7,17 @@
 @interface VCWeakObjectHolder
 {
     id _weakObject;
-    struct OpaqueFigCFWeakReference *_weakObjectWithoutAutoRelease;
 }
 
 + (id);
 - (void);
 - (struct OpaqueFigCFWeakReference **);
 - (id);
-- (id);
+- (id)tionLogProbability"f"entropy"f};
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id strong;
-@property(readonly, nonatomic) struct OpaqueFigCFWeakReference **weak;
 
 @end
 

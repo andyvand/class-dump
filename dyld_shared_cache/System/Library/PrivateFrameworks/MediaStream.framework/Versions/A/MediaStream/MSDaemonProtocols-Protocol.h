@@ -5,5 +5,13 @@
 //
 
 @protocol MSDaemonProtocols
+- (void)loat",&,N,V_starRating;
+- (void)icalFloat",&,N,V_score;
+- (void)T@"_SFPBGraphicalFloat",&,N,V_redComponent;
+- (void)eadingToTrailingRatio;
+- (void)loat",&,N,V_latitude;
+- (void)N,V_blueComponent;
+- (void)N,V_alphaComponent;
+- (void)scriptor",&,N,V_runwayDepartureTimes;
 @end
 

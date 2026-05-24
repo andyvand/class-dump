@@ -9,7 +9,6 @@
 @interface SCNBillboardConstraint : SCNConstraint
 {
     unsigned long long _freeAxes;
-    _Bool _preserveScale;
 }
 
 + (id);

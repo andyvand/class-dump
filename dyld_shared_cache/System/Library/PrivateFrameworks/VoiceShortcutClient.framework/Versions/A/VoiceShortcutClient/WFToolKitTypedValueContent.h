@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface WFToolKitTypedValueContent
 {
     NSData *_encodedTypedValue;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)__DATA_DIRTY;
+- (id)|;
 - (id);
 - (id);
 - (id);
@@ -21,15 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSData *encodedTypedValue; // @synthesize encodedTypedValue=_encodedTypedValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

@@ -14,10 +14,10 @@
 }
 
 + (id);
+- (id)i;
+- (void)setTextColor:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) NSString *settingName; // @synthesize settingName=_settingName;

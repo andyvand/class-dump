@@ -14,11 +14,11 @@
     CALayer<CKTypingIndicatorLayerProtocol> *_defaultIndicatorLayerImpl;
 }
 
-+ (id);
++ (id)NNSFontTextStyleOptionKey;
 - (_Bool);
-- (BOOL);
-- (void);
-- (struct CGSize);
+- (BOOL)SError">32;
+- (void)ic_systemGray2Color;
+- (struct CGSize)onary",&,N,V_folderItemIdentifiersToParentFolderItemIdentifier;
 - (id);
 - (_Bool);
 - (id);
@@ -29,7 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CALayer<CKTypingIndicatorLayerProtocol> *defaultIndicatorLayerImpl; // @synthesize defaultIndicatorLayerImpl=_defaultIndicatorLayerImpl;
-@property(readonly, nonatomic) CALayer<CKTypingIndicatorLayerProtocol> *indicatorLayer;
 
 @end
 

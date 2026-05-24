@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _BlastDoorLPVideoProperties
 {
     _Bool _hasAudio;
-    NSString *_accessibilityText;
 }
 
 - (void);
@@ -18,11 +15,10 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)j ;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
 @property(nonatomic) _Bool hasAudio; // @synthesize hasAudio=_hasAudio;
 
 @end

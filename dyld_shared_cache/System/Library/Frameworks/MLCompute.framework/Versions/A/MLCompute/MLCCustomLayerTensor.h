@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCTensorData, MLCTensorDescriptor, NSData;
-@protocol MTLBuffer;
+@class MLCTensorDescriptor, NSData;
 
 @interface MLCCustomLayerTensor
 {
     MLCTensorDescriptor *_descriptor;
-    NSData *_cpuBuffer;
-    id _gpuBuffer;
 }
 
 + (id);
@@ -21,19 +18,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (id)J	JL;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)mFxe7szyKNeR6JxM/Library/Caches/com.apple.xbs/TemporaryDirectory.BsrFNm/Sources/MetalPerformanceShaders/MPSMatrix/LinearAlgebra/MPSMatrixBinaryKernel.mm;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *cpuBuffer; // @synthesize cpuBuffer=_cpuBuffer;
-@property(readonly, retain, nonatomic) MLCTensorDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) id gpuBuffer; // @synthesize gpuBuffer=_gpuBuffer;
-@property(readonly, nonatomic) MLCTensorData *hostData;
-@property(readonly, nonatomic) id <MTLBuffer> metalBuffer;
 
 @end
 

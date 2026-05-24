@@ -7,12 +7,10 @@
 #import <AddressBook/ABPersonSearchConfiguration.h>
 
 @class ABAddressBook;
-@protocol ABPersonListHeadlining;
 
 @interface ABBrowsingSearchConfiguration : ABPersonSearchConfiguration
 {
     ABAddressBook *_addressBook;
-    id <ABPersonListHeadlining> _headliner;
 }
 
 - (id);
@@ -30,7 +28,6 @@
 
 // Remaining properties
 @property(retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(retain) id <ABPersonListHeadlining> headliner; // @synthesize headliner=_headliner;
 
 @end
 

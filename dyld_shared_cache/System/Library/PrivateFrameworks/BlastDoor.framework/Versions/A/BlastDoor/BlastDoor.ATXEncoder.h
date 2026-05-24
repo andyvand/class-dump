@@ -7,7 +7,6 @@
 @interface BlastDoor.ATXEncoder
 {
     id configuration;
-    id maxPixelDimension;
 }
 
 @end

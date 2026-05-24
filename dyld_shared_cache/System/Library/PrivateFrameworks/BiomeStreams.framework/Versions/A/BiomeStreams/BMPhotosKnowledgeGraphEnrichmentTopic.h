@@ -9,7 +9,6 @@
 @interface BMPhotosKnowledgeGraphEnrichmentTopic
 {
     NSString *_identifier;
-    double _score;
 }
 
 + (id);
@@ -17,33 +16,24 @@
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)k:(id)arg1 %@, context:(id *)arg2 %@;
+- (_Bool)H;
+- (void);
 - (id);
 - (id);
 - (id);
 - (double);
-- (id)query__load_stmt__get_packed_size;
+- (id)pg_query__load_stmt__get_packed_size;
 - (void)êë ¡¢£¤¥î§;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
-@property(readonly) Class superclass;
 
 @end
 

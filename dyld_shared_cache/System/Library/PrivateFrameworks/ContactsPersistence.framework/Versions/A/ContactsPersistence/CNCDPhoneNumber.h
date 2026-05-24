@@ -12,12 +12,11 @@
 {
 }
 
-- (void);
-- (id);
+- (void);
+- (id)O;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *fullNumber; // @dynamic fullNumber;
-@property(readonly, nonatomic) NSString *lastFourDigits; // @dynamic lastFourDigits;
 
 @end
 

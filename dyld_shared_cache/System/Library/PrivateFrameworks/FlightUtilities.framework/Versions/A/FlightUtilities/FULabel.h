@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSFont, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FULabel
 {
     NSString *_stringValue;
-    NSAttributedString *_attributedStringValue;
-    NSFont *_downscaleFont;
-    NSFont *_originalFont;
-    _Bool _uppercase;
-    _Bool _useCurrentLocale;
-    CDUnknownBlockType _onTap;
-    unsigned long long _maxCharactersDownscale;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)RotateSubjectId;
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@16I24@?28;
 - (void);
-- (id);
+- (id)B;
+- (void)HD;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)en could not be consumed:errno %d /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void)onstraint",W,V_leftMapMargin;
 
 // Remaining properties
-@property unsigned long long maxCharactersDownscale; // @synthesize maxCharactersDownscale=_maxCharactersDownscale;
 @property(copy) CDUnknownBlockType onTap; // @synthesize onTap=_onTap;
-@property(readonly, nonatomic) _Bool uppercase; // @synthesize uppercase=_uppercase;
-@property(readonly) _Bool useCurrentLocale; // @synthesize useCurrentLocale=_useCurrentLocale;
 
 @end
 

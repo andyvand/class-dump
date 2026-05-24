@@ -9,13 +9,10 @@
 @interface PromotedContent.MobileRichAdInterfaceDefinitionTapAction : APPCTapAction
 {
     id url;
-    id opensInstalledApp;
-    id adamIdentifier;
-    id iTunesMetadata;
 }
 
 - (id);
-- (void);
+- (void)a;
 
 @end
 

@@ -7,10 +7,9 @@
 @interface StoreKit.CacheServiceConnection.TransactionReceiver__priv_D5F6FFD989A4D8B4ACADD1724F2B2E1B
 {
     id continuation;
-    id logKey;
 }
 
-- (void);
+- (void)L;
 - (id);
 - (void);
 

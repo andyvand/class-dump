@@ -9,7 +9,6 @@
 @interface PKPaymentBalanceReminder
 {
     _Bool _enabled;
-    NSDecimalNumber *_threshold;
 }
 
 + (_Bool)0@ù
@@ -20,12 +19,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void)ADATA_NAME;
+- (void)&;
+- (void)SETUP_PURCHASE_BALANCE_METADATA_NAME;
 - (id)ÐÓÿäÚk c;
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(retain, nonatomic) NSDecimalNumber *threshold; // @synthesize threshold=_threshold;
 
 @end

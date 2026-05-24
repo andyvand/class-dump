@@ -6,25 +6,23 @@
 
 #import <CoreParsec/PARSearchRequest.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PARSearchReplayRequest : PARSearchRequest
 {
     NSString *_replaySearchURL;
-    NSDictionary *_replayHeaderItems;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)e_net_request` manifest entry.;
+- (void)pty or invalid `id` in `declarative_net_request` manifest entry.;
+- (id)) [Target = WebKit::WebFrameProxy, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (id)rGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::ViewGestureController>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::ViewGestureController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *replayHeaderItems; // @synthesize replayHeaderItems=_replayHeaderItems;
 @property(copy, nonatomic) NSString *replaySearchURL; // @synthesize replaySearchURL=_replaySearchURL;
 
 @end

@@ -4,41 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
-@protocol MTLCommandBuffer, MTLCommandQueue, MTLComputeCommandEncoder, MTLRenderCommandEncoder, MTLTexture;
+@class NSMutableArray;
+@protocol MTLCommandQueue;
 
 @interface PKMetalRenderState
 {
     NSMutableArray *_commandBuffers;
-    NSMutableSet *_purgeableFramebuffers;
-    NSMutableSet *_extendedLifetimeObjects;
-    struct PKShaderPipelineConfig _defaultPipelineConfig;
-    _Bool _liveRendering;
-    _Bool _waitUntilCompletedOnCommit;
-    _Bool _msaaRendering;
-    _Bool _renderOnPaper;
-    _Bool _needRenderMask;
-    _Bool _renderGroupMaskedRendering;
-    _Bool _useAccumulatorsAsPaintFramebuffers;
-    _Bool _needPaintAccumulator;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLCommandBuffer> _commandBuffer;
-    id <MTLCommandBuffer> _computeCommandBuffer;
-    id <MTLCommandBuffer> _maskCommandBuffer;
-    id <MTLRenderCommandEncoder> _renderEncoder;
-    id <MTLComputeCommandEncoder> _computeEncoder;
-    id <MTLRenderCommandEncoder> _maskRenderEncoder;
-    unsigned long long _vertexEncodeCount;
-    id <MTLTexture> _destinationTexture;
-    id <MTLTexture> _multiplyDestinationTexture;
-    unsigned long long _destinationColorAttachmentIndex;
-    unsigned long long _sixChannelMultiplyLayerColorAttachmentIndex;
-    unsigned long long _sixChannelRenderModeAddMultiplyLayersColorAttachmentIndexOffset;
-    long long _sixChannelRenderMode;
-    id <MTLTexture> _sixChannelContentTexture;
-    unsigned long long _numPaintFramebuffers;
-    CDStruct_5f3a0cd7 _scissorRect;
-    struct CGAffineTransform _renderTextureTexCoordTransform;
 }
 
 + (void);
@@ -46,7 +17,7 @@
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)b;
 - (id);
 - (void);
 - (void);
@@ -61,9 +32,9 @@
 - (void);
 - (void);
 - (void);
+- (void)@b ! 	L)OMoMn;
 - (void);
-- (void);
-- (void);
+- (void)3@m	;
 - (void);
 - (void);
 - (void);
@@ -75,35 +46,35 @@
 - (_Bool);
 - (id);
 - (struct PKShaderPipelineConfig);
+- (unsigned long long)8c!a;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)ba;
+- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (unsigned long long);
-- (unsigned long long);
-- (CDStruct_5f3a0cd7);
+- (CDStruct_33dcf794);
 - (void);
 - (void);
+- (void)onAtDate:reply:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)_playbackRouteUniqueIdentifierIsEncrypted;
 - (void);
 - (id);
 - (void);
@@ -111,34 +82,7 @@
 - (id)l/;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLCommandBuffer> commandBuffer; // @synthesize commandBuffer=_commandBuffer;
 @property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
-@property(readonly, nonatomic) id <MTLCommandBuffer> computeCommandBuffer; // @synthesize computeCommandBuffer=_computeCommandBuffer;
-@property(retain, nonatomic) id <MTLComputeCommandEncoder> computeEncoder; // @synthesize computeEncoder=_computeEncoder;
-@property(nonatomic) unsigned long long destinationColorAttachmentIndex; // @synthesize destinationColorAttachmentIndex=_destinationColorAttachmentIndex;
-@property(retain, nonatomic) id <MTLTexture> destinationTexture; // @synthesize destinationTexture=_destinationTexture;
-@property(readonly, nonatomic) id <MTLCommandBuffer> lastCommandBuffer;
-@property(nonatomic) _Bool liveRendering; // @synthesize liveRendering=_liveRendering;
-@property(readonly, nonatomic) id <MTLCommandBuffer> maskCommandBuffer; // @synthesize maskCommandBuffer=_maskCommandBuffer;
-@property(retain, nonatomic) id <MTLRenderCommandEncoder> maskRenderEncoder; // @synthesize maskRenderEncoder=_maskRenderEncoder;
-@property(nonatomic) _Bool msaaRendering; // @synthesize msaaRendering=_msaaRendering;
-@property(retain, nonatomic) id <MTLTexture> multiplyDestinationTexture; // @synthesize multiplyDestinationTexture=_multiplyDestinationTexture;
-@property(nonatomic) _Bool needPaintAccumulator; // @synthesize needPaintAccumulator=_needPaintAccumulator;
-@property(nonatomic) _Bool needRenderMask; // @synthesize needRenderMask=_needRenderMask;
-@property(nonatomic) unsigned long long numPaintFramebuffers; // @synthesize numPaintFramebuffers=_numPaintFramebuffers;
-@property(readonly, nonatomic) struct PKShaderPipelineConfig pipelineConfig;
-@property(retain, nonatomic) id <MTLRenderCommandEncoder> renderEncoder; // @synthesize renderEncoder=_renderEncoder;
-@property(nonatomic) _Bool renderGroupMaskedRendering; // @synthesize renderGroupMaskedRendering=_renderGroupMaskedRendering;
-@property(nonatomic) _Bool renderOnPaper; // @synthesize renderOnPaper=_renderOnPaper;
-@property(nonatomic) struct CGAffineTransform renderTextureTexCoordTransform; // @synthesize renderTextureTexCoordTransform=_renderTextureTexCoordTransform;
-@property(nonatomic) CDStruct_5f3a0cd7 scissorRect; // @synthesize scissorRect=_scissorRect;
-@property(retain, nonatomic) id <MTLTexture> sixChannelContentTexture; // @synthesize sixChannelContentTexture=_sixChannelContentTexture;
-@property(nonatomic) unsigned long long sixChannelMultiplyLayerColorAttachmentIndex; // @synthesize sixChannelMultiplyLayerColorAttachmentIndex=_sixChannelMultiplyLayerColorAttachmentIndex;
-@property(nonatomic) long long sixChannelRenderMode; // @synthesize sixChannelRenderMode=_sixChannelRenderMode;
-@property(nonatomic) unsigned long long sixChannelRenderModeAddMultiplyLayersColorAttachmentIndexOffset; // @synthesize sixChannelRenderModeAddMultiplyLayersColorAttachmentIndexOffset=_sixChannelRenderModeAddMultiplyLayersColorAttachmentIndexOffset;
-@property(nonatomic) _Bool useAccumulatorsAsPaintFramebuffers; // @synthesize useAccumulatorsAsPaintFramebuffers=_useAccumulatorsAsPaintFramebuffers;
-@property(nonatomic) unsigned long long vertexEncodeCount; // @synthesize vertexEncodeCount=_vertexEncodeCount;
-@property(nonatomic) _Bool waitUntilCompletedOnCommit; // @synthesize waitUntilCompletedOnCommit=_waitUntilCompletedOnCommit;
 
 @end
 

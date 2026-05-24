@@ -7,16 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (unsigned long long);
+- (_Bool)_filesToMigrate;
+- (id);
 - (struct _NSZone *)@ù
 × ;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)eb;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

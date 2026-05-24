@@ -5,26 +5,19 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLHeap;
+@protocol MTLHeap;
 
 @protocol MTLResource
+- (int)Z;
 - (unsigned long long);
 - (unsigned long long)_configured;
 - (void)s;
 - (unsigned long long);
-- (unsigned long long)ort;
+- (unsigned long long)fencePort;
 - (id <MTLHeap>)ªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªÿÿÿÿªªªªªªªªªªªªªªªªªªªªªªªªªªªªÿÿÿÿªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªÿÿÿÿªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªÿÿÿÿªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªÿÿÿÿªªªªªªªªªªªª
 ;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

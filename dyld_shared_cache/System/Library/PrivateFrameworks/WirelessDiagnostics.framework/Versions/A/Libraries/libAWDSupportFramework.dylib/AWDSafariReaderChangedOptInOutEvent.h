@@ -7,17 +7,15 @@
 @interface AWDSafariReaderChangedOptInOutEvent
 {
     unsigned long long _timestamp;
-    int _action;
-    CDStruct_399b966a _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -26,14 +24,11 @@
 - (void);
 - (id);
 - (id);
-- (int);
-- (void);
+- (int)Ud;
+- (void));
 
 // Remaining properties
-@property(nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) _Bool hasAction;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

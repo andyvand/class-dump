@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTEditingPreviewMode, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface AVTCoreModelGroup
 {
     NSString *_name;
-    NSDictionary *_symbolNames;
-    NSArray *_categories;
-    AVTEditingPreviewMode *_previewMode;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *categories; // @synthesize categories=_categories;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) AVTEditingPreviewMode *previewMode; // @synthesize previewMode=_previewMode;
-@property(readonly, copy, nonatomic) NSDictionary *symbolNames; // @synthesize symbolNames=_symbolNames;
 
 @end
 

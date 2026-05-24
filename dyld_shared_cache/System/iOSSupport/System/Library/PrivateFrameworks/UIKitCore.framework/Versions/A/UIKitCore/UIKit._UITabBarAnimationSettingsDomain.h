@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id)groundMargins;
-+ (id)Keys;
++ (id)backgroundMargins;
++ (id)_updateSupplementaryKeys;
 + (Class);
 
 @end

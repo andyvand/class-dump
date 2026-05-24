@@ -11,9 +11,6 @@
 @interface QCImageManagerProfileView : QCProfileView
 {
     QCImageManager *_manager;
-    unsigned long long _virtualScreen;
-    _Bool _purgeable;
-    void *_unused2[4];
 }
 
 - (void);

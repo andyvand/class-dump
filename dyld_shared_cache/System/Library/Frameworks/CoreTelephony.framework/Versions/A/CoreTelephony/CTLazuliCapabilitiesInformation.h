@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliAlternateIdentities, CTLazuliDestination, NSDate, NSString;
+@class CTLazuliDestination;
 
 @interface CTLazuliCapabilitiesInformation
 {
     _Bool _supportsVideoSharing;
-    _Bool _supportsImageSharing;
-    _Bool _supportsChat;
-    _Bool _supportsFileTransfer;
-    _Bool _supportsGeolocationCapabilities;
-    _Bool _isBot;
-    _Bool _supportsFeature;
-    _Bool _supportsSecurity;
-    _Bool _isExpired;
-    CTLazuliDestination *_recipient;
-    NSString *_supportedLazuliExtensions;
-    long long _availibility;
-    CTLazuliAlternateIdentities *_alternateIdentities;
-    NSDate *_validUntil;
 }
 
-+ (_Bool);
++ (_Bool)ding has started;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -37,14 +24,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)J;
 - (void);
 - (id);
 - (_Bool);
@@ -54,7 +41,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -63,20 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliAlternateIdentities *alternateIdentities; // @synthesize alternateIdentities=_alternateIdentities;
-@property(nonatomic) long long availibility; // @synthesize availibility=_availibility;
-@property(nonatomic) _Bool isBot; // @synthesize isBot=_isBot;
-@property(nonatomic) _Bool isExpired; // @synthesize isExpired=_isExpired;
 @property(retain, nonatomic) CTLazuliDestination *recipient; // @synthesize recipient=_recipient;
-@property(retain, nonatomic) NSString *supportedLazuliExtensions; // @synthesize supportedLazuliExtensions=_supportedLazuliExtensions;
-@property(nonatomic) _Bool supportsChat; // @synthesize supportsChat=_supportsChat;
-@property(nonatomic) _Bool supportsFeature; // @synthesize supportsFeature=_supportsFeature;
-@property(nonatomic) _Bool supportsFileTransfer; // @synthesize supportsFileTransfer=_supportsFileTransfer;
-@property(nonatomic) _Bool supportsGeolocationCapabilities; // @synthesize supportsGeolocationCapabilities=_supportsGeolocationCapabilities;
-@property(nonatomic) _Bool supportsImageSharing; // @synthesize supportsImageSharing=_supportsImageSharing;
-@property(nonatomic) _Bool supportsSecurity; // @synthesize supportsSecurity=_supportsSecurity;
-@property(nonatomic) _Bool supportsVideoSharing; // @synthesize supportsVideoSharing=_supportsVideoSharing;
-@property(retain, nonatomic) NSDate *validUntil; // @synthesize validUntil=_validUntil;
 
 @end
 

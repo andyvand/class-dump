@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+@protocol AMSUIMessageViewController, UIPopoverPresentationControllerSourceItem;
+
 @protocol AMSUIMessageViewControllerDelegate
+- (void)ViewActionPerformer>"16@0:(UIViewController<AMSUIMessageViewController> *)arg1 8;
+- (void)n"16@0:(UIViewController<AMSUIMessageViewController> *)arg1 8;
+- (void)0:(UIViewController<AMSUIMessageViewController> *)arg1 8c16;
+
+@optional
+- (id <UIPopoverPresentationControllerSourceItem>);
+- (_Bool)edbackGenerator";
+- (void)plicationDisabledIdleTimerToken";
+- (_Bool)StoryViewLayoutSpecManager";
+- (_Bool)rmer>";
+- (void)nPermission>";
+- (void)16Q24;
+- (void)ationPermission>"16;
 @end
 

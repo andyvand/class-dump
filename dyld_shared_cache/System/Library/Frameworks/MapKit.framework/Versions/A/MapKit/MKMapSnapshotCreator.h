@@ -9,19 +9,18 @@
 @interface MKMapSnapshotCreator
 {
     VKMapSnapshotCreator *_snapshotCreator;
-    _Bool _rendering;
 }
 
 + (id);
-+ (CDStruct_02837cd9);
-+ (CDStruct_b7cb895d);
++ (CDStruct_2f492f29);
++ (CDStruct_4760c753);
 + (struct CGAffineTransform);
 + (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)initWithPictureItem: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _INPBResolveObjectReferenceResponse
 {
     struct _has;
-    NSData *_resolvedReference;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)lic}s;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -27,15 +26,7 @@
 - (void)tents.FilePropertyName.Size;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasResolvedReference;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *resolvedReference; // @synthesize resolvedReference=_resolvedReference;
-@property(readonly) Class superclass;
 
 @end
 

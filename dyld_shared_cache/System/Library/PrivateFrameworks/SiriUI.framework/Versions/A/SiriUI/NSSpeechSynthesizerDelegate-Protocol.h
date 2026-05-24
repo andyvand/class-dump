@@ -5,5 +5,8 @@
 //
 
 @protocol NSSpeechSynthesizerDelegate
+
+@optional
+- (void)`;
 @end
 

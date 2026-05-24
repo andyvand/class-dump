@@ -9,20 +9,6 @@
 @interface AppStoreKit.AppEvent : AppStoreKit.AppPromotion
 {
     id moduleArtwork;
-    id moduleVideo;
-    id title;
-    id subtitle;
-    id detail;
-    id kind;
-    id startDate;
-    id endDate;
-    id requirements;
-    id lockup;
-    id hideLockupWhenNotInstalled;
-    id formattedDates;
-    id mediaOverlayStyle;
-    id includeBorderInDarkMode;
-    id notificationConfig;
 }
 
 @end

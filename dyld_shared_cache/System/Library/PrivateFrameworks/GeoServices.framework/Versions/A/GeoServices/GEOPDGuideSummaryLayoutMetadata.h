@@ -8,18 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDGuideSummaryLayoutMetadata
 {
     int _guideSummaryType;
-    struct {
-        unsigned int has_guideSummaryType:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id)lts"b1"has_sortOrder"b1"read_unknownFields"b1"read_nearbySearchFilter"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)wn;
+- (id)_dropDown;
 - (id)½;
 
 @end

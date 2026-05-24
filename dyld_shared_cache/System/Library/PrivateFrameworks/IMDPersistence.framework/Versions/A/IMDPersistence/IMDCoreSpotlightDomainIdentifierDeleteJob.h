@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)rk/Versions/A/ViewBridge;
 - (void)8;
 
 // Remaining properties

@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (double);
-- (_Bool);
-- (id);
+- (_Bool)addFailedRetractPartIndex: /* Error: Ran out of types for this method. */;
+- (double)ecoverCommand:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ayReadReceipt;
+- (id)GUID %@ chat rowID %lld;
 - (id);
 - (long long)på¸ÿQ0¶;
 

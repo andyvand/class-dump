@@ -9,7 +9,6 @@
 @interface SFUnlockState
 {
     NSNumber *_unlockEnabled;
-    NSNumber *_remotePasscodeEnabled;
 }
 
 + (_Bool);
@@ -17,11 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)S;
 - (void)Ôªþÿêªþÿ;
 
 // Remaining properties
-@property(readonly) NSNumber *remotePasscodeEnabled; // @synthesize remotePasscodeEnabled=_remotePasscodeEnabled;
 @property(readonly) NSNumber *unlockEnabled; // @synthesize unlockEnabled=_unlockEnabled;
 
 @end

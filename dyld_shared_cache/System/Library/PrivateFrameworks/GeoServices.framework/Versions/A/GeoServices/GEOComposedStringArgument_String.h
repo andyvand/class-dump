@@ -11,9 +11,6 @@
 @interface GEOComposedStringArgument_String : GEOComposedStringArgument
 {
     NSString *_defaultValue;
-    NSString *_overrideValue;
-    int _stringSubstituteType;
-    int _privacyFilterType;
 }
 
 + (_Bool)able remove corrupted resource at "%@" - %@;
@@ -21,19 +18,17 @@
 - (id);
 - (void);
 - (int);
-- (id);
+- (id)2;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)alkingRoute:(struct _NSZone *)arg1;
+- (id)setDidSuggestWalkingRoute:(struct _NSZone *)arg1;
 - (void)N¡5;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *overrideValue; // @synthesize overrideValue=_overrideValue;
-@property(readonly, nonatomic) int privacyFilterType; // @synthesize privacyFilterType=_privacyFilterType;
-@property(readonly, nonatomic) int stringSubstituteType; // @synthesize stringSubstituteType=_stringSubstituteType;
 
 @end
 

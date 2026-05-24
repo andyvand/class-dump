@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_os_log, UMSideEffectsProviding;
-
 @interface UMGenerationCache
 {
     struct os_unfair_lock_s _lock;
-    int _notifyToken;
-    NSString *_name;
-    NSString *_notification;
-    NSObject<OS_os_log> *_log;
-    NSObject<UMSideEffectsProviding> *_se;
-    CDUnknownBlockType _fetcher;
-    unsigned long long _cachedValue;
 }
 
 - (void);

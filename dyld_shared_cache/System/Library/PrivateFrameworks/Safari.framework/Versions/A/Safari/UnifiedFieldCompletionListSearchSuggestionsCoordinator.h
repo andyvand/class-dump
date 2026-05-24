@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldCompletionListSearchSuggestionsCoordinator
 {
     NSMutableSet *_expectedSources;
-    NSMutableSet *_sourcesThatFailed;
-    NSMutableDictionary *_suggestionsBySource;
-    NSMutableDictionary *_fallbackSuggestionsBySource;
-    NSMutableDictionary *_postFixSuggestionsBySource;
 }
 
 - (id);

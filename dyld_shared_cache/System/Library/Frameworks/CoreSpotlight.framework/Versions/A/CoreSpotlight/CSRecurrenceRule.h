@@ -14,14 +14,14 @@
 + (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)-;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)_;
 
 // Remaining properties
 @property(copy) NSArray *daysOfTheWeek; // @synthesize daysOfTheWeek=_daysOfTheWeek;

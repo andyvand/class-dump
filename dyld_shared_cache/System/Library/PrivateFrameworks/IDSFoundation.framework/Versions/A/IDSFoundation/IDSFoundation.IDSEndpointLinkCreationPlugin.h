@@ -7,12 +7,6 @@
 @interface IDSFoundation.IDSEndpointLinkCreationPlugin
 {
     id name;
-    id tags;
-    id localEndpointProvider;
-    id remoteEndpointProvider;
-    id linkDefinitionHook;
-    id endpointLinkCreationController;
-    id state;
 }
 
 @end

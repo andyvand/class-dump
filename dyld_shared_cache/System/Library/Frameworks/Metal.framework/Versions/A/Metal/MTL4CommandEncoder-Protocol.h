@@ -9,9 +9,11 @@
 
 @protocol MTL4CommandEncoder
 - (void);
+- (void);
+- (id <MTL4CommandBuffer>)32TType1MMSnapShotStreamingContext;
+- (void)vertexFunctionHandleWithFunction:(NSString *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTL4CommandBuffer> commandBuffer;
 @property(copy) NSString *label;
 @end
 

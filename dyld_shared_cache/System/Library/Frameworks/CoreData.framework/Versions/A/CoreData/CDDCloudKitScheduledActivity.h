@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class CDDCloudKitRegisteredClient, NSDate, NSNumber, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface CDDCloudKitScheduledActivity : NSManagedObject
@@ -17,15 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activityType;
 @property(retain, nonatomic) NSNumber *activityTypeNum; // @dynamic activityTypeNum;
-@property(retain, nonatomic) NSUUID *activityUUID; // @dynamic activityUUID;
-@property(retain, nonatomic) NSNumber *isUserRequestedBackupTask; // @dynamic isUserRequestedBackupTask;
-@property(retain, nonatomic) CDDCloudKitRegisteredClient *registeredClient; // @dynamic registeredClient;
-@property(retain, nonatomic) NSDate *scheduledAt; // @dynamic scheduledAt;
 
 @end
 

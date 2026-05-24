@@ -29,7 +29,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *cards;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

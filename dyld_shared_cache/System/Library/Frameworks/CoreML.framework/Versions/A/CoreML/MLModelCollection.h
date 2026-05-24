@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, TRIClient;
+@class NSDictionary, NSString;
 
 @interface MLModelCollection
 {
     NSString *_identifier;
-    NSDictionary *_entries;
-    NSString *_deploymentID;
-    NSString *_namespaceName;
-    TRIClient *_trialClient;
 }
 
 + (Class);
++ (Class)!;
 + (Class);
 + (Class);
-+ (Class);
-+ (Class);
++ (Class)k
+;
 + (Class);
 + (Class);
 + (void);
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)`;
 - (_Bool);
 - (void);
-- (void);
+- (void)a;
+- (_Bool)LD;
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)container_query_operation_set_client;
 - (id);
 - (void);
 - (id);
@@ -44,11 +41,7 @@
 - (void)ANE binary:argument result must not be nil /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deploymentID; // @synthesize deploymentID=_deploymentID;
 @property(copy, nonatomic) NSDictionary *entries; // @synthesize entries=_entries;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
-@property(readonly, nonatomic) TRIClient *trialClient; // @synthesize trialClient=_trialClient;
 
 @end
 

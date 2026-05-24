@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORegionStore, _GEORegionIteratorIvars;
+@class GEORegionStore;
 
 __attribute__((visibility("hidden")))
 @interface _GEORegionIterator
 {
     GEORegionStore *_regionStore;
-    CDUnknownBlockType _query;
-    _GEORegionIteratorIvars *_ivars;
 }
 
 - (void);

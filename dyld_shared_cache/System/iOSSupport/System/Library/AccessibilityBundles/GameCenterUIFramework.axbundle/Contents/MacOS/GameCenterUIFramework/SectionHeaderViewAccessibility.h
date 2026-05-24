@@ -14,8 +14,8 @@
 + (id);
 + (void);
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)1;
+- (id)2@0:8{CGPoint=dd}16 /* Error: Ran out of types for this method. */;
 
 @end
 

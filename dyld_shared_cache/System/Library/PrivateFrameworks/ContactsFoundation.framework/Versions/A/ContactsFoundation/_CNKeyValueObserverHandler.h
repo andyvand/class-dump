@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNObserver;
-
 @interface _CNKeyValueObserverHandler
 {
     id _object;
-    NSString *_keyPath;
-    id <CNObserver> _observer;
 }
 
 - (id);

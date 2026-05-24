@@ -7,10 +7,6 @@
 @interface NewsArticles.MoreFromIssueEndOfArticleFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id formatService;
-    id issueManager;
-    id historyService;
 }
 
 @end

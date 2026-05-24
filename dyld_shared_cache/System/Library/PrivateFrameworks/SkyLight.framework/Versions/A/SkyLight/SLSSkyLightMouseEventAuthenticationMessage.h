@@ -6,9 +6,6 @@
 
 #import <SkyLight/SLSSkyLightEventAuthenticationMessage.h>
 
-@class BKSHIDEventBaseAttributes, NSString;
-@protocol ECEventType, ECSLGestureEventAuthenticationMessage, ECSLKeyEventAuthenticationMessage, ECSLMouseEventAuthenticationMessage, ECVersionedPID;
-
 __attribute__((visibility("hidden")))
 @interface SLSSkyLightMouseEventAuthenticationMessage : SLSSkyLightEventAuthenticationMessage
 {
@@ -16,37 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)NSComparisonPredicate or NSCompoundPredicate.;
+- (id)rlying url for this file backed future is not a file url.;
+- (_Bool)/AppleInternal/Library/BuildRoots/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitMetadataModel.m;
+- (void)M %@;
 - (BOOL);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BKSHIDEventBaseAttributes *attributes;
 @property(readonly, nonatomic) BOOL buttonNumber; // @synthesize buttonNumber=_buttonNumber;
-@property(readonly, nonatomic) unsigned long long capabilities;
-@property(readonly, nonatomic) unsigned int connection;
-@property(readonly, nonatomic) unsigned long long context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <ECEventType> eventType;
-@property(readonly, nonatomic) unsigned int flags;
-@property(readonly, nonatomic) id <ECSLGestureEventAuthenticationMessage> gesture;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <ECSLKeyEventAuthenticationMessage> key;
-@property(readonly, nonatomic) struct CGPoint location;
-@property(readonly, nonatomic) id <ECSLMouseEventAuthenticationMessage> mouse;
-@property(readonly, nonatomic) unsigned long long originIdentifier;
-@property(readonly, nonatomic) id <ECVersionedPID> proxyTargetProcess;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <ECVersionedPID> targetProcess;
-@property(readonly, nonatomic) unsigned long long timestamp;
-@property(readonly, nonatomic) unsigned int window;
 
 @end
 

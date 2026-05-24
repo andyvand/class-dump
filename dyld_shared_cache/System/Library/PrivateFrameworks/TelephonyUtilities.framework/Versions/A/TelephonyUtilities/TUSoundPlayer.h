@@ -4,45 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TUConfigurationProvider, TURepeatingActor;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface TUSoundPlayer
 {
     _Bool _currentPlaying;
-    unsigned int _soundID;
-    NSObject<OS_dispatch_queue> *_queue;
-    TURepeatingActor *_repeatingActor;
-    TUConfigurationProvider *_configurationProvider;
 }
 
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void))(;
+- (id)V;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)Th"C9;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)s;
 - (void)h_queue>";
 
 // Remaining properties
-@property(readonly, nonatomic) TUConfigurationProvider *configurationProvider; // @synthesize configurationProvider=_configurationProvider;
-@property(nonatomic) _Bool currentPlaying; // @synthesize currentPlaying=_currentPlaying;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) TURepeatingActor *repeatingActor; // @synthesize repeatingActor=_repeatingActor;
-@property(nonatomic) unsigned int soundID; // @synthesize soundID=_soundID;
 
 @end
 

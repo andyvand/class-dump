@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct _HMFFutureBlockOutcome);
 - (id);
-- (_Bool);
+- (_Bool)Maximum Quality;
 - (id);
 - (id);
 - (id);

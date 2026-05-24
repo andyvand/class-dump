@@ -10,12 +10,9 @@ __attribute__((visibility("hidden")))
 @interface NSScriptSynonymDescription
 {
     NSString *name;
-    unsigned int appleEventCode;
-    _Bool isHidden;
-    unsigned int appleEventClassCode;
 }
 
-- (id);
+- (id)";
 - (void);
 
 @end

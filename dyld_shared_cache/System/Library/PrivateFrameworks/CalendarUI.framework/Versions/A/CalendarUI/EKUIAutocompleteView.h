@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUILabel, NSColor;
+@class NSColor;
 
 @interface EKUIAutocompleteView
 {
     NSColor *_originalTextColor;
-    CalUILabel *_label;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) CalUILabel *label; // @synthesize label=_label;
 @property(retain) NSColor *originalTextColor; // @synthesize originalTextColor=_originalTextColor;
 
 @end

@@ -6,36 +6,18 @@
 
 #import <MapKit/MKPlaceSectionItemView.h>
 
-@class NSArray, NSFont, NSImage, NSLayoutConstraint, NSString, _MKRightImageButton, _MKUILabel;
+@class NSLayoutConstraint, _MKUILabel;
 
 __attribute__((visibility("hidden")))
 @interface MKPlaceSectionHeaderView : MKPlaceSectionItemView
 {
     NSLayoutConstraint *_baselineToTopConstraint;
-    NSLayoutConstraint *_baselineToBottomConstraint;
-    NSLayoutConstraint *_baselineToBaselineConstraint;
-    NSLayoutConstraint *_iconHeightConstraint;
-    NSLayoutConstraint *_iconWidthConstraint;
-    _Bool _contentChanged;
-    double _width;
-    _Bool _showSeeMoreButton;
-    _Bool _seeMoreButtonAlwaysOnNewLine;
-    NSString *_seeMoreButtonText;
-    NSFont *_seeMoreButtonFont;
-    NSString *_providerName;
-    _MKUILabel *_sectionHeaderLabel;
-    _MKRightImageButton *_seeMoreButton;
-    NSArray *_seeMoreButtonConstraints;
-    NSArray *_constraints;
-    SEL _action;
-    id _target;
-    struct CGSize _iconDisplaySize;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)eIdentifierForSubsystem:category:] /* Error: Ran out of types for this method. */;
+- (_Bool)6@?0@"NSObject<OS_xpc_object>"8;
+- (void)eEnergyReport;
+- (void)discretionaryenergymonitor;
 - (void);
 - (void);
 - (void);
@@ -49,11 +31,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)G;
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)getComponentIDFromProductID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -61,30 +43,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)twoShotSilenceThresholdInMs;
+- (void)migrateTDVoiceProfilesToTDTI;
+- (id)UUID:(struct CGRect)arg1 withNumChannels:withUserIntentOptions:handlingDaemon:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void);
 - (SEL);
 - (void);
 - (id);
-- (void)dLongLong: /* Error: Ran out of types for this method. */;
+- (void)numberWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
-@property(retain, nonatomic) NSImage *icon;
-@property(nonatomic) struct CGSize iconDisplaySize; // @synthesize iconDisplaySize=_iconDisplaySize;
-@property(retain, nonatomic) NSString *providerName; // @synthesize providerName=_providerName;
 @property(retain, nonatomic) _MKUILabel *sectionHeaderLabel; // @synthesize sectionHeaderLabel=_sectionHeaderLabel;
-@property(retain, nonatomic) _MKRightImageButton *seeMoreButton; // @synthesize seeMoreButton=_seeMoreButton;
-@property(nonatomic) _Bool seeMoreButtonAlwaysOnNewLine; // @synthesize seeMoreButtonAlwaysOnNewLine=_seeMoreButtonAlwaysOnNewLine;
-@property(retain, nonatomic) NSArray *seeMoreButtonConstraints; // @synthesize seeMoreButtonConstraints=_seeMoreButtonConstraints;
-@property(retain, nonatomic) NSFont *seeMoreButtonFont; // @synthesize seeMoreButtonFont=_seeMoreButtonFont;
-@property(retain, nonatomic) NSString *seeMoreButtonText; // @synthesize seeMoreButtonText=_seeMoreButtonText;
-@property(nonatomic) _Bool showSeeMoreButton; // @synthesize showSeeMoreButton=_showSeeMoreButton;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

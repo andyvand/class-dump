@@ -10,7 +10,6 @@
 @interface WBSSafariBookmarksSyncAgentConnection
 {
     NSXPCConnection *_connection;
-    struct os_unfair_lock_s _connectionLock;
 }
 
 - (id);

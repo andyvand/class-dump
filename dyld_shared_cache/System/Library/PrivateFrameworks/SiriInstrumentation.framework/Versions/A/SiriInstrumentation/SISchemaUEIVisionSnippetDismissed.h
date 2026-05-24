@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIVisionSnippetDismissed : SISchemaInstrumentationMessage
 {
     int _startLocation;
-    _Bool _wasMoved;
-    int _reason;
-    struct {
-        unsigned int startLocation:1;
-        unsigned int wasMoved:1;
-        unsigned int reason:1;
-    } _has;
 }
 
 - (void);
@@ -29,30 +20,25 @@
 - (void);
 - (int);
 - (void);
-- (id);
-- (int);
+- (id);
+- (int)_locationStreamContinuation;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)endTS=%u
+;
 - (void);
-- (unsigned long long);
+- (unsigned long long)getRestoreServiceWithReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)chat_message_join_idx_message_date_id_chat_id;
 - (void);
 - (id);
 - (id);
-- (id)leteGmsPrivateCloudSpeculativeDecodingMetrics;
-- (id)rrentBuildVersion;
-- (void)eSetupTime;
+- (id)deleteGmsPrivateCloudSpeculativeDecodingMetrics;
+- (id)_hasCurrentBuildVersion;
+- (void)fullPlannerServiceSetupTime;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasStartLocation;
-@property(nonatomic) _Bool hasWasMoved;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 @property(nonatomic) int startLocation; // @synthesize startLocation=_startLocation;
-@property(nonatomic) _Bool wasMoved; // @synthesize wasMoved=_wasMoved;
 
 @end
 

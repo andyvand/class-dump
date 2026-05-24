@@ -6,39 +6,37 @@
 
 #import <TSReading/TSDInteractiveCanvasController.h>
 
-@class NSString;
-
 @interface TSWPInteractiveCanvasController : TSDInteractiveCanvasController
 {
     _Bool _isTearingDown;
 }
 
+- (_Bool)gacy client);
+- (void)RemotePlaybackQueuePlaybackContextOptions, void (^__strong)(MPCPlaybackRequestEnvironment * _Nullable __strong, NSNumber * _Nullable __strong, NSError * _Nullable __strong))_block_invoke;
+- (_Bool)MPCModelPlaybackContextMediaLibraryUniqueID;
+- (struct CGImage *)ContentNotAuthorized;
+- (_Bool)etLoadResult"8@"NSError"16;
+- (_Bool)MPCModelStorePlaybackItemsRequestPlaybackRequestEnvironment;
+- (void)ssQueue;
+- (_Bool)GenericAVItemMediaRedownloadOperation.accessQueue;
+- (void)ay triggered;
+- (struct CGRect)hls;
+- (void)checkpointAssetLoadBegin;
+- (id)a resume time] - player:(id)arg1;
+- (void)Attempting to set queue without a player;
+- (id)failed item (skippable) ;
+- (_Bool)PlayerItemTransitionProvided;
+- (id);
+- (_Bool)PlayerBoundaryTimeSubscription;
 - (_Bool);
 - (void);
-- (_Bool);
-- (struct CGImage *);
-- (_Bool);
-- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (struct CGRect);
 - (void);
 - (id);
 - (void);
-- (id);
+- (_Bool)MPCAudioAssetType;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)Df;
 - (void);
 - (id);
 - (id);
@@ -48,17 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool handleHyperlinksWithTextGRs;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isEditingText;
-@property(readonly, nonatomic) _Bool isTearingDown; // @synthesize isTearingDown=_isTearingDown;
 @property(readonly, nonatomic) _Bool shouldRespondToTextHyperlinks;
-@property(readonly) Class superclass;
 
 @end
 

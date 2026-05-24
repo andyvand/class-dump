@@ -13,14 +13,14 @@
 
 + (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)t;
+- (void)rxrtsocast;
+- (void)parent;
 
 @end
 

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol MTLBuffer;
+@class NSData;
 
 @interface SCNGeometrySource
 {
     struct __C3DMeshSource *_meshSource;
-    NSData *_data;
-    NSString *_semantic;
-    long long _vectorCount;
-    short _componentType;
-    unsigned short _componentCount;
-    struct CGColorSpace *_colorSpace;
-    long long _dataOffset;
-    long long _dataStride;
-    unsigned char _mkSemantic;
-    id <MTLBuffer> _mtlBuffer;
-    long long _mtlVertexFormat;
-    _Bool _encodeDataAsHalf;
 }
 
 + (id);
@@ -35,7 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -52,13 +39,13 @@
 - (short);
 - (void);
 - (long long);
-- (struct __C3DScene *);
+- (struct __C3DScene *)׈@9;
 - (struct __C3DMeshSource *);
 - (id);
 - (long long);
+- (long long);
 - (long long);
-- (long long);
-- (_Bool);
+- (_Bool);
 - (void *);
 - (long long);
 - (void);
@@ -71,14 +58,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesPerComponent;
-@property(readonly, nonatomic) long long componentsPerVector;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long dataOffset;
-@property(readonly, nonatomic) long long dataStride;
-@property(readonly, nonatomic) _Bool floatComponents;
-@property(readonly, nonatomic) NSString *semantic;
-@property(readonly, nonatomic) long long vectorCount;
 
 @end
 

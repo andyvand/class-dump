@@ -9,7 +9,6 @@
 @interface PKInputPointAltitudeAndAzimuthBucketingFilter : PKInputPointBaseFilter
 {
     long long _numAzimuthBuckets;
-    long long _numAltitudeBuckets;
 }
 
 - (void);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long numAltitudeBuckets; // @synthesize numAltitudeBuckets=_numAltitudeBuckets;
 @property(nonatomic) long long numAzimuthBuckets; // @synthesize numAzimuthBuckets=_numAzimuthBuckets;
 
 @end

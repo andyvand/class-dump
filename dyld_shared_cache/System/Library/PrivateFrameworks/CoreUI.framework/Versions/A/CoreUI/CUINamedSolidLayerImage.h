@@ -6,18 +6,9 @@
 
 #import <CoreUI/CUINamedImage.h>
 
-@class CUINamedTexture, NSString, TXRTexture;
-
 @interface CUINamedSolidLayerImage : CUINamedImage
 {
     struct CGRect _frame;
-    double _opacity;
-    int _blendMode;
-    CUINamedTexture *_edgeTexture;
-    CUINamedTexture *_gradientTexture;
-    TXRTexture *_edgeTXR;
-    TXRTexture *_gradientTXR;
-    _Bool _fixedFrame;
 }
 
 - (void);
@@ -34,19 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fixedFrame; // @synthesize fixedFrame=_fixedFrame;
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGImage *image;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(readonly, nonatomic) double scale;
-@property(readonly) Class superclass;
 
 @end
 

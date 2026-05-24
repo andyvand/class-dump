@@ -6,16 +6,11 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKDeclineSharesOperationInfo, NSArray, NSMutableDictionary, NSString;
-@protocol CKDeclineSharesOperationCallbacks;
+@class NSMutableDictionary;
 
 @interface CKDeclineSharesOperation : CKOperation
 {
     CDUnknownBlockType _perShareCompletionBlock;
-    CDUnknownBlockType _declineSharesCompletionBlock;
-    NSArray *_shareMetadatas;
-    NSMutableDictionary *_errorsByShareURL;
-    NSMutableDictionary *_shareMetadatasByShareURL;
 }
 
 + (SEL);
@@ -33,7 +28,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (void);
@@ -45,20 +40,7 @@
 - (void)øçûÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKDeclineSharesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) CDUnknownBlockType declineSharesCompletionBlock; // @synthesize declineSharesCompletionBlock=_declineSharesCompletionBlock;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableDictionary *errorsByShareURL; // @synthesize errorsByShareURL=_errorsByShareURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKDeclineSharesOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perShareCompletionBlock; // @synthesize perShareCompletionBlock=_perShareCompletionBlock;
-@property(copy, nonatomic) NSArray *shareMetadatas; // @synthesize shareMetadatas=_shareMetadatas;
-@property(retain, nonatomic) NSMutableDictionary *shareMetadatasByShareURL; // @synthesize shareMetadatasByShareURL=_shareMetadatasByShareURL;
-@property(readonly) Class superclass;
 
 @end
 

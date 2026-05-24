@@ -5,6 +5,11 @@
 //
 
 @protocol C2RequestDelegate
+- (void)hasSyncedWithRemoteBuddies;
+- (void);
+- (void)ion.plist;
+- (void)an unsupported matching property;
+- (void)h;
 - (void)nkserver.FileChecksumAuthorizationList;
 - (void)PutRequest putState distinct item list corrupt;
 @end

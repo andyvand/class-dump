@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
-@protocol APPCPromotableContentDepiction;
+@class NSUUID;
 
 @interface APPCBaseContext
 {
     id adjacentInternal;
-    void identifier;
-    struct CGSize maxSize;
-    id <APPCPromotableContentDepiction> current;
-    void next;
-    void adjacent;
-    void requestedAd;
 }
 
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)LatestStoriesTodayFeedGroupConfigData;
+- (void)tocksDiagnosticExtension,StocksWidget,StocksPersonalization,Weather,WeatherTests;
+- (id)DebugRecommendedIssuesServiceResult;
 - (id);
 - (id);
 - (void);
@@ -32,12 +25,7 @@
 - (id)¨;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *adjacent;
-@property(nonatomic, readonly) id <APPCPromotableContentDepiction> current; // @synthesize current;
 @property(nonatomic, copy) NSUUID *identifier;
-@property(nonatomic, readonly) struct CGSize maxSize; // @synthesize maxSize;
-@property(nonatomic, readonly) NSArray *next;
-@property(nonatomic, copy) NSString *requestedAd;
 
 @end
 

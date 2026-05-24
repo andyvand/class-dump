@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSData;
 
 @interface CLFindMyAccessoryConnectionMaterial
 {
     NSData *_address;
-    NSData *_ltk;
-    NSNumber *_primaryIndex;
-    NSNumber *_secondaryIndex;
 }
 
 + (_Bool);
@@ -22,21 +19,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ockSetPVR
+;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a;
 - (void);
-- (id);
+- (id)remoteInsertionEnd;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) NSData *address; // @synthesize address=_address;
-@property(readonly) NSData *ltk; // @synthesize ltk=_ltk;
-@property(readonly) NSNumber *primaryIndex; // @synthesize primaryIndex=_primaryIndex;
-@property(readonly) NSNumber *secondaryIndex; // @synthesize secondaryIndex=_secondaryIndex;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface DisruptiveUISuppressionManager
 {
     NSMutableArray *_requestQueue;
-    _Bool _showingSheet;
-    _Bool _suppress;
-    _Bool _didConsumeFreebie;
 }
 
 - (void);
@@ -30,10 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool didConsumeFreebie; // @synthesize didConsumeFreebie=_didConsumeFreebie;
-@property(readonly, nonatomic) NSArray *requestQueue;
 @property(nonatomic, getter=isShowingSheet) _Bool showingSheet; // @synthesize showingSheet=_showingSheet;
-@property(nonatomic, getter=shouldSuppress) _Bool suppress; // @synthesize suppress=_suppress;
 
 @end
 

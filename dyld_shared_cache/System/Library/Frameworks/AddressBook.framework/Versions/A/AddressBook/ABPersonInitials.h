@@ -8,15 +8,15 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)C;
++ (void);
 + (id);
 + (id);
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

@@ -6,21 +6,15 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray;
-@protocol FCContentContext;
-
 @interface FCNotificationPayloadOperation : FCOperation
 {
     CDUnknownBlockType _completionHandler;
-    id <FCContentContext> _context;
-    NSArray *_notificationItems;
-    NSArray *_resultNotificationPayloads;
 }
 
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void)ecipeLists;
+- (void)edgeCacheHintForRecipeLists;
 - (void)Internal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCGlobalCuratedESLArticlesOperation.m;
 - (void)+ extraData.count;
 - (void)ntHistoryStorage;

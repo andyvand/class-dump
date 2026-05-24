@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSearchAttributionManifest, NSMapTable, NSMutableArray, NSString, geo_isolater;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface GEOSearchAttributionServerLocalProxy
 {
     NSMapTable *_listeners;
-    struct os_unfair_lock_s _listenersLock;
-    _Bool _updatingManifest;
-    NSMutableArray *_updateManifestCompletionHandlers;
-    NSMutableArray *_updateManifestErrorHandlers;
-    GEOSearchAttributionManifest *_attributionManifest;
-    struct os_unfair_lock_s _attributionManifestLock;
-    geo_isolater *_isolater;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P5;
 - (id);
 - (void);
 - (void) ±Ý=¤P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

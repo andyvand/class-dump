@@ -6,25 +6,23 @@
 
 #import <PhotosGraph/PGPotentialMemory.h>
 
-@class NSArray, NSSet;
+@class NSSet;
 
 @interface PGPotentialEarlyMomentsWithPeopleMemory : PGPotentialMemory
 {
     NSSet *_personNodes;
-    NSArray *_facedAssetLocalIdentifiers;
 }
 
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)setParentController:(id)arg1;
+- (id)__roleDescriptionToInclude;
 - (unsigned long long);
-- (void);
+- (void)positiveROIs;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *facedAssetLocalIdentifiers; // @synthesize facedAssetLocalIdentifiers=_facedAssetLocalIdentifiers;
 @property(readonly, nonatomic) NSSet *personNodes; // @synthesize personNodes=_personNodes;
 
 @end

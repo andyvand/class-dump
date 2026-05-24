@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface PADiscreteFileImageKey
 {
     NSURL *_url;
-    NSDate *_modDate;
-    NSDictionary *_cgOptions;
-    NSString *_name;
 }
 
 - (id);
@@ -20,15 +17,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *cgOptions; // @synthesize cgOptions=_cgOptions;
-@property(readonly) NSString *name; // @synthesize name=_name;
 @property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end

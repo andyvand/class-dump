@@ -10,57 +10,48 @@ __attribute__((visibility("hidden")))
 @interface NSSelectionBinder : NSValueBinder
 {
     long long _contentPlacementTag;
-    struct __selectionBinderFlags {
-        unsigned int _insertsNullPlaceholder:1;
-        unsigned int _contentValuesBindingIsInSync:1;
-        unsigned int _contentObjectsBindingIsInSync:1;
-        unsigned int _needsToSetUpObserving:1;
-        unsigned int _isUpdatingObject:1;
-        unsigned int _reservedSelectionBinder:27;
-    } _selectionBinderFlags;
-    id _modelObservingTracker;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)kCFURLCredentialKerberosNoUIFlag;
++ (id)er = %@};
++ (id)@;
 + (id);
 + (void)ÓG;
 - (void);
 - (void);
 - (id);
+- (_Bool)king;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (_Bool);
+- (id)isEqual:(id)arg1;
+- (_Bool)isApplication;
+- (void)blockOperationWithBlock:(_Bool)arg1;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)or https;
+- (id)tempting to terminate extractor for task:(id)arg1 %@ because of error:(_Bool)arg2 %@ [%ld];
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_nscfBridgeURLCacheMemoryCapacity;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)filterObjectsByEnforcingRateLimit: /* Error: Ran out of types for this method. */;
+- (void)h@9;
+- (void);
 
 @end
 

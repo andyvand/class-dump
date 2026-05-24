@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, PHAsset;
-
 @interface PHANotificationOptions
 {
     unsigned char _type;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_bodyText;
-    NSDate *_deliveryDate;
-    NSDate *_expirationDate;
-    NSDictionary *_userInfo;
-    PHAsset *_keyAsset;
-    NSString *_collectionUUID;
 }
 
 + (id);
@@ -29,28 +19,20 @@
 - (id);
 - (id);
 - (void);
+- (void)transactionSequenceNumber;
+- (id)positivePOIs;
+- (unsigned char)/a;
 - (void);
-- (id);
-- (unsigned char);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)$;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)AssetCollections:withTransformers:error: /* Error: Ran out of types for this method. */;
+- (void)assetCollectionFingerprintsWithVersion:forAssetCollections:withTransformers:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
-@property(retain, nonatomic) NSString *collectionUUID; // @synthesize collectionUUID=_collectionUUID;
-@property(retain, nonatomic) NSDate *deliveryDate; // @synthesize deliveryDate=_deliveryDate;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain, nonatomic) PHAsset *keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

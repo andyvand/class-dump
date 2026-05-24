@@ -11,9 +11,9 @@
     NSCache *_memoryCache;
 }
 
+- (id)z;
 - (id);
-- (id);
-- (id);
+- (id)n0;
 - (id);
 - (void);
 

@@ -9,25 +9,22 @@
 @interface PGGraphIngestPersonAgeCategoryProcessorHelper
 {
     CLSSceneConfidenceThresholdHelper *_babyScenesHelper;
-    CLSSceneConfidenceThresholdHelper *_childScenesHelper;
-    CLSSceneConfidenceThresholdHelper *_teenScenesHelper;
-    CLSSceneConfidenceThresholdHelper *_adultScenesHelper;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)_֓.;
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (void)ssor;
+- (void)PGGraphIngestMemoryProcessor;
 
 @end
 

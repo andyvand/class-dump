@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)out<TSWPLayoutTarget>",R,W,N,V_target;
 + (id)õT,@: /* Error: Ran out of types for this method. */;
 - (id);
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _DPDiagnosticsAndUsageTransparencyLog
 {
     _Bool _shouldHideMPCParameters;
-    NSData *_serializedData;
-    NSString *_reportName;
-    NSString *_key;
-    NSString *_dataSource;
-    unsigned long long _numDonations;
-    NSData *_rawSerializedData;
 }
 
 + (void);
@@ -34,23 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_controlForEnsuringDismissalOfAutoFillWindowOnceDisabled;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) unsigned long long numDonations; // @synthesize numDonations=_numDonations;
-@property(readonly, nonatomic) NSData *rawSerializedData; // @synthesize rawSerializedData=_rawSerializedData;
-@property(readonly, nonatomic) NSString *reportName; // @synthesize reportName=_reportName;
-@property(readonly, nonatomic) NSData *serializedData; // @synthesize serializedData=_serializedData;
-@property(readonly, nonatomic) _Bool shouldHideMPCParameters; // @synthesize shouldHideMPCParameters=_shouldHideMPCParameters;
-@property(readonly) Class superclass;
 
 @end
 

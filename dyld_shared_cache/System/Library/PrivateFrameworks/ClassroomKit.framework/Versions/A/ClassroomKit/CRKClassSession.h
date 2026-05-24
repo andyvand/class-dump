@@ -6,13 +6,9 @@
 
 #import <ClassroomKit/CRKSession.h>
 
-@class DMFControlSessionIdentifier, NSDate, NSString;
-
 @interface CRKClassSession : CRKSession
 {
     unsigned short _flags;
-    DMFControlSessionIdentifier *_identifier;
-    NSDate *_lastBeaconFoundDate;
 }
 
 - (void);
@@ -24,21 +20,12 @@
 - (id);
 - (unsigned short);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned short flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) DMFControlSessionIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSDate *lastBeaconFoundDate; // @synthesize lastBeaconFoundDate=_lastBeaconFoundDate;
-@property(readonly) Class superclass;
 
 @end
 

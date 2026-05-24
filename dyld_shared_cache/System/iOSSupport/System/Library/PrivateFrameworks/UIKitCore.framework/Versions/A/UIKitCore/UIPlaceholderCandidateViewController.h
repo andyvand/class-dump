@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)Offset;
+- (_Bool)_zeroOffset;
 
 @end
 

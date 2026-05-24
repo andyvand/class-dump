@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol FCContentContext;
 
 @interface FCJSONRecordTreeSource
 {
     id <FCContentContext> _context;
-    NSArray *_jsonRecordSources;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)otabilityScores;
+- (void)__DATA_DIRTY;
+- (void)notabilityScores;
 
 // Remaining properties
 @property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) NSArray *jsonRecordSources; // @synthesize jsonRecordSources=_jsonRecordSources;
 
 @end
 

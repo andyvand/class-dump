@@ -7,10 +7,6 @@
 @interface NewsArticles.RecipeArticleDrawerViewModel
 {
     id _recipeDrawerState;
-    id _onSelection;
-    id _recipeDict;
-    id paidAccessChecker;
-    id _$observationRegistrar;
 }
 
 @end

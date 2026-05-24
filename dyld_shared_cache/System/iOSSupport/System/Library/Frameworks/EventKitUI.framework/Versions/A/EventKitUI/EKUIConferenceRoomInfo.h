@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKRequestAvailabilityOperation, NSArray;
+@class EKRequestAvailabilityOperation;
 
 @interface EKUIConferenceRoomInfo
 {
     EKRequestAvailabilityOperation *_availabilityRequest;
-    NSArray *_availabilitySpans;
-    long long _availabilityType;
 }
 
+- (void)?%s;
 - (void);
-- (void);
-- (void);
+- (void)&s;
 - (long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)stringWithString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) EKRequestAvailabilityOperation *availabilityRequest; // @synthesize availabilityRequest=_availabilityRequest;
-@property(retain, nonatomic) NSArray *availabilitySpans; // @synthesize availabilitySpans=_availabilitySpans;
-@property long long availabilityType; // @synthesize availabilityType=_availabilityType;
 
 @end
 

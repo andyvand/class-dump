@@ -9,12 +9,11 @@
 @interface RTContactPostalAddress
 {
     NSString *_contactsIdentifier;
-    unsigned long long _labelType;
 }
 
-+ (id);
++ (id)IDS;
 - (id);
-- (id);
+- (id)address %s for %@.;
 - (id);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contactsIdentifier; // @synthesize contactsIdentifier=_contactsIdentifier;
-@property(readonly, nonatomic) unsigned long long labelType; // @synthesize labelType=_labelType;
 
 @end
 

@@ -4,42 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface INFGrammarCollection
 {
     NSMutableDictionary *_tokensDictionary;
-    NSMutableDictionary *_sentencesDictionary;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)NSt3__120__shared_ptr_emplaceIN8Espresso9MPSEngine23elementwise_grad_kernelENS_9allocatorIS3_EEEE;
+- (void)N8Espresso29inner_product_grad_kernel_cpuE;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *sentences;
-@property(retain, nonatomic) NSMutableDictionary *sentencesDictionary; // @synthesize sentencesDictionary=_sentencesDictionary;
-@property(readonly, nonatomic) NSArray *tokens;
 @property(retain, nonatomic) NSMutableDictionary *tokensDictionary; // @synthesize tokensDictionary=_tokensDictionary;
 
 @end

@@ -6,8 +6,6 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSString, SAHLWorkoutGoal, SAHLWorkoutType;
-
 @interface SAHLStartWorkout : SADomainCommand
 {
 }
@@ -22,7 +20,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -30,10 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isOpenGoal;
-@property(nonatomic) _Bool skipActivitySetup;
-@property(retain, nonatomic) SAHLWorkoutGoal *workoutGoal;
-@property(retain, nonatomic) SAHLWorkoutType *workoutType;
-@property(copy, nonatomic) NSString *workoutUserMode;
 
 @end
 

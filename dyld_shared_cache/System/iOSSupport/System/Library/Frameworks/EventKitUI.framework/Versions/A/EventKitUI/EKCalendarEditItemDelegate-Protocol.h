@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITableView;
+@class UINavigationController, UITableView;
 
 @protocol EKCalendarEditItemDelegate
-- (UITableView *)ubscribedCalendarDownloadDelegate;
+- (int)s;
+- (UINavigationController *);
+- (_Bool);
+- (UITableView *)DAESubscribedCalendarDownloadDelegate;
 @end
 

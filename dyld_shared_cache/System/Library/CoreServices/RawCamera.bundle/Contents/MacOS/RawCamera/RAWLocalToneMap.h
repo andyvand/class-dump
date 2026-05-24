@@ -6,19 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface RAWLocalToneMap : RAWFilter
 {
     CIImage *inputImage;
-    NSNumber *inputShadowAmount;
-    NSNumber *inputHighlightAmount;
-    NSNumber *inputShadowCutoff;
-    NSNumber *inputHighlightCutoff;
-    NSNumber *inputAmount;
-    NSNumber *inputBlurRadius;
-    id inputColorSpace;
-    CIImage *tcImage;
 }
 
 + (id);

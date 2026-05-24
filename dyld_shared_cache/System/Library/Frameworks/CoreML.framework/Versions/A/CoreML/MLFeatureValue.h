@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, MLSequence, NSDictionary, NSObject, NSString;
-
 @interface MLFeatureValue
 {
     _Bool _undefined;
-    long long _type;
-    id _value;
-    NSObject *_objectValue;
 }
 
-- (void);
+- (void)widgetkit-extension;
 - (void);
 - (_Bool);
+- (id)H;
+- (id)guring key and certificate;
+- (id)NO_CERTIFICATE_ASSIGNED;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
@@ -29,15 +24,15 @@
 - (long long);
 - (long long);
 - (_Bool);
-- (double);
+- (double)_;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)6;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)featureDescription;
 - (id)PÉüÉpÌÜÌÍàÍ|ÎÏ¼ÏìÐxÕlÖ;
 - (void)nction %@, but it does not exist.;
 - (id)_DANK®Z¹PQT«°ßeò * ·%+pÅ!DvCÈ­ò²Ðoûü;
@@ -45,16 +40,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) double doubleValue;
-@property(readonly, nonatomic) struct __CVBuffer *imageBufferValue;
-@property(readonly, nonatomic) long long int64Value;
-@property(readonly, nonatomic) MLMultiArray *multiArrayValue;
-@property(retain, nonatomic) NSObject *objectValue; // @synthesize objectValue=_objectValue;
-@property(readonly, nonatomic) MLSequence *sequenceValue;
-@property(readonly, copy, nonatomic) NSString *stringValue;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic, getter=isUndefined) _Bool undefined; // @synthesize undefined=_undefined;
 @property(retain) id value; // @synthesize value=_value;
 
 @end

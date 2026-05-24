@@ -27,21 +27,12 @@
 - (const CDStruct_7ef4fb35 *);
 - (struct __CFArray **);
 - (id);
-- (id);
+- (id)i;
 - (long long)0;
 - (unsigned long long)sage WHERE guid IN ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *ID; // @dynamic ID;
-@property(readonly, copy, nonatomic) NSString *canonicalizedURIString;
-@property(readonly, copy, nonatomic) NSString *country; // @dynamic country;
-@property(readonly, copy, nonatomic) NSString *countryCodeString;
-@property(readonly, copy, nonatomic) NSString *personCentricID; // @dynamic personCentricID;
-@property(readonly, nonatomic) long long rowID;
-@property(readonly, copy, nonatomic) NSString *service; // @dynamic service;
-@property(readonly, copy, nonatomic) NSString *serviceName;
-@property(readonly, copy, nonatomic) NSString *uncanonicalizedID; // @dynamic uncanonicalizedID;
-@property(readonly, copy, nonatomic) NSString *uncanonicalizedURIString;
 
 @end
 

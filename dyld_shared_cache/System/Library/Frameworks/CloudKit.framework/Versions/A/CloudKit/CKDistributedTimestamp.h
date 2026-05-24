@@ -9,7 +9,6 @@
 @interface CKDistributedTimestamp
 {
     CKDistributedSiteIdentifier *_siteIdentifierObject;
-    unsigned long long _clockValue;
 }
 
 + (_Bool);
@@ -25,18 +24,14 @@
 - (unsigned char);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)setModelDimension: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)¨©;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clockValue; // @synthesize clockValue=_clockValue;
-@property(readonly, nonatomic) unsigned char modifier;
 @property(readonly, copy, nonatomic) NSData *siteIdentifier;
-@property(readonly, copy, nonatomic) CKDistributedSiteIdentifier *siteIdentifierObject; // @synthesize siteIdentifierObject=_siteIdentifierObject;
-@property(readonly, nonatomic) _Bool unordered;
 
 @end
 

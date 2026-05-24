@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VSPrivacyInfoCenter
 {
     int _registrationToken;
-    long long _accountAccessStatus;
 }
 
 + (id);
@@ -21,21 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)A;
 - (int);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long accountAccessStatus; // @synthesize accountAccessStatus=_accountAccessStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int registrationToken; // @synthesize registrationToken=_registrationToken;
-@property(readonly) Class superclass;
 
 @end
 

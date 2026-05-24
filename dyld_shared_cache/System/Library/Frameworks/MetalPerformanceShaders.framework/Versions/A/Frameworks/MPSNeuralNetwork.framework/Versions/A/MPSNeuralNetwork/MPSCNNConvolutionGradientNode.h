@@ -6,13 +6,11 @@
 
 #import <MPSNeuralNetwork/MPSNNGradientFilterNode.h>
 
-@class NSString;
 @protocol MPSCNNConvolutionDataSource;
 
 @interface MPSCNNConvolutionGradientNode : MPSNNGradientFilterNode
 {
     id <MPSCNNConvolutionDataSource> _weights;
-    unsigned long long _trainingStyle;
 }
 
 + (id);
@@ -22,19 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)c ;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long trainingStyle; // @synthesize trainingStyle=_trainingStyle;
 @property(readonly, nonatomic) id <MPSCNNConvolutionDataSource> weights; // @synthesize weights=_weights;
 
 @end

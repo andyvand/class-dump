@@ -11,9 +11,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)Index"q"length"d"distance"d"hasEstimatedAltitudeAndAzimuth"B"rollAngle"d"estimatedActiveInputProperties"q"estimatedActiveInputPropertiesExpectingUpdates"q};
+- (id)TB,R,N,V_flare;
+- (void)oceries;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *devicesInRepairMode;

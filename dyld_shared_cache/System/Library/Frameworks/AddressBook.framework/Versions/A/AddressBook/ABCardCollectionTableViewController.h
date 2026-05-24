@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNScrollableContainerView, NSMutableArray, NSString, NSTableView;
-@protocol ABCardCollectionViewPresentationDelegate;
+@class NSTableView;
 
 @interface ABCardCollectionTableViewController
 {
     NSTableView *_tableView;
-    CNScrollableContainerView *_container;
-    NSMutableArray *_items;
-    id <ABCardCollectionViewPresentationDelegate> _delegate;
-    _Bool _allowsScrolling;
-    long long _contentInset;
 }
 
 - (id);
@@ -25,17 +19,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (id);
 - (id);
-- (long long);
+- (long long)j;
 - (void);
 - (id);
+- (void)_	;
 - (void);
-- (void);
-- (void);
+- (void)%@
+ClientData:(id)arg1 %@;
 - (long long);
 - (id);
 - (void);
@@ -43,27 +38,15 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (void)!ÀCù1ªÐ1Â0@ù
 × ;
-- (void)derName;
+- (void)senderName;
 - (id)rdViewDataSourceSupport>",W,N,V_cardView;
 - (void)u/i;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsScrolling; // @synthesize allowsScrolling=_allowsScrolling;
-@property(retain, nonatomic) CNScrollableContainerView *container; // @synthesize container=_container;
-@property(nonatomic) long long contentInset; // @synthesize contentInset=_contentInset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ABCardCollectionViewPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end

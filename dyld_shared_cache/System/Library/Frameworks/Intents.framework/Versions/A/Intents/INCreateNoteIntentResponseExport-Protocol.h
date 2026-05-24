@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INNote;
-
 @protocol INCreateNoteIntentResponseExport
-- (long long)dleResetTimer:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (long long)handleResetTimer:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INNote *createdNote;
 @end
 

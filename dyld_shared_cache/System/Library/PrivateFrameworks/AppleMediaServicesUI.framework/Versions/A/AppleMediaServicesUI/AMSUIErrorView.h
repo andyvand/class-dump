@@ -6,16 +6,12 @@
 
 #import <AppleMediaServicesUI/AMSUICommonView.h>
 
-@class AMSUICommonStackView, NSButton, NSString, NSTextField;
+@class AMSUICommonStackView;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIErrorView : AMSUICommonView
 {
     CDUnknownBlockType _buttonAction;
-    AMSUICommonStackView *_stackView;
-    NSTextField *_titleLabel;
-    NSTextField *_messageLabel;
-    NSButton *_button;
 }
 
 + (id);
@@ -36,19 +32,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)r;
-- (id)thObject: /* Error: Ran out of types for this method. */;
+- (void)tertiarySystemGroupedBackgroundColor;
+- (id)performSelector:withObject: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain) NSButton *button; // @synthesize button=_button;
-@property(copy, nonatomic) CDUnknownBlockType buttonAction; // @synthesize buttonAction=_buttonAction;
-@property(copy, nonatomic) NSString *buttonTitle;
-@property(copy, nonatomic) NSString *message;
-@property(retain) NSTextField *messageLabel; // @synthesize messageLabel=_messageLabel;
 @property(retain) AMSUICommonStackView *stackView; // @synthesize stackView=_stackView;
-@property(copy, nonatomic) NSString *title;
-@property(retain) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

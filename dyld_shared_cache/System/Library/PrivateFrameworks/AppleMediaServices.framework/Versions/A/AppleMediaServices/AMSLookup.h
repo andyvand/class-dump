@@ -6,27 +6,18 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class AMSProcessInfo, NSString;
 @protocol AMSBagProtocol;
 
 @interface AMSLookup : AMSTask
 {
     id <AMSBagProtocol> _bag;
-    NSString *_caller;
-    AMSProcessInfo *_clientInfo;
-    NSString *_imageProfile;
-    NSString *_keyProfile;
-    NSString *_platform;
-    long long _signatureType;
-    long long _version;
-    NSString *_language;
 }
 
 + (id);
 + (id)];
 + (id)= 1ù< 1û< 1Ê< 1¦< 1æ< 1= 1= 1È< 1x= 1= 1-= 1:= 1M= 1ô< 1o= 1º< 1< 1< 1G= 1T= 1ó< 1²< 15= 1_= 1= 1¯< 1ç< 1)= 1= 19= 1 < 1©< 1Ã< 1= 1§< 1Ø< 1í< 10= 1â< 1m= 1= 1¨< 1`= 1°< 1?= 1s= 1Q= 1= 1a= 1= 1F= 1= 1	= 1 = 1#= 1Y= 1= 1á< 1«< 1@= 1Ô< 1!= 1= 1== 1"= 1¸< 1< 1*= 1< 1= 1n= 1<= 1Ó< 1= 1Ò< 1ü< DC²FC²ãXC²,ZC²?DC²FC²ÿXC²øZC²µDC²ÃFC²XC²qZC²¿DC²FC²¡XC²­ZC²E$C²&C²ä8C²Ì:C²¨$C²Ê&C²[8C²:C²Ó$C²t&C²@8C²Ú:C²$C²&C²8C² :C²ùDC²¸FC²uXC²%ZC²DC²FC²yXC²}ZC²ODC²FC²WXC²ZC²´DC²«FC²öXC²fZC²($C²&C²8C²ì:C²$C²4&C²Q8C²5:C²$C²¾&C²ú8C²°:C² $C²X&C²o8C²:C²BÄL²òÆL²õØL²+ÚL²áÄL²ÒÆL²üØL²LÚL²ÇÄL²hÆL²UØL²IÚL²ýÄL²ÆL²aØL²¬ÚL²À¤L²Ý¦L²&¸L²½ºL²¤L²¹¦L²6¸L²wºL²Ë¤L²N¦L²¸L²bºL²r¤L²;¦L²R¸L²gºL²CÄL²ÐÆL²ÖØL²mÚL²ÄL²ôÆL²ØL²ÚL²ÄL²ÆL²#ØL²>ÚL²ÄL²¯ÆL²MØL²¼ÚL²¤L²p¦L²÷¸L²YºL²¤L²Þ¦L²§¸L²ÔºL²ª¤L²\¦L²^¸L²ñºL²¤L²G¦L²Ñ¸L²ºL²kDC²FC²JXC²ÆZC²ÅDC²-FC²XC²îZC²DC²sFC²eXC²jZC²DC²ÏFC²<XC²'ZC²ï$C²P&C²8C²7:C²·$C²Á&C²|8C²:C²$C²³&C²â8C²9:C²ð$C².&C²8C²K:C²ÙDC²ßFC²ÈXC²nZC²	DC²FC²0XC²/ZC²DC²¶FC²XC²FZC²DC²FC²XC²þZC²×$C²è&C²8C²:C²
 $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØL²iÚL²ºÄL²"ÆL²ÉØL²_ÚL²¢ÄL²ÎÆL²!ØL²TÚL²êÄL²]ÆL²VØL² /* Error: Ran out of types for this method. */;
-+ (id)rovider;
++ (id)ServiceProvider;
 - (id);
 - (id);
 - (void);
@@ -37,7 +28,7 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)0:(id)arg1 8@16@24@32^v40;
 - (void);
 - (void);
 - (id);
@@ -49,7 +40,7 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 × ;
 - (void)DùQ§&°1Â0@ù
 × ;
-- (void)r;
+- (void)ledger;
 - (id)¸.ðáêæ©óQ@@9=
 :öý7öª­puÖrBPyå7_)ÚÍ:3ë­enkõ¹,ù9Íø6³
 0m$ß,vWS×¡öÌèÖè%&°²÷çE¸Q®HÔ¥/ö}¦ûÇ%¢¿µq©Ó¦ç /* Error: Ran out of types for this method. */;
@@ -67,21 +58,6 @@ HPÕu®÷%UÕCÒ!J/Ëc¸;ñLAöùéeä0FLª³÷³eQ'
 
 // Remaining properties
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) NSString *caller; // @synthesize caller=_caller;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *imageProfile; // @synthesize imageProfile=_imageProfile;
-@property(retain) NSString *keyProfile; // @synthesize keyProfile=_keyProfile;
-@property(retain) NSString *language; // @synthesize language=_language;
-@property(retain) NSString *platform; // @synthesize platform=_platform;
-@property long long signatureType; // @synthesize signatureType=_signatureType;
-@property(readonly) Class superclass;
-@property long long version; // @synthesize version=_version;
 
 @end
 

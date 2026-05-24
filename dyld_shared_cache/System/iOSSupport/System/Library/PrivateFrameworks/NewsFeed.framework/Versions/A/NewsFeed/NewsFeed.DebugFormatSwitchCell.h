@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatSwitchCell
 {
     id switchControl;
-    id onChangeBlock;
 }
 
 - (void);

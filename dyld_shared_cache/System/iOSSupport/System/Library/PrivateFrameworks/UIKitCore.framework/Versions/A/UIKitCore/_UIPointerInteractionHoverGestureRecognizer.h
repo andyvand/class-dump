@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (_Bool)Að!<@ùÑ^°1Â0@ù
 × ;
-- (_Bool)tAnimation;
-- (struct CGPoint)aterPrivate;
+- (_Bool)startFadeOutAnimation;
+- (struct CGPoint)searchResultsUpdaterPrivate;
 
 @end
 

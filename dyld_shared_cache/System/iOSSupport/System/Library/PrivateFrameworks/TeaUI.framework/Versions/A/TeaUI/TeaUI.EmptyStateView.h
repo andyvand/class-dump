@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface TeaUI.EmptyStateView
 {
     id emptyPosition;
-    id model;
-    id styler;
-    id label;
-    id imageView;
-    id scrollView;
-    id visualEffectView;
-    id imageSize;
-    id minimalTopPadding;
-    id keyboardInfo;
 }
 
 - (void);
@@ -26,14 +15,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)MinimumNewsVersion;
+- (id)userSegmentationApiConfiguration;
 - (void)ØúÿÄØúÿ$Úúÿ`ÚúÿÚúÿÀÚúÿDÜúÿÀÜúÿ¬ßúÿ¸àúÿÄàúÿáúÿÌáúÿðáúÿâúÿ`âúÿâúÿÀâúÿØâúÿàãúÿäúÿ@äúÿXäúÿdäúÿpäúÿlæúÿæúÿðçúÿLèúÿÈèúÿtéúÿéúÿ<ëúÿHëúÿÌëúÿíúÿíúÿüíúÿ îúÿ\îúÿîúÿîúÿïúÿ¸ïúÿÜïúÿ;
-- (id)alue;
+- (id)RawValue;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *accessibilityElements;
-@property(nonatomic, copy) NSString *accessibilityLabel;
 @property(nonatomic) _Bool isAccessibilityElement;
 
 @end

@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void);
+- (void):removing object:identifier: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface UNPushNotificationTrigger : UNNotificationTrigger
 {
     _Bool _isContentAvailable;
-    _Bool _isMutableContent;
 }
 
 + (id);
@@ -20,12 +19,11 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)(;
+- (id);
 
 // Remaining properties
 @property(readonly) _Bool isContentAvailable; // @synthesize isContentAvailable=_isContentAvailable;
-@property(readonly) _Bool isMutableContent; // @synthesize isMutableContent=_isMutableContent;
 
 @end
 

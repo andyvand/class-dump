@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController, _UIRemoteViewController;
 @protocol CardControllerDismissalDelegate;
 
 __attribute__((visibility("hidden")))
 @interface ServiceCardContainerViewController
 {
     _Bool _didDisappear;
-    id <CardControllerDismissalDelegate> _dismissalDelegate;
-    UIViewController *_childViewController;
-    _UIRemoteViewController *_remoteViewController;
 }
 
 - (void);
@@ -33,17 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)pMeÎTÂ;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;
-@property(retain, nonatomic) UIViewController *childViewController; // @synthesize childViewController=_childViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak id <CardControllerDismissalDelegate> dismissalDelegate; // @synthesize dismissalDelegate=_dismissalDelegate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarAttributeEditorViewController, AVTAvatarRecord, AVTSplashScreenViewController, AVTToolBar, AVTUIEnvironment, AVTViewSessionProvider, NSString, UIBarButtonItem;
-@protocol AVTAvatarEditorViewControllerDelegate, AVTAvatarStoreInternal, AVTUILogger;
+@class AVTAvatarRecord;
 
 @interface AVTAvatarEditorViewController
 {
     _Bool _shouldHideUserInfoView;
-    _Bool _isCreating;
-    _Bool _hasChanges;
-    id <AVTAvatarEditorViewControllerDelegate> _delegate;
-    unsigned long long _editorPresentationContext;
-    AVTAvatarRecord *_initialAvatarRecord;
-    id <AVTAvatarStoreInternal> _store;
-    AVTViewSessionProvider *_avtViewSessionProvider;
-    AVTUIEnvironment *_environment;
-    id <AVTUILogger> _logger;
-    UIBarButtonItem *_cancelButtonItem;
-    UIBarButtonItem *_doneButtonItem;
-    AVTToolBar *_toolbar;
-    AVTSplashScreenViewController *_splashScreenViewController;
-    AVTAvatarAttributeEditorViewController *_attributeEditorViewController;
 }
 
 + (id);
@@ -42,6 +27,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,8 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (_Bool);
 - (id);
 - (id);
@@ -64,15 +49,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (_Bool);
 - (void);
 - (void);
@@ -81,44 +66,22 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id){CGSize=dd}}16;
-- (_Bool)ckerAndCacheForAvatarRecord:withStickerPackName:stickerConfigurationName:resource:withReply: /* Error: Ran out of types for this method. */;
-- (void)tentOffsetForAnimations;
-- (_Bool)ntsSecondaryVideo;
+- (_Bool)getStickerAndCacheForAvatarRecord:withStickerPackName:stickerConfigurationName:resource:withReply: /* Error: Ran out of types for this method. */;
+- (void)clearTargetContentOffsetForAnimations;
+- (_Bool)_wantsSecondaryVideo;
 - (id)¯;
 
 // Remaining properties
-@property(readonly, nonatomic) AVTAvatarAttributeEditorViewController *attributeEditorViewController; // @synthesize attributeEditorViewController=_attributeEditorViewController;
-@property(readonly, nonatomic) AVTViewSessionProvider *avtViewSessionProvider; // @synthesize avtViewSessionProvider=_avtViewSessionProvider;
-@property(retain, nonatomic) UIBarButtonItem *cancelButtonItem; // @synthesize cancelButtonItem=_cancelButtonItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarEditorViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableAvatarSnapshotting;
-@property(retain, nonatomic) UIBarButtonItem *doneButtonItem; // @synthesize doneButtonItem=_doneButtonItem;
-@property(nonatomic) unsigned long long editorPresentationContext; // @synthesize editorPresentationContext=_editorPresentationContext;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(nonatomic) _Bool hasChanges; // @synthesize hasChanges=_hasChanges;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) AVTAvatarRecord *initialAvatarRecord; // @synthesize initialAvatarRecord=_initialAvatarRecord;
-@property(readonly, nonatomic) _Bool isCreating; // @synthesize isCreating=_isCreating;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(nonatomic) _Bool shouldHideUserInfoView; // @synthesize shouldHideUserInfoView=_shouldHideUserInfoView;
-@property(readonly, nonatomic) AVTSplashScreenViewController *splashScreenViewController; // @synthesize splashScreenViewController=_splashScreenViewController;
-@property(readonly, nonatomic) id <AVTAvatarStoreInternal> store; // @synthesize store=_store;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVTToolBar *toolbar; // @synthesize toolbar=_toolbar;
 
 @end
 

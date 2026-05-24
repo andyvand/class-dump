@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreLogUpdateOperation : HMDBackingStoreOperation
 {
     NSArray *_values;
-    long long _maskValue;
-    long long _setValue;
 }
 
 - (id);
@@ -22,15 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long);
-- (long long);
+- (long long)So17OS_dispatch_queueCXo;
+- (void)SbSg;
 - (void);
-- (void);
-- (id)esidentElectionEndTime;
+- (id)firstPrimaryResidentElectionEndTime;
 - (void)MobileAssetQuery;
 
 // Remaining properties
-@property(nonatomic) long long maskValue; // @synthesize maskValue=_maskValue;
-@property(nonatomic) long long setValue; // @synthesize setValue=_setValue;
 @property(retain, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end

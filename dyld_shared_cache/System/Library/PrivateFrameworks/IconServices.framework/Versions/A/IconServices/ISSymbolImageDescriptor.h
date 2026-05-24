@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ISSymbolImageDescriptor
 {
     unsigned long long _size;
-    long long _weight;
 }
 
 - (unsigned long long);
@@ -18,15 +15,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(nonatomic) long long weight; // @synthesize weight=_weight;
 
 @end
 

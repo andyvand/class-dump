@@ -7,6 +7,11 @@
 @class NSString;
 
 @protocol NSObject
+- (id);
+- (id)PreambleEngineParameterError;
+- (id);
+- (Class)PreambleEngineParameter;
+- (_Bool)�3;
 - (id)Qyd_0_á ;yAGGGGG;
 - (_Bool)ÕQ7Ä;
 - (struct _NSZone *)ñþ;
@@ -15,12 +20,6 @@
 - (NSString *)¢;GGGGGG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOConfigRemoveChangeListenerRequest : GEOXPCRequest
 {
     NSArray *_keys;
 }
 
-+ (Class);
++ (Class)SLGuaranteedRemoteCall;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)lastTwitterAccountInAccountStore:updatePrefs: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)inateFromQueryValue:(id)arg1;
+- (void)_coordinateFromQueryValue:(id)arg1;
 - (void)ä9¶5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *keys; // @synthesize keys=_keys;
-@property(readonly) Class superclass;
 
 @end
 

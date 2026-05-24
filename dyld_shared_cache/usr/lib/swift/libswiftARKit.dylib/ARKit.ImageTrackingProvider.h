@@ -8,9 +8,6 @@
 {
     id _cImageTrackingProvider;
     id _cImageTrackingConfiguration;
-    id anchorUpdateIterators;
-    id anchorQueue;
-    id referenceImages;
 }
 
 @end

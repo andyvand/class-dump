@@ -14,21 +14,20 @@
 }
 
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)pc;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (_Bool);
+- (void));
+- (id)fastMipmapItemWithExactSize:(id *)arg1;
+- (id)_prevPoints;
 - (_Bool);
 - (id);
-- (id);
-- (long long);
+- (id)ons/A/FileProvider;
+- (long long)timezone_s=[48c]}}{tracev3_chunk_catalog_s=SSSS[0C]}{tracev3_chunk_catalog_v2_s=SSSSSSS[1S]Q[0C]}{tracev3_chunk_log_preamble_s=QIC[3C]}{tracev3_chunk_firehose_s=QICC[2C][0C]}{tracev3_chunk_firehose_old_s=QiCC[0C]}{tracev3_chunk_oversize_s=QIC[3C]QISS[0C]}{tracev3_chunk_oversize_old_s=QISS[0C]}{tracev3_chunk_statedump_s=QIC[3C]QQ[16C][0C]}{tracev3_chunk_simple_s=QICC[2C]QQQ[16C][16C][0C]}[0C])}16;
 
 // Remaining properties
 @property(nonatomic) __weak id <BKDevicePearlDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) long long pearlState; // @synthesize pearlState=_pearlState;
 
 @end
 

@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)Cacher;
+- (id)retainResponseForURLString: /* Error: Ran out of types for this method. */;
+- (id)PGMusicForTimeFrontfillCacher;
 
 @end
 

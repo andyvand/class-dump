@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData, NSNumber;
+
 @protocol CPXRemoteViewEventProtocolClientCallsServer
+- (oneway void)nItemRecordIDs:(NSData *)arg1 forStore:(NSNumber *)arg2 inMonitor:(void (^)(NSNumber *, NSError *))arg3 ];
 @end
 

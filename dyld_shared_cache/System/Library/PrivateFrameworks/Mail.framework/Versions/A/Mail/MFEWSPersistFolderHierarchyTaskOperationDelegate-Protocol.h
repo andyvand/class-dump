@@ -5,5 +5,6 @@
 //
 
 @protocol MFEWSPersistFolderHierarchyTaskOperationDelegate
+- (void);
 @end
 

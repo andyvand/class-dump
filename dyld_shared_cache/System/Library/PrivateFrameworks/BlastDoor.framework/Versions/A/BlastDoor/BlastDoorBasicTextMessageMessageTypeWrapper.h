@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorBasicAudioMessage, BlastDoorBasicEmojiTapback, BlastDoorBasicMessage, BlastDoorBasicTapBack, BlastDoorBasicTypingIndicator, BlastDoorUnsupportedMessage, NSString;
+@class NSString;
 
 @interface BlastDoorBasicTextMessageMessageTypeWrapper
 {
@@ -15,22 +15,15 @@
 - (id);
 - (id);
 - (id);
+- (id)32@0:8@"UICollectionView"16@"NSIndexPath"24 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)o get support - %d;
 - (void)0;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorBasicAudioMessage *audioMessage;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorBasicEmojiTapback *emojiTapback;
-@property(nonatomic, readonly) BlastDoorBasicTapBack *tapback;
-@property(nonatomic, readonly) BlastDoorBasicMessage *textMessage;
-@property(nonatomic, readonly) unsigned long long type;
-@property(nonatomic, readonly) BlastDoorBasicTypingIndicator *typingIndicator;
-@property(nonatomic, readonly) BlastDoorUnsupportedMessage *unsupported;
 
 @end
 

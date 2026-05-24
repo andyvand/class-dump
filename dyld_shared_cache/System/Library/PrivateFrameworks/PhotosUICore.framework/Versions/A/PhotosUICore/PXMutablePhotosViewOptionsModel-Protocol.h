@@ -5,13 +5,10 @@
 //
 
 @class NSArray;
-@protocol PXPhotosLensControlItem;
 
 @protocol PXMutablePhotosViewOptionsModel
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *additionalLensControlItems;
-@property(nonatomic) _Bool hidesSortOrderMenu;
-@property(retain, nonatomic) id <PXPhotosLensControlItem> selectedLensControlItem;
 @end
 

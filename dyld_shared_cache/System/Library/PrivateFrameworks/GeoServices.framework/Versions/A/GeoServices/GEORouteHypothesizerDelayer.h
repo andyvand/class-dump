@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORouteHypothesizer, geo_isolater;
-
 __attribute__((visibility("hidden")))
 @interface GEORouteHypothesizerDelayer
 {
     struct __CFBinaryHeap *_minHeap;
-    GEORouteHypothesizer *_nextHypothesizer;
-    geo_isolater *_isolater;
 }
 
 + (void)¸O;
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)-9(P@;
 

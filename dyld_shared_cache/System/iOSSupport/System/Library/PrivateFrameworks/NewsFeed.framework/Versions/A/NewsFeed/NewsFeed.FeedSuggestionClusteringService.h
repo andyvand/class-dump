@@ -7,9 +7,6 @@
 @interface NewsFeed.FeedSuggestionClusteringService
 {
     id cloudContext;
-    id allowlistProvider;
-    id tagRanker;
-    id paidAccessChecker;
 }
 
 @end

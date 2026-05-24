@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PDFDocument;
+@class PDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface PDFFormFieldPrivateVars
 {
     PDFDocument *document;
-    struct CGRect bounds;
-    int fieldType;
-    long long buttonType;
-    NSString *fieldName;
-    NSString *stringValue;
-    NSString *defaultStringValue;
-    NSDictionary *digitalSignature;
-    _Bool writeDefaultValue;
-    struct __CFDictionary *dictionary;
 }
 
 - (void);

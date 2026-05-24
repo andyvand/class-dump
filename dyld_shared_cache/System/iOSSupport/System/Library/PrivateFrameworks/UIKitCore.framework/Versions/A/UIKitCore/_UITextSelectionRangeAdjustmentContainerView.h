@@ -6,20 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray;
-@protocol UITextSelectionHandleView;
-
 __attribute__((visibility("hidden")))
 @interface _UITextSelectionRangeAdjustmentContainerView : UIView
 {
     _Bool _selectionGrabbersAreConcreteImpl;
-    _Bool _vertical;
-    _Bool _portalsLollipopDotsToContainerWindow;
-    _Bool _selectionGrabbersHidden;
-    double _shapeScale;
-    NSArray *_selectionGrabbers;
-    struct CGRect _startEdge;
-    struct CGRect _endEdge;
 }
 
 - (id);
@@ -30,36 +20,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
+- (id)maxValue;
+- (_Bool)ay"16@?<v@?>24;
+- (_Bool);
+- (void)copyCKRecordRepresentationsWithZoneID:(_Bool)arg1 salt:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (struct CGRect)e;
-- (void)tView;
-- (id)leMajorDimensionThreshold;
+- (struct CGRect)updateWindowState;
+- (void)_removeFocusedFloatingContentView;
+- (id)_narrowAspectRuleMajorDimensionThreshold;
 - (struct CGRect)_mutableMaximumIndices;
 - (void)},N,SsetX:(struct CGRect)arg1 ,Vm_x;
 - (void)ies",N,&,VshadowProperties;
 - (id);
 - (void)data:(struct CGRect)arg1 %@/%lu/%@;
 - (void)g;
-- (id);
+- (id)_UISimpleTimedInhibitorClockType;
 
 // Remaining properties
-@property(nonatomic) struct CGRect endEdge; // @synthesize endEdge=_endEdge;
-@property(readonly, nonatomic) UIView<UITextSelectionHandleView> *leadingLollipopView;
-@property(nonatomic) _Bool portalsLollipopDotsToContainerWindow; // @synthesize portalsLollipopDotsToContainerWindow=_portalsLollipopDotsToContainerWindow;
-@property(retain, nonatomic) NSArray *selectionGrabbers; // @synthesize selectionGrabbers=_selectionGrabbers;
-@property(readonly, nonatomic, getter=areSelectionGrabbersConcreteImpl) _Bool selectionGrabbersAreConcreteImpl;
-@property(nonatomic, getter=areSelectionGrabbersHidden) _Bool selectionGrabbersHidden; // @synthesize selectionGrabbersHidden=_selectionGrabbersHidden;
-@property(nonatomic) double shapeScale; // @synthesize shapeScale=_shapeScale;
 @property(nonatomic) struct CGRect startEdge; // @synthesize startEdge=_startEdge;
-@property(readonly, nonatomic) UIView<UITextSelectionHandleView> *trailingLollipopView;
-@property(nonatomic, getter=isVertical) _Bool vertical; // @synthesize vertical=_vertical;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsSubscription.PaywallCachedLayout__priv_0B215FBC3E137E4DEBC0F1C71C9B7661
 {
     id layoutOptions;
-    id layoutPromise;
 }
 
 @end

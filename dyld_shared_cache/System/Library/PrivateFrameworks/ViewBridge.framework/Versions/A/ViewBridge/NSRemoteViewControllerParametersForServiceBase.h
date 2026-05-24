@@ -7,12 +7,10 @@
 @interface NSRemoteViewControllerParametersForServiceBase
 {
     _Bool _declineNonKeyboardEvents;
-    struct CGRect _viewFrameInScreenCoords;
-    struct NSEdgeInsets _safeAreaInsets;
 }
 
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -21,8 +19,6 @@
 - (struct NSEdgeInsets);
 
 // Remaining properties
-@property _Bool declineNonKeyboardEvents; // @synthesize declineNonKeyboardEvents=_declineNonKeyboardEvents;
-@property struct NSEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
 @property struct CGRect viewFrameInScreenCoords; // @synthesize viewFrameInScreenCoords=_viewFrameInScreenCoords;
 
 @end

@@ -6,7 +6,6 @@
 
 #import <CallKit/CXProviderExtensionContext.h>
 
-@class NSString;
 @protocol CXProviderHostProtocol;
 
 @interface CXProviderExtensionHostContext : CXProviderExtensionContext
@@ -22,6 +21,7 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
+- (oneway void)@9;
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -31,22 +31,14 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CXProviderHostProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

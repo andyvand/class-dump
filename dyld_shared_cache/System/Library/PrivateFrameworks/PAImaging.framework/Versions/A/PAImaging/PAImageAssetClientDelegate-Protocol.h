@@ -5,5 +5,9 @@
 //
 
 @protocol PAImageAssetClientDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

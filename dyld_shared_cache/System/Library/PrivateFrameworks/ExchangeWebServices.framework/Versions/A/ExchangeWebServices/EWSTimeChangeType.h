@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSString;
-
 @interface EWSTimeChangeType
 {
     _Bool _IsOffsetSpecified;
-    double _Offset;
-    id _TimeChangePattern;
-    NSDateComponents *_Time;
-    NSString *_TimeZoneName;
 }
 
 + (id);
@@ -26,22 +20,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)cD;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool IsOffsetSpecified; // @synthesize IsOffsetSpecified=_IsOffsetSpecified;
 @property(nonatomic) double Offset; // @synthesize Offset=_Offset;
-@property(retain, nonatomic) NSDateComponents *Time; // @synthesize Time=_Time;
-@property(retain, nonatomic) id TimeChangePattern; // @synthesize TimeChangePattern=_TimeChangePattern;
-@property(copy, nonatomic) NSString *TimeZoneName; // @synthesize TimeZoneName=_TimeZoneName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

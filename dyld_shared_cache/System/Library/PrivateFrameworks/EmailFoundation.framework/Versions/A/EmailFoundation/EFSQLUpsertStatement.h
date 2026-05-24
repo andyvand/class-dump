@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLInsertStatement, EFSQLUpdateStatement, NSArray, NSString;
-@protocol EFSQLInsertStatementValue, EFSQLUpdateStatementValue, EFSQLValueExpressable;
+@class EFSQLInsertStatement;
+@protocol EFSQLInsertStatementValue;
 
 @interface EFSQLUpsertStatement
 {
     EFSQLInsertStatement *_insertStatement;
-    EFSQLUpdateStatement *_updateStatement;
-    NSArray *_conflictTarget;
 }
 
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)sView.;
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)%s stopRecording elapsed time = %{public}lf;
+- (_Bool)Q;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <EFSQLInsertStatementValue> insertValue;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, copy, nonatomic) NSString *queryString;
-@property(readonly, nonatomic) id <EFSQLUpdateStatementValue> updateValue;
-@property(retain, nonatomic) id <EFSQLValueExpressable> whereClause;
 
 @end
 

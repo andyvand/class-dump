@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, SUCoreConnectClientPolicy, SUCoreLog;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface SUCoreConnectClient
 {
     struct os_unfair_lock_s _stateLock;
-    NSXPCConnection *_serverConnection;
-    SUCoreConnectClientPolicy *_policy;
-    SUCoreLog *_logger;
-    NSObject<OS_dispatch_queue> *_clientDelegateCallbackQueue;
-    NSObject<OS_dispatch_queue> *_clientCompletionQueue;
-    NSObject<OS_dispatch_queue> *_clientMessageQueue;
-    NSObject<OS_dispatch_queue> *_clientReplyCompletionQueue;
 }
 
 + (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *clientCompletionQueue; // @synthesize clientCompletionQueue=_clientCompletionQueue;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *clientDelegateCallbackQueue; // @synthesize clientDelegateCallbackQueue=_clientDelegateCallbackQueue;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *clientMessageQueue; // @synthesize clientMessageQueue=_clientMessageQueue;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *clientReplyCompletionQueue; // @synthesize clientReplyCompletionQueue=_clientReplyCompletionQueue;
-@property(readonly, retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(readonly, retain, nonatomic) SUCoreConnectClientPolicy *policy; // @synthesize policy=_policy;
 @property(retain, nonatomic) NSXPCConnection *serverConnection; // @synthesize serverConnection=_serverConnection;
-@property(readonly, nonatomic) struct os_unfair_lock_s stateLock; // @synthesize stateLock=_stateLock;
 
 @end
 

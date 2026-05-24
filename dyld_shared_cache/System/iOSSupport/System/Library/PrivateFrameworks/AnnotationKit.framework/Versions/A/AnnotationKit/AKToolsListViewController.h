@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UITableView;
-@protocol AKToolsListViewControllerDelegate;
+@class UITableView;
 
 @interface AKToolsListViewController
 {
     _Bool _supportsOpacityEditing;
-    _Bool _supportsImageDescriptionEditing;
-    _Bool _isDeviceLocked;
-    id <AKToolsListViewControllerDelegate> _delegate;
-    UITableView *_tableView;
-    NSArray *_cellItemTypes;
 }
 
 + (id);
@@ -42,7 +36,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)e;
 - (id);
 - (id);
 - (long long);
@@ -50,26 +44,14 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)tMigrator performMigrationForUserPreferences:(_Bool)arg1 systemPreferences:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ù
 × ;
-- (id)teAnnotationUndecided: /* Error: Ran out of types for this method. */;
+- (id)setIsPreviousCandidateAnnotationUndecided: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cellItemTypes; // @synthesize cellItemTypes=_cellItemTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKToolsListViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDeviceLocked; // @synthesize isDeviceLocked=_isDeviceLocked;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsImageDescriptionEditing; // @synthesize supportsImageDescriptionEditing=_supportsImageDescriptionEditing;
-@property(nonatomic) _Bool supportsOpacityEditing; // @synthesize supportsOpacityEditing=_supportsOpacityEditing;
 @property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
 
 @end

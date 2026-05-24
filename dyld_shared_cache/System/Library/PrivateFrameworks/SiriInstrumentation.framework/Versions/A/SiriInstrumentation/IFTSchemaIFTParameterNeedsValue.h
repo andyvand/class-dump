@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface IFTSchemaIFTParameterNeedsValue : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_parameterId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasParameterId;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -40,10 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasParameterId; // @synthesize hasParameterId=_hasParameterId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *parameterId; // @synthesize parameterId=_parameterId;
 
 @end
 

@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -39,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (id);
-- (id);
+- (id)der, emptying log;
 - (unsigned long long);
 - (_Bool);
 - (id);

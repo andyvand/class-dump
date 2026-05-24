@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *textInputButtonTitle; // @dynamic textInputButtonTitle;
-@property(readonly, copy) NSString *textInputPlaceholder; // @dynamic textInputPlaceholder;
 
 @end
 

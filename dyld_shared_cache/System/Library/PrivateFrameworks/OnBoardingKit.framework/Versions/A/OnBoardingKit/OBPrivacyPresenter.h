@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSString, NSWindow, NSWindowController, OBPrivacyCombinedController, OBPrivacySplashController;
+@class OBPrivacySplashController;
 
 @interface OBPrivacyPresenter
 {
     CDUnknownBlockType _dismissHandler;
-    OBPrivacySplashController *_splashController;
-    OBPrivacyCombinedController *_combinedController;
-    NSString *_displayLanguage;
-    unsigned long long _displayDeviceType;
-    NSWindow *_presentingWindow;
-    NSColor *_customTintColor;
-    NSWindowController *_presentedController;
-    NSArray *_presentedIdentifiers;
 }
 
 - (id);
@@ -27,13 +19,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)durationInSamples;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -42,14 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) OBPrivacyCombinedController *combinedController; // @synthesize combinedController=_combinedController;
-@property(retain, nonatomic) NSColor *customTintColor; // @synthesize customTintColor=_customTintColor;
-@property(copy) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(nonatomic) unsigned long long displayDeviceType; // @synthesize displayDeviceType=_displayDeviceType;
-@property(retain, nonatomic) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
-@property(retain) NSWindowController *presentedController; // @synthesize presentedController=_presentedController;
-@property(retain) NSArray *presentedIdentifiers; // @synthesize presentedIdentifiers=_presentedIdentifiers;
-@property __weak NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
 @property(retain) OBPrivacySplashController *splashController; // @synthesize splashController=_splashController;
 
 @end

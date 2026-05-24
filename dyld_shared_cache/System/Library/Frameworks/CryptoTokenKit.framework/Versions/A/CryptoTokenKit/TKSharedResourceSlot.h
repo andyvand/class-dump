@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TKSharedResource;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
 
 @interface TKSharedResourceSlot
 {
     NSString *_name;
-    TKSharedResource *_resource;
-    id _object;
-    NSObject<OS_dispatch_source> *_idleTimer;
-    CDUnknownBlockType _createObjectBlock;
-    CDUnknownBlockType _objectDestroyedBlock;
-    double _idleTimeout;
-    NSObject<OS_dispatch_queue> *_idleQueue;
 }
 
 - (void);
+- (void);
+- (void);
+- (id)?;
+- (id);
+- (id)";
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)setCurrentContext: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void)stomACLParams"8@?0;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType createObjectBlock; // @synthesize createObjectBlock=_createObjectBlock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *idleQueue; // @synthesize idleQueue=_idleQueue;
-@property(nonatomic) double idleTimeout; // @synthesize idleTimeout=_idleTimeout;
-@property(copy, nonatomic) CDUnknownBlockType objectDestroyedBlock; // @synthesize objectDestroyedBlock=_objectDestroyedBlock;
 
 @end
 

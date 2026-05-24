@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRAccountsListsPresenterCapability.RemindersInsertionRequest__priv_8A89D2A718AD2C10AB9E066540BACB26
 {
     id parent;
-    id childIndex;
-    id viewModel;
-    id containerIsInEditMode;
-    id additionalSubjectFilter;
-    id $__lazy_storage_$_creationTarget;
 }
 
 @end

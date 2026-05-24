@@ -4,38 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSScrollView, NSScrollerImp, NSTimer, NSTrackingArea;
-@protocol NSScrollerImpPairDelegate;
+@class NSScrollView;
 
 @interface NSScrollerImpPair
 {
     NSScrollView *_scrollView;
-    id <NSScrollerImpPairDelegate> _delegate;
-    NSScrollerImp *_verticalScrollerImp;
-    NSScrollerImp *_horizontalScrollerImp;
-    long long _scrollerStyle;
-    NSTimer *_overlayScrollerHideTimer;
-    NSTrackingArea *_contentViewTrackingArea;
-    struct CGPoint _lastMouseInContentPoint;
-    struct {
-        unsigned int isFlipped:1;
-        unsigned int wantsToFlashOverlayScrollers:1;
-        unsigned int windowIsVisible:1;
-        unsigned int inScrollGesture:1;
-        unsigned int scrollerKnobStyle:2;
-        unsigned int scrollerFlashPending:1;
-        unsigned int overlayScrollerStateLocked:1;
-        unsigned int inVertScroller:1;
-        unsigned int inHorzScroller:1;
-        unsigned int areScrollersCatchable:1;
-        unsigned int shouldFadeCaughtScroller:1;
-        unsigned int :20;
-    } _flags;
 }
 
-+ (void);
-+ (void);
-+ (long long);
++ (void)_CFURLAuthChallenge=}16@0:(_Bool)arg1 8;
++ (void)@32q40@48@56@64;
++ (long long)URLSession:task:_isWaitingForConnectionWithError: /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
 + (void)¸RH;
@@ -43,25 +21,25 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (long long);
 - (long long);
-- (long long);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)returned NULL;
 - (id);
 - (void);
 - (void);
@@ -75,12 +53,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_externalAuthenticator;
+- (void)_explicitlySetSSLProperties;
+- (void)_ZN19URLConnectionLoader22_loaderEvent_StartLoadEP16NSURLSessionTask;
+- (void)%d;
+- (void)ISTS cfurl_cache_blob_data;;
+- (void)which could put your confidential information at risk.;
 - (void);
 - (void);
 - (void);
@@ -94,26 +72,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void)ble;
+- (void)excludesText;
+- (void)ing"8@16;
+- (void)_styleMaskIsResizable;
 - (void)h´.;
 - (id)dentation:%ld)> /* Error: Ran out of types for this method. */;
 - (void);
 - (void)<£C;
 
 // Remaining properties
-@property __weak id <NSScrollerImpPairDelegate> delegate; // @synthesize delegate=_delegate;
-@property(getter=isFlipped) _Bool flipped;
-@property(retain) NSScrollerImp *horizontalScrollerImp;
-@property(readonly, getter=isInScrollGesture) _Bool inScrollGesture;
-@property(readonly) _Bool overlayScrollersShown;
 @property __weak NSScrollView *scrollView;
-@property(copy) NSColor *scrollerKnobColor;
-@property long long scrollerKnobStyle;
-@property long long scrollerStyle;
-@property(copy) NSColor *scrollerTrackColor;
-@property(retain) NSScrollerImp *verticalScrollerImp;
 
 @end
 

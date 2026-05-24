@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, RTEventHistogramOptions, RTEventLocationIdentifier;
+@class RTEventHistogramOptions, RTEventLocationIdentifier;
 
 @interface RTEventHistogram
 {
     RTEventLocationIdentifier *_reusableLookupIdentifier;
-    NSDictionary *_locationOfInterestHistograms;
-    RTEventHistogramOptions *_options;
 }
 
 + (_Bool);
-+ (_Bool);
-+ (double);
++ (_Bool)genius;
++ (double)armed;
+- (id);
+- (id)k.framework/Versions/A/QuickLook;
+- (id)logUnrecoverableError:(id)arg1 forEvent:(id)arg2 withAttributes:(id)arg3;
+- (id)held;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)r"24;
+- (id)with private key;
 - (id);
 - (void);
 - (id);

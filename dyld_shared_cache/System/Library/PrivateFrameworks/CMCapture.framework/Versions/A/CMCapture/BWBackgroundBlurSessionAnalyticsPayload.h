@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWBackgroundBlurSessionAnalyticsPayload
 {
     NSString *_clientApplicationID;
-    long long _effectQuality;
-    double _averageProcessingTime;
-    double _maxProcessingTime;
-    long long _numberOfFrames;
-    int _numberOfFrameDrops;
-    int _maxThermalSystemPressureLevel;
 }
 
 - (void);
@@ -29,30 +23,17 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (double);
 - (void);
-- (void);
-- (void);
+- (void)\7;
+- (void)alWidth:(long long)arg1 numberOfNonSpaceIntegerPlaceholderDigits:numberOfNonSpaceDecimalPlaceholderDigits:isTextFormat:formatName:customFormatKey:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)ractionModel:(id)arg1 Model initialization failed;
 - (long long);
 - (id);
 - (id);
-- (id)JPEGCompressor;
+- (id)synchronizedSlaveJPEGCompressor;
 
 // Remaining properties
-@property(nonatomic) double averageProcessingTime; // @synthesize averageProcessingTime=_averageProcessingTime;
 @property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long effectQuality; // @synthesize effectQuality=_effectQuality;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maxProcessingTime; // @synthesize maxProcessingTime=_maxProcessingTime;
-@property(nonatomic) int maxThermalSystemPressureLevel; // @synthesize maxThermalSystemPressureLevel=_maxThermalSystemPressureLevel;
-@property(nonatomic) int numberOfFrameDrops; // @synthesize numberOfFrameDrops=_numberOfFrameDrops;
-@property(nonatomic) long long numberOfFrames; // @synthesize numberOfFrames=_numberOfFrames;
-@property(readonly) Class superclass;
 
 @end
 

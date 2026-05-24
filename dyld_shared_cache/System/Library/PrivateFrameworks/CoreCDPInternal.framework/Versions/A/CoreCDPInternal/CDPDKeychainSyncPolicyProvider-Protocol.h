@@ -5,11 +5,10 @@
 //
 
 @protocol CDPDKeychainSyncPolicyProvider
+- (_Bool);
+- (_Bool)setResourceType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isBuddyFinished;
 @property(readonly, nonatomic) _Bool keychainSyncAllowedByMDM;
-@property(readonly, nonatomic) _Bool keychainSyncAllowedByServer;
-@property(nonatomic) _Bool userHasExplicitlyDisabledSync;
 @end
 

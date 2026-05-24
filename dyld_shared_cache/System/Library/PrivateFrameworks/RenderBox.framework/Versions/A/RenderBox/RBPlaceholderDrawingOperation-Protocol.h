@@ -5,6 +5,7 @@
 //
 
 @protocol RBPlaceholderDrawingOperation
+- (struct CGRect)TV Setup advertising with error:%@ /* Error: Ran out of types for this method. */;
 
 @optional
 - (void)@ù

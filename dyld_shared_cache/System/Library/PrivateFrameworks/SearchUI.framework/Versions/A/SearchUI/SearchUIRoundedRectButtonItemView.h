@@ -11,7 +11,7 @@
 }
 
 - (double);
-- (double);
+- (double)not get the input image;
 - (id);
 - (double);
 

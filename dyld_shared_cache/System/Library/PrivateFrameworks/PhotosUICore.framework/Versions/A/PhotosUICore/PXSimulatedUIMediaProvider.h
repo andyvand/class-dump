@@ -12,15 +12,15 @@
 }
 
 + (id);
+- (id);
 - (id);
-- (id);
+- (long long)@;
 - (long long);
 - (long long);
 - (long long);
-- (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

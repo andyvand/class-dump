@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface _DPPINERandomizer
 {
     double _maxCentralEpsilon;
-    NSDictionary *_plistParameter;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
+- (id)Ț	;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (_Bool);
@@ -26,18 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)isEnabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double maxCentralEpsilon; // @synthesize maxCentralEpsilon=_maxCentralEpsilon;
-@property(readonly, copy, nonatomic) NSDictionary *plistParameter; // @synthesize plistParameter=_plistParameter;
-@property(readonly) Class superclass;
 
 @end
 

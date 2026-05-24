@@ -6,13 +6,11 @@
 
 #import <PackageKit/PKNetEnabledProduct.h>
 
-@class NSString, PKArchive;
+@class PKArchive;
 
 @interface PKSecureNetEnabledProduct : PKNetEnabledProduct
 {
     PKArchive *_distArchive;
-    NSString *_archivePath;
-    NSString *_tempArchivePath;
 }
 
 + (id);
@@ -22,8 +20,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)I;
+- (_Bool);
 - (void);
 - (id)ink, dest=dir] failed _checkForAndFixCircularLink(%@, %@):%s /* Error: Ran out of types for this method. */;
 

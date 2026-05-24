@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface STMediaChannel
 {
     NSString *_callSign;
-    NSString *_channelIdentifier;
-    NSString *_name;
-    NSURL *_streamUrl;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)دg;
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id){;
 - (id);
 - (id);
 - (id);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *callSign; // @synthesize callSign=_callSign;
-@property(copy, nonatomic) NSString *channelIdentifier; // @synthesize channelIdentifier=_channelIdentifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSURL *streamUrl; // @synthesize streamUrl=_streamUrl;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface SwiftUI.PasteboardUtility.File
 {
     id url;
-    id fileManager;
-    id removed;
 }
 
 @end

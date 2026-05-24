@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CUIPSDLayerEffects
 {
     _Bool _visible;
-    double _effectScale;
-    NSMutableDictionary *_effectList;
 }
 
 - (void);
@@ -21,14 +17,12 @@
 - (void);
 - (void);
 - (id);
-- (double)amed:inRendition: /* Error: Ran out of types for this method. */;
+- (double)_createAttachmentStoreFromNodeNamed:inRendition: /* Error: Ran out of types for this method. */;
 - (void)ecorded size = %d, bytes read = %d.
 ;
-- (_Bool)xiliary1InsetBottomLeft;
+- (_Bool)kCUIMeasureAuxiliary1InsetBottomLeft;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *effectList; // @synthesize effectList=_effectList;
-@property double effectScale; // @synthesize effectScale=_effectScale;
 @property _Bool visible; // @synthesize visible=_visible;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol PXGStringSource
+
+@optional
+- (long long)?;
 @end
 

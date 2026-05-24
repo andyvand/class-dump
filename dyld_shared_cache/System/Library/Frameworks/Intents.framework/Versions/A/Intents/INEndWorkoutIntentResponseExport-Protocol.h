@@ -5,7 +5,7 @@
 //
 
 @protocol INEndWorkoutIntentResponseExport
-- (long long)mporalSetting:completion: /* Error: Ran out of types for this method. */;
+- (long long)handleSetTemporalSetting:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;

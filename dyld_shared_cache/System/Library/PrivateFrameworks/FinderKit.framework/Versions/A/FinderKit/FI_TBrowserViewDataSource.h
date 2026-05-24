@@ -4,46 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TBVDSBulkConfigChangedState, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface FI_TBrowserViewDataSource
 {
     struct TReadWriteLock _lock;
-    NSObject<OS_dispatch_queue> *_workerSerialQueue;
-    struct unique_ptr<TBlockingQueue, std::default_delete<TBlockingQueue>> _callBackQueue;
-    struct atomic<bool> _isTornDown;
-    FI_TBVDSBulkConfigChangedState *_bulkConfigChangedState;
-    struct unordered_map<TFENode, TChildrenData, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, TChildrenData>>> _nodeToChildrenDataMap;
-    _Bool _checkChildrenForTags;
-    int _sortBy;
-    _Bool _isSortInIncreasingOrder;
-    _Bool _isSortFoldersFirst;
-    struct unordered_map<TFENode, TGroupModeData, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, TGroupModeData>>> _containerNodeToGroupDataMap;
-    int _groupBy;
-    struct function<std::shared_ptr<TFENodeComparator>(const TFENodeComparatorParameters &)> _comparatorFunc;
-    struct unordered_map<TFENode, FI_TBVDSBusyStateIncrementer *, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, FI_TBVDSBusyStateIncrementer *>>> _firstPopBusyStateIncrementers;
-    struct atomic<unsigned long> _busyStateRefCount;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    struct unordered_set<TFENode, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<TFENode>> _alwaysVisibleNodes;
-    _Bool _isSwitchingViewStyles;
-    struct unordered_map<TFENode, TOpenContainerOptions, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, TOpenContainerOptions>>> _pendingNodeToOpenContainerOptions;
-    struct unordered_map<TFENode, NodeNotificationOptions, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, NodeNotificationOptions>>> _pendingNodeToCloseContainerOptions;
-    _Bool _handlingPendingCallbacks;
 }
 
 - (void);
 - (void);
-- (const void *);
+- (const void *)h;
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -56,8 +33,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (long long);
 - (unsigned long long);
 - (_Bool);
@@ -67,13 +44,13 @@ __attribute__((visibility("hidden")))
 - (const struct TFENode *);
 - (const struct TFENode *);
 - (shared_ptr_a6c31538);
-- (void);
+- (void)C;
 - (void);
 - (struct TFENodeVector);
 - (struct TFENodeVector);
 - (void);
 - (struct TString);
-- (void);
+- (void)73;
 - (_Bool);
 - (void);
 - (void);
@@ -82,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (const struct TFENode *);
 - (_Bool);
@@ -92,7 +69,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (const void *);
 - (void);
-- (void);
+- (void)C@9;
 - (void);
 - (void);
 - (void);
@@ -107,7 +84,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (shared_ptr_a6c31538);
-- (void);
+- (void)@9;
 - (void);
 - (void);
 - (long long);
@@ -125,22 +102,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ùçÿàµg;
 
 // Remaining properties
-@property _Bool bulkConfigInProgress;
-@property _Bool checkChildrenForTags;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) int groupBy;
 @property(nonatomic) _Bool handlingPendingCallbacks; // @synthesize handlingPendingCallbacks=_handlingPendingCallbacks;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isBusy;
-@property(readonly) _Bool isSortFoldersFirst;
-@property(readonly) _Bool isSortInIncreasingOrder;
-@property(readonly) int sortBy;
-@property(readonly) Class superclass;
-@property(getter=isSwitchingViewStyles) _Bool switchingViewStyles;
 
 @end
 

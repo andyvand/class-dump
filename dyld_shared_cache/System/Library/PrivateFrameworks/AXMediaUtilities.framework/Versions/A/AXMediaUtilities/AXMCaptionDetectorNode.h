@@ -6,44 +6,34 @@
 
 #import <AXMediaUtilities/AXMEvaluationNode.h>
 
-@class AXImageCaptionModel, AXMLanguageTranslator, AXMSceneDetectorNode, NSURL;
+@class AXMSceneDetectorNode;
 
 @interface AXMCaptionDetectorNode : AXMEvaluationNode
 {
     struct os_unfair_lock_s _lock;
-    _Bool _needsCaptionHandlerRefresh;
-    struct CVNLPCaptionHandler *_captionHandlerRef;
-    NSURL *_overrideModelURL;
-    unsigned long long _overrideScaleMethod;
-    unsigned long long _genderStrategy;
-    _Bool _prefersPixelBufferImageInput;
-    AXImageCaptionModel *_effectiveCaptionModelInfo;
-    NSURL *_effectiveModelURL;
-    AXMLanguageTranslator *_languageTranslator;
-    AXMSceneDetectorNode *_sceneDetector;
 }
 
 + (struct CGSize);
-+ (_Bool);
++ (_Bool)getPersonParameter: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (void);
+- (void)lc\|;
 - (void);
-- (void);
-- (void);
+- (void)R\|;
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)[|;
+- (id)t[|;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)t;
 - (struct CVNLPCaptionHandler *);
 - (id);
 - (_Bool);
@@ -54,11 +44,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AXImageCaptionModel *effectiveCaptionModelInfo;
-@property(readonly, nonatomic) NSURL *effectiveModelURL;
-@property(nonatomic) unsigned long long genderStrategy;
-@property(retain, nonatomic) NSURL *overrideModelURL;
-@property(nonatomic) unsigned long long overrideScaleMethod;
 @property(nonatomic) __weak AXMSceneDetectorNode *sceneDetector; // @synthesize sceneDetector=_sceneDetector;
 
 @end

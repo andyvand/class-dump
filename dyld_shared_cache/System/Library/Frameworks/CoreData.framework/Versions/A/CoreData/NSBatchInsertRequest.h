@@ -6,20 +6,11 @@
 
 #import <CoreData/NSPersistentStoreRequest.h>
 
-@class NSArray, NSEntityDescription, NSString;
+@class NSString;
 
 @interface NSBatchInsertRequest : NSPersistentStoreRequest
 {
     id _entity;
-    NSArray *_objectsToInsert;
-    CDUnknownBlockType _insertDictionaryHandler;
-    CDUnknownBlockType _insertManagedObjectHandler;
-    struct _insertRequestFlags {
-        unsigned int resultType:2;
-        unsigned int entityIsName:1;
-        unsigned int secureOperation:1;
-        unsigned int _RESERVED:28;
-    } _flags;
 }
 
 + (id);
@@ -33,15 +24,15 @@
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)C;
 - (id);
-- (id);
+- (id)s;
 - (void);
 - (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (id);
@@ -52,12 +43,7 @@
 - (id)ion type);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType dictionaryHandler;
-@property(readonly) NSEntityDescription *entity;
 @property(readonly, copy) NSString *entityName;
-@property(copy) CDUnknownBlockType managedObjectHandler;
-@property(copy) NSArray *objectsToInsert; // @synthesize objectsToInsert=_objectsToInsert;
-@property unsigned long long resultType;
 
 @end
 

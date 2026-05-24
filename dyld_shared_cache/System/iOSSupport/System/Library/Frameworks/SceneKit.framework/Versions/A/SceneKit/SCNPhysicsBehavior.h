@@ -8,10 +8,10 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)n formMetadataJSController.showAutoFillButtonInControl(controlID, buttonType);;
 - (_Bool);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFASRSharedUserInfo, NSString;
+@class AFASRSharedUserInfo;
 
 @interface _AFASRSharedUserInfoMutation
 {
     AFASRSharedUserInfo *_base;
-    NSString *_sharedUserId;
-    NSString *_loggableSharedUserId;
-    NSString *_loggableUserIdHash;
-    NSString *_personaId;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasSharedUserId:1;
-        unsigned int hasLoggableSharedUserId:1;
-        unsigned int hasLoggableUserIdHash:1;
-        unsigned int hasPersonaId:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -31,17 +20,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)Identifier:(id)arg1;
-- (void)eFailureOfRequest:error:atTime: /* Error: Ran out of types for this method. */;
+- (id)setUniqueIdentifier:(id)arg1;
+- (void)_handleFailureOfRequest:error:atTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

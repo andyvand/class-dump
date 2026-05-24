@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIGraphicsRendererFormat.h>
 
-@class NSDictionary, NSMutableData, NSURL;
+@class NSDictionary, NSURL;
 
 @interface UIGraphicsPDFRendererFormat : UIGraphicsRendererFormat
 {
     NSDictionary *_documentInfo;
-    NSURL *_outputURL;
-    NSMutableData *_pdfData;
 }
 
 - (void);
@@ -21,14 +19,12 @@
 - (void);
 - (id)!@Gùñ_Ð1Â0@ù
 × ;
-- (id)ableViewOfKind:withIdentifier:forIndexPath:viewCategory: /* Error: Ran out of types for this method. */;
-- (id)nimatedPlaceholderSupport;
+- (id)_dequeueReusableViewOfKind:withIdentifier:forIndexPath:viewCategory: /* Error: Ran out of types for this method. */;
+- (id)_UITextViewAnimatedPlaceholderSupport;
 - (void)0òg;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *documentInfo; // @synthesize documentInfo=_documentInfo;
 @property(retain) NSURL *outputURL; // @synthesize outputURL=_outputURL;
-@property(retain) NSMutableData *pdfData; // @synthesize pdfData=_pdfData;
 
 @end
 

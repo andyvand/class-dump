@@ -9,7 +9,7 @@
 }
 
 + (double);
-+ (id);
++ (id)stValue;
 
 @end
 

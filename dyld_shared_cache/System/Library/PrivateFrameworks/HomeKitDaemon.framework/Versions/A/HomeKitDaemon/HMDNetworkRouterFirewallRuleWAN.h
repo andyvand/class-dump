@@ -6,17 +6,10 @@
 
 #import <HomeKitDaemon/HMDNetworkRouterFirewallRule.h>
 
-@class HMDNetworkRouterFirewallRuleWANSubject, NSArray;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleWAN : HMDNetworkRouterFirewallRule
 {
     unsigned char _transportProtocol;
-    unsigned short _portStart;
-    unsigned short _portEnd;
-    unsigned long long _purpose;
-    HMDNetworkRouterFirewallRuleWANSubject *_subject;
-    NSArray *_icmpTypes;
 }
 
 + (id);
@@ -33,9 +26,16 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (unsigned short);
-- (id);
+- (id)tener"16@"GEOLocation"24;
+- (unsigned short)0:8 /* Error: Ran out of types for this method. */;
+- (id)tType:(id)arg1 %{public}@, lastUpdated:(id)arg2 %{public}@, locallyUpdated:(_Bool)arg3 %{public}@
+	senderInfo:(unsigned long long)arg4 %{public}@, fromDisplayName:(unsigned char)arg5 %{public}@ [ %{private}@ ], fromIdentifier:(id)arg6 %{public}@ [ %{private}@ ], localName:(unsigned short)arg7 %{public}@ [ %{private}@ ], localContactIdentifier:(unsigned short)arg8 %{public}@ [ %{private}@ ]
+	arrived:(id)arg9 %{public}@, arrivedTimestamp:%{public}@, closed:%{public}@, closedTimestamp:%{public}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned short);
 - (unsigned long long);
@@ -43,16 +43,11 @@ __attribute__((visibility("hidden")))
 - (id)tion;
 - (unsigned char)%@ adding a constraint %@.;
 - (unsigned long long)fication %s;
-- (void)TLE;
+- (void)ROUTER_REMOVAL_CONFIRM_MANUAL_RECONFIGURATION_TITLE;
 - (id)oûþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *icmpTypes; // @synthesize icmpTypes=_icmpTypes;
-@property(readonly, nonatomic) unsigned short portEnd; // @synthesize portEnd=_portEnd;
-@property(readonly, nonatomic) unsigned short portStart; // @synthesize portStart=_portStart;
 @property(readonly, nonatomic) unsigned long long purpose; // @synthesize purpose=_purpose;
-@property(readonly, nonatomic) HMDNetworkRouterFirewallRuleWANSubject *subject; // @synthesize subject=_subject;
-@property(readonly, nonatomic) unsigned char transportProtocol; // @synthesize transportProtocol=_transportProtocol;
 
 @end
 

@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactPickerView, NSString;
 @protocol NSDraggingInfo;
 
 @interface CNContactPickerGroupDropHelper
 {
     id <NSDraggingInfo> _draggingInfo;
-    CNContactPickerView *_pickerView;
-    NSString *_selectedEntryIdentifier;
-    NSString *_destinationEntryIdentifier;
 }
 
 - (unsigned long long);
-- (id);
+- (id)5(;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)lete;
+- (void)observerDidComplete;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

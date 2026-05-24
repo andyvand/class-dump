@@ -7,8 +7,6 @@
 @interface AppleMediaServices.StoreReviewGatingLedger
 {
     id $defaultActor;
-    id amsUserDefaults;
-    id $__lazy_storage_$_currentBundleId;
 }
 
 @end

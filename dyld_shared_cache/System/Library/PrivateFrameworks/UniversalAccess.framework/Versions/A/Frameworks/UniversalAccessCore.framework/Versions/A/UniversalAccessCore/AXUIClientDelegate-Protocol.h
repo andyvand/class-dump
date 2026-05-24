@@ -5,5 +5,9 @@
 //
 
 @protocol AXUIClientDelegate
+
+@optional
+- (void)T;
+- (void);
 @end
 

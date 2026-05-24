@@ -5,6 +5,9 @@
 //
 
 @protocol AFSpeechParametersMutating
+- (void).;
+- (void)baggageClaim;
+- (void)ingResponseIdentifier %@ incomingResponseIdentifier %@ expectsPeerResponse %d);
 - (void);
 - (void)-;
 - (void)%@ data= %@;

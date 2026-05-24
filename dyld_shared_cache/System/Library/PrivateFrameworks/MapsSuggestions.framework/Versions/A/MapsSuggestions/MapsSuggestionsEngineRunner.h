@@ -4,80 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutomobileOptions, MapsSuggestionsEngine, MapsSuggestionsEngineBuilder, MapsSuggestionsObservers, NSArray, NSDate, NSMutableArray, NSMutableSet, NSString;
-@protocol MapsSuggestionsTimer;
+@class MapsSuggestionsEngine;
 
 @interface MapsSuggestionsEngineRunner
 {
     struct Queue _queue;
-    MapsSuggestionsEngine *_engine;
-    struct _Config {
-        NSString *name;
-        MapsSuggestionsEngineBuilder *engineBuilder;
-        MapsSuggestionsObservers *observers;
-        GEOAutomobileOptions *automobileOptions;
-        double minRunTime;
-        double maxRunTime;
-        double minSleepTime;
-        double maxSleepTime;
-        double leewayRunTime;
-        double leewaySleepTime;
-        NSMutableArray *triggers;
-        NSMutableArray *conditions;
-        NSMutableSet *filters;
-        unsigned long long maxEntries;
-        _Bool nilledWhenAsleep;
-    } _config;
-    struct _State {
-        NSDate *minSilenceDate;
-        NSDate *earliestRunDate;
-        NSString *firedTriggerName;
-        NSString *failedConditionName;
-        id <MapsSuggestionsTimer> stopRunTimer;
-        id <MapsSuggestionsTimer> wakeUpTimer;
-        NSArray *entries;
-    } _state;
-    id <MapsSuggestionsTimer> _wakeUpTimer;
 }
 
 - (void);
-- (void);
+- (void)=;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void)onsMapsSyncConnector>";
-- (void)rtualGarageExpirationOverflowInSecondsKey;
+- (void)MapsSuggestionsVirtualGarageExpirationOverflowInSecondsKey;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) __weak MapsSuggestionsEngine *engine;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
-@property(readonly, nonatomic) id <MapsSuggestionsTimer> wakeUpTimer; // @synthesize wakeUpTimer=_wakeUpTimer;
 
 @end
 

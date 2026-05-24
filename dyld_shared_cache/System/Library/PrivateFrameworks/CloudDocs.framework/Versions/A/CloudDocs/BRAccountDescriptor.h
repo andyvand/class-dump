@@ -9,11 +9,6 @@
 @interface BRAccountDescriptor
 {
     NSString *_personaIdentifier;
-    _Bool _isLoggedInToCloudDocs;
-    _Bool _isDataSeparated;
-    NSString *_accountIdentifier;
-    NSString *_organizationName;
-    NSString *_domainIdentifier;
 }
 
 + (id);
@@ -25,12 +20,12 @@
 + (void);
 + (id);
 + (_Bool);
-+ (id);
++ (id)lf/9Q;
 + (id);
 + (void);
 + (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -43,10 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(readonly, nonatomic) _Bool isDataSeparated; // @synthesize isDataSeparated=_isDataSeparated;
-@property(readonly, nonatomic) _Bool isLoggedInToCloudDocs; // @synthesize isLoggedInToCloudDocs=_isLoggedInToCloudDocs;
-@property(readonly, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
 
 @end
 

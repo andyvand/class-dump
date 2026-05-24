@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CATContext
 {
     _Bool _isMultiUserEnabled;
-    _Bool _requiresUserGrounding;
-    unsigned int _randomSeed;
-    NSString *_siriLocale;
-    NSString *_siriVoiceGender;
-    long long _currentTime;
-    NSDictionary *_userSettings;
 }
 
 - (void);
@@ -25,25 +19,19 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)HMDBackingStoreSaveToPersistentStore;
+- (id)m the current account:%@ /* Error: Ran out of types for this method. */;
+- (void)}@Notifying delegate that WAC was cancelled;
 - (void);
 - (unsigned int);
 - (id);
 - (id);
-- (void);
+- (void)2;
 - (long long);
 - (void)Ð½Ð¸;
 
 // Remaining properties
-@property long long currentTime; // @synthesize currentTime=_currentTime;
-@property _Bool isMultiUserEnabled; // @synthesize isMultiUserEnabled=_isMultiUserEnabled;
-@property unsigned int randomSeed; // @synthesize randomSeed=_randomSeed;
-@property _Bool requiresUserGrounding; // @synthesize requiresUserGrounding=_requiresUserGrounding;
 @property(retain, nonatomic) NSString *siriLocale; // @synthesize siriLocale=_siriLocale;
-@property(retain, nonatomic) NSString *siriVoiceGender; // @synthesize siriVoiceGender=_siriVoiceGender;
-@property(retain, nonatomic) NSDictionary *userSettings; // @synthesize userSettings=_userSettings;
 
 @end
 

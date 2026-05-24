@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface EWSAttachmentResponseShapeType
 {
     _Bool _IncludeMimeContent;
-    long long _BodyType;
-    NSArray *_AdditionalProperties;
 }
 
-+ (id);
++ (id)?;
 - (void);
 - (void);
 - (long long);
@@ -23,16 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *AdditionalProperties; // @synthesize AdditionalProperties=_AdditionalProperties;
-@property(nonatomic) long long BodyType; // @synthesize BodyType=_BodyType;
 @property(nonatomic) _Bool IncludeMimeContent; // @synthesize IncludeMimeContent=_IncludeMimeContent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

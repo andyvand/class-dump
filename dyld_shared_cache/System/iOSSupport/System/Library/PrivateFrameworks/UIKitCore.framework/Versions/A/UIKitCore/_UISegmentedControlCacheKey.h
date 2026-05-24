@@ -8,18 +8,14 @@ __attribute__((visibility("hidden")))
 @interface _UISegmentedControlCacheKey
 {
     struct CGSize _size;
-    double _cornerRadius;
-    double _scale;
-    unsigned long long _state;
-    struct CGColor *_primaryColor;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool)}{CGSize=dd}}24@0:(id)arg1 8@"UITextPosition"16;
-- (_Bool)zeGuideForOrientation:(id)arg1 showsAssistantBar:animated: /* Error: Ran out of types for this method. */;
-- (id)ge;
+- (_Bool)forceResizeGuideForOrientation:(id)arg1 showsAssistantBar:animated: /* Error: Ran out of types for this method. */;
+- (id)_accessibility_navigationBarContentsDidChange;
 - (id)ag;
 
 @end

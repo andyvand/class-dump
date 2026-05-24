@@ -19,9 +19,9 @@
 - (void);
 - (void);
 - (id);
+- (void)conformsToProtocol:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)bufferedAudioEngine_handleTimedInfoManagerNotification_block_invoke;
 - (_Bool);
 - (_Bool);
 - (void);

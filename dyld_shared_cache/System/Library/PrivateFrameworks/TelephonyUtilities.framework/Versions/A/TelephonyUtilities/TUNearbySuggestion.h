@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, TUConversationActivity, TUNearbyDeviceHandle;
+@class NSUUID;
 
 @interface TUNearbySuggestion
 {
     NSUUID *_identifier;
-    TUNearbyDeviceHandle *_deviceHandle;
-    TUConversationActivity *_activity;
-    long long _type;
 }
 
-+ (_Bool);
++ (_Bool)w;
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
-- (id);
+- (id)	;
 - (unsigned long long);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
@@ -30,10 +27,7 @@
 - (void)supportsEmergencyWiFiCalling;
 
 // Remaining properties
-@property(readonly, nonatomic) TUConversationActivity *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic) TUNearbyDeviceHandle *deviceHandle; // @synthesize deviceHandle=_deviceHandle;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

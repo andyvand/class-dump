@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, UISplitViewController;
+@class UISplitViewController;
 
 __attribute__((visibility("hidden")))
 @interface UISplitViewControllerPartitionAdapter
 {
     double _sidebarDividerPosition;
-    double _animatingPosition;
-    UISplitViewController *_splitViewController;
-    long long _splitViewColumn;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)t(s) for %ld contactID(s) for chat with GUID:(id)arg1 %s;
+- (void)imeout, using the default 10 seconds;
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -34,54 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) long long depthOfView;
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGRect dividerCursorRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(readonly) double dividerWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isCollapsed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool isValidConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) double logicalDividerPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double maximumDividerPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double minimumDividerPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly, getter=isOverlaidAsSidebar) _Bool overlaidAsSidebar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisOverlaidAsSidebar
-
-@property(readonly) NSObject *representedView;
-@property struct NSEdgeInsets sidebarAdditionalSafeAreaInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?
-
-@property(readonly) double sidebarDividerPosition;
-@property(readonly, nonatomic) long long splitViewColumn; // @synthesize splitViewColumn=_splitViewColumn;
 @property(readonly, nonatomic) __weak UISplitViewController *splitViewController; // @synthesize splitViewController=_splitViewController;
-@property(readonly) Class superclass;
 
 @end
 

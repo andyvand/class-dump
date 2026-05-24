@@ -13,9 +13,9 @@
 + (id);
 + (id);
 + (id);
-+ (int);
++ (int)A;
 - (_Bool);
-- (id);
+- (id)k;
 
 @end
 

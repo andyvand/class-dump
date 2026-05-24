@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, PXFlexMusicArtworkAsset, PXFlexMusicDownloader;
-@protocol OS_dispatch_queue;
+@class PXFlexMusicArtworkAsset;
 
 @interface _PXFlexMusicImageLoader
 {
     PXFlexMusicArtworkAsset *_artworkAsset;
-    PXFlexMusicDownloader *_downloader;
-    NSObject<OS_dispatch_queue> *_sharedImageLoadingQueue;
-    CDUnknownBlockType _completionHandler;
-    struct CGImage *_image;
-    NSError *_error;
-    struct CGSize _maxSize;
 }
 
 - (id);
@@ -25,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (struct CGImage *);
 - (CDUnknownBlockType);
 - (void)wrapped player because it's status is .failed. Error:(CDUnknownBlockType)arg1 %{public}@;
@@ -34,12 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXFlexMusicArtworkAsset *artworkAsset; // @synthesize artworkAsset=_artworkAsset;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) PXFlexMusicDownloader *downloader; // @synthesize downloader=_downloader;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) struct CGImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sharedImageLoadingQueue; // @synthesize sharedImageLoadingQueue=_sharedImageLoadingQueue;
 
 @end
 

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NSXPCListenerDelegate;
 
 @interface _PASXPCListener
 {
     id <NSXPCListenerDelegate> _delegate;
-    NSString *_serviceName;
-    NSString *_displayName;
 }
 
-- (id);
+- (id)Message;
 - (id);
 - (id);
 - (id);
@@ -23,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSXPCListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

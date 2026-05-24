@@ -9,21 +9,19 @@
 @interface AppKit._MultiShadowLayer
 {
     id shadows;
-    id shadowLayers;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (double)urces/TypographyPanel.bundle;
-- (void)ctor;
+- (void)NSBridgedAnimationVector;
 - (void)K9duE;
 - (void)1êF;
 - (id)ðXI;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *cornerCurve;
-@property(nonatomic) double cornerRadius;
 
 @end
 

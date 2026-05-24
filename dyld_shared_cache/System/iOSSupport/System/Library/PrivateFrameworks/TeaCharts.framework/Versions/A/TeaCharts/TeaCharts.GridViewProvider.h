@@ -7,7 +7,6 @@
 @interface TeaCharts.GridViewProvider
 {
     id renderer;
-    id styler;
 }
 
 @end

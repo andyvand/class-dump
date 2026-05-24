@@ -7,10 +7,6 @@
 @interface PodcastsUI.DownloadRemovalObserver
 {
     id library;
-    id userDefaults;
-    id deletionKey;
-    id contextProvider;
-    id observerTask;
 }
 
 - (void);

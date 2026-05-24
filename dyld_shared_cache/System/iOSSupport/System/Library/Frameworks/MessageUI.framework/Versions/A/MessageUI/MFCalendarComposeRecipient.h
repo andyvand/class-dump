@@ -11,7 +11,6 @@
 @interface MFCalendarComposeRecipient : MFComposeRecipient
 {
     NSString *_calAttendeeName;
-    id _participant;
 }
 
 - (void);
@@ -19,7 +18,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)bDmU;
 - (void);
 - (id);
 

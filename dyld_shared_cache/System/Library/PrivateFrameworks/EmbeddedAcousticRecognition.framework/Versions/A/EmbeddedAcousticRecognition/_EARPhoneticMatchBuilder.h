@@ -7,7 +7,6 @@
 @interface _EARPhoneticMatchBuilder
 {
     shared_ptr_dcd14800 _tokenizer;
-    shared_ptr_67f74a86 _pmBuilder;
 }
 
 + (_Bool);
@@ -18,20 +17,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)`
+;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (shared_ptr_67f74a86);
+- (shared_ptr_0aa56158);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -40,7 +40,6 @@
 - (shared_ptr_dcd14800)tringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_S9_RKNS1_10shared_ptrIKNS_10NNLmConfigEEEE3$_0;
 
 // Remaining properties
-@property(readonly, nonatomic) shared_ptr_67f74a86 pmBuilder; // @synthesize pmBuilder=_pmBuilder;
 @property(readonly, nonatomic) shared_ptr_dcd14800 tokenizer; // @synthesize tokenizer=_tokenizer;
 
 @end

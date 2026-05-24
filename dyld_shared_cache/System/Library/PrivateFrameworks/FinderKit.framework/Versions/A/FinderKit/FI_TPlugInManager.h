@@ -12,24 +12,24 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (id);
-+ (void);
++ (void)a;
 + (void);
 + (_Bool);
 + (void);
 + (void);
 + (id);
++ (id);
 + (id);
-+ (id);
 + (void);
 + (void);
-+ (void);
++ (void)b;
 + (void);
 + (double);
-+ (struct TString);
++ (struct TString)5;
 + (id);
 + (_Bool);
-+ (pair_a86e8956);
-+ (void);
++ (pair_a86e8956)!;
++ (void)qA;
 + (void);
 
 @end

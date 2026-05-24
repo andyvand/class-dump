@@ -13,9 +13,9 @@
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)setSpecialization: /* Error: Ran out of types for this method. */;
+- (id)setShouldHighlightIndependently: /* Error: Ran out of types for this method. */;
+- (id)setRemoteObjectInterface: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

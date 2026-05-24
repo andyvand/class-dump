@@ -15,7 +15,7 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)@"INIntent",R,N;
 
 @end
 

@@ -10,14 +10,10 @@ __attribute__((visibility("hidden")))
 @interface SECSFAActionTapToRadar
 {
     NSString *_alert;
-    NSString *_componentID;
-    NSString *_componentName;
-    NSString *_componentVersion;
-    NSString *_radarDescription;
 }
 
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (_Bool);
@@ -35,24 +31,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)__objc_protorefs__DATA_CONST;
 - (id);
 - (_Bool);
 - (id);
 - (void)Ä	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *alert; // @synthesize alert=_alert;
-@property(retain, nonatomic) NSString *componentID; // @synthesize componentID=_componentID;
-@property(retain, nonatomic) NSString *componentName; // @synthesize componentName=_componentName;
-@property(retain, nonatomic) NSString *componentVersion; // @synthesize componentVersion=_componentVersion;
 @property(readonly, nonatomic) _Bool hasAlert;
-@property(readonly, nonatomic) _Bool hasComponentID;
-@property(readonly, nonatomic) _Bool hasComponentName;
-@property(readonly, nonatomic) _Bool hasComponentVersion;
-@property(readonly, nonatomic) _Bool hasRadarDescription;
-@property(retain, nonatomic) NSString *radarDescription; // @synthesize radarDescription=_radarDescription;
 
 @end
 

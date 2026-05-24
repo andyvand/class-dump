@@ -12,31 +12,22 @@ __attribute__((visibility("hidden")))
 @interface CNCDContainersInAccountWithIdentifierPredicate : CNPredicate
 {
     _Bool _includeDisabledContainers;
-    NSString *_accountIdentifier;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
+- (id)T;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)28BambiCallParticipantDelegate;
 - (id);
 - (void);
 - (id);
-- (void)ityForContact:withReply: /* Error: Ran out of types for this method. */;
+- (void)userActivityForContact:withReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeDisabledContainers; // @synthesize includeDisabledContainers=_includeDisabledContainers;
-@property(readonly) Class superclass;
 
 @end
 

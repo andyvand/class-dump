@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSSet, NSString, TDSchemaDefinition;
+@class NSImage, NSString;
 
 @interface TDSchemaPartDefinition
 {
     NSImage *previewImage;
-    NSArray *renditions;
-    NSArray *renditionGroups;
-    unsigned long long partFeatures;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (const CDStruct_26b2aa83 *);
+- (const CDStruct_a8ccdd7f *);
 - (id);
 - (long long);
 - (id);
@@ -35,14 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TDSchemaDefinition *element; // @dynamic element;
 @property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) unsigned long long partFeatures; // @synthesize partFeatures;
-@property(retain, nonatomic) NSImage *previewImage; // @synthesize previewImage;
-@property(retain, nonatomic) NSSet *productions; // @dynamic productions;
-@property(retain, nonatomic) NSArray *renditionGroups; // @synthesize renditionGroups;
-@property(copy, nonatomic) NSArray *renditions; // @synthesize renditions;
-@property(retain, nonatomic) NSString *widgetID; // @dynamic widgetID;
 
 @end
 

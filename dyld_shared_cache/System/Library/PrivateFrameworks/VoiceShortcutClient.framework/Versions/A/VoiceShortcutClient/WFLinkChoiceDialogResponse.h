@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)3|;
 - (long long);
 - (id);
 - (id);

@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDTimeEvent.h>
 
-@class NSNumber, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDDurationEvent : HMDTimeEvent
 {
     struct os_unfair_lock_s _lock;
-    NSNumber *_duration;
 }
 
 + (_Bool)4Ü;
@@ -26,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)remoteVideoClient:(unsigned long long)arg1 remoteVideoAttributesDidChange: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -36,19 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSNumber *duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
 
 @end
 

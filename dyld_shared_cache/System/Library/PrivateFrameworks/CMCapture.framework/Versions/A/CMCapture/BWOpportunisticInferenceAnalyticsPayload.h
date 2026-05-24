@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWOpportunisticInferenceAnalyticsPayload
 {
     unsigned int _facesProcessedCount;
-    long long _totalInferenceExecutionTime;
-    long long _inferenceDeadlineOverdue;
 }
 
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (long long);
@@ -23,18 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)E;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int facesProcessedCount; // @synthesize facesProcessedCount=_facesProcessedCount;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long inferenceDeadlineOverdue; // @synthesize inferenceDeadlineOverdue=_inferenceDeadlineOverdue;
-@property(readonly) Class superclass;
 @property(nonatomic) long long totalInferenceExecutionTime; // @synthesize totalInferenceExecutionTime=_totalInferenceExecutionTime;
 
 @end

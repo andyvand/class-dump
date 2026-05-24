@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OCDDelayedNode
 {
     id <OCDDelayedNodeContext> mDelayedContext;
-    _Bool mLoaded;
 }
 
 - (void);

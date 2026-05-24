@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBSportsDetail
+- (NSData *)visitPredicate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *requested_entity_type;
 @end
 

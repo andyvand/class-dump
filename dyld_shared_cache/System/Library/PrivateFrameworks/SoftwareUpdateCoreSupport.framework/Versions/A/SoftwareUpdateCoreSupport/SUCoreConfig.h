@@ -10,21 +10,19 @@
 @interface SUCoreConfig
 {
     NSString *_projectName;
-    NSString *_defaultsPath;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
-- (void);
+- (void)outlineView:(id)arg1 willDisplayOutlineCell:(id)arg2 forTableColumn:item: /* Error: Ran out of types for this method. */;
+- (id)outlineView:willDisplayOutlineCell:forTableColumn:item: /* Error: Ran out of types for this method. */;
+- (void)outlineView:(id)arg1 userCanChangeVisibilityOfTableColumn:(id)arg2;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)outlineView:(id)arg1 acceptDrop:item:childIndex: /* Error: Ran out of types for this method. */;
+- (id)outlineTableColumn;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)orderFrontFontPanel: /* Error: Ran out of types for this method. */;
+- (void)orderFront: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(readonly, retain, nonatomic) NSString *defaultsPath; // @synthesize defaultsPath=_defaultsPath;
-@property(readonly, retain, nonatomic) NSString *projectName; // @synthesize projectName=_projectName;
 
 @end
 

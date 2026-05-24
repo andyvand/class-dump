@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMTSAuthorizationServer, HMDMTSDeviceSetupServer, HMDMTSPairingServer, MTSXPCServer;
+@class HMDMTSPairingServer, MTSXPCServer;
 
 __attribute__((visibility("hidden")))
 @interface HMDMTSXPCServer
 {
     HMDMTSPairingServer *_pairingServer;
-    HMDMTSDeviceSetupServer *_deviceSetupServer;
-    HMDMTSAuthorizationServer *_authorizationServer;
-    MTSXPCServer *_xpcServer;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_msp_testTripClosedTripInPast;
+- (id);
+- (id):(id)arg1 ;
 - (id);
 - (id);
 - (void);
-- (void)tionEnabledAnyHome;
+- (void)isResidentSelectionEnabledAnyHome;
 
 // Remaining properties
-@property(readonly) HMDMTSAuthorizationServer *authorizationServer; // @synthesize authorizationServer=_authorizationServer;
-@property(readonly) HMDMTSDeviceSetupServer *deviceSetupServer; // @synthesize deviceSetupServer=_deviceSetupServer;
-@property(readonly) HMDMTSPairingServer *pairingServer; // @synthesize pairingServer=_pairingServer;
 @property(readonly) MTSXPCServer *xpcServer; // @synthesize xpcServer=_xpcServer;
 
 @end

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SiriCoreSQLiteQueryOrder
 {
     long long _mode;
-    NSArray *_columnNames;
 }
 
-- (id);
+- (id)NSUbiquitousKeyValueStoreQuotaViolationChange;
 - (long long);
-- (id);
+- (id)o;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *columnNames; // @synthesize columnNames=_columnNames;
 @property(readonly, nonatomic) long long mode; // @synthesize mode=_mode;
 
 @end

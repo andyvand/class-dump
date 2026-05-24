@@ -5,5 +5,7 @@
 //
 
 @protocol PKMathContextMenuControllerDelegate
+- (void);
+- (void);
 @end
 

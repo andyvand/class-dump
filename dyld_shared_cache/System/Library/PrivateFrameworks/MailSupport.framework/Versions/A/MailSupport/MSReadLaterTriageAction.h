@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)etry printing;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *readLaterDate; // @synthesize readLaterDate=_readLaterDate;

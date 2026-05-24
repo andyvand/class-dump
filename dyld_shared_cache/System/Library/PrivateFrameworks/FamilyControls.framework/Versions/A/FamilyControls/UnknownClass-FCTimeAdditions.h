@@ -5,12 +5,12 @@
 //
 
 @interface UnknownClass (FCTimeAdditions)
+- (id)sitTransaction:unread: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithTransaction:paymentApplication: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithTransaction:passUniqueID:criteriaIdentifier:context:type: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithTransaction:passUniqueID:criteriaIdentifier:context:type: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithTransaction:passUniqueID:context:criteriaIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)TRANSACTION_ADJUSTMENT_SUBTYPE_FEE_REVERSAL;
 @end
 

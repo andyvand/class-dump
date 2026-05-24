@@ -13,9 +13,9 @@
     MRVirtualTouchDeviceDescriptor *_deviceDescriptor;
 }
 
+- (id)_;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)me %@ | Account qualifiedUserName %@ <EndAccountDetails>;
 - (void)liteModeMessageProtobuf",&,N,V_setHiliteModeMessage;
 
 // Remaining properties

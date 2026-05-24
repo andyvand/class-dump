@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFActivity, HMFTimer, NSArray, NSDate, NSError, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue, OS_voucher;
+@class NSUUID;
 
 @interface HMFOperation
 {
     struct os_unfair_lock_s _lock;
-    _Bool _executing;
-    _Bool _finished;
-    NSError *_error;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_voucher> *_voucher;
-    _Bool _qosWasSet;
-    HMFActivity *_activity;
-    NSUUID *_identifier;
-    HMFTimer *_timer;
 }
 
 + (id);
@@ -28,21 +18,21 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)spatialTemporalScaleWithPreviousFrame:currentFrame:outputBuffers:frameCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
+- (id)ionAdditions) MI_writeAtomicallyToURL:withMode:owner:group:protectionClass:withBarrier:error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (void);
@@ -53,29 +43,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain) HMFActivity *activity; // @synthesize activity=_activity;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSError *error;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSDate *timeoutDate;
-@property(readonly, nonatomic) HMFTimer *timer; // @synthesize timer=_timer;
-@property(readonly) NSObject<OS_dispatch_queue> *underlyingQueue;
 
 @end
 

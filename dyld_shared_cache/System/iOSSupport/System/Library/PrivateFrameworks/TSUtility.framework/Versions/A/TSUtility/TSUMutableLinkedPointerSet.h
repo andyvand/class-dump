@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSULinkedPointerSetEntry;
-
 @interface TSUMutableLinkedPointerSet
 {
     struct __CFDictionary *mDictionary;
-    TSULinkedPointerSetEntry *mHead;
-    TSULinkedPointerSetEntry *mTail;
 }
 
 - (id);
@@ -25,10 +21,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (id);
-- (unsigned long long)_propertyListWithContentsOfURL:(CDStruct_70511ce9 *)arg1 options:(id *)arg2 error:(unsigned long long)arg3;
+- (unsigned long long)tsu_propertyListWithContentsOfURL:(CDStruct_70511ce9 *)arg1 options:(id *)arg2 error:(unsigned long long)arg3;
 
 @end
 

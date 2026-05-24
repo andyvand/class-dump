@@ -7,11 +7,6 @@
 @interface SoundAnalysis.SNFeaturePrintExtractor
 {
     id featureExtractor;
-    id outputFeatureName;
-    id featurePrintType;
-    id overlapFactor;
-    id windowDuration;
-    id resultsToDiscardCount;
 }
 
 @end

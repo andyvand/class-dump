@@ -8,8 +8,6 @@
 - (id)uld provide concrete implemention;
 
 // Remaining properties
-@property(readonly) id cacheKey;
 @property(readonly) long long masterToRasterOrientation;
-@property(readonly) long long rasterToDisplayOrientation;
 @end
 

@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBDomainEngagementScore
 {
     int _domain;
-    int _scoreConfidence;
-    float _score;
-    float _iFunScore;
 }
 
 - (void);
 - (void);
 - (float);
-- (int);
+- (int)Rh";
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)E;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)libraryReadyForAnalysisDate;
+- (id)to add Suggestion:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (float);
@@ -33,18 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float iFunScore; // @synthesize iFunScore=_iFunScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float score; // @synthesize score=_score;
-@property(nonatomic) int scoreConfidence; // @synthesize scoreConfidence=_scoreConfidence;
-@property(readonly) Class superclass;
 
 @end
 

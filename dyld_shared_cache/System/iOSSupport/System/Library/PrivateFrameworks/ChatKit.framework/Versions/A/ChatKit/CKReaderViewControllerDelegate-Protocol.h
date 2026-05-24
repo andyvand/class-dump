@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKReaderViewController;
+
 @protocol CKReaderViewControllerDelegate
+
+@optional
+- (void)performBlockInPersonaContext:(CKReaderViewController *)arg1;
 @end
 

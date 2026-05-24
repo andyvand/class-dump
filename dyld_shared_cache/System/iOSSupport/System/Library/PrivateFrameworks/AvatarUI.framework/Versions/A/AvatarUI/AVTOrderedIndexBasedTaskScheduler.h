@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface AVTOrderedIndexBasedTaskScheduler
 {
     NSMutableDictionary *_scheduledTasks;
-    NSMutableArray *_scheduledTasksOrder;
-    NSMutableDictionary *_readyTasks;
-    NSObject<OS_dispatch_queue> *_stateLock;
 }
 
 + (id);
@@ -30,17 +26,7 @@
 - (id)`öÿRªø¤;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *readyTasks; // @synthesize readyTasks=_readyTasks;
 @property(readonly, nonatomic) NSMutableDictionary *scheduledTasks; // @synthesize scheduledTasks=_scheduledTasks;
-@property(readonly, nonatomic) NSMutableArray *scheduledTasksOrder; // @synthesize scheduledTasksOrder=_scheduledTasksOrder;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateLock; // @synthesize stateLock=_stateLock;
-@property(readonly) Class superclass;
 
 @end
 

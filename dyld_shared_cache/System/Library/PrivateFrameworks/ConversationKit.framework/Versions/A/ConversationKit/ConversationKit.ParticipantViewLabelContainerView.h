@@ -9,20 +9,16 @@
 @interface ConversationKit.ParticipantViewLabelContainerView
 {
     ConversationKit.PlatformLabel *label;
-    id centerAlignedConstraints;
-    id leadingAlignedConstraints;
-    id isCentered;
 }
 
 - (id);
 - (id);
-- (id);
-- (struct CGSize);
+- (id)i;
+- (struct CGSize)featureValueWithCGImage:pixelsWide:pixelsHigh:pixelFormatType:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 @property(nonatomic, readonly) ConversationKit.PlatformLabel *label; // @synthesize label;
 
 @end

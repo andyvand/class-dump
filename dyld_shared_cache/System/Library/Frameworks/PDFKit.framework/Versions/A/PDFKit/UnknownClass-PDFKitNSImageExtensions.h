@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (PDFKitNSImageExtensions)
-- (struct CGImage *);
+- (struct CGImage *),;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *CGImage;

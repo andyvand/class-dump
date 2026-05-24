@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (id);
-+ (int);
++ (int);
 + (void);
 + (id);
-+ (id);
++ (id)9;
 + (id);
 + (id);
 + (void);

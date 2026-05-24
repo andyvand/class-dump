@@ -4,58 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface NTPBArticleSessionResume
 {
     long long _publisherArticleVersion;
-    NSString *_articleId;
-    int _articleType;
-    NSData *_articleViewingSessionId;
-    NSString *_sourceChannelId;
-    CDStruct_3186b938 _has;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)canToggleBackToUserFocusState;
+- (void)assetCollectionsById;
+- (void)addPagesForTableWithConfiguration:(_Bool)arg1 columnsConfiguration:rowsConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateAnimations;
+- (_Bool)_stateQueue_videoOutputReadyLock;
+- (id)_shouldSkipDeleteConfirmation;
+- (int)_shouldSimulateSharedAlbumsUnavailable;
+- (void)_selectionDataSource;
+- (int)_scrubberRegularAssetPadding;
+- (id)nextEventMatchingMask:untilDate:inMode:dequeue: /* Error: Ran out of types for this method. */;
+- (void)mporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsEntry+GEOComposedWaypoint.m;
+- (id)(;
 - (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (void);
-- (int);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)FCAssetStore sizeOfFileForKey:] /* Error: Ran out of types for this method. */;
+- (void)ot a retry-later error;
 - (_Bool);
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (void)lor;
+- (void)hasLayeredCoverPrimaryColor;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(nonatomic) int articleType; // @synthesize articleType=_articleType;
-@property(retain, nonatomic) NSData *articleViewingSessionId; // @synthesize articleViewingSessionId=_articleViewingSessionId;
 @property(readonly, nonatomic) _Bool hasArticleId;
-@property(nonatomic) _Bool hasArticleType;
-@property(readonly, nonatomic) _Bool hasArticleViewingSessionId;
-@property(nonatomic) _Bool hasPublisherArticleVersion;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(nonatomic) long long publisherArticleVersion; // @synthesize publisherArticleVersion=_publisherArticleVersion;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

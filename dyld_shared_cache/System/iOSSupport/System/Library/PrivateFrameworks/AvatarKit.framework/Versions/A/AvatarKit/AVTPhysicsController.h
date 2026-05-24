@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VFXPhysicsWorld;
+@class VFXPhysicsWorld;
 @protocol AVTPhysicsControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVTPhysicsController
 {
     VFXPhysicsWorld *_physicsWorld;
-    NSArray *_physicsRigs;
-    _Bool _physicsBehaviorsAreInstalledInPhysicsWorld;
-    unsigned int _frameCount;
-    struct os_unfair_lock_s _lock;
-    _Bool _setupDone;
-    _Bool _hasPhysicsStateOverride;
-    id <AVTPhysicsControllerDelegate> _delegate;
 }
 
 - (void);

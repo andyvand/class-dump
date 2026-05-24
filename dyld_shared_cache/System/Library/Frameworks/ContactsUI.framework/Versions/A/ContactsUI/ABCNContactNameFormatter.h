@@ -16,16 +16,16 @@
 - (id);
 - (id);
 - (id);
+- (id)v;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)H;
+- (id)8;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id)àÿÿÎ³ÿÿµÿÿ¨Qÿÿ;
 
 // Remaining properties

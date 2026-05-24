@@ -7,12 +7,12 @@
 @class NSArray;
 
 @protocol NUIGridDimension
+- (double);
+- (void)jects;
+- (NSArray *);
+- (void)C;
 
 // Remaining properties
-@property(nonatomic) long long alignment;
 @property(copy, nonatomic) NSArray *arrangedSubviews;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(nonatomic) double length;
-@property(nonatomic) double spacingAfter;
 @end
 

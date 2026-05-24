@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebCoreScreenCaptureKitHelper
 {
@@ -15,9 +13,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (void)-supplùðÑjâíPuréð-lùðð`®oýé`èÿI¢³âï6.êðzä-izvesôð½²	)dµêìíeta®p\hàúatåðëØ®ió\e®`S àrºîpkàU¡ëíè½-matåð­ðs®osoèïø1CO	A@v@z:@®@MAÜ@É@L7-@@P@T@,@@@ÀMzøo¦Ëá6Õù`*@ð·Cxøî®nïä	ÿøBÍ-	
 hhc
 ÂäPßø$3!1*""(6@DjùdÐ©a!qÃnúðìhoïl5cd¸+ÀøðÏévideïï-Q2°ðÐE®í4÷pnàïaðï¦Hön@°âUNiäpàbeï
@@ -28,13 +26,7 @@ mâ xøo /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

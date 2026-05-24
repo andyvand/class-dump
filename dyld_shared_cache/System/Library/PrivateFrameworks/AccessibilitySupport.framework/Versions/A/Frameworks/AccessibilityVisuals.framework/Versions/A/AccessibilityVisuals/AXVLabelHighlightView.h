@@ -6,7 +6,7 @@
 
 #import <AccessibilityVisuals/AXVHighlightView.h>
 
-@class NSColor, NSString, NSTextField;
+@class NSTextField;
 
 @interface AXVLabelHighlightView : AXVHighlightView
 {
@@ -24,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSTextField *_labelTextField; // @synthesize _labelTextField=__labelTextField;
-@property(retain, nonatomic) NSString *label;
-@property(retain, nonatomic) NSColor *labelColor;
 
 @end
 

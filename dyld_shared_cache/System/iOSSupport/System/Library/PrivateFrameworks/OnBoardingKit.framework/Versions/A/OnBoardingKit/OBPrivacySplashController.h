@@ -6,34 +6,18 @@
 
 #import <OnBoardingKit/OBWelcomeController.h>
 
-@class NSString, OBPrivacyFlow, UIButton, UIColor, UILabel;
+@class OBPrivacyFlow;
 
 @interface OBPrivacySplashController : OBWelcomeController
 {
     _Bool _underlineLinks;
-    _Bool _suppressPerPageAnalyticsLogging;
-    _Bool _allowsOpeningSafari;
-    _Bool _showLinkToPrivacyGateway;
-    _Bool _showsLinkToUnifiedAbout;
-    _Bool _forceLargeMargins;
-    _Bool _useModalStyle;
-    _Bool _isCombined;
-    UIColor *_customTintColor;
-    NSString *_displayLanguage;
-    unsigned long long _displayDeviceType;
-    OBPrivacyFlow *_flow;
-    UIButton *_linkToPrivacyGatewayButton;
-    UILabel *_privacyGatewayDescription;
-    UILabel *_linkToPrivacyGateway;
-    UIButton *_unifiedAboutButton;
-    CDUnknownBlockType _defaultButtonHandler;
 }
 
 + (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,9 +33,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)w;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,20 +45,20 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)5;
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)A@;
 - (_Bool);
 - (void);
 - (void);
@@ -83,23 +67,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool allowsOpeningSafari; // @synthesize allowsOpeningSafari=_allowsOpeningSafari;
-@property(retain, nonatomic) UIColor *customTintColor; // @synthesize customTintColor=_customTintColor;
-@property(copy) CDUnknownBlockType defaultButtonHandler; // @synthesize defaultButtonHandler=_defaultButtonHandler;
-@property unsigned long long displayDeviceType; // @synthesize displayDeviceType=_displayDeviceType;
-@property(retain) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
 @property(retain, nonatomic) OBPrivacyFlow *flow; // @synthesize flow=_flow;
-@property _Bool forceLargeMargins; // @synthesize forceLargeMargins=_forceLargeMargins;
-@property(nonatomic) _Bool isCombined; // @synthesize isCombined=_isCombined;
-@property(retain) UILabel *linkToPrivacyGateway; // @synthesize linkToPrivacyGateway=_linkToPrivacyGateway;
-@property(retain) UIButton *linkToPrivacyGatewayButton; // @synthesize linkToPrivacyGatewayButton=_linkToPrivacyGatewayButton;
-@property(retain) UILabel *privacyGatewayDescription; // @synthesize privacyGatewayDescription=_privacyGatewayDescription;
-@property(nonatomic) _Bool showLinkToPrivacyGateway; // @synthesize showLinkToPrivacyGateway=_showLinkToPrivacyGateway;
-@property _Bool showsLinkToUnifiedAbout; // @synthesize showsLinkToUnifiedAbout=_showsLinkToUnifiedAbout;
-@property _Bool suppressPerPageAnalyticsLogging; // @synthesize suppressPerPageAnalyticsLogging=_suppressPerPageAnalyticsLogging;
-@property(nonatomic) _Bool underlineLinks; // @synthesize underlineLinks=_underlineLinks;
-@property(retain) UIButton *unifiedAboutButton; // @synthesize unifiedAboutButton=_unifiedAboutButton;
-@property _Bool useModalStyle; // @synthesize useModalStyle=_useModalStyle;
 
 @end
 

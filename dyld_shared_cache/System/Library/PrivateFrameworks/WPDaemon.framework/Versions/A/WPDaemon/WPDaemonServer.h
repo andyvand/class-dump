@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSXPCListener, WPDAdvertisingManager, WPDClient, WPDObjectDiscoveryManager, WPDPipeManager, WPDScanManager, WPDState, WPDStatsManager, WPDZoneManager;
-@protocol CBStackAdaptor, OS_dispatch_queue;
+@class WPDState;
 
 @interface WPDaemonServer
 {
     unsigned char _coreBluetoothState;
-    _Bool _screenOff;
-    _Bool _systemLocked;
-    _Bool _isMirroring;
-    _Bool _isTesting;
-    int _lockStatusChangedToken;
-    int _screenStateToken;
-    int _firstUnlockStatusChangedToken;
-    int _screenDisplayChangedNotifyToken;
-    int _screenDimmedChangeNotifyToken;
-    int _screenUndimmedChangeNotifyToken;
-    long long _cbState;
-    WPDAdvertisingManager *_advertisingManager;
-    WPDStatsManager *_statsManager;
-    id <CBStackAdaptor> _stackAdaptor;
-    WPDState *_wpdState;
-    NSObject<OS_dispatch_queue> *_serverQueue;
-    WPDScanManager *_scanManager;
-    WPDZoneManager *_zoneManager;
-    WPDPipeManager *_pipeManager;
-    WPDObjectDiscoveryManager *_objectDiscoveryManager;
-    WPDClient *_spObjectDiscoveryClient;
-    NSArray *_managers;
-    NSMutableDictionary *_clients;
-    NSMutableSet *_testClients;
-    NSMutableSet *_privilegedClients;
-    NSMapTable *_clientsWithMach;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSXPCListener *_listener;
 }
 
 + (_Bool);
@@ -45,7 +16,7 @@
 + (_Bool);
 + (_Bool);
 + (void);
-+ (_Bool)very;
++ (_Bool)entitledForObjectDiscovery;
 - (void);
 - (int);
 - (id);
@@ -68,15 +39,15 @@
 - (int);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (void);
+- (void)+;
 - (int);
 - (unsigned char);
-- (void);
+- (void)hV;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)o;
 - (id);
 - (id);
 - (void);
@@ -98,11 +69,11 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (int);
+- (void)inviteHandle:(id)arg1 fromSenderHandle:withInvitationPayload:completion: /* Error: Ran out of types for this method. */;
+- (int)IMMessagePartSyndicationTypeHidden;
 - (id);
 - (id);
 - (id);
@@ -110,7 +81,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
@@ -119,12 +90,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)#;
 - (int);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)__objc_stubs;
+- (id)finishWithResult:(id)arg1;
+- (id)ssionLocationFetch Error receiving subscribed location update %@;
+- (void)r periodic action xpc timer fired;
 - (void);
 - (void);
 - (void);
@@ -135,42 +106,7 @@
 - (void)or client %@, dropping on the floor;
 
 // Remaining properties
-@property(retain) WPDAdvertisingManager *advertisingManager; // @synthesize advertisingManager=_advertisingManager;
-@property(nonatomic) long long cbState; // @synthesize cbState=_cbState;
-@property(retain) NSMutableDictionary *clients; // @synthesize clients=_clients;
-@property(retain) NSMapTable *clientsWithMach; // @synthesize clientsWithMach=_clientsWithMach;
-@property unsigned char coreBluetoothState; // @synthesize coreBluetoothState=_coreBluetoothState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int firstUnlockStatusChangedToken; // @synthesize firstUnlockStatusChangedToken=_firstUnlockStatusChangedToken;
-@property(readonly) unsigned long long hash;
-@property _Bool isMirroring; // @synthesize isMirroring=_isMirroring;
-@property _Bool isTesting; // @synthesize isTesting=_isTesting;
-@property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(nonatomic) int lockStatusChangedToken; // @synthesize lockStatusChangedToken=_lockStatusChangedToken;
-@property(retain, nonatomic) NSArray *managers; // @synthesize managers=_managers;
-@property(retain) WPDObjectDiscoveryManager *objectDiscoveryManager; // @synthesize objectDiscoveryManager=_objectDiscoveryManager;
-@property(retain) WPDPipeManager *pipeManager; // @synthesize pipeManager=_pipeManager;
-@property(retain) NSMutableSet *privilegedClients; // @synthesize privilegedClients=_privilegedClients;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) WPDScanManager *scanManager; // @synthesize scanManager=_scanManager;
-@property(nonatomic) int screenDimmedChangeNotifyToken; // @synthesize screenDimmedChangeNotifyToken=_screenDimmedChangeNotifyToken;
-@property(nonatomic) int screenDisplayChangedNotifyToken; // @synthesize screenDisplayChangedNotifyToken=_screenDisplayChangedNotifyToken;
-@property _Bool screenOff; // @synthesize screenOff=_screenOff;
-@property(nonatomic) int screenStateToken; // @synthesize screenStateToken=_screenStateToken;
-@property(nonatomic) int screenUndimmedChangeNotifyToken; // @synthesize screenUndimmedChangeNotifyToken=_screenUndimmedChangeNotifyToken;
-@property(retain) NSObject<OS_dispatch_queue> *serverQueue; // @synthesize serverQueue=_serverQueue;
-@property(readonly) WPDClient *spObjectDiscoveryClient; // @synthesize spObjectDiscoveryClient=_spObjectDiscoveryClient;
-@property(readonly, nonatomic) id <CBStackAdaptor> stackAdaptor; // @synthesize stackAdaptor=_stackAdaptor;
-@property(retain, nonatomic) WPDStatsManager *statsManager; // @synthesize statsManager=_statsManager;
-@property(readonly) Class superclass;
-@property _Bool systemLocked; // @synthesize systemLocked=_systemLocked;
-@property(retain) NSMutableSet *testClients; // @synthesize testClients=_testClients;
 @property(retain, nonatomic) WPDState *wpdState; // @synthesize wpdState=_wpdState;
-@property(retain) WPDZoneManager *zoneManager; // @synthesize zoneManager=_zoneManager;
 
 @end
 

@@ -6,28 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHUnintendedResponseSuppressionEnded : SISchemaInstrumentationMessage
 {
     NSString *_modelVersion;
-    float _score;
-    float _threshold;
-    NSString *_mitigationAssetVersion;
-    float _speakerIDThreshold;
-    float _speakerIdScoreThreshold;
-    struct {
-        unsigned int score:1;
-        unsigned int threshold:1;
-        unsigned int speakerIDThreshold:1;
-        unsigned int speakerIdScoreThreshold:1;
-    } _has;
-    _Bool _hasModelVersion;
-    _Bool _hasMitigationAssetVersion;
 }
 
 - (float);
-- (float);
+- (float);
 - (void);
 - (void);
 - (void);
@@ -38,20 +25,37 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)t;
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool)C;
+- (_Bool)equest_data) AS 'Request',
+        LENGTH(response_data) AS 'Response',
+        LENGTH(response_error_data) AS 'Error',
+        LENGTH(anchor_points_data) AS 'Anchor Points',
+        CASE action
+            WHEN 0 THEN 'Unset'
+            WHEN 1 THEN 'Append Anchor'
+            WHEN 2 THEN 'Delete Anchor'
+            WHEN 101 THEN 'Reverse'
+            WHEN 102 THEN 'Out and Back'
+            WHEN 103 THEN 'Close Loop'
+            WHEN 1001 THEN 'Undo'
+            WHEN 1002 THEN 'Redo'
+            ELSE 'Unknown'
+        END AS 'Action'
+    FROM
+        custom_route_creation_actions;
+;
+- (void)TC26-A;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -59,29 +63,17 @@
 - (id);
 - (id)Asð!EùQßÐ1Â0@ù
 × ;
-- (float)rideTime: /* Error: Ran out of types for this method. */;
+- (float)setHasResponseGenerationOverrideTime: /* Error: Ran out of types for this method. */;
 - (id)SchemaSUGAggregateCounts",&,N,V_totalSiriHelpRequests;
 - (id),&,N,V_eventMetadata;
-- (void)MIXED;
-- (void)LUTIONTYPE_SEAS_DISAMBIGUATION_UNCERTAIN;
+- (void)SIRIRESPONSEMODE_MIXED;
+- (void)INFERENCEAPPRESOLUTIONTYPE_SEAS_DISAMBIGUATION_UNCERTAIN;
 - (void)(I!;
 - (id);
 - (float)I&';
 
 // Remaining properties
-@property(nonatomic) _Bool hasMitigationAssetVersion; // @synthesize hasMitigationAssetVersion=_hasMitigationAssetVersion;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasSpeakerIDThreshold;
-@property(nonatomic) _Bool hasSpeakerIdScoreThreshold;
-@property(nonatomic) _Bool hasThreshold;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *mitigationAssetVersion; // @synthesize mitigationAssetVersion=_mitigationAssetVersion;
 @property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) float score; // @synthesize score=_score;
-@property(nonatomic) float speakerIDThreshold; // @synthesize speakerIDThreshold=_speakerIDThreshold;
-@property(nonatomic) float speakerIdScoreThreshold; // @synthesize speakerIdScoreThreshold=_speakerIdScoreThreshold;
-@property(nonatomic) float threshold; // @synthesize threshold=_threshold;
 
 @end
 

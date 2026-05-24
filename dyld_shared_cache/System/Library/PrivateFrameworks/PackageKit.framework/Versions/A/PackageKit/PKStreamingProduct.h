@@ -6,20 +6,15 @@
 
 #import <PackageKit/PKProduct.h>
 
-@class NSString, PKStreamingXARArchive;
-
 @interface PKStreamingProduct : PKProduct
 {
     PKProduct *_underlyingProduct;
-    PKStreamingXARArchive *_archive;
-    unsigned long long _state;
-    NSString *_path;
 }
 
 + (_Bool);
 - (int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,9 +23,9 @@
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int)āR;
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -39,10 +34,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)u;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)(;
 - (id)ure;
 
 // Remaining properties

@@ -7,15 +7,10 @@
 @class NSString;
 
 @protocol _INPBSeat
+- (void)=;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSeatNumber;
-@property(readonly, nonatomic) _Bool hasSeatRow;
-@property(readonly, nonatomic) _Bool hasSeatSection;
-@property(readonly, nonatomic) _Bool hasSeatingType;
 @property(copy, nonatomic) NSString *seatNumber;
-@property(copy, nonatomic) NSString *seatRow;
-@property(copy, nonatomic) NSString *seatSection;
-@property(copy, nonatomic) NSString *seatingType;
 @end
 

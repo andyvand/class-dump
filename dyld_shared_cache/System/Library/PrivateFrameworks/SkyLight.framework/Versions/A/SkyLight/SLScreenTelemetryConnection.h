@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SLSZeroingWeakContainer;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface SLScreenTelemetryConnection
 {
     _Bool _closed;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _updateBlock;
-    SLSZeroingWeakContainer *_zeroingContainer;
 }
 
-+ (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
++ (id)'%@'),;
+- (id)lationships;
+- (id)icate, unable to find the attribute specified by this predicate.;
+- (void)@ (%@), %d, %@)>;
+- (void)erty;
+- (_Bool)with composite property;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -33,10 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool closed; // @synthesize closed=_closed;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
-@property(readonly, retain, nonatomic) SLSZeroingWeakContainer *zeroingContainer; // @synthesize zeroingContainer=_zeroingContainer;
 
 @end
 

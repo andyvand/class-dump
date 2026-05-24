@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAssetCollection;
+@class NSArray;
 
 @protocol PGHighlightModel
-- (unsigned short)eValue:forKey:error: /* Error: Ran out of types for this method. */;
++ (NSArray *)pruneObservers;
+- (_Bool)rsions/A/CoreText;
+- (double)sharedSingleLineTracker;
+- (unsigned short);
+- (unsigned short)setResourceValue:forKey:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PHAssetCollection *assetCollection;
-@property(nonatomic) unsigned short enrichmentState;
-@property(readonly, nonatomic) _Bool isUpToDate;
 @property(readonly, nonatomic) unsigned short kind;
-@property(readonly, nonatomic, getter=isRecent) _Bool recent;
-@property(readonly, nonatomic) unsigned short sharingComposition;
-@property(nonatomic) unsigned short type;
-@property(readonly, nonatomic) NSString *uuid;
 @end
 

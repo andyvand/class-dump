@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVBindingInfo
 {
     _Bool _setToNilWhenUnbinding;
-    id _observer;
-    NSString *_binding;
-    id _observable;
-    NSString *_keyPath;
-    NSDictionary *_options;
 }
 
 - (_Bool);
@@ -23,23 +16,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ference"24@"NSString"32@?<v@?B>40;
 - (id);
 - (void);
-- (id);
+- (id)accountID:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (id)extFieldValueValueTransformer;
+- (void)_devicesDidChange:(id)arg1;
+- (id)AVScanBackwardTextFieldValueValueTransformer;
 - (id)ckSpeedCollection:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *binding; // @synthesize binding=_binding;
-@property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property __weak id observable; // @synthesize observable=_observable;
 @property(retain) id observer; // @synthesize observer=_observer;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
-@property _Bool setToNilWhenUnbinding; // @synthesize setToNilWhenUnbinding=_setToNilWhenUnbinding;
 
 @end
 

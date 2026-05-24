@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)NetworkScan;
++ (id)doNetworkScan;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @dynamic name;

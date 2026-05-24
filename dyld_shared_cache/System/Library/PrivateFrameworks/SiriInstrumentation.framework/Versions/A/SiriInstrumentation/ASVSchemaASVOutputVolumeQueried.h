@@ -6,32 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASVSchemaASVOutputVolumeQueried : SISchemaInstrumentationMessage
 {
     float _outputVolume;
-    int _speakerDistance;
-    float _speakerSpeechLevel;
-    float _musicLoudnessLevel;
-    float _backgroundNoiseLevel;
-    int _backgroundNoiseActivityLevel;
-    _Bool _isMediaPlaybackOn;
-    int _invocationType;
-    _Bool _isPermanentOffsetEnabled;
-    float _permanentOffsetFactor;
-    struct {
-        unsigned int outputVolume:1;
-        unsigned int speakerDistance:1;
-        unsigned int speakerSpeechLevel:1;
-        unsigned int musicLoudnessLevel:1;
-        unsigned int backgroundNoiseLevel:1;
-        unsigned int backgroundNoiseActivityLevel:1;
-        unsigned int isMediaPlaybackOn:1;
-        unsigned int invocationType:1;
-        unsigned int isPermanentOffsetEnabled:1;
-        unsigned int permanentOffsetFactor:1;
-    } _has;
 }
 
 - (float);
@@ -47,14 +24,14 @@
 - (void);
 - (void);
 - (void);
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`	;
 - (void);
 - (float);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
@@ -62,7 +39,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Th;
 - (_Bool);
 - (void);
 - (void);
@@ -80,8 +57,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (float);
+- (void)dViewDelegate>";
+- (float)d}32Q48;
 - (id);
 - (void);
 - (unsigned long long);
@@ -89,33 +66,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)chResponse;
+- (id)whichResponse;
 - (id)4ÿÿÿÿÿ`;
 - (id);
 - (float)ô$;
 
 // Remaining properties
-@property(nonatomic) int backgroundNoiseActivityLevel; // @synthesize backgroundNoiseActivityLevel=_backgroundNoiseActivityLevel;
-@property(nonatomic) float backgroundNoiseLevel; // @synthesize backgroundNoiseLevel=_backgroundNoiseLevel;
-@property(nonatomic) _Bool hasBackgroundNoiseActivityLevel;
-@property(nonatomic) _Bool hasBackgroundNoiseLevel;
-@property(nonatomic) _Bool hasInvocationType;
-@property(nonatomic) _Bool hasIsMediaPlaybackOn;
-@property(nonatomic) _Bool hasIsPermanentOffsetEnabled;
-@property(nonatomic) _Bool hasMusicLoudnessLevel;
-@property(nonatomic) _Bool hasOutputVolume;
-@property(nonatomic) _Bool hasPermanentOffsetFactor;
-@property(nonatomic) _Bool hasSpeakerDistance;
-@property(nonatomic) _Bool hasSpeakerSpeechLevel;
-@property(nonatomic) int invocationType; // @synthesize invocationType=_invocationType;
-@property(nonatomic) _Bool isMediaPlaybackOn; // @synthesize isMediaPlaybackOn=_isMediaPlaybackOn;
-@property(nonatomic) _Bool isPermanentOffsetEnabled; // @synthesize isPermanentOffsetEnabled=_isPermanentOffsetEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float musicLoudnessLevel; // @synthesize musicLoudnessLevel=_musicLoudnessLevel;
 @property(nonatomic) float outputVolume; // @synthesize outputVolume=_outputVolume;
-@property(nonatomic) float permanentOffsetFactor; // @synthesize permanentOffsetFactor=_permanentOffsetFactor;
-@property(nonatomic) int speakerDistance; // @synthesize speakerDistance=_speakerDistance;
-@property(nonatomic) float speakerSpeechLevel; // @synthesize speakerSpeechLevel=_speakerSpeechLevel;
 
 @end
 

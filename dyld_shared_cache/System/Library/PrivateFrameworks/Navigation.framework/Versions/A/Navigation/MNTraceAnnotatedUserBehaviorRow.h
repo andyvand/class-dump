@@ -7,7 +7,6 @@
 @interface MNTraceAnnotatedUserBehaviorRow
 {
     double _timestamp;
-    long long _event;
 }
 
 - (double);
@@ -16,7 +15,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long event; // @synthesize event=_event;
 @property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end

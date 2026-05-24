@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (_Bool);
++ (id)lementEditListenerWrapper;
++ (_Bool)crypto_deriveKeyAndDecryptData;
 + (id);
 + (id);
 + (id);

@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RWIProtocolDOMRGBAColor *flexColor;
-@property(nonatomic) _Bool showOrderNumbers;
 
 @end
 

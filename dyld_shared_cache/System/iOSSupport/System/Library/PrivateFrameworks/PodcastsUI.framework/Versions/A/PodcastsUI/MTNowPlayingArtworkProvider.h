@@ -9,7 +9,7 @@
     id artworkProvider;
 }
 
-- (id);
+- (id)@;
 - (id);
 - (void);
 

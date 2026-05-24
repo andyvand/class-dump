@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface TUMediaTokens
 {
     long long _uplinkStreamToken;
-    long long _downlinkStreamToken;
-    NSDictionary *_streamTokensByParticipantID;
-    long long _combinedAudioStreamToken;
 }
 
 + (_Bool);
@@ -29,12 +24,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)eTime;
+- (void)spamFilterEnabledForFaceTime;
 
 // Remaining properties
-@property(nonatomic) long long combinedAudioStreamToken; // @synthesize combinedAudioStreamToken=_combinedAudioStreamToken;
-@property(nonatomic) long long downlinkStreamToken; // @synthesize downlinkStreamToken=_downlinkStreamToken;
-@property(retain, nonatomic) NSDictionary *streamTokensByParticipantID; // @synthesize streamTokensByParticipantID=_streamTokensByParticipantID;
 @property(nonatomic) long long uplinkStreamToken; // @synthesize uplinkStreamToken=_uplinkStreamToken;
 
 @end

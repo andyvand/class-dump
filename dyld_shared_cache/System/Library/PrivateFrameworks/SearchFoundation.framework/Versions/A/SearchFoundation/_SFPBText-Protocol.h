@@ -7,10 +7,12 @@
 @class NSData, NSString;
 
 @protocol _SFPBText
+- (NSString *);
+- (NSData *)T@"PHRelationshipChangeRequestHelper",R,N,V_mergeCandidatesHelper;
+- (void)P;
+- (unsigned int)`;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int maxLines;
 @property(copy) NSString *text;
 @end
 

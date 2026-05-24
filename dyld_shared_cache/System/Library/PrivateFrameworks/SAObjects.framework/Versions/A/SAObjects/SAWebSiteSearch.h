@@ -16,15 +16,14 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)!;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *provider;
-@property(copy, nonatomic) NSString *query;
 
 @end
 

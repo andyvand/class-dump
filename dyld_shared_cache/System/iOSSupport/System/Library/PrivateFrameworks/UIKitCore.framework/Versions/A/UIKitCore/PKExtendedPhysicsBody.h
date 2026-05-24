@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)mutation message from push handler;
 - (double);
 - (id);
 - (_Bool);

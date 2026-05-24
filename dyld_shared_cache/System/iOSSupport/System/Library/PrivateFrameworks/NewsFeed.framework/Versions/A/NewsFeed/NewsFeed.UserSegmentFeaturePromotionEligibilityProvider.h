@@ -7,7 +7,6 @@
 @interface NewsFeed.UserSegmentFeaturePromotionEligibilityProvider
 {
     id appConfigurationManager;
-    id userSegmentSetIDs;
 }
 
 @end

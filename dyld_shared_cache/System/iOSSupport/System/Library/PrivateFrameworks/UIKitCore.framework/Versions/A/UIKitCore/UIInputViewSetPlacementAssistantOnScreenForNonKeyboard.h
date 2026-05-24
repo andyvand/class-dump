@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)lready been shown on screen;
-- (id);
-- (id);
-- (id)crollHysteresisScale;
+- (id)@;
+- (id)ronously;
+- (id)DiscreteScrollHysteresisScale;
 
 @end
 

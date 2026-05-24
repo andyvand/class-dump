@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)WC;
 - (void)6;
 
 // Remaining properties

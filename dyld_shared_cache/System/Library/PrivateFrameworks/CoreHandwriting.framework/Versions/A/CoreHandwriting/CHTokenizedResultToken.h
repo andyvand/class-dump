@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
+@class NSString;
 
 @interface CHTokenizedResultToken
 {
     NSString *_string;
-    NSIndexSet *_strokeIndexes;
-    struct CGRect _bounds;
 }
 
-+ (_Bool);
++ (_Bool)_irisClosedInitialized;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -25,14 +23,12 @@
 - (unsigned long long);
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void)4;
 - (id);
-- (void);
+- (void)a1;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
 @property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, copy, nonatomic) NSIndexSet *strokeIndexes; // @synthesize strokeIndexes=_strokeIndexes;
 
 @end
 

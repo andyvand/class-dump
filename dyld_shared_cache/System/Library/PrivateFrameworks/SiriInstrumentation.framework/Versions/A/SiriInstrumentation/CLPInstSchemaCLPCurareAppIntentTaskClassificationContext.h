@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CLPInstSchemaCLPCurareAppIntentTaskClassificationEnded, CLPInstSchemaCLPCurareAppIntentTaskClassificationStarted, NSData;
+@class CLPInstSchemaCLPCurareAppIntentTaskClassificationStarted;
 
 @interface CLPInstSchemaCLPCurareAppIntentTaskClassificationContext : SISchemaInstrumentationMessage
 {
     CLPInstSchemaCLPCurareAppIntentTaskClassificationStarted *_startedOrChanged;
-    CLPInstSchemaCLPCurareAppIntentTaskClassificationEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -34,19 +30,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)�i;
 - (id)ueContext";
-- (id)chemaFLOWSPORTSExecution;
+- (id)FLOWSchemaFLOWSPORTSExecution;
 - (id)h;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CLPInstSchemaCLPCurareAppIntentTaskClassificationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CLPInstSchemaCLPCurareAppIntentTaskClassificationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -6,32 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface MHSchemaMHOdldFalseTriggerMitigated : SISchemaInstrumentationMessage
 {
     NSString *_modelVersion;
-    float _odldScore;
-    float _odldScoreThreshold;
-    NSString *_errorMessage;
-    unsigned int _errorCode;
-    SISchemaUUID *_anchorRequestId;
-    SISchemaUUID *_previousRequestId;
-    float _anchorSocialScore;
-    float _socialScore;
-    float _conversationalOdldScore;
-    struct {
-        unsigned int odldScore:1;
-        unsigned int odldScoreThreshold:1;
-        unsigned int errorCode:1;
-        unsigned int anchorSocialScore:1;
-        unsigned int socialScore:1;
-        unsigned int conversationalOdldScore:1;
-    } _has;
-    _Bool _hasModelVersion;
-    _Bool _hasErrorMessage;
-    _Bool _hasAnchorRequestId;
-    _Bool _hasPreviousRequestId;
 }
 
 - (float);
@@ -49,14 +28,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (float);
 - (float);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -78,47 +57,27 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)setLength: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (void)M	;
+- (void)Io/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/dh/dh_key.c;
+- (unsigned long long);
+- (_Bool)P;
+- (id)NativeDictionary.swift;
 - (_Bool);
 - (id);
 - (id)
 × ;
 - (id),N,V_oddId;
 - (id)lResultTriggered;
-- (void)IDATESOURCE_SIRI_VOCABULARY;
+- (void)IFTCANDIDATESOURCE_SIRI_VOCABULARY;
 - (void)Íh!;
 - (void)KÕÿ½6´Áù";
 - (id)O¬úú$;
 - (unsigned int)(;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *anchorRequestId; // @synthesize anchorRequestId=_anchorRequestId;
-@property(nonatomic) float anchorSocialScore; // @synthesize anchorSocialScore=_anchorSocialScore;
-@property(nonatomic) float conversationalOdldScore; // @synthesize conversationalOdldScore=_conversationalOdldScore;
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(nonatomic) _Bool hasAnchorRequestId; // @synthesize hasAnchorRequestId=_hasAnchorRequestId;
-@property(nonatomic) _Bool hasAnchorSocialScore;
-@property(nonatomic) _Bool hasConversationalOdldScore;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorMessage; // @synthesize hasErrorMessage=_hasErrorMessage;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasOdldScore;
-@property(nonatomic) _Bool hasOdldScoreThreshold;
-@property(nonatomic) _Bool hasPreviousRequestId; // @synthesize hasPreviousRequestId=_hasPreviousRequestId;
-@property(nonatomic) _Bool hasSocialScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) float odldScore; // @synthesize odldScore=_odldScore;
-@property(nonatomic) float odldScoreThreshold; // @synthesize odldScoreThreshold=_odldScoreThreshold;
-@property(retain, nonatomic) SISchemaUUID *previousRequestId; // @synthesize previousRequestId=_previousRequestId;
-@property(nonatomic) float socialScore; // @synthesize socialScore=_socialScore;
 
 @end
 

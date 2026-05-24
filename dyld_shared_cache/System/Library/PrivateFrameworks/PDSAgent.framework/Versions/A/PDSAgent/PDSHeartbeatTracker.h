@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSServerBag, IMDispatchTimer, NSDate, NSObject;
-@protocol OS_dispatch_queue, PDSHeartbeatTrackerDelegate;
+@class IMDispatchTimer;
 
 @interface PDSHeartbeatTracker
 {
     _Bool _scheduledActivity;
-    IMDispatchTimer *_heartbeatTimer;
-    IDSServerBag *_serverBag;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _kvStoreBlock;
-    id <PDSHeartbeatTrackerDelegate> _delegate;
 }
 
+- (id)te:%d /* Error: Ran out of types for this method. */;
+- (void)asset collection.;
+- (_Bool)%{public}@:Command Queue has shut down. /* Error: Ran out of types for this method. */;
+- (void):(double)arg1 Could not add clientOrgKey column to Albums. Error:%{public}s /* Error: Ran out of types for this method. */;
+- (void)g queue. Error:%{public}s /* Error: Ran out of types for this method. */;
+- (void)blic}@:Could not create comment checking queue. Error:%{public}s /* Error: Ran out of types for this method. */;
+- (_Bool)Error:%{public}s /* Error: Ran out of types for this method. */;
+- (id)ion index. Error:(id)arg1 %{public}s;
+- (void)ctions for album with nil GUID.;
+- (void)not add pending asset collection changes for album with nil GUID.;
+- (id);
 - (id);
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)(t;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <PDSHeartbeatTrackerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) IMDispatchTimer *heartbeatTimer; // @synthesize heartbeatTimer=_heartbeatTimer;
-@property(readonly, nonatomic) _Bool isPassedTrackedHeartbeatDate;
-@property(copy, nonatomic) CDUnknownBlockType kvStoreBlock; // @synthesize kvStoreBlock=_kvStoreBlock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool scheduledActivity; // @synthesize scheduledActivity=_scheduledActivity;
-@property(retain, nonatomic) IDSServerBag *serverBag; // @synthesize serverBag=_serverBag;
-@property(readonly, nonatomic) NSDate *trackedHeartbeatDate;
 
 @end
 

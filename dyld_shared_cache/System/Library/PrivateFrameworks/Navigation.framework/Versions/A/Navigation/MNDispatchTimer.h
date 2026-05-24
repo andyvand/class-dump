@@ -7,16 +7,15 @@
 @interface MNDispatchTimer
 {
     id _internalTimer;
-    id _isRunning;
 }
 
 - (id);
-- (id);
+- (id)E;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)eManager: /* Error: Ran out of types for this method. */;
+- (void)userLocationForUpdateManager: /* Error: Ran out of types for this method. */;
 
 @end
 

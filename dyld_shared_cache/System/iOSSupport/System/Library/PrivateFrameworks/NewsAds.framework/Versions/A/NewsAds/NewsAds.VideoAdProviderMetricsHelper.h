@@ -7,22 +7,20 @@
 @interface NewsAds.VideoAdProviderMetricsHelper
 {
     id diagnosticMetricsHelper;
-    id metadata;
-    id mediaMetricsHelper;
 }
 
 - (void);
+- (void)r is onboarded';
+- (void)'syncing is enabled and user is onboarded';
+- (void)r subscription change event, reason='syncing is enabled and user is onboarded';
+- (void)e=%{public}@, syncStatus=%{public}@;
+- (void)ingEnabled=%{public}@, onboardingState=%{public}@, syncStatus=%{public}@;
+- (void)laylistFeedInteractor.swift;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)for Offline Mode.;
+- (void)ssage displayed when an article loading fails due to being offline, as a subscriber.;
+- (void)error=%{public}@;
+- (void)manage notifications section;
 - (void);
 - (void);
 - (id);

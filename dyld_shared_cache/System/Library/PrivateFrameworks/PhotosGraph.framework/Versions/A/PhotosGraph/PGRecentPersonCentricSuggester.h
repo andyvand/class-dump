@@ -6,23 +6,14 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSArray, NSDictionary, NSEnumerator, NSMutableSet, NSString, PGSuggestionOptions;
+@class PGSuggestionOptions;
 
 @interface PGRecentPersonCentricSuggester : PGAbstractSuggester
 {
     PGSuggestionOptions *_options;
-    NSDictionary *_verifiedPersonByPersonLocalIdentifier;
-    NSDictionary *_assetsByPersonLocalIdentifier;
-    NSMutableSet *_usedPersonLocalIdentifiers;
-    NSArray *_birthdayPersonPotentialSuggestions;
-    NSArray *_longTimeNoSeePersonPotentialSuggestions;
-    NSArray *_personPotentialSuggestions;
-    NSEnumerator *_birthdayPersonPotentialSuggestionEnumerator;
-    NSEnumerator *_longTimeNoSeePersonPotentialSuggestionEnumerator;
-    NSEnumerator *_personPotentialSuggestionEnumerator;
 }
 
-+ (id);
++ (id)fileSystemRepresentation;
 + (id);
 - (id);
 - (void);
@@ -37,24 +28,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)g alone for reason %li;
+- (id)LibCall_ACMSEPControl;
+- (id)ACMContextRemovePassphraseCredentialsByPurposeAndScope;
+- (id)ACMGlobalContextRemoveCredentialsByType;
+- (id)ACMContextAddCredentialWithScope;
+- (id);
 - (void);
 - (void)RecurrentTrip;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool lastSuggestionWasColliding;
-@property(readonly) Class superclass;
 
 @end
 

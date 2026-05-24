@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCNGroupIdentifier, NSString;
+@class ABCNGroupIdentifier;
 
 @interface ABCNGroup
 {
     ABCNGroupIdentifier *_identifier;
-    NSString *_name;
-    ABCNGroup *_snapshot;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)�;
+- (id)AVPlayerLocalCoplayback;
+- (id);
+- (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)escrowFetchSource;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)eration;
+- (id)ABSummaryOperation;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) ABCNGroupIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, copy, nonatomic) ABCNGroup *snapshot;
 
 @end

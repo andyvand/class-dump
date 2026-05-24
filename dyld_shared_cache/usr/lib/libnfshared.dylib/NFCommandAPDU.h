@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NFCommandAPDU
 {
     unsigned char _class;
-    unsigned char _instruction;
-    unsigned char _p1;
-    unsigned char _p2;
-    struct _NSRange _payloadRange;
-    unsigned int _lengthExpected;
-    NSData *_data;
 }
 
 + (id);
@@ -30,7 +22,7 @@
 - (unsigned char);
 - (unsigned char);
 - (_Bool);
-- (unsigned char);
+- (unsigned char)?	;
 - (unsigned char);
 - (id);
 - (unsigned int);
@@ -41,13 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char clss;
-@property(readonly, nonatomic) unsigned char instruction;
-@property(readonly, nonatomic) unsigned int lengthExpected;
-@property(readonly, nonatomic) unsigned char p1;
-@property(readonly, nonatomic) unsigned char p2;
-@property(readonly, nonatomic) NSData *payload;
-@property(readonly, nonatomic) const char *payloadBytes;
-@property(readonly, nonatomic) unsigned int payloadLength;
 
 @end
 

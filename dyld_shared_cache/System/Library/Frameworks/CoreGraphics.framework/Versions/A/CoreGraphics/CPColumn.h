@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPColumn : CPRotatedRegion
 {
     _Bool hasCentredParagraph;
-    _Bool hasColumnBreak;
-    double maxLeftPad;
-    double maxRightPad;
-    double maxRight;
-    double minLeft;
-    _Bool complete;
 }
 
 - (void);
@@ -35,12 +29,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGRect);
 - (double);
-- (double);
+- (double);
 - (int);
 - (void);
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

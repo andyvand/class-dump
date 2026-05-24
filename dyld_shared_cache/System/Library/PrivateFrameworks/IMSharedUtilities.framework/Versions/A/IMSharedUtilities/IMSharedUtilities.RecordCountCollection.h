@@ -7,9 +7,6 @@
 @interface IMSharedUtilities.RecordCountCollection
 {
     id conversationCount;
-    id messageCount;
-    id participantCount;
-    id attachmentCountBuckets;
 }
 
 @end

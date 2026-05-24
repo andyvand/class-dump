@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineFeedSupplementaryDataProvider
 {
     id positionProvider;
-    id layoutProvider;
 }
 
 @end

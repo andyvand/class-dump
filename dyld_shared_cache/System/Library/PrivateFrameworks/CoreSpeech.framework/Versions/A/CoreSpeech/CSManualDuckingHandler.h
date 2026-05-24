@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CSManualDuckingHandler
 {
     unsigned int _lastDuckedAudioDeviceID;
-    float _lastDuckedLevel;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -24,22 +19,13 @@
 - (void);
 - (float);
 - (id);
-- (void);
+- (void)initWithTargetedCIImage:(id)arg1 options:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void)ror: /* Error: Ran out of types for this method. */;
+- (void)didStopRecordingWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned int lastDuckedAudioDeviceID; // @synthesize lastDuckedAudioDeviceID=_lastDuckedAudioDeviceID;
-@property(nonatomic) float lastDuckedLevel; // @synthesize lastDuckedLevel=_lastDuckedLevel;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface AppStoreKit.ArcadeLaunchAttributionAction : AppStoreKit.Action
 {
     id bundleIdentifier;
-    id additionalMetrics;
 }
 
 @end

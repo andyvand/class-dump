@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCartoucheMaskLayer
 {
     CALayer *_roundRectLayer;
-    CALayer *_cartoucheLayer;
-    CALayer *_hackLinePreventionLayer;
 }
 
 - (void);

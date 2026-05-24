@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSPanel, NSString, NSWindow;
+@class NSPanel;
 
 __attribute__((visibility("hidden")))
 @interface PDFPasswordProtectedEditsController
 {
     NSPanel *_passwordPanel;
-    NSWindow *_windowForSheet;
-    NSDate *_lastPasswordDismissDate;
-    long long _lastPasswordDismissModalResponse;
 }
 
-- (void);
+- (void)B;
 - (void);
 - (long long);
 - (id);
@@ -26,21 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)2;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastPasswordDismissDate; // @synthesize lastPasswordDismissDate=_lastPasswordDismissDate;
-@property(nonatomic) long long lastPasswordDismissModalResponse; // @synthesize lastPasswordDismissModalResponse=_lastPasswordDismissModalResponse;
 @property(nonatomic) __weak NSPanel *passwordPanel; // @synthesize passwordPanel=_passwordPanel;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSWindow *windowForSheet; // @synthesize windowForSheet=_windowForSheet;
 
 @end
 

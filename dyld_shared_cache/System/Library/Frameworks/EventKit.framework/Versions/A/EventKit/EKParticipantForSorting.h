@@ -9,23 +9,18 @@
 @interface EKParticipantForSorting
 {
     EKParticipant *_participant;
-    _Bool _isEmail;
-    _Bool _isPhone;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_cachedDisplayName;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)[MRRemoteControl] Command %{public}@ missing source position option(s):(id)arg1 %{public}@ | %{public}@;
++ (id);
 - (void);
 - (void);
-- (_Bool);
-- (long long);
-- (long long);
-- (id);
-- (id);
+- (_Bool)\X;
+- (long long)ading updates;
+- (long long)V3NowPlayingController] <%@> End loading updates;
+- (id)ad found a CFArrayRef of CFDataRef. Please fix.;
+- (id)public}@:[%{public}@] Someone attempted to store an account property as the wrong type. key = %{public}@ | expectedClass = %{public}@ | actualClass = %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -41,11 +36,7 @@
 - (_Bool)h.  Error:[%@] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cachedDisplayName; // @synthesize cachedDisplayName=_cachedDisplayName;
 @property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(nonatomic) _Bool isEmail; // @synthesize isEmail=_isEmail;
-@property(nonatomic) _Bool isPhone; // @synthesize isPhone=_isPhone;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol NSObject;
+@class NSData;
 
 @interface IDSSocketPairMessage
 {
     NSData *_underlyingData;
-    unsigned char _command;
-    id <NSObject> _context;
-    NSString *_topic;
-    _Bool _useDynamicServiceName;
-    _Bool _cancelled;
-    _Bool _wasWrittenToConnection;
 }
 
 + (id);
@@ -24,15 +17,15 @@
 + (unsigned int);
 + (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)?;
 - (id);
-- (id);
-- (void);
+- (void)a;
 - (id);
 - (_Bool);
 - (id);
@@ -43,14 +36,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
 @property(readonly, nonatomic) unsigned char command; // @synthesize command=_command;
-@property(retain, nonatomic) id <NSObject> context; // @synthesize context=_context;
-@property(retain, nonatomic) NSString *topic; // @synthesize topic=_topic;
-@property(readonly, nonatomic) NSData *underlyingData; // @synthesize underlyingData=_underlyingData;
-@property(readonly, nonatomic) unsigned long long underlyingDataLength;
-@property(nonatomic) _Bool useDynamicServiceName; // @synthesize useDynamicServiceName=_useDynamicServiceName;
-@property(nonatomic) _Bool wasWrittenToConnection; // @synthesize wasWrittenToConnection=_wasWrittenToConnection;
 
 @end
 

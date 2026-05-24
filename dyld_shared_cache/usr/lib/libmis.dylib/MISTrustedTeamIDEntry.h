@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MISTrustedTeamIDEntry
 {
     NSString *_teamID;
-    NSData *_signature;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)HistoricEvent;
 - (_Bool);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
 @property(copy, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end

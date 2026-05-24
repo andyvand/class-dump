@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, SPPowerMonitorDelegate;
-
 __attribute__((visibility("hidden")))
 @interface SPPowerStateMonitorMac
 {
     struct os_unfair_lock_s _lock;
-    id <SPPowerMonitorDelegate> _delegate;
-    unsigned long long _internal_state;
-    struct __IOPMConnection *_powerManagementConnection;
-    NSObject<OS_dispatch_queue> *_monitorQueue;
 }
 
 - (void);
@@ -24,32 +17,20 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)@;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)initWithStartTime:(id)arg1 endTime:title:calDescription:fallbackUrl: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct os_unfair_lock_s);
-- (void);
+- (void)a;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SPPowerMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long internal_state; // @synthesize internal_state=_internal_state;
 @property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *monitorQueue; // @synthesize monitorQueue=_monitorQueue;
-@property(nonatomic) struct __IOPMConnection *powerManagementConnection; // @synthesize powerManagementConnection=_powerManagementConnection;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
 
 @end
 

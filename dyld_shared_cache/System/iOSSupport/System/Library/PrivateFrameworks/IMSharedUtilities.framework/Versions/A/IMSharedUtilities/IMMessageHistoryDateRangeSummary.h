@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval;
+@class NSDateInterval;
 
 @interface IMMessageHistoryDateRangeSummary
 {
     NSDateInterval *_dateInterval;
-    NSArray *_messages;
 }
 
 + (_Bool);
-- (long long);
+- (long long)C;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)rline;
+- (void)imTextUnderline;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
-@property(readonly, nonatomic) long long totalMessagePartCount;
 
 @end
 

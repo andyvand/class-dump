@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSOperation, NSOperationQueue;
+@class NSOperationQueue;
 
 __attribute__((visibility("hidden")))
 @interface CATSerialOperationEnqueuer
 {
     NSOperationQueue *mTargetQueue;
-    NSOperation *mCurrentlyExecutingOperation;
-    NSMutableArray *mPendingOperations;
-    struct os_unfair_lock_s mLock;
-    id mStrongSelf;
 }
 
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);

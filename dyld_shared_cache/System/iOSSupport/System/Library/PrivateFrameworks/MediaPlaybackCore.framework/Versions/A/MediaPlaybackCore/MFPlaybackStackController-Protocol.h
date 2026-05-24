@@ -4,12 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
 @protocol MFPlaybackStackControllerDelegate;
 
 @protocol MFPlaybackStackController
+- (void);
+- (void);
+- (_Bool)";
+- (void)�;
+- (void)ith dataclass actions:(NSString *)arg1 %@;
+- (void)aclass actions had success (%@) for account (%@) with dataclass actions:(NSString *)arg1 %@;
+- (void)aclass actions for BYOE dataclass, not enabling BYOE dataclass. Error:(NSString *)arg1 %@;
 
 // Remaining properties
 @property(nonatomic) __weak id <MFPlaybackStackControllerDelegate> delegate;
-@property(nonatomic, readonly) _Bool mediaServicesAvailable;
 @end
 

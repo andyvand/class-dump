@@ -7,10 +7,13 @@
 @class NSString;
 
 @protocol CKSearchResultCell
+- (void)thumbnailDataLight;
+- (void)mergeableStringIsEqualAfterSerialization:(NSString *)arg1;
+- (struct UIEdgeInsets)collapsed;
+- (_Bool);
+- (void)};
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;
-@property(nonatomic) struct UIEdgeInsets marginInsets;
 @property(readonly, copy, nonatomic) NSString *resultIdentifier;
 @end
 

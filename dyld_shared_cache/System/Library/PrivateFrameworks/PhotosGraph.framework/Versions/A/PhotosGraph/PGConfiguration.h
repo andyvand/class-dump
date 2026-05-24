@@ -11,10 +11,11 @@
 
 + (id);
 + (id);
-+ (id);
-- (id);
-- (void);
-- (id);
++ (id)didMoveTab:fromWindowWithID:indexInOldWindow: /* Error: Ran out of types for this method. */;
+- (id)edElementController:(struct objc_property **)arg1 ,V__focusedElementController;
+- (void)-> ctx = %p.
+;
+- (id);
 - (void);
 - (void);
 - (id);

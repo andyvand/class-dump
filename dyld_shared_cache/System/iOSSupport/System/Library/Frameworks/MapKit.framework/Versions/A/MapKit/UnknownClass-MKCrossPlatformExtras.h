@@ -6,11 +6,11 @@
 
 @interface UnknownClass (MKCrossPlatformExtras)
 + (id);
++ (id)o ;
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 @end

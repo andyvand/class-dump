@@ -5,5 +5,6 @@
 //
 
 @protocol NSTouchBarCustomizationPaletteViewControllerDelegate
+- (void);
 @end
 

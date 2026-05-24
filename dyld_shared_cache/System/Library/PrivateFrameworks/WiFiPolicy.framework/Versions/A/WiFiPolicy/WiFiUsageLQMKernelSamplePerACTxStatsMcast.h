@@ -9,18 +9,6 @@
 @interface WiFiUsageLQMKernelSamplePerACTxStatsMcast : WiFiUsageLQMKernelSamplePerACTxStats
 {
     unsigned long long _txMcast;
-    unsigned long long _txMcastSuccessPerc;
-    unsigned long long _txMcastAllFailPerc;
-    unsigned long long _txMcastDroppedPerc;
-    unsigned long long _txMcastNoBuffPerc;
-    unsigned long long _txMcastNoResPerc;
-    unsigned long long _txMcastNoAckPerc;
-    unsigned long long _txMcastChipModeErrPerc;
-    unsigned long long _txMcastExpiredPerc;
-    unsigned long long _txMcastFailPerc;
-    unsigned long long _txMcastFwFreePerc;
-    unsigned long long _txMcastMaxRetriesPerc;
-    unsigned long long _txMcastForceExpirePerc;
 }
 
 - (unsigned long long);
@@ -40,18 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long txMcast; // @synthesize txMcast=_txMcast;
-@property(readonly, nonatomic) unsigned long long txMcastAllFailPerc; // @synthesize txMcastAllFailPerc=_txMcastAllFailPerc;
-@property(readonly, nonatomic) unsigned long long txMcastChipModeErrPerc; // @synthesize txMcastChipModeErrPerc=_txMcastChipModeErrPerc;
-@property(readonly, nonatomic) unsigned long long txMcastDroppedPerc; // @synthesize txMcastDroppedPerc=_txMcastDroppedPerc;
-@property(readonly, nonatomic) unsigned long long txMcastExpiredPerc; // @synthesize txMcastExpiredPerc=_txMcastExpiredPerc;
-@property(readonly, nonatomic) unsigned long long txMcastFailPerc; // @synthesize txMcastFailPerc=_txMcastFailPerc;
-@property(readonly, nonatomic) unsigned long long txMcastForceExpirePerc; // @synthesize txMcastForceExpirePerc=_txMcastForceExpirePerc;
-@property(readonly, nonatomic) unsigned long long txMcastFwFreePerc; // @synthesize txMcastFwFreePerc=_txMcastFwFreePerc;
-@property(readonly, nonatomic) unsigned long long txMcastMaxRetriesPerc; // @synthesize txMcastMaxRetriesPerc=_txMcastMaxRetriesPerc;
-@property(readonly, nonatomic) unsigned long long txMcastNoAckPerc; // @synthesize txMcastNoAckPerc=_txMcastNoAckPerc;
-@property(readonly, nonatomic) unsigned long long txMcastNoBuffPerc; // @synthesize txMcastNoBuffPerc=_txMcastNoBuffPerc;
-@property(readonly, nonatomic) unsigned long long txMcastNoResPerc; // @synthesize txMcastNoResPerc=_txMcastNoResPerc;
-@property(readonly, nonatomic) unsigned long long txMcastSuccessPerc; // @synthesize txMcastSuccessPerc=_txMcastSuccessPerc;
 
 @end
 

@@ -4,43 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface PKWebServiceRequest
 {
     NSMutableArray *_diagnosticReasonsList;
-    NSString *_boundInterfaceIdentifier;
-    unsigned long long _cachePolicyOverride;
-    double _timeoutOverride;
-    NSString *_sourceApplicationIdentifier;
 }
 
 + (id);
 + (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long));
 - (id);
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)!
+A;
 - (void);
 - (id);
 - (id);
+- (void)clearRxMCSSuccess;
 - (void);
-- (void);
-- (void)nged;
+- (void)ubiquityDataclassChanged;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *boundInterfaceIdentifier; // @synthesize boundInterfaceIdentifier=_boundInterfaceIdentifier;
-@property(nonatomic) unsigned long long cachePolicyOverride; // @synthesize cachePolicyOverride=_cachePolicyOverride;
-@property(readonly, nonatomic) NSArray *diagnosticReasons;
-@property(copy, nonatomic) NSString *sourceApplicationIdentifier; // @synthesize sourceApplicationIdentifier=_sourceApplicationIdentifier;
-@property(nonatomic) double timeoutOverride; // @synthesize timeoutOverride=_timeoutOverride;
 
 @end
 

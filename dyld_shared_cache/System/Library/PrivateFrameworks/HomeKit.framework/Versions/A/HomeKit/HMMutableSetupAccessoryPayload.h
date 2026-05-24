@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMSetupAccessoryPayload.h>
 
-@class HMCHIPAccessorySetupPayload, NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface HMMutableSetupAccessoryPayload : HMSetupAccessoryPayload
 {
@@ -15,16 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *categoryNumber; // @dynamic categoryNumber;
-@property(retain, nonatomic) HMCHIPAccessorySetupPayload *chipAccessorySetupPayload; // @dynamic chipAccessorySetupPayload;
-@property(nonatomic, getter=isPaired) _Bool paired; // @dynamic paired;
-@property(copy, nonatomic) NSString *productNumber; // @dynamic productNumber;
-@property(copy, nonatomic) NSString *setupID; // @dynamic setupID;
 @property(copy, nonatomic) NSURL *setupPayloadURL; // @dynamic setupPayloadURL;
-@property(nonatomic) _Bool supportsBTLE; // @dynamic supportsBTLE;
-@property(nonatomic) _Bool supportsIP; // @dynamic supportsIP;
-@property(nonatomic) _Bool supportsWAC; // @dynamic supportsWAC;
-@property(copy, nonatomic) NSNumber *threadIdentifier; // @dynamic threadIdentifier;
 
 @end
 

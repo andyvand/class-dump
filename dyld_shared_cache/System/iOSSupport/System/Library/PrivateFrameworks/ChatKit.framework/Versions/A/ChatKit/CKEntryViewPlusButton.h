@@ -4,64 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, UIButton, UIColor;
-
 @interface CKEntryViewPlusButton
 {
     id blurContainerView;
-    id clippingView;
-    id backgroundView;
-    id backgroundViewContentView;
-    id buttonView;
-    id iconImageView;
-    id plusButtonDelegate;
-    _Bool sendMenuButtonEnabled;
-    double backgroundBlurRadiusLightMode;
-    double backgroundBlurRadiusDarkMode;
-    CAFilter *backgroundCompositingFilterForLightMode;
-    CAFilter *backgroundCompositingFilterForDarkMode;
 }
 
+- (void)gacyNoteFetchedResultsController;
+- (void)countPassphraseManager",&,N,V_passphraseManager;
+- (void)ttributeSet",?,R;
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (double);
 - (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (_Bool);
+- (id){_NSRange=QQ}16^B32;
+- (id)RealtimeCollaboration;
+- (double)SavedSelections;
+- (double)ICNoteDidChangeCalculatePreviewBehavior;
+- (double)automation;
+- (_Bool)__objc_no;
 - (id);
 - (double);
 - (void);
 - (id);
-- (void)emphasizedIcon;
+- (void)unavailabilityIndicatorDeemphasizedIcon;
 - (id)Ä>;
 - (id)Resolved itemProvider idx={%ld} as Plugin Payload. Calling completion handler.;
 - (void)uhñ#;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyAdjustsBackgroundCornerRadius;
-@property(nonatomic) double backgroundBlurRadiusDarkMode; // @synthesize backgroundBlurRadiusDarkMode;
-@property(nonatomic) double backgroundBlurRadiusLightMode; // @synthesize backgroundBlurRadiusLightMode;
-@property(nonatomic) double backgroundBlurRasterizationPercentage;
-@property(nonatomic, retain) CAFilter *backgroundCompositingFilterForDarkMode; // @synthesize backgroundCompositingFilterForDarkMode;
-@property(nonatomic, retain) CAFilter *backgroundCompositingFilterForLightMode; // @synthesize backgroundCompositingFilterForLightMode;
-@property(nonatomic) double backgroundCornerRadius;
-@property(nonatomic, readonly) UIButton *button;
-@property(nonatomic, retain) UIColor *plusButtonBackgroundColor;
-@property(nonatomic) double plusSymbolOpacity;
 @property(nonatomic) _Bool sendMenuButtonEnabled; // @synthesize sendMenuButtonEnabled;
 
 @end

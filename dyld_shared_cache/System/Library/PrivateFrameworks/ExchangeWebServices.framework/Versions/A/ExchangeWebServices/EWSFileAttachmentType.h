@@ -11,8 +11,6 @@
 @interface EWSFileAttachmentType : EWSAttachmentType
 {
     _Bool _IsContactPhoto;
-    _Bool _IsContactPhotoSpecified;
-    NSData *_Content;
 }
 
 + (id);
@@ -21,13 +19,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)VarBoolFromCy;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *Content; // @synthesize Content=_Content;
-@property(nonatomic) _Bool IsContactPhoto; // @synthesize IsContactPhoto=_IsContactPhoto;
-@property(nonatomic) _Bool IsContactPhotoSpecified; // @synthesize IsContactPhotoSpecified=_IsContactPhotoSpecified;
 
 @end
 

@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AMSMappedBundleInfo
 {
     NSString *_bundleIdentifier;
-    NSString *_clientName;
-    NSString *_clientVersion;
-    NSString *_scheme;
-    NSString *_secureScheme;
-    NSString *_accountMediaType;
-    NSString *_proxyAppBundleID;
-    NSString *_userAgentSuffix;
 }
 
 + (id);
@@ -27,35 +20,28 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool);
 + (id);
+- (id)`B;
+- (id)Rh;
 - (id);
+- (void)ѩ#;
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)fierCloudData;
+- (id)__AUTH;
+- (void)IdentifierCloudData;
 - (id)ratings available;
 - (void)h®ÈI(t]$v)%MHdÓ§-ú&ï?q]¢Ö³çM÷XðàÁë¬JÆ,¿ÎZ}î?º<­Oí6Üý1ÞÔÂ;
 - (void)×|[däEöFºì³|!`ròËn"
 (eåÇ63½YjDûT¤r¼óÅcvzlðßÔ°1,¸£¥ºXæ×-8c+â"Ja¯Ñú8;
 
 // Remaining properties
-@property(retain) NSString *accountMediaType; // @synthesize accountMediaType=_accountMediaType;
 @property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSString *clientName; // @synthesize clientName=_clientName;
-@property(retain) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(retain) NSString *proxyAppBundleID; // @synthesize proxyAppBundleID=_proxyAppBundleID;
-@property(retain) NSString *scheme; // @synthesize scheme=_scheme;
-@property(retain) NSString *secureScheme; // @synthesize secureScheme=_secureScheme;
-@property(retain) NSString *userAgentSuffix; // @synthesize userAgentSuffix=_userAgentSuffix;
 
 @end
 

@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CHSWidgetMetricsSpecification
 {
     NSDictionary *_metricsByFamily;
-    NSDictionary *_alternatesByFamily;
 }
 
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)=;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -36,16 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *alternatesByFamily; // @synthesize alternatesByFamily=_alternatesByFamily;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long families;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSDictionary *metricsByFamily; // @synthesize metricsByFamily=_metricsByFamily;
-@property(readonly) Class superclass;
 
 @end
 

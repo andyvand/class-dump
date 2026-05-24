@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSString *_percentString;
 }
 
-- (_Bool);
-- (double);
-- (id);
-- (_Bool);
+- (_Bool)_shouldReplicateMessageItem:(id)arg1 chatStyle:(int)arg2 lastKnownReplicationDate:callerID: /* Error: Ran out of types for this method. */;
+- (double)at %@ already had groupPhotoGuid %@, leaving as is.;
+- (id)d update reason:%ld] /* Error: Ran out of types for this method. */;
+- (_Bool)(s) for transfer info of deleted attachment(s);
 - (void),ðÅÿV=;
 - (long long)e;
 - (long long):0 /* Error: Ran out of types for this method. */;

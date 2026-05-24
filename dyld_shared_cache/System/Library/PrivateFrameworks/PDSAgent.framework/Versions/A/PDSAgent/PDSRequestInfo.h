@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PDSRequestInfo
 {
     unsigned long long _regReason;
-    NSDate *_heartbeatDate;
 }
 
-- (void);
-- (void);
-- (unsigned long long);
+- (void)ttempting to enqueue a command without a command string. Rejected and ignored.;
+- (void)p %@. Error:(id)arg1 %{public}@. Reset-syncing ACLs.;
+- (unsigned long long)blic}@. Deleting asset collection and cancelling pending commands.;
+- (id)c}@. Re-reading album metadata.;
 - (id);
-- (id);
-- (id);
+- (id)handleDeleteForRecordID:recordType: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *heartbeatDate; // @synthesize heartbeatDate=_heartbeatDate;
 @property(nonatomic) unsigned long long regReason; // @synthesize regReason=_regReason;
 
 @end

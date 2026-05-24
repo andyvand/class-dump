@@ -9,7 +9,6 @@
 @interface MPSImageReduceUnary : MPSUnaryImageKernel
 {
     CDStruct_1e3be3a8 _clipRectSource;
-    int _reduceOp;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -17,8 +16,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)*H;
+- (void)initWithKeysToFetch:(id)arg1;
 - (id);
 - (id)Åh¸·?m=Ö³àÁ·?»,K¼þ®?;
 

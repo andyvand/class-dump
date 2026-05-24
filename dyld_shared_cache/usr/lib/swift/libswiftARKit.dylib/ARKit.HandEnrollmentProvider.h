@@ -8,8 +8,6 @@
 {
     id _cHandEnrollmentProvider;
     id _cHandEnrollmentConfiguration;
-    id enrollmentStatusContinuations;
-    id anchorQueue;
 }
 
 @end

@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFImageOption
 {
     NSString *_name;
-    NSString *_defaultValue;
-    NSDictionary *_options;
 }
 
 + (_Bool);
-- (id);
+- (id)setDiskCapacity:(id)arg1;
 - (void);
-- (id);
+- (id)didSelectStartPrivateWindowInDropDownMenu;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)oved. Aborting.;
+- (id)@"NSPredicateOperator"16;
 - (id);
-- (id);
-- (id);
+- (id)@, date:(struct _NSZone *)arg1 %@%@;
 - (id);
 - (void);
 - (id)±¦°1Â0@ù
 × ;
-- (void)hInAttachmentTypes;
+- (void)_countUnigramMatchInAttachmentTypes;
 - (void)Ê;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

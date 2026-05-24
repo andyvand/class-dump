@@ -7,8 +7,6 @@
 @interface PhotosUICore.ItemListManagerUpdater__priv_1183793217D6556F2C96162500F2D758
 {
     id prependListManager;
-    id photoLibrary;
-    id availabilityManager;
 }
 
 @end

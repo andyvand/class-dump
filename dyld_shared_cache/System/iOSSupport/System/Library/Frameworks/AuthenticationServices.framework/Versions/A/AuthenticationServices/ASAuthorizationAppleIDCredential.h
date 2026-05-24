@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSPersonNameComponents, NSString;
+@class NSData, NSString;
 
 @interface ASAuthorizationAppleIDCredential
 {
     NSString *_state;
-    NSData *_authorizationCode;
-    NSData *_identityToken;
-    NSString *_email;
-    NSPersonNameComponents *_fullName;
-    NSData *_accessToken;
-    NSData *_refreshToken;
-    long long _realUserStatus;
-    long long _userAgeRange;
-    struct os_unfair_lock_s _internalLock;
-    NSString *_user;
-    NSArray *_authorizedScopes;
 }
 
 + (id);
@@ -30,25 +19,26 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P ;
 - (long long);
+- (void)ր";
+- (void);
+- (void)@x
+;
+- (id)P;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)recordTextLineStraighteningUndoIfNecessary;
+- (void)oups:(id)arg1 outStrokeGroupsToReplace:outStrokesToPreserve: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)criticalIndex;
 - (id);
 - (void);
 - (id);
@@ -56,23 +46,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *accessToken;
-@property(copy, nonatomic) NSData *authorizationCode;
-@property(readonly, copy, nonatomic) NSArray *authorizedScopes; // @synthesize authorizedScopes=_authorizedScopes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *email;
-@property(copy, nonatomic) NSPersonNameComponents *fullName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *identityToken;
-@property(nonatomic) long long realUserStatus;
-@property(copy, nonatomic) NSData *refreshToken;
-@property(copy, nonatomic) NSString *state;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *user; // @synthesize user=_user;
-@property(nonatomic) long long userAgeRange;
 
 @end
 

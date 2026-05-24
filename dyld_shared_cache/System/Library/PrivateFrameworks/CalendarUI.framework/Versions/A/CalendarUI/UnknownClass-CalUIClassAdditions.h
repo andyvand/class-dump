@@ -7,7 +7,7 @@
 @interface UnknownClass (CalUIClassAdditions)
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (id);
 - (id);
 @end

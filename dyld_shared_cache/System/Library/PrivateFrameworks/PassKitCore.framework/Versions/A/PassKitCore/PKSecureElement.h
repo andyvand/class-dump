@@ -4,43 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFSecureElement, NSArray, NSHashTable, NSMutableArray, NSNumber, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface PKSecureElement
 {
     struct os_unfair_lock_s _lock;
-    _Bool _isInRestrictedMode;
-    _Bool _updatingIsInRestrictedMode;
-    double _isInRestrictedModeTimestamp;
-    _Bool _deletingAllApplets;
-    NSObject<OS_dispatch_source> *_deletingAllAppletsTimer;
-    NSObject<OS_dispatch_queue> *_deletingAllAppletsTimerQueue;
-    struct os_unfair_lock_s _deletingAllAppletsPropertyLock;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    NSObject<OS_dispatch_queue> *_sessionQueue;
-    CDUnknownBlockType _secureElementSessionPrelude;
-    CDUnknownBlockType _secureElementSessionPostlude;
-    unsigned char _sessionCounter;
-    _Bool _startingSession;
-    _Bool _startingPrioritySession;
-    _Bool _startingAsyncSession;
-    NSMutableArray *_sessionAccessHandlers;
-    NSMutableArray *_prioritySessionAccessHandlers;
-    NSMutableArray *_asyncSessionAccessHandlers;
-    NSHashTable *_observers;
-    struct os_unfair_lock_s _observersLock;
-    _Bool _registeredForHardwareUpdates;
-    NFSecureElement *_secureElement;
-    CDUnknownBlockType _pairingChangeHandler;
 }
 
-+ (_Bool);
++ (_Bool)ϗ;
 + (_Bool);
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (void);
@@ -51,12 +25,12 @@
 + (_Bool);
 + (id);
 - (void);
+- (void)c;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (id);
@@ -67,24 +41,24 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id)7;
+- (_Bool);
+- (void);
+- (void);
+- (void)B;
+- (void);
+- (_Bool);
+- (void)V;
 - (void);
 - (void);
 - (void);
@@ -99,60 +73,42 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
+- (void)er"b1"tcpECNFallbackSynLoss"b1"tcpECNNotSupportedPeer"b1"tcpECNRecvCE"b1"tcpECNRecvECE"b1"tcpECNSentECE"b1"tcpECNServerSetup"b1"tcpECNServerSuccess"b1"tcpECNSynAckLost"b1"tcpECNSynLost"b1"tcpECNClientNegotiationEnabled"b1"tcpECNServerNegotiationEnabled"b1};
+- (void)Bcnt"b1};
+- (id)hasHeTbppduNdlimCnt;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)Th;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)$;
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (_Bool);
-- (void)rdSecurityCode:(id)arg1;
-- (void);
-- (_Bool)me;
-- (void)ProvisioningSharingIdentifiersWithRequest:(double)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)erPaymentBalanceForAccountPayment;
+- (void)setCardSecurityCode:(id)arg1;
+- (void)senderAddressType;
+- (_Bool)recordName;
+- (void)pushProvisioningSharingIdentifiersWithRequest:(double)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)peerPaymentBalanceForAccountPayment;
 - (void)ypting virtual card because encrypted data or ephemeral public key are missing;
 - (CDUnknownBlockType)nil key in parsing title field PKPassField:%@ /* Error: Ran out of types for this method. */;
-- (void)T_SERVICE_BILL_PAYMENT_CATEGORY_VERY_EXPENSIVE_PURCHASE_TITLE;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_VERY_EXPENSIVE_PURCHASE_TITLE;
 - (_Bool)passbook.actions.add.cancel;
 - (void)%@'; ;
-- (unsigned long long);
-- (_Bool)rrencyCode;
+- (unsigned long long)SEARCH_OBJECT_TYPE_SE_PASSES;
+- (_Bool)installmentCurrencyCode;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDeletingAllApplets;
-@property(readonly, nonatomic) _Bool isInRestrictedMode;
-@property(readonly, nonatomic) _Bool isOwnable;
-@property(readonly, nonatomic) _Bool isProductionSigned;
-@property(readonly, nonatomic) NSUUID *ownerUserUUID;
-@property(readonly, nonatomic) NSNumber *primaryJSBLSequenceCounter;
-@property(readonly, nonatomic) NSString *primaryRegionTopic;
-@property(readonly, nonatomic) NSString *primarySecureElementIdentifier;
-@property(readonly, nonatomic) NSArray *secureElementIdentifiers;
-@property(copy, nonatomic) CDUnknownBlockType secureElementSessionPostlude;
 @property(copy, nonatomic) CDUnknownBlockType secureElementSessionPrelude;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long supportedTechnologies;
 
 @end
 

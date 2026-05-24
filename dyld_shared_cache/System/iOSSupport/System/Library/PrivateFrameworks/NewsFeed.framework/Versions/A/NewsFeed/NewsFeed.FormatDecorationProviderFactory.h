@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatDecorationProviderFactory
 {
     id assetManager;
-    id systemFactory;
-    id config;
-    id commandCenter;
 }
 
 @end

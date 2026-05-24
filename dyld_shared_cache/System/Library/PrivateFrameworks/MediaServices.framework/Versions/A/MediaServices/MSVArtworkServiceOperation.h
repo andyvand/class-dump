@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVArtworkServiceRequest, NSError, NSString;
+@class MSVArtworkServiceRequest, NSError;
 
 @interface MSVArtworkServiceOperation
 {
     NSError *_operationError;
-    NSString *_debugMessage;
-    MSVArtworkServiceRequest *_request;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *debugMessage;
-@property(readonly, nonatomic) NSError *operationError;
 @property(readonly, nonatomic) MSVArtworkServiceRequest *request; // @synthesize request=_request;
 
 @end

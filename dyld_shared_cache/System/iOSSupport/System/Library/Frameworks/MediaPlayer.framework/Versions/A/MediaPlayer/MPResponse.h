@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MPResponse
 {
     _Bool _valid;
-    id _request;
-    NSArray *_middleware;
-    id _builder;
 }
 
-+ (id);
++ (id)lize.;
 - (void);
-- (id);
+- (id)Hg;
 - (id);
 - (id);
 - (id);
@@ -24,22 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)E;
 - (id);
-- (void)_MAPPING_MISSING__;
+- (void)__MPModelPropertyTVEpisodeStoreCanonicalID__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) id builder; // @synthesize builder=_builder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *middleware; // @synthesize middleware=_middleware;
-@property(readonly, copy, nonatomic) id request; // @synthesize request=_request;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

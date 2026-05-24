@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKAnnotatedCredentialManifest, NSDictionary, NSString;
 @protocol CRKKeychain;
 
 @interface CRKAnnotatedCredentialStore
 {
     id <CRKKeychain> _keychain;
-    NSString *_accessGroup;
-    NSString *_manifestStorageKey;
-    CDUnknownBlockType _addBlock;
-    CDUnknownBlockType _fetchBlock;
 }
 
 + (id);
@@ -35,19 +30,13 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessGroup; // @synthesize accessGroup=_accessGroup;
-@property(readonly, nonatomic) CDUnknownBlockType addBlock; // @synthesize addBlock=_addBlock;
-@property(readonly, copy, nonatomic) NSDictionary *debugInfo;
-@property(readonly, nonatomic) CDUnknownBlockType fetchBlock; // @synthesize fetchBlock=_fetchBlock;
 @property(readonly, nonatomic) id <CRKKeychain> keychain; // @synthesize keychain=_keychain;
-@property(readonly, copy, nonatomic) CRKAnnotatedCredentialManifest *manifest;
-@property(readonly, copy, nonatomic) NSString *manifestStorageKey; // @synthesize manifestStorageKey=_manifestStorageKey;
 
 @end
 

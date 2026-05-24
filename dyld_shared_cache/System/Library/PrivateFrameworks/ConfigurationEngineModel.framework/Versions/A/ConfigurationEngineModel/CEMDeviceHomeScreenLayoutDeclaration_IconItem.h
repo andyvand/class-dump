@@ -6,19 +6,15 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CEMDeviceHomeScreenLayoutDeclaration_IconItem : CEMPayloadBase
 {
     NSString *_payloadType;
-    NSString *_payloadDisplayName;
-    NSString *_payloadBundleID;
-    NSArray *_payloadPages;
-    NSString *_payloadURL;
 }
 
 + (id);
-+ (id);
++ (id)__DATA;
 + (id);
 - (void);
 - (void);
@@ -30,17 +26,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadBundleID; // @synthesize payloadBundleID=_payloadBundleID;
-@property(copy, nonatomic) NSString *payloadDisplayName; // @synthesize payloadDisplayName=_payloadDisplayName;
-@property(copy, nonatomic) NSArray *payloadPages; // @synthesize payloadPages=_payloadPages;
 @property(copy, nonatomic) NSString *payloadType; // @synthesize payloadType=_payloadType;
-@property(copy, nonatomic) NSString *payloadURL; // @synthesize payloadURL=_payloadURL;
 
 @end
 

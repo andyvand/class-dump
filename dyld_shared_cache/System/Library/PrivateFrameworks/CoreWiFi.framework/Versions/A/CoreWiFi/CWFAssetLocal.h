@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface CWFAssetLocal
 {
     NSString *_assetType;
-    NSString *_assetSpecifier;
-    NSString *_assetVersion;
-    NSString *_firstSupportedOS;
-    NSString *_lastSupportedOS;
-    NSString *_firstSupportedBuild;
-    NSString *_lastSupportedBuild;
-    NSURL *_localURL;
-    NSString *_assetID;
-    NSString *_assetBuild;
-    NSDate *_lastTimeCatalogChecked;
-    NSDate *_catalogPostedDate;
 }
 
 + (id);
++ (_Bool)@;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 + (BOOL);
 + (BOOL);
 + (BOOL);
 + (BOOL);
 + (id);
 - (_Bool);
+- (_Bool)h;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -52,18 +41,7 @@
 - (id)	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetBuild; // @synthesize assetBuild=_assetBuild;
-@property(readonly, nonatomic) NSString *assetID; // @synthesize assetID=_assetID;
-@property(readonly, nonatomic) NSString *assetSpecifier; // @synthesize assetSpecifier=_assetSpecifier;
 @property(readonly, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
-@property(readonly, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(readonly, nonatomic) NSDate *catalogPostedDate; // @synthesize catalogPostedDate=_catalogPostedDate;
-@property(readonly, nonatomic) NSString *firstSupportedBuild; // @synthesize firstSupportedBuild=_firstSupportedBuild;
-@property(readonly, nonatomic) NSString *firstSupportedOS; // @synthesize firstSupportedOS=_firstSupportedOS;
-@property(readonly, nonatomic) NSString *lastSupportedBuild; // @synthesize lastSupportedBuild=_lastSupportedBuild;
-@property(readonly, nonatomic) NSString *lastSupportedOS; // @synthesize lastSupportedOS=_lastSupportedOS;
-@property(readonly, nonatomic) NSDate *lastTimeCatalogChecked; // @synthesize lastTimeCatalogChecked=_lastTimeCatalogChecked;
-@property(readonly, nonatomic) NSURL *localURL; // @synthesize localURL=_localURL;
 
 @end
 

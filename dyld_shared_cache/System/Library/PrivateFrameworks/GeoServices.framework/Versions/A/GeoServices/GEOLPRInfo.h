@@ -4,34 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLPRInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_licensePlate;
-    NSString *_powerTypeKey;
-    unsigned long long _timestamp;
-    NSString *_vehicleTypeKey;
-    NSData *_versionId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _maskedplateGeneratorValidatorVersion;
-    struct {
-        unsigned int has_timestamp:1;
-        unsigned int has_maskedplateGeneratorValidatorVersion:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_licensePlate:1;
-        unsigned int read_powerTypeKey:1;
-        unsigned int read_vehicleTypeKey:1;
-        unsigned int read_versionId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)HasScanTimestamp:(id)arg1;
++ (_Bool)setHasScanTimestamp:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -41,22 +21,22 @@
 - (void);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)on.framework/Versions/A/CoreFoundation;
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)4;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)72;
+- (id)RemoteControlClient _dictionaryWithContentsOfXPCObject:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)H;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -65,26 +45,14 @@
 - (id);
 - (void);
 - (void)Key=b7b1(?={_GEOStandardTileKey=b40b6b26b26b14b4b4}{_GEOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}56@72;
-- (id)undSessionStartTime:(struct _NSZone *)arg1;
-- (id)EventARSessionUsage;
+- (id)setLookaroundSessionStartTime:(struct _NSZone *)arg1;
+- (id)GEOLogMsgEventARSessionUsage;
 - (id)is could be either due to a bad server response or error with the route builder;
 - (id)ÿÿ;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLicensePlate;
-@property(nonatomic) _Bool hasMaskedplateGeneratorValidatorVersion;
-@property(readonly, nonatomic) _Bool hasPowerTypeKey;
-@property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) _Bool hasVehicleTypeKey;
-@property(readonly, nonatomic) _Bool hasVersionId;
-@property(retain, nonatomic) NSString *licensePlate;
-@property(nonatomic) unsigned int maskedplateGeneratorValidatorVersion;
-@property(retain, nonatomic) NSString *powerTypeKey;
-@property(nonatomic) unsigned long long timestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *vehicleTypeKey;
-@property(retain, nonatomic) NSData *versionId;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <Intents/INIntent.h>
 
-@class INStartCallRequestMetadata, NSArray, NSString;
-
 @interface INStartAudioCallIntent : INIntent
 {
 }
@@ -16,20 +14,6 @@
 + (_Bool);
 
 // Remaining properties
-@property long long audioRoute;
-@property(copy) INStartCallRequestMetadata *callRequestMetadata;
-@property(readonly, copy) NSArray *contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) long long destinationType;
-@property(readonly) unsigned long long hash;
-@property long long preferredCallProvider;
-@property long long recordTypeForRedialing;
-@property(readonly) Class superclass;
-@property(setter=setTTYType:) long long ttyType;
 @property(readonly) _Bool useSpeaker;
 
 @end

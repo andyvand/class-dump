@@ -9,10 +9,10 @@
     id implementation;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)d = 400 WHERE path = 'Podcasts';
+- (void)) WHERE path = 'Podcasts');
+- (id)R NOT NULL, media_type INTEGER NOT NULL, count INTEGER NOT NULL DEFAULT 0, UNIQUE(container_pid, media_type));
+- (id)EFAULT 0;
 - (id);
 - (void);
 

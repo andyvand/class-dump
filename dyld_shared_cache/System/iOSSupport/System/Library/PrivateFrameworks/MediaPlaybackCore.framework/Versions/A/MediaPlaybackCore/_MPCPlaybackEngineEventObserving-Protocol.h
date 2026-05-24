@@ -4,6 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPCPlaybackEngine;
+
 @protocol _MPCPlaybackEngineEventObserving
+
+@optional
+- (void)aclass %@ as enablement requires a user decision.;
+- (void)nly action %lu is not safe for auto enablement.";
+- (void)ons:(MPCPlaybackEngine *)arg1 %@;
+- (void)lement %@;
+- (void)of dataclasses and actions for enablement %@;
+- (void)ng with dataclass actions:(MPCPlaybackEngine *)arg1 %@;
+- (void)dataclass actions:(MPCPlaybackEngine *)arg1 %@;
+- (void)actions had success (%@) for account (%@) with dataclass actions:(MPCPlaybackEngine *)arg1 %@;
+- (void)ntain ref to self.;
+- (void)without auto-enableable dataclasses successful completed.;
+- (void)h save.;
+- (void)false.;
+- (void)lass. Setting auto-enable for iPad to false.;
+- (void)need to auto-enable:(MPCPlaybackEngine *)arg1 %@;
+- (void)dle record with error:(MPCPlaybackEngine *)arg1 %@;
+- (void)for supported regions provided an error:(MPCPlaybackEngine *)arg1 %@;
+- (void)ed regions key exists:(MPCPlaybackEngine *)arg1 %@;
+- (void)or bundle identifier:(MPCPlaybackEngine *)arg1 %@;
+- (void)a restricted app.;
+- (void)when its app is removed.;
+- (void)r removed for dataclass %@;
+- (void)ed. No reason to consider restricted or removed for dataclass %@;
+- (void)defaults disabled dataclasses:(MPCPlaybackEngine *)arg1 %@;
+- (void)3;
+- (void);
 @end
 

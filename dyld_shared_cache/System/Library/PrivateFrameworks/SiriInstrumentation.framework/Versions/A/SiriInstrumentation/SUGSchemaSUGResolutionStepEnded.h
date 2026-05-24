@@ -6,33 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGResolutionStepEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void);
 - (id);
+- (void)> Starting clock that is already started
+;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)>68;
+- (_Bool)setAccessibilityTitleUIElement:(id)arg1;
+- (_Bool)LIMIT 1), 0));;
 - (id);
 - (id);
-- (id)yncedRecognizeMyVoice;
-- (id)dateParameters;
-- (_Bool);
-- (_Bool)SOURCE_UNKNOWN;
-- (void)tformSchemaIFPlatformTarget;
+- (id)deleteNumUsersWhoSyncedRecognizeMyVoice;
+- (id)_hasUpdateParameters;
+- (_Bool)DISMISSALREASON_CARPLAY_BANNER_KNOB_MOVEMENT;
+- (_Bool)FLOWMEDIAPLAYERCHOSENEXECUTIONSOURCE_UNKNOWN;
+- (void)IFPlatformSchemaIFPlatformTarget;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,24 +6,17 @@
 
 #import <SceneKit/SCNAction.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SCNActionRunAction : SCNAction
 {
     SCNAction *_action;
-    NSString *_subSpriteKey;
-    NSString *_actionKey;
-    _Bool _waitForKeyedAction;
-    _Bool _runOnSubSprite;
-    _Bool _fired;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (void);
 - (id);

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CNScheduler;
+@class NSString;
+@protocol CNReaderWriterScheduler, CNScheduler;
 
 @protocol CNSchedulerProvider
+- (id <CNScheduler>);
+- (id <CNReaderWriterScheduler>)with identifier:(NSString *)arg1 %@, version:%@, error:%@ /* Error: Ran out of types for this method. */;
 - (id <CNScheduler>)?$;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNScheduler> backgroundScheduler;
-@property(readonly, nonatomic) id <CNScheduler> immediateScheduler;
-@property(readonly, nonatomic) id <CNScheduler> inlineScheduler;
-@property(readonly, nonatomic) id <CNScheduler> mainThreadScheduler;
 @end
 

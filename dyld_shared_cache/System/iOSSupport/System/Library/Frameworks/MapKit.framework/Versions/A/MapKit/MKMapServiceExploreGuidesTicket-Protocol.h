@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceExploreGuidesTicket
+- (void)xt:(void (^)(GEOExploreGuidesLookupResult *, NSError *))arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

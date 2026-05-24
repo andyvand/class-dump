@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBText
 {
     unsigned int _maxLines;
-    NSString *_text;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool)`;
+- (id)setEffectiveNameSource:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -28,15 +27,6 @@
 - (void)MediaArtworkImage";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int maxLines; // @synthesize maxLines=_maxLines;
-@property(readonly) Class superclass;
 @property(copy) NSString *text; // @synthesize text=_text;
 
 @end

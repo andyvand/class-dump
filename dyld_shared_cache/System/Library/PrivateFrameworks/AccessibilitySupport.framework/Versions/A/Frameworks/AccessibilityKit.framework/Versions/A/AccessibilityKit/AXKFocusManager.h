@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, NSString;
-@protocol AXKFocusManagerDelegate, AXKKeyboardFocusSearchDelegate;
+@class NSMutableDictionary;
+@protocol AXKKeyboardFocusSearchDelegate;
 
 @interface AXKFocusManager
 {
     id <AXKKeyboardFocusSearchDelegate> _searchDelegate;
-    id <AXKFocusManagerDelegate> _focusDelegate;
-    NSMutableDictionary *_focusChains;
-    NSLock *_focusChainLock;
 }
 
 + (id);
@@ -20,31 +17,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)@9;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)setDocumentView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSLock *focusChainLock; // @synthesize focusChainLock=_focusChainLock;
 @property(retain, nonatomic) NSMutableDictionary *focusChains; // @synthesize focusChains=_focusChains;
-@property(retain, nonatomic) id <AXKFocusManagerDelegate> focusDelegate; // @synthesize focusDelegate=_focusDelegate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <AXKKeyboardFocusSearchDelegate> searchDelegate; // @synthesize searchDelegate=_searchDelegate;
-@property(readonly) Class superclass;
 
 @end
 

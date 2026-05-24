@@ -7,12 +7,11 @@
 @interface NEIKEv2RequestContext
 {
     _Bool _requestInitiator;
-    _Bool _preventSleepUntilFinished;
 }
 
 - (void);
-- (void);
-- (id);
+- (void)k;
+- (id)equired;
 - (int)@:socket type %s (%s) /* Error: Ran out of types for this method. */;
 
 // Remaining properties

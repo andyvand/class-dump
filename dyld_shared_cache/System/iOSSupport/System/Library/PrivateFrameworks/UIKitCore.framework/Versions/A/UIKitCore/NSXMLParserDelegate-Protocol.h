@@ -7,7 +7,10 @@
 @protocol NSXMLParserDelegate
 
 @optional
-- (void)sentedViewControllerViewInSuperview;
+- (void);
+- (void)_ֈ	;
+- (void);
+- (void)_frameOfPresentedViewControllerViewInSuperview;
 - (void)rollEnabled;
 @end
 

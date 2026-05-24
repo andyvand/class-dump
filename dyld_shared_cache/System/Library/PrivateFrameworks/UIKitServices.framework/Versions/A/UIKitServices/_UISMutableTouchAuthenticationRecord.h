@@ -6,28 +6,24 @@
 
 #import <UIKitServices/_UISTouchAuthenticationRecord.h>
 
-@class BKSWindowServerHitTestSecurityAnalysis, NSString;
+@class BKSWindowServerHitTestSecurityAnalysis;
 
 __attribute__((visibility("hidden")))
 @interface _UISMutableTouchAuthenticationRecord : _UISTouchAuthenticationRecord
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)keyPathsForValuesAffectingTemporarilyToggleZoomHotKeyEnabled;
+- (void)keyPathsForValuesAffectingTemporarilyDetachFromPointerHotKeyEnabled;
+- (void)keyPathsForValuesAffectingResizeHotKeysEnabled;
+- (void)keyPathsForValuesAffectingResizeHotKeysEnabled;
+- (void)keyPathsForValuesAffectingQuickSwitchHotKeysEnabled;
 - (id);
-- (void);
+- (void)%d] size %llu backfilled to %d task states (indexes %lu-%lu)
+;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *hostBundleId; // @dynamic hostBundleId;
-@property(nonatomic) _Bool hostIsInternal; // @dynamic hostIsInternal;
-@property(copy, nonatomic) NSString *hostSDKVersion; // @dynamic hostSDKVersion;
 @property(retain, nonatomic) BKSWindowServerHitTestSecurityAnalysis *securityAnalysis; // @dynamic securityAnalysis;
-@property(copy, nonatomic) NSString *serviceBundleId; // @dynamic serviceBundleId;
-@property(nonatomic) long long serviceInstanceIdentifier; // @dynamic serviceInstanceIdentifier;
 
 @end
 

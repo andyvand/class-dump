@@ -7,11 +7,10 @@
 @class NSArray;
 
 @protocol XARSignatureProvider
+- (_Bool);
 
 // Remaining properties
 @property(readonly) NSArray *CMSCertificates;
-@property(readonly) NSArray *RSACertificates;
 @property(readonly) _Bool shouldSignWithCMS;
-@property(readonly) _Bool shouldSignWithRSA;
 @end
 

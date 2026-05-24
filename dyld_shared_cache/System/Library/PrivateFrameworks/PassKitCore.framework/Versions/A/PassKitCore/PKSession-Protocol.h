@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PKSessionDelegate;
-
 @protocol PKSession
+- (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <PKSessionDelegate> delegate;
 @property(readonly, nonatomic) unsigned long long state;
 @end
 

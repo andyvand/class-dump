@@ -9,7 +9,6 @@
 @interface HMAccessoryLastSeenStatus
 {
     NSDate *_lastSeenDate;
-    unsigned long long _lowBatteryStatus;
 }
 
 - (unsigned long long);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *lastSeenDate; // @synthesize lastSeenDate=_lastSeenDate;
-@property(readonly, nonatomic) unsigned long long lowBatteryStatus; // @synthesize lowBatteryStatus=_lowBatteryStatus;
 
 @end
 

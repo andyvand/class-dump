@@ -7,18 +7,11 @@
 @interface SSRTriggerPhraseDetectorNDAPIResult
 {
     _Bool _isEarlyWarning;
-    _Bool _isRescoring;
-    float _bestScore;
-    unsigned long long _phId;
-    unsigned long long _samplesFed;
-    unsigned long long _bestPhrase;
-    unsigned long long _bestStart;
-    unsigned long long _bestEnd;
 }
 
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,17 +24,10 @@
 - (unsigned long long);
 - (unsigned long long);
 - (float);
-- (void);
+- (void)ace_with_heart-shaped_eyes;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bestEnd; // @synthesize bestEnd=_bestEnd;
-@property(nonatomic) unsigned long long bestPhrase; // @synthesize bestPhrase=_bestPhrase;
-@property(nonatomic) float bestScore; // @synthesize bestScore=_bestScore;
-@property(nonatomic) unsigned long long bestStart; // @synthesize bestStart=_bestStart;
-@property(nonatomic) _Bool isEarlyWarning; // @synthesize isEarlyWarning=_isEarlyWarning;
-@property(nonatomic) _Bool isRescoring; // @synthesize isRescoring=_isRescoring;
 @property(nonatomic) unsigned long long phId; // @synthesize phId=_phId;
-@property(nonatomic) unsigned long long samplesFed; // @synthesize samplesFed=_samplesFed;
 
 @end
 

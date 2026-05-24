@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONonTiledInfo, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEONonTiledModel
 {
     PBDataReader *_reader;
-    GEONonTiledInfo *_info;
-    NSMutableArray *_materialMaps;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_info:1;
-        unsigned int read_materialMaps:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)mp:(id)arg1;
++ (_Bool)setHasUpdatedTimestamp:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)hiddenStatesFromObservationSequence:(id)arg1;
 - (id);
-- (void);
+- (void)oviderBeginInterruption:(id)arg1 withContext:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -36,13 +26,13 @@
 - (void);
 - (_Bool)belFilter";
 - (id)}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@0:(struct _NSZone *)arg1 8Q16;
-- (unsigned long long)nDomains;
-- (void)cheable;
+- (unsigned long long)versionDomains;
+- (void)responseIsCacheable;
 - (id)V_transitSummaryUpdatedHandler;
 - (void),QÄRSdTÔT;
 - (id)¬Ç;
-- (id)e_zoom_level;
-- (id)_nearby_payment_method_lookup_parameters;
+- (id)style_zoom_level;
+- (id)transit_nearby_payment_method_lookup_parameters;
 - (id)/4~CNqLugBredD1EtXl51SgzMTmS7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/stubs/substitute.cc;
 - (void)Ì;
 - (void)×ð6B72;
@@ -51,8 +41,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasInfo;
-@property(retain, nonatomic) GEONonTiledInfo *info;
-@property(retain, nonatomic) NSMutableArray *materialMaps;
 
 @end
 

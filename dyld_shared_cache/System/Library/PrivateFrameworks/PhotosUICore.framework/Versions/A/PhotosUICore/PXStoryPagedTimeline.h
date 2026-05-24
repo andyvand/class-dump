@@ -6,30 +6,21 @@
 
 #import <PhotosUICore/PXStoryDerivedTimeline.h>
 
-@class PXCArrayStore, PXStoryPagedTimelineSpec;
-
 @interface PXStoryPagedTimeline : PXStoryDerivedTimeline
 {
     long long _numberOfPages;
-    PXStoryPagedTimelineSpec *_spec;
-    PXCArrayStore *_transformedClipInfosStore;
-    PXCArrayStore *_transformedRectsStore;
-    CDUnknownBlockType _clipSizeTranformer;
-    struct CGSize _size;
-    CDStruct_982265da _keyPageMix;
-    CDStruct_e83c9415 _timeRange;
 }
 
 - (id);
 - (id);
-- (CDStruct_982265da);
+- (CDStruct_48d5200d);
 - (id);
 - (id);
 - (id);
 - (struct CGRect);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)78;
 - (void);
 - (long long);
 - (void);
@@ -42,12 +33,7 @@
 - (long long)¼v: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType clipSizeTranformer; // @synthesize clipSizeTranformer=_clipSizeTranformer;
-@property(readonly, nonatomic) CDStruct_982265da keyPageMix; // @synthesize keyPageMix=_keyPageMix;
 @property(readonly, nonatomic) long long numberOfPages; // @synthesize numberOfPages=_numberOfPages;
-@property(readonly, nonatomic) PXStoryPagedTimelineSpec *spec; // @synthesize spec=_spec;
-@property(readonly, nonatomic) PXCArrayStore *transformedClipInfosStore; // @synthesize transformedClipInfosStore=_transformedClipInfosStore;
-@property(readonly, nonatomic) PXCArrayStore *transformedRectsStore; // @synthesize transformedRectsStore=_transformedRectsStore;
 
 @end
 

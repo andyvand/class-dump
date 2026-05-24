@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol VGVirtualGaragePersisting;
+
 @protocol VGVirtualGaragePersistingDelegate
+- (void)initWithFrame:(id <VGVirtualGaragePersisting>)arg1 appearanceDelegate:(NSArray *)arg2;
 @end
 

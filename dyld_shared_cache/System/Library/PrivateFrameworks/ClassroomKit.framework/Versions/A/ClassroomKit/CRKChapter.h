@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface CRKChapter
 {
     NSString *_title;
-    NSArray *_subchapters;
-    NSURL *_webURL;
 }
 
 + (_Bool);
@@ -23,15 +21,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)presentEditor:forCreating: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *JSONRepresentation;
-@property(copy, nonatomic) NSArray *subchapters; // @synthesize subchapters=_subchapters;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSURL *webURL; // @synthesize webURL=_webURL;
 
 @end
 

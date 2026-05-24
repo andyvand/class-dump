@@ -4,30 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface RTPlaceTypeClassifierModelRankerInput
 {
     double _mean_daily_longest_charging_duration_bucketed;
-    double _mean_daily_longest_screen_lock_duration_bucketed;
-    double _mean_daily_longest_uninterrupted_WiFi_connection_duration_bucketed;
-    double _mean_daily_total_charging_duration_bucketed;
-    double _mean_daily_total_screen_lock_duration_bucketed;
-    double _mean_daily_total_uninterrupted_WiFi_connection_duration_bucketed;
-    double _mean_daily_uninterrupted_WiFi_connection_stability_ratio_bucketed;
-    double _median_daily_longest_charging_duration_bucketed;
-    double _median_daily_longest_screen_lock_duration_bucketed;
-    double _median_daily_longest_uninterrupted_WiFi_connection_duration_bucketed;
-    double _median_daily_total_charging_duration_bucketed;
-    double _median_daily_total_screen_lock_duration_bucketed;
-    double _median_daily_total_uninterrupted_WiFi_connection_duration_bucketed;
-    double _percentage_of_days_with_charging_bucketed;
-    double _percentage_of_days_with_screen_lock_bucketed;
-    double _percentage_of_days_with_uninterrupted_WiFi_connection_bucketed;
-    double _is_iPhone;
-    double _is_iPad;
-    double _is_Watch;
 }
 
 - (void);
@@ -62,37 +42,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)k;
 - (double);
 - (double);
 - (double);
 - (double);
 - (id);
-- (double);
+- (double)afterward, it was:%d /* Error: Ran out of types for this method. */;
 - (id)G_styleAttributes;
 - (id)itorProtocol)] && [sessionManagerDelegate conformsToProtocol:(id)arg1 @protocol(SMSessionManagerRegistrationProtocol)];
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(nonatomic) double is_Watch; // @synthesize is_Watch=_is_Watch;
-@property(nonatomic) double is_iPad; // @synthesize is_iPad=_is_iPad;
-@property(nonatomic) double is_iPhone; // @synthesize is_iPhone=_is_iPhone;
 @property(nonatomic) double mean_daily_longest_charging_duration_bucketed; // @synthesize mean_daily_longest_charging_duration_bucketed=_mean_daily_longest_charging_duration_bucketed;
-@property(nonatomic) double mean_daily_longest_screen_lock_duration_bucketed; // @synthesize mean_daily_longest_screen_lock_duration_bucketed=_mean_daily_longest_screen_lock_duration_bucketed;
-@property(nonatomic) double mean_daily_longest_uninterrupted_WiFi_connection_duration_bucketed; // @synthesize mean_daily_longest_uninterrupted_WiFi_connection_duration_bucketed=_mean_daily_longest_uninterrupted_WiFi_connection_duration_bucketed;
-@property(nonatomic) double mean_daily_total_charging_duration_bucketed; // @synthesize mean_daily_total_charging_duration_bucketed=_mean_daily_total_charging_duration_bucketed;
-@property(nonatomic) double mean_daily_total_screen_lock_duration_bucketed; // @synthesize mean_daily_total_screen_lock_duration_bucketed=_mean_daily_total_screen_lock_duration_bucketed;
-@property(nonatomic) double mean_daily_total_uninterrupted_WiFi_connection_duration_bucketed; // @synthesize mean_daily_total_uninterrupted_WiFi_connection_duration_bucketed=_mean_daily_total_uninterrupted_WiFi_connection_duration_bucketed;
-@property(nonatomic) double mean_daily_uninterrupted_WiFi_connection_stability_ratio_bucketed; // @synthesize mean_daily_uninterrupted_WiFi_connection_stability_ratio_bucketed=_mean_daily_uninterrupted_WiFi_connection_stability_ratio_bucketed;
-@property(nonatomic) double median_daily_longest_charging_duration_bucketed; // @synthesize median_daily_longest_charging_duration_bucketed=_median_daily_longest_charging_duration_bucketed;
-@property(nonatomic) double median_daily_longest_screen_lock_duration_bucketed; // @synthesize median_daily_longest_screen_lock_duration_bucketed=_median_daily_longest_screen_lock_duration_bucketed;
-@property(nonatomic) double median_daily_longest_uninterrupted_WiFi_connection_duration_bucketed; // @synthesize median_daily_longest_uninterrupted_WiFi_connection_duration_bucketed=_median_daily_longest_uninterrupted_WiFi_connection_duration_bucketed;
-@property(nonatomic) double median_daily_total_charging_duration_bucketed; // @synthesize median_daily_total_charging_duration_bucketed=_median_daily_total_charging_duration_bucketed;
-@property(nonatomic) double median_daily_total_screen_lock_duration_bucketed; // @synthesize median_daily_total_screen_lock_duration_bucketed=_median_daily_total_screen_lock_duration_bucketed;
-@property(nonatomic) double median_daily_total_uninterrupted_WiFi_connection_duration_bucketed; // @synthesize median_daily_total_uninterrupted_WiFi_connection_duration_bucketed=_median_daily_total_uninterrupted_WiFi_connection_duration_bucketed;
-@property(nonatomic) double percentage_of_days_with_charging_bucketed; // @synthesize percentage_of_days_with_charging_bucketed=_percentage_of_days_with_charging_bucketed;
-@property(nonatomic) double percentage_of_days_with_screen_lock_bucketed; // @synthesize percentage_of_days_with_screen_lock_bucketed=_percentage_of_days_with_screen_lock_bucketed;
-@property(nonatomic) double percentage_of_days_with_uninterrupted_WiFi_connection_bucketed; // @synthesize percentage_of_days_with_uninterrupted_WiFi_connection_bucketed=_percentage_of_days_with_uninterrupted_WiFi_connection_bucketed;
 
 @end
 

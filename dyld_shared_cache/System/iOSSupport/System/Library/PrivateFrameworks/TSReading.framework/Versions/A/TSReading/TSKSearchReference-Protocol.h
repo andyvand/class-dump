@@ -4,17 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TSKSelection;
-@protocol TSKAnnotation;
+@class NSArray, NSString, TSKSelection;
+@protocol TSKSearchReference;
 
 @protocol TSKSearchReference
+- (void)upported session types;
+- (void)teSupportedCommands];
+- (void)%@" reactionID=%@ item=%@>;
+- (void)eItem isKindOfClass:(_Bool)arg1 [MPAVItem class]];
+- (id <TSKSearchReference>)OfClass:[MPAVItem class]] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)nID %@;
+- (id <TSKSearchReference>)em *)item isKindOfClass:(NSString *)arg1 [MPAVItem class]];
+- (id <TSKSearchReference>)engineID;
+- (_Bool)_MPCModelStorePlaybackItemsRequestCodingKeyInGroupSession;
+- (NSArray *);
 - (TSKSelection *)Internal/Library/BuildRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/persistence/src/TSPDocumentResourceCacheEntry.m;
 
 // Remaining properties
-@property(retain, nonatomic) id <TSKAnnotation> annotation;
-@property(nonatomic) _Bool autohideHighlight;
-@property(retain, nonatomic) NSArray *findHighlights;
-@property(nonatomic) _Bool pulseHighlight;
 @property(nonatomic) struct CGPoint searchReferencePoint;
 @end
 

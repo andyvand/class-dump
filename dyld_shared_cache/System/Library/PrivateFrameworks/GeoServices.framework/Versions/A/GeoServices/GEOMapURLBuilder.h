@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOEnrichmentInfo, GEOMuninViewState, GEOURLCollectionStorage, GEOURLExtraStorage, NSMutableDictionary;
+@class GEOURLCollectionStorage, NSMutableDictionary;
 
 @interface GEOMapURLBuilder
 {
     NSMutableDictionary *_dict;
-    GEOURLCollectionStorage *_collectionStorage;
-    GEOURLExtraStorage *_extraStorage;
-    GEOMuninViewState *_muninViewState;
-    long long _actionType;
-    GEOEnrichmentInfo *_enrichmentInfo;
 }
 
 + (id);
@@ -28,41 +23,41 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)a;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)A;
++ (id);
++ (id);
++ (id);
++ (id)newBufferWithLength:(id)arg1 options:(id)arg2;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)__objc_doubleobj__AUTH_CONST;
 + (id)ñ¹*1Â0@ù
 × ;
-+ (id)er:(id)arg1;
-+ (id)rs;
++ (id)startWithRequest:(id)arg1 traits:(unsigned long long)arg2 completionHandler:(int)arg3;
++ (id)GEOPDFeatureIdGeocodingParameters;
 + (id)É;
 + (id)ownloaded = @bytes_downloaded    WHERE identifier = @identifier AND policy = @policy;;
 + (id)Library/BuildRoots/4~CNqLugBredD1EtXl51SgzMTmS7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/GeoServices/Logging/GEOFileLogging.m;
@@ -72,15 +67,15 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -95,18 +90,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -121,7 +116,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ounter,S_setUsageCounter:(id)arg1 ,V_usageCounter;
 - (void);
 - (void)þÿÿÿ;
 - (id);
@@ -130,9 +125,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) GEOURLCollectionStorage *collectionStorage; // @synthesize collectionStorage=_collectionStorage;
-@property(retain, nonatomic) GEOEnrichmentInfo *enrichmentInfo; // @synthesize enrichmentInfo=_enrichmentInfo;
-@property(retain, nonatomic) GEOURLExtraStorage *extraStorage; // @synthesize extraStorage=_extraStorage;
-@property(retain, nonatomic) GEOMuninViewState *muninViewState; // @synthesize muninViewState=_muninViewState;
 
 @end
 

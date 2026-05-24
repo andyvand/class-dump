@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)7¤:l;Ì; /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)#;
 
 @end
 

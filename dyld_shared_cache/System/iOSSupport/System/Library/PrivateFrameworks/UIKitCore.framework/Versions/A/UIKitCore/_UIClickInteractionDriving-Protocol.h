@@ -4,18 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer, UIView;
+@class UIView;
 @protocol _UIClickInteractionDriverDelegate;
 
 @protocol _UIClickInteractionDriving
 + (_Bool)an invalid target rect (%@); ignoring update.;
+- (double)positionUUID;
 - (void)0@ù
 × ;
-- (void)cessibilityAttributedValue:(double)arg1;
-- (UIView *)eryUnfilledColor;
+- (void)_internalSetAccessibilityAttributedValue:(double)arg1;
+- (UIView *)_batteryUnfilledColor;
 - (void)_transitionConductor;
-- (_Bool)w;
-- (double)ContentSizePreferenceClientSettings;
+- (_Bool)gapView;
+- (double)_UISceneHostingContentSizePreferenceClientSettings;
 - (void);
 - (_Bool)Ñþÿ;
 - (double);
@@ -23,27 +24,10 @@
 - (_Bool)43Øs;
 
 @optional
-- (_Bool)e;
+- (void);
+- (_Bool)SafeAreaCornerType;
 
 // Remaining properties
-@property(nonatomic) double allowableMovement;
-@property(readonly, nonatomic) _Bool allowsFeedback;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool cancelsTouchesInView;
-@property(readonly, nonatomic) _Bool clicksUpAutomaticallyAfterTimeout;
 @property(nonatomic) __weak id <_UIClickInteractionDriverDelegate> delegate;
-@property(nonatomic) unsigned long long driverStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly, nonatomic) _Bool hasExceededAllowableMovement;
-@property(readonly, nonatomic) unsigned long long inputPrecision;
-@property(readonly, nonatomic) _Bool isCurrentlyAcceleratedByForce;
-@property(readonly, nonatomic) double maximumEffectProgress;
-@property(readonly, nonatomic) UIGestureRecognizer *primaryGestureRecognizer;
-@property(readonly, nonatomic) double touchDuration;
-@property(nonatomic) __weak UIView *view;
 @end
 

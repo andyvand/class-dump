@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKTextInputKeyboardSuppressionPolicyDelegate
 {
     _Bool _isQueryingLocaleIdentifier;
-    _Bool _suppressLocaleIdentifier;
-    _Bool isFloatingKeyboardVisible;
 }
 
 - (void);
@@ -22,18 +18,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool)atorHighlightedView;
+- (_Bool)_separatorHighlightedView;
 
 // Remaining properties
 @property(nonatomic) _Bool _suppressLocaleIdentifier; // @synthesize _suppressLocaleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFloatingKeyboardVisible; // @synthesize isFloatingKeyboardVisible;
-@property(readonly) Class superclass;
 
 @end
 

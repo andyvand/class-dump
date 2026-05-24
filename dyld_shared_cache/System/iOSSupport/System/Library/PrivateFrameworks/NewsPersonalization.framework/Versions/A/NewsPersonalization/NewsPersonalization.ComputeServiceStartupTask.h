@@ -7,9 +7,6 @@
 @interface NewsPersonalization.ComputeServiceStartupTask
 {
     id appPrepared;
-    id hasRun;
-    id startupComplete;
-    id computeService;
 }
 
 @end

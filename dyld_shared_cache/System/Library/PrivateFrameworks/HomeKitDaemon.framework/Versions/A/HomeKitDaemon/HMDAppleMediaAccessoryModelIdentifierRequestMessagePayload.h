@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSString *_accessoryIdentifier;
 }
 
-+ (id);
++ (id)rame:%@ /* Error: Ran out of types for this method. */;
 + (id)W;
-- (id);
-- (id);
+- (id)setStyleableFilter: /* Error: Ran out of types for this method. */;
+- (id)runPetIngestWithGraphUpdate:(id)arg1 progressBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -25,13 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSString *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

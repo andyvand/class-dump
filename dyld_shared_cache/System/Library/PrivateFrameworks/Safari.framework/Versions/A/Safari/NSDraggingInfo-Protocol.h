@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSPasteboard, NSWindow;
+@class NSWindow;
 
 @protocol NSDraggingInfo
+- (void)*;
+- (long long);
 
 // Remaining properties
-@property _Bool animatesToDestination;
-@property(readonly) NSImage *draggedImage;
-@property(readonly) struct CGPoint draggedImageLocation;
 @property(readonly) NSWindow *draggingDestinationWindow;
-@property long long draggingFormation;
-@property(readonly) struct CGPoint draggingLocation;
-@property(readonly) NSPasteboard *draggingPasteboard;
-@property(readonly) long long draggingSequenceNumber;
-@property(readonly) id draggingSource;
-@property(readonly) unsigned long long draggingSourceOperationMask;
-@property long long numberOfValidItemsForDrop;
-@property(readonly) long long springLoadingHighlight;
 @end
 

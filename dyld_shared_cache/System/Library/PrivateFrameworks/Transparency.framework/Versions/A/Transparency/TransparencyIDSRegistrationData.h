@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSError, NSString;
+@class NSString;
 
 @interface TransparencyIDSRegistrationData
 {
     NSString *_application;
-    NSData *_tbsKTIDSRegistrationData;
-    NSData *_signature;
-    NSData *_publicKey;
-    NSData *_pushToken;
-    NSDate *_orderedTimestamp;
-    NSString *_state;
-    NSError *_error;
-    NSDate *_createdAt;
-    NSDate *_signedAt;
-    NSDate *_uploadedToCKAt;
-    NSDate *_nextRetryAt;
-    NSString *_altDSID;
-    NSString *_dsid;
 }
 
 + (_Bool);
@@ -34,22 +21,22 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (id)_serviceConnection;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)E;
+- (void);
+- (void);
+- (void)IMP_ASSERTION;
+- (void)setWithCandidates:(id)arg1 initialSelectedIndex:defaultCandidate:sortMethods:sortMethodGroups:indexTitles:showExtensionCandidates:disambiguationCandidates:selectedDisambiguationCandidateIndex:proactiveTriggers: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -61,20 +48,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSString *altDSID; // @synthesize altDSID=_altDSID;
 @property(retain) NSString *application; // @synthesize application=_application;
-@property(retain) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(retain) NSString *dsid; // @synthesize dsid=_dsid;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSDate *nextRetryAt; // @synthesize nextRetryAt=_nextRetryAt;
-@property(retain) NSDate *orderedTimestamp; // @synthesize orderedTimestamp=_orderedTimestamp;
-@property(retain) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(retain) NSData *pushToken; // @synthesize pushToken=_pushToken;
-@property(retain) NSData *signature; // @synthesize signature=_signature;
-@property(retain) NSDate *signedAt; // @synthesize signedAt=_signedAt;
-@property(retain) NSString *state; // @synthesize state=_state;
-@property(retain) NSData *tbsKTIDSRegistrationData; // @synthesize tbsKTIDSRegistrationData=_tbsKTIDSRegistrationData;
-@property(retain) NSDate *uploadedToCKAt; // @synthesize uploadedToCKAt=_uploadedToCKAt;
 
 @end
 

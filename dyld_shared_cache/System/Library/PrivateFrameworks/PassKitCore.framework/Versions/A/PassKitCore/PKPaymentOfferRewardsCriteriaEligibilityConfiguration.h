@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface PKPaymentOfferRewardsCriteriaEligibilityConfiguration
 {
     NSDecimalNumber *_amount;
-    NSString *_currencyCode;
-    NSString *_merchantCountryCode;
-    unsigned long long _context;
-    unsigned long long _options;
 }
 
 - (id);
@@ -26,17 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(readonly, nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(readonly, copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *merchantCountryCode; // @synthesize merchantCountryCode=_merchantCountryCode;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

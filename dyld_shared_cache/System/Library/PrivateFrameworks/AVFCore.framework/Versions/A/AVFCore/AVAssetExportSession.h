@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetExportSessionInternal, NSError, NSString, NSURL;
+@class AVAssetExportSessionInternal, NSString;
 
 @interface AVAssetExportSession
 {
@@ -12,33 +12,33 @@
 }
 
 + (CDStruct_1b6d18a9);
-+ (id);
-+ (id);
++ (id)!;
++ (id)J;
 + (id);
 + (long long);
 + (void);
 + (id);
 - (id);
+- (id)];
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)' (;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (CDStruct_1b6d18a9);
-- (id);
+- (id)ШH�;
 - (CDStruct_1b6d18a9);
 - (id);
 - (id);
@@ -46,8 +46,8 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void)ȯ;
+- (void)j;
 - (id);
 - (void);
 - (_Bool);
@@ -67,31 +67,23 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
 - (float);
 - (id);
 - (CDStruct_e83c9415);
-- (id)Request: /* Error: Ran out of types for this method. */;
+- (id)_handleURLRequest: /* Error: Ran out of types for this method. */;
 - (_Bool)anguageOnlyKey;
 - (void)current date:(id)arg1 %@
 ;
 - (void)¤;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsParallelizedExport;
-@property(readonly, retain, nonatomic) AVAsset *asset;
-@property(readonly, nonatomic) NSError *error;
-@property(copy, nonatomic) NSString *outputFileType;
-@property(copy, nonatomic) NSURL *outputURL;
 @property(readonly, nonatomic) NSString *presetName;
-@property(readonly, nonatomic) float progress;
-@property(nonatomic) _Bool shouldOptimizeForNetworkUse;
-@property(readonly, nonatomic) long long status;
 
 @end
 

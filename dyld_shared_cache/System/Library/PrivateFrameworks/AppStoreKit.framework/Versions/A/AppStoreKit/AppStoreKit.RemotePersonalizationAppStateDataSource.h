@@ -7,16 +7,10 @@
 @interface AppStoreKit.RemotePersonalizationAppStateDataSource
 {
     id delegate;
-    id accessQueue;
-    id expectedAppStates;
-    id registeredAdamIds;
-    id bag;
-    id urlSession;
-    id process;
 }
 
-- (void);
-- (void);
+- (void)`0o;
+- (void)o;
 - (void);
 - (void);
 - (id);

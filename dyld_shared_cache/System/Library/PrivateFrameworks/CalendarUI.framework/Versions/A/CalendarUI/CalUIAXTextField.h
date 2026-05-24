@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CalUIAXTextField
 {
     _Bool _accessibiltyIgnoredForNodeAndChildren;
-    _Bool _accessibiltyIgnoredForNode;
-    NSString *_axRoleDescription;
 }
 
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (id);
@@ -21,16 +17,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool accessibiltyIgnoredForNode; // @synthesize accessibiltyIgnoredForNode=_accessibiltyIgnoredForNode;
 @property _Bool accessibiltyIgnoredForNodeAndChildren; // @synthesize accessibiltyIgnoredForNodeAndChildren=_accessibiltyIgnoredForNodeAndChildren;
-@property(retain) NSString *axRoleDescription; // @synthesize axRoleDescription=_axRoleDescription;
 
 @end
 

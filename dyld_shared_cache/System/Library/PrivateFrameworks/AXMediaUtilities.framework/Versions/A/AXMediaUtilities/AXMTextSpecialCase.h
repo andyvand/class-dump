@@ -9,9 +9,9 @@
 }
 
 - (id);
-- (long long);
+- (long long);
 - (id);
-- (_Bool);
+- (_Bool)\|;
 
 @end
 

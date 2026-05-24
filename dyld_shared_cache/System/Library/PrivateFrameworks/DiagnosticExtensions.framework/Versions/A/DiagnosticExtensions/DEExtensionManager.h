@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface DEExtensionManager
 {
     _Bool _extendedLoaded;
-    NSObject<OS_dispatch_queue> *_initialLoadQueue;
-    NSArray *_extensions;
-    CDUnknownBlockType _afterExtendedBlock;
 }
 
 + (id);
 - (void);
-- (id);
-- (id);
+- (id)CKCDPCheckContainerHealthRequest;
+- (id)taSecurityRequirements() without a readinessSink;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)w;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType afterExtendedBlock; // @synthesize afterExtendedBlock=_afterExtendedBlock;
-@property(nonatomic) _Bool extendedLoaded; // @synthesize extendedLoaded=_extendedLoaded;
 @property(retain, nonatomic) NSArray *extensions; // @synthesize extensions=_extensions;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *initialLoadQueue; // @synthesize initialLoadQueue=_initialLoadQueue;
 
 @end
 

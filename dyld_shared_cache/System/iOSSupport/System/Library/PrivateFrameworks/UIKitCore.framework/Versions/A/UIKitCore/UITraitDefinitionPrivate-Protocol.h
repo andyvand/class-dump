@@ -5,5 +5,8 @@
 //
 
 @protocol UITraitDefinitionPrivate
+
+@optional
++ (_Bool)leDictionary",&,N,V_pendingSatelliteMessagesPerService;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol TSURandomWriteChannel
+- (void)headerTitle;
 @end
 

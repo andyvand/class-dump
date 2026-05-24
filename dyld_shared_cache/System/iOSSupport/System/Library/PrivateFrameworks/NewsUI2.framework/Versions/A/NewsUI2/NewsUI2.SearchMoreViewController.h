@@ -7,13 +7,6 @@
 @interface NewsUI2.SearchMoreViewController
 {
     id searchContentType;
-    id searchContentSource;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id sharingActivityProviderFactory;
-    id searchRequestData;
-    id refreshRecentSearch;
 }
 
 - (id);

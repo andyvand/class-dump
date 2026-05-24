@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSBinaryPromise, AMSDialogRequest, AMSUIMessageView, NSColor, NSImage, NSImageSymbolConfiguration, NSString;
-@protocol AMSBagProtocol, AMSUIMessageViewControllerDelegate;
+@class ACAccount;
 
 @interface AMSUIBaseMessageViewController
 {
     _Bool _shouldAutomaticallyReportMetrics;
-    _Bool _didEnqueueClickstreamMetrics;
-    _Bool _didEnqueueEngagementMetrics;
-    _Bool _isImageSymbolImage;
-    _Bool __isLoadingImage;
-    AMSDialogRequest *_dialogRequest;
-    id <AMSUIMessageViewControllerDelegate> _delegate;
-    unsigned long long _engagementImpressionsReportingFrequency;
-    unsigned long long _impressionsReportingFrequency;
-    AMSBinaryPromise *_loadPromise;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    long long _currentIconPlayCount;
-    unsigned long long _jsEngagementImpressionsReportingFrequency;
-    NSImage *__loadedImage;
-    NSColor *__messageTextColor;
-    NSColor *__titleTextColor;
 }
 
 + (unsigned long long);
@@ -41,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)U;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -75,50 +58,23 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)sult;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)8	M		0	;
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
-- (id)sentationWindowForPaymentAuthorizationController: /* Error: Ran out of types for this method. */;
+- (void)setInfoView: /* Error: Ran out of types for this method. */;
+- (id)presentationWindowForPaymentAuthorizationController: /* Error: Ran out of types for this method. */;
 - (void)=y½=yg½=yTÓ@_Qo__Qo__Qo_tGGÑ=GAOGAOGAOGG_AAyqTÓ@DÍ=GtGGSä=yAAy
 Ö=åî=yÿ=GGGG;
 
 // Remaining properties
-@property(readonly) NSImageSymbolConfiguration *_effectiveImageSymbolConfiguration;
-@property _Bool _isLoadingImage; // @synthesize _isLoadingImage=__isLoadingImage;
-@property(retain) NSImage *_loadedImage; // @synthesize _loadedImage=__loadedImage;
-@property(readonly) unsigned long long _messageStyle;
-@property(readonly) NSColor *_messageTextColor; // @synthesize _messageTextColor=__messageTextColor;
-@property(readonly) AMSUIMessageView *_messageView;
-@property(readonly) long long _primaryImageRenderingMode;
-@property(readonly) NSColor *_titleTextColor; // @synthesize _titleTextColor=__titleTextColor;
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property long long currentIconPlayCount; // @synthesize currentIconPlayCount=_currentIconPlayCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUIMessageViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) AMSDialogRequest *dialogRequest; // @synthesize dialogRequest=_dialogRequest;
-@property _Bool didEnqueueClickstreamMetrics; // @synthesize didEnqueueClickstreamMetrics=_didEnqueueClickstreamMetrics;
-@property _Bool didEnqueueEngagementMetrics; // @synthesize didEnqueueEngagementMetrics=_didEnqueueEngagementMetrics;
-@property unsigned long long engagementImpressionsReportingFrequency; // @synthesize engagementImpressionsReportingFrequency=_engagementImpressionsReportingFrequency;
-@property(readonly) unsigned long long hash;
-@property unsigned long long impressionsReportingFrequency; // @synthesize impressionsReportingFrequency=_impressionsReportingFrequency;
-@property _Bool isImageSymbolImage; // @synthesize isImageSymbolImage=_isImageSymbolImage;
-@property unsigned long long jsEngagementImpressionsReportingFrequency; // @synthesize jsEngagementImpressionsReportingFrequency=_jsEngagementImpressionsReportingFrequency;
-@property(retain) AMSBinaryPromise *loadPromise; // @synthesize loadPromise=_loadPromise;
-@property _Bool shouldAutomaticallyReportMetrics; // @synthesize shouldAutomaticallyReportMetrics=_shouldAutomaticallyReportMetrics;
-@property(readonly) Class superclass;
 
 @end
 

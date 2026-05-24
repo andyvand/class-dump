@@ -6,20 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface EXPSearchSchemaEXPSearchSessionExperiments : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_searchSessionId;
-    NSArray *_activeExperiments;
-    _Bool _hasSearchSessionId;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -27,22 +25,20 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)vigation received an XPC_ERROR_CONNECTION_INVALID error.
+;
+- (id)ListChanged;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id)sTimeout"b1"timeoutThresholdInNs"b1};
-- (id)led;
+- (id)POMMESSchemaPOMMESOnDeviceIndexSearchFailed;
 - (id)ðÍ;
 - (void)Tz¹ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activeExperiments; // @synthesize activeExperiments=_activeExperiments;
-@property(nonatomic) _Bool hasSearchSessionId; // @synthesize hasSearchSessionId=_hasSearchSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *searchSessionId; // @synthesize searchSessionId=_searchSessionId;
 
 @end

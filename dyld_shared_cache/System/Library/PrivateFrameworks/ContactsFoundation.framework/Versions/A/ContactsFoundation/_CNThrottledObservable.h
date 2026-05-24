@@ -6,46 +6,30 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@protocol CNCancelable, CNScheduler, NSLocking;
-
 @interface _CNThrottledObservable : CNObservable
 {
     _Bool _isCoalescing;
-    CNObservable *_observable;
-    double _interval;
-    unsigned long long _options;
-    id <CNScheduler> _observerScheduler;
-    id <NSLocking> _resourceLock;
-    id _mostRecentResult;
-    id <CNCancelable> _delayToken;
 }
 
 - (void);
-- (double);
+- (double);
+- (id)0@"NSError"8;
+- (void);
+- (void)FSfileObjectsAreCaseSensitive;
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)_powerlevel3Duration;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (id)torSwitchResultObserver;
+- (id)CNObservableOperatorSwitchResultObserver;
 
 // Remaining properties
-@property(retain) id <CNCancelable> delayToken; // @synthesize delayToken=_delayToken;
-@property(readonly) double interval; // @synthesize interval=_interval;
-@property _Bool isCoalescing; // @synthesize isCoalescing=_isCoalescing;
-@property(retain) id mostRecentResult; // @synthesize mostRecentResult=_mostRecentResult;
 @property(readonly) CNObservable *observable; // @synthesize observable=_observable;
-@property(readonly) id <CNScheduler> observerScheduler; // @synthesize observerScheduler=_observerScheduler;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
-@property(readonly) id <NSLocking> resourceLock; // @synthesize resourceLock=_resourceLock;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SiteMetadataFetcherClient
+- (void);
 @end
 

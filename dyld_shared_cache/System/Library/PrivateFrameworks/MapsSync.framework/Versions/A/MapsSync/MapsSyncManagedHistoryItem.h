@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedHistoryItem
@@ -12,14 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (id);
+- (id)a;
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic) double position; // @dynamic position;
-@property(nonatomic) long long positionIndex; // @dynamic positionIndex;
 
 @end
 

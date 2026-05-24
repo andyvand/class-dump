@@ -11,8 +11,6 @@
 @interface TSDCUserFilteredClock : TSDCKernelClock
 {
     _TSF_TSDUserFilteredClock *_userFilteredClock;
-    unsigned int _lastValidIndex;
-    _Bool _needTimeSyncTimeUpdate;
 }
 
 - (_Bool);
@@ -32,9 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAdaptive) _Bool adaptive;
-@property(readonly, nonatomic) unsigned char filterShift;
-@property(readonly, nonatomic) unsigned long long nominalDomainInterval;
 @property(readonly, nonatomic) unsigned long long nominalMachInterval;
 
 @end

@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKFlight, PKPassBalanceModel, PKPassLiveRender, PKPassRelevancyModel;
+@class PKPassLiveRender;
 
 @interface PKPassDynamicState
 {
     PKPassLiveRender *_liveRender;
-    PKPassBalanceModel *_balanceModel;
-    PKPassRelevancyModel *_relevancyModel;
-    NSArray *_agreements;
-    PKFlight *_flight;
 }
 
 + (_Bool)X"°!Aùî%1Â0@ù
 × ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)_;
+- (_Bool)setHasCcCaptureDriverLogs:(id)arg1;
+- (void)LONG_TAP_LINK;
 - (void)token contexts;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *agreements; // @synthesize agreements=_agreements;
-@property(retain, nonatomic) PKPassBalanceModel *balanceModel; // @synthesize balanceModel=_balanceModel;
-@property(retain, nonatomic) PKFlight *flight; // @synthesize flight=_flight;
 @property(retain, nonatomic) PKPassLiveRender *liveRender; // @synthesize liveRender=_liveRender;
-@property(retain, nonatomic) PKPassRelevancyModel *relevancyModel; // @synthesize relevancyModel=_relevancyModel;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUPixelFormat;
-
 @interface NUBufferAdapter
 {
     CDStruct_d58201db _size;
-    NUPixelFormat *_format;
-    long long _rowBytes;
-    const void *_bytes;
-    _Bool _valid;
 }
 
 - (void);
@@ -20,27 +14,17 @@
 - (const void *);
 - (id);
 - (long long);
-- (id);
+- (id)__data;
 - (id);
 - (void);
-- (CDStruct_912cb5d2);
+- (CDStruct_912cb5d2);
 - (const void *);
-- (id);
-- (void)eExecutingRender;
+- (id);
+- (void)totalSchedulerTimeExecutingRender;
 - (id)ction request has nil results;
 
 // Remaining properties
-@property(readonly, nonatomic) const void *bytes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NUPixelFormat *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long rowBytes; // @synthesize rowBytes=_rowBytes;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

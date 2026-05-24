@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class HMFSoftwareVersion, HMSoftwareUpdateDocumentationMetadata, NSDate, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDSoftwareUpdateModel : HMDBackingStoreModelObject
 {
@@ -19,20 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayableSoftwareVersion; // @dynamic displayableSoftwareVersion;
-@property(copy, nonatomic) HMSoftwareUpdateDocumentationMetadata *documentationMetadata; // @dynamic documentationMetadata;
-@property(copy, nonatomic) NSNumber *downloadSize; // @dynamic downloadSize;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *installDuration; // @dynamic installDuration;
-@property(copy, nonatomic) NSDate *releaseDate; // @dynamic releaseDate;
-@property(copy, nonatomic) HMFSoftwareVersion *softwareVersion; // @dynamic softwareVersion;
-@property(copy, nonatomic) NSNumber *state; // @dynamic state;
-@property(readonly) Class superclass;
 
 @end
 

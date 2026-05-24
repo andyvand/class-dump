@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAppEntityPath, NSString;
+@class MRAppEntityPath;
 
 @interface MPAppEntityPath
 {
     MRAppEntityPath *_mediaRemoteAppEntityPath;
 }
 
-+ (_Bool);
++ (_Bool)c ;
+- (id);
+- (id)lockWaitError;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)e1382: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -27,10 +27,7 @@
 - (id)tered unexpected media kit relationship parent=%@ type=%@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *instanceIdentifier;
 @property(readonly, nonatomic) MRAppEntityPath *mediaRemoteAppEntityPath; // @synthesize mediaRemoteAppEntityPath=_mediaRemoteAppEntityPath;
-@property(readonly, copy, nonatomic) NSString *typeIdentifier;
 
 @end
 

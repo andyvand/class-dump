@@ -9,8 +9,6 @@
 @interface ScreenSaverModules
 {
     NSMutableDictionary *_modules;
-    NSMutableDictionary *_times;
-    _Bool _isPreview;
 }
 
 + (id);
@@ -48,7 +46,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool initialized;
 @property _Bool isPreview; // @synthesize isPreview=_isPreview;
 
 @end

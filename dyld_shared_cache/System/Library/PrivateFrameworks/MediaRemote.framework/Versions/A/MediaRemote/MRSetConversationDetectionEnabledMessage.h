@@ -11,18 +11,16 @@
 @interface MRSetConversationDetectionEnabledMessage : MRProtocolMessage
 {
     _Bool _enabled;
-    NSString *_outputDeviceUID;
 }
 
 - (id);
-- (id);
-- (unsigned long long);
+- (id)isInitialTranscriptSharingItem;
+- (unsigned long long)ps found:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void)e;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(readonly, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end

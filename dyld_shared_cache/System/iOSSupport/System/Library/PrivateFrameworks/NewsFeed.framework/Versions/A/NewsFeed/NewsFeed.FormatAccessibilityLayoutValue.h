@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatAccessibilityLayoutValue
 {
     id identifier;
-    id value;
 }
 
 @end

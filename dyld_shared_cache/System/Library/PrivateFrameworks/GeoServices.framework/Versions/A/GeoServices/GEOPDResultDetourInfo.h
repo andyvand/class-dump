@@ -9,26 +9,16 @@
 @interface GEOPDResultDetourInfo
 {
     PBUnknownFields *_unknownFields;
-    int _detourDistance;
-    int _detourTime;
-    unsigned int _distanceToPlace;
-    unsigned int _timeToPlace;
-    struct {
-        unsigned int has_detourDistance:1;
-        unsigned int has_detourTime:1;
-        unsigned int has_distanceToPlace:1;
-        unsigned int has_timeToPlace:1;
-    } _flags;
 }
 
-+ (_Bool)hortTrafficSummary:(id)arg1;
-- (unsigned int);
++ (_Bool)setIncludeShortTrafficSummary:(id)arg1;
+- (unsigned int)canCreateContacts;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)@9j#Ț	;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -43,28 +33,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ilingPackets:(id)arg1 %{public}lu, numOfValidTrailingSpeechPackets:%{public}lu, 
+trailingPktLatencies:%{public}@ 
+trailingPktSpeechLatencies:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ead_trafficDescription"b1"read_waypoints"b1"wrote_anyField"b1};
-- (id)ePaths;
+- (id)_nativePaths;
 - (id);
 - (id)sForCategoryEntryReadAllFrom can only be called once per object;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int detourDistance;
-@property(nonatomic) int detourTime;
-@property(nonatomic) unsigned int distanceToPlace;
-@property(nonatomic) _Bool hasDetourDistance;
 @property(nonatomic) _Bool hasDetourTime;
-@property(nonatomic) _Bool hasDistanceToPlace;
-@property(nonatomic) _Bool hasTimeToPlace;
-@property(nonatomic) unsigned int timeToPlace;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

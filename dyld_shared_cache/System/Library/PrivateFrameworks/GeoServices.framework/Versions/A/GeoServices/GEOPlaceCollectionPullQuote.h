@@ -9,7 +9,6 @@
 @interface GEOPlaceCollectionPullQuote
 {
     NSString *_plainTextDescription;
-    NSString *_htmlDescription;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)±a1SK@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *htmlDescription; // @synthesize htmlDescription=_htmlDescription;
 @property(readonly, nonatomic) NSString *plainTextDescription; // @synthesize plainTextDescription=_plainTextDescription;
 
 @end

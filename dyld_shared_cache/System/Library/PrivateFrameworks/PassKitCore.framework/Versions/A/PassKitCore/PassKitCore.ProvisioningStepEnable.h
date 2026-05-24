@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningStepEnable
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

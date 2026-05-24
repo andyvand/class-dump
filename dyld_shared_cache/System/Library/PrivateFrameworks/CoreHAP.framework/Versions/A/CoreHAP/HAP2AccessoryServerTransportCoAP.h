@@ -6,34 +6,10 @@
 
 #import <CoreHAP/HAP2AccessoryServerTransportBaseWithDelegate.h>
 
-@class HAP2AccessoryServerDiscoveryAccessoryInfo, HMFActivity, NSMutableArray, NSObject, NSString;
-@protocol HAP2AccessoryServerDiscovery, HAP2AccessoryServerTransportCoAPClientFactory, HAP2CoAPClient, OS_nw_connection;
-
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerTransportCoAP : HAP2AccessoryServerTransportBaseWithDelegate
 {
     _Bool _resolveAttempted;
-    CDUnknownBlockType _stateChangeCompletion;
-    CDUnknownBlockType _sendRequestCompletion;
-    HMFActivity *_resolveActivity;
-    id <HAP2CoAPClient> _coapClient;
-    unsigned long long _maxTransmitAttempts;
-    double _initialACKTimeout;
-    NSObject<OS_nw_connection> *_nwConnection;
-    unsigned long long _numOfAddresses;
-    unsigned long long _numOfAddressesTried;
-    NSString *_serviceName;
-    NSString *_serviceType;
-    NSString *_serviceDomain;
-    id <HAP2AccessoryServerDiscovery> _discovery;
-    HAP2AccessoryServerDiscoveryAccessoryInfo *_accessoryInfo;
-    double _addressResolutionTimeout;
-    id <HAP2AccessoryServerTransportCoAPClientFactory> _coapClientFactory;
-    NSMutableArray *_addressList;
-    unsigned long long _maxAddressesAllowed;
-    NSMutableArray *_bonjourNames;
-    unsigned long long _maxBonjourNamesAllowed;
-    struct coap_address_t _ipAddress;
 }
 
 + (void);
@@ -54,17 +30,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)N8cnmatrix8CNMatrixILj174ELj1ENS0_ILj3ELj3EdEEEE;
+- (void)sendMessage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

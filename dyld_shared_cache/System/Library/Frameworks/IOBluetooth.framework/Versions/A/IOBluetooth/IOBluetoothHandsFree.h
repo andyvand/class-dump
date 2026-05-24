@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, IOBluetoothHandsFreeExpansion, IOBluetoothRFCOMMChannel, IOBluetoothUserNotification, NSDate, NSMutableArray;
-@protocol IOBluetoothHandsFreeDelegate;
+@class IOBluetoothRFCOMMChannel;
 
 @interface IOBluetoothHandsFree
 {
     IOBluetoothRFCOMMChannel *_rfcommChannel;
-    IOBluetoothUserNotification *_rfcommChannelNotification;
-    unsigned int _supportedFeatures;
-    void *_reserved1;
-    float _previousInputVolume;
-    float _previousOutputVolume;
-    _Bool _previousOutputMuted;
-    IOBluetoothDevice *_device;
-    unsigned char _deviceRFCOMMChannelID;
-    unsigned int _deviceSupportedFeatures;
-    unsigned int _deviceCallHoldModes;
-    unsigned int _deviceSupportedSMSServices;
-    NSMutableArray *_statusIndicators;
-    int _handsFreeState;
-    unsigned long long _SMSMode;
-    _Bool _SMSEnabled;
-    _Bool _connectSCOAfterSLCConnected;
-    IOBluetoothHandsFreeExpansion *_reserved;
 }
 
 + (id);
@@ -37,42 +19,42 @@
 × ;
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (void)`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (unsigned int);
+- (unsigned int)h8uS	;
 - (void);
 - (float);
 - (_Bool);
-- (float);
+- (float);
 - (id);
 - (void);
 - (id);
@@ -99,7 +81,7 @@
 - (unsigned int);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -108,7 +90,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)j8;
 - (unsigned long long);
 - (void);
 - (id);
@@ -122,8 +104,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)c;
 - (unsigned int);
 - (float);
 - (void);
@@ -132,34 +114,7 @@
 - (void);
 
 // Remaining properties
-@property unsigned short SCOConnectionHandle;
-@property(getter=isSMSEnabled) _Bool SMSEnabled; // @synthesize SMSEnabled=_SMSEnabled;
-@property unsigned long long SMSMode; // @synthesize SMSMode=_SMSMode;
-@property unsigned char codecID;
-@property _Bool connectSCOAfterSLCConnected; // @synthesize connectSCOAfterSLCConnected=_connectSCOAfterSLCConnected;
-@property(readonly, getter=isConnected) _Bool connected;
-@property id <IOBluetoothHandsFreeDelegate> delegate;
-@property(retain, nonatomic) IOBluetoothDevice *device; // @synthesize device=_device;
-@property unsigned int deviceCallHoldModes; // @synthesize deviceCallHoldModes=_deviceCallHoldModes;
-@property unsigned char deviceRFCOMMChannelID; // @synthesize deviceRFCOMMChannelID=_deviceRFCOMMChannelID;
-@property unsigned int deviceSupportedFeatures; // @synthesize deviceSupportedFeatures=_deviceSupportedFeatures;
-@property unsigned int deviceSupportedSMSServices; // @synthesize deviceSupportedSMSServices=_deviceSupportedSMSServices;
-@property _Bool disconnectAfterDisconnectingSCO;
-@property(nonatomic) int handsFreeState; // @synthesize handsFreeState=_handsFreeState;
-@property(getter=isInputMuted) _Bool inputMuted;
-@property float inputVolume;
-@property(retain) NSDate *lastUpdatedInputVolume;
-@property(retain) NSDate *lastUpdatedOutputVolume;
-@property(getter=isOutputMuted) _Bool outputMuted;
-@property float outputVolume;
-@property float previousInputVolume; // @synthesize previousInputVolume=_previousInputVolume;
-@property _Bool previousOutputMuted; // @synthesize previousOutputMuted=_previousOutputMuted;
-@property float previousOutputVolume; // @synthesize previousOutputVolume=_previousOutputVolume;
 @property(retain, nonatomic) IOBluetoothRFCOMMChannel *rfcommChannel; // @synthesize rfcommChannel=_rfcommChannel;
-@property(retain) IOBluetoothUserNotification *rfcommChannelNotification; // @synthesize rfcommChannelNotification=_rfcommChannelNotification;
-@property(retain) NSMutableArray *statusIndicators; // @synthesize statusIndicators=_statusIndicators;
-@property unsigned int supportedFeatures; // @synthesize supportedFeatures=_supportedFeatures;
-@property _Bool xaplSent;
 
 @end
 

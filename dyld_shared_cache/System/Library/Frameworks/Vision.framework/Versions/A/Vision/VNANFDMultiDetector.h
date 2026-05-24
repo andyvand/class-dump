@@ -6,22 +6,21 @@
 
 #import <Vision/VNEspressoModelFileBasedDetector.h>
 
-@class VNFaceBBoxAligner, VNShotflowDetector;
+@class VNShotflowDetector;
 
 __attribute__((visibility("hidden")))
 @interface VNANFDMultiDetector : VNEspressoModelFileBasedDetector
 {
     VNShotflowDetector *_mMultiHeadedANFDDetector;
-    VNFaceBBoxAligner *_faceBBoxAligner;
 }
 
++ (id)J;
 + (id);
-+ (id);
-+ (unsigned int);
-+ (id);
++ (unsigned int)@"NSError">32;
++ (id)irectoryAtPath err=%@;
 + (_Bool);
 + (unsigned long long);
-+ (id);
++ (id)CNContactCoreDataMultiValueProperty;
 + (id);
 + (id);
 + (id);
@@ -35,16 +34,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)de;
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void)VNRecognizeDocumentElementIdentifierQRCode;
 
 // Remaining properties
 @property(readonly, nonatomic) VNShotflowDetector *VNShotflowDetector; // @synthesize VNShotflowDetector=_mMultiHeadedANFDDetector;

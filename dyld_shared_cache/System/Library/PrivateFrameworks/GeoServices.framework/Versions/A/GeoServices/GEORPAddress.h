@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddress, GEOPDAddressObject, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPAddress
 {
     PBDataReader *_reader;
-    GEOPDAddressObject *_addressObject;
-    NSString *_addressString;
-    GEOAddress *_geoAddress;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_addressObject:1;
-        unsigned int read_addressString:1;
-        unsigned int read_geoAddress:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)dLocation:(id)arg1;
++ (_Bool)setIsMatchedLocation:(id)arg1;
+- (void)_TtC19ContactsPersistence19CNCDFileSystemPhoto;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)I;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)p;
+- (id)retryMappingAssetToExclaveKit:completion: /* Error: Ran out of types for this method. */;
+- (void)ocale is ineligible;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -43,19 +31,14 @@
 - (void);
 - (id)read_uuid"b1"wrote_anyField"b1};
 - (id)ncy"b1"has_earliestDepartureTime"b1"has_latestDepartureTime"b1"has_maxDepartureFrequency"b1"has_minDepartureFrequency"b1"has_isEstimated"b1};
-- (id)chMatchedSegmentsForRoute:range:handler: /* Error: Ran out of types for this method. */;
-- (id)sultSections;
+- (id)_zilchMatchedSegmentsForRoute:range:handler: /* Error: Ran out of types for this method. */;
+- (id)_searchResultSections;
 - (id)+;
 - (id)nAddresses.count;
 - (id)¯BAnp«M@;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDAddressObject *addressObject;
-@property(retain, nonatomic) NSString *addressString;
-@property(retain, nonatomic) GEOAddress *geoAddress;
-@property(readonly, nonatomic) _Bool hasAddressObject;
-@property(readonly, nonatomic) _Bool hasAddressString;
 @property(readonly, nonatomic) _Bool hasGeoAddress;
 
 @end

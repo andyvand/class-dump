@@ -6,8 +6,6 @@
 
 #import <AppKit/NSBinder.h>
 
-@class _NSTreeNodeObservingTracker;
-
 __attribute__((visibility("hidden")))
 @interface NSOutlineViewBinder : NSBinder
 {
@@ -15,16 +13,12 @@ __attribute__((visibility("hidden")))
         unsigned int _isAutoCreated:1;
         unsigned int _reservedOutlineViewBinder:31;
     } _outlineViewBinderFlags;
-    long long _ignoreChangesCount;
-    struct _NSRange _previousVisibleRange;
-    _NSTreeNodeObservingTracker *_treeNodeObservingTracker;
-    id _contentBindingController;
 }
 
++ (_Bool)ackgroundSession <%{public}@> no outstanding tasks getting auth headers, finishing wake up for uuid %@ for session %@ with identifier %@;
++ (id)NSExceptionRequiresForwardSecrecy;
 + (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)@;
 - (void);
 - (id);
 - (void);
@@ -42,20 +36,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)backgroundSessionDidFinishAppWake:reply: /* Error: Ran out of types for this method. */;
+- (void);
+- (void),W[;
+- (void);
+- (void);
+- (void)DiagnosticLogging;
+- (_Bool)eadStream=}8;
+- (void)SC LIMIT %d);
+- (_Bool)onUploadTask;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (unsigned long long);
-- (void);
+- (void)_CDInteractionAdvising;
 - (void);
 - (void)6G;
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface CHEmbeddedAudioResourceInfo
 {
     NSURL *_url;
-    NSDictionary *_options;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *options; // @synthesize options=_options;
 @property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end

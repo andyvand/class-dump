@@ -6,8 +6,8 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject, VCWeakObjectHolder;
-@protocol OS_dispatch_queue, VCCannedVideoFrameFeeder;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VCCannedVideoCaptureSource : VCObject
@@ -29,17 +29,11 @@ __attribute__((visibility("hidden")))
         int frameRingBufferIndex;
         NSObject<OS_dispatch_queue> *helperQueue;
     } _context;
-    id <VCCannedVideoFrameFeeder> _frameFeeder;
-    NSObject<OS_dispatch_queue> *_captureSessionQueue;
-    VCWeakObjectHolder *_weakCallbackContext;
-    CDUnknownFunctionPointerType _frameCallback;
-    _Bool _enableTxTimestampAlignmentLogs;
-    struct os_unfair_lock_s _stateLock;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)$K;
 - (void);
 - (void);
 - (void);

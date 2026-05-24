@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UILabel, UIView;
+@class UIView;
 @protocol CKActionMenuItemView;
 
 @interface CKActionMenuItem
 {
     _Bool _enabled;
-    _Bool _highlighted;
-    _Bool _selected;
-    UIView<CKActionMenuItemView> *_view;
-    UILabel<CKActionMenuItemView> *_label;
-    id _target;
-    SEL _action;
 }
 
-+ (id);
-+ (void);
++ (id)s showReauthenticateTouchIDSheetInWindow:(id)arg1 completionHandler:(id)arg2 ];
++ (void)';
 - (void);
-- (id);
+- (id)attachment;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)?;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -34,11 +28,11 @@
 - (void);
 - (id)aýð!XEùQ°1Â0@ù
 × ;
-- (void)ionVisualIdentity:(_Bool)arg1;
+- (void)set_conversationVisualIdentity:(_Bool)arg1;
 - (void)°ñûÿ;
 - (SEL)yÛ;
 - (void)ÿ\y]GG]_G;
-- (void)tMenuWith;
+- (void)accessoriesForContextMenuWith;
 - (void)ler:(_Bool)arg1 %@;
 - (void);
 - (void);
@@ -46,12 +40,6 @@
 - (_Bool)5¯-;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UILabel<CKActionMenuItemView> *label; // @synthesize label=_label;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(retain, nonatomic) id target; // @synthesize target=_target;
 @property(retain, nonatomic) UIView<CKActionMenuItemView> *view; // @synthesize view=_view;
 
 @end

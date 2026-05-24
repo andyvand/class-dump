@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNStack, NSString;
 @protocol CNScheduler;
 
 @interface CNCoalescingSchedulerDecorator
 {
     id <CNScheduler> _scheduler;
-    double _coalescingWindow;
-    unsigned long long _state;
-    CNStack *_delayedBlocks;
 }
 
 - (void);
@@ -27,26 +23,16 @@
 - (id);
 - (double);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)peripheralManager:(double)arg1 didStopPeriodicAdvertising:(CDUnknownBlockType)arg2;
 - (unsigned long long);
-- (id);
-- (id);
+- (id)a
+@�Rl;
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double coalescingWindow; // @synthesize coalescingWindow=_coalescingWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) CNStack *delayedBlocks; // @synthesize delayedBlocks=_delayedBlocks;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <CNScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly) double timestamp;
 
 @end
 

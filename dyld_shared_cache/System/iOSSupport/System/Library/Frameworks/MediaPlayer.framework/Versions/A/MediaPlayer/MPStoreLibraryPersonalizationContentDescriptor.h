@@ -9,11 +9,10 @@
 @interface MPStoreLibraryPersonalizationContentDescriptor
 {
     MPModelObject *_model;
-    long long _personalizationStyle;
 }
 
 + (id);
-+ (id);
++ (id)falseP;
 + (id);
 + (id);
 + (id);
@@ -21,11 +20,10 @@
 - (id);
 - (id);
 - (long long);
-- (void)Value: /* Error: Ran out of types for this method. */;
+- (void)_adjustedItemPropertyAssetURLOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelObject *model; // @synthesize model=_model;
-@property(readonly, nonatomic) long long personalizationStyle; // @synthesize personalizationStyle=_personalizationStyle;
 
 @end
 

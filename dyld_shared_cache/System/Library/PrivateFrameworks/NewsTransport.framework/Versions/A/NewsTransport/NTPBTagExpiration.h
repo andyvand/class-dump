@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBTagExpiration
 {
     long long _expireUtcTime;
-    NSString *_tagId;
-    CDStruct_b50c6a10 _has;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (void)fetchSuggestedPersonsForClient:(_Bool)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)failedTest:(long long)arg1 withFailureFormat: /* Error: Ran out of types for this method. */;
+- (_Bool)desiredLayoutRect;
+- (_Bool)createFileAtPath:contents:attributes: /* Error: Ran out of types for this method. */;
+- (long long)confirmButtonTitle;
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_startBehavior;
+- (_Bool)INATION DIAGNOSTICS ==========;
+- (_Bool)failed to fetch global ESL feed items from CK, error=%{public}@;
 - (void);
 - (id);
 - (id);
-- (void)urceChannelRecordData;
+- (void)sourceChannelRecordData;
 
 // Remaining properties
-@property(nonatomic) long long expireUtcTime; // @synthesize expireUtcTime=_expireUtcTime;
-@property(nonatomic) _Bool hasExpireUtcTime;
 @property(readonly, nonatomic) _Bool hasTagId;
-@property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 
 @end
 

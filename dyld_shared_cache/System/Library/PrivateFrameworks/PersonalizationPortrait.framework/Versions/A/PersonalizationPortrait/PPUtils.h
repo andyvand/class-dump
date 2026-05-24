@@ -9,21 +9,21 @@
 }
 
 + (id);
-+ (id);
++ (id)TRIPBFieldDescriptorProto;
 + (void);
 + (id);
-+ (id);
++ (id)@qb;
 + (long long);
 + (_Bool);
 + (double);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (id);
++ (id)/;
++ (id);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)@  E;
++ (id)";
 + (id);
 + (long long);
 + (_Bool);

@@ -7,15 +7,14 @@
 @interface TipsNextEventReporter
 {
     id appBundleId;
-    id logger;
 }
 
 + (id)[%s]:Success /* Error: Ran out of types for this method. */;
+- (void)G;
+- (void)So17BSSimpleAssertionCSgXw;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)n_;
+- (void)yxGSgXwz_x_SHRzlXX;
 - (id);
 - (void){public}s because this is a new chat;
 

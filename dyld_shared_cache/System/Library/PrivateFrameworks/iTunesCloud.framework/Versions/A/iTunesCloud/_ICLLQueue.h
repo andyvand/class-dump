@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _ICLLQueue
 {
     CDStruct_95bda58d _storefronts;
-    NSString *_currentRadioStationId;
-    int _demarkationPos;
-    int _explicitSetting;
-    NSMutableArray *_items;
-    NSString *_queueId;
-    int _revision;
-    struct {
-        unsigned int demarkationPos:1;
-        unsigned int explicitSetting:1;
-        unsigned int revision:1;
-    } _has;
 }
 
 - (void);
@@ -28,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool){;
+- (id);
 - (id);
 - (void),V_dataSourceErrorHandler;
 

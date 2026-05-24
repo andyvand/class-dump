@@ -6,50 +6,37 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class CKTranscriptLegibilityLabel, NSAttributedString, NSString;
+@class CKTranscriptLegibilityLabel;
 
 @interface CKTranscriptUnavailabilityIndicatorCell : CKTranscriptCell
 {
     _Bool _displayingNotifyAnywayButton;
-    NSAttributedString *_unavailableTitleLabelAttributedTextWhenDisplayingNotifyAnywayButton;
-    NSAttributedString *_unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton;
-    CKTranscriptLegibilityLabel *_unavailableTitleLabel;
 }
 
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)6@"NSAttributedString"32@"NSView"40;
+- (id)tedString"32;
+- (id)y"40@0:8{_NSRange=QQ}16@"NSAttributedString"32 /* Error: Ran out of types for this method. */;
+- (void)removeSearchResultWithIdentifier:(id)arg1 fromSection:forHiding: /* Error: Ran out of types for this method. */;
+- (void)removeSearchResultForIdentifier:(id)arg1 forHiding: /* Error: Ran out of types for this method. */;
+- (void)removeSearchResultAtRow:(id)arg1 section: /* Error: Ran out of types for this method. */;
+- (void)ic_textRangeForRange:(_Bool)arg1;
+- (void)_identifier;
+- (void)ic_keyCharacter;
 - (_Bool);
 - (void);
 - (id);
+- (void)h;
+- (void)r {originalNote:(double)arg1 %@};
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)insertDictationResult:(struct CGRect)arg1;
 - (void)h:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool displayingNotifyAnywayButton; // @synthesize displayingNotifyAnywayButton=_displayingNotifyAnywayButton;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CKTranscriptLegibilityLabel *unavailableTitleLabel; // @synthesize unavailableTitleLabel=_unavailableTitleLabel;
-@property(copy, nonatomic) NSAttributedString *unavailableTitleLabelAttributedTextWhenDisplayingNotifyAnywayButton; // @synthesize unavailableTitleLabelAttributedTextWhenDisplayingNotifyAnywayButton=_unavailableTitleLabelAttributedTextWhenDisplayingNotifyAnywayButton;
-@property(copy, nonatomic) NSAttributedString *unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton; // @synthesize unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton=_unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton;
 
 @end
 

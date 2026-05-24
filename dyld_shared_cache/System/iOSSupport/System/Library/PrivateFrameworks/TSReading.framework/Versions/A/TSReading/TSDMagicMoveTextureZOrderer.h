@@ -9,31 +9,25 @@
 @interface TSDMagicMoveTextureZOrderer
 {
     NSArray *_zOrderMatches;
-    NSArray *_outgoingTexturesInZOrder;
-    NSArray *_incomingTexturesInZOrder;
-    double *_percentTexturesTimes;
-    NSArray *_percentTextures;
-    unsigned long long _zOrderIntersectionsCount;
 }
 
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
+- (unsigned long long)eue item: /* Error: Ran out of types for this method. */;
+- (id)es Died - ItemAtDeath:(double)arg1;
 - (unsigned long long);
 - (void);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
 - (void);
 - (void);
+- (void)NMPCPlaybackSessionManagerErrorCode;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *flattenableAnimationMatches;
 @property(readonly, nonatomic) unsigned long long zOrderIntersectionsCount; // @synthesize zOrderIntersectionsCount=_zOrderIntersectionsCount;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDelegateCaller, HMFMessageDispatcher, HMPendingRequests, HMXPCClient, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _HMContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    HMPendingRequests *_pendingRequests;
-    HMDelegateCaller *_delegateCaller;
-    HMFMessageDispatcher *_messageDispatcher;
-    HMXPCClient *_xpcClient;
 }
 
 - (id);
@@ -24,15 +20,11 @@
 - (id);
 - (id);
 - (id);
-- (void)rsion;
+- (void)_consentVersion;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDelegateCaller *delegateCaller; // @synthesize delegateCaller=_delegateCaller;
-@property(readonly, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, nonatomic) HMPendingRequests *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) HMXPCClient *xpcClient; // @synthesize xpcClient=_xpcClient;
 
 @end
 

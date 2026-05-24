@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMObjectID;
+@class REMObjectID;
 
 @protocol _REMDAChangeTrackableModel
++ (id <_REMDAChangeTrackableModel> (^)(REMObjectID *, _Bool, REMStore *, id *))IiQI**QQ(?={os_activity_stream_common_s=QQQ**{timeval=qi}{timezone=ii}QQI}{os_activity_stream_common_with_name_s=QQQ**{timeval=qi}{timezone=ii}QQI*}{os_activity_create_s=QQQ**{timeval=qi}{timezone=ii}QQI*QQ}{os_activity_transition_s=QQQ**{timeval=qi}{timezone=ii}QQIQ}{os_log_message_s=QQQ**{timeval=qi}{timezone=ii}QQI**Q*Q**ICB(?=QQ)*(?=CC)C*}{os_trace_message_s=QQQ**{timeval=qi}{timezone=ii}QQI*^vQ@}{os_activity_useraction_s=QQQ**{timeval=qi}{timezone=ii}QQI*B}{os_activity_statedump_s=QQQ**{timeval=qi}{timezone=ii}QQI*Q}{os_activity_timesync_s=QQQ**{timeval=qi}{timezone=ii}QQI[16C]QQQC}{os_activity_loss_s=QQQ**{timeval=qi}{timezone=ii}QQIQQI}{os_activity_breadcrumb_s=IQQ***}{os_activity_stream_activity_s=QQQ**{timeval=qi}{timezone=ii}QQI*}{os_trace_message_s=QQQ**{timeval=qi}{timezone=ii}QQI*^vQ@})[0c]}8;
++ (id <REMDAChangedIdentifierResult> (^)(id <_REMDAChangeTrackableModel>))setRecommendedNotificationFrequencyDays: /* Error: Ran out of types for this method. */;
++ (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) REMObjectID *accountID;
-@property(readonly, nonatomic) NSString *externalIdentifierForMarkedForDeletionObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) REMObjectID *objectID;
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextPosition, UITextRangeImpl;
 @protocol NSObject;
 
 @interface UITextRange
@@ -13,7 +12,7 @@
 }
 
 - (id);
-- (void);
+- (void)viceString:(id)arg1 %@, accountsForService:%@, accounts:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -22,18 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (id)butesForElementKind:indexPath:attributes: /* Error: Ran out of types for this method. */;
+- (id)_setCachedDecorationAttributesForElementKind:indexPath:attributes: /* Error: Ran out of types for this method. */;
 - (_Bool)asPlugIn must be NO if initialized with delegate :delegate = %@ /* Error: Ran out of types for this method. */;
 - (void)èEa;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_attachmentRange, setter=_setAttachmentRange:) id <NSObject> _attachmentRange; // @synthesize _attachmentRange;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) UITextPosition *end;
 @property(readonly, nonatomic, getter=_isCaret) _Bool isCaret;
-@property(readonly, nonatomic, getter=_isImpl) UITextRangeImpl *isImpl;
-@property(readonly, nonatomic, getter=_isRanged) _Bool isRanged;
-@property(readonly, nonatomic) UITextPosition *start;
 
 @end
 

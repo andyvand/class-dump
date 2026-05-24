@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INEvent
 {
     NSString *_eventType;
-    NSArray *_eventDescriptors;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)ollersByUDID;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)__respondToAutoJoinAssistRequest:(id)arg1 options:responseHandler: /* Error: Ran out of types for this method. */;
+- (void)c89abb0d9;
 - (id);
 - (id);
-- (id)pingIdentifiers:(unsigned long long)arg1;
-- (void)l:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)_resolveUserActivityExecutionInfoBySwappingIdentifiers:(unsigned long long)arg1;
+- (void)provideDestinationTypeOptionsCollectionForStartAudioCall:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ðÄÿJ[O=
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *eventDescriptors; // @synthesize eventDescriptors=_eventDescriptors;
 @property(readonly, copy) NSString *eventType; // @synthesize eventType=_eventType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

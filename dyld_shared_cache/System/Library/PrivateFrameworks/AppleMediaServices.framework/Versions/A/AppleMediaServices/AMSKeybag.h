@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSFairPlayContext, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AMSKeybag
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    AMSFairPlayContext *_fairPlayContext;
 }
 
 + (id)2UZÎ©SÆ¢üd°g`j?th,YDÃ[F%ÀTýqáL¯ÿuº¸ßÉfÕÝÊâ¿ýëÂtvyUqg;
@@ -33,7 +32,6 @@
 
 // Remaining properties
 @property(retain) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain) AMSFairPlayContext *fairPlayContext; // @synthesize fairPlayContext=_fairPlayContext;
 
 @end
 

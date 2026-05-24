@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSUUID, TRISubject, TRISubjectProvider;
+@class NSUUID, TRISubject;
 
 @interface TRITrackingId
 {
     TRISubject *_subject;
-    TRISubjectProvider *_subjectProvider;
-    int _projectId;
-    NSUUID *_uuid;
-    NSDate *_time;
-    NSArray *_treatments;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)setLastModifiedDateForPasskey:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -34,9 +29,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) TRISubject *subject;
-@property(readonly, nonatomic) NSDate *time; // @synthesize time=_time;
-@property(readonly, nonatomic) NSArray *treatments; // @synthesize treatments=_treatments;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

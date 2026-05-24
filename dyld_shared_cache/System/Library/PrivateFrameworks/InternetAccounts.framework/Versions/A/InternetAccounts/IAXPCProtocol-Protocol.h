@@ -5,5 +5,8 @@
 //
 
 @protocol IAXPCProtocol
+- (void);
+- (void)	;
+- (void)`;
 @end
 

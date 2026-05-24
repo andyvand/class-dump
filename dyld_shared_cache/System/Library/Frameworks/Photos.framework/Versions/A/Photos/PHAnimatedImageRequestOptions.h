@@ -9,19 +9,17 @@
 @interface PHAnimatedImageRequestOptions : PHImageRequestOptions
 {
     _Bool _allowPreCaching;
-    _Bool _useSharedImageDecoding;
 }
 
 - (void);
-- (id);
+- (id)J1;
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)e;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowPreCaching; // @synthesize allowPreCaching=_allowPreCaching;
-@property(nonatomic) _Bool useSharedImageDecoding; // @synthesize useSharedImageDecoding=_useSharedImageDecoding;
 
 @end
 

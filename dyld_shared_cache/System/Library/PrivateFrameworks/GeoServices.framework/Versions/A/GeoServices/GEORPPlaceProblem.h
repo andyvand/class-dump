@@ -7,23 +7,16 @@
 @interface GEORPPlaceProblem
 {
     unsigned int _componentIndex;
-    unsigned int _componentValueIndex;
-    unsigned int _problematicDepartureSequenceIndex;
-    struct {
-        unsigned int has_componentIndex:1;
-        unsigned int has_componentValueIndex:1;
-        unsigned int has_problematicDepartureSequenceIndex:1;
-    } _flags;
 }
 
-+ (_Bool)tLayoutFields:(id)arg1;
++ (_Bool)setLayoutFields:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void)"CNCDContainer";
+- (void)reportBuildMetrics;
+- (void)repairPersistenceStackIfNecessary;
+- (unsigned int)_cn_caseInsensitiveIsEqual: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,24 +25,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)-;
+- (void)SSVCADeviceDefaultMicSensitivityOffset;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)e}"__cntrl_"^{__shared_weak_count}};
-- (id)dIncidentSpokenTexts;
+- (id)clearLocalizedIncidentSpokenTexts;
 - (id)¤±0µ;
 - (id)rom can only be called once per object;
 
 // Remaining properties
-@property(nonatomic) unsigned int componentIndex;
-@property(nonatomic) unsigned int componentValueIndex;
 @property(nonatomic) _Bool hasComponentIndex;
-@property(nonatomic) _Bool hasComponentValueIndex;
-@property(nonatomic) _Bool hasProblematicDepartureSequenceIndex;
-@property(nonatomic) unsigned int problematicDepartureSequenceIndex;
 
 @end
 

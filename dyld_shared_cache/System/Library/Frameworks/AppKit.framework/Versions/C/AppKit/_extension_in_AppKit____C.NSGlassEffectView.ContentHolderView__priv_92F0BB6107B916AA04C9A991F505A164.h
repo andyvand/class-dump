@@ -9,12 +9,11 @@
 @interface (extension in AppKit):__C.NSGlassEffectView.ContentHolderView__priv_92F0BB6107B916AA04C9A991F505A164 : NSView
 {
     id _effectiveColorScheme;
-    id _$observationRegistrar;
 }
 
 - (id);
 - (void);
-- (id)lumn;
+- (id)_startOfLastNonHiddenColumn;
 - (void)¨îéÿq;
 
 @end

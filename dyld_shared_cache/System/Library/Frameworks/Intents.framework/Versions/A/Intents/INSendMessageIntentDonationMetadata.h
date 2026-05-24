@@ -9,13 +9,9 @@
 @interface INSendMessageIntentDonationMetadata : INIntentDonationMetadata
 {
     _Bool _mentionsCurrentUser;
-    _Bool _replyToCurrentUser;
-    _Bool _notifyRecipientAnyway;
-    _Bool _businessChat;
-    unsigned long long _recipientCount;
 }
 
-+ (Class);
++ (Class)requestIsInvalidError;
 + (_Bool);
 - (void);
 - (void);
@@ -26,21 +22,17 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)/Versions/A/SystemAdministration;
+- (id)publishedControllers;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)queryKnownNetworkProfilesWithProperties:(id)arg1 requestParams:reply: /* Error: Ran out of types for this method. */;
+- (void)nce failed for interface %@:(id)arg1 %@;
 - (id);
 
 // Remaining properties
 @property(getter=isBusinessChat) _Bool businessChat; // @synthesize businessChat=_businessChat;
-@property _Bool mentionsCurrentUser; // @synthesize mentionsCurrentUser=_mentionsCurrentUser;
-@property _Bool notifyRecipientAnyway; // @synthesize notifyRecipientAnyway=_notifyRecipientAnyway;
-@property unsigned long long recipientCount; // @synthesize recipientCount=_recipientCount;
-@property(getter=isReplyToCurrentUser) _Bool replyToCurrentUser; // @synthesize replyToCurrentUser=_replyToCurrentUser;
 
 @end
 

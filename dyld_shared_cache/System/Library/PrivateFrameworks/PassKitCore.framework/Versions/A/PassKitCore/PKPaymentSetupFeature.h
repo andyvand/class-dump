@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
+@class NSSet;
 
 @interface PKPaymentSetupFeature
 {
     NSSet *_identifiers;
-    NSString *_localizedDisplayName;
-    long long _type;
-    long long _state;
-    long long _supportedOptions;
-    long long _supportedDevices;
-    NSString *_productIdentifier;
-    NSString *_partnerIdentifier;
-    unsigned long long _featureIdentifier;
-    NSString *_dirtyStateIdentifier;
-    NSDate *_lastUpdated;
-    NSDate *_expiry;
-    unsigned long long _productType;
-    unsigned long long _productState;
-    NSString *_notificationTitle;
-    NSString *_notificationMessage;
-    NSString *_discoveryCardIdentifier;
 }
 
 + (id);
@@ -33,10 +17,10 @@
 - (long long);
 - (void);
 - (void);
+- (void)W;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)W;
 - (void);
 - (void);
 - (void);
@@ -44,58 +28,42 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)!;
+- (id);
+- (id)`;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)*	;
 - (unsigned long long);
-- (void);
+- (void);
+- (long long)*G;
 - (long long);
-- (long long);
 - (id);
-- (_Bool);
+- (_Bool)tkipreplay;
 - (void);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)a;
 - (id);
 - (void)!øCùï%Ð1Â0@ù
 × ;
-- (void)y;
+- (void)PKUserHasDisabledPeerPaymentKey;
 - (void)action"16;
-- (void)NAME;
+- (void)NETWORK_NAME_CARTEBLEUE_CARD_NAME;
 - (id)L§ÿEÁ9æ©;
 - (unsigned long long)Y×ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *dirtyStateIdentifier; // @synthesize dirtyStateIdentifier=_dirtyStateIdentifier;
-@property(copy, nonatomic) NSString *discoveryCardIdentifier; // @synthesize discoveryCardIdentifier=_discoveryCardIdentifier;
-@property(retain, nonatomic) NSDate *expiry; // @synthesize expiry=_expiry;
-@property(nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
 @property(copy, nonatomic) NSSet *identifiers; // @synthesize identifiers=_identifiers;
-@property(retain, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(copy, nonatomic) NSString *localizedDisplayName; // @synthesize localizedDisplayName=_localizedDisplayName;
-@property(copy, nonatomic) NSString *notificationMessage; // @synthesize notificationMessage=_notificationMessage;
-@property(copy, nonatomic) NSString *notificationTitle; // @synthesize notificationTitle=_notificationTitle;
-@property(copy, nonatomic) NSString *partnerIdentifier; // @synthesize partnerIdentifier=_partnerIdentifier;
-@property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(nonatomic) unsigned long long productState; // @synthesize productState=_productState;
-@property(nonatomic) unsigned long long productType; // @synthesize productType=_productType;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) long long supportedDevices; // @synthesize supportedDevices=_supportedDevices;
-@property(nonatomic) long long supportedOptions; // @synthesize supportedOptions=_supportedOptions;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

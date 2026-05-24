@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ORCHSchemaORCHServerExecutionValuesReported : SISchemaInstrumentationMessage
 {
     NSString *_serverExecutedDomain;
-    _Bool _hasServerExecutedDomain;
 }
 
 - (void);
@@ -27,13 +26,11 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)t;
+- (id)_disambiguationSpeechTranslationEvent;
 - (id)fw;
 - (void)nRequirement.systemRequirement.protectedAppApprovalRequired.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasServerExecutedDomain; // @synthesize hasServerExecutedDomain=_hasServerExecutedDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *serverExecutedDomain; // @synthesize serverExecutedDomain=_serverExecutedDomain;
 
 @end

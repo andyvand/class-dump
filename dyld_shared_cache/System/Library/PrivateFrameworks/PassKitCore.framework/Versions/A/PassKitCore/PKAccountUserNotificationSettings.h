@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber;
-
 @interface PKAccountUserNotificationSettings
 {
     _Bool _transactionNotificationsEnabled;
-    NSDecimalNumber *_transactionNotificationThreshold;
-    NSDecimalNumber *_monthlySpendNotificationThreshold;
 }
 
 + (id);
@@ -19,22 +15,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)kj;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)addPcieQueueState:(id)arg1;
 - (void);
 - (id);
-- (void)ATCH;
+- (void)CARKEY_INVITATION_NEEDS_RESEND_WATCH;
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *monthlySpendNotificationThreshold; // @synthesize monthlySpendNotificationThreshold=_monthlySpendNotificationThreshold;
-@property(retain, nonatomic) NSDecimalNumber *transactionNotificationThreshold; // @synthesize transactionNotificationThreshold=_transactionNotificationThreshold;
 @property(nonatomic) _Bool transactionNotificationsEnabled; // @synthesize transactionNotificationsEnabled=_transactionNotificationsEnabled;
 
 @end

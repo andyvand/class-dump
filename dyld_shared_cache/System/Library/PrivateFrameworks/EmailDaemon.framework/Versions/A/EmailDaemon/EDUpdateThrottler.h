@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFDebouncer, NSDate, NSMutableArray, NSString;
-@protocol EDResumable, EFScheduler;
+@class NSString;
 
 @interface EDUpdateThrottler
 {
     struct os_unfair_lock_s _updatesLock;
-    NSMutableArray *_unacknowledgedUpdates;
-    _Bool _hasChangesSinceLastUpdate;
-    NSString *_name;
-    double _delayInterval;
-    long long _scalingFactor;
-    NSDate *_lastUpdateDate;
-    NSDate *_lastAcknowledgementDate;
-    long long _updateCounter;
-    id <EDResumable> _resumable;
-    EFDebouncer *_resumeClientDebouncer;
-    id <EFScheduler> _resumeClientScheduler;
 }
 
 + (void);
-+ (void);
++ (void)CRKFetchActiveStudentCourseIdentifiersRequest;
 + (id);
 + (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@0:(double *)arg1 8@"AVTAvatarActionsViewController"16@"<AVTAvatarRecord>"24;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void)permissionsByFeature;
 - (void);
 - (id);
 - (id);
@@ -43,13 +31,13 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)C;
 - (id);
 - (id);
 - (long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)eferenceApsdSamplingRateNumerator samplingNumerator from %u to %u;
+- (id)cesAgent;
 - (id);
 - (void)ENT,
     item INTEGER NOT NULL,
@@ -60,23 +48,7 @@
 );
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double delayInterval; // @synthesize delayInterval=_delayInterval;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasChangesSinceLastUpdate; // @synthesize hasChangesSinceLastUpdate=_hasChangesSinceLastUpdate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastAcknowledgementDate; // @synthesize lastAcknowledgementDate=_lastAcknowledgementDate;
-@property(retain, nonatomic) NSDate *lastUpdateDate; // @synthesize lastUpdateDate=_lastUpdateDate;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) id <EDResumable> resumable; // @synthesize resumable=_resumable;
-@property(retain, nonatomic) EFDebouncer *resumeClientDebouncer; // @synthesize resumeClientDebouncer=_resumeClientDebouncer;
-@property(retain, nonatomic) id <EFScheduler> resumeClientScheduler; // @synthesize resumeClientScheduler=_resumeClientScheduler;
-@property(readonly, nonatomic) long long scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(readonly) Class superclass;
-@property(nonatomic) long long updateCounter; // @synthesize updateCounter=_updateCounter;
 
 @end
 

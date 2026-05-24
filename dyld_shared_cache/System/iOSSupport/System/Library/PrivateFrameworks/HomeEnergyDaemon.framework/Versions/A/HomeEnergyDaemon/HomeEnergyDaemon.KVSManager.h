@@ -7,6 +7,7 @@
 @interface HomeEnergyDaemon.KVSManager
 {
     id kvs;
+    id;
 }
 
 @end

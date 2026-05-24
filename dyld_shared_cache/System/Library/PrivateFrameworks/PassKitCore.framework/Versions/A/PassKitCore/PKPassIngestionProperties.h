@@ -9,8 +9,6 @@
 @interface PKPassIngestionProperties
 {
     _Bool _hasCustomizedSettings;
-    PKPassProvisioningMetadata *_provisioningMetadata;
-    unsigned long long _settings;
 }
 
 + (_Bool)î%1Â0@ù
@@ -20,15 +18,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)hasHighlightableSelectionForAnnotationController:(unsigned long long)arg1;
 - (unsigned long long);
-- (void);
-- (void)mentAuthorizationStatusPINLockout;
+- (void)TxQueueFull_true;
+- (void)PKPaymentAuthorizationStatusPINLockout;
 
 // Remaining properties
-@property(nonatomic) _Bool hasCustomizedSettings; // @synthesize hasCustomizedSettings=_hasCustomizedSettings;
 @property(retain, nonatomic) PKPassProvisioningMetadata *provisioningMetadata; // @synthesize provisioningMetadata=_provisioningMetadata;
-@property(nonatomic) unsigned long long settings; // @synthesize settings=_settings;
 
 @end
 

@@ -6,7 +6,6 @@
 
 #import <UIKitCore/_UITabElement.h>
 
-@class NSArray, NSString, UITab;
 @protocol _UITabElementGroupDelegate;
 
 @interface _UITabElementGroup : _UITabElement
@@ -15,53 +14,46 @@
         unsigned int didSelectElement:1;
         unsigned int didCustomizeDisplayOrder:1;
     } _delegateImplements;
-    _Bool __allowsReordering;
-    id <_UITabElementGroupDelegate> _delegate;
-    _UITabElement *_selectedElement;
-    NSArray *_children;
-    NSString *__defaultChildIdentifier;
-    NSArray *__displayOrder;
-    unsigned long long __sidebarAppearance;
 }
 
-- (id);
+- (id).+;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)ssagesDidSync:(unsigned long long)arg1;
+- (void)numReadReceiptsV1;
+- (void)messagesProcessedComingBackFromStorage;
+- (id)handleTransitionedList;
+- (unsigned long long)deleteMessageGUIDs:context:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)addDefaultGatekeeperPropertiesToDirectory:(unsigned long long)arg1;
+- (void)acceptSource;
+- (_Bool)_noteDeviceHasMICForSMSRelay:(id)arg1;
+- (void)_nicknameService;
+- (void)_nicknameRecordsKVStore;
+- (void)_messageRecordZoneID;
+- (void)_fixSiblingChatsAndStoreIfNeeded:(_Bool)arg1 iMessageChat:chatsToRegenerate: /* Error: Ran out of types for this method. */;
+- (id)_createSubscriptionIfNeededForZoneID:subscriptionID:recordType:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_copyItemAtURL:(id)arg1 toTemporaryDirectoryWithName:(_Bool)arg2 isDirectory:(_Bool)arg3 error:(CDUnknownBlockType)arg4;
+- (void)_copyGroupedDuplicateChatsSortedFromWinningToLosingWithLimit:(id)arg1;
+- (void)_copyDuplicateChatsArrayWithLimit:(id)arg1;
+- (id);
+- (_Bool)8f;
+- (_Bool)@;
+- (id);
+- (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)delete from CloudKit were still being referenced, querying again;
+- (id)template image with BlastDoor copy for %@ and transfer %@;
+- (_Bool)cation ranges;
+- (_Bool)not replicating;
+- (void)%@;
 - (void);
 - (void);
 - (_Bool);
@@ -72,26 +64,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, setter=_setAllowsReordering:) _Bool _allowsReordering; // @synthesize _allowsReordering=__allowsReordering;
-@property(copy, nonatomic, setter=_setChildren:) NSArray *_children; // @synthesize _children;
-@property(retain, nonatomic, setter=_setDefaultChildIdentifier:) NSString *_defaultChildIdentifier; // @synthesize _defaultChildIdentifier=__defaultChildIdentifier;
 @property(nonatomic, setter=_setDelegate:) __weak id <_UITabElementGroupDelegate> _delegate; // @synthesize _delegate;
-@property(copy, nonatomic, setter=_setDisplayOrder:) NSArray *_displayOrder; // @synthesize _displayOrder=__displayOrder;
-@property(retain, nonatomic, setter=_setSelectedElement:) _UITabElement *_selectedElement; // @synthesize _selectedElement;
-@property(nonatomic, setter=_setSidebarAppearance:) unsigned long long _sidebarAppearance; // @synthesize _sidebarAppearance=__sidebarAppearance;
-@property(nonatomic) _Bool allowsReordering;
-@property(readonly, copy, nonatomic) NSArray *children;
-@property(readonly, nonatomic, getter=isCollapsedByDefault) _Bool collapsedByDefault;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UITab *selectedChild;
-@property(readonly, nonatomic) NSArray *sidebarActions;
-@property(readonly, nonatomic) unsigned long long sidebarAppearance;
-@property(readonly) Class superclass;
 
 @end
 

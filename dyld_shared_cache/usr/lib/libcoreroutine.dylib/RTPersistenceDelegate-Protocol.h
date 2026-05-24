@@ -4,7 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class RTPersistenceStore;
+
 @protocol RTPersistenceDelegate
+- (long long)P;
+- (_Bool);
+- (_Bool)setExistingItemReference:(RTPersistenceStore *)arg1;
+
+@optional
+- (void)@;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldResetCloudStore;

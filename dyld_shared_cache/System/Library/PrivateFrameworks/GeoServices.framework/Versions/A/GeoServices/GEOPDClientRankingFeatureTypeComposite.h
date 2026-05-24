@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDClientRankingFeatureTypeComposite
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_variableExponentPairs;
-    float _featureWeight;
-    struct {
-        unsigned int has_featureWeight:1;
-    } _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)s_addOtherPoi"b1"read_unknownFields"b1"read_corrections"b1"read_placeRequest"b1"read_place"b1"read_poiCuratedCollectionContext"b1"wrote_anyField"b1};
-- (id)sary;
+- (id)_cleanUpDeletedExternalDataIfNecessary;
 - (id)Ä;
 - (void)÷ÿÿÿðÿÿÿéÿÿÿëÿÿÿôÿÿÿóÿÿÿõÿÿÿïÿÿÿîÿÿÿöÿÿÿêÿÿÿíÿÿÿùÿÿÿòÿÿÿðÿÿÿïÿÿÿñÿÿÿ÷ÿÿÿüÿÿÿúÿÿÿõÿÿÿôÿÿÿöÿÿÿùÿÿÿòÿÿÿóÿÿÿ÷ÿÿÿùÿÿÿøÿÿÿûÿÿÿýÿÿÿöÿÿÿúÿÿÿòÿÿÿõÿÿÿóÿÿÿôÿÿÿñÿÿÿðÿÿÿòÿÿÿëÿÿÿïÿÿÿöÿÿÿñÿÿÿìÿÿÿôÿÿÿóÿÿÿîÿÿÿíÿÿÿêÿÿÿÕÿÿÿÿÿÿÿÜÿÿÿÿÿÿÿÑÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿìÿÿÿëÿÿÿäÿÿÿöÿÿÿßÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿãÿÿÿÙÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿàÿÿÿÿÿÿÿòÿÿÿâÿÿÿæÿÿÿñÿÿÿäÿÿÿôÿÿÿêÿÿÿìÿÿÿðÿÿÿîÿÿÿçÿÿÿåÿÿÿóÿÿÿïÿÿÿãÿÿÿèÿÿÿÜÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿËÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿïÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿØÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿßÿÿÿÿÿÿÿìÿÿÿîÿÿÿäÿÿÿòÿÿÿãÿÿÿêÿÿÿðÿÿÿëÿÿÿÿÿÿÿÿÿÿ;
 

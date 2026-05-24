@@ -6,12 +6,11 @@
 
 #import <MediaRemote/MRNowPlayingArtwork.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface MRNowPlayingArtworkImage : MRNowPlayingArtwork
 {
     NSData *_imageData;
-    NSString *_mimeType;
 }
 
 - (id);
@@ -19,14 +18,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)retractedPartIndexes;
 - (_Bool);
 - (id);
 - (void)ing",&,N,V_sharedPlaybackSessionIdentifier;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly, copy, nonatomic) NSString *mimeType; // @synthesize mimeType=_mimeType;
 
 @end
 

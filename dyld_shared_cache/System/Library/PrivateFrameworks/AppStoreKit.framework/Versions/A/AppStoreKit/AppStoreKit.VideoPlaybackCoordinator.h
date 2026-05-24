@@ -7,26 +7,13 @@
 @interface AppStoreKit.VideoPlaybackCoordinator
 {
     id visibilityTracker;
-    id videoViews;
-    id playbackQueue;
-    id parentViewController;
-    id playbackCoalescingWaitTime;
-    id metricsPipeline;
-    id playbackWorkItem;
-    id _isGlobalAutoPlayEnabled;
-    id isAutoPlayEnabled;
-    id isAutoPlayActive;
-    id shouldLoopAutoPlayback;
-    id shouldLoopSingleVideo;
-    id currentPlaybackIndex;
-    id _activeVideo;
 }
 
 - (void);
-- (void);
+- (void)o;
 - (void);
 - (id);
-- (void)NSErrorCSgIeyByy_;
+- (void)So26ASDAlertPresentationResultCSgSo7NSErrorCSgIeyByy_;
 
 @end
 

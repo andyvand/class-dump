@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)"�;
++ (id)_accessibilityShouldIncludeParentCustomActions;
 + (void);
 - (void);
 - (void);

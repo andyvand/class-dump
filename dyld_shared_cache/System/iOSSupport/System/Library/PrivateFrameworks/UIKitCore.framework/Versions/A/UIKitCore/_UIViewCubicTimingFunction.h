@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (id);
 - (id);
-- (id);
+- (id)ink:r:path:/System/Library/Frameworks/iTunesLibrary.framework/iTunesLibrary /* Error: Ran out of types for this method. */;
 - (_Bool)ize=dd}24d40d48B56B60;
-- (void)railingSwipeEdgeMultiplier;
-- (id);
-- (id)ink;
+- (void)trailingSwipeEdgeMultiplier;
+- (id)_checkScrollableBounds;
+- (id)_alwaysDisableDisplayLink;
 - (id);
 
 // Remaining properties

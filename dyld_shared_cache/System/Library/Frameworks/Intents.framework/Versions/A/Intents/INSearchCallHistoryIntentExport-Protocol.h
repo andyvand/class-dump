@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, INPerson, NSNumber;
+@class INDateComponentsRange, NSNumber;
 
 @protocol INSearchCallHistoryIntentExport
+- (NSNumber *);
+- (void)Aj;
+- (void);
 
 // Remaining properties
-@property unsigned long long callCapabilities;
-@property unsigned long long callTypes;
 @property(copy) INDateComponentsRange *dateCreated;
-@property long long preferredCallProvider;
-@property(copy) INPerson *recipient;
-@property(copy) NSNumber *unseen;
 @end
 

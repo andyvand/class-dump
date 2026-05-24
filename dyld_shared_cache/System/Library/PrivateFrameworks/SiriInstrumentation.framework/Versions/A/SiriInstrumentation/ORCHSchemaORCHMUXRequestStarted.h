@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHMUXRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)j?;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)! AùÞ1Â0@ù
 × ;
-- (id);
+- (id)_collectionStatus;
 - (id)sRequestContext",&,N,V_pgOverridesRequestContext;
-- (_Bool)LOWSAFARITASKTYPE_ENTER_RECIPE_MODE;
-- (_Bool)alError;
+- (_Bool)FLOWSAFARITASKTYPE_ENTER_RECIPE_MODE;
+- (_Bool)PRSiriSchemaPRFatalError;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface AppleMediaServicesUI.InlineDialogModel : AppleMediaServicesUI.MessagingModel
 {
     id _anchorPoint;
-    id _preferredAppearance;
 }
 
 @end

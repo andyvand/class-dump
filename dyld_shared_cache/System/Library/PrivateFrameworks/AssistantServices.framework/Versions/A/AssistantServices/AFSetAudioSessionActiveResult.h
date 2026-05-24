@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface AFSetAudioSessionActiveResult
 {
     unsigned int _audioSessionID;
-    NSError *_error;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)enrollmentSignature;
+- (id)V_partialSignature;
 - (id);
 - (id);
 - (id);
@@ -31,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int audioSessionID; // @synthesize audioSessionID=_audioSessionID;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

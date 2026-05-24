@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRCameraReader, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CRInsightsContext
 {
     NSMutableDictionary *_info;
-    CRCameraReader *_cameraReader;
 }
 
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)B;
+- (id)kCellularPlanErrorTransferNotSupportedFromiPhone;
 - (void);
 - (void);
 - (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak CRCameraReader *cameraReader; // @synthesize cameraReader=_cameraReader;
 @property(retain, nonatomic) NSMutableDictionary *info; // @synthesize info=_info;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBReminder;
+@class _SFPBReminder;
 
 @interface _SFPBCreateReminderCommand
 {
@@ -12,28 +12,20 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)isVisibleForSocialGroupKeyAssetFetch;
+- (id)ple.photos.backend.chooseVideo.outOfBandHints;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)rchBar: /* Error: Ran out of types for this method. */;
+- (void)setIsUsingLoweredSearchBar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBReminder *reminder; // @synthesize reminder=_reminder;
-@property(readonly) Class superclass;
 
 @end
 

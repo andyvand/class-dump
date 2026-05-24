@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCell, NSMutableArray, NSString, NSTableView, NSTextView, NSView;
+@class NSView;
 
 @interface GFNodeManagerView
 {
     NSView *_insideView;
-    NSString *_namespace;
-    NSString *_filterString;
-    NSMutableArray *_nodeNames;
-    NSTableView *_tableView;
-    NSTextView *_textView;
-    NSCell *_defaultDataCell;
-    void *_unused[4];
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
-- (id);
+- (id)RIa;
 - (long long);
 - (id);
 - (void);

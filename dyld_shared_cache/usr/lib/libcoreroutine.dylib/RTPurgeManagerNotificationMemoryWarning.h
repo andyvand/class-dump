@@ -11,8 +11,8 @@
     long long _pressureState;
 }
 
-- (id);
-- (long long);
+- (id)';
+- (long long)AllowPendingMessagesForInactiveDevice;
 - (void);
 
 // Remaining properties

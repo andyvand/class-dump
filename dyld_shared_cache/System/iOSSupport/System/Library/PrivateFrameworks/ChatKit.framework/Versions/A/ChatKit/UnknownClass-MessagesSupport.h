@@ -4,48 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatController, NSString, UIView;
+@class UIView;
 
 @interface UnknownClass (MessagesSupport)
-- (id);
+- (id)queryString;
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)t;
+- (void)t;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)e;
+- (void)sed to %s;
+- (_Bool)g share. %@;
+- (_Bool)@;
+- (void)rd when accepting share:(id)arg1 %@;
+- (_Bool)ock %@:(id)arg1 %@;
+- (_Bool)@;
+- (void)t share %@ %@;
+- (id)ount;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)o;
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak CKChatController *ck_chatController;
 @property(retain, nonatomic) UIView *ck_transitionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

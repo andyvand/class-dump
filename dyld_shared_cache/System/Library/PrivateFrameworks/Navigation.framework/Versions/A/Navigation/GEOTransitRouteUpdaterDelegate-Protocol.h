@@ -5,5 +5,8 @@
 //
 
 @protocol GEOTransitRouteUpdaterDelegate
+
+@optional
+- (void)B;
 @end
 

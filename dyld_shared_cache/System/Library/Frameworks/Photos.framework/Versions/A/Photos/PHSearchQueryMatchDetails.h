@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, _CSEmbedding;
+@class NSAttributedString;
 
 @interface PHSearchQueryMatchDetails
 {
     NSAttributedString *_queryText;
-    _CSEmbedding *_queryEmbedding;
-    NSArray *_personUUIDS;
-    NSArray *_sceneIdentifiers;
-    NSArray *_audioIdentifiers;
-    NSArray *_humanActionIdentifiers;
-    NSArray *_ocrAssetUUIDs;
-    NSArray *_ocrQueryTokens;
-    unsigned long long _countOfQueryTerms;
 }
 
++ (id)b@9?;
 + (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
+- (id)s;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)qA;
 - (id);
 - (unsigned long long);
 - (id);
@@ -38,15 +30,7 @@
 - (void){CGRect={CGPoint=dd}{CGSize=dd}},R,N;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *audioIdentifiers; // @synthesize audioIdentifiers=_audioIdentifiers;
-@property(readonly, nonatomic) unsigned long long countOfQueryTerms; // @synthesize countOfQueryTerms=_countOfQueryTerms;
-@property(readonly, nonatomic) NSArray *humanActionIdentifiers; // @synthesize humanActionIdentifiers=_humanActionIdentifiers;
-@property(readonly, nonatomic) NSArray *ocrAssetUUIDs; // @synthesize ocrAssetUUIDs=_ocrAssetUUIDs;
-@property(readonly, nonatomic) NSArray *ocrQueryTokens; // @synthesize ocrQueryTokens=_ocrQueryTokens;
-@property(readonly, nonatomic) NSArray *personUUIDS; // @synthesize personUUIDS=_personUUIDS;
-@property(readonly, nonatomic) _CSEmbedding *queryEmbedding; // @synthesize queryEmbedding=_queryEmbedding;
 @property(readonly, nonatomic) NSAttributedString *queryText; // @synthesize queryText=_queryText;
-@property(readonly, nonatomic) NSArray *sceneIdentifiers; // @synthesize sceneIdentifiers=_sceneIdentifiers;
 
 @end
 

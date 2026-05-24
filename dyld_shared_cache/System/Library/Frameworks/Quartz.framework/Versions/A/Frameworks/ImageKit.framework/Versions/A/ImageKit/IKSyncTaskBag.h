@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray;
+@class NSMutableArray;
 
 @interface IKSyncTaskBag
 {
     NSMutableArray *_content;
-    NSLock *_lock;
 }
 
 - (void);

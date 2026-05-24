@@ -6,13 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CKDTokenDeletionURLRequest : CKDURLRequest
 {
     NSData *_apsToken;
-    NSString *_apsEnvironmentString;
-    NSString *_bundleID;
 }
 
 - (void);
@@ -34,9 +32,7 @@
 - (id)om sharing identity data:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *apsEnvironmentString; // @synthesize apsEnvironmentString=_apsEnvironmentString;
 @property(retain, nonatomic) NSData *apsToken; // @synthesize apsToken=_apsToken;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
 
 @end
 

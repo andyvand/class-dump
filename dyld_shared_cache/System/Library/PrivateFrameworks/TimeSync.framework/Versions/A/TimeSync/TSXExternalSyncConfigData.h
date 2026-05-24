@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSXExternalSyncConfigData
 {
     unsigned int _syncId;
-    unsigned int _triggerId;
-    unsigned long long _toleranceExternalTriggerNs;
-    unsigned long long _toleranceSyncOutputNs;
-    unsigned long long _timeoutNs;
-    NSString *_simulationFilePath;
-    CDStruct_4e4c37a4 _nominalTriggerDuration;
-    CDStruct_4e4c37a4 _syncMultiplier;
 }
 
 + (_Bool);
@@ -23,24 +14,17 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (CDStruct_4e4c37a4);
+- (CDStruct_4bcfbbae);
 - (unsigned int);
 - (id);
-- (CDStruct_4e4c37a4);
+- (CDStruct_4bcfbbae);
 - (id);
 - (id);
-- (void);
+- (void)NSMutableDictionary",&,N,V_activeSystemSubscriptionIdentifiers;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_4e4c37a4 nominalTriggerDuration; // @synthesize nominalTriggerDuration=_nominalTriggerDuration;
-@property(readonly, copy, nonatomic) NSString *simulationFilePath; // @synthesize simulationFilePath=_simulationFilePath;
 @property(readonly, nonatomic) unsigned int syncId; // @synthesize syncId=_syncId;
-@property(readonly, nonatomic) CDStruct_4e4c37a4 syncMultiplier; // @synthesize syncMultiplier=_syncMultiplier;
-@property(readonly, nonatomic) unsigned long long timeoutNs; // @synthesize timeoutNs=_timeoutNs;
-@property(readonly, nonatomic) unsigned long long toleranceExternalTriggerNs; // @synthesize toleranceExternalTriggerNs=_toleranceExternalTriggerNs;
-@property(readonly, nonatomic) unsigned long long toleranceSyncOutputNs; // @synthesize toleranceSyncOutputNs=_toleranceSyncOutputNs;
-@property(readonly, nonatomic) unsigned int triggerId; // @synthesize triggerId=_triggerId;
 
 @end
 

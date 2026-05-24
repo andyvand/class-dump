@@ -7,18 +7,12 @@
 @interface TSNotificationSettings
 {
     long long authorizationStatus;
-    _Bool sound;
-    _Bool badge;
-    _Bool showOnLockScreen;
-    _Bool showInNotificationCenter;
-    _Bool showBanners;
-    int scheduledDeliverySetting;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (id);
 - (_Bool)ot enabled;
@@ -27,12 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long authorizationStatus; // @synthesize authorizationStatus;
-@property(nonatomic, readonly) _Bool badge; // @synthesize badge;
-@property(nonatomic, readonly) int scheduledDeliverySetting; // @synthesize scheduledDeliverySetting;
-@property(nonatomic, readonly) _Bool showBanners; // @synthesize showBanners;
-@property(nonatomic, readonly) _Bool showInNotificationCenter; // @synthesize showInNotificationCenter;
-@property(nonatomic, readonly) _Bool showOnLockScreen; // @synthesize showOnLockScreen;
-@property(nonatomic, readonly) _Bool sound; // @synthesize sound;
 
 @end
 

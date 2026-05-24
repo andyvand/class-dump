@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void)IONSHIP_TYPE_CHILD;
+- (id);
+- (void)BENEFICIARY_RELATIONSHIP_TYPE_CHILD;
 
 // Remaining properties
 @property(readonly, nonatomic) PKSecureElementPass *pass; // @synthesize pass=_pass;

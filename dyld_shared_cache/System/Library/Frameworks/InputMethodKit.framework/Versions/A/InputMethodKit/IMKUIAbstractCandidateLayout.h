@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateListDictionary, NSString;
-@protocol IMKUICandidateLayoutDelegate;
+@class IMKCandidateListDictionary;
 
 @interface IMKUIAbstractCandidateLayout
 {
     IMKCandidateListDictionary *_candidateGroups;
-    id <IMKUICandidateLayoutDelegate> _delegate;
-    NSString *_identifier;
 }
 
 - (void);
@@ -20,16 +17,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct CGSize)tion %p is invalid. ;
 
 // Remaining properties
 @property(retain, nonatomic) IMKCandidateListDictionary *candidateGroups; // @synthesize candidateGroups=_candidateGroups;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(nonatomic) __weak id <IMKUICandidateLayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

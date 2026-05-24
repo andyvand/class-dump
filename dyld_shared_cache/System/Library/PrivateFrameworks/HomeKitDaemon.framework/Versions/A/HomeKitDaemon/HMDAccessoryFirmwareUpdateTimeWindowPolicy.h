@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDAccessoryFirmwareUpdatePolicy.h>
 
-@class HMDAccessoryFirmwareUpdateTimeWindow, HMFTimer, NSDateFormatter, NSString;
+@class HMDAccessoryFirmwareUpdateTimeWindow, HMFTimer;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateTimeWindowPolicy : HMDAccessoryFirmwareUpdatePolicy
 {
     HMFTimer *_reevaluateTimer;
-    HMDAccessoryFirmwareUpdateTimeWindow *_updateTimeWindow;
-    NSDateFormatter *_dateFormatter;
 }
 
 + (id)ñB;
@@ -21,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)onConfiguration;
+- (void)t connected - set arrow cursor;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)reateSoftwareUpdateEventListenerIfNecessary;
+- (id)createSoftwareUpdateEventListenerIfNecessary;
 - (id)eallocating recording session:%@ /* Error: Ran out of types for this method. */;
 - (void)ssory from notification:%@ /* Error: Ran out of types for this method. */;
 - (void)ÂØ;
@@ -34,15 +32,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMFTimer *reevaluateTimer; // @synthesize reevaluateTimer=_reevaluateTimer;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) HMDAccessoryFirmwareUpdateTimeWindow *updateTimeWindow; // @synthesize updateTimeWindow=_updateTimeWindow;
 
 @end

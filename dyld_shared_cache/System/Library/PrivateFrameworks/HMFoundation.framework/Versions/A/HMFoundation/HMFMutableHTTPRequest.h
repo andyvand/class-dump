@@ -6,21 +6,17 @@
 
 #import <HMFoundation/HMFHTTPRequest.h>
 
-@class NSData, NSDictionary;
-
 @interface HMFMutableHTTPRequest : HMFHTTPRequest
 {
 }
 
 - (void);
-- (id);
+- (id)yh;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *body; // @dynamic body;
-@property(copy, nonatomic) NSDictionary *headerFields; // @dynamic headerFields;
 @property(nonatomic) double timeoutInterval; // @dynamic timeoutInterval;
 
 @end

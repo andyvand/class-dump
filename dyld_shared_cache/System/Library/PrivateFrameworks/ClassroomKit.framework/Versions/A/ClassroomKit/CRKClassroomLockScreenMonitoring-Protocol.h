@@ -5,10 +5,9 @@
 //
 
 @protocol CRKClassroomLockScreenMonitoring
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isClassroomLockScreenActivated) _Bool classroomLockScreenActivated;
 @property(readonly, nonatomic, getter=isClassroomLockScreenVisible) _Bool classroomLockScreenVisible;
-@property(readonly, nonatomic) _Bool classroomLockScreenWantsToDismiss;
 @end
 

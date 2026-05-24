@@ -4,47 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBGraphicalFloat, _SFPBImage, _SFPBLatLng, _SFPBPunchout, _SFPBURL;
+@class NSArray, NSString, _SFPBGraphicalFloat, _SFPBLatLng, _SFPBURL;
 
 @protocol _SFPBActionItem
+- (void)!*;
+- (void);
+- (NSArray *)_C3DKeyframeControllerCreateKeyframeArray unknown key type;
+- (void)known path %@;
+- (void);
+- (NSString *)r"72@0:8@"NSData"16@"NSString"24@"NSNumber"32@"NSDate"40@"NSDate"48@"NSNumber"56q64 /* Error: Ran out of types for this method. */;
+- (void)@ was notified that call with UUID %@ failed at date %@ with context %@;
+- (_Bool)_targetUnattenuatedGlobalGainReduction;
+- (_SFPBURL *)setStartAndEndDatesWithKeyAssets:representativeAssets: /* Error: Ran out of types for this method. */;
+- (NSString *)creationRequestForAssetWithOptions: /* Error: Ran out of types for this method. */;
+- (_SFPBLatLng *))A;
 - (void)!lCù±¦Ð1Â0@ù
 × ;
 - (void)rdSection",&,N;
-- (_SFPBGraphicalFloat *)ection;
-- (void);
+- (_SFPBGraphicalFloat *)_SFPBRFSimpleItemRichSearchResultCardSection;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) _SFPBImage *baseIcon;
-@property(copy, nonatomic) NSString *contactIdentifier;
-@property(retain, nonatomic) _SFPBPunchout *customDirectionsPunchout;
-@property(nonatomic) int directionsMode;
-@property(copy, nonatomic) NSString *email;
-@property(retain, nonatomic) _SFPBImage *icon;
-@property(copy, nonatomic) NSString *interactionContentType;
-@property(nonatomic) _Bool isITunes;
-@property(nonatomic) _Bool isOverlay;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSString *labelForLocalMedia;
-@property(copy, nonatomic) NSString *labelITunes;
-@property(retain, nonatomic) _SFPBGraphicalFloat *latitude;
-@property(copy, nonatomic) NSString *localMediaIdentifier;
-@property(retain, nonatomic) _SFPBLatLng *location;
-@property(retain, nonatomic) _SFPBGraphicalFloat *longitude;
-@property(copy, nonatomic) NSData *mapsData;
-@property(nonatomic) int mediaEntityType;
-@property(copy, nonatomic) NSString *messageIdentifier;
-@property(retain, nonatomic) _SFPBURL *messageURL;
-@property(copy, nonatomic) NSString *offerType;
-@property(copy, nonatomic) NSString *persistentID;
-@property(copy, nonatomic) NSString *phoneNumber;
-@property(copy, nonatomic) NSString *provider;
-@property(retain, nonatomic) _SFPBPunchout *punchout;
-@property(nonatomic) _Bool requiresLocalMedia;
-@property(nonatomic) _Bool shouldSearchDirectionsAlongCurrentRoute;
-@property(copy, nonatomic) NSArray *storeIdentifiers;
-@property(copy, nonatomic) NSString *type;
-@property(copy, nonatomic) NSString *universalLibraryID;
 @end
 

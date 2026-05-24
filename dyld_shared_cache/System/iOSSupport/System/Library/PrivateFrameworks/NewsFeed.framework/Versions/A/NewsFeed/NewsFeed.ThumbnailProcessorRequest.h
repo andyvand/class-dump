@@ -7,14 +7,6 @@
 @interface NewsFeed.ThumbnailProcessorRequest
 {
     id assetHandles;
-    id assetHandle;
-    id cacheIdentifier;
-    id thumbnailFrame;
-    id focalFrame;
-    id scale;
-    id roundedCorners;
-    id cornerRadius;
-    id border;
 }
 
 @end

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 @interface CNCDDatabasePreparationResult
 {
     _Bool _pristineDatabase;
-    _Bool _readOnly;
-    _Bool _didMigrate;
-    NSURL *_url;
-    NSDictionary *_options;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
@@ -31,10 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didMigrate; // @synthesize didMigrate=_didMigrate;
-@property(readonly, copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, nonatomic, getter=isPristineDatabase) _Bool pristineDatabase; // @synthesize pristineDatabase=_pristineDatabase;
-@property(readonly, nonatomic, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
 @property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

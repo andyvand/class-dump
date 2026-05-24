@@ -7,7 +7,6 @@
 @interface ChatKit.Gallery.Analytics.ImagePlayground.Context
 {
     id sessionID;
-    id suggestionContext;
 }
 
 @end

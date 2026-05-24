@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.ActionSetState.SubscriptionManager.MonitoredActionSetState
 {
     id state;
-    id observers;
 }
 
 @end

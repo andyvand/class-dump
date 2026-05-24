@@ -7,24 +7,6 @@
 @interface PhotosUICore.ParallaxAssetsManager
 {
     id viewSize;
-    id assets;
-    id posterClassification;
-    id initialAssetUUID;
-    id maxPreloadedAssetCount;
-    id skipSegmentation;
-    id currentCompositeImage;
-    id onCurrentImageUpdate;
-    id onAssetPreloaded;
-    id style;
-    id computesDebugInfo;
-    id assetDirectoryURL;
-    id timeLayoutIdentifier;
-    id overlapViewCandidates;
-    id currentAssetSegmenter;
-    id pendingRequestedImage;
-    id currentAutoCancellationTask;
-    id preloadedImages;
-    id imagesPreloading;
 }
 
 @end

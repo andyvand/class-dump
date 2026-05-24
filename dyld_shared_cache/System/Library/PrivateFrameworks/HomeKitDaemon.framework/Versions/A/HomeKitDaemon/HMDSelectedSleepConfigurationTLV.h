@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, HMDSleepConfigurationOperationStatusWrapper, HMDSleepConfigurationOperationTypeWrapper, NSString;
+@class HMDSleepConfigurationOperationTypeWrapper;
 
 __attribute__((visibility("hidden")))
 @interface HMDSelectedSleepConfigurationTLV
 {
     HMDSleepConfigurationOperationTypeWrapper *_operationType;
-    HMDSleepConfigurationOperationStatusWrapper *_operationStatus;
-    HAPTLVUnsignedNumberValue *_backoffTime;
 }
 
-+ (id);
-- (id);
-- (id);
-- (void);
++ (id)nodeSchemeWithLabel:(id)arg1 domain:(id *)arg2;
+- (id)_sendDestinationReachedUpdate:(id)arg1 to:(id)arg2;
 - (id);
 - (void);
-- (id);
+- (id);
+- (void);
+- (id)WallpaperSuggestionRefreshSession;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id)minimumHomeKitVersionForOwnerResidentDevicesAutoHH2MigrationWithoutSharedUsers;
 - (id)ü;
-- (void)MDCameraClipManagerRequestLogEventFetchVideoSegmentsAssetRequestName;
-- (void)_LOCK_ONBOARDING_TITLE;
+- (void)HMDCameraClipManagerRequestLogEventFetchVideoSegmentsAssetRequestName;
+- (void)BULLETIN_LOCK_ONBOARDING_TITLE;
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *backoffTime; // @synthesize backoffTime=_backoffTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDSleepConfigurationOperationStatusWrapper *operationStatus; // @synthesize operationStatus=_operationStatus;
 @property(retain, nonatomic) HMDSleepConfigurationOperationTypeWrapper *operationType; // @synthesize operationType=_operationType;
-@property(readonly) Class superclass;
 
 @end
 

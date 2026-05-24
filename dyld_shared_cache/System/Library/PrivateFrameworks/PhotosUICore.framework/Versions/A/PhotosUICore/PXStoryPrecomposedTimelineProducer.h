@@ -7,8 +7,6 @@
 @interface PXStoryPrecomposedTimelineProducer
 {
     CDStruct_0b735c3a _clipCompositionContext;
-    CDStruct_f7388bc9 _noKenBurnsEffectParameters[3];
-    unsigned long long _timelineKind;
 }
 
 - (unsigned long long);

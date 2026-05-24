@@ -16,19 +16,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (id)__kCFStreamErrorHTTPLedBellyDisconnect;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)ediaPredicate";
+- (void)initWithPlayerPath:(id)arg1 routingContextID:(id)arg2;
 - (id);
 - (id)@ù
 × ;
-- (id)undInsets: /* Error: Ran out of types for this method. */;
+- (id)setEdgesAddingLayoutMarginsToBackgroundInsets: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool)utputModel;
-- (_Bool)dToolRewriting;
+- (_Bool)_outputModel;
+- (_Bool)WTUIRequestedToolRewriting;
 - (id)a path collection when no hidEvent is being processed;
-- (id)fiersWantingOverriddenIndirectEventSupport;
+- (id)OverrideValueForBundleIdentifiersWantingOverriddenIndirectEventSupport;
 - (void)ðË^;
 
 @end

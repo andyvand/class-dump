@@ -7,9 +7,9 @@
 @class UIColor;
 
 @protocol MSMessagesAppTranscriptPresentation
+- (struct CGSize)webProcessVideoAdJSODidCallVolumeChanged:(struct CGSize)arg1 playTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double messageCornerRadius;
 @property(readonly, nonatomic) UIColor *messageTintColor;
 @end
 

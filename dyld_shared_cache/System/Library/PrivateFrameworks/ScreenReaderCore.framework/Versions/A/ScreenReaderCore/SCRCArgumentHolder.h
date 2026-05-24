@@ -9,11 +9,6 @@
 @interface SCRCArgumentHolder
 {
     _Bool _required;
-    NSString *_option;
-    NSString *_argument;
-    NSString *_argumentDescription;
-    id _target;
-    SEL _action;
 }
 
 - (id);
@@ -27,16 +22,11 @@
 - (_Bool);
 - (long long);
 - (SEL);
-- (void);
-- (id);
+- (void)connectedToBeacon:withIndex:completion: /* Error: Ran out of types for this method. */;
+- (id)initWithAccountType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SEL action; // @synthesize action=_action;
-@property(copy, nonatomic) NSString *argument; // @synthesize argument=_argument;
-@property(readonly, copy, nonatomic) NSString *argumentDescription; // @synthesize argumentDescription=_argumentDescription;
 @property(readonly, copy, nonatomic) NSString *option; // @synthesize option=_option;
-@property(readonly, nonatomic) _Bool required; // @synthesize required=_required;
-@property(readonly, nonatomic) __weak id target; // @synthesize target=_target;
 
 @end
 

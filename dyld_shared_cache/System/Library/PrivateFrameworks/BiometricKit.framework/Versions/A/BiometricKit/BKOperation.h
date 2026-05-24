@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKDevice, BiometricKitXPCClient, NSObject, NSString;
-@protocol BKOperationDelegate, OS_dispatch_queue;
+@class BKDevice, BiometricKitXPCClient;
 
 @interface BKOperation
 {
     BiometricKitXPCClient *_xpcClient;
-    _Bool _startPending;
-    _Bool _cancelPending;
-    BKDevice *_device;
-    id <BKOperationDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    long long _state;
 }
 
-- (id);
+- (id)u;
 - (void);
 - (void);
 - (void);
@@ -29,11 +22,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)!(d?;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)R,N,V_file;
 - (long long);
 - (void);
 - (void);
@@ -43,7 +36,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)b;
 - (void);
 - (void);
 - (void);
@@ -52,17 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BKOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) BKDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

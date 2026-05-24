@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFCharacteristicRangeEventDatabaseID, NSObject;
+@class NSObject;
 @protocol MKFHome;
 
 @protocol MKFCharacteristicRangeEvent
+- (void)initWithImage:(NSObject *)arg1 identifier:orientation: /* Error: Ran out of types for this method. */;
 - (id <MKFHome>)0@ù
 × ;
 - (NSObject *)[LPM]:Was able to wake accessory %@, current suspended state:%@ /* Error: Ran out of types for this method. */;
 - (NSObject *)(%@), isFirmwareVersionUpToDate %@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFCharacteristicRangeEventDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(retain, nonatomic) NSObject *max;
-@property(retain, nonatomic) NSObject *min;
 @end
 

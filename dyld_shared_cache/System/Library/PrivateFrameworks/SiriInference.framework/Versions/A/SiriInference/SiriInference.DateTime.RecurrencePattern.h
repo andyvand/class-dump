@@ -7,12 +7,6 @@
 @interface SiriInference.DateTime.RecurrencePattern
 {
     id recurrenceDateTimeRange;
-    id recurrencePeriod;
-    id totalNumberOfOccurrences;
-    id recurrenceDateTimes;
-    id fromDateTime;
-    id toDateTime;
-    id definedValue;
 }
 
 @end

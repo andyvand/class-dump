@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFPreviewList, SFCommandReference;
+@class SFCommandReference;
 
 @protocol RFEngageable
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) SFCommandReference *command_reference;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFPreviewList *preview_list;
 @end
 

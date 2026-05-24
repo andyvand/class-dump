@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface EDOneCellAnchor : EDAnchor
 {
     struct EDCellAnchorMarker mFrom;
-    struct CGSize mSize;
-    _Bool mIsRelative;
 }
 
-- (void);
+- (void);
 - (void);
 - (struct EDCellAnchorMarker);
-- (struct CGSize);
+- (struct CGSize)SensitiveContentButtonStyle;
 - (_Bool);
 - (id);
 - (void);

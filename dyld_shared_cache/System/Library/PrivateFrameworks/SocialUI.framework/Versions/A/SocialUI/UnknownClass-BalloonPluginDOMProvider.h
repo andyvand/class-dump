@@ -7,6 +7,6 @@
 @interface UnknownClass (BalloonPluginDOMProvider)
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)fc_introductoryOffers;
 @end
 

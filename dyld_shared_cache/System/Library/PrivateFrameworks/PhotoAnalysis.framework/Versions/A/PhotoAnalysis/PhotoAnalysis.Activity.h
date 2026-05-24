@@ -7,20 +7,6 @@
 @interface PhotoAnalysis.Activity
 {
     id session;
-    id name;
-    id taskSourceClass;
-    id dominance;
-    id logger;
-    id systemTask;
-    id queue;
-    id delegate;
-    id monitorTimer;
-    id deferralRequestTime;
-    id deferralHasTimedOut;
-    id taskSchedulingTask;
-    id cancellationTask;
-    id runtimeError;
-    id isActive;
 }
 
 @end

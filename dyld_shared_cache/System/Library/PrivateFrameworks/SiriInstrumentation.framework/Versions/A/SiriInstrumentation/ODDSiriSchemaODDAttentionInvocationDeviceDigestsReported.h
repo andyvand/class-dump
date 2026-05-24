@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDAttentionInvocationFixedDimensions, ODDSiriSchemaODDFixedDimensions;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDAttentionInvocationDeviceDigestsReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    ODDSiriSchemaODDAttentionInvocationFixedDimensions *_attentionInvocationFixedDimensions;
-    _Bool _hasFixedDimensions;
-    _Bool _hasAttentionInvocationFixedDimensions;
 }
 
 - (void);
@@ -35,25 +31,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)¡rÐ!tDùqÞÐ1Â0@ù
 × ;
-- (id)eleteAppUsageCountForEntityFromSiri28Days;
+- (id)deleteAppUsageCountForEntityFromSiri28Days;
 - (id)ufferBytes;
 - (id)tResolution;
 - (void)Args.entity.entityId;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAttentionInvocationFixedDimensions *attentionInvocationFixedDimensions; // @synthesize attentionInvocationFixedDimensions=_attentionInvocationFixedDimensions;
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasAttentionInvocationFixedDimensions; // @synthesize hasAttentionInvocationFixedDimensions=_hasAttentionInvocationFixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

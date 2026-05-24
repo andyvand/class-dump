@@ -7,8 +7,6 @@
 @interface Vision.TorsoPrintGeneratorPerformingOperation
 {
     id requests;
-    id humanObservations;
-    id options;
 }
 
 @end

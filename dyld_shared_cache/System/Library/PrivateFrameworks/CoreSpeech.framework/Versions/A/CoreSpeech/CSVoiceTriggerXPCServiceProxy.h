@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSiriAssertionMonitor, NSHashTable, NSMutableSet;
+@class NSMutableSet;
 
 @interface CSVoiceTriggerXPCServiceProxy
 {
     _Bool _isPhraseSpotterBypassed;
-    _Bool _isRaiseToSpeakBypassed;
-    NSMutableSet *_activationAssertions;
-    NSHashTable *_observers;
-    CSSiriAssertionMonitor *_assertionMonitor;
 }
 
 + (id)_pendingBuiltInVoiceTriggerResult;
-- (id);
+- (id)a dictionary;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)der:] /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)NS_9allocatorIS3_EEEE;
 - (void);
 - (id);
 - (_Bool);
@@ -37,14 +33,10 @@
 - (id);
 - (id);
 - (id);
-- (void)eTriggerEventInfo: /* Error: Ran out of types for this method. */;
+- (void)logSiriLaunchStartedWithVoiceTriggerEventInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *activationAssertions; // @synthesize activationAssertions=_activationAssertions;
-@property(retain, nonatomic) CSSiriAssertionMonitor *assertionMonitor; // @synthesize assertionMonitor=_assertionMonitor;
-@property(nonatomic) _Bool isPhraseSpotterBypassed; // @synthesize isPhraseSpotterBypassed=_isPhraseSpotterBypassed;
-@property(nonatomic) _Bool isRaiseToSpeakBypassed; // @synthesize isRaiseToSpeakBypassed=_isRaiseToSpeakBypassed;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 
 @end
 

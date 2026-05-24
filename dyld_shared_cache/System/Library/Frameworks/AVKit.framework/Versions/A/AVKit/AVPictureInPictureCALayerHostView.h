@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (id);
+- (id)` mismatching vertex shader output type(s) or not written by vertex shader;
 
 // Remaining properties
 @property(retain) CALayerHost *layer; // @dynamic layer;

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSString;
 
 @interface MAAutoAssetSetInfoInstance
 {
     NSString *_clientDomainName;
-    NSString *_autoAssetSetClientName;
-    NSString *_clientProcessName;
-    long long _clientProcessID;
-    NSString *_assetSetIdentifier;
-    NSString *_atomicInstance;
-    NSArray *_autoAssetEntries;
-    NSArray *_entriesWhenTargeting;
-    NSUUID *_frameworkInstanceUUID;
 }
 
 + (_Bool);
@@ -24,9 +16,9 @@
 - (id);
 - (id);
 - (id);
+- (id)idsKTVerifierResultsUpdatedForDestinations:service:info: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)loadConfigurationAndUserWithID:(id)arg1 withCompletionQueue:handler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -37,15 +29,7 @@
 - (id)À ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *assetSetIdentifier; // @synthesize assetSetIdentifier=_assetSetIdentifier;
-@property(readonly, retain, nonatomic) NSString *atomicInstance; // @synthesize atomicInstance=_atomicInstance;
-@property(readonly, retain, nonatomic) NSArray *autoAssetEntries; // @synthesize autoAssetEntries=_autoAssetEntries;
-@property(readonly, retain, nonatomic) NSString *autoAssetSetClientName; // @synthesize autoAssetSetClientName=_autoAssetSetClientName;
 @property(readonly, retain, nonatomic) NSString *clientDomainName; // @synthesize clientDomainName=_clientDomainName;
-@property(readonly, nonatomic) long long clientProcessID; // @synthesize clientProcessID=_clientProcessID;
-@property(readonly, retain, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
-@property(readonly, retain, nonatomic) NSArray *entriesWhenTargeting; // @synthesize entriesWhenTargeting=_entriesWhenTargeting;
-@property(readonly, retain, nonatomic) NSUUID *frameworkInstanceUUID; // @synthesize frameworkInstanceUUID=_frameworkInstanceUUID;
 
 @end
 

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)geCharLength"b1"messageWordLength"b1"isPunctuationUsed"b1"isPayloadMultilingual"b1};
+- (void)b1"isSummarized"b1"summarySourceType"b1};
 - (_Bool);
 - (id);
 

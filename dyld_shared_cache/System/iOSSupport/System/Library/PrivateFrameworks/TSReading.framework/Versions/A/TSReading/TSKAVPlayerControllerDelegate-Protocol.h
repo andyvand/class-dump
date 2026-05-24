@@ -5,5 +5,7 @@
 //
 
 @protocol TSKAVPlayerControllerDelegate
+- (void)rrived];
+- (void)ed;
 @end
 

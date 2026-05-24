@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTServerBag, NSUserDefaults;
+@class NSUserDefaults;
 
 @interface TUVouchingEnablementImpl
 {
     NSUserDefaults *_userDefaults;
-    FTServerBag *_serverBag;
 }
 
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (_Bool);
 - (id);
 - (void)ize"{CGSize="width"d"height"d}};
 - (void)>32;
-- (void);
+- (void)isRecording;
 - (id)r=%@;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(retain, nonatomic) FTServerBag *serverBag; // @synthesize serverBag=_serverBag;
-@property(readonly, nonatomic) _Bool shouldForceVerificationFailures;
 @property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end

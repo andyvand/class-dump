@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface ETLossConfig
 {
     unsigned long long _mode;
-    NSString *_loss_name;
-    NSString *_output_name;
-    NSString *_label_name;
-    NSArray *_label_shape;
-    NSString *_custom_network_path;
 }
 
 + (id);
@@ -28,17 +21,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void)à;
 
 // Remaining properties
-@property(retain) NSString *custom_network_path; // @synthesize custom_network_path=_custom_network_path;
-@property(retain) NSString *label_name; // @synthesize label_name=_label_name;
-@property(retain) NSArray *label_shape; // @synthesize label_shape=_label_shape;
-@property(retain) NSString *loss_name; // @synthesize loss_name=_loss_name;
 @property unsigned long long mode; // @synthesize mode=_mode;
-@property(retain) NSString *output_name; // @synthesize output_name=_output_name;
 
 @end
 

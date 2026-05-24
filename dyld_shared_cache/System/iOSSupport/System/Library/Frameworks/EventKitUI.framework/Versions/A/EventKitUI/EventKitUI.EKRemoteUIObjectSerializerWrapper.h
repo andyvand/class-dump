@@ -12,7 +12,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ithContact:address:kind: /* Error: Ran out of types for this method. */;
+- (void)initWithContact:address:kind: /* Error: Ran out of types for this method. */;
 
 @end
 

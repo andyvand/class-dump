@@ -9,7 +9,6 @@
 @interface PPSocialHighlightStaticFeatureProvider
 {
     NSDictionary *_computedFeatures;
-    CDUnknownBlockType _keyBlock;
 }
 
 - (id);

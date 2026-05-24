@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKPopoverViewLayout, CKPopoverViewLayoutMetrics, CKSendMenuPopoverPresentationConfiguration, CKSendMenuPopoverPresentationControllerAnchorItem, CKSendMenuPopoverPresentationDimmingView, CKSendMenuPopoverViewController, CKSendMenuPresentationPopoverView, NSString, UITapGestureRecognizer, UIViewController;
-@protocol CKSendMenuPopoverPresentationControllerDelegate;
+@class CKPopoverViewLayout;
 
 __attribute__((visibility("hidden")))
 @interface CKSendMenuPopoverPresentationController
 {
     CKPopoverViewLayout *_popoverLayout;
-    CKSendMenuPopoverPresentationDimmingView *_dimmingView;
-    UITapGestureRecognizer *_dismissGestureRecognizer;
-    CKSendMenuPopoverPresentationConfiguration *_configuration;
-    long long _presentationState;
-    CKPopoverViewLayoutMetrics *_layoutMetricsCommunicatedToDelegate;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ic_containsObjectPassingTest:(id)arg1;
+- (void)getHue:(id)arg1 saturation:brightness:alpha: /* Error: Ran out of types for this method. */;
+- (void)edgesToRemoveEndPoint;
+- (void)addSearchResult:(unsigned long long)arg1 toSection:atIndex: /* Error: Ran out of types for this method. */;
+- (void)addPreviewImageToMetadata:(id)arg1;
+- (void)addInlineDrawingAttachmentWithAnalytics:(id)arg1;
+- (id)uested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(id)arg1 queryPermission:forOrigin:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)achmentAccessibilityElement",&,N,V_accessibilityLearnMoreProxyElement;
+- (id)_converterQueue;
+- (id)_TtC7NotesUIP33_F897AB263D3561CA5D296CCFF5C5FDF512ICTitleQuery;
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)a;
+- (id)l;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (id)paper thumbnail invalidated for note;
+- (void)note;
+- (void):(id)arg1 ];
+- (void)nsion:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)0@?0@"NSDictionary"8{_NSRange=QQ}16^B32;
 - (void);
 - (_Bool);
 - (id);
@@ -54,38 +48,18 @@ __attribute__((visibility("hidden")))
 - (void)8TÜD%0'`(T)<*;
 - (void)¨ÇøÇ;
 - (void)y Deleted] Permanent deletion confirmed;
-- (struct CGRect)er;
-- (id)OnboardingController;
+- (struct CGRect)pinThreeLayer;
+- (id)CKOnboardingController;
 - (id)cle.badge.plus;
 - (void)À
 ;
 - (void)ü5$ÿ!;
 - (id);
 - (void);
-- (void)riptNavigationBarAction;
+- (void)CKTranscriptNavigationBarAction;
 
 // Remaining properties
-@property(retain, nonatomic) CKSendMenuPopoverPresentationControllerAnchorItem *anchorItem; // @dynamic anchorItem;
-@property(retain, nonatomic) UIViewController *appCardContentViewController; // @dynamic appCardContentViewController;
-@property(nonatomic) unsigned long long appCardPresentationStyle; // @dynamic appCardPresentationStyle;
-@property(retain, nonatomic) CKSendMenuPopoverPresentationConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKSendMenuPopoverPresentationControllerDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CKSendMenuPopoverPresentationDimmingView *dimmingView; // @synthesize dimmingView=_dimmingView;
-@property(retain, nonatomic) UITapGestureRecognizer *dismissGestureRecognizer; // @synthesize dismissGestureRecognizer=_dismissGestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKPopoverViewLayoutMetrics *layoutMetricsCommunicatedToDelegate; // @synthesize layoutMetricsCommunicatedToDelegate=_layoutMetricsCommunicatedToDelegate;
 @property(retain, nonatomic) CKPopoverViewLayout *popoverLayout; // @synthesize popoverLayout=_popoverLayout;
-@property(readonly, nonatomic) CKSendMenuPresentationPopoverView *popoverView;
-@property(readonly, nonatomic) CKSendMenuPopoverViewController *popoverViewController;
-@property(nonatomic) long long presentationState; // @synthesize presentationState=_presentationState;
-@property(readonly, getter=isPresenting) _Bool presenting;
-@property(retain, nonatomic) UIViewController *sendMenuViewController; // @dynamic sendMenuViewController;
-@property(readonly) Class superclass;
 
 @end
 

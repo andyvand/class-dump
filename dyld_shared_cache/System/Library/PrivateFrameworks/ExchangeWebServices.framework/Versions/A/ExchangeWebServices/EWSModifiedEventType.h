@@ -11,7 +11,7 @@
     long long _UnreadCount;
 }
 
-+ (id);
++ (id)w5;
 - (long long);
 - (void);
 

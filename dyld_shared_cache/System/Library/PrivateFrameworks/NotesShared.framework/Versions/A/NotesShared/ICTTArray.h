@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRDocument, ICTTMergeableAttributedString, NSArray, NSObject, NSString, NSUUID;
-@protocol ICCRUndoDelegate;
+@class ICCRDocument;
 
 @interface ICTTArray
 {
     ICCRDocument *_document;
-    NSObject<ICCRUndoDelegate> *_delegate;
-    ICTTMergeableAttributedString *_contents;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)directoryserver.log;
+- (id)cord failed:(id)arg1 %@ (%d);
+- (id)address '%@' to XMLPlist in computer record '%@';
 - (void);
 - (_Bool);
 - (id);
@@ -27,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)R";
 - (id);
 - (id);
 - (id);
@@ -38,14 +35,14 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)setAlignmentRect:(unsigned long long)arg1;
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)s;
 - (void);
 - (id);
 - (void);
+- (id)6llX;
+- (void)e %f;
 - (void);
 - (void);
 - (id);
@@ -58,19 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) ICTTMergeableAttributedString *contents; // @synthesize contents=_contents;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<ICCRUndoDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak ICCRDocument *document; // @synthesize document=_document;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *nsArray;
-@property(readonly, nonatomic) NSUUID *replicaUUID;
-@property(readonly) Class superclass;
 
 @end
 

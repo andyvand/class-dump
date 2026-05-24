@@ -7,36 +7,29 @@
 @interface _UIDynamicAnimation
 {
     CDUnknownBlockType _completion;
-    int _state;
-    unsigned int _began:1;
-    unsigned int _running:1;
-    unsigned int _completing:1;
-    unsigned int _yield:1;
-    unsigned int _grouped:1;
-    unsigned int _usesNSTimer:1;
 }
 
 + (id);
 + (void);
 + (void);
 + (void);
-- (void);
+- (void)setProperties:(CDUnknownBlockType)arg1 ofParticipant:(id)arg2 inChatID:(id)arg3 identifier:style:account: /* Error: Ran out of types for this method. */;
+- (_Bool)P- ;
 - (_Bool);
-- (_Bool);
+- (void)h;
 - (void);
+- (void);
+- (_Bool)ndle [%@] with contactID [%@] that has the same mergedID:[%@] /* Error: Ran out of types for this method. */;
+- (_Bool)h limit;
+- (void)dbSummary;
+- (void)LastJettisonTimeInterval;
+- (void)ILMessageFilter;
+- (void)elay Enrollment;
+- (_Bool)acking;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)__AUTH_CONST;
+- (id)`;
+- (void)beginTaskWithExpirationHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (void)tionMutablePropertyObservering>";

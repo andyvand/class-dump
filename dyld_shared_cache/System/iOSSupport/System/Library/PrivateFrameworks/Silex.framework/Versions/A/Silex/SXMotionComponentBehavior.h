@@ -14,9 +14,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double amplitude; // @dynamic amplitude;
-@property(readonly, nonatomic) _Bool horizontal; // @dynamic horizontal;
-@property(readonly, nonatomic) _Bool vertical; // @dynamic vertical;
-@property(readonly, nonatomic) _Bool windowed; // @dynamic windowed;
 
 @end
 

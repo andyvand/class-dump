@@ -4,69 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDThreadNetworkStatusReport, NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDHouseholdThreadNetworkStabilityLogEvent
 {
     unsigned long long _numStabilityReporters;
-    HMDThreadNetworkStatusReport *_threadNetworkStatusReport;
-    unsigned long long _threadNetworkUptime;
-    unsigned long long _threadNetworkDowntime;
-    unsigned long long _numReadWrites;
-    unsigned long long _numReadErrors;
-    unsigned long long _numWriteErrors;
-    unsigned long long _numSessionErrors;
-    unsigned long long _numNetworkSignatures;
 }
 
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)@"GEOComposedWaypoint",R,N,G_endWaypoint,V_endWaypoint;
+- (unsigned long long)_capabilityType;
+- (unsigned long long)TransitIconDataSource>",R,N;
+- (unsigned long long)T@"NSArray",R,N,G_providerNames;
+- (unsigned long long)MSPContainerArrayStateSnapshot;
+- (unsigned long long)MSPSharedTripServiceReceivingObserver;
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)?;
 - (void)SNumber"16d24B32@"NSError"36;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) unsigned long long numNetworkSignatures; // @synthesize numNetworkSignatures=_numNetworkSignatures;
-@property(readonly, nonatomic) unsigned long long numReadErrors; // @synthesize numReadErrors=_numReadErrors;
-@property(readonly, nonatomic) unsigned long long numReadWrites; // @synthesize numReadWrites=_numReadWrites;
-@property(readonly, nonatomic) unsigned long long numSessionErrors; // @synthesize numSessionErrors=_numSessionErrors;
 @property(readonly, nonatomic) unsigned long long numStabilityReporters; // @synthesize numStabilityReporters=_numStabilityReporters;
-@property(readonly, nonatomic) unsigned long long numWriteErrors; // @synthesize numWriteErrors=_numWriteErrors;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long threadNetworkDowntime; // @synthesize threadNetworkDowntime=_threadNetworkDowntime;
-@property(readonly, nonatomic) HMDThreadNetworkStatusReport *threadNetworkStatusReport; // @synthesize threadNetworkStatusReport=_threadNetworkStatusReport;
-@property(readonly, nonatomic) unsigned long long threadNetworkUptime; // @synthesize threadNetworkUptime=_threadNetworkUptime;
 
 @end
 

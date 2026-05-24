@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaItemArtwork, NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPNowPlayingInfoCenterArtworkContext
 {
     NSString *_artworkIdentifier;
-    MPMediaItemArtwork *_artwork;
-    NSData *_artworkData;
 }
 
 - (void);
@@ -19,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)L:keyCertificateURL:keyServerURL:keyServerAdamID:keyServerProtocolType:isiTunesStoreStream: /* Error: Ran out of types for this method. */;
+- (void)_initWithIdentifier:hashedPersonID:playlistURL:keyCertificateURL:keyServerURL:keyServerAdamID:keyServerProtocolType:isiTunesStoreStream: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) MPMediaItemArtwork *artwork; // @synthesize artwork=_artwork;
-@property(retain, nonatomic) NSData *artworkData; // @synthesize artworkData=_artworkData;
 @property(copy, nonatomic) NSString *artworkIdentifier; // @synthesize artworkIdentifier=_artworkIdentifier;
 
 @end

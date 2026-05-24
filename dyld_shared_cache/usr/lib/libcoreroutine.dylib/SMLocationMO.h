@@ -4,37 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, SMCacheMO, SMInitiatorContactMO, SMWorkoutEventMO;
+@class NSUUID;
 
 @interface SMLocationMO
 {
 }
 
++ (id)CSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(id)arg1 8;
 + (id);
-+ (id);
-+ (id);
++ (id)nections;
 
 // Remaining properties
-@property(nonatomic) double altitude; // @dynamic altitude;
-@property(retain, nonatomic) SMCacheMO *cacheLockLocation; // @dynamic cacheLockLocation;
-@property(retain, nonatomic) SMCacheMO *cacheMostRecentLocation; // @dynamic cacheMostRecentLocation;
-@property(retain, nonatomic) SMCacheMO *cacheOffWristLocation; // @dynamic cacheOffWristLocation;
-@property(retain, nonatomic) SMCacheMO *cacheParkedCarLocation; // @dynamic cacheParkedCarLocation;
-@property(retain, nonatomic) SMCacheMO *cacheStartingLocation; // @dynamic cacheStartingLocation;
-@property(retain, nonatomic) SMCacheMO *cacheUnlockLocation; // @dynamic cacheUnlockLocation;
-@property(retain, nonatomic) SMInitiatorContactMO *contactLockLocation; // @dynamic contactLockLocation;
-@property(retain, nonatomic) SMInitiatorContactMO *contactOffWristLocation; // @dynamic contactOffWristLocation;
-@property(retain, nonatomic) SMInitiatorContactMO *contactParkedCarLocation; // @dynamic contactParkedCarLocation;
-@property(retain, nonatomic) SMInitiatorContactMO *contactStartingLocation; // @dynamic contactStartingLocation;
-@property(retain, nonatomic) SMInitiatorContactMO *contactUnlockLocation; // @dynamic contactUnlockLocation;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(nonatomic) double hunc; // @dynamic hunc;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic) double latitude; // @dynamic latitude;
-@property(retain, nonatomic) SMCacheMO *locationsDuringSession; // @dynamic locationsDuringSession;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(nonatomic) double vunc; // @dynamic vunc;
-@property(retain, nonatomic) SMWorkoutEventMO *workoutEvent; // @dynamic workoutEvent;
 
 @end
 

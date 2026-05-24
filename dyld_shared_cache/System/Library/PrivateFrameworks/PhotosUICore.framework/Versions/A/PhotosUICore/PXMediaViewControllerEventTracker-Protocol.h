@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXDisplayAsset, PXDisplayAssetCollection;
+@protocol PXDisplayAsset;
 
 @protocol PXMediaViewControllerEventTracker
 
 // Remaining properties
 @property(retain, nonatomic) id <PXDisplayAsset> displayedAsset;
-@property(retain, nonatomic) id <PXDisplayAssetCollection> displayedAssetCollection;
 @end
 

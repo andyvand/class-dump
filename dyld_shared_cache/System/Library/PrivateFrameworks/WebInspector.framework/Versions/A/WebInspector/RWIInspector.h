@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RWIDebuggable, RWIInspectorConfiguration, RWIManager, WKWebView, _WKRemoteWebInspectorViewController;
+@class WKWebView, _WKRemoteWebInspectorViewController;
 
 @interface RWIInspector
 {
     _WKRemoteWebInspectorViewController *_remoteInspectorViewController;
-    RWIInspectorConfiguration *_configuration;
-    _Bool _closing;
-    RWIDebuggable *_debuggable;
-    RWIManager *_manager;
-    NSString *_uuid;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -26,36 +21,22 @@
 - (long long);
 - (void);
 - (id);
+- (void)7<;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)k;
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)";
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) RWIDebuggable *debuggable; // @synthesize debuggable=_debuggable;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) WKWebView *extensionHostWebView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WKWebView",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RWIManager *manager; // @synthesize manager=_manager;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 @property(readonly, nonatomic) WKWebView *webViewForTesting;
 
 @end

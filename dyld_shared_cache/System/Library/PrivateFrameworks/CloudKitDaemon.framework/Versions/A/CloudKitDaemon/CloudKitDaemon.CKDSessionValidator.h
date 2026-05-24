@@ -7,14 +7,10 @@
 @interface CloudKitDaemon.CKDSessionValidator
 {
     id sessionConfiguration;
-    id sessionAcquiredInfo;
-    id testDeviceReferenceProtocol;
-    id entitlements;
-    id deviceID;
 }
 
 - (_Bool);
-- (id);
+- (id)D;
 - (void)KLStreamTrafficObserver parserFromConfigurationMessage:] /* Error: Ran out of types for this method. */;
 
 @end

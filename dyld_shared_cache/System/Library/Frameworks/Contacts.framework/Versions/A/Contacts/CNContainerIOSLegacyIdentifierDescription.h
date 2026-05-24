@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)componentsSeparatedByString: /* Error: Ran out of types for this method. */;
+- (_Bool)InteractionSession _activateDirectStart];
 - (Class)ù1*ð1Â0@ù
 × ;
 

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CNPropertySuggestionAction : CNPropertyAction
 {
     long long _selectedChoice;
-    CNContactSuggestionViewController *_suggestionViewController;
 }
 
 - (id);
@@ -23,13 +22,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)?;
 - (void);
-- (void);
-- (void)y;
+- (void)NSt3__120__shared_ptr_pointerIP6PKPathNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
+- (void)_showMonogramsOnly;
 
 // Remaining properties
-@property(nonatomic) long long selectedChoice; // @synthesize selectedChoice=_selectedChoice;
 @property(retain, nonatomic) CNContactSuggestionViewController *suggestionViewController; // @synthesize suggestionViewController=_suggestionViewController;
 
 @end

@@ -8,12 +8,10 @@ __attribute__((visibility("hidden")))
 @interface MUPayloadEncryption
 {
     _Bool _keyInitialized;
-    _Bool _haveKey;
-    unsigned char _key[16];
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

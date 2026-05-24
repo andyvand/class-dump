@@ -14,20 +14,20 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (_Bool);
-- (id);
+- (id)ice %@:(id)arg1 %@;
 - (double);
 - (double);
-- (void);
-- (id);
+- (void)d QoS ipc overrides and promotions will be missing;
+- (id)numSamplesSuspended;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ring",&,N,V_timeZoneOffsetDescription;
 - (id);
 - (_Bool);
-- (void);
+- (void)objectForKeyedSubscript:(id)arg1;
 - (double);
 - (void);
 

@@ -17,9 +17,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long changeType;
-@property(readonly) unsigned long long destinationIndex;
-@property(readonly) unsigned long long sourceIndex;
-@property(readonly) id value;
 
 @end
 

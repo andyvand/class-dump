@@ -7,8 +7,6 @@
 @interface NewsFeed.FeedLayoutCache
 {
     id cache;
-    id bindCache;
-    id hintCache;
 }
 
 @end

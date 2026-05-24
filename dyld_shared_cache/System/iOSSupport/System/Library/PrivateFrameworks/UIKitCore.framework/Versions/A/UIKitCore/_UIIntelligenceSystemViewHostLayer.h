@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)ranscoding file transfer:%@   error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)dy active;
 - (void)ÕG¸`;

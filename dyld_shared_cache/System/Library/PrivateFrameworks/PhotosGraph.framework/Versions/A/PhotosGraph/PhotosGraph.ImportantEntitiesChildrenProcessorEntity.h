@@ -7,7 +7,6 @@
 @interface PhotosGraph.ImportantEntitiesChildrenProcessorEntity
 {
     id personNode;
-    id localIdentifier;
 }
 
 @end

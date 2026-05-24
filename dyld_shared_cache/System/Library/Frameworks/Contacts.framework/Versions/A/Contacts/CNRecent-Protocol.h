@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @protocol CNRecent
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *coreRecentsDomain;
-@property(readonly, nonatomic) NSNumber *coreRecentsIdentifier;
-@property(readonly, nonatomic) _Bool isCoreRecentsAccepted;
 @end
 

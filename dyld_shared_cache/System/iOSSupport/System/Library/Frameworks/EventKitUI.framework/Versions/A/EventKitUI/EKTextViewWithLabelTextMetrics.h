@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIFont;
-
 @interface EKTextViewWithLabelTextMetrics
 {
     long long lineBreakMode;
@@ -17,17 +15,12 @@
 - (id);
 - (void);
 - (long long)0:8@"EKDayViewContent"16@"NSArray"24B32 /* Error: Ran out of types for this method. */;
-- (void)ainer:(long long)arg1;
+- (void)glyphRangeForTextContainer:(long long)arg1;
 - (long long)ø
 ;;
 
 // Remaining properties
-@property(retain, nonatomic) UIFont *font; // @dynamic font;
-@property(nonatomic) long long lineBreakMode; // @synthesize lineBreakMode;
 @property(nonatomic) long long numberOfLines;
-@property(copy, nonatomic) NSString *text; // @dynamic text;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) UIColor *textColor;
 
 @end
 

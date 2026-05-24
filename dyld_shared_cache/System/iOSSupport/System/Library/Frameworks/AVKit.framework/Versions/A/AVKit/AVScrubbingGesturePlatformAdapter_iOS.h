@@ -6,27 +6,16 @@
 
 #import <AVKit/AVScrubbingGesturePlatformAdapter.h>
 
-@class AVScrubbingGesturePlatformConfiguration, AVScrubbingPanGestureRecognizer, AVTouchGestureRecognizer, NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface AVScrubbingGesturePlatformAdapter_iOS : AVScrubbingGesturePlatformAdapter
 {
     UIView *_view;
-    AVScrubbingPanGestureRecognizer *_panGestureRecognizer;
-    AVTouchGestureRecognizer *_touchGestureRecognizer;
-    float _timelineVelocity;
-    long long _gestureActiveCount;
-    AVScrubbingGesturePlatformConfiguration *_gestureConfiguration;
-    float _coordinateVelocityConstant;
-    float _coordinateVelocityScale;
-    float _deviceCoordinateVelocityScaleFactor;
-    _Bool _gestureEnabled;
-    double _scrubbingWidth;
-    struct CGPoint _translation;
 }
 
-- (_Bool);
-- (struct CGPoint);
+- (_Bool)ldn't add encrypted zone PCS to record PCS;
+- (struct CGPoint);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -41,17 +30,10 @@ __attribute__((visibility("hidden")))
 - (void)1[Ð1Â0@ù
 × ;
 - (_Bool);
-- (id)therAttributes;
+- (id)_canSubstituteOtherAttributes;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double scrubbingWidth; // @synthesize scrubbingWidth=_scrubbingWidth;
-@property(readonly) Class superclass;
 
 @end
 

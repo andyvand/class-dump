@@ -5,5 +5,11 @@
 //
 
 @protocol AVAssetResourceLoaderDelegate
+
+@optional
+- (_Bool)s;
+- (_Bool),N;
+- (void)@"<TBFetchRequest>",&,N,V_fetchRequest;
+- (void)&,N,V_hidPresentTime;
 @end
 

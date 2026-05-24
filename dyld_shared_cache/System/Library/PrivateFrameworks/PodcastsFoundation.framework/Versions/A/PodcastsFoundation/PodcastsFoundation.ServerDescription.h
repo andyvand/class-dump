@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.ServerDescription
 {
     id standard;
-    id short;
 }
 
 @end

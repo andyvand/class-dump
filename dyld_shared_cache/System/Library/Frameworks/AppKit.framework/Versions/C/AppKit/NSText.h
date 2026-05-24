@@ -6,8 +6,7 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSFont, NSString;
-@protocol NSTextDelegate;
+@class NSString;
 
 @interface NSText : NSView
 {
@@ -16,40 +15,40 @@
 
 + (void)Ìx"H;
 + (id)(È^ÿ«;
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ng buffer;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)f;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)eceived;
+- (void);
+- (void)c;
 - (struct _NSRange);
+- (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (struct _NSRange);
+- (struct _NSRange);
 - (id);
 - (id);
 - (struct _NSRange);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct _NSRange);
@@ -60,17 +59,25 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)/libsystem_kernel.dylib;
 - (unsigned long long);
 - (struct _NSRange);
 - (struct _NSRange);
 - (struct CGRect);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)d).  No persistent DB opened at %@.;
+- (void) ;
 - (void);
-- (void);
-- (id);
+- (id)//
+////)/8/33
+3333)38344
+4444)48455
+5555)5856	66(67	77(78	88(89	99(966
+6666)68677
+7777)78788
+8888)88899
+9999)989;
 - (void);
 - (_Bool);
 - (void);
@@ -79,39 +86,39 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)eOldInteractionsIfNeededToLimitTotalNumber:%tu limit:%tu) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (long long);
+- (long long)allowsFontSubstitutionAffectingVerticalMetrics;
+- (void)MutableArray",R,V_suggestionsByRange;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void)1Â0@ù
 × ;
 - (void)áï/Ð!BùQæ31Â0@ù
 × ;
 - (void)
 × ;
-- (id)cheduleTimer;
-- (id)ecarServicesMenuWithOptions: /* Error: Ran out of types for this method. */;
+- (id)scheduleTimer;
+- (id)_sidecarServicesMenuWithOptions: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void)p¤ðÿÄÿü;
 - (void)â2DhABGG;
-- (void)ualEffectViewAllowsVibrancyWorkaround;
+- (void)NSVisualEffectViewAllowsVibrancyWorkaround;
 - (struct _NSRange)included ppd.;
-- (void)elHideSliderSizesConstraint;
+- (void)NSFontPanelHideSliderSizesConstraint;
 - (_Bool)nent;
 - (struct CGSize)è?;
 - (_Bool)[0A;
@@ -126,26 +133,7 @@
 - (void)¯D;
 
 // Remaining properties
-@property long long alignment;
-@property(copy) NSColor *backgroundColor;
-@property long long baseWritingDirection;
-@property id <NSTextDelegate> delegate;
-@property _Bool drawsBackground;
-@property(getter=isEditable) _Bool editable;
-@property(getter=isFieldEditor) _Bool fieldEditor;
-@property(retain) NSFont *font;
-@property(getter=isHorizontallyResizable) _Bool horizontallyResizable;
-@property _Bool importsGraphics;
-@property struct CGSize maxSize;
-@property struct CGSize minSize;
-@property(getter=isRichText) _Bool richText;
-@property(readonly, getter=isRulerVisible) _Bool rulerVisible;
-@property(getter=isSelectable) _Bool selectable;
-@property struct _NSRange selectedRange;
 @property(copy) NSString *string;
-@property(copy) NSColor *textColor;
-@property _Bool usesFontPanel;
-@property(getter=isVerticallyResizable) _Bool verticallyResizable;
 
 @end
 

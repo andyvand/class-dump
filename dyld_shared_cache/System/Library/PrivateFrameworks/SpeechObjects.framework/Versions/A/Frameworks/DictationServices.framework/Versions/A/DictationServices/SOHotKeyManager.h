@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 @interface SOHotKeyManager
 {
     unsigned int _ourCGSConnectionID;
-    NSMutableArray *_registeredHotKeyArray;
-    NSArray *_cachedSymbolicHotKeyTable;
-    unsigned int _ioConnection;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)ql;
 - (_Bool);
 - (void);
 - (unsigned int);
 - (unsigned int);
 - (id);
 - (id);
-- (void);
+- (void)@@;
 
 @end
 

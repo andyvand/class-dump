@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRColorComponents, NSArray, NSData, NSString, NSURL, _MRNowPlayingClientProtobuf;
+@class _MRNowPlayingClientProtobuf;
 
 @interface MRClient
 {
     int _processIdentifier;
-    unsigned int _processUserIdentifier;
-    long long _visibility;
-    MRColorComponents *_tintColor;
-    NSString *_bundleIdentifier;
-    NSString *_parentApplicationBundleIdentifier;
-    NSString *_displayName;
-    NSURL *_appIcon;
-    NSArray *_extendedBundleIdentifierHierarchy;
 }
 
 + (id);
@@ -29,7 +21,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -37,25 +29,25 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (int);
+- (id)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (void)fetchInEarDetctionStateForBTAddress:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (int))A;
 - (long long);
 - (id);
 - (void);
@@ -64,36 +56,14 @@
 × ;
 - (unsigned int)@"_MRCommandOptionsProtobuf",&,N,V_options;
 - (void)"NSMutableArray",&,N,V_entityPaths;
-- (void)LinkClient;
-- (void)tiveSystemEndpointOutputDeviceUIDForType;
-- (id)xtModificationOutputDeviceIdentifiersUserInfoKey;
+- (void)MRCompanionLinkClient;
+- (void)handleActiveSystemEndpointOutputDeviceUIDForType;
+- (id)MRAVOutputContextModificationOutputDeviceIdentifiersUserInfoKey;
 - (void)÷-;
 - (void)ÿH\càx;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAirPlay) _Bool airPlay;
-@property(copy, nonatomic) NSURL *appIcon; // @synthesize appIcon=_appIcon;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSArray *bundleIdentifierHierarchy;
-@property(readonly, nonatomic) NSData *data;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSArray *extendedBundleIdentifierHierarchy; // @synthesize extendedBundleIdentifierHierarchy=_extendedBundleIdentifierHierarchy;
-@property(readonly, nonatomic) _Bool hasAuxiliaryProperties;
-@property(readonly, nonatomic) _Bool hasPlaceholder;
-@property(readonly, nonatomic, getter=isLocal) _Bool local;
-@property(copy, nonatomic) NSString *parentApplicationBundleIdentifier; // @synthesize parentApplicationBundleIdentifier=_parentApplicationBundleIdentifier;
-@property(nonatomic) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(nonatomic) unsigned int processUserIdentifier; // @synthesize processUserIdentifier=_processUserIdentifier;
 @property(readonly, nonatomic) _MRNowPlayingClientProtobuf *protobuf;
-@property(readonly, copy, nonatomic) NSString *representedBundleID;
-@property(readonly, nonatomic) MRClient *skeleton;
-@property(readonly, nonatomic, getter=isSystemBooksApplication) _Bool systemBooksApplication;
-@property(readonly, nonatomic, getter=isSystemMediaApplication) _Bool systemMediaApplication;
-@property(readonly, nonatomic, getter=isSystemPodcastsApplication) _Bool systemPodcastsApplication;
-@property(copy, nonatomic) MRColorComponents *tintColor; // @synthesize tintColor=_tintColor;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
-@property(nonatomic) long long visibility; // @synthesize visibility=_visibility;
-@property(readonly, nonatomic, getter=isWebKit) _Bool webKit;
 
 @end
 

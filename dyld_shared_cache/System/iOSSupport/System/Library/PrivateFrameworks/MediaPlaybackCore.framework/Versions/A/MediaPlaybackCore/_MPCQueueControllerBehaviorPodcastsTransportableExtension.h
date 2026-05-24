@@ -12,11 +12,11 @@
 }
 
 + (id);
-+ (id);
++ (id)propertiesForDataclass: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)essfully (%@) with error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Creating hosted endpoint for local because %{public}@;
 

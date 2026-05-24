@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PBCodable;
-@protocol NSCopying;
+@class NSString;
 
 @interface IDSRegistrationAccountStatusMetric
 {
     _Bool _doesExist;
-    _Bool _isEnabled;
-    _Bool _isUserDisabled;
-    _Bool _doesMatchiCloudAccount;
-    _Bool _isiCloudSignedIn;
-    _Bool _isiTunesSignedIn;
-    _Bool _hasEverRegistered;
-    _Bool _areAllAliasesSelected;
-    _Bool _areAllSelectedAliasesRegistered;
-    _Bool _isProdEnvironment;
-    int _accountType;
-    int _registrationErrorReason;
-    int _accountRegistrationStatus;
-    NSString *_serviceIdentifier;
-    long long _registrationError;
-    long long _registrationStatus;
-    long long _lastRegistrationFailureError;
-    double _timeIntervalSinceLastRegistrationFailure;
-    double _timeIntervalSinceLastRegistrationSuccess;
-    long long _accountSecurityLevel;
-    long long _numberOfSelected;
-    long long _numberOfVetted;
-    long long _numberOfUnselectReasonUnknown;
-    long long _numberOfUnselectReasonAlertDenial;
-    long long _numberOfUnselectReasonClientCall;
-    long long _numberOfUnselectReasonBadAlias;
-    long long _numberOfUnselectReasonUpdateInfo;
 }
 
 - (double);
@@ -50,7 +23,7 @@
 - (long long);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -63,7 +36,7 @@
 - (id);
 - (long long);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (unsigned short);
@@ -75,45 +48,7 @@
 - (long long)ate;
 
 // Remaining properties
-@property(readonly, nonatomic) int accountRegistrationStatus; // @synthesize accountRegistrationStatus=_accountRegistrationStatus;
-@property(readonly, nonatomic) long long accountSecurityLevel; // @synthesize accountSecurityLevel=_accountSecurityLevel;
-@property(readonly, nonatomic) int accountType; // @synthesize accountType=_accountType;
-@property(readonly, nonatomic) _Bool areAllAliasesSelected; // @synthesize areAllAliasesSelected=_areAllAliasesSelected;
-@property(readonly, nonatomic) _Bool areAllSelectedAliasesRegistered; // @synthesize areAllSelectedAliasesRegistered=_areAllSelectedAliasesRegistered;
-@property(readonly) unsigned int awdIdentifier;
-@property(readonly) PBCodable<NSCopying> *awdRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) _Bool doesExist; // @synthesize doesExist=_doesExist;
-@property(readonly, nonatomic) _Bool doesMatchiCloudAccount; // @synthesize doesMatchiCloudAccount=_doesMatchiCloudAccount;
-@property(readonly, nonatomic) _Bool hasEverRegistered; // @synthesize hasEverRegistered=_hasEverRegistered;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) _Bool isProdEnvironment; // @synthesize isProdEnvironment=_isProdEnvironment;
-@property(readonly, nonatomic) _Bool isUserDisabled; // @synthesize isUserDisabled=_isUserDisabled;
-@property(readonly, nonatomic) _Bool isiCloudSignedIn; // @synthesize isiCloudSignedIn=_isiCloudSignedIn;
-@property(readonly, nonatomic) _Bool isiTunesSignedIn; // @synthesize isiTunesSignedIn=_isiTunesSignedIn;
-@property(readonly, nonatomic) long long lastRegistrationFailureError; // @synthesize lastRegistrationFailureError=_lastRegistrationFailureError;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long numberOfSelected; // @synthesize numberOfSelected=_numberOfSelected;
-@property(readonly, nonatomic) long long numberOfUnselectReasonAlertDenial; // @synthesize numberOfUnselectReasonAlertDenial=_numberOfUnselectReasonAlertDenial;
-@property(readonly, nonatomic) long long numberOfUnselectReasonBadAlias; // @synthesize numberOfUnselectReasonBadAlias=_numberOfUnselectReasonBadAlias;
-@property(readonly, nonatomic) long long numberOfUnselectReasonClientCall; // @synthesize numberOfUnselectReasonClientCall=_numberOfUnselectReasonClientCall;
-@property(readonly, nonatomic) long long numberOfUnselectReasonUnknown; // @synthesize numberOfUnselectReasonUnknown=_numberOfUnselectReasonUnknown;
-@property(readonly, nonatomic) long long numberOfUnselectReasonUpdateInfo; // @synthesize numberOfUnselectReasonUpdateInfo=_numberOfUnselectReasonUpdateInfo;
-@property(readonly, nonatomic) long long numberOfVetted; // @synthesize numberOfVetted=_numberOfVetted;
-@property(readonly, nonatomic) long long registrationError; // @synthesize registrationError=_registrationError;
-@property(readonly, nonatomic) int registrationErrorReason; // @synthesize registrationErrorReason=_registrationErrorReason;
-@property(readonly, nonatomic) long long registrationStatus; // @synthesize registrationStatus=_registrationStatus;
-@property(readonly, nonatomic) unsigned short rtcType;
-@property(readonly, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeIntervalSinceLastRegistrationFailure; // @synthesize timeIntervalSinceLastRegistrationFailure=_timeIntervalSinceLastRegistrationFailure;
-@property(readonly, nonatomic) double timeIntervalSinceLastRegistrationSuccess; // @synthesize timeIntervalSinceLastRegistrationSuccess=_timeIntervalSinceLastRegistrationSuccess;
 
 @end
 

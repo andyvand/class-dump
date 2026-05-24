@@ -7,12 +7,6 @@
 @interface PhotosUICore.LemonadeDetailsViewScrollDetentsProvider
 {
     id _scrollDetents;
-    id viewModel;
-    id specManager;
-    id viewModelObservation;
-    id specManagerObservation;
-    id spec;
-    id dataSource;
 }
 
 - (id);

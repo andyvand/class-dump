@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, WBSSQLiteDatabase;
+@class NSArray, WBSSQLiteDatabase;
 
 @interface WBSSQLiteStatement
 {
     WBSSQLiteDatabase *_database;
-    struct sqlite3_stmt *_handle;
-    NSDictionary *_columnNamesToIndexes;
-    NSArray *_columnNames;
 }
 
 - (void);
-- (void);
+- (void)accessibilitySelectedRows;
 - (_Bool);
 - (void);
 - (void);
@@ -29,19 +26,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)ithObject:(id)arg1;
+- (id)wrapperWithObject:(id)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *columnNames;
-@property(readonly, nonatomic) NSDictionary *columnNamesToIndexes;
-@property(readonly, nonatomic) WBSSQLiteDatabase *database; // @synthesize database=_database;
-@property(readonly, nonatomic) struct sqlite3_stmt *handle; // @synthesize handle=_handle;
 
 @end
 

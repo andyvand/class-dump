@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (int);
 - (int);
-- (void)tmap_calcminmax0;
+- (void)fpr_slm_shiftmap_calcminmax0;
 
 @end
 

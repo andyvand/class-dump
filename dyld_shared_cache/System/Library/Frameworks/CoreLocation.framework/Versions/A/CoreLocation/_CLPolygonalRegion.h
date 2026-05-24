@@ -11,29 +11,26 @@
 @interface _CLPolygonalRegion : CLRegion
 {
     _Bool _allowMonitoringWhileNearby;
-    int _geoReferenceFrame;
-    NSArray *_vertices;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)RGB:bpp = %d, bpc = %d)
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)setReturnType:(struct _NSZone *)arg1;
 - (void);
 - (_Bool)CLPedestrianRTSSmoother]:(struct CLLocationCoordinate2D)arg1 [initializePositionState] Forward state initialization failed. horizontalUncertainty, %{public}.1f.;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowMonitoringWhileNearby; // @synthesize allowMonitoringWhileNearby=_allowMonitoringWhileNearby;
-@property int geoReferenceFrame; // @synthesize geoReferenceFrame=_geoReferenceFrame;
 @property(readonly, copy, nonatomic) NSArray *vertices; // @synthesize vertices=_vertices;
 
 @end

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol _NSAsynchronousPreparationInputParameters
++ (NSSet *)xoNuW+iIKR3g;
++ (NSSet *)SMgTCc2v9AU2ziIHRX8qww;
 @end
 

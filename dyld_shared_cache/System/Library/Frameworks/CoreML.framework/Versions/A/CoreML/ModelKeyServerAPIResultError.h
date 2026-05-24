@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (void)ng:(id)arg1;
+- (id)/4~CN9SugADH2Fgo5tmM8vtIg6yfmyfRDs4wRRprzk/Library/Caches/com.apple.xbs/TemporaryDirectory.V8n6pu/Sources/libwebrtc/Source/ThirdParty/libwebrtc/Source/third_party/abseil-cpp/absl/strings/internal/escaping.cc;
+- (void)\;
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)*;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -28,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMessage;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
 
 @end
 

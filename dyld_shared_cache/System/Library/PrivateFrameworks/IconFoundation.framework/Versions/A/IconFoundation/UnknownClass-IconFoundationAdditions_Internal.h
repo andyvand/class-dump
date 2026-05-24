@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (IconFoundationAdditions_Internal)
-- (id);
+- (id)F;
 - (unsigned long long);
 - (long long);
 - (id);

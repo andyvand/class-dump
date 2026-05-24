@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationController, CDPUIDeviceToDeviceEncryptionFlowContext, NSImage, NSWindow;
-@protocol CDPLocalSecretFollowUpProvider, CDPUIDeviceToDeviceEncryptionHelperDelegate;
+@class AKAppleIDAuthenticationController;
+@protocol CDPLocalSecretFollowUpProvider;
 
 @interface CDPUIDeviceToDeviceEncryptionHelper
 {
     AKAppleIDAuthenticationController *_authenticationController;
-    CDPUIDeviceToDeviceEncryptionFlowContext *_context;
-    id <CDPLocalSecretFollowUpProvider> _followUpProvider;
-    NSWindow *_hostWindow;
-    NSImage *_displayImage;
-    id <CDPUIDeviceToDeviceEncryptionHelperDelegate> _delegate;
 }
 
 + (id);
@@ -26,7 +21,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
@@ -46,9 +41,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (unsigned long long);
-- (id);
+- (id)#;
 - (_Bool);
 - (void);
 - (void);
@@ -58,7 +53,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)6;
 - (id);
 - (void);
 - (id);
@@ -69,11 +64,7 @@
 - (id)DPUIStatusChangeController(Walrus) _handleEnablementError:forChoice:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDPUIDeviceToDeviceEncryptionFlowContext *context; // @synthesize context=_context;
-@property(nonatomic) __weak id <CDPUIDeviceToDeviceEncryptionHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property __weak NSImage *displayImage; // @synthesize displayImage=_displayImage;
 @property(retain, nonatomic) id <CDPLocalSecretFollowUpProvider> followUpProvider; // @synthesize followUpProvider=_followUpProvider;
-@property __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
 
 @end
 

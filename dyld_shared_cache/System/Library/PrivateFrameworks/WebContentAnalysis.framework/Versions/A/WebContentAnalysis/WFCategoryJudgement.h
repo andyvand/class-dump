@@ -7,20 +7,18 @@
 @interface WFCategoryJudgement
 {
     float _score;
-    long long _category;
 }
 
 + (id);
 - (long long);
 - (long long);
-- (id);
+- (id)3;
 - (long long);
 - (float);
 - (void);
-- (void);
+- (void)_removeDataReferencesWithRecordIds:(float)arg1 inDatabase: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long category; // @synthesize category=_category;
 @property float score; // @synthesize score=_score;
 
 @end

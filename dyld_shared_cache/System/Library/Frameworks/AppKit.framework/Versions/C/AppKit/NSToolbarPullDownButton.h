@@ -6,14 +6,12 @@
 
 #import <AppKit/NSPopUpButton.h>
 
-@class NSFont, NSImage, NSMenu, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarPullDownButton : NSPopUpButton
 {
     _Bool _showsIndicator;
-    NSImage *_image;
-    NSString *_title;
 }
 
 - (_Bool);
@@ -28,14 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)adingConstraint;
 
 // Remaining properties
-@property SEL action;
-@property unsigned long long controlSize;
-@property(copy) NSFont *font;
 @property(retain) NSImage *image;
-@property(retain) NSMenu *menu;
-@property _Bool showsIndicator;
-@property __weak id target;
-@property(copy) NSString *title;
 
 @end
 

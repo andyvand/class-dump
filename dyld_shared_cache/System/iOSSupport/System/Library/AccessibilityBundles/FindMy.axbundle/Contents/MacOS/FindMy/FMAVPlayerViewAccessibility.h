@@ -12,9 +12,9 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (id);
 
 @end

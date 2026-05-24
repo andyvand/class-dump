@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ead_relatedCategories"b1"wrote_anyField"b1};
-- (id)ck: /* Error: Ran out of types for this method. */;
+- (id)_snapNonMercatorCoordinateIfNecessary:callbackQueue:callback: /* Error: Ran out of types for this method. */;
 - (id)¬n;
 - (void)h ÍÀJ@;
 

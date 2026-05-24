@@ -6,25 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaLocaleIdentifier;
-
 @interface SISchemaDictationAlternativesViewed : SISchemaInstrumentationMessage
 {
     int _countOfWordsUnderlined;
-    int _countOfAlternativesAvailable;
-    SISchemaLocaleIdentifier *_alternativesLocale;
-    struct {
-        unsigned int countOfWordsUnderlined:1;
-        unsigned int countOfAlternativesAvailable:1;
-    } _has;
-    _Bool _hasAlternativesLocale;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -38,23 +29,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)stReported;
-- (id)ationMetadata;
-- (void)onds;
+- (unsigned long long),V_startDate;
+- (_Bool)UHandleClass(void)_block_invoke;
+- (_Bool)T     attributedBody = ?,     text = ?,     date = ?,     date_read = ?,     date_delivered = ?,     service_center = ?,     version = ?,     country = ?,     service = ?,     is_delivered = ?,     is_finished = ?,     is_emote = ?,     is_from_me = ?,     is_empty = ?,     is_delayed = ?,     is_auto_reply = ?,     is_prepared = ?,     is_read = ?,     is_system_message = ?,     is_sent = ?,     has_dd_results = ?,     is_service_message = ?,     is_forward = ?,     was_downgraded = ?,     subject = ?,     error = ?,     handle_id = ? WHERE     ROWID = ?;
+- (id);
+- (id);
+- (id)deleteAssistantDiagnosticAndUsageOptInDigestReported;
+- (id)_clientConversationMetadata;
+- (void)sessionDurationInSeconds;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaLocaleIdentifier *alternativesLocale; // @synthesize alternativesLocale=_alternativesLocale;
-@property(nonatomic) int countOfAlternativesAvailable; // @synthesize countOfAlternativesAvailable=_countOfAlternativesAvailable;
 @property(nonatomic) int countOfWordsUnderlined; // @synthesize countOfWordsUnderlined=_countOfWordsUnderlined;
-@property(nonatomic) _Bool hasAlternativesLocale; // @synthesize hasAlternativesLocale=_hasAlternativesLocale;
-@property(nonatomic) _Bool hasCountOfAlternativesAvailable;
-@property(nonatomic) _Bool hasCountOfWordsUnderlined;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

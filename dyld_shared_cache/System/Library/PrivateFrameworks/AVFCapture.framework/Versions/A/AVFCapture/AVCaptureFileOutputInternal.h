@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureFileOutputInternal
 {
     CDStruct_1b6d18a9 maxRecordedDuration;
-    long long maxRecordedFileSize;
-    long long minFreeDiskSpaceLimit;
-    _Bool pausesRecordingOnInterruption;
 }
 
 - (id);

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface PXVideoSessionManagerDisplayAssetOptions
 {
     _Bool _shouldCreateUniqueVideoSession;
-    _Bool _shouldStabilizeLivePhotosIfPossible;
-    _Bool _shouldPlayLivePhotosWithSettlingEffectIfPossible;
-    _Bool _shouldCrossfadeLivePhotosWhenLooping;
-    _Bool _isAudioAllowed;
-    long long _audioSessionKind;
-    NSMutableArray *_strategiesStore;
-    CDStruct_e83c9415 _livePhotoLoopTimeRange;
 }
 
 - (id);
@@ -30,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_e83c9415);
+- (CDStruct_e83c9415);
 - (_Bool);
 - (long long);
 - (void);
@@ -40,14 +33,6 @@
 - (void)¼öþ­)²;
 
 // Remaining properties
-@property(nonatomic) long long audioSessionKind; // @synthesize audioSessionKind=_audioSessionKind;
-@property(nonatomic) _Bool isAudioAllowed; // @synthesize isAudioAllowed=_isAudioAllowed;
-@property(nonatomic) CDStruct_e83c9415 livePhotoLoopTimeRange; // @synthesize livePhotoLoopTimeRange=_livePhotoLoopTimeRange;
-@property(nonatomic) _Bool shouldCreateUniqueVideoSession; // @synthesize shouldCreateUniqueVideoSession=_shouldCreateUniqueVideoSession;
-@property(nonatomic) _Bool shouldCrossfadeLivePhotosWhenLooping; // @synthesize shouldCrossfadeLivePhotosWhenLooping=_shouldCrossfadeLivePhotosWhenLooping;
-@property(nonatomic) _Bool shouldPlayLivePhotosWithSettlingEffectIfPossible; // @synthesize shouldPlayLivePhotosWithSettlingEffectIfPossible=_shouldPlayLivePhotosWithSettlingEffectIfPossible;
-@property(nonatomic) _Bool shouldStabilizeLivePhotosIfPossible; // @synthesize shouldStabilizeLivePhotosIfPossible=_shouldStabilizeLivePhotosIfPossible;
-@property(readonly, nonatomic) NSArray *strategies;
 @property(readonly, nonatomic) NSMutableArray *strategiesStore; // @synthesize strategiesStore=_strategiesStore;
 
 @end

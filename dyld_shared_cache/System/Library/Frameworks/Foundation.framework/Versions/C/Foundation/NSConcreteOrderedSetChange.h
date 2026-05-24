@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface NSConcreteOrderedSetChange : NSOrderedSetChange
 {
     unsigned long long _changeType;
-    unsigned long long _sourceIndex;
-    unsigned long long _destinationIndex;
-    id _value;
 }
 
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
-- (void);
+- (void)7;
 - (id)ÿÿÿÿÿX;
 - (unsigned long long)ý
 þ

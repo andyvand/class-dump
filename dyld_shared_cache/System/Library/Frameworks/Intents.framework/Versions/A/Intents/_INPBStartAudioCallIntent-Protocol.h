@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBStartCallRequestMetadata;
+@class NSString, _INPBIntentMetadata;
 
 @protocol _INPBStartAudioCallIntent
++ (Class)_deviceTypeTextFieldTrailingConstraint;
+- (NSString *);
+- (unsigned long long)';
+- (void)setHasMagneticSensitivity:(_Bool)arg1;
+- (int));
+- (_INPBIntentMetadata *)_foundDates;
 - (_Bool)es:excludedAttributes:peopleInPhoto: /* Error: Ran out of types for this method. */;
-- (void)ionPayload;
+- (void)UAINInteractionPayload;
 
 // Remaining properties
 @property(nonatomic) int audioRoute;
-@property(retain, nonatomic) _INPBStartCallRequestMetadata *callRequestMetadata;
-@property(copy, nonatomic) NSArray *contacts;
-@property(readonly, nonatomic) unsigned long long contactsCount;
-@property(nonatomic) int destinationType;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(readonly, nonatomic) _Bool hasCallRequestMetadata;
-@property(nonatomic) _Bool hasDestinationType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPreferredCallProvider;
-@property(nonatomic) _Bool hasRecordTypeForRedialing;
-@property(nonatomic) _Bool hasTtyType;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int preferredCallProvider;
-@property(nonatomic) int recordTypeForRedialing;
-@property(copy, nonatomic) NSArray *targetContacts;
-@property(readonly, nonatomic) unsigned long long targetContactsCount;
-@property(nonatomic) int ttyType;
 @end
 

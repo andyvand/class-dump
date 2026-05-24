@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface MFPhoneRegion : MFRegion
 {
     OITSUBezierPath *m_path;
-    struct CGRect m_bounds;
 }
 
 - (id);
 - (id);
 - (id);
 - (int);
-- (int);
+- (int)+FD;
 - (int);
 - (void)Ø ;
 

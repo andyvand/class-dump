@@ -6,14 +6,12 @@
 
 #import <FinderKit/FI_TPopoverController.h>
 
-@class FI_TTagEditorController, FI_TTaggingPopoverContentViewController;
+@class FI_TTaggingPopoverContentViewController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTaggingPopoverController : FI_TPopoverController
 {
     FI_TTaggingPopoverContentViewController *_popoverContentViewController;
-    FI_TTagEditorController *_editorController;
-    struct TNotificationCenterObserver _didEndEditingObserver;
 }
 
 - (void);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)s;
 - (void)ÿÿ@;
 - (void)mageEEE;
 

@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSSet;
+@protocol NSPasteboardWriting;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (unsigned long long);
+- (NSArray *) ;
+- (void);
+- (NSSet *)c);
+- (id <NSPasteboardWriting>)P;
+- (void);
 @end
 

@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
-
 @interface NSCursor
 {
     struct CGPoint _hotSpot;
-    struct _cursorFlags {
-        unsigned int onMouseExited:1;
-        unsigned int onMouseEntered:1;
-        unsigned int cursorType:8;
-        unsigned int :22;
-    } _flags;
-    id _image;
-    NSImage *_imageToDisplay;
 }
 
 
 // Remaining properties
-@property(readonly) struct CGPoint hotSpot;
-@property(readonly) NSImage *image;
-@property(readonly, getter=isSetOnMouseEntered) _Bool setOnMouseEntered;
 @property(readonly, getter=isSetOnMouseExited) _Bool setOnMouseExited;
 @end
 

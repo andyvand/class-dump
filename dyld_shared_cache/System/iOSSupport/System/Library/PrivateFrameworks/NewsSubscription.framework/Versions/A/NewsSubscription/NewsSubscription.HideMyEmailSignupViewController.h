@@ -7,9 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id purchasePresenter;
 }
 
 - (id);

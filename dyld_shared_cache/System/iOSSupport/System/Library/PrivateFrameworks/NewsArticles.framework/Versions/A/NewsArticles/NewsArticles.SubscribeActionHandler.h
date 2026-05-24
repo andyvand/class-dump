@@ -7,36 +7,14 @@
 @interface NewsArticles.SubscribeActionHandler
 {
     id headline;
-    id actionModel;
-    id purchaseStarter;
-    id purchasingSpinnerViewControllerFactory;
-    id $__lazy_storage_$_purchasingSpinnerViewController;
-    id $__lazy_storage_$_verifyingSpinnerViewController;
-    id bundleSubscriptionManager;
-    id tracker;
-    id configurationManager;
-    id router;
-    id familySharingLandingPageLauncher;
-    id offerManager;
-    id presenter;
-    id urlHandler;
-    id postPurchaseOnboardingManager;
-    id onboardingPrewarmer;
-    id bundleSubscriptionDetectionManager;
-    id postPurchaseRoutingInProgress;
-    id networkReachability;
-    id paidBundleViaOfferFeatureAvailability;
-    id appConfigurationManager;
-    id tipConfigFactory;
-    id commandCenter;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)T;
 - (void);
 - (id);
 - (void);
-- (void)r;
+- (void)articleIdentifier;
 
 @end
 

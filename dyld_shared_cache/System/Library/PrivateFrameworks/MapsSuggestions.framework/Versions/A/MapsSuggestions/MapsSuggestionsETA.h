@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString;
-
 @interface MapsSuggestionsETA
 {
     int _transportType;
-    double _seconds;
-    NSString *_shortTrafficString;
-    NSString *_longTrafficString;
-    NSString *_writtenRouteName;
-    NSString *_spokenRouteName;
-    NSDate *_time;
-    CLLocation *_location;
-    NSString *_originator;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)^;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Shz<;
+- (id)=;
 - (id);
 - (id);
 - (double);
@@ -40,33 +30,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)ller";
 - (void)"MapsSuggestionsVirtualGarage";
 - (int);
 - (id).;
 
 // Remaining properties
-@property(readonly, nonatomic) double age;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) NSString *longTrafficString; // @synthesize longTrafficString=_longTrafficString;
-@property(readonly, nonatomic) NSString *originator; // @synthesize originator=_originator;
 @property(readonly, nonatomic) double seconds; // @synthesize seconds=_seconds;
-@property(readonly, nonatomic) NSString *shortTrafficString; // @synthesize shortTrafficString=_shortTrafficString;
-@property(readonly, nonatomic) NSString *spokenRouteName; // @synthesize spokenRouteName=_spokenRouteName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDate *time; // @synthesize time=_time;
-@property(readonly, nonatomic) int transportType; // @synthesize transportType=_transportType;
-@property(readonly, nonatomic) NSString *writtenRouteName; // @synthesize writtenRouteName=_writtenRouteName;
 
 @end
 

@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ImageHopAnimation, NSImage, NSObject, NSString, NSWindow;
-@protocol ImageHopAnimationDelegate;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface ImageHopAnimationController
 {
     NSWindow *_windowToAnimate;
-    NSObject<ImageHopAnimationDelegate> *_delegate;
-    NSImage *_hopImage;
-    struct CGSize _initialImageSize;
-    struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
-    ImageHopAnimation *_animation;
 }
 
 + (struct CGSize);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -33,23 +26,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (struct CGPoint)tification;
+- (struct CGPoint)BrowserDataImportingDidEndNotification;
 - (void);
 - (void)ä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<ImageHopAnimationDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGPoint endPoint; // @synthesize endPoint=_endPoint;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImage *hopImage; // @synthesize hopImage=_hopImage;
-@property(nonatomic) struct CGSize initialImageSize; // @synthesize initialImageSize=_initialImageSize;
 @property(readonly) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
-@property(readonly) Class superclass;
 
 @end
 

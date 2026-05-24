@@ -7,7 +7,6 @@
 @interface NewsSubscription.SubscriptionOffersStyler
 {
     id colorPaletteProvider;
-    id accessTextMaxLines;
 }
 
 @end

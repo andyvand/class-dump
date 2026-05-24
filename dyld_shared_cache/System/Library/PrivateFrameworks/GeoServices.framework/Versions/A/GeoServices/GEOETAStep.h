@@ -4,59 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOEVStateInfo, GEOStopStepEVInfo, GEOTimeCheckpoints, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOETAStep
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOStopStepEVInfo *_evInfo;
-    GEOEVStateInfo *_evStateInfo;
-    GEOTimeCheckpoints *_timeCheckpoints;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _distanceCm;
-    unsigned int _expectedTime;
-    unsigned int _stepID;
-    unsigned int _zilchPathIndex;
-    int _zilchPointIndex;
-    struct {
-        unsigned int has_distanceCm:1;
-        unsigned int has_expectedTime:1;
-        unsigned int has_stepID:1;
-        unsigned int has_zilchPathIndex:1;
-        unsigned int has_zilchPointIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_evInfo:1;
-        unsigned int read_evStateInfo:1;
-        unsigned int read_timeCheckpoints:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)HasReTxBytes:(id)arg1;
++ (_Bool)setHasReTxBytes:(id)arg1;
 - (unsigned int);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool)setDefaultDisplayNameOrder: /* Error: Ran out of types for this method. */;
+- (_Bool)setDefaultCountryCode: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (id);
+- (_Bool)offMainThreadSchedulerWithBackgroundScheduler: /* Error: Ran out of types for this method. */;
+- (_Bool)authorizationContext;
+- (_Bool)audit_token;
+- (unsigned int)hedValue;
+- (id)bers;
+- (id)lowercaseString;
 - (int);
 - (id);
 - (void);
@@ -65,11 +41,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (id);
+- (void);
+- (unsigned int)_kACSURLSessionResumeDataNSURLResumeDataKey;
+- (void)annel:(id)arg1;
+- (void)dateMonitor _stopMonitoring];
+- (id)Recorded = %f];
 - (void);
 - (id);
 - (unsigned long long);
@@ -77,31 +53,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)dows:(struct _NSZone *)arg1;
-- (id)eFeedback;
+- (id)setHasNumberOfMapsWindows:(struct _NSZone *)arg1;
+- (id)GEOTrafficRerouteFeedback;
 - (id)G;
-- (_Bool)lue;
+- (_Bool)MapValueConstRef::GetUInt64Value /* Error: Ran out of types for this method. */;
 - (id)	;
 - (void)8ÄÛþ;
 
 // Remaining properties
-@property(nonatomic) unsigned int distanceCm;
-@property(retain, nonatomic) GEOStopStepEVInfo *evInfo;
-@property(retain, nonatomic) GEOEVStateInfo *evStateInfo;
-@property(nonatomic) unsigned int expectedTime;
-@property(nonatomic) _Bool hasDistanceCm;
-@property(readonly, nonatomic) _Bool hasEvInfo;
-@property(readonly, nonatomic) _Bool hasEvStateInfo;
-@property(nonatomic) _Bool hasExpectedTime;
 @property(nonatomic) _Bool hasStepID;
-@property(readonly, nonatomic) _Bool hasTimeCheckpoints;
-@property(nonatomic) _Bool hasZilchPathIndex;
-@property(nonatomic) _Bool hasZilchPointIndex;
-@property(nonatomic) unsigned int stepID;
-@property(retain, nonatomic) GEOTimeCheckpoints *timeCheckpoints;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int zilchPathIndex;
-@property(nonatomic) int zilchPointIndex;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AMSThreadSafeObject
 {
     struct os_unfair_lock_s _lock;
-    id _underlyingObject;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (void);
 - (id)±§&ð1Â0@ù
 × ;
-- (id)equestReturnCacheDataDontLoad;
+- (id)NSURLRequestReturnCacheDataDontLoad;
 - (id)÷#Xûº\.¼[õÀª2úñ¼|qÁ]ÕD½U&h=`Z%BÄë#a´
 [n?'#bI`ÂË|êÖÍ¢±F;
 - (struct os_unfair_lock_s)ÞÇONÿ`àzÏ%æ»Cá)êÓ.eòÃbW[>q¼úa]çK ¶Dspuîoß¬=Ö!ÁéÆ¥Ê"yI/ñ;­µª:_2ï°\÷®-UY@ÌÕûèÛÒ&R¿hlÂ8¢ÙÀ<@R:PÕöy nÌ4x5j{"ðÚçÝêlUrû /* Error: Ran out of types for this method. */;
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain) id underlyingObject; // @synthesize underlyingObject=_underlyingObject;
 
 @end
 

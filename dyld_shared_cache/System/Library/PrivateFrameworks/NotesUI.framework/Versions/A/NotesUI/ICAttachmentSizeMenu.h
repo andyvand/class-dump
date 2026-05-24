@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ICAttachmentSizeMenu
 {
     _Bool _supportsPlainLink;
-    _Bool _isOverrideVariant;
-    short _preferredViewSize;
-    NSString *_title;
-    NSArray *_supportedSizes;
-    id _target;
-    SEL _selectedSizeAction;
-    SEL _selectedPlainLinkAction;
 }
 
 - (_Bool);
@@ -29,7 +22,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (short);
 - (id);
@@ -41,13 +34,6 @@
 - (void)C,N,V_windowType;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isOverrideVariant; // @synthesize isOverrideVariant=_isOverrideVariant;
-@property(nonatomic) short preferredViewSize; // @synthesize preferredViewSize=_preferredViewSize;
-@property(nonatomic) SEL selectedPlainLinkAction; // @synthesize selectedPlainLinkAction=_selectedPlainLinkAction;
-@property(nonatomic) SEL selectedSizeAction; // @synthesize selectedSizeAction=_selectedSizeAction;
-@property(copy, nonatomic) NSArray *supportedSizes; // @synthesize supportedSizes=_supportedSizes;
-@property(readonly, nonatomic) _Bool supportsPlainLink; // @synthesize supportsPlainLink=_supportsPlainLink;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

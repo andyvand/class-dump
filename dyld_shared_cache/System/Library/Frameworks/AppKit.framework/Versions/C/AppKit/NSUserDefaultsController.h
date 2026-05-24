@@ -6,24 +6,17 @@
 
 #import <AppKit/NSController.h>
 
-@class NSDictionary, NSMutableDictionary, NSUserDefaults;
+@class NSUserDefaults;
 
 @interface NSUserDefaultsController : NSController
 {
     NSUserDefaults *_defaults;
-    NSMutableDictionary *_valueBuffer;
-    NSDictionary *_initialValues;
-    struct __userDefaultsControllerFlags {
-        unsigned int _sharedInstance:1;
-        unsigned int _appliesImmediately:1;
-        unsigned int _reservedUserDefaultsController:30;
-    } _userDefaultsControllerFlags;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)@;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -34,33 +27,30 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)requestWithURL: /* Error: Ran out of types for this method. */;
+- (void)__CFN_TaskMetrics;
+- (void)nticator getting headers for %@ codes %@;
 - (void);
 - (void);
-- (void);
+- (id)lu
+(Transaction Metrics) %@;
+- (id);
+- (void)chose not to manage url;
+- (id)D=%q;;
+- (id);
+- (id);
+- (void)X;
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)sChanging: /* Error: Ran out of types for this method. */;
-- (void)renceTransition;
+- (id)comboBoxCellSelectionIsChanging: /* Error: Ran out of types for this method. */;
+- (void)NSLocalGlobalPreferenceTransition;
 - (void);
 
 // Remaining properties
-@property _Bool appliesImmediately;
 @property(readonly) NSUserDefaults *defaults;
-@property(readonly) _Bool hasUnappliedChanges;
-@property(copy) NSDictionary *initialValues;
-@property(readonly) id values;
 
 @end
 

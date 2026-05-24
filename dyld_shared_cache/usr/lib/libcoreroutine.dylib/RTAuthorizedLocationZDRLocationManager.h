@@ -4,63 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, RTAuthorizedLocationManagerCachedStatus, RTAuthorizedLocationMetrics, RTAuthorizedLocationZDRLocationsStore, RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationManager, RTLocationManager, RTPlatform, RTTrustedTimeCache, RTVisitManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTAuthorizedLocationZDRLocationManager
 {
     _Bool _isSupportedDevice;
-    _Bool _isZDRDebugEnabled;
-    _Bool _relaxTrustedTimeRequirement;
-    _Bool _allowUnsecureTimeFallback;
-    _Bool _forceTrustedTimeUnavailability;
-    _Bool _isUnlockedSinceBoot;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTVisitManager *_visitManager;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTDefaultsManager *_defaultsManager;
-    RTAuthorizedLocationManagerCachedStatus *_confirmationStatus;
-    RTLocationManager *_locationManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTPlatform *_platform;
-    RTAuthorizedLocationZDRLocationsStore *_zdrLocationsStore;
-    NSMutableArray *_zdrLocationsMemoryCopy;
-    RTTrustedTimeCache *_trustedTimeCache;
-    RTAuthorizedLocationMetrics *_metrics;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool)^{_PCSIdentitySetData=}16;
+- (_Bool)ntityData}^{__CFArray}Ii{?=BBBBBBB}I};
+- (id)setupIdentitiesForAccount:(id)arg1 withParameters:(id)arg2 optional:(id)arg3;
+- (_Bool)rapping key with escrow identities;
+- (void)eded!;
+- (void)language;
+- (id)t needs PCSGuitarfishSetupIdentities or migration.;
+- (_Bool)SSignature;
+- (void)to keychain;
+- (void)ength %d;
+- (_Bool)wKlGRubuRTsR8EKAA6pKDTo=;
+- (void)ksum:(id)arg1 %@
+;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (int);
@@ -77,7 +61,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (long long);
 - (long long);
@@ -85,38 +69,21 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_client_connection_id;
+- (id);
+- (id);
+- (id)or %@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)tion:(id)arg1 elevations:error:handler: /* Error: Ran out of types for this method. */;
+- (void)respondWithCLLocation:(id)arg1 elevations:error:handler: /* Error: Ran out of types for this method. */;
 - (id)ceManager sortedModelNames];
 - (void)e,Initiator,sessionID:%@,%@,%@,fetched successfully /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool allowUnsecureTimeFallback; // @synthesize allowUnsecureTimeFallback=_allowUnsecureTimeFallback;
-@property(readonly, nonatomic) RTAuthorizedLocationManagerCachedStatus *confirmationStatus; // @synthesize confirmationStatus=_confirmationStatus;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(nonatomic) _Bool forceTrustedTimeUnavailability; // @synthesize forceTrustedTimeUnavailability=_forceTrustedTimeUnavailability;
-@property(nonatomic) _Bool isSupportedDevice; // @synthesize isSupportedDevice=_isSupportedDevice;
-@property(nonatomic) _Bool isUnlockedSinceBoot; // @synthesize isUnlockedSinceBoot=_isUnlockedSinceBoot;
-@property(nonatomic) _Bool isZDRDebugEnabled; // @synthesize isZDRDebugEnabled=_isZDRDebugEnabled;
-@property(readonly, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTAuthorizedLocationMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool relaxTrustedTimeRequirement; // @synthesize relaxTrustedTimeRequirement=_relaxTrustedTimeRequirement;
-@property(readonly, nonatomic) RTTrustedTimeCache *trustedTimeCache; // @synthesize trustedTimeCache=_trustedTimeCache;
-@property(readonly, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
-@property(retain, nonatomic) NSMutableArray *zdrLocationsMemoryCopy; // @synthesize zdrLocationsMemoryCopy=_zdrLocationsMemoryCopy;
-@property(retain, nonatomic) RTAuthorizedLocationZDRLocationsStore *zdrLocationsStore; // @synthesize zdrLocationsStore=_zdrLocationsStore;
 
 @end
 

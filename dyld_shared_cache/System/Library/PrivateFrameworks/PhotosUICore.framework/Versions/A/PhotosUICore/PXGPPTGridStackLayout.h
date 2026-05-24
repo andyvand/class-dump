@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSIndexSet, NSString;
-
 @interface PXGPPTGridStackLayout
 {
     long long _numberOfItemsPerSection;
-    long long _numberOfColumns;
-    _Bool _useAssetBadgeDecoration;
-    long long _selectionDecorationStyle;
-    _Bool _decorated;
-    long long _estimatedNumberOfRowsPerSection;
-    NSColor *_spriteColor;
-    NSIndexSet *_selectedItemsPerSection;
-    struct PXAssetBadgeInfo _assetBadgeInfos[12];
 }
 
 - (_Bool);
@@ -26,8 +16,8 @@
 - (long long);
 - (unsigned long long);
 - (id);
-- (CDStruct_0054b44d);
-- (long long);
+- (CDStruct_818bb265);
+- (long long)@9;
 - (id);
 - (struct CGSize);
 - (id);
@@ -40,13 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

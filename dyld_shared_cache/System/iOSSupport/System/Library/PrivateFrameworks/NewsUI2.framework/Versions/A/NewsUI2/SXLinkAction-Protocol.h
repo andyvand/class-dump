@@ -7,9 +7,9 @@
 @class NSURL;
 
 @protocol SXLinkAction
+- (NSURL *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) _Bool openInBrowser;
 @end
 

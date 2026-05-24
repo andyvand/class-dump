@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigAlternateObjC, NSArray, NSString;
+@class FigAlternateObjC, NSString;
 
 @interface AVAssetVariantVideoAttributes
 {
     FigAlternateObjC *_figAlternateObjC;
-    struct OpaqueFigSimpleMutex *_mutex;
-    NSArray *_allVideoLayoutAttributes;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (double);
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *codecTypes;
-@property(readonly, nonatomic) double nominalFrameRate;
-@property(readonly, nonatomic) struct CGSize presentationSize;
-@property(readonly, nonatomic) NSArray *videoLayoutAttributes;
 @property(readonly, nonatomic) NSString *videoRange;
 
 @end

@@ -6,20 +6,9 @@
 
 #import <NewsCore/FCMultiStepFetchOperation.h>
 
-@class NSArray;
-@protocol FCContentContext;
-
 @interface FCResourcesFetchOperation : FCMultiStepFetchOperation
 {
     _Bool _downloadAssets;
-    long long _cacheLifetimeHint;
-    unsigned long long _maxConcurrentFetchCount;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _interestTokenHandler;
-    CDUnknownBlockType _archiveHandler;
-    id <FCContentContext> _context;
-    NSArray *_resourceIDs;
-    NSArray *_resources;
 }
 
 - (unsigned long long);
@@ -28,10 +17,10 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)_prepareCellsForOverdraw:(id)arg1;
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (id)dBaseURLString;
@@ -42,11 +31,7 @@
 - (void)a;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveHandler; // @synthesize archiveHandler=_archiveHandler;
 @property(nonatomic) long long cacheLifetimeHint; // @synthesize cacheLifetimeHint=_cacheLifetimeHint;
-@property(copy, nonatomic) CDUnknownBlockType interestTokenHandler; // @synthesize interestTokenHandler=_interestTokenHandler;
-@property(nonatomic) unsigned long long maxConcurrentFetchCount; // @synthesize maxConcurrentFetchCount=_maxConcurrentFetchCount;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

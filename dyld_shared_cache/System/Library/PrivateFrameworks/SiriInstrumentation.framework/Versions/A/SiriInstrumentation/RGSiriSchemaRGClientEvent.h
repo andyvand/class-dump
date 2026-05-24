@@ -6,31 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, RGSiriSchemaRGCacheManagerCallContext, RGSiriSchemaRGCatalogContext, RGSiriSchemaRGClientEventMetadata, RGSiriSchemaRGGMSCallContext, RGSiriSchemaRGHallucinationDetectionContext, RGSiriSchemaRGInferenceContext, RGSiriSchemaRGOverrideContext, RGSiriSchemaRGRequestContext, RGSiriSchemaRGRequestEndedTier1, RGSiriSchemaRGValidationContext, SISchemaInstrumentationMessage;
+@class RGSiriSchemaRGClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface RGSiriSchemaRGClientEvent : SISchemaTopLevelUnionType
 {
     RGSiriSchemaRGClientEventMetadata *_eventMetadata;
-    RGSiriSchemaRGRequestContext *_requestContext;
-    RGSiriSchemaRGRequestEndedTier1 *_requestEndedTier1;
-    RGSiriSchemaRGOverrideContext *_overrideContext;
-    RGSiriSchemaRGValidationContext *_validationContext;
-    RGSiriSchemaRGCatalogContext *_catalogContext;
-    RGSiriSchemaRGInferenceContext *_inferenceContext;
-    RGSiriSchemaRGHallucinationDetectionContext *_hallucinationDetectionContext;
-    RGSiriSchemaRGGMSCallContext *_RGGMSCallContext;
-    RGSiriSchemaRGCacheManagerCallContext *_RGCacheManagerCallContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasRequestContext;
-    _Bool _hasRequestEndedTier1;
-    _Bool _hasOverrideContext;
-    _Bool _hasValidationContext;
-    _Bool _hasCatalogContext;
-    _Bool _hasInferenceContext;
-    _Bool _hasHallucinationDetectionContext;
-    _Bool _hasRGGMSCallContext;
-    _Bool _hasRGCacheManagerCallContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -38,13 +18,35 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void):(_Bool)arg1 xs;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)A;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -56,78 +58,34 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)c;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)systemFontOfSize: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)oreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAppCapabilityMetadata_macOS.m:37 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)t_id, handle_id);
+- (id);
 - (id);
 - (id)Type"b1};
-- (unsigned long long)antCountBucket;
-- (id)adingOptInStateChanges:(id)arg1;
+- (unsigned long long)deleteParticipantCountBucket;
+- (id)addGradingOptInStateChanges:(id)arg1;
 - (id)estionoutcome;
 - (int)´;
-- (void)_SUGGESTION_MADE_AND_NOT_USED;
-- (void)MEKIT_ACCESSORY;
+- (void)PLUSINFERREDSUGGESTIONSTATE_SUGGESTION_MADE_AND_NOT_USED;
+- (void)HALHOMEKITTARGET_HOMEKIT_ACCESSORY;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGCacheManagerCallContext *RGCacheManagerCallContext; // @synthesize RGCacheManagerCallContext=_RGCacheManagerCallContext;
-@property(retain, nonatomic) RGSiriSchemaRGGMSCallContext *RGGMSCallContext; // @synthesize RGGMSCallContext=_RGGMSCallContext;
-@property(retain, nonatomic) RGSiriSchemaRGCatalogContext *catalogContext; // @synthesize catalogContext=_catalogContext;
-@property(retain, nonatomic) RGSiriSchemaRGClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) RGSiriSchemaRGHallucinationDetectionContext *hallucinationDetectionContext; // @synthesize hallucinationDetectionContext=_hallucinationDetectionContext;
-@property(nonatomic) _Bool hasCatalogContext; // @synthesize hasCatalogContext=_hasCatalogContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasHallucinationDetectionContext; // @synthesize hasHallucinationDetectionContext=_hasHallucinationDetectionContext;
-@property(nonatomic) _Bool hasInferenceContext; // @synthesize hasInferenceContext=_hasInferenceContext;
-@property(nonatomic) _Bool hasOverrideContext; // @synthesize hasOverrideContext=_hasOverrideContext;
-@property(nonatomic) _Bool hasRGCacheManagerCallContext; // @synthesize hasRGCacheManagerCallContext=_hasRGCacheManagerCallContext;
-@property(nonatomic) _Bool hasRGGMSCallContext; // @synthesize hasRGGMSCallContext=_hasRGGMSCallContext;
-@property(nonatomic) _Bool hasRequestContext; // @synthesize hasRequestContext=_hasRequestContext;
-@property(nonatomic) _Bool hasRequestEndedTier1; // @synthesize hasRequestEndedTier1=_hasRequestEndedTier1;
-@property(nonatomic) _Bool hasValidationContext; // @synthesize hasValidationContext=_hasValidationContext;
-@property(retain, nonatomic) RGSiriSchemaRGInferenceContext *inferenceContext; // @synthesize inferenceContext=_inferenceContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RGSiriSchemaRGOverrideContext *overrideContext; // @synthesize overrideContext=_overrideContext;
-@property(retain, nonatomic) RGSiriSchemaRGRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(retain, nonatomic) RGSiriSchemaRGRequestEndedTier1 *requestEndedTier1; // @synthesize requestEndedTier1=_requestEndedTier1;
-@property(retain, nonatomic) RGSiriSchemaRGValidationContext *validationContext; // @synthesize validationContext=_validationContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

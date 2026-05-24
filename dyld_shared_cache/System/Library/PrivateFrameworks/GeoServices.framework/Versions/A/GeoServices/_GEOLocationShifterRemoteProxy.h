@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSNumber, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _GEOLocationShifterRemoteProxy
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSNumber *_shiftingEnabled;
-    NSNumber *_shiftingFxnVersion;
-    NSCache *_shiftFunctionCache;
 }
 
 - (_Bool);
@@ -23,28 +20,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)sharedApplication;
 - (_Bool);
 - (_Bool);
 - (void)ead_plateTypeIndexes"b1"read_frLicensePlateStructure"b1"read_fromChar"b1"read_toChar"b1"wrote_anyField"b1};
 - (void)";
-- (void)PlacesCount: /* Error: Ran out of types for this method. */;
+- (void)setHasLibraryFavoritesGuideSavedPlacesCount: /* Error: Ran out of types for this method. */;
 - (id)isDrivable;
-- (void)x:(id)arg1;
+- (void)addPaymentMethodIndex:(id)arg1;
 - (void)ed an unintended state:CPPTYPE_MESSAGE /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSCache *memoryCache;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) Class superclass;
 
 @end
 

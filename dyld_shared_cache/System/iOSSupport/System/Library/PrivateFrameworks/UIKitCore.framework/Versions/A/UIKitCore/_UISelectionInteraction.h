@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITapGestureRecognizer, UIView, _UIFocusSelectObserverGestureRecognizer;
-@protocol _UISelectionInteractionDelegate;
+@class UIView;
 
 @interface _UISelectionInteraction
 {
@@ -14,12 +13,6 @@
         unsigned int delegateImplementsDidCancelHinting:1;
         unsigned int delegateImplementsShouldBegin:1;
     } _flags;
-    _Bool _enabled;
-    _Bool _simulatePressesCallbacksForLegacyBehavior;
-    UITapGestureRecognizer *_selectGestureRecognizer;
-    _UIFocusSelectObserverGestureRecognizer *_selectHighlightRecognizer;
-    id <_UISelectionInteractionDelegate> _delegate;
-    UIView *_view;
 }
 
 - (_Bool);
@@ -29,35 +22,22 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)atteryPower;
+- (id)r.m;
 - (id);
 - (void);
 - (_Bool);
 - (void)!PEù±bð1Â0@ù
 × ;
-- (_Bool)decelerationFactor:(id)arg1 decelerationLnFactor:(id)arg2 velocity: /* Error: Ran out of types for this method. */;
-- (_Bool)Duration;
+- (_Bool)_getStandardDecelerationOffset:(id)arg1 forTimeInterval:(id)arg2 min:max:decelerationFactor:decelerationLnFactor:velocity: /* Error: Ran out of types for this method. */;
+- (_Bool)_customNavigationTransitionDuration;
 - (id)pha;
 - (void)%{public}@;
 - (void)ÿ|vþÿÔÇîÿ;
-- (id)ack;
+- (id)CHHapticUsageCategoryUIFeedback;
 - (void)Âþ5£13hÂþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UISelectionInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHinting) _Bool hinting;
-@property(readonly, nonatomic) UITapGestureRecognizer *selectGestureRecognizer; // @synthesize selectGestureRecognizer=_selectGestureRecognizer;
-@property(readonly, nonatomic) _UIFocusSelectObserverGestureRecognizer *selectHighlightRecognizer; // @synthesize selectHighlightRecognizer=_selectHighlightRecognizer;
-@property(nonatomic) _Bool simulatePressesCallbacksForLegacyBehavior; // @synthesize simulatePressesCallbacksForLegacyBehavior=_simulatePressesCallbacksForLegacyBehavior;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

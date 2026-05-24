@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGURLDissector;
+@class NSString;
 
 @interface SGURLPlugin
 {
     CDUnknownBlockType _entityStoreGetter;
-    SGURLDissector *_urlDissector;
 }
 
 - (id);
+- (id)9p;
+- (void)_Conditions;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)der;
+- (id);
+- (id)copyWedgeRectWithTransform:(id)arg1 andAspectRatio:(id)arg2;
 - (id);
 - (_Bool);
 - (id);
@@ -26,18 +25,11 @@
 - (id);
 - (id);
 - (void)ng",C,N,V_authorPhotoPath;
-- (id)TextMessageBirthdayCongratsModel;
+- (id)SGTextMessageBirthdayCongratsModel;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly) Class superclass;
 
 @end
 

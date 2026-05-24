@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMCContextProvider.h>
 
-@class HAPPairingIdentity, HMDBulletinBoard, NSArray, NSNotificationCenter, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleAccessoryPairingControllerDataSource : HMCContextProvider
@@ -24,17 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)OåÿX(;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDBulletinBoard *bulletinBoard;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HAPPairingIdentity *hh1ControllerIdentity;
 @property(readonly, nonatomic) NSArray *inProgressPairingAccessories;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface CKCDPErrorUserInfoValue
 {
     double _doubleValue;
-    long long _int64Value;
-    NSData *_bytesValue;
-    NSString *_stringValue;
-    int _value;
-    _Bool _boolValue;
-    CDStruct_13ce34bd _has;
 }
 
 - (id);
@@ -28,44 +20,33 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)b;
+- (id);
+- (void);
+- (void);
+- (void)ATLHCIEventTypeStart;
+- (void);
+- (unsigned long long)CreateOriginatingSharedRingBuffer;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)andler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
-- (_Bool);
-- (double);
+- (_Bool)24@32;
+- (double)_authenticatedCount;
 - (void);
 - (void);
 - (id);
 - (int);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool):%i /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)Prepare Parent PCS;
 - (void)ÜÐÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(retain, nonatomic) NSData *bytesValue; // @synthesize bytesValue=_bytesValue;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(nonatomic) _Bool hasBoolValue;
-@property(readonly, nonatomic) _Bool hasBytesValue;
 @property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasInt64Value;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasValue;
-@property(nonatomic) long long int64Value; // @synthesize int64Value=_int64Value;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) int value; // @synthesize value=_value;
 
 @end
 

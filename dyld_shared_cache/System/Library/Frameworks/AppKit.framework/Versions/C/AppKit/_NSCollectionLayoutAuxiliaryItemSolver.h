@@ -4,42 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSIndexSet, NSSet, _NSCollectionLayoutAuxiliaryOffsets, _NSRTree;
 @protocol _NSCollectionLayoutAuxiliaryHosting;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutAuxiliaryItemSolver
 {
     long long _memoizedSupplementaryKind;
-    NSArray *_memoizedAuxiliaryItems;
-    NSSet *_elementKinds;
-    _Bool _hasEstimatedSizes;
-    NSIndexSet *_pinnedSupplementaryIndexes;
-    _NSCollectionLayoutAuxiliaryOffsets *_supplementariesThatCanAffectContentSize;
-    id <_NSCollectionLayoutAuxiliaryHosting> _auxiliaryHost;
-    NSArray *_frames;
-    NSDictionary *_enrolledSupplementaryFramesDict;
-    NSDictionary *_supplementaryFramesKeyedByKindIndex;
-    _NSRTree *_supplementaryItemGeometricIndexer;
-    struct CGSize _contentSize;
-    struct CGPoint _hostContentOffset;
-    struct NSDirectionalEdgeInsets _hostContentSizeInsets;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)%s,%u) failed:(id)arg1 %s;
+- (void)mH5IrpyGkVtmgdqs68KHRg;
 - (id);
 - (id);
-- (void);
+- (void)ion was canceled;
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
-- (struct CGRect);
-- (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize)ionConfiguration"16@0:(struct CGSize)arg1 8;
+- (struct CGRect)_removeSWCACreatorAttribute;
+- (id)s;
+- (struct CGSize);
+- (void)2d_;
 - (id);
 - (void);
 - (struct NSDirectionalEdgeInsets);
@@ -47,19 +33,19 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)Receiver.framework/SpotlightReceiver;
 - (void);
 - (_Bool);
+- (id);
 - (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)ct: /* Error: Ran out of types for this method. */;
-- (void)tWithText:clickedIndex:selectionRanges:shouldUpdateSelection: /* Error: Ran out of types for this method. */;
-- (id)ScrollView;
-- (_Bool)ildren: /* Error: Ran out of types for this method. */;
-- (id)orageClient;
+- (void)setAutomaticFocusRingWindowRect: /* Error: Ran out of types for this method. */;
+- (void)initWithText:clickedIndex:selectionRanges:shouldUpdateSelection: /* Error: Ran out of types for this method. */;
+- (id)associatedScrollView;
+- (_Bool)_recursivelyDeleteRowEntryAndAllChildren: /* Error: Ran out of types for this method. */;
+- (id)NSPersistentUIRemoteStorageClient;
 - (id)NSSearchFieldAppearanceBasedMetrics;
 - (id)¨|z;
 - (void);
@@ -67,7 +53,7 @@ __attribute__((visibility("hidden")))
 - (id)hould not be NULL at this point;
 - (void)ed with %ld rows;
 - (struct CGPoint)or image: /* Error: Ran out of types for this method. */;
-- (void)ContextDictationDidStartNotification;
+- (void)_NSTextInputContextDictationDidStartNotification;
 - (id)pKit/NSLiquidMorph.swift;
 - (long long)hX;
 - (id);
@@ -76,21 +62,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <_NSCollectionLayoutAuxiliaryHosting> auxiliaryHost; // @synthesize auxiliaryHost=_auxiliaryHost;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly, nonatomic) _Bool contentSizeDiffersFromHostContentSize;
-@property(readonly, nonatomic) NSSet *elementKinds;
-@property(retain, nonatomic) NSDictionary *enrolledSupplementaryFramesDict; // @synthesize enrolledSupplementaryFramesDict=_enrolledSupplementaryFramesDict;
-@property(retain, nonatomic) NSArray *frames; // @synthesize frames=_frames;
-@property(nonatomic) _Bool hasEstimatedSizes; // @synthesize hasEstimatedSizes=_hasEstimatedSizes;
-@property(readonly, nonatomic) struct CGPoint hostContentOffset; // @synthesize hostContentOffset=_hostContentOffset;
-@property(nonatomic) struct NSDirectionalEdgeInsets hostContentSizeInsets; // @synthesize hostContentSizeInsets=_hostContentSizeInsets;
-@property(readonly, nonatomic) NSArray *memoizedSupplementaryItems;
-@property(readonly, nonatomic) long long memoizedSupplementaryKind;
-@property(retain, nonatomic) NSIndexSet *pinnedSupplementaryIndexes; // @synthesize pinnedSupplementaryIndexes=_pinnedSupplementaryIndexes;
-@property(retain, nonatomic) _NSCollectionLayoutAuxiliaryOffsets *supplementariesThatCanAffectContentSize; // @synthesize supplementariesThatCanAffectContentSize=_supplementariesThatCanAffectContentSize;
-@property(readonly, nonatomic) NSArray *supplementaryFrames;
-@property(retain, nonatomic) NSDictionary *supplementaryFramesKeyedByKindIndex; // @synthesize supplementaryFramesKeyedByKindIndex=_supplementaryFramesKeyedByKindIndex;
-@property(retain, nonatomic) _NSRTree *supplementaryItemGeometricIndexer; // @synthesize supplementaryItemGeometricIndexer=_supplementaryItemGeometricIndexer;
 
 @end
 

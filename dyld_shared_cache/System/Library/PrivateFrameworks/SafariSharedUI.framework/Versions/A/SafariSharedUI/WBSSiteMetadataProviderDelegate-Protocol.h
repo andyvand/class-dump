@@ -5,5 +5,9 @@
 //
 
 @protocol WBSSiteMetadataProviderDelegate
+- (void);
+- (void)qa;
+- (void)	;
+- (void)#;
 @end
 

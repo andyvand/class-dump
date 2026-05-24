@@ -5,5 +5,6 @@
 //
 
 @protocol ITLibMutableIdentifierSet
+- (void)initWithUTI:(void (^)(id <ITMutableLocalLibraryIdentifiers>))arg1 originalSize:fileSize: /* Error: Ran out of types for this method. */;
 @end
 

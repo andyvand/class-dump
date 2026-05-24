@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CNContactStoreContactsFetchResultSharedAvatarDecorator
 {
     _Bool _unifyContactsFromMainStore;
-    NSArray *_value;
-    NSArray *_decoratedValue;
-    NSArray *_keysToFetch;
 }
 
 + (_Bool);
@@ -37,10 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)ntHistoryToken";
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *decoratedValue; // @synthesize decoratedValue=_decoratedValue;
 @property(retain, nonatomic) NSArray *keysToFetch; // @synthesize keysToFetch=_keysToFetch;
-@property(nonatomic) _Bool unifyContactsFromMainStore; // @synthesize unifyContactsFromMainStore=_unifyContactsFromMainStore;
-@property(retain, nonatomic) NSArray *value; // @synthesize value=_value;
 
 @end
 

@@ -9,30 +9,24 @@
 @interface AWDCoreRoutineMagicalMomentsRecommendedAppsHistogramInstance
 {
     NSString *_bundleId;
-    int _confidence;
-    int _rank;
-    struct {
-        unsigned int confidence:1;
-        unsigned int rank:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)@qAO;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (int);
 - (void);
 - (void);
@@ -41,12 +35,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) int confidence; // @synthesize confidence=_confidence;
 @property(readonly, nonatomic) _Bool hasBundleId;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasRank;
-@property(nonatomic) int rank; // @synthesize rank=_rank;
 
 @end
 

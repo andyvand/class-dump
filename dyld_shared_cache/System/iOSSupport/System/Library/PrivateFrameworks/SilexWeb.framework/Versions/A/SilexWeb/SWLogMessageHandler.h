@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SWLogger;
 
 @interface SWLogMessageHandler
@@ -15,17 +14,10 @@
 - (void);
 - (id);
 - (void);
-- (id)idePolicyForNavigationResponse:decisionHandler: /* Error: Ran out of types for this method. */;
+- (id)webView:decidePolicyForNavigationResponse:decisionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,56 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDWiFiUIConfigureEvent
 {
     unsigned long long _timestamp;
-    unsigned int _previousType;
-    NSString *_process;
-    unsigned int _type;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int previousType:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)@9X;
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (unsigned long long)?;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)(;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasPreviousType;
-@property(readonly, nonatomic) _Bool hasProcess;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned int previousType; // @synthesize previousType=_previousType;
-@property(retain, nonatomic) NSString *process; // @synthesize process=_process;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

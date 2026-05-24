@@ -5,5 +5,6 @@
 //
 
 @protocol MTLTextureViewPool
+- (struct MTLResourceID);
 @end
 

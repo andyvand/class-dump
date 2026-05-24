@@ -7,7 +7,6 @@
 @interface SafariCore.WBSKnownWebBrowserManager
 {
     id knownWebBrowsers;
-    id knownExtensionStorefronts;
 }
 
 @end

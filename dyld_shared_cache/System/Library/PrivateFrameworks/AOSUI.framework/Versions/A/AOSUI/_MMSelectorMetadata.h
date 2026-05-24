@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MMSelectorMetadata
 {
     NSString *__name;
-    NSNumber *__legacyEnabled;
 }
 
 - (void);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *_legacyEnabled; // @synthesize _legacyEnabled=__legacyEnabled;
 @property(retain, nonatomic) NSString *_name; // @synthesize _name=__name;
 
 @end

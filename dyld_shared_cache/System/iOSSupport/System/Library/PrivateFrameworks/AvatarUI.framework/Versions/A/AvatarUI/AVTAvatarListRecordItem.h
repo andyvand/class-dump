@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
 @protocol AVTAvatarRecord;
 
 @interface AVTAvatarListRecordItem
 {
     id <AVTAvatarRecord> _avatar;
-    UIImage *_cachedImage;
 }
 
 - (void);
@@ -25,14 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarRecord> avatar; // @synthesize avatar=_avatar;
-@property(nonatomic) __weak UIImage *cachedImage; // @synthesize cachedImage=_cachedImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

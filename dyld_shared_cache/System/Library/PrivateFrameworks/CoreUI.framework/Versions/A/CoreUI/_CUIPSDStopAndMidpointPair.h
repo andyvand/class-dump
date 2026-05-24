@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _CUIPSDStopAndMidpointPair
 {
     id stop;
-    double midpoint;
 }
 
 - (double);

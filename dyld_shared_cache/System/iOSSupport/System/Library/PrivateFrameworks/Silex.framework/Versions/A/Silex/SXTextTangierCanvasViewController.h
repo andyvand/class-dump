@@ -7,7 +7,6 @@
 @interface SXTextTangierCanvasViewController
 {
     _Bool _selectionEnabled;
-    _Bool _selectAllEnabled;
 }
 
 - (void);
@@ -16,7 +15,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)systemThinMaterialDark;
 - (void);
 - (long long);
 - (_Bool);
@@ -26,7 +25,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool selectAllEnabled; // @synthesize selectAllEnabled=_selectAllEnabled;
 @property(nonatomic) _Bool selectionEnabled; // @synthesize selectionEnabled=_selectionEnabled;
 
 @end

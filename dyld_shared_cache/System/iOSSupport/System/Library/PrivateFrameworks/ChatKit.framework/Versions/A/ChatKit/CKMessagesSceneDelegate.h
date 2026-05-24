@@ -6,59 +6,53 @@
 
 #import <ChatKit/CKSceneDelegate.h>
 
-@class CKMessagesController, CKRegistrationViewController, CKSceneDelegateState, NSSet;
-
 @interface CKMessagesSceneDelegate : CKSceneDelegate
 {
     _Bool _shouldShowRegistrationOverride;
-    _Bool _suspended;
-    _Bool _locked;
-    _Bool _handlingLaunchTask;
-    _Bool _willPresentRegistrationViewController;
-    CKMessagesController *_messagesController;
-    CKSceneDelegateState *_storedState;
-    CKRegistrationViewController *_madridRegistrationController;
 }
 
+- (void)removeUsageOfHashtag:(id)arg1;
+- (_Bool)removeTextAttachmentsForAttributedString:translateICTTFont: /* Error: Ran out of types for this method. */;
+- (id)ic_animateFromArrangedObjects:fromArrangedObjectsItemsPerSection:toArrangedObjects:toArrangedObjectsItemsPerSection:duration:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)dateByAddingUnit:value:toDate:options: /* Error: Ran out of types for this method. */;
+- (id)completeTaskIfNecessary;
+- (void)cleanupArchiveId:(_Bool)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)allActiveAccountsInContext:(_Bool)arg1;
+- (void)_isDroppingChecklistItem;
+- (void)TB,N,V_usesTemporaryFile;
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (void)a;
+- (id)ng currentDrawing %@;
+- (id)o lose access to your locked notes, even if biometrics are enabled.
+
+If you have forgotten your notes password, click Learn More for next steps.;
+- (void)is nil;
+- (void)o view the attachment.;
+- (void)0@"CKShareParticipant"8;
+- (void)lities showReauthenticateTouchIDSheetInWindow:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)ler-object-ids-serial-queue;
+- (void)"8{_NSRange=QQ}16^B32;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Oy>te
+;
 - (_Bool);
 - (void);
 - (void);
@@ -71,7 +65,7 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)Score;
 - (id);
 - (_Bool);
 - (id);
@@ -79,22 +73,14 @@
 × ;
 - (void)!´Gùñ1Â0@ù
 × ;
-- (void)indow;
+- (void)CKSendAnimationWindow;
 - (void)ize:(id)arg1 %@, expectedSize:%@, diff:%f sig-diff:%f - gradientViewBounds:%@ â gradientReferenceViewBounds:%@ /* Error: Ran out of types for this method. */;
 - (void)ð;
 - (void)¼;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *alertSuppressionContexts;
-@property(nonatomic) _Bool handlingLaunchTask; // @synthesize handlingLaunchTask=_handlingLaunchTask;
-@property(nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
-@property(retain, nonatomic) CKRegistrationViewController *madridRegistrationController; // @synthesize madridRegistrationController=_madridRegistrationController;
-@property(readonly, nonatomic) CKMessagesController *messagesController; // @synthesize messagesController=_messagesController;
-@property(nonatomic) _Bool shouldShowRegistrationOverride; // @synthesize shouldShowRegistrationOverride=_shouldShowRegistrationOverride;
-@property(retain, nonatomic) CKSceneDelegateState *storedState; // @synthesize storedState=_storedState;
 @property(nonatomic, getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
-@property(nonatomic) _Bool willPresentRegistrationViewController; // @synthesize willPresentRegistrationViewController=_willPresentRegistrationViewController;
 
 @end
 

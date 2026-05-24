@@ -13,8 +13,8 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)INPlayAudioMessageIntentResponseCodeInProgress;
+- (void)provideGroupConversationOptionsCollectionForJoinCall:(shared_ptr_d15cec97)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (shared_ptr_d15cec97);
 - (void);

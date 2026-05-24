@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface IDSLocalPairingAddPairedDeviceInfo
 {
     NSUUID *_cbuuid;
-    NSData *_BTOutOfBandKey;
-    NSData *_bluetoothMACAddress;
-    long long _pairingProtocolVersion;
-    long long _pairingType;
-    _Bool _supportsIPsecWithSPPLink;
-    _Bool _shouldPairDirectlyOverIPsec;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (long long);
-- (id);
+- (id)6;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (void),Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *BTOutOfBandKey; // @synthesize BTOutOfBandKey=_BTOutOfBandKey;
-@property(retain, nonatomic) NSData *bluetoothMACAddress; // @synthesize bluetoothMACAddress=_bluetoothMACAddress;
 @property(readonly, nonatomic) NSUUID *cbuuid; // @synthesize cbuuid=_cbuuid;
-@property(readonly, nonatomic) long long pairingProtocolVersion; // @synthesize pairingProtocolVersion=_pairingProtocolVersion;
-@property(nonatomic) long long pairingType; // @synthesize pairingType=_pairingType;
-@property(nonatomic) _Bool shouldPairDirectlyOverIPsec; // @synthesize shouldPairDirectlyOverIPsec=_shouldPairDirectlyOverIPsec;
-@property(nonatomic) _Bool supportsIPsecWithSPPLink; // @synthesize supportsIPsecWithSPPLink=_supportsIPsecWithSPPLink;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PFAPreprocessorExecutionMetrics;
+@class PFAPreprocessorExecutionMetrics;
 
 @interface PFAPreprocessorExecutionEnded : SISchemaInstrumentationMessage
 {
     PFAPreprocessorExecutionMetrics *_preprocessorExecutionMetrics;
-    _Bool _hasPreprocessorExecutionMetrics;
 }
 
 - (void);
@@ -24,17 +23,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ID %@ to new preview generation state;
 - (id);
 - (id)!@ù±Ý1Â0@ù
 × ;
-- (id)tErrorsReported;
+- (id)_hasMobileAssetErrorsReported;
 - (id)V_hasAppLevelDisambiguationHistory;
-- (void);
+- (void)speechProfileId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPreprocessorExecutionMetrics; // @synthesize hasPreprocessorExecutionMetrics=_hasPreprocessorExecutionMetrics;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PFAPreprocessorExecutionMetrics *preprocessorExecutionMetrics; // @synthesize preprocessorExecutionMetrics=_preprocessorExecutionMetrics;
 
 @end

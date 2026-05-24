@@ -11,7 +11,7 @@
     NSNumber *allowed;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);

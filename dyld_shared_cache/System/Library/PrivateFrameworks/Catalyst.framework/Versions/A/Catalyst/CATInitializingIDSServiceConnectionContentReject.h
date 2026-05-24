@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface CATInitializingIDSServiceConnectionContentReject
 {
     NSUUID *_connectionIdentifier;
-    NSError *_error;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)hasCountUnigramPrefixMatchInAuthors;
 - (id);
 - (void);
 - (long long);
 - (void);
-- (id)alidateWithError: /* Error: Ran out of types for this method. */;
+- (id)_invalidateWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *connectionIdentifier; // @synthesize connectionIdentifier=_connectionIdentifier;
-@property(readonly, nonatomic) long long contentType;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

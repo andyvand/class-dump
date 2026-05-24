@@ -6,7 +6,7 @@
 
 #import <CoreUI/CUINamedLookup.h>
 
-@class NSArray, NSDictionary, NSMutableArray;
+@class NSArray, NSMutableArray;
 
 @interface CUINamedIconLayerStack : CUINamedLookup
 {
@@ -17,8 +17,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *layers; // @synthesize layers=_layers;
-@property(readonly, nonatomic) NSDictionary *renderingProperties;
-@property(readonly) struct CGSize size;
 
 @end
 

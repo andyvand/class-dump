@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface BMTopicEntity
 {
     NSString *_topicId;
-    NSString *_displayName;
-    NSDictionary *_attributes;
 }
 
 - (id);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) NSString *topicId; // @synthesize topicId=_topicId;
 
 @end

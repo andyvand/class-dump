@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIContentViewImageViewConfiguration, _UIContentViewLabelConfiguration;
-
 @interface _UIValueCellContentViewConfiguration
 {
     struct {
@@ -14,14 +12,6 @@
         unsigned int hasCustomizedImageToTextPadding:1;
         unsigned int hasCustomizedTextToValuePadding:1;
     } _configurationFlags;
-    unsigned long long _axesPreservingSuperviewLayoutMargins;
-    double _imageToTextPadding;
-    long long _defaultStyle;
-    _UIContentViewImageViewConfiguration *_imageView;
-    _UIContentViewLabelConfiguration *_textLabel;
-    _UIContentViewLabelConfiguration *_valueLabel;
-    struct UIOffset _textToValuePadding;
-    struct NSDirectionalEdgeInsets _directionalLayoutMargins;
 }
 
 + (id);
@@ -30,34 +20,34 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool)gCoordinator;
++ (id)buildRequiredOnlyWithAcceptEAPTypes: /* Error: Ran out of types for this method. */;
++ (_Bool)UIKeyboardTrackingCoordinator;
 + (id);
 - (id);
 - (struct UIOffset);
 - (void);
 - (id);
 - (void);
-- (struct UIOffset);
-- (void);
+- (struct UIOffset)releasePendingMessageWithGUID:pendingReplicatedMessageContext:chat:completion: /* Error: Ran out of types for this method. */;
+- (void)handler:(struct UIOffset)arg1 incomingEnrollMeRequest:toIdentifier:fromIdentifier:fromToken:messageGUID:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets)P;
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)volumeListenerBlock;
+- (_Bool)MPModelPropertyPlaybackPositionHasBeenPlayed;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void)th"d"height"d}};
 - (_Bool)}{CGSize=dd}}16{_NSRange=QQ}48;
-- (void)ion;
-- (double)veInput: /* Error: Ran out of types for this method. */;
-- (id)ateForWindow:(struct _NSZone *)arg1;
-- (id)ectability;
+- (void)toolTipInteraction;
+- (double)shouldForwardInsertSpaceAfterAcceptingPredictiveInput: /* Error: Ran out of types for this method. */;
+- (id)_cancelPendingTouchesIfAppropriateForWindow:(struct _NSZone *)arg1;
+- (id)_avoidIntersectability;
 - (unsigned long long)te: /* Error: Ran out of types for this method. */;
 - (struct NSDirectionalEdgeInsets);
 - (void)ntCG;
@@ -67,30 +57,11 @@
 - (void);
 - (void)ff@ëQ¸ë¿áz®Gáþ?ö(\Âõ@ö(\Âõ;
 - (id)R0É23¬;
-- (long long);
+- (long long)_UIObjCBridgedNSIntegerTrait;
 - (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setAxesPreservingSuperviewLayoutMargins:) unsigned long long _axesPreservingSuperviewLayoutMargins; // @synthesize _axesPreservingSuperviewLayoutMargins;
-@property(nonatomic) long long _defaultStyle; // @synthesize _defaultStyle;
-@property(nonatomic, setter=_setDirectionalLayoutMargins:) struct NSDirectionalEdgeInsets _directionalLayoutMargins; // @synthesize _directionalLayoutMargins;
-@property(nonatomic, setter=_setImageToTextPadding:) double _imageToTextPadding; // @synthesize _imageToTextPadding;
-@property(readonly, nonatomic) _Bool _isSidebarStyle;
-@property(nonatomic, setter=_setTextToValuePadding:) struct UIOffset _textToValuePadding; // @synthesize _textToValuePadding;
-@property(nonatomic) unsigned long long axesPreservingSuperviewLayoutMargins;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double imageToTextPadding;
-@property(readonly, nonatomic) _UIContentViewImageViewConfiguration *imageView; // @synthesize imageView=_imageView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UIContentViewLabelConfiguration *textLabel; // @synthesize textLabel=_textLabel;
-@property(nonatomic) struct UIOffset textToValuePadding;
-@property(readonly, nonatomic) _UIContentViewLabelConfiguration *valueLabel; // @synthesize valueLabel=_valueLabel;
 
 @end
 

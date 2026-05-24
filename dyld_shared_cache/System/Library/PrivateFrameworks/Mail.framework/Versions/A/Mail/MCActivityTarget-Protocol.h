@@ -8,6 +8,9 @@
 
 @protocol MCActivityTarget
 
+@optional
+- (NSString *)A;
+
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayName;
 // Preceding property had unknown attributes: ?

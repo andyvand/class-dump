@@ -5,5 +5,8 @@
 //
 
 @protocol IDSXPCFirewall
+- (void);
+- (void)+;
+- (void)24d32@40;
 @end
 

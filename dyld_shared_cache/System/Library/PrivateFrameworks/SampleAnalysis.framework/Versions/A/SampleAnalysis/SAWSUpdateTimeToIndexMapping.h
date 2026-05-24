@@ -8,25 +8,20 @@ __attribute__((visibility("hidden")))
 @interface SAWSUpdateTimeToIndexMapping
 {
     unsigned long long _waitStartSampleIndex;
-    unsigned long long _numWaitIndices;
-    unsigned long long _deferStartSampleIndex;
-    unsigned long long _numDeferIndices;
-    unsigned long long _workStartSampleIndex;
-    unsigned long long _numWorkIndices;
 }
 
-+ (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
++ (id)X;
+- (unsigned long long)lines 1 & 2 satellite number mismatch;
+- (unsigned long long)%u:%c /* Error: Ran out of types for this method. */;
+- (unsigned long long)LE line 2 character 1:%c /* Error: Ran out of types for this method. */;
+- (unsigned long long)%c;
+- (void)ORDER;
+- (void)SphericalHarmonicsIonosphereParameters;
+- (void)< this->receiver_radius_km_;
+- (void)in_shell_height_km < 0 or (Re_km + this->thin_shell_height_km) < this->receiver_radius_km_;
+- (unsigned long long)tCoordinates, conversion of current position from ECEF to LLA failed;
+- (unsigned long long)ComputeIonospherePiercePointCoordinates, conversion of current position from ECEF to LLA failed;
+- (id)o LLA failed;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -35,18 +30,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long deferEndSampleIndex;
-@property(readonly) unsigned long long deferStartSampleIndex; // @synthesize deferStartSampleIndex=_deferStartSampleIndex;
-@property(readonly) unsigned long long frameEndSampleIndex;
 @property(readonly) unsigned long long frameStartSampleIndex;
-@property(readonly) unsigned long long numDeferIndices; // @synthesize numDeferIndices=_numDeferIndices;
-@property(readonly) unsigned long long numFrameIndices;
-@property(readonly) unsigned long long numWaitIndices; // @synthesize numWaitIndices=_numWaitIndices;
-@property(readonly) unsigned long long numWorkIndices; // @synthesize numWorkIndices=_numWorkIndices;
-@property(readonly) unsigned long long waitEndSampleIndex;
-@property(readonly) unsigned long long waitStartSampleIndex; // @synthesize waitStartSampleIndex=_waitStartSampleIndex;
-@property(readonly) unsigned long long workEndSampleIndex;
-@property(readonly) unsigned long long workStartSampleIndex; // @synthesize workStartSampleIndex=_workStartSampleIndex;
 
 @end
 

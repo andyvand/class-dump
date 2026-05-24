@@ -6,19 +6,15 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSArray, NSString;
-
 @interface MPModelMediaClip : MPModelObject
 {
 }
 
 - (id);
-- (id);
+- (id)set_9: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType previewArtworkCatalogBlock; // @dynamic previewArtworkCatalogBlock;
-@property(copy, nonatomic) NSArray *staticAssets; // @dynamic staticAssets;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end
 

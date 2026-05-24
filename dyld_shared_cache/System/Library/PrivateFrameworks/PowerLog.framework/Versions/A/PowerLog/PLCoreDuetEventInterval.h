@@ -9,20 +9,18 @@
 @interface PLCoreDuetEventInterval
 {
     NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-- (_Bool);
+- (_Bool)contentKeySpecifiersEligibleForPreloading;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)sions/A/APFS;
 - (void);
 
 // Remaining properties
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

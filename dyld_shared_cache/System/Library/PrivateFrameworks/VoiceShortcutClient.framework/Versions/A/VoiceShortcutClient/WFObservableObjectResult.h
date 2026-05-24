@@ -11,7 +11,6 @@
 @interface WFObservableObjectResult : WFObservableResult
 {
     WFDatabaseObjectDescriptor *_value;
-    WFDatabaseObjectDescriptor *_descriptor;
 }
 
 + (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WFDatabaseObjectDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) WFDatabaseObjectDescriptor *value; // @synthesize value=_value;
 
 @end
 

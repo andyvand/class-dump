@@ -9,21 +9,17 @@
 @interface PXPlacesMapLayoutChange
 {
     id <PXPlacesMapLayoutItem> _sourceLayoutItem;
-    id <PXPlacesMapLayoutItem> _targetLayoutItem;
-    long long _type;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)itle;
 - (void)Ø>Ê;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXPlacesMapLayoutItem> sourceLayoutItem; // @synthesize sourceLayoutItem=_sourceLayoutItem;
-@property(readonly, nonatomic) id <PXPlacesMapLayoutItem> targetLayoutItem; // @synthesize targetLayoutItem=_targetLayoutItem;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

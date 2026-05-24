@@ -5,5 +5,13 @@
 //
 
 @protocol _EXHostViewControllerDelegate
+
+@optional
+- (void)imestamp=%@ + quickEnergyDiff=%f since this timestamp.;
+- (void)osed of cumulativePowerlogEnergy=%f up to timestamp=%@ + quickEnergyDiff=%f since this timestamp.;
+- (void)rkEnergydiff=%f;
+- (void)hot=%@;
+- (void)ntSnapshot=%@;
+- (void)pshots=%@;
 @end
 

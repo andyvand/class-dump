@@ -4,48 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FKTextFeature
 {
     CDUnion_a5814135 _backingIndex;
-    struct FKSession *_session;
-    int _scale;
-    float _confidence;
-    NSArray *_candidates;
-    long long _featureID;
-    NSArray *_corners;
-    long long _type;
-    NSString *_text;
-    NSArray *_subFeatures;
-    struct CGRect _boundingBox;
 }
 
-+ (id);
++ (id)a;
 + (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_windowStateWithDictionaryRepresentation: /* Error: Ran out of types for this method. */;
 - (void);
-- (long long);
+- (long long)G;
 - (struct CGRect);
 - (id);
-- (long long);
+- (long long)8h!;
 - (id);
 - (float);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(readonly) NSArray *candidates; // @synthesize candidates=_candidates;
-@property float confidence; // @synthesize confidence=_confidence;
-@property(readonly, retain, nonatomic) NSArray *corners; // @synthesize corners=_corners;
-@property(readonly, nonatomic) long long featureID; // @synthesize featureID=_featureID;
 @property(retain, nonatomic) NSArray *subFeatures; // @synthesize subFeatures=_subFeatures;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (ACAccountPCSAdditions)
-- (id);
+- (id)(;
 - (_Bool);
 - (id);
 - (id);

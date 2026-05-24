@@ -6,22 +6,16 @@
 
 #import <Slideshows/MREffect.h>
 
-@class DDXMLDocument, MRCAMLLayer, NSMutableArray;
+@class DDXMLDocument;
 
 @interface MREffectCAML : MREffect
 {
     DDXMLDocument *mDocument;
-    double mWidth;
-    double mHeight;
-    MRCAMLLayer *mRootLayer;
-    _Bool mIsLoaded;
-    NSMutableArray *mImageProviders;
-    NSMutableArray *mTextLayers;
 }
 
+- (void)newsEdgeAppConfig;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)isPersonalizedAdsEnabled;
 - (_Bool);
 - (id);
 - (id);

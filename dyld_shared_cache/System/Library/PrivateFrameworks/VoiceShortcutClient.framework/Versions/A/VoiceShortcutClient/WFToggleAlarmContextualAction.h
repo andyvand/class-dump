@@ -11,34 +11,30 @@
 @interface WFToggleAlarmContextualAction : WFContextualAction
 {
     NSString *_alarmIdentifier;
-    NSString *_alarmName;
-    unsigned long long _operation;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)P;
 - (_Bool);
-- (id);
+- (id)|;
 - (id);
 - (id);
 - (_Bool);
+- (id)|;
+- (id)4;
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id),N,V_modifyZonesOperationCount;
 - (void)
 × ;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *alarmIdentifier; // @synthesize alarmIdentifier=_alarmIdentifier;
-@property(readonly, copy, nonatomic) NSString *alarmName; // @synthesize alarmName=_alarmName;
-@property(readonly, nonatomic) unsigned long long operation; // @synthesize operation=_operation;
 
 @end
 

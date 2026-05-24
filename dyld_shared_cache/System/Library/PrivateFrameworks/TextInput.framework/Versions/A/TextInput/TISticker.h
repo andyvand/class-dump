@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface TISticker
 {
     NSUUID *_identifier;
-    NSArray *_representations;
-    long long _effectType;
-    NSString *_name;
-    NSString *_externalURI;
-    NSString *_accessibilityLabel;
-    NSString *_searchText;
-    NSString *_accessibilityName;
-    NSData *_metadata;
-    NSDictionary *_attributionInfo;
 }
 
-+ (_Bool);
++ (_Bool)?;
 - (id);
 - (id);
+- (id)�(;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id)_libraryForEnumerationFromBundle:withName: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -46,16 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(readonly) NSString *accessibilityName; // @synthesize accessibilityName=_accessibilityName;
-@property(readonly) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(readonly) long long effectType; // @synthesize effectType=_effectType;
-@property(readonly) NSString *externalURI; // @synthesize externalURI=_externalURI;
 @property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSData *metadata; // @synthesize metadata=_metadata;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSArray *representations; // @synthesize representations=_representations;
-@property(readonly) NSString *searchText; // @synthesize searchText=_searchText;
 
 @end
 

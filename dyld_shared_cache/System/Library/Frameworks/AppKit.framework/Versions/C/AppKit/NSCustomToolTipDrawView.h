@@ -6,20 +6,18 @@
 
 #import <AppKit/NSView.h>
 
-@class NSAttributedString, NSToolTip;
+@class NSToolTip;
 
 __attribute__((visibility("hidden")))
 @interface NSCustomToolTipDrawView : NSView
 {
     NSToolTip *_toolTipObject;
-    NSAttributedString *_attributedString;
-    struct CGSize _margin;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (_Bool);
 - (id)¸m¡;
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 
 // Remaining properties
-@property(copy) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property struct CGSize margin; // @synthesize margin=_margin;
 @property(retain) NSToolTip *toolTipObject; // @synthesize toolTipObject=_toolTipObject;
 
 @end

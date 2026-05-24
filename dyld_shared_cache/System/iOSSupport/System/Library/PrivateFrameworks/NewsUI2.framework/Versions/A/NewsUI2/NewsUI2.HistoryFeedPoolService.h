@@ -7,7 +7,6 @@
 @interface NewsUI2.HistoryFeedPoolService
 {
     id context;
-    id headlineService;
 }
 
 @end

@@ -7,9 +7,10 @@
 @class INSpeakableString;
 
 @protocol INActivateCarSignalIntentExport
+- (id)`
+;
 
 // Remaining properties
 @property(copy) INSpeakableString *carName;
-@property unsigned long long signals;
 @end
 

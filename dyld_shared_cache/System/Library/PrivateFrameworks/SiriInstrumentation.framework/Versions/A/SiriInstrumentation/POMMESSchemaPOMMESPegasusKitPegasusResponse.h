@@ -6,21 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESPegasusKitNetworkTimingData;
-
 @interface POMMESSchemaPOMMESPegasusKitPegasusResponse : SISchemaInstrumentationMessage
 {
     unsigned int _rawResponseSizeInKB;
-    unsigned int _compressedResponseSizeInKB;
-    POMMESSchemaPOMMESPegasusKitNetworkTimingData *_timingData;
-    struct {
-        unsigned int rawResponseSizeInKB:1;
-        unsigned int compressedResponseSizeInKB:1;
-    } _has;
-    _Bool _hasTimingData;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,25 +27,19 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)%lld;
 - (id);
 - (id);
-- (id)peechContext;
-- (id)ssedMediaSizeInKBs;
+- (id)hasSpeechContext;
+- (id)_processedMediaSizeInKBs;
 - (id)TriggerSummary;
-- (void)istance;
+- (void)levenshteinEditDistance;
 
 // Remaining properties
-@property(nonatomic) unsigned int compressedResponseSizeInKB; // @synthesize compressedResponseSizeInKB=_compressedResponseSizeInKB;
-@property(nonatomic) _Bool hasCompressedResponseSizeInKB;
-@property(nonatomic) _Bool hasRawResponseSizeInKB;
-@property(nonatomic) _Bool hasTimingData; // @synthesize hasTimingData=_hasTimingData;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int rawResponseSizeInKB; // @synthesize rawResponseSizeInKB=_rawResponseSizeInKB;
-@property(retain, nonatomic) POMMESSchemaPOMMESPegasusKitNetworkTimingData *timingData; // @synthesize timingData=_timingData;
 
 @end
 

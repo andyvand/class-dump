@@ -7,17 +7,14 @@
 @class _INPBValueMetadata;
 
 @protocol _INPBDistanceValue
+- (void);
+- (_Bool);
 - (_Bool)SNumber",C,V_disconnectedReason;
 - (void)on component. (component = %{private}@);
 - (_INPBValueMetadata *)caledHeight = %@);
 - (int)erOverrides;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMagnitude;
-@property(nonatomic) _Bool hasUnit;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) double magnitude;
-@property(nonatomic) int unit;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

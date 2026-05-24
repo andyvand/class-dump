@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAccount, ICNote, NSWindow;
+@class ICAccount, ICNote;
 
 @interface ICNoteLockManager
 {
     ICAccount *_account;
-    ICNote *_note;
-    ICNote *_updatedNote;
-    NSWindow *_window;
 }
 
 - (id);
@@ -27,13 +24,10 @@
 - (id);
 - (id);
 - (void);
-- (void)andler: /* Error: Ran out of types for this method. */;
+- (void)_webView:queryPermission:forOrigin:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) ICAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) ICNote *note; // @synthesize note=_note;
 @property(retain, nonatomic) ICNote *updatedNote; // @synthesize updatedNote=_updatedNote;
-@property(nonatomic) __weak NSWindow *window; // @synthesize window=_window;
 
 @end
 

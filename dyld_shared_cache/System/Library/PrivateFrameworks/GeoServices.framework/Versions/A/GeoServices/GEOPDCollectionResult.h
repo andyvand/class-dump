@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCollectionResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDMapsIdentifier *_collectionId;
-    NSMutableArray *_components;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _status;
-    struct {
-        unsigned int has_status:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_collectionId:1;
-        unsigned int read_components:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)firstPassChannelSelectionScores;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)_lastSearchString"b1"read_lastUserTypedSearchString"b1"wrote_anyField"b1};
-- (id)dbackInfo;
+- (id)_clientFeedbackInfo;
 - (id)dd;
 - (void)úÿÿÿöÿÿÿðÿÿÿÿÿÿÿùÿÿÿ÷ÿÿÿûÿÿÿñÿÿÿõÿÿÿüÿÿÿøÿÿÿôÿÿÿÏÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿËÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿØÿÿÿÿÿÿÿÆÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿÜÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿÑÿÿÿÿÿÿÿÎÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿÏÿÿÿÿÿÿÿÑÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿåÿÿÿùÿÿÿøÿÿÿöÿÿÿàÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÜÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿïÿÿÿêÿÿÿóÿÿÿôÿÿÿèÿÿÿìÿÿÿæÿÿÿçÿÿÿäÿÿÿðÿÿÿöÿÿÿåÿÿÿíÿÿÿëÿÿÿñÿÿÿéÿÿÿðÿÿÿ÷ÿÿÿíÿÿÿöÿÿÿõÿÿÿøÿÿÿñÿÿÿïÿÿÿóÿÿÿòÿÿÿôÿÿÿîÿÿÿïÿÿÿíÿÿÿîÿÿÿñÿÿÿÎÿÿÿÿÿÿÿØÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÑÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿËÿÿÿÿÿÿÿÇÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÃÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÂÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿÆÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿñÿÿÿûÿÿÿïÿÿÿôÿÿÿöÿÿÿðÿÿÿ÷ÿÿÿóÿÿÿúÿÿÿòÿÿÿùÿÿÿõÿÿÿðÿÿÿòÿÿÿñÿÿÿîÿÿÿóÿÿÿïÿÿÿíÿÿÿôÿÿÿëÿÿÿêÿÿÿíÿÿÿðÿÿÿìÿÿÿîÿÿÿïÿÿÿñÿÿÿÓÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÑÿÿÿÿÿÿÿÎÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿÃÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿÂÿÿÿÿÿÿÿËÿÿÿÿÿÿÿÆÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÏÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÅÿÿÿÿÿÿÿØÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿàÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿãÿÿÿäÿÿÿåÿÿÿæÿÿÿâÿÿÿçÿÿÿäÿÿÿèÿÿÿéÿÿÿãÿÿÿæÿÿÿåÿÿÿèÿÿÿéÿÿÿæÿÿÿçÿÿÿëÿÿÿêÿÿÿíÿÿÿìÿÿÿòÿÿÿõÿÿÿíÿÿÿìÿÿÿïÿÿÿöÿÿÿóÿÿÿôÿÿÿ÷ÿÿÿñÿÿÿøÿÿÿîÿÿÿ\Sx; A»rL-A±â¯$ÔÞ`@cr@:TøØç?%ò½BÕ^¿ /* Error: Ran out of types for this method. */;
 

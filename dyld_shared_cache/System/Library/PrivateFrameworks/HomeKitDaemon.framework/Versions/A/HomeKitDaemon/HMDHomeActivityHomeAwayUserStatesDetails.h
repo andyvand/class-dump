@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSDictionary, NSString;
+@class HMDHome, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityHomeAwayUserStatesDetails
 {
     HMDHome *_home;
-    NSDictionary *_userActivityStateMap;
 }
 
 - (id);
@@ -27,19 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)!BùÑ1Â0@ù
 × ;
-- (void)xternalRepresentationKey;
+- (void)HMDIssuerPublicKeyExternalRepresentationKey;
 
 // Remaining properties
-@property(readonly, getter=isAnyUserAtHome) _Bool anyUserAtHome;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, getter=isNoUserAtHome) _Bool noUserAtHome;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSDictionary *userActivityStateMap; // @synthesize userActivityStateMap=_userActivityStateMap;
 
 @end

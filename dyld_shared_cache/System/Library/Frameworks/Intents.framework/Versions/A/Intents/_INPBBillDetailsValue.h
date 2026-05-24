@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBBillPayeeValue, _INPBCurrencyAmountValue, _INPBDateTime, _INPBValueMetadata;
+@class _INPBCurrencyAmountValue;
 
 @interface _INPBBillDetailsValue
 {
     CDStruct_c8e9def3 _has;
-    int _billType;
-    int _status;
-    _INPBCurrencyAmountValue *_amountDue;
-    _INPBBillPayeeValue *_billPayee;
-    _INPBDateTime *_dueDate;
-    _INPBCurrencyAmountValue *_lateFee;
-    _INPBCurrencyAmountValue *_minimumDue;
-    _INPBDateTime *_paymentDate;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -29,8 +20,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)h;
+- (_Bool)An;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -45,52 +36,28 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Process>"16@0:(id)arg1 8;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)wifiNetworkSharingAuthorizationLevelWithRequestParams:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)rvice (%@);
+- (id)(;
 - (int);
 - (id);
-- (id);
+- (id);
 - (_Bool)ÜDùQ¾(Ð1Â0@ù
 × ;
 - (void)SString",R,C,V_bundleVersion;
-- (_Bool)eCodeFailure;
-- (int)nt;
-- (void)ODINE;
+- (_Bool)INReportIncidentIntentResponseCodeFailure;
+- (int)VCVoiceShortcutClient;
+- (void)IODINE;
 - (void);
 - (id)@³;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCurrencyAmountValue *amountDue; // @synthesize amountDue=_amountDue;
-@property(retain, nonatomic) _INPBBillPayeeValue *billPayee; // @synthesize billPayee=_billPayee;
-@property(nonatomic) int billType; // @synthesize billType=_billType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDateTime *dueDate; // @synthesize dueDate=_dueDate;
-@property(readonly, nonatomic) _Bool hasAmountDue;
-@property(readonly, nonatomic) _Bool hasBillPayee;
-@property(nonatomic) _Bool hasBillType;
-@property(readonly, nonatomic) _Bool hasDueDate;
-@property(readonly, nonatomic) _Bool hasLateFee;
-@property(readonly, nonatomic) _Bool hasMinimumDue;
-@property(readonly, nonatomic) _Bool hasPaymentDate;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *lateFee; // @synthesize lateFee=_lateFee;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *minimumDue; // @synthesize minimumDue=_minimumDue;
-@property(retain, nonatomic) _INPBDateTime *paymentDate; // @synthesize paymentDate=_paymentDate;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

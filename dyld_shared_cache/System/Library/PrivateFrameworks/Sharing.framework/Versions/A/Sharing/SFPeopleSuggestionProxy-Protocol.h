@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFProxyText;
 @protocol SFPeopleSuggestion;
 
 @protocol SFPeopleSuggestionProxy
+- (unsigned int);
 
 // Remaining properties
-@property(readonly) unsigned int avatarImageSlotID;
-@property(readonly, nonatomic) SFProxyText *displayName;
 @property(readonly, nonatomic) id <SFPeopleSuggestion> peopleSuggestion;
-@property(readonly, nonatomic) SFProxyText *subtitle;
-@property(readonly) unsigned int transportImageSlotID;
 @end
 

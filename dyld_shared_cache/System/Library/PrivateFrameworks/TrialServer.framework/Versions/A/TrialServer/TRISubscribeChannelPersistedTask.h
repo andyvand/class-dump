@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPBTimestamp;
+@class NSString;
 
 @interface TRISubscribeChannelPersistedTask
 {
 }
 
-+ (id);
++ (id)hot",R,N,V_endSnapshot;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *experimentId; // @dynamic experimentId;
-@property(nonatomic) _Bool hasExperimentId; // @dynamic hasExperimentId;
-@property(nonatomic) _Bool hasStartTimestamp; // @dynamic hasStartTimestamp;
-@property(retain, nonatomic) TRIPBTimestamp *startTimestamp; // @dynamic startTimestamp;
 
 @end
 

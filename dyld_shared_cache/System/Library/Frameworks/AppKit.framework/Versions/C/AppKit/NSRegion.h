@@ -10,36 +10,36 @@ __attribute__((visibility("hidden")))
     id _region;
 }
 
-+ (id);
-+ (id);
++ (id)|;
++ (id)rNWStream.mm;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ETWORK_SERVICE_TYPE"b1"_flag_SET_EXPLICIT_ALLOWS_CELLULAR"b1"_flag_SET_EXPLICIT_PREVENTS_IDLE_SYSTEM_SLEEP"b1"_flag_SET_EXPLICIT_SHOULD_PIPELINE"b1"_flag_SET_EXPLICIT_CACHE_POLICY"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (void)set_prohibitEncryptedDNS:(struct CGRect)arg1;
+- (void)set_performsEVCertCheck: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)`;
+- (id)7;
+- (id);
+- (void)celed;
+- (_Bool)SSLTrustCompletion;
+- (_Bool)nectConfiguration;
 - (void);
-- (_Bool);
-- (_Bool);
+- (id):(id)arg1 yD;
+- (void)2yc;
+- (void):(struct CGAffineTransform)arg1 wU;
+- (void)V/;
+- (_Bool)6Rr;
+- (void)2R2;
+- (_Bool)2Qo;
 - (void);
-- (id);
+- (struct CGSRegionObject *)6Ip;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (struct CGSRegionObject *);
-- (void);
-- (void);
+- (void)offered_ticket;
 - (id);
 - (long long);
 - (id);
@@ -48,19 +48,14 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)!HDù±á3ð1Â0@ù
 × ;
-- (id)llScreen:(void *)arg1;
+- (id)_bestScreenByGeometryOfFrame:(void *)arg1 avoidingFullScreen: /* Error: Ran out of types for this method. */;
 - (id)tionDelegate>",W,N,V_repDelegate;
 - (_Bool)wýÿ wýÿ8wýÿxýÿÈxýÿàxýÿ,yýÿL{ýÿÔ{ýÿø{ýÿ|ýÿÀ|ýÿ4}ýÿX}ýÿ|}ýÿÈ}ýÿPýÿÈýÿèýÿ(ýÿýÿäýÿ0ýÿôýÿ ýÿlýÿýÿÈýÿýÿ8ýÿdýÿýÿ¤ýÿÐýÿüýÿDýÿ¬ýÿìýÿ4ýÿLýÿdýÿ|ýÿýÿ´ýÿÜýÿýÿ8ýÿxýÿýÿýÿ$ýÿPýÿ|ýÿýÿ¬ýÿÄýÿýÿ0ýÿhýÿ ýÿÄýÿäýÿ`ýÿÜýÿXýÿÔýÿHýÿýÿØýÿ;
-- (void);
+- (void)D7A;
 - (void)fÀE;
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGSRegionObject *CGRegion;
-@property(nonatomic, readonly) struct CGRect bounds;
 @property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool isEmpty;
-@property(nonatomic, readonly) _Bool isInfinite;
-@property(nonatomic, readonly) _Bool isRectangular;
 
 @end
 

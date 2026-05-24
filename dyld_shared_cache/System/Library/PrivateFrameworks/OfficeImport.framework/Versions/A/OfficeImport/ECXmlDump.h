@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (struct _xmlNode *);
-+ (struct _xmlNode *);
-- (void);
++ (struct _xmlNode *);
++ (struct _xmlNode *)@9;
+- (void);
 - (_Bool);
 
 @end

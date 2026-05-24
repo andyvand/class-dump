@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSProgressIndicator, NSStepper, NSString, NSTextField, NSWindow, SFAutoLockTextValue;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface SFKeychainSettingsPanel_ivars
 {
     NSTextField *_panelMessage;
-    SFAutoLockTextValue *_autoLockValue;
-    NSStepper *_autoLockStepper;
-    NSButton *_autoLockCtrl;
-    NSButton *_lockOnSleepCtrl;
-    NSButton *_cancelButton;
-    NSButton *_saveButton;
-    NSWindow *_panel;
-    NSButton *_dotMacButton;
-    NSButton *_syncDotMacCtrl;
-    NSTextField *_syncStateMessage;
-    NSProgressIndicator *_progressCtrl;
-    NSString *_keychainNameStr;
-    NSWindow *_parentWindowForSheet;
-    SEL _clientDidEndSelector;
-    id _clientDelegate;
-    void *_clientContextInfo;
-    unsigned long long _lockIntervalVal;
-    struct __SecKeychain *_keychainRef;
-    _Bool _lockOnSleepVal;
-    _Bool _syncVal;
-    struct SecKeychainSettings _settings;
-    _Bool _runAsSheet;
 }
 
 - (void);

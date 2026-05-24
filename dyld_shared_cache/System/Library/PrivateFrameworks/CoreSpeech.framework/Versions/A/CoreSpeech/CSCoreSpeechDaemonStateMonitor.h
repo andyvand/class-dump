@@ -9,7 +9,7 @@
     int _notifyToken;
 }
 
-+ (id)issDelayTimeoutInSamples;
++ (id)_nearMissDelayTimeoutInSamples;
 - (void);
 - (id);
 - (void);

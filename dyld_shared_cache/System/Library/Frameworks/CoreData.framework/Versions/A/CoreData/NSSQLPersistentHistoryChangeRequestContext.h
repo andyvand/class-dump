@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSSQLPersistentHistoryChangeRequestContext : NSSQLStoreRequestContext
 {
     NSFetchRequest *_fetchRequest;
-    _Bool _shouldUseBatches;
 }
 
 - (id);
@@ -22,14 +21,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSPersistentHistoryChangeRequest *request;
-@property(readonly, nonatomic) _Bool shouldUseBatches; // @synthesize shouldUseBatches=_shouldUseBatches;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTask;
-
 @protocol INSetTaskAttributeIntentResponseExport
-- (long long)oaderForServiceIdentifier: /* Error: Ran out of types for this method. */;
+- (long long)imageLoaderForServiceIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INTask *modifiedTask;
-@property unsigned long long warnings;
 @end
 

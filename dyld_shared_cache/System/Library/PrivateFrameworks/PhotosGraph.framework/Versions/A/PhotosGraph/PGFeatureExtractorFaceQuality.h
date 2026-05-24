@@ -13,8 +13,8 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id)ctor;
+- (id)replaceCharactersInRange:withAttributedString: /* Error: Ran out of types for this method. */;
+- (id)PGSocialGroupFeatureExtractor;
 
 @end
 

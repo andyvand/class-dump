@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (DGGeometryExtensions)
-- (void);
+- (void)@;
 @end
 

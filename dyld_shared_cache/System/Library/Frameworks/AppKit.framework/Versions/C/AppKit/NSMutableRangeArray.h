@@ -8,24 +8,22 @@ __attribute__((visibility("hidden")))
 @interface NSMutableRangeArray
 {
     unsigned long long _count;
-    unsigned long long _capacity;
-    struct _NSRange *_ranges;
 }
 
-+ (id);
++ (id)AVAssetDownloadSessionMediaSelectionPrefersMultichannelKey;
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)- null trie, no prefix/leaf count or no byte count;
+- (void)from nehelper;
+- (id)-host-name;
 - (struct _NSRange);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (struct _NSRange);
-- (void);
+- (void)shouldDoWorkConsideringTlsState;
 - (void);
 - (void);
 - (void);
@@ -41,13 +39,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)ñä3ð1Â0@ù
 × ;
-- (id)geFlipped:(struct _NSZone *)arg1;
-- (void)pView:(id)arg1 bottomView:oldView: /* Error: Ran out of types for this method. */;
+- (id)_rectOfMinValueImageFlipped:(struct _NSZone *)arg1;
+- (void)_doSetAccessoryView:(id)arg1 topView:bottomView:oldView: /* Error: Ran out of types for this method. */;
 - (void)x;
 - (void);
-- (struct _NSRange)CopyOperation;
+- (struct _NSRange)BRShareCopyOperation;
 - (unsigned long long)201C%@\U201D could not be duplicated because it was not found.;
-- (id)barItem;
+- (id)NSFontPanelShadowOpacityToolbarItem;
 - (void)anged by another application.;
 - (_Bool)NSString *__strong, NSArray *__strong);
 - (id)è·G;

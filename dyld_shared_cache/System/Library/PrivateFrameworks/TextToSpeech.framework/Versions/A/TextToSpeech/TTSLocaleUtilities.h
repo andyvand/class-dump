@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface TTSLocaleUtilities
 {
     NSDictionary *_generalLanguageCodeData;
-    NSDictionary *_voiceIdSampleStringData;
-    NSDictionary *_canonicalLanguageCodeVoiceNamesData;
-    NSMutableDictionary *_fallbackSampleStringCache;
 }
 
 + (id)Ø;
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -31,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *canonicalLanguageCodeVoiceNamesData; // @synthesize canonicalLanguageCodeVoiceNamesData=_canonicalLanguageCodeVoiceNamesData;
-@property(retain, nonatomic) NSMutableDictionary *fallbackSampleStringCache; // @synthesize fallbackSampleStringCache=_fallbackSampleStringCache;
 @property(retain, nonatomic) NSDictionary *generalLanguageCodeData; // @synthesize generalLanguageCodeData=_generalLanguageCodeData;
-@property(retain, nonatomic) NSDictionary *voiceIdSampleStringData; // @synthesize voiceIdSampleStringData=_voiceIdSampleStringData;
 
 @end
 

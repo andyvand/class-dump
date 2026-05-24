@@ -10,29 +10,23 @@ __attribute__((visibility("hidden")))
 @interface UIStoryboardPresentationSegueTemplate : UIStoryboardSegueTemplate
 {
     _Bool _useDefaultModalPresentationStyle;
-    _Bool _useDefaultModalTransitionStyle;
-    long long _modalPresentationStyle;
-    long long _modalTransitionStyle;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)broadcasterForAccountListeners;
+- (_Bool)broadcasterForAVConferenceListenersSupportingService: /* Error: Ran out of types for this method. */;
+- (void)@"IDSService",R,N,V_service;
+- (void)SService",&,N,V_smsWatchService;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void)roundImage;
-- (void)awsTopShadowInGroupedSections:(long long)arg1;
+- (id)sesBuffer:(id)arg1 desiredKeypointsBuffer:indexBuffer: /* Error: Ran out of types for this method. */;
+- (void)hasCustomBackgroundImage;
+- (void)_setDrawsTopShadowInGroupedSections:(long long)arg1;
 - (long long)(¸;
 - (long long)@;
 
 // Remaining properties
-@property(nonatomic) long long modalPresentationStyle; // @synthesize modalPresentationStyle=_modalPresentationStyle;
-@property(nonatomic) long long modalTransitionStyle; // @synthesize modalTransitionStyle=_modalTransitionStyle;
 @property(nonatomic) _Bool useDefaultModalPresentationStyle; // @synthesize useDefaultModalPresentationStyle=_useDefaultModalPresentationStyle;
-@property(nonatomic) _Bool useDefaultModalTransitionStyle; // @synthesize useDefaultModalTransitionStyle=_useDefaultModalTransitionStyle;
 
 @end
 

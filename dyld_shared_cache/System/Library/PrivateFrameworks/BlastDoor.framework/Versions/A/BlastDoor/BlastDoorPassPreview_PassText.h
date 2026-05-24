@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorColor, NSString;
+@class NSString;
 
 @interface BlastDoorPassPreview_PassText
 {
@@ -14,13 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)%s %s:opening URL from OpenLink command:%@ /* Error: Ran out of types for this method. */;
 - (void)À;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorColor *color;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *text;
 
 @end
 

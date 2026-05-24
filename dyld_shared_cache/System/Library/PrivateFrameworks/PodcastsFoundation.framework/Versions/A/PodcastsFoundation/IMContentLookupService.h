@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSLookup, NSArray, NSString;
+@class AMSLookup, NSString;
 
 @interface IMContentLookupService
 {
     NSString *_profile;
-    NSString *_artworkType;
-    NSArray *_ids;
-    long long _version;
-    AMSLookup *_amsLookup;
 }
 
 - (void);
@@ -25,18 +21,14 @@
 - (id);
 - (void);
 - (long long);
-- (id);
-- (void);
+- (id)KqQ;
+- (void);
 - (id);
 - (void)Aÿÿ¡ûÿ¬üÿJ¡ûÿ;
 - (void)SayyXlG;
 
 // Remaining properties
 @property(retain, nonatomic) AMSLookup *amsLookup; // @synthesize amsLookup=_amsLookup;
-@property(retain, nonatomic) NSString *artworkType; // @synthesize artworkType=_artworkType;
-@property(retain, nonatomic) NSArray *ids; // @synthesize ids=_ids;
-@property(retain, nonatomic) NSString *profile; // @synthesize profile=_profile;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

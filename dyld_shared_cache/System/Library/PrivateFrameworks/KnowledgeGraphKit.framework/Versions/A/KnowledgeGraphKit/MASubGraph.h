@@ -4,64 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAGraph, NSMutableDictionary;
+@class MAGraph;
 
 @interface MASubGraph
 {
     MAGraph *_graph;
-    NSMutableDictionary *_nodesByIdentifier;
-    NSMutableDictionary *_nodesByLabel;
-    NSMutableDictionary *_nodesByName;
-    NSMutableDictionary *_edgesByIdentifier;
-    NSMutableDictionary *_edgesByLabel;
-    NSMutableDictionary *_edgesByName;
-    NSMutableDictionary *_nodesByNameGroupByNodes;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
+- (unsigned long long)J;
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (id);
 - (void);
 - (void);

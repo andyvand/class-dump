@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface SwiftUI.SwiftUITableRowView
 {
     id defaultBackgroundColor;
-    id separatorConfiguration;
-    id _defaultSeparatorConfiguration;
-    id _defaultSeparatorInsets;
-    id defaultUnemphasizedSelectionColor;
-    id _isLastRow;
-    id onHoverAction;
-    id activeTrackingArea;
-    id rowSpanHost;
-    id isHovered;
 }
 
 - (id);
@@ -26,26 +15,22 @@
 - (void);
 - (long long);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)4;
 - (void);
-- (_Bool)tifier;
+- (_Bool)identifier;
 - (void)À¢;G;
-- (void)ssView;
+- (void)AppKitProgressView;
 - (_Bool)4-<ÿEé\7f½þ;
 - (id);
 - (void)>6å¼_79;
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGRect _separatorRect;
-@property(nonatomic, readonly) _Bool _wantsDefaultBackgroundDrawingBehavior;
-@property(nonatomic) _Bool emphasized;
 @property(nonatomic) _Bool selected;
-@property(nonatomic, retain) NSColor *separatorColor;
 
 @end
 

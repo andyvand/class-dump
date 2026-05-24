@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, SearchUIDetailedRowModel;
-@protocol SearchUIFeedbackDelegate;
+@class NSView;
 
 @protocol SearchUIDetailedRowComponent
 
 // Remaining properties
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate;
-@property(retain, nonatomic) SearchUIDetailedRowModel *rowModel;
 @property(retain, nonatomic) NSView *view;
 @end
 

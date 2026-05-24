@@ -6,56 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESCacheInvalidationEnded, POMMESSchemaPOMMESCacheInvalidationFailed, POMMESSchemaPOMMESCacheInvalidationStarted;
+@class POMMESSchemaPOMMESCacheInvalidationStarted;
 
 @interface POMMESSchemaPOMMESCacheInvalidationContext : SISchemaInstrumentationMessage
 {
     POMMESSchemaPOMMESCacheInvalidationStarted *_startedOrChanged;
-    POMMESSchemaPOMMESCacheInvalidationEnded *_ended;
-    POMMESSchemaPOMMESCacheInvalidationFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);;
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)stateChangeDate;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)hat <--> Message was created successfully.;
 - (id);
 - (id);
-- (id)umIngestedNeuralContextualBiasingEmbeddings;
+- (id)_numIngestedNeuralContextualBiasingEmbeddings;
 - (id)SrstClientEvent;
-- (void)OFFERS;
+- (void)FLOWAPPLEMUSICVOICEPREVIEWOFFERNOTSHOWNREASON_TOO_MANY_OFFERS;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheInvalidationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheInvalidationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) POMMESSchemaPOMMESCacheInvalidationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

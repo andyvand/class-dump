@@ -6,6 +6,10 @@
 
 @protocol HIDAnalyticsEventFieldProtocol
 
+@optional
+- (void)_experimentHistoryRecordsForEnvironment:(unsigned long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (void);
+
 // Remaining properties
 @property __weak id value;
 @end

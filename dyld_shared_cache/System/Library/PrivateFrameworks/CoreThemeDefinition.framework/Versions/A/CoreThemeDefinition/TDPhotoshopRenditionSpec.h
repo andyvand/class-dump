@@ -29,15 +29,13 @@
 - (void);
 - (void);
 - (void);
-- (int);
-- (void);
+- (int);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)Ԕ;
 
 // Remaining properties
-@property(retain, nonatomic) TDImageColorHistogram *histogram; // @synthesize histogram=_histogram;
-@property(nonatomic) _Bool isTintable; // @dynamic isTintable;
 @property(retain, nonatomic) TDPhotoshopLayer *photoshopLayer; // @dynamic photoshopLayer;
 
 @end

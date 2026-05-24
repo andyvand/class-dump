@@ -5,5 +5,6 @@
 //
 
 @protocol SYDDaemonProtocol
+- (void);
 @end
 

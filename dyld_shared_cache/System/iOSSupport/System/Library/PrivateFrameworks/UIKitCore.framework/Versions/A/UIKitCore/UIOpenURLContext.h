@@ -13,20 +13,18 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id)
 × ;
 - (id);
-- (_Bool)on;
+- (_Bool)loadingConfiguration;
 - (id)d scene definition/restoration state for scene with identifier %@;
 - (void)ÖPÿ¸6ÊÐÛd;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, copy, nonatomic) NSDictionary *URLOptionsDictionary; // @dynamic URLOptionsDictionary;
-@property(readonly, nonatomic) UISceneOpenURLOptions *options; // @synthesize options=_options;
 
 @end
 

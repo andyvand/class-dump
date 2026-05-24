@@ -9,22 +9,18 @@
 @interface SearchUIAsyncSectionLoaderResponse
 {
     _Bool _animated;
-    _Bool _reconfigureExisting;
-    NSArray *_cardSection;
 }
 
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)handleRTTTranslationLocaleMessage:(id)arg1;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property _Bool animated; // @synthesize animated=_animated;
 @property(retain, nonatomic) NSArray *cardSection; // @synthesize cardSection=_cardSection;
-@property _Bool reconfigureExisting; // @synthesize reconfigureExisting=_reconfigureExisting;
 
 @end
 

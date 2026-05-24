@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface FolderSuggestionManager
 {
     id _readingListFolder;
-    double lastSelectedFolderValidityPeriod;
 }
 
 + (id)f5tGGÛ*f5GAZG
@@ -21,7 +18,6 @@ Hf5yAJGGALGÍf5GG;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *defaultSuggestions;
 @property(nonatomic, readonly) double lastSelectedFolderValidityPeriod; // @synthesize lastSelectedFolderValidityPeriod;
 
 @end

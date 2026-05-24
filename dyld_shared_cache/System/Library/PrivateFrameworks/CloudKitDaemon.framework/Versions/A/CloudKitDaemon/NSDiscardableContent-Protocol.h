@@ -5,6 +5,7 @@
 //
 
 @protocol NSDiscardableContent
-- (void)tions: /* Error: Ran out of types for this method. */;
+- (_Bool)F;
+- (void)_prepareAsset:record:recordKey:assetTransferOptions: /* Error: Ran out of types for this method. */;
 @end
 

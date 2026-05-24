@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBColor;
-
 @interface _SFPBButtonItemAppearance
 {
     _Bool _preferNoFallbackImage;
-    int _style;
-    int _role;
-    int _renderingMode;
-    _SFPBColor *_tintColor;
 }
 
 - (void);
@@ -25,31 +19,19 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id):(id)arg1 downloadPriority:wantsURLOnly:synchronous:delegate: /* Error: Ran out of types for this method. */;
+- (id)variants:%{public}@ for asset %@ /* Error: Ran out of types for this method. */;
+- (id)HSearchQueryAnnotation"8{_NSRange=QQ}16^B32;
 - (void);
 - (id);
 - (id);
 - (int);
-- (void)wRequestSize;
+- (void)rawRequestSize;
 - (void)Hvìvìxy4{ü{p|ô|;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool preferNoFallbackImage; // @synthesize preferNoFallbackImage=_preferNoFallbackImage;
-@property(nonatomic) int renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(nonatomic) int role; // @synthesize role=_role;
 @property(nonatomic) int style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

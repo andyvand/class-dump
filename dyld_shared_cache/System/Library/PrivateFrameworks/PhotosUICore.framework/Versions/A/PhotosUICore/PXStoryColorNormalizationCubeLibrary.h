@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMapTable, NSMutableIndexSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXStoryColorNormalizationCubeLibrary
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    NSMutableIndexSet *_lock_activeRequests;
-    NSCache *_lock_cubeByAssetNormalization;
-    NSMapTable *_lock_aliveCubesByAssetNormalization;
-    long long _cubeEdgeSize;
-    struct CGColorSpace *_colorspace;
 }
 
 + (id);
@@ -24,7 +18,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)clientSideEngagementBoostReduceVisibilityMultiplier;
 - (id);
 - (void)
 × ;

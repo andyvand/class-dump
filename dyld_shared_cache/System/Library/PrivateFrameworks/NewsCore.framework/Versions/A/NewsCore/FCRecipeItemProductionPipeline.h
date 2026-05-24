@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCRecipeList, FCRecipeListRecordSource, NSMutableArray;
 @protocol FCRecipeItemFactoryType;
 
 @interface FCRecipeItemProductionPipeline
 {
     id <FCRecipeItemFactoryType> _recipeItemFactory;
-    FCRecipeListRecordSource *_recipeListRecordSource;
-    CDUnknownBlockType _recipeItemHandler;
-    FCRecipeList *_recipeList;
-    NSMutableArray *_pendingRecipeRecords;
 }
 
 - (void);

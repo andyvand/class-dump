@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLEngineScope, CPLEngineTransientRepository, CPLRecordTargetMapping, NSString;
+@class CPLEngineTransientRepository;
 
 @interface CPLEngineTransientRepositoryBatchStorage
 {
     CPLEngineTransientRepository *_transientRepository;
-    CPLEngineScope *_scope;
-    CPLRecordTargetMapping *_targetMapping;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
@@ -26,7 +24,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)the other snapshot, resolve the id in the reconciliation table and
+    -- lookup the corresponding item in the local snapshot.
+    JOIN reconciliation_table AS rt ON other_snapshot.id = rt.;
 - (id);
 - (id);
 - (id);
@@ -35,15 +35,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CPLEngineScope *scope; // @synthesize scope=_scope;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CPLRecordTargetMapping *targetMapping; // @synthesize targetMapping=_targetMapping;
 @property(readonly, nonatomic) CPLEngineTransientRepository *transientRepository; // @synthesize transientRepository=_transientRepository;
 
 @end

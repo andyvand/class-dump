@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDecimalNumberValue, _INPBValueMetadata;
+@class NSString;
 
 @interface _INPBPriceRangeValue
 {
     struct _has;
-    NSString *_currencyCode;
-    _INPBDecimalNumberValue *_maximumPrice;
-    _INPBDecimalNumberValue *_minimumPrice;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -24,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -33,27 +29,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)LSlotValueTransformer;
+- (_Bool)INIntentURLSlotValueTransformer;
 - (void)ntentResponse valueForUndefinedKey:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCurrencyCode;
-@property(readonly, nonatomic) _Bool hasMaximumPrice;
-@property(readonly, nonatomic) _Bool hasMinimumPrice;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBDecimalNumberValue *maximumPrice; // @synthesize maximumPrice=_maximumPrice;
-@property(retain, nonatomic) _INPBDecimalNumberValue *minimumPrice; // @synthesize minimumPrice=_minimumPrice;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

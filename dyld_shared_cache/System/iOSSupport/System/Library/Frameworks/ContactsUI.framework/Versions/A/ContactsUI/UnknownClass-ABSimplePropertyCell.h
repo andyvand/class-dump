@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (ABSimplePropertyCell)
-- (Class);
+- (Class)63;
 - (id)¥!;
 @end
 

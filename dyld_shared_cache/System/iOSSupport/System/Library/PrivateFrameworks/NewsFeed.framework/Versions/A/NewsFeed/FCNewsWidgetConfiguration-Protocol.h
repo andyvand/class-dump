@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol FCNewsWidgetConfiguration
+- (NSString *);
 
 @optional
 - (_Bool);
@@ -16,77 +17,11 @@
 - (long long)í;(FþþÝ;<Fþþ;
 - (long long);
 - (long long);
-- (long long)ewButtonAction;
+- (long long)FeaturePromotionViewButtonAction;
 - (long long)P;
 - (long long)ñ	@,;;
 
 // Remaining properties
-@property(readonly, nonatomic) long long smallWidgetSystemHoneymoonDuration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long smallWidgetSystemReloadInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long smallWidgetSystemReloadIntervalHoneymoon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long smallWidgetSystemReloadJitterMax;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long smallWidgetSystemReloadJitterMaxHoneymoon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool userSegmentationInWidgetAllowed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool widgetAnalyticsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool widgetBackgroundInteractionEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSString *widgetConfigID;
-@property(readonly, nonatomic) _Bool widgetContentPrefetchEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool widgetFetchOfTodayFeedLiteConfigEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long widgetMinimumArticleExposureDurationToBePreseenInMilliseconds;
-@property(readonly, nonatomic) unsigned int widgetMinimumNumberOfTimesPreseenToBeSeen;
-@property(readonly, nonatomic) long long widgetSystemHoneymoonDuration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long widgetSystemReloadInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long widgetSystemReloadIntervalHoneymoon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long widgetSystemReloadJitterMax;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long widgetSystemReloadJitterMaxHoneymoon;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double widgetTelemetrySamplingRate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 + (id)pp bug. Use one or the other, not both.;
 + (id)dth;
-- (void);
+- (void)setMeshSamplerStates:lodMinClamps:lodMaxClamps:withRange: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)0@ù
 × ;

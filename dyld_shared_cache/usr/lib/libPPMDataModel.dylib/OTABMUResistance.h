@@ -8,38 +8,20 @@
 {
     float _downstreamCommonResistance;
     float _downstreamNorthResistance;
-    float _resistanceCellTabToGG;
-    float _resistanceGGToVcut;
-    float _resistancePMUToVcut;
-    float _resistanceVcutToPmax;
-    float _systemEquivalentResistance;
-    float _traceResistance25C;
-    float _traceResistanceTemperatureCoeff;
-    struct {
-        unsigned int downstreamCommonResistance:1;
-        unsigned int downstreamNorthResistance:1;
-        unsigned int resistanceCellTabToGG:1;
-        unsigned int resistanceGGToVcut:1;
-        unsigned int resistancePMUToVcut:1;
-        unsigned int resistanceVcutToPmax:1;
-        unsigned int systemEquivalentResistance:1;
-        unsigned int traceResistance25C:1;
-        unsigned int traceResistanceTemperatureCoeff:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (float);
-- (void);
+- (void)W_4k-DtasoCXqs57ewYWDhgDWoJE8/Library/Caches/com.apple.xbs/TemporaryDirectory.fNM65P/Sources/Marisa/lib/marisa/trie.cc:(float)arg1 193:MARISA_STATE_ERROR:trie.trie_.get() == NULL /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)BFMLS_VG4_M4ZZ_PSEUDO;
 - (float);
-- (void);
-- (void);
+- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (float);
@@ -47,17 +29,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (float);
+- (float)pto/pkcs7/pk7_lib.c;
 - (void);
-- (float);
+- (float)#;
 - (void);
 - (float);
 - (void);
 - (unsigned long long);
 - (float);
-- (float);
-- (void);
-- (_Bool);
+- (float),_(j;
+- (void)3qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-3.3/crypto/objects/o_names.c;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -72,27 +54,11 @@
 - (_Bool);
 - (void);
 - (float);
-- (_Bool);
+- (_Bool)o_service_t, uint32_t, void *);
 
 // Remaining properties
-@property(nonatomic) float downstreamCommonResistance; // @synthesize downstreamCommonResistance=_downstreamCommonResistance;
-@property(nonatomic) float downstreamNorthResistance; // @synthesize downstreamNorthResistance=_downstreamNorthResistance;
-@property(nonatomic) _Bool hasDownstreamCommonResistance;
-@property(nonatomic) _Bool hasDownstreamNorthResistance;
-@property(nonatomic) _Bool hasResistanceCellTabToGG;
-@property(nonatomic) _Bool hasResistanceGGToVcut;
-@property(nonatomic) _Bool hasResistancePMUToVcut;
-@property(nonatomic) _Bool hasResistanceVcutToPmax;
-@property(nonatomic) _Bool hasSystemEquivalentResistance;
 @property(nonatomic) _Bool hasTraceResistance25C;
-@property(nonatomic) _Bool hasTraceResistanceTemperatureCoeff;
-@property(nonatomic) float resistanceCellTabToGG; // @synthesize resistanceCellTabToGG=_resistanceCellTabToGG;
-@property(nonatomic) float resistanceGGToVcut; // @synthesize resistanceGGToVcut=_resistanceGGToVcut;
-@property(nonatomic) float resistancePMUToVcut; // @synthesize resistancePMUToVcut=_resistancePMUToVcut;
-@property(nonatomic) float resistanceVcutToPmax; // @synthesize resistanceVcutToPmax=_resistanceVcutToPmax;
-@property(nonatomic) float systemEquivalentResistance; // @synthesize systemEquivalentResistance=_systemEquivalentResistance;
 @property(nonatomic) float traceResistance25C; // @synthesize traceResistance25C=_traceResistance25C;
-@property(nonatomic) float traceResistanceTemperatureCoeff; // @synthesize traceResistanceTemperatureCoeff=_traceResistanceTemperatureCoeff;
 
 @end
 

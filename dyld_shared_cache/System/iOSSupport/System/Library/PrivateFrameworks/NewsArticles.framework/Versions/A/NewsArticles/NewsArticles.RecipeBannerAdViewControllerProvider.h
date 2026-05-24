@@ -7,13 +7,6 @@
 @interface NewsArticles.RecipeBannerAdViewControllerProvider
 {
     id appConfigManager;
-    id bannerAdFactory;
-    id bannerAdJournal;
-    id bannerAdViewManager;
-    id recipeDataManager;
-    id requestManager;
-    id paidAccessChecker;
-    id recipeTheme;
 }
 
 @end

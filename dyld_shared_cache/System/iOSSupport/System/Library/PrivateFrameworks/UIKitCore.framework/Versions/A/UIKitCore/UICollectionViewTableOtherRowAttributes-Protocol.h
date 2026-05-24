@@ -5,15 +5,12 @@
 //
 
 @protocol UICollectionViewTableOtherRowAttributes
+- (void);
 - (_Bool)"b1"hasSearchFieldContainerLayoutCustomizationDelegate"b1"floatingSearchIconViewHasBeenSetUp"b1"requiresSearchTextField"b1"showsClearButtonWhenEmpty"b1"isPinnedInNavigationBar"b1"isSearchingInNavigationBarOrIsStandalone"b1"isSettingUpSearchField"b1"cancelButtonIsUINavigationButton"b1"suppressFirstResponderOnTransitionToLayoutStateSearching"b1"enforcedMaximumContentSizeWhileLendingView"b1"showsLargeContentViewerBeforeLendingView"b1};
-- (_Bool);
-- (void)ContentOffsetForPoint;
+- (void)_referenceContentOffsetForPoint;
 - (long long)cted %@ characters based on %@ characters;
 
 // Remaining properties
 @property(nonatomic) long long accessoryType;
-@property(nonatomic) long long editingStyle;
-@property(nonatomic) _Bool shouldIndentWhileEditing;
-@property(nonatomic) _Bool showsReorderControl;
 @end
 

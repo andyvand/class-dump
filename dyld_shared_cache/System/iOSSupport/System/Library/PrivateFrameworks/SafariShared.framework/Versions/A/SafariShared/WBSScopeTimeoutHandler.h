@@ -9,7 +9,7 @@
     CDUnknownBlockType _handler;
 }
 
-- (id);
+- (id)_nextBatchOfMessageRecords;
 - (void);
 - (id);
 - (void)hared.WBSCache.%p;

@@ -6,19 +6,12 @@
 
 #import <SiriUI/SiriUISnippetViewController.h>
 
-@class CRKCardPresentation, CRKCardViewController, NSMutableDictionary, NSString, SACardSnippet, SiriUICardSnippetView;
-@protocol CRCard, CRKCardViewControllerDelegate;
+@class CRKCardViewController, SACardSnippet;
 
 __attribute__((visibility("hidden")))
 @interface SiriUICardSnippetViewController : SiriUISnippetViewController
 {
     SACardSnippet *_snippet;
-    id <CRCard> _baseCard;
-    CDUnknownBlockType _newlyLoadedCardCompletionHandler;
-    NSMutableDictionary *_referenceableCommandsByIdentifierMap;
-    NSMutableDictionary *_referenceableSnippetsByIdentifierMap;
-    CRKCardViewController *_cardViewController;
-    CRKCardPresentation *_cardPresenter;
 }
 
 - (void);
@@ -42,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -56,20 +49,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain) CRKCardPresentation *cardPresenter; // @synthesize cardPresenter=_cardPresenter;
 @property(retain) CRKCardViewController *cardViewController; // @synthesize cardViewController=_cardViewController;
-@property(readonly, nonatomic) id <CRKCardViewControllerDelegate> cardViewControllerDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<CRKCardViewControllerDelegate>",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain) SiriUICardSnippetView *view; // @dynamic view;
 
 @end
 

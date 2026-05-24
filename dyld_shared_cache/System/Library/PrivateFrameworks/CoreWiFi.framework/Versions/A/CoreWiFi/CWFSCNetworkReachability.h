@@ -11,15 +11,11 @@ __attribute__((visibility("hidden")))
 @interface CWFSCNetworkReachability
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    struct __SCNetworkReachability *_reachabilityRef;
-    _Bool _isMonitoringEvents;
-    CDUnknownBlockType _eventHandler;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)ppleaccount.localSecretCollection;
 - (id);
 - (void);
 - (void);

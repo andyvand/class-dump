@@ -11,7 +11,6 @@
 @interface PKPassTileValueForeignReference : PKPassTileValue
 {
     NSString *_content;
-    long long _foreignReferenceType;
 }
 
 + (_Bool)qî%ð1Â0@ù
@@ -24,14 +23,13 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)frameCounterPerInterface;
 - (void)0;
 - (id);
 - (void)itWithCoder:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(nonatomic) long long foreignReferenceType; // @synthesize foreignReferenceType=_foreignReferenceType;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol ConferenceCellDelegate
+- (_Bool);
 @end
 

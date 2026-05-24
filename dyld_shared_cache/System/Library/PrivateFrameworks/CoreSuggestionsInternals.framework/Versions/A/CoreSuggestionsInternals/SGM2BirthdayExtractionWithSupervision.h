@@ -7,19 +7,6 @@
 @interface SGM2BirthdayExtractionWithSupervision
 {
     unsigned int _modelVersion;
-    int _offset;
-    _Bool _dateIsCorrect;
-    _Bool _didRegexTrigger;
-    _Bool _didResponseKitTrigger;
-    _Bool _isFromCongratulation;
-    struct {
-        unsigned int modelVersion:1;
-        unsigned int offset:1;
-        unsigned int dateIsCorrect:1;
-        unsigned int didRegexTrigger:1;
-        unsigned int didResponseKitTrigger:1;
-        unsigned int isFromCongratulation:1;
-    } _has;
 }
 
 - (void);
@@ -32,21 +19,21 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)pn_hasInternationalDirectDialingPrefix;
+- (_Bool)nationalDirectDialingPrefixForISOCountryCode: /* Error: Ran out of types for this method. */;
+- (_Bool)ITUCountryCode;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (int);
+- (id)6@24@32q40@?48;
+- (_Bool)Info>"24;
+- (int)6;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)E;
 - (_Bool);
 - (void);
 - (id);
@@ -60,18 +47,7 @@
 - (int)dId);
 
 // Remaining properties
-@property(nonatomic) _Bool dateIsCorrect; // @synthesize dateIsCorrect=_dateIsCorrect;
-@property(nonatomic) _Bool didRegexTrigger; // @synthesize didRegexTrigger=_didRegexTrigger;
-@property(nonatomic) _Bool didResponseKitTrigger; // @synthesize didResponseKitTrigger=_didResponseKitTrigger;
 @property(nonatomic) _Bool hasDateIsCorrect;
-@property(nonatomic) _Bool hasDidRegexTrigger;
-@property(nonatomic) _Bool hasDidResponseKitTrigger;
-@property(nonatomic) _Bool hasIsFromCongratulation;
-@property(nonatomic) _Bool hasModelVersion;
-@property(nonatomic) _Bool hasOffset;
-@property(nonatomic) _Bool isFromCongratulation; // @synthesize isFromCongratulation=_isFromCongratulation;
-@property(nonatomic) unsigned int modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) int offset; // @synthesize offset=_offset;
 
 @end
 

@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface FigCaptureDisplayLayout
 {
     NSDate *_timestamp;
-    long long _displayType;
-    NSArray *_foregroundApps;
-    NSArray *_obscuredApps;
-    NSArray *_transitioningApps;
-    NSArray *_pipApps;
-    _Bool _onHomeScreen;
-    _Bool _onLockScreen;
-    _Bool _siriVisible;
-    _Bool _paymentServiceVisible;
-    _Bool _paymentServiceIDVerifierVisible;
 }
 
 + (void)d:1 /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
+- (_Bool)parentTextListStyle;
+- (void)isShowLegendKey;
 - (id);
 - (void);
 - (id);
@@ -31,19 +21,20 @@
 - (long long);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)message_hash_data = ? LIMIT 1;;
+- (_Bool);;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)Exposition:(_Bool)arg1 %.0f
+;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id)«ÿ¤«ÿ¬¬ÿ³ªÿº¨ÿÂ¦ÿÊ¤ÿÔ¡ÿÜÿâÿæÿæÿ#µÿ#µÿ#µÿ#µÿ#µÿ#µÿ#µÿ#´ÿ#´ÿ&´ÿ3´ÿ>´ÿI´ÿS´ÿ_³ÿi³ÿs³ÿ|³ÿ´ÿ´ÿ´ÿ£´ÿ¬µÿ¶¶ÿ½´ÿÄ²ÿÌ±ÿÕ¯ÿÝ­ÿã¬ÿç«ÿçªÿ ½ÿ ½ÿ ½ÿ ½ÿ ½ÿ!½ÿ!½ÿ!¼ÿ!¼ÿ!¼ÿ*¼ÿ7¼ÿC¼ÿN¼ÿY¼ÿd¼ÿn¼ÿx¼ÿ¼ÿ¼ÿ½ÿ¡½ÿ«¾ÿµ¿ÿ¿¿ÿÇ¾ÿÏ¼ÿ×»ÿßºÿå¹ÿè¸ÿé¸ÿÅÿÅÿÅÿÅÿÅÿÄÿÄÿÄÿÄÿÄÿÄÿ/Äÿ;ÄÿGÄÿTÄÿ_ÄÿiÄÿtÄÿÅÿÅÿÅÿÆÿ©Æÿ´Çÿ¿ÈÿÉÉÿÑÈÿÚÇÿáÆÿçÆÿëÅÿëÅÿÌÿÌÿÌÿÌÿÌÿÌÿÌÿÌÿÌÿÌÿËÿ%Ëÿ4Ëÿ@ÌÿNÌÿYÌÿdÌÿoÍÿ|ÍÿÍÿÎÿÏÿ§Ïÿ³Ðÿ¾ÒÿÉÓÿÔÔÿÝÓÿäÒÿêÒÿîÒÿîÒÿÔÿÔÿÔÿÔÿÔÿÔÿÔÿÔÿÔÿÔÿÔÿÓÿ*Ôÿ8ÔÿGÔÿSÕÿ_ÕÿjÕÿwÖÿ×ÿ×ÿØÿ¥Ùÿ²Úÿ¾ÜÿÉÝÿÔÞÿßßÿçßÿíßÿñßÿñßÿÚÿÚÿÚÿÚÿÚÿÚÿÚÿÚÿÚÿÚÿÚÿÚÿ Úÿ1ÚÿAÛÿNÛÿZÜÿfÜÿtÝÿÞÿßÿßÿ¤áÿ±âÿ½ãÿÉåÿÔæÿàèÿééÿïéÿóéÿóéÿßÿßÿßÿßÿßÿßÿßÿßÿßÿßÿßÿßÿßÿ*ßÿ<àÿIàÿVáÿbáÿpâÿ}ãÿäÿåÿ¢æÿ°èÿ¼éÿÈëÿÔíÿàîÿêðÿñðÿôñÿôñÿâÿâÿâÿâÿâÿâÿâÿâÿâÿâÿâÿâÿâÿ$âÿ7ãÿEãÿRäÿ_åÿmåÿzæÿçÿèÿ êÿ¯ëÿ»íÿÈïÿÔðÿàòÿêóÿñôÿõõÿõõÿãÿãÿãÿãÿãÿãÿãÿãÿãÿãÿãÿãÿãÿ ãÿ3äÿBäÿPåÿ]åÿkæÿxçÿèÿéÿêÿ­ìÿºíÿÇïÿÓñÿàóÿêôÿñõÿõõÿõõÿ;
 - (id)ÿÿ¢ÿ¦ÿªÿ®ÿ3+ÿ3+ÿ3*ÿ2*ÿ2)ÿ1)ÿ1)ÿ!1)ÿ$1)ÿ)1)ÿ-1(ÿ11'ÿ61&ÿ;0$ÿA.!ÿG,ÿM*ÿU*ÿ]*ÿd)ÿk(ÿr'ÿz&ÿ%ÿ$ÿ"ÿ!ÿÿ£ÿ¨ÿ¬ÿ¯ÿ:,ÿ:,ÿ:,ÿ9,ÿ9+ÿ8+ÿ8+ÿ!8+ÿ&8+ÿ*8*ÿ.8*ÿ38)ÿ88(ÿ=7&ÿC6#ÿH4ÿO3ÿV3ÿ^2ÿe2ÿl1ÿt0ÿ{.ÿ-ÿ,ÿ*ÿ)ÿ'ÿ¥%ÿ©$ÿ­"ÿ°"ÿA-ÿA-ÿA-ÿ@-ÿ@,ÿ?,ÿ?,ÿ!?,ÿ&?+ÿ+?+ÿ0?+ÿ4?*ÿ:?)ÿ@?(ÿE>%ÿJ<!ÿQ<!ÿX< ÿ`;ÿg:ÿn9ÿu8ÿ|6ÿ5ÿ3ÿ2ÿ0ÿ¡.ÿ¦,ÿ«+ÿ®)ÿ±)ÿI-ÿI-ÿI-ÿH-ÿH,ÿG,ÿG,ÿ G,ÿ%G+ÿ+G+ÿ0G+ÿ5G*ÿ;G)ÿAG(ÿHG'ÿMF$ÿSF$ÿZE#ÿaD"ÿhC!ÿoB ÿvAÿ~?ÿ>ÿ<ÿ:ÿ8ÿ¢6ÿ¨4ÿ¬3ÿ°1ÿ²1ÿR0ÿR0ÿQ/ÿQ/ÿQ/ÿP.ÿP.ÿ!O-ÿ&O-ÿ,O,ÿ2O,ÿ7O+ÿ<O*ÿBO)ÿIO(ÿPO'ÿVO&ÿ\N%ÿcM$ÿjL#ÿqJ"ÿxI ÿHÿFÿDÿBÿ@ÿ¤>ÿ©<ÿ®:ÿ±9ÿ´8ÿ Z2ÿ Z2ÿ Z1ÿ Z1ÿ Y1ÿ Y0ÿ X0ÿ#X/ÿ(X/ÿ/X/ÿ4X.ÿ9X.ÿ?X-ÿDX,ÿKX*ÿRX)ÿYX)ÿ_W'ÿeV&ÿlT%ÿrS#ÿyQ"ÿP ÿNÿLÿJÿHÿ¥Fÿ«Dÿ°Bÿ³Aÿµ@ÿ#b3ÿ#b3ÿ#b3ÿ#b2ÿ$b2ÿ$a2ÿ$a1ÿ$`1ÿ*`1ÿ0`0ÿ5`0ÿ;`/ÿ@`.ÿF`-ÿL`,ÿSa+ÿZa*ÿaa)ÿh_'ÿn]&ÿt\%ÿ{Z#ÿX"ÿW ÿUÿSÿ Qÿ§Nÿ­Lÿ±Jÿ´Iÿ¶Hÿ'l4ÿ'l4ÿ'k4ÿ'k3ÿ'k3ÿ'k3ÿ'j2ÿ'j2ÿ*i2ÿ1j1ÿ6j1ÿ<j0ÿAj/ÿGj.ÿNj-ÿTj,ÿ[j+ÿbj*ÿkj*ÿqh(ÿwf&ÿ~e%ÿc#ÿa!ÿ_ÿ]ÿ¢Zÿ©Xÿ®Vÿ³Tÿ¶Sÿ¸Rÿ)t4ÿ)t4ÿ)t4ÿ)s4ÿ*s3ÿ*s3ÿ*s3ÿ*r2ÿ+r2ÿ1r2ÿ7r1ÿ<r1ÿBr0ÿHr/ÿNr.ÿUr,ÿ[s+ÿcs*ÿks)ÿts)ÿzq'ÿo&ÿm$ÿj"ÿh ÿfÿ¤dÿ«bÿ°`ÿµ^ÿ¸\ÿº[ÿ+|4ÿ+|4ÿ+|4ÿ+|4ÿ+{3ÿ,{3ÿ,{3ÿ,z3ÿ,z2ÿ1z2ÿ7z1ÿ<z1ÿB{0ÿH{/ÿO{.ÿU{-ÿ\{+ÿc{*ÿl|)ÿt|)ÿ}|)ÿy&ÿw$ÿu"ÿr ÿpÿ¦nÿ­lÿ³jÿ·hÿºgÿ¼f
@@ -53,17 +44,7 @@
 - (id)Üÿ	;
 
 // Remaining properties
-@property(nonatomic) long long displayType; // @synthesize displayType=_displayType;
-@property(retain, nonatomic) NSArray *foregroundApps; // @synthesize foregroundApps=_foregroundApps;
-@property(retain, nonatomic) NSArray *obscuredApps; // @synthesize obscuredApps=_obscuredApps;
-@property(nonatomic, getter=isOnHomeScreen) _Bool onHomeScreen; // @synthesize onHomeScreen=_onHomeScreen;
-@property(nonatomic, getter=isOnLockScreen) _Bool onLockScreen; // @synthesize onLockScreen=_onLockScreen;
-@property(nonatomic, getter=isPaymentServiceIDVerifierVisible) _Bool paymentServiceIDVerifierVisible; // @synthesize paymentServiceIDVerifierVisible=_paymentServiceIDVerifierVisible;
-@property(nonatomic, getter=isPaymentServiceVisible) _Bool paymentServiceVisible; // @synthesize paymentServiceVisible=_paymentServiceVisible;
-@property(retain, nonatomic) NSArray *pipApps; // @synthesize pipApps=_pipApps;
-@property(nonatomic, getter=isSiriVisible) _Bool siriVisible; // @synthesize siriVisible=_siriVisible;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSArray *transitioningApps; // @synthesize transitioningApps=_transitioningApps;
 
 @end
 

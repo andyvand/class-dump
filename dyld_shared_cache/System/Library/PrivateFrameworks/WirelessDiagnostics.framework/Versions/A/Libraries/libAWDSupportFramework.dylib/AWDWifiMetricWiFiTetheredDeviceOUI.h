@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface AWDWifiMetricWiFiTetheredDeviceOUI
 {
     unsigned long long _timestamp;
-    NSData *_tetheredOUI;
-    CDStruct_b5306035 _has;
 }
 
 - (id);
@@ -21,7 +17,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -33,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTetheredOUI;
-@property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSData *tetheredOUI; // @synthesize tetheredOUI=_tetheredOUI;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

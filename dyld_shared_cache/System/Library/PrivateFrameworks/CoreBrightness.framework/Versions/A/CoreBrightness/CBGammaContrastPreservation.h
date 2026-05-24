@@ -6,33 +6,26 @@
 
 #import <CoreBrightness/CBChromaticCorrection.h>
 
-@class NSObject;
-@protocol CBRampManagerI;
-
 __attribute__((visibility("hidden")))
 @interface CBGammaContrastPreservation : CBChromaticCorrection
 {
     float _AODFadeFactor;
-    float _enableFactor;
-    NSObject<CBRampManagerI> *_rampManager;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (float);
 - (float);
 - (float);
 - (void);
-- (float);
+- (float)ڀ4;
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) float AODFadeFactor; // @synthesize AODFadeFactor=_AODFadeFactor;
-@property(nonatomic) float enableFactor; // @synthesize enableFactor=_enableFactor;
-@property(retain) NSObject<CBRampManagerI> *rampManager; // @synthesize rampManager=_rampManager;
 
 @end
 

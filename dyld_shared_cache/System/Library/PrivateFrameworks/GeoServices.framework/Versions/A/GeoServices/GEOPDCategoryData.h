@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCategoryData
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_categoryNames;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)Feedback"b1"read_localityFeedback"b1"read_merchantLookupFeedback"b1"read_photoAttributionPreferencesUpdate"b1"read_poiActivityFeedback"b1"read_poiEnrichmentUpdate"b1"read_poiFeedback"b1"read_poiImageFeedback"b1"read_rapUserResponseFeedback"b1"read_runningTrackFeedback"b1"read_searchFeedback"b1"read_streetFeedback"b1"read_thirdPartyPhotoSharingPreferenceUpdate"b1"read_tileFeedback"b1"read_transitPoiFeedback"b1"wrote_anyField"b1};
-- (id)transitLines;
+- (id)_cached_transitLines;
 - (id)¶<F´h·PF´¹dF´ÌºxF´¼F´¿ÜF´àÏG´ Ñ,G´`Ó@G´ ÕTG´ØÖhG´Ø|G´XÚG´Ü¤G´ÔÝ¸G´ßÌG´PáàG´ãôG´ÐäH´æH´;
 - (void)ùÿøÿ÷ÿûÿ÷ÿöÿøÿûÿûÿþÿýÿüÿÿÿúÿþÿûÿûÿþÿüÿýÿòÿ÷ÿóÿöÿüÿùÿþÿúÿûÿüÿþÿýÿæÿÿÿñÿÿÿåÿÿÿíÿÿÿúÿÿÿóÿÿÿçÿÿÿéÿÿÿüÿÿÿýÿÿÿûÿÿÿèÿÿÿ÷ÿúÿõÿøÿüÿúÿùÿòÿôÿûÿöÿ÷ÿýÿúÿûÿüÿõÿùÿ÷ÿûÿ÷ÿõÿûÿúÿçÿÿÿñÿÿÿéÿÿÿæÿÿÿõÿóÿøÿ÷ÿöÿôÿüÿûÿ;
 

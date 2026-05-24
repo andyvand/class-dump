@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     float _curlUpDY;
 }
 
-- (void);
-- (float);
-- (_Bool)rForUnRenderedContent:(id)arg1;
-- (_Bool)verrideParentTraitEnvironment;
+- (void)enerating handles to contact map for chat with accountUniqueID:(float)arg1 %s and chatIdentifier:%s /* Error: Ran out of types for this method. */;
+- (float)e-window-days;
+- (_Bool)setHideActivityIndicatorForUnRenderedContent:(id)arg1;
+- (_Bool)_overrideParentTraitEnvironment;
 
 // Remaining properties
 @property(nonatomic, setter=_setCurlUpDY:) float _curlUpDY; // @synthesize _curlUpDY;

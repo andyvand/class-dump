@@ -9,15 +9,15 @@
 }
 
 + (id);
++ (id)N3fst17ComposeFstMatcherINS_17DefaultCacheStoreINS_6ArcTplINS_16LatticeWeightTplIfEEiEEEENS_22LookAheadComposeFilterINS_21SequenceComposeFilterINS_16LookAheadMatcherINS_3FstIS5_EEEESC_EESC_SC_LNS_9MatchTypeE2EEENS_24GenericComposeStateTableIS5_NS_18IntegerFilterStateIaEENS_24DefaultComposeStateTupleIiSI_EENS_21CompactHashStateTableISK_NS_11ComposeHashISK_EEEEEEEE;
++ (id);
++ (_Bool)@ #;
 + (id);
 + (id);
 + (_Bool);
++ (id);
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -29,9 +29,10 @@
 + (void);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)X failed:(id)arg1 %{error}
+;
 + (id);
 + (id);
 + (_Bool);

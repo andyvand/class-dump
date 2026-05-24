@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (int);
+- (int)i;
 - (unsigned long long);
 - (id);
 - (unsigned char);
 - (long long);
-- (long long);
+- (long long)� ;
 
 @end
 

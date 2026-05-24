@@ -5,5 +5,8 @@
 //
 
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)_TtC9JetEngine14JSLazyProvider;
 @end
 

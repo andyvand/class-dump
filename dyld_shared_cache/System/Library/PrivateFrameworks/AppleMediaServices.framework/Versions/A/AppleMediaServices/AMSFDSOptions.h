@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSString;
-
 @interface AMSFDSOptions
 {
     unsigned long long _action;
-    AMSProcessInfo *_clientInfo;
 }
 
 + (_Bool);
@@ -17,7 +14,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void)age type;
 - (id)/ÆÃDe33!Ù¶,ª{isB;¯-3 Cí)FKPuï¾±6j°èêûÇB;
@@ -38,8 +35,6 @@
 
 // Remaining properties
 @property unsigned long long action; // @synthesize action=_action;
-@property(readonly) NSString *bundleIdentifier;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
 
 @end
 

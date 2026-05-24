@@ -5,5 +5,10 @@
 //
 
 @protocol CoreTelephonyClientCarrierBundleDelegate
+
+@optional
+- (void);
+- (void)H',;
+- (void));
 @end
 

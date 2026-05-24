@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, _NSDiffableDataSourceState;
-@protocol OS_dispatch_semaphore;
+@class NSArray, _NSDiffableDataSourceState;
 
 @interface __NSDiffableDataSourceSnapshot
 {
     _NSDiffableDataSourceState *_state;
-    NSMutableArray *_pendingSnapshotUpdates;
-    NSObject<OS_dispatch_semaphore> *_commitSemaphore;
 }
 
-+ (id);
++ (id),;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)B32;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)s;
+- (void)_cachedBoundingPath;
+- (id);
 - (_Bool);
-- (long long)limitDate: /* Error: Ran out of types for this method. */;
-- (id)WithSectionCountsProvider:(struct _NSZone *)arg1;
-- (void)wsAreFlushToEdges;
+- (long long)objectForServicePath:app:doLaunch:limitDate: /* Error: Ran out of types for this method. */;
+- (id)initWithSectionCountsProvider:(struct _NSZone *)arg1;
+- (void)_firstAndLastViewsAreFlushToEdges;
 - (long long);
 - (void)urbocadmacdeluxe8ESD;
-- (void)inkKey;
+- (void)NSSharingServiceParametersPermaLinkKey;
 - (id)k of window 0x%08x.;
 - (id)of ranges does not match number of indexes.;
 - (void)ent action;
@@ -40,12 +37,12 @@
 - (void)nizer2021;
 - (void).  Both are programming errors.;
 - (id)o the toolbar\U2026;
-- (id)r;
+- (id)NSOSPShowsSidebar;
 - (id)used=%d};
 - (void)enderCallback;
 - (void)itle extra;
 - (long long)apple.HIToolbox.endMenuTrackingNotification;
-- (void)SWindowWindowControllerCanBeWeak;
+- (void)NSWindowWindowControllerCanBeWeak;
 - (long long)to another location, or close it.;
 - (long long)t was in when you last opened it, or browse older versions. Recent changes will be saved in your version history.;
 - (id)ntext_t *);
@@ -55,7 +52,7 @@
 - (id)nHideMenuBar and NSApplicationPresentationAutoHideMenuBar were specified; only one is allowed;
 - (void)extension;
 - (void)end:(id)arg1 %@};
-- (void)rName;
+- (void)NSPrinterName;
 - (void)Ý¸h\É;
 - (long long)yÎh×;
 - (id)RotationDirection;
@@ -66,21 +63,7 @@
 - (void)òò;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *itemIdentifiers;
-@property(readonly, nonatomic) long long numberOfItems;
-@property(readonly, nonatomic) long long numberOfSections;
-@property(readonly, nonatomic) NSArray *reconfiguredItemIdentifiers;
-@property(readonly, nonatomic) NSArray *reloadedItemIdentifiers;
 @property(readonly, nonatomic) NSArray *reloadedSectionIdentifiers;
-@property(readonly, nonatomic) NSArray *sectionIdentifiers;
-@property(readonly, nonatomic) _NSDiffableDataSourceState *state;
-@property(readonly) Class superclass;
 
 @end
 

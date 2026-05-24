@@ -7,9 +7,6 @@
 @interface SGM2CustomResponsesHarvest
 {
     unsigned int _customResponsesAfterPruning;
-    struct {
-        unsigned int customResponsesAfterPruning:1;
-    } _has;
 }
 
 - (void);
@@ -24,10 +21,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int customResponsesAfterPruning; // @synthesize customResponsesAfterPruning=_customResponsesAfterPruning;
 @property(nonatomic) _Bool hasCustomResponsesAfterPruning;
 
 @end

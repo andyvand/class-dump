@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNEditAuthorizationViewController, NSString;
 @protocol ABUserInterfaceAction;
 
 @interface ABShowAuthorizationPaneUIAction
 {
     _Bool executionWasAuthorized;
-    id <ABUserInterfaceAction> _actionRequiringAuthorization;
-    CNEditAuthorizationViewController *_editAuthorizationController;
 }
 
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)bs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeAppsRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -26,7 +23,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -35,18 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionName;
 @property(readonly, nonatomic) id <ABUserInterfaceAction> actionRequiringAuthorization; // @synthesize actionRequiringAuthorization=_actionRequiringAuthorization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CNEditAuthorizationViewController *editAuthorizationController; // @synthesize editAuthorizationController=_editAuthorizationController;
-@property(nonatomic) _Bool executionWasAuthorized; // @synthesize executionWasAuthorized;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool requiresAuthorizationBeforeExecution;
-@property(readonly) Class superclass;
 
 @end
 

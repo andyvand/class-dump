@@ -9,7 +9,6 @@
 @interface FCFeedItemFeature
 {
     NSString *_key;
-    long long _type;
 }
 
 + (id);
@@ -29,9 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) _Bool queryable;
-@property(readonly, nonatomic) NSString *topicID;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

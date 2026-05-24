@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class);
+- (Class);
+- (oneway void)extensionsChangedForCallDirectoryExtensionManager: /* Error: Ran out of types for this method. */;
+- (unsigned long long)videoComplementVisibilityState;
+- (_Bool)ardSection"16@0:(id)arg1 8;
+- (_Bool)!@e;
+- (struct _NSZone *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDisplay, NSNumber, NSString;
+@class MPDisplay;
 
 @interface MPDisplayMode
 {
     MPDisplay *_display;
-    struct _CGSDisplayModeDescription _desc;
-    NSString *_rateString;
-    unsigned int _tvMode;
-    _Bool _isVRR;
-    _Bool _isProMotion;
-    float _minRefreshRate;
 }
 
-+ (id);
++ (id);
 - (unsigned int);
 - (unsigned int);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)�@;
+- (id)h;
+- (id)=;
 - (id);
 - (_Bool);
 - (int);
@@ -32,15 +26,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)ɚ;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)^;
 - (id);
 - (int);
 - (void);
 - (int);
 - (int);
-- (id);
+- (id)=`ւ=;
 - (int);
 - (int);
 - (_Bool);
@@ -52,7 +46,7 @@
 - (id);
 - (_Bool);
 - (float);
-- (struct _CGSDisplayModeDescription *);
+- (struct _CGSDisplayModeDescription *);
 - (int);
 - (int);
 - (_Bool);
@@ -62,43 +56,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (float);
+- (float);
 
 // Remaining properties
-@property(readonly) float aspectRatio;
 @property(readonly) __weak MPDisplay *display; // @synthesize display=_display;
-@property(readonly) int dotsPerInch;
-@property(readonly) int fixPtRefreshRate;
-@property(readonly) int height;
-@property(readonly) int horizDPI;
-@property(readonly) _Bool isDefaultMode;
-@property(readonly) _Bool isHiDPI;
-@property(readonly) _Bool isInterlaced;
-@property(readonly) _Bool isNativeMode;
-@property(readonly) _Bool isProMotion;
-@property(readonly) _Bool isRetina;
-@property(readonly) _Bool isSafeMode;
-@property(readonly) _Bool isSimulscan;
-@property(readonly) _Bool isStretched;
-@property(readonly) _Bool isTVMode;
-@property(readonly) _Bool isUserVisible;
-@property(readonly) _Bool isVRR;
-@property(readonly) float minRefreshRate; // @synthesize minRefreshRate=_minRefreshRate;
-@property(readonly) struct _CGSDisplayModeDescription *modeDescription;
-@property(readonly) int modeNumber;
-@property(readonly) int pixelsHigh;
-@property(readonly) int pixelsWide;
-@property(readonly) int refreshRate;
-@property(readonly) NSString *refreshString;
-@property(readonly) NSString *resolutionKey;
-@property(readonly) NSString *resolutionString;
-@property(readonly) int roundedScanRate;
-@property(readonly) float scale;
-@property(readonly) NSNumber *scanRate;
-@property(readonly) unsigned int tvMode;
-@property(readonly) unsigned int tvModeEquiv;
-@property(readonly) int vertDPI;
-@property(readonly) int width;
 
 @end
 

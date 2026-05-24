@@ -7,7 +7,6 @@
 @interface NewsUI2.FamilyStatusStateCommandHandler
 {
     id commandCenter;
-    id familyStatusManager;
 }
 
 - (id);

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface RKConversation
 {
     unsigned long long _type;
-    NSArray *_messages;
 }
 
 - (id);
@@ -18,7 +15,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *messages; // @synthesize messages=_messages;
 @property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end

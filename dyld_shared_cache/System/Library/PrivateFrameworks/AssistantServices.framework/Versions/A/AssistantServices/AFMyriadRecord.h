@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
-
 @interface AFMyriadRecord
 {
     unsigned char _goodness;
-    unsigned char _userConfidence;
-    unsigned char _deviceGroup;
-    unsigned char _deviceClass;
-    unsigned char _productType;
-    unsigned char _tieBreaker;
-    _Bool _isMe;
-    unsigned char _rawAudioGoodnessScore;
-    unsigned char _bump;
-    unsigned char _isCollectedFromContextCollector;
-    _Bool _advertisementDataIsDirty;
-    unsigned short _pHash;
-    NSUUID *_deviceID;
-    NSData *_advertisementData;
 }
 
 - (unsigned char);
-- (unsigned char);
+- (unsigned char));
 - (int);
-- (void);
-- (void);
+- (void)y?=;
+- (void)*%@y_=;
 - (void);
 - (void);
 - (void);
@@ -41,14 +26,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)k@`;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -57,7 +42,7 @@
 - (_Bool);
 - (void);
 - (unsigned char);
-- (_Bool);
+- (_Bool);
 - (unsigned char);
 - (void);
 - (id);
@@ -71,29 +56,16 @@
 - (_Bool);
 - (id);
 - (unsigned char);
-- (void);
-- (id)tifier;
+- (void)`;
+- (id)getUniqueIdentifier;
 - (void)tisementDataByIds;
-- (void):(unsigned char)arg1:originPeerInfo /* Error: Ran out of types for this method. */;
+- (void)AFCommandExecutionInfo:(unsigned char)arg1:originPeerInfo /* Error: Ran out of types for this method. */;
 - (void)Âa
 ;
 - (unsigned char);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *advertisementData; // @synthesize advertisementData=_advertisementData;
 @property(nonatomic) _Bool advertisementDataIsDirty; // @synthesize advertisementDataIsDirty=_advertisementDataIsDirty;
-@property(nonatomic) unsigned char bump; // @synthesize bump=_bump;
-@property(nonatomic) unsigned char deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(nonatomic) unsigned char deviceGroup; // @synthesize deviceGroup=_deviceGroup;
-@property(copy, nonatomic) NSUUID *deviceID; // @synthesize deviceID=_deviceID;
-@property(nonatomic) unsigned char goodness; // @synthesize goodness=_goodness;
-@property(nonatomic) unsigned char isCollectedFromContextCollector; // @synthesize isCollectedFromContextCollector=_isCollectedFromContextCollector;
-@property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(nonatomic) unsigned short pHash; // @synthesize pHash=_pHash;
-@property(nonatomic) unsigned char productType; // @synthesize productType=_productType;
-@property(nonatomic) unsigned char rawAudioGoodnessScore; // @synthesize rawAudioGoodnessScore=_rawAudioGoodnessScore;
-@property(nonatomic) unsigned char tieBreaker; // @synthesize tieBreaker=_tieBreaker;
-@property(nonatomic) unsigned char userConfidence; // @synthesize userConfidence=_userConfidence;
 
 @end
 

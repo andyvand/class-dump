@@ -6,14 +6,12 @@
 
 #import <OfficeImport/OIXMLNode.h>
 
-@class NSString, OIXMLElement;
+@class OIXMLElement;
 
 __attribute__((visibility("hidden")))
 @interface OIXMLDocument : OIXMLNode
 {
     OIXMLElement *_rootElement;
-    NSString *_version;
-    NSString *_encoding;
 }
 
 - (id);
@@ -24,18 +22,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)k;
 - (id);
 - (void);
-- (id);
+- (id)|!̭;
 - (void)¼¤¨;
 
 // Remaining properties
-@property(copy) NSString *characterEncoding; // @synthesize characterEncoding=_encoding;
 @property(retain) OIXMLElement *rootElement; // @synthesize rootElement=_rootElement;
-@property(copy) NSString *version; // @synthesize version=_version;
 
 @end
 

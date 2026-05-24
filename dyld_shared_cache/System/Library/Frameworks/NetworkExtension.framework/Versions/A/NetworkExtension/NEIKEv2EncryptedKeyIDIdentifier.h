@@ -6,13 +6,9 @@
 
 #import <NetworkExtension/NEIKEv2KeyIDIdentifier.h>
 
-@class NSData;
-
 @interface NEIKEv2EncryptedKeyIDIdentifier : NEIKEv2KeyIDIdentifier
 {
     struct __SecKey *_keyRef;
-    NSData *_keyData;
-    NSData *_aad;
 }
 
 - (id);
@@ -25,7 +21,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)lay: /* Error: Ran out of types for this method. */;
+- (void)setRelay: /* Error: Ran out of types for this method. */;
 
 @end
 

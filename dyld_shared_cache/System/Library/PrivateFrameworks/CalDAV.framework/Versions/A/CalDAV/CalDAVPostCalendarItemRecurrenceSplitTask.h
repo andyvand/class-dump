@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVResponseItem, NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface CalDAVPostCalendarItemRecurrenceSplitTask
 {
     _Bool _isFloating;
-    _Bool _isAllDay;
-    NSURL *_resourceURL;
-    NSDate *_recurrenceDate;
-    NSString *_uidForCreatedSeries;
-    NSString *_previousScheduleTag;
-    NSString *_previousETag;
-    NSURL *_postURLWithQuery;
-    CoreDAVResponseItem *_updatedResponseItem;
-    CoreDAVResponseItem *_createdResponseItem;
 }
 
-- (id);
+- (id)(J;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)-;
 - (id);
 - (id);
 - (id);
@@ -36,24 +27,24 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (void);
-- (void);
+- (void)odel=IqIIIIQQQQ[32I][32Q][32I][32Q]QQQcCIQIIIQIIQIQ[64I][64I][64I][64I]IQQ[64I][64I]IIIIIIQqIIQIQIQIQIQIQIQ}^{__IOSurface}^{__IOSurface}}16;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ationsFlag:expanded:reply: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -64,16 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CoreDAVResponseItem *createdResponseItem; // @synthesize createdResponseItem=_createdResponseItem;
-@property(nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(nonatomic) _Bool isFloating; // @synthesize isFloating=_isFloating;
 @property(retain, nonatomic) NSURL *postURLWithQuery; // @synthesize postURLWithQuery=_postURLWithQuery;
-@property(retain, nonatomic) NSString *previousETag; // @synthesize previousETag=_previousETag;
-@property(retain, nonatomic) NSString *previousScheduleTag; // @synthesize previousScheduleTag=_previousScheduleTag;
-@property(retain, nonatomic) NSDate *recurrenceDate; // @synthesize recurrenceDate=_recurrenceDate;
-@property(retain, nonatomic) NSURL *resourceURL; // @synthesize resourceURL=_resourceURL;
-@property(retain, nonatomic) NSString *uidForCreatedSeries; // @synthesize uidForCreatedSeries=_uidForCreatedSeries;
-@property(retain, nonatomic) CoreDAVResponseItem *updatedResponseItem; // @synthesize updatedResponseItem=_updatedResponseItem;
 
 @end
 

@@ -12,7 +12,7 @@
 }
 
 + (_Bool);
-- (void);
+- (void)ATTRIBUTENAME;
 - (int);
 - (id);
 - (void);

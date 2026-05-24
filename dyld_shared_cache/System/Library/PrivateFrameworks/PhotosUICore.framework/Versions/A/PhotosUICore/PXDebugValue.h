@@ -12,12 +12,11 @@
 }
 
 - (unsigned long long);
-- (id);
+- (id)0;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long highlightStyle;
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end

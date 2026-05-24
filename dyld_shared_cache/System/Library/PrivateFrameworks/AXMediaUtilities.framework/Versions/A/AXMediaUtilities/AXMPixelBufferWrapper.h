@@ -7,12 +7,11 @@
 @interface AXMPixelBufferWrapper
 {
     struct __CVBuffer *_pixelBuffer;
-    unsigned int _orientation;
 }
 
 + (id);
 + (id);
-- (struct CGSize);
+- (struct CGSize)|;
 - (id);
 - (struct CGSize);
 - (void);
@@ -21,10 +20,7 @@
 - (struct __CVBuffer *);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int orientation;
-@property(readonly, nonatomic) struct CGSize orientedSize;
 @property(readonly, nonatomic) struct __CVBuffer *pixelBuffer;
-@property(readonly, nonatomic) struct CGSize unorientedSize;
 
 @end
 

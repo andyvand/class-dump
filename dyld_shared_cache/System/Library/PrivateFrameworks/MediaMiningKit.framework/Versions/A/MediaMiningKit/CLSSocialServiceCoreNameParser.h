@@ -6,15 +6,11 @@
 
 #import <MediaMiningKit/CLSSocialService.h>
 
-@class NPNameParser, NSCharacterSet, NSDictionary, NSMutableDictionary;
+@class NPNameParser;
 
 @interface CLSSocialServiceCoreNameParser : CLSSocialService
 {
     NPNameParser *_nameParser;
-    NSMutableDictionary *_sexHintByCNIdentifier;
-    NSDictionary *_vocabularyByRelationshipByLocale;
-    NSMutableDictionary *_regularExpressionByRelationshipByLocale;
-    NSCharacterSet *_nonLetterCharacterSet;
 }
 
 + (unsigned long long);
@@ -24,8 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
+- (void)@�
+;
 - (id);
 - (id);
 - (id);
@@ -34,17 +31,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)for districtNode:%@ with name:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
 @property(retain) NPNameParser *nameParser; // @synthesize nameParser=_nameParser;
-@property(retain, nonatomic) NSCharacterSet *nonLetterCharacterSet; // @synthesize nonLetterCharacterSet=_nonLetterCharacterSet;
-@property(retain, nonatomic) NSMutableDictionary *regularExpressionByRelationshipByLocale; // @synthesize regularExpressionByRelationshipByLocale=_regularExpressionByRelationshipByLocale;
-@property(retain, nonatomic) NSMutableDictionary *sexHintByCNIdentifier; // @synthesize sexHintByCNIdentifier=_sexHintByCNIdentifier;
-@property(retain, nonatomic) NSDictionary *vocabularyByRelationshipByLocale; // @synthesize vocabularyByRelationshipByLocale=_vocabularyByRelationshipByLocale;
 
 @end
 

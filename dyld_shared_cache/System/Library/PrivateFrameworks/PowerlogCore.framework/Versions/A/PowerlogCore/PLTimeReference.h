@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PLTimeReferenceManager;
-
 @interface PLTimeReference
 {
     double _offset;
-    id <PLTimeReferenceManager> _timeManager;
-    long long _timeReferenceType;
-    NSString *_entryDefinitionKey;
-    double _hourBucketOffset;
 }
 
 + (id);
-+ (id);
++ (id)ration main];
 - (id);
 - (double);
-- (id);
-- (void);
-- (void);
+- (id)/J'
+;
+- (void)V;
+- (void);
 - (void):(double)arg1 runArchiveJobs:start /* Error: Ran out of types for this method. */;
 - (id)GET_PRIORITY_LIST. Size %d and sizeof(entry) %lu;
 - (double)l;
 - (void)eInSystem=%@;
-- (id)fiers;
-- (void);
+- (id)contentIdentifiers;
+- (void)PZC1_channelValue;
 - (void)WR;
-- (id)layAgent_EventBackward_DCPAODstats;
-- (double)Core;
+- (id)PLDisplayAgent_EventBackward_DCPAODstats;
+- (double)PLBluetoothAgent_EventBackward_EnhancedPowerStatsPerCore;
 - (id)PLApplicationAgent_EventForward_AmbientMode;
 - (void)downlinkTranslationMode;
 - (void)response = %@, sessionID = %@;
-- (void)EventPoint_CKKSSyncing;
-- (long long)tonic;
-- (void);
-- (double)gUUID;
+- (void)PLXPCAgent_EventPoint_CKKSSyncing;
+- (long long)ProjectedTimeInMonotonic;
+- (void)hit;
+- (double)TagUUID;
 
 // Remaining properties
-@property(retain) NSString *entryDefinitionKey; // @synthesize entryDefinitionKey=_entryDefinitionKey;
 @property(nonatomic) double hourBucketOffset; // @synthesize hourBucketOffset=_hourBucketOffset;
-@property(nonatomic) double offset; // @synthesize offset=_offset;
-@property(retain) id <PLTimeReferenceManager> timeManager; // @synthesize timeManager=_timeManager;
-@property long long timeReferenceType; // @synthesize timeReferenceType=_timeReferenceType;
 
 @end
 

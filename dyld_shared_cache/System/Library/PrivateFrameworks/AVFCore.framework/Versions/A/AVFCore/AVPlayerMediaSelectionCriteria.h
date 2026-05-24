@@ -14,7 +14,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *preferredLanguages;
-@property(readonly, nonatomic) NSArray *preferredMediaCharacteristics;
-@property(readonly, nonatomic) NSArray *principalMediaCharacteristics;
 @end
 

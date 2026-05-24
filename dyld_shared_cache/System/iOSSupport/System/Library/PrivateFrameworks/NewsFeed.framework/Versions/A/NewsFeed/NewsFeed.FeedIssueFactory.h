@@ -7,10 +7,6 @@
 @interface NewsFeed.FeedIssueFactory
 {
     id issueReadingHistory;
-    id personalizationService;
-    id subscriptionController;
-    id paidAccessChecker;
-    id issueOfflineProvider;
 }
 
 @end

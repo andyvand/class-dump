@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ExecutorSiriSchemaExecutorPersonQueryCallStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
+- (void);
+- (id)IAPBluetoothDeviceStartBLEUpdates;
+- (void)line;
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
-- (_Bool);
+- (_Bool){;
 - (id);
 - (id)etworkConnectionStatePreparationSnapshotCaptured";
-- (id)usionPair;
+- (id)SISchemaEuclidConfusionPair;
 - (id)ìç(è;
 - (_Bool)8Ïÿk¯Êm#;
 - (_Bool)@³;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

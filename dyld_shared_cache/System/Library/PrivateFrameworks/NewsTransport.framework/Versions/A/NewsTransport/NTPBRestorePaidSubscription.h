@@ -9,35 +9,33 @@
 @interface NTPBRestorePaidSubscription
 {
     NSMutableArray *_items;
-    NSMutableArray *_restoredPaidSubscriptionChannelIds;
 }
 
-+ (Class);
-+ (Class);
++ (Class)_storyQueue_handleChangedAssetsDataSource: /* Error: Ran out of types for this method. */;
++ (Class);
+- (void)highlightedAttributedStringForString:(id)arg1 highlightedSubstring:matchedColor:remainingColor: /* Error: Ran out of types for this method. */;
+- (unsigned long long)didDeleteItem: /* Error: Ran out of types for this method. */;
+- (id)didContactSomeoneForInterventionViewController:(unsigned long long)arg1;
+- (id)didConfirmForInterventionViewController: /* Error: Ran out of types for this method. */;
+- (void)changeCaseOfLetter: /* Error: Ran out of types for this method. */;
+- (void)buttonClassWithGlassEffect:(id)arg1;
+- (id)A;
 - (void);
+- (void);
+- (void);
+- (unsigned long long)SVitalitySettings",&,N,V_vitalitySettings;
+- (_Bool)ccurred with the migration helper proxy:(id)arg1 %@;
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)s: /* Error: Ran out of types for this method. */;
+- (void)setQueryParameterConfigs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
 @property(retain, nonatomic) NSMutableArray *restoredPaidSubscriptionChannelIds; // @synthesize restoredPaidSubscriptionChannelIds=_restoredPaidSubscriptionChannelIds;
 
 @end

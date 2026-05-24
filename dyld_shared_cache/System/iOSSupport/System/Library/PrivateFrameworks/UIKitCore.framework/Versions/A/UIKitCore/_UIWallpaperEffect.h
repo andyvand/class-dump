@@ -14,14 +14,14 @@
     _UICoreUIEffect *_coreUIEffect;
 }
 
-+ (id);
-- (id);
++ (id)y for message %@;
+- (id)ublic}s] Validating resume request for persistent task;
 - (long long);
 - (id);
 - (_Bool)sualProvider>"16;
 - (void)e;
 - (_Bool)edViews:(id)arg1 is no longer supported on iOS 13. Tiling is always on. If you explicitly need to disable tiling, use -_disableTiledViews;
-- (void)ionStateC;
+- (void)So24UIViewConfigurationStateC;
 
 @end
 

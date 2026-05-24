@@ -4,46 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VKCImageAnalysis, VKImageAnalysisInteraction;
-@protocol AVVisualAnalysisViewDelegate;
+@class VKImageAnalysisInteraction;
 
 __attribute__((visibility("hidden")))
 @interface AVVisualAnalysisView
 {
     _Bool _subjectLiftGestureEnabled;
-    _Bool _wantsAnalysisButtonVisible;
-    _Bool _interactionInProgress;
-    _Bool _hasVisualLookupResults;
-    id <AVVisualAnalysisViewDelegate> _delegate;
-    VKCImageAnalysis *_analysis;
-    double _analysisButtonBottomInset;
-    unsigned long long _analysisTypes;
-    VKImageAnalysisInteraction *_imageAnalysisInteraction;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (void)g;
 - (void);
-- (void);
-- (void);
+- (void)_p;
 - (id);
+- (_Bool)L.G;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,12 +43,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)/AppleAccount.framework/Versions/A/AppleAccount;
 - (void);
+- (id)`n;
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)<!;
 - (_Bool);
 - (_Bool)1Â0@ù
 × ;
@@ -65,24 +56,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) VKCImageAnalysis *analysis; // @synthesize analysis=_analysis;
-@property(nonatomic) double analysisButtonBottomInset; // @synthesize analysisButtonBottomInset=_analysisButtonBottomInset;
-@property(nonatomic) unsigned long long analysisTypes; // @synthesize analysisTypes=_analysisTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVVisualAnalysisViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasProminentText;
-@property(readonly, nonatomic) _Bool hasSubjectToCopy;
-@property(nonatomic) _Bool hasVisualLookupResults; // @synthesize hasVisualLookupResults=_hasVisualLookupResults;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlightsInteractableAreas;
 @property(retain, nonatomic) VKImageAnalysisInteraction *imageAnalysisInteraction; // @synthesize imageAnalysisInteraction=_imageAnalysisInteraction;
-@property(nonatomic, getter=isInteractionInProgress) _Bool interactionInProgress; // @synthesize interactionInProgress=_interactionInProgress;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsAnalysisButtonVisible; // @synthesize wantsAnalysisButtonVisible=_wantsAnalysisButtonVisible;
 
 @end
 

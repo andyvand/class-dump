@@ -9,10 +9,6 @@
 @interface MPSMatrixFindTopK : MPSMatrixUnaryKernel
 {
     _Bool _alongColumns;
-    unsigned long long _sourceColumns;
-    unsigned long long _sourceRows;
-    unsigned long long _indexOffset;
-    unsigned long long _numberOfTopKValues;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -20,10 +16,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)H;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -31,14 +27,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool alongColumns; // @synthesize alongColumns=_alongColumns;
-@property(nonatomic) unsigned long long indexOffset; // @synthesize indexOffset=_indexOffset;
-@property(nonatomic) unsigned long long numberOfTopKValues; // @synthesize numberOfTopKValues=_numberOfTopKValues;
-@property(nonatomic) unsigned long long sourceColumns; // @synthesize sourceColumns=_sourceColumns;
-@property(nonatomic) unsigned long long sourceRows; // @synthesize sourceRows=_sourceRows;
 
 @end
 

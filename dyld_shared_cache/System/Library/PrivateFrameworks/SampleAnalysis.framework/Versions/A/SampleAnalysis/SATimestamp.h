@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SATimestamp
 {
     unsigned long long _machAbsTime;
-    double _machAbsTimeSeconds;
-    unsigned long long _machContTime;
-    double _machContTimeSeconds;
-    double _wallTime;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ض;
++ (id);
++ (id)accessibilityMinValue;
 + (id);
 - (void);
 - (double);
 - (double);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)coap_option_next;
 - (double);
-- (void);
-- (_Bool);
-- (id);
+- (void)orted HW. Bailing with success;
+- (_Bool)up;
+- (id)0;
 - (long long);
 - (_Bool);
 - (id);
@@ -46,22 +40,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool)per;
+- (_Bool)_symbolOwnerWrapper;
 - (_Bool)(0x%x);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long machAbsTime;
-@property(readonly) double machAbsTimeSeconds;
-@property(readonly) unsigned long long machContTime;
-@property(readonly) double machContTimeSeconds;
-@property(readonly) Class superclass;
-@property(readonly) double wallTime;
 
 @end
 

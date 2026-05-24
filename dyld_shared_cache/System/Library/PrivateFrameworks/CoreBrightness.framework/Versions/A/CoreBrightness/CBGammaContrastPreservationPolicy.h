@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBGammaContrastPreservationParams, NSString;
+@class CBGammaContrastPreservationParams;
 
 __attribute__((visibility("hidden")))
 @interface CBGammaContrastPreservationPolicy
@@ -14,31 +14,23 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (float);
+- (float)T;
 - (float);
 - (float);
 - (float);
-- (float);
-- (float);
-- (_Bool);
+- (float);
+- (_Bool);
 - (_Bool);
 - (id);
 - (float);
 - (float);
 - (void);
-- (const char *);
+- (const char *)(}S;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) float rampDownDuration;
-@property(readonly) float rampUpDuration;
-@property(readonly) Class superclass;
 
 @end
 

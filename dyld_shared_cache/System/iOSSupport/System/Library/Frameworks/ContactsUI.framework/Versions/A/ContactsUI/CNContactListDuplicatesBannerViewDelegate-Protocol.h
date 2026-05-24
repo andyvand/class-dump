@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactListDuplicatesBannerViewDelegate
+- (void)?;
 @end
 

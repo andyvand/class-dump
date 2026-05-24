@@ -9,21 +9,19 @@
 @interface MecabraFacemarkCandidate
 {
     NSString *_string;
-    NSString *_category;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)2@48;
++ (id)e=QQ}16;
++ (id)2@0:(id)arg1 8^*16^Q24;
+- (id)24B32@36;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
 @property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

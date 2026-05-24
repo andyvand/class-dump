@@ -16,20 +16,20 @@
 + (id);
 + (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)=;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)�c;
 - (void);
 - (void);
 

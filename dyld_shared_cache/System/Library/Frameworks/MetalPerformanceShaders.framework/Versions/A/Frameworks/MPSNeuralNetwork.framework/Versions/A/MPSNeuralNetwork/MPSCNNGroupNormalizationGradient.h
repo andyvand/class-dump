@@ -10,12 +10,12 @@
 {
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (id)2;
+- (unsigned long long)radient._sourceColumns;;
+- (id)MPSNNPad_aBufLenFP32;
 
 @end
 

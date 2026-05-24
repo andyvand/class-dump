@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void){ڗ];
 - (struct CGRect);
 - (struct CGSize);
 - (void);

@@ -7,10 +7,6 @@
 @interface PhotosGraph.PeopleIndex
 {
     id featureVectorLength;
-    id personUUIDs;
-    id peopleVectorsByMomentUUID;
-    id dataSampler;
-    id featureVectorZerosPadding;
 }
 
 @end

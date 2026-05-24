@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFCardSection.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString, NSURL, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFMessageAttachment, SFUserReportRequest;
+@class NSString;
 
 @interface SFMessageCardSection : SFCardSection
 {
@@ -14,12 +14,6 @@
         unsigned int messageStatus:1;
         unsigned int messageServiceType:1;
     } _has;
-    int _messageStatus;
-    int _messageServiceType;
-    NSString *_type;
-    NSString *_messageText;
-    NSURL *_audioMessageURL;
-    SFMessageAttachment *_messageAttachment;
 }
 
 + (_Bool);
@@ -33,73 +27,22 @@
 - (int);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)elegationProviderNetService",R,N,V_netService;
+- (void);
+- (id)setPrefersInMemoryDatabase:(id)arg1;
 - (unsigned long long);
-- (id);
+- (id)callSource:reportedCallWithUUID:crossDeviceIdentifier:changedBytesOfDataUsed: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void)y:(id)arg1 (%{BOOL}d).;
+- (id)!;
+- (id)primaryLabel;
+- (id)questCaptionMetadataOperationForAssetWithOptions(PHAsset *__strong _Nonnull, PHAssetExportRequestOptions *__strong _Nonnull, PFMetadata *__strong _Nullable, NSString * _Nullable __autoreleasing * _Nullable);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)e;
+- (void)_rawResponseSize;
 
 // Remaining properties
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(copy, nonatomic) NSURL *audioMessageURL; // @synthesize audioMessageURL=_audioMessageURL;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideDivider;
-@property(nonatomic) int increasedContrastMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFMessageAttachment *messageAttachment; // @synthesize messageAttachment=_messageAttachment;
-@property(nonatomic) int messageServiceType; // @synthesize messageServiceType=_messageServiceType;
-@property(nonatomic) int messageStatus; // @synthesize messageStatus=_messageStatus;
-@property(copy, nonatomic) NSString *messageText; // @synthesize messageText=_messageText;
-@property(retain, nonatomic) SFCard *nextCard;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
-@property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 
 @end
 

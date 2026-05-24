@@ -18,24 +18,20 @@
 - (void);
 - (float);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (long long);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)p;
 - (void);
 - (id);
 - (CDStruct_198678f7);
 - (void)&Züÿ;
 
 // Remaining properties
-@property(nonatomic) long long featurePrintType;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) float overlapFactor;
-@property(nonatomic) CDStruct_198678f7 windowDuration;
 @property(nonatomic, readonly) SNTimeDurationConstraint *windowDurationConstraint;
 
 @end

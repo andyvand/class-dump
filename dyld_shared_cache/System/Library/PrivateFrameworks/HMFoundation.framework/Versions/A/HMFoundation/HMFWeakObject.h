@@ -9,19 +9,17 @@
 @interface HMFWeakObject : HMFObject
 {
     id _object;
-    unsigned long long _objectHash;
 }
 
-- (unsigned long long);
+- (unsigned long long)5s;
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)6	>		$	?	5	>	&	;
+- (unsigned long long)	8	A	'	>	0	#	@	/	;
+- (_Bool)this] sentence;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) __weak id object; // @synthesize object=_object;
 @property(readonly, nonatomic) unsigned long long objectHash; // @synthesize objectHash=_objectHash;
 
 @end

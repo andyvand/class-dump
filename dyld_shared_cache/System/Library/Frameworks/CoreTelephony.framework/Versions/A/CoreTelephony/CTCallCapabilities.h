@@ -7,14 +7,9 @@
 @interface CTCallCapabilities
 {
     _Bool _isWifiCallingAvailable;
-    _Bool _isVoLTECallingAvailable;
-    _Bool _isCSCallingAvailable;
-    _Bool _isEmergencyCallingOnWifiAllowed;
-    _Bool _isEmergencyCallingOnWifiAvailable;
-    _Bool _isCarrierSupportsEmergencyCallOnWifiNoLimit;
 }
 
-+ (_Bool);
++ (_Bool)iaSearchCursor:Internal inconsistency. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -22,22 +17,17 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)on %{public}@ cid:(id)arg1 %u returned %{public}@;
+- (void)tgoing root connection %{public}@ to %d;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)ionFenceHandle",&,N;
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)3;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool isCSCallingAvailable; // @synthesize isCSCallingAvailable=_isCSCallingAvailable;
-@property(nonatomic) _Bool isCarrierSupportsEmergencyCallOnWifiNoLimit; // @synthesize isCarrierSupportsEmergencyCallOnWifiNoLimit=_isCarrierSupportsEmergencyCallOnWifiNoLimit;
-@property(nonatomic) _Bool isEmergencyCallingOnWifiAllowed; // @synthesize isEmergencyCallingOnWifiAllowed=_isEmergencyCallingOnWifiAllowed;
-@property(nonatomic) _Bool isEmergencyCallingOnWifiAvailable; // @synthesize isEmergencyCallingOnWifiAvailable=_isEmergencyCallingOnWifiAvailable;
-@property(nonatomic) _Bool isVoLTECallingAvailable; // @synthesize isVoLTECallingAvailable=_isVoLTECallingAvailable;
 @property(nonatomic) _Bool isWifiCallingAvailable; // @synthesize isWifiCallingAvailable=_isWifiCallingAvailable;
 
 @end

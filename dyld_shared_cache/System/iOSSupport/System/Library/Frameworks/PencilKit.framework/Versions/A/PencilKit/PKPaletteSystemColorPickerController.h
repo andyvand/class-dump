@@ -6,12 +6,11 @@
 
 #import <PencilKit/PKPaletteBaseColorPickerController.h>
 
-@class NSString, UIColorPickerViewController;
+@class UIColorPickerViewController;
 
 @interface PKPaletteSystemColorPickerController : PKPaletteBaseColorPickerController
 {
     double _colorMaximumLinearExposure;
-    UIColorPickerViewController *_colorPickerViewController;
 }
 
 - (void);
@@ -28,18 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (void)dForExpressions:(id)arg1 mathItems: /* Error: Ran out of types for this method. */;
-- (void)oTool;
+- (void)mathRecognitionController:(id)arg1 solveStateChangedForExpressions:mathItems: /* Error: Ran out of types for this method. */;
+- (void)PKLassoTool;
 
 // Remaining properties
 @property(retain, nonatomic) UIColorPickerViewController *colorPickerViewController; // @synthesize colorPickerViewController=_colorPickerViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

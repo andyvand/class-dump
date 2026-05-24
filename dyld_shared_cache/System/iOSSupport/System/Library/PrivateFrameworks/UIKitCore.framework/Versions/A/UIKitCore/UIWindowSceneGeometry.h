@@ -4,56 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol UICoordinateSpace;
-
 @interface UIWindowSceneGeometry
 {
     _Bool _interfaceOrientationLocked;
-    _Bool _interactivelyResizing;
-    id <UICoordinateSpace> _coordinateSpace;
-    long long _interfaceOrientation;
-    long long _resizingRestrictions;
-    struct CGRect _systemFrame;
 }
 
 + (id);
-- (struct CGRect);
+- (struct CGRect)startSyncTask: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)fileTransferForBlastDoorFileTransferAttribute:(_Bool)arg1 fileTransferGUIDs:supportingStickerAttributes: /* Error: Ran out of types for this method. */;
+- (long long)_processFetchRecordZoneChangesCompletionWithError:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)IMFilterMessagePipelineComponent;
+- (_Bool)IMNotifyRecipientCommandProcessingPipelineComponent;
 - (void);
 - (void);
+- (id)be unregistered.;
 - (long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
+- (id);
 - (id);
 - (id)0@ù
 × ;
-- (_Bool)entifier:(id)arg1;
+- (_Bool)setLastUpdateIdentifier:(id)arg1;
 - (id)dStickerCollectionViewConfiguration",&,N,V_configuration;
-- (void)ffect;
+- (void)_UIGravityWellEffect;
 - (id)tion view;
-- (void)BarPaletteC;
+- (void)So23_UINavigationBarPaletteC;
 - (void)|¯;
 
 // Remaining properties
-@property(retain, nonatomic) id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInteractivelyResizing, setter=setIsInteractivelyResizing:) _Bool interactivelyResizing; // @synthesize interactivelyResizing=_interactivelyResizing;
-@property(nonatomic) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
-@property(nonatomic, getter=isInterfaceOrientationLocked, setter=setIsInterfaceOrientationLocked:) _Bool interfaceOrientationLocked; // @synthesize interfaceOrientationLocked=_interfaceOrientationLocked;
-@property(readonly, nonatomic) struct CGSize maximumSize; // @dynamic maximumSize;
-@property(readonly, nonatomic) struct CGSize minimumSize; // @dynamic minimumSize;
-@property(readonly, nonatomic) long long resizingRestrictions; // @synthesize resizingRestrictions=_resizingRestrictions;
-@property(readonly) Class superclass;
 @property(nonatomic) struct CGRect systemFrame; // @synthesize systemFrame=_systemFrame;
 
 @end

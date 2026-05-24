@@ -7,9 +7,6 @@
 @interface NewsUI2.EngagementUpsellBannerPropertiesProvider
 {
     id featureSettings;
-    id offerManager;
-    id triggerStateManager;
-    id paidBundleViaOfferFeatureAvailability;
 }
 
 @end

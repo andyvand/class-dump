@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSource
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_sourceId;
-    NSString *_version;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _resultProviderId;
-    struct {
-        unsigned int has_resultProviderId:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_sourceId:1;
-        unsigned int read_version:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)_objectOfCustomClass:(id)arg1 fromArchiveDictionary: /* Error: Ran out of types for this method. */;
+- (id)edText:correctedText:selectedAlternatives:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"read_unknownFields"b1"read_displayTitle"b1"read_url"b1"wrote_anyField"b1};
-- (id)esourceLoaderClass;
+- (id)_resourceLoaderClass;
 - (id);
 - (void)e9	¥/I@;
 

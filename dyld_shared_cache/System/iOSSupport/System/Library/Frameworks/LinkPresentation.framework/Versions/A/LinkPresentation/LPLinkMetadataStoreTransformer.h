@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, NSURL;
+@class LPLinkMetadata;
 
 @interface LPLinkMetadataStoreTransformer
 {
     LPLinkMetadata *_metadata;
-    NSURL *_URL;
 }
 
 - (id);

@@ -7,13 +7,10 @@
 @interface NSWritingToolsCoordinatorAnimationParameters
 {
     double _delay;
-    double _duration;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
-- (id);
-- (double);
+- (id);
+- (double)ic}@:%lld (%@) /* Error: Ran out of types for this method. */;
 - (double);
 - (CDUnknownBlockType);
 - (void);
@@ -22,10 +19,7 @@
 - (void)B;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly) double delay; // @synthesize delay=_delay;
 @property(readonly) double duration; // @synthesize duration=_duration;
-@property(copy) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

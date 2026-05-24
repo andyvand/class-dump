@@ -4,50 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface NSColorList
 {
     NSMutableArray *_keyArray;
-    NSMutableArray *_colorArray;
-    struct __CFDictionary *_keyToIndexTable;
-    NSString *_name;
-    NSString *_printerType;
-    NSString *_fileName;
-    struct _colorListFlags {
-        unsigned int colorsLoaded:1;
-        unsigned int editable:1;
-        unsigned int hasDeviceSpecificLists:1;
-        unsigned int dirty:1;
-        unsigned int hasFrozen:1;
-        unsigned int notificationsDisabled:1;
-        unsigned int hasAttemptedLoadingBundleForDirectory:1;
-        unsigned int isProfileBased:1;
-        unsigned int :24;
-        unsigned int :32;
-    } _flags;
-    id _clAuxiliaryStorage;
 }
 
-+ (id);
-+ (id);
-+ (void);
++ (id)ith the specified hostname could not be found.;
 + (id);
 + (void);
 + (id);
++ (void);
 + (id);
++ (id)6y6;
 + (_Bool)°;
 + (void)hôH;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)_dbInitialized;
+- (id)ivacyMode;
+- (id)Session <%{public}@> attempted to create a NSURLSessionDownloadTask in a session that has been invalidated;
+- (void)OS_sec_protocol_options>"8;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -55,11 +37,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (CDStruct_14f26992);
@@ -68,27 +50,25 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
+- (id)>iv);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Q;
 - (void);
-- (unsigned long long)tEdgeConstraint: /* Error: Ran out of types for this method. */;
-- (_Bool)SMenuItemViewProtocol_p;
+- (unsigned long long)setLastEdgeConstraint: /* Error: Ran out of types for this method. */;
+- (_Bool)So22NSMenuItemViewProtocol_p;
 - (_Bool)dow ordering. Break on _NSComplainIfBatchOrderingBreakpoint();
 - (_Bool)Ð[E;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allKeys;
-@property(readonly, getter=isEditable) _Bool editable;
 @property(readonly, copy) NSString *name;
 
 @end

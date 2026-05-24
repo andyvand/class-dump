@@ -6,20 +6,18 @@
 
 #import <SafariShared/WBSPerSitePreferenceManager.h>
 
-@class NSMutableDictionary, NSString, WBSPerSitePreference, WBSPerSitePreferencesSQLiteStore;
+@class NSMutableDictionary, WBSPerSitePreferencesSQLiteStore;
 
 @interface WBSOpenApplicationsPreferenceManager : WBSPerSitePreferenceManager
 {
     NSMutableDictionary *_cachedListValuesByDomain;
-    WBSPerSitePreferencesSQLiteStore *_perSitePreferencesStore;
-    WBSPerSitePreference *_openApplicationsPreference;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (_Bool);
 - (id);
@@ -29,21 +27,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)kE;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) WBSPerSitePreference *openApplicationsPreference; // @synthesize openApplicationsPreference=_openApplicationsPreference;
 @property(readonly, nonatomic) WBSPerSitePreferencesSQLiteStore *perSitePreferencesStore; // @synthesize perSitePreferencesStore=_perSitePreferencesStore;
-@property(readonly) Class superclass;
 
 @end
 

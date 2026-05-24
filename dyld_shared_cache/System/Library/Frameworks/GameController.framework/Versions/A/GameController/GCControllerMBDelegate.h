@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)_notifyOfCompletionWithError:(CDUnknownBlockType)arg1;
 - (void);
 - (void);
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKRecordZone, NSString;
+
 @protocol FCCKDatabaseRecordMiddleware
+- (NSString *)initWithConfidence:(NSString *)arg1;
+- (CKRecordZone *)setTimeMachineSession:(CKRecordZone *)arg1;
 @end
 

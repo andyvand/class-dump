@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
+- (void)ken response:(id)arg1 %@;
 - (void);
-- (void);
-- (id)ionalPropertyColors: /* Error: Ran out of types for this method. */;
+- (id)setAdditionalPropertyColors: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) VFXNode *node; // @synthesize node=_node;

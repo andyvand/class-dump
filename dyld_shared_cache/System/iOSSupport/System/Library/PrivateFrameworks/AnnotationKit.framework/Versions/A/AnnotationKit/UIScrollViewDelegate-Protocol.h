@@ -9,6 +9,11 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)idChange:(UIScrollView *)arg1;
+- (void)setInputDelegate:(UIScrollView *)arg1;
+- (void);
+- (void)screenSpaceAmbientOcclusionBias;
+- (void);
+- (void)randomElementOfArray:(UIScrollView *)arg1 relativeProbabilities:(_Bool)arg2;
+- (void)toolPickerVisibilityDidChange:(UIScrollView *)arg1;
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBCommandReference, _SFPBRFPreviewList;
+@class NSData, _SFPBCommandReference;
 
 @protocol _SFPBRFEngageable
+- (NSData *)emoryAssetCountsKey;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCommandReference *command_reference;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFPreviewList *preview_list;
-@property(readonly, nonatomic) unsigned long long whichEngageable_Oneof;
 @end
 

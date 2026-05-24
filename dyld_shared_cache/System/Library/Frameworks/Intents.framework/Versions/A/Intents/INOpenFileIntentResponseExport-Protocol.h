@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSArray, NSNumber;
 
 @protocol INOpenFileIntentResponseExport
-- (NSNumber *)NumericValueForSetNumericSetting:withCompletion: /* Error: Ran out of types for this method. */;
-- (long long)ex;
 - (void);
+- (NSNumber *)resolveNumericValueForSetNumericSetting:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)hasFanSpeedIndex;
+- (void)HOUR;
 - (NSArray *);
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *entities;
-@property(copy) NSNumber *numResults;
-@property(copy) NSString *query;
-@property(copy) NSNumber *success;
 @end
 

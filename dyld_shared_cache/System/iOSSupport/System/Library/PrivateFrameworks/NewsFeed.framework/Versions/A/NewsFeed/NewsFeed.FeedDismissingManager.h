@@ -7,9 +7,6 @@
 @interface NewsFeed.FeedDismissingManager
 {
     id storage;
-    id name;
-    id closures;
-    id lock;
 }
 
 @end

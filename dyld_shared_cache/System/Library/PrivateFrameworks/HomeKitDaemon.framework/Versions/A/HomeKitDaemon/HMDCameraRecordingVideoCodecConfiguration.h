@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingVideoCodec, HMDCameraRecordingVideoCodecParameters, NSArray, NSData;
+@class HMDCameraRecordingVideoCodec;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingVideoCodecConfiguration
 {
     HMDCameraRecordingVideoCodec *_codec;
-    HMDCameraRecordingVideoCodecParameters *_parameters;
-    NSArray *_videoAttributes;
 }
 
 + (_Bool)8;´Ì;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)1;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)>",W,V_dataSource;
 - (id)¶;
@@ -28,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDCameraRecordingVideoCodec *codec; // @synthesize codec=_codec;
-@property(readonly, copy, nonatomic) HMDCameraRecordingVideoCodecParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly, copy) NSData *tlvData;
-@property(readonly, copy, nonatomic) NSArray *videoAttributes; // @synthesize videoAttributes=_videoAttributes;
 
 @end
 

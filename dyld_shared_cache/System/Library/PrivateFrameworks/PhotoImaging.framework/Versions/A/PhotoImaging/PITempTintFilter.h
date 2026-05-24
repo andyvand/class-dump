@@ -9,8 +9,6 @@
 @interface PITempTintFilter
 {
     CIImage *_inputImage;
-    double _inputTemperature;
-    double _inputTint;
 }
 
 + (id);
@@ -18,22 +16,18 @@
 - (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (void);
 - (id);
 - (void);
-- (double);
-- (void);
+- (double);
+- (void)ask.swift;
 - (double);
 - (id);
-- (void)sary: /* Error: Ran out of types for this method. */;
+- (void)whiteBalanceAdjustmentControllerCreatingIfNecessary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(nonatomic) double inputTemperature; // @synthesize inputTemperature=_inputTemperature;
-@property(nonatomic) double inputTint; // @synthesize inputTint=_inputTint;
-@property(nonatomic) double temperature;
-@property(nonatomic) double tint;
 
 @end
 

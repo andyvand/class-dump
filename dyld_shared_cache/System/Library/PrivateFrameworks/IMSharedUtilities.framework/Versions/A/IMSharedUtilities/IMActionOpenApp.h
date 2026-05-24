@@ -12,16 +12,15 @@
 }
 
 - (id);
-- (id);
+- (id)on.processing.location.non-optimal;
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *url;
 
 @end

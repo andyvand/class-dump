@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     UIViewController *viewController;
 }
 
+- (void)f;
 - (void);
-- (void);
-- (id)shed;
+- (id)isFinished;
 - (void);
 
 // Remaining properties

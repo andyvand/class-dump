@@ -9,13 +9,9 @@
 @interface CRKEventLog
 {
     NSSet *mLazilyLoadedEvents;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSSet *_passedInEvents;
-    NSSet *_passedInEventDatas;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -38,10 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, copy, nonatomic) NSSet *events;
-@property(copy, nonatomic) NSSet *passedInEventDatas; // @synthesize passedInEventDatas=_passedInEventDatas;
-@property(copy, nonatomic) NSSet *passedInEvents; // @synthesize passedInEvents=_passedInEvents;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

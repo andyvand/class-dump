@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerController, NSString;
+@class AVPlayerController;
 
 __attribute__((visibility("hidden")))
 @interface AVNowPlayingInfoController
 {
     AVPlayerController *_playerController;
-    id _playerControllerCurrentTimeJumpedObserver;
-    _Bool _nowPlayingInfoNeedsUpdate;
-    _Bool _enabled;
-    _Bool _shouldOwnNowPlayingInfo;
-    void *_commandHandlerIdentifier;
-    NSString *_overrideParentApplicationDisplayIdentifier;
 }
 
 - (void);
@@ -34,11 +28,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)yv;
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(copy, nonatomic) NSString *overrideParentApplicationDisplayIdentifier; // @synthesize overrideParentApplicationDisplayIdentifier=_overrideParentApplicationDisplayIdentifier;
 @property(retain) AVPlayerController *playerController;
 
 @end

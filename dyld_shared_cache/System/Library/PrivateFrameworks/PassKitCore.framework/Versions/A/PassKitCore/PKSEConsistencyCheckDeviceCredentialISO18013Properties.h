@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKSEConsistencyCheckDeviceCredentialISO18013Properties
 {
     _Bool _hasKeyMeterial;
-    _Bool _requireKeySync;
-    NSString *_isoIdentifier;
 }
 
 - (_Bool);
@@ -22,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKeyMeterial; // @synthesize hasKeyMeterial=_hasKeyMeterial;
-@property(readonly, nonatomic) NSString *isoIdentifier; // @synthesize isoIdentifier=_isoIdentifier;
-@property(readonly, nonatomic) _Bool requireKeySync; // @synthesize requireKeySync=_requireKeySync;
 
 @end
 

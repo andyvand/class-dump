@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol IMDaemonProtocol;
+@class NSString;
 
 @interface IMMultiplexedDaemonConnection
 {
     void label;
-    unsigned long long capabilities;
-    void context;
-    id onInvalidate;
-    id onDeinit;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)c}s;
 - (void);
 - (id);
-- (id);
+- (id)\;
 - (void);
 - (id);
 - (id);
@@ -30,11 +25,7 @@
 - (void)tÿÿlh;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long capabilities; // @synthesize capabilities;
-@property(nonatomic, readonly) NSDictionary *context;
 @property(nonatomic, readonly) NSString *label;
-@property(nonatomic, readonly) id <IMDaemonProtocol> remoteProxy;
-@property(nonatomic, readonly) id <IMDaemonProtocol> synchronousRemoteProxy;
 
 @end
 

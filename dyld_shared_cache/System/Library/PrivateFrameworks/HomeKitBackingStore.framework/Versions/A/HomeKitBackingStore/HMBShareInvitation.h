@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, HMBCloudZoneID, HMBShareInvitationContext, NSDate, NSURL;
+@class HMBShareInvitationContext, NSURL;
 
 @interface HMBShareInvitation
 {
     HMBShareInvitationContext *_context;
-    HMBCloudZoneID *_cloudZoneID;
-    NSDate *_dateCreated;
-    NSURL *_shareURL;
-    CKDeviceToDeviceShareInvitationToken *_token;
 }
 
-+ (_Bool);
++ (_Bool)al NOT NULL DEFAULT 0, timesAccessed integer NOT NULL DEFAULT 0, FOREIGN KEY (sessionId) REFERENCES sessions (id) ON DELETE CASCADE );
 
 // Remaining properties
-@property(readonly, nonatomic) HMBCloudZoneID *cloudZoneID; // @synthesize cloudZoneID=_cloudZoneID;
-@property(readonly, nonatomic) HMBShareInvitationContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
 @property(readonly, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(readonly, nonatomic) CKDeviceToDeviceShareInvitationToken *token; // @synthesize token=_token;
 
 @end
 

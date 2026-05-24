@@ -6,22 +6,12 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCAssetManager, FCCKContentDatabase, FCStreamingResults, FCTagRecordSource, NSError, NSString;
-@protocol FCContentContext, FCCoreConfiguration;
+@class FCTagRecordSource;
+@protocol FCContentContext;
 
 @interface FCTagSearchOperation : FCOperation
 {
     id <FCContentContext> _contentContext;
-    NSString *_searchString;
-    unsigned long long _tagType;
-    unsigned long long _batchSize;
-    CDUnknownBlockType _searchResultsBlock;
-    FCTagRecordSource *_tagRecordSource;
-    FCCKContentDatabase *_contentDatabase;
-    FCAssetManager *_assetManager;
-    id <FCCoreConfiguration> _configuration;
-    FCStreamingResults *_searchResults;
-    NSError *_searchError;
 }
 
 - (void);
@@ -36,9 +26,9 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (void)?;
 - (void);
-- (void);
-- (id);
+- (id)lastDataPathStateChangedOptions;
 - (void);
 - (id);
 - (void);
@@ -46,29 +36,19 @@
 - (void);
 - (unsigned long long)(	Ð1Â0@ù
 × ;
-- (void)ackBaselineImpressionValue;
-- (void)ipeToArticleHeavyClickMinimumDuration;
+- (void)_videoCompletePlaybackBaselineImpressionValue;
+- (void)swipeToArticleHeavyClickMinimumDuration;
 - (void)<v@?>36@"NSError"44;
 - (void);
 - (void)SCYZKnwpRHGoev-HsLwUFg;
-- (void)adingHistory;
+- (void)readingHistory;
 - (id)nt=%{public}ld, time=%{public}llums;
-- (id)orkEventCIegg_;
+- (id)So14FCNetworkEventCIegg_;
 - (_Bool)ù;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) FCAssetManager *assetManager; // @synthesize assetManager=_assetManager;
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(copy, nonatomic) id <FCCoreConfiguration> configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(retain, nonatomic) FCCKContentDatabase *contentDatabase; // @synthesize contentDatabase=_contentDatabase;
-@property(retain, nonatomic) NSError *searchError; // @synthesize searchError=_searchError;
-@property(retain, nonatomic) FCStreamingResults *searchResults; // @synthesize searchResults=_searchResults;
-@property(copy) CDUnknownBlockType searchResultsBlock; // @synthesize searchResultsBlock=_searchResultsBlock;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 @property(retain, nonatomic) FCTagRecordSource *tagRecordSource; // @synthesize tagRecordSource=_tagRecordSource;
-@property(nonatomic) unsigned long long tagType; // @synthesize tagType=_tagType;
 
 @end
 

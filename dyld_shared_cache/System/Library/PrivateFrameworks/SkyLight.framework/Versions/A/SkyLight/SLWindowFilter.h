@@ -4,61 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet;
+@class NSSet;
 
 @interface SLWindowFilter
 {
     _Bool _hide_menu_bar;
-    _Bool _enforce_sharing_type;
-    NSSet *_includedWindows;
-    NSSet *_excludedWindows;
-    NSSet *_includedApplications;
-    NSSet *_excludedApplications;
-    NSSet *_includedPIDS;
-    NSSet *_excludedPIDS;
-    NSNumber *_filterPolicy;
-    NSNumber *_shieldWindow;
 }
 
+- (id)pple.coredata.voucher.expire;
+- (void)ecoveryFromManateeIdentityLoss:(id)arg1 databaseScope:inStore:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)legate checkAndExecuteNextRequest]_block_invoke;
+- (void)uest];
+- (void)roringDelegate checkAndExecuteNextRequest];
+- (void)his process.;
+- (void)ngDelegate checkAndScheduleImportIfNecessaryFromPush:(id)arg1 fromErrorRecovery:fromShareAccept:andStartAfterDate:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)ate-%@-%@-%@;
+- (void)or-%@-%@;
+- (void)ne-LastFetchDate-%@-%@;
+- (void)RecoverableImportError;
+- (_Bool)kCFErrorDomainCFNetwork;
+- (id)AFTER INSERT ON %@ FOR EACH ROW;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)_%@_%@;
+- (id)pported NSExpression in propertiesToFetch:%@ /* Error: Ran out of types for this method. */;
+- (id)%@ on %p;
+- (id)rorString/;
+- (_Bool)<no error>;
+- (id)odel generation failed %@);
+- (id)iguration will be ignored.;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)etTypeID();
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)Q;
+- (id)8;
 
 // Remaining properties
-@property _Bool enforce_sharing_type; // @synthesize enforce_sharing_type=_enforce_sharing_type;
-@property(retain) NSSet *excludedApplications; // @synthesize excludedApplications=_excludedApplications;
-@property(retain) NSSet *excludedPIDS; // @synthesize excludedPIDS=_excludedPIDS;
-@property(retain) NSSet *excludedWindows; // @synthesize excludedWindows=_excludedWindows;
-@property(retain) NSNumber *filterPolicy; // @synthesize filterPolicy=_filterPolicy;
-@property _Bool hide_menu_bar; // @synthesize hide_menu_bar=_hide_menu_bar;
-@property(retain) NSSet *includedApplications; // @synthesize includedApplications=_includedApplications;
-@property(retain) NSSet *includedPIDS; // @synthesize includedPIDS=_includedPIDS;
 @property(retain) NSSet *includedWindows; // @synthesize includedWindows=_includedWindows;
-@property(retain) NSNumber *shieldWindow; // @synthesize shieldWindow=_shieldWindow;
 
 @end
 

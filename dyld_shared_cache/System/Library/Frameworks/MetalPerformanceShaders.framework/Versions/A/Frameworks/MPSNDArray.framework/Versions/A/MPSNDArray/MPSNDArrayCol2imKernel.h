@@ -9,19 +9,9 @@
 @interface MPSNDArrayCol2imKernel : MPSNDArrayUnaryKernel
 {
     unsigned int _kernelHeight;
-    unsigned int _kernelWidth;
-    unsigned int _paddingLeft;
-    unsigned int _paddingRight;
-    unsigned int _paddingTop;
-    unsigned int _paddingBottom;
-    unsigned int _strideHeight;
-    unsigned int _strideWidth;
-    unsigned int _dilationHeight;
-    unsigned int _dilationWidth;
-    unsigned int _dataLayout;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (unsigned int);
 - (unsigned int);
 - (void);
@@ -42,7 +32,8 @@
 - (void);
 - (unsigned int);
 - (void);
-- (unsigned int);
+- (unsigned int)ng assignment step
+;
 - (void);
 - (void);
 - (unsigned int);
@@ -51,17 +42,7 @@
 - (void)a;
 
 // Remaining properties
-@property(nonatomic) unsigned int dataLayout; // @synthesize dataLayout=_dataLayout;
-@property(nonatomic) unsigned int dilationHeight; // @synthesize dilationHeight=_dilationHeight;
-@property(nonatomic) unsigned int dilationWidth; // @synthesize dilationWidth=_dilationWidth;
 @property(nonatomic) unsigned int kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property(nonatomic) unsigned int kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(nonatomic) unsigned int paddingBottom; // @synthesize paddingBottom=_paddingBottom;
-@property(nonatomic) unsigned int paddingLeft; // @synthesize paddingLeft=_paddingLeft;
-@property(nonatomic) unsigned int paddingRight; // @synthesize paddingRight=_paddingRight;
-@property(nonatomic) unsigned int paddingTop; // @synthesize paddingTop=_paddingTop;
-@property(nonatomic) unsigned int strideHeight; // @synthesize strideHeight=_strideHeight;
-@property(nonatomic) unsigned int strideWidth; // @synthesize strideWidth=_strideWidth;
 
 @end
 

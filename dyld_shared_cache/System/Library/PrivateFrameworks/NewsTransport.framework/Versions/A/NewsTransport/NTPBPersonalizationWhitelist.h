@@ -9,45 +9,41 @@
 @interface NTPBPersonalizationWhitelist
 {
     NSMutableArray *_defaultTags;
-    NSMutableArray *_disabledPortraitTags;
-    NSMutableArray *_optionalTags;
 }
 
 + (Class);
 + (Class);
 + (Class);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)P;
+- (void)GSize=dd}}32@0:8@"NSMenu"16@"NSScreen"24 /* Error: Ran out of types for this method. */;
+- (unsigned long long)_walletCategoryIdentifier;
+- (void)@;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)oundation.framework/Versions/C/Foundation;
+- (unsigned long long)bserverID-%d;
+- (id)SystemSizeFinal;
+- (_Bool)AndInstallBased fixUpSlashUsersDirectoryLocation];
+- (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (void);
+- (unsigned long long)_nameImageMaskWidgetHQAssetHandle;
+- (void)s and %lu autoFavoriteTagIDs;
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void)GroupingIfAutofavorited: /* Error: Ran out of types for this method. */;
-- (id)icleRankInSection;
+- (void)convertToAccessibilityElementWithContainer: /* Error: Ran out of types for this method. */;
+- (void)setIsEligibleForFoodGroupingIfAutofavorited: /* Error: Ran out of types for this method. */;
+- (id)_widgetArticleRankInSection;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *defaultTags; // @synthesize defaultTags=_defaultTags;
-@property(retain, nonatomic) NSMutableArray *disabledPortraitTags; // @synthesize disabledPortraitTags=_disabledPortraitTags;
-@property(retain, nonatomic) NSMutableArray *optionalTags; // @synthesize optionalTags=_optionalTags;
 
 @end
 

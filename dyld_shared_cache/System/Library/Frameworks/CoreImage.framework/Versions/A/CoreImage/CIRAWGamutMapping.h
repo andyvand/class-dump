@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIRAWGamutMapping : CIFilter
 {
     CIImage *inputImage;
-    NSDictionary *inputRAWDictionary;
 }
 
 - (id)uuuu?`VqIkb{¦¦¦¦­­­­¨¨¨¨ ££;

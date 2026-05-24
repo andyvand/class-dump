@@ -9,10 +9,9 @@
 @interface EKCredentials
 {
     NSString *_username;
-    NSString *_password;
 }
 
-+ (id);
++ (id)variableFramesInPacket;
 - (id);
 - (id);
 - (id);
@@ -20,7 +19,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *password; // @synthesize password=_password;
 @property(readonly, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

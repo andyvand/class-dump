@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VNEspressoDetectedObject
 {
     struct CGRect _bounds;
-    float _confidence;
-    long long _objectType;
 }
 
 - (id);
@@ -19,13 +17,10 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (long long);
 - (void);
-- (float);
+- (float)_cn_containsCharacterInSet: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly) struct CGPoint center;
-@property float confidence; // @synthesize confidence=_confidence;
 @property long long objectType; // @synthesize objectType=_objectType;
 
 @end

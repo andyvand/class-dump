@@ -13,19 +13,19 @@
     PKImage *_venueMapImage;
 }
 
-+ (long long);
++ (long long)h6;
 + (_Bool)1Â0@ù
 × ;
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void)ncorrect;
+- (id)q;
+- (unsigned long long)@9;
+- (_Bool)setHasConnectFailed:(id)arg1;
+- (void)sessionStartTimestamp;
+- (void)cardPINIncorrect;
 
 // Remaining properties
 @property(retain, nonatomic) PKImage *venueMapImage; // @synthesize venueMapImage=_venueMapImage;

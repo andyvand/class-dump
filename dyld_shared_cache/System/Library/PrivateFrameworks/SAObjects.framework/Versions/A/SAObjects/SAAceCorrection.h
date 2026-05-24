@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SAAceCorrection : SADomainObject
 {
@@ -17,13 +17,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)CTC-scale;
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *correctionEntryData;
-@property(copy, nonatomic) NSString *debugString;
 
 @end
 

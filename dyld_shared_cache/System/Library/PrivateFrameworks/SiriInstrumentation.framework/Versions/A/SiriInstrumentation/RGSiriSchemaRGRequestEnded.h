@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RGSiriSchemaRGRequestEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    int _responseSource;
-    unsigned int _characterCount;
-    unsigned int _wordCount;
-    int _fallbackReason;
-    SISchemaUUID *_transcriptEventId;
-    struct {
-        unsigned int responseSource:1;
-        unsigned int characterCount:1;
-        unsigned int wordCount:1;
-        unsigned int fallbackReason:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasTranscriptEventId;
 }
 
 - (id);
@@ -40,48 +27,36 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (int);
 - (void);
+- (void)_fetchInfoAndPresentBeneficiaryInvitationForUUID:(id)arg1;
+- (void)_delegatePlist;
+- (id)rgetProgressIndicator;
+- (_Bool)_disableiCloudDriveCancelButton;
 - (void);
-- (void);
+- (unsigned int);
 - (id);
+- (id);
+- (void);
+- (void).apple.appstored.private;
+- (unsigned long long)bs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDUpdateMetricsStore_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (unsigned int);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (unsigned int);
-- (_Bool);
+- (_Bool)chment_join (message_id, attachment_id) VALUES (?, ?);;
 - (int);
 - (id);
 - (_Bool);
 - (id);
 - (id)aggregationInterval;
 - (id);
-- (void)ERVICE_SETUP;
+- (void)IFPLATFORMTARGET_QUERY_DECORATION_SERVICE_SETUP;
 
 // Remaining properties
-@property(nonatomic) unsigned int characterCount; // @synthesize characterCount=_characterCount;
-@property(nonatomic) int fallbackReason; // @synthesize fallbackReason=_fallbackReason;
-@property(nonatomic) _Bool hasCharacterCount;
-@property(nonatomic) _Bool hasFallbackReason;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasResponseSource;
-@property(nonatomic) _Bool hasTranscriptEventId; // @synthesize hasTranscriptEventId=_hasTranscriptEventId;
-@property(nonatomic) _Bool hasWordCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) int responseSource; // @synthesize responseSource=_responseSource;
-@property(retain, nonatomic) SISchemaUUID *transcriptEventId; // @synthesize transcriptEventId=_transcriptEventId;
-@property(nonatomic) unsigned int wordCount; // @synthesize wordCount=_wordCount;
 
 @end
 

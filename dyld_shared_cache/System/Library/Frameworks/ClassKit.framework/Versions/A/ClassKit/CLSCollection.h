@@ -6,26 +6,22 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CLSCollection : CLSObject
 {
     NSString *_name;
-    long long _type;
-    NSString *_location;
-    NSString *_iconID;
-    NSString *_colorName;
-    NSDate *_dateClassCreated;
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
++ (_Bool)_configuration;
+- (void)han kANEProgramPriority7. Lowering priority to kANEProgramPriority7 0x%08X;
+- (void)%s:(id)arg1 exceed max outputs/set limit:%d
+ /* Error: Ran out of types for this method. */;
+- (void)ANEServicesDeviceSessionHintRequest;
+- (void)NEFreq;
+- (id)ct ident_command *, const struct compute_thread_command *, const void *, const void *):(id)arg1:(id)arg2 (anonymous class):(id)arg3:(long long)arg4 operator()(const void *const, size_t) const;
+- (id)adArgumentSize(uint32_t, const char *, const void *, const void *, uint32_t &);
 - (id);
 - (id);
 - (unsigned long long);
@@ -33,7 +29,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
@@ -50,19 +46,7 @@
 - (void)¨ÿÿëSV;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *colorName; // @synthesize colorName=_colorName;
-@property(retain, nonatomic) NSDate *dateClassCreated; // @synthesize dateClassCreated=_dateClassCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *iconID; // @synthesize iconID=_iconID;
-@property(copy, nonatomic) NSString *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

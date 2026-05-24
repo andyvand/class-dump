@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)Coder"16;
 + (id);
 - (_Bool);
 - (id);

@@ -9,7 +9,6 @@
 @interface WBSCreditCardImporterDelegateProxy
 {
     id <WBSCreditCardImporterDelegate> _delegate;
-    unsigned long long _numberOfCreditCardsImported;
 }
 
 - (unsigned long long);

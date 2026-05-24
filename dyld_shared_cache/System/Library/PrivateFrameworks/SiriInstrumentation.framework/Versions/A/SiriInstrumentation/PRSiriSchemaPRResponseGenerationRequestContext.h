@@ -6,56 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PRSiriSchemaPRResponseGenerationRequestEnded, PRSiriSchemaPRResponseGenerationRequestFailed, PRSiriSchemaPRResponseGenerationRequestStart;
+@class PRSiriSchemaPRResponseGenerationRequestStart;
 
 @interface PRSiriSchemaPRResponseGenerationRequestContext : SISchemaInstrumentationMessage
 {
     PRSiriSchemaPRResponseGenerationRequestStart *_startedOrChanged;
-    PRSiriSchemaPRResponseGenerationRequestEnded *_ended;
-    PRSiriSchemaPRResponseGenerationRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void)";
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)CѨ#;
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void)inary of target process [%d];
 - (id);
 - (id);
-- (id)ount;
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (unsigned long long)/InstallApps/Metadata/ASDWatchAppMetadata.m:172 :Unsupported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)%llu;
+- (id);
+- (id);
+- (id)_siriUnavailableResponseCount;
 - (id)N,V_isUserRecognized;
-- (void)ies;
+- (void)eventEntities;
 
 // Remaining properties
-@property(retain, nonatomic) PRSiriSchemaPRResponseGenerationRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PRSiriSchemaPRResponseGenerationRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PRSiriSchemaPRResponseGenerationRequestStart *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

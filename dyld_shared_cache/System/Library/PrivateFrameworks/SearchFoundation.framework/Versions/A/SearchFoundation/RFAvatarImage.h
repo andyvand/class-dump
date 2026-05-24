@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface RFAvatarImage
 {
     CDStruct_4c5297e4 _has;
-    int _image_style;
-    NSArray *_contact_ids;
 }
 
 + (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)K-;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)initWithTitle:(id)arg1 subtitle:artworkImageData: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)B;
 - (void);
-- (id);
-- (id);
+- (id)setVerifiedPersonTypes:(id)arg1;
+- (id)originalHeight;
 - (id);
 - (id);
 - (void)@"_SFPBClearProactiveCategoryCommand",&,N,V_clearProactiveCategoryCommand;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contact_ids; // @synthesize contact_ids=_contact_ids;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int image_style; // @synthesize image_style=_image_style;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

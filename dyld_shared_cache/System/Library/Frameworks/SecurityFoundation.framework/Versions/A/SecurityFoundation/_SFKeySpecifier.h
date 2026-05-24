@@ -11,9 +11,9 @@
 
 + (Class);
 + (_Bool);
-- (id);
+- (id)emContentCreationDateMonth=%@);
 - (void);
-- (id);
+- (id)�;
 - (void);
 
 @end

@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSUUID, UITextRange;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIReplacementCandidate
 {
     _Bool _isAutofillDoubleLineUI;
-    NSString *_documentTextToReplace;
-    NSString *_revertText;
-    NSArray *_alternativeRevertTexts;
-    NSArray *_candidateChoices;
-    NSArray *_underlines;
-    UITextRange *_rangeInDocument;
-    long long _underlineStyle;
-    long long _preferredPromptStyle;
-    long long _preferredPromptButton;
-    NSNumber *_voiceCommandDisambiguationSelectedIndex;
-    NSUUID *_voiceCommandTrackingUUID;
-    NSNumber *_voiceCommandDisambiguationTargetCount;
 }
 
 + (id);
@@ -38,43 +26,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)__objc_classrefs__DATA;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)deliverFrameWithBufferID:(id)arg1 attachments: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (long long);
 - (long long);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)substringFromIndex: /* Error: Ran out of types for this method. */;
+- (id)notificationCenterDidDisappear;
+- (id)initWithDisplayName:messageGUID:fromID:toIdentifier:forChat:style:account: /* Error: Ran out of types for this method. */;
+- (void)ted handled nickname map %@;
+- (id)problem writing an unknown sender payload update with key %@ -  %@;
 - (long long);
 - (void);
-- (id);
-- (void)tionProperty;
+- (id)5@;
+- (void)UIAnimatedTransitionProperty;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alternativeRevertTexts; // @synthesize alternativeRevertTexts=_alternativeRevertTexts;
-@property(retain, nonatomic) NSArray *candidateChoices; // @synthesize candidateChoices=_candidateChoices;
 @property(retain, nonatomic) NSString *documentTextToReplace; // @synthesize documentTextToReplace=_documentTextToReplace;
-@property(nonatomic) _Bool isAutofillDoubleLineUI; // @synthesize isAutofillDoubleLineUI=_isAutofillDoubleLineUI;
-@property(nonatomic) long long preferredPromptButton; // @synthesize preferredPromptButton=_preferredPromptButton;
-@property(nonatomic) long long preferredPromptStyle; // @synthesize preferredPromptStyle=_preferredPromptStyle;
-@property(retain, nonatomic) UITextRange *rangeInDocument; // @synthesize rangeInDocument=_rangeInDocument;
-@property(retain, nonatomic) NSString *revertText; // @synthesize revertText=_revertText;
-@property(retain, nonatomic) NSArray *textChoices;
-@property(nonatomic) long long underlineStyle; // @synthesize underlineStyle=_underlineStyle;
-@property(retain, nonatomic) NSArray *underlines; // @synthesize underlines=_underlines;
-@property(retain, nonatomic) NSNumber *voiceCommandDisambiguationSelectedIndex; // @synthesize voiceCommandDisambiguationSelectedIndex=_voiceCommandDisambiguationSelectedIndex;
-@property(retain, nonatomic) NSNumber *voiceCommandDisambiguationTargetCount; // @synthesize voiceCommandDisambiguationTargetCount=_voiceCommandDisambiguationTargetCount;
-@property(retain, nonatomic) NSUUID *voiceCommandTrackingUUID; // @synthesize voiceCommandTrackingUUID=_voiceCommandTrackingUUID;
 
 @end
 

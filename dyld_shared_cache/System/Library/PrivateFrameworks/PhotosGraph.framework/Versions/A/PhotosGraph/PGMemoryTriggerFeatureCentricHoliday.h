@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)wiki: /* Error: Ran out of types for this method. */;
 
 @end
 

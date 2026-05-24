@@ -9,9 +9,9 @@
     unsigned long long _maximumResultCount;
 }
 
-+ (id);
-- (void);
-- (unsigned long long);
++ (id)ts] %{public}@ UpdatingCache:(id)arg1 clientProperties %{public}@;
+- (void)essing PlaybackQueueContentItemsChangedNotification for content items %@.;
+- (unsigned long long)UpdatingCache:lastPlayingDate %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property unsigned long long maximumResultCount; // @synthesize maximumResultCount=_maximumResultCount;

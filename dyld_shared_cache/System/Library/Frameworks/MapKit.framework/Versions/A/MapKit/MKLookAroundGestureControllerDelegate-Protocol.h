@@ -5,5 +5,6 @@
 //
 
 @protocol MKLookAroundGestureControllerDelegate
+- (void)̚;
 @end
 

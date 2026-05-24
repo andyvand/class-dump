@@ -6,7 +6,7 @@
 
 #import <AppKit/_NSThemeWidget.h>
 
-@class NSString, NSThemeWidgetZoomMenuRemoteView;
+@class NSThemeWidgetZoomMenuRemoteView;
 
 __attribute__((visibility("hidden")))
 @interface _NSThemeZoomWidget : _NSThemeWidget
@@ -17,22 +17,16 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void)Xÿ<àÕG;
 - (_Bool);
+- (void)RegionInfoFromActivation;
+- (void)`;
+- (id)c;
+- (void)_ZN5STube10initializeEP17SBaseAwaitingTube;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)Contents;
+- (void)WillDisassociateAlternateContents;
 - (void)ost recently saved version of the document \U201C%@\U201D?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

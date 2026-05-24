@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMapTable;
+@class NSCache;
 
 __attribute__((visibility("hidden")))
 @interface HistoryController
 {
     NSCache *_bookmarkSources;
-    NSCache *_cachedTopSitesControllers;
-    NSMapTable *_strongProfileIdentiferToWeakTopSitesController;
-    NSCache *_combinedFavoritesControllers;
 }
 
-+ (id);
++ (id)objectForKeyedSubscript: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (void);

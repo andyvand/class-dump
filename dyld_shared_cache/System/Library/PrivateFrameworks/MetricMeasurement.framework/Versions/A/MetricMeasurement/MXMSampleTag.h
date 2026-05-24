@@ -9,10 +9,9 @@
 @interface MXMSampleTag
 {
     NSOrderedSet *_taxonomy;
-    MXMSampleTag *_parent;
 }
 
-+ (id);
++ (id)z;
 + (_Bool);
 - (id);
 - (id);
@@ -22,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,7 +32,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domainNameString;
-@property(readonly, copy, nonatomic) MXMSampleTag *parent; // @synthesize parent=_parent;
 
 @end
 

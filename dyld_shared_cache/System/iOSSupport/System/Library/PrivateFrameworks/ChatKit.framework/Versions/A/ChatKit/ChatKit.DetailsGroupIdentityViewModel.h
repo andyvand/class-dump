@@ -9,12 +9,6 @@
 @interface ChatKit.DetailsGroupIdentityViewModel : ChatKit.DetailsConfiguredViewModel
 {
     id _isPresentingEditNameAndPhoto;
-    id shouldPlaceGroupIdentityInHeader;
-    id _groupHeaderViewTitleScrollThreshold;
-    id _hideGroupIdentityTitleLabel;
-    id _groupIdentityGroupName;
-    id _headerViewYOriginInScrollView;
-    id _$observationRegistrar;
 }
 
 @end

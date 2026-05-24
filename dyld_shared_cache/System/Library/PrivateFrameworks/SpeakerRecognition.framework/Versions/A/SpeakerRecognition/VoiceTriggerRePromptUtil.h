@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)soft_AXDeviceSupportsMotionCues(void);
 
 // Remaining properties
 @property(retain) BloomFilter *bloomFilter; // @synthesize bloomFilter=_bloomFilter;

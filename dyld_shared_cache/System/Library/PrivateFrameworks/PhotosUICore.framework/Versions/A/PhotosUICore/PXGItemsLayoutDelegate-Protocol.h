@@ -5,5 +5,9 @@
 //
 
 @protocol PXGItemsLayoutDelegate
+
+@optional
+- (struct CGRect);
+- (double)01;
 @end
 

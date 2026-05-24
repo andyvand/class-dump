@@ -6,12 +6,9 @@
 
 #import <ClassroomKit/CRKASMRosterProviderDecoratorBase.h>
 
-@class NSMapTable;
-
 @interface CRKASMTimeoutRosterProvider : CRKASMRosterProviderDecoratorBase
 {
     double _timeout;
-    NSMapTable *_completionsByTimer;
 }
 
 - (void);
@@ -22,12 +19,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *completionsByTimer; // @synthesize completionsByTimer=_completionsByTimer;
 @property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <ContactsPersistence/ABCDOwnedObject.h>
 
-@class ABCDRecord, NSManagedObject, NSString;
+@class NSManagedObject;
 
 @interface ABCDDateComponents : ABCDOwnedObject
 {
@@ -16,17 +16,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)pdate.;
 
 // Remaining properties
-@property(copy) NSString *calendarIdentifier; // @dynamic calendarIdentifier;
 @property(retain, nonatomic) NSManagedObject *contact; // @dynamic contact;
-@property long long day; // @dynamic day;
-@property long long era; // @dynamic era;
-@property _Bool isLeapMonth; // @dynamic isLeapMonth;
-@property long long month; // @dynamic month;
-@property(retain, nonatomic) ABCDRecord *owner;
-@property long long year; // @dynamic year;
 
 @end
 

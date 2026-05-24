@@ -9,9 +9,6 @@
 @interface _DKObjectFromMOCache
 {
     NSMutableDictionary *_cache;
-    NSMutableDictionary *_cacheEntries;
-    NSMutableDictionary *_cacheHits;
-    NSMutableDictionary *_cacheMisses;
 }
 
 - (id);

@@ -18,18 +18,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (void);
 - (id);
-- (void)trackedElementIndexPath;
+- (void)_trackedElementIndexPath;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canShowBlockContactUI;
 @property(retain, nonatomic) CNSensitiveContentUIEntitlementVerifier *entitlementVerifier; // @synthesize entitlementVerifier=_entitlementVerifier;
-@property(readonly, nonatomic) _Bool isEntitledForSensitiveContentUI;
-@property(readonly, nonatomic) _Bool isSensitiveContentAnalysisEnabled;
-@property(readonly, nonatomic) _Bool requiresDescriptiveInterventions;
 
 @end
 

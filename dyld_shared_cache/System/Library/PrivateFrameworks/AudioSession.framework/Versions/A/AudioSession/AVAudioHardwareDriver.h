@@ -6,23 +6,20 @@
 
 #import <AudioSession/AVAudioHardwareObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AVAudioHardwareDriver : AVAudioHardwareObject
 {
 }
 
+- (id)_TtP16NetworkExtension41NEURLFilterControlProviderHostXPCProtocol_;
+- (id)_TtC16NetworkExtension40NEHotspotEvaluationProviderConfiguration;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id){;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *boxes;
 @property(readonly, nonatomic) NSString *bundleID;
-@property(readonly, nonatomic) NSArray *clocks;
-@property(readonly, nonatomic) NSArray *devices;
 
 @end
 

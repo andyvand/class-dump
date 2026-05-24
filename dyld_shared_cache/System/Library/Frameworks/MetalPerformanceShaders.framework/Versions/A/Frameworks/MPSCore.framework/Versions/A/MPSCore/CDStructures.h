@@ -4,70 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSCommandBufferImageCache, MTLTextureDescriptor;
-
-#pragma mark Function Pointers
-
-typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
-
 #pragma mark Named Structures
 
-struct CacheFrame {
-    struct CacheFrame *_field1;
-    struct ResourceNode *_field2;
-    struct HeapNodeBlock *_field3;
-};
-
-struct HeapNodeBlock;
-
-struct MPSAutoBuffer {
-    struct atomic<void *> _buffer;
-    unsigned long long _requestedSize;
-    id _device;
-    MPSCommandBufferImageCache *_cache;
-    CDStruct_328d5c87 _resourceSize;
-};
-
-struct MPSAutoCache {
-    id _field1;
-    id _field2;
-    struct CacheFrame *_field3;
-};
-
-struct MPSAutoTexture {
-    struct atomic<id<MTLTexture>> _texture;
-    CDStruct_328d5c87 _resourceSize;
-    unsigned long long _rowBytes;
-    struct MPSPixelInfo _pixelInfo;
-    union {
-        struct {
-            struct MPSAutoTexture *parent;
-            unsigned int subRangeStart;
-            unsigned int subRangeSize;
-        } _subTex;
-        struct {
-            MTLTextureDescriptor *_descriptor;
-            union {
-                struct {
-                    struct MPSDevice *device;
-                } _tex;
-                struct {
-                    MPSCommandBufferImageCache *cache;
-                } _temporary;
-            } ;
-        } ;
-    } ;
-    unsigned char _type;
-    unsigned char _twiddled;
-};
-
 struct MPSCommandBufferDescriptor {
-    unsigned long long encoderCount;
-    unsigned long long producedValues;
-    unsigned long long numberOfCommitsMade;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
 };
-
-struct MPSDevice;
 
 struct MPSDeviceSpecificInfo {
     struct MPSKernelInfo *_field1;
@@ -85,8 +28,6 @@ struct MPSImageCoordinate {
     unsigned long long _field2;
     unsigned long long _field3;
 };
-
-struct MPSKernelDAG;
 
 struct MPSKernelInfo;
 
@@ -142,29 +83,6 @@ struct MPSLibraryInfo {
     struct MPSDeviceSpecificInfo _field47;
 };
 
-struct MPSPixelInfo {
-    unsigned int pixelFormat:10;
-    unsigned int chunkSize:6;
-    unsigned int chunkWidth:4;
-    unsigned int chunkHeight:4;
-    unsigned int pixelStyle:4;
-    unsigned int colorModel:4;
-    unsigned int bitDepth:8;
-    unsigned int isSigned:1;
-    unsigned int isClamped:1;
-    unsigned int isInteger:1;
-    unsigned int canFilter:1;
-    unsigned int canRender:1;
-    unsigned int canWrite:1;
-    unsigned int canMultisample:1;
-    unsigned int isSupported:1;
-    unsigned int isCompressed:1;
-    unsigned int chunkSizePlane2:6;
-    unsigned int log2MinAlignment:4;
-    unsigned int featureChannelFormat:3;
-    unsigned int _padding:2;
-};
-
 struct MPSStateTextureInfo {
     unsigned long long _field1;
     unsigned long long _field2;
@@ -179,20 +97,6 @@ struct MPSStateTextureInfo {
 struct ResourceListNode {
     CDUnknownFunctionPointerType *_field1;
     struct ResourceListNode *_field2;
-};
-
-struct ResourceNode {
-    struct ResourceNode *_field1;
-    id _field2;
-};
-
-struct UserBufferBindingData_s {
-    id userBoundBuffer;
-    _Bool userBoundBuffer_set;
-    void *userBoundBytes;
-    unsigned long long userBoundBytes_length;
-    _Bool userBoundBytes_set;
-    unsigned long long userBoundOffset;
 };
 
 struct _NSRange {
@@ -228,31 +132,6 @@ struct __sbuf {
     int _field2;
 };
 
-struct __shared_weak_count;
-
-struct atomic<id<MTLTexture>> {
-    struct __cxx_atomic_impl<id<MTLTexture>, std::__cxx_atomic_base_impl<id<MTLTexture>>> {
-        _Atomic id __a_value;
-    } __a_;
-};
-
-struct atomic<long> {
-    struct __cxx_atomic_impl<long, std::__cxx_atomic_base_impl<long>> {
-        _Atomic long long __a_value;
-    } __a_;
-};
-
-struct atomic<void *> {
-    struct __cxx_atomic_impl<void *, std::__cxx_atomic_base_impl<void *>> {
-        _Atomic void *__a_value;
-    } __a_;
-};
-
-struct shared_ptr<MPSKernelDAG> {
-    struct MPSKernelDAG *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<MPSKernelUserDAG> {
     struct MPSKernelUserDAG *__ptr_;
     struct __shared_weak_count *__cntrl_;
@@ -265,14 +144,21 @@ struct unique_ptr<const std::vector<long>, std::default_delete<const std::vector
 };
 
 struct vector<unsigned int, std::allocator<unsigned int>> {
-    unsigned int *__begin_;
-    unsigned int *__end_;
+    unsigned int *_field1;
+    unsigned int *_field2;
     struct {
-        unsigned int *__cap_;
-    } ;
+        unsigned int *_field1;
+    } _field3;
 };
 
 #pragma mark Typedef'd Structures
+
+typedef struct {
+    unsigned char _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+    unsigned char _field4;
+} CDStruct_a06f635e;
 
 typedef struct {
     unsigned long long _field1;
@@ -281,9 +167,9 @@ typedef struct {
 } CDStruct_14f26992;
 
 typedef struct {
-    unsigned long long size;
-    unsigned long long align;
-} CDStruct_328d5c87;
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 
 typedef struct {
     CDStruct_14f26992 _field1;
@@ -298,21 +184,21 @@ typedef struct unique_ptr<const std::vector<long>, std::default_delete<const std
 } unique_ptr_e50a97f0;
 
 typedef struct vector<unsigned int, std::allocator<unsigned int>> {
-    unsigned int *__begin_;
-    unsigned int *__end_;
+    unsigned int *_field1;
+    unsigned int *_field2;
     struct {
-        unsigned int *__cap_;
-    } ;
-} vector_9c509c4c;
+        unsigned int *_field1;
+    } _field3;
+} vector_0bf97ae3;
 
 #pragma mark Typedef'd Unions
 
 typedef union {
-    unsigned int bits;
+    unsigned int _field1;
     struct {
-        unsigned int mpsKernelVersion:8;
-        unsigned int intermediateObjectVersion:8;
-        unsigned int version:16;
-    } ;
-} CDUnion_cbb8185c;
+        unsigned int :8;
+        unsigned int :8;
+        unsigned int :16;
+    } _field2;
+} CDUnion_e993bd0a;
 

@@ -6,21 +6,13 @@
 
 #import <HomeKitDaemon/HMDUnassociatedAccessory.h>
 
-@class HMFTimer, NSObject, NSString;
-@protocol HMDWACAccessoryConfigurationDelegate, HMDWACDevice, OS_dispatch_queue;
+@class NSObject;
+@protocol HMDWACDevice, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDUnassociatedWACAccessory : HMDUnassociatedAccessory
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <HMDWACDevice> _wacDevice;
-    CDUnknownBlockType _completionHandler;
-    HMFTimer *_handoffExpirationTimer;
-    long long _state;
-    HMDUnassociatedAccessory *_postWACAccessory;
-    id <HMDWACAccessoryConfigurationDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSString *wacDeviceID;
 }
 
 + (id)]B;
@@ -28,37 +20,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)matchedCoordinate;
+- (void);
+- (void);
+- (void);
+- (void)qH;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)/usr/lib/swift/libswiftos.dylib;
 - (void)not find staging request for select wifi network message with staging request UUID:(id)arg1 %@;
 - (void)n"8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HMDWACAccessoryConfigurationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, setter=setWACDevice:) id <HMDWACDevice> wacDevice;
-@property(readonly) NSString *wacDeviceID; // @synthesize wacDeviceID;
 
 @end
 

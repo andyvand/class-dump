@@ -9,36 +9,35 @@
 @interface CPKWindow
 {
     id _privateData;
-    CPKWindowHeaderView *_windowHeaderView;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)m;
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void)WindowMorphAnimation;
+- (void)CPKWindowMorphAnimation;
 
 // Remaining properties
 @property(retain) CPKWindowHeaderView *windowHeaderView; // @synthesize windowHeaderView=_windowHeaderView;

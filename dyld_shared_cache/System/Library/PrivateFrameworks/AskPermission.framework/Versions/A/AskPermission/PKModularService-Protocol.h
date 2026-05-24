@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PKSubsystemServicePersonality;
+
 @protocol PKModularService
+
+@optional
+- (void)unregisterConnection:(id <PKSubsystemServicePersonality>)arg1;
+- (void)m;
 @end
 

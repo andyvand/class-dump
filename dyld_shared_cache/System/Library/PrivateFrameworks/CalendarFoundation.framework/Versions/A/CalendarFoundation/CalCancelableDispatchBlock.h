@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CalCancelableDispatchBlock
 {
     CDUnknownBlockType _block;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (CDUnknownBlockType);
+- (void)isFontPanelVisible;
+- (CDUnknownBlockType));
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

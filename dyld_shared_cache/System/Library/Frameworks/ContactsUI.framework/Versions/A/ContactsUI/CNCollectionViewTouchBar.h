@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAddFieldTouchBar, NSButton, NSGroupTouchBarItem, NSPopoverTouchBarItem, NSStackView, NSString, NSTouchBar;
 @protocol CNCollectionViewTouchBarDelegate;
 
 @interface CNCollectionViewTouchBar
 {
     id <CNCollectionViewTouchBarDelegate> _delegate;
-    NSTouchBar *_touchBar;
-    CNAddFieldTouchBar *_addFieldTouchBar;
-    NSPopoverTouchBarItem *_addFieldPopoverItem;
-    NSStackView *_collectionStackView;
-    NSButton *_removeButton;
-    NSGroupTouchBarItem *_groupItem;
 }
 
 - (void);
@@ -35,7 +28,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (id);
 - (id);
@@ -44,27 +37,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)m.apple.accessibility.HeadsetCaseTones.changed.notification;
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id)ÌêG´;ùÿ)ÌêG°;ùÿ)ÌêG¬;ùÿIÌêG`þüÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSPopoverTouchBarItem *addFieldPopoverItem; // @synthesize addFieldPopoverItem=_addFieldPopoverItem;
-@property(retain, nonatomic) CNAddFieldTouchBar *addFieldTouchBar; // @synthesize addFieldTouchBar=_addFieldTouchBar;
-@property(retain, nonatomic) NSStackView *collectionStackView; // @synthesize collectionStackView=_collectionStackView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CNCollectionViewTouchBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSGroupTouchBarItem *groupItem; // @synthesize groupItem=_groupItem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSButton *removeButton; // @synthesize removeButton=_removeButton;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
 
 @end
 

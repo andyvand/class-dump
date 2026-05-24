@@ -9,7 +9,6 @@
 @interface SGSimpleNamedEmailAddress
 {
     NSString *_emailAddress;
-    NSString *_name;
 }
 
 + (id);
@@ -27,8 +26,8 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)c;
+- (id)generateHashSHA256;
 - (_Bool);
 - (void);
 - (id);
@@ -37,7 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

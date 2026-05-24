@@ -4,70 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, _NSFlowLayoutInfo;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSFlowLayoutSection
 {
     NSMutableArray *_items;
-    NSMutableArray *_rows;
-    struct NSEdgeInsets _sectionMargins;
-    double _verticalInterstice;
-    double _horizontalInterstice;
-    struct CGRect _headerFrame;
-    struct CGRect _footerFrame;
-    double _headerDimension;
-    double _footerDimension;
-    _NSFlowLayoutInfo *_layoutInfo;
-    _Bool _isValid;
-    struct CGRect _frame;
-    struct CGRect _validRect;
-    struct CGRect _rectToKeepValid;
-    struct _NSRange _validItemRange;
-    NSMutableSet *_invalidatedIndexPaths;
-    CDStruct_2f5e8405 _rowAlignmentOptions;
-    _Bool _fixedItemSize;
-    struct CGSize _itemSize;
-    double _otherMargin;
-    double _beginMargin;
-    double _endMargin;
-    double _actualGap;
-    double _lastRowBeginMargin;
-    double _lastRowEndMargin;
-    double _lastRowActualGap;
-    _Bool _lastRowIncomplete;
-    long long _itemsCount;
-    long long _itemsByRowCount;
-    long long _indexOfIncompleteRow;
-    _Bool _isCollapsed;
-    double _scrollOffset;
-    _Bool _recommendedAboutShowingSectionCollapseButton;
-    _Bool _lastRecommendationWasShowSectionCollapseButton;
 }
 
+- (double)&;
+- (void);
+- (void);
+- (void);
+- (void)exable_allocAndCopyData(const uint8_t *__single __counted_by(dataLength), uint32_t);
+- (unsigned long long)ld not get dictionary for power source;
+- (unsigned long long)_CTServerConnectionCopyMobileSubscriberNetworkCode;
 - (double);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Cg00Cg01Cg02Cg0aCg0cCg0eCg0iCg0oCg0sCg0t.g0;
+- (void).og;
 - (void);
 - (double);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
-- (id);
+- (id)ngssl_session_set_peer_hostname(%{public}s) failed;
 - (long long);
 - (double);
 - (_Bool);
@@ -82,14 +49,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
+- (void)M_;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (CDStruct_2f5e8405);
+- (_Bool)_altCount;
+- (id)NSUsesTextStylesForLineBreaks;
+- (CDStruct_77932685);
 - (double);
 - (struct CGRect);
 - (struct CGRect);
@@ -99,18 +66,18 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct NSEdgeInsets);
 - (struct CGRect);
-- (long long)e;
+- (long long)unlockOverlayScrollerState;
 - (long long)setDividerPosition: /* Error: Ran out of types for this method. */;
-- (struct _NSRange)tIsVisible: /* Error: Ran out of types for this method. */;
-- (void)ems:(struct CGSize)arg1;
-- (double)tLaunch;
-- (double)DictionariesForPartialWordRange:inString:language:options: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)sectionLayoutIsVisible: /* Error: Ran out of types for this method. */;
+- (void)_visibleCenterItemsInVisibleItems:(struct CGSize)arg1 centerItems:(long long)arg2;
+- (double)_unsetShouldRestoreStateOnNextLaunch;
+- (double)_suggestNextLetterDictionariesForPartialWordRange:inString:language:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)cwFlags;
 - (_Bool)S2dIegyd_;
 - (id)lveTileSpaceID can only be used on uninitialized spaces;
 - (void).5.94;
-- (void)leExtraKey;
+- (void)HIMenuTitleExtraKey;
 - (void)n the flow layout;
 - (id);
 - (void);
@@ -118,38 +85,7 @@ __attribute__((visibility("hidden")))
 - (id)+;
 
 // Remaining properties
-@property(readonly, nonatomic) double actualGap; // @synthesize actualGap=_actualGap;
-@property(readonly, nonatomic) double beginMargin; // @synthesize beginMargin=_beginMargin;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed;
-@property(readonly, nonatomic) struct CGRect effectiveFooterFrameWithSectionMarginsApplied;
-@property(readonly, nonatomic) struct CGRect effectiveHeaderFrameWithSectionMarginsApplied;
-@property(readonly, nonatomic) double endMargin; // @synthesize endMargin=_endMargin;
-@property(nonatomic) _Bool fixedItemSize; // @synthesize fixedItemSize=_fixedItemSize;
-@property(readonly, nonatomic) double footerDimension; // @synthesize footerDimension=_footerDimension;
-@property(nonatomic) struct CGRect footerFrame; // @synthesize footerFrame=_footerFrame;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) double headerDimension; // @synthesize headerDimension=_headerDimension;
-@property(nonatomic) struct CGRect headerFrame; // @synthesize headerFrame=_headerFrame;
-@property(nonatomic) double horizontalInterstice; // @synthesize horizontalInterstice=_horizontalInterstice;
-@property(readonly, nonatomic) long long indexOfIncompleteRow; // @synthesize indexOfIncompleteRow=_indexOfIncompleteRow;
-@property(readonly, nonatomic) NSArray *invalidatedIndexPaths;
-@property(nonatomic) struct CGSize itemSize; // @synthesize itemSize=_itemSize;
 @property(readonly, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) long long itemsByRowCount; // @synthesize itemsByRowCount=_itemsByRowCount;
-@property(nonatomic) long long itemsCount; // @synthesize itemsCount=_itemsCount;
-@property(readonly, nonatomic) double lastRowActualGap; // @synthesize lastRowActualGap=_lastRowActualGap;
-@property(readonly, nonatomic) double lastRowBeginMargin; // @synthesize lastRowBeginMargin=_lastRowBeginMargin;
-@property(readonly, nonatomic) double lastRowEndMargin; // @synthesize lastRowEndMargin=_lastRowEndMargin;
-@property(readonly, nonatomic) _Bool lastRowIncomplete; // @synthesize lastRowIncomplete=_lastRowIncomplete;
-@property(nonatomic) __weak _NSFlowLayoutInfo *layoutInfo; // @synthesize layoutInfo=_layoutInfo;
-@property(readonly, nonatomic) double otherMargin; // @synthesize otherMargin=_otherMargin;
-@property(nonatomic) CDStruct_2f5e8405 rowAlignmentOptions; // @synthesize rowAlignmentOptions=_rowAlignmentOptions;
-@property(readonly, nonatomic) NSMutableArray *rows; // @synthesize rows=_rows;
-@property(readonly, nonatomic) unsigned long long rowsCount;
-@property(nonatomic) double scrollOffset; // @synthesize scrollOffset=_scrollOffset;
-@property(nonatomic) struct NSEdgeInsets sectionMargins; // @synthesize sectionMargins=_sectionMargins;
-@property(readonly, nonatomic) struct _NSRange validItemRange; // @synthesize validItemRange=_validItemRange;
-@property(nonatomic) double verticalInterstice; // @synthesize verticalInterstice=_verticalInterstice;
 
 @end
 

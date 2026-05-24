@@ -9,7 +9,6 @@
 @interface PKProtobufShippingMethods
 {
     PKProtobufShippingMethod *_defaultMethod;
-    NSMutableArray *_methods;
 }
 
 + (Class);
@@ -19,11 +18,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)I;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -31,11 +30,9 @@
 - (void);
 - (id);
 - (id);
-- (void)nAuthorizationStatusUpdated;
+- (void)transactionAuthorizationStatusUpdated;
 
 // Remaining properties
-@property(retain, nonatomic) PKProtobufShippingMethod *defaultMethod; // @synthesize defaultMethod=_defaultMethod;
-@property(readonly, nonatomic) _Bool hasDefaultMethod;
 @property(retain, nonatomic) NSMutableArray *methods; // @synthesize methods=_methods;
 
 @end

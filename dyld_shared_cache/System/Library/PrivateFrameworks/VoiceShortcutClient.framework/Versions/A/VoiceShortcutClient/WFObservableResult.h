@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface WFObservableResult
 {
     _Bool _observingDistributedNotifications;
-    Class _valueType;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_observerNotificationQueue;
-    NSHashTable *_observers;
-    struct CGSize _glyphSize;
 }
 
 + (void);
 + (void);
 + (void);
 - (void);
-- (void);
+- (void)/|;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void){;
 - (struct CGSize);
-- (void);
+- (void)m;
 - (void);
 - (void);
 - (Class);
@@ -39,11 +31,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize glyphSize; // @synthesize glyphSize=_glyphSize;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *observerNotificationQueue; // @synthesize observerNotificationQueue=_observerNotificationQueue;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(nonatomic) _Bool observingDistributedNotifications; // @synthesize observingDistributedNotifications=_observingDistributedNotifications;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 @property(readonly, nonatomic) Class valueType; // @synthesize valueType=_valueType;
 
 @end

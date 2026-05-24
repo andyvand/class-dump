@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)restoreDefaultValues;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)\@9(;
 - (_Bool);
 - (id)b1};
-- (id)ludeEntryPoints:shiftLocationsIfNeeded:preserveOriginalLocation:traits: /* Error: Ran out of types for this method. */;
+- (id)_searchable_ticketForReverseGeocodeCoordinate:floor:includeEntryPoints:shiftLocationsIfNeeded:preserveOriginalLocation:traits: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)nÀ0J@;
 

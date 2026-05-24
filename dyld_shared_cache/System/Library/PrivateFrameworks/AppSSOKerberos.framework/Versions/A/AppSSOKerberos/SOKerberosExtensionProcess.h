@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDistributedNotificationCenter, NSMapTable, NSMutableDictionary, SOKerberosHelper, SOKerberosOpenDirectory, SOKeychainHelper;
+@class NSMutableDictionary;
 
 @interface SOKerberosExtensionProcess
 {
     NSMutableDictionary *_kerberosByRealm;
-    NSMapTable *_requestContextMapping;
-    SOKerberosHelper *_kerberosHelper;
-    SOKerberosOpenDirectory *_kerberosOpenDirectory;
-    NSDistributedNotificationCenter *_notificationCenter;
-    SOKeychainHelper *_keychainHelper;
 }
 
 - (id);
@@ -56,11 +51,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *kerberosByRealm; // @synthesize kerberosByRealm=_kerberosByRealm;
-@property(retain) SOKerberosHelper *kerberosHelper; // @synthesize kerberosHelper=_kerberosHelper;
-@property(retain, nonatomic) SOKerberosOpenDirectory *kerberosOpenDirectory; // @synthesize kerberosOpenDirectory=_kerberosOpenDirectory;
-@property(retain, nonatomic) SOKeychainHelper *keychainHelper; // @synthesize keychainHelper=_keychainHelper;
-@property(retain, nonatomic) NSDistributedNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain, nonatomic) NSMapTable *requestContextMapping; // @synthesize requestContextMapping=_requestContextMapping;
 
 @end
 

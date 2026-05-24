@@ -21,7 +21,7 @@
 - (unsigned int);
 - (struct _cl_image_format);
 - (int);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
 - (unsigned long long);

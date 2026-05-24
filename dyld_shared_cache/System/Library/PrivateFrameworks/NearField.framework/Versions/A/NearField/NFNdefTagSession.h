@@ -6,7 +6,6 @@
 
 #import <NearField/NFSession.h>
 
-@class NSString;
 @protocol NFNdefTagSessionDelegate;
 
 @interface NFNdefTagSession : NFSession
@@ -15,29 +14,29 @@
 }
 
 + (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)be nil during undo;
+- (_Bool)FIRST_UNTITLED_GROUP;
+- (_Bool)CNPostalAddressPostalCodeKey;
+- (_Bool)getCNPostalAddressPostalCodeKey(void);
+- (_Bool)StateKey(void);
+- (_Bool)CNPostalAddressSubAdministrativeAreaKey;
+- (_Bool)ring *getCNPostalAddressSubAdministrativeAreaKey(void);
+- (_Bool)CNPostalAddressSubLocalityKey;
+- (_Bool)KeyToObjectDictionary;
+- (_Bool)GrayArrowsAppearance;
+- (_Bool)ame-%@;
+- (_Bool)dentifier;
+- (_Bool)d;
+- (_Bool)ontacts.SearchContacts;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)&v;
 - (_Bool);
 - (void);
 - (id);
@@ -46,14 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id <NFNdefTagSessionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

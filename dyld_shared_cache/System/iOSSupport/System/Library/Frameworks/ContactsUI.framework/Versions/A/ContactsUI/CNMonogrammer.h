@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UIFont, UIImage;
+@class UIImage;
 
 @interface CNMonogrammer
 {
     UIImage *_silhouetteMonogram;
-    UIImage *_questionMarkMonogram;
-    UIImage *_knockoutMaskMonogram;
-    double _innerBorderWidth;
-    NSString *_silhouetteImageName;
-    long long _monogrammerStyle;
-    CNMonogrammer *_subMonogrammer;
-    UIColor *_tintColor;
-    double _scale;
-    _Bool _textKnockout;
-    UIFont *_font;
-    double _diameter;
-    UIColor *_backgroundColor;
-    UIColor *_textColor;
 }
 
 + (id);
 + (id);
 + (long long);
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)_commConnectionQueue;
+- (void)setDarkCount:(double)arg1;
+- (id)lessVerboseDisplayString;
+- (id)_TtC18PodcastsFoundation24ServerCategoryAttributes;
 - (id);
 - (id);
 - (id);
@@ -48,30 +35,23 @@
 - (void);
 - (id);
 - (id);
+- (id)NG_LENGTH COULD NOT MAP, ALTHOUGH FOUND REGION %s
+;
 - (id);
 - (id);
-- (id);
-- (double);
+- (double)c;
 - (double);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)taneouslyWithGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (void)`;
+- (void)_gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)8þÿ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(nonatomic) double diameter; // @synthesize diameter=_diameter;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(readonly, nonatomic) NSArray *keysToFetch;
-@property(readonly, nonatomic) UIImage *knockoutMaskMonogram;
-@property(readonly, nonatomic) UIImage *questionMarkMonogram;
-@property(readonly, nonatomic) UIImage *silhouetteMonogram;
-@property(retain, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
-@property(nonatomic) _Bool textKnockout; // @synthesize textKnockout=_textKnockout;
 
 @end
 

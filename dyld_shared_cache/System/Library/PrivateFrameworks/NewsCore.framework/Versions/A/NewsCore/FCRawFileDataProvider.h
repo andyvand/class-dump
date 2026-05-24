@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCInterestToken, NSData, NSString;
+@class FCInterestToken;
 
 @interface FCRawFileDataProvider
 {
     _Bool _isRawFileConsumable;
-    NSString *_filePath;
-    FCInterestToken *_holdToken;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)V_extensionChannelAbove;
 - (_Bool);
-- (id);
+- (id)iled;
 - (id);
 - (id);
 - (void);;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
 @property(readonly, nonatomic) FCInterestToken *holdToken; // @synthesize holdToken=_holdToken;
-@property(readonly, nonatomic) _Bool isRawFileConsumable; // @synthesize isRawFileConsumable=_isRawFileConsumable;
 
 @end
 

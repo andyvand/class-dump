@@ -5,5 +5,7 @@
 //
 
 @protocol FindMyDeviceIdentityXPCInterface
+- (oneway void)}16d52;
+- (oneway void)aintStrokePoint=ffb16b16}16r^{PKMetalLiveStrokePaintStrokePoint=ff}24Q32Q40@48;
 @end
 

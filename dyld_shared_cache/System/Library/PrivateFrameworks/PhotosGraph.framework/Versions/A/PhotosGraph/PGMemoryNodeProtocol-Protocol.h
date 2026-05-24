@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphFeatureNodeCollection;
+@class PGGraphFeatureNodeCollection;
 
 @protocol PGMemoryNodeProtocol
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphFeatureNodeCollection *memoryFeatureNodes;
-@property(readonly, nonatomic) NSString *uniqueMemoryIdentifier;
 @end
 

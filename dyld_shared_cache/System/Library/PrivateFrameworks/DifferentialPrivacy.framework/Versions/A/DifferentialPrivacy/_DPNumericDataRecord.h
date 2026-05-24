@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSString;
 
 @interface _DPNumericDataRecord
 {
     _Bool _submitted;
-    NSString *_key;
-    double _clearNumber;
-    double _privateNumber;
-    double _creationDate;
-    long long _reportVersion;
-    NSManagedObjectID *_objectId;
 }
 
-+ (id);
++ (id)P;
 + (_Bool);
 + (id)Ë!DùÑ.1Â0@ù
 × ;
@@ -30,9 +24,9 @@
 - (double);
 - (void);
 - (id);
-- (double);
+- (double)iled to generate preview image for share extension with error %{public}@;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -43,21 +37,15 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)cancelPrepare;
 - (id);
+- (void)_calculateNewCadenceParametersWithPermissive:(id)arg1 fastLane: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)connectToExtensionWithIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) double clearNumber; // @synthesize clearNumber=_clearNumber;
-@property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSManagedObjectID *objectId; // @synthesize objectId=_objectId;
-@property(nonatomic) double privateNumber; // @synthesize privateNumber=_privateNumber;
-@property(nonatomic) long long reportVersion; // @synthesize reportVersion=_reportVersion;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
 
 @end
 

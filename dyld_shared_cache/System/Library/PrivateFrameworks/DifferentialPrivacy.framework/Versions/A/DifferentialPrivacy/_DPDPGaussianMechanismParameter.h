@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface _DPDPGaussianMechanismParameter
 {
     _Bool _isMomentsAccountantAlgorithm;
-    _Bool _isV2;
-    int _numChunks;
-    int _renyiOrder;
-    double _cohortSigma;
-    double _maxCentralEpsilon;
-    double _maxCentralDelta;
-    double _overallEpsilon;
-    double _overallDelta;
-    double _sigmaAfterNormalization;
-    double _clippingBound;
-    double _overallClippingBound;
-    long long _currentCohortSize;
-    long long _maxCohortSize;
-    long long _populationSize;
-    long long _numIterations;
-    NSDictionary *_metadata;
 }
 
 - (double);
@@ -33,42 +15,26 @@
 - (double);
 - (double);
 - (double);
-- (long long);
+- (long long)c;
 - (int);
 - (long long);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool)!Ț	;
 - (id);
 - (id);
 - (long long);
-- (double);
+- (double)ܚh;
 - (id);
 - (void);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)A;
 - (id);
-- (void);
+- (void)TSPAutoFillAuthorizationRemoteViewControllerProtocol;
 
 // Remaining properties
-@property(readonly, nonatomic) double clippingBound; // @synthesize clippingBound=_clippingBound;
 @property(nonatomic) double cohortSigma; // @synthesize cohortSigma=_cohortSigma;
-@property(readonly, nonatomic) long long currentCohortSize; // @synthesize currentCohortSize=_currentCohortSize;
-@property(readonly, nonatomic) _Bool isMomentsAccountantAlgorithm; // @synthesize isMomentsAccountantAlgorithm=_isMomentsAccountantAlgorithm;
-@property(readonly, nonatomic) _Bool isV2; // @synthesize isV2=_isV2;
-@property(readonly, nonatomic) double maxCentralDelta; // @synthesize maxCentralDelta=_maxCentralDelta;
-@property(readonly, nonatomic) double maxCentralEpsilon; // @synthesize maxCentralEpsilon=_maxCentralEpsilon;
-@property(readonly, nonatomic) long long maxCohortSize; // @synthesize maxCohortSize=_maxCohortSize;
-@property(readonly, copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) int numChunks; // @synthesize numChunks=_numChunks;
-@property(readonly, nonatomic) long long numIterations; // @synthesize numIterations=_numIterations;
-@property(readonly, nonatomic) double overallClippingBound; // @synthesize overallClippingBound=_overallClippingBound;
-@property(readonly, nonatomic) double overallDelta; // @synthesize overallDelta=_overallDelta;
-@property(readonly, nonatomic) double overallEpsilon; // @synthesize overallEpsilon=_overallEpsilon;
-@property(readonly, nonatomic) long long populationSize; // @synthesize populationSize=_populationSize;
-@property(readonly, nonatomic) int renyiOrder; // @synthesize renyiOrder=_renyiOrder;
-@property(readonly, nonatomic) double sigmaAfterNormalization; // @synthesize sigmaAfterNormalization=_sigmaAfterNormalization;
 
 @end
 

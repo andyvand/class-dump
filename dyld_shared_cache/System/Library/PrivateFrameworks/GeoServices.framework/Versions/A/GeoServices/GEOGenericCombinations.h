@@ -9,37 +9,35 @@
 @interface GEOGenericCombinations
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_substitutes;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)setHasResultTranslationY:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
+- (void)CNPostalAddressStreetEquivalance;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)k;
+- (id)P;
 - (id);
-- (id);
 - (void);
+- (void)6;
 - (void);
-- (void);
-- (id);
+- (id)#;
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id)gions:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
-- (id)uides;
+- (void);
+- (id)setHybridUnavailableRegions:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
+- (id)GEOExploreGuides;
 - (id)sionPhaseOpportunistic;
 - (id);
 - (void)Ôþ4¹4;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *substitutes;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

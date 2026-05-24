@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCConnection, NSXPCListenerEndpoint;
 
 @interface CDPDaemonConnection
 {
     NSXPCConnection *_conn;
-    NSLock *_connLock;
-    NSXPCListenerEndpoint *_daemonXPCEndpoint;
 }
 
-- (void);
+- (void)D|;
 - (id);
 - (id);
 - (id);

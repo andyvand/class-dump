@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCameraBufferEventCommandTypeWrapper, HAPTLVUnsignedNumberValue, NSString;
+@class HAPCameraBufferEventCommandTypeWrapper;
 
 @interface HAPCameraBufferEventCommandRequest
 {
     HAPCameraBufferEventCommandTypeWrapper *_command;
-    HAPTLVUnsignedNumberValue *_sequenceNumber;
-    HAPTLVUnsignedNumberValue *_limit;
 }
 
 + (id);
@@ -18,9 +16,9 @@
 - (id);
 - (id);
 - (id);
+- (void)ear/headwear_topHat.aa;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)distantFuture;
 - (id);
 - (_Bool);
 - (id);
@@ -31,15 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) HAPCameraBufferEventCommandTypeWrapper *command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *limit; // @synthesize limit=_limit;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly) Class superclass;
 
 @end
 

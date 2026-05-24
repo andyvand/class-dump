@@ -6,63 +6,45 @@
 
 #import <StoreFoundation/ISOperation.h>
 
-@class ISDataProvider, ISURLRequest, NSArray, NSCountedSet, NSDictionary, NSMutableData, NSString, NSURLConnection, NSURLRequest, NSURLResponse;
-@protocol ISURLOperationDelegate><ISOperationDelegate;
+@class NSURLRequest, NSURLResponse;
 
 @interface ISURLOperation : ISOperation
 {
     NSURLRequest *_activeURLRequest;
-    NSURLConnection *_connection;
-    NSMutableData *_dataBuffer;
-    ISDataProvider *_dataProvider;
-    long long _networkRetryCount;
-    long long _contentRetryCount;
-    NSCountedSet *_redirectURLs;
-    ISURLRequest *_request;
-    NSURLResponse *_response;
-    _Bool _shouldSetCookies;
-    unsigned long long _countedBytes;
-    _Bool _checkForIncompleteFinish;
-    _Bool _cancelIfNotAlreadyOnDisk;
-    _Bool _requireExtendedValidationCertificate;
-    _Bool _anchorRevocationCheck;
-    _Bool _fileWasAlreadyOnDisk;
-    _Bool _shouldRetryOnNetworkError;
-    NSArray *_anchorCertificates;
-    NSDictionary *_conditionalConnectionProperties;
-    CDUnknownBlockType _outputHandler;
 }
 
-+ (long long);
++ (long long)('41J
+;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)entifiers.framework/Versions/A/UniformTypeIdentifiers;
+- (void)#1B5J
+;
 - (CDUnknownBlockType);
+- (_Bool)i;
+- (id)d;
+- (void)n;
+- (_Bool)t;
+- (void)a;
+- (id)s;
+- (void)i;
+- (void)r;
+- (void)d;
+- (void),;
+- (id),;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)-B;
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -71,53 +53,33 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id)ring;
-- (void)TED_CERT_BODY;
-- (void)_isStaged;
+- (id)dataFromHexString;
+- (void)UNTRUSTED_CERT_BODY;
+- (void)__isStaged;
 
 // Remaining properties
-@property(getter=_shouldSetCookies, setter=_setShouldSetCookies:) _Bool _shouldSetCookies; // @synthesize _shouldSetCookies;
-@property(copy) NSArray *anchorCertificates; // @synthesize anchorCertificates=_anchorCertificates;
-@property _Bool anchorRevocationCheck; // @synthesize anchorRevocationCheck=_anchorRevocationCheck;
-@property _Bool cancelIfNotAlreadyOnDisk; // @synthesize cancelIfNotAlreadyOnDisk=_cancelIfNotAlreadyOnDisk;
-@property _Bool checkForIncompleteFinish; // @synthesize checkForIncompleteFinish=_checkForIncompleteFinish;
-@property(copy) NSDictionary *conditionalConnectionProperties; // @synthesize conditionalConnectionProperties=_conditionalConnectionProperties;
-@property(retain) ISDataProvider *dataProvider; // @synthesize dataProvider=_dataProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <ISURLOperationDelegate><ISOperationDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool fileWasAlreadyOnDisk; // @synthesize fileWasAlreadyOnDisk=_fileWasAlreadyOnDisk;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType outputHandler; // @synthesize outputHandler=_outputHandler;
-@property(copy) ISURLRequest *request; // @synthesize request=_request;
-@property _Bool requireExtendedValidationCertificate; // @synthesize requireExtendedValidationCertificate=_requireExtendedValidationCertificate;
 @property(retain) NSURLResponse *response; // @synthesize response=_response;
-@property _Bool shouldRetryOnNetworkError; // @synthesize shouldRetryOnNetworkError=_shouldRetryOnNetworkError;
-@property(readonly) Class superclass;
 
 @end
 

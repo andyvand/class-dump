@@ -5,6 +5,10 @@
 //
 
 @protocol _NSXPCTransport
+- (CDStruct_4c969caf)	;
+- (void)Failed to encode SyncEngineAccount for accountInfo;
+- (void);
+- (unsigned int);
 - (unsigned int)ntroller targetAppLaunchOptions];
 @end
 

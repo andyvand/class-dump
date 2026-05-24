@@ -7,9 +7,9 @@
 @protocol ASCredentialIdentity;
 
 @protocol ASCredentialRequest
+- (id <ASCredentialIdentity>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ASCredentialIdentity> credentialIdentity;
 @property(readonly, nonatomic) long long type;
 @end
 

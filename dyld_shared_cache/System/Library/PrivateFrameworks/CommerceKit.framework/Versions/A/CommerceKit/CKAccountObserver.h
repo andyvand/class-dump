@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKAccountObserver
 {
     CDUnknownBlockType _primaryAccountChangeObserver;
@@ -14,17 +12,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) CDUnknownBlockType primaryAccountChangeObserver; // @synthesize primaryAccountChangeObserver=_primaryAccountChangeObserver;
-@property(readonly) Class superclass;
 
 @end
 

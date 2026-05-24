@@ -5,23 +5,20 @@
 //
 
 @class NSString;
-@protocol FMAPSDelegate;
 
 __attribute__((visibility("hidden")))
 @interface FMAPSDelegateInfo
 {
     NSString *_topic;
-    id <FMAPSDelegate> _delegate;
 }
 
-- (void);
+- (void)ted crash recovery marker file for asset UUID %{public}@;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <FMAPSDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end

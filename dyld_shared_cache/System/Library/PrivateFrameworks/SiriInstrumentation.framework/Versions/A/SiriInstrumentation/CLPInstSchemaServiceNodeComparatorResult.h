@@ -6,21 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface CLPInstSchemaServiceNodeComparatorResult : SISchemaInstrumentationMessage
 {
     int _comparatorName;
-    _Bool _isValidOriginalItem;
-    _Bool _isValidReplayedItem;
-    _Bool _isMatched;
-    NSArray *_mismatchedFields;
-    struct {
-        unsigned int comparatorName:1;
-        unsigned int isValidOriginalItem:1;
-        unsigned int isValidReplayedItem:1;
-        unsigned int isMatched:1;
-    } _has;
 }
 
 - (void);
@@ -30,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -39,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (void);
 - (void);
@@ -57,21 +45,12 @@
 - (_Bool);
 - (id);
 - (id)type"b1};
-- (id)Ended;
+- (id)HALSchemaHALForceFetchEnded;
 - (id)ø¨èª;
 - (void)ì9²ÿ®¬I)&;
 
 // Remaining properties
 @property(nonatomic) int comparatorName; // @synthesize comparatorName=_comparatorName;
-@property(nonatomic) _Bool hasComparatorName;
-@property(nonatomic) _Bool hasIsMatched;
-@property(nonatomic) _Bool hasIsValidOriginalItem;
-@property(nonatomic) _Bool hasIsValidReplayedItem;
-@property(nonatomic) _Bool isMatched; // @synthesize isMatched=_isMatched;
-@property(nonatomic) _Bool isValidOriginalItem; // @synthesize isValidOriginalItem=_isValidOriginalItem;
-@property(nonatomic) _Bool isValidReplayedItem; // @synthesize isValidReplayedItem=_isValidReplayedItem;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *mismatchedFields; // @synthesize mismatchedFields=_mismatchedFields;
 
 @end
 

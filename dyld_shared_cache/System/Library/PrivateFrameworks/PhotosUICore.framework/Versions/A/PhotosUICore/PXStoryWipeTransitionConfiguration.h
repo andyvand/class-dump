@@ -9,35 +9,23 @@
 @interface PXStoryWipeTransitionConfiguration
 {
     NSMutableArray *_clipLayouts;
-    CDStruct_e7a99259 *_sourceStates;
-    CDStruct_e7a99259 *_targetStates;
-    CDStruct_341496a7 *_primaryDividerInfos;
-    CDStruct_341496a7 *_secondaryDividerInfos;
-    long long _capacity;
-    long long _count;
-    double _dividerWidth;
-    struct CGSize _viewportSize;
-    CDStruct_1b6d18a9 _duration;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (struct CGSize);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)applicationWillEnterForeground;
 - (id);
 - (id);
 - (id)N,V_focalLengthIn35mm;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double dividerWidth; // @synthesize dividerWidth=_dividerWidth;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(nonatomic) struct CGSize viewportSize; // @synthesize viewportSize=_viewportSize;
 
 @end
 

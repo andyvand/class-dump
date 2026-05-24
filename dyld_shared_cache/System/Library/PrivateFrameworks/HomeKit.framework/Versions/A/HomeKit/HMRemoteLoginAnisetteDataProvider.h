@@ -4,46 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMRemoteLoginAnisetteDataProvider
 {
     _HMContext *_context;
-    NSUUID *_uuid;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)isContentPreviewable;
+- (void)initWithStringRepresentation:(CDUnknownBlockType)arg1 defaultScopeIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithDelegate:(CDUnknownBlockType)arg1;
 - (id);
 - (void);
+- (void)setAutocorrectionRecordForInputString:(id)arg1;
+- (id).
+$
+&
+>
+$
+>
+;
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void)¤;
 
 // Remaining properties
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

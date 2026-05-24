@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol EQKitLayoutNode;
+
 @protocol EQKitLayoutSchemataLongDivision
+- (id <EQKitLayoutNode>)operties;
+- (id <EQKitLayoutNode>);
 @end
 

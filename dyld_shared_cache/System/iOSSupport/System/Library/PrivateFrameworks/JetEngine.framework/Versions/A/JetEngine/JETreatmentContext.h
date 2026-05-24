@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JETreatment, NSDictionary;
+@class JETreatment;
 
 __attribute__((visibility("hidden")))
 @interface JETreatmentContext
 {
     JETreatment *_treatment;
-    NSDictionary *_metrics;
 }
 
 - (id);

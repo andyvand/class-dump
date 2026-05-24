@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPlaceDescriptorResolutionParameters, MKMapFeatureAnnotation, MKMapItemIdentifier;
 @protocol MKMapServiceTicket, NSObject;
 
 @interface MKMapItemRequest
 {
     id <MKMapServiceTicket> _ticket;
-    struct os_unfair_lock_s _stateLock;
-    _Bool _loading;
-    _Bool _cancelled;
-    MKMapItemIdentifier *_mapItemIdentifier;
-    MKMapFeatureAnnotation *_mapFeatureAnnotation;
-    MKMapFeatureAnnotation *_featureAnnotation;
-    id <NSObject> _internalSwiftExtensions;
-    GEOPlaceDescriptorResolutionParameters *_descriptorResolutionParameters;
 }
 
 - (void);
@@ -25,29 +16,23 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)F;
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
+- (void)_connection;
+- (id);
+- (id)ock_invoke;
+- (id);
+- (void)p&;
 - (_Bool)*1Â0@ù
 × ;
-- (void)pSize:mapType:useSnapshotService: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItems:region:mapSize:mapType:useSnapshotService: /* Error: Ran out of types for this method. */;
 - (_Bool)idStartUserInteraction>;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(retain, nonatomic) GEOPlaceDescriptorResolutionParameters *descriptorResolutionParameters; // @synthesize descriptorResolutionParameters=_descriptorResolutionParameters;
-@property(readonly, nonatomic) MKMapFeatureAnnotation *featureAnnotation; // @synthesize featureAnnotation=_featureAnnotation;
 @property(retain, nonatomic) id <NSObject> internalSwiftExtensions; // @synthesize internalSwiftExtensions=_internalSwiftExtensions;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
-@property(readonly, nonatomic) MKMapFeatureAnnotation *mapFeatureAnnotation; // @synthesize mapFeatureAnnotation=_mapFeatureAnnotation;
-@property(readonly, nonatomic) MKMapItemIdentifier *mapItemIdentifier; // @synthesize mapItemIdentifier=_mapItemIdentifier;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, UIBlurEffect, UILabel, UIVisualEffectView;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface MUPDFPageLabelView
 {
     UILabel *_label;
-    UIVisualEffectView *_blurView;
-    UIBlurEffect *_blurEffect;
-    NSTimer *_timer;
-    unsigned long long currentPageIndex;
 }
 
 + (id);
@@ -25,14 +21,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
+- (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)!;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentPageIndex; // @synthesize currentPageIndex;
 @property(readonly, nonatomic, getter=isTimerInstalled) _Bool timerInstalled;
 
 @end

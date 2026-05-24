@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface EKSideAlarm
 {
@@ -12,17 +12,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *acknowledgedDate; // @dynamic acknowledgedDate;
-@property(retain, nonatomic) NSNumber *alarmID; // @dynamic alarmID;
-@property(retain, nonatomic) NSNumber *allDay; // @dynamic allDay;
-@property(retain, nonatomic) NSNumber *databaseID; // @dynamic databaseID;
-@property(retain, nonatomic) NSDate *entityDate; // @dynamic entityDate;
-@property(retain, nonatomic) NSNumber *entityID; // @dynamic entityID;
-@property(retain, nonatomic) NSString *entityTimeZone; // @dynamic entityTimeZone;
-@property(retain, nonatomic) NSString *entityURI; // @dynamic entityURI;
-@property(retain, nonatomic) NSString *externalID; // @dynamic externalID;
 @property(retain, nonatomic) NSDate *fireTime; // @dynamic fireTime;
-@property(retain, nonatomic) NSNumber *isDelayedProximityAlarm; // @dynamic isDelayedProximityAlarm;
-@property(retain, nonatomic) NSNumber *refiring; // @dynamic refiring;
 @end
 

@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface FI_TNewAliasOperationDelegate : FI_TFileSystemOperationDelegate
 {
     struct TFENodeVector _aliases;
-    _Bool _allowInteraction;
-    function_d96b261f _processAliases;
 }
 
 + (id);
 - (void);
 - (void);
-- (function_d96b261f);
+- (function_05d1b069);
 - (int);
 - (int);
 - (int);
@@ -27,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool allowInteraction; // @synthesize allowInteraction=_allowInteraction;
-@property function_d96b261f processAliases; // @synthesize processAliases=_processAliases;
 
 @end
 

@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBAudioPlaybackCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    int _state;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSArray *_playCommands;
-    NSArray *_stopCommands;
-    _SFPBRichText *_detailText;
-    _SFPBRichText *_title;
-    _SFPBRichText *_subtitle;
-    _SFPBImage *_thumbnail;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)_;
 - (void);
 - (id);
 - (id);
@@ -55,7 +40,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)}@.;
 - (void);
 - (id);
 - (void);
@@ -64,48 +49,25 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)CallSource"16@"NSUUID"24@"CXCallUpdate"32;
+- (void);;
 - (int);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)initWithPhoneNumber:(id)arg1 emailAddress:contactIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)%{public}@;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)rmIntentCommand;
+- (void)performIntentCommand;
 - (int)º#í;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _SFPBRichText *detailText; // @synthesize detailText=_detailText;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *playCommands; // @synthesize playCommands=_playCommands;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(copy, nonatomic) NSArray *stopCommands; // @synthesize stopCommands=_stopCommands;
-@property(retain, nonatomic) _SFPBRichText *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(retain, nonatomic) _SFPBRichText *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

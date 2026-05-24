@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNDonationAccountLogger, CNDonationAgentLogger, CNDonationAnalyticsLogger, CNDonationExtensionLogger, CNDonationManagedDuplicatesLogger, CNDonationPreferencesLogger, CNDonationToolLogger;
+@protocol CNDonationAgentLogger;
 
 @interface CNDonationLoggerProvider
 {
     id <CNDonationAgentLogger> _agentLoggerImpl;
-    id <CNDonationExtensionLogger> _extensionLoggerImpl;
-    id <CNDonationToolLogger> _toolLoggerImpl;
-    id <CNDonationAccountLogger> _accountLoggerImpl;
-    id <CNDonationPreferencesLogger> _preferencesLoggerImpl;
-    id <CNDonationAnalyticsLogger> _analyticsLoggerImpl;
-    id <CNDonationManagedDuplicatesLogger> _duplicatesLoggerImpl;
 }
 
-+ (id);
++ (id)extensionRangeArray;
+- (id);
+- (id)ourceAsFactorPackIdCString", but the value stored in the union does not match this type.;
 - (id);
 - (id);
 - (id);
@@ -30,34 +25,12 @@
 - (id);
 - (id);
 - (id);
+- (id)';
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)_modelValidationDataProvider;
 
 // Remaining properties
-@property(readonly) id <CNDonationAccountLogger> accountLogger;
-@property(readonly, nonatomic) id <CNDonationAccountLogger> accountLoggerImpl; // @synthesize accountLoggerImpl=_accountLoggerImpl;
-@property(readonly) id <CNDonationAgentLogger> agentLogger;
 @property(readonly, nonatomic) id <CNDonationAgentLogger> agentLoggerImpl; // @synthesize agentLoggerImpl=_agentLoggerImpl;
-@property(readonly) id <CNDonationAnalyticsLogger> analyticsLogger;
-@property(readonly, nonatomic) id <CNDonationAnalyticsLogger> analyticsLoggerImpl; // @synthesize analyticsLoggerImpl=_analyticsLoggerImpl;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <CNDonationManagedDuplicatesLogger> duplicatesLogger;
-@property(readonly, nonatomic) id <CNDonationManagedDuplicatesLogger> duplicatesLoggerImpl; // @synthesize duplicatesLoggerImpl=_duplicatesLoggerImpl;
-@property(readonly) id <CNDonationExtensionLogger> extensionLogger;
-@property(readonly, nonatomic) id <CNDonationExtensionLogger> extensionLoggerImpl; // @synthesize extensionLoggerImpl=_extensionLoggerImpl;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <CNDonationPreferencesLogger> preferencesLogger;
-@property(readonly, nonatomic) id <CNDonationPreferencesLogger> preferencesLoggerImpl; // @synthesize preferencesLoggerImpl=_preferencesLoggerImpl;
-@property(readonly) Class superclass;
-@property(readonly) id <CNDonationToolLogger> toolLogger;
-@property(readonly, nonatomic) id <CNDonationToolLogger> toolLoggerImpl; // @synthesize toolLoggerImpl=_toolLoggerImpl;
 
 @end
 

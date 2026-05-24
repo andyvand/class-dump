@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface PAWhiteBalanceAutoSettings
 {
     _Bool _useFace;
-    float _faceI;
-    float _faceQ;
-    float _faceStrength;
-    long long _colorType;
-    double _faceWarmth;
-    double _temperature;
-    double _tint;
-    NSColor *_grayColor;
-    double _grayWarmth;
 }
 
 - (void);
 - (_Bool);
 - (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (double);
-- (double);
+- (double);
 - (float);
 - (float);
 - (float);
@@ -46,15 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) long long colorType; // @synthesize colorType=_colorType;
-@property(nonatomic) float faceI; // @synthesize faceI=_faceI;
-@property(nonatomic) float faceQ; // @synthesize faceQ=_faceQ;
-@property(nonatomic) float faceStrength; // @synthesize faceStrength=_faceStrength;
-@property(nonatomic) double faceWarmth; // @synthesize faceWarmth=_faceWarmth;
-@property(retain, nonatomic) NSColor *grayColor; // @synthesize grayColor=_grayColor;
-@property(nonatomic) double grayWarmth; // @synthesize grayWarmth=_grayWarmth;
-@property(nonatomic) double temperature; // @synthesize temperature=_temperature;
-@property(nonatomic) double tint; // @synthesize tint=_tint;
-@property(nonatomic) _Bool useFace; // @synthesize useFace=_useFace;
 
 @end
 

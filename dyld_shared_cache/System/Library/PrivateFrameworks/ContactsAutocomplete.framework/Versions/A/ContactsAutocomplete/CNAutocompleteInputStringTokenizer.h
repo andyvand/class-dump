@@ -13,10 +13,10 @@
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
-- (id);
-- (CDUnknownBlockType);
+- (id);
+- (CDUnknownBlockType)q!;
 - (id);
 - (id);
 - (void);

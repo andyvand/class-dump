@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval, NSString;
+@class NSDateInterval;
 
 @protocol PXBrowserVisibleContentSnapshot
 
 // Remaining properties
 @property(readonly, nonatomic) NSDateInterval *dateInterval;
-@property(readonly, nonatomic) unsigned long long dateIntervalGranularity;
-@property(readonly, nonatomic) NSString *localizedPlaceholderText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *locationNames;
 @end
 

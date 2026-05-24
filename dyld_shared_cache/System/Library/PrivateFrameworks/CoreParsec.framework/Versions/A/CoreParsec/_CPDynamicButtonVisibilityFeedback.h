@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface _CPDynamicButtonVisibilityFeedback
 {
     unsigned long long _timestamp;
-    NSString *_cardSectionIdentifier;
-    NSArray *_visibleDynamicButton2s;
 }
 
+- (unsigned long long)t doesn't have a scheme.;
+- (id)is invalid.;
+- (id)be parsed because the scheme "%s" is invalid.;
+- (void), WTF:(id)arg1:HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>>::validateKey(const ValueType &) [Key = WTF::Ref<WebKit::WebExtensionMatchPattern>, Value = WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>>, HashFunctions = WTF::DefaultHash<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Traits = WTF::HashMap<WTF::Ref<WebKit::WebExtensionMatchPattern>, WTF::Vector<WTF::Ref<API::UserStyleSheet>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::WebExtensionMatchPattern>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)/RefCounted.h;
+- (void)uring download;
+- (id)Object];
+- (void)odeTraits, Malloc = WTF:(id)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)LS;
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cardSectionIdentifier; // @synthesize cardSectionIdentifier=_cardSectionIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
-@property(copy, nonatomic) NSArray *visibleDynamicButton2s; // @synthesize visibleDynamicButton2s=_visibleDynamicButton2s;
 
 @end
 

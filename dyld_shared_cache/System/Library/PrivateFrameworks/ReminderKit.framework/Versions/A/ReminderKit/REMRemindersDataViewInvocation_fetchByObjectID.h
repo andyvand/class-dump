@@ -6,18 +6,17 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class NSArray, REMReminderFetchOptions;
+@class NSArray;
 
 @interface REMRemindersDataViewInvocation_fetchByObjectID : REMStoreInvocation
 {
     NSArray *_objectIDs;
-    REMReminderFetchOptions *_fetchOptions;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)E;
 - (id);
 - (_Bool);
 - (void);
@@ -27,7 +26,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) REMReminderFetchOptions *fetchOptions; // @synthesize fetchOptions=_fetchOptions;
 @property(readonly, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
 
 @end

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MLExpBrick
 {
     _Bool _withBase2;
-    NSArray *_inputRanks;
-    NSArray *_outputRanks;
-    NSArray *_inputShapes;
-    NSArray *_outputShapes;
 }
 
 - (_Bool);
@@ -21,24 +15,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void)VPixelFormatType_32ARGB pixel buffer was specified.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *inputRanks; // @synthesize inputRanks=_inputRanks;
-@property(readonly, nonatomic) NSArray *inputShapes; // @synthesize inputShapes=_inputShapes;
-@property(readonly, nonatomic) NSArray *outputRanks; // @synthesize outputRanks=_outputRanks;
-@property(readonly, nonatomic) NSArray *outputShapes; // @synthesize outputShapes=_outputShapes;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool withBase2; // @synthesize withBase2=_withBase2;
 
 @end

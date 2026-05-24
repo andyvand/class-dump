@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLiteCompiledStatementDecoder, CKSQLiteCompiledStatementSetup, CKSQLiteDatabase, CKSQLiteTable, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSNumber, NSPointerArray;
+@class CKSQLiteDatabase, CKSQLiteTable;
 
 @interface CKSQLiteCompiledStatement
 {
     CKSQLiteDatabase *_db;
-    struct sqlite3_stmt *_handle;
-    CKSQLiteCompiledStatementSetup *_setup;
-    NSPointerArray *_fetchedValues;
-    NSMutableDictionary *_bindingTypesByVariable;
-    NSDictionary *_searchValues;
-    _Bool _needsSearchBinding;
-    NSMutableArray *_boundObjects;
-    CKSQLiteCompiledStatementDecoder *_decoder;
-    unsigned int _resultInfoCount;
-    CKSQLiteTable *_table;
-    id _label;
-    NSArray *_searchProperties;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)I;
++ (id);
++ (id)I);
 + (id);
 + (id);
 + (id);
@@ -35,11 +26,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)eDidFetchChangesEvent;
-- (id);
++ (id)CKSyncEngineDidFetchChangesEvent;
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -55,17 +43,17 @@
 - (_Bool);
 - (id);
 - (void);
+- (id)espressoShapesToCoremlShapes:ndMode: /* Error: Ran out of types for this method. */;
+- (void)ification5ModelEP5NSURLPU15__autoreleasingP7NSErrorE3$_0FvRNS4_7MILSpec5ValueEEEE;
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -74,8 +62,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)recordProvider:(id)arg1;
+- (void)br_lastName;
+- (void)initWithPendingChanges:(id)arg1 recordProvider: /* Error: Ran out of types for this method. */;
 - (void),C,V_zoneID;
 - (void)	
 ;
@@ -83,11 +71,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id label; // @synthesize label=_label;
-@property(retain, nonatomic) NSNumber *limit;
-@property(retain, nonatomic) NSNumber *offset;
-@property(readonly, nonatomic) unsigned long long resultColumnCount;
-@property(retain, nonatomic) NSArray *searchProperties; // @synthesize searchProperties=_searchProperties;
 @property(readonly, nonatomic) __weak CKSQLiteTable *table; // @synthesize table=_table;
 
 @end

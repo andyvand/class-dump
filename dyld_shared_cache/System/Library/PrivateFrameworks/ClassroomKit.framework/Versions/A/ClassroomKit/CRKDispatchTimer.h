@@ -5,21 +5,17 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_queue;
 
 @interface CRKDispatchTimer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    double _timeInterval;
-    NSObject<OS_dispatch_source> *_timerSource;
-    CDUnknownBlockType _fireHandler;
 }
 
 + (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,11 +28,7 @@
 - (double);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fireHandler; // @synthesize fireHandler=_fireHandler;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
-@property(readonly, nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timerSource; // @synthesize timerSource=_timerSource;
 
 @end
 

@@ -13,16 +13,15 @@
 
 - (id);
 - (id);
-- (id);
+- (id).payment.pnr.provision.valid-pass;
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (id)lue;
+- (id)DefaultValue;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) IMChipSuggestion *suggestion; // @synthesize suggestion;
 
 @end

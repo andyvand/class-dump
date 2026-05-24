@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, NSArray, UIColor;
-
 @interface CKFullscreenEffectMessageFilter
 {
     _Bool _shouldUseMaskImage;
-    int _type;
-    int _direction;
-    NSArray *_balloonFilters;
-    NSArray *_balloonBackdropFilters;
-    CAFilter *_balloonCompositingFilter;
-    double _balloonAlpha;
-    double _contentAlpha;
-    CAFilter *_textCompositingFilter;
-    UIColor *_textColor;
 }
 
-- (_Bool);
+- (_Bool)hreshold;
+- (void)"<ICCoreDataIndexerDelegate>",W,N,V_delegate;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (double);
+- (id)orary legacyNote should not have a folder %@;
+- (id)-collapse:collapse; direction:%@">
+<tbody>
+ /* Error: Ran out of types for this method. */;
+- (id)ntIntent];
+- (double)roller hintStringForCurrentIntent];
 - (id);
 - (void);
 - (double);
 - (id);
 - (int);
 - (id);
-- (void)pdateActiveEntryViewPositioningGuideForInlineReplyController:(int)arg1;
-- (int)th: /* Error: Ran out of types for this method. */;
+- (void)updateActiveEntryViewPositioningGuideForInlineReplyController:(int)arg1;
+- (int)cellForItemAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void)5;
 - (id);
 - (void)Ü;
@@ -45,15 +36,6 @@
 - (void)Y¼l/Î;
 
 // Remaining properties
-@property(nonatomic) double balloonAlpha; // @synthesize balloonAlpha=_balloonAlpha;
-@property(copy, nonatomic) NSArray *balloonBackdropFilters; // @synthesize balloonBackdropFilters=_balloonBackdropFilters;
-@property(copy, nonatomic) CAFilter *balloonCompositingFilter; // @synthesize balloonCompositingFilter=_balloonCompositingFilter;
-@property(copy, nonatomic) NSArray *balloonFilters; // @synthesize balloonFilters=_balloonFilters;
-@property(nonatomic) double contentAlpha; // @synthesize contentAlpha=_contentAlpha;
-@property(nonatomic) int direction; // @synthesize direction=_direction;
-@property(nonatomic) _Bool shouldUseMaskImage; // @synthesize shouldUseMaskImage=_shouldUseMaskImage;
-@property(copy, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
-@property(copy, nonatomic) CAFilter *textCompositingFilter; // @synthesize textCompositingFilter=_textCompositingFilter;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

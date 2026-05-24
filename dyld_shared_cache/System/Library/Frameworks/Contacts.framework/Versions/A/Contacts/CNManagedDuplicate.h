@@ -7,16 +7,6 @@
 @interface CNManagedDuplicate
 {
     id signature;
-    id isAvailable;
-    id isIgnored;
-    id primaryID;
-    id managedCohorts;
-    id userSelectedContactImage;
-    id userSelectedContactPoster;
-    id _contactStore;
-    id _privateContacts;
-    id _privateMergedContact;
-    id _mergedNameComponents;
 }
 
 - (id);

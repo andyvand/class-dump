@@ -7,11 +7,10 @@
 @interface CTLazuliChatBotSuggestedChip
 {
     long long _type;
-    id _chip;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)indexFileURL:%@ isMapSegment:%d mediaType:%@ segmentDuration:%f mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
+- (void)?;
 - (_Bool);
 - (id);
 - (id);
@@ -21,12 +20,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)torLoader";
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id chip; // @synthesize chip=_chip;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

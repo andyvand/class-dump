@@ -7,7 +7,6 @@
 @interface NewsFeed.ShareAttributionViewReuseManager
 {
     id reuseManager;
-    id objectFactory;
 }
 
 @end

@@ -9,7 +9,6 @@
 @interface QLThumbnailGenerationQueue
 {
     NSOperationQueue *_queue;
-    NSMutableDictionary *_queuedURLs;
 }
 
 + (id);
@@ -19,11 +18,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSOperationQueue *queue; // @synthesize queue=_queue;
 @property(retain) NSMutableDictionary *queuedURLs; // @synthesize queuedURLs=_queuedURLs;
 
 @end

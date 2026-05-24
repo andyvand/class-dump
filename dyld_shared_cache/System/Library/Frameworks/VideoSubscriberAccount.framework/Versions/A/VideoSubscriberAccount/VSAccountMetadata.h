@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, VSAccountProviderResponse;
+@class NSString;
 
 @interface VSAccountMetadata
 {
     NSString *_accountProviderIdentifier;
-    NSDate *_authenticationExpirationDate;
-    NSData *_verificationData;
-    VSAccountProviderResponse *_accountProviderResponse;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)qA;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,16 +26,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_ingestPreventedThirdParties:(id)arg1 blockedThirdParties:fromStartDate:toEndDate:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *SAMLAttributeQueryResponse;
 @property(copy, nonatomic) NSString *accountProviderIdentifier; // @synthesize accountProviderIdentifier=_accountProviderIdentifier;
-@property(retain, nonatomic) VSAccountProviderResponse *accountProviderResponse; // @synthesize accountProviderResponse=_accountProviderResponse;
-@property(copy, nonatomic) NSDate *authenticationExpirationDate; // @synthesize authenticationExpirationDate=_authenticationExpirationDate;
-@property(copy, nonatomic) NSData *verificationData; // @synthesize verificationData=_verificationData;
 
 @end
 

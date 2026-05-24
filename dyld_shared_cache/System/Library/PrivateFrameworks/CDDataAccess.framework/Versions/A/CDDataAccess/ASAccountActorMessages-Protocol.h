@@ -5,5 +5,10 @@
 //
 
 @protocol ASAccountActorMessages
+- (int)q;
+- (int)T\;
+- (int)#;
+- (oneway void)@9?;
+- (oneway void)respondToSharedCalendarInvite:forCalendarWithID:accountID:queue:completionBlock: /* Error: Ran out of types for this method. */;
 @end
 

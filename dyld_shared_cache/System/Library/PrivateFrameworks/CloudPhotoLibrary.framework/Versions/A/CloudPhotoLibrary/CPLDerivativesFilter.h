@@ -9,7 +9,6 @@
 @interface CPLDerivativesFilter
 {
     NSMutableDictionary *_skipInfoForAssetChange;
-    NSMutableDictionary *_skipInfoForMasterChange;
 }
 
 + (_Bool);
@@ -17,15 +16,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)0;
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool)u;
-- (_Bool)4`@ùýª°X÷;
-- (_Bool)ÐÊP;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);

@@ -6,20 +6,11 @@
 
 #import <CoreHandwriting/CHTokenizedResult.h>
 
-@class CHLatexParseTree, NSArray, NSNumber, NSSet, NSString;
+@class NSArray;
 
 @interface CHTokenizedMathResult : CHTokenizedResult
 {
     NSArray *_tokenColumns;
-    double _baseCharacterHeight;
-    _Bool _didAttemptParsing;
-    CHLatexParseTree *_parseTree;
-    NSString *_correctedLatex;
-    NSNumber *_selectedTranscriptionPathIndex;
-    NSSet *_declaredVariablesWhileRecognized;
-    NSArray *_transcriptionPaths;
-    NSArray *_transcriptionPathScores;
-    struct CGRect _bounds;
 }
 
 + (id);
@@ -39,9 +30,9 @@
 + (_Bool);
 + (_Bool);
 + (id);
++ (_Bool)r`;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)_inlinePreviewMouseExitedFromCellAtIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -73,7 +64,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)RO;
 - (double);
 - (id);
 - (void);
@@ -86,8 +77,8 @@
 - (double);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)u;
+- (id)workCacheURL:Can't use videoArtworkCacheURL as cache directory [Non-directory file already exists at path] videoArtworkCacheURL=%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -95,20 +86,12 @@
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (double);
+- (double)abel:'%@' /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ì;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteProbability;
-@property(readonly, nonatomic) double baseCharacterHeight;
 @property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) _Bool hasLowConfidence;
-@property(readonly) NSArray *symbolBounds;
-@property(readonly, nonatomic) NSArray *symbolStrokeIndexes;
-@property(readonly, nonatomic) long long tokenColumnCount;
-@property(readonly, copy, nonatomic) NSArray *transcriptionPathScores; // @synthesize transcriptionPathScores=_transcriptionPathScores;
-@property(readonly, copy, nonatomic) NSArray *transcriptionPaths; // @synthesize transcriptionPaths=_transcriptionPaths;
 
 @end
 

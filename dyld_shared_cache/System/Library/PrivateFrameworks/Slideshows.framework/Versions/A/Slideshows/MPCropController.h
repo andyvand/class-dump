@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDocument, NSRecursiveLock;
-
 @interface MPCropController
 {
     id _delegate;
-    MPDocument *_authoredDocument;
-    NSRecursiveLock *_cropLock;
 }
 
 + (void);
 + (id);
-- (void);
+- (void)r:(id)arg1 ];
 - (double);
 - (void);
-- (void);
+- (void);
 - (struct CGPoint);
 - (void);
 - (void);

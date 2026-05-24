@@ -7,7 +7,6 @@
 @interface ReminderKitInternal.REMGenerativeModelsAvailabilityInfo__priv_8A505856BCBA7C801180EE3645A2D009
 {
     id availability;
-    id isMainlandChina;
 }
 
 @end

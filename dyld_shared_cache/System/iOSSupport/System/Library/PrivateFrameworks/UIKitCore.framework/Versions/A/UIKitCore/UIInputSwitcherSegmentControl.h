@@ -6,26 +6,22 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSArray, UIStackView;
+@class UIStackView;
 
 __attribute__((visibility("hidden")))
 @interface UIInputSwitcherSegmentControl : UIControl
 {
     _Bool _usesDarkTheme;
-    long long _selectedSegmentIndex;
-    NSArray *_segmentTitles;
-    NSArray *_segmentImages;
-    UIStackView *_stackView;
 }
 
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (_Bool)chats to update after processing the priorities.;
+- (void)ing nil from DeletedMessageStore.;
+- (void)h name:(id)arg1 %@, identifier:%@, and error:%@ /* Error: Ran out of types for this method. */;
+- (void)entifier:(id)arg1 %@;
+- (id)essage already had originalTextRangesByPartIndex, messages is being edited for a second (or more) time. Not overriding original values.;
+- (id)ing previous custom acknowledgments failed with error:%@ /* Error: Ran out of types for this method. */;
+- (void)�;
 - (void);
 - (unsigned long long);
 - (void);
@@ -34,18 +30,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)nputManagerSyncForKeyboardOutputCallbacks:(id)arg1;
+- (void)_shouldRequestInputManagerSyncForKeyboardOutputCallbacks:(id)arg1;
 - (id)N,S_setTransitionDelegate:(struct CGRect)arg1 ,V__transitionDelegate;
-- (void)xProgress:(id)arg1;
+- (void)setMaxProgress:(id)arg1;
 - (void)°ºg;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfSegments;
-@property(retain, nonatomic) NSArray *segmentImages; // @synthesize segmentImages=_segmentImages;
-@property(copy, nonatomic) NSArray *segmentTitles; // @synthesize segmentTitles=_segmentTitles;
-@property(nonatomic) long long selectedSegmentIndex; // @synthesize selectedSegmentIndex=_selectedSegmentIndex;
 @property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(nonatomic) _Bool usesDarkTheme; // @synthesize usesDarkTheme=_usesDarkTheme;
 
 @end
 

@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol IMHandle
+- (NSString *);
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ID;
 @property(readonly, nonatomic) _Bool matchesLoginHandleForAnyAccount;
-@property(readonly, nonatomic) NSString *normalizedID;
 @end
 

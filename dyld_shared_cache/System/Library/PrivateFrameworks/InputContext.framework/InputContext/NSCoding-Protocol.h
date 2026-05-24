@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)c/libmrec/src/mrecutil/timer.cpp;
 @end
 

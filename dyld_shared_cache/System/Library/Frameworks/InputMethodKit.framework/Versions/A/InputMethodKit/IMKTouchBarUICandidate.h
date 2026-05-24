@@ -15,11 +15,10 @@
 - (double);
 - (long long);
 - (id);
-- (struct CGSize);
+- (struct CGSize)et:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long annotationType; // @synthesize annotationType=_annotationType;
-@property(readonly, nonatomic) double maximumPadding;
 
 @end
 

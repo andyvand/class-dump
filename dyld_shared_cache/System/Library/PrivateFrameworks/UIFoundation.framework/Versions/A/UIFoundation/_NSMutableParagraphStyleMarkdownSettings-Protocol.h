@@ -8,28 +8,12 @@
 
 @protocol _NSMutableParagraphStyleMarkdownSettings
 
+@optional
+- (NSString *)K;
+- (NSArray *);
+
 // Remaining properties
-@property(setter=_setListIntentOrdinal:) long long _listIntentOrdinal;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,S_setListIntentOrdinal:
-
 @property(copy, setter=_setPresentationIntents:) NSArray *_presentationIntents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,C,S_setPresentationIntents:
-
-@property(copy) NSString *codeBlockIntentLanguageHint;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C
-
-@property long long headerLevel;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long listIntentOrdinal;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property(copy, setter=_setPresentationIntents:) NSArray *presentationIntents;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,C,S_setPresentationIntents:
 

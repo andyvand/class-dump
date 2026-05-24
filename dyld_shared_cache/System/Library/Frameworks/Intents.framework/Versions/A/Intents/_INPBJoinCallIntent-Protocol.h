@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBCallGroupConversation, _INPBCallGroupConversationFilter, _INPBIntentMetadata;
+@class _INPBCallGroupConversation, _INPBIntentMetadata;
 
 @protocol _INPBJoinCallIntent
+- (void);
+- (void);
+- (_INPBIntentMetadata *)taskCounter;
 - (_Bool)conversationId;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCallGroupConversation *groupConversation;
-@property(retain, nonatomic) _INPBCallGroupConversationFilter *groupConversationFilter;
-@property(readonly, nonatomic) _Bool hasGroupConversation;
-@property(readonly, nonatomic) _Bool hasGroupConversationFilter;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

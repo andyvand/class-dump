@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (GEOError)
-+ (id);
++ (id)__got;
 + (id);
 + (id);
 + (id);
@@ -16,14 +16,13 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)_type;
+- (_Bool)q,R,V_type;
+- (id)faultNameOrder;
+- (id)dentifierCount;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _geo_isXPCInterruptedError;
 @property(readonly, nonatomic, getter=_geo_isNetworkError) _Bool _geo_networkError;
 @end
 

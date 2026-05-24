@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPPointUnit, LPTextViewStyle, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface LPTapToLoadViewStyle
 {
     UIColor *_backgroundColor;
-    UIColor *_tapHighlightColor;
-    LPTextViewStyle *_caption;
-    LPPointUnit *_width;
-    LPPointUnit *_height;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)transcriptBalloonCell:(id)arg1 willLayoutTextBalloonView: /* Error: Ran out of types for this method. */;
+- (id)activeTextStyles:(long long)arg1 selectedText:(unsigned long long)arg2;
+- (id)Insertion – will call performInsertion: /* Error: Ran out of types for this method. */;
+- (id)NameAndPhotoUnpackerError;
 - (id);
 - (id);
 - (void);
@@ -30,10 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) LPTextViewStyle *caption; // @synthesize caption=_caption;
-@property(retain, nonatomic) LPPointUnit *height; // @synthesize height=_height;
-@property(retain, nonatomic) UIColor *tapHighlightColor; // @synthesize tapHighlightColor=_tapHighlightColor;
-@property(retain, nonatomic) LPPointUnit *width; // @synthesize width=_width;
 
 @end
 

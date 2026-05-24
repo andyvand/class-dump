@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDChat, NSString;
+@class IMDChat;
 
 @protocol IMFamilyMessagePipelineParameter
+- (void)Ri;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) IMDChat *chat;
-@property(copy, nonatomic) NSString *fromIdentifier;
-@property(nonatomic) _Bool isFromMe;
-@property(copy, nonatomic) NSString *toIdentifier;
 @end
 

@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface PQLStatement
 {
     struct sqlite3_stmt *_stmt;
-    PQLStatement *_next;
-    NSMutableArray *_aliveBinds;
-    union {
-        unsigned char inlined[8];
-        unsigned char *ptr;
-    } _specUnion;
-    _Bool _inUse;
-    _Bool _isTraced;
-    short _specLength;
 }
 
 - (void);

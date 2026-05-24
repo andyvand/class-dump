@@ -7,7 +7,6 @@
 @interface NewsUI2.DiagnosticFileProvider
 {
     id feedCursorExportContexts;
-    id feedDatabaseExporter;
 }
 
 - (id);

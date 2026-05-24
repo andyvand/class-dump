@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface UnknownClass (UI_Extensions)
 - (id);
@@ -12,14 +12,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDefaultFolder;
-@property(readonly, nonatomic) _Bool isLocalStorageDomain;
-@property(readonly, nonatomic) _Bool isiCloudDriveDomain;
-@property(readonly) NSString *localizedSubtitle;
 @property(readonly) NSString *localizedTitle;
-@property(readonly) UIImage *providerIcon;
 @end
 

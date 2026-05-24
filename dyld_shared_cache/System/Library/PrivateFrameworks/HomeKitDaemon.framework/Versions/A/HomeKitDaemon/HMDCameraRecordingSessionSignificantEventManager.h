@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraSignificantEventFaceClassificationResolver, NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSessionSignificantEventManager
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_logIdentifier;
-    HMDCameraSignificantEventFaceClassificationResolver *_faceClassificationResolver;
-    NSMutableArray *_significantEvents;
-    CDUnknownBlockType _significantEventUUIDFactory;
-    CDUnknownBlockType _faceClassificationUUIDFactory;
 }
 
 + (id)*[ÿ;
+- (id)con",&,N,V_icon;
+- (CDUnknownBlockType)odeArtwork;
+- (void)message %@;
+- (_Bool)O;
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (_Bool);
-- (id);
-- (CDUnknownBlockType);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,18 +40,6 @@ __attribute__((visibility("hidden")))
 - (void)xÿÛZj@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDCameraSignificantEventFaceClassificationResolver *faceClassificationResolver; // @synthesize faceClassificationResolver=_faceClassificationResolver;
-@property(copy) CDUnknownBlockType faceClassificationUUIDFactory; // @synthesize faceClassificationUUIDFactory=_faceClassificationUUIDFactory;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(copy) CDUnknownBlockType significantEventUUIDFactory; // @synthesize significantEventUUIDFactory=_significantEventUUIDFactory;
-@property(readonly) NSMutableArray *significantEvents; // @synthesize significantEvents=_significantEvents;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

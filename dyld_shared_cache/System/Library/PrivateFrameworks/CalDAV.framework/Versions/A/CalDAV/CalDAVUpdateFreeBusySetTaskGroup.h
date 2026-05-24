@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVPropFindTask, NSString, NSURL;
-@protocol CoreDAVTaskGroupDelegate;
+@class NSURL;
 
 @interface CalDAVUpdateFreeBusySetTaskGroup
 {
     int _state;
-    NSURL *_inboxURL;
-    NSURL *_urlToAdd;
-    NSString *_suffixToFilterOut;
-    CoreDAVPropFindTask *_fetchTask;
 }
 
 - (id);
@@ -37,19 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CoreDAVTaskGroupDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CoreDAVPropFindTask *fetchTask; // @synthesize fetchTask=_fetchTask;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSURL *inboxURL; // @synthesize inboxURL=_inboxURL;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(retain, nonatomic) NSString *suffixToFilterOut; // @synthesize suffixToFilterOut=_suffixToFilterOut;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSURL *urlToAdd; // @synthesize urlToAdd=_urlToAdd;
 
 @end
 

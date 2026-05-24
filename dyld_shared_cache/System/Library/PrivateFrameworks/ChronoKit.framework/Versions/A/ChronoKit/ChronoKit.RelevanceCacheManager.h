@@ -7,10 +7,6 @@
 @interface ChronoKit.RelevanceCacheManager
 {
     id $defaultActor;
-    id cacheKeyProvider;
-    id descriptorProvider;
-    id relevanceCacheURL;
-    id relevanceCache;
 }
 
 @end

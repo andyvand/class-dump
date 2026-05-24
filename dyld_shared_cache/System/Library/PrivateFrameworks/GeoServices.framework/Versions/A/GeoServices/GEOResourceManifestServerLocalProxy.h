@@ -4,47 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOActiveTileGroup, GEOCoalescingTimer, GEODownloadMetadata, GEOResourceFiltersManager, GEOResourceManifestConfiguration, GEOResourceManifestDownload, GEOResourceManifestDownloadTask, GEOTileGroupActivationSession, NSArray, NSError, NSMutableArray, NSObject, NSOperationQueue, NSProgress, NSString, geo_isolater;
-@protocol GEOResourceManifestServerProxyDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class GEOResourceManifestDownload;
+@protocol GEOResourceManifestServerProxyDelegate;
 
 @interface GEOResourceManifestServerLocalProxy
 {
     id <GEOResourceManifestServerProxyDelegate> _delegate;
-    GEOResourceManifestDownloadTask *_manifestDownloadTask;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSOperationQueue *_workOperationQueue;
-    GEOResourceManifestConfiguration *_configuration;
-    _Bool _wantsManifestUpdateOnReachabilityChange;
-    NSObject<OS_dispatch_source> *_manifestUpdateTimer;
-    _Bool _wantsTileGroupUpdateOnReachabilityChange;
-    NSObject<OS_dispatch_source> *_tileGroupUpdateTimer;
-    GEOActiveTileGroup *_activeTileGroup;
-    _Bool _started;
-    unsigned long long _manifestRetryCount;
-    double _lastManifestRetryTimestamp;
-    unsigned long long _tileGroupRetryCount;
-    double _lastTileGroupRetryTimestamp;
-    NSString *_authToken;
-    NSError *_lastResourceManifestLoadError;
-    NSMutableArray *_manifestUpdateCompletionHandlers;
-    NSMutableArray *_opportunisticManifestUpdateCompletionHandlers;
-    long long _currentManifestUpdateType;
-    GEOResourceFiltersManager *_filtersManager;
-    NSArray *_tileGroupMigrators;
-    unsigned long long _stateCaptureHandle;
-    NSProgress *_updateProgress;
-    NSProgress *_currentUpdateProgress;
-    geo_isolater *_dataIsolater;
-    GEOTileGroupActivationSession *_tileGroupActivationSession;
-    _Bool _tileGroupActivationSessionHasFinishedFirstTileGroupChange;
-    _Bool _tileGroupActivationShouldFlushTileCache;
-    GEOCoalescingTimer *_manifestPurgeTimer;
-    GEOResourceManifestDownload *_resourceManifest;
-    GEODownloadMetadata *_metadata;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,6 +30,13 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)Received msg of type %{public}lld for utt %{public}@;
 - (void);
 - (void);
 - (id);
@@ -68,53 +44,46 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)r;
+- (void);
+- (unsigned char)removeObjectAtIndex:(int)arg1;
+- (void);
+- (void)oviderId:(int)arg1 classification: /* Error: Ran out of types for this method. */;
+- (void)_isListeningForYawUpdateNotifications;
+- (id)_roomForCompass;
+- (void)_locationAccuracyInScreenPoints;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned char);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)3t;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)_;
 - (oneway void);
 - (void);
 - (_Bool)	'!CùQ¹*Ð1Â0@ù
 × ;
 - (void)wrote_anyField"b1};
-- (id)Region: /* Error: Ran out of types for this method. */;
-- (unsigned int)RLs:(int)arg1;
-- (void)ibution;
-- (void)tCoordinateOnLine:(id)arg1;
+- (id)versionForFlyoverRegion: /* Error: Ran out of types for this method. */;
+- (unsigned int)setAttributionURLs:(int)arg1;
+- (void)hasSuppressResultsRequiringAttribution;
+- (void)distanceInMetersFrom:(id)arg1 outClosestCoordinateOnLine:(long long)arg2;
 - (void)¼û;
 - (void)<¯\z;
 - (void)ar route:%@ /* Error: Ran out of types for this method. */;
-- (void)diusOn;
-- (_Bool)X;
+- (void)watchProximityRadiusOn;
+- (_Bool)tX;
 - (id)uninterpreted_optionç (2$.google.protobuf.UninterpretedOption":(id)arg1 OptimizeMode	
 SPEED
 	CODE_SIZE
@@ -145,17 +114,7 @@ deprecated (:false
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) GEOActiveTileGroup *activeTileGroup;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <GEOResourceManifestServerProxyDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) GEODownloadMetadata *metadata;
 @property(readonly, nonatomic) GEOResourceManifestDownload *resourceManifest;
-@property(readonly) Class superclass;
 
 @end
 

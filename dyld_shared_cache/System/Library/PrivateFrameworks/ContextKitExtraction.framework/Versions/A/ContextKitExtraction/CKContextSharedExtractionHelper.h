@@ -8,10 +8,10 @@
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool)anged_date, cloud_library_id, editorial_notes FROM album ;
++ (id)RE ROWID = ?;
++ (id)genre SET genre = ? WHERE ROWID = ?;
++ (id)OM genre WHERE (ROWID=? OR sync_id=?);
 
 @end
 

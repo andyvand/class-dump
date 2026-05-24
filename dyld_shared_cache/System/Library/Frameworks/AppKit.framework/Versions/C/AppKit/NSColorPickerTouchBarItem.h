@@ -6,38 +6,24 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSArray, NSColor, NSColorList, NSImage, NSString, NSTouchBar, NSTouchBarItemOverlay, NSView;
+@class NSTouchBar;
 
 @interface NSColorPickerTouchBarItem : NSTouchBarItem
 {
     id _overlay;
-    NSString *_customizationLabel;
-    NSColor *_color;
-    id _target;
-    SEL _action;
-    long long _mode;
-    NSView *_view;
-    NSString *_buttonTitle;
-    NSImage *_buttonImage;
-    NSColorList *_colorList;
-    id _autounbinder;
-    NSArray *_allowedColorSpaces;
-    _Bool _showsAlpha;
-    _Bool _supportsPressAndHoldVariants;
-    _Bool _enabled;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)ient=^^?};
++ (id)challenge for client certificates, DNs(%ld);
++ (id)nection %llu:failed to clone trust, error %@ [%ld] /* Error: Ran out of types for this method. */;
++ (id)_delegate_didFail;
++ (id)scheduled before didReceiveResponse;
++ (id)ring violation:(id)arg1 didFinishLoading to be scheduled before didReceiveResponse;
++ (_Bool)NDBackgroundSessionManagerKeySessionUUID;
+- (_Bool)failed %s;
+- (id)trol-name;
 - (_Bool);
-- (id);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -45,22 +31,22 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)URLHostAllowedCharacterSet;
+- (id)ex %ld of array %@;
+- (void)riggered;
+- (void)on is alive;
+- (void)gered;
+- (void)nnection is alive;
+- (void)stream closed but connection is alive;
+- (_Bool)ng broken connection, last success %llus ago, consecutive failures %llu;
+- (id)lu ended successfully %{bool}d;
+- (id)st, error %@ [%ld];
+- (id);
+- (void)_kCFNTimingDataNStatCellTXPackets;
+- (void);;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -75,47 +61,25 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)n_len;
 - (oneway void);
 - (_Bool);
 - (void);
+- (id)c.x509-certificate;
+- (void)"NSLayoutManager"8Q16^B24;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)(;
 - (void)¡ë/°!4Aùà3°1Â0@ù
 × ;
-- (void)ding:(id)arg1;
-- (id)timeInterval: /* Error: Ran out of types for this method. */;
+- (void)visualTabPickerControllerDidBeginHiding:(id)arg1;
+- (id)_constrainDateValue:timeInterval: /* Error: Ran out of types for this method. */;
 - (SEL)|[_tabButtonGlassView]-(0@999)-|;
 - (void)Options;
 - (long long)h;
 - (void)8¢B;
 
 // Remaining properties
-@property(readonly) NSTouchBarItemOverlay *_overlay;
-@property SEL action; // @synthesize action=_action;
-@property(copy) NSArray *allowedColorSpaces;
-@property(copy) NSColor *color;
-@property(retain) NSColorList *colorList; // @synthesize colorList=_colorList;
-@property _Bool colorListSupportsPressAndHoldVariants; // @synthesize colorListSupportsPressAndHoldVariants=_supportsPressAndHoldVariants;
-@property(copy) NSString *customizationLabel; // @synthesize customizationLabel=_customizationLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isPresented;
-@property long long mode;
 @property(readonly) NSTouchBar *popoverTouchBar;
-@property _Bool showsAlpha; // @synthesize showsAlpha=_showsAlpha;
-@property(readonly) _Bool showsCloseButton;
-@property(readonly, copy) NSColor *storedColor;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsPressAndHold;
-@property __weak id target; // @synthesize target=_target;
 
 @end
 

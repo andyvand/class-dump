@@ -10,11 +10,11 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)initWithName:(struct CGRect)arg1 icon:(unsigned long long)arg2 font:height: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 

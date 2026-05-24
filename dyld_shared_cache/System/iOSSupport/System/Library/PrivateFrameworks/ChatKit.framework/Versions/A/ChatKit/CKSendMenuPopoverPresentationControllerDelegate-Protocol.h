@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKPopoverViewLayoutMetrics, CKSendMenuPopoverPresentationController;
+
 @protocol CKSendMenuPopoverPresentationControllerDelegate
+- (void)searchStringLength;
+- (void)searchResultsInSection:(CKSendMenuPopoverPresentationController *)arg1;
+- (void)searchResultsBySectionForSearchResults:(CKSendMenuPopoverPresentationController *)arg1 passingVisibilityTesting:(CKPopoverViewLayoutMetrics *)arg2;
 @end
 

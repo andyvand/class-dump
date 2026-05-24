@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void)eClass;
+- (void)sizeClass;
 - (id)ewMode(PXLibraryFilterViewMode);
 - (void);
 

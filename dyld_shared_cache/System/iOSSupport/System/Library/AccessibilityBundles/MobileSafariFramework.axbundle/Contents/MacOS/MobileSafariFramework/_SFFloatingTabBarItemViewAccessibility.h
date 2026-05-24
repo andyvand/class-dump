@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)';
++ (id)layoutManager;
 + (void);
 - (void);
 

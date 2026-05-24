@@ -7,28 +7,22 @@
 @interface HMSupportedAccessoryDiagnostics
 {
     unsigned long long _supportedTypes;
-    long long _supportedFormat;
-    unsigned long long _supportedOptions;
-    unsigned long long _supportedAudio;
 }
 
 + (_Bool);
 - (unsigned long long);
-- (id);
+- (id)E;
 - (long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)panelling;
 - (void);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long supportedAudio; // @synthesize supportedAudio=_supportedAudio;
-@property(readonly, nonatomic) long long supportedFormat; // @synthesize supportedFormat=_supportedFormat;
-@property(readonly, nonatomic) unsigned long long supportedOptions; // @synthesize supportedOptions=_supportedOptions;
 @property(readonly, nonatomic) unsigned long long supportedTypes; // @synthesize supportedTypes=_supportedTypes;
 
 @end

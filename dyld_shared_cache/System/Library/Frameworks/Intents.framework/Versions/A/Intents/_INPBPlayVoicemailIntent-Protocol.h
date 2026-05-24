@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class NSString;
 
 @protocol _INPBPlayVoicemailIntent
-- (_Bool)back:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool)handleSendRideFeedback:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *callRecordIdentifier;
-@property(readonly, nonatomic) _Bool hasCallRecordIdentifier;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

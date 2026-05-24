@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)77;
 + (_Bool);
 
 @end

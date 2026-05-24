@@ -7,14 +7,11 @@
 #import <Metal/_MTL4CommandEncoder.h>
 
 @class NSString;
-@protocol MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTL4MachineLearningPipelineState, MTLSharedEvent;
+@protocol MTL4MachineLearningPipelineState;
 
 @interface _MTL4MachineLearningCommandEncoder : _MTL4CommandEncoder
 {
     id <MTL4MachineLearningPipelineState> _currentPipelineState;
-    id <MTL4ArgumentTable> _currentArgumentTable;
-    void *_dispatchList;
-    id <MTLSharedEvent> _event;
 }
 
 - (id);
@@ -32,16 +29,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTL4CommandAllocator> commandAllocator;
-@property(readonly, nonatomic) id <MTL4CommandBuffer> commandBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

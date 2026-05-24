@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaDestinationMessageHandler, HMMediaDestination, NSUUID;
+@class HMMediaDestination, NSUUID;
 
 @protocol HMDMediaDestinationManager
-- (NSUUID *)ternal;
+- (void);
+- (HMMediaDestination *)_saveSendingRulesArchiveError;
+- (_Bool)vided sharing handle does not match the current sharing identity;
+- (NSUUID *)HMDStateEventInternal;
 
 // Remaining properties
-@property(readonly) HMMediaDestination *committedDestination;
-@property(readonly) HMMediaDestination *destination;
 @property(readonly) NSUUID *identifier;
-@property(readonly) HMDMediaDestinationMessageHandler *messageHandler;
 @end
 

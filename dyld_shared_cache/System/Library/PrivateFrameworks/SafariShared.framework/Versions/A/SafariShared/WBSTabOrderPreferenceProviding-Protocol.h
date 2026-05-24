@@ -5,12 +5,10 @@
 //
 
 @protocol WBSTabOrderPreferenceProviding
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double minimumDelayForRelatingNewBlankTab;
-@property(readonly, nonatomic) _Bool newBlankTabPositionAppliesToAllBlankTabs;
 @property(readonly, nonatomic) unsigned long long newTabPosition;
-@property(readonly, nonatomic) _Bool newTabPositionAppliesToSpawnedTabs;
-@property(readonly, nonatomic) _Bool suppressRelatingNewBlankTabs;
 @end
 

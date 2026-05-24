@@ -9,7 +9,6 @@
 @interface NewsCore.FeedItemDatabaseRef
 {
     id fileURL;
-    id _resolved;
 }
 
 + (_Bool);

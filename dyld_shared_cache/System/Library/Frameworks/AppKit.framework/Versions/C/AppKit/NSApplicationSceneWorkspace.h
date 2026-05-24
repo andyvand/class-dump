@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSerialQueue, FBSWorkspace;
-@protocol NSApplicationSceneHandler;
+@class FBSWorkspace;
 
 @interface NSApplicationSceneWorkspace
 {
     id sceneHandlers;
-    id underlyingWorkspace;
-    id <NSApplicationSceneHandler> appkitHandler;
-    id <NSApplicationSceneHandler> uikitHandler;
-    FBSSerialQueue *callOutQueue;
 }
 
 + (id)E;
@@ -21,8 +16,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)taskDependencyWithMainDocumentTask:(id)arg1 taskDependencyDescription: /* Error: Ran out of types for this method. */;
+- (id)_attributedBundleIdentifier;
 - (id);
 - (void);
 - (id);
@@ -32,9 +27,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) id <NSApplicationSceneHandler> appkitHandler; // @synthesize appkitHandler;
-@property(nonatomic, retain) FBSSerialQueue *callOutQueue; // @synthesize callOutQueue;
-@property(nonatomic, retain) id <NSApplicationSceneHandler> uikitHandler; // @synthesize uikitHandler;
 @property(nonatomic, readonly) FBSWorkspace *workspace;
 
 @end

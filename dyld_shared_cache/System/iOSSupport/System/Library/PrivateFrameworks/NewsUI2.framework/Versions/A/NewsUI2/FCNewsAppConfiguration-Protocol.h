@@ -4,38 +4,161 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCIAdConfiguration, FCOfflineDownloadsConfiguration, FCPeopleAlsoReadConfiguration, FCPrefetchConfiguration, NSArray, NSData, NSDictionary, NSString, NTPBDiscoverMoreVideosInfo;
+@class FCIAdConfiguration, FCPrefetchConfiguration, NSArray, NSData, NSDictionary, NSString, NTPBDiscoverMoreVideosInfo;
 @protocol FCNewsAppConfigurationInternal;
 
 @protocol FCNewsAppConfiguration
-- (long long)humbnail;
-- (long long)ErrorHandler;
+- (double)erraentraréxitolópezagendavídeoevitarpaginametrosjavierpadresfácilcabezaáreassalidaenvíojapónabusosbienestextosllevarpuedanfuertecomúnclaseshumanotenidobilbaounidadestáseditarcreadoдлячтокакилиэтовсеегопритакещеужеКакбезбылониВсеподЭтотомчемнетлетразонагдемнеДляПринаснихтемктогодвоттамСШАмаяЧтовасвамемуТакдванамэтиэтуВамтехпротутнаддняВоттринейВаснимсамтотрубОнимирнееОООлицэтаОнанемдоммойдвеоносудकेहैकीसेकाकोऔरपरनेएककिभीइसकरतोहोआपहीयहयातकथाjagranआजजोअबदोगईजागएहमइनवहयेथेथीघरजबदीकईजीवेनईनएहरउसमेकमवोलेसबमईदेओरआमबसभरबनचलमनआगसीलीعلىإلىهذاآخرعددالىهذهصورغيركانولابينعرضذلكهنايومقالعليانالكنحتىقبلوحةاخرفقطعبدركنإذاكمااحدإلافيهبعضكيفبحثومنوهوأناجدالهاسلمعندليسعبرصلىمنذبهاأنهمثلكنتالاحيثمصرشرححولوفياذالكلمرةانتالفأبوخاصأنتانهاليعضووقدابنخيربنتلكمشاءوهيابوقصصومارقمأحدنحنعدمرأياحةكتبدونيجبمنهتحتجهةسنةيتمكرةغزةنفسبيتللهلناتلكقلبلماعنهأولشيءنورأمافيكبكلذاترتببأنهمسانكبيعفقدحسنلهمشعرأهلشهرقطرطلبprofileservicedefaulthimselfdetailscontentsupportstartedmessagesuccessfashion<title>countryaccountcreatedstoriesresultsrunningprocesswritingobjectsvisiblewelcomearticleunknownnetworkcompanydynamicbrowserprivacyproblemServicerespectdisplayrequestreservewebsitehistoryfriendsoptionsworkingversionmillionchannelwindow.addressvisitedweathercorrectproductedirectforwardyou canremovedsubjectcontrolarchivecurrentreadinglibrarylimitedmanagerfurthersummarymachineminutesprivatecontextprogramsocietynumberswrittenenabledtriggersourcesloadingelementpartnerfinallyperfectmeaningsystemskeepingculture&quot;,journalprojectsurfaces&quot;expiresreviewsbalanceEnglishContentthroughPlease opinioncontactaverageprimaryvillageSpanishgallerydeclinemeetingmissionpopularqualitymeasuregeneralspeciessessionsectionwriterscounterinitialreportsfiguresmembersholdingdisputeearlierexpressdigitalpictureAnothermarriedtrafficleadingchangedcentralvictoryimages/reasonsstudiesfeaturelistingmust beschoolsVersionusuallyepisodeplayinggrowingobviousoverlaypresentactions</ul>
+wrapperalreadycertainrealitystorageanotherdesktopofferedpatternunusualDigitalcapitalWebsitefailureconnectreducedAndroiddecadesregular &amp; animalsreleaseAutomatgettingmethodsnothingPopularcaptionletterscapturesciencelicensechangesEngland=1&amp;History = new CentralupdatedSpecialNetworkrequirecommentwarningCollegetoolbarremainsbecauseelectedDeutschfinanceworkersquicklybetweenexactlysettingdiseaseSocietyweaponsexhibit&lt;!--Controlclassescoveredoutlineattacksdevices(windowpurposetitle="Mobile killingshowingItaliandroppedheavilyeffects-1']);
+confirmCurrentadvancesharingopeningdrawingbillionorderedGermanyrelated</form>includewhetherdefinedSciencecatalogArticlebuttonslargestuniformjourneysidebarChicagoholidayGeneralpassage,&quot;animatefeelingarrivedpassingnaturalroughly.
+
+The but notdensityBritainChineselack oftributeIreland" data-factorsreceivethat isLibraryhusbandin factaffairsCharlesradicalbroughtfindinglanding:lang="return leadersplannedpremiumpackageAmericaEdition]&quot;Messageneed tovalue="complexlookingstationbelievesmaller-mobilerecordswant tokind ofFirefoxyou aresimilarstudiedmaximumheadingrapidlyclimatekingdomemergedamountsfoundedpioneerformuladynastyhow to SupportrevenueeconomyResultsbrothersoldierlargelycalling.&quot;AccountEdward segmentRobert effortsPacificlearnedup withheight:we haveAngelesnations_searchappliedacquiremassivegranted:falsetreatedbiggestbenefitdrivingStudiesminimumperhapsmorningsellingis usedreversevariant role="missingachievepromotestudentsomeoneextremerestorebottom:evolvedall thesitemapenglishway to  AugustsymbolsCompanymattersmusicalagainstserving})();
+paymenttroubleconceptcompareparentsplayersregionsmonitor ''The winningexploreadaptedGalleryproduceabilityenhancecareers). The collectSearch ancientexistedfooter handlerprintedconsoleEasternexportswindowsChannelillegalneutralsuggest_headersigning.html">settledwesterncausing-webkitclaimedJusticechaptervictimsThomas mozillapromisepartieseditionoutside:false,hundredOlympic_buttonauthorsreachedchronicdemandssecondsprotectadoptedprepareneithergreatlygreateroverallimprovecommandspecialsearch.worshipfundingthoughthighestinsteadutilityquarterCulturetestingclearlyexposedBrowserliberal} catchProjectexamplehide();FloridaanswersallowedEmperordefenseseriousfreedomSeveral-buttonFurtherout of != nulltrainedDenmarkvoid(0)/all.jspreventRequestStephen
+
+When observe</h2>
+Modern provide" alt="borders.
+
+For 
+
+Many artistspoweredperformfictiontype ofmedicalticketsopposedCouncilwitnessjusticeGeorge Belgium...</a>twitternotablywaitingwarfare Other rankingphrasesmentionsurvivescholar</p>
+ Countryignoredloss ofjust asGeorgiastrange<head><stopped1']);
+islandsnotableborder:list ofcarried100,000</h3>
+ severalbecomesselect wedding00.htmlmonarchoff theteacherhighly biologylife ofor evenrise of&raquo;plusonehunting(thoughDouglasjoiningcirclesFor theAncientVietnamvehiclesuch ascrystalvalue =Windowsenjoyeda smallassumed<a id="foreign All rihow theDisplayretiredhoweverhidden;battlesseekingcabinetwas notlook atconductget theJanuaryhappensturninga:hoverOnline French lackingtypicalextractenemieseven ifgeneratdecidedare not/searchbeliefs-image:locatedstatic.login">convertviolententeredfirst">circuitFinlandchemistshe was10px;">as suchdivided</span>will beline ofa greatmystery/index.fallingdue to railwaycollegemonsterdescentit withnuclearJewish protestBritishflowerspredictreformsbutton who waslectureinstantsuicidegenericperiodsmarketsSocial fishingcombinegraphicwinners<br /><by the NaturalPrivacycookiesoutcomeresolveSwedishbrieflyPersianso muchCenturydepictscolumnshousingscriptsnext tobearingmappingrevisedjQuery(-width:title">tooltipSectiondesignsTurkishyounger.match(})();
+
+burningoperatedegreessource=Richardcloselyplasticentries</tr>
+color:#ul id="possessrollingphysicsfailingexecutecontestlink toDefault<br />
+:true,chartertourismclassicproceedexplain</h1>
+online.?xml vehelpingdiamonduse theairlineend -->).attr(readershosting#ffffffrealizeVincentsignals src="/ProductdespitediversetellingPublic held inJoseph theatreaffects<style>a largedoesn'tlater, ElementfaviconcreatorHungaryAirportsee theso thatMichaelSystemsPrograms, and  width=e&quot;tradingleft">
+personsGolden Affairsgrammarformingdestroyidea ofcase ofoldest this is.src = cartoonregistrCommonsMuslimsWhat isin manymarkingrevealsIndeed,equally/show_aoutdoorescape(Austriageneticsystem,In the sittingHe alsoIslandsAcademy
+		<!--Daniel bindingblock">imposedutilizeAbraham(except{width:putting).html(|| [];
+DATA[ *kitchenmountedactual dialectmainly _blank'installexpertsif(typeIt also&copy; ">Termsborn inOptionseasterntalkingconcerngained ongoingjustifycriticsfactoryits ownassaultinvitedlastinghis ownhref="/" rel="developconcertdiagramdollarsclusterphp?id=alcohol);})();using a><span>vesselsrevivalAddressamateurandroidallegedillnesswalkingcentersqualifymatchesunifiedextinctDefensedied in
+	<!-- customslinkingLittle Book ofeveningmin.js?are thekontakttoday's.html" target=wearingAll Rig;
+})();raising Also, crucialabout">declare-->
+<scfirefoxas muchappliesindex, s, but type = 
+
+<!--towardsRecordsPrivateForeignPremierchoicesVirtualreturnsCommentPoweredinline;povertychamberLiving volumesAnthonylogin" RelatedEconomyreachescuttinggravitylife inChapter-shadowNotable</td>
+ returnstadiumwidgetsvaryingtravelsheld bywho arework infacultyangularwho hadairporttown of
+
+Some 'click'chargeskeywordit willcity of(this);Andrew unique checkedor more300px; return;rsion="pluginswithin herselfStationFederalventurepublishsent totensionactresscome tofingersDuke ofpeople,exploitwhat isharmonya major":"httpin his menu">
+monthlyofficercouncilgainingeven inSummarydate ofloyaltyfitnessand wasemperorsupremeSecond hearingRussianlongestAlbertalateralset of small">.appenddo withfederalbank ofbeneathDespiteCapitalgrounds), and percentit fromclosingcontainInsteadfifteenas well.yahoo.respondfighterobscurereflectorganic= Math.editingonline paddinga wholeonerroryear ofend of barrierwhen itheader home ofresumedrenamedstrong>heatingretainscloudfrway of March 1knowingin partBetweenlessonsclosestvirtuallinks">crossedEND -->famous awardedLicenseHealth fairly wealthyminimalAfricancompetelabel">singingfarmersBrasil)discussreplaceGregoryfont copursuedappearsmake uproundedboth ofblockedsaw theofficescoloursif(docuwhen heenforcepush(fuAugust UTF-8">Fantasyin mostinjuredUsuallyfarmingclosureobject defenceuse of Medical<body>
+evidentbe usedkeyCodesixteenIslamic#000000entire widely active (typeofone cancolor =speakerextendsPhysicsterrain<tbody>funeralviewingmiddle cricketprophetshifteddoctorsRussell targetcompactalgebrasocial-bulk ofman and</td>
+ he left).val()false);logicalbankinghome tonaming Arizonacredits);
+});
+founderin turnCollinsbefore But thechargedTitle">CaptainspelledgoddessTag -->Adding:but wasRecent patientback in=false&Lincolnwe knowCounterJudaismscript altered']);
+  has theunclearEvent',both innot all
+
+<!-- placinghard to centersort ofclientsstreetsBernardassertstend tofantasydown inharbourFreedomjewelry/about..searchlegendsis mademodern only ononly toimage" linear painterand notrarely acronymdelivershorter00&amp;as manywidth="/* <![Ctitle =of the lowest picked escapeduses ofpeoples PublicMatthewtacticsdamagedway forlaws ofeasy to windowstrong  simple}catch(seventhinfoboxwent topaintedcitizenI don'tretreat. Some ww.");
+bombingmailto:made in. Many carries||{};wiwork ofsynonymdefeatsfavoredopticalpageTraunless sendingleft"><comScorAll thejQuery.touristClassicfalse" Wilhelmsuburbsgenuinebishops.split(global followsbody ofnominalContactsecularleft tochiefly-hidden-banner</li>
+
+. When in bothdismissExplorealways via thespañolwelfareruling arrangecaptainhis sonrule ofhe tookitself,=0&amp;(calledsamplesto makecom/pagMartin Kennedyacceptsfull ofhandledBesides//--></able totargetsessencehim to its by common.mineralto takeways tos.org/ladvisedpenaltysimple:if theyLettersa shortHerbertstrikes groups.lengthflightsoverlapslowly lesser social </p>
+		it intoranked rate oful>
+  attemptpair ofmake itKontaktAntoniohaving ratings activestreamstrapped").css(hostilelead tolittle groups,Picture-->
+
+ rows=" objectinverse<footerCustomV><\/scrsolvingChamberslaverywoundedwhereas!= 'undfor allpartly -right:Arabianbacked centuryunit ofmobile-Europe,is homerisk ofdesiredClintoncost ofage of become none ofp&quot;Middle ead')[0Criticsstudios>&copy;group">assemblmaking pressedwidget.ps:" ? rebuiltby someFormer editorsdelayedCanonichad thepushingclass="but arepartialBabylonbottom carrierCommandits useAs withcoursesa thirddenotesalso inHouston20px;">accuseddouble goal ofFamous ).bind(priests Onlinein Julyst + "gconsultdecimalhelpfulrevivedis veryr'+'iptlosing femalesis alsostringsdays ofarrivalfuture <objectforcingString(" />
+		here isencoded.  The balloondone by/commonbgcolorlaw of Indianaavoidedbut the2px 3pxjquery.after apolicy.men andfooter-= true;for usescreen.Indian image =family,http:// &nbsp;driverseternalsame asnoticedviewers})();
+ is moreseasonsformer the newis justconsent Searchwas thewhy theshippedbr><br>width:height=made ofcuisineis thata very Admiral fixed;normal MissionPress, ontariocharsettry to invaded="true"spacingis mosta more totallyfall of});
+  immensetime inset outsatisfyto finddown tolot of Playersin Junequantumnot thetime todistantFinnishsrc = (single help ofGerman law andlabeledforestscookingspace">header-well asStanleybridges/globalCroatia About [0];
+  it, andgroupedbeing a){throwhe madelighterethicalFFFFFF"bottom"like a employslive inas seenprintermost ofub-linkrejectsand useimage">succeedfeedingNuclearinformato helpWomen'sNeitherMexicanprotein<table by manyhealthylawsuitdevised.push({sellerssimply Through.cookie Image(older">us.js"> Since universlarger open to!-- endlies in']);
+  marketwho is ("DOMComanagedone fortypeof Kingdomprofitsproposeto showcenter;made itdressedwere inmixtureprecisearisingsrc = 'make a securedBaptistvoting 
+		var March 2grew upClimate.removeskilledway the</head>face ofacting right">to workreduceshas haderectedshow();action=book ofan area== "htt<header
+<html>conformfacing cookie.rely onhosted .customhe wentbut forspread Family a meansout theforums.footage">MobilClements" id="as highintense--><!--female is seenimpliedset thea stateand hisfastestbesidesbutton_bounded"><img Infoboxevents,a youngand areNative cheaperTimeoutand hasengineswon the(mostlyright:find a -bottomPrince area ofmore ofsearch_nature,legallyperiod,land ofor withinducedprovingmissilelocallyAgainstthe wayk&quot;px;">
+pushed abandonnumeralCertainIn thismore inor somename isand, incrownedISBN 0-createsOctobermay notcenter late inDefenceenactedwish tobroadlycoolingonload=it. TherecoverMembersheight assumes<html>
+people.in one =windowfooter_a good reklamaothers,to this_cookiepanel">London,definescrushedbaptismcoastalstatus title" move tolost inbetter impliesrivalryservers SystemPerhapses and contendflowinglasted rise inGenesisview ofrising seem tobut in backinghe willgiven agiving cities.flow of Later all butHighwayonly bysign ofhe doesdiffersbattery&amp;lasinglesthreatsintegertake onrefusedcalled =US&ampSee thenativesby thissystem.head of:hover,lesbiansurnameand allcommon/header__paramsHarvard/pixel.removalso longrole ofjointlyskyscraUnicodebr />
+AtlantanucleusCounty,purely count">easily build aonclicka givenpointerh&quot;events else {
+ditionsnow the, with man whoorg/Webone andcavalryHe diedseattle00,000 {windowhave toif(windand itssolely m&quot;renewedDetroitamongsteither them inSenatorUs</a><King ofFrancis-produche usedart andhim andused byscoringat hometo haverelatesibilityfactionBuffalolink"><what hefree toCity ofcome insectorscountedone daynervoussquare };if(goin whatimg" alis onlysearch/tuesdaylooselySolomonsexual - <a hrmedium"DO NOT France,with a war andsecond take a >
+
+
+market.highwaydone inctivity"last">obligedrise to"undefimade to Early praisedin its for hisathleteJupiterYahoo! termed so manyreally s. The a woman?value=direct right" bicycleacing="day andstatingRather,higher Office are nowtimes, when a pay foron this-link">;borderaround annual the Newput the.com" takin toa brief(in thegroups.; widthenzymessimple in late{returntherapya pointbanninginks">
+();" rea place\u003Caabout atr>
+		ccount gives a<SCRIPTRailwaythemes/toolboxById("xhumans,watchesin some if (wicoming formats Under but hashanded made bythan infear ofdenoted/iframeleft involtagein eacha&quot;base ofIn manyundergoregimesaction </p>
+<ustomVa;&gt;</importsor thatmostly &amp;re size="</a></ha classpassiveHost = WhetherfertileVarious=[];(fucameras/></td>acts asIn some>
+
+<!organis <br />Beijingcatalàdeutscheuropeueuskaragaeilgesvenskaespañamensajeusuariotrabajoméxicopáginasiempresistemaoctubreduranteañadirempresamomentonuestroprimeratravésgraciasnuestraprocesoestadoscalidadpersonanúmeroacuerdomúsicamiembroofertasalgunospaísesejemploderechoademásprivadoagregarenlacesposiblehotelessevillaprimeroúltimoeventosarchivoculturamujeresentradaanuncioembargomercadograndesestudiomejoresfebrerodiseñoturismocódigoportadaespaciofamiliaantoniopermiteguardaralgunaspreciosalguiensentidovisitastítuloconocersegundoconsejofranciaminutossegundatenemosefectosmálagasesiónrevistagranadacompraringresogarcíaacciónecuadorquienesinclusodeberámateriahombresmuestrapodríamañanaúltimaestamosoficialtambienningúnsaludospodemosmejorarpositionbusinesshomepagesecuritylanguagestandardcampaignfeaturescategoryexternalchildrenreservedresearchexchangefavoritetemplatemilitaryindustryservicesmaterialproductsz-index:commentssoftwarecompletecalendarplatformarticlesrequiredmovementquestionbuildingpoliticspossiblereligionphysicalfeedbackregisterpicturesdisabledprotocolaudiencesettingsactivityelementslearninganythingabstractprogressoverviewmagazineeconomictrainingpressurevarious <strong>propertyshoppingtogetheradvancedbehaviordownloadfeaturedfootballselectedLanguagedistanceremembertrackingpasswordmodifiedstudentsdirectlyfightingnortherndatabasefestivalbreakinglocationinternetdropdownpracticeevidencefunctionmarriageresponseproblemsnegativeprogramsanalysisreleasedbanner">purchasepoliciesregionalcreativeargumentbookmarkreferrerchemicaldivisioncallbackseparateprojectsconflicthardwareinterestdeliverymountainobtained= false;for(var acceptedcapacitycomputeridentityaircraftemployedproposeddomesticincludesprovidedhospitalverticalcollapseapproachpartnerslogo"><adaughterauthor" culturalfamilies/images/assemblypowerfulteachingfinisheddistrictcriticalcgi-bin/purposesrequireselectionbecomingprovidesacademicexerciseactuallymedicineconstantaccidentMagazinedocumentstartingbottom">observed:&quot;extendedpreviousSoftwarecustomerdecisionstrengthdetailedslightlyplanningtextareacurrencyeveryonestraighttransferpositiveproducedheritageshippingabsolutereceivedrelevantbutton" violenceanywherebenefitslaunchedrecentlyalliancefollowedmultiplebulletinincludedoccurredinternal$(this).republic><tr><tdcongressrecordedultimatesolution<ul id="discoverHome</a>websitesnetworksalthoughentirelymemorialmessagescontinueactive">somewhatvictoriaWestern  title="LocationcontractvisitorsDownloadwithout right">
+measureswidth = variableinvolvedvirginianormallyhappenedaccountsstandingnationalRegisterpreparedcontrolsaccuratebirthdaystrategyofficialgraphicscriminalpossiblyconsumerPersonalspeakingvalidateachieved.jpg" />machines</h2>
+  keywordsfriendlybrotherscombinedoriginalcomposedexpectedadequatepakistanfollow" valuable</label>relativebringingincreasegovernorplugins/List of Header">" name=" (&quot;graduate</head>
+commercemalaysiadirectormaintain;height:schedulechangingback to catholicpatternscolor:#greatestsuppliesreliable</ul>
+		<select citizensclothingwatching<li id="specificcarryingsentence<center>contrastthinkingcatch(e)southernMichael merchantcarouselpadding:interior.split("lizationOctober ){returnimproved--&gt;
+
+coveragechairman.png" />subjectsRichard whateverprobablyrecoverybaseballjudgmentconnect..css" /> websitereporteddefault"/></a>
+electricscotlandcreationquantity. ISBN 0did not instance-search-" lang="speakersComputercontainsarchivesministerreactiondiscountItalianocriteriastrongly:'http:'script'coveringofferingappearedBritish identifyFacebooknumerousvehiclesconcernsAmericanhandlingdiv id="William provider_contentaccuracysection andersonflexibleCategorylawrence<script>layout="approved maximumheader"></table>Serviceshamiltoncurrent canadianchannels/themes//articleoptionalportugalvalue=""intervalwirelessentitledagenciesSearch" measuredthousandspending&hellip;new Date" size="pageNamemiddle" " /></a>hidden">sequencepersonaloverflowopinionsillinoislinks">
+	<title>versionssaturdayterminalitempropengineersectionsdesignerproposal="false"Españolreleasessubmit" er&quot;additionsymptomsorientedresourceright"><pleasurestationshistory.leaving  border=contentscenter">.
+
+Some directedsuitablebulgaria.show();designedGeneral conceptsExampleswilliamsOriginal"><span>search">operatorrequestsa &quot;allowingDocumentrevision. 
+
+The yourselfContact michiganEnglish columbiapriorityprintingdrinkingfacilityreturnedContent officersRussian generate-8859-1"indicatefamiliar qualitymargin:0 contentviewportcontacts-title">portable.length eligibleinvolvesatlanticonload="default.suppliedpaymentsglossary
+
+After guidance</td><tdencodingmiddle">came to displaysscottishjonathanmajoritywidgets.clinicalthailandteachers<head>
+	affectedsupportspointer;toString</small>oklahomawill be investor0" alt="holidaysResourcelicensed (which . After considervisitingexplorerprimary search" android"quickly meetingsestimate;return ;color:# height=approval, &quot; checked.min.js"magnetic></a></hforecast. While thursdaydvertise&eacute;hasClassevaluateorderingexistingpatients Online coloradoOptions"campbell<!-- end</span><<br />
+_popups|sciences,&quot; quality Windows assignedheight:<b classle&quot; value=" Companyexamples<iframe believespresentsmarshallpart of properly).
+
+The taxonomymuch of </span>
+" data-srtuguêsscrollTo project<head>
+attorneyemphasissponsorsfancyboxworld's wildlifechecked=sessionsprogrammpx;font- Projectjournalsbelievedvacationthompsonlightingand the special border=0checking</tbody><button Completeclearfix
+<head>
+article <sectionfindingsrole in popular  Octoberwebsite exposureused to  changesoperatedclickingenteringcommandsinformed numbers  </div>creatingonSubmitmarylandcollegesanalyticlistingscontact.loggedInadvisorysiblingscontent"s&quot;)s. This packagescheckboxsuggestspregnanttomorrowspacing=icon.pngjapanesecodebasebutton">gamblingsuch as , while </span> missourisportingtop:1px .</span>tensionswidth="2lazyloadnovemberused in height="cript">
+&nbsp;</<tr><td height:2/productcountry include footer" &lt;!-- title"></jquery.</form>
+(简体)(繁體)hrvatskiitalianoromânătürkçeاردوtambiénnoticiasmensajespersonasderechosnacionalserviciocontactousuariosprogramagobiernoempresasanunciosvalenciacolombiadespuésdeportesproyectoproductopúbliconosotroshistoriapresentemillonesmediantepreguntaanteriorrecursosproblemasantiagonuestrosopiniónimprimirmientrasaméricavendedorsociedadrespectorealizarregistropalabrasinterésentoncesespecialmiembrosrealidadcórdobazaragozapáginassocialesbloqueargestiónalquilersistemascienciascompletoversióncompletaestudiospúblicaobjetivoalicantebuscadorcantidadentradasaccionesarchivossuperiormayoríaalemaniafunciónúltimoshaciendoaquellosediciónfernandoambientefacebooknuestrasclientesprocesosbastantepresentareportarcongresopublicarcomerciocontratojóvenesdistritotécnicaconjuntoenergíatrabajarasturiasrecienteutilizarboletínsalvadorcorrectatrabajosprimerosnegocioslibertaddetallespantallapróximoalmeríaanimalesquiénescorazónsecciónbuscandoopcionesexteriorconceptotodavíagaleríaescribirmedicinalicenciaconsultaaspectoscríticadólaresjusticiadeberánperíodonecesitamantenerpequeñorecibidatribunaltenerifecancióncanariasdescargadiversosmallorcarequieretécnicodeberíaviviendafinanzasadelantefuncionaconsejosdifícilciudadesantiguasavanzadatérminounidadessánchezcampañasoftonicrevistascontienesectoresmomentosfacultadcréditodiversassupuestofactoressegundospequeñaгодаеслиестьбылобытьэтомЕслитогоменявсехэтойдажебылигодуденьэтотбыласебяодинсебенадосайтфотонегосвоисвойигрытожевсемсвоюлишьэтихпокаднейдомамиралиботемухотядвухсетилюдиделомиретебясвоевидечегоэтимсчеттемыценысталведьтемеводытебевышенамитипатомуправлицаоднагодызнаюмогудругвсейидеткиноодноделаделесрокиюнявесьЕстьразанашиاللهالتيجميعخاصةالذيعليهجديدالآنالردتحكمصفحةكانتاللييكونشبكةفيهابناتحواءأكثرخلالالحبدليلدروساضغطتكونهناكساحةناديالطبعليكشكرايمكنمنهاشركةرئيسنشيطماذاالفنشبابتعبررحمةكافةيقولمركزكلمةأحمدقلبييعنيصورةطريقشاركجوالأخرىمعناابحثعروضبشكلمسجلبنانخالدكتابكليةبدونأيضايوجدفريقكتبتأفضلمطبخاكثرباركافضلاحلىنفسهأيامردودأنهاديناالانمعرضتعلمداخلممكن /* Error: Ran out of types for this method. */;
+- (FCPrefetchConfiguration *);
+- (NSString *)t;
+- (long long)hasThumbnail;
+- (long long)_TtC7NewsUI222OpenInNewsErrorHandler;
 - (NSString *)¼ä,t;
 - (NSString *)@TdTT¼TìTULU|U¬UÜUV<VtV¬VÜVW,WTWWÌWXDXlXXÄXôX8YYÈYôY8ZdZZÔZ[<[l[¤[Ô[\D\t\¤\Ì\ü\@]t]¤]Ü]^4^p^¤^Ì^ü^,_d__Ô_`<`l``Ì`ü`$a`aaàab`bbàbc`cc´cìcdTdd´dìdeLete¬eÔef4flffÌfôf,gdggÔghDh|h´hähiTi|i¤iÜij<jdjjÌjkXkk´k;
 - (long long)ºÑûÿ;
 - (NSArray *)users.;
 - (long long)m channel %{public}@ superfeed because it is not eligible;
-- (_Bool);
-- (double)sSyncToWatchlistChangeSet;
+- (double)SportsSyncToWatchlistChangeSet;
 - (_Bool);
 - (long long)äedw­þ;
-- (FCIAdConfiguration *)eClass;
+- (FCIAdConfiguration *)UIUserInterfaceSizeClass;
 
 @optional
+- (NSArray *);
+- (NSArray *)(;
+- (NSArray *);
+- (_Bool)(a;
+- (double);
+- (NTPBDiscoverMoreVideosInfo *);
+- (NSString *)SH_p;
+- (long long)CodingKeys;
+- (double)TracingSupport;
+- (NSDictionary *);
+- (double);
+- (NSString *);
+- (_Bool);
+- (double)tZ;
+- (_Bool)=;
+- (_Bool);
+- (double)5;
+- (NSArray *);
+- (NSString *)Catalog"16;
+- (NSString *)playerController;
+- (double)isSkippable;
+- (NSString *)disablePeriodicStateRestore;
+- (double)ation %p <%{public}@> - Starting error resolution - item:%{public}@ - error:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)%{public}@ %2i %{public}@  │ outgoing: /* Error: Ran out of types for this method. */;
+- (_Bool)%{public}@ %{public}@;
+- (_Bool)work connection available;
+- (_Bool);
+- (_Bool)`;
+- (NSString *)webView:didStartProvisionalNavigation: /* Error: Ran out of types for this method. */;
+- (NSString *)_TtC17PromotedContentUI31SmallCarouselCollectionViewCell;
+- (NSDictionary *)otedContentUI.CalendarEventViewController;
+- (_Bool)So19UIGestureRecognizerC;
+- (_Bool)LargeCarouselCollectionViewCell;
 - (NSString *)
 × ;
 - (_Bool)@"NSArray"16q24q32@"NSString"40;
 - (NSString *),N,&,VexternalAnalyticsFeedReferrer;
-- (NSString *)iewSupplementaryViewProvider;
-- (NSArray *)7NewsUI230SportsFavoritesSyncDataManager;
-- (double)sUI229EmailSignupAutomaticPresentor;
+- (NSString *)_TtC7NewsUI244SearchBlueprintViewSupplementaryViewProvider;
+- (NSArray *)_TtC7NewsUI230SportsFavoritesSyncDataManager;
+- (double)_TtC7NewsUI229EmailSignupAutomaticPresentor;
 - (_Bool)	
 ;
 - (double)ÿÿÿÿ;
 - (long long);
 - (double)\llm_(q`@raub¸vclwdüwe¬xzf(}~g4hD0iØÄjhàküìlllm,n`(oÔp@ ¡À¢4£Ô¤q¦rÌ¨Ì©s¬t®p¯0±±²uH¶v`·wd»xà» ¼y<½zÄÀ{ÈÁ|DÇ},Ë~ ÌÏÑÕÜ×ø×|ØäØ;
 - (double)[ä[X]|];
-- (double);
 - (_Bool)H¼ðÿL¼ðÿR¼ðÿr¼ðÿ;
 - (NSString *)â&óÿ;
 - (double)l}d]:quiescence interval [%lld]. Last Upsell Shown Date [%s] /* Error: Ran out of types for this method. */;
@@ -44,8 +167,8 @@
 - (double)HoÝÿoÝÿ¨oÝÿ$pÝÿHpÝÿxpÝÿpÝÿÀpÝÿüpÝÿ qÝÿqÝÿvÝÿÀvÝÿwÝÿPwÝÿtwÝÿ°wÝÿ4xÝÿ`xÝÿxÝÿèxÝÿyÝÿ0yÝÿtyÝÿyÝÿ¼yÝÿàyÝÿzÝÿ0zÝÿTzÝÿ|zÝÿ zÝÿÄzÝÿøzÝÿ4{ÝÿX{ÝÿT|Ýÿ|Ýÿ}Ýÿ¼}Ýÿ ~ÝÿD~Ýÿt~Ýÿ~Ýÿ¼~Ýÿø~ÝÿÝÿÝÿÀÝÿäÝÿÝÿ8Ýÿ\ÝÿÝÿ¼ÝÿØÝÿ<ÝÿHÝÿÝÿ4ÝÿXÝÿÝÿ0Ýÿ\ÝÿôÝÿ;
 - (double)¤Ëûÿ;
 - (NSArray *)ðý÷ÿ;
-- (double);
-- (NSArray *)lver;
+- (long long)name;
+- (NSArray *)feedLayoutSolver;
 - (_Bool)ÿ5hÿ;
 - (long long)leTypeP;
 - (NSString *)ÿÆèÿ;
@@ -59,28 +182,26 @@
 - (NSString *)llowing a topic;
 - (NSDictionary *)Fallback description of the empty state when there are no search results in the customize location modal, with channel name parameter.;
 - (_Bool)e to show for empty state in Audio History feed.;
-- (_Bool)dDataManagerTypeDelegate;
-- (NSArray *)rInteractorTypeDelegate;
-- (NSString *)ntHandler;
+- (_Bool)SharedWithYouFeedDataManagerTypeDelegate;
+- (NSArray *)ChannelPickerInteractorTypeDelegate;
+- (NSString *)RecipeHistoryEventHandler;
 - (_Bool)Í(YO
 ;
-- (_Bool)ttributesFactory;
-- (NSString *)yPlayedStoreType;
+- (_Bool)SpinnerFooterViewLayoutAttributesFactory;
+- (NSString *)AudioRecentlyPlayedStoreType;
 - (_Bool)SharedWithYouFeedConfigFetchResult;
-- (NSString *);
-- (NSDictionary *)ity;
+- (NSDictionary *)SubscriptionFeatureAvailability;
 - (id <FCNewsAppConfigurationInternal>)ô¹
 \åûþÐ;
-- (NSString *)ry;
+- (NSString *)EmailSignupModelFactory;
 - (NSString *)odingType;
 - (long long)þ;
 - (_Bool)Êþ;
-- (_Bool);
 - (long long)«þ;
-- (NSString *)eEmbedShowSettingsMessageHandlerType;
+- (NSString *)PuzzleEmbedShowSettingsMessageHandlerType;
 - (_Bool)d;
 - (NSString *)Í£cã;
-- (_Bool)edGroupConfigData;
+- (_Bool)AffinityTagFeedGroupConfigData;
 - (_Bool)äÙ¡þÑ±	;
 - (_Bool)áeØÝ;
 - (NSString *)P;
@@ -89,1179 +210,11 @@ e»eøñ;
 - (_Bool);
 - (double);
 - (NSString *);
-- (long long)FontDescriptorAttributeName;
+- (long long)NUIFontDescriptorAttributeName;
+- (unsigned long long)CGSize;
 - (NSDictionary *)ý;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool aggregatesInAppXavierEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool aggregatesInNotificationExtensionXavierEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool aggregatesInWidgetsXavierEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *aiAttributionArticleString;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool allowAnyChannelForTodayChannelGroups;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *analyticsDenylistDescriptorsInternal;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSArray *analyticsDenylistDescriptorsPublic;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSArray *analyticsDenylistDescriptorsSeed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) long long analyticsEndpointMaxPayloadSize;
-@property(readonly, copy, nonatomic) NSArray *analyticsEventNamesInternalAllowlist;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSArray *analyticsEventNamesPublicAllowlist;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSArray *analyticsEventNamesSeedAllowlist;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) double analyticsJitterLowerBound;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double analyticsJitterUpperBound;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *anfRenderingConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool appReviewRequestEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long articleAdPrefetchLimit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double articleBannerAdRequestThrottle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *articleConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,C,N
-
-@property(readonly, nonatomic) double articleDiversificationSimilarityExpectationEnd;
-@property(readonly, nonatomic) double articleDiversificationSimilarityExpectationStart;
-@property(readonly, nonatomic) double articleDiversificationUniquePublisherExpectationSlope;
-@property(readonly, nonatomic) double articleDiversificationUniquePublisherExpectationYIntercept;
-@property(readonly, nonatomic) _Bool articleLinkBehaviorImprovementsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long articleReadCountThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSString *articleRecirculationComponentPlacementConfigJSON;
-@property(readonly, nonatomic) NSString *articleRecirculationConfigJSON;
-@property(readonly, nonatomic) long long articleRecirculationPopularFeedQueryTimeRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic, getter=isArticleToolbarCompressionEnabled) _Bool articleToolbarCompressionEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisArticleToolbarCompressionEnabled
-
-@property(readonly, nonatomic) _Bool audioFeedConfigRequestsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *audioHistoryFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *audioPlaylistFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) double audioPlaylistSweepListeningPercentageThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long audioPlaylistSweepRecencyThresholdInDays;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSData *autoFavoritesServiceConfigurationJSONData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) long long autoRefreshMinimumInterval;
-@property(readonly, nonatomic) long long autoScrollToTopFeedTimeout;
-@property(readonly, nonatomic) unsigned long long bestOfBundleFeedGroupKind;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) NSString *blockedCuratedStorySelectionMessage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *blockingConfirmationChannelMessage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool blockingConfirmationDialogEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *bundleCampaignConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *bundleChannelPickerSuggestionsTabiPackageResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *businessAudioTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *channelFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSDictionary *channelGroupBaselineMultipliers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSString *channelPickerConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *channelPickerLocalSearchConfigurationProfiles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *channelPickerNewsPlusSearchConfigurationProfiles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *channelPickerRegularSearchConfigurationProfiles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) _Bool configurableOffersEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *configurableOffersMappingResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool considerAutofavoritesInMappingCandidates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *contentShortcutsCurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) double continueReadingDismissalInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool cookingEnhancementsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool corryBarHideDiscoverMoreInterstitialForNonOnboardedUsers;
-@property(readonly, nonatomic) long long corryBarMaxArticleCountForArticleList;
-@property(readonly, nonatomic) long long corryBarMaxArticleCountForSingleArticle;
-@property(readonly, nonatomic) NSString *countryFlagConfigResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *countryFlagIconEnabledTagIds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) long long criticalStorageThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSData *delayedNotificationSchedulerConfigurationData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) NSData *delayedNotificationVendorConfigurationData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *deprecatedSportsTopicTagIds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, nonatomic) _Bool dimNonSubscriberContentOffline;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool disableThumbnailsForArticleRecirculation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *discoverNewsPlusChannelIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *editoralRecommendedSportsTopicTagIds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSArray *editorialFallbackSportsTopicTagIds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSDictionary *editorialTopicEventMapping;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSDictionary *editorialTopicEventMappingProperties;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,C,N
-
-@property(readonly, nonatomic) long long emailSignupRequiredAppLaunchCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSString *embedConfigurationAssetID;
-@property(readonly, nonatomic) _Bool enableAIAttribution;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool enableBadgeInSpotlightTabBar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool enableLocationBasedAutofavorites;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool enableNewsPersonalizationAutoFavorites;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool enableTabiAdSegments;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool enableTabiCohortMemberships;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool enableTabiMyMagazinesPersonalization;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool enableTabiTagScoring;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *endOfArticleFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *endOfRecipeFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *enterOfflineModeButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *exitOfflineModeButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *exploreArticleID;
-@property(readonly, nonatomic) NSString *exportToGroceryListTipMessage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *exportToGroceryListTipTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool fallbackToReverseChronSorting;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool featurePromotionEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long feedAdScreenfulsToPrefetch;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double feedBannerAdRequestThrottle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *feedNavigationConfigJSON;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSDictionary *financeURLAnalyticsAllowLists;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) _Bool fineGrainedNewsletterManagementEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool foodEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool forYouGroupShouldPromoteAccessibleHeadline;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool foregroundHeartbeatEventEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool foregroundHeartbeatEventShouldUseQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool hideAlacartePaywalls;
-@property(readonly, nonatomic) _Bool hideAllPaywalls;
-@property(readonly, nonatomic) NSString *historyFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) FCIAdConfiguration *iAdConfig;
-@property(readonly, nonatomic) _Bool imagesInStepsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool inAppMessagesEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *inConversationsAudioTagID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool inFeedDebugging;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool ingredientScalingEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) id <FCNewsAppConfigurationInternal> internalConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<FCNewsAppConfigurationInternal>",?,R,N
-
-@property(readonly, nonatomic) NSArray *internalPersonalizationRequestsToCollect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) double interstitialAdLoadDelay;
-@property(readonly, nonatomic) double interstitialAdRequestThrottle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool isAnalyticsJitterEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isCardFeedRedesignEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isImprovedManagedTopicGroupingEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSIWAOnMacEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSmarterFetchEnabledForESL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSmarterFetchEnabledForLatest;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSmarterFetchEnabledForSupplementalESL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSmarterFetchEnabledForSupplementalLatest;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSportsEventOpenInTVSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isSportsSyncingSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isTodaySponsorshipEligible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *issueArticleRecirculationConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool issuesNewsletterOptinEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned long long likeDislikeBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) _Bool liveActivitiesEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *liveActivityAssetServerURLs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) long long liveActivityFollowedAlertsThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double liveActivityScheduleDelay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double liveActivityScheduleRandomInitialDelay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long liveActivityScheduleRetryCountMax;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double liveActivityScheduleRetryInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double liveActivityScheduleRetryTimeWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double liveActivityScheduleTimeWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long liveActivityScheduledAlertsThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double liveCoverageActiveWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double liveCoverageInactiveWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double liveCoveragePollingInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *localAreasMappingResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) long long localDataRefreshInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSDictionary *localInForYouTopicTagAllowList;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSString *localOnboardingCustomizeEmptyStateText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *localOnboardingCustomizeSearchText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *localOnboardingCustomizeSubtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *localOnboardingCustomizeTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool localOnboardingEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool localOnboardingManagementAutoPresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *localOnboardingSearchRegionIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *localOnboardingSearchSuggestions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSString *localOnboardingUnonboardedImageResourceID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *localOnboardingUnonboardedMediaAccessibilityTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *localOnboardingUnonboardedVideoResourceID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSDictionary *localSuperFeedsForYouTopicTagAllowList;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) NSString *locationRecommendationMappingsResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *locationSearchFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) long long lowStorageThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double maxRecipeUnitConversionError;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double maxRecipeUnitConversionTbspBeforeWeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long maxSportRecommendationsPerSport;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maxSportRecommendationsWithLeagueTypeCollege;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maximumBundleSessionTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maximumBundleSessionValue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maximumMastheadWelcomeMessageTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maximumPremiumHeadlinesGroupSlottingTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maximumPremiumStoriesUnlockedTipTime;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maximumTrendingGroupSizeiPad;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long maximumTrendingGroupSizeiPhone;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSArray *mediaSharingBlacklistedChannelIDs;
-@property(readonly, nonatomic) double minMembershipForTaxonomyCandidates;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double minMembershipThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double minMembershipThresholdForLocalRecommendation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long minRecipeRatingsThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double minScoreThresholdForSportsRecommendations;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool moreFromIssueEOAEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool moreToReadEOAEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool multipartRecipesEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) double nativeInArticleAdRequestThrottle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double nativeInFeedAdRequestThrottle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long newFavoriteNotificationAlertsFrequency;
-@property(readonly, nonatomic) _Bool newSearchEndpointConfigEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) double newsletterSubscriptionStatusCacheTimeout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long newsletterSubscriptionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSString *nonBundleChannelPickerSuggestionsTabiPackageResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) long long notificationArticleCacheTimeout;
-@property(readonly, nonatomic) long long notificationArticleWithRapidUpdatesCacheTimeout;
-@property(readonly, nonatomic) _Bool notificationAssetPrefetchingRequiresWatch;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool notificationEnableAssetPrefetching;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSData *notificationScoringServiceConfigurationJSONData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) long long numberOfFetchedHeadlinesToReport;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool nutritionInfoEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) FCOfflineDownloadsConfiguration *offlineDownloadsConfig;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCOfflineDownloadsConfiguration",?,R,N
-
-@property(readonly, nonatomic) FCOfflineDownloadsConfiguration *offlineDownloadsConfigDefault;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCOfflineDownloadsConfiguration",?,R,N
-
-@property(readonly, nonatomic) FCOfflineDownloadsConfiguration *offlineDownloadsConfigOptimized;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCOfflineDownloadsConfiguration",?,R,N
-
-@property(readonly, nonatomic) NSArray *offlineModeDetectionIgnoredHosts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) double offlineModeDetectionPingInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double offlineModeDetectionPingTimeoutInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool offlineModeEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) double offlineModeMaximumDurationToCountAsSuccess;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double offlineModeMinimumSecondsSinceSuccessToOffline;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double offlineModeThrottleUnreliableDetectionTimeoutInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *offlineModeUnavailableMessage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *offlineStatusBannerDeviceObsoletionTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *offlineStatusBannerDeviceOfflineTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *offlineStatusBannerDeviceOnlineTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *offlineStatusBannerPoorConnectionTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *offlineStatusBannerServerProblemTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *offlineStatusBannerUpdateRequiredTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *offlineStatusBannerUpsellMessage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) NSArray *onboardingFeedIDs;
-@property(readonly, nonatomic) long long optimizedStorageAutoEnablementThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool paidBundleViaOfferEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool paywallExperimentationEnabled;
-@property(readonly, nonatomic) NSArray *paywallExperimentationTagIDs;
-@property(readonly, nonatomic) NSString *paywallTagID;
-@property(readonly, nonatomic) FCPeopleAlsoReadConfiguration *peopleAlsoReadConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCPeopleAlsoReadConfiguration",?,R,N
-
-@property(readonly, nonatomic) _Bool personalizationAnalyticsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *personalizationBundleIdMappingResourceId;
-@property(readonly, nonatomic) NSString *personalizationFavorabilityResourceId;
-@property(readonly, nonatomic) NSString *personalizationUrlMappingResourceId;
-@property(readonly, nonatomic) NSString *personalizationWhitelistResourceId;
-@property(readonly, nonatomic) FCPrefetchConfiguration *prefetchConfig;
-@property(readonly, nonatomic) double prerollAdRequestThrottle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double prerollLoadingTimeout;
-@property(readonly, nonatomic) double prerollReadyToPlayTimeout;
-@property(readonly, nonatomic) NSData *recipeAutoFavoritesServiceConfigurationJSONData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) NSString *recipeBoxFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *recipeCatalogFilterConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *recipeHistoryFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool recipeHistoryFeedEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool recipeNotesEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *recipePersonalizationAllowlistResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *recipePersonalizationBundleIdMappingResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *recipePersonalizationUrlMappingResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool recipeRatingsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *recipeRecirculationConfigJSON;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *recipeSearchFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool recipeUnitConversionEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *recommendedIssueAllowList;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *recommendedIssueDenyList;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSString *savedFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSArray *searchConfigurationProfiles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSString *searchEndpointConfigurationResourceID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *searchFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *searchMoreFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sectionFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool servicesBundleCIPActivationEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NTPBDiscoverMoreVideosInfo *shareDiscoverMoreVideosInfo;
-@property(readonly, nonatomic) NSString *sharedWithYouFeedLayoutConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool shouldIncludeRecipePersonalizationScienceData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldShuffleReportedHeadlines;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *smarterFetchStrategy;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool smarterMessagingEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool splitTopicGroups;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *sportsBoxScoreConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsBracketConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsFeaturedEventsResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsInjuryReportConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsKeyPlayerConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsLineScoreConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) long long sportsLiveActivityEducationalMomentLimit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long sportsManagementMinChildItemsCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long sportsManagementRecommendedItemsCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool sportsNativeAdsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool sportsRecommendationHidesIgnoredTags;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *sportsScoreConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsStandingConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *sportsSyncingConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool sportsSyncingV2Enabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *sportsTaxonomyResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) long long stateRestorationAllowedTimeWindow;
-@property(readonly, nonatomic) long long subscriptionsGracePeriodForTokenVerificationSeconds;
-@property(readonly, nonatomic) long long subscriptionsPlacardGlobalMaximumPerDay;
-@property(readonly, nonatomic) long long subscriptionsPlacardPublisherFrequencyInSeconds;
-@property(readonly, copy, nonatomic) NSDictionary *superfeedConfigOverrideResourceIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,C,N
-
-@property(readonly, nonatomic) _Bool tabiBackgroundRefreshEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool tabiScoringInNotificationExtensionEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool tabiScoringInWidgetsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *tagChannelPickerConfigurations;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *tagFeedGroupClusteringKnobOverrides;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,C,N
-
-@property(readonly, nonatomic) NSString *tagFeedLayoutConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) double tagSubscriptionRepromptDelay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool terminateAppOnBackgroundAfterJoiningOrLeavingExperiment;
-@property(readonly, nonatomic) double todayFeedConfigEndpointTimeoutAfterCK;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool todayFeedConfigRequestsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *todayFeedEditionConfigJSON;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *todayFeedGroupClusteringKnobOverrides;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,C,N
-
-@property(readonly, nonatomic) long long todayFeedLoadToCacheTimeWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double todayPerformanceAlertGapExpansionThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double todayPerformanceAlertPrewarmThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double todayPerformanceAlertSpinnerThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool todayPerformanceAlertsEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) long long todayPerformanceAlertsMinNewsVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool todayWidgetForYouBestOfEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) double todayWidgetForYouBundleArticleQuota;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long todayWidgetForYouMaxAIGArticles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long todayWidgetForYouMaxEvergreen;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long todayWidgetForYouMaxInaccessible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long todayWidgetForYouMaxPublisherOccurrences;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSArray *todayWidgetForYouTopicDiversityAllowedTopicIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) double todayWidgetForYouTopicDiversityThreshold;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long todayWidgetForYouTopicDiversityWindowSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long topStoriesLocalNewsExpiration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, copy, nonatomic) NSArray *topStoriesPublishDates;
-@property(readonly, nonatomic) NSString *topicFeedConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *translationMapResourceID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) unsigned long long trendingStyle;
-@property(readonly, nonatomic) _Bool universalLinksEnabled;
-@property(readonly, nonatomic) _Bool useAltSportsRecommendationMapping;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool useMultipleNativeAds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool useNewsArticleSearch;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool useNotificationsV2;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool useSearchInArticle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool useWelcomeSeries;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *userConcernConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *userVectorModelResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *userVectorWhitelistResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *webEmbedContentBlockerOverrides;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *webEmbedContentBlockers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *webEmbedDataSourcesConfigurationResourceId;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) _Bool widgetForYouFromDaemonEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool widgetForYouShadowDaemonFetchEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

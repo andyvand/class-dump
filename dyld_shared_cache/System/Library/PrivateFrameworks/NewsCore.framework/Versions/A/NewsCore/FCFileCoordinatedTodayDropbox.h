@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)enticationChallenge"32@?<v@?q@"NSURLCredential">40;
 - (void)0@"FCPuzzleTypeSettingsEntry"8;

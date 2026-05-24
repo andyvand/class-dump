@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AVAdditions_Internal_Mobile)
-- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
 - (_Bool);

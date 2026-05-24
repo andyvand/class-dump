@@ -9,12 +9,11 @@
 @interface TSLocalDraftsDeviceManager
 {
     id listener;
-    void delegate;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

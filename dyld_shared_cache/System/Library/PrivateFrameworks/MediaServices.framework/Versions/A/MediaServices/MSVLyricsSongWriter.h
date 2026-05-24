@@ -11,19 +11,17 @@
 @interface MSVLyricsSongWriter : MSVLyricsXMLElement
 {
     NSString *_name;
-    NSString *_artistID;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id);
+- (id)allowsLocalization;
+- (void)live updates.;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artistID; // @synthesize artistID=_artistID;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

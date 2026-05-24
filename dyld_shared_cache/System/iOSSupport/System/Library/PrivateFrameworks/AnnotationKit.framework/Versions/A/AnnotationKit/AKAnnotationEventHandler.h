@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, AKPageController;
+@class AKPageController;
 
 @interface AKAnnotationEventHandler
 {
     _Bool _touchModifiersEnabled;
-    _Bool _draggingHorizontalOnly;
-    _Bool _draggingVerticalOnly;
-    AKPageController *_pageController;
-    AKAnnotation *_annotation;
-    unsigned long long _initiallyDraggedArea;
-    struct CGPoint _initialDraggedPoint;
-    struct CGPoint _initialOtherPoint;
-    struct CGPoint _initialCenter;
-    struct CGPoint _lastPositionInModel;
-    struct CGPoint _lastPositionInWindow;
 }
 
 + (id);
@@ -26,26 +16,26 @@
 + (_Bool);
 + (_Bool);
 + (Class);
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)#;
 - (void);
 - (void);
+- (void)G;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)M;
 - (void);
 - (void);
 - (void);
+- (void)';
+- (void)`;
 - (id);
 - (struct CGSize);
 - (struct CGPoint);
 - (_Bool);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)K;
 - (unsigned long long);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -55,8 +45,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (double);
 - (void);
@@ -65,17 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) AKAnnotation *annotation; // @synthesize annotation=_annotation;
-@property _Bool draggingHorizontalOnly; // @synthesize draggingHorizontalOnly=_draggingHorizontalOnly;
-@property _Bool draggingVerticalOnly; // @synthesize draggingVerticalOnly=_draggingVerticalOnly;
-@property struct CGPoint initialCenter; // @synthesize initialCenter=_initialCenter;
-@property struct CGPoint initialDraggedPoint; // @synthesize initialDraggedPoint=_initialDraggedPoint;
-@property struct CGPoint initialOtherPoint; // @synthesize initialOtherPoint=_initialOtherPoint;
-@property unsigned long long initiallyDraggedArea; // @synthesize initiallyDraggedArea=_initiallyDraggedArea;
-@property struct CGPoint lastPositionInModel; // @synthesize lastPositionInModel=_lastPositionInModel;
-@property struct CGPoint lastPositionInWindow; // @synthesize lastPositionInWindow=_lastPositionInWindow;
 @property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property _Bool touchModifiersEnabled; // @synthesize touchModifiersEnabled=_touchModifiersEnabled;
 
 @end
 

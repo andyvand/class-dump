@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface MTKTextureLoaderMDL : MTKTextureLoaderData
 {
     MDLTexture *_texture;
-    struct MTLPixelFormatInfo _pixelFormatInfo;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

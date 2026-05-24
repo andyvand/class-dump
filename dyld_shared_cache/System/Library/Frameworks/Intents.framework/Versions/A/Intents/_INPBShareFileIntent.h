@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class NSArray;
 
 @interface _INPBShareFileIntent
 {
     struct {
         unsigned int shareMode:1;
     } _has;
-    int _shareMode;
-    NSArray *_entityNames;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_recipients;
 }
 
 + (Class);
@@ -23,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (int);
 - (unsigned long long);
 - (id);
@@ -33,13 +29,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)__DATA;
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)w;
 - (_Bool);
 - (void);
 - (void);
@@ -52,21 +48,7 @@
 - (void)equired.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *entityNames; // @synthesize entityNames=_entityNames;
-@property(readonly, nonatomic) unsigned long long entityNamesCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasShareMode;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(nonatomic) int shareMode; // @synthesize shareMode=_shareMode;
-@property(readonly) Class superclass;
 
 @end
 

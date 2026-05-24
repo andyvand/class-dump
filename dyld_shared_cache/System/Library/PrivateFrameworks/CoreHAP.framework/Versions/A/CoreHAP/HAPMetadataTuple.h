@@ -9,12 +9,11 @@
 @interface HAPMetadataTuple
 {
     NSString *_characteristicType;
-    NSString *_serviceType;
 }
 
-- (id);
+- (id)em.B.dylib;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)2;
 - (id);
 - (id);
 - (void)ameraSensors";
@@ -24,15 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *index;
-@property(readonly, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

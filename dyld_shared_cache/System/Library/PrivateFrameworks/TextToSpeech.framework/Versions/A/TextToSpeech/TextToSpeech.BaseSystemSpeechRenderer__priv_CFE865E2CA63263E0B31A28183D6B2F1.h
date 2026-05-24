@@ -7,10 +7,6 @@
 @interface TextToSpeech.BaseSystemSpeechRenderer__priv_CFE865E2CA63263E0B31A28183D6B2F1
 {
     id $defaultActor;
-    id currentVoice;
-    id currentEngine;
-    id currentOffset;
-    id renderTask;
 }
 
 @end

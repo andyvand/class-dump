@@ -7,10 +7,6 @@
 @interface NewsFeed.LayeredMediaContainerLayer__priv_F669C03278D43A4B0F24735E6C90190F
 {
     id motionTransforms;
-    id motionTransform;
-    id motionDisabledTransform;
-    id isMotionEnabled;
-    id isMotionAllowed;
 }
 
 - (id);

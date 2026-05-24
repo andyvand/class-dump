@@ -12,7 +12,7 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)e data to path %@ with error %@ (imageExists will be NO);
 - (id);
 - (id);
 

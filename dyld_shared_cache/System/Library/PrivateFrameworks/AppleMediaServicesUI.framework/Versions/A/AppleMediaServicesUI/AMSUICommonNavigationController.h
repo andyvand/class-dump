@@ -6,17 +6,11 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSUICommonNavigationBar, NSArray, NSBox, NSViewController;
+@class NSArray;
 
 @interface AMSUICommonNavigationController : AMSUICommonViewController
 {
     unsigned long long _navigationBarStyle;
-    unsigned long long _secondaryNavigationBarStyle;
-    AMSUICommonNavigationBar *_navigationBar;
-    AMSUICommonNavigationBar *_secondaryNavigationBar;
-    NSArray *_viewControllers;
-    NSArray *_layoutConstraints;
-    NSBox *_navigationBarSeparator;
 }
 
 + (_Bool);
@@ -32,12 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -47,36 +41,27 @@
 - (double);
 - (struct NSEdgeInsets);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)i#;
+- (void)	8	A	0		M	7	?	$	*	#	G	;
+- (id);
+- (unsigned long long)fore the selected text.;
+- (void)initWithPeerDestination:(id)arg1 messageName:(_Bool)arg2 user: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)orderedPackageSpecifiersToInstall;
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)tSecondaryNavigationItem: /* Error: Ran out of types for this method. */;
+- (void)setSecondaryNavigationItem: /* Error: Ran out of types for this method. */;
 - (id)¨.;
 
 // Remaining properties
 @property(retain) NSArray *layoutConstraints; // @synthesize layoutConstraints=_layoutConstraints;
-@property(readonly) AMSUICommonNavigationBar *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(getter=isNavigationBarHidden) _Bool navigationBarHidden;
-@property(readonly) NSBox *navigationBarSeparator; // @synthesize navigationBarSeparator=_navigationBarSeparator;
-@property unsigned long long navigationBarStyle; // @synthesize navigationBarStyle=_navigationBarStyle;
-@property(readonly) AMSUICommonNavigationBar *secondaryNavigationBar; // @synthesize secondaryNavigationBar=_secondaryNavigationBar;
-@property(getter=isSecondaryNavigationBarHidden) _Bool secondaryNavigationBarHidden;
-@property unsigned long long secondaryNavigationBarStyle; // @synthesize secondaryNavigationBarStyle=_secondaryNavigationBarStyle;
-@property(readonly) NSViewController *topViewController;
-@property(retain) NSArray *viewControllers; // @synthesize viewControllers=_viewControllers;
 
 @end
 

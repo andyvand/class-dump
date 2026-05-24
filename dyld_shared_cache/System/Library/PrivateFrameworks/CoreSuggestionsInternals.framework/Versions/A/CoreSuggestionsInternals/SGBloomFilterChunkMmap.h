@@ -9,33 +9,21 @@
 @interface SGBloomFilterChunkMmap
 {
     NSString *_path;
-    int _fd;
-    unsigned int *_countPtr;
-    unsigned int _mask;
-    char *_buf;
 }
 
-- (_Bool);
+- (_Bool)beginSetupInSheet:(CDUnion_e7c9147b)arg1 attachedToWindow:verifyError:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)SFUFlushError;
+- (id);
 - (void);
-- (unsigned int);
+- (unsigned int)iCloudDeviceListMonitor;
 - (void)ÿÿ
 | Ä;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *path;
-@property(readonly) Class superclass;
 
 @end
 

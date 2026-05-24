@@ -6,91 +6,14 @@
 
 #import <SyncServices/ISyncSession.h>
 
-@class ISDClientState, ISDRecord, ISDRecordStore, ISDStructuredDelta, ISyncClient, ISyncRecordSnapshot, NSArray, NSCountedSet, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSRunLoop, NSSet, NSString;
+@class ISyncClient;
 
 @interface ISyncConcreteSession : ISyncSession
 {
     ISyncClient *_client;
-    NSString *_clientId;
-    NSString *_planId;
-    NSArray *_entityNames;
-    NSArray *_entities;
-    NSArray *_syncStates;
-    int _anchorPhase;
-    NSArray *_anchorRefreshSyncEntities;
-    NSArray *_anchorSlowSyncEntities;
-    NSDictionary *_pendingNextAnchors;
-    NSDictionary *_truthPullers;
-    ISDClientState *_clientState;
-    ISDStructuredDelta *_structuredDelta;
-    ISDRecordStore *_truth;
-    ISyncRecordSnapshot *_snapshot;
-    NSString *_cancelReason;
-    NSDictionary *_cancelUserInfo;
-    NSRunLoop *_waitingRunLoop;
-    id _callbackTarget;
-    SEL _callbackSelector;
-    id _callbackSessionArgument;
-    _Bool _shouldInvokeCallback;
-    _Bool _pendingCancel;
-    _Bool _running;
-    _Bool _applyPushedChanges;
-    _Bool _vacuumClientStateAfterSync;
-    id _pushedChangesObserver;
-    NSMutableSet *_modifiedRecordIdentifiers;
-    NSMutableSet *_addedRecordIdentifiers;
-    NSMutableSet *_deletedRecordIdentifiers;
-    NSMutableSet *_deletedGlobalIds;
-    NSCountedSet *_accumulatedPushedAdds;
-    NSCountedSet *_accumulatedPushedModifies;
-    NSCountedSet *_accumulatedPushedDeletes;
-    NSCountedSet *_accumulatedPulledAdds;
-    NSCountedSet *_accumulatedPulledModifies;
-    NSCountedSet *_accumulatedPulledDeletes;
-    int _sessionResponse;
-    unsigned int _currentGeneration;
-    int _phase;
-    int _newPhase;
-    NSMutableSet *_lostRecordIds;
-    NSMutableSet *_lostRecordIdsForReplacement;
-    NSMutableDictionary *_relationshipInfoMap;
-    NSMutableDictionary *_knownRecordEntityNumbers;
-    NSDate *_lastServerPingDate;
-    NSMutableSet *_recordIdsToDeleteAfterPushing;
-    NSMutableDictionary *_pushedChangesCache;
-    NSMutableDictionary *_pushedRecordsCache;
-    NSMutableSet *_pushedDeletesCache;
-    NSMutableSet *_pushedAddedRecordIds;
-    unsigned long long _pushedCacheSize;
-    int _rebuildIndicesAfterPushing;
-    _Bool _modifiesDuringPushing;
-    NSSet *_refreshSyncingEntityNames;
-    _Bool _changeStoreHasChanges;
-    NSSet *_slowSyncingEntityNames;
-    NSMutableDictionary *_unacceptedClientRecords;
-    NSMutableDictionary *_acceptedClientRecords;
-    NSMutableDictionary *_rejectedClientRecords;
-    NSMutableDictionary *_acceptedUnknowns;
-    NSMutableSet *_rejectedUnknowns;
-    NSMutableSet *_unchangedRecordIds;
-    unsigned long long _addCount;
-    unsigned long long _modifyCount;
-    unsigned long long _deleteCount;
-    unsigned long long _pushCount;
-    NSMutableDictionary *_dataReferencesToSave;
-    NSMutableArray *_recordIdsWithDataReferencesToDelete;
-    ISDRecord *_recordBeingPushed;
-    _Bool _ignoreDecodedDataWrapper;
-    NSMutableSet *_acceptedFormattedRecordsWithDataReferences;
-    NSArray *_clientRecordCache;
-    NSMutableDictionary *_recordIdsNotToPropagate;
-    NSDate *enterSessionCreateTime;
-    NSDate *enterPushingTime;
-    NSDate *enterMinglingTime;
-    NSDate *enterPullingTime;
 }
 
-+ (void)ialMessage: /* Error: Ran out of types for this method. */;
++ (void)awaitTrivialMessage: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -189,11 +112,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -203,10 +126,10 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -254,7 +177,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -262,13 +185,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

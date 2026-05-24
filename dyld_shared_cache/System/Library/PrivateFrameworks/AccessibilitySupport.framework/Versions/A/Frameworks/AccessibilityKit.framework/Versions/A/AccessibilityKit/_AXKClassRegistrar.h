@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _AXKClassRegistrar
 {
     NSObject<OS_dispatch_queue> *_syncQueue;
-    NSMutableDictionary *_classMap;
-    NSMutableDictionary *_predicateMap;
-    Class _baseClass;
 }
 
 - (void);
@@ -26,15 +23,12 @@
 - (id);
 - (Class);
 - (id);
-- (void);
-- (id);
+- (void)set_returnPressed: /* Error: Ran out of types for this method. */;
+- (id)ew:,V__searchIconImageView /* Error: Ran out of types for this method. */;
 - (void)!>°!ÌDùo1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) Class baseClass; // @synthesize baseClass=_baseClass;
-@property(retain, nonatomic) NSMutableDictionary *classMap; // @synthesize classMap=_classMap;
-@property(retain, nonatomic) NSMutableDictionary *predicateMap; // @synthesize predicateMap=_predicateMap;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
 
 @end

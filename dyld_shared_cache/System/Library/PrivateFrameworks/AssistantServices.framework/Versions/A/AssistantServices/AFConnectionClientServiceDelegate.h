@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFConnection, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AFConnection;
 
 @interface AFConnectionClientServiceDelegate
 {
     AFConnection *_connection;
-    NSObject<OS_dispatch_queue> *_targetQueue;
 }
 
 - (oneway void);
+- (oneway void)P;
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -29,6 +28,7 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
+- (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -38,16 +38,14 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
+- (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
+- (oneway void)7hB;
 - (oneway void);
 - (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
+- (oneway void);
 - (void);
 - (oneway void);
 - (oneway void);
@@ -60,25 +58,19 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
+- (oneway void);
 - (id);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (id);
+- (oneway void);
 - (oneway void);
-- (oneway void);
-- (void)ateSnapshotMutability;
+- (void)AFSystemStateSnapshotMutability;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

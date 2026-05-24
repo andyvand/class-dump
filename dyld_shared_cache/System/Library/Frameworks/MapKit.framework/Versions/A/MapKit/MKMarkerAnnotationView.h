@@ -6,32 +6,16 @@
 
 #import <MapKit/MKAnnotationView.h>
 
-@class CALayer, GEOFeatureStyleAttributes, MKMarkerBalloonView, MKMarkerDotView, MKMarkerStyle, MKWalletMerchantStylingInfo, NSColor, NSImage, NSString, NSView;
+@class CALayer, MKWalletMerchantStylingInfo;
 
 @interface MKMarkerAnnotationView : MKAnnotationView
 {
     CALayer *_selectedMarkerSnapshotLayer;
-    MKMarkerBalloonView *_markerView;
-    MKMarkerDotView *_selectedDotView;
-    MKMarkerBalloonView *_selectedMarkerView;
-    MKMarkerStyle *_selectedMarkerStyle;
-    MKMarkerStyle *_unselectedMarkerStyle;
-    GEOFeatureStyleAttributes *_customStyleAttributes;
-    MKWalletMerchantStylingInfo *_walletMerchantStylingInfo;
-    _Bool _isObserving;
-    struct CGSize _size;
-    _Bool _animatesWhenAdded;
-    NSColor *_markerTintColor;
-    NSColor *_glyphTintColor;
-    NSString *_glyphText;
-    NSImage *_glyphImage;
-    NSImage *_selectedGlyphImage;
-    NSView *_selectedContentView;
 }
 
-+ (Class);
++ (Class);
 + (float);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -47,8 +31,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)9;
+- (id)9;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -57,9 +41,9 @@
 - (void);
 - (void);
 - (void);
+- (void)[U;
 - (void);
-- (void);
-- (void);
+- (void)*X;
 - (long long);
 - (_Bool);
 - (void);
@@ -67,12 +51,12 @@
 - (void);
 - (void);
 - (id);
+- (id)c;
 - (id);
-- (id);
-- (CDStruct_ef33c3d5);
+- (CDStruct_ef33c3d5);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)__objc_doubleobj__AUTH_CONST;
 - (_Bool);
 - (id);
 - (struct CGRect);
@@ -85,12 +69,12 @@
 - (id);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (id);
-- (double);
+- (void)ctionary"@"NSError">24;
+- (void)ionary"16@"NSString"24@?<v@?@"NSDictionary">32;
+- (void)32;
+- (struct CGPoint)actionsDictionary:(long long)arg1 withIDSDestinations:validFor: /* Error: Ran out of types for this method. */;
+- (id)UTRAN;
+- (double)B;
 - (void);
 - (void);
 - (void);
@@ -101,25 +85,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)CSVoiceTriggerAPModeSuspendPolicyFactory;
 - (void);
 - (void)!Bù *1Â0@ù
 × ;
-- (void)em;
-- (void)attributedStringWithBindingFormat:replacements:defaultReplacementAttributes:startTokenDelimiter:endTokenDelimiter:error: /* Error: Ran out of types for this method. */;
-- (struct NSEdgeInsets)htMode: /* Error: Ran out of types for this method. */;
+- (void)libraryActionItem;
+- (void)_mapkit_attributedStringWithBindingFormat:replacements:defaultReplacementAttributes:startTokenDelimiter:endTokenDelimiter:error: /* Error: Ran out of types for this method. */;
+- (struct NSEdgeInsets)_imageForFeatureStyleAttributes:size:forScale:nightMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool animatesWhenAdded; // @synthesize animatesWhenAdded=_animatesWhenAdded;
-@property(copy, nonatomic) NSImage *glyphImage; // @synthesize glyphImage=_glyphImage;
-@property(copy, nonatomic) NSString *glyphText; // @synthesize glyphText=_glyphText;
-@property(copy, nonatomic) NSColor *glyphTintColor; // @synthesize glyphTintColor=_glyphTintColor;
-@property(copy, nonatomic) NSColor *markerTintColor; // @synthesize markerTintColor=_markerTintColor;
-@property(retain, nonatomic) NSView *selectedContentView; // @synthesize selectedContentView=_selectedContentView;
-@property(copy, nonatomic) NSImage *selectedGlyphImage; // @synthesize selectedGlyphImage=_selectedGlyphImage;
-@property(retain, nonatomic, getter=_styleAttributes, setter=_setStyleAttributes:) GEOFeatureStyleAttributes *styleAttributes; // @synthesize styleAttributes=_customStyleAttributes;
-@property(nonatomic) long long subtitleVisibility; // @dynamic subtitleVisibility;
-@property(nonatomic) long long titleVisibility; // @dynamic titleVisibility;
 @property(retain, nonatomic, getter=_walletMerchantStylingInfo, setter=_setWalletMerchantStylingInfo:) MKWalletMerchantStylingInfo *walletMerchantStylingInfo;
 
 @end

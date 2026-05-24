@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, _MXExtensionProvider;
+@class NSObject, _MXExtensionProvider;
 @protocol OS_dispatch_queue;
 
 @interface _MXExtensionDispatchCenter
 {
     NSObject<OS_dispatch_queue> *_lock;
-    NSHashTable *_handlers;
-    _MXExtensionProvider *_extensionProvider;
 }
 
+- (void)checkOpenIntervalDuration:(id)arg1;
+- (id)ApplicationMetrics:(id)arg1:RemoteControlSession /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)Search;
+- (void)shouldEnableRedoSearch;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak _MXExtensionProvider *extensionProvider; // @synthesize extensionProvider=_extensionProvider;

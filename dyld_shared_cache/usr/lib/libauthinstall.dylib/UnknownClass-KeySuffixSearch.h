@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (KeySuffixSearch)
-- (id);
-- (id);
+- (id)_businessLogoID;
+- (id)_allReferencingColumnsForTable:(id)arg1;
 @end
 

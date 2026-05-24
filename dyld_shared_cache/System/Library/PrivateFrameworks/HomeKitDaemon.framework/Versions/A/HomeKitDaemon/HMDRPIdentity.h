@@ -16,17 +16,17 @@ __attribute__((visibility("hidden")))
 + (_Bool)ÜÏêüÐëÑðÑìlÒí¸ÓîÔïXÙð`Úñ¤ÛòlßØßólàô´åõ¨æö<ì÷Xíøîùïïúüïûùü`úýdÿþl;
 + (id)Ù£lB;
 - (id);
-- (id);
+- (id)tion while removing presenterAllowsRequestingControl;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)gKeyPath:(struct _NSZone *)arg1 boolValue: /* Error: Ran out of types for this method. */;
-- (id)mThirdPartyBRs;
-- (void)nter;
+- (id)legacySettingsAdaptor:(struct _NSZone *)arg1 didUpdateSettingKeyPath:boolValue: /* Error: Ran out of types for this method. */;
+- (id)_curReport_numThirdPartyBRs;
+- (void)HMDLogEventUserActivityAnalyzerReadWriteBTSuccessEventCounter;
 
 // Remaining properties
 @property(readonly, copy) HMFKey *deviceIRK; // @synthesize deviceIRK=_deviceIRK;

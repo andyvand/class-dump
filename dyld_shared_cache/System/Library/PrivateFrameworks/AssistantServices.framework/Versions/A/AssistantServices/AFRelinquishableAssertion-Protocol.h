@@ -5,5 +5,6 @@
 //
 
 @protocol AFRelinquishableAssertion
+- (void)*S;
 @end
 

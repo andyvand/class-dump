@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCBundleSubscription, FCDerivedPersonalizationData, NSArray, NSDictionary, NSSet, NSString;
+@class FCDerivedPersonalizationData, NSArray, NSSet;
 
 @protocol FCMutableTodayPrivateData
+- (void)h;
+- (void)_foregroundGeometry;
+- (NSSet *);
+- (FCDerivedPersonalizationData *);
+- (NSArray *)UXSourceControllerForceSelection;
+- (void)capturePredExTrainingWithChanceOfPrecipitation:(FCDerivedPersonalizationData *)arg1 chanceOfRain:chanceOfSnow:endTime:durationUntilEventEnd:durationUntilEventStart:startTime:temperature:timeOfDay:timeSinceBackgrounded:actualTransportMode:dayOfWeek:distanceFromHereToHome:distanceFromHereToOrigin:distanceFromHereToParkedCar:distanceFromHereToWork:distanceFromHere:distanceFromOriginToDestination:entryType:weatherType:mapType:predictedTransportMode:preferredTransportMode:isTourist:isCarplayConnected:isTransitPossible:userLocation:isVehicleBluetoothConnected:weatherAqi:modelName:modelVersion:modelTrainedDate:experimentationId:experimentTreatmentId: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)_allowMixedStateWhenAllChildrenSelected;
 - (NSSet *)tions:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *autoFavoriteTagIDs;
-@property(copy, nonatomic) FCBundleSubscription *bundleSubscription;
 @property(copy, nonatomic) FCDerivedPersonalizationData *derivedPersonalizationData;
-@property(copy, nonatomic) NSSet *groupableTagIDs;
-@property(copy, nonatomic) NSString *localNewsTagID;
-@property(copy, nonatomic) NSSet *mutedTagIDs;
-@property(copy, nonatomic) NSSet *purchasedTagIDs;
-@property(copy, nonatomic) NSArray *rankedAllSubscribedTagIDs;
-@property(copy, nonatomic) NSArray *rankedAllSubscriptionDates;
-@property(copy, nonatomic) NSDictionary *recentlyReadHistoryItems;
-@property(copy, nonatomic) NSArray *recentlySeenHistoryItems;
 @end
 

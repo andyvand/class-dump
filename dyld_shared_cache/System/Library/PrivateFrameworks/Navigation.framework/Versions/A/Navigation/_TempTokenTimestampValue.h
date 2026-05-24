@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimeZone;
-
 __attribute__((visibility("hidden")))
 @interface _TempTokenTimestampValue
 {
     double _timeStamp;
-    NSTimeZone *_timeZone;
-    NSString *_formatPattern;
 }
 
 - (void);
@@ -19,23 +15,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)_errorWithFMMErroCode:(id)arg1;
 - (void);
 - (void)!Fù1Ð1Â0@ù
 × ;
 - (id)iY=uY=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *formatPattern; // @synthesize formatPattern=_formatPattern;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) double timeStamp; // @synthesize timeStamp=_timeStamp;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

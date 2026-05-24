@@ -5,5 +5,11 @@
 //
 
 @protocol UIAlertViewDelegate
+
+@optional
+- (void);
+- (_Bool)b
+3{;
+- (void)z;
 @end
 

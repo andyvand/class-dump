@@ -7,11 +7,6 @@
 @interface NotificationCenterUI.NCCustomAlertBackgroundView_ShadowLayer
 {
     id lastSetup;
-    id _isVibrant;
-    id _rim;
-    id _materialLayer;
-    id _innerRimLayer;
-    id _shadowLayer;
 }
 
 - (id);

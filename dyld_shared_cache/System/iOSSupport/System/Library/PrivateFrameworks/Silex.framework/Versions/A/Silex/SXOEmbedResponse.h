@@ -6,8 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, NSURL;
-
 @interface SXOEmbedResponse : SXJSONObject
 {
 }
@@ -15,20 +13,10 @@
 + (id),V_toolbarItems;
 - (double);
 - (id);
-- (struct CGSize):drawViewForRowAtIndex: /* Error: Ran out of types for this method. */;
+- (struct CGSize)dataTableView:drawViewForRowAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *authorName; // @dynamic authorName;
-@property(readonly, nonatomic) NSURL *authorURL; // @dynamic authorURL;
-@property(readonly, nonatomic) double cacheAge; // @dynamic cacheAge;
-@property(readonly, nonatomic) NSString *providerName; // @dynamic providerName;
-@property(readonly, nonatomic) NSURL *providerURL; // @dynamic providerURL;
-@property(readonly, nonatomic) double thumbnailHeight; // @dynamic thumbnailHeight;
-@property(readonly, nonatomic) struct CGSize thumbnailSize;
-@property(readonly, nonatomic) NSURL *thumbnailURL; // @dynamic thumbnailURL;
 @property(readonly, nonatomic) double thumbnailWidth; // @dynamic thumbnailWidth;
-@property(readonly, nonatomic) NSString *title; // @dynamic title;
-@property(readonly, nonatomic) NSString *version; // @dynamic version;
 
 @end
 

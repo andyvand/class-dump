@@ -4,39 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAngleBracketIDHash, ECMessageFlags, ECSubject, NSArray, NSDate, NSDictionary, NSSet, NSString, NSUUID;
-@protocol ECMailAccount, ECMailbox, ECMessageHeaders, ECMimeBody;
+@class ECAngleBracketIDHash, NSArray, NSString;
 
 @protocol ECMessage
+- (ECAngleBracketIDHash *));
+- (ECAngleBracketIDHash *)8(;
+- (_Bool)(;
+- (_Bool);
+- (NSString *)%;
+- (NSArray *);
+- (NSArray *))	;
 
 // Remaining properties
-@property(readonly, nonatomic) id <ECMailAccount> account;
-@property(readonly, copy) NSArray *bcc;
-@property(readonly, copy) NSArray *cc;
-@property(readonly) long long conversationID;
-@property(readonly) NSDate *dateReceived;
-@property(readonly) NSDate *dateSent;
-@property(readonly, copy) NSUUID *documentID;
-@property(readonly, nonatomic) ECMessageFlags *flags;
-@property(readonly, copy) NSArray *from;
-@property(readonly, nonatomic) id <ECMessageHeaders> headers;
-@property(readonly, copy, nonatomic) NSDictionary *headersDictionary;
-@property(readonly, nonatomic) id <ECMessageHeaders> headersIfAvailable;
-@property(readonly, nonatomic) _Bool isServerSearchResult;
-@property(readonly) NSSet *labels;
-@property(readonly, nonatomic) ECAngleBracketIDHash *listIDHash;
-@property(readonly, copy) NSArray *listUnsubscribe;
-@property(readonly, nonatomic) id <ECMailbox> mailbox;
-@property(readonly, copy, nonatomic) NSString *messageIDHeader;
-@property(readonly) ECAngleBracketIDHash *messageIDHeaderHash;
-@property(readonly, nonatomic) id <ECMimeBody> mimeBody;
-@property(readonly) unsigned long long numberOfAttachments;
-@property(readonly, nonatomic, getter=isPartOfExistingThread) _Bool partOfExistingThread;
 @property(readonly, copy, nonatomic) NSString *persistentID;
-@property(readonly, copy, nonatomic) NSArray *references;
-@property(readonly, copy) NSString *remoteID;
-@property(readonly, copy) NSArray *senders;
-@property(readonly, copy) ECSubject *subject;
-@property(readonly, copy) NSArray *to;
 @end
 

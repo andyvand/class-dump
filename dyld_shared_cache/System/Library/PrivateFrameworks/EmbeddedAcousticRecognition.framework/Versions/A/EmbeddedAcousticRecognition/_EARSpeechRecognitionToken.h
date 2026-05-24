@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface _EARSpeechRecognitionToken
 {
     struct Token _quasarToken;
 }
 
 - (id);
-- (id);
+- (id),;
 - (struct Token);
 - (id);
 - (id);
@@ -27,7 +25,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -37,28 +35,11 @@
 - (double);
 - (id);
 - (id);
-- (double);
+- (double)setObject:forContextualKeyPath:synchronous:responseQueue:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double acousticCost;
-@property(readonly, nonatomic) _Bool appendedAutoPunctuation;
-@property(readonly, nonatomic) double confidence;
-@property(readonly, nonatomic) double end;
-@property(readonly, copy, nonatomic) NSNumber *endSamples;
-@property(readonly, nonatomic) double graphCost;
-@property(readonly, nonatomic) _Bool hasSpaceAfter;
-@property(readonly, nonatomic) _Bool hasSpaceBefore;
-@property(readonly, nonatomic) NSString *ipaPhoneSequence;
-@property(readonly, nonatomic) _Bool isModifiedByAutoPunctuation;
-@property(readonly, nonatomic) NSString *phoneSequence;
-@property(readonly, nonatomic) _Bool prependedAutoPunctuation;
 @property(readonly, nonatomic) struct Token quasarToken; // @synthesize quasarToken=_quasarToken;
-@property(readonly, nonatomic) double silenceStart;
-@property(readonly, copy, nonatomic) NSNumber *silenceStartSamples;
-@property(readonly, nonatomic) double start;
-@property(readonly, copy, nonatomic) NSNumber *startSamples;
-@property(readonly, copy, nonatomic) NSString *tokenName;
 
 @end
 

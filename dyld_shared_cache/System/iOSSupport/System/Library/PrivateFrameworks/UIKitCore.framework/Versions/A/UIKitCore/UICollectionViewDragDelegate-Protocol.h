@@ -10,11 +10,11 @@
 - (NSArray *)eters",&,N,V_previewParameters;
 
 @optional
-- (_Bool)tively;
-- (void)dFontValueBeforeScaling;
-- (UIDragPreviewParameters *)loudKitShareAction;
+- (_Bool)_isScrollingInteractively;
+- (void)_cachedFontValueBeforeScaling;
+- (UIDragPreviewParameters *)UIHandleCloudKitShareAction;
 - (void)c;
-- (NSArray *)ocusedFrameGuide;
+- (NSArray *)_UIStackedImageContainerViewFocusedFrameGuide;
 - (_Bool)i23Ð;
 @end
 

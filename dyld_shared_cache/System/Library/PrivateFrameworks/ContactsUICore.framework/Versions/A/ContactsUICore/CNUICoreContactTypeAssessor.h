@@ -17,7 +17,7 @@
 - (id);
 - (long long);
 - (id);
-- (void)dleIdentifier:group:options: /* Error: Ran out of types for this method. */;
+- (void)textItemWithLabel:targetStringValue:url:bundleIdentifier:group:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CNFuture *familyInfoFuture; // @synthesize familyInfoFuture=_familyInfoFuture;

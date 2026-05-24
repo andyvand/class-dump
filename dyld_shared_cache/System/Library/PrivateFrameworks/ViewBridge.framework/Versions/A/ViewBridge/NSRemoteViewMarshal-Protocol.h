@@ -5,5 +5,11 @@
 //
 
 @protocol NSRemoteViewMarshal
+- (void)H;
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
 @end
 

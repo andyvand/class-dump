@@ -5,5 +5,9 @@
 //
 
 @protocol PLHighlightItemModelReader
+- (id)('1C
+;
+- (id)D'F
+;
 @end
 

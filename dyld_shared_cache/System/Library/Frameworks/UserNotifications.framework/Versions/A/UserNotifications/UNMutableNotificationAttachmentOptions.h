@@ -6,8 +6,6 @@
 
 #import <UserNotifications/UNNotificationAttachmentOptions.h>
 
-@class NSDictionary;
-
 @interface UNMutableNotificationAttachmentOptions : UNNotificationAttachmentOptions
 {
 }
@@ -18,7 +16,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long displayLocation; // @dynamic displayLocation;
-@property(copy, nonatomic) NSDictionary *thumbnailGeneratorUserInfo; // @dynamic thumbnailGeneratorUserInfo;
 
 @end
 

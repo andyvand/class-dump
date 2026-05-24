@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSStingrayRecordClientMetadataICloudDataProtection, CSStingrayRecordClientMetadataKeyRegistry, CSStingrayRecordClientMetadataStableMetadata, NSData, NSString;
-
 @interface CSStingrayRecordClientMetadata
 {
     long long _passwordGeneration;
-    long long _passwordIterations;
-    CSStingrayRecordClientMetadataICloudDataProtection *_icdp;
-    NSData *_icloudIdentityPublicData;
-    CSStingrayRecordClientMetadataKeyRegistry *_keyRegistry;
-    NSString *_passwordProtocol;
-    CSStingrayRecordClientMetadataStableMetadata *_stableMetadata;
-    struct {
-        unsigned int passwordGeneration:1;
-        unsigned int passwordIterations:1;
-    } _has;
 }
 
 - (void);
@@ -47,29 +35,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)nents:%{public}@. /* Error: Ran out of types for this method. */;
+- (_Bool)L;
+- (_Bool)@;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIcdp;
-@property(readonly, nonatomic) _Bool hasIcloudIdentityPublicData;
-@property(readonly, nonatomic) _Bool hasKeyRegistry;
-@property(nonatomic) _Bool hasPasswordGeneration;
-@property(nonatomic) _Bool hasPasswordIterations;
-@property(readonly, nonatomic) _Bool hasPasswordProtocol;
-@property(readonly, nonatomic) _Bool hasStableMetadata;
-@property(retain, nonatomic) CSStingrayRecordClientMetadataICloudDataProtection *icdp; // @synthesize icdp=_icdp;
-@property(retain, nonatomic) NSData *icloudIdentityPublicData; // @synthesize icloudIdentityPublicData=_icloudIdentityPublicData;
-@property(retain, nonatomic) CSStingrayRecordClientMetadataKeyRegistry *keyRegistry; // @synthesize keyRegistry=_keyRegistry;
-@property(nonatomic) long long passwordGeneration; // @synthesize passwordGeneration=_passwordGeneration;
-@property(nonatomic) long long passwordIterations; // @synthesize passwordIterations=_passwordIterations;
-@property(retain, nonatomic) NSString *passwordProtocol; // @synthesize passwordProtocol=_passwordProtocol;
-@property(retain, nonatomic) CSStingrayRecordClientMetadataStableMetadata *stableMetadata; // @synthesize stableMetadata=_stableMetadata;
 
 @end
 

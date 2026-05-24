@@ -7,9 +7,6 @@
 @interface AppleMediaServicesUI.AMSUIWebMetricsEventRecorder
 {
     id account;
-    id anonymousMetrics;
-    id metricsEventRecorder;
-    id overlayTopic;
 }
 
 @end

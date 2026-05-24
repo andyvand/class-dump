@@ -7,11 +7,6 @@
 @interface PromotedContentUI.AdCardFooterView
 {
     id $__lazy_storage_$_button;
-    id textLabel;
-    id stackView;
-    id configuration;
-    id blurView;
-    id blurMaskLayer;
 }
 
 - (id);

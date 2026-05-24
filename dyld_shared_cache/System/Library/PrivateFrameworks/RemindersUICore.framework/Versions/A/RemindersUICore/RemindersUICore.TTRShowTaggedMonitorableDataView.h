@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRShowTaggedMonitorableDataView
 {
     id store;
-    id hashtagLabels;
-    id showCompleted;
-    id countCompleted;
-    id sortingStyle;
-    id remindersToPrefetchCount;
-    id needsFetchLatestSmartListHashtagLabels;
 }
 
 @end

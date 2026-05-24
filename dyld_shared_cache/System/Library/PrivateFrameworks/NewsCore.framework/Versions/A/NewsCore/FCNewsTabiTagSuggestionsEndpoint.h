@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsTabiEventAggregationOutputsConfiguration, FCNewsTabiTagSuggestionsConfiguration, NSString;
+@class NSString;
 
 @interface FCNewsTabiTagSuggestionsEndpoint
 {
     NSString *_packageAssetID;
-    FCNewsTabiTagSuggestionsConfiguration *_configuration;
-    FCNewsTabiEventAggregationOutputsConfiguration *_eventAggregationOutputs;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 - (void)esc"; messageType=RequestOperation; delimited=true;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsTabiTagSuggestionsConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputsConfiguration *eventAggregationOutputs; // @synthesize eventAggregationOutputs=_eventAggregationOutputs;
 @property(retain, nonatomic) NSString *packageAssetID; // @synthesize packageAssetID=_packageAssetID;
 
 @end

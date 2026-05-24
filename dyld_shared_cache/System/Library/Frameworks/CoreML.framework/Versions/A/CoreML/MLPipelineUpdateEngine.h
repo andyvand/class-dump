@@ -6,51 +6,32 @@
 
 #import <CoreML/MLPipeline.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, MLUpdateProgressHandlers, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MLUpdateProgressHandlers;
 
 @interface MLPipelineUpdateEngine : MLPipeline
 {
     MLUpdateProgressHandlers *_progressHandlers;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    vector_1172c51c _updatableModelIndicies;
 }
 
 + (id);
-- (vector_1172c51c);
+- (vector_b0a5cdae)ns/A/CoreAnalytics;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool)MultiArrayBufferLayout;
+- (_Bool)MLMultiArrayBufferLayout;
 - (void)ture named:%@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(retain) MLUpdateProgressHandlers *progressHandlers; // @synthesize progressHandlers=_progressHandlers;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
-@property(readonly) vector_1172c51c updatableModelIndicies; // @synthesize updatableModelIndicies=_updatableModelIndicies;
+@property(readonly) vector_b0a5cdae updatableModelIndicies; // @synthesize updatableModelIndicies=_updatableModelIndicies;
 
 @end
 

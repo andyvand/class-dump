@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface NLParameterBundle
 {
     NSArray *_parameters;
-    NSArray *_parameterNames;
-    NSDictionary *_parameterValues;
-    NSDictionary *_metadata;
 }
 
 + (id);
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)P;
+- (id)Add Pronoun;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -31,7 +28,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,10 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy, nonatomic) NSArray *parameterNames; // @synthesize parameterNames=_parameterNames;
-@property(readonly, copy, nonatomic) NSDictionary *parameterValues; // @synthesize parameterValues=_parameterValues;
 @property(readonly, copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
 
 @end

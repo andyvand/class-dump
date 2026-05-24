@@ -7,25 +7,23 @@
 @interface CTLazuliToggleStatusInformation
 {
     long long _type;
-    long long _userPreferenceForSwitch;
 }
 
-+ (_Bool);
++ (_Bool)reamSubscriber>"8;
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)`";
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)checkExistsOTIForUserWithUUID:(id)arg1 targetDisk:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)@24@32@40Q48{?=qiIq}56{?=qiIq}80@104;
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) long long userPreferenceForSwitch; // @synthesize userPreferenceForSwitch=_userPreferenceForSwitch;
 
 @end
 

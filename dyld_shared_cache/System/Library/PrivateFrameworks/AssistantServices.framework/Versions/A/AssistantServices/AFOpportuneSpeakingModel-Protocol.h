@@ -5,5 +5,6 @@
 //
 
 @protocol AFOpportuneSpeakingModel
+- (void);
 @end
 

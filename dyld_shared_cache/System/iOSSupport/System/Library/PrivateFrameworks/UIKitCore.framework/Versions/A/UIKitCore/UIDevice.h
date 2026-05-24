@@ -7,22 +7,6 @@
 @interface UIDevice
 {
     long long _numDeviceOrientationObservers;
-    float _batteryLevel;
-    unsigned long long _remoteTouchSurfaceType;
-    _Bool _remoteHasMicrophone;
-    _Bool _remoteHasMute;
-    _Bool _remoteSupportsPushToTalk;
-    struct {
-        unsigned int batteryMonitoringEnabled:1;
-        unsigned int proximityMonitoringEnabled:1;
-        unsigned int expectsFaceContactInLandscape:1;
-        unsigned int orientation:3;
-        unsigned int batteryState:2;
-        unsigned int proximityState:1;
-        unsigned int hasTouchPadOverride:1;
-        unsigned int hasTouchPad:1;
-        unsigned int isHardwareKeyboardAvailable:1;
-    } _deviceFlags;
 }
 
 @end

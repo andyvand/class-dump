@@ -6,19 +6,9 @@
 
 #import <HomeAI/HMIVideoAnalyzerProcessingNode.h>
 
-@class NSString;
-@protocol HMIVideoFrameSelectorDelegate;
-
 @interface HMIVideoFrameSelector : HMIVideoAnalyzerProcessingNode
 {
     _Bool _enabled;
-    _Bool _resetReferences;
-    struct os_unfair_lock_s _lock;
-    id <HMIVideoFrameSelectorDelegate> _delegate;
-    struct __CFArray *_references;
-    unsigned long long _maxReferences;
-    CDStruct_1b6d18a9 _targetInterval;
-    CDStruct_1b6d18a9 _referenceInterval;
 }
 
 + (id);
@@ -28,36 +18,22 @@
 - (void);
 - (CDStruct_1b6d18a9);
 - (unsigned long long);
+- (id)B;
+- (void)>;
+- (_Bool)M;
+- (struct __CFArray *);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (struct __CFArray *);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (struct os_unfair_lock_s);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMIVideoFrameSelectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property unsigned long long maxReferences; // @synthesize maxReferences=_maxReferences;
-@property CDStruct_1b6d18a9 referenceInterval; // @synthesize referenceInterval=_referenceInterval;
-@property(readonly) struct __CFArray *references; // @synthesize references=_references;
-@property _Bool resetReferences; // @synthesize resetReferences=_resetReferences;
-@property(readonly) Class superclass;
-@property(readonly) CDStruct_1b6d18a9 targetInterval; // @synthesize targetInterval=_targetInterval;
 
 @end
 

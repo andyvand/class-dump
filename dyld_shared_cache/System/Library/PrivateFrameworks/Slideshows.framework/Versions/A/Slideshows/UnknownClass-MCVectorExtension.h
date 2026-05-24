@@ -6,7 +6,7 @@
 
 @interface UnknownClass (MCVectorExtension)
 + (id);
-+ (id);
++ (id)?;
 + (id);
 + (id);
 - (CDStruct_d27e73f0);

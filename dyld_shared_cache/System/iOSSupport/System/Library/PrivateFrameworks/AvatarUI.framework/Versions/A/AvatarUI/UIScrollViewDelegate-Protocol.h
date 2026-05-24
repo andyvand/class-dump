@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
+@class UIScrollView, UIView;
 
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)r:(UIScrollView *)arg1;
+- (void)ma kotsertje;
+- (void)c;
+- (_Bool)C;
+- (UIView *);
+- (void)setCenterCircleColor:(UIScrollView *)arg1;
 @end
 

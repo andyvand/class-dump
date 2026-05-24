@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TRIMLRuntimeDimensions, TRISubject, TRISystemDimensions, TRITrialSystemTelemetry;
+@class NSMutableArray;
 
 @interface TRIDenormalizedEvent
 {
     NSMutableArray *_metrics;
-    TRIMLRuntimeDimensions *_mlruntimeDimensions;
-    TRISubject *_subject;
-    TRISystemDimensions *_systemDimensions;
-    NSMutableArray *_treatments;
-    TRITrialSystemTelemetry *_trialSystemTelemetry;
-    NSMutableArray *_userDimensions;
 }
 
 + (Class);
@@ -30,9 +24,9 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
+- (void)createDirectoryAtURL:(id)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (_Bool)ror no suggestions are found;
+- (void)AdditionalProcessing;
 - (id);
 - (unsigned long long);
 - (void);
@@ -40,7 +34,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)Կ;
 - (void);
 - (void);
 - (id);
@@ -50,8 +44,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_compatibilityVersion;
+- (id)n;
 - (void);
 - (id);
 - (unsigned long long);
@@ -59,20 +53,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)t:(unsigned long long)arg1;
+- (id)mergeFieldFrom:(unsigned long long)arg1 input: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMlruntimeDimensions;
 @property(readonly, nonatomic) _Bool hasSubject;
-@property(readonly, nonatomic) _Bool hasSystemDimensions;
-@property(readonly, nonatomic) _Bool hasTrialSystemTelemetry;
-@property(retain, nonatomic) NSMutableArray *metrics; // @synthesize metrics=_metrics;
-@property(retain, nonatomic) TRIMLRuntimeDimensions *mlruntimeDimensions; // @synthesize mlruntimeDimensions=_mlruntimeDimensions;
-@property(retain, nonatomic) TRISubject *subject; // @synthesize subject=_subject;
-@property(retain, nonatomic) TRISystemDimensions *systemDimensions; // @synthesize systemDimensions=_systemDimensions;
-@property(retain, nonatomic) NSMutableArray *treatments; // @synthesize treatments=_treatments;
-@property(retain, nonatomic) TRITrialSystemTelemetry *trialSystemTelemetry; // @synthesize trialSystemTelemetry=_trialSystemTelemetry;
-@property(retain, nonatomic) NSMutableArray *userDimensions; // @synthesize userDimensions=_userDimensions;
 
 @end
 

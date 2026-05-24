@@ -7,9 +7,6 @@
 @interface IDSFoundation.IDSPacketLogManager
 {
     id $defaultActor;
-    id directory;
-    id maximumAge;
-    id maximumSize;
 }
 
 @end

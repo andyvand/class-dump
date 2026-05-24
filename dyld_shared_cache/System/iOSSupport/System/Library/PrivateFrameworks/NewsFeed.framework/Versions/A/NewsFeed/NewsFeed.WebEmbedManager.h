@@ -7,17 +7,6 @@
 @interface NewsFeed.WebEmbedManager
 {
     id pluginContainerController;
-    id resolver;
-    id scoreCache;
-    id standingCache;
-    id bracketCache;
-    id boxScoreCache;
-    id lineScoreCache;
-    id injuryReportCache;
-    id keyPlayersCache;
-    id defaultCache;
-    id seenIdentifiers;
-    id inUseCache;
 }
 
 @end

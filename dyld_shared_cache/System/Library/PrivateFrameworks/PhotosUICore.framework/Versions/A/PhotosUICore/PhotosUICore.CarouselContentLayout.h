@@ -9,20 +9,6 @@
 @interface PhotosUICore.CarouselContentLayout
 {
     id scrollPosition;
-    id maskingInsetsFraction;
-    id pageControllerAlpha;
-    id numberOfPages;
-    id layoutSpec;
-    id fullsizeFrameRectsStore;
-    id pageControlSpriteIndex;
-    id pageControlConfiguration;
-    id pageControlVersion;
-    id displayedPageRange;
-    id displayedPageInfos;
-    id mostFocusedPageIndex;
-    id pageInfoFetcher;
-    id mostFocusedPageChangeHandler;
-    id updater;
 }
 
 - (id);
@@ -36,7 +22,7 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);

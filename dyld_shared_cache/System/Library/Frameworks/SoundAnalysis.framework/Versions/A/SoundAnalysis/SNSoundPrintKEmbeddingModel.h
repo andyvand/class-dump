@@ -12,18 +12,18 @@
 }
 
 + (void);
-+ (id);
++ (id)pg_query__alter_default_privileges_stmt__free_unpacked;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)orrect streamType;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tHotShip is %@ on this config;
 - (id);
 - (id);
 - (void)Húÿ|úÿ¸úÿÜúÿ;

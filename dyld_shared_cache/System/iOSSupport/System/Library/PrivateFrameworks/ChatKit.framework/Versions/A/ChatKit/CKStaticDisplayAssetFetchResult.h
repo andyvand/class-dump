@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol PXDisplayAsset;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CKStaticDisplayAssetFetchResult
@@ -13,16 +12,16 @@ __attribute__((visibility("hidden")))
     NSArray *_assets;
 }
 
-- (id);
+- (id)setContents:(unsigned long long)arg1;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id)wControllerDidInset: /* Error: Ran out of types for this method. */;
-- (id)owAllButton: /* Error: Ran out of types for this method. */;
-- (id)istTranscriptCell;
+- (id)transcriptCollectionViewControllerDidInset: /* Error: Ran out of types for this method. */;
+- (id)setShowAllButton: /* Error: Ran out of types for this method. */;
+- (id)CKVisionReplyListTranscriptCell;
 - (long long)ZyAEyAEyAEyµZy0ZyºµZÅGSgGÄy>¶ZGG·~ZG	ZyÃZGGASyáZGGG;
 - (void)ÿÿ&;
 - (id);
@@ -30,16 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PXDisplayAsset> firstObject;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXDisplayAsset> lastObject;
-@property(readonly) Class superclass;
 
 @end
 

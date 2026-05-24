@@ -9,7 +9,6 @@
 @interface PKSelectionStatisticsManager
 {
     PKSelectionStatisticsSession *_selectionSession;
-    struct CGPoint _lastContentOffset;
 }
 
 + (id);

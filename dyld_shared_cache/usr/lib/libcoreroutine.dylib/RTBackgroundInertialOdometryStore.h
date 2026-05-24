@@ -6,18 +6,16 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTBackgroundInertialOdometryStore : RTStore
 {
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)c}@;
+- (void)__PCSDisableStingrayIdentity;
+- (id)warrior;
+- (void)Hyperion;
 - (void);
 - (void);
 - (void);
@@ -25,13 +23,7 @@
 - (id)¥Å;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

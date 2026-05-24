@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)I¹/kª);
-- (unsigned long long);
+- (unsigned long long)h;
 - (oneway void);
 - (unsigned long long);
 - (id);

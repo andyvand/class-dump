@@ -11,9 +11,9 @@
 
 + (_Bool)X"ð!àBùî%ð1Â0@ù
 × ;
+- (id);
 - (id);
-- (id);
-- (long long);
+- (long long)MUEncryptPrivateMetadata;
 - (void);
 
 // Remaining properties

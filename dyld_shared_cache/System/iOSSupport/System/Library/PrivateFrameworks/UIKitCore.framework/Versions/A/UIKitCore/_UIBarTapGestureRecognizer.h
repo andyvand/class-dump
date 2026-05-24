@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
     long long _tapCategory;
 }
 
-- (long long);
-- (void);
+- (long long)ing"40@"NSString"48@"NSNumber"56@"NSNumber"64;
+- (void)lastAddressedSIMID;
 - (_Bool);
 - (long long);
-- (id);
+- (id)protobuf_c_message_get_packed_size;
 - (void)¡	Ð!FùñeÐ1Â0@ù
 × ;
 - (void)llerTransitionCoordinator>"24;
 - (id);
-- (void)w;
+- (void)hasShadow;
 - (void)n;
 
 // Remaining properties

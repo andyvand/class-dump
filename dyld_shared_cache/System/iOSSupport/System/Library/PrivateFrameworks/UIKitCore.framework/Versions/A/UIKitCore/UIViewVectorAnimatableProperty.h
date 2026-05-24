@@ -16,13 +16,13 @@
 - (void);
 - (const double *);
 - (id);
-- (void);
+- (void)nslator was missing mapping for MPModelPropertyTVShowCreatorArtwork;
 - (void);
 - (id);
 - (const double *)!Ð!BùQa1Â0@ù
 × ;
 - (void)=dd}16d32@?40@?48@?56@?64;
-- (void)erConstraints;
+- (void)_contentViewControllerConstraints;
 - (id)W;
 - (void)@>;
 - (id)ùû¾7;
@@ -30,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _length; // @synthesize _length=__length;
-@property(readonly, nonatomic) const double *_presentationValue;
-@property(readonly, nonatomic) const double *_value;
-@property(readonly, nonatomic) const double *_velocity;
 
 @end
 

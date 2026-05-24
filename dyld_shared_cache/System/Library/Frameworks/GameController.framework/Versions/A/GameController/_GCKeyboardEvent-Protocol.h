@@ -7,10 +7,6 @@
 @protocol _GCKeyboardEvent
 
 // Remaining properties
-@property(readonly, nonatomic) long long down;
-@property(readonly, nonatomic) unsigned long long sender;
 @property(readonly, nonatomic) unsigned long long timestamp;
-@property(readonly, nonatomic) long long usage;
-@property(readonly, nonatomic) long long usagePage;
 @end
 

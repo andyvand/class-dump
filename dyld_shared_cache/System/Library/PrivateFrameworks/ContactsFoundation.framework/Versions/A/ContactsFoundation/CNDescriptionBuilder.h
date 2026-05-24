@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSObject, NSString;
+@class NSObject, NSString;
 
 @interface CNDescriptionBuilder
 {
     NSObject *_object;
-    NSMutableString *_description;
-    NSString *_separator;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 

@@ -5,5 +5,6 @@
 //
 
 @protocol XQueryAtomicType
+- (long long);
 @end
 

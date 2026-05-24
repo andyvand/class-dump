@@ -9,21 +9,17 @@
 @interface SFSpeechAnalyzerOptionsPowerContext
 {
     NSString *_ane;
-    NSString *_cpu;
-    NSString *_gpu;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)here one was expected;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *ane; // @synthesize ane=_ane;
-@property(readonly, copy, nonatomic) NSString *cpu; // @synthesize cpu=_cpu;
-@property(readonly, copy, nonatomic) NSString *gpu; // @synthesize gpu=_gpu;
 
 @end
 

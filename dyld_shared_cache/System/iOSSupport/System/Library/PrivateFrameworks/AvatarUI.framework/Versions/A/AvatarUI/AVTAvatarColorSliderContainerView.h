@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarAttributeEditorSectionColorItem, AVTColorSlider, NSArray;
-@protocol AVTAvatarColorSliderContainerViewDelegate;
+@class AVTAvatarAttributeEditorSectionColorItem, AVTColorSlider;
 
 @interface AVTAvatarColorSliderContainerView
 {
     AVTAvatarAttributeEditorSectionColorItem *_sectionItem;
-    id <AVTAvatarColorSliderContainerViewDelegate> _delegate;
-    AVTColorSlider *_slider;
-    NSArray *_layoutConstraints;
 }
 
 - (void);
@@ -21,21 +17,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)`
+;
 - (id);
-- (void);
+- (id);
+- (void)`;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AVTAvatarColorSliderContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSArray *layoutConstraints; // @synthesize layoutConstraints=_layoutConstraints;
-@property(retain, nonatomic) AVTAvatarAttributeEditorSectionColorItem *sectionItem; // @synthesize sectionItem=_sectionItem;
 @property(retain, nonatomic) AVTColorSlider *slider; // @synthesize slider=_slider;
 
 @end

@@ -7,16 +7,6 @@
 @interface _UIFocusAnimationConfiguration
 {
     double _focusingBaseDuration;
-    double _unfocusingBaseDuration;
-    unsigned long long _animationOptions;
-    double _focusingDurationScaleFactorLowerBound;
-    double _focusingDurationScaleFactorUpperBound;
-    double _unfocusingDurationScaleFactorLowerBound;
-    double _unfocusingDurationScaleFactorUpperBound;
-    double _minimumFocusDuration;
-    double _unfocusingRepositionBaseDuration;
-    double _unfocusingBackgroundFadeDurationPercentage;
-    double _focusingDelay;
 }
 
 + (id);
@@ -35,32 +25,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)NSArray"16@"NSString"24@"NSString"32@"NSDate"40;
+- (double)completionBlock: /* Error: Ran out of types for this method. */;
+- (double)analyticSyncDatesDictionary;
+- (double)analyticRecordZone;
+- (double)analysisFetchOptions;
+- (double)alreadyCapturedErrorWithAutoBugCapture;
+- (unsigned long long)_TtC12IMDaemonCore33ScheduledMessageBlocklistObserver;
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (unsigned long long);
-- (double);
-- (double);
-- (double);
-- (double);
+- (double)T;
+- (double)to retrieve attachment at index:(id)arg1 %u for transfer ID:%@, failing /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
 - (id)V_enforcesMinimumHeight;
 
 // Remaining properties
 @property(nonatomic) unsigned long long animationOptions; // @synthesize animationOptions=_animationOptions;
-@property(nonatomic) double focusingBaseDuration; // @synthesize focusingBaseDuration=_focusingBaseDuration;
-@property(nonatomic) double focusingDelay; // @synthesize focusingDelay=_focusingDelay;
-@property(nonatomic) double focusingDurationScaleFactorLowerBound; // @synthesize focusingDurationScaleFactorLowerBound=_focusingDurationScaleFactorLowerBound;
-@property(nonatomic) double focusingDurationScaleFactorUpperBound; // @synthesize focusingDurationScaleFactorUpperBound=_focusingDurationScaleFactorUpperBound;
-@property(nonatomic) double minimumFocusDuration; // @synthesize minimumFocusDuration=_minimumFocusDuration;
-@property(nonatomic) double unfocusingBackgroundFadeDurationPercentage; // @synthesize unfocusingBackgroundFadeDurationPercentage=_unfocusingBackgroundFadeDurationPercentage;
-@property(nonatomic) double unfocusingBaseDuration; // @synthesize unfocusingBaseDuration=_unfocusingBaseDuration;
-@property(nonatomic) double unfocusingDurationScaleFactorLowerBound; // @synthesize unfocusingDurationScaleFactorLowerBound=_unfocusingDurationScaleFactorLowerBound;
-@property(nonatomic) double unfocusingDurationScaleFactorUpperBound; // @synthesize unfocusingDurationScaleFactorUpperBound=_unfocusingDurationScaleFactorUpperBound;
-@property(nonatomic) double unfocusingRepositionBaseDuration; // @synthesize unfocusingRepositionBaseDuration=_unfocusingRepositionBaseDuration;
 
 @end
 

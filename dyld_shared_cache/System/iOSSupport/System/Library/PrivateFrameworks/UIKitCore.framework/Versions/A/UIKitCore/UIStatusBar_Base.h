@@ -6,38 +6,11 @@
 
 #import <UIKitCore/_UIScrollsToTopInitiatorView.h>
 
-@class NSArray, NSString, UIColor, UIFont, UIStatusBarServer, UIStatusBarStyleRequest, UIStatusBarWindow, UIView;
-@protocol UIStatusBarCarPlayDockDataProviding, UIStatusBarManager, UIStatusBarStateProvider, UIStatusBarStyleDelegate, UIViewControllerTransitionCoordinator;
+@class UIStatusBarServer;
 
 @interface UIStatusBar_Base : _UIScrollsToTopInitiatorView
 {
     _Bool _persistentAnimationsEnabled;
-    _Bool _foreground;
-    _Bool _hidden;
-    _Bool _registered;
-    _Bool _serverUpdatesDisabled;
-    _Bool _suppressesHiddenSideEffects;
-    _Bool _homeItemsDisabled;
-    _Bool _disablesRasterization;
-    id <UIStatusBarStyleDelegate> _styleDelegate;
-    id <UIStatusBarCarPlayDockDataProviding> _dockDataProvider;
-    unsigned long long _styleOverrides;
-    UIStatusBarWindow *_statusBarWindow;
-    long long _orientation;
-    UIStatusBarServer *_statusBarServer;
-    id <UIStatusBarStateProvider> _inProcessStateProvider;
-    CDStruct_d8565a8c *_localDataOverrides;
-    long long _requestedStyle;
-    id <UIViewControllerTransitionCoordinator> __transitionCoordinator;
-    UIColor *_foregroundColor;
-    long long _legibilityStyle;
-    UIStatusBarStyleRequest *_styleRequest;
-    unsigned long long _activeStyleOverride;
-    long long _mode;
-    NSArray *_enabledPartIdentifiers;
-    NSArray *_disabledPartIdentifiers;
-    id <UIStatusBarManager> _manager;
-    struct CGRect _avoidanceFrame;
 }
 
 + (double);
@@ -51,55 +24,55 @@
 + (long long);
 + (long long);
 + (double);
+- (_Bool)_enableSMSRelayForDevice: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_deletePublicNicknameLocationAndKey;
+- (long long)umber:(long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)_deleteHandleIDFromPendingMap: /* Error: Ran out of types for this method. */;
+- (_Bool)_acceptMomentShareIfNecessaryForContext:isRetry: /* Error: Ran out of types for this method. */;
+- (void)NSNumber",&,N,V_cachedStewieSharingChat;
+- (void)chatRecordsFilteredByPredicate:(id)arg1;
+- (void)terationContext",&,N,V_heldDeletionContext;
+- (void)MDIDSService",W,N,V_mainService;
+- (void)IMDServiceReachabilityDelegatePrivate;
+- (void)IMDaemonListenerSetupProtocol;
+- (void);
+- (void);
+- (void);
+- (void)(K;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (unsigned long long);
-- (long long);
 - (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)onCore24ClientConnectionManagingP;
+- (void),;
+- (void)ϦH6yxq_G;
 - (void);
 - (void);
 - (_Bool);
 - (struct UIOffset);
-- (CDStruct_d8565a8c *);
+- (CDStruct_d8565a8c *);
+- (id)at with chatGUID:(struct CGRect)arg1 %s;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (void);
-- (id);
-- (id);
-- (struct CGRect);
-- (double);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (id)red, ensuring BGST tasks are submitted;
+- (_Bool)metadata dictionary %s;
+- (double)string %@;
+- (void)ng up tombstone table as CloudKit syncing is off;
+- (id)BC %@;
+- (id)with guid %@. Adding it now to domain %@;
+- (struct CGRect)%@;
+- (double)e nickname info or no contents in message dictionary %@ %@;
+- (unsigned long long)bilitiesOptions:%lu from deviceID:%@. Checking if we need to update filterCapabilities /* Error: Ran out of types for this method. */;
+- (void)Action through Blastdoor;
+- (_Bool)ers:we weren't able to get a CKRecordID from a transfer; transfer sync state %@, non-empty salt %@ /* Error: Ran out of types for this method. */;
+- (void)orFileTransfer(withGUIDs:(id)arg1 options:completion:) /* Error: Ran out of types for this method. */;
+- (void)ice:(long long)arg1 notify:] /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (struct CGAffineTransform);
@@ -108,7 +81,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -132,9 +105,9 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)entItem";
+- (_Bool)inTransition;
+- (void)__MPModelPropertyPodcastEpisodeArtwork__MAPPING_MISSING__;
 - (_Bool);
 - (void);
 - (void);
@@ -154,23 +127,23 @@
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)oLayerWithNewVideo:(const CDStruct_aa1ce654 *)arg1;
-- (void)ptingTraits:(CDUnknownBlockType)arg1 lightweight: /* Error: Ran out of types for this method. */;
-- (void)rchDisplayControllerWillEndSearch:(id)arg1;
-- (struct CGRect)wAppIconConfiguration;
-- (void)ons:(_Bool)arg1 executionContext: /* Error: Ran out of types for this method. */;
-- (void)ndTaskIdentifier;
-- (_Bool)ingView;
-- (void)l;
-- (long long)tate: /* Error: Ran out of types for this method. */;
-- (void)llapsingDetailSnapshotView;
-- (void)accessibility_shouldBeginHUDGestureAtPoint:(id)arg1;
+- (void)updateVideoLayerWithNewVideo:(const CDStruct_aa1ce654 *)arg1;
+- (void)traitsByAdoptingTraits:(CDUnknownBlockType)arg1 lightweight: /* Error: Ran out of types for this method. */;
+- (void)searchDisplayControllerWillEndSearch:(id)arg1;
+- (struct CGRect)newAppIconConfiguration;
+- (void)completeCommitTouchesPrecedingTouchDownWithKey:(_Bool)arg1 withActions:executionContext: /* Error: Ran out of types for this method. */;
+- (void)backgroundTaskIdentifier;
+- (_Bool)_unsafeUnretainedOwningView;
+- (void)_sourceViewIfPortal;
+- (long long)_resolvedImageForState: /* Error: Ran out of types for this method. */;
+- (void)_collapsingDetailSnapshotView;
+- (void)_accessibility_shouldBeginHUDGestureAtPoint:(id)arg1;
 - (void)q,N,V_currentMorphTarget;
 - (void)angentCbrtSpeed;
 - (_Bool)ajorDimensionThreshold;
 - (id)setImageHasEffects:(struct CGRect)arg1;
 - (void),S_setLegacyAppearance:(id)arg1;
-- (id)splayTypeHint;
+- (id)displayTypeHint;
 - (_Bool)2;
 - (void)T;
 - (void)Ø±0³	 ³
@@ -178,11 +151,11 @@ X´xµ4¶#º¼;
 - (void)ÈÃ<ÄÄhÆ?pÊ¸ÊË;
 - (long long)Ð*D+X-¼-;
 - (void)üºîÿ;
-- (void)e;
+- (void)useManualScrollEdgeAppearance;
 - (void)ansition out;
-- (double)ncy;
-- (void)eKeyboardBackground;
-- (void)mentAllowance;
+- (double)_UITraitNameVibrancy;
+- (void)UIKBLightCandidateBarCellHighlightedBackgroundUseKeyboardBackground;
+- (void)B519_RestingTouchMovementAllowance;
 - (void)d;
 - (void):(id)arg1 activityItemSources parameter cannot be nil.;
 - (void);
@@ -198,42 +171,7 @@ X´xµ4¶#º¼;
 - (long long)ÿÈZÒìúk;
 
 // Remaining properties
-@property(nonatomic) __weak id <UIViewControllerTransitionCoordinator> _transitionCoordinator; // @synthesize _transitionCoordinator=__transitionCoordinator;
-@property(nonatomic) unsigned long long activeStyleOverride; // @synthesize activeStyleOverride=_activeStyleOverride;
-@property(nonatomic) struct CGRect avoidanceFrame; // @synthesize avoidanceFrame=_avoidanceFrame;
-@property(readonly, nonatomic) UIFont *clockFont;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *disabledPartIdentifiers; // @synthesize disabledPartIdentifiers=_disabledPartIdentifiers;
-@property(nonatomic, setter=_setDisablesRasterization:) _Bool disablesRasterization; // @synthesize disablesRasterization=_disablesRasterization;
-@property(nonatomic) __weak id <UIStatusBarCarPlayDockDataProviding> dockDataProvider; // @synthesize dockDataProvider=_dockDataProvider;
-@property(copy, nonatomic) NSArray *enabledPartIdentifiers; // @synthesize enabledPartIdentifiers=_enabledPartIdentifiers;
-@property(nonatomic) _Bool foreground; // @synthesize foreground=_foreground;
-@property(retain, nonatomic) UIColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hidden; // @synthesize hidden=_hidden;
-@property(nonatomic) _Bool homeItemsDisabled; // @synthesize homeItemsDisabled=_homeItemsDisabled;
-@property(retain, nonatomic) id <UIStatusBarStateProvider> inProcessStateProvider; // @synthesize inProcessStateProvider=_inProcessStateProvider;
-@property(nonatomic) long long legibilityStyle; // @synthesize legibilityStyle=_legibilityStyle;
-@property(readonly, nonatomic) CDStruct_d8565a8c *localDataOverrides; // @synthesize localDataOverrides=_localDataOverrides;
-@property(nonatomic) __weak id <UIStatusBarManager> manager; // @synthesize manager=_manager;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) _Bool persistentAnimationsEnabled; // @synthesize persistentAnimationsEnabled=_persistentAnimationsEnabled;
-@property(nonatomic) _Bool registered; // @synthesize registered=_registered;
-@property(nonatomic, getter=_requestStyle, setter=_setRequestedStyle:) long long requestedStyle; // @synthesize requestedStyle=_requestedStyle;
-@property(nonatomic) __weak UIView *sensorActivityIndicator;
-@property(nonatomic) _Bool serverUpdatesDisabled; // @synthesize serverUpdatesDisabled=_serverUpdatesDisabled;
 @property(retain, nonatomic) UIStatusBarServer *statusBarServer; // @synthesize statusBarServer=_statusBarServer;
-@property(readonly, nonatomic) __weak UIStatusBarWindow *statusBarWindow; // @synthesize statusBarWindow=_statusBarWindow;
-@property(nonatomic) __weak id <UIStatusBarStyleDelegate> styleDelegate; // @synthesize styleDelegate=_styleDelegate;
-@property(readonly, nonatomic) unsigned long long styleOverrides; // @synthesize styleOverrides=_styleOverrides;
-@property(copy, nonatomic) UIStatusBarStyleRequest *styleRequest; // @synthesize styleRequest=_styleRequest;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressesHiddenSideEffects; // @synthesize suppressesHiddenSideEffects=_suppressesHiddenSideEffects;
 
 @end
 

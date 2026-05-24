@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol JetEngine.JSLocalizerExport__priv_00CA739BD089D2E5E3428E206B1638D9
+- (JSValue *)@?<v@?Q@"NSArray"@"NSError">;
+- (JSValue *);
 @end
 

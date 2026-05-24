@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCAudioRelayIOControllerSettings
 {
     struct tagVCAudioFrameFormat _audioFormat;
-    struct _VCRemoteCodecInfo _remoteCodecInfo;
 }
 
 - (id);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) const struct tagVCAudioFrameFormat *audioFormat;
-@property(readonly, nonatomic) const struct _VCRemoteCodecInfo *remoteCodecInfo;
 
 @end
 

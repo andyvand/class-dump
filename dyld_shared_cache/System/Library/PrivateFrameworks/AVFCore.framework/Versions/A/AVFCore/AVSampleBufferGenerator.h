@@ -13,11 +13,11 @@
 
 + (void);
 + (void)ionProperty_FieldMode_DeinterlaceFields;
+- (id)_contextualData;
 - (id);
-- (id);
 - (struct opaqueCMSampleBuffer *);
 - (struct opaqueCMSampleBuffer *);
-- (struct opaqueCMSampleBuffer *);
+- (struct opaqueCMSampleBuffer *);
 - (struct OpaqueFigSampleGenerator *);
 - (void);
 - (id);

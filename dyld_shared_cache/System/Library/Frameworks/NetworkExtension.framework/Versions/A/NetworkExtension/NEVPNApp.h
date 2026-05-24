@@ -11,18 +11,15 @@
 @interface NEVPNApp : NEVPN
 {
     _Bool _noRestriction;
-    _Bool _restrictDomains;
-    NSArray *_appRules;
-    NSArray *_excludedDomains;
 }
 
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)setTotalPacketsSentOnLink: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -30,24 +27,21 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)ms buffer ;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)ormation for %@.;
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)@;
 - (void);
 - (void)cyResult";
-- (_Bool)nt:(id)arg1;
+- (_Bool)setPacketProviderDesignatedRequirement:(id)arg1;
 - (id)ketDelegate:(int)arg1 listenerQueue:(unsigned long long)arg2 delegate:delegateQueue:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSArray *appRules; // @synthesize appRules=_appRules;
-@property(copy) NSArray *excludedDomains; // @synthesize excludedDomains=_excludedDomains;
-@property _Bool noRestriction; // @synthesize noRestriction=_noRestriction;
-@property _Bool restrictDomains; // @synthesize restrictDomains=_restrictDomains;
 
 @end
 

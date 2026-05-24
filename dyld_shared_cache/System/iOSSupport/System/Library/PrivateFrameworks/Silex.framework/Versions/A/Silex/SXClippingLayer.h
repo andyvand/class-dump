@@ -11,8 +11,6 @@
 @interface SXClippingLayer : SXLayer
 {
     CALayer *_contentLayer;
-    unsigned long long _clippingMode;
-    struct CGRect _contentFrame;
 }
 
 - (void);
@@ -22,13 +20,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)considerPublisherTopicAggregates;
 - (void)@"<SXComponent>"24@"SXDOM"32;
 - (struct CGRect)Resolver>"8;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clippingMode; // @synthesize clippingMode=_clippingMode;
-@property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
 @property(retain, nonatomic) CALayer *contentLayer; // @synthesize contentLayer=_contentLayer;
 
 @end

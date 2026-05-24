@@ -6,27 +6,22 @@
 
 #import <AppKit/NSTouchBarColorPickerSliders.h>
 
-@class NSTouchBarColorPickerSliderArtworkProvider, NSTouchBarColorPickerSliderGrayscaleArtworkProvider;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSlidersGrayscale : NSTouchBarColorPickerSliders
 {
 }
 
-+ (id);
-+ (id);
++ (id)_kCFNTimingDataConnectionPeerAddress;
++ (id)host LIKE ('%' || ?) OR partition LIKE ('%' || ?);
 + (id);
 + (id)ep size of:%0.1f. Layer-backed:%@ /* Error: Ran out of types for this method. */;
-- (id);
-- (double);
-- (double);
-- (id);
+- (id)rtion.;
+- (double)eive HTTP response;
+- (double)use credential %{public}@;
+- (id)header_out_write_value;
 
 // Remaining properties
-@property(readonly, copy) NSTouchBarColorPickerSliderArtworkProvider *_alphaArtworkProvider;
-@property(readonly) double _displayedAlphaComponent;
 @property(readonly) double _displayedGrayscaleComponent;
-@property(readonly, copy) NSTouchBarColorPickerSliderGrayscaleArtworkProvider *_grayscaleArtworkProvider;
 
 @end
 

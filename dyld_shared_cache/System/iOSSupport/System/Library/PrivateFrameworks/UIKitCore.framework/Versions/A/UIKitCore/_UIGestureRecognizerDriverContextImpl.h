@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIGestureRecognizer, UIWindow;
+@class UIGestureRecognizer, UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface _UIGestureRecognizerDriverContextImpl
@@ -12,23 +12,16 @@ __attribute__((visibility("hidden")))
     UIGestureRecognizer *_gestureRecognizer;
 }
 
-- (id);
-- (void);
-- (id);
-- (struct CGPoint);
-- (struct CGPoint);
-- (id);
-- (id);
+- (id)initWithDictionary:(id)arg1 uniqueID:serviceName: /* Error: Ran out of types for this method. */;
+- (void)fetchMessageRecordCountForChatRecordWithGUID:(id)arg1 filteredUsingPredicate:(id)arg2 limit:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)chatForItemWithGUID: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_isDownloadingPendingSatelliteMessages;
+- (struct CGPoint)_isDiskSpaceAvailableForSyncType:(struct CGPoint)arg1 currentBatchCount:(id)arg2;
+- (id)oneID;
+- (id)_markCurrentNicknameAsArchived:(id)arg1 incrementPendingNicknameVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) UIWindow *eventReceivingWindow;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

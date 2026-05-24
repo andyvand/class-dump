@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTPayloadExpression : SISchemaInstrumentationMessage
 {
@@ -29,11 +29,10 @@
 - (id);
 - (id);
 - (id)hemaUEILaunchEnded",&,N,V_ended;
-- (id)strumentationAdditions;
+- (id)InstrumentationAdditions;
 - (void)ãT#;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *statementIds; // @synthesize statementIds=_statementIds;
 
 @end

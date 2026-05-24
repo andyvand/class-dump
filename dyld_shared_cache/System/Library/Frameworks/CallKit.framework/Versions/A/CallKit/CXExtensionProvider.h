@@ -6,33 +6,26 @@
 
 #import <CallKit/CXProvider.h>
 
-@class CXProviderExtensionVendorContext, NSString;
+@class CXProviderExtensionVendorContext;
 
 @interface CXExtensionProvider : CXProvider
 {
     CXProviderExtensionVendorContext *_extensionContext;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)) ;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CXProviderExtensionVendorContext *extensionContext; // @synthesize extensionContext=_extensionContext;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

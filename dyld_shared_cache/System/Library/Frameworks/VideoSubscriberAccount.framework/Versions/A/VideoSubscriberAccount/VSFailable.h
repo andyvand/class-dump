@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface VSFailable
 {
     long long _kind;
-    id _object;
-    NSError *_error;
 }
 
 + (id);
@@ -22,21 +18,19 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)_notifyObserversContentBlockerListDidChange;
+- (void);
 - (id);
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
 @property(nonatomic) long long kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) id object; // @synthesize object=_object;
 
 @end
 

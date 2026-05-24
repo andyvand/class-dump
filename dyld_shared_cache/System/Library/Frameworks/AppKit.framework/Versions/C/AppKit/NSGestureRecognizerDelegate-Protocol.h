@@ -9,10 +9,11 @@
 @protocol NSGestureRecognizerDelegate
 
 @optional
-- (_Bool)rnFieldEditor:(NSGestureRecognizer *)arg1 toObject:(NSGestureRecognizer *)arg2;
+- (_Bool);
+- (_Bool)windowWillReturnFieldEditor:(NSGestureRecognizer *)arg1 toObject:(NSGestureRecognizer *)arg2;
 - (_Bool)setMarkers:(NSGestureRecognizer *)arg1;
 - (_Bool)ô
 ;
-- (_Bool)Date;
+- (_Bool)modificationDate;
 @end
 

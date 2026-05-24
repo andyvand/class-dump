@@ -10,15 +10,6 @@
 @interface MPAVRoutingDataSource
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_workerQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSString *_activeAudioCategory;
-    _Bool _hasActiveAudioCategory;
-    _Bool _devicePresenceDetected;
-    _Bool _didReceiveDiscoveryResults;
-    unsigned int _targetSessionID;
-    long long _discoveryMode;
-    long long _filterMode;
 }
 
 - (void);
@@ -39,32 +30,18 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)J;
 - (unsigned int);
 - (void);
 - (id);
 - (void);
 - (_Bool)qA°1Â0@ù
 × ;
-- (void)delPropertyMovieExplicitRating__MAPPING_MISSING__;
+- (void)__MPModelPropertyMovieExplicitRating__MAPPING_MISSING__;
 - (long long)1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *activeAudioCategory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool devicePresenceDetected; // @synthesize devicePresenceDetected=_devicePresenceDetected;
-@property(readonly, nonatomic) _Bool didReceiveDiscoveryResults; // @synthesize didReceiveDiscoveryResults=_didReceiveDiscoveryResults;
-@property(nonatomic) long long discoveryMode; // @synthesize discoveryMode=_discoveryMode;
-@property(nonatomic) long long filterMode; // @synthesize filterMode=_filterMode;
-@property(readonly, nonatomic) _Bool hasActiveAudioCategory;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsMultipleSelection;
-@property(nonatomic) unsigned int targetSessionID; // @synthesize targetSessionID=_targetSessionID;
 
 @end
 

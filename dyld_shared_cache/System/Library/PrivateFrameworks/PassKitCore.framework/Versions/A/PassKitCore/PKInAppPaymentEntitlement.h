@@ -9,18 +9,16 @@
 @interface PKInAppPaymentEntitlement
 {
     NSArray *_merchantIdentifiers;
-    _Bool _ignoreMerchantIdentifiers;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)9;
 - (id)reservation %s;
 - (void)ld'; ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMerchantIdentifiers;
 @property(readonly, nonatomic) _Bool ignoreMerchantIdentifiers; // @synthesize ignoreMerchantIdentifiers=_ignoreMerchantIdentifiers;
 
 @end

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ImagePlayground.ImagePlaygroundViewController, NSArray, NSURL;
+
 @protocol ImageGenerationViewControllerDelegate
+- (void)_webView:(ImagePlayground.ImagePlaygroundViewController *)arg1 includeSensitiveMediaDeviceDetails:(NSURL *)arg2;
+
+@optional
+- (void)_webView:(ImagePlayground.ImagePlaygroundViewController *)arg1 requestDisplayCapturePermissionForOrigin:initiatedByFrame:withSystemAudio:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(ImagePlayground.ImagePlaygroundViewController *)arg1 requestCookieConsentWithMoreInfoHandler:(NSArray *)arg2 decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)_webView:(ImagePlayground.ImagePlaygroundViewController *)arg1 handleAutoplayEvent:withFlags: /* Error: Ran out of types for this method. */;
 @end
 

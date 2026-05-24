@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDEventModel.h>
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicEventBaseModel : HMDEventModel
 {
@@ -22,16 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessory; // @dynamic accessory;
-@property(retain, nonatomic) NSNumber *characteristicID; // @dynamic characteristicID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *serviceID; // @dynamic serviceID;
-@property(readonly) Class superclass;
 
 @end
 

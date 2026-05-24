@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol ISScalableCompositorResource;
 
 @interface UnknownClass (ISStackedCompositorResource)
-- (id);
+- (id)^{__DDScanQuery}[7^{__DDLookupTable}]^{__CFString}d^{__CFData}^{DDSourceMatchCache}^{__CFArray}^{__CFArray}qqqq*@?db1b1CSC^{__CFLocale}iiC^{__CFArray}^{__CFArray}};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSArray<ISScalableCompositorResource> *resourceStack;
-@property(readonly) Class superclass;
 @end
 

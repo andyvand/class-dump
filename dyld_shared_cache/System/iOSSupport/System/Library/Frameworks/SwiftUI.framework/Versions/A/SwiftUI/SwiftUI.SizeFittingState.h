@@ -7,12 +7,6 @@
 @interface SwiftUI.SizeFittingState
 {
     id _root;
-    id _list;
-    id inputs;
-    id outputs;
-    id parentSubgraph;
-    id children;
-    id seed;
 }
 
 @end

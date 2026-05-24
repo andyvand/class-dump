@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)lidBaselineConstraints=%p;
 - (_Bool)transition before the split view controller's view has loaded. Split view controller:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long)gureLaunchOptions. This is unexpected.;
-- (double)dInsetBottom;
+- (double)textFieldInsetBottom;
 - (struct CGRect)Highlight;
 - (_Bool)d<UIFocusItem>  _Nullable __strong, NSArray<id<UIFocusItem>> *__strong _Nonnull, UIFocusHeading, BOOL);
 - (id)supported by UITabBar. Supported bar styles are UIBarStyleDefault and UIBarStyleBlack;
@@ -31,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void)Ð¿7_úÿ¾7RzlXX;
-- (id)xG;
+- (id)yxG;
 - (void)lDR0é13ð;
 - (_Bool)·13¼¦þ;
 - (_Bool);

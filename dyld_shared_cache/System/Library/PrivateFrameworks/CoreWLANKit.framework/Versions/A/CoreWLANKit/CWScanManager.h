@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface CWScanManager
 {
     _Bool _isActive;
-    long long _scanCounter;
-    NSObject<OS_dispatch_queue> *_scanQueue;
-    NSObject<OS_dispatch_source> *_scanTimer;
-    double _scanInterval;
-    NSArray *_ssidList;
-    unsigned long long _ssidListIndex;
-    id _delegate;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)d to fetch a packet. sent=%u stored=%u, dropping packets. packetsDropped=[S=%u, NR=%u, C=%u, F=%u];
+- (id)Receiver[%p] Found enableReceiverRtpPacketDumpAsCsv YES. Log incoming video rtp packets into AFRC folder;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

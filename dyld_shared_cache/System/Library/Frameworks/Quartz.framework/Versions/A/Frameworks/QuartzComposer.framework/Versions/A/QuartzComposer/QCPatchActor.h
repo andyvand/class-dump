@@ -6,25 +6,14 @@
 
 #import <QuartzComposer/GFNodeActor.h>
 
-@class NSTableColumn, NSView, QCInspector, QCPatch, QCTableView;
+@class NSView;
 
 @interface QCPatchActor : GFNodeActor
 {
     NSView *noSettingsView;
-    NSView *noPublishingView;
-    NSView *notApplicableView;
-    NSView *noParametersView;
-    NSView *publishingView;
-    QCTableView *inputsTableView;
-    QCTableView *outputsTableView;
-    NSTableColumn *_inputsKeyColumn;
-    NSTableColumn *_outputsKeyColumn;
-    QCPatch *_currentPatch;
-    QCInspector *_currentInspector;
-    void *_unused2[4];
 }
 
-+ (void)t;
++ (void)segmentCount;
 - (_Bool);
 - (id);
 - (id);
@@ -32,11 +21,11 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (struct CGPoint);
 - (id);
 - (id);
-- (CDStruct_bdcb2b0d *);
+- (CDStruct_60067b7e *);
 - (id);
 - (id);
 - (void);
@@ -49,8 +38,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)qa;
+- (id);
 - (void);
 - (struct CGColor *);
 - (void);
@@ -84,7 +73,7 @@
 - (_Bool);
 - (long long);
 - (void);
-- (id);
+- (id)d INTEGER PRIMARY KEY, item_pid INTEGER NOT NULL DEFAULT 0, seed_order INTEGER NOT NULL DEFAULT 0);
 
 @end
 

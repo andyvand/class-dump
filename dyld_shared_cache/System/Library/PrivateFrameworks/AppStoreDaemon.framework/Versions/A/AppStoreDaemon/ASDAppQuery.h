@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDAppQueryExecutor, ASDNotificationCenter, ASDServiceBroker, NSMutableDictionary, NSObject, NSPredicate, NSString, NSUUID;
-@protocol ASDAppQueryResultsObserver, OS_dispatch_queue;
+@class NSObject, NSPredicate;
+@protocol OS_dispatch_queue;
 
 @interface ASDAppQuery
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _hasRunOnce;
-    _Bool _isForUpdates;
-    ASDNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    id <ASDAppQueryResultsObserver> _observer;
-    ASDAppQueryExecutor *_queryExecutor;
-    NSMutableDictionary *_resultCache;
-    ASDServiceBroker *_serviceBroker;
-    NSString *_remoteDeviceID;
-    NSUUID *_pairingID;
-    long long _queryOptions;
-    NSPredicate *_predicate;
 }
 
 + (id);
 + (id);
++ (id)yh2;
 + (id);
 + (id);
++ (id)@;
 + (id);
 + (id);
++ (id)dgetDescriptorsBox at key:%@ was of unexpected type:%@, value:%@ /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)F&;
 + (id);
 + (void);
-+ (id);
++ (id)rations;
 + (id);
 - (void);
 - (void);
@@ -53,20 +41,11 @@
 - (void);
 - (long long);
 - (void);
-- (void)ithError:(id)arg1;
-- (id)ons;
+- (void)getStoreKitExternalNotificationServiceWithError:(id)arg1;
+- (id)ASDRestoreDemotedApplicationsRequestOptions;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id <ASDAppQueryResultsObserver> observer;
 @property(readonly) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(nonatomic) long long queryOptions; // @synthesize queryOptions=_queryOptions;
-@property(readonly) Class superclass;
 
 @end
 

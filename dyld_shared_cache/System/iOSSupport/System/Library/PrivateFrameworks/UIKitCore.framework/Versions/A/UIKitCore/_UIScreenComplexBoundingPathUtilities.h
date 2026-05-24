@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
     _UIBoundingPathBitmap *_bitmap;
 }
 
-+ (_Bool);
++ (_Bool)p;
 - (void);
 - (id);
-- (id):(id)arg1 forInteraction: /* Error: Ran out of types for this method. */;
+- (id)_beginTrackingWindowIfNeeded:(id)arg1 forInteraction: /* Error: Ran out of types for this method. */;
 - (void)IsAnyDescendantDragging;
 
 @end

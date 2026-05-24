@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface AUParameterValueTranslation
 {
     unsigned int _otherParamID;
-    float _otherValue;
-    float _auValue;
-    NSData *_otherDesc;
-    unsigned long long _auParamID;
 }
 
 + (_Bool);
+- (void)T;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (float);
 - (unsigned int);
@@ -33,11 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)/;
 
 // Remaining properties
-@property(nonatomic) unsigned long long auParamID; // @synthesize auParamID=_auParamID;
-@property(nonatomic) float auValue; // @synthesize auValue=_auValue;
 @property(retain, nonatomic) NSData *otherDesc; // @synthesize otherDesc=_otherDesc;
-@property(nonatomic) unsigned int otherParamID; // @synthesize otherParamID=_otherParamID;
-@property(nonatomic) float otherValue; // @synthesize otherValue=_otherValue;
 
 @end
 

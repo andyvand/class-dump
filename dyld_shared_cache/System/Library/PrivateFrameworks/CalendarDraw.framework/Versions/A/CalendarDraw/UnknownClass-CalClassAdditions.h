@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(readonly) _Bool cal_isDark;
-@property(readonly) long long cal_userInterfaceStyle;
 @end
 

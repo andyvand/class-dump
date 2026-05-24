@@ -6,23 +6,14 @@
 
 #import <AccessibilityVisuals/AXVVoiceOverStyleWindow.h>
 
-@class AXVTextField, AXVView, CAShapeLayer, NSBezierPath, NSString;
+@class AXVTextField;
 
 @interface AXVRotorWindow : AXVVoiceOverStyleWindow
 {
     double _baseFontSize;
-    AXVTextField *__rotorTitleTextField;
-    AXVView *__rotorRadialView;
-    long long __selectedRotorKnobIndex;
-    CAShapeLayer *__rotorKnobsLayer;
-    NSBezierPath *__rotorKnobsPath;
-    CAShapeLayer *__selectedRotorKnobLayer;
-    CAShapeLayer *__rotorPointerLayer;
-    NSString *__rotorTitle;
-    long long __rotorKnobCount;
 }
 
-- (void);
+- (void)?%@qa;
 - (void);
 - (struct CGSize);
 - (void);
@@ -31,21 +22,21 @@
 - (id);
 - (void);
 - (void);
+- (void)5 ;
 - (void);
 - (void);
 - (void);
+- (void)A;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)";
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
@@ -56,7 +47,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@y	?%@qa;
 - (void);
 - (id);
 - (long long);
@@ -65,20 +56,11 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setRotorKnobCount:) long long _rotorKnobCount; // @synthesize _rotorKnobCount=__rotorKnobCount;
-@property(retain, nonatomic, setter=_setRotorKnobsLayer:) CAShapeLayer *_rotorKnobsLayer; // @synthesize _rotorKnobsLayer=__rotorKnobsLayer;
-@property(retain, nonatomic, setter=_setRotorKnobsPath:) NSBezierPath *_rotorKnobsPath; // @synthesize _rotorKnobsPath=__rotorKnobsPath;
-@property(retain, nonatomic, setter=_setRotorPointerLayer:) CAShapeLayer *_rotorPointerLayer; // @synthesize _rotorPointerLayer=__rotorPointerLayer;
-@property(retain, nonatomic, setter=_setRotorRadialView:) AXVView *_rotorRadialView; // @synthesize _rotorRadialView=__rotorRadialView;
-@property(copy, nonatomic, setter=_setRotorTitle:) NSString *_rotorTitle; // @synthesize _rotorTitle=__rotorTitle;
 @property(retain, nonatomic, setter=_setRotorTitleTextField:) AXVTextField *_rotorTitleTextField; // @synthesize _rotorTitleTextField=__rotorTitleTextField;
-@property(nonatomic, setter=_setSelectedRotorKnobIndex:) long long _selectedRotorKnobIndex; // @synthesize _selectedRotorKnobIndex=__selectedRotorKnobIndex;
-@property(retain, nonatomic, setter=_setSelectedRotorKnobLayer:) CAShapeLayer *_selectedRotorKnobLayer; // @synthesize _selectedRotorKnobLayer=__selectedRotorKnobLayer;
-@property(nonatomic) double baseFontSize; // @synthesize baseFontSize=_baseFontSize;
 
 @end
 

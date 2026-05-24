@@ -11,7 +11,6 @@
 @interface IMAPAuthenticateCommand : IMAPSingleCommand
 {
     _Bool _includeInitialResponse;
-    ECSASLClient *_saslClient;
 }
 
 - (void);
@@ -26,11 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)te database at path:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property _Bool includeInitialResponse; // @synthesize includeInitialResponse=_includeInitialResponse;
 @property(readonly, nonatomic) ECSASLClient *saslClient; // @synthesize saslClient=_saslClient;
 
 @end

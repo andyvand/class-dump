@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NUStoragePoolStats;
-@protocol OS_dispatch_queue;
+@class NUStoragePoolStats;
 
 @interface NUPurgeableStoragePool
 {
     NUStoragePoolStats *_stats;
-    unsigned long long _nonPurgeableActivityCounter;
-    _Bool _migrationTimerScheduled;
-    NSMutableArray *_sharedStoragesToBeReclaimedList;
-    long long _nonPurgeableLimit;
-    long long _purgeableLimit;
-    double _migrationDelay;
-    NSMutableArray *_volatileList;
-    NSMutableArray *_nonPurgeableList;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_migrationQueue;
-    Class _storageClass;
 }
 
 + (void);
 + (void);
-+ (void);
++ (void)˿;
 + (void)-[NUImageTransform3D initWithTransform3D:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)__TEXT;
+- (void);
+- (void)profileUpdateImplicitUttScore;
 - (void);
 - (void);
 - (void);
@@ -38,46 +26,38 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)2;
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)SFLocalSpeechRecognitionDelegate;
 - (id);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)s;
 - (Class);
+- (id)updatePeripheralIdentifier:forAccessoryIdentifier:protocolVersion:previousVersion:resumeSessionID:error: /* Error: Ran out of types for this method. */;
+- (void)xh;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_TtC9ChronoKit18FileAttributeNames;
 - (void);
 - (id);
 - (void);
 - (void)1Â0@ù
 × ;
-- (long long)romVideo:keyTime:error: /* Error: Ran out of types for this method. */;
+- (long long)legacySemanticStylePropertiesFromData:fromVideo:keyTime:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double migrationDelay; // @synthesize migrationDelay=_migrationDelay;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *migrationQueue; // @synthesize migrationQueue=_migrationQueue;
 @property(readonly, nonatomic) long long nonPurgeableLimit; // @synthesize nonPurgeableLimit=_nonPurgeableLimit;
-@property(readonly, nonatomic) NSMutableArray *nonPurgeableList; // @synthesize nonPurgeableList=_nonPurgeableList;
-@property(readonly, nonatomic) long long purgeableLimit; // @synthesize purgeableLimit=_purgeableLimit;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
-@property(readonly, copy, nonatomic) NUStoragePoolStats *stats;
-@property(readonly, nonatomic) Class storageClass; // @synthesize storageClass=_storageClass;
-@property(readonly, nonatomic) NSMutableArray *volatileList; // @synthesize volatileList=_volatileList;
 
 @end
 

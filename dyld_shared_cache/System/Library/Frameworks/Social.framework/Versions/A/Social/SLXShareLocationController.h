@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSPopUpButton, NSTrackingArea;
-@protocol SLXShareLocationControllerDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SLXShareLocationController
 {
     NSArray *_locations;
-    long long _status;
-    long long _currentLocationIndex;
-    CDUnknownBlockType _updateLocationsBlock;
-    id <SLXShareLocationControllerDelegate> _delegate;
-    NSTrackingArea *_buttonTrackingArea;
-    NSButton *locationButton;
-    NSPopUpButton *locationsPopupButton;
 }
 
 + (id);
@@ -26,41 +18,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (_Bool);
 - (id);
 - (long long);
+- (id)%;
+- (void);
+- (void);
+- (id)D;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)S;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id)}}}}}}}}}}}}|||||~||||||||r;
 - (void);
 
 // Remaining properties
-@property(readonly) id currentLocation;
-@property long long currentLocationIndex; // @synthesize currentLocationIndex=_currentLocationIndex;
-@property(retain) id <SLXShareLocationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool enabled;
-@property(copy) NSArray *locations;
 @property long long status; // @synthesize status=_status;
-@property(copy) CDUnknownBlockType updateLocationsBlock; // @synthesize updateLocationsBlock=_updateLocationsBlock;
 
 @end
 

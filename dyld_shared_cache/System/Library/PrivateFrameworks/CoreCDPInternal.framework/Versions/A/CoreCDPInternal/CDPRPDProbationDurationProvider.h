@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (unsigned long long);
-+ (id);
-+ (double);
++ (void)RemoteNotificationPackageUtilities;
++ (unsigned long long)AnnotatedBookmarksSidebarViewControllerDelegate;
++ (id)FunctionBarFavoritesVending;
++ (double)NSCollectionViewDataSource;
 
 @end
 

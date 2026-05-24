@@ -11,23 +11,21 @@
 @interface PHMediaFormatLivePhotoConversionRequest : PHMediaFormatConversionCompositeRequest
 {
     PHMediaFormatConversionRequest *_imageConversionRequest;
-    PHMediaFormatConversionRequest *_videoConversionRequest;
 }
 
 + (id);
-+ (id);
-- (id);
++ (id)one ID %@;
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)@9(;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)commute20MinWarningEntityRelevanceCoarseTimeOfDayFeatures;
 
 // Remaining properties
 @property(retain) PHMediaFormatConversionRequest *imageConversionRequest; // @synthesize imageConversionRequest=_imageConversionRequest;
-@property(retain) PHMediaFormatConversionRequest *videoConversionRequest; // @synthesize videoConversionRequest=_videoConversionRequest;
 
 @end
 

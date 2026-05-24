@@ -4,44 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface INIntentResponseDescription
 {
     _Bool _isPrivate;
-    NSString *_name;
-    Class _facadeClass;
-    Class _dataClass;
-    NSString *_type;
-    NSDictionary *_slotsByName;
 }
 
 - (id);
+- (Class)_doublePressGesture;
 - (Class);
-- (Class);
-- (id);
+- (id)am_close, not a GOOD easy on stream;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)_thisDeviceMACAddress;
 - (id);
 - (id);
-- (void)ovideEntityNameOptionsCollectionForOpenFile:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEntityNameOptionsCollectionForOpenFile:withCompletion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) Class dataClass; // @synthesize dataClass=_dataClass;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) Class facadeClass; // @synthesize facadeClass=_facadeClass;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSDictionary *slotsByName; // @synthesize slotsByName=_slotsByName;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

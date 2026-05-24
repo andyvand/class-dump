@@ -7,11 +7,6 @@
 @interface SPShared.Sequencer
 {
     id serialQueue;
-    id name;
-    id softTimeout;
-    id hardTimeout;
-    id testResponder;
-    id workQueue;
 }
 
 @end

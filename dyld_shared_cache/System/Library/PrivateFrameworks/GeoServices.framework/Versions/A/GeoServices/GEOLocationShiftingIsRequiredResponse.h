@@ -6,8 +6,6 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOLocationShiftingIsRequiredResponse : GEOXPCReply
 {
     _Bool _required;
@@ -17,17 +15,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)pterNotifyToken;
+- (void)_powerAdapterNotifyToken;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool required; // @synthesize required=_required;
-@property(readonly) Class superclass;
 
 @end
 

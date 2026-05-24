@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSessionPortDescription, NSArray, NSString;
+@class NSArray;
 
 @interface AVAudioSessionReflectorPortDescription
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)ay",C,V_excludedRoutes;
+- (id)tegrityProtocols;
+- (id)NEExtensionAppPushProviderContext;
+- (id)NEAppPushCallKitXPCClient;
+- (id)CXNetworkExtensionVoIPXPCClient;
+- (unsigned long long)NEFilterPacketExtensionProviderContext;
+- (id)NEIKEv2RekeyChildContext;
+- (id)NEIKEv2ChildSAPayload;
 - (id);
 
 // Remaining properties
 @property(readonly) NSArray *audioStreamTags;
-@property(readonly) NSString *audioStreamTagsPolicyType;
-@property(readonly) NSString *behavior;
-@property(readonly) unsigned long long dspLocation;
-@property(readonly) __weak AVAudioSessionPortDescription *referencePortDescription;
-@property(readonly) NSArray *sessionTokens;
 
 @end
 

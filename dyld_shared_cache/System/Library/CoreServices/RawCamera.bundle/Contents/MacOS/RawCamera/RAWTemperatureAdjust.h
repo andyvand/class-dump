@@ -6,15 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 @interface RAWTemperatureAdjust : RAWFilter
 {
     CIImage *inputImage;
-    CIVector *inputWhitePoint;
-    NSNumber *inputExposure;
-    NSNumber *inputVersion;
-    CIVector *defaultWhitePoint;
 }
 
 + (id);
@@ -24,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)t;
 
 @end
 

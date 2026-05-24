@@ -4,10 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, NSString, UICollectionReusableView, UICollectionView, UICollectionViewTransitionLayout, UIWindowSceneActivationConfiguration;
+
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)tionTrial;
+- (void)C;
+- (void)|;
+- (UICollectionViewTransitionLayout *);
+- (void)numberFormatWithValueType:(UICollectionView *)arg1 formatString:(UICollectionReusableView *)arg2 decimalPlaces:(NSString *)arg3 currencyCode:(NSIndexPath *)arg4 useAccountingStyle:negativeStyle:showThousandsSeparator:fractionAccuracy:scaleFactor:isCustom:formatName: /* Error: Ran out of types for this method. */;
+- (UIWindowSceneActivationConfiguration *);
+- (NSIndexPath *);
+- (void);
+- (_Bool)_heightValue;
+- (_Bool)d;
+- (_Bool)descriptionTrial;
 - (_Bool)¨;
 @end
 

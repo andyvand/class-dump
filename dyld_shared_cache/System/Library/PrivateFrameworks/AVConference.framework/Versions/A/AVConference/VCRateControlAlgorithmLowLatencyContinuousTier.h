@@ -10,18 +10,9 @@ __attribute__((visibility("hidden")))
 @interface VCRateControlAlgorithmLowLatencyContinuousTier : VCRateControlAlgorithmLowLatencyNOWRD
 {
     unsigned int _previousTimestamp;
-    double _previousRateControlTime;
-    double _bandwidthWall;
-    int _bandwidthWallConfidence;
-    double _speedFactor;
-    unsigned int _receiveBitrate;
-    unsigned int _timestampWrapAroundCounter;
-    double _minDelayDiff;
-    _Bool _isSteadyStateReached;
-    double _steadyStateCheckTime;
 }
 
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (id);
 

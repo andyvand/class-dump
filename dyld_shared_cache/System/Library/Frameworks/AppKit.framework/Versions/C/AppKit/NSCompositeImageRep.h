@@ -12,32 +12,26 @@ __attribute__((visibility("hidden")))
 @interface NSCompositeImageRep : NSImageRep
 {
     NSImage *_baseImage;
-    NSImage *_overlayImage;
-    struct CGPoint _translation;
-    struct CGRect _overlayFrame;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
+- (id)32;
+- (struct CGRect)adTask"24@"AVMetricEvent"32;
+- (id)URLSession:(id)arg1 dataTask:(id)arg2 didBecomeDownloadTask:(struct CGRect)arg3;
+- (id)download.;
 - (void);
 - (struct CGPoint);
+- (id)ft.princeofpersia.thelostcrown.action.adventure.platform;
 - (id);
 - (id);
-- (id);
-- (id):(struct _NSZone *)arg1 bundle:stringsTable:optionalFooter:module:nextItem: /* Error: Ran out of types for this method. */;
+- (id)_insertRadioGroupForItem:(struct _NSZone *)arg1 label:intoGrid:bundle:stringsTable:optionalFooter:module:nextItem: /* Error: Ran out of types for this method. */;
 - (_Bool)ì;;
 - (void)hìeB;
 
 // Remaining properties
 @property(retain) NSImage *baseImage; // @synthesize baseImage=_baseImage;
-@property struct CGRect overlayFrame; // @synthesize overlayFrame=_overlayFrame;
-@property(retain) NSImage *overlayImage; // @synthesize overlayImage=_overlayImage;
-@property struct CGPoint translation; // @synthesize translation=_translation;
 
 @end
 

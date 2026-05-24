@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface PLKQueue
 {
     _Bool _enabled;
-    int _kQueue;
-    int _fileDescriptor;
-    struct __CFRunLoopSource *_kqueueDescriptorSource;
-    struct __CFFileDescriptor *_kqueueDescriptorRef;
-    NSString *_path;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _kQueueBlock;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)AKGAKGtGG;
 - (void);
 - (struct __CFFileDescriptor *);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (id);
+- (void)7J1J
+;
+- (id)n;
 - (struct __CFRunLoopSource *);
 - (_Bool);
 - (int);
-- (id);
+- (id)d with error:(id)arg1 %@;
 - (void);
 - (int)or:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property int fileDescriptor; // @synthesize fileDescriptor=_fileDescriptor;
 @property int kQueue; // @synthesize kQueue=_kQueue;
-@property(copy, nonatomic) CDUnknownBlockType kQueueBlock; // @synthesize kQueueBlock=_kQueueBlock;
-@property struct __CFFileDescriptor *kqueueDescriptorRef; // @synthesize kqueueDescriptorRef=_kqueueDescriptorRef;
-@property struct __CFRunLoopSource *kqueueDescriptorSource; // @synthesize kqueueDescriptorSource=_kqueueDescriptorSource;
-@property(copy) NSString *path; // @synthesize path=_path;
 
 @end
 

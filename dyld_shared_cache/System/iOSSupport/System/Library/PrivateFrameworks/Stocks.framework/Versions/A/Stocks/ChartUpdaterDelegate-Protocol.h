@@ -5,5 +5,7 @@
 //
 
 @protocol ChartUpdaterDelegate
+- (void);
+- (void)#z;
 @end
 

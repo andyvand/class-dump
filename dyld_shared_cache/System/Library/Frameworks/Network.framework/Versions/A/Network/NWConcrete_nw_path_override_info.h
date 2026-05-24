@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_nw_array;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_path_override_info
 {
     unsigned long long override_flags;
-    NSObject<OS_nw_array> *resolver_configs;
 }
 
-- (void);
+- (void)structuredimage;
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

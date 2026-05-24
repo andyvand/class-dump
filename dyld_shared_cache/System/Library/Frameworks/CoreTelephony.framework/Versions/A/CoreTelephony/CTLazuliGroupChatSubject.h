@@ -11,13 +11,13 @@
     NSString *_displayString;
 }
 
-+ (_Bool);
++ (_Bool)teEvent:%p %@ didSeekInBuffer:%d> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_optionRedactErrors;
 - (id);
 - (void);
 - (void)!¤Gùª)Ð1Â0@ù

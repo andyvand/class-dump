@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTimezone, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDStopInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _muid;
-    GEOTimezone *_timezone;
-    unsigned int _walkingTime;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_walkingTime:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)_validatedValue:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)nectionProperties";
-- (id)L;
+- (id)_reverseGeocoderVersionsURL;
 - (id)CÌE
 <F
 ¬FG

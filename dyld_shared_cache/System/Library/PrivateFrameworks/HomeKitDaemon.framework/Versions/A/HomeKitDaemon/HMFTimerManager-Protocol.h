@@ -5,14 +5,16 @@
 //
 
 @class OS_dispatch_queue;
-@protocol HMFTimerManagerDelegate;
+@protocol HMFTimerManagerDelegate, HMFTimerManagerTimerContext;
 
 @protocol HMFTimerManager
+- (id <HMFTimerManagerTimerContext>)`;
+- (void)__unwind_info;
+- (OS_dispatch_queue *);
 - (void)ñÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property __weak id <HMFTimerManagerDelegate> delegate;
-@property(retain) OS_dispatch_queue *delegateQueue;
 @end
 

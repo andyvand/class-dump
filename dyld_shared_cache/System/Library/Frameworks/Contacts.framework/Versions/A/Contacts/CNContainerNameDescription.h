@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)dateWithTimeIntervalSinceNow: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)XPC, %@, %@;
 
 @end
 

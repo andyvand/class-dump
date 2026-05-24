@@ -11,9 +11,9 @@
     id emojiImageMetadata;
 }
 
-- (long long);
-- (id);
-- (id);
+- (long long)=dd}{CGSize=dd}}16{UIEdgeInsets=dddd}48B80;
+- (id)essageEditingBalloonView"16{_NSRange=QQ}24;
+- (id)4@0:8@"CKRemoteItemForSending"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -21,12 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *contentIdentifier;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *digitalSourceType;
-@property(nonatomic, readonly) NSString *imageCredit;
-@property(nonatomic, readonly) long long imageStrikeCount;
-@property(nonatomic, readonly) NSString *shortDescription;
 
 @end
 

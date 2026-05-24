@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, SFSiriWordTimingInfo;
+@class NSObject;
 @protocol OS_dispatch_queue, OS_dispatch_source;
 
 @interface SFSiriWordTimingPlayer
 {
     NSObject<OS_dispatch_source> *_timer;
-    unsigned long long _wordIndex;
-    SFSiriWordTimingInfo *_wordInfo;
-    unsigned int _flags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    double _startTime;
-    NSString *_text;
-    CDUnknownBlockType _wordHandler;
-    NSArray *_wordTimings;
 }
 
 - (id);
@@ -33,19 +25,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void));
 - (unsigned int);
 - (void);
-- (void);
+- (void)FailOnDroppedKeys;
 - (void)Þþÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(copy, nonatomic) CDUnknownBlockType wordHandler; // @synthesize wordHandler=_wordHandler;
-@property(copy, nonatomic) NSArray *wordTimings; // @synthesize wordTimings=_wordTimings;
 
 @end
 

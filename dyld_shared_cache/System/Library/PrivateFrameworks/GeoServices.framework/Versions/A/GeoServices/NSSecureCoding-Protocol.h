@@ -5,6 +5,6 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)vedState: /* Error: Ran out of types for this method. */;
++ (_Bool)_updateSavedState: /* Error: Ran out of types for this method. */;
 @end
 

@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)DED_MESSAGE_KEY;
+- (void)PROVISIONING_COUNT_EXCEEDED_MESSAGE_KEY;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *balances; // @synthesize balances=_balances;

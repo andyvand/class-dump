@@ -7,7 +7,6 @@
 @interface SXQuickLookLayoutAttributes
 {
     struct CGRect _thumbnailFrame;
-    struct CGRect _errorLabelFrame;
 }
 
 - (struct CGRect);
@@ -15,7 +14,6 @@
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect errorLabelFrame; // @synthesize errorLabelFrame=_errorLabelFrame;
 @property(readonly, nonatomic) struct CGRect thumbnailFrame; // @synthesize thumbnailFrame=_thumbnailFrame;
 
 @end

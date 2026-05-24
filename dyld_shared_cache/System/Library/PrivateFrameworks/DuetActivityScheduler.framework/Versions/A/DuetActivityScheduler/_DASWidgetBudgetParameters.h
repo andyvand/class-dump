@@ -7,21 +7,17 @@
 @interface _DASWidgetBudgetParameters
 {
     unsigned long long _dailyMaxBudget;
-    unsigned long long _widgetMaxBudget;
-    unsigned long long _systemAddedWidgetMaxBudget;
 }
 
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)9(;
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long dailyMaxBudget; // @synthesize dailyMaxBudget=_dailyMaxBudget;
-@property(nonatomic) unsigned long long systemAddedWidgetMaxBudget; // @synthesize systemAddedWidgetMaxBudget=_systemAddedWidgetMaxBudget;
-@property(nonatomic) unsigned long long widgetMaxBudget; // @synthesize widgetMaxBudget=_widgetMaxBudget;
 
 @end
 

@@ -7,20 +7,13 @@
 @interface IDSRegistrationEventTracing
 {
     id debugLogger;
-    id coreAnalyticsPublisher;
-    id logPublisher;
-    id filePublishersByService;
-    id reduceMemoryFootprintEnabled;
-    id registrationOperations;
-    id pnrOperations;
-    id ktDataFetchOperations;
 }
 
 + (id)state:%s /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)e;

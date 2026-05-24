@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFVoiceInfo, NSButton, NSString, NSTextField, SiriUIVoicePickerTableView, SiriUIVoicePreviewManager;
+@class SiriUIVoicePickerTableView;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIVoiceSelectionAlert
 {
     _Bool _allowRandomSelection;
-    AFVoiceInfo *_selectedVoice;
-    SiriUIVoicePickerTableView *_voicePicker;
-    NSTextField *_alertTitle;
-    NSButton *_doneButton;
-    NSButton *_cancelButton;
-    NSButton *_chooseForMeButton;
-    NSString *_languageCode;
-    SiriUIVoicePreviewManager *_previewManager;
 }
 
 + (void);
@@ -34,13 +26,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)switchToSenderIdentity:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -52,21 +44,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property __weak NSTextField *alertTitle; // @synthesize alertTitle=_alertTitle;
-@property _Bool allowRandomSelection; // @synthesize allowRandomSelection=_allowRandomSelection;
-@property __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property __weak NSButton *chooseForMeButton; // @synthesize chooseForMeButton=_chooseForMeButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property __weak NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(retain) SiriUIVoicePreviewManager *previewManager; // @synthesize previewManager=_previewManager;
-@property(readonly, nonatomic) AFVoiceInfo *selectedVoice; // @synthesize selectedVoice=_selectedVoice;
-@property(readonly) Class superclass;
 @property __weak SiriUIVoicePickerTableView *voicePicker; // @synthesize voicePicker=_voicePicker;
 
 @end

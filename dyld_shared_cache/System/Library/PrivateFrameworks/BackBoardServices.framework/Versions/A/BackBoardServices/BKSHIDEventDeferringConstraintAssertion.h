@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringChangeBasis, BKSHIDEventDeferringConstraint, BKSHIDEventDeferringSelectionTarget, NSString;
 @protocol BKSHIDEventDeferringSelectionPathSymbol;
 
 @interface BKSHIDEventDeferringConstraintAssertion
 {
     id <BKSHIDEventDeferringSelectionPathSymbol> _pathIdentifier;
-    BKSHIDEventDeferringSelectionTarget *_selectionTarget;
-    BKSHIDEventDeferringConstraint *_constraint;
-    BKSHIDEventDeferringChangeBasis *_basis;
-    double _timestamp;
 }
 
 + (id);
-+ (id);
++ (id)FOLLOWUP_VERIFY_TERMS_NOTIFICATION_BUTTON_PRIMARY;
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)respondsToSelector:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)Evaluate;
 - (unsigned long long);
 - (double);
 - (id);
@@ -36,18 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BKSHIDEventDeferringChangeBasis *basis;
-@property(readonly, nonatomic) BKSHIDEventDeferringConstraint *constraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <BKSHIDEventDeferringSelectionPathSymbol> pathIdentifier;
-@property(readonly, nonatomic) BKSHIDEventDeferringSelectionTarget *selectionTarget;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timestamp;
 
 @end
 

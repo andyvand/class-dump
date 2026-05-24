@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INTaskList, NSString;
-
 @interface INCreateTaskListIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_finishBecauseGenerationFailedWithUnderlyingError:(long long)arg1;
 + (int);
 + (long long);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -24,24 +22,16 @@
 - (id);
 - (long long);
 - (id);
+- (id);
+- (id)CoalescingDelegate>",W,N;
+- (id);
+- (void)11eb-aff9-f45c89abb0d9;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)ultExport;
+- (long long)INBooleanResolutionResultExport;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INTaskList *createdTaskList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,7 +13,7 @@
 - (id);
 - (_Bool)!ØAù±f1Â0@ù
 × ;
-- (id)ew;
+- (id)UIDatePickerWeekMonthDayView;
 
 @end
 

@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFVersion, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleAccessoryIdentifier
 {
     NSString *_productGroup;
-    NSString *_productNumber;
-    HMFVersion *_firmwareVersion;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)nts %@;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id)nt;
+- (id)lastSignedOutAccount;
 - (id);
 - (id)%@;
 - (void).HomeKit.daemon.camera-load-balancing;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cloudKitRecordName;
 @property(readonly, nonatomic) NSString *cloudKitZoneName;
-@property(readonly, nonatomic) HMFVersion *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(readonly, nonatomic) NSString *productGroup; // @synthesize productGroup=_productGroup;
-@property(readonly, nonatomic) NSString *productNumber; // @synthesize productNumber=_productNumber;
 
 @end
 

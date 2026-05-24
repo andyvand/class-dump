@@ -7,26 +7,6 @@
 @interface NewsFeed.FeedItemRenderer
 {
     id presentingViewController;
-    id disableFormatLayoutViewCellDequeueing;
-    id colorPaletteProvider;
-    id cellSelectionRenderer;
-    id imageHeadlineViewRenderer;
-    id gapViewRenderer;
-    id gapOfflineViewRenderer;
-    id bannerAdViewRenderer;
-    id coverIssueViewRenderer;
-    id coverChannelViewRenderer;
-    id formatLayoutViewRenderer;
-    id bannerAdViewManager;
-    id hiddenContentEffectRenderer;
-    id categoryViewRenderer;
-    id engagementBannerViewRenderer;
-    id engagementInlineViewManager;
-    id feedItemDimmingEvaluator;
-    id invalidator;
-    id formatRegistrationIdentifiers;
-    id debugEnabled;
-    id transition;
 }
 
 @end

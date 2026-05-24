@@ -5,5 +5,6 @@
 //
 
 @protocol PAImageTile
+- (struct CGRect)0;
 @end
 

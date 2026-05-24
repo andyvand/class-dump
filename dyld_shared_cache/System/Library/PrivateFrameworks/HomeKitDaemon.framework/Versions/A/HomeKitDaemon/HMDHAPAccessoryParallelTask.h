@@ -6,29 +6,23 @@
 
 #import <HomeKitDaemon/HMDHAPAccessoryParallelTaskBase.h>
 
-@class NSDictionary, NSMapTable, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryParallelTask : HMDHAPAccessoryParallelTaskBase
 {
     _Bool _calledFinalCompletion;
-    NSMutableSet *_requestsSentInMultipart;
-    NSDictionary *_logEvents;
-    NSMapTable *_localResponses;
-    NSMapTable *_remoteResponses;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)removeParticipant:(id)arg1 forServiceName:reason: /* Error: Ran out of types for this method. */;
+- (void)relay:(id)arg1 receiveData:info:fromID: /* Error: Ran out of types for this method. */;
+- (void)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
+- (void)destinationDidUpdateForSharedTrip:(id)arg1;
+- (void),S_setSimulatesClearingDiscardableDataAfterOperations:(_Bool)arg1 ,V_simulatesClearingDiscardableDataAfterOperations;
+- (void)LineItem>",R,N;
+- (id)t did update, scheduling coalescing check in %#.1lfs;
+- (id)@ݪ;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)!;
+- (void)ܒ;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -36,16 +30,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType)c:conditions: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)createAndAddLocalConditionsToRegistration:moc:conditions: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)AddRequestValue"16@?0@"<HMAccessCodeModificationRequestValue>"8;
 
 // Remaining properties
 @property(nonatomic) _Bool calledFinalCompletion; // @synthesize calledFinalCompletion=_calledFinalCompletion;
-@property(retain, nonatomic) NSMapTable *localResponses; // @synthesize localResponses=_localResponses;
-@property(retain) NSDictionary *logEvents; // @synthesize logEvents=_logEvents;
-@property(retain, nonatomic) NSMapTable *remoteResponses; // @synthesize remoteResponses=_remoteResponses;
-@property(retain, nonatomic) NSMutableSet *requestsSentInMultipart; // @synthesize requestsSentInMultipart=_requestsSentInMultipart;
 
 @end
 

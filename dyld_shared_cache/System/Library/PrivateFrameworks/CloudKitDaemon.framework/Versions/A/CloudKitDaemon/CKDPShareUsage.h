@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPIdentifier, CKDPShareIdentifier, NSString;
+@class CKDPIdentifier;
 
 @interface CKDPShareUsage
 {
     CKDPIdentifier *_deviceIdentifier;
-    NSString *_participantHandle;
-    CKDPShareIdentifier *_shareIdentifier;
-    CKDPDate *_time;
-    CKDPIdentifier *_userIdentifier;
-    int _version;
-    CDStruct_f20694ce _has;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)25ExpressibleByArrayLiteralP;
 - (id);
 - (void);
 - (id);
@@ -31,35 +25,24 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long));
 - (void);
 - (_Bool);
-- (void);
+- (void)TTL initWithDirectoryPath:(id)arg1 dirPath:fileNamePrefix:runLoopRef:runLoopMode:dateFormatter:maxFileSizeInMB:ttlInHours:rotationIntervalInHours:dispatchQueue:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
+- (void)EDPersistence",&,N,V_persistence;
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void)ceContext:(id)arg1;
+- (void)cacheWithDeviceContext:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPIdentifier *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, nonatomic) _Bool hasDeviceIdentifier;
-@property(readonly, nonatomic) _Bool hasParticipantHandle;
-@property(readonly, nonatomic) _Bool hasShareIdentifier;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly, nonatomic) _Bool hasUserIdentifier;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *participantHandle; // @synthesize participantHandle=_participantHandle;
-@property(retain, nonatomic) CKDPShareIdentifier *shareIdentifier; // @synthesize shareIdentifier=_shareIdentifier;
-@property(retain, nonatomic) CKDPDate *time; // @synthesize time=_time;
-@property(retain, nonatomic) CKDPIdentifier *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

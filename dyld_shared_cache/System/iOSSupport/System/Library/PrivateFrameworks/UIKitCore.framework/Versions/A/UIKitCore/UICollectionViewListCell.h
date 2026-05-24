@@ -6,8 +6,7 @@
 
 #import <UIKitCore/UICollectionViewCell.h>
 
-@class NSArray, NSDictionary, NSLayoutConstraint, NSString, UICellAccessoryManager, UILayoutGuide, UIView, _UICollectionViewListCellVisualProvider;
-@protocol UIFocusItem, UITableConstants;
+@class NSArray;
 
 @interface UICollectionViewListCell : UICollectionViewCell
 {
@@ -28,45 +27,21 @@
         unsigned int separatorLayoutGuideLeadingReferencesPrimaryText:1;
         unsigned int subclassOverridesSeparatorInsetsSPI:1;
     } _listCellFlags;
-    _UICollectionViewListCellVisualProvider *_visualProvider;
-    NSDictionary *_accessoriesByIdentifier;
-    double _extraLeadingLayoutMarginForIndentation;
-    NSArray *_contentViewConstraints;
-    NSLayoutConstraint *_separatorLayoutGuideHeightConstraint;
-    NSLayoutConstraint *_separatorLayoutGuideLeadingConstraint;
-    NSLayoutConstraint *_separatorLayoutGuideTrailingConstraint;
-    UILayoutGuide *_separatorLayoutGuide;
-    struct NSDirectionalEdgeInsets _sectionSeparatorInsets;
-    double _lastPreferredLeadingSeparatorInsetFromContentView;
-    double _lastPreferredTrailingSeparatorInsetFromContentView;
-    NSArray *_accessories;
-    NSArray *_leadingAccessoryConfigurations;
-    NSArray *_trailingAccessoryConfigurations;
-    NSArray *_leadingEditingAccessoryConfigurations;
-    NSArray *_trailingEditingAccessoryConfigurations;
-    long long _indentationLevel;
-    double _indentationWidth;
-    id <UITableConstants> _constants;
-    CDUnknownBlockType __disclosureActionHandler;
-    id <UIFocusItem> __parentFocusItem;
-    UICellAccessoryManager *_accessoryManager;
-    long long _defaultIndentationLevel;
-    id _itemIdentifier;
 }
 
 + (id);
 + (id);
 + (Class)ÀøæÿD
 Ò´];
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)wer, but there is no transfer ID or asset. Incoming background is nil. Removing current asset.;
+- (void)unique records;
+- (void)on error %@;
+- (void)feature is disabled, ignoring updates from peer device;
+- (void)es version to %@;
+- (void)not a valid subAction for category:(_Bool)arg1 %ld. Resetting subCategory to None;
+- (id)ant version of chat %@ to %ld;
+- (id)g-v1;
+- (id)IMDCKSubmitAnalytic;
 - (_Bool);
 - (double);
 - (id);
@@ -79,10 +54,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -94,7 +69,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -102,15 +77,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)?ן;
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (struct NSDirectionalEdgeInsets);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -122,20 +97,20 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)h;
 - (id);
 - (long long);
 - (long long);
 - (id);
+- (id)_;
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (_Bool);
@@ -145,7 +120,7 @@
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)H;
 - (_Bool);
 - (id);
 - (id);
@@ -164,13 +139,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)#;
 - (long long);
 - (void);
 - (void)ð!xCù1[1Â0@ù
@@ -179,11 +154,11 @@
 × ;
 - (id)ù±gÐ1Â0@ù
 × ;
-- (void)rServiceSize:(long long)arg1;
-- (void)ay:(_Bool)arg1;
-- (long long)tion;
-- (void)aratorMetrics;
-- (void)setRecognizersEnabled:(struct UIEdgeInsets)arg1;
+- (void)intrinsicContentSizeForServiceSize:(long long)arg1;
+- (void)handleSwitchCommand:(_Bool)arg1 withHUD:withDelay: /* Error: Ran out of types for this method. */;
+- (long long)alertInterfaceOrientation;
+- (void)_updateSharedSeparatorMetrics;
+- (void)_setRecognizersEnabled:(struct UIEdgeInsets)arg1;
 - (id)maxGain;
 - (void)r passed nil color for deriving a disabled color.;
 - (long long)llectionProvider != NULL;
@@ -191,32 +166,7 @@
 - (void)ìÒµÿG`;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setDisclosureActionHandler:) CDUnknownBlockType _disclosureActionHandler; // @synthesize _disclosureActionHandler=__disclosureActionHandler;
-@property(nonatomic, getter=_expanded, setter=_setExpanded:) _Bool _expanded;
-@property(nonatomic, setter=_setParentFocusItem:) __weak id <UIFocusItem> _parentFocusItem; // @synthesize _parentFocusItem=__parentFocusItem;
-@property(copy, nonatomic) NSArray *accessories; // @synthesize accessories=_accessories;
-@property(readonly, nonatomic, getter=_accessoryManager) UICellAccessoryManager *accessoryManager; // @synthesize accessoryManager=_accessoryManager;
-@property(readonly, nonatomic, getter=_cellStyle) long long cellStyle;
-@property(readonly, nonatomic, getter=_constants) id <UITableConstants> constants; // @synthesize constants=_constants;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, getter=_defaultIndentationLevel, setter=_setDefaultIndentationLevel:) long long defaultIndentationLevel; // @synthesize defaultIndentationLevel=_defaultIndentationLevel;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long indentationLevel; // @synthesize indentationLevel=_indentationLevel;
-@property(nonatomic) double indentationWidth; // @synthesize indentationWidth=_indentationWidth;
-@property(nonatomic) _Bool indentsAccessories;
-@property(retain, nonatomic, getter=_itemIdentifier, setter=_setItemIdentifier:) id itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 @property(copy, nonatomic) NSArray *leadingAccessoryConfigurations; // @synthesize leadingAccessoryConfigurations=_leadingAccessoryConfigurations;
-@property(copy, nonatomic) NSArray *leadingEditingAccessoryConfigurations; // @synthesize leadingEditingAccessoryConfigurations=_leadingEditingAccessoryConfigurations;
-@property(readonly, nonatomic, getter=_minimumCellAccessoryMargin) double minimumCellAccessoryMargin;
-@property(readonly, nonatomic, getter=_owningViewForSeparatorLayoutGuide) UIView *owningViewForSeparatorLayoutGuide;
-@property(readonly, nonatomic) UILayoutGuide *separatorLayoutGuide;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *trailingAccessoryConfigurations; // @synthesize trailingAccessoryConfigurations=_trailingAccessoryConfigurations;
-@property(copy, nonatomic) NSArray *trailingEditingAccessoryConfigurations; // @synthesize trailingEditingAccessoryConfigurations=_trailingEditingAccessoryConfigurations;
 
 @end
 

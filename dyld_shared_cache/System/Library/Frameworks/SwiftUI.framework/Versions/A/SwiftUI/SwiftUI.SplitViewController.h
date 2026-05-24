@@ -9,13 +9,9 @@
 @interface SwiftUI.SplitViewController
 {
     id hostingInspector;
-    id leadingOrTrailingSidebarIsTransitioning;
-    id inDividerDragSession;
-    id needsSizeInvalidationByConstraints;
-    id inspectorPresentedBinding;
 }
 
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (void);

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableDictionary, NSString, RTVisit, RTVisitHyperParameter;
+@class NSArray, NSDate;
 
 @interface RTVisitPipeline
 {
     NSArray *_modules;
-    NSMutableDictionary *_moduleStats;
-    unsigned long long _iteration;
-    _Bool _bootStrappingDone;
-    NSString *_name;
-    unsigned long long _type;
-    RTVisit *_lastVisit;
-    RTVisitHyperParameter *_hyperParameter;
-    NSDate *_lastProcessedLocationDate;
 }
 
 + (id);
@@ -25,13 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)IDSMagnetDataCorruptionRecoveryTimeInMs;
+- (id)ess;
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)service:account:incomingResourceAtURL:metadata:fromID:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -40,12 +32,7 @@
 - (void)g:config (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool bootStrappingDone; // @synthesize bootStrappingDone=_bootStrappingDone;
-@property(readonly, nonatomic) RTVisitHyperParameter *hyperParameter; // @synthesize hyperParameter=_hyperParameter;
 @property(retain, nonatomic) NSDate *lastProcessedLocationDate; // @synthesize lastProcessedLocationDate=_lastProcessedLocationDate;
-@property(readonly, nonatomic) RTVisit *lastVisit; // @synthesize lastVisit=_lastVisit;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

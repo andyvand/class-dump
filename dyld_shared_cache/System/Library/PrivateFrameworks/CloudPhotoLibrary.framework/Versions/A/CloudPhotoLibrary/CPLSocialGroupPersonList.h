@@ -9,14 +9,12 @@
 @interface CPLSocialGroupPersonList
 {
     NSMutableArray *_persons;
-    unsigned int _version;
-    CDStruct_f20694ce _has;
 }
 
 + (Class);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (unsigned long long);
@@ -25,9 +23,9 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)%;
 - (_Bool);
-- (_Bool)Æéó;
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -36,9 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasVersion;
 @property(retain, nonatomic) NSMutableArray *persons; // @synthesize persons=_persons;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

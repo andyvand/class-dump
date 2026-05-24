@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSObject;
+@class NSObject;
 @protocol DEReader;
 
 @interface DERewindableReader
 {
     _Bool _rewound;
-    NSObject<DEReader> *_reader;
-    NSMutableData *_rewindData;
-    unsigned long long _rewindOffset;
 }
 
 - (void);
@@ -36,9 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<DEReader> *reader; // @synthesize reader=_reader;
-@property(retain, nonatomic) NSMutableData *rewindData; // @synthesize rewindData=_rewindData;
-@property(nonatomic) unsigned long long rewindOffset; // @synthesize rewindOffset=_rewindOffset;
-@property(nonatomic) _Bool rewound; // @synthesize rewound=_rewound;
 
 @end
 

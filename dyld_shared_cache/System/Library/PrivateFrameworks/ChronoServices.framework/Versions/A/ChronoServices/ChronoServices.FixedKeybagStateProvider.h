@@ -7,9 +7,6 @@
 @interface ChronoServices.FixedKeybagStateProvider
 {
     id _lockStatePublisher;
-    id lockState;
-    id _hasUnlockedSinceBootPublisher;
-    id hasUnlockedSinceBoot;
 }
 
 @end

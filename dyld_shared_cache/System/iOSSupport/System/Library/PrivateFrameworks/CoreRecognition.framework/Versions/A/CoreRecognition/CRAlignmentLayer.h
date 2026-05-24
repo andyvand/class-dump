@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, CATextLayer, NSMutableArray;
+@class CAShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface CRAlignmentLayer
 {
     _Bool _hideCardInfoOverlay;
     _Bool _hideCardAlignmentRect;
-    CATextLayer *_instructionLayer;
-    CAShapeLayer *_maskLayer;
-    CAShapeLayer *_outlineLayer;
-    CALayer *_infoLayer;
-    NSMutableArray *_cardNumberLayers;
-    CATextLayer *_cardholderNameLayer;
-    CATextLayer *_expirationDateLayer;
-    struct CGPoint _cardNumberHorizontalDefaultPos;
-    struct CGRect _cardNumberHorizontalDefaultBounds;
 }
 
 + (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -54,19 +45,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect cardNumberHorizontalDefaultBounds; // @synthesize cardNumberHorizontalDefaultBounds=_cardNumberHorizontalDefaultBounds;
-@property(nonatomic) struct CGPoint cardNumberHorizontalDefaultPos; // @synthesize cardNumberHorizontalDefaultPos=_cardNumberHorizontalDefaultPos;
-@property(retain) NSMutableArray *cardNumberLayers; // @synthesize cardNumberLayers=_cardNumberLayers;
-@property(retain) CATextLayer *cardholderNameLayer; // @synthesize cardholderNameLayer=_cardholderNameLayer;
-@property(retain) CATextLayer *expirationDateLayer; // @synthesize expirationDateLayer=_expirationDateLayer;
-@property _Bool hideCardAlignmentRect; // @synthesize hideCardAlignmentRect=_hideCardAlignmentRect;
-@property _Bool hideCardInfoOverlay; // @synthesize hideCardInfoOverlay=_hideCardInfoOverlay;
-@property(retain) CALayer *infoLayer; // @synthesize infoLayer=_infoLayer;
-@property(retain) CATextLayer *instructionLayer; // @synthesize instructionLayer=_instructionLayer;
 @property(retain) CAShapeLayer *maskLayer; // @synthesize maskLayer=_maskLayer;
 @property(retain) CAShapeLayer *outlineLayer; // @synthesize outlineLayer=_outlineLayer;
 

@@ -8,7 +8,7 @@
 {
 }
 
-- (id)on:(id)arg1;
+- (id)setDistribution:(id)arg1;
 
 @end
 

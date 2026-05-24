@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingBulkSendListener, HMDHAPAccessory, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingBulkSendSessionInitiator
 {
     _Bool _waitingForAccessory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHAPAccessory *_accessory;
-    HMDCameraRecordingBulkSendListener *_currentListener;
 }
 
 + (id)q;
 - (void);
-- (void);
+- (void)Notification"8;
 - (void);
 - (void);
 - (void);
@@ -26,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)[;
 - (id);
 - (void);
 - (void);
@@ -38,17 +35,6 @@ __attribute__((visibility("hidden")))
 - (void)q|~&ÜÅÿ;
 
 // Remaining properties
-@property __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain) HMDCameraRecordingBulkSendListener *currentListener; // @synthesize currentListener=_currentListener;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isSessionOpenInProgress) _Bool sessionOpenInProgress;
-@property(readonly) Class superclass;
-@property(getter=isWaitingForAccessory) _Bool waitingForAccessory; // @synthesize waitingForAccessory=_waitingForAccessory;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -6,38 +6,28 @@
 
 #import <AVFCapture/AVCaptureFileOutputDelegateWrapper.h>
 
-@class AVMomentCaptureMovieRecordingResolvedSettings, NSArray, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVMomentCaptureMovieFileOutputDelegateWrapper : AVCaptureFileOutputDelegateWrapper
 {
     NSString *_videoCodecType;
-    NSURL *_spatialOverCaptureMovieFileURL;
-    NSArray *_spatialOverCaptureMovieMetadata;
-    AVMomentCaptureMovieRecordingResolvedSettings *_resolvedSettings;
-    _Bool _didFinishWritingMovieCallbackFired;
-    _Bool _didFinishWritingSpatialOverCaptureMovieCallbackFired;
 }
 
-+ (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
++ (id)ing>;
+- (id)replaceSectionAtIndex:withObject: /* Error: Ran out of types for this method. */;
+- (void)isValidJSONObject:(_Bool)arg1;
+- (void)isSecondaryTextColorLight;
+- (id)_hasFinished;
+- (_Bool)eningTagData;
+- (_Bool)odedData;
+- (id)peration.accessQueue;
+- (id)}"mBaseFormatStruct"{?="mBase"b8"mBasePlaces"b8"mBaseUseMinusSign"b1}"mDateFormatStruct"{?="mSuppressDateFormat"b1"mSuppressTimeFormat"b1"mDateTimeFormat"@"NSString"}"mDurationFormatStruct"{?="mUseAutomaticUnits"b1"mDurationUnitSmallest"i"mDurationUnitLargest"i"mDurationStyle"i}"mCustomFormatStruct"{?="mCustomFormatKey"@"NSUUID""mCustomFormat"@"OITSUCustomFormat""mLegacyID"I"mAppliedConditionKey"C}"mControlFormatStruct"{?="mMinimum"d"mMaximum"d"mIncrement"d"mDisplayFormatType"i"mOrientation"b2"mPosition"b2}"mMultipleChoiceListFormatStruct"{?="mInitialValue"i"mMultipleChoiceListFormatID"I"mData"@"<TSUMultipleChoiceListChoiceProviding>"})};
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool didFinishWritingMovieCallbackFired; // @synthesize didFinishWritingMovieCallbackFired=_didFinishWritingMovieCallbackFired;
-@property(nonatomic) _Bool didFinishWritingSpatialOverCaptureMovieCallbackFired; // @synthesize didFinishWritingSpatialOverCaptureMovieCallbackFired=_didFinishWritingSpatialOverCaptureMovieCallbackFired;
-@property(retain, nonatomic) AVMomentCaptureMovieRecordingResolvedSettings *resolvedSettings; // @synthesize resolvedSettings=_resolvedSettings;
-@property(readonly) NSURL *spatialOverCaptureMovieFileURL; // @synthesize spatialOverCaptureMovieFileURL=_spatialOverCaptureMovieFileURL;
-@property(readonly) NSArray *spatialOverCaptureMovieMetadata; // @synthesize spatialOverCaptureMovieMetadata=_spatialOverCaptureMovieMetadata;
 @property(readonly) NSString *videoCodecType; // @synthesize videoCodecType=_videoCodecType;
 
 @end

@@ -7,17 +7,15 @@
 @interface STBlueprintUsageLimitScheduleCustomDayItem
 {
     double _budgetLimit;
-    unsigned long long _day;
 }
 
-- (double);
-- (void);
+- (double)dentifier (item_pid INTEGER PRIMARY KEY, storebookmark_identifier TEXT NOT NULL);
+- (void)chosen_by_auto_fill;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) double budgetLimit; // @synthesize budgetLimit=_budgetLimit;
-@property(nonatomic) unsigned long long day; // @synthesize day=_day;
 
 @end
 

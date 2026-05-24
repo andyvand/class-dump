@@ -10,29 +10,23 @@ __attribute__((visibility("hidden")))
 @interface _UIBeamPointerSettings : _UIFreeformPointerSettings
 {
     double _minLength;
-    double _maxLength;
-    double _maxSnapLength;
-    double _width;
 }
 
 + (id);
-- (void);
-- (double);
+- (void)reflectJunkChatForTrustKitToPeerDevicesForMessageGUID:(double)arg1 forReason:withMetadata: /* Error: Ran out of types for this method. */;
+- (double)_fixSiblingChatsAndStoreIfNeeded:iMessageChat:chatsToRegenerate: /* Error: Ran out of types for this method. */;
 - (double)ð!@Eùqdð1Â0@ù
 × ;
 - (void)0@ù
 × ;
-- (void)eFragments;
-- (void)w:(double)arg1;
-- (double)ationManager:continueUserActivity: /* Error: Ran out of types for this method. */;
+- (void)numberOfLineFragments;
+- (void)dayForRow:(double)arg1;
+- (double)activityContinuationManager:continueUserActivity: /* Error: Ran out of types for this method. */;
 - (void)outContainer",R,N;
 - (double)c;
 
 // Remaining properties
-@property(nonatomic) double maxLength; // @synthesize maxLength=_maxLength;
-@property(nonatomic) double maxSnapLength; // @synthesize maxSnapLength=_maxSnapLength;
 @property(nonatomic) double minLength; // @synthesize minLength=_minLength;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface __NSGenericDeallocHandler
 {
     Class isa;
-    CDUnknownBlockType _block;
 }
 
-+ (void)ustodianContext;
++ (void)AKCustodianContext;
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)<;
 
 @end
 

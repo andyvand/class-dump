@@ -6,43 +6,30 @@
 
 #import <MapKit/_MKUIViewController.h>
 
-@class NSArray, NSHashTable, NSLayoutConstraint, NSMapTable, NSScrollView, NSString, NSView, _MKStackView, _MKStackingContentView;
-@protocol MKStackingViewControllerDelegate;
+@class NSArray, _MKStackView;
 
 @interface MKStackingViewController : _MKUIViewController
 {
     _MKStackView *_stackView;
-    _MKStackingContentView *_contentView;
-    NSLayoutConstraint *_heightCompressionResistanceConstraint;
-    NSLayoutConstraint *_heightHuggingConstraint;
-    NSLayoutConstraint *_widthConstraint;
-    NSLayoutConstraint *_stackViewWidthConstraint;
-    _Bool _isScrollDisabled;
-    unsigned long long _countOfCurrentLayoutInvocations;
-    NSScrollView *_scrollView;
-    NSLayoutConstraint *_titleViewLeadingConstraint;
-    _Bool _hasRegisteredForPreferredScrollerStyleNotifications;
-    _Bool _currentlyScrolling;
-    NSMapTable *_viewsToViewControllers;
-    NSArray *_titleViewConstraints;
-    _Bool _willRelayoutForPreferredContentSizeChange;
-    _Bool _isSettingStackedViews;
-    _Bool _contentViewConstraintsAdded;
-    NSHashTable *_minimallyVisibleViews;
-    _Bool _needsToPerformLayout;
-    NSView *_overlayView;
-    double _overlayViewOriginY;
-    _Bool _mayWantSpearators;
-    _Bool _needToCallViewControllerLayoutDelegate;
-    NSView *_titleView;
-    NSArray *_viewControllers;
-    id <MKStackingViewControllerDelegate> _stackingDelegate;
-    double _verticalScrollerInset;
 }
 
 - (double);
-- (id);
-- (id);
+- (id)lt=%@, message=%@;
+- (id)f keys;
+- (void)%lu) should have the same number of keys;
+- (double)Invalid configuration -- event data (%lu) and configuration (%lu) should have the same number of keys;
+- (void)ts to powerlog:(double)arg1;
+- (void)ntifierToDiscretionaryIntervals=%@;
+- (void)ed interval=%@ for identifier=%@;
+- (void)r identifier=%@;
+- (void)GenerativeFunctionMetrics:(id)arg1:(double)arg2 tgiExecuteRequest;
+- (void);
+- (_Bool);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void)6(;
 - (void);
 - (double);
 - (void);
@@ -50,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (void);
@@ -58,54 +45,28 @@
 - (void);
 - (void);
 - (void);
-- (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (double);
+- (void)t:(_Bool)arg1 activationHostTime:isVoiceOverSiriSoundsEnabled: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)ecognition;
+- (void)r;
 - (void);
 - (void);
 - (void)1Â0@ù
 × ;
 - (id)Â0@ù
 × ;
-- (void):withEvent: /* Error: Ran out of types for this method. */;
-- (void)notationViews:previousCollissions:options: /* Error: Ran out of types for this method. */;
-- (id)ed;
+- (void)prepareMenu:withEvent: /* Error: Ran out of types for this method. */;
+- (void)initWithAnnotationViews:previousCollissions:options: /* Error: Ran out of types for this method. */;
+- (id)_blocked;
 - (void)¨åéÿ³ô:Ñ[ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isScrollEnabled) _Bool scrollEnabled;
-@property(nonatomic) __weak id <MKStackingViewControllerDelegate> stackingDelegate; // @synthesize stackingDelegate=_stackingDelegate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSView *titleView; // @synthesize titleView=_titleView;
-@property(retain, nonatomic) NSLayoutConstraint *titleViewLeadingConstraint;
-@property(readonly, nonatomic) double verticalScrollerInset; // @synthesize verticalScrollerInset=_verticalScrollerInset;
 @property(copy, nonatomic) NSArray *viewControllers; // @synthesize viewControllers=_viewControllers;
 
 @end

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _MPCProtoDelegateInfo, _MPCProtoMigrationDataTimeSync;
+@class _MPCProtoDelegateInfo;
 
 __attribute__((visibility("hidden")))
 @interface _MPCProtoMigrationData
 {
     _MPCProtoDelegateInfo *_delegateInfo;
-    NSMutableArray *_payloads;
-    _MPCProtoMigrationDataTimeSync *_timeSync;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)RingBuffer;
 - (id);
-- (id);
+- (id)@;
 - (void)lic}@:%{public}@] _addAutoPlayPlaybackContext:| rolling back edit [autoPlayIdentifierList changed before dataSource finished loading] dataSource=%p section=%{public}@ /* Error: Ran out of types for this method. */;
 
 @end

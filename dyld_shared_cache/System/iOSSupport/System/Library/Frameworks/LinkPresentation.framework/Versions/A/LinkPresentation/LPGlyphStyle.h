@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImage, LPImageViewStyle, LPPadding, LPPointUnit, UIColor;
+@class LPImage;
 
 __attribute__((visibility("hidden")))
 @interface LPGlyphStyle
 {
     LPImage *_image;
-    LPPadding *_padding;
-    double _opacity;
-    LPImageViewStyle *_imageStyle;
-    LPPointUnit *_baselineOffset;
-    UIColor *_color;
 }
 
+- (id)showInlineReplyControllerForChatItem:presentKeyboard: /* Error: Ran out of types for this method. */;
+- (id)A;
+- (void)original_content_identifier;
+- (id)currentIndex;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (double);
+- (id);
+- (double)k*;
 - (void);
 - (void);
 - (id);
@@ -33,12 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)r:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) LPPointUnit *baselineOffset; // @synthesize baselineOffset=_baselineOffset;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
 @property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) LPImageViewStyle *imageStyle; // @synthesize imageStyle=_imageStyle;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(readonly, retain, nonatomic) LPPadding *padding; // @synthesize padding=_padding;
 
 @end
 

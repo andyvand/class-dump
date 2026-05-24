@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface STTranscriberMultisegmentResult
 {
     NSArray *_segments;
-    NSArray *_transcriptions;
-    unsigned long long _earResultType;
-    NSArray *_nBestChoices;
-    NSString *_bestFormattedString;
-    double _bestFormattedStringSegmentConfidence;
-    CDStruct_e83c9415 _recognitionAudioRange;
 }
 
 - (id);
 - (id);
 - (double);
 - (id);
-- (CDStruct_e83c9415);
-- (unsigned long long);
+- (CDStruct_e83c9415)_supportsAdaptiveRoaming;
+- (unsigned long long)<TBScore>",R,N,V_popularityScore;
 - (id);
-- (id);
+- (id)ytics logSessionConnectionSnapshotCaptured:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bestFormattedString; // @synthesize bestFormattedString=_bestFormattedString;
-@property(readonly, nonatomic) double bestFormattedStringSegmentConfidence; // @synthesize bestFormattedStringSegmentConfidence=_bestFormattedStringSegmentConfidence;
-@property(readonly, nonatomic) unsigned long long earResultType; // @synthesize earResultType=_earResultType;
-@property(readonly, copy, nonatomic) NSArray *nBestChoices; // @synthesize nBestChoices=_nBestChoices;
-@property(readonly, nonatomic) CDStruct_e83c9415 recognitionAudioRange; // @synthesize recognitionAudioRange=_recognitionAudioRange;
 @property(readonly, copy, nonatomic) NSArray *segments; // @synthesize segments=_segments;
-@property(readonly, copy, nonatomic) NSArray *transcriptions; // @synthesize transcriptions=_transcriptions;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface SiriIntentEvents.ConfirmationResult
 {
     id parameterName;
-    id multicardinalIndexValue;
-    id intentType;
-    id resolution;
-    id timestamp;
 }
 
 @end

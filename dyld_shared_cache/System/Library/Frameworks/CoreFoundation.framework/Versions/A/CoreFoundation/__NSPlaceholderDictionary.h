@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)axFragmentBufferBindCount (%lu).;
+- (id)΁;
 - (id);
 - (unsigned long long);
-- (id)emoryDictionarySeed;
-- (id);
+- (id)IXPromisedInMemoryDictionarySeed;
+- (id)TIKeyboardState;
 - (id);
 
 @end

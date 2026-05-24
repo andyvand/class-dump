@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationContext, NSArray, NSDate, NSObject, NSSet, PGManagerWorkingContext, PGSuggestionNotificationProfile, PHPhotoLibrary;
-@protocol OS_os_log;
+@class NSDate;
 
 @interface PGSuggestionSession
 {
     NSDate *_universalToday;
-    unsigned char _profile;
-    PGManagerWorkingContext *_workingContext;
-    CLSCurationContext *_curationContext;
-    NSObject<OS_os_log> *_loggingConnection;
-    NSArray *_existingSuggestions;
-    NSArray *_collidableMemories;
-    PGSuggestionNotificationProfile *_notificationProfile;
-    NSArray *_deniedSuggestions;
-    NSSet *_forbiddenAssetUUIDs;
-    double _topTierAestheticScore;
 }
 
-+ (id);
++ (id)genericGamma22GrayColorSpace;
 + (id);
 + (id);
 + (id);
@@ -33,18 +22,18 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)setPlaceholderText:(id)arg1;
+- (id)frontmostApplicationControllerDidChange: /* Error: Ran out of types for this method. */;
+- (id)_isEventAllowedToActivate;
+- (id)_didRegisterMenuOpenedNotification;
+- (unsigned long long)_didRegisterFocusedWindowNotification;
+- (id)enerElementInfo",&,V__elementInfo;
+- (id),N,V_menuControllerSelectedItem;
+- (id)5;
+- (id)ter class %@ with only a predicate argument. This is not supported.;
+- (_Bool)Util_AllocRequirement;
+- (_Bool);
+- (_Bool)zB;
 - (id);
 - (id);
 - (id);
@@ -57,7 +46,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (unsigned char);
@@ -66,17 +55,7 @@
 - (id)±»õ$yËÉ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *collidableMemories; // @synthesize collidableMemories=_collidableMemories;
-@property(readonly, nonatomic) CLSCurationContext *curationContext; // @synthesize curationContext=_curationContext;
-@property(retain, nonatomic) NSArray *deniedSuggestions; // @synthesize deniedSuggestions=_deniedSuggestions;
-@property(retain, nonatomic) NSArray *existingSuggestions; // @synthesize existingSuggestions=_existingSuggestions;
-@property(retain, nonatomic) NSSet *forbiddenAssetUUIDs; // @synthesize forbiddenAssetUUIDs=_forbiddenAssetUUIDs;
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) PGSuggestionNotificationProfile *notificationProfile; // @synthesize notificationProfile=_notificationProfile;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary;
 @property(readonly, nonatomic) unsigned char profile; // @synthesize profile=_profile;
-@property(readonly, nonatomic) double topTierAestheticScore; // @synthesize topTierAestheticScore=_topTierAestheticScore;
-@property(readonly, nonatomic) PGManagerWorkingContext *workingContext; // @synthesize workingContext=_workingContext;
 
 @end
 

@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface GEORequestCounterStatistics
 {
     unsigned long long _bytesTransmitted;
-    unsigned long long _bytesReceived;
-    long long _durationUSeconds;
-    int _durationCount;
-    NSMutableDictionary *_resultCounts;
-    unsigned long long _usedInterfaces;
 }
 
 + (_Bool)ublic}@' is not a valid URL;
@@ -23,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
-- (int);
+- (long long);
+- (int);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -38,11 +31,7 @@ __attribute__((visibility("hidden")))
 ¶$P@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bytesReceived; // @synthesize bytesReceived=_bytesReceived;
 @property(readonly, nonatomic) unsigned long long bytesTransmitted; // @synthesize bytesTransmitted=_bytesTransmitted;
-@property(readonly, nonatomic) int durationCount; // @synthesize durationCount=_durationCount;
-@property(readonly, nonatomic) long long durationUSecondsTotal; // @synthesize durationUSecondsTotal=_durationUSeconds;
-@property(readonly, nonatomic) unsigned long long usedInterfaces; // @synthesize usedInterfaces=_usedInterfaces;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSSet, NSString;
+@class NSString;
 
 @interface HMIVideoAnalyzerMutableReport
 {
     NSString *_name;
-    long long _version;
-    NSDictionary *_deviceInformation;
-    NSMutableDictionary *_sessions;
 }
 
 + (void);
@@ -35,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -43,28 +40,16 @@
 - (void);
 - (long long);
 - (id);
+- (id)(;
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
-- (id):(id)arg1 background:(id *)arg2 motionDetections:tracks: /* Error: Ran out of types for this method. */;
+- (id)handleSampleBuffer:(id)arg1 background:(id *)arg2 motionDetections:tracks: /* Error: Ran out of types for this method. */;
 - (id)rsonFaceCrop"8;
 
 // Remaining properties
-@property(readonly) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *deviceInformation; // @synthesize deviceInformation=_deviceInformation;
-@property(readonly) NSSet *eventClasses;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSMutableDictionary *sessions; // @synthesize sessions=_sessions;
-@property(readonly) Class superclass;
-@property(readonly) long long version; // @synthesize version=_version;
 
 @end
 

@@ -5,10 +5,9 @@
 //
 
 @protocol StartPageCollectionLayoutEnvironment
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double contentWidth;
-@property(readonly, nonatomic) double effectiveContentWidth;
-@property(readonly, nonatomic) double interItemSpacingWidth;
 @end
 

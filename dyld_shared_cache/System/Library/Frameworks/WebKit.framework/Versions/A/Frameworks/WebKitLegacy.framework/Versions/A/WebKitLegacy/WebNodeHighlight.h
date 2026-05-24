@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, NSWindow, WebNodeHighlightView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface WebNodeHighlight
 {
     NSView *_targetView;
-    NSWindow *_highlightWindow;
-    WebNodeHighlightView *_highlightView;
-    NakedPtr_7150488c _inspectorController;
-    id _delegate;
 }
 
-- (NakedPtr_7150488c);
+- (NakedPtr_52c3eb14);
 - (id);
 - (void);
 - (void);

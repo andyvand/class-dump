@@ -5,5 +5,11 @@
 //
 
 @protocol TSWPLayoutParent
+- (void)=n;
+
+@optional
+- (unsigned int);
+- (unsigned long long);
+- (struct CGRect)]RO;
 @end
 

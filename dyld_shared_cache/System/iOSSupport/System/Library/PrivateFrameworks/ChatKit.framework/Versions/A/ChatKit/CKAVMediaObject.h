@@ -9,18 +9,16 @@
 @interface CKAVMediaObject : CKMediaObject
 {
     _Bool _durationLoaded;
-    double _duration;
 }
 
 + (id);
-- (void);
+- (void)t;
 - (_Bool);
 - (id);
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(nonatomic) _Bool durationLoaded; // @synthesize durationLoaded=_durationLoaded;
 
 @end

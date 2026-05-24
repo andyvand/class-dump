@@ -9,10 +9,6 @@
 @interface _MRUpdateEndpointsMessageProtobuf
 {
     int _endpointFeatures;
-    NSMutableArray *_endpoints;
-    struct {
-        unsigned int endpointFeatures:1;
-    } _has;
 }
 
 + (Class);
@@ -26,23 +22,21 @@
 - (void);
 - (int);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)ageSentDuration;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)ue;
+- (id)nt.confirm.end;
 - (int);
 - (void)clientCallbackPriorityQueue;
 
 // Remaining properties
-@property(nonatomic) int endpointFeatures; // @synthesize endpointFeatures=_endpointFeatures;
 @property(retain, nonatomic) NSMutableArray *endpoints; // @synthesize endpoints=_endpoints;
-@property(nonatomic) _Bool hasEndpointFeatures;
 
 @end
 

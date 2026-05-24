@@ -7,21 +7,19 @@
 @interface CTRoamingStatus
 {
     _Bool _isVoiceRoaming;
-    _Bool _isDataRoaming;
 }
 
-+ (_Bool);
++ (_Bool)syncVideoDecompression for non video media type;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)initWithExternalizedContext:(id)arg1 userSession:flags: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool isDataRoaming; // @synthesize isDataRoaming=_isDataRoaming;
 @property(nonatomic) _Bool isVoiceRoaming; // @synthesize isVoiceRoaming=_isVoiceRoaming;
 
 @end

@@ -9,7 +9,7 @@
 }
 
 + (void);
-- (struct CGSize);
+- (struct CGSize)mentTransactionAmountModifier"8;
 
 @end
 

@@ -6,15 +6,10 @@
 
 #import <Vision/VNDetector.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface VNImageAnalyzerBasedDetector : VNDetector
 {
     struct shared_ptr<vision::mod::ImageAnalyzer> _imageAnalyzer;
-    struct _Geometry2D_size2D_ _networkRequiredInputImageSize;
-    _Bool _networkUsesAnisotropicScaling;
-    NSArray *_cachedSupportedClassificationIdentifiers;
 }
 
 + (id);
@@ -25,7 +20,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (unsigned int);
 + (id);
-+ (id);
++ (id)r;
 + (id);
 + (id);
 - (id);
@@ -36,9 +31,9 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (struct CGSize);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)!;
+- (id)!;
+- (id);
 - (id);
 - (void)VNFaceDetectorRevision2:%@ /* Error: Ran out of types for this method. */;
 

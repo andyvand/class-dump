@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDResidentStatusChannelV2;
+
 @protocol HMDResidentStatusChannelObserverV2
+
+@optional
+- (void)service:(HMDResidentStatusChannelV2 *)arg1 account:incomingOpportunisticData:withIdentifier:fromID:context: /* Error: Ran out of types for this method. */;
+- (void)sionStorage",&,N,V_senderSessionStorage;
+- (void)ge",&,N,V_bookmark;
+- (void)addSharingWith:(HMDResidentStatusChannelV2 *)arg1;
 @end
 

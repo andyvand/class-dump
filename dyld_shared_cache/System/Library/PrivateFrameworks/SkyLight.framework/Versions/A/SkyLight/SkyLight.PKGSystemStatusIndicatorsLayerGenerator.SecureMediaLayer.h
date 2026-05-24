@@ -11,8 +11,8 @@
     id secureLayer;
 }
 
-- (id);
-- (id);
+- (id)s/DataDetectorsCore.framework/Versions/A/DataDetectorsCore;
+- (id)Kz;
 - (void)d;
 
 @end

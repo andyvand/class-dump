@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAImageSizePolicy, NSDictionary, PAImageRequestCacheHint, PAImageRequestTileHint;
+@class NSDictionary, PAImageRequestCacheHint;
 
 @interface PALoadRequest
 {
     NSDictionary *_cgOptions;
-    PAImageRequestCacheHint *_cacheHint;
-    PAImageRequestTileHint *_tileHint;
-    IPAImageSizePolicy *_sizePolicy;
 }
 
 - (id);
@@ -20,16 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)-m;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly) PAImageRequestCacheHint *cacheHint; // @synthesize cacheHint=_cacheHint;
-@property(readonly) NSDictionary *cgOptions; // @synthesize cgOptions=_cgOptions;
-@property(readonly) IPAImageSizePolicy *sizePolicy; // @synthesize sizePolicy=_sizePolicy;
-@property(readonly) PAImageRequestTileHint *tileHint; // @synthesize tileHint=_tileHint;
 
 @end
 

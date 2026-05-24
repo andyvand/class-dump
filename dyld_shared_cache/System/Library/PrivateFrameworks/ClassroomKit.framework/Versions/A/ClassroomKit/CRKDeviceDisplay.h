@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CRKDeviceDisplay
 {
     double _scaleFactor;
-    unsigned long long _orientation;
-    struct CGRect _frame;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)fixup runAllOtherFixups state:%ld /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (double);
@@ -27,9 +23,6 @@
 - (id)the device;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) unsigned long long orientation; // @synthesize orientation=_orientation;
 @property(readonly, nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 
 @end

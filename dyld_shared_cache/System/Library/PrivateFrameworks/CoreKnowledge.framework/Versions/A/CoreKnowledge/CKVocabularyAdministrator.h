@@ -5,13 +5,11 @@
 //
 
 @class NSObject;
-@protocol CKVAdminService, OS_dispatch_queue;
+@protocol CKVAdminService;
 
 @interface CKVocabularyAdministrator
 {
     NSObject<CKVAdminService> *_adminService;
-    double _timeout;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -20,17 +18,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id))clBd)b;
 - (void);
 - (long long);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

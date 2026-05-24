@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _IPMDServerClientWrapperModern;
-
 @interface _IMKServerXPCInvocationModern
 {
     int _timeOutState;
-    SEL _callerSelector;
-    _IPMDServerClientWrapperModern *_clientWrapper;
 }
 
 + (id);
-- (id);
+- (id)
+;
 - (void);
 - (void);
 - (void);

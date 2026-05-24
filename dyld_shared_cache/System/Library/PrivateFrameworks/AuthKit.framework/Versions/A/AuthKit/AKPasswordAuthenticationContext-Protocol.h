@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol AKPasswordAuthenticationContext
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setPassword:) NSString *_password;

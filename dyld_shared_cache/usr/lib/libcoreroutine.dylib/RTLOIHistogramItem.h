@@ -9,28 +9,22 @@
 @interface RTLOIHistogramItem
 {
     RTLocationOfInterest *_locationOfInterest;
-    double _timeOfStay;
-    double _probability;
-    long long _numOfEvents;
 }
 
 - (double);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (double);
-- (id);
+- (double)@;
+- (id)e incoming proto message %@;
 - (void)%{Bool}d, error.code %ld, error is %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTLocationOfInterest *locationOfInterest; // @synthesize locationOfInterest=_locationOfInterest;
-@property(nonatomic) long long numOfEvents; // @synthesize numOfEvents=_numOfEvents;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
-@property(nonatomic) double timeOfStay; // @synthesize timeOfStay=_timeOfStay;
 
 @end
 

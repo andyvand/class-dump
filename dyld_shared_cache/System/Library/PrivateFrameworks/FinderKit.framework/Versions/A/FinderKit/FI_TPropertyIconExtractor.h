@@ -10,27 +10,22 @@ __attribute__((visibility("hidden")))
 @interface FI_TPropertyIconExtractor : FI_IPropertyImageExtractor
 {
     _Bool _darkBackground;
-    double _iconSize;
-    double _scaleFactor;
 }
 
 + (id);
 - (_Bool);
 - (struct IconImageSpec);
 - (id);
-- (void);
+- (void)aqueJSContext=},R,N;
 - (_Bool);
 - (id);
 - (double);
 - (double);
-- (void)_TBrowserContainerController;
-- (void)tr_emplaceIZL10MakeSharedI21TSharedByGroupManagerJRKN13TGroupManager7OptionsEEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorISD_EEEE;
+- (void)FI_TBrowserContainerController;
+- (void)NSt3__120__shared_ptr_emplaceIZL10MakeSharedI21TSharedByGroupManagerJRKN13TGroupManager7OptionsEEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorISD_EEEE;
 
 // Remaining properties
-@property(nonatomic) _Bool darkBackground; // @synthesize darkBackground=_darkBackground;
 @property(nonatomic) double iconSize; // @synthesize iconSize=_iconSize;
-@property(readonly, nonatomic) struct IconImageSpec imageSpec;
-@property(nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 
 @end
 

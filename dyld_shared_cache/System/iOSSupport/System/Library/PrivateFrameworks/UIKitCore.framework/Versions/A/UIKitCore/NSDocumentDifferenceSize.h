@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
     long long _changeCount;
 }
 
-- (void);
+- (void)kit account info with cloudkit api;
 - (void);
 - (id);
 - (long long)6j;

@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GEOTFPredictedSpeed
 {
     unsigned int _deltaMinutesInFuture;
-    unsigned int _speed;
-    struct {
-        unsigned int has_deltaMinutesInFuture:1;
-        unsigned int has_speed:1;
-    } _flags;
 }
 
 - (id);
@@ -21,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)lds"b1"read_incidentsOnUserWaypointRoutes"b1"read_navigabilityInfo"b1"read_newWaypointRoutes"b1"read_routeGeniusDescriptions"b1"read_routeLegs"b1"read_trafficBannerTexts"b1"read_traversalTimes"b1"wrote_anyField"b1};
-- (id)sition;
-- (id)toSharingPreference;
+- (id)hasPhotoPosition;
+- (id)GEORPThirdPartyPhotoSharingPreference;
 
 @end
 

@@ -10,24 +10,22 @@
 @interface SSRVoiceProfileXPCClient
 {
     id <SSRVoiceProfileXPCClientDelegate> _delegate;
-    NSObject<OS_xpc_object> *_xpcConnection;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)enMovingStateEstimator:(id)arg1:Configure() called with uninitialized raven parameters /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (void)originatingSynapseContentItem;
+- (void)";
+- (void)$;
+- (id);
+- (void)B&;
+- (void)eworks/AccessibilitySharedSupport.framework/Versions/A/Resources/LiveSpeech.app;
 - (void)@"NSNumber";
 
 // Remaining properties
-@property(nonatomic) __weak id <SSRVoiceProfileXPCClientDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSObject<OS_xpc_object> *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

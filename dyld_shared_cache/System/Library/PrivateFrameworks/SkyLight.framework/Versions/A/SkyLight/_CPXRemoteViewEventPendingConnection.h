@@ -4,20 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, CPXRemoteViewEventServer, NSString;
-@protocol BSInvalidatable, BSServiceConnectionHost;
+@class CPXRemoteViewEventServer;
 
 __attribute__((visibility("hidden")))
 @interface _CPXRemoteViewEventPendingConnection
 {
     _Bool _active;
-    id <BSInvalidatable> _observerToken;
-    BSServiceConnection<BSServiceConnectionHost> *_connection;
-    CPXRemoteViewEventServer *_handler;
 }
 
-- (id);
-- (void);
+- (id)peratorType,
+NSLessThanOrEqualToPredicateOperatorType,
+NSGreaterThanPredicateOperatorType,
+NSGreaterThanOrEqualToPredicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
+- (void)g url for this file backed future is not a file url.;
 - (void);
 - (id);
 - (id);
@@ -29,15 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) BSServiceConnection<BSServiceConnectionHost> *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) CPXRemoteViewEventServer *handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

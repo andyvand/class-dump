@@ -6,20 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface CEMDeviceInformationCommand_StatusQueryResponsesOSUpdateSettings : CEMPayloadBase
 {
     NSString *_statusCatalogURL;
-    NSNumber *_statusIsDefaultCatalog;
-    NSDate *_statusPreviousScanDate;
-    NSString *_statusPreviousScanResult;
-    NSNumber *_statusPerformPeriodicCheck;
-    NSNumber *_statusAutomaticCheckEnabled;
-    NSNumber *_statusBackgroundDownloadEnabled;
-    NSNumber *_statusAutomaticAppInstallationEnabled;
-    NSNumber *_statusAutomaticOSInstallationEnabled;
-    NSNumber *_statusAutomaticSecurityUpdatesEnabled;
 }
 
 + (id);
@@ -46,21 +37,12 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)s;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *statusAutomaticAppInstallationEnabled; // @synthesize statusAutomaticAppInstallationEnabled=_statusAutomaticAppInstallationEnabled;
-@property(copy, nonatomic) NSNumber *statusAutomaticCheckEnabled; // @synthesize statusAutomaticCheckEnabled=_statusAutomaticCheckEnabled;
-@property(copy, nonatomic) NSNumber *statusAutomaticOSInstallationEnabled; // @synthesize statusAutomaticOSInstallationEnabled=_statusAutomaticOSInstallationEnabled;
-@property(copy, nonatomic) NSNumber *statusAutomaticSecurityUpdatesEnabled; // @synthesize statusAutomaticSecurityUpdatesEnabled=_statusAutomaticSecurityUpdatesEnabled;
-@property(copy, nonatomic) NSNumber *statusBackgroundDownloadEnabled; // @synthesize statusBackgroundDownloadEnabled=_statusBackgroundDownloadEnabled;
 @property(copy, nonatomic) NSString *statusCatalogURL; // @synthesize statusCatalogURL=_statusCatalogURL;
-@property(copy, nonatomic) NSNumber *statusIsDefaultCatalog; // @synthesize statusIsDefaultCatalog=_statusIsDefaultCatalog;
-@property(copy, nonatomic) NSNumber *statusPerformPeriodicCheck; // @synthesize statusPerformPeriodicCheck=_statusPerformPeriodicCheck;
-@property(copy, nonatomic) NSDate *statusPreviousScanDate; // @synthesize statusPreviousScanDate=_statusPreviousScanDate;
-@property(copy, nonatomic) NSString *statusPreviousScanResult; // @synthesize statusPreviousScanResult=_statusPreviousScanResult;
 
 @end
 

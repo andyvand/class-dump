@@ -8,31 +8,27 @@ __attribute__((visibility("hidden")))
 @interface DefaultBrowserPromptingManager
 {
     _Bool _setupComplete;
-    _Bool _shouldForceShowBanner;
-    _Bool _shouldTriggerAttributionAfterSetup;
-    int _promptingState;
 }
 
 + (id)ÿ;
 - (void);
 - (void);
 - (int);
-- (void);
+- (void)w;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isShowingDefaultBrowserBanner;
 @property(nonatomic) int promptingState; // @synthesize promptingState=_promptingState;
 
 @end

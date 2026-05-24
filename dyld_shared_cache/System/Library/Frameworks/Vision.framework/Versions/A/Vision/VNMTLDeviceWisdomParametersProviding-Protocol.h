@@ -5,5 +5,6 @@
 //
 
 @protocol VNMTLDeviceWisdomParametersProviding
+- (void)D;
 @end
 

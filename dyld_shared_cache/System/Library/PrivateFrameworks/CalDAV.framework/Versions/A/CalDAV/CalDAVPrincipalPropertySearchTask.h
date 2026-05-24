@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVPrincipalSearchPropertySet, NSSet;
+@class NSSet;
 
 @interface CalDAVPrincipalPropertySearchTask
 {
     id _searchContext;
-    NSSet *_searchTypes;
-    NSSet *_searchStrings;
-    CalDAVPrincipalSearchPropertySet *_serverSupportSet;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)1;
 - (id);
 - (void);
+- (id)drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12;
+- (id)WebKitShowModalDialogEnabled;
+- (id);
+- (void)@?0i8@"NSArray"12@"NSArray"20;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id searchContext; // @synthesize searchContext=_searchContext;
-@property(retain, nonatomic) NSSet *searchStrings; // @synthesize searchStrings=_searchStrings;
 @property(retain, nonatomic) NSSet *searchTypes; // @synthesize searchTypes=_searchTypes;
-@property(retain, nonatomic) CalDAVPrincipalSearchPropertySet *serverSupportSet; // @synthesize serverSupportSet=_serverSupportSet;
 
 @end
 

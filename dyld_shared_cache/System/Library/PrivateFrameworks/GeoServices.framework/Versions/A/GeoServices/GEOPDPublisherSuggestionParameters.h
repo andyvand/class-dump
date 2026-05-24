@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPublisherSuggestionParameters
 {
     PBUnknownFields *_unknownFields;
-    double _requestLocalTimestamp;
-    GEOPDViewportInfo *_viewportInfo;
-    struct {
-        unsigned int has_requestLocalTimestamp:1;
-    } _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ORPFeedbackRequest";
-- (id)ouristInfo;
+- (id)_mapsSuggestionsTouristInfo;
 - (id);
 - (void);
 

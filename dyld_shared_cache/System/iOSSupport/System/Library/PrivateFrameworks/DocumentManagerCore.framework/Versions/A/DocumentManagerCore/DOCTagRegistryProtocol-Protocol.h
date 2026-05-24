@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet;
-
 @protocol DOCTagRegistryProtocol
-- (_Bool)App;
+- (_Bool);
+- (void);
+- (_Bool)contextMenuShowsOpenWithApp;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *discoveredTags;
 @property(nonatomic) long long tagSerialNumber;
-@property(readonly, nonatomic) NSOrderedSet *userTags;
 @end
 

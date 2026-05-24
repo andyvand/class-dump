@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusBehavior_CarPlay
 {
@@ -19,19 +17,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)_payloadAllowMusicVideos;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)loadImageWithScale:isDarkStyle:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
+- (_Bool);
+- (_Bool)h_geom_keystone2_delta_absmax;
+- (_Bool);
+- (_Bool)TPURLResponse"32;
+- (_Bool)king Directory Required;
+- (long long)ps://localhost:5555 for gets /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -65,14 +63,14 @@ __attribute__((visibility("hidden")))
 - (long long)GImage=}56@64B72;
 - (long long)4@?32@?40;
 - (long long)gory"b1"hasCustomized_bounds"b1"hasCustomized_preferredMaxLayoutWidth"b1"hasCustomized_semanticContentAttribute"b1"hasCustomized_isEnabled"b1"hasCustomized_isHighlighted"b1"hasCustomized_internal"b1};
-- (_Bool)nInitialExtentToCurrentSelectionStart;
-- (long long)ry: /* Error: Ran out of types for this method. */;
-- (unsigned long long): /* Error: Ran out of types for this method. */;
-- (long long)alStringTransform: /* Error: Ran out of types for this method. */;
-- (_Bool)ndingRect:inTextContainer: /* Error: Ran out of types for this method. */;
-- (_Bool)ForMacCatalyst;
-- (_Bool)Mode;
-- (_Bool)intMaskViewMap;
+- (_Bool)setRangedSelectionInitialExtentToCurrentSelectionStart;
+- (long long)setContentSizeCategory: /* Error: Ran out of types for this method. */;
+- (unsigned long long)overrideDragWindowToPoint: /* Error: Ran out of types for this method. */;
+- (long long)keycapPrimaryDualStringTransform: /* Error: Ran out of types for this method. */;
+- (_Bool)glyphRangeForBoundingRect:inTextContainer: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateFakeModalityForMacCatalyst;
+- (_Bool)_hapticOutputMode;
+- (_Bool)_grayscaleTintMaskViewMap;
 - (_Bool)@"UIViewController",W,N,V_inspectedVC;
 - (_Bool)Controller;
 - (_Bool);
@@ -83,16 +81,10 @@ __attribute__((visibility("hidden")))
 - (_Bool)iewControllerAdaptiveImpl _prepareTransitionToLayout:(id)arg1 ];
 - (_Bool)rvableP;
 - (unsigned long long);
-- (long long)ect_p;
+- (long long)So8NSObject_p;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

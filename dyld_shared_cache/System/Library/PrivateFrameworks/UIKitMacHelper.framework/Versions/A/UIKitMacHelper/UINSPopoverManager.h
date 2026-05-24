@@ -4,43 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopover, NSString, UINSSceneHostingViewController, UIWindow;
+@class NSPopover;
 @protocol UIPopoverPresentationControllerSourceItem;
 
 @interface UINSPopoverManager
 {
     NSPopover *_popover;
-    UIWindow *_parentUIWindow;
-    UIWindow *_popoverUIWindow;
-    struct CGRect _sourceRectInParentUIWindow;
-    struct CGSize _contentSizeInAppKitPoints;
-    struct CGSize _contentSizeInUIKitPoints;
-    CDUnknownBlockType _dismissalBlock;
-    CDUnknownBlockType _presentationCompletionBlock;
-    CDUnknownBlockType _allowPopoverToCloseBlock;
-    unsigned long long _preferredEdge;
-    _Bool _detached;
-    _Bool _showsArrow;
-    CDUnknownBlockType _detachCompletionBlock;
-    long long _preferredHorizontalAlignment;
-    _Bool _isRTL;
-    long long _windowAppearance;
-    UINSSceneHostingViewController *_sceneHost;
-    CDUnknownBlockType _setupCompletionHandler;
-    _Bool _sceneCreated;
-    CDUnknownBlockType _deferredUpdateBlock;
-    _Bool _usingSourceItemView;
-    _Bool _shouldConvertToScene;
-    _Bool _isModalInPresentation;
-    _Bool _supportsDetach;
-    _Bool _appkitDidPresent;
-    _Bool _uikitTransitionDidEnd;
-    CDUnknownBlockType _finalizeBlock;
-    id <UIPopoverPresentationControllerSourceItem> _sourceItem;
 }
 
 - (long long);
-- (_Bool);
+- (_Bool)r;
 - (void);
 - (_Bool);
 - (void);
@@ -48,8 +21,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)S
+;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,9 +34,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)B;
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -71,31 +45,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
+- (id)unsignedLongValue;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool appkitDidPresent; // @synthesize appkitDidPresent=_appkitDidPresent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType finalizeBlock; // @synthesize finalizeBlock=_finalizeBlock;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isModalInPresentation; // @synthesize isModalInPresentation=_isModalInPresentation;
-@property(readonly) NSString *sceneIdentifier;
-@property(nonatomic) _Bool shouldConvertToScene; // @synthesize shouldConvertToScene=_shouldConvertToScene;
 @property(nonatomic) __weak id <UIPopoverPresentationControllerSourceItem> sourceItem; // @synthesize sourceItem=_sourceItem;
-@property(readonly) Class superclass;
-@property _Bool supportsDetach; // @synthesize supportsDetach=_supportsDetach;
-@property(nonatomic) _Bool uikitTransitionDidEnd; // @synthesize uikitTransitionDidEnd=_uikitTransitionDidEnd;
-@property(nonatomic) _Bool usingSourceItemView; // @synthesize usingSourceItemView=_usingSourceItemView;
-@property(nonatomic) long long windowAppearance; // @synthesize windowAppearance=_windowAppearance;
 
 @end
 

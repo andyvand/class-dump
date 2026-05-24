@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AMSUIWebAppearance;
+@protocol AMSUIWebPageProvider;
+
 @protocol AMSUIWebPagePresenter
+- (void)addAssertionForAssetsWithQuery:(id <AMSUIWebPageProvider>)arg1 policy:(AMSUIWebAppearance *)arg2 assertionID:clientID: /* Error: Ran out of types for this method. */;
 @end
 

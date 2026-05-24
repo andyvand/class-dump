@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, EKCalendarVisibilityManager, EKEventStore, PPNotificationHandler;
-@protocol NSObject, SGSuggestionsServiceContactsProtocol;
+@class PPNotificationHandler;
 
 @interface PPNotificationManagerGuardedData
 {
     PPNotificationHandler *_contactsHandler;
-    id <NSObject> _contactsToken;
-    CNContactStore *_cnStore;
-    PPNotificationHandler *_meCardHandler;
-    id <NSObject> _meCardToken;
-    id <NSObject> _meCardDonationToken;
-    PPNotificationHandler *_portraitChangeHandler;
-    int _portraitChangeToken;
-    PPNotificationHandler *_portraitInvalidationHandler;
-    int _portraitInvalidationToken;
-    PPNotificationHandler *_eventKitHandler;
-    id <NSObject> _eventKitToken;
-    EKEventStore *_ekStore;
-    PPNotificationHandler *_calendarHandler;
-    EKCalendarVisibilityManager *_calendarVisibilityManager;
-    id <SGSuggestionsServiceContactsProtocol> _suggestionsService;
-    PPNotificationHandler *_suggestionsHandler;
-    id _suggestionsToken;
 }
 
 - (id);

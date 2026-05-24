@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHAsset, PHFace, PHPerson;
+@class PHAsset, PHPerson;
 
 @interface PXChangePersonKeyFaceAction : PXPhotosAction
 {
     PHAsset *_asset;
-    PHFace *_keyFace;
-    PHFace *_keyFaceForUndo;
-    PHPerson *_person;
 }
 
 - (id);
@@ -21,16 +18,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)+;
 - (void);
 - (void);
 - (id);
-- (void)set:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)updateClipForDisplayAsset:usingBlock: /* Error: Ran out of types for this method. */;
 - (id)er for %.0f seconds.;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PHFace *keyFace;
 @property(readonly, nonatomic) PHPerson *person; // @synthesize person=_person;
 
 @end

@@ -4,49 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORegionalResourceRegion
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOTileSetRegion *_tileRanges;
-    unsigned long long _tileRangesCount;
-    unsigned long long _tileRangesSpace;
-    NSMutableArray *_attributions;
-    NSMutableArray *_iconChecksums;
-    NSMutableArray *_icons;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_tileRanges:1;
-        unsigned int read_attributions:1;
-        unsigned int read_iconChecksums:1;
-        unsigned int read_icons:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (_Bool):(id)arg1;
++ (_Bool)setLocationName:(id)arg1;
 - (struct GEOTileSetRegion *);
 - (struct GEOTileSetRegion);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)RFl;
 - (void);
+- (void);
+- (void);
+- (id)o;
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)tegory;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -55,10 +37,10 @@
 - (id);
 - (void);
 - (id)nment"b1"read_requestingAppIdentifier"b1"read_requestingAppMajorVer"b1"read_requestingAppMinorVer"b1"wrote_anyField"b1};
-- (id)SyncStatus;
+- (id)deviceSyncStatus;
 - (id)@;
 - (void)dË;
-- (id);
+- (id)accessInfoFilter;
 - (void);
 - (void)ÿÿ	X;
 - (id)¬;
@@ -79,12 +61,7 @@
 - (void).5;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *attributions;
-@property(retain, nonatomic) NSMutableArray *iconChecksums;
-@property(retain, nonatomic) NSMutableArray *icons;
-@property(readonly, nonatomic) struct GEOTileSetRegion *tileRanges;
 @property(readonly, nonatomic) unsigned long long tileRangesCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

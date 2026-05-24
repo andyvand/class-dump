@@ -4,50 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOVLFCorrection, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOVLFSuccessDetails
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _inlierSuccessIndices;
-    GEOVLFCorrection *_correction;
-    double _poseConfidence;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_poseConfidence:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_inlierSuccessIndices:1;
-        unsigned int read_correction:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)erPoisInView:(id)arg1;
++ (_Bool)setNumberPoisInView:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (double);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)ka;
 - (unsigned int *);
 - (_Bool);
 - (_Bool);
+- (void)initWithManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)tainer",R;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
+- (void)__AUTH_CONST;
+- (id)__cstring;
+- (void)setCurrentHEPAsset:(id)arg1;
+- (id)ndler _purgeCachedIrFilesWithAsset:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -55,19 +41,13 @@
 - (void);
 - (id)	'!@Fùº*1Â0@ù
 × ;
-- (id)xyURL:log: /* Error: Ran out of types for this method. */;
-- (id)Time;
-- (id)dbackSubmission;
+- (id)initWithResource:eTag:auditToken:baseURL:alternateURLs:proxyURL:log: /* Error: Ran out of types for this method. */;
+- (id)hasExpectedTime;
+- (id)RAPFeedbackSubmission;
 - (void)Ûù~j¼ü{@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOVLFCorrection *correction;
 @property(readonly, nonatomic) _Bool hasCorrection;
-@property(nonatomic) _Bool hasPoseConfidence;
-@property(readonly, nonatomic) unsigned int *inlierSuccessIndices;
-@property(readonly, nonatomic) unsigned long long inlierSuccessIndicesCount;
-@property(nonatomic) double poseConfidence;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

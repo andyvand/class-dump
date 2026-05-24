@@ -11,17 +11,16 @@
 @interface SymbolValidator : YQLRequest
 {
     NSArray *_symbols;
-    id _delegate;
 }
 
 - (void);
+- (void)m|;
 - (void);
+- (id);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_generatePrimaryKey;
 
 // Remaining properties
 @property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;

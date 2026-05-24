@@ -5,17 +5,12 @@
 //
 
 @class UIFont;
-@protocol _UIViewMaterial;
 
 @protocol UISegmentedControlGlassStyleProvider
+- (UIFont *);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowFreeSelectionSliding;
 @property(readonly, nonatomic) _Bool alwaysUseConcentricCornerRadius;
-@property(readonly, nonatomic) id <_UIViewMaterial> backgroundMaterial;
-@property(readonly, nonatomic) double defaultHeightWithBackgroundMaterial;
-@property(readonly, nonatomic) UIFont *fontWithBackgroundMaterial;
-@property(readonly, nonatomic) _Bool useC2Animation;
-@property(readonly, nonatomic) _Bool useLensView;
 @end
 

@@ -14,11 +14,11 @@
     id _didFinishLaunchingObserver;
 }
 
-+ (_Bool);
++ (_Bool)-);
 + (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)ionCertificateUUID:(long long)arg1 withSMIMEEnablePerMessageSwitch:(id)arg2 withDisableMailRecentsSyncing:(long long)arg3 withAllowMailDrop:(id)arg4 withIncomingMailServerIMAPPathPrefix:withIncomingCredentials:withOutgoingCredentials:withSMIMESigningOverrideable:withSMIMESigningCertificateUUIDOverrideable:withSMIMEEncryptByDefault:withSMIMEEncryptByDefaultOverrideable:withSMIMEEncryptionCertificateUUIDOverrideable:withSMIMEEnableEncryptionPerMessageSwitch: /* Error: Ran out of types for this method. */;
+- (_Bool)CEMImageDeclaration;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -30,7 +30,7 @@
 - (void)°1Â0@ù
 × ;
 - (_Bool)y:animateChange:dismissible: /* Error: Ran out of types for this method. */;
-- (_Bool)vider;
+- (_Bool)_disclosureLayoutWidthProvider;
 - (_Bool)r of dimensions;
 - (long long)e *const __strong, BOOL)_block_invoke_4;
 - (void);

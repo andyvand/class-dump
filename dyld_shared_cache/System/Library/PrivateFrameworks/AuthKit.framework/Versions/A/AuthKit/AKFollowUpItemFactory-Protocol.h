@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSArray, NSString;
 
 @protocol AKFollowUpItemFactory
+- (NSArray *)I�#;
+- (void);
 - (void)angePasswordController",&,N,V_changePasswordController;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIconName;
 @property(copy, nonatomic) NSString *extensionIdentifier;
-@property(copy, nonatomic) NSString *representingBundlePath;
 @end
 

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, NSView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void)";
+- (NSView *)Ҭ;
+- (NSString *);
+- (NSArray *);
 @end
 

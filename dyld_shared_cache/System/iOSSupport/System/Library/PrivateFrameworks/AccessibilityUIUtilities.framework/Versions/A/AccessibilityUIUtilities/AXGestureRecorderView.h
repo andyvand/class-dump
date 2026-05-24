@@ -6,41 +6,24 @@
 
 #import <AccessibilityUIUtilities/AXGestureRecorderGradientView.h>
 
-@class AXGestureRecorderStyleProvider, NSMutableArray, NSMutableDictionary, NSString, UIAccessibilityCustomAction, UIColor, UIView;
-@protocol AXGestureRecorderViewDelegate;
+@class UIView;
 
 @interface AXGestureRecorderView : AXGestureRecorderGradientView
 {
     double _freezeDryStartTime;
-    double _freezeDryDrawPercentage;
-    double _freezeDryStartIndex;
-    NSMutableArray *_freezedDynamicPaths;
-    NSMutableDictionary *_activeLayers;
-    NSMutableDictionary *_instantReplayViews;
-    NSMutableArray *_staticLayers;
-    NSMutableArray *_transitionLayers;
-    _Bool _replayMode;
-    id <AXGestureRecorderViewDelegate> _dataSource;
-    AXGestureRecorderStyleProvider *_styleProvider;
-    UIView *_dynamicFingerPathsContainerView;
-    UIColor *_dynamicFingerPathBackgroundGradientPatternColor;
-    UIAccessibilityCustomAction *_hideControlsAction;
-    UIAccessibilityCustomAction *_showControlsAction;
-    NSMutableDictionary *_previouslyActiveLayersByInstantReplayFingerIndex;
-    struct CGRect _constrainedBoundsForDrawing;
 }
 
 - (void);
-- (id);
+- (id)|;
+- (void)|;
+- (void)|;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)|;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)z;
 - (id);
 - (void);
 - (void);
@@ -49,16 +32,16 @@
 - (id);
 - (void);
 - (struct CGRect);
-- (void);
-- (void);
+- (void)�h|;
+- (void).O|;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)h|;
+- (id);
+- (void)h|;
+- (void);
+- (void)*{;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -68,8 +51,8 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void)rCallbacks>";
 - (id);
 - (void);
 - (void);
@@ -79,22 +62,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) struct CGRect constrainedBoundsForDrawing; // @synthesize constrainedBoundsForDrawing=_constrainedBoundsForDrawing;
-@property(nonatomic) __weak id <AXGestureRecorderViewDelegate> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIColor *dynamicFingerPathBackgroundGradientPatternColor; // @synthesize dynamicFingerPathBackgroundGradientPatternColor=_dynamicFingerPathBackgroundGradientPatternColor;
 @property(retain, nonatomic) UIView *dynamicFingerPathsContainerView; // @synthesize dynamicFingerPathsContainerView=_dynamicFingerPathsContainerView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIAccessibilityCustomAction *hideControlsAction; // @synthesize hideControlsAction=_hideControlsAction;
-@property(retain, nonatomic) NSMutableDictionary *previouslyActiveLayersByInstantReplayFingerIndex; // @synthesize previouslyActiveLayersByInstantReplayFingerIndex=_previouslyActiveLayersByInstantReplayFingerIndex;
-@property(nonatomic) _Bool replayMode; // @synthesize replayMode=_replayMode;
-@property(retain, nonatomic) UIAccessibilityCustomAction *showControlsAction; // @synthesize showControlsAction=_showControlsAction;
-@property(retain, nonatomic) AXGestureRecorderStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(readonly) Class superclass;
 
 @end
 

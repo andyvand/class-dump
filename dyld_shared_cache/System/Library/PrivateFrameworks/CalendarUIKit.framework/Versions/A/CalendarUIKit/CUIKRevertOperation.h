@@ -13,13 +13,13 @@
     EKChangeTracker *_originalChangeTracker;
 }
 
-+ (id)­á@­;
-- (void)ìò1	?×;
-- (id)ªðªñ	ªñÇåò0ÁÚ	"@ù(=;
-- (Class)àªý{Á¨ÿ#ÕÀ_Ö#Õý{¿©ý;
-- (id)@8ÔR@¹(6#Õý{¿©ý;
-- (_Bool)àò	?×»Wøh@øàªáªñªàò	?× YøÕ	;
++ (id);
+- (void);
 - (id);
+- (Class);
+- (id);
+- (_Bool);
+- (id)StatePrecedingNonAcousticWordRequired;
 - (void)6@32;
 
 // Remaining properties

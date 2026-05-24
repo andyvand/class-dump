@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSWPCTTypesetterCache, TSWPStorage;
 @protocol TSWPLayoutOwner;
 
 @interface TSWPLayoutManager
 {
     id <TSWPLayoutOwner> _owner;
-    TSWPStorage *_storage;
-    _Bool _isObservingStorage;
-    _Bool _useLigatures;
-    long long _delta;
-    struct _NSRange _dirtyRange;
-    TSWPCTTypesetterCache *_typesetterCache;
-    struct TSWPTopicNumberHints _cachedTopicNumbers;
 }
 
 + (void);
-- (void);
-- (void);
-- (void);
+- (void)SError"16;
+- (void)ither storeIDs or sectionedModelObjects;
+- (void)sessionStartItem;
 - (int);
 - (_Bool);
 - (void *);
@@ -31,23 +23,20 @@
 - (id);
 - (void);
 - (struct _NSRange);
+- (void)PlaybackHistoryConsumer;
 - (void);
-- (void);
-- (void);
+- (void)CFString;
+- (void)MPAVItemPlaybackErrorResolutionType;
+- (id)};
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)QKitLayoutSchemataStackLine;
+- (void)EQKitLayoutSchemataStackLine;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange dirtyRange; // @synthesize dirtyRange=_dirtyRange;
 @property(readonly, nonatomic) id <TSWPLayoutOwner> owner; // @synthesize owner=_owner;
-@property(readonly, retain, nonatomic) TSWPStorage *storage; // @synthesize storage=_storage;
-@property(readonly, retain, nonatomic) TSWPCTTypesetterCache *typesetterCache;
 
 @end
 

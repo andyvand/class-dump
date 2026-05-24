@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSString;
+@class INImage;
 
 @interface IMDINInteractionDonationController
 {
     INImage *_buildingSilhouette;
 }
 
-+ (id);
++ (id)leInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDIAPInfoResponse_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -23,13 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) INImage *buildingSilhouette; // @synthesize buildingSilhouette=_buildingSilhouette;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -21,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)I	;
 - (id);
-- (_Bool);
+- (_Bool)nceEventType:(struct CGPoint)arg1 completionHandler:] /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (id);
 - (void);

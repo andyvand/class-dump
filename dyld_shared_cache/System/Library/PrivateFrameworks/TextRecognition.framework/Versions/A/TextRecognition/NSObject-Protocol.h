@@ -7,15 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (id);
+- (id);
+- (Class)d;
+- (_Bool)BuildVersion:(Class)arg1;
+- (id)removeObserverForOneTimeCode: /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)ePredictor _decodeEspressoOutput:forFields:locale:updateExternal:] /* Error: Ran out of types for this method. */;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)P;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

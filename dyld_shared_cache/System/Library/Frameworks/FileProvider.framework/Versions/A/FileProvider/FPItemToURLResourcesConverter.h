@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface FPItemToURLResourcesConverter
 {
     NSMutableDictionary *_gettersByURLKey;
-    NSMutableDictionary *_typesByURLKey;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)ntKeySession was released;
 - (void);
 - (void);
 - (id);

@@ -7,6 +7,10 @@
 @protocol WPXPCDaemonProtocol
 
 @optional
+- (void)String",C,N,V_fallbackHash;
+- (void);
+- (void)ailed to write image preview at %@;
+- (void)lBuffer;
 - (void)è¤;
 - (void)received for a type that doesn't support it (%ld);
 - (void).;

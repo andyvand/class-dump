@@ -6,37 +6,27 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class NSArray, NSDictionary;
 
 @interface AAQuotaInfoResponse : AAResponse
 {
     NSDictionary *_quotaInfo;
-    NSDictionary *_endPoints;
-    NSDictionary *_storageInfo;
-    NSDictionary *_storageMeterLabel;
-    NSArray *_usage;
 }
 
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)apple.quicklook.thumbnail;
+- (void)com.apple.Safari.content-blocker;
+- (id)nying plugin:%s because Family Controls rejected due to reason:%d /* Error: Ran out of types for this method. */;
+- (_Bool)codePolicy kPasscodeRequireAlphanumeric newpolicy = %s;
+- (id)%d;
+- (void)isallowing because MDM protocol version > 1;
 - (id);
 - (id);
-- (void)countUIURL;
+- (id);
+- (id);
+- (void)repairCloudAccountUIURL;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *availableStorageInBytes;
-@property(readonly, nonatomic) NSString *displayLabel;
-@property(readonly, nonatomic) _Bool hasMaxTier;
-@property(readonly, nonatomic) NSURL *manageStorageURL;
-@property(readonly, nonatomic) NSNumber *totalStorageInBytes;
 @property(readonly, nonatomic) NSArray *usage; // @synthesize usage=_usage;
-@property(readonly, nonatomic) NSNumber *usedStorageInBytes;
 
 @end
 

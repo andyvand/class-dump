@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _NSAccessibilityOverriddenAttributeUIElementValue
 {
     NSValue *_value;
-    id _elementValue;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

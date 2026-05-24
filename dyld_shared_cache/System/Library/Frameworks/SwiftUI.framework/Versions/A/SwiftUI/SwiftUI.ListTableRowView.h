@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface SwiftUI.ListTableRowView
 {
     id backgroundHost;
-    id defaultBackgroundColor;
-    id separatorConfiguration;
-    id _defaultSeparatorConfiguration;
-    id _defaultSeparatorInsets;
-    id defaultUnemphasizedSelectionColor;
-    id _isLastRow;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)F;
 - (double);
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool)tBackground;
+- (id)%;
+- (_Bool)scrollContentBackground;
 - (void)'Ç¢;G;
-- (void)sformGestureAnchorHelper;
+- (void)TransformGestureAnchorHelper;
 - (_Bool);
 - (id)70Ö¾þ}É]7Ä=¾þMÉ]7(Ö¾þ;
 - (void)`7P:(id)arg1;
 
 // Remaining properties
-@property(nonatomic, readonly) double _floatingGroupRowPopLineOffsetFromTop;
-@property(nonatomic, readonly) struct CGRect _separatorRect;
-@property(nonatomic, readonly) _Bool _wantsDefaultBackgroundDrawingBehavior;
-@property(nonatomic) _Bool emphasized;
 @property(nonatomic) _Bool selected;
-@property(nonatomic, retain) NSColor *separatorColor;
 
 @end
 

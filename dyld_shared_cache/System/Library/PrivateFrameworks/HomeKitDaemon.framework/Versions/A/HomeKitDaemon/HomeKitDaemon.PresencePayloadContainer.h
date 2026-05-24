@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HomeKitDaemon.ResidentStatusProtobufSerializerPreferredResidentsList, HomeKitDaemon.ResidentStatusProtobufSerializerResidentSelectionInfo, NSDate, NSDictionary, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface HomeKitDaemon.PresencePayloadContainer
 {
     NSUUID *deviceIDSIdentifier;
-    NSDate *publishTime;
-    void softwareVersion;
-    NSNumber *location;
-    NSNumber *networkConnectionType;
-    NSNumber *hasReachableAccessories;
-    void generationID;
-    HomeKitDaemon.ResidentStatusProtobufSerializerPreferredResidentsList *preferredResidentsList;
-    HomeKitDaemon.ResidentStatusProtobufSerializerResidentSelectionInfo *selectionInfo;
-    void domainDataPairs;
 }
 
 - (id);
@@ -36,15 +27,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSUUID *deviceIDSIdentifier; // @synthesize deviceIDSIdentifier;
-@property(nonatomic, readonly) NSDictionary *domainDataPairs;
-@property(nonatomic, readonly) NSString *generationID;
-@property(nonatomic, readonly) NSNumber *hasReachableAccessories; // @synthesize hasReachableAccessories;
-@property(nonatomic, readonly) NSNumber *location; // @synthesize location;
-@property(nonatomic, readonly) NSNumber *networkConnectionType; // @synthesize networkConnectionType;
-@property(nonatomic, readonly) HomeKitDaemon.ResidentStatusProtobufSerializerPreferredResidentsList *preferredResidentsList; // @synthesize preferredResidentsList;
-@property(nonatomic, readonly) NSDate *publishTime; // @synthesize publishTime;
-@property(nonatomic, readonly) HomeKitDaemon.ResidentStatusProtobufSerializerResidentSelectionInfo *selectionInfo; // @synthesize selectionInfo;
-@property(nonatomic, readonly) NSString *softwareVersion;
 
 @end
 

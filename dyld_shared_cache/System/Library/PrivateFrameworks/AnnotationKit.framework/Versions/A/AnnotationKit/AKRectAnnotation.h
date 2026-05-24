@@ -15,9 +15,9 @@
 + (_Bool);
 - (id);
 - (struct CGRect);
+- (id)Pad;
 - (id);
-- (id);
-- (id);
+- (id)5<;
 - (void);
 - (double);
 - (void);

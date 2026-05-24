@@ -6,16 +6,11 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class CKShareMetadata, NSData, NSString;
-@protocol CKInitiateParticipantVettingOperationCallbacks><CKDOperationCallbackProxy;
+@class CKShareMetadata;
 
 @interface CKDInitiateParticipantVettingOperation : CKDOperation
 {
     CDUnknownBlockType _participantVettingProgressBlock;
-    CKShareMetadata *_shareMetadata;
-    NSData *_encryptedKey;
-    NSString *_participantID;
-    NSString *_address;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)placeholderImage;
 - (id);
 - (void);
 - (void);
@@ -34,17 +29,12 @@
 - (id);
 - (void);
 - (id);
-- (int);
+- (int)__WiFiCloudSyncEngineRemoveFromWaitingForPasswordList;
 - (id);
-- (id)intervalLengthSec;
+- (id)_intervalLengthSec;
 - (void)entity on PCS;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *address; // @synthesize address=_address;
-@property(retain, nonatomic) id <CKInitiateParticipantVettingOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(retain, nonatomic) NSData *encryptedKey; // @synthesize encryptedKey=_encryptedKey;
-@property(retain, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(copy, nonatomic) CDUnknownBlockType participantVettingProgressBlock; // @synthesize participantVettingProgressBlock=_participantVettingProgressBlock;
 @property(retain, nonatomic) CKShareMetadata *shareMetadata; // @synthesize shareMetadata=_shareMetadata;
 
 @end

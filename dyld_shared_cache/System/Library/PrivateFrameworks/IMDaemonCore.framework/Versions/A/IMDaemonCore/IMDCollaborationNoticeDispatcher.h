@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, IMDCollaborationClearNoticeRateLimiter, IMDCollaborationNoticeRateLimiter, NSString;
+@class IDSService;
 @protocol IMDCollaborationNoticeDispatcherDelegate;
 
 @interface IMDCollaborationNoticeDispatcher
 {
     id <IMDCollaborationNoticeDispatcherDelegate> _delegate;
-    IMDCollaborationNoticeRateLimiter *_rateLimiter;
-    IMDCollaborationClearNoticeRateLimiter *_clearRateLimiter;
-    IDSService *_gelatoService;
 }
 
 + (unsigned long long);
@@ -40,17 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IMDCollaborationClearNoticeRateLimiter *clearRateLimiter; // @synthesize clearRateLimiter=_clearRateLimiter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMDCollaborationNoticeDispatcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) IDSService *gelatoService; // @synthesize gelatoService=_gelatoService;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMDCollaborationNoticeRateLimiter *rateLimiter; // @synthesize rateLimiter=_rateLimiter;
-@property(readonly) Class superclass;
 
 @end
 

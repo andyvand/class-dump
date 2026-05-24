@@ -7,6 +7,7 @@
 @class MAGraphReference;
 
 @protocol MAGraphProxy
+- (MAGraphReference *);
 
 // Remaining properties
 @property(readonly) MAGraphReference *graphReference;

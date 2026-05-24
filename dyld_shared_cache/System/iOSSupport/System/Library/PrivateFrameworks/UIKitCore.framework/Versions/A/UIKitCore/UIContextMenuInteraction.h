@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, UIContextMenuConfiguration, UIMenu, UIView, _UIClickPresentationInteraction, _UIContextMenuAnimator, _UIContextMenuPresentation;
-@protocol UIContextMenuInteractionDelegate, UIMenuLeaf;
-
 @interface UIContextMenuInteraction
 {
     struct {
@@ -33,24 +30,9 @@
         _Bool _dci_secondaryDismissalPreview;
         _Bool willCommit;
     } _delegateImplements;
-    _Bool __requiresTouchAuthentication;
-    _Bool __useSenderAsResponderSender;
-    _Bool __ignorePreviewForDismissingDelegate;
-    UIView *_view;
-    _UIClickPresentationInteraction *_presentationInteraction;
-    id <UIContextMenuInteractionDelegate> _delegate;
-    UIContextMenuConfiguration *_pendingConfiguration;
-    NSMutableDictionary *_configurationsByIdentifier;
-    NSMutableDictionary *_presentationsByIdentifier;
-    _UIContextMenuPresentation *_outgoingPresentation;
-    _UIContextMenuAnimator *_pendingCommitAnimator;
-    UIMenu *_currentlyVisibleMenu;
-    id __proxySender;
-    id <UIMenuLeaf> __selectedMenuLeaf;
-    struct CGPoint _stashedLocation;
 }
 
-+ (id);
++ (id)__bss;
 + (void)Áÿ°!Dù±Xð1Â0@ù
 × ;
 

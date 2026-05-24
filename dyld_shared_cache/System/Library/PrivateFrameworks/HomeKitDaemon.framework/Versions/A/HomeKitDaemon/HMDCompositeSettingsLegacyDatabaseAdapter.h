@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCompositeSettingsZoneManager, NSObject, NSString;
+@class NSObject;
 @protocol HMDCompositeSettingsDatabaseAdapterDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingsLegacyDatabaseAdapter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id _rawDatabase;
-    id <HMDCompositeSettingsDatabaseAdapterDelegate> _delegate;
-    HMDCompositeSettingsZoneManager *_zoneManager;
-    Class _modelClass;
 }
 
 + (id)]tÿ8	H¼B;
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)listener:(id)arg1 shouldAcceptNewConnection: /* Error: Ran out of types for this method. */;
+- (void)initWithDelegate:(id)arg1 queue:label: /* Error: Ran out of types for this method. */;
+- (id)u;
+- (id)P;
 - (id);
 - (void);
 - (id);
@@ -36,18 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <HMDCompositeSettingsDatabaseAdapterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) Class modelClass; // @synthesize modelClass=_modelClass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) __weak id rawDatabase; // @synthesize rawDatabase=_rawDatabase;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak HMDCompositeSettingsZoneManager *zoneManager; // @synthesize zoneManager=_zoneManager;
 
 @end
 

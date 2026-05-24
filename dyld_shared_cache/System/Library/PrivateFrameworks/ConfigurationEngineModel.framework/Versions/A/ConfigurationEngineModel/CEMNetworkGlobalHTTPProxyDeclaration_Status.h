@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
++ (id)s/A/CoreMedia;
 + (id);
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)uption notification:(id)arg1 %@;
 
 @end
 

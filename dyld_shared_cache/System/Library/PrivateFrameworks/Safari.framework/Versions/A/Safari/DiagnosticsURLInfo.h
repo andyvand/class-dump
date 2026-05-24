@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface DiagnosticsURLInfo
 {
     NSString *_url;
-    double _visitTime;
 }
 
 - (id);
-- (id);
-- (double);
+- (id)o;
+- (double);
 - (id)1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *url; // @synthesize url=_url;
-@property(readonly) double visitTime; // @synthesize visitTime=_visitTime;
 
 @end
 

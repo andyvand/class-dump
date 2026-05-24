@@ -7,14 +7,12 @@
 @interface RemindersUICore.TTRMQuickBarTimePickerViewController
 {
     id presenter;
-    id $__lazy_storage_$_pickerView;
-    id suggestionMenuUtils;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool)on menu option title;
 

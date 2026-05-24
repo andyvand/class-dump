@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAppIdentifier, INHomeAutomationEntityProvider, INSpeakerIDInfo, INWholeHouseAudioMetadata, NSNumber, NSString;
+@class INSpeakerIDInfo;
 
 @interface INPrivateMediaIntentData
 {
     INSpeakerIDInfo *_speakerIDInfo;
-    INAppIdentifier *_proxiedThirdPartyAppInfo;
-    NSNumber *_isAppAttributionRequired;
-    NSNumber *_useDialogMemoryForAttribution;
-    NSNumber *_isAppCorrection;
-    NSString *_fallbackUsername;
-    INWholeHouseAudioMetadata *_wholeHouseAudioMetadata;
-    NSNumber *_nlConfidenceScore;
-    long long _nlConfidenceLevel;
-    NSNumber *_asrConfidenceScore;
-    long long _asrConfidenceLevel;
-    NSString *_resolvedSharedUserID;
-    INHomeAutomationEntityProvider *_homeAutomationEntityProvider;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)P;
 - (id);
 - (id);
 - (id);
@@ -34,51 +22,32 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
+- (id)M;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
+- (id)defaultIdentifier;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)hasPrefix:(id)arg1;
+- (void)[corewifi] %{public}s Current denyList:(id)arg1;
 - (id);
 - (id);
-- (id)ntToConfirm:(unsigned long long)arg1;
-- (void)onsForAddTasks:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)confirmationRequiredWithRestaurantToConfirm:(unsigned long long)arg1;
+- (void)provideContactEventTriggerOptionsForAddTasks:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)çÀÿ;
 
 // Remaining properties
-@property(readonly) long long asrConfidenceLevel; // @synthesize asrConfidenceLevel=_asrConfidenceLevel;
-@property(readonly, copy) NSNumber *asrConfidenceScore; // @synthesize asrConfidenceScore=_asrConfidenceScore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *fallbackUsername; // @synthesize fallbackUsername=_fallbackUsername;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) INHomeAutomationEntityProvider *homeAutomationEntityProvider; // @synthesize homeAutomationEntityProvider=_homeAutomationEntityProvider;
-@property(copy) NSNumber *isAppAttributionRequired; // @synthesize isAppAttributionRequired=_isAppAttributionRequired;
-@property(readonly, copy) NSNumber *isAppCorrection; // @synthesize isAppCorrection=_isAppCorrection;
-@property(readonly) long long nlConfidenceLevel; // @synthesize nlConfidenceLevel=_nlConfidenceLevel;
-@property(readonly, copy) NSNumber *nlConfidenceScore; // @synthesize nlConfidenceScore=_nlConfidenceScore;
-@property(copy) INAppIdentifier *proxiedThirdPartyAppInfo; // @synthesize proxiedThirdPartyAppInfo=_proxiedThirdPartyAppInfo;
-@property(copy) NSString *resolvedSharedUserID; // @synthesize resolvedSharedUserID=_resolvedSharedUserID;
 @property(copy) INSpeakerIDInfo *speakerIDInfo; // @synthesize speakerIDInfo=_speakerIDInfo;
-@property(readonly) Class superclass;
-@property(copy) NSNumber *useDialogMemoryForAttribution; // @synthesize useDialogMemoryForAttribution=_useDialogMemoryForAttribution;
-@property(readonly, copy) INWholeHouseAudioMetadata *wholeHouseAudioMetadata; // @synthesize wholeHouseAudioMetadata=_wholeHouseAudioMetadata;
 
 @end
 

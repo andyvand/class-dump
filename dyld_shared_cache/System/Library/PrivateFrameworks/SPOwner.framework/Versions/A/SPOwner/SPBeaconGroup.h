@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSSet, NSString, NSUUID, SPLostModeInfo;
-
 @interface SPBeaconGroup
 {
     _Bool _isPairingComplete;
-    _Bool _isClassicConnected;
-    _Bool _isConnected;
-    _Bool _isFindMyNetworkEnabled;
-    NSUUID *_identifier;
-    NSString *_name;
-    NSSet *_beaconIdentifiers;
-    NSData *_macAddress;
-    long long _status;
-    long long _classification;
-    NSDictionary *_beaconMap;
-    NSDictionary *_taskInformation;
-    SPLostModeInfo *_lostModeInfo;
-    NSSet *_multipartStatus;
-    long long _version;
 }
 
-+ (_Bool);
++ (_Bool)0;
 - (void);
 - (void);
 - (void);
@@ -47,38 +31,24 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ntJoinFaceTimeFromFaceTimeButton;
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)z;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void)ectionToken:(_Bool)arg1 nearbyToken:primaryIndex:secondaryIndex:type: /* Error: Ran out of types for this method. */;
+- (void)initWithBeaconingKey:(_Bool)arg1 commandKey:connectionToken:nearbyToken:primaryIndex:secondaryIndex:type: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *beaconIdentifiers; // @synthesize beaconIdentifiers=_beaconIdentifiers;
-@property(copy, nonatomic) NSDictionary *beaconMap; // @synthesize beaconMap=_beaconMap;
-@property(nonatomic) long long classification; // @synthesize classification=_classification;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isClassicConnected; // @synthesize isClassicConnected=_isClassicConnected;
-@property(nonatomic) _Bool isConnected; // @synthesize isConnected=_isConnected;
-@property(nonatomic) _Bool isFindMyNetworkEnabled; // @synthesize isFindMyNetworkEnabled=_isFindMyNetworkEnabled;
-@property(nonatomic) _Bool isPairingComplete; // @synthesize isPairingComplete=_isPairingComplete;
-@property(copy, nonatomic) SPLostModeInfo *lostModeInfo; // @synthesize lostModeInfo=_lostModeInfo;
-@property(copy, nonatomic) NSData *macAddress; // @synthesize macAddress=_macAddress;
-@property(copy, nonatomic) NSSet *multipartStatus; // @synthesize multipartStatus=_multipartStatus;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(copy, nonatomic) NSDictionary *taskInformation; // @synthesize taskInformation=_taskInformation;
 @property(nonatomic) long long version; // @synthesize version=_version;
 
 @end

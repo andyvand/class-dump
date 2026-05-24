@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKCardViewDataSource, CNObservable, CNPublishingSubject, NSMutableArray;
+@class CNPublishingSubject;
 
 @interface CNContactCardViewControlContext
 {
     _Bool _editingRestricted;
-    unsigned long long _mode;
-    CNPublishingSubject *_cardStateObservable;
-    NSMutableArray *_observers;
-    AKCardViewDataSource *_dataSource;
 }
 
 - (void);
@@ -23,25 +19,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long)!;
+- (void)	;
 - (id);
-- (id);
-- (void);
+- (id)t;
+- (void)0S;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canEditContact;
-@property(readonly, nonatomic) _Bool canSelectContact;
 @property(retain, nonatomic) CNPublishingSubject *cardStateObservable; // @synthesize cardStateObservable=_cardStateObservable;
-@property(readonly, nonatomic) CNObservable *contactCardStateObservable;
-@property(retain, nonatomic) AKCardViewDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) _Bool editingRestricted; // @synthesize editingRestricted=_editingRestricted;
-@property(readonly, nonatomic) _Bool isDirectoryResult;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) NSMutableArray *observers; // @synthesize observers=_observers;
 
 @end
 

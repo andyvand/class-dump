@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, SASRecognition;
+@class SASRecognition;
 
 @interface SAUIShowSpeechAlternatives : SABaseClientBoundCommand
 {
@@ -16,18 +16,16 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (id)LING;
+- (_Bool)C;
+- (id)ALREADY_HEATING_OR_COOLING;
 
 // Remaining properties
 @property(retain, nonatomic) SASRecognition *recognition;
-@property(copy, nonatomic) NSString *requestId;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

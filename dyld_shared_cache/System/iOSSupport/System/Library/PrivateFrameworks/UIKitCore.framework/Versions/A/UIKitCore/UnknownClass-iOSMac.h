@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (iOSMac)
-- (CDStruct_c3b9c2ee);
+- (CDStruct_c3b9c2ee)will update:(struct CGSize)arg1 %@;
 @end
 

@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDisplay, NSString;
+@class BKSHIDEventDisplay;
 
 @interface BKSEventDeferringChainIdentity
 {
     BKSHIDEventDisplay *_display;
-    BKSHIDEventDeferringEnvironment *_environment;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)AAEscrowRecordErrors;
 + (_Bool);
 - (id);
 - (id);
+- (id)removeObjectAtIndex:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)decayRate;
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)[/;
 - (id);
 - (void);
 - (id)q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) BKSHIDEventDisplay *display;
-@property(readonly, nonatomic) BKSHIDEventDeferringEnvironment *environment;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

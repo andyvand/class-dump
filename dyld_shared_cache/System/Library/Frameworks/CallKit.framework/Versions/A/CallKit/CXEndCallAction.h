@@ -14,16 +14,16 @@
 }
 
 + (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)MPPlaybackUserDefaultsSoundCheckEnabledDidChangeNotification;
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *dateEnded; // @synthesize dateEnded=_dateEnded;

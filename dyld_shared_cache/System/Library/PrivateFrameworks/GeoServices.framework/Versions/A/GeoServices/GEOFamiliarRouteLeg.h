@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOFamiliarRouteLeg
 {
     PBUnknownFields *_unknownFields;
-    double _likelihood;
-    NSData *_pathLeg;
-    unsigned int _beginTimestamp;
-    unsigned int _endTimestamp;
-    int _transportType;
-    unsigned int _usualTraversalTimeSeconds;
-    struct {
-        unsigned int has_likelihood:1;
-        unsigned int has_beginTimestamp:1;
-        unsigned int has_endTimestamp:1;
-        unsigned int has_transportType:1;
-        unsigned int has_usualTraversalTimeSeconds:1;
-    } _flags;
 }
 
 + (_Bool)setHasRequestStart:(id)arg1;
@@ -32,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (_Bool)6Q24@?32@40@48;
+- (_Bool)resourceLock_validateKey: /* Error: Ran out of types for this method. */;
+- (_Bool)objectWithData:options:error: /* Error: Ran out of types for this method. */;
+- (_Bool)dateFromDayComponents: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (_Bool);
 - (id);
@@ -46,20 +33,20 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)CSAudioStopStreamOption"24@"NSString"32;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)e = %{public}@;
+- (void)eDSReceiveFailed;
 - (id)1Â0@ù
 × ;
 - (int)<v@?@"NSArray"@"NSError">72;
 - (void)Info"b1"wrote_anyField"b1};
-- (id);
-- (id)ion;
+- (id)setHasThrottleTriggerDuration:(struct _NSZone *)arg1;
+- (id)_GEODirectionsServiceRequestBuilder_DrivingToWalkingTransition;
 - (id)eedbackRequest.class];
 - (id);
 - (void);
@@ -69,19 +56,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) unsigned int beginTimestamp;
-@property(nonatomic) unsigned int endTimestamp;
-@property(nonatomic) _Bool hasBeginTimestamp;
-@property(nonatomic) _Bool hasEndTimestamp;
-@property(nonatomic) _Bool hasLikelihood;
-@property(readonly, nonatomic) _Bool hasPathLeg;
 @property(nonatomic) _Bool hasTransportType;
-@property(nonatomic) _Bool hasUsualTraversalTimeSeconds;
-@property(nonatomic) double likelihood;
-@property(retain, nonatomic) NSData *pathLeg;
-@property(nonatomic) int transportType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int usualTraversalTimeSeconds;
 
 @end
 

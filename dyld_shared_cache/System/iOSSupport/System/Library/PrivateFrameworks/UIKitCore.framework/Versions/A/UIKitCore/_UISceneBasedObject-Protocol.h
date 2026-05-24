@@ -10,7 +10,7 @@
 - (_Bool);
 - (UIWindowScene *)UIFocusGroup * _Nonnull __strong, _UIFocusGroup * _Nonnull __strong);
 - (id)byte data;
-- (NSDictionary *)wDegreees;
+- (NSDictionary *)edgeAngleWindowDegreees;
 
 // Remaining properties
 @property(readonly) UIWindowScene *_intendedScene;

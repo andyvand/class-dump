@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol EDSearchableIndexSchedulable
+- (NSString *);
 
 // Remaining properties
 @property(nonatomic, getter=isDataSourceIndexingPermitted) _Bool dataSourceIndexingPermitted;
-@property(readonly, copy, nonatomic) NSString *indexName;
-@property(readonly, nonatomic, getter=isPluggedIn) _Bool pluggedIn;
 @end
 

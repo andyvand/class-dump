@@ -7,31 +7,20 @@
 @interface GEOURLCamera
 {
     double _altitude;
-    double _heading;
-    double _latitude;
-    double _longitude;
-    double _pitch;
-    struct {
-        unsigned int has_altitude:1;
-        unsigned int has_heading:1;
-        unsigned int has_latitude:1;
-        unsigned int has_longitude:1;
-        unsigned int has_pitch:1;
-    } _flags;
 }
 
-+ (_Bool)NetworkOrigin:(id)arg1;
++ (_Bool)setNetworkOrigin:(id)arg1;
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)=dd}{CGSize=dd}},N,V_box;
+- (void),V_detectorDescriptorsCache;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)optionForFlexibleFollowupWithAudioRecordType:(id)arg1 deviceId: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -43,13 +32,13 @@
 - (id);
 - (double)xtLine"b1"has_shouldOmitSpacingDelimiter"b1};
 - (void)teryCharge"b1"has_currentBatteryPercentage"b1"has_lastSocUpdateDate"b1"has_lowBatteryCharge"b1"has_maxBatteryCharge"b1"has_maxRange"b1"has_minBatteryCharge"b1"has_isCharging"b1"read_unknownFields"b1"read_chargerPlugsInfo"b1"read_chargingArguments"b1"read_consumptionArguments"b1"read_vehicleArguments"b1"read_vehicleIdentifier"b1"wrote_anyField"b1};
-- (id)gments: /* Error: Ran out of types for this method. */;
-- (double)dexs;
+- (id)initWithFamiliarRouteUUID:segments: /* Error: Ran out of types for this method. */;
+- (double)clearSelectedRideIndexs;
 - (id)onsRequestDetails",&,N;
-- (double)nningTrackFeedback;
+- (double)GEORPRunningTrackFeedback;
 - (id)4@?0@?<v@?@"GEOMapFeatureRoad">8@?<v@?@"NSError">16;
-- (void)STATUS_MISSING_MODEL_ERROR;
-- (double)e;
+- (void)MIF_AUTOCOMPLETE_RESPONSE_STATUS_MISSING_MODEL_ERROR;
+- (double)isArticle;
 - (_Bool)`;
 - (void);
 - (void)Y;
@@ -57,16 +46,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double altitude;
-@property(nonatomic) _Bool hasAltitude;
-@property(nonatomic) _Bool hasHeading;
 @property(nonatomic) _Bool hasLatitude;
-@property(nonatomic) _Bool hasLongitude;
-@property(nonatomic) _Bool hasPitch;
-@property(nonatomic) double heading;
-@property(nonatomic) double latitude;
-@property(nonatomic) double longitude;
-@property(nonatomic) double pitch;
 
 @end
 

@@ -4,49 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSString, NSURLRequest, NSURLSession, NSURLSessionTask;
+@class NSURLSession;
 
 @interface YQLRequest
 {
     NSURLSession *_defaultSession;
-    NSURLSessionTask *_dataTask;
-    NSURLRequest *_request;
-    NSMutableData *_rawData;
 }
 
 + (_Bool);
++ (void)m;
 + (void);
 + (void);
-+ (void);
+- (id)Ƌ{;
+- (void);
+- (void);
+- (void)a&z;
+- (void);
+- (id)in|;
+- (void);
+- (void);
+- (id)Al;
+- (id)0_(u;
+- (void);
+- (void)0;
+- (void);
+- (void)`"kn;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)P;
+- (void);
+- (void)_globalDefaultsChanged: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

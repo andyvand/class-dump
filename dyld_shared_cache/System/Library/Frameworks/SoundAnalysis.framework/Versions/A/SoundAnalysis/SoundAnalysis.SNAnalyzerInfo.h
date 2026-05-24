@@ -7,10 +7,6 @@
 @interface SoundAnalysis.SNAnalyzerInfo
 {
     id request;
-    id analyzerHost;
-    id sharedProcessor;
-    id configured;
-    id configurationError;
 }
 
 @end

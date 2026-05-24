@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOOriginalRoute
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSData *_originalDirectionsResponseID;
-    NSData *_routeHandle;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _originalRoutePurpose;
-    unsigned int _routeIndex;
-    struct {
-        unsigned int has_originalRoutePurpose:1;
-        unsigned int has_routeIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_originalDirectionsResponseID:1;
-        unsigned int read_routeHandle:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tHasUseMetricThreshold:(id)arg1;
++ (_Bool)setHasUseMetricThreshold:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -41,15 +25,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (int);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)en"16@"NSObject<OS_tcc_identity>"24;
+- (int)setString:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (id);
+- (void)setUserCanChangePicture:(_Bool)arg1;
+- (void)parseJapaneseName:(id)arg1;
+- (id);
+- (void)hController _startTwoShotFeedbackDecisionForDetectionAtTime:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -57,22 +41,14 @@
 - (id);
 - (void);
 - (id)@"GEOClientCapabilities";
-- (id)tHasServerItemIndexInSection: /* Error: Ran out of types for this method. */;
+- (id)setHasServerItemIndexInSection: /* Error: Ran out of types for this method. */;
 - (id)¬Ê;
 - (id)failed:(id)arg1 output->message_info.prototype != nullptr: /* Error: Ran out of types for this method. */;
 - (unsigned int)½¬BA­®LL@;
 - (void)Éä4î72;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasOriginalDirectionsResponseID;
 @property(nonatomic) _Bool hasOriginalRoutePurpose;
-@property(readonly, nonatomic) _Bool hasRouteHandle;
-@property(nonatomic) _Bool hasRouteIndex;
-@property(retain, nonatomic) NSData *originalDirectionsResponseID;
-@property(nonatomic) int originalRoutePurpose;
-@property(retain, nonatomic) NSData *routeHandle;
-@property(nonatomic) unsigned int routeIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

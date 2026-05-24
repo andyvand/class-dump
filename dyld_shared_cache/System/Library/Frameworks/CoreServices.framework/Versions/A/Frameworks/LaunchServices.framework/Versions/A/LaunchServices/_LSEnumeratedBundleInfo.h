@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _LSEnumeratedBundleInfo
 {
     _Bool _isPlaceholder;
-    NSString *_bundleID;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)onalInfoPListKeys;
+- (_Bool)_additionalInfoPListKeys;
 - (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
 
 @end
 

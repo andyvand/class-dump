@@ -6,28 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, NSString, SISchemaAnyEvent;
+@class SISchemaAnyEvent;
 
 @interface SISchemaProvisionalEvent : SISchemaTopLevelUnionType
 {
     SISchemaAnyEvent *_anyEvent;
-    NSString *_typeId;
-    long long _version;
-    struct {
-        unsigned int version:1;
-    } _has;
-    _Bool _hasAnyEvent;
-    _Bool _hasTypeId;
 }
 
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaAnyEvent *anyEvent; // @synthesize anyEvent=_anyEvent;
-@property(nonatomic) _Bool hasAnyEvent; // @synthesize hasAnyEvent=_hasAnyEvent;
-@property(nonatomic) _Bool hasTypeId; // @synthesize hasTypeId=_hasTypeId;
-@property(nonatomic) _Bool hasVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *typeId; // @synthesize typeId=_typeId;
-@property(nonatomic) long long version; // @synthesize version=_version;
 @end
 

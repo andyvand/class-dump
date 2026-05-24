@@ -13,8 +13,8 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id)Label;
++ (id)ixelDataType;
++ (id)primaryLabel;
 + (id);
 - (double);
 - (id)¨*;

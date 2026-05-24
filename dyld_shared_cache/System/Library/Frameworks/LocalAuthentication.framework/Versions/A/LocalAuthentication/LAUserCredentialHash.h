@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAUserPasswordHash, NSUUID;
+@class LAUserPasswordHash;
 
 @interface LAUserCredentialHash
 {
     id properties;
-    LAUserPasswordHash *passwordHash;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)maximumLineHeight;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) LAUserPasswordHash *passwordHash; // @synthesize passwordHash;
-@property(nonatomic, readonly) NSUUID *uuid;
 
 @end
 

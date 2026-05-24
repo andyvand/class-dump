@@ -6,51 +6,28 @@
 
 #import <UIKitCore/UISwitchVisualElement.h>
 
-@class NSString, UIColor, UIImage, UIImageView, UILongPressGestureRecognizer, UIPanGestureRecognizer, UISwitchMVEGestureTrackingSession, UITapGestureRecognizer, UIView;
+@class UIColor, UIView;
 
 __attribute__((visibility("hidden")))
 @interface UISwitchModernVisualElement : UISwitchVisualElement
 {
     UIView *_switchWellView;
-    UIView *_leftSwitchWellView;
-    UIView *_switchWellContainerView;
-    UIView *_leftSwitchWellContainerView;
-    UIImageView *_switchWellImageView;
-    UIView *_switchWellImageViewContainer;
-    UIImageView *_switchWellOffImageView;
-    UIImageView *_switchWellOnImageView;
-    UIView *_knobView;
-    UIColor *_onTintColor;
-    UIColor *_tintColor;
-    _Bool _on;
-    _Bool _pressed;
-    _Bool _isAlwaysAccessible;
-    _Bool _startedOn;
-    double _zeroOffset;
-    _Bool _showsOnOffLabel;
-    UIColor *_thumbTintColor;
-    UIImage *_onImage;
-    UIImage *_offImage;
-    UISwitchMVEGestureTrackingSession *_gestureTrackingSession;
-    UILongPressGestureRecognizer *_longPress;
-    UIPanGestureRecognizer *_pan;
-    UITapGestureRecognizer *_selectGestureRecognizer;
 }
 
++ (id)!;
 + (id);
-+ (id);
-+ (struct CGSize)pdatedTextInteractionMenuElements:withRVItem:view:context: /* Error: Ran out of types for this method. */;
-+ (struct UIEdgeInsets);
++ (struct CGSize)updatedTextInteractionMenuElements:withRVItem:view:context: /* Error: Ran out of types for this method. */;
++ (struct UIEdgeInsets)_documentURL;
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (void);
+- (void)	ka;
 - (_Bool);
 - (id);
-- (void);
+- (void)isk.allowed;
 - (void);
 - (void);
 - (void);
@@ -58,12 +35,12 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (struct CGColor *);
-- (void);
-- (struct CGPoint);
-- (id);
+- (void)rListItemEntry",&,N,V_rootEntry;
+- (struct CGPoint);
+- (id)items;
 - (id);
 - (struct CGPoint);
 - (void);
@@ -75,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)qZ°1Â0@ù
 × ;
 - (id);
@@ -95,29 +72,29 @@ __attribute__((visibility("hidden")))
 - (id)@0:8@16B24{CGRect={CGPoint=dd}{CGSize=dd}}28 /* Error: Ran out of types for this method. */;
 - (void)rchableObject"16@0:8 /* Error: Ran out of types for this method. */;
 - (id)1"hostsWindows"b1"supportsDidChangeFromScreenToScreen"b1"hasPerformedInitialWindowUpdateForConnection"b1"hasInvalidated"b1"allowOverrideSettings"b1"isProcessingUpdateResponseBlocks"b1"isProcessingDiffActionHandlers"b1"readyForSuspension"b1"isMediaParticipant"b1"classRoutesEvents"b1"isTargetOfKeyboardEventDeferringEnvironment"b1};
-- (void)ackDidChangeFrom:(_Bool)arg1;
-- (id)pacity: /* Error: Ran out of types for this method. */;
-- (void)ceneSize:(_Bool)arg1;
-- (void)ParentWithInfo:(_Bool)arg1;
-- (void)CharacterRange:(id)arg1 withGranularity: /* Error: Ran out of types for this method. */;
-- (void)tEdge:endEdge: /* Error: Ran out of types for this method. */;
-- (void)ndler:(id)arg1 willReorderItemHandler:didReorderItemHandler: /* Error: Ran out of types for this method. */;
-- (void)ultNavigationItemShouldBeginRenaming:forValidDelegate: /* Error: Ran out of types for this method. */;
-- (void)ViewForGrabber:(_Bool)arg1;
-- (id):notifyOnReselection:performBeforeNotifyingDelegate: /* Error: Ran out of types for this method. */;
-- (id)ge;
-- (id)ovider;
-- (struct CGPoint)ght;
-- (struct CGRect)urrentAnimationKeyframeImage;
-- (void)eOver:(id)arg1;
+- (void)stackDidChangeFrom:(_Bool)arg1;
+- (id)setPressedShadowOpacity: /* Error: Ran out of types for this method. */;
+- (void)setHostedSceneSize:(_Bool)arg1;
+- (void)returnExecutionToParentWithInfo:(_Bool)arg1;
+- (void)rectsForCharacterRange:(id)arg1 withGranularity: /* Error: Ran out of types for this method. */;
+- (void)pointCloserToEnd:startEdge:endEdge: /* Error: Ran out of types for this method. */;
+- (void)initWithCanReorderItemHandler:(id)arg1 willReorderItemHandler:didReorderItemHandler: /* Error: Ran out of types for this method. */;
+- (void)defaultNavigationItemShouldBeginRenaming:forValidDelegate: /* Error: Ran out of types for this method. */;
+- (void)_setInsetsContentViewForGrabber:(_Bool)arg1;
+- (id)_selectElement:notifyOnReselection:performBeforeNotifyingDelegate: /* Error: Ran out of types for this method. */;
+- (id)_searchBarSuperviewWillChange;
+- (id)_metricsProvider;
+- (struct CGPoint)_keyboardIAVHeight;
+- (struct CGRect)_currentAnimationKeyframeImage;
+- (void)_colorEffectSourceOver:(id)arg1;
 - (id)N,V_KBMenuAppeared;
 - (_Bool)State;
 - (id)ionBarLayout",&,N,V_normalLayout;
 - (_Bool),N,V__alternateIconName;
 - (id)NSLayoutConstraint",&,N,V_assistantSpacingConstraint;
 - (id)T@"NSURL",C,N,V_URL;
-- (void)rDropPositionAnimator;
-- (id)erTargetWithContext;
+- (void)UITextCursorDropPositionAnimator;
+- (id)_UISceneLayerTargetWithContext;
 - (void)0þ;
 - (id)Üê;
 - (void)ÿÿ;
@@ -129,15 +106,15 @@ __attribute__((visibility("hidden")))
 - (void)w.m;
 - (void)view controller does not conform to UIViewControllerRestoration protocol:Class is %@ /* Error: Ran out of types for this method. */;
 - (id)list;
-- (id)tor;
-- (_Bool)rTextAlignmentAndJustificationComponent;
-- (_Bool)ionY;
-- (struct CGRect)und;
+- (id)LanguageIndicator;
+- (_Bool)UITextFormattingViewControllerTextAlignmentAndJustificationComponent;
+- (_Bool)UISolariumFloatingContentViewOverrideTranslationY;
+- (struct CGRect)UIBlurEffectStyleSystemChromeBackground;
 - (id);
-- (void)iewControllerCIegno_;
-- (void);
+- (void)xSo16UIViewControllerCIegno_;
+- (void)UIViewController;
 - (id);
-- (void)dge;
+- (void)PrimaryEdge;
 - (id);
 - (void);hØ¼b;
 - (_Bool)Ó;
@@ -150,22 +127,6 @@ __attribute__((visibility("hidden")))
 - (void)hxþ2vÌxi;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UISwitchMVEGestureTrackingSession *gestureTrackingSession; // @synthesize gestureTrackingSession=_gestureTrackingSession;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILongPressGestureRecognizer *longPress; // @synthesize longPress=_longPress;
-@property(retain, nonatomic) UIImage *offImage; // @synthesize offImage=_offImage;
-@property(nonatomic) _Bool on; // @synthesize on=_on;
-@property(retain, nonatomic) UIImage *onImage; // @synthesize onImage=_onImage;
-@property(retain, nonatomic) UIPanGestureRecognizer *pan; // @synthesize pan=_pan;
-@property(nonatomic) _Bool pressed; // @synthesize pressed=_pressed;
-@property(retain, nonatomic) UITapGestureRecognizer *selectGestureRecognizer; // @synthesize selectGestureRecognizer=_selectGestureRecognizer;
-@property(nonatomic) _Bool showsOnOffLabel; // @synthesize showsOnOffLabel=_showsOnOffLabel;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UIColor *thumbTintColor; // @synthesize thumbTintColor=_thumbTintColor;
 
 @end

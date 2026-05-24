@@ -7,19 +7,17 @@
 @interface AVCaptureEvent
 {
     unsigned long long _source;
-    unsigned long long _phase;
 }
 
 + (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)C;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)registeredContentTypes;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long phase; // @synthesize phase=_phase;
-@property(readonly, nonatomic) _Bool shouldPlaySound;
 
 @end
 

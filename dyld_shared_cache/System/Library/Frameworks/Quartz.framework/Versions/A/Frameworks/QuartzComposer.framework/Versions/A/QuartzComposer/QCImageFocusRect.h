@@ -6,15 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCImagePort, QCNumberPort;
+@class QCImagePort;
 
 @interface QCImageFocusRect : QCPatch
 {
     QCImagePort *inputImage;
-    QCNumberPort *outputOriginX;
-    QCNumberPort *outputOriginY;
-    QCNumberPort *outputWidth;
-    QCNumberPort *outputHeight;
 }
 
 + (_Bool);

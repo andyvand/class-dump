@@ -9,25 +9,21 @@
 @interface CalDAVScheduleResponseItem
 {
     NSMutableSet *_responses;
-    NSMutableSet *_successfulICS;
-    NSMutableSet *_failedResponseItems;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)JJ;
+- (id)drain_depth_p_0_50_at_charge_start_soc_curr_dynamic_bin_2;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *failedResponseItems; // @synthesize failedResponseItems=_failedResponseItems;
 @property(retain, nonatomic) NSMutableSet *responses; // @synthesize responses=_responses;
-@property(retain, nonatomic) NSMutableSet *successfulICS; // @synthesize successfulICS=_successfulICS;
 
 @end
 

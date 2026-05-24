@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PKRemoteThumbnailKey
 {
     NSString *_requestIdentifier;
-    NSDictionary *_requestDictionary;
 }
 
 - (void);
@@ -20,10 +19,9 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)ceModel;
+- (void)deviceModel;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *requestDictionary; // @synthesize requestDictionary=_requestDictionary;
 @property(retain, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 
 @end

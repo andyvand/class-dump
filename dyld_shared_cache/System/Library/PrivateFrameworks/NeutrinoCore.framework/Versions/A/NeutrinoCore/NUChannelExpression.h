@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface NUChannelExpression
 {
     long long _type;
-    NSArray *_arguments;
 }
 
 + (id);
@@ -17,19 +16,19 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)sRetraining(NO):(id)arg1 audioFiles:%{public}ld, vectors:%{public}ld, max:%{public}ld, modelType:%{public}@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (_Bool);
@@ -38,11 +37,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)s Deleted invalid Siri profile with err:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
 - (long long);
 - (id);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
@@ -53,8 +52,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *arguments; // @synthesize arguments=_arguments;
-@property(readonly, nonatomic) NSString *compactDescription;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

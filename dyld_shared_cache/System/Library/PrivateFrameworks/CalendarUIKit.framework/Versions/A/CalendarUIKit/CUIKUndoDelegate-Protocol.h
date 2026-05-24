@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKObject, NSUndoManager;
-
 @protocol CUIKUndoDelegate
-- (NSUndoManager *)àcáªâª^výàD­`­à*À=`*=èCM9hÂ9àB­`­àC­`­à@­`;
-- (void)À_Ö#Õý{¿©ý;
-- (void)R¨&j®F©)©m©j>@ù
-!;
-- (void)@ùy`øàª«¨;
-- (void)ôªèª	Cøàª!;
-- (EKObject *)ªñª¼ðòÑ
-?×ñª0_øñÇåò0ÁÚñªñGÁÚë@;
-- (EKObject *)ÁÚ	"@ù(=;
-- (void)q¡;
-- (_Bool)ªñGÁÚë@;
-- (void)@øàªáªñªàòq?×àªáªñªàòq?×tG;
+- (void);
 
 // Remaining properties
 @property _Bool disableUndoForOrganizerScheduling;
-@property(readonly, nonatomic) NSUndoManager *systemUndoManager;
 @end
 

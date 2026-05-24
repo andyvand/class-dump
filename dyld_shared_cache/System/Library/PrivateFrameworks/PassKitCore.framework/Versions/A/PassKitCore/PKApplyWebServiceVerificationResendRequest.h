@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKApplyWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKApplyWebServiceVerificationResendRequest : PKApplyWebServiceRequest
 {
     NSString *_applicationIdentifier;
-    NSURL *_baseURL;
-    unsigned long long _verificationType;
 }
 
 + (_Bool)0@ù
@@ -22,16 +20,14 @@
 - (id);
 - (id);
 - (void);
-- (id)ror;
-- (void)r;
+- (id)_underlyingError;
+- (void)fpanIdentifier;
 - (void)ÿ)ÊLàCÿÊL`Cÿ;
 - (id)KM;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(nonatomic) unsigned long long verificationType; // @synthesize verificationType=_verificationType;
 
 @end
 

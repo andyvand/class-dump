@@ -11,13 +11,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)WKNavigation"24@"NSError"32;
 - (_Bool);
 - (id);
 - (_Bool);

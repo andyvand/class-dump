@@ -9,25 +9,17 @@
 @interface CRLatticeEdge
 {
     NSString *_symbol;
-    unsigned long long _edgeIndex;
-    double _score;
-    unsigned long long _startNode;
-    unsigned long long _endNode;
 }
 
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (double);
 - (void)2;
 
 // Remaining properties
-@property(readonly) unsigned long long edgeIndex; // @synthesize edgeIndex=_edgeIndex;
-@property(readonly) unsigned long long endNode; // @synthesize endNode=_endNode;
-@property(readonly) double score; // @synthesize score=_score;
-@property(readonly) unsigned long long startNode; // @synthesize startNode=_startNode;
 @property(readonly, nonatomic) NSString *symbol; // @synthesize symbol=_symbol;
 
 @end

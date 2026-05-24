@@ -9,14 +9,13 @@
 @interface IPASloMoOperation : IPAVideoOperation
 {
     CDStruct_e83c9415 _timeRange;
-    float _rate;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float rate;
-@property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 
 @end
 

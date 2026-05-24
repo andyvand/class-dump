@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSObject;
+
 @protocol PXTileTransitionAnimationCoordinator
+- (_Bool)K;
+- (id <NSObject>);
+- (_Bool);
 @end
 

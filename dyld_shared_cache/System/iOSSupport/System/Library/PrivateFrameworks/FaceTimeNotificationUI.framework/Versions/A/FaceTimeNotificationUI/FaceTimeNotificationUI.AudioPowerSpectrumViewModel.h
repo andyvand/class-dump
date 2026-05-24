@@ -8,18 +8,12 @@
 {
     id logger;
     id callCenter;
-    id call;
-    id controller;
-    id participantsToken;
-    id telephonyTimer;
-    id _localPowerSpectrum;
-    id _remotePowerSpectrum;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)HFOperationRemoveRoom;
 - (id);
 - (void);
 

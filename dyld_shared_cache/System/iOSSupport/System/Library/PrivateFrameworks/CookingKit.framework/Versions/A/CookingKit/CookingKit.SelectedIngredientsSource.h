@@ -8,7 +8,6 @@
 {
     id state;
     id _$scope;
-    id selectedIngredientsManager;
 }
 
 @end

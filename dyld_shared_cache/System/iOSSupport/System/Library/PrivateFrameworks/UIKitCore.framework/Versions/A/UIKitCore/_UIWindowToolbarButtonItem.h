@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (void)isEqualToString:(_Bool)arg1;
+- (id));
 - (_Bool);
 - (void)0@ù
 × ;
@@ -24,21 +24,16 @@
 × ;
 - (void)ù
 × ;
-- (void)dedActiveIndicator:(id)arg1;
+- (void)_sizeForMaximumContentSizeFittingLength:(id)arg1 hasExpandedActiveIndicator: /* Error: Ran out of types for this method. */;
 - (id)icDependentRequirementOverride;
-- (void)luidSliderElasticPanDriver;
-- (SEL)ssSpring;
+- (void)_UIFluidSliderElasticPanDriver;
+- (SEL)scrollAwayTrackingProgressSpring;
 - (void)mension.;
 - (id)oad popover chrome with unrecognized direction or UIPopoverArrowDirectionUnknown.;
 - (void)ntroller.;
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(copy, nonatomic) NSString *imageName;
-@property(copy, nonatomic) NSString *label;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
 @property(copy, nonatomic) NSString *title;
 
 @end

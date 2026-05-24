@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 @protocol BMBookmark;
 
 @interface BMDSLStreamPublisher
 {
     id <BMBookmark> _bookmark;
-    NSString *_identifier;
-    NSString *_useCase;
-    double _startTime;
-    NSString *_basePath;
-    unsigned long long _streamType;
-    Class _eventDataClass;
-    NSArray *_backingEvents;
-    NSNumber *_bookmarkingTime;
 }
 
 + (_Bool);
@@ -25,19 +17,19 @@
 + (unsigned long long);
 + (_Bool);
 + (_Bool);
-+ (_Bool)et_operation_stmt;
++ (_Bool)set_operation_stmt;
 - (id);
 - (id);
 - (id);
 - (double);
 - (id);
+- (id);
+- (id);
+- (unsigned long long)reportExtendedPoorConnectionWithOptionalDictionary: /* Error: Ran out of types for this method. */;
+- (id)rm block on main thread in Mode='%@';
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -53,7 +45,7 @@
 - (id);
 - (id)ù
 × ;
-- (id)expr__get_packed_size;
+- (id)pg_query__coalesce_expr__get_packed_size;
 - (id)itClientMediaAccessoryControlEvent event with base:%@, accessoryUniqueIdentifier:%@, accessoryStateString:%@, accessoryStateNumber:%@, accessoryStateData:%@, accessoryMediaRouteIdentifier:%@, zoneUniqueIdentifiers:%@, roomUniqueIdentifier:%@, accessoryName:%@, roomName:%@, zoneNames:%@, homeName:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ÿÿk;
@@ -62,14 +54,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *backingEvents; // @synthesize backingEvents=_backingEvents;
-@property(readonly, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;
-@property(readonly, nonatomic) id <BMBookmark> bookmark; // @synthesize bookmark=_bookmark;
-@property(retain, nonatomic) NSNumber *bookmarkingTime; // @synthesize bookmarkingTime=_bookmarkingTime;
-@property(readonly, nonatomic) Class eventDataClass; // @synthesize eventDataClass=_eventDataClass;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) unsigned long long streamType; // @synthesize streamType=_streamType;
-@property(readonly, copy, nonatomic) NSString *useCase; // @synthesize useCase=_useCase;
 
 @end
 

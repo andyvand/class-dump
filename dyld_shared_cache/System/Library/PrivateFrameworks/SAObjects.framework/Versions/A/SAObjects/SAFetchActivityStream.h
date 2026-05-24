@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSDate, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface SAFetchActivityStream : SABaseClientBoundCommand
 {
@@ -26,7 +26,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -35,30 +35,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void)nceViewWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)motionConfidence;
+- (void)assistantUtteranceViewWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (id)ªúÿ,ØJ	Ø;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityType;
-@property(nonatomic) _Bool ascending;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *fromDate;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *limit;
-@property(copy, nonatomic) NSArray *matchingMetadataKeys;
-@property(copy, nonatomic) NSDictionary *matchingMetadataKeysAndStringValues;
-@property(copy, nonatomic) NSString *sortBy;
-@property(copy, nonatomic) NSArray *streamTypes;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *taskType;
-@property(copy, nonatomic) NSDate *toDate;
-@property(copy, nonatomic) NSString *visibility;
 
 @end
 

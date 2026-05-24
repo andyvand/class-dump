@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INFSentenceContext, INFSentenceToken, NSString;
-
 __attribute__((visibility("hidden")))
 @interface INFSentenceTokenWithContext
 {
     _Bool _resolved;
-    NSString *_placeholderName;
-    INFSentenceContext *_context;
-    INFSentenceToken *_originalToken;
 }
 
 + (id);
@@ -28,9 +23,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) INFSentenceContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) INFSentenceToken *originalToken; // @synthesize originalToken=_originalToken;
-@property(copy, nonatomic) NSString *placeholderName; // @synthesize placeholderName=_placeholderName;
 @property(nonatomic, getter=isResolved) _Bool resolved; // @synthesize resolved=_resolved;
 
 @end

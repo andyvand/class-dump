@@ -11,11 +11,9 @@
 @interface OBPrivacyCombinedController_macOS : OBPrivacyCombinedController
 {
     OBPrivacySplashController *splashController;
-    NSArray *_bundles;
-    NSArray *_privacyFlowGroups;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -26,7 +24,6 @@
 
 // Remaining properties
 @property(retain) NSArray *bundles; // @synthesize bundles=_bundles;
-@property(retain) NSArray *privacyFlowGroups; // @synthesize privacyFlowGroups=_privacyFlowGroups;
 
 @end
 

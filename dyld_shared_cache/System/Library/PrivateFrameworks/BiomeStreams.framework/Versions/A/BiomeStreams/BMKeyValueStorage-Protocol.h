@@ -5,5 +5,6 @@
 //
 
 @protocol BMKeyValueStorage
+- (void);
 @end
 

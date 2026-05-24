@@ -7,8 +7,8 @@
 @class FBSceneSnapshot;
 
 @protocol UISceneSnapshotPresentation
-- (FBSceneSnapshot *);
-- (_Bool)t:skipsAdjustmentIfScrolling: /* Error: Ran out of types for this method. */;
+- (FBSceneSnapshot *)additionalPaddingForSearchFieldAtLeadingEdge;
+- (_Bool)_adjustedContentOffsetForContentOffset:skipsAdjustmentIfScrolling: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) FBSceneSnapshot *sceneSnapshot;

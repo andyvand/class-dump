@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
-- (id);
++ (Class);
++ (id)__UICoverSheetButtonAccessibility_super;
++ (void)AXShouldSpeakMathEquationTrait;
+- (id)$;
 - (unsigned long long);
 - (id);
 

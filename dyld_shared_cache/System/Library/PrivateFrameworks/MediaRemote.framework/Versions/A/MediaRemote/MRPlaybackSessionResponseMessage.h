@@ -15,14 +15,13 @@
 
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (id);
+- (unsigned long long)FirstPartyTextMessageFilterAvailableChangedNotification;
+- (void);
 - (void)buf",&,N,V_playbackQueue;
 
 // Remaining properties
 @property(readonly, nonatomic) MRPlaybackSession *playbackSession;
-@property(retain, nonatomic) MRPlaybackSessionMigrateRequest *request; // @synthesize request=_request;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface SGM2BadInteractionIgnored
 {
     NSString *_key;
-    int _reason;
-    struct {
-        unsigned int reason:1;
-    } _has;
 }
 
 - (int);
@@ -21,25 +17,22 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)inplaceInvertedMatrix3 returned matrix containing NaNs or exceeds 10^%f, trying again;
 - (int);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
+- (void)t;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)_handleType;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasReason;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

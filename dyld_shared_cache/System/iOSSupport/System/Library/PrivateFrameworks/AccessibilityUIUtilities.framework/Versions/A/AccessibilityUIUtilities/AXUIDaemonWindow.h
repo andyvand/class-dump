@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
-- (void);
-- (_Bool);
++ (_Bool) ;
+- (void)|;
+- (_Bool)xeh|;
 - (struct UIEdgeInsets);
-- (id);
+- (id);
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.SharedWithYouFeedServiceContextFactory
 {
     id dataProvider;
-    id appConfigManager;
 }
 
 @end

@@ -8,7 +8,7 @@
 
 @protocol UIAsyncTextInputDelegate
 - (void);
-- (_Bool)tInRange:(UIKeyEventContext *)arg1 typedString: /* Error: Ran out of types for this method. */;
+- (_Bool)underlineCorrectedTextInRange:(UIKeyEventContext *)arg1 typedString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Dn;
 - (void);

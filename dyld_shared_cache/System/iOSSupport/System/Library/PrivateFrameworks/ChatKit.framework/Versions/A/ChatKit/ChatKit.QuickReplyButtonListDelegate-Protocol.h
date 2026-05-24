@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, UIView;
+
 @protocol ChatKit.QuickReplyButtonListDelegate
+- (void)setCurrentAuthenticationController:(NSString *)arg1;
+- (void)setFileWrapper:(NSString *)arg1 contentType:(UIView *)arg2 completion: /* Error: Ran out of types for this method. */;
 @end
 

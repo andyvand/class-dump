@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)le to unlink lock file:(CDUnknownBlockType)arg1 %s ==> %d;
 
 @end
 

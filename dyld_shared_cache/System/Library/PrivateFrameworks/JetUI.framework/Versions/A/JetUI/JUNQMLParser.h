@@ -5,26 +5,22 @@
 //
 
 @class NSString;
-@protocol JUNQMLParserDelegate;
 
 __attribute__((visibility("hidden")))
 @interface JUNQMLParser
 {
     NSString *_string;
-    unsigned long long _behavior;
-    id <JUNQMLParserDelegate> _delegate;
-    struct _xmlParserCtxt *__parserContext;
 }
 
 + (void);
-- (id);
-- (void);
+- (id)n^U{;
+- (void)e;
 - (void);
 - (void);
 - (struct _xmlParserCtxt *);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)rs/Shared;
+- (unsigned long long)a;
 - (id);
 - (void);
 - (void);
@@ -32,9 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct _xmlParserCtxt *_parserContext; // @synthesize _parserContext=__parserContext;
-@property(readonly, nonatomic) unsigned long long behavior; // @synthesize behavior=_behavior;
-@property(nonatomic) __weak id <JUNQMLParserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

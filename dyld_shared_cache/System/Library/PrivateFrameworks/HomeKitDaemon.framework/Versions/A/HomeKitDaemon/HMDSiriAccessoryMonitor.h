@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
 @protocol HMDSiriAccessoryMonitorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriAccessoryMonitor
 {
     id <HMDSiriAccessoryMonitorDelegate> _delegate;
-    NSMapTable *_accessories;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)%@;
 - (void);
 - (void);
 - (id);
@@ -26,10 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)ingReasonMotion;
+- (void)HMDCameraRecordingFragmentRecordingReasonMotion;
 
 // Remaining properties
-@property(retain, nonatomic) NSMapTable *accessories; // @synthesize accessories=_accessories;
 @property(readonly, nonatomic) __weak id <HMDSiriAccessoryMonitorDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol BMWriteServiceClient
+- (void)TDEvalStartedByFGNetwAppChangeCount;
 @end
 

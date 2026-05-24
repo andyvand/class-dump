@@ -7,8 +7,6 @@
 @interface NewsUI2.EmailSignupEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
 }
 
 @end

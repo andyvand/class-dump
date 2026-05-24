@@ -5,5 +5,8 @@
 //
 
 @protocol NSMenuDelegate
+
+@optional
+- (long long);
 @end
 

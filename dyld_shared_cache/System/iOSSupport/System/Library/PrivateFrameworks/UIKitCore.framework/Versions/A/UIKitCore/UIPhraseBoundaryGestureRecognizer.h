@@ -13,16 +13,12 @@ __attribute__((visibility("hidden")))
 @interface UIPhraseBoundaryGestureRecognizer : UILongPressGestureRecognizer
 {
     UIDelayedAction *_secondDelayTimer;
-    _Bool _secondDelayElapsed;
-    UIResponder<UITextInput> *_textInput;
-    double _secondDelay;
-    id _userData;
 }
 
 - (void);
 - (_Bool);
 - (double);
-- (void);
+- (void)relayed SMS message with guid %@ to identifier:%@   chat:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -31,15 +27,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)!,GùÑbÐ1Â0@ù
 × ;
-- (id)faceOrientations:(id)arg1;
+- (id)setInterfaceOrientations:(id)arg1;
 - (void)ñAÛP~d;
 - (void)ÙÊ%k;
 
 // Remaining properties
-@property(nonatomic) double secondDelay; // @synthesize secondDelay=_secondDelay;
-@property(readonly, nonatomic) _Bool secondDelayElapsed; // @synthesize secondDelayElapsed=_secondDelayElapsed;
 @property(nonatomic) __weak UIResponder<UITextInput> *textInput; // @synthesize textInput=_textInput;
-@property(nonatomic) __weak id userData; // @synthesize userData=_userData;
 
 @end
 

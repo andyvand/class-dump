@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSOrderedCollectionDifference, NSOrderedSet, NSSet;
+@class NSIndexSet, NSOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIIdentifierDiffer
 {
     NSOrderedSet *_beforeIdentifiers;
-    NSOrderedSet *_afterIdentifiers;
-    NSIndexSet *_insertedIndexes;
-    NSIndexSet *_deletedIndexes;
-    NSSet *_movePairs;
-    NSOrderedCollectionDifference *_collectionDifference;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)removeEntityWithIdentifier:dataProviderEntityClass: /* Error: Ran out of types for this method. */;
+- (id)setting=nil;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void)Ô ;
-- (void)omArchiveFile:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)restoreFromArchiveFile:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)Ô;
 - (void)`;[;
@@ -35,13 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)_;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *afterIdentifiers;
-@property(readonly, nonatomic) NSOrderedSet *beforeIdentifiers;
-@property(readonly, nonatomic) NSOrderedCollectionDifference *collectionDifference;
-@property(readonly, nonatomic) NSIndexSet *deletedIndexes;
-@property(readonly, nonatomic) _Bool hasChanges;
 @property(readonly, nonatomic) NSIndexSet *insertedIndexes;
-@property(readonly, nonatomic) NSSet *movePairs;
 
 @end
 

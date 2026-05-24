@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol WFToolKitVariableContent
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name;

@@ -5,5 +5,6 @@
 //
 
 @protocol ABCNAbstractPropertyDescription
+- (void)@;
 @end
 

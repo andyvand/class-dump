@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _INPBPrivateMediaIntentData;
+@class NSArray;
 
 @interface _INPBPrivateUpdateMediaAffinityIntentData
 {
     struct _has;
-    NSArray *_internalSignals;
-    NSData *_pegasusMetaData;
-    _INPBPrivateMediaIntentData *_privateMediaIntentData;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)b;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,19 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPegasusMetaData;
-@property(readonly, nonatomic) _Bool hasPrivateMediaIntentData;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *internalSignals; // @synthesize internalSignals=_internalSignals;
-@property(readonly, nonatomic) unsigned long long internalSignalsCount;
-@property(copy, nonatomic) NSData *pegasusMetaData; // @synthesize pegasusMetaData=_pegasusMetaData;
-@property(retain, nonatomic) _INPBPrivateMediaIntentData *privateMediaIntentData; // @synthesize privateMediaIntentData=_privateMediaIntentData;
-@property(readonly) Class superclass;
 
 @end
 

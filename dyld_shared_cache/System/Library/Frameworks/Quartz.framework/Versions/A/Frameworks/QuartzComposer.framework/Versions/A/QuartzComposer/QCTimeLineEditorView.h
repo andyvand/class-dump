@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSScrollView, QCKeyFrameEditor, QCTimeLineView;
+@class QCKeyFrameEditor;
 
 @interface QCTimeLineEditorView
 {
     QCKeyFrameEditor *keyFrameEditor;
-    NSButton *createNewTimeLine;
-    NSButton *removeSelectedTimeLine;
-    NSButton *curveHullsButton;
-    NSButton *legendVisibleButton;
-    NSButton *controlPointsButton;
-    NSButton *fitSelectedButton;
-    NSButton *fitAllButton;
-    NSScrollView *_scrollView;
-    QCTimeLineView *_timeLineView;
 }
 
 - (void);
@@ -26,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

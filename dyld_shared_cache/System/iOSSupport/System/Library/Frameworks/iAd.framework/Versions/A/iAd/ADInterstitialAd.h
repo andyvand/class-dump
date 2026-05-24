@@ -7,8 +7,6 @@
 @interface ADInterstitialAd
 {
     _Bool _loaded;
-    _Bool _actionInProgress;
-    id _delegate;
 }
 
 - (_Bool);
@@ -21,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActionInProgress) _Bool actionInProgress; // @synthesize actionInProgress=_actionInProgress;
 @property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isLoaded) _Bool loaded; // @synthesize loaded=_loaded;
 
 @end
 

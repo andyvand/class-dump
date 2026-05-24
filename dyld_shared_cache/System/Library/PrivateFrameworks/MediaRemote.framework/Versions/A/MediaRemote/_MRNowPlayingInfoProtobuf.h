@@ -4,44 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _MRNowPlayingInfoProtobuf
 {
     double _duration;
-    double _elapsedTime;
-    long long _radioStationIdentifier;
-    double _timestamp;
-    unsigned long long _uniqueIdentifier;
-    NSString *_album;
-    NSString *_artist;
-    NSData *_artworkDataDigest;
-    float _playbackRate;
-    NSString *_radioStationHash;
-    NSString *_radioStationName;
-    int _repeatMode;
-    int _shuffleMode;
-    NSString *_title;
-    _Bool _isAdvertisement;
-    _Bool _isAlwaysLive;
-    _Bool _isExplicitTrack;
-    _Bool _isInTransition;
-    _Bool _isMusicApp;
-    struct {
-        unsigned int duration:1;
-        unsigned int elapsedTime:1;
-        unsigned int radioStationIdentifier:1;
-        unsigned int timestamp:1;
-        unsigned int uniqueIdentifier:1;
-        unsigned int playbackRate:1;
-        unsigned int repeatMode:1;
-        unsigned int shuffleMode:1;
-        unsigned int isAdvertisement:1;
-        unsigned int isAlwaysLive:1;
-        unsigned int isExplicitTrack:1;
-        unsigned int isInTransition:1;
-        unsigned int isMusicApp:1;
-    } _has;
 }
 
 - (id);
@@ -84,14 +49,14 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (double);
 - (_Bool);
-- (void);
+- (void)SFViewTypeIdentityAndCredentials;
 - (long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)fileTransferExplicitDownloadFailed:suggestedRetryGUID:error: /* Error: Ran out of types for this method. */;
+- (id)attachmentCountBuckets;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -103,10 +68,10 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)_backingStore;
+- (void)UpdateMessageRequestMessage;
+- (_Bool)geConnection setData:forKey:inKnowledgeStoreWithName:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)r _speechRecognitionUsageDescription:] /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (void);
@@ -118,10 +83,10 @@
 - (_Bool);
 - (float);
 - (void);
-- (void)adyStateMessage;
+- (void)_readyStateMessage;
 - (_Bool)<;
 - (double)eallocating.;
-- (_Bool)KEY;
+- (_Bool)MRXPC_AVAILABLE_ORIGINS_DATA_KEY;
 - (void)on:(float)arg1 ];
 - (id)nalDevice uid];
 - (_Bool)transcript alignments;
@@ -131,44 +96,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *album; // @synthesize album=_album;
-@property(retain, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) NSData *artworkDataDigest; // @synthesize artworkDataDigest=_artworkDataDigest;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) double elapsedTime; // @synthesize elapsedTime=_elapsedTime;
 @property(readonly, nonatomic) _Bool hasAlbum;
-@property(readonly, nonatomic) _Bool hasArtist;
-@property(readonly, nonatomic) _Bool hasArtworkDataDigest;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasElapsedTime;
-@property(nonatomic) _Bool hasIsAdvertisement;
-@property(nonatomic) _Bool hasIsAlwaysLive;
-@property(nonatomic) _Bool hasIsExplicitTrack;
-@property(nonatomic) _Bool hasIsInTransition;
-@property(nonatomic) _Bool hasIsMusicApp;
-@property(nonatomic) _Bool hasPlaybackRate;
-@property(readonly, nonatomic) _Bool hasRadioStationHash;
-@property(nonatomic) _Bool hasRadioStationIdentifier;
-@property(readonly, nonatomic) _Bool hasRadioStationName;
-@property(nonatomic) _Bool hasRepeatMode;
-@property(nonatomic) _Bool hasShuffleMode;
-@property(nonatomic) _Bool hasTimestamp;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(nonatomic) _Bool hasUniqueIdentifier;
-@property(nonatomic) _Bool isAdvertisement; // @synthesize isAdvertisement=_isAdvertisement;
-@property(nonatomic) _Bool isAlwaysLive; // @synthesize isAlwaysLive=_isAlwaysLive;
-@property(nonatomic) _Bool isExplicitTrack; // @synthesize isExplicitTrack=_isExplicitTrack;
-@property(nonatomic) _Bool isInTransition; // @synthesize isInTransition=_isInTransition;
-@property(nonatomic) _Bool isMusicApp; // @synthesize isMusicApp=_isMusicApp;
-@property(nonatomic) float playbackRate; // @synthesize playbackRate=_playbackRate;
-@property(retain, nonatomic) NSString *radioStationHash; // @synthesize radioStationHash=_radioStationHash;
-@property(nonatomic) long long radioStationIdentifier; // @synthesize radioStationIdentifier=_radioStationIdentifier;
-@property(retain, nonatomic) NSString *radioStationName; // @synthesize radioStationName=_radioStationName;
-@property(nonatomic) int repeatMode; // @synthesize repeatMode=_repeatMode;
-@property(nonatomic) int shuffleMode; // @synthesize shuffleMode=_shuffleMode;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

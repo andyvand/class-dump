@@ -13,7 +13,7 @@
 
 - (id);
 - (struct __CFArray *);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -32,8 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PDFPage *page;
-@property(readonly, nonatomic) struct CGPoint point;
-@property(nonatomic) double zoom;
 
 @end
 

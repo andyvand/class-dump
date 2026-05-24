@@ -10,7 +10,6 @@
 @interface ASWebAuthenticationSessionWebBrowserSessionManager
 {
     ASWebAuthenticationSessionController *_authenticationSessionController;
-    id <ASWebAuthenticationSessionWebBrowserSessionHandling> _sessionHandler;
 }
 
 + (_Bool);
@@ -21,12 +20,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <ASWebAuthenticationSessionWebBrowserSessionHandling> sessionHandler; // @synthesize sessionHandler=_sessionHandler;
-@property(readonly, nonatomic) _Bool wasLaunchedByAuthenticationServices;
 
 @end
 

@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void)numerateSubstringsInRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)enumerateSubstringsInRange:options:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *sectionDisplayStrategies; // @synthesize sectionDisplayStrategies=_sectionDisplayStrategies;

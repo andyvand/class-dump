@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectID, NSNumber, NSString;
+@class NSManagedObjectID;
 
 __attribute__((visibility("hidden")))
 @interface PFHistoryAnalyzerDefaultObjectState
 {
     NSManagedObjectID *_analyzedObjectID;
-    NSNumber *_originalTransactionNumber;
-    long long _originalChangeType;
-    NSNumber *_finalTransactionNumber;
-    long long _finalChangeType;
-    NSDictionary *_tombstone;
-    NSString *_finalChangeAuthor;
-    long long _estimatedSizeInBytes;
 }
 
 - (id);
@@ -34,13 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectID *analyzedObjectID; // @synthesize analyzedObjectID=_analyzedObjectID;
-@property(readonly, nonatomic) long long estimatedSizeInBytes; // @synthesize estimatedSizeInBytes=_estimatedSizeInBytes;
-@property(readonly, nonatomic) NSString *finalChangeAuthor; // @synthesize finalChangeAuthor=_finalChangeAuthor;
-@property(readonly, nonatomic) long long finalChangeType; // @synthesize finalChangeType=_finalChangeType;
-@property(readonly, nonatomic) NSNumber *finalTransactionNumber; // @synthesize finalTransactionNumber=_finalTransactionNumber;
-@property(readonly, nonatomic) long long originalChangeType; // @synthesize originalChangeType=_originalChangeType;
-@property(readonly, nonatomic) NSNumber *originalTransactionNumber; // @synthesize originalTransactionNumber=_originalTransactionNumber;
-@property(readonly, nonatomic) NSDictionary *tombstone; // @synthesize tombstone=_tombstone;
 
 @end
 

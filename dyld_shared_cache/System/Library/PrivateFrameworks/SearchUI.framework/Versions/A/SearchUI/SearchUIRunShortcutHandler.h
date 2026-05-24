@@ -6,12 +6,11 @@
 
 #import <SearchUI/SearchUIOpenUserActivityHandler.h>
 
-@class NSString, WFWorkflowRunViewSource, WFWorkflowRunnerClient;
+@class WFWorkflowRunViewSource, WFWorkflowRunnerClient;
 
 @interface SearchUIRunShortcutHandler : SearchUIOpenUserActivityHandler
 {
     WFWorkflowRunViewSource *_runViewSource;
-    WFWorkflowRunnerClient *_workFlowRunnerClient;
 }
 
 + (id);
@@ -22,21 +21,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ompute.dylib;
 - (void);
-- (unsigned long long);
+- (unsigned long long)nonPromotableSubroles;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) WFWorkflowRunViewSource *runViewSource; // @synthesize runViewSource=_runViewSource;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) WFWorkflowRunnerClient *workFlowRunnerClient; // @synthesize workFlowRunnerClient=_workFlowRunnerClient;
 
 @end

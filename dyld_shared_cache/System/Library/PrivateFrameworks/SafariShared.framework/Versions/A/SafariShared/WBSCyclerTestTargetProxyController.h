@@ -5,7 +5,6 @@
 //
 
 @class NSXPCConnection;
-@protocol WBSCyclerTestTarget;
 
 @interface WBSCyclerTestTargetProxyController
 {
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType disconnectionHandler;
-@property(readonly, nonatomic) id <WBSCyclerTestTarget> testTargetProxy;
 
 @end
 

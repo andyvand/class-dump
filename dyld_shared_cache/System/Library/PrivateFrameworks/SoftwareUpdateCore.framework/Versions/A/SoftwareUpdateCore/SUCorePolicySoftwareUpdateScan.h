@@ -4,29 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SUCorePolicySoftwareUpdateScan
 {
     _Bool _allowsCellular;
-    _Bool _discretionary;
-    _Bool _disableUI;
-    _Bool _requiresPowerPluggedIn;
-    _Bool _restrictToIncremental;
-    _Bool _restrictToFull;
-    _Bool _allowSameVersion;
-    _Bool _liveServerCatalogOnly;
-    int _downloadTimeoutSecs;
-    long long _specifiedFields;
-    NSString *_sessionId;
-    NSString *_rampingScanType;
-    long long _scanUpdateType;
-    NSDictionary *_additionalServerParams;
-    NSDictionary *_additionalOptions;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (long long);
 - (int);
@@ -38,10 +22,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -49,41 +33,27 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)tateCollector";
+- (void)loadRemoteConfigurationFromLocalFileWithCompletionHandler:(_Bool)arg1;
+- (_Bool)didActualizeImpressionForURL:provenance: /* Error: Ran out of types for this method. */;
+- (id)_mainImageWK;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)le:(_Bool)arg1;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(retain, nonatomic) NSDictionary *additionalServerParams; // @synthesize additionalServerParams=_additionalServerParams;
-@property(nonatomic) _Bool allowSameVersion; // @synthesize allowSameVersion=_allowSameVersion;
-@property(nonatomic) _Bool allowsCellular; // @synthesize allowsCellular=_allowsCellular;
-@property(nonatomic) _Bool disableUI; // @synthesize disableUI=_disableUI;
-@property(nonatomic) _Bool discretionary; // @synthesize discretionary=_discretionary;
-@property(nonatomic) int downloadTimeoutSecs; // @synthesize downloadTimeoutSecs=_downloadTimeoutSecs;
-@property(nonatomic) _Bool liveServerCatalogOnly; // @synthesize liveServerCatalogOnly=_liveServerCatalogOnly;
-@property(retain, nonatomic) NSString *rampingScanType; // @synthesize rampingScanType=_rampingScanType;
-@property(nonatomic) _Bool requiresPowerPluggedIn; // @synthesize requiresPowerPluggedIn=_requiresPowerPluggedIn;
-@property(nonatomic) _Bool restrictToFull; // @synthesize restrictToFull=_restrictToFull;
-@property(nonatomic) _Bool restrictToIncremental; // @synthesize restrictToIncremental=_restrictToIncremental;
-@property(nonatomic) long long scanUpdateType; // @synthesize scanUpdateType=_scanUpdateType;
-@property(retain, nonatomic) NSString *sessionId; // @synthesize sessionId=_sessionId;
 @property long long specifiedFields; // @synthesize specifiedFields=_specifiedFields;
 
 @end

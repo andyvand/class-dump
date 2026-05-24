@@ -9,8 +9,6 @@
 @interface TSXDaemonServiceClient
 {
     _Bool _inited;
-    _Bool _invalidated;
-    NSXPCConnection *_serverConnection;
 }
 
 + (id);
@@ -28,14 +26,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

@@ -13,8 +13,8 @@
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)_websitesFromAdditionalSites;
+- (id)deleteWebHistoryForURL:application:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);

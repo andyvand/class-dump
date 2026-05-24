@@ -13,21 +13,21 @@
 
 - (void);
 - (void);
+- (void)countOfEntriesMatching:(id)arg1 label:(id)arg2 error:predicate: /* Error: Ran out of types for this method. */;
+- (void)clearServicesNeedingDBRReauthentication;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)st"8;
 - (int);
 - (void);
-- (id);
+- (id);
 - (void);
-- (int);
+- (int)/;
+- (void);
+- (void)7 7T;
+- (int)	;
 - (void);
 - (void);
-- (int);
-- (void);
-- (void);
-- (void);
+- (void)trackSessionWithCovariates:label:locale: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

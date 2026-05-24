@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCThreadSafeMutableDictionary, NSString;
+@class FCThreadSafeMutableDictionary;
 
 @interface FCEphemeralAssetKeyCache
 {
@@ -14,18 +14,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (void);
 - (void)a reading list entry without a date added;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

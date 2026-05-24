@@ -11,7 +11,7 @@
     HMFSoftwareVersion *_softwareVersion;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)dramatized;
 - (void)blic}@Cancelling unarchive;
 
 // Remaining properties

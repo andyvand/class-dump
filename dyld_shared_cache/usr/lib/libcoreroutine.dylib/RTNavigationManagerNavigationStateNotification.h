@@ -11,8 +11,8 @@
     int _state;
 }
 
-- (id);
-- (int);
+- (id)t;
+- (int)Error"28;
 
 // Remaining properties
 @property(readonly, nonatomic) int state; // @synthesize state=_state;

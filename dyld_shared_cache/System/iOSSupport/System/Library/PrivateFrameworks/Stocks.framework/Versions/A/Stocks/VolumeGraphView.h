@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class StockGraphImageSet, TintedView, UIImage, UIView;
+@class StockGraphImageSet;
 
 @interface VolumeGraphView
 {
     _Bool _showingTintedRegion;
-    TintedView *_tintedVolumeView;
-    UIView *_tintedRegionClipView;
-    UIImage *_volumeImage;
-    StockGraphImageSet *_graphImageSet;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
+- (id)m|;
 - (id);
-- (id);
-- (void);
+- (void)_getTableDataIfNecessary;
 
 // Remaining properties
 @property(retain, nonatomic) StockGraphImageSet *graphImageSet; // @synthesize graphImageSet=_graphImageSet;

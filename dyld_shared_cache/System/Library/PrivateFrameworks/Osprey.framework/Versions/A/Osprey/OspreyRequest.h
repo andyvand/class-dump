@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface OspreyRequest
 {
     _Bool _enableDeviceAuthentication;
-    _Bool _useCompression;
-    _Bool _forceHTTPv2;
-    _Bool _allowsCellularAccess;
-    NSString *_methodName;
-    NSData *_data;
-    NSDictionary *_headers;
-    NSData *_signedDeviceAuthenticationData;
-    NSNumber *_deviceAuthenticationVersion;
-    NSString *_clientTraceId;
-    NSString *_userAgent;
 }
 
 + (id);
@@ -28,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)	;
+- (id)a*;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,7 +28,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)keepFullyContainedWithinScreens;
 - (void);
 - (id);
 - (id);
@@ -51,18 +41,7 @@
 - (_Bool)®®Ó®Æ®Õ®®«®[®@®£®a®Å®®®®á®^®Ï®Ê®°®¹®ß®®A®Í®®®®û®²®S®®,®Ø®®ý®H®ª®ü®ç®÷®"®®ß^QÐÔUZÛd§&åê)¨ko¬-îá"£`ÙXWÖÒS\Ýb¡ ãì/®miª+èç$¥f%æg¤«hé*.íl¯ câ!]ÜÓRV×ØY#àa¢­nï,(ëj©¦eä'[ÚÕTPÑÞ_û8¹zu¶7ôð3²q~½<ÿ@ÁÎOKÊ	ÅDý>¿|s°1òö5´wx»:ùFÇÈIMÌ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCellularAccess; // @synthesize allowsCellularAccess=_allowsCellularAccess;
-@property(copy, nonatomic) NSString *clientTraceId; // @synthesize clientTraceId=_clientTraceId;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSNumber *deviceAuthenticationVersion; // @synthesize deviceAuthenticationVersion=_deviceAuthenticationVersion;
-@property(nonatomic) _Bool enableDeviceAuthentication; // @synthesize enableDeviceAuthentication=_enableDeviceAuthentication;
-@property(nonatomic) _Bool forceHTTPv2; // @synthesize forceHTTPv2=_forceHTTPv2;
-@property(retain, nonatomic) NSDictionary *headers; // @synthesize headers=_headers;
 @property(readonly, nonatomic) NSString *methodName; // @synthesize methodName=_methodName;
-@property(nonatomic) _Bool requireAbsintheAuthentication;
-@property(retain, nonatomic) NSData *signedDeviceAuthenticationData; // @synthesize signedDeviceAuthenticationData=_signedDeviceAuthenticationData;
-@property(nonatomic) _Bool useCompression; // @synthesize useCompression=_useCompression;
-@property(readonly, nonatomic) NSString *userAgent; // @synthesize userAgent=_userAgent;
 
 @end
 

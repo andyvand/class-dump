@@ -9,20 +9,18 @@
 @interface ICSearchTextCheckingResult
 {
     NSString *_csEvaluatorMatchString;
-    struct _NSRange _ic_range;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (struct _NSRange);
 - (id);
 - (struct _NSRange);
-- (void)ountsOfHTMLSourceObjects;
+- (void)accountsOfHTMLSourceObjects;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *csEvaluatorMatchString; // @synthesize csEvaluatorMatchString=_csEvaluatorMatchString;
 @property(nonatomic) struct _NSRange ic_range; // @synthesize ic_range=_ic_range;
 
 @end

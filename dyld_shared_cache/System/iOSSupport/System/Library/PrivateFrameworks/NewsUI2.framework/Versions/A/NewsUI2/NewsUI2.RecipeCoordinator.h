@@ -7,11 +7,6 @@
 @interface NewsUI2.RecipeCoordinator
 {
     id tracker;
-    id channelDataFactory;
-    id scienceDataFactory;
-    id context;
-    id newsActivityManager;
-    id recipeCoordinatorContainer;
 }
 
 @end

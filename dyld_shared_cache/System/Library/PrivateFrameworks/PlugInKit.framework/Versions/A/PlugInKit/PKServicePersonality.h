@@ -6,28 +6,24 @@
 
 #import <PlugInKit/PKPlugInCore.h>
 
-@class NSDictionary, NSString, NSURL, NSUUID, NSUserDefaults, NSXPCConnection, PKService;
+@class PKService;
 
 @interface PKServicePersonality : PKPlugInCore
 {
     id _plugInPrincipal;
-    id _hostPrincipal;
-    id _embeddedPrincipal;
-    NSXPCConnection *_connection;
-    NSUserDefaults *_preferences;
-    PKService *_service;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ibute which describes any offsets to be applied after inverse transformation of the input components to the block.  A value of 0 for this field means that there is no offset; otherwise, the value must be in the range 1 to 255.
+		   For DWT transforms, the 4'th field in the record identifies the number of DWT levels to be used, in the range 0 to 32, while the final field holds the transform origin, which plays the same role as `Sorigin', but along the component axis.  For dependency and decorrelation transforms, the 4'th field must hold 0 if the transform is irreversible, or 1 if it is reversible, while the 5'th field must hold 0.;
 - (void);
 - (void);
 - (void);
@@ -38,34 +34,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)art Tiled;
+- (id)kCoreThemeTokenFieldTokenBackgroundID;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSDictionary *_userInfo; // @dynamic _userInfo;
-@property(readonly) NSDictionary *bundleInfoDictionary;
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) id embeddedPrincipal; // @synthesize embeddedPrincipal=_embeddedPrincipal;
-@property(readonly) unsigned long long hash;
-@property(retain) id hostPrincipal; // @synthesize hostPrincipal=_hostPrincipal;
-@property(readonly) NSString *identifier;
-@property(readonly) NSDictionary *plugInDictionary;
-@property(retain) id plugInPrincipal; // @synthesize plugInPrincipal=_plugInPrincipal;
-@property(retain) NSUserDefaults *preferences; // @synthesize preferences=_preferences;
 @property(readonly, nonatomic) PKService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
-@property(readonly) NSURL *url;
-@property(readonly) NSUUID *uuid;
-@property(readonly) NSString *version;
 
 @end
 

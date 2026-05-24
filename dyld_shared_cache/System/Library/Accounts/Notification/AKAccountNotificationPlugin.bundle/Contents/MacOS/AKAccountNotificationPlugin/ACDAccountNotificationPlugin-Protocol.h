@@ -5,5 +5,11 @@
 //
 
 @protocol ACDAccountNotificationPlugin
+
+@optional
+- (void);
+- (_Bool);
+- (_Bool)e;
+- (_Bool)<v@?@"AFSetAudioSessionActiveResult">;
 @end
 

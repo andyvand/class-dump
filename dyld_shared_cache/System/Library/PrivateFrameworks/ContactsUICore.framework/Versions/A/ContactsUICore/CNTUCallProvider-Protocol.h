@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @protocol CNTUCallProvider
+- (NSString *)AllAttendeesCanAttend;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier;
-@property(nonatomic) _Bool isEligibleDefaultApp;
 @property(readonly, copy, nonatomic) NSString *localizedName;
-@property(readonly, copy, nonatomic) NSSet *supportedHandleTypes;
-@property(readonly, nonatomic) _Bool supportsAudio;
-@property(readonly, nonatomic) _Bool supportsVideo;
 @end
 

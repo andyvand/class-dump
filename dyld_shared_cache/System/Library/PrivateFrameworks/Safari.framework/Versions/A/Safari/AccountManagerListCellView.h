@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSLayoutConstraint, NSTextField;
-@protocol AccountManagerListCellViewDelegate;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AccountManagerListCellView
 {
     NSTextField *_usernameField;
-    NSTextField *_issueTypesField;
-    NSImageView *_warningImageView;
-    NSLayoutConstraint *_stackViewLeadingSpaceToSuperview;
-    NSLayoutConstraint *_stackViewTrailingSpaceToSuperview;
-    id <AccountManagerListCellViewDelegate> _delegate;
 }
 
 - (id);
@@ -36,12 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AccountManagerListCellViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak NSTextField *issueTypesField; // @synthesize issueTypesField=_issueTypesField;
-@property(nonatomic) __weak NSLayoutConstraint *stackViewLeadingSpaceToSuperview; // @synthesize stackViewLeadingSpaceToSuperview=_stackViewLeadingSpaceToSuperview;
-@property(nonatomic) __weak NSLayoutConstraint *stackViewTrailingSpaceToSuperview; // @synthesize stackViewTrailingSpaceToSuperview=_stackViewTrailingSpaceToSuperview;
 @property(nonatomic) __weak NSTextField *usernameField; // @synthesize usernameField=_usernameField;
-@property(nonatomic) __weak NSImageView *warningImageView; // @synthesize warningImageView=_warningImageView;
 
 @end
 

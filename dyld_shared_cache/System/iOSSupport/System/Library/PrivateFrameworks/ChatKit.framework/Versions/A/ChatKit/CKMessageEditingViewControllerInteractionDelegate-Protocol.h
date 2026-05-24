@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKComposition, CKMessageEditingViewController, NSDictionary, NSString, UIColor;
+
 @protocol CKMessageEditingViewControllerInteractionDelegate
+- (NSDictionary *)initWithTimelineSectionType:(CKMessageEditingViewController *)arg1 referenceDate:title:sortOrder: /* Error: Ran out of types for this method. */;
+- (void)convergeAttachmentsInNoteWithID:(CKMessageEditingViewController *)arg1 configuration: /* Error: Ran out of types for this method. */;
+- (void)controllerDidChangeContent:(CKMessageEditingViewController *)arg1;
+- (void)controller:(CKMessageEditingViewController *)arg1 sectionIndexTitleForSectionName: /* Error: Ran out of types for this method. */;
+- (void)controller:(CKMessageEditingViewController *)arg1 didChangeSection:atIndex:forChangeType: /* Error: Ran out of types for this method. */;
+- (void)controller:(CKMessageEditingViewController *)arg1 didChangeObject:atIndexPath:forChangeType:newIndexPath: /* Error: Ran out of types for this method. */;
+- (CKComposition *)controller:(CKMessageEditingViewController *)arg1 didChangeContentWithDifference:(NSString *)arg2;
+- (void)controlTextDidChange:(CKMessageEditingViewController *)arg1;
+- (struct UIEdgeInsets)controlBackgroundColor;
+- (void)control:(CKMessageEditingViewController *)arg1 textView:(CKComposition *)arg2 completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
+- (BOOL)control:(CKMessageEditingViewController *)arg1 textShouldEndEditing:(NSString *)arg2;
+- (UIColor *)control:(CKMessageEditingViewController *)arg1 didFailToValidatePartialString:(NSString *)arg2 errorDescription: /* Error: Ran out of types for this method. */;
+- (_Bool)control:(CKMessageEditingViewController *)arg1 didFailToFormatString:(NSString *)arg2 errorDescription: /* Error: Ran out of types for this method. */;
 @end
 

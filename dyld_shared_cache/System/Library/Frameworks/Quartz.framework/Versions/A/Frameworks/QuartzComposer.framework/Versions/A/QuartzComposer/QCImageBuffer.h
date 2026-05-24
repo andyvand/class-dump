@@ -6,32 +6,16 @@
 
 #import <QuartzComposer/QCResource.h>
 
-@class QCPixelFormat;
-
 @interface QCImageBuffer : QCResource
 {
     unsigned long long _identifier;
-    int _status;
-    struct CGColorSpace *_colorspace;
-    QCPixelFormat *_format;
-    unsigned long long _width;
-    unsigned long long _height;
-    _Bool _flipped;
-    void *_backing;
-    CDUnknownFunctionPointerType _backingCallback;
-    void *_backingInfo;
-    double _cost;
-    unsigned long long _cacheRetainCount;
-    struct __CFArray *_caches;
-    struct _opaque_pthread_mutex_t _cachesMutex;
-    void *_unused1[4];
 }
 
-+ (void)ta;
-+ (id)gProperties;
++ (void)geometryData;
++ (id)QCImageTexturingProperties;
 - (void);
 - (void);
-- (void);
+- (void)Z;
 - (id);
 - (id);
 - (void);

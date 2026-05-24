@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SCSchemaSCCheckCorrectionResponse;
+@class SCSchemaSCCheckCorrectionResponse;
 
 @interface SCSchemaSCCorrectionChecked : SISchemaInstrumentationMessage
 {
     SCSchemaSCCheckCorrectionResponse *_checkCorrectionResponse;
-    _Bool _hasCheckCorrectionResponse;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)esWithCompletionBlock;
 - (_Bool);
-- (_Bool);
+- (_Bool)RE message_id = OLD.message_id LIMIT 1) IS NULL; END;
+- (id);
 - (id);
-- (id);
-- (id)fiers;
+- (id)clearDialogIdentifiers;
 - (id)nerationTimeInMs;
-- (void)aTypeBundleScore;
+- (void)compoundMediaTypeBundleScore;
 
 // Remaining properties
 @property(retain, nonatomic) SCSchemaSCCheckCorrectionResponse *checkCorrectionResponse; // @synthesize checkCorrectionResponse=_checkCorrectionResponse;
-@property(nonatomic) _Bool hasCheckCorrectionResponse; // @synthesize hasCheckCorrectionResponse=_hasCheckCorrectionResponse;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

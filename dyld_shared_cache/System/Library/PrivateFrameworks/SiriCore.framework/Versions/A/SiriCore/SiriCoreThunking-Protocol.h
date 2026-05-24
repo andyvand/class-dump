@@ -5,5 +5,6 @@
 //
 
 @protocol SiriCoreThunking
+- (void)nnection. Error:%{public}@ /* Error: Ran out of types for this method. */;
 @end
 

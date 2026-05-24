@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TShrinkToFitScrollView, FI_TShrinkToFitTextView;
+@class FI_TShrinkToFitScrollView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TShrinkToFitWindow
 {
     struct TNSWeakPtr<FI_TShrinkToFitScrollView> _weakStfScrollView;
-    struct TNSWeakPtr<FI_TShrinkToFitTextView> _weakStfTextView;
-    struct TNotificationCenterObserver _stfScrollViewFrameChangedObserver;
-    struct TNotificationCenterObserver _stfScrollViewPreferredScrollerStyleDidChangeObserver;
 }
 
 - (id);
@@ -23,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)textBackgroundColor;
+- (_Bool)inter.swift;
 - (void);
-- (id);
+- (id)Y;
 - (void);
 - (_Bool)4_19TBVDSChangedPayloadS6_S8_NS9_INSG_ISH_SP_EEEEEENS9_ISS_EEEEbbEEE;
 - (_Bool)arViewController makeDeterminateProgressAnimationSetup:(id)arg1 ]E3$_5FvP19FI_TMouseOverButtonEEE;
@@ -34,7 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak FI_TShrinkToFitScrollView *stfScrollView;
-@property(nonatomic) __weak FI_TShrinkToFitTextView *stfTextView;
 
 @end
 

@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, LPAudioPlayButtonStyle, LPAudioPlayButtonTheme, NSImageView, NSPressGestureRecognizer, NSString, NSView;
+@class LPAudioPlayButtonStyle, NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface LPPlayButtonControl
 {
     LPAudioPlayButtonStyle *_style;
-    LPAudioPlayButtonTheme *_theme;
-    CAShapeLayer *_borderLayer;
-    CAShapeLayer *_innerProgressLayer;
-    CAShapeLayer *_outerProgressLayer;
-    CAShapeLayer *_highlightLayer;
-    NSPressGestureRecognizer *_highlightRecognizer;
-    NSView *_backgroundView;
-    NSImageView *_imageView;
-    _Bool _indeterminate;
-    float _progress;
-    _Bool _showingProgress;
-    _Bool _isPlaying;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -42,12 +30,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_TtC12SiriOntology42UsoEntityBuilder_common_PersonRelationship;
+- (void)_TtC12SiriOntology28UsoEntityBuilder_common_Note;
+- (void)_TtC12SiriOntology40UsoEntityBuilder_common_UserSocialAction;
+- (void)_TtC12SiriOntology41UsoEntityBuilder_common_KnowledgeQuestion;
+- (void)_TtC12SiriOntology40UsoEntityBuilder_common_FavoriteInstance;
+- (void)Q;
 - (float);
 - (void);
 - (id);
@@ -56,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)setRerefAssetBatchesByZoneID: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (id);
@@ -67,9 +55,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (float);
+- (float)clearColumnIndices;
 - (void);
-- (void);
+- (void)ould not featurize;
 - (void);
 - (void)Â0@ù
 × ;
@@ -78,16 +66,7 @@ __attribute__((visibility("hidden")))
 - (void)th error:(id)arg1 %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic, getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=_indeterminate;
-@property(nonatomic) float progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
 
 @end
 

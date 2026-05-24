@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerResponse, NSIndexPath, NSString;
+@class MPCPlayerResponse;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerResponseTracklistDataSource
 {
     MPCPlayerResponse *_response;
-    NSIndexPath *_playingItemIndexPath;
 }
 
-- (void);
+- (void)t"36;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ownload (initial-phase): /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long)led - error:(unsigned long long)arg1 %{public}@;
 - (void)g shuffle type [first data source loaded] shuffleType=%{public}@ startItem=%{public}@ startSection=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSIndexPath *playingItemIndexPath; // @synthesize playingItemIndexPath=_playingItemIndexPath;
 @property(readonly, nonatomic) __weak MPCPlayerResponse *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

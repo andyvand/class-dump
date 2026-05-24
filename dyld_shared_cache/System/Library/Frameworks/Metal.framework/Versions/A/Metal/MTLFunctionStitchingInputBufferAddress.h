@@ -4,16 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MTLFunctionStitchingInputBufferAddress
 {
     _Bool _dereference;
-    unsigned long long _bindIndex;
-    unsigned long long _byteOffset;
 }
 
-- (id);
+- (id)in = params.x;
+  float threshMaxOverMin = params.y;
+  float epsChroma = params.w;
+  float cmincomp = min(c.r, min(c.g, c.b));
+  float cmaxcomp = max(c.r, max(c.g, c.b));
+  float luminance = dot(downMax.rgb, vec3(3.333333e-01));
+  vec3 Y = vec3(0.299, 0.587, 0.114);
+  vec3 Cb = vec3(-1.687360e-01, -3.312640e-01, 0.5);
+  vec3 Cr = vec3(0.5, -4.186880e-01, -8.131200e-02);
+  vec3 YCbCr_c = vec3(dot(c.rgb, Y), dot(c.rgb, Cb), dot(c.rgb, Cr));
+  vec3 YCbCr_bg = vec3(dot(downMax.rgb, Y), dot(meanMax.rgb, Cb), dot(meanMax.rgb, Cr));
+  float dchromaticity = length(YCbCr_c.yz - YCbCr_bg.yz);
+  if (((cmincomp < (threshMin * luminance)) || ((cmaxcomp / cmincomp) > threshMaxOverMin)) || (dchromaticity > epsChroma)) c *= 0.0;
+  return c;
+}
+;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -22,22 +33,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);;
 - (void);
-- (void);
+- (void)icode;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bindIndex; // @synthesize bindIndex=_bindIndex;
 @property(nonatomic) unsigned long long byteOffset; // @synthesize byteOffset=_byteOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool dereference; // @synthesize dereference=_dereference;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

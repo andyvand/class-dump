@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFCommand, SFImage;
+@class NSData, SFCommand, SFImage;
 
 @protocol SFCommandButtonItem
+- (_Bool)ic_setSubscriptionStatusEnabled: /* Error: Ran out of types for this method. */;
+- (void)dentifierSet.emptyIdentifierSet [unpersonalizedContentDescriptors did not contain MPStoreLibraryPersonalizationContentDescriptor] indexPath=%{public}@ possibleObject=%{public}@;
+- (NSData *);
+- (SFCommand *)T;
 
 // Remaining properties
-@property(retain, nonatomic) SFCommand *command;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) SFImage *image;
-@property(nonatomic) _Bool isDestructive;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(copy, nonatomic) NSString *title;
 @end
 

@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIFeedbackGenerator.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIFluidSliderFeedbackGenerator : UIFeedbackGenerator
 {
@@ -15,20 +13,14 @@ __attribute__((visibility("hidden")))
 
 + (Class)0@ù
 × ;
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)serviceNamesSupportingCapability:(long long)arg1;
+- (id);
+- (_Bool)eID:(struct CGPoint)arg1 %@ Error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)y is empty;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

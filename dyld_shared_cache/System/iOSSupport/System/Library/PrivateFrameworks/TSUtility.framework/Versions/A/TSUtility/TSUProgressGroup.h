@@ -6,14 +6,11 @@
 
 #import <TSUtility/TSUProgress.h>
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface TSUProgressGroup : TSUProgress
 {
     NSArray *mChildren;
-    NSArray *mChildrenProgressObservers;
-    NSObject<OS_dispatch_queue> *mChildrenProgressObserversQueue;
 }
 
 - (void);

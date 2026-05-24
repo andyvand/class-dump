@@ -6,33 +6,24 @@
 
 #import <CoreBrightness/CBDisplayModule.h>
 
-@class NSMutableDictionary;
-@protocol CBBrightnessProxy;
-
 __attribute__((visibility("hidden")))
 @interface CBDisplayModuleDFR : CBDisplayModule
 {
     unsigned int _displayService;
-    unsigned long long _registryID;
-    float _currentNits;
-    _Bool _useSecureIOCache;
-    NSMutableDictionary *_secureIOCache;
-    id <CBBrightnessProxy> _brightnessControl;
-    struct __Display *_displayInternal;
 }
 
-- (void);
-- (id);
+- (void)Ԣ#;
+- (id)`F9h;
 - (_Bool);
+- (_Bool)A;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)&;
+- (id)FrameMetadataEnabled;
+- (void)q;
 - (_Bool);
 - (void);
 - (id);

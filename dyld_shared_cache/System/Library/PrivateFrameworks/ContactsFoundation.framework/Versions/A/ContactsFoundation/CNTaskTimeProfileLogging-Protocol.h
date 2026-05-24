@@ -5,5 +5,6 @@
 //
 
 @protocol CNTaskTimeProfileLogging
+- (void);
 @end
 

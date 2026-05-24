@@ -6,17 +6,11 @@
 
 #import <ReplayKit/RPBorderlessEffectWindow.h>
 
-@class CALayer, NSWindow;
+@class NSWindow;
 
 @interface RPDimAndShadowWindow : RPBorderlessEffectWindow
 {
     _Bool animatesTransitions;
-    CALayer *groupLayer;
-    CALayer *dimLayer;
-    CALayer *shadowLayer;
-    CALayer *shadowCenterKnockoutLayer;
-    NSWindow *_remoteWindow;
-    NSWindow *_sourceWindow;
 }
 
 - (id);
@@ -35,9 +29,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool animatesTransitions; // @synthesize animatesTransitions;
 @property __weak NSWindow *remoteWindow; // @synthesize remoteWindow=_remoteWindow;
-@property __weak NSWindow *sourceWindow; // @synthesize sourceWindow=_sourceWindow;
 
 @end
 

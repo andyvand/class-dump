@@ -5,5 +5,6 @@
 //
 
 @protocol HMDUserActivityStateDetectorStateChangeDelegate
+- (void)64@0:(unsigned long long)arg1 8@16@24@32@40@48@56;
 @end
 

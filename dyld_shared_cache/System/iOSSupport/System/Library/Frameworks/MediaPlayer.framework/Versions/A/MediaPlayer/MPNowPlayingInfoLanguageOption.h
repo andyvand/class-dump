@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface MPNowPlayingInfoLanguageOption
 {
     void *_mrLanguageOption;
@@ -20,17 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)$;
 - (id);
 - (id);
 - (id)e policy from %lu to %lu for dataTask:%{public}@. URL=%{public}@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(readonly, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(readonly, nonatomic) NSArray *languageOptionCharacteristics; // @dynamic languageOptionCharacteristics;
-@property(readonly, nonatomic) unsigned long long languageOptionType; // @dynamic languageOptionType;
-@property(readonly, nonatomic) NSString *languageTag; // @dynamic languageTag;
 @property(readonly, nonatomic) void *mrLanguageOption; // @synthesize mrLanguageOption=_mrLanguageOption;
 
 @end

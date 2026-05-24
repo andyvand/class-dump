@@ -9,25 +9,18 @@
 @interface AppKit._MultiShadowReportingView : NSView
 {
     id shadows;
-    id _alignmentRectInsets;
-    id _firstBaselineOffsetFromTop;
-    id _lastBaselineOffsetFromBottom;
-    id _intrinsicContentSize;
 }
 
 - (double);
 - (id);
 - (double);
 - (struct CGSize);
-- (id);
+- (id)_snapshotOfView:(struct CGRect)arg1;
 - (void)Ú¥ÿãôcE;
 - (struct NSEdgeInsets)ºG;
 
 // Remaining properties
 @property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) double firstBaselineOffsetFromTop;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) double lastBaselineOffsetFromBottom;
 
 @end
 

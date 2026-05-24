@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTMaterialSettingsInterpolator, NSHashTable, NSMutableDictionary, NSString;
-@protocol MTRecipeMaterialSettingsProviding;
+@class MTMaterialSettingsInterpolator, NSString;
 
 @interface MTMaterialLayer
 {
     MTMaterialSettingsInterpolator *_settingsInterpolator;
-    MTMaterialSettingsInterpolator *_previousSettingsInterpolator;
-    _Bool _needsConfiguring;
-    _Bool _blurEnabled;
-    _Bool _zoomEnabled;
-    CDUnknownBlockType _backdropScaleAdjustment;
-    CDUnknownBlockType _defaultBackdropScaleAdjustment;
-    _Bool _shouldCrossfade;
-    _Bool _contentReplacedWithSnapshot;
-    NSMutableDictionary *_pendingChange;
-    NSMutableDictionary *_visualStyleCategoriesToProviders;
-    NSHashTable *_prunePromises;
-    long long _allowsInPlaceFiltering;
-    struct {
-        unsigned int delegateManagesWeighting:1;
-        unsigned int delegateImplementsManagingOpacity:1;
-        unsigned int delegateImplementsManagingInterpolation:1;
-    } _materialLayerDelegateFlags;
-    _Bool _reduceTransparencyEnabled;
-    _Bool _reduceMotionEnabled;
-    NSString *_debugIdentifier;
 }
 
 + (id);
@@ -70,14 +49,14 @@
 - (double);
 - (void);
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -87,36 +66,20 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)58`;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
+- (void)`;
+- (void)A;
+- (void)c;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)dServicesEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_backdropScale) double backdropScale;
-@property(copy, nonatomic) CDUnknownBlockType backdropScaleAdjustment;
-@property(nonatomic, getter=isBlurEnabled) _Bool blurEnabled;
-@property(copy, nonatomic) CDUnknownBlockType blurRadiusTransformer;
-@property(nonatomic, getter=isContentReplacedWithSnapshot) _Bool contentReplacedWithSnapshot;
-@property(copy, nonatomic) NSString *debugIdentifier; // @synthesize debugIdentifier=_debugIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType defaultBackdropScaleAdjustment; // @synthesize defaultBackdropScaleAdjustment=_defaultBackdropScaleAdjustment;
-@property(readonly, nonatomic, getter=_hasInoperativeAppearance) _Bool hasInoperativeAppearance;
-@property(readonly, nonatomic, getter=_privateOpacity) double privateOpacity;
-@property(copy, nonatomic) NSString *recipe; // @dynamic recipe;
 @property(copy, nonatomic) NSString *recipeName;
-@property(retain, nonatomic, getter=_recipeSettings, setter=_setRecipeSettings:) id <MTRecipeMaterialSettingsProviding> recipeSettings; // @dynamic recipeSettings;
-@property(nonatomic, getter=isReduceMotionEnabled) _Bool reduceMotionEnabled; // @synthesize reduceMotionEnabled=_reduceMotionEnabled;
-@property(nonatomic, getter=isReduceTransparencyEnabled) _Bool reduceTransparencyEnabled; // @synthesize reduceTransparencyEnabled=_reduceTransparencyEnabled;
-@property(nonatomic) _Bool shouldCrossfade;
-@property(nonatomic) double weighting; // @dynamic weighting;
-@property(nonatomic, getter=isZoomEnabled) _Bool zoomEnabled;
 
 @end
 

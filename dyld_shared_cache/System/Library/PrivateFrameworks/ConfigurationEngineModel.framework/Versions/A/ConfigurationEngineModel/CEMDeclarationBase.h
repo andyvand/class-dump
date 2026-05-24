@@ -6,22 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMAnyPayload, NSNumber, NSString;
+@class NSString;
 
 @interface CEMDeclarationBase : CEMPayloadBase
 {
     NSString *_declarationType;
-    NSString *_declarationIdentifier;
-    NSString *_declarationDescription;
-    NSString *_declarationServerHash;
-    NSNumber *_declarationRequiresNetworkTether;
-    NSString *_declarationActivationScope;
-    CEMAnyPayload *_declarationPayload;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)-;
++ (id)-;
 - (void);
 - (void);
 - (void);
@@ -34,22 +28,16 @@
 - (id);
 - (id);
 - (id);
+- (void)(R\+)];
+- (id)nge in Environment;
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)1\5;
+- (id)t;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *declarationActivationScope; // @synthesize declarationActivationScope=_declarationActivationScope;
-@property(copy, nonatomic) NSString *declarationDescription; // @synthesize declarationDescription=_declarationDescription;
-@property(copy, nonatomic) NSString *declarationIdentifier; // @synthesize declarationIdentifier=_declarationIdentifier;
-@property(copy, nonatomic) CEMAnyPayload *declarationPayload; // @synthesize declarationPayload=_declarationPayload;
-@property(copy, nonatomic) NSNumber *declarationRequiresNetworkTether; // @synthesize declarationRequiresNetworkTether=_declarationRequiresNetworkTether;
-@property(copy, nonatomic) NSString *declarationServerHash; // @synthesize declarationServerHash=_declarationServerHash;
 @property(copy, nonatomic) NSString *declarationType; // @synthesize declarationType=_declarationType;
 
 @end

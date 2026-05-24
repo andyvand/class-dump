@@ -8,15 +8,11 @@
 @protocol CDPStateUIProvider;
 
 @protocol CDPUIStatusChangeModel
-- (id <CDPStateUIProvider>)owViewModel;
+- (CDPContext *)�;
+- (NSString *))@9?k@;
+- (id <CDPStateUIProvider>)accountRecoveryRowViewModel;
 
 // Remaining properties
-@property(retain, nonatomic) CDPContext *authenticatedContext;
-@property(readonly, nonatomic) NSString *cancelButtonText;
-@property(readonly, nonatomic) CDPContext *cdpContext;
-@property(readonly, nonatomic) NSString *messageText;
-@property(readonly, nonatomic) NSString *primaryButtonText;
 @property(readonly, nonatomic) NSString *titleText;
-@property(readonly, nonatomic) id <CDPStateUIProvider> uiProvider;
 @end
 

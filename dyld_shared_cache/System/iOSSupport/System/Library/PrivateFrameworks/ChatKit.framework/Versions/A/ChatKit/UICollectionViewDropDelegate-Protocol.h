@@ -8,7 +8,7 @@
 @protocol UICollectionViewDropCoordinator;
 
 @protocol UICollectionViewDropDelegate
-- (void)nToTraitCollection:(UICollectionView *)arg1 withTransitionCoordinator:(id <UICollectionViewDropCoordinator>)arg2;
+- (void)willTransitionToTraitCollection:(UICollectionView *)arg1 withTransitionCoordinator:(id <UICollectionViewDropCoordinator>)arg2;
 
 @optional
 - (void)1Â0@ù

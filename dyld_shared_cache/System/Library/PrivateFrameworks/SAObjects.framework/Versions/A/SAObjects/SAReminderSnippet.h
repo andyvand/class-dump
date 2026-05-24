@@ -12,18 +12,17 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *reminderLists;
-@property(copy, nonatomic) NSArray *reminders;
 
 @end
 

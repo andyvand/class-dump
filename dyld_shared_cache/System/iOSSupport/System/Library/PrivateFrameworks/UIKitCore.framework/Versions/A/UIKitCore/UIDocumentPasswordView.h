@@ -6,19 +6,17 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSObject, NSString, UIDocumentPasswordField, UILabel, UITextField;
+@class NSObject, UIDocumentPasswordField;
 @protocol UIDocumentPasswordViewDelegate;
 
 @interface UIDocumentPasswordView : UIView
 {
     UIDocumentPasswordField *_passwordTextField;
-    UILabel *_label;
-    NSObject<UIDocumentPasswordViewDelegate> *passwordDelegate;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)with error:(id)arg1 %@;
+- (void)persisting merge id due to override;
+- (id)entPhoneAlias is this:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (double);
@@ -33,15 +31,7 @@
 - (_Bool)17ElementIdentifierx;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) NSObject<UIDocumentPasswordViewDelegate> *passwordDelegate; // @synthesize passwordDelegate;
-@property(readonly, nonatomic) UITextField *passwordField; // @synthesize passwordField=_passwordTextField;
-@property(readonly) Class superclass;
 
 @end
 

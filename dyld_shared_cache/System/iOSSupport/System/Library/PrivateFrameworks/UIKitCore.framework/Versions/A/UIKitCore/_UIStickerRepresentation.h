@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _UIStickerRepresentation
 {
     NSData *_data;
-    NSString *_type;
-    NSString *_role;
-    struct CGSize _size;
 }
 
 + (_Bool))arg%ld;
 - (id);
-- (id);
+- (id)32;
 - (id);
 - (struct CGSize);
 - (void)0@ù
@@ -25,17 +22,14 @@
 × ;
 - (id);
 - (id)ronment>"@"UITraitCollection">24;
-- (void)ceView;
+- (void)sourceView;
 - (void)",N,&,VstashedDismissalPivot;
 - (id)6@?0@"UIViewController"8;
 - (void);
-- (void)ns;
+- (void)MultiselectOptions;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSString *role; // @synthesize role=_role;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

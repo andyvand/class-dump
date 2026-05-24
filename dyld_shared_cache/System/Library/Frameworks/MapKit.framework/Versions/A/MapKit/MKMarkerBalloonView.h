@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (void)lizedHoursStringSpecialHours;
+- (void)[;
+- (void)localizedHoursStringSpecialHours;
 - (id)image cache directory:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

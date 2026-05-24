@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKAttributedStringBlendingConfiguration, NSAttributedString, NSTextField;
+@class NSAttributedString, NSTextField;
 
 @interface MKVibrancyAwareLabelView
 {
     NSTextField *_backgroundLabel;
-    NSTextField *_foregroundLabel;
-    NSAttributedString *_attributedStringValue;
-    long long _blendingMode;
-    MKAttributedStringBlendingConfiguration *_blendingConfiguration;
 }
 
+- (void)ReduceBrightnessSuggestion;
+- (void)tedTotalEnergy;
+- (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)initWithManagedObjectModel: /* Error: Ran out of types for this method. */;
+- (id)ring",?,R,C;
+- (long long)TX;
 - (id);
 - (id);
+- (void)h&;
 - (void);
-- (void)nputSource;
+- (id)cond pass request, creating new one :(struct CGRect)arg1 %{public}@;
+- (id);
+- (void);
+- (void)selectedKeyboardInputSource;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedStringValue; // @synthesize attributedStringValue=_attributedStringValue;
 @property(copy, nonatomic) NSAttributedString *attributedText;
-@property(retain, nonatomic) MKAttributedStringBlendingConfiguration *blendingConfiguration; // @synthesize blendingConfiguration=_blendingConfiguration;
-@property(nonatomic) long long blendingMode; // @synthesize blendingMode=_blendingMode;
 
 @end
 

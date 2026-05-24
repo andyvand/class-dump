@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol MessageListSectionDataSourceDelegate
+- (void);
+- (void);
+- (void);
+- (NSArray *)DKz;
+
+@optional
+- (void)B;
+- (void);
 @end
 

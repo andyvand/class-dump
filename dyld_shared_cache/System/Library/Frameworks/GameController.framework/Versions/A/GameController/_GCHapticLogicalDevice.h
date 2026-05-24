@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _GCHapticClientProxy;
-@protocol NSCopying><NSObject><NSSecureCoding, _GCDriverClientHapticInterface, _GCLogicalDevice;
+@protocol _GCLogicalDevice;
 
 __attribute__((visibility("hidden")))
 @interface _GCHapticLogicalDevice
 {
     id <_GCLogicalDevice> _logicalDevice;
-    id <NSCopying><NSObject><NSSecureCoding> _identifier;
-    NSMutableArray *_hapticClients;
-    NSMutableArray *_hapticPlayers;
-    float _prevSharpness[4];
-    float _prevIntensity[4];
-    id <_GCDriverClientHapticInterface> _driver;
-    _GCHapticClientProxy *_clientConnection;
 }
 
+- (void)t;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id));
 - (_Bool);
 - (void);
 

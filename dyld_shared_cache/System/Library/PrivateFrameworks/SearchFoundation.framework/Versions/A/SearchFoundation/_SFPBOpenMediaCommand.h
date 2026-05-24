@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBMediaMetadata;
+@class _SFPBMediaMetadata;
 
 @interface _SFPBOpenMediaCommand
 {
     _SFPBMediaMetadata *_mediaMetadata;
-    NSString *_clientSelectedBundleIdentifier;
 }
 
 - (void);
@@ -21,23 +20,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)placeholderForCreatedPerson;
+- (id)dateSpotlightAvailabilityInFeatureAvailability;
 - (id);
 - (id);
 - (void)tersIfNecessary"b1"isInsetGrouped"b1"rowStyle"b1};
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientSelectedBundleIdentifier; // @synthesize clientSelectedBundleIdentifier=_clientSelectedBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBMediaMetadata *mediaMetadata; // @synthesize mediaMetadata=_mediaMetadata;
-@property(readonly) Class superclass;
 
 @end
 

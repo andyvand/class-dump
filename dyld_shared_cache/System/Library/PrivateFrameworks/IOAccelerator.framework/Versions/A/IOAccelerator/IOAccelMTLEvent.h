@@ -7,9 +7,6 @@
 @interface IOAccelMTLEvent
 {
     struct __IOAccelShared *_sharedRef;
-    unsigned int _eventName;
-    unsigned long long _globalTraceObjectID;
-    unsigned long long _eventOptions;
 }
 
 - (id);

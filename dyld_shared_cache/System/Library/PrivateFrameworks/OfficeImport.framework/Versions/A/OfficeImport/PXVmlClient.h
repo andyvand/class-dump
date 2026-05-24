@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (void);
-+ (id);
++ (void)h;
++ (id)qH;
 + (int);
 
 @end

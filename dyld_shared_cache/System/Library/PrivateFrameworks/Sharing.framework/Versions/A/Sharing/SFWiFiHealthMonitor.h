@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CURetrier, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SFWiFiHealthMonitor
 {
     _Bool _invalidateCalled;
-    CURetrier *_wifiRetrier;
-    unsigned long long _wifiStatusBadTicks;
-    unsigned long long _wifiStatusGoodTicks;
-    double _wifiStatusDebounceSecs;
-    NSObject<OS_dispatch_source> *_wifiStatusDebounceTimer;
-    long long _wifiStatusExternal;
-    long long _wifiStatusInternal;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _statusHandler;
 }
 
 - (CDUnknownBlockType);
@@ -38,14 +28,12 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)fetch_record_zone_changes;
 - (void);
 - (void)TþÿðTþÿ&rþÿ þÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType statusHandler; // @synthesize statusHandler=_statusHandler;
 
 @end
 

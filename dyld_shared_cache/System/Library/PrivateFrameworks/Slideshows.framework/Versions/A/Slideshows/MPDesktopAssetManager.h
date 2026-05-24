@@ -6,26 +6,17 @@
 
 #import <Slideshows/MPAssetManager.h>
 
-@class MLMediaLibrary, MLMediaSource, NSMutableDictionary, NSMutableSet;
+@class MLMediaLibrary;
 
 @interface MPDesktopAssetManager : MPAssetManager
 {
     MLMediaLibrary *_mediaLibrary;
-    MLMediaSource *_iPhotoMediaSource;
-    MLMediaSource *_apertureMediaSource;
-    MLMediaSource *_iTunesMediaSource;
-    MLMediaSource *_garageBandMediaSource;
-    MLMediaSource *_logicMediaSource;
-    MLMediaSource *_iMovieMediaSource;
-    MLMediaSource *_foldersMediaSource;
-    NSMutableSet *_pendingMediaGroups;
-    NSMutableDictionary *_mediaObjects;
 }
 
-- (double);
-- (double);
+- (double)isPersonalizedAdsEnabled;
+- (double)newsEdgeSearch;
 - (struct CGSize);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (id);
 - (double);
@@ -40,7 +31,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

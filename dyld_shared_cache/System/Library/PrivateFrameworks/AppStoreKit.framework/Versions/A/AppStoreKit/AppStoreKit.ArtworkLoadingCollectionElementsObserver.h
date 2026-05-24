@@ -7,7 +7,6 @@
 @interface AppStoreKit.ArtworkLoadingCollectionElementsObserver
 {
     id componentTypeMappingProvider;
-    id scrollObserverTokens;
 }
 
 @end

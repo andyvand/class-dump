@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UIWindow, _UIScrollPocketLumaObserverInteraction;
+@class UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneScrollPocketClientComponent
 {
     UIWindow *_window;
-    NSMutableDictionary *_pocketInteractions;
-    _UIScrollPocketLumaObserverInteraction *_lumaObserverInteraction;
-    struct {
-        unsigned int hasSetupWindow:1;
-    } _flags;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)$;
+- (void);
 - (id);
 - (void)Ô ;
 - (void)@ù
@@ -28,18 +23,12 @@ __attribute__((visibility("hidden")))
 - (id)ñcÐ1Â0@ù
 × ;
 - (id);
-- (void)crollIndicatorColor;
+- (void)_horizontalScrollIndicatorColor;
 - (id)Style:] to reset appearance values /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

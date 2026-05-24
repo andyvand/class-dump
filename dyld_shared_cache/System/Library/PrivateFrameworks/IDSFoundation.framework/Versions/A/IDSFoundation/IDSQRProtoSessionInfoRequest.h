@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface IDSQRProtoSessionInfoRequest
 {
     CDStruct_9f2792e4 _publishedStreamIds;
-    unsigned int _commandFlags;
-    unsigned int _generationCounter;
-    unsigned int _linkId;
-    unsigned int _maxConcurrentStreams;
-    unsigned int _requestId;
-    NSMutableArray *_subscribedStreams;
-    _Bool _allWildcardSubscription;
-    struct {
-        unsigned int commandFlags:1;
-        unsigned int generationCounter:1;
-        unsigned int linkId:1;
-        unsigned int maxConcurrentStreams:1;
-        unsigned int requestId:1;
-        unsigned int allWildcardSubscription:1;
-    } _has;
 }
 
 + (Class);
@@ -34,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,12 +28,12 @@
 - (unsigned long long);
 - (unsigned int);
 - (unsigned int *);
+- (unsigned int);
 - (unsigned int);
-- (unsigned int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)q!;
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -65,9 +48,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)`;
+- (_Bool)I}28;
+- (void)irVerify:(id)arg1 start:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ocessParticipantIDs:received %lu participants:%@. /* Error: Ran out of types for this method. */;
@@ -76,21 +59,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) _Bool allWildcardSubscription; // @synthesize allWildcardSubscription=_allWildcardSubscription;
-@property(nonatomic) unsigned int commandFlags; // @synthesize commandFlags=_commandFlags;
-@property(nonatomic) unsigned int generationCounter; // @synthesize generationCounter=_generationCounter;
-@property(nonatomic) _Bool hasAllWildcardSubscription;
-@property(nonatomic) _Bool hasCommandFlags;
-@property(nonatomic) _Bool hasGenerationCounter;
-@property(nonatomic) _Bool hasLinkId;
-@property(nonatomic) _Bool hasMaxConcurrentStreams;
-@property(nonatomic) _Bool hasRequestId;
-@property(nonatomic) unsigned int linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) unsigned int maxConcurrentStreams; // @synthesize maxConcurrentStreams=_maxConcurrentStreams;
-@property(readonly, nonatomic) unsigned int *publishedStreamIds;
 @property(readonly, nonatomic) unsigned long long publishedStreamIdsCount;
-@property(nonatomic) unsigned int requestId; // @synthesize requestId=_requestId;
-@property(retain, nonatomic) NSMutableArray *subscribedStreams; // @synthesize subscribedStreams=_subscribedStreams;
 
 @end
 

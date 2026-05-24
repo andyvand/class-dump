@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSError, NSString, OSALog;
+@class NSString, OSALog;
 
 @interface PCCJob
 {
     OSALog *_package;
-    NSError *_errObj;
-    NSString *_type;
-    NSString *_event;
-    NSString *_jid;
-    NSString *_target;
-    NSDictionary *_options;
-    NSDictionary *_metadata;
-    NSDate *_lastTouch;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)ntStream(APSenderSessionRef, FigTransportStreamRef);
+- (void)apsession_ensureEventStreamCreated;
+- (id)work clock
+;
+- (id)ks/CrashReporterSupport.framework/Contents/MacOS/CrashReporterSupport;
+- (id)CRIsAutoSubmitEnabled;
+- (id)ictionaryRef, CFArrayRef);
+- (id)JSONObjectWithData:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -36,15 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *event; // @synthesize event=_event;
 @property(readonly) NSString *jid; // @synthesize jid=_jid;
-@property(readonly) NSDate *lastTouch; // @synthesize lastTouch=_lastTouch;
-@property(readonly) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly) NSString *nextFilepath;
-@property(readonly) NSDictionary *options; // @synthesize options=_options;
-@property(readonly) id result;
-@property(readonly) NSString *target; // @synthesize target=_target;
-@property(readonly) NSString *type; // @synthesize type=_type;
 
 @end
 

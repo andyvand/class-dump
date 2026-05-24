@@ -6,23 +6,17 @@
 
 #import <ChatKit/CKSceneDelegate.h>
 
-@class CKCoreChatController, CKDetailsNavigationController, CKMessagesSplitViewCoordinator, CKNavigationController, CKSendMenuPresentation, ChatKit.CKInteractionNotificationView, NSSet, NSString, UISplitViewController;
+@class CKDetailsNavigationController, UISplitViewController;
 
 @interface CKChatSceneDelegate : CKSceneDelegate
 {
     CKDetailsNavigationController *_detailsNavigationController;
-    CKNavigationController *_navigationController;
-    UISplitViewController *_splitViewController;
-    CKMessagesSplitViewCoordinator *_splitViewCoordinator;
-    CKCoreChatController *_chatController;
-    ChatKit.CKInteractionNotificationView *_dismissOnInteractionView;
-    CKSendMenuPresentation *_sendMenuPresentation;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)_objectIDs;
+- (void)_nonHighlightedClickableAttributedString;
+- (id)_folderItemIdentifiersToParentFolderItemIdentifier;
+- (id)ICTagAllTagsItemIdentifier;
 - (void);
 - (void);
 - (void);
@@ -35,22 +29,44 @@
 - (id);
 - (void);
 - (void);
+- (id)t;
+- (id)n;
+- (void)t;
+- (_Bool)a;
+- (void)toggle collapsed due to missing text storage;
+- (struct UIEdgeInsets)ing object to JSON:(id)arg1 %@;
+- (struct UIEdgeInsets)te JavaScript:(id)arg1 %@
+JavaScript error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)@;
+- (void)@"ICSearchResult"8Q16^B24;
+- (id)ICMAppearanceAlwaysShowLightContentDidChangeNotification;
+- (void)^B24;
+- (void)loudSyncingObject"8^B16;
+- (void)Unknown;
+- (void)ator validatePaperBounds:] /* Error: Ran out of types for this method. */;
+- (void)ICLockedNotesSwitchViewController;
+- (id):] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)F;
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)i
+;
+- (id)X%
+;
 - (void);
 - (void);
 - (void);
@@ -58,34 +74,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)B;
 - (void);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id)!dBùqÐ1Â0@ù
 × ;
@@ -99,21 +96,7 @@
 - (void)Ý4¼U/;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *alertSuppressionContexts;
-@property(retain, nonatomic) CKCoreChatController *chatController; // @synthesize chatController=_chatController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak CKDetailsNavigationController *detailsNavigationController; // @synthesize detailsNavigationController=_detailsNavigationController;
-@property(retain, nonatomic) ChatKit.CKInteractionNotificationView *dismissOnInteractionView; // @synthesize dismissOnInteractionView=_dismissOnInteractionView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKNavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(retain, nonatomic) CKSendMenuPresentation *sendMenuPresentation; // @synthesize sendMenuPresentation=_sendMenuPresentation;
 @property(retain, nonatomic) UISplitViewController *splitViewController; // @synthesize splitViewController=_splitViewController;
-@property(retain, nonatomic) CKMessagesSplitViewCoordinator *splitViewCoordinator; // @synthesize splitViewCoordinator=_splitViewCoordinator;
-@property(readonly) Class superclass;
 
 @end
 

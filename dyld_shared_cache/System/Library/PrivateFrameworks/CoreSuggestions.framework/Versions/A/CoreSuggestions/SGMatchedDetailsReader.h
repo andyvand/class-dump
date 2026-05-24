@@ -9,10 +9,6 @@
 @interface SGMatchedDetailsReader
 {
     NSData *_matchDetails;
-    long long _arrayCount;
-    unsigned int *_phraseMatches;
-    long long _phraseCount;
-    long long _columnCount;
 }
 
 - (id);
@@ -22,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long columnCount; // @synthesize columnCount=_columnCount;
 @property(readonly, nonatomic) long long phraseCount; // @synthesize phraseCount=_phraseCount;
 
 @end

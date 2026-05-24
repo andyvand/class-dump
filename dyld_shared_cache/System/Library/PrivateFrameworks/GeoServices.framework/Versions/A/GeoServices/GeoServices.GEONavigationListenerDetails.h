@@ -4,39 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOArrivalTimeAndDistanceInfo, GEOComposedRoute, GEOLocation, GEONameInfo, GEONavigationGuidanceState, GEONavigationRouteSummary, GEONavigationRouteTransitSummary;
-
 @interface GeoServices.GEONavigationListenerDetails
 {
     unsigned long long state;
-    GEOComposedRoute *route;
-    int transportType;
-    _Bool isResumingMultipointRoute;
-    GEOLocation *lastLocation;
-    CDStruct_3f2a7a20 lastRouteMatchedCoordinate;
-    long long stepIndex;
-    GEONameInfo *stepNameInfo;
-    GEOArrivalTimeAndDistanceInfo *timeAndDistanceInfo;
-    CDStruct_c3b9c2ee positionFromSign;
-    CDStruct_c3b9c2ee positionFromManeuver;
-    CDStruct_c3b9c2ee positionFromDestination;
-    int navigationVoiceVolume;
-    GEONavigationRouteSummary *routeSummary;
-    GEONavigationRouteTransitSummary *transitSummary;
-    GEONavigationGuidanceState *guidanceState;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)erWriterScheduler>"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
+- (id)8@0:8^@16@24@32^@40 /* Error: Ran out of types for this method. */;
+- (id)shouldIgnoreAssumedIdentityForBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)observerWithWeakTarget:(id)arg1 resultSelector: /* Error: Ran out of types for this method. */;
+- (void)nts_openDoor;
+- (void)_resourceScheduler;
+- (CDStruct_c3b9c2ee)netic Eswatini;
+- (CDStruct_c3b9c2ee)Syria;
 - (CDStruct_c3b9c2ee);
-- (CDStruct_c3b9c2ee);
-- (CDStruct_c3b9c2ee);
-- (int);
-- (CDStruct_3f2a7a20);
+- (int)_nameComponents;
+- (CDStruct_3f2a7a20)ݟ;
 - (id);
 - (void);
 - (void);
@@ -47,15 +30,15 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)checkPendingSyncs;
 - (void);
 - (unsigned long long);
 - (id)× ;
-- (void)onFromViewportCenter;
-- (void)s;
-- (void)gResult;
+- (void)_distanceToSuggestionFromViewportCenter;
+- (void)GEOPDLocalizedAddress;
+- (void)GEOPDBatchReverseGeocodingResult;
 - (void)L"l$¼')Ü,¬.ü1I7Ì7!D9:(CDStruct_c3b9c2ee)arg1 ;
-- (void)ds;
+- (void)viewTargetBounds;
 - (id)ÿÿ;
 - (void)ÇÂBAµnÚo[Q@;
 - (void))\Âõp@;
@@ -63,22 +46,7 @@
 - (int)Ð9;
 
 // Remaining properties
-@property(nonatomic, retain) GEONavigationGuidanceState *guidanceState; // @synthesize guidanceState;
-@property(nonatomic) _Bool isResumingMultipointRoute; // @synthesize isResumingMultipointRoute;
-@property(nonatomic, retain) GEOLocation *lastLocation; // @synthesize lastLocation;
-@property(nonatomic) CDStruct_3f2a7a20 lastRouteMatchedCoordinate; // @synthesize lastRouteMatchedCoordinate;
-@property(nonatomic) int navigationVoiceVolume; // @synthesize navigationVoiceVolume;
-@property(nonatomic) CDStruct_c3b9c2ee positionFromDestination; // @synthesize positionFromDestination;
-@property(nonatomic) CDStruct_c3b9c2ee positionFromManeuver; // @synthesize positionFromManeuver;
-@property(nonatomic) CDStruct_c3b9c2ee positionFromSign; // @synthesize positionFromSign;
-@property(nonatomic, retain) GEOComposedRoute *route; // @synthesize route;
-@property(nonatomic, retain) GEONavigationRouteSummary *routeSummary; // @synthesize routeSummary;
 @property(nonatomic) unsigned long long state; // @synthesize state;
-@property(nonatomic) long long stepIndex; // @synthesize stepIndex;
-@property(nonatomic, retain) GEONameInfo *stepNameInfo; // @synthesize stepNameInfo;
-@property(nonatomic, retain) GEOArrivalTimeAndDistanceInfo *timeAndDistanceInfo; // @synthesize timeAndDistanceInfo;
-@property(nonatomic, retain) GEONavigationRouteTransitSummary *transitSummary; // @synthesize transitSummary;
-@property(nonatomic) int transportType; // @synthesize transportType;
 
 @end
 

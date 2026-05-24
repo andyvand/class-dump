@@ -9,12 +9,11 @@
 @interface BMMicroLocationNumDevicesPerTechnology
 {
     unsigned int _numDevices;
-    NSString *_technology;
 }
 
 + (id);
 - (id);
-- (unsigned int);
+- (unsigned int)ession [%s] %s:%d %@(%p) Exiting state session %s. Entering state session %s. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned int);
@@ -22,20 +21,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)So22NSManagedObjectContextCSo0aB0CIeggg_;
 - (id):(id)arg1 {;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int numDevices; // @synthesize numDevices=_numDevices;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *technology; // @synthesize technology=_technology;
 
 @end

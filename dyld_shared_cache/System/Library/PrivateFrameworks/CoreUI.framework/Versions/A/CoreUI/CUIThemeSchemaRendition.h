@@ -6,20 +6,11 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class CUIPSDGradient, NSDictionary;
+@class NSDictionary;
 
 @interface CUIThemeSchemaRendition : CUIThemeRendition
 {
     NSDictionary *cuiInfo;
-    unsigned long long _nimages;
-    struct CGImage *_image[9];
-    struct CGRect _layoutRects[9];
-    struct CGSize _intrinsicSize;
-    struct CGRect _elementRect;
-    long long _columnSlices;
-    long long _rowSlices;
-    CDStruct_3c058996 _contentInsets;
-    CUIPSDGradient *_gradient;
 }
 
 - (id);
@@ -40,22 +31,22 @@
 - (struct CGRect);
 - (id);
 - (unsigned short);
-- (id);
+- (id);
 - (id);
 - (unsigned short);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (unsigned int);
 - (id);
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)C;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -83,7 +74,7 @@
 - (double);
 - (unsigned short);
 - (CDStruct_3c058996);
-- (unsigned short);
+- (unsigned short)URLSession:task:_willSendRequestForEstablishedConnection:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
@@ -91,14 +82,12 @@
 - (id);
 - (unsigned short);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short)=}16;
 - (unsigned short);
 - (unsigned short);
 
 // Remaining properties
-@property(readonly, nonatomic) CUIPSDGradient *gradient;
 @property(readonly, nonatomic) unsigned long long numberOfSlices;
-@property(readonly, nonatomic) struct CGRect *sliceRects;
 
 @end
 

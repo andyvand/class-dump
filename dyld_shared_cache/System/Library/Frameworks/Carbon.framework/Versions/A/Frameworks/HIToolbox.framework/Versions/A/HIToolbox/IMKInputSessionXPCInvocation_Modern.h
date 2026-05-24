@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKInputSession_Modern;
-
 __attribute__((visibility("hidden")))
 @interface IMKInputSessionXPCInvocation_Modern
 {
     int _timeoutStatus;
-    SEL _callerSelector;
-    IMKInputSession_Modern *_imkInputSession;
 }
 
 + (id);
-- (void);
+- (void)/;
 
 @end
 

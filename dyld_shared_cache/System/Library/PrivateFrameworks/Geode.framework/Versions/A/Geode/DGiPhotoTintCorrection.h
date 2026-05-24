@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGiPhotoTintCorrection
 {
     CIImage *inputImage;
-    NSNumber *inputPower;
 }
 
-+ (void);
++ (void)IPAPhotoEffectOperation;
 - (id);
 - (id);
 

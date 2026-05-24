@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface TabSearchFilterOperation
 {
     CDUnknownBlockType _filterCompletionCallback;
-    NSString *_filterText;
-    NSArray *_tabInfo;
 }
 
 - (void);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType filterCompletionCallback; // @synthesize filterCompletionCallback=_filterCompletionCallback;
-@property(readonly, nonatomic) NSString *filterText; // @synthesize filterText=_filterText;
 @property(copy, nonatomic) NSArray *tabInfo; // @synthesize tabInfo=_tabInfo;
 
 @end

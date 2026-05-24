@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableSet, NSNumber, NSString, NSURL, PHAdjustmentData, PHContentEditingOutputRequestOptions, UTType;
+@class PHAdjustmentData, PHContentEditingOutputRequestOptions;
 
 @interface PHContentEditingOutput
 {
     PHAdjustmentData *_adjustmentData;
-    long long _baseVersion;
-    NSMutableSet *_deliveredRenderedContentURLs;
-    NSURL *_appropriateURLForDerivingRenderedContentURLs;
-    _Bool _isSubstandardRender;
-    _Bool _loopingLivePhoto;
-    _Bool _isAsyncAdjustment;
-    NSURL *_renderedContentURL;
-    PHContentEditingOutputRequestOptions *_requestOptions;
-    NSNumber *_originalResourceChoice;
-    long long _fullSizeRenderWidth;
-    long long _fullSizeRenderHeight;
-    double _fullSizeRenderDuration;
-    NSURL *_adjustmentSecondaryDataURL;
-    NSData *_penultimateRenderedJPEGData;
-    NSURL *_penultimateRenderedVideoContentURL;
-    NSURL *_renderedVideoPosterURL;
-    NSURL *_renderedVideoComplementContentURL;
-    NSURL *_penultimateRenderedVideoComplementContentURL;
-    NSURL *_editorBundleURL;
-    long long _mediaType;
-    NSURL *_renderedPreviewContentURL;
-    NSNumber *_playbackVariation;
-    NSNumber *_videoDuration;
-    NSString *_accessibilityDescription;
 }
 
 + (unsigned long long);
@@ -46,14 +22,14 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)n	;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
@@ -68,11 +44,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Nc!NA!N;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -92,8 +68,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)@;
+- (id)AllowsCellularDataDownloads;
 - (id);
 - (long long);
 - (id);
@@ -101,37 +77,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)sortedArrayUsingDescriptors: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void)",&,N,V_location;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(retain) PHAdjustmentData *adjustmentData;
-@property(copy, nonatomic) NSURL *adjustmentSecondaryDataURL; // @synthesize adjustmentSecondaryDataURL=_adjustmentSecondaryDataURL;
-@property long long baseVersion;
-@property(readonly, copy) UTType *defaultRenderedContentType;
-@property(retain) NSURL *editorBundleURL; // @synthesize editorBundleURL=_editorBundleURL;
-@property(nonatomic) double fullSizeRenderDuration; // @synthesize fullSizeRenderDuration=_fullSizeRenderDuration;
-@property(nonatomic) long long fullSizeRenderHeight; // @synthesize fullSizeRenderHeight=_fullSizeRenderHeight;
-@property(nonatomic) long long fullSizeRenderWidth; // @synthesize fullSizeRenderWidth=_fullSizeRenderWidth;
-@property(nonatomic) _Bool isAsyncAdjustment; // @synthesize isAsyncAdjustment=_isAsyncAdjustment;
-@property(nonatomic) _Bool isSubstandardRender; // @synthesize isSubstandardRender=_isSubstandardRender;
-@property(readonly, getter=isLoopingLivePhoto) _Bool loopingLivePhoto; // @synthesize loopingLivePhoto=_loopingLivePhoto;
-@property(readonly) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(retain, nonatomic) NSNumber *originalResourceChoice; // @synthesize originalResourceChoice=_originalResourceChoice;
-@property(retain) NSData *penultimateRenderedJPEGData; // @synthesize penultimateRenderedJPEGData=_penultimateRenderedJPEGData;
-@property(copy) NSURL *penultimateRenderedVideoComplementContentURL; // @synthesize penultimateRenderedVideoComplementContentURL=_penultimateRenderedVideoComplementContentURL;
-@property(copy) NSURL *penultimateRenderedVideoContentURL; // @synthesize penultimateRenderedVideoContentURL=_penultimateRenderedVideoContentURL;
-@property(retain, nonatomic) NSNumber *playbackVariation; // @synthesize playbackVariation=_playbackVariation;
-@property(copy) NSURL *renderedContentURL; // @synthesize renderedContentURL=_renderedContentURL;
-@property(retain, nonatomic) NSURL *renderedPreviewContentURL; // @synthesize renderedPreviewContentURL=_renderedPreviewContentURL;
-@property(copy) NSURL *renderedVideoComplementContentURL; // @synthesize renderedVideoComplementContentURL=_renderedVideoComplementContentURL;
-@property(copy) NSURL *renderedVideoPosterURL; // @synthesize renderedVideoPosterURL=_renderedVideoPosterURL;
 @property(readonly, nonatomic) PHContentEditingOutputRequestOptions *requestOptions; // @synthesize requestOptions=_requestOptions;
-@property(readonly, copy) NSArray *supportedRenderedContentTypes;
-@property(retain, nonatomic) NSNumber *videoDuration; // @synthesize videoDuration=_videoDuration;
 
 @end
 

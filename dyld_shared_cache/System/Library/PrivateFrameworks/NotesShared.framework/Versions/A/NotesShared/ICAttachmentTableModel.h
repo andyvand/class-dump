@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICAttachmentModel.h>
 
-@class ICTable, ICTableVersionedDocument;
+@class ICTableVersionedDocument;
 
 @interface ICAttachmentTableModel : ICAttachmentModel
 {
@@ -16,7 +16,6 @@
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) ICTable *table;
 @property(retain, nonatomic) ICTableVersionedDocument *tableDocument; // @synthesize tableDocument=_tableDocument;
 
 @end

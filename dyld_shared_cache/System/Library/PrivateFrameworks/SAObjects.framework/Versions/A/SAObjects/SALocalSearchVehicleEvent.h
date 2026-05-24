@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDate, NSNumber, NSString, SALocation;
+@class NSDate;
 
 @interface SALocalSearchVehicleEvent : SADomainObject
 {
@@ -17,22 +17,18 @@
 - (void);
 - (id);
 - (id);
+- (id)+;
 - (id);
 - (id);
-- (id);
+- (void)X;
+- (void));
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date;
-@property(retain, nonatomic) SALocation *location;
-@property(copy, nonatomic) NSString *notes;
-@property(copy, nonatomic) NSNumber *userSetLocation;
-@property(copy, nonatomic) NSString *vehicleIdentifier;
 
 @end
 

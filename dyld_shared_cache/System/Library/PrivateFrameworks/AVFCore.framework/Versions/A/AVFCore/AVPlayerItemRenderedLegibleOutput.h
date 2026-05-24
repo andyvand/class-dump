@@ -6,31 +6,24 @@
 
 #import <AVFCore/AVPlayerItemOutput.h>
 
-@class AVWeakReference, AVWeakReferencingDelegateStorage, NSObject;
-@protocol AVPlayerItemRenderedLegibleOutputDependencyFactory, AVPlayerItemRenderedLegibleOutputPushDelegate, OS_dispatch_queue;
+@protocol AVPlayerItemRenderedLegibleOutputDependencyFactory, AVPlayerItemRenderedLegibleOutputPushDelegate;
 
 @interface AVPlayerItemRenderedLegibleOutput : AVPlayerItemOutput
 {
     id <AVPlayerItemRenderedLegibleOutputDependencyFactory> _dependencyFactory;
-    AVWeakReferencingDelegateStorage *_delegateStorage;
-    NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    AVWeakReference *_weakReferenceToHost;
-    _Bool _suppressesPlayerRendering;
-    double _advanceInterval;
-    struct CGSize _videoDisplaySize;
 }
 
 + (void)umber;
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)_aneContextFilter;
+- (void)le, double>, std:(_Bool)arg1:less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (void)_vadGatingLevel;
 - (id);
 - (id);
 - (double);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,10 +34,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) double advanceIntervalForDelegateInvocation;
 @property(readonly, nonatomic) __weak id <AVPlayerItemRenderedLegibleOutputPushDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
-@property(nonatomic) struct CGSize videoDisplaySize;
 
 @end
 

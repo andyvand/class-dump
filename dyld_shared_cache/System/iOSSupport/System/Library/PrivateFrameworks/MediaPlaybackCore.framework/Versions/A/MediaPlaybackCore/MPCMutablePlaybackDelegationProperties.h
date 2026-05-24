@@ -6,14 +6,13 @@
 
 #import <MediaPlaybackCore/MPCPlaybackDelegationProperties.h>
 
-@class NSString, NSTimeZone;
-
 __attribute__((visibility("hidden")))
 @interface MPCMutablePlaybackDelegationProperties : MPCPlaybackDelegationProperties
 {
 }
 
-- (void);
+- (void)R
+;
 - (void);
 - (void);
 - (void);
@@ -23,12 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)TcÏÿ(÷;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceGUID; // @dynamic deviceGUID;
-@property(copy, nonatomic) NSString *deviceName; // @dynamic deviceName;
-@property(copy, nonatomic) NSString *requestUserAgent; // @dynamic requestUserAgent;
 @property(nonatomic) unsigned long long storeAccountID; // @dynamic storeAccountID;
-@property(nonatomic) long long systemReleaseType; // @dynamic systemReleaseType;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @dynamic timeZone;
 
 @end
 

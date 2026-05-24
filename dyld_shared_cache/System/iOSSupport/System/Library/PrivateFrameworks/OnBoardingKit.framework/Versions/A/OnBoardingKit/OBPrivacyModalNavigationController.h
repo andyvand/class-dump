@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OBPrivacyModalNavigationController : OBNavigationController
 {
     _Bool _darkMode;
-    CDUnknownBlockType _dismissButtonPressedHandler;
 }
 
 - (CDUnknownBlockType);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isDarkMode) _Bool darkMode; // @synthesize darkMode=_darkMode;
 @property(copy) CDUnknownBlockType dismissButtonPressedHandler; // @synthesize dismissButtonPressedHandler=_dismissButtonPressedHandler;
 
 @end

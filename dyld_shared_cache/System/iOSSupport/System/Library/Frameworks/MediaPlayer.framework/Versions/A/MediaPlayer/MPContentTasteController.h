@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, NSMutableDictionary, NSObject;
+@class ICUserIdentity, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPContentTasteController
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableDictionary *_pendingUpdateRecordByPlaylistGlobalID;
-    NSMutableDictionary *_pendingUpdateRecordByStoreAdamID;
-    ICUserIdentity *_userIdentity;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 + (void);
 + (void);
 + (id);
-+ (id);
++ (id);
 - (long long);
 - (long long);
 - (long long);
@@ -44,10 +41,10 @@
 - (id);
 - (id);
 - (id);
+- (id)tE;
 - (id);
-- (id);
-- (void)ing;
-- (id)che;
+- (void)lowercaseString;
+- (id)_itemResultSetsForCriteriaCache;
 
 // Remaining properties
 @property(readonly, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;

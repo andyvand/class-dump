@@ -8,7 +8,7 @@
 {
 }
 
-+ (double);
++ (double);
 + (unsigned long long);
 + (double);
 

@@ -7,9 +7,6 @@
 @interface NewsArticles.RecipeArticleDrawerViewController
 {
     id recipeArticleDrawerViewController;
-    id baseStyler;
-    id model;
-    id router;
 }
 
 - (void);

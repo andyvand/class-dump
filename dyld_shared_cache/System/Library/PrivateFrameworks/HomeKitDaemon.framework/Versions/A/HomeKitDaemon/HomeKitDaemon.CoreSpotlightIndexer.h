@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.CoreSpotlightIndexer
 {
     id $defaultActor;
-    id indexerDataSource;
 }
 
 - (void);

@@ -6,32 +6,30 @@
 
 #import <HomeKitDaemon/HMDAppleMediaAccessoryMessageHandler.h>
 
-@protocol HMDMediaDestinationMessageHandlerDataSource, HMDMediaDestinationMessageHandlerDelegate;
+@protocol HMDMediaDestinationMessageHandlerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationMessageHandler : HMDAppleMediaAccessoryMessageHandler
 {
     id <HMDMediaDestinationMessageHandlerDataSource> _dataSource;
-    id <HMDMediaDestinationMessageHandlerDelegate> _delegate;
 }
 
 + (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (id)pointAtIndex: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (void);
 - (void);
 - (void)xchangeMSHH1;
 
 // Remaining properties
 @property __weak id <HMDMediaDestinationMessageHandlerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property __weak id <HMDMediaDestinationMessageHandlerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

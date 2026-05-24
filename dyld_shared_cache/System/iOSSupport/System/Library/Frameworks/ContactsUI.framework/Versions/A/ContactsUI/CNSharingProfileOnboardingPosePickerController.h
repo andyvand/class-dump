@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoPickerVariantListController, CNPhotoPickerVariantsManager, NSLayoutConstraint, OBBoldTrayButton, OBLinkTrayButton;
 @protocol AVTAvatarRecord, CNSharingProfileOnboardingPosePickerControllerDelegate;
 
 @interface CNSharingProfileOnboardingPosePickerController
 {
     id <CNSharingProfileOnboardingPosePickerControllerDelegate> _delegate;
-    id <AVTAvatarRecord> _avatarRecord;
-    CNPhotoPickerVariantsManager *_variantsManager;
-    CNPhotoPickerVariantListController *_variantListController;
-    OBLinkTrayButton *_setupLaterButton;
-    OBBoldTrayButton *_backButton;
-    OBBoldTrayButton *_nextButton;
-    NSLayoutConstraint *_heightConstraint;
 }
 
 - (id);
@@ -25,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (id);
 - (void);
 - (void);
@@ -42,18 +34,11 @@
 - (void);
 - (void);
 - (id);
-- (id)teAttributesInRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)enumerateAttributesInRange:options:usingBlock: /* Error: Ran out of types for this method. */;
 - (void)actionsView:shouldPresentDisambiguationUIForAction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(retain, nonatomic) OBBoldTrayButton *backButton; // @synthesize backButton=_backButton;
-@property(nonatomic) __weak id <CNSharingProfileOnboardingPosePickerControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(retain, nonatomic) OBBoldTrayButton *nextButton; // @synthesize nextButton=_nextButton;
-@property(retain, nonatomic) OBLinkTrayButton *setupLaterButton; // @synthesize setupLaterButton=_setupLaterButton;
-@property(retain, nonatomic) CNPhotoPickerVariantListController *variantListController; // @synthesize variantListController=_variantListController;
-@property(retain, nonatomic) CNPhotoPickerVariantsManager *variantsManager; // @synthesize variantsManager=_variantsManager;
 
 @end
 

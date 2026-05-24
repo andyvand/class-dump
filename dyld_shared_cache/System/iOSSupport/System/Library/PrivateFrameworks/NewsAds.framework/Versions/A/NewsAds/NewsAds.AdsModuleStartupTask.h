@@ -7,7 +7,6 @@
 @interface NewsAds.AdsModuleStartupTask
 {
     id resolver;
-    id environment;
 }
 
 @end

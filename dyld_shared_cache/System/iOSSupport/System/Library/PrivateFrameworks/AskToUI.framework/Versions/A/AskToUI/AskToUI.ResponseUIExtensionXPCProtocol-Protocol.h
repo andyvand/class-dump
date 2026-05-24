@@ -5,5 +5,6 @@
 //
 
 @protocol AskToUI.ResponseUIExtensionXPCProtocol
+- (void);
 @end
 

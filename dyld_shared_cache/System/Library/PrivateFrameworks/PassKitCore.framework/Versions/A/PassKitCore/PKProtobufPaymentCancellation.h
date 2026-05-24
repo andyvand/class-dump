@@ -19,15 +19,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)luarBadLQM"b1"nCelluarBadRSRP"b1"nCelluarBadSignal"b1"nCellularNotReady"b1"nData"b1"nHandoverNotPerformed"b1"nHandoverPerformed"b1"nHandoverUnknown"b1"nRunning"b1"nStationary"b1"nStatusUpdateDelayBin1"b1"nStatusUpdateDelayBin2"b1"nStatusUpdateDelayBin3"b1"nStatusUpdateDelayBin4"b1"nStatusUpdateDelayBin5"b1"nStatusUpdateDelayBin6"b1"nVehicular"b1"nVoice"b1"nWalking"b1"nWifiGood"b1};
 - (void);
 - (id);
 - (id);
-- (void)_INSUFFICIENT_FUNDS_ERROR_MESSAGE;
+- (void)ACCOUNT_SERVICE_APPLE_CASH_INSUFFICIENT_FUNDS_ERROR_MESSAGE;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRemotePaymentRequestIdentifier;
-@property(retain, nonatomic) NSString *remotePaymentRequestIdentifier; // @synthesize remotePaymentRequestIdentifier=_remotePaymentRequestIdentifier;
 
 @end
 

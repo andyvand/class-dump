@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MUICategoryMailboxCount
 {
     long long _primaryCount;
-    long long _fullCount;
 }
 
 - (void);
@@ -19,20 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) long long fullCount; // @synthesize fullCount=_fullCount;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long primaryCount; // @synthesize primaryCount=_primaryCount;
-@property(readonly) Class superclass;
 
 @end
 

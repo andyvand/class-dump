@@ -13,9 +13,9 @@
 }
 
 - (void);
-- (id);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (id);
+- (void)version mismatch:Currently supported:%u; encoded:%u /* Error: Ran out of types for this method. */;
+- (void)initWithDescription:timeout: /* Error: Ran out of types for this method. */;
 
 @end
 

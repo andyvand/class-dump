@@ -6,27 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PLUSSchemaPLUSRECTIFIPatternItem : SISchemaInstrumentationMessage
 {
     int _itemSource;
-    int _itemType;
-    unsigned long long _relativeTimestampInMs;
-    NSString *_cdmMatchingSpanLabel;
-    NSString *_uufrSaidDialogIdentifier;
-    NSString *_itemDomainName;
-    NSString *_itemPayload;
-    struct {
-        unsigned int itemSource:1;
-        unsigned int itemType:1;
-        unsigned int relativeTimestampInMs:1;
-    } _has;
-    _Bool _hasCdmMatchingSpanLabel;
-    _Bool _hasUufrSaidDialogIdentifier;
-    _Bool _hasItemDomainName;
-    _Bool _hasItemPayload;
-    unsigned long long _whichPatternitemcontent;
 }
 
 - (unsigned long long);
@@ -52,48 +34,33 @@
 - (void);
 - (void);
 - (void);
+- (void)@9,;
 - (void);
-- (void);
-- (void);
+- (void)T,;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (int);
-- (void);
+- (void)ionary";
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)lause:(id)arg1 %@;
 - (void);
 - (id);
 - (id)
 × ;
 - (id)_hasUserSelectedLocale;
 - (id)kAppSelectionTrainingAppIndependentSignals;
-- (_Bool)ightResult;
-- (void)GENGINENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__UNSUPPORTEDMEDIAITEMSEMPTYLIBRARY__TITLE;
+- (_Bool)STSchemaSTSpotlightResult;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__UNSUPPORTEDMEDIAITEMSEMPTYLIBRARY__TITLE;
 - (int)`Ñÿø;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cdmMatchingSpanLabel; // @synthesize cdmMatchingSpanLabel=_cdmMatchingSpanLabel;
-@property(nonatomic) _Bool hasCdmMatchingSpanLabel; // @synthesize hasCdmMatchingSpanLabel=_hasCdmMatchingSpanLabel;
-@property(nonatomic) _Bool hasItemDomainName; // @synthesize hasItemDomainName=_hasItemDomainName;
-@property(nonatomic) _Bool hasItemPayload; // @synthesize hasItemPayload=_hasItemPayload;
-@property(nonatomic) _Bool hasItemSource;
-@property(nonatomic) _Bool hasItemType;
-@property(nonatomic) _Bool hasRelativeTimestampInMs;
-@property(nonatomic) _Bool hasUufrSaidDialogIdentifier; // @synthesize hasUufrSaidDialogIdentifier=_hasUufrSaidDialogIdentifier;
-@property(copy, nonatomic) NSString *itemDomainName; // @synthesize itemDomainName=_itemDomainName;
-@property(copy, nonatomic) NSString *itemPayload; // @synthesize itemPayload=_itemPayload;
 @property(nonatomic) int itemSource; // @synthesize itemSource=_itemSource;
-@property(nonatomic) int itemType; // @synthesize itemType=_itemType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long relativeTimestampInMs; // @synthesize relativeTimestampInMs=_relativeTimestampInMs;
-@property(copy, nonatomic) NSString *uufrSaidDialogIdentifier; // @synthesize uufrSaidDialogIdentifier=_uufrSaidDialogIdentifier;
-@property(readonly, nonatomic) unsigned long long whichPatternitemcontent; // @synthesize whichPatternitemcontent=_whichPatternitemcontent;
 
 @end
 

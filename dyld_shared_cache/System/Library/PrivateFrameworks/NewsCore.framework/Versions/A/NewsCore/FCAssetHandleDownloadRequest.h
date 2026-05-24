@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCAssetHandleDownloadRequest
 {
     long long _relativePriority;
-    CDUnknownBlockType _cancelHandler;
-    CDUnknownBlockType _priorityHandler;
 }
 
 - (void);
-- (long long);
-- (void);
-- (void)CAppConfigurationBundleShortVersionKey;
+- (long long)queryWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error: /* Error: Ran out of types for this method. */;
+- (void)t),i instanceof Text)i=(s=i).parentNode;else for(s=i.firstChild;o-- >0;s=s.nextSibling);for(e&&(s=s?s.previousSibling:(long long)arg1 i.lastChild);!t&&i;){for(;!t&&s;)isBlockLevelNode(s)?(t=i,n=e||"BR"===s.nodeName.toUpperCase()?s.nextSibling:s):s=e?s.previousSibling:s.nextSibling;s||(isOrContainsBlockLevelNode(i)?(t=i,n=e?t.firstChild:undefined):(s=i,i=i.parentNode))}return{parent:t,nextSibling:n}};const isOrContainsBlockLevelNode=function(e){let t,n=!1;if(IS_BLOCK_ELEMENT_NAME(e.nodeName))n=!0;else for(t=e.firstChild;!n&&t;)n=isOrContainsBlockLevelNode(t),t=t.nextSibling;return n}; /* Error: Ran out of types for this method. */;
+- (void)FCAppConfigurationBundleShortVersionKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(readonly) Class superclass;
 
 @end
 

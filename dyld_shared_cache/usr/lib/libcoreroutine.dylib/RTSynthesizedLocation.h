@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface RTSynthesizedLocation
 {
     double _altitude;
-    double _horizontalAccuracy;
-    double _verticalAccuracy;
-    double _course;
-    double _courseAccuracy;
-    double _speed;
-    double _speedAccuracy;
-    NSDate *_timestamp;
-    long long _downsamplingLevel;
-    long long _geoRoadClass;
-    long long _geoFormOfWay;
-    long long _locationType;
-    unsigned long long _clRoadID;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
-+ (id);
++ (id)ualized account state;
 + (id);
 + (_Bool);
 - (void);
@@ -40,51 +25,31 @@
 - (long long);
 - (long long);
 - (long long);
+- (void)BluetoothHCILESetExtendedAdvertisingData:(unsigned long long)arg1 advertisingDataLength:advertsingData: /* Error: Ran out of types for this method. */;
+- (unsigned long long)tooth devices? %x;
+- (double);
+- (id);
+- (double);
+- (id);
+- (id)s;
+- (id);
+- (id);
+- (double);
+- (_Bool)4];
 - (void);
-- (unsigned long long);
-- (double);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (_Bool);
-- (void);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)lowup KE);
 - (_Bool);
 - (id);
 - (double);
 - (double);
 - (double);
-- (void)orizontalUncertainty:(long long)arg1 date: /* Error: Ran out of types for this method. */;
+- (void)initWithLatitude:(long long)arg1 longitude:horizontalUncertainty:date: /* Error: Ran out of types for this method. */;
 - (long long)ent store added;
 - (void), %@, result, %@, error, %@;
 - (double)hed location that is simulated by software, %{sensitive}@.;
 
 // Remaining properties
-@property(readonly, nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(nonatomic) unsigned long long clRoadID; // @synthesize clRoadID=_clRoadID;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, nonatomic) double course; // @synthesize course=_course;
-@property(readonly, nonatomic) double courseAccuracy; // @synthesize courseAccuracy=_courseAccuracy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long downsamplingLevel; // @synthesize downsamplingLevel=_downsamplingLevel;
-@property(nonatomic) long long geoFormOfWay; // @synthesize geoFormOfWay=_geoFormOfWay;
-@property(nonatomic) long long geoRoadClass; // @synthesize geoRoadClass=_geoRoadClass;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
-@property(nonatomic) long long locationType; // @synthesize locationType=_locationType;
-@property(readonly, nonatomic) double speed; // @synthesize speed=_speed;
-@property(readonly, nonatomic) double speedAccuracy; // @synthesize speedAccuracy=_speedAccuracy;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) double verticalAccuracy; // @synthesize verticalAccuracy=_verticalAccuracy;
 
 @end
 

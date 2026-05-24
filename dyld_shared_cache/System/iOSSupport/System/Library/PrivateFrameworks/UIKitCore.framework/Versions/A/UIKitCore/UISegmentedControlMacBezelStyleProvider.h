@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)_mapChatGUIDsToHighlight:(id)arg1 completionBlock:(id)arg2;
 - (_Bool);
 - (double);
 - (_Bool);
@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 × ;
 - (double)× ;
 - (double)6f20;
-- (_Bool)tyle: /* Error: Ran out of types for this method. */;
-- (id)MaskBounds:startInsets:endInsets:intensities: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithSwipeActionHost:style: /* Error: Ran out of types for this method. */;
+- (id)_getGradientMaskBounds:startInsets:endInsets:intensities: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets)ting;
 - (double)_acceptMenuVisit:(int)arg1 commandVisit:actionVisit:deferredElementVisit: /* Error: Ran out of types for this method. */;
 - (id)ue:(id)arg1 %ld;

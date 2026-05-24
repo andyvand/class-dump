@@ -9,9 +9,6 @@
 @interface WBSUniqueFilenameEnumerator
 {
     NSString *_filenameWithoutExtension;
-    NSString *_pathExtension;
-    unsigned long long _iteration;
-    NSString *_filename;
 }
 
 + (id);
@@ -25,7 +22,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long fileNumber;
 @property(readonly, copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
 
 @end

@@ -9,29 +9,23 @@
 @interface _EMBusinessExternalIDComponents
 {
     NSString *_highLevelDomain;
-    NSString *_displayName;
-    NSString *_simpleAddress;
-    NSString *_brandID;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)8S@�t;
 - (unsigned long long);
-- (id);
+- (id)not add 1 element to context;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)/libobjc.A.dylib;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *brandID; // @synthesize brandID=_brandID;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(copy, nonatomic) NSString *highLevelDomain; // @synthesize highLevelDomain=_highLevelDomain;
-@property(copy, nonatomic) NSString *simpleAddress; // @synthesize simpleAddress=_simpleAddress;
 
 @end
 

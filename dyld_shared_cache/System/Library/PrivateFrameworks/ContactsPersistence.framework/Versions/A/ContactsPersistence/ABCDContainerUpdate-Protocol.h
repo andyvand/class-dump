@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly) NSString *key;
-@property(readonly) id value;
 @end
 

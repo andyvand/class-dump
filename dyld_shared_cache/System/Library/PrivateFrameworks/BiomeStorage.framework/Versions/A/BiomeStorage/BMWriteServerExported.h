@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessControlPolicy, BMProcess, NSMutableDictionary, NSString;
+@class BMProcess;
 
 @interface BMWriteServerExported
 {
     BMProcess *_process;
-    BMAccessControlPolicy *_policy;
-    NSMutableDictionary *_writerCache;
-    NSString *_useCase;
 }
 
 - (void);

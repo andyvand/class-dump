@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDDataDirectoryVersion, NSMutableSet, NSString;
-
 @interface ISDDatabase
 {
     struct sqlite3 *_db;
-    ISDDataDirectoryVersion *_dataVersion;
-    NSMutableSet *_globalStringTable;
-    NSString *_tracingPrefix;
-    id _dirtyCoderDelegate;
 }
 
 + (void);
@@ -24,19 +18,19 @@
 - (struct sqlite3 *);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (int);
@@ -44,7 +38,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -58,7 +52,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,7 +61,7 @@
 - (void);
 - (unsigned long long);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

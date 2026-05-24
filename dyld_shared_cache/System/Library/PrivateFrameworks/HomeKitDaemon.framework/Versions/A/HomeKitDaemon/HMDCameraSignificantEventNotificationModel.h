@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAsset, HMBModelCloudReference, NSDate, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSignificantEventNotificationModel
@@ -12,19 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)ic}s;
++ (id)crResolverMakeRecommendationFailed;
 + (id);
 - (id);
 
 // Remaining properties
-@property(retain) HMBModelCloudReference *associatedClip; // @dynamic associatedClip;
-@property(retain) NSNumber *confidenceLevel; // @dynamic confidenceLevel;
-@property(retain) NSDate *dateOfOccurrence; // @dynamic dateOfOccurrence;
-@property(retain) CKAsset *faceCropAsset; // @dynamic faceCropAsset;
-@property(retain) CKAsset *heroFrameAsset; // @dynamic heroFrameAsset;
 @property(retain) NSNumber *significantEvent; // @dynamic significantEvent;
-@property(retain) NSNumber *timeOffsetWithinClip; // @dynamic timeOffsetWithinClip;
 
 @end
 

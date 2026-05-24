@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
+@class NSObject;
 @protocol SSSessionProtocol;
 
 @interface SSFileCopy
 {
     int direction;
-    NSString *sourcePath;
-    NSString *destinationPath;
-    unsigned long long bytesToCopy;
-    unsigned long long bytesCopied;
-    _Bool isDirectory;
-    NSString *displayName;
-    int errorCode;
-    int _state;
-    unsigned long long _identifier;
-    NSObject<SSSessionProtocol> *_session;
-    NSDate *_startTime;
 }
 
 - (id);
@@ -30,10 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)@;
+- (_Bool);
 - (void);
-- (id);
+- (id)_meaning;
 - (id);
 - (void);
 - (void);
@@ -48,22 +37,11 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)_wfTrailingAdjust;
 - (int)_invoke;
 
 // Remaining properties
-@property unsigned long long bytesCopied; // @synthesize bytesCopied;
-@property unsigned long long bytesToCopy; // @synthesize bytesToCopy;
-@property(copy) NSString *destinationPath; // @synthesize destinationPath;
-@property int direction; // @synthesize direction;
-@property(copy) NSString *displayName; // @synthesize displayName;
-@property int errorCode; // @synthesize errorCode;
-@property unsigned long long identifier; // @synthesize identifier=_identifier;
-@property _Bool isDirectory; // @synthesize isDirectory;
 @property(retain) NSObject<SSSessionProtocol> *session; // @synthesize session=_session;
-@property(copy) NSString *sourcePath; // @synthesize sourcePath;
-@property(retain) NSDate *startTime; // @synthesize startTime=_startTime;
-@property int state; // @synthesize state=_state;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorWallpaper_WallpaperImage, BlastDoorWallpaper_WallpaperMetadata, NSData, NSString;
+@class NSString;
 
 @interface BlastDoorWallpaper
 {
@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)24q28;
 - (long long);
 - (id);
 - (id);
@@ -24,13 +24,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *highResFileName;
-@property(nonatomic, readonly) BlastDoorWallpaper_WallpaperImage *highResImage;
-@property(nonatomic, readonly) NSString *lowResFileName;
-@property(nonatomic, readonly) BlastDoorWallpaper_WallpaperImage *lowResImage;
-@property(nonatomic, readonly) BlastDoorWallpaper_WallpaperMetadata *metadata;
-@property(nonatomic, readonly) NSData *posterArchive;
-@property(nonatomic, readonly) long long version;
 
 @end
 

@@ -6,22 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class ACAccountStore, AFPreferences, RTAccount, RTDarwinNotificationHelper, RTDefaultsManager, RTInvocationDispatcher, RTLifeCycleManager;
+@class ACAccountStore;
 
 @interface RTAccountManager : RTService
 {
     _Bool _ready;
-    _Bool _siriCloudSyncEnabled;
-    _Bool _cloudSyncProvisionedForAccount;
-    ACAccountStore *_accountStore;
-    RTAccount *_account;
-    RTInvocationDispatcher *_dispatcher;
-    RTDefaultsManager *_defaultsManager;
-    RTLifeCycleManager *_lifecycleManager;
-    long long _cloudSyncAuthorizationState;
-    RTDarwinNotificationHelper *_notificationHelper;
-    AFPreferences *_siriPreferences;
-    double _authorizationChangeExitTimeInterval;
 }
 
 + (id);
@@ -36,7 +25,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)urrent interface types L:(long long)arg1 %@, R:%@, link types:%@. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -45,8 +34,8 @@
 - (void);
 - (void);
 - (long long);
-- (id);
-- (long long);
+- (id)_linkContextWithID: /* Error: Ran out of types for this method. */;
+- (long long);
 - (void);
 - (void);
 - (_Bool);
@@ -58,12 +47,12 @@
 - (void)!AùqA,Ð1Â0@ù
 × ;
 - (void);
-- (void)age:(id)arg1 fromID:context: /* Error: Ran out of types for this method. */;
-- (void)nregisteredClientIdentifier:(double)arg1;
-- (id)etchCurrentLocationWithOptions:handler: /* Error: Ran out of types for this method. */;
+- (void)service:(id)arg1 account:incomingMessage:fromID:context: /* Error: Ran out of types for this method. */;
+- (void)errorUnregisteredClientIdentifier:(double)arg1;
+- (id)_fetchCurrentLocationWithOptions:handler: /* Error: Ran out of types for this method. */;
 - (void), %.3f, softDistanceThreshold, %.3f, homeConfidence, %.3f, workConfidence, %.3f, schoolConfidence, %.3f, gymConfidence, %.3f, nonRevGeoConfidence, %.3f, revGeoConfidence, %.3f, revGeoSourceMask, %lu, removeSourcemask, %lu;
 - (id)arameter not satisfying:%@ /* Error: Ran out of types for this method. */;
-- (void)_of_days_with_charging_work_bucketed;
+- (void)percentage_of_days_with_charging_work_bucketed;
 - (void)ectory is nil;
 - (void)@, endDate, %@, interval, %f;
 - (void)fetchLearnedLocationOfInterestForVisitIdentifier:(id)arg1 %@ fetched learnedLocationOfInterest:(id)arg2 %{sensitive}@;
@@ -74,17 +63,7 @@
 - (void)47àÿ;
 
 // Remaining properties
-@property(retain, nonatomic) RTAccount *account; // @synthesize account=_account;
 @property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(nonatomic) double authorizationChangeExitTimeInterval; // @synthesize authorizationChangeExitTimeInterval=_authorizationChangeExitTimeInterval;
-@property(nonatomic) long long cloudSyncAuthorizationState; // @synthesize cloudSyncAuthorizationState=_cloudSyncAuthorizationState;
-@property(nonatomic) _Bool cloudSyncProvisionedForAccount; // @synthesize cloudSyncProvisionedForAccount=_cloudSyncProvisionedForAccount;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(retain, nonatomic) RTLifeCycleManager *lifecycleManager; // @synthesize lifecycleManager=_lifecycleManager;
-@property(retain, nonatomic) RTDarwinNotificationHelper *notificationHelper; // @synthesize notificationHelper=_notificationHelper;
-@property(nonatomic) _Bool siriCloudSyncEnabled; // @synthesize siriCloudSyncEnabled=_siriCloudSyncEnabled;
-@property(retain, nonatomic) AFPreferences *siriPreferences; // @synthesize siriPreferences=_siriPreferences;
 
 @end
 

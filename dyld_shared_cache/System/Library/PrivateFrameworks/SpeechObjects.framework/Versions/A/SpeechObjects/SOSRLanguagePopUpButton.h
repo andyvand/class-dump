@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSProgressIndicator, NSString, NSTextField, NSTimer, SODownloadDisplayManager;
+@class NSString;
 
 @interface SOSRLanguagePopUpButton
 {
     NSString *_previouslyChosenLocaleIdentifier;
-    NSArray *_networkBasedLocaleIdentifiers;
-    NSArray *_offlineBasedLocaleIdentifiers;
-    long long _numberOfFixedItemsAtEndOfMenu;
-    NSTextField *_downloadStatusTextField;
-    NSProgressIndicator *_downloadStatusProgressIndicator;
-    NSTimer *_downloadStatusUpdateTimer;
-    NSTimer *_pendingDownloadStatusCompletionWhileDictationPreHeatsTimer;
-    SODownloadDisplayManager *_downloadDisplayManager;
-    _Bool _languagesAreDownloadable;
-    _Bool _showOnlyNetworkSupportedItems;
 }
 
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
@@ -43,15 +33,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (void);
 
 // Remaining properties
-@property _Bool languagesAreDownloadable; // @synthesize languagesAreDownloadable=_languagesAreDownloadable;
-@property(retain) NSArray *networkBasedLocaleIdentifiers; // @synthesize networkBasedLocaleIdentifiers=_networkBasedLocaleIdentifiers;
-@property(retain) NSArray *offlineBasedLocaleIdentifiers; // @synthesize offlineBasedLocaleIdentifiers=_offlineBasedLocaleIdentifiers;
 @property(retain) NSString *previouslyChosenLocaleIdentifier; // @synthesize previouslyChosenLocaleIdentifier=_previouslyChosenLocaleIdentifier;
-@property _Bool showOnlyNetworkSupportedItems; // @synthesize showOnlyNetworkSupportedItems=_showOnlyNetworkSupportedItems;
 
 @end
 

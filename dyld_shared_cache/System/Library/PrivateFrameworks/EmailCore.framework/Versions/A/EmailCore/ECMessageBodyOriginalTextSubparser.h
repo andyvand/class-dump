@@ -7,25 +7,19 @@
 #import <EmailCore/ECMessageBodySubparser.h>
 
 @class NSMutableArray;
-@protocol ECMessageBodyElement_Private;
 
 @interface ECMessageBodyOriginalTextSubparser : ECMessageBodySubparser
 {
     NSMutableArray *_lastTextElements;
-    id <ECMessageBodyElement_Private> _lastNonWhitespaceTextElement;
-    CDUnknownBlockType _foundTextBlock;
-    CDUnknownBlockType _foundWhitespaceBlock;
-    _Bool _foundText;
-    _Bool _foundForwardSeparator;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)y. Fitting state and layout rect for content tabs UI does not match. canFitContentTabs:(CDUnknownBlockType)arg1 %d  contentTabsLayoutFrame:%@ /* Error: Ran out of types for this method. */;
+- (void)t.;
+- (void)ayerLayer;
+- (void)d; status = %d;
+- (_Bool)ingScrolled:(id)arg1 %d;
+- (void)momentum or scrubbing states.;
+- (void)crements should never be dispatched while not in the momentum or scrubbing states.;
 - (void);
 
 @end

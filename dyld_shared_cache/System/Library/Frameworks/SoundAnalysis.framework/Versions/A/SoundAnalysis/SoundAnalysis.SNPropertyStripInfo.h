@@ -9,8 +9,6 @@
 @interface SoundAnalysis.SNPropertyStripInfo : SoundAnalysis.SNDSPItemInfo
 {
     id path;
-    id value;
-    id resourcePath;
 }
 
 - (id);

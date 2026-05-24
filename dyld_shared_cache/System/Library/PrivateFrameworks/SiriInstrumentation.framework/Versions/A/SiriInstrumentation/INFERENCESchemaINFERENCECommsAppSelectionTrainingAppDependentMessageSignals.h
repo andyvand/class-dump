@@ -6,30 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCECommsAppSelectionTrainingAppDependentMessageSignals : SISchemaInstrumentationMessage
 {
     float _appAffinityScoreForMessages;
-    float _appAffinityScoreForMessagesUsingSiri;
-    float _appAffinityScoreForMessagesReceived;
-    int _appFreqForMessages;
-    int _appFreqForMessagesUsingSiri;
-    int _appFreqForMessagesForCountryCode;
-    struct {
-        unsigned int appAffinityScoreForMessages:1;
-        unsigned int appAffinityScoreForMessagesUsingSiri:1;
-        unsigned int appAffinityScoreForMessagesReceived:1;
-        unsigned int appFreqForMessages:1;
-        unsigned int appFreqForMessagesUsingSiri:1;
-        unsigned int appFreqForMessagesForCountryCode:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -39,10 +24,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)Tw;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,33 +39,21 @@
 - (float);
 - (float);
 - (float);
-- (void);
+- (void)k8	;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ás!Eùà°1Â0@ù
 × ;
 - (id)elOutputError;
-- (id)gingParameters;
+- (id)LCServiceLoggingParameters;
 
 // Remaining properties
 @property(nonatomic) float appAffinityScoreForMessages; // @synthesize appAffinityScoreForMessages=_appAffinityScoreForMessages;
-@property(nonatomic) float appAffinityScoreForMessagesReceived; // @synthesize appAffinityScoreForMessagesReceived=_appAffinityScoreForMessagesReceived;
-@property(nonatomic) float appAffinityScoreForMessagesUsingSiri; // @synthesize appAffinityScoreForMessagesUsingSiri=_appAffinityScoreForMessagesUsingSiri;
-@property(nonatomic) int appFreqForMessages; // @synthesize appFreqForMessages=_appFreqForMessages;
-@property(nonatomic) int appFreqForMessagesForCountryCode; // @synthesize appFreqForMessagesForCountryCode=_appFreqForMessagesForCountryCode;
-@property(nonatomic) int appFreqForMessagesUsingSiri; // @synthesize appFreqForMessagesUsingSiri=_appFreqForMessagesUsingSiri;
-@property(nonatomic) _Bool hasAppAffinityScoreForMessages;
-@property(nonatomic) _Bool hasAppAffinityScoreForMessagesReceived;
-@property(nonatomic) _Bool hasAppAffinityScoreForMessagesUsingSiri;
-@property(nonatomic) _Bool hasAppFreqForMessages;
-@property(nonatomic) _Bool hasAppFreqForMessagesForCountryCode;
-@property(nonatomic) _Bool hasAppFreqForMessagesUsingSiri;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

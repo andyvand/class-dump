@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     id <_UIFocusSoundPlayer> _focusSoundPlayer;
 }
 
-+ (void);
++ (void);
 + (id);
 + (void);
-- (void);
-- (id);
-- (id);
+- (void)setValue:(id)arg1 ofProperty: /* Error: Ran out of types for this method. */;
+- (id)handler:(id)arg1 outgoingPlainTextMessage:toIdentifier:fromIdentifier:fromToken:messageGUID:timeStamp:isBeingReplayed:storageContext: /* Error: Ran out of types for this method. */;
+- (id)collaborationHighlightForIdentifier:error: /* Error: Ran out of types for this method. */;
 - (void)@;
 
 // Remaining properties

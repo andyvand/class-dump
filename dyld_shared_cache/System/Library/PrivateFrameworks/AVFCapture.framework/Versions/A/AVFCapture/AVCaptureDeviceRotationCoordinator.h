@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVWeakReference, CALayer;
+@class AVCaptureDevice, AVWeakReference;
 
 @interface AVCaptureDeviceRotationCoordinator
 {
     AVWeakReference *_coordinatorWeakReference;
-    AVWeakReference *_deviceWeakReference;
-    long long _devicePosition;
-    AVWeakReference *_previewLayerWeakReference;
-    double _videoRotationAngleForHorizonLevelPreview;
-    double _videoRotationAngleForHorizonLevelCapture;
-    _Bool _isInitialVideoRotationAngleForHorizonLevelPreviewSet;
-    _Bool _isInitialVideoRotationAngleForHorizonLevelCaptureSet;
 }
 
 + (void)eDevice_Tundra setPreferenceForCenterStageEnabled:preferencesDomain:] /* Error: Ran out of types for this method. */;
+- (double);
 - (double);
-- (double);
-- (id);
-- (id);
+- (id)QuickRelay_Oversize;
+- (id)s that were larger than the source image.;
 - (_Bool);
-- (void);
+- (void)_completeSave:dataclassActions:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak AVCaptureDevice *device;
-@property(readonly, nonatomic) __weak CALayer *previewLayer;
-@property(readonly, nonatomic) double videoRotationAngleForHorizonLevelCapture;
-@property(readonly, nonatomic) double videoRotationAngleForHorizonLevelPreview;
 
 @end
 

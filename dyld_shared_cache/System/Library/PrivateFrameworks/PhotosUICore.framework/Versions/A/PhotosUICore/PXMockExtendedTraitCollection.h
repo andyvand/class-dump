@@ -9,26 +9,16 @@
 @interface PXMockExtendedTraitCollection
 {
     PXUpdater *_updater;
-    long long _layoutSizeClass;
-    long long _layoutOrientation;
-    long long _userInterfaceIdiom;
-    long long _formFactor;
-    unsigned long long _visibleChromeElements;
-    double _displayScale;
-    long long _contentSizeCategory;
-    long long _windowOrientation;
-    struct CGSize _layoutReferenceSize;
-    struct NSEdgeInsets _safeAreaInsets;
 }
 
 - (long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!T;
 - (void);
 - (long long);
 - (struct CGSize);
@@ -45,9 +35,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)H;
+- (void)SXAdvertisementComponentAssembly;
+- (void);
 - (long long);
 - (long long);
 - (void);
@@ -60,16 +50,7 @@
 - (long long)¢/M¼h>;
 
 // Remaining properties
-@property(nonatomic) long long contentSizeCategory; // @synthesize contentSizeCategory=_contentSizeCategory;
-@property(nonatomic) double displayScale; // @synthesize displayScale=_displayScale;
-@property(nonatomic) long long formFactor; // @synthesize formFactor=_formFactor;
-@property(nonatomic) long long layoutOrientation; // @synthesize layoutOrientation=_layoutOrientation;
-@property(nonatomic) struct CGSize layoutReferenceSize; // @synthesize layoutReferenceSize=_layoutReferenceSize;
-@property(nonatomic) long long layoutSizeClass; // @synthesize layoutSizeClass=_layoutSizeClass;
-@property(nonatomic) struct NSEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
 @property(nonatomic) long long userInterfaceIdiom; // @synthesize userInterfaceIdiom=_userInterfaceIdiom;
-@property(nonatomic) unsigned long long visibleChromeElements; // @synthesize visibleChromeElements=_visibleChromeElements;
-@property(nonatomic) long long windowOrientation; // @synthesize windowOrientation=_windowOrientation;
 
 @end
 

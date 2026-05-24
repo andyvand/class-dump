@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary;
-
 @interface RTInferredMapItemDeduperState
 {
     _Bool _canIngest;
-    NSMutableArray *_uniqueInferredMapItems;
-    NSMutableDictionary *_intermediateUUIDToInferredMapItemsMap;
-    NSDictionary *_intermediateUUIDToInferredMapItemMap;
-    NSDictionary *_dedupedUUIDToMapItemMap;
 }
 
 - (id);
@@ -24,26 +18,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)__auth_ptr;
 - (_Bool);
-- (id);
+- (id)setNewIdentity:(id)arg1;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)sword or p_token;
+- (id)__PCSAccountHasStingrayIdentities;
+- (_Bool)place;
+- (id)awake;
+- (id)august;
 - (id);
 - (void)Recencys for cluster with cluster ID,%@,error,%@;
 - (void)ter not satisfying:bluePOITileStore /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool canIngest; // @synthesize canIngest=_canIngest;
-@property(retain, nonatomic) NSDictionary *dedupedUUIDToMapItemMap; // @synthesize dedupedUUIDToMapItemMap=_dedupedUUIDToMapItemMap;
-@property(retain, nonatomic) NSDictionary *intermediateUUIDToInferredMapItemMap; // @synthesize intermediateUUIDToInferredMapItemMap=_intermediateUUIDToInferredMapItemMap;
-@property(retain, nonatomic) NSMutableDictionary *intermediateUUIDToInferredMapItemsMap; // @synthesize intermediateUUIDToInferredMapItemsMap=_intermediateUUIDToInferredMapItemsMap;
-@property(retain, nonatomic) NSMutableArray *uniqueInferredMapItems; // @synthesize uniqueInferredMapItems=_uniqueInferredMapItems;
 
 @end
 

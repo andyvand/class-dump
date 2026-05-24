@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface BatchMetadata
 {
     int _batchStatus;
-    NSString *_batchIdentifier;
-    NSString *_timestampReferenceIdentifier;
-    unsigned long long _batchSize;
-    unsigned long long _processedAttempts;
-    NSDate *_dateCreated;
-    NSDate *_dateLastProcessed;
-    NSDate *_dateUploaded;
-    unsigned long long _batchEventCount;
-    NSNumber *_category;
 }
 
 - (id);
@@ -35,24 +26,15 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)82;
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchEventCount; // @synthesize batchEventCount=_batchEventCount;
 @property(copy, nonatomic) NSString *batchIdentifier; // @synthesize batchIdentifier=_batchIdentifier;
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(nonatomic) int batchStatus; // @synthesize batchStatus=_batchStatus;
-@property(retain, nonatomic) NSNumber *category; // @synthesize category=_category;
-@property(copy, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(copy, nonatomic) NSDate *dateLastProcessed; // @synthesize dateLastProcessed=_dateLastProcessed;
-@property(copy, nonatomic) NSDate *dateUploaded; // @synthesize dateUploaded=_dateUploaded;
-@property(nonatomic) unsigned long long processedAttempts; // @synthesize processedAttempts=_processedAttempts;
-@property(copy, nonatomic) NSString *timestampReferenceIdentifier; // @synthesize timestampReferenceIdentifier=_timestampReferenceIdentifier;
 
 @end
 

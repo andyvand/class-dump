@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WebInspectorFrontend, WebView;
+@class WebView;
 
 @interface WebInspector
 {
     WebView *_inspectedWebView;
-    WebInspectorFrontend *_frontend;
 }
 
 - (void);
@@ -22,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)1G;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -30,11 +29,11 @@
 - (_Bool);
 - (void);
 - (id);
+- (void)J	;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ng percentage from the bag. error = %{public}@;
 - (void);
 - (_Bool);
 

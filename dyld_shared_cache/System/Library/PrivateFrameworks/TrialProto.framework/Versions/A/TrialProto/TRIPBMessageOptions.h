@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray;
-
 @interface TRIPBMessageOptions : TRIPBMessage
 {
 }
@@ -15,16 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool deprecated; // @dynamic deprecated;
-@property(nonatomic) _Bool hasDeprecated; // @dynamic hasDeprecated;
-@property(nonatomic) _Bool hasMapEntry; // @dynamic hasMapEntry;
-@property(nonatomic) _Bool hasMessageSetWireFormat; // @dynamic hasMessageSetWireFormat;
-@property(nonatomic) _Bool hasNoStandardDescriptorAccessor; // @dynamic hasNoStandardDescriptorAccessor;
-@property(nonatomic) _Bool mapEntry; // @dynamic mapEntry;
 @property(nonatomic) _Bool messageSetWireFormat; // @dynamic messageSetWireFormat;
-@property(nonatomic) _Bool noStandardDescriptorAccessor; // @dynamic noStandardDescriptorAccessor;
-@property(retain, nonatomic) NSMutableArray *uninterpretedOptionArray; // @dynamic uninterpretedOptionArray;
-@property(readonly, nonatomic) unsigned long long uninterpretedOptionArray_Count; // @dynamic uninterpretedOptionArray_Count;
 
 @end
 

@@ -9,16 +9,13 @@
 @interface AppKit._NSTextFormattingLineHeightComponentView__priv_B20AA1257E16D4018E27D921D92487C8 : AppKit._NSTextFormattingBasePopUpButton__priv_B20AA1257E16D4018E27D921D92487C8
 {
     id isInInspectorBarUI;
-    id $__lazy_storage_$_moreItem;
-    id $__lazy_storage_$_customItem;
-    id $__lazy_storage_$_customSeparator;
 }
 
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)H;
 - (struct CGSize);
-- (id)riteStyles;
+- (id)_standardFavoriteStyles;
 - (void)8VE;
 
 // Remaining properties

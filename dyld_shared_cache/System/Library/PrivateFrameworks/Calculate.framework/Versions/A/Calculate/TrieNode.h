@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TrieNode
 {
     int _node;
-    int _offset;
-    Trie *_trie;
 }
 
 - (void);
@@ -30,8 +28,6 @@ __attribute__((visibility("hidden")))
 fsUÌÝ\9(¬ñíÑÿêRâÐk5!èxZÀ+RM­¬=GP#f¹ø	fü¤7Rû© =¹pK3þ-5×(¼Í3L¹µyZ9Å¾hÈ"aý?yµcüÛm,6Ñ£Fh¶?gò;
 
 // Remaining properties
-@property(nonatomic) int node; // @synthesize node=_node;
-@property(nonatomic) int offset; // @synthesize offset=_offset;
 @property(nonatomic) __weak Trie *trie; // @synthesize trie=_trie;
 
 @end

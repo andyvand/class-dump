@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString, NUAdjustment, NUComposition, NUIdentifier;
+@class NSDictionary, NSMutableDictionary;
 
 @interface PIAdjustmentController
 {
     NSMutableDictionary *_changes;
-    NUIdentifier *_identifier;
-    NUAdjustment *_adjustment;
-    NUComposition *_containingComposition;
 }
 
 + (id);
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NUAdjustment *adjustment; // @synthesize adjustment=_adjustment;
-@property(readonly, nonatomic) _Bool canBeEnabled;
-@property(retain, nonatomic) NUComposition *containingComposition; // @synthesize containingComposition=_containingComposition;
-@property(readonly, nonatomic) NSArray *displayInputKeys;
-@property(readonly, nonatomic) NSString *displayName;
-@property(nonatomic) _Bool enabled;
-@property(retain, nonatomic) NUIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSArray *inputKeys;
-@property(readonly, nonatomic) NSString *multiSettingKey;
 @property(readonly, nonatomic) NSDictionary *settings;
 
 @end

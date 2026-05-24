@@ -6,10 +6,9 @@
 
 @interface UnknownClass (SimulationExtras)
 - (CDStruct_c3b9c2ee);
-- (CDStruct_071ac149);
+- (CDStruct_39925896);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_071ac149 lastCoordinate;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee lastCoordinate2D;
+@property(readonly, nonatomic) CDStruct_39925896 lastCoordinate;
 @end
 

@@ -6,12 +6,9 @@
 
 #import <MetalTools/MTLToolsComputePipelineState.h>
 
-@class MTLTelemetryDevice;
-
 @interface MTLTelemetryComputePipelineState : MTLToolsComputePipelineState
 {
     unsigned int uniqueID;
-    MTLTelemetryDevice *device;
 }
 
 + (unsigned int);

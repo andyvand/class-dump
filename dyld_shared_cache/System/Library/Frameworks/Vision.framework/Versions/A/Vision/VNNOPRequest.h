@@ -12,7 +12,7 @@
 {
 }
 
-+ (Class);
++ (Class)ext evictItemAtURL:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -27,12 +27,10 @@
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (_Bool)CodingKeys;
+- (_Bool)DetectScreenGazeRequestCodingKeys;
 
 // Remaining properties
-@property(nonatomic) double detectorExecutionTimeInterval;
 @property(copy, nonatomic) VNSupportedImageSize *detectorPreferredImageSize;
-@property(nonatomic) _Bool detectorWantsAnisotropicScaling;
 
 @end
 

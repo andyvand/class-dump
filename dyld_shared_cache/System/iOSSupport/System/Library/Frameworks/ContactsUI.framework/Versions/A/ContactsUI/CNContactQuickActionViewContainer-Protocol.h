@@ -7,7 +7,7 @@
 @class UITraitCollection;
 
 @protocol CNContactQuickActionViewContainer
-- (UITraitCollection *)opDelegate;
+- (UITraitCollection *)UICollectionViewDropDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection;

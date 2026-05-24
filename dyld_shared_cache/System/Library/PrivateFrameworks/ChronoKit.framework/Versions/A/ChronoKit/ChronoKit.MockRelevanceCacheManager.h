@@ -7,7 +7,6 @@
 @interface ChronoKit.MockRelevanceCacheManager
 {
     id relevanceCacheManager;
-    id beforeFirstUnlock;
 }
 
 @end

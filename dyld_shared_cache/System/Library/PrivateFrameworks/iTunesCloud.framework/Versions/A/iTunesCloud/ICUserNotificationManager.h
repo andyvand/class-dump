@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMapTable;
 
 @interface ICUserNotificationManager
 {
     NSMapTable *_contextForUserNotification;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 + (id);

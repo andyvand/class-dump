@@ -12,14 +12,11 @@ __attribute__((visibility("hidden")))
 @interface SCNUIVector4TextField : SCNUIBindableView
 {
     NSTextField *tx;
-    NSTextField *ty;
-    NSTextField *tz;
-    NSTextField *tw;
 }
 
-- (void);
+- (void);
 - (struct SCNVector4);
-- (id);
+- (id)genius_config (id, data, default_num_results, min_num_results, version) VALUES (0,?,?,?,?);
 - (id);
 - (void)hadowMap, constant float4* shadowKernel, int sampleCount)
     {

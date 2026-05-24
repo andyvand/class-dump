@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableOrderedSet, NSPointerArray;
-@protocol _UIContextBinderContextCreationPolicyHolding, _UIContextBinding;
+@class NSPointerArray;
+@protocol _UIContextBinding;
 
 @interface _UIContextBinder
 {
     NSPointerArray *_enrolledBindables;
-    NSPointerArray *_enrolledUnsafeUnretainedBindables;
-    NSPointerArray *_attachedBindables;
-    NSMutableOrderedSet *_contexts;
-    NSHashTable *_observers;
-    id <_UIContextBinding> _substrate;
-    long long _contextManagementPolicy;
-    id <_UIContextBinderContextCreationPolicyHolding> _contextCreationPolicyHolder;
 }
 
-+ (id)andardSizeMenus;
++ (id)enableShadowsForStandardSizeMenus;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)tinationSlice:(_Bool)arg1 destinationLevel:destinationOrigin:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)String",C,N,V_lyricsID;
+- (id)availableArtworkToken = %@;
 - (id);
 - (void);
 - (void);
@@ -43,10 +36,10 @@
 × ;
 - (void)teractionAnimating>"32;
 - (void)setOutputMode:(id)arg1;
-- (void)isplayIdentifier;
-- (void)orAddingEffect:(id)arg1;
+- (void)_systemDisplayIdentifier;
+- (void)_symbolEffect:(id)arg1 collidesWithSymbolEffect:forAddingEffect: /* Error: Ran out of types for this method. */;
 - (_Bool)st:(id)arg1;
-- (id)ngAlertController;
+- (id)_dismissingAlertController;
 - (void)emUIService scene from defaultShell failed:(id)arg1 %{public}@;
 - (void)kipping layout for visible navigation bar, %@, because the top item's navigation bar doesn't match.  topItem = %@, topItem's navigation bar = %@;
 - (void)¬£þÿÄ£þÿÜ£þÿô£þÿ¤þÿ,¤þÿD¤þÿp¤þÿ¤¤þÿ¼¤þÿH¥þÿ`¥þÿx¥þÿ¥þÿÀ¥þÿØ¥þÿð¥þÿ¦þÿ ¦þÿD¦þÿ\¦þÿ¦þÿ¬¦þÿ¨þÿÈ¨þÿü¨þÿ©þÿH©þÿ¨©þÿÀ©þÿ°ªþÿøªþÿ «þÿ°«þÿ¬þÿ¨¬þÿÐ¬þÿø¬þÿ ­þÿH­þÿp­þÿ¯þÿh¯þÿ °þÿÈ°þÿð°þÿ±þÿ ±þÿ8±þÿ`±þÿ¨±þÿÈ²þÿ³þÿD³þÿl³þÿ´þÿ<´þÿT´þÿl´þÿ¨´þÿÀ´þÿ¶þÿX¶þÿ´¶þÿì¶þÿ$·þÿÜ¹þÿü¹þÿºþÿTºþÿlºþÿÔ»þÿì»þÿ¼þÿ8¼þÿ¤¼þÿ½þÿ0½þÿH½þÿ`½þÿü½þÿD¿þÿØÀþÿðÀþÿHÁþÿHÂþÿpÄþÿÄþÿ¨ÄþÿÀÄþÿØÄþÿðÄþÿÅþÿ Åþÿ8ÅþÿPÅþÿÆþÿ4Æþÿ¼ÆþÿÔÆþÿôÆþÿÇþÿ¼ÇþÿÔÇþÿìÇþÿ;
@@ -56,11 +49,6 @@
 - (void)B=Ù×I^;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attachedBindables;
-@property(nonatomic) __weak id <_UIContextBinderContextCreationPolicyHolding> contextCreationPolicyHolder; // @synthesize contextCreationPolicyHolder=_contextCreationPolicyHolder;
-@property(nonatomic) long long contextManagementPolicy; // @synthesize contextManagementPolicy=_contextManagementPolicy;
-@property(readonly, nonatomic) NSArray *enrolledBindables;
-@property(readonly, nonatomic) NSArray *enrolledUnsafeUnretainedBindables;
 @property(readonly, nonatomic) id <_UIContextBinding> substrate; // @synthesize substrate=_substrate;
 
 @end

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
-
 @interface UIBarItem
 {
     _Bool _hasCustomizableInstanceAppearanceModifications;
-    _Bool _shouldArchiveUIAppearanceTags;
-    UIImage *_largeContentSizeImage;
-    long long _tag;
-    struct UIEdgeInsets _largeContentSizeImageInsets;
 }
 
 + (id);
++ (id)9J#Ț	;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
++ (id)loadQueries;
+- (void)tAddressedSIMID is %@;
+- (id)-allowed;
+- (struct UIEdgeInsets);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -39,8 +33,8 @@
 - (id)ù
 × ;
 - (long long)onnectionListener"16@"BSServiceConnection<BSServiceConnectionHost>"24@"<BSXPCDecoding>"32;
-- (_Bool)te;
-- (void)ackgroundFrame;
+- (_Bool)textAttributesForState;
+- (void)_updateBackgroundFrame;
 - (void)\hÿ;
 - (void);
 - (_Bool)²ÎØÕo;
@@ -48,27 +42,6 @@
 
 // Remaining properties
 @property(nonatomic, setter=_setHasCustomizableInstanceAppearanceModifications:) _Bool _hasCustomizableInstanceAppearanceModifications; // @synthesize _hasCustomizableInstanceAppearanceModifications;
-@property(nonatomic, setter=_setShouldArchiveUIAppearanceTags:) _Bool _shouldArchiveUIAppearanceTags; // @synthesize _shouldArchiveUIAppearanceTags;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @dynamic enabled;
-@property(readonly, nonatomic) _Bool hasImage;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @dynamic image;
-@property(nonatomic) struct UIEdgeInsets imageInsets; // @dynamic imageInsets;
-@property(retain, nonatomic) UIImage *landscapeImagePhone; // @dynamic landscapeImagePhone;
-@property(nonatomic) struct UIEdgeInsets landscapeImagePhoneInsets; // @dynamic landscapeImagePhoneInsets;
-@property(retain, nonatomic) UIImage *largeContentSizeImage; // @synthesize largeContentSizeImage=_largeContentSizeImage;
-@property(nonatomic) struct UIEdgeInsets largeContentSizeImageInsets; // @synthesize largeContentSizeImageInsets=_largeContentSizeImageInsets;
-@property(readonly, copy, nonatomic) NSString *resolvedTitle;
-@property(readonly, nonatomic) _Bool selected;
-@property(readonly) Class superclass;
-@property(nonatomic) long long tag; // @synthesize tag=_tag;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end
 

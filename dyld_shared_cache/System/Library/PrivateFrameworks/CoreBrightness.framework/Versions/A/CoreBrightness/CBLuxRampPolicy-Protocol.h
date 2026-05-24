@@ -5,9 +5,10 @@
 //
 
 @protocol CBLuxRampPolicy
+- (float);
+- (float)ɚ;
 
 // Remaining properties
-@property(readonly) float rampDownDuration;
 @property(readonly) float rampUpDuration;
 @end
 

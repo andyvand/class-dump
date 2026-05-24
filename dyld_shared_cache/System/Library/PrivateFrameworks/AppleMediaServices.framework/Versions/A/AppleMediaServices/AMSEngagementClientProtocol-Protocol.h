@@ -5,5 +5,6 @@
 //
 
 @protocol AMSEngagementClientProtocol
+- (void);
 @end
 

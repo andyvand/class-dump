@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer;
+@class NSTimer;
 @protocol UISpringLoadedInteractionEffect;
 
 __attribute__((visibility("hidden")))
@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)e;
+- (void)MPNowPlayingInfoLanguageOptionGroup;
+- (void);
 - (id);
 - (void)@ù
 × ;
@@ -25,14 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id <UISpringLoadedInteractionEffect> blinkEffect; // @synthesize blinkEffect=_blinkEffect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSTimer *stateBlinkTimer; // @synthesize stateBlinkTimer=_stateBlinkTimer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,11 +12,11 @@
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void) `	;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType shortTokenCompletionBlock; // @synthesize shortTokenCompletionBlock=_shortTokenCompletionBlock;

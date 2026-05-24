@@ -10,9 +10,9 @@
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool)ConvexHull::get_hull_indices /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 @end

@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SFAccessControlEntry_Ivars
 {
     NSString *bundleID;
-    struct {
-        unsigned int isOwner:1;
-        unsigned int canRead:1;
-        unsigned int canWrite:1;
-    } accessControlEntryFlags;
 }
 
 - (void);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSDictionary, NSFont, NSString;
+@class NSFont;
 
 @interface ABCardViewStyleProvider
 {
@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double)4@;
 - (id);
 - (id);
 - (double);
@@ -27,27 +27,27 @@
 - (id);
 - (double);
 - (_Bool);
+- (double);
 - (double);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (double);
 - (id);
 - (id);
+- (id);
+- (id)((@9(;
+- (id);
+- (id);
+- (id);
+- (double);
+- (id);
+- (id);
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)�$;
 - (double);
 - (double);
 - (double);
@@ -62,7 +62,7 @@
 - (double);
 - (double);
 - (id);
-- (id);
+- (id)P;
 - (double);
 - (double);
 - (double);
@@ -70,60 +70,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly) _Bool alignsNameViewTextWithImageMidpoint;
-@property(readonly) _Bool allowsImmediateEditing;
-@property(readonly) _Bool allowsLabelRolloverActions;
-@property(readonly) _Bool allowsNoteEditing;
-@property(readonly) _Bool allowsOnlyPastedInput; // @synthesize allowsOnlyPastedInput=_allowsOnlyPastedInput;
-@property(readonly) _Bool allowsPhotoEditing;
-@property(readonly) double cardTemplateViewTopMargin;
-@property(readonly) double cardViewBottomMargin;
-@property(readonly) double cardViewEditModeColumnInset;
-@property(readonly) double cardViewLeftMargin;
-@property(readonly) double cardViewMinimumHeight;
-@property(readonly) double cardViewNonEditModeAdditionalTopMargin;
-@property(readonly) double cardViewRightMargin;
-@property(readonly) double cardViewTopMargin;
-@property(readonly) double collectionSeparatorInsetLeading;
-@property(readonly) double collectionSeparatorInsetTrailing;
-@property(readonly) double collectionTemplateViewLeftMargin;
-@property(readonly) double collectionViewLeftMargin;
-@property(readonly) NSFont *datumLabelFont;
-@property(readonly) NSString *datumLabelFontName;
-@property(readonly) double datumLabelFontSize;
-@property(readonly) NSColor *datumLabelMouseOverHighlightColor;
-@property(readonly) NSColor *datumLabelMouseOverTextColor;
-@property(readonly) NSColor *datumLabelPopupTextColor;
-@property(readonly) NSColor *datumLabelSuggestionTextColor;
-@property(readonly) NSColor *datumLabelTextColor;
-@property(readonly) NSFont *datumValueFont;
-@property(readonly) NSString *datumValueFontName;
-@property(readonly) double datumValueFontSize;
-@property(readonly) NSColor *datumValueMouseOverHighlightColor;
-@property(readonly) NSColor *datumValueMouseOverTextColor;
-@property(readonly) NSDictionary *datumValuePlaceholderAttributes;
-@property(readonly) NSColor *datumValueSuggestionTextColor;
-@property(readonly) NSColor *datumValueTextColor;
-@property(readonly) NSArray *displayedCollectionViewProperties;
-@property(readonly) double interColumnHorizontalPadding;
-@property(readonly) double interPropertyPadding;
-@property(readonly) double intraDatumPadding;
-@property(readonly) _Bool isContentSizeObservable;
-@property(readonly) double nameViewFirstRowVerticalOffset;
 @property(readonly) NSFont *nameViewHeadlineFont;
-@property(readonly) NSString *nameViewHeadlineFontName;
-@property(readonly) double nameViewHeadlineFontSize;
-@property(readonly) NSDictionary *nameViewHeadlinePlaceholderAttributes;
-@property(readonly) NSColor *nameViewHeadlineTextColor;
-@property(readonly) double nameViewInterrowPadding;
-@property(readonly) double nameViewPhotoInsetLeading;
-@property(readonly) NSFont *nameViewTaglineFont;
-@property(readonly) NSString *nameViewTaglineFontName;
-@property(readonly) double nameViewTaglineFontSize;
-@property(readonly) NSDictionary *nameViewTaglinePlaceholderAttributes;
-@property(readonly) NSColor *nameViewTaglineTextColor;
-@property(readonly) _Bool reducedLabelTrailingInset;
-@property(readonly) _Bool shouldAlignLabelWithTopOfValue;
 
 @end
 

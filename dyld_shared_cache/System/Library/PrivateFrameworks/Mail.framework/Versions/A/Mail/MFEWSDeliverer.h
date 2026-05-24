@@ -6,32 +6,24 @@
 
 #import <Mail/MFMessageDeliverer.h>
 
-@class MFEWSDeliveryAccount, NSError, NSString;
+@class NSError;
 
 @interface MFEWSDeliverer : MFMessageDeliverer
 {
     NSError *_error;
 }
 
-- (id);
+- (id)T�;
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)javaScriptObjectsCount;
 - (void);
 - (void)<À;
 - (void)ü;
 
 // Remaining properties
-@property(retain, nonatomic) MFEWSDeliveryAccount *account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

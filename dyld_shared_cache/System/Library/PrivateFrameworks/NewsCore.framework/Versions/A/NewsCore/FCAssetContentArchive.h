@@ -6,13 +6,11 @@
 
 #import <NewsCore/FCContentArchive.h>
 
-@class NSString, NSURL, NTPBAsset;
+@class NTPBAsset;
 
 @interface FCAssetContentArchive : FCContentArchive
 {
     NTPBAsset *_asset;
-    NSURL *_remoteURL;
-    NSString *_filePath;
 }
 
 + (_Bool);
@@ -22,7 +20,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)k	;
 - (void)ptionManager.m;
 - (id)¼ø;
 

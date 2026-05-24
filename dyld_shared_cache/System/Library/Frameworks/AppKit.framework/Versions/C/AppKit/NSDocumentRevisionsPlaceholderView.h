@@ -6,22 +6,16 @@
 
 #import <AppKit/NSView.h>
 
-@class NSProgressIndicator, NSString, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentRevisionsPlaceholderView : NSView
 {
     NSTextField *messageField1;
-    NSTextField *messageField2;
-    NSProgressIndicator *progressIndicator;
-    _Bool progressIndicatorVisible;
-    _Bool animating;
-    _Bool hideElements;
-    _Bool preventLayout;
 }
 
-- (void);
-- (void);
+- (void)disconnecting;
+- (void)disconnected;
 - (void);
 - (void);
 - (void);
@@ -31,14 +25,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id)dicatorForView:(struct CGRect)arg1;
+- (id)correctionIndicatorForView:(struct CGRect)arg1;
 - (void)@°};
 - (void)tü¢G;
 
 // Remaining properties
-@property(copy) NSString *message1;
-@property(copy) NSString *message2;
-@property _Bool progressIndicatorAnimating;
 @property _Bool progressIndicatorVisible;
 
 @end

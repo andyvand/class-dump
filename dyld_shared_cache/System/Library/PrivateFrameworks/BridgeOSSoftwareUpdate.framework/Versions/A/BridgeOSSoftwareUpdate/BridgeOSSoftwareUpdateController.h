@@ -5,53 +5,45 @@
 //
 
 @class NSObject;
-@protocol BridgeOSSoftwareUpdateControllerDelegate, OS_dispatch_queue, OS_xpc_object;
+@protocol OS_dispatch_queue;
 
 @interface BridgeOSSoftwareUpdateController
 {
     NSObject<OS_dispatch_queue> *_messageQueue;
-    NSObject<OS_xpc_object> *_updateProxy;
-    CDUnknownBlockType _stateQueryCompletion;
-    CDUnknownBlockType _macOSLogFetchCompletion;
-    CDUnknownBlockType _bridgeOSLogFetchCompletion;
-    id <BridgeOSSoftwareUpdateControllerDelegate> delegate;
 }
 
-- (id);
-- (id);
-- (CDUnknownBlockType);
+- (id)ze"{CGSize="width"d"height"d}};
+- (id)ta";
+- (CDUnknownBlockType)CGSize=dd}}48@80@88B96B100;
+- (void)@0:(CDUnknownBlockType)arg1 8@16@24@32@40{CGRect={CGPoint=dd}{CGSize=dd}}48@80@88B96B100;
+- (void)8{CGRect={CGPoint=dd}{CGSize=dd}}16;
+- (void)mber";
+- (id)d}}16;
+- (id)ct={CGPoint=dd}{CGSize=dd}}16;
+- (id)BImportRecordFactory";
+- (id)ry";
+- (id)teCommand";
+- (id)yCommand";
+- (id)";
+- (CDUnknownBlockType)";
+- (void)";
+- (void)ommand>"16;
+- (id)4@0:(id)arg1 8@"<ABCommand>"16;
+- (CDUnknownBlockType)ABActionManager";
+- (id)legate>";
+- (void)ectionViewDelegate>";
+- (id)@"NSWorkspace";
 - (void);
 - (void);
+- (id);
+- (id)P;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)y;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType bridgeOSLogFetchCompletion; // @synthesize bridgeOSLogFetchCompletion=_bridgeOSLogFetchCompletion;
-@property(nonatomic) __weak id <BridgeOSSoftwareUpdateControllerDelegate> delegate; // @synthesize delegate;
-@property(copy, nonatomic) CDUnknownBlockType macOSLogFetchCompletion; // @synthesize macOSLogFetchCompletion=_macOSLogFetchCompletion;
 @property(copy, nonatomic) CDUnknownBlockType stateQueryCompletion; // @synthesize stateQueryCompletion=_stateQueryCompletion;
 
 @end

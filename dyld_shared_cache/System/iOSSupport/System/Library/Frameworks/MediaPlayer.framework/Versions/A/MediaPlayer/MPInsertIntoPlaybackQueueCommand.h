@@ -6,16 +6,11 @@
 
 #import <MediaPlayer/MPRemoteCommand.h>
 
-@class NSArray, NSMutableSet, NSString;
+@class NSArray, NSMutableSet;
 
 @interface MPInsertIntoPlaybackQueueCommand : MPRemoteCommand
 {
     NSMutableSet *_registeredQueueTypes;
-    NSMutableSet *_registeredCustomQueueIdentifiers;
-    struct os_unfair_lock_s _lock;
-    NSArray *_supportedInsertionPositions;
-    NSString *_lastSectionContentItemID;
-    NSString *_tailInsertionContentItemID;
 }
 
 - (void);
@@ -26,16 +21,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void)ersWithSameType: /* Error: Ran out of types for this method. */;
+- (void)setIndexInChaptersWithSameType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *lastSectionContentItemID; // @synthesize lastSectionContentItemID=_lastSectionContentItemID;
 @property(copy, nonatomic) NSArray *supportedInsertionPositions; // @synthesize supportedInsertionPositions=_supportedInsertionPositions;
-@property(copy, nonatomic) NSString *tailInsertionContentItemID; // @synthesize tailInsertionContentItemID=_tailInsertionContentItemID;
 
 @end
 

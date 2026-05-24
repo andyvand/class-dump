@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class TRIFactor, TRILevel;
+@class TRIFactor;
 
 @interface TRIFactorLevel : TRIPBMessage
 {
@@ -18,9 +18,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TRIFactor *factor; // @dynamic factor;
-@property(nonatomic) _Bool hasFactor; // @dynamic hasFactor;
-@property(nonatomic) _Bool hasLevel; // @dynamic hasLevel;
-@property(retain, nonatomic) TRILevel *level; // @dynamic level;
 
 @end
 

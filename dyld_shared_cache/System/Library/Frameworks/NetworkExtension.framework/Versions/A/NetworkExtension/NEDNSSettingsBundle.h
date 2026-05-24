@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEDNSSettings, NSArray;
-
 @interface NEDNSSettingsBundle
 {
     _Bool _enabled;
-    NSArray *_onDemandRules;
-    NEDNSSettings *_settings;
 }
 
-+ (_Bool);
++ (_Bool)setLastPacketReportedTime: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)NSExtensionPointName;
+- (id)H;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)Configuration: /* Error: Ran out of types for this method. */;
-- (_Bool)r;
-- (id)eManualMode;
+- (void)resetKeychainItemACLsForConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)dropProvider;
+- (id)EnableManualMode;
 
 // Remaining properties
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy) NSArray *onDemandRules; // @synthesize onDemandRules=_onDemandRules;
-@property(copy) NEDNSSettings *settings; // @synthesize settings=_settings;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface ContactsPersistence.CNCDFileSystemPhotoMigrator : CNCDMigrator
 {
     id filesystem;
-    id coredata;
-    id base;
-    id logger;
 }
 
 - (id);

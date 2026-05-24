@@ -7,9 +7,6 @@
 @interface BlastDoor.XPCEncoder
 {
     id dataEncodingStrategy;
-    id uuidEncodingStrategy;
-    id issuer;
-    id dictionary;
 }
 
 @end

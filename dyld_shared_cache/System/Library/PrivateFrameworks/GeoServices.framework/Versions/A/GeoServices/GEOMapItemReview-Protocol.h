@@ -7,17 +7,17 @@
 @class NSDate, NSString;
 
 @protocol GEOMapItemReview
-- (NSString *)Y_TYPE_SEARCH_AROUND_POI;
+- (double)stringByDeletingPathExtension;
+- (NSString *)storeDescriptors;
+- (NSString *)store;
+- (double)setPrimitiveCreationDate: /* Error: Ran out of types for this method. */;
+- (double)setMeUniqueId: /* Error: Ran out of types for this method. */;
+- (NSString *)setExternalIdentifier: /* Error: Ran out of types for this method. */;
+- (NSString *)setExternalGroupBehavior: /* Error: Ran out of types for this method. */;
+- (NSDate *)mt_log_AddressBook_customPropertyDamageDetected: /* Error: Ran out of types for this method. */;
+- (NSString *)IMPLICIT_QUERY_TYPE_SEARCH_AROUND_POI;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_date) NSDate *date;
-@property(readonly, nonatomic, getter=_identifier) NSString *identifier;
-@property(readonly, nonatomic, getter=_localizedSnippet) NSString *localizedSnippet;
-@property(readonly, nonatomic, getter=_localizedSnippetLocale) NSString *localizedSnippetLocale;
-@property(readonly, nonatomic, getter=_maxScore) double maxScore;
-@property(readonly, nonatomic, getter=_normalizedScore) double normalizedScore;
-@property(readonly, nonatomic, getter=_reviewerImageURLString) NSString *reviewerImageURLString;
-@property(readonly, nonatomic, getter=_reviewerName) NSString *reviewerName;
 @property(readonly, nonatomic, getter=_score) double score;
 @end
 

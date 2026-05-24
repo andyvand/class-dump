@@ -8,6 +8,6 @@
 - (struct CGImage *);
 - (_Bool);
 - (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *)@;
 @end
 

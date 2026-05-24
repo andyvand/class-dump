@@ -6,25 +6,22 @@
 
 #import <NewsCore/FCMultiAccessChecker.h>
 
-@class FCPrivateChannelMembershipController;
 @protocol FCPaidAccessCheckerType;
 
 @interface FCIssueAccessChecker : FCMultiAccessChecker
 {
     id <FCPaidAccessCheckerType> _paidAccessChecker;
-    FCPrivateChannelMembershipController *_privateChannelMembershipController;
 }
 
 - (id);
+- (id)unregisterContentsForOSModuleAtURL:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id)eeFeedRange;
-- (void)erPaidOfferableConfig;
+- (id)freeFeedRange;
+- (void)publisherPaidOfferableConfig;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCPaidAccessCheckerType> paidAccessChecker; // @synthesize paidAccessChecker=_paidAccessChecker;
-@property(readonly, nonatomic) FCPrivateChannelMembershipController *privateChannelMembershipController; // @synthesize privateChannelMembershipController=_privateChannelMembershipController;
 
 @end
 

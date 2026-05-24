@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TITypingSession, TITypingSessionAligned;
+
 @protocol TITypingSessionAnalyzing
+- (_Bool)setDouble3Array:(TITypingSession *)arg1 count:(TITypingSessionAligned *)arg2 atTime:(unsigned long long)arg3;
 @end
 

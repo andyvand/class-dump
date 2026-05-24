@@ -13,12 +13,12 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)upNeeded: /* Error: Ran out of types for this method. */;
+- (void)setAudioPlayingWarmupNeeded: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *ringtoneIdentifier; // @synthesize ringtoneIdentifier=_ringtoneIdentifier;

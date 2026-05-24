@@ -5,5 +5,8 @@
 //
 
 @protocol MNNavigationStateObserver
+
+@optional
+- (void);
 @end
 

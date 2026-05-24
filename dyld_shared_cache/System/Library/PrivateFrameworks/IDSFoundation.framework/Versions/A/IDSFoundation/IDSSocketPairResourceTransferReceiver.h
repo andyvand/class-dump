@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface IDSSocketPairResourceTransferReceiver
 {
     NSString *_resourcePath;
-    NSDictionary *_metadata;
-    int _fileDescriptor;
-    unsigned long long _totalBytesExpected;
-    unsigned long long _totalBytesReceived;
-    _Bool _done;
-    _Bool _isResuming;
-    _Bool _resumeResourceTransfers;
-    unsigned int _sequenceNumber;
-    unsigned short _streamID;
-    _Bool _expectsPeerResponse;
-    _Bool _wantsAppAck;
-    _Bool _compressed;
-    NSString *_peerResponseIdentifier;
-    NSString *_messageUUID;
-    NSDate *_expiryDate;
 }
 
 + (id);
@@ -43,37 +28,7 @@
 - (id)ry-KeyTransparency;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) _Bool didWakeHint;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool expectsPeerResponse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(readonly, nonatomic) NSString *messageUUID; // @synthesize messageUUID=_messageUUID;
-@property(readonly, nonatomic) NSString *peerResponseIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(nonatomic) unsigned int sequenceNumber;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,N
-
-@property(nonatomic) unsigned short streamID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TS,?,N
-
 @property(readonly, nonatomic) unsigned long long totalBytesReceived; // @synthesize totalBytesReceived=_totalBytesReceived;
-@property(readonly, nonatomic) _Bool wantsAppAck;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

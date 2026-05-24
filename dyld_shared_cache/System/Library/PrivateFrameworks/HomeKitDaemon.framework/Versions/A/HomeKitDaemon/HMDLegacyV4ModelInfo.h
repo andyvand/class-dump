@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDLegacyV4ModelInfo
 {
     NSString *_hmdTypeName;
-    NSDictionary *_properties;
-    Class _hmdModelClass;
 }
 
 - (id);
 - (Class);
 - (id);
 - (id)@;
-- (void)ngStoreControllerRunStateNotStarted;
+- (void)HMDMultiUserSettingsLogEventBackingStoreControllerRunStateNotStarted;
 
 // Remaining properties
-@property(readonly, nonatomic) Class hmdModelClass; // @synthesize hmdModelClass=_hmdModelClass;
 @property(readonly, nonatomic) NSString *hmdTypeName; // @synthesize hmdTypeName=_hmdTypeName;
-@property(readonly, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
 
 @end
 

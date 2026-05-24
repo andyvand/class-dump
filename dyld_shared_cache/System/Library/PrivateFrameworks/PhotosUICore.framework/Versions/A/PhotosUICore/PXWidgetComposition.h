@@ -6,8 +6,7 @@
 
 #import <PhotosUICore/PXTilingControllerComposition.h>
 
-@class NSArray, NSString, PXScrollViewController, PXTilingController, PXWidgetCompositionSpec;
-@protocol PXWidgetCompositionDelegate;
+@class NSArray;
 
 @interface PXWidgetComposition : PXTilingControllerComposition
 {
@@ -20,22 +19,6 @@
         _Bool respondsToDidUpdateCompositionWithDefaultAnimationOptions;
         _Bool respondsToPresentationEnvironment;
     } _delegateFlags;
-    _Bool _isPerformingWidgetLoadingChange;
-    struct {
-        _Bool elementsToLoad;
-    } _needsUpdateFlags;
-    _Bool _shouldLoadVisibleWidgets;
-    _Bool _shouldLoadAllWidgets;
-    _Bool _shouldUnloadAllWidgets;
-    _Bool __didLayoutWidgets;
-    NSArray *__elements;
-    PXScrollViewController *_scrollViewController;
-    id <PXWidgetCompositionDelegate> _delegate;
-    NSArray *_widgets;
-    PXWidgetCompositionSpec *_spec;
-    long long _minimumWidgetLoadingPriority;
-    PXTilingController *__focusedTilingController;
-    struct CGPoint __lastContentAdjustmentOffset;
 }
 
 - (id);
@@ -51,17 +34,17 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ka;
 - (void);
 - (void);
 - (void);
@@ -89,30 +72,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)moveActionsAtIndices:toIndex: /* Error: Ran out of types for this method. */;
+- (void){ 
+			gl_FragColor = uColor * mix(secondaryColor, primaryColor, SampleTexture0.r); 
+		} 
+		;
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setDidLayoutWidgets:) _Bool _didLayoutWidgets; // @synthesize _didLayoutWidgets=__didLayoutWidgets;
 @property(copy, nonatomic, setter=_setElements:) NSArray *_elements; // @synthesize _elements=__elements;
-@property(retain, nonatomic, setter=_setFocusedTilingController:) PXTilingController *_focusedTilingController; // @synthesize _focusedTilingController=__focusedTilingController;
-@property(nonatomic, setter=_setLastContentAdjustmentOffset:) struct CGPoint _lastContentAdjustmentOffset; // @synthesize _lastContentAdjustmentOffset=__lastContentAdjustmentOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXWidgetCompositionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long minimumWidgetLoadingPriority; // @synthesize minimumWidgetLoadingPriority=_minimumWidgetLoadingPriority;
-@property(readonly, nonatomic) __weak PXScrollViewController *scrollViewController; // @synthesize scrollViewController=_scrollViewController;
-@property(nonatomic) _Bool shouldLoadAllWidgets; // @synthesize shouldLoadAllWidgets=_shouldLoadAllWidgets;
-@property(nonatomic) _Bool shouldLoadVisibleWidgets; // @synthesize shouldLoadVisibleWidgets=_shouldLoadVisibleWidgets;
-@property(nonatomic) _Bool shouldUnloadAllWidgets; // @synthesize shouldUnloadAllWidgets=_shouldUnloadAllWidgets;
-@property(retain, nonatomic) PXWidgetCompositionSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *widgets; // @synthesize widgets=_widgets;
 
 @end
 

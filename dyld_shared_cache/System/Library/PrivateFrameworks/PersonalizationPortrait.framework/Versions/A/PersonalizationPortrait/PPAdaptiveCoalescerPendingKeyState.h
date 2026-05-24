@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface PPAdaptiveCoalescerPendingKeyState
 {
     id _key;
-    NSMutableArray *_handlers;
-    NSMutableArray *_dates;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)$;
 - (double);
 - (id);
 - (double);

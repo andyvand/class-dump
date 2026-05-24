@@ -7,15 +7,6 @@
 @interface MAAutoAssetNotifications
 {
     _Bool _newerVersionDiscovered;
-    _Bool _checkForNewerFailure;
-    _Bool _contentAvailableForUse;
-    _Bool _contentVersionRevoked;
-    _Bool _lockUsageCheck;
-    _Bool _filesystemSpaceCritical;
-    _Bool _assetPurged;
-    _Bool _downloadPending;
-    _Bool _downloadProgress;
-    _Bool _downloadAbandoned;
 }
 
 + (id);
@@ -24,41 +15,32 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)initWithObjects:(id)arg1;
+- (void)ts in a specific time period;
+- (_Bool)protocol %@ in RSA-PSS set;
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)@"NSError">28;
+- (void)&I;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)hasInstallablePackages;
+- (_Bool)esourceState9dumpStateEvENK3$_0clERKNS_4rest27WatchableRestResourceHelperEEUlRKNS_22RestResourceConnectionEE_;
+- (id)d;
+- (_Bool)CACHE_DELETE_CACHED_INVALID_VOLUMES;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool assetPurged; // @synthesize assetPurged=_assetPurged;
-@property(nonatomic) _Bool checkForNewerFailure; // @synthesize checkForNewerFailure=_checkForNewerFailure;
-@property(nonatomic) _Bool contentAvailableForUse; // @synthesize contentAvailableForUse=_contentAvailableForUse;
-@property(nonatomic) _Bool contentVersionRevoked; // @synthesize contentVersionRevoked=_contentVersionRevoked;
-@property(nonatomic) _Bool downloadAbandoned; // @synthesize downloadAbandoned=_downloadAbandoned;
-@property(nonatomic) _Bool downloadPending; // @synthesize downloadPending=_downloadPending;
-@property(nonatomic) _Bool downloadProgress; // @synthesize downloadProgress=_downloadProgress;
-@property(nonatomic) _Bool filesystemSpaceCritical; // @synthesize filesystemSpaceCritical=_filesystemSpaceCritical;
-@property(nonatomic) _Bool lockUsageCheck; // @synthesize lockUsageCheck=_lockUsageCheck;
 @property(nonatomic) _Bool newerVersionDiscovered; // @synthesize newerVersionDiscovered=_newerVersionDiscovered;
 
 @end

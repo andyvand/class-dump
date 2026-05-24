@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 @interface SXHorizontalStackLayoutCalculator
 {
     NSMutableArray *_items;
-    NSMutableArray *_flexibleItems;
-    NSMutableArray *_sortedItems;
-    NSMutableDictionary *_componentsGroupedByMaximumWidth;
-    NSMutableDictionary *_componentsGroupedByMinimumWidth;
-    NSMutableDictionary *_minimumWidths;
-    NSMutableDictionary *_maximumWidths;
-    double _combinedMaximumWidth;
-    double _combinedMinimumWidth;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);
@@ -37,22 +29,7 @@
 - (void)Target>"24^B32;
 
 // Remaining properties
-@property(nonatomic) double combinedMaximumWidth; // @synthesize combinedMaximumWidth=_combinedMaximumWidth;
-@property(nonatomic) double combinedMinimumWidth; // @synthesize combinedMinimumWidth=_combinedMinimumWidth;
-@property(readonly, nonatomic) NSMutableDictionary *componentsGroupedByMaximumWidth; // @synthesize componentsGroupedByMaximumWidth=_componentsGroupedByMaximumWidth;
-@property(readonly, nonatomic) NSMutableDictionary *componentsGroupedByMinimumWidth; // @synthesize componentsGroupedByMinimumWidth=_componentsGroupedByMinimumWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableArray *flexibleItems; // @synthesize flexibleItems=_flexibleItems;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) NSMutableDictionary *maximumWidths; // @synthesize maximumWidths=_maximumWidths;
-@property(readonly, nonatomic) NSMutableDictionary *minimumWidths; // @synthesize minimumWidths=_minimumWidths;
-@property(readonly, nonatomic) NSMutableArray *sortedItems; // @synthesize sortedItems=_sortedItems;
-@property(readonly) Class superclass;
 
 @end
 

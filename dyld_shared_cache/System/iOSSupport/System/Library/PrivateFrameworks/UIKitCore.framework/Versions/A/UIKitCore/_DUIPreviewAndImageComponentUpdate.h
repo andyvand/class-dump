@@ -12,13 +12,13 @@
 }
 
 + (_Bool)nts.error.open.title;
-- (void);
-- (_Bool);
-- (id);
+- (void)handleIncomingRelayWithCommand:(_Bool)arg1 serviceName: /* Error: Ran out of types for this method. */;
+- (_Bool)IMDFamilyManager;
+- (id)x;
 - (id);
 - (unsigned long long);
-- (_Bool)e:(id)arg1;
-- (void)itiatedChangeY;
+- (_Bool)setLineCapStyle:(id)arg1;
+- (void)movementVectorForPanInitiatedChangeY;
 
 // Remaining properties
 @property(nonatomic) _Bool isFromSource; // @synthesize isFromSource=_isFromSource;

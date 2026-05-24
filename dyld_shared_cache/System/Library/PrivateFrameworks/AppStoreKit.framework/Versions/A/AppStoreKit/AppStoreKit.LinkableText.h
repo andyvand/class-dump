@@ -7,9 +7,6 @@
 @interface AppStoreKit.LinkableText
 {
     id styledText;
-    id linkedSubstrings;
-    id id;
-    id automationMetadata;
 }
 
 @end

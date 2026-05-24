@@ -6,66 +6,54 @@
 
 #import <EventKitUI/EKEventEditItem.h>
 
-@class EKEvent, EKUITableViewCell, NSArray, NSString;
+@class EKEvent, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface EKEventAttachmentsEditItem : EKEventEditItem
 {
     NSArray *_cellControllers;
-    EKUITableViewCell *_addAttachmentCell;
-    _Bool _documentPickerPresented;
-    _Bool _attachmentsModified;
-    EKEvent *_eventToModify;
 }
 
-- (_Bool);
+- (_Bool)&s;
+- (id)s;
+- (void);
+- (void)Y%s;
 - (id);
+- (unsigned long long);
+- (unsigned long long)&s;
+- (id)&s;
+- (void)s;
+- (_Bool)2%s;
+- (_Bool);
+- (void);
+- (void);
+- (_Bool)*s;
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id)S%s;
+- (void);
+- (id);
+- (void)j;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
+- (id)centColor:(struct CGRect)arg1 remoteDeviceIdentifier:(unsigned long long)arg2 remoteAppLocalizedName:remoteAppIcon: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)eEstimationControllerDidFinishOriginLocationLookup: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 organizerOverride:(id)arg2;
+- (void)routeEstimationControllerDidFinishOriginLocationLookup: /* Error: Ran out of types for this method. */;
+- (void)initWithEvent:(id)arg1 editable:(id)arg2 organizerOverride: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool attachmentsModified; // @synthesize attachmentsModified=_attachmentsModified;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) EKEvent *eventToModify; // @synthesize eventToModify=_eventToModify;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

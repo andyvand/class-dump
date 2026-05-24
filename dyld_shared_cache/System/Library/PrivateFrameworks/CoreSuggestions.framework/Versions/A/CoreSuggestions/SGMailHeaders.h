@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SGMailHeaders
 {
     NSString *_messageId;
-    NSString *_subject;
-    NSArray *_from;
-    NSArray *_to;
-    NSArray *_cc;
 }
 
 + (_Bool);
@@ -24,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -33,11 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cc; // @synthesize cc=_cc;
-@property(copy, nonatomic) NSArray *from; // @synthesize from=_from;
 @property(readonly, copy, nonatomic) NSString *messageId; // @synthesize messageId=_messageId;
-@property(copy, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(copy, nonatomic) NSArray *to; // @synthesize to=_to;
 
 @end
 

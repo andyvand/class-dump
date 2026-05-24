@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SRSchemaSRClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_srId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasSrId;
-    _Bool _hasRequestId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
@@ -29,30 +24,24 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)setPassPhraseAlternateButton:(_Bool)arg1;
+- (_Bool)on: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)resetMetricsEventsForType:withReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCardViewLinkedPersonValueTransformer;
 - (void);
-- (_Bool);
+- (_Bool)LPiTunesMediaMovieMetadata;
 - (id);
 - (id);
-- (id)Disabled;
-- (id)ntext;
-- (void)MPOSE;
-- (id)dBeforeStatus;
+- (id)deleteIsNLServerFallbackDisabled;
+- (id)_hasMuxBridgeContext;
+- (void)SIRIDIRECTACTION_MESSAGE_COMPOSE;
+- (id)PLUSSchemaPLUSSuggestionSurfacedBeforeStatus;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasSrId; // @synthesize hasSrId=_hasSrId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 @property(retain, nonatomic) SISchemaUUID *srId; // @synthesize srId=_srId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 
 @end
 

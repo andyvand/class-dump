@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBURL;
+@class NSArray, NSData, _SFPBURL;
 
 @protocol _SFPBStockChartCardSection
-- (int);
+- (_SFPBURL *);
+- (_Bool)setForcedReconnectReason: /* Error: Ran out of types for this method. */;
+- (_Bool)setCurrentRetryCount: /* Error: Ran out of types for this method. */;
+- (void)SiSbIegnr_;
+- (NSData *)ser;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSData *chartData;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBURL *thirdPartyContentURL;
-@property(copy, nonatomic) NSString *type;
 @end
 

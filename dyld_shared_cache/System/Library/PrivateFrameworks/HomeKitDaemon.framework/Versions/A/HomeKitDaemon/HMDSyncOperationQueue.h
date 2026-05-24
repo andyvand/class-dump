@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSyncOperationManager, HMFExponentialBackoffTimer, NSArray, NSMutableArray, NSString;
+@class HMDSyncOperationManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDSyncOperationQueue
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_stagedOperations;
-    NSMutableArray *_waitingOperations;
-    _Bool _hasExponentialBackoff;
-    NSString *_name;
-    HMFExponentialBackoffTimer *_backoffTimer;
-    HMDSyncOperationManager *_manager;
-    double _initialDelay;
-    double _initialBackoff;
 }
 
 + (id)q\B;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)isHighConfidence;
 - (void);
 - (id);
 - (void);
-- (double);
+- (double)setMConnectingText: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -47,34 +39,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)@ù
 × ;
-- (void)ublishShouldDebounce:(_Bool)arg1 publishPriority: /* Error: Ran out of types for this method. */;
+- (void)_requestPublishShouldDebounce:(_Bool)arg1 publishPriority: /* Error: Ran out of types for this method. */;
 - (void)achable notification for home:(id)arg1 %@, reachable:%{BOOL}d /* Error: Ran out of types for this method. */;
 - (void)enter:%@ /* Error: Ran out of types for this method. */;
 - (_Bool):%s (%d) /* Error: Ran out of types for this method. */;
 - (long long)unexpected topic id:%@ topic:%@ /* Error: Ran out of types for this method. */;
 - (id)characteristics for %{uuid_t}.16P from remote notification as partitioned network is no longer supported by residents;
-- (double)chHandler;
+- (double)LaunchHandler;
 - (void)ion;
-- (void)itationShareTokenKey;
+- (void)HMDHomeInvitationShareTokenKey;
 
 // Remaining properties
-@property(retain, nonatomic) HMFExponentialBackoffTimer *backoffTimer; // @synthesize backoffTimer=_backoffTimer;
-@property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) long long countTotal;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasExponentialBackoff; // @synthesize hasExponentialBackoff=_hasExponentialBackoff;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double initialBackoff; // @synthesize initialBackoff=_initialBackoff;
-@property(nonatomic) double initialDelay; // @synthesize initialDelay=_initialDelay;
 @property(nonatomic) __weak HMDSyncOperationManager *manager; // @synthesize manager=_manager;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSArray *stagedOperations;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *waitingOperations;
 
 @end
 

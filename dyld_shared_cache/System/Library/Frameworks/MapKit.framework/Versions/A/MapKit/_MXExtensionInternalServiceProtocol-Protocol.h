@@ -5,5 +5,6 @@
 //
 
 @protocol _MXExtensionInternalServiceProtocol
+- (void)IFF=%f;
 @end
 

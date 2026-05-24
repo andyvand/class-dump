@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECSASLClient, MCSocket, NSArray, NSData, NSDate, NSFileHandle, NSString;
-@protocol MCAccount;
-
 @interface MCConnection
 {
     id _accountLock;
-    id <MCAccount> _account;
-    _Bool _isBackground;
-    MCSocket *_socket;
-    double _connectTimeout;
-    double _readWriteTimeout;
-    unsigned long long _totalBytesRead;
-    NSDate *_readTimestamp;
-    void *_buffer;
-    long long _bufferRemainingBytes;
-    unsigned long long _bufferStart;
-    unsigned long long _bufferLength;
-    NSData *_logHeader;
-    ECSASLClient *_saslClient;
-    NSFileHandle *_logFile;
 }
 
 + (_Bool);
@@ -39,17 +22,17 @@
 + (id);
 + (_Bool);
 + (id);
-+ (void);
++ (void)xExtension;
 - (void);
 - (void);
-- (void);
+- (void)1;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -57,8 +40,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool))	k!N;
 - (void);
 - (_Bool);
 - (id);
@@ -72,13 +55,13 @@
 - (void);
 - (double);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool):(id)arg1 ;
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)R;
 - (double);
 - (void);
 - (unsigned long long);
@@ -88,7 +71,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)/;
 - (id);
 - (void);
 - (void);
@@ -98,10 +81,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)q0Z;
 - (id);
+- (id)\*;
 - (id);
-- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -110,42 +93,16 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)helpQueryDidFinishSearching:(void *)arg1;
 - (void);
-- (void);
-- (void *);
-- (_Bool);
+- (void *)m;
+- (_Bool)_messageID;
 - (void);
 - (_Bool)
 × ;
 
 // Remaining properties
-@property __weak id <MCAccount> account;
-@property(readonly, copy, nonatomic) NSArray *authenticationMechanisms;
 @property(nonatomic) void *buffer; // @synthesize buffer=_buffer;
-@property(nonatomic) unsigned long long bufferLength; // @synthesize bufferLength=_bufferLength;
-@property(nonatomic) long long bufferRemainingBytes; // @synthesize bufferRemainingBytes=_bufferRemainingBytes;
-@property(nonatomic) unsigned long long bufferStart; // @synthesize bufferStart=_bufferStart;
-@property(readonly, nonatomic) unsigned int cipherKeyLength;
-@property(nonatomic) double connectTimeout; // @synthesize connectTimeout=_connectTimeout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBytesAvailable;
-@property(readonly) unsigned long long hash;
-@property _Bool isBackground; // @synthesize isBackground=_isBackground;
-@property(readonly, nonatomic) _Bool isExpensive;
-@property(readonly, nonatomic) _Bool isNonAppInitiated;
-@property(retain) NSFileHandle *logFile; // @synthesize logFile=_logFile;
-@property(retain, nonatomic) NSData *logHeader; // @synthesize logHeader=_logHeader;
-@property(retain, nonatomic) NSDate *readTimestamp; // @synthesize readTimestamp=_readTimestamp;
-@property(nonatomic) double readWriteTimeout; // @synthesize readWriteTimeout=_readWriteTimeout;
-@property(retain, nonatomic) ECSASLClient *saslClient; // @synthesize saslClient=_saslClient;
-@property(retain, nonatomic) MCSocket *socket; // @synthesize socket=_socket;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsPlainTextSchemes;
-@property(nonatomic) unsigned long long totalBytesRead; // @synthesize totalBytesRead=_totalBytesRead;
 
 @end
 

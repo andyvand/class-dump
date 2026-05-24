@@ -9,15 +9,10 @@
 @interface NSRegularExpression
 {
     NSString *_pattern;
-    unsigned long long _options;
-    void *_internal;
-    int _checkout;
 }
 
 
 // Remaining properties
-@property(readonly) unsigned long long numberOfCaptureGroups;
-@property(readonly) unsigned long long options;
 @property(readonly, copy) NSString *pattern;
 @end
 

@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSObject, NSObject><NSCopying;
+@protocol NSObject><NSCopying;
 
 @interface ASKResourceRequest
 {
     id <NSObject><NSCopying> _requestKey;
-    id <NSObject> _cacheKey;
 }
 
-+ (id);
++ (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)parentViewControllerForAttachmentCellController:(id)arg1;
 - (id);
+- (id)E;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)�C;
 - (_Bool);
 - (void)^;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <NSObject> cacheKey; // @synthesize cacheKey=_cacheKey;
-@property(readonly, nonatomic) unsigned long long cacheOptions;
 @property(copy, nonatomic) id <NSObject><NSCopying> requestKey; // @synthesize requestKey=_requestKey;
 
 @end

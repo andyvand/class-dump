@@ -7,15 +7,12 @@
 @class NSDate, NSNumber, NSString, UTType;
 
 @protocol NSFileProviderSearchResult
-- (NSString *)epeatDonation;
+- (NSNumber *);
+- (NSDate *)setRowStyleRules: /* Error: Ran out of types for this method. */;
+- (UTType *)s:failed to reset octagon:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)FPRepeatDonation;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *contentModificationDate;
-@property(readonly, copy, nonatomic) UTType *contentType;
-@property(readonly, copy, nonatomic) NSDate *creationDate;
-@property(readonly, copy, nonatomic) NSNumber *documentSize;
-@property(readonly, copy, nonatomic) NSString *filename;
 @property(readonly, copy, nonatomic) NSString *itemIdentifier;
-@property(readonly, copy, nonatomic) NSDate *lastUsedDate;
 @end
 

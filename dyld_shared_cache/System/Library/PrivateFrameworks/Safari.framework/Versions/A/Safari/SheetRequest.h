@@ -16,11 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)val, ignoring.;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAuthenticationSheetRequest;
 @property(readonly, nonatomic) NSWindow *window;
 
 @end

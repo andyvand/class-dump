@@ -5,6 +5,7 @@
 //
 
 @protocol ACDOAuthSignerProtocol
+- (void);
 - (void)Ô ;
 @end
 

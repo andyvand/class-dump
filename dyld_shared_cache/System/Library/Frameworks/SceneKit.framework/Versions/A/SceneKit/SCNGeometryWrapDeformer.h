@@ -6,15 +6,11 @@
 
 #import <SceneKit/SCNGeometryDeformer.h>
 
-@class SCNGeometryWrapDeformerParameters, SCNNode;
+@class SCNNode;
 
 @interface SCNGeometryWrapDeformer : SCNGeometryDeformer
 {
     SCNNode *_innerLayerNode;
-    SCNNode *_outerLayerNode;
-    SCNGeometryWrapDeformerParameters *_parameters;
-    _Bool _isLegacySingleLayerDeformer;
-    SCNNode *_legacyDrivingNode;
 }
 
 + (_Bool);
@@ -29,7 +25,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)?;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak SCNNode *drivingNode;

@@ -9,7 +9,6 @@
 @interface HMAccessoryInfoPrimaryUser
 {
     NSString *_uuidString;
-    unsigned long long _selectionType;
 }
 
 - (id);
@@ -21,12 +20,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)dangle;
 - (id)ibleIDSDevices;
 - (void)for characteristic type %@ service type %@;
 
 // Remaining properties
-@property(readonly) unsigned long long selectionType; // @synthesize selectionType=_selectionType;
 @property(readonly, copy) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end

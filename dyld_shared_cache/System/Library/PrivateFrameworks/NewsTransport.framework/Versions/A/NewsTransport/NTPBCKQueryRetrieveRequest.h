@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NTPBCKQuery, NTPBCKRecordZoneIdentifier, NTPBCKRequestedFields;
+@class NSData;
 
 @interface NTPBCKQueryRetrieveRequest
 {
     NSData *_continuationMarker;
-    unsigned int _limit;
-    NTPBCKQuery *_query;
-    NTPBCKRequestedFields *_requestedFields;
-    NTPBCKRecordZoneIdentifier *_zoneIdentifier;
-    struct {
-        unsigned int limit:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool)beginAccess;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (id));
 - (id);
-- (id);
+- (void)ut while waiting for Nickname BlastDoor and/or content analysis.;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)[;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)premiumSubscriptionActivationImpressionValue;
 - (_Bool);
 - (void);
 - (void);
@@ -42,19 +35,10 @@
 - (id);
 - (unsigned int);
 - (id);
-- (void)onse;
+- (void)hasQueryRetrieveResponse;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuationMarker; // @synthesize continuationMarker=_continuationMarker;
-@property(readonly, nonatomic) _Bool hasContinuationMarker;
-@property(nonatomic) _Bool hasLimit;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasRequestedFields;
-@property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) unsigned int limit; // @synthesize limit=_limit;
-@property(retain, nonatomic) NTPBCKQuery *query; // @synthesize query=_query;
-@property(retain, nonatomic) NTPBCKRequestedFields *requestedFields; // @synthesize requestedFields=_requestedFields;
-@property(retain, nonatomic) NTPBCKRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

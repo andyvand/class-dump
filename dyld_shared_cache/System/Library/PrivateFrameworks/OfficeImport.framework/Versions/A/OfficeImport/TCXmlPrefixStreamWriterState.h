@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TCXmlPrefixStreamWriterState
 {
     NSString *_elementPrefix;
-    NSString *_attributePrefix;
 }
 
 - (void);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void)yDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSUNumberFormat.m;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attributePrefix; // @synthesize attributePrefix=_attributePrefix;
 @property(copy, nonatomic) NSString *elementPrefix; // @synthesize elementPrefix=_elementPrefix;
 
 @end

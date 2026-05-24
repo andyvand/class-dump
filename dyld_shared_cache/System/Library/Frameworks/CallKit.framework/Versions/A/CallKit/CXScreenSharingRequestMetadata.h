@@ -9,8 +9,6 @@
 @interface CXScreenSharingRequestMetadata
 {
     NSString *_appName;
-    NSString *_bundleIdentifier;
-    NSString *_sceneID;
 }
 
 + (_Bool);
@@ -18,8 +16,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)AlbumByArtist;
 - (id);
 - (void);
 - (void);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSString *sceneID; // @synthesize sceneID=_sceneID;
 
 @end
 

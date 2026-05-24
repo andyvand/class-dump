@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage;
-
 @interface PIFalseColorHDRDebug
 {
     double _inputCutoff;
-    CIImage *_inputImage;
 }
 
 + (id);
@@ -18,11 +15,10 @@
 - (id);
 - (void);
 - (id);
-- (void)mpledDisparityValue;
+- (void)sampledDisparityValue;
 
 // Remaining properties
 @property double inputCutoff; // @synthesize inputCutoff=_inputCutoff;
-@property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
 
 @end
 

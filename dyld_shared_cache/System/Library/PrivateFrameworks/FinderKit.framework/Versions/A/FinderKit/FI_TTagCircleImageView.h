@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface FI_TTagCircleImageView : FI_TImageView
 {
     struct TKeyValueBinder _colorNumberBinder;
-    NSNumber *_colorNumber;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)verticalGroupWithLayoutSize:subitems: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

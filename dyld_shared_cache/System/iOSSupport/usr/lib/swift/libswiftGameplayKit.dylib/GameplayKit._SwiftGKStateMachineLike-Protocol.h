@@ -5,5 +5,6 @@
 //
 
 @protocol GameplayKit._SwiftGKStateMachineLike
+- (id);
 @end
 

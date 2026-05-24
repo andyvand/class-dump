@@ -6,52 +6,12 @@
 
 #import <CloudPhotoLibrary/CPLEngineScopedTask.h>
 
-@class CPLEngineCloudCache, CPLEngineScope, CPLEngineTransientRepository, CPLEngineTransport, CPLFeatureVersionHistory, CPLScopeChange, CPLTransportScopeMapping, NSArray, NSData, NSError, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol CPLEngineTransportDownloadBatchTask, CPLEngineTransportFetchRecordsTask, CPLEngineTransportGetCurrentSyncAnchorTask, CPLEngineTransportGroup, CPLEngineTransportQueryTask, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CPLPullFromTransportScopeTask : CPLEngineScopedTask
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSError *_endTaskError;
-    CPLTransportScopeMapping *_transportScopeMapping;
-    CPLEngineScope *_sharedScope;
-    CPLEngineScope *_primaryScope;
-    NSMutableArray *_partnerScopes;
-    NSMutableDictionary *_syncAnchorsOfPartnerScopesThatMightNeedToPullChanges;
-    NSMutableArray *_allPartnerScopeIdentifiersNeedingToPullChanges;
-    NSArray *_finalListOfPartnerScopesNeedingToPullChanges;
-    CPLEngineCloudCache *_cloudCache;
-    CPLEngineTransientRepository *_transientPullRepository;
-    CPLEngineTransport *_transport;
-    id <CPLEngineTransportDownloadBatchTask> _downloadTask;
-    id <CPLEngineTransportQueryTask> _queryTask;
-    CPLScopeChange *_currentScopeChange;
-    Class _currentQueryClass;
-    _Bool _ignoreNewBatches;
-    _Bool _useCourtesyMingling;
-    unsigned long long _rewindFeatureVersion;
-    NSData *_rewindSyncAnchor;
-    CPLFeatureVersionHistory *_versionHistory;
-    id <CPLEngineTransportGroup> _transportGroup;
-    NSMutableSet *_otherRewindSyncAnchors;
-    unsigned long long _totalAssetCountForScope;
-    _Bool _hasCachedTotalAssetCountForScope;
-    long long _taskItem;
-    _Bool _hasFetchedInitialSyncAnchor;
-    _Bool _shouldStoreInitialSyncAnchor;
-    NSData *_initialSyncAnchor;
-    CPLScopeChange *_initialScopeChange;
-    id <CPLEngineTransportGetCurrentSyncAnchorTask> _fetchInitialSyncAnchorTask;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    _Bool _didNotifySchedulerPullQueueIsFullOnce;
-    _Bool _needsToNotifySchedulerPullQueueIsFull;
-    NSData *_updateTransportScope;
-    CPLEngineScope *_stagingScope;
-    NSData *_stagingTransportScope;
-    _Bool _hasExtraRecordsToCheck;
-    id <CPLEngineTransportFetchRecordsTask> _checkRecordsTask;
-    unsigned long long _countOfPulledAssets;
-    CDUnknownBlockType _allowsMinglingChangeWithScopedIdentifier;
 }
 
 - (id);
@@ -70,11 +30,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -84,17 +44,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)@ù?ëÁ;
+- (void);
 - (void);
 - (void)!ÜAùÑð1Â0@ù
 × ;
-- (id)eJPEGLargeSize;
+- (id)CPLResourceTypeJPEGLargeSize;
 
 @end
 

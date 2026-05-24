@@ -9,21 +9,17 @@
 @interface ISVisibilityOffsetHelper
 {
     long long _direction;
-    double _maximumDistance;
-    double _maximumDistanceLag;
-    UIScrollView *__scrollView;
-    struct CGPoint __targetContentOffset;
 }
 
-- (void);
-- (double);
-- (void);
-- (void);
-- (struct CGRect);
-- (struct ISVisibilityRange);
-- (void);
-- (struct CGPoint);
-- (void);
+- (void)_isDecorative;
+- (double)_fontTextStyle;
+- (void)_darkModeConfiguration;
+- (void)_containers;
+- (struct CGRect)_conditionsToComponentTextStylesMap;
+- (struct ISVisibilityRange)_combinedMinimumWidth;
+- (void)_beforeBlock;
+- (struct CGPoint)_attribute;
+- (void)_allowsScrollPositionRestore;
 - (struct CGRect);
 - (void);
 - (void);
@@ -35,10 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setScrollView:) UIScrollView *_scrollView; // @synthesize _scrollView=__scrollView;
-@property(nonatomic, setter=_setTargetContentOffset:) struct CGPoint _targetContentOffset; // @synthesize _targetContentOffset=__targetContentOffset;
-@property(nonatomic) long long direction; // @synthesize direction=_direction;
-@property(nonatomic) double maximumDistance; // @synthesize maximumDistance=_maximumDistance;
-@property(nonatomic) double maximumDistanceLag; // @synthesize maximumDistanceLag=_maximumDistanceLag;
 
 @end
 

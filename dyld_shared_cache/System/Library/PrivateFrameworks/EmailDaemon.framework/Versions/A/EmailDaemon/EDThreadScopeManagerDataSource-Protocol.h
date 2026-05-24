@@ -5,5 +5,6 @@
 //
 
 @protocol EDThreadScopeManagerDataSource
+- (_Bool)_lastRoamScanUniqueBandsCount;
 @end
 

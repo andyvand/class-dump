@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SAKCDataExclaveAddressSpace
 {
     const struct exclave_addressspace_info *_exclave_addressspace_info;
-    const char *_name;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSData;
 
 @interface HMCacheEntry
 {
     NSData *_data;
-    NSDate *_lastModificationDate;
 }
 
 + (id);
@@ -17,15 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)grammaticality;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSData *data; // @synthesize data=_data;
-@property(readonly) _Bool isExpired;
-@property(readonly, copy) NSDate *lastModificationDate; // @synthesize lastModificationDate=_lastModificationDate;
 
 @end
 

@@ -19,15 +19,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void)tworkMessage;
+- (id)@;
+- (id)AFVoiceCommandGrammarParseCandidate::isComplete /* Error: Ran out of types for this method. */;
+- (void)_updateContentItemArtworkMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasResponse;
-@property(retain, nonatomic) NSString *response; // @synthesize response=_response;
 
 @end
 

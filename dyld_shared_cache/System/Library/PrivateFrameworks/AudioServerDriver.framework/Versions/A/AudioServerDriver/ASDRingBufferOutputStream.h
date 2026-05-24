@@ -11,17 +11,16 @@
 @interface ASDRingBufferOutputStream : ASDStream
 {
     struct unique_ptr<ASDBufferList, std::default_delete<ASDBufferList>> _bufferList;
-    id <ASDManagedRingBuffer> _ringBuffer;
 }
 
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)queue:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)num_thread_networks;
+- (id)eamManagementService:(unsigned int)arg1 remoteCapabilities:(id)arg2 profileUniqueIdentifier:residentMessageHandler:remoteAccessDevice:streamPreference: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)B;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)aveRequest from %{public}@.;
 - (void);
 
 // Remaining properties

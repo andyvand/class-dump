@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorResults
 {
     _Bool _supportsDynamicMaxBitrate;
-    NSString *_remoteUserAgent;
-    NSString *_remoteBasebandCodec;
-    unsigned int _remoteBasebandCodecSampleRate;
-    unsigned char _mediaControlInfoVersion;
-    unsigned int _remoteBlobVersion;
-    int _controlChannelVersion;
-    NSMutableSet *_bandwidthConfigurations;
-    unsigned char _fecHeaderVersion;
-    unsigned char _rtxVersion;
-    int _accessNetworkType;
-    union tagNTP _remoteBlobCreationTime;
 }
 
 - (_Bool);
@@ -32,37 +19,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned char);
 - (unsigned int);
 - (union tagNTP);
 - (unsigned int);
-- (id);
+- (id);
 - (unsigned char);
 - (unsigned int);
 - (int);
 - (id);
-- (void);
+- (void)�`;
 - (id);
-- (void);
+- (void);
 - (unsigned char);
 - (int);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) int accessNetworkType; // @synthesize accessNetworkType=_accessNetworkType;
-@property(readonly, nonatomic) NSSet *bandwidthConfigurations; // @synthesize bandwidthConfigurations=_bandwidthConfigurations;
-@property(nonatomic) int controlChannelVersion; // @synthesize controlChannelVersion=_controlChannelVersion;
-@property(nonatomic) unsigned char fecHeaderVersion; // @synthesize fecHeaderVersion=_fecHeaderVersion;
-@property(nonatomic) unsigned char mediaControlInfoVersion; // @synthesize mediaControlInfoVersion=_mediaControlInfoVersion;
-@property(retain, nonatomic) NSString *remoteBasebandCodec; // @synthesize remoteBasebandCodec=_remoteBasebandCodec;
-@property(nonatomic) unsigned int remoteBasebandCodecSampleRate; // @synthesize remoteBasebandCodecSampleRate=_remoteBasebandCodecSampleRate;
-@property(nonatomic) union tagNTP remoteBlobCreationTime; // @synthesize remoteBlobCreationTime=_remoteBlobCreationTime;
-@property(nonatomic) unsigned int remoteBlobVersion; // @synthesize remoteBlobVersion=_remoteBlobVersion;
-@property(retain, nonatomic) NSString *remoteUserAgent; // @synthesize remoteUserAgent=_remoteUserAgent;
-@property(nonatomic) unsigned char rtxVersion; // @synthesize rtxVersion=_rtxVersion;
 @property(nonatomic) _Bool supportsDynamicMaxBitrate; // @synthesize supportsDynamicMaxBitrate=_supportsDynamicMaxBitrate;
 
 @end

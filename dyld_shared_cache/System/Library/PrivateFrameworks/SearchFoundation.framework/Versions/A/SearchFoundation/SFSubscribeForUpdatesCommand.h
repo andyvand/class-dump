@@ -6,32 +6,17 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCloudChannelsRequestItem, SFCommandReference, SFDomainSubscriptionRequestItem, SFTopic;
+@class SFCloudChannelsRequestItem;
 
 @interface SFSubscribeForUpdatesCommand : SFCommand
 {
     SFCloudChannelsRequestItem *_cloudChannelsRequestItem;
-    SFDomainSubscriptionRequestItem *_domainSubscriptionRequestItem;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
 @property(retain, nonatomic) SFCloudChannelsRequestItem *cloudChannelsRequestItem; // @synthesize cloudChannelsRequestItem=_cloudChannelsRequestItem;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFDomainSubscriptionRequestItem *domainSubscriptionRequestItem; // @synthesize domainSubscriptionRequestItem=_domainSubscriptionRequestItem;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(readonly) Class superclass;
 
 @end
 

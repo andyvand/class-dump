@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatServiceResult
 {
     id resolvedContent;
-    id resolvedPool;
-    id content;
-    id contentPool;
-    id options;
 }
 
 @end

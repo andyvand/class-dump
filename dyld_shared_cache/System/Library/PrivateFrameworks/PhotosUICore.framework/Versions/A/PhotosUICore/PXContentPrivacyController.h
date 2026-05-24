@@ -4,40 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSMutableArray, NSMutableSet, NSNumber, NSString, NSTimer, PXSystemAuthenticationTypeObserver;
-@protocol PXDisplayCollection;
+@class NSString;
 
 @interface PXContentPrivacyController
 {
     _Bool _contentPrivacyEnabled;
-    _Bool _locked;
-    _Bool _willPerformAuthenticationAutomatically;
-    _Bool _hasPerformedAuthenticationInStack;
-    _Bool _authenticationAttemptDidFailOrWasCancelled;
-    unsigned long long _automaticAuthenticationBehavior;
-    long long _authenticationType;
-    NSString *_logIdentifier;
-    PXSystemAuthenticationTypeObserver *_authenticationTypeObserver;
-    LAContext *_currentAuthenticationContext;
-    NSMutableSet *_observers;
-    NSMutableSet *_distributedObservers;
-    NSTimer *_autolockTimer;
-    unsigned long long _autolockReason;
-    id <PXDisplayCollection> _assetCollectionToObserve;
-    NSMutableArray *_authenticationStack;
-    unsigned long long _cachedAuthenticationStackCount;
-    NSNumber *_contentPrivacyEnabledNumberForTesting;
-    NSNumber *_testingOverride_authenticationType;
-    NSNumber *_testingOverride_shouldPerformAuthenticationOnAppearing;
-    NSNumber *_testingOverride_shouldOnlyPerformAutomaticAuthenticationOnce;
-    NSNumber *_testingOverride_shouldLockAfterDelayWhenLeavingViewHierarchy;
-    NSNumber *_testingOverride_autolockTimeout;
-    CDUnknownBlockType _authChallengeHandlerForTesting;
 }
 
 + (void);
 + (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long));
 + (id);
 - (_Bool);
 - (void);
@@ -73,7 +49,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -94,11 +70,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)R;
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
 - (void);
+- (void)�;
+- (void);
+- (void)T(;
 - (void);
 - (void);
 - (void);
@@ -108,10 +87,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -127,12 +103,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@@9?;
 - (unsigned long long);
 - (id);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -149,40 +125,7 @@
 - (void)q¸Ì¸ÿq¸Ø¸ÿq¸þ;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXDisplayCollection> assetCollectionToObserve; // @synthesize assetCollectionToObserve=_assetCollectionToObserve;
-@property(copy, nonatomic) CDUnknownBlockType authChallengeHandlerForTesting; // @synthesize authChallengeHandlerForTesting=_authChallengeHandlerForTesting;
-@property(nonatomic) _Bool authenticationAttemptDidFailOrWasCancelled; // @synthesize authenticationAttemptDidFailOrWasCancelled=_authenticationAttemptDidFailOrWasCancelled;
-@property(readonly, nonatomic) NSMutableArray *authenticationStack; // @synthesize authenticationStack=_authenticationStack;
-@property(readonly, nonatomic) long long authenticationType; // @synthesize authenticationType=_authenticationType;
-@property(readonly, nonatomic) PXSystemAuthenticationTypeObserver *authenticationTypeObserver; // @synthesize authenticationTypeObserver=_authenticationTypeObserver;
-@property(nonatomic) unsigned long long autolockReason; // @synthesize autolockReason=_autolockReason;
-@property(retain, nonatomic) NSTimer *autolockTimer; // @synthesize autolockTimer=_autolockTimer;
-@property(nonatomic) unsigned long long automaticAuthenticationBehavior; // @synthesize automaticAuthenticationBehavior=_automaticAuthenticationBehavior;
-@property(nonatomic) unsigned long long cachedAuthenticationStackCount; // @synthesize cachedAuthenticationStackCount=_cachedAuthenticationStackCount;
-@property(readonly, nonatomic, getter=isContentPrivacyEnabled) _Bool contentPrivacyEnabled; // @synthesize contentPrivacyEnabled=_contentPrivacyEnabled;
-@property(retain, nonatomic) NSNumber *contentPrivacyEnabledNumberForTesting; // @synthesize contentPrivacyEnabledNumberForTesting=_contentPrivacyEnabledNumberForTesting;
-@property(retain, nonatomic) LAContext *currentAuthenticationContext; // @synthesize currentAuthenticationContext=_currentAuthenticationContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic, getter=isDelayedLockScheduled) _Bool delayedLockScheduled;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *distributedObservers; // @synthesize distributedObservers=_distributedObservers;
-@property(nonatomic) _Bool hasPerformedAuthenticationInStack; // @synthesize hasPerformedAuthenticationInStack=_hasPerformedAuthenticationInStack;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic, getter=isLocked) _Bool locked; // @synthesize locked=_locked;
 @property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(retain, nonatomic) NSMutableSet *observers; // @synthesize observers=_observers;
-@property(readonly, nonatomic, getter=isPerformingAuthentication) _Bool performingAuthentication;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *testingOverride_authenticationType; // @synthesize testingOverride_authenticationType=_testingOverride_authenticationType;
-@property(retain, nonatomic) NSNumber *testingOverride_autolockTimeout; // @synthesize testingOverride_autolockTimeout=_testingOverride_autolockTimeout;
-@property(retain, nonatomic) NSNumber *testingOverride_shouldLockAfterDelayWhenLeavingViewHierarchy; // @synthesize testingOverride_shouldLockAfterDelayWhenLeavingViewHierarchy=_testingOverride_shouldLockAfterDelayWhenLeavingViewHierarchy;
-@property(retain, nonatomic) NSNumber *testingOverride_shouldOnlyPerformAutomaticAuthenticationOnce; // @synthesize testingOverride_shouldOnlyPerformAutomaticAuthenticationOnce=_testingOverride_shouldOnlyPerformAutomaticAuthenticationOnce;
-@property(retain, nonatomic) NSNumber *testingOverride_shouldPerformAuthenticationOnAppearing; // @synthesize testingOverride_shouldPerformAuthenticationOnAppearing=_testingOverride_shouldPerformAuthenticationOnAppearing;
-@property(readonly, nonatomic) _Bool willPerformAuthenticationAutomatically; // @synthesize willPerformAuthenticationAutomatically=_willPerformAuthenticationAutomatically;
 
 @end
 

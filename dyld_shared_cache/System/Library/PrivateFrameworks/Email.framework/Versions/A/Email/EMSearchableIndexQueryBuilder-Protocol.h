@@ -7,33 +7,22 @@
 @class NSArray, NSString;
 
 @protocol EMSearchableIndexQueryBuilder
+- (NSString *);
+- (void)initWithCoalitionId:(void (^)(NSString *, NSArray *))arg1 withBundleId:withLaunchDName: /* Error: Ran out of types for this method. */;
+- (void (^)(NSArray *))GPU_CLTM_P3;
+- (void (^)(void))essary fields are null:%@%@%@%@ /* Error: Ran out of types for this method. */;
+- (NSString *)a;
+- (void)Ju;
+- (void (^)(NSError *));
+- (void (^)(_Bool))forgetEverything;
+- (void)um %{public}@;
 - (void)A;
-- (_Bool)onHandler: /* Error: Ran out of types for this method. */;
-- (void)ion;
+- (_Bool)performCountQuery:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_currentSuggestion;
 - (_Bool)d¸;
 - (NSArray *);
 
 // Remaining properties
-@property(nonatomic) _Bool attribute;
 @property(copy, nonatomic) NSString *bundleID;
-@property(copy, nonatomic) CDUnknownBlockType changedAttributeResultsBlock;
-@property(copy, nonatomic) CDUnknownBlockType changedItemsBlock;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock;
-@property(copy, nonatomic) CDUnknownBlockType countChangedBlock;
-@property(nonatomic) _Bool counting;
-@property(copy, nonatomic) CDUnknownBlockType embeddingBlock;
-@property(copy, nonatomic) CDUnknownBlockType failureBlock;
-@property(copy, nonatomic) NSArray *fetchAttributes;
-@property(copy, nonatomic) CDUnknownBlockType foundAttributeResultsBlock;
-@property(copy, nonatomic) CDUnknownBlockType gatheredBlock;
-@property(nonatomic) _Bool live;
-@property(copy, nonatomic) NSString *logIdentifier;
-@property(nonatomic) long long maxCount;
-@property(copy, nonatomic) NSArray *protectionClasses;
-@property(copy, nonatomic) NSString *queryID;
-@property(copy, nonatomic) NSArray *rankingQueries;
-@property(copy, nonatomic) CDUnknownBlockType removedItemsBlock;
-@property(copy, nonatomic) CDUnknownBlockType resultsBlock;
-@property(copy, nonatomic) NSString *sessionID;
 @end
 

@@ -6,17 +6,9 @@
 
 #import <UIFoundation/_UIFontCacheKey.h>
 
-@class NSNumber, NSString;
-
 @interface _UIFontSystemCacheKey : _UIFontCacheKey
 {
     _Bool _monospacedDigits;
-    _Bool _textLegibility;
-    int _traits;
-    NSString *_design;
-    double _weight;
-    NSNumber *_width;
-    double _pointSize;
 }
 
 - (int);
@@ -24,8 +16,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)GSDeviceName;
 - (void);
 - (id);
 - (void);
@@ -39,13 +31,7 @@
 - (id)ðúÿUô;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *design; // @synthesize design=_design;
-@property(nonatomic) _Bool monospacedDigits; // @synthesize monospacedDigits=_monospacedDigits;
-@property(nonatomic) double pointSize; // @synthesize pointSize=_pointSize;
-@property(nonatomic) _Bool textLegibility; // @synthesize textLegibility=_textLegibility;
 @property(nonatomic) int traits; // @synthesize traits=_traits;
-@property(nonatomic) double weight; // @synthesize weight=_weight;
-@property(retain, nonatomic) NSNumber *width; // @synthesize width=_width;
 
 @end
 

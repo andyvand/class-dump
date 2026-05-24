@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _UISearchBarContainerView : UIView
 {
     UIView *_subview;
-    int _resizingMask;
-    _Bool _shouldSendContainerSafeAreaInsetsDidChange;
 }
 
-- (void);
-- (void);
+- (void)ayPushHandlerListener>"16;
+- (void)broadcastHandlesSharingNicknamesDidChange;
 - (void);
 - (void);
 - (id)
 × ;
 - (void)@"UIPreviewInteractionController"16@"UIViewController"24;
-- (void)or: /* Error: Ran out of types for this method. */;
+- (void)initWithCompositingMode:compositingColor: /* Error: Ran out of types for this method. */;
 - (void)t:(struct CGRect)arg1 turnOnCount: /* Error: Ran out of types for this method. */;
-- (id)insertSegmentWithAttributedTitle:(struct CGRect)arg1 atIndex:animated: /* Error: Ran out of types for this method. */;
-- (void)ectsRect:(struct CGRect)arg1;
+- (id)_insertSegmentWithAttributedTitle:(struct CGRect)arg1 atIndex:animated: /* Error: Ran out of types for this method. */;
+- (void)intersectsRect:(struct CGRect)arg1;
 - (void)7GGGAByÙ.3y>Ù.3yØ.3yØ.3yAByq©.3y_ª¡.3y¶;
 - (void)q13ü;
 

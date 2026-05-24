@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSError;
 
 __attribute__((visibility("hidden")))
 @interface SKBaseErrorEvent
 {
     NSError *_primaryError;
-    NSError *_mappedError;
-    NSString *_inAppPurchaseID;
-    NSString *_serverCorrelationID;
-    NSString *_environment;
-    long long _userAction;
-    NSString *_eventName;
 }
 
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (id);
 - (id);
@@ -36,14 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canCreatePayload;
-@property(retain, nonatomic) NSString *environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(retain, nonatomic) NSString *inAppPurchaseID; // @synthesize inAppPurchaseID=_inAppPurchaseID;
-@property(retain, nonatomic) NSError *mappedError; // @synthesize mappedError=_mappedError;
 @property(retain, nonatomic) NSError *primaryError; // @synthesize primaryError=_primaryError;
-@property(retain, nonatomic) NSString *serverCorrelationID; // @synthesize serverCorrelationID=_serverCorrelationID;
-@property(nonatomic) long long userAction; // @synthesize userAction=_userAction;
 
 @end
 

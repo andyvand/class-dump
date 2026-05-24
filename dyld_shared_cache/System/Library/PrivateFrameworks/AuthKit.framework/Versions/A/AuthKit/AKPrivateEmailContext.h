@@ -9,16 +9,6 @@
 @interface AKPrivateEmailContext
 {
     _Bool _keyAndBundleIdAreHashed;
-    NSString *_key;
-    NSString *_altDSID;
-    NSString *_proxiedAppID;
-    NSString *_proxiedBundleIdentifier;
-    NSString *_proxiedAppName;
-    NSString *_upgradeBundleIdentifier;
-    NSString *_clientAppBundleId;
-    NSString *_originType;
-    NSString *_originIdentifier;
-    NSString *_metadataString;
 }
 
 + (_Bool);
@@ -27,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)U;
 - (void);
 - (void);
 - (id);
@@ -53,17 +43,7 @@
 ¦:,Ìý]M~ív¶o*5; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *clientAppBundleId; // @synthesize clientAppBundleId=_clientAppBundleId;
 @property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) _Bool keyAndBundleIdAreHashed; // @synthesize keyAndBundleIdAreHashed=_keyAndBundleIdAreHashed;
-@property(copy, nonatomic) NSString *metadataString; // @synthesize metadataString=_metadataString;
-@property(readonly, nonatomic) NSString *originIdentifier; // @synthesize originIdentifier=_originIdentifier;
-@property(readonly, nonatomic) NSString *originType; // @synthesize originType=_originType;
-@property(copy, nonatomic) NSString *proxiedAppID; // @synthesize proxiedAppID=_proxiedAppID;
-@property(copy, nonatomic) NSString *proxiedAppName; // @synthesize proxiedAppName=_proxiedAppName;
-@property(copy, nonatomic) NSString *proxiedBundleIdentifier; // @synthesize proxiedBundleIdentifier=_proxiedBundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *upgradeBundleIdentifier; // @synthesize upgradeBundleIdentifier=_upgradeBundleIdentifier;
 
 @end
 

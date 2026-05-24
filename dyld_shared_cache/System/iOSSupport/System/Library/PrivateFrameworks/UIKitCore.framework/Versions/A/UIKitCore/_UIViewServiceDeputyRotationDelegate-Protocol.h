@@ -5,6 +5,7 @@
 //
 
 @protocol _UIViewServiceDeputyRotationDelegate
-- (void)teraction;
+- (void);
+- (void)SnapshotInteraction;
 @end
 

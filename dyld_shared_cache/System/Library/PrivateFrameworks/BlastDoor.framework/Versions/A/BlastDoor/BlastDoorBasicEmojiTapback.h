@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorBasicTapBack_MessageSummaryInfo, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorBasicEmojiTapback
 {
@@ -14,25 +14,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (struct _NSRange);
-- (id);
-- (id);
+- (id)tcherScrollPreventerDelegate>";
+- (long long)em"24;
+- (struct _NSRange)reenBalloonViewController"16;
+- (id)KFullScreenBalloonViewController"16;
+- (id)t={CGPoint=dd}{CGSize=dd}}24@0:8@"CKFullScreenBalloonViewController"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *associatedMessageEmoji;
-@property(nonatomic, readonly) NSString *associatedMessageFallbackHash;
-@property(nonatomic, readonly) NSString *associatedMessageGUID;
-@property(nonatomic, readonly) struct _NSRange associatedMessageRange;
-@property(nonatomic, readonly) long long associatedMessageType;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorBasicTapBack_MessageSummaryInfo *messageSummaryInfo;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
-@property(nonatomic, readonly) NSString *plainTextBody;
 
 @end
 

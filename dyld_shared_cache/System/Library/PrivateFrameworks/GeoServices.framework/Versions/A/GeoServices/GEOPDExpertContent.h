@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDExpertContent
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_expertContentValues;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)_substituteType"b1"read_unknownFields"b1"read_interpretedQuery"b1"read_relatedSearchSuggestion"b1"wrote_anyField"b1};
-- (id)eted;
+- (id)_deleted;
 - (id)L;
 - (void)°áé2@L¦
 F%u@;

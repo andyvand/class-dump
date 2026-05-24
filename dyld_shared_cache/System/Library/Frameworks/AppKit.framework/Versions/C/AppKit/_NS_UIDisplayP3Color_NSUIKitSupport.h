@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (long long)iguration;
+- (long long)configuration;
 
 @end
 

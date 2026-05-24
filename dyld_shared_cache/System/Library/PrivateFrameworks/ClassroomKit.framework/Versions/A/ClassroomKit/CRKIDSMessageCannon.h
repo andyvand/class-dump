@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKIDSMessageFormatter;
 @protocol CRKIDSPrimitives;
 
 @interface CRKIDSMessageCannon
 {
     id <CRKIDSPrimitives> _IDSPrimitives;
-    CRKIDSMessageFormatter *_messageFormatter;
 }
 
 - (void);
@@ -22,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKIDSPrimitives> IDSPrimitives; // @synthesize IDSPrimitives=_IDSPrimitives;
-@property(readonly, nonatomic) CRKIDSMessageFormatter *messageFormatter; // @synthesize messageFormatter=_messageFormatter;
 
 @end
 

@@ -4,49 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSData, NSDictionary, NSFileWrapper, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSMutableOrderedSet, NSMutableString, NSString, NSURL;
+@class NSAttributedString;
 
 @interface NSHTMLWriter
 {
     NSAttributedString *_attrStr;
-    NSDictionary *_documentAttrs;
-    NSData *_htmlData;
-    NSMutableString *_bodyStr;
-    NSFileWrapper *_fileWrapper;
-    NSMutableDictionary *_subresources;
-    NSData *_webArchiveData;
-    NSMutableArray *_paraStyleStrings;
-    NSMutableArray *_paraStyleArrays;
-    NSMutableIndexSet *_paraStyleIndexes;
-    NSMutableIndexSet *_listItemStyleIndexes;
-    NSMutableOrderedSet *_charStyleStrings;
-    NSMutableArray *_charStyleArrays;
-    NSMutableArray *_fontStrings;
-    NSMutableArray *_tableStyleStrings;
-    NSMutableArray *_tableCellStyleStrings;
-    NSMutableArray *_blockStyleStrings;
-    NSMutableArray *_olistStyleStrings;
-    NSMutableArray *_ulistStyleStrings;
-    NSMutableDictionary *_fontNames;
-    NSMutableDictionary *_fontDescriptions;
-    long long _level;
-    long long _prefixSpaces;
-    NSString *_textEncodingName;
-    unsigned long long _characterEncoding;
-    NSURL *_outputBaseURL;
-    id _resourceHandler;
-    unsigned int _excludedElements1;
-    unsigned int _excludedElements2;
-    unsigned int _excludedElements3;
-    struct {
-        unsigned int interchangeNewline:1;
-        unsigned int noDefaultFonts:1;
-        unsigned int tabsToSpaces:1;
-        unsigned int coalesceTabSpans:1;
-        unsigned int usedTabSpan:1;
-        unsigned int encodingIsUnicode:1;
-        unsigned int pad:26;
-    } _flags;
 }
 
 + (id);
@@ -56,35 +18,35 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (Class);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)(";
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

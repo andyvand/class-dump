@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
-
 @interface FigCaptureTrie
 {
     _Bool _complete;
-    NSMutableDictionary *_subTries;
 }
 
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void),VmHyperlink1;
 - (id);
 - (id);
 - (void);
@@ -34,7 +31,6 @@
 - (_Bool)lineStage:videoDataPipelineStage] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *children;
 @property(readonly, nonatomic, getter=isComplete) _Bool complete;
 
 @end

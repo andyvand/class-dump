@@ -5,5 +5,6 @@
 //
 
 @protocol WFState
+- (_Bool);
 @end
 

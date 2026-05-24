@@ -6,35 +6,23 @@
 
 #import <CoreImage/CIImageProcessorInOut.h>
 
-@protocol MTLTexture;
-
 __attribute__((visibility("hidden")))
 @interface CIImageProcessorInput : CIImageProcessorInOut
 {
     unsigned long long _roiTileIndex;
-    unsigned long long _roiTileCount;
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)є-ۗ;
+- (id)ѻ-ۗ;
 - (const void *);
 - (void);
 - (struct __IOSurface *);
 
 // Remaining properties
-@property(readonly, nonatomic) const void *baseAddress;
-@property(readonly, nonatomic) unsigned long long bytesPerRow;
-@property(readonly, nonatomic) unsigned long long digest;
-@property(readonly, nonatomic) int format;
-@property(readonly, nonatomic) id <MTLTexture> metalTexture;
-@property(readonly, nonatomic) struct __CVBuffer *pixelBuffer;
-@property(readonly, nonatomic) struct CGRect region;
-@property(readonly, nonatomic) unsigned long long roiTileCount; // @synthesize roiTileCount=_roiTileCount;
 @property(readonly, nonatomic) unsigned long long roiTileIndex; // @synthesize roiTileIndex=_roiTileIndex;
-@property(readonly, nonatomic) struct __IOSurface *surface;
 
 @end
 

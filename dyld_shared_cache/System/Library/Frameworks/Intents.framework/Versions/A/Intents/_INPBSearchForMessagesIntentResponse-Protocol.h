@@ -7,11 +7,10 @@
 @class NSArray;
 
 @protocol _INPBSearchForMessagesIntentResponse
++ (Class);
+- (void)encodeDouble:(NSArray *)arg1 forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *messages;
-@property(readonly, nonatomic) unsigned long long messagesCount;
-@property(copy, nonatomic) NSArray *searchResults;
-@property(readonly, nonatomic) unsigned long long searchResultsCount;
 @end
 

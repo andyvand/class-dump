@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionSample
 {
     struct opaqueCMSampleBuffer *_sampleBuffer;
-    unsigned int _mediaType;
-    NSString *_description;
 }
 
 + (id);
@@ -20,16 +16,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (unsigned int);
-- (struct opaqueCMSampleBuffer *);
-- (id);
+- (unsigned int)supportsSecureCoding;
+- (struct opaqueCMSampleBuffer *)_fetchVisitsPredating:handler: /* Error: Ran out of types for this method. */;
+- (id)memoryFootprintAtFinish;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned int mediaType;
 @property(readonly) struct opaqueCMSampleBuffer *sampleBuffer;
 
 @end

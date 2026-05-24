@@ -6,13 +6,9 @@
 
 #import <CalendarUI/EKUISingleTextFieldGadget.h>
 
-@class NSString, SGSuggestedEventLaunchInfo;
-
 @interface EKUIURLGadget : EKUISingleTextFieldGadget
 {
     _Bool _mouseEntered;
-    _Bool _shouldScrollTextFieldToTop;
-    SGSuggestedEventLaunchInfo *_launchInfo;
 }
 
 + (id);
@@ -28,35 +24,26 @@
 - (id);
 - (unsigned long long);
 - (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)I;
+- (id);
+- (id);
+- (double)j;
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (double);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)kDataContextHandleInvalid;
+- (void)renewCredentialsWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) SGSuggestedEventLaunchInfo *launchInfo; // @synthesize launchInfo=_launchInfo;
 @property _Bool mouseEntered; // @synthesize mouseEntered=_mouseEntered;
-@property _Bool shouldScrollTextFieldToTop; // @synthesize shouldScrollTextFieldToTop=_shouldScrollTextFieldToTop;
-@property(readonly) Class superclass;
 
 @end
 

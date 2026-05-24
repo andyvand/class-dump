@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDServiceClient, NSObject, NSString;
-@protocol OS_os_log;
+@class HIDServiceClient;
 
 __attribute__((visibility("hidden")))
 @interface PILTransportHID
 {
     HIDServiceClient *_pilPlugin;
-    NSObject<OS_os_log> *_logHandle;
-    _Bool _running;
-    unsigned int _dutyCycle;
 }
 
 - (int);
@@ -23,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)onnect to DataDetectorsSourceAccess (reading);
 - (id);
 - (void);
 - (void);
@@ -31,14 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned int dutyCycle; // @synthesize dutyCycle=_dutyCycle;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

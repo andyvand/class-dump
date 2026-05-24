@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCVideoRule;
-
 __attribute__((visibility("hidden")))
 @interface VCBitrateRule
 {
     unsigned int _bitrate;
-    int _connectionType;
-    VCVideoRule *limitingRule;
 }
 
 - (id);
-- (id);
+- (id)+!;
 - (void);
 - (void);
 - (id);
 - (unsigned int);
 - (int);
 - (long long)%x;
-- (void)eue;
+- (void)JitterPreloadQueue_Enqueue;
 
 // Remaining properties
 @property unsigned int bitrate; // @synthesize bitrate=_bitrate;
-@property int connectionType; // @synthesize connectionType=_connectionType;
-@property(readonly, nonatomic) VCVideoRule *limitingRule; // @synthesize limitingRule;
 
 @end
 

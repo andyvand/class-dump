@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (NSInternal)
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)6z3;
+- (void)2za;
+- (void):(id)arg1 Rz;
+- (void):(id)arg1 Rk;
+- (void):(CDUnknownBlockType)arg1 RS;
 @end
 

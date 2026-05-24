@@ -9,20 +9,15 @@
 @interface NSGlassEffectContainerView : NSView
 {
     id _smoothness;
-    id _components;
-    id _effectsViewConstraints;
-    id _effectsView;
-    id _contentViewConstraints;
-    id _contentView;
 }
 
-+ (id);
++ (id)redential}iQ}8;
+- (void)@;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long):Mj /* Error: Ran out of types for this method. */;
 - (id);
-- (id)reWithFullFidelity;
-- (void)fo;
+- (id)_shouldRestoreWithFullFidelity;
+- (void)_NSServiceRequestorInfo;
 - (double)ÿÿ;
 - (void)·x¨A;
 - (void);
@@ -30,8 +25,6 @@
 - (id)¼nqÿ²÷ØPK;
 
 // Remaining properties
-@property(nonatomic) unsigned long long _vibrantBlendingStyleForSubtree;
-@property(nonatomic, retain) NSView *contentView;
 @property(nonatomic) double spacing;
 
 @end

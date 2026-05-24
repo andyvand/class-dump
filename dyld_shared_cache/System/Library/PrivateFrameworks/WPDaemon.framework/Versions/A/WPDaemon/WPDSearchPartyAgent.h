@@ -4,39 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSObject, SPBeaconManager, WPDPendingCompletions;
-@protocol OS_dispatch_queue;
+@class NSData;
 
 @interface WPDSearchPartyAgent
 {
     _Bool _isTestMode;
-    _Bool _disableScans;
-    _Bool _spBeaconState;
-    unsigned char _spBeaconStatus;
-    _Bool _testBeaconState;
-    unsigned char _testBeaconStatus;
-    _Bool _continueAdvOnFail;
-    NSData *_beaconKey;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSData *_spBeaconReserved;
-    NSData *_testBeaconReserved;
-    SPBeaconManager *_beaconManager;
-    CDUnknownBlockType _beaconChange;
-    NSArray *_spBeaconKeys;
-    NSDate *_spBeaconKeysUpdated;
-    CDUnknownBlockType _beaconStateChangedBlock;
-    CDUnknownBlockType _beaconKeysChangedBlock;
-    CDUnknownBlockType _beaconStatusChangedBlock;
-    CDUnknownBlockType _nearbyTokensChangedBlock;
-    CDUnknownBlockType _tokensChange;
-    NSArray *_spNearbyTokens;
-    NSDate *_spNearbyTokensUpdated;
-    NSArray *_testNearbyTokens;
-    NSArray *_testBeaconKeys;
-    NSDate *_testNearbyTokensUpdated;
-    NSDate *_testBeaconKeysUpdated;
-    WPDPendingCompletions *_pendingKeyCompletions;
-    WPDPendingCompletions *_pendingTokenCompletions;
 }
 
 + (id);
@@ -85,16 +57,16 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)P;
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)sendJunkInboxOpenedEvent;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)vatar:%@ handle %@ pronouns %@ wallpaper:%@, avatarRecipe:%@> /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)!;
 - (unsigned char);
 - (id);
 - (void);
@@ -114,7 +86,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)SPBeaconSharingAppBundleIdentifier;
 - (void);
 - (id);
 - (id);
@@ -124,41 +96,7 @@
 ×  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType beaconChange; // @synthesize beaconChange=_beaconChange;
 @property(retain) NSData *beaconKey; // @synthesize beaconKey=_beaconKey;
-@property(readonly) NSArray *beaconKeys;
-@property(copy) CDUnknownBlockType beaconKeysChangedBlock; // @synthesize beaconKeysChangedBlock=_beaconKeysChangedBlock;
-@property(readonly) NSDate *beaconKeysUpdated;
-@property(retain) SPBeaconManager *beaconManager; // @synthesize beaconManager=_beaconManager;
-@property(readonly) NSData *beaconReserved;
-@property(readonly) _Bool beaconState;
-@property(copy) CDUnknownBlockType beaconStateChangedBlock; // @synthesize beaconStateChangedBlock=_beaconStateChangedBlock;
-@property(readonly) unsigned char beaconStatus;
-@property(copy) CDUnknownBlockType beaconStatusChangedBlock; // @synthesize beaconStatusChangedBlock=_beaconStatusChangedBlock;
-@property _Bool continueAdvOnFail; // @synthesize continueAdvOnFail=_continueAdvOnFail;
-@property _Bool disableScans; // @synthesize disableScans=_disableScans;
-@property _Bool isTestMode; // @synthesize isTestMode=_isTestMode;
-@property(readonly) NSArray *nearbyTokens;
-@property(copy) CDUnknownBlockType nearbyTokensChangedBlock; // @synthesize nearbyTokensChangedBlock=_nearbyTokensChangedBlock;
-@property(readonly) NSDate *nearbyTokensUpdated;
-@property(retain) WPDPendingCompletions *pendingKeyCompletions; // @synthesize pendingKeyCompletions=_pendingKeyCompletions;
-@property(retain) WPDPendingCompletions *pendingTokenCompletions; // @synthesize pendingTokenCompletions=_pendingTokenCompletions;
-@property(readonly) __weak NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSArray *spBeaconKeys; // @synthesize spBeaconKeys=_spBeaconKeys;
-@property(retain) NSDate *spBeaconKeysUpdated; // @synthesize spBeaconKeysUpdated=_spBeaconKeysUpdated;
-@property(readonly) NSData *spBeaconReserved; // @synthesize spBeaconReserved=_spBeaconReserved;
-@property _Bool spBeaconState; // @synthesize spBeaconState=_spBeaconState;
-@property unsigned char spBeaconStatus; // @synthesize spBeaconStatus=_spBeaconStatus;
-@property(retain) NSArray *spNearbyTokens; // @synthesize spNearbyTokens=_spNearbyTokens;
-@property(retain) NSDate *spNearbyTokensUpdated; // @synthesize spNearbyTokensUpdated=_spNearbyTokensUpdated;
-@property(retain) NSArray *testBeaconKeys; // @synthesize testBeaconKeys=_testBeaconKeys;
-@property(retain) NSDate *testBeaconKeysUpdated; // @synthesize testBeaconKeysUpdated=_testBeaconKeysUpdated;
-@property(retain) NSData *testBeaconReserved; // @synthesize testBeaconReserved=_testBeaconReserved;
-@property _Bool testBeaconState; // @synthesize testBeaconState=_testBeaconState;
-@property unsigned char testBeaconStatus; // @synthesize testBeaconStatus=_testBeaconStatus;
-@property(retain) NSArray *testNearbyTokens; // @synthesize testNearbyTokens=_testNearbyTokens;
-@property(retain) NSDate *testNearbyTokensUpdated; // @synthesize testNearbyTokensUpdated=_testNearbyTokensUpdated;
-@property(copy) CDUnknownBlockType tokensChange; // @synthesize tokensChange=_tokensChange;
 
 @end
 

@@ -6,24 +6,16 @@
 
 #import <WPDaemon/WPDClient.h>
 
-@class NSNumber, WPDObjectDiscoveryData, WPDObjectDiscoveryManager, WPDSearchPartyAgent;
-
 @interface WPDObjectDiscoveryClient : WPDClient
 {
     _Bool _pendingSent;
-    WPDObjectDiscoveryManager *_objectDiscoveryManager;
-    WPDObjectDiscoveryData *_keyAddressAndPayload;
-    unsigned long long _keyRequestID;
-    unsigned long long _tokenRequestID;
-    WPDSearchPartyAgent *_spAgent;
-    NSNumber *_testBeaconingInterval;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)b;
 - (void);
 - (void);
 - (_Bool);
@@ -32,9 +24,9 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)a;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -43,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)otherUnformattedID;
 - (void);
 - (void);
 - (id);
@@ -52,13 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) WPDObjectDiscoveryData *keyAddressAndPayload; // @synthesize keyAddressAndPayload=_keyAddressAndPayload;
-@property unsigned long long keyRequestID; // @synthesize keyRequestID=_keyRequestID;
-@property __weak WPDObjectDiscoveryManager *objectDiscoveryManager; // @synthesize objectDiscoveryManager=_objectDiscoveryManager;
 @property _Bool pendingSent; // @synthesize pendingSent=_pendingSent;
-@property(retain) WPDSearchPartyAgent *spAgent; // @synthesize spAgent=_spAgent;
-@property(retain) NSNumber *testBeaconingInterval; // @synthesize testBeaconingInterval=_testBeaconingInterval;
-@property unsigned long long tokenRequestID; // @synthesize tokenRequestID=_tokenRequestID;
 
 @end
 

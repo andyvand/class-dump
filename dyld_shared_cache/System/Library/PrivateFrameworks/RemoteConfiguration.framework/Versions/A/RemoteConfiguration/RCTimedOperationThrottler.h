@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RCOperationThrottler;
-@protocol RCOperationThrottlerDelegate;
+@class RCOperationThrottler;
 
 @interface RCTimedOperationThrottler
 {
     double _cooldownTime;
-    RCOperationThrottler *_operationThrottler;
-    id <RCOperationThrottlerDelegate> _delegate;
 }
 
 - (void);
@@ -22,25 +19,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)@;
+- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 
 // Remaining properties
-@property double cooldownTime; // @synthesize cooldownTime=_cooldownTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RCOperationThrottlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) RCOperationThrottler *operationThrottler; // @synthesize operationThrottler=_operationThrottler;
-@property(readonly) Class superclass;
-@property _Bool suspended;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCCSecretAgentController, NSString;
+@class MCCSecretAgentController;
 
 @interface MUIPassKitAvatarProvider
 {
@@ -12,21 +12,14 @@
 }
 
 + (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)electedScopeIndex;
+- (void)selectedScopeIndex;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MCCSecretAgentController *mccController; // @synthesize mccController=_mccController;
-@property(readonly) Class superclass;
 
 @end
 

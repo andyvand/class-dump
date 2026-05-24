@@ -7,12 +7,11 @@
 @interface TeaUI.SwappableView
 {
     id defaultView;
-    id currentView;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)A;
+- (void)nesFetchOperation.m;
+- (id)userInterestVector;
 - (void)HÂúÿÌÂúÿØÂúÿäÂúÿðÂúÿüÂúÿøÅúÿÆúÿLÆúÿpÆúÿÆúÿÐÆúÿôÆúÿLÇúÿØÇúÿüÇúÿ8ÈúÿlÈúÿÈúÿ4ÊúÿpÊúÿÊúÿ¸Êúÿ´ÌúÿÍúÿ4ÍúÿÏúÿ¨ÏúÿäÏúÿÐúÿTÐúÿlÐúÿÐúÿÌÐúÿ;
 
 @end

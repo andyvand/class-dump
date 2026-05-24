@@ -7,18 +7,13 @@
 @interface AWDIDSUniqueIncomingStreamIDs
 {
     long long _incomingCount;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int incomingCount:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id));
 - (void);
 - (void);
 - (unsigned long long);
@@ -30,13 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIncomingCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) long long incomingCount; // @synthesize incomingCount=_incomingCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

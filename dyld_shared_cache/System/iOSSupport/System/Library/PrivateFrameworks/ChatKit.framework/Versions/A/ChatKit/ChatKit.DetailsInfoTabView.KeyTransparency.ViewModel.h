@@ -7,13 +7,6 @@
 @interface ChatKit.DetailsInfoTabView.KeyTransparency.ViewModel
 {
     id conversation;
-    id coordinator;
-    id _ktChatState;
-    id _ktHandlesForKTChatStatus;
-    id _isPresentingClearAlertController;
-    id _presentContactVerificationController;
-    id _ktEnhancedProtectionStatusCellState;
-    id _$observationRegistrar;
 }
 
 - (void);

@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AppleMediaServices.AMSPaymentExpandableInfoDetails
 {
     void title;
-    void detail;
-    void url;
-    void type;
-    void keys;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)@>;
 - (id);
 - (id){public}@Did not find any cached cookies for account with identifier:%{public}@. /* Error: Ran out of types for this method. */;
 - (void)LsòLsCòLsªòLsòLsDòLsFòLsóòLsËòLs[òLsSòLs]òLs òLsÙòLsdòLsòLsòLs"òLsëòLsaòLsãòLsÛòLsÍòLsÈòLsùòLsÔòLsòLs:òLsEòLs4òLsRòLs¿òLsôòIIÁâ!.­òùaþ¢n-$QY²ñ7þ«;|Õc_|'×qX]ÅÏË)ò/CDGy%M²´®É>å	!²PcÜ/5¹u.I±	_î­ÊAÉoÑ[0óÿ<4º*Ç=ÃÓè¹ËÖX²2¦!e]uÒM.YÔùãß!¨åä@YÔîwf£{E¹>ã7UÄZ+2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *detail;
-@property(nonatomic, readonly) NSArray *keys;
 @property(nonatomic, readonly) NSString *title;
-@property(nonatomic, readonly) NSString *type;
-@property(nonatomic, readonly) NSString *url;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol PLFaceRebuildDescription
+- (id);
+- (id)_Qo_Qo_G;
+- (id),;
 @end
 

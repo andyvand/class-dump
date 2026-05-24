@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSString;
+@class IFColor;
 
 __attribute__((visibility("hidden")))
 @interface ISFolderRecipe
 {
     _Bool _disableShadow;
-    IFColor *_tintColor;
 }
 
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)fileForSourceRead:resourceType:withReply: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -26,14 +25,6 @@ __attribute__((visibility("hidden")))
 ¡?<¡?¡?²¡?ä¡?'¢?Y¢?¢?Ï¢?£?D£?w£?©£?ì£?¤?Q¤?¤?Æ¤?ø¤?+¥?n¥? ¥?Ó¥?¦?H¦?z¦?­¦?ß¦?§?T§?§?¹§?ë§?¨?P¨?¨?Æ¨?ø¨?*©?]©?©?Á©?ô©?7ª?iª?ª?Îª?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool disableShadow; // @synthesize disableShadow=_disableShadow;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) IFColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end

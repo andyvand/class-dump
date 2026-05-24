@@ -6,25 +6,11 @@
 
 #import <InternetAccounts/IAPlugin.h>
 
-@class IAAccount, IAAppCheckboxMatrixController, IAAppTableController, IASheetMorpher, NSArray, NSButton, NSDictionary, NSImageView, NSPrefCrossFadeWindow, NSTextField, NSView;
+@class IAAppTableController;
 
 @interface IAAListPlugin : IAPlugin
 {
     IAAppTableController *_appTableController;
-    IAAppCheckboxMatrixController *_appCheckboxMatrixController;
-    IAAccount *_provisionalAccount;
-    IASheetMorpher *_sheetMorpher;
-    NSPrefCrossFadeWindow *_hostSheet;
-    NSDictionary *_cachedDomains;
-    NSArray *_topLevelObjects;
-    NSArray *_appSelectionPanelNibObjects;
-    unsigned long long _style;
-    NSView *_validationView;
-    NSView *_appSelectionView;
-    NSView *_appTableContainer;
-    NSTextField *_appSelectionAccountName;
-    NSButton *_appSelectionOKButton;
-    NSImageView *_appSelectionImage;
 }
 
 - (void);
@@ -32,26 +18,26 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)7;
 - (id);
 - (id);
 - (id);
@@ -61,17 +47,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?	;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long)A;
+- (void);
 - (id);
 - (void);
 - (id);

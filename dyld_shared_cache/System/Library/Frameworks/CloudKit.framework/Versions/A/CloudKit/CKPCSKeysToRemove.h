@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CKPCSKeysToRemove
 {
     NSString *_etag;
-    NSArray *_keys;
 }
 
 + (_Bool);
@@ -19,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Reflection"@"NSError">32;
 - (_Bool);
 - (void);
 - (void);
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) NSArray *keys; // @synthesize keys=_keys;
 
 @end
 

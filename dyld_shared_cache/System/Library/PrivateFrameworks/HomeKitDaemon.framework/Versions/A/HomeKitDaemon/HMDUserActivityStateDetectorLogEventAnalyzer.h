@@ -6,39 +6,31 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDEventCounterGroup, NSMutableArray, NSString;
 @protocol HMDLogEventAnalyzerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserActivityStateDetectorLogEventAnalyzer : HMDLogEventAnalyzer
 {
     id <HMDLogEventAnalyzerDataSource> _dataSource;
-    HMDEventCounterGroup *_type6DetectorTransitionCounterGroup;
-    NSMutableArray *_durationsBetweenInitialETAAndActualArrivalTime;
-    NSMutableArray *_durationsBetweenStartingComingHomeAndActualArrivalTime;
-    NSMutableArray *_durationsBetweenStartingComingHomeAndCancellingComingHome;
-    NSMutableArray *_durationsBetweenCancellingComingHomeAndEstimatedArrivalTime;
-    NSMutableArray *_durationsBetweenStartingComingHomeAndPausingComingHome;
-    NSMutableArray *_durationsBetweenPausingComingHomeAndEstimatedArrivalTime;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)ImmutableObject;
+- (id)24@?0@"MSPSharedTripService"8@"NSError"16;
+- (id)redTripSharingIdentity"8@"NSArray"16@"NSDictionary"24@"NSArray"32Q40;
+- (id)ple.Maps.SharedTrip.Service.Isolation;
+- (id)chunkDataKey;
+- (id)chunkNumberKey;
+- (id)WAYPOINT_PERSON_LOCATION;
 - (void);
 - (id);
 - (void);
@@ -49,20 +41,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id <HMDLogEventAnalyzerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *durationsBetweenCancellingComingHomeAndEstimatedArrivalTime; // @synthesize durationsBetweenCancellingComingHomeAndEstimatedArrivalTime=_durationsBetweenCancellingComingHomeAndEstimatedArrivalTime;
-@property(retain, nonatomic) NSMutableArray *durationsBetweenInitialETAAndActualArrivalTime; // @synthesize durationsBetweenInitialETAAndActualArrivalTime=_durationsBetweenInitialETAAndActualArrivalTime;
-@property(retain, nonatomic) NSMutableArray *durationsBetweenPausingComingHomeAndEstimatedArrivalTime; // @synthesize durationsBetweenPausingComingHomeAndEstimatedArrivalTime=_durationsBetweenPausingComingHomeAndEstimatedArrivalTime;
-@property(retain, nonatomic) NSMutableArray *durationsBetweenStartingComingHomeAndActualArrivalTime; // @synthesize durationsBetweenStartingComingHomeAndActualArrivalTime=_durationsBetweenStartingComingHomeAndActualArrivalTime;
-@property(retain, nonatomic) NSMutableArray *durationsBetweenStartingComingHomeAndCancellingComingHome; // @synthesize durationsBetweenStartingComingHomeAndCancellingComingHome=_durationsBetweenStartingComingHomeAndCancellingComingHome;
-@property(retain, nonatomic) NSMutableArray *durationsBetweenStartingComingHomeAndPausingComingHome; // @synthesize durationsBetweenStartingComingHomeAndPausingComingHome=_durationsBetweenStartingComingHomeAndPausingComingHome;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) HMDEventCounterGroup *type6DetectorTransitionCounterGroup; // @synthesize type6DetectorTransitionCounterGroup=_type6DetectorTransitionCounterGroup;
 
 @end
 

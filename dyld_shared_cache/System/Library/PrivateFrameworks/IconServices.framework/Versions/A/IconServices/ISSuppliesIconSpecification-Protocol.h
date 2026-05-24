@@ -7,6 +7,7 @@
 @class IFIconSpecification;
 
 @protocol ISSuppliesIconSpecification
+- (IFIconSpecification *);
 
 // Remaining properties
 @property(readonly) IFIconSpecification *iconSpecification;

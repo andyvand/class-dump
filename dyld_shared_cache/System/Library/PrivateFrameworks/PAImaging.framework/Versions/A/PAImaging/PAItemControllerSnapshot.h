@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHContentEditingInput, PICompositionController;
+@class PICompositionController;
 
 @interface PAItemControllerSnapshot
 {
     unsigned short _internalVideoComplementVisibility;
-    PICompositionController *_compositionController;
-    PHContentEditingInput *_contentEditingInput;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(retain) PICompositionController *compositionController; // @synthesize compositionController=_compositionController;
-@property(retain) PHContentEditingInput *contentEditingInput; // @synthesize contentEditingInput=_contentEditingInput;
-@property unsigned short internalVideoComplementVisibility; // @synthesize internalVideoComplementVisibility=_internalVideoComplementVisibility;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class NSString, UISwitch;
+@class UISwitch;
 
 @interface CKDetailsSharedWithYouCell : CKDetailsCell
 {
@@ -18,21 +18,16 @@
 + (id);
 + (double)mework/CloudKit;
 - (void);
-- (id);
+- (id)passcode or password—not even Apple.
+
+Do you still want to know more about how your information is secured? ;
 - (void);
 - (void);
-- (id)ioPlayerEndInterruption:(long long)arg1;
+- (id)audioPlayerEndInterruption:(long long)arg1;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UISwitch *controlSwitch; // @synthesize controlSwitch=_controlSwitch;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

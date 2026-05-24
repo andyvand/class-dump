@@ -7,13 +7,6 @@
 @interface PhotosGraph.PGSharedLibrarySimulationResult
 {
     id parameterName;
-    id inferredSharedLibraryMode;
-    id suggestsSharing;
-    id autosharingIsActive;
-    id actualSuggestsSharing;
-    id isCorrect;
-    id reflectsActualAutosharingSuggestsSharing;
-    id reflectsPhotosChallengeResult;
 }
 
 @end

@@ -7,11 +7,6 @@
 @interface IMSharedUtilities.Lane
 {
     id $defaultActor;
-    id delegate;
-    id queue;
-    id scheduled;
-    id closed;
-    id key;
 }
 
 @end

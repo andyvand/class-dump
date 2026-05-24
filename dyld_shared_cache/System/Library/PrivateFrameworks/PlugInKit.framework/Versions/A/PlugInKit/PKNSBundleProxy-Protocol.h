@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @protocol PKNSBundleProxy
+- (Class)Tintable:ucharForeground:ucharForegroundOpacity:ucharDark:feedback: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSURL *builtInPlugInsURL;
-@property(readonly, copy) NSString *bundleIdentifier;
 @property(readonly, copy) NSURL *bundleURL;
-@property(readonly, copy) NSDictionary *infoDictionary;
-@property(readonly, copy) NSDictionary *localizedInfoDictionary;
-@property(readonly) Class principalClass;
 @end
 

@@ -8,7 +8,7 @@
 
 @protocol UIKBResizingKeyplaneCoordinatorCoordinatorDelegate
 - (_Bool)ance abstract class _UIPopoverShapePathProvider.;
-- (UIView *)ScrollingEnabled;
+- (UIView *)FocusFastScrollingEnabled;
 - (_Bool)ut a reuseIdentifier. Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:forIndexPath:item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 - (void);
 @end

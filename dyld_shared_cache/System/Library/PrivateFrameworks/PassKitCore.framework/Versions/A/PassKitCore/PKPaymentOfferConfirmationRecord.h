@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKPaymentTransaction;
-
 @interface PKPaymentOfferConfirmationRecord
 {
     unsigned long long _type;
-    NSString *_passUniqueID;
-    NSString *_criteriaIdentifier;
-    unsigned long long _context;
-    PKPaymentTransaction *_transaction;
-    unsigned long long _processedEvents;
-    NSDate *_lastAttempt;
-    long long _backoffLevel;
-    NSDate *_nextAttempt;
-    NSDate *_fullyProcessedDate;
 }
 
 + (_Bool)0@ù
@@ -34,41 +23,32 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)g;
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)?;
+- (id)*;
 - (unsigned long long);
 - (void);
+- (unsigned long long)signAndConcealData:cypherIdentifier:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)setJitterBufferResidencyTimeHistograms:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void)nt-setup-fields;
 
 // Remaining properties
-@property(nonatomic) long long backoffLevel; // @synthesize backoffLevel=_backoffLevel;
-@property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(copy, nonatomic) NSString *criteriaIdentifier; // @synthesize criteriaIdentifier=_criteriaIdentifier;
-@property(copy, nonatomic) NSDate *fullyProcessedDate; // @synthesize fullyProcessedDate=_fullyProcessedDate;
-@property(copy, nonatomic) NSDate *lastAttempt; // @synthesize lastAttempt=_lastAttempt;
-@property(copy, nonatomic) NSDate *nextAttempt; // @synthesize nextAttempt=_nextAttempt;
-@property(copy, nonatomic) NSString *passUniqueID; // @synthesize passUniqueID=_passUniqueID;
-@property(nonatomic) unsigned long long processedEvents; // @synthesize processedEvents=_processedEvents;
-@property(retain, nonatomic) PKPaymentTransaction *transaction; // @synthesize transaction=_transaction;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

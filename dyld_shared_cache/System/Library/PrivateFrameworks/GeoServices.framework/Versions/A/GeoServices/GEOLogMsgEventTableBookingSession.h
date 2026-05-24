@@ -4,57 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLogMsgEventTableBookingSession
 {
     PBDataReader *_reader;
-    long long _blurredBookingTimestamp;
-    long long _blurredReservationTimestamp;
-    NSString *_bookTableAppId;
-    NSString *_bookTableSessionId;
-    double _durationOfSessionInSeconds;
-    NSMutableArray *_errorMessages;
-    NSString *_installNeededTappedAppId;
-    unsigned long long _muid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _endState;
-    int _endView;
-    unsigned int _tableSize;
-    _Bool _addedSpecialRequest;
-    _Bool _installCompleted;
-    _Bool _installNeeded;
-    _Bool _swipedAvailableTimes;
-    _Bool _tappedDatePicker;
-    struct {
-        unsigned int has_blurredBookingTimestamp:1;
-        unsigned int has_blurredReservationTimestamp:1;
-        unsigned int has_durationOfSessionInSeconds:1;
-        unsigned int has_muid:1;
-        unsigned int has_endState:1;
-        unsigned int has_endView:1;
-        unsigned int has_tableSize:1;
-        unsigned int has_addedSpecialRequest:1;
-        unsigned int has_installCompleted:1;
-        unsigned int has_installNeeded:1;
-        unsigned int has_swipedAvailableTimes:1;
-        unsigned int has_tappedDatePicker:1;
-        unsigned int read_bookTableAppId:1;
-        unsigned int read_bookTableSessionId:1;
-        unsigned int read_errorMessages:1;
-        unsigned int read_installNeededTappedAppId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)StepId:(id)arg1;
++ (_Bool)setHasStepId:(id)arg1;
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,9 +42,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)__swift5_assocty__TEXT;
+- (_Bool)__swift5_fieldmd__TEXT;
+- (_Bool)__gcc_except_tab__TEXT;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -96,17 +58,17 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (int);
-- (double);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (_Bool);
-- (void);
+- (id)<CNObserver>"32;
+- (id)Formatter";
+- (int)24@?32@?40;
+- (double)ct<OS_os_log>";
+- (void)openURL:configuration:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)initWithObservable:nextObservable: /* Error: Ran out of types for this method. */;
+- (id)initWithObservable: /* Error: Ran out of types for this method. */;
+- (long long)initWithName:tasks: /* Error: Ran out of types for this method. */;
+- (long long)initWithName:implementation:typeEncoding: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultClass;
+- (void)CNPostalAddressFormats;
 - (int);
 - (int);
 - (void);
@@ -118,55 +80,25 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ot set, skipping SELF Logging;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)respondToCommand:(id)arg1 status:deviceAddress:error: /* Error: Ran out of types for this method. */;
+- (void) `@;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)hoursGrayColor;
 - (_Bool);
 - (id);
 - (void);
-- (id)lsFromPlacecard:(struct _NSZone *)arg1;
+- (id)setViewedDetailsFromPlacecard:(struct _NSZone *)arg1;
 - (id)nsitScheduleModeFilter",&,N;
 - (id)subclass %@.;
 - (id);
 - (void)°E6ü¼3;
 
 // Remaining properties
-@property(nonatomic) _Bool addedSpecialRequest;
-@property(nonatomic) long long blurredBookingTimestamp;
-@property(nonatomic) long long blurredReservationTimestamp;
-@property(retain, nonatomic) NSString *bookTableAppId;
-@property(retain, nonatomic) NSString *bookTableSessionId;
-@property(nonatomic) double durationOfSessionInSeconds;
-@property(nonatomic) int endState;
-@property(nonatomic) int endView;
-@property(retain, nonatomic) NSMutableArray *errorMessages;
-@property(nonatomic) _Bool hasAddedSpecialRequest;
-@property(nonatomic) _Bool hasBlurredBookingTimestamp;
-@property(nonatomic) _Bool hasBlurredReservationTimestamp;
-@property(readonly, nonatomic) _Bool hasBookTableAppId;
 @property(readonly, nonatomic) _Bool hasBookTableSessionId;
-@property(nonatomic) _Bool hasDurationOfSessionInSeconds;
-@property(nonatomic) _Bool hasEndState;
-@property(nonatomic) _Bool hasEndView;
-@property(nonatomic) _Bool hasInstallCompleted;
-@property(nonatomic) _Bool hasInstallNeeded;
-@property(readonly, nonatomic) _Bool hasInstallNeededTappedAppId;
-@property(nonatomic) _Bool hasMuid;
-@property(nonatomic) _Bool hasSwipedAvailableTimes;
-@property(nonatomic) _Bool hasTableSize;
-@property(nonatomic) _Bool hasTappedDatePicker;
-@property(nonatomic) _Bool installCompleted;
-@property(nonatomic) _Bool installNeeded;
-@property(retain, nonatomic) NSString *installNeededTappedAppId;
-@property(nonatomic) unsigned long long muid;
-@property(nonatomic) _Bool swipedAvailableTimes;
-@property(nonatomic) unsigned int tableSize;
-@property(nonatomic) _Bool tappedDatePicker;
 
 @end
 

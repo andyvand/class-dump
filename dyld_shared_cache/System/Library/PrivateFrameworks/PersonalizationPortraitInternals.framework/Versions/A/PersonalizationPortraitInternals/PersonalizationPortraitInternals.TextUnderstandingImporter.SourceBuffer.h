@@ -7,7 +7,6 @@
 @interface PersonalizationPortraitInternals.TextUnderstandingImporter.SourceBuffer
 {
     id $defaultActor;
-    id sources;
 }
 
 @end

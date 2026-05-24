@@ -7,29 +7,21 @@
 @interface ASDSupportedDialogHandlers
 {
     _Bool _handlesAlerts;
-    _Bool _handlesAuthentication;
-    _Bool _handlesDialogs;
-    _Bool _handlesEngagement;
-    _Bool _handlesViews;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)6;
 - (void);
 
 // Remaining properties
 @property(readonly) _Bool handlesAlerts; // @synthesize handlesAlerts=_handlesAlerts;
-@property(readonly) _Bool handlesAuthentication; // @synthesize handlesAuthentication=_handlesAuthentication;
-@property(readonly) _Bool handlesDialogs; // @synthesize handlesDialogs=_handlesDialogs;
-@property(readonly) _Bool handlesEngagement; // @synthesize handlesEngagement=_handlesEngagement;
-@property(readonly) _Bool handlesViews; // @synthesize handlesViews=_handlesViews;
 
 @end
 

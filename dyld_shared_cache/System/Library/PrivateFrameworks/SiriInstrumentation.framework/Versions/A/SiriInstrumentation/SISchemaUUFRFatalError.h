@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaSiriResponseContext;
+@class NSString;
 
 @interface SISchemaUUFRFatalError : SISchemaInstrumentationMessage
 {
     NSString *_errorDomain;
-    int _errorCode;
-    SISchemaSiriResponseContext *_siriResponseContext;
-    CDStruct_70a7dc3e _has;
-    _Bool _hasErrorDomain;
-    _Bool _hasSiriResponseContext;
 }
 
 - (id);
@@ -27,32 +22,27 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_chsCreateVectorOfIntentReferenceBufWithOffsets:(id)arg1;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)j}
+;
+- (unsigned long long)handleViewPresentationRequest:resultHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
+- (id)nous proxy to persistence agent:%s /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id)ogSubscriptionHashChangedFromLastStatus;
-- (id)Resolution;
-- (void)EXT_RETRIEVAL;
-- (void)INTERNALERROR_NSERROR;
+- (id)y;
+- (id)deleteHasModelCatalogSubscriptionHashChangedFromLastStatus;
+- (id)_hasDisambiguationResolution;
+- (void)CDMSERVICENAME_CONTEXT_RETRIEVAL;
+- (void)GMSERRORDOMAIN_INFERENCEERROR_INTERNALERROR_NSERROR;
 - (int)é!;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
 @property(copy, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain; // @synthesize hasErrorDomain=_hasErrorDomain;
-@property(nonatomic) _Bool hasSiriResponseContext; // @synthesize hasSiriResponseContext=_hasSiriResponseContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaSiriResponseContext *siriResponseContext; // @synthesize siriResponseContext=_siriResponseContext;
 
 @end
 

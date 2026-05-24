@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSTraceLogEntry
 {
     NSString *_message;
-    NSString *_closingMarker;
-    unsigned long long _pauseCount;
-    _Bool _enabled;
 }
 
 - (void)delegate adjustment;

@@ -4,32 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VCPersistentDataStore
 {
     NSObject<OS_dispatch_queue> *_dataStoreQueue;
-    struct tagVCPersistentDataStoreMessage _buffer[50];
-    int _currentBufferIndex;
-    struct sqlite3 *_database;
-    struct sqlite3_stmt *_statementArray[7];
-    char *_insertStatements[7];
-    NSString *_directory;
-    NSString *_databasePath;
-    struct tagVCDataCollectionMetadata _dataCollectionMetadata;
-    _Bool _invalid;
-    CDUnknownBlockType _remoteDataCollectionProducerCallback;
-    CDUnknownBlockType _localTrainingDataProducerCallback;
-    unsigned char _numberOfRegisteredProducers;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);

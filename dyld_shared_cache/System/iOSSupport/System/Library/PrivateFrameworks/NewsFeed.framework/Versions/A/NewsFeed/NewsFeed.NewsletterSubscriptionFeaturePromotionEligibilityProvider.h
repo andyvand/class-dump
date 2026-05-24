@@ -7,7 +7,6 @@
 @interface NewsFeed.NewsletterSubscriptionFeaturePromotionEligibilityProvider
 {
     id newsletterManager;
-    id newsletterSubscription;
 }
 
 @end

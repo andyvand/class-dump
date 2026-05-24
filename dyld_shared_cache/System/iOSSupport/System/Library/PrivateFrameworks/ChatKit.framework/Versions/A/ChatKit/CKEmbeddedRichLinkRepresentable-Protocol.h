@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol CKEmbeddedRichLinkRepresentable
+- (NSString *)_TtCE7NotesUICSo29ICCalculateDocumentController11Highlighter;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *entryItemUUID;
 @property(readonly, nonatomic) NSString *urlText;
 @end
 

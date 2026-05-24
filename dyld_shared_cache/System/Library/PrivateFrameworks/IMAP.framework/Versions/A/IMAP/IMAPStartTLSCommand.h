@@ -14,7 +14,7 @@
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 
 @end
 

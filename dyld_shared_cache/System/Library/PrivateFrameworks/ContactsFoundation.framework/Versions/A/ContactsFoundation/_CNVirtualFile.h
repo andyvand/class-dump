@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary;
+@class NSData;
 
 @interface _CNVirtualFile
 {
     NSData *_contents;
-    NSMutableDictionary *_extendedAttributes;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)3;
 
 // Remaining properties
 @property(copy) NSData *contents; // @synthesize contents=_contents;
-@property(readonly) NSMutableDictionary *extendedAttributes; // @synthesize extendedAttributes=_extendedAttributes;
 
 @end
 

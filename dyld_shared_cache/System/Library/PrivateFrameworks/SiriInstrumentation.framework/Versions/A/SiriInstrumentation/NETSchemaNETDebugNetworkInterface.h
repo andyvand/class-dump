@@ -6,48 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NETSchemaNETNetworkInterface, NSData;
-
 @interface NETSchemaNETDebugNetworkInterface : SISchemaInstrumentationMessage
 {
     unsigned int _rttCurrent;
-    unsigned int _rttSmoothed;
-    unsigned int _rttVariance;
-    unsigned int _rttBest;
-    unsigned long long _packetsSent;
-    unsigned long long _packetsReceived;
-    unsigned long long _bytesSent;
-    unsigned long long _bytesRetransmitted;
-    unsigned long long _bytesUnacked;
-    unsigned long long _bytesReceived;
-    unsigned long long _duplicateBytesReceived;
-    unsigned long long _outOfOrderBytesReceived;
-    unsigned long long _sendBufferBytes;
-    unsigned long long _sendBandwidth;
-    unsigned int _synRetransmits;
-    unsigned int _tfoSynDataAcked;
-    unsigned int _subflowSwitchCount;
-    NETSchemaNETNetworkInterface *_networkInterface;
-    struct {
-        unsigned int rttCurrent:1;
-        unsigned int rttSmoothed:1;
-        unsigned int rttVariance:1;
-        unsigned int rttBest:1;
-        unsigned int packetsSent:1;
-        unsigned int packetsReceived:1;
-        unsigned int bytesSent:1;
-        unsigned int bytesRetransmitted:1;
-        unsigned int bytesUnacked:1;
-        unsigned int bytesReceived:1;
-        unsigned int duplicateBytesReceived:1;
-        unsigned int outOfOrderBytesReceived:1;
-        unsigned int sendBufferBytes:1;
-        unsigned int sendBandwidth:1;
-        unsigned int synRetransmits:1;
-        unsigned int tfoSynDataAcked:1;
-        unsigned int subflowSwitchCount:1;
-    } _has;
-    _Bool _hasNetworkInterface;
 }
 
 - (unsigned int);
@@ -56,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -83,7 +44,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -97,6 +58,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -107,8 +69,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(G;
 - (void);
 - (unsigned long long);
 - (unsigned int);
@@ -116,7 +77,7 @@
 - (unsigned int);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)hp;
 - (void);
 - (void);
 - (void);
@@ -125,13 +86,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)h38(;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -142,7 +103,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)-cfb;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -154,43 +115,7 @@
 - (void)8;ÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bytesReceived; // @synthesize bytesReceived=_bytesReceived;
-@property(nonatomic) unsigned long long bytesRetransmitted; // @synthesize bytesRetransmitted=_bytesRetransmitted;
-@property(nonatomic) unsigned long long bytesSent; // @synthesize bytesSent=_bytesSent;
-@property(nonatomic) unsigned long long bytesUnacked; // @synthesize bytesUnacked=_bytesUnacked;
-@property(nonatomic) unsigned long long duplicateBytesReceived; // @synthesize duplicateBytesReceived=_duplicateBytesReceived;
-@property(nonatomic) _Bool hasBytesReceived;
-@property(nonatomic) _Bool hasBytesRetransmitted;
-@property(nonatomic) _Bool hasBytesSent;
-@property(nonatomic) _Bool hasBytesUnacked;
-@property(nonatomic) _Bool hasDuplicateBytesReceived;
-@property(nonatomic) _Bool hasNetworkInterface; // @synthesize hasNetworkInterface=_hasNetworkInterface;
-@property(nonatomic) _Bool hasOutOfOrderBytesReceived;
-@property(nonatomic) _Bool hasPacketsReceived;
-@property(nonatomic) _Bool hasPacketsSent;
-@property(nonatomic) _Bool hasRttBest;
-@property(nonatomic) _Bool hasRttCurrent;
-@property(nonatomic) _Bool hasRttSmoothed;
-@property(nonatomic) _Bool hasRttVariance;
-@property(nonatomic) _Bool hasSendBandwidth;
-@property(nonatomic) _Bool hasSendBufferBytes;
-@property(nonatomic) _Bool hasSubflowSwitchCount;
-@property(nonatomic) _Bool hasSynRetransmits;
-@property(nonatomic) _Bool hasTfoSynDataAcked;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NETSchemaNETNetworkInterface *networkInterface; // @synthesize networkInterface=_networkInterface;
-@property(nonatomic) unsigned long long outOfOrderBytesReceived; // @synthesize outOfOrderBytesReceived=_outOfOrderBytesReceived;
-@property(nonatomic) unsigned long long packetsReceived; // @synthesize packetsReceived=_packetsReceived;
-@property(nonatomic) unsigned long long packetsSent; // @synthesize packetsSent=_packetsSent;
-@property(nonatomic) unsigned int rttBest; // @synthesize rttBest=_rttBest;
 @property(nonatomic) unsigned int rttCurrent; // @synthesize rttCurrent=_rttCurrent;
-@property(nonatomic) unsigned int rttSmoothed; // @synthesize rttSmoothed=_rttSmoothed;
-@property(nonatomic) unsigned int rttVariance; // @synthesize rttVariance=_rttVariance;
-@property(nonatomic) unsigned long long sendBandwidth; // @synthesize sendBandwidth=_sendBandwidth;
-@property(nonatomic) unsigned long long sendBufferBytes; // @synthesize sendBufferBytes=_sendBufferBytes;
-@property(nonatomic) unsigned int subflowSwitchCount; // @synthesize subflowSwitchCount=_subflowSwitchCount;
-@property(nonatomic) unsigned int synRetransmits; // @synthesize synRetransmits=_synRetransmits;
-@property(nonatomic) unsigned int tfoSynDataAcked; // @synthesize tfoSynDataAcked=_tfoSynDataAcked;
 
 @end
 

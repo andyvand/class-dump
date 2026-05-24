@@ -6,47 +6,12 @@
 
 #import <AVKit/AVMobileControlsStyleSheet.h>
 
-@class NSString, UIFont, UITraitCollection;
+@class UIFont;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassControlsStyleSheet : AVMobileControlsStyleSheet
 {
     struct UIEdgeInsets _landscapeFullscreenInsets;
-    struct UIEdgeInsets _portraitFullscreenInsets;
-    struct UIEdgeInsets _embeddedInlineInsets;
-    double _standardPaddingFullScreen;
-    double _standardPaddingInline;
-    UIFont *_timeLabelFont;
-    UIFont *_titleFont;
-    UIFont *_subtitleFont;
-    UIFont *_infoAffordanceButtonFont;
-    UIFont *_contentTagFont;
-    UIFont *_prominentContentTagFont;
-    UIFont *_secondaryPlaybackControlsFont;
-    UIFont *_playPauseButtonFont;
-    UIFont *_contentTabLabelFont;
-    UIFont *_buttonFont;
-    UIFont *_inlineButtonFont;
-    double _controlsPlatterInlineExternalSpacing;
-    double _controlsPlatterFullscreenExternalSpacing;
-    double _controlsPlatterInlineHeight;
-    double _controlsPlatterFullscreenHeight;
-    double _controlsInlineInternalSpacing;
-    double _volumeControlsInlineInternalSpacing;
-    double _controlsFullscreenInternalSpacing;
-    double _volumeControlsFullscreenInternalSpacing;
-    struct CGSize _playbackControlButtonLargeSize;
-    struct CGSize _playbackControlButtonSmallSize;
-    struct CGSize _playbackControlButtonLargeInlineSize;
-    struct CGSize _playbackControlButtonSmallInlineSize;
-    struct UIEdgeInsets _controlsPlatterInlineEdgeInsets;
-    struct UIEdgeInsets _timelineControlsPlatterInlineEdgeInsets;
-    struct UIEdgeInsets _volumeControlsPlatterInlineEdgeInsets;
-    struct UIEdgeInsets _controlsPlatterFullscreenEdgeInsets;
-    struct UIEdgeInsets _timelineControlsFullscreenEdgeInsets;
-    struct UIEdgeInsets _timelineControlsPlatterFullscreenEdgeInsets;
-    struct UIEdgeInsets _volumeControlsPlatterFullscreenEdgeInsets;
-    struct UIEdgeInsets _additionalLandscapeTimelineInsets;
 }
 
 - (struct UIEdgeInsets);
@@ -58,17 +23,17 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (struct CGSize);
+- (struct CGSize)J;
 - (struct CGSize);
 - (struct CGSize);
-- (struct CGSize);
 - (id);
 - (double);
-- (double);
-- (double);
-- (struct UIEdgeInsets);
-- (double);
+- (double);
 - (double);
 - (struct UIEdgeInsets);
+- (double);
+- (double);
+- (struct UIEdgeInsets)P;
 - (struct UIEdgeInsets);
 - (double);
 - (struct UIEdgeInsets);
@@ -77,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct UIEdgeInsets);
-- (id);
+- (id)ngEffectEnabled:spatialPhotoEnabled: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (id);
@@ -87,53 +52,10 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (id);
 - (void);
-- (id)ackingStartTime;
+- (id)trackingStartTime;
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets additionalLandscapeTimelineInsets; // @synthesize additionalLandscapeTimelineInsets=_additionalLandscapeTimelineInsets;
-@property(readonly, nonatomic) UIFont *buttonFont;
-@property(readonly, nonatomic) UIFont *contentTabLabelFont;
-@property(readonly, nonatomic) UIFont *contentTagFont;
-@property(readonly, nonatomic) double controlsFullscreenInternalSpacing; // @synthesize controlsFullscreenInternalSpacing=_controlsFullscreenInternalSpacing;
-@property(readonly, nonatomic) double controlsInlineInternalSpacing; // @synthesize controlsInlineInternalSpacing=_controlsInlineInternalSpacing;
-@property(readonly, nonatomic) struct UIEdgeInsets controlsPlatterFullscreenEdgeInsets; // @synthesize controlsPlatterFullscreenEdgeInsets=_controlsPlatterFullscreenEdgeInsets;
-@property(readonly, nonatomic) double controlsPlatterFullscreenExternalSpacing; // @synthesize controlsPlatterFullscreenExternalSpacing=_controlsPlatterFullscreenExternalSpacing;
-@property(readonly, nonatomic) double controlsPlatterFullscreenHeight; // @synthesize controlsPlatterFullscreenHeight=_controlsPlatterFullscreenHeight;
-@property(readonly, nonatomic) struct UIEdgeInsets controlsPlatterInlineEdgeInsets; // @synthesize controlsPlatterInlineEdgeInsets=_controlsPlatterInlineEdgeInsets;
-@property(readonly, nonatomic) double controlsPlatterInlineExternalSpacing; // @synthesize controlsPlatterInlineExternalSpacing=_controlsPlatterInlineExternalSpacing;
-@property(readonly, nonatomic) double controlsPlatterInlineHeight; // @synthesize controlsPlatterInlineHeight=_controlsPlatterInlineHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct UIEdgeInsets embeddedInlineInsets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIFont *infoAffordanceButtonFont;
 @property(readonly, nonatomic) UIFont *inlineButtonFont;
-@property(readonly, nonatomic) struct UIEdgeInsets landscapeFullscreenInsets;
-@property(readonly, nonatomic) UIFont *playPauseButtonFont;
-@property(readonly, nonatomic) struct CGSize playbackControlButtonLargeInlineSize; // @synthesize playbackControlButtonLargeInlineSize=_playbackControlButtonLargeInlineSize;
-@property(readonly, nonatomic) struct CGSize playbackControlButtonLargeSize; // @synthesize playbackControlButtonLargeSize=_playbackControlButtonLargeSize;
-@property(readonly, nonatomic) struct CGSize playbackControlButtonSmallInlineSize; // @synthesize playbackControlButtonSmallInlineSize=_playbackControlButtonSmallInlineSize;
-@property(readonly, nonatomic) struct CGSize playbackControlButtonSmallSize; // @synthesize playbackControlButtonSmallSize=_playbackControlButtonSmallSize;
-@property(readonly, nonatomic) struct UIEdgeInsets portraitFullscreenInsets;
-@property(readonly, nonatomic) UIFont *prominentContentTagFont;
-@property(readonly, nonatomic) UIFont *secondaryPlaybackControlsFont;
-@property(readonly, nonatomic) double standardPaddingFullScreen;
-@property(readonly, nonatomic) double standardPaddingInline;
-@property(readonly, nonatomic) UIFont *subtitleFont;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIFont *timeLabelFont;
-@property(readonly, nonatomic) struct UIEdgeInsets timelineControlsFullscreenEdgeInsets; // @synthesize timelineControlsFullscreenEdgeInsets=_timelineControlsFullscreenEdgeInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets timelineControlsPlatterFullscreenEdgeInsets; // @synthesize timelineControlsPlatterFullscreenEdgeInsets=_timelineControlsPlatterFullscreenEdgeInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets timelineControlsPlatterInlineEdgeInsets; // @synthesize timelineControlsPlatterInlineEdgeInsets=_timelineControlsPlatterInlineEdgeInsets;
-@property(readonly, nonatomic) UIFont *titleFont;
-@property(retain, nonatomic) UITraitCollection *traitCollection;
-@property(readonly, nonatomic) double volumeControlsFullscreenInternalSpacing; // @synthesize volumeControlsFullscreenInternalSpacing=_volumeControlsFullscreenInternalSpacing;
-@property(readonly, nonatomic) double volumeControlsInlineInternalSpacing; // @synthesize volumeControlsInlineInternalSpacing=_volumeControlsInlineInternalSpacing;
-@property(readonly, nonatomic) struct UIEdgeInsets volumeControlsPlatterFullscreenEdgeInsets; // @synthesize volumeControlsPlatterFullscreenEdgeInsets=_volumeControlsPlatterFullscreenEdgeInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets volumeControlsPlatterInlineEdgeInsets; // @synthesize volumeControlsPlatterInlineEdgeInsets=_volumeControlsPlatterInlineEdgeInsets;
 
 @end
 

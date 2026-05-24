@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface GEOPOIEventCategory
 {
     NSString *_category;
-    NSArray *_localizedNames;
 }
 
-+ (id);
++ (id);
 + (_Bool)h.;
 - (id);
 - (_Bool);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)inputRecordingFramesPerPacket;
 - (_Bool);
 - (void);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSArray *localizedNames; // @synthesize localizedNames=_localizedNames;
 
 @end
 

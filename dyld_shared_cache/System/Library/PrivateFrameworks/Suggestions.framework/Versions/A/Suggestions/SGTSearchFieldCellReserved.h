@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTokenFieldCell, SGTSuggestion;
+@class NSTokenFieldCell;
 
 __attribute__((visibility("hidden")))
 @interface SGTSearchFieldCellReserved
 {
     NSTokenFieldCell *tokenFieldCell;
-    SGTSuggestion *suggestion;
-    _Bool useTokens;
-    _Bool _cancelInProgress;
 }
 
-- (void);
+- (void)addHDRImageToImageDestination:hdrImage:imageMetadata:imageOptions: /* Error: Ran out of types for this method. */;
 
 @end
 

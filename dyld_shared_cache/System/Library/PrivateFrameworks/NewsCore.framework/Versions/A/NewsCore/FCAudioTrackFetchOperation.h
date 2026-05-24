@@ -6,17 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCArticleAudioTrack;
 @protocol FCContentContext;
 
 @interface FCAudioTrackFetchOperation : FCOperation
 {
     _Bool _cachedOnly;
-    CDUnknownBlockType _interestTokenHandler;
-    CDUnknownBlockType _archiveHandler;
-    CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    FCArticleAudioTrack *_audioTrack;
 }
 
 - (id);
@@ -30,18 +24,13 @@
 - (CDUnknownBlockType)1Â0@ù
 × ;
 - (void)t initWithConfiguration:(_Bool)arg1 configurationManager:contentHostDirectory:privateDataHostDirectory:privateDataActionProvider:networkBehaviorMonitor:networkReachability:appActivityMonitor:desiredHeadlineFieldOptions:feedUsage:deviceIsiPad:backgroundTaskable:privateDataSyncAvailability:pptContext:options:] /* Error: Ran out of types for this method. */;
-- (void)ecirculationQuaternary;
+- (void)ArticleRecirculationQuaternary;
 - (void)with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)bscription state expired:(id)arg1 %{public}@;
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveHandler; // @synthesize archiveHandler=_archiveHandler;
-@property(readonly, nonatomic) FCArticleAudioTrack *audioTrack; // @synthesize audioTrack=_audioTrack;
-@property(nonatomic) _Bool cachedOnly; // @synthesize cachedOnly=_cachedOnly;
 @property(readonly, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType interestTokenHandler; // @synthesize interestTokenHandler=_interestTokenHandler;
 
 @end
 

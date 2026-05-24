@@ -4,73 +4,382 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDelegateToken, ICLightweightMusicSubscriptionStatus, ICMusicLibraryAuthTokenStatus, ICMusicSubscriptionStatus, ICMusicUserProfile, ICMusicUserStateCookies, NSString;
+@class NSString;
 
 @interface ICMusicUserState
 {
     _Bool _isDelegated;
-    _Bool _usesListeningHistory;
-    _Bool _frozen;
-    ICDelegateToken *_delegateToken;
-    NSString *_carrierBundleDeviceID;
-    ICMusicLibraryAuthTokenStatus *_libraryAuthTokenStatus;
-    ICMusicSubscriptionStatus *_subscriptionStatus;
-    ICLightweightMusicSubscriptionStatus *_lightweightSubscriptionStatus;
-    long long _cloudLibrarySyncStatus;
-    ICMusicUserStateCookies *_cookies;
-    ICMusicUserProfile *_userProfile;
 }
 
 + (long long);
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)xture to be deleted not found, bail out;
+- (void)<string>DRAW_QUAD</string>
+			<key>clientProgram</key>
+			<false/>
+		</dict>
+		<key>SceneKit_DOF_blurCoc_V</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>SceneKit_DOF_blurCoc_V_output</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>textureSampler0</key>
+				<string>SceneKit_DOF_blurCoc_H_output</string>
+				<key>radius</key>
+				<string>C3D-blur-radiusV</string>
+				<key>offsets</key>
+				<string>C3D-blur-offsets</string>
+				<key>weights</key>
+				<string>C3D-blur-weights</string>
+				<key>n_sample</key>
+				<string>C3D-blur-samples</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>clientProgram</key>
+			<false/>
+		</dict>
+		<key>SceneKit_blurColor4x_H</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>SceneKit_blurColor4x_H_output</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>radius</key>
+				<string>C3D-blur-radiusH</string>
+				<key>textureSampler0</key>
+				<string>SceneKit-color-downSample4x</string>
+				<key>offsets</key>
+				<string>C3D-blur-offsets</string>
+				<key>weights</key>
+				<string>C3D-blur-weights</string>
+				<key>n_sample</key>
+				<string>C3D-blur-samples</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>clientProgram</key>
+			<false/>
+		</dict>
+		<key>SceneKit_blurColor4x_V</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>SceneKit_blurColor4x_V_output</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>radius</key>
+				<string>C3D-blur-radiusV</string>
+				<key>textureSampler0</key>
+				<string>SceneKit_blurColor4x_H_output</string>
+				<key>offsets</key>
+				<string>C3D-blur-offsets</string>
+				<key>weights</key>
+				<string>C3D-blur-weights</string>
+				<key>n_sample</key>
+				<string>C3D-blur-samples</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>clientProgram</key>
+			<false/>
+		</dict>
+		<key>SceneKit_DOF_computeNearCoc</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>SceneKit_DOF_computeNearCoc-output</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>downSampler</key>
+				<dict>
+					<key>sampler</key>
+					<dict>
+						<key>minificationFilter</key>
+						<string>nearest</string>
+						<key>magnificationFilter</key>
+						<string>nearest</string>
+					</dict>
+					<key>target</key>
+					<string>SceneKit-color-nearCoc</string>
+				</dict>
+				<key>blurSampler</key>
+				<dict>
+					<key>sampler</key>
+					<dict>
+						<key>minificationFilter</key>
+						<string>nearest</string>
+						<key>magnificationFilter</key>
+						<string>nearest</string>
+					</dict>
+					<key>target</key>
+					<string>SceneKit_DOF_blurCoc_V_output</string>
+				</dict>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>program</key>
+			<string>C3D-dof-ComputeNearCoc</string>
+			<key>clientProgram</key>
+			<false/>
+			<key>metalVertexShader</key>
+			<string>ComputeNearCoc_vert</string>
+			<key>metalFragmentShader</key>
+			<string>ComputeNearCoc_frag</string>
+		</dict>
+		<key>SceneKit_DOF_smallBlur</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>SceneKit_DOF_smallBlur-ouput</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>colorSampler</key>
+				<dict>
+					<key>target</key>
+					<string>SceneKit_DOF_computeNearCoc-output</string>
+					<key>sampler</key>
+					<dict>
+						<key>minificationFilter</key>
+						<string>nearest</string>
+						<key>magnificationFilter</key>
+						<string>nearest</string>
+					</dict>
+				</dict>
+				<key>u_inversePixelSize</key>
+				<string>C3D-dof-invertPixelSize</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>program</key>
+			<string>C3D-dof-Blur5x5</string>
+			<key>clientProgram</key>
+			<false/>
+			<key>metalVertexShader</key>
+			<string>Blur5x5_vert</string>
+			<key>metalFragmentShader</key>
+			<string>Blur5x5_frag</string>
+		</dict>
+		<key>SceneKit_DOF_resolve</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>COLOR</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>colorSampler</key>
+				<string>COLOR</string>
+				<key>depthSampler</key>
+				<string>DEPTH</string>
+				<key>smallBlurSampler</key>
+				<string>SceneKit_DOF_smallBlur-ouput</string>
+				<key>largeBlurSampler</key>
+				<string>SceneKit_blurColor4x_V_output</string>
+				<key>CocScaleBias</key>
+				<string>C3D-dof-cocScaleBias</string>
+				<key>dofLerpScale</key>
+				<string>C3D-dof-lerpScale</string>
+				<key>dofLerpBias</key>
+				<string>C3D-dof-lerpBias</string>
+				<key>u_inversePixelSize</key>
+				<string>C3D-dof-invertPixelSize</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>program</key>
+			<string>C3D-dof-Resolve</string>
+			<key>clientProgram</key>
+			<false/>
+			<key>metalVertexShader</key>
+			<string>ResolveDOF_vert</string>
+			<key>metalFragmentShader</key>
+			<string>ResolveDOF_frag</string>
+		</dict>
+	</dict>
+	<key>targets</key>
+	<dict>
+		<key>SceneKit-color-downSample4x</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+			<key>format</key>
+			<string>rgba16f</string>
+		</dict>
+		<key>SceneKit-color-nearCoc</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+			<key>format</key>
+			<string>rgba16f</string>
+		</dict>
+		<key>SceneKit_DOF_blurCoc_H_output</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+			<key>format</key>
+			<string>rgba16f</string>
+		</dict>
+		<key>SceneKit_DOF_blurCoc_V_output</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+			<key>format</key>
+			<string>rgba16f</string>
+		</dict>
+		<key>SceneKit_blurColor4x_H_output</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+			<key>format</key>
+			<string>rgba16f</string>
+		</dict>
+		<key>SceneKit_blurColor4x_V_output</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+			<key>format</key>
+			<string>rgba16f</string>
+		</dict>
+		<key>SceneKit_DOF_computeNearCoc-output</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+			<key>format</key>
+			<string>rgba16f</string>
+		</dict>
+		<key>SceneKit_DOF_smallBlur-ouput</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>scaleFactor</key>
+			<real>0.25</real>
+			<key>format</key>
+			<string>rgba16f</string>
+		</dict>
+	</dict>
+	<key>symbols</key>
+	<dict>
+		<key>C3D-dof-cocScaleBias</key>
+		<dict>
+			<key>type</key>
+			<string>vec3</string>
+		</dict>
+		<key>C3D-dof-invertPixelSize</key>
+		<dict>
+			<key>type</key>
+			<string>vec2</string>
+		</dict>
+		<key>C3D-dof-lerpScale</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>C3D-dof-lerpBias</key>
+		<dict>
+			<key>type</key>
+			<string>vec4</string>
+		</dict>
+		<key>C3D-blur-radiusV</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>C3D-blur-radiusH</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+		<key>C3D-blur-offsets</key>
+		<dict>
+			<key>type</key>
+			<string>vec2[31]</string>
+		</dict>
+		<key>C3D-blur-weights</key>
+		<dict>
+			<key>type</key>
+			<string>float[31]</string>
+		</dict>
+		<key>C3D-blur-samples</key>
+		<dict>
+			<key>type</key>
+			<string>int</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
+- (id)e semantic "%s" found;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
+- (_Bool)vec2(TexCoord.x ,TexCoord.y- 2.0)) *  0.7788;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y- 1.0)) *  0.9394;		
+	
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 1.0)) * 0.9394;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 2.0)) * 0.7788;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 3.0)) * 0.5697;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 4.0)) * 0.3678;	
+		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 5.0)) * 0.20965;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 6.0)) * 0.1053;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 7.0)) * 0.0467;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 8.0)) * 0.0183;		
+
+	gl_FragColor =	accum / 7.0712;
+};
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)_removeAdornmentLayerForAnnotation:(CDUnknownBlockType)arg1;
 - (void);
 - (void)criptionStatus",C,N;
 - (void)ô;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *carrierBundleDeviceID; // @synthesize carrierBundleDeviceID=_carrierBundleDeviceID;
-@property(nonatomic) long long cloudLibrarySyncStatus; // @synthesize cloudLibrarySyncStatus=_cloudLibrarySyncStatus;
-@property(copy, nonatomic) ICMusicUserStateCookies *cookies; // @synthesize cookies=_cookies;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) ICDelegateToken *delegateToken; // @synthesize delegateToken=_delegateToken;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFrozen) _Bool frozen; // @synthesize frozen=_frozen;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDelegated; // @synthesize isDelegated=_isDelegated;
-@property(copy, nonatomic) ICMusicLibraryAuthTokenStatus *libraryAuthTokenStatus; // @synthesize libraryAuthTokenStatus=_libraryAuthTokenStatus;
-@property(copy, nonatomic) ICLightweightMusicSubscriptionStatus *lightweightSubscriptionStatus; // @synthesize lightweightSubscriptionStatus=_lightweightSubscriptionStatus;
-@property(copy, nonatomic) ICMusicSubscriptionStatus *subscriptionStatus; // @synthesize subscriptionStatus=_subscriptionStatus;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) ICMusicUserProfile *userProfile; // @synthesize userProfile=_userProfile;
-@property(nonatomic) _Bool usesListeningHistory; // @synthesize usesListeningHistory=_usesListeningHistory;
 
 @end
 

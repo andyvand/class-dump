@@ -7,16 +7,12 @@
 @interface NewsUI2.PaidBundleChangeNotificationModifier
 {
     id notificationController;
-    id configurationManager;
-    id tagService;
-    id bundleSubscriptionManager;
-    id purchaseProvider;
 }
 
 - (void);
 - (id);
 - (void);
-- (void)dEventHandlerTypeDelegate;
+- (void)AudioPlaylistFeedEventHandlerTypeDelegate;
 
 @end
 

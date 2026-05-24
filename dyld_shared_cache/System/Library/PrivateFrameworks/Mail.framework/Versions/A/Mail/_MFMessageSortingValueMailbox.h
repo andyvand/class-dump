@@ -14,9 +14,9 @@
 }
 
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)_canZoomOut;
+- (id)connectEnd;
 
 // Remaining properties
 @property(retain, nonatomic) MFMailbox *mailbox; // @synthesize mailbox=_mailbox;

@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFInterface, NSObject;
-@protocol OS_dispatch_queue, _MKWiFiObserverDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _MKWiFiObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CWFInterface *_interface;
-    _Bool _wifiEnabled;
-    int _failCount;
-    id <_MKWiFiObserverDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (id);
 - (void);
@@ -28,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (void):experimentDescription: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <_MKWiFiObserverDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic, getter=isWifiEnabled) _Bool wifiEnabled; // @synthesize wifiEnabled=_wifiEnabled;
 
 @end

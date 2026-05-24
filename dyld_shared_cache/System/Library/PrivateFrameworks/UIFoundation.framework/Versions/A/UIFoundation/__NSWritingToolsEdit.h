@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface __NSWritingToolsEdit
 {
     long long _delta;
-    NSUUID *_identifier;
-    struct _NSRange _range;
 }
 
 - (void);

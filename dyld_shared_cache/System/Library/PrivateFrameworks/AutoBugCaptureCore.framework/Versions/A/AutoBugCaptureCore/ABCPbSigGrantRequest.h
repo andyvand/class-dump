@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ABCPbSigGrantRequest
 {
     NSString *_buildPlatform;
-    NSString *_deviceModel;
-    NSMutableArray *_sigRequests;
-    unsigned int _ver;
-    CDStruct_aabecbda _has;
 }
 
 + (Class);
@@ -36,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)DistanceUpdater updateDisplayETAForRoute:(id)arg1 notificationType:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -45,20 +41,7 @@ __attribute__((visibility("hidden")))
 - (id),V_cacheDeleteHandler;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buildPlatform; // @synthesize buildPlatform=_buildPlatform;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(readonly, nonatomic) _Bool hasBuildPlatform;
-@property(readonly, nonatomic) _Bool hasDeviceModel;
-@property(nonatomic) _Bool hasVer;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *sigRequests; // @synthesize sigRequests=_sigRequests;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int ver; // @synthesize ver=_ver;
 
 @end
 

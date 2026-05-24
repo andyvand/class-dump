@@ -4,54 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILabel, UIView;
+@class NSString, UIView;
 
 @interface CKSearchIndexingFooterCell
 {
     NSString *_titleString;
-    NSString *_subtitleString;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (id);
 + (double);
 + (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
+- (void)setWantsUndoCommands:(id)arg1;
+- (_Bool)removeKVOObserversForAttachment: /* Error: Ran out of types for this method. */;
+- (void)ic_openICloudPreferencePaneWithActions:(_Bool)arg1;
+- (void)didAuthenticateBiometricsWithPrompt:(struct UIEdgeInsets)arg1 error:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)8;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ControllerInternalDelegate>",W,N,V_delegate;
 - (void)};
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, readonly) UIView *internalStateView;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(copy, nonatomic) NSString *subtitleString; // @synthesize subtitleString=_subtitleString;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(nonatomic) _Bool titleLabelHidden;
-@property(copy, nonatomic) NSString *titleString; // @synthesize titleString=_titleString;
 
 @end
 

@@ -15,7 +15,7 @@
 
 - (_Bool);
 - (id);
-- (void)enClasses;
+- (void)_registeredIdentifiableDataSourceAndTokenClasses;
 
 @end
 

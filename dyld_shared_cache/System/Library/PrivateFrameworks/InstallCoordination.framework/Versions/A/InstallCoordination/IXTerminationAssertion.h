@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol IXTerminationAssertionProtocol;
-
 @interface IXTerminationAssertion
 {
     CDUnknownBlockType _acquisitionBlock;
-    id <IXTerminationAssertionProtocol> _terminationAssertion;
 }
 
 - (id);
 - (void);
 - (void);
+- (id){;
 - (id);
-- (id);
-- (id);
+- (id):(id)arg1;
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)q24;
 - (void);
 - (_Bool);
 - (void);
@@ -33,14 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType acquisitionBlock; // @synthesize acquisitionBlock=_acquisitionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <IXTerminationAssertionProtocol> terminationAssertion; // @synthesize terminationAssertion=_terminationAssertion;
 
 @end
 

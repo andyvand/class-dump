@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVSampleBufferRequestInternal
 {
     AVSampleCursor *startCursor;
-    long long direction;
-    AVSampleCursor *limitCursor;
-    long long preferredMinSampleCount;
-    long long maxSampleCount;
-    long long mode;
-    CDStruct_1b6d18a9 overrideTime;
 }
 
 @end

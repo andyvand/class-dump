@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatInputController, NSString, UIView;
+@class CKChatInputController;
 
 @interface CKDefaultSceneOverlayPresentationContext
 {
     long long _presentationStyle;
-    UIView *_viewToPortal;
-    CKChatInputController *_inputController;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)createHashtagAttachmentIfApplicableWithHashtagText:forHashtag:note:parentAttachment: /* Error: Ran out of types for this method. */;
+- (id)collapsedObjectIDsInContext: /* Error: Ran out of types for this method. */;
+- (id)l;
+- (void)error occurred;
+- (void)eOperation;
 - (void);
 - (void);
 - (id);
@@ -30,18 +28,7 @@
 - (void)Hí[;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect anchorRect;
-@property(readonly, nonatomic) UIView *anchorView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak CKChatInputController *inputController; // @synthesize inputController=_inputController;
-@property(readonly, nonatomic) long long presentationStyle; // @synthesize presentationStyle=_presentationStyle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIView *viewToPortal; // @synthesize viewToPortal=_viewToPortal;
 
 @end
 

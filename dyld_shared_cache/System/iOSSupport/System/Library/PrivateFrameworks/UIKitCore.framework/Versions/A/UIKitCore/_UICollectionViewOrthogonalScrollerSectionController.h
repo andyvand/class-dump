@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableArray, NSMutableDictionary, UICollectionView;
+@class UICollectionView;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewOrthogonalScrollerSectionController
 {
     _Bool _shouldPreventFocusScrollPastContentSize;
-    UICollectionView *_collectionView;
-    NSMutableDictionary *_sectionToScrollViewMap;
-    NSMutableArray *_scrollViewsQueuedForRemoval;
-    NSHashTable *_frontMostElements;
-    NSHashTable *_elementsBelowOrthogonalScrollView;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)adComappleEnergySaverportableBatteryPower;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)container instances to be allocated;
+- (void)initUsingLocalDeviceLibraryDestinationWithImportElements:(id)arg1 referralObject:usingLocalLibraryDestination:usingCloudLibraryDestination: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -39,11 +34,11 @@ __attribute__((visibility("hidden")))
 - (id)
 × ;
 - (void)w";
-- (_Bool);
-- (id)ew;
-- (void)cts:(id)arg1;
-- (id)completion: /* Error: Ran out of types for this method. */;
-- (id)ToSceneReferenceSpace:fromView: /* Error: Ran out of types for this method. */;
+- (_Bool)preferredCurrentPageIndicatorImage;
+- (id)m_dimmingView;
+- (void)descriptionForObject:(id)arg1 namesAndObjects:(unsigned long long)arg2;
+- (id)_requestAnimationInfoForDocumentAtURL:completion: /* Error: Ran out of types for this method. */;
+- (id)_convertPointToSceneReferenceSpace:fromView: /* Error: Ran out of types for this method. */;
 - (id)ated:(id)arg1;
 - (id)ltGroupIdentifiers;
 - (void)tohiding display mode in width %g;
@@ -54,11 +49,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) NSHashTable *elementsBelowOrthogonalScrollView; // @synthesize elementsBelowOrthogonalScrollView=_elementsBelowOrthogonalScrollView;
-@property(retain, nonatomic) NSHashTable *frontMostElements; // @synthesize frontMostElements=_frontMostElements;
-@property(retain, nonatomic) NSMutableArray *scrollViewsQueuedForRemoval; // @synthesize scrollViewsQueuedForRemoval=_scrollViewsQueuedForRemoval;
-@property(retain, nonatomic) NSMutableDictionary *sectionToScrollViewMap; // @synthesize sectionToScrollViewMap=_sectionToScrollViewMap;
-@property(nonatomic) _Bool shouldPreventFocusScrollPastContentSize; // @synthesize shouldPreventFocusScrollPastContentSize=_shouldPreventFocusScrollPastContentSize;
 
 @end
 

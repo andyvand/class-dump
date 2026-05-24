@@ -5,17 +5,14 @@
 //
 
 @class NSString;
-@protocol ML3DatabaseModuleContext;
 
 @interface ML3DatabaseModule
 {
     NSString *_name;
-    struct sqlite3_module *_moduleMethods;
-    id <ML3DatabaseModuleContext> _context;
 }
 
-- (struct sqlite3_module *);
-- (id);
+- (struct sqlite3_module *)Q,R,N,V_batchSize;
+- (id),N,V_shouldPrefetchRelationship;
 - (id);
 - (id);
 - (id);
@@ -23,8 +20,6 @@
 - (void)HEN position + ? END END) WHERE container_pid = ? AND position BETWEEN ? AND ?;
 
 // Remaining properties
-@property(retain, nonatomic) id <ML3DatabaseModuleContext> context; // @synthesize context=_context;
-@property(readonly, nonatomic) struct sqlite3_module *moduleMethods; // @synthesize moduleMethods=_moduleMethods;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

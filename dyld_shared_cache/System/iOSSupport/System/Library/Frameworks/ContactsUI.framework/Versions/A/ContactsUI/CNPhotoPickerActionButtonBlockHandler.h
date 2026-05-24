@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (CDUnknownBlockType);
 - (void);
-- (void)NeedsUpdate;
+- (void)_headerViewNeedsUpdate;
 - (id)Contact",&,N,V_editingContact;
 
 // Remaining properties

@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)X;
 
 // Remaining properties
 @property(retain, nonatomic) SADomainObject *object;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTNFAState, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CTNFA
 {
     NSMutableDictionary *_CTstates;
-    CTNFAState *_CTstart;
 }
 
 - (_Bool);
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Re;
 - (id);
 - (void);
 - (id);

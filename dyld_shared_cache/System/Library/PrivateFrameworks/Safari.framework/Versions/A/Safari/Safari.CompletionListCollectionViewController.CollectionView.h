@@ -7,9 +7,6 @@
 @interface Safari.CompletionListCollectionViewController.CollectionView
 {
     id controller;
-    id shouldRecomputeAccessibilityViews;
-    id allAccessibilityRows;
-    id isScrolling;
 }
 
 - (_Bool);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (id)window.webkit.messageHandlers.appExtensionMessageHandler.postMessage(['addEventListener', listenerType, window.webkit.createJSHandle(listener), useCapture]);    }    removeEventListener(listenerType, listener, useCapture) {        if (typeof listener !== 'function')            return;        window.webkit.messageHandlers.appExtensionMessageHandler.postMessage(['removeEventListener', listenerType, window.webkit.createJSHandle(listener), useCapture]);    }}if (window.safari === undefined) {    Object.defineProperty(SafariExtensionMessageEvent.prototype, Symbol.toStringTag, { value:'SafariExtensionMessageEvent', writable:false, configurable:false, enumerable:false });    window.safari = {};    Object.defineProperty(SafariAppExtension.prototype, Symbol.toStringTag, { value:'SafariAppExtension', writable:false, configurable:false, enumerable:false });    Object.defineProperty(safari, 'extension', { value:new SafariAppExtension(), writable:false, configurable:false, enumerable:true });    Object.defineProperty(SafariAppExtensionPage.prototype, Symbol.toStringTag, { value:'SafariAppExtensionPage', writable:false, configurable:false, enumerable:false });    Object.defineProperty(safari, 'self', { value:new SafariAppExtensionPage(), writable:true, configurable:false, enumerable:true });} /* Error: Ran out of types for this method. */;
-- (id)h;
+- (id)topSitesButtonWidth;
 - (void)¤;
 - (id)ä;
 - (void)oÉÁvþ,;

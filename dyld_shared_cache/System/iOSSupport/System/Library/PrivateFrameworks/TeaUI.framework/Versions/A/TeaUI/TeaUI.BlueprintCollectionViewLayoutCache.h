@@ -7,8 +7,6 @@
 @interface TeaUI.BlueprintCollectionViewLayoutCache
 {
     id cache;
-    id token;
-    id queue;
 }
 
 - (void);

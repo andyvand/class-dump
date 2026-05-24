@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, NSString, NSView;
-
 @interface PXSelectionView
 {
     double _currentContentViewCornerRadius;
-    struct CGSize _currentContentViewSize;
-    CALayer *_selectionLayer;
-    CALayer *_selectionInterspaceLayer;
-    CAShapeLayer *_circularSelectionLayer;
-    _Bool _selected;
-    _Bool _circularSelectionRing;
-    NSView *_contentView;
-    double _px_cornerRadius;
-    double _borderWidth;
-    double _interspaceBorderWidth;
 }
 
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (double);
@@ -43,26 +31,14 @@
 - (void)rom vm:(_Bool)arg1 %@, dsm:%@, ds:%@, collection:%@ /* Error: Ran out of types for this method. */;
 - (double)le:%@
  /* Error: Ran out of types for this method. */;
-- (void)ortName;
+- (void)LemonadeSectionSortName;
 - (id);
 - (void);
 - (_Bool)Mf¶ ;
 - (id)Ï'NÌê;;
 
 // Remaining properties
-@property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
-@property(nonatomic) _Bool circularSelectionRing; // @synthesize circularSelectionRing=_circularSelectionRing;
-@property(readonly, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double interspaceBorderWidth; // @synthesize interspaceBorderWidth=_interspaceBorderWidth;
 @property(nonatomic) double px_cornerRadius; // @synthesize px_cornerRadius=_px_cornerRadius;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly) Class superclass;
 
 @end
 

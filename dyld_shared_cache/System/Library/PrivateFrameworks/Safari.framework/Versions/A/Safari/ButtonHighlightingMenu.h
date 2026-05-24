@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSButton *_button;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void)";
 

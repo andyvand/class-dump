@@ -5,16 +5,13 @@
 //
 
 @class NSArray;
-@protocol MLComputeDeviceProtocol;
 
 @interface MLComputePlanDeviceUsage
 {
     NSArray *_supportedComputeDevices;
-    id <MLComputeDeviceProtocol> _preferredComputeDevice;
-    NSArray *_deviceSupportInfoArray;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *deviceSupportInfoArray; // @synthesize deviceSupportInfoArray=_deviceSupportInfoArray;
-@property(readonly, nonatomic) id <MLComputeDeviceProtocol> preferredComputeDevice; // @synthesize preferredComputeDevice=_preferredComputeDevice;
-@property(readonly, copy, nonatomic) NSArray *supportedComputeDevices; // @synthesize supportedComputeDevices=_supportedComputeDevices;
 
 @end
 

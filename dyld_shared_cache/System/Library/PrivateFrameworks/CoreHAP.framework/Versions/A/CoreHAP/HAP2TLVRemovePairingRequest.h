@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2TLVPairingMethodWrapper, HAP2TLVPairingStateWrapper, NSString;
+@class HAP2TLVPairingStateWrapper;
 
 __attribute__((visibility("hidden")))
 @interface HAP2TLVRemovePairingRequest
 {
     HAP2TLVPairingStateWrapper *_state;
-    HAP2TLVPairingMethodWrapper *_method;
-    NSString *_identifier;
 }
 
-+ (id);
-- (id);
++ (id)j(8hju8;
+- (id)RU;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)(;
+- (id);
+- (_Bool)llx offset:(id)arg1 %llu size:%llu /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)tEconnresetRetryInProgress: /* Error: Ran out of types for this method. */;
+- (void)setEconnresetRetryInProgress: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HAP2TLVPairingMethodWrapper *method; // @synthesize method=_method;
 @property(retain, nonatomic) HAP2TLVPairingStateWrapper *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

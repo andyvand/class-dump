@@ -4,56 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomePodSetupLatencyLogEvent, HMFTimer, NSMutableDictionary, NSString, NSUserDefaults;
-@protocol HMDCurrentAccessorySetupMetricDispatcherDataSource, HMMLogEventSubmitting;
+@class HMFTimer;
 
 __attribute__((visibility("hidden")))
 @interface HMDCurrentAccessorySetupMetricDispatcher
 {
     struct os_unfair_lock_s _lock;
-    _Bool _allStagesSubmitted;
-    _Bool _firstTimeOutSubmissionDone;
-    id <HMDCurrentAccessorySetupMetricDispatcherDataSource> _dataSource;
-    CDUnknownBlockType _currentUpTicksFactory;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    CDUnknownBlockType _submissionTimerFactory;
-    HMDHomePodSetupLatencyLogEvent *_setupLogEvent;
-    NSUserDefaults *_userDefaults;
-    NSMutableDictionary *_stageErrorDict;
-    HMFTimer *_submissionTimer;
-    unsigned long long _setupSessionOpenBeginTime;
-    unsigned long long _setupSessionOpenEndTime;
-    unsigned long long _setupSessionCloseBeginTime;
-    unsigned long long _setupSessionCloseEndTime;
-    unsigned long long _receiveControllerKeyBeginTime;
-    unsigned long long _receiveControllerKeyEndTime;
-    unsigned long long _sentUnassociatedMediaAccessoryBeginTime;
-    unsigned long long _sentUnassociatedMediaAccessoryEndTime;
-    unsigned long long _pairingIdentityCreationBeginTime;
-    unsigned long long _pairingIdentityCreationEndTime;
-    unsigned long long _settingsCreationBeginTime;
-    unsigned long long _settingsCreationEndTime;
-    unsigned long long _addAccessoryBeginTime;
-    unsigned long long _addAccessoryEndTime;
-    unsigned long long _hh2SentinelZoneFetchBeginTime;
-    unsigned long long _hh2SentinelZoneFetchEndTime;
-    unsigned long long _coreDataFirstCloudImportBeginTime;
-    unsigned long long _coreDataFirstCloudImportEndTime;
-    unsigned long long _appleAccountSettledBeginTime;
-    unsigned long long _appleAccountSettledEndTime;
-    unsigned long long _currentIDSDeviceSettledBeginTime;
-    unsigned long long _currentIDSDeviceSettledEndTime;
-    unsigned long long _homeManagerInitBeginTime;
-    unsigned long long _homeManagerInitEndTime;
-    unsigned long long _eventRouterServerConnectBeginTime;
-    unsigned long long _eventRouterServerConnectEndTime;
-    unsigned long long _firstServerEventSentBeginTime;
-    unsigned long long _firstServerEventSentEndTime;
-    unsigned long long _firstPrimaryResidentElectionBeginTime;
-    unsigned long long _firstPrimaryResidentElectionEndTime;
-    unsigned long long _firstCurrentDeviceJoinMeshBeginTime;
-    unsigned long long _siriReadyBeginTime;
-    unsigned long long _siriReadyEndTime;
 }
 
 + (void);
@@ -62,25 +18,25 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
+- (void)numberOfIntermediateStopsRemaining;
+- (unsigned long long)initWithStartWaypoint:endWaypoint: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithSharedTripServer: /* Error: Ran out of types for this method. */;
+- (unsigned long long)hasChangeType;
+- (unsigned long long)hasBlockingIncident;
+- (unsigned long long)hasArtwork;
+- (unsigned long long)hasAlternateArtwork;
+- (unsigned long long)finalETAInfo;
+- (unsigned long long)fileURLWithPath:isDirectory: /* Error: Ran out of types for this method. */;
+- (unsigned long long)t present %@;
+- (unsigned long long)ipantDidLeave discard invalid %@;
+- (unsigned long long)W;
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)l;
 - (void);
 - (void);
 - (void);
@@ -103,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
@@ -120,49 +76,7 @@ __attribute__((visibility("hidden")))
 - (void)apabilityDevice(_:options:queue:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long addAccessoryBeginTime; // @synthesize addAccessoryBeginTime=_addAccessoryBeginTime;
-@property(readonly) unsigned long long addAccessoryEndTime; // @synthesize addAccessoryEndTime=_addAccessoryEndTime;
-@property(readonly) _Bool allStagesSubmitted;
-@property(readonly) unsigned long long appleAccountSettledBeginTime; // @synthesize appleAccountSettledBeginTime=_appleAccountSettledBeginTime;
-@property(readonly) unsigned long long appleAccountSettledEndTime; // @synthesize appleAccountSettledEndTime=_appleAccountSettledEndTime;
-@property(readonly) unsigned long long coreDataFirstCloudImportBeginTime; // @synthesize coreDataFirstCloudImportBeginTime=_coreDataFirstCloudImportBeginTime;
-@property(readonly) unsigned long long coreDataFirstCloudImportEndTime; // @synthesize coreDataFirstCloudImportEndTime=_coreDataFirstCloudImportEndTime;
-@property(readonly) unsigned long long currentIDSDeviceSettledBeginTime; // @synthesize currentIDSDeviceSettledBeginTime=_currentIDSDeviceSettledBeginTime;
-@property(readonly) unsigned long long currentIDSDeviceSettledEndTime; // @synthesize currentIDSDeviceSettledEndTime=_currentIDSDeviceSettledEndTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long eventRouterServerConnectBeginTime; // @synthesize eventRouterServerConnectBeginTime=_eventRouterServerConnectBeginTime;
-@property(readonly) unsigned long long eventRouterServerConnectEndTime; // @synthesize eventRouterServerConnectEndTime=_eventRouterServerConnectEndTime;
-@property(readonly) unsigned long long firstCurrentDeviceJoinMeshBeginTime; // @synthesize firstCurrentDeviceJoinMeshBeginTime=_firstCurrentDeviceJoinMeshBeginTime;
-@property(readonly) unsigned long long firstPrimaryResidentElectionBeginTime; // @synthesize firstPrimaryResidentElectionBeginTime=_firstPrimaryResidentElectionBeginTime;
-@property(readonly) unsigned long long firstPrimaryResidentElectionEndTime; // @synthesize firstPrimaryResidentElectionEndTime=_firstPrimaryResidentElectionEndTime;
-@property(readonly) unsigned long long firstServerEventSentBeginTime; // @synthesize firstServerEventSentBeginTime=_firstServerEventSentBeginTime;
-@property(readonly) unsigned long long firstServerEventSentEndTime; // @synthesize firstServerEventSentEndTime=_firstServerEventSentEndTime;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hh2SentinelZoneFetchBeginTime; // @synthesize hh2SentinelZoneFetchBeginTime=_hh2SentinelZoneFetchBeginTime;
-@property(readonly) unsigned long long hh2SentinelZoneFetchEndTime; // @synthesize hh2SentinelZoneFetchEndTime=_hh2SentinelZoneFetchEndTime;
-@property(readonly) unsigned long long homeManagerInitBeginTime; // @synthesize homeManagerInitBeginTime=_homeManagerInitBeginTime;
-@property(readonly) unsigned long long homeManagerInitEndTime; // @synthesize homeManagerInitEndTime=_homeManagerInitEndTime;
-@property(readonly) unsigned long long pairingIdentityCreationBeginTime; // @synthesize pairingIdentityCreationBeginTime=_pairingIdentityCreationBeginTime;
-@property(readonly) unsigned long long pairingIdentityCreationEndTime; // @synthesize pairingIdentityCreationEndTime=_pairingIdentityCreationEndTime;
-@property(readonly) unsigned long long receiveControllerKeyBeginTime; // @synthesize receiveControllerKeyBeginTime=_receiveControllerKeyBeginTime;
-@property(readonly) unsigned long long receiveControllerKeyEndTime; // @synthesize receiveControllerKeyEndTime=_receiveControllerKeyEndTime;
-@property(readonly) unsigned long long sentUnassociatedMediaAccessoryBeginTime; // @synthesize sentUnassociatedMediaAccessoryBeginTime=_sentUnassociatedMediaAccessoryBeginTime;
-@property(readonly) unsigned long long sentUnassociatedMediaAccessoryEndTime; // @synthesize sentUnassociatedMediaAccessoryEndTime=_sentUnassociatedMediaAccessoryEndTime;
-@property(readonly) unsigned long long settingsCreationBeginTime; // @synthesize settingsCreationBeginTime=_settingsCreationBeginTime;
-@property(readonly) unsigned long long settingsCreationEndTime; // @synthesize settingsCreationEndTime=_settingsCreationEndTime;
-@property(readonly) unsigned long long setupSessionCloseBeginTime; // @synthesize setupSessionCloseBeginTime=_setupSessionCloseBeginTime;
-@property(readonly) unsigned long long setupSessionCloseEndTime; // @synthesize setupSessionCloseEndTime=_setupSessionCloseEndTime;
-@property(readonly, copy) NSString *setupSessionIdentifier;
-@property(readonly) unsigned long long setupSessionOpenBeginTime; // @synthesize setupSessionOpenBeginTime=_setupSessionOpenBeginTime;
-@property(readonly) unsigned long long setupSessionOpenEndTime; // @synthesize setupSessionOpenEndTime=_setupSessionOpenEndTime;
-@property(readonly) unsigned long long siriReadyBeginTime; // @synthesize siriReadyBeginTime=_siriReadyBeginTime;
-@property(readonly) unsigned long long siriReadyEndTime; // @synthesize siriReadyEndTime=_siriReadyEndTime;
 @property(retain) HMFTimer *submissionTimer; // @synthesize submissionTimer=_submissionTimer;
-@property(readonly) Class superclass;
 
 @end
 

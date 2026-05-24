@@ -7,27 +7,20 @@
 @interface AWDWiFiMetricsManagerEvent
 {
     unsigned long long _timestamp;
-    unsigned int _reason;
-    unsigned int _status;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int reason:1;
-        unsigned int status:1;
-    } _has;
 }
 
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (id);
+- (void)!;
 - (void);
 - (void);
-- (void);
+- (unsigned long long)?;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,12 +33,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasStatus;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned int status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

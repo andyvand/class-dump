@@ -8,8 +8,6 @@
 {
     id service;
     id state;
-    id _$scope;
-    id task;
 }
 
 @end

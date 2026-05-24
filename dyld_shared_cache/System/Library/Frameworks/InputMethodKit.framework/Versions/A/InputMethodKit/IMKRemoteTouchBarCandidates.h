@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, IMKCandidateListDictionary, NSArray, NSDictionary, NSViewController;
-@protocol IMKCandidatesDelegate;
+@class NSArray;
 
 @interface IMKRemoteTouchBarCandidates
 {
     _Bool _changesSizeWhenScrolling;
-    long long _alignment;
-    IMKCandidateListDictionary *_candidateListDictionary;
-    id <IMKCandidatesDelegate> _delegate;
-    IMKCandidate *_focusedCandidate;
-    double _fontSize;
-    double _gridSizeFactor;
-    NSDictionary *_noCandidatesMessage;
-    unsigned long long _numberOfFixedSizeCandidates;
-    unsigned long long _panelType;
-    NSDictionary *_titleAttributes;
-    NSArray *_visibleCandidatesArray;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)y
+;
 - (void);
 - (void);
 - (void);
@@ -40,13 +29,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)rH;
 - (void);
-- (void);
+- (void).;
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)ms;
 - (id);
 - (long long);
 - (void);
@@ -58,20 +47,6 @@
 - (void)æÍà;
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(retain, nonatomic) IMKCandidateListDictionary *candidateListDictionary; // @synthesize candidateListDictionary=_candidateListDictionary;
-@property(nonatomic) _Bool changesSizeWhenScrolling; // @synthesize changesSizeWhenScrolling=_changesSizeWhenScrolling;
-@property(nonatomic) id <IMKCandidatesDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) IMKCandidate *focusedCandidate; // @synthesize focusedCandidate=_focusedCandidate;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(nonatomic) double gridSizeFactor; // @synthesize gridSizeFactor=_gridSizeFactor;
-@property(retain, nonatomic) NSDictionary *noCandidatesMessage; // @synthesize noCandidatesMessage=_noCandidatesMessage;
-@property(nonatomic) unsigned long long numberOfFixedSizeCandidates; // @synthesize numberOfFixedSizeCandidates=_numberOfFixedSizeCandidates;
-@property(nonatomic) unsigned long long panelType; // @synthesize panelType=_panelType;
-@property(readonly, nonatomic) _Bool presentsAutomatically;
-@property(retain, nonatomic) NSDictionary *titleAttributes; // @synthesize titleAttributes=_titleAttributes;
-@property(readonly, nonatomic) NSViewController *viewController;
-@property(readonly, nonatomic) NSArray *visibleCandidates;
 @property(retain, nonatomic) NSArray *visibleCandidatesArray; // @synthesize visibleCandidatesArray=_visibleCandidatesArray;
 
 @end

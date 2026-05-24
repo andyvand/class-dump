@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TIRevisionRateAnalysisSummary, TITypingSession, TITypingSessionAligned;
-@protocol TIUserModeling><TIMetricProviding;
+@class NSArray, TITypingSession;
 
 __attribute__((visibility("hidden")))
 @interface TIAutocorrectionFeedbackAnalyzer
 {
     TITypingSession *_session;
-    TITypingSessionAligned *_alignedSession;
-    TIRevisionRateAnalysisSummary *_revisionRateAnalysisSummary;
-    id <TIUserModeling><TIMetricProviding> _userModel;
-    NSArray *_supportedLanguages;
-    NSArray *_supportedKeyboards;
 }
 
 + (id);
-- (id);
-- (long long);
+- (id)changed to %d;
+- (long long)rgency relay supported:(long long)arg1 TU supports:%d, continuity:%d /* Error: Ran out of types for this method. */;
+- (void)RTTLiveTranscriptionEnabledPreference;
+- (void)X;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -39,21 +33,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)t;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *supportedKeyboards; // @synthesize supportedKeyboards=_supportedKeyboards;
 @property(retain, nonatomic) NSArray *supportedLanguages; // @synthesize supportedLanguages=_supportedLanguages;
-@property(retain, nonatomic) id <TIUserModeling><TIMetricProviding> userModel; // @synthesize userModel=_userModel;
 
 @end
 

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PPXPCClientPipelinedBatchQueryManager
 {
     _Atomic unsigned long long _queryId;
-    NSMutableDictionary *_queryContexts;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);

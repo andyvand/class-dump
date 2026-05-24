@@ -4,49 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, NSArray, NSMutableDictionary;
+@class ACAccountStore;
 
 @interface REMAppleAccountUtilities
 {
     _Bool _cachedICloudACAccountsAreValid;
-    ACAccount *_unsafeUntilSystemReady_primaryICloudACAccount;
-    NSArray *_unsafeUntilSystemReady_allICloudACAccounts;
-    NSMutableDictionary *_unsafeUntilSystemReady_parentICloudACAccountIdentifierMap;
-    ACAccountStore *_accountStore;
-    ACAccount *__debug_primaryICloudACAccount;
-    ACAccount *__debug_fullICloudACAccount;
 }
 
 + (id);
 + (id)@"NSArray"16@?<v@?@"NSError">24;
-- (id);
-- (void);
+- (id)__DATA;
+- (void)visualCharacterRectForCharacterIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)%;
+- (id)n the stroke provider for fast grouping. Falling back on the ordered strokes.;
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)reindexItemsWithIdentifiers:(_Bool)arg1 allBookmarks:historiesForProfiles:withAcknowledgementHandler: /* Error: Ran out of types for this method. */;
+- (void)DAV mode:(id)arg1 %{public}@;
+- (id);
+- (void)$;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ser to reauth.;
 - (_Bool);
 - (void)0@ù
 × ;
@@ -54,13 +48,7 @@
 - (id)veRequest;
 
 // Remaining properties
-@property(retain, nonatomic) ACAccount *_debug_fullICloudACAccount; // @synthesize _debug_fullICloudACAccount=__debug_fullICloudACAccount;
-@property(retain, nonatomic) ACAccount *_debug_primaryICloudACAccount; // @synthesize _debug_primaryICloudACAccount=__debug_primaryICloudACAccount;
 @property(retain, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(nonatomic) _Bool cachedICloudACAccountsAreValid; // @synthesize cachedICloudACAccountsAreValid=_cachedICloudACAccountsAreValid;
-@property(readonly) NSArray *unsafeUntilSystemReady_allICloudACAccounts; // @synthesize unsafeUntilSystemReady_allICloudACAccounts=_unsafeUntilSystemReady_allICloudACAccounts;
-@property(retain, nonatomic) NSMutableDictionary *unsafeUntilSystemReady_parentICloudACAccountIdentifierMap; // @synthesize unsafeUntilSystemReady_parentICloudACAccountIdentifierMap=_unsafeUntilSystemReady_parentICloudACAccountIdentifierMap;
-@property(readonly) ACAccount *unsafeUntilSystemReady_primaryICloudACAccount; // @synthesize unsafeUntilSystemReady_primaryICloudACAccount=_unsafeUntilSystemReady_primaryICloudACAccount;
 
 @end
 

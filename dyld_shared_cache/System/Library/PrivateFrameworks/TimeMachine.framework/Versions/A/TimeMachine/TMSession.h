@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableOrderedSet, NSRunLoop, NSSet, NSURL;
-
 @interface TMSession
 {
     struct os_unfair_lock_s _backupsLock;
-    CDUnknownBlockType _backupMountedBlock;
-    CDUnknownBlockType _backupUnmountedBlock;
-    NSSet *_cachedBackupDates;
-    NSURL *_dataVolumeMountPoint;
-    NSURL *_currentMachineStoreURL;
-    long long _options;
-    id _daSession;
-    NSRunLoop *_sessionRunLoop;
-    NSMutableOrderedSet *_backups;
 }
 
 + (_Bool);
 + (void);
++ (void)6;
 + (void);
 + (void);
-+ (void);
 + (id);
 + (id);
 + (id);
@@ -32,7 +21,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)q`;
 + (id);
 + (id);
 + (id);
@@ -46,7 +35,7 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id);
@@ -54,15 +43,15 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (struct TMBackupPathRanges);
++ (struct TMBackupPathRanges);
 + (struct TMBackupPathRanges);
 + (id);
 + (id);
@@ -76,8 +65,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)a;
+- (void)!;
 - (void);
 - (id);
 - (id);
@@ -88,7 +77,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (struct os_unfair_lock_s);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -107,17 +96,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType backupMountedBlock; // @synthesize backupMountedBlock=_backupMountedBlock;
-@property(copy) CDUnknownBlockType backupUnmountedBlock; // @synthesize backupUnmountedBlock=_backupUnmountedBlock;
-@property(readonly) NSMutableOrderedSet *backups; // @synthesize backups=_backups;
-@property(readonly) struct os_unfair_lock_s backupsLock; // @synthesize backupsLock=_backupsLock;
-@property(readonly) NSArray *browsableBackupDates;
-@property(retain) NSSet *cachedBackupDates; // @synthesize cachedBackupDates=_cachedBackupDates;
-@property(retain) NSURL *currentMachineStoreURL; // @synthesize currentMachineStoreURL=_currentMachineStoreURL;
-@property(retain) id daSession; // @synthesize daSession=_daSession;
-@property(readonly) NSURL *dataVolumeMountPoint; // @synthesize dataVolumeMountPoint=_dataVolumeMountPoint;
 @property(readonly) long long options; // @synthesize options=_options;
-@property(retain) NSRunLoop *sessionRunLoop; // @synthesize sessionRunLoop=_sessionRunLoop;
 
 @end
 

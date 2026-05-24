@@ -5,19 +5,18 @@
 //
 
 @protocol ECMessageFlagsBuilder
+- (_Bool)L=;
+- (_Bool);
+- (unsigned long long);
+- (_Bool)reenPlaceholderIndicatorScale - %ld;
+- (unsigned long long)from source view controller that is transitioning.;
+- (_Bool)layout rect for content tabs UI does not match. canFitContentTabs:%d  contentTabsLayoutFrame:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)SOCommandExportWindowController;
+- (void)J;
+- (void)setResults:(_Bool)arg1;
 - (_Bool)¢;
 
 // Remaining properties
-@property(nonatomic) _Bool deleted;
-@property(nonatomic) _Bool draft;
-@property(nonatomic) unsigned long long flagColor;
-@property(nonatomic) _Bool flagged;
-@property(nonatomic) _Bool forwarded;
-@property(nonatomic) unsigned long long junkLevel;
-@property(nonatomic) _Bool junkLevelSetByUser;
 @property(nonatomic) _Bool read;
-@property(nonatomic) _Bool redirected;
-@property(nonatomic) _Bool replied;
-@property(nonatomic) _Bool touchedByCleanup;
 @end
 

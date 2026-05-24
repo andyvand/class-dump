@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata;
-
 __attribute__((visibility("hidden")))
 @interface LPLinkMetadataDownloadProgressTransformer
 {
     unsigned long long _bytesLoaded;
-    LPLinkMetadata *_metadata;
 }
 
-- (id);
+- (id)supportsOrbPreviewsInConversationList;
 - (id);
 - (unsigned long long);
 - (void);
@@ -24,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long bytesLoaded; // @synthesize bytesLoaded=_bytesLoaded;
-@property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

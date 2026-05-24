@@ -7,8 +7,6 @@
 @interface PromotedContentUI.SLPCCMInitializer
 {
     id delegate;
-    id lock;
-    id stateMachine;
 }
 
 @end

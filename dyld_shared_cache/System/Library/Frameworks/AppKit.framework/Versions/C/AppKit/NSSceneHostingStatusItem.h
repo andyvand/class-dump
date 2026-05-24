@@ -6,70 +6,62 @@
 
 #import <AppKit/NSLocalStatusItem.h>
 
-@class FBScene, FBSceneWorkspace, NSStatusItemHost, NSString;
-@protocol FBSceneClientProcess;
+@class FBScene;
 
 __attribute__((visibility("hidden")))
 @interface NSSceneHostingStatusItem : NSLocalStatusItem
 {
     FBScene *_scene;
-    FBSceneWorkspace *_workspace;
-    id <FBSceneClientProcess> _client;
-    NSStatusItemHost *_host;
-    unsigned int _debugClientIdentifier;
-    _Bool _allowVisibility;
 }
 
-- (void);
+- (void)';
 - (id);
 - (_Bool);
 - (id);
+- (id)_password;
+- (id)_outstandingWrites;
+- (void)_onqueue_sendSessionChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_onqueue_didSendBodyBytes:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (void)_alwaysPerformDefaultTrustEvaluation;
+- (void)_URLSession:(id)arg1 downloadTask:didReceiveResponse: /* Error: Ran out of types for this method. */;
+- (void)set_maxCacheableEntrySizeRatio: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)daemon, please enable CREATE_INFOPLIST_SECTION_IN_BINARY build setting.;
+- (void)URL for proxy response;
+- (void)NULL response!;
+- (float)d by ATS;
 - (id);
-- (id);
+- (_Bool);
+- (_Bool)d;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (float);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)allowPrivateAccessTokensForThirdParty;
+- (id)nectionStreamTask write:handler:] /* Error: Ran out of types for this method. */;
+- (void)ode:%d /* Error: Ran out of types for this method. */;
+- (id)(67	77(78	88(89	99(966
+6666)68677
+7777)78788
+8888)88899
+9999)989;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void)8@16B24{CGRect={CGPoint=dd}{CGSize=dd}}28@60;
-- (void)C6AppKit16UpdateMenuAction;
+- (void)_TtC6AppKit16UpdateMenuAction;
 - (void);
 - (void)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

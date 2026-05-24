@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _disabled;
 }
 
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)a;
 - (id)è2ÿuÚH¯f;
 - (_Bool)n;
 - (void)ÿ;

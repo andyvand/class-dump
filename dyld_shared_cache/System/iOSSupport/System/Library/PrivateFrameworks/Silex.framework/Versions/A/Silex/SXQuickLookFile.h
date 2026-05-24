@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SXQuickLookFile
 {
     NSURL *_fileURL;
-    NSString *_title;
-    NSURL *_shareURL;
 }
 
 - (id);
@@ -21,24 +19,10 @@
 - (id);
 - (void)!Cù1ï°1Â0@ù
 × ;
-- (id)ers;
+- (id)_pendingVideoPlayerViewControllers;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *previewItemTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(readonly, nonatomic) NSURL *previewItemURL;
-@property(readonly, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

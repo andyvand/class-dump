@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol VCCaptionsTranscriptionSegment
+- (struct _NSRange);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange range;
 @property(readonly, nonatomic) NSString *text;
 @end
 

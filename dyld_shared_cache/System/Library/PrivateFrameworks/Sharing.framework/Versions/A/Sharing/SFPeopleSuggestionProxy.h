@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, SDSuggestionNode, SFProxyText;
-@protocol SFPeopleSuggestion;
+@class SDSuggestionNode;
 
 @interface SFPeopleSuggestionProxy
 {
     _Atomic unsigned int _avatarImageSlotID;
-    _Atomic unsigned int _transportImageSlotID;
-    _Bool _disabled;
-    NSUUID *_identifier;
-    SDSuggestionNode *_suggestionNode;
-    id <SFPeopleSuggestion> _peopleSuggestion;
-    SFProxyText *_displayName;
-    SFProxyText *_subtitle;
-    CDUnknownBlockType _loadHandler;
 }
 
 + (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (void);
 - (void);
@@ -39,34 +30,18 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (_Bool);
 - (void);
 - (id);
 - (void);©ÿÿ;
 - (_Bool)xq;
-- (_Bool)nErrorCodeBluetoothDisabled;
+- (_Bool)SFAuthenticationErrorCodeBluetoothDisabled;
 - (_Bool)_block_invoke;
 - (void)Bag.framework/MobileKeyBag;
 
 // Remaining properties
-@property unsigned int avatarImageSlotID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(retain, nonatomic) SFProxyText *displayName; // @synthesize displayName=_displayName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isDisabled;
-@property(copy, nonatomic) CDUnknownBlockType loadHandler; // @synthesize loadHandler=_loadHandler;
-@property(retain, nonatomic) id <SFPeopleSuggestion> peopleSuggestion; // @synthesize peopleSuggestion=_peopleSuggestion;
-@property(retain, nonatomic) SFProxyText *subtitle; // @synthesize subtitle=_subtitle;
 @property(retain, nonatomic) SDSuggestionNode *suggestionNode; // @synthesize suggestionNode=_suggestionNode;
-@property(readonly) Class superclass;
-@property unsigned int transportImageSlotID;
 
 @end
 

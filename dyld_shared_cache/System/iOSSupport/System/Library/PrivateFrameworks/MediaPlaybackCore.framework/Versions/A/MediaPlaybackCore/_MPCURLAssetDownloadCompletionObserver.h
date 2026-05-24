@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _MPCURLAssetDownloadCompletionObserver
 {
     AVURLAsset *_asset;
-    CDUnknownBlockType _completionHandler;
 }
 
+- (void)__DATA_DIRTY;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (CDUnknownBlockType);
 - (void);
 - (id)0@ù
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak AVURLAsset *asset; // @synthesize asset=_asset;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 
 @end
 

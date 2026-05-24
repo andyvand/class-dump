@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSPersistentUIRestorerDelegation;
-
 @interface NSWindowRestorationOptions
 {
     _Bool restoreToActiveSpacesOnly;
-    id _launchRestoration;
-    id _restorerDelegateStorage;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)entifier:(id)arg1 uniqueIdentifier:bundleID:sessionID:enableSPIDelegateCallbacks: /* Error: Ran out of types for this method. */;
+- (void)includesPeerToPeer;
+- (void)_phskip_credStorageSet;
 - (_Bool);
 - (void);
 - (void);
@@ -23,12 +19,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)gs;
+- (id)_bpFlags;
 - (void)hE;
 
 // Remaining properties
-@property(nonatomic) _Bool _launchRestoration;
-@property(nonatomic, retain) id <NSPersistentUIRestorerDelegation> _restorerDelegate;
 @property(nonatomic) _Bool restoreToActiveSpacesOnly; // @synthesize restoreToActiveSpacesOnly;
 
 @end

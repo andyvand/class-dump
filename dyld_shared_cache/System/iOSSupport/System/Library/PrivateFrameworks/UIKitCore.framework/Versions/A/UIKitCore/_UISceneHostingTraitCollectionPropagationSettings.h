@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (id)T±Þþ;
 - (id)ect;
-- (void)ped;
+- (void)dropped;
 - (id);
 - (void);
 

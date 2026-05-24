@@ -6,8 +6,6 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMScreenRecordingEvent : BMEventBase
 {
     _Bool _isStart;
@@ -16,7 +14,7 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)`;
 - (_Bool);
 - (id);
 - (unsigned int);
@@ -24,21 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)4;
 - (id);
 - (id);
 - (id)->base.descriptor == &pg_query__alter_role_set_stmt__descriptor;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isStart; // @synthesize isStart=_isStart;
-@property(readonly) Class superclass;
 
 @end
 

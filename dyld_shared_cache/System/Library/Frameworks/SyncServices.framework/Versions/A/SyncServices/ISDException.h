@@ -7,7 +7,6 @@
 @interface ISDException
 {
     int mLogStackTraceMode;
-    _Bool mLogReasonOnly;
 }
 
 + (void);
@@ -16,9 +15,9 @@
 + (id);
 + (void);
 + (void);
-+ (void);
++ (void)q@;
 + (id);
-+ (void)dEncodeObject: /* Error: Ran out of types for this method. */;
++ (void)archiver:didEncodeObject: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (id);

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DEPatternSchema
 {
     shared_ptr_8027148c _This;
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property shared_ptr_8027148c This; // @synthesize This=_This;
-@property(readonly) NSString *description;
-@property(readonly) NSString *name;
 
 @end
 

@@ -4,75 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPZone, CKDPZoneCapabilities, NSData, NSString;
-
 @interface CKDPZoneRetrieveResponseZoneSummary
 {
     long long _assetQuotaUsage;
-    long long _metadataQuotaUsage;
-    CKDPZoneCapabilities *_capabilities;
-    NSData *_clientChangeToken;
-    NSData *_currentServerContinuationToken;
-    int _deviceCount;
-    CKDPDate *_expirationTime;
-    CKDPDate *_localExpirationTime;
-    CKDPZone *_targetZone;
-    NSString *_zonePcsModificationDevice;
-    CKDPDate *_zonePcsModificationTime;
-    _Bool _expired;
-    _Bool _zoneKeyRollAllowed;
-    _Bool _zoneishPcsNeedsRolled;
-    struct {
-        unsigned int assetQuotaUsage:1;
-        unsigned int metadataQuotaUsage:1;
-        unsigned int deviceCount:1;
-        unsigned int expired:1;
-        unsigned int zoneKeyRollAllowed:1;
-        unsigned int zoneishPcsNeedsRolled:1;
-    } _has;
 }
 
+- (void)UsoTaskBuilder_read_common_Agent;
+- (void);
+- (id)B;
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (void);
+- (void)updateMRNowPlayingClient;
+- (unsigned long long)Audio_copySupportedAudioCapabilities(FigEndpointStreamRef, CFDictionaryRef *);
+- (_Bool);
+- (id)y;
+- (_Bool);
+- (_Bool);
 - (void);
+- (_Bool)`;
+- (_Bool);
+- (long long)setBluetoothState:connectedDeviceCount:inA2dp:inSco:inUniAoS:inBiAoS:btAudioBand: /* Error: Ran out of types for this method. */;
+- (id):forInterface:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)us, ack id %d, flags %d num_alerts %d  num_queued %d
+;
 - (void);
 - (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void),V_updateCounter;
+- (_Bool)instantAnswers for objectID:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -88,39 +66,12 @@
 - (void);
 - (_Bool)!¨FùQÛÐ1Â0@ù
 × ;
-- (void)kupRequest;
+- (void)hasUserPrivacySettingsBatchLookupRequest;
 - (void);
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic) long long assetQuotaUsage; // @synthesize assetQuotaUsage=_assetQuotaUsage;
-@property(retain, nonatomic) CKDPZoneCapabilities *capabilities; // @synthesize capabilities=_capabilities;
-@property(retain, nonatomic) NSData *clientChangeToken; // @synthesize clientChangeToken=_clientChangeToken;
-@property(retain, nonatomic) NSData *currentServerContinuationToken; // @synthesize currentServerContinuationToken=_currentServerContinuationToken;
-@property(nonatomic) int deviceCount; // @synthesize deviceCount=_deviceCount;
-@property(retain, nonatomic) CKDPDate *expirationTime; // @synthesize expirationTime=_expirationTime;
-@property(nonatomic) _Bool expired; // @synthesize expired=_expired;
-@property(nonatomic) _Bool hasAssetQuotaUsage;
-@property(readonly, nonatomic) _Bool hasCapabilities;
-@property(readonly, nonatomic) _Bool hasClientChangeToken;
-@property(readonly, nonatomic) _Bool hasCurrentServerContinuationToken;
-@property(nonatomic) _Bool hasDeviceCount;
-@property(readonly, nonatomic) _Bool hasExpirationTime;
-@property(nonatomic) _Bool hasExpired;
-@property(readonly, nonatomic) _Bool hasLocalExpirationTime;
-@property(nonatomic) _Bool hasMetadataQuotaUsage;
 @property(readonly, nonatomic) _Bool hasTargetZone;
-@property(nonatomic) _Bool hasZoneKeyRollAllowed;
-@property(readonly, nonatomic) _Bool hasZonePcsModificationDevice;
-@property(readonly, nonatomic) _Bool hasZonePcsModificationTime;
-@property(nonatomic) _Bool hasZoneishPcsNeedsRolled;
-@property(retain, nonatomic) CKDPDate *localExpirationTime; // @synthesize localExpirationTime=_localExpirationTime;
-@property(nonatomic) long long metadataQuotaUsage; // @synthesize metadataQuotaUsage=_metadataQuotaUsage;
-@property(retain, nonatomic) CKDPZone *targetZone; // @synthesize targetZone=_targetZone;
-@property(nonatomic) _Bool zoneKeyRollAllowed; // @synthesize zoneKeyRollAllowed=_zoneKeyRollAllowed;
-@property(retain, nonatomic) NSString *zonePcsModificationDevice; // @synthesize zonePcsModificationDevice=_zonePcsModificationDevice;
-@property(retain, nonatomic) CKDPDate *zonePcsModificationTime; // @synthesize zonePcsModificationTime=_zonePcsModificationTime;
-@property(nonatomic) _Bool zoneishPcsNeedsRolled; // @synthesize zoneishPcsNeedsRolled=_zoneishPcsNeedsRolled;
 
 @end
 

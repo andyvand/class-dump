@@ -14,9 +14,9 @@
 + (id);
 - (void);
 - (long long);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (id)_;
+- (_Bool)SearchPathStrategy;
 
 // Remaining properties
 @property(nonatomic) long long contextTimeoutSeconds;

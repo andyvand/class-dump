@@ -6,7 +6,7 @@
 
 #import <Silex/SXComponent.h>
 
-@class NSString, SXJSONArray;
+@class NSString;
 
 @interface SXGalleryComponent : SXComponent
 {
@@ -14,11 +14,10 @@
 
 + (id);
 + (CDUnknownBlockType);
-- (unsigned long long);
+- (unsigned long long)@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *galleryType; // @dynamic galleryType;
-@property(readonly, nonatomic) SXJSONArray *items; // @dynamic items;
 
 @end
 

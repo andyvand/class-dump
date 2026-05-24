@@ -11,13 +11,10 @@
 @interface NSISO8601DateFormatter : NSFormatter
 {
     struct __CFDateFormatter *_formatter;
-    NSTimeZone *_timeZone;
-    unsigned long long _formatOptions;
 }
 
 
 // Remaining properties
-@property unsigned long long formatOptions;
 @property(copy) NSTimeZone *timeZone;
 @end
 

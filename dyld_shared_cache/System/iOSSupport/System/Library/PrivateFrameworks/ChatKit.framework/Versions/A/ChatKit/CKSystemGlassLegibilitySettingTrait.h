@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (id);
-+ (id)ntBalloonStrokeColor;
++ (id)attachmentBalloonStrokeColor;
 + (long long)àT´;
 
 @end

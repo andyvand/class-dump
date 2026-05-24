@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     struct URLRequest _request;
 }
 
-- (void);
+- (void)Kastrokecyrillic;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)ys;
 - (void *);
 - (_Bool);
 - (id);

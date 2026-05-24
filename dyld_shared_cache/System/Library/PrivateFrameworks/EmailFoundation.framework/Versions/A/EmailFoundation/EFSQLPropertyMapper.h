@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface EFSQLPropertyMapper
 {
     NSMutableDictionary *_lookupValues;
-    NSArray *_allowedProtocolPrefixes;
-    NSCache *_protocolQueueCache;
 }
 
 + (id);
@@ -19,25 +17,25 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)dification:(id)arg1 lensShiftModification:(id)arg2;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)ILMessageFilter;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)mputeTriggerConfidenceForAudio:(id)arg1 withCompletion:(id)arg2 ]_block_invoke;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)create digest for %@ with error %d;
 - (id);
 - (id);
 - (void);
@@ -47,9 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allowedProtocolPrefixes; // @synthesize allowedProtocolPrefixes=_allowedProtocolPrefixes;
 @property(retain, nonatomic) NSMutableDictionary *lookupValues; // @synthesize lookupValues=_lookupValues;
-@property(retain, nonatomic) NSCache *protocolQueueCache; // @synthesize protocolQueueCache=_protocolQueueCache;
 
 @end
 

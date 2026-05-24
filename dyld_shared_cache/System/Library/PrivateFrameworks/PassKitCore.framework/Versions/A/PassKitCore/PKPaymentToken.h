@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, PKPaymentMethod;
+@class PKPaymentMethod;
 
 @interface PKPaymentToken
 {
     PKPaymentMethod *_paymentMethod;
-    NSString *_paymentInstrumentName;
-    NSString *_paymentNetwork;
-    NSString *_transactionIdentifier;
-    NSData *_paymentData;
-    NSURL *_redeemURL;
-    NSString *_retryNonce;
 }
 
 + (id);
@@ -22,34 +16,28 @@
 + (long long);
 + (_Bool)qî%Ð1Â0@ù
 × ;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)R(;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (void)ltCardKey;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)StringAsCompletionReason:(id)arg1;
+- (id)$;
+- (id);
+- (void)PKForceMakeDefaultCardKey;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *paymentData; // @synthesize paymentData=_paymentData;
-@property(readonly, copy, nonatomic) NSString *paymentInstrumentName; // @synthesize paymentInstrumentName=_paymentInstrumentName;
 @property(retain, nonatomic) PKPaymentMethod *paymentMethod; // @synthesize paymentMethod=_paymentMethod;
-@property(readonly, copy, nonatomic) NSString *paymentNetwork; // @synthesize paymentNetwork=_paymentNetwork;
-@property(retain, nonatomic) NSURL *redeemURL; // @synthesize redeemURL=_redeemURL;
-@property(copy, nonatomic) NSString *retryNonce; // @synthesize retryNonce=_retryNonce;
-@property(copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end
 

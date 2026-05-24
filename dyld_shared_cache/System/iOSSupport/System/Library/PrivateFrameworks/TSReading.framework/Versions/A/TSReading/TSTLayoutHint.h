@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, TSTLayout;
-
 @interface TSTLayoutHint
 {
     _Bool mIsValid;
-    _Bool mHorizontal;
-    CDStruct_5f1f7aa9 mCellRange;
-    CDStruct_0441cfb5 mCacheHintID;
-    NSNumber *mPartitioningPass;
-    unsigned int mPartitionPosition;
-    struct CGSize mMaximumSize;
-    struct CGSize mEffectiveSize;
-    TSTLayout *mLayout;
 }
 
 + (Class);
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void):(id)arg1 %1.0fHz - Bytes/Packet:%u - Frames/Packet:%u - Bytes/Frame:%u - Channels/Frame:%u - Bits/Channel:%u /* Error: Ran out of types for this method. */;
+- (void)ed/%ld;
+- (void)at URL:(struct CGSize)arg1;
+- (void)on Lease Request;
+- (id)ervations: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -34,43 +24,28 @@
 - (id);
 - (struct CGSize);
 - (id);
-- (CDStruct_5f1f7aa9);
-- (CDStruct_0441cfb5);
+- (CDStruct_f5d1269f);
+- (CDStruct_bd4d8e6b);
 - (void);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (oneway void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)H;
 - (void);
 - (void);
 - (_Bool);
 - (struct CGSize);
 - (void);
 - (void);
-- (id)ToStroke: /* Error: Ran out of types for this method. */;
+- (id)isEqualToStroke: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) CDStruct_0441cfb5 cacheHintID; // @synthesize cacheHintID=mCacheHintID;
-@property(nonatomic) CDStruct_5f1f7aa9 cellRange; // @synthesize cellRange=mCellRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize effectiveSize; // @synthesize effectiveSize=mEffectiveSize;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool horizontal; // @synthesize horizontal=mHorizontal;
 @property(nonatomic) _Bool isValid; // @synthesize isValid=mIsValid;
-@property(nonatomic) TSTLayout *layout; // @synthesize layout=mLayout;
-@property(nonatomic) struct CGSize maximumSize; // @synthesize maximumSize=mMaximumSize;
-@property(nonatomic) unsigned int partitionPosition; // @synthesize partitionPosition=mPartitionPosition;
-@property(retain, nonatomic) NSNumber *partitioningPass; // @synthesize partitioningPass=mPartitioningPass;
-@property(readonly) Class superclass;
 
 @end
 

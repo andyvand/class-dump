@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UITouch;
-
 __attribute__((visibility("hidden")))
 @interface UIDragInteractionContextImpl
 {
     _Bool _shouldAnimateLift;
-    _Bool _preparedForLift;
-    _Bool _hasBegunDrag;
-    NSMutableArray *_animationBlocks;
-    NSMutableArray *_completionBlocks;
-    long long _state;
-    NSArray *_items;
-    CDUnknownBlockType _animations;
-    CDUnknownBlockType _completion;
-    CDUnknownBlockType __sessionDidBegin;
-    long long _invocationType;
-    UITouch *_initiationTouch;
-    struct CAPoint3D _initialLocation;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)le.messages.SMSReceivedRelaySentReceipt;
+- (void)ID because salt is nil.;
+- (void)In message;
+- (void)alloon-bundle-id:(_Bool)arg1 %@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (_Bool)agment;
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
@@ -39,14 +25,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)1Â0@ù
 × ;
-- (_Bool)Context: /* Error: Ran out of types for this method. */;
-- (long long)ismissShouldBeginHandler: /* Error: Ran out of types for this method. */;
-- (void)ion:(_Bool)arg1 withGranularity:inDirection: /* Error: Ran out of types for this method. */;
-- (id)ForBackButtonMenu: /* Error: Ran out of types for this method. */;
-- (void)aryAssetCatalog:(struct CAPoint3D)arg1;
+- (_Bool)transitionConductor:didStartCustomTransitionWithContext: /* Error: Ran out of types for this method. */;
+- (long long)set_interactiveDismissShouldBeginHandler: /* Error: Ran out of types for this method. */;
+- (void)rangeEnclosingPosition:(_Bool)arg1 withGranularity:inDirection: /* Error: Ran out of types for this method. */;
+- (id)_navigationController:navigationBarAdditionalActionsForBackButtonMenu: /* Error: Ran out of types for this method. */;
+- (void)_downloadDictionaryAssetCatalog:(struct CAPoint3D)arg1;
 - (id)0;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType)e;
+- (CDUnknownBlockType)UIRecentInputIdentifierUsername;
 - (void)onalEdgeInsets=dddd}8;
 - (void)<8R0Q13ì-;
 - (void);
@@ -54,26 +40,7 @@ __attribute__((visibility("hidden")))
 - (void)üÑ\m;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType _sessionDidBegin; // @synthesize _sessionDidBegin=__sessionDidBegin;
-@property(readonly, nonatomic) NSMutableArray *animationBlocks; // @synthesize animationBlocks=_animationBlocks;
-@property(copy, nonatomic) CDUnknownBlockType animations; // @synthesize animations=_animations;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) NSMutableArray *completionBlocks; // @synthesize completionBlocks=_completionBlocks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBegunDrag; // @synthesize hasBegunDrag=_hasBegunDrag;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CAPoint3D initialLocation; // @synthesize initialLocation=_initialLocation;
-@property(retain, nonatomic) UITouch *initiationTouch; // @synthesize initiationTouch=_initiationTouch;
-@property(nonatomic) long long invocationType; // @synthesize invocationType=_invocationType;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic, getter=isPreparedForLift) _Bool preparedForLift; // @synthesize preparedForLift=_preparedForLift;
-@property(nonatomic) _Bool shouldAnimateLift; // @synthesize shouldAnimateLift=_shouldAnimateLift;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ar/db/DiagnosticPipeline/Logs;
 
 @end
 

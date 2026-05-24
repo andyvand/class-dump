@@ -9,16 +9,15 @@
 @interface _PASLRUCache
 {
     _PASLock *_lock;
-    unsigned long long _countLimit;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)setX_apple_telephone: /* Error: Ran out of types for this method. */;
 
 @end
 

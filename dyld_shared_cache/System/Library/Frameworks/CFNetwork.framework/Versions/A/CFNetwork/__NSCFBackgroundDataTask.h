@@ -6,24 +6,14 @@
 
 #import <CFNetwork/__NSCFBackgroundSessionTask.h>
 
-@class NSFileHandle, NSInputStream, NSObject;
-@protocol OS_dispatch_io;
-
 __attribute__((visibility("hidden")))
 @interface __NSCFBackgroundDataTask : __NSCFBackgroundSessionTask
 {
     struct shared_ptr<RequestBody> _requestBody;
-    NSInputStream *_requestBodyStream;
-    NSInputStream *_initialStream;
-    NSFileHandle *_readHandle;
-    NSObject<OS_dispatch_io> *_pipeIO;
-    unsigned long long _numberOfOngoingWrites;
-    _Bool _openedStreamDuringNeedNewBodyStream;
-    _Bool _readingRequestBody;
 }
 
-- (void);
-- (id);
+- (void)divisionslash;
+- (id), %5g];
 - (_Bool);
 - (void)subclass should implement;
 - (void)@;

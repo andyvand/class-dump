@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol AppStoreKit.JSStorageObjectExports__priv_F2FCAC18A4043F9610617CF7A902738D
+- (void)o;
+- (JSValue *)Zo;
 @end
 

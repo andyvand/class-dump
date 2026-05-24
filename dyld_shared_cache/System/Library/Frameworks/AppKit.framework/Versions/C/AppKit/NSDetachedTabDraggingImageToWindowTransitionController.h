@@ -4,33 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScreen, NSWindow;
 @protocol NSDetachedTabDraggingImageToWindowTransitionControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSDetachedTabDraggingImageToWindowTransitionController
 {
     id <NSDetachedTabDraggingImageToWindowTransitionControllerDelegate> _delegate;
-    NSWindow *_sourceMiniWindow;
-    struct CGPoint _dropLocation;
-    NSScreen *_destinationScreen;
-    NSWindow *_destinationWindow;
-    struct CGRect _windowAnimationStartFrame;
-    struct CGRect _windowAnimationEndFrame;
-    struct CGAffineTransform _windowAnimationEndTransform;
-    _Bool _destinationWindowWillMoveToFullScreen;
 }
 
-+ (void);
++ (void)t) %@
+(Secure Connection Start) %@
+(Secure Connection End) %@
+(Connect End) %@
+(Request Start) %@
+(Request End) %@
+(Response Start) %@
+(Response End) %@
+(Protocol Name) %@
+(Proxy Connection) %s
+(Reused Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)LResponse"8;
+- (void)ocketStream];
+- (void)kCFHTTPAuthenticationPropertyMethod;
+- (void)kNSNetServiceBrowserIncludesAWDLKey;
+- (void)kNSNetServiceBrowserIncludesAWDLKey;
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)ÀB;
 

@@ -5,5 +5,7 @@
 //
 
 @protocol AFMyriadAdvertisementContextMutating
+- (void)*;
+- (void)kT@9*;
 @end
 

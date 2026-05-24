@@ -9,7 +9,6 @@
 @interface SXProxyAuthenticationKeyProvider
 {
     NSString *_identifier;
-    NSString *_secret;
 }
 
 - (id);
@@ -20,15 +19,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *secret; // @synthesize secret=_secret;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,35 +6,24 @@
 
 #import <UIKitCore/_UISEGestureFeature.h>
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary;
 @protocol _UISEGestureFeatureSettings;
 
 __attribute__((visibility("hidden")))
 @interface _UISEMuxGestureFeature : _UISEGestureFeature
 {
     id <_UISEGestureFeatureSettings> _settings;
-    CDUnknownBlockType _createFeatureBlock;
-    NSMutableDictionary *_subfeatures;
-    unsigned long long _fails;
-    unsigned long long _recognizes;
 }
 
 - (id);
-- (void)led:(const struct _UISEGestureFeatureSample *)arg1;
-- (id)umerateTextAttachmentsUsingBlock:(id)arg1;
+- (void)setInterfaceOrientationChangesDisabled:(const struct _UISEGestureFeatureSample *)arg1;
+- (id)enumerateTextAttachmentsUsingBlock:(id)arg1;
 - (void)he update;
-- (id)_dispatch_semaphoreC;
-- (void)nteractionKey;
+- (id)So21OS_dispatch_semaphoreC;
+- (void)PocketContainerInteractionKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSDictionary *subfeatures; // @synthesize subfeatures=_subfeatures;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <FrontBoardServices/FBSCoreSettingsExtension.h>
 
-@class BKSAnimationFenceHandle, BSAnimationSettings, BSProcessHandle, FBProcessExecutionContext, FBSSceneUpdate, FBSceneUpdateContext, FBWatchdogTransitionContext, NSArray, NSError, NSSet, RBSProcessHandle;
+@class BSAnimationSettings;
 
 __attribute__((visibility("hidden")))
 @interface FBSSceneTransitionContextCore : FBSCoreSettingsExtension
@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)5	;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -34,51 +34,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)V_newPINByteOffset;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *actions; // @dynamic actions;
-@property(nonatomic) _Bool allowCPUThrottling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) BKSAnimationFenceHandle *animationFence;
 @property(copy, nonatomic) BSAnimationSettings *animationSettings;
-@property(nonatomic, getter=isBarrier) _Bool barrier;
-@property(retain, nonatomic) RBSProcessHandle *clientProcessHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"RBSProcessHandle",?,&,N
-
-@property(retain, nonatomic) NSError *error;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSError",?,&,N
-
-@property(retain, nonatomic) FBProcessExecutionContext *executionContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FBProcessExecutionContext",?,&,N
-
-@property(retain, nonatomic) BSProcessHandle *originatingProcess;
-@property(retain, nonatomic) FBSSceneUpdate *parentUpdate; // @dynamic parentUpdate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FBSSceneUpdate",?,&,D,N
-
-@property(nonatomic, getter=isRunningBoardAssertionDisabled) _Bool runningBoardAssertionDisabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,GisRunningBoardAssertionDisabled
-
-@property(copy, nonatomic) NSArray *updateCompletions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,C,N
-
-@property(retain, nonatomic) FBSceneUpdateContext *updateContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FBSceneUpdateContext",?,&,N
-
-@property(retain, nonatomic) FBWatchdogTransitionContext *watchdogTransitionContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FBWatchdogTransitionContext",?,&,N
-
 
 @end
 

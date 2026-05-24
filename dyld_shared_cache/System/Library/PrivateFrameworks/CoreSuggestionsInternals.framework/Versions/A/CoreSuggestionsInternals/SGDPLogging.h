@@ -12,12 +12,12 @@
 + (void);
 + (void);
 + (void);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
++ (id)_descriptionField;
++ (id)tableview;
++ (void)ing",R,V_identifier;
++ (void)tring",R,C;
++ (id)ACUIAccountInfoViewController;
++ (id)detected multiple notifications for New Multiples - clean up;
 
 @end
 

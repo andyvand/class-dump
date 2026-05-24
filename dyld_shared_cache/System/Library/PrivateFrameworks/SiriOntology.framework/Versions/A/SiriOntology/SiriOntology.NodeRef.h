@@ -7,13 +7,6 @@
 @interface SiriOntology.NodeRef
 {
     id graph;
-    id payload;
-    id normalizedStringPayloads;
-    id vertex;
-    id name;
-    id identifiers;
-    id utteranceAlignments;
-    id entitySpans;
 }
 
 @end

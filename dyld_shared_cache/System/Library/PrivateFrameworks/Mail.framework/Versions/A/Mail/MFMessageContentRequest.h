@@ -7,15 +7,9 @@
 @interface MFMessageContentRequest
 {
     id scheduler;
-    id objectID;
-    id legacyMessage;
-    id messageTransformer;
-    id clientIdentifier;
-    id options;
-    id delegate;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void)R;

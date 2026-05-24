@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPassAuxiliaryRegistrationRequirement;
+@class PKPassAuxiliaryRegistrationRequirement;
 
 @interface PKAuxiliaryCapabilityKeyCreationMetadataRequestCapabilityState
 {
     PKPassAuxiliaryRegistrationRequirement *_capability;
-    NSString *_currentVersion;
-    NSString *_targetVersion;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)Format;
+- (id)N;
+- (void)appletDataFormat;
 - (id)¯³ÿLdmÜd!;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPassAuxiliaryRegistrationRequirement *capability; // @synthesize capability=_capability;
-@property(readonly, nonatomic) NSString *currentVersion; // @synthesize currentVersion=_currentVersion;
-@property(readonly, nonatomic) NSString *targetVersion; // @synthesize targetVersion=_targetVersion;
 
 @end
 

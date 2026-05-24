@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, NSString;
-
 @interface SISchemaGradingOptInStateChange : SISchemaTopLevelUnionType
 {
     int _prevOptInState;
-    int _newOptInState;
-    int _source;
-    NSString *_reason;
-    NSString *_systemBuild;
-    unsigned long long _epochEventTimestampInSeconds;
-    struct {
-        unsigned int prevOptInState:1;
-        unsigned int newOptInState:1;
-        unsigned int source:1;
-        unsigned int epochEventTimestampInSeconds:1;
-    } _has;
-    _Bool _hasReason;
-    _Bool _hasSystemBuild;
 }
 
 - (id);
@@ -33,12 +18,12 @@
 - (void);
 - (int);
 - (int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,41 +34,29 @@
 - (void);
 - (id);
 - (int);
-- (id);
-- (_Bool);
+- (id)neGuidanceInfo;
+- (_Bool)@;
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ousVariantID;
+- (_Bool)dentifier IN %@;
+- (_Bool)ath(NSString *);
 - (void);
-- (void);
+- (void);;
 - (id);
 - (int);
 - (id);
 - (id)Ôt°!@Bù1àð1Â0@ù
 × ;
-- (id)terValue;
-- (id)erSecond;
-- (void)PORTS;
-- (_Bool)DMTOKENIZATIONINPUTTYPE_USER_UTTERANCE;
-- (void)IRELESS_HEADPHONE;
-- (void)Displayed;
+- (id)deleteCatParameterValue;
+- (id)_cpuInstructionsInMillionsPerSecond;
+- (void)PEGASUSPRODUCTAREA_SPORTS;
+- (_Bool)CDMTOKENIZATIONINPUTTYPE_USER_UTTERANCE;
+- (void)MTAPPAUDIOCHANNEL_OTHER_WIRELESS_HEADPHONE;
+- (void)timeToFirstPartialDisplayed;
 
 // Remaining properties
-@property(nonatomic) unsigned long long epochEventTimestampInSeconds; // @synthesize epochEventTimestampInSeconds=_epochEventTimestampInSeconds;
-@property(nonatomic) _Bool hasEpochEventTimestampInSeconds;
-@property(nonatomic) _Bool hasNewOptInState;
-@property(nonatomic) _Bool hasPrevOptInState;
-@property(nonatomic) _Bool hasReason; // @synthesize hasReason=_hasReason;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int newOptInState; // @synthesize newOptInState=_newOptInState;
 @property(nonatomic) int prevOptInState; // @synthesize prevOptInState=_prevOptInState;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) int source; // @synthesize source=_source;
-@property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
 
 @end
 

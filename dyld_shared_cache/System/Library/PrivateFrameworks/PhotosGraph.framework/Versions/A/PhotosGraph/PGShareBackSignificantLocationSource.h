@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)st items:%.3f /* Error: Ran out of types for this method. */;
 
 @end

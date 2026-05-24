@@ -4,60 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackingStoreLocal, HMDHomeManager, NSMapTable, NSOperationQueue, NSString;
+@class HMDBackingStoreLocal, NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreSingleton
 {
     NSMapTable *_objectLookup;
-    NSMapTable *_classToNameTransform;
-    NSMapTable *_nameToClassTransform;
-    NSMapTable *_objectPropertyHashLookup;
-    HMDHomeManager *_homeManager;
-    HMDBackingStoreLocal *_local;
-    NSOperationQueue *_queue;
 }
 
 + (id);
 + (void);
-+ (void);
++ (void)h;
 + (void)8@"HMDHome"16;
-+ (void)pdateRoomMessage:(Class)arg1;
++ (void)_handleUpdateRoomMessage:(Class)arg1;
 + (id)hÿT
 ;
 + (id)V\ÿ;
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Q;
 - (id)Q°1Â0@ù
 × ;
 - (id)otSessionInfo"24;
-- (id)tworkRouterFirewallRuleWANSubject;
+- (id)HMDNetworkRouterFirewallRuleWANSubject;
 - (id)ngth is %@;
 - (void);
 - (void);
 - (id)@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *classToNameTransform; // @synthesize classToNameTransform=_classToNameTransform;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
 @property(retain, nonatomic) HMDBackingStoreLocal *local; // @synthesize local=_local;
-@property(readonly, nonatomic) NSMapTable *nameToClassTransform; // @synthesize nameToClassTransform=_nameToClassTransform;
-@property(readonly, nonatomic) NSMapTable *objectLookup; // @synthesize objectLookup=_objectLookup;
-@property(readonly, nonatomic) NSMapTable *objectPropertyHashLookup; // @synthesize objectPropertyHashLookup=_objectPropertyHashLookup;
-@property(readonly, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface IDSFoundation.IDSLinkQualityMonitorPlugin
 {
     id name;
-    id allowedOverheadPerExistingPacket;
-    id allowedAdditionalPacketsPerSecond;
-    id allowedAdditionalPacketsPerSecondWhenPassive;
-    id timeSource;
 }
 
 @end

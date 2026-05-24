@@ -8,15 +8,15 @@
 {
 }
 
-+ (void);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)shouldSubstituteAttachments;
++ (_Bool)knownApplicationForBundleIdentifier:(id)arg1;
++ (void)completeWithMetadata:(id)arg1;
++ (void)completeUsingApplication:(id)arg1 kind:title:thumbnail:icon: /* Error: Ran out of types for this method. */;
++ (void)completeUsingApplication:kind:title:thumbnail:icon: /* Error: Ran out of types for this method. */;
++ (void)_waitForAsynchronouslyLoadedImageIfNeeded;
++ (void)_visualEffectView;
 + (id);
-+ (void);
++ (void)alphanumericCharacterSet;
 
 @end
 

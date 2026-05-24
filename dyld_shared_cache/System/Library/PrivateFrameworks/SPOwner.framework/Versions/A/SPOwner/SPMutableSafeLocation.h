@@ -6,17 +6,12 @@
 
 #import <SPOwner/SPSafeLocation.h>
 
-@class CLLocation, NSString;
-
 @interface SPMutableSafeLocation : SPSafeLocation
 {
 }
 
 
 // Remaining properties
-@property(nonatomic) long long approvalState; // @dynamic approvalState;
-@property(copy, nonatomic) CLLocation *location; // @dynamic location;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
 @property(nonatomic) long long type; // @dynamic type;
 @end
 

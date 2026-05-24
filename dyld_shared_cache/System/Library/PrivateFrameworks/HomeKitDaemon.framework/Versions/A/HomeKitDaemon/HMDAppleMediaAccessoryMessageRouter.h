@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDispatcher, NSString, NSUUID;
-@protocol HMDAppleMediaAccessoryMessageRouterDataSource;
+@class HMFMessageDispatcher, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryMessageRouter
 {
     NSUUID *_identifier;
-    id <HMDAppleMediaAccessoryMessageRouterDataSource> _dataSource;
-    HMFMessageDispatcher *_messageDispatcher;
 }
 
 + (id)ÿB;
@@ -21,24 +18,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)AutoCalculator.m;
 - (void);
 - (id);
 - (id)p ;ÔÃ;
-- (void)steredItems;
+- (void)RegisteredItems;
 - (id)À;
 
 // Remaining properties
-@property __weak id <HMDAppleMediaAccessoryMessageRouterDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _SFKeySpecifier;
+@class _SFKeySpecifier, _SFSignedData;
 
 @protocol SFSigningOperation
+- (_SFKeySpecifier *)J;
+- (_SFSignedData *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) _SFKeySpecifier *signingKeySpecifier;

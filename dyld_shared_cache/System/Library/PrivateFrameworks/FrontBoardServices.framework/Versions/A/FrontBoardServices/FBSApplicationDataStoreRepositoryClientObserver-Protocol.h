@@ -5,5 +5,8 @@
 //
 
 @protocol FBSApplicationDataStoreRepositoryClientObserver
+
+@optional
+- (void);
 @end
 

@@ -9,48 +9,40 @@
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleScores
 {
     COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *_globalCohorts;
-    COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *_sourceChannelCohorts;
-    NSMutableArray *_topicCohortScores;
-    NSMutableArray *_topicCohorts;
 }
 
 + (Class);
 + (Class);
+- (id);
+- (void);
+- (void)gger:fromCircuit:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)+;
+- (void)softAPChannelChangedEvent:channelNumber: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (id);
+- (id)d;
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)c;
+- (void)(%x);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
 - (_Bool);
+- (void);
+- (unsigned long long)T_ohHxOYDQO2H18QDNzaJTQ;
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void)setHasThumbnail:(id)arg1;
-- (void)lectedResultFeedIds;
-- (id);
-- (id)ey;
+- (void)clearNonSelectedResultFeedIds;
+- (id)_recordRetrieveResponse;
+- (id)wrapping_key;
 
 // Remaining properties
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *globalCohorts; // @synthesize globalCohorts=_globalCohorts;
-@property(readonly, nonatomic) _Bool hasGlobalCohorts;
-@property(readonly, nonatomic) _Bool hasSourceChannelCohorts;
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *sourceChannelCohorts; // @synthesize sourceChannelCohorts=_sourceChannelCohorts;
-@property(retain, nonatomic) NSMutableArray *topicCohortScores; // @synthesize topicCohortScores=_topicCohortScores;
 @property(retain, nonatomic) NSMutableArray *topicCohorts; // @synthesize topicCohorts=_topicCohorts;
 
 @end

@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFMouseCursorImage, AXVOverlayWindow, CALayer;
+@class AXVOverlayWindow;
 
 @interface AXVMouseCursor
 {
     _Bool __atomicKeepCursorImageSynchronizedWithSystem;
-    AXVOverlayWindow *__overlayWindow;
-    CALayer *__imageLayer;
-    AXFMouseCursorImage *__atomicCursorImage;
-    double __atomicCursorScale;
-    struct CGPoint __atomicLocation;
 }
 
+- (void)?%@qa;
+- (void);
+- (void)T);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)5T;
 - (_Bool);
 - (double);
 - (id);
@@ -40,24 +35,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (struct CGPoint);
 - (void);
-- (_Bool)lToAnchor: /* Error: Ran out of types for this method. */;
+- (_Bool)constraintGreaterThanOrEqualToAnchor: /* Error: Ran out of types for this method. */;
 - (void)ÿÜÈ};
 
 // Remaining properties
-@property(retain) AXFMouseCursorImage *_atomicCursorImage; // @synthesize _atomicCursorImage=__atomicCursorImage;
-@property double _atomicCursorScale; // @synthesize _atomicCursorScale=__atomicCursorScale;
-@property _Bool _atomicKeepCursorImageSynchronizedWithSystem; // @synthesize _atomicKeepCursorImageSynchronizedWithSystem=__atomicKeepCursorImageSynchronizedWithSystem;
-@property struct CGPoint _atomicLocation; // @synthesize _atomicLocation=__atomicLocation;
-@property(retain, nonatomic) CALayer *_imageLayer; // @synthesize _imageLayer=__imageLayer;
 @property(retain, nonatomic) AXVOverlayWindow *_overlayWindow; // @synthesize _overlayWindow=__overlayWindow;
-@property(retain) AXFMouseCursorImage *cursorImage;
-@property double cursorScale;
-@property _Bool keepCursorImageSynchronizedWithSystem;
-@property struct CGPoint location;
-@property(readonly, nonatomic) _Bool visible;
 
 @end
 

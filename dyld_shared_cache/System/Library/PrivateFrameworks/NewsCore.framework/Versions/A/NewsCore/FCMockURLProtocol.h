@@ -12,7 +12,7 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (id);
++ (id)istLocalizationsWithError:(id)arg1 ]_block_invoke;
 + (id);
 - (void);
 - (void);

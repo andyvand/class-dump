@@ -6,18 +6,16 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSDate, NSNumber, PKPaginatedWebServiceResponse;
+@class PKPaginatedWebServiceResponse;
 
 @interface PKPaymentWebServicePaginatedRequest : PKPaymentWebServiceRequest
 {
     PKPaginatedWebServiceResponse *_lastPageResponse;
-    NSDate *_lastUpdated;
-    NSNumber *_limit;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (id)0@ù
 × ;
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKPaginatedWebServiceResponse *lastPageResponse; // @synthesize lastPageResponse=_lastPageResponse;
-@property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(copy, nonatomic) NSNumber *limit; // @synthesize limit=_limit;
 
 @end
 

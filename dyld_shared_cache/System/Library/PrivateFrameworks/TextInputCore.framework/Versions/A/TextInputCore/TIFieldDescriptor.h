@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 @interface TIFieldDescriptor
 {
     NSString *_fieldName;
-    NSString *_fieldDescription;
-    NSString *_metricName;
-    NSString *_metricType;
-    NSObject *_inactiveValue;
 }
 
 + (id);
@@ -26,11 +22,7 @@
 - (id)findRecordsMatchingRecipient:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *fieldDescription; // @synthesize fieldDescription=_fieldDescription;
 @property(readonly, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(readonly, nonatomic) NSObject *inactiveValue; // @synthesize inactiveValue=_inactiveValue;
-@property(readonly, nonatomic) NSString *metricName; // @synthesize metricName=_metricName;
-@property(readonly, nonatomic) NSString *metricType; // @synthesize metricType=_metricType;
 
 @end
 

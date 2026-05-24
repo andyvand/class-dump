@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface VNStatefulRequestConfiguration : VNImageBasedRequestConfiguration
 {
     NSUUID *_requestUUID;
-    CDStruct_1b6d18a9 _frameAnalysisSpacing;
 }
 
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (id)¼L;
 - (id)ðõôÿöôÿ,öôÿDöôÿøöôÿ÷ôÿX÷ôÿô÷ôÿ(øôÿÌøôÿäøôÿüøôÿ ùôÿDùôÿùôÿ¤ùôÿÈùôÿàùôÿLúôÿpúôÿúôÿÐúôÿôúôÿdûôÿüôÿDýôÿ\ýôÿýôÿ¤ýôÿàýôÿþôÿ(þôÿ@þôÿdþôÿþôÿÄþôÿèþôÿ¤ÿôÿÈÿôÿìÿôÿ(;
-- (void)oregroundbackgroundsegmenter;
+- (void)foregroundbackgroundsegmenter;
 
 // Remaining properties
-@property CDStruct_1b6d18a9 frameAnalysisSpacing; // @synthesize frameAnalysisSpacing=_frameAnalysisSpacing;
-@property(readonly) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
+@property CDStruct_198678f7 frameAnalysisSpacing; // @synthesize frameAnalysisSpacing=_frameAnalysisSpacing;
 
 @end
 

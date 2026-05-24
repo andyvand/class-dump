@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (void);
++ (void):(id)arg1 %{public}@;
 
 @end
 

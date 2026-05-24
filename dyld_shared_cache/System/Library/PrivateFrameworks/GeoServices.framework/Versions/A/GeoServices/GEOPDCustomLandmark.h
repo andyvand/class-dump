@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGeographicCoordinate, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCustomLandmark
 {
     PBUnknownFields *_unknownFields;
-    GEOPDGeographicCoordinate *_position;
-    unsigned int _landmarkId;
-    struct {
-        unsigned int has_landmarkId:1;
-    } _flags;
 }
 
 - (id);

@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLLanguageModelState, NSMutableDictionary, PRNLPLanguageModel;
+@class PRNLPLanguageModel;
 
 __attribute__((visibility("hidden")))
 @interface PRNLPLanguageModelState
 {
     PRNLPLanguageModel *_languageModel;
-    NLLanguageModelState *_state;
-    NSMutableDictionary *_cachedPredictionsDictionary;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)?kA+;
 - (id);
 
 // Remaining properties

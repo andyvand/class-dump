@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id);
+- (void)red presentation transition assertion.;
+- (id).@9-;
 - (void);
 - (void)ÛÜ×Ð/(#$º½¶±NIBE`glküûð÷&!*-ÒÕÞÙ|s±ëÔ~\¸«:/u®Ê /* Error: Ran out of types for this method. */;
 

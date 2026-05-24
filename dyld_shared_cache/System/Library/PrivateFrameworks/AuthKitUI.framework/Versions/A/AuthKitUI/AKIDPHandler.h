@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKServerRequestConfiguration, AKURLRequestApprover, NSString;
-@protocol AKIDPHandlerDelegate;
+@class AKURLRequestApprover;
 
 @interface AKIDPHandler
 {
     AKURLRequestApprover *_redirectApprover;
-    AKServerRequestConfiguration *_configuration;
-    id <AKIDPHandlerDelegate> _delegate;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
@@ -28,22 +24,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) AKServerRequestConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKIDPHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

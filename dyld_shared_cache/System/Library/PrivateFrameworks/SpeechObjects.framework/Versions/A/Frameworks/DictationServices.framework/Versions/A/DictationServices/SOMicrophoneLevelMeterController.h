@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SOAudioQueueRecorder;
-@protocol SOMicrophoneViewMeterLevelConsumer, SOMicrophoneViewMeterLevelProvider;
+@class SOAudioQueueRecorder;
 
 @interface SOMicrophoneLevelMeterController
 {
     SOAudioQueueRecorder *_microphoneRecorder;
-    _Bool _bounceMicrophoneMeter;
-    _Bool _preventDictationModeWhileListening;
-    _Bool _ignoreMinimumMeterLevel;
-    float _peakMeterLevel;
-    NSString *_microphoneID;
-    struct __CVDisplayLink *_displayLink;
-    float _runningPowerLevels[4];
-    unsigned char _powerPointer;
-    id <SOMicrophoneViewMeterLevelProvider> _meterValueProviderTarget;
-    id <SOMicrophoneViewMeterLevelConsumer> _meterValueConsumerTarget;
-    _Bool _bounceMeter;
 }
 
-- (void);
+- (void)1a;
 - (void);
 - (void);
 - (void);
@@ -33,9 +21,9 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)C;
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,19 +35,13 @@
 - (void);
 - (float);
 - (float);
-- (void);
+- (void);
 - (void);
 - (float);
-- (void);
+- (void)t;
 
 // Remaining properties
-@property(nonatomic) _Bool bounceMeter; // @synthesize bounceMeter=_bounceMeter;
-@property(nonatomic) _Bool bounceMicrophoneMeter; // @synthesize bounceMicrophoneMeter=_bounceMicrophoneMeter;
-@property(nonatomic) _Bool ignoreMinimumMeterLevel; // @synthesize ignoreMinimumMeterLevel=_ignoreMinimumMeterLevel;
-@property(retain, nonatomic) id <SOMicrophoneViewMeterLevelConsumer> meterValueConsumerTarget; // @synthesize meterValueConsumerTarget=_meterValueConsumerTarget;
-@property(retain, nonatomic) id <SOMicrophoneViewMeterLevelProvider> meterValueProviderTarget; // @synthesize meterValueProviderTarget=_meterValueProviderTarget;
 @property(readonly, nonatomic) SOAudioQueueRecorder *microphoneRecorder; // @synthesize microphoneRecorder=_microphoneRecorder;
-@property _Bool preventDictationModeWhileListening; // @synthesize preventDictationModeWhileListening=_preventDictationModeWhileListening;
 
 @end
 

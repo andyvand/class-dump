@@ -9,33 +9,15 @@
 @interface SwiftUI.HostingScrollView : UIKitScrollViewBase
 {
     id viewType;
-    id host;
-    id parentContainer;
-    id responder;
-    id layoutDirection;
-    id rtlAdjustment;
-    id onScrollToTopGesture;
-    id descendantScrollableAxes;
-    id helper;
-    id pendingContext;
-    id lastAdjustedContentInsets;
-    id animationTarget;
-    id animationTargetConfig;
-    id animationOffset;
-    id safeAreaTransitionState;
-    id oldContentMargins;
-    id viewGraph;
-    id pinnedViews;
-    id configuration;
 }
 
-+ (_Bool);
++ (_Bool)";
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (struct CGRect);
 - (struct CGRect);
@@ -47,9 +29,7 @@
 - (void)©^Ðó§;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _shouldScrollToContentBeginningInRightToLeft;
 @property(nonatomic) struct CGRect bounds;
-@property(nonatomic) struct CGRect frame;
 
 @end
 

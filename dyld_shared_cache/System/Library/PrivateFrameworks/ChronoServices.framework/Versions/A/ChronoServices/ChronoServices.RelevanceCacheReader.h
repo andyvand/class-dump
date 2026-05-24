@@ -7,9 +7,6 @@
 @interface ChronoServices.RelevanceCacheReader
 {
     id cacheRoot;
-    id lock;
-    id archiver;
-    id data;
 }
 
 @end

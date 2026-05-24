@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSURL, REMTemplatePublicLinkConfiguration;
+@class NSURL;
 
 @interface REMTemplatePublicLink
 {
     _Bool _canBeUpdated;
-    NSURL *_url;
-    REMTemplatePublicLinkConfiguration *_configuration;
-    NSDate *_creationDate;
-    NSDate *_lastModifiedDate;
-    NSDate *_expirationDate;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (id)92;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)h
+;
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)eCaptchaWidget(u.backingElement)&&(a=!1),{formMetadata:this._getOrCreateCachedMetadataForLogicalForm(u),shouldSubmit:a}}_isInputAllowedInSearchForm(e,t){var r=this._getTagName(e).toLowerCase();if("button"===r||"fieldset"===r)return!0;if("select"===r)return!t||isSelectInDefaultState(e);if("input"!==r&&!this._textAreaElementLookLikeItIsPartOfASearchForm(e))return!1;var n=e.type;return"radio"===n||"checkbox"===n?!t||isCheckboxOrRadioButtonInDefaultState(e):"hidden"===n||"reset"===n||"submit"===n||"button"===n||"image"===n||this._isTextField(e)&&!this._isSecureTextField(e)}isSearchForm(e,t){if("get"!==e.method)return!1;for(var r=elementsInFormPiercingShadowDOM(e),n=r.length,o=0;o<n;++o)if(!this._isInputAllowedInSearchForm(r[o],t))return!1;return!0}_textAreaElementLookLikeItIsPartOfASearchForm(e){return!!this._isTextArea(e)&&("search"===e.getAttribute("type")||("search"===e.inputMode||"search"===e.getAttribute("enterkeyhint")))}_shouldInputBeIncludedInSearchURLQuery(e){if(e.disabled)return!1;if(!e.name.length)return!1;if(!e.value.length)return!1;if(isSelectElement(e))return!0;var t=this._getTagName(e).toLowerCase(),r=e.type;return"button"===t?"submit"===r:"input"===t&&("submit"===r||("checkbox"===r||"radio"===r?e.checked:"hidden"===r||this._isTextField(e)))}_isSubmitButton(e){return(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)&&(e.type&&"submit"===e.type)}_isCustomFormButton(e){return"button"===e.type&&(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)}_isCheckboxInputElement(e){return"checkbox"===e.type&&e instanceof HTMLInputElement}_setQueryString(e,t){var r=document.createElement("a");return r.href=e,r.search=t,r.href}searchTextFieldFormSubmissionURLString(e,t){if(visibilityCacheGeneration++,!this._isTextField(e)||this._isSecureTextField(e)||!e.isVisible())return null;var r=e.form;if(!r)return null;var n=r.getAttribute("action");if(!n||!n.length)return null;if(!/^https?:/i.test(r.action))return null;if(!this.isSearchForm(r,t))return null;for(var o=null,i="",l=elementsInFormPiercingShadowDOM(r),a=l.length,s=0;s<a;++s){var u=l[s];if((u===e||this._shouldInputBeIncludedInSearchURLQuery(u))&&(!this._isSubmitButton(u)||(o||(o=u),u===o))){i.length&&(i+="&");var c=u===e?"{searchTerms}":urlEncode(u.value);i+=urlEncode(u.name)+"="+c}}return this._setQueryString(r.action,i)}_collectExtraControlMetadata(e,t){let r=e.getAttribute("passwordrules");r?t.ControlPasswordRules=r:"\\d*"===e.pattern&&(t.ControlPasswordRules="allowed:digit;")}removeAutomaticStrongPasswordFromPasswordElement(e){let t=this.formControlWithUniqueID(e);t&&this._isTextField(t)&&(this.clearField(e),this._updateAnnotationsForField(t),FormMetadataJSController.setInputElementAutofilled(t,!1))}}var FormMetadataJS=new FormMetadata;
+0; /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeUpdated; // @synthesize canBeUpdated=_canBeUpdated;
-@property(readonly, nonatomic) REMTemplatePublicLinkConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

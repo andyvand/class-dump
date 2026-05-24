@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)isAccessibilityUserDefinedElement;
 + (void);
 - (unsigned long long);
 

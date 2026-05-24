@@ -11,12 +11,9 @@
 @interface FCNewsTabiPersonalizedPaywallsConfiguration : FCNewsTabiEndpointConfiguration
 {
     _Bool _omitHardFollows;
-    NSString *_contextFeatureKey;
-    NSString *_channelIDsOutputName;
-    NSString *_scoresOutputName;
 }
 
-- (void);
+- (void)u&;
 - (void);
 - (void);
 - (void);
@@ -28,13 +25,10 @@
 - (id);
 - (id)!8@ùQ(	ð1Â0@ù
 × ;
-- (void)unchConditions;
+- (void)suppressOnLaunchConditions;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *channelIDsOutputName; // @synthesize channelIDsOutputName=_channelIDsOutputName;
 @property(retain, nonatomic) NSString *contextFeatureKey; // @synthesize contextFeatureKey=_contextFeatureKey;
-@property(nonatomic) _Bool omitHardFollows; // @synthesize omitHardFollows=_omitHardFollows;
-@property(retain, nonatomic) NSString *scoresOutputName; // @synthesize scoresOutputName=_scoresOutputName;
 
 @end
 

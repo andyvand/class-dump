@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface THAController
 {
     _Bool _supportsSiri;
-    _Bool _connected;
-    _Bool _selected;
-    unsigned int _identifier;
-    NSString *_name;
-    unsigned long long _ticksPerSecond;
-    NSSet *_selectedButtons;
 }
 
 + (id);
@@ -24,27 +18,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool),
+	Removed:(id)arg1 %{private}@;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned int)inationManagerFactory;
+- (unsigned int)HMDMediaDestinationManagerFactory;
 - (void)nabled from %@ to %@;
 - (void)ic}@Presence Event Condition requires shared-trigger-activation capable homehub;
-- (void):fault /* Error: Ran out of types for this method. */;
+- (void)uninitialized:fault /* Error: Ran out of types for this method. */;
 - (void)`;
 - (_Bool)ë;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, nonatomic) unsigned int identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 @property(retain, nonatomic) NSSet *selectedButtons; // @synthesize selectedButtons=_selectedButtons;
-@property(nonatomic) _Bool supportsSiri; // @synthesize supportsSiri=_supportsSiri;
-@property(nonatomic) unsigned long long ticksPerSecond; // @synthesize ticksPerSecond=_ticksPerSecond;
 
 @end
 

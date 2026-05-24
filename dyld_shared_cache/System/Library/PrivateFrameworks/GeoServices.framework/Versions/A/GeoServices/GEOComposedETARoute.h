@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOETATrafficUpdateWaypointRoute, NSArray, NSDate, NSUUID;
+@class NSUUID;
 
 @interface GEOComposedETARoute
 {
     NSUUID *_uniqueRouteID;
-    NSUUID *_etauResponseID;
-    NSDate *_responseDate;
-    NSArray *_legs;
-    NSDate *_serverDisplayETA;
-    _Bool _hasValidTravelDurations;
-    double _travelDuration;
-    double _historicTravelDuration;
-    double _travelDurationAggressiveEstimate;
-    double _travelDurationConservativeEstimate;
-    double _length;
-    CDStruct_3f2a7a20 _startRouteCoordinate;
-    unsigned long long _startingStepIndex;
-    GEOETATrafficUpdateWaypointRoute *_geoETAWaypointRoute;
-    NSArray *_routeOverviewDescriptionStrings;
 }
 
 + (_Bool)resource in %{private}@ directory for '%{private}@';
@@ -33,51 +19,36 @@
 - (double);
 - (double);
 - (double);
-- (CDStruct_3f2a7a20);
+- (CDStruct_3f2a7a20);
 - (id);
-- (_Bool);
+- (_Bool)16;
+- (id)setCurrentProcessHasError:forEntitlement: /* Error: Ran out of types for this method. */;
+- (id)normalizedComponentsFromDate:calendar:timeZone: /* Error: Ran out of types for this method. */;
+- (void)initWithUrlString:username:userIdentifier:service:displayName: /* Error: Ran out of types for this method. */;
+- (id)enumerateMatchesWithRegexPattern:(id)arg1 inString:withBlock: /* Error: Ran out of types for this method. */;
+- (double)hInfo;
+- (_Bool)_userIdentifier;
+- (id)sult:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
-- (double);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)flickr.com/photos/%@;
+- (id)FACEBOOK;
+- (id)CNPostalAddressValues;
 - (double);
 - (unsigned long long);
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)	;
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)Q;
 - (void);
 - (id)»4;
 - (void)ôþ;
 
 // Remaining properties
 @property(readonly, nonatomic) double _hypothesis_travelDuration;
-@property(readonly, nonatomic) double _hypothesis_travelDurationAggressiveEstimate;
-@property(readonly, nonatomic) double _hypothesis_travelDurationConservativeEstimate;
-@property(readonly, nonatomic) NSUUID *etauResponseID; // @synthesize etauResponseID=_etauResponseID;
-@property(readonly, nonatomic) _Bool hasValidTravelDurations; // @synthesize hasValidTravelDurations=_hasValidTravelDurations;
-@property(readonly, nonatomic) double historicTravelDuration; // @synthesize historicTravelDuration=_historicTravelDuration;
-@property(readonly, nonatomic) NSArray *legs; // @synthesize legs=_legs;
-@property(readonly, nonatomic) double length; // @synthesize length=_length;
-@property(readonly, nonatomic) NSDate *responseDate; // @synthesize responseDate=_responseDate;
-@property(readonly, nonatomic) NSArray *routeOverviewDescriptionStrings; // @synthesize routeOverviewDescriptionStrings=_routeOverviewDescriptionStrings;
-@property(readonly, nonatomic) NSDate *serverDisplayETA; // @synthesize serverDisplayETA=_serverDisplayETA;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 startRouteCoordinate; // @synthesize startRouteCoordinate=_startRouteCoordinate;
-@property(readonly, nonatomic) double travelDuration; // @synthesize travelDuration=_travelDuration;
-@property(readonly, nonatomic) double travelDurationAggressiveEstimate; // @synthesize travelDurationAggressiveEstimate=_travelDurationAggressiveEstimate;
-@property(readonly, nonatomic) double travelDurationConservativeEstimate; // @synthesize travelDurationConservativeEstimate=_travelDurationConservativeEstimate;
-@property(readonly, nonatomic) NSUUID *uniqueRouteID; // @synthesize uniqueRouteID=_uniqueRouteID;
 
 @end
 

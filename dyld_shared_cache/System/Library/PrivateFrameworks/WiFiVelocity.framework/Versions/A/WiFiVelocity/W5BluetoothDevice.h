@@ -9,42 +9,26 @@
 @interface W5BluetoothDevice
 {
     _Bool _isPaired;
-    _Bool _isCloudPaired;
-    _Bool _isConnected;
-    _Bool _isAppleDevice;
-    _Bool _isLowEnergy;
-    NSString *_name;
-    NSString *_address;
-    unsigned long long _majorClass;
-    unsigned long long _minorClass;
-    long long _rssi;
-    NSString *_afhMap;
-    long long _connectionMode;
-    unsigned long long _connectionModeInterval;
-    long long _manufacturer;
-    unsigned long long _lmpVersion;
-    unsigned long long _lmpSubversion;
-    long long _role;
 }
 
 + (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)lib/libSystem.B.dylib;
+- (unsigned long long)__objc_classname__TEXT;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)__oslogstring;
+- (_Bool)__objc_methlist;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)@m;
 - (void);
 - (void);
 - (_Bool);
@@ -53,19 +37,19 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)on;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
+- (long long)RE;
+- (_Bool)modelLoadTimeWithReply: /* Error: Ran out of types for this method. */;
 - (long long);
-- (_Bool);
-- (long long);
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -73,23 +57,7 @@
 - (_Bool)ple;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(copy, nonatomic) NSString *afhMap; // @synthesize afhMap=_afhMap;
-@property(nonatomic) long long connectionMode; // @synthesize connectionMode=_connectionMode;
-@property(nonatomic) unsigned long long connectionModeInterval; // @synthesize connectionModeInterval=_connectionModeInterval;
-@property(nonatomic) _Bool isAppleDevice; // @synthesize isAppleDevice=_isAppleDevice;
-@property(nonatomic) _Bool isCloudPaired; // @synthesize isCloudPaired=_isCloudPaired;
-@property(nonatomic) _Bool isConnected; // @synthesize isConnected=_isConnected;
-@property(nonatomic) _Bool isLowEnergy; // @synthesize isLowEnergy=_isLowEnergy;
-@property(nonatomic) _Bool isPaired; // @synthesize isPaired=_isPaired;
-@property(nonatomic) unsigned long long lmpSubversion; // @synthesize lmpSubversion=_lmpSubversion;
-@property(nonatomic) unsigned long long lmpVersion; // @synthesize lmpVersion=_lmpVersion;
-@property(nonatomic) unsigned long long majorClass; // @synthesize majorClass=_majorClass;
-@property(nonatomic) long long manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(nonatomic) unsigned long long minorClass; // @synthesize minorClass=_minorClass;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long role; // @synthesize role=_role;
-@property(nonatomic) long long rssi; // @synthesize rssi=_rssi;
 
 @end
 

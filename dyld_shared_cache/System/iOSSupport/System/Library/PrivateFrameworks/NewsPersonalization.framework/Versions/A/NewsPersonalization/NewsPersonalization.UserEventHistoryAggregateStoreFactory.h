@@ -7,16 +7,6 @@
 @interface NewsPersonalization.UserEventHistoryAggregateStoreFactory
 {
     id userEventHistory;
-    id sessionLimit;
-    id configurationManager;
-    id aggregateStoreMetadataEndpoint;
-    id cachedAggregateStoreURL;
-    id subscriptionController;
-    id readingHistory;
-    id headlineService;
-    id lazyStore;
-    id refreshQueue;
-    id sizeFormatter;
 }
 
 @end

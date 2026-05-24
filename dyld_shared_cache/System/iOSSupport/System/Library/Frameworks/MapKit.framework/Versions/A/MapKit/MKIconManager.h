@@ -9,6 +9,7 @@
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -31,8 +32,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void);
++ (void)i;
 + (void);
 + (struct CGColor *);
 + (struct CGColor *);

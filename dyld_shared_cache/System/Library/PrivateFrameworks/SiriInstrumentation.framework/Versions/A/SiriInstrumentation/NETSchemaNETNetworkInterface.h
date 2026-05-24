@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NETSchemaNETNetworkInterface : SISchemaInstrumentationMessage
 {
     NSString *_name;
-    int _connectionType;
-    struct {
-        unsigned int connectionType:1;
-    } _has;
-    _Bool _hasName;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)street;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -37,14 +32,10 @@
 - (id);
 - (id)vocationCounts",&,N,V_counts;
 - (void).;
-- (void)msCaller;
+- (void)gmsCaller;
 - (void)IFPlatformRequestSchemaIFPlatformRequestClientEvent;
 
 // Remaining properties
-@property(nonatomic) int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasName; // @synthesize hasName=_hasName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

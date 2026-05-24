@@ -6,20 +6,17 @@
 
 #import <SyncServices/ISDDataObject.h>
 
-@class ISDEntity, NSArray, NSString;
+@class NSString;
 
 @interface ISDEntityComponent : ISDDataObject
 {
     NSString *_extensionName;
-    ISDEntity *_entity;
-    NSArray *_attributes;
-    NSArray *_relationships;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -29,7 +26,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (id);

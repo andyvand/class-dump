@@ -6,34 +6,30 @@
 
 #import <ChatKit/CKEffectPickerView.h>
 
-@class ChatKit.CKEffectPickerStylingMetrics;
-
 @interface CKEffectPickerLargeTextView : CKEffectPickerView
 {
     _Bool _finishedInitializing;
-    ChatKit.CKEffectPickerStylingMetrics *_stylingMetrics;
 }
 
-- (id);
-- (_Bool);
-- (void);
+- (id)_displayingSnippet;
+- (_Bool)ontroller;
+- (void)isVideo;
 - (void);
 - (void);
 - (double);
-- (double);
-- (id);
-- (_Bool);
+- (double).;
+- (id)e;
+- (_Bool)t;
+- (void)zedStringForICFilterType for ICFilterTypeUnknown.;
+- (void)atch INLINE_MENU_PLEASE_READ_COMMENTS selected tags.;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (void)Dÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool finishedInitializing; // @synthesize finishedInitializing=_finishedInitializing;
-@property(retain, nonatomic) ChatKit.CKEffectPickerStylingMetrics *stylingMetrics; // @synthesize stylingMetrics=_stylingMetrics;
 
 @end
 

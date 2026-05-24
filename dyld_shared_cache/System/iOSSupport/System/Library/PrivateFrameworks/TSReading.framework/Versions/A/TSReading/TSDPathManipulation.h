@@ -10,7 +10,7 @@
 }
 
 - (struct CGPath *);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 

@@ -6,15 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UILabel, UITapGestureRecognizer;
-@protocol _UICollectionTableIndexOverlayHost;
+@class NSString, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionTableIndexOverlayIndicatorView : UIView
 {
     UILabel *_label;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    id <_UICollectionTableIndexOverlayHost> _host;
 }
 
 - (void);

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSTextStorage, NSTextView;
-@protocol CDPUIAccessCodeEntryTextFieldDelegate;
+@class NSSet, NSTextStorage;
 
 @interface CDPUIAccessCodeEntryTextField
 {
     NSSet *_separatorLocations;
-    NSSet *_separatorDeleteLocations;
-    NSString *_placeholder;
-    id <CDPUIAccessCodeEntryTextFieldDelegate> _accessCodeInputDelegate;
-    NSTextStorage *_localTextStorage;
-    NSTextStorage *_placeholderTextStorage;
-    NSTextView *_placeholderTextView;
 }
 
 + (unsigned long long);
@@ -29,40 +22,28 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
+- (id)qa;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) __weak id <CDPUIAccessCodeEntryTextFieldDelegate> accessCodeInputDelegate; // @synthesize accessCodeInputDelegate=_accessCodeInputDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isComplete;
 @property(retain, nonatomic) NSTextStorage *localTextStorage; // @synthesize localTextStorage=_localTextStorage;
-@property(copy, nonatomic) NSString *placeholder; // @synthesize placeholder=_placeholder;
-@property(retain, nonatomic) NSTextStorage *placeholderTextStorage; // @synthesize placeholderTextStorage=_placeholderTextStorage;
-@property(retain, nonatomic) NSTextView *placeholderTextView; // @synthesize placeholderTextView=_placeholderTextView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface _SwiftData_SwiftUI.CustomModelContainerState__priv_C0145BB3D356D4B01704777C3D5D3ACC.ResolvedModelContainer
 {
     id result;
+    id;
 }
 
 @end

@@ -12,23 +12,21 @@
 }
 
 + (void)sionProperty_FieldMode_BothFields, kVTDecompressionProperty_FieldMode_TopFieldOnly, kVTDecompressionProperty_FieldMode_BottomFieldOnly, kVTDecompressionProperty_FieldMode_SingleField, or kVTDecompressionProperty_FieldMode_DeinterlaceFields;
+- (void)_allowUtteranceCompletionDelay;
+- (void)char_traits<char>, std:(_Bool)arg1:allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (_Bool)tFilter;
+- (_Bool)_EARSpeechRecognitionActiveConfiguration;
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)t: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)mptcpFallbackPort;
 
 // Remaining properties
-@property(nonatomic) _Bool detectsCustomRoutes;
-@property(readonly) _Bool multipleRoutesDetected;
 @property(getter=isRouteDetectionEnabled) _Bool routeDetectionEnabled;
 
 @end

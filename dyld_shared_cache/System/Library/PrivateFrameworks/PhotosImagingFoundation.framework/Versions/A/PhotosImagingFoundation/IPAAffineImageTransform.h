@@ -9,10 +9,9 @@
 @interface IPAAffineImageTransform : IPAImageTransform
 {
     _Bool _canAlignToPixelsExactly;
-    struct Matrix4d _matrix;
 }
 
-- (struct Vector2d);
+- (struct Vector2d)RandomAccessController;
 - (id);
 - (_Bool);
 - (id);

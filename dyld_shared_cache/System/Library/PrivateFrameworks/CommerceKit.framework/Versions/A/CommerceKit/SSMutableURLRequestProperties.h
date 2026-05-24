@@ -6,39 +6,27 @@
 
 #import <CommerceKit/SSURLRequestProperties.h>
 
-@class NSData, NSDictionary, NSString, NSURL;
-
 @interface SSMutableURLRequestProperties : SSURLRequestProperties
 {
 }
 
+- (void)lesEvaluationIfNeeded];
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)frantically;
+- (void)stem/Library/LinguisticData;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)eInterface;
+- (void)commerceServiceInterface;
 
 // Remaining properties
-@property(copy) NSData *HTTPBody; // @dynamic HTTPBody;
-@property(copy) NSDictionary *HTTPHeaders; // @dynamic HTTPHeaders;
-@property(copy) NSString *HTTPMethod; // @dynamic HTTPMethod;
-@property(getter=isITunesStoreRequest) _Bool ITunesStoreRequest; // @dynamic ITunesStoreRequest;
-@property(retain) NSURL *URL; // @dynamic URL;
-@property(copy) NSString *URLBagKey; // @dynamic URLBagKey;
 @property long long allowedRetryCount; // @dynamic allowedRetryCount;
-@property unsigned long long cachePolicy; // @dynamic cachePolicy;
-@property(copy) NSString *clientIdentifier; // @dynamic clientIdentifier;
-@property(copy) NSDictionary *requestParameters; // @dynamic requestParameters;
-@property double timeoutInterval; // @dynamic timeoutInterval;
 
 @end
 

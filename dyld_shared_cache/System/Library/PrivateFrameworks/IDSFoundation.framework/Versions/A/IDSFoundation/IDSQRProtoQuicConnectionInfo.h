@@ -9,7 +9,6 @@
 @interface IDSQRProtoQuicConnectionInfo
 {
     NSData *_quicConnectionId;
-    int _quicConnectionType;
 }
 
 - (void);
@@ -18,19 +17,18 @@
 - (int);
 - (id);
 - (int);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ectionCount=ii}16;
+- (void)-[SFSession _activateWithCompletion:(id)arg1 ]_block_invoke;
 - (id);
 - (id);
 - (void)gChannelData:packet is too short for participant-id. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *quicConnectionId; // @synthesize quicConnectionId=_quicConnectionId;
 @property(nonatomic) int quicConnectionType; // @synthesize quicConnectionType=_quicConnectionType;
 
 @end

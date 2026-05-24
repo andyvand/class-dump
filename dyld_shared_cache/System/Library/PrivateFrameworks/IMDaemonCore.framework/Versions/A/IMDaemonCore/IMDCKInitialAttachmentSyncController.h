@@ -13,15 +13,15 @@
     CKServerChangeToken *_syncToken;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)è°Ì(ô;
 - (void)completion block record %@ changeTag %@ error %@;
 - (id)d chats with pendingReview:%{BOOL}d /* Error: Ran out of types for this method. */;

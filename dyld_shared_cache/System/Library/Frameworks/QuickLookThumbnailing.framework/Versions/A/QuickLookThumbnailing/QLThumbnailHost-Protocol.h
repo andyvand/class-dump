@@ -5,5 +5,6 @@
 //
 
 @protocol QLThumbnailHost
+- (void)Ta;
 @end
 

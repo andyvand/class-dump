@@ -11,8 +11,8 @@
     _Bool _available;
 }
 
-- (id);
-- (id);
+- (id)CFDictionary=},V_initialOptions;
+- (id)o request using link %d for group %@, session %@.;
 - (_Bool)ing new mirroring request, %@ with existing mirroring request, %@;
 
 // Remaining properties

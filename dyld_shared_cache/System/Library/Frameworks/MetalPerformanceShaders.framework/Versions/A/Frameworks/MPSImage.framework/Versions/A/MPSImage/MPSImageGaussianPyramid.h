@@ -12,7 +12,7 @@
 
 + (const struct MPSLibraryInfo *);
 - (void);
-- (id);
+- (id)i;
 - (struct MPSRegion);
 - (id);
 - (void);

@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATCreateSessionEventEnded : SISchemaInstrumentationMessage
 {
     _Bool _exist;
-    CDStruct_f0caceea _has;
 }
 
 - (void);
@@ -20,19 +17,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)4h;
+- (unsigned long long)_didUpdateCheckedStatus:ofToneClassicsPickerItem: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)sRanked";
-- (id)lxClientEvent;
+- (id)_nlxClientEvent;
 - (id)ô×;
 
 // Remaining properties
 @property(nonatomic) _Bool exist; // @synthesize exist=_exist;
-@property(nonatomic) _Bool hasExist;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

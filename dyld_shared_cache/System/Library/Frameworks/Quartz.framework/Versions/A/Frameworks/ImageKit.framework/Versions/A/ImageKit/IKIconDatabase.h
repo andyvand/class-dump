@@ -7,14 +7,13 @@
 @interface IKIconDatabase
 {
     struct __CFDictionary *_iconToIndex;
-    struct __CFDictionary *_indexToIcon;
 }
 
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (struct OpaqueIconRef *);
-- (void);
+- (void) ;
 - (void);
 - (id);
 - (void);

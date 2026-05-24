@@ -10,9 +10,9 @@
 }
 
 - (_Bool);
+- (id)B;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 
 @end

@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (id);
++ (void)e;
++ (id)ved from the folder;
 + (void);
 + (id);
 - (id);

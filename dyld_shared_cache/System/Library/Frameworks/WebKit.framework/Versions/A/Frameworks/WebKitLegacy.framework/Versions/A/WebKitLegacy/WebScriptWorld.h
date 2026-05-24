@@ -12,13 +12,13 @@
 }
 
 + (id);
-+ (id);
++ (id)eM<;
 + (id);
 + (id);
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)jecting notification due to inactive account. %{public}@;
 - (id);
 
 @end

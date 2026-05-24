@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)taSource",R,N,V_dataSource;
 - (id);
-- (id)ShowSegueTemplate;
+- (id)UIStoryboardShowSegueTemplate;
 
 @end
 

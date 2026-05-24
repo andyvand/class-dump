@@ -9,19 +9,16 @@
 @interface CKTapbackPickerContainerAccessoryView
 {
     id pickerViewController;
-    CKTapbackPickerBalloonParentView *pickerBalloonParentView;
-    id chatItem;
-    id layoutBounds;
-    id visible;
-    id delegate;
 }
 
-- (id);
+- (id)locked notes without your device passcode—not even Apple.
+
+Do you still want to know more about how your information is secured? ;
 - (id);
 - (void);
 - (struct CGPoint);
 - (id);
-- (id);
+- (id);
 - (void)Ikô¾«ÿ;
 
 // Remaining properties

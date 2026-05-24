@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol LAUIAuthenticationDelegate
+
+@optional
+- (NSString *);
+- (NSString *)a;
+- (void)X0c;
+- (void);
+- (NSString *)_localizedStringWithTimeString:rawDuration:options: /* Error: Ran out of types for this method. */;
+- (NSString *)CalDispatchQueueAsyncBlockPerformer;
 @end
 

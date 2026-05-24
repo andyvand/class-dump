@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface NSDisplayLink1
 {
     CADisplayLink *_underlyingDisplayLink;
-    struct os_unfair_lock_s _lock;
-    _Bool _isInvalid;
 }
 
-+ (id);
-+ (double);
++ (id)purpose;
++ (double)hanged:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)download:(id)arg1 decideDestinationWithSuggestedFilename:(CDUnknownBlockType)arg2;
 - (double);
 - (double);
 - (double);
@@ -31,10 +29,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)$nI;
 
 // Remaining properties
-@property double desiredInterval;
-@property(readonly) double duration;
-@property(getter=isPaused) _Bool paused;
-@property(readonly) double timestamp;
 @property(readonly, getter=isValid) _Bool valid;
 
 @end

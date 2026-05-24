@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKit._UITabBarAnimationSettings, UIKit._UITabHostedSearchContainer, UIView;
 @protocol _UITabBarContentLayoutHost;
 
 @interface _UITabBarContentLayoutManager
 {
     void host;
-    void container;
-    id currentDisplayState;
-    _Bool needsAccessoryDisplayStateUpdate;
-    id morphAnimation;
-    id hostedSearchFieldConfiguration;
-    UIKit._UITabHostedSearchContainer *searchContainerView;
-    id hostedAccessoryConfiguration;
-    id accessoryContainerView;
-    double keyboardAdjustment;
-    _Bool isUpdatingHostedElements;
-    _Bool isAnimatingBottomAccessory;
-    _Bool isHostingSearchTextField;
-    _Bool isUpdatingContentLayout;
 }
 
+- (void)@);
+- (void)we could not update it's guid %@ (rowid %@);
+- (void)***** Marking attachment with final failure, as we could not update it's guid %@ (rowid %@);
+- (void)arking unsuccessful attachments as needing sync. Last attempt date %@;
+- (void)e for me;
+- (void)d Message, Another device will relay this message for me;
+- (void)ption. Failing message;
+- (void)dWithDate salt zone was not present *********;
+- (_Bool)culating selected/all aliases;
+- (void)tMessageCommandPipelineParameter %p; editCommandGUID = %@; editedMessageGUID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
+- (void)_SMSServiceRelayToWatchOnly;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,7 +36,7 @@
 - (_Bool);
 - (double);
 - (id);
-- (void);
+- (void)`;
 - (struct CGSize);
 - (struct CGRect);
 - (void);
@@ -63,8 +49,8 @@
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
-- (void);
+- (struct CGSize)a;
+- (void)compare:(double)arg1 options: /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (id);
@@ -76,18 +62,7 @@
 - (void)sÓt;
 
 // Remaining properties
-@property(nonatomic, readonly) UIKit._UITabBarAnimationSettings *animationSettings;
-@property(nonatomic) __weak UIView *container; // @synthesize container;
 @property(nonatomic, readonly) id <_UITabBarContentLayoutHost> host; // @synthesize host;
-@property(nonatomic) _Bool isAnimatingBottomAccessory; // @synthesize isAnimatingBottomAccessory;
-@property(nonatomic) _Bool isHostingSearchTextField; // @synthesize isHostingSearchTextField;
-@property(nonatomic, readonly) _Bool isLandscapeOnPhone;
-@property(nonatomic) _Bool isUpdatingContentLayout; // @synthesize isUpdatingContentLayout;
-@property(nonatomic) _Bool isUpdatingHostedElements; // @synthesize isUpdatingHostedElements;
-@property(nonatomic) double keyboardAdjustment; // @synthesize keyboardAdjustment;
-@property(nonatomic) _Bool needsAccessoryDisplayStateUpdate; // @synthesize needsAccessoryDisplayStateUpdate;
-@property(nonatomic, retain) UIKit._UITabHostedSearchContainer *searchContainerView; // @synthesize searchContainerView;
-@property(nonatomic, readonly) _Bool showsCancelAction;
 
 @end
 

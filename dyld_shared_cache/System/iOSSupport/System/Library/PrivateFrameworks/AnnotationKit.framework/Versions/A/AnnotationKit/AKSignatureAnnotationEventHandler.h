@@ -11,7 +11,7 @@
 }
 
 - (struct CGSize);
-- (_Bool);
+- (_Bool)k;
 
 @end
 

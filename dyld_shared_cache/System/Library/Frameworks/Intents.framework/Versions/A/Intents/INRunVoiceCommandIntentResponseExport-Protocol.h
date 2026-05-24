@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INArchivedObject, NSArray, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @protocol INRunVoiceCommandIntentResponseExport
-- (long long)rDescription;
-- (long long)bleImageLoader:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSNumber *);
+- (void)N,V_sheetContent;
+- (void)device;
+- (void)mployee|comms?|communications?) meeting;
+- (long long)hasRentalCarDescription;
+- (long long)filePathForImage:usingPortableImageLoader:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *appBundleId;
 @property(readonly) long long code;
-@property(copy) NSNumber *continueRunning;
-@property(copy) NSNumber *customResponsesDisabled;
-@property long long intentCategory;
-@property(copy) NSNumber *interstitialDisabled;
-@property(copy) NSString *localizedAppName;
-@property(copy) NSDictionary *parameters;
-@property(copy) NSNumber *prefersExecutionOnCompanion;
-@property(copy) NSString *responseTemplate;
-@property(copy) NSArray *steps;
-@property long long toggleState;
-@property(copy) INArchivedObject *underlyingIntent;
-@property(copy) INArchivedObject *underlyingIntentResponse;
-@property(copy) NSString *underlyingIntentTitle;
-@property(copy) NSString *verb;
 @end
 

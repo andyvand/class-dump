@@ -9,7 +9,6 @@
 @interface PFLivePhotoExportDestination
 {
     NSURL *_photoURL;
-    NSURL *_videoURL;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly) NSURL *photoURL; // @synthesize photoURL=_photoURL;
-@property(readonly) NSURL *videoURL; // @synthesize videoURL=_videoURL;
 
 @end
 

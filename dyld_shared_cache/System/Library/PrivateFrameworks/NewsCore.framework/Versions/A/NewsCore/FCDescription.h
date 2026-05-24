@@ -4,42 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 
 @interface FCDescription
 {
     NSObject *_object;
-    Class _class;
-    void *_cfType;
-    NSString *_header;
-    NSMutableDictionary *_fields;
-    NSMutableArray *_fieldOrder;
-    unsigned long long _fieldNameWidth;
-    _Bool _commaSeparated;
 }
 
 + (id);
 + (id);
++ (id)_poiClaim;
 + (id);
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)includePostFilters;
+- (id)ionBlock;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)session:(id)arg1 discoveredPeerNamed: /* Error: Ran out of types for this method. */;
+- (void)version is not migratable;
 - (id)@"FCSportsPrivacyConfiguration"16@0:(void *)arg1 8;
 - (id);
 - (void)dSubscriptionsByType:removedSubscriptionsByType:changedSubscriptionsByType:] /* Error: Ran out of types for this method. */;
-- (void)fix;
+- (void)paidTagEvergreenArticleListIdPrefix;
 
 @end
 

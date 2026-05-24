@@ -4,76 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BackdropView, NSArray, NSLayoutConstraint, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSPopUpButton, NSScrollView, NSSet, NSString, NSTrackingArea, NSView, TabPreviewController, UnifiedTabBarButton, UnifiedTabBarClipView, UnifiedTabBarDebugView, UnifiedTabBarItem, UnifiedTabBarItemList, UnifiedTabBarLayout, WBSDispatchSourceTimer;
-@protocol UnifiedTabBarDelegate;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedTabBar
 {
     NSSet *_visibleTabBarItems;
-    NSMapTable *_tabBarItemsToTabBarButtons;
-    NSMutableSet *_visibleTabBarButtons;
-    NSMutableArray *_reusableTabBarButtons;
-    NSMapTable *_tabBarItemsToTabBarButtonSeparators;
-    NSMutableArray *_reusableTabBarButtonSeparators;
-    NSMutableDictionary *_identifiersToVisibleContainerViews;
-    NSMutableArray *_reusableContainerViews;
-    NSMutableSet *_removedTabBarItems;
-    UnifiedTabBarLayout *_currentLayout;
-    UnifiedTabBarLayout *_previousLayout;
-    NSTrackingArea *_trackingArea;
-    UnifiedTabBarButton *_highlightedTabBarButton;
-    UnifiedTabBarItem *_fallbackActivatedTabBarItem;
-    UnifiedTabBarItem *_highlightedTabBarViewItem;
-    UnifiedTabBarItem *_draggedTabBarViewItem;
-    UnifiedTabBarItem *_tabBarItemScrollTarget;
-    UnifiedTabBarDebugView *_debugView;
-    BackdropView *_backdropView;
-    BackdropView *_pinnedTabRegionBackdropView;
-    NSView *_tabContainer;
-    NSView *_pinnedTabSeparator;
-    NSPopUpButton *_pinnedTabOverflowPopUpButton;
-    NSScrollView *_scrollView;
-    UnifiedTabBarClipView *_clipView;
-    NSView *_scrollViewDocumentView;
-    TabPreviewController *_tabPreviewController;
-    UnifiedTabBarButton *_draggedTabButton;
-    NSLayoutConstraint *_detachedDraggedTabButtonWidthConstraint;
-    NSLayoutConstraint *_detachedDraggedTabButtonHeightConstraint;
-    struct CGPoint _mouseLocationForDraggedTab;
-    struct CGPoint _buttonDragAnchorPoint;
-    WBSDispatchSourceTimer *_accessibilityInteractionCleanUpTimer;
-    UnifiedTabBarItem *_centerTabBarViewItemToPrefetch;
-    NSMapTable *_prefetchedTabPreviewDataSources;
-    long long _numberOfRunningAnimations;
-    long long _totalAccessoryViewsInTabs;
-    unsigned long long _dropIndex;
-    unsigned long long _selectedVoiceOverTab;
-    unsigned long long _pinningDragState;
-    UnifiedTabBarItem *_dropLocationPlaceholder;
-    NSSet *_draggedTabBarItems;
-    NSMutableSet *_selectedTabBarItems;
-    _Bool _didLayOutAfterMovingToWindow;
-    _Bool _didScheduleAnimatedLayout;
-    _Bool _detachTabOnInitialDrag;
-    _Bool _draggedTabIsDetached;
-    _Bool _hideWindowAfterDetachingAllTabs;
-    _Bool _batchTabManipulationEnabled;
-    _Bool _cachedOverflowIsValid;
-    NSArray *_accessibilityChildren;
-    NSArray *_accessibilityVisibleChildren;
-    _Bool _isUpdatingAccessibilityChildren;
-    unsigned long long _controlSize;
-    _Bool _keepMultiSelectionForPotentialDrag;
-    _Bool _isInteractivelyClosingTabs;
-    _Bool _disableAnimations;
-    _Bool _reduceMotion;
-    _Bool _allowsScrollingPinnedTabs;
-    long long _style;
-    id <UnifiedTabBarDelegate> _delegate;
-    UnifiedTabBarItemList *_tabBarItemList;
-    UnifiedTabBarItem *_activeTabBarItem;
-    struct CGRect _unpinnedTabCenteringFrame;
 }
 
 - (_Bool);
@@ -89,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -119,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -129,23 +65,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -155,7 +91,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (id);
@@ -165,7 +101,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -208,7 +144,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)c;
 - (_Bool);
 - (id);
 - (id);
@@ -222,26 +158,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)q(;
 - (struct CGPoint);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (long long);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)action;
 - (id);
 - (void);
-- (void);
+- (void)Class - %@;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)[	;
 - (id)ning to save an account;
 - (id)Authentication session for request %{public}@ was canceled before being started;
 - (void)Ô¸;
@@ -255,28 +191,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ#ôÀ-;
 
 // Remaining properties
-@property(readonly, nonatomic) UnifiedTabBarItem *activeTabBarItem; // @synthesize activeTabBarItem=_activeTabBarItem;
-@property(nonatomic) _Bool allowsScrollingPinnedTabs; // @synthesize allowsScrollingPinnedTabs=_allowsScrollingPinnedTabs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <UnifiedTabBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableAnimations; // @synthesize disableAnimations=_disableAnimations;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool inDragDropOperation;
-@property(readonly, nonatomic) _Bool isCurrentlyScrollable;
-@property(readonly, nonatomic) _Bool isInteractivelyClosingTabs; // @synthesize isInteractivelyClosingTabs=_isInteractivelyClosingTabs;
-@property(readonly, nonatomic) UnifiedTabBarItem *lastVisibleTabBarItem;
-@property(nonatomic) _Bool reduceMotion; // @synthesize reduceMotion=_reduceMotion;
 @property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double tabBarButtonWidth;
-@property(copy, nonatomic) UnifiedTabBarItemList *tabBarItemList; // @synthesize tabBarItemList=_tabBarItemList;
-@property(readonly, nonatomic) _Bool tabsShowOnlyIcons;
-@property(nonatomic) struct CGRect unpinnedTabCenteringFrame; // @synthesize unpinnedTabCenteringFrame=_unpinnedTabCenteringFrame;
-@property(readonly, nonatomic) double widthForActiveTab;
 
 @end
 

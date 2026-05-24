@@ -9,10 +9,10 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)therBytes:(id)arg1 [%@];
 
 @end
 

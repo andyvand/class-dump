@@ -8,9 +8,9 @@
 {
 }
 
+- (void)glob;
 - (void);
-- (void);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (void);

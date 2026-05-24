@@ -18,7 +18,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)@;
 - (long long)DistributedEvaluation Export START {options:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

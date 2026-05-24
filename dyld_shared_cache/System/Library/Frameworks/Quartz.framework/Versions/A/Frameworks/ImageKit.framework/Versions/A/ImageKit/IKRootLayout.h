@@ -10,7 +10,7 @@
 
 + (id)$.ð.;
 - (struct CGSize);
-- (void);
+- (void)?-;
 
 @end
 

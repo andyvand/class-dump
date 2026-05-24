@@ -7,10 +7,10 @@
 @class GCDeviceBattery;
 
 @protocol _GCDeviceBatteryComponent
+- (void (^)(void))%;
+- (GCDeviceBattery *)+;
 
 // Remaining properties
-@property(readonly, nonatomic) GCDeviceBattery *battery;
-@property(copy, nonatomic) CDUnknownBlockType deviceBatteryComponentBatteryUpdatedHandler;
 @property(copy, nonatomic) CDUnknownBlockType deviceBatteryServiceConnectedHandler;
 @end
 

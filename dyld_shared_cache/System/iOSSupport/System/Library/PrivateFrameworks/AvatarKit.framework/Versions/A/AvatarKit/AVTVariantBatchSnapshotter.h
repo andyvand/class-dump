@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatar, AVTRenderer, AVTSnapshotHelper;
+@class AVTAvatar;
 
 __attribute__((visibility("hidden")))
 @interface AVTVariantBatchSnapshotter
 {
     AVTAvatar *_avatar;
-    AVTRenderer *_renderer;
-    struct CGSize _size;
-    double _scale;
-    unsigned long long _antialiasingMode;
-    AVTSnapshotHelper *_snapshotHelper;
 }
 
 - (id);

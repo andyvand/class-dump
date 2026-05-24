@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFocusSystem, _UIFocusGroupMap, _UIFocusMapSearchInfo, _UIFocusSearchInfo;
-@protocol UICoordinateSpace, _UIFocusRegionContainer;
+@class _UIFocusMapSearchInfo;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusMap
 {
     _Bool _minimumSearchAreaIsEmpty;
-    _Bool _trackingSearchInfo;
-    _Bool _needsSearchInfo;
-    _Bool _ignoresRootContainerClippingRect;
-    id <_UIFocusRegionContainer> _rootContainerProxy;
-    UIFocusSystem *_focusSystem;
-    id <_UIFocusRegionContainer> _rootContainer;
-    id <UICoordinateSpace> _coordinateSpace;
-    _UIFocusGroupMap *_focusGroupMap;
-    _UIFocusSearchInfo *_searchInfo;
-    _UIFocusMapSearchInfo *_defaultItemSearchInfo;
-    _UIFocusMapSearchInfo *_focusMovementSearchInfo;
-    struct CGRect _minimumSearchArea;
 }
 
 - (_Bool);
 - (void);
-- (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)40@0:8@"NSString"16@"NSUUID"24@"NSError"32 /* Error: Ran out of types for this method. */;
+- (struct CGRect)requestPendingVCInvites;
+- (id)guidForNewIncomingTransferWithFilename:(id)arg1 isDirectory:(id)arg2 totalBytes:(id)arg3 hfsType:(id)arg4 hfsCreator:(_Bool)arg5 hfsFlags: /* Error: Ran out of types for this method. */;
+- (id)guidForNewIncomingTransferWithFilename:(id)arg1 isDirectory:(id)arg2 totalBytes:hfsType:hfsCreator:hfsFlags: /* Error: Ran out of types for this method. */;
+- (id)groupTitle;
+- (id)chat:isDeletingIncomingMessagesUpdated: /* Error: Ran out of types for this method. */;
+- (void)_processRecordZoneChangeTokenUpdated:(id)arg1 zoneID:(id)arg2 clienChangeToken:syncType: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id)ption handling message sent push:(id)arg1 %@;
+- (id)message push:(id)arg1 %@;
+- (id)SendDownloadRequest;
+- (id)handling outgoing message  push:(id)arg1 %@;
+- (id)download message  push:(id)arg1 %@;
+- (id)ly from %ld messages to %ld messages.;
+- (id)ntProcessingPipelineComponent> Assigning account %@ service session %@ (replication source:(id)arg1 %@);
+- (id)ame updates;
+- (id)guid %@ to messageGUID:%@ /* Error: Ran out of types for this method. */;
+- (id)e URL for %@ at path %@;
+- (id)networkMonitorDidUpdate 10 seconds after setting it up.;
+- (void)version %d server client version %ld;
+- (void)ame%@;
+- (void)uota in bytes:and message database size:%llu, %llu /* Error: Ran out of types for this method. */;
+- (id)sagePipelineParameter %p> { guid:(id)arg1 %@, associatedMessageType:(id)arg2 %lld, associatedMessageGUID:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -59,14 +46,7 @@ __attribute__((visibility("hidden")))
 - (void)øÛd¸[;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
 @property(readonly, nonatomic, getter=_defaultItemSearchContext) _UIFocusMapSearchInfo *defaultItemSearchInfo; // @synthesize defaultItemSearchInfo=_defaultItemSearchInfo;
-@property(readonly, nonatomic) _UIFocusGroupMap *focusGroupMap; // @synthesize focusGroupMap=_focusGroupMap;
-@property(readonly, nonatomic, getter=_focusMovementSearchContext) _UIFocusMapSearchInfo *focusMovementSearchInfo; // @synthesize focusMovementSearchInfo=_focusMovementSearchInfo;
-@property(readonly, nonatomic) __weak UIFocusSystem *focusSystem; // @synthesize focusSystem=_focusSystem;
-@property(nonatomic) struct CGRect minimumSearchArea; // @synthesize minimumSearchArea=_minimumSearchArea;
-@property(readonly, nonatomic) __weak id <_UIFocusRegionContainer> rootContainer; // @synthesize rootContainer=_rootContainer;
-@property(readonly, nonatomic) _UIFocusSearchInfo *searchInfo; // @synthesize searchInfo=_searchInfo;
 
 @end
 

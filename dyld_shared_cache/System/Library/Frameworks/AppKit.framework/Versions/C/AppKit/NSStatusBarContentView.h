@@ -6,23 +6,18 @@
 
 #import <AppKit/NSView.h>
 
-@class NSStatusBarShadowView;
-
 __attribute__((visibility("hidden")))
 @interface NSStatusBarContentView : NSView
 {
     _Bool _hasCAShadow;
-    NSView *_itemContentView;
-    NSStatusBarShadowView *_shadow1;
-    NSStatusBarShadowView *_shadow2;
 }
 
-- (_Bool);
+- (_Bool)empty array;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (void)iew;
+- (void)heightTracksTextView;
 - (void);
 
 // Remaining properties

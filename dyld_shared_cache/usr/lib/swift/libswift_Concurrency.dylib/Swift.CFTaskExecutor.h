@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface Swift.CFTaskExecutor
+#import <swift_Concurrency/Swift.DispatchGlobalTaskExecutor.h>
+
+@interface Swift.CFTaskExecutor : Swift.DispatchGlobalTaskExecutor
 {
 }
 

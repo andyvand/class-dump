@@ -16,13 +16,22 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (long long);
-- (_Bool);
-- (int);
-- (id);
+- (long long)isting node;
+- (_Bool)substringFromIndex: /* Error: Ran out of types for this method. */;
+- (int)downloadTaskWithRequest:(id)arg1 originalRequest:downloadFilePath:identifier:uniqueIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (id)connectionTiming;
 - (_Bool);
 - (void);
-- (id);
+- (id)-..
+....).8.//33445566778899/	//(/3	33(34	44(45	55(5//
+////)/8/33
+3333)38344
+4444)48455
+5555)5856	66(67	77(78	88(89	99(966
+6666)68677
+7777)78788
+8888)88899
+9999)989;
 - (id);
 - (void);
 

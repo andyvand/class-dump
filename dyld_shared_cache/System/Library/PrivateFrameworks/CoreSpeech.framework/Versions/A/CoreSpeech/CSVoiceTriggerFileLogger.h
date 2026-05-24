@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSpeechManager, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSVoiceTriggerFileLogger
 {
     _Bool _fileLoggingEnabled;
-    _Bool _isExclaveHardware;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSSpeechManager *_speechManager;
 }
 
 + (void);
 + (void);
+- (_Bool);
+- (id)_invalidatedAt;
+- (_Bool):(id)arg1;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)isContact:(id)arg1 subsetOfContact:forMultiValueProperty: /* Error: Ran out of types for this method. */;
+- (void);
 - (long long);
 - (void);
 - (_Bool);
@@ -34,8 +31,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)processingDeviceDetectorWithModelPath:(id)arg1 networkThreshold:preferredDeviceID:engineID:storageType: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -47,15 +44,12 @@
 - (id);
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (void)idateXPCConnection;
+- (void)invalidateXPCConnection;
 
 // Remaining properties
-@property(nonatomic) _Bool fileLoggingEnabled; // @synthesize fileLoggingEnabled=_fileLoggingEnabled;
-@property(nonatomic) _Bool isExclaveHardware; // @synthesize isExclaveHardware=_isExclaveHardware;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CSSpeechManager *speechManager; // @synthesize speechManager=_speechManager;
 
 @end
 

@@ -7,6 +7,8 @@
 @class NSDate;
 
 @protocol EDRemindMeNotificationControllerAlarmDateProvider
+- (NSDate *)studentCredentialStore;
+- (void)'-%{ptr}];
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *nextDate;

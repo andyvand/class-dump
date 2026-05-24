@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineFeedBlueprintModifierFactory
 {
     id sectionFactory;
-    id magazineFeedModelFactory;
-    id subscriptionService;
 }
 
 @end

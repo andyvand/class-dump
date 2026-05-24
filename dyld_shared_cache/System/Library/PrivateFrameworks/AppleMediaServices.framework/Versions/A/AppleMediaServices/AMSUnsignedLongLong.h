@@ -12,7 +12,7 @@
 + (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)RDestinationResolverDelegate>";
 - (unsigned long long);
 
 // Remaining properties

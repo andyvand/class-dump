@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKPaletteToolPickerEdgeView;
+@class PKPaletteToolPickerEdgeView;
 
 @interface PKPaletteToolPickerBackgroundContentView
 {
     PKPaletteToolPickerEdgeView *_topOrLeadingEdgeView;
-    PKPaletteToolPickerEdgeView *_bottomOrTrailingEdgeView;
-    NSArray *_horizontalLayoutConstraints;
-    NSArray *_verticalLayoutConstraints;
-    _Bool _isVerticalRight;
-    _Bool _topOrLeadingEdgeViewVisible;
-    _Bool _bottomOrTrailingEdgeViewVisible;
-    long long _layoutAxis;
 }
 
 - (_Bool);
@@ -27,14 +20,11 @@
 - (void);
 - (id);
 - (void);
-- (void)tResizeViewDelegate;
+- (void)PKTextAttachmentResizeViewDelegate;
 - (long long)$	;
 
 // Remaining properties
-@property(nonatomic) _Bool bottomOrTrailingEdgeViewVisible; // @synthesize bottomOrTrailingEdgeViewVisible=_bottomOrTrailingEdgeViewVisible;
-@property(nonatomic) _Bool isVerticalRight; // @synthesize isVerticalRight=_isVerticalRight;
 @property(nonatomic) long long layoutAxis; // @synthesize layoutAxis=_layoutAxis;
-@property(nonatomic) _Bool topOrLeadingEdgeViewVisible; // @synthesize topOrLeadingEdgeViewVisible=_topOrLeadingEdgeViewVisible;
 
 @end
 

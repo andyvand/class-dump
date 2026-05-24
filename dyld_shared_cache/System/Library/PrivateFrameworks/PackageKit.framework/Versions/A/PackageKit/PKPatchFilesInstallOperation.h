@@ -11,12 +11,11 @@
 @interface PKPatchFilesInstallOperation : PKInstallOperation
 {
     PKPackageSpecifier *_currentPackageSpecifier;
-    _Bool _useAFSCByDefault;
 }
 
 - (id);
 - (int);
-- (void);
+- (void)T;
 
 @end
 

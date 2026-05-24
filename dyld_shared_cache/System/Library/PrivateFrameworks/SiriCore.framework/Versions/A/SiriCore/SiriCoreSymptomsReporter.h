@@ -4,37 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface SiriCoreSymptomsReporter
 {
     NSMutableDictionary *_keysAcceptedWithTimestamp;
-    NSMutableDictionary *_keysRejectedWithTimestamp;
-    NSLock *_lock;
 }
 
 + (id);
+- (void)rname and/or password) that the user has entered for this account.;
+- (void)ver is rejecting the credentials (e.g. username and/or password) that the user has entered for this account.;
+- (void)ity;
+- (void)rver;
 - (void);
+- (void)bserver after it was torn down.;
+- (void)connectionEstablished;
+- (id)SendSignEncryptSigned;
+- (id)ForceEncryptWithGCM;
+- (id).delegateScheduler;
+- (id)Summary:(int)arg1 %@
+	Generated Summary:%@ (isUrgent = %@)
+	Flags:%@
+	ConversationNotificationLevel:%ld
+	Category:%@
+	BusinessLogoID:%@
+	IsVIP:%@
+	IsBlocked:%@
+	SearchResultType:%ld
+	SearchRelevanceScore:%@
+	UnsubscribeType:%ld
+	Date:%@
+	DisplayDate:%@
+	Mailboxes:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
+- (void)ReceivingAccount"8;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)rary/CoreServices/Applications/Feedback Assistant.app;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *keysAcceptedWithTimestamp; // @synthesize keysAcceptedWithTimestamp=_keysAcceptedWithTimestamp;
-@property(retain, nonatomic) NSMutableDictionary *keysRejectedWithTimestamp; // @synthesize keysRejectedWithTimestamp=_keysRejectedWithTimestamp;
-@property(retain, nonatomic) NSLock *lock; // @synthesize lock=_lock;
 
 @end
 

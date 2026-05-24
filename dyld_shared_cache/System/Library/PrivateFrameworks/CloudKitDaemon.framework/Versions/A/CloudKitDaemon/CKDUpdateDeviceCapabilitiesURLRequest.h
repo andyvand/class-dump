@@ -6,25 +6,17 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class NSArray, NSString;
 
 @interface CKDUpdateDeviceCapabilitiesURLRequest : CKDURLRequest
 {
     NSArray *_supportedCapabilities;
-    NSDictionary *_zoneUsages;
-    NSDictionary *_shareUsages;
-    CDUnknownBlockType _deviceCapabilitiesUpdatedBlock;
-    CDUnknownBlockType _zoneUsageUpdatedBlock;
-    CDUnknownBlockType _shareUsageUpdatedBlock;
-    NSString *_deviceCapabilitiesSaveRequestID;
-    NSMutableDictionary *_zoneIDByRequestID;
-    NSMutableDictionary *_shareIDByRequestID;
 }
 
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
@@ -35,27 +27,29 @@
 - (CDUnknownBlockType);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)an,
+               (SELECT MIN(age) FROM undonated_partials_percentiles WHERE percentile=11) as partial_age_p50,
+               (SELECT MIN(age) FROM undonated_partials_percentiles WHERE percentile=19) as partial_age_p95
+          FROM undonated_partials
+    ),
+    donated_partials AS (
+        SELECT *
+          FROM with_age
+         WHERE is_partial
+           AND is_donated
+           AND ;
 - (id);
 - (void);
 - (id)Ü;
 - (void)(;
-- (id)MarkAssetBrokenOperation;
+- (id)CKDMarkAssetBrokenOperation;
 - (id)bout lifecycle transition";
 - (void)eTransition was called on CKDOperation;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceCapabilitiesSaveRequestID; // @synthesize deviceCapabilitiesSaveRequestID=_deviceCapabilitiesSaveRequestID;
-@property(copy, nonatomic) CDUnknownBlockType deviceCapabilitiesUpdatedBlock; // @synthesize deviceCapabilitiesUpdatedBlock=_deviceCapabilitiesUpdatedBlock;
-@property(retain, nonatomic) NSMutableDictionary *shareIDByRequestID; // @synthesize shareIDByRequestID=_shareIDByRequestID;
-@property(copy, nonatomic) CDUnknownBlockType shareUsageUpdatedBlock; // @synthesize shareUsageUpdatedBlock=_shareUsageUpdatedBlock;
-@property(retain, nonatomic) NSDictionary *shareUsages; // @synthesize shareUsages=_shareUsages;
-@property(retain, nonatomic) NSArray *supportedCapabilities; // @synthesize supportedCapabilities=_supportedCapabilities;
-@property(retain, nonatomic) NSMutableDictionary *zoneIDByRequestID; // @synthesize zoneIDByRequestID=_zoneIDByRequestID;
-@property(copy, nonatomic) CDUnknownBlockType zoneUsageUpdatedBlock; // @synthesize zoneUsageUpdatedBlock=_zoneUsageUpdatedBlock;
-@property(retain, nonatomic) NSDictionary *zoneUsages; // @synthesize zoneUsages=_zoneUsages;
 
 @end
 

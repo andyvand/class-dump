@@ -6,28 +6,24 @@
 
 #import <OfficeImport/EDFill.h>
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface EDGradientFill : EDFill
 {
     int mType;
-    NSMutableDictionary *mStops;
-    double mDegree;
-    struct CGRect mFocusRect;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)J
+;
 - (_Bool);
-- (id);
+- (id)#;
 - (id);
 - (struct CGRect);
-- (double);
-- (id);
+- (double);
+- (id);
 - (id);
 - (void);
 - (id);

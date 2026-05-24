@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSConstantDimensionRule
 {
     NSArray *_dimensions;
-    double _constant;
 }
 
-+ (id);
++ (id)_ignoreDidReceiveResponseDisposition;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)res_client_cert=%{bool}d};
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)%s;
 - (_Bool);
-- (id)ges;
+- (id)edges;
 - (id)ä7d9\:¼; /* Error: Ran out of types for this method. */;
 - (id)on View only supports view animations.;
 - (double)¼?;
 
 // Remaining properties
-@property(readonly) double constant; // @synthesize constant=_constant;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSArray *dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier;
-@property(readonly, copy) NSString *ruleDescription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFColor, _SFPBRFMapMarkerIdentifier, _SFPBRFMapMarkerImage, _SFPBRFMapMarkerText;
+@class NSData, _SFPBRFMapMarkerIdentifier;
 
 @protocol _SFPBRFMapMarker
+- (unsigned long long);
+- (void)ileAssetNonPurgeable;
+- (void)removeBrowser:(_SFPBRFMapMarkerIdentifier *)arg1;
+- (NSData *)_importRecord:createdAlbumIdentifiers:createdFolderIdentifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBRFMapMarkerIdentifier *identifier;
-@property(retain, nonatomic) _SFPBRFMapMarkerImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFMapMarkerText *text;
-@property(retain, nonatomic) _SFPBRFColor *tint;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

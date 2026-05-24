@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBTaskList;
+@class NSArray, NSString;
 
 @protocol _INPBAddTasksIntentResponse
+- (NSString *);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *addedTasks;
-@property(readonly, nonatomic) unsigned long long addedTasksCount;
-@property(readonly, nonatomic) _Bool hasModifiedTaskList;
-@property(retain, nonatomic) _INPBTaskList *modifiedTaskList;
-@property(readonly, nonatomic) int *warnings;
-@property(readonly, nonatomic) unsigned long long warningsCount;
 @end
 

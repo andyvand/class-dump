@@ -13,8 +13,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isASMUserCachingEnabled) _Bool ASMUserCachingEnabled;
-@property(readonly, nonatomic, getter=areAppGroupsEnabled) _Bool appGroupsEnabled;
 @property(readonly, nonatomic, getter=isDataSeparationEnabled) _Bool dataSeparationEnabled;
 
 @end

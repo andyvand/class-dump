@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface SLSDisplayWallGroup
 {
     NSNumber *_groupID;
-    NSArray *_displayIDs;
 }
 
-- (id);
-- (id);
+- (id)etchIndexDescription;
+- (id)INSERT;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *displayIDs; // @synthesize displayIDs=_displayIDs;
 @property(readonly, nonatomic) NSNumber *groupID; // @synthesize groupID=_groupID;
 
 @end

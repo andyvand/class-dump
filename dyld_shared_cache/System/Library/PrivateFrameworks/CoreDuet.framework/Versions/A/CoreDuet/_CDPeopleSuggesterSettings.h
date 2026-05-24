@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface _CDPeopleSuggesterSettings
 {
     _Bool _useFuture;
-    _Bool _aggregateByIdentifier;
-    _Bool _requireOutgoingInteraction;
-    _Bool _useTitleToContrainKeywords;
-    _Bool _inferActiveInteractions;
-    unsigned long long _maxNumberOfPeopleSuggested;
-    NSSet *_constrainMechanisms;
-    NSSet *_constrainBundleIds;
-    NSSet *_constrainAccounts;
-    NSSet *_constrainDomainIdentifiers;
-    NSSet *_constrainIdentifiers;
-    NSSet *_constrainPersonIds;
-    NSSet *_constrainPersonIdType;
-    unsigned long long _constrainMaxRecipientCount;
-    NSSet *_ignoreContactIdentifiers;
 }
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)N.;
+- (void);
+- (void);
+- (void).;
+- (void);
+- (void)u;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,27 +26,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)pg;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
+- (id)_ ;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)m;
+- (id)A;
 - (unsigned long long);
+- (id)b|;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)X�;
+- (_Bool)";
 - (id);
 - (id);
 - (id);
@@ -63,21 +47,7 @@
 × ;
 
 // Remaining properties
-@property _Bool aggregateByIdentifier; // @synthesize aggregateByIdentifier=_aggregateByIdentifier;
-@property(retain) NSSet *constrainAccounts; // @synthesize constrainAccounts=_constrainAccounts;
-@property(retain) NSSet *constrainBundleIds; // @synthesize constrainBundleIds=_constrainBundleIds;
-@property(retain) NSSet *constrainDomainIdentifiers; // @synthesize constrainDomainIdentifiers=_constrainDomainIdentifiers;
-@property(retain) NSSet *constrainIdentifiers; // @synthesize constrainIdentifiers=_constrainIdentifiers;
-@property unsigned long long constrainMaxRecipientCount; // @synthesize constrainMaxRecipientCount=_constrainMaxRecipientCount;
-@property(retain) NSSet *constrainMechanisms; // @synthesize constrainMechanisms=_constrainMechanisms;
-@property(retain) NSSet *constrainPersonIdType; // @synthesize constrainPersonIdType=_constrainPersonIdType;
-@property(retain) NSSet *constrainPersonIds; // @synthesize constrainPersonIds=_constrainPersonIds;
-@property(retain) NSSet *ignoreContactIdentifiers; // @synthesize ignoreContactIdentifiers=_ignoreContactIdentifiers;
-@property _Bool inferActiveInteractions; // @synthesize inferActiveInteractions=_inferActiveInteractions;
 @property unsigned long long maxNumberOfPeopleSuggested; // @synthesize maxNumberOfPeopleSuggested=_maxNumberOfPeopleSuggested;
-@property _Bool requireOutgoingInteraction; // @synthesize requireOutgoingInteraction=_requireOutgoingInteraction;
-@property _Bool useFuture; // @synthesize useFuture=_useFuture;
-@property _Bool useTitleToContrainKeywords; // @synthesize useTitleToContrainKeywords=_useTitleToContrainKeywords;
 
 @end
 

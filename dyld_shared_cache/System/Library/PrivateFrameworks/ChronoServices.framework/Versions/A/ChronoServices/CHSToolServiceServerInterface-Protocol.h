@@ -5,5 +5,8 @@
 //
 
 @protocol CHSToolServiceServerInterface
+- (oneway void) +`*?;
+- (oneway void)?;
+- (oneway void)J?;
 @end
 

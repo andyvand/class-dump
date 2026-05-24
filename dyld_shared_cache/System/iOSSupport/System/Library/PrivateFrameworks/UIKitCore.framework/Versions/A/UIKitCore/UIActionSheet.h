@@ -6,43 +6,28 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, UIAlertController, _UIAlertControllerShimPresenter;
-@protocol UIActionSheetDelegate;
+@class UIAlertController;
 
 @interface UIActionSheet : UIView
 {
     UIAlertController *_alertController;
-    _UIAlertControllerShimPresenter *_presenter;
-    UIActionSheet *_retainedSelf;
-    NSMutableArray *_actions;
-    long long _cancelIndex;
-    long long _firstOtherButtonIndex;
-    long long _destructiveButtonIndex;
-    long long _actionSheetStyle;
-    _Bool _hasPreparedAlertActions;
-    _Bool _isPresented;
-    _Bool _alertControllerShouldDismiss;
-    _Bool _handlingAlertActionShouldDismiss;
-    _Bool _dismissingAlertController;
-    id <UIActionSheetDelegate> _delegate;
-    id _context;
 }
 
+- (void)enabled;
+- (void)t nickname dict:(id)arg1 %@.;
+- (void)%@. isPhotoOrPosterUpdate:(struct CGRect)arg1 %{BOOL}d Current nickname dict:(id)arg2 %@.;
+- (void)o* active accounts, ensuring power notifications are *off*;
+- (void)ice session = %@, accounts = %@;
+- (void)ReplicationReceiveDelayInSeconds;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
@@ -69,12 +54,12 @@
 × ;
 - (id)!FùqfÐ1Â0@ù
 × ;
-- (void)ionStyle;
-- (void)mentView;
-- (id)r: /* Error: Ran out of types for this method. */;
+- (void)useDefaultModalPresentationStyle;
+- (void)uiWebDocumentView;
+- (id)setEventObserver: /* Error: Ran out of types for this method. */;
 - (void)entationController;
 - (id)NSLayoutRect",R,N;
-- (void)InterfaceActionBlankSeparatorView;
+- (void)_UIInterfaceActionBlankSeparatorView;
 - (id)Ì;
 - (id)IndexPath"16^B24;
 - (id)åÿIxÚ¼^;
@@ -82,22 +67,7 @@
 - (_Bool)ÝþöÓTÖn;
 
 // Remaining properties
-@property(nonatomic) long long actionSheetStyle;
-@property(nonatomic) long long cancelButtonIndex;
 @property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIActionSheetDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long destructiveButtonIndex;
-@property(readonly, nonatomic) long long firstOtherButtonIndex;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long numberOfButtons;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible;
 
 @end
 

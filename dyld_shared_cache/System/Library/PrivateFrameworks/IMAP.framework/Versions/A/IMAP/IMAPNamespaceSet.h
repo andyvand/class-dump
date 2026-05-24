@@ -9,8 +9,6 @@
 @interface IMAPNamespaceSet
 {
     NSArray *_privateNamespaces;
-    NSArray *_publicNamespaces;
-    NSArray *_sharedNamespaces;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *privateNamespaces; // @synthesize privateNamespaces=_privateNamespaces;
-@property(readonly, copy, nonatomic) NSArray *publicNamespaces; // @synthesize publicNamespaces=_publicNamespaces;
-@property(readonly, copy, nonatomic) NSArray *sharedNamespaces; // @synthesize sharedNamespaces=_sharedNamespaces;
 
 @end
 

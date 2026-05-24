@@ -5,5 +5,6 @@
 //
 
 @protocol NSLegacyExternalColorPickerHostViewController
+- (void)ion check (trustobject unset);
 @end
 

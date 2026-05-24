@@ -9,7 +9,6 @@
 @interface ICHashtagsCheckResults
 {
     NSSet *_matchingHashtagSuggestions;
-    struct _NSRange _rangeOfHashtag;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *matchingHashtagSuggestions; // @synthesize matchingHashtagSuggestions=_matchingHashtagSuggestions;
 @property(nonatomic) struct _NSRange rangeOfHashtag; // @synthesize rangeOfHashtag=_rangeOfHashtag;
 
 @end

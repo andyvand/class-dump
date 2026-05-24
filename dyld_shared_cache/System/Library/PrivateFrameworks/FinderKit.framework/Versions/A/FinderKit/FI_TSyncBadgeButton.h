@@ -10,22 +10,13 @@ __attribute__((visibility("hidden")))
 @interface FI_TSyncBadgeButton : FI_TButton
 {
     _Bool _selected;
-    struct TString _primaryToolTip;
-    long long _backgroundStyle;
-    _Bool _inBatchUpdate;
-    _Bool _dimmed;
-    _Bool _active;
-    _Bool _acceptsClicks;
-    int _context;
-    int _syncBadge;
-    optional_edf11c7d _sharedWithYouBadge;
 }
 
-- (void);
+- (void);
 - (int);
-- (optional_edf11c7d);
+- (optional_9bf08cb7);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (_Bool);
 - (id);
@@ -53,12 +44,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool acceptsClicks; // @synthesize acceptsClicks=_acceptsClicks;
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) int context; // @synthesize context=_context;
-@property(nonatomic, getter=isDimmed) _Bool dimmed; // @synthesize dimmed=_dimmed;
-@property(nonatomic, getter=isInBatchUpdate) _Bool inBatchUpdate; // @synthesize inBatchUpdate=_inBatchUpdate;
-@property(nonatomic) optional_edf11c7d sharedWithYouBadge; // @synthesize sharedWithYouBadge=_sharedWithYouBadge;
 @property(nonatomic) int syncBadge; // @synthesize syncBadge=_syncBadge;
 
 @end

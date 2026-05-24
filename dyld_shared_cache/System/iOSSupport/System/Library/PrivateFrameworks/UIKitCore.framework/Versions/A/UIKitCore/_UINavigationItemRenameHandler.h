@@ -9,14 +9,6 @@
 @interface _UINavigationItemRenameHandler
 {
     UINavigationItem *_associatedItem;
-    CDUnknownBlockType _shouldBeginRenamingHandler;
-    CDUnknownBlockType _willBeginRenamingHandler;
-    CDUnknownBlockType _didEndRenamingHandler;
-    CDUnknownBlockType _willBeginRenamingWithRangeHandler;
-    CDUnknownBlockType _shouldEndRenamingHandler;
-    CDUnknownBlockType _fileURLForRenaming;
-    CDUnknownBlockType _fileRenameDidFail;
-    CDUnknownBlockType _fileRenameDidEnd;
 }
 
 + (id);
@@ -37,32 +29,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id)updateSMSSpamExtensionNameChatProperty:(CDUnknownBlockType)arg1;
+- (CDUnknownBlockType)sendUpdatedCollaborationMetadata:toChatsWithIdentifiers:forMessageGUID: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)sendUnApproveToDevice:extraKeys: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)sendToLocalPeersFile:dictionary: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)participantDestinationIdentifiers;
+- (id)createFileAtPath:contents:attributes: /* Error: Ran out of types for this method. */;
+- (id)_typeOfNicknameUpdateToShare;
+- (_Bool)IMDBackgroundMessagingAPIMessageRegistry;
+- (id)cEndedWithSuccces;
+- (void)path that isn't calling _noteMeticsForSyncEndedWithSuccces;
+- (void)one was finished.  Likely there is an exit path that isn't calling _noteMeticsForSyncEndedWithSuccces;
+- (void)riod to %ld minutes.;
+- (_Bool)%s:Unable to archive record %@, error %@ /* Error: Ran out of types for this method. */;
+- (id)albumArtistName;
 - (void)ð;
 
 // Remaining properties
 @property(nonatomic) __weak UINavigationItem *associatedItem; // @synthesize associatedItem=_associatedItem;
-@property(copy, nonatomic) CDUnknownBlockType didEndRenamingHandler; // @synthesize didEndRenamingHandler=_didEndRenamingHandler;
-@property(copy, nonatomic) CDUnknownBlockType fileRenameDidEnd; // @synthesize fileRenameDidEnd=_fileRenameDidEnd;
-@property(copy, nonatomic) CDUnknownBlockType fileRenameDidFail; // @synthesize fileRenameDidFail=_fileRenameDidFail;
-@property(copy, nonatomic) CDUnknownBlockType fileURLForRenaming; // @synthesize fileURLForRenaming=_fileURLForRenaming;
-@property(copy, nonatomic) CDUnknownBlockType shouldBeginRenamingHandler; // @synthesize shouldBeginRenamingHandler=_shouldBeginRenamingHandler;
-@property(copy, nonatomic) CDUnknownBlockType shouldEndRenamingHandler; // @synthesize shouldEndRenamingHandler=_shouldEndRenamingHandler;
-@property(copy, nonatomic) CDUnknownBlockType willBeginRenamingHandler; // @synthesize willBeginRenamingHandler=_willBeginRenamingHandler;
-@property(copy, nonatomic) CDUnknownBlockType willBeginRenamingWithRangeHandler; // @synthesize willBeginRenamingWithRangeHandler=_willBeginRenamingWithRangeHandler;
 
 @end
 

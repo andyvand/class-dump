@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)2@?40@?48@56;
-- (id);
+- (id)_messageLinkFilter;
 - (id)<a¤aøblcLdf<hmn o\p¬r;
 - (void)!sePm¸F@;
 

@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVCalendarServerScheduleChangesItem, CalDAVUpdateOwnerItem, ICSDocument, NSArray, NSData, NSMutableDictionary, NSString, NSURL, REMObjectID;
-@protocol DACalDAViCalItemBackingModel;
+@class NSString;
 
 @interface DACalDAViCalItem
 {
     NSString *_scheduleTag;
-    NSMutableDictionary *_originatingChangeItems;
-    NSData *_dataPayload;
-    _Bool _isMigrate;
-    _Bool _statusChanged;
-    NSString *_syncKey;
-    CalDAVCalendarServerScheduleChangesItem *_scheduleChanges;
-    NSURL *_serverID;
-    REMObjectID *_rem_clientID;
-    id <DACalDAViCalItemBackingModel> _rem_reminderItem;
-    ICSDocument *_document;
-    CalDAVUpdateOwnerItem *_createdBy;
-    CalDAVUpdateOwnerItem *_updatedBy;
-    NSString *_uniqueIdentifier;
-    NSString *_filename;
-    unsigned long long _debugReminderFetchCount;
 }
 
 + (id);
@@ -40,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (id);
 - (_Bool);
@@ -52,12 +36,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)`B;
 - (id);
 - (id);
 - (id);
@@ -73,45 +57,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *childrenOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(retain, nonatomic) CalDAVUpdateOwnerItem *createdBy; // @synthesize createdBy=_createdBy;
-@property(retain, nonatomic) NSData *dataPayload; // @synthesize dataPayload=_dataPayload;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long debugReminderFetchCount; // @synthesize debugReminderFetchCount=_debugReminderFetchCount;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *destinationURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,&,N
-
-@property(retain, nonatomic) ICSDocument *document; // @synthesize document=_document;
-@property(retain, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isMigrate; // @synthesize isMigrate=_isMigrate;
-@property(copy, nonatomic) NSMutableDictionary *originatingChangeItems;
-@property(retain, nonatomic) REMObjectID *rem_clientID; // @synthesize rem_clientID=_rem_clientID;
-@property(readonly, nonatomic) id <DACalDAViCalItemBackingModel> rem_reminderItem; // @synthesize rem_reminderItem=_rem_reminderItem;
-@property(retain, nonatomic) CalDAVCalendarServerScheduleChangesItem *scheduleChanges; // @synthesize scheduleChanges=_scheduleChanges;
-@property(retain, nonatomic) NSString *scheduleTag;
-@property(retain, nonatomic) NSURL *serverID; // @synthesize serverID=_serverID;
-@property(retain, nonatomic) NSURL *sourceURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,&,N
-
-@property(nonatomic) _Bool statusChanged; // @synthesize statusChanged=_statusChanged;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *syncKey; // @synthesize syncKey=_syncKey;
-@property(retain, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(retain, nonatomic) CalDAVUpdateOwnerItem *updatedBy; // @synthesize updatedBy=_updatedBy;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPLocalNamedEntityStore, PPUniversalSearchSpotlightIndexScorer;
-@protocol PPSearchableIndex;
+@class PPUniversalSearchSpotlightIndexScorer;
 
 @interface PPSpotlightWritebackDissector
 {
     PPUniversalSearchSpotlightIndexScorer *_scorer;
-    PPLocalNamedEntityStore *_namedEntityStore;
-    id <PPSearchableIndex> _spotlightIndex;
-    _Bool _significanceCheckEnabled;
 }
 
 + (_Bool);

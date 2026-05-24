@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, TUConversationParticipantAssociation;
-
 @interface TUConversationHandoffEligibility
 {
     _Bool _eligible;
-    _Bool _uplinkMuted;
-    _Bool _sendingVideo;
-    NSUUID *_conversationGroupUUID;
-    TUConversationParticipantAssociation *_association;
-    NSString *_originatingDeviceType;
 }
 
 + (_Bool);
@@ -21,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -38,16 +31,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)ing: /* Error: Ran out of types for this method. */;
+- (void)setFollowsSystemOutputSetting: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) TUConversationParticipantAssociation *association; // @synthesize association=_association;
-@property(retain, nonatomic) NSUUID *conversationGroupUUID; // @synthesize conversationGroupUUID=_conversationGroupUUID;
 @property(nonatomic, getter=isEligible) _Bool eligible; // @synthesize eligible=_eligible;
-@property(readonly, nonatomic) NSString *localizedDeviceCategory;
-@property(retain, nonatomic) NSString *originatingDeviceType; // @synthesize originatingDeviceType=_originatingDeviceType;
-@property(nonatomic, getter=isSendingVideo) _Bool sendingVideo; // @synthesize sendingVideo=_sendingVideo;
-@property(nonatomic, getter=isUplinkMuted) _Bool uplinkMuted; // @synthesize uplinkMuted=_uplinkMuted;
 
 @end
 

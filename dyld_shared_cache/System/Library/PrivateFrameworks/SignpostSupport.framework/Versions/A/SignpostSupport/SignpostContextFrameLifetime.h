@@ -6,12 +6,11 @@
 
 #import <SignpostSupport/SignpostAnimationSubInterval.h>
 
-@class SignpostContextInfo, SignpostFrameLifetimeInterval;
+@class SignpostFrameLifetimeInterval;
 
 @interface SignpostContextFrameLifetime : SignpostAnimationSubInterval
 {
     SignpostFrameLifetimeInterval *_parentFrameLifetime;
-    SignpostContextInfo *_contextInfo;
 }
 
 - (id);
@@ -21,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SignpostContextInfo *contextInfo; // @synthesize contextInfo=_contextInfo;
 @property(readonly, nonatomic) unsigned int frameSeed;
-@property(readonly, nonatomic) SignpostFrameLifetimeInterval *parentFrameLifetime; // @synthesize parentFrameLifetime=_parentFrameLifetime;
 
 @end
 

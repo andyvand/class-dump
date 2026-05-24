@@ -11,22 +11,21 @@
     NSString *_onboardResumeStage;
 }
 
-- (void);
+- (void)initWithImportSource:(id)arg1 photoLibrary: /* Error: Ran out of types for this method. */;
+- (id)fetchParentDayGroupHighlightForHighlight:options: /* Error: Ran out of types for this method. */;
+- (_Bool)enableDaysEffect;
 - (id);
-- (_Bool);
-- (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)anBeginInteractivePlayback"B"extraMinimumTouchDuration"B};
+- (_Bool)ectories:(id)arg1;
+- (_Bool)record to remote;
 - (id);
 - (id);
 - (void)@"NTPBUserOnboardingChannelPickerComplete";
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasOnboardResumeStage;
-@property(retain, nonatomic) NSString *onboardResumeStage; // @synthesize onboardResumeStage=_onboardResumeStage;
 
 @end
 

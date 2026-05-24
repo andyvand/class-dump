@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -26,77 +24,15 @@ struct __map_iterator<std::__tree_iterator<std::__value_type<unsigned long, std:
     } _field1;
 };
 
-struct dict {
-    struct object fObj;
-};
-
-struct function<void ()> {
-    struct __value_func<void ()> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct map<unsigned long, AVHapticSequenceEntry *, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, AVHapticSequenceEntry *>>> {
-    struct __tree<std::__value_type<unsigned long, AVHapticSequenceEntry *>, std::__map_value_compare<unsigned long, std::pair<const unsigned long, AVHapticSequenceEntry *>, std::less<unsigned long>>, std::allocator<std::pair<const unsigned long, AVHapticSequenceEntry *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<unsigned long, std::pair<NSURL *, NSDictionary *>, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, std::pair<NSURL *, NSDictionary *>>>> {
-    struct __tree<std::__value_type<unsigned long, std::pair<NSURL *, NSDictionary *>>, std::__map_value_compare<unsigned long, std::pair<const unsigned long, std::pair<NSURL *, NSDictionary *>>, std::less<unsigned long>>, std::allocator<std::pair<const unsigned long, std::pair<NSURL *, NSDictionary *>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
-};
-
-struct object {
-    NSObject *fObj;
-};
-
-struct optional<double> {
-    union {
-        char __null_state_;
-        double __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct reply_watchdog_factory {
-    _Bool mDebugging;
-    int mDefaultTimeoutMS;
-    struct function<void ()> mTimeoutHandler;
-};
-
 struct vector<unsigned long, std::allocator<unsigned long>> {
-    unsigned long long *__begin_;
-    unsigned long long *__end_;
+    unsigned long long *_field1;
+    unsigned long long *_field2;
     struct {
-        unsigned long long *__cap_;
-    } ;
+        unsigned long long *_field1;
+    } _field3;
 };
 
 #pragma mark Typedef'd Structures
-
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
 
 // Template types
 typedef struct __map_iterator<std::__tree_iterator<std::__value_type<unsigned long, std::pair<NSURL *, NSDictionary *>>, std::__tree_node<std::__value_type<unsigned long, std::pair<NSURL *, NSDictionary *>>, void *>*, long>> {
@@ -106,16 +42,10 @@ typedef struct __map_iterator<std::__tree_iterator<std::__value_type<unsigned lo
 } __map_iterator_9d4ef06d;
 
 typedef struct vector<unsigned long, std::allocator<unsigned long>> {
-    unsigned long long *__begin_;
-    unsigned long long *__end_;
+    unsigned long long *_field1;
+    unsigned long long *_field2;
     struct {
-        unsigned long long *__cap_;
-    } ;
-} vector_85d7f63b;
-
-#pragma mark Named Unions
-
-union type {
-    unsigned char __data[24];
-};
+        unsigned long long *_field1;
+    } _field3;
+} vector_aa56f780;
 

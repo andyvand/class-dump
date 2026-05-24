@@ -9,9 +9,9 @@
 }
 
 - (id);
+- (void)8;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)treamRef, CFDictionaryRef, FigEndpointStreamCompletionCallback, void *);
 - (_Bool);
 - (_Bool);
 - (void);

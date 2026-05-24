@@ -12,36 +12,26 @@ __attribute__((visibility("hidden")))
 @interface UIStatusBarServiceItemView : UIStatusBarItemView
 {
     NSString *_serviceString;
-    NSString *_crossfadeString;
-    unsigned long long _crossfadeStep;
-    double _maxWidth;
-    double _serviceWidth;
-    double _crossfadeWidth;
-    int _contentType;
-    _Bool _loopingNecessaryForString;
-    _Bool _loopNowIfNecessary;
-    _Bool _loopingNow;
-    double _letterSpacing;
 }
 
-- (_Bool);
-- (_Bool);
-- (double);
+- (_Bool)_updateSpamCheckTimerWithInterval:(id)arg1 forChatGUID:(int)arg2;
+- (_Bool)_updateRecordZoneID;
+- (double)_updateCloudKitRecordIDAndDecryptionKeyIfNeeded: /* Error: Ran out of types for this method. */;
+- (void)ol>",R,N;
+- (double)So7IMDChatCG;
 - (void);
-- (double);
-- (void);
-- (double);
+- (double)nges operation %@;
+- (id)-> %@;
+- (_Bool)e nickname info over;
+- (double)ng SMSFIlteringSettingsMessage. Success = (%@).;
 - (id);
 - (_Bool);
-- (double);
-- (id);
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double);
 - (void);
 - (id)ÞÒì"i;
 - (long long) Êi;

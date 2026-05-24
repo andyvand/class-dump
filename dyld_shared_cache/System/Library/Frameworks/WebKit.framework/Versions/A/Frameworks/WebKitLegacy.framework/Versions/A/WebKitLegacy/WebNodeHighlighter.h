@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WebNodeHighlight, WebView;
+@class WebView;
 
 __attribute__((visibility("hidden")))
 @interface WebNodeHighlighter
 {
     WebView *_inspectedWebView;
-    WebNodeHighlight *_currentHighlight;
 }
 
 - (void);
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)r device restrictions;
 
 @end
 

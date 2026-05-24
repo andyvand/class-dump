@@ -16,7 +16,7 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)MUPlaceHeaderButtonAccessibility;
 
 @end
 

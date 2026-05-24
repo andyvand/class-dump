@@ -15,7 +15,7 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)layoutDirection;
 - (id);
 - (void)ñáÐ1Â0@ù
 × ;

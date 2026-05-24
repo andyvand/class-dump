@@ -7,23 +7,6 @@
 @interface PodcastsUI.EpisodeUpsellBannerView
 {
     id tapBannerBlock;
-    id tapCloseButtonBlock;
-    id contentView;
-    id artworkContainerView;
-    id titleLabel;
-    id $__lazy_storage_$_subtitleLabel;
-    id $__lazy_storage_$_dismissButton;
-    id $__lazy_storage_$_tapBannerGestureRecognizer;
-    id $__lazy_storage_$_textLayout;
-    id $__lazy_storage_$_titleLabelCenterYConstraint;
-    id $__lazy_storage_$_subtitleTopAnchorConstraint;
-    id $__lazy_storage_$_subtitleBottomConstraint;
-    id $__lazy_storage_$_titleTopConstraint;
-    id $__lazy_storage_$_config;
-    id bannerType;
-    id hoverRecognizer;
-    id isHovering;
-    id objectGraph;
 }
 
 - (void);

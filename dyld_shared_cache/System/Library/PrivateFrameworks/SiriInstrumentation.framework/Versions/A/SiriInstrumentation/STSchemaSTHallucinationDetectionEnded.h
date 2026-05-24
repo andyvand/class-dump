@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface STSchemaSTHallucinationDetectionEnded : SISchemaInstrumentationMessage
 {
     int _hallucinationDetectionLatencyMs;
-    NSArray *_hallucinationDetectedRules;
-    struct {
-        unsigned int hallucinationDetectionLatencyMs:1;
-    } _has;
 }
 
 - (void);
@@ -28,23 +22,20 @@
 - (void);
 - (int);
 - (unsigned long long);
-- (void);
+- (void)TPM;
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)shouldPostNotificationOnDefaultBrowserInstallationWithReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)BCardCollectionViewDelegate>",&,V_cardCollectionViewDelegate;
+- (_Bool)count.;
 - (id);
 - (id);
-- (id)eleteMapsQueryLabel;
-- (id)e;
-- (void)ENSIONNAME_EXPERIMENTATION_EXTENSION;
+- (id)deleteMapsQueryLabel;
+- (id)_hasResponseGenerationHallucinationDetectionTime;
+- (void)ODDEXTENSIONNAME_EXPERIMENTATION_EXTENSION;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *hallucinationDetectedRules; // @synthesize hallucinationDetectedRules=_hallucinationDetectedRules;
 @property(nonatomic) int hallucinationDetectionLatencyMs; // @synthesize hallucinationDetectionLatencyMs=_hallucinationDetectionLatencyMs;
-@property(nonatomic) _Bool hasHallucinationDetectionLatencyMs;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,49 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UILibArchiveStreamingReader
 {
     long long _state;
-    struct ui_archive *_laArchive;
-    int _laArchiveType;
-    NSString *_laArchiveTypeName;
-    int _laProcessingState;
-    long long _nextLoadedItemEntrySequenceIndex;
-    NSMutableArray *_readableLoadedItemEntryQueue;
-    NSError *_readError;
-    NSString *_archivePath;
-    struct ui_archive *_underlyingArchive;
-    long long _appleDoubleIdentificationType;
 }
 
 - (struct ui_archive *);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (long long);
+- (id)Handler"16@"NSDictionary"24@"NSNumber"32;
+- (id)sendBlastDoorError:(id)arg1 guid:messageTypeString:senderURI:senderToken:messageContext:payloadAttachmentURL: /* Error: Ran out of types for this method. */;
+- (long long)_serializedCKRecordData: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)ecent chats out of %ld chats;
+- (void)le:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)/IMCore/IMCore/Source/Public API/IMBalloonApp.m;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long appleDoubleIdentificationType; // @synthesize appleDoubleIdentificationType=_appleDoubleIdentificationType;
 @property(readonly, nonatomic) NSString *archivePath; // @synthesize archivePath=_archivePath;
-@property(readonly, nonatomic) NSString *openedArchiveUnderlyingFormatName;
-@property(readonly, nonatomic) struct ui_archive *underlyingArchive; // @synthesize underlyingArchive=_underlyingArchive;
 
 @end
 

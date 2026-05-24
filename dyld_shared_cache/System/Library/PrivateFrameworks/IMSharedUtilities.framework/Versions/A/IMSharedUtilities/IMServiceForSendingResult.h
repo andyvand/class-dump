@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMServiceReachabilityResult, NSDictionary;
-
 @interface IMServiceForSendingResult
 {
     _Bool _final;
-    IMServiceReachabilityResult *_bestResult;
-    NSDictionary *_resultsByAccountID;
 }
 
 + (_Bool);
@@ -18,16 +14,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)initWithAttributeNames:displayName:trimDisplayName:values:additionalAttributes:representedObject:score:lastWordMatched: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)e¨ÿÿ?ÿÿh¨ÿÿü:ÿÿæ>ÿÿ?ÿÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) IMServiceReachabilityResult *bestResult; // @synthesize bestResult=_bestResult;
 @property(readonly, nonatomic, getter=isFinal) _Bool final; // @synthesize final=_final;
-@property(readonly, nonatomic) NSDictionary *resultsByAccountID; // @synthesize resultsByAccountID=_resultsByAccountID;
 
 @end
 

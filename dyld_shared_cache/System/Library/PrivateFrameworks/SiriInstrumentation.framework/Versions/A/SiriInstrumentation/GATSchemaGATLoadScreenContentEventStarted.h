@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATLoadScreenContentEventStarted : SISchemaInstrumentationMessage
 {
     _Bool _exist;
-    CDStruct_f0caceea _has;
 }
 
 - (void);
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exist; // @synthesize exist=_exist;
-@property(nonatomic) _Bool hasExist;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

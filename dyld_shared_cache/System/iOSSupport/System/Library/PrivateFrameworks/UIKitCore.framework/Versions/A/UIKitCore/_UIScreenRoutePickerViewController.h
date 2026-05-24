@@ -6,29 +6,26 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSObject, NSString, UIAlertController, _UIResilientRemoteViewContainerViewController;
-@protocol OS_dispatch_semaphore;
+@class UIAlertController;
 
 @interface _UIScreenRoutePickerViewController : UIViewController
 {
     UIAlertController *_alertController;
-    _UIResilientRemoteViewContainerViewController *_childViewController;
-    NSObject<OS_dispatch_semaphore> *_remoteViewControllerSemaphore;
 }
 
-- (void);
+- (void)(;
 - (_Bool);
 - (id);
+- (id)o kick off backfill sync but encountered error %@;
+- (void)not match any of the user's aliases:(CDUnknownBlockType)arg1 %@;
+- (void)(%u);
+- (void)rs.;
+- (void);
+- (void);
+- (void)T;
+- (id)$;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)parsing json:%@ /* Error: Ran out of types for this method. */;
 - (id)lStyle;
 - (long long)ayoutInfo",&,N;
 - (void)B;
@@ -37,13 +34,7 @@
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

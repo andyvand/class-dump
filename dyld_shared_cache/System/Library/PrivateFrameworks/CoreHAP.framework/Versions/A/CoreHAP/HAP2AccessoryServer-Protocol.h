@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
 @protocol HAP2AccessoryServerDelegate;
 
 @protocol HAP2AccessoryServer
+- (id <HAP2AccessoryServerDelegate>)A;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long connectionState;
 @property(nonatomic) __weak id <HAP2AccessoryServerDelegate> delegate;
-@property(readonly, nonatomic) _Bool hasDiscoveryAdvertisement;
-@property(readonly, nonatomic) long long reachabilityChangedReason;
-@property(retain) NSData *removedAccessoryKey;
-@property(readonly, nonatomic) double sessionCheckInterval;
 @end
 

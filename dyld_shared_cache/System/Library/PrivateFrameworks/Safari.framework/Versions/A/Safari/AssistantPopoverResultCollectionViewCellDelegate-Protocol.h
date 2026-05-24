@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSReaderConfigurationManager, WBSReaderFontManager;
+@class WBSReaderConfigurationManager;
 
 @protocol AssistantPopoverResultCollectionViewCellDelegate
 
 // Remaining properties
 @property(retain, nonatomic) WBSReaderConfigurationManager *assistantReaderCardConfigurationManager;
-@property(retain, nonatomic) WBSReaderFontManager *assistantReaderCardFontManager;
 @end
 

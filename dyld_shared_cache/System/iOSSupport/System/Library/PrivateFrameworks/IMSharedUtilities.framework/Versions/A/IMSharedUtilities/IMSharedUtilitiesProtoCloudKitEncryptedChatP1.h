@@ -7,11 +7,6 @@
 @interface IMSharedUtilitiesProtoCloudKitEncryptedChatP1
 {
     unsigned int _version;
-    _Bool _isRecovered;
-    struct {
-        unsigned int version:1;
-        unsigned int isRecovered:1;
-    } _has;
 }
 
 - (void);
@@ -25,7 +20,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -33,10 +28,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRecovered;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) _Bool isRecovered; // @synthesize isRecovered=_isRecovered;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

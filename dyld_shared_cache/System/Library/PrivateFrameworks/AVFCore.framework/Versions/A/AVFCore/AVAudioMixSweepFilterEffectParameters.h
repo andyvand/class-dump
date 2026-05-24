@@ -13,23 +13,20 @@
     AVAudioMixSweepFilterEffectParametersInternal *_sweepFilterAudioEffect;
 }
 
-+ (id);
-- (float);
-- (id);
++ (id)l0;
+- (float)@;
+- (id);
 - (int);
 - (int);
 - (id);
 - (float);
-- (void);
+- (void)}Sh;
 - (id);
 - (unsigned long long);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) float bypassThreshold;
-@property(readonly, nonatomic) int maximumCutOffFrequency;
 @property(readonly, nonatomic) int minimumCutOffFrequency;
-@property(readonly, nonatomic) float sweepValue;
 
 @end
 

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
-@protocol SFShareSheetServiceDelegate;
+@class NSXPCConnection;
 
 @interface SFShareSheetService
 {
     _Bool _invalidateCalled;
-    id <SFShareSheetServiceDelegate> _delegate;
-    NSXPCConnection *_connection;
 }
 
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -43,11 +40,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
-- (id)etVendorID: /* Error: Ran out of types for this method. */;
+- (id)setVendorID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)y advertising for advData %@;
 - (void)= %p, node = %p);
@@ -55,14 +52,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SFShareSheetServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

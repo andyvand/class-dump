@@ -5,5 +5,6 @@
 //
 
 @protocol AUPBInspecting
+- (void)>;
 @end
 

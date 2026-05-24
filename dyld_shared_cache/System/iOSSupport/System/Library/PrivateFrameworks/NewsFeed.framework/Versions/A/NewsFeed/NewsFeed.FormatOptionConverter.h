@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatOptionConverter
 {
     id inventory;
-    id logger;
-    id properties;
-    id slotProperties;
-    id slotItemProperties;
-    id slotItemAuxiliaryProperties;
-    id slotItemAuxiliaryItemProperties;
 }
 
 @end

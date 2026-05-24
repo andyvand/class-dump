@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)x;
 + (id);
 + (void);
 - (double);
@@ -25,10 +25,10 @@
 - (struct CGRect);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)6O;
 - (void);
 - (id);
-- (id);
+- (id)objectAtIndexedSubscript: /* Error: Ran out of types for this method. */;
 
 @end
 

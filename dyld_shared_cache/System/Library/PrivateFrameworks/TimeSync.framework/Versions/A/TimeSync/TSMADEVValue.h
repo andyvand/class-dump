@@ -7,7 +7,6 @@
 @interface TSMADEVValue
 {
     double _observationInterval;
-    double _madev;
 }
 
 - (double);
@@ -16,7 +15,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double madev; // @synthesize madev=_madev;
 @property(readonly, nonatomic) double observationInterval; // @synthesize observationInterval=_observationInterval;
 
 @end

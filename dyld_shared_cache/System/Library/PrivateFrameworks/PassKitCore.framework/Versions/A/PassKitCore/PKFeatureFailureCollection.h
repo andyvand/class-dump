@@ -17,11 +17,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)numMisseds;
+- (void)Q1;
 - (id)1Â0@ù
 × ;
-- (void)te;
+- (void)ingestedDate;
 
 @end
 

@@ -6,7 +6,6 @@
 
 #import <ChatKit/CKTranscriptLabelCell.h>
 
-@class NSString;
 @protocol CKJunkRecoveryTranscriptCellDelegate;
 
 @interface CKJunkRecoveryTranscriptCell : CKTranscriptLabelCell
@@ -16,14 +15,14 @@
 
 + (id);
 + (id);
+- (void)ic_notePreviewBackgroundLightContent:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)h;
+- (void)rating locked notes… {account:(id)arg1 %@, mode:(id)arg2 %@}%s:(_Bool)arg3 %d;
 - (void);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)(;
 - (id);
 - (void);
 - (void);
@@ -31,14 +30,7 @@
 - (void)üä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CKJunkRecoveryTranscriptCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

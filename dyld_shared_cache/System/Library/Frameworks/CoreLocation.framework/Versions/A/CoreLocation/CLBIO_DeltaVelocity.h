@@ -7,8 +7,6 @@
 @interface CLBIO_DeltaVelocity
 {
     double _X;
-    double _Y;
-    double _Z;
 }
 
 + (_Bool);
@@ -17,14 +15,12 @@
 - (double);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)pipelineFlagsWithTileVariant:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) double X; // @synthesize X=_X;
-@property(readonly, nonatomic) double Y; // @synthesize Y=_Y;
-@property(readonly, nonatomic) double Z; // @synthesize Z=_Z;
 
 @end
 

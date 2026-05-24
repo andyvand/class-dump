@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebContentLayoutAnalyzerController
 {
     struct BundleFrame _bundleFrame;
-    struct BundleScriptWorld _isolatedWorld;
 }
 
 - (id);

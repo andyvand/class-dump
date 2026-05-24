@@ -5,5 +5,6 @@
 //
 
 @protocol CSAccessorySiriClientBehaviorMonitorDelegate
+- (void)";
 @end
 

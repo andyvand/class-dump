@@ -6,61 +6,40 @@
 
 #import <MessageUI/MFContactsSearchOperation.h>
 
-@class CNAutocompleteFetchContext, CNAutocompleteStore, EFManualCancelationToken, EFPromise, NSString;
+@class EFManualCancelationToken;
 
 @interface MFContactsAutocompleteSearchOperation : MFContactsSearchOperation
 {
     EFManualCancelationToken *_fetchRequestToken;
-    EFPromise *_fetchRequestPromise;
-    _Bool _includeContacts;
-    _Bool _includeRecents;
-    _Bool _includeSuggestions;
-    _Bool _includeServers;
-    _Bool _simulateResults;
-    CNAutocompleteFetchContext *_fetchContext;
-    CNAutocompleteStore *_autocompleteStore;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void)`;
+- (void);
+- (id)e",R,&,N,V_audioBookTheme;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNAutocompleteStore *autocompleteStore; // @synthesize autocompleteStore=_autocompleteStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CNAutocompleteFetchContext *fetchContext; // @synthesize fetchContext=_fetchContext;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool includeContacts; // @synthesize includeContacts=_includeContacts;
-@property(nonatomic) _Bool includeRecents; // @synthesize includeRecents=_includeRecents;
-@property(nonatomic) _Bool includeServers; // @synthesize includeServers=_includeServers;
-@property(nonatomic) _Bool includeSuggestions; // @synthesize includeSuggestions=_includeSuggestions;
-@property(nonatomic) _Bool simulateResults; // @synthesize simulateResults=_simulateResults;
-@property(readonly) Class superclass;
 
 @end
 

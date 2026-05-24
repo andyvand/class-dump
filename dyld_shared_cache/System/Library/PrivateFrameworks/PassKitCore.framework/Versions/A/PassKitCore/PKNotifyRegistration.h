@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface PKNotifyRegistration
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    int _token;
-    NSMutableArray *_subregistrations;
-    _Bool _invalidated;
-    NSString *_name;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)c;
 - (_Bool);
 - (void)ð1Â0@ù
 × ;

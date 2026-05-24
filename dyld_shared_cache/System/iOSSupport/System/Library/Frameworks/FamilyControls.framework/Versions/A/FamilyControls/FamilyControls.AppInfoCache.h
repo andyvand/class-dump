@@ -8,7 +8,6 @@
 {
     id appInfoCache;
     id lookupQueue;
-    id urlSession;
 }
 
 @end

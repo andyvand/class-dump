@@ -4,51 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, UIDropInteraction, UIPresentationController, UIView;
-@protocol _UISheetDropInteractionDelegate;
+@class UIDropInteraction, UIView;
 
 @interface _UISheetDropInteraction
 {
     UIView *_view;
-    id <_UISheetDropInteractionDelegate> _delegate;
-    UIDropInteraction *_dropInteraction;
-    NSMapTable *_activityTypesOrActivities;
-    UIPresentationController *_presentationController;
 }
 
 - (void);
-- (id);
+- (id)Hybrid:mergeDisplayNames:participantIDs: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)r messageID:(id)arg1 %@;
+- (void)e don't have a pending nickname to clear for handle ID %@;
+- (id)editCollaborationWithPersistentID:properties:trackEdits:completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)pleted:(id)arg1;
+- (id)_notifyDependentsGestureRecognizerHasCompleted:(id)arg1;
 - (id)Td,N,V_displayDelaySeconds;
 - (_Bool)unknown contextID (%i). Returning "unknown".;
 - (void)=%ld request=%{private}@ %{private}@;
 - (void)ÿPvþÿ¸Äîÿ;
 - (id)d will be used;
 - (void)item for bar=%p;
-- (id)InputModeDidChangeNotification;
-- (id)ss;
+- (id)UITextInputCurrentInputModeDidChangeNotification;
+- (id)UIDocumentClass;
 - (void)ceneStackRecord"16;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *activityTypesOrActivities; // @synthesize activityTypesOrActivities=_activityTypesOrActivities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <_UISheetDropInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) UIDropInteraction *dropInteraction; // @synthesize dropInteraction=_dropInteraction;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIPresentationController *presentationController; // @synthesize presentationController=_presentationController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

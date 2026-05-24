@@ -5,5 +5,9 @@
 //
 
 @protocol MKMapViewDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

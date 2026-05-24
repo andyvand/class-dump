@@ -11,21 +11,20 @@
 @interface BPSMergeMany : BMBookmarkablePublisher
 {
     NSArray *_publishers;
-    unsigned long long _currentPublisher;
 }
 
 + (id);
 + (id);
 - (void);
-- (id);
-- (void);
+- (id)setContainer: /* Error: Ran out of types for this method. */;
+- (void)P;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -34,7 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentPublisher; // @synthesize currentPublisher=_currentPublisher;
-@property(readonly, nonatomic) NSArray *publishers; // @synthesize publishers=_publishers;
 
 @end
 

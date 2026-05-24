@@ -18,14 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)MediaAssetDownloadRequest;
+- (void)ICMediaAssetDownloadRequest;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *reportEventURL;
-@property(readonly, nonatomic) NSURL *resourceDomainURL;
-@property(readonly, nonatomic) NSURL *serialCheckURL;
-@property(readonly, nonatomic) long long syncPollingInterval;
-@property(readonly, nonatomic) NSURL *syncURL;
 
 @end
 

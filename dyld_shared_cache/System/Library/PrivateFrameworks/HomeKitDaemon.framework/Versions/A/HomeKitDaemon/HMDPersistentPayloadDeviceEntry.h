@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDPersistentPayloadDeviceEntry
 {
     _Bool _isPrimaryResident;
-    NSString *_idsDestination;
-    NSDate *_publishTimestamp;
-    NSData *_payloadData;
 }
 
-- (id);
+- (id)fy delegate, batch reached %lu items;
 - (_Bool);
 - (id);
 - (id);
@@ -23,13 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void)airedHAPAccessories_;
+- (void)pairedHAPAccessories_;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
-@property(readonly, nonatomic) _Bool isPrimaryResident; // @synthesize isPrimaryResident=_isPrimaryResident;
-@property(readonly, copy, nonatomic) NSData *payloadData; // @synthesize payloadData=_payloadData;
-@property(readonly, nonatomic) NSDate *publishTimestamp; // @synthesize publishTimestamp=_publishTimestamp;
 
 @end
 

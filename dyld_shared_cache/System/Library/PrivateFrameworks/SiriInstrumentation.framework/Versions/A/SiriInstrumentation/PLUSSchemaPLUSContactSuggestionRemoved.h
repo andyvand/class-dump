@@ -6,54 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSContactSuggestion, PLUSSchemaPLUSContactSuggestionUsageSummary;
+@class PLUSSchemaPLUSContactSuggestion;
 
 @interface PLUSSchemaPLUSContactSuggestionRemoved : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSContactSuggestion *_removedSuggestion;
-    int _reason;
-    PLUSSchemaPLUSContactSuggestionUsageSummary *_usageSummary;
-    CDStruct_6555f803 _has;
-    _Bool _hasRemovedSuggestion;
-    _Bool _hasUsageSummary;
 }
 
+- (id)k;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (id)4;
+- (int)y turn navigation.;
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (int);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)shed loading message parts metadata for chat GUID:(id)arg1 %@;
 - (void);
 - (id);
 - (id)Ý1Â0@ù
 × ;
-- (id)QUQueryArgumentsTier1;
+- (id)_hasStLLMQUQueryArgumentsTier1;
 - (id),V_hasErrorDomainString;
-- (void)Context;
-- (void)ON_FOR_EMERGENCY_CALL;
+- (void)ifPlatformRequestContext;
+- (void)CNVEXECUTIONOVERRIDEDECISION_OVERRIDE_MITIGATION_DECISION_FOR_EMERGENCY_CALL;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasRemovedSuggestion; // @synthesize hasRemovedSuggestion=_hasRemovedSuggestion;
-@property(nonatomic) _Bool hasUsageSummary; // @synthesize hasUsageSummary=_hasUsageSummary;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 @property(retain, nonatomic) PLUSSchemaPLUSContactSuggestion *removedSuggestion; // @synthesize removedSuggestion=_removedSuggestion;
-@property(retain, nonatomic) PLUSSchemaPLUSContactSuggestionUsageSummary *usageSummary; // @synthesize usageSummary=_usageSummary;
 
 @end
 

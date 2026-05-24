@@ -4,60 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimer, _NSScrollingMomentumCalculator, _NSScrollingPredominantAxisFilter, _NSScrollingRubberbandFilter;
 @protocol NSScrollingAnimatorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSScrollingAnimator
 {
     long long _state;
-    id <NSScrollingAnimatorDelegate> _delegate;
-    _NSScrollingPredominantAxisFilter *_predominantAxisFilter;
-    _NSScrollingRubberbandFilter *_rubberbandFilter;
-    NSDate *_trackingBeganDate;
-    double _momentumStartTimestamp;
-    _NSScrollingMomentumCalculator *_momentumCalculator;
-    struct CGPoint _unusedDelta;
-    struct CGPoint _lastEventVelocity;
-    struct CGPoint _lastFilteredVelocity;
-    struct CGRect _lastKnownContentFrame;
-    struct CGPoint _lastKnownScrollOffset;
-    double _lastKnownMomentumTimestamp;
-    NSTimer *_timer;
-    struct _delegateMethods {
-        unsigned int trackingMayBegin:1;
-        unsigned int trackingCancelled:1;
-        unsigned int trackingBegan:1;
-        unsigned int trackingEnded:1;
-        unsigned int trackingMomentumTarget:1;
-        unsigned int pauseConsumption:1;
-        unsigned int continueConsumption:1;
-        unsigned int velocityHasSlowed:1;
-    } _delegateMethods;
-    _Bool _cursorWasOriginallyInContent;
-    _Bool _hasNotifiedOfSlowVelocity;
 }
 
+- (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (long long);
+- (_Bool)"NSURLProtocolInternal";
+- (_Bool)ecIdentity=}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)_private_onqueue_didReceiveResponseDisposition:(unsigned long long)arg1 completion:(struct CGPoint)arg2;
+- (void)_onqueue_alternatePathAvailable:(long long)arg1;
+- (void)ion,V_proxySession;
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)g;
+- (void)V;
 - (void);
 - (void);
 - (id);
+- (void)did not accept the certificate.;
+- (void)certificate.;
+- (void)__nsurlrequest_proto_prop_obj_25;
 - (void);
 - (void);
 - (void);
@@ -66,25 +43,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)B;
+- (void)arguments. contents:(id)arg1 %@, markerAttributes:%@, childElements:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property _Bool allowsHorizontalStretching;
-@property _Bool allowsVerticalStretching;
-@property long long axisFilterMode;
 @property __weak id <NSScrollingAnimatorDelegate> delegate;
 
 @end

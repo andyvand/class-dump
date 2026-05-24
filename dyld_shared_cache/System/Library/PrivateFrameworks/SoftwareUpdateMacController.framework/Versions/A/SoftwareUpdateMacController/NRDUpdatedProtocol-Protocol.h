@@ -5,5 +5,6 @@
 //
 
 @protocol NRDUpdatedProtocol
+- (void);
 @end
 

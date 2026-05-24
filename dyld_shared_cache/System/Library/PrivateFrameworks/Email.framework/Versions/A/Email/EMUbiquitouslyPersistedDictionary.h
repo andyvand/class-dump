@@ -4,70 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSUbiquitousKeyValueStore;
-@protocol EFScheduler, EMUbiquitouslyPersistedDictionaryDelegate, OS_dispatch_queue;
+@class NSString;
 
 @interface EMUbiquitouslyPersistedDictionary
 {
     NSString *_plistPath;
-    NSString *_identifier;
-    NSMutableDictionary *_storedObjects;
-    NSUbiquitousKeyValueStore *_kvStore;
-    NSObject<OS_dispatch_queue> *_mutationQueue;
-    id <EMUbiquitouslyPersistedDictionaryDelegate> _delegate;
-    id <EFScheduler> _delegateScheduler;
 }
 
 + (id);
 + (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)ta())) > (uintptr_t((*result).size())): /* Error: Ran out of types for this method. */;
+- (void)ptional messages.;
 - (id);
 - (void);
 - (void);
+- (id)7;
+- (id);
+- (void);
+- (void);
+- (id)stener=%@;
+- (id)) buffer elements;
+- (void);
+- (id);
+- (id);
+- (id)K;
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)ƃ;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)__auth_got;
 - (void)@ùQ=1Â0@ù
 × ;
 - (id)initWithFocusedAccountIdentifiers:(id)arg1;
-- (id)gesWithSender: /* Error: Ran out of types for this method. */;
+- (id)predicateForMessagesWithSender: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <EMUbiquitouslyPersistedDictionaryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) id <EFScheduler> delegateScheduler; // @synthesize delegateScheduler=_delegateScheduler;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSUbiquitousKeyValueStore *kvStore; // @synthesize kvStore=_kvStore;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *mutationQueue; // @synthesize mutationQueue=_mutationQueue;
-@property(readonly, nonatomic) NSString *plistPath; // @synthesize plistPath=_plistPath;
-@property(readonly, nonatomic) NSMutableDictionary *storedObjects; // @synthesize storedObjects=_storedObjects;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUbiquitousKeyValueStore *ubiquitousKeyValueStore;
 
 @end
 

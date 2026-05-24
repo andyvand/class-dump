@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
-
 @interface _CRKCardViewControllerTransitionCoordinator
 {
     _Bool _animated;
-    CDUnknownBlockType _initialSetup;
-    CDUnknownBlockType _finalSetup;
-    CDUnknownBlockType _animations;
-    CDUnknownBlockType _completion;
-    NSView *_containerView;
-    double _duration;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void)initWithFutureCompletionStatus:(CDUnknownBlockType)arg1 capabilities: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)a;
 - (void);
 - (void);
 - (void);
@@ -36,19 +28,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isAnimated) _Bool animated; // @synthesize animated=_animated;
-@property(copy, nonatomic) CDUnknownBlockType animations; // @synthesize animations=_animations;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(nonatomic) __weak NSView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) CDUnknownBlockType finalSetup; // @synthesize finalSetup=_finalSetup;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType initialSetup; // @synthesize initialSetup=_initialSetup;
-@property(readonly) Class superclass;
 
 @end
 

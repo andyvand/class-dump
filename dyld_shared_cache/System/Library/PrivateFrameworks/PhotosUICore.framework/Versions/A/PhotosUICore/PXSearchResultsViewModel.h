@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (long long)ecipeAttributes: /* Error: Ran out of types for this method. */;
+- (long long)setRecipeAttributes: /* Error: Ran out of types for this method. */;
 
 @end
 

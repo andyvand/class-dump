@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (Class);
+- (Class)I;
 - (id);
-- (int);
+- (int)signatureWithDomain:type:subType:originatingProcess:triggerThreshold: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)voke;
 
 @end
 

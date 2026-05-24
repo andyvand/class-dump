@@ -13,27 +13,19 @@
 }
 
 - (int);
+- (int);
 - (int);
-- (int);
-- (int);
+- (int)]1;
 - (int);
 - (void);
 - (void);
 - (int);
-- (int);
-- (int);
+- (int)abling for URL request:%{public}@. /* Error: Ran out of types for this method. */;
+- (int)b#;
 - (id);
 
 // Remaining properties
-@property(readonly) int charCode;
-@property(readonly) int detail;
-@property(readonly) int keyCode;
-@property(readonly) int layerX;
-@property(readonly) int layerY;
-@property(readonly) int pageX;
-@property(readonly) int pageY;
 @property(readonly) DOMAbstractView *view;
-@property(readonly) int which;
 
 @end
 

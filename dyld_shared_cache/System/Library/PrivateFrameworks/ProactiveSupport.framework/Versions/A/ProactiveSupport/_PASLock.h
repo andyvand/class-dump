@@ -7,22 +7,16 @@
 @interface _PASLock
 {
     struct _opaque_pthread_mutex_t _lock;
-    struct _opaque_pthread_t {
-        long long _field1;
-        struct __darwin_pthread_handler_rec *_field2;
-        char _field3[8176];
-    } *_owner;
-    id _guardedData;
 }
 
-- (void);
+- (void)sources do not have their own default calendar.  Pass nil to get the default across all non-delegate sources;
 - (unsigned char);
 - (id);
+- (id)_;
+- (void)A;
+- (unsigned char);
 - (id);
-- (void);
-- (unsigned char);
-- (id);
-- (void);
+- (void)setX_wr_itipstatusattendeeml: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol ASCLockupViewDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

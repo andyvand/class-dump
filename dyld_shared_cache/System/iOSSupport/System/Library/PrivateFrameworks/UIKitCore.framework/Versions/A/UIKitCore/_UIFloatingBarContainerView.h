@@ -6,47 +6,34 @@
 
 #import <UIKitCore/UIView.h>
 
-@class _UIScrollPocketCollectorInteraction;
 @protocol _UIFloatingBarContainerDelegate;
 
 @interface _UIFloatingBarContainerView : UIView
 {
     void delegate;
-    id model;
-    id hostingView;
-    id pointerAssistant;
-    id axHUDAssistant;
-    id keyboardAssistant;
-    id scrollPocketContainerInteraction;
-    unsigned long long _edgesRequiringContentMargin;
-    unsigned long long _adjacentBarEdges;
 }
 
 - (double);
 - (void);
 - (void);
+- (id)updateNicknameHandlesForSharing:blocked: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (unsigned long long)sage with GUID:%@ to originated Message Map /* Error: Ran out of types for this method. */;
+- (unsigned long long)IMDRelayErrorChatForOutgoingMessageChatGUIDKey;
+- (id)cation"16;
+- (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void)Ñd1Â0@ù
 × ;
-- (id)fNecessary;
+- (id)_createJostledViewsIfNecessary;
 - (_Bool)°þÿÿÿÿl;
 - (void)8ØÔh;
 - (void)¡;
 
 // Remaining properties
-@property(nonatomic) unsigned long long _adjacentBarEdges; // @synthesize _adjacentBarEdges;
-@property(nonatomic) unsigned long long _edgesRequiringContentMargin; // @synthesize _edgesRequiringContentMargin;
 @property(nonatomic) __weak id <_UIFloatingBarContainerDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, retain) _UIScrollPocketCollectorInteraction *scrollPocketCollectorInteraction;
-@property(nonatomic, readonly) double toolbarOverlayInset;
 
 @end
 

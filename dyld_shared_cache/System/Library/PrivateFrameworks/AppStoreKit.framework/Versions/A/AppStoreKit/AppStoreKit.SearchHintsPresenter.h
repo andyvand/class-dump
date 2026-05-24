@@ -9,12 +9,6 @@
 @interface AppStoreKit.SearchHintsPresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id hints;
-    id precedingFetch;
-    id searchTextPresenter;
-    id searchBarCancelAction;
-    id searchFieldClearAction;
-    id term;
 }
 
 @end

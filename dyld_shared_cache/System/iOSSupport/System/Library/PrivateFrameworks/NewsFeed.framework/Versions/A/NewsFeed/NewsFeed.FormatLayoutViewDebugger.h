@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatLayoutViewDebugger
 {
     id block;
-    id feedKeysBlock;
-    id allFeedKeysBlock;
 }
 
 @end

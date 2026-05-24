@@ -6,19 +6,10 @@
 
 #import <Metal/MTLRasterizationRateMapDescriptor.h>
 
-@class MTLRasterizationRateLayerArrayInternal, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MTLRasterizationRateMapDescriptorInternal : MTLRasterizationRateMapDescriptor
 {
     CDStruct_da2e99ad _screenSize;
-    NSString *_label;
-    struct vector<MTLRasterizationRateLayerDescriptor *, std::allocator<MTLRasterizationRateLayerDescriptor *>> _layers;
-    MTLRasterizationRateLayerArrayInternal *_layerAccessor;
-    _Bool _skipSampleValidationAndInterpolation;
-    _Bool _skipSampleValidationAndApplySampleAtTileGranularity;
-    float _minFactor;
-    unsigned long long _mutability;
 }
 
 - (_Bool);
@@ -43,16 +34,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (CDStruct_da2e99ad);
-- (id);
+- (CDStruct_da2e99ad);
+- (id);
 - (id)fair_lock_s=I}BBB@@@@}16@0:8 /* Error: Ran out of types for this method. */;
-- (void)am:(id)arg1 kernelDriverCompileTimeData:serializedComputeDataDescriptor:compileTimeStatistics:reflection:error:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)pipelineStateWithVariant:(id)arg1 descriptor:options:computeProgram:kernelDriverCompileTimeData:serializedComputeDataDescriptor:compileTimeStatistics:reflection:error:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)A;
 
 // Remaining properties
-@property(nonatomic) float minFactor; // @synthesize minFactor=_minFactor;
-@property(nonatomic) unsigned long long mutability; // @synthesize mutability=_mutability;
-@property(nonatomic) _Bool skipSampleValidationAndApplySampleAtTileGranularity; // @synthesize skipSampleValidationAndApplySampleAtTileGranularity=_skipSampleValidationAndApplySampleAtTileGranularity;
 @property(nonatomic) _Bool skipSampleValidationAndInterpolation; // @synthesize skipSampleValidationAndInterpolation=_skipSampleValidationAndInterpolation;
 
 @end

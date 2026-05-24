@@ -6,17 +6,16 @@
 
 #import <AddressBook/ABBrowsingGroupEntry.h>
 
-@class ABAccount, ABAddressBook;
+@class ABAccount;
 
 @interface ABAccountBrowsingGroupEntry : ABBrowsingGroupEntry
 {
     ABAccount *_account;
-    ABAddressBook *_addressBook;
 }
 
 + (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -33,7 +32,6 @@
 
 // Remaining properties
 @property(readonly, retain) ABAccount *account; // @synthesize account=_account;
-@property(readonly, retain) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
 
 @end
 

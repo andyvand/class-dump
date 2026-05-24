@@ -9,11 +9,9 @@
 @interface CTLazuliChatBotURIEntry
 {
     NSString *_addressUri;
-    long long _addressUriType;
-    long long _label;
 }
 
-+ (_Bool);
++ (_Bool)cContentKeyRequestEvent:%p %@ contentKeySpecifier:%@ mediaType:%@ isClientInitiated:%d mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -24,16 +22,14 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)_LAKeyStoreGenericPasswordCryptor;
+- (id)@;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *addressUri; // @synthesize addressUri=_addressUri;
-@property(nonatomic) long long addressUriType; // @synthesize addressUriType=_addressUriType;
-@property(nonatomic) long long label; // @synthesize label=_label;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @interface UnknownClass (Testing)
-- (void);
+- (void)й
+;
 @end
 

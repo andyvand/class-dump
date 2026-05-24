@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupDropDestination, ABGroupDropPasteboardData, NSArray, NSMutableArray, NSMutableSet, NSSet;
+@class ABGroupDropPasteboardData, NSSet;
 
 @interface ABGroupDropPasteboardDataCategorizer
 {
     ABGroupDropPasteboardData *_pasteboardData;
-    ABGroupDropDestination *_destination;
-    NSMutableSet *_personUidsExistingInDestination;
-    NSMutableArray *_linkedPersonUidsToImport;
-    NSMutableSet *_groupUidsExistingInDestination;
-    NSMutableSet *_groupUidsToImport;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)�;
+- (id)_;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)!b;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly) NSSet *groupUidsExistingInDestination; // @synthesize groupUidsExistingInDestination=_groupUidsExistingInDestination;
-@property(readonly) NSSet *groupUidsToImport; // @synthesize groupUidsToImport=_groupUidsToImport;
-@property(readonly) NSArray *linkedPersonUidsToImport; // @synthesize linkedPersonUidsToImport=_linkedPersonUidsToImport;
 @property(readonly) NSSet *personUidsExistingInDestination; // @synthesize personUidsExistingInDestination=_personUidsExistingInDestination;
 
 @end

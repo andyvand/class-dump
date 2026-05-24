@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArgument, NSMutableArray, NSString;
-@protocol MTLArgumentEncoder;
+@class MTLArgument;
 
 __attribute__((visibility("hidden")))
 @interface SCNMTLResourceBinding
 {
     _Bool _needsRenderResource;
-    CDStruct_21854d8c _indices;
-    CDStruct_21854d8c _samplerIndices;
-    NSMutableArray *_usedResources;
-    id _bindBlock;
-    MTLArgument *_argument;
-    id <MTLArgumentEncoder> _argumentEncoder;
 }
 
 - (id);
@@ -31,17 +24,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)currentValue;
 - (id)2WÆ>] ?¹Å¾cat?qÓ>"U$?W³Æ¾jn?.à>2å'?¡HÇ¾qg?u­í>Øõ+?*oÇ¾;
 
 // Remaining properties
 @property(retain, nonatomic) MTLArgument *argument; // @synthesize argument=_argument;
-@property(retain, nonatomic) id <MTLArgumentEncoder> argumentEncoder; // @synthesize argumentEncoder=_argumentEncoder;
-@property(copy, nonatomic) id bindBlock; // @synthesize bindBlock=_bindBlock;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) _Bool needsRenderResource;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) NSMutableArray *usedResources;
 
 @end
 

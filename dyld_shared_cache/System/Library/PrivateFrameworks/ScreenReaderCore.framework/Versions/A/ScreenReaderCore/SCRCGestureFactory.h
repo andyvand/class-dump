@@ -4,128 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCRCTargetSelectorTimer;
-@protocol SCRCGestureFactoryCallback;
-
 @interface SCRCGestureFactory
 {
     double _stallDistance;
-    double _maxDimension;
-    double _thumbRegion;
-    long long _orientation;
-    long long _directions[7];
-    struct {
-        double horizontal;
-        double vertical;
-    } _axisFlipper;
-    double _scaledTrackingDistance;
-    _Bool _setTrackingTimer;
-    double _flickVelocityThreshold;
-    double _tapVelocityThreshold;
-    double _echoWaitTime;
-    struct CGRect _tapSpeedRegion;
-    double _tapVelocityThresholdForRegion;
-    long long _tapSpeedFingerCount;
-    _Bool _inTapSpeedRegionForDownEvent;
-    struct CGRect _mainFrame;
-    struct CGRect _gutterFrame;
-    double _lastTime;
-    double _lastDownTime;
-    double _lastGutterDownTime;
-    double _lastDegrees;
-    double _startDegrees;
-    double _startDistance;
-    double _potentialTrackingStartTimestamp;
-    _Bool _requireUp;
-    _Bool _thumbRejectionEnabled;
-    long long _state;
-    long long _direction;
-    double _directionalSlope;
-    struct SCRCFingerState _finger[2];
-    unsigned long long _absoluteFingerCount;
-    unsigned short _fingerCount;
-    unsigned short _lastFingerCount;
-    unsigned short _tapTotalFingerCount;
-    double _distance;
-    unsigned long long _tapCount;
-    struct CGRect _tapFrame;
-    struct CGRect _tapMultiFrame;
-    id <SCRCGestureFactoryCallback> _trackDelegate;
-    id <SCRCGestureFactoryCallback> _tapDelegate;
-    id <SCRCGestureFactoryCallback> _gutterUpDelegate;
-    id <SCRCGestureFactoryCallback> _splitTapDelegate;
-    id <SCRCGestureFactoryCallback> _canSplitTapDelegate;
-    id <SCRCGestureFactoryCallback> _didBeginSplitGestureDelegate;
-    SCRCTargetSelectorTimer *_trackingTimer;
-    struct {
-        _Bool isFingerCurrentlyDown;
-        _Bool dead;
-        _Bool gutterHasBeenTouched;
-        unsigned long long numFingersInCurrentGestureEvent;
-        unsigned long long totalNumFingersInGesture;
-        unsigned long long count;
-        struct CGRect frame;
-        struct CGPoint location[8];
-        struct CGPoint locationPerTap[8];
-        double thisTime;
-        double lastTime;
-    } _tap;
-    SCRCTargetSelectorTimer *_tapTimer;
-    SCRCTargetSelectorTimer *_gutterUpTimer;
-    SCRCGestureFactory *_splitFactory;
-    struct {
-        _Bool isSplitting;
-        _Bool isTapping;
-        _Bool fastTrack;
-        _Bool tapDead;
-        _Bool timedOut;
-        _Bool active;
-        _Bool didNotify;
-        unsigned long long fingerIdentifier;
-        double fingerDownTime;
-        struct CGPoint startTapLocation;
-        struct CGPoint lastTapLocation;
-        struct CGPoint primaryFingerLocation;
-        double tapDistance;
-        long long state;
-    } _split;
-    _Bool _splitFlickEnabled;
-    _Bool _usesAbsoluteDistanceForPinch;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)m;
+- (_Bool);
 - (unsigned long long);
-- (double);
-- (struct CGPoint);
-- (struct CGPoint);
-- (_Bool);
-- (double);
-- (struct CGRect);
-- (struct CGPoint);
-- (_Bool);
+- (double).m;
+- (struct CGPoint);
+- (struct CGPoint)-m;
+- (_Bool)m;
+- (double)m;
+- (struct CGRect);
+- (struct CGPoint)x.m;
+- (_Bool)-m;
+- (void)m;
+- (void);
+- (void)m;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (void);
+- (struct CGPoint);
 - (struct CGRect);
 - (id);
 - (id);
-- (CDStruct_fc320275);
+- (CDStruct_ddb67d13);
 - (id);
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
-- (CDStruct_fc320275);
+- (CDStruct_ddb67d13);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -137,27 +53,25 @@
 - (struct CGRect);
 - (void);
 - (void);
+- (long long)@;
+- (unsigned long long);
+- (double)Im;
+- (struct CGPoint)m;
+- (struct CGRect)C{;
+- (void);
+- (void);
+- (struct CGPoint);
+- (double);
+- (double)KGameSession";
+- (long long);
+- (struct CGPoint);
 - (long long);
 - (unsigned long long);
-- (double);
-- (struct CGPoint);
-- (struct CGRect);
 - (void);
-- (void);
-- (struct CGPoint);
-- (double);
-- (double);
-- (long long);
-- (struct CGPoint);
-- (long long);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)removeLocalAccountDataWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool splitFlickEnabled; // @synthesize splitFlickEnabled=_splitFlickEnabled;
 @property(nonatomic) _Bool thumbRejectionEnabled; // @synthesize thumbRejectionEnabled=_thumbRejectionEnabled;
-@property(nonatomic) _Bool usesAbsoluteDistanceForPinch; // @synthesize usesAbsoluteDistanceForPinch=_usesAbsoluteDistanceForPinch;
 
 @end
 

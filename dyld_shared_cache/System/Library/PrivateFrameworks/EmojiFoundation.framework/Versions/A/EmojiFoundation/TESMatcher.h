@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSMutableArray, TESTriggerPhraseMatcher;
+@class NSMutableArray;
 
 @interface TESMatcher
 {
     NSMutableArray *_matchers;
-    TESTriggerPhraseMatcher *_phraseMatcher;
-    NSLocale *_locale;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)apshotOnDiskImageStorage"8@?0;
+- (id)"NSDictionary"8@?0;
+- (void)alwaysRestoreSessionSetting;
+- (void)afariWebBookmark"8;
+- (void)alertDialogTableCellIdentifier;
 - (void);
 - (id);
 - (id);
@@ -25,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 @property(retain, nonatomic) NSMutableArray *matchers; // @synthesize matchers=_matchers;
-@property(retain, nonatomic) TESTriggerPhraseMatcher *phraseMatcher; // @synthesize phraseMatcher=_phraseMatcher;
 
 @end
 

@@ -9,10 +9,10 @@
 }
 
 - (void);
-- (void);
+- (void)1.;
 - (id);
 - (void);
-- (id);
+- (id)y*e;
 - (void);
 
 @end

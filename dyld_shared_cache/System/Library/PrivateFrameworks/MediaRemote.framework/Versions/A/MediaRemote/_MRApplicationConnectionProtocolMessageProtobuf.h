@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRApplicationConnectionContextProtobuf, _MRApplicationConnectionMessageProtobuf;
+@class _MRApplicationConnectionMessageProtobuf;
 
 @interface _MRApplicationConnectionProtocolMessageProtobuf
 {
     _MRApplicationConnectionMessageProtobuf *_applicationMessage;
-    _MRApplicationConnectionContextProtobuf *_context;
 }
 
 - (void);
@@ -17,23 +16,20 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)userMenuInternal;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ge:suppress:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)V_maximumRating;
 
 // Remaining properties
-@property(retain, nonatomic) _MRApplicationConnectionMessageProtobuf *applicationMessage; // @synthesize applicationMessage=_applicationMessage;
-@property(retain, nonatomic) _MRApplicationConnectionContextProtobuf *context; // @synthesize context=_context;
 @property(readonly, nonatomic) _Bool hasApplicationMessage;
-@property(readonly, nonatomic) _Bool hasContext;
 
 @end
 

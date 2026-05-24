@@ -14,8 +14,8 @@
 }
 
 + (int);
-- (id);
-- (id);
+- (id)tifyInvalidated %@;
+- (id)paymentAuthorizationController:didAuthorizePayment:completion: /* Error: Ran out of types for this method. */;
 - (void)Á#ð!h@ù2'°1Â0@ù
 × ;
 

@@ -9,7 +9,6 @@
 @interface CKAssistantPerson
 {
     NSString *_internalGUID;
-    NSString *_label;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *internalGUID; // @synthesize internalGUID=_internalGUID;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

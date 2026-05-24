@@ -6,28 +6,20 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class NSString;
-
 @interface SGURLDissector : SGPipelineDissector
 {
 }
 
 - (id);
 - (id);
-- (void);
+- (void)4@0:(id)arg1 8@"IDSGroupSession"16@"NSData"24S32@"IDSGroupSessionActiveParticipant"36;
 - (id);
 - (unsigned char);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,14 +8,10 @@ __attribute__((visibility("hidden")))
 @interface CIAutoEnhanceFace
 {
     int size;
-    int centerX;
-    int centerY;
-    double I;
-    double Q;
 }
 
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (double);
 - (double);
 - (int);
@@ -24,10 +20,6 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(readonly) double I; // @synthesize I;
-@property(readonly) double Q; // @synthesize Q;
-@property(readonly) int centerX; // @synthesize centerX;
-@property(readonly) int centerY; // @synthesize centerY;
 @property(readonly) int size; // @synthesize size;
 
 @end

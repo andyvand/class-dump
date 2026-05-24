@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFImageSource;
+@class RFImageSource;
 
 @protocol RFBadgedImage
+- (void)ng request:(RFImageSource *)arg1 %p. URL=%{public}@ dataTask=%{public}@;
+- (void),N,V_contentMode;
 - (RFImageSource *)Ç¬;
 
 // Remaining properties
-@property(retain, nonatomic) RFImageSource *badge;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) RFImageSource *image;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

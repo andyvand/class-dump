@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUIdentifier, NUVersion;
-@protocol NUAsset;
+@class NUIdentifier;
 
 @interface PIPhotosPipelineDescriptor
 {
     NUIdentifier *_pipelineIdentifier;
-    NUVersion *_basePipelineVersion;
-    NUIdentifier *_schemaIdentifier;
-    id <NUAsset> _asset;
 }
 
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)edgeIdentifiersSortedByPropertyForName:(id)arg1 dataType:ascending:limit:edgeIdentifiers:error: /* Error: Ran out of types for this method. */;
+- (id)_isReadOnly;
 - (id);
 - (id);
-- (id);
-- (void)omOverlap: /* Error: Ran out of types for this method. */;
+- (void)setTimeBottomOverlap: /* Error: Ran out of types for this method. */;
 - (id){i;
 
 // Remaining properties
-@property(readonly, nonatomic) id <NUAsset> asset; // @synthesize asset=_asset;
-@property(retain, nonatomic) NUVersion *basePipelineVersion; // @synthesize basePipelineVersion=_basePipelineVersion;
 @property(retain, nonatomic) NUIdentifier *pipelineIdentifier; // @synthesize pipelineIdentifier=_pipelineIdentifier;
-@property(copy, nonatomic) NUIdentifier *schemaIdentifier; // @synthesize schemaIdentifier=_schemaIdentifier;
 
 @end
 

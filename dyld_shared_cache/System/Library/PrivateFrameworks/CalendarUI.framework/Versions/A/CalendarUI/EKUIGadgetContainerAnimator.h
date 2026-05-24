@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKViewController, NSMapTable;
-
 @interface EKUIGadgetContainerAnimator
 {
     _Bool _isAnimating;
-    _Bool _runningAnimations;
-    EKViewController *_viewController;
-    NSMapTable *_animations;
 }
 
-+ (id);
++ (id)_;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool));
+- (id)7;
 - (double);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -33,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMapTable *animations; // @synthesize animations=_animations;
 @property _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property _Bool runningAnimations; // @synthesize runningAnimations=_runningAnimations;
-@property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

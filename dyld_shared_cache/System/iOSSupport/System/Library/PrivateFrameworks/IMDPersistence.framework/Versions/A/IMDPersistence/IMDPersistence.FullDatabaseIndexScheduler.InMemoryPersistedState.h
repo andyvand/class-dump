@@ -7,12 +7,6 @@
 @interface IMDPersistence.FullDatabaseIndexScheduler.InMemoryPersistedState
 {
     id reindexSchedulingLastMessageRowID;
-    id reindexSchedulingLastChatRowID;
-    id reindexSchedulingInProgress;
-    id reindexSchedulingContext;
-    id reindexSchedulingUserInfoData;
-    id reindexSchedulingBatchSize;
-    id reindexSchedulingBatchDelay;
 }
 
 @end

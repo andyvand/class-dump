@@ -5,5 +5,6 @@
 //
 
 @protocol PKComplicationXPCClient
+- (void);
 @end
 

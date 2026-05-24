@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASREmbeddedSpeechProcessStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id)sendNMEAFilterList:(id)arg1 forAccessoryUUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)ouldSuppressMessageUnderConditions: /* Error: Ran out of types for this method. */;
+- (id)D+;
+- (id)shouldSuppressMessageUnderConditions: /* Error: Ran out of types for this method. */;
 - (id)4Ô;
 - (id);
 - (_Bool)T¼ÿÀ®².%;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

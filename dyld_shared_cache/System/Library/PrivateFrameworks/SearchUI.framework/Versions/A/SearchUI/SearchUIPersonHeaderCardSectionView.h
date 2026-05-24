@@ -6,12 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NSString, SFPersonHeaderCardSection, SearchUIPersonHeaderBoxView, SearchUIPersonHeaderViewController;
+@class SearchUIPersonHeaderViewController;
 
 @interface SearchUIPersonHeaderCardSectionView : SearchUICardSectionView
 {
     SearchUIPersonHeaderViewController *_viewController;
-    SearchUIPersonHeaderBoxView *_boxView;
 }
 
 + (_Bool);
@@ -21,11 +20,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)SGQuickResponsesToRobotsConfig;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)AD_doubleDateTimeAsString;
+- (void)ADIDRecords;
 - (void);
 - (id);
 - (id);
@@ -33,15 +32,6 @@
 - (struct NSEdgeInsets)Ô ;
 
 // Remaining properties
-@property(retain) SearchUIPersonHeaderBoxView *boxView; // @synthesize boxView=_boxView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) SFPersonHeaderCardSection *section; // @dynamic section;
-@property(readonly) Class superclass;
 @property(retain) SearchUIPersonHeaderViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

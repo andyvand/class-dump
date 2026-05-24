@@ -9,14 +9,6 @@
 @interface BMPBDeviceMetadataEvent
 {
     NSString *_build;
-    NSString *_name;
-    int _platform;
-    NSString *_supplementalBuild;
-    _Bool _rapidSecurityResponsePreReboot;
-    struct {
-        unsigned int platform:1;
-        unsigned int rapidSecurityResponsePreReboot:1;
-    } _has;
 }
 
 - (void);
@@ -29,7 +21,7 @@
 - (int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}24^{?=IIIIIIIIIIIIIfIIIII[9f][9f]IfIIfiBiIBB}32^{?=ffIffffIffffIfffffffffffffIffffffffffffffffffBffBfBiifi{_DpcParam=ffffBBfIf}iSBfBBiBBfBfBf}40@48@56^{?={?=SSSSSSSSII}{?=SS}}64;
 - (id);
 - (_Bool);
 - (void);
@@ -39,8 +31,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_mapItemIdentifier;
+- (void)encodeFloat:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (id);
@@ -50,16 +42,7 @@
 - (void)abcdefg;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *build; // @synthesize build=_build;
-@property(readonly, nonatomic) _Bool hasBuild;
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasPlatform;
-@property(nonatomic) _Bool hasRapidSecurityResponsePreReboot;
-@property(readonly, nonatomic) _Bool hasSupplementalBuild;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int platform; // @synthesize platform=_platform;
-@property(nonatomic) _Bool rapidSecurityResponsePreReboot; // @synthesize rapidSecurityResponsePreReboot=_rapidSecurityResponsePreReboot;
-@property(retain, nonatomic) NSString *supplementalBuild; // @synthesize supplementalBuild=_supplementalBuild;
 
 @end
 

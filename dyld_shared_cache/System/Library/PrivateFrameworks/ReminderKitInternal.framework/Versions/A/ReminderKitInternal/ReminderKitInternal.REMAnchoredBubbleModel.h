@@ -7,14 +7,6 @@
 @interface ReminderKitInternal.REMAnchoredBubbleModel
 {
     id lang;
-    id bubbles;
-    id latestPredictionEditingSessionID;
-    id latestTitleTokens;
-    id latestPredictions;
-    id pcaDimensionReduction;
-    id distanceScale;
-    id version;
-    id predefinedLabels;
 }
 
 @end

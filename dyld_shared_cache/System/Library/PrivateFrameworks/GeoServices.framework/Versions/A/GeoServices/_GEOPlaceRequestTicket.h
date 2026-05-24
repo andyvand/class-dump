@@ -6,18 +6,12 @@
 
 #import <GeoServices/GEOAbstractMapServiceTicket.h>
 
-@class GEOPDPlaceRequest, GEOPDPlaceResponse;
-@protocol GEOMapItem;
+@class GEOPDPlaceRequest;
 
 __attribute__((visibility("hidden")))
 @interface _GEOPlaceRequestTicket : GEOAbstractMapServiceTicket
 {
     GEOPDPlaceRequest *_request;
-    id _requestToken;
-    GEOPDPlaceResponse *_response;
-    id <GEOMapItem> _mapItemToRefine;
-    CDUnknownBlockType _preSubmitUpdateRequestBlock;
-    CDUnknownBlockType _retryRequestForErrorBlock;
 }
 
 - (void);
@@ -26,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)rollerRequestsOperation:(id)arg1 forReason:completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id)b1"has_roundTripTimeVar"b1"has_rssi"b1"has_snr"b1"has_sslConnectionCount"b1"has_sslErrorCount"b1"has_topDLRate"b1"has_type"b1"has_wasCaptiveFlag"b1"has_hotspot20"b1"has_isEdgeBSS"b1"has_isKnownGood"b1"has_lowInternetDL"b1"has_lowInternetUL"b1"read_authTraits"b1"read_nameAttributes"b1"read_traits"b1"read_beaconInfo"b1"read_essMembers"b1"read_feedbacks"b1"read_hotspotHelperProviders"b1"read_identifier"b1"read_label"b1"read_location"b1"read_nearbyBSSs"b1"read_passpointInfo"b1"read_roamStates"b1"read_speedTests"b1"read_uniqueID"b1"wrote_anyField"b1};
@@ -35,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id)Q@;
 - (void)(»BA¾ÙæÆôP@;
 - (id)ÑP@;
-- (CDStruct_d1a7ebee)ÜþÀñ6S2;
+- (CDStruct_026435ec)ÜþÀñ6S2;
 
 @end
 

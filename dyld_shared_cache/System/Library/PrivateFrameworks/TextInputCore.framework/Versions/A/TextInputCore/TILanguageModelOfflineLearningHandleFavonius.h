@@ -10,23 +10,21 @@ __attribute__((visibility("hidden")))
 @interface TILanguageModelOfflineLearningHandleFavonius : TILanguageModelOfflineLearningHandle
 {
     RefPtr_9bddf3b2 _dictionaries;
-    shared_ptr_e9f752ce _currentModel;
 }
 
-- (void);
-- (void);
+- (void)setPreferredRelayNumber:(id)arg1 forContext: /* Error: Ran out of types for this method. */;
+- (void)afterDelay:(shared_ptr_5685c32f)arg1 processBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (RefPtr_9bddf3b2);
 - (void);
 - (id);
-- (shared_ptr_e9f752ce);
+- (shared_ptr_5685c32f)itemID;
 - (id);
 - (void);
 - (void)nContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) shared_ptr_e9f752ce currentModel; // @synthesize currentModel=_currentModel;
-@property(readonly, nonatomic) RefPtr_9bddf3b2 dictionaries; // @synthesize dictionaries=_dictionaries;
+@property(nonatomic) shared_ptr_5685c32f currentModel; // @synthesize currentModel=_currentModel;
 
 @end
 

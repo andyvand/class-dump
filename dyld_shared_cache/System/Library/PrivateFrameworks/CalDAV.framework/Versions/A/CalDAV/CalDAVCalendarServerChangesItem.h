@@ -14,9 +14,9 @@
 - (id);
 - (void);
 - (void);
+- (id)Errors;
 - (id);
-- (id);
-- (id);
+- (id)charge_duration_p_0_75_at_charge_start_secs_curr_dynamic_bin_1;
 - (void);
 
 // Remaining properties

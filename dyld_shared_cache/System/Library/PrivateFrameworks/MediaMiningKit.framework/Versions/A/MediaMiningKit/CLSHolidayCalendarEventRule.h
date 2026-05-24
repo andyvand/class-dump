@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSHolidayCalendarEventRuleRequiredTraits, NSArray, NSDictionary, NSString;
-@protocol CLSHolidayCalendarEventDateRuleDelegate;
+@class CLSHolidayCalendarEventRuleRequiredTraits;
 
 @interface CLSHolidayCalendarEventRule
 {
     _Bool _skipSceneCriteriaIfInteresting;
-    _Bool _triggerMemoryForAllLocales;
-    _Bool _triggerMemoryForCommonCelebratedCountryCodes;
-    _Bool _backfillForAllCountryCodes;
-    _Bool _backfillForCommonCelebratedCountryCodes;
-    _Bool _backfillForCommonCelebratedLanguages;
-    NSString *_name;
-    NSArray *_defaultDateRules;
-    CLSHolidayCalendarEventRuleRequiredTraits *_requiredTraits;
-    id <CLSHolidayCalendarEventDateRuleDelegate> _dateRuleDelegate;
-    NSString *_localizedName;
-    unsigned long long _category;
-    NSDictionary *_commonCelebratedCountryCodes;
-    NSDictionary *_commonCelebratedLanguages;
-    double _defaultLocationScore;
 }
 
 + (id);
@@ -42,7 +27,7 @@
 - (double);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (double);
@@ -54,7 +39,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (id);
 - (id);
@@ -73,22 +58,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool backfillForAllCountryCodes; // @synthesize backfillForAllCountryCodes=_backfillForAllCountryCodes;
-@property(readonly, nonatomic) _Bool backfillForCommonCelebratedCountryCodes; // @synthesize backfillForCommonCelebratedCountryCodes=_backfillForCommonCelebratedCountryCodes;
-@property(readonly, nonatomic) _Bool backfillForCommonCelebratedLanguages; // @synthesize backfillForCommonCelebratedLanguages=_backfillForCommonCelebratedLanguages;
-@property(readonly, nonatomic) unsigned long long category; // @synthesize category=_category;
-@property(readonly, nonatomic) NSDictionary *commonCelebratedCountryCodes; // @synthesize commonCelebratedCountryCodes=_commonCelebratedCountryCodes;
-@property(readonly, nonatomic) NSDictionary *commonCelebratedLanguages; // @synthesize commonCelebratedLanguages=_commonCelebratedLanguages;
-@property(nonatomic) __weak id <CLSHolidayCalendarEventDateRuleDelegate> dateRuleDelegate; // @synthesize dateRuleDelegate=_dateRuleDelegate;
-@property(readonly, nonatomic) NSArray *defaultDateRules; // @synthesize defaultDateRules=_defaultDateRules;
-@property(readonly, nonatomic) double defaultLocationScore; // @synthesize defaultLocationScore=_defaultLocationScore;
-@property(readonly, nonatomic) _Bool isCelebration;
-@property(readonly, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) CLSHolidayCalendarEventRuleRequiredTraits *requiredTraits; // @synthesize requiredTraits=_requiredTraits;
-@property(readonly, nonatomic) _Bool skipSceneCriteriaIfInteresting; // @synthesize skipSceneCriteriaIfInteresting=_skipSceneCriteriaIfInteresting;
-@property(readonly, nonatomic) _Bool triggerMemoryForAllLocales; // @synthesize triggerMemoryForAllLocales=_triggerMemoryForAllLocales;
-@property(readonly, nonatomic) _Bool triggerMemoryForCommonCelebratedCountryCodes; // @synthesize triggerMemoryForCommonCelebratedCountryCodes=_triggerMemoryForCommonCelebratedCountryCodes;
 
 @end
 

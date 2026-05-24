@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPUserCredentials
 {
     PBDataReader *_reader;
-    NSString *_icloudUserMapsAuthToken;
-    NSString *_icloudUserPersonId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_icloudUserMapsAuthToken:1;
-        unsigned int read_icloudUserPersonId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
-+ (_Bool)ocalizedIncidentBanners:(id)arg1;
++ (_Bool)setLocalizedIncidentBanners:(id)arg1;
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)ved-stores;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)K;
 - (id);
 - (void);
-- (unsigned long long);
+- (id);
+- (void)lientFactory",&,N,V_xpcClientFactory;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)Fields"b1"read_serviceIpAddress"b1"read_transactionMetrics"b1"wrote_anyField"b1};
-- (id)vateScenario: /* Error: Ran out of types for this method. */;
+- (id)deactivateScenario: /* Error: Ran out of types for this method. */;
 - (id)ÌîÔïDð;
-- (id)_button_item;
+- (id)secondary_button_item;
 - (void)'jinP@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIcloudUserMapsAuthToken;
 @property(readonly, nonatomic) _Bool hasIcloudUserPersonId;
-@property(retain, nonatomic) NSString *icloudUserMapsAuthToken;
-@property(retain, nonatomic) NSString *icloudUserPersonId;
 
 @end
 

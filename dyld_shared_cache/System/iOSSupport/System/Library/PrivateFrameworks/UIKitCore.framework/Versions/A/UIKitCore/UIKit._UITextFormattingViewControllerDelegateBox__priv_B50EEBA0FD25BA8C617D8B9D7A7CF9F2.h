@@ -9,10 +9,10 @@
     id delegate;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)I can be reached;
+- (_Bool)ect;
+- (void)pposed to try to reconnect now, ;
+- (void)nnectReason:(id)arg1 %d;
 - (void);
 - (void);
 - (id);

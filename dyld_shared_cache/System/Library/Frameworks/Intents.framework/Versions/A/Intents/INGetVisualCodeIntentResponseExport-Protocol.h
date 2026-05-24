@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage;
-
 @protocol INGetVisualCodeIntentResponseExport
+- (void);
 - (long long)hasBookName;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INImage *visualCodeImage;
 @end
 

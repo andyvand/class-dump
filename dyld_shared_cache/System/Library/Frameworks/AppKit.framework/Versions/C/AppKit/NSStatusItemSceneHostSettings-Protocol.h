@@ -7,16 +7,12 @@
 @class NSString;
 
 @protocol NSStatusItemSceneHostSettings
+- (void);
+- (void)q!;
+- (double)(0x%X);
 - (NSString *);
 
 // Remaining properties
-@property _Bool appearsActive;
-@property _Bool disallowShadow;
-@property(retain) NSString *displayIdentifier;
 @property _Bool editMode;
-@property long long hostWindowID;
-@property double menuBarHeight;
-@property(retain) NSString *parentIdentifier;
-@property float preferredPosition;
 @end
 

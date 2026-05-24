@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned int);

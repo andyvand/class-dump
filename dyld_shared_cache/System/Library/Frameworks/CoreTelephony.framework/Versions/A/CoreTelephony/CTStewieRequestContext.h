@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 @interface CTStewieRequestContext
 {
     long long _reason;
-    NSDictionary *_metadata;
-    NSData *_epki;
-    NSData *_shared;
 }
 
-+ (_Bool);
++ (_Bool)be greater than or equal to the end time of the previous time range;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)^;
+- (id)P;
 - (_Bool);
-- (id);
+- (id)setOptionPresentingEmbeddedUI: /* Error: Ran out of types for this method. */;
+- (void)optionAuthenticationTitle;
 - (void);
-- (void);
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (id)&ð!`Fùqª)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *epki; // @synthesize epki=_epki;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
 @property(nonatomic) long long reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSData *shared; // @synthesize shared=_shared;
 
 @end
 

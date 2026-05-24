@@ -9,41 +9,10 @@
 @interface PXSolariumSettings : PXSettings
 {
     _Bool _pinCollectionsTabTitle;
-    _Bool _pinSearchTabTitle;
-    _Bool _useNewSearch;
-    _Bool _enableAdaptiveDarkBiasInGrid;
-    _Bool _disableInfoButtonMonochromaticWorkaround;
-    _Bool _enableStatusBarsHiddenFromCameraPadOneUp;
-    _Bool _useNewMainViewLayout;
-    _Bool _showShelvesOrderResetButton;
-    long long _oneShelfExpandingMovementAnimationType;
-    double _oneShelfExpandingMovementAnimationDuration;
-    double _oneShelfExpandingMovementAnimationDelay;
-    long long _oneShelfExpandingOpacityAnimationType;
-    double _oneShelfExpandingOpacityAnimationDuration;
-    double _oneShelfExpandingOpacityAnimationDelay;
-    long long _oneShelfCollapsingMovementAnimationType;
-    double _oneShelfCollapsingMovementAnimationDuration;
-    double _oneShelfCollapsingMovementAnimationDelay;
-    long long _oneShelfCollapsingOpacityAnimationType;
-    double _oneShelfCollapsingOpacityAnimationDuration;
-    double _oneShelfCollapsingOpacityAnimationDelay;
-    long long _allShelvesExpandingMovementAnimationType;
-    double _allShelvesExpandingMovementAnimationDuration;
-    double _allShelvesExpandingMovementAnimationDelay;
-    long long _allShelvesExpandingOpacityAnimationType;
-    double _allShelvesExpandingOpacityAnimationDuration;
-    double _allShelvesExpandingOpacityAnimationDelay;
-    long long _allShelvesCollapsingMovementAnimationType;
-    double _allShelvesCollapsingMovementAnimationDuration;
-    double _allShelvesCollapsingMovementAnimationDelay;
-    long long _allShelvesCollapsingOpacityAnimationType;
-    double _allShelvesCollapsingOpacityAnimationDuration;
-    double _allShelvesCollapsingOpacityAnimationDelay;
 }
 
 + (_Bool);
-+ (id);
++ (id)nvas",W,N,V_canvas;
 + (id);
 - (_Bool);
 - (_Bool);
@@ -82,10 +51,7 @@
 - (_Bool);
 - (_Bool);
 - (long long);
-- (double);
-- (double);
-- (long long);
-- (double);
+- (double)-R;
 - (double);
 - (long long);
 - (double);
@@ -93,7 +59,10 @@
 - (long long);
 - (double);
 - (double);
-- (_Bool);
+- (long long);
+- (double);
+- (double);
+- (_Bool)?;
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -113,38 +82,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double allShelvesCollapsingMovementAnimationDelay; // @synthesize allShelvesCollapsingMovementAnimationDelay=_allShelvesCollapsingMovementAnimationDelay;
-@property(nonatomic) double allShelvesCollapsingMovementAnimationDuration; // @synthesize allShelvesCollapsingMovementAnimationDuration=_allShelvesCollapsingMovementAnimationDuration;
-@property(nonatomic) long long allShelvesCollapsingMovementAnimationType; // @synthesize allShelvesCollapsingMovementAnimationType=_allShelvesCollapsingMovementAnimationType;
-@property(nonatomic) double allShelvesCollapsingOpacityAnimationDelay; // @synthesize allShelvesCollapsingOpacityAnimationDelay=_allShelvesCollapsingOpacityAnimationDelay;
-@property(nonatomic) double allShelvesCollapsingOpacityAnimationDuration; // @synthesize allShelvesCollapsingOpacityAnimationDuration=_allShelvesCollapsingOpacityAnimationDuration;
-@property(nonatomic) long long allShelvesCollapsingOpacityAnimationType; // @synthesize allShelvesCollapsingOpacityAnimationType=_allShelvesCollapsingOpacityAnimationType;
-@property(nonatomic) double allShelvesExpandingMovementAnimationDelay; // @synthesize allShelvesExpandingMovementAnimationDelay=_allShelvesExpandingMovementAnimationDelay;
-@property(nonatomic) double allShelvesExpandingMovementAnimationDuration; // @synthesize allShelvesExpandingMovementAnimationDuration=_allShelvesExpandingMovementAnimationDuration;
-@property(nonatomic) long long allShelvesExpandingMovementAnimationType; // @synthesize allShelvesExpandingMovementAnimationType=_allShelvesExpandingMovementAnimationType;
-@property(nonatomic) double allShelvesExpandingOpacityAnimationDelay; // @synthesize allShelvesExpandingOpacityAnimationDelay=_allShelvesExpandingOpacityAnimationDelay;
-@property(nonatomic) double allShelvesExpandingOpacityAnimationDuration; // @synthesize allShelvesExpandingOpacityAnimationDuration=_allShelvesExpandingOpacityAnimationDuration;
-@property(nonatomic) long long allShelvesExpandingOpacityAnimationType; // @synthesize allShelvesExpandingOpacityAnimationType=_allShelvesExpandingOpacityAnimationType;
-@property(nonatomic) _Bool disableInfoButtonMonochromaticWorkaround; // @synthesize disableInfoButtonMonochromaticWorkaround=_disableInfoButtonMonochromaticWorkaround;
-@property(nonatomic) _Bool enableAdaptiveDarkBiasInGrid; // @synthesize enableAdaptiveDarkBiasInGrid=_enableAdaptiveDarkBiasInGrid;
-@property(nonatomic) _Bool enableStatusBarsHiddenFromCameraPadOneUp; // @synthesize enableStatusBarsHiddenFromCameraPadOneUp=_enableStatusBarsHiddenFromCameraPadOneUp;
-@property(nonatomic) double oneShelfCollapsingMovementAnimationDelay; // @synthesize oneShelfCollapsingMovementAnimationDelay=_oneShelfCollapsingMovementAnimationDelay;
-@property(nonatomic) double oneShelfCollapsingMovementAnimationDuration; // @synthesize oneShelfCollapsingMovementAnimationDuration=_oneShelfCollapsingMovementAnimationDuration;
-@property(nonatomic) long long oneShelfCollapsingMovementAnimationType; // @synthesize oneShelfCollapsingMovementAnimationType=_oneShelfCollapsingMovementAnimationType;
-@property(nonatomic) double oneShelfCollapsingOpacityAnimationDelay; // @synthesize oneShelfCollapsingOpacityAnimationDelay=_oneShelfCollapsingOpacityAnimationDelay;
-@property(nonatomic) double oneShelfCollapsingOpacityAnimationDuration; // @synthesize oneShelfCollapsingOpacityAnimationDuration=_oneShelfCollapsingOpacityAnimationDuration;
-@property(nonatomic) long long oneShelfCollapsingOpacityAnimationType; // @synthesize oneShelfCollapsingOpacityAnimationType=_oneShelfCollapsingOpacityAnimationType;
-@property(nonatomic) double oneShelfExpandingMovementAnimationDelay; // @synthesize oneShelfExpandingMovementAnimationDelay=_oneShelfExpandingMovementAnimationDelay;
-@property(nonatomic) double oneShelfExpandingMovementAnimationDuration; // @synthesize oneShelfExpandingMovementAnimationDuration=_oneShelfExpandingMovementAnimationDuration;
-@property(nonatomic) long long oneShelfExpandingMovementAnimationType; // @synthesize oneShelfExpandingMovementAnimationType=_oneShelfExpandingMovementAnimationType;
-@property(nonatomic) double oneShelfExpandingOpacityAnimationDelay; // @synthesize oneShelfExpandingOpacityAnimationDelay=_oneShelfExpandingOpacityAnimationDelay;
-@property(nonatomic) double oneShelfExpandingOpacityAnimationDuration; // @synthesize oneShelfExpandingOpacityAnimationDuration=_oneShelfExpandingOpacityAnimationDuration;
-@property(nonatomic) long long oneShelfExpandingOpacityAnimationType; // @synthesize oneShelfExpandingOpacityAnimationType=_oneShelfExpandingOpacityAnimationType;
 @property(nonatomic) _Bool pinCollectionsTabTitle; // @synthesize pinCollectionsTabTitle=_pinCollectionsTabTitle;
-@property(nonatomic) _Bool pinSearchTabTitle; // @synthesize pinSearchTabTitle=_pinSearchTabTitle;
-@property(nonatomic) _Bool showShelvesOrderResetButton; // @synthesize showShelvesOrderResetButton=_showShelvesOrderResetButton;
-@property(nonatomic) _Bool useNewMainViewLayout; // @synthesize useNewMainViewLayout=_useNewMainViewLayout;
-@property(nonatomic) _Bool useNewSearch; // @synthesize useNewSearch=_useNewSearch;
 
 @end
 

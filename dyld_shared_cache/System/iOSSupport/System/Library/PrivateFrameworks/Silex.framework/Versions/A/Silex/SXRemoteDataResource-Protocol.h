@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol SXRemoteDataResource
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contentType;

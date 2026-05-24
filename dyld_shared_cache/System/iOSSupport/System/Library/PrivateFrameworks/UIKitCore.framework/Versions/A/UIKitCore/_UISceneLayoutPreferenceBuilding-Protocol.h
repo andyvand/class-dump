@@ -5,8 +5,10 @@
 //
 
 @protocol _UISceneLayoutPreferenceBuilding
-- (void)letion:(double)arg1;
+- (void);
+- (void);
+- (void)_dismissWithAction:(double)arg1 dismissCompletion: /* Error: Ran out of types for this method. */;
 - (void)l);
-- (void)ce1;
+- (void)inputBlurDistance1;
 @end
 

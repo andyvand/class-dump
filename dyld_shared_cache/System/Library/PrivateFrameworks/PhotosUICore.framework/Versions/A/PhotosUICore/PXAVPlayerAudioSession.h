@@ -6,26 +6,17 @@
 
 #import <PhotosUICore/PXAudioSession.h>
 
-@class AVQueuePlayer, NSObject, PXUpdater;
-@protocol OS_dispatch_queue;
+@class PXUpdater;
 
 @interface PXAVPlayerAudioSession : PXAudioSession
 {
     _Bool _isPreparingToPlay;
-    _Bool _isPlaybackDesired;
-    _Bool _playerTimeHasChangedSinceSeeking;
-    float _playerRate;
-    PXUpdater *_updater;
-    id _playerTimeObserver;
-    NSObject<OS_dispatch_queue> *_playerQueue;
-    AVQueuePlayer *_playerQueue_player;
-    CDStruct_1b6d18a9 _playerTime;
 }
 
 + (id);
 + (struct OpaqueCMClock *)~;
 - (void);
-- (void);
+- (void)_	;
 - (void);
 - (void);
 - (void);
@@ -42,7 +33,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
@@ -64,20 +55,12 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9)taSections;
-- (void)r;
+- (CDStruct_1b6d18a9)_childDataSections;
+- (void)iCloudLinkItemListManager;
 - (void).òÿc×N0O>;
 - (id)êTRZ7?;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isPlaybackDesired; // @synthesize isPlaybackDesired=_isPlaybackDesired;
-@property(readonly, nonatomic) _Bool isPreparingToPlay; // @synthesize isPreparingToPlay=_isPreparingToPlay;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *playerQueue; // @synthesize playerQueue=_playerQueue;
-@property(readonly, nonatomic) AVQueuePlayer *playerQueue_player; // @synthesize playerQueue_player=_playerQueue_player;
-@property(readonly, nonatomic) float playerRate; // @synthesize playerRate=_playerRate;
-@property(nonatomic) CDStruct_1b6d18a9 playerTime; // @synthesize playerTime=_playerTime;
-@property(nonatomic) _Bool playerTimeHasChangedSinceSeeking; // @synthesize playerTimeHasChangedSinceSeeking=_playerTimeHasChangedSinceSeeking;
-@property(retain, nonatomic) id playerTimeObserver; // @synthesize playerTimeObserver=_playerTimeObserver;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end

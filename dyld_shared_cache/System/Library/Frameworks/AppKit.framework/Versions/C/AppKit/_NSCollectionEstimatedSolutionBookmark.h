@@ -5,31 +5,24 @@
 //
 
 @class _NSCollectionLayoutItemSolver;
-@protocol _NSCollectionLayoutAuxiliaryOffsets;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionEstimatedSolutionBookmark
 {
     _NSCollectionLayoutItemSolver *_solution;
-    id <_NSCollectionLayoutAuxiliaryOffsets> _supplementaryOffsets;
-    struct _NSRange _itemRange;
-    struct CGRect _solutionFrame;
 }
 
 - (id);
 - (id);
 - (struct _NSRange);
 - (id);
-- (id);
-- (struct CGRect);
+- (id)kContext, BOOL *);
+- (struct CGRect)framework/Versions/A/UniformTypeIdentifiers;
 - (void)le;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange itemRange; // @synthesize itemRange=_itemRange;
 @property(readonly, nonatomic) _NSCollectionLayoutItemSolver *solution; // @synthesize solution=_solution;
-@property(readonly, nonatomic) struct CGRect solutionFrame; // @synthesize solutionFrame=_solutionFrame;
-@property(readonly, nonatomic) id <_NSCollectionLayoutAuxiliaryOffsets> supplementaryOffsets; // @synthesize supplementaryOffsets=_supplementaryOffsets;
 
 @end
 

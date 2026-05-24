@@ -6,36 +6,34 @@
 
 #import <NotesShared/ICCRRegister.h>
 
-@class ICCRSet, NSSet;
+@class ICCRSet;
 
 @interface ICCRRegisterMultiValue : ICCRRegister
 {
     ICCRSet *_values;
-    NSSet *_cachedValues;
 }
 
-- (id);
+- (id)_downloadThread;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)e;
 - (void);
-- (id);
+- (id);
 - (void)$T;
 - (void)pping data at URL because URL is nil {object:(id)arg1 %@};
 - (id)default container;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *cachedValues; // @synthesize cachedValues=_cachedValues;
 @property(retain, nonatomic) ICCRSet *values; // @synthesize values=_values;
 
 @end

@@ -6,14 +6,11 @@
 
 #import <Slideshows/MCObject.h>
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSSet, NSString;
+@class NSMutableDictionary, NSSet;
 
 @interface MCFilter : MCObject
 {
     NSMutableDictionary *mAttributes;
-    NSMutableSet *mAnimationPaths;
-    unsigned long long mIndex;
-    NSString *mFilterID;
 }
 
 - (void);
@@ -28,13 +25,13 @@
 - (id);
 - (void);
 - (void);
+- (void)I;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)uR;
 - (id);
 - (void);
 - (void);
@@ -57,10 +54,6 @@
 
 // Remaining properties
 @property(readonly) NSSet *animationPaths;
-@property(copy) NSDictionary *attributes;
-@property(readonly) unsigned long long countOfAnimationPaths;
-@property(copy) NSString *filterID; // @synthesize filterID=mFilterID;
-@property(nonatomic) unsigned long long index; // @synthesize index=mIndex;
 
 @end
 

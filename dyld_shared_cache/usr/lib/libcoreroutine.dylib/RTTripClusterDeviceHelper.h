@@ -9,8 +9,8 @@
     _Bool _currentDeviceOnly;
 }
 
-+ (id);
-+ (id);
++ (id)lady;
++ (id)pyHSMData failed;
 + (id)\_¥ÿ;
 - (void);
 - (_Bool);

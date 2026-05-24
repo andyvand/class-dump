@@ -7,14 +7,14 @@
 @class CLPlacemark, INDateComponentsRange, NSArray, NSString;
 
 @protocol INFindEventsIntentExport
+- (INDateComponentsRange *);
+- (NSString *);
+- (id)v;
+- (NSArray *)r too small;
 - (CLPlacemark *);
 - (void);
 
 // Remaining properties
-@property(copy) INDateComponentsRange *dateTimeRange;
-@property(copy) CLPlacemark *location;
-@property(copy) NSArray *participants;
-@property long long requestedEventAttribute;
 @property(copy) NSString *searchQuery;
 @end
 

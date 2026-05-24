@@ -9,15 +9,14 @@
 @interface FPStringFormat
 {
     NSArray *_keyPaths;
-    NSString *_format;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)" ;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)e ';
 - (id);
 - (void)
 × ;
@@ -25,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *format; // @synthesize format=_format;
-@property(retain, nonatomic) NSArray *keyPaths; // @synthesize keyPaths=_keyPaths;
-@property(readonly) unsigned long long length;
 
 @end
 

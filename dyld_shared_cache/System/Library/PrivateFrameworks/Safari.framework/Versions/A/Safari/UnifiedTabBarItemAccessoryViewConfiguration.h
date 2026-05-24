@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface UnifiedTabBarItemAccessoryViewConfiguration
 {
     float _visibilityPriority;
-    unsigned long long _options;
 }
 
 + (id)4;
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) float visibilityPriority; // @synthesize visibilityPriority=_visibilityPriority;
 
 @end

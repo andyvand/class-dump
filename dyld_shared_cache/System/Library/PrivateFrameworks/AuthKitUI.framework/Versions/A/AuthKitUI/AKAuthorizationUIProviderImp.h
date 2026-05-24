@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationRVSWindowController, NSString, NSWindow;
+@class AKAuthorizationRVSWindowController, NSWindow;
 
 @interface AKAuthorizationUIProviderImp
 {
     NSWindow *_hostWindow;
-    AKAuthorizationRVSWindowController *_authorizationWindowController;
 }
 
-- (void);
+- (void)pt;
 - (id);
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) AKAuthorizationRVSWindowController *authorizationWindowController; // @synthesize authorizationWindowController=_authorizationWindowController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(readonly) Class superclass;
 
 @end
 

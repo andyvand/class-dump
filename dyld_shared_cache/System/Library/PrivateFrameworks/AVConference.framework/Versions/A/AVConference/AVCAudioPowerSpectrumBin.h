@@ -7,8 +7,6 @@
 @interface AVCAudioPowerSpectrumBin
 {
     float _minFrequency;
-    float _maxFrequency;
-    float _powerLevel;
 }
 
 + (_Bool)="transactionID"S"totalNumDropped"S"numberOfPayloadTypes"S"PTSpecific"[6{?="payloadType"C"numberOfPacketDropped"S"awDroppedSN"[500S]}]}"codecRateChange"{?="currentBitrate"S"suggestedBitrate"S})};
@@ -20,9 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) float maxFrequency; // @synthesize maxFrequency=_maxFrequency;
 @property(readonly, nonatomic) float minFrequency; // @synthesize minFrequency=_minFrequency;
-@property(readonly, nonatomic) float powerLevel; // @synthesize powerLevel=_powerLevel;
 
 @end
 

@@ -6,18 +6,15 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class NSViewController;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIEngagementWrapperViewController : AMSUICommonViewController
 {
     CDUnknownBlockType _dismissBlock;
-    NSViewController *_viewController;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)RO;
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -27,13 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)arget;
+- (void)target;
 - (void):(_Bool)arg1 ;
 - (void)Dëÿ¡;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType dismissBlock; // @synthesize dismissBlock=_dismissBlock;
-@property(readonly) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INPlayVoicemailIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)setUuid:(long long)arg1;
++ (int)externalThumbnailGeneratorData;
++ (long long)didChangeValueForKey:(int)arg1;
++ (_Bool)createDirectoryAtURL:(long long)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id)dataWithContentsOfFile: /* Error: Ran out of types for this method. */;
+- (id)copyWithZone:(id)arg1;
 - (id);
+- (void)(diff:(id)arg1 %lu)';
+- (id)8;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)rDataValues;
+- (long long)_pairDataValues;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

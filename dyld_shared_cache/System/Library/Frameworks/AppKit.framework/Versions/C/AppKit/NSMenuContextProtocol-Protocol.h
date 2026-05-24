@@ -4,11 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSEvent, NSFont, NSMenu, NSString, NSView, NSWindow;
+@class NSArray, NSFont, NSMenu, NSString, NSView, NSWindow;
 
 @protocol NSMenuContextProtocol
+- (void);
+- (void)C;
+- (NSFont *)led;
+- (NSString *):failed to access device tree /* Error: Ran out of types for this method. */;
+- (unsigned long long)with issuer pubkey failed;
+- (unsigned long long)und data in multi combined format;
+- (struct CGSize)Format, expected tag %c%c%c%c found tag %c%c%c%c;
+- (struct CGRect)s);
+- (NSArray *)tyData(kFDRTag_SCDG) failed.;
+- (struct CGRect)VMUniqueDeviceIDData;
+- (NSWindow *)UserIntentPhysicalButtonNormalizedCGRect;
+- (_Bool)termine DTProductType;
+- (_Bool)DCy89X5oErFAps95GX38mQ;
+- (struct CGPoint);
+- (void)__NSCFBackgroundAVAggregateAssetDownloadTaskNoChildTask;
+- (unsigned int)|@AhC;
+- (NSWindow *)= %@;
+- (void);
 - (unsigned long long)oller;
-- (void)LayerKitDebug;
+- (void)NSLayerKitDebug;
 - (double)ô	¸ì;
 - (void)8;
 - (void)ø;
@@ -16,39 +34,10 @@
   expected item = %@
   actual item = %@ /* Error: Ran out of types for this method. */;
 - (NSView *)hGACyACyºhyAByACyBãhyü¿hGAEyAFé;
-- (NSMenu *)EmbeddedImageDescription;
+- (NSMenu *)AXEmbeddedImageDescription;
 - (void)H;
 
 // Remaining properties
-@property(retain) NSAppearance *appearance;
-@property long long checkedItemIndex;
-@property _Bool clearStartingRequestor;
-@property struct CGRect confinementRect;
-@property unsigned int directDisplayID;
-@property _Bool displayingMenu;
-@property(retain) NSEvent *event;
-@property struct CGRect exclusionRect;
-@property unsigned long long flags;
-@property struct CGPoint frameAlignmentPoint;
 @property __weak NSWindow *keyWindow;
-@property __weak NSMenu *menu;
-@property _Bool menuCanceled;
-@property _Bool menuOpened;
-@property double minWidth;
-@property __weak NSView *ownerView;
-@property __weak NSWindow *ownerWindow;
-@property struct CGRect ownerWindowFrame;
-@property(retain) NSArray *pluginMenus;
-@property struct CGRect popupButtonBounds;
-@property struct CGSize popupButtonLabelOffset;
-@property unsigned long long popupButtonSize;
-@property unsigned long long positioningOptions;
-@property struct CGRect positioningRect;
-@property unsigned long long preferredEdge;
-@property unsigned long long privateFlags;
-@property _Bool reenableCursorRects;
-@property(retain) NSString *runLoopMode;
-@property(retain) NSFont *savedFont;
-@property _Bool useConfinementRect;
 @end
 

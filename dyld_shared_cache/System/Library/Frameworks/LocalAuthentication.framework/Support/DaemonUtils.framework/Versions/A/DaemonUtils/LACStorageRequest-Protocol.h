@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @protocol LACStorageRequest
+- (long long)@24{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}32@160@168{CGRect={CGPoint=dd}{CGSize=dd}}176B208;
 
 // Remaining properties
 @property(readonly, nonatomic) long long domain;
-@property(readonly, nonatomic) long long key;
-@property(readonly, nonatomic) NSDictionary *options;
 @end
 

@@ -10,29 +10,11 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)_modified;
++ (id)ProtoH3EndToEndChannelRegisterResponse.m;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *cfAbsTimestamp; // @dynamic cfAbsTimestamp;
-@property(nonatomic) double deltaPositionX_m; // @dynamic deltaPositionX_m;
-@property(nonatomic) double deltaPositionY_m; // @dynamic deltaPositionY_m;
-@property(nonatomic) double deltaPositionZ_m; // @dynamic deltaPositionZ_m;
-@property(nonatomic) double deltaVelocityX_mps; // @dynamic deltaVelocityX_mps;
-@property(nonatomic) double deltaVelocityY_mps; // @dynamic deltaVelocityY_mps;
-@property(nonatomic) double deltaVelocityZ_mps; // @dynamic deltaVelocityZ_mps;
-@property(nonatomic) short dotBiasChange; // @dynamic dotBiasChange;
-@property(nonatomic) double machContinuousTimestamp_s; // @dynamic machContinuousTimestamp_s;
-@property(nonatomic) short mountState; // @dynamic mountState;
-@property(nonatomic) double quaternionW; // @dynamic quaternionW;
-@property(nonatomic) double quaternionX; // @dynamic quaternionX;
-@property(nonatomic) double quaternionY; // @dynamic quaternionY;
-@property(nonatomic) double quaternionZ; // @dynamic quaternionZ;
-@property(nonatomic) short referenceFrame; // @dynamic referenceFrame;
-@property(nonatomic) short referenceFrameContinuity; // @dynamic referenceFrameContinuity;
-@property(nonatomic) double sampleInterval_s; // @dynamic sampleInterval_s;
-@property(nonatomic) short staticFlag; // @dynamic staticFlag;
-@property(nonatomic) short zupt; // @dynamic zupt;
 
 @end
 

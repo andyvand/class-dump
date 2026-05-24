@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, RBAnimation;
-
 @interface RBTransition
 {
     struct refcounted_ptr<RB::Transition> _transition;
-    _Bool _is_default;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (float);
+- (void)6Q24;
+- (_Bool)aks_get_icsc_srp;
+- (float)mFirstColumnStyle;
 - (id);
 - (void);
 - (unsigned long long);
@@ -27,18 +24,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)t8_t *)(_h3);
 - (unsigned int);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) float addRemoveDuration;
-@property(retain, nonatomic) RBAnimation *animation;
-@property(readonly, copy, nonatomic) NSArray *effects;
-@property(nonatomic) unsigned int maxChanges;
 @property(nonatomic) unsigned int method;
-@property(nonatomic, getter=isReplaceable) _Bool replaceable;
 
 @end
 

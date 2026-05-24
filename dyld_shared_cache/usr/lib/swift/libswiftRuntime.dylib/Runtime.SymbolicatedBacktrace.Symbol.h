@@ -8,10 +8,6 @@
 {
     id imageIndex;
     id imageName;
-    id rawName;
-    id $__lazy_storage_$_name;
-    id offset;
-    id sourceLocation;
 }
 
 @end

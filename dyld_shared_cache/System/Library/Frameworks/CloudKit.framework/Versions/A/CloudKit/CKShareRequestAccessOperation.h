@@ -6,15 +6,11 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKShareRequestAccessOperationInfo, NSArray, NSMutableDictionary, NSString;
 @protocol CKShareRequestAccessOperationCallbacks;
 
 @interface CKShareRequestAccessOperation : CKOperation
 {
     CDUnknownBlockType _perShareAccessRequestCompletionBlock;
-    CDUnknownBlockType _shareRequestAccessCompletionBlock;
-    NSArray *_shareURLs;
-    NSMutableDictionary *_errorsByShareURL;
 }
 
 + (SEL);
@@ -22,13 +18,13 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)G;
+- (void)k;
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)H(;
 - (id);
 - (id);
 - (void);
@@ -36,25 +32,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)ObjectCallbackProxy;
-- (void)ID;
+- (_Bool)CKWeakObjectCallbackProxy;
+- (void)_TtC8CloudKit11CKSessionID;
 - (void)ll run in %{public}@;
 - (void)CKDeviceCapabilityCheckResult;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKShareRequestAccessOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *errorsByShareURL; // @synthesize errorsByShareURL=_errorsByShareURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKShareRequestAccessOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perShareAccessRequestCompletionBlock; // @synthesize perShareAccessRequestCompletionBlock=_perShareAccessRequestCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType shareRequestAccessCompletionBlock; // @synthesize shareRequestAccessCompletionBlock=_shareRequestAccessCompletionBlock;
-@property(copy, nonatomic) NSArray *shareURLs; // @synthesize shareURLs=_shareURLs;
-@property(readonly) Class superclass;
 
 @end
 

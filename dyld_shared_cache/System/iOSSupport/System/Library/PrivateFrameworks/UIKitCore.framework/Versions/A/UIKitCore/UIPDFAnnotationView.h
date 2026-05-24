@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)dentifierList;
 
 // Remaining properties
 @property(nonatomic) UIPDFAnnotation *annotation; // @synthesize annotation=_annotation;

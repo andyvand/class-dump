@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PKModularService;
+
 @protocol PKModularService
+
+@optional
++ (id <PKModularService>)_l2PQMaxPoint;
 @end
 

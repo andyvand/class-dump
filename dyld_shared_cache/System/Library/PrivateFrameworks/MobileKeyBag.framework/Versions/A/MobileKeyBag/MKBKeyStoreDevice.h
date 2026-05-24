@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)v;
 - (int);
 - (int);
 - (int);
@@ -39,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (id);
-- (int);
+- (int)� ;
 - (int);
 - (int);
 

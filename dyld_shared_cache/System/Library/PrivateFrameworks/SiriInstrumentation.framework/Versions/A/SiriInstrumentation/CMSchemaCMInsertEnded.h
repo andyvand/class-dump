@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CMSchemaCMInsertEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)WIN32_UNLOAD;
+- (void)Т;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"appendingActionReadMessagesCount"b1"userPersona"b1"isSummarized"b1"summarySourceType"b1};
-- (id)encesCaptured;
+- (id)IDENTITYSchemaIDENTITYUsersPresencesCaptured;
 - (id)D;
 - (_Bool)8D$;
 - (_Bool)ÿxb¯ú(;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

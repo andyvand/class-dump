@@ -4,68 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSObject, NSString, VCAudioMachineLearningCoordinator, VCExperimentManager, VCNetworkFeedbackController, VCSecurityKeyManager, VCSessionMediaNegotiator;
-@protocol OS_nw_activity;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionParticipantConfig
 {
     NSData *_participantData;
-    NSString *_uuid;
-    unsigned long long _idsParticipantID;
-    _Bool _audioEnabled;
-    _Bool _videoEnabled;
-    _Bool _screenEnabled;
-    _Bool _frequencyMeteringEnabled;
-    _Bool _audioMuted;
-    float _volume;
-    float _audioPosition;
-    _Bool _audioPaused;
-    _Bool _videoPaused;
-    unsigned char _videoQuality;
-    unsigned int _visibilityIndex;
-    unsigned int _prominenceIndex;
-    NSData *_positionalInfo;
-    struct __CFDictionary *_spatialMetadataEntryMap;
-    NSDictionary *_mediaStates;
-    _Bool _isServerRTxEnabled;
-    void *_spatialMetadata;
-    VCSessionMediaNegotiator *_mediaNegotiator;
-    VCSecurityKeyManager *_securityKeyManager;
-    NSString *_sessionUUID;
-    unsigned int _transportSessionID;
-    NSString *_idsDestination;
-    int _processId;
-    _Bool _isGKVoiceChat;
-    _Bool _isLowLatencyAudio;
-    long long _sessionMode;
-    _Bool _isOneToOneModeEnabled;
-    _Bool _oneToOneAuthenticationTagEnabled;
-    VCNetworkFeedbackController *_networkFeedbackController;
-    VCAudioMachineLearningCoordinator *_audioMachineLearningCoordinator;
-    _Bool _isEnhancedJBAdaptationsEnabled;
-    _Bool _detectInactiveAudioFramesAACELD;
-    _Bool _isPlaybackSynchronizationGroupMember;
-    _Bool _forceL4SHighDataRate;
-    _Bool _isUplinkRetransmissionEnabled;
-    _Bool _p2pEncryptionEnabled;
-    _Bool _enableMaxCameraBitrateVideoQualityNewTier;
-    _Bool _isACC24ForU1Enabled;
-    _Bool _isACC24ForGFTEnabled;
-    _Bool _isHigherAudioREDCutoverU1Enabled;
-    _Bool _isLowBandwidthSinglePacketDuplicationEnabled;
-    _Bool _isLateKeyFrameDetectionEnabled;
-    _Bool _screenControlEnabled;
-    _Bool _outOfProcessCodecsEnabled;
-    _Bool _isJBLatencySensitiveModeEnabled;
-    NSObject<OS_nw_activity> *_nwActivity;
-    VCExperimentManager *_experimentManager;
 }
 
 - (_Bool);
 - (unsigned int);
 - (struct __CFDictionary *);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,36 +43,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)U;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)@y2(;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool)_;
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -125,14 +75,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (float);
-- (_Bool);
+- (_Bool)Rd;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool)ka;
 - (id);
 - (unsigned int);
 - (void *);
@@ -141,13 +91,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)CINCINNATI_Cincinnati_Streetcar;
 - (unsigned char);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)T;
 - (void);
 - (void);
 - (void);
@@ -160,63 +110,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (float);
-- (id)imeDuration;
+- (id)_aggregateStallTimeDuration;
 - (void)AVCVideoStream:(id)arg1 notified client %p of didResume [%d];
 - (void)ening;
 - (id)ÿÙÿÿÿeÿÿÿÿÿÿcÿÿÿbÿÿÿÿÿÿòÿÿÿÿÿÿ]ÿÿÿÍÿÿÿÇÿÿÿZÿÿÿYÿÿÿÒÿÿÿÿÿÿVÿÿÿTÿÿÿSÿÿÿÃÿÿÿOÿÿÿNÿÿÿÿÿÿKÿÿÿJÿÿÿHÿÿÿGÿÿÿÿÿÿÝÿÿÿñÿÿÿ=ÿÿÿáÿÿÿÄÿÿÿyÿÿÿ9ÿÿÿ8ÿÿÿ±ÿÿÿ6ÿÿÿ4ÿÿÿ3ÿÿÿÿÿÿ¥ÿÿÿ.ÿÿÿ-ÿÿÿ²ÿÿÿÿÿÿ*ÿÿÿ)ÿÿÿ(ÿÿÿ'ÿÿÿ&ÿÿÿ$ÿÿÿ#ÿÿÿÎÿÿÿvÿÿÿÿÿÿuÿÿÿtÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool audioEnabled; // @synthesize audioEnabled=_audioEnabled;
-@property(retain, nonatomic) VCAudioMachineLearningCoordinator *audioMachineLearningCoordinator; // @synthesize audioMachineLearningCoordinator=_audioMachineLearningCoordinator;
-@property(nonatomic) _Bool audioMuted; // @synthesize audioMuted=_audioMuted;
-@property(nonatomic) _Bool audioPaused; // @synthesize audioPaused=_audioPaused;
-@property(nonatomic) float audioPosition; // @synthesize audioPosition=_audioPosition;
-@property(nonatomic) _Bool detectInactiveAudioFramesAACELD; // @synthesize detectInactiveAudioFramesAACELD=_detectInactiveAudioFramesAACELD;
-@property(nonatomic) _Bool enableMaxCameraBitrateVideoQualityNewTier; // @synthesize enableMaxCameraBitrateVideoQualityNewTier=_enableMaxCameraBitrateVideoQualityNewTier;
-@property(retain, nonatomic) VCExperimentManager *experimentManager; // @synthesize experimentManager=_experimentManager;
-@property(nonatomic) _Bool forceL4SHighDataRate; // @synthesize forceL4SHighDataRate=_forceL4SHighDataRate;
-@property(nonatomic) _Bool frequencyMeteringEnabled; // @synthesize frequencyMeteringEnabled=_frequencyMeteringEnabled;
-@property(retain, nonatomic) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
-@property(nonatomic) unsigned long long idsParticipantID; // @synthesize idsParticipantID=_idsParticipantID;
-@property(nonatomic) _Bool isACC24ForGFTEnabled; // @synthesize isACC24ForGFTEnabled=_isACC24ForGFTEnabled;
-@property(nonatomic) _Bool isACC24ForU1Enabled; // @synthesize isACC24ForU1Enabled=_isACC24ForU1Enabled;
-@property(nonatomic) _Bool isEnhancedJBAdaptationsEnabled; // @synthesize isEnhancedJBAdaptationsEnabled=_isEnhancedJBAdaptationsEnabled;
-@property(nonatomic) _Bool isGKVoiceChat; // @synthesize isGKVoiceChat=_isGKVoiceChat;
-@property(nonatomic) _Bool isHigherAudioREDCutoverU1Enabled; // @synthesize isHigherAudioREDCutoverU1Enabled=_isHigherAudioREDCutoverU1Enabled;
-@property(nonatomic) _Bool isJBLatencySensitiveModeEnabled; // @synthesize isJBLatencySensitiveModeEnabled=_isJBLatencySensitiveModeEnabled;
-@property(nonatomic) _Bool isLateKeyFrameDetectionEnabled; // @synthesize isLateKeyFrameDetectionEnabled=_isLateKeyFrameDetectionEnabled;
-@property(nonatomic) _Bool isLowBandwidthSinglePacketDuplicationEnabled; // @synthesize isLowBandwidthSinglePacketDuplicationEnabled=_isLowBandwidthSinglePacketDuplicationEnabled;
-@property(nonatomic) _Bool isLowLatencyAudio; // @synthesize isLowLatencyAudio=_isLowLatencyAudio;
-@property(nonatomic) _Bool isOneToOneModeEnabled; // @synthesize isOneToOneModeEnabled=_isOneToOneModeEnabled;
-@property(nonatomic) _Bool isPlaybackSynchronizationGroupMember; // @synthesize isPlaybackSynchronizationGroupMember=_isPlaybackSynchronizationGroupMember;
-@property(nonatomic) _Bool isServerRTxEnabled; // @synthesize isServerRTxEnabled=_isServerRTxEnabled;
-@property(nonatomic) _Bool isUplinkRetransmissionEnabled; // @synthesize isUplinkRetransmissionEnabled=_isUplinkRetransmissionEnabled;
-@property(retain, nonatomic) VCSessionMediaNegotiator *mediaNegotiator; // @synthesize mediaNegotiator=_mediaNegotiator;
-@property(retain, nonatomic) NSDictionary *mediaStates; // @synthesize mediaStates=_mediaStates;
-@property(retain, nonatomic) VCNetworkFeedbackController *networkFeedbackController; // @synthesize networkFeedbackController=_networkFeedbackController;
-@property(nonatomic) NSObject<OS_nw_activity> *nwActivity; // @synthesize nwActivity=_nwActivity;
-@property(nonatomic, getter=isOneToOneAuthenticationTagEnabled) _Bool oneToOneAuthenticationTagEnabled; // @synthesize oneToOneAuthenticationTagEnabled=_oneToOneAuthenticationTagEnabled;
-@property(nonatomic) _Bool outOfProcessCodecsEnabled; // @synthesize outOfProcessCodecsEnabled=_outOfProcessCodecsEnabled;
-@property(nonatomic) _Bool p2pEncryptionEnabled; // @synthesize p2pEncryptionEnabled=_p2pEncryptionEnabled;
 @property(retain, nonatomic) NSData *participantData; // @synthesize participantData=_participantData;
-@property(retain, nonatomic) NSData *positionalInfo; // @synthesize positionalInfo=_positionalInfo;
-@property(nonatomic) int processId; // @synthesize processId=_processId;
-@property(nonatomic) unsigned int prominenceIndex; // @synthesize prominenceIndex=_prominenceIndex;
-@property(nonatomic) _Bool screenControlEnabled; // @synthesize screenControlEnabled=_screenControlEnabled;
-@property(nonatomic) _Bool screenEnabled; // @synthesize screenEnabled=_screenEnabled;
-@property(retain, nonatomic) VCSecurityKeyManager *securityKeyManager; // @synthesize securityKeyManager=_securityKeyManager;
-@property(nonatomic) long long sessionMode; // @synthesize sessionMode=_sessionMode;
-@property(retain, nonatomic) NSString *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(nonatomic) void *spatialMetadata;
-@property(nonatomic) struct __CFDictionary *spatialMetadataEntryMap;
-@property(nonatomic) unsigned int transportSessionID; // @synthesize transportSessionID=_transportSessionID;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
-@property(nonatomic) _Bool videoEnabled; // @synthesize videoEnabled=_videoEnabled;
-@property(nonatomic) _Bool videoPaused; // @synthesize videoPaused=_videoPaused;
-@property(nonatomic) unsigned char videoQuality; // @synthesize videoQuality=_videoQuality;
-@property(nonatomic) unsigned int visibilityIndex; // @synthesize visibilityIndex=_visibilityIndex;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

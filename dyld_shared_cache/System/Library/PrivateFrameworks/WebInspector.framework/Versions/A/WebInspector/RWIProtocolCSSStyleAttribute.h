@@ -6,21 +6,20 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolCSSStyle;
+@class NSString;
 
 @interface RWIProtocolCSSStyleAttribute : RWIProtocolJSONObject
 {
 }
 
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (id);
-- (void);
+- (void)�ji8	k;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) RWIProtocolCSSStyle *style;
 
 @end
 

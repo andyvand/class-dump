@@ -4,64 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPSStateRequest
 {
     long long _originalLibrarySize;
-    NSString *_backupDeviceID;
-    NSString *_backupDeviceUDID;
-    NSString *_backupDeviceUUID;
-    NSString *_iCPLDeviceID;
-    NSString *_mPSDeviceID;
-    struct {
-        unsigned int originalLibrarySize:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (void));
+- (void)erable framing issue. Closing stream.;
+- (void)rrored out:(_Bool)arg1 %@;
+- (void)g in progress; stale reply? Ignoring;
+- (void)rite-response returned but nothing in progress; stale reply? Ignoring;
+- (void)losing.;
+- (long long)ple media accessories due to no data source;
+- (id)in no change to aggregate data:%@ /* Error: Ran out of types for this method. */;
+- (id)iled to get primary resident change monitor from notification:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)regate data due to added media system notification;
+- (_Bool)otification:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)fication:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)to get added accessory from notification:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)s aggregator;
+- (id)6P;
+- (id)d fire for %{public,uuid_t}.16P;
+- (id)changed.;
+- (void)lic}@Border router present on network - not starting thread;
+- (_Bool)ort;
+- (id)م;
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)A;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)%;
 - (id);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *backupDeviceID; // @synthesize backupDeviceID=_backupDeviceID;
-@property(retain, nonatomic) NSString *backupDeviceUDID; // @synthesize backupDeviceUDID=_backupDeviceUDID;
-@property(retain, nonatomic) NSString *backupDeviceUUID; // @synthesize backupDeviceUUID=_backupDeviceUUID;
-@property(readonly, nonatomic) _Bool hasBackupDeviceID;
-@property(readonly, nonatomic) _Bool hasBackupDeviceUDID;
-@property(readonly, nonatomic) _Bool hasBackupDeviceUUID;
-@property(readonly, nonatomic) _Bool hasICPLDeviceID;
 @property(readonly, nonatomic) _Bool hasMPSDeviceID;
-@property(nonatomic) _Bool hasOriginalLibrarySize;
-@property(retain, nonatomic) NSString *iCPLDeviceID; // @synthesize iCPLDeviceID=_iCPLDeviceID;
-@property(retain, nonatomic) NSString *mPSDeviceID; // @synthesize mPSDeviceID=_mPSDeviceID;
-@property(nonatomic) long long originalLibrarySize; // @synthesize originalLibrarySize=_originalLibrarySize;
 
 @end
 

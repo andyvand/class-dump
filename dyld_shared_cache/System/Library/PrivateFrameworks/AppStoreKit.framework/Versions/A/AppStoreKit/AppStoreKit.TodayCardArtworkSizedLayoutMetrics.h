@@ -7,16 +7,6 @@
 @interface AppStoreKit.TodayCardArtworkSizedLayoutMetrics
 {
     id maxWidth;
-    id ltrArtLayout;
-    id rtlArtLayout;
-    id ltrAXArtLayout;
-    id rtlAXArtLayout;
-    id collapsedSize;
-    id expandedSize;
-    id sourceCropOverrideLTR;
-    id sourceCropOverrideRTL;
-    id sourceSizeOverride;
-    id priority;
 }
 
 @end

@@ -6,13 +6,11 @@
 
 #import <InternetAccounts/IAAccountSetupResult.h>
 
-@class IMAccount, NSError;
+@class IMAccount;
 
 @interface IAChatAccountSetupResult : IAAccountSetupResult
 {
     IMAccount *_accountObject;
-    _Bool _isExistingAccount;
-    NSError *_error;
 }
 
 - (void);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(retain) IMAccount *accountObject; // @synthesize accountObject=_accountObject;
-@property _Bool isExistingAccount; // @synthesize isExistingAccount=_isExistingAccount;
-@property(retain) NSError *setupError; // @synthesize setupError=_error;
 
 @end
 

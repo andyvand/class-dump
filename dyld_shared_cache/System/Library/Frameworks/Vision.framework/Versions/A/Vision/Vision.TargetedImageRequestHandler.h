@@ -7,7 +7,6 @@
 @interface Vision.TargetedImageRequestHandler
 {
     id sourceImageHandler;
-    id targetImageHandler;
 }
 
 @end

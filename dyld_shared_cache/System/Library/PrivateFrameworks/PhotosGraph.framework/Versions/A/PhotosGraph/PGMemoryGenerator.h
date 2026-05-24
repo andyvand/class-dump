@@ -4,72 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PGGraphLocationHelper, PGMemoryController, PGMemoryCurationSession, PGMemoryGenerationContext, PGMemoryMomentNodesWithBlockedFeatureCache, PGMemoryProcessedScenesAndFacesCache;
-@protocol OS_os_log;
-
 @interface PGMemoryGenerator
 {
     _Bool _isDebug;
-    PGMemoryController *_controller;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGMemoryCurationSession *_memoryCurationSession;
-    PGMemoryProcessedScenesAndFacesCache *_processedScenesAndFacesCache;
-    PGMemoryMomentNodesWithBlockedFeatureCache *_momentNodesWithBlockedFeatureCache;
-    PGGraphLocationHelper *_locationHelper;
-    PGMemoryGenerationContext *_memoryGenerationContext;
 }
 
-+ (long long);
++ (long long)descendantWithRole:(unsigned long long)arg1 depth: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)s/AccessibilityVisuals.framework/Versions/A/AccessibilityVisuals;
+- (_Bool)cessibilitySupport.framework/Versions/A/Frameworks/AccessibilityVisuals.framework/Versions/A/AccessibilityVisuals;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)rtWindowController";
+- (id)ceManager"16@"AXKApplicationController"24;
+- (id)updateMenuExtraInformation;
+- (id)stopObservingApplications;
+- (id)setTextElementFrame:(id)arg1;
+- (id)_signalDelegatesInfoChangedForElement:(id)arg1 infoBeforeChange:infoAfterChange: /* Error: Ran out of types for this method. */;
+- (id)_signalDelegateHasNoContentForWindow:(id)arg1 inDirection:(id)arg2;
+- (id)rchDelegate>",&,N,V_searchDelegate;
+- (void)ementTraversalStrategy;
 - (id);
+- (unsigned long long)LibCall_ACMTRMLoadState_Block;
+- (unsigned long long)tLibs/common/LibCallBlock.c;
+- (id)d;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)T;
+- (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id));
 - (_Bool);
 - (id)_clsHighlightVisibilityScore;
-- (void)aphChangeTypeUnknown;
+- (void)PGGraphChangeTypeUnknown;
 - (id);
 
 // Remaining properties
-@property(readonly) __weak PGMemoryController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool isDebug; // @synthesize isDebug=_isDebug;
-@property(readonly, nonatomic) PGGraphLocationHelper *locationHelper; // @synthesize locationHelper=_locationHelper;
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) PGMemoryCurationSession *memoryCurationSession; // @synthesize memoryCurationSession=_memoryCurationSession;
-@property(readonly, nonatomic) PGMemoryGenerationContext *memoryGenerationContext; // @synthesize memoryGenerationContext=_memoryGenerationContext;
-@property(readonly, nonatomic) PGMemoryMomentNodesWithBlockedFeatureCache *momentNodesWithBlockedFeatureCache; // @synthesize momentNodesWithBlockedFeatureCache=_momentNodesWithBlockedFeatureCache;
-@property(readonly, nonatomic) PGMemoryProcessedScenesAndFacesCache *processedScenesAndFacesCache; // @synthesize processedScenesAndFacesCache=_processedScenesAndFacesCache;
-@property(readonly) Class superclass;
 
 @end
 

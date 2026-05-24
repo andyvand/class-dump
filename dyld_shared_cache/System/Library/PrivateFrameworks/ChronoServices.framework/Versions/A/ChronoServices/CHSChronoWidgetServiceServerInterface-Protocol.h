@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CHSURLSessionToken, CHSWidget, NSData;
+
 @protocol CHSChronoWidgetServiceServerInterface
+- (oneway void)h;
+- (oneway void);
+- (NSData *)TJ;
+- (CHSURLSessionToken *);
+- (void);
+- (oneway void)ccess %@, error:(CHSWidget *)arg1 %@;
+- (oneway void);
 @end
 

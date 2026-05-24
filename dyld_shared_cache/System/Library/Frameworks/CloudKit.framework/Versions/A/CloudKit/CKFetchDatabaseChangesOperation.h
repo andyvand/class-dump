@@ -6,64 +6,18 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchDatabaseChangesOperationInfo, CKServerChangeToken, NSMutableSet, NSString;
-@protocol CKFetchDatabaseChangesOperationCallbacks;
+@class CKServerChangeToken;
 
 @interface CKFetchDatabaseChangesOperation : CKDatabaseOperation
 {
     _Bool _fetchAllChanges;
-    CDUnknownBlockType _recordZoneWithIDChangedBlock;
-    CDUnknownBlockType _recordZoneWithIDWasDeletedBlock;
-    CDUnknownBlockType _recordZoneWithIDWasPurgedBlock;
-    CDUnknownBlockType _changeTokenUpdatedBlock;
-    CDUnknownBlockType _fetchDatabaseChangesCompletionBlock;
-    CDUnknownBlockType _recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock;
-    CDUnknownBlockType _hierarchicalRecordZoneWithIDChangedBlock;
-    CKServerChangeToken *_previousServerChangeToken;
-    unsigned long long _resultsLimit;
-    CKServerChangeToken *_serverChangeToken;
-    long long _status;
-    NSMutableSet *_zoneIDsForMetrics;
-    CDUnknownBlockType _recordZoneWithIDChangedBlock_wrapper;
-    CDUnknownBlockType _recordZoneWithIDWasDeletedBlock_wrapper;
-    CDUnknownBlockType _recordZoneWithIDWasPurgedBlock_wrapper;
-    CDUnknownBlockType _recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock_wrapper;
-    CDUnknownBlockType _fetchDatabaseChangesCompletionBlock_wrapper;
-    CDUnknownBlockType _hierarchicalRecordZoneWithIDChangedBlock_wrapper;
 }
 
 + (SEL);
 + (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType changeTokenUpdatedBlock; // @synthesize changeTokenUpdatedBlock=_changeTokenUpdatedBlock;
-@property(readonly, nonatomic) id <CKFetchDatabaseChangesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(copy, nonatomic) CDUnknownBlockType fetchDatabaseChangesCompletionBlock; // @synthesize fetchDatabaseChangesCompletionBlock=_fetchDatabaseChangesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchDatabaseChangesCompletionBlock_wrapper; // @synthesize fetchDatabaseChangesCompletionBlock_wrapper=_fetchDatabaseChangesCompletionBlock_wrapper;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType hierarchicalRecordZoneWithIDChangedBlock; // @synthesize hierarchicalRecordZoneWithIDChangedBlock=_hierarchicalRecordZoneWithIDChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType hierarchicalRecordZoneWithIDChangedBlock_wrapper; // @synthesize hierarchicalRecordZoneWithIDChangedBlock_wrapper=_hierarchicalRecordZoneWithIDChangedBlock_wrapper;
-@property(readonly, nonatomic) CKFetchDatabaseChangesOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CKServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDChangedBlock; // @synthesize recordZoneWithIDChangedBlock=_recordZoneWithIDChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDChangedBlock_wrapper; // @synthesize recordZoneWithIDChangedBlock_wrapper=_recordZoneWithIDChangedBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasDeletedBlock; // @synthesize recordZoneWithIDWasDeletedBlock=_recordZoneWithIDWasDeletedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasDeletedBlock_wrapper; // @synthesize recordZoneWithIDWasDeletedBlock_wrapper=_recordZoneWithIDWasDeletedBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock; // @synthesize recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock=_recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock_wrapper; // @synthesize recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock_wrapper=_recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasPurgedBlock; // @synthesize recordZoneWithIDWasPurgedBlock=_recordZoneWithIDWasPurgedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasPurgedBlock_wrapper; // @synthesize recordZoneWithIDWasPurgedBlock_wrapper=_recordZoneWithIDWasPurgedBlock_wrapper;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
 @property(retain, nonatomic) CKServerChangeToken *serverChangeToken; // @synthesize serverChangeToken=_serverChangeToken;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableSet *zoneIDsForMetrics; // @synthesize zoneIDsForMetrics=_zoneIDsForMetrics;
 
 @end
 

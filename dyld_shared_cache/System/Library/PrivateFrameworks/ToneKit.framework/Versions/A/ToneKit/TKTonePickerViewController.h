@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSResponder, NSString, TKTonePickerController;
-@protocol TKTonePickerContentViewController, TKTonePickerViewControllerDelegate;
+@class TKTonePickerController;
 
 @interface TKTonePickerViewController
 {
     TKTonePickerController *_tonePickerController;
-    id <TKTonePickerContentViewController> _tonePickerContentViewController;
-    _Bool _isMonitoringHostingWindowClosing;
-    unsigned long long _style;
-    id <TKTonePickerViewControllerDelegate> _delegate;
 }
 
 + (Class);
@@ -22,10 +17,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -38,11 +33,11 @@
 - (void);
 - (long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)logHandle;
 - (void);
 - (id);
 - (void);
@@ -51,22 +46,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long alertType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultToneIdentifier;
-@property(nonatomic) __weak id <TKTonePickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isNoneAtTop) _Bool noneAtTop;
-@property(copy, nonatomic) NSString *selectedToneIdentifier;
-@property(nonatomic) _Bool showsDefault;
-@property(nonatomic) _Bool showsNone;
-@property(readonly, nonatomic) unsigned long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSResponder *tonePickerResponder;
-@property(copy, nonatomic) NSString *topic;
 
 @end
 

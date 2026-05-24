@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString;
+@class NSSet;
 
 @interface UIConversationContext
 {
     long long _conversationType;
-    NSString *_threadIdentifier;
-    NSArray *_entries;
-    NSSet *_selfIdentifiers;
-    NSSet *_responsePrimaryRecipientIdentifiers;
-    NSDictionary *_participantNameByIdentifier;
-    NSSet *_secondaryRecipientIdentifiers;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)WHILE FETCHING ARCHIVED RECORDS **;
+- (void)d:(id)arg1 %@;
+- (void)sageLegacyProcessingPipelineComponent> Failed to find any message items;
+- (id)gPipelineComponent> No chat found, nothing to converge;
+- (id)gPipelineComponent> Started processing for Message GUID:%@ /* Error: Ran out of types for this method. */;
+- (id)@?0@"NSString"8Q16^B24;
 - (long long);
-- (void);
+- (void)a;
 - (id);
-- (void);
+- (void)#;
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (id)tivelyMovingItems: /* Error: Ran out of types for this method. */;
-- (id)dowSafeAreaAspectFitLayoutGuideAspectRatio;
+- (id)_UIWindowSafeAreaAspectFitLayoutGuideAspectRatio;
 - (void);
 - (void)þa .;
 
 // Remaining properties
-@property(nonatomic) long long conversationType; // @synthesize conversationType=_conversationType;
-@property(copy, nonatomic) NSArray *entries; // @synthesize entries=_entries;
-@property(copy, nonatomic) NSDictionary *participantNameByIdentifier; // @synthesize participantNameByIdentifier=_participantNameByIdentifier;
-@property(copy, nonatomic) NSSet *responsePrimaryRecipientIdentifiers; // @synthesize responsePrimaryRecipientIdentifiers=_responsePrimaryRecipientIdentifiers;
 @property(retain, nonatomic) NSSet *secondaryRecipientIdentifiers; // @synthesize secondaryRecipientIdentifiers=_secondaryRecipientIdentifiers;
-@property(copy, nonatomic) NSSet *selfIdentifiers; // @synthesize selfIdentifiers=_selfIdentifiers;
-@property(copy, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
 
 @end
 

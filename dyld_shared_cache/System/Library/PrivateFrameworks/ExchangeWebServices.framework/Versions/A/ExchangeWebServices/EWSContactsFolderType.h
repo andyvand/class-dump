@@ -13,10 +13,10 @@
     EWSPermissionSetType *_PermissionSet;
 }
 
-+ (id);
++ (id)<;
 - (void);
 - (id);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(retain, nonatomic) EWSPermissionSetType *PermissionSet; // @synthesize PermissionSet=_PermissionSet;

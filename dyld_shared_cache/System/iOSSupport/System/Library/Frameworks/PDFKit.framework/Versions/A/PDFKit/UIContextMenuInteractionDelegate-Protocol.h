@@ -9,9 +9,10 @@
 @protocol UIContextMenuInteractionDelegate
 
 @optional
+- (UITargetedPreview *);
 - (UITargetedPreview *)× ;
-- (UITargetedPreview *)aceholder;
-- (void)FillingMode;
+- (UITargetedPreview *)insertDictationResultPlaceholder;
+- (void)inFormFillingMode;
 - (UITargetedPreview *)Dx@X;
 @end
 

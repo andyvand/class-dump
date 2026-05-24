@@ -6,30 +6,12 @@
 
 #import <OfficeImport/EDSheet.h>
 
-@class EDCollection, EDColumnInfoCollection, EDMergedCellCollection, EDPane, EDReference, EDRowBlocks, EDWarnings, NSMutableDictionary;
+@class EDRowBlocks;
 
 __attribute__((visibility("hidden")))
 @interface EDWorksheet : EDSheet
 {
     EDRowBlocks *mRowBlocks;
-    EDColumnInfoCollection *mColumnInfos;
-    EDCollection *mConditionalFormattings;
-    EDCollection *mHyperlinks;
-    EDCollection *mTables;
-    EDCollection *mPivotTables;
-    EDMergedCellCollection *mMergedCells;
-    EDPane *mPane;
-    EDWarnings *mWorksheetWarnings;
-    double mDefaultColumnWidth;
-    unsigned short mDefaultRowHeight;
-    unsigned long long mMaxRowOutlineLevel;
-    unsigned long long mMaxColumnOutlineLevel;
-    _Bool mFitToPage;
-    EDReference *mMaxCellReferencedInFormulas;
-    NSMutableDictionary *mContentOutOfLassoBoundsCache;
-    NSMutableDictionary *mMergedRows;
-    NSMutableDictionary *mMergedCols;
-    EDReference *mImplicitCellArea;
 }
 
 - (id);
@@ -41,18 +23,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)|;
 - (id);
 - (id);
 - (_Bool);

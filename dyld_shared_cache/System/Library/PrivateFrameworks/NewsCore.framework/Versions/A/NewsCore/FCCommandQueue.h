@@ -4,50 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCloudContext, FCKeyValueStore, NFUnfairLock, NSArray, NSMutableArray, NSObject, NSString;
-@protocol FCCommandQueueDelegate, OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source;
+@class NSArray;
 
 @interface FCCommandQueue
 {
     _Bool _suspended;
-    _Bool _executingCommand;
-    FCCloudContext *_context;
-    NSString *_persistentStorePath;
-    NSString *_name;
-    FCKeyValueStore *_persistentStore;
-    long long _urgency;
-    id <FCCommandQueueDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_source> *_cooldownTimer;
-    NSMutableArray *_pendingCommands;
-    NFUnfairLock *_pendingCommandsLock;
-    NSObject<OS_dispatch_group> *_pendingCommandsGroup;
-    NSObject<OS_dispatch_group> *_executingCommandsGroup;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)A;
+- (void)"24@?<v@?@"NSArray"@"NSError">32;
+- (void)0:8:16 /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)authorizeForRight:allowingInteraction: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)Ø;
 - (void)-date;
 - (void)4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *enqueuedCommands;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,14 +9,6 @@
 @interface SMEngineStep
 {
     SMEngine *engine;
-    unsigned long long _lastCompletedPhase;
-    NSMutableArray *_warnings;
-    unsigned long long _totalSize;
-    unsigned long long _totalFileCount;
-    unsigned long long _deletedSize;
-    unsigned long long _completedSize;
-    unsigned long long _completedFileCount;
-    NSMutableArray *_errors;
 }
 
 + (id);
@@ -27,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
@@ -58,14 +50,6 @@
 × ;
 
 // Remaining properties
-@property unsigned long long completedFileCount; // @synthesize completedFileCount=_completedFileCount;
-@property unsigned long long completedSize; // @synthesize completedSize=_completedSize;
-@property unsigned long long deletedSize; // @synthesize deletedSize=_deletedSize;
-@property __weak SMEngine *engine; // @synthesize engine;
-@property(retain) NSMutableArray *errors; // @synthesize errors=_errors;
-@property unsigned long long lastCompletedPhase; // @synthesize lastCompletedPhase=_lastCompletedPhase;
-@property unsigned long long totalFileCount; // @synthesize totalFileCount=_totalFileCount;
-@property unsigned long long totalSize; // @synthesize totalSize=_totalSize;
 @property(retain) NSMutableArray *warnings; // @synthesize warnings=_warnings;
 
 @end

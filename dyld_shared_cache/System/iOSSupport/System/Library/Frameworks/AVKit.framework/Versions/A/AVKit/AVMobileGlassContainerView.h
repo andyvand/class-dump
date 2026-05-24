@@ -7,16 +7,11 @@
 #import <AVKit/AVGlassBackedView.h>
 
 @class NSArray;
-@protocol AVMobileGlassContainerViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassContainerView : AVGlassBackedView
 {
     NSArray *_itemViews;
-    double _spacing;
-    id <AVMobileGlassContainerViewDelegate> _delegate;
-    double _maximumHeight;
-    NSArray *_hiddenItemViews;
 }
 
 - (void);
@@ -30,18 +25,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)r;
 - (double);
 - (void)1Â0@ù
 × ;
 - (void)´U;
 
 // Remaining properties
-@property(nonatomic) __weak id <AVMobileGlassContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSArray *hiddenItemViews; // @synthesize hiddenItemViews=_hiddenItemViews;
-@property(retain, nonatomic) NSArray *itemViews; // @synthesize itemViews=_itemViews;
-@property(nonatomic) double maximumHeight; // @synthesize maximumHeight=_maximumHeight;
-@property(nonatomic) double spacing; // @synthesize spacing=_spacing;
 
 @end
 

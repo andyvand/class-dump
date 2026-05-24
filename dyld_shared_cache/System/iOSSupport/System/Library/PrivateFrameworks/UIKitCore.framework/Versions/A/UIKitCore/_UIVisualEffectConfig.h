@@ -16,10 +16,10 @@
 × ;
 + (id)Fÿ<Õô¹l;
 - (void);
-- (id);
-- (id)ms: /* Error: Ran out of types for this method. */;
-- (id):atGlobalItemIndex: /* Error: Ran out of types for this method. */;
-- (void)ler;
+- (id)a;
+- (id)requestVisibleItems: /* Error: Ran out of types for this method. */;
+- (id)_setLayoutAttributes:atGlobalItemIndex: /* Error: Ran out of types for this method. */;
+- (void)UISearchControllerShowsSearchResultsController;
 - (void)*¾7_+*¾7G;
 
 // Remaining properties

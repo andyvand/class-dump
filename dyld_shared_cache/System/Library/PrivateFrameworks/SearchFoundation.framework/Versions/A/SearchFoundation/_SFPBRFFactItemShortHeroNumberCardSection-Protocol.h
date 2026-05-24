@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFFactItemShortHeroNumberCardSection
+- (unsigned long long).;
+- (_SFPBRFTextProperty *);
+- (_SFPBRFTextProperty *)6^{__CFString=}24^{__CFDictionary=}32;
+- (NSData *)@"NSArray",C,N,V_previewImageData;
 - (_SFPBRFTextProperty *)_SFPBRFExpandingComponentContent;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(copy, nonatomic) NSArray *text_2s;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
-@property(retain, nonatomic) _SFPBRFTextProperty *unit;
 @end
 

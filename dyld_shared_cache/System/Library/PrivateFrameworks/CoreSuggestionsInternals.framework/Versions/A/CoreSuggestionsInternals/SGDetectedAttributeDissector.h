@@ -6,20 +6,11 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class NSSet, NSString, SGContactPipelineHelper, SGDetectedAttributeML, SGHKHealthStore, SGQuickResponsesML;
+@class SGDetectedAttributeML;
 
 @interface SGDetectedAttributeDissector : SGPipelineDissector
 {
     SGDetectedAttributeML *_ml;
-    SGQuickResponsesML *_mlQR;
-    SGContactPipelineHelper *_contactsHelper;
-    SGHKHealthStore *_healthStore;
-    _Bool _filterWithAddressBook;
-    float _unlikelyPhoneSamplingRate;
-    NSSet *_hmmTrustedLanguages;
-    NSSet *_ddTrustedLanguages;
-    NSSet *_coreNLPTrustedLanguages;
-    unsigned long long _selfIdentificationMessageCount;
 }
 
 + (id);
@@ -34,42 +25,35 @@
 + (_Bool);
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)4444444444;
+- (id)";
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)60@0:(id)arg1 8@16i24@28@36Q44Q52;
+- (void)MSVEntitlementUtilities;
+- (id)SYDRemotePreferencesSourceDidChangeNotification;
+- (id)mEffectBehavior;
 - (void);
+- (void)17PptBinaryDataAtom;
+- (void)wg^;
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long selfIdentificationMessageCount; // @synthesize selfIdentificationMessageCount=_selfIdentificationMessageCount;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIAnimatingImageView, CAShapeLayer, NSUUID, UIButton;
+@class AVTUIAnimatingImageView;
 
 @interface AVTFunCamAvatarPickerCollectionViewCell
 {
     _Bool _selectionVisible;
-    _Bool _roundImageCorners;
-    _Bool _showsTitle;
-    NSUUID *_displaySessionUUID;
-    CDUnknownBlockType _imageInsetProvider;
-    long long _imageContentMode;
-    AVTUIAnimatingImageView *_imageView;
-    UIButton *_accessoryButton;
-    CAShapeLayer *_selectionLayer;
-    struct CGSize _engagedSize;
 }
 
 + (struct CGPath *);
@@ -39,8 +30,8 @@
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long)e_descriptor.count;
+- (void)UrsaRadarData;
 - (void);
 - (id);
 - (void);
@@ -48,19 +39,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;
-@property(retain, nonatomic) NSUUID *displaySessionUUID; // @synthesize displaySessionUUID=_displaySessionUUID;
-@property(nonatomic) struct CGSize engagedSize; // @synthesize engagedSize=_engagedSize;
-@property(nonatomic) long long imageContentMode; // @synthesize imageContentMode=_imageContentMode;
-@property(copy, nonatomic) CDUnknownBlockType imageInsetProvider; // @synthesize imageInsetProvider=_imageInsetProvider;
 @property(readonly, nonatomic) AVTUIAnimatingImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool roundImageCorners; // @synthesize roundImageCorners=_roundImageCorners;
-@property(readonly, nonatomic) CAShapeLayer *selectionLayer; // @synthesize selectionLayer=_selectionLayer;
-@property(nonatomic) _Bool selectionVisible; // @synthesize selectionVisible=_selectionVisible;
-@property(nonatomic) _Bool showsTitle; // @synthesize showsTitle=_showsTitle;
 
 @end
 

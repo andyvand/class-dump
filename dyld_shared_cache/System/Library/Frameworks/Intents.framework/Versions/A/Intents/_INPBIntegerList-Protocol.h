@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCondition;
+@class _INPBCondition;
 
 @protocol _INPBIntegerList
+- (_Bool);
+- (void);
 - (_INPBCondition *)ck:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *conditionType;
-@property(copy, nonatomic) NSArray *dataStrings;
-@property(readonly, nonatomic) unsigned long long dataStringsCount;
-@property(readonly, nonatomic) _Bool hasConditionType;
 @end
 

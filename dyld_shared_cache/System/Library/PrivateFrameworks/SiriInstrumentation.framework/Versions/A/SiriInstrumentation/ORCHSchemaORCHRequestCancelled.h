@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHRequestCancelled : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
-- (int);
+- (int)ger:willSendTransitUpdateRequestForRouteIDs:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)1F;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id)ntTurnsPerWeek;
-- (id)eqSameGroup2MinTo10Min: /* Error: Ran out of types for this method. */;
+- (id)_daysWithTwoValidAssistantTurnsPerWeek;
+- (id)setHasFreqSameGroup2MinTo10Min: /* Error: Ran out of types for this method. */;
 - (void)ambiguationContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

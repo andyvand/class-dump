@@ -13,7 +13,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)setMinimumNumberOfMomentsForTwoConsecutiveYears:(struct CGRect)arg1;
 
 // Remaining properties
 @property _Bool isSeparatorLine; // @synthesize isSeparatorLine=_isSeparatorLine;

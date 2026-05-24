@@ -5,5 +5,8 @@
 //
 
 @protocol AKAuthorizationDaemonProtocol
+- (void)s;
+- (void);
+- (void)#!!;
 @end
 

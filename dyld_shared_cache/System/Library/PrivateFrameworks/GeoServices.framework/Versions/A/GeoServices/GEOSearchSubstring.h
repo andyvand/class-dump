@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOSearchSubstring
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_spanDatas;
-    int _beginIndex;
-    int _endIndex;
-    int _stringType;
 }
 
 + (Class);
-+ (_Bool)pe:(id)arg1;
++ (_Bool)setMapViewMapType:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
@@ -24,36 +20,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (void);
 - (int);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)@;
+- (void)&;
+- (void)_setAudioContextWithInfo:(id)arg1 forReason: /* Error: Ran out of types for this method. */;
+- (id)I	;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (int);
 - (void);
 - (id)"has_placeCardIsPersonAddressAvailable"b1"has_placeCardIsPersonLocationShared"b1"has_placeCardIsPersonPlacecard"b1"has_placeCardTransitAdvisoryBanner"b1"has_rideBookingAppEnabled"b1"has_rideBookingAppInstalled"b1"has_suggestionsSiriEnabled"b1"has_tableBookingAppEnabled"b1"has_tableBookingAppInstalled"b1"has_venueExperienceShown"b1"read_placeCardPossibleActions"b1"read_placeCardUnactionableUiElements"b1"read_account"b1"read_actionButtonDetailsState"b1"read_carPlayInfo"b1"read_curatedCollectionState"b1"read_deviceInputLocale"b1"read_deviceOutputLocale"b1"read_impressionObjectState"b1"read_lookAroundLocation"b1"read_mapLaunchLaunchUri"b1"read_mapLaunchReferringWebsite"b1"read_mapLaunchSourceAppId"b1"read_mapLaunchSourceHandoffDevice"b1"read_mapViewMapRegion"b1"read_mapsPlaceIdsState"b1"read_mapsServerMetadataSuggestionEntryDisplayeds"b1"read_mapsServerMetadataSuggestionEntryTappedOn"b1"read_mapsServerMetadata"b1"read_metroRegion"b1"read_photoSubmissionDetailsState"b1"read_placeCardPlaceActionDetailsActionUrl"b1"read_placeCardPlaceActionDetailsDestinationApp"b1"read_placeCardPlaceActionDetailsPhotoId"b1"read_placeCardPlaceActionDetailsRichProviderId"b1"read_placeCardPlaceActionDetailsShowcaseId"b1"read_placeCardPlaceActionDetailsTransitPlaceCardIncidentType"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageDirection"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageHeadsign"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitSystemName"b1"read_placeCardPlaceCardCategory"b1"read_placeCardRevealedPlaceCardModules"b1"read_placeCardState"b1"read_predExTrainingData"b1"read_ratingPhotoSubmissionDetailsState"b1"read_ratingSubmissionDetailsState"b1"read_routeRouteDetails"b1"read_searchResultsState"b1"read_suggestionsDisplayedResults"b1"read_suggestionsSearchString"b1"read_tapEventState"b1"read_ugcPhotoState"b1"read_userHomeCountry"b1"read_userHomeMetro"b1"wrote_anyField"b1};
-- (void)hargerPlugsInfo:(int)arg1;
-- (id)tilEventStart;
-- (id);
-- (id)yment_id;
-- (int);
+- (void)setChargerPlugsInfo:(int)arg1;
+- (id)hasDurationUntilEventStart;
+- (id)GEOAmenityRibbonItem;
+- (id)rollout_deployment_id;
+- (int)backgroundDispatcherURL_legacy;
 - (void)&©L1±P@;
 
 // Remaining properties
-@property(nonatomic) int beginIndex;
-@property(nonatomic) int endIndex;
-@property(retain, nonatomic) NSMutableArray *spanDatas;
 @property(nonatomic) int stringType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

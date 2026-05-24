@@ -5,5 +5,9 @@
 //
 
 @protocol AFUISiriSession
++ (void);
+- (void);
+- (void)b;
+- (void)ChatDeletionDidntSync;
 @end
 

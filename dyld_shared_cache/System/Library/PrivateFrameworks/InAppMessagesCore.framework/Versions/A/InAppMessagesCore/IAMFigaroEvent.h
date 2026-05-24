@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IAMFigaroEvent
 {
     long long _type;
-    NSDictionary *_payload;
 }
 
 - (_Bool);
@@ -17,31 +14,14 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long)expressionValueWithObject:context: /* Error: Ran out of types for this method. */;
+- (id)_documentEmbeddingAvailable;
 - (void);
 - (void);
-- (void);
+- (void)updateLastDisplayTimeGlobalPresentationPolicyGroupNormal:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
-@property(readonly, copy, nonatomic) NSString *source;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) id value;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,C,N
-
 
 @end
 

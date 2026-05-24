@@ -6,25 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UIColor, UIFont, UIImageView, UILabel, _UISearchAtomBackgroundView, _UISearchAtomViewVisualStyle;
+@class _UISearchAtomBackgroundView;
 
 @interface _UISearchAtomView : UIView
 {
     struct {
         unsigned int enabled:1;
     } _flags;
-    UIColor *_customAtomForegroundColor;
-    UIColor *_atomBackgroundColor;
-    _UISearchAtomBackgroundView *_backgroundView;
-    _UISearchAtomViewVisualStyle *_visualStyle;
-    NSArray *_defaultConstraints;
-    NSLayoutConstraint *_maximumAtomWidthConstraint;
-    NSLayoutConstraint *_imageBaselineConstraint;
-    NSLayoutConstraint *_imageCenterYConstraint;
-    NSArray *_withImageConstraints;
-    NSArray *_withoutImageConstraints;
-    UILabel *_textLabel;
-    UIImageView *_leadingImage;
 }
 
 + (id);
@@ -41,30 +29,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_connection;
+- (void)enabled;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)storeMessage:context:didReplaceBlock: /* Error: Ran out of types for this method. */;
+- (id)phoneAliasForDominentPhoneAlias:registeredPhoneNumbers:preferredCallerID:CTPhoneNumber: /* Error: Ran out of types for this method. */;
+- (id)personalPriorityEnabled;
+- (void)IMDaemonListenerKeyTransparencyProtocol;
+- (id)non-isSOS message; incoming message marked critical, existing message unread -- RE-ALERTING; existingMessage:%@ /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (double);
 - (void);
 - (void);
+- (void)CarrierSettingsVersion;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)!Aù_°1Â0@ù
 × ;
 - (void)esentationControllerVisualStyling>"24@0:(long long)arg1 8@"UIPresentationController"16;
-- (long long)cTraits;
-- (id)etion:(struct CGRect)arg1 animated: /* Error: Ran out of types for this method. */;
+- (long long)symbolicTraits;
+- (id)_insertAtRangeOrPosition:(struct CGRect)arg1 animations:completion:animated: /* Error: Ran out of types for this method. */;
 - (id)%@" to %@;
 - (void)]þ;
 - (id)st char *__ui_archive_entry_pathname(struct ui_archive_entry *);
@@ -75,30 +63,7 @@
 - (void)\ìþÿÏÎx[_;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAtomForegroundColor:) UIColor *_atomForegroundColor;
-@property(retain, nonatomic) UIColor *atomBackgroundColor; // @synthesize atomBackgroundColor=_atomBackgroundColor;
-@property(retain, nonatomic) UIFont *atomFont;
 @property(retain, nonatomic) _UISearchAtomBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSArray *defaultConstraints; // @synthesize defaultConstraints=_defaultConstraints;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSLayoutConstraint *imageBaselineConstraint; // @synthesize imageBaselineConstraint=_imageBaselineConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *imageCenterYConstraint; // @synthesize imageCenterYConstraint=_imageCenterYConstraint;
-@property(retain) UIImageView *leadingImage; // @synthesize leadingImage=_leadingImage;
-@property(retain, nonatomic) NSLayoutConstraint *maximumAtomWidthConstraint; // @synthesize maximumAtomWidthConstraint=_maximumAtomWidthConstraint;
-@property(readonly, nonatomic) struct CGRect selectionBounds;
-@property(nonatomic) long long selectionStyle;
-@property(readonly) Class superclass;
-@property(retain) UILabel *textLabel; // @synthesize textLabel=_textLabel;
-@property(nonatomic) double viewportWidth;
-@property(readonly, nonatomic) _UISearchAtomViewVisualStyle *visualStyle; // @synthesize visualStyle=_visualStyle;
-@property(copy, nonatomic) NSArray *withImageConstraints; // @synthesize withImageConstraints=_withImageConstraints;
-@property(copy, nonatomic) NSArray *withoutImageConstraints; // @synthesize withoutImageConstraints=_withoutImageConstraints;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface ContactsUI.CNContactHeaderQuickActionsModel
 {
     id contact;
-    id groupActionsPerType;
-    id customActions;
-    id quickActionsController;
-    id quickActionsObserver;
 }
 
 @end

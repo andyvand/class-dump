@@ -9,11 +9,10 @@
 @interface PXSnapStripView
 {
     NSImageView *_stripImageView;
-    NSArray *_indicatorInfos;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

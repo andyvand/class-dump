@@ -13,14 +13,12 @@
 }
 
 - (void);
-- (void);
+- (void)5;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
 @property(copy, nonatomic) NSString *internalWorkspaceIdentifier; // @dynamic internalWorkspaceIdentifier;
-@property(copy, nonatomic) NSString *workspaceIdentifier; // @dynamic workspaceIdentifier;
 
 @end
 

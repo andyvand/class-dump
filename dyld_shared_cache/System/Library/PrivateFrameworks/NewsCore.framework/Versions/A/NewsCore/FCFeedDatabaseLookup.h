@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFeedItemFeature, FCFeedRange, NSString;
+@class NSString;
 
 @interface FCFeedDatabaseLookup
 {
     _Bool _cachedOnly;
-    NSString *_feedID;
-    FCFeedRange *_feedRange;
-    unsigned long long _maxCount;
-    FCFeedItemFeature *_requiredFeature;
 }
 
 - (void);
@@ -22,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void)pe:(unsigned long long)arg1 insertedOrUpdatedHistoryItems:deletedArticleIDs: /* Error: Ran out of types for this method. */;
+- (void)initWithTransactionType:(unsigned long long)arg1 insertedOrUpdatedHistoryItems:deletedArticleIDs: /* Error: Ran out of types for this method. */;
 - (_Bool)dlineScoringOutputName;
 - (unsigned long long);
 - (void)Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFileURLs.m;
@@ -30,12 +26,7 @@
 - (_Bool)§jxõ´ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool cachedOnly; // @synthesize cachedOnly=_cachedOnly;
 @property(copy, nonatomic) NSString *feedID; // @synthesize feedID=_feedID;
-@property(copy, nonatomic) FCFeedRange *feedRange; // @synthesize feedRange=_feedRange;
-@property(readonly, nonatomic) _Bool hasMaxCount;
-@property(nonatomic) unsigned long long maxCount; // @synthesize maxCount=_maxCount;
-@property(copy, nonatomic) FCFeedItemFeature *requiredFeature; // @synthesize requiredFeature=_requiredFeature;
 
 @end
 

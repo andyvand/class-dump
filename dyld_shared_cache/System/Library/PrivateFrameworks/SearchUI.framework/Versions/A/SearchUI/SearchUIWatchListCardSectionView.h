@@ -6,7 +6,7 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class SearchUIWatchListCardRowModel, TLKSimpleRowView;
+@class TLKSimpleRowView;
 
 @interface SearchUIWatchListCardSectionView : SearchUICardSectionView
 {
@@ -16,11 +16,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)debugDescription;
 
 // Remaining properties
 @property(retain, nonatomic) TLKSimpleRowView *contentView; // @dynamic contentView;
-@property(retain, nonatomic) SearchUIWatchListCardRowModel *rowModel; // @dynamic rowModel;
 
 @end
 

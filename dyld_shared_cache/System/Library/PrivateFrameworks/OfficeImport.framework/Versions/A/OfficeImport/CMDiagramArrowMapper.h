@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CMDiagramArrowMapper : CMDiagramShapeMapper
 {
     _Bool mIsVertical;
-    _Bool mIsOutward;
-    float mRadius;
 }
 
 + (void);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)$A;
 
 @end
 

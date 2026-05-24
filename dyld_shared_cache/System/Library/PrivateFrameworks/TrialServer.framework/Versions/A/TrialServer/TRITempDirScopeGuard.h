@@ -9,24 +9,21 @@
 @interface TRITempDirScopeGuard
 {
     _Bool _isDisposed;
-    NSString *_path;
-    NSString *_canonicalPath;
 }
 
 + (_Bool);
 + (id);
-- (void);
+- (void)unsortedLogFileInfos;
 - (id);
+- (id),l;
+- (_Bool)at.m;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id),;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *canonicalPath; // @synthesize canonicalPath=_canonicalPath;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end
 

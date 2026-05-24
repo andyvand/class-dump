@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TBrowserImmediateActionGestureRecognizerDelegate, FI_TTableViewShrinkToFitController, NSImmediateActionGestureRecognizer, NSObject, NSString;
+@class NSObject;
 @protocol TableView_Common_Delegate;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBrowserTableView
 {
     struct TOrderedSet<TFENode, std::hash<TFENode>, std::equal_to<TFENode>> _nodeToRowSet;
-    _Bool _itemHitOnMouseDown;
-    FI_TTableViewShrinkToFitController *_stfController;
-    struct TNotificationCenterObserver _clipViewBoundsChangedObserver;
-    long long _disabledTrackingRow;
-    FI_TBrowserImmediateActionGestureRecognizerDelegate *_immediateActionGestureRecognizerDelegate;
-    NSImmediateActionGestureRecognizer *_quickLookImmediateActionGestureRecognizer;
-    NSImmediateActionGestureRecognizer *_renameImmediateActionGestureRecognizer;
-    _Bool _fileProviderMode;
-    _Bool _computedICloudAndFileProviderModes;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
 - (void);
@@ -45,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (long long);
-- (_Bool);
+- (_Bool)*;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -68,9 +59,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)isDragging;
+- (_Bool)_showSelectedCompletionInField;
+- (_Bool)_attachmentControllersForAttachments: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -79,7 +70,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -92,17 +83,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool computedICloudAndFileProviderModes; // @synthesize computedICloudAndFileProviderModes=_computedICloudAndFileProviderModes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long disabledTrackingRow; // @synthesize disabledTrackingRow=_disabledTrackingRow;
-@property(nonatomic) _Bool fileProviderMode; // @synthesize fileProviderMode=_fileProviderMode;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) FI_TTableViewShrinkToFitController *stfEditorController;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak NSObject<TableView_Common_Delegate> *tvcDelegate;
 
 @end

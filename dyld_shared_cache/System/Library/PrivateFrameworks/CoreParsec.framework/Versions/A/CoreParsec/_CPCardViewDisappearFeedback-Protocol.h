@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _CPCardForFeedback;
-
 @protocol _CPCardViewDisappearFeedback
+- (void)ProcessProxy:(int)arg1:preconnectTo(PAL::SessionID, WebPageProxyIdentifier, WebCore::PageIdentifier, WebCore::ResourceRequest &&, WebCore::StoredCredentialsPolicy, std::optional<NavigatingToAppBoundDomain>) /* Error: Ran out of types for this method. */;
+- (int)tAPIStorage;
+- (unsigned long long)(;
 
 // Remaining properties
-@property(retain, nonatomic) _CPCardForFeedback *card;
-@property(nonatomic) int cardDisappearEvent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

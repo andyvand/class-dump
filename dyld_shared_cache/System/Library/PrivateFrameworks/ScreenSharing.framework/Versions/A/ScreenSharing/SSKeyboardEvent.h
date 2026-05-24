@@ -9,18 +9,16 @@
 @interface SSKeyboardEvent : SSInputEvent
 {
     unsigned long long mKeyCode;
-    int mKeyState;
 }
 
 + (id);
 - (int);
 - (id);
-- (id);
+- (id)_momentUUIDsForExhaustiveMomentLabelingQuestion;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long keyCode; // @synthesize keyCode=mKeyCode;
-@property(readonly) int keyState; // @synthesize keyState=mKeyState;
 
 @end
 

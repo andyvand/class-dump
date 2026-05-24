@@ -9,7 +9,6 @@
 @interface NSLogicalTest : NSScriptWhoseTest
 {
     int _operator;
-    id _subTests;
 }
 
 + (id);
@@ -19,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_dictionaryForArchivingWithAttributes: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);

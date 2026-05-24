@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class APSConnection;
+
 @protocol APSConnectionDelegate
+
+@optional
+- (void)sSuggestionsReservationImprover improveEntry:(APSConnection *)arg1 ];
+- (void)s/A/GeoAnalytics;
+- (void)t.;
+- (void)initiator=%@>;
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
-
 @interface PXAssetCollectionDataSourceInfo
 {
     _Bool _UUIDFilterHidesSomeAssets;
-    _Bool _explicitlyDisableFilters;
-    NSSet *_allowedUUIDs;
-    NSArray *_manualOrderUUIDs;
 }
 
 - (void);
@@ -22,13 +17,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)geDescriptor;
+- (void)GenerativeStoryInWatchNextControllerChangeDescriptor;
 
 // Remaining properties
 @property(nonatomic, setter=_setUUIDFilterHidesSomeAssets:) _Bool UUIDFilterHidesSomeAssets; // @synthesize UUIDFilterHidesSomeAssets=_UUIDFilterHidesSomeAssets;
-@property(retain, nonatomic) NSSet *allowedUUIDs; // @synthesize allowedUUIDs=_allowedUUIDs;
-@property(nonatomic, setter=_setExplicitlyDisableFilters:) _Bool explicitlyDisableFilters; // @synthesize explicitlyDisableFilters=_explicitlyDisableFilters;
-@property(retain, nonatomic) NSArray *manualOrderUUIDs; // @synthesize manualOrderUUIDs=_manualOrderUUIDs;
 
 @end
 

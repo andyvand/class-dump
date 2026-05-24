@@ -4,29 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPPBMusicDataCollectionRecord
 {
     double _quantizedScore;
-    double _secondsFromUnixEpoch;
-    int _algorithm;
-    NSString *_label;
-    NSString *_mediaId;
-    int _mediaType;
-    NSString *_sourceBundleId;
-    int _type;
-    struct {
-        unsigned int quantizedScore:1;
-        unsigned int secondsFromUnixEpoch:1;
-        unsigned int algorithm:1;
-        unsigned int mediaType:1;
-        unsigned int type:1;
-    } _has;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,18 +24,18 @@
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)=;
 - (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (int);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@N;
 - (id);
 - (_Bool);
-- (int);
-- (_Bool);
+- (int)E;
+- (_Bool)";
 - (void);
 - (id);
 - (void);
@@ -67,22 +51,7 @@
 - (_Bool)lgorithm = :algorithm AND tp.topic_id IN _pas_nsset(:uniqueTopicIDs) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) _Bool hasAlgorithm;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasMediaId;
-@property(nonatomic) _Bool hasMediaType;
-@property(nonatomic) _Bool hasQuantizedScore;
-@property(nonatomic) _Bool hasSecondsFromUnixEpoch;
-@property(readonly, nonatomic) _Bool hasSourceBundleId;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *mediaId; // @synthesize mediaId=_mediaId;
-@property(nonatomic) int mediaType; // @synthesize mediaType=_mediaType;
-@property(nonatomic) double quantizedScore; // @synthesize quantizedScore=_quantizedScore;
-@property(nonatomic) double secondsFromUnixEpoch; // @synthesize secondsFromUnixEpoch=_secondsFromUnixEpoch;
-@property(retain, nonatomic) NSString *sourceBundleId; // @synthesize sourceBundleId=_sourceBundleId;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

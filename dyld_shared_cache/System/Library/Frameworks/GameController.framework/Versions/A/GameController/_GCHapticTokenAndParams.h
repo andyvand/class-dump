@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _GCHapticTokenAndParams
 {
     NSMutableArray *_params;
-    unsigned long long _token;
 }
 
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *params; // @synthesize params=_params;
-@property(readonly, nonatomic) unsigned long long token; // @synthesize token=_token;
 
 @end
 

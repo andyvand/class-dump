@@ -9,14 +9,14 @@
 }
 
 + (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (_Bool);
 + (_Bool);
@@ -25,7 +25,7 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)Ȥ;
 + (_Bool);
 + (_Bool);
 + (_Bool);

@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, UIWindow;
-@protocol _UISceneKeyboardProxyLayerForwardingHostingEnvironment, _UISceneKeyboardProxyLayerForwardingPresentationEnvironment;
+@protocol _UISceneKeyboardProxyLayerForwardingPresentationEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneKeyboardProxyLayerForwardingStateMachine
 {
     id <_UISceneKeyboardProxyLayerForwardingPresentationEnvironment> _presentationEnvironment;
-    id <_UISceneKeyboardProxyLayerForwardingHostingEnvironment> _hostingEnvironment;
-    unsigned long long _state;
-    id _windowDidMoveToSceneNotificationToken;
-    UIWindow *_hostingWindow;
-    NSSet *_keyboardLayersTracked;
-    NSSet *_keyboardLayersAddedToHostingEnvironment;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
+- (id):(id)arg1 8@16B24Q28@36;
+- (void)@"NSDictionary"@"NSError">28;
+- (void);
+- (void)So30IMDPlainTextTapbackInterpreterC;
+- (void)s:(id)arg1 %d -> %d created:(id)arg2 %@ -> %@ commSafety:%d -> %d update reason:%d -> %d] /* Error: Ran out of types for this method. */;
+- (void)chat message because it is not supported. (guid:(id)arg1 %@);
+- (id)or asset %@;
+- (void);
+- (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)setItemsWithIdentifiers:(id)arg1 andEntryProperties:forPlaylistWithIdentifier:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)
 × ;
-- (unsigned long long)enu;
-- (id)iteral;
+- (unsigned long long)_secondaryMenu;
+- (id)_hasLeadingLiteral;
 - (void);
 - (id)g:%@ /* Error: Ran out of types for this method. */;
 - (void)tþ ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

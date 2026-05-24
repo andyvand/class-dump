@@ -6,12 +6,11 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRRequestDetails, NSString;
+@class MRRequestDetails;
 
 @interface MRMicrophoneConnectionRequestMessage : MRProtocolMessage
 {
     MRRequestDetails *_details;
-    NSString *_rapportIdentifier;
 }
 
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MRRequestDetails *details; // @synthesize details=_details;
-@property(retain, nonatomic) NSString *rapportIdentifier; // @synthesize rapportIdentifier=_rapportIdentifier;
 
 @end
 

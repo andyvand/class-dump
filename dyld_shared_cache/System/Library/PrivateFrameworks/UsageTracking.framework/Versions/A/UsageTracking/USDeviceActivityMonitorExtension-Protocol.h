@@ -5,5 +5,8 @@
 //
 
 @protocol USDeviceActivityMonitorExtension
+- (void);
+- (void)R;
+- (void);
 @end
 

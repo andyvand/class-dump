@@ -5,16 +5,13 @@
 //
 
 @class NSString;
-@protocol UIWebFindOnPageHighlighterDelegate;
 
 @protocol UIWebFindOnPageHighlighter
+- (void);
 - (void)!ØBùa1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) id <UIWebFindOnPageHighlighterDelegate> delegate;
-@property(readonly, nonatomic) unsigned long long highlightedMatchIndex;
-@property(readonly, nonatomic) unsigned long long numberOfMatches;
 @property(readonly, copy, nonatomic) NSString *searchText;
 @end
 

@@ -7,6 +7,7 @@
 @interface HomeEnergyDaemon.InducerDefaults
 {
     id forceTaskCancellation;
+    id;
 }
 
 @end

@@ -10,38 +10,37 @@
 @interface AXKScreenDescriber
 {
     id <AXKScreenDescriberDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *__delegateQueue;
 }
 
 - (void);
 - (void);
+- (void)V;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)*;
+- (_Bool);
+- (id)#;
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)j;
+- (id)_;
 - (struct CGRect);
 - (id);
 - (void);
@@ -49,11 +48,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)setPreviousScreenBackingScaleFactor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *_delegateQueue; // @synthesize _delegateQueue=__delegateQueue;
-@property(nonatomic) __weak id <AXKScreenDescriberDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

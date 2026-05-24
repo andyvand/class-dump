@@ -7,9 +7,6 @@
 @interface _CHSWidgetRelevanceBufChanges
 {
     unsigned char _changeTypeAttributeKey;
-    unsigned int _replacementAttributeKey;
-    unsigned char _changeTypeIntentReference;
-    unsigned int _replacementIntentReference;
 }
 
 - (void);
@@ -17,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 
 @end
 

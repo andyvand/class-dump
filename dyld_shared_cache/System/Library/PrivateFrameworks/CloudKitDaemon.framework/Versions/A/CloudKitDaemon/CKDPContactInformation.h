@@ -9,11 +9,6 @@
 @interface CKDPContactInformation
 {
     NSString *_canonicalPhoneNumber;
-    NSString *_containerScopedUserId;
-    NSString *_emailAddress;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_phoneNumber;
 }
 
 - (void);
@@ -25,39 +20,29 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)decodeLoyaltyPointBalancesAndExpiration:(id)arg1 withActivationDate: /* Error: Ran out of types for this method. */;
+- (void)$;
+- (unsigned long long)reate activeAudioEngineSet for type SidePlay, err = %d
+;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)"8;
 - (void);
 - (_Bool);
-- (id);
+- (id)_currentRowCount;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ink;
 - (id);
-- (id)ceIdentifierStringFromAssetKey: /* Error: Ran out of types for this method. */;
+- (id)referenceIdentifierStringFromAssetKey: /* Error: Ran out of types for this method. */;
 - (void)DShortTokenLookupInfo"8;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *canonicalPhoneNumber; // @synthesize canonicalPhoneNumber=_canonicalPhoneNumber;
-@property(retain, nonatomic) NSString *containerScopedUserId; // @synthesize containerScopedUserId=_containerScopedUserId;
-@property(retain, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly, nonatomic) _Bool hasCanonicalPhoneNumber;
-@property(readonly, nonatomic) _Bool hasContainerScopedUserId;
 @property(readonly, nonatomic) _Bool hasEmailAddress;
-@property(readonly, nonatomic) _Bool hasFirstName;
-@property(readonly, nonatomic) _Bool hasLastName;
-@property(readonly, nonatomic) _Bool hasPhoneNumber;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end
 

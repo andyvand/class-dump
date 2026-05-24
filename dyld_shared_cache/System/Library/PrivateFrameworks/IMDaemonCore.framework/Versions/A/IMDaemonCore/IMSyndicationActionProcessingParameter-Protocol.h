@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDChat, IMSyndicationAction;
+@class IMSyndicationAction;
 
 @protocol IMSyndicationActionProcessingParameter
+- (void)yE;
 
 // Remaining properties
-@property(readonly, nonatomic) IMDChat *chat;
 @property(readonly, nonatomic) IMSyndicationAction *syndicationAction;
 @end
 

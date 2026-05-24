@@ -13,10 +13,10 @@
 
 - (id);
 - (id);
+- (id)__kIMChatParticipantStateDidChangeNotification;
 - (id);
-- (id);
-- (void);
-- (void)ession:didCreateTask: /* Error: Ran out of types for this method. */;
+- (void)no server cb;
+- (void)URLSession:didCreateTask: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) MPMoviePlayerController *moviePlayer; // @synthesize moviePlayer=_moviePlayer;

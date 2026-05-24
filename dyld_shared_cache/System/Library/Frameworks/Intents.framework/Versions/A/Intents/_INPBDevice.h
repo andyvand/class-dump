@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBDevice
 {
     struct {
         unsigned int deviceCategory:1;
     } _has;
-    int _deviceCategory;
-    NSString *_deviceModel;
-    NSString *_deviceName;
 }
 
 + (_Bool);
@@ -23,36 +18,24 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)P;
 - (unsigned long long);
+- (_Bool)c;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)find captive portal credentials for captive network %{public}@, returned error %{public}@;
 - (id);
 - (id);
-- (id)ualCode:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)resolveVisualCodeTypeForGetVisualCode:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)sCompletion;
-- (void)ssagesIntent;
+- (void)UnsendMessagesIntent;
 - (int);
 - (void)QW;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int deviceCategory; // @synthesize deviceCategory=_deviceCategory;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) _Bool hasDeviceCategory;
-@property(readonly, nonatomic) _Bool hasDeviceModel;
-@property(readonly, nonatomic) _Bool hasDeviceName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

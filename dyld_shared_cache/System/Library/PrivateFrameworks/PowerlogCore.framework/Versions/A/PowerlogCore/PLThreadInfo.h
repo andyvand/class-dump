@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PLThreadInfo
 {
     _Bool _isNamed;
-    double _systemTime;
-    double _userTime;
-    unsigned long long _threadID;
-    NSString *_threadName;
 }
 
 - (double);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)t1;
 - (void);
 - (_Bool);
 - (id);
@@ -28,15 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)deleteAppletsAndCleanupWithTSM:parentSessionToken:completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property _Bool isNamed; // @synthesize isNamed=_isNamed;
 @property double systemTime; // @synthesize systemTime=_systemTime;
-@property unsigned long long threadID; // @synthesize threadID=_threadID;
-@property(retain) NSString *threadName; // @synthesize threadName=_threadName;
-@property double userTime; // @synthesize userTime=_userTime;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface IKDeviceItem
 {
     NSString *deviceName;
-    NSString *deviceUUID;
-    NSImage *deviceIcon;
-    long long deviceID;
-    _Bool isCamera;
-    _Bool isScanner;
-    _Bool isRoot;
-    _Bool isNetwork;
 }
 
 - (void);
@@ -24,28 +17,21 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)%@Source Path:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)_soundToPlay;
 
 // Remaining properties
-@property long long deviceID; // @synthesize deviceID;
-@property(retain) NSImage *deviceIcon; // @synthesize deviceIcon;
 @property(copy) NSString *deviceName; // @synthesize deviceName;
-@property(copy) NSString *deviceUUID; // @synthesize deviceUUID;
-@property _Bool isCamera; // @synthesize isCamera;
-@property _Bool isNetwork; // @synthesize isNetwork;
-@property _Bool isRoot; // @synthesize isRoot;
-@property _Bool isScanner; // @synthesize isScanner;
 
 @end
 

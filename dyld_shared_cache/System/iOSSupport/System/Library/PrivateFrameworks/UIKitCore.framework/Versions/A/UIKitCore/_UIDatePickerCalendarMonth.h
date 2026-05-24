@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id):chatID:queryID: /* Error: Ran out of types for this method. */;
+- (id)IMDServiceSession_LoginManagement;
+- (id)IMDCKInitialMessageSyncController;
+- (id)failed with error:(long long)arg1 %@;
 - (id);
 - (void);
 

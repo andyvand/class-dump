@@ -11,10 +11,10 @@
     id <STDowntimeOverrideModifier> _downtimeOverrideModifier;
 }
 
++ (_Bool)ts;
 + (_Bool);
-+ (_Bool);
-- (id);
-- (void);
+- (id)r_rating, all_compilations, feed_url, season_number, album_year, keep_local, keep_local_status FROM album;
+- (void)T5;
 
 // Remaining properties
 @property(readonly) id <STDowntimeOverrideModifier> downtimeOverrideModifier; // @synthesize downtimeOverrideModifier=_downtimeOverrideModifier;

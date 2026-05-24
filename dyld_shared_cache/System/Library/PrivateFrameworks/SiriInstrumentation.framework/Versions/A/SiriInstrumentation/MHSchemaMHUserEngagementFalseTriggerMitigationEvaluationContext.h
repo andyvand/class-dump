@@ -6,37 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHUserEngagementFalseTriggerMitigationFailed, MHSchemaMHUserEngagementFalseTriggerMitigationScoreGenerated, MHSchemaMHUserEngagementFalseTriggerMitigationStarted, NSData;
+@class MHSchemaMHUserEngagementFalseTriggerMitigationStarted;
 
 @interface MHSchemaMHUserEngagementFalseTriggerMitigationEvaluationContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHUserEngagementFalseTriggerMitigationStarted *_startedOrChanged;
-    MHSchemaMHUserEngagementFalseTriggerMitigationScoreGenerated *_ended;
-    MHSchemaMHUserEngagementFalseTriggerMitigationFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
-- (id);
+- (id)m);
+- (void);
+- (_Bool);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)EC_KEY_check_key;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -48,14 +42,7 @@
 - (void)TÝ#;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHUserEngagementFalseTriggerMitigationScoreGenerated *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) MHSchemaMHUserEngagementFalseTriggerMitigationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHUserEngagementFalseTriggerMitigationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

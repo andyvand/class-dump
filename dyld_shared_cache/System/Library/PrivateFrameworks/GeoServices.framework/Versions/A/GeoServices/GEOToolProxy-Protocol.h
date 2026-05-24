@@ -7,6 +7,9 @@
 @class NSString;
 
 @protocol GEOToolProxy
+- (_Bool)#;
+- (void)_firstAvailableValueForRelationship:key: /* Error: Ran out of types for this method. */;
+- (void)base;
 - (void)¸*Ð1Â0@ù
 × ;
 - (NSString *);

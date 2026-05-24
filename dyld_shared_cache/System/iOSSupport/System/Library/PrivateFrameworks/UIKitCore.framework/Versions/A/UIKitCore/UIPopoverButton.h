@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (id);
+- (id)ecord did not have a auxVideoLastPathComponent, using %@ from auxVideoPath;
 - (void);
 - (struct CGSize)rom layout, %@, to layout, %@. This is a UIKit bug.;
 

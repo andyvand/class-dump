@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OISFUZipFreeSpaceEntry
 {
     unsigned long long offset;
-    unsigned long long length;
 }
 
 - (long long);

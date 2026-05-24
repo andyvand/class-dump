@@ -5,5 +5,6 @@
 //
 
 @protocol DIHLHelperMasterProtocol
+- (void)3;
 @end
 

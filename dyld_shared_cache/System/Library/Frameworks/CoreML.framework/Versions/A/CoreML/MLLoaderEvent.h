@@ -4,48 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber, NSString;
 
 __attribute__((visibility("hidden")))
 @interface MLLoaderEvent
 {
     NSNumber *_modelType;
-    NSNumber *_modelLoadTime;
-    NSString *_modelVersion;
-    NSString *_compilerVersion;
-    NSNumber *_computeUnits;
-    NSNumber *_modelOrigin;
-    NSNumber *_modelLoadError;
-    NSString *_bundleIdentifier;
-    NSString *_modelName;
-    NSNumber *_firstPartyExecutable;
-    NSNumber *_modelIsEncrypted;
-    NSNumber *_modelProgramValidationError;
-    NSNumber *_modelProgramParsingError;
-    NSNumber *_modelEngineType;
-    NSString *_processName;
-    NSNumber *_containsCustomLayer;
-    NSString *_modelHash;
-    NSString *_nnModelNetHash;
-    NSString *_nnModelShapeHash;
-    NSString *_nnModelWeightsHash;
-    NSNumber *_modelDimension;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)ndle from [%{public}s];
+- (id)meV2:singleLeashTime:singleConnectionTime:dualConnectionTime:dualLeashTime:utAccelCount:lastClear:roseOnTime:ownerLongSoundCount:ownerShortSoundCount:utLongSoundCount:utShortSoundCount:bomSoundCount:fc1ndRangingCount:fc1ndRangingTime:lastPIn:batteryState:nbmmsRangingTime:abandonedFwUpdateCount:abandonedFwUpdateTime:roseInitCount:pairingAttemptsCount:tempVeryLowCount:tempLowCount:tempOkCount:tempHighCount:proxPairingTime:tempLastPIn:nbmmsRangingCount:version: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id)ength;
+- (id)for this OS.;
 - (void);
 - (id);
 - (void);
@@ -53,15 +27,6 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
@@ -69,6 +34,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)#;
+- (id);
+- (void)a;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)`;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)kk;
 - (void);
 - (id)× ;
 - (void)xp;
@@ -81,36 +61,7 @@ __attribute__((visibility("hidden")))
 - (id)`;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *compilerVersion; // @synthesize compilerVersion=_compilerVersion;
-@property(copy, nonatomic) NSNumber *computeUnits; // @synthesize computeUnits=_computeUnits;
-@property(copy, nonatomic) NSNumber *containsCustomLayer; // @synthesize containsCustomLayer=_containsCustomLayer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *firstPartyExecutable; // @synthesize firstPartyExecutable=_firstPartyExecutable;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *modelDimension; // @synthesize modelDimension=_modelDimension;
-@property(copy, nonatomic) NSNumber *modelEngineType; // @synthesize modelEngineType=_modelEngineType;
 @property(copy, nonatomic) NSString *modelHash; // @synthesize modelHash=_modelHash;
-@property(copy, nonatomic) NSNumber *modelIsEncrypted; // @synthesize modelIsEncrypted=_modelIsEncrypted;
-@property(copy, nonatomic) NSNumber *modelLoadError; // @synthesize modelLoadError=_modelLoadError;
-@property(copy, nonatomic) NSNumber *modelLoadTime; // @synthesize modelLoadTime=_modelLoadTime;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(copy, nonatomic) NSNumber *modelOrigin; // @synthesize modelOrigin=_modelOrigin;
-@property(copy, nonatomic) NSNumber *modelProgramParsingError; // @synthesize modelProgramParsingError=_modelProgramParsingError;
-@property(copy, nonatomic) NSNumber *modelProgramValidationError; // @synthesize modelProgramValidationError=_modelProgramValidationError;
-@property(copy, nonatomic) NSNumber *modelType; // @synthesize modelType=_modelType;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(readonly) NSString *name;
-@property(copy, nonatomic) NSString *nnModelNetHash; // @synthesize nnModelNetHash=_nnModelNetHash;
-@property(copy, nonatomic) NSString *nnModelShapeHash; // @synthesize nnModelShapeHash=_nnModelShapeHash;
-@property(copy, nonatomic) NSString *nnModelWeightsHash; // @synthesize nnModelWeightsHash=_nnModelWeightsHash;
-@property(copy, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(readonly) Class superclass;
 
 @end
 

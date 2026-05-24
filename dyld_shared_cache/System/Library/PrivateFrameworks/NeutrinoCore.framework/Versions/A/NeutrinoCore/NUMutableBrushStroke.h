@@ -13,16 +13,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)1;
+- (void);
+- (id)P;
 - (id)lePipeline>"@"<NUChannelOutputPort>"^@>24o^@32;
 
 // Remaining properties
-@property(nonatomic) float opacity; // @dynamic opacity;
-@property(nonatomic) long long pressureMode; // @dynamic pressureMode;
 @property(nonatomic) float radius; // @dynamic radius;
-@property(nonatomic) float softness; // @dynamic softness;
 
 @end
 

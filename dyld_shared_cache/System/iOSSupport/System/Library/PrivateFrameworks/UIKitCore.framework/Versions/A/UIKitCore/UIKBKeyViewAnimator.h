@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIKBKeyViewAnimator
 {
@@ -17,22 +15,22 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (void);
-- (id);
-- (id);
+- (void)32@0:8@"MTLIOCommandQueueDescriptor"16^@24 /* Error: Ran out of types for this method. */;
+- (id):c /* Error: Ran out of types for this method. */;
+- (id)tionProfileInstallation;
 - (struct CGRect);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)tableView:(id)arg1 didClickTableColumn:(double)arg2;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)Command;
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
-- (id);
+- (id);
 - (struct CGRect);
 - (double);
 - (id);
@@ -44,11 +42,11 @@ __attribute__((visibility("hidden")))
 - (id)0@ù
 × ;
 - (void)× ;
-- (id)eViewForColumn: /* Error: Ran out of types for this method. */;
-- (void)ent:(id)arg1 transitionContext:(unsigned long long)arg2;
-- (id)Section: /* Error: Ran out of types for this method. */;
-- (Class)animated:(id)arg1 shouldAnimateLabels:(id)arg2 completion: /* Error: Ran out of types for this method. */;
-- (void)ollerView;
+- (id)tableViewForColumn: /* Error: Ran out of types for this method. */;
+- (void)initWithHost:(id)arg1 startPlacement:(unsigned long long)arg2 endPlacement:(_Bool)arg3 transitionContext: /* Error: Ran out of types for this method. */;
+- (id)indexPathForRow:inSection: /* Error: Ran out of types for this method. */;
+- (Class)_setPressed:(id)arg1 on:(id)arg2 animated:shouldAnimateLabels:completion: /* Error: Ran out of types for this method. */;
+- (void)_mayChildGrabPresentedViewControllerView;
 - (void)Font:(id)arg1 ,V_visualStyleOverrideTitleLabelFont;
 - (id);
 - (double)oji search - override insertion %lu, deletion %lu, net %ld;
@@ -60,18 +58,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double keyScale; // @synthesize keyScale=_keyScale;
-@property(readonly, nonatomic) struct CGRect primaryGlyphNormalizedExitRect;
-@property(readonly, nonatomic) struct CGRect secondaryGlyphNormalizedExitRect;
-@property(readonly, nonatomic) _Bool shouldPurgeKeyViews;
-@property(readonly) Class superclass;
 
 @end
 

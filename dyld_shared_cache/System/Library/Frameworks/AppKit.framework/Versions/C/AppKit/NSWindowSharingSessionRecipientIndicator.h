@@ -12,20 +12,17 @@ __attribute__((visibility("hidden")))
 @interface NSWindowSharingSessionRecipientIndicator : NSView
 {
     NSWidgetView *_widgetView;
-    NSView *_aquaduckView;
-    long long _style;
-    CDUnknownBlockType _positionSharingIndicatorCallback;
 }
 
-- (void);
+- (void)RN4AimpWqqD2JZCB67qtvQ;
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)%s failed Errno=%{errno}d.;
 - (struct CGSize);
 - (void);
 - (void);
 - (void)rType:on NSPasteboard or NSPasteboardItem with object of type %@ instead of NSString. /* Error: Ran out of types for this method. */;
-- (void)Order;
+- (void)NSWindowZOrder;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType positionSharingIndicatorCallback; // @synthesize positionSharingIndicatorCallback=_positionSharingIndicatorCallback;

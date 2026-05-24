@@ -7,18 +7,10 @@
 @interface TKSmartCardPINFormat
 {
     long long _charset;
-    long long _encoding;
-    long long _minPINLength;
-    long long _maxPINLength;
-    long long _PINBlockByteLength;
-    long long _PINJustification;
-    long long _PINBitOffset;
-    long long _PINLengthBitOffset;
-    long long _PINLengthBitSize;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)getSocialCredentialWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -41,22 +33,14 @@
 - (long long);
 - (long long);
 - (void);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long);
 
 // Remaining properties
-@property long long PINBitOffset; // @synthesize PINBitOffset=_PINBitOffset;
-@property long long PINBlockByteLength; // @synthesize PINBlockByteLength=_PINBlockByteLength;
-@property long long PINJustification; // @synthesize PINJustification=_PINJustification;
-@property long long PINLengthBitOffset; // @synthesize PINLengthBitOffset=_PINLengthBitOffset;
-@property long long PINLengthBitSize; // @synthesize PINLengthBitSize=_PINLengthBitSize;
 @property long long charset; // @synthesize charset=_charset;
-@property long long encoding; // @synthesize encoding=_encoding;
-@property long long maxPINLength; // @synthesize maxPINLength=_maxPINLength;
-@property long long minPINLength; // @synthesize minPINLength=_minPINLength;
 
 @end
 

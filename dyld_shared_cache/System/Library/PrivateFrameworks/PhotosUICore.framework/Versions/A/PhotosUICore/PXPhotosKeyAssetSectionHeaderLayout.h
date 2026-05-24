@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSView, PXAssetsDataSource, PXNumberAnimator, PXPhotosLayoutSpec, PXPhotosViewModel, PXSelectionSnapshot;
-@protocol PXDisplayAssetFetchResult, PXPhotosBannerProvider, PXPhotosBannerView;
+@class NSString;
 
 @interface PXPhotosKeyAssetSectionHeaderLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    CDStruct_af00bf4e _postUpdateFlags;
-    id <PXDisplayAssetFetchResult> _keyAssetFetch;
-    unsigned short _keyAssetVersion;
-    unsigned short _titleVersion;
-    unsigned short _bannerVersion;
-    long long _currentBannerRequestVersion;
-    long long _desiredBannerRequestVersion;
-    PXNumberAnimator *_bannerAppearanceAnimator;
-    _Bool _isDisplayingBanner;
-    _Bool isInSelectMode;
-    _Bool _shouldHideBanner;
-    PXSelectionSnapshot *selectionSnapshot;
-    PXPhotosLayoutSpec *_spec;
-    PXPhotosViewModel *_viewModel;
-    PXAssetsDataSource *_dataSource;
-    id <PXPhotosBannerProvider> _bannerProvider;
-    NSString *_title;
-    NSDictionary *_titleAttributes;
-    NSView<PXPhotosBannerView> *_bannerView;
-    struct CGSize _bannerViewSize;
-    struct PXSimpleIndexPath _sectionIndexPath;
-    struct CGRect _titleBaseFrame;
 }
 
 - (void);
@@ -50,7 +27,7 @@
 - (void);
 - (struct PXSimpleIndexPath);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (unsigned long long);
 - (struct CGSize);
@@ -79,20 +56,20 @@
 - (void);
 - (struct CGRect);
 - (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)e.;
 - (id);
 - (void);
 - (void);
@@ -100,32 +77,13 @@
 - (void)
 × ;
 - (id)moving comments:%s /* Error: Ran out of types for this method. */;
-- (void)INTENT_ACTION_TITLE_HIDE;
+- (void)HIDE_ASSETS_INTENT_ACTION_TITLE_HIDE;
 - (void)ChangeDescriptor;
 - (id)ÄÒ¤ÿ§S¼b<;
 - (void):(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXPhotosBannerProvider> bannerProvider; // @synthesize bannerProvider=_bannerProvider;
-@property(retain, nonatomic) NSView<PXPhotosBannerView> *bannerView; // @synthesize bannerView=_bannerView;
-@property(nonatomic) struct CGSize bannerViewSize; // @synthesize bannerViewSize=_bannerViewSize;
-@property(retain, nonatomic) PXAssetsDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInSelectMode; // @synthesize isInSelectMode;
-@property(nonatomic) struct PXSimpleIndexPath sectionIndexPath; // @synthesize sectionIndexPath=_sectionIndexPath;
-@property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot;
-@property(nonatomic) _Bool shouldHideBanner; // @synthesize shouldHideBanner=_shouldHideBanner;
-@property(retain, nonatomic) PXPhotosLayoutSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSDictionary *titleAttributes; // @synthesize titleAttributes=_titleAttributes;
-@property(nonatomic) struct CGRect titleBaseFrame; // @synthesize titleBaseFrame=_titleBaseFrame;
-@property(readonly, nonatomic) PXPhotosViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

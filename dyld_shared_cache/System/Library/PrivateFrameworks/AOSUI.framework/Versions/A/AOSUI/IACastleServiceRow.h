@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IACastleIconView, MMService, NSButton, NSLayoutConstraint, NSProgressIndicator, NSTextField;
+@class MMService, NSButton;
 
 @interface IACastleServiceRow
 {
     NSButton *_enableButton;
-    IACastleIconView *_iconView;
-    NSTextField *_nameField;
-    NSTextField *_nameFieldAlt;
-    NSTextField *_statusField;
-    NSTextField *_progressField;
-    NSProgressIndicator *_spinner;
-    NSProgressIndicator *_determineStatusSpinner;
-    NSButton *_optionsButton;
-    NSLayoutConstraint *_progressSmallServiceSpacer;
-    NSLayoutConstraint *_progressLargeServiceSpacer;
-    MMService *_service;
-    _Bool _isRowEnabled;
-    double _spinnerStopTime;
-    double _determineStatusSpinnerStopTime;
 }
 
 + (id);
@@ -32,13 +18,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void))?91	3;
 - (_Bool);
 - (void);
-- (void);
+- (void)?
+k)3;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void)
@@ -46,7 +33,6 @@
 - (void)V÷ÿ°¼;
 
 // Remaining properties
-@property(nonatomic, setter=setRowEnabled:) _Bool isRowEnabled; // @synthesize isRowEnabled=_isRowEnabled;
 @property(retain, nonatomic) MMService *service; // @synthesize service=_service;
 
 @end

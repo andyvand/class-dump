@@ -5,5 +5,6 @@
 //
 
 @protocol CUReadWriteRequestable
+- (void)1;
 @end
 

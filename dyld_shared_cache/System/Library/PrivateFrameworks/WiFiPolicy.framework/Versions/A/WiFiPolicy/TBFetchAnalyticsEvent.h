@@ -4,64 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSError, NSNumber, NSString;
-
 @interface TBFetchAnalyticsEvent
 {
     unsigned long long _source;
-    unsigned long long _type;
-    unsigned long long _trigger;
-    NSNumber *_duration;
-    NSNumber *_requestCount;
-    NSNumber *_resultCount;
-    NSString *_tileKey;
-    NSError *_error;
-    NSDate *_date;
 }
 
-+ (id);
++ (id)_TtC12SiriOntology35UsoTaskBuilder_resume_common_Recipe;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)flushResourcesForEnteringBackground;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (void)1¥°1Â0@ù
 × ;
-- (unsigned long long)pasStateChangedCount: /* Error: Ran out of types for this method. */;
-- (void)ndRecommendationForScannedNetwork:(unsigned long long)arg1;
-- (void);
+- (unsigned long long)setLpasStateChangedCount: /* Error: Ran out of types for this method. */;
+- (void)findRecommendationForScannedNetwork:(unsigned long long)arg1;
+- (void)JoinReasonAutoHotspotCount;
 - (id)ssets.wcaclient;
 - (id);
 - (id)6Ê;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSNumber *duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSDictionary *eventDictionary;
-@property(readonly, nonatomic) NSString *eventName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *requestCount; // @synthesize requestCount=_requestCount;
-@property(retain, nonatomic) NSNumber *resultCount; // @synthesize resultCount=_resultCount;
 @property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *tileKey; // @synthesize tileKey=_tileKey;
-@property(nonatomic) unsigned long long trigger; // @synthesize trigger=_trigger;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

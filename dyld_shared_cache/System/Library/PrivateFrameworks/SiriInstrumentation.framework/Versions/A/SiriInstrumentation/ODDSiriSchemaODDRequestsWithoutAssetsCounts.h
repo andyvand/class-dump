@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDRequestsWithoutAssetsCounts : SISchemaInstrumentationMessage
 {
     unsigned int _requestsRequiringAssetsCount;
-    unsigned int _requestsMissingAssetsCount;
-    unsigned int _requestsWithFailuresCount;
-    struct {
-        unsigned int requestsRequiringAssetsCount:1;
-        unsigned int requestsMissingAssetsCount:1;
-        unsigned int requestsWithFailuresCount:1;
-    } _has;
 }
 
 - (void);
@@ -36,7 +27,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -44,16 +35,10 @@
 - (id)QÞ°1Â0@ù
 × ;
 - (id)leSupported;
-- (id)ithin24Hours;
+- (id)audioDevicesActiveWithin24Hours;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestsMissingAssetsCount;
-@property(nonatomic) _Bool hasRequestsRequiringAssetsCount;
-@property(nonatomic) _Bool hasRequestsWithFailuresCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int requestsMissingAssetsCount; // @synthesize requestsMissingAssetsCount=_requestsMissingAssetsCount;
 @property(nonatomic) unsigned int requestsRequiringAssetsCount; // @synthesize requestsRequiringAssetsCount=_requestsRequiringAssetsCount;
-@property(nonatomic) unsigned int requestsWithFailuresCount; // @synthesize requestsWithFailuresCount=_requestsWithFailuresCount;
 
 @end
 

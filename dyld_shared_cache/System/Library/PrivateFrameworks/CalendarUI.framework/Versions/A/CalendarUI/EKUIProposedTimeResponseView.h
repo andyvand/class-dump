@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKParticipant, EKUIKeyViewButton, NSArray;
-@protocol EKUIProposedTimeActionHandler;
+@class EKParticipant, NSArray;
 
 @interface EKUIProposedTimeResponseView
 {
     NSArray *_previousConstraints;
-    EKParticipant *_proposingAttendee;
-    id <EKUIProposedTimeActionHandler> _actionHandler;
-    unsigned long long _orderIndex;
-    EKUIKeyViewButton *_declineControl;
-    EKUIKeyViewButton *_acceptControl;
 }
 
 - (_Bool);
@@ -25,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (id);
 - (unsigned long long);
@@ -33,10 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) EKUIKeyViewButton *acceptControl; // @synthesize acceptControl=_acceptControl;
-@property __weak id <EKUIProposedTimeActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly) EKUIKeyViewButton *declineControl; // @synthesize declineControl=_declineControl;
-@property unsigned long long orderIndex; // @synthesize orderIndex=_orderIndex;
 @property(retain) EKParticipant *proposingAttendee; // @synthesize proposingAttendee=_proposingAttendee;
 
 @end

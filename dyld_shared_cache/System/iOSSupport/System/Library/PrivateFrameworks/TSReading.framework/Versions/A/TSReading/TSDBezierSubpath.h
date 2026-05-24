@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TSDBezierNode, TSDBezierPath;
+@class NSMutableArray;
 
 @interface TSDBezierSubpath
 {
     NSMutableArray *mNodes;
-    _Bool mClosed;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -20,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)m;
 - (id);
 - (id);
 - (double);
@@ -31,7 +30,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)PB�R1;
 - (void);
 - (_Bool);
 - (void);
@@ -55,16 +54,6 @@
 - (_Bool)ð;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allNodesSelected;
-@property(readonly, nonatomic) TSDBezierPath *bezierPath;
-@property(readonly, nonatomic) _Bool canDeleteSelectedNodes;
-@property(readonly, nonatomic) _Bool closeIfEndpointsAreEqual;
-@property(nonatomic, getter=isClosed) _Bool closed; // @synthesize closed=mClosed;
-@property(readonly, nonatomic) TSDBezierNode *firstNode;
-@property(readonly, nonatomic) _Bool hasSelectedNode;
-@property(readonly, nonatomic) _Bool isRectangular;
-@property(readonly, nonatomic) TSDBezierNode *lastNode;
-@property(readonly, nonatomic) struct CGRect nodeBounds;
 @property(retain, nonatomic) NSMutableArray *nodes; // @synthesize nodes=mNodes;
 
 @end

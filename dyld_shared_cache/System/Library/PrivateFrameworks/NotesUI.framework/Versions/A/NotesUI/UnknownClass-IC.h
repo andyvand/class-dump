@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (IC)
-+ (double);
++ (double);
 @end
 

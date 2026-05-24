@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol CNTCC, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface CNContactsAPIServiceAuthorizationCheck
 {
     _Bool _requireTCCApprovalForContactProviders;
-    NSObject<OS_os_log> *_log;
-    id <CNTCC> _tccServices;
 }
 
 - (void);
@@ -19,21 +17,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)181F;
 - (id);
 - (void)"NSXPCListener";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property _Bool requireTCCApprovalForContactProviders; // @synthesize requireTCCApprovalForContactProviders=_requireTCCApprovalForContactProviders;
-@property(readonly) Class superclass;
-@property(readonly) id <CNTCC> tccServices; // @synthesize tccServices=_tccServices;
 
 @end
 

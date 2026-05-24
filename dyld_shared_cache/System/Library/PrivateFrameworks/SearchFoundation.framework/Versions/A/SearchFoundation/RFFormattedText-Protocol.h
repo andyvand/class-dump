@@ -4,28 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, RFColor, RFEngageable, RFFont, RFImageElement, RFOptionalBool, RFTextEncapsulation;
+@class NSData, NSString;
 
 @protocol RFFormattedText
-- (int);
+- (void);
+- (NSData *);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attributions;
-@property(retain, nonatomic) RFColor *background_color;
-@property(retain, nonatomic) RFColor *color;
-@property(nonatomic) int design;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) RFEngageable *engageable;
-@property(retain, nonatomic) RFFont *font;
-@property(copy, nonatomic) NSArray *highlighted_substrings;
-@property(retain, nonatomic) RFImageElement *inline_image_element;
-@property(retain, nonatomic) RFOptionalBool *is_bold;
-@property(retain, nonatomic) RFOptionalBool *is_highlighted;
-@property(retain, nonatomic) RFOptionalBool *is_italic;
-@property(retain, nonatomic) RFOptionalBool *is_underlined;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *text;
-@property(retain, nonatomic) RFTextEncapsulation *text_encapsulation;
-@property(nonatomic) int weight;
 @end
 

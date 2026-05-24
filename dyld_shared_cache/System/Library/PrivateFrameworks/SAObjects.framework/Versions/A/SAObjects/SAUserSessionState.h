@@ -6,32 +6,23 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SAUserSessionState : AceObject
 {
 }
 
 - (void);
+- (void)#;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)b";
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *isHighConfidenceSession;
-@property(copy, nonatomic) NSNumber *isSessionActiveForRecognizedUser;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *userSessionType;
 
 @end
 

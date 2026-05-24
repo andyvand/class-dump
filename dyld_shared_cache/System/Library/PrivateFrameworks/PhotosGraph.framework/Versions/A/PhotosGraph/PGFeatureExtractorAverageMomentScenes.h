@@ -6,26 +6,22 @@
 
 #import <PhotosGraph/PGFeatureExtractor.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PGFeatureExtractorAverageMomentScenes : PGFeatureExtractor
 {
     id version;
-    id sceneNodes;
-    id featureIndexByLowercasedScene;
 }
 
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)contentOfFolderDidUpdateWithUUID: /* Error: Ran out of types for this method. */;
 - (id)	
 ;
 - (void), librarySelectionUserChoiceResetTimeout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) long long featureLength;
-@property(nonatomic, readonly) NSArray *featureNames;
 @property(nonatomic, readonly) NSString *name;
 
 @end

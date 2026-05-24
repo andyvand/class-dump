@@ -11,33 +11,29 @@
 @interface MCConditionalAction : MCAction
 {
     NSString *_predicate;
-    MCAction *_actionIfTrue;
-    MCAction *_actionIfFalse;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)/;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (id);
+- (id)a;
+- (id);
+- (id)p;
 - (void);
 
 // Remaining properties
-@property(retain) MCAction *actionIfFalse; // @synthesize actionIfFalse=_actionIfFalse;
-@property(retain) MCAction *actionIfTrue; // @synthesize actionIfTrue=_actionIfTrue;
 @property(copy) NSString *predicate; // @synthesize predicate=_predicate;
 
 @end

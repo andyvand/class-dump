@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TTaggingTokenField, NSLayoutConstraint, NSString;
+@class FI_TTaggingTokenField;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTagSuggestionsWindowController
 {
     struct TNSWeakPtr<FI_TTaggingTokenField> _weakTaggingTokenField;
-    struct CGRect _tokenFieldFrameInWindowCache;
-    _Bool _hideSuggestionsWindowOnMouseUp;
-    _Bool _isShowingSuggestionsWindow;
-    NSLayoutConstraint *_widthConstraint;
-    struct TNotificationCenterObserver _tfWillMoveToWindowObserver;
-    struct TNotificationCenterObserver _tfDidMoveToWindowObserver;
-    struct TNotificationCenterObserver _tfFrameDidChangeObserver;
-    struct TNotificationCenterObserver _tfSuperScrollViewDidScrollObserver;
-    struct TNotificationCenterObserver _tfWindowWillCloseObserver;
-    struct TNotificationCenterObserver _tfWindowDidResizeObserver;
-    struct TKeyValueObserver _taggingTokenFieldTornDownObserver;
-    struct TEventMonitor _localEventMonitor;
 }
 
 - (void);
@@ -34,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
@@ -47,13 +35,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak FI_TTaggingTokenField *taggingTokenField;
 
 @end

@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)ibility _loadAllAccessibilityInformation];
 + (void);
-- (_Bool);
+- (_Bool)iceSize;
 - (id);
 
 @end

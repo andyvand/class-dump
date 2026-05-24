@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface FCNewsPersonalizationTrainingFeatureFlags
 {
     _Bool _enableSingleLifetimeSeenEventPerArticle;
-    _Bool _enableSyntheticTagFollowEvents;
-    long long _readingHistoryItemCountToProcess;
-    NSNumber *_uniqueAggregateLimit;
-    NSNumber *_eventLimit;
 }
 
 - (long long);
@@ -26,16 +20,12 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)ns;
+- (void)feedTransformations;
 - (void)@"NTPBTodaySectionIdentifierToGroupTypes"8Q16^B24;
 - (void)BHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKPrivateDatabase.m;
 
 // Remaining properties
 @property(nonatomic) _Bool enableSingleLifetimeSeenEventPerArticle; // @synthesize enableSingleLifetimeSeenEventPerArticle=_enableSingleLifetimeSeenEventPerArticle;
-@property(nonatomic) _Bool enableSyntheticTagFollowEvents; // @synthesize enableSyntheticTagFollowEvents=_enableSyntheticTagFollowEvents;
-@property(retain, nonatomic) NSNumber *eventLimit; // @synthesize eventLimit=_eventLimit;
-@property(nonatomic) long long readingHistoryItemCountToProcess; // @synthesize readingHistoryItemCountToProcess=_readingHistoryItemCountToProcess;
-@property(retain, nonatomic) NSNumber *uniqueAggregateLimit; // @synthesize uniqueAggregateLimit=_uniqueAggregateLimit;
 
 @end
 

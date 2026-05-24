@@ -5,5 +5,7 @@
 //
 
 @protocol Contacts.CNContactProviderSupportExtensionXPCProtocol
+- (void);
+- (void);
 @end
 

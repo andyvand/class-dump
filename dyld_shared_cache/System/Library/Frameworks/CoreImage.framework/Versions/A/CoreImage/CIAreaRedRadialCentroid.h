@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIAreaRedCentroid.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIAreaRedRadialCentroid : CIAreaRedCentroid
 {
     CIImage *inputCenter;
-    NSNumber *inputRadius;
-    NSNumber *inputRadialMode;
-    NSNumber *inputMinWeight;
 }
 
 + (id);
@@ -23,19 +20,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (id)}}}}~~~~yyyyiiiiW[R^`c[fr|y¢¢¢ºººº¸¸¸¸¦¦¦¦ssqsJXM`ZSDZQ\QduusupWwwlojySkfw[ro{}}}}ttrt:WGlGh^}¤¤¤¤ktqyqtqvQf`ogbZittttt}{y}nzy~drosekhk]jgjjlllllllbbbbBQJR7G<N____wwww{{{{\iejhhhhvvvvoluqyYleuoxt{Yne{Kh]z}xnqxt~zzvz|xt|q{yyywy7PAfVcZn /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) NSNumber *inputMinWeight; // @synthesize inputMinWeight;
-@property(retain, nonatomic) NSNumber *inputRadialMode; // @synthesize inputRadialMode;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

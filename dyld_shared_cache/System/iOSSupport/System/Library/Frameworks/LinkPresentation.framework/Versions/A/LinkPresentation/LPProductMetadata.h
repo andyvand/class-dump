@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface LPProductMetadata
 {
     NSArray *_prices;
-    NSString *_pluralTitle;
 }
 
 + (_Bool);
-- (void);
+- (void)toolbarSizeMetricsDidChange;
+- (id)thinkingDotsOffset;
+- (id)textViewWritingToolsDidEnd: /* Error: Ran out of types for this method. */;
+- (void)startWithQueue:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)_relationshipShareURL;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -28,7 +27,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *pluralTitle; // @synthesize pluralTitle=_pluralTitle;
 @property(copy, nonatomic) NSArray *prices; // @synthesize prices=_prices;
 
 @end

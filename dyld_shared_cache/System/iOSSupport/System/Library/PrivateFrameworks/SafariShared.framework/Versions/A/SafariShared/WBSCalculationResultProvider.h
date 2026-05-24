@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalculateRequest, CalculateResult, NSArray, NSDataDetector, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
-
 @interface WBSCalculationResultProvider
 {
     struct os_unfair_lock_s _queryLock;
-    struct os_unfair_lock_s _calculateRequestLock;
-    NSString *_currentQueryString;
-    NSSet *_queryStringsToIgnore;
-    NSArray *_queryPrefixesToIgnore;
-    NSObject<OS_dispatch_queue> *_calculationQueue;
-    NSDataDetector *_phoneNumberDetector;
-    CalculateRequest *_currentCalculateRequest;
-    CalculateResult *_currentCalculateResult;
 }
 
 - (void);

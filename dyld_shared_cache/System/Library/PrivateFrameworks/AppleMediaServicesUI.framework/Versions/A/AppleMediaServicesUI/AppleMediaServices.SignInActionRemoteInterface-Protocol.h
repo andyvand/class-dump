@@ -5,5 +5,6 @@
 //
 
 @protocol AppleMediaServices.SignInActionRemoteInterface
+- (void)PLSearchIndexStickerSuggestionConfidenceThreshold;
 @end
 

@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface IAMAction
 {
     _Bool _requiresDelegate;
-    NSString *_identifier;
-    NSString *_displayText;
-    NSURL *_url;
-    NSDictionary *_actionParameters;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)getTrimmedSearchString;
+- (id)enum_kMDItemPhotosDescription_TermFrequencies_Sum_Word;
+- (id)kMDItemOrganizations_QueryTermsRatio_Prefix;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *actionParameters; // @synthesize actionParameters=_actionParameters;
-@property(readonly, copy, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool requiresDelegate; // @synthesize requiresDelegate=_requiresDelegate;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

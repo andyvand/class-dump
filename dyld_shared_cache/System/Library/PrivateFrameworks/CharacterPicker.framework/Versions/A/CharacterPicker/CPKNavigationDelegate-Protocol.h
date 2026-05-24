@@ -5,5 +5,9 @@
 //
 
 @protocol CPKNavigationDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

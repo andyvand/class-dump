@@ -9,14 +9,11 @@
 @interface PODContentAnchor
 {
     NSString *_domain;
-    long long _revision;
-    NSString *_libraryPath;
-    NSString *_sourceIdentifier;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)?;
 + (_Bool);
 - (void);
 - (void);
@@ -34,22 +31,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)sortedArrayUsingComparator: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *libraryPath; // @synthesize libraryPath=_libraryPath;
-@property(nonatomic) long long revision; // @synthesize revision=_revision;
-@property(retain, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

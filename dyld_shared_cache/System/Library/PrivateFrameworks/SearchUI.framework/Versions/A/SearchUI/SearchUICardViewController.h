@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, NSViewController, SearchUIBackgroundColorView, SearchUILoadingView;
-@protocol SearchUINSCardTableBridgingProtocol;
-
 @interface SearchUICardViewController
 {
     _Bool _shouldDrawBackgroundColor;
-    _Bool _disableLoadingView;
-    _Bool _hasFocusableElements;
-    SearchUIBackgroundColorView *_colorView;
-    SearchUILoadingView *_loadingView;
-    NSTimer *_loadingScreenTimer;
-    double _initialPreviewPlatterHeight;
-    NSViewController<SearchUINSCardTableBridgingProtocol> *_tableViewController;
-    unsigned long long _level;
 }
 
 + (void);

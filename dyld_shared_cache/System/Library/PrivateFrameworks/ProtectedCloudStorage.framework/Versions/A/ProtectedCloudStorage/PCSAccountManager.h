@@ -11,11 +11,11 @@
     NSString *_dsid;
 }
 
-- (id);
+- (id)Rm;
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)alysis;
 
 // Remaining properties
 @property(retain) NSString *dsid; // @synthesize dsid=_dsid;

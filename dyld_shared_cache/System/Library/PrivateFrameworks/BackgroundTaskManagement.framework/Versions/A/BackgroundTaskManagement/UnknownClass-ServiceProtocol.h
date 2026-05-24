@@ -5,6 +5,7 @@
 //
 
 @interface UnknownClass (ServiceProtocol)
-+ (id);
++ (id)k
+;
 @end
 

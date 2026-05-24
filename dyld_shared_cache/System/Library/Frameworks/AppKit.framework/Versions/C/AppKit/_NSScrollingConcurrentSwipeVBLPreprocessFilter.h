@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _NSScrollingConcurrentSwipeVBLPreprocessFilter : _NSScrollingConcurrentEventVBLPreprocessFilter
 {
     long long _gestureAxis;
-    double _cumulativeDelta;
-    double _originalOrigin;
-    _Bool _isOriginalOriginDetermined;
 }
 
-- (void);
+- (void)0x%016llX;
 - (long long);
-- (void);
+- (void)response, status %d content %c;
 
 // Remaining properties
 @property(nonatomic) long long gestureAxis; // @synthesize gestureAxis=_gestureAxis;

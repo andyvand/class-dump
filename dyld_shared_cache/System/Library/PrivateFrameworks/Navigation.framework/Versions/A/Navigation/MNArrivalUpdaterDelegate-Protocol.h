@@ -5,5 +5,13 @@
 //
 
 @protocol MNArrivalUpdaterDelegate
+
+@optional
+- (void);
+- (void);!`Z7b
+;
+- (void)ntent;
+- (void);
+- (void);
 @end
 

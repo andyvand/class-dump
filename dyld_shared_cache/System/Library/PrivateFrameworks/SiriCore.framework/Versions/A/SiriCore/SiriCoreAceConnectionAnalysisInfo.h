@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL, SiriCoreConnectionType;
+@class NSURL;
 
 @interface SiriCoreAceConnectionAnalysisInfo
 {
     _Bool _wwanPreferred;
-    int _interfaceIndex;
-    NSURL *_connectionURL;
-    NSNumber *_sendBufferSize;
-    SiriCoreConnectionType *_connectionType;
-    NSString *_policyId;
 }
 
-- (id);
+- (id)ive proxy config is not privacy proxy;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (int);
+- (int);
 
 // Remaining properties
-@property(readonly, nonatomic) SiriCoreConnectionType *connectionType; // @synthesize connectionType=_connectionType;
 @property(readonly, nonatomic) NSURL *connectionURL; // @synthesize connectionURL=_connectionURL;
-@property(readonly, nonatomic) int interfaceIndex; // @synthesize interfaceIndex=_interfaceIndex;
-@property(copy, nonatomic) NSString *policyId; // @synthesize policyId=_policyId;
-@property(readonly, copy, nonatomic) NSNumber *sendBufferSize; // @synthesize sendBufferSize=_sendBufferSize;
-@property(readonly, nonatomic) _Bool wwanPreferred; // @synthesize wwanPreferred=_wwanPreferred;
 
 @end
 

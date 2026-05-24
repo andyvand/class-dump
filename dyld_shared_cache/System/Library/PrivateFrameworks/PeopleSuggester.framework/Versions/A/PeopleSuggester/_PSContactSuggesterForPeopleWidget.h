@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, _CDInteractionStore, _PASLock;
+@class _CDInteractionStore, _PASLock;
 
 @interface _PSContactSuggesterForPeopleWidget
 {
     _CDInteractionStore *_interactionStore;
-    _PASLock *_candidateContacts;
-    NSMutableSet *_priorityFamilyMembers;
-    NSMutableSet *_nonpriorityFamilyMembers;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_executorRequestContext;
+- (void)_entitySearchBundleScoreRemote;
+- (void)_dimensionValueBoolean;
+- (void)_currentTurn;
+- (id)_cumulativeDowntimeInSec;
+- (id)_contactDependentSignals;
+- (id)_clientId;
+- (id)_assistantDaemonAudioStartRecordingContext;
+- (id)_answerSynthesisTotalHydrationTimeInMs;
+- (id)_answerSynthesisPostProcessingTimeInMs;
+- (id)_anonymizedLocationNameId;
+- (id)i,N,V_userViewInteraction;
+- (id),N,V_timeSinceLastForegroundAppEndInSec;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)4˟;
 - (id);
 - (void);
 - (void);
@@ -36,9 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _PASLock *candidateContacts; // @synthesize candidateContacts=_candidateContacts;
-@property(retain, nonatomic) _CDInteractionStore *interactionStore; // @synthesize interactionStore=_interactionStore;
-@property(retain, nonatomic) NSMutableSet *nonpriorityFamilyMembers; // @synthesize nonpriorityFamilyMembers=_nonpriorityFamilyMembers;
-@property(retain, nonatomic) NSMutableSet *priorityFamilyMembers; // @synthesize priorityFamilyMembers=_priorityFamilyMembers;
 
 @end
 

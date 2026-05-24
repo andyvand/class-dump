@@ -5,6 +5,7 @@
 //
 
 @protocol _EXMainConnectionHandler
+- (id)AFQuickStopActionNone;
 
 // Remaining properties
 @property(readonly) id principalObject;

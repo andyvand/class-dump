@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDBounds, GEOPDMapsIdentifier, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSpatialPlaceLookupResponse
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _categorys;
-    GEOPDBounds *_bounds;
-    GEOLatLng *_center;
-    GEOPDMapsIdentifier *_placeId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_categorys:1;
-        unsigned int read_bounds:1;
-        unsigned int read_center:1;
-        unsigned int read_placeId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sSections:(id)arg1;
-- (void);
++ (_Bool)setIncludesPlacesSections:(id)arg1;
+- (void)setShowCompany:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -37,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int *);
 - (int);
-- (void);
+- (void)8;
 - (int);
 - (id);
 - (void);
@@ -46,24 +30,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)_stopObservingChildren;
+- (id)getCachedIrFromMilFilePath:modelTye:asset: /* Error: Ran out of types for this method. */;
+- (void)h :(id)arg1 hash(%lu), goodness(%lu), confidence(%lu), absTime(%llu), frac(%lu);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)";
+- (id)mapView:arSessionWasInterrupted: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id)"b1"has_transportType"b1"has_type"b1"has_isFamiliarRoute"b1"read_unknownFields"b1"read_initialPromptTypes"b1"read_arrivalParameters"b1"read_feature"b1"read_incidentsOnRouteLegs"b1"read_names"b1"read_outOfMapsAlertsInfo"b1"read_restrictionZoneInfo"b1"read_routeLegs"b1"read_routePlanningInfo"b1"read_trafficBannerTexts"b1"read_trafficCameras"b1"read_trafficSignals"b1"read_traversalTimes"b1"read_tripTimes"b1"wrote_anyField"b1};
-- (id)eshold;
+- (id)_resultSnippetDistanceDisplayThreshold;
 - (id)îhïPð$ñ\ñ;
 - (void)can only be called once per object;
-- (id)ROLS;
+- (id)SELECT_CONTROLS;
 - (_Bool)criptorProto8
 service (2'.google.protobuf.ServiceDescriptorProto8
 	extension (2%.google.protobuf.FieldDescriptorProto-
@@ -212,15 +196,7 @@ deprecated (:false
 - (void)J{/L¶I@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDBounds *bounds;
-@property(readonly, nonatomic) int *categorys;
-@property(readonly, nonatomic) unsigned long long categorysCount;
-@property(retain, nonatomic) GEOLatLng *center;
-@property(readonly, nonatomic) _Bool hasBounds;
-@property(readonly, nonatomic) _Bool hasCenter;
 @property(readonly, nonatomic) _Bool hasPlaceId;
-@property(retain, nonatomic) GEOPDMapsIdentifier *placeId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

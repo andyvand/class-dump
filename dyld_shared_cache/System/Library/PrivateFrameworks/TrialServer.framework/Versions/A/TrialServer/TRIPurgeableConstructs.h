@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface TRIPurgeableConstructs
 {
     NSMutableSet *_namespaceNamesPurgeableAtNamespaceLevel;
-    NSMutableDictionary *_eagerPurgeableFactorsByNamespaceName;
-    NSMutableDictionary *_cacheDeleteableFactorsByNamespaceName;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)quickTimeMetadataKeyLocationISO6709;
+- (id)photosFaceRepresentationRoll;
+- (id)localTimeZone;
+- (id)knownDeviceConfigurations;
 - (void);
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *cacheDeleteableFactorsByNamespaceName; // @synthesize cacheDeleteableFactorsByNamespaceName=_cacheDeleteableFactorsByNamespaceName;
-@property(readonly) NSMutableDictionary *eagerPurgeableFactorsByNamespaceName; // @synthesize eagerPurgeableFactorsByNamespaceName=_eagerPurgeableFactorsByNamespaceName;
 @property(readonly) NSMutableSet *namespaceNamesPurgeableAtNamespaceLevel; // @synthesize namespaceNamesPurgeableAtNamespaceLevel=_namespaceNamesPurgeableAtNamespaceLevel;
 
 @end

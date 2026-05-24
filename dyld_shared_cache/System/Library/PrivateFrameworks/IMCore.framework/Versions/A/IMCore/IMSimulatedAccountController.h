@@ -13,11 +13,11 @@
     NSMutableDictionary *_simulatedAccountsPerService;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)robabilitySoftValue failed! error=%d;
+- (id)n:basebandAdvisoryType=%d radioAccessTechnology=%u referenceSignalLevel=%d signalLevel=%d signalQuality=%d uplinkBler=%u /* Error: Ran out of types for this method. */;
+- (id)%s] %s:%d VCAudioTransmitter[%p] Cellular Link Measurement Notification:basebandAdvisoryType=%d radioAccessTechnology=%u referenceSignalLevel=%d signalLevel=%d signalQuality=%d uplinkBler=%u /* Error: Ran out of types for this method. */;
+- (id)A;
+- (id)domain from (%@) to (%@) for chat %@ and broadcasting the update to clients.;
 - (void)X
 Øüt4;
 

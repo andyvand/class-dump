@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _UIImageAsyncCGImageContent : _UIImageCGImageContent
 {
     long long _orientation;
-    _Bool _finishedDecompressing;
-    _UIOldCGImageDecompressor *_decompressor;
 }
 
 - (id);
@@ -21,20 +19,18 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void)Dù1gð1Â0@ù
 × ;
-- (_Bool);
+- (_Bool)touchDownWithKey:(id)arg1 withTouchInfo:atPoint:executionContext: /* Error: Ran out of types for this method. */;
 - (long long)audio;
-- (id)pplicationInitializationContextWithParameters:(id)arg1;
+- (id)applicationInitializationContextWithParameters:(id)arg1;
 - (id)p.ø.40;
 - (void);
-- (_Bool)leOverrideRecording;
-- (struct CGImage *)TimeLimit;
+- (_Bool)UIStatusBarStyleOverrideRecording;
+- (struct CGImage *)AnimationExtraTimeLimit;
 - (void)¤7[;
 - (id)~ÚÌÏ`;
 
 // Remaining properties
 @property(retain, setter=_setDecompressor:) _UIOldCGImageDecompressor *_decompressor; // @synthesize _decompressor;
-@property _Bool finishedDecompressing; // @synthesize finishedDecompressing=_finishedDecompressing;
-@property(readonly) long long orientation;
 
 @end
 

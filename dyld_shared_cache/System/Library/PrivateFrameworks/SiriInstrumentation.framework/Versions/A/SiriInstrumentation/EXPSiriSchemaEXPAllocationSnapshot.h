@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface EXPSiriSchemaEXPAllocationSnapshot : SISchemaInstrumentationMessage
 {
@@ -20,21 +20,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)essory is unchanged;
+- (id)r _copyValueOfEntitlement:(id)arg1 secTask:] /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
+- (unsigned long long)R);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)atticeFalseTriggerMitigationStarted";
-- (id)tionReported;
+- (id)POMMESSchemaPOMMESPegasusRequestGeoAppResolutionReported;
 - (id)´=Ô@;
 - (void)¢p%;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allocations; // @synthesize allocations=_allocations;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

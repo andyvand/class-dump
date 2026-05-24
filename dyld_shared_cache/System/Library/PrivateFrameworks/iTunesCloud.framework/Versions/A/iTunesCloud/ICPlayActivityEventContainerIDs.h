@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICPlayActivityEventContainerIDs
 {
     long long _adamID;
-    NSString *_cloudAlbumID;
-    unsigned long long _cloudPlaylistID;
-    unsigned long long _cloudPlaylistFolderID;
-    NSString *_globalPlaylistID;
-    NSString *_playlistVersionHash;
-    long long _stationID;
-    NSString *_stationHash;
-    NSString *_stationStringID;
 }
 
 + (_Bool);
@@ -24,12 +14,12 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)"b1"supportsRouterManagement"b1"supportsShortcutActions"b1"supportsMediaActions"b1"supportsCameraSignificantEventNotifications"b1"supportsFirmwareUpdate"b1"supportsResidentFirmwareUpdate"b1"supportsCameraActivityZones"b1"supportsFaceClassification"b1"supportsNaturalLighting"b1"supportsCameraRecordingReachabilityNotifications"b1"supportsAnnounce"b1"supportsWakeOnLAN"b1"supportsLockNotificationContext"b1"supportsWalletKey"b1"supportsCameraPackageDetection"b1"supportsAccessCodes"b1"supportsCHIP"b1"supportsThreadBorderRouter"b1"supportsSiriEndpointSetup"b1"supportsCustomMediaApplicationDestination"b1"supportsUnifiedMediaNotifications"b1"supportsHomeHub"b1"supportsResidentFirstAccessoryCommunication"b1"supportsThreadNetworkCredentialSharing"b1"supportsMatterSharedAdminPairing"b1"supportsEventLog"b1"supportsMatterTTU"b1"supportsDistributedExecutionOnPrimary"b1"supportsResidentActionSetStateEvaluation"b1"supportsUWB"b1"supportsRestrictedGuest"b1"supportsMatterOwnerCertFetch"b1"supportsDistributedExecutionOnAppleMediaAccessories"b1"supportsResidentSelection"b1"supportsNativeMatter"b1"supportsHomeActivityState"b1"supportsUWBUnlock"b1"supportsNativeMatterPlugin"b1"supportsHKSV3"b1"supportsHEVC"b1"supportsDedicatedStatusChannel"b1};
+- (id)NSDictionary"16;
+- (id)removeMediaSystemRequestResponseHandlerWithMediaSystem:context:messageIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -39,14 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long adamID; // @synthesize adamID=_adamID;
-@property(readonly, copy, nonatomic) NSString *cloudAlbumID; // @synthesize cloudAlbumID=_cloudAlbumID;
-@property(readonly, nonatomic) unsigned long long cloudPlaylistFolderID; // @synthesize cloudPlaylistFolderID=_cloudPlaylistFolderID;
-@property(readonly, nonatomic) unsigned long long cloudPlaylistID; // @synthesize cloudPlaylistID=_cloudPlaylistID;
-@property(readonly, copy, nonatomic) NSString *globalPlaylistID; // @synthesize globalPlaylistID=_globalPlaylistID;
-@property(readonly, copy, nonatomic) NSString *playlistVersionHash; // @synthesize playlistVersionHash=_playlistVersionHash;
-@property(readonly, copy, nonatomic) NSString *stationHash; // @synthesize stationHash=_stationHash;
-@property(readonly, nonatomic) long long stationID; // @synthesize stationID=_stationID;
-@property(readonly, copy, nonatomic) NSString *stationStringID; // @synthesize stationStringID=_stationStringID;
 
 @end
 

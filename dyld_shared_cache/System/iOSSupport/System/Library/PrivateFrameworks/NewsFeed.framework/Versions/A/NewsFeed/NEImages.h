@@ -8,6 +8,7 @@
 {
 }
 
++ (id)H;
 + (id);
 + (id);
 + (id);
@@ -17,6 +18,7 @@
 + (id);
 + (id);
 + (id);
++ (id)RB;
 + (id);
 + (id);
 + (id);
@@ -26,9 +28,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id)DataProviding;
++ (id)FormatPluginDataProviding;
 - (id);
 - (void);
 

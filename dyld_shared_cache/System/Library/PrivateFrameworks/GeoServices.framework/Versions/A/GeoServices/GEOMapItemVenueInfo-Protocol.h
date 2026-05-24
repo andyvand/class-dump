@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemParentVenue, NSArray;
+@class NSArray;
 @protocol GEOMapItemVenueContents, GEOVenueIdentifier;
 
 @protocol GEOMapItemVenueInfo
-- (id <GEOMapItemVenueContents>)tion;
+- (NSArray *)canEnter3DModeFlyover;
+- (id <GEOMapItemVenueContents>)device_orientation;
 - (id <GEOVenueIdentifier>)é³õG@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOMapItemVenueContents> contents;
-@property(readonly, nonatomic) NSArray *filters;
-@property(readonly, nonatomic) GEOMapItemParentVenue *parent;
-@property(readonly, nonatomic) int venueFeatureType;
 @property(readonly, nonatomic) id <GEOVenueIdentifier> venueIdentifier;
 @end
 

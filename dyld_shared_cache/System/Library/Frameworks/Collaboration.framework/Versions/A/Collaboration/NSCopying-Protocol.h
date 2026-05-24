@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)performBlock:(struct _NSZone *)arg1 qualityOfService: /* Error: Ran out of types for this method. */;
 @end
 

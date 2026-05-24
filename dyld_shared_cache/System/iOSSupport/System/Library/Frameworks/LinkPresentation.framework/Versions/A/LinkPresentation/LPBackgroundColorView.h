@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     UIColor *_color;
 }
 
-- (void);
+- (void)systemUIFontExcessiveLineHeightCharacterSet;
 - (id);
 - (id);
 - (void);

@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_children;
 }
 
-+ (id);
++ (id)maxNetworkBitrate;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)AWL;
 - (void);
 - (id);
 - (void);

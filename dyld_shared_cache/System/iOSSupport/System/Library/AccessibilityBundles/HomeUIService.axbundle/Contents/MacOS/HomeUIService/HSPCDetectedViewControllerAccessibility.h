@@ -11,8 +11,9 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id);
++ (void)y
+;
 - (void);
 
 @end

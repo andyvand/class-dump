@@ -7,14 +7,6 @@
 @interface PromotedContentUI.CalendarEvent
 {
     id description;
-    id location;
-    id summary;
-    id url;
-    id start;
-    id end;
-    id allDay;
-    id recurrence;
-    id workQueue;
 }
 
 @end

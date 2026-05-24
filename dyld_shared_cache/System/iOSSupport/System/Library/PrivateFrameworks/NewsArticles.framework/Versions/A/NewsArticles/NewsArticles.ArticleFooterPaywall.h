@@ -9,18 +9,16 @@
 @interface NewsArticles.ArticleFooterPaywall
 {
     id <NAArticleFooterDelegate> footerDelegate;
-    id paywallViewController;
-    id paywallHeight;
 }
 
 - (void);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)le;
+- (void)searchable;
 
 // Remaining properties
 @property(nonatomic, retain) id <NAArticleFooterDelegate> footerDelegate; // @synthesize footerDelegate;

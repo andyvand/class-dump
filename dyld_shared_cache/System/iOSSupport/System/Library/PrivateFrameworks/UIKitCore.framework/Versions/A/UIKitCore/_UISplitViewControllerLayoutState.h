@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
     long long _secondaryEdgeSplitViewControllerColumn;
 }
 
-+ (_Bool)nDebugViewMatchMove;
++ (_Bool)PointerInteractionDebugViewMatchMove;
 - (long long);
 - (long long);
 - (id);
@@ -22,8 +22,8 @@ __attribute__((visibility("hidden")))
 - (id)Ñe°1Â0@ù
 × ;
 - (_Bool)"UIIndexBarAccessoryView";
-- (void)tSuggestionForResponder:(id)arg1;
-- (id)itionalKeyboardLoader;
+- (void)shouldShowTextSuggestionForResponder:(id)arg1;
+- (id)_additionalKeyboardLoader;
 - (id);
 
 // Remaining properties

@@ -10,12 +10,12 @@
 {
 }
 
-- (BOOL);
+- (BOOL)searchIndexingIdentifier;
+- (id);
+- (struct CGSize);
 - (id);
-- (struct CGSize);
-- (id);
-- (BOOL);
-- (struct CKBalloonDescriptor_t);
+- (BOOL)attributed string range. Paragraph start:%ld Paragraph end:%ld String range:%s /* Error: Ran out of types for this method. */;
+- (struct CKBalloonDescriptor_t);
 - (_Bool);
 - (_Bool);
 - (BOOL);

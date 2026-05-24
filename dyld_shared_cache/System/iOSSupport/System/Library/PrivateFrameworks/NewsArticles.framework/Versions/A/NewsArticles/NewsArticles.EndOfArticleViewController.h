@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NAArticleFooterDelegate, NAEndOfArticleResultProviderDelegate;
-
 @interface NewsArticles.EndOfArticleViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    void footerDelegate;
-    void resultProviderDelegate;
-    id overriddenTraitCollection;
-    id urlHandler;
-    id overscrollBackgroundView;
 }
 
 - (void);
@@ -33,15 +24,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool)IssueReadingHistoryRecorder;
-- (void)ionFactory;
+- (_Bool)_TtC12NewsArticles27IssueReadingHistoryRecorder;
+- (void)sectionFactory;
 - (void);
 - (void)E\;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;
-@property(nonatomic) __weak id <NAArticleFooterDelegate> footerDelegate; // @synthesize footerDelegate;
-@property(nonatomic) __weak id <NAEndOfArticleResultProviderDelegate> resultProviderDelegate; // @synthesize resultProviderDelegate;
 
 @end
 

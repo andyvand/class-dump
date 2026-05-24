@@ -9,8 +9,6 @@
 @interface PPPBFeatureIdFeatureValuePair
 {
     NSString *_featureId;
-    float _value;
-    CDStruct_01ef6375 _has;
 }
 
 - (void);
@@ -19,11 +17,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)and %ld to delete;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)ServiceForSending;
 - (void);
 - (id);
 - (float);
@@ -32,10 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *featureId; // @synthesize featureId=_featureId;
 @property(readonly, nonatomic) _Bool hasFeatureId;
-@property(nonatomic) _Bool hasValue;
-@property(nonatomic) float value; // @synthesize value=_value;
 
 @end
 

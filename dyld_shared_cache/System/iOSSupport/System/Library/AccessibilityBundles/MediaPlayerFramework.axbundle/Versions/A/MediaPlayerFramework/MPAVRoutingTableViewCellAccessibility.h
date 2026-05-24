@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)NSTaggedPointerString;
 + (void);
-- (void);
+- (void)1b;
 - (void);
 - (id);
 - (_Bool);

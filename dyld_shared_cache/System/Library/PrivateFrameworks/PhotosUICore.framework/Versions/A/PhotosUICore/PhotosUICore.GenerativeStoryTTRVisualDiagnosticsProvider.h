@@ -7,7 +7,6 @@
 @interface PhotosUICore.GenerativeStoryTTRVisualDiagnosticsProvider
 {
     id logger;
-    id memory;
 }
 
 - (void);

@@ -5,24 +5,22 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_data, OS_nw_content_context;
+@protocol OS_dispatch_data;
 
 @interface NWMessage
 {
     NSObject<OS_dispatch_data> *_internalContent;
-    NSObject<OS_nw_content_context> *_internalContext;
 }
 
-- (void);
-- (void);
+- (void)S(1*i;
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (void)@;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_data> *internalContent; // @synthesize internalContent=_internalContent;
-@property(retain, nonatomic) NSObject<OS_nw_content_context> *internalContext; // @synthesize internalContext=_internalContext;
 
 @end
 

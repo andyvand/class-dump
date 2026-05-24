@@ -6,47 +6,35 @@
 
 #import <NearField/NFTrustObject.h>
 
-@class NSArray, NSData, NSNumber, NSString;
+@class NSString;
 
 @interface NFTrustKey : NFTrustObject
 {
     NSString *_identifier;
-    NSData *_publicKey;
-    NSString *_keyAttestationAuthority;
-    NSString *_keyAttestation;
-    NSNumber *_counterLimit;
-    NSNumber *_counterValue;
-    NSArray *_localValidations;
 }
 
 + (id);
 + (_Bool);
-- (void);
-- (void);
+- (void)firstResponder;
+- (void)ew full row tracking area;
+- (void)king area;
+- (void)Button]-AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS@200-[plusButton];
+- (void)ABTemplateNameViewPhotoInsetLeading;
+- (id)ontacts.ViewingCard;
+- (id)subLocality;
+- (id)subAdministrativeArea;
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)gs = %lu;
 - (id)Ô ;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *counterLimit; // @synthesize counterLimit=_counterLimit;
-@property(retain, nonatomic) NSNumber *counterValue; // @synthesize counterValue=_counterValue;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *keyAttestation; // @synthesize keyAttestation=_keyAttestation;
-@property(retain, nonatomic) NSString *keyAttestationAuthority; // @synthesize keyAttestationAuthority=_keyAttestationAuthority;
-@property(retain, nonatomic) NSArray *localValidations; // @synthesize localValidations=_localValidations;
-@property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
 
 @end
 

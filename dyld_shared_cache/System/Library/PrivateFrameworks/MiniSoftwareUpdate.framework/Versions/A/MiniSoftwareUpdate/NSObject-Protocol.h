@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, Protocol;
 
 @protocol NSObject
+- (unsigned long long);
+- (_Bool)NSWindow"16@"NSScreen"24;
+- (oneway void)previewTextForContentItem: /* Error: Ran out of types for this method. */;
+- (NSString *)getTapToRadarURLForAccessibility: /* Error: Ran out of types for this method. */;
+- (id)h;
+- (_Bool);
+- (_Bool)IdDiscoveryAgentGetDevicesMsg reply result:(Protocol *)arg1 %llx count:%lx /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

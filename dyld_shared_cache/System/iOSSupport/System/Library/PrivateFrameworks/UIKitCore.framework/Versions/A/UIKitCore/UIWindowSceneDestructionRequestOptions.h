@@ -12,7 +12,7 @@
 }
 
 - (long long);
-- (void);
+- (void)etion:(long long)arg1;
 
 // Remaining properties
 @property(nonatomic) long long windowDismissalAnimation; // @synthesize windowDismissalAnimation=_windowDismissalAnimation;

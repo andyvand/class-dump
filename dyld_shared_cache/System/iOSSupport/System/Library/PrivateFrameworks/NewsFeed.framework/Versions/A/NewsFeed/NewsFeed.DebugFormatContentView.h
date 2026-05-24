@@ -7,11 +7,9 @@
 @interface NewsFeed.DebugFormatContentView
 {
     id contentFrame;
-    id bezelView;
-    id viewResultFrame;
 }
 
-- (id);
+- (id)Tv;
 - (double);
 - (id)¡îÐ!PGùÿ1Â0@ù
 × ;

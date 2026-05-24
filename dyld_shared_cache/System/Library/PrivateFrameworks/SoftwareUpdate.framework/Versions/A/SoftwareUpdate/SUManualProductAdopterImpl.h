@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDistribution, SUProduct;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SUManualProductAdopterImpl
 {
     NSString *_archivePath;
-    PKDistribution *_distribution;
-    SUProduct *_adoptedProduct;
 }
 
 - (id);

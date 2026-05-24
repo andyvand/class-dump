@@ -12,6 +12,7 @@
 
 - (void);
 - (void);
+- (void)鋹;
 - (void);
 - (void);
 - (void);
@@ -19,13 +20,12 @@
 - (void);
 - (void);
 - (void);
+- (void)`觟;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

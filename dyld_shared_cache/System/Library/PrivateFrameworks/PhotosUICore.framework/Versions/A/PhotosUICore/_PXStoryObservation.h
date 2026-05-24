@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXObservable;
+@class PXObservable;
 
 @interface _PXStoryObservation
 {
     PXObservable *_observable;
-    CDUnknownBlockType _changeHandler;
 }
 
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType)sForEntityType:completionHandler: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)requestAccessForEntityType:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)DFKitLibrary(void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler=_changeHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak PXObservable *observable; // @synthesize observable=_observable;
-@property(readonly) Class superclass;
 
 @end
 

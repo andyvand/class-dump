@@ -5,6 +5,7 @@
 //
 
 @protocol FigPiPableLayer
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool preventsChangesToSublayerHierarchy;

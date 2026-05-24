@@ -6,40 +6,25 @@
 
 #import <AppKit/NSTableCellView.h>
 
-@class NSButton, NSPopUpButton, NSPopover, NSString, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface _NSActionRecordTableCellView : NSTableCellView
 {
     NSTextField *_selectorTextField;
-    NSTextField *_senderTextField;
-    NSButton *_addButton;
-    NSPopover *_popover;
-    NSButton *_actionRadioButton;
-    NSButton *_actionNameRadioButton;
-    NSTextField *_labelTextField;
-    NSPopUpButton *_imagePopUp;
-    NSButton *_defaultCheckbox;
-    long long _tag;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)ÌBùñã31Â0@ù
 × ;
 - (void)er>";
-- (id)entifiers:(struct CGRect)arg1;
+- (id)textView:(struct CGRect)arg1 shouldUpdateTouchBarItemIdentifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

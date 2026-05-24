@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemTip, NSDate, NSString, NSURL;
+@class GEOMapItemTip, NSDate, NSString;
 @protocol GEOMapItemReview;
 
 @protocol MKMapItemProviderRatingSnippet
+- (id <GEOMapItemReview>);
+- (GEOMapItemTip *);
+- (double)aSuda;
+- (NSString *)@ unchanged;
+- (double)voke_2;
+- (double)ke_2;
+- (NSString *)ntroller getDistributedLoggingStatusWithCompletion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (NSString *)tion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (NSDate *)' is not allowed;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_date) NSDate *date;
-@property(readonly, nonatomic, getter=_geoMapItemTIp) GEOMapItemTip *geoMapItemTip;
-@property(readonly, nonatomic, getter=_geoReview) id <GEOMapItemReview> geoReview;
-@property(readonly, nonatomic, getter=_localizedSnippet) NSString *localizedSnippet;
-@property(readonly, nonatomic, getter=_localizedSnippetLocale) NSString *localizedSnippetLocale;
-@property(readonly, nonatomic, getter=_maxScore) double maxScore;
-@property(readonly, nonatomic, getter=_normalizedScore) double normalizedScore;
-@property(readonly, nonatomic, getter=_reviewerImageURL) NSURL *reviewerImageURL;
-@property(readonly, nonatomic, getter=_reviewerName) NSString *reviewerName;
 @property(readonly, nonatomic, getter=_score) double score;
 @end
 

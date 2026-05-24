@@ -7,8 +7,6 @@
 @interface OBDevice
 {
     _Bool _hasHomeButton;
-    unsigned long long _type;
-    unsigned long long _templateType;
 }
 
 + (id);
@@ -17,13 +15,11 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomeButton; // @synthesize hasHomeButton=_hasHomeButton;
-@property(nonatomic) unsigned long long templateType; // @synthesize templateType=_templateType;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

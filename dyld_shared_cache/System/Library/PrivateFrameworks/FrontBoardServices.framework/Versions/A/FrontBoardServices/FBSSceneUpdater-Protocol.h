@@ -8,8 +8,11 @@
 @protocol FBSProcess;
 
 @protocol FBSSceneUpdater
+- (void);
+- (void)L;
+- (_Bool)!;
 - (id <FBSProcess>)
 × ;
-- (BSServiceQueue *)Value;
+- (BSServiceQueue *)boolValue;
 @end
 

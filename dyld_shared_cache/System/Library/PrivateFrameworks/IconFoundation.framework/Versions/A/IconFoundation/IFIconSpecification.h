@@ -9,25 +9,19 @@
 @interface IFIconSpecification
 {
     NSString *_name;
-    double _maxScale;
-    double _minScale;
-    NSArray *_variants;
-    NSArray *_imageSpecifications;
-    struct CGSize _maxSize;
-    struct CGSize _minSize;
 }
 
 + (id);
++ (id)dFlow;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)P;
++ (id)ans that the two fields of a frame can have different heights only if their heights differ by 1 and then the higher field must be the one whose first line appears at the top of the frame.;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)eNow %f  pollingInterval %f  earliestAllowableFire %@;
 - (id);
 - (double);
 - (id);
@@ -37,8 +31,8 @@
 - (id);
 - (id);
 - (double);
-- (id);
-- (id);
+- (id)a;
+- (id)uildRoots/4~CNpougB4Zd9qvnkqZY-TYJbHd4mtYP7TjqV6SEo/Library/Caches/com.apple.xbs/TemporaryDirectory.3LW3lp/Sources/Bom/Copier/data_archive/data_stack.c;
 - (id);
 - (id);
 - (void);
@@ -46,15 +40,7 @@
 - (struct CGSize)vate Control Accent Enclosure 3 Yellow;
 
 // Remaining properties
-@property(readonly) NSArray *allImageSpecifications;
-@property(readonly) NSArray *allVariants;
 @property(readonly) NSArray *imageSpecifications; // @synthesize imageSpecifications=_imageSpecifications;
-@property(readonly) double maxScale; // @synthesize maxScale=_maxScale;
-@property(readonly) struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property(readonly) double minScale; // @synthesize minScale=_minScale;
-@property(readonly) struct CGSize minSize; // @synthesize minSize=_minSize;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSArray *variants; // @synthesize variants=_variants;
 
 @end
 

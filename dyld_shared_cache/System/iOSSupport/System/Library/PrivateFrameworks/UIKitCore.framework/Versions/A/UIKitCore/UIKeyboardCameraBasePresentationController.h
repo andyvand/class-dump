@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)g;
+- (void)syndication ranges for message item with guid %@. newRange:(unsigned long long)arg1 %@;
+- (void)sage;
+- (void)@. newRange:(unsigned long long)arg1 %@;
 - (_Bool)ror"16;
 
 // Remaining properties

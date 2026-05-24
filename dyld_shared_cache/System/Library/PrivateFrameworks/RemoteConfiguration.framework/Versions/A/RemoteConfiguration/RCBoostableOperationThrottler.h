@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RCUnfairLock;
-@protocol OS_dispatch_queue, RCOperationThrottlerDelegate;
+@protocol RCOperationThrottlerDelegate;
 
 @interface RCBoostableOperationThrottler
 {
     _Bool _workPending;
-    id <RCOperationThrottlerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_serialWorkQueue;
-    RCUnfairLock *_workPendingLock;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,10 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <RCOperationThrottlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialWorkQueue; // @synthesize serialWorkQueue=_serialWorkQueue;
-@property _Bool suspended;
-@property(nonatomic) _Bool workPending; // @synthesize workPending=_workPending;
-@property(readonly, nonatomic) RCUnfairLock *workPendingLock; // @synthesize workPendingLock=_workPendingLock;
 
 @end
 

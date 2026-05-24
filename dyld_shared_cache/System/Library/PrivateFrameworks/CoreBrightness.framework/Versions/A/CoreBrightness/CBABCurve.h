@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBABCurveConfiguration, NSObject, NSString;
-@protocol OS_os_log;
+@class CBABCurveConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface CBABCurve
 {
     CBABCurveConfiguration *config;
-    NSString *_curvePrefsKey;
-    CDStruct_802965f5 pref;
-    float minimumBrightness;
-    float maximumBrightness;
-    float currentLux;
-    float mappedBrightness;
-    _Bool shouldClampLowLux;
-    NSObject<OS_os_log> *_logHandle;
-    float _scaleFactor;
-    unsigned long long _version;
 }
 
 - (void);
@@ -30,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (CDStruct_802965f5);
+- (CDStruct_0be28830);
 - (id);
 - (id);
 - (id);
@@ -42,21 +31,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)/'5D'-'*;
+- (id)'F';
 - (id);
 - (float);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property float scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(readonly) Class superclass;
 @property(readonly) unsigned long long version; // @synthesize version=_version;
 
 @end

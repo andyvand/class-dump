@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol IMTextMessageProcessingParameter
+- (void)H;
+- (NSString *);
+- (NSArray *)&;
+- (NSString *)(-;
+- (_Bool)u;
 @end
 

@@ -7,11 +7,11 @@
 @class NSData, NSString, _SFPBDate;
 
 @protocol _SFPBPegasusDisplayFields
+- (void)C3DTransformsStackPop;
+- (_SFPBDate *);
+- (NSData *)IndexLookupIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBDate *arrivalTime;
-@property(retain, nonatomic) _SFPBDate *departureTime;
 @property(copy, nonatomic) NSString *displayStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksUndoController, NSButton, NSLayoutConstraint, NSPopover, NSString, NSTextField, WebBookmarkLeaf;
+@class NSPopover, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface BookmarkAddressEditingPopoverViewController
 {
     NSPopover *_popover;
-    WebBookmarkLeaf *_bookmark;
-    _Bool _shouldDiscardChangesWhenDoneEditing;
-    CDUnknownBlockType _popoverDidCloseHandler;
-    BookmarksUndoController *_undoController;
-    NSTextField *_addressField;
-    NSLayoutConstraint *_addressFieldLeadingConstraint;
-    NSButton *_doneButton;
 }
 
 - (void);
@@ -25,36 +18,25 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)n@ `hT`d;
 - (void);
-- (id)ailFetchingReadingListItem:(id)arg1 pageFetchResult: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (id)_didFailFetchingReadingListItem:(id)arg1 pageFetchResult: /* Error: Ran out of types for this method. */;
 - (void)tì;
 - (void)´;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak NSTextField *addressField; // @synthesize addressField=_addressField;
-@property(nonatomic) __weak NSLayoutConstraint *addressFieldLeadingConstraint; // @synthesize addressFieldLeadingConstraint=_addressFieldLeadingConstraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType popoverDidCloseHandler; // @synthesize popoverDidCloseHandler=_popoverDidCloseHandler;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) BookmarksUndoController *undoController; // @synthesize undoController=_undoController;
 
 @end
 

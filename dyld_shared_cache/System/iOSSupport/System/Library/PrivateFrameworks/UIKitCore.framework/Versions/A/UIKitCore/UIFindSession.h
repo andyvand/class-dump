@@ -4,61 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFindInteraction, UIResponder, UITextSearchOptions, UIView;
+@class NSString, UIResponder;
 
 @interface UIFindSession
 {
     UIResponder *_divergentResponderForSession;
-    _Bool _allowsReplacement;
-    long long _resultCount;
-    long long _searchResultDisplayStyle;
-    NSString *_searchText;
-    NSString *_replacementText;
-    UITextSearchOptions *_configuredSearchOptions;
-    UIFindInteraction *_parentInteraction;
-    UIResponder *_searchableResponder;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (_Bool)e as scheduled. Error:%@ /* Error: Ran out of types for this method. */;
+- (void)message. Item class:(id)arg1 %@;
+- (void)lder than recency window %@;
+- (void)heduled message %@;
+- (void)o:(id)arg1 %@   (Skip Services:%@   Skip GUIDs:%@   Within Time Interval:%f) /* Error: Ran out of types for this method. */;
+- (id)sMessage. Success = (%@).;
+- (id)d processing SMSFIlteringSettingsMessage. Success = (%@).;
+- (long long)ID for attachment to upload on record %@;
+- (void)itifcation type:(id)arg1 %@;
+- (id)llowed list, Telling the block to continue;
+- (void)tedData"24@"IMDiMessagePipelineResources"32@"IMMessageContext"40@"IMPowerAssertion"48;
 - (long long);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (id);
+- (id)-;
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)hasComparisonType;
 - (void)biterClientFocusContext"24@"NSArray"32B40i44@?<v@?@"_UIKeyboardChangedInformation"@"_UIKeyboardUIInformation"qB>48;
 - (void) Ö;
 - (void)¸mqþ´Ì:h /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsReplacement; // @synthesize allowsReplacement=_allowsReplacement;
-@property(readonly, nonatomic) _Bool allowsReplacementForCurrentlyHighlightedResult;
-@property(retain, nonatomic) UITextSearchOptions *configuredSearchOptions; // @synthesize configuredSearchOptions=_configuredSearchOptions;
-@property(readonly, nonatomic) UIResponder *divergentResponder;
-@property(readonly, nonatomic) long long highlightedResultIndex;
-@property(nonatomic) __weak UIFindInteraction *parentInteraction; // @synthesize parentInteraction=_parentInteraction;
-@property(copy, nonatomic) NSString *replacementText; // @synthesize replacementText=_replacementText;
-@property(readonly, nonatomic) long long resultCount; // @synthesize resultCount=_resultCount;
-@property(nonatomic) long long searchResultDisplayStyle; // @synthesize searchResultDisplayStyle=_searchResultDisplayStyle;
 @property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(nonatomic) __weak UIResponder *searchableResponder; // @synthesize searchableResponder=_searchableResponder;
-@property(readonly, nonatomic) UIView *searchableResponderAsView;
-@property(readonly, nonatomic) _Bool supportsReplacement;
 
 @end
 

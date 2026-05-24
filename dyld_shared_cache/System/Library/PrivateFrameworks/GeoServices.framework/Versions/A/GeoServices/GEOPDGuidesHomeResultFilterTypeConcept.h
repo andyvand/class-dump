@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRelatedSearchSuggestion, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGuidesHomeResultFilterTypeConcept
 {
     PBUnknownFields *_unknownFields;
-    GEOPDRelatedSearchSuggestion *_relatedSearchSuggestion;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)GEOPDBatchPopularNearbySearchResult";
-- (id)ntID;
+- (id)_elementID;
 - (id);
 - (void)®Gáz8@;
 

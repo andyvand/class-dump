@@ -15,9 +15,9 @@
 + (void)ET is_current = 0;;
 - (id);
 - (void);
-- (void);
+- (void)_findUserName:(id)arg1 searchParent:(_Bool)arg2;
 - (id);
-- (void);
+- (void)EOTransitIncident>"16@"NSDate"24B32B36;
 - (void)n"8;
 - (void)o+½63P@;
 

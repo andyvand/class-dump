@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (void)feAreaHelper;
+- (void)safeAreaHelper;
 
 @end
 

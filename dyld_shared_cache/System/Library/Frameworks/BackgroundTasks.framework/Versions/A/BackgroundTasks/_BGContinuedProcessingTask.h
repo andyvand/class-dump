@@ -6,40 +6,32 @@
 
 #import <BackgroundTasks/BGTask.h>
 
-@class NSProgress, NSString;
+@class NSString;
 
 @interface _BGContinuedProcessingTask : BGTask
 {
     NSString *_title;
-    NSString *_reason;
-    NSProgress *_internalProgress;
-    CDUnknownBlockType __progressHandler;
-    CDUnknownBlockType __descriptionUpdateHandler;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)qM;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)updateMarkedForDeletionStateAttachmentIsInUse:(id)arg1;
+- (id)A;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setDescriptionUpdateHandler:) CDUnknownBlockType _descriptionUpdateHandler; // @synthesize _descriptionUpdateHandler=__descriptionUpdateHandler;
-@property(copy, nonatomic, setter=_setProgressHandler:) CDUnknownBlockType _progressHandler; // @synthesize _progressHandler=__progressHandler;
-@property(retain, nonatomic) NSProgress *internalProgress; // @synthesize internalProgress=_internalProgress;
-@property(copy) NSString *reason; // @synthesize reason=_reason;
 @property(copy) NSString *title; // @synthesize title=_title;
 
 @end

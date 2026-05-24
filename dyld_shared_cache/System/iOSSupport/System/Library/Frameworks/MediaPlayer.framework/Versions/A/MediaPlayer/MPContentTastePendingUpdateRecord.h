@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPContentTastePendingUpdateRecord
 {
     NSString *_playlistGlobalID;
-    long long _storeAdamID;
-    long long _tasteType;
-    long long _type;
-    NSUUID *_UUID;
 }
 
 - (long long);
-- (id);
-- (id);
+- (id)whereCannotHaveAggregateFunctions;
+- (id)sqlite_compileoption_get;
 - (void);
 - (long long);
 - (long long);
+- (id)d;
 - (id);
-- (id);
-- (void)ClipsCount;
+- (void)movieClipsCount;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(readonly, nonatomic) NSString *playlistGlobalID; // @synthesize playlistGlobalID=_playlistGlobalID;
-@property(readonly, nonatomic) long long storeAdamID; // @synthesize storeAdamID=_storeAdamID;
-@property(readonly, nonatomic) long long tasteType; // @synthesize tasteType=_tasteType;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

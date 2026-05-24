@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UISceneEventResponse;
-
 __attribute__((visibility("hidden")))
 @interface _UISceneEventResponder
 {
     struct os_unfair_lock_s _sendLock;
-    struct os_unfair_lock_s _dataLock;
-    _UISceneEventResponse *_dataLock_first;
-    _UISceneEventResponse *_dataLock_last;
 }
 
 - (void);
-- (void);
-- (id);
+- (void)removeArtworkForEntityPersistentID:(CDUnknownBlockType)arg1 entityType:(int)arg2 artworkType:sourceType:variantType: /* Error: Ran out of types for this method. */;
+- (id)!;
 - (void)Á
 !ÌDùQgð1Â0@ù
 × ;
 - (void);
-- (void)ext;
+- (void)ResolutionContext;
 
 @end
 

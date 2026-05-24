@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDCategoryInformation, GEOPDCategoryLookupParameters, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCategoryLookupResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDCategoryInformation *_categoryInfo;
-    GEOPDCategoryLookupParameters *_categoryLookupParam;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_categoryInfo:1;
-        unsigned int read_categoryLookupParam:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)tendingHostTime;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"b1"wrote_anyField"b1};
-- (id)s;
+- (id)_cameraInfos;
 - (id)ïTM´¸ÿ|M´M´$¤M´T0¸M´T3ÐM´<8èM´Ô;N´´ON´ R,N´U@N´$ZTN´È]hN´Ôo|N´¨ÔN´48O´Ü LO´d£xO´ì§O´ÀªÀO´ÀµÔO´ºèO´¸½üO´ÀP´È$P´É4P´tÉDP´àÉTP´ÈÊdP´4ËtP´ ËP´ÌP´xÌ¤P´äÌ´P´TÍÄP´ÀÍÔP´,ÎäP´ÎôP´ÏQ´pÏQ´ÜÏ$Q´HÐ4Q´ÒDQ´üÒTQ´hÓdQ´ÔÓtQ´@ÔQ´°ÔQ´ Õ¤Q´Õ´Q´üÕÄQ´hÖÔQ´ÔÖäQ´D×ôQ´´×R´ ØR´Ø$R´øØ4R´hÙDR´ÔÙTR´@ÚdR´°ÚtR´ÛR´ÛR´øÛ¤R´hÜ´R´ÔÜÄR´@ÝÔR´°ÝäR´ ÞôR´ÞS´üÞS´hß$S´Ôß4S´DàDS´°àTS´ádS´átS´øáS´dâS´Ôâ¤S´Dã´S´°ãÄS´äÔS´ääS´øäôS´håT´ÔåT´@æ$T´¬æ4T´çDT´çTT´øçdT´xètT´éT´|éT´ìé¤T´Xê´T´ÄêÄT´4ëÔT´ ëäT´ìôT´ìU´ðìU´`í$U´Ðí4U´<îDU´¨îTU´ïdU´ïtU´øïU´dðU´Ðð¤U´@ñ´U´°ñÄU´òÔU´òäU´ôòôU´dóV´ÔóV´@ô$V´¬ô4V´õDV´õTV´ôõdV´`ötV´ÌöV´8÷V´¨÷¤V´ø´V´øÄV´ìøÔV´XùäV´ÄùôV´0úW´úW´û$W´|û4W´èûDW´XüTW´ÈüdW´8ýtW´¤ýW´þW´þ¤W´ðþ´W´`ÿÄW´ÐÿÔW´<;
 - (void)óÿÿÿüÿÿÿëÿÿÿèÿÿÿýÿÿÿûÿÿÿþÿÿÿìÿÿÿòÿÿÿíÿÿÿæÿÿÿçÿÿÿâÿÿÿÿÿÿÿõÿ÷ÿöÿüÿûÿýÿøÿþÿH¯¼ò×z>;
 

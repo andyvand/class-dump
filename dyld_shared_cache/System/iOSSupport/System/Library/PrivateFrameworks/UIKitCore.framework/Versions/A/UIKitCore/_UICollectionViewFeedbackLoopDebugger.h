@@ -7,8 +7,6 @@
 @interface _UICollectionViewFeedbackLoopDebugger
 {
     id currentlyTrackedChangeRecords;
-    id invalidationRecords;
-    id updateVisibleCellsRecords;
 }
 
 - (void);
@@ -17,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (void)ÈÿÖØ{m;

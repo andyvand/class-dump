@@ -6,7 +6,7 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class EKEventDetailCommentCell, NSString;
+@class EKEventDetailCommentCell;
 
 __attribute__((visibility("hidden")))
 @interface EKEventCommentDetailItem : EKEventDetailItem
@@ -17,18 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)_TtCV20SiriOntologyProtobuf22Google_Protobuf_OptionP33_8C6E60E2A3AE3ABFA78CA3ACB62E2EFB13_StorageClass;
 - (_Bool);
-- (void)MoreTimes;
+- (void)searchForMoreTimes;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

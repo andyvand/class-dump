@@ -9,7 +9,7 @@
     id separatorView;
 }
 
-- (id);
+- (id)_topVerticalGridExtension;
 - (struct CGSize);
 - (struct CGSize);
 - (id);
@@ -17,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGSize fittingSize;
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 
 @end

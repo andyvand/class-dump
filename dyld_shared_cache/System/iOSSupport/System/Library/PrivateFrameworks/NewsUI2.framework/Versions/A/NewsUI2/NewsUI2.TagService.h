@@ -7,12 +7,6 @@
 @interface NewsUI2.TagService
 {
     id tagController;
-    id puzzleTypeController;
-    id subscriptionController;
-    id purchaseController;
-    id notificationConfiguration;
-    id shortcutList;
-    id featureAvailability;
 }
 
 @end

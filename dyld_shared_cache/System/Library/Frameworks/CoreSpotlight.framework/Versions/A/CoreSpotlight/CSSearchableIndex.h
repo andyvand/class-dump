@@ -4,40 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSIndexConnection, CSIndexingQueue, NSMutableArray, NSNumber, NSObject, NSString;
-@protocol CSSearchableIndexDelegate, OS_dispatch_queue;
+@class CSIndexConnection, CSIndexingQueue;
 
 @interface CSSearchableIndex
 {
     CSIndexingQueue *_activityQueue;
-    unsigned int _user;
-    _Bool _batchOpen;
-    _Bool _noBatching;
-    id <CSSearchableIndexDelegate> _indexDelegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSString *_name;
-    NSString *_protectionClass;
-    NSString *_bundleIdentifier;
-    NSMutableArray *_batchedItemsToIndex;
-    NSMutableArray *_batchedItemIdentifiersToDelete;
-    long long _options;
-    NSNumber *_indexID;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) CSIndexingQueue *activityQueue;
-@property(nonatomic) _Bool batchOpen; // @synthesize batchOpen=_batchOpen;
-@property(retain, nonatomic) NSMutableArray *batchedItemIdentifiersToDelete; // @synthesize batchedItemIdentifiersToDelete=_batchedItemIdentifiersToDelete;
-@property(retain, nonatomic) NSMutableArray *batchedItemsToIndex; // @synthesize batchedItemsToIndex=_batchedItemsToIndex;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly) CSIndexConnection *connection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property __weak id <CSSearchableIndexDelegate> indexDelegate; // @synthesize indexDelegate=_indexDelegate;
-@property(readonly, nonatomic) NSNumber *indexID; // @synthesize indexID=_indexID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool noBatching; // @synthesize noBatching=_noBatching;
-@property(nonatomic) long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSString *protectionClass; // @synthesize protectionClass=_protectionClass;
 @end
 

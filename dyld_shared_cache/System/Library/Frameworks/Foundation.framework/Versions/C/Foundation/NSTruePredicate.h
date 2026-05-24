@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (_Bool)y;
++ (id)Configure;
++ (_Bool)today;
 + (id)CGRect;
 - (unsigned long long);
 - (id);
@@ -19,9 +19,9 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)R		;
 - (id);
-- (_Bool);
+- (_Bool)?k!;
 - (void);
 - (_Bool);
 - (id)Qz5ð1Â0@ù

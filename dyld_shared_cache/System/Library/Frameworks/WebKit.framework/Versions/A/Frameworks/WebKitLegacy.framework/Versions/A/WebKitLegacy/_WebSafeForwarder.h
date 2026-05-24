@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _WebSafeForwarder
 {
     id _target;
-    id _defaultTarget;
 }
 
 - (id);

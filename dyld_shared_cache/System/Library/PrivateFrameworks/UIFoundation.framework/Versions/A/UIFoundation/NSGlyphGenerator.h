@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (void)hRect: /* Error: Ran out of types for this method. */;
++ (void)appendBezierPathWithRect: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

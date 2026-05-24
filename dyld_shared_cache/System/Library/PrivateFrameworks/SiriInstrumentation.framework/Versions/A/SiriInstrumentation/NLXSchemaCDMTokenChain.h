@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface NLXSchemaCDMTokenChain : SISchemaInstrumentationMessage
 {
     NSArray *_tokens;
-    SISchemaUUID *_asrHypothesisId;
-    _Bool _hasAsrHypothesisId;
 }
 
 - (unsigned long long);
@@ -26,9 +24,9 @@
 - (void);
 - (id);
 - (id);
+- (id)segments;
 - (id);
-- (id);
-- (void);
+- (void)rtificate;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -38,12 +36,9 @@
 × ;
 - (id)oiceCommandAfterReranking;
 - (id)rContext;
-- (void)t;
+- (void)PLUSSchemaPLUSClientEvent;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *asrHypothesisId; // @synthesize asrHypothesisId=_asrHypothesisId;
-@property(nonatomic) _Bool hasAsrHypothesisId; // @synthesize hasAsrHypothesisId=_hasAsrHypothesisId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end

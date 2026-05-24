@@ -6,18 +6,18 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSSet, NSString, PGGraphDateNodeCollection, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphHolidayNodeCollection : PGGraphNodeCollection
 {
 }
 
-+ (id);
++ (id)4;
 + (id);
 + (id);
 + (Class);
-- (id);
-- (id);
+- (id)AXKScreenReadingElementTraversalStrategy;
+- (id)AXKChildrenNavigationMapper;
 - (id);
 - (void);
 - (void);
@@ -27,18 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *celebratingMomentNodes;
-@property(readonly, nonatomic) PGGraphDateNodeCollection *dateNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *holidayNames;
-@property(readonly, nonatomic) NSSet *localizedHolidayNames;
-@property(readonly, nonatomic) NSSet *localizedHolidaySynonyms;
-@property(readonly) Class superclass;
 
 @end
 

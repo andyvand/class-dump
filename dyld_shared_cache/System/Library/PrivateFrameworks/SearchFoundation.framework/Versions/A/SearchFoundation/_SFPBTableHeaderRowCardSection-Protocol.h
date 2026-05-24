@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBTableAlignmentSchema;
+@class NSArray, NSData;
 
 @protocol _SFPBTableHeaderRowCardSection
+- (NSArray *);
+- (_Bool);
+- (_Bool)setItemType: /* Error: Ran out of types for this method. */;
+- (_Bool)setHTTPShouldHandleCookies: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSData *)braryIdentifier",R,C,N;
+- (id)`;
 - (int)ø;
 
 // Remaining properties
-@property(nonatomic) _Bool alignRowsToHeader;
-@property(retain, nonatomic) _SFPBTableAlignmentSchema *alignmentSchema;
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSArray *datas;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(nonatomic) _Bool isSubHeader;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) _Bool reducedRowHeight;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *tabGroupIdentifier;
-@property(copy, nonatomic) NSString *tableIdentifier;
-@property(copy, nonatomic) NSString *type;
-@property(nonatomic) int verticalAlign;
 @end
 

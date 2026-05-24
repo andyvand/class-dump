@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDApplicationInfo, HMFLocationAuthorization, NSString, RBSProcessHandle;
+@class RBSProcessHandle;
 
 __attribute__((visibility("hidden")))
 @interface HMDProcessInfo
 {
     struct hmf_unfair_data_lock_s _lock;
-    _Bool _entitledForAPIAccess;
-    _Bool _entitledForSPIAccess;
-    unsigned long long _state;
-    HMDApplicationInfo *_applicationInfo;
-    HMFLocationAuthorization *_locationAuthorization;
-    RBSProcessHandle *_processHandle;
 }
 
-+ (id);
-+ (id)MetadataForStagingWithCompletion: /* Error: Ran out of types for this method. */;
++ (id)niece_sisters_daughter_or_wifes_siblings_daughter;
++ (id)retrieveMetadataForStagingWithCompletion: /* Error: Ran out of types for this method. */;
 + (id)~B;
-- (_Bool);
-- (_Bool);
+- (_Bool)s/A/KnowledgeGraphKit;
+- (_Bool)toggleLaunchpad: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -42,30 +36,12 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (id);
-- (id)tificationRegistrationSource;
+- (id)HMDBulletinNotificationRegistrationSource;
 - (id)center;
 - (void)MCameraClipSignificantEvent"8;
 
 // Remaining properties
-@property(readonly) HMDApplicationInfo *applicationInfo; // @synthesize applicationInfo=_applicationInfo;
-@property(readonly, getter=isBackgrounded) _Bool background;
-@property(readonly, getter=isBackgroundUpgradedToForeground) _Bool backgroundUpgradedToForeground;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isEntitledForAPIAccess) _Bool entitledForAPIAccess; // @synthesize entitledForAPIAccess=_entitledForAPIAccess;
-@property(readonly, getter=isEntitledForSPIAccess) _Bool entitledForSPIAccess; // @synthesize entitledForSPIAccess=_entitledForSPIAccess;
-@property(readonly, getter=isForegrounded) _Bool foreground;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMFLocationAuthorization *locationAuthorization; // @synthesize locationAuthorization=_locationAuthorization;
 @property(readonly, nonatomic) RBSProcessHandle *processHandle; // @synthesize processHandle=_processHandle;
-@property(readonly) _Bool shouldMonitor;
-@property(readonly) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, getter=isSuspended) _Bool suspended;
-@property(readonly, getter=isTerminated) _Bool terminated;
 
 @end
 

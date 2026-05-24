@@ -9,14 +9,10 @@
 @interface MPSCNNLocalContrastNormalizationNode : MPSCNNNormalizationNode
 {
     float _pm;
-    float _ps;
-    float _p0;
-    unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (float);
@@ -32,11 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property(nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(nonatomic) float p0; // @synthesize p0=_p0;
 @property(nonatomic) float pm; // @synthesize pm=_pm;
-@property(nonatomic) float ps; // @synthesize ps=_ps;
 
 @end
 

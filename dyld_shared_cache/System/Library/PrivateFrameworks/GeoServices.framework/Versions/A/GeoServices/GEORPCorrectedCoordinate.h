@@ -4,54 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPCorrectedCoordinate
 {
     PBDataReader *_reader;
-    GEOLatLng *_correctedCoordinate;
-    GEOLatLng *_originalCoordinate;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_correctedCoordinate:1;
-        unsigned int read_originalCoordinate:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tePreservation:(id)arg1;
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
++ (_Bool)setIsOptedIntoFamiliarRoutePreservation:(id)arg1;
+- (void)4;
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id)`;
+- (void)@;
+- (id);
+- (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)setAllowSpeakerRecognitionAssetDownloading: /* Error: Ran out of types for this method. */;
+- (void)WillStartGroup;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)rlComponent"b1"read_actionUrlVerb"b1"read_logoId"b1"wrote_anyField"b1};
-- (id)dAttributionIndex: /* Error: Ran out of types for this method. */;
+- (id)addAttributionIndex: /* Error: Ran out of types for this method. */;
 - (id)¤Ä°Ç;
 - (id)Seconds:(id)arg1 %f  > 
 ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOLatLng *correctedCoordinate;
-@property(readonly, nonatomic) _Bool hasCorrectedCoordinate;
 @property(readonly, nonatomic) _Bool hasOriginalCoordinate;
-@property(retain, nonatomic) GEOLatLng *originalCoordinate;
 
 @end
 

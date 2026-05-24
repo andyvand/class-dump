@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDWebContentParser, NSString;
+@class EDWebContentParser;
 
 @interface ECWebContentObserver
 {
@@ -21,14 +21,7 @@
 - (void)later_date_index ON message_global_data(read_later_date);CREATE INDEX IF NOT EXISTS message_global_data_send_later_date_index ON message_global_data(send_later_date);;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak EDWebContentParser *parser; // @synthesize parser=_parser;
-@property(readonly) Class superclass;
 
 @end
 

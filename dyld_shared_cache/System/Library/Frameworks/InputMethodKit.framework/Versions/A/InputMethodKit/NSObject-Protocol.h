@@ -7,15 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (NSString *)@9h>;
+- (unsigned long long)me a non-deserialized URL, we are within the issuing process.;
+- (id)v;
 - (struct _NSZone *)V_secureTextEntry;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)s/Espresso.framework/Versions/A/Espresso;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

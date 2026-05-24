@@ -7,6 +7,7 @@
 @class NSViewController;
 
 @protocol AOSUIViewControllerProvider
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSViewController *viewController;

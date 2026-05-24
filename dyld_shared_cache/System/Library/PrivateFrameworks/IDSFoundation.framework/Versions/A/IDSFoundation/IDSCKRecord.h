@@ -5,12 +5,10 @@
 //
 
 @class IDSCKRecordID;
-@protocol IDSCKRecordKeyValueSetting;
 
 @interface IDSCKRecord
 {
     IDSCKRecordID *_recordID;
-    id <IDSCKRecordKeyValueSetting> _encryptedValuesByKey;
 }
 
 + (Class);
@@ -20,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <IDSCKRecordKeyValueSetting> encryptedValuesByKey; // @synthesize encryptedValuesByKey=_encryptedValuesByKey;
 @property(readonly, copy, nonatomic) IDSCKRecordID *recordID; // @synthesize recordID=_recordID;
 
 @end

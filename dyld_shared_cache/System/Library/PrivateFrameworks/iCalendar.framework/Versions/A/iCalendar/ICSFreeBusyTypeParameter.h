@@ -10,9 +10,9 @@
 {
 }
 
++ (id);
 + (id);
-+ (id);
-- (Class);
+- (Class)B;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface _MRDiscoveryUpdateOutputDevicesProtobufMessage
 {
     _MRDiscoverySessionConfigurationProtobuf *_configuration;
-    NSMutableArray *_outputDevices;
 }
 
 + (Class);
@@ -25,17 +24,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (void)ntainsDiscoverableGroupLeader;
+- (id)_AFRecordCoreDuetEventAtTimestamps_block_invoke;
+- (void)_hasGroupContainsDiscoverableGroupLeader;
 - (void)TV Remote Peer;
 
 // Remaining properties
-@property(retain, nonatomic) _MRDiscoverySessionConfigurationProtobuf *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) _Bool hasConfiguration;
 @property(retain, nonatomic) NSMutableArray *outputDevices; // @synthesize outputDevices=_outputDevices;
 
 @end

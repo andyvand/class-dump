@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SFSyncManager_ivars
 {
     NSMutableArray *_syncList;
-    NSData *_blobData;
-    int _logLevel;
 }
 
 - (void);

@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDAssistantCounts, ODDSiriSchemaODDAssistantDimensions;
+@class ODDSiriSchemaODDAssistantDimensions;
 
 @interface ODDSiriSchemaODDAssistantDigest : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantDimensions *_dimensions;
-    ODDSiriSchemaODDAssistantCounts *_counts;
-    NSArray *_turnIds;
-    _Bool _hasDimensions;
-    _Bool _hasCounts;
 }
 
 - (unsigned long long);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)�C;
 - (void);
 - (void);
 - (void);
@@ -44,16 +40,11 @@
 × ;
 - (id)inkIndex;
 - (id)N,V_startedOrChanged;
-- (id)ICYBANNED;
-- (void)PARAMETERSUBTYPE_PRIMITIVE_INT;
+- (id)NETCONNECTIONMETHOD_MPTCP_POLICYBANNED;
+- (void)JRPARAMETERSUBTYPE_PRIMITIVE_INT;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantCounts *counts; // @synthesize counts=_counts;
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantDimensions *dimensions; // @synthesize dimensions=_dimensions;
-@property(nonatomic) _Bool hasCounts; // @synthesize hasCounts=_hasCounts;
-@property(nonatomic) _Bool hasDimensions; // @synthesize hasDimensions=_hasDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *turnIds; // @synthesize turnIds=_turnIds;
 
 @end
 

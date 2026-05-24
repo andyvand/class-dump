@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SUCoreMAIdentifier
 {
     NSString *_productVersion;
-    NSString *_productBuildVersion;
-    NSString *_releaseType;
-    NSData *_measurement;
-    NSString *_measurementAlgorithm;
 }
 
 + (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)retentionCount;
+- (id)renderingHost;
+- (id)removeTarget:(id)arg1 action:(id)arg2 forControlEvents:(id)arg3;
 - (void);
 - (id);
 - (id);
@@ -29,16 +25,12 @@
 - (void);
 - (id);
 - (id);
+- (void)recentsAndFavoritesForDataSource:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void):(id)arg1 8q16;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *measurement; // @synthesize measurement=_measurement;
-@property(retain, nonatomic) NSString *measurementAlgorithm; // @synthesize measurementAlgorithm=_measurementAlgorithm;
-@property(retain, nonatomic) NSString *productBuildVersion; // @synthesize productBuildVersion=_productBuildVersion;
 @property(retain, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(retain, nonatomic) NSString *releaseType; // @synthesize releaseType=_releaseType;
 
 @end
 

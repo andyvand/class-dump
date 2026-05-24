@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface SARDServerContextUpdateCandidate : SABaseClientBoundCommand
 {
@@ -26,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *mappedDomainEntities;
-@property(copy, nonatomic) NSData *nlContextUpdatePayload;
-@property(copy, nonatomic) NSData *pegasusConversationContext;
-@property(copy, nonatomic) NSString *resultCandidateId;
 
 @end
 

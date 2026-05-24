@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNQueue, NSString;
+@class CNQueue;
 
 @interface _CNCacheFixedCapacityBoundingStrategy
 {
     CNQueue *_keys;
-    unsigned long long _capacity;
 }
 
 - (void);
@@ -20,18 +19,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CNQueue *keys; // @synthesize keys=_keys;
-@property(readonly) Class superclass;
 
 @end
 

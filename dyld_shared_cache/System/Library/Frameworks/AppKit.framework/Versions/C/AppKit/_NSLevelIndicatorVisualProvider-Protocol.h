@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSColor;
+
 @protocol _NSLevelIndicatorVisualProvider
+- (double);
+- (struct CGRect);
+- (void)WatchAppButtonCapability;
+- (NSColor *)k;
 
 // Remaining properties
 @property(readonly) _Bool forceLegacyDrawing;

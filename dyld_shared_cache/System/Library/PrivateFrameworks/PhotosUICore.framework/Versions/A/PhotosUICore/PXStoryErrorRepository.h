@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSArray, NSMutableDictionary;
 
 @interface PXStoryErrorRepository
 {
     NSMutableDictionary *_errorsByComponent;
-    NSMutableArray *_errors;
-    NSObject<OS_dispatch_queue> *_storyQueue;
 }
 
 + (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)R;
+- (id)alleryLayouter"16Q24;
+- (id)!;
 - (void)5~;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *errors;
-@property(readonly, nonatomic) NSDictionary *errorsByComponent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storyQueue; // @synthesize storyQueue=_storyQueue;
-@property(readonly) Class superclass;
 
 @end
 

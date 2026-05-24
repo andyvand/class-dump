@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PSZKWFTCalendarEventConfig, _PSZKWFTFallbackInteractionsConfig, _PSZKWFTPrimaryInteractionsConfig, _PSZKWFTUnstructuredCalendarConfig, _PSZKWFTUnstructuredRemindersConfig;
-
 @interface _PSFTZKWConfig
 {
     _Bool _useBlendingLayer;
-    _PSZKWFTCalendarEventConfig *_calendarEventConfig;
-    _PSZKWFTUnstructuredCalendarConfig *_unstructuredCalendarConfig;
-    _PSZKWFTUnstructuredRemindersConfig *_unstructuredRemindersConfig;
-    _PSZKWFTPrimaryInteractionsConfig *_faceTimeInteractionsConfig;
-    _PSZKWFTFallbackInteractionsConfig *_fallbackInteractionsConfig;
 }
 
-+ (_Bool);
++ (_Bool)_answerSynthesisModelPromptGenerationTimeInMs;
 + (_Bool);
 - (_Bool);
 - (id);
@@ -24,17 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)n;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) _PSZKWFTCalendarEventConfig *calendarEventConfig; // @synthesize calendarEventConfig=_calendarEventConfig;
-@property(readonly, copy, nonatomic) _PSZKWFTPrimaryInteractionsConfig *faceTimeInteractionsConfig; // @synthesize faceTimeInteractionsConfig=_faceTimeInteractionsConfig;
-@property(readonly, copy, nonatomic) _PSZKWFTFallbackInteractionsConfig *fallbackInteractionsConfig; // @synthesize fallbackInteractionsConfig=_fallbackInteractionsConfig;
-@property(readonly, copy, nonatomic) _PSZKWFTUnstructuredCalendarConfig *unstructuredCalendarConfig; // @synthesize unstructuredCalendarConfig=_unstructuredCalendarConfig;
-@property(readonly, copy, nonatomic) _PSZKWFTUnstructuredRemindersConfig *unstructuredRemindersConfig; // @synthesize unstructuredRemindersConfig=_unstructuredRemindersConfig;
 @property(nonatomic) _Bool useBlendingLayer; // @synthesize useBlendingLayer=_useBlendingLayer;
 
 @end

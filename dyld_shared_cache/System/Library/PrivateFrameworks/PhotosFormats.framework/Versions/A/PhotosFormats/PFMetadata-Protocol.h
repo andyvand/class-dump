@@ -5,5 +5,6 @@
 //
 
 @protocol PFMetadata
+- (id)pe"b1};
 @end
 

@@ -6,32 +6,24 @@
 
 #import <Metal/MTLFunctionReflection.h>
 
-@class MTLType, NSArray, NSData, NSString;
+@class NSArray;
 
 @interface MTLFunctionReflectionInternal : MTLFunctionReflection
 {
     NSArray *_builtInArguments;
-    NSArray *_arguments;
-    NSArray *_bindings;
-    NSData *_pluginReturnData;
-    unsigned long long _primitiveKind;
-    NSArray *_tags;
-    MTLType *_returnType;
-    NSString *_userAnnotation;
-    NSArray *_attributes;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
+- (id)entCandidate - CapsLock action with modifiers = 0x%x CGS modifiers 0x%x ***;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_;
+- (id)nlq_pred_pivot_value;
 - (id);
 - (id);
 - (id);

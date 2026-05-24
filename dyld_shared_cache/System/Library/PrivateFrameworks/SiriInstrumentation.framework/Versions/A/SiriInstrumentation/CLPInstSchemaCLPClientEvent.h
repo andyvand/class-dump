@@ -6,28 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class CLPInstSchemaCLPCDMReplaySampleContext, CLPInstSchemaCLPCDMReplayTaskContext, CLPInstSchemaCLPClientEventMetadata, CLPInstSchemaCLPCurareAppIntentSampleClassificationContext, CLPInstSchemaCLPCurareAppIntentTaskClassificationContext, CLPInstSchemaCLPNLv4SampleEvaluationContext, CLPInstSchemaCLPNLv4TaskEvaluationContext, NSData, SISchemaInstrumentationMessage;
+@class CLPInstSchemaCLPClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface CLPInstSchemaCLPClientEvent : SISchemaTopLevelUnionType
 {
     CLPInstSchemaCLPClientEventMetadata *_eventMetadata;
-    CLPInstSchemaCLPNLv4SampleEvaluationContext *_nlv4SampleEvaluationContext;
-    CLPInstSchemaCLPNLv4TaskEvaluationContext *_nlv4TaskEvaluationContext;
-    CLPInstSchemaCLPCurareAppIntentSampleClassificationContext *_curareAppIntentSampleClassificationContext;
-    CLPInstSchemaCLPCurareAppIntentTaskClassificationContext *_curareAppIntentTaskClassificationContext;
-    CLPInstSchemaCLPCDMReplaySampleContext *_cdmReplaySampleContext;
-    CLPInstSchemaCLPCDMReplayTaskContext *_cdmReplayTaskContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasNlv4SampleEvaluationContext;
-    _Bool _hasNlv4TaskEvaluationContext;
-    _Bool _hasCurareAppIntentSampleClassificationContext;
-    _Bool _hasCurareAppIntentTaskClassificationContext;
-    _Bool _hasCdmReplaySampleContext;
-    _Bool _hasCdmReplayTaskContext;
-    unsigned long long _whichEvent_Type;
 }
 
-+ (int);
++ (int)o ``;
 + (id);
 - (unsigned long long);
 - (void);
@@ -40,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -51,7 +37,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);
@@ -64,9 +50,9 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
@@ -76,31 +62,15 @@
 - (_Bool);
 - (id);
 - (id)t";
-- (id)iguation;
-- (unsigned long long)allState;
-- (id)WSchemaFLOWHomeAutomationCommand;
+- (id)deleteValueDisambiguation;
+- (unsigned long long)deleteCallState;
+- (id)FLOWSchemaFLOWHomeAutomationCommand;
 - (id)@}~pôxüÈ¬t@ tÐ ¢<£¤¦§©pªÌ¬¯D±¤² ´µ·x¸Ôº4¼°½,¿ ¨À¡Â¢dÄ£Å¤|Æ¥XÈ¦Ê§ÐÌ¨¨Í©HÎ;
 - (int).dialogIdentifiers;
 - (void)¼?&;
 
 // Remaining properties
-@property(retain, nonatomic) CLPInstSchemaCLPCDMReplaySampleContext *cdmReplaySampleContext; // @synthesize cdmReplaySampleContext=_cdmReplaySampleContext;
-@property(retain, nonatomic) CLPInstSchemaCLPCDMReplayTaskContext *cdmReplayTaskContext; // @synthesize cdmReplayTaskContext=_cdmReplayTaskContext;
-@property(retain, nonatomic) CLPInstSchemaCLPCurareAppIntentSampleClassificationContext *curareAppIntentSampleClassificationContext; // @synthesize curareAppIntentSampleClassificationContext=_curareAppIntentSampleClassificationContext;
-@property(retain, nonatomic) CLPInstSchemaCLPCurareAppIntentTaskClassificationContext *curareAppIntentTaskClassificationContext; // @synthesize curareAppIntentTaskClassificationContext=_curareAppIntentTaskClassificationContext;
-@property(retain, nonatomic) CLPInstSchemaCLPClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasCdmReplaySampleContext; // @synthesize hasCdmReplaySampleContext=_hasCdmReplaySampleContext;
-@property(nonatomic) _Bool hasCdmReplayTaskContext; // @synthesize hasCdmReplayTaskContext=_hasCdmReplayTaskContext;
-@property(nonatomic) _Bool hasCurareAppIntentSampleClassificationContext; // @synthesize hasCurareAppIntentSampleClassificationContext=_hasCurareAppIntentSampleClassificationContext;
-@property(nonatomic) _Bool hasCurareAppIntentTaskClassificationContext; // @synthesize hasCurareAppIntentTaskClassificationContext=_hasCurareAppIntentTaskClassificationContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasNlv4SampleEvaluationContext; // @synthesize hasNlv4SampleEvaluationContext=_hasNlv4SampleEvaluationContext;
-@property(nonatomic) _Bool hasNlv4TaskEvaluationContext; // @synthesize hasNlv4TaskEvaluationContext=_hasNlv4TaskEvaluationContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CLPInstSchemaCLPNLv4SampleEvaluationContext *nlv4SampleEvaluationContext; // @synthesize nlv4SampleEvaluationContext=_nlv4SampleEvaluationContext;
-@property(retain, nonatomic) CLPInstSchemaCLPNLv4TaskEvaluationContext *nlv4TaskEvaluationContext; // @synthesize nlv4TaskEvaluationContext=_nlv4TaskEvaluationContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

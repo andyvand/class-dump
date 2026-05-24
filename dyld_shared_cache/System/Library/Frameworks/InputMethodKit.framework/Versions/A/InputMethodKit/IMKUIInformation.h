@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKInputController, IMKUICandidateTouchBarController, IMKUIWindowBasedCandidateController;
+@class IMKUICandidateTouchBarController;
 
 @interface IMKUIInformation
 {
     IMKUICandidateTouchBarController *_touchBarController;
-    IMKUIWindowBasedCandidateController *_visibleOnscreenController;
 }
 
 + (double);
-+ (double);
++ (double)T;
 + (id);
 + (double);
 + (_Bool);
@@ -25,16 +24,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)d stream id if needed.;
 
 // Remaining properties
-@property(readonly, nonatomic) IMKInputController *inputController;
-@property(readonly, nonatomic) id textClient;
 @property(retain, nonatomic) IMKUICandidateTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
-@property(retain, nonatomic) IMKUIWindowBasedCandidateController *visibleOnscreenController; // @synthesize visibleOnscreenController=_visibleOnscreenController;
 
 @end
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GSAddition, NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface NSFileVersion
 {
     NSURL *_fileURL;
-    GSAddition *_addition;
-    id _deadVersionIdentifier;
-    id _nonLocalVersion;
-    NSURL *_contentsURL;
-    NSString *_localizedName;
-    NSString *_localizedComputerName;
-    NSDate *_modificationDate;
-    NSString *_name;
-    _Bool _isBackup;
-    _Bool _isResolved;
-    _Bool _contentsURLIsAccessed;
 }
 
 @end

@@ -7,8 +7,6 @@
 @interface ReminderKitInternal.REMWidgetRefresh
 {
     id passthroughSubject;
-    id debouncer;
-    id queue;
 }
 
 @end

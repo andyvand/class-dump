@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (void);
++ (void);
 + (_Bool);
 + (id);
 + (id);
@@ -21,11 +21,11 @@
 + (id);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)A;
 + (void);
++ (void)J;
 + (void);
-+ (void);
-+ (long long);
++ (long long):%{public}@ error=%{public}@ /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
 + (void);

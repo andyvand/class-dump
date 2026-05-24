@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewCachedWorldInfo
 {
     long long _generation;
-    long long _sectionCount;
-    NSMapTable *_indexToSectionInfoMap;
-    NSMapTable *_representedObjectToIndexPathMap;
 }
 
 - (void);
-- (id);
+- (id)3QSdBCiT/z0WU6rdQv6Q;
 - (void);
-- (void);
+- (void)';
 - (long long);
 - (void);
 - (void);
@@ -26,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ڧ;
 - (void);
 - (id);
 - (void);
@@ -35,23 +30,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)sortedArrayUsingComparator: /* Error: Ran out of types for this method. */;
+- (void)set_boundInterfaceIdentifier:(id)arg1;
+- (id)setCountOfBytesClientExpectsToReceive:(id)arg1;
 - (void);
+- (void)%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (void)for task %@.  Error=%@ [%ld];
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)`;
 - (id);
 - (long long)PèP(QQDS¤V<WäW;
 - (long long);
 
 // Remaining properties
 @property(readonly) long long generation; // @synthesize generation=_generation;
-@property long long sectionCount; // @synthesize sectionCount=_sectionCount;
 
 @end
 

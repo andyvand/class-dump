@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface CNMultiDictionary
 {
@@ -15,25 +15,23 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)kPostponementSetTicket;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)h;
+- (_Bool)fs;
+- (id)9;
 - (id);
 - (unsigned long long);
-- (void);
-- (id)witchedCancelationToken;
+- (void);
+- (id)CNSwitchWithSchedulerProviderSwitchedCancelationToken;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allKeys;
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPNFCAccessResponseStatusWrapper, NSData, NSString;
+@class NSData;
 
 @interface HAPNFCAccessIssuerKeyResponse
 {
     NSData *_identifier;
-    HAPNFCAccessResponseStatusWrapper *_statusCode;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)s"{?="size"I"state"I}"frameStatusData"Q)"otherInfo"{?="creationTimestamp"d"modifiedTimestamp"d"checksum"I"dataVersion"I}}"frameHeaderV2"{?="checksum"I"dataVersion"I});
 - (_Bool);
 - (void);
 - (id);
@@ -27,15 +26,7 @@
 - (void)¨nçÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HAPNFCAccessResponseStatusWrapper *statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
 
 @end
 

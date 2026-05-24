@@ -6,17 +6,12 @@
 
 #import <AppKit/NSAccessibilityElement.h>
 
-@class NSAccessibilityWeakReferenceContainer, NSArray, NSCollectionView, NSCollectionViewAccessibilityHelper, NSCollectionViewFooterAccessibility, NSCollectionViewHeaderAccessibility, NSMutableDictionary;
+@class NSAccessibilityWeakReferenceContainer, NSCollectionView;
 
 __attribute__((visibility("hidden")))
 @interface NSCollectionViewSectionAccessibility : NSAccessibilityElement
 {
     NSAccessibilityWeakReferenceContainer *_collectionViewAccessibility;
-    NSMutableDictionary *_supplementaryElementsDictionary;
-    id _supplementaryHeaderElement;
-    id _supplementaryFooterElement;
-    long long _indexInCollectionView;
-    NSArray *_accessibilityVisibleChildren;
 }
 
 - (id);
@@ -24,63 +19,59 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)f@y	k!;
+- (id)iv;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setResumableUploadState: /* Error: Ran out of types for this method. */;
+- (id)addSecondaryChallenge:(_Bool)arg1 tokenKey:originNameKey: /* Error: Ran out of types for this method. */;
+- (id)perties;
+- (long long)_NSCFTranslatedFileURLProtocol_PIMPL_1;
+- (_Bool);
+- (_Bool);
+- (id)_;
+- (id)mplete;
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (long long);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long)0;
 - (id);
-- (id);
+- (id)h;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)h;
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)3;
 - (void);
-- (unsigned long long);
+- (unsigned long long)?;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)r;
 - (id);
-- (id);
+- (id);
 - (long long)³Ñ;
 - (id)ory.tLhrrW/Sources/AppKit/AppKit.subproj/NSRulerView.m;
 - (id)à6D;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak NSCollectionView *collectionView; // @dynamic collectionView;
-@property(readonly, nonatomic) __weak NSCollectionViewAccessibilityHelper *collectionViewAccessibility; // @dynamic collectionViewAccessibility;
-@property(nonatomic) long long indexInCollectionView; // @synthesize indexInCollectionView=_indexInCollectionView;
-@property(readonly, nonatomic) NSCollectionViewFooterAccessibility *supplementaryFooterElement; // @dynamic supplementaryFooterElement;
-@property(readonly, nonatomic) NSCollectionViewHeaderAccessibility *supplementaryHeaderElement; // @dynamic supplementaryHeaderElement;
 
 @end
 

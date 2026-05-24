@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFindIndicator, NSString, RVItem, RVPresentingContext;
-@protocol NSImmediateActionAnimationController, NSObject, RVGestureDelegate;
+@protocol NSImmediateActionAnimationController, NSObject;
 
 __attribute__((visibility("hidden")))
 @interface RVGestureDelegate
 {
     id <NSObject> _observer;
-    id <NSImmediateActionAnimationController> _actualGestureDelegate;
-    RVPresentingContext *_presenter;
-    RVItem *_item;
-    NSFindIndicator<NSImmediateActionAnimationController> *_indicator;
-    _Bool _lookupFlavor;
-    id <RVGestureDelegate> specializedController;
 }
 
 - (id);
@@ -24,31 +17,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (void)T;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)Element("head");var r=document.body;r?n.insertBefore(o,r):(id)arg1 n.appendChild(o),o.appendChild(a)}var i={scrollHeight:document.body.scrollHeight,scrollWidth:document.body.scrollWidth,displayHTML:n.outerHTML};return JSON.stringify(i)},MUIWebDocumentDisplayControllerDelegate.prototype.verticalFoldPositionForRedundantContentAbbreviatorAtIndex=function(e){return this.redundantContentAbbreviators[e].verticalFoldPosition()};var MUIWebDocumentDisplayControllerDelegate_sharedInstance=new MUIWebDocumentDisplayControllerDelegate; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) id <NSImmediateActionAnimationController> actualGestureDelegate; // @synthesize actualGestureDelegate=_actualGestureDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) RVItem *item; // @synthesize item=_item;
-@property _Bool lookupFlavor; // @synthesize lookupFlavor=_lookupFlavor;
-@property(retain) RVPresentingContext *presenter; // @synthesize presenter=_presenter;
-@property(retain) id <RVGestureDelegate> specializedController; // @synthesize specializedController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
     struct CGSize _size;
 }
 
-+ (_Bool)ts;
++ (_Bool)wantsElasticEffects;
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)verEntityType;
 - (void);
 - (struct CGSize)ñbð1Â0@ù
 × ;
 - (void)_UITextKit1CanvasContext>"16@0:(struct CGSize)arg1 8;
-- (_Bool)inDisplay;
-- (void)FromTop;
-- (id)wDecorationItem;
+- (_Bool)isMainDisplay;
+- (void)contentBaselineOffsetFromTop;
+- (id)_UICalendarViewDecorationItem;
 
 // Remaining properties
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;

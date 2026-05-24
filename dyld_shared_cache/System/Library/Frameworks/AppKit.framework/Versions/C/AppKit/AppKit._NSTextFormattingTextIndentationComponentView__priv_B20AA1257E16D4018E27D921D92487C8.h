@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id)ionsForURL:(struct CGRect)arg1;
+- (id);
+- (id)_startAsynchronouslyFetchingVersionsForURL:(struct CGRect)arg1;
 
 @end
 

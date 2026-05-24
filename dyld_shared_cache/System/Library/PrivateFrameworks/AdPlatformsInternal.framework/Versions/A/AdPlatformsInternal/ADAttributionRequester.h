@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSXPCConnection;
+@class NSString, NSXPCConnection;
 
 @interface ADAttributionRequester
 {
     NSXPCConnection *_connection;
-    NSNumber *_transactionToken;
-    NSString *_bundleID;
 }
 
 - (void);
@@ -20,18 +18,16 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSNumber *transactionToken; // @synthesize transactionToken=_transactionToken;
 
 @end
 

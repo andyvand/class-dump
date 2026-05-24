@@ -7,12 +7,6 @@
 @interface NewsUI2.TagFeedCurationService
 {
     id headlineService;
-    id tagService;
-    id recipeService;
-    id cloudContext;
-    id tagFeedServiceConfigFetcher;
-    id feedPersonalizationService;
-    id assetManager;
 }
 
 @end

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface RTAuthorizedLocationZDRLocationsMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)_iCDPHSMPlesio;
++ (id)virtual_quic_server_connection_id;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *zdrLocationDbEntryTimeCfatSec; // @dynamic zdrLocationDbEntryTimeCfatSec;
-@property(copy, nonatomic) NSDate *zdrLocationLastSeenTimeCfatSec; // @dynamic zdrLocationLastSeenTimeCfatSec;
-@property double zdrLocationLatitudeDeg; // @dynamic zdrLocationLatitudeDeg;
-@property double zdrLocationLongitudeDeg; // @dynamic zdrLocationLongitudeDeg;
-@property unsigned long long zdrLocationType; // @dynamic zdrLocationType;
 @property(copy, nonatomic) NSUUID *zdrLocationUUID; // @dynamic zdrLocationUUID;
 
 @end

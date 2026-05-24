@@ -7,7 +7,6 @@
 @interface IMSharedUtilities.RemoteIntentFileMirrorRequestManager
 {
     id $defaultActor;
-    id allMirrorFileRequestTasks;
 }
 
 @end

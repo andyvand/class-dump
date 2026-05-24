@@ -7,16 +7,13 @@
 @interface TSKFidgetResolver
 {
     double _fidgetThreshold;
-    id *_values;
-    double *_times;
-    unsigned long long _head;
 }
 
+- (void)aybackDidStart after rate change dropping to 0 [not-stalled] - Unpreparing for pause;
 - (void);
-- (void);
-- (void);
+- (void)xp_amp_podcasts_paf;
 - (unsigned long long);
-- (void);
+- (void)-	;
 - (id);
 - (double);
 - (void);
@@ -24,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) double fidgetThreshold; // @synthesize fidgetThreshold=_fidgetThreshold;
-@property(readonly, nonatomic) id nonFidgetValue;
 
 @end
 

@@ -6,20 +6,16 @@
 
 #import <UIKitCore/_UISEGestureFeature.h>
 
-@protocol _UISEGestureFeatureSettings, _UISETouchedEdgesProvider;
+@protocol _UISEGestureFeatureSettings;
 
 __attribute__((visibility("hidden")))
 @interface _UISEVelocityDirectionEdgesGestureFeature : _UISEGestureFeature
 {
     id <_UISEGestureFeatureSettings> _settings;
-    id <_UISETouchedEdgesProvider> _provider;
-    _Bool _exactMatchEdges;
-    struct CGPoint _initialLocation;
-    unsigned long long _touchedEdges;
 }
 
 - (id);
-- (void)Delegate:(const struct _UISEGestureFeatureSample *)arg1;
+- (void)setInternalDelegate:(const struct _UISEGestureFeatureSample *)arg1;
 - (unsigned long long)|Ä°8;
 - (id)ndowScenePlacementP;
 - (void)Í±;

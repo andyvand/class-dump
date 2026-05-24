@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCInterface;
-@protocol OS_dispatch_group;
-
 __attribute__((visibility("hidden")))
 @interface _NSXPCConnectionExportedObjectTable
 {
     id _proxy1Object;
-    NSXPCInterface *_proxy1Interface;
-    struct __CFDictionary *_proxyNumberToObject;
-    struct __CFDictionary *_proxyNumberToInterface;
-    struct __CFDictionary *_objectToProxyNumber;
-    NSObject<OS_dispatch_group> *_replyGroup;
-    unsigned long long _next;
-    struct os_unfair_lock_s _lock;
-    _Bool _valid;
 }
 
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)_;
 
 @end
 

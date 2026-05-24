@@ -8,13 +8,6 @@
 {
     id device;
     id controlModules;
-    id userHasInteractedWithControls;
-    id _decorationButtons;
-    id _bottomViewController;
-    id allowsSwipeDownDismissal;
-    id controlViewFrames;
-    id _overrideHeaderConfig;
-    id _presentedError;
 }
 
 @end

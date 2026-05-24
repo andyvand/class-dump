@@ -7,9 +7,6 @@
 @interface PFZlibDataDecompressionOptions
 {
     _Bool _decompressAllAtOnce;
-    int _windowBits;
-    CDUnknownBlockType _createBuffer;
-    CDUnknownBlockType _growData;
 }
 
 + (id);
@@ -19,14 +16,11 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)_TtCO10Accelerate4BNNS12PermuteLayer;
 - (CDUnknownBlockType);
-- (void);
+- (void)roller"24;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType createBuffer; // @synthesize createBuffer=_createBuffer;
-@property(nonatomic) _Bool decompressAllAtOnce; // @synthesize decompressAllAtOnce=_decompressAllAtOnce;
-@property(copy, nonatomic) CDUnknownBlockType growData; // @synthesize growData=_growData;
 @property(nonatomic) int windowBits; // @synthesize windowBits=_windowBits;
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol AVHomeIPCameraActionButtonHandling
+- (void)L.G;
+- (void);
 @end
 

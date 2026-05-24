@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
+@class GCFuture, NSObject;
 @protocol OS_dispatch_queue;
 
 @protocol GCHIDSystemServiceProviding
+- (GCFuture *);
 
 // Remaining properties
-@property(readonly) NSSet *services;
 @property(readonly) NSObject<OS_dispatch_queue> *servicesQueue;
 @end
 

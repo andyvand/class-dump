@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CPLScopedIdentifier
 {
     long long _scopeIndex;
-    NSString *_scopeIdentifier;
-    NSString *_identifier;
 }
 
 + (id);
 + (id);
-+ (id)ý;
-+ (id)ýªY}ó;
-+ (id)Uký{C©ÿÿ_Ö#ÕÿÃÑé#mø_©öW©ôO	©ý{
-©ýóªõªö;
++ (id);
++ (id);
++ (id);
 + (id);
 + (_Bool);
 + (id);
@@ -26,7 +21,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,26 +30,23 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id)³;
-- (id)B;
-- (_Bool)/íý{F©ôOE©öWD©ÿÃÿ_ÖÀ@9B©àª(Ô#ÕÿÑø_©öW©ôO©ý{	©ýCóªõªô;
 - (id);
+- (id);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *scopeIdentifier; // @synthesize scopeIdentifier=_scopeIdentifier;
 @property(nonatomic) long long scopeIndex;
-@property(readonly) NSString *stringRepresentation;
 
 @end
 

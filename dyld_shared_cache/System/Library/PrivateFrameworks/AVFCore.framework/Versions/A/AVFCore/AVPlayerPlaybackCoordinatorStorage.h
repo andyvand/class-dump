@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlaybackCoordinationMedium, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol AVPlaybackCoordinationMediumDelegate, AVPlayerPlaybackCoordinatorDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerPlaybackCoordinatorStorage
 {
     NSObject<OS_dispatch_queue> *rwQueue;
-    NSMutableDictionary *controlStates;
-    NSMutableDictionary *participantStates;
-    NSMutableDictionary *participantLimitPerSuspensionReason;
-    NSMutableArray *suspensionReasonsThatTriggerWaiting;
-    _Bool pauseSnapsToMediaTimeOfOriginator;
-    NSMutableArray *waitingPoliciesArray;
-    NSUUID *localParticipantUUID;
-    id <AVPlayerPlaybackCoordinatorDelegate> delegate;
-    id <AVPlaybackCoordinationMediumDelegate> coordinationMediumDelegate;
-    NSString *mediumLoggingIdentifier;
-    AVPlaybackCoordinationMedium *playbackCoordinationMedium;
-    NSMutableDictionary *currentLamportTimestampForIdentifier;
 }
 
 - (void);
 - (id);
-- (void)leCount: /* Error: Ran out of types for this method. */;
+- (void)setMaxSampleCount: /* Error: Ran out of types for this method. */;
 
 @end
 

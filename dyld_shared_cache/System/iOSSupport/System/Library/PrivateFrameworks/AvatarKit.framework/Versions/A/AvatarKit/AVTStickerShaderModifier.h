@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AVTStickerShaderModifier
 {
     _Bool _isCropShaderModifier;
-    _Bool _forceDoubleSided;
-    NSString *_entryPoint;
-    id _nodeNames;
-    NSString *_data;
-    NSArray *_properties;
-    NSDictionary *_dictionary;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (_Bool);
@@ -33,18 +27,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)e check results, difference, %.2lf, difference uncertainty, %.2lf, consistency, %.2lf, threshold, %.2lf, dot_angle_variance_of_solution_to_check_against, %.2lf,dot_angle_variance_of_solution_under_test, %.2lf. Exiting with check failed return value.;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *data; // @synthesize data=_data;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) NSString *entryPoint; // @synthesize entryPoint=_entryPoint;
-@property(readonly, nonatomic) _Bool forceDoubleSided; // @synthesize forceDoubleSided=_forceDoubleSided;
-@property(readonly, nonatomic) id nodeNames; // @synthesize nodeNames=_nodeNames;
-@property(readonly, nonatomic) NSArray *properties; // @synthesize properties=_properties;
 
 @end
 

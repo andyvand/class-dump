@@ -7,6 +7,9 @@
 @class _UISheetPresentationControllerConfiguration;
 
 @protocol _UIRemoteSheet
+- (_UISheetPresentationControllerConfiguration *)@36@?44;
+- (void)ctionary"24@"NSString"32@"NSNumber"40;
+- (void)personCentricID:(_UISheetPresentationControllerConfiguration *)arg1 chat: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setSheetConfiguration:) _UISheetPresentationControllerConfiguration *_sheetConfiguration;

@@ -6,17 +6,12 @@
 
 #import <GeoServices/_GEOConfigDBOperationBase.h>
 
-@class NSString, _GEOConfigDB;
+@class _GEOConfigDB;
 
 __attribute__((visibility("hidden")))
 @interface _GEOConfigDBInsertOperation : _GEOConfigDBOperationBase
 {
     _GEOConfigDB *_configDB;
-    long long _rowId;
-    NSString *_type;
-    NSString *_key;
-    NSString *_value;
-    long long _parentId;
 }
 
 - (id);
@@ -24,13 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)^)Ë|P@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

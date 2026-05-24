@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
-
 @interface BWRenderList
 {
     struct BWRenderListRendererList _rendererList;
-    struct BWRenderListRendererNode *_originalMarkerRendererNode;
-    struct BWRenderListParameterList _parameterList;
-    _Bool _affectsMetadata;
-    _Bool _supportsAnimation;
-    NSSet *_originalFilterNames;
-    NSSet *_processedFilterNames;
-    _Bool _isolationQueuePrepared;
-    NSObject<OS_dispatch_queue> *_preparationIsolationQueue;
 }
 
 + (id);
 + (void)];
 - (struct BWRenderListParameterList *);
-- (void);
-- (_Bool);
+- (void)NSCoding;
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -37,26 +26,11 @@
 - (_Bool);
 - (id)!Ð!dAùq$°1Â0@ù
 × ;
-- (id)on:(_Bool)arg1;
-- (void)viewOutputEnabled;
+- (id)stillImageCoordinator:(_Bool)arg1 updateSettingsAfterLiveReconfiguration:(_Bool)arg2;
+- (void)_postColorProcessingThumbnailOnPreviewOutputEnabled;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool affectsMetadata; // @synthesize affectsMetadata=_affectsMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMetalColorCubeRenderer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *originalFilterNames; // @synthesize originalFilterNames=_originalFilterNames;
-@property(readonly, nonatomic) struct BWRenderListParameterList *parameterList;
 @property(nonatomic, getter=isPrepared) _Bool prepared;
-@property(readonly, nonatomic) NSSet *processedFilterNames; // @synthesize processedFilterNames=_processedFilterNames;
-@property(readonly, nonatomic) _Bool producesOriginalRender;
-@property(readonly, nonatomic) struct BWRenderListRendererList *rendererList;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAnimation; // @synthesize supportsAnimation=_supportsAnimation;
 
 @end
 

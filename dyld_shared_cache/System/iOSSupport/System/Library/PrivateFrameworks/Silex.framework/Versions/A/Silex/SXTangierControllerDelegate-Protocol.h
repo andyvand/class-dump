@@ -5,5 +5,8 @@
 //
 
 @protocol SXTangierControllerDelegate
+
+@optional
+- (void);
 @end
 

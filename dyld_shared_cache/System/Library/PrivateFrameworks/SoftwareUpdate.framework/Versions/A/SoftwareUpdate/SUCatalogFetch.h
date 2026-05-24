@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString, NSURL;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SUCatalogFetch
 {
     NSDictionary *_catalogDictionary;
-    NSURL *_finalURL;
-    NSURL *_setCatalogURL;
-    NSString *_previousEntityTag;
-    _Bool _skipIfUnchanged;
-    NSString *_currentEntityTag;
-    _Bool _didUseDefaultURL;
-    NSError *_error;
 }
 
 + (id);
 + (id);
++ (id)$;
 + (id);
-+ (id);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

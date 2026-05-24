@@ -7,13 +7,10 @@
 @interface NewsUI2.BundleViaOfferUpsellHandler
 {
     id paidBundleViaOfferHandler;
-    id appLaunchMethodChecker;
-    id featureAvailability;
-    id router;
 }
 
 - (id);
-- (void)State;
+- (void)AppReviewRequestState;
 
 @end
 

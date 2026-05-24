@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TSKAccessController;
-@protocol OS_dispatch_group, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_semaphore;
 
 @interface TSDTilingBackgroundQueue
 {
     NSObject<OS_dispatch_semaphore> *mCanEnqueueReaders;
-    NSObject<OS_dispatch_group> *mInFlightReaders;
-    struct os_unfair_lock_s mReaderSpinLock;
-    unsigned long long mReaderCount;
-    NSObject<OS_dispatch_semaphore> *mReadLockSignal;
-    long long mShutdownToken;
-    _Bool mShuttingDown;
-    TSKAccessController *mAccessController;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ʬ;
 - (void);
 - (void);
 - (id);

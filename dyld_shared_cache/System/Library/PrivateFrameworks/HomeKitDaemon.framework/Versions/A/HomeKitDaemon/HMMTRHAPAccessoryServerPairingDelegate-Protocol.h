@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class HMMTRAccessoryServer, NSDictionary, NSNumber;
 
 @protocol HMMTRHAPAccessoryServerPairingDelegate
-- (void)teFromString:(NSDictionary *)arg1;
+- (void)[;
+- (void)_connectionStateFromString:(NSDictionary *)arg1;
 - (void)Submitting ABC event for failure:(NSNumber *)arg1 Must be starting or stopping;
 - (void)quested, but not supported on the accessory.;
+
+@optional
+- (void)n stConnectToAddress:(HMMTRAccessoryServer *)arg1 ];
 @end
 

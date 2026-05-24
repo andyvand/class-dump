@@ -5,5 +5,6 @@
 //
 
 @protocol AOSUIAccountContactSelectorDelegate
+- (void);
 @end
 

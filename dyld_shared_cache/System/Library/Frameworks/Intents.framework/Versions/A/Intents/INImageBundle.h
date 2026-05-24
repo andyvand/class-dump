@@ -9,27 +9,23 @@
 @interface INImageBundle
 {
     NSString *_bundlePath;
-    NSString *_bundleIdentifier;
-    unsigned long long _bundleType;
 }
 
 + (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)edPrivate;
+- (id)y;
 - (void);
-- (void);
-- (id);
+- (void)WQBoHLWaEB8_xIdvK4/Library/Caches/com.apple.xbs/TemporaryDirectory.kPthP0/Sources/CoreWiFi/Framework/CWFXPCListener.m;
+- (id);
 - (id)setPropertiesByName: /* Error: Ran out of types for this method. */;
 - (void)",C,N,V_responseTypeName;
-- (void)eEnableCoolingOptionsCollectionForSetSeatSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideEnableCoolingOptionsCollectionForSetSeatSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(copy, nonatomic) NSString *bundlePath; // @synthesize bundlePath=_bundlePath;
-@property(nonatomic) unsigned long long bundleType; // @synthesize bundleType=_bundleType;
 
 @end
 

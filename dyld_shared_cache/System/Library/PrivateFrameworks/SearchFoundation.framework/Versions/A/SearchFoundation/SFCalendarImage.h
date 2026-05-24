@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSData, NSDate, NSDictionary, NSString;
+@class NSDate;
 
 @interface SFCalendarImage : SFImage
 {
@@ -15,42 +15,20 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)playbackSessionIdentifier;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)wallpaperPropertiesTimestamp;
+- (void)fetchQuestionsWithLocalIdentifiers:(id)arg1 options:validQuestionsOnly: /* Error: Ran out of types for this method. */;
+- (id)ibrary != nil;
 - (id);
 - (id);
 - (id);
 - (void)ction",&,N,V_socialMediaPostCardSection;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
 @property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
 
 @end
 

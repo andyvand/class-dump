@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CNAvatarView;
+@class CNAvatarView;
 
 @interface CKAvatarButton
 {
     CNAvatarView *_avatarView;
-    CKConversation *_conversation;
 }
 
+- (void)ICCalculateAccessibilityController;
+- (void)e;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id)
 × ;
 - (void)11Â0@ù
 × ;
-- (void)dUseTranslucentBars;
+- (void)shouldUseTranslucentBars;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
 
 @end
 

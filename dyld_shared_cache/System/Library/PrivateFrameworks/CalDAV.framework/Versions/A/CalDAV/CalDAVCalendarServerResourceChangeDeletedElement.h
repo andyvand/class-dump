@@ -6,38 +6,30 @@
 
 #import <CalDAV/CalDAVCalendarServerResourceChangeElement.h>
 
-@class ICSDateValue, NSString;
+@class NSString;
 
 @interface CalDAVCalendarServerResourceChangeDeletedElement : CalDAVCalendarServerResourceChangeElement
 {
     _Bool _hadMoreInstances;
-    NSString *_componentType;
-    NSString *_summary;
-    NSString *_displayName;
-    ICSDateValue *_nextInstance;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)/;
 - (void);
 - (id);
 - (id);
+- (id)Instance:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id)charge_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *componentType; // @synthesize componentType=_componentType;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool hadMoreInstances; // @synthesize hadMoreInstances=_hadMoreInstances;
-@property(retain, nonatomic) ICSDateValue *nextInstance; // @synthesize nextInstance=_nextInstance;
-@property(retain, nonatomic) NSString *summary; // @synthesize summary=_summary;
 
 @end
 

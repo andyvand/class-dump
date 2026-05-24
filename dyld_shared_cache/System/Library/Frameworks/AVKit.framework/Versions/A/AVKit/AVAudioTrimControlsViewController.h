@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface AVAudioTrimControlsViewController : AVTrimControlsViewController
 {
     NSView *_initialFirstResponder;
-    CDUnknownBlockType _nextKeyViewSetupBlock;
 }
 
 - (void);
@@ -24,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (void)a	*hR;
 - (void);
 
 @end

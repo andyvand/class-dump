@@ -5,5 +5,6 @@
 //
 
 @protocol AFAudioSessionCoordinationSnapshotMutating
+- (void);
 @end
 

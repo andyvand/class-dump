@@ -6,8 +6,6 @@
 
 #import <iTunesCloud/ICPlayActivityEventItemIDs.h>
 
-@class NSString;
-
 @interface ICMutablePlayActivityEventItemIDs : ICPlayActivityEventItemIDs
 {
 }
@@ -19,16 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)!i `aj;
 
 // Remaining properties
 @property(nonatomic) unsigned long long cloudID; // @dynamic cloudID;
-@property(nonatomic) long long equivalencySourceAdamID; // @dynamic equivalencySourceAdamID;
-@property(copy, nonatomic) NSString *lyricsID; // @dynamic lyricsID;
-@property(nonatomic) long long purchasedAdamID; // @dynamic purchasedAdamID;
-@property(nonatomic) long long radioAdamID; // @dynamic radioAdamID;
-@property(nonatomic) long long reportingAdamID; // @dynamic reportingAdamID;
-@property(nonatomic) long long subscriptionAdamID; // @dynamic subscriptionAdamID;
 
 @end
 

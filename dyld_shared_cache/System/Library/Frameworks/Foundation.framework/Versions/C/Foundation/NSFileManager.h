@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSValue, _NSFileManagerBridge;
 @protocol NSFileManagerDelegate;
 
 @interface NSFileManager
 {
     id <NSFileManagerDelegate> _delegate;
-    NSValue *_weakDelegateValue;
-    _NSFileManagerBridge *swiftBridge;
 }
 
 @end

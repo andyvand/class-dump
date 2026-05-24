@@ -4,69 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLArchitecture, NSArray, NSString;
-@protocol MTL4CommandAllocator, MTL4CommandBuffer, MTLFunction, MTLFunctionHandle, MTLIndirectCommandBuffer, MTLTensor;
+@class NSString;
+@protocol MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTL4CommandQueue, MTLArgumentEncoder, MTLCommandQueue, MTLDynamicLibrary, MTLFunction, MTLFunctionHandle, MTLHeap, MTLIOFileHandle, MTLIndirectCommandBuffer, MTLLibrary, MTLSamplerState, MTLTensor;
 
 @protocol MTLDevice
+- (CDStruct_14f26992)_secondaryStatusSubject;
+- (CDStruct_14f26992)uPlusNDowngrade;
+- (id <MTLSamplerState>);
+- (id <MTLHeap>)$;
+- (_Bool)JSDataProvider",&,N,V_dataProvider;
+- (unsigned long long)aultAnimation:(long long)arg1 %@>;
+- (id <MTLIOFileHandle>)?;
+- (id <MTLIOFileHandle>);
+- (id <MTLArgumentEncoder>)@"CLLocation"8@"NSString"16@"NSError"24;
+- (void)!;
+- (id <MTLLibrary>)1;
+- (_Bool)
+;
+- (id <MTLDynamicLibrary>)r/lib/swift/libswiftObjectiveC.dylib;
+- (id <MTL4ArgumentTable>)FeatureFlags;
+- (void)__objc_data;
+- (_Bool)ElementCredential_SwiftUI;
+- (id <MTLLibrary>)_;
+- (id <MTLCommandQueue>)em/iOSSupport/System/Library/Frameworks/_SceneKit_SwiftUI.framework/Versions/A/_SceneKit_SwiftUI;
 - (id <MTL4CommandBuffer>)4;
-- (_Bool)andler: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ueueWithMaxCommandBufferCount: /* Error: Ran out of types for this method. */;
-- (id <MTLFunctionHandle>)CompletedHandler:(id <MTLFunction>)arg1;
+- (_Bool)newRenderPipelineStateWithMeshDescriptor:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)newCommandQueueWithMaxCommandBufferCount: /* Error: Ran out of types for this method. */;
+- (id <MTLFunctionHandle>)addCompletedHandler:(id <MTLFunction>)arg1;
 - (id <MTL4CommandAllocator>)d;
-- (_Bool);
 - (_Bool)Ý;
-- (id <MTLIndirectCommandBuffer>)saction;
-- (unsigned long long)tion;
-- (_Bool)aVelocityThreshold;
+- (id <MTLIndirectCommandBuffer>)transaction;
+- (unsigned long long)completion;
+- (_Bool)inertiaVelocityThreshold;
 - (unsigned long long)yytGG;
 - (unsigned long long)ÿÿ áüÿ45;
 - (_Bool)Üÿÿÿ;
 - (unsigned long long)KÿÿäKÿÿ;
+- (id <MTL4CommandQueue>)__RealityKitOverlayRegistry;
 - (id <MTLTensor>)ÿÝÀõöüÿÍÀõ4÷üÿíÀõøüÿÀõ´øüÿuÀõÈøüÿ}ÀõÜøüÿÀõðøüÿÕÀõäùüÿ;
 
+@optional
+- (void)ductViewController"16;
+
 // Remaining properties
-@property(readonly) MTLArchitecture *architecture;
-@property(readonly) unsigned long long argumentBuffersSupport;
-@property(readonly, getter=areBarycentricCoordsSupported) _Bool barycentricCoordsSupported;
-@property(readonly) NSArray *counterSets;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly, getter=isDepth24Stencil8PixelFormatSupported) _Bool depth24Stencil8PixelFormatSupported;
-@property(readonly) _Bool hasUnifiedMemory;
-@property(readonly, getter=isHeadless) _Bool headless;
-@property(readonly) unsigned long long location;
-@property(readonly) unsigned long long locationNumber;
-@property(readonly, getter=isLowPower) _Bool lowPower;
-@property(readonly) unsigned long long maxArgumentBufferSamplerCount;
-@property(readonly) unsigned long long maxBufferLength;
-@property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) struct maxThreadsPerThreadgroup;
-@property(readonly) unsigned long long maxTransferRate;
-@property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
-@property(readonly) unsigned int peerCount;
-@property(readonly) unsigned long long peerGroupID;
-@property(readonly) unsigned int peerIndex;
-@property(readonly, getter=areProgrammableSamplePositionsSupported) _Bool programmableSamplePositionsSupported;
-@property(readonly, getter=areRasterOrderGroupsSupported) _Bool rasterOrderGroupsSupported;
-@property(readonly) unsigned long long readWriteTextureSupport;
-@property(readonly) unsigned long long recommendedMaxWorkingSetSize;
 @property(readonly) unsigned long long registryID;
-@property(readonly, getter=isRemovable) _Bool removable;
-@property _Bool shouldMaximizeConcurrentCompilation;
-@property(readonly) unsigned long long sparseTileSizeInBytes;
-@property(readonly) _Bool supports32BitFloatFiltering;
-@property(readonly) _Bool supports32BitMSAA;
-@property(readonly) _Bool supportsBCTextureCompression;
-@property(readonly) _Bool supportsDynamicLibraries;
-@property(readonly) _Bool supportsFunctionPointers;
-@property(readonly) _Bool supportsFunctionPointersFromRender;
-@property(readonly) _Bool supportsPlacementSparse;
-@property(readonly) _Bool supportsPrimitiveMotionBlur;
-@property(readonly) _Bool supportsPullModelInterpolation;
-@property(readonly) _Bool supportsQueryTextureLOD;
-@property(readonly) _Bool supportsRaytracing;
-@property(readonly) _Bool supportsRaytracingFromRender;
-@property(readonly) _Bool supportsRenderDynamicLibraries;
-@property(readonly) _Bool supportsShaderBarycentricCoordinates;
 @end
 

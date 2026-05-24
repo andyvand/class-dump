@@ -11,22 +11,20 @@
 @interface FPKnownFolderPathMatchingLocation : NSFileProviderKnownFolderLocation
 {
     NSString *_parentItemIdentifier;
-    NSString *_filename;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id) ;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)9h;
 - (id);
 - (void)A>&!DùÑç)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
 @property(readonly, copy, nonatomic) NSString *parentItemIdentifier; // @synthesize parentItemIdentifier=_parentItemIdentifier;
 
 @end

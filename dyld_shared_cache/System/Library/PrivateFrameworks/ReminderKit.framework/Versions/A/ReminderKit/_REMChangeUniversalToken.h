@@ -15,7 +15,7 @@
 - (_Bool);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)ad request timed out;
 - (void);
 
 @end

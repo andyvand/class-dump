@@ -4,35 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSMutableDictionary, NSURL, PAMediaConversionServiceResourceURLCollectionAccessProvider;
+@class NSMutableDictionary;
 
 @interface PAMediaConversionServiceResourceURLCollection
 {
     NSMutableDictionary *_urlReferencesByRole;
-    PAMediaConversionServiceResourceURLCollectionAccessProvider *_accessProviderDelegate;
 }
 
-+ (id);
++ (id)g;
 + (id);
 + (_Bool);
-+ (id);
++ (id)8;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (void)@yh";
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)d;
+- (id);
 - (_Bool);
 - (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)@�*;
 - (id);
 - (id);
 - (id);
@@ -44,23 +43,15 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)k:(id)arg1 %@;
+- (id):Ignoring discovered paired accessory %@ with no delegate /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)commute15MinWarningEntityHistograms;
 
 // Remaining properties
-@property(retain) PAMediaConversionServiceResourceURLCollectionAccessProvider *accessProviderDelegate; // @synthesize accessProviderDelegate=_accessProviderDelegate;
-@property(readonly) _Bool allURLsAreReadable;
-@property(readonly) NSError *blastDoorError;
-@property(readonly) NSDictionary *blastDoorMainSourceProperties;
-@property(readonly) NSURL *blastDoorSourceURL;
-@property(readonly) NSDictionary *blastDoorVideoComplementProperties;
 @property(readonly) _Bool isBlastDoorAccessRequired;
-@property(readonly) unsigned long long urlCount;
-@property(retain) NSMutableDictionary *urlReferencesByRole; // @synthesize urlReferencesByRole=_urlReferencesByRole;
 
 @end
 

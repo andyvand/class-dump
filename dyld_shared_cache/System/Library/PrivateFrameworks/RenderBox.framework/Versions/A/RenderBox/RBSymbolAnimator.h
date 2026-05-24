@@ -9,9 +9,6 @@
 @interface RBSymbolAnimator
 {
     struct Animator _animator;
-    struct spin_lock _lock;
-    struct vector<id<RBSymbolAnimatorObserver>, 2UL, unsigned int> _observers;
-    struct atomic<bool> _needs_notify;
 }
 
 - (struct CGRect);
@@ -23,18 +20,18 @@
 - (int);
 - (unsigned int);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (double);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)�;
 - (id);
-- (CDStruct_0b1c536a);
+- (CDStruct_818bb265);
 - (void);
 - (void);
 - (void);
 - (struct _RBSymbolUpdate *);
 - (void);
-- (CDStruct_0b1c536a);
+- (CDStruct_818bb265);
 - (unsigned int);
 - (void);
 - (void);
@@ -47,53 +44,32 @@
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (void);
-- (CDStruct_cb0563aa);
+- (void)tLevelFormat=^^?^{WrdParagraphProperties}^{WrdCharacterProperties}iSiii[9C]iiS^Sb1b1b1b1b1Cb1b1b1b1b1b1b1b1}32;
+- (CDStruct_7281bdf6)isUpsideDown;
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
+- (void);
 - (struct CGPoint);
 - (void);
-- (_Bool);
+- (_Bool)c;
 - (double);
+- (void)placemarkWithLocation:(_Bool)arg1 name:postalAddress: /* Error: Ran out of types for this method. */;
+- (id)dataDetectorMatchesForTokenIndexes:dataDetectorMatches:allowDatesInPast:allowTimeOffset: /* Error: Ran out of types for this method. */;
+- (void)list content for %@:(double)arg1 %@;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (_Bool);
 - (struct CGPoint);
+- (void);
 - (void);
+- (struct CGRect)rby initWithDelegate self:%p, delegate:%p /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CGRect);
-- (void);
-- (unsigned int)tsScale;
+- (unsigned int)contentsScale;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect alignmentRect;
-@property(nonatomic) struct CGPoint anchorPoint;
-@property(readonly, nonatomic, getter=isAnimating) _Bool animating;
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(nonatomic) double currentTime;
-@property(nonatomic) unsigned int depth;
-@property(nonatomic) _Bool flipsRightToLeft;
 @property(retain, nonatomic) CUINamedVectorGlyph *glyph;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) double maxVelocity;
-@property(nonatomic) CDStruct_0b1c536a opacities;
-@property(nonatomic) struct CGPoint position;
-@property(nonatomic) struct CGPoint presentationPosition;
-@property(nonatomic) unsigned int renderingMode;
-@property(nonatomic) unsigned int renderingOptions;
-@property(nonatomic) int scaleLevel;
-@property(nonatomic) struct CGSize size;
-@property(readonly, nonatomic) unsigned int styleMask;
-@property(nonatomic) CDStruct_cb0563aa transform;
-@property(readonly, nonatomic) struct CGRect unroundedAlignmentRect;
-@property(nonatomic) double variableValue;
-@property(readonly, nonatomic) unsigned int version;
 
 @end
 

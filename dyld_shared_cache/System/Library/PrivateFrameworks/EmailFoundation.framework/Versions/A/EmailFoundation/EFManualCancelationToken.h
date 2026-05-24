@@ -11,29 +11,27 @@
     _EFCancelationTokenImpl *_impl;
 }
 
++ (id)lete. %@;
 + (id);
-+ (id);
+- (id)h;
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)veYb/PG8hh3UKzT22R0WAFeEcChBIcn+GjIqdK
+BZOBr74hRlCA4FVcaKFjU3rCDj6x+hHZKiWjsRLSuOiOxXmMLsX5F+ewajIOzCPl
+1YzvpNC211yU31GPst+onEdbqDNmU/iHLDC/YA1Jj25pfmL46sGYjbpKv2vpr/8I
+hbRRC1LsFNvVPUL5cGd9SJ9O/5EqrT6RPpXBfBU4Ag8ufm9FfGtgIZMxIpL1/l+x
+gAV5Aow/gls4Tso7ZgQd1ijzKH5NwRTcZuJvO1jeeEdgwMa2OKGPdRY=
+-----END CERTIFICATE-----
+;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isCanceled) _Bool canceled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

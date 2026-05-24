@@ -7,6 +7,9 @@
 @protocol NSMenuDelegate
 
 @optional
+- (void)T;
+- (_Bool);
+- (void)compression.;
 - (_Bool)ôô;
 @end
 

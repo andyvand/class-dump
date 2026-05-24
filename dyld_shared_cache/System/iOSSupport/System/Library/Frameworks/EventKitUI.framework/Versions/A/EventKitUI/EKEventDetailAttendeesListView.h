@@ -4,79 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIActivityIndicatorView, UIColor;
+@class NSArray;
 
 @interface EKEventDetailAttendeesListView
 {
     long long _statusCounts[4];
-    long long _columnAItems;
-    long long _columnBItems;
-    long long _firstColumnBType;
-    double _maxHeight;
-    double _actualHeight;
-    NSMutableArray *_inviteeNames;
-    _Bool _shouldEvenOutBlocks;
-    NSArray *_finalizedNames;
-    UIActivityIndicatorView *_spinnerView;
-    _Bool _showingSpinner;
-    _Bool _highlighted;
-    _Bool _groupsNames;
-    NSArray *_ungrouped;
-    UIColor *_textColor;
-    UIColor *_highlightedTextColor;
-    double _bottomSpacingForSpinner;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Y%s;
 - (_Bool);
-- (id);
-- (void);
+- (id)*s;
+- (void);
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long)s;
 - (double);
-- (double);
+- (double)!&s;
+- (_Bool);
+- (void)s;
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (double);
-- (double);
-- (void);
+- (double)*s;
+- (double);
+- (void)s;
 - (double);
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
+- (void);
+- (double)@@"UNNotificationRequest";
 - (void);
-- (double);
 - (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)H;
 - (id);
 - (id);
 - (void);
-- (void)Range;
-- (id)emForIndexPathRow: /* Error: Ran out of types for this method. */;
-- (_Bool)dsTop;
-- (void)ImageView;
+- (void)selectedTextRange;
+- (id)hasSubitemForIndexPathRow: /* Error: Ran out of types for this method. */;
+- (_Bool)_capOffsetFromBoundsTop;
+- (void)statusImageView;
 - (void)availability requests and the participant has already responded.  The attendee will likely be marked as busy because they've already responded, but that can be misleading if they've accepted.  Will not get availability for recipient:[%@] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double bottomSpacingForSpinner; // @synthesize bottomSpacingForSpinner=_bottomSpacingForSpinner;
-@property(readonly, nonatomic) long long columnAItems; // @synthesize columnAItems=_columnAItems;
-@property(readonly, nonatomic) long long columnBItems; // @synthesize columnBItems=_columnBItems;
-@property(nonatomic) _Bool groupsNames; // @synthesize groupsNames=_groupsNames;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UIColor *highlightedTextColor; // @synthesize highlightedTextColor=_highlightedTextColor;
-@property(retain, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
 @property(retain, nonatomic) NSArray *ungrouped; // @synthesize ungrouped=_ungrouped;
 
 @end

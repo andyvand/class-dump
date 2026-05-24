@@ -13,11 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) double creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) NSString *key; // @dynamic key;
 @property(retain, nonatomic) NSString *privateValue; // @dynamic privateValue;
-@property(nonatomic) long long reportVersion; // @dynamic reportVersion;
-@property(nonatomic) _Bool submitted; // @dynamic submitted;
 
 @end
 

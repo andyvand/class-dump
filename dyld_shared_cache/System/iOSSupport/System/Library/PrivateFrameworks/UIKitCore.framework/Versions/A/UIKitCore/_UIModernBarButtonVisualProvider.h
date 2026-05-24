@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (void)tusDidChange;
+- (void)_accessibilityReduceMotionStatusDidChange;
 - (void)e=dd}},N,V_caretRectBeforeInsertion;
 
 @end

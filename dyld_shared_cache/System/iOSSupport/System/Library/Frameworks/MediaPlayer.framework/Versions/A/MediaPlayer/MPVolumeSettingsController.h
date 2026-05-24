@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIAlertController, UIWindow;
+@class NSString, UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface MPVolumeSettingsController
 {
     NSString *_audioCategory;
-    UIAlertController *_alertController;
-    UIWindow *_hostingWindow;
-    UIWindow *_previousWindow;
 }
 
 - (id);
@@ -24,13 +21,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
-- (void)ryShowCloudContent;
+- (void)_canDefaultMediaLibraryShowCloudContent;
 
 // Remaining properties
 @property(nonatomic) __weak UIWindow *hostingWindow; // @synthesize hostingWindow=_hostingWindow;
-@property(nonatomic) __weak UIWindow *previousWindow; // @synthesize previousWindow=_previousWindow;
 
 @end
 

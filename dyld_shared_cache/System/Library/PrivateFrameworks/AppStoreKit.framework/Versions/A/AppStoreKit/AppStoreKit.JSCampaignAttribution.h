@@ -7,10 +7,9 @@
 @interface AppStoreKit.JSCampaignAttribution
 {
     id process;
-    id accounts;
 }
 
-- (id);
+- (id)o;
 - (id);
 - (void)«Ñ	;
 

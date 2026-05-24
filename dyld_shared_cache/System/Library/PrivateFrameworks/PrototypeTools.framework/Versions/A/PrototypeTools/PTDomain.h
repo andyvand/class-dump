@@ -4,63 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSXPCConnection, PTDomainInfo, PTSettings, PTTestRecipe;
+@class NSXPCConnection;
 
 @interface PTDomain
 {
     NSXPCConnection *_serverConnection;
-    PTDomainInfo *_domainInfo;
-    NSString *_domainID;
-    PTSettings *_rootSettings;
-    NSMutableDictionary *_testRecipesByIdentifier;
-    PTTestRecipe *_activeTestRecipe;
-    _Bool _registrationRequested;
-    _Bool _registrationCompleted;
-    _Bool _haveSentProxyDefinition;
-    double _delayBeforeRegisteringAfterInterruption;
-    _Bool _archiveIsApplied;
 }
 
-+ (void);
++ (void)7';
 + (id);
-+ (id);
++ (id)VNCoreSceneUnderstandingDetectorProcessingOption_RecognizeObjectsConfigurations;
 + (id);
 + (id);
 + (Class);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)F;
+- (void)AssertLevel;
+- (void)exception (subtypeContext allowed as a wildcard).;
+- (void);
+- (void);
+- (id);
+- (void)uildRoots/4~CNqkugBhcZYxCpFyKBY9cTeFR0o3wl3GtaQxQk0/Library/Caches/com.apple.xbs/TemporaryDirectory.duXmje/Sources/Admin/NVRAMConfig.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

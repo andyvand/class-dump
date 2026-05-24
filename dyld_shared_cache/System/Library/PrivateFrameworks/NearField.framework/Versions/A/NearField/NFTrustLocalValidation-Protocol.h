@@ -5,5 +5,6 @@
 //
 
 @protocol NFTrustLocalValidation
+- (unsigned char)availableForFaceTime;
 @end
 

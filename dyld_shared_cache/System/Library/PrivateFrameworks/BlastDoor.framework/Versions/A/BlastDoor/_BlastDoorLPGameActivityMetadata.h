@@ -6,18 +6,15 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPGameActivityMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_subtitle;
-    _BlastDoorLPImage *_artwork;
-    _BlastDoorLPImage *_icon;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -31,14 +28,11 @@
 - (void);
 - (void);
 - (id);
-- (id)ue;
+- (id)nicknameTransfer_Value;
 - (void)¯A
 ;
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorLPImage *artwork; // @synthesize artwork=_artwork;
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

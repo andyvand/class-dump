@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)ltiply_ARGB8888();
 - (id);
 
 // Remaining properties

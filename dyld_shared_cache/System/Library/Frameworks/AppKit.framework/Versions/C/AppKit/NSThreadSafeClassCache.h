@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSThreadSafeClassCache
 {
     NSMutableDictionary *_dictionary;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIDebugReportFormatter
 {
     unsigned long long _indentLevel;
-    NSString *_indentString;
-    unsigned long long _extraBodyIndentLevel;
 }
 
 + (id);
 - (id);
+- (void)r";
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)_refreshUnreadCountControllerForGUIDs: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_chatsForMessageGUID:enableVerboseLogging: /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long extraBodyIndentLevel; // @synthesize extraBodyIndentLevel=_extraBodyIndentLevel;
 @property(nonatomic) unsigned long long indentLevel; // @synthesize indentLevel=_indentLevel;
-@property(copy, nonatomic) NSString *indentString; // @synthesize indentString=_indentString;
 
 @end
 

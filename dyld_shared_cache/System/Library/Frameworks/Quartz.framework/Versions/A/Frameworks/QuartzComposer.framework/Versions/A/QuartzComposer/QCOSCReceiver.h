@@ -6,12 +6,11 @@
 
 #import <QuartzComposer/QCOSCPatch.h>
 
-@class QCBooleanPort, QCDatagramReceiver;
+@class QCBooleanPort;
 
 @interface QCOSCReceiver : QCOSCPatch
 {
     QCBooleanPort *outputSignal;
-    QCDatagramReceiver *_receiver;
 }
 
 + (Class);
@@ -20,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool),	M	&	;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface EMIMDFRCategoryButton
 {
     NSButton *_imageButton;
-    _Bool _enabled;
-    _Bool _highlighted;
 }
 
 - (void);
@@ -19,14 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property(nonatomic) NSImage *image;
 
 @end

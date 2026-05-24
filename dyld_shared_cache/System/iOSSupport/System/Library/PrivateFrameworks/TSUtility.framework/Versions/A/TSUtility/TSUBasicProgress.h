@@ -17,13 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (double);
 - (_Bool);
 - (double);
 
 // Remaining properties
-@property(getter=isIndeterminate) _Bool indeterminate;
 @property double value;
 
 @end

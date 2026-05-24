@@ -8,12 +8,12 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)distantPast;
++ (id)dictionaryWithObjects:(id)arg1 forKeys:(id)arg2 count:(id)arg3;
++ (_Bool)oven;
++ (_Bool)oblige;
++ (id)(MirrorKeys.rowid NOT IN   (SELECT SyncedKeys.pubkeyNumber FROM SyncedKeys,SyncDevices WHERE (SyncDevices.deviceID = ? AND SyncedKeys.deviceNumber = SyncDevices.rowid))) ORDER BY MirrorKeys.current != 0;
++ (id)ion of loose leaves;
 + (id);
 
 @end

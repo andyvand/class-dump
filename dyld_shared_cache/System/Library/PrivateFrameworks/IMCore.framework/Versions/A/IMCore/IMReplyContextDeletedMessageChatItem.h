@@ -6,22 +6,18 @@
 
 #import <IMCore/IMReplyContextTextMessagePartChatItem.h>
 
-@class NSString;
-
 @interface IMReplyContextDeletedMessageChatItem : IMReplyContextTextMessagePartChatItem
 {
     _Bool _deletedMessageIsFromMe;
 }
 
-- (void);
-- (_Bool);
-- (id);
+- (void)ictionary;
+- (_Bool)ong %fs :threshold %fs), discarding /* Error: Ran out of types for this method. */;
+- (id)ided.;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool deletedMessageIsFromMe; // @synthesize deletedMessageIsFromMe=_deletedMessageIsFromMe;
-@property(readonly, nonatomic) _Bool replyIsFromMe;
-@property(readonly, copy, nonatomic) NSString *replyMessageGUID;
 
 @end
 

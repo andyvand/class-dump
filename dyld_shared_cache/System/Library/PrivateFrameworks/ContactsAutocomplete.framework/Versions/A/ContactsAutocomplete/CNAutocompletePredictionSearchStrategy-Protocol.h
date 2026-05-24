@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSArray, NSString;
 
 @protocol CNAutocompletePredictionSearchStrategy
+- (NSArray *);
 
 // Remaining properties
 @property(readonly) NSString *descriptionForLogging;

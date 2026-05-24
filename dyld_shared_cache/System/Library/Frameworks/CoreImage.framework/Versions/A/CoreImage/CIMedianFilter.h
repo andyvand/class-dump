@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     CIImage *inputImage;
 }
 
-+ (id);
++ (id)";
 - (id);
 - (id);
 - (void);

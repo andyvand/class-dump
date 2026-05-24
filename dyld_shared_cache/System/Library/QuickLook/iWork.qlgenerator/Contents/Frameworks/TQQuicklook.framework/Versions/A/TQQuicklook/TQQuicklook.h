@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString, TSABaseApplicationDelegate, TSACirrusDocument, TSUTemporaryDirectory;
-@protocol TSKRenderingExporter;
+@class NSString, TSACirrusDocument;
 
 @interface TQQuicklook
 {
     NSString *mPath;
     TSACirrusDocument *mDocument;
-    TSABaseApplicationDelegate *mBaseAppDelegate;
-    TSUTemporaryDirectory *mTemporaryDirectory;
-    NSString *mPassphrase;
-    id <TSKRenderingExporter> mExporter;
-    NSBundle *mInstalledGingerBundle;
-    NSBundle *mInstalledSageBundle;
 }
 
 + (void);
@@ -39,11 +32,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 

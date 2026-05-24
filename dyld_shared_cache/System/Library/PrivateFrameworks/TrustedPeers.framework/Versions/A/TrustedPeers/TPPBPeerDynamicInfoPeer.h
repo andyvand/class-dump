@@ -20,14 +20,13 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)** Error occurred during transaction. SpecialEvents ErrorCode = %@;
+- (id)lSessionRef);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPeerID;
-@property(retain, nonatomic) NSString *peerID; // @synthesize peerID=_peerID;
 
 @end
 

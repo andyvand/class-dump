@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CRTrackingAssociatorResults
 {
     double _totalError;
-    NSArray *_tracked;
-    NSArray *_updatedRegionIDs;
-    NSArray *_removedRegionIDs;
-    NSArray *_addedRegionIDs;
 }
 
 - (id);
@@ -23,16 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)_checkSlowReleaseEndComplete:scanPolicy:primary:secondary:alternatePrimary:alternateSecondary:error:clearingTransaction: /* Error: Ran out of types for this method. */;
+- (void);
 - (void)long>>>=^v^v{?=^v}}16;
 
 // Remaining properties
-@property(retain) NSArray *addedRegionIDs; // @synthesize addedRegionIDs=_addedRegionIDs;
-@property(retain) NSArray *removedRegionIDs; // @synthesize removedRegionIDs=_removedRegionIDs;
 @property double totalError; // @synthesize totalError=_totalError;
-@property(retain) NSArray *tracked; // @synthesize tracked=_tracked;
-@property(retain) NSArray *updatedRegionIDs; // @synthesize updatedRegionIDs=_updatedRegionIDs;
 
 @end
 

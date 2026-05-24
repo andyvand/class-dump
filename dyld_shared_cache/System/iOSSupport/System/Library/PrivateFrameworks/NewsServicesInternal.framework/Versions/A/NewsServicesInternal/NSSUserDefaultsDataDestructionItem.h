@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSUserDefaults;
+@class NSUserDefaults;
 
 @interface NSSUserDefaultsDataDestructionItem
 {
     NSUserDefaults *_userDefaults;
-    NSString *_domainName;
-    NSSet *_stickyKeys;
 }
 
 - (id);
 - (void);
+- (id)RecipeBoxFeedConfigManager;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)led without paragraph being setup correctly;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *domainName; // @synthesize domainName=_domainName;
-@property(copy, nonatomic) NSSet *stickyKeys; // @synthesize stickyKeys=_stickyKeys;
 @property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end

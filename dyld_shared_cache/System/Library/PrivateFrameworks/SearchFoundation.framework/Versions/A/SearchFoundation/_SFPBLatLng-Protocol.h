@@ -7,12 +7,12 @@
 @class NSData;
 
 @protocol _SFPBLatLng
+- (void)P;
+- (NSData *)",&,N,V_mutableAppendedObjectIDsAndUUIDs;
 - (double)@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double lat;
-@property(nonatomic) double lng;
 @end
 

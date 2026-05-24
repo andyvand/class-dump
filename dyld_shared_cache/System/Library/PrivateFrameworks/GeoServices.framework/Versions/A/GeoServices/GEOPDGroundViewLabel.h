@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGroundViewLabel
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_groundViewLabelInfos;
-    unsigned long long _groundViewLocationId;
-    struct {
-        unsigned int has_groundViewLocationId:1;
-    } _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"b1};
-- (id)ation;
+- (id)_distanceFromOriginToDestination;
 - (id)(²;
 - (void);
 

@@ -7,24 +7,6 @@
 @interface BlastDoor.HealthSummarySharingEntry._StorageClass__priv_DEAEB66CBC3E1B66E4C8080B1AEAC45D
 {
     id _uuid;
-    id _primaryContactIdentifier;
-    id _allContactIdentifiers;
-    id _firstName;
-    id _lastName;
-    id _type;
-    id _direction;
-    id _status;
-    id _sharingSetupMetadata;
-    id _dateModified;
-    id _authorizationCategories;
-    id _dateAccepted;
-    id _dateInvited;
-    id _invitationUuid;
-    id _cloudKitIdentifier;
-    id _ownerParticipant;
-    id _notificationStatus;
-    id _sharingAuthorizations;
-    id _userWheelchairMode;
 }
 
 @end

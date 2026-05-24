@@ -4,40 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface IMAutomationMessageSend
 {
     NSMutableSet *_pendingSendGUIDs;
-    NSMutableDictionary *_sentMessageInfo;
 }
 
-- (id);
+- (id)or crossfade failed (%x). Previous payload=%d, payload=%d, history=%x lastSeq=%x seq=%d reset=%d;
+- (void)lTTYDevice [%s] %s:(id)arg1 %d @:@ AVCVirtualTTYDevice-sendText (%p) /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Rate=%ukbps payload=%d streamID=%d redReceivedBitrate=%ukbps totalPacketsReceived=%d mediaBitrateNoRed=%ukbps redPlayedRate=%ukbps redDiscardedRate=%ukbps;
+- (id)s] %s:(id)arg1 %d @=@ Health:(id)arg2 VCAudioReceiver [%p] audioRxBitrate=%ukbps, primaryAudioRxRate=%ukbps payload=%d streamID=%d redReceivedBitrate=%ukbps totalPacketsReceived=%d mediaBitrateNoRed=%ukbps redPlayedRate=%ukbps redDiscardedRate=%ukbps;
+- (id)p] with index=%d;
+- (id)s:(id)arg1 %d AudioReceiver[%p] Unregistered statisticsCollector[%p] with index=%d;
+- (id)!;
+- (id)nce;
+- (id)of captureFrameRate. currentCaptureFrameRate=%d maxSupportedMultiwayFrameRate=%d framerate=%d;
+- (id)sage is nil;
+- (void)[%s] %s:(id)arg1 %d VCSession received message about PIP State change:%@ /* Error: Ran out of types for this method. */;
+- (id):(id)arg1 %d setupMomentsMessages message is nil;
+- (id)%s:(id)arg1 %d VCFeatureExperimentSetting:(id)arg2 Found experiment group. decayFactorExperimentGroup=%d;
+- (id)%p];
+- (id)registerPowerSpectrumForCellularTapType;
+- (id)r:(id)arg1 RecordingResiliency=%d (feature flag=%d);
+- (id)property list from message=%@ with error=%@;
+- (id)urrent output device to:%@ (%d) /* Error: Ran out of types for this method. */;
+- (id)kAUVoiceIOProperty_PrimaryCodecSampleRate failed(%d) sampleRate(%d);
 - (id);
 - (void)NÿÿdÈÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *pendingSendGUIDs; // @synthesize pendingSendGUIDs=_pendingSendGUIDs;
-@property(retain, nonatomic) NSMutableDictionary *sentMessageInfo; // @synthesize sentMessageInfo=_sentMessageInfo;
 
 @end
 

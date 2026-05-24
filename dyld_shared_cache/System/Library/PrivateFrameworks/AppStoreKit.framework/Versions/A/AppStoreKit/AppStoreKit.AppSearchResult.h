@@ -9,7 +9,6 @@
 @interface AppStoreKit.AppSearchResult : AppStoreKit.SearchResult
 {
     id lockup;
-    id shouldDisplayMedia;
 }
 
 @end

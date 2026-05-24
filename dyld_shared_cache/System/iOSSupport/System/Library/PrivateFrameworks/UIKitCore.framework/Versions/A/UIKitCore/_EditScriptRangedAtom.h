@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)didReceiveCollaborationMessage:(struct _NSRange)arg1 inChat:style:account: /* Error: Ran out of types for this method. */;
 - (id);
-- (struct _NSRange);
+- (struct _NSRange);
 - (id);
-- (id);
+- (id)tructure took %.6fus;
 - (void)ÍÌÌÌÌÌð?;
 - (void)_;
 

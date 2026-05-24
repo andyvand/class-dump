@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)ethod should not be called. If you see this, file a bug with PEP Accessibility. %@;
 + (void);
-- (_Bool);
+- (_Bool)ze=dd},R,N,V_maxSize;
 - (unsigned long long);
 - (id);
 

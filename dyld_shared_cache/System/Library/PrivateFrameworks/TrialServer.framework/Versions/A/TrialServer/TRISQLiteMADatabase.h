@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASSqliteDatabase;
+@class NSString;
 
 @interface TRISQLiteMADatabase
 {
     NSString *_parentDir;
-    NSString *_assetDir;
-    _PASSqliteDatabase *_db;
 }
 
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)serializedDataFromCameraClientMetadata:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)serializeParameter:(id)arg1 forKey:(id)arg2;
+- (id)requestedRangeIsAvailable;
+- (unsigned long long)minimumChunkLength;
+- (void)markScaledRegionWithRate:(id)arg1 rampInStartTime:(id)arg2 rampInEndTime:rampOutStartTime:rampOutEndTime: /* Error: Ran out of types for this method. */;
+- (id)isSpatialPhotoAvailable;
 - (void);
 - (_Bool);
 - (void);
@@ -35,13 +33,7 @@
 - (_Bool)iphertext;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

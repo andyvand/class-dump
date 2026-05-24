@@ -6,14 +6,11 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPGameActivityMetadata : LPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_subtitle;
-    LPImage *_artwork;
-    LPImage *_icon;
 }
 
 + (id);
@@ -24,33 +21,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)haresOperation.m;
+- (id)of record %@ because we couldn't decrypt it;
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)client:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)PIPContentTypeSecurityCamera;
 - (id);
 - (id);
 - (void)HÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

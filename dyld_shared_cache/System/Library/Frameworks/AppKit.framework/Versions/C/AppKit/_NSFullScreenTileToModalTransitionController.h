@@ -6,14 +6,12 @@
 
 #import <AppKit/_NSFullScreenTransitionController.h>
 
-@class NSWindow, _NSFullScreenSpace, _NSFullScreenTileToModalTransitionOverlayWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileToModalTransitionController : _NSFullScreenTransitionController
 {
     NSWindow *_sourceWindow;
-    _NSFullScreenSpace *_startingSpace;
-    _NSFullScreenTileToModalTransitionOverlayWindow *_overlayWindow;
 }
 
 + (id);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)<%{public}@> backgroundSessionDidStartAppWake:(id)arg1 called with ID:%@, when we already had an app wake with ID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

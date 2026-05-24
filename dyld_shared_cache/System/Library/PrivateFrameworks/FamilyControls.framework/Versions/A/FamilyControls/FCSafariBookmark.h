@@ -11,16 +11,16 @@
     NSMutableDictionary *_dictionary;
 }
 
-+ (id);
++ (id)initWithSession:(id)arg1 invitation:metadata:webService: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (void);
+- (void)hh8;
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (id);

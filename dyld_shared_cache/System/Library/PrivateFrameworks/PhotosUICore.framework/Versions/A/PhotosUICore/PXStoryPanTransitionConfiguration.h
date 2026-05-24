@@ -9,24 +9,18 @@
 @interface PXStoryPanTransitionConfiguration
 {
     NSMutableArray *_clipLayouts;
-    struct CGRect *_sourceRects;
-    struct CGRect *_targetRects;
-    long long _capacity;
-    long long _count;
-    CDStruct_1b6d18a9 _duration;
 }
 
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)_TtC12NewsArticles40InsertAdvertisementPageBlueprintModifier;
+- (id)A;
 - (id);
-- (id);
-- (id)ProvidersByType;
+- (id)HUDContentProvidersByType;
 - (void)(ÃÉ³³º;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
 @property(readonly, copy, nonatomic) NSString *identifier;
 
 @end

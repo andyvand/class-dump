@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double);
+- (double)s;
+- (id);
+- (id)ion;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)C;
 
 @end
 

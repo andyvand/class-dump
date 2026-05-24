@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface FFDefaultFileWriter
 {
     NSDictionary *_fileAttributes;
-    NSDictionary *_dirAttributes;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id)sample for generation of empty prompt!;
 - (_Bool);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dirAttributes; // @synthesize dirAttributes=_dirAttributes;
 @property(readonly, nonatomic) NSDictionary *fileAttributes; // @synthesize fileAttributes=_fileAttributes;
 
 @end

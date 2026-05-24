@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SAHAAttributeValue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAssistantCharacteristicTuple
 {
     NSString *_attribute;
-    SAHAAttributeValue *_value;
 }
 
 - (id);
 - (id);
-- (id)eryPowered;
+- (id)_isBatteryPowered;
 - (void)P;
 - (id)(?;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attribute; // @synthesize attribute=_attribute;
-@property(readonly, nonatomic) SAHAAttributeValue *value; // @synthesize value=_value;
 
 @end
 

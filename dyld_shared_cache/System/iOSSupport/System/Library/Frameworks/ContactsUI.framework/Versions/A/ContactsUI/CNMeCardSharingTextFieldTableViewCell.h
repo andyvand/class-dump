@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void)r;
+- (void)_gestureRecognizer;
 
 // Remaining properties
 @property(retain, nonatomic) UITextField *textField; // @synthesize textField=_textField;

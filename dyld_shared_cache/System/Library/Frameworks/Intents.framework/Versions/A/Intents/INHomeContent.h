@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INHomeFilter, NSArray, NSString;
+@class INHomeFilter;
 
 @interface INHomeContent
 {
     INHomeFilter *_filter;
-    NSArray *_actions;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id),V_publishedControllers;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)_connectedAPUpdateEventPredicateData;
+- (void)%@;
+- (id)R
+;
 - (id);
 - (id);
-- (id);
-- (id)Attribute:(unsigned long long)arg1 ofClass: /* Error: Ran out of types for this method. */;
-- (void)limateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)_valueForAttribute:(unsigned long long)arg1 ofClass: /* Error: Ran out of types for this method. */;
+- (void)provideCarNameOptionsForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)ÌÞµÿ±È;
 
 // Remaining properties
-@property(readonly, copy) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) INHomeFilter *filter; // @synthesize filter=_filter;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

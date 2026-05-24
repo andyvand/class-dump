@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol HAPKeyStore;
+@class NSArray;
 
 @interface HAPKeyBag
 {
     struct os_unfair_lock_s _lock;
-    NSArray *_availableKeysToTry;
-    long long _currentIndexInBag;
-    NSString *_accessoryIdentifier;
-    id <HAPKeyStore> _keyStore;
 }
 
 + (id)ublic}@;
@@ -31,28 +26,16 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)C;
+- (id)EXTERNAL;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)n IPv6 router and IP address have been assigned for the Wi-Fi network service;
 - (void)se=QAQ}^{HTTPMessagePrivate}{?=[8192c]Q*Q*Qi*Q{?=*Q*Q*Q*Q*Q*Q*Q***Q*Q}*Qi*QCQCi}CiC*QQQ[1000C]*^{?}*Q[2{iovec=^vQ}]^{iovec}iQiii^v^v^v^v^v^v^?^?@?iCq*iQI*}16;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
 @property(retain, nonatomic) NSArray *availableKeysToTry; // @synthesize availableKeysToTry=_availableKeysToTry;
-@property(nonatomic) long long currentIndexInBag; // @synthesize currentIndexInBag=_currentIndexInBag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isEmpty) _Bool empty;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <HAPKeyStore> keyStore; // @synthesize keyStore=_keyStore;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long totalIdentities;
 
 @end
 

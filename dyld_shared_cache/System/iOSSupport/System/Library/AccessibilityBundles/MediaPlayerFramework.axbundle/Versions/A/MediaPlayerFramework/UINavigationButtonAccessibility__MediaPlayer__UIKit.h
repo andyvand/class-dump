@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)onder Chain: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

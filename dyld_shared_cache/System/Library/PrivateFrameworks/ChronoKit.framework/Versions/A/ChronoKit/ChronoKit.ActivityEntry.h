@@ -7,15 +7,6 @@
 @interface ChronoKit.ActivityEntry
 {
     id _contentDidChangePublisher;
-    id $__lazy_storage_$_contentDidChangePublisher;
-    id _lock;
-    id _lock_content;
-    id _lock_contentLoadError;
-    id _lock_contentLoadErrorDate;
-    id _lock_isFailed;
-    id _lock_protectionType;
-    id id;
-    id targetEnvironmentProvider;
 }
 
 @end

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IdentityLookup.LiveLookupDBExtension, NSDate, NSString;
+@class NSDate;
 
 @interface IdentityLookup.BlockingInfo
 {
 }
 
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic, retain) IdentityLookup.LiveLookupDBExtension *dbExtension; // @dynamic dbExtension;
 @property(nonatomic, copy) NSDate *expiration; // @dynamic expiration;
-@property(nonatomic, copy) NSString *handle; // @dynamic handle;
-@property(nonatomic) _Bool shouldBlock; // @dynamic shouldBlock;
 
 @end
 

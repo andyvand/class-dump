@@ -16,12 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)URLByAppendingPathComponent:isDirectory: /* Error: Ran out of types for this method. */;
+- (void)delegate set to handle message from %{public}s;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) NSSet *set; // @synthesize set=_set;
 
 @end

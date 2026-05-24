@@ -11,14 +11,14 @@
     double _altitude;
 }
 
-+ (_Bool);
++ (_Bool)D;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (double);
+- (void);
+- (double)meshFunctionHandleWithFunction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double altitude; // @synthesize altitude=_altitude;

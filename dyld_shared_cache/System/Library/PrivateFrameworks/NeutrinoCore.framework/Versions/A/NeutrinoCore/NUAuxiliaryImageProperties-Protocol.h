@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUPixelFormat;
+@class NUPixelFormat;
 
 @protocol NUAuxiliaryImageProperties
 - (NUPixelFormat *)uffer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *auxiliaryImageTypeCGIdentifier;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(readonly, nonatomic) struct CGImageMetadata *compatibilityMetadata;
-@property(readonly, nonatomic) NUPixelFormat *pixelFormat;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @end
 

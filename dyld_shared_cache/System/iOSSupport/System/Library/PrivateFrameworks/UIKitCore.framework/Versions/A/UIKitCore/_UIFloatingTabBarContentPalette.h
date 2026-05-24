@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _UIFloatingTabBarContentPalette
 {
     UIColor *_selectedColor;
-    UIColor *_inactiveColor;
-    UIColor *_highlightedColor;
 }
 
 - (void);
+- (id)transactionsPriorityEnabled;
+- (id)chat:lastMessageTimeStampOnLoadUpdated: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id)ceView:selectionWidget:orientation: /* Error: Ran out of types for this method. */;
+- (id)_makeLoupeViewForSourceView:selectionWidget:orientation: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)MÕlú[;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *highlightedColor; // @synthesize highlightedColor=_highlightedColor;
-@property(retain, nonatomic) UIColor *inactiveColor; // @synthesize inactiveColor=_inactiveColor;
 @property(retain, nonatomic) UIColor *selectedColor; // @synthesize selectedColor=_selectedColor;
 
 @end

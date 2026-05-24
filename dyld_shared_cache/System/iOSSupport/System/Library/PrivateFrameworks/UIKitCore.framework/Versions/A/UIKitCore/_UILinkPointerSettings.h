@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)setFromOrientation: /* Error: Ran out of types for this method. */;
 
 @end
 

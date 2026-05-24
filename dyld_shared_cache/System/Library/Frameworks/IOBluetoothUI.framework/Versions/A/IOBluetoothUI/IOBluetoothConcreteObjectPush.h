@@ -4,36 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, IOBluetoothTransferProgressUI, NSButton, NSImageView, NSMutableArray, NSPanel, NSProgressIndicator, NSString, NSTextField, NSTimer, OBEXFileTransferServices;
+@class IOBluetoothDevice, NSTextField;
 
 @interface IOBluetoothConcreteObjectPush
 {
     NSTextField *mFileStatusField;
-    NSTextField *mFileTransferredField;
-    NSTextField *mFileRemainingField;
-    NSProgressIndicator *mFileProgressIndicator;
-    NSButton *mFileAbortButton;
-    NSImageView *mFileIconView;
-    id mDelegate;
-    NSMutableArray *mFileRefs;
-    int mCurrentFileIndex;
-    OBEXFileTransferServices *mFTPModule;
-    IOBluetoothDevice *mTargetDevice;
-    _Bool mTargetIsAMac;
-    _Bool mIsOPSender;
-    _Bool mIsSendingPanel;
-    _Bool mDoesMultipleTransfers;
-    IOBluetoothTransferProgressUI *mTransferProgress;
-    unsigned int mFirstPacketSize;
-    unsigned short mMaxPacketLength;
-    _Bool mIsFirstPutPacket;
-    _Bool mUserAborted;
-    _Bool mErrorDialogIsUp;
-    int mPanelRunState;
-    NSString *mWindowTitle;
-    struct _NSModalSession *mModalSession;
-    NSTimer *mAbortTimer;
-    NSPanel *mTimeoutSheet;
 }
 
 + (_Bool);
@@ -65,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

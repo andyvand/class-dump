@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSString;
-
 @interface AMSCookieService
 {
     _Bool _isObservingNotifications;
-    struct os_unfair_lock_s _inMemoryStorageLock;
-    NSCache *_inMemoryStorage;
 }
 
 + (_Bool);
 + (_Bool);
-+ (id)rnalProperty: /* Error: Ran out of types for this method. */;
++ (id)valueForExternalProperty: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)y;
 - (void);
 - (void);
 - (id);
 - (void);
 - (struct os_unfair_lock_s);
-- (void);
+- (void)conf=%d,dc=%d,pt=%d,tb=%d,isMe=%@,g=%d,cc=%d;
 - (void);
 - (id);
 - (_Bool);
@@ -34,22 +30,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)¸k.èQì°Ôï±êMD~ìBê ÕZÜYQ­%[«À§þÕfQÝ/üØø"
 Rø¸¼ép¤vrê:ÅJ;w-BîÄä»Ç!¦\nfk+/ eÐ¸{5]Ç³$ÝKNÑÕ0­¬®¯®.3.6¡©¬ú² ®®P««¬­®) ©¬ú²¼®®P«ª¬®®P²©¬ú²¡«¹«»ùv²¥#´ág¯#öþÊ03K_°©¬ú²«·¹/»Æè;Ù¦Q[Ä"ï	XèâÐ§ñ©¬ú²°«)ÇÛÛßØØØÎßßÃÊÌÀÂÎßßÃÊÌÎÝÀÀÛÌÝÃ¢©¦)ç)X¢®®ªª¯¬-®®¯(Bü)û©êªÌQÑêhj3ÂÔÊCÎç Z¹Y#¿l /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSCache *inMemoryStorage; // @synthesize inMemoryStorage=_inMemoryStorage;
 @property(readonly) struct os_unfair_lock_s inMemoryStorageLock; // @synthesize inMemoryStorageLock=_inMemoryStorageLock;
-@property _Bool isObservingNotifications; // @synthesize isObservingNotifications=_isObservingNotifications;
-@property(readonly) Class superclass;
 
 @end
 

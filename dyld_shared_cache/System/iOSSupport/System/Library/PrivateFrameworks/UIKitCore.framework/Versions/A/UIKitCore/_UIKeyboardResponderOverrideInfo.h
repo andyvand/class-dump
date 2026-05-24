@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIResponder, UIView;
+@class UIResponder;
 @protocol UIKeyInput;
 
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardResponderOverrideInfo
 {
     UIResponder<UIKeyInput> *_keyboardResponder;
-    UIView *_sourceView;
-    UIView *_commonView;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)storeEditedMessage:editedPartIndexes:editType:previousMessage:chat:updatedAssociatedMessageItems: /* Error: Ran out of types for this method. */;
+- (id)replaceMessageAcknowledgmentsWithNewMessageAcknowledgment:(id)arg1 associatedMessageGUID:(id)arg2 sender:(id)arg3;
+- (id)ndle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Tq,R,N,V_accessoryType;
 - (void)\Ïsþ=S43tÎsþ-S43pÎsþ;
 
 // Remaining properties
-@property(nonatomic) __weak UIView *commonView; // @synthesize commonView=_commonView;
 @property(nonatomic) __weak UIResponder<UIKeyInput> *keyboardResponder; // @synthesize keyboardResponder=_keyboardResponder;
-@property(nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
 
 @end
 

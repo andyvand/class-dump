@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelFileAsset, MPModelPlaybackPosition, MPModelPodcast, MPModelPodcastAuthor, NSArray, NSDate, NSDateComponents, NSDictionary, NSSet, NSString, NSURL;
+@class NSString;
 
 @interface MPModelPodcastEpisode : MPModelObject
 {
@@ -20,44 +20,7 @@
 - (void)overrideLibraryAddedStatus: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool areChaptersGenerated; // @dynamic areChaptersGenerated;
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSDictionary *artworkInfo; // @dynamic artworkInfo;
-@property(copy, nonatomic) NSString *assetURL; // @dynamic assetURL;
-@property(retain, nonatomic) MPModelPodcastAuthor *author; // @dynamic author;
-@property(copy, nonatomic) NSArray *chapters; // @dynamic chapters;
-@property(copy, nonatomic) NSString *commentText; // @synthesize commentText=_commentText;
-@property(copy, nonatomic) NSDate *datePlayed; // @dynamic datePlayed;
-@property(copy, nonatomic) NSString *descriptionText; // @dynamic descriptionText;
-@property(readonly, nonatomic) NSSet *downloadedMediaKinds; // @dynamic downloadedMediaKinds;
-@property(nonatomic) double duration; // @dynamic duration;
-@property(nonatomic) long long episodeNumber; // @dynamic episodeNumber;
-@property(readonly, nonatomic) long long episodeType; // @dynamic episodeType;
-@property(nonatomic, getter=isExplicitEpisode) _Bool explicitEpisode; // @dynamic explicitEpisode;
-@property(copy, nonatomic) NSString *externalContentID; // @dynamic externalContentID;
-@property(copy, nonatomic) NSString *feedURL; // @dynamic feedURL;
-@property(readonly, nonatomic) _Bool hasVideo; // @dynamic hasVideo;
-@property(copy, nonatomic) NSString *itemType; // @dynamic itemType;
-@property(retain, nonatomic) MPModelFileAsset *localFileAsset; // @dynamic localFileAsset;
-@property(copy, nonatomic) NSString *mediaType; // @dynamic mediaType;
-@property(retain, nonatomic) MPModelPlaybackPosition *playbackPosition; // @dynamic playbackPosition;
-@property(retain, nonatomic) MPModelPodcast *podcast; // @dynamic podcast;
-@property(copy, nonatomic) NSString *podcastStoreID; // @dynamic podcastStoreID;
-@property(copy, nonatomic) NSString *priceType; // @dynamic priceType;
-@property(copy, nonatomic) NSDateComponents *releaseDateComponents; // @dynamic releaseDateComponents;
-@property(nonatomic) long long seasonNumber; // @dynamic seasonNumber;
-@property(copy, nonatomic) NSURL *shareURL; // @dynamic shareURL;
-@property(readonly, nonatomic) _Bool shouldShowChapterArtwork; // @dynamic shouldShowChapterArtwork;
-@property(copy, nonatomic) NSString *showArtworkTemplateURL; // @dynamic showArtworkTemplateURL;
-@property(copy, nonatomic) NSString *state; // @dynamic state;
-@property(copy, nonatomic) NSURL *streamURL; // @dynamic streamURL;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @dynamic subtitle;
-@property(readonly, copy, nonatomic) NSString *subtitleShort; // @dynamic subtitleShort;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
-@property(copy, nonatomic) NSArray *transcriptAlignments; // @dynamic transcriptAlignments;
-@property(copy, nonatomic) NSString *transcriptIdentifier; // @dynamic transcriptIdentifier;
-@property(copy, nonatomic) NSString *transcriptSource; // @dynamic transcriptSource;
-@property(nonatomic) float userRating; // @dynamic userRating;
 
 @end
 

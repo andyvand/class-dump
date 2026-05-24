@@ -7,14 +7,12 @@
 @interface _DPSemanticVersion
 {
     unsigned long long _majorVersion;
-    unsigned long long _minorVersion;
-    unsigned long long _patchVersion;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ace ID.;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly, nonatomic) unsigned long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(readonly, nonatomic) unsigned long long patchVersion; // @synthesize patchVersion=_patchVersion;
 
 @end
 

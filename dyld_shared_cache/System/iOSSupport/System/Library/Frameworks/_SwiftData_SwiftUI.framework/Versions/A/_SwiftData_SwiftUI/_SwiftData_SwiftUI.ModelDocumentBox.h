@@ -8,16 +8,6 @@
 {
     id _base;
     id _context;
-    id prepareDocument;
-    id hasLoadedDocument;
-    id _fileURL;
-    id _isEditable;
-    id undoManager;
-    id storeName;
-    id wasOpened;
-    id hasPrepared;
-    id tempDocument;
-    id database;
 }
 
 @end

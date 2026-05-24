@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UITextView;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface OBIconTextView
 {
     UIImageView *_iconView;
-    UITextView *_textView;
-    double _padding;
-    double _baselineFromBoundsTop;
-    struct CGSize _iconSize;
 }
 
 - (id);
-- (double);
-- (void);
+- (double);
+- (void)Q6x4VpErDymejfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/RemoteGraphicsContextGLFunctionsGenerated.cpp 1864:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (struct CGSize);
-- (void);
-- (void);
+- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
 - (void);
-- (double);
-- (void);
+- (double)=}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)audioControllerPlayingDidChange:(double)arg1;
 - (void)× ;
 
 // Remaining properties
-@property(readonly, nonatomic) double baselineFromBoundsTop; // @synthesize baselineFromBoundsTop=_baselineFromBoundsTop;
-@property(nonatomic) struct CGSize iconSize; // @synthesize iconSize=_iconSize;
 @property(retain, nonatomic) UIImageView *iconView; // @synthesize iconView=_iconView;
-@property(nonatomic) double padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) UITextView *textView; // @synthesize textView=_textView;
 
 @end
 

@@ -13,11 +13,11 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)x7i;
+- (id)_sausage;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)+;
 - (_Bool);
 - (id);
 - (int);

@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRRemindersListAutoCategorizationActivityMonitor
 {
     id isAutoCategorizationInProgressForCurrentList;
-    id autoCategorizationInProgressReminderIDsForCurrentList;
-    id autoCategorizationInProgressStateChangeHandler;
-    id autoCategorizationInProgressReminderIDsChangeHandler;
-    id targetListIDForAutoCategorizationActivity;
-    id autoCategorizationActivityCancellable;
 }
 
 @end

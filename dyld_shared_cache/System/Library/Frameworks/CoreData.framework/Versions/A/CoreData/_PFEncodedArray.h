@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _PFEncodedArray
 {
     NSData *_sourceData;
-    int _cd_rc;
-    unsigned int _count;
 }
 
 + (Class);

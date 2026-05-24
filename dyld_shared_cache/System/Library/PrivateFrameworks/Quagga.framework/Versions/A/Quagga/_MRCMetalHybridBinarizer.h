@@ -5,14 +5,10 @@
 //
 
 @class _MRCMetalContext;
-@protocol MTLComputePipelineState;
 
 @interface _MRCMetalHybridBinarizer
 {
     _MRCMetalContext *_metalContext;
-    id <MTLComputePipelineState> _calcuateBlackPointsPipelineState;
-    id <MTLComputePipelineState> _fixBlackPointsPipelineState;
-    id <MTLComputePipelineState> _thresholdPipelineState;
 }
 
 - (id);

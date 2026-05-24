@@ -6,7 +6,7 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSDictionary, NSNumber;
+@class NSDictionary;
 
 @interface PIDepthAdjustmentController : PIAdjustmentController
 {
@@ -18,10 +18,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) double aperture;
 @property(copy, nonatomic) NSDictionary *depthInfo;
-@property(copy, nonatomic) NSDictionary *focusRect;
-@property(copy, nonatomic) NSNumber *glassesMatteAllowed;
 
 @end
 

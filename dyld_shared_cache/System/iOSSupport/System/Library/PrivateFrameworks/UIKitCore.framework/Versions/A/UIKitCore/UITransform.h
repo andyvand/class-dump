@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UITransform
 {
     struct CGAffineTransform _transform;
 }
 
++ (id)und %lu newServiceURIs:(struct CGPoint)arg1 %@;
++ (id)@ ;
 + (id);
 + (id);
++ (id)*;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)ControlShouldBeOnLeadingSideForStyle: /* Error: Ran out of types for this method. */;
++ (id)_editControlShouldBeOnLeadingSideForStyle: /* Error: Ran out of types for this method. */;
+- (id)_;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ITLibAlbumPropertyTitle;
 - (struct CGAffineTransform);
 - (id);
 - (unsigned long long);
 - (id)"16@24@"WebDataSource"32;
-- (_Bool)tentByIdentifier:(id)arg1;
+- (_Bool)setContentByIdentifier:(id)arg1;
 - (id)N,V_dampedAnimationDampingRatio;
 - (id)buteDefaults>",R,N,V_label;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end

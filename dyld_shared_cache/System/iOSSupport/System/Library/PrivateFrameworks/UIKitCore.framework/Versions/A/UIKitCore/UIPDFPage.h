@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIImage, UIPDFDocument, UIPDFSelection;
-
 @interface UIPDFPage
 {
     struct CGPDFPage *_cgPage;
-    unsigned long long _pageNumber;
-    NSString *_stringInReadingOrder;
-    UIPDFSelection *_selection;
-    struct os_unfair_lock_s _lock;
-    UIPDFDocument *_document;
-    unsigned long long _pageIndex;
-    UIImage *_pageImage;
-    NSMutableArray *_annotations;
 }
 
 - (void);
-- (id);
-- (struct CGRect);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (struct CGRect);
-- (id);
-- (id);
+- (id)while syncing using timer;
+- (struct CGRect)ipant:%@<=>%@ in chat:%@ /* Error: Ran out of types for this method. */;
+- (struct CGRect)Found matching participant:%@<=>%@ in chat:%@ /* Error: Ran out of types for this method. */;
+- (id)ilding muted chat list.;
+- (id)paper with error:%@ /* Error: Ran out of types for this method. */;
+- (id)for transfer info of deleted attachment(s);
+- (void)y message payload while replaying;
+- (void)dle;
+- (struct CGRect). No deffered update request.;
+- (id)Collaboration Notice, error:%@ /* Error: Ran out of types for this method. */;
+- (id)nClass:(id)arg1 acknowledgementHandler:(unsigned long long)arg2 );
 - (struct CGRect);
 - (struct CGPDFPage *);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void)_hasQueriedForSiblingChats;
+- (id)lass SNClassifySoundRequest;
 - (unsigned long long);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)_payloadAllowCloudAddressBook;
+- (id)_hasTimeSnapshot;
+- (unsigned long long)MPModelRelationshipPlayEventRadioStation;
 - (struct CGSize)bð1Â0@ù
 × ;
 - (void);
@@ -55,12 +45,6 @@
 
 // Remaining properties
 @property(readonly) struct CGPDFPage *CGPage; // @synthesize CGPage=_cgPage;
-@property(readonly) struct CGRect cropBox;
-@property(readonly) UIPDFDocument *document; // @synthesize document=_document;
-@property(retain) UIImage *pageImage; // @synthesize pageImage=_pageImage;
-@property(readonly) unsigned long long pageIndex; // @synthesize pageIndex=_pageIndex;
-@property(readonly) unsigned long long pageNumber; // @synthesize pageNumber=_pageNumber;
-@property(retain) UIPDFSelection *selection; // @synthesize selection=_selection;
 
 @end
 

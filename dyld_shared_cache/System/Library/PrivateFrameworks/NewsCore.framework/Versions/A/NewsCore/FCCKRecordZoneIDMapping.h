@@ -9,7 +9,6 @@
 @interface FCCKRecordZoneIDMapping
 {
     FCCKZoneSchema *_fromZoneSchema;
-    FCCKZoneSchema *_toZoneSchema;
 }
 
 - (id);
@@ -20,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCCKZoneSchema *fromZoneSchema; // @synthesize fromZoneSchema=_fromZoneSchema;
-@property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, nonatomic) FCCKZoneSchema *toZoneSchema; // @synthesize toZoneSchema=_toZoneSchema;
 
 @end
 

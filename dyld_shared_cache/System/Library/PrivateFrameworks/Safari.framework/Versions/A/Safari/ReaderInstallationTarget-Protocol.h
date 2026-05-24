@@ -5,5 +5,6 @@
 //
 
 @protocol ReaderInstallationTarget
+- (void);
 @end
 

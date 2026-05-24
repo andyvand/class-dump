@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, SLSharingSession;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface SLWindowMirroringContext
 {
     NSNumber *_displayID;
-    NSNumber *_srcDisplayID;
-    NSString *_sharingSessionTitle;
-    NSNumber *_shieldWindowID;
-    SLSharingSession *_session;
 }
 
-- (id);
-- (id);
+- (id)MfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/NSCKRecordZoneMetadata.m;
+- (id)roringDelegate applicationStateMonitorEnteredBackground:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void)legate _deleteShareWithRecordID:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void)t because it cannot stay under the CloudKit operation limits.;
+- (_Bool)eginWatchingForChanges:(id)arg1 ];
+- (id)binaryData;
+- (_Bool)NSSQLModel initalized with a configuration name (%@) - the configuration will be ignored.;
 - (void);
 - (void);
 - (_Bool);
@@ -33,8 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSNumber *displayID; // @synthesize displayID=_displayID;
-@property(retain) NSNumber *shieldWindowID; // @synthesize shieldWindowID=_shieldWindowID;
-@property(readonly) NSNumber *srcDisplayID; // @synthesize srcDisplayID=_srcDisplayID;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, NSString;
+@class NSString;
 
 @interface BlastDoorChatSessionClose
 {
@@ -12,25 +12,18 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)ionActivitySnapshot"24;
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)dingStrategy;
-- (void)cationCodingKeys;
+- (id)extractTemporalItemsFromDate: /* Error: Ran out of types for this method. */;
+- (id)uuidDecodingStrategy;
+- (void)InternalAuthenticationCodingKeys;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *conversationID;
-@property(nonatomic, readonly) _Bool deleteConversation;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *handle;
-@property(nonatomic, readonly) _Bool isEmergencySOS;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) long long version;
 
 @end
 

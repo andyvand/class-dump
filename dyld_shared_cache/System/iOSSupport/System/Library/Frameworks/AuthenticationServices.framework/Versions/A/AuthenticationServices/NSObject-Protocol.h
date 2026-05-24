@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (id);
+- (_Bool)_;
+- (_Bool);
+- (_Bool)is_from_me = ?,     is_empty = ?,     is_delayed = ?,     is_auto_reply = ?,     is_prepared = ?,     is_read = ?,     is_system_message = ?,     is_sent = ?,     has_dd_results = ?,     is_service_message = ?,     is_forward = ?,     was_downgraded = ?,     subject = ?,     error = ?,     handle_id = ? WHERE     ROWID = ?;
+- (id);
 - (struct _NSZone *)ASPasswordSavingModalStateProtocolP;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

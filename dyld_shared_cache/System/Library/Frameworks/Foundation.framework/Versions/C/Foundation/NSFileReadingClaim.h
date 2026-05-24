@@ -6,37 +6,32 @@
 
 #import <Foundation/NSFileAccessClaim.h>
 
-@class NSFileAccessNode, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSFileReadingClaim : NSFileAccessClaim
 {
     NSURL *_url;
-    _Bool _urlDidChange;
-    unsigned long long _options;
-    NSFileAccessNode *_location;
-    NSFileAccessNode *_rootNode;
-    long long _linkResolutionCount;
 }
 
 + (_Bool)21:%g m22:%g tX:%g tY:%g)
  /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)9;
 - (void);
 - (_Bool);
 - (void);
+- (_Bool)m_edrScaleFactor;
+- (void)CoreDisplay_Display_SetDynamicSliderFactor_Server(CGDirectDisplayID, float);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void)doRegistrationEnabled;
+- (void)undoRegistrationEnabled;
 - (_Bool)x];
 - (void)Q
 Q

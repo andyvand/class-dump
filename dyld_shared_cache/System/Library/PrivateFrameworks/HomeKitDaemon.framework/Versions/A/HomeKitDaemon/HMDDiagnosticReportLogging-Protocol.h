@@ -8,11 +8,11 @@
 
 @protocol HMDDiagnosticReportLogging
 
-// Remaining properties
-@property(readonly, copy) NSString *diagnosticReportEventSubType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)predicateWithFormat: /* Error: Ran out of types for this method. */;
+- (NSString *)predicateForContactsMatchingPhoneNumber: /* Error: Ran out of types for this method. */;
 
+// Remaining properties
 @property(readonly, copy) NSString *diagnosticReportEventType;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PreflightCache;
-
 @interface PreflightCacheInvalidationSource
 {
     _Bool _status;
-    PreflightCache *_cache;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)lary item:%@ from app:%@. error:%@ /* Error: Ran out of types for this method. */;
+- (void)PKTextAttachmentDrawingViewLinedPaperSupport;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak PreflightCache *cache; // @synthesize cache=_cache;
 @property(nonatomic) _Bool status; // @synthesize status=_status;
 
 @end

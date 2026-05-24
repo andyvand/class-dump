@@ -9,8 +9,6 @@
 @interface IMChatItem
 {
     NSString *_commSafetyTransferGUID;
-    long long _fileTransferReloadStatus;
-    IMItem *_item;
 }
 
 - (id);
@@ -23,7 +21,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)&;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -39,33 +37,19 @@
 - (long long);
 - (long long);
 - (id);
+- (id)ong long>, WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WTF::WeakRef<WebKit::WebExtensionAPIPort>>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WTF::WeakRef<WebKit::WebExtensionAPIPort>>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WTF::WeakRef<WebKit::WebExtensionAPIPort>>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WTF::WeakRef<WebKit::WebExtensionAPIPort>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WTF::WeakRef<WebKit::WebExtensionAPIPort>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WTF::WeakRef<WebKit::WebExtensionAPIPort>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
+- (id);
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (void)öHÿÿàðÿÿ~ÿÿ¨Iÿÿ.ÿÿ;
 - (_Bool)s rejected, guid:%@, error:%@, error description:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *balloonBundleID;
-@property(readonly, nonatomic) _Bool canDelete;
-@property(readonly, nonatomic) _Bool canEditMessageText;
-@property(readonly, nonatomic) _Bool canReply;
-@property(readonly, nonatomic) _Bool canRetract;
-@property(readonly, nonatomic) NSString *commSafetyTransferGUID; // @synthesize commSafetyTransferGUID=_commSafetyTransferGUID;
-@property(readonly, nonatomic) long long fileTransferReloadStatus; // @synthesize fileTransferReloadStatus=_fileTransferReloadStatus;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted;
 @property(retain, nonatomic) IMItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSString *itemGUID;
-@property(readonly, nonatomic) _Bool supportsCommunicationSafety;
-@property(readonly, nonatomic) long long syndicationBehavior;
-@property(readonly, nonatomic) long long syndicationType;
-@property(readonly, copy, nonatomic) NSString *threadIdentifier;
-@property(readonly, nonatomic) _Bool wasDetonated;
 
 @end
 

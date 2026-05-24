@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSString;
-
 @interface VNCreateFaceprintRequest : VNImageBasedRequest
 {
 }
@@ -16,10 +14,10 @@
 + (Class);
 + (const CDStruct_3a02d5a8 *);
 + (id);
-+ (id);
++ (id)predicateForContactMatcingURLString: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)�>;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,16 +28,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool forceFaceprintCreation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *inputFaceObservations;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) Class superclass;
 
 @end
 

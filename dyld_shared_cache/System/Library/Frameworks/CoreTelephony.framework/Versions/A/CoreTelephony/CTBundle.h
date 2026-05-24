@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CTBundle
 {
     long long _type;
 }
 
-+ (_Bool);
++ (_Bool)ayerlayersubtitlepreviewhelper;
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (long long);
-- (void);
+- (void)orPolicy:(id)arg1 %d on %{public}@ cid:%u returned %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)h;
+- (void)startsOnFirstEligibleVariant;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ct_shortDescription;
-@property(readonly, nonatomic) NSString *ct_shortName;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

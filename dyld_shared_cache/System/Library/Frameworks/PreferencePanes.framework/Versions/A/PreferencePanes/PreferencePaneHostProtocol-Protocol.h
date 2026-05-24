@@ -5,5 +5,8 @@
 //
 
 @protocol PreferencePaneHostProtocol
+
+@optional
+- (void);
 @end
 

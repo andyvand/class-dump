@@ -6,33 +6,30 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class EKCalendar, EKUIPopupTableViewCell, EKUITableViewCell, UIMenu;
+@class EKCalendar;
 
 __attribute__((visibility("hidden")))
 @interface EKEventCalendarDetailItem : EKEventDetailItem
 {
     EKCalendar *_calendar;
-    EKUIPopupTableViewCell *_popupCell;
-    EKUITableViewCell *_displayCell;
-    UIMenu *_popupMenu;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)vv;
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)layoutManager:(struct CGRect)arg1 paragraphSpacingAfterGlyphAtIndex:(unsigned long long)arg2 withProposedLineFragmentRect: /* Error: Ran out of types for this method. */;
+- (_Bool)entifier",C,N,V_identifier;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (void)r:didChangeFromSearchBarPlacement: /* Error: Ran out of types for this method. */;
+- (id)kOIChart3DRotationKey;
+- (void)searchController:didChangeFromSearchBarPlacement: /* Error: Ran out of types for this method. */;
 - (_Bool)to delete subscribed calendar %@;
 
 @end

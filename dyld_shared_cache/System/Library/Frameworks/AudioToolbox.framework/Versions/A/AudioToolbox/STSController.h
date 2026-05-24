@@ -7,15 +7,6 @@
 @interface STSController
 {
     struct OpaqueFigSTS *_sts;
-    struct unordered_map<std::string, STSPerLabelControllerState, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, STSPerLabelControllerState>>> _perLabelState;
-    struct stack<unsigned long, std::deque<unsigned long>> _availableIndicesWithinSharedStorage;
-    struct STSActiveIndices _activeIndices;
-    struct STSGlobalState _globalState;
-    unsigned long long _globalGeneration;
-    void *_sharedStorage;
-    struct semaphore _controlSemaphore;
-    unsigned long long _shmemSize;
-    _Bool _allowAutomaticHeadTracking;
 }
 
 + (long long);
@@ -26,13 +17,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (__hash_map_iterator_45d56b6f);
 - (void);
-- (void);
+- (void)";
 - (_Bool);
-- (void);
-- (id);
+- (void)uracy locations, %@;
+- (id)	;
 - (void);
 
 @end

@@ -14,7 +14,7 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)setEnableThreadgroupMemoryChecks:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long confidenceReasonEnum; // @synthesize confidenceReasonEnum=_confidenceReasonEnum;

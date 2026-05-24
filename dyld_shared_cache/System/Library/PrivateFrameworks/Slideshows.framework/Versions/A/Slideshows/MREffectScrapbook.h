@@ -6,32 +6,22 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImage, MRTextRenderer, NSArray, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectScrapbook : MREffect
 {
     NSMutableDictionary *mFrameProviders;
-    NSMutableDictionary *mSprites;
-    _Bool mIsLoaded;
-    long long mTitleAspectRatio;
-    NSArray *mLayouts;
-    MRTextRenderer *mTextRenderer0;
-    MRImage *mTextImage0;
-    NSMutableArray *mRectsToSubtract;
-    _Bool mIsMovieOnly;
-    struct CGSize mTextSize;
-    float mLocalMatrix[16];
 }
 
 + (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (double);
-- (double);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void)NDAnalyticsEnvelopeStoreObserver;
+- (_Bool)sessionManager;
+- (_Bool)toreStringRepresentationsOfEntries(NSArray<id<NDAnalyticsEnvelopeStoreEntry>> *__strong _Nonnull);
+- (double)icsEnvelopeTrackerContentTypeIsSupported((NTPBEnvelope_ContentType)[contentType unsignedIntegerValue]); }];
+- (double)umber *contentType) { return !NAUAnalyticsEnvelopeTrackerContentTypeIsSupported((NTPBEnvelope_ContentType)[contentType unsignedIntegerValue]); }];
+- (id)poraryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadUploader.m;
+- (_Bool)urationManager:(double)arg1 telemetryUploader:(_Bool)arg2 storeDirectoryFileURL:(double *)arg3 URLSessionQueue:(double *)arg4 ];
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -39,6 +29,7 @@
 - (long long);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,8 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

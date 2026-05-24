@@ -6,14 +6,11 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface DMFOpenURLRequest : DMFTaskRequest
 {
     _Bool _lockInApp;
-    NSURL *_url;
-    NSString *_URLDisplayName;
-    NSArray *_handlingBundleIdentifiers;
 }
 
 + (_Bool);
@@ -28,14 +25,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)h.;
 - (id);
-- (void);
+- (void),N,V_maxResults;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *URLDisplayName; // @synthesize URLDisplayName=_URLDisplayName;
-@property(copy, nonatomic) NSArray *handlingBundleIdentifiers; // @synthesize handlingBundleIdentifiers=_handlingBundleIdentifiers;
-@property(nonatomic) _Bool lockInApp; // @synthesize lockInApp=_lockInApp;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class NSOperationQueue, VSOptional;
+@class VSOptional;
 
 @interface VSStorefrontCodeLoadOperation : VSAsyncOperation
 {
     VSOptional *_result;
-    NSOperationQueue *_privateQueue;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *privateQueue; // @synthesize privateQueue=_privateQueue;
 @property(retain, nonatomic) VSOptional *result; // @synthesize result=_result;
 
 @end

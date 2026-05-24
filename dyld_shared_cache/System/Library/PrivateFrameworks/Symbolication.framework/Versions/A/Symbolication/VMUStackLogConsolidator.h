@@ -5,13 +5,11 @@
 //
 
 @class VMUDebugTimer;
-@protocol VMUCommonGraphInterface, VMUStackLogReader;
+@protocol VMUCommonGraphInterface;
 
 @interface VMUStackLogConsolidator
 {
     id <VMUCommonGraphInterface> _scannerOrGraph;
-    id <VMUStackLogReader> _stackLogReader;
-    VMUDebugTimer *_debugTimer;
 }
 
 - (id);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_changePolicyToCurrent;
 - (id)+%u%s; ignoring all fields in this closure context
 ;
 

@@ -6,47 +6,36 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSArray, NSMutableArray, NSString;
-@protocol CoreDAVAccountInfoProvider, CoreDAVDiscoveryTaskGroupDelegate;
+@class NSString;
 
 @interface CoreDAVDiscoveryTaskGroup : CoreDAVTaskGroup
 {
     NSString *_requiredComplianceClass;
-    NSArray *_httpPorts;
-    NSArray *_httpsPorts;
-    NSString *_httpServiceString;
-    NSString *_httpsServiceString;
-    NSString *_wellKnownPath;
-    NSArray *_potentialContextPaths;
-    NSMutableArray *_discoveries;
-    _Bool _didReceiveAuthenticationError;
-    _Bool _shouldBailEarly;
-    id <CoreDAVAccountInfoProvider> _discoveredAccountInfo;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)T;
+- (id)8;
 - (_Bool);
 - (void);
 - (void);
@@ -57,25 +46,13 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)me;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)9;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CoreDAVDiscoveryTaskGroupDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didReceiveAuthenticationError; // @synthesize didReceiveAuthenticationError=_didReceiveAuthenticationError;
-@property(retain, nonatomic) id <CoreDAVAccountInfoProvider> discoveredAccountInfo; // @synthesize discoveredAccountInfo=_discoveredAccountInfo;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *potentialContextPaths; // @synthesize potentialContextPaths=_potentialContextPaths;
-@property(nonatomic) _Bool shouldBailEarly; // @synthesize shouldBailEarly=_shouldBailEarly;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *wellKnownPath; // @synthesize wellKnownPath=_wellKnownPath;
 
 @end

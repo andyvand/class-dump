@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface FIAPHistoricalDataRequest
 {
     unsigned long long _requestId;
-    NSString *_pluginIdentifier;
-    NSString *_personHandle;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-+ (id);
++ (id)16@"NSTableColumn"24q32;
 + (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)controlTextDidChange:(id)arg1;
+- (_Bool)addHeaderLogoSlice;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)EWSGetUserAvailabilityRequestType;
+- (void)stringByAddingPercentEncodingWithAllowedCharacters:(unsigned long long)arg1;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSString *personHandle; // @synthesize personHandle=_personHandle;
-@property(readonly, nonatomic) NSString *pluginIdentifier; // @synthesize pluginIdentifier=_pluginIdentifier;
 @property(readonly, nonatomic) unsigned long long requestId; // @synthesize requestId=_requestId;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

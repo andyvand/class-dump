@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSObject, NSString;
+@class HMFTimer, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteDeviceConfirmationHandler
 {
     HMFTimer *_timeoutTimer;
-    CDUnknownBlockType _handler;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
+- (id)service:(id)arg1 account:(id)arg2 inviteDroppedForSessionID:(CDUnknownBlockType)arg3 fromID:context:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
-- (CDUnknownBlockType)onnectionStateChange: /* Error: Ran out of types for this method. */;
+- (void);
+- (CDUnknownBlockType)onThreadNetworkWakeOnDeviceConnectionStateChange: /* Error: Ran out of types for this method. */;
 - (void)er for %@;
-- (void)icalStateMachineState;
+- (void)HMDHierarchicalStateMachineState;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) HMFTimer *timeoutTimer; // @synthesize timeoutTimer=_timeoutTimer;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

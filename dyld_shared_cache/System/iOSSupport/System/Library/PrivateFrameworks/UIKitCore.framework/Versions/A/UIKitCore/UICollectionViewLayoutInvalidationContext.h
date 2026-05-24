@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSMutableIndexSet, NSMutableSet, NSOrderedSet;
+@class NSMutableSet;
 
 @interface UICollectionViewLayoutInvalidationContext
 {
     NSMutableSet *_invalidatedItemIndexPaths;
-    NSMutableDictionary *_invalidatedSupplementaryIndexPaths;
-    NSMutableDictionary *_invalidatedDecorationIndexPaths;
-    NSArray *_updateItems;
-    NSArray *_previousIndexPathsForReorderedItems;
-    NSArray *_targetIndexPathsForReorderedItems;
-    struct CGPoint _reorderingTarget;
-    struct CGPoint _contentOffsetAdjustment;
-    struct CGSize _contentSizeAdjustment;
-    NSMutableIndexSet *_orthogonalSectionsWithContentSizeChanges;
-    struct {
-        unsigned int invalidateDataSource:1;
-        unsigned int invalidateEverything:1;
-        unsigned int invalidateContentSize:1;
-        unsigned int isLazy:1;
-        unsigned int forceRequireFullCacheInvalidation:1;
-    } _invalidationContextFlags;
-    _Bool _retainExistingSizingInfoForEstimates;
-    long long _intent;
-    NSOrderedSet *__indexPathsForItemsRequiringPreferredAttributes;
 }
 
-- (id);
-- (id);
+- (id)%@;
+- (id)@;
 - (struct CGPoint);
 - (_Bool);
 - (void);
@@ -41,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H*!H*AH*;
 - (void);
 - (void);
 - (id);
@@ -49,7 +30,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)�;
 - (struct CGSize);
 - (id);
 - (void);
@@ -63,25 +44,12 @@
 - (void);
 - (long long);
 - (void);
-- (struct CGPoint)AdvanceToPage: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_shouldAdvanceToPage: /* Error: Ran out of types for this method. */;
 - (void)¸;
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setShouldInvalidateCollectionViewContentSize:) _Bool _shouldInvalidateCollectionViewContentSize;
-@property(nonatomic) struct CGPoint contentOffsetAdjustment;
-@property(nonatomic) struct CGSize contentSizeAdjustment;
-@property(nonatomic, getter=_intent, setter=_setIntent:) long long intent; // @synthesize intent=_intent;
-@property(nonatomic, setter=_setInteractiveMovementTarget:) struct CGPoint interactiveMovementTarget;
 @property(nonatomic, setter=_setInvalidateDataSourceCounts:) _Bool invalidateDataSourceCounts;
-@property(nonatomic, setter=_setInvalidateEverything:) _Bool invalidateEverything;
-@property(readonly, nonatomic) NSDictionary *invalidatedDecorationIndexPaths;
-@property(readonly, nonatomic) NSArray *invalidatedItemIndexPaths;
-@property(readonly, nonatomic) NSDictionary *invalidatedSupplementaryIndexPaths;
-@property(copy, nonatomic, setter=_setPreviousIndexPathsForInteractivelyMovingItems:) NSArray *previousIndexPathsForInteractivelyMovingItems;
-@property(nonatomic, getter=_retainExistingSizingInfoForEstimates, setter=_setRetainExistingSizingInfoForEstimates:) _Bool retainExistingSizingInfoForEstimates; // @synthesize retainExistingSizingInfoForEstimates=_retainExistingSizingInfoForEstimates;
-@property(copy, nonatomic, setter=_setTargetIndexPathsForInteractivelyMovingItems:) NSArray *targetIndexPathsForInteractivelyMovingItems;
-@property(retain, nonatomic, getter=_updateItems, setter=_setUpdateItems:) NSArray *updateItems;
 
 @end
 

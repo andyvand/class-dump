@@ -6,55 +6,40 @@
 
 #import <ChatKit/CKColoredBalloonView.h>
 
-@class CKMediaObject, NSString, UIImageView, UILabel;
+@class CKMediaObject, UIImageView;
 
 @interface CKContactBalloonView : CKColoredBalloonView
 {
     CKMediaObject *_mediaObject;
-    UIImageView *_chevron;
-    UIImageView *_contactImageView;
-    UILabel *_nameLabel;
-    UILabel *_organizationLabel;
 }
 
 + (_Bool);
-- (CDUnknownBlockType);
-- (struct CGSize);
+- (CDUnknownBlockType)e",&,N,V_sortType;
+- (struct CGSize)ICCollapsibleImageView;
 - (void);
+- (id);
+- (void)%;
+- (void)ICMProgressWindowController;
+- (void)orAttachment:(id)arg1 paperIdentifier:(double)arg2 ]_block_invoke;
+- (void)ng)(NSString *__strong));
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (void)i;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)t: /* Error: Ran out of types for this method. */;
+- (id)removeChatItemAt: /* Error: Ran out of types for this method. */;
 - (void)6;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *chevron; // @synthesize chevron=_chevron;
-@property(retain, nonatomic) UIImageView *contactImageView; // @synthesize contactImageView=_contactImageView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(retain, nonatomic) UILabel *organizationLabel; // @synthesize organizationLabel=_organizationLabel;
-@property(readonly) Class superclass;
 
 @end
 

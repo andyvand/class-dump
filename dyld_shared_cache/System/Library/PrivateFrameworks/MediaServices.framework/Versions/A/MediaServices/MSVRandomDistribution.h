@@ -9,8 +9,6 @@
 @interface MSVRandomDistribution
 {
     id <MSVRandom> _source;
-    long long _lowestValue;
-    long long _highestValue;
 }
 
 + (_Bool);
@@ -19,12 +17,11 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long highestValue; // @synthesize highestValue=_highestValue;
 @property(readonly, nonatomic) long long lowestValue; // @synthesize lowestValue=_lowestValue;
 
 @end

@@ -11,18 +11,17 @@
     NSError *_internalError;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)_3|;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)VOTEventAppSwitchPrevious;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
 @property(readonly, nonatomic) NSError *error;
 
 @end

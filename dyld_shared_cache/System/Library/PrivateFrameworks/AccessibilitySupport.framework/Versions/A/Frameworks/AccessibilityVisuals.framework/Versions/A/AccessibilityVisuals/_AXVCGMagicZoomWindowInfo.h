@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _AXVCGMagicZoomWindowInfo
 {
     _Bool _isLargerScaleFactor;
-    double _currentScreenBackingScaleFactor;
-    double _previousScreenBackingScaleFactor;
-    struct CGRect _zoomWindowFrameCarbonCoordinates;
-    struct CGRect _zoomedRegionFrameCarbonCoordinates;
 }
 
 - (struct CGRect);
@@ -19,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)J;
 - (void);
 - (double);
 - (_Bool);
@@ -28,10 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double currentScreenBackingScaleFactor; // @synthesize currentScreenBackingScaleFactor=_currentScreenBackingScaleFactor;
-@property(nonatomic) _Bool isLargerScaleFactor; // @synthesize isLargerScaleFactor=_isLargerScaleFactor;
-@property(nonatomic) double previousScreenBackingScaleFactor; // @synthesize previousScreenBackingScaleFactor=_previousScreenBackingScaleFactor;
-@property(nonatomic) struct CGRect zoomWindowFrameCarbonCoordinates; // @synthesize zoomWindowFrameCarbonCoordinates=_zoomWindowFrameCarbonCoordinates;
-@property(nonatomic) struct CGRect zoomedRegionFrameCarbonCoordinates; // @synthesize zoomedRegionFrameCarbonCoordinates=_zoomedRegionFrameCarbonCoordinates;
 
 @end
 

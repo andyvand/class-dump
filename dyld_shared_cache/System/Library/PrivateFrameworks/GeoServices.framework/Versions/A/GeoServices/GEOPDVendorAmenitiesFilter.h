@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)ettings"16@"NSString"24;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (id):(struct _NSZone *)arg1 8@16@24I32Q36Q44@52;
-- (id)forLocation: /* Error: Ran out of types for this method. */;
+- (id)_shouldConsiderRoadMatch:overRouteMatch:forLocation: /* Error: Ran out of types for this method. */;
 - (id)õXö÷hù,ûèühý;
 - (void);
 

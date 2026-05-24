@@ -9,9 +9,9 @@
 }
 
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)evaluatePassInformation:(id)arg1 againstFieldInfo:error: /* Error: Ran out of types for this method. */;
+- (void)$;
+- (unsigned long long)audioTransportFormat;
 - (_Bool);
 - (_Bool);
 - (void);

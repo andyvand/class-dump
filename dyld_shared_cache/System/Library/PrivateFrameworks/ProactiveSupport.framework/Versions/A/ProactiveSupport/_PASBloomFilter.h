@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _PASBloomFilter
 {
     CDUnknownFunctionPointerType _computeHashes;
-    NSData *_data;
-    unsigned int _numBits;
-    int _numHashFunctions;
-    int _hashArrayLength;
 }
 
-+ (id);
-+ (id);
++ (id)A2676;
++ (id)e Version = %d.%d.%d.%d,;
 
 @end
 

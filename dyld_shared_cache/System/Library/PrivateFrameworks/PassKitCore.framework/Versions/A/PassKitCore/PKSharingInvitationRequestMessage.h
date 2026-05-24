@@ -11,8 +11,6 @@
 @interface PKSharingInvitationRequestMessage : PKSharingGenericMessage
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_personalizedVehicleIdentifier;
 }
 
 + (_Bool);
@@ -21,14 +19,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)`A9;
+- (_Bool)__TEXT;
 - (void)nc;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(readonly, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly, nonatomic) NSString *personalizedVehicleIdentifier; // @synthesize personalizedVehicleIdentifier=_personalizedVehicleIdentifier;
 
 @end
 

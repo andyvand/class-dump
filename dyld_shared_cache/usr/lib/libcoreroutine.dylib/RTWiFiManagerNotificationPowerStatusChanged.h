@@ -11,7 +11,7 @@
     unsigned long long _powerStatus;
 }
 
-- (id);
+- (id)(N;
 - (unsigned long long);
 
 // Remaining properties

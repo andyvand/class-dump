@@ -12,11 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _NSSlideAndCrossFadeAnimationProjectionWindow : _NSBorderlessLayerTreeProjectionWindow
 {
     struct CGRect beforeLayerInitialScreenRect;
-    struct CGRect beforeLayerFinalScreenRect;
-    struct CGRect afterLayerInitialScreenRect;
-    struct CGRect afterLayerFinalScreenRect;
-    CALayer *afterLayer;
-    CALayer *beforeLayer;
 }
 
 - (void);
@@ -24,11 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain) CALayer *afterLayer; // @synthesize afterLayer;
 @property(retain) CALayer *beforeLayer; // @synthesize beforeLayer;
 
 @end

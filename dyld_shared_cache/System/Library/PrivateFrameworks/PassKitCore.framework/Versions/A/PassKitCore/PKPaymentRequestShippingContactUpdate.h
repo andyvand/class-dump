@@ -20,11 +20,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)clearActivities;
 - (void)ok.peerpayment.origin.pay.siri;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *errors; // @synthesize errors=_errors;
 @property(copy, nonatomic) NSArray *shippingMethods; // @dynamic shippingMethods;
 
 @end

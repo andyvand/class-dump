@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBlurEffect, UIColor, UIImage;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface CKConversationListAccessoryViewConfiguration
 {
     UIImage *_image;
-    UIColor *_backgroundColor;
-    UIColor *_tintColor;
-    UIBlurEffect *_blurEffect;
-    long long _vibrancyStyle;
 }
 
 - (void);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)_internalRequestMode;
 - (id)!ü°!Eù°1Â0@ù
 × ;
 - (id)
@@ -32,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (void):(id)arg1 Ò0;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) UIBlurEffect *blurEffect; // @synthesize blurEffect=_blurEffect;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(nonatomic) long long vibrancyStyle; // @synthesize vibrancyStyle=_vibrancyStyle;
 
 @end
 

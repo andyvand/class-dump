@@ -9,14 +9,10 @@
 @interface SwiftUI.ScrollPocketBarInteraction__priv_2144E363A5C573328950F48844B228C4
 {
     void view;
-    id containerInteraction;
-    id barElementInteraction;
-    id changeRegistration;
-    id representable;
 }
 
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (void)¨¦÷ÿIúÿ¶ùõÿ¦÷ÿ&­õÿ;
 - (void)ÿ;

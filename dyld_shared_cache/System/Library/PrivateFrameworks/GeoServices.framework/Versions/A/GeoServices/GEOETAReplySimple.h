@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEOETAResponse, NSString;
+@class GEOETAResponse;
 
 @interface GEOETAReplySimple : GEOXPCReply
 {
@@ -14,21 +14,14 @@
 }
 
 - (id);
-- (id);
+- (id)i;
 - (_Bool);
 - (void);
-- (void):(id)arg1 of:type:pointHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_findTransitPointsWithin:(id)arg1 of:type:pointHandler:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)õ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOETAResponse *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

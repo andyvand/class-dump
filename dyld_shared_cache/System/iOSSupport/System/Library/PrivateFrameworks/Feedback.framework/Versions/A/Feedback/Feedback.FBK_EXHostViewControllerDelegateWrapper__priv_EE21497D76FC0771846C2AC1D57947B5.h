@@ -7,6 +7,7 @@
 @interface Feedback.FBK_EXHostViewControllerDelegateWrapper__priv_EE21497D76FC0771846C2AC1D57947B5
 {
     id controller;
+    id;
 }
 
 - (void);

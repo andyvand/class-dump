@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(copy) NSString *folderName; // @dynamic folderName;
-@property(copy) NSString *syncFolderItemsSyncState; // @dynamic syncFolderItemsSyncState;
 @end
 

@@ -6,20 +6,9 @@
 
 #import <NotesShared/ICBaseAttachment.h>
 
-@class ICAssetGenerationManager, ICAttachmentModel, ICSynapseLinkPreviewLoadingOperation, NSDictionary, NSURL;
-
 @interface ICAttachment : ICBaseAttachment
 {
     short _attachmentType;
-    ICAttachmentModel *_attachmentModel;
-    ICSynapseLinkPreviewLoadingOperation *_loadOperation;
-    _Bool settingMergeableData;
-    _Bool suppressesFileDeletion;
-    NSURL *_remoteFileURL;
-    ICAssetGenerationManager *_fallbackImageGenerationManager;
-    ICAssetGenerationManager *_fallbackPDFGenerationManager;
-    NSDictionary *_metadata;
-    NSURL *_URL;
 }
 
 @end

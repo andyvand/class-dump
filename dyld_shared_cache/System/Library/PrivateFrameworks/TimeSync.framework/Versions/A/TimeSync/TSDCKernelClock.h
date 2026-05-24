@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TSClock, TSKernelClock, _TSF_TSDClockSync, _TSF_TSDKernelClock;
-@protocol OS_dispatch_queue;
-
 @interface TSDCKernelClock
 {
     CDStruct_95f7bff7 _timeInfo[8];
-    _TSF_TSDKernelClock *_kernelClock;
-    _TSF_TSDClockSync *_clockSync;
-    int _lockState;
-    unsigned int _validIndex;
-    struct os_unfair_lock_s _updateLock;
-    int _internalLockState;
-    unsigned long long _clockIdentifier;
-    double _hostRateRatio;
-    TSClock *_translationClock;
-    NSObject<OS_dispatch_queue> *_propertyUpdateQueue;
-    TSKernelClock *_client;
 }
 
 + (id);
@@ -66,7 +52,7 @@
 - (id);
 - (void);
 - (id);
-- (struct os_unfair_lock_s);
+- (struct os_unfair_lock_s)setFrameworkAsyncOperationsQueue: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (void);
@@ -74,23 +60,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak TSKernelClock *client; // @synthesize client=_client;
 @property(nonatomic) unsigned long long clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(readonly, copy, nonatomic) NSString *clockName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double hostRateRatio; // @synthesize hostRateRatio=_hostRateRatio;
-@property(nonatomic) int internalLockState; // @synthesize internalLockState=_internalLockState;
-@property(nonatomic) int lockState; // @synthesize lockState=_lockState;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *propertyUpdateQueue; // @synthesize propertyUpdateQueue=_propertyUpdateQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TSClock *translationClock; // @synthesize translationClock=_translationClock;
-@property(nonatomic) struct os_unfair_lock_s updateLock; // @synthesize updateLock=_updateLock;
-@property(nonatomic) unsigned int validIndex; // @synthesize validIndex=_validIndex;
 
 @end
 

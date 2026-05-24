@@ -11,11 +11,6 @@
 @interface MRExternalJSONClientConnection : MRExternalClientConnection
 {
     NSDictionary *_artwork;
-    NSDictionary *_deviceInfo;
-    NSDictionary *_volume;
-    NSDictionary *_playerPath;
-    NSDictionary *_playbackQueue;
-    NSDictionary *_supportedCommands;
 }
 
 - (id);
@@ -26,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void)onChannel;
+- (void)hasCanRelayCommunicationChannel;
 
 @end
 

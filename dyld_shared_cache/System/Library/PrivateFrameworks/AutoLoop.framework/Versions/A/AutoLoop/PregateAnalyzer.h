@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, PregateFeatureBuilder;
+@class NSDictionary;
 
 @interface PregateAnalyzer
 {
     _Bool _haveInputVideoSize;
-    int _trimInput_firstIndex;
-    int _trimInput_lastIndex;
-    int _gatingPassTrimResult_firstIndex;
-    int _gatingPassTrimResult_lastIndex;
-    PregateFeatureBuilder *featureBuilder;
-    NSDictionary *pregateParameters;
-    NSDictionary *_defaultParameters;
-    NSData *_perFrameTranslationVecs;
-    NSArray *_badFrameFlags;
-    NSArray *_focusScores;
-    struct CGSize _inputVideoSize;
-    CDStruct_1b6d18a9 minimumRequiredTrimLength;
-    CDStruct_1b6d18a9 requiredFrameTime;
-    CDStruct_e83c9415 requiredTimeRange;
-    CDStruct_e83c9415 inputTrimTime;
-    CDStruct_e83c9415 outputTrimTime;
 }
 
 + (id);
 - (int);
 - (int);
-- (CDStruct_1b6d18a9);
-- (_Bool);
+- (CDStruct_198678f7);
+- (_Bool)�;
 - (void);
 - (void);
 - (void);
@@ -46,19 +30,19 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_e83c9415);
-- (CDStruct_1b6d18a9);
+- (CDStruct_3c1748cc);
+- (CDStruct_198678f7);
 - (int);
 - (int);
 - (int);
 - (id);
 - (id);
 - (id);
-- (CDStruct_e83c9415);
-- (CDStruct_1b6d18a9);
+- (CDStruct_3c1748cc);
+- (CDStruct_198678f7);
 - (int);
 - (struct CGSize);
-- (CDStruct_e83c9415);
+- (CDStruct_3c1748cc);
 - (_Bool);
 - (int);
 - (int);
@@ -69,11 +53,11 @@
 - (int);
 - (int);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (int);
+- (int)y�*;
 - (_Bool);
 - (int);
 - (id);
@@ -86,26 +70,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)a;
 
 // Remaining properties
-@property(retain) NSArray *badFrameFlags; // @synthesize badFrameFlags=_badFrameFlags;
 @property(retain) NSDictionary *defaultParameters; // @synthesize defaultParameters=_defaultParameters;
-@property(retain) PregateFeatureBuilder *featureBuilder; // @synthesize featureBuilder;
-@property(retain) NSArray *focusScores; // @synthesize focusScores=_focusScores;
-@property int gatingPassTrimResult_firstIndex; // @synthesize gatingPassTrimResult_firstIndex=_gatingPassTrimResult_firstIndex;
-@property int gatingPassTrimResult_lastIndex; // @synthesize gatingPassTrimResult_lastIndex=_gatingPassTrimResult_lastIndex;
-@property _Bool haveInputVideoSize; // @synthesize haveInputVideoSize=_haveInputVideoSize;
-@property CDStruct_e83c9415 inputTrimTime; // @synthesize inputTrimTime;
-@property struct CGSize inputVideoSize; // @synthesize inputVideoSize=_inputVideoSize;
-@property CDStruct_1b6d18a9 minimumRequiredTrimLength; // @synthesize minimumRequiredTrimLength;
-@property(readonly) CDStruct_e83c9415 outputTrimTime; // @synthesize outputTrimTime;
-@property(retain) NSData *perFrameTranslationVecs; // @synthesize perFrameTranslationVecs=_perFrameTranslationVecs;
-@property(retain) NSDictionary *pregateParameters; // @synthesize pregateParameters;
-@property CDStruct_1b6d18a9 requiredFrameTime; // @synthesize requiredFrameTime;
-@property CDStruct_e83c9415 requiredTimeRange; // @synthesize requiredTimeRange;
-@property int trimInput_firstIndex; // @synthesize trimInput_firstIndex=_trimInput_firstIndex;
-@property int trimInput_lastIndex; // @synthesize trimInput_lastIndex=_trimInput_lastIndex;
 
 @end
 

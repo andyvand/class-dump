@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
-- (oneway void);
+- (unsigned long long)odelStructurePath with error:%s. /* Error: Ran out of types for this method. */;
+- (oneway void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)te-push-tokens;
 - (_Bool);
 - (_Bool);
 - (_Bool);

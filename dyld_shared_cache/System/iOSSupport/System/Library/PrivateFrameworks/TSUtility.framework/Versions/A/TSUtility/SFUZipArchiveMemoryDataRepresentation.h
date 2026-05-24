@@ -6,7 +6,7 @@
 
 #import <TSUtility/SFUDataRepresentation.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SFUZipArchiveMemoryDataRepresentation : SFUDataRepresentation
 {
@@ -19,20 +19,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)allRepsOrdered;
 - (id);
 - (id);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

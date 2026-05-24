@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface MXMSampleAttribute
 {
     NSString *_name;
-    long long _valueType;
-    id _value;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)ZA|;
 + (id);
 + (id);
 + (_Bool);
@@ -24,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)|;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,17 +32,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSNumber *numericValue;
-@property(readonly, copy, nonatomic) NSString *stringValue;
-@property(readonly, copy, nonatomic) id value; // @synthesize value=_value;
-@property(readonly, nonatomic) long long valueType; // @synthesize valueType=_valueType;
 
 @end
 

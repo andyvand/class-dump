@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-- (id);
+- (id)epartureAirportCountry="%@*"cwd);
 - (Class);
 - (void);
-- (id);
+- (id)p;
 
 @end
 

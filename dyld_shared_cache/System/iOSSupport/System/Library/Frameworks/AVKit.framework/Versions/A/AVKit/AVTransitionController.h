@@ -4,58 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDisplayLink, AVInteractiveTransitionGestureTracker, AVPresentationContext, AVPresentationController, AVTransition, CAMediaTimingFunction, NSString, UIView;
-@protocol AVTransitionControllerDelegate, AVTransitionDriver;
+@class AVPresentationController;
 
 __attribute__((visibility("hidden")))
 @interface AVTransitionController
 {
     AVPresentationController *_presentationController;
-    id <AVTransitionControllerDelegate> _delegate;
-    id <AVTransitionDriver> _interactiveGestureTracker;
-    UIView *_interactionView;
-    long long _state;
-    AVDisplayLink *_displayLink;
-    AVTransition *_activeTransition;
-    AVInteractiveTransitionGestureTracker *_gestureTracker;
-    UIView *_sourceViewForNextPresentation;
-    CDUnknownBlockType _transitionDidBeginHandler;
-    CAMediaTimingFunction *_easeInFunction;
-    CAMediaTimingFunction *_easeOutFunction;
-    struct CGPoint _touchGravity;
 }
 
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void)__DATA;
+- (id)XkA'$A@2>X5'$AXkA'$A@2>X5'$AXkA'$A@2>X5'$AXkA'$A@2>X5,;
+- (void)N8cnmatrix8CNMatrixILj10ELj1EdEE;
+- (id);
 - (void);
+- (void)(;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (void);
 - (struct CGPoint);
 - (void);
 - (void);
-- (long long);
-- (void);
+- (long long)mutableCopyWithZone: /* Error: Ran out of types for this method. */;
+- (void)__operations;
 - (_Bool);
 - (void);
 - (void);
@@ -64,13 +51,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ramework/Versions/C/Foundation;
 - (CDUnknownBlockType);
-- (id);
+- (id)_connection;
+- (void)on, locale);
+- (void)5;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)l;
 - (void);
 - (void);
 - (id);
@@ -82,38 +69,7 @@ __attribute__((visibility("hidden")))
 - (id)8;
 
 // Remaining properties
-@property(retain, nonatomic) AVTransition *activeTransition; // @synthesize activeTransition=_activeTransition;
-@property(readonly, nonatomic) long long completionCurve;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double completionSpeed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTransitionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) AVDisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(retain, nonatomic) CAMediaTimingFunction *easeInFunction; // @synthesize easeInFunction=_easeInFunction;
-@property(retain, nonatomic) CAMediaTimingFunction *easeOutFunction; // @synthesize easeOutFunction=_easeOutFunction;
-@property(readonly, nonatomic) AVInteractiveTransitionGestureTracker *gestureTracker; // @synthesize gestureTracker=_gestureTracker;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIView *interactionView; // @synthesize interactionView=_interactionView;
-@property(retain, nonatomic) id <AVTransitionDriver> interactiveGestureTracker; // @synthesize interactiveGestureTracker=_interactiveGestureTracker;
-@property(readonly, nonatomic) __weak AVPresentationContext *presentationContext;
-@property(nonatomic) __weak UIView *sourceViewForNextPresentation; // @synthesize sourceViewForNextPresentation=_sourceViewForNextPresentation;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGPoint touchGravity; // @synthesize touchGravity=_touchGravity;
-@property(copy, nonatomic) CDUnknownBlockType transitionDidBeginHandler; // @synthesize transitionDidBeginHandler=_transitionDidBeginHandler;
-@property(readonly, nonatomic) _Bool wantsInteractiveStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

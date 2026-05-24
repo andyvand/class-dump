@@ -7,12 +7,11 @@
 @interface CKDCancelToken
 {
     _Bool _isCancelled;
-    CDUnknownBlockType _cancelAction;
 }
 
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (_Bool);
 - (void)¤5;
 

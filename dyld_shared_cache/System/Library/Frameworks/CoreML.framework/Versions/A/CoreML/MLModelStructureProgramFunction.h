@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelStructureProgramBlock, NSArray;
+@class NSArray;
 
 @interface MLModelStructureProgramFunction
 {
     NSArray *_inputs;
-    MLModelStructureProgramBlock *_block;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void)@?0Q8@"<ETDataProvider>"16@"<ETTaskContext>"24;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelStructureProgramBlock *block; // @synthesize block=_block;
 @property(readonly, copy, nonatomic) NSArray *inputs; // @synthesize inputs=_inputs;
 
 @end

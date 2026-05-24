@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSDictionary, NSString, NSUUID;
+@class IFColor;
 
 @interface ISFolderIconConfiguration
 {
     _Bool _folderEmpty;
-    NSString *_symbolName;
-    NSString *_emoji;
-    long long _systemTintColor;
-    IFColor *_tintColor;
-    NSString *_assetCatalogImageName;
 }
 
 + (_Bool);
@@ -22,46 +17,31 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)};
+- (id)CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}24@0:8^{__DDScanQuery={__CFRuntimeBase=QAQ}^{__DDQueryFragment}qq^?^v}16 /* Error: Ran out of types for this method. */;
+- (id)handleFailureInMethod:(long long)arg1 object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (_Bool)getTrackingNumber:carrier: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)EnableSoftwareTransfer;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)CPMSAgentWrapper;
+- (id);
 - (void);
 - (id)error:%@ /* Error: Ran out of types for this method. */;
 - (void)?Ü??s?¶?
 ?M?¡?ä?8?{?Ï??f?©?ý?@??×??]?±?ô?H??Ï??f?©?ì?@??Æ?	?]? ?ã?&?i?½?;
 
 // Remaining properties
-@property(retain) NSString *assetCatalogImageName; // @synthesize assetCatalogImageName=_assetCatalogImageName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSUUID *digest;
-@property(copy) NSString *emoji; // @synthesize emoji=_emoji;
-@property _Bool folderEmpty; // @synthesize folderEmpty=_folderEmpty;
-@property(readonly) _Bool hasTint;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *plistExcerpt;
-@property(readonly) Class superclass;
-@property(copy) NSString *symbolName; // @synthesize symbolName=_symbolName;
-@property long long systemTintColor; // @synthesize systemTintColor=_systemTintColor;
 @property(retain) IFColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end

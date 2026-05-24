@@ -10,25 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _UIScrollDynamicsiOSMac : _UIScrollDynamics
 {
     double _durationUntilStop;
-    double _durationUntilStopIgnoringRubberbanding;
-    struct CGSize _absDisplacementVectorIgnoringRubberbanding;
-    double _linearDisplacementIgnoringRubberbanding;
-    struct CGPoint _destinationIgnoringRubberbanding;
-    double _durationUntilRubberband;
-    struct CGPoint _initialRubberbandingOrigin;
-    struct CGVector _initialRubberbandingVelocity;
-    unsigned long long _rubberBandingAxis;
-    double _decelerationRate;
 }
 
 - (double);
 - (_Bool);
-- (void);
-- (void);
+- (void)registerMessagesGroupUUIDForConversationUUID: /* Error: Ran out of types for this method. */;
+- (void)registerGUID:forNewOutgoingTransferWithLocalURL: /* Error: Ran out of types for this method. */;
 - (struct CGVector);
 - (struct CGPoint);
 - (double);
-- (id);
+- (id)licit = excluded.explicit,   payload = excluded.payload,   identifier_set = excluded.identifier_set;;
 
 @end
 

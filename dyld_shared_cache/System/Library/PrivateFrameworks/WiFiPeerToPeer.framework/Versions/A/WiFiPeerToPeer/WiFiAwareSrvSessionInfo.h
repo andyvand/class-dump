@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface WiFiAwareSrvSessionInfo
 {
     unsigned char _srvId;
-    unsigned int _numofPeers;
-    unsigned long long _srvType;
-    NSString *_srvName;
-    NSData *_srvHash;
-    NSArray *_ndiInfos;
 }
 
 + (_Bool);
@@ -31,12 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *ndiInfos; // @synthesize ndiInfos=_ndiInfos;
-@property(readonly, nonatomic) unsigned int numofPeers; // @synthesize numofPeers=_numofPeers;
-@property(readonly, nonatomic) NSData *srvHash; // @synthesize srvHash=_srvHash;
 @property(readonly, nonatomic) unsigned char srvId; // @synthesize srvId=_srvId;
-@property(readonly, nonatomic) NSString *srvName; // @synthesize srvName=_srvName;
-@property(readonly, nonatomic) unsigned long long srvType; // @synthesize srvType=_srvType;
 
 @end
 

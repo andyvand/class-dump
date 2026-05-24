@@ -7,29 +7,24 @@
 @interface _NSCollectionLayoutDimension
 {
     long long _semantic;
-    double _dimension;
 }
 
++ (id)<;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)NSURLDownloadMacBinaryResourceForkLength;
 - (id);
-- (id);
+- (id)tifier %@;
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (_Bool)1Â0@ù
 × ;
-- (id)ModalTouchBar:(struct _NSZone *)arg1;
-- (_Bool)etDefaultButtonPaused: /* Error: Ran out of types for this method. */;
+- (id)dismissSystemModalTouchBar:(struct _NSZone *)arg1;
+- (_Bool)_setDefaultButtonPaused: /* Error: Ran out of types for this method. */;
 - (double)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) double dimension;
-@property(readonly, nonatomic) _Bool isAbsolute;
-@property(readonly, nonatomic) _Bool isEstimated;
-@property(readonly, nonatomic) _Bool isFractionalHeight;
-@property(readonly, nonatomic) _Bool isFractionalWidth;
 
 @end
 

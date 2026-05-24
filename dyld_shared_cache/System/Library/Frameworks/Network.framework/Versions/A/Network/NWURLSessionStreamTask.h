@@ -6,27 +6,21 @@
 
 #import <Network/NWURLSessionTask.h>
 
-@class NSURLResponse;
-
 @interface NWURLSessionStreamTask : NWURLSessionTask
 {
     _Bool _readClosed;
-    _Bool _writeClosed;
-    _Bool _becameStreams;
-    unsigned int _outstandingReadsWrites;
-    NSURLResponse *_storedResponse;
 }
 
-+ (_Bool);
++ (_Bool)or action;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)and error;
+- (void){CGSize=dd}}16;
 - (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (void)options, backtrace limit exceeded;
 - (void);

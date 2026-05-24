@@ -9,13 +9,10 @@
 @protocol MKAnnotationPrivate
 
 @optional
+- (CLLocation *)prepareToDraw;
 - (void)àðv/ô?àðv/À64µòSÂ@ÚbJá@;
 
 // Remaining properties
-@property(retain, nonatomic) CLLocation *location;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CLLocation",?,&,N
-
 @property(readonly, nonatomic) long long representation;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N

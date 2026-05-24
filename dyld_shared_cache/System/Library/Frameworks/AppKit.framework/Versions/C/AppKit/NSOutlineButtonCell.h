@@ -12,25 +12,22 @@ __attribute__((visibility("hidden")))
 @interface NSOutlineButtonCell : NSButtonCell
 {
     NSOutlineView *_outlineView;
-    double _cellViewBaselineOffsetFromTop;
-    _Bool _isSourceList;
-    _Bool _isGroupRow;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
-- (double);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (double)dictionaryReport;
+- (struct CGSize)dependencyTreeWithJSONData:(struct CGRect)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)_NSCFTranslatedFileURLProtocol_PIMPL_5;
+- (id)_NSCFTranslatedFileURLProtocol_PIMPL_4;
+- (id)lude property list types (NSArray, NSDictionary, NSString, NSData, NSDate, NSNumber).;
+- (_Bool)occur on this application's main thread as it may lead to UI unresponsiveness. Please switch to an asynchronous networking API such as URLSession.;
+- (id)AppleLanguagePreferencesChangedNotification;
 - (_Bool);
 - (id);
 - (void);
@@ -43,10 +40,7 @@ __attribute__((visibility("hidden")))
 - (void)n %lu;
 
 // Remaining properties
-@property double cellViewBaselineOffsetFromTop; // @synthesize cellViewBaselineOffsetFromTop=_cellViewBaselineOffsetFromTop;
-@property(nonatomic) _Bool isGroupRow; // @synthesize isGroupRow=_isGroupRow;
 @property(nonatomic) _Bool isSourceList; // @synthesize isSourceList=_isSourceList;
-@property(nonatomic) NSOutlineView *outlineView; // @synthesize outlineView=_outlineView;
 
 @end
 

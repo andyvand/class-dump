@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HCXPCClient, NSDictionary, NSError, NSObject;
-@protocol OS_xpc_object;
+@class HCXPCClient;
 
 @interface HCXPCMessage
 {
     HCXPCClient *_client;
-    NSObject<OS_xpc_object> *_xpcMessage;
-    NSDictionary *_payload;
-    NSError *_error;
 }
 
 + (id);
@@ -20,23 +16,20 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)validate-server;
 - (void);
-- (id);
+- (id)setIsStoreOriginated: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak HCXPCClient *client; // @synthesize client=_client;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *xpcMessage; // @synthesize xpcMessage=_xpcMessage;
 
 @end
 

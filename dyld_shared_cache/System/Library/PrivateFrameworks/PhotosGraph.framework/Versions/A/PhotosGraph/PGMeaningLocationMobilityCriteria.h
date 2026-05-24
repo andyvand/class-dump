@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGMeaningLocationMobilityCriteria
 {
     unsigned long long _locationMobilityType;
-    NSString *_locationMobilityLabel;
 }
 
 + (id);
@@ -18,22 +15,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)setButton: /* Error: Ran out of types for this method. */;
+- (id)setApplicationIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void)tleTitleFormatTripMultipleLocationsWithLocation %@ otherLocation %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *locationMobilityLabel; // @synthesize locationMobilityLabel=_locationMobilityLabel;
 @property(nonatomic) unsigned long long locationMobilityType; // @synthesize locationMobilityType=_locationMobilityType;
-@property(readonly) Class superclass;
 
 @end
 

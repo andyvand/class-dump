@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 @protocol MPCPlaybackEngineInfoProvider;
 
 __attribute__((visibility("hidden")))
 @interface MPCNetworkRequestMonitoredTag
 {
     NSString *_playbackEngineID;
-    NSDictionary *_contextInfo;
-    id <MPCPlaybackEngineInfoProvider> _engineInfoProvider;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)16;
 - (id);
 - (void);
 - (void){public}@;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *contextInfo; // @synthesize contextInfo=_contextInfo;
 @property(nonatomic) __weak id <MPCPlaybackEngineInfoProvider> engineInfoProvider; // @synthesize engineInfoProvider=_engineInfoProvider;
-@property(copy, nonatomic) NSString *playbackEngineID; // @synthesize playbackEngineID=_playbackEngineID;
 
 @end
 

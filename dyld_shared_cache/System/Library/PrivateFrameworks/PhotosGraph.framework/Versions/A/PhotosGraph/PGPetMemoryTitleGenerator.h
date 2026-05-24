@@ -6,16 +6,11 @@
 
 #import <PhotosGraph/PGTitleGenerator.h>
 
-@class CLSServiceManager, NSString, PGGraphPersonNodeCollection, PGGraphPetNodeCollection;
+@class CLSServiceManager, NSString;
 
 @interface PGPetMemoryTitleGenerator : PGTitleGenerator
 {
     CLSServiceManager *_serviceManager;
-    _Bool _useAdventureTitle;
-    _Bool _usePetAndPersonTitle;
-    NSString *_seasonName;
-    PGGraphPetNodeCollection *_petNodes;
-    PGGraphPersonNodeCollection *_personNodeAsCollection;
 }
 
 - (_Bool);
@@ -24,20 +19,16 @@
 - (void);
 - (void);
 - (void);
+- (id)__TEXT;
 - (id);
-- (id);
-- (id);
+- (id)scheme;
 - (void);
-- (void);
-- (id);
+- (void)box of highlighted messages in the message list;
+- (id)social media alert.;
 - (void)nowledge Day;
 
 // Remaining properties
-@property(retain, nonatomic) PGGraphPersonNodeCollection *personNodeAsCollection; // @synthesize personNodeAsCollection=_personNodeAsCollection;
-@property(retain, nonatomic) PGGraphPetNodeCollection *petNodes; // @synthesize petNodes=_petNodes;
 @property(retain, nonatomic) NSString *seasonName; // @synthesize seasonName=_seasonName;
-@property(nonatomic) _Bool useAdventureTitle; // @synthesize useAdventureTitle=_useAdventureTitle;
-@property(nonatomic) _Bool usePetAndPersonTitle; // @synthesize usePetAndPersonTitle=_usePetAndPersonTitle;
 
 @end
 

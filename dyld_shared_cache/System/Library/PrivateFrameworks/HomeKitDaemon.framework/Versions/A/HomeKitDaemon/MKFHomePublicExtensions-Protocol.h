@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
+@class CKRecordID, NSManagedObjectContext, NSNumber, NSUUID;
+@protocol HMDHomeMember, MKFGuestAccessCode;
 
 @protocol MKFHomePublicExtensions
++ (id <HMDHomeMember>)service:(CKRecordID *)arg1 account:(NSUUID *)arg2 inviteDroppedForSessionID:(NSManagedObjectContext *)arg3 fromID:context:error: /* Error: Ran out of types for this method. */;
+- (id <MKFGuestAccessCode>)6@"GEONavigationRouteSummary"24;
+- (id <HMDHomeMember>)unarchivedObjectOfClasses:(NSUUID *)arg1 fromData:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSNumber *didOnboardEventLog;
-@property(copy) NSNumber *eventLogDuration;
-@property(copy) NSNumber *eventLogEnabled;
 @end
 

@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (id);
+- (id)be 1 dimension;
 - (id);
 - (id);
 - (void);

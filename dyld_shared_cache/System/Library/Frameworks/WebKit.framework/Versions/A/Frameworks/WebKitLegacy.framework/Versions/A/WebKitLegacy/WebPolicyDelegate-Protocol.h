@@ -5,5 +5,9 @@
 //
 
 @protocol WebPolicyDelegate
+
+@optional
+- (void)^X;
+- (void);
 @end
 

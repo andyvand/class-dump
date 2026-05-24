@@ -5,5 +5,6 @@
 //
 
 @protocol SOTimersSnapshotMutating
+- (void);
 @end
 

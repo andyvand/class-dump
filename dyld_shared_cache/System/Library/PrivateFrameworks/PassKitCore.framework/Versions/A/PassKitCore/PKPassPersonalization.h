@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKPassPersonalization
 {
     unsigned long long _requiredPersonalizationFields;
-    NSString *_termsAndConditions;
-    NSString *_localizedDescription;
 }
 
 + (id);
@@ -22,14 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)btmBssTerminationIncluded;
 - (id);
 - (void)ry/PrivateFrameworks/PassKitMacHelperTemp.framework/PassKitMacHelperTemp;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(readonly, nonatomic) unsigned long long requiredPersonalizationFields; // @synthesize requiredPersonalizationFields=_requiredPersonalizationFields;
-@property(readonly, nonatomic) NSString *termsAndConditions; // @synthesize termsAndConditions=_termsAndConditions;
 
 @end
 

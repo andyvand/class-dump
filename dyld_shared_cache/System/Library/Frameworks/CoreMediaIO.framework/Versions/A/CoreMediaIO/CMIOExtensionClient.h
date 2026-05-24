@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSUUID, STActivityAttribution;
+@class NSUUID;
 
 @interface CMIOExtensionClient
 {
     CDStruct_4c969caf _auditToken;
-    STActivityAttribution *_stAttribution;
-    _Bool _isToProxy;
-    _Bool _isFromProxyExtensionManager;
-    long long _microphoneAuthorizationStatus;
-    long long _cameraAuthorizationStatus;
-    _Bool _hasPendingMicrophoneAuthorizationRequest;
-    _Bool _hasPendingCameraAuthorizationRequest;
-    NSString *_description;
-    NSString *_redactedDescription;
-    NSMutableDictionary *_stCameraCaptureAttributionsMap;
-    int _pid;
-    NSUUID *_clientID;
-    NSString *_signingID;
 }
 
 + (id);
@@ -34,18 +21,18 @@
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)7	;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (long long);
-- (id);
+- (id)derProtocol>";
 - (void);
 - (int);
 - (long long);
-- (id);
+- (id)nt;
 - (CDStruct_4c969caf);
 - (unsigned long long);
 - (id);
@@ -56,8 +43,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *clientID; // @synthesize clientID=_clientID;
-@property(readonly) int pid; // @synthesize pid=_pid;
-@property(readonly, copy) NSString *signingID; // @synthesize signingID=_signingID;
 
 @end
 

@@ -5,11 +5,10 @@
 //
 
 @protocol CHHapticParameterAttributes
+- (float)P;
 - (float)%s:In underlying AVHapticPlayer's completion handler block for doStopWithCompletionHandler /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) float defaultValue;
-@property(readonly) float maxValue;
 @property(readonly) float minValue;
 @end
 

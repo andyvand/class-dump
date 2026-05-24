@@ -9,24 +9,22 @@
 @interface PKLabeledValue
 {
     NSString *_label;
-    NSString *_value;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
-- (id);
+- (id)@9	;
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setBatteryTimeRemaining:(id)arg1;
+- (void)retryCount;
 - (id);
-- (id);
+- (id);
 - (void)L = [c] %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

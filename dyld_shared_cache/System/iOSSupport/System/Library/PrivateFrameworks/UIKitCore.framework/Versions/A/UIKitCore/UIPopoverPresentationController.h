@@ -6,94 +6,11 @@
 
 #import <UIKitCore/UIPresentationController.h>
 
-@class NSArray, NSString, UIBarButtonItem, UIColor, UICornerConfiguration, UIDimmingView, UIPanGestureRecognizer, UISheetPresentationController, UIView, UIViewController, UIViewControllerTransition, _UIPopoverDimmingView, _UIPopoverLayoutInfo, _UIPopoverView, _UIRoundedRectShadowView;
-@protocol UIPopoverPresentationControllerDelegate, UIPopoverPresentationControllerSourceItem, _UIPopoverHostManager;
+@class UIViewController;
 
 @interface UIPopoverPresentationController : UIPresentationController
 {
     UIViewController *_contentViewController;
-    _UIPopoverView *_popoverView;
-    _UIPopoverDimmingView *_dimmingView;
-    _UIRoundedRectShadowView *_shadowView;
-    UIView *_layoutConstraintView;
-    struct CGRect _targetRectInEmbeddingView;
-    UIBarButtonItem *_targetBarButtonItem;
-    unsigned long long _currentArrowDirection;
-    long long _popoverBackgroundStyle;
-    UIColor *_backgroundColor;
-    UIColor *_arrowBackgroundColor;
-    _UIPopoverLayoutInfo *_preferredLayoutInfo;
-    Class _popoverBackgroundViewClass;
-    struct CGSize _popoverContentSize;
-    struct CGRect _lastSourceRectInContainerView;
-    long long _popoverControllerStyle;
-    _Bool _ignoresKeyboardNotifications;
-    _Bool _canOverlapSourceViewRect;
-    _Bool _backgroundBlurDisabled;
-    _Bool _overrideAllowsHitTestingOnBackgroundViews;
-    long long _backgroundBlurEffectStyle;
-    unsigned int draggingChildScrollViewCount;
-    struct CGRect _previousContainerViewRect;
-    _Bool _deriveSourceRectFromSourceViewBounds;
-    UIView *_presentingView;
-    unsigned long long _presentationEdge;
-    long long _presentationDirection;
-    int _presentationState;
-    _Bool _didPresentInActiveSequence;
-    unsigned long long _slideTransitionCount;
-    UIPanGestureRecognizer *_vendedGestureRecognizer;
-    UIPanGestureRecognizer *_dimmingViewGestureRecognizer;
-    struct {
-        unsigned int isPresentingModalViewController:1;
-        unsigned int isPresentingActionSheet:1;
-        unsigned int wasIgnoringDimmingViewTouchesBeforeScrolling:1;
-        unsigned int isInTextEffectsWindow:1;
-        unsigned int isEmbeddingInView:1;
-        unsigned int embeddedPresentationBounces:1;
-        unsigned int isRepositioningRectDisabled:1;
-        unsigned int sendingDelegateWillRepositionToRect:1;
-        unsigned int isObservingFocusUpdateNotification:1;
-    } _popoverControllerFlags;
-    NSString *_popoverIdentifier;
-    id <_UIPopoverHostManager> _hostManager;
-    UIPanGestureRecognizer *_detachGestureRecognizer;
-    _Bool _wasDetached;
-    UIViewControllerTransition *_zoomTransition;
-    _Bool _shouldSendDidDismiss;
-    _Bool _dismissesOnRotation;
-    _Bool _showsTargetRect;
-    _Bool _showsOrientationMarker;
-    _Bool _showsPresentationArea;
-    _Bool _retainsSelfWhilePresented;
-    _Bool _shouldDimPresentingViewTint;
-    _Bool _allowDismissalTapsToPassThrough;
-    _Bool __allowsFocusInPresentingViewController;
-    _Bool __centersPopoverIfSourceViewNotSet;
-    _Bool __shouldHideArrow;
-    _Bool _shouldDisableInteractionDuringTransitions;
-    _Bool __ignoreBarButtonItemSiblings;
-    _Bool __softAssertWhenNoSourceViewOrBarButtonItemSpecified;
-    _Bool __allowsSourceViewInDifferentWindowThanInitialPresentationViewController;
-    _Bool _shouldPreserveFirstResponder;
-    _Bool _adaptivityEnabled;
-    _Bool __bottomAlignsPopoverIfSourceViewNotSet;
-    _Bool __prefersZoomTransitions;
-    double _cornerRadius;
-    UICornerConfiguration *_cornerConfiguration;
-    UIView *_accessoryView;
-    UISheetPresentationController *_adaptiveSheetPresentationController;
-    unsigned long long _permittedArrowDirections;
-    unsigned long long _popoverArrowDirection;
-    UIView *_sourceOverlayView;
-    NSArray *_sourceOverlayViewConstraints;
-    UIView *_targetRectView;
-    UIPopoverPresentationController *_retainedSelf;
-    double __dimmingViewTopEdgeInset;
-    long long __preferredHorizontalAlignment;
-    unsigned long long __ignoredEdgesForSafeArea;
-    struct CGPoint _dismissalInteractionLocation;
-    struct CGSize __defaultPopoverSizeOverride;
-    struct UIEdgeInsets _popoverLayoutMargins;
 }
 
 + (_Bool);
@@ -105,65 +22,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAccessoryView:) UIView *_accessoryView; // @synthesize _accessoryView;
-@property(nonatomic, setter=_setAllowDismissalTapsToPassThrough:) _Bool _allowDismissalTapsToPassThrough; // @synthesize _allowDismissalTapsToPassThrough;
-@property(nonatomic, setter=_setAllowsFocusInPresentingViewController:) _Bool _allowsFocusInPresentingViewController; // @synthesize _allowsFocusInPresentingViewController=__allowsFocusInPresentingViewController;
-@property(nonatomic, setter=_setAllowsSourceViewInDifferentWindowThanInitialPresentationViewController:) _Bool _allowsSourceViewInDifferentWindowThanInitialPresentationViewController; // @synthesize _allowsSourceViewInDifferentWindowThanInitialPresentationViewController=__allowsSourceViewInDifferentWindowThanInitialPresentationViewController;
-@property(nonatomic, getter=_arrowOffset, setter=_setArrowOffset:) double _arrowOffset;
-@property(nonatomic, getter=_bottomAlignsPopoverIfSourceViewNotSet, setter=_setBottomAlignsPopoverIfSourceViewNotSet:) _Bool _bottomAlignsPopoverIfSourceViewNotSet; // @synthesize _bottomAlignsPopoverIfSourceViewNotSet=__bottomAlignsPopoverIfSourceViewNotSet;
-@property(nonatomic, getter=_centersPopoverIfSourceViewNotSet, setter=_setCentersPopoverIfSourceViewNotSet:) _Bool _centersPopoverIfSourceViewNotSet; // @synthesize _centersPopoverIfSourceViewNotSet=__centersPopoverIfSourceViewNotSet;
-@property(retain, nonatomic, setter=_setCornerConfiguration:) UICornerConfiguration *_cornerConfiguration; // @synthesize _cornerConfiguration;
-@property(nonatomic, setter=_setCornerRadius:) double _cornerRadius; // @synthesize _cornerRadius;
-@property(nonatomic) struct CGSize _defaultPopoverSizeOverride; // @synthesize _defaultPopoverSizeOverride=__defaultPopoverSizeOverride;
-@property(nonatomic, setter=_setDimmingViewTopEdgeInset:) double _dimmingViewTopEdgeInset; // @synthesize _dimmingViewTopEdgeInset=__dimmingViewTopEdgeInset;
-@property(nonatomic) struct CGPoint _dismissalInteractionLocation; // @synthesize _dismissalInteractionLocation;
-@property(nonatomic, setter=_setIgnoreBarButtonItemSiblings:) _Bool _ignoreBarButtonItemSiblings; // @synthesize _ignoreBarButtonItemSiblings=__ignoreBarButtonItemSiblings;
-@property(nonatomic, setter=_setIgnoredEdgesForSafeArea:) unsigned long long _ignoredEdgesForSafeArea; // @synthesize _ignoredEdgesForSafeArea=__ignoredEdgesForSafeArea;
-@property(nonatomic, setter=_setIgnoresKeyboardNotifications:) _Bool _ignoresKeyboardNotifications; // @dynamic _ignoresKeyboardNotifications;
-@property(readonly, nonatomic) _Bool _isSourceViewSafeForMorphing;
-@property(nonatomic, setter=_setPopoverBackgroundStyle:) long long _popoverBackgroundStyle;
-@property(nonatomic, setter=_setPreferredHorizontalAlignment:) long long _preferredHorizontalAlignment; // @synthesize _preferredHorizontalAlignment=__preferredHorizontalAlignment;
-@property(nonatomic, setter=_setPrefersZoomTransitions:) _Bool _prefersZoomTransitions; // @synthesize _prefersZoomTransitions=__prefersZoomTransitions;
-@property(nonatomic, setter=_setShouldDimPresentingViewTint:) _Bool _shouldDimPresentingViewTint; // @synthesize _shouldDimPresentingViewTint;
-@property(nonatomic, getter=_shouldHideArrow, setter=_setShouldHideArrow:) _Bool _shouldHideArrow; // @synthesize _shouldHideArrow=__shouldHideArrow;
-@property(nonatomic, setter=_setSoftAssertWhenNoSourceViewOrBarButtonItemSpecified:) _Bool _softAssertWhenNoSourceViewOrBarButtonItemSpecified; // @synthesize _softAssertWhenNoSourceViewOrBarButtonItemSpecified=__softAssertWhenNoSourceViewOrBarButtonItemSpecified;
-@property(readonly, nonatomic) UISheetPresentationController *adaptiveSheetPresentationController; // @synthesize adaptiveSheetPresentationController=_adaptiveSheetPresentationController;
-@property(nonatomic, getter=_isAdaptivityEnabled, setter=_setAdaptivityEnabled:) _Bool adaptivityEnabled; // @synthesize adaptivityEnabled=_adaptivityEnabled;
-@property(readonly, nonatomic) unsigned long long arrowDirection;
-@property(copy, nonatomic) UIColor *backgroundColor;
-@property(retain, nonatomic) UIBarButtonItem *barButtonItem; // @dynamic barButtonItem;
-@property(nonatomic) _Bool canOverlapSourceViewRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIPopoverPresentationControllerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIDimmingView *dimmingView; // @synthesize dimmingView=_dimmingView;
-@property(nonatomic) _Bool dismissesOnRotation; // @synthesize dismissesOnRotation=_dismissesOnRotation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *passthroughViews;
-@property(nonatomic) unsigned long long permittedArrowDirections; // @synthesize permittedArrowDirections=_permittedArrowDirections;
 @property(nonatomic) unsigned long long popoverArrowDirection; // @synthesize popoverArrowDirection=_popoverArrowDirection;
-@property(retain, nonatomic) Class popoverBackgroundViewClass; // @synthesize popoverBackgroundViewClass=_popoverBackgroundViewClass;
-@property(nonatomic) struct UIEdgeInsets popoverLayoutMargins; // @synthesize popoverLayoutMargins=_popoverLayoutMargins;
-@property(retain, nonatomic) _UIPopoverLayoutInfo *preferredLayoutInfo; // @synthesize preferredLayoutInfo=_preferredLayoutInfo;
-@property(nonatomic, getter=_presentationEdge, setter=_setPresentationEdge:) unsigned long long presentationEdge; // @synthesize presentationEdge=_presentationEdge;
-@property(nonatomic, getter=_presentingView, setter=_setPresentingView:) __weak UIView *presentingView; // @synthesize presentingView=_presentingView;
-@property(retain, nonatomic) UIPopoverPresentationController *retainedSelf; // @synthesize retainedSelf=_retainedSelf;
-@property(nonatomic, getter=_retainsSelfWhilePresented, setter=_setRetainsSelfWhilePresented:) _Bool retainsSelfWhilePresented; // @synthesize retainsSelfWhilePresented=_retainsSelfWhilePresented;
-@property(nonatomic, getter=_shouldDisableInteractionDuringTransitions, setter=_setShouldDisableInteractionDuringTransitions:) _Bool shouldDisableInteractionDuringTransitions; // @synthesize shouldDisableInteractionDuringTransitions=_shouldDisableInteractionDuringTransitions;
-@property(nonatomic, getter=_shouldPreserveFirstResponder, setter=_setShouldPreserveFirstResponder:) _Bool shouldPreserveFirstResponder; // @synthesize shouldPreserveFirstResponder=_shouldPreserveFirstResponder;
-@property(nonatomic) _Bool showsOrientationMarker; // @synthesize showsOrientationMarker=_showsOrientationMarker;
-@property(nonatomic) _Bool showsPresentationArea; // @synthesize showsPresentationArea=_showsPresentationArea;
-@property(nonatomic) _Bool showsTargetRect; // @synthesize showsTargetRect=_showsTargetRect;
-@property(retain, nonatomic) id <UIPopoverPresentationControllerSourceItem> sourceItem; // @dynamic sourceItem;
-@property(retain, nonatomic, getter=_sourceOverlayView, setter=_setSourceOverlayView:) UIView *sourceOverlayView; // @synthesize sourceOverlayView=_sourceOverlayView;
-@property(retain, nonatomic, getter=_sourceOverlayViewConstraints, setter=_setSourceOverlayViewConstraints:) NSArray *sourceOverlayViewConstraints; // @synthesize sourceOverlayViewConstraints=_sourceOverlayViewConstraints;
-@property(nonatomic) struct CGRect sourceRect; // @dynamic sourceRect;
-@property(retain, nonatomic) UIView *sourceView; // @dynamic sourceView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, getter=_targetRectView, setter=_setTargetRectView:) UIView *targetRectView; // @synthesize targetRectView=_targetRectView;
 
 @end
 

@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSoftwareUpdateDocumentation, HMSoftwareUpdateDocumentationMetadata, NSArray, NSData, NSDate, NSInputStream, NSNotificationCenter, NSObject, NSString, NSURL, NSUUID;
-@protocol HMDFileManager, HMSoftwareUpdateDocumentationAssetExtractor, HMSoftwareUpdateUrlSession, OS_dispatch_queue;
+@protocol HMSoftwareUpdateUrlSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDSoftwareUpdateDocumentationAsset
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _shouldAutomaticallyCache;
-    _Bool _extractionEnteredPassThrough;
-    long long _state;
-    NSUUID *_identifier;
-    HMSoftwareUpdateDocumentationMetadata *_metadata;
-    id <HMSoftwareUpdateUrlSession> _URLSession;
-    CDUnknownBlockType _URLSessionFactory;
-    id <HMSoftwareUpdateDocumentationAssetExtractor> _extractor;
-    CDUnknownBlockType _extractorFactory;
-    NSInputStream *_archivedFileStream;
-    unsigned long long _downloadRetryCount;
-    CDUnknownBlockType _dateWithTimeIntervalSinceNowFactory;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDFileManager> _fileManager;
-    NSDate *_nextPermittedDownloadDate;
-    NSData *_testDocumentData;
 }
 
 + (id);
-+ (id);
++ (id)initFromMomentNode:toMeaningNode:confidence:isHighPrecision: /* Error: Ran out of types for this method. */;
 + (_Bool)$ÜàñóÉô|õÊôùËlþx;
 + (id)+C;
 - (id);
@@ -42,42 +24,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (_Bool)@"IDSAccount"24@"IDSGroupSessionParticipantUpdate"32@"IDSMessageContext"40;
+- (id)_blockListMonitoringObserver;
+- (void);
+- (CDUnknownBlockType)EgJVUxoKQ2FsaWZvcm5pYSICQ0EqDVNhbiBGcmFuY2lzY28yDVNhbiBGcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (_Bool)Vbml0ZWQgU3RhdGVzevYBCg1Vbml0ZWQgU3RhdGVzEgJVUxoKQ2FsaWZvcm5pYSICQ0EqDVNhbiBGcmFuY2lzY28yDVNhbiBGcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (unsigned long long)F;
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)lld;
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id)ssSessionRequestToOpenURL:result: /* Error: Ran out of types for this method. */;
+- (id)%d;
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (long long);
@@ -87,7 +69,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)
 × ;
-- (id)CertificateIssuerRemoteDelegate;
+- (id)HMMTROperationalCertificateIssuerRemoteDelegate;
 - (void)p;
 - (id)evaluation:%d /* Error: Ran out of types for this method. */;
 - (id)dding new accessory firmware update profile:%@ /* Error: Ran out of types for this method. */;
@@ -97,45 +79,7 @@ __attribute__((visibility("hidden")))
 - (id)`>;
 
 // Remaining properties
-@property(readonly, copy) NSURL *URL;
 @property(retain, nonatomic) id <HMSoftwareUpdateUrlSession> URLSession; // @synthesize URLSession=_URLSession;
-@property(readonly) CDUnknownBlockType URLSessionFactory; // @synthesize URLSessionFactory=_URLSessionFactory;
-@property(readonly, copy) NSURL *archiveURL;
-@property(retain, nonatomic) NSInputStream *archivedFileStream; // @synthesize archivedFileStream=_archivedFileStream;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSURL *bundleURL;
-@property(readonly) CDUnknownBlockType dateWithTimeIntervalSinceNowFactory; // @synthesize dateWithTimeIntervalSinceNowFactory=_dateWithTimeIntervalSinceNowFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) HMSoftwareUpdateDocumentation *documentation;
-@property unsigned long long downloadRetryCount; // @synthesize downloadRetryCount=_downloadRetryCount;
-@property _Bool extractionEnteredPassThrough; // @synthesize extractionEnteredPassThrough=_extractionEnteredPassThrough;
-@property(retain, nonatomic) id <HMSoftwareUpdateDocumentationAssetExtractor> extractor; // @synthesize extractor=_extractor;
-@property(readonly) CDUnknownBlockType extractorFactory; // @synthesize extractorFactory=_extractorFactory;
-@property(retain, nonatomic) id <HMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isDownloadPermitted;
-@property(readonly) HMSoftwareUpdateDocumentationMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy) NSURL *metadataURL;
-@property(copy) NSDate *nextPermittedDownloadDate; // @synthesize nextPermittedDownloadDate=_nextPermittedDownloadDate;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property _Bool shouldAutomaticallyCache; // @synthesize shouldAutomaticallyCache=_shouldAutomaticallyCache;
-@property(readonly) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *testDocumentData; // @synthesize testDocumentData=_testDocumentData;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <MapsSync/MapsSyncManagedHistoryItem.h>
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedHistoryMarkedLocation : MapsSyncManagedHistoryItem
@@ -18,11 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSString *customName; // @dynamic customName;
-@property(nonatomic) int floorOrdinal; // @dynamic floorOrdinal;
-@property(nonatomic, retain) NSNumber *latitude; // @dynamic latitude;
-@property(nonatomic, retain) NSNumber *longitude; // @dynamic longitude;
-@property(nonatomic, copy) NSData *mapItemStorage; // @dynamic mapItemStorage;
-@property(nonatomic, retain) NSNumber *muid; // @dynamic muid;
 
 @end
 

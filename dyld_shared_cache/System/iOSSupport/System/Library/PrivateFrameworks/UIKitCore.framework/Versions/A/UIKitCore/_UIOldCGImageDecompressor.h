@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 + (void);
 - (long long);
-- (id);
+- (id)updateUnknownSenderRecords:(id)arg1;
 - (_Bool);
 - (void);
 - (unsigned long long);

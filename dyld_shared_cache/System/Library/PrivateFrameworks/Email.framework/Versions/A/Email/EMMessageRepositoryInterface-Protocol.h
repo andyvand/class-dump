@@ -5,5 +5,12 @@
 //
 
 @protocol EMMessageRepositoryInterface
+- (void);
+- (void)t0@;
+- (void)K;
+- (void)@;
+- (void)3@;
+- (void)A;
+- (void)Hp;
 @end
 

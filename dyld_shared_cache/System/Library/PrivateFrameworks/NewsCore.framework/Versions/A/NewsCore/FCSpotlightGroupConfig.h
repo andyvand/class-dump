@@ -6,31 +6,24 @@
 
 #import <NewsCore/FCGroupConfig.h>
 
-@class NSDate, NSString;
-@protocol FCCardStyleProviding;
+@class NSString;
 
 @interface FCSpotlightGroupConfig : FCGroupConfig
 {
     NSString *_spotlightArticleID;
-    NSDate *_publishDate;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)retAfter:(id)arg1 function(e){if(e.focus(),"undefined"!=typeof window.getSelection&&"undefined"!=typeof document.createRange){var t=document.createRange();t.setStartAfter(e),t.collapse(!0);var i=window.getSelection();i.removeAllRanges(),i.addRange(t)}else if("undefined"!=typeof document.body.createTextRange){var n=document.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}}; /* Error: Ran out of types for this method. */;
 - (id)ÌÑ;
 - (void)efrontAccessChecker canSynchronouslyCheckAccessToItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *publishDate; // @synthesize publishDate=_publishDate;
 @property(readonly, copy, nonatomic) NSString *spotlightArticleID; // @synthesize spotlightArticleID=_spotlightArticleID;
-@property(readonly, copy, nonatomic) NSString *spotlightCallToActionTitle;
-@property(readonly, copy, nonatomic) NSString *spotlightEyebrowTitle;
-@property(readonly, copy, nonatomic) id <FCCardStyleProviding> spotlightItemDarkStyle;
-@property(readonly, copy, nonatomic) id <FCCardStyleProviding> spotlightItemStyle;
 
 @end
 

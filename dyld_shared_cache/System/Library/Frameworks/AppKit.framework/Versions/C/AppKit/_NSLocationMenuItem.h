@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     id _networkSet;
 }
 
-- (void);
-- (id);
+- (void)n;
+- (id);
 - (void)NING:Ignoring child pane specifier in Settings.bundle because it's missing a filename specifier (item dictionary:%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties

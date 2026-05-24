@@ -7,13 +7,6 @@
 @interface AppStoreKit.TopShelfItem
 {
     id identifier;
-    id title;
-    id playAction;
-    id displayAction;
-    id image;
-    id expirationDate;
-    id userInfo;
-    id accessibilityLabel;
 }
 
 @end

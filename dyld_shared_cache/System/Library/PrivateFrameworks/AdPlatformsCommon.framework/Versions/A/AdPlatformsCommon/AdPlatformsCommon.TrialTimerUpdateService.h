@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.TrialTimerUpdateService
 {
     id $defaultActor;
-    id timer;
 }
 
 @end

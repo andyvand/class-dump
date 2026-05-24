@@ -9,13 +9,9 @@
 @interface _UIIntelligenceEdgeLightEffect : UIVisualEffect
 {
     unsigned long long activationTransitionDirection;
-    unsigned long long deactivationTransitionDirection;
-    id lightSource;
-    id region;
-    id radius;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
@@ -23,7 +19,7 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool)icationState;
+- (_Bool)applicationState;
 - (void)following text. See rdar:(id)arg1 //102647358. %@;
 - (_Bool)ÿ;
 - (void)Yl;

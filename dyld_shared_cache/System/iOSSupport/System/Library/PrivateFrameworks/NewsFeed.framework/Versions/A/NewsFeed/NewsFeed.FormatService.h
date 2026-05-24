@@ -7,32 +7,6 @@
 @interface NewsFeed.FormatService
 {
     id headlineService;
-    id issueService;
-    id tagService;
-    id assetManager;
-    id fontManager;
-    id cloudContext;
-    id resourceService;
-    id webArchiveService;
-    id puzzleService;
-    id puzzleStatsService;
-    id sportsEventController;
-    id paidAccessChecker;
-    id sportsDataService;
-    id webEmbedDataSourceService;
-    id webEmbedDataSourceManager;
-    id liveActivityWebEmbedDatastoreManager;
-    id $__lazy_storage_$_ignoreCache;
-    id $__lazy_storage_$_loadPackagesFromDebugServerDropbox;
-    id fileCache;
-    id subscriptionController;
-    id personalizationService;
-    id recipeService;
-    id sponsoredAdService;
-    id recipeAccessProvider;
-    id featureAvailability;
-    id history;
-    id tagFeedHeadlineService;
 }
 
 @end

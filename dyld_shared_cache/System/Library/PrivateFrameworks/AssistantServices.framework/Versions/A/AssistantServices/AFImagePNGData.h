@@ -9,18 +9,16 @@
 @interface AFImagePNGData
 {
     NSData *_imageData;
-    double _scale;
 }
 
 - (double);
 - (void);
-- (id);
+- (id)activeInputIndex;
 - (void);
-- (void);
+- (void)numberWithBool: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

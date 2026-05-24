@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)ithFabricData:(id)arg1;
-+ (_Bool);
++ (_Bool)storeNewKeychainItemWithFabricData:(id)arg1;
++ (_Bool)isActionSetOn:(id)arg1;
 
 @end
 

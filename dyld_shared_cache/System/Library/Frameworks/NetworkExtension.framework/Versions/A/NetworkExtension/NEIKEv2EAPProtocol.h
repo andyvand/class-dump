@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface NEIKEv2EAPProtocol
 {
     unsigned long long _method;
-    NSDictionary *_properties;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)isKTXFile:data] && "Function should not be reachable." /* Error: Ran out of types for this method. */;
+- (id)op.NetworkMetrics:rssi  /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void)_underlyingService;
 - (_Bool);
-- (id);
+- (id)c%;
 - (unsigned long long);
-- (void)oxyAutoConfigurationJavaScript: /* Error: Ran out of types for this method. */;
+- (void)setProxyAutoConfigurationJavaScript: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long method; // @synthesize method=_method;
-@property(retain) NSDictionary *properties; // @synthesize properties=_properties;
 
 @end
 

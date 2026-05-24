@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)So9CIContextCSg;
+- (id)J;
+- (id)AVAnnotationSerializedData;
 - (id);
 
 @end

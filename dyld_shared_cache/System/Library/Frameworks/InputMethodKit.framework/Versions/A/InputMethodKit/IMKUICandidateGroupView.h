@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUICandidateLayoutTraits, IMKUIDelimiter, NSArray, NSMutableDictionary;
+@class NSArray, NSMutableDictionary;
 
 @interface IMKUICandidateGroupView
 {
     NSArray *_items;
-    NSMutableDictionary *_itemToViewMapping;
-    IMKUICandidateLayoutTraits *_layoutTraits;
-    IMKUIDelimiter *_delimiter;
 }
 
+- (void)@;
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)onManager setupConnectionHealthMonitor];
 - (id);
-- (id);
+- (id)(	7(
+@7(H7(7(;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) IMKUIDelimiter *delimiter; // @synthesize delimiter=_delimiter;
 @property(retain, nonatomic) NSMutableDictionary *itemToViewMapping; // @synthesize itemToViewMapping=_itemToViewMapping;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) IMKUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
 
 @end
 

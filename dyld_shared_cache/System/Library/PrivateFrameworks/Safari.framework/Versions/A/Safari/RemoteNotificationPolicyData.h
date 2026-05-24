@@ -6,27 +6,23 @@
 
 #import <Safari/UserNotificationPolicyData.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RemoteNotificationPolicyData : UserNotificationPolicyData
 {
     NSString *_websiteIdentifier;
-    NSString *_deviceToken;
-    NSArray *_allowedDomains;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)@9;
+- (id)U;
 - (id)Ô ;
 - (void)Ð;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowedDomains; // @synthesize allowedDomains=_allowedDomains;
-@property(readonly, nonatomic) NSString *deviceToken; // @synthesize deviceToken=_deviceToken;
 @property(readonly, nonatomic) NSString *websiteIdentifier; // @synthesize websiteIdentifier=_websiteIdentifier;
 
 @end

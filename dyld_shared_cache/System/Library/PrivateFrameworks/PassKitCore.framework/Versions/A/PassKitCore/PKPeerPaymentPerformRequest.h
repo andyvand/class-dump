@@ -6,36 +6,17 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSData, NSDictionary, NSString, PKContact;
+@class NSString;
 
 @interface PKPeerPaymentPerformRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_quoteIdentifier;
-    NSData *_paymentData;
-    NSDictionary *_certificates;
-    NSString *_recipientPhoneOrEmail;
-    unsigned long long _messagesContext;
-    unsigned long long _destination;
-    PKContact *_contact;
-    NSString *_routingNumber;
-    NSString *_accountNumber;
-    NSString *_pushToken;
-    NSData *_signedEnrollmentDataSignature;
-    NSString *_cryptogramType;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
-    unsigned long long _senderAddressType;
-    NSString *_senderAddress;
-    NSString *_encryptedRecipientData;
-    unsigned long long _encryptionScheme;
-    NSString *_publicKeyHash;
-    NSString *_ephemeralPublicKey;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
@@ -48,55 +29,37 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	ki
+;
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)H;
+- (id)A9;
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
+- (id)T;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)0f g;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (id)Websocket %{public}hd:Did disconnect, code:%ld, reason:%s /* Error: Ran out of types for this method. */;
-- (void)cation;
+- (void)aboutIdentityVerification;
 - (id).swift;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(copy, nonatomic) NSDictionary *certificates; // @synthesize certificates=_certificates;
-@property(retain, nonatomic) PKContact *contact; // @synthesize contact=_contact;
-@property(copy, nonatomic) NSString *cryptogramType; // @synthesize cryptogramType=_cryptogramType;
-@property(nonatomic) unsigned long long destination; // @synthesize destination=_destination;
-@property(copy, nonatomic) NSString *encryptedRecipientData; // @synthesize encryptedRecipientData=_encryptedRecipientData;
-@property(nonatomic) unsigned long long encryptionScheme; // @synthesize encryptionScheme=_encryptionScheme;
-@property(copy, nonatomic) NSString *ephemeralPublicKey; // @synthesize ephemeralPublicKey=_ephemeralPublicKey;
-@property(nonatomic) unsigned long long messagesContext; // @synthesize messagesContext=_messagesContext;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(copy, nonatomic) NSData *paymentData; // @synthesize paymentData=_paymentData;
-@property(copy, nonatomic) NSString *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(copy, nonatomic) NSString *pushToken; // @synthesize pushToken=_pushToken;
 @property(copy, nonatomic) NSString *quoteIdentifier; // @synthesize quoteIdentifier=_quoteIdentifier;
-@property(copy, nonatomic) NSString *recipientPhoneOrEmail; // @synthesize recipientPhoneOrEmail=_recipientPhoneOrEmail;
-@property(retain, nonatomic) NSString *routingNumber; // @synthesize routingNumber=_routingNumber;
-@property(copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(nonatomic) unsigned long long senderAddressType; // @synthesize senderAddressType=_senderAddressType;
-@property(copy, nonatomic) NSData *signedEnrollmentDataSignature; // @synthesize signedEnrollmentDataSignature=_signedEnrollmentDataSignature;
 
 @end
 

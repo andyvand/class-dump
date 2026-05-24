@@ -5,5 +5,6 @@
 //
 
 @protocol HMSoftwareUpdateDocumentationAssetDelegate
+- (void)U;
 @end
 

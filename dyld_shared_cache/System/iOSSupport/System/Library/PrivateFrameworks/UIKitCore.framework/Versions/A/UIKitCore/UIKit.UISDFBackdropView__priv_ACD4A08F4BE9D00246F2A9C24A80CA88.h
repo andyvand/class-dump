@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
++ (Class)_activeCommands;
 - (void);
 - (id);
-- (id)BarStringView;
-- (void)gestionOptions;
+- (id)_UIStatusBarStringView;
+- (void)TUIKeyboardSuggestionOptions;
 
 @end
 

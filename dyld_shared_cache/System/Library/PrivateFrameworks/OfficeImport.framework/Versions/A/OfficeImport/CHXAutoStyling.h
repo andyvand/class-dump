@@ -6,13 +6,10 @@
 
 #import <OfficeImport/CHAutoStyling.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CHXAutoStyling : CHAutoStyling
 {
     _Bool __autoChartFillIsHollow;
-    _Bool __autoChartStrokeIsHollow;
 }
 
 + (int);
@@ -25,6 +22,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (void);
+- (void)Y;
 - (void);
 - (void);
 - (void);
@@ -36,13 +34,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)p;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (id);
@@ -59,14 +56,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool _autoChartFillIsHollow; // @synthesize _autoChartFillIsHollow=__autoChartFillIsHollow;
-@property _Bool _autoChartStrokeIsHollow; // @synthesize _autoChartStrokeIsHollow=__autoChartStrokeIsHollow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

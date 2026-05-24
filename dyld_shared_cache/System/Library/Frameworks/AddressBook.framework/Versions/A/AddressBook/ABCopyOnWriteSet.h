@@ -13,19 +13,19 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)&;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)ECKEY_PUB_ENCODE;
+- (unsigned long long)setExtensionInstance: /* Error: Ran out of types for this method. */;
 - (void)ªÐ1Â0@ù
 × ;
 

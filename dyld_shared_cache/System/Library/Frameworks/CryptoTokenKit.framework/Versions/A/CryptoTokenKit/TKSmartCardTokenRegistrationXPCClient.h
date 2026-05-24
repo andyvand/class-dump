@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol TKXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface TKSmartCardTokenRegistrationXPCClient
 {
     id <TKXPCConnection> _connection;
-    struct os_unfair_lock_s _connectionLock;
 }
 
 - (_Bool);
@@ -30,16 +28,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ion_Private.LANTLMChallengeResponse;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

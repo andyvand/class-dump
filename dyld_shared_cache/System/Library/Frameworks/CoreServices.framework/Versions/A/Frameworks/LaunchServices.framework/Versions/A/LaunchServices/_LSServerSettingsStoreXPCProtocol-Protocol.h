@@ -5,5 +5,6 @@
 //
 
 @protocol _LSServerSettingsStoreXPCProtocol
+- (void)sions;
 @end
 

@@ -11,27 +11,23 @@
 @interface PGFeatureExtractorPhotoLibraryAverage : PGFeatureExtractor
 {
     MAFeatureExtractor *_assetFeatureExtractor;
-    NSArray *_assetFetchOptionPropertySet;
-    NSArray *_featureNames;
 }
 
 + (void);
-+ (id);
-+ (_Bool);
++ (id)P;
++ (_Bool)WQ;
 + (void);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id)ActivityMeaningQuestionFactory;
+- (id)';
+- (id)resetMetadataCacheInFrame:webView:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGPersonActivityMeaningQuestionFactory;
 - (void)Node"16@?0@"PGGraphMomentNode"8;
 
 // Remaining properties
-@property(readonly, nonatomic) MAFeatureExtractor *assetFeatureExtractor; // @synthesize assetFeatureExtractor=_assetFeatureExtractor;
 @property(readonly, nonatomic) NSArray *assetFetchOptionPropertySet; // @synthesize assetFetchOptionPropertySet=_assetFetchOptionPropertySet;
-@property(readonly, nonatomic) NSArray *featureNames; // @synthesize featureNames=_featureNames;
 
 @end
 

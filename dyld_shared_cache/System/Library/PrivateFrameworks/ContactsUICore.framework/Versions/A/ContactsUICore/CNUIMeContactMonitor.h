@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, CNContactStore, NSArray, NSNotificationCenter, NSObject;
-@protocol CNCancelable, CNMeContactComparisonStrategy, OS_dispatch_queue;
+@protocol CNMeContactComparisonStrategy;
 
 @interface CNUIMeContactMonitor
 {
     id <CNMeContactComparisonStrategy> _strategy;
-    CNContactStore *_contactStore;
-    NSNotificationCenter *_notificationCenter;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CNCancelable> _meNotificationToken;
-    CNCache *_isMeContactCache;
 }
 
-+ (id);
++ (id)q ;
 + (id);
 + (id);
 + (id);
@@ -26,13 +20,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (void);
@@ -42,19 +36,13 @@
 - (void);
 - (id)Ô!n ! Cùqý#Ð1Â0@ù
 × ;
-- (void)targetStringValue:propertyKey:userActivity:bundleIdentifier:group:options: /* Error: Ran out of types for this method. */;
+- (void)voiceItemWithLabel:targetStringValue:propertyKey:userActivity:bundleIdentifier:group:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)lic}@ actions for %@;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(retain, nonatomic) CNCache *isMeContactCache; // @synthesize isMeContactCache=_isMeContactCache;
-@property(readonly, nonatomic) NSArray *meContactIdentifiers;
-@property(retain, nonatomic) id <CNCancelable> meNotificationToken; // @synthesize meNotificationToken=_meNotificationToken;
-@property(retain, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) id <CNMeContactComparisonStrategy> strategy; // @synthesize strategy=_strategy;
 
 @end

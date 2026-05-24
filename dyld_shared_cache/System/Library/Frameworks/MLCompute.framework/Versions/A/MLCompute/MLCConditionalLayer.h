@@ -11,7 +11,6 @@
 @interface MLCConditionalLayer : MLCLayer
 {
     MLCGraph *_trueBranch;
-    MLCGraph *_falseBranch;
 }
 
 + (id);
@@ -22,10 +21,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ight hand size matrix size.;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) MLCGraph *falseBranch; // @synthesize falseBranch=_falseBranch;
 @property(readonly, retain, nonatomic) MLCGraph *trueBranch; // @synthesize trueBranch=_trueBranch;
 
 @end

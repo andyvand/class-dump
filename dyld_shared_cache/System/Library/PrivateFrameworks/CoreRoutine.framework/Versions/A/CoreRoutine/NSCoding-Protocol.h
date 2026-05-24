@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id)D "CHTextSynthesisQuery_refinedTokens";
+- (void)#;
 @end
 

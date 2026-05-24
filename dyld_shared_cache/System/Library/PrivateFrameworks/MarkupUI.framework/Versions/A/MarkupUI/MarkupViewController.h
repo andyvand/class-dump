@@ -4,49 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, MUCGPDFReader, MUContentBorderView, NSData, NSStackView, NSString, NSUndoManager, NSView, NSViewController, UTType;
-@protocol MUContentViewControllerLiveTextProtocol, MUContentViewControllerProtocol, MarkupViewControllerDelegate;
-
 @interface MarkupViewController
 {
     _Bool _wantsToolbarAndPadding;
-    _Bool _sourceContentIsLoaded;
-    _Bool _viewDidAppearWasDoneOnce;
-    _Bool _alreadyLoggedSavingForThisDocument;
-    _Bool _needToPerformFullTeardown;
-    _Bool _needToPerformDocumentClosedTeardown;
-    _Bool _encryptPrivateMetadata;
-    _Bool _cropToolEnabled;
-    _Bool _hideAKToolbarItems;
-    NSStackView *_toolBarViewHolder;
-    NSView *_contentViewHolder;
-    id _sourceContent;
-    NSViewController<MUContentViewControllerProtocol> *_contentViewController;
-    id _digestedSourceContent;
-    NSData *_sourceArchivedModelData;
-    MUCGPDFReader *_pdfReader;
-    double _creationTimeStamp;
-    NSUndoManager *_undoManager;
-    MUContentBorderView *_borderOverlayView;
-    double _initialContentScale;
-    NSString *_originalImageDescription;
-    NSString *_hostProcessBundleIdentifier;
-    id <MarkupViewControllerDelegate> _delegate;
 }
 
 + (id);
-+ (id);
++ (id)T@;
 + (struct CGSize);
 + (_Bool);
 + (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (_Bool);
 - (id);
@@ -55,10 +30,10 @@
 - (void);
 - (void);
 - (void);
+- (void)9;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)H;
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -80,16 +55,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)1!;
 - (_Bool);
 - (_Bool);
 - (double);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (double);
+- (double);
 - (struct CGSize);
 - (struct CGRect);
 - (id);
@@ -102,8 +77,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)	?הB;
 - (id);
 - (id);
 - (id);
@@ -121,9 +96,9 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct CGSize);
-- (void);
+- (void)a;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -140,19 +115,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)V*l;
+- (void)7;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)J;
+- (id);
+- (void)9;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -162,64 +137,25 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
+- (void))ub9)	;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (double);
+- (id)A;;
+- (double);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)];
 - (_Bool);
 - (struct CGRect);
 
 // Remaining properties
-@property _Bool allEditingDisabled;
-@property _Bool alreadyLoggedSavingForThisDocument; // @synthesize alreadyLoggedSavingForThisDocument=_alreadyLoggedSavingForThisDocument;
-@property(readonly, nonatomic) AKController *annotationController;
-@property(retain) MUContentBorderView *borderOverlayView; // @synthesize borderOverlayView=_borderOverlayView;
-@property(retain) NSViewController<MUContentViewControllerProtocol> *contentViewController; // @synthesize contentViewController=_contentViewController;
-@property(nonatomic) __weak NSView *contentViewHolder; // @synthesize contentViewHolder=_contentViewHolder;
-@property double creationTimeStamp; // @synthesize creationTimeStamp=_creationTimeStamp;
-@property _Bool cropToolEnabled; // @synthesize cropToolEnabled=_cropToolEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MarkupViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain) id digestedSourceContent; // @synthesize digestedSourceContent=_digestedSourceContent;
-@property _Bool encryptPrivateMetadata; // @synthesize encryptPrivateMetadata=_encryptPrivateMetadata;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideAKToolbarItems; // @synthesize hideAKToolbarItems=_hideAKToolbarItems;
-@property(copy, nonatomic) NSString *hostProcessBundleIdentifier; // @synthesize hostProcessBundleIdentifier=_hostProcessBundleIdentifier;
-@property double initialContentScale; // @synthesize initialContentScale=_initialContentScale;
-@property(readonly, nonatomic) _Bool liveTextActiveTextSelectionExists;
-@property(readonly, nonatomic) id <MUContentViewControllerLiveTextProtocol> liveTextContentViewController;
-@property(nonatomic) _Bool liveTextEnabled;
-@property(nonatomic) _Bool liveTextVisualSearchEnabled;
-@property _Bool needToPerformDocumentClosedTeardown; // @synthesize needToPerformDocumentClosedTeardown=_needToPerformDocumentClosedTeardown;
-@property _Bool needToPerformFullTeardown; // @synthesize needToPerformFullTeardown=_needToPerformFullTeardown;
-@property(copy, nonatomic) NSString *originalImageDescription; // @synthesize originalImageDescription=_originalImageDescription;
-@property(readonly, nonatomic) UTType *outputContentType;
-@property(readonly, nonatomic) NSString *outputType;
-@property(retain) MUCGPDFReader *pdfReader; // @synthesize pdfReader=_pdfReader;
-@property(retain) NSData *sourceArchivedModelData; // @synthesize sourceArchivedModelData=_sourceArchivedModelData;
-@property(retain) id sourceContent; // @synthesize sourceContent=_sourceContent;
-@property _Bool sourceContentIsLoaded; // @synthesize sourceContentIsLoaded=_sourceContentIsLoaded;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSStackView *toolBarViewHolder; // @synthesize toolBarViewHolder=_toolBarViewHolder;
-@property(retain) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
-@property _Bool viewDidAppearWasDoneOnce; // @synthesize viewDidAppearWasDoneOnce=_viewDidAppearWasDoneOnce;
-@property(readonly, nonatomic) NSString *visualSearchInfoButtonFilledGlyphName;
-@property(readonly, nonatomic) NSString *visualSearchInfoButtonGlyphName;
-@property _Bool wantsToolbarAndPadding; // @synthesize wantsToolbarAndPadding=_wantsToolbarAndPadding;
 
 @end
 

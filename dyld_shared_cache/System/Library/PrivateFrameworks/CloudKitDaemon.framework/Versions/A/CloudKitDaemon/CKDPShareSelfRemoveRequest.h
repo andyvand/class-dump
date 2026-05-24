@@ -13,22 +13,21 @@
 
 + (id);
 - (id);
+- (void)ft/libswiftCore.dylib;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)teranceMediaTime(FigEndpointStreamAudioEngineRef, CMTime);
 - (_Bool);
-- (void);
+- (void)setUsageNightTimeInLastWeek:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)۬;
 - (void)0;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
 
 @end
 

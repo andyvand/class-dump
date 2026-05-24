@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     UIKeyboardMenuView *_menu;
 }
 
-- (void);
+- (void)attemptCount %lu;
 - (void);
 - (void)ntainerImplementation;
 - (id)j;

@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BMSQLSchema
 {
     NSString *_tableName;
-    NSArray *_columns;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void) ¡¢£¤¥¦§;
 - (id)ÔÕÖ×;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *columns; // @synthesize columns=_columns;
 @property(readonly, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end

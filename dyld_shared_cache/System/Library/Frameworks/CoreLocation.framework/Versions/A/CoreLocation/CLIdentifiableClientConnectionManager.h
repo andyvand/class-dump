@@ -4,68 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLDispatchSilo, CLLocationManager, NSData, NSMutableDictionary, NSString;
+@class CLDispatchSilo;
 
 @interface CLIdentifiableClientConnectionManager
 {
     CLDispatchSilo *_silo;
-    void *_locationdConnection;
-    NSString *_startMessageName;
-    NSMutableDictionary *_startMessagePayload;
-    _Bool _shouldBeRunning;
-    _Bool _started;
-    CDUnknownBlockType _responseHandler;
-    double _lastHistoricalLocationTimestamp;
-    NSString *identityToken;
-    NSData *storageToken;
-    CLLocationManager *manager;
-    CDUnknownBlockType weakClient;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)rC;
+- (void);
+- (void)2G;
+- (id);
+- (void);
+- (void)bY;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)6 í;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)CMPhotoCompressionSessionCreate:err = %s [%d]
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)e:(_Bool)arg1;
-- (void)ion: /* Error: Ran out of types for this method. */;
+- (void)Sampler LOD Bias Range;
+- (void);
+- (void)setTrackingState:(_Bool)arg1;
+- (void)fetchAISProtocolImplementation: /* Error: Ran out of types for this method. */;
 - (_Bool)\;
 - (void)opping check,connecting roads,%{public}d,current road,%{private}lld,prior road,%{private}lld;
 - (void)nRoad returned false,alternate ambiguous particles;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identityToken; // @synthesize identityToken;
-@property(retain, nonatomic) CLLocationManager *manager; // @synthesize manager;
 @property _Bool shouldBeRunning; // @synthesize shouldBeRunning=_shouldBeRunning;
-@property _Bool started; // @synthesize started=_started;
-@property(retain, nonatomic) NSData *storageToken; // @synthesize storageToken;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak CDUnknownBlockType weakClient; // @synthesize weakClient;
 
 @end
 

@@ -6,10 +6,10 @@
 
 @interface UnknownClass (MapsMacExtension)
 - (void);
-- (unsigned long long);
+- (unsigned long long)C;
 - (id);
 - (id);
-- (id);
+- (id)^;
 - (id);
 @end
 

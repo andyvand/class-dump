@@ -9,7 +9,6 @@
 @interface AVMovieAtom
 {
     NSDictionary *_movieParsingMessageFigDictionary;
-    AVMovieAtom *_container;
 }
 
 - (id);
@@ -21,9 +20,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) long long atomOffset;
 @property(readonly) unsigned int atomType;
-@property(readonly) AVMovieAtom *container;
 
 @end
 

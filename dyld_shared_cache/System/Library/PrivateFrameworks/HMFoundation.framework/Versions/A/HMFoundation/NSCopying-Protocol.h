@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)ingDatabase:(struct _NSZone *)arg1 fakeCloudModels:completion:] /* Error: Ran out of types for this method. */;
 @end
 

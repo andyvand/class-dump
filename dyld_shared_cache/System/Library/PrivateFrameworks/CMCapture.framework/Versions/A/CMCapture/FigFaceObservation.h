@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNFaceObservation, VNTrackObjectRequest;
+@class VNFaceObservation;
 
 __attribute__((visibility("hidden")))
 @interface FigFaceObservation
 {
     VNFaceObservation *_faceObservation;
-    VNTrackObjectRequest *_faceTrackingRequest;
-    unsigned long long _faceID;
-    unsigned long long _lastUpdatedTime;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)_formatPercentageStringMinus;
 - (unsigned long long);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned long long faceID; // @synthesize faceID=_faceID;
 @property(readonly) VNFaceObservation *faceObservation; // @synthesize faceObservation=_faceObservation;
-@property(readonly) VNTrackObjectRequest *faceTrackingRequest; // @synthesize faceTrackingRequest=_faceTrackingRequest;
-@property unsigned long long lastUpdatedTime; // @synthesize lastUpdatedTime=_lastUpdatedTime;
 
 @end
 

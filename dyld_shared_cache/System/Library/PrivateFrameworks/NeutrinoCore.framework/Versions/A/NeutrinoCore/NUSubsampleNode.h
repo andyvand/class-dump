@@ -6,15 +6,11 @@
 
 #import <NeutrinoCore/NUAbstractScaleNode.h>
 
-@class NSDictionary, NUSourceContainerNode;
+@class NUSourceContainerNode;
 
 @interface NUSubsampleNode : NUAbstractScaleNode
 {
     long long _subsampleFactor;
-    long long _appliedSubsampleFactor;
-    NUSourceContainerNode *_sourceContainer;
-    NSDictionary *_pipelineSettings;
-    NSDictionary *_sourceOptions;
 }
 
 + (long long);
@@ -31,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)b;
 - (id);
 - (id);
 - (long long);
@@ -43,11 +39,7 @@ sourceIdentifiersByTrackID:%@
 sourceIdentifiersByMetadataTrackID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long appliedSubsampleFactor; // @synthesize appliedSubsampleFactor=_appliedSubsampleFactor;
-@property(readonly) NSDictionary *pipelineSettings; // @synthesize pipelineSettings=_pipelineSettings;
 @property(readonly) NUSourceContainerNode *sourceContainer; // @synthesize sourceContainer=_sourceContainer;
-@property(readonly) NSDictionary *sourceOptions; // @synthesize sourceOptions=_sourceOptions;
-@property(readonly) long long subsampleFactor; // @synthesize subsampleFactor=_subsampleFactor;
 
 @end
 

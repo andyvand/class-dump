@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSourceConfiguration, FigDepthDataCaptureConnectionConfiguration, FigMetadataObjectCaptureConnectionConfiguration, FigVideoCaptureConnectionConfiguration, NSString;
+@class FigVideoCaptureConnectionConfiguration, NSString;
 
 @interface FigCaptureSessionParsedPreviewSinkConfiguration
 {
     FigVideoCaptureConnectionConfiguration *_videoPreviewSinkConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_videoThumbnailConnectionConfiguration;
-    FigDepthDataCaptureConnectionConfiguration *_depthDataConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_previewTimeMachineConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_sceneClassifierConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_previewSmartStyleCoefficientsTimeMachineConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_sensitiveContentAnalyzerConnectionConfiguration;
-    FigMetadataObjectCaptureConnectionConfiguration *_metadataObjectConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_stillImageConnectionConfiguration;
-    FigCaptureSourceConfiguration *_cameraConfiguration;
-    int _sourceDeviceType;
 }
 
 - (id);
-- (void);
+- (void)UUIDString;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Ai;
 - (id)starting the session because of an unknown error;
 - (id)ter an active device client:%@ /* Error: Ran out of types for this method. */;
 - (int)maticFramingNode >>>> %s:Failed to setup Virtual Camera Processor /* Error: Ran out of types for this method. */;
@@ -36,18 +26,7 @@
 - (id)¿X¬ÿÅU¬ÿÉS«ÿÌR«ÿÎQªÿÎPªÿf¨ÿf¨ÿf¨ÿf¨ÿe¨ÿe¨ÿe§ÿd§ÿ,d¨ÿ8d¨ÿBe©ÿLe©ÿUe©ÿ^f©ÿgf©ÿpg©ÿxhªÿiªÿjªÿj«ÿk¬ÿ k­ÿ§k®ÿ°j°ÿ¶h¯ÿ»e¯ÿÁb®ÿÆ_­ÿÊ]­ÿÍ\¬ÿÏZ¬ÿÏZ«ÿp«ÿp«ÿp«ÿo«ÿo«ÿoªÿoªÿnªÿ*nªÿ7n«ÿBn«ÿKn¬ÿUo¬ÿ^o¬ÿhp¬ÿqp¬ÿyq¬ÿr¬ÿs­ÿt­ÿt®ÿ¡t¯ÿ©t°ÿ²t±ÿ·q±ÿ½o°ÿÂl¯ÿÈi¯ÿÌg®ÿÏe®ÿÑd­ÿÑc­ÿ!z®ÿ!z®ÿ!z­ÿ!z­ÿ!y­ÿ y­ÿ y­ÿ x­ÿ)x­ÿ7x­ÿAx®ÿKx®ÿUx¯ÿ^x¯ÿiy¯ÿrz¯ÿ{z¯ÿ{¯ÿ}¯ÿ}¯ÿ~°ÿ£~±ÿ«~²ÿ³~³ÿ¹|²ÿ¿y²ÿÄv±ÿÊt°ÿÎq°ÿÑo¯ÿÒn¯ÿÒm®ÿ'°ÿ'°ÿ'°ÿ'°ÿ'°ÿ'¯ÿ'¯ÿ'¯ÿ*¯ÿ7¯ÿB°ÿL°ÿU±ÿ_±ÿj²ÿs²ÿ|²ÿ±ÿ±ÿ±ÿ²ÿ¥³ÿ­´ÿµµÿ»´ÿÁ´ÿÆ³ÿÌ³ÿÐ|²ÿÓz²ÿÕy±ÿÕx°ÿ0²ÿ0²ÿ0²ÿ0²ÿ0²ÿ0²ÿ0±ÿ0±ÿ0±ÿ:±ÿD²ÿN²ÿW³ÿ`³ÿk´ÿt´ÿ~´ÿ´ÿ´ÿ´ÿ¡´ÿ¨µÿ¯¶ÿ¸·ÿ½·ÿÃ¶ÿÉ¶ÿÏµÿÓµÿÖ´ÿØ´ÿØ³ÿ9´ÿ9´ÿ9´ÿ9´ÿ9´ÿ9³ÿ9³ÿ9³ÿ9³ÿ?³ÿI³ÿR´ÿ[´ÿdµÿm¶ÿv¶ÿ·ÿ·ÿ·ÿ·ÿ¤·ÿ«¸ÿ²¸ÿº ºÿÀ¹ÿÅ¹ÿË¹ÿÑ¸ÿÖ·ÿÙ·ÿÛ¶ÿÛ¶ÿC¢¶ÿC¢¶ÿC¢¶ÿC¢¶ÿC¢¶ÿC¢µÿC¢µÿC¡µÿC¡µÿF¡µÿO¡µÿX¡¶ÿ`¢¶ÿi¢·ÿr¢·ÿ{£¸ÿ£¹ÿ¤¹ÿ¥ºÿ¦ºÿ§§ºÿ®¨ºÿµª»ÿ¼ª¼ÿÂ¨¼ÿÈ§¼ÿÍ¥»ÿÔ£»ÿÙ¡ºÿÜºÿÞ¹ÿÞ¸ÿN¬¸ÿM¬¸ÿM¬¸ÿM«¸ÿM«¸ÿM«¸ÿM«·ÿM«·ÿMª·ÿNª·ÿVª·ÿ_«¸ÿg«¸ÿo¬¹ÿx¬¹ÿ­ºÿ­»ÿ®¼ÿ¯¼ÿ¢¯½ÿª°½ÿ²²½ÿ¸³¾ÿ¿´¿ÿÄ³¿ÿÊ±¾ÿÐ°¾ÿÖ®½ÿÛ¬½ÿß«¼ÿá©¼ÿá¨»ÿW´»ÿW´»ÿW´»ÿW´ºÿW´ºÿW´ºÿW´ºÿW´ºÿW³ºÿW³¹ÿ]³¹ÿe´ºÿn´»ÿvµ»ÿµ¼ÿ¶¼ÿ·½ÿ·¾ÿ ¸¾ÿ§¹¿ÿ®ºÀÿµºÀÿ¼¼ÁÿÂ½ÂÿÆ¼ÂÿÌ»ÁÿÒºÁÿØ¸ÀÿÞ·Àÿâ¶¿ÿäµ¾ÿä³½ÿa¾½ÿa¾½ÿa½½ÿa½½ÿa½½ÿa½½ÿa½½ÿa½½ÿa½¼ÿa¼¼ÿc¼¼ÿl½½ÿt½½ÿ|¾¾ÿ¿¾ÿ¿¿ÿÀÀÿÀÀÿ¦ÁÁÿ­ÂÂÿ´ÃÃÿ»ÄÄÿÁÄÄÿÆÆÆÿÊÆÆÿÏÅÅÿÕÅÅÿÛÄÄÿáÃÃÿæÃÃÿèÂÂÿèÀÁÿgÄ¿ÿgÄ¿ÿgÄ¾ÿgÄ¾ÿgÃ¾ÿgÃ¾ÿgÃ¾ÿgÃ¾ÿgÃ¾ÿgÃ½ÿgÂ½ÿnÃ¾ÿvÃ¾ÿÄ¿ÿÅÀÿÅÀÿÆÁÿ ÇÂÿ©ÈÃÿ°ÈÄÿ·ÉÅÿ½ÊÆÿÃËÇÿÉÌÉÿÎÎÉÿÒÎÉÿØÎÈÿÞÍÇÿäÍÆÿèÍÆÿëÍÅÿìÌÄÿlÉÀÿlÉÀÿlÉÀÿlÉÀÿlÉÀÿlÉ¿ÿlÉ¿ÿlÉ¿ÿlÉ¿ÿlÉ¿ÿlÈ¿ÿoÉ¿ÿwÉ¿ÿÊÀÿËÁÿËÂÿÌÃÿ¢ÍÄÿ«ÎÅÿ²ÐÇÿ¸ÑÈÿ¿ÒÉÿÅÓÊÿËÔËÿÐÕËÿÖÖËÿÛÖËÿá×Êÿç×Êÿë×Éÿî×ÈÿïÖÇÿpÏÁÿpÏÁÿpÏÁÿpÏÁÿpÏÁÿpÏÁÿpÎÁÿpÎÁÿpÎÀÿpÎÀÿpÎÀÿpÎÀÿwÎÀÿÏÁÿÐÂÿÑÃÿÒÄÿ£ÕÇÿ«ÖÈÿ³×ÉÿºØÊÿÀÙËÿÇÚÌÿÍÛÍÿÓÜÎÿÙÞÍÿßßÍÿåßÍÿêàÌÿîàÌÿñàËÿñàÉÿtÔÂÿtÔÂÿtÔÂÿtÔÂÿtÔÂÿtÔÂÿtÔÂÿtÔÂÿtÔÂÿtÔÂÿtÔÂÿtÔÁÿvÔÁÿÔÂÿÕÃÿÙÈÿÚÉÿ£ÛÊÿ¬ÝËÿ´ÞÌÿ»ßÍÿÂàÎÿÉáÏÿÐãÐÿÖäÐÿÛæÐÿâçÏÿèèÏÿíéÎÿñéÎÿôêÍÿôêÌÿwØÃÿwØÃÿwØÃÿwØÃÿwØÃÿwØÃÿwØÃÿwØÃÿwØÃÿwØÃÿwØÃÿwØÂÿwØÂÿ}ØÃÿÝÈÿÞÉÿßÊÿ¢àËÿ¬áÍÿ´ãÎÿ¼äÏÿÃåÐÿÊçÑÿÑèÑÿØêÒÿÞìÑÿäíÐÿêïÐÿððÏÿôðÏÿöñÎÿöñÍÿyÛÄÿyÛÄÿyÛÄÿyÛÄÿyÛÄÿyÛÄÿyÛÄÿyÛÄÿyÛÄÿyÛÃÿyÛÃÿyÞÈÿyÞÈÿzÞÈÿßÉÿáÊÿâËÿ¡ãÌÿ«åÎÿ³æÏÿ¼çÐÿÃéÑÿËêÒÿÒìÒÿÙîÓÿßðÒÿåñÑÿìóÐÿñôÐÿõõÏÿ÷öÏÿøõÎÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿzàÉÿzàÈÿáÉÿâÊÿãËÿäÌÿ©æÎÿ²çÏÿºéÐÿÂëÑÿÊìÒÿÒîÓÿÙðÓÿßñÒÿåóÑÿìõÐÿñ÷ÏÿöøÏÿøøÎÿøøÍÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÉÿ{àÈÿ{àÈÿ{àÈÿ|áÈÿâÉÿãÊÿäËÿ¥æÍÿ¯çÎÿ¸éÏÿÀêÐÿÈìÑÿÐîÑÿ×ïÑÿÞñÑÿäóÐÿëõÎÿñ÷ÍÿõøÍÿøøÌÿøøËÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) FigCaptureSourceConfiguration *cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;
-@property(readonly, nonatomic) FigDepthDataCaptureConnectionConfiguration *depthDataConnectionConfiguration; // @synthesize depthDataConnectionConfiguration=_depthDataConnectionConfiguration;
-@property(readonly, nonatomic) FigMetadataObjectCaptureConnectionConfiguration *metadataObjectConnectionConfiguration; // @synthesize metadataObjectConnectionConfiguration=_metadataObjectConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *previewSmartStyleCoefficientsTimeMachineConnectionConfiguration; // @synthesize previewSmartStyleCoefficientsTimeMachineConnectionConfiguration=_previewSmartStyleCoefficientsTimeMachineConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *previewTimeMachineConnectionConfiguration; // @synthesize previewTimeMachineConnectionConfiguration=_previewTimeMachineConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *sceneClassifierConnectionConfiguration; // @synthesize sceneClassifierConnectionConfiguration=_sceneClassifierConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *sensitiveContentAnalyzerConnectionConfiguration; // @synthesize sensitiveContentAnalyzerConnectionConfiguration=_sensitiveContentAnalyzerConnectionConfiguration;
 @property(readonly, nonatomic) NSString *sinkID;
-@property(readonly, nonatomic) int sourceDeviceType; // @synthesize sourceDeviceType=_sourceDeviceType;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *stillImageConnectionConfiguration; // @synthesize stillImageConnectionConfiguration=_stillImageConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *videoPreviewSinkConnectionConfiguration; // @synthesize videoPreviewSinkConnectionConfiguration=_videoPreviewSinkConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *videoThumbnailConnectionConfiguration; // @synthesize videoThumbnailConnectionConfiguration=_videoThumbnailConnectionConfiguration;
 
 @end
 

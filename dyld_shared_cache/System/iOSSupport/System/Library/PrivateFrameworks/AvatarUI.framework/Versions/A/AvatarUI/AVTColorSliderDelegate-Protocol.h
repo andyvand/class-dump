@@ -5,5 +5,6 @@
 //
 
 @protocol AVTColorSliderDelegate
+- (void);
 @end
 

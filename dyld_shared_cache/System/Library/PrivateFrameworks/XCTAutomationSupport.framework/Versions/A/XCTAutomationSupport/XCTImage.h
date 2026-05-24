@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSImage, XCTImageEncoding, XCTImageMetadata;
+@class NSImage;
 
 @interface XCTImage
 {
     NSImage *_platformImage;
-    XCTImageMetadata *_metadata;
-    NSData *_data;
-    XCTImageEncoding *_encoding;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H?l;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)@@;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy, nonatomic) XCTImageEncoding *encoding; // @synthesize encoding=_encoding;
-@property(readonly, nonatomic) XCTImageMetadata *metadata; // @synthesize metadata=_metadata;
 @property(retain, nonatomic) NSImage *platformImage; // @synthesize platformImage=_platformImage;
 
 @end

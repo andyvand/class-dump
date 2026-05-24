@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSString, UIImage;
-
 @interface MPArtworkRepresentation
 {
     _Bool _imagePrepared;
-    long long _kind;
-    UIImage *_image;
-    AVAsset *_video;
-    NSString *_visualIdenticalityStringRepresentation;
-    id _representationToken;
-    struct CGSize _representationSize;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)_ctecolnames;
++ (id)_ctematerialized;
++ (id)_inRangeAsc;
 + (id);
 - (id);
 - (id);
@@ -39,13 +31,7 @@
 - (id)rPropertySet=%@;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic, getter=isImagePrepared) _Bool imagePrepared; // @synthesize imagePrepared=_imagePrepared;
 @property(nonatomic) long long kind; // @synthesize kind=_kind;
-@property(nonatomic) struct CGSize representationSize; // @synthesize representationSize=_representationSize;
-@property(retain, nonatomic) id representationToken; // @synthesize representationToken=_representationToken;
-@property(retain, nonatomic) AVAsset *video; // @synthesize video=_video;
-@property(readonly, copy, nonatomic) NSString *visualIdenticalityStringRepresentation; // @synthesize visualIdenticalityStringRepresentation=_visualIdenticalityStringRepresentation;
 
 @end
 

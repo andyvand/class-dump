@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, TBNetworkMO;
-@protocol TBScore;
+@class NSString;
 
 @interface TBAccessPointMO
 {
@@ -13,14 +12,14 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)APSenderSessionNotification_Connected;
 + (void);
-+ (id);
++ (id)maxUIActions;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)"EMMailSearchUIBiomeLogger",R,N;
 - (void);
 - (id);
 - (double);
@@ -29,27 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *BSSID;
-@property(readonly, nonatomic, getter=isTCPGood) _Bool TCPGood;
-@property(copy, nonatomic) NSString *bssid; // @dynamic bssid;
-@property(copy, nonatomic) NSDate *created; // @dynamic created;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool edge; // @dynamic edge;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double lat; // @dynamic lat;
-@property(readonly, nonatomic) double latitude;
-@property(nonatomic) double lng; // @dynamic lng;
-@property(readonly, nonatomic) double longitude;
-@property(retain, nonatomic) TBNetworkMO *network; // @dynamic network;
-@property(readonly, nonatomic) id <TBScore> popularityScore;
-@property(nonatomic) int popularityScoreValue; // @dynamic popularityScoreValue;
-@property(readonly, nonatomic) id <TBScore> qualityScore;
-@property(nonatomic) int qualityScoreValue; // @dynamic qualityScoreValue;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tcpGood; // @dynamic tcpGood;
 
 @end
 

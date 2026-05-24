@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CLPInstSchemaCLPCDMReplaySampleStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalRequestId;
-    NSString *_resultCandidateId;
-    unsigned int _utteranceRepetitionsInCalendarWeek;
-    _Bool _wasHabitualUserDuringCalendarWeek;
-    SISchemaUUID *_trpId;
-    struct {
-        unsigned int utteranceRepetitionsInCalendarWeek:1;
-        unsigned int wasHabitualUserDuringCalendarWeek:1;
-    } _has;
-    _Bool _hasOriginalRequestId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasTrpId;
 }
 
 - (_Bool);
@@ -31,48 +20,38 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)$;
+- (void)c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)lStarted";
-- (id)INKSchemaFLOWLINKActionPromptForValueContext;
+- (id)FLOWLINKSchemaFLOWLINKActionPromptForValueContext;
 - (id)X_;
 - (void)ÑD&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(nonatomic) _Bool hasUtteranceRepetitionsInCalendarWeek;
-@property(nonatomic) _Bool hasWasHabitualUserDuringCalendarWeek;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(nonatomic) unsigned int utteranceRepetitionsInCalendarWeek; // @synthesize utteranceRepetitionsInCalendarWeek=_utteranceRepetitionsInCalendarWeek;
-@property(nonatomic) _Bool wasHabitualUserDuringCalendarWeek; // @synthesize wasHabitualUserDuringCalendarWeek=_wasHabitualUserDuringCalendarWeek;
 
 @end
 

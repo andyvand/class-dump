@@ -11,21 +11,18 @@
 @interface ASAuthorizationSingleSignOnRequest : ASAuthorizationOpenIDRequest
 {
     NSArray *_authorizationOptions;
-    _Bool _userInterfaceEnabled;
-    struct os_unfair_lock_s _internalLock;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)current advertisers:(id)arg1 %{public}@;
 - (id);
-- (id);
+- (id)c}@ was started multiple times;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *authorizationOptions;
-@property(nonatomic, getter=isUserInterfaceEnabled) _Bool userInterfaceEnabled;
 
 @end
 

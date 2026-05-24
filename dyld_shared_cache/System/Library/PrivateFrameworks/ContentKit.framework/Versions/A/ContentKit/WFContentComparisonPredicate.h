@@ -6,15 +6,11 @@
 
 #import <ContentKit/WFContentPredicate.h>
 
-@class NSSet, WFContentProperty;
-@protocol NSCopying;
+@class WFContentProperty;
 
 @interface WFContentComparisonPredicate : WFContentPredicate
 {
     WFContentProperty *_property;
-    id <NSCopying> _value;
-    CDUnknownBlockType _valueBlock;
-    unsigned long long _comparisonType;
 }
 
 + (void);
@@ -24,22 +20,18 @@
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)OR] %{public}s:%d AudioObjectGetPropertyData (kAudioDevicePropertyDeviceNameCFString) failed:%i /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void)¡õ	ð!Bùñ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long comparisonType; // @synthesize comparisonType=_comparisonType;
-@property(readonly, nonatomic) NSSet *containedProperties;
 @property(readonly, nonatomic) WFContentProperty *property; // @synthesize property=_property;
-@property(readonly, copy, nonatomic) id <NSCopying> value; // @synthesize value=_value;
-@property(readonly, copy, nonatomic) CDUnknownBlockType valueBlock; // @synthesize valueBlock=_valueBlock;
 
 @end
 

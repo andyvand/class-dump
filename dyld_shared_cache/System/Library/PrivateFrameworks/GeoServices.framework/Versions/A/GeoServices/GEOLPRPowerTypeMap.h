@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLPRPowerType, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOLPRPowerTypeMap
 {
     PBDataReader *_reader;
-    NSString *_key;
-    GEOLPRPowerType *_powerType;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_key:1;
-        unsigned int read_powerType:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)leClientEvent:] /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
-- (id)nsCount:(struct _NSZone *)arg1;
-- (id)MSymbol;
+- (id)setMaxRunningOperationsCount:(struct _NSZone *)arg1;
+- (id)AMSymbol;
 - (id)ceived empty response;
 - (void)Â5(m4;
 

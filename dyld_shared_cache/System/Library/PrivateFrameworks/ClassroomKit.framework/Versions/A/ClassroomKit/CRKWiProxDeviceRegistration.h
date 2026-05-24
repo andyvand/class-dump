@@ -9,11 +9,10 @@
 @interface CRKWiProxDeviceRegistration
 {
     NSDictionary *_devices;
-    NSDictionary *_options;
 }
 
 - (id);
-- (void);
+- (void)y;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *devices; // @synthesize devices=_devices;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

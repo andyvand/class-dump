@@ -6,15 +6,11 @@
 
 #import <AppKit/NSDocument.h>
 
-@class NSManagedObjectContext, NSManagedObjectModel, NSMutableDictionary;
+@class NSManagedObjectContext, NSManagedObjectModel;
 
 @interface NSPersistentDocument : NSDocument
 {
     NSManagedObjectModel *_managedObjectModel;
-    NSManagedObjectContext *_managedObjectContext;
-    id _store;
-    unsigned long long _pDocFlags;
-    NSMutableDictionary *_relatedRequestURLs;
 }
 
 + (_Bool);
@@ -24,24 +20,24 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool)(;
 - (_Bool);
+- (_Bool)on"16@"NSError"24;
+- (_Bool)lenge";
+- (id)dependentMimeType;
+- (_Bool)xR6;
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool)ork Self Signed Certificate;
+- (_Bool)coalescingConnectionKeyForHostWithDNSRecord;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -58,7 +54,6 @@
 
 // Remaining properties
 @property(retain) NSManagedObjectContext *managedObjectContext;
-@property(readonly) NSManagedObjectModel *managedObjectModel;
 
 @end
 

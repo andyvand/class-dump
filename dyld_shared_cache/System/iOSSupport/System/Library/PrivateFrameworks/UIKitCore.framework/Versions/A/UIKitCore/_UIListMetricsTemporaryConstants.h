@@ -10,21 +10,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
+- (double)_serializeChatsForRemerge:guidsThatNeedRemerging:chatDictionaryArray: /* Error: Ran out of types for this method. */;
+- (double)_sendingHandleForOutgoingMessageInChat:fromIdentifier: /* Error: Ran out of types for this method. */;
+- (double)ddressedSIMID: /* Error: Ran out of types for this method. */;
+- (double)_sendingDecisionForMessageItem:callerID:lastAddressedLocalHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (double)_senderUnformatted;
+- (double)_senderServiceAccountIDFrom: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double appKitSidebarIconSize;
-@property(readonly, nonatomic) double appKitSidebarIconToTextSpacing;
 @property(readonly, nonatomic) double appKitSidebarIndentationPerLevel;
-@property(readonly, nonatomic) double appKitSidebarIntercellSpacing;
-@property(readonly, nonatomic) double appKitSidebarLeadingContentMargin;
-@property(readonly, nonatomic) double appKitSidebarRowHeight;
-@property(readonly, nonatomic) double pepperUICoreHorizontalMargin;
 
 @end
 

@@ -11,35 +11,29 @@
 @interface TSWPDrawableAttachment : TSWPAttachment
 {
     TSDDrawableInfo *_drawableInfo;
-    int _hOffsetType;
-    double _hOffset;
-    int _vOffsetType;
-    double _vOffset;
-    int _vAlignment;
-    double _attachmentAnchorY;
 }
 
 + (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (int);
-- (id);
-- (id);
+- (void)Response:(id)arg1 %p action=%@> tracks.count=%ld tracks=%@;
+- (void)nse"16@"ICURLAggregatedPerformanceMetrics"24@"NSError"32;
+- (void)ilure;
+- (int)auseForSleepTimerWithFadeout:identifier:completion:] /* Error: Ran out of types for this method. */;
+- (int)CPlaybackEnginePlayer pauseForSleepTimerWithFadeout:identifier:completion:] /* Error: Ran out of types for this method. */;
+- (id)StorePlaybackItemsRequest;
+- (id)item identifiers [modelKind.modelClass cannot be the abstract type MPModelObject] for identifiers:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)omponents]:%@ /* Error: Ran out of types for this method. */;
+- (void)-begin;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (int);
-- (id);
-- (double);
-- (void);
+- (int)chapters;
+- (id)FileAttributeKey;
+- (double)k ;
+- (void)t;
 - (void);
 - (void);
 - (Class);
 - (double);
-- (void);
+- (void);
 - (void);
 - (double);
 - (unsigned long long);
@@ -47,29 +41,22 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)!;
 - (id);
-- (_Bool);
+- (_Bool)ption title for filtering puzzles by in progress play state;
 - (id);
 - (id);
 - (double);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)message:(id)arg1;
 - (int);
 - (_Bool)ayout.m;
 
 // Remaining properties
-@property(nonatomic) double attachmentAnchorY; // @synthesize attachmentAnchorY=_attachmentAnchorY;
-@property(readonly, nonatomic) double descent;
 @property(readonly, retain, nonatomic) TSDDrawableInfo *drawable; // @synthesize drawable=_drawableInfo;
-@property(nonatomic) double hOffset; // @synthesize hOffset=_hOffset;
-@property(nonatomic) int hOffsetType; // @synthesize hOffsetType=_hOffsetType;
-@property(nonatomic) int vAlignment; // @synthesize vAlignment=_vAlignment;
-@property(nonatomic) double vOffset; // @synthesize vOffset=_vOffset;
-@property(nonatomic) int vOffsetType; // @synthesize vOffsetType=_vOffsetType;
 
 @end
 

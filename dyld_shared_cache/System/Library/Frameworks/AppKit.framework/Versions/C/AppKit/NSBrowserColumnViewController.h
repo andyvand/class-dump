@@ -6,63 +6,60 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSBrowser, NSIndexSet, NSMenu, NSView;
+@class NSBrowser;
 
 @interface NSBrowserColumnViewController : NSViewController
 {
     NSBrowser *_browser;
-    NSView *_columnView;
-    NSViewController *_headerViewController;
-    long long _columnIndex;
 }
 
 - (void);
 - (double);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)4{?={?=qiIq}{?=qiIq}}32@80{?={?=qiIq}{?=qiIq}}88;
+- (void)nectionKey>, std:(_Bool)arg1:set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)8@16@?24;
+- (long long)tion"d"fCreationTime"d"fDownloadAssessment"^{__CFDictionary}"fSSLCertContext"^{__CFDictionary}"fRecommendedPolicy"i"fPeerAddress"^{__CFData}"fHTTP"^{HTTPResponse}"fLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (id)^{__CFString}^{__CFString}qdd^{__CFDictionary}^{__CFDictionary}i^{__CFData}^{HTTPResponse}{os_unfair_lock_s=I}}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)streamTaskWithNetService:(long long)arg1;
+- (long long)set_backtrace:(struct CGPoint)arg1;
+- (void)initWithFileDescriptor:(id)arg1 closeOnDealloc: /* Error: Ran out of types for this method. */;
+- (id)allowsExpensiveNetworkAccess;
+- (id)_connectionIsCellular;
+- (long long)_bundleID;
+- (void)_TLSMinimumSupportedProtocolVersion;
+- (long long)URLSession:(long long)arg1 task:getAppleIDRequestOrHeadersForResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (struct CGRect)SSO performing default handling for %@;
+- (long long)(%{public}@) T(%p) T.FW(%p);
+- (void):(long long)arg1 activity(%p) will be canceled;
+- (id)n %llu:(id)arg1 received H2 RST_STREAM with error code:(id)arg2 %u;
+- (void)%@ [%ld];
+- (void)c}@ arriving via APSF;
+- (id);
 - (id);
 - (long long);
 - (id);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (struct CGRect);
-- (long long);
+- (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)k;
+- (id)setFetchLimit: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (double);
+- (double);
 - (void)!í/°!èFùâ3Ð1Â0@ù
 × ;
 - (id)¼;
@@ -75,20 +72,7 @@
 - (void) K;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsEmptySelection;
-@property(nonatomic) _Bool allowsMultipleSelection;
-@property(nonatomic) _Bool allowsTypeSelect;
-@property(nonatomic) NSBrowser *browser; // @synthesize browser=_browser;
-@property(nonatomic) long long columnIndex; // @synthesize columnIndex=_columnIndex;
-@property(retain, nonatomic) NSView *columnView; // @synthesize columnView=_columnView;
-@property(nonatomic) _Bool drawsBackground;
-@property(readonly, nonatomic) long long firstValidRowIndex;
 @property(retain, nonatomic) NSViewController *headerViewController; // @synthesize headerViewController=_headerViewController;
-@property(retain) NSMenu *menu;
-@property(readonly, nonatomic) unsigned long long numberOfRows;
-@property(readonly) NSArray *selectedItems; // @dynamic selectedItems;
-@property(readonly, nonatomic) long long selectedRow;
-@property(retain, nonatomic) NSIndexSet *selectionIndexes;
 
 @end
 

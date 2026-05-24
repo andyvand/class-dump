@@ -11,9 +11,10 @@
     CAGradientLayer *_maskLayer;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)@(#)PROGRAM:PowerlogLiteOperators  PROJECT:powerlog-3031.121.1
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

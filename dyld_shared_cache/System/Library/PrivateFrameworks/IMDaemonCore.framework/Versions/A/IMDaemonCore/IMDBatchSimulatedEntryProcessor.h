@@ -7,13 +7,11 @@
 @interface IMDBatchSimulatedEntryProcessor
 {
     id entries;
-    id currentBatch;
-    id configuration;
 }
 
 - (id);
 - (id);
-- (void)rateSafeRender:(void (^)(NSError *))arg1 constraints:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)generateSafeRender:(void (^)(NSError *))arg1 constraints:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

@@ -9,15 +9,11 @@
 @interface CKCompositionTranslator
 {
     void delegate;
-    id task;
-    id debounceTask;
-    id translator;
-    id streamStorage;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)0#;
+- (void)alesced mentions:%@ /* Error: Ran out of types for this method. */;
+- (void)Q;
 - (id);
 - (id);
 - (void);

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
-- (id)itCollection:(struct CGRect)arg1 size: /* Error: Ran out of types for this method. */;
+- (_Bool)playlistExistsWithPersistentID: /* Error: Ran out of types for this method. */;
+- (id)_dividerWidthForTraitCollection:(struct CGRect)arg1 size: /* Error: Ran out of types for this method. */;
 - (struct CGColor *)tion;
-- (void)ctionViewLayout;
+- (void)_UIFloatingTabBarCollectionViewLayout;
 - (void);
 
 // Remaining properties

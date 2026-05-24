@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface GEOResultRefinementSection
 {
     NSString *_sectionHeader;
-    NSArray *_resultRefinements;
-    long long _refinementsType;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)cropRects;
+- (id)consolidateContainers:(id)arg1;
 - (id);
 - (long long);
-- (void)ITE_GUIDE;
+- (void)REMOVE_FROM_FAVORITE_GUIDE;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long refinementsType; // @synthesize refinementsType=_refinementsType;
-@property(copy, nonatomic) NSArray *resultRefinements; // @synthesize resultRefinements=_resultRefinements;
 @property(copy, nonatomic) NSString *sectionHeader; // @synthesize sectionHeader=_sectionHeader;
 
 @end

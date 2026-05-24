@@ -13,9 +13,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int compatibilityVersion; // @dynamic compatibilityVersion;
-@property(nonatomic) _Bool hasCompatibilityVersion; // @dynamic hasCompatibilityVersion;
-@property(nonatomic) _Bool hasName; // @dynamic hasName;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
 
 @end

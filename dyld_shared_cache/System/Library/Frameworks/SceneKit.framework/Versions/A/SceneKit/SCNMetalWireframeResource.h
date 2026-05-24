@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface SCNMetalWireframeResource
 {
     void *material;
-    void *program;
-    void *programHashCode;
 }
 
-- (void);
+- (void);
 
 @end
 

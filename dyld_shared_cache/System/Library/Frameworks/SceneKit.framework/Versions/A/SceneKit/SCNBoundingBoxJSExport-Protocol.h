@@ -5,11 +5,11 @@
 //
 
 @protocol SCNBoundingBoxJSExport
-- (struct SCNVector3)ldBezierCurveInfoPipelineLinear;
+- (void);
+- (struct SCNVector3)_buildBezierCurveInfoPipelineLinear;
 - (struct SCNVector3)T;
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 max;
 @property(nonatomic) struct SCNVector3 min;
 @end
 

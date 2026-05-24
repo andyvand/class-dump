@@ -5,5 +5,6 @@
 //
 
 @protocol _NSItemFocusingCollectionViewItem
+- (void)_taskIdentifier;
 @end
 

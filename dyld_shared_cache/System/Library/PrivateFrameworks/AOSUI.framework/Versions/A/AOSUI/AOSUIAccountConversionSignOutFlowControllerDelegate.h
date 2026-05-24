@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AIDAAccountManager, NSString, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIAccountConversionSignOutFlowControllerDelegate
 {
     _Bool _shouldRemoveAppleAccount;
-    NSWindow *_presentingWindow;
-    AIDAAccountManager *_accountManager;
 }
 
 - (id);
+- (id)cB(c@ a%];
 - (id);
-- (id);
-- (void);
+- (void)CodableAccessibilityActionList;
 - (void);
 - (void);
 - (void);
@@ -29,19 +27,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AIDAAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *telemetryFlowID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
 
 @end
 

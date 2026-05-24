@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface HMBPreparedStatementsCache
 {
     struct hmf_unfair_data_lock_s _lock;
-    NSMutableDictionary *_statementsByStatementString;
-    NSMutableArray *_lruQueue;
 }
 
 - (struct sqlite3_stmt *);
@@ -19,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct sqlite3_stmt *);
 - (struct sqlite3_stmt *);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long count;

@@ -9,21 +9,6 @@
 @interface AMPDeviceSoftwareInfo
 {
     _Bool _updateCaptionEnabled;
-    _Bool _hasCheckForUpdates;
-    _Bool _updateButtonEnabled;
-    _Bool _restoreCaptionEnabled;
-    _Bool _restoreButtonEnabled;
-    _Bool _softwareUpdateRestoreInProgress;
-    NSString *_softwareVersion;
-    NSString *_buildVersion;
-    NSString *_statusMessage;
-    NSString *_disabledMessage;
-    NSString *_updateCaptionMessage;
-    NSString *_updateButtonTitle;
-    NSString *_restoreCaptionMessage;
-    NSString *_restoreButtonTitle;
-    NSString *_recoveryModeTitle;
-    NSString *_ejectButtonTitle;
 }
 
 + (_Bool);
@@ -43,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -52,7 +37,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)	?ה
+;
 - (id);
 - (void);
 - (void);
@@ -65,22 +51,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(retain, nonatomic) NSString *disabledMessage; // @synthesize disabledMessage=_disabledMessage;
-@property(retain, nonatomic) NSString *ejectButtonTitle; // @synthesize ejectButtonTitle=_ejectButtonTitle;
-@property(nonatomic) _Bool hasCheckForUpdates; // @synthesize hasCheckForUpdates=_hasCheckForUpdates;
-@property(retain, nonatomic) NSString *recoveryModeTitle; // @synthesize recoveryModeTitle=_recoveryModeTitle;
-@property(nonatomic) _Bool restoreButtonEnabled; // @synthesize restoreButtonEnabled=_restoreButtonEnabled;
-@property(retain, nonatomic) NSString *restoreButtonTitle; // @synthesize restoreButtonTitle=_restoreButtonTitle;
-@property(nonatomic) _Bool restoreCaptionEnabled; // @synthesize restoreCaptionEnabled=_restoreCaptionEnabled;
-@property(retain, nonatomic) NSString *restoreCaptionMessage; // @synthesize restoreCaptionMessage=_restoreCaptionMessage;
-@property(nonatomic) _Bool softwareUpdateRestoreInProgress; // @synthesize softwareUpdateRestoreInProgress=_softwareUpdateRestoreInProgress;
 @property(retain, nonatomic) NSString *softwareVersion; // @synthesize softwareVersion=_softwareVersion;
-@property(retain, nonatomic) NSString *statusMessage; // @synthesize statusMessage=_statusMessage;
-@property(nonatomic) _Bool updateButtonEnabled; // @synthesize updateButtonEnabled=_updateButtonEnabled;
-@property(retain, nonatomic) NSString *updateButtonTitle; // @synthesize updateButtonTitle=_updateButtonTitle;
-@property(nonatomic) _Bool updateCaptionEnabled; // @synthesize updateCaptionEnabled=_updateCaptionEnabled;
-@property(retain, nonatomic) NSString *updateCaptionMessage; // @synthesize updateCaptionMessage=_updateCaptionMessage;
 
 @end
 

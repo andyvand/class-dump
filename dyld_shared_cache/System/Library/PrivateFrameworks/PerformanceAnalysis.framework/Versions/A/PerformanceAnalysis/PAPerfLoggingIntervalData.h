@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PAPerfLoggingIntervalData
 {
     NSString *_intervalType;
-    NSString *_processName;
-    NSString *_operationCategory;
-    NSString *_operationName;
-    NSArray *_processedContextDataArray;
-    NSArray *_processedContextDataUOMsArray;
-    double *_intervalDurationInMsArray;
-    double *_intervalStartTimeInSecArray;
-    double _averageIntervalDurationInMs;
-    double _standardDeviationIntervalDurationInMs;
-    double _normalizedStandardDeviation;
-    unsigned long long _intervalCount;
-    unsigned long long _numUnpairedTransitions;
-    double _operationStartTimeInSec;
-    double _operationEndTimeInSec;
-    double _firstIntervalStartInSec;
-    double _endOfLastIntervalInSec;
 }
 
-- (double);
+- (double)6;
 - (double);
 - (double);
 - (double);
@@ -36,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (double);
@@ -48,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (const double *);
 - (double);
 - (double);
-- (double);
+- (double)h;
 - (id);
 - (double);
 - (void);
@@ -56,9 +40,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (double);
-- (double *);
+- (double *)`;
 - (unsigned long long);
-- (double);
+- (double)CL;
 - (void);
 - (id);
 - (id);
@@ -68,29 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) double averageIntervalDurationInMs; // @synthesize averageIntervalDurationInMs=_averageIntervalDurationInMs;
-@property(readonly) double endOfLastIntervalInSec; // @synthesize endOfLastIntervalInSec=_endOfLastIntervalInSec;
-@property(readonly) double initialDelayDurationInMs;
-@property unsigned long long intervalCount; // @synthesize intervalCount=_intervalCount;
-@property(readonly) double *intervalDurationInMsArray; // @synthesize intervalDurationInMsArray=_intervalDurationInMsArray;
-@property(readonly) double intervalRateOverOperationIgnoringDelayInIntervalsPerSec;
-@property(readonly) double intervalRateOverOperationInIntervalsPerSec;
-@property(readonly) const double *intervalStartTimeInSecArray; // @synthesize intervalStartTimeInSecArray=_intervalStartTimeInSecArray;
-@property(retain, nonatomic) NSString *intervalType; // @synthesize intervalType=_intervalType;
-@property(readonly) double normalizedStandardDeviation; // @synthesize normalizedStandardDeviation=_normalizedStandardDeviation;
-@property unsigned long long numUnpairedIntervalEndsOrStarts; // @synthesize numUnpairedIntervalEndsOrStarts=_numUnpairedTransitions;
-@property(retain) NSString *operationCategory; // @synthesize operationCategory=_operationCategory;
-@property(readonly) double operationEndTimeInSec; // @synthesize operationEndTimeInSec=_operationEndTimeInSec;
-@property(retain) NSString *operationName; // @synthesize operationName=_operationName;
-@property(readonly) double operationStartTimeInSec; // @synthesize operationStartTimeInSec=_operationStartTimeInSec;
 @property(retain) NSString *processName; // @synthesize processName=_processName;
-@property(readonly) NSArray *processedContextDataArray; // @synthesize processedContextDataArray=_processedContextDataArray;
-@property(readonly) NSArray *processedContextDataUOMsArray; // @synthesize processedContextDataUOMsArray=_processedContextDataUOMsArray;
-@property(readonly) double standardDeviationIntervalDurationInMs; // @synthesize standardDeviationIntervalDurationInMs=_standardDeviationIntervalDurationInMs;
-@property(readonly) double startOfFirstIntervalInSec; // @synthesize startOfFirstIntervalInSec=_firstIntervalStartInSec;
-@property(readonly) double timeBetweenOperationStartAndFirstIntervalInMs;
-@property(readonly) double totalOperationDurationInMs;
-@property(readonly) double trailingDelayDurationInMs;
 
 @end
 

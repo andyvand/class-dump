@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMediaGroupSource, NSArray, NSUUID;
+@class NSUUID;
 
 @interface HMCurrentMediaGroup
 {
     NSUUID *_currentAccessoryUniqueIdentifier;
-    unsigned long long _mediaGroupType;
-    HMMediaGroupSource *_source;
-    NSArray *_participants;
 }
 
 + (_Bool);
@@ -19,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)prepared;
 - (void);
 - (id);
 - (id);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *currentAccessoryUniqueIdentifier; // @synthesize currentAccessoryUniqueIdentifier=_currentAccessoryUniqueIdentifier;
-@property(readonly) unsigned long long mediaGroupType; // @synthesize mediaGroupType=_mediaGroupType;
-@property(readonly, copy) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly) HMMediaGroupSource *source; // @synthesize source=_source;
 
 @end
 

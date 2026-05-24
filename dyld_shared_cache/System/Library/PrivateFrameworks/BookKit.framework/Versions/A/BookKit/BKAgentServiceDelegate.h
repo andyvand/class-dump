@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKAgent, NSMutableSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BKAgentServiceDelegate
 {
     NSObject<OS_dispatch_queue> *_lock;
-    NSMutableSet *_listeners;
-    NSMutableSet *_persistenceListeners;
-    BKAgent *_agent;
 }
 
 - (void);
@@ -29,15 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) BKAgent *agent; // @synthesize agent=_agent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSObject<OS_dispatch_queue> *lock; // @synthesize lock=_lock;
-@property(readonly) Class superclass;
 
 @end
 

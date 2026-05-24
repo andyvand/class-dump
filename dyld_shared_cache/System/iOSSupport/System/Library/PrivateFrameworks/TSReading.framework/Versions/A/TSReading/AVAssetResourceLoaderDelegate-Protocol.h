@@ -5,5 +5,8 @@
 //
 
 @protocol AVAssetResourceLoaderDelegate
+
+@optional
+- (void)�;
 @end
 

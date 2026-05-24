@@ -4,51 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAVDaemonListener, IMLocalObject, IMRemoteObject, NSLock, NSMutableArray, NSObject, NSString;
-@protocol IMAVDaemonProtocol, OS_dispatch_queue;
+@class IMAVDaemonListener, IMRemoteObject;
+@protocol IMAVDaemonProtocol;
 
 @interface IMAVDaemonController
 {
     IMRemoteObject<IMAVDaemonProtocol> *_remoteObject;
-    IMLocalObject *_localObject;
-    IMAVDaemonListener *_daemonListener;
-    NSString *_listenerID;
-    NSMutableArray *_listeners;
-    NSLock *_connectionLock;
-    NSObject<OS_dispatch_queue> *_listenerLockQueue;
-    NSObject<OS_dispatch_queue> *_remoteDaemonLockQueue;
-    NSObject<OS_dispatch_queue> *_remoteMessageQueue;
-    NSObject<OS_dispatch_queue> *_localObjectLockQueue;
-    struct __CFRunLoopSource *_runLoopSource;
-    _Bool _hasCheckedForDaemon;
-    _Bool _acquiringDaemonConnection;
 }
 
 + (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void)<;
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool)csMode:wifiState:megaWiFiProfileState:noLoggingWiFiProfileState:eapolState:bluetoothState:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)(=;
+- (void);
+- (id);
+- (void)color space is not RGB, falling back to sRGB:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);

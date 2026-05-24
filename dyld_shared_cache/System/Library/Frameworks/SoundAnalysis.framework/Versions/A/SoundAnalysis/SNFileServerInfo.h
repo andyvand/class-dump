@@ -13,16 +13,13 @@
 
 - (id);
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)^¨üÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) NSString *idsDeviceID;
-@property(nonatomic, readonly) NSString *model;
-@property(nonatomic, readonly) NSString *name;
 
 @end
 

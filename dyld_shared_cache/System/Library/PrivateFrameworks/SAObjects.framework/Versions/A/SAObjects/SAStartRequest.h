@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSNumber, NSString, SASStartSpeech;
+@class NSString;
 
 @interface SAStartRequest : SABaseCommand
 {
@@ -16,8 +16,8 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -37,14 +37,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
+- (void)initWithConfigFile:(id)arg1 samplingRate: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)_EEEE;
 - (id);
-- (id);
-- (id);
+- (id)#;
+- (id)a;
 - (_Bool);
 - (id);
 - (id);
@@ -53,32 +53,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(copy, nonatomic) NSString *applicationName;
-@property(nonatomic) _Bool clearContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool eyesFree;
-@property(nonatomic) _Bool handsFree;
-@property(copy, nonatomic) NSString *hardwareBuild;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *inputOrigin;
-@property(copy, nonatomic) NSNumber *isCarryDevice;
-@property(copy, nonatomic) NSNumber *isWatchFaceRequest;
-@property(copy, nonatomic) NSString *motionActivity;
-@property(copy, nonatomic) NSNumber *motionConfidence;
 @property(copy, nonatomic) NSString *origin;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSString *responseMode;
-@property(retain, nonatomic) SASStartSpeech *sourceSpeechRequest;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool talkOnly;
-@property(nonatomic) _Bool textToSpeechIsMuted;
-@property(copy, nonatomic) NSString *turnId;
-@property(copy, nonatomic) NSString *utterance;
 
 @end
 

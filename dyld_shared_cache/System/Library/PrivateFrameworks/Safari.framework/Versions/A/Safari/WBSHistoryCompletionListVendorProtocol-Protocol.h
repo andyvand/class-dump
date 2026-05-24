@@ -5,5 +5,6 @@
 //
 
 @protocol WBSHistoryCompletionListVendorProtocol
+- (void);
 @end
 

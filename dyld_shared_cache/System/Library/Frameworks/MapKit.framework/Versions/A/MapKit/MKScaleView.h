@@ -4,88 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSCache, NSImageView, NSVisualEffectView;
+@class NSCache;
 
 @interface MKScaleView
 {
     _Bool _useMetric;
-    _Bool _useYardsForShortDistances;
-    _Bool _wasDragged;
-    _Bool _wasClickedInside;
-    struct CGPoint _clickPosition;
-    _Bool _isVisible;
-    double _segmentLength;
-    NSCache *_cache;
-    NSVisualEffectView *_effectView;
-    NSImageView *_vibrantImageView;
-    NSImageView *_imageView;
-    double _segmentThickness;
-    double _legendOffset;
-    double _leftMarginForText;
-    double _approximateSegmentWidth;
-    double _bottomMarginForText;
-    double _legendFontSize;
-    _Bool _drawsOutline;
-    _Bool _reducesTransparency;
-    double _distanceInMeters;
-    MKMapView *_mapView;
-    long long _scaleVisibility;
-    unsigned long long _controlSize;
 }
 
 + (id);
++ (id)3F;
 + (id);
++ (double)WP;
 + (id);
 + (double);
-+ (id);
-+ (double);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)d withKey:%@ withPayload:%@ ... /* Error: Ran out of types for this method. */;
+- (struct CGSize)ting energy for openInterval=%@;
+- (void)with mockData=%@;
+- (void)PausedChargingState;
+- (void)REDUCEBRIGHTNESS_INFO_TEXT;
+- (void)%f, powerlevel2Duration=%f, powerlevel3Duration=%f, linkType=%d, overallBytes=%f, overallDuration=%f TotalEnergy=%f, taskID=%@;
 - (void);
 - (double);
-- (_Bool);
+- (_Bool)RR;
 - (id);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
-- (void);
-- (double);
+- (void)writeValue:(double)arg1 forCharacteristic:type: /* Error: Ran out of types for this method. */;
+- (double)d device;
 - (struct CGRect);
-- (id);
+- (id)eStoresUnwrapped;
 - (unsigned long long);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)<;
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)nabledPolicyHorseman _addVoiceTriggerEnabledConditions]_block_invoke;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)FullscreenPhotos: /* Error: Ran out of types for this method. */;
-- (id)ringForMapItem: /* Error: Ran out of types for this method. */;
+- (void)placeCardPhotosControllerDidCloseFullscreenPhotos: /* Error: Ran out of types for this method. */;
+- (id)compactUserRecommendedRatingSummaryStringForMapItem: /* Error: Ran out of types for this method. */;
 - (void)_rightButton;
 - (void)i;
 
 // Remaining properties
 @property(readonly, nonatomic) NSCache *cache;
-@property(nonatomic, getter=_controlSize, setter=_setControlSize:) unsigned long long controlSize; // @synthesize controlSize=_controlSize;
-@property(nonatomic) double distanceInMeters; // @synthesize distanceInMeters=_distanceInMeters;
-@property(nonatomic) _Bool drawsOutline; // @synthesize drawsOutline=_drawsOutline;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) _Bool reducesTransparency; // @synthesize reducesTransparency=_reducesTransparency;
-@property(nonatomic) long long scaleVisibility; // @synthesize scaleVisibility=_scaleVisibility;
-@property(readonly, nonatomic) double segmentLength;
 
 @end
 

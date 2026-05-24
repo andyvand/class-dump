@@ -4,61 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKiCDPEnrollmentDeviceListViewController, AKiCDPEnrollmentDevicePasscodeViewController, AKiCDPValidationDevice, AKiCDPWaitForApprovalViewController, NSArray, OBTemplateView;
-@protocol AKiCDPValidationDelegate, MBSecondPartyHost;
+@protocol AKiCDPValidationDelegate;
 
 @interface AKiCDPDeviceValidationFlowViewController
 {
     id <AKiCDPValidationDelegate> delegate;
-    unsigned long long state;
-    AKiCDPEnrollmentDeviceListViewController *deviceListVC;
-    AKiCDPEnrollmentDevicePasscodeViewController *passcodeVC;
-    AKiCDPWaitForApprovalViewController *approvalVC;
-    OBTemplateView *_templateView;
-    AKiCDPValidationDevice *_selectedDevice;
-    id <MBSecondPartyHost> _assistant;
 }
 
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)0;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)0;
+- (void)SPParameterizedTool;
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id)t;
 - (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)];
 - (id);
 - (void);
 - (id);
 - (void)ntroller deallocated;
 
 // Remaining properties
-@property(retain, nonatomic) AKiCDPWaitForApprovalViewController *approvalVC; // @synthesize approvalVC;
-@property(nonatomic) id <MBSecondPartyHost> assistant; // @synthesize assistant=_assistant;
-@property(nonatomic) id <AKiCDPValidationDelegate> delegate; // @synthesize delegate;
-@property(retain, nonatomic) AKiCDPEnrollmentDeviceListViewController *deviceListVC; // @synthesize deviceListVC;
-@property(readonly, nonatomic) NSArray *devices;
-@property(retain, nonatomic) AKiCDPEnrollmentDevicePasscodeViewController *passcodeVC; // @synthesize passcodeVC;
-@property(retain, nonatomic) AKiCDPValidationDevice *selectedDevice; // @synthesize selectedDevice=_selectedDevice;
 @property(nonatomic) unsigned long long state; // @synthesize state;
-@property(retain, nonatomic) OBTemplateView *templateView; // @synthesize templateView=_templateView;
 
 @end
 

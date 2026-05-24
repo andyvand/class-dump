@@ -6,41 +6,15 @@
 
 #import <coreroutine/RTService.h>
 
-@class CLLocation, CLLocationManager, CLLocationManagerRoutine, NSMutableArray, NSMutableDictionary, NSString, RTAuthorizationManager, RTDefaultsManager, RTInvocationDispatcher, RTLocationSmoother, RTPlatform, RTPowerAssertion, RTStore, RTTimer, RTTimerManager, RTTrustedTimeCache;
-@protocol RTLocationStoreProtocol;
+@class NSMutableArray;
 
 @interface RTLocationManager : RTService
 {
     _Bool _leechingLocations;
-    _Bool _monitoringLocations;
-    _Bool _monitoringRhythmicLocations;
-    _Bool _enabled;
-    _Bool _supported;
-    _Bool _locationStoreAvailable;
-    _Bool _persistingLocations;
-    NSMutableArray *_currentLocationRequests;
-    NSString *_effectiveLocationBundlePath;
-    NSString *_locationBundlePathShortname;
-    RTTimer *_activeLocationRequestTimer;
-    RTPowerAssertion *_powerAssertion;
-    RTInvocationDispatcher *_dispatcher;
-    CLLocationManager *_locationManager;
-    CLLocationManager *_rhythmicLocationManager;
-    CLLocationManagerRoutine *_locationManagerRoutine;
-    CLLocation *_lastLocation;
-    RTAuthorizationManager *_authorizationManager;
-    RTLocationSmoother *_locationSmoother;
-    RTStore<RTLocationStoreProtocol> *_locationStore;
-    RTPlatform *_platform;
-    RTDefaultsManager *_defaultsManager;
-    RTTimerManager *_timerManager;
-    RTTrustedTimeCache *_trustedTimeCache;
-    NSMutableDictionary *_regionEventHandlerDictionary;
-    RTInvocationDispatcher *_regionEventDispatcher;
 }
 
 + (id);
-+ (id);
++ (id)ntents {serverGivenInterval:(long long)arg1 %f, signature:%@, certificatesCount:%d, signedBagLen:%d, startLoadDate:%@} /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
 + (_Bool);
@@ -67,27 +41,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)}};
+- (_Bool)ason(%@).;
+- (void)ServerPort;
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)LE	;
 - (void);
 - (void);
 - (void);
@@ -95,39 +54,54 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)outgoingResponseIdentifier;
+- (void)forwardMethodWithBoostedPriority:(id)arg1;
+- (void)s for %@;
+- (void)ce reportSpamMessage:(id)arg1 ];
 - (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (double);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)v28@0:8i16@?<v@?>20 /* Error: Ran out of types for this method. */;
+- (id)32;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)E %zu key;
+- (void)%zu is out of bounds;
 - (void);
 - (void);
 - (id);
@@ -142,8 +116,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)#;
+- (id)#;
 - (void);
 - (id);
 - (void);
@@ -158,16 +132,16 @@
 × ;
 - (void)Á(!hDù±C,°1Â0@ù
 × ;
-- (void)SinglePOIMuid:(id)arg1;
-- (_Bool);
-- (id)e;
-- (void)ForRegion:(id)arg1 withError:(id)arg2;
-- (_Bool)withAddressFromMapItem:error: /* Error: Ran out of types for this method. */;
-- (_Bool)WithContext:handler: /* Error: Ran out of types for this method. */;
+- (void)setSinglePOIMuid:(id)arg1;
+- (_Bool)setEndWorkoutReminderDate: /* Error: Ran out of types for this method. */;
+- (id)requestType;
+- (void)locationManager:(id)arg1 monitoringDidFailForRegion:(id)arg2 withError: /* Error: Ran out of types for this method. */;
+- (_Bool)addressIdentifierOfContact:withAddressFromMapItem:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_fetchZDRLocationWithContext:handler: /* Error: Ran out of types for this method. */;
 - (id)TAccount",R,N,V_currentAccount;
 - (void)tSinceBoot];
 - (id)with bundle identifier, %@, restoration identifier, %@;
-- (void)te;
+- (void)exitDate;
 - (void)TrustedTime:(CDUnknownBlockType)arg1 isRetroRegistrationTime:handler:] /* Error: Ran out of types for this method. */;
 - (void)ID, %@, error, %@;
 - (void)ount, %lu;
@@ -180,39 +154,7 @@
 - (void)bÆ;
 
 // Remaining properties
-@property(retain, nonatomic) RTTimer *activeLocationRequestTimer; // @synthesize activeLocationRequestTimer=_activeLocationRequestTimer;
-@property(retain, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
 @property(retain, nonatomic) NSMutableArray *currentLocationRequests; // @synthesize currentLocationRequests=_currentLocationRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(retain, nonatomic) NSString *effectiveLocationBundlePath; // @synthesize effectiveLocationBundlePath=_effectiveLocationBundlePath;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CLLocation *lastLocation; // @synthesize lastLocation=_lastLocation;
-@property(nonatomic) _Bool leechingLocations; // @synthesize leechingLocations=_leechingLocations;
-@property(readonly, nonatomic) NSString *locationBundlePathShortname; // @synthesize locationBundlePathShortname=_locationBundlePathShortname;
-@property(retain, nonatomic) CLLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) CLLocationManagerRoutine *locationManagerRoutine; // @synthesize locationManagerRoutine=_locationManagerRoutine;
-@property(retain, nonatomic) RTLocationSmoother *locationSmoother; // @synthesize locationSmoother=_locationSmoother;
-@property(retain, nonatomic) RTStore<RTLocationStoreProtocol> *locationStore; // @synthesize locationStore=_locationStore;
-@property(nonatomic) _Bool locationStoreAvailable; // @synthesize locationStoreAvailable=_locationStoreAvailable;
-@property(nonatomic) _Bool monitoringLocations; // @synthesize monitoringLocations=_monitoringLocations;
-@property(nonatomic) _Bool monitoringRhythmicLocations; // @synthesize monitoringRhythmicLocations=_monitoringRhythmicLocations;
-@property(nonatomic) _Bool persistingLocations; // @synthesize persistingLocations=_persistingLocations;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) RTPowerAssertion *powerAssertion; // @synthesize powerAssertion=_powerAssertion;
-@property(retain, nonatomic) RTInvocationDispatcher *regionEventDispatcher; // @synthesize regionEventDispatcher=_regionEventDispatcher;
-@property(retain, nonatomic) NSMutableDictionary *regionEventHandlerDictionary; // @synthesize regionEventHandlerDictionary=_regionEventHandlerDictionary;
-@property(retain, nonatomic) CLLocationManager *rhythmicLocationManager; // @synthesize rhythmicLocationManager=_rhythmicLocationManager;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supported; // @synthesize supported=_supported;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(readonly, nonatomic) RTTrustedTimeCache *trustedTimeCache; // @synthesize trustedTimeCache=_trustedTimeCache;
 
 @end
 

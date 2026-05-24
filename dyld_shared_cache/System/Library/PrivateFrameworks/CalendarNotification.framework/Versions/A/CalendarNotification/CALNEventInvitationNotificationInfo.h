@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarEventInvitationNotification, EKConflictDetails, NSDate, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface CALNEventInvitationNotificationInfo
 {
     _Bool _isDelegate;
-    NSString *_sourceClientIdentifier;
-    NSURL *_launchURL;
-    NSDate *_expirationDate;
-    EKConflictDetails *_conflictDetails;
-    EKCalendarEventInvitationNotification *_eventInvitationNotification;
-    NSDictionary *_eventRepresentationDictionary;
-    NSString *_eventURI;
-    NSString *_sourceTitle;
-    NSString *_sourceIdentifier;
 }
 
 - (id);
@@ -35,16 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EKConflictDetails *conflictDetails; // @synthesize conflictDetails=_conflictDetails;
-@property(readonly, nonatomic) EKCalendarEventInvitationNotification *eventInvitationNotification; // @synthesize eventInvitationNotification=_eventInvitationNotification;
-@property(readonly, copy, nonatomic) NSDictionary *eventRepresentationDictionary; // @synthesize eventRepresentationDictionary=_eventRepresentationDictionary;
-@property(readonly, copy, nonatomic) NSString *eventURI; // @synthesize eventURI=_eventURI;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) _Bool isDelegate; // @synthesize isDelegate=_isDelegate;
-@property(readonly, copy, nonatomic) NSURL *launchURL; // @synthesize launchURL=_launchURL;
 @property(readonly, copy, nonatomic) NSString *sourceClientIdentifier; // @synthesize sourceClientIdentifier=_sourceClientIdentifier;
-@property(readonly, copy, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(readonly, copy, nonatomic) NSString *sourceTitle; // @synthesize sourceTitle=_sourceTitle;
 
 @end
 

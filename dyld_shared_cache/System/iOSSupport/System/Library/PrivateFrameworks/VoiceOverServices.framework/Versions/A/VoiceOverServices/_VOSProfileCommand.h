@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, VOSCommand, _VOSProfileMode;
+@class VOSCommand;
 
 @interface _VOSProfileCommand
 {
     VOSCommand *_command;
-    NSMutableSet *_gestures;
-    NSMutableSet *_keyboardShortcuts;
-    NSMutableSet *_quickNavShortcuts;
-    NSMutableSet *_secondaryCommands;
-    _VOSProfileMode *_mode;
 }
 
 + (id);
-+ (id);
++ (id)~i;
 + (_Bool);
 - (id);
-- (void);
+- (void)0{;
 - (id);
 - (void);
 - (id);
@@ -31,20 +26,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@@"NSString";
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (id)<f;
 - (void);
 - (id);
 - (void);
+- (_Bool)0;
+- (void)kO;
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -52,12 +47,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) VOSCommand *command; // @synthesize command=_command;
-@property(retain, nonatomic) NSMutableSet *gestures; // @synthesize gestures=_gestures;
-@property(readonly, nonatomic) _Bool hasSecondaryCommands;
-@property(retain, nonatomic) NSMutableSet *keyboardShortcuts; // @synthesize keyboardShortcuts=_keyboardShortcuts;
-@property(nonatomic) __weak _VOSProfileMode *mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) NSMutableSet *quickNavShortcuts; // @synthesize quickNavShortcuts=_quickNavShortcuts;
-@property(retain, nonatomic) NSMutableSet *secondaryCommands; // @synthesize secondaryCommands=_secondaryCommands;
 
 @end
 

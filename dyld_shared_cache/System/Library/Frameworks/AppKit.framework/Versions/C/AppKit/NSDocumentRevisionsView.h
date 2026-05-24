@@ -6,84 +6,54 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSButton, NSDocumentRevisionsAuxiliaryWindow, NSDocumentRevisionsController, NSMapTable, NSMutableArray, NSTextField;
+@class NSDocumentRevisionsController;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentRevisionsView : NSView
 {
     NSDocumentRevisionsController *_controller;
-    NSMutableArray *_stackItems;
-    unsigned long long _currentStackItemIndex;
-    unsigned long long _requestedStackItemIndex;
-    long long _animating;
-    struct CGRect *_visibleStackItemBounds;
-    NSMutableArray *_revisionUpdates;
-    double _windowScaleFactor;
-    _Bool _topLayerHidden;
-    NSMapTable *_transitionAnimations;
-    _Bool _isStartTransition;
-    NSArray *_layerStackAnimations;
-    NSArray *_backdropLayerStackAnimations;
-    NSTextField *_originalDocumentLabel;
-    NSTextField *_revisionDocumentLabel;
-    NSView *_buttonAndLabelContainer;
-    NSView *_sideButtonAndLabelContainer;
-    NSButton *_doneButton;
-    NSButton *_replaceButton;
-    NSButton *_previousButton;
-    NSButton *_nextButton;
-    id _flagsChangedObserver;
-    _Bool _timelineHidden;
-    CDUnknownBlockType _goToAnimationContinuer;
-    _Bool _fullTwoUpLayout;
-    NSView *_stackView;
-    NSDocumentRevisionsAuxiliaryWindow *_timelineWindow;
-    struct CGRect _baseRevisionFrame;
-    struct CGRect _originalFrame;
-    struct CGRect _focusedOriginalFrame;
-    struct CGRect _focusedRevisionFrame;
 }
 
-+ (Class);
++ (Class)@;
 - (void);
 - (void);
-- (id);
+- (id)X;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)the trie;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
+- (void)treamWrapper";
+- (void)_preventsDirectWiFiAccess;
+- (struct CGRect)_getCookiesForURL:mainDocumentURL:partition:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_getCookiesForPartition:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(id)arg1 aggregateAssetDownloadTask:(_Bool)arg2 didCompleteForMediaSelection:(_Bool)arg3;
 - (unsigned long long);
-- (void);
-- (struct CGRect);
+- (void);
+- (struct CGRect)thenticator does not have status codes, skipping callback;
+- (id)equest since userOverride is true;
+- (void);
 - (id);
+- (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)cleanAbort;
+- (void)_100ContinueTimerFired;
+- (void)_config;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ersistqueue;
+- (void)s outside of the safe area;
+- (void)_time > strftime('%s','now');
+- (void)kCFNetDiagnosticPingOptionTypeOfService;
+- (void)CFNetDiagnosticCreateWithStreams;
 - (void);
 - (double);
 - (id);
@@ -94,20 +64,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
+- (_Bool)@;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (struct CGRect);
 - (double);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -118,19 +88,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
+- (id)il;
 - (void)èÜÿ£)\ÝA;
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGRect baseRevisionFrame; // @synthesize baseRevisionFrame=_baseRevisionFrame;
 @property unsigned long long currentStackItemIndex;
-@property(readonly) struct CGRect focusedOriginalFrame; // @synthesize focusedOriginalFrame=_focusedOriginalFrame;
-@property(readonly) struct CGRect focusedRevisionFrame; // @synthesize focusedRevisionFrame=_focusedRevisionFrame;
-@property(readonly) _Bool fullTwoUpLayout; // @synthesize fullTwoUpLayout=_fullTwoUpLayout;
-@property(readonly) struct CGRect originalFrame; // @synthesize originalFrame=_originalFrame;
-@property(retain) NSView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) NSDocumentRevisionsAuxiliaryWindow *timelineWindow; // @synthesize timelineWindow=_timelineWindow;
 
 @end
 

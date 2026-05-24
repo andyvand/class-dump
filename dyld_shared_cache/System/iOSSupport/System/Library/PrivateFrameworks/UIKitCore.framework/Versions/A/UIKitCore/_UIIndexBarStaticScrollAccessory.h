@@ -6,38 +6,27 @@
 
 #import <UIKitCore/_UIStaticScrollBar.h>
 
-@class UIIndexBarAccessoryView, UIScrollView, UIView, _UIScrollPocketInteraction;
+@class UIIndexBarAccessoryView;
 
 @interface _UIIndexBarStaticScrollAccessory : _UIStaticScrollBar
 {
     UIIndexBarAccessoryView *_indexBarView;
-    UIView *_containerView;
-    _UIScrollPocketInteraction *_scrollPocketInteraction;
-    _Bool _overlay;
-    _Bool _showIndexBar;
-    long long _edge;
-    UIScrollView *_scrollView;
 }
 
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)initWithTimeIntervalSinceNow: /* Error: Ran out of types for this method. */;
+- (void)ding message to session:%@  chatGUID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id)iftAnchorPoint;
-- (void)ngDescriptorListStyle;
+- (id)liftAnchorPoint;
+- (void)FormattingDescriptorListStyle;
 - (long long)üc~ÿ;
 - (void)4Þ_;
 
 // Remaining properties
-@property(nonatomic) long long edge; // @synthesize edge=_edge;
-@property(readonly, nonatomic) UIIndexBarAccessoryView *indexBarView; // @synthesize indexBarView=_indexBarView;
-@property(readonly, nonatomic) _Bool overlay; // @synthesize overlay=_overlay;
-@property(nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(nonatomic) _Bool shouldInsetButtonsForIndex; // @dynamic shouldInsetButtonsForIndex;
 @property(nonatomic) _Bool showIndexBar; // @synthesize showIndexBar=_showIndexBar;
 
 @end

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableArray, NSMutableDictionary, NSString, SXLayoutBlueprint, SXPresentationAttributes, SXViewport;
-@protocol SXComponentHosting, SXComponentViewEngine, SXDOMObjectProviding;
+@class SXViewport;
 
 @interface SXComponentController
 {
     _Bool _isPresented;
-    _Bool _isPresenting;
-    SXLayoutBlueprint *_presentedBlueprint;
-    NSArray *_flattenedComponentViews;
-    id <SXComponentViewEngine> _componentViewEngine;
-    id <SXComponentHosting> _host;
-    SXViewport *_viewport;
-    id <SXDOMObjectProviding> _DOMObjectProvider;
-    NSHashTable *_observers;
-    NSMutableDictionary *_mappedComponentViews;
-    NSMutableArray *_sortedComponentViews;
-    NSMutableArray *_nestedComponentViews;
-    SXPresentationAttributes *_presentationAttributes;
 }
 
 - (void);
@@ -29,22 +16,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)ҩ;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
@@ -67,32 +54,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)enableSportsManagementSource;
 - (void);
 - (void);
 - (void)16;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
-@property(retain, nonatomic) id <SXComponentViewEngine> componentViewEngine; // @synthesize componentViewEngine=_componentViewEngine;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *flattenedComponentViews; // @synthesize flattenedComponentViews=_flattenedComponentViews;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <SXComponentHosting> host; // @synthesize host=_host;
-@property(readonly, nonatomic) _Bool isPresented; // @synthesize isPresented=_isPresented;
-@property(nonatomic) _Bool isPresenting; // @synthesize isPresenting=_isPresenting;
-@property(retain, nonatomic) NSMutableDictionary *mappedComponentViews; // @synthesize mappedComponentViews=_mappedComponentViews;
-@property(retain, nonatomic) NSMutableArray *nestedComponentViews; // @synthesize nestedComponentViews=_nestedComponentViews;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly, nonatomic) SXPresentationAttributes *presentationAttributes; // @synthesize presentationAttributes=_presentationAttributes;
-@property(readonly, nonatomic) SXLayoutBlueprint *presentedBlueprint; // @synthesize presentedBlueprint=_presentedBlueprint;
-@property(retain, nonatomic) NSMutableArray *sortedComponentViews; // @synthesize sortedComponentViews=_sortedComponentViews;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end

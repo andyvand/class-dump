@@ -6,23 +6,19 @@
 
 #import <PassKitCore/PKPaymentOfferWebServiceRequest.h>
 
-@class NSURL;
-
 @interface PKPaymentOfferWebServiceCatalogRequest : PKPaymentOfferWebServiceRequest
 {
     unsigned long long _updateReason;
-    NSURL *_baseURL;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
 - (void)moment. It will be available in within 24 hours.;
-- (void)ature;
-- (id)_ADDED_FACEID_UWB_PHONE_BODY;
+- (void)paymentSignature;
+- (id)EXPRESS_CAR_KEY_ADDED_FACEID_UWB_PHONE_BODY;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 @property(nonatomic) unsigned long long updateReason; // @synthesize updateReason=_updateReason;
 
 @end

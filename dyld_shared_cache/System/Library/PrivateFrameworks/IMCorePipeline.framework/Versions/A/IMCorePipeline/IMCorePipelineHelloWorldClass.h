@@ -11,9 +11,9 @@
     IMCorePipelineHelloWorldClass_Impl *_swiftImpl;
 }
 
-- (void);
+- (void)serverResponseIsComplete:requireProtectionSource: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)k;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol _UIScrollToTopView
-- (_Bool)ngViewSupport;
+- (void)requestSubscriptionTo:(struct CGPoint)arg1;
+- (_Bool)_UISearchBarCompatibilityClippingViewSupport;
 @end
 

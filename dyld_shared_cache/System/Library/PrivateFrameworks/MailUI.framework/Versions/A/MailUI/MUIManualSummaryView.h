@@ -7,31 +7,6 @@
 @interface MUIManualSummaryView
 {
     id delegate;
-    id inlineTopPadding;
-    id topPadding;
-    id leadingMargin;
-    id trailingMargin;
-    id textViewTopPadding;
-    id bottomPadding;
-    id textViewExternalSummaryBottomPadding;
-    id textViewLoadingBottomPadding;
-    id textViewLineFragmentPadding;
-    id viewModel;
-    id titleLabelTopConstraint;
-    id $__lazy_storage_$_titleLabel;
-    id buttonBaselineConstraint;
-    id buttonCenterYConstaint;
-    id buttonTrailingConstraint;
-    id $__lazy_storage_$_button;
-    id textViewShowingLoadingAnimation;
-    id textViewHeightConstraint;
-    id textViewTopConstraint;
-    id textViewBottomConstraint;
-    id $__lazy_storage_$_textView;
-    id externalIntelligenceLabelZeroHeightConstraint;
-    id externalIntelligenceLabelBottomConstraint;
-    id $__lazy_storage_$_externalIntelligenceLabel;
-    id $__lazy_storage_$_showSummaryButtonTitle;
 }
 
 - (void);
@@ -39,9 +14,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)tringFromDate:dateStyle:timeStyle: /* Error: Ran out of types for this method. */;
+- (void)EnumeratedARIAAttributeReflectionEnabled;
+- (id)HMIVideoRetimer;
+- (void)localizedStringFromDate:dateStyle:timeStyle: /* Error: Ran out of types for this method. */;
 
 @end
 

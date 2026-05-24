@@ -6,22 +6,18 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRRequestDetails, NSString;
-
 @interface MRMuteVolumeMessage : MRProtocolMessage
 {
 }
 
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool)harePlayHandoff: /* Error: Ran out of types for this method. */;
+- (id)iMessageScheduledSendScheduledFor:successful:withError: /* Error: Ran out of types for this method. */;
+- (unsigned long long)downloadExpiredDuringExport;
+- (_Bool)setSupportsSharePlayHandoff: /* Error: Ran out of types for this method. */;
 - (id)outeIDs update ignored due to snapshot %lf seconds ago;
 
 // Remaining properties
-@property(readonly, nonatomic) MRRequestDetails *details;
 @property(readonly, nonatomic, getter=isMuted) _Bool muted;
-@property(readonly, nonatomic) NSString *outputDeviceUID;
 
 @end
 

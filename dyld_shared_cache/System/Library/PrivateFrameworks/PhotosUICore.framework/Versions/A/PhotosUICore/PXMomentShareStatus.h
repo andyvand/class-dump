@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXCPLUIStatusProvider;
-@protocol PXCMMInvitation, PXDisplayAssetFetchResult, PXDisplayMomentShare;
+@class PXCPLUIStatusProvider;
+@protocol PXDisplayMomentShare;
 
 @interface PXMomentShareStatus
 {
     PXCPLUIStatusProvider *_statusProvider;
-    id <PXDisplayMomentShare> _momentShare;
-    id <PXCMMInvitation> _invitation;
-    id <PXDisplayAssetFetchResult> _copyingAssetsFetchResult;
-    id <PXDisplayAssetFetchResult> _copiedAssetsFetchResult;
-    id <PXDisplayAssetFetchResult> _allAssetsFetchResult;
 }
 
 + (id);
@@ -28,27 +23,15 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id)P;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)o;
+- (void)AspectRatio;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> allAssetsFetchResult; // @synthesize allAssetsFetchResult=_allAssetsFetchResult;
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> copiedAssetsFetchResult; // @synthesize copiedAssetsFetchResult=_copiedAssetsFetchResult;
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> copyingAssetsFetchResult; // @synthesize copyingAssetsFetchResult=_copyingAssetsFetchResult;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXCMMInvitation> invitation; // @synthesize invitation=_invitation;
 @property(readonly, nonatomic) id <PXDisplayMomentShare> momentShare; // @synthesize momentShare=_momentShare;
-@property(readonly, nonatomic) PXCPLUIStatusProvider *statusProvider;
-@property(readonly) Class superclass;
 
 @end
 

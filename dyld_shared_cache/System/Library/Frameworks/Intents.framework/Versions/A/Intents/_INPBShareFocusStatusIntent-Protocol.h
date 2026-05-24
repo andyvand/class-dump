@@ -7,12 +7,10 @@
 @class _INPBFocusStatus, _INPBIntentMetadata;
 
 @protocol _INPBShareFocusStatusIntent
+- (_INPBIntentMetadata *)T@"NSSet",C,V_pathsForVolumesWithLocalUserAccounts;
 - (_Bool)lCapability: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBFocusStatus *focusStatus;
-@property(readonly, nonatomic) _Bool hasFocusStatus;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

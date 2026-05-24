@@ -7,6 +7,7 @@
 @interface NewsKit.ArticleRecirculationConfigurationService
 {
     id appConfigurationManager;
+    id;
 }
 
 @end

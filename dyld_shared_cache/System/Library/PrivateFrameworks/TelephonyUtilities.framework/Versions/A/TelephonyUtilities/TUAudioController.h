@@ -9,12 +9,12 @@
     struct os_unfair_lock_s _modifyingStateLock;
 }
 
-- (struct os_unfair_lock_s);
+- (struct os_unfair_lock_s);
+- (void);
+- (void));
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)7;
 - (void);
 
 // Remaining properties

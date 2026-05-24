@@ -7,9 +7,6 @@
 @interface SiriOntology.Graph
 {
     id edges;
-    id nodeMap;
-    id _startNode;
-    id _vertexCounter;
 }
 
 @end

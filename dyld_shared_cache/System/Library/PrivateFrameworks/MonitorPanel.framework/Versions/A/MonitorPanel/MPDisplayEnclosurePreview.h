@@ -9,10 +9,6 @@
 @interface MPDisplayEnclosurePreview
 {
     NSImage *_image;
-    long long _size;
-    long long _orientation;
-    double _cornerRadius;
-    struct CGRect _rect;
 }
 
 + (id);
@@ -20,16 +16,12 @@
 - (void);
 - (id);
 - (long long);
-- (long long);
+- (long long)@;
 - (struct CGRect);
 - (double);
 
 // Remaining properties
-@property(readonly) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
 @property(readonly, retain) NSImage *image; // @synthesize image=_image;
-@property(readonly) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly) struct CGRect rect; // @synthesize rect=_rect;
-@property(readonly) long long size; // @synthesize size=_size;
 
 @end
 

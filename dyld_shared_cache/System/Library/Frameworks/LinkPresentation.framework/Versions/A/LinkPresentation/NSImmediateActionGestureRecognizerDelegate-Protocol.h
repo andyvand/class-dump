@@ -5,5 +5,8 @@
 //
 
 @protocol NSImmediateActionGestureRecognizerDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface EMTAlignmentResult
 {
     float _score;
-    NSArray *_hardAlignment;
-    NSArray *_softAlignment;
 }
 
 - (id);
@@ -21,9 +17,7 @@
 - (void)4I;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *hardAlignment; // @synthesize hardAlignment=_hardAlignment;
 @property(readonly, nonatomic) float score; // @synthesize score=_score;
-@property(readonly, nonatomic) NSArray *softAlignment; // @synthesize softAlignment=_softAlignment;
 
 @end
 

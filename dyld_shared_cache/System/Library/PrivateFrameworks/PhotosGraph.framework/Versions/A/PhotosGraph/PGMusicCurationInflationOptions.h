@@ -7,18 +7,16 @@
 @interface PGMusicCurationInflationOptions
 {
     _Bool _shouldForceMetadataRefetch;
-    long long _inflationActionSource;
 }
 
-+ (id);
++ (id)applicationControllerWindowDidMiniaturize:(long long)arg1 windowElement: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (long long);
+- (long long)_inlineSessionStarted: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long inflationActionSource; // @synthesize inflationActionSource=_inflationActionSource;
 @property(readonly, nonatomic) _Bool shouldForceMetadataRefetch; // @synthesize shouldForceMetadataRefetch=_shouldForceMetadataRefetch;
 
 @end

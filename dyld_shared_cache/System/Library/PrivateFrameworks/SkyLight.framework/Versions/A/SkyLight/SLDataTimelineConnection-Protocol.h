@@ -10,7 +10,6 @@
 - (_Bool)@v;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool connected;
 @property(readonly, nonatomic) NSString *name;
 @end
 

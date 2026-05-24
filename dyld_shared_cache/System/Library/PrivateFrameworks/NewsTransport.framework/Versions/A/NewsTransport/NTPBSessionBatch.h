@@ -4,43 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NTPBSession;
+@class NSMutableArray;
 
 @interface NTPBSessionBatch
 {
     NSMutableArray *_events;
-    NSData *_identifier;
-    NTPBSession *_session;
 }
 
 - (_Bool);
 - (unsigned long long);
+- (id)ka;
+- (void);
+- (void)};
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)_invalidateScale;
+- (_Bool)pySessionBegin(). Disabling further Spotlight operations;
+- (void)R,N,V_accessQueue;
+- (void)e>",R,N;
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)rWithThreeAutofavorited: /* Error: Ran out of types for this method. */;
+- (void)setTopicFeedCtrWithThreeAutofavorited: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;
-@property(readonly, nonatomic) _Bool hasIdentifier;
 @property(readonly, nonatomic) _Bool hasSession;
-@property(retain, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NTPBSession *session; // @synthesize session=_session;
 
 @end
 

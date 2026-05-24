@@ -14,7 +14,7 @@
 
 - (_Bool);
 - (int);
-- (void);
+- (void)lowercase tokenRange is loc %d, len %d but original range is loc %d, len %d;
 
 // Remaining properties
 @property(retain, nonatomic) SFLocalImage *sfImage; // @dynamic sfImage;

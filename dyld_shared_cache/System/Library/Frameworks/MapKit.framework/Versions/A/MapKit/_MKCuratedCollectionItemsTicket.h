@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapServiceTraits, NSString;
+@class GEOMapServiceTraits;
 @protocol GEOMapServiceCuratedCollectionItemsTicket;
 
 __attribute__((visibility("hidden")))
@@ -13,21 +13,14 @@ __attribute__((visibility("hidden")))
     id <GEOMapServiceCuratedCollectionItemsTicket> _ticket;
 }
 
-- (void);
+- (void)permissionForClientID:(id)arg1 withKey:(CDUnknownBlockType)arg2 withType:(CDUnknownBlockType)arg3 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (void)h;
 - (void);
-- (void);
-- (void)onName: /* Error: Ran out of types for this method. */;
+- (void)setDestinationName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end

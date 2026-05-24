@@ -6,39 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class FLOWLINKSchemaFLOWLINKActionConfirmationContext, FLOWLINKSchemaFLOWLINKActionContext, FLOWLINKSchemaFLOWLINKActionConversionContext, FLOWLINKSchemaFLOWLINKActionExecutionContext, FLOWLINKSchemaFLOWLINKActionParameterConfirmationContext, FLOWLINKSchemaFLOWLINKActionParameterDisambiguationContext, FLOWLINKSchemaFLOWLINKActionParametersUpdated, FLOWLINKSchemaFLOWLINKActionPromptForValueContext, FLOWLINKSchemaFLOWLINKActionTier1, FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationContext, FLOWLINKSchemaFLOWLINKAppShortcutGeneralizedExecutionUsed, FLOWLINKSchemaFLOWLINKAutoShortcutTemplateUsed, FLOWLINKSchemaFLOWLINKEntityDisambiguationContext, FLOWSchemaFLOWEventMetadata, NSData, SISchemaInstrumentationMessage;
+@class FLOWSchemaFLOWEventMetadata, SISchemaInstrumentationMessage;
 
 @interface FLOWLINKSchemaFLOWLINKClientEvent : SISchemaTopLevelUnionType
 {
     FLOWSchemaFLOWEventMetadata *_eventMetadata;
-    FLOWLINKSchemaFLOWLINKActionContext *_linkActionContext;
-    FLOWLINKSchemaFLOWLINKEntityDisambiguationContext *_entityDisambiguationContext;
-    FLOWLINKSchemaFLOWLINKActionConversionContext *_actionConversionContext;
-    FLOWLINKSchemaFLOWLINKActionExecutionContext *_actionExecutionContext;
-    FLOWLINKSchemaFLOWLINKActionPromptForValueContext *_actionPromptForValueContext;
-    FLOWLINKSchemaFLOWLINKActionParameterDisambiguationContext *_actionParameterDisambiguationContext;
-    FLOWLINKSchemaFLOWLINKActionParameterConfirmationContext *_actionParameterConfirmationContext;
-    FLOWLINKSchemaFLOWLINKActionConfirmationContext *_actionConfirmationContext;
-    FLOWLINKSchemaFLOWLINKAutoShortcutTemplateUsed *_autoShortcutTemplateUsed;
-    FLOWLINKSchemaFLOWLINKActionTier1 *_linkActionTier1;
-    FLOWLINKSchemaFLOWLINKActionParametersUpdated *_actionParameterUpdated;
-    FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationContext *_appShortcutFirstRunConfirmationContext;
-    FLOWLINKSchemaFLOWLINKAppShortcutGeneralizedExecutionUsed *_appShortcutGeneralizedExecutionUsed;
-    _Bool _hasEventMetadata;
-    _Bool _hasLinkActionContext;
-    _Bool _hasEntityDisambiguationContext;
-    _Bool _hasActionConversionContext;
-    _Bool _hasActionExecutionContext;
-    _Bool _hasActionPromptForValueContext;
-    _Bool _hasActionParameterDisambiguationContext;
-    _Bool _hasActionParameterConfirmationContext;
-    _Bool _hasActionConfirmationContext;
-    _Bool _hasAutoShortcutTemplateUsed;
-    _Bool _hasLinkActionTier1;
-    _Bool _hasActionParameterUpdated;
-    _Bool _hasAppShortcutFirstRunConfirmationContext;
-    _Bool _hasAppShortcutGeneralizedExecutionUsed;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -62,9 +34,9 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -84,7 +56,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -101,69 +73,39 @@
 - (id);
 - (id);
 - (id);
+- (id)*;
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ʼU/;
 - (void);
 - (id);
 - (id);
-- (int);
-- (id);
+- (int)F;
+- (id)postAnalyticsLPCDStatistic:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)eSoftwareUpdate"b1"uafAssetSource"b1"countOfAssetsInAssetSet"b1"totalSizeOfAssetsInAssetSet"b1};
-- (id)sSameMediaItem;
+- (id)hasIsSameMediaItem;
 - (unsigned long long)renceGenerated;
 - (id)ntext;
 - (id)ÀDà;
-- (int)nExecutionContext;
+- (int)flowDomainExecutionContext;
 - (void)ºK­N%;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionConfirmationContext *actionConfirmationContext; // @synthesize actionConfirmationContext=_actionConfirmationContext;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionConversionContext *actionConversionContext; // @synthesize actionConversionContext=_actionConversionContext;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionExecutionContext *actionExecutionContext; // @synthesize actionExecutionContext=_actionExecutionContext;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionParameterConfirmationContext *actionParameterConfirmationContext; // @synthesize actionParameterConfirmationContext=_actionParameterConfirmationContext;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionParameterDisambiguationContext *actionParameterDisambiguationContext; // @synthesize actionParameterDisambiguationContext=_actionParameterDisambiguationContext;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionParametersUpdated *actionParameterUpdated; // @synthesize actionParameterUpdated=_actionParameterUpdated;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionPromptForValueContext *actionPromptForValueContext; // @synthesize actionPromptForValueContext=_actionPromptForValueContext;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationContext *appShortcutFirstRunConfirmationContext; // @synthesize appShortcutFirstRunConfirmationContext=_appShortcutFirstRunConfirmationContext;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKAppShortcutGeneralizedExecutionUsed *appShortcutGeneralizedExecutionUsed; // @synthesize appShortcutGeneralizedExecutionUsed=_appShortcutGeneralizedExecutionUsed;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKAutoShortcutTemplateUsed *autoShortcutTemplateUsed; // @synthesize autoShortcutTemplateUsed=_autoShortcutTemplateUsed;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKEntityDisambiguationContext *entityDisambiguationContext; // @synthesize entityDisambiguationContext=_entityDisambiguationContext;
-@property(retain, nonatomic) FLOWSchemaFLOWEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasActionConfirmationContext; // @synthesize hasActionConfirmationContext=_hasActionConfirmationContext;
-@property(nonatomic) _Bool hasActionConversionContext; // @synthesize hasActionConversionContext=_hasActionConversionContext;
-@property(nonatomic) _Bool hasActionExecutionContext; // @synthesize hasActionExecutionContext=_hasActionExecutionContext;
-@property(nonatomic) _Bool hasActionParameterConfirmationContext; // @synthesize hasActionParameterConfirmationContext=_hasActionParameterConfirmationContext;
-@property(nonatomic) _Bool hasActionParameterDisambiguationContext; // @synthesize hasActionParameterDisambiguationContext=_hasActionParameterDisambiguationContext;
-@property(nonatomic) _Bool hasActionParameterUpdated; // @synthesize hasActionParameterUpdated=_hasActionParameterUpdated;
-@property(nonatomic) _Bool hasActionPromptForValueContext; // @synthesize hasActionPromptForValueContext=_hasActionPromptForValueContext;
-@property(nonatomic) _Bool hasAppShortcutFirstRunConfirmationContext; // @synthesize hasAppShortcutFirstRunConfirmationContext=_hasAppShortcutFirstRunConfirmationContext;
-@property(nonatomic) _Bool hasAppShortcutGeneralizedExecutionUsed; // @synthesize hasAppShortcutGeneralizedExecutionUsed=_hasAppShortcutGeneralizedExecutionUsed;
-@property(nonatomic) _Bool hasAutoShortcutTemplateUsed; // @synthesize hasAutoShortcutTemplateUsed=_hasAutoShortcutTemplateUsed;
-@property(nonatomic) _Bool hasEntityDisambiguationContext; // @synthesize hasEntityDisambiguationContext=_hasEntityDisambiguationContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasLinkActionContext; // @synthesize hasLinkActionContext=_hasLinkActionContext;
-@property(nonatomic) _Bool hasLinkActionTier1; // @synthesize hasLinkActionTier1=_hasLinkActionTier1;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionContext *linkActionContext; // @synthesize linkActionContext=_linkActionContext;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionTier1 *linkActionTier1; // @synthesize linkActionTier1=_linkActionTier1;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

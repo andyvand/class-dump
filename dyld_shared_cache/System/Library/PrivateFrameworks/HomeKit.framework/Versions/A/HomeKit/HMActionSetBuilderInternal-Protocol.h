@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMActionSet;
+
 @protocol HMActionSetBuilderInternal
+- (id):(HMActionSet *)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;

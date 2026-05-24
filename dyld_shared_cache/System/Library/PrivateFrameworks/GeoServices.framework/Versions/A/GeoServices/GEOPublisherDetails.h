@@ -9,48 +9,39 @@
 @interface GEOPublisherDetails
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _publisherIds;
-    _Bool _currentlyFollowing;
-    struct {
-        unsigned int has_currentlyFollowing:1;
-    } _flags;
 }
 
-+ (_Bool)terest:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long *);
-- (unsigned long long);
++ (_Bool)setIsLocationOfInterest:(id)arg1;
+- (void)valRequest";
+- (void)y",R,V_endpoints;
+- (void);
+- (unsigned long long)tyDescription"8;
+- (unsigned long long *)ary"16@?0@"ABCustomPropertyDescription"8;
+- (unsigned long long)multivalue);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)l;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)s Failed to create remote voice profile;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`;
 - (id)@"GEOPDLocalizedNames";
-- (id)ointInfo;
+- (id)_waypointInfo;
 - (id)LV;
 - (id)rom can only be called once per object;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool currentlyFollowing;
-@property(nonatomic) _Bool hasCurrentlyFollowing;
-@property(readonly, nonatomic) unsigned long long *publisherIds;
 @property(readonly, nonatomic) unsigned long long publisherIdsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

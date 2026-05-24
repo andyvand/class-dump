@@ -7,9 +7,11 @@
 @class ECMessageFlagChange, NSString;
 
 @protocol ECFlagChangeUndownloadedMessageActionBuilder
+- (void);
+- (NSString *);
+- (ECMessageFlagChange *)ith transitioning state:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) ECMessageFlagChange *flagChange;
 @property(copy, nonatomic) NSString *oldestPersistedRemoteID;
 @end
 

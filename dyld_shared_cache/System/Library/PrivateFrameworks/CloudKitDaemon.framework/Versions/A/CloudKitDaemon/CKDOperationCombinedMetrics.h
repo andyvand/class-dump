@@ -9,22 +9,20 @@
 @interface CKDOperationCombinedMetrics
 {
     CKDOperationMetrics *_cloudKitMetrics;
-    CKDOperationMetrics *_MMCSMetrics;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)AppletConfigurationData;
+- (id)_faultEventSoftError;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)queryRetrieveResponse;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CKDOperationMetrics *MMCSMetrics; // @synthesize MMCSMetrics=_MMCSMetrics;
 @property(readonly, copy, nonatomic) CKDOperationMetrics *cloudKitMetrics; // @synthesize cloudKitMetrics=_cloudKitMetrics;
 
 @end

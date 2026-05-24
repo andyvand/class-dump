@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, PAOpenGLDevice;
+@class NSObject, PAOpenGLDevice;
 @protocol OS_dispatch_queue;
 
 @interface PAOpenGLContextPool
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_unusedContexts;
-    long long _maximumContextsCreated;
-    PAOpenGLDevice *_device;
 }
 
 + (id);

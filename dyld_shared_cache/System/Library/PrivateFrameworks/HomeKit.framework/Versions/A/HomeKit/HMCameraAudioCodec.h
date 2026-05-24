@@ -10,12 +10,12 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)Activate Siri.;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)interplanetary;
 - (void);
 
 // Remaining properties

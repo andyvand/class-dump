@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)d the inURL and mainDocumentURL are in different domains;
+- (id)D;
 - (id);
-- (id);
-- (id)WindowResize:(struct CGRect)arg1;
-- (id)bleIntrinsicContentSizeCache;
+- (id)_shouldUseConstraintAnimationToCollapseItem:(struct CGRect)arg1 withWindowResize: /* Error: Ran out of types for this method. */;
+- (id)disableIntrinsicContentSizeCache;
 - (id)èG;
 
 @end

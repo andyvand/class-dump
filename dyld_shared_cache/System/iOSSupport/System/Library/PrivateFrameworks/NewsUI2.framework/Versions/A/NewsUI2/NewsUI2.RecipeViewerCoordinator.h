@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeViewerCoordinator
 {
     id delegate;
-    id observer;
 }
 
 @end

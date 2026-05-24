@@ -9,7 +9,6 @@
 @interface CHLatexParser
 {
     _Bool _parseNormalizedLatex;
-    CHGrammar *_grammar;
 }
 
 - (_Bool);
@@ -18,13 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Jq;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CHGrammar *grammar; // @synthesize grammar=_grammar;
-@property(readonly, nonatomic) _Bool parseNormalizedLatex; // @synthesize parseNormalizedLatex=_parseNormalizedLatex;
 
 @end
 

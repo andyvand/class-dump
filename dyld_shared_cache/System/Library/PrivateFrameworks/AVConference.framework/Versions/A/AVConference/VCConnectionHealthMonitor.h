@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, VCConnectionHealthMonitorDelegate;
+@protocol VCConnectionHealthMonitorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCConnectionHealthMonitor
 {
     unsigned char _lastReportedIndex;
-    struct ConnectionStatsHistory _statsHistory;
-    struct _opaque_pthread_rwlock_t _peerStateRWLock;
-    struct ConnectionStatsHistory _peerStatsHistory;
-    id _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    _Bool _reportedSymptomOnRecoveryAfterLongMediaStall;
-    double _firstTimeRecordedLongMediaStall;
-    struct _opaque_pthread_rwlock_t _stateRWLock;
-    struct ConnectionStats _currentReceivingStats;
-    struct ConnectionStats _tempReceivingStats;
-    _Bool _firstPacketReceived;
-    double _primaryConnHealthAllowedDelay;
-    _Bool _usingServerBasedLinks;
-    struct ConnectionStatsSequenceNumberData _secondaryConnReceivedSequenceNumberStats[1024];
 }
 
 - (_Bool);
@@ -42,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property id <VCConnectionHealthMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property double primaryConnHealthAllowedDelay; // @synthesize primaryConnHealthAllowedDelay=_primaryConnHealthAllowedDelay;
-@property _Bool usingServerBasedLinks; // @synthesize usingServerBasedLinks=_usingServerBasedLinks;
 
 @end
 

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol GEORequestCounterTicket
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appId;

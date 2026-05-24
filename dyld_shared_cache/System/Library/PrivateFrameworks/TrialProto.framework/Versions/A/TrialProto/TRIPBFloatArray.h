@@ -9,25 +9,22 @@
 @interface TRIPBFloatArray
 {
     TRIPBMessage *_autocreator;
-    float *_values;
-    unsigned long long _count;
-    unsigned long long _capacity;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)ing",C,N,V_developerName;
+- (id)`;
 - (id);
-- (id);
 - (void);
-- (id);
+- (id)a;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)iDatabaseForUnitTests;
 - (void);
 - (void);
 - (void);
@@ -36,9 +33,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)TRINamespaceOptionalParams;
 - (void)v32@0:(float)arg1 8Q16@24;
-- (float)_;
+- (float)oneofs_;
 - (void)CoreosBrightnessAutoBrightness;
 
 // Remaining properties

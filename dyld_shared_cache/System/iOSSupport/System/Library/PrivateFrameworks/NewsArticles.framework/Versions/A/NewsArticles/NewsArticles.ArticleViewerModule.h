@@ -7,9 +7,6 @@
 @interface NewsArticles.ArticleViewerModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
-    id pageKind;
 }
 
 - (id);

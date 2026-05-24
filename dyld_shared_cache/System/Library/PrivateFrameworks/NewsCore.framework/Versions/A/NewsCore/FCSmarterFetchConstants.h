@@ -8,9 +8,9 @@
 {
 }
 
-+ (id);
++ (id)=;
 - (id);
-- (void)Url;
+- (void)appHeartbeatEventsEndpointUrl;
 
 @end
 

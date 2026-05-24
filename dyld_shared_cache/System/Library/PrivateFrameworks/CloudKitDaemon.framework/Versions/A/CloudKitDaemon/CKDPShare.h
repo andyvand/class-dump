@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPCryptoRequirementsSigningKey, CKDPInheritedSharesInfo, CKDPProtectionInfo, CKDPProtectionInfoKeysToRemove, CKDPShareAccessBlockedRequesters, CKDPShareAccessRequesters, CKDPShareIdentifier, NSData, NSMutableArray, NSString;
+@class CKDPShareAccessBlockedRequesters;
 
 @interface CKDPShare
 {
     CKDPShareAccessBlockedRequesters *_blockedAccess;
-    CKDPCryptoRequirementsSigningKey *_cryptoRequirementsSigningKey;
-    NSString *_displayedHostname;
-    NSString *_etag;
-    CKDPInheritedSharesInfo *_inheritedSharesInfo;
-    NSMutableArray *_invitedKeyToRemoves;
-    CKDPProtectionInfo *_invitedPcs;
-    CKDPProtectionInfoKeysToRemove *_invitedPcsKeysToRemove;
-    NSString *_origin;
-    int _participantSelfRemovalBehavior;
-    NSMutableArray *_participants;
-    NSMutableArray *_potentialMatchs;
-    int _publicAccess;
-    int _publisherModelType;
-    CKDPShareAccessRequesters *_requestingAccess;
-    CKDPProtectionInfo *_selfAddedPcs;
-    CKDPProtectionInfoKeysToRemove *_selfAddedPcsKeysToRemove;
-    CKDPShareIdentifier *_shareId;
-    NSData *_shortTokenHash;
-    NSString *_shortTokenRoutingKey;
-    _Bool _allowAnyoneToResolveShare;
-    _Bool _anonymousPublicAccess;
-    _Bool _denyAccessRequests;
-    _Bool _publisherModel;
-    struct {
-        unsigned int participantSelfRemovalBehavior:1;
-        unsigned int publicAccess:1;
-        unsigned int publisherModelType:1;
-        unsigned int allowAnyoneToResolveShare:1;
-        unsigned int anonymousPublicAccess:1;
-        unsigned int denyAccessRequests:1;
-        unsigned int publisherModel:1;
-    } _has;
 }
 
 + (Class);
@@ -53,6 +21,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -62,12 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)'D�;
 - (void);
 - (void);
 - (void);
@@ -77,17 +45,18 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id);
 - (int);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)[
+�a;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -104,14 +73,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)!;
 - (id);
 - (_Bool);
 - (int);
@@ -121,28 +90,29 @@
 - (int);
 - (void);
 - (int);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (id)UsoTask_update_common_NotebookItem;
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (id);
 - (void);
 - (_Bool);
+- (void)__swift5_proto;
+- (id);
 - (_Bool);
+- (void);
+- (void);
+- (unsigned long long)plete:Prepared:%u nextRemoteMediaTimestamp %1.3f (sample time %1.3f)
+ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool)RemainingUIDs:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -153,51 +123,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowAnyoneToResolveShare; // @synthesize allowAnyoneToResolveShare=_allowAnyoneToResolveShare;
-@property(nonatomic) _Bool anonymousPublicAccess; // @synthesize anonymousPublicAccess=_anonymousPublicAccess;
-@property(retain, nonatomic) CKDPShareAccessBlockedRequesters *blockedAccess; // @synthesize blockedAccess=_blockedAccess;
-@property(retain, nonatomic) CKDPCryptoRequirementsSigningKey *cryptoRequirementsSigningKey; // @synthesize cryptoRequirementsSigningKey=_cryptoRequirementsSigningKey;
-@property(nonatomic) _Bool denyAccessRequests; // @synthesize denyAccessRequests=_denyAccessRequests;
-@property(retain, nonatomic) NSString *displayedHostname; // @synthesize displayedHostname=_displayedHostname;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(nonatomic) _Bool hasAllowAnyoneToResolveShare;
-@property(nonatomic) _Bool hasAnonymousPublicAccess;
-@property(readonly, nonatomic) _Bool hasBlockedAccess;
-@property(readonly, nonatomic) _Bool hasCryptoRequirementsSigningKey;
-@property(nonatomic) _Bool hasDenyAccessRequests;
-@property(readonly, nonatomic) _Bool hasDisplayedHostname;
-@property(readonly, nonatomic) _Bool hasEtag;
-@property(readonly, nonatomic) _Bool hasInheritedSharesInfo;
-@property(readonly, nonatomic) _Bool hasInvitedPcs;
-@property(readonly, nonatomic) _Bool hasInvitedPcsKeysToRemove;
-@property(readonly, nonatomic) _Bool hasOrigin;
-@property(nonatomic) _Bool hasParticipantSelfRemovalBehavior;
-@property(nonatomic) _Bool hasPublicAccess;
-@property(nonatomic) _Bool hasPublisherModel;
-@property(nonatomic) _Bool hasPublisherModelType;
-@property(readonly, nonatomic) _Bool hasRequestingAccess;
-@property(readonly, nonatomic) _Bool hasSelfAddedPcs;
-@property(readonly, nonatomic) _Bool hasSelfAddedPcsKeysToRemove;
 @property(readonly, nonatomic) _Bool hasShareId;
-@property(readonly, nonatomic) _Bool hasShortTokenHash;
-@property(readonly, nonatomic) _Bool hasShortTokenRoutingKey;
-@property(retain, nonatomic) CKDPInheritedSharesInfo *inheritedSharesInfo; // @synthesize inheritedSharesInfo=_inheritedSharesInfo;
-@property(retain, nonatomic) NSMutableArray *invitedKeyToRemoves; // @synthesize invitedKeyToRemoves=_invitedKeyToRemoves;
-@property(retain, nonatomic) CKDPProtectionInfo *invitedPcs; // @synthesize invitedPcs=_invitedPcs;
-@property(retain, nonatomic) CKDPProtectionInfoKeysToRemove *invitedPcsKeysToRemove; // @synthesize invitedPcsKeysToRemove=_invitedPcsKeysToRemove;
-@property(retain, nonatomic) NSString *origin; // @synthesize origin=_origin;
-@property(nonatomic) int participantSelfRemovalBehavior; // @synthesize participantSelfRemovalBehavior=_participantSelfRemovalBehavior;
-@property(retain, nonatomic) NSMutableArray *participants; // @synthesize participants=_participants;
-@property(retain, nonatomic) NSMutableArray *potentialMatchs; // @synthesize potentialMatchs=_potentialMatchs;
-@property(nonatomic) int publicAccess; // @synthesize publicAccess=_publicAccess;
-@property(nonatomic) _Bool publisherModel; // @synthesize publisherModel=_publisherModel;
-@property(nonatomic) int publisherModelType; // @synthesize publisherModelType=_publisherModelType;
-@property(retain, nonatomic) CKDPShareAccessRequesters *requestingAccess; // @synthesize requestingAccess=_requestingAccess;
-@property(retain, nonatomic) CKDPProtectionInfo *selfAddedPcs; // @synthesize selfAddedPcs=_selfAddedPcs;
-@property(retain, nonatomic) CKDPProtectionInfoKeysToRemove *selfAddedPcsKeysToRemove; // @synthesize selfAddedPcsKeysToRemove=_selfAddedPcsKeysToRemove;
-@property(retain, nonatomic) CKDPShareIdentifier *shareId; // @synthesize shareId=_shareId;
-@property(retain, nonatomic) NSData *shortTokenHash; // @synthesize shortTokenHash=_shortTokenHash;
-@property(retain, nonatomic) NSString *shortTokenRoutingKey; // @synthesize shortTokenRoutingKey=_shortTokenRoutingKey;
 
 @end
 

@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSObject, NSString, VCAudioRelay, VCAudioRelayIOControllerSettings;
-@protocol OS_dispatch_queue;
+@class VCAudioRelay;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioRelayIOController
 {
     unsigned int _relayType;
-    unsigned int _relayIOType;
-    unsigned int _state;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableArray *_allClients;
-    NSMutableArray *_startingIOClients;
-    VCAudioRelay *_relay;
-    struct _VCAudioIOControllerIOState _sinkData;
-    struct _VCAudioIOControllerIOState _sourceData;
-    VCAudioRelayIOControllerSettings *_currentSettings;
 }
 
-+ (id);
-+ (id);
++ (id)T	;
++ (id);
 + (id);
 + (void);
 + (void);
@@ -32,15 +22,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool)4@;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (struct _VCAudioIOControllerIOState *);
+- (struct _VCAudioIOControllerIOState *)_;
 - (struct _VCAudioIOControllerIOState *);
 - (void);
 - (void);
@@ -56,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)8k";
 - (unsigned long long);
 - (void);
 - (oneway void);
@@ -65,23 +55,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)r;
-- (_Bool)eStream;
+- (_Bool)_VCAudioReceiver_SetActiveStream;
 - (_Bool)ÞÁéf"';
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) VCAudioRelay *relay; // @synthesize relay=_relay;
-@property(readonly, nonatomic) NSDictionary *reportingStats;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsVoiceActivityDetection;
 
 @end
 

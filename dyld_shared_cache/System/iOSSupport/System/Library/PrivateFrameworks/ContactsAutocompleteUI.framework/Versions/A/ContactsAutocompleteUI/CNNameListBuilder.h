@@ -9,7 +9,6 @@
 @interface CNNameListBuilder
 {
     id <CNNameListBuilderDelegate> _delegate;
-    _Bool _shouldStripEllipses;
 }
 
 - (_Bool);

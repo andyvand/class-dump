@@ -7,26 +7,20 @@
 @interface NSTouchBarItemAttributes
 {
     struct CGRect _frame;
-    double _reservedWidth;
-    double _alphaValue;
-    double _zPosition;
 }
 
 - (double);
-- (void);
-- (void);
+- (void)unknown screen param %d;
+- (void)_ֻ;
 - (double);
-- (id);
+- (id)!;
 - (struct CGRect);
-- (double)ns: /* Error: Ran out of types for this method. */;
-- (void)ousStorage;
+- (double)inputSystemService:prepareForInputSession:options: /* Error: Ran out of types for this method. */;
+- (void)_anyDocumentClassUsesUbiquitousStorage;
 - (void)bytes;
 
 // Remaining properties
-@property double alphaValue; // @synthesize alphaValue=_alphaValue;
-@property struct CGRect frame; // @synthesize frame=_frame;
 @property double reservedWidth; // @synthesize reservedWidth=_reservedWidth;
-@property double zPosition; // @synthesize zPosition=_zPosition;
 
 @end
 

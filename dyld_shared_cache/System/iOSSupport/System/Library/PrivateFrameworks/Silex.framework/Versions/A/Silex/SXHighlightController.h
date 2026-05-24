@@ -9,7 +9,6 @@
 @interface SXHighlightController
 {
     NSMutableArray *_activeLayers;
-    NSMutableArray *_highlightLayers;
 }
 
 - (void);
@@ -18,13 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)SXTransitionDataSourceNode";
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *activeLayers; // @synthesize activeLayers=_activeLayers;
-@property(retain, nonatomic) NSMutableArray *highlightLayers; // @synthesize highlightLayers=_highlightLayers;
 
 @end
 

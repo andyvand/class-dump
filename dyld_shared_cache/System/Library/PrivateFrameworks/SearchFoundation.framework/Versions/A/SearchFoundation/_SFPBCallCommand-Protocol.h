@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBCallCommand
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *phoneNumber;
 @end
 

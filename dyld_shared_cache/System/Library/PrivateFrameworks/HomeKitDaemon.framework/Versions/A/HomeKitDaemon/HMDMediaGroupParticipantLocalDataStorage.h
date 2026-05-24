@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaGroupsAggregatorBackupReceiver, HMMediaDestination, HMMediaDestinationControllerData, NSObject, NSString, NSUUID, NSUserDefaults;
-@protocol HMDFeaturesDataSource, HMDMediaGroupParticipantLocalDataStorageDataSource, HMDMediaGroupParticipantLocalDataStorageDelegate, HMEEventForwarder, HMELastEventStoreReadHandle, OS_os_log;
+@class NSObject, NSUUID;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupParticipantLocalDataStorage
 {
     NSObject<OS_os_log> *_logger;
-    id <HMDMediaGroupParticipantLocalDataStorageDataSource> _dataSource;
-    id <HMDMediaGroupParticipantLocalDataStorageDelegate> _delegate;
-    HMDMediaGroupsAggregatorBackupReceiver *_groupsBackupReceiver;
-    NSUUID *_identifier;
-    NSUserDefaults *_userDefaults;
-    id <HMEEventForwarder> _eventForwarder;
-    id <HMELastEventStoreReadHandle> _eventStoreReadHandle;
-    id <HMDFeaturesDataSource> _featuresDataSource;
 }
 
 + (id)g;;
@@ -27,28 +19,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)preserveSourceColorSpace;
+- (id)passesConfidenceCheck;
+- (id)Vj;
 - (id);
 - (void);
 - (void);
-- (void);
+- (id)?;
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void)r:(id)arg1 message:waitPeriod:streamingTierType:cameraLocallyReachable:isRelayed:snapshotForNotification: /* Error: Ran out of types for this method. */;
-- (void)omeAccessCodeWithDatabaseID:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)vertisedDuration;
+- (void);
+- (void);
 - (id);
+- (void)initWithSessionInfo:(id)arg1 accessory:snapshotGetter:message:waitPeriod:streamingTierType:cameraLocallyReachable:isRelayed:snapshotForNotification: /* Error: Ran out of types for this method. */;
+- (void)findHomeAccessCodeWithDatabaseID:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)advertisedDuration;
+- (id)_stagedValue;
 - (void)ockRow:(id)arg1 error:(id)arg2;
 - (id)HMDHomeNaturalLightingCurveWriter;
 - (void)ä;
@@ -61,27 +53,11 @@ __attribute__((visibility("hidden")))
 - (void)ccessory.manager;
 - (void)anager"32@?0@"NSObject<OS_dispatch_queue>"8@"HMBCloudZone"16@"HMDHome"24;
 - (id)ifications-%@.plist;
-- (id)ion;
+- (id)HMDAccessoryFirmwareUpdateApplyNotReadyReasonsChangedNotification;
 - (id)ì¢>;
 
 // Remaining properties
-@property __weak id <HMDMediaGroupParticipantLocalDataStorageDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaGroupParticipantLocalDataStorageDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) HMMediaDestination *destination;
-@property(readonly, copy) HMMediaDestinationControllerData *destinationControllerData;
-@property(readonly) id <HMEEventForwarder> eventForwarder; // @synthesize eventForwarder=_eventForwarder;
-@property(readonly) id <HMELastEventStoreReadHandle> eventStoreReadHandle; // @synthesize eventStoreReadHandle=_eventStoreReadHandle;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) HMDMediaGroupsAggregatorBackupReceiver *groupsBackupReceiver; // @synthesize groupsBackupReceiver=_groupsBackupReceiver;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
-@property(readonly) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

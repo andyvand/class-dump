@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol MKFYearDayScheduleRulePrivateExtensions
-- (NSDictionary *)uest: /* Error: Ran out of types for this method. */;
+- (_Bool)unt.6h;
+- (NSDictionary *)_handleAccessAllowedWhenLockedRequest: /* Error: Ran out of types for this method. */;
 @end
 

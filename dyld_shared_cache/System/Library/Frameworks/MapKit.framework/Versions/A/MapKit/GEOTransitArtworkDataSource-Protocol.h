@@ -5,18 +5,18 @@
 //
 
 @class NSString;
-@protocol GEOTransitIconDataSource, GEOTransitShieldDataSource, GEOTransitTextDataSource;
+@protocol GEOTransitIconDataSource, GEOTransitShieldDataSource;
 
 @protocol GEOTransitArtworkDataSource
+- (id <GEOTransitShieldDataSource>);
+- (id <GEOTransitShieldDataSource>)_parseMicrosoftManufacturerPtr:end: /* Error: Ran out of types for this method. */;
+- (id <GEOTransitIconDataSource>)_parseManufacturerPtr:end: /* Error: Ran out of types for this method. */;
+- (_Bool)dvInterval;
+- (int)bt_type_generic_peripheral;
+- (int)bt_type_generic_computer;
+- (NSString *)SharingVisionProStateChange;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityText;
 @property(readonly, nonatomic) int artworkSourceType;
-@property(readonly, nonatomic) int artworkUseType;
-@property(readonly, nonatomic) _Bool hasRoutingIncidentBadge;
-@property(readonly, nonatomic) id <GEOTransitIconDataSource> iconDataSource;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> iconFallbackShieldDataSource;
-@property(readonly, nonatomic) id <GEOTransitShieldDataSource> shieldDataSource;
-@property(readonly, nonatomic) id <GEOTransitTextDataSource> textDataSource;
 @end
 

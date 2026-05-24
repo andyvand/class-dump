@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, _WKFrameHandle;
-
 @interface MMWebProcessPlugInResourceLoadInfo
 {
     unsigned long long _resourceLoadID;
-    _WKFrameHandle *_frame;
-    NSURL *_originalURL;
-    NSString *_originalHTTPMethod;
 }
 
 + (_Bool);
@@ -22,15 +17,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _WKFrameHandle *frame; // @synthesize frame=_frame;
-@property(retain, nonatomic) NSString *originalHTTPMethod; // @synthesize originalHTTPMethod=_originalHTTPMethod;
-@property(retain, nonatomic) NSURL *originalURL; // @synthesize originalURL=_originalURL;
 @property(nonatomic) unsigned long long resourceLoadID; // @synthesize resourceLoadID=_resourceLoadID;
 
 @end

@@ -6,14 +6,11 @@
 
 #import <CoreSuggestionsInternals/SGExtractionDocument.h>
 
-@class NSArray, SGDuplicateKey, SGMessage, SGPipelineEntity;
+@class SGMessage;
 
 @interface SGReminderMessage : SGExtractionDocument
 {
     SGMessage *_message;
-    SGPipelineEntity *_entity;
-    NSArray *_plainTextDetectedData;
-    SGDuplicateKey *_extractedReminderDuplicateKey;
 }
 
 + (_Bool);
@@ -22,30 +19,30 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)0@0:(id)arg1 8@"NSTableView"16q24q32;
++ (id)iew"16q24q32;
++ (_Bool)ng"32@"WKFrameInfo"40@?<v@?@"NSString">48;
++ (id)Range=QQ}40^q56;
++ (id)tableView:shouldTrackCell:forTableColumn:row: /* Error: Ran out of types for this method. */;
++ (_Bool)_displayAuthPromptInWindow:(id)arg1 completion:(id)arg2;
++ (_Bool)selectedAccount;
 - (void);
 - (void);
 - (id);
+- (_Bool)ilities;
+- (_Bool)__DATA_DIRTY;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)__objc_imageinfo__DATA_CONST;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)m;
 - (id);
 - (id);
 - (id);
@@ -57,10 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SGPipelineEntity *entity; // @synthesize entity=_entity;
-@property(retain, nonatomic) SGDuplicateKey *extractedReminderDuplicateKey; // @synthesize extractedReminderDuplicateKey=_extractedReminderDuplicateKey;
 @property(retain, nonatomic) SGMessage *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSArray *plainTextDetectedData; // @synthesize plainTextDetectedData=_plainTextDetectedData;
 
 @end
 

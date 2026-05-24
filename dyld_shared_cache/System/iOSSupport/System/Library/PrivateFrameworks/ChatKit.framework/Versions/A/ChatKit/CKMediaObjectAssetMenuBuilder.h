@@ -12,24 +12,25 @@ __attribute__((visibility("hidden")))
     id <CKMediaObjectAssetMenuBuilderDelegate> _delegate;
 }
 
+- (id){reason:(id)arg1 %s};
 - (id);
+- (void);
+- (id);
+- (id)P;
+- (void);
+- (id);
+- (void);
+- (id);
+- (id)OutlineIndex;
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)
+;
 - (id);
 - (void);
 - (id);

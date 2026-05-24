@@ -9,7 +9,7 @@
 }
 
 + (int);
-- (id);
+- (id)UsoTaskBuilder_stop_common_PhotoMemory;
 
 @end
 

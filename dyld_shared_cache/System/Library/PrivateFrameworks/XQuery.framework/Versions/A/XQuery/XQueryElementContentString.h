@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface XQueryElementContentString
 {
     NSMutableString *_string;
-    _Bool _isXMLSpace;
 }
 
 + (id);
@@ -18,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)6q24;
+- (void)y;
 - (id);
 - (id);
 - (void);

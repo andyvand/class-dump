@@ -5,6 +5,9 @@
 //
 
 @protocol GCUserDefaultsXPCProxyServiceRemoteClientInterface
+- (void);
+- (void);
+- (void)OSLogInterpolation;
 - (void)art has failed, reason:(_Bool)arg1 %@;
 - (void)ting GCMouseDidStopBeingCurrent for %@;
 @end

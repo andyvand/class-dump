@@ -7,8 +7,6 @@
 @interface IKImageTextureRange
 {
     void *address;
-    void *end;
-    int size;
 }
 
 @end

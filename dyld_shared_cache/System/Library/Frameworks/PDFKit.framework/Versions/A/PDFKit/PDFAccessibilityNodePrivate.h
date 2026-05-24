@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PDFPage;
-@protocol PDFAccessibilityNodeParent;
+@class PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNodePrivate
 {
     PDFPage *page;
-    struct CGPDFTaggedNode *nodeRef;
-    id <PDFAccessibilityNodeParent> parent;
-    NSMutableArray *children;
-    NSString *altText;
-    struct CGRect bounds;
 }
 
 - (void);

@@ -11,11 +11,11 @@
     unsigned long long _spaceID;
 }
 
-+ (_Bool);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
++ (_Bool)-;
+- (id)utableArray"16^B24;
+- (id)SString;
+- (id);
+- (unsigned long long)1;
 - (id);
 - (void);
 

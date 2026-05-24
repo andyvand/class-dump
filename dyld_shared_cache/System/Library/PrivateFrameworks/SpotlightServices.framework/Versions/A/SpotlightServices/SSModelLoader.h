@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SSModelLoader
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_pendingUpdates;
 }
 
 + (id);
-+ (id)siredBundleIDs;
++ (id)_anonymousMetadataUndesiredBundleIDs;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)4$;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)setTargetedFactorPackSetId:(id)arg1 targetedTargetingRuleIndex:forDeployment:usingTransaction: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void)resholdForBundleIDType: /* Error: Ran out of types for this method. */;
+- (void)Model";
+- (void)getBucketThresholdForBundleIDType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *pendingUpdates; // @synthesize pendingUpdates=_pendingUpdates;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

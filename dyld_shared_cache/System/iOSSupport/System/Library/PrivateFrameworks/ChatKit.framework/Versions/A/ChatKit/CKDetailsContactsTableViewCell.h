@@ -6,33 +6,11 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class CKAvatarView, CKLabel, CNContact, NSString, UIActivityIndicatorView, UIButton, UILabel;
-@protocol CKDetailsContactsTableViewCellDelegate;
+@class CKLabel;
 
 @interface CKDetailsContactsTableViewCell : CKDetailsCell
 {
     _Bool _tuConversationStatusIsActive;
-    _Bool _showsLocation;
-    _Bool _showMessageButton;
-    _Bool _showPhoneButton;
-    _Bool _showFaceTimeVideoButton;
-    _Bool _showInfoButton;
-    _Bool _showScreenSharingButton;
-    _Bool _showsTUConversationStatus;
-    CKAvatarView *_contactAvatarView;
-    id <CKDetailsContactsTableViewCellDelegate> _delegate;
-    CKLabel *_nameLabel;
-    UILabel *_locationLabel;
-    UILabel *_expanseStatusLabel;
-    NSString *_entityName;
-    NSString *_locationString;
-    long long _callType;
-    UIButton *_messageButton;
-    UIButton *_phoneButton;
-    UIButton *_facetimeVideoButton;
-    UIButton *_screenSharingButton;
-    CNContact *_contact;
-    UIActivityIndicatorView *_updatingParticipantSpinner;
 }
 
 + (double);
@@ -40,54 +18,54 @@
 + (id);
 + (Class);
 + (double);
+- (id)coalescingUndoGroupForStringDelegate;
+- (_Bool)alwaysUsesSmallSize;
+- (_Bool)T@"NSArray",R,N,V_currentIdentifiers;
+- (_Bool)SArray",C,N,V_scales;
+- (_Bool)age;
+- (_Bool)nColorManager",R,&,N;
+- (_Bool)tionController;
+- (_Bool)r",R,N,V_renderer;
+- (void)_webView:(id)arg1 shouldAllowPDFAtURL:toOpenFromFrame:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ingUUID>",R,N;
+- (void)ICDrawingPencilKitConverter;
+- (void)ICCalculateResultAttachmentView;
+- (void)ICDocCamPDFGenerator;
+- (void)ICAudioController;
+- (void)ICNoteEditorIconImageView;
+- (void)ICAuthenticationPrompt;
+- (void)ICMoveAlertUtilities;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)name;
+- (id)So18ICInlineAttachmentC;
+- (id)o;
+- (id)rated PDF:%@ /* Error: Ran out of types for this method. */;
+- (id)data for share %@;
+- (void)r:(id)arg1 %@;
+- (void)ing duplicated note {originalNote:(id)arg1 %@, duplicatedNote:%@} /* Error: Ran out of types for this method. */;
+- (id)ater.;
+- (void);
+- (void)q;
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)_;
+- (void)layoutMarginsDidChange;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (struct CGSize);
@@ -96,34 +74,13 @@
 - (void);
 - (void);
 - (id);
-- (id)uttonFrameInScreenCoordinates;
+- (id)sendButtonFrameInScreenCoordinates;
 - (id)dler:(long long)arg1;
 - (void);
 - (id)p¸¢ÿW9 e0;
 
 // Remaining properties
-@property(nonatomic) long long callType; // @synthesize callType=_callType;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) CKAvatarView *contactAvatarView; // @synthesize contactAvatarView=_contactAvatarView;
-@property(nonatomic) __weak id <CKDetailsContactsTableViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *entityName; // @synthesize entityName=_entityName;
-@property(retain, nonatomic) UILabel *expanseStatusLabel; // @synthesize expanseStatusLabel=_expanseStatusLabel;
-@property(retain, nonatomic) UIButton *facetimeVideoButton; // @synthesize facetimeVideoButton=_facetimeVideoButton;
-@property(retain, nonatomic) UILabel *locationLabel; // @synthesize locationLabel=_locationLabel;
-@property(copy, nonatomic) NSString *locationString; // @synthesize locationString=_locationString;
-@property(retain, nonatomic) UIButton *messageButton; // @synthesize messageButton=_messageButton;
 @property(retain, nonatomic) CKLabel *nameLabel; // @synthesize nameLabel=_nameLabel;
-@property(retain, nonatomic) UIButton *phoneButton; // @synthesize phoneButton=_phoneButton;
-@property(retain, nonatomic) UIButton *screenSharingButton; // @synthesize screenSharingButton=_screenSharingButton;
-@property(nonatomic) _Bool showFaceTimeVideoButton; // @synthesize showFaceTimeVideoButton=_showFaceTimeVideoButton;
-@property(nonatomic) _Bool showInfoButton; // @synthesize showInfoButton=_showInfoButton;
-@property(nonatomic) _Bool showMessageButton; // @synthesize showMessageButton=_showMessageButton;
-@property(nonatomic) _Bool showPhoneButton; // @synthesize showPhoneButton=_showPhoneButton;
-@property(nonatomic) _Bool showScreenSharingButton; // @synthesize showScreenSharingButton=_showScreenSharingButton;
-@property(nonatomic) _Bool showsLocation; // @synthesize showsLocation=_showsLocation;
-@property(nonatomic) _Bool showsTUConversationStatus; // @synthesize showsTUConversationStatus=_showsTUConversationStatus;
-@property(nonatomic) _Bool tuConversationStatusIsActive; // @synthesize tuConversationStatusIsActive=_tuConversationStatusIsActive;
-@property(retain, nonatomic) UIActivityIndicatorView *updatingParticipantSpinner; // @synthesize updatingParticipantSpinner=_updatingParticipantSpinner;
 
 @end
 

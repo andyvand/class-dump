@@ -6,21 +6,20 @@
 
 #import <Trial/TRIFactorsState.h>
 
-@class NSString, TRIExperimentDeployment;
+@class TRIExperimentDeployment;
 
 @interface TRIExperimentFactorsState : TRIFactorsState
 {
     TRIExperimentDeployment *_deployment;
-    NSString *_treatmentId;
 }
 
 + (_Bool);
 - (_Bool);
+- (id)R;
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (_Bool);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) TRIExperimentDeployment *deployment; // @synthesize deployment=_deployment;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PPPeopleSuggesterCacheEntry
 {
     double _cacheTimeSecondsSince1970;
-    NSArray *_identifiers;
 }
 
 - (void)A¡Ð!DEù÷ð1Â0@ù

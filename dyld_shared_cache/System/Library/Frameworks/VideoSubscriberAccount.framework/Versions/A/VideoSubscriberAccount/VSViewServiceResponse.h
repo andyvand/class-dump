@@ -12,14 +12,14 @@
 }
 
 + (_Bool);
-- (void);
+- (void)DCETHREAD_STATE_CREATED;
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_showPromptForExtensionDisabledBecauseItDoesNotSupportThisVersionOfSafariWithMessage:(id)arg1 extensionIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

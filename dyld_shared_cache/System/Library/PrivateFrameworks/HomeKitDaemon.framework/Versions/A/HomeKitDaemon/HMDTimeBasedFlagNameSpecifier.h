@@ -14,26 +14,28 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (_Bool)¼äT|´Ü4d¼äDlÌôDt°äD|¤ÌôD|´ì$\¼ô,dÌ<d¼äD|¬Ü < l  ¼ ì !`!!Ì!"D""°"Ø";
-- (id);
-- (id);
+- (id)cancelFetchCapabilitiesForContacts:(id)arg1;
+- (id)}@
+== Trip %{public}@ ====
+	transportType:%{public}@, lastUpdated:%{public}@, locallyUpdated:%{public}@
+	senderInfo:%{public}@, fromDisplayName:%{public}@ [ %{private}@ ], fromIdentifier:%{public}@ [ %{private}@ ], localName:%{public}@ [ %{private}@ ], localContactIdentifier:%{public}@ [ %{private}@ ]
+	arrived:%{public}@, arrivedTimestamp:%{public}@, closed:%{public}@, closedTimestamp:%{public}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)hread recvfrom result = %ld;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)gProfileOnboarding;
-- (void)ss;
+- (id)ownerDismissedTVViewingProfileOnboarding;
+- (void)HMDDataStreamMessageStatusSuccess;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *flagName; // @synthesize flagName=_flagName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDScorecardLayout, NSArray, NSString;
+@class GEOPDScorecardLayout, NSString;
 
 @interface GEOPlaceQuestionnaire
 {
     GEOPDScorecardLayout *_scorecardLayout;
-    _Bool _alwaysPositionInitialRatingCtaTowardsTop;
-    _Bool _canCollectRatings;
-    _Bool _canCollectPhotos;
-    float _maxAspectRatio;
-    NSString *_version;
-    NSArray *_ratingCategories;
-    unsigned long long _maximumNumberOfPhotos;
-    unsigned long long _maxPixels;
-    unsigned long long _minPixels;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (float);
@@ -34,15 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysPositionInitialRatingCtaTowardsTop; // @synthesize alwaysPositionInitialRatingCtaTowardsTop=_alwaysPositionInitialRatingCtaTowardsTop;
-@property(readonly, nonatomic) _Bool canCollectPhotos; // @synthesize canCollectPhotos=_canCollectPhotos;
-@property(readonly, nonatomic) _Bool canCollectRatings; // @synthesize canCollectRatings=_canCollectRatings;
-@property(readonly, nonatomic) _Bool canShowCallToAction;
-@property(readonly, nonatomic) float maxAspectRatio; // @synthesize maxAspectRatio=_maxAspectRatio;
-@property(readonly, nonatomic) unsigned long long maxPixels; // @synthesize maxPixels=_maxPixels;
-@property(readonly, nonatomic) unsigned long long maximumNumberOfPhotos; // @synthesize maximumNumberOfPhotos=_maximumNumberOfPhotos;
-@property(readonly, nonatomic) unsigned long long minPixels; // @synthesize minPixels=_minPixels;
-@property(readonly, nonatomic) NSArray *ratingCategories; // @synthesize ratingCategories=_ratingCategories;
 @property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

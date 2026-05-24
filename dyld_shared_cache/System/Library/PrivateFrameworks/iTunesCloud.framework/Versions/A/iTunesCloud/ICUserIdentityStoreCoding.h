@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDelegateAccountStoreOptions, ICValueHistory;
-@protocol ICUserIdentityStoreBackend;
-
 __attribute__((visibility("hidden")))
 @interface ICUserIdentityStoreCoding
 {
     struct os_unfair_lock_s _lock;
-    long long _identityStoreStyle;
-    long long _uniqueIdentifier;
-    ICValueHistory *_activeAccountHistory;
-    ICValueHistory *_activeLockerAccountHistory;
-    id <ICUserIdentityStoreBackend> _backend;
-    ICDelegateAccountStoreOptions *_delegateAccountStoreOptions;
 }
 
 + (_Bool);
+- (id);
+- (void)mation:(id)arg1 no animation data;
+- (id);
+- (long long);
+- (id);
+- (void)%@;
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)ing",C,N,V_universalCloudLibraryID;
 
 // Remaining properties
-@property(copy, nonatomic) ICValueHistory *activeAccountHistory; // @synthesize activeAccountHistory=_activeAccountHistory;
-@property(copy, nonatomic) ICValueHistory *activeLockerAccountHistory; // @synthesize activeLockerAccountHistory=_activeLockerAccountHistory;
-@property(copy, nonatomic) id <ICUserIdentityStoreBackend> backend; // @synthesize backend=_backend;
-@property(copy, nonatomic) ICDelegateAccountStoreOptions *delegateAccountStoreOptions; // @synthesize delegateAccountStoreOptions=_delegateAccountStoreOptions;
 @property(readonly, nonatomic) long long identityStoreStyle; // @synthesize identityStoreStyle=_identityStoreStyle;
-@property(readonly, nonatomic) long long uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

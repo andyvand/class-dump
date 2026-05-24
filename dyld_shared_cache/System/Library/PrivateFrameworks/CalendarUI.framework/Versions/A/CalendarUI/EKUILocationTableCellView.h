@@ -4,62 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResult, CalUILocationSuggestionResult, NSDate, NSImageView, NSMutableArray, NSProgressIndicator, NSTextField;
+@class CalUILocationSuggestionResult;
 
 @interface EKUILocationTableCellView
 {
     _Bool _selected;
-    int _freeBusyStatus;
-    CalUILocationSuggestionResult *_suggestion;
-    CNAutocompleteResult *_cnResult;
-    NSProgressIndicator *_spinner;
-    NSTextField *_titleField;
-    NSTextField *_addressField;
-    NSImageView *_iconView;
-    NSMutableArray *_iconConstraints;
-    NSDate *_spinnerTime;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (void);
+- (void)hb;
 - (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
+- (int)C;
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)NETWORK_FAILURE;
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool)elayedHoverButton;
+- (_Bool)CalUIDelayedHoverButton;
 
 // Remaining properties
-@property(retain) NSTextField *addressField; // @synthesize addressField=_addressField;
-@property(retain) CNAutocompleteResult *cnResult; // @synthesize cnResult=_cnResult;
-@property int freeBusyStatus; // @synthesize freeBusyStatus=_freeBusyStatus;
-@property(retain) NSMutableArray *iconConstraints; // @synthesize iconConstraints=_iconConstraints;
-@property(retain) NSImageView *iconView; // @synthesize iconView=_iconView;
-@property _Bool selected; // @synthesize selected=_selected;
-@property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(retain) NSDate *spinnerTime; // @synthesize spinnerTime=_spinnerTime;
 @property(retain) CalUILocationSuggestionResult *suggestion; // @synthesize suggestion=_suggestion;
-@property(retain) NSTextField *titleField; // @synthesize titleField=_titleField;
 
 @end
 

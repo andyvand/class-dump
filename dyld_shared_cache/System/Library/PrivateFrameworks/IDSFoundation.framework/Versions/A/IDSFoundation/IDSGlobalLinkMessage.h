@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface IDSGlobalLinkMessage
 {
     long long _command;
-    NSData *_hmacKeyData;
-    struct IDSGlobalLinkAttribute _attributes[20];
-    int _numAttribute;
 }
 
 + (id);
@@ -24,9 +19,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (_Bool);
 - (void);
 - (void);
@@ -36,7 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long command; // @synthesize command=_command;
-@property(readonly) NSData *hmacKeyData; // @synthesize hmacKeyData=_hmacKeyData;
 
 @end
 

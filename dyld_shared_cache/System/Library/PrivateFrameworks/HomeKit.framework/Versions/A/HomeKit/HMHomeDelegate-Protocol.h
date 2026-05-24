@@ -4,9 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMActionSet, HMHome, HMTrigger, HMZone;
+
 @protocol HMHomeDelegate
 
 @optional
+- (void)_updateAssetsInMemory:(HMHome *)arg1 relationshipName:persistedOrderedAssetUUIDs:includePendingChanges: /* Error: Ran out of types for this method. */;
+- (void)_updateAssetSubtypeFromCPLAssetSubtype:(HMHome *)arg1;
+- (void)_updateAssetEdgesWithAssetContainmentResult:(HMHome *)arg1 assetIDsToUpdate:(HMTrigger *)arg2 error: /* Error: Ran out of types for this method. */;
+- (void)_updateAdjustmentFromAssetAdjustment:(HMHome *)arg1 unmanagedAdjustment:(HMZone *)arg2 fullSizeRenderURL:options: /* Error: Ran out of types for this method. */;
+- (void)_unusedIndexes;
+- (void)_unshareBatchOfPendingAssetsSharedToScopeWithTransaction:(HMHome *)arg1;
+- (void)_unsafe_readyForAnalysis;
+- (void)_unregisterForChangeHandlingNotifications;
+- (void)_unQuarantineAssetsIfPossibleInStore:(HMHome *)arg1;
+- (void)_tryToPromoteUnknownAssetsInStore:(HMHome *)arg1;
+- (void)_trySchedulingBefore;
+- (void)_trustedCallerPhotoLibraryUsageDescription;
+- (void)_trustedCallerDisplayName;
+- (void)_trustedCallerContainingBundleRecord;
+- (void)_tripHighlightClustersForMoments:(HMHome *)arg1 tripType:(HMActionSet *)arg2;
+- (void)_trimInvalidAlbumAssetsMappingRecords;
+- (void)_triggerBackgroundDownloadFailureForResources:(HMHome *)arg1;
+- (void)_trashedState;
+- (void)_trashedAssetPhotoCount;
+- (void)_transitionDelegate;
+- (void)_sortRelationshipData:(HMHome *)arg1 forUploadChanges:(HMActionSet *)arg2 inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)_smartToneLevelWithAttributeKey:(HMHome *)arg1 settingKey: /* Error: Ran out of types for this method. */;
 - (void)&,V_error;
 @end
 

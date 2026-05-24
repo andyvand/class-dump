@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMManager;
-
 @interface TMDiskArbiter
 {
     struct __DASession *_daSession;
-    DMManager *_dmManager;
 }
 
 - (_Bool);
@@ -19,7 +16,7 @@
 - (_Bool);
 - (struct __DADisk *);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

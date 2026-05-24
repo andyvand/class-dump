@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class XCTVideoEncoding;
-
 @interface XCTScreenRecordingRequest
 {
     long long _screenID;
-    XCTVideoEncoding *_preferredEncoding;
-    struct CGRect _rect;
 }
 
 + (_Bool);
@@ -24,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) XCTVideoEncoding *preferredEncoding; // @synthesize preferredEncoding=_preferredEncoding;
-@property(readonly, nonatomic) struct CGRect rect; // @synthesize rect=_rect;
 @property(readonly, nonatomic) long long screenID; // @synthesize screenID=_screenID;
 
 @end

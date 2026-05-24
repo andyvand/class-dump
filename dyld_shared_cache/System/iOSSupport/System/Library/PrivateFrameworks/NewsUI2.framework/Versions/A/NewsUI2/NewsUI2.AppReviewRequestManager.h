@@ -7,14 +7,6 @@
 @interface NewsUI2.AppReviewRequestManager
 {
     id store;
-    id userInfo;
-    id configurationManager;
-    id tracker;
-    id appleAccount;
-    id _started;
-    id _userIsAuthenticatedToAppStore;
-    id useAppReviewRequest;
-    id $__lazy_storage_$_appReviewRequestConfig;
 }
 
 - (id);

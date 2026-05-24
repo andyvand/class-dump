@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NETSchemaNETProxyConfiguration : SISchemaInstrumentationMessage
 {
     _Bool _isProxyConfigured;
-    _Bool _usingConfiguredProxy;
-    struct {
-        unsigned int isProxyConfigured:1;
-        unsigned int usingConfiguredProxy:1;
-    } _has;
 }
 
 - (_Bool);
@@ -24,7 +17,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)R";
 - (_Bool);
 - (void);
 - (void);
@@ -40,11 +33,7 @@
 - (id)@"ODDSiriSchemaODDHeadGestureProperties",&,N,V_headGestures;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsProxyConfigured;
-@property(nonatomic) _Bool hasUsingConfiguredProxy;
 @property(nonatomic) _Bool isProxyConfigured; // @synthesize isProxyConfigured=_isProxyConfigured;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool usingConfiguredProxy; // @synthesize usingConfiguredProxy=_usingConfiguredProxy;
 
 @end
 

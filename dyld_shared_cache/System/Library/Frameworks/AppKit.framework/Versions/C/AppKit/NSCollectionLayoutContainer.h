@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSCollectionLayoutContainer
 {
     struct CGSize _contentSize;
-    struct NSDirectionalEdgeInsets _contentInsets;
 }
 
-- (id);
+- (id)DataStorageDelegate>";
 - (id);
 - (void);
 - (struct NSDirectionalEdgeInsets);
@@ -23,17 +20,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)	¼rI;
 
 // Remaining properties
-@property(nonatomic) struct NSDirectionalEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
 @property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) struct NSDirectionalEdgeInsets effectiveContentInsets;
-@property(readonly) struct CGSize effectiveContentSize;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

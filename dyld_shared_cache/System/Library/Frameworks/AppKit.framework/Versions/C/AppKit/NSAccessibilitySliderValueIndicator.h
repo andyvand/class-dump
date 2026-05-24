@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)ATSAllowsArbitraryLoadsInWebContent;
+- (_Bool)pragma wal enable - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (id)p;
+- (void);
 
 @end
 

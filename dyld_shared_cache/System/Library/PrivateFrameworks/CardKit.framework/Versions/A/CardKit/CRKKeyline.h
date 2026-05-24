@@ -9,9 +9,6 @@
 @interface CRKKeyline
 {
     NSView *_keylineView;
-    long long _type;
-    long long _direction;
-    unsigned long long _visualEffectStyle;
 }
 
 - (unsigned long long);
@@ -27,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) long long direction; // @synthesize direction=_direction;
 @property(readonly) long long type; // @synthesize type=_type;
-@property(readonly) unsigned long long visualEffectStyle; // @synthesize visualEffectStyle=_visualEffectStyle;
 
 @end
 

@@ -9,11 +9,9 @@
 @interface _PXCuratedLibraryLayoutSkimmingSlideshowAnimationHelper : PXCuratedLibraryLayoutAnimationHelper
 {
     unsigned long long _userInterfaceDirection;
-    struct PXSimpleIndexPath _fromIndexPath;
-    struct PXSimpleIndexPath _toIndexPath;
 }
 
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (void);
 - (void);

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMindNetNetwork, NSArray;
+@class AXMindNetNetwork;
 
 @interface AXMindNetDetector
 {
     AXMindNetNetwork *_network;
-    float _overlap_threshold;
-    float _nmsThreshold;
-    NSArray *_filterThreshold;
 }
 
-+ (id);
++ (id)m;
 - (void);
 - (void);
 - (id);
@@ -23,16 +20,13 @@
 - (id);
 - (id);
 - (void);
-- (float);
+- (float);'{;
+- (void)iteria">;
 - (void);
-- (void);
-- (float)eShotSoundOutputAction;
+- (float)AXMOneShotSoundOutputAction;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *filterThreshold; // @synthesize filterThreshold=_filterThreshold;
-@property(nonatomic) float nmsThreshold; // @synthesize nmsThreshold=_nmsThreshold;
 @property(nonatomic) float overlap_threshold; // @synthesize overlap_threshold=_overlap_threshold;
-@property(nonatomic) float threshold;
 
 @end
 

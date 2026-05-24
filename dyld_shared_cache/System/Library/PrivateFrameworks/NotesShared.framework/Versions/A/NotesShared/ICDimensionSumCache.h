@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface ICDimensionSumCache
 {
     double _sum;
-    double _estimateDimension;
-    NSMutableDictionary *_dimensions;
 }
 
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)create product subdirectory:%@ /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (double);
@@ -26,9 +22,6 @@
 - (void)¿tÇ ÇÊbÌÊcË;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSMutableDictionary *dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly, nonatomic) double estimateDimension; // @synthesize estimateDimension=_estimateDimension;
 @property(nonatomic) double sum; // @synthesize sum=_sum;
 
 @end

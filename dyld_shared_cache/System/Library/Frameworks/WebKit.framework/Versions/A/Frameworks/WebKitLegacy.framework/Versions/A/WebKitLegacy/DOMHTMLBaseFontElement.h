@@ -21,8 +21,6 @@
 
 // Remaining properties
 @property(copy) NSString *color;
-@property(copy) NSString *face;
-@property(copy) NSString *size;
 
 @end
 

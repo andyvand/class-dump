@@ -5,5 +5,10 @@
 //
 
 @protocol NSURLSessionDelegate
+
+@optional
+- (void);
+- (void)A;
+- (void);
 @end
 

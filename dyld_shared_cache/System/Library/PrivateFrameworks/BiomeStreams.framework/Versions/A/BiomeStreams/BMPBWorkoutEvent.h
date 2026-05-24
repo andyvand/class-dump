@@ -7,15 +7,12 @@
 @interface BMPBWorkoutEvent
 {
     _Bool _starting;
-    struct {
-        unsigned int starting:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,11 +22,10 @@
 - (id);
 - (_Bool)$! Aùv1Â0@ù
 × ;
-- (void)ked;
+- (void)pg_query__drop_owned_stmt__free_unpacked;
 
 // Remaining properties
 @property(nonatomic) _Bool hasStarting;
-@property(nonatomic) _Bool starting; // @synthesize starting=_starting;
 
 @end
 

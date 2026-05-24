@@ -6,22 +6,16 @@
 
 #import <AOSUI/AOSUIAccountContactBaseViewModel.h>
 
-@class NSArray, NSCollectionView, NSString, NSView;
-@protocol AAOBWelcomeControllerModelProtocol, AOSUIAccountContactSelectorDelegate;
+@class NSCollectionView;
+@protocol AAOBWelcomeControllerModelProtocol;
 
 @interface AOSUIAccountContactSelectorViewModel : AOSUIAccountContactBaseViewModel
 {
     id <AAOBWelcomeControllerModelProtocol> _model;
-    _Bool _shouldEnableFirstButtonOnLoad;
-    NSView *_contentView;
-    long long _templateContentViewLayout;
-    NSArray *_suggestedContacts;
-    id <AOSUIAccountContactSelectorDelegate> _delegate;
-    NSCollectionView *_collectionView;
 }
 
 - (long long);
-- (_Bool);
+- (_Bool)b@(`;
 - (void);
 - (void);
 - (void);
@@ -31,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!�N;
 - (id);
 - (void);
 - (long long);
@@ -40,19 +34,10 @@
 - (void);
 - (void)
 × ;
-- (id)D_DESKTOP_OPTIONS_ICLOUD_PHOTOS_EXCEEDS_MAX_TIER_BUTTON;
+- (id)iCLOUD_DESKTOP_OPTIONS_ICLOUD_PHOTOS_EXCEEDS_MAX_TIER_BUTTON;
 
 // Remaining properties
 @property(retain, nonatomic) NSCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AOSUIAccountContactSelectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *suggestedContacts; // @synthesize suggestedContacts=_suggestedContacts;
-@property(readonly) Class superclass;
 
 @end
 

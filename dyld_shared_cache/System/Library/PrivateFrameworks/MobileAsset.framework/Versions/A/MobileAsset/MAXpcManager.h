@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAXpcConnection, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MAXpcConnection;
 
 __attribute__((visibility("hidden")))
 @interface MAXpcManager
 {
     MAXpcConnection *_maConnection;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_queue> *_progressQueue;
-    NSString *_serviceName;
-    NSMutableDictionary *_progressHandlers;
-    unsigned long long _connectionRetryCount;
-    NSMutableArray *_postConnectionRetryCallbacks;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)rkoutSnapshot;
+- (void)terval:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)E;
 
 @end
 

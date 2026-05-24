@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface CNDefaultPhotoBrowserItem
 {
     NSString *_imagePath;
-    NSImage *_image;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSImage *image; // @synthesize image=_image;
 @property(retain) NSString *imagePath; // @synthesize imagePath=_imagePath;
 
 @end

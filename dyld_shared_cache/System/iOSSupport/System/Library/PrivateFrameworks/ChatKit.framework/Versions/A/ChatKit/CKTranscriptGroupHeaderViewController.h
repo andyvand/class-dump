@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)removeObject: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
+- (void)t the folder;
+- (id)eleted the note;
 - (void);
 - (void);
 

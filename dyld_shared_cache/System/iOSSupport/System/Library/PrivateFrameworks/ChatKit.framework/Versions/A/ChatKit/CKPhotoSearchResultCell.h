@@ -6,49 +6,40 @@
 
 #import <ChatKit/CKEditableSearchResultCell.h>
 
-@class NSString, UIImage, UIImageView, UILabel, UIView;
+@class UIImageView;
 
 @interface CKPhotoSearchResultCell : CKEditableSearchResultCell
 {
     _Bool _isLivePhoto;
-    _Bool _isVideo;
-    _Bool _isSpatial;
-    UIImage *_image;
-    UIImageView *_livePhotoImage;
-    NSString *_resultIdentifier;
-    UILabel *_durationLabel;
-    UIImageView *_durationGradientImage;
-    UIView *_spatialBadgeView;
-    struct UIEdgeInsets marginInsets;
 }
 
-+ (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)(;
+- (id)ic_paragraphRangeForRange:contentEnd: /* Error: Ran out of types for this method. */;
+- (void)contentInsets;
+- (void)accessibilityAttributedStringForRange:(struct UIEdgeInsets)arg1;
+- (void)_webView:(id)arg1 updatedAppBadge:fromSecurityOrigin: /* Error: Ran out of types for this method. */;
+- (void)_viewportShouldSnapToAttachmentView;
+- (void)_firstMatchingRangeInNote;
+- (void)_finalAttachmentID;
+- (void)achment;
 - (struct UIEdgeInsets);
 - (id);
-- (id);
-- (id);
+- (id)r;
+- (id)o;
+- (void)r;
+- (void)n any device with your iCloud account by using the passcode or password for that device.;
+- (void)with %lu people;
+- (void)0@?0@"<ICTTAttachment>"8{_NSRange=QQ}16^B32;
+- (void));
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)port;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -58,24 +49,7 @@
 - (void)0r$ÿYM;
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIImageView *durationGradientImage; // @synthesize durationGradientImage=_durationGradientImage;
-@property(retain, nonatomic) UILabel *durationLabel; // @synthesize durationLabel=_durationLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isLivePhoto; // @synthesize isLivePhoto=_isLivePhoto;
-@property(nonatomic) _Bool isSpatial; // @synthesize isSpatial=_isSpatial;
-@property(nonatomic) _Bool isVideo; // @synthesize isVideo=_isVideo;
 @property(retain, nonatomic) UIImageView *livePhotoImage; // @synthesize livePhotoImage=_livePhotoImage;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
-@property(copy, nonatomic) NSString *resultIdentifier; // @synthesize resultIdentifier=_resultIdentifier;
-@property(retain, nonatomic) UIView *spatialBadgeView; // @synthesize spatialBadgeView=_spatialBadgeView;
-@property(readonly) Class superclass;
 
 @end
 

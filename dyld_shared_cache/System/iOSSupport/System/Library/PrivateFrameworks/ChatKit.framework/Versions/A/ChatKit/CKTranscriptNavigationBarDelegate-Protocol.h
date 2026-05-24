@@ -5,5 +5,8 @@
 //
 
 @protocol CKTranscriptNavigationBarDelegate
+
+@optional
+- (void);
 @end
 

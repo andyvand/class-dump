@@ -9,14 +9,14 @@
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)initWithSiteName:(id)arg1 summary:(id *)arg2 title:openGraphType:linkURL: /* Error: Ran out of types for this method. */;
++ (id)_changeAlarmStatusIntentAlarmsUnsupportedReason;
 + (id);
 + (id);
 + (_Bool);

@@ -5,5 +5,9 @@
 //
 
 @protocol AVCScreenCaptureDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

@@ -7,11 +7,6 @@
 @interface Speech.EuclidActor__priv_BB256D071C96542CEBFBAC43A1B470C1
 {
     id $defaultActor;
-    id locale;
-    id clientID;
-    id inputFormat;
-    id loadingOption;
-    id _euclidService;
 }
 
 @end

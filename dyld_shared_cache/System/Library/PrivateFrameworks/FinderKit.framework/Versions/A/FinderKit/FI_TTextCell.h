@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface FI_TTextCell
 {
     NSColor *_enabledTextColor;
-    NSColor *_disabledTextColor;
-    _Bool _drawGrayTextWhenDisabled;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)currentRunwayTime:(_Bool)arg1 %@, gateBufferMinutes:%@, runwayBufferMinutes:%@} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -31,8 +29,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *disabledTextColor;
-@property(nonatomic) _Bool drawGrayTextWhenDisabled; // @synthesize drawGrayTextWhenDisabled=_drawGrayTextWhenDisabled;
 @property(retain, nonatomic) NSColor *enabledTextColor;
 
 @end

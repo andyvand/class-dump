@@ -6,22 +6,21 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSDictionary, NSUUID;
+@class NSDictionary;
 
 @interface RTEntityDeletionRequestMO : RTCloudManagedObject
 {
 }
 
-+ (id);
-+ (id);
++ (id)array;
++ (id)lInfo writeTo:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ERE MirrorKeys.dsid = ? AND MirrorKeys.type = ? AND (MirrorKeys.rowid NOT IN   (SELECT SyncedKeys.pubkeyNumber FROM SyncedKeys,SyncDevices WHERE (SyncDevices.deviceID = ? AND SyncedKeys.deviceNumber = SyncDevices.rowid))) ORDER BY MirrorKeys.current != 0;
+- (void)e=? AND dsid=?;;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *recordIDs; // @dynamic recordIDs;
-@property(copy, nonatomic) NSUUID *targetDeviceIdentifier; // @dynamic targetDeviceIdentifier;
 
 @end
 

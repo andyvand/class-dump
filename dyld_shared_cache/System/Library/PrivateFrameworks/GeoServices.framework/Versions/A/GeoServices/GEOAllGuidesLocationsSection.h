@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAllGuidesLocationsSection, GEOPDPlace, NSArray, NSDictionary, NSString;
+@class GEOPDAllGuidesLocationsSection, NSString;
 
 @interface GEOAllGuidesLocationsSection
 {
     GEOPDAllGuidesLocationsSection *_section;
-    NSArray *_mapsResults;
-    GEOPDPlace *_place;
-    NSDictionary *_entriesDictionary;
-    _Bool _isWorldwideSection;
-    NSString *_sectionTitle;
 }
 
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)defaultSessionConfiguration;
+- (id)tCharacter;
+- (id)NotificationCenter",&,D;
+- (_Bool)CNEntitlementVerifierTestDouble;
+- (id)cheduler %{public}@ is performing on the main thread;
 - (id);
 - (id);
 - (void)Í6;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *guideLocationIdentifiers;
-@property(readonly, nonatomic) NSArray *guideLocations;
-@property(readonly, nonatomic) _Bool isWorldwideSection; // @synthesize isWorldwideSection=_isWorldwideSection;
-@property(readonly, nonatomic) NSDictionary *pdGuideLocationEntries;
 @property(readonly, nonatomic) NSString *sectionTitle; // @synthesize sectionTitle=_sectionTitle;
 
 @end

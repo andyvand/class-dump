@@ -6,21 +6,12 @@
 
 #import <CMCapture/BWDeferredContainer.h>
 
-@class BWPhotoManifest, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface BWDeferredProcessingContainer : BWDeferredContainer
 {
     NSMutableDictionary *_sessionDictionary;
-    int _previousAttemptErrorCode;
-    unsigned int _processingCount;
-    NSObject<OS_dispatch_queue> *_metadataPrefetchQueue;
-    NSObject<OS_dispatch_queue> *_bufferPrefetchQueue;
-    unsigned long long _sizeBytes;
-    unsigned int _ageSeconds;
-    _Bool _isRemote;
-    BWPhotoManifest *_photoManifest;
 }
 
 + (unsigned int);
@@ -29,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)y;
 - (_Bool);
 - (id);
 - (id);
@@ -47,17 +38,12 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)@C;
 - (id);
-- (_Bool);
+- (_Bool)d}16;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int ageSeconds; // @synthesize ageSeconds=_ageSeconds;
-@property(readonly, nonatomic) _Bool isRemote; // @synthesize isRemote=_isRemote;
-@property(readonly, nonatomic) BWPhotoManifest *photoManifest; // @synthesize photoManifest=_photoManifest;
-@property(readonly, nonatomic) int previousAttemptErrorCode; // @synthesize previousAttemptErrorCode=_previousAttemptErrorCode;
-@property(readonly, nonatomic) unsigned int processingCount; // @synthesize processingCount=_processingCount;
-@property(readonly, nonatomic) unsigned long long sizeBytes; // @synthesize sizeBytes=_sizeBytes;
 
 @end
 

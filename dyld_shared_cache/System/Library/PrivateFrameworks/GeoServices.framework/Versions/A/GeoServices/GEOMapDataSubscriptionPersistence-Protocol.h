@@ -7,6 +7,7 @@
 @protocol GEOMapDataSubscriptionPersistenceDelegate;
 
 @protocol GEOMapDataSubscriptionPersistence
+- (void)LZ;
 
 // Remaining properties
 @property(nonatomic) __weak id <GEOMapDataSubscriptionPersistenceDelegate> delegate;

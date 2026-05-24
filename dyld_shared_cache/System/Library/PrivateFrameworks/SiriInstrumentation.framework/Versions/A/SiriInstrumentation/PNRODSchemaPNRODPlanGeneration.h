@@ -6,38 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODPlanGeneration : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_planCycleId;
-    int _pgModelInterface;
-    NSString *_pgModelIdentifier;
-    NSString *_pgOverridesAssetVersion;
-    _Bool _pgOverridesMatched;
-    PNRODSchemaPNRODMetricDuration *_pgPlanGenTotalTime;
-    PNRODSchemaPNRODMetricDuration *_pgFullPlannerHandleTime;
-    PNRODSchemaPNRODMetricDuration *_pgModelInferenceTime;
-    PNRODSchemaPNRODMetricDuration *_pgOverridesTime;
-    PNRODSchemaPNRODMetricDuration *_pgPrescribedPlanTime;
-    PNRODSchemaPNRODMetricDuration *_pgFullPlannerPreInferenceTime;
-    PNRODSchemaPNRODMetricDuration *_pgFullPlannerPostInferenceTime;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    struct {
-        unsigned int pgModelInterface:1;
-        unsigned int pgOverridesMatched:1;
-    } _has;
-    _Bool _hasPlanCycleId;
-    _Bool _hasPgModelIdentifier;
-    _Bool _hasPgOverridesAssetVersion;
-    _Bool _hasPgPlanGenTotalTime;
-    _Bool _hasPgFullPlannerHandleTime;
-    _Bool _hasPgModelInferenceTime;
-    _Bool _hasPgOverridesTime;
-    _Bool _hasPgPrescribedPlanTime;
-    _Bool _hasPgFullPlannerPreInferenceTime;
-    _Bool _hasPgFullPlannerPostInferenceTime;
-    _Bool _hasFailureInfo;
 }
 
 - (void);
@@ -65,7 +38,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
 - (id);
@@ -77,7 +50,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -89,7 +62,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -110,40 +83,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
-- (id)DurationInMs;
+- (id)_masterPlaylistConnectionTlsHandshakeDurationInMs;
 - (id)TB,N,V_hasResponseGenerationInferenceTime;
-- (void);
+- (void)EXPSIRIDIFFOUTCOME_DIFF_MULTITURN_REWRITE_BOTH_TRIGGERED;
 
 // Remaining properties
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasPgFullPlannerHandleTime; // @synthesize hasPgFullPlannerHandleTime=_hasPgFullPlannerHandleTime;
-@property(nonatomic) _Bool hasPgFullPlannerPostInferenceTime; // @synthesize hasPgFullPlannerPostInferenceTime=_hasPgFullPlannerPostInferenceTime;
-@property(nonatomic) _Bool hasPgFullPlannerPreInferenceTime; // @synthesize hasPgFullPlannerPreInferenceTime=_hasPgFullPlannerPreInferenceTime;
-@property(nonatomic) _Bool hasPgModelIdentifier; // @synthesize hasPgModelIdentifier=_hasPgModelIdentifier;
-@property(nonatomic) _Bool hasPgModelInferenceTime; // @synthesize hasPgModelInferenceTime=_hasPgModelInferenceTime;
-@property(nonatomic) _Bool hasPgModelInterface;
-@property(nonatomic) _Bool hasPgOverridesAssetVersion; // @synthesize hasPgOverridesAssetVersion=_hasPgOverridesAssetVersion;
-@property(nonatomic) _Bool hasPgOverridesMatched;
-@property(nonatomic) _Bool hasPgOverridesTime; // @synthesize hasPgOverridesTime=_hasPgOverridesTime;
-@property(nonatomic) _Bool hasPgPlanGenTotalTime; // @synthesize hasPgPlanGenTotalTime=_hasPgPlanGenTotalTime;
-@property(nonatomic) _Bool hasPgPrescribedPlanTime; // @synthesize hasPgPrescribedPlanTime=_hasPgPrescribedPlanTime;
-@property(nonatomic) _Bool hasPlanCycleId; // @synthesize hasPlanCycleId=_hasPlanCycleId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *pgFullPlannerHandleTime; // @synthesize pgFullPlannerHandleTime=_pgFullPlannerHandleTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *pgFullPlannerPostInferenceTime; // @synthesize pgFullPlannerPostInferenceTime=_pgFullPlannerPostInferenceTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *pgFullPlannerPreInferenceTime; // @synthesize pgFullPlannerPreInferenceTime=_pgFullPlannerPreInferenceTime;
-@property(copy, nonatomic) NSString *pgModelIdentifier; // @synthesize pgModelIdentifier=_pgModelIdentifier;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *pgModelInferenceTime; // @synthesize pgModelInferenceTime=_pgModelInferenceTime;
-@property(nonatomic) int pgModelInterface; // @synthesize pgModelInterface=_pgModelInterface;
-@property(copy, nonatomic) NSString *pgOverridesAssetVersion; // @synthesize pgOverridesAssetVersion=_pgOverridesAssetVersion;
-@property(nonatomic) _Bool pgOverridesMatched; // @synthesize pgOverridesMatched=_pgOverridesMatched;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *pgOverridesTime; // @synthesize pgOverridesTime=_pgOverridesTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *pgPlanGenTotalTime; // @synthesize pgPlanGenTotalTime=_pgPlanGenTotalTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *pgPrescribedPlanTime; // @synthesize pgPrescribedPlanTime=_pgPrescribedPlanTime;
 @property(retain, nonatomic) SISchemaUUID *planCycleId; // @synthesize planCycleId=_planCycleId;
 
 @end

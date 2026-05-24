@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)RepresentableActivityItemsForWindow:(CDStruct_70511ce9 *)arg1;
+- (unsigned long long)previewRepresentableActivityItemsForWindow:(CDStruct_70511ce9 *)arg1;
 @end
 

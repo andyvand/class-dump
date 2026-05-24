@@ -6,15 +6,11 @@
 
 #import <PhotosUICore/PXPeopleDataSource.h>
 
-@class NSDictionary, NSMutableDictionary, NSString, PXPeopleDataSourceSection;
+@class NSMutableDictionary;
 
 @interface PXPeoplePersonDataSource : PXPeopleDataSource
 {
     NSMutableDictionary *_keyFaceByPersonLocalIdentifier;
-    NSDictionary *_assetsByFaces;
-    _Bool _showUUIDIfNoName;
-    unsigned long long _personFetchType;
-    PXPeopleDataSourceSection *_dataSourceSection;
 }
 
 - (void);
@@ -31,12 +27,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -45,15 +41,7 @@
 - (void)a¶ðN;
 
 // Remaining properties
-@property(retain, nonatomic) PXPeopleDataSourceSection *dataSourceSection; // @synthesize dataSourceSection=_dataSourceSection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long personFetchType; // @synthesize personFetchType=_personFetchType;
-@property(readonly) Class superclass;
 
 @end
 

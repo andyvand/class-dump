@@ -9,8 +9,6 @@
 @interface BMPBParsecSearchTopic
 {
     NSString *_identifier;
-    float _score;
-    CDStruct_4b1634df _has;
 }
 
 - (void);
@@ -20,7 +18,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -33,9 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasScore;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) float score; // @synthesize score=_score;
 
 @end
 

@@ -6,75 +6,54 @@
 
 #import <AppKit/NSAnimation.h>
 
-@class CAAnimation, CAFenceHandle, NSArray, NSDictionary, NSWindow;
+@class NSWindow;
 
 @interface _NSWindowTransformAnimation : NSAnimation
 {
     NSWindow *_animatingWindow;
-    CAAnimation *_caAnimation;
-    NSWindow *_originalWindow;
-    CDUnknownBlockType _animateToProgress;
-    struct _SLSTransaction *_lastStepTransaction;
-    double _currentAnimationAlpha;
-    unsigned long long _type;
-    struct CGPoint _startPoint;
-    struct CGPoint _anchorPoint;
-    id _space;
-    CDUnknownBlockType _completionBlock;
-    double _scaleAmount;
-    unsigned int _animateAlpha:1;
-    unsigned int _originalHasParentWindow:1;
-    unsigned int _ignoresRequestsToSetCurrentProgress:1;
-    unsigned int _windowTransformAnimationReservedFlags:29;
-    unsigned int _observingWindowForChanges:1;
-    NSDictionary *_cachedWindowBaseAlphas;
-    NSDictionary *_cachedWindowTransformAnchors;
-    CAFenceHandle *_originalWindowFence;
-    NSArray *_fencedWindows;
-    NSArray *_frozenWindows;
 }
 
 + (id);
 + (void);
 + (void);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)URL.;
++ (_Bool)ror:%d /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)NSCFURLLocalStreamTaskFromDataTask connection:didReceiveResponse:completion:] /* Error: Ran out of types for this method. */;
++ (void)k connection:wasRedirected:newRequest:responseCallback:] /* Error: Ran out of types for this method. */;
++ (void)backgroundIdentifier;
 - (void);
-- (void);
-- (void);
-- (id);
-- (struct CGPoint);
+- (void)aluation failed with status 0x%llX;
+- (void)subCC, skip comparing digest of the entire data;
+- (id)lR7sjp4tOz3cMWoEMlZrLA;
+- (struct CGPoint)/arm-io/aop2;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (double);
-- (id);
-- (id);
+- (id)G;
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (double);
-- (void);
+- (void)d>;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (_Bool);
-- (void);
+- (id)NSURLCredential">32;
+- (CDUnknownBlockType)checked_didCompleteWithError;
+- (void)_responseWithCFURLResponse: /* Error: Ran out of types for this method. */;
+- (_Bool)inDocumentURL;
+- (void)done using Connection %llu;
 - (struct CGPoint);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGPoint)ÀB;
 - (void)ü;
 - (void)og. Symbol Name:%@. Variant details:<Scale Factor:%.2f> <Idiom:%ld> <Layout Direction:%ld> <Size:%ld> <Weight:%ld> <Point Size:%.2f>, <Appearance:%@>, <Locale:%@>. /* Error: Ran out of types for this method. */;
@@ -83,15 +62,7 @@
 - (void)t Kind:(CDUnknownBlockType)arg1 %u;
 
 // Remaining properties
-@property(setter=_setAnimatesAlpha:) _Bool _animatesAlpha;
-@property(setter=_setIgnoresRequestsToSetCurrentProgress:) _Bool _ignoresRequestsToSetCurrentProgress;
-@property(setter=_setScaleAmount:) double _scaleAmount;
-@property struct CGPoint anchorPoint;
 @property(readonly) double currentAnimationAlpha; // @synthesize currentAnimationAlpha=_currentAnimationAlpha;
-@property struct CGPoint normalizedAnchorPoint; // @synthesize normalizedAnchorPoint=_anchorPoint;
-@property(readonly) NSWindow *originalWindow;
-@property struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
-@property(readonly) NSWindow *window;
 
 @end
 

@@ -8,53 +8,32 @@ __attribute__((visibility("hidden")))
 @interface _UIDictationAudioLevelSmoother
 {
     float _minimumPower;
-    float _maximumPower;
-    long long _historyLength;
-    long long _samplesSinceLastCleared;
-    float *_runningPowerLevels;
-    unsigned int _powerPointer;
-    float _previousLevel;
-    float _attackVelocity;
-    float _decayVelocity;
-    _Bool _usesExponentialCurve;
-    _Bool _usesAttackAndDecaySpeed;
-    float _attackSpeed;
-    float _decaySpeed;
-    float _baseValue;
-    float _exponentMultiplier;
 }
 
 - (_Bool);
 - (_Bool);
 - (float);
 - (void);
+- (void)B36@40@48;
+- (void)updateNotificationUnreadCountForChat:(float)arg1;
+- (void)startTrackingCode:(float)arg1;
+- (float)handler:localIncommingMessage:storageContext: /* Error: Ran out of types for this method. */;
+- (id)accountHasAlias:(float)arg1 aliastoCheck:(float)arg2;
+- (id)accountForIDSAccountUniqueID:(float)arg1;
+- (id)_setCKRecordArray:(float)arg1 forKey:(float)arg2;
+- (float)_clearExpiredTimeSensitiveMessages;
+- (float)V_lastFullSyncDate;
+- (float)x;
+- (float);
+- (float)So28IMDMessageFromStorageMonitorCSgXw;
+- (id)om result:(long long)arg1 <%@ %p>, ;
+- (void);
 - (void);
-- (void);
-- (void);
 - (float);
-- (id);
-- (id);
-- (id);
-- (float);
-- (float);
-- (float);
-- (float);
-- (float);
-- (id);
-- (void);
-- (void);
-- (float);
-- (void);
+- (void)kMDItemDurationSeconds;
 - (void)16d24q32i40B44;
 
 // Remaining properties
-@property(nonatomic) float attackSpeed; // @synthesize attackSpeed=_attackSpeed;
-@property(nonatomic) float baseValue; // @synthesize baseValue=_baseValue;
-@property(nonatomic) float decaySpeed; // @synthesize decaySpeed=_decaySpeed;
-@property(nonatomic) float exponentMultiplier; // @synthesize exponentMultiplier=_exponentMultiplier;
-@property(nonatomic) float maximumPower; // @synthesize maximumPower=_maximumPower;
-@property(nonatomic) float minimumPower; // @synthesize minimumPower=_minimumPower;
-@property(readonly, nonatomic) _Bool usesAttackAndDecaySpeed; // @synthesize usesAttackAndDecaySpeed=_usesAttackAndDecaySpeed;
 @property(readonly, nonatomic) _Bool usesExponentialCurve; // @synthesize usesExponentialCurve=_usesExponentialCurve;
 
 @end

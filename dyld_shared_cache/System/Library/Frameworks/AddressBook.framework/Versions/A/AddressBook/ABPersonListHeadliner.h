@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface ABPersonListHeadliner
 {
     NSMutableDictionary *_sectionTableEntries;
-    long long _sectioningThreshold;
-    unsigned long long _countLabelThreshold;
-    unsigned long long _numberOfMeCards;
-    _Bool _vibrantHeaders;
 }
 
 - (_Bool);
@@ -28,22 +24,12 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (void)¡@Ð!È@ùÑ©ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long countLabelThreshold; // @synthesize countLabelThreshold=_countLabelThreshold;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long numberOfMeCards; // @synthesize numberOfMeCards=_numberOfMeCards;
-@property(nonatomic) long long sectioningThreshold; // @synthesize sectioningThreshold=_sectioningThreshold;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool vibrantHeaders; // @synthesize vibrantHeaders=_vibrantHeaders;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSTabDraggingInfo
+- (struct CGPoint);
 @end
 

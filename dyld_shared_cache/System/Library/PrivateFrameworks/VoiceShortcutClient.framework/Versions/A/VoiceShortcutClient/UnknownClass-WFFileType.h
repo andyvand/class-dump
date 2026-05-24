@@ -7,7 +7,7 @@
 @class WFFileType;
 
 @interface UnknownClass (WFFileType)
-- (id);
+- (id)|;
 
 // Remaining properties
 @property(readonly, nonatomic) WFFileType *wfFileType;

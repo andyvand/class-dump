@@ -4,55 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBFloatArray, NSObject, NSString;
+@class CBFloatArray, NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBPILParams
 {
     NSObject<OS_os_log> *_logHandle;
-    unsigned int _minHWDutyCycle;
-    unsigned int _maxHWDutyCycle;
-    unsigned int _knownNits;
-    float _knownDutyCycle;
-    CBFloatArray *_curveLux;
-    CBFloatArray *_curveNits;
-    unsigned long long _transport;
-    unsigned long long _stateSource;
-    unsigned long long _controlType;
 }
 
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (unsigned int);
 - (float);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long controlType; // @synthesize controlType=_controlType;
 @property(readonly) CBFloatArray *curveLux; // @synthesize curveLux=_curveLux;
-@property(readonly) CBFloatArray *curveNits; // @synthesize curveNits=_curveNits;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) float knownDutyCycle; // @synthesize knownDutyCycle=_knownDutyCycle;
-@property(readonly) unsigned int knownNits; // @synthesize knownNits=_knownNits;
-@property(readonly) unsigned int maxHWDutyCycle; // @synthesize maxHWDutyCycle=_maxHWDutyCycle;
-@property(readonly) unsigned int minHWDutyCycle; // @synthesize minHWDutyCycle=_minHWDutyCycle;
-@property(readonly) unsigned long long stateSource; // @synthesize stateSource=_stateSource;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long transport; // @synthesize transport=_transport;
 
 @end
 

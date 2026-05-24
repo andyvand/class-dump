@@ -12,9 +12,9 @@
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)sions/A/Network;
 
 // Remaining properties
 @property(retain, nonatomic) ITLibModelKind *libModelKind; // @synthesize libModelKind=_libModelKind;

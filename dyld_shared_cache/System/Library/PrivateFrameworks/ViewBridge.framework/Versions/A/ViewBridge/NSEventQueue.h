@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSEventQueue
 {
     NSMutableArray *_events;
-    unsigned long long _capacity;
-    struct os_unfair_lock_s _retainReleaseLock;
 }
 
 + (_Bool);
@@ -25,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (oneway void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

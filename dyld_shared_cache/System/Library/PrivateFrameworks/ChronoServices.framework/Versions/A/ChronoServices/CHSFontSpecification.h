@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CHSFontSpecification
 {
     NSString *_name;
-    unsigned long long _design;
-    NSNumber *_size;
-    NSNumber *_weight;
-    NSArray *_fontFeatures;
 }
 
-+ (_Bool);
++ (_Bool)setCacheController: /* Error: Ran out of types for this method. */;
+- (void)`j?;
+- (id);
+- (id);
+- (id)!;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)*a;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)t;
 - (id);
 - (void);
 - (void);
@@ -37,18 +33,7 @@
 - (unsigned long long)*ú;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long design; // @synthesize design=_design;
-@property(copy, nonatomic) NSArray *fontFeatures; // @synthesize fontFeatures=_fontFeatures;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSNumber *size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *weight; // @synthesize weight=_weight;
 
 @end
 

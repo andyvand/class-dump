@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     unsigned long long _pressSource;
 }
 
-- (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)subService;
+- (unsigned long long)chatRecordZone;
+- (void)_chatBotRecoverableMessageRecordZone;
 - (id);
+- (void)splayNameMismatch;
 - (void);
-- (void);
-- (void)OffSwitchLabelsDidChangeNotification;
+- (void)UIAccessibilityOnOffSwitchLabelsDidChangeNotification;
 - (void)Receded Background Min Scale;
-- (void)barKeyboardAssistant;
+- (void)ToolbarKeyboardAssistant;
 - (void)\O;
 
 // Remaining properties

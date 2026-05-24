@@ -6,12 +6,11 @@
 
 #import <Silex/SXComponentView.h>
 
-@class NSString, SXTextView;
+@class SXTextView;
 
 @interface SXButtonComponentView : SXComponentView
 {
     SXTextView *_textView;
-    struct CGRect _typographicBounds;
 }
 
 - (id);
@@ -27,25 +26,17 @@
 - (_Bool);
 - (void);
 - (struct CGRect);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void)@16{CGPoint=dd}24;
-- (id)rTiling: /* Error: Ran out of types for this method. */;
+- (id)interactiveCanvasController:expandVisibleBoundsForTiling: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) SXTextView *textView; // @synthesize textView=_textView;
-@property(nonatomic) struct CGRect typographicBounds; // @synthesize typographicBounds=_typographicBounds;
 
 @end
 

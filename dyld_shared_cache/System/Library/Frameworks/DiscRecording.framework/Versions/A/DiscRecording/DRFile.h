@@ -25,13 +25,13 @@
 - (struct DRFileObject *);
 - (void);
 - (id);
-- (id);
+- (id)tleStyle;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)Framework;
+- (unsigned long long)--- ------------;
 
 @end
 

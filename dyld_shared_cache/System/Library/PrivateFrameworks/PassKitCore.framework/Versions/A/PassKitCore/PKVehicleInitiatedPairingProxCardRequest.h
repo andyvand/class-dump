@@ -11,7 +11,6 @@
 @interface PKVehicleInitiatedPairingProxCardRequest : PKProxCardRequest
 {
     PKCarUnlockSupportedTerminal *_supportedTerminal;
-    unsigned long long _referralSource;
 }
 
 + (_Bool);
@@ -19,11 +18,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (void)pFeatureTypeAppleCard;
+- (void)cellularPowerCostUploadAsString:(id)arg1;
+- (void)PKPaymentSetupFeatureTypeAppleCard;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long referralSource; // @synthesize referralSource=_referralSource;
 @property(readonly, nonatomic) PKCarUnlockSupportedTerminal *supportedTerminal; // @synthesize supportedTerminal=_supportedTerminal;
 
 @end

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSError;
+@class CLLocation;
 
 @protocol IMLocationManager
+- (void)A9(;
 - (CLLocation *)× ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CLLocation *currentLocation;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) CLLocation *location;
-@property(readonly, nonatomic) _Bool locationAuthorizationDenied;
 @property(readonly, nonatomic) _Bool locationAuthorizationDetermined;
-@property(readonly, nonatomic) _Bool preciseLocationAuthorized;
 @end
 

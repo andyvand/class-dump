@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRVectorTimestamp, NSMutableDictionary, NSUUID;
+@class ICCRVectorTimestamp;
 
 @interface ICCRDocument
 {
     ICCRVectorTimestamp *_version;
-    ICCRVectorTimestamp *_startVersion;
-    NSUUID *_replica;
-    id _rootObject;
-    NSMutableDictionary *_objects;
-    long long _replicaClock;
-    long long _unserializedReplicaClock;
 }
 
 + (id);
@@ -46,18 +40,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)ôñ;
 - (void)FDocumentCreateWithURL returned nil. Attachment:(id)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *objects; // @synthesize objects=_objects;
-@property(readonly, nonatomic) NSUUID *replica; // @synthesize replica=_replica;
-@property(readonly, nonatomic) long long replicaClock; // @synthesize replicaClock=_replicaClock;
-@property(retain, nonatomic) id rootObject; // @synthesize rootObject=_rootObject;
-@property(readonly, nonatomic) ICCRVectorTimestamp *startVersion; // @synthesize startVersion=_startVersion;
-@property(nonatomic) long long unserializedReplicaClock; // @synthesize unserializedReplicaClock=_unserializedReplicaClock;
 @property(readonly, nonatomic) ICCRVectorTimestamp *version; // @synthesize version=_version;
 
 @end

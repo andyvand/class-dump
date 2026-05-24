@@ -11,12 +11,12 @@
 }
 
 + (Class);
-+ (id);
++ (id)#;
 + (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 
 @end
 

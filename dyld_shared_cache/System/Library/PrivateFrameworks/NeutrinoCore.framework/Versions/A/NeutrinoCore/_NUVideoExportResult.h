@@ -6,31 +6,20 @@
 
 #import <NeutrinoCore/_NUExportResult.h>
 
-@class NSString, NSURL, NUImageGeometry;
-@protocol NURenderStatistics;
+@class NSString;
 
 @interface _NUVideoExportResult : _NUExportResult
 {
     NSString *_digest;
 }
 
-- (void);
+- (void)__AUTH;
 - (void)!èAùÑáð1Â0@ù
 × ;
 - (id)channel:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSURL *destinationURL;
 @property(copy, nonatomic) NSString *digest; // @synthesize digest=_digest;
-@property(readonly) NUImageGeometry *geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

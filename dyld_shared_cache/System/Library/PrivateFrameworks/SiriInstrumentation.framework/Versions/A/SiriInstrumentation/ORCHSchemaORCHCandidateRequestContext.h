@@ -6,22 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHCandidateRequestCancelled, ORCHSchemaORCHCandidateRequestStarted;
+@class ORCHSchemaORCHCandidateRequestStarted;
 
 @interface ORCHSchemaORCHCandidateRequestContext : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHCandidateRequestStarted *_started;
-    ORCHSchemaORCHCandidateRequestCancelled *_cancelled;
-    _Bool _hasStarted;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)r;
+- (_Bool)webView:resource:didFailLoadingWithError:fromDataSource: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -32,21 +28,16 @@
 - (id);
 - (id);
 - (void)latedSuggestionsShownCount"b1"hasOccurredWithinHour"b1"triggerType"b1};
-- (id)unConfirmationContext;
+- (id)_appShortcutFirstRunConfirmationContext;
 - (id)setAvailabilityFromBootDimensions",&,N,V_dimensions;
-- (void)elCosts;
-- (void)electionTextCategorized;
+- (void)languageModelCosts;
+- (void)alternativeSelectionTextCategorized;
 - (id)on.plusClientEvent.usoGraphTier1;
 - (_Bool)¶ëÿ¿;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHCandidateRequestCancelled *cancelled; // @synthesize cancelled=_cancelled;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHCandidateRequestStarted *started; // @synthesize started=_started;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

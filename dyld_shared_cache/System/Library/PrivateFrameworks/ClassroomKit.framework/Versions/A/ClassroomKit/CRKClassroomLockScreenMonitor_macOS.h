@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CRKClassroomLockScreenMonitor_macOS
 {
     _Bool _classroomLockScreenVisible;
-    _Bool _classroomLockScreenActivated;
-    _Bool _classroomLockScreenWantsToDismiss;
 }
 
 - (void);
@@ -29,16 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isClassroomLockScreenActivated) _Bool classroomLockScreenActivated; // @synthesize classroomLockScreenActivated=_classroomLockScreenActivated;
 @property(nonatomic, getter=isClassroomLockScreenVisible) _Bool classroomLockScreenVisible; // @synthesize classroomLockScreenVisible=_classroomLockScreenVisible;
-@property(nonatomic) _Bool classroomLockScreenWantsToDismiss; // @synthesize classroomLockScreenWantsToDismiss=_classroomLockScreenWantsToDismiss;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

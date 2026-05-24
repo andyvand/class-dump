@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
+- (id)CNContactMetadataPersistentStoreManager;
 - (_Bool);
-- (void)ue:completion: /* Error: Ran out of types for this method. */;
+- (void)fetchWithCallbackQueue:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id drawTarget; // @synthesize drawTarget=_drawTarget;

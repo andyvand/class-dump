@@ -6,18 +6,14 @@
 
 #import <CoreMediaIO/CMIOExtensionSessionStream.h>
 
-@class CMIOExtensionPropertyState;
-
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionSessionDualStream : CMIOExtensionSessionStream
 {
     CMIOExtensionSessionStream *_primaryStream;
-    CMIOExtensionSessionStream *_secondaryStream;
-    CMIOExtensionSessionStream *_activeStream;
-    CMIOExtensionPropertyState *_cinematicFramingEnabled;
 }
 
 + (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,12 +22,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -43,9 +38,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) CMIOExtensionSessionStream *activeStream;
 @property(readonly, nonatomic) CMIOExtensionSessionStream *primaryStream;
-@property(readonly, nonatomic) CMIOExtensionSessionStream *secondaryStream;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <RunningBoardServices/RBSRequest.h>
 
-@class NSString, RBSLaunchContext;
+@class RBSLaunchContext;
 
 @interface RBSLaunchRequest : RBSRequest
 {
@@ -16,26 +16,19 @@
 + (_Bool);
 - (id);
 - (_Bool);
+- (id)8C;
 - (id);
-- (id);
+- (_Bool)P;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) RBSLaunchContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

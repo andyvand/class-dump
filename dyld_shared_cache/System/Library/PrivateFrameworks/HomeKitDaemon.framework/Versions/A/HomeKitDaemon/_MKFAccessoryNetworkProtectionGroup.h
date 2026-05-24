@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFAccessoryNetworkProtectionGroupDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFHome;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFAccessoryNetworkProtectionGroup : _MKFModel
@@ -19,32 +18,11 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (id);
 + (id);
-- (id);
+- (id)9v;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *category; // @dynamic category;
-@property(readonly, copy, nonatomic) MKFAccessoryNetworkProtectionGroupDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(copy, nonatomic) NSString *manufacturer; // @dynamic manufacturer;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *targetProtectionMode; // @dynamic targetProtectionMode;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

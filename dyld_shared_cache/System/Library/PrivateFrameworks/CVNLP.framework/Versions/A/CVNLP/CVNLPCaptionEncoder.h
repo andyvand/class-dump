@@ -11,7 +11,7 @@
     unsigned long long data_dim[4];
 }
 
-- (void);
+- (void)'D;
 - (void);
 - (void);
 - (unsigned long long);

@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id),N,V_processwideDictionary;
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)$)(;
+- (_Bool)e;
 - (id);
 - (void);
 

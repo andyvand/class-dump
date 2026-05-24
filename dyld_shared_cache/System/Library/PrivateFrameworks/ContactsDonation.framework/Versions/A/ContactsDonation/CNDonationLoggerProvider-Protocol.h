@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CNDonationAccountLogger, CNDonationAgentLogger, CNDonationAnalyticsLogger, CNDonationExtensionLogger, CNDonationManagedDuplicatesLogger, CNDonationPreferencesLogger, CNDonationToolLogger;
+@protocol CNDonationAccountLogger, CNDonationAgentLogger, CNDonationManagedDuplicatesLogger;
 
 @protocol CNDonationLoggerProvider
+- (id <CNDonationManagedDuplicatesLogger>)containerError;
+- (id <CNDonationAccountLogger>);
 
 // Remaining properties
-@property(readonly) id <CNDonationAccountLogger> accountLogger;
 @property(readonly) id <CNDonationAgentLogger> agentLogger;
-@property(readonly) id <CNDonationAnalyticsLogger> analyticsLogger;
-@property(readonly) id <CNDonationManagedDuplicatesLogger> duplicatesLogger;
-@property(readonly) id <CNDonationExtensionLogger> extensionLogger;
-@property(readonly) id <CNDonationPreferencesLogger> preferencesLogger;
-@property(readonly) id <CNDonationToolLogger> toolLogger;
 @end
 

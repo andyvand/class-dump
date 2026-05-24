@@ -6,18 +6,11 @@
 
 #import <NewsCore/FCHeadline.h>
 
-@class FCHeadlineThumbnail, NSArray, NSDictionary, NSString;
-@protocol FCChannelProviding;
+@class NSDictionary;
 
 @interface FCLocalArticleHeadline : FCHeadline
 {
     _Bool _webEmbedsEnabled;
-    FCHeadlineThumbnail *_thumbnail;
-    NSArray *_recipeIDs;
-    NSDictionary *_dictionary;
-    NSString *_path;
-    id <FCChannelProviding> _channel;
-    NSArray *_recipes;
 }
 
 - (id);
@@ -25,22 +18,22 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id)A;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)try list.;
 - (double);
 - (id);
 - (id);
@@ -48,25 +41,22 @@
 - (_Bool);
 - (_Bool);
 - (id)ype>"24@0:8@"NSArray"16 /* Error: Ran out of types for this method. */;
-- (id);
-- (id)WithData:sourceChannel:assetManager: /* Error: Ran out of types for this method. */;
-- (id)xCount;
+- (id)recipeNonAlcoholicDrinkTagID;
+- (id)initWithData:sourceChannel:assetManager: /* Error: Ran out of types for this method. */;
+- (id)_animationMaxCount;
 - (id)OutputName;
 - (id)SyncModalConfig",?,R,N;
 - (id);
 - (unsigned long long)4;
-- (id)wsletter_manager_age;
-- (id)OutputName;
-- (void)Date;
+- (id)newsletter_manager_age;
+- (id)foodForYouGroupHeadlineScoringOutputName;
+- (void)issuesNewsletterOptinLastSeenDate;
 - (struct CGSize)asn't been downloaded;
 - (id)T;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCChannelProviding> channel; // @synthesize channel=_channel;
 @property(readonly, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSArray *recipes; // @synthesize recipes=_recipes;
 
 @end
 

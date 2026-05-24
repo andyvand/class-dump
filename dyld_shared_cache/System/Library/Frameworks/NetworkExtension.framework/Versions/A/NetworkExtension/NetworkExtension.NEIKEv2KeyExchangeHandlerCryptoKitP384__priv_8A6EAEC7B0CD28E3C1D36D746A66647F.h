@@ -11,9 +11,9 @@
     id privateKey;
 }
 
-- (_Bool);
+- (_Bool)];
 - (id);
-- (void)conditions: /* Error: Ran out of types for this method. */;
+- (void)initWithOrder:result:conditions: /* Error: Ran out of types for this method. */;
 
 @end
 

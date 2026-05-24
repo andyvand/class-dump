@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUILocationTableCellView, EKUITokenAttachmentCell;
+@class EKUITokenAttachmentCell;
 
 @interface EKUIAttendeeFreeBusyInfo
 {
     int _freeBusyType;
-    EKUITokenAttachmentCell *_cell;
-    EKUILocationTableCellView *_locationView;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(retain) EKUITokenAttachmentCell *cell; // @synthesize cell=_cell;
-@property int freeBusyType; // @synthesize freeBusyType=_freeBusyType;
-@property(retain) EKUILocationTableCellView *locationView; // @synthesize locationView=_locationView;
 
 @end
 

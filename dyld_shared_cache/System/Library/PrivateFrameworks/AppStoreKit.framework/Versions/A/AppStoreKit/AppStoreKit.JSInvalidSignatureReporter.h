@@ -7,8 +7,6 @@
 @interface AppStoreKit.JSInvalidSignatureReporter
 {
     id bootstrapObserver;
-    id recorder;
-    id instanceIdentifier;
 }
 
 - (void);

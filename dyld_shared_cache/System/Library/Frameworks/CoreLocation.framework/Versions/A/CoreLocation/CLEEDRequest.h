@@ -4,32 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface CLEEDRequest
 {
     _Bool _metricSubmitted;
-    NSUUID *_ID;
-    NSString *_psapID;
-    NSDate *_requestDate;
-    long long _type;
-    long long _state;
-    NSString *_partnerID;
-    NSString *_geofenceID;
-    long long _requestStatusAtFirstUserResponse;
-    long long _requestTransmissionTime;
-    double _requestReceivedTime;
-    double _receivedTimeToFirstUserResponse;
-    double _receivedTimeToAcceptTime;
-    long long _numMediaSelectIterations;
 }
 
 + (_Bool);
 + (id);
-+ (long long);
++ (long long)W;
 + (id);
 + (long long);
-+ (id);
++ (id);
 + (long long);
 + (id);
 + (id);
@@ -44,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (long long);
@@ -52,41 +39,29 @@
 - (double);
 - (id);
 - (id);
-- (long long);
+- (long long)W~;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (double);
-- (void);
+- (void)R failed to read v2 header (%d bytes) expected:%d
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
+- (long long);
 - (long long);
-- (long long);
 - (void);
 - (id);
-- (id);
+- (id)container_perform_data_migration_for_current_user;
 - (id)nly}s};
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSUUID *ID; // @synthesize ID=_ID;
-@property(readonly, retain, nonatomic) NSString *geofenceID; // @synthesize geofenceID=_geofenceID;
-@property(nonatomic) _Bool metricSubmitted; // @synthesize metricSubmitted=_metricSubmitted;
-@property(nonatomic) long long numMediaSelectIterations; // @synthesize numMediaSelectIterations=_numMediaSelectIterations;
 @property(readonly, retain, nonatomic) NSString *partnerID; // @synthesize partnerID=_partnerID;
-@property(readonly, retain, nonatomic) NSString *psapID; // @synthesize psapID=_psapID;
-@property(nonatomic) double receivedTimeToAcceptTime; // @synthesize receivedTimeToAcceptTime=_receivedTimeToAcceptTime;
-@property(nonatomic) double receivedTimeToFirstUserResponse; // @synthesize receivedTimeToFirstUserResponse=_receivedTimeToFirstUserResponse;
-@property(readonly, retain, nonatomic) NSDate *requestDate; // @synthesize requestDate=_requestDate;
-@property(nonatomic) double requestReceivedTime; // @synthesize requestReceivedTime=_requestReceivedTime;
-@property(nonatomic) long long requestStatusAtFirstUserResponse; // @synthesize requestStatusAtFirstUserResponse=_requestStatusAtFirstUserResponse;
-@property(nonatomic) long long requestTransmissionTime; // @synthesize requestTransmissionTime=_requestTransmissionTime;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

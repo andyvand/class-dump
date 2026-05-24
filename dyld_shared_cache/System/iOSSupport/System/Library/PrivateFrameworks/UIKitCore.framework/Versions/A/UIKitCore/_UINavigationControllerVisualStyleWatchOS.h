@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     id <UIViewControllerInteractiveTransitioning> _interactionController;
 }
 
-- (id);
+- (id)_tearDownNotifications;
 - (void)@ù
 × ;
 - (_Bool)ldPresent"B"shouldAllowDragAfterDismiss"B"shouldAllowSwipeToDismiss"B"shouldDeferCommitAnimation"B"interactionEffectForTargetedPreview"B"shouldAttemptToPresentConfiguration"B"didPerformMenuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};

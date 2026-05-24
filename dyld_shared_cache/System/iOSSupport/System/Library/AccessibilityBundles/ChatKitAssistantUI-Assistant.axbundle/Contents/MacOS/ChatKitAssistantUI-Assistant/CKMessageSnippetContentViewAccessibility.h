@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id);
 - (void);
-- (_Bool);
+- (_Bool)l;
 - (id);
 
 @end

@@ -10,10 +10,10 @@
 {
 }
 
-- (id);
+- (id)H;
 - (void);
 - (id);
-- (void)esenter;
+- (void)TTRRemindersListEditableSectionNameEditingPresenter;
 - (void)ÿûø ;
 
 @end

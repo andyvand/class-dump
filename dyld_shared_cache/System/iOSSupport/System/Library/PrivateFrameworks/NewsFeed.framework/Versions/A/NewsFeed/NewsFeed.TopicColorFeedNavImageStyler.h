@@ -7,7 +7,6 @@
 @interface NewsFeed.TopicColorFeedNavImageStyler
 {
     id tagColor;
-    id feedNavImageStyler;
 }
 
 @end

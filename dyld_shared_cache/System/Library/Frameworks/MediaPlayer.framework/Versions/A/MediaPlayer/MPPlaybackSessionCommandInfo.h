@@ -9,22 +9,18 @@
 @interface MPPlaybackSessionCommandInfo
 {
     NSString *_identifier;
-    NSString *_revision;
-    long long _priority;
 }
 
 + (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_mainEventHandlerIsInTrackingLoop;
 - (id);
-- (void)oadBestRepresentationIfNeededOfKind: /* Error: Ran out of types for this method. */;
-- (id)gCount_KEY;
+- (void)_loadBestRepresentationIfNeededOfKind: /* Error: Ran out of types for this method. */;
+- (id)__cleanDownloadedSongCount_KEY;
 - (long long)ueue;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, copy, nonatomic) NSString *revision; // @synthesize revision=_revision;
 
 @end
 

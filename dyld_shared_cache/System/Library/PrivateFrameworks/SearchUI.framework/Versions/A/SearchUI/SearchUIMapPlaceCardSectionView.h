@@ -6,12 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class NSString, SearchUIMapsViewController;
+@class SearchUIMapsViewController;
 
 @interface SearchUIMapPlaceCardSectionView : SearchUICardSectionView
 {
     _Bool _alreadyDispatchedOnMainQueue;
-    SearchUIMapsViewController *_mapViewController;
 }
 
 - (void);
@@ -28,19 +27,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 
 // Remaining properties
-@property _Bool alreadyDispatchedOnMainQueue; // @synthesize alreadyDispatchedOnMainQueue=_alreadyDispatchedOnMainQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) SearchUIMapsViewController *mapViewController; // @synthesize mapViewController=_mapViewController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -20,7 +20,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSMutableDictionary *alternatesByFamily;
 @property(readonly, copy, nonatomic) NSMutableDictionary *metricsByFamily;
 
 @end

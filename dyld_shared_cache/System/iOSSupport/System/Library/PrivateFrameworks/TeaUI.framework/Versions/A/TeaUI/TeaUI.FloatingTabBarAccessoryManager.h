@@ -7,12 +7,6 @@
 @interface TeaUI.FloatingTabBarAccessoryManager
 {
     id delegate;
-    id containerView;
-    id expandedViewController;
-    id accessoryPresentationMode;
-    id commandCenter;
-    id accessoryStack;
-    id currentAccessoryContentView;
 }
 
 @end

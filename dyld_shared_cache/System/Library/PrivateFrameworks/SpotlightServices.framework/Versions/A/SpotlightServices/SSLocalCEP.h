@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)initWithName:(id)arg1 value: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithHost:(id)arg1 media:style:posterFrame:posterFrameStyle:configuration: /* Error: Ran out of types for this method. */;
++ (id)configureButton:withAction: /* Error: Ran out of types for this method. */;
 
 @end
 

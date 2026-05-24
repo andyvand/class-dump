@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MRVirtualOutputContextManager
 {
     NSMutableDictionary *_ouputContextMap;
-    NSArray *_outputContext;
 }
 
 + (id);
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void)N,V_supportsOutputContextSync;
-- (id)nown;
+- (id)Unknown;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *outputContext; // @synthesize outputContext=_outputContext;

@@ -9,14 +9,6 @@
 @interface MPSNDArrayPoolingKernel : MPSNDArrayUnaryKernel
 {
     _Bool _disablePostfixReturnIndices;
-    _Bool _poolingGradientWithIndices;
-    int _poolingMode;
-    int _poolingReturnIndicesMode;
-    unsigned int _poolingReturnIndicesDataType;
-    struct MPSNDArrayPoolingSizes_s _poolingKernelSizes;
-    struct MPSNDArrayPoolingOffsets_s _poolingOffsets;
-    struct MPSNDArrayPoolingSizes_s _poolingStrides;
-    struct MPSNDArrayPoolingSizes_s _poolingDilationRates;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -47,14 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct MPSNDArrayPoolingSizes_s poolingDilationRates; // @synthesize poolingDilationRates=_poolingDilationRates;
-@property(nonatomic) _Bool poolingGradientWithIndices; // @synthesize poolingGradientWithIndices=_poolingGradientWithIndices;
 @property(readonly, nonatomic) struct MPSNDArrayPoolingSizes_s poolingKernelSizes; // @synthesize poolingKernelSizes=_poolingKernelSizes;
-@property(readonly, nonatomic) int poolingMode; // @synthesize poolingMode=_poolingMode;
-@property(nonatomic) struct MPSNDArrayPoolingOffsets_s poolingOffsets; // @synthesize poolingOffsets=_poolingOffsets;
-@property(nonatomic) unsigned int poolingReturnIndicesDataType; // @synthesize poolingReturnIndicesDataType=_poolingReturnIndicesDataType;
-@property(nonatomic) int poolingReturnIndicesMode; // @synthesize poolingReturnIndicesMode=_poolingReturnIndicesMode;
-@property(nonatomic) struct MPSNDArrayPoolingSizes_s poolingStrides; // @synthesize poolingStrides=_poolingStrides;
 
 @end
 

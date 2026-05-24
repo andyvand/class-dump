@@ -7,9 +7,9 @@
 @class AFAssertionContext, NSUUID;
 
 @protocol AFAssertion
+- (AFAssertionContext *)(;
 
 // Remaining properties
-@property(readonly, nonatomic) AFAssertionContext *context;
 @property(readonly, nonatomic) NSUUID *uuid;
 @end
 

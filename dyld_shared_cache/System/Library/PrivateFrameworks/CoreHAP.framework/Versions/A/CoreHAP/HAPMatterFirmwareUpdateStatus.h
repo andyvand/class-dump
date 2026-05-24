@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPOTAProviderStateWrapper, HAPTLVUnsignedNumberValue, NSString;
+@class HAPOTAProviderStateWrapper;
 
 @interface HAPMatterFirmwareUpdateStatus
 {
     HAPOTAProviderStateWrapper *_OTAProviderState;
-    HAPTLVUnsignedNumberValue *_downloadedFirmwareVersionNumber;
-    HAPTLVUnsignedNumberValue *_accessoryDownloadProgressPercent;
 }
 
 + (id);
@@ -20,26 +18,17 @@
 - (id);
 - (id);
 - (id);
+- (id)a@9;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)dable"16;
 - (_Bool);
 - (id);
 - (void)essory>"16;
 
 // Remaining properties
 @property(retain, nonatomic) HAPOTAProviderStateWrapper *OTAProviderState; // @synthesize OTAProviderState=_OTAProviderState;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *accessoryDownloadProgressPercent; // @synthesize accessoryDownloadProgressPercent=_accessoryDownloadProgressPercent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *downloadedFirmwareVersionNumber; // @synthesize downloadedFirmwareVersionNumber=_downloadedFirmwareVersionNumber;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

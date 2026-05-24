@@ -7,7 +7,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)ReachableBlock;
+- (void);
+- (void)networkReachableBlock;
 - (void)igration finishes.;
 @end
 

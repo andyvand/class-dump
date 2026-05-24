@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGPetWallpaperSuggester.h>
 
-@class NSString, PGPetWallpaperSuggesterFilteringContext;
+@class PGPetWallpaperSuggesterFilteringContext;
 
 @interface PGAmbientPetWallpaperSuggester : PGPetWallpaperSuggester
 {
@@ -14,18 +14,10 @@
 
 + (id);
 + (id);
-- (void);
+- (void)compare: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PGPetWallpaperSuggesterFilteringContext *primaryFilteringContext;
-@property(retain, nonatomic) PGPetWallpaperSuggesterFilteringContext *secondaryFilteringContext;
-@property(readonly) Class superclass;
 
 @end
 

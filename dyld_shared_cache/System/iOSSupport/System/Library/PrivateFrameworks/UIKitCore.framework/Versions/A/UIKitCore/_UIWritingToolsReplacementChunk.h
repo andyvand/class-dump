@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _UIWritingToolsReplacementChunk
 {
     NSUUID *_uuid;
-    NSAttributedString *_replacement;
-    long long _lengthDelta;
-    long long _originalEndIndex;
-    struct _NSRange _originalRange;
 }
 
 - (long long);
@@ -26,10 +22,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long lengthDelta; // @synthesize lengthDelta=_lengthDelta;
-@property(readonly, nonatomic) long long originalEndIndex; // @synthesize originalEndIndex=_originalEndIndex;
-@property(readonly, nonatomic) struct _NSRange originalRange; // @synthesize originalRange=_originalRange;
-@property(readonly, copy, nonatomic) NSAttributedString *replacement; // @synthesize replacement=_replacement;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

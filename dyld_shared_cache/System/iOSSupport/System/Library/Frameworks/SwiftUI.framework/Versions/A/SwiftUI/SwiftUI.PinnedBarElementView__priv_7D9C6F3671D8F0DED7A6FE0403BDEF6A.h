@@ -7,8 +7,6 @@
 @interface SwiftUI.PinnedBarElementView__priv_7D9C6F3671D8F0DED7A6FE0403BDEF6A
 {
     id edge;
-    id style;
-    id pocketInteraction;
 }
 
 - (id);

@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PXStoryMockMovieHighlight
 {
     _Bool _hasFace;
-    _Bool _hasVoice;
-    _Bool _hasMusic;
-    float _qualityScore;
-    float _loudness;
-    float _peakVolume;
-    float _audioQualityScore;
-    NSData *_normalizationData;
-    struct CGRect _bestPlaybackRect;
-    CDStruct_e83c9415 _timeRange;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (float);
@@ -32,16 +21,16 @@
 - (float);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (CDStruct_e83c9415);
 - (float);
 - (CDStruct_e83c9415);
 - (void);
-- (_Bool);
+- (_Bool)J;
 - (struct CGRect);
 - (_Bool);
-- (void);
+- (void)˟;
 - (void);
 - (float);
 - (id);
@@ -50,15 +39,6 @@
 - (void)øþ]ó²p.üþ}ó²l.üþ=ó²h.üþ]ó²#ÿýò²0üþ}ó²xÿÿÿµó²LLnÿ;
 
 // Remaining properties
-@property(nonatomic) float audioQualityScore; // @synthesize audioQualityScore=_audioQualityScore;
-@property(nonatomic) struct CGRect bestPlaybackRect; // @synthesize bestPlaybackRect=_bestPlaybackRect;
-@property(nonatomic) _Bool hasFace; // @synthesize hasFace=_hasFace;
-@property(nonatomic) _Bool hasMusic; // @synthesize hasMusic=_hasMusic;
-@property(nonatomic) _Bool hasVoice; // @synthesize hasVoice=_hasVoice;
-@property(nonatomic) float loudness; // @synthesize loudness=_loudness;
-@property(retain, nonatomic) NSData *normalizationData; // @synthesize normalizationData=_normalizationData;
-@property(nonatomic) float peakVolume; // @synthesize peakVolume=_peakVolume;
-@property(nonatomic) float qualityScore; // @synthesize qualityScore=_qualityScore;
 @property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
 
 @end

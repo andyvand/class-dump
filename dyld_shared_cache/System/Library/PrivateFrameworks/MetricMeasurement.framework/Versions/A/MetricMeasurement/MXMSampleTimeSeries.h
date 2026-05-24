@@ -12,12 +12,12 @@
 }
 
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)''U;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)nJ;
 
 @end
 

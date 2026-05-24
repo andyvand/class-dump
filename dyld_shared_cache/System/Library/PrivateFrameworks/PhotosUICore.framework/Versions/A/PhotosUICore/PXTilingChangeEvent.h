@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXTilingLayout, PXTilingLayoutInvalidationContext;
-
 @interface PXTilingChangeEvent
 {
     long long _type;
-    PXTilingLayout *_layout;
-    PXTilingLayoutInvalidationContext *_context;
-    struct CGSize _referenceSize;
-    struct NSEdgeInsets _contentInset;
 }
 
 - (id);
@@ -24,17 +18,13 @@
 - (id);
 - (id);
 - (struct NSEdgeInsets);
-- (long long);
+- (long long)AssetPlayerDelegate>",&,V_delegate;
 - (id);
 - (id)@:%p>]
  /* Error: Ran out of types for this method. */;
 - (void)`~ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSEdgeInsets contentInset; // @synthesize contentInset=_contentInset;
-@property(readonly, nonatomic) PXTilingLayoutInvalidationContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) PXTilingLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) struct CGSize referenceSize; // @synthesize referenceSize=_referenceSize;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @interface STYPerformanceChecker
 {
     _Bool _underMemoryPressure;
-    _Bool _underThermalPressure;
-    NSDictionary *_perfCheckerErrors;
-    NSObject<OS_dispatch_queue> *_serialUtilityQueue;
 }
 
 + (id);
@@ -25,18 +21,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)H! ;
+- (void)NSt3__118__weak_result_typeIPFNS_6vectorINS_4pairIPN15InputTranscoder8PathTrieENS3_20CTCSurfaceFormOutputEEENS_9allocatorIS7_EEEERKNS_12basic_stringIcNS_11char_traitsIcEENS8_IcEEEERKSA_EEE;
+- (id)dataDirectoryWithError: /* Error: Ran out of types for this method. */;
+- (void)nnection :(long long)arg1 %@;
 - (void);
 - (long long);
 
 // Remaining properties
 @property(retain) NSDictionary *perfCheckerErrors; // @synthesize perfCheckerErrors=_perfCheckerErrors;
-@property(retain) NSObject<OS_dispatch_queue> *serialUtilityQueue; // @synthesize serialUtilityQueue=_serialUtilityQueue;
-@property _Bool underMemoryPressure; // @synthesize underMemoryPressure=_underMemoryPressure;
-@property _Bool underThermalPressure; // @synthesize underThermalPressure=_underThermalPressure;
 
 @end
 

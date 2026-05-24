@@ -7,10 +7,6 @@
 @interface NewsSubscription.AlacartePaywallViewModelFactory
 {
     id learnMoreURL;
-    id webAuthButtonTitle;
-    id configurationManager;
-    id purchaseController;
-    id purchaseProvider;
 }
 
 @end

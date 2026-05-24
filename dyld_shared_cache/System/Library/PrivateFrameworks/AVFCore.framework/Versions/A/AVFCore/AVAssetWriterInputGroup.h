@@ -6,18 +6,18 @@
 
 #import <AVFCore/AVMediaSelectionGroup.h>
 
-@class AVAssetWriterInput, AVAssetWriterInputGroupInternal, NSArray;
+@class AVAssetWriterInputGroupInternal, NSArray;
 
 @interface AVAssetWriterInputGroup : AVMediaSelectionGroup
 {
     AVAssetWriterInputGroupInternal *_internal;
 }
 
-+ (id);
-+ (id);
++ (id)׽;
++ (id)ڷ;
 - (id);
 - (id);
-- (id);
+- (id)@JLL;
 - (id);
 - (void);
 - (void);
@@ -30,8 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) AVAssetWriterInput *defaultInput;
-@property(readonly, nonatomic) NSArray *inputs;
 @property(readonly, nonatomic) NSArray *provisionalInputs;
 
 @end

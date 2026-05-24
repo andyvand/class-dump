@@ -5,9 +5,9 @@
 //
 
 @protocol TabDialogPresenter
+- (void)_;
 
 // Remaining properties
-@property(readonly, nonatomic) long long currentTabDialogType;
 @property(readonly, nonatomic, getter=isShowingTabDialog) _Bool showingTabDialog;
 @end
 

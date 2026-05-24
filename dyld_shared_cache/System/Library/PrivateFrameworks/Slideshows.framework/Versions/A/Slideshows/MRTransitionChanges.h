@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCTransitionTrigger, MRGesturePanZoomRotation, MRLayer;
+@class MRLayer;
 
 @interface MRTransitionChanges
 {
     double startTime;
-    double duration;
-    _Bool isBackwards;
-    MRLayer *_currentSublayer;
-    MRLayer *_nextSublayer;
-    MCTransitionTrigger *_transition;
-    MRGesturePanZoomRotation *_pzr;
 }
 
 - (void);
@@ -24,16 +18,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)localizedName;
 - (void)_FragColor = color * factorColor + offsetColor; 
 		} 
 		;
 
 // Remaining properties
 @property(retain) MRLayer *currentSublayer; // @synthesize currentSublayer=_currentSublayer;
-@property(retain) MRLayer *nextSublayer; // @synthesize nextSublayer=_nextSublayer;
-@property(retain) MRGesturePanZoomRotation *pzr; // @synthesize pzr=_pzr;
-@property(retain) MCTransitionTrigger *transition; // @synthesize transition=_transition;
 
 @end
 

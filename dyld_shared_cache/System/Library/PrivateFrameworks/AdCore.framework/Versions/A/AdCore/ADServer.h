@@ -6,21 +6,18 @@
 
 #import <AdCore/ADSingleton.h>
 
-@class NSDictionary, NSString, NSURLSession;
+@class NSURLSession;
 
 @interface ADServer : ADSingleton
 {
     int _configurationExpirationTime;
-    NSDictionary *_configurations;
-    NSString *_resourceConnectProxyURL;
-    NSURLSession *_session;
 }
 
 + (id);
 + (id);
-+ (void);
++ (void)RTTServiceUpdateTypeIncomingHold;
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (int);
 - (id);
@@ -33,25 +30,15 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)setUsesReverseZ:(int)arg1;
+- (id)outfit_scoopNeckTshirt;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)YH;
 - (void);
 
 // Remaining properties
-@property int configurationExpirationTime; // @synthesize configurationExpirationTime=_configurationExpirationTime;
-@property(retain) NSDictionary *configurations; // @synthesize configurations=_configurations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *resourceConnectProxyURL; // @synthesize resourceConnectProxyURL=_resourceConnectProxyURL;
 @property(retain) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

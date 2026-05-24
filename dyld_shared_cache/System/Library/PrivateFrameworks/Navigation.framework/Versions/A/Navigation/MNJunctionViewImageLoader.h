@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface MNJunctionViewImageLoader
 {
     NSArray *_preloadEvents;
-    double _imageWidth;
-    double _imageHeight;
 }
 
 - (void);
 - (void);
+- (void)eferenceKey;
+- (id);
+- (id)(a;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)vate received an XPC_ERROR_CONNECTION_INVALID error.
+;
 - (void)32;
 
 @end

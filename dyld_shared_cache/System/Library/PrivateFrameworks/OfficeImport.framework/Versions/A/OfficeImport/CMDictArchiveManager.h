@@ -6,27 +6,22 @@
 
 #import <OfficeImport/CMStylingArchiveManager.h>
 
-@class NSMutableDictionary, NSMutableString, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CMDictArchiveManager : CMStylingArchiveManager
 {
     NSMutableDictionary *mResources;
-    NSString *mPrefix;
-    NSString *mResourceUrlProtocol;
-    NSMutableString *mMainHtml;
-    NSString *mName;
-    _Bool mIsFrameset;
 }
 
 - (void);
-- (id);
+- (id)qB;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);

@@ -6,15 +6,14 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSItemIdType, NSArray;
+@class EWSItemIdType;
 
 @interface EWSCreateAttachmentType : EWSBaseRequestType
 {
     EWSItemIdType *_ParentItemId;
-    NSArray *_Attachments;
 }
 
-+ (id);
++ (id)SbGGG_A0_yytAAyA1_yADyADyA2FGAFGGA4_GGtGQo_;
 - (void);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 - (void)-;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *Attachments; // @synthesize Attachments=_Attachments;
 @property(retain, nonatomic) EWSItemIdType *ParentItemId; // @synthesize ParentItemId=_ParentItemId;
 
 @end

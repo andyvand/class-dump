@@ -9,10 +9,9 @@
 @interface GCFrontmostApplicationObserver
 {
     int _frontmostPid;
-    id <GCFrontmostApplicationObserverDelegate> _delegate;
 }
 
-+ (void)ed;
++ (void)_videoRecordingEnabled;
 
 // Remaining properties
 @property(nonatomic) __weak id <GCFrontmostApplicationObserverDelegate> delegate; // @synthesize delegate=_delegate;

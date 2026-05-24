@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata_StorageContext, NSString, NSUUID;
+@class NSString;
 
 @interface BlastDoorMetadata
 {
@@ -23,12 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool has_timestamp;
-@property(nonatomic, readonly) NSUUID *messageGUID;
-@property(nonatomic, readonly) BlastDoorMetadata_StorageContext *storageContext;
-@property(nonatomic, readonly) unsigned long long timestamp;
-@property(nonatomic, readonly) _Bool wantsCheckpointing;
-@property(nonatomic, readonly) _Bool wantsDeliveryReceipt;
 
 @end
 

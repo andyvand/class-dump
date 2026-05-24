@@ -5,15 +5,10 @@
 //
 
 @class UITouch;
-@protocol PKDrawingGestureRecognizerDelegate, PKDrawingGestureTarget;
 
 @protocol PKDrawingGestureRecognizerProtocol
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activeInputProperties;
-@property(nonatomic) __weak id <PKDrawingGestureRecognizerDelegate> delegate;
-@property(nonatomic) __weak id <PKDrawingGestureTarget> drawingTarget;
 @property(readonly, nonatomic) UITouch *drawingTouch;
-@property(readonly, nonatomic) _Bool isReplaying;
 @end
 

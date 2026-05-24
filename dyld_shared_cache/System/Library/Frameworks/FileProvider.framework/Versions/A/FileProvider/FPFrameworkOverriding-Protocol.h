@@ -5,5 +5,10 @@
 //
 
 @protocol FPFrameworkOverriding
+
+@optional
+- (void)M;
+- (void)bM;
+- (void);
 @end
 

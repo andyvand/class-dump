@@ -7,6 +7,7 @@
 @protocol _UISceneMaskingDelegate;
 
 @protocol _UISceneMaskingHostProviding
+- (id <_UISceneMaskingDelegate>)removeMessage:fromChat: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UISceneMaskingDelegate> _sceneMaskingHost;

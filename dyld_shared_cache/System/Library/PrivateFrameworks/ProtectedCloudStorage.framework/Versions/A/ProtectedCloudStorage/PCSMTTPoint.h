@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PCSMTT;
+@class PCSMTT;
 
 @interface PCSMTTPoint
 {
     _Bool _success;
-    NSString *_name;
-    double _time;
-    PCSMTT *_mtt;
-    NSDate *_start;
 }
 
-+ (_Bool);
++ (_Bool)h;
 - (id);
+- (void)Tj;
+- (id)8hjh8?;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (double);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)R<;
+- (void)nvalid CFBundleTypeRole value in %@ (%@ - should be %@);
 - (void);
 
 // Remaining properties
 @property __weak PCSMTT *mtt; // @synthesize mtt=_mtt;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSDate *start; // @synthesize start=_start;
-@property(readonly) _Bool success; // @synthesize success=_success;
-@property(readonly) double time; // @synthesize time=_time;
 
 @end
 

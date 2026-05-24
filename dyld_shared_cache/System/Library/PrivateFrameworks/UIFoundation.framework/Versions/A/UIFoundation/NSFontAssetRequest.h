@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSProgress, NSString;
+@class NSArray;
 
 @interface NSFontAssetRequest
 {
     NSArray *_sourceFontDescriptors;
-    NSMutableArray *_downloadedFontDescriptors;
-    NSProgress *_progress;
-    unsigned long long _options;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)*�r	;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSArray *downloadedFontDescriptors; // @synthesize downloadedFontDescriptors=_downloadedFontDescriptors;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSProgress *progress;
-@property(readonly) Class superclass;
 
 @end
 

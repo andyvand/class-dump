@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 @protocol SFCollectionStyle
+- (unsigned long long)*;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(nonatomic) unsigned long long initiallyVisibleCardSectionCount;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

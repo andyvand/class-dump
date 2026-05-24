@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSNumber, NSString;
-
 @interface INGetCarLockStatusIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)_thumbnailRequestGenerationWillStartBlock;
++ (int)initWithFileIdentifier:(long long)arg1 version: /* Error: Ran out of types for this method. */;
++ (long long)m;
++ (_Bool)QLThumbnailAdditionIndexInterface;
 + (_Bool);
 - (void);
 - (id);
@@ -23,25 +21,17 @@
 - (id);
 - (long long);
 - (id);
+- (id)Coding>",R,V_identifier;
+- (id);
+- (void)b-80ce-f45c89abb0d9;
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long)t;
+- (long long)INRestaurantResolutionResult;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *locked;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface PXCachingLayoutGenerator
 {
     _Bool _isValid;
-    struct CGSize _contentSize;
-    struct CGRect *_itemRects;
-    long long *_itemKinds;
-    float *_zPositions;
-    long long _itemCapacity;
 }
 
 - (void);

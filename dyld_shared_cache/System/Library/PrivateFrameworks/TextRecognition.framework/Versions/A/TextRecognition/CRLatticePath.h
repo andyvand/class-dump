@@ -9,12 +9,6 @@
 @interface CRLatticePath
 {
     NSArray *_edges;
-    double _lexiconScore;
-    double _cnnScore;
-    double _ngramScore;
-    double _geometryScore;
-    double _patternScore;
-    double _totalScore;
 }
 
 - (double);
@@ -29,13 +23,7 @@
 - (void)@"CRTextDetectorResults";
 
 // Remaining properties
-@property(readonly) double cnnScore; // @synthesize cnnScore=_cnnScore;
 @property(readonly, nonatomic) NSArray *edges; // @synthesize edges=_edges;
-@property(readonly) double geometryScore; // @synthesize geometryScore=_geometryScore;
-@property(readonly) double lexiconScore; // @synthesize lexiconScore=_lexiconScore;
-@property(readonly) double ngramScore; // @synthesize ngramScore=_ngramScore;
-@property(readonly) double patternScore; // @synthesize patternScore=_patternScore;
-@property(readonly) double totalScore; // @synthesize totalScore=_totalScore;
 
 @end
 

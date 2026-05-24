@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextFormattingViewControllerConfiguration;
+@class NSSet, UITextFormattingViewControllerConfiguration;
 
 @protocol _UITextFormattingViewProviding
-- (void)thHandler:(UITextFormattingViewControllerConfiguration *)arg1 configurator: /* Error: Ran out of types for this method. */;
+- (void)timeExpressiveSendPlayed;
+- (void)stringWithString:(NSSet *)arg1;
+- (void)_updateWithHandler:(UITextFormattingViewControllerConfiguration *)arg1 configurator: /* Error: Ran out of types for this method. */;
 @end
 

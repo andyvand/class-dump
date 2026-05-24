@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class JSValue, NSString;
 
 @protocol AppStoreKit.JSMetricsIdentifiersObjectExports__priv_D90E460A7F78046F145EE488F9FEAB30
+- (JSValue *)o;
+- (JSValue *);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *currentTopic;

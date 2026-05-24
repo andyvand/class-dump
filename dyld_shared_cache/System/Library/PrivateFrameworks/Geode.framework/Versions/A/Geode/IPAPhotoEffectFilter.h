@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface IPAPhotoEffectFilter
 {
     CIImage *inputImage;
-    NSNumber *inputEffectNumber;
-    NSNumber *inputEffectVersion;
 }
 
 + (id);
-+ (void)Effect;
++ (void)DGiPhotoAntiqueEffect;
 - (_Bool);
 - (id);
 - (id);

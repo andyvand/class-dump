@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBInteger, _INPBIntentMetadata, _INPBString;
+@class _INPBDataString, _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBSetProfileInCarIntent
+- (_Bool);
+- (void)urrent;
+- (void)notNowButtonPressed:(_INPBString *)arg1;
+- (_INPBIntentMetadata *)TMSystemPathsProvider;
 - (_Bool)torProd:entityConfidenceSignalsMaxItemsToDisambiguate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName;
-@property(nonatomic) _Bool defaultProfile;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(nonatomic) _Bool hasDefaultProfile;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasProfileName;
-@property(readonly, nonatomic) _Bool hasProfileNumber;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBString *profileName;
-@property(retain, nonatomic) _INPBInteger *profileNumber;
 @end
 

@@ -6,56 +6,36 @@
 
 #import <SearchFoundation/SFText.h>
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface SFRichText : SFText
 {
     struct {
         unsigned int starRating:1;
     } _has;
-    double _starRating;
-    NSString *_contentAdvisory;
-    NSArray *_icons;
-    NSArray *_formattedTextPieces;
 }
 
 + (_Bool);
-- (id);
+- (id)h8hjh8i;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)startItemPlayParameters;
 - (unsigned long long);
 - (void);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void)_alertSystemSoundContext;
+- (id);
+- (id)ual = 0) AND ((trainingType = %d) OR (trainingType = nil))) OR ((trainingType = %d) OR (trainingType = %d) OR (trainingType = %d)));
+- (id)rankingScore_L2;
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)temTypes;
+- (void)clearActionItemTypes;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contentAdvisory; // @synthesize contentAdvisory=_contentAdvisory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *formattedTextPieces; // @synthesize formattedTextPieces=_formattedTextPieces;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *icons; // @synthesize icons=_icons;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long maxLines;
 @property(nonatomic) double starRating; // @synthesize starRating=_starRating;
-@property(readonly) Class superclass;
-@property(copy) NSString *text;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, NSArray, NSDateComponents, NSString;
+@class INPerson;
 
 @interface MSIntentMail
 {
@@ -12,12 +12,6 @@
 
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *bcc; // @dynamic bcc;
-@property(copy, nonatomic) NSString *body; // @dynamic body;
-@property(copy, nonatomic) NSArray *cc; // @dynamic cc;
-@property(copy, nonatomic) NSDateComponents *dateSent; // @dynamic dateSent;
 @property(copy, nonatomic) INPerson *sender; // @dynamic sender;
-@property(copy, nonatomic) NSString *subject; // @dynamic subject;
-@property(copy, nonatomic) NSArray *to; // @dynamic to;
 @end
 

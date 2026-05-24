@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCSystemButtonServer, NSString, _GCSystemButtonClientConnection;
+@class GCSystemButtonServer;
 
 __attribute__((visibility("hidden")))
 @interface _GCSystemButtonClientProxy
 {
     GCSystemButtonServer *_server;
-    _Atomic _Bool _invalid;
-    _GCSystemButtonClientConnection *_connection;
-    id _connectionInvalidationRegistration;
-    id _connectionInterruptedRegistration;
-    NSString *_wantsPressEventsReason;
-    long long _wantsPressEventsAtPriority;
 }
 
 - (_Bool);
@@ -32,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, getter=isInvalid) _Bool invalid;
-@property(readonly) _Bool wantsPressEvents;
 
 @end
 

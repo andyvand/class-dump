@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSHolidayCalendarEventService, NSDictionary, NSLocale, PGGraph, PGSearchComputationCache;
+@class PGGraph, PGSearchComputationCache;
 
 @interface PGSearchKeywordComputer
 {
     PGGraph *_graph;
-    NSDictionary *_personLocalIdentifiersBySocialGroupUUID;
-    NSLocale *_userLocale;
-    CLSHolidayCalendarEventService *_holidayService;
-    PGSearchComputationCache *_searchComputationCache;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)setValue:(id)arg1;
 - (id);
+- (id)aclRequiresPasscodeInternal;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)T;
+- (void)?d	q@;
 - (void);
 - (id);
 - (void);

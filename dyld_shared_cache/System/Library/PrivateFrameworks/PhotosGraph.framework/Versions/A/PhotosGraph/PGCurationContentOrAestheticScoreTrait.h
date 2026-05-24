@@ -11,8 +11,8 @@
     double _minimumAestheticScore;
 }
 
-- (void);
-- (double);
+- (void)Editable:(double)arg1;
+- (double);
 - (id);
 - (_Bool);
 

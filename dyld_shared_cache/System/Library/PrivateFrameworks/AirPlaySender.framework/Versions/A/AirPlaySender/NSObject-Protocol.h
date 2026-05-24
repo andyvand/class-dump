@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class);
+- (_Bool)common_Group_UnknownAgent;
+- (_Bool)UsoTaskBuilder_repeat_common_Voicemail;
+- (id)@;
+- (_Bool);
 - (struct _NSZone *)erNeedingDiscovery(FigEndpointManagerRef, FigEndpointRef);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

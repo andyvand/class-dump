@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, RTDistanceCalculator;
-
 @interface RTVisitPipelineModuleBurstNoiseFilter
 {
     _Bool _firstTimeProcessingModule;
-    NSMutableArray *_potentialNoiseLocations;
-    unsigned long long _lastProcessedIndex;
-    double _maximumFlankDistance;
-    double _minimumNoiseToLeftFlankDistance;
-    unsigned long long _maximumWindowSize;
-    double _maxHorizontalAccuracy;
-    RTDistanceCalculator *_distanceCalculator;
 }
 
 + (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)IDSMessageContextServerStorageFetchContextKey;
 - (id);
 - (id);
-- (id);
+- (id)oa;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)MessageContext"40;
 - (id);
 - (unsigned long long);
 - (void);
@@ -38,28 +29,14 @@
 × ;
 - (double)
 × ;
-- (double)idReceiveRemoteStatus:error: /* Error: Ran out of types for this method. */;
+- (double)remoteStatusRegistrar:didReceiveRemoteStatus:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ä#%Ä*+¨0;
-- (void)fTransportKey;
+- (void)RTDefaultsSMTriggerDestinationModeOfTransportKey;
 - (void)re available, fetch sessionManagerStatus;
 - (void)n notification, %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
 @property(readonly, nonatomic) _Bool firstTimeProcessingModule; // @synthesize firstTimeProcessingModule=_firstTimeProcessingModule;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long lastProcessedIndex; // @synthesize lastProcessedIndex=_lastProcessedIndex;
-@property(readonly, nonatomic) double maxHorizontalAccuracy; // @synthesize maxHorizontalAccuracy=_maxHorizontalAccuracy;
-@property(readonly, nonatomic) double maximumFlankDistance; // @synthesize maximumFlankDistance=_maximumFlankDistance;
-@property(readonly, nonatomic) unsigned long long maximumWindowSize; // @synthesize maximumWindowSize=_maximumWindowSize;
-@property(readonly, nonatomic) double minimumNoiseToLeftFlankDistance; // @synthesize minimumNoiseToLeftFlankDistance=_minimumNoiseToLeftFlankDistance;
-@property(readonly, nonatomic) NSMutableArray *potentialNoiseLocations; // @synthesize potentialNoiseLocations=_potentialNoiseLocations;
-@property(readonly) Class superclass;
 
 @end
 

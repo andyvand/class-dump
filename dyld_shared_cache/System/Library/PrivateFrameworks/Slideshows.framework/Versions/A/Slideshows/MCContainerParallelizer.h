@@ -6,21 +6,19 @@
 
 #import <Slideshows/MCContainer.h>
 
-@class NSArray, NSMutableDictionary, NSSet;
+@class NSMutableDictionary, NSSet;
 
 @interface MCContainerParallelizer : MCContainer
 {
     NSMutableDictionary *mPlugs;
-    NSArray *mCachedZOrderedPlugs;
-    struct CGColor *mBackgroundColor;
 }
 
 + (id);
-- (id);
+- (id)ploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)};
 - (void);
 - (void);
 - (id);
@@ -37,10 +35,7 @@
 - (struct CGColor *);
 
 // Remaining properties
-@property struct CGColor *backgroundColor;
-@property(readonly, nonatomic) unsigned long long countOfPlugs;
 @property(readonly) NSSet *plugs;
-@property(readonly) NSArray *zOrderedPlugs;
 
 @end
 

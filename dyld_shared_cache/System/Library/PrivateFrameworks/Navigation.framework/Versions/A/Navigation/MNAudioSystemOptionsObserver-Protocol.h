@@ -5,5 +5,8 @@
 //
 
 @protocol MNAudioSystemOptionsObserver
+
+@optional
+- (void);
 @end
 

@@ -8,24 +8,10 @@
 
 @protocol AMSMescalBagContract
 
+@optional
+- (AMSBagValue *);
+
 // Remaining properties
 @property(readonly) AMSBagValue *mescalCertificateURL;
-@property(readonly) AMSBagValue *mescalPrimingURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *mescalSetupURL;
-@property(readonly) AMSBagValue *mescalSignSapRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *mescalSignSapResponses;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
-@property(readonly) AMSBagValue *mescalSignedActions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R
-
 @end
 

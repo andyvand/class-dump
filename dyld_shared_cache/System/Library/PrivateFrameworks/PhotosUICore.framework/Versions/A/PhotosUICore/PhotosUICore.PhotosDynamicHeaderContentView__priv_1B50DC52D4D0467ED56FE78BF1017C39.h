@@ -7,34 +7,12 @@
 @interface PhotosUICore.PhotosDynamicHeaderContentView__priv_1B50DC52D4D0467ED56FE78BF1017C39
 {
     id configuration;
-    id insets;
-    id sidebarHorizontalPadding;
-    id insetsObservation;
-    id model;
-    id environmentValues;
-    id overlayController;
-    id overlayViewController;
-    id playbackOverlayController;
-    id titleOverlayController;
-    id tapGestureRecognizer;
-    id scenePhaseView;
-    id photosViewModel;
-    id photosViewModelObservation;
-    id applicationState;
-    id applicationStateObservation;
-    id didAppear;
-    id contentCanBeActive;
-    id $__lazy_storage_$_allowedMovieChromeItems;
-    id storyContentsByKind;
-    id movieStoryViewController;
-    id movieStoryViewModelObservation;
-    id $__lazy_storage_$_proxy;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (id)eTypingAttributes:(struct CGRect)arg1 toAttributes: /* Error: Ran out of types for this method. */;
+- (id)textView:(struct CGRect)arg1 shouldChangeTypingAttributes:toAttributes: /* Error: Ran out of types for this method. */;
 - (void)Þüx: /* Error: Ran out of types for this method. */;
 
 @end

@@ -6,25 +6,11 @@
 
 #import <Photos/PHCompositeMediaResult.h>
 
-@class NSMutableDictionary, NSNumber, NSURL, PHAdjustmentData, PHImageResult;
+@class PHAdjustmentData;
 
 @interface PHContentEditingInputResult : PHCompositeMediaResult
 {
     PHAdjustmentData *_adjustmentData;
-    PHImageResult *_imageResult;
-    PHCompositeMediaResult *_videoResult;
-    PHCompositeMediaResult *_adjustmentSecondaryDataResult;
-    NSMutableDictionary *_flipImageURLs;
-    NSMutableDictionary *_flipVideoURLs;
-    _Bool _canHandleAdjustmentData;
-    NSNumber *_baseVersionNeeded;
-    NSURL *_overCapturePhotoURL;
-    NSURL *_overCaptureVideoURL;
-    NSURL *_frontSwappingImageRenderURL;
-    NSURL *_backSwappingImageRenderURL;
-    NSURL *_frontSwappingVideoRenderURL;
-    NSURL *_backSwappingVideoRenderURL;
-    PHAdjustmentData *_originalAdjustmentData;
 }
 
 - (id);
@@ -32,21 +18,21 @@
 - (void);
 - (void);
 - (void);
+- (void)n;
 - (void);
 - (void);
 - (void);
+- (id)!Nc!NA!N;
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id).A!;
+- (id)@;
 - (id);
 - (void);
 - (id);
@@ -56,37 +42,29 @@
 - (id);
 - (id);
 - (id);
+- (void)j;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
-- (id);
+- (id)!#;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (struct CGImage *);
+- (struct CGImage *)cv meta:Client Canceled Request /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
-- (id)predicate:library:completion: /* Error: Ran out of types for this method. */;
+- (id)batchFetchAssociatedPersonByFaceGroupUUIDWithFaceGroupUUIDs:predicate:library:completion: /* Error: Ran out of types for this method. */;
 - (void)N,V_keywordTitles;
 - (id)slated into deprioritization for progress %{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *backSwappingImageRenderURL; // @synthesize backSwappingImageRenderURL=_backSwappingImageRenderURL;
-@property(copy, nonatomic) NSURL *backSwappingVideoRenderURL; // @synthesize backSwappingVideoRenderURL=_backSwappingVideoRenderURL;
-@property(retain, nonatomic) NSNumber *baseVersionNeeded; // @synthesize baseVersionNeeded=_baseVersionNeeded;
 @property(nonatomic) _Bool canHandleAdjustmentData; // @synthesize canHandleAdjustmentData=_canHandleAdjustmentData;
-@property(copy, nonatomic) NSURL *frontSwappingImageRenderURL; // @synthesize frontSwappingImageRenderURL=_frontSwappingImageRenderURL;
-@property(copy, nonatomic) NSURL *frontSwappingVideoRenderURL; // @synthesize frontSwappingVideoRenderURL=_frontSwappingVideoRenderURL;
-@property(retain, nonatomic) PHAdjustmentData *originalAdjustmentData; // @synthesize originalAdjustmentData=_originalAdjustmentData;
-@property(retain, nonatomic) NSURL *overCapturePhotoURL; // @synthesize overCapturePhotoURL=_overCapturePhotoURL;
-@property(retain, nonatomic) NSURL *overCaptureVideoURL; // @synthesize overCaptureVideoURL=_overCaptureVideoURL;
 
 @end
 

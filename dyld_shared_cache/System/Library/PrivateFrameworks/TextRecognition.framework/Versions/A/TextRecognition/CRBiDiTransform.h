@@ -7,7 +7,6 @@
 @interface CRBiDiTransform
 {
     struct os_unfair_lock_s _lock;
-    struct UBiDi *_icuBiDiTransform;
 }
 
 + (id);

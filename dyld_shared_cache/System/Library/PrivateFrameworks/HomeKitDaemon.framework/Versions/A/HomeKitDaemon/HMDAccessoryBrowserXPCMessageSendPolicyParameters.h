@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id)× ;
-- (id)ssage:(struct _NSZone *)arg1 options:completionHandler:dateProvider:timerProvider: /* Error: Ran out of types for this method. */;
+- (id)createContextWithMessage:(struct _NSZone *)arg1 options:completionHandler:dateProvider:timerProvider: /* Error: Ran out of types for this method. */;
 - (id)te to audio codec type from %lu;
 - (id)eaderKey.manager;
 

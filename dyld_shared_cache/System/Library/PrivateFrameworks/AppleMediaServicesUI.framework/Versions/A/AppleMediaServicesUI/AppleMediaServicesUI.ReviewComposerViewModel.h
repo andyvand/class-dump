@@ -7,16 +7,6 @@
 @interface AppleMediaServicesUI.ReviewComposerViewModel
 {
     id id;
-    id accentColor;
-    id lockupStyle;
-    id productLockup;
-    id metadata;
-    id _rating;
-    id _nickname;
-    id _title;
-    id _review;
-    id _state;
-    id _$observationRegistrar;
 }
 
 @end

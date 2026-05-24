@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDPersonSettingsModel
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)isRecentInAnyGroup;
 - (id);
 - (void);
 - (id);
@@ -24,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSData *classificationNotificationSettingsData; // @dynamic classificationNotificationSettingsData;
-@property(readonly, copy) NSDictionary *faceClassificationNotificationsEnabledByPersonUUID;
 
 @end
 

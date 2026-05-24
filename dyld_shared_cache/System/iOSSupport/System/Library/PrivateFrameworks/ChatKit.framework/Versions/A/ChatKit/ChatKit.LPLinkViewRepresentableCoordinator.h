@@ -7,8 +7,6 @@
 @interface ChatKit.LPLinkViewRepresentableCoordinator
 {
     id queryResultItem;
-    id coordinator;
-    id sizeCache;
 }
 
 - (id);

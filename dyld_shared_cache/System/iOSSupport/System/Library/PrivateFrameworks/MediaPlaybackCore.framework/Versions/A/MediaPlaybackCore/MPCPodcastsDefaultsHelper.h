@@ -9,18 +9,16 @@
     id _defaults;
 }
 
-+ (id);
-- (double);
-- (double);
-- (_Bool);
++ (id)canRemoveAccount:inStore:error: /* Error: Ran out of types for this method. */;
+- (double)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (double)canSaveAccount:inStore: /* Error: Ran out of types for this method. */;
+- (_Bool)ted account %@;
 - (void);
 - (id);
 - (void);
 - (void)ic}@> returned with error <%{public}@> in %.4lf seconds;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool remoteSkipInsteadOfNextTrack;
-@property(nonatomic, readonly) double skipBackwardInterval;
 @property(nonatomic, readonly) double skipForwardInterval;
 
 @end

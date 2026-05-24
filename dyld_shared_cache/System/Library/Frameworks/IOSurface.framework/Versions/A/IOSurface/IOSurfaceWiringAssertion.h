@@ -10,8 +10,8 @@
 }
 
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)setTransformationMatrixLayout:(struct __IOSurfaceClient *)arg1;
 
 @end
 

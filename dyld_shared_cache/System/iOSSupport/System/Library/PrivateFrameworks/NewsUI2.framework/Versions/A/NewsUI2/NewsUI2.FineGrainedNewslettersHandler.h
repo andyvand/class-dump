@@ -7,9 +7,6 @@
 @interface NewsUI2.FineGrainedNewslettersHandler
 {
     id newsletterManager;
-    id tracker;
-    id newsletterManagementRouteModelFactory;
-    id navigator;
 }
 
 @end

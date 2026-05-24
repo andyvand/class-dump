@@ -9,10 +9,9 @@
 @interface TSDShapeRenderingOperation : TSDSwatchRenderingOperation
 {
     int mShapeType;
-    double mAngle;
 }
 
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)eking [commandID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);

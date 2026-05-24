@@ -7,7 +7,6 @@
 @interface CKTranscriptScrollIntentEntryViewActiveTrigger
 {
     id hasSendLaterPluginInfo;
-    id isAppearing;
 }
 
 - (id);

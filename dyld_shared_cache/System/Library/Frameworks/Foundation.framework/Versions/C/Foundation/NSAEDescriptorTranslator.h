@@ -7,7 +7,6 @@
 @interface NSAEDescriptorTranslator
 {
     id _descToObjMap;
-    id _objToDescMap;
 }
 
 @end

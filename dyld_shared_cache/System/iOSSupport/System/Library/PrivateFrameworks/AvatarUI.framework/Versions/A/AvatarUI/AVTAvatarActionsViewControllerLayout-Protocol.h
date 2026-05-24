@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AVTViewLayoutInfo;
-
 @protocol AVTAvatarActionsViewControllerLayout
+- (struct CGRect);
+- (struct CGSize)%d (err:0x%x)
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double actionButtonsViewAlpha;
-@property(readonly, nonatomic) struct CGRect actionButtonsViewFrame;
-@property(readonly, nonatomic) struct CGRect avatarContainerViewFrame;
-@property(readonly, nonatomic) id <AVTViewLayoutInfo> avtViewLayout;
-@property(readonly, nonatomic) long long buttonCount;
 @property(readonly, nonatomic) struct CGSize containerSize;
-@property(readonly, nonatomic) struct UIEdgeInsets edgeInsets;
-@property(readonly, nonatomic) struct CGRect userInfoFrame;
 @end
 

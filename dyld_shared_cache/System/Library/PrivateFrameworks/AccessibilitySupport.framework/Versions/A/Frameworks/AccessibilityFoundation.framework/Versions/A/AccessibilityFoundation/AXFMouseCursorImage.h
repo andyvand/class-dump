@@ -9,9 +9,6 @@
 @interface AXFMouseCursorImage
 {
     double _maxCursorScale;
-    NSArray *__images;
-    struct CGSize _displaySize;
-    struct CGPoint _displayHotSpot;
 }
 
 - (struct CGSize);
@@ -22,17 +19,12 @@
 - (struct CGPoint);
 - (id);
 - (id);
+- (id),N,V_compositingFilter;
 - (id);
-- (id);
-- (void);
+- (void)ailed;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *_images; // @synthesize _images=__images;
-@property(readonly, nonatomic) struct CGPoint displayHotSpot; // @synthesize displayHotSpot=_displayHotSpot;
-@property(readonly, nonatomic) struct CGSize displaySize; // @synthesize displaySize=_displaySize;
-@property(readonly, copy, nonatomic) NSArray *images;
-@property(readonly, nonatomic) double maxCursorScale; // @synthesize maxCursorScale=_maxCursorScale;
-@property(readonly, nonatomic) struct CGSize sizeAtCurrentCursorScale;
 
 @end
 

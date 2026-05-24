@@ -13,19 +13,18 @@ __attribute__((visibility("hidden")))
 @interface FI_TTagColumnTableView : FI_TTableView
 {
     FI_TTableViewShrinkToFitController *_stfController;
-    struct TNotificationCenterObserver _clipViewBoundsDidChangeObserver;
-    struct TKeyValueObserver _delegateTornDownObserver;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)q
+;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
 

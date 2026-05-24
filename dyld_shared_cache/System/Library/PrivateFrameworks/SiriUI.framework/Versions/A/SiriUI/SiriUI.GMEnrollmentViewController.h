@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, NSViewController;
+@class NSView;
 
 @interface SiriUI.GMEnrollmentViewController
 {
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSView *rootView;
-@property(nonatomic, readonly) NSViewController *viewController;
 
 @end
 

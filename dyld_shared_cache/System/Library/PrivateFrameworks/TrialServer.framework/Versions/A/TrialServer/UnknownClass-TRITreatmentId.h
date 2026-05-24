@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (TRITreatmentId)
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)initWithSyndicationProperties:(id)arg1;
+- (id)initWithSongAssetIdentifier:(id)arg1 clips: /* Error: Ran out of types for this method. */;
+- (id)initWithSliderNetPackedDataV2:(id)arg1;
+- (_Bool)on: /* Error: Ran out of types for this method. */;
+- (id)currentDeviceIsEligibleForHDRPlayback;
 @end
 

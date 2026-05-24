@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (void);
-- (void);
+- (void)Qr;
+- (void)r;
 - (void);
 
 @end

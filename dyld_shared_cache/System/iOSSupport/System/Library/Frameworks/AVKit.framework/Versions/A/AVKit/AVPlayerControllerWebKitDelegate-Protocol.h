@@ -5,5 +5,8 @@
 //
 
 @protocol AVPlayerControllerWebKitDelegate
+
+@optional
+- (void)ABt;
 @end
 

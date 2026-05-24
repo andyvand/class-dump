@@ -7,11 +7,10 @@
 @interface NewsFeed.DebugJournalTableViewCell
 {
     id stripView;
-    id activityIndicatorView;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)erDataForEntry:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)©ü;

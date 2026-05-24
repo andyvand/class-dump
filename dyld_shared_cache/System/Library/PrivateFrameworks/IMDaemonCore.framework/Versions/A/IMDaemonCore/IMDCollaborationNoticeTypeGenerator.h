@@ -11,11 +11,11 @@
     SWHighlightCenter *_highlightCenter;
 }
 
-+ (id);
++ (id)reportNoRelayResponseWithOptionalDictionary: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
-- (long long);
-- (id);
+- (long long).;
+- (id);
 - (id);
 - (void)È°¬;
 

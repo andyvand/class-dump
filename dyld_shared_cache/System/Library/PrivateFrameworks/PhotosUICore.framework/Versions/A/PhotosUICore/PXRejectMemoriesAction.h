@@ -11,20 +11,14 @@
 @interface PXRejectMemoriesAction : PXMemoriesAction
 {
     unsigned long long _featureType;
-    unsigned long long _rejectReason;
-    NSDictionary *_redoMemoryFeatures;
-    NSDictionary *_redoUserFeedbacks;
-    NSDictionary *_undoUserFeedbacks;
-    NSDictionary *_redoPhotosGraphDataValues;
-    NSDictionary *_undoPhotosGraphDataValues;
 }
 
 - (id);
 - (id);
 - (void);
+- (void)f;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -41,13 +35,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long featureType; // @synthesize featureType=_featureType;
 @property(copy, nonatomic) NSDictionary *redoMemoryFeatures; // @synthesize redoMemoryFeatures=_redoMemoryFeatures;
-@property(copy, nonatomic) NSDictionary *redoPhotosGraphDataValues; // @synthesize redoPhotosGraphDataValues=_redoPhotosGraphDataValues;
-@property(copy, nonatomic) NSDictionary *redoUserFeedbacks; // @synthesize redoUserFeedbacks=_redoUserFeedbacks;
-@property(nonatomic) unsigned long long rejectReason; // @synthesize rejectReason=_rejectReason;
-@property(copy, nonatomic) NSDictionary *undoPhotosGraphDataValues; // @synthesize undoPhotosGraphDataValues=_undoPhotosGraphDataValues;
-@property(copy, nonatomic) NSDictionary *undoUserFeedbacks; // @synthesize undoUserFeedbacks=_undoUserFeedbacks;
 
 @end
 

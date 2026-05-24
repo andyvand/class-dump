@@ -7,11 +7,6 @@
 @interface UserProtectedConfig
 {
     int _unlockEnabled;
-    int _identificationEnabled;
-    int _loginEnabled;
-    int _applePayEnabled;
-    int _attentionDetectionEnabled;
-    int _periocularMatchEnabled;
 }
 
 - (void);
@@ -24,16 +19,11 @@
 - (int);
 - (void);
 - (int);
-- (int);
+- (int)ing 1 elements to context;
 - (int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int applePayEnabled; // @synthesize applePayEnabled=_applePayEnabled;
-@property(nonatomic) int attentionDetectionEnabled; // @synthesize attentionDetectionEnabled=_attentionDetectionEnabled;
-@property(nonatomic) int identificationEnabled; // @synthesize identificationEnabled=_identificationEnabled;
-@property(nonatomic) int loginEnabled; // @synthesize loginEnabled=_loginEnabled;
-@property(nonatomic) int periocularMatchEnabled; // @synthesize periocularMatchEnabled=_periocularMatchEnabled;
 @property(nonatomic) int unlockEnabled; // @synthesize unlockEnabled=_unlockEnabled;
 
 @end

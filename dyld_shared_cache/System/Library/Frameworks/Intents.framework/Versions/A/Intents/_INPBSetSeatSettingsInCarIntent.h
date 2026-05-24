@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBInteger, _INPBIntentMetadata;
+@class _INPBDataString;
 
 @interface _INPBSetSeatSettingsInCarIntent
 {
@@ -15,14 +15,6 @@
         unsigned int relativeLevelSetting:1;
         unsigned int seat:1;
     } _has;
-    _Bool _enableCooling;
-    _Bool _enableHeating;
-    _Bool _enableMassage;
-    int _relativeLevelSetting;
-    int _seat;
-    _INPBDataString *_carName;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBInteger *_level;
 }
 
 + (_Bool);
@@ -33,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (id);
@@ -55,7 +47,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)T%;
 - (id);
 - (void);
 - (unsigned long long);
@@ -66,33 +58,11 @@
 - (id);
 - (void);
 - (_Bool)l;
-- (void)nOrEqual;
+- (void)ValueIsLessThanOrEqual;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName; // @synthesize carName=_carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableCooling; // @synthesize enableCooling=_enableCooling;
-@property(nonatomic) _Bool enableHeating; // @synthesize enableHeating=_enableHeating;
-@property(nonatomic) _Bool enableMassage; // @synthesize enableMassage=_enableMassage;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(nonatomic) _Bool hasEnableCooling;
-@property(nonatomic) _Bool hasEnableHeating;
-@property(nonatomic) _Bool hasEnableMassage;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLevel;
-@property(nonatomic) _Bool hasRelativeLevelSetting;
-@property(nonatomic) _Bool hasSeat;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBInteger *level; // @synthesize level=_level;
-@property(nonatomic) int relativeLevelSetting; // @synthesize relativeLevelSetting=_relativeLevelSetting;
-@property(nonatomic) int seat; // @synthesize seat=_seat;
-@property(readonly) Class superclass;
 
 @end
 

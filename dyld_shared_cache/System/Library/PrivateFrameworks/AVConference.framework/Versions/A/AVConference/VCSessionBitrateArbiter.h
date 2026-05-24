@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface VCSessionBitrateArbiter
 {
     unsigned int _maxBitrate2GUplink;
-    unsigned int _maxBitrate2GDownlink;
-    unsigned int _maxBitrate3GUplink;
-    unsigned int _maxBitrate3GDownlink;
-    unsigned int _maxBitrateExpensiveUplink;
-    unsigned int _maxBitrateExpensiveDownlink;
-    unsigned int _maxBitrateNonExpensiveUplink;
-    unsigned int _maxBitrateNonExpensiveDownlink;
-    unsigned int _maxBitrateWiFiUplink;
-    unsigned int _maxBitrateWiFiDownlink;
-    NSDictionary *_currentSettings;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -40,16 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned int maxBitrate2GDownlink; // @synthesize maxBitrate2GDownlink=_maxBitrate2GDownlink;
 @property(readonly) unsigned int maxBitrate2GUplink; // @synthesize maxBitrate2GUplink=_maxBitrate2GUplink;
-@property(readonly) unsigned int maxBitrate3GDownlink; // @synthesize maxBitrate3GDownlink=_maxBitrate3GDownlink;
-@property(readonly) unsigned int maxBitrate3GUplink; // @synthesize maxBitrate3GUplink=_maxBitrate3GUplink;
-@property(readonly) unsigned int maxBitrateExpensiveDownlink; // @synthesize maxBitrateExpensiveDownlink=_maxBitrateExpensiveDownlink;
-@property(readonly) unsigned int maxBitrateExpensiveUplink; // @synthesize maxBitrateExpensiveUplink=_maxBitrateExpensiveUplink;
-@property(readonly) unsigned int maxBitrateNonExpensiveDownlink; // @synthesize maxBitrateNonExpensiveDownlink=_maxBitrateNonExpensiveDownlink;
-@property(readonly) unsigned int maxBitrateNonExpensiveUplink; // @synthesize maxBitrateNonExpensiveUplink=_maxBitrateNonExpensiveUplink;
-@property(readonly) unsigned int maxBitrateWiFiDownlink; // @synthesize maxBitrateWiFiDownlink=_maxBitrateWiFiDownlink;
-@property(readonly) unsigned int maxBitrateWiFiUplink; // @synthesize maxBitrateWiFiUplink=_maxBitrateWiFiUplink;
 
 @end
 

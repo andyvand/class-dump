@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemStorage, GEOPDPlace, _INPBValueMetadata;
+@class GEOMapItemStorage, _INPBValueMetadata;
 
 @protocol _INPBLocationValue
+- (void)rateLimitConfigurationWithName:(GEOMapItemStorage *)arg1 andLimits: /* Error: Ran out of types for this method. */;
+- (GEOMapItemStorage *);
 - (_Bool)@"_INPBDistance",&,N,V_maximumDistance;
 - (void)sirikit.intent.settings.SetNumericSettingIntentResponse;
 - (_INPBValueMetadata *)FileIntentResponse;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMapItemStorage;
-@property(readonly, nonatomic) _Bool hasPlace;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(retain, nonatomic) GEOMapItemStorage *mapItemStorage;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

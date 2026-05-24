@@ -4,40 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAudioDeviceInfo, NSString, NSUUID;
+@class AFAudioDeviceInfo;
 
 @interface _AFAudioDeviceInfoMutation
 {
     AFAudioDeviceInfo *_base;
-    NSString *_route;
-    _Bool _isRemoteDevice;
-    NSUUID *_deviceUID;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasRoute:1;
-        unsigned int hasIsRemoteDevice:1;
-        unsigned int hasDeviceUID:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)Ͼ;
 - (_Bool);
 - (void);
-- (id)tionManagementQueue:(id)arg1;
-- (void)itIntent;
+- (id)setXPCConnectionManagementQueue:(id)arg1;
+- (void)_hasVoiceCommandEditIntent;
 - (void)tings;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

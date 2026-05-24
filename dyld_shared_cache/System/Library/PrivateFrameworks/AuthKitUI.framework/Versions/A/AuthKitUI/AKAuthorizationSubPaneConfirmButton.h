@@ -6,62 +6,22 @@
 
 #import <AuthKitUI/AKAuthorizationSubPane.h>
 
-@class AKAuthorizationButton, AKAuthorizationPaneContext, AKAuthorizationPresentationContext, LAUIAuthenticationView, NSObject, NSStackView, NSString, NSTextField, NSView;
-@protocol AKAuthorizationSubPaneConfirmButtonDelegate, OS_dispatch_group;
+@class AKAuthorizationPaneContext;
 
 @interface AKAuthorizationSubPaneConfirmButton : AKAuthorizationSubPane
 {
     CDUnknownBlockType _processingStateCompletionHandler;
-    NSObject<OS_dispatch_group> *_processingStateGroup;
-    _Bool _hasTouchIDOnly;
-    _Bool _canPerformBiometricValidation;
-    _Bool _isPasscodeAuthorizationInProcess;
-    NSString *_bioTextForInactiveState;
-    AKAuthorizationButton *_authorizationButton;
-    id <AKAuthorizationSubPaneConfirmButtonDelegate> _delegate;
-    AKAuthorizationPaneContext *_context;
-    AKAuthorizationPresentationContext *_presentationContext;
-    NSStackView *_mainStackView;
-    NSView *_authorizationButtonContainer;
-    NSTextField *_bioLabel;
-    LAUIAuthenticationView *_bioView;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)m;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -69,20 +29,46 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)S);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)_;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -91,40 +77,21 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)`;
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)(/;
 
 // Remaining properties
-@property(readonly, nonatomic) AKAuthorizationButton *authorizationButton; // @synthesize authorizationButton=_authorizationButton;
-@property(readonly, nonatomic) NSView *authorizationButtonContainer; // @synthesize authorizationButtonContainer=_authorizationButtonContainer;
-@property(retain, nonatomic) NSTextField *bioLabel; // @synthesize bioLabel=_bioLabel;
-@property(copy, nonatomic) NSString *bioTextForInactiveState; // @synthesize bioTextForInactiveState=_bioTextForInactiveState;
-@property(retain, nonatomic) LAUIAuthenticationView *bioView; // @synthesize bioView=_bioView;
-@property(copy, nonatomic) NSString *buttonText;
-@property(nonatomic) _Bool canPerformBiometricValidation; // @synthesize canPerformBiometricValidation=_canPerformBiometricValidation;
 @property(retain, nonatomic) AKAuthorizationPaneContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKAuthorizationSubPaneConfirmButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasTouchIDOnly; // @synthesize hasTouchIDOnly=_hasTouchIDOnly;
-@property(readonly) unsigned long long hash;
-@property _Bool isPasscodeAuthorizationInProcess; // @synthesize isPasscodeAuthorizationInProcess=_isPasscodeAuthorizationInProcess;
-@property(retain, nonatomic) NSStackView *mainStackView; // @synthesize mainStackView=_mainStackView;
-@property(retain, nonatomic) AKAuthorizationPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(readonly) Class superclass;
 
 @end
 

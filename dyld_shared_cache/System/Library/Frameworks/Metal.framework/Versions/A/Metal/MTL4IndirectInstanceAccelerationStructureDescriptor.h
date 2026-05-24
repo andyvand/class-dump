@@ -9,16 +9,6 @@
 @interface MTL4IndirectInstanceAccelerationStructureDescriptor : MTL4AccelerationStructureDescriptor
 {
     unsigned long long _maxInstanceCount;
-    unsigned long long _instanceDescriptorType;
-    unsigned long long _instanceDescriptorStride;
-    unsigned long long _maxMotionTransformCount;
-    long long _motionTransformType;
-    unsigned long long _motionTransformStride;
-    long long _instanceTransformationMatrixLayout;
-    struct MTL4BufferRange _instanceDescriptorBuffer;
-    struct MTL4BufferRange _instanceCountBuffer;
-    struct MTL4BufferRange _motionTransformBuffer;
-    struct MTL4BufferRange _motionTransformCountBuffer;
 }
 
 - (void);
@@ -39,7 +29,7 @@
 - (struct MTL4BufferRange);
 - (unsigned long long);
 - (unsigned long long);
-- (long long);
+- (long long)[[[W[<ODX,F7VIPC[;
 - (unsigned long long);
 - (unsigned long long);
 - (struct MTL4BufferRange);
@@ -53,17 +43,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct MTL4BufferRange instanceCountBuffer; // @synthesize instanceCountBuffer=_instanceCountBuffer;
 @property(nonatomic) struct MTL4BufferRange instanceDescriptorBuffer; // @synthesize instanceDescriptorBuffer=_instanceDescriptorBuffer;
-@property(nonatomic) unsigned long long instanceDescriptorStride; // @synthesize instanceDescriptorStride=_instanceDescriptorStride;
-@property(nonatomic) unsigned long long instanceDescriptorType; // @synthesize instanceDescriptorType=_instanceDescriptorType;
-@property(nonatomic) long long instanceTransformationMatrixLayout; // @synthesize instanceTransformationMatrixLayout=_instanceTransformationMatrixLayout;
-@property(nonatomic) unsigned long long maxInstanceCount; // @synthesize maxInstanceCount=_maxInstanceCount;
-@property(nonatomic) unsigned long long maxMotionTransformCount; // @synthesize maxMotionTransformCount=_maxMotionTransformCount;
-@property(nonatomic) struct MTL4BufferRange motionTransformBuffer; // @synthesize motionTransformBuffer=_motionTransformBuffer;
-@property(nonatomic) struct MTL4BufferRange motionTransformCountBuffer; // @synthesize motionTransformCountBuffer=_motionTransformCountBuffer;
-@property(nonatomic) unsigned long long motionTransformStride; // @synthesize motionTransformStride=_motionTransformStride;
-@property(nonatomic) long long motionTransformType; // @synthesize motionTransformType=_motionTransformType;
 
 @end
 

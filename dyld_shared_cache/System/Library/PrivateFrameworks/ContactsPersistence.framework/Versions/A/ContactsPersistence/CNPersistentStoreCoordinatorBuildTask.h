@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPersistentStoreBuilder, NSArray;
 @protocol CNAccountCollection;
 
 __attribute__((visibility("hidden")))
 @interface CNPersistentStoreCoordinatorBuildTask
 {
     _Bool _isPristineDatabase;
-    _Bool _didMigrate;
-    id <CNAccountCollection> _accountCollection;
-    CNPersistentStoreBuilder *_storeBuilder;
-    NSArray *_identifiers;
-    NSArray *_urls;
 }
 
-+ (id);
++ (id)*i;
 + (_Bool);
 - (id);
 - (void);
@@ -26,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id),N,V_storage;
 - (id);
 - (id);
 - (id);
@@ -41,11 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNAccountCollection> accountCollection; // @synthesize accountCollection=_accountCollection;
-@property(readonly, nonatomic) _Bool didMigrate; // @synthesize didMigrate=_didMigrate;
-@property(readonly, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly, nonatomic) _Bool isPristineDatabase; // @synthesize isPristineDatabase=_isPristineDatabase;
-@property(readonly, nonatomic) CNPersistentStoreBuilder *storeBuilder; // @synthesize storeBuilder=_storeBuilder;
-@property(readonly, nonatomic) NSArray *urls; // @synthesize urls=_urls;
 
 @end
 

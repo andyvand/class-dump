@@ -4,94 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDNWActivity, AWDNWDeviceReport, AWDNWL2Report;
-
 @interface AWDNWActivityEpilogue
 {
     unsigned long long _durationMsecs;
-    unsigned long long _fragmentsQuenched;
-    unsigned long long _timestamp;
-    AWDNWActivity *_activity;
-    int _completionReason;
-    AWDNWDeviceReport *_deviceReport;
-    AWDNWL2Report *_l2Report;
-    int _underlyingErrorCode;
-    int _underlyingErrorDomain;
-    struct {
-        unsigned int durationMsecs:1;
-        unsigned int fragmentsQuenched:1;
-        unsigned int timestamp:1;
-        unsigned int completionReason:1;
-        unsigned int underlyingErrorCode:1;
-        unsigned int underlyingErrorDomain:1;
-    } _has;
 }
 
+- (void)b+;
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)*;
+- (id)(;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (int);
-- (int);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
 - (id);
 - (int);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (int);
+- (int);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (int);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)J;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(retain, nonatomic) AWDNWActivity *activity; // @synthesize activity=_activity;
-@property(nonatomic) int completionReason; // @synthesize completionReason=_completionReason;
-@property(retain, nonatomic) AWDNWDeviceReport *deviceReport; // @synthesize deviceReport=_deviceReport;
-@property(nonatomic) unsigned long long durationMsecs; // @synthesize durationMsecs=_durationMsecs;
-@property(nonatomic) unsigned long long fragmentsQuenched; // @synthesize fragmentsQuenched=_fragmentsQuenched;
-@property(readonly, nonatomic) _Bool hasActivity;
-@property(nonatomic) _Bool hasCompletionReason;
-@property(readonly, nonatomic) _Bool hasDeviceReport;
-@property(nonatomic) _Bool hasDurationMsecs;
-@property(nonatomic) _Bool hasFragmentsQuenched;
-@property(readonly, nonatomic) _Bool hasL2Report;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUnderlyingErrorCode;
-@property(nonatomic) _Bool hasUnderlyingErrorDomain;
-@property(retain, nonatomic) AWDNWL2Report *l2Report; // @synthesize l2Report=_l2Report;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int underlyingErrorCode; // @synthesize underlyingErrorCode=_underlyingErrorCode;
-@property(nonatomic) int underlyingErrorDomain; // @synthesize underlyingErrorDomain=_underlyingErrorDomain;
 
 @end
 

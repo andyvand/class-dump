@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface XCTContainingTransformerIterator : XCTMatchingElementIterator
 {
     _Bool _hasCheckedInput;
-    XCTElementContainingTransformer *_containingTransformer;
 }
 
 - (id);

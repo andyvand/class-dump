@@ -13,14 +13,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id)F ;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *host;
-@property(readonly, nonatomic) NSString *path;
-@property(readonly, nonatomic) NSString *query;
 @property(readonly, nonatomic) NSString *scheme;
 
 @end

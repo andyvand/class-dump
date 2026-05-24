@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (OAURLEncode)
-- (id);
+- (id)C;
 @end
 

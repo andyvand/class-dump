@@ -13,28 +13,19 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)initWithKeychainDictionaryRepresentation:(id)arg1;
+- (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId;
-@property(copy, nonatomic) NSString *appVocabularyType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *query;
-@property(readonly) Class superclass;
 
 @end
 

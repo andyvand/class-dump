@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface NSTextPhraseAnimationTimingFunction
 {
     _Bool _populatedSamples;
-    unsigned long long _indexCount;
-    unsigned long long _frequency;
-    double _duration;
-    double _initialValue;
-    double _finalValue;
-    NSMutableArray *_sampledValues;
-    CDUnknownBlockType _calcTimingFunction;
 }
 
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)�;
 - (double);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)TS;
 - (double);
 - (double);
 - (void);
@@ -36,12 +27,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)r.;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType calcTimingFunction; // @synthesize calcTimingFunction=_calcTimingFunction;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) double finalValue; // @synthesize finalValue=_finalValue;
 @property(nonatomic) unsigned long long frequency; // @synthesize frequency=_frequency;
-@property(nonatomic) double initialValue; // @synthesize initialValue=_initialValue;
-@property(retain, nonatomic) NSMutableArray *sampledValues; // @synthesize sampledValues=_sampledValues;
 
 @end
 

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 @interface PXNSImageProvider
 {
     NSImage *_image;
-    struct CGSize _targetSize;
 }
 
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (void);
@@ -24,15 +23,7 @@
 - (void)HBÿ¥µHBÿmµHBÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end
 

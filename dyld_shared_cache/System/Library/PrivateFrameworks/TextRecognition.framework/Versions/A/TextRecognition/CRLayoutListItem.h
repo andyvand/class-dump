@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRListItemMarker, CRNormalizedQuad, NSArray, NSString;
+@class NSArray;
 
 @interface CRLayoutListItem
 {
     NSArray *_groups;
-    CRNormalizedQuad *_unionBoundingQuad;
-    CRListItemMarker *_marker;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (struct _NSRange);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)0@0:(id)arg1 8{CGSize=dd}16Q32;
+- (id)_topContentInsetBeforeEnteringFullScreen;
+- (void)V_isExpandable;
+- (id)tems;
 - (void)ring"24@0:8@"NSObject<CRScriptCategory>"16 /* Error: Ran out of types for this method. */;
 - (id)Ð,;
 - (void);
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSArray *groups; // @synthesize groups=_groups;
-@property(readonly) unsigned long long hash;
-@property(retain) CRListItemMarker *marker; // @synthesize marker=_marker;
-@property(readonly) struct _NSRange markerRange;
-@property(readonly) long long markerType;
-@property(readonly) Class superclass;
-@property(retain) CRNormalizedQuad *unionBoundingQuad; // @synthesize unionBoundingQuad=_unionBoundingQuad;
 
 @end
 

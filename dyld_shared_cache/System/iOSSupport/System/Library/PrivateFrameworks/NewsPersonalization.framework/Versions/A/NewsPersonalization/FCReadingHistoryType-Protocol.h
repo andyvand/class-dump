@@ -7,11 +7,10 @@
 @class NSSet;
 
 @protocol FCReadingHistoryType
+- (void);
 - (NSSet *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allDislikedArticleIDs;
 @property(readonly, nonatomic) NSSet *allReadArticleIDs;
-@property(readonly, nonatomic) NSSet *allSeenArticleIDs;
 @end
 

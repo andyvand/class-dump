@@ -5,5 +5,6 @@
 //
 
 @protocol _UITextFieldCanvasContext
+- (_Bool)beginInitialSyncWithActivity: /* Error: Ran out of types for this method. */;
 @end
 

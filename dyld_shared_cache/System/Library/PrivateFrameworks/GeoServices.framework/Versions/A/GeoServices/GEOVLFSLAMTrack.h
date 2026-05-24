@@ -4,82 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOVLFPoint3D, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOVLFSLAMTrack
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _descriptors;
-    CDStruct_9f2792e4 _observationImageIndices;
-    NSMutableArray *_imagePositions;
-    GEOVLFPoint3D *_position;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_descriptors:1;
-        unsigned int read_observationImageIndices:1;
-        unsigned int read_imagePositions:1;
-        unsigned int read_position:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)umberOfVisitsBucketSize:(id)arg1;
++ (Class)[;
++ (_Bool)setNumberOfVisitsBucketSize:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int *);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)oreData.framework/Versions/A/CoreData;
+- (unsigned long long)setValues:labels:isPrimaries:forProperty: /* Error: Ran out of types for this method. */;
+- (unsigned int)setValue:(unsigned long long)arg1 forKeyPath: /* Error: Ran out of types for this method. */;
+- (void)initWithState: /* Error: Ran out of types for this method. */;
+- (void)initWithContentsOfURL: /* Error: Ran out of types for this method. */;
+- (void)fullNumber;
+- (void)containsObject:(unsigned int)arg1;
+- (void)countCollection>",&,V_accountCollection;
 - (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
+- (void)setConsecutivePHSRejects:(id)arg1;
+- (id)[CSAttSiriServiceClient attSiriDidStartAttending:useLegacyModel:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id)0@ù
 × ;
-- (id)loreGuidesLookupParameters: /* Error: Ran out of types for this method. */;
-- (unsigned int *)twork: /* Error: Ran out of types for this method. */;
+- (id)initWithRequest:traits:exploreGuidesLookupParameters: /* Error: Ran out of types for this method. */;
+- (unsigned int *)addRoutePlanningArtwork: /* Error: Ran out of types for this method. */;
 - (id)uteGeometry;
 - (id)ation.ls.apple.com/config/defaults;
 - (void)d¼;
 - (void)^ºI«@Ãõ(\Pa@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *descriptors;
-@property(readonly, nonatomic) unsigned long long descriptorsCount;
 @property(readonly, nonatomic) _Bool hasPosition;
-@property(retain, nonatomic) NSMutableArray *imagePositions;
-@property(readonly, nonatomic) unsigned int *observationImageIndices;
-@property(readonly, nonatomic) unsigned long long observationImageIndicesCount;
-@property(retain, nonatomic) GEOVLFPoint3D *position;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

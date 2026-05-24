@@ -9,16 +9,14 @@
 @interface QFilterCategory
 {
     NSString *_name;
-    unsigned long long _categoryID;
 }
 
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)A;
+- (void)_shortNameIsEnabled;
 
 // Remaining properties
-@property unsigned long long categoryID; // @synthesize categoryID=_categoryID;
 @property(copy) NSString *name; // @synthesize name=_name;
 
 @end

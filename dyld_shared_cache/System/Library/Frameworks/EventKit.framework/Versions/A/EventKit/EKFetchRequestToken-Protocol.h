@@ -5,5 +5,6 @@
 //
 
 @protocol EKFetchRequestToken
+- (void);
 @end
 

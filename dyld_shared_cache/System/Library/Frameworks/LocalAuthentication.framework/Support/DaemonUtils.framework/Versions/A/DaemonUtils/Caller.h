@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSXPCConnection;
+@class NSString, NSXPCConnection;
 
 @interface Caller
 {
     NSString *_path;
-    int _pid;
-    unsigned int _euid;
-    int _asid;
-    NSXPCConnection *_connection;
-    CDStruct_4c969caf _auditToken;
 }
 
 + (id);
@@ -23,28 +18,22 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (unsigned long long);
 - (unsigned int);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (int);
 - (id);
 - (void);
-- (id);
+- (id)~I;
 - (int);
-- (unsigned int)ectsUsingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned int)enumerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) int asid; // @synthesize asid=_asid;
-@property(readonly, nonatomic) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, nonatomic) NSData *auditTokenData;
 @property(readonly, nonatomic) __weak NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) unsigned int euid; // @synthesize euid=_euid;
-@property(readonly, nonatomic) NSString *path;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
 
 @end
 

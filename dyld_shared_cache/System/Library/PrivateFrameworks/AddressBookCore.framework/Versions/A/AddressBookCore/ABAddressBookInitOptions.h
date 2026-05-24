@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersistentStoreCoordinatorCache, NSArray, NSString;
-
 @interface ABAddressBookInitOptions
 {
     _Bool _doInitialImports;
-    _Bool _registerForChangeNotifications;
-    _Bool _tracksAllSources;
-    _Bool _provisional;
-    _Bool _directoryResults;
-    _Bool _overridesReadOnly;
-    _Bool _hasUnfilteredAccess;
-    _Bool _requiresSharedAddressBook;
-    NSString *_databaseDirectory;
-    ABPersistentStoreCoordinatorCache *_persistentStoreCoordinatorCache;
-    NSArray *_delegateInfos;
 }
 
 + (id);
@@ -43,23 +31,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ef (need to be root) _DADiskSetAdoption;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *databaseDirectory; // @synthesize databaseDirectory=_databaseDirectory;
-@property(copy, nonatomic) NSArray *delegateInfos; // @synthesize delegateInfos=_delegateInfos;
-@property(nonatomic) _Bool directoryResults; // @synthesize directoryResults=_directoryResults;
 @property(nonatomic) _Bool doInitialImports; // @synthesize doInitialImports=_doInitialImports;
-@property(nonatomic) _Bool hasUnfilteredAccess; // @synthesize hasUnfilteredAccess=_hasUnfilteredAccess;
-@property(nonatomic) _Bool overridesReadOnly; // @synthesize overridesReadOnly=_overridesReadOnly;
-@property(retain, nonatomic) ABPersistentStoreCoordinatorCache *persistentStoreCoordinatorCache; // @synthesize persistentStoreCoordinatorCache=_persistentStoreCoordinatorCache;
-@property(nonatomic) _Bool provisional; // @synthesize provisional=_provisional;
-@property(nonatomic) _Bool registerForChangeNotifications; // @synthesize registerForChangeNotifications=_registerForChangeNotifications;
-@property(nonatomic) _Bool requiresSharedAddressBook; // @synthesize requiresSharedAddressBook=_requiresSharedAddressBook;
-@property(nonatomic) _Bool tracksAllSources; // @synthesize tracksAllSources=_tracksAllSources;
 
 @end
 

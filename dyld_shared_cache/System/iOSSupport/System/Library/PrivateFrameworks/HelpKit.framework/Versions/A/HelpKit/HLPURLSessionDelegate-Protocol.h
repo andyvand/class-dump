@@ -5,5 +5,8 @@
 //
 
 @protocol HLPURLSessionDelegate
+
+@optional
+- (void);
 @end
 

@@ -30,9 +30,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)oke",R,N,V_lassoStroke;
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);

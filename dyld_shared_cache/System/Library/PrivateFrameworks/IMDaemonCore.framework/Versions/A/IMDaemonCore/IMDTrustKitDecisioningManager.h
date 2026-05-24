@@ -7,17 +7,14 @@
 @interface IMDTrustKitDecisioningManager
 {
     id trustKit;
-    id syncedSettingsManager;
-    id spamFilterHelper;
-    id spamReInferenceNotificationToken;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void)  h;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)FSEventStreamCallback invoked;
 
 @end

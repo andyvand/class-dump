@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSTextField, NSView;
-@protocol MKAnnotation, MKOverlay, MapDragRadiusDelegate;
+@class NSView;
 
 @interface MapDragRadiusView
 {
     _Bool _animating;
-    NSView *_handleImageView;
-    id <MKAnnotation> _annotation;
-    id <MKOverlay> _circleOverlay;
-    id <MKOverlay> _dashOverlay;
-    MKMapView *_mapView;
-    id <MapDragRadiusDelegate> _delegate;
-    long long _proximity;
-    double _radius;
-    double _metersPerPixel;
-    NSTextField *_text;
-    struct CGPoint _center;
 }
 
 - (_Bool);
@@ -30,9 +18,9 @@
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
-- (void);
-- (double);
+- (double);
 - (double);
 - (id);
 - (id);
@@ -47,9 +35,9 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)(;
 - (id);
 - (struct CGPoint);
 - (void);
@@ -58,24 +46,13 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id)× ;
-- (void)dContentFontSize:(id)arg1;
+- (void)setExpandedContentFontSize:(id)arg1;
 
 // Remaining properties
-@property _Bool animating; // @synthesize animating=_animating;
-@property(retain) id <MKAnnotation> annotation; // @synthesize annotation=_annotation;
-@property struct CGPoint center; // @synthesize center=_center;
-@property(retain) id <MKOverlay> circleOverlay; // @synthesize circleOverlay=_circleOverlay;
-@property(retain) id <MKOverlay> dashOverlay; // @synthesize dashOverlay=_dashOverlay;
-@property(retain) id <MapDragRadiusDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) NSView *handleImageView; // @synthesize handleImageView=_handleImageView;
-@property(retain) MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) double metersPerPixel; // @synthesize metersPerPixel=_metersPerPixel;
-@property long long proximity; // @synthesize proximity=_proximity;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
-@property(retain) NSTextField *text; // @synthesize text=_text;
 
 @end
 

@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
+@class NSString;
 
 @interface IDSQueryCompletionMetric
 {
     _Bool _success;
-    _Bool _wasReversePushAttempted;
-    _Bool _hasEmptyResult;
-    _Bool _isForced;
-    _Bool _ktQueryKickedConcurrently;
-    _Bool _ktQueryTimedOut;
-    unsigned int _connectionType;
-    unsigned int _queryURITypes;
-    unsigned int _conferenceResultCode;
-    unsigned int _queryErrorType;
-    NSString *_serviceIdentifier;
-    double _queryTimeInterval;
-    NSError *_queryError;
-    NSString *_queryReason;
-    unsigned long long _retryCount;
-    unsigned long long _uriCount;
-    double _ktQueryTimeInterval;
 }
 
 - (unsigned long long);
@@ -42,9 +26,10 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)\;
 - (_Bool);
-- (unsigned int);
+- (unsigned int)APBrowserRapportManager state +-+
+;
 - (double);
 - (id);
 - (id);
@@ -53,32 +38,7 @@
 - (unsigned long long)W;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int conferenceResultCode; // @synthesize conferenceResultCode=_conferenceResultCode;
-@property(readonly, nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) _Bool hasEmptyResult; // @synthesize hasEmptyResult=_hasEmptyResult;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isForced; // @synthesize isForced=_isForced;
-@property(nonatomic) _Bool ktQueryKickedConcurrently; // @synthesize ktQueryKickedConcurrently=_ktQueryKickedConcurrently;
-@property(nonatomic) double ktQueryTimeInterval; // @synthesize ktQueryTimeInterval=_ktQueryTimeInterval;
-@property(nonatomic) _Bool ktQueryTimedOut; // @synthesize ktQueryTimedOut=_ktQueryTimedOut;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) NSError *queryError; // @synthesize queryError=_queryError;
-@property(readonly, nonatomic) unsigned int queryErrorType; // @synthesize queryErrorType=_queryErrorType;
-@property(readonly, nonatomic) NSString *queryReason; // @synthesize queryReason=_queryReason;
-@property(readonly, nonatomic) double queryTimeInterval; // @synthesize queryTimeInterval=_queryTimeInterval;
-@property(readonly, nonatomic) unsigned int queryURITypes; // @synthesize queryURITypes=_queryURITypes;
-@property(readonly, nonatomic) unsigned long long retryCount; // @synthesize retryCount=_retryCount;
 @property(readonly, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long uriCount; // @synthesize uriCount=_uriCount;
-@property(readonly, nonatomic) _Bool wasReversePushAttempted; // @synthesize wasReversePushAttempted=_wasReversePushAttempted;
 
 @end
 

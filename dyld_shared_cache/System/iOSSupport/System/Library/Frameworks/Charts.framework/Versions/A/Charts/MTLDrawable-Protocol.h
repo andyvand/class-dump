@@ -5,7 +5,7 @@
 //
 
 @protocol MTLDrawable
-- (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long drawableID;

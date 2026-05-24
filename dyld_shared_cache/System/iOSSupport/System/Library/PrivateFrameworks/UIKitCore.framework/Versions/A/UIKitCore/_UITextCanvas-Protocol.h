@@ -7,14 +7,16 @@
 @protocol _UITextCanvasContext;
 
 @protocol _UITextCanvas
+- (void)-[MPStoreLibraryPersonalizationCollectionDataSource identifiersForItemAtIndexPath:] (originalObject has no identifiers) /* Error: Ran out of types for this method. */;
+- (void)pple.Carousel;
 - (id <_UITextCanvasContext>)c1Â0@ù
 × ;
 - (_Bool)Ô ;
-- (void)date3DTouchesCentroid: /* Error: Ran out of types for this method. */;
-- (void)ngInputViews;
-- (void)yle;
+- (void)update3DTouchesCentroid: /* Error: Ran out of types for this method. */;
+- (void)_isChangingInputViews;
+- (void)_blurEffectStyle;
 - (void)N,S_setConfiguredFloatableView:(struct CGRect)arg1 ,V_configuredFloatableView;
-- (void)mageProperties;
+- (void)UIListContentImageProperties;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UITextCanvasContext> context;

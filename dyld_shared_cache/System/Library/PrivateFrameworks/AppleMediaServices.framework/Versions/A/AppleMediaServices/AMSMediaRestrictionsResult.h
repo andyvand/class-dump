@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMediaRestrictionsRatingItem, AMSURLResult, NSDictionary, NSNumber, NSString;
+@class AMSURLResult;
 
 @interface AMSMediaRestrictionsResult
 {
@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)kCFErrorDomainCFNetwork;
 - (id);
 - (id);
 - (id)§£2ªyõ»å\Í¢Õ#øÞ4I ÞÐ|Ü?y
@@ -30,16 +30,7 @@
 - (_Bool)ñúòíßð	àûyÝ}vÞÝÛê;
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *allowPurchasesValue;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool hasRestrictionKeys;
-@property(nonatomic, readonly) NSNumber *isProfileLockSetValue;
-@property(nonatomic, readonly) _Bool isSuccess;
-@property(nonatomic, readonly) NSString *message;
-@property(nonatomic, readonly) AMSMediaRestrictionsRatingItem *movieRestriction;
 @property(nonatomic, readonly) AMSURLResult *rawResult; // @synthesize rawResult;
-@property(nonatomic, readonly) NSDictionary *responseData;
-@property(nonatomic, readonly) AMSMediaRestrictionsRatingItem *tvRestriction;
 
 @end
 

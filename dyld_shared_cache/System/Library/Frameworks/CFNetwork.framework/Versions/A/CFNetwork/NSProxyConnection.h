@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol NSProxyConnectionDelegate, OS_tcp_connection;
-
 __attribute__((visibility("hidden")))
 @interface NSProxyConnection
 {
     _Bool _doCleanupWhenWritesCompleted;
-    NSObject<OS_tcp_connection> *_connection;
-    id <NSProxyConnectionDelegate> _delegate;
-    long long _pendingWrites;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)4 function.;
 - (void);
 - (void);
 

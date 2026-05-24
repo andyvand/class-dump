@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDTransitScheduleGroup, NSArray, NSString;
+@class GEOPDTransitScheduleGroup, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitNearbyScheduleGroup
 {
     GEOPDTransitScheduleGroup *_transitScheduleGroup;
-    NSArray *_lineCells;
-    NSArray *_incidents;
 }
 
 + (id);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -29,23 +27,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) long long groupType;
-@property(readonly, nonatomic) _Bool hasWalkingDetails;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *incidents; // @synthesize incidents=_incidents;
-@property(readonly, nonatomic) NSArray *lineCells; // @synthesize lineCells=_lineCells;
-@property(readonly, nonatomic) unsigned long long maxWalkingDistance;
-@property(readonly, nonatomic) unsigned long long maxWalkingTime;
-@property(readonly, nonatomic) unsigned long long minWalkingDistance;
-@property(readonly, nonatomic) unsigned long long minWalkingTime;
-@property(readonly, nonatomic) NSString *pinnedDisplayName;
-@property(readonly) Class superclass;
 
 @end
 

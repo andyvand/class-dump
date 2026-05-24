@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _WKFrameHandle;
+
 @protocol SFReaderEventsListener
+- (void);
+- (void);
+- (void)ompletionDataSource:(_WKFrameHandle *)arg1;
 @end
 

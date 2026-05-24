@@ -5,5 +5,7 @@
 //
 
 @protocol MapsSync.MapsSyncServiceProtocol
+- (void)`b;
+- (void)!;
 @end
 

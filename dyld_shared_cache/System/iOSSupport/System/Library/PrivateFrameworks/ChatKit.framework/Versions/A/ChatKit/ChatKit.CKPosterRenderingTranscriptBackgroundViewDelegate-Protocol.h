@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ChatKit.CKPosterRenderingTranscriptBackgroundView;
+
 @protocol ChatKit.CKPosterRenderingTranscriptBackgroundViewDelegate
+- (struct UIEdgeInsets)pendingFixupAfterEditing;
+- (struct UIEdgeInsets)postAlertForMovingSharedNotesToAnotherAccountWithCompletionHandler:(ChatKit.CKPosterRenderingTranscriptBackgroundView *)arg1;
 @end
 

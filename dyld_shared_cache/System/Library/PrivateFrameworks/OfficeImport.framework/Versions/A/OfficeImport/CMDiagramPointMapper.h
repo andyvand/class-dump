@@ -6,36 +6,33 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class CMDrawingContext, NSString, OADOrientedBounds, ODDPoint;
+@class ODDPoint;
 
 __attribute__((visibility("hidden")))
 @interface CMDiagramPointMapper : CMMapper
 {
     ODDPoint *mPoint;
-    CMDrawingContext *mDrawingContext;
-    OADOrientedBounds *mOrientedBounds;
-    NSString *mPresentationName;
 }
 
+- (id)7<;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)#;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id)";
 - (float);
 - (id);
 - (id);

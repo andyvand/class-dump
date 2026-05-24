@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)setIncidentIndex:(id)arg1;
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)e builtIn speaker is active;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id)ead_tileSets"b1"read_urlInfoSets"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURL"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)I;
+- (id)_lateRoamMinRSSI;
 - (id)¨îDï;
 - (id)apsHomeSectionReadAllFrom can only be called once per object;
 

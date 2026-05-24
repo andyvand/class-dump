@@ -5,5 +5,8 @@
 //
 
 @protocol WiFiAwarePublisherXPC
+- (void);
+- (void)6;
+- (void);
 @end
 

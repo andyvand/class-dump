@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactImage, CNWallpaper, NSData, NSString;
+@class NSString;
 
 @interface ContactsUICore.MeCardSharingResult
 {
     void givenName;
-    void familyName;
-    void avatarRecipeData;
-    CNContactImage *contactImage;
-    CNWallpaper *wallpaper;
-    void watchWallpaperImageData;
-    _Bool didSaveImageToMeCard;
 }
 
 - (void);
@@ -22,26 +16,21 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)
+;
+- (void)蓉H*3;
 - (void);
-- (void);
-- (void)trollerResult:handlesByDestination: /* Error: Ran out of types for this method. */;
+- (void)resultsForIDSControllerResult:handlesByDestination: /* Error: Ran out of types for this method. */;
 - (id)Ä;
 
 // Remaining properties
-@property(nonatomic, copy) NSData *avatarRecipeData;
-@property(nonatomic, retain) CNContactImage *contactImage; // @synthesize contactImage;
-@property(nonatomic) _Bool didSaveImageToMeCard; // @synthesize didSaveImageToMeCard;
-@property(nonatomic, copy) NSString *familyName;
 @property(nonatomic, copy) NSString *givenName;
-@property(nonatomic, retain) CNWallpaper *wallpaper; // @synthesize wallpaper;
-@property(nonatomic, copy) NSData *watchWallpaperImageData;
 
 @end
 

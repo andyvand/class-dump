@@ -7,14 +7,6 @@
 @interface PromotedContent.AppStoreSupplementalContextBuilder
 {
     id storeFront;
-    id storeFrontLocale;
-    id impressionCap;
-    id clickCap;
-    id additionalImpressionCaps;
-    id additionalClickCaps;
-    id adamId;
-    id appMetadataFields;
-    id requestTime;
 }
 
 - (id);

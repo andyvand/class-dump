@@ -9,15 +9,12 @@
 @interface WBSFileVaultRecoveryKeySaveRequest
 {
     NSString *_volumeID;
-    NSString *_serialNumber;
-    NSString *_recoveryKey;
-    NSString *_displayName;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)@;
+- (id)0T;
 - (id);
 - (id);
 - (void);
@@ -26,9 +23,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *recoveryKey; // @synthesize recoveryKey=_recoveryKey;
-@property(readonly, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 @property(readonly, nonatomic) NSString *volumeID; // @synthesize volumeID=_volumeID;
 
 @end

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSToolbarPlatterView;
+@class NSArray;
 
 @protocol NSToolbarGlassAwareItem
+- (_Bool)VF4lGDdPUpw;
+- (_Bool)R1AF5xVFhlNjSbjBZJqQeA;
+- (_Bool)s;
+- (struct CGRect);
 - (NSArray *)<ñ´ñ8òìóÔõx÷ù;
 - (_Bool);
 
 // Remaining properties
-@property __weak NSToolbarPlatterView *associatedPlatter;
-@property(getter=isFirstItemInGlassGroup) _Bool firstItemInGlassGroup;
-@property(readonly) struct CGRect glassBackedViewRectInSelf;
-@property(readonly) unsigned long long glassBehavior;
-@property(readonly) _Bool isNavigational;
 @property(readonly) _Bool isVisible;
-@property(getter=isLastItemInGlassGroup) _Bool lastItemInGlassGroup;
-@property(readonly) NSArray *subitems;
-@property(readonly) _Bool wantsExplicitFrame;
 @end
 

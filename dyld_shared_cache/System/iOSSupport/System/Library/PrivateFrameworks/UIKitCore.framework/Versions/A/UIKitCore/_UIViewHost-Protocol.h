@@ -7,6 +7,7 @@
 @class UIScreen;
 
 @protocol _UIViewHost
+- (UIScreen *)`;
 - (_Bool)0@ù
 × ;
 - (void)ault;

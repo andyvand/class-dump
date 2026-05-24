@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBPhotosKnowledgeGraphEnrichmentTopic
 {
     double _score;
-    NSString *_identifier;
-    CDStruct_4b1634df _has;
 }
 
 - (void);
@@ -25,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (_Bool);
 - (void)ë¹ÿÿ;
@@ -33,9 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasScore;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) double score; // @synthesize score=_score;
 
 @end
 

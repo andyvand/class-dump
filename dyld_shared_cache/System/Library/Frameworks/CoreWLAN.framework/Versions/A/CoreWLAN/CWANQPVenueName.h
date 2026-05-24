@@ -6,26 +6,20 @@
 
 #import <CoreWLAN/CWANQPElement.h>
 
-@class NSArray, NSString;
-
 @interface CWANQPVenueName : CWANQPElement
 {
     long long _venueGroup;
-    long long _venueType;
-    NSString *_localizedVenueGroup;
-    NSString *_localizedVenueType;
-    NSArray *_venueNameList;
 }
 
 + (_Bool);
 - (long long);
-- (id);
+- (id)>;
+- (void);
+- (void)/Versions/A/CoreFoundation;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -36,11 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localizedVenueGroup; // @synthesize localizedVenueGroup=_localizedVenueGroup;
-@property(copy, nonatomic) NSString *localizedVenueType; // @synthesize localizedVenueType=_localizedVenueType;
 @property(nonatomic) long long venueGroup; // @synthesize venueGroup=_venueGroup;
-@property(copy, nonatomic) NSArray *venueNameList; // @synthesize venueNameList=_venueNameList;
-@property(nonatomic) long long venueType; // @synthesize venueType=_venueType;
 
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)referredAttachmentEdge:(id)arg1;
+- (void)setPreferredAttachmentEdge:(id)arg1;
 - (id)Èþÿ;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDSimpleArtworkRenditionSpec.h>
 
-@class NSOrderedSet, TDRadiosityImageRenditionSpec;
+@class NSOrderedSet;
 
 @interface TDFlattenedImageRenditionSpec : TDSimpleArtworkRenditionSpec
 {
@@ -14,13 +14,12 @@
 
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSOrderedSet *layerReferences; // @dynamic layerReferences;
-@property(retain, nonatomic) TDRadiosityImageRenditionSpec *radiosityImage; // @dynamic radiosityImage;
 
 @end
 

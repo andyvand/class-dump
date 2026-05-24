@@ -5,5 +5,6 @@
 //
 
 @protocol AFClockTimerSnapshotMutating
+- (void)TypingIndicators;
 @end
 

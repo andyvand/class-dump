@@ -5,5 +5,6 @@
 //
 
 @protocol VNTrackerProviding
+- (void)DRDeviceMediaTypeHDDVDRDualLayer;
 @end
 

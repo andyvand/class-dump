@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MKLegendString
 {
     struct __CTLine *_line;
-    double _baselineDistanceFromBottom;
-    NSAttributedString *_string;
 }
 
 - (double);
@@ -19,14 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)escriptor;
 - (id);
 - (void);
 - (void)hostViewController:didEndHosting:error: /* Error: Ran out of types for this method. */;
 - (void)added to another section;
 
 // Remaining properties
-@property(readonly, nonatomic) double baselineDistanceFromBottom; // @synthesize baselineDistanceFromBottom=_baselineDistanceFromBottom;
 @property(retain, nonatomic) NSAttributedString *string; // @synthesize string=_string;
 
 @end

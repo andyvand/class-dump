@@ -7,15 +7,10 @@
 @class NSData, NSString;
 
 @protocol SCNGeometrySourceJSExport
++ (id);
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesPerComponent;
-@property(readonly, nonatomic) long long componentsPerVector;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long dataOffset;
-@property(readonly, nonatomic) long long dataStride;
-@property(readonly, nonatomic) _Bool floatComponents;
-@property(readonly, nonatomic) NSString *semantic;
-@property(readonly, nonatomic) long long vectorCount;
 @end
 

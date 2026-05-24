@@ -6,40 +6,28 @@
 
 #import <UIKitCore/_UIButtonBarLayout.h>
 
-@class NSLayoutConstraint, UIBarButtonItem, UIView, _UITAMICAdaptorView;
+@class UIBarButtonItem;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonBarItemLayout : _UIButtonBarLayout
 {
     UIBarButtonItem *_item;
-    UIView *_itemView;
-    _UITAMICAdaptorView *_itemViewWrapper;
-    NSLayoutConstraint *_requestedSize;
-    NSLayoutConstraint *_maximumAlignmentSize;
-    NSLayoutConstraint *_groupSameSize;
-    NSLayoutConstraint *_popoverGuideLeading;
-    NSLayoutConstraint *_popoverGuideTrailing;
-    NSLayoutConstraint *_popoverGuideTop;
-    NSLayoutConstraint *_popoverGuideHeight;
-    _Bool _useGroupSizing;
-    _Bool _suppressSpacing;
-    CDUnknownBlockType _itemViewGenerator;
 }
 
 - (void);
 - (void);
-- (id);
-- (void)lete:(CDUnknownBlockType)arg1;
+- (id)URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (void)_revealTransitionDidComplete:(CDUnknownBlockType)arg1;
 - (void)olor;
 - (id)Effect",C,N,S_setBackgroundEffect:,V__backgroundEffect /* Error: Ran out of types for this method. */;
 - (void)ableViewPlaceholderContextDelegate>",W,N,V_delegate;
-- (double)xtInputAssistantItem;
-- (void);
+- (double)UISystemDefaultTextInputAssistantItem;
+- (void)_UIDatePickerCalendarMonthSet;
 - (_Bool)¸ù;
 - (_Bool)¼c;
 - (void)ernal inconsistency:(id)arg1 prefetchedCells (%ld) and indexPathsForPrefetchedCells (%ld) are out of sync. prefetchedCells=%@; indexPathsForPrefetchedCells=%@;
 - (_Bool)Paste;
-- (id)wNotification;
+- (id)UIKeyboardPrivateWillShowNotification;
 - (CDUnknownBlockType)e than the map area's coordinate space. This is a UIKit bug.;
 - (void)ubberEditingGlassFill.png;
 - (void)__strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_5;
@@ -50,8 +38,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)õ_;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType itemViewGenerator; // @synthesize itemViewGenerator=_itemViewGenerator;
-@property(nonatomic) _Bool suppressSpacing; // @synthesize suppressSpacing=_suppressSpacing;
 @property(nonatomic) _Bool useGroupSizing; // @synthesize useGroupSizing=_useGroupSizing;
 
 @end

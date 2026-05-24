@@ -7,18 +7,11 @@
 @interface FamilyCircleUI.FACircleSafetySettingsViewController
 {
     id host;
-    id context;
-    id completionHandler;
-    id templateViewInstance;
-    id stateManager;
-    id alertManager;
-    id screenTimeManager;
-    id ageRange;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)FLOWDOMAINEXECUTIONTYPE_MEDIAPLAYER_APP_SELECTION_NOW_PLAYING_USAGE_SIGNAL;
 - (id);
 - (void);
 - (void);

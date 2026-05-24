@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDContainer, CKFileOpenResult, CKOperationInfo, NSString;
-@protocol CKDOperationCallbackProxy;
+@class CKDContainer, CKFileOpenResult, NSString;
 
 @protocol CKDMMCSOperationMethods
-- (CKDContainer *);
+- (CKDContainer *)_chainParentPublicKeyID;
 - (CKFileOpenResult *)x;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKDOperationCallbackProxy> clientOperationCallbackProxy;
-@property(readonly, nonatomic) CKDContainer *container;
-@property(readonly, nonatomic) _Bool isLongLived;
 @property(readonly, nonatomic) NSString *operationID;
-@property(readonly, nonatomic) CKOperationInfo *operationInfo;
 @end
 

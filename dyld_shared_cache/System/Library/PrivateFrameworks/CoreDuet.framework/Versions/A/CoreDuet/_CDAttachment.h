@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSString, NSURL, NSUUID;
+@class NSDate, NSString;
 
 @interface _CDAttachment
 {
     NSString *_contentText;
-    NSDate *_creationDate;
-    NSString *_uti;
-    NSUUID *_identifier;
-    NSUUID *_cloudIdentifier;
-    NSString *_photoLocalIdentifier;
-    NSNumber *_size;
-    NSURL *_contentURL;
-    NSString *_photoSceneDescriptor;
-    NSString *_personInPhoto;
-    NSString *_contentTitle;
-    NSArray *_contentKeywords;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
@@ -32,15 +21,15 @@
 - (void);
 - (void);
 - (id);
+- (id)w;
 - (id);
+- (id)qN;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)yx;
 - (void);
+- (id)q;
 - (id);
-- (id);
-- (void);
+- (void)J;
 - (id);
 - (id);
 - (id);
@@ -49,11 +38,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)!(;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)nd reading from stream;
+- (void)2 5;
 - (id);
 - (id);
 - (id);
@@ -62,21 +51,10 @@
 × ;
 - (void)!äCù1ª3ð1Â0@ù
 × ;
-- (id)ction:bundleID: /* Error: Ran out of types for this method. */;
+- (id)sourceForInteraction:bundleID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSUUID *cloudIdentifier; // @synthesize cloudIdentifier=_cloudIdentifier;
-@property(retain) NSArray *contentKeywords; // @synthesize contentKeywords=_contentKeywords;
-@property(retain) NSString *contentText;
-@property(retain) NSString *contentTitle; // @synthesize contentTitle=_contentTitle;
-@property(retain) NSURL *contentURL; // @synthesize contentURL=_contentURL;
 @property(retain) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *personInPhoto; // @synthesize personInPhoto=_personInPhoto;
-@property(retain) NSString *photoLocalIdentifier; // @synthesize photoLocalIdentifier=_photoLocalIdentifier;
-@property(copy, nonatomic) NSString *photoSceneDescriptor; // @synthesize photoSceneDescriptor=_photoSceneDescriptor;
-@property(retain) NSNumber *size; // @synthesize size=_size;
-@property(retain) NSString *uti; // @synthesize uti=_uti;
 
 @end
 

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFActionItem, SFImage;
+@class NSData, NSString, SFActionItem;
 
 @protocol SFMediaOffer
+- (void)public}@;
+- (NSString *)containsExtensionWithIdentifier:error: /* Error: Ran out of types for this method. */;
+- (NSData *)\!;
+- (void);
 - (void)pØp;
 
 // Remaining properties
 @property(retain, nonatomic) SFActionItem *actionItem;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFImage *image;
-@property(nonatomic) _Bool isEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *offerIdentifier;
-@property(copy, nonatomic) NSString *sublabel;
 @end
 

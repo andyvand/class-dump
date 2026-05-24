@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)_callConfigurationWithRevisionID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

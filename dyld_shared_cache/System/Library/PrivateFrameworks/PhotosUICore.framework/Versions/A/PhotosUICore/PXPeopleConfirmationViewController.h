@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgressIndicator, NSString, NSTimer, PXAnimatedCountView, PXPeopleConfirmationLoadingView, PXPeopleConfirmationSummaryViewController, PXPeopleSuggestionManager, PXPeopleSuggestionView, UXLabel;
+@class PXPeopleSuggestionView;
 
 @interface PXPeopleConfirmationViewController
 {
     _Bool _suggestionsPresented;
-    _Bool _showTypeDebugColor;
-    PXPeopleSuggestionManager *_suggestionManager;
-    PXPeopleSuggestionView *_suggestionView;
-    PXAnimatedCountView *_countView;
-    UXLabel *_descriptionLabel;
-    UXLabel *_interimLoadingLabel;
-    NSProgressIndicator *_interimLoadingIndicator;
-    unsigned long long _viewState;
-    PXPeopleConfirmationLoadingView *_loadingView;
-    PXPeopleConfirmationSummaryViewController *_summaryViewController;
-    NSTimer *_loadingDelayTimer;
 }
 
 - (void);
@@ -28,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)T	;
 - (id);
 - (void);
 - (id);
@@ -36,7 +25,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,37 +50,26 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)eColorU; 
+		void main() 
+		{ 
+			lowp vec4 color = SampleTexture0; 
+			DoFilter0(color); 
+			color.a *= SampleTexture1.r; 
+			gl_FragColor = uColor * color; 
+		} 
+		;
 - (void)nadeSocialGroupFeedView;
 - (void)8ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) PXAnimatedCountView *countView; // @synthesize countView=_countView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UXLabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSProgressIndicator *interimLoadingIndicator; // @synthesize interimLoadingIndicator=_interimLoadingIndicator;
-@property(retain, nonatomic) UXLabel *interimLoadingLabel; // @synthesize interimLoadingLabel=_interimLoadingLabel;
-@property(readonly) _Bool isSummaryViewShowing;
-@property(retain, nonatomic) NSTimer *loadingDelayTimer; // @synthesize loadingDelayTimer=_loadingDelayTimer;
-@property(retain, nonatomic) PXPeopleConfirmationLoadingView *loadingView; // @synthesize loadingView=_loadingView;
-@property(nonatomic) _Bool showTypeDebugColor; // @synthesize showTypeDebugColor=_showTypeDebugColor;
-@property(readonly) PXPeopleSuggestionManager *suggestionManager; // @synthesize suggestionManager=_suggestionManager;
 @property(retain, nonatomic) PXPeopleSuggestionView *suggestionView; // @synthesize suggestionView=_suggestionView;
-@property(nonatomic) _Bool suggestionsPresented; // @synthesize suggestionsPresented=_suggestionsPresented;
-@property(retain, nonatomic) PXPeopleConfirmationSummaryViewController *summaryViewController; // @synthesize summaryViewController=_summaryViewController;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long viewState; // @synthesize viewState=_viewState;
 
 @end
 

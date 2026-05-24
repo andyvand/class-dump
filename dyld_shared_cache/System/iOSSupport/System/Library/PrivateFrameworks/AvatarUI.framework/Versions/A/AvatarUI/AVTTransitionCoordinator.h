@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol AVTTransitionScheduler;
 
 @interface AVTTransitionCoordinator
 {
     double _delay;
-    id <AVTTransitionScheduler> _scheduler;
-    NSMutableArray *_pendingTransitions;
-    NSMutableArray *_runningTransitions;
 }
 
 + (id);
@@ -22,12 +18,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (double);
@@ -35,9 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double delay; // @synthesize delay=_delay;
-@property(readonly, nonatomic) NSMutableArray *pendingTransitions; // @synthesize pendingTransitions=_pendingTransitions;
-@property(readonly, nonatomic) NSMutableArray *runningTransitions; // @synthesize runningTransitions=_runningTransitions;
 @property(retain, nonatomic) id <AVTTransitionScheduler> scheduler; // @synthesize scheduler=_scheduler;
 
 @end

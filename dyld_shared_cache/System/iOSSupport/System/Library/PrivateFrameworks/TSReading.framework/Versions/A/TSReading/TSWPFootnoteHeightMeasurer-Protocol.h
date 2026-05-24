@@ -5,5 +5,8 @@
 //
 
 @protocol TSWPFootnoteHeightMeasurer
+- (void)code unsupported behaviorType:(long long)arg1 %lld;
+- (void)%@>;
+- (void)@;
 @end
 

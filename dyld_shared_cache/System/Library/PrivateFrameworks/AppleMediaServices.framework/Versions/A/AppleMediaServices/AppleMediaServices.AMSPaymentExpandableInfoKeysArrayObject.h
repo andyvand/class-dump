@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface AppleMediaServices.AMSPaymentExpandableInfoKeysArrayObject
 {
     void stringKey;
-    NSNumber *arrayIndex;
 }
 
 + (id);
@@ -20,12 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)initWithIdentifier:(id)arg1 type:playbackSessionData:revision:metadata: /* Error: Ran out of types for this method. */;
+- (void)putDevice %{public}@;
 - (void)²´®É>å	!²PcÜ/5¹u.I±	_î­ÊAÉoÑ[0óÿ<4º*Ç=ÃÓè¹ËÖX²2¦!e]uÒM.YÔùãß!¨åä@YÔîwf£{E¹>ã7UÄZ+2;
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *arrayIndex; // @synthesize arrayIndex;
 @property(nonatomic, readonly) NSString *stringKey;
 
 @end

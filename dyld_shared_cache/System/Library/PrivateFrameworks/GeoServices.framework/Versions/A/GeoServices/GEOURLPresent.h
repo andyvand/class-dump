@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOURLOptions, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOURLPresent
 {
     PBDataReader *_reader;
-    NSMutableArray *_items;
-    GEOURLOptions *_options;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_items:1;
-        unsigned int read_options:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)validSequence:compoundsConstraints:labelsConstraints: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)letionHandler:errorHandler:mustGoToNetworkCallback:callbackQueue:auditToken: /* Error: Ran out of types for this method. */;
+- (id)initWithLatLng:accuracy:completionHandler:errorHandler:mustGoToNetworkCallback:callbackQueue:auditToken: /* Error: Ran out of types for this method. */;
 - (id)GEOPBTransitIcon",&,N;
 - (void)¢E¶óýQ@;
 

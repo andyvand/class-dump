@@ -5,14 +5,10 @@
 //
 
 @class NSDate;
-@protocol GEOServerFormattedString;
 
 @protocol GEOServiceGap
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOServerFormattedString> displayMessagFormatString;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) unsigned long long routeListInsertBeforeIndex;
 @property(readonly, nonatomic) NSDate *startDate;
 @end
 

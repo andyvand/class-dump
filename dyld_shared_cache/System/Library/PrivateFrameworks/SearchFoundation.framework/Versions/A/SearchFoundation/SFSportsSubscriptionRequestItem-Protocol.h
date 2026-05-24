@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFSportsSubscriptionRequestItem
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *leagueIdentifier;
-@property(copy, nonatomic) NSString *sportIdentifier;
 @end
 

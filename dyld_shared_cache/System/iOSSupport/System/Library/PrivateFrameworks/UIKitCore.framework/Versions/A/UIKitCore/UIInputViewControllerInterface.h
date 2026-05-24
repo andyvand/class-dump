@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIInputViewControllerState;
-@protocol _UIIVCInterface, _UIIVCResponseDelegate;
+@class _UIInputViewControllerState;
+@protocol _UIIVCResponseDelegate;
 
 @interface UIInputViewControllerInterface
 {
     id <_UIIVCResponseDelegate> _responseDelegate;
-    id <_UIIVCInterface> _forwardingInterface;
-    _UIInputViewControllerState *_cachedState;
 }
 
+- (void)pected to blocklist chat for chatDict:(id)arg1 %@ but groupID nil;
+- (id)abled Ping;
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)CEMNetwork8021XFirstEthernetDeclaration;
+- (void)ku;
 - (id);
 - (id);
 - (void);
@@ -29,15 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, getter=_cachedState, setter=_setCachedState:) _UIInputViewControllerState *cachedState; // @synthesize cachedState=_cachedState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <_UIIVCInterface> forwardingInterface; // @synthesize forwardingInterface=_forwardingInterface;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <_UIIVCResponseDelegate> responseDelegate; // @synthesize responseDelegate=_responseDelegate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface MediaPlaybackCore.AssetSlidingQueueController.SetQueueContext
 {
     id initialItem;
-    id shouldPlay;
-    id wasInterrupted;
-    id identifier;
-    id completion;
-    id assetErrors;
-    id sentToPlayer;
 }
 
 @end

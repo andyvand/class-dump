@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSuggestions.MapsSuggestionsContactActivity, MapsSuggestions.MapsSuggestionsFinanceKit, MapsSuggestions.MapsSuggestionsFindMy, MapsSuggestionsAppGuardian, MapsSuggestionsBiome, MapsSuggestionsContacts, MapsSuggestionsEventKit, MapsSuggestionsFlightUpdater, MapsSuggestionsMapsSync, MapsSuggestionsPortrait, MapsSuggestionsRoutine, MapsSuggestionsShortcutManager, MapsSuggestionsUser, MapsSuggestionsVirtualGarage, NSString;
-@protocol MapsSuggestions.MapsSuggestionsFinanceKitConnector, MapsSuggestions.MapsSuggestionsFindMyConnector, MapsSuggestionsAppProtectionConnector, MapsSuggestionsBiomeConnector, MapsSuggestionsContactsConnector, MapsSuggestionsEventKitConnector, MapsSuggestionsFlightRequester, MapsSuggestionsInsights, MapsSuggestionsLocationUpdater, MapsSuggestionsMapsSyncConnector, MapsSuggestionsNetworkRequester, MapsSuggestionsPortraitConnector, MapsSuggestionsRoutineConnector, MapsSuggestionsShortcutStorage, MapsSuggestionsShortcutSuggestor, MapsSuggestionsSourceDelegate, MapsSuggestionsVirtualGarageConnector;
+@class NSString;
 
 @interface MapsSuggestionsSelfBuildingResourceDepot
 {
     NSString *_name;
-    id <MapsSuggestionsSourceDelegate> _oneSourceDelegate;
-    id <MapsSuggestionsNetworkRequester> _oneNetworkRequester;
-    id <MapsSuggestionsRoutineConnector> _oneRoutineConnector;
-    MapsSuggestionsRoutine *_oneRoutine;
-    id <MapsSuggestionsPortraitConnector> _onePortraitConnector;
-    MapsSuggestionsPortrait *_onePortrait;
-    id <MapsSuggestionsBiomeConnector> _oneBiomeConnector;
-    MapsSuggestionsBiome *_oneBiome;
-    MapsSuggestions.MapsSuggestionsContactActivity *_oneContactActivity;
-    id <MapsSuggestions.MapsSuggestionsFindMyConnector> _oneFindMyConnector;
-    MapsSuggestions.MapsSuggestionsFindMy *_oneFindMy;
-    id <MapsSuggestionsEventKitConnector> _oneEventKitConnector;
-    MapsSuggestionsEventKit *_oneEventKit;
-    id <MapsSuggestionsVirtualGarageConnector> _oneVirtualGarageConnector;
-    MapsSuggestionsVirtualGarage *_oneVirtualGarage;
-    id <MapsSuggestionsMapsSyncConnector> _oneMapsSyncConnector;
-    MapsSuggestionsMapsSync *_oneMapsSync;
-    id <MapsSuggestionsContactsConnector> _oneContactsConnector;
-    MapsSuggestionsContacts *_oneContacts;
-    id <MapsSuggestionsShortcutStorage> _oneFavoritesStorage;
-    id <MapsSuggestionsShortcutSuggestor> _oneFavoritesSuggestor;
-    MapsSuggestionsShortcutManager *_oneFavorites;
-    MapsSuggestionsUser *_oneUser;
-    id <MapsSuggestionsAppProtectionConnector> _oneAppProtectionConnector;
-    MapsSuggestionsAppGuardian *_oneAppGuardian;
-    id <MapsSuggestionsInsights> _oneInsights;
-    id <MapsSuggestions.MapsSuggestionsFinanceKitConnector> _oneFinanceKitConnector;
-    MapsSuggestions.MapsSuggestionsFinanceKit *_oneFinanceKit;
-    id <MapsSuggestionsLocationUpdater> _oneLocationUpdater;
-    id <MapsSuggestionsFlightRequester> _oneFlightRequester;
-    MapsSuggestionsFlightUpdater *_oneFlightUpdater;
 }
 
 - (void);
@@ -49,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -77,24 +45,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)0e;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
@@ -102,18 +58,23 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)targetContentOffsetForProposedContentOffset:withScrollingVelocity: /* Error: Ran out of types for this method. */;
+- (void)P;
 - (void)4@0:8@"MapsSuggestionsFlightUpdater"16 /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

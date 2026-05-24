@@ -4,18 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, Protocol;
 
 @protocol NSObject
+- (id);
+- (unsigned long long)textureNamed:assetResolver: /* Error: Ran out of types for this method. */;
+- (_Bool)destinationForConversionReturningUnchangedSource: /* Error: Ran out of types for this method. */;
+- (oneway void)<v@?@"TRIPurgeableConstruct"@"NSDictionary"^B>32;
+- (NSString *)purgeableRolloutsFromNamespaces:eagerFactors:overriddenFactors: /* Error: Ran out of types for this method. */;
+- (_Bool)CLocalMessageAction",&,N,V_action;
+- (_Bool)gnostic collection failed:(Protocol *)arg1 [%@];
 - (struct _NSZone *)Ô ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

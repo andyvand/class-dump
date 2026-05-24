@@ -7,15 +7,45 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)fetchTransitionMOsOriginatingFromVisitIdentifier:error: /* Error: Ran out of types for this method. */;
+- (id)fetchTransitionMOsEndingAtVisitIdentifier:error: /* Error: Ran out of types for this method. */;
+- (id)fetchTotalWorkoutDistancesCountWithHandler:(SEL)arg1;
+- (id)nceThreshold:(SEL)arg1 handler:(id)arg2;
+- (id)fetchTotalWorkoutDistancesCountWithClusterSet1:(SEL)arg1 clusterSet2:workoutActivityType:maxDistanceThreshold:handler: /* Error: Ran out of types for this method. */;
+- (Class)fetchSuggestedSessionConfigurationWithHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)t;
+- (_Bool)totalRemovedPatchedBytes:(id)arg1 %lld
+removed                         totalRemovedFullAssets:%lld
+removed                          totalRemovedFullBytes:%lld
+
+finishedJobs        finishedJobSchedulerNetworkFailure:%lld
+finishedJobs     finishedJobSchedulerNotNetworkRelated:%lld
+finishedJobs           finishedJobClientNetworkFailure:%lld
+finishedJobs        finishedJobClientNotNetworkRelated:%lld
+
+garbageColection                             performed:%@
+garbageColection                          reclaimSpace:%@
+garbageColection                   totalReclaimedSpace:%@
+garbageColection                 reclaimedV2AssetCount:%ld
+garbageColection                 reclaimedV2AssetSpace:%@
+garbageColection                reclaimedUnlockedCount:%ld
+garbageColection                reclaimedUnlockedSpace:%@
+garbageColection       reclaimedLockedOverridableCount:%ld
+garbageColection       reclaimedLockedOverridableSpace:%@
+garbageColection       reclaimedLockedNeverRemoveCount:%ld
+garbageColection       reclaimedLockedNeverRemoveSpace:%@
+garbageColection                  reclaimedStagedCount:%ld
+garbageColection                  reclaimedStagedSpace:%@
+garbageColection         reclaimedMetadataBlockedCount:%ld
+garbageColection         reclaimedMetadataBlockedSpace:%@
+<<<] /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)nAQIONodeClient.cpp;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)ctCount is %d, but fontObject index %d is used!
+;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

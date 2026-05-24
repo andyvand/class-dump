@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-- (void);
-- (void);
-- (void)ns: /* Error: Ran out of types for this method. */;
+- (void)networkDataAvailable;
+- (void)movedMessagesToRecentlyDeletedForChatsWithGUIDs:queryID:deletionDate: /* Error: Ran out of types for this method. */;
+- (void)components:fromDate:toDate:options: /* Error: Ran out of types for this method. */;
 - (void)à¸\;
 
 @end

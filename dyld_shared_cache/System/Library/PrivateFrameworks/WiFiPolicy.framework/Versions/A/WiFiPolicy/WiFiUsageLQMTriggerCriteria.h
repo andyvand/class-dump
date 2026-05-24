@@ -4,47 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSPredicate, NSString;
-
 @interface WiFiUsageLQMTriggerCriteria
 {
     _Bool _valid;
-    _Bool _matched;
-    unsigned long long _type;
-    NSPredicate *_predicate;
-    NSPredicate *_requiredFieldsValid;
-    NSDate *_firstTriggered;
-    NSDate *_lastTriggered;
-    NSDate *_currentSample;
-    NSString *_bssid;
-    NSString *_filterCriteria;
 }
 
 + (id);
 + (id);
 + (id);
 + (void)NSDate",C,N,V_created;
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)eP;
+- (void)UsoEntityBuilderProtocol_common_Organization;
+- (id)?;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)r;
 - (_Bool);
-- (id);
+- (id)city only has bus and metro, skip processing for type %@.;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -52,19 +41,10 @@
 - (id);
 - (void)
 × ;
-- (id)chTileItem;
+- (id)TBLocalFetchTileItem;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(retain, nonatomic) NSDate *currentSample; // @synthesize currentSample=_currentSample;
-@property(retain, nonatomic) NSString *filterCriteria; // @synthesize filterCriteria=_filterCriteria;
-@property(retain, nonatomic) NSDate *firstTriggered; // @synthesize firstTriggered=_firstTriggered;
-@property(retain, nonatomic) NSDate *lastTriggered; // @synthesize lastTriggered=_lastTriggered;
-@property(nonatomic) _Bool matched; // @synthesize matched=_matched;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(retain, nonatomic) NSPredicate *requiredFieldsValid; // @synthesize requiredFieldsValid=_requiredFieldsValid;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

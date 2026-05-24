@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
     struct CGPoint _initialTouchLocation;
 }
 
-- (_Bool);
+- (_Bool)edHandle:lastAddressedSIMID:handleInfo:account:category:spamExtensionName:isBlackholed:spamDetectionSource: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (_Bool);
 - (_Bool)"NSIndexPath"24@"NSString"32;
 - (id)tion";
-- (_Bool):(id)arg1;
-- (void)er;
-- (void)ure:(id)arg1 resetPrevious:(id)arg2;
+- (_Bool)setListEnvironment:(id)arg1;
+- (void)itemRangeIndexer;
+- (void)_setPressure:(id)arg1 resetPrevious:(id)arg2;
 - (_Bool)URL;
 - (_Bool)eView internal inconsistency:(id)arg1 encountered out of bounds section index while validating move updates (section=%ld, oldSectionCount=%ld);
-- (void)abMorphTransitionC;
+- (void)So21_UITabMorphTransitionC;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isCurrentlyActive;

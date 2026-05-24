@@ -11,18 +11,18 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)n;
+- (id)@"RTTConversation",&,N,V_conversation;
+- (id)isLocallyHosted;
+- (id)ject<OS_dispatch_queue>",R,N,V_callQueue;
+- (id)ry",&,N,V_updateBlocks;
+- (id)"NSMutableDictionary",&,N,V_messagingClients;
+- (id),N,V_options;
+- (id)_reloadContexts;
+- (id)",&,V_cachedActiveContexts;
+- (id)URL;
+- (void)axtty_write_action;
+- (id)AXTTYPreferredTransportMethodChangedNotification;
 - (void);
 - (id);
 

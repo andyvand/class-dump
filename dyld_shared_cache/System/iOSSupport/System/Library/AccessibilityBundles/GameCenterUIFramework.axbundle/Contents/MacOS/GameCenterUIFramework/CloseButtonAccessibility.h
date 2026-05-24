@@ -12,8 +12,8 @@
 
 + (Class);
 + (id);
-+ (void);
-- (id);
++ (void)@;
+- (id)setAccessibilityValue: /* Error: Ran out of types for this method. */;
 
 @end
 

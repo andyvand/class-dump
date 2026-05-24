@@ -18,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *debugDescription;
 @property(nonatomic, readonly) NSString *description;
 
 @end

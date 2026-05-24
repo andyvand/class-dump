@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct CGImage *);

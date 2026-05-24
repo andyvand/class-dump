@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage;
+@class NSImage;
 
 @interface CalDrawOccurrenceColorImage
 {
     NSImage *_image;
-    NSColor *_mainColor;
-    NSColor *_stripeColor;
 }
 
+- (id)9;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSColor *mainColor; // @synthesize mainColor=_mainColor;
-@property(readonly, nonatomic) NSColor *stripeColor; // @synthesize stripeColor=_stripeColor;
 
 @end
 

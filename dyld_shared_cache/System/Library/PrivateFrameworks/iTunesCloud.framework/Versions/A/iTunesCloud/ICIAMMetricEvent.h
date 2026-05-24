@@ -4,55 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICIAMImpressionNode, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface ICIAMMetricEvent
 {
     NSMutableArray *_actionDetails;
-    int _actionType;
-    NSString *_actionURL;
-    NSString *_eventType;
-    ICIAMImpressionNode *_impression;
-    NSString *_impressionType;
-    NSMutableArray *_pageDetails;
-    NSString *_pageId;
-    int _pageType;
-    NSString *_pageUrl;
-    NSString *_targetId;
-    int _targetType;
-    struct {
-        unsigned int actionType:1;
-        unsigned int pageType:1;
-        unsigned int targetType:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *actionDetails; // @synthesize actionDetails=_actionDetails;
-@property(nonatomic) int actionType; // @synthesize actionType=_actionType;
-@property(retain, nonatomic) NSString *actionURL; // @synthesize actionURL=_actionURL;
-@property(retain, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(nonatomic) _Bool hasActionType;
-@property(readonly, nonatomic) _Bool hasActionURL;
-@property(readonly, nonatomic) _Bool hasEventType;
-@property(readonly, nonatomic) _Bool hasImpression;
-@property(readonly, nonatomic) _Bool hasImpressionType;
 @property(readonly, nonatomic) _Bool hasPageId;
-@property(nonatomic) _Bool hasPageType;
-@property(readonly, nonatomic) _Bool hasPageUrl;
-@property(readonly, nonatomic) _Bool hasTargetId;
-@property(nonatomic) _Bool hasTargetType;
-@property(retain, nonatomic) ICIAMImpressionNode *impression; // @synthesize impression=_impression;
-@property(retain, nonatomic) NSString *impressionType; // @synthesize impressionType=_impressionType;
-@property(retain, nonatomic) NSMutableArray *pageDetails; // @synthesize pageDetails=_pageDetails;
-@property(retain, nonatomic) NSString *pageId; // @synthesize pageId=_pageId;
-@property(nonatomic) int pageType; // @synthesize pageType=_pageType;
-@property(retain, nonatomic) NSString *pageUrl; // @synthesize pageUrl=_pageUrl;
-@property(retain, nonatomic) NSString *targetId; // @synthesize targetId=_targetId;
-@property(nonatomic) int targetType; // @synthesize targetType=_targetType;
 
 @end
 

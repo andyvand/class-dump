@@ -4,7 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSColor, NSObject;
+
 @protocol NSRemoteViewDelegate
+
+@optional
+- (void)` l;
+- (NSColor *) `M;
+- (_Bool);
+- (NSObject *)32;
 
 // Remaining properties
 @property(readonly) _Bool shouldRetainExportedObject;

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKInkParticleDescriptor;
-
 @interface PKInkRenderingDescriptor
 {
     unsigned long long _type;
-    unsigned long long _blendMode;
-    unsigned long long _alternateMode;
-    PKInkParticleDescriptor *_particleDescriptor;
-    PKInkParticleDescriptor *_secondaryParticleDescriptor;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -25,10 +19,6 @@
 - (void)l: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long alternateMode; // @synthesize alternateMode=_alternateMode;
-@property(readonly, nonatomic) unsigned long long blendMode; // @synthesize blendMode=_blendMode;
-@property(readonly, nonatomic) PKInkParticleDescriptor *particleDescriptor; // @synthesize particleDescriptor=_particleDescriptor;
-@property(readonly, nonatomic) PKInkParticleDescriptor *secondaryParticleDescriptor; // @synthesize secondaryParticleDescriptor=_secondaryParticleDescriptor;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

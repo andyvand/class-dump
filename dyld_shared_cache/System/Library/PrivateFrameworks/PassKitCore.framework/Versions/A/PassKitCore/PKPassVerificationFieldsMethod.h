@@ -6,27 +6,25 @@
 
 #import <PassKitCore/PKPassVerificationMethod.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface PKPassVerificationFieldsMethod : PKPassVerificationMethod
 {
     NSArray *_fieldIdentifiers;
-    NSDictionary *_fieldConfiguration;
-    NSArray *_fields;
 }
 
 + (_Bool)X"!Bùqî%ð1Â0@ù
 × ;
 - (_Bool);
 - (_Bool);
+- (id);
+- (id);
+- (void)2;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)age;
-- (void)edValueItem;
+- (void)roamPrep;
+- (id)cardBackgroundImage;
+- (void)enteredValueItem;
 - (id)ôáµÿÐp;
 
 // Remaining properties

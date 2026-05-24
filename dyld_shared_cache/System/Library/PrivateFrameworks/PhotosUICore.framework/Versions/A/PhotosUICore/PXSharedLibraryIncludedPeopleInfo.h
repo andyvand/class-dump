@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString, PHPerson, PXSharedLibraryUIParticipant;
+@class PXSharedLibraryUIParticipant;
 
 @interface PXSharedLibraryIncludedPeopleInfo
 {
     PXSharedLibraryUIParticipant *_participant;
-    PHPerson *_person;
 }
 
 + (id);
 - (id);
 - (id);
+- (id)	<Q;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id)l:(struct _NSZone *)arg1;
+- (id)setCloudPublicURLEnabledLocal:(struct _NSZone *)arg1;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSPersonNameComponents *nameComponents;
 @property(readonly, nonatomic) PXSharedLibraryUIParticipant *participant; // @synthesize participant=_participant;
-@property(readonly, nonatomic) PHPerson *person; // @synthesize person=_person;
 
 @end
 

@@ -5,19 +5,13 @@
 //
 
 @class NSString, UIImage;
-@protocol UIPopoverPresentationControllerSourceItem;
 
 @protocol UIMenuLeaf
+- (UIImage *)e_id LIMIT 1) IS NULL;;
+- (UIImage *);
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long attributes;
-@property(copy, nonatomic) NSString *discoverabilityTitle;
-@property(copy, nonatomic) UIImage *image;
-@property(readonly, nonatomic) id <UIPopoverPresentationControllerSourceItem> presentationSourceItem;
-@property(nonatomic) long long repeatBehavior;
-@property(copy, nonatomic) UIImage *selectedImage;
-@property(readonly, nonatomic) id sender;
-@property(nonatomic) long long state;
 @property(copy, nonatomic) NSString *title;
 @end
 

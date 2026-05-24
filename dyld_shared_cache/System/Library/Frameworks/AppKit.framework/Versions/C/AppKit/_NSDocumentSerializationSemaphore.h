@@ -11,16 +11,13 @@ __attribute__((visibility("hidden")))
 @interface _NSDocumentSerializationSemaphore
 {
     NSObject<OS_dispatch_semaphore> *_sema;
-    unsigned long long _timeout;
-    CDUnknownBlockType _timeoutHandler;
-    CDUnknownBlockType _recoveryHandler;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)gLocation;
+- (void)NSWindowBackingLocation;
 - (void)lMenuRef, 0, (CFStringRef)attribute, (CFStringRef)new);
 - (void)dÕGh;
 

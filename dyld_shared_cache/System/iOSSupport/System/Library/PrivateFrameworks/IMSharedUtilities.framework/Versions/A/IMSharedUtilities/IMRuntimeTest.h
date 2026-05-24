@@ -9,7 +9,6 @@
 @interface IMRuntimeTest
 {
     IMRuntimeTestRun *_testRun;
-    CDUnknownBlockType _completion;
 }
 
 + (void);
@@ -27,13 +26,12 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)dNotCreateArchive;
+- (void)couldNotCreateArchive;
 - (id)home directory:%{darwin.errno}d /* Error: Ran out of types for this method. */;
 - (void)image source from %@ to extract embedded JPEG;
-- (void)backStringFormat;
+- (void)IMLocalizedTapbackStringFormat;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(retain) IMRuntimeTestRun *testRun; // @synthesize testRun=_testRun;
 
 @end

@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioAggregateStreamTopology, AVAudioFormat, AVAudioIOController, NSArray, NSString;
-
 @interface AVAudioIOStream
 {
     struct synchronized<std::shared_ptr<avas::client::IOStream>, caulk::shared_ptr_mutex<avas::client::KVOMutex>, avas::client::unguarded_accessor<std::shared_ptr<avas::client::IOStream>>> _guarded_impl;
-    shared_ptr_32df9ec2 _ioStreamBasicImpl;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned int);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
+- (id)_guard_proxy_completion_handler;
+- (_Bool)erProviderConfiguration",R;
+- (_Bool)eTimeInDays;
+- (_Bool)NETunnelProviderManager;
+- (_Bool)NEAppSidecarPolicySession;
+- (id)NEIKEv2ResponderIdentifierPayload;
+- (unsigned int)NEIKEv2ConfigurationDelegate;
+- (unsigned int)NEIKEv2IPv4AddressAttribute;
+- (id)NEHotspotNetwork;
+- (id)NEExtensionTunnelProviderHostProtocol;
+- (id)NEExtensionAppProxyProviderProtocol;
+- (unsigned int)_TtC16NetworkExtension44NEHotspotAuthenticationProviderConfiguration;
+- (id)_TtP16NetworkExtension41NEURLFilterControlProviderHostXPCProtocol_;
 - (_Bool);
 - (id);
 - (id);
@@ -33,17 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *DSPControlModules;
-@property(readonly, nonatomic) unsigned int DSPFlavor;
-@property(readonly) NSString *audioStreamTag;
-@property(readonly, nonatomic) NSArray *availableFormats;
-@property(readonly, nonatomic) AVAudioFormat *format;
-@property(readonly) unsigned int ioDirection;
-@property(readonly, nonatomic) struct AVAudioTimeInterval latency;
 @property(readonly, nonatomic) unsigned int opaqueStreamToken;
-@property(readonly) __weak AVAudioIOController *owningIOController;
-@property(readonly, nonatomic) NSArray *ports;
-@property(readonly, nonatomic) AVAudioAggregateStreamTopology *topology;
 
 @end
 

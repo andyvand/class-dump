@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString, PHFetchResult, PHPhotoLibrary;
+@class NSSet;
 
 @interface PXContentSyndicationPhotoKitAssetArrivalObserver
 {
     NSSet *_expectedUUIDs;
-    PHPhotoLibrary *_photoLibrary;
-    PHFetchResult *_assetsFetchResult;
-    NSDate *_waitStartTimestamp;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
@@ -30,18 +26,7 @@
 - (id)t;
 
 // Remaining properties
-@property(readonly, nonatomic) PHFetchResult *assetsFetchResult; // @synthesize assetsFetchResult=_assetsFetchResult;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSSet *expectedUUIDs; // @synthesize expectedUUIDs=_expectedUUIDs;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDate *waitStartTimestamp; // @synthesize waitStartTimestamp=_waitStartTimestamp;
 
 @end
 

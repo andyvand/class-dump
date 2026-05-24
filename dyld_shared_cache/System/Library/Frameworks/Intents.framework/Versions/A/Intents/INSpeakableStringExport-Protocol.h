@@ -7,12 +7,11 @@
 @class NSString;
 
 @protocol INSpeakableStringExport
+- (void)ctory.MoIAiI/Sources/libressl/libressl-2.8/crypto/x509v3/v3_purp.c;
+- (NSString *);
 - (NSString *)RouteIds: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSString *identifier;
-@property(retain) NSString *pronunciationHint;
 @property(retain) NSString *spokenPhrase;
-@property(retain) NSString *vocabularyIdentifier;
 @end
 

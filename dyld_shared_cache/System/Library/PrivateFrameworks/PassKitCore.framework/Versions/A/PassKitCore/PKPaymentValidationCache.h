@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface PKPaymentValidationCache
 {
     NSCache *_cache;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)k;
 - (id);
 - (void);
-- (id)orCurrencyAmount:transactionType:adjustmentType:peerPaymentType:featureIdentifier: /* Error: Ran out of types for this method. */;
+- (id)isPositiveBalanceAdjustmentForCurrencyAmount:transactionType:adjustmentType:peerPaymentType:featureIdentifier: /* Error: Ran out of types for this method. */;
 - (void)¬øD4;
 - (void)|nøÿ@&øÿúiøÿ;
-- (void)KSharingUseIMessageExtensionKey;
+- (void)PKSharingUseIMessageExtensionKey;
 - (id)5.100.6.45.3;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
 @property(retain, nonatomic) NSCache *cache; // @synthesize cache=_cache;
 
 @end

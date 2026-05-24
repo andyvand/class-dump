@@ -13,14 +13,14 @@
     NSArray *_addresses;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)V;
+- (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)NSTouchBarTextEmojiPickerTemplate;
 
 // Remaining properties
 @property(retain) NSArray *addresses; // @synthesize addresses=_addresses;

@@ -6,18 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSProcessInfo, AMSURLSession, NSArray, NSDictionary, NSString;
-@protocol AMSBagProtocol, AMSRequestPresentationDelegate;
+@class ACAccount, AMSURLSession;
 
 @interface AMSAutomaticDownloadKindsSetTask : AMSTask
 {
     ACAccount *_account;
-    NSDictionary *_additionalParameters;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSArray *_enabledMediaKinds;
-    id <AMSRequestPresentationDelegate> _presentationDelegate;
-    AMSURLSession *_session;
 }
 
 + (id);
@@ -37,7 +30,7 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)OfFiles=%{public, signpost.telemetry:number1}u enableTelemetry=YES  /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -49,20 +42,7 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 ÿXÊá½FÀ;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(copy) NSDictionary *additionalParameters; // @synthesize additionalParameters=_additionalParameters;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *enabledMediaKinds; // @synthesize enabledMediaKinds=_enabledMediaKinds;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak id <AMSRequestPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate=_presentationDelegate;
 @property(retain) AMSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

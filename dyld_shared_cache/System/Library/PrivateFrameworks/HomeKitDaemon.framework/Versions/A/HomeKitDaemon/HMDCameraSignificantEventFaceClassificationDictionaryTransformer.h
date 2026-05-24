@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)tWithDirectory:(id)arg1 imageData:(id *)arg2 videoResolution:error: /* Error: Ran out of types for this method. */;
-+ (Class)active: /* Error: Ran out of types for this method. */;
++ (id)initWithDirectory:(id)arg1 imageData:(id *)arg2 videoResolution:error: /* Error: Ran out of types for this method. */;
++ (Class)_updateGroupWithUUID:active: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

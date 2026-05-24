@@ -7,15 +7,13 @@
 @interface SKUIPrivateMerchandisingViewController
 {
     id didLoad;
-    id remoteController;
-    id continuation;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)�#;
 - (void);
 - (void);
 

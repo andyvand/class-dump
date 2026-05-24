@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)rySPI>"32@0:8@"NSString"16^@24 /* Error: Ran out of types for this method. */;
+- (id);
 - (struct BindingEvaluator);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);

@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PHACoreDuetDatasetSample
 {
     NSString *_identifier;
-    NSDate *_date;
-    NSString *_subset;
 }
 
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)BE;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)tions:error: /* Error: Ran out of types for this method. */;
+- (void)_prepareDatasetWithOptions:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *subset; // @synthesize subset=_subset;
 
 @end
 

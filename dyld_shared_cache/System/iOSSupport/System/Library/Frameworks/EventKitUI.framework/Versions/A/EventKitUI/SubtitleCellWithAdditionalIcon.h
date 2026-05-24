@@ -11,19 +11,17 @@
 @interface SubtitleCellWithAdditionalIcon : EKUITableViewCell
 {
     UIImageView *_icon;
-    id _source;
 }
 
-- (_Bool);
+- (_Bool)W+s;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)0;
 - (void)MenuData"32@0:8@"NSIndexPath"16@"UIContextMenuInteraction"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIImageView *icon;
-@property id source; // @synthesize source=_source;
 
 @end
 

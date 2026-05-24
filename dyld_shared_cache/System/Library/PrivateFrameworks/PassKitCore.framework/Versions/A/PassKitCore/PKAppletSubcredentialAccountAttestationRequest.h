@@ -11,7 +11,6 @@
 @interface PKAppletSubcredentialAccountAttestationRequest : PKAccountAttestationRequest
 {
     NSData *_subCASEResidencyAttestation;
-    NSData *_sharingTokenHash;
 }
 
 + (_Bool)î%ð1Â0@ù
@@ -21,12 +20,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void)Octopus;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *sharingTokenHash; // @synthesize sharingTokenHash=_sharingTokenHash;
 @property(copy, nonatomic) NSData *subCASEResidencyAttestation; // @synthesize subCASEResidencyAttestation=_subCASEResidencyAttestation;
 
 @end

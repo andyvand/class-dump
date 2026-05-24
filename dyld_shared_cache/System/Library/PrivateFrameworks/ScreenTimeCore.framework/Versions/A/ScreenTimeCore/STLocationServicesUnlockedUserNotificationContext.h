@@ -11,10 +11,10 @@
 }
 
 + (_Bool);
-- (void);
+- (void)ECT DISTINCT(artist_artwork_cache_id) FROM album_artist WHERE artist_artwork_cache_id != '';
+- (id)s;
 - (id);
-- (id);
-- (id);
+- (id)setReferenceItemPositionIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

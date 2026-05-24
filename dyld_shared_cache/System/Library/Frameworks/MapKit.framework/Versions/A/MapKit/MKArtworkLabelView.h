@@ -13,9 +13,9 @@
     MKServerFormattedString *_formattedString;
 }
 
-- (void);
+- (void)_parseAirPlayTargetPtr:(id)arg1 end: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)inContext: /* Error: Ran out of types for this method. */;
+- (void)drawLayer:inContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MKServerFormattedString *formattedString; // @synthesize formattedString=_formattedString;

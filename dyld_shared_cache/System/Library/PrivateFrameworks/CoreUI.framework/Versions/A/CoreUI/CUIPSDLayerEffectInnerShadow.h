@@ -6,43 +6,31 @@
 
 #import <CoreUI/CUIPSDLayerEffectComponent.h>
 
-@class CUIColor;
-
 @interface CUIPSDLayerEffectInnerShadow : CUIPSDLayerEffectComponent
 {
     int _blendMode;
-    double _opacity;
-    CUIColor *_color;
-    short _angle;
-    unsigned long long _distance;
-    unsigned long long _blurSize;
 }
 
-- (_Bool);
+- (_Bool)q;
 - (void);
-- (id);
+- (id));
 - (unsigned long long);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
-- (int);
+- (int);
 - (id);
 - (unsigned long long);
 - (double);
 - (void);
 - (short);
 - (void);
-- (void);
+- (void)q;
 - (void)6^{CGImage}];
 
 // Remaining properties
-@property short angle; // @synthesize angle=_angle;
 @property int blendMode; // @synthesize blendMode=_blendMode;
-@property unsigned long long blurSize; // @synthesize blurSize=_blurSize;
-@property(retain) CUIColor *color; // @synthesize color=_color;
-@property unsigned long long distance; // @synthesize distance=_distance;
-@property double opacity; // @synthesize opacity=_opacity;
 
 @end
 

@@ -11,8 +11,6 @@
 @interface NUCropNode : NUTransformNode
 {
     _Bool _resetCleanAperture;
-    NUImageTransformAffine *_transform;
-    CDStruct_996ac03c _cropRect;
 }
 
 - (_Bool);
@@ -39,8 +37,6 @@
 - (id)enderingQueue-%@;
 
 // Remaining properties
-@property CDStruct_996ac03c cropRect; // @synthesize cropRect=_cropRect;
-@property(readonly) _Bool resetCleanAperture; // @synthesize resetCleanAperture=_resetCleanAperture;
 @property(retain) NUImageTransformAffine *transform; // @synthesize transform=_transform;
 
 @end

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PGSchemaPGModelInferenceEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    SISchemaUUID *_transcriptEventId;
-    NSString *_modelIdentifier;
-    _Bool _hasLinkId;
-    _Bool _hasTranscriptEventId;
-    _Bool _hasModelIdentifier;
 }
 
 - (id);
@@ -24,36 +19,31 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)qS
+;
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)profile restrictions.;
+- (void)ak device before performing custodian add for altDSID:(_Bool)arg1 %@;
+- (id)or fetching family details:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)JS_GetPhotoLibrarySizeCompletion;
 - (id);
-- (_Bool);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ge [%lld] Legacy [%d] was problematic, thus we skip it.;
 - (id);
 - (id)Ýð1Â0@ù
 × ;
-- (id)ngTime;
+- (id)_hasPlanningTime;
 - (id)atementId;
 - (void)e.aiml.siri.cam.CAMClientEvent;
-- (id)Language;
+- (id)MTSchemaMTSourceOrTargetLanguage;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasModelIdentifier; // @synthesize hasModelIdentifier=_hasModelIdentifier;
-@property(nonatomic) _Bool hasTranscriptEventId; // @synthesize hasTranscriptEventId=_hasTranscriptEventId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(retain, nonatomic) SISchemaUUID *transcriptEventId; // @synthesize transcriptEventId=_transcriptEventId;
 
 @end
 

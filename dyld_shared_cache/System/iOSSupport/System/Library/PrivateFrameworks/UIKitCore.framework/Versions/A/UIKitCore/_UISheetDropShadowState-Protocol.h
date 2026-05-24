@@ -5,14 +5,14 @@
 //
 
 @protocol _UISheetDropShadowState
+- (_Bool)_updateChatUsingCKRecord:onRead:didSucceed:dispatchToMain: /* Error: Ran out of types for this method. */;
+- (double)_submitAndOpenTapToRadarForInvalidFeatureFlagConfiguration;
+- (_Bool)_didReceiveMessageSavedForMessageID:ofType:forChat:fromHandle:fromMe:date:attempts:account:completionBlock: /* Error: Ran out of types for this method. */;
+- (double)"<IMDMessageHistorySyncTask>",&,N,V_currentlyExecutingSyncTask;
+- (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) double _depthLevel;
-@property(readonly, nonatomic, getter=_isEffectivePresented) _Bool _effectivePresented;
 @property(readonly) _Bool _hasChildSheet;
-@property(readonly) _Bool _hasParentSheet;
-@property(readonly, nonatomic, getter=_isHosting) _Bool _hosting;
-@property(readonly) double _invertedDepthLevel;
 @end
 

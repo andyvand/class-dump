@@ -4,15 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMTriggerPolicy, NSArray, NSString;
+@class HMTriggerPolicy, NSString;
 
 @protocol HMTriggerConfiguration
+- (void)ETE FROM provider_files WHERE rowid=?;
+- (void)s WHERE ;
+- (void);
+- (HMTriggerPolicy *)d
+;
+- (_Bool)Y=;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actionSets;
-@property(readonly, copy, nonatomic) NSString *configuredName;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
 @property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) HMTriggerPolicy *policy;
 @end
 

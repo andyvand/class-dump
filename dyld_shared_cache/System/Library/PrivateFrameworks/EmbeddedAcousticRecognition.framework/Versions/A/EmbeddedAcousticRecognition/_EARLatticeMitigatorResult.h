@@ -9,18 +9,13 @@
 @interface _EARLatticeMitigatorResult
 {
     _Bool _processed;
-    float _score;
-    float _threshold;
-    float _calibrationScale;
-    float _calibrationOffset;
-    NSString *_version;
 }
 
 - (_Bool);
 - (id);
 - (float);
 - (float);
-- (id);
+- (id)xCardHandler;
 - (id);
 - (id);
 - (float);
@@ -28,11 +23,6 @@
 - (float)i;
 
 // Remaining properties
-@property(readonly, nonatomic) float calibrationOffset; // @synthesize calibrationOffset=_calibrationOffset;
-@property(readonly, nonatomic) float calibrationScale; // @synthesize calibrationScale=_calibrationScale;
-@property(readonly, nonatomic) _Bool processed; // @synthesize processed=_processed;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
-@property(readonly, nonatomic) float threshold; // @synthesize threshold=_threshold;
 @property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

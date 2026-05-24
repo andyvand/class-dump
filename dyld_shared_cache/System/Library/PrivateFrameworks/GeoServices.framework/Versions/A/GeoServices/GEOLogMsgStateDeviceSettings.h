@@ -9,21 +9,15 @@
 @interface GEOLogMsgStateDeviceSettings
 {
     PBUnknownFields *_unknownFields;
-    _Bool _deviceDarkMode;
-    _Bool _supportsAdvancedMap;
-    struct {
-        unsigned int has_deviceDarkMode:1;
-        unsigned int has_supportsAdvancedMap:1;
-    } _flags;
 }
 
-+ (_Bool)ta:(id)arg1;
++ (_Bool)setHasSupportAutocompleteSessionData:(id)arg1;
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -33,10 +27,10 @@
 - (_Bool);
 - (void);
 - (void)*> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std:(_Bool)arg1:__hash_node<GEORoadEdge *, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)tailsCount;
-- (_Bool)lState: /* Error: Ran out of types for this method. */;
-- (id)AnonymousId: /* Error: Ran out of types for this method. */;
-- (_Bool)itLookupParameters;
+- (id)stopRemovedDetailsCount;
+- (_Bool)setHasVlfFinalState: /* Error: Ran out of types for this method. */;
+- (id)setAnonymousId: /* Error: Ran out of types for this method. */;
+- (_Bool)GEOPDExternalTransitLookupParameters;
 - (id)[NavStrategy] Canceled %lu steps because they are behind the current position;
 - (id)8;
 - (void)Ì þ±È;
@@ -44,11 +38,7 @@
 - (_Bool)PH@;
 
 // Remaining properties
-@property(nonatomic) _Bool deviceDarkMode;
 @property(nonatomic) _Bool hasDeviceDarkMode;
-@property(nonatomic) _Bool hasSupportsAdvancedMap;
-@property(nonatomic) _Bool supportsAdvancedMap;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

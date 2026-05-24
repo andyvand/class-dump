@@ -8,16 +8,14 @@ __attribute__((visibility("hidden")))
 @interface VBUnretainedMap
 {
     unsigned long long _mutations;
-    struct vector<id<NSObject>, std::allocator<id<NSObject>>> _fastEnumeration;
-    struct __CFDictionary *_dictionary;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)(!;
+- (void)cs.xpc;
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long)ce frame change;

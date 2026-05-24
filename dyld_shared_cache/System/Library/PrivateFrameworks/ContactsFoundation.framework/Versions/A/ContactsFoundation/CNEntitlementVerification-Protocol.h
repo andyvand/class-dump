@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CNEntitlementVerification
+- (_Bool)__cstring;
+- (_Bool)setRequiredHeight:(CDStruct_4c969caf)arg1;
+- (_Bool)isXPCServiceError:(NSString *)arg1;
 @end
 

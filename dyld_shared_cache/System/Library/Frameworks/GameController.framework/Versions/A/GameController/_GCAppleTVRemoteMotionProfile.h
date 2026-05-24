@@ -6,61 +6,41 @@
 
 #import <GameController/GCMotion.h>
 
-@class GCController;
-
 __attribute__((visibility("hidden")))
 @interface _GCAppleTVRemoteMotionProfile : GCMotion
 {
     CDStruct_31142d93 _gravity;
-    CDStruct_31142d93 _prevGravity;
-    CDStruct_31142d93 _userAcceleration;
-    struct GCQuaternion _attitude;
-    struct GCQuaternion _prevAttitude;
-    CDStruct_27cd59c8 _eulerAngles;
-    CDStruct_27cd59c8 _prevEulerAngles;
-    CDStruct_31142d93 _rotationRate;
-    float _tip;
-    float _tilt;
-    _Bool _linkedOnOrAfterCompassFeature;
-    _Bool _motionLite;
-    _Bool _compassEnabled;
-    CDUnknownBlockType _valueChangedHandler;
-    CDUnknownBlockType _internalValueChangedHandler;
-    _Bool _emulatedMotionEnabled;
-    _Bool _motionUpdatedEnabled;
-    _Bool _paused;
-    GCController *_controller;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
+- (_Bool)";
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)H<;
 - (float);
 - (float);
+- (void)*;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)u;
+- (void);
+- (_Bool);
 - (void);
 - (struct GCQuaternion);
-- (CDStruct_39925896);
-- (CDStruct_39925896);
-- (CDStruct_39925896);
+- (CDStruct_31142d93);
+- (CDStruct_31142d93)#;
+- (CDStruct_31142d93);
 - (id);
-- (id);
+- (id)X;
 - (void);
 
 @end

@@ -9,6 +9,7 @@
 }
 
 + (id);
+- (void)FUTURE;
 - (void);
 - (void);
 - (void);
@@ -16,9 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)_messageFilterExpressionForFilterPredicate: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (void);

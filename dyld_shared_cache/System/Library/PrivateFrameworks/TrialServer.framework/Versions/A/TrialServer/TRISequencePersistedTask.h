@@ -10,12 +10,9 @@
 {
 }
 
-+ (id);
++ (id)ssDrawableIntervalTimeline;
 
 // Remaining properties
-@property(retain, nonatomic) TRIAnyPersistedTask *dependentTask; // @dynamic dependentTask;
-@property(nonatomic) _Bool hasDependentTask; // @dynamic hasDependentTask;
-@property(nonatomic) _Bool hasTask; // @dynamic hasTask;
 @property(retain, nonatomic) TRIAnyPersistedTask *task; // @dynamic task;
 
 @end

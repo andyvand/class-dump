@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface _INPBArchivedObject
 {
     struct _has;
-    NSData *_messageData;
-    NSString *_typeName;
 }
 
-+ (_Bool);
++ (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)lInputElement>"@"<GCAxis2DInput>"{GCPoint2=ff}>16;
 - (void);
-- (unsigned long long);
+- (unsigned long long)y1;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)wasLockdownModeEnabled;
+- (void)ewifi] @[%llu.%06llu] %{public}s (%{public}s:(id)arg1 %u) CWFSCNetworkService:CWFEventTypeIPv4Changed:(%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)IN;
+- (void)BIOTIN;
 - (id)®ÿOð·;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMessageData;
-@property(readonly, nonatomic) _Bool hasTypeName;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *messageData; // @synthesize messageData=_messageData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *typeName; // @synthesize typeName=_typeName;
 
 @end
 

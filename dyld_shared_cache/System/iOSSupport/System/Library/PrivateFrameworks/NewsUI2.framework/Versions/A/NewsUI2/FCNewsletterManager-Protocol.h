@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol FCNewsletterManager
-- (_Bool)edFetchResult;
+- (_Bool)$;
+- (long long)\!;
+- (_Bool);
+- (_Bool)V;
+- (_Bool)PlaybackEngine %p:takeCriticalSectionAssertion:%p (%{public}@) /* Error: Ran out of types for this method. */;
+- (void);
+- (NSArray *)A;
+- (void)P;
+- (long long)didSetupQuartileObservers;
+- (_Bool)cachedFetchResult;
 - (void)zR;
 - (_Bool)ÿäÚ÷ÿ;
 - (long long)G;
 - (_Bool)ôÿÿÿrîÿÔþì7;
-- (_Bool);
 - (void)s;
 - (void){Z½¡þ{Zô¥þ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long activeNewsletter;
-@property(readonly, nonatomic) NSArray *cachedNewsletters;
-@property(readonly, nonatomic) NSString *cachedVector;
-@property(readonly, nonatomic) _Bool canSubscribe;
-@property(readonly, nonatomic) _Bool canUnsubscribe;
 @property(readonly, nonatomic) _Bool enabled;
-@property(readonly, nonatomic) _Bool includeBundleSubscribedVector;
-@property(readonly, nonatomic) long long includeOptions;
-@property(readonly, nonatomic) _Bool includeSportsVector;
-@property(readonly, nonatomic) _Bool includeUserVector;
-@property(readonly, nonatomic) _Bool isSubscribed;
-@property(readonly, nonatomic) long long subscription;
 @end
 

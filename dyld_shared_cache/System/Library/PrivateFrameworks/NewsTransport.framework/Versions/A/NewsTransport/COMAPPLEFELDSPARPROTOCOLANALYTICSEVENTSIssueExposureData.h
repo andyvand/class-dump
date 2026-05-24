@@ -11,9 +11,9 @@
     NSData *_issueSessionId;
 }
 
-- (void);
-- (id);
-- (_Bool);
+- (void)addAttachmentWithText:(id)arg1 name:extension: /* Error: Ran out of types for this method. */;
+- (id)_statusBarGradientResizableCapInsetsIndex;
+- (_Bool)_setNewMemoriesRequestCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIssueSessionId;
-@property(retain, nonatomic) NSData *issueSessionId; // @synthesize issueSessionId=_issueSessionId;
 
 @end
 

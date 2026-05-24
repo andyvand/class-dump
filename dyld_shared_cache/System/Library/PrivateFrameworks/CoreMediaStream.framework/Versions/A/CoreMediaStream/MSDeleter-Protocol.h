@@ -7,6 +7,8 @@
 @protocol MSDeleterDelegate;
 
 @protocol MSDeleter
+- (void)ould fire (did enter range):%@, previous value:%@, current value:%@, min:%@, max:%@, %@ /* Error: Ran out of types for this method. */;
+- (id <MSDeleterDelegate>);
 
 // Remaining properties
 @property(nonatomic) id <MSDeleterDelegate> delegate;

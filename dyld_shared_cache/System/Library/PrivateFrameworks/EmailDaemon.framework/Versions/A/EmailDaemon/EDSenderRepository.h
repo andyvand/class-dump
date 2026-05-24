@@ -5,12 +5,10 @@
 //
 
 @class EDSenderPersistence;
-@protocol EFScheduler;
 
 @interface EDSenderRepository
 {
     EDSenderPersistence *_senderPersistence;
-    id <EFScheduler> _persistenceScheduler;
 }
 
 + (id)0@ù
@@ -22,7 +20,6 @@
 - (void)ed:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EFScheduler> persistenceScheduler; // @synthesize persistenceScheduler=_persistenceScheduler;
 @property(readonly, nonatomic) EDSenderPersistence *senderPersistence; // @synthesize senderPersistence=_senderPersistence;
 
 @end

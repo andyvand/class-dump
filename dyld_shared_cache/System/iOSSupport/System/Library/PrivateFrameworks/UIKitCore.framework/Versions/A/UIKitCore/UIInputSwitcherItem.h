@@ -4,55 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIFont, UISwitch;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIInputSwitcherItem
 {
     _Bool _usesDeviceLanguage;
-    NSString *_identifier;
-    NSString *_localizedTitle;
-    NSString *_localizedSubtitle;
-    UIFont *_titleFont;
-    UIFont *_subtitleFont;
-    UISwitch *_switchControl;
-    CDUnknownBlockType _switchIsOnBlock;
-    CDUnknownBlockType _switchToggleBlock;
-    long long _selectedSegmentIndex;
-    NSArray *_segmentTitles;
-    NSArray *_segmentImages;
-    CDUnknownBlockType _persistentSelectedIndex;
 }
 
-+ (id);
-- (_Bool);
++ (id)permitted edits for this message, rejecting edit;
+- (_Bool);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void):(_Bool)arg1 %@;
+- (void)quested re-register (Environment:(CDUnknownBlockType)arg1 %@);
+- (void)thenticate account:(CDUnknownBlockType)arg1 %@;
+- (void)%@). Ignoring played receipt.;
+- (void)wever, receipt was sent from (%@). Ignoring played receipt.;
+- (void)grid status is %d, wantsDeliveryReceipt:(CDUnknownBlockType)arg1 %@;
+- (id)roadcasting unreadCountChanged;
+- (id)d:Rebuilding/Broadcasting unreadCountChanged /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)reate IMFileTransfer from IMDAttachmentRecordRef rowid:%lld, marking as synced *** /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)__MPModelPropertyPlaybackPositionShouldRememberBookmarkTime__MAPPING_MISSING__;
 - (void);
 - (void)@ù
 × ;
 - (id)!¤Eù1eð1Â0@ù
 × ;
 - (void)2;
-- (void)urationForState:(id)arg1 traitCollection: /* Error: Ran out of types for this method. */;
-- (id);
+- (void)_defaultPlainHeaderConfigurationForState:(id)arg1 traitCollection: /* Error: Ran out of types for this method. */;
+- (id)immediate;
 - (id)rows - this is a UIKit bug;
 - (void)û_;
 - (void)xbâÿìúÐ<g;
@@ -60,19 +48,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isSegmentedItem;
-@property(copy, nonatomic) NSString *localizedSubtitle; // @synthesize localizedSubtitle=_localizedSubtitle;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(copy, nonatomic) CDUnknownBlockType persistentSelectedIndex; // @synthesize persistentSelectedIndex=_persistentSelectedIndex;
-@property(retain, nonatomic) NSArray *segmentImages; // @synthesize segmentImages=_segmentImages;
-@property(retain, nonatomic) NSArray *segmentTitles; // @synthesize segmentTitles=_segmentTitles;
-@property(nonatomic) long long selectedSegmentIndex; // @synthesize selectedSegmentIndex=_selectedSegmentIndex;
-@property(retain, nonatomic) UIFont *subtitleFont; // @synthesize subtitleFont=_subtitleFont;
-@property(retain, nonatomic) UISwitch *switchControl; // @synthesize switchControl=_switchControl;
-@property(copy, nonatomic) CDUnknownBlockType switchIsOnBlock; // @synthesize switchIsOnBlock=_switchIsOnBlock;
-@property(copy, nonatomic) CDUnknownBlockType switchToggleBlock; // @synthesize switchToggleBlock=_switchToggleBlock;
-@property(retain, nonatomic) UIFont *titleFont; // @synthesize titleFont=_titleFont;
-@property(nonatomic) _Bool usesDeviceLanguage; // @synthesize usesDeviceLanguage=_usesDeviceLanguage;
 
 @end
 

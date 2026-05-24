@@ -6,28 +6,11 @@
 
 #import <UXKit/UXView.h>
 
-@class NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSString, NSView, UXNavigationBar, UXNavigationItem;
+@class UXNavigationItem;
 
 @interface _UXNavigationItemContainerView : UXView
 {
     _Bool _hidesGlobalTrailingView;
-    UXNavigationItem *_item;
-    UXNavigationBar *_navigationBar;
-    unsigned long long _state;
-    double _minimumWidthForExpandedTitle;
-    double _minimumWidthForExpandedItems;
-    NSView *_leftView;
-    NSMutableArray *_leftItemViews;
-    NSView *_titleView;
-    NSMutableArray *_rightItemViews;
-    NSView *_rightView;
-    NSMutableArray *_itemsSortedByPriority;
-    NSMutableDictionary *_overflowItemsByMinimumWidth;
-    NSMutableArray *_addedConstraints;
-    NSLayoutConstraint *_titleCenteringConstraint;
-    NSView *_titleCenteringConstrainedTitleView;
-    NSView *_titleCenteringTrackedView;
-    NSView *_titleCenteringConstraintOwnerView;
 }
 
 + (id);
@@ -64,18 +47,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t complete PXEditBatchEnhanceAction:(id)arg1 No asset found;
+- (void)preconditions check for presenting Shared Library invitation:(id)arg1 iCloud Photos Disabled %{public}@;
+- (id)ier=%{public}@;
+- (id)change;
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -85,31 +68,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *addedConstraints; // @synthesize addedConstraints=_addedConstraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hidesGlobalTrailingView; // @synthesize hidesGlobalTrailingView=_hidesGlobalTrailingView;
 @property(readonly, nonatomic) UXNavigationItem *item; // @synthesize item=_item;
-@property(retain, nonatomic) NSMutableArray *itemsSortedByPriority; // @synthesize itemsSortedByPriority=_itemsSortedByPriority;
-@property(retain, nonatomic) NSMutableArray *leftItemViews; // @synthesize leftItemViews=_leftItemViews;
-@property(retain, nonatomic) NSView *leftView; // @synthesize leftView=_leftView;
-@property(nonatomic) double minimumWidthForExpandedItems; // @synthesize minimumWidthForExpandedItems=_minimumWidthForExpandedItems;
-@property(nonatomic) double minimumWidthForExpandedTitle; // @synthesize minimumWidthForExpandedTitle=_minimumWidthForExpandedTitle;
-@property(readonly, nonatomic) __weak UXNavigationBar *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(retain, nonatomic) NSMutableDictionary *overflowItemsByMinimumWidth; // @synthesize overflowItemsByMinimumWidth=_overflowItemsByMinimumWidth;
-@property(retain, nonatomic) NSMutableArray *rightItemViews; // @synthesize rightItemViews=_rightItemViews;
-@property(retain, nonatomic) NSView *rightView; // @synthesize rightView=_rightView;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSView *titleCenteringConstrainedTitleView; // @synthesize titleCenteringConstrainedTitleView=_titleCenteringConstrainedTitleView;
-@property(retain, nonatomic) NSLayoutConstraint *titleCenteringConstraint; // @synthesize titleCenteringConstraint=_titleCenteringConstraint;
-@property(nonatomic) __weak NSView *titleCenteringConstraintOwnerView; // @synthesize titleCenteringConstraintOwnerView=_titleCenteringConstraintOwnerView;
-@property(nonatomic) __weak NSView *titleCenteringTrackedView; // @synthesize titleCenteringTrackedView=_titleCenteringTrackedView;
-@property(retain, nonatomic) NSView *titleView; // @synthesize titleView=_titleView;
 
 @end
 

@@ -13,23 +13,23 @@
     AVCapturePhotoBracketSettingsInternal *_bracketSettingsInternal;
 }
 
-+ (id);
++ (id);
 + (id);
 + (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)tions",R,N,V_options;
+- (void)er;
+- (void)_format;
+- (void)_domain;
+- (void)nextLine;
+- (void)MSVSQLExecutable;
+- (void)RBSAssertionObserving;
+- (void)ImageAnalyzerImageColor;
+- (void)MediaServices;
+- (_Bool)rror message.;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)initWithAuthenticationPluginLoader: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -38,7 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *bracketedSettings;
-@property(nonatomic, getter=isLensStabilizationEnabled) _Bool lensStabilizationEnabled;
 
 @end
 

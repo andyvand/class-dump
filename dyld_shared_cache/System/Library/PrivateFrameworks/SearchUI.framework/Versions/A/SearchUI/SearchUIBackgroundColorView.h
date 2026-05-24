@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, SFColor, SFImage, SearchUIGradientView, SearchUIImageView, TLKProminenceView;
-@protocol SearchUIBackgroundColorViewProtocol;
+@class NSView;
 
 @interface SearchUIBackgroundColorView
 {
     _Bool _showsPlaceholderPlatterView;
-    SFColor *_color;
-    SFImage *_backgroundImage;
-    id <SearchUIBackgroundColorViewProtocol> _delegate;
-    NSView *_platterView;
-    TLKProminenceView *_prominenceView;
-    SearchUIGradientView *_gradientView;
-    SearchUIGradientView *_gradientViewMaskView;
-    SearchUIGradientView *_colorBlendView;
-    SearchUIImageView *_backgroundImageView;
-    unsigned long long _maskedCorners;
 }
 
 - (id);
@@ -29,29 +18,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)esponsesModelRules areModelsAvailableInLanguage:(double)arg1 ]_block_invoke;
+- (void);
+- (void)NSString"40@?<v@?@"NSError">48;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)gate>";
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)actor packs [%{public}@];
 - (id);
 - (void);
 - (void);
@@ -59,17 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain) SearchUIImageView *backgroundImageView; // @synthesize backgroundImageView=_backgroundImageView;
-@property(retain, nonatomic) SFColor *color; // @synthesize color=_color;
-@property(retain) SearchUIGradientView *colorBlendView; // @synthesize colorBlendView=_colorBlendView;
-@property(nonatomic) __weak id <SearchUIBackgroundColorViewProtocol> delegate; // @synthesize delegate=_delegate;
-@property(retain) SearchUIGradientView *gradientView; // @synthesize gradientView=_gradientView;
-@property(retain) SearchUIGradientView *gradientViewMaskView; // @synthesize gradientViewMaskView=_gradientViewMaskView;
-@property(nonatomic) unsigned long long maskedCorners; // @synthesize maskedCorners=_maskedCorners;
 @property(retain) NSView *platterView; // @synthesize platterView=_platterView;
-@property(retain) TLKProminenceView *prominenceView; // @synthesize prominenceView=_prominenceView;
-@property(nonatomic) _Bool showsPlaceholderPlatterView; // @synthesize showsPlaceholderPlatterView=_showsPlaceholderPlatterView;
 
 @end
 

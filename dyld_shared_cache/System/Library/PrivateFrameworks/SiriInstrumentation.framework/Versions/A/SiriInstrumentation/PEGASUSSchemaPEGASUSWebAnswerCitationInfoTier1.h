@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSWebAnswerCitationInfoTier1 : SISchemaInstrumentationMessage
 {
     NSString *_subText;
-    NSArray *_citationIndices;
-    _Bool _hasSubText;
 }
 
 - (void);
@@ -24,7 +22,7 @@
 - (void);
 - (unsigned long long);
 - (int);
-- (void);
+- (void)v;
 - (id);
 - (id);
 - (id);
@@ -32,18 +30,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ing cloudkit delete;
 - (id);
 - (id)!dDù±ÝÐ1Â0@ù
 × ;
-- (id)ntext;
+- (id)_hasFilteringStepContext;
 - (id)N,V_failed;
-- (void)T_DICTATION_CC;
+- (void)ASRTASKHINT_DICTATION_CC;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *citationIndices; // @synthesize citationIndices=_citationIndices;
-@property(nonatomic) _Bool hasSubText; // @synthesize hasSubText=_hasSubText;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *subText; // @synthesize subText=_subText;
 
 @end

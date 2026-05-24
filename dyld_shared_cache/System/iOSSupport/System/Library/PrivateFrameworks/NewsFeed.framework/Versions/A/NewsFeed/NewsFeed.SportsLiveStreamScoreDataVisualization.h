@@ -7,7 +7,6 @@
 @interface NewsFeed.SportsLiveStreamScoreDataVisualization
 {
     id score;
-    id sportsEvent;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol SGDSuggestManagerURLsProtocol
+- (void)operties"28;
 @end
 

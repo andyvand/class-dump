@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, NSURLRequest, NSUUID;
-@protocol NSURLSessionTaskDelegate, __NSURLSessionTaskGroupForConfiguration;
-
 __attribute__((visibility("hidden")))
 @interface __NSCFTaskForClass
 {
     Class cl;
-    NSURLRequest *request;
-    NSUUID *uniqueIdentifier;
-    NSURL *uploadFile;
-    NSData *bodyData;
-    CDUnknownBlockType completion;
-    NSString *downloadFilePath;
-    NSData *resumeData;
-    CDUnknownBlockType downloadCompletion;
-    id <NSURLSessionTaskDelegate> delegate;
-    id <__NSURLSessionTaskGroupForConfiguration> _group;
 }
 
-- (void);
+- (void)finalkafsheva;
 
 @end
 

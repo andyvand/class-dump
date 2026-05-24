@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-
 @interface PIPPrerollAttributes
 {
     id _wrappedValue;
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)lowed to use this API. File a radar with 'MobileActivation | all' for support.;
 - (long long);
 - (_Bool);
 - (void);
@@ -31,12 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) long long contentType;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSColor *preferredTintColor;
-@property(nonatomic, readonly) double requiredLinearPlaybackEndTime;
 
 @end
 

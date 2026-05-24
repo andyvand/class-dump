@@ -7,8 +7,6 @@
 @interface AXCoreUtilities.ObservationSentinel__priv_AB91057B37695AB1D964E83478A9F981
 {
     id _cancelled;
-    id completed;
-    id _$observationRegistrar;
 }
 
 @end

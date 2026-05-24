@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSound, NSString, TURepeatingActor;
+@class TURepeatingActor;
 
 __attribute__((visibility("hidden")))
 @interface TUNSSoundPlayer
 {
     TURepeatingActor *_repeatingActor;
-    NSSound *_sound;
-    CDUnknownBlockType _iterationComplete;
 }
 
 - (void);
@@ -26,21 +24,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)eventIdentifiers;
+- (void)supportsAudioAndVideo;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType iterationComplete; // @synthesize iterationComplete=_iterationComplete;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
 @property(retain, nonatomic) TURepeatingActor *repeatingActor; // @synthesize repeatingActor=_repeatingActor;
-@property(retain, nonatomic) NSSound *sound; // @synthesize sound=_sound;
-@property(readonly) Class superclass;
 
 @end
 

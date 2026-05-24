@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _UIFeedbackSystemSoundEngine : _UIFeedbackEngine
 {
     CDUnknownBlockType _invalidationBlock;
-    NSCountedSet *_warmSSIDs;
-    NSCountedSet *_suspendedSSIDs;
 }
 
 + (_Bool);
@@ -21,16 +19,16 @@ __attribute__((visibility("hidden")))
 + (id)!;
 - (void);
 - (void);
+- (void)@"NSNumber",C,N,V_payloadForceAirPrintTrustedTLSRequirement;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)emInQueueCommand;
+- (void)y=%lu expectedEntrySize=%lld diskCacheAvailableSize=%lld memoryCacheAvailableSize=%lld;
 - (void)1Â0@ù
 × ;
 - (CDUnknownBlockType)Bùqc1Â0@ù
 × ;
-- (void)lacements;
-- (_Bool)escheduleBlock:(id)arg1;
+- (void)childReplacements;
+- (_Bool)_applyViewControllers:(id)arg1 transition:(id)arg2 animated:(double)arg3 operation:rescheduleBlock: /* Error: Ran out of types for this method. */;
 - (void)additionalRootLayerAffineTransform;
 - (id)ancelled;
 - (void)is not hosted by navigation bar. self if a %@. viewController is a %@. navigationItem = %@;
@@ -41,9 +39,7 @@ __attribute__((visibility("hidden")))
 - (id)8Ó_;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType invalidationBlock; // @synthesize invalidationBlock=_invalidationBlock;
 @property(readonly, nonatomic) NSCountedSet *suspendedSSIDs; // @synthesize suspendedSSIDs=_suspendedSSIDs;
-@property(readonly, nonatomic) NSCountedSet *warmSSIDs; // @synthesize warmSSIDs=_warmSSIDs;
 
 @end
 

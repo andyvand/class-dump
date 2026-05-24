@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKCloudStoreZoneQueryConfiguration
 {
     unsigned long long _itemType;
-    NSString *_recordName;
-    NSString *_zoneName;
-    NSString *_accountIdentifier;
-    long long _accountType;
-    NSString *_transactionSourceIdentifier;
-    NSString *_altDSID;
 }
 
 + (_Bool)0@ù
@@ -30,24 +22,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasLowAvailWLANRxDurFalse;
 - (void);
 - (void);
 - (id)%{public}zu.;
 - (id)r request.;
-- (void)ANSACTION_LIMIT_NO_LIMIT;
+- (void)TRANSACTION_LIMIT_NO_LIMIT;
 - (void)ªÿt;
 - (id)ÂÿUÖm¼§;
 - (unsigned long long)'®lÊ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) long long accountType; // @synthesize accountType=_accountType;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
 @property(readonly, nonatomic) unsigned long long itemType; // @synthesize itemType=_itemType;
-@property(readonly, nonatomic) NSString *recordName; // @synthesize recordName=_recordName;
-@property(copy, nonatomic) NSString *transactionSourceIdentifier; // @synthesize transactionSourceIdentifier=_transactionSourceIdentifier;
-@property(readonly, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

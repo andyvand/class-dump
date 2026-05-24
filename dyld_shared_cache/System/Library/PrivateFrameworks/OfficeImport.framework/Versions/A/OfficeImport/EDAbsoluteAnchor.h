@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface EDAbsoluteAnchor : EDAnchor
 {
     struct CGPoint mPosition;
-    struct CGSize mSize;
 }
 
-- (struct CGSize);
-- (void);
+- (struct CGSize);
+- (void)A;
 - (struct CGRect);
 - (struct CGPoint);
-- (void);
-- (void)n;
+- (void)@32;
+- (void)hasRepeatDuration;
 
 @end
 

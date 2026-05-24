@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)tateChanged(_:) /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)clearAvailableBluetoothListeningModes;
 - (id);
 - (void)¤ÕÆ3sjRøÖIªW`úQù¬ßRÑIL8C ¡Ò43pûâd¯	[L²"fCþ!³/Qí
 i*Ó'ÂO·ÂP's1Nÿ:&O!q{Ù$K<4ØÒ÷%ùíàÁ´K'è{ÈSG	<&ßrÍ¯Nt[þÔôÍª(PSS¶¹6è£J¡f»Ípñ=x@ìKtÛõ&9ãßhïëò×é¨_Xvûù7;ú	%NåeY*Bk3,q«CÎÂÀ-´?àÏ¥raöEÇz#W§L/ÈÐä"wýHgsP¬²i.¶Å2Æóøm¹y'Á·o cFOÿÔT

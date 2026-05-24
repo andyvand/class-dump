@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, NSArray, NSPredicate, NSString;
-@protocol ABAccountCollection;
+@class NSPredicate;
 
 @interface ABDelegateAccessAccountCollection
 {
     NSPredicate *_predicate;
-    id <ABAccountCollection> _accountCollection;
-    NSArray *_allAccountsImpl;
 }
 
 + (id);
@@ -23,38 +20,19 @@
 - (id);
 - (id);
 - (id);
+- (id)syncCryptoUserDataRecordsForVolumeGroupSystemToDataRoleVolumes:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (void)CNChangeHistoryLinkContactsEvent;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void)assName:(id)arg1;
-- (id)edObjectContext: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)testConnectionSupportedForClassName:(id)arg1;
+- (id)initWithManagedObjectContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <ABAccountCollection> accountCollection; // @synthesize accountCollection=_accountCollection;
-@property(readonly, copy) NSArray *allAccounts;
-@property(readonly, copy, nonatomic) NSArray *allAccountsImpl; // @synthesize allAccountsImpl=_allAccountsImpl;
-@property(readonly, copy) NSString *basePath;
-@property(readonly) _Bool canBeReplacedByCachedAccounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) ABAccount *defaultAccount;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *enabledAccounts;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *hiddenAccounts;
-@property(readonly, copy) NSArray *persistentAccounts;
 @property(readonly, copy, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly) Class superclass;
 
 @end
 

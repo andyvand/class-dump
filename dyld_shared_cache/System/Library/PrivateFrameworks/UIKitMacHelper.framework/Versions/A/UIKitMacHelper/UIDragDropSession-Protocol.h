@@ -9,8 +9,6 @@
 @protocol UIDragDropSession
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsMoveOperation;
 @property(readonly, nonatomic) NSArray *items;
-@property(readonly, nonatomic, getter=isRestrictedToDraggingApplication) _Bool restrictedToDraggingApplication;
 @end
 

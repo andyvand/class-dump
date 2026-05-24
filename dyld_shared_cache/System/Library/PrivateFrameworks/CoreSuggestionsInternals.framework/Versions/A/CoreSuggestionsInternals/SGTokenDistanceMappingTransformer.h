@@ -9,14 +9,13 @@
 @interface SGTokenDistanceMappingTransformer
 {
     NSString *_targetString;
-    unsigned long long _maxDistance;
 }
 
++ (id)initWithKey:(id)arg1 ascending:(unsigned long long)arg2 selector: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (void);
-+ (void);
-+ (_Bool);
++ (void)eView"16@"NSTableColumn"24q32;
++ (void)STableView"16;
++ (_Bool)0;
 - (id);
 - (id);
 - (void);
@@ -31,14 +30,6 @@
 - (void)NSSet",&,N,V_textMessageUnsupportedStatuses;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maxDistance; // @synthesize maxDistance=_maxDistance;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *targetString; // @synthesize targetString=_targetString;
 
 @end

@@ -6,25 +6,19 @@
 
 #import <AppKit/NSViewControllerPresentationAnimatorObject.h>
 
-@class NSPopover, NSView;
+@class NSPopover;
 
 __attribute__((visibility("hidden")))
 @interface NSViewControllerPopoverTransition : NSViewControllerPresentationAnimatorObject
 {
     NSPopover *_popover;
-    _Bool _isClosing;
-    struct CGRect _positioningRect;
-    NSView *_positioningView;
-    unsigned long long _preferredEdge;
-    long long _behavior;
-    _Bool _hasFullSizeContent;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)p;
+- (void)cache hit for %s;
+- (void)`;
 
 @end
 

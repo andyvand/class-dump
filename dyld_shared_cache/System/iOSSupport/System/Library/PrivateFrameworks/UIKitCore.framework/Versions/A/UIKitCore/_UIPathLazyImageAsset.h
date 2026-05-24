@@ -15,14 +15,12 @@ __attribute__((visibility("hidden")))
         unsigned int haveCGCacheImages:1;
         unsigned int imagesHaveBeenLoaded:1;
     } _plaFlags;
-    _Bool _haveCGCacheImages;
-    NSArray *_imagePaths;
 }
 
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)MApplicationControlDeclaration_InstallSchedule",C,N,V_payloadInstallSchedule;
+- (id)@;
+- (id)MPModelPropertyPersonName;
 - (id);
 - (id)U23ø~;
 - (void);

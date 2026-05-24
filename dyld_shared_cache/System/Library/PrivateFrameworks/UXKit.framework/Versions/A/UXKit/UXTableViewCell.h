@@ -6,36 +6,11 @@
 
 #import <UXKit/UXCollectionViewCell.h>
 
-@class NSColor, NSLayoutConstraint, NSMutableArray, UXLabel, UXView, _UXButton;
+@class _UXButton;
 
 @interface UXTableViewCell : UXCollectionViewCell
 {
     long long _style;
-    _UXButton *_internalAccessoryView;
-    UXView *_internalHighlightedBackgroundView;
-    UXView *_defaultSelectedBackgroundView;
-    UXView *__lineView;
-    UXView *_upperSpace;
-    UXView *_lowerSpace;
-    NSLayoutConstraint *_leadingInsetConstraint;
-    NSLayoutConstraint *_trailingInsetConstraint;
-    NSLayoutConstraint *_lineHeightConstraint;
-    _Bool __highlightingForContext;
-    UXView *_backgroundView;
-    UXView *_selectedBackgroundView;
-    UXLabel *_textLabel;
-    UXLabel *_detailTextLabel;
-    long long _accessoryType;
-    UXView *_accessoryView;
-    NSColor *_highlightColor;
-    long long _selectionStyle;
-    long long _indentationLevel;
-    double _indentationWidth;
-    NSMutableArray *__addedConstraints;
-    long long __separatorStyle;
-    double __separatorHeight;
-    NSColor *__separatorColor;
-    struct NSEdgeInsets _separatorInset;
 }
 
 - (id);
@@ -56,12 +31,12 @@
 - (void);
 - (id);
 - (double);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)A;
+- (void)_isAllowedToPlayAnyMusicOrSound;
+- (void)ches;
+- (id)vider",R,N,V_sharedLibrartyStatusProvider;
+- (void)%zd;
+- (void)ending navigation message:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);
@@ -73,47 +48,27 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (long long);
 - (void);
 - (double);
 - (id);
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id)ss:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id)`
+;
 - (void);
-- (id);
-- (id);
-- (void);
-- (struct NSEdgeInsets)ggingSession:movedToPoint: /* Error: Ran out of types for this method. */;
+- (struct NSEdgeInsets)collectionView:draggingSession:movedToPoint: /* Error: Ran out of types for this method. */;
 - (void)AlongsideAnimationViews:(id)arg1 ,V__alongsideAnimationViews;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *_addedConstraints; // @synthesize _addedConstraints=__addedConstraints;
-@property(nonatomic, setter=_setHighlightingForContext:) _Bool _highlightingForContext; // @synthesize _highlightingForContext=__highlightingForContext;
-@property(retain, nonatomic, setter=_setSeparatorColor:) NSColor *_separatorColor; // @synthesize _separatorColor=__separatorColor;
-@property(nonatomic, setter=_setSeparatorHeight:) double _separatorHeight; // @synthesize _separatorHeight=__separatorHeight;
-@property(nonatomic, setter=_setSeparatorStyle:) long long _separatorStyle; // @synthesize _separatorStyle=__separatorStyle;
-@property(nonatomic) long long accessoryType; // @synthesize accessoryType=_accessoryType;
-@property(retain, nonatomic) UXView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(retain, nonatomic) UXView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) UXView *defaultSelectedBackgroundView;
-@property(retain, nonatomic) UXLabel *detailTextLabel; // @synthesize detailTextLabel=_detailTextLabel;
-@property(retain, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(nonatomic) long long indentationLevel; // @synthesize indentationLevel=_indentationLevel;
-@property(nonatomic) double indentationWidth; // @synthesize indentationWidth=_indentationWidth;
 @property(readonly, nonatomic) _UXButton *internalAccessoryView;
-@property(readonly, nonatomic) UXView *internalHighlightedBackgroundView; // @synthesize internalHighlightedBackgroundView=_internalHighlightedBackgroundView;
-@property(readonly, nonatomic) UXView *lowerSpace;
-@property(retain, nonatomic) UXView *selectedBackgroundView; // @synthesize selectedBackgroundView=_selectedBackgroundView;
-@property(nonatomic) long long selectionStyle; // @synthesize selectionStyle=_selectionStyle;
-@property(nonatomic) struct NSEdgeInsets separatorInset; // @synthesize separatorInset=_separatorInset;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(retain, nonatomic) UXLabel *textLabel; // @synthesize textLabel=_textLabel;
-@property(readonly, nonatomic) UXView *upperSpace;
 
 @end
 

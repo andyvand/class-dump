@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface ASDAudioDeviceDSPDatabase
 {
     NSString *_deviceUID;
-    NSSet *_dspConfigurations;
-    NSSet *_referencedUnderlyingDeviceProperties;
-    NSSet *_referencedDSPDeviceProperties;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(readonly, nonatomic) NSSet *dspConfigurations; // @synthesize dspConfigurations=_dspConfigurations;
-@property(readonly, nonatomic) NSSet *referencedDSPDeviceProperties; // @synthesize referencedDSPDeviceProperties=_referencedDSPDeviceProperties;
-@property(readonly, nonatomic) NSSet *referencedUnderlyingDeviceProperties; // @synthesize referencedUnderlyingDeviceProperties=_referencedUnderlyingDeviceProperties;
 
 @end
 

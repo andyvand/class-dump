@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNQuickActionButton, NSString, NSTextField;
-
 @interface CNQuickActionView
 {
     _Bool _didCreateConstraints;
-    CNQuickActionButton *_actionButton;
-    NSTextField *_actionLabel;
-    NSString *_actionName;
-    long long _quickActionViewStyle;
 }
 
 + (id);
@@ -23,7 +17,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -37,17 +31,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)_	;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNQuickActionButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(retain, nonatomic) NSTextField *actionLabel; // @synthesize actionLabel=_actionLabel;
-@property(retain, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
 @property(nonatomic) _Bool didCreateConstraints; // @synthesize didCreateConstraints=_didCreateConstraints;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) long long quickActionViewStyle; // @synthesize quickActionViewStyle=_quickActionViewStyle;
 
 @end
 

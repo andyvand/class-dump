@@ -5,5 +5,12 @@
 //
 
 @protocol NSKeyedArchiverDelegate
+
+@optional
+- (void)led;
+- (void)[Click Monitor] already cancelled;
+- (void)onitor] Clearing scheduled click outside of content dismissal;
+- (void)lick monitor timer firing.;
+- (id);
 @end
 

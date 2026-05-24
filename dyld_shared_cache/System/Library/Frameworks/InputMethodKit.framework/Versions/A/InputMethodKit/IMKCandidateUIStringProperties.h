@@ -9,19 +9,17 @@
 @interface IMKCandidateUIStringProperties
 {
     NSString *_title;
-    NSDictionary *_attributes;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)VCAggregatorAudioStream;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

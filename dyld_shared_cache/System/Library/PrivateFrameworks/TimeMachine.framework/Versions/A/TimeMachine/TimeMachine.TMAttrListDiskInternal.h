@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface TimeMachine.TMAttrListDiskInternal
 {
@@ -19,13 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)<;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)BENEFICIARY_VIEW_ACCESS_KEY;
 - (id);
 - (id);
 - (struct fsid);
@@ -33,21 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *bytesFree;
-@property(nonatomic, readonly) NSNumber *bytesUsed;
-@property(nonatomic, readonly) NSNumber *capacity;
-@property(nonatomic, readonly) NSString *deviceName;
-@property(nonatomic, readonly) NSString *devicePath;
-@property(nonatomic, readonly) NSString *filesystemTypeName;
-@property(nonatomic, readonly) struct fsid fsid;
-@property(nonatomic, readonly) NSString *liveDiskDevicePath;
 @property(nonatomic, readonly) NSURL *mountPoint;
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSNumber *quota;
-@property(nonatomic, readonly) NSString *snapshotName;
-@property(nonatomic, readonly) unsigned long long traits;
-@property(nonatomic, readonly) NSString *userVisibleName;
-@property(nonatomic, readonly) NSString *volumeUUID;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (void)oatingCursor;
+- (void)_cursorFadedHiddenForFloatingCursor;
 
 // Remaining properties
 @property(nonatomic) UIWindow *window; // @synthesize window=_window;

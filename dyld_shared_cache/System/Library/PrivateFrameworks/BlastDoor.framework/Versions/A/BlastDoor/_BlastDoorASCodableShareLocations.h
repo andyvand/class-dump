@@ -9,7 +9,6 @@
 @interface _BlastDoorASCodableShareLocations
 {
     NSString *_activityShareURL;
-    NSString *_relationshipShareURL;
 }
 
 - (void);
@@ -26,14 +25,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activityShareURL; // @synthesize activityShareURL=_activityShareURL;
 @property(readonly, nonatomic) _Bool hasActivityShareURL;
-@property(readonly, nonatomic) _Bool hasRelationshipShareURL;
-@property(retain, nonatomic) NSString *relationshipShareURL; // @synthesize relationshipShareURL=_relationshipShareURL;
 
 @end
 

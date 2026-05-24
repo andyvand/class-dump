@@ -6,20 +6,17 @@
 
 #import <VoiceShortcutClient/WFIcon.h>
 
-@class WFIconBackground;
-
 @interface WFWorkflowGlyphIcon : WFIcon
 {
     unsigned short _glyph;
-    WFIconBackground *_background;
 }
 
-+ (_Bool);
++ (_Bool)Library/PrivateFrameworks/AXMediaUtilities.framework/Versions/A/AXMediaUtilities;
 - (id);
-- (id);
+- (id)%{;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)h:(id)arg1 y;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -29,7 +26,6 @@
 - (id):resolvedActivityItems:hostBundleIdentifier:iconSize:iconScale:error:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) WFIconBackground *background; // @synthesize background=_background;
 @property(readonly, nonatomic) unsigned short glyph; // @synthesize glyph=_glyph;
 
 @end

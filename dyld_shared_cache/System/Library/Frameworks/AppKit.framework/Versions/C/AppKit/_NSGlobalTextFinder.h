@@ -12,22 +12,20 @@ __attribute__((visibility("hidden")))
 @interface _NSGlobalTextFinder : _NSTextFinderImpl
 {
     NSString *_searchString;
-    unsigned long long _matchType;
-    unsigned long long _options;
 }
 
-- (long long);
+- (long long)C;
 - (void);
+- (void)led for class '%s';
+- (unsigned long long)error, skipping data class.;
 - (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (_Bool)sion for file %@, succeeded = %{bool}d;
 - (id);
 - (long long);
 - (unsigned long long);
 - (oneway void);
 - (id);
-- (id);
+- (id);
 - (void)1ß3ð1Â0@ù
 × ;
 - (void);

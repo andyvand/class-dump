@@ -9,7 +9,6 @@
 @interface QLThumbnailExtensionInfo
 {
     QLExtension *_extension;
-    unsigned long long _minimumThumbnailSize;
 }
 
 - (void);
@@ -18,8 +17,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id).;
+- (void)5;
 
 // Remaining properties
 @property(retain) QLExtension *extension; // @synthesize extension=_extension;

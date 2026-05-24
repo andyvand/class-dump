@@ -10,15 +10,14 @@
 {
 }
 
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)Analytics_Oversize;
+- (id)ateStation;
+- (void)<˟;
 - (struct CGSize);
 - (int);
 - (double)td::allocator<unsigned long>>="__begin_"^Q"__end_"^Q""{?="__cap_"^Q}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double baselineOffset;
 @property(readonly, nonatomic) struct CGSize size;
 
 @end

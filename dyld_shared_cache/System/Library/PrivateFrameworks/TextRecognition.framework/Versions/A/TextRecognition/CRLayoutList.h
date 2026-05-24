@@ -9,20 +9,18 @@
 @interface CRLayoutList
 {
     unsigned long long _layoutDirection;
-    NSArray *_items;
 }
 
 + (id);
-+ (id);
++ (id)_test_hashOfPassword:(id)arg1 usingGlobalSalt: /* Error: Ran out of types for this method. */;
+- (id)C;
 - (id);
-- (id);
-- (void);
+- (void)unarchivedObjectOfClass:(id)arg1 fromData:error: /* Error: Ran out of types for this method. */;
 - (void)=dd}}16@0:8 /* Error: Ran out of types for this method. */;
 - (unsigned long long)/;
 
 // Remaining properties
 @property(retain) NSArray *items; // @synthesize items=_items;
-@property(readonly) unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
 
 @end
 

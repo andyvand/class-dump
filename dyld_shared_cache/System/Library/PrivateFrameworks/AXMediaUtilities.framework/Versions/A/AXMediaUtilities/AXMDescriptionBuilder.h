@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMVisionFeature, NSMutableArray, NSMutableDictionary, NSMutableString;
+@class AXMVisionFeature;
 
 @interface AXMDescriptionBuilder
 {
     long long _builderOptions;
-    NSMutableString *_speakableDescription;
-    NSMutableString *_visualDescription;
-    NSMutableArray *_faceFeatures;
-    NSMutableDictionary *_classificationLabelsToLocValuesMap;
-    NSMutableArray *_iconClassFeatures;
-    AXMVisionFeature *_captionFeature;
-    _Bool _isNSFW;
-    _Bool _shouldModifyCaptionForSensitiveContent;
-    AXMVisionFeature *_blurFeature;
-    AXMVisionFeature *_brightnessFeature;
-    AXMVisionFeature *_primarySensitiveContentFeature;
 }
 
 + (id);
@@ -29,23 +18,23 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (_Bool)[&\|;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)$z;
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)z;
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -65,10 +54,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AXMVisionFeature *blurFeature; // @synthesize blurFeature=_blurFeature;
-@property(retain, nonatomic) AXMVisionFeature *brightnessFeature; // @synthesize brightnessFeature=_brightnessFeature;
-@property(nonatomic) _Bool isNSFW; // @synthesize isNSFW=_isNSFW;
-@property(retain, nonatomic) AXMVisionFeature *primarySensitiveContentFeature; // @synthesize primarySensitiveContentFeature=_primarySensitiveContentFeature;
-@property(nonatomic) _Bool shouldModifyCaptionForSensitiveContent; // @synthesize shouldModifyCaptionForSensitiveContent=_shouldModifyCaptionForSensitiveContent;
 
 @end
 

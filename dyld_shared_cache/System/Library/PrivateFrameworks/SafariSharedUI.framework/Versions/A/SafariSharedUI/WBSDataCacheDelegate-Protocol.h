@@ -5,5 +5,8 @@
 //
 
 @protocol WBSDataCacheDelegate
+
+@optional
+- (void);
 @end
 

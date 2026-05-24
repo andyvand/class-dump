@@ -7,7 +7,7 @@
 @class NSError;
 
 @protocol VCMediaDeviceProtocol
-- (NSError *)LTRforKeyFrame;
+- (NSError *)_VideoTransmitter_ResetLTRforKeyFrame;
 - (NSError *)lapsedWithCurrentFrameTime:] /* Error: Ran out of types for this method. */;
 @end
 

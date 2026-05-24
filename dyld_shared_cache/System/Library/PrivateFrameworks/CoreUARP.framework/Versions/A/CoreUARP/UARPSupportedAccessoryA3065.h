@@ -15,8 +15,8 @@
 
 + (id);
 + (id);
-+ (unsigned short);
-- (id);
++ (unsigned short)n ``&;
+- (id)AMSPurchaseSIWAResult;
 - (void);
 
 @end

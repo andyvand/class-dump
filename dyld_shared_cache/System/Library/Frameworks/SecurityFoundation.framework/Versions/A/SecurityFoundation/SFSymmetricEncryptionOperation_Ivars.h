@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _SFSymmetricKeySpecifier;
-
 __attribute__((visibility("hidden")))
 @interface SFSymmetricEncryptionOperation_Ivars
 {
     long long mode;
-    _SFSymmetricKeySpecifier *keySpecifier;
 }
 
 - (void);

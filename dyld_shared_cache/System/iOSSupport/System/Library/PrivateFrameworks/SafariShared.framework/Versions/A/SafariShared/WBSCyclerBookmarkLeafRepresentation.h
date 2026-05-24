@@ -13,7 +13,7 @@
     NSURL *_url;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);

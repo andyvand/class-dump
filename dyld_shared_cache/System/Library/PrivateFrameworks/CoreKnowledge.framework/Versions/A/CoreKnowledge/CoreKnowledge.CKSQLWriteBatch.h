@@ -11,7 +11,7 @@
     id queue;
 }
 
-- (void);
+- (void)setShowSFCardCommand:(CDUnknownBlockType)arg1;
 - (_Bool);
 
 @end

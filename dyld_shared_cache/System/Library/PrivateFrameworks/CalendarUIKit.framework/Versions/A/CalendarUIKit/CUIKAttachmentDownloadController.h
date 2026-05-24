@@ -5,20 +5,17 @@
 //
 
 @class EKAttachment;
-@protocol CUIKAttachmentDownloadControllerDelegate;
 
 @interface CUIKAttachmentDownloadController
 {
     id _downloadID;
-    EKAttachment *_attachment;
-    id <CUIKAttachmentDownloadControllerDelegate> _delegate;
 }
 
-+ (id)é;
-+ (_Bool)óªöªàªáªâª%¸ýàªcå@;
-- (void);
-- (void)ªH®R r;
-- (void)Qø Ý0;
++ (id);
++ (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,12 +24,11 @@
 - (id);
 - (void);
 - (id);
-- (void)lineHourStringForHourDate:baseFontSize: /* Error: Ran out of types for this method. */;
+- (void)stylizedTimelineHourStringForHourDate:baseFontSize: /* Error: Ran out of types for this method. */;
 - (void)`Çÿÿ¼]þÿÜñõÿì;
 
 // Remaining properties
 @property(retain, nonatomic) EKAttachment *attachment; // @synthesize attachment=_attachment;
-@property(nonatomic) __weak id <CUIKAttachmentDownloadControllerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

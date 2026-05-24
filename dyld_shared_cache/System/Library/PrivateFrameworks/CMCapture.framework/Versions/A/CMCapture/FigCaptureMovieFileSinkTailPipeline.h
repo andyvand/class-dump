@@ -6,36 +6,16 @@
 
 #import <CMCapture/FigCapturePipeline.h>
 
-@class BWBackPressureNode, BWPixelTransferNode, BWQuickTimeMovieFileSinkNode, BWSmartCropNode, BWVideoCompressorNode, FigCaptureVISPipeline, NSMutableDictionary;
-@protocol BWMRCSceneObserver, BWNodeBackPressureSource;
+@class BWPixelTransferNode;
+@protocol BWMRCSceneObserver;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMovieFileSinkTailPipeline : FigCapturePipeline
 {
     BWPixelTransferNode *_scalerNode;
-    FigCaptureVISPipeline *_visPipeline;
-    FigCaptureVISPipeline *_stereoVideoCompanionVISPipeline;
-    BWVideoCompressorNode *_videoCompressorNode;
-    BWVideoCompressorNode *_sdofCompressorNode;
-    BWVideoCompressorNode *_depthCompressorNode;
-    NSMutableDictionary *_smartStyleCompressorNodesByAttachedMediaKey;
-    BWBackPressureNode *_irisIntermediateJPEGDecompressionBackPressureNode;
-    BWBackPressureNode *_visBackPressureNode;
-    BWBackPressureNode *_scalerBackPressureNode;
-    BWBackPressureNode *_irisSDOFVISBackPressureNode;
-    BWQuickTimeMovieFileSinkNode *_movieFileSinkNode;
-    id <BWNodeBackPressureSource> _visBackPressureSourceNode;
-    unsigned long long _tailIndex;
-    int _visBackPressureExtraRetainedBufferCount;
-    int _videoStabilizationType;
-    _Bool _offlineVISEnabled;
-    _Bool _recording;
-    BWSmartCropNode *_smartCropNode;
-    _Bool _sceneClassifierSuspended;
-    id <BWMRCSceneObserver> _mrcSceneObserver;
 }
 
-- (void);
+- (void)ceholders;
 - (id);
 - (id);
 - (CDStruct_1ef3fb1f);
@@ -46,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (void);
+- (void)	*	X@9!	*	\@9;
 - (_Bool);
 - (id)çÿÿæ
 ÿÿä	ÿÿâÿÿáÿÿÞÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿ_üÿÿ#ÿÿÿ§ÿÿºÿÿÉÿÿÖý;
@@ -54,17 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)ïÿ&ïÿ8ðÿGñÿUòÿbóÿnôÿyõÿ÷ÿøÿùÿ£úÿ­ûÿ·üÿÃýÿÍþÿ×ÿÿáÿÿìÿÿõÿÿÿÿÿÿÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect irisVISCleanOutputRectForCLAP;
-@property(readonly, nonatomic) BWQuickTimeMovieFileSinkNode *movieFileSinkNode; // @synthesize movieFileSinkNode=_movieFileSinkNode;
 @property(nonatomic) id <BWMRCSceneObserver> mrcSceneObserver; // @synthesize mrcSceneObserver=_mrcSceneObserver;
-@property(readonly, nonatomic) CDStruct_1ef3fb1f offlineVISDimensions;
-@property(nonatomic) _Bool recording; // @synthesize recording=_recording;
-@property(readonly, nonatomic) BWPixelTransferNode *scalerNode; // @synthesize scalerNode=_scalerNode;
-@property(nonatomic) _Bool sceneClassifierSuspended; // @synthesize sceneClassifierSuspended=_sceneClassifierSuspended;
-@property(readonly, nonatomic) BWVideoCompressorNode *sdofCompressorNode; // @synthesize sdofCompressorNode=_sdofCompressorNode;
-@property(readonly, nonatomic) BWSmartCropNode *smartCropNode; // @synthesize smartCropNode=_smartCropNode;
-@property(readonly, nonatomic) BWVideoCompressorNode *videoCompressorNode; // @synthesize videoCompressorNode=_videoCompressorNode;
-@property(readonly, nonatomic) FigCaptureVISPipeline *visPipeline; // @synthesize visPipeline=_visPipeline;
 
 @end
 

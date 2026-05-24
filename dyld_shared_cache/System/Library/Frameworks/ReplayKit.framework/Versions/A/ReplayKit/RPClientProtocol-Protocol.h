@@ -5,5 +5,10 @@
 //
 
 @protocol RPClientProtocol
+
+@optional
+- (oneway void);
+- (oneway void);
+- (oneway void)P";
 @end
 

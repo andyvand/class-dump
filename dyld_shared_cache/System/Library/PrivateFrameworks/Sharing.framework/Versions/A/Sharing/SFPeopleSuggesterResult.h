@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SFPeopleSuggesterResult
 {
     unsigned int _flags;
-    NSString *_contactID;
-    NSArray *_handles;
-    NSString *_sendersKnownAlias;
 }
 
-+ (_Bool);
++ (_Bool)	kA;
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)__bss;
 - (void);
 - (void);
 - (void);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(copy, nonatomic) NSArray *handles; // @synthesize handles=_handles;
-@property(copy, nonatomic) NSString *sendersKnownAlias; // @synthesize sendersKnownAlias=_sendersKnownAlias;
 
 @end
 

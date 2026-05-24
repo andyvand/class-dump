@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-
 @interface ASDPurchaseHistoryQuery
 {
     long long _accountID;
-    NSArray *_bundleIDs;
-    NSNumber *_genreID;
-    long long _includeArcade;
-    long long _isFirstParty;
-    long long _isHidden;
-    long long _currentlyOptedInForMacOSEligibility;
-    long long _currentlyOptedInForXROSEligibility;
-    long long _optedInForMacOSEligibility;
-    long long _optedInForXROSEligibility;
-    long long _isEligibleForGamesApp;
-    long long _isPreorder;
-    unsigned long long _properties;
-    NSString *_searchTerm;
-    NSArray *_sortOptions;
-    long long _supportsCurrentDevice;
-    long long _supportsRealityDevice;
-    NSArray *_storeIDs;
 }
 
 + (_Bool);
@@ -45,53 +26,35 @@
 - (void);
 - (void);
 - (void);
+- (long long)icaWebKitViewControllerDelegate;
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void)7;
+- (void);
+- (void)A;
+- (long long);
+- (long long)initWithRoute:destinationName:stringFormatter:traffic: /* Error: Ran out of types for this method. */;
+- (void)ublic}@:(long long)arg1 %{public}@;
+- (long long);
+- (long long);
+- (long long);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)lities: /* Error: Ran out of types for this method. */;
+- (void)B;
+- (id)setAppCapabilities: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long accountID; // @synthesize accountID=_accountID;
-@property(copy) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
-@property long long currentlyOptedInForMacOSEligibility; // @synthesize currentlyOptedInForMacOSEligibility=_currentlyOptedInForMacOSEligibility;
-@property long long currentlyOptedInForXROSEligibility; // @synthesize currentlyOptedInForXROSEligibility=_currentlyOptedInForXROSEligibility;
-@property(retain) NSNumber *genreID; // @synthesize genreID=_genreID;
-@property long long includeArcade; // @synthesize includeArcade=_includeArcade;
-@property long long isEligibleForGamesApp; // @synthesize isEligibleForGamesApp=_isEligibleForGamesApp;
-@property long long isFirstParty; // @synthesize isFirstParty=_isFirstParty;
-@property long long isHidden; // @synthesize isHidden=_isHidden;
-@property long long isIOSBinaryMacOSCompatible;
-@property long long isPreorder; // @synthesize isPreorder=_isPreorder;
-@property long long optedInForMacOSEligibility; // @synthesize optedInForMacOSEligibility=_optedInForMacOSEligibility;
-@property long long optedInForXROSEligibility; // @synthesize optedInForXROSEligibility=_optedInForXROSEligibility;
-@property unsigned long long properties; // @synthesize properties=_properties;
-@property(copy) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
-@property(copy) NSArray *sortOptions; // @synthesize sortOptions=_sortOptions;
-@property(copy) NSArray *storeIDs; // @synthesize storeIDs=_storeIDs;
-@property long long supportsCurrentDevice; // @synthesize supportsCurrentDevice=_supportsCurrentDevice;
-@property long long supportsRealityDevice; // @synthesize supportsRealityDevice=_supportsRealityDevice;
 
 @end
 

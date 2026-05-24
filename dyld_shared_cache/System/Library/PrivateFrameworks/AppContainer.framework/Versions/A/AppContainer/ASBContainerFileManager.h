@@ -20,7 +20,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -28,7 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)q16;
 - (void);
 
 // Remaining properties

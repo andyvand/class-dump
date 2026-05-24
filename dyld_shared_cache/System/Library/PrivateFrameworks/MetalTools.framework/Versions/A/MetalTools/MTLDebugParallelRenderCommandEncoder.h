@@ -11,8 +11,6 @@
 @interface MTLDebugParallelRenderCommandEncoder : MTLToolsParallelRenderCommandEncoder
 {
     unsigned int _unknownStoreActions;
-    struct atomic<unsigned long long> _attachmentWriteMask;
-    MTLRenderPassDescriptor *_descriptor;
 }
 
 - (id);
@@ -23,13 +21,13 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)�;
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (id);
 

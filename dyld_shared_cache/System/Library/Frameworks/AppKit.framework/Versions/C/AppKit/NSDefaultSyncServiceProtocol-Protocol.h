@@ -5,5 +5,6 @@
 //
 
 @protocol NSDefaultSyncServiceProtocol
+- (void)Uчߚ;
 @end
 

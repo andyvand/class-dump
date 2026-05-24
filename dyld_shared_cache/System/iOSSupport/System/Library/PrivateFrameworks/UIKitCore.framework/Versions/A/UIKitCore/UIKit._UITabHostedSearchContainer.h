@@ -9,18 +9,12 @@
 @interface UIKit._UITabHostedSearchContainer : _UITouchPassthroughView
 {
     id primaryPlatterView;
-    id cancelPlatterView;
-    id cancelAction;
-    id cancelButton;
-    id searchBarView;
-    id showsCancelAction;
-    id interPlatterSpacing;
 }
 
 - (id);
-- (id);
+- (id)A;
 - (void);
-- (id)ng;
+- (id)UIUserActivityRestoring;
 - (void)GÿêìÜØ²l;
 
 @end

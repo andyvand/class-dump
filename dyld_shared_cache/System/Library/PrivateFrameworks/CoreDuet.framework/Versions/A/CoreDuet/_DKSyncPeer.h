@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface _DKSyncPeer
 {
     _Bool _companion;
-    _Bool _me;
-    NSString *_sourceDeviceID;
-    NSString *_idsDeviceIdentifier;
-    NSString *_zoneName;
-    NSDate *_lastSeenDate;
-    NSString *_name;
-    NSString *_model;
-    NSString *_version;
-    NSUUID *_uuid;
 }
 
 - (void);
@@ -25,21 +16,21 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)yer for symbol image %@;
+- (void)GetWindowColorProfile;
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)3;
+- (id)TZ;
 - (void);
 - (id);
+- (void)@"NSString",V_disposition;
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)s;
+- (id)ory.WBOEkW/Sources/boringssl/crypto/bio/file.c;
 - (void);
 - (_Bool);
 - (id);
@@ -52,18 +43,7 @@
 - (void)blic}@;
 
 // Remaining properties
-@property(nonatomic, getter=isCompanion) _Bool companion; // @synthesize companion=_companion;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *idsDeviceIdentifier; // @synthesize idsDeviceIdentifier=_idsDeviceIdentifier;
-@property(copy, nonatomic) NSDate *lastSeenDate; // @synthesize lastSeenDate=_lastSeenDate;
-@property(nonatomic) _Bool me; // @synthesize me=_me;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *sourceDeviceID; // @synthesize sourceDeviceID=_sourceDeviceID;
-@property(readonly, copy, nonatomic) NSUUID *sourceDeviceUUID;
-@property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(copy, nonatomic) NSString *version; // @synthesize version=_version;
-@property(copy, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

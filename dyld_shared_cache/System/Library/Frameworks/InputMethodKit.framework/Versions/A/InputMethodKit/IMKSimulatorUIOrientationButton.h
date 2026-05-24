@@ -13,7 +13,7 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)drawAnnotationsInRect:(id)arg1 layoutUnit:selected:properties: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long orientation; // @synthesize orientation=_orientation;

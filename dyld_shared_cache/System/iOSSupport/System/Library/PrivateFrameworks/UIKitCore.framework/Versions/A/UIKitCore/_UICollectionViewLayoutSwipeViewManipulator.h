@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICollectionView, _UICollectionViewLayoutSwipeActionsModule;
+@class UICollectionView, _UICollectionViewLayoutSwipeActionsModule;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewLayoutSwipeViewManipulator
@@ -13,19 +13,13 @@ __attribute__((visibility("hidden")))
     _UICollectionViewLayoutSwipeActionsModule *_swipeActionsModule;
 }
 
-- (struct CGRect);
-- (void);
-- (id);
+- (struct CGRect)initWithChatStatus:(id)arg1 chat:(id)arg2 style:displayName:groupID:lastAddressedHandle:lastAddressedSIMID:handleInfo:account:category:spamExtensionName:isBlackholed:spamDetectionSource: /* Error: Ran out of types for this method. */;
+- (void)addMessagesID:(id)arg1;
+- (id)N,GisDeviceLowOnDiskSpace,V_deviceLowOnDiskSpace;
 - (void)è·ÿRÔX®];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

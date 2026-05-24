@@ -9,10 +9,6 @@
 @interface CPLSuggestionPerson
 {
     NSString *_context;
-    unsigned int _feature;
-    NSString *_personIdentifier;
-    unsigned int _type;
-    CDStruct_35f57793 _has;
 }
 
 - (_Bool);
@@ -24,32 +20,25 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)9;
+- (unsigned int);
+- (id);
 - (_Bool);
-- (unsigned int)é·°)Ù¹*;
-- (id)àªO@ùâª^Kà;
-- (_Bool)ÁÚ¨«Að#©àªçõ;
 - (void);
-- (void);
+- (void)d;
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)GetRootShareConnection;
 - (void);
 - (void)aÂ!Bù±ð1Â0@ù
 × ;
-- (void)inalResource;
+- (void)AdjustmentOriginalResource;
 - (unsigned int)stored record:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *context; // @synthesize context=_context;
-@property(nonatomic) unsigned int feature; // @synthesize feature=_feature;
-@property(readonly, nonatomic) _Bool hasContext;
-@property(nonatomic) _Bool hasFeature;
 @property(readonly, nonatomic) _Bool hasPersonIdentifier;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

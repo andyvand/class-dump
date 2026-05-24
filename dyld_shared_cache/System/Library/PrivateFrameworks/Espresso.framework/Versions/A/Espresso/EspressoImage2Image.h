@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol MTLCommandQueue, MTLDevice, MTLTexture, OS_dispatch_queue;
-
 @interface EspressoImage2Image
 {
     void *ctx;
-    void *plan;
-    CDStruct_2bc666a5 net;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> output_layer_name;
-    id <MTLCommandQueue> queue;
-    id <MTLDevice> device;
-    NSObject<OS_dispatch_queue> *dispatch_queue;
-    _Bool is_temporal_model;
-    unsigned long long dim[5];
-    unsigned long long dim_small[5];
-    int defaultWidth;
-    int defaultHeight;
-    float t0;
-    int scale_ratio;
-    id <MTLTexture> smallOldResultTexture;
-    struct map<std::string, float, std::less<std::string>, std::allocator<std::pair<const std::string, float>>> tweaks;
-    struct postprocessing_settings_t current_postprocessing_settings;
-    struct shared_ptr<Espresso::V9Engine::v9_noise_kernel> noise_k;
-    struct shared_ptr<Espresso::generic_load_constant_kernel> noise_load_constant_kernel;
-    NSString *currentNetworkPath;
-    long long currentResolutionPreset;
-    shared_ptr_b3167edd precomputed_noise;
-    id <MTLTexture> tmpDestinationTexture;
-    int _rotation_degrees;
-    int _flip_y;
 }
 
 + (void);
@@ -63,7 +36,7 @@
 - (id);
 - (int);
 - (id);
-- (CDStruct_2bc666a5);
+- (CDStruct_e4961688);
 - (int);
 - (int);
 - (int);
@@ -80,13 +53,12 @@
 - (id);
 - (int);
 - (id);
-- (int);
+- (int);
 - (int);
 - (void)È;
 - (int)ion6__funcIZN5nitro4impl15nitro_lazy_eval18exec_function_bodyERKNS_6vectorINS_10unique_ptrINS2_2ir4NODEENS_14default_deleteIS8_EEEENS_9allocatorISB_EEEEE3$_0FNS2_14nitro_variableERNS3_10nitro_evalEEEE;
 
 // Remaining properties
-@property(nonatomic) int flip_y; // @synthesize flip_y=_flip_y;
 @property(nonatomic) int rotation_degrees; // @synthesize rotation_degrees=_rotation_degrees;
 
 @end

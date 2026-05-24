@@ -6,20 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchSubscriptionsOperationInfo, NSArray, NSMutableDictionary, NSString;
 @protocol CKFetchSubscriptionsOperationCallbacks;
 
 @interface CKFetchSubscriptionsOperation : CKDatabaseOperation
 {
     _Bool _isFetchAllSubscriptionsOperation;
-    CDUnknownBlockType _perSubscriptionCompletionBlock;
-    CDUnknownBlockType _fetchSubscriptionCompletionBlock;
-    NSArray *_subscriptionIDs;
-    CDUnknownBlockType _perSubscriptionCompletionBlock_wrapper;
-    CDUnknownBlockType _fetchSubscriptionCompletionBlock_wrapper;
-    NSArray *_subscriptions;
-    NSMutableDictionary *_subscriptionsBySubscriptionID;
-    NSMutableDictionary *_subscriptionErrors;
 }
 
 + (SEL);
@@ -27,10 +18,10 @@
 + (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)?;
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)0;
 - (id);
 - (_Bool);
 - (void);
@@ -41,7 +32,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void).;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -53,20 +44,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKFetchSubscriptionsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fetchSubscriptionCompletionBlock; // @synthesize fetchSubscriptionCompletionBlock=_fetchSubscriptionCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchSubscriptionCompletionBlock_wrapper; // @synthesize fetchSubscriptionCompletionBlock_wrapper=_fetchSubscriptionCompletionBlock_wrapper;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFetchAllSubscriptionsOperation; // @synthesize isFetchAllSubscriptionsOperation=_isFetchAllSubscriptionsOperation;
-@property(readonly, nonatomic) CKFetchSubscriptionsOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perSubscriptionCompletionBlock; // @synthesize perSubscriptionCompletionBlock=_perSubscriptionCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perSubscriptionCompletionBlock_wrapper; // @synthesize perSubscriptionCompletionBlock_wrapper=_perSubscriptionCompletionBlock_wrapper;
-@property(copy, nonatomic) NSArray *subscriptionIDs; // @synthesize subscriptionIDs=_subscriptionIDs;
-@property(readonly) Class superclass;
 
 @end
 

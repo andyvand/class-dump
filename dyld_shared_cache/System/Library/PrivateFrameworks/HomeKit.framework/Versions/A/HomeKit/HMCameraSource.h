@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCameraView, NSNumber, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMCameraSource
 {
     double _aspectRatio;
-    _HMContext *_context;
-    NSUUID *_profileUniqueIdentifier;
-    NSNumber *_slotIdentifier;
-    HMCameraView *_cameraView;
 }
 
 + (id)updateName:completionHandler:] /* Error: Ran out of types for this method. */;
@@ -25,32 +20,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)5	;
+- (id)persistentStoreDescriptionWithURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)ÿÿ;
 - (double)ÿ;
 
 // Remaining properties
-@property(readonly) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property __weak HMCameraView *cameraView; // @synthesize cameraView=_cameraView;
 @property(retain) _HMContext *context; // @synthesize context=_context;
-@property(readonly) double currentAspectRatio;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, copy) NSUUID *profileUniqueIdentifier; // @synthesize profileUniqueIdentifier=_profileUniqueIdentifier;
-@property(readonly, copy) NSNumber *slotIdentifier; // @synthesize slotIdentifier=_slotIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

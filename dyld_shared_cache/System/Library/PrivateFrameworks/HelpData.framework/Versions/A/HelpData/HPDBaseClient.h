@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface HPDBaseClient
 {
@@ -15,11 +15,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)ePolicy:(id)arg1;
+- (_Bool)URLProtocol:(id)arg1 didReceiveResponse:cacheStoragePolicy: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *bookList;
-@property(readonly) NSSet *indexedBookIDs;
 
 @end
 

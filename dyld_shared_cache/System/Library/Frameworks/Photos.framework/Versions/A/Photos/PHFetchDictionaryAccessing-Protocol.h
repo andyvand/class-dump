@@ -5,5 +5,6 @@
 //
 
 @protocol PHFetchDictionaryAccessing
+- (id))Q?e;
 @end
 

@@ -7,23 +7,6 @@
 @interface AWDLibnetcoreMbufStatsReport
 {
     unsigned long long _mbuf16KBTotal;
-    unsigned long long _mbuf256BTotal;
-    unsigned long long _mbuf2KBTotal;
-    unsigned long long _mbuf4KBTotal;
-    unsigned long long _mbufDrainCount;
-    unsigned long long _mbufMemReleased;
-    unsigned long long _sockAtMBLimit;
-    unsigned long long _sockMBcnt;
-    struct {
-        unsigned int mbuf16KBTotal:1;
-        unsigned int mbuf256BTotal:1;
-        unsigned int mbuf2KBTotal:1;
-        unsigned int mbuf4KBTotal:1;
-        unsigned int mbufDrainCount:1;
-        unsigned int mbufMemReleased:1;
-        unsigned int sockAtMBLimit:1;
-        unsigned int sockMBcnt:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -41,9 +24,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -52,7 +35,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)ik8);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -64,27 +47,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)�;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasMbuf16KBTotal;
 @property(nonatomic) _Bool hasMbuf256BTotal;
-@property(nonatomic) _Bool hasMbuf2KBTotal;
-@property(nonatomic) _Bool hasMbuf4KBTotal;
-@property(nonatomic) _Bool hasMbufDrainCount;
-@property(nonatomic) _Bool hasMbufMemReleased;
-@property(nonatomic) _Bool hasSockAtMBLimit;
-@property(nonatomic) _Bool hasSockMBcnt;
-@property(nonatomic) unsigned long long mbuf16KBTotal; // @synthesize mbuf16KBTotal=_mbuf16KBTotal;
-@property(nonatomic) unsigned long long mbuf256BTotal; // @synthesize mbuf256BTotal=_mbuf256BTotal;
-@property(nonatomic) unsigned long long mbuf2KBTotal; // @synthesize mbuf2KBTotal=_mbuf2KBTotal;
-@property(nonatomic) unsigned long long mbuf4KBTotal; // @synthesize mbuf4KBTotal=_mbuf4KBTotal;
-@property(nonatomic) unsigned long long mbufDrainCount; // @synthesize mbufDrainCount=_mbufDrainCount;
-@property(nonatomic) unsigned long long mbufMemReleased; // @synthesize mbufMemReleased=_mbufMemReleased;
-@property(nonatomic) unsigned long long sockAtMBLimit; // @synthesize sockAtMBLimit=_sockAtMBLimit;
-@property(nonatomic) unsigned long long sockMBcnt; // @synthesize sockMBcnt=_sockMBcnt;
 
 @end
 

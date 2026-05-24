@@ -6,56 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SMTSchemaSMTAppLanguageModelBuildEnded, SMTSchemaSMTAppLanguageModelBuildFailed, SMTSchemaSMTAppLanguageModelBuildStarted;
+@class SMTSchemaSMTAppLanguageModelBuildStarted;
 
 @interface SMTSchemaSMTAppLanguageModelBuildContext : SISchemaInstrumentationMessage
 {
     SMTSchemaSMTAppLanguageModelBuildStarted *_startedOrChanged;
-    SMTSchemaSMTAppLanguageModelBuildEnded *_ended;
-    SMTSchemaSMTAppLanguageModelBuildFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
+- (void)�#;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)ley-EC2N-3;
+- (unsigned long long)postProcessCompletedUnitCount;
+- (_Bool)ABActionAddressCopyMailingLabel;
+- (_Bool)light-metrics-rebuild-cooldown-interval;
 - (id);
 - (id);
-- (id)eviceArbitrationAllowed;
-- (id)hasIsAnnounceEnabled;
-- (void)NTINVOCATIONSOURCE_MAIL;
+- (id)deleteIsCrossDeviceArbitrationAllowed;
+- (id)_hasIsAnnounceEnabled;
+- (void)COMPONENTINVOCATIONSOURCE_MAIL;
 
 // Remaining properties
-@property(retain, nonatomic) SMTSchemaSMTAppLanguageModelBuildEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) SMTSchemaSMTAppLanguageModelBuildFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SMTSchemaSMTAppLanguageModelBuildStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

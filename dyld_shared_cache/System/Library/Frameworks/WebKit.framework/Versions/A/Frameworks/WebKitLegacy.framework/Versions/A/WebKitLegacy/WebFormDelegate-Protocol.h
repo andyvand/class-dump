@@ -5,5 +5,9 @@
 //
 
 @protocol WebFormDelegate
+- (void);
+- (_Bool)C
+;
+- (void)a;
 @end
 

@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBFocusStatus, _INPBIntentMetadata;
+@class _INPBFocusStatus;
 
 @interface _INPBShareFocusStatusIntent
 {
     struct _has;
-    _INPBFocusStatus *_focusStatus;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)iableP;
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool)TasksIntentContactEventTriggerUnsupportedReason;
-- (void)onseCodeSuccess;
+- (void)INShowHomeIntentResponseCodeSuccess;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBFocusStatus *focusStatus; // @synthesize focusStatus=_focusStatus;
-@property(readonly, nonatomic) _Bool hasFocusStatus;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

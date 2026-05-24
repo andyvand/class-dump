@@ -6,23 +6,21 @@
 
 #import <EventKitUI/EKRecurrenceChooserController.h>
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface EKRecurrenceWeekdayChooserController : EKRecurrenceChooserController
 {
     NSMutableArray *_selectedDays;
-    NSMutableArray *_cells;
-    NSArray *_daysOfTheWeek;
 }
 
-- (void);
+- (void)&s;
 - (void);
 - (void);
 - (double);
 - (int);
 - (id);
 - (void);
-- (int);
+- (int)s;
 - (void);
 - (void);
 - (id);
@@ -34,7 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *cells; // @synthesize cells=_cells;
-@property(retain, nonatomic) NSArray *daysOfTheWeek; // @synthesize daysOfTheWeek=_daysOfTheWeek;
 
 @end
 

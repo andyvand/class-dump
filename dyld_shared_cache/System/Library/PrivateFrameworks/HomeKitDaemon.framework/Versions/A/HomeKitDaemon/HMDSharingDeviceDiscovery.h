@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SFDeviceDiscovery;
-@protocol OS_dispatch_queue;
+@class SFDeviceDiscovery;
 
 __attribute__((visibility("hidden")))
 @interface HMDSharingDeviceDiscovery
@@ -15,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)con for key:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -27,24 +26,12 @@ __attribute__((visibility("hidden")))
 - (void)Session"16@"NSUUID"24;
 - (void)sage:(id)arg1;
 - (CDUnknownBlockType)pbcpc;
-- (void)eratingState;
+- (void)lastKnownOperatingState;
 - (void)Ù£Ð!>;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType deviceChangedHandler;
 @property(retain, nonatomic) SFDeviceDiscovery *deviceDiscovery; // @synthesize deviceDiscovery=_deviceDiscovery;
-@property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler;
-@property(nonatomic) unsigned long long discoveryFlags;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

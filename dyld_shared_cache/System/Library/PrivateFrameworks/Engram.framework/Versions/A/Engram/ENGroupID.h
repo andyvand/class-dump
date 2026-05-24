@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ENStableGroupID, NSData;
+@class ENStableGroupID;
 
 @interface ENGroupID
 {
     int _generation;
-    ENStableGroupID *_stableGroupID;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)qa;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?렌;
 - (void);
 - (id);
-- (id);
+- (id)#A96;
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *dataRepresentation;
-@property(readonly, nonatomic) int generation; // @synthesize generation=_generation;
 @property(readonly, nonatomic) ENStableGroupID *stableGroupID; // @synthesize stableGroupID=_stableGroupID;
 
 @end

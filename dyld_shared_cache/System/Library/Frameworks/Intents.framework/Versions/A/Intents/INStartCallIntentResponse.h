@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INConnectedCall, NSArray, NSNumber, NSString;
-
 @interface INStartCallIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
++ (int)saveBestRepresentationForRequest:(long long)arg1 toFileHandle:withContentType:allowingThumbnailDownloads:completionHandler: /* Error: Ran out of types for this method. */;
++ (long long)replyWithContextSize:(int)arg1 drawingBlock:(int)arg2;
++ (_Bool)queuedURLs;
 + (_Bool);
-+ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -31,26 +29,15 @@
 - (long long);
 - (void);
 - (id);
+- (id)setUnmappedLocalizedName:(id)arg1;
+- (id);
+- (void)matching for Passpoint networks;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)ludeFilter;
+- (long long)isExcludeFilter;
 
 // Remaining properties
 @property(readonly) long long code;
-@property long long confirmationReason;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *restrictedContacts;
-@property(copy) NSNumber *shouldDoEmergencyCountdown;
-@property(copy) INConnectedCall *startedCall;
-@property(readonly) Class superclass;
 
 @end
 

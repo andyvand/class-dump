@@ -7,8 +7,6 @@
 @interface NewsUI2.RecipeBoxSectionFactory
 {
     id engagementInlineViewManager;
-    id feedModelFactory;
-    id tagService;
 }
 
 @end

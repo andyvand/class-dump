@@ -6,20 +6,10 @@
 
 #import <HomeKitDaemon/HMDBackingStoreTransactionOptions.h>
 
-@class HMDBackingStore, NSMutableArray, NSMutableDictionary, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreTransactionActions : HMDBackingStoreTransactionOptions
 {
     _Bool _postApplyActionsInvoked;
-    NSMutableArray *_postApplyActions;
-    NSMutableSet *_postApplyActionNames;
-    _Bool _local;
-    _Bool _changed;
-    _Bool _saveToAssistant;
-    _Bool _saveToSharedUserAccount;
-    NSMutableDictionary *_userInfo;
-    HMDBackingStore *_backingStore;
 }
 
 + (id)X\ÿ2j;
@@ -27,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)screenSharingRemoteController;
 - (void);
 - (id);
 - (_Bool);
@@ -36,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)Q°1Â0@ù
 × ;
-- (void)mplete;
+- (void)_reportComplete;
 - (id)ssing asset properites from asset info:(id)arg1 %@;
 - (_Bool)on.;
 - (void)i);
@@ -44,12 +34,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(nonatomic) __weak HMDBackingStore *backingStore; // @synthesize backingStore=_backingStore;
-@property(readonly, nonatomic) _Bool changed; // @synthesize changed=_changed;
 @property(readonly, nonatomic) _Bool local; // @synthesize local=_local;
-@property(readonly, nonatomic) _Bool saveToAssistant; // @synthesize saveToAssistant=_saveToAssistant;
-@property(readonly, nonatomic) _Bool saveToSharedUserAccount; // @synthesize saveToSharedUserAccount=_saveToSharedUserAccount;
-@property(readonly, nonatomic) NSMutableDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol NSViewLayerFilter
+- (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool NS_isSourceOver;

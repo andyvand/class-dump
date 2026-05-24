@@ -6,23 +6,16 @@
 
 #import <FTServices/FTIDSMessage.h>
 
-@class NSData, NSString;
-
 @interface FTShareChannelMessage : FTIDSMessage
 {
     int _version;
-    int _responseValue;
-    int _messageType;
-    NSString *_messageID;
-    NSData *_protoData;
-    NSData *_protoResponse;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)createAlbumForPath:(id)arg1 inFolder:error: /* Error: Ran out of types for this method. */;
+- (void)createAlbumForPath:(id)arg1 inFolder:error: /* Error: Ran out of types for this method. */;
+- (id)countOfUnclusteredFaces;
+- (id)countOfRegisteredFetchResults;
+- (id)n:(id)arg1 sceneConfidenceThreshold:(int)arg2 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,36 +25,31 @@
 - (void);
 - (int);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (id)Rotation;
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void)questHandler:(int)arg1 fast Path synthesis found sufficient digit coverage from the inventory to trigger the character inventory preparation :%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (int);
-- (void);
+- (void)__common;
 - (long long);
 - (_Bool);
-- (id);
+- (id)SUOSUServiceClient;
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)ȏ;
 - (_Bool);
 - (id)°! FùqO °1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
 @property(nonatomic) int messageType; // @synthesize messageType=_messageType;
-@property(retain, nonatomic) NSData *protoData; // @synthesize protoData=_protoData;
-@property(retain, nonatomic) NSData *protoResponse; // @synthesize protoResponse=_protoResponse;
-@property(nonatomic) int responseValue; // @synthesize responseValue=_responseValue;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

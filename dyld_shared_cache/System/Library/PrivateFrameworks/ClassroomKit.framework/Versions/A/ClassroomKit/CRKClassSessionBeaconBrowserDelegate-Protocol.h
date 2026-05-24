@@ -5,5 +5,6 @@
 //
 
 @protocol CRKClassSessionBeaconBrowserDelegate
+- (void);
 @end
 

@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString, NSXPCConnection, NSXPCInterface;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface NFXPCServiceClient
 {
     NSXPCConnection *_xpcConnection;
-    NSHashTable *_delegates;
-    NSString *_serviceName;
-    NSXPCInterface *_remoteObjectInterface;
-    NSXPCInterface *_exportedInterface;
-    id _exportedObject;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
-    long long _clientCount;
-    unsigned long long _xpcConnectionID;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)uthorization;
+- (id)kABConverterBeginNotification;
+- (id)rsonEntry"8;
+- (id)framework/ContactsUI;
 - (void);
 - (void);
+- (void);
+- (void)wn = %d ;
 
 @end
 

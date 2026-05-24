@@ -7,9 +7,6 @@
 @interface WiFiAnalyticsAWDWiFiDPSBTSnapshot
 {
     unsigned long long _ts;
-    unsigned int _duration;
-    unsigned int _use;
-    CDStruct_92f5e503 _has;
 }
 
 - (unsigned long long);
@@ -19,8 +16,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned int);
-- (id);
+- (unsigned int)anisetteHeadersForRequest:completionBlockQueue:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)'t change tracking client ID to enumerate changed objects from %{public}@.;
 - (unsigned int);
 - (void);
 - (void);
@@ -29,18 +26,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)ment missing:(struct _NSZone *)arg1 'com.apple.bluetooth.system'.;
+- (_Bool)F;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void),;
 
 // Remaining properties
-@property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
 @property(nonatomic) _Bool hasTs;
-@property(nonatomic) _Bool hasUse;
-@property(nonatomic) unsigned long long ts; // @synthesize ts=_ts;
-@property(nonatomic) unsigned int use; // @synthesize use=_use;
 
 @end
 

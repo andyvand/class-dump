@@ -9,18 +9,16 @@
 @interface MPSNDArrayDecompositionQR : MPSNDArrayMultiaryKernel
 {
     _Bool _computeR;
-    _Bool _computeQ;
 }
 
 + (const struct MPSLibraryInfo *);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool computeQ; // @synthesize computeQ=_computeQ;
 @property(nonatomic) _Bool computeR; // @synthesize computeR=_computeR;
 
 @end

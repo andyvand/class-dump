@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSObject, NSString, SUAppStoreUpdateController, SUOSUClient, SUOSUMajorProduct, SUOSUNotificationManagerController, SUOSUSpoofedUpdates, SUOSUUpdateController, SUPowerAssertionManager;
-@protocol OS_dispatch_queue, OS_dispatch_source, SUOSUClientDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SUOSUShimController
 {
     _Bool _didPostScanCompleteNotification;
-    _Bool _scanInProgress;
-    _Bool _isBackgroundScanInProgress;
-    int _legacyBackgroundScanInitiatedNotifyToken;
-    int _backgroundScanInitiatedNotifyToken;
-    int _backgroundScanCompleteNotifyToken;
-    int _clientScanNotifyToken;
-    int _betaEnrollmentChangedNotifyToken;
-    NSObject<OS_dispatch_queue> *_operationQueue;
-    NSObject<OS_dispatch_queue> *_installNotifyQueue;
-    NSObject<OS_dispatch_source> *_inProgressUpdateTimerSource;
-    id <SUOSUClientDelegate> _delegate;
-    SUOSUClient *_client;
-    SUAppStoreUpdateController *_appStoreUpdateController;
-    SUOSUUpdateController *_updateController;
-    SUOSUNotificationManagerController *_notificationManager;
-    SUPowerAssertionManager *_powerAssertionManager;
-    SUOSUSpoofedUpdates *_spoofedUpdates;
-    id _queuedForLaterUpdatesObserverToken;
-    id _catalogURLObserverToken;
-    NSArray *_availableUpdates;
-    NSArray *_availableMajorUpdates;
-    SUOSUMajorProduct *_latestQualifyingMajorProduct;
-    NSDate *_latestCatalogModifiedDate;
 }
 
 - (void);
@@ -55,10 +32,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -71,7 +48,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -111,8 +88,8 @@
 - (int);
 - (int);
 - (_Bool);
-- (id);
-- (id);
+- (id)c;
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -122,9 +99,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -154,7 +131,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -168,9 +145,9 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)R#;
 - (_Bool);
 - (id);
 - (id);
@@ -178,7 +155,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (id);
 - (_Bool);
 - (void);
@@ -186,64 +163,24 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)P;
 - (void);
 - (id);
+- (void);
+- (void)뫷;
+- (id)data->ctf != ((void*)0)" -> %llu;
 - (void);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) SUAppStoreUpdateController *appStoreUpdateController; // @synthesize appStoreUpdateController=_appStoreUpdateController;
-@property(retain) NSArray *availableMajorUpdates; // @synthesize availableMajorUpdates=_availableMajorUpdates;
-@property(readonly, nonatomic) NSArray *availableMobileSoftwareUpdates;
-@property(retain) NSArray *availableUpdates; // @synthesize availableUpdates=_availableUpdates;
-@property int backgroundScanCompleteNotifyToken; // @synthesize backgroundScanCompleteNotifyToken=_backgroundScanCompleteNotifyToken;
-@property int backgroundScanInitiatedNotifyToken; // @synthesize backgroundScanInitiatedNotifyToken=_backgroundScanInitiatedNotifyToken;
-@property int betaEnrollmentChangedNotifyToken; // @synthesize betaEnrollmentChangedNotifyToken=_betaEnrollmentChangedNotifyToken;
-@property(readonly) NSString *catalogURL;
-@property(retain) id catalogURLObserverToken; // @synthesize catalogURLObserverToken=_catalogURLObserverToken;
-@property __weak SUOSUClient *client; // @synthesize client=_client;
-@property int clientScanNotifyToken; // @synthesize clientScanNotifyToken=_clientScanNotifyToken;
-@property(readonly) _Bool deferralEnabled;
-@property(readonly) _Bool deferredUpdatesExist;
-@property(retain) id <SUOSUClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool didPostScanCompleteNotification; // @synthesize didPostScanCompleteNotification=_didPostScanCompleteNotification;
-@property(retain) NSObject<OS_dispatch_source> *inProgressUpdateTimerSource; // @synthesize inProgressUpdateTimerSource=_inProgressUpdateTimerSource;
-@property(retain) NSObject<OS_dispatch_queue> *installNotifyQueue; // @synthesize installNotifyQueue=_installNotifyQueue;
-@property(readonly) _Bool isAutomaticallyCheckForUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyCheckForUpdatesPreferenceManaged;
-@property _Bool isAutomaticallyDownloadUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyDownloadUpdatesPreferenceManaged;
-@property _Bool isAutomaticallyInstallBackgroundSecurityImprovementsPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyInstallBackgroundSecurityImprovementsPreferenceManaged;
-@property _Bool isAutomaticallyInstallMacOSUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyInstallMacOSUpdatesPreferenceManaged;
-@property _Bool isAutomaticallyInstallSecurityAndConfigUpdatesPreferenceEnabled;
-@property(readonly) _Bool isAutomaticallyInstallSecurityAndConfigUpdatesPreferenceManaged;
-@property _Bool isBackgroundScanInProgress; // @synthesize isBackgroundScanInProgress=_isBackgroundScanInProgress;
-@property(retain, nonatomic) NSDate *latestCatalogModifiedDate; // @synthesize latestCatalogModifiedDate=_latestCatalogModifiedDate;
-@property(retain) SUOSUMajorProduct *latestQualifyingMajorProduct; // @synthesize latestQualifyingMajorProduct=_latestQualifyingMajorProduct;
-@property(readonly) NSDate *latestSuccessfulScanDate;
-@property int legacyBackgroundScanInitiatedNotifyToken; // @synthesize legacyBackgroundScanInitiatedNotifyToken=_legacyBackgroundScanInitiatedNotifyToken;
-@property(retain, nonatomic) SUOSUNotificationManagerController *notificationManager; // @synthesize notificationManager=_notificationManager;
 @property(retain) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly) NSString *pallasAudience;
-@property(retain) SUPowerAssertionManager *powerAssertionManager; // @synthesize powerAssertionManager=_powerAssertionManager;
-@property(retain) id queuedForLaterUpdatesObserverToken; // @synthesize queuedForLaterUpdatesObserverToken=_queuedForLaterUpdatesObserverToken;
-@property(nonatomic) _Bool scanInProgress; // @synthesize scanInProgress=_scanInProgress;
-@property(readonly) _Bool shouldShowCatalogSelector;
-@property(retain) SUOSUSpoofedUpdates *spoofedUpdates; // @synthesize spoofedUpdates=_spoofedUpdates;
-@property(retain, nonatomic) SUOSUUpdateController *updateController; // @synthesize updateController=_updateController;
 
 @end
 

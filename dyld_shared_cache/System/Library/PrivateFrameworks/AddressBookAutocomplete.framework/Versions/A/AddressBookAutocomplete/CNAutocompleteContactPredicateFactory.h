@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CNAutocompleteContactPredicateFactory
 {
     NSArray *_terms;
-    NSDictionary *_propertyMap;
-    NSArray *_properties;
 }
 
-+ (void);
-+ (id);
++ (void);
++ (id)@;
 + (id);
 + (id);
 + (id);
@@ -23,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);

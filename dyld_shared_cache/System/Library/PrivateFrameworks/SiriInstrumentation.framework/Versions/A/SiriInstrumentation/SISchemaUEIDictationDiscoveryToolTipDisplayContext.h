@@ -6,23 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUEIDictationDiscoveryToolTipDismissed, SISchemaUEIDictationDiscoveryToolTipShown, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaUEIDictationDiscoveryToolTipDisplayContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    SISchemaUEIDictationDiscoveryToolTipShown *_startedOrChanged;
-    SISchemaUEIDictationDiscoveryToolTipDismissed *_ended;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
+- (void)4;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -36,26 +30,19 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)allHardwareOffersIDsWithReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)e_attachment_join (message_id, attachment_id) VALUES (?, ?);
 - (id);
 - (id);
-- (id)teEndpointLatencyInfoReported;
-- (id)ntitySelected;
+- (id)deleteEndpointLatencyInfoReported;
+- (id)_hasAnonymizedEntitySelected;
 - (void)NETCONNECTIONTYPE_WIFI;
-- (void)CHMitigationSource;
+- (void)ORCHSchemaORCHMitigationSource;
 - (id)`";
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) SISchemaUEIDictationDiscoveryToolTipDismissed *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUEIDictationDiscoveryToolTipShown *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

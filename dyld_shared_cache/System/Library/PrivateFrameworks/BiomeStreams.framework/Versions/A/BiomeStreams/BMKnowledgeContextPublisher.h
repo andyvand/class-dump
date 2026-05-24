@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BPSPublisher, NSString, _DKEventQuery;
-@protocol _CDUserContext, _DKKnowledgeQuerying;
+@class _DKEventQuery;
 
 @interface BMKnowledgeContextPublisher
 {
     _Bool _includeLiveEvents;
-    _DKEventQuery *_query;
-    id <_DKKnowledgeQuerying> _store;
-    id <_CDUserContext> _context;
-    BPSPublisher *_combinedPublisher;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -31,25 +26,14 @@
 - (void);
 - (id);
 - (void)tVersionString;
-- (id)ent;
+- (id)BMPBMailContentEvent;
 - (_Bool)te¤e f;
-- (_Bool)_policy_stmt__get_packed_size;
+- (_Bool)pg_query__create_policy_stmt__get_packed_size;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BPSPublisher *combinedPublisher; // @synthesize combinedPublisher=_combinedPublisher;
-@property(retain, nonatomic) id <_CDUserContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeLiveEvents; // @synthesize includeLiveEvents=_includeLiveEvents;
 @property(retain, nonatomic) _DKEventQuery *query; // @synthesize query=_query;
-@property(retain, nonatomic) id <_DKKnowledgeQuerying> store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, _WKFrameHandle;
+@class NSURL;
 
 @interface WKWebProcessPlugInFrame
 {
@@ -22,38 +22,24 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (struct __SecTrust *);
+- (id);
+- (struct __SecTrust *);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (struct Object *);
 - (id);
+- (id)#;
 - (id);
 - (id);
+- (id)AKAnnotationThemePink;
+- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL;
-@property(readonly) struct Object *_apiObject;
-@property(readonly, nonatomic) NSArray *appleTouchIconURLs;
-@property(readonly, nonatomic) NSArray *childFrames;
-@property(readonly, nonatomic) _Bool containsAnyFormElements;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *faviconURLs;
-@property(readonly, nonatomic) _WKFrameHandle *handle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isMainFrame;
-@property(readonly) Class superclass;
 
 @end
 

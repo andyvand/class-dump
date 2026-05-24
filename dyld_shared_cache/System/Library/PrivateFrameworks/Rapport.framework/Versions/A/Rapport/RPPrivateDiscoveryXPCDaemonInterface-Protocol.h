@@ -5,5 +5,6 @@
 //
 
 @protocol RPPrivateDiscoveryXPCDaemonInterface
+- (void);
 @end
 

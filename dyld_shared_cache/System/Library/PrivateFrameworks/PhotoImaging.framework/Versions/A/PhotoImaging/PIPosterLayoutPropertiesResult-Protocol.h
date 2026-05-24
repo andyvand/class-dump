@@ -7,10 +7,6 @@
 @protocol PIPosterLayoutPropertiesResult
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect adaptiveTimeFrame;
-@property(readonly, nonatomic) struct CGRect adaptiveVisibleFrame;
 @property(readonly, nonatomic) unsigned long long layoutVariant;
-@property(readonly, nonatomic) double maxClockShift;
-@property(readonly, nonatomic) struct CGRect visibleFrame;
 @end
 

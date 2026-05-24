@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CLPInstSchemaCLPClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_clpId;
-    _Bool _hasClpId;
 }
 
 - (void);
@@ -27,14 +26,12 @@
 - (_Bool);
 - (id);
 - (id)chemaFLOWLINKActionConversionStarted";
-- (id)LOWLocationAccessPermissionPromptEnded;
+- (id)FLOWSchemaFLOWLocationAccessPermissionPromptEnded;
 - (id)<\;
 - (void)øf±ÿ¥²!=&;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *clpId; // @synthesize clpId=_clpId;
-@property(nonatomic) _Bool hasClpId; // @synthesize hasClpId=_hasClpId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

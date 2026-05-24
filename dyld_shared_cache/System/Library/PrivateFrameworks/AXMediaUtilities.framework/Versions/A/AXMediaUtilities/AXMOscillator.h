@@ -4,53 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMOscillatorADSREnvelope, AXMSynth, AXMSynthOscillatorParameters, NSArray, NSString;
+@class NSArray;
 
 @interface AXMOscillator
 {
     NSArray *_cachedFMOperators;
-    float _cachedSampleRate;
-    float _cachedGain;
-    float _cachedBaseFrequency;
-    float _cachedFrequencyRatio;
-    long long _cachedWaveform;
-    _Bool _cachedIsBypassed;
-    _Bool _cachedEnvelopeIsBypassed;
-    _Bool _isUsingFM;
-    float _lowpassCutoff;
-    float _currentPhase;
-    float _phaseIncrement;
-    float _rootFrequency;
-    AXMSynth *_parentSynth;
-    AXMSynthOscillatorParameters *_parameters;
-    AXMOscillatorADSREnvelope *_envelope;
-    AXMOscillator *_fmTarget;
-    double _startTime;
-    double *_sampleBuffer;
-    AXMOscillator *_rootOscillator;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (float);
-- (float);
-- (id);
-- (float);
-- (_Bool);
+- (float);
+- (id)|;
+- (float){;
+- (_Bool)[|;
 - (double);
 - (float);
 - (id);
+- (id)|;
+- (float)\|;
 - (id);
-- (float);
-- (id);
-- (id);
-- (long long);
-- (float);
+- (id)O/\|;
+- (long long);
+- (float)[|;
 - (id);
 - (void);
 - (id);
@@ -67,52 +48,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)CC;
+- (void)P;
 - (id);
 - (void);
+- (void)!;
+- (id);
+- (id);
+- (id)_applicationsShowingActivity;
+- (id);
+- (float)`;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (float);
-- (void);
-- (float)itches;
+- (float)keyPitches;
 
 // Remaining properties
-@property(readonly, nonatomic) float baseFrequency;
 @property(nonatomic) float currentPhase; // @synthesize currentPhase=_currentPhase;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long detuning;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) AXMOscillatorADSREnvelope *envelope; // @synthesize envelope=_envelope;
-@property(readonly, nonatomic) NSArray *fmOperatorIdentifiers;
-@property(readonly, nonatomic) NSArray *fmOperators;
-@property(readonly, nonatomic) float fmRootFrequencyRatio;
-@property(nonatomic) __weak AXMOscillator *fmTarget; // @synthesize fmTarget=_fmTarget;
-@property(readonly, nonatomic) NSString *fmTargetIdentifier;
-@property(nonatomic) float frequencyRatio;
-@property(nonatomic) float gain;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) _Bool isBypassed;
-@property(readonly, nonatomic) _Bool isUsingFM; // @synthesize isUsingFM=_isUsingFM;
-@property(nonatomic) float lowpassCutoff; // @synthesize lowpassCutoff=_lowpassCutoff;
-@property(retain, nonatomic) AXMSynthOscillatorParameters *parameters; // @synthesize parameters=_parameters;
-@property(nonatomic) __weak AXMSynth *parentSynth; // @synthesize parentSynth=_parentSynth;
-@property(readonly, nonatomic) float phaseIncrement; // @synthesize phaseIncrement=_phaseIncrement;
-@property(readonly, nonatomic) float rootFrequency; // @synthesize rootFrequency=_rootFrequency;
-@property(readonly, nonatomic) AXMOscillator *rootOscillator; // @synthesize rootOscillator=_rootOscillator;
-@property(nonatomic) double *sampleBuffer; // @synthesize sampleBuffer=_sampleBuffer;
-@property(readonly, nonatomic) float sampleRate;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(nonatomic) long long waveform;
 
 @end
 

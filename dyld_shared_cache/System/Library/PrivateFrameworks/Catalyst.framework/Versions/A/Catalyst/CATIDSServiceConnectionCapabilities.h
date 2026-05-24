@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (id);
+- (id)E;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool supportsReliableDelivery; // @synthesize supportsReliableDelivery=_supportsReliableDelivery;

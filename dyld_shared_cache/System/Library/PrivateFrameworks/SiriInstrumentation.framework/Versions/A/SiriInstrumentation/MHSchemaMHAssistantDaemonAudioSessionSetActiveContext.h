@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHAssistantDaemonAudioSessionSetActiveEnded, MHSchemaMHAssistantDaemonAudioSessionSetActiveStarted, NSData;
+@class MHSchemaMHAssistantDaemonAudioSessionSetActiveStarted;
 
 @interface MHSchemaMHAssistantDaemonAudioSessionSetActiveContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHAssistantDaemonAudioSessionSetActiveStarted *_startedOrChanged;
-    MHSchemaMHAssistantDaemonAudioSessionSetActiveEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -30,24 +26,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)type;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)issal:(id)arg1;
+- (id)setHasServerGeneratedDismissal:(id)arg1;
 - (id)emaFLOWLINKEntityDisambiguationContext",&,N,V_entityDisambiguationContext;
 - (void)5Q¯6¥!;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioSessionSetActiveEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioSessionSetActiveStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface FPNSURLBitVectorForBounce
 {
     struct __CFBitVector *_vector;
-    int _bitCount;
 }
 
 - (void);

@@ -5,5 +5,7 @@
 //
 
 @protocol STMServiceMainReplyHandler
+- (void);
+- (void)#;
 @end
 

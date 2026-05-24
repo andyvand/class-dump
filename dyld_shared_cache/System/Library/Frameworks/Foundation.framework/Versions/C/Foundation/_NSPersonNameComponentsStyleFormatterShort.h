@@ -6,15 +6,10 @@
 
 #import <Foundation/_NSPersonNameComponentsStyleFormatter.h>
 
-@class _NSPersonNameComponentsStyleFormatterShortVariantGeneral;
-
 __attribute__((visibility("hidden")))
 @interface _NSPersonNameComponentsStyleFormatterShort : _NSPersonNameComponentsStyleFormatter
 {
     long long _shortNameFormat;
-    _NSPersonNameComponentsStyleFormatterShortVariantGeneral *_variantFormatter;
-    _NSPersonNameComponentsStyleFormatter *_subFormatter;
-    _Bool _forceShortNameEnabled;
 }
 
 - (id);
@@ -34,10 +29,7 @@ __attribute__((visibility("hidden")))
 - (id)X$ ;
 
 // Remaining properties
-@property _Bool forceShortNameEnabled;
 @property long long shortNameFormat;
-@property(retain) _NSPersonNameComponentsStyleFormatter *subFormatter;
-@property(readonly) _NSPersonNameComponentsStyleFormatterShortVariantGeneral *variantFormatter;
 
 @end
 

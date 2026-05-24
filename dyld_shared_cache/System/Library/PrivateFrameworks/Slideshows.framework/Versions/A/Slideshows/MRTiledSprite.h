@@ -4,40 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface MRTiledSprite
 {
     struct CGPoint mPosition;
-    struct CGSize mHalfSize;
-    float mRotation;
-    struct CGRect mInnerRect;
-    struct CGRect mOuterRect;
-    _Bool mPreservesImageAspectRatio;
-    _Bool mIsSealed;
-    NSMutableArray *mTriangles;
-    float *mVertices;
-    float *mBasicTextureCoordinates;
-    float *mInSpriteCoordinates;
-    float *mTextureCoordinates[4];
-    NSMutableArray *mMiddleTriangles;
-    float *mMiddleVertices;
-    float *mMiddleBasicTextureCoordinates;
-    float *mMiddleInSpriteCoordinates;
-    float *mMiddleTextureCoordinates[4];
-    NSMutableArray *mOuterTriangles;
-    float *mOuterVertices;
-    float *mOuterBasicTextureCoordinates;
-    float *mOuterInSpriteCoordinates;
-    float *mOuterTextureCoordinates[4];
-    struct CGSize mInSpriteCoordinatesFactor;
-    struct CGPoint mInSpriteCoordinatesOffset;
-    struct CGSize mTextureCoordinatesFactor[4];
-    struct CGPoint mTextureCoordinatesOffset[4];
-    _Bool mNeedsTextureCoordinates[4];
-    _Bool mNeedsInSpriteCoordinates;
-    _Bool mNeedsToUpdateInSpriteCoordinates;
-    _Bool mHitIsActive;
 }
 
 - (void);
@@ -56,12 +25,12 @@
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (struct CGSize);
+- (_Bool)6;
+- (id)_fetchAnalyticsEnvelopeContentTypeConfigsWithCompletion:(struct CGPoint)arg1;
+- (id)_envelopeIdentifier;
+- (_Bool)_deliveryWindow;
+- (_Bool)URLSessionQueue;
+- (struct CGSize)FCOperationThrottlerDelegate;
 - (_Bool);
 - (void);
 - (void);
@@ -70,17 +39,10 @@
 - (void);
 - (float);
 - (struct CGPoint);
-- (void)oseOpusDocument;
+- (void)_closeOpusDocument;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize halfSize; // @synthesize halfSize=mHalfSize;
-@property(nonatomic) _Bool hitIsActive; // @synthesize hitIsActive=mHitIsActive;
-@property(readonly, nonatomic) struct CGRect innerRect; // @synthesize innerRect=mInnerRect;
-@property(nonatomic) _Bool needsInSpriteCoordinates; // @synthesize needsInSpriteCoordinates=mNeedsInSpriteCoordinates;
-@property(readonly, nonatomic) struct CGRect outerRect; // @synthesize outerRect=mOuterRect;
 @property(readonly, nonatomic) struct CGPoint position; // @synthesize position=mPosition;
-@property(nonatomic) _Bool preservesImageAspectRatio; // @synthesize preservesImageAspectRatio=mPreservesImageAspectRatio;
-@property(readonly, nonatomic) float rotation; // @synthesize rotation=mRotation;
 
 @end
 

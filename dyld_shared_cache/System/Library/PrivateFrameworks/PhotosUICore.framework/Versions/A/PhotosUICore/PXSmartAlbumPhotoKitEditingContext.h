@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PHPhotoLibrary;
+@class PHPhotoLibrary;
 
 @interface PXSmartAlbumPhotoKitEditingContext
 {
@@ -27,20 +27,7 @@
 - (id)Nüþå0¹ØNüþÕ0¹üNüþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *albumValues;
-@property(readonly, nonatomic) NSArray *cameraModels;
-@property(readonly, nonatomic) NSArray *conditionTypeValues;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *keywordValues;
-@property(readonly, nonatomic) NSArray *lensModels;
-@property(readonly, nonatomic) NSArray *personNames;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WBSPasswordPatternPartialSolution
 {
     WBSPasswordPatternMatch *_patternMatch;
-    double _guessesRequiredWithoutPatternCountPenalty;
-    double _guessesRequiredWithPatternCountPenalty;
 }
 
 - (id);
@@ -22,8 +20,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) double guessesRequiredWithPatternCountPenalty; // @synthesize guessesRequiredWithPatternCountPenalty=_guessesRequiredWithPatternCountPenalty;
-@property(readonly, nonatomic) double guessesRequiredWithoutPatternCountPenalty; // @synthesize guessesRequiredWithoutPatternCountPenalty=_guessesRequiredWithoutPatternCountPenalty;
 @property(readonly, nonatomic) WBSPasswordPatternMatch *patternMatch; // @synthesize patternMatch=_patternMatch;
 
 @end

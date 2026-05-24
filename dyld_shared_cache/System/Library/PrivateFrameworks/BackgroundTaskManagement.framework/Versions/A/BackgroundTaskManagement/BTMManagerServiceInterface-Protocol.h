@@ -5,5 +5,8 @@
 //
 
 @protocol BTMManagerServiceInterface
+- (void);
+- (void)!;
+- (void)4(;
 @end
 

@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSRawAttribute
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _beginIndex;
-    unsigned int _endIndex;
-    struct {
-        unsigned int has_beginIndex:1;
-        unsigned int has_endIndex:1;
-    } _flags;
 }
 
 - (id);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)"b1"read_textureChecksums"b1"read_textures"b1"read_tileSets"b1"read_uniqueIdentifier"b1"read_urlInfoSet"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURLLegacy"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)ketsOut;
+- (id)_packetsOut;
 - (id)ôð À!È";
 - (void);
 

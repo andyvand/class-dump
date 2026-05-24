@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)%s:(id)arg1 %d VCVideoRuleCollections:invalid bitrate rule /* Error: Ran out of types for this method. */;
 - (void)required to store all messages;
 
 @end

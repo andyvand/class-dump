@@ -8,10 +8,6 @@
 {
     id pathSizes;
     id blendTypes;
-    id masterVector;
-    id denseDeltaMatrix;
-    id shape;
-    id shim;
 }
 
 @end

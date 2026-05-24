@@ -6,32 +6,26 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _UIDynamicCaretAlternatives : UIView
 {
     UIView *_verticalDivider;
-    UIView *_horizontalDivider;
-    NSArray *_alternativesButtons;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)8@"NSString"52;
+- (void)ken:(id)arg1 receivedByHandleID:fromHandleID:messageDate: /* Error: Ran out of types for this method. */;
+- (void)typeWithIdentifier:(id)arg1;
+- (long long)nnaireReceived:(struct CGPoint)arg1;
+- (id)_syncOperationGroupName;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (id)ViewSafeAreaInsets;
+- (id)_containerViewSafeAreaInsets;
 - (void)\\;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alternativesButtons; // @synthesize alternativesButtons=_alternativesButtons;
-@property(retain, nonatomic) UIView *horizontalDivider; // @synthesize horizontalDivider=_horizontalDivider;
 @property(retain, nonatomic) UIView *verticalDivider; // @synthesize verticalDivider=_verticalDivider;
 
 @end

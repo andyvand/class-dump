@@ -7,8 +7,6 @@
 @interface TeaCharts.LineStyle
 {
     id stroke;
-    id fill;
-    id zoneStyles;
 }
 
 @end

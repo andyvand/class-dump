@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NUImageBuffer;
 
 @interface PIInpaintMask
 {
     id <NUImageBuffer> _buffer;
-    NSString *_identifier;
-    CDStruct_1e2b2e48 _scale;
-    CDStruct_996ac03c _extent;
 }
 
 - (id);
 - (id);
-- (CDStruct_996ac03c);
+- (CDStruct_0973877e);
 - (CDStruct_912cb5d2);
-- (id);
-- (void)History: /* Error: Ran out of types for this method. */;
+- (id)te client
+;
+- (void)setBrushStrokeHistory: /* Error: Ran out of types for this method. */;
 - (id)@"<NUImageBuffer>",R,N,V_buffer;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUImageBuffer> buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) CDStruct_996ac03c extent; // @synthesize extent=_extent;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) CDStruct_912cb5d2 scale; // @synthesize scale=_scale;
 
 @end
 

@@ -12,12 +12,12 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)artEntriesWithExclusiveAccessToken: /* Error: Ran out of types for this method. */;
+- (id)w;
+- (void)_startEntriesWithExclusiveAccessToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelSong *song; // @synthesize song=_song;

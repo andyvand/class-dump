@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NTPBRecordBase;
+@class NTPBRecordBase;
 
 @interface NTPBJSONRecord
 {
     NTPBRecordBase *_base;
-    NSData *_json;
 }
 
 - (void);
@@ -19,20 +18,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)Records:(id)arg1 droppedFeeds:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)˿;
 - (_Bool);
-- (id)MediaEngage;
+- (id)NTPBMediaEngage;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasJson;
-@property(retain, nonatomic) NSData *json; // @synthesize json=_json;
 
 @end
 

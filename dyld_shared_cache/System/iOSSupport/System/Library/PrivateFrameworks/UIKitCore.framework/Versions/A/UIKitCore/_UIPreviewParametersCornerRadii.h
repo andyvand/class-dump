@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (struct CACornerRadii);
 - (id);
 - (void);
-- (id);
+- (id)ontent;
 - (_Bool)4@?68;
 - (id)=dd}},N,V_containingFrame;
 

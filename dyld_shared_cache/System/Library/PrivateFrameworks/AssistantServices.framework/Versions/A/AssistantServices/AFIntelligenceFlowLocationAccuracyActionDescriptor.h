@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFIntelligenceFlowLocationAccuracyActionDescriptor
 {
     long long _accuracyAuthorization;
-    unsigned long long _behaviorOverrides;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (void);
 - (void);
 - (id);
@@ -23,14 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) long long accuracyAuthorization; // @synthesize accuracyAuthorization=_accuracyAuthorization;
-@property(nonatomic) unsigned long long behaviorOverrides; // @synthesize behaviorOverrides=_behaviorOverrides;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

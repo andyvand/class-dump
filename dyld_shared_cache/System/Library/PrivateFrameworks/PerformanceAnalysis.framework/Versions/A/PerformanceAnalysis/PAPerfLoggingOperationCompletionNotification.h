@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface PAPerfLoggingOperationCompletionNotification
 {
     int _pid;
-    NSString *_matchingProcessNameRegex;
-    unsigned long long _startTimeInMachAbsTime;
-    unsigned long long _endTimeInMachAbsTime;
 }
 
 + (void);
 + (void);
 - (double);
-- (unsigned long long);
+- (unsigned long long)9;
 - (id);
 - (id);
 - (id);
@@ -27,28 +24,14 @@
 - (unsigned long long);
 - (double);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
-- (int);
+- (int);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSData *detailedReportData;
-@property(readonly) unsigned long long durationInMachAbsTime;
-@property(readonly) double durationInMs;
-@property(readonly) unsigned long long endTimeInMachAbsTime; // @synthesize endTimeInMachAbsTime=_endTimeInMachAbsTime;
-@property(readonly) double endTimeInMs;
-@property(readonly) NSDictionary *intervalTypeToIntervalDataDict;
-@property(readonly) NSString *matchingCategoryRegex;
-@property(readonly) NSString *matchingNameRegex;
-@property(readonly) NSString *matchingProcessNameRegex; // @synthesize matchingProcessNameRegex=_matchingProcessNameRegex;
-@property(readonly) NSString *operationCategory;
-@property(readonly) NSString *operationName;
-@property(readonly) int pid; // @synthesize pid=_pid;
 @property(readonly) NSString *processName;
-@property(readonly) unsigned long long startTimeInMachAbsTime; // @synthesize startTimeInMachAbsTime=_startTimeInMachAbsTime;
-@property(readonly) double startTimeInMs;
 
 @end
 

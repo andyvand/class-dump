@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-@protocol RemoteNotificationControllerClient;
-
 __attribute__((visibility("hidden")))
 @interface RemoteNotificationVerificationRequest
 {
     unsigned long long _requestID;
-    NSString *_websiteIdentifier;
-    NSURL *_referrerURL;
-    NSString *_websiteName;
-    id <RemoteNotificationControllerClient> _controllerClient;
 }
 
 - (id);
@@ -24,15 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)a;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <RemoteNotificationControllerClient> controllerClient; // @synthesize controllerClient=_controllerClient;
-@property(readonly, copy, nonatomic) NSURL *referrerURL; // @synthesize referrerURL=_referrerURL;
 @property(readonly, nonatomic) unsigned long long requestID; // @synthesize requestID=_requestID;
-@property(readonly, copy, nonatomic) NSString *websiteIdentifier; // @synthesize websiteIdentifier=_websiteIdentifier;
-@property(copy, nonatomic) NSString *websiteName; // @synthesize websiteName=_websiteName;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CKMediaRequestDetails
 {
     long long _requestID;
-    CDUnknownBlockType _resultHandler;
-    NSString *_transferGUID;
 }
 
 - (id);
@@ -22,8 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
-@property(readonly, nonatomic) NSString *transferGUID; // @synthesize transferGUID=_transferGUID;
 
 @end
 

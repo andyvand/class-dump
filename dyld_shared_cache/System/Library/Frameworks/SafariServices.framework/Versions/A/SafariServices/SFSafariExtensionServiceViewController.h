@@ -9,7 +9,6 @@
 @interface SFSafariExtensionServiceViewController
 {
     NSWindow *_window;
-    SFSafariExtensionContext *_extensionContext;
 }
 
 - (void);
@@ -17,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)__TEXT;
+- (void)(=;
 - (id);
 
 // Remaining properties

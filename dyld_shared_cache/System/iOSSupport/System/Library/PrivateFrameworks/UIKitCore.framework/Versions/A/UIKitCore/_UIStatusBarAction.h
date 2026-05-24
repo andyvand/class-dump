@@ -12,7 +12,7 @@
 
 + (id);
 - (void);
-- (void);
+- (void)CEMPasscodeLockscreenSettingsDeclaration_Status;
 - (_Bool);
 - (void)emController error notification:(CDUnknownBlockType)arg1 %@;
 - (CDUnknownBlockType)T¤éÿHx]þ@¾þÿ;

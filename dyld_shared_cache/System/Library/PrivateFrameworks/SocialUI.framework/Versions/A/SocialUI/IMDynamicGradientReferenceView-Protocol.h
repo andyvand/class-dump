@@ -7,9 +7,9 @@
 @class CALayer;
 
 @protocol IMDynamicGradientReferenceView
+- (CALayer *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect gradientFrame;
-@property(readonly, nonatomic) CALayer *layer;
 @end
 

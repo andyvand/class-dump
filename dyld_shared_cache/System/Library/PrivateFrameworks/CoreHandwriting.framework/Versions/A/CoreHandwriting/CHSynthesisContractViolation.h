@@ -9,8 +9,6 @@
 @interface CHSynthesisContractViolation
 {
     NSString *_comment;
-    long long _kind;
-    struct _NSRange _locationRange;
 }
 
 - (struct _NSRange);
@@ -20,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *comment; // @synthesize comment=_comment;
-@property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
 @property(readonly, nonatomic) struct _NSRange locationRange; // @synthesize locationRange=_locationRange;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSString, SAUIAppPunchOut, SAUIButton;
+@class SAUIButton;
 
 @interface SAGuidanceGuideSnippet : SAUISnippet
 {
@@ -25,14 +25,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)c;
 
 // Remaining properties
 @property(retain, nonatomic) SAUIButton *appPunchOutButton;
-@property(retain, nonatomic) SAUIAppPunchOut *appStorePunchOut;
-@property(copy, nonatomic) NSArray *domainSnippets;
-@property(copy, nonatomic) NSString *headerText;
-@property(copy, nonatomic) NSArray *intentEnabledAppSnippets;
 
 @end
 

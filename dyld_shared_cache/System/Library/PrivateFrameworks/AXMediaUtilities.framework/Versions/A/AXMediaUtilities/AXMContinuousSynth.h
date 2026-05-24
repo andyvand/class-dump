@@ -11,33 +11,24 @@
 @interface AXMContinuousSynth : AXMSynth
 {
     NSArray *_keyPitches;
-    _Bool _muted;
-    _Bool _releasing;
-    double _phase;
-    unsigned long long _framesRendered;
-    unsigned long long _releaseFrame;
 }
 
-- (void);
-- (void);
+- (void)t\|;
+- (void)\|;
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (id);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)o;
 - (double);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long framesRendered; // @synthesize framesRendered=_framesRendered;
-@property(nonatomic) _Bool muted; // @synthesize muted=_muted;
 @property(readonly, nonatomic) double phase; // @synthesize phase=_phase;
-@property(nonatomic) unsigned long long releaseFrame; // @synthesize releaseFrame=_releaseFrame;
-@property(nonatomic) _Bool releasing; // @synthesize releasing=_releasing;
 
 @end
 

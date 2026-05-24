@@ -7,11 +7,6 @@
 @interface SwiftUI.PasteboardDataProvider__priv_0BC2519238CC4854E8BA774CC855AC9A
 {
     id itemProvider;
-    id queue;
-    id additionalStorage;
-    id $__lazy_storage_$_operationQueue;
-    id temporaryDirectory;
-    id onDataTransferConcluded;
 }
 
 - (void);

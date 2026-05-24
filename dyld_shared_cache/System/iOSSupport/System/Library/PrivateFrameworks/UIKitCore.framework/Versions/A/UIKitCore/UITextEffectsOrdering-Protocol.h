@@ -5,6 +5,6 @@
 //
 
 @protocol UITextEffectsOrdering
-- (int)earAutoDeleteTimer;
+- (int)clearAutoDeleteTimer;
 @end
 

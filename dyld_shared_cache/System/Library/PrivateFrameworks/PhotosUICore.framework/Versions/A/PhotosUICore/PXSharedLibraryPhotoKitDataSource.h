@@ -18,7 +18,7 @@
 - (struct PXSimpleIndexPath);
 - (id);
 - (id);
-- (long long)LoadingAnimation: /* Error: Ran out of types for this method. */;
+- (long long)setShouldUsePersonalTraitsForLoadingAnimation: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)é»;
 

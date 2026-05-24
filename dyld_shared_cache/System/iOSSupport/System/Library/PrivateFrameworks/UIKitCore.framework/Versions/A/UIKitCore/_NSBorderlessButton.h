@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)ñn;
-- (void);
-- (void)indowOrEndGestureWithState:(id)arg1;
+- (void)enumerateRangesUsingBlock:(id)arg1;
+- (void)_enterRecoveryWindowOrEndGestureWithState:(id)arg1;
 
 @end
 

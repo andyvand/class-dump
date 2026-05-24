@@ -5,28 +5,23 @@
 //
 
 @class NSData;
-@protocol APSTokenInfo;
 
 __attribute__((visibility("hidden")))
 @interface APSPerAppTokenMapEntry
 {
     NSData *_perAppToken;
-    id <APSTokenInfo> _info;
-    _Bool _flag;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)pecification5ModelEE3$_0;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool flag; // @synthesize flag=_flag;
-@property(retain, nonatomic) id <APSTokenInfo> info; // @synthesize info=_info;
 @property(retain, nonatomic) NSData *perAppToken; // @synthesize perAppToken=_perAppToken;
 
 @end

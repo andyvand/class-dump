@@ -6,33 +6,15 @@
 
 #import <AVConference/VCVideoCapture.h>
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol VCMacScreenCaptureSource;
-
 __attribute__((visibility("hidden")))
 @interface VCMacScreenCapture : VCVideoCapture
 {
     struct _opaque_pthread_mutex_t _screenCaptureLock;
-    _Bool _isPreviewing;
-    _Bool _isCapturing;
-    _Bool _enableSystemAudio;
-    int _captureFramerate;
-    int _frameCount;
-    int _frameDrops;
-    _Bool _shouldEnforceFrameRate;
-    struct tagVCVideoFrameCaptureLimiter _tokenBucket;
-    NSMutableDictionary *_sourceConfig;
-    CDStruct_1b6d18a9 _previousFrameTime;
-    long long _captureSourceID;
-    struct opaqueCMSampleBuffer *_previousCompleteFrame;
-    NSObject<VCMacScreenCaptureSource> *_screenCapture;
-    unsigned long long _lastOriginHIDEventTimestamp;
-    _Bool _receivedFirstFrame;
 }
 
 - (int);
 - (int);
-- (int);
+- (int)9;
 - (int);
 - (int);
 - (_Bool);
@@ -50,21 +32,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id)*KC;
 - (_Bool);
 - (int);
 - (int);
-- (void);
+- (void)N;
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

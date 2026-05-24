@@ -6,15 +6,12 @@
 
 #import <PhotosUICore/PXStoryChapterCollectionManager.h>
 
-@class NSArray, PXUpdater;
-@protocol PXStoryChapterCollection, PXStoryTransientChapterCollectionManagerPersistenceDelegate;
+@class PXUpdater;
+@protocol PXStoryChapterCollection;
 
 @interface PXStoryTransientChapterCollectionManager : PXStoryChapterCollectionManager
 {
     id <PXStoryChapterCollection> _uneditedChapterCollection;
-    id <PXStoryTransientChapterCollectionManagerPersistenceDelegate> _persistenceDelegate;
-    PXUpdater *_updater;
-    NSArray *_edits;
 }
 
 - (id);
@@ -30,15 +27,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)insertObject:atIndex: /* Error: Ran out of types for this method. */;
+- (void)on.audio;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *edits; // @synthesize edits=_edits;
-@property(nonatomic) __weak id <PXStoryTransientChapterCollectionManagerPersistenceDelegate> persistenceDelegate; // @synthesize persistenceDelegate=_persistenceDelegate;
-@property(readonly, nonatomic) id <PXStoryChapterCollection> uneditedChapterCollection; // @synthesize uneditedChapterCollection=_uneditedChapterCollection;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end

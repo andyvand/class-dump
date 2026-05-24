@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSaveProfileInCarIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)24@0:(long long)arg1 8q16;
++ (int)initWithFileURL:(long long)arg1 automaticallyGenerated: /* Error: Ran out of types for this method. */;
++ (long long)images;
++ (_Bool)getAllThumbnailsInfoForCacheAtURL:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id)Library/PrivateFrameworks/AppleIDAuthSupport.framework/Versions/A/AppleIDAuthSupport;
+- (id)lastTouchedStateTimestamp;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)D XPC CONNECTION %{public}@ [pid=%d, euid=%d, egid=%d uuid=%{public}@];
 - (id);
 - (id);
 - (long long)SArray",R,C,N,G_sortedParameterImages;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

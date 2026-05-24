@@ -9,8 +9,6 @@
 @interface IKInterfaceBuilderImage
 {
     NSString *_path;
-    NSString *_title;
-    NSString *_subtitle;
 }
 
 - (id);

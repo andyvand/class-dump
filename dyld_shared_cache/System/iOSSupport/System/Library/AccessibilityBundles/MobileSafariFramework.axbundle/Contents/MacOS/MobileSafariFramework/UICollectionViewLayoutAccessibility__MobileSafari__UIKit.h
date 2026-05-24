@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
++ (Class);
++ (id)layoutAttributesForSupplementaryElementOfKind:atIndexPath: /* Error: Ran out of types for this method. */;
++ (void);
 - (_Bool);
 
 @end

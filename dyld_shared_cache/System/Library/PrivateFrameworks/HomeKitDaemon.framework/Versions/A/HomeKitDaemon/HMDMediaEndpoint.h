@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaBrowser, MRAVEndpoint, MRExternalDevice, NSArray, NSMutableArray, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class MRAVEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaEndpoint
 {
     struct os_unfair_lock_s _lock;
-    unsigned int _connectionState;
-    MRAVEndpoint *_retainedEndpoint;
-    NSSet *_outputDeviceIdentifiers;
-    NSString *_sessionIdentifier;
-    NSString *_localizedName;
-    NSString *_logID;
-    HMDMediaBrowser *_browser;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableArray *_pendingBlocks;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)bswiftCoreAudio.dylib;
 - (void);
 - (id);
+- (void)sharedTripService:(_Bool)arg1 didUpdateSharingIdentity: /* Error: Ran out of types for this method. */;
+- (id)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (id),;
+- (void).;
+- (_Bool);
+- (void);
+- (void)N;
 - (id);
 - (void);
-- (_Bool);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -51,39 +41,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (unsigned int);
+- (unsigned int)secondaryFont;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)nFailures;
 - (id)dateProgress;
 - (_Bool);
 - (id)ot find controller key when trying to run transaction;
 - (void)up.lastKnownStageUnderlyingErrorDomain;
-- (void)portsCleanEnergyAutomationUpdatedNotification;
+- (void)HMDSupportsCleanEnergyAutomationUpdatedNotification;
 - (id)þ&;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *advertisements;
-@property __weak HMDMediaBrowser *browser; // @synthesize browser=_browser;
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(nonatomic) unsigned int connectionState; // @synthesize connectionState=_connectionState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) MRExternalDevice *externalDevice;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) NSString *logID; // @synthesize logID=_logID;
-@property(retain, nonatomic) NSSet *outputDeviceIdentifiers; // @synthesize outputDeviceIdentifiers=_outputDeviceIdentifiers;
-@property(retain, nonatomic) NSMutableArray *pendingBlocks; // @synthesize pendingBlocks=_pendingBlocks;
 @property(readonly) MRAVEndpoint *retainedEndpoint; // @synthesize retainedEndpoint=_retainedEndpoint;
-@property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

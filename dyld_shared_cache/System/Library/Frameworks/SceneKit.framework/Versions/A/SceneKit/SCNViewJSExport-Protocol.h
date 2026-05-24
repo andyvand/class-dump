@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNCameraController, SCNNode, SCNScene;
-@protocol SCNCameraControlConfiguration;
+@class SCNScene;
 
 @protocol SCNViewJSExport
-- (_Bool)Pipeline;
+- (void);
+- (_Bool)a;
+- (_Bool);
+- (void)#;
+- (void)rties (key, value) VALUES ('OrderingLanguage','%@');
+- (long long)DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0);
+- (_Bool)SCNMTLRenderPipeline;
 - (void)+
     N1 * u * u +
     N2 * v * v +
@@ -41,19 +46,6 @@ static inline void scn_smooth_geometry_phong(thread float3 &position, thread flo
 m?ÁW\?~V@Ëó¨¾,]?}æ\?wû?'ø¦¾ÊO?t]?¡gí?ó¤¾ByC?³^?Ôá?ÍÎ¢¾Ý&8?)²^?åìÕ?ÿì¾<£-?T_?ºÌ?U½¾nú#?º`?FÃ?±¾Æ?+a?v»?åE¾@ß?;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCameraControl;
-@property(nonatomic) unsigned long long antialiasingMode;
-@property(copy, nonatomic) id backgroundColor;
-@property(readonly, nonatomic) id <SCNCameraControlConfiguration> cameraControlConfiguration;
-@property(nonatomic) double currentTime;
-@property(readonly, nonatomic) SCNCameraController *defaultCameraController;
-@property(nonatomic) id delegate;
-@property(nonatomic) _Bool loops;
-@property(nonatomic, getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) SCNNode *pointOfView;
-@property(nonatomic) long long preferredFramesPerSecond;
-@property(nonatomic) _Bool rendersContinuously;
 @property(retain, nonatomic) SCNScene *scene;
-@property(nonatomic) _Bool showsStatistics;
 @end
 

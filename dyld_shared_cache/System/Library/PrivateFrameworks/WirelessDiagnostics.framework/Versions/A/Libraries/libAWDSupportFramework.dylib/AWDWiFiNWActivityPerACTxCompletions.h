@@ -7,47 +7,28 @@
 @interface AWDWiFiNWActivityPerACTxCompletions
 {
     int _ac;
-    unsigned int _dpsNotifications;
-    unsigned int _durSinceLastEnqueue;
-    unsigned int _durSinceLastEnqueueAtLastCheck;
-    unsigned int _durSinceLastFailedComp;
-    unsigned int _durSinceLastSuccessfulComp;
-    unsigned int _expiredComp;
-    unsigned int _failedComp;
-    unsigned int _failedCompletionsAtLastCheck;
-    unsigned int _noAckComp;
-    unsigned int _otherErrComp;
-    unsigned int _qeuedPackets;
-    unsigned int _sinceLastEnqueueHowManyFailed;
-    unsigned int _sinceLastEnqueueHowManySuccess;
-    unsigned int _sinceLastSuccessHowManyFailed;
-    unsigned int _success;
-    unsigned int _successfulCompletionsAtLastCheck;
-    struct {
-        unsigned int ac:1;
-        unsigned int dpsNotifications:1;
-        unsigned int durSinceLastEnqueue:1;
-        unsigned int durSinceLastEnqueueAtLastCheck:1;
-        unsigned int durSinceLastFailedComp:1;
-        unsigned int durSinceLastSuccessfulComp:1;
-        unsigned int expiredComp:1;
-        unsigned int failedComp:1;
-        unsigned int failedCompletionsAtLastCheck:1;
-        unsigned int noAckComp:1;
-        unsigned int otherErrComp:1;
-        unsigned int qeuedPackets:1;
-        unsigned int sinceLastEnqueueHowManyFailed:1;
-        unsigned int sinceLastEnqueueHowManySuccess:1;
-        unsigned int sinceLastSuccessHowManyFailed:1;
-        unsigned int success:1;
-        unsigned int successfulCompletionsAtLastCheck:1;
-    } _has;
 }
 
 - (unsigned int);
 - (unsigned int);
+- (unsigned int)b*;
 - (unsigned int);
-- (unsigned int);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)k%;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,23 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)*1;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -109,7 +74,7 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -122,43 +87,10 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void):(unsigned int)arg1;
+- (void)rxMPDUCountPerMCSAtIndex:(unsigned int)arg1;
 
 // Remaining properties
-@property(nonatomic) int ac; // @synthesize ac=_ac;
-@property(nonatomic) unsigned int dpsNotifications; // @synthesize dpsNotifications=_dpsNotifications;
-@property(nonatomic) unsigned int durSinceLastEnqueue; // @synthesize durSinceLastEnqueue=_durSinceLastEnqueue;
-@property(nonatomic) unsigned int durSinceLastEnqueueAtLastCheck; // @synthesize durSinceLastEnqueueAtLastCheck=_durSinceLastEnqueueAtLastCheck;
-@property(nonatomic) unsigned int durSinceLastFailedComp; // @synthesize durSinceLastFailedComp=_durSinceLastFailedComp;
-@property(nonatomic) unsigned int durSinceLastSuccessfulComp; // @synthesize durSinceLastSuccessfulComp=_durSinceLastSuccessfulComp;
-@property(nonatomic) unsigned int expiredComp; // @synthesize expiredComp=_expiredComp;
-@property(nonatomic) unsigned int failedComp; // @synthesize failedComp=_failedComp;
-@property(nonatomic) unsigned int failedCompletionsAtLastCheck; // @synthesize failedCompletionsAtLastCheck=_failedCompletionsAtLastCheck;
 @property(nonatomic) _Bool hasAc;
-@property(nonatomic) _Bool hasDpsNotifications;
-@property(nonatomic) _Bool hasDurSinceLastEnqueue;
-@property(nonatomic) _Bool hasDurSinceLastEnqueueAtLastCheck;
-@property(nonatomic) _Bool hasDurSinceLastFailedComp;
-@property(nonatomic) _Bool hasDurSinceLastSuccessfulComp;
-@property(nonatomic) _Bool hasExpiredComp;
-@property(nonatomic) _Bool hasFailedComp;
-@property(nonatomic) _Bool hasFailedCompletionsAtLastCheck;
-@property(nonatomic) _Bool hasNoAckComp;
-@property(nonatomic) _Bool hasOtherErrComp;
-@property(nonatomic) _Bool hasQeuedPackets;
-@property(nonatomic) _Bool hasSinceLastEnqueueHowManyFailed;
-@property(nonatomic) _Bool hasSinceLastEnqueueHowManySuccess;
-@property(nonatomic) _Bool hasSinceLastSuccessHowManyFailed;
-@property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool hasSuccessfulCompletionsAtLastCheck;
-@property(nonatomic) unsigned int noAckComp; // @synthesize noAckComp=_noAckComp;
-@property(nonatomic) unsigned int otherErrComp; // @synthesize otherErrComp=_otherErrComp;
-@property(nonatomic) unsigned int qeuedPackets; // @synthesize qeuedPackets=_qeuedPackets;
-@property(nonatomic) unsigned int sinceLastEnqueueHowManyFailed; // @synthesize sinceLastEnqueueHowManyFailed=_sinceLastEnqueueHowManyFailed;
-@property(nonatomic) unsigned int sinceLastEnqueueHowManySuccess; // @synthesize sinceLastEnqueueHowManySuccess=_sinceLastEnqueueHowManySuccess;
-@property(nonatomic) unsigned int sinceLastSuccessHowManyFailed; // @synthesize sinceLastSuccessHowManyFailed=_sinceLastSuccessHowManyFailed;
-@property(nonatomic) unsigned int success; // @synthesize success=_success;
-@property(nonatomic) unsigned int successfulCompletionsAtLastCheck; // @synthesize successfulCompletionsAtLastCheck=_successfulCompletionsAtLastCheck;
 
 @end
 

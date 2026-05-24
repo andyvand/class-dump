@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface AccountManagerListCellData
 {
     NSImage *_iconImage;
-    NSString *_serviceName;
-    NSString *_domainForIcon;
-    NSString *_monogramCharacter;
-    NSString *_username;
-    NSString *_issueTypesDescription;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -30,12 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *domainForIcon; // @synthesize domainForIcon=_domainForIcon;
 @property(retain, nonatomic) NSImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(readonly, copy, nonatomic) NSString *issueTypesDescription; // @synthesize issueTypesDescription=_issueTypesDescription;
-@property(readonly, copy, nonatomic) NSString *monogramCharacter; // @synthesize monogramCharacter=_monogramCharacter;
-@property(readonly, copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

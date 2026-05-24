@@ -4,44 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOStyleAttributes, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBTransitHall
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLatLng *_location;
-    unsigned long long _muid;
-    NSString *_nameDisplayString;
-    GEOStyleAttributes *_styleAttributes;
-    NSMutableArray *_zoomNames;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _hallIndex;
-    unsigned int _stationIndex;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_hallIndex:1;
-        unsigned int has_stationIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_location:1;
-        unsigned int read_nameDisplayString:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int read_zoomNames:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)alTimeSeconds:(id)arg1;
++ (_Bool)setHasUsualTraversalTimeSeconds:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,23 +30,23 @@
 - (void);
 - (id);
 - (void);
+- (_Bool)^@32;
+- (void);
+- (id);
+- (id)4;
 - (_Bool);
+- (id);
+- (void)ring"16@"NSData"24@?<v@?Q>32;
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)thContext:(id)arg1 successfully:option:withEventUUID:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void)sionmanager.flow-divert-token;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ticketForSearchPoisForBrandMUID:traits: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -76,7 +54,7 @@
 - (id);
 - (void);
 - (id)4}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24I32(?=I{?=b8(?={?=b14b4b4b2}{?=b8b16})})36I40@44C52B56@60;
-- (id)unt;
+- (id)stepGroupsCount;
 - (id)üg ktk lälnTn;
 - (id)uæ;
 - (id)CELLULAR_PERFORMANCE_SCORE;
@@ -86,27 +64,7 @@
 - (void)\:(id)arg1 "o9;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int hallIndex;
-@property(nonatomic) _Bool hasHallIndex;
-@property(readonly, nonatomic) _Bool hasLocation;
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasNameDisplayString;
-@property(nonatomic) _Bool hasStationIndex;
-@property(readonly, nonatomic) _Bool hasStyleAttributes;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOLatLng *location;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *nameDisplayString;
-@property(nonatomic) unsigned int stationIndex;
-@property(retain, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *zoomNames;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDApplicationDataModel : HMDBackingStoreModelObject
 {
@@ -16,9 +14,9 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)G;
 + (Class)Ô ;
-+ (id)ductNumber:rawOutput:listOnly:verifySignatures:completion: /* Error: Ran out of types for this method. */;
++ (id)dumpCloudRecordsForProductGroup:productNumber:rawOutput:listOnly:verifySignatures:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -26,14 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *appDataDictionary; // @dynamic appDataDictionary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

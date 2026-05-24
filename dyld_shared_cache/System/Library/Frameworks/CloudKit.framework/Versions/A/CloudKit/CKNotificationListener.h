@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKNotificationListener
 {
     _Bool _useOpportunisticPushTopics;
-    NSString *_machServiceName;
-    NSMutableDictionary *_subscriptionInfos;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSMutableDictionary *_apsConnections;
-    unsigned long long _strategy;
-    NSArray *_notificationObservers;
 }
 
 - (_Bool);
@@ -28,7 +21,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -41,8 +34,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void)fp_volumeUUID;
 - (void);
 - (void)alRecordZoneWithIDChangedBlock;
 - (void);
@@ -51,17 +44,7 @@
 - (void)BUG IN CLOUDKIT:(id)arg1 Unable to convert fetched database changes without push telemetry payload to NSObjects;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(retain) NSArray *notificationObservers; // @synthesize notificationObservers=_notificationObservers;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property _Bool useOpportunisticPushTopics; // @synthesize useOpportunisticPushTopics=_useOpportunisticPushTopics;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PKPaletteToolView;
+
 @protocol PKPaletteToolPickerViewDataSource
+- (PKPaletteToolView *)Frameworks/CorePhoneNumbers.framework/Versions/A/CorePhoneNumbers;
 @end
 

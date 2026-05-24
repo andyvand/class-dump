@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     struct shared_ptr<_UIRTreeContainerNode<_UICollectionViewRTreeElement>> _root;
 }
 
-- (void);
-- (_Bool);
-- (void);
+- (void)has_editedMessagePartIndex;
+- (_Bool)_messageIDForUpdateType:(struct CGRect)arg1 participant:(struct _UICollectionViewRTreeElement)arg2;
+- (void)IMServiceReachabilityResponseHandler;
 - (id);
 - (id);
 - (void)öj;

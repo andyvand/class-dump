@@ -8,9 +8,14 @@
 @protocol NSMenuBarImplDelegate;
 
 @protocol NSMenuBarLifecycleProtocol
++ (void);
++ (void)FDR Trust Object trusted key:%d /* Error: Ran out of types for this method. */;
+- (void)R;
+- (void)BjJV766k5l7T4e9KHEKuBw;
+- (void);
+- (NSObject<NSMenuBarImplDelegate> *);
 
 // Remaining properties
-@property(readonly) _Bool isLocalInstance;
 @property __weak NSObject<NSMenuBarImplDelegate> *menuBarDelegate;
 @end
 

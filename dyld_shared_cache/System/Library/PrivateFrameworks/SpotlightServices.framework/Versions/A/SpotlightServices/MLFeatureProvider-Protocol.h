@@ -7,7 +7,7 @@
 @class MLFeatureValue, NSSet;
 
 @protocol MLFeatureProvider
-- (MLFeatureValue *)yTermsRatio_Word;
+- (MLFeatureValue *)enum_kMDItemPhotosKeywords_QueryTermsRatio_Word;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *featureNames;

@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath;
+
 @protocol UITableViewFocusDelegateLegacy
+
+@optional
+- (void);
+- (void);
+- (NSIndexPath *)cumentCameraScan",&,N,V_scannedDocument;
 @end
 

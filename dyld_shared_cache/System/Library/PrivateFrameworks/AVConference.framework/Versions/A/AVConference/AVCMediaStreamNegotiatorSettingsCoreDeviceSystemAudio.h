@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)觟�;
 - (unsigned long long);
 
 @end

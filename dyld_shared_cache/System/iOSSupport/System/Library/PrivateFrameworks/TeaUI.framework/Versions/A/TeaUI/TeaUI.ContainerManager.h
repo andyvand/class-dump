@@ -7,12 +7,6 @@
 @interface TeaUI.ContainerManager
 {
     id containerEnvironment;
-    id $__lazy_storage_$_carPlayContainer;
-    id $__lazy_storage_$_appContainer;
-    id stagedContainer;
-    id singletonPool;
-    id bundleAssemblies;
-    id assemblies;
 }
 
 @end

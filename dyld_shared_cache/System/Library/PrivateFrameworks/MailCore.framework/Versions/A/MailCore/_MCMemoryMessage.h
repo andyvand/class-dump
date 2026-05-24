@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)M;
 - (id)ments:(id)arg1 headers: /* Error: Ran out of types for this method. */;
 
 @end

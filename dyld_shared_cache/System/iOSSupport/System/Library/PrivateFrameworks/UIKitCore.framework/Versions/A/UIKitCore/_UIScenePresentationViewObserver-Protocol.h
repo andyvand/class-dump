@@ -5,5 +5,8 @@
 //
 
 @protocol _UIScenePresentationViewObserver
+
+@optional
+- (void);
 @end
 

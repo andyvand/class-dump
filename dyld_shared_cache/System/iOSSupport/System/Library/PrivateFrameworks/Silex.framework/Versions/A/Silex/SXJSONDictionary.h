@@ -6,26 +6,19 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary;
-
 @interface SXJSONDictionary : SXJSONObject
 {
     CDUnknownBlockType _objectValueClassBlock;
-    CDUnknownBlockType _valueClassBlock;
-    NSDictionary *_json;
-    NSMutableDictionary *_objects;
-    NSArray *_keys;
-    unsigned long long _count;
 }
 
 - (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)`;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -37,12 +30,7 @@
 - (unsigned long long)ncelled layout task; dropping result, task-identifier=%{public}@, duration=%fms;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) NSDictionary *json; // @synthesize json=_json;
-@property(readonly, nonatomic) NSArray *keys; // @synthesize keys=_keys;
 @property(readonly, nonatomic) CDUnknownBlockType objectValueClassBlock; // @synthesize objectValueClassBlock=_objectValueClassBlock;
-@property(readonly, nonatomic) NSMutableDictionary *objects; // @synthesize objects=_objects;
-@property(readonly, nonatomic) CDUnknownBlockType valueClassBlock; // @synthesize valueClassBlock=_valueClassBlock;
 
 @end
 

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPNFCAccessKeyStateWrapper, HAPNFCAccessKeyTypeWrapper, NSData, NSString;
+@class HAPNFCAccessKeyTypeWrapper;
 
 @interface HAPDeviceCredentialKey
 {
     HAPNFCAccessKeyTypeWrapper *_type;
-    NSData *_key;
-    HAPNFCAccessKeyStateWrapper *_state;
 }
 
-+ (id);
++ (id);
+- (id)A;
+- (id)P;
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)setLockingCXReceived:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
@@ -30,15 +28,6 @@
 - (void)PairingIdentity"24^@32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *key; // @synthesize key=_key;
-@property(retain, nonatomic) HAPNFCAccessKeyStateWrapper *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) HAPNFCAccessKeyTypeWrapper *type; // @synthesize type=_type;
 
 @end

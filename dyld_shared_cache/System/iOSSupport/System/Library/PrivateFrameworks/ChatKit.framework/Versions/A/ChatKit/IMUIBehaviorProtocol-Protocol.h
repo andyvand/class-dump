@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol IMUIBehaviorProtocol;
+
 @protocol IMUIBehaviorProtocol
++ (id <IMUIBehaviorProtocol>)petForMentions passed mentions from more than one note;
+- (struct UIEdgeInsets)initWithMentions:(_Bool)arg1;
+- (double)initWithMediaType:outputSettings:sourceFormatHint: /* Error: Ran out of types for this method. */;
+- (double)initWithMarkdownString:options:baseURL:error: /* Error: Ran out of types for this method. */;
 @end
 

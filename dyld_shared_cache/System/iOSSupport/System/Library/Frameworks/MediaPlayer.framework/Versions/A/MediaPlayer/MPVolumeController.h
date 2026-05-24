@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MPVolumeControllerDataSource, MPVolumeControllerDelegate;
+@protocol MPVolumeControllerDelegate;
 
 @interface MPVolumeController
 {
     int _volumeChangeCoalescingCount;
-    id <MPVolumeControllerDelegate> _delegate;
-    NSString *_volumeAudioCategory;
-    id <MPVolumeControllerDataSource> _dataSource;
 }
 
 + (id);
@@ -30,7 +26,7 @@
 - (void);
 - (float);
 - (void);
-- (_Bool);
+- (_Bool)_haveDeferredUpdateRequest;
 - (id);
 - (long long);
 - (void);
@@ -40,7 +36,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)rary/Caches/com.apple.xbs/TemporaryDirectory.LLyPBF/Sources/Listen/Framework/Internal/Core/DSPGraph/Utilities/SNDSPGraph.mm:(id)arg1 106:26)] /* Error: Ran out of types for this method. */;
 - (float);
 - (void);
 - (id);
@@ -49,32 +45,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)h error %@;
 - (id);
-- (unsigned int);
+- (unsigned int)9#;
 - (void);
 - (_Bool)8;
-- (void)rofile;
+- (void)_authorProfile;
 
 // Remaining properties
-@property(readonly, nonatomic) float EUVolumeLimit;
-@property(retain, nonatomic) id <MPVolumeControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MPVolumeControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMuted) _Bool muted;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *volumeAudioCategory; // @synthesize volumeAudioCategory=_volumeAudioCategory;
-@property(readonly, nonatomic) unsigned int volumeCapabilities;
-@property(readonly, nonatomic, getter=isVolumeControlAvailable) _Bool volumeControlAvailable;
-@property(readonly, copy, nonatomic) NSString *volumeControlLabel;
-@property(nonatomic) float volumeValue;
-@property(readonly, nonatomic) _Bool volumeWarningEnabled;
-@property(readonly, nonatomic) long long volumeWarningState;
 
 @end
 

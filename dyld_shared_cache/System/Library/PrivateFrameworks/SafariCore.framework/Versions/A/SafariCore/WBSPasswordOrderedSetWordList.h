@@ -11,7 +11,6 @@
 @interface WBSPasswordOrderedSetWordList : WBSPasswordWordList
 {
     NSOrderedSet *_words;
-    _Bool _sensitive;
 }
 
 - (id);

@@ -10,14 +10,14 @@
 {
 }
 
-- (struct UIEdgeInsets);
-- (BOOL);
-- (struct CGSize);
+- (struct UIEdgeInsets)getResourceValue:forKey:error: /* Error: Ran out of types for this method. */;
+- (BOOL)rType:mediaDecryptedData:mediaURL:mediaSize:croppingQuad: /* Error: Ran out of types for this method. */;
+- (struct CGSize)h_queueCGShyAVGGAYG;
 - (id);
-- (_Bool);
+- (_Bool)i;
 - (struct UIEdgeInsets);
 - (Class);
-- (unsigned long long): /* Error: Ran out of types for this method. */;
+- (unsigned long long)updateShare:containerSetupInfo:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

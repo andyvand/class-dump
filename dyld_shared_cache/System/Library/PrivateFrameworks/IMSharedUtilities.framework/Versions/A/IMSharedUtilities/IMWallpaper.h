@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMWallpaperMetadata, IMWallpaper_SwiftImpl, NSString;
+@class IMWallpaper_SwiftImpl, NSString;
 
 @interface IMWallpaper
 {
@@ -19,12 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -34,15 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool contentIsSensitive;
-@property(readonly, nonatomic) long long dataVersion;
 @property(readonly, copy, nonatomic) NSString *fileName;
-@property(readonly, copy, nonatomic) NSString *filePath;
-@property(readonly, copy, nonatomic) NSString *lowResFileName;
-@property(readonly, copy, nonatomic) NSString *lowResFilePath;
-@property(readonly, nonatomic) _Bool lowResWallpaperExists;
-@property(readonly, nonatomic) IMWallpaperMetadata *metadata;
-@property(readonly, nonatomic) _Bool wallpaperExists;
 
 @end
 

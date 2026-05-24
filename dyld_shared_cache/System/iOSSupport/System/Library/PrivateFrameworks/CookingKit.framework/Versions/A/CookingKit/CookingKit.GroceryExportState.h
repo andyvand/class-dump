@@ -8,9 +8,6 @@
 {
     id _isExported;
     id _remindersListDetails;
-    id _presentingViewController;
-    id _recipeID;
-    id _$observationRegistrar;
 }
 
 @end

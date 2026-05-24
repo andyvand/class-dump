@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void)fCollectionsForCriteriaCache;
+- (void)_countOfCollectionsForCriteriaCache;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelRequest *modelRequest; // @synthesize modelRequest=_modelRequest;

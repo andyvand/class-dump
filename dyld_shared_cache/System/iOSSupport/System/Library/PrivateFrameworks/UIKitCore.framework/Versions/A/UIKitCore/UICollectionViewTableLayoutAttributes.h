@@ -6,41 +6,14 @@
 
 #import <UIKitCore/UICollectionViewLayoutAttributes.h>
 
-@class UIColor, UIVisualEffect;
-
 @interface UICollectionViewTableLayoutAttributes : UICollectionViewLayoutAttributes
 {
     _Bool _separatorInsetIsRelativeToCellEdges;
-    _Bool _shouldIndentWhileEditing;
-    _Bool _showsReorderControl;
-    _Bool _layoutMarginsFollowReadableWidth;
-    _Bool _insetsContentViewsToSafeArea;
-    _Bool _drawsSeparatorAtTopOfSection;
-    _Bool _drawsSeparatorAtBottomOfSection;
-    _Bool _preferredAttributesCached;
-    _Bool _isHeader;
-    _Bool _floating;
-    int _sectionLocation;
-    long long _separatorStyle;
-    UIColor *_separatorColor;
-    UIVisualEffect *_separatorEffect;
-    UIColor *_backgroundColor;
-    long long _accessoryType;
-    long long _editingStyle;
-    double _defaultLeadingCellMarginWidth;
-    double _defaultTrailingCellMarginWidth;
-    double _indexBarExtentFromEdge;
-    long long _indentationLevel;
-    double _maxTitleWidth;
-    long long _textAlignment;
-    struct UIEdgeInsets _separatorInset;
-    struct UIEdgeInsets _backgroundInset;
-    struct UIEdgeInsets _margins;
 }
 
 + (long long)1Â0@ù
 × ;
-+ (void)ionContext;
++ (void)_UINavigationBarTransitionContext;
 - (void);
 - (_Bool);
 - (void);
@@ -53,7 +26,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -66,21 +39,21 @@
 - (struct UIEdgeInsets);
 - (double)Ô ;
 - (_Bool)ng>"32;
-- (_Bool)Block: /* Error: Ran out of types for this method. */;
-- (_Bool)ewHandle;
-- (_Bool);
-- (void)ngShadowOffset;
-- (_Bool)nBarAnimation;
-- (void)ction:(id)arg1 withRimShadow: /* Error: Ran out of types for this method. */;
-- (void)rHeight;
-- (void)essibilityConfiguration;
+- (_Bool)setAccessibilityCustomActionsBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)effectViewHandle;
+- (_Bool)applyBackgroundEffectWithMagnitude:interactive:completion: /* Error: Ran out of types for this method. */;
+- (void)_updateLabelTextColorAndFontReturningShadowOffset;
+- (_Bool)_suppressCrossFadeNavigationBarAnimation;
+- (void)_shortRightArrowViewForTraitCollection:(id)arg1 withRimShadow: /* Error: Ran out of types for this method. */;
+- (void)_anchorHeight;
+- (void)UIRuntimeAccessibilityConfiguration;
 - (id)hè;
 - (_Bool)ÜÑhgsèÜÑpjs;
 - (_Bool);
 - (void)ponderWithoutAutomaticAppearanceEnabled:(_Bool)arg1 %@ (_automaticAppearEnabled:%d) /* Error: Ran out of types for this method. */;
 - (void)egate %@ does not respond to -writingToolsCoordinator:(_Bool)arg1 requestsDecorationContainerViewForRange:inContext:completion:and therefore must assign a non-nil value to the coordinator's decorationContainerView property. /* Error: Ran out of types for this method. */;
-- (void)hlightedBackgroundColor;
-- (id)ewCellCSo24UICellConfigurationStateCIeggg_;
+- (void)tableCellHighlightedBackgroundColor;
+- (id)So20UICollectionViewCellCSo24UICellConfigurationStateCIeggg_;
 - (long long);
 - (void)ÿäØ;
 - (_Bool)b;
@@ -100,32 +73,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long accessoryType; // @synthesize accessoryType=_accessoryType;
-@property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) struct UIEdgeInsets backgroundInset; // @synthesize backgroundInset=_backgroundInset;
-@property(nonatomic) double defaultLeadingCellMarginWidth; // @synthesize defaultLeadingCellMarginWidth=_defaultLeadingCellMarginWidth;
-@property(nonatomic) double defaultTrailingCellMarginWidth; // @synthesize defaultTrailingCellMarginWidth=_defaultTrailingCellMarginWidth;
-@property(nonatomic) _Bool drawsSeparatorAtBottomOfSection; // @synthesize drawsSeparatorAtBottomOfSection=_drawsSeparatorAtBottomOfSection;
-@property(nonatomic) _Bool drawsSeparatorAtTopOfSection; // @synthesize drawsSeparatorAtTopOfSection=_drawsSeparatorAtTopOfSection;
-@property(nonatomic) long long editingStyle; // @synthesize editingStyle=_editingStyle;
-@property(nonatomic) _Bool floating; // @synthesize floating=_floating;
-@property(nonatomic) long long indentationLevel; // @synthesize indentationLevel=_indentationLevel;
-@property(nonatomic) double indexBarExtentFromEdge; // @synthesize indexBarExtentFromEdge=_indexBarExtentFromEdge;
-@property(nonatomic) _Bool insetsContentViewsToSafeArea; // @synthesize insetsContentViewsToSafeArea=_insetsContentViewsToSafeArea;
-@property(nonatomic) _Bool isHeader; // @synthesize isHeader=_isHeader;
-@property(nonatomic) _Bool layoutMarginsFollowReadableWidth; // @synthesize layoutMarginsFollowReadableWidth=_layoutMarginsFollowReadableWidth;
-@property(nonatomic) struct UIEdgeInsets margins; // @synthesize margins=_margins;
-@property(nonatomic) double maxTitleWidth; // @synthesize maxTitleWidth=_maxTitleWidth;
 @property(nonatomic) _Bool preferredAttributesCached; // @synthesize preferredAttributesCached=_preferredAttributesCached;
-@property(nonatomic) int sectionLocation; // @synthesize sectionLocation=_sectionLocation;
-@property(copy, nonatomic) UIColor *separatorColor; // @synthesize separatorColor=_separatorColor;
-@property(retain, nonatomic) UIVisualEffect *separatorEffect; // @synthesize separatorEffect=_separatorEffect;
-@property(nonatomic) struct UIEdgeInsets separatorInset; // @synthesize separatorInset=_separatorInset;
-@property(nonatomic) _Bool separatorInsetIsRelativeToCellEdges; // @synthesize separatorInsetIsRelativeToCellEdges=_separatorInsetIsRelativeToCellEdges;
-@property(nonatomic) long long separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(nonatomic) _Bool shouldIndentWhileEditing; // @synthesize shouldIndentWhileEditing=_shouldIndentWhileEditing;
-@property(nonatomic) _Bool showsReorderControl; // @synthesize showsReorderControl=_showsReorderControl;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
 
 @end
 

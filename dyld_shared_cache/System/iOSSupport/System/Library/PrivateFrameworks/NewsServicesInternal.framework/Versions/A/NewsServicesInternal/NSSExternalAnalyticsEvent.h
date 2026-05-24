@@ -9,7 +9,6 @@
 @interface NSSExternalAnalyticsEvent
 {
     NSDictionary *_requestQueryParameters;
-    NTPBSession *_session;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *requestQueryParameters; // @synthesize requestQueryParameters=_requestQueryParameters;
 @property(readonly, copy, nonatomic) NTPBSession *session; // @synthesize session=_session;
 
 @end

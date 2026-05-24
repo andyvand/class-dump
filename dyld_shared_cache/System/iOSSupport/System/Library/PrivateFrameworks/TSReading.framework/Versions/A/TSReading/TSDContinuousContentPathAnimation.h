@@ -9,7 +9,6 @@
 @interface TSDContinuousContentPathAnimation : TSDContentAnimation
 {
     CDUnknownBlockType _tick;
-    CDUnknownBlockType _isFinished;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType isFinished; // @synthesize isFinished=_isFinished;
 @property(copy, nonatomic) CDUnknownBlockType tick; // @synthesize tick=_tick;
 
 @end

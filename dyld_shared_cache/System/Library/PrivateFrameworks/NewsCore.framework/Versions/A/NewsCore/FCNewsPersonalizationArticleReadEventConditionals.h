@@ -7,7 +7,6 @@
 @interface FCNewsPersonalizationArticleReadEventConditionals
 {
     double _minimumDuration;
-    long long _minimumScrollEventCount;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) double minimumDuration; // @synthesize minimumDuration=_minimumDuration;
-@property(nonatomic) long long minimumScrollEventCount; // @synthesize minimumScrollEventCount=_minimumScrollEventCount;
 
 @end
 

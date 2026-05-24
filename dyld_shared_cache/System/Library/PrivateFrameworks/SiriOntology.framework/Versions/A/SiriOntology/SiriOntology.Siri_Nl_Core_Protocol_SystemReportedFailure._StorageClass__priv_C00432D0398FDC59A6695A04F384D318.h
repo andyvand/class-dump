@@ -7,8 +7,6 @@
 @interface SiriOntology.Siri_Nl_Core_Protocol_SystemReportedFailure._StorageClass__priv_C00432D0398FDC59A6695A04F384D318
 {
     id _taskID;
-    id _reason;
-    id _task;
 }
 
 @end

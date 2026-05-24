@@ -7,9 +7,6 @@
 @interface SiriInference.AppResolutionRulesProvider
 {
     id commsAppResolutionFeature;
-    id trialConfigProviderPhone;
-    id trialConfigProviderMessages;
-    id seasAppUsageEnabledLocales;
 }
 
 @end

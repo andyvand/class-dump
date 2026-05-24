@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSString, NSURL, SAFmfGeoFence;
+@class SAFmfGeoFence;
 
 @interface SAFmfGeoFenceSetCompleted : SADomainCommand
 {
@@ -17,23 +17,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) SAFmfGeoFence *geoFence;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSURL *searchContext;
-@property(readonly) Class superclass;
 
 @end
 

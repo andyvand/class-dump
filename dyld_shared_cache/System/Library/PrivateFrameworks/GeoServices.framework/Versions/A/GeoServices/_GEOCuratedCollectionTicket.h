@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOAbstractRequestResponseTicket.h>
 
-@class GEOMapServiceTraits, NSString;
+@class GEOMapServiceTraits;
 
 __attribute__((visibility("hidden")))
 @interface _GEOCuratedCollectionTicket : GEOAbstractRequestResponseTicket
@@ -16,14 +16,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end

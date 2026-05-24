@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void)ionHandler: /* Error: Ran out of types for this method. */;
+- (void)addItemWithProductID:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType payloadTransformBlock; // @synthesize payloadTransformBlock=_payloadTransformBlock;

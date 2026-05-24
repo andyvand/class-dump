@@ -5,6 +5,7 @@
 //
 
 @protocol AXVLabeledElementsOverlayControllerProtocol
+- (void);
 
 // Remaining properties
 @property(readonly, getter=isActive) _Bool active;

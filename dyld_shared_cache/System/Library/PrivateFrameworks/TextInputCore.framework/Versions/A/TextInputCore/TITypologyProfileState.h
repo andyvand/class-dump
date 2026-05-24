@@ -4,50 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData, NSDate;
 
 __attribute__((visibility("hidden")))
 @interface TITypologyProfileState
 {
     NSDate *_profileInstallationDate;
-    NSDate *_userNotificationDate;
-    NSString *_userResponse;
-    NSData *_salt;
 }
 
 + (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)unsignedIntegerValue;
+- (_Bool)stringByReplacingCharactersInRange:(id)arg1 withString: /* Error: Ran out of types for this method. */;
+- (id)deviceIsTinker;
+- (id)device:(id)arg1 didStart:error: /* Error: Ran out of types for this method. */;
+- (_Bool)axtty_result;
+- (id)NSArray"8Q16^B24;
+- (_Bool)@?0@"RPCompanionLinkClient"8Q16^B24;
 - (id);
 - (void);
-- (id);
+- (id)s sudden termination clean;
+- (_Bool);
 - (void);
+- (id);
+- (void)QUOutputTokenInfo;
+- (id);
+- (void)__AUTH_CONST;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *profileInstallationDate; // @synthesize profileInstallationDate=_profileInstallationDate;
 @property(retain, nonatomic) NSData *salt; // @synthesize salt=_salt;
-@property(copy, nonatomic) NSDate *userNotificationDate; // @synthesize userNotificationDate=_userNotificationDate;
-@property(copy, nonatomic) NSString *userResponse; // @synthesize userResponse=_userResponse;
 
 @end
 

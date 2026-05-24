@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXPlacesImageCache;
-@protocol PXPlacesMapAnnotationRenderer, PXPlacesMapLayout, PXPlacesMapSelectionHandler, PXPlacesMapUpdatePlan;
+@protocol PXPlacesMapLayout, PXPlacesMapSelectionHandler;
 
 @protocol PXPlacesMapPipelineComponentProvider
-- (id <PXPlacesMapSelectionHandler>)onfiguration;
+- (id <PXPlacesMapSelectionHandler>)_pickerConfiguration;
 - (id <PXPlacesMapLayout>)[PXCuratedLibraryViewModel init];
 
 // Remaining properties
-@property(retain) PXPlacesImageCache *imageCache;
 @property(readonly) id <PXPlacesMapLayout> layout;
-@property(readonly) id <PXPlacesMapAnnotationRenderer> renderer;
-@property(readonly) id <PXPlacesMapSelectionHandler> selectionHandler;
-@property(readonly) id <PXPlacesMapUpdatePlan> updatePlan;
 @end
 

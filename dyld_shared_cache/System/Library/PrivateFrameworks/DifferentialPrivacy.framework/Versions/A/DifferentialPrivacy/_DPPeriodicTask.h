@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _DPPeriodicTask
 {
     _Bool _networkingRequired;
-    unsigned long long _periodSeconds;
-    NSString *_name;
-    CDUnknownBlockType _handler;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_executionCriteria;
 }
 
 + (id);
@@ -27,15 +22,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)oddOffsets;
+- (void)passwordsRemoteViewController:fillUsername: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *executionCriteria; // @synthesize executionCriteria=_executionCriteria;
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool networkingRequired; // @synthesize networkingRequired=_networkingRequired;
-@property(readonly, nonatomic) unsigned long long periodSeconds; // @synthesize periodSeconds=_periodSeconds;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

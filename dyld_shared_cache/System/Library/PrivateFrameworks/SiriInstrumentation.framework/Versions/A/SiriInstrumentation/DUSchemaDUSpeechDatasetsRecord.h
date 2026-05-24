@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DUSchemaDUSpeechDatasetsRecord : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_interactionId;
-    unsigned long long _datasetsCapturedTimestampMs;
-    struct {
-        unsigned int datasetsCapturedTimestampMs:1;
-    } _has;
-    _Bool _hasInteractionId;
 }
 
 - (void);
@@ -28,24 +23,20 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)_xpc_iap2d_handle_message;
+- (id)SString"8@"NSMutableArray"16^B24;
 - (void);
-- (unsigned long long);
+- (unsigned long long)B9kA;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)tartRecordingEnded";
-- (id)rated;
+- (id)PLUSSchemaPLUSContactGroundTruthGenerated;
 - (id)Ôv;
 - (void)ÀÇ¸ÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long datasetsCapturedTimestampMs; // @synthesize datasetsCapturedTimestampMs=_datasetsCapturedTimestampMs;
-@property(nonatomic) _Bool hasDatasetsCapturedTimestampMs;
-@property(nonatomic) _Bool hasInteractionId; // @synthesize hasInteractionId=_hasInteractionId;
 @property(retain, nonatomic) SISchemaUUID *interactionId; // @synthesize interactionId=_interactionId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

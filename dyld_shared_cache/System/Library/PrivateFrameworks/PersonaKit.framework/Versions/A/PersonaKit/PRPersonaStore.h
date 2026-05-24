@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSObject, NSXPCConnection, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface PRPersonaStore
 {
     NSXPCConnection *_personaServiceConnection;
-    NSLock *_connectionLock;
-    NSLock *_dataVendingFlagLock;
-    _Bool _hasVendedData;
-    NSXPCListenerEndpoint *_serviceListenerEndpoint;
-    NSObject<OS_dispatch_queue> *_replyHandlingQueue;
 }
 
 - (void);
@@ -32,14 +26,14 @@
 - (void);
 - (id);
 - (unsigned char);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)^;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool){;
 - (void);
 - (void);
 - (void);

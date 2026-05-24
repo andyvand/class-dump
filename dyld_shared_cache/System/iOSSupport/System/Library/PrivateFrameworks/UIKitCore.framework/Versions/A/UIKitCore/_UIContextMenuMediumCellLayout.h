@@ -4,78 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, UIColor, UIHoverStyle, UIShape, _UIContextMenuCellContentView;
+@class _UIContextMenuCellContentView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuMediumCellLayout
 {
     _UIContextMenuCellContentView *_contentView;
-    NSArray *_managedConstraints;
-    NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_primaryViewCenterYConstraint;
-    NSLayoutConstraint *_bottomConstraint;
-    NSLayoutConstraint *_fittingBottomConstraint;
-    NSLayoutConstraint *_minimumHeightConstraint;
 }
 
 - (_Bool);
+- (void)16@"IMBackgroundMessageRecipient"24@?<v@?@"NSError">32;
+- (void)istorySyncTask>"24@0:(id)arg1 8Q16;
+- (void)verifyTruncatedRecordIDMatchesPersonalNickname:(id)arg1 forChat: /* Error: Ran out of types for this method. */;
+- (void)setWasInterworked:(id)arg1;
+- (void)setBalloonPluginPayload:(unsigned long long)arg1;
+- (void)latestIdentifierForDomain: /* Error: Ran out of types for this method. */;
+- (id)initWithMemberStatus:forHandle:unformattedNumber:countryCode:forChat:style: /* Error: Ran out of types for this method. */;
+- (id)Token:reflectOnly:storageContext: /* Error: Ran out of types for this method. */;
+- (id)handler:localMessageSent:wasInterworked:encrypted:storageContext: /* Error: Ran out of types for this method. */;
+- (id)conversationWasDowngraded;
+- (id)componentsWithURL:resolvingAgainstBaseURL: /* Error: Ran out of types for this method. */;
+- (long long)bundleIDsForCollaborationURL: /* Error: Ran out of types for this method. */;
+- (unsigned long long)broadcasterForSyncedSettingsListeners;
+- (void)_syndicationLibrary;
+- (id)_chatSyncOperationGroupWithName: /* Error: Ran out of types for this method. */;
+- (long long)NSNumber",R,N,V_totalExpectedBatches;
+- (id)now;
+- (id);
+- (id)BlastDoorTranscriptBackgroundCommand;
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)CEMNetworkVPNDeclaration_Status;
 - (void)1Â0@ù
 × ;
-- (void);
-- (void)etAudioScaleAnimationResponse:(id)arg1;
+- (void)_wasShifted;
+- (void)setAudioScaleAnimationResponse:(id)arg1;
 - (_Bool)l;
-- (long long)ckInfo;
+- (long long)UpdateOutputModelCallbackInfo;
 - (id);
 - (void)´¾0ÿ Úo;
 - (id)¨-c;
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *bottomConstraint; // @synthesize bottomConstraint=_bottomConstraint;
-@property(readonly, nonatomic) UIShape *contentShape;
 @property(nonatomic) __weak _UIContextMenuCellContentView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSLayoutConstraint *fittingBottomConstraint; // @synthesize fittingBottomConstraint=_fittingBottomConstraint;
-@property(readonly, nonatomic) long long focusStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIHoverStyle *hoverStyle;
-@property(readonly, nonatomic) unsigned long long labelMaximumNumberOfLines;
-@property(readonly, nonatomic) long long labelTextAlignment;
-@property(readonly, nonatomic) long long layoutSize;
-@property(retain, nonatomic) NSArray *managedConstraints; // @synthesize managedConstraints=_managedConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *minimumHeightConstraint; // @synthesize minimumHeightConstraint=_minimumHeightConstraint;
-@property(readonly, nonatomic) UIColor *preferredBackgroundColorForCurrentState;
-@property(readonly, nonatomic) UIColor *preferredContentColorForCurrentState;
-@property(retain, nonatomic) NSLayoutConstraint *primaryViewCenterYConstraint; // @synthesize primaryViewCenterYConstraint=_primaryViewCenterYConstraint;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *topConstraint; // @synthesize topConstraint=_topConstraint;
-@property(readonly, nonatomic) _Bool useContentShapeForSelectionHighlight;
 
 @end
 

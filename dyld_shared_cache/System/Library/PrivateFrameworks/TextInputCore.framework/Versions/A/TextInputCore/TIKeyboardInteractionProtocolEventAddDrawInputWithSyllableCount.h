@@ -6,7 +6,7 @@
 
 #import <TextInputCore/TIKeyboardInteractionProtocolBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface TIKeyboardInteractionProtocolEventAddDrawInputWithSyllableCount : TIKeyboardInteractionProtocolBase
 {
@@ -14,23 +14,16 @@
 }
 
 + (_Bool);
-- (id);
+- (id)e}@;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)%lu loadedRequesters), ended with length %ld, should be %lu;
+- (id)";
+- (void)ng",&,N,V_experimentId;
 - (void)aÐ!ÜCùQið1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSNumber *syllableCount; // @synthesize syllableCount=_syllableCount;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface XQueryHexBinary
@@ -12,27 +12,21 @@ __attribute__((visibility("hidden")))
     NSData *_data;
 }
 
-+ (id);
++ (id),<;
 + (id);
 + (void);
 - (long long);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)x;
+- (_Bool)5;
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

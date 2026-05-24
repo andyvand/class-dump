@@ -7,13 +7,11 @@
 @interface CLReductiveFilterOptions
 {
     unsigned long long _beaconType;
-    double _transmitPower;
-    double _biasRateInMeasurement;
-    double _applyRangeEstimation;
 }
 
-- (double);
-- (void);
+- (double)
+;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -23,10 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double applyRangeEstimation; // @synthesize applyRangeEstimation=_applyRangeEstimation;
-@property(readonly, nonatomic) unsigned long long beaconType; // @synthesize beaconType=_beaconType;
 @property(nonatomic) double biasRateInMeasurement; // @synthesize biasRateInMeasurement=_biasRateInMeasurement;
-@property(readonly, nonatomic) double transmitPower; // @synthesize transmitPower=_transmitPower;
 
 @end
 

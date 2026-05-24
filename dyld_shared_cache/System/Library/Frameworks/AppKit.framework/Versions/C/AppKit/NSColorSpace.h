@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColorGamut, NSData, NSString;
+@class NSColorGamut;
 
 @interface NSColorSpace
 {
     id _profile;
-    struct {
-        unsigned int colorSpaceID:8;
-        unsigned int storageType:3;
-        unsigned int replacedDuringUnarchiving:1;
-        unsigned int :20;
-        unsigned int :32;
-    } _flags;
-    _Atomic struct CGColorSpace *_cgColorSpace;
-    _Atomic struct CGColorTransform *_cgColorTransform;
 }
 
++ (id)r<const std:(int)arg1:shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
++ (id)D;
++ (id)ion is unavailable;
 + (id);
 + (id);
 + (id);
@@ -27,58 +21,50 @@
 + (id);
 + (id);
 + (id);
++ (id)_preventsIdleSleepOnceConnected;
++ (id)ltiplexerSource %p>;
++ (id)cheduling set being deallocated %p
+;
++ (id)(&fRetainCount) & 3) == 0;
++ (id)ClassicDelegateHolder;
 + (id);
++ (id)kCFStreamPropertyFTPResourceSize;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)2Yt;
 + (id)â3°1Â0@ù
 × ;
 + (_Bool);
-- (long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void *);
-- (id);
+- (long long)uploadTaskWithRequest:fromFile:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)clearEntries;
+- (id)URLSession:(id)arg1 task:didCompleteWithError: /* Error: Ran out of types for this method. */;
+- (id)V_privacyProxyFailClosedForUnreachableNonMainHosts;
+- (id)ntsIdleSystemSleep;
+- (id)sage;
+- (void *)ream%{public}@ is complete and received server trust, marking as secure;
+- (id)g to stopSecureConnection on a URLSessionStreamTask after task has completed;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (int);
-- (long long);
-- (struct CGColor *);
+- (int);
+- (long long);
+- (struct CGColor *);
 - (id);
 - (struct CGColorSpace *);
-- (void);
-- (id);
+- (void);
+- (id)ringssl/crypto/evp/evp_asn1.c;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_lineBreakStyleForLastResortHyphenation: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) struct CGColorSpace *CGColorSpace;
-@property(readonly) NSData *ICCProfileData;
 @property(readonly) NSColorGamut *colorGamut;
-@property(readonly) long long colorSpaceModel;
-@property(readonly) void *colorSyncProfile;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly) long long numberOfColorComponents;
 
 @end
 

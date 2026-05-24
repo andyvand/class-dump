@@ -11,8 +11,8 @@
 
 - (void);
 - (void);
-- (id);
-- (void)gForEvent: /* Error: Ran out of types for this method. */;
+- (id)set_valueLabel: /* Error: Ran out of types for this method. */;
+- (void)locationStringForEvent: /* Error: Ran out of types for this method. */;
 
 @end
 

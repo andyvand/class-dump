@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
-
 @interface QLThumbnailConnectionHandler
 {
     id _principalObject;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_generationQueue;
-    NSObject<OS_dispatch_queue> *_replyQueue;
 }
 
 + (id);
@@ -22,26 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void)CGImage;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *generationQueue; // @synthesize generationQueue=_generationQueue;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id principalObject; // @synthesize principalObject=_principalObject;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
-@property(readonly) Class superclass;
 
 @end
 

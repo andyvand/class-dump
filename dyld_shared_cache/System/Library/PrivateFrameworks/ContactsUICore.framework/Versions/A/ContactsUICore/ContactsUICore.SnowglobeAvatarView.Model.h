@@ -7,8 +7,6 @@
 @interface ContactsUICore.SnowglobeAvatarView.Model
 {
     id contactsHashes;
-    id _contacts;
-    id listener;
 }
 
 @end

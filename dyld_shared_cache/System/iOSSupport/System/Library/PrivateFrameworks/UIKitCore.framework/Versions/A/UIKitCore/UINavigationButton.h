@@ -6,47 +6,25 @@
 
 #import <UIKitCore/UIButton.h>
 
-@class NSDictionary, NSSet, NSString, UIBarButtonItem, UIColor, UIImage, UINavigationItem, UIView, _UIBarButtonItemAppearanceStorage;
+@class NSSet, UIView;
 
 @interface UINavigationButton : UIButton
 {
     NSSet *_possibleTitles;
-    int _style;
-    long long _barStyle;
-    UIColor *_navigationBarTintColor;
-    struct CGSize _boundsAdjustment;
-    _UIBarButtonItemAppearanceStorage *_appearanceStorage;
-    NSSet *_possibleSystemItems;
-    unsigned int _size:2;
-    UIBarButtonItem *_originatingButtonItem;
-    UINavigationItem *_originatingNavigationItem;
-    _Bool _createdByBarButtonItem;
-    _Bool _isFontScaleInvalid;
-    _Bool _wantsBlendModeForAccessibilityBackgrounds;
-    _Bool __barItemHidden;
-    long long _buttonItemStyle;
-    NSDictionary *_stylesForSizingTitles;
-    double _fontScaleAdjustment;
-    UIColor *_accessibilityBackgroundTintColor;
-    Class _appearanceGuideClass;
-    UIView *__enclosingBar;
-    double _minimumWidth;
-    double _maximumWidth;
-    struct UIEdgeInsets __additionalSelectionInsets;
 }
 
-+ (void);
++ (void)referenceIdentifier;
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)L;
 - (void);
 - (void);
 - (int);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)tatusIsDoNotDisturbInEffect;
+- (_Bool)0?;
+- (_Bool).apple.configuration.system.airplay.destinations;
 - (void);
 - (struct UIEdgeInsets);
 - (id);
@@ -56,30 +34,31 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (void)-;
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (struct CGSize)ht = %f
+;
+- (id);
 - (void);
 - (void);
+- (id);
+- (_Bool)playlistEntryKind;
+- (id)red,V_subscriptionRequired;
+- (void)=%@;
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (struct CGSize);
@@ -106,14 +85,14 @@
 - (void);
 - (id)Qgð1Â0@ù
 × ;
-- (struct UIEdgeInsets)ction;
-- (void)TrackingUpdateInProgress:(struct CGRect)arg1;
-- (id)turnKeyAutomatically:(long long)arg1;
-- (long long)on;
-- (long long)neFragmentRectForGlyphAtIndex:effectiveRange:withoutAdditionalLayout: /* Error: Ran out of types for this method. */;
-- (long long)legibilityStrength: /* Error: Ran out of types for this method. */;
-- (id)ndicator;
-- (void)ons;
+- (struct UIEdgeInsets)shouldShowGestureKeyboardIntroduction;
+- (void)setExternalTrackingUpdateInProgress:(struct CGRect)arg1;
+- (id)setEnablesReturnKeyAutomatically:(long long)arg1;
+- (long long)mostRecentSaturation;
+- (long long)lineFragmentRectForGlyphAtIndex:effectiveRange:withoutAdditionalLayout: /* Error: Ran out of types for this method. */;
+- (long long)imageNamed:withLegibilityStyle:legibilityStrength: /* Error: Ran out of types for this method. */;
+- (id)_oldShowHorizontalScrollIndicator;
+- (void)_focusingCompletions;
 - (void)form:(id)arg1 ,V_additionalRootLayerAffineTransform;
 - (void)T@?,R,C,N,V_predicate;
 - (id)&,N,G_customFontDesign,S_setCustomFontDesign:(id)arg1;
@@ -128,15 +107,15 @@
 - (void);
 - (Class)-ops. Update to view-based UIFeedbackGenerator methods.;
 - (_Bool)ormance.;
-- (void)CSDictionaryAssetGetCompatibilityVersion;
-- (void)ntrollerLastVisibleViewController;
+- (void)DCSDictionaryAssetGetCompatibilityVersion;
+- (void)UINavigationControllerLastVisibleViewController;
 - (void)attempt to insert section %ld but there are only %ld sections after the update;
 - (void)__strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_3;
 - (_Bool)er"8;
 - (void)ew for search bar layout. The application must not remove %@ from the hierarchy.;
 - (void)of the UINavigationController's barHideOnSwipeGestureRecognizer;
 - (struct UIOffset)he maximum active value for a boundary is based on the target value and can not be changed;
-- (_Bool)ightUntransformedFrame;
+- (_Bool)fullHeightUntransformedFrame;
 - (void)t size is not valid for layout calculations;
 - (void)£þÿdþÿ;
 - (void)So24_UIVisualEffectViewEntryC;
@@ -172,28 +151,7 @@
 - (struct UIEdgeInsets)ÑLl;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAccessibilityBackgroundTintColor:) UIColor *_accessibilityBackgroundTintColor; // @synthesize _accessibilityBackgroundTintColor;
-@property(nonatomic, setter=_setAdditionalSelectionInsets:) struct UIEdgeInsets _additionalSelectionInsets; // @synthesize _additionalSelectionInsets=__additionalSelectionInsets;
-@property(retain, nonatomic, setter=_setAppearanceGuideClass:) Class _appearanceGuideClass; // @synthesize _appearanceGuideClass;
-@property(nonatomic, setter=_setBarItemHidden:) _Bool _barItemHidden; // @synthesize _barItemHidden=__barItemHidden;
-@property(nonatomic, setter=_setButtonItemStyle:) long long _buttonItemStyle; // @synthesize _buttonItemStyle;
-@property(nonatomic, setter=_setCreatedByBarButtonItem:) _Bool _createdByBarButtonItem; // @synthesize _createdByBarButtonItem;
 @property(nonatomic, setter=_setEnclosingBar:) __weak UIView *_enclosingBar; // @synthesize _enclosingBar=__enclosingBar;
-@property(nonatomic, setter=_setFontScaleAdjustment:) double _fontScaleAdjustment; // @synthesize _fontScaleAdjustment;
-@property(nonatomic, setter=_setFontScaleInvalid:) _Bool _isFontScaleInvalid; // @synthesize _isFontScaleInvalid;
-@property(copy, nonatomic, setter=_setStylesForSizingTitles:) NSDictionary *_stylesForSizingTitles; // @synthesize _stylesForSizingTitles;
-@property(retain, nonatomic, setter=_setTintColor:) UIColor *_tintColor;
-@property(nonatomic, setter=_setWantsBlendModeForAccessibilityBackgrounds:) _Bool _wantsBlendModeForAccessibilityBackgrounds; // @synthesize _wantsBlendModeForAccessibilityBackgrounds;
-@property(nonatomic) long long barStyle; // @synthesize barStyle=_barStyle;
-@property(nonatomic) int controlSize;
-@property(retain, nonatomic) UIImage *image;
-@property(nonatomic) double maximumWidth; // @synthesize maximumWidth=_maximumWidth;
-@property(nonatomic) double minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(nonatomic) __weak UIBarButtonItem *originatingButtonItem; // @synthesize originatingButtonItem=_originatingButtonItem;
-@property(nonatomic) __weak UINavigationItem *originatingNavigationItem; // @synthesize originatingNavigationItem=_originatingNavigationItem;
-@property(nonatomic) int style; // @synthesize style=_style;
-@property(retain, nonatomic) UIColor *tintColor; // @dynamic tintColor;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

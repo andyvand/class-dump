@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, EWSServerVersionInfo, NSDate, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, NSURL, NSURLSession;
-@protocol EWSExchangeServiceBindingDelegate;
+@class NSMutableDictionary, NSURLSession;
 
 @interface EWSExchangeServiceBinding
 {
     NSMutableDictionary *_sentCredentials;
-    NSMutableSet *_tasksWithSkippedInsecureProtectionSpaces;
-    NSMutableDictionary *_requestsByTask;
-    id _validityLock;
-    _Bool _isValid;
-    NSURL *_preferredURL;
-    NSMutableSet *_attemptedURLs;
-    NSMutableArray *_frozenTasks;
-    NSDate *_unfreezeDate;
-    NSMutableArray *_pendingOAuthTasks;
-    NSDate *_tokenRefreshDate;
-    _Bool _logsActivity;
-    _Bool _isRefreshingOAuthToken;
-    EWSServerVersionInfo *_serverInfo;
-    NSURL *_URL;
-    NSURLSession *_session;
-    ACAccount *_account;
-    id <EWSExchangeServiceBindingDelegate> _delegate;
 }
 
-+ (id);
++ (id)kB;
 + (_Bool);
 + (id);
 + (id);
@@ -47,25 +29,25 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q@;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)ft/libswiftIOKit.dylib;
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)esh storage file did not exist at path = %{public}@. Created a new file.;
 - (_Bool);
 - (void);
 - (void);
@@ -73,24 +55,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <EWSExchangeServiceBindingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isRefreshingOAuthToken; // @synthesize isRefreshingOAuthToken=_isRefreshingOAuthToken;
-@property(readonly) _Bool isValid;
-@property _Bool logsActivity; // @synthesize logsActivity=_logsActivity;
-@property(retain) EWSServerVersionInfo *serverInfo; // @synthesize serverInfo=_serverInfo;
 @property(readonly, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

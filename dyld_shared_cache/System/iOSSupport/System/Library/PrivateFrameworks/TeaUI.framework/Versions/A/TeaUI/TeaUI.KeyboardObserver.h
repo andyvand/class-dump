@@ -7,12 +7,6 @@
 @interface TeaUI.KeyboardObserver
 {
     id onWillShowBlock;
-    id onShowBlock;
-    id onDidShowBlock;
-    id onWillHideBlock;
-    id onHideBlock;
-    id onDidHideBlock;
-    id keyboardInfo;
 }
 
 - (void);

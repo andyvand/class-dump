@@ -6,12 +6,11 @@
 
 #import <HomeKitBackingStore/HMBCloudStateModel.h>
 
-@class CKDatabase, HMBCloudID, NAFuture, NSData, NSDate, NSSet;
+@class CKDatabase, NSData;
 
 @interface HMBCloudDatabaseStateModel : HMBCloudStateModel
 {
     CKDatabase *_database;
-    NAFuture *_queuedCloudPullFuture;
 }
 
 + (id);
@@ -19,17 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HMBCloudID *cloudID; // @dynamic cloudID;
-@property(nonatomic) __weak CKDatabase *database; // @synthesize database=_database;
-@property(retain, nonatomic) NSDate *lastAdministrativeFetch; // @dynamic lastAdministrativeFetch;
-@property(retain) NAFuture *queuedCloudPullFuture; // @synthesize queuedCloudPullFuture=_queuedCloudPullFuture;
-@property(copy, nonatomic) NSSet *subscriptions;
 @property(retain, nonatomic) NSData *subscriptionsData; // @dynamic subscriptionsData;
 
 @end

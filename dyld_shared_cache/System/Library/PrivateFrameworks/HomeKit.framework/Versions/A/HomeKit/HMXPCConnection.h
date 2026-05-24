@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFProcessInfo, NSObject, NSString, NSXPCConnection, NSXPCInterface;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface HMXPCConnection
 {
     struct os_unfair_lock_s _lock;
-    NSXPCConnection *_xpcConnection;
 }
 
 - (CDStruct_6ad76789);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)G*;
 - (id);
-- (void);
+- (void)enumerateResolutionsUsingBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -37,28 +35,11 @@
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)AssetExtractorDelegate;
+- (void)HMSoftwareUpdateDocumentationAssetExtractorDelegate;
 - (id)xchange data;
-- (id)riAnalyticsEnabled;
+- (id)shareSiriAnalyticsEnabled;
 
 // Remaining properties
-@property(readonly) CDStruct_6ad76789 auditToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSXPCInterface *exportedInterface;
-@property(retain) id exportedObject;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType interruptionHandler;
-@property(copy) CDUnknownBlockType invalidationHandler;
-@property(readonly) int processIdentifier;
-@property(readonly) HMFProcessInfo *processInfo;
-@property(retain) NSObject<OS_dispatch_queue> *queue;
-@property(retain) NSXPCInterface *remoteObjectInterface;
-@property(readonly) id remoteObjectProxy;
-@property(readonly) Class superclass;
 @property(readonly) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsFavoritesModule
 {
     id resolver;
-    id tracker;
 }
 
 - (id);

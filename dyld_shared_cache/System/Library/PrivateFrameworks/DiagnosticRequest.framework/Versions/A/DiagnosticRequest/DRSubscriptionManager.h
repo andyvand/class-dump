@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface DRSubscriptionManager
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableDictionary *_perTeamIdMonitors;
-    NSMutableDictionary *_perTeamIdConfigState;
-    NSMutableSet *_inFlightSubscriptionRequests;
 }
 
 + (id);
@@ -20,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_account;
 - (void);
 - (void);
 - (void);
@@ -34,9 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(readonly, nonatomic) NSMutableSet *inFlightSubscriptionRequests; // @synthesize inFlightSubscriptionRequests=_inFlightSubscriptionRequests;
-@property(readonly, nonatomic) NSMutableDictionary *perTeamIdConfigState; // @synthesize perTeamIdConfigState=_perTeamIdConfigState;
-@property(readonly, nonatomic) NSMutableDictionary *perTeamIdMonitors; // @synthesize perTeamIdMonitors=_perTeamIdMonitors;
 
 @end
 

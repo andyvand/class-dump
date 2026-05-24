@@ -6,19 +6,13 @@
 
 #import <MPSNeuralNetwork/MPSNNGradientState.h>
 
-@class MPSCNNLossLabels;
-
 @interface MPSNNLossGradientState : MPSNNGradientState
 {
     float _weight;
-    float _labelSmoothing;
-    float _epsilon;
-    float _delta;
-    MPSCNNLossLabels *_lossLabels;
 }
 
 + (id);
-- (void);
+- (void)# ;
 - (id);
 - (id);
 

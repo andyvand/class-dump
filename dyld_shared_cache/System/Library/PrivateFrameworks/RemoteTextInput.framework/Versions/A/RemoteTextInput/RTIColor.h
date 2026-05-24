@@ -7,18 +7,16 @@
 @interface RTIColor
 {
     unsigned int _type:8;
-    double _values[4];
-    struct CGColor *_cgColor;
 }
 
 + (id);
-+ (id);
++ (id)c;
 + (_Bool);
 + (id);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);

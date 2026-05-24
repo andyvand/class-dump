@@ -5,5 +5,6 @@
 //
 
 @protocol MPCQueueControllerBehavior
++ (_Bool);
 @end
 

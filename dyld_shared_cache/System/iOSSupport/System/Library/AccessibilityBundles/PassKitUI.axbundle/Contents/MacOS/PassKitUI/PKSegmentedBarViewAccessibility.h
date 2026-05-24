@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)_accessibilitySetRetainedValue:forKey: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (id);

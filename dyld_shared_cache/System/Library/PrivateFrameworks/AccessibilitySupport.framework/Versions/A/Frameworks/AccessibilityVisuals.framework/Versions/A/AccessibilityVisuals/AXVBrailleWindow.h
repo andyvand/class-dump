@@ -6,35 +6,11 @@
 
 #import <AccessibilityVisuals/AXVVoiceOverStyleWindow.h>
 
-@class AXVBrailleScrollView, AXVBrailleWord, AXVFlippedContentView, AXVView, NSArray, NSAttributedString, NSLayoutConstraint, NSMutableArray, NSString, NSTextView, NSWindow;
+@class NSAttributedString;
 
 @interface AXVBrailleWindow : AXVVoiceOverStyleWindow
 {
     _Bool __brailleDisplayingAnnouncement;
-    double _fontSize;
-    NSAttributedString *__brailleWithTransliteration;
-    long long __brailleCursorIndex;
-    long long __brailleStatusPosition;
-    NSString *__brailleStatus;
-    NSArray *__brailleBoldRanges;
-    NSArray *__brailleItalicRanges;
-    NSArray *__brailleUnderlineRanges;
-    long long __brailleCellWindowOffset;
-    NSMutableArray *__brailleHistoryStrings;
-    NSWindow *__brailleHistoryWindow;
-    NSTextView *__brailleHistoryTextView;
-    AXVFlippedContentView *__brailleContentView;
-    NSMutableArray *__brailleWords;
-    AXVBrailleWord *__brailleStatusCell;
-    AXVView *__brailleLeftStatusCellsView;
-    AXVView *__brailleRightStatusCellsView;
-    NSLayoutConstraint *__brailleLeftStatusCellsWidthConstraint;
-    NSLayoutConstraint *__brailleRightStatusCellsWidthConstraint;
-    AXVBrailleScrollView *__brailleScrollView;
-    NSMutableArray *__brailleWordViews;
-    long long __visibleBrailleWordViewCount;
-    double __widthOfWindowStackViewLeadingButton;
-    struct _NSRange __brailleCellRange;
 }
 
 - (void);
@@ -46,17 +22,21 @@
 - (double);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)Q;
 - (void);
 - (void);
+- (void)?%@qA;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)q@;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)?%@qa;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,17 +48,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
@@ -88,7 +64,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -99,13 +75,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)?%@qa;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)T;
 - (id);
 - (long long);
 - (struct _NSRange);
@@ -116,37 +92,13 @@
 - (id);
 - (void);
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
-- (struct CGSize)isualsAgentInterface;
+- (struct CGSize)AXVisualsAgentInterface;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *_brailleBoldRanges; // @synthesize _brailleBoldRanges=__brailleBoldRanges;
-@property(nonatomic, setter=_setBrailleCellRange:) struct _NSRange _brailleCellRange; // @synthesize _brailleCellRange=__brailleCellRange;
-@property(nonatomic, setter=_setBrailleCellWindowOffset:) long long _brailleCellWindowOffset; // @synthesize _brailleCellWindowOffset=__brailleCellWindowOffset;
-@property(retain, nonatomic, setter=_setBrailleContentView:) AXVFlippedContentView *_brailleContentView; // @synthesize _brailleContentView=__brailleContentView;
-@property(nonatomic, setter=_setBrailleCursorIndex:) long long _brailleCursorIndex; // @synthesize _brailleCursorIndex=__brailleCursorIndex;
-@property(nonatomic, setter=_setBrailleDisplayingAnnouncement:) _Bool _brailleDisplayingAnnouncement; // @synthesize _brailleDisplayingAnnouncement=__brailleDisplayingAnnouncement;
-@property(retain, nonatomic, setter=_setBrailleHistoryStrings:) NSMutableArray *_brailleHistoryStrings; // @synthesize _brailleHistoryStrings=__brailleHistoryStrings;
-@property(retain, nonatomic, setter=_setBrailleHistoryTextView:) NSTextView *_brailleHistoryTextView; // @synthesize _brailleHistoryTextView=__brailleHistoryTextView;
-@property(retain, nonatomic, setter=_setBrailleHistoryWindow:) NSWindow *_brailleHistoryWindow; // @synthesize _brailleHistoryWindow=__brailleHistoryWindow;
-@property(retain, nonatomic) NSArray *_brailleItalicRanges; // @synthesize _brailleItalicRanges=__brailleItalicRanges;
-@property(retain, nonatomic, setter=_setBrailleLeftStatusCellsView:) AXVView *_brailleLeftStatusCellsView; // @synthesize _brailleLeftStatusCellsView=__brailleLeftStatusCellsView;
-@property(retain, nonatomic, setter=_setBrailleLeftStatusCellsWidthConstraint:) NSLayoutConstraint *_brailleLeftStatusCellsWidthConstraint; // @synthesize _brailleLeftStatusCellsWidthConstraint=__brailleLeftStatusCellsWidthConstraint;
-@property(retain, nonatomic, setter=_setBrailleRightStatusCellsView:) AXVView *_brailleRightStatusCellsView; // @synthesize _brailleRightStatusCellsView=__brailleRightStatusCellsView;
-@property(retain, nonatomic, setter=_setBrailleRightStatusCellsWidthConstraint:) NSLayoutConstraint *_brailleRightStatusCellsWidthConstraint; // @synthesize _brailleRightStatusCellsWidthConstraint=__brailleRightStatusCellsWidthConstraint;
-@property(retain, nonatomic, setter=_setBrailleScrollView:) AXVBrailleScrollView *_brailleScrollView; // @synthesize _brailleScrollView=__brailleScrollView;
-@property(retain, nonatomic, setter=_setBrailleStatus:) NSString *_brailleStatus; // @synthesize _brailleStatus=__brailleStatus;
-@property(retain, nonatomic, setter=_setBrailleStatusCell:) AXVBrailleWord *_brailleStatusCell; // @synthesize _brailleStatusCell=__brailleStatusCell;
-@property(nonatomic, setter=_setBrailleStatusPosition:) long long _brailleStatusPosition; // @synthesize _brailleStatusPosition=__brailleStatusPosition;
-@property(retain, nonatomic) NSArray *_brailleUnderlineRanges; // @synthesize _brailleUnderlineRanges=__brailleUnderlineRanges;
 @property(retain, nonatomic, setter=_setBrailleWithTransliteration:) NSAttributedString *_brailleWithTransliteration; // @synthesize _brailleWithTransliteration=__brailleWithTransliteration;
-@property(retain, nonatomic, setter=_setBrailleWordViews:) NSMutableArray *_brailleWordViews; // @synthesize _brailleWordViews=__brailleWordViews;
-@property(retain, nonatomic, setter=_setBrailleWords:) NSMutableArray *_brailleWords; // @synthesize _brailleWords=__brailleWords;
-@property(nonatomic, setter=_setVisibleBrailleWordViewCount:) long long _visibleBrailleWordViewCount; // @synthesize _visibleBrailleWordViewCount=__visibleBrailleWordViewCount;
-@property(nonatomic, setter=_setWidthOfWindowStackViewLeadingButton:) double _widthOfWindowStackViewLeadingButton; // @synthesize _widthOfWindowStackViewLeadingButton=__widthOfWindowStackViewLeadingButton;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
 
 @end
 

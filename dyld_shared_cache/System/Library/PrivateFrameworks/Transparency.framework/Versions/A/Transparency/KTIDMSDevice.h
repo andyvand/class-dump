@@ -9,41 +9,29 @@
 @interface KTIDMSDevice
 {
     NSString *_deviceID;
-    NSString *_name;
-    NSString *_pushToken;
-    NSString *_model;
-    NSString *_osVersion;
-    NSString *_build;
-    NSString *_serial;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)exBufferCount is:(id)arg1 %d;
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)8@"NSString"16@?<v@?@"NSString">24;
+- (id);
+- (id);
+- (void);
 - (void);
+- (void)c;
 - (id);
-- (id);
+- (id)FU_uppercaseAttributedStringCurrentLocale: /* Error: Ran out of types for this method. */;
+- (id)ጹ;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)ˉ;
 
 // Remaining properties
-@property(retain) NSString *build; // @synthesize build=_build;
 @property(retain) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(retain) NSString *model; // @synthesize model=_model;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSString *osVersion; // @synthesize osVersion=_osVersion;
-@property(retain) NSString *pushToken; // @synthesize pushToken=_pushToken;
-@property(retain) NSString *serial; // @synthesize serial=_serial;
 
 @end
 

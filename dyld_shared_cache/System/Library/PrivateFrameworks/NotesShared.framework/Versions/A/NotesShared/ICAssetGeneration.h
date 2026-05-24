@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICAssetGeneration
 {
     unsigned long long _hash;
-    long long _number;
-    NSString *_identifier;
 }
 
+- (id)stringWithFileSystemRepresentation:length: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id)e;
 - (id);
 - (void)TÃ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) long long number; // @synthesize number=_number;
-@property(readonly, copy, nonatomic) NSString *rawValue;
 
 @end
 

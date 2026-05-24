@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DAFolder, NSArray;
+@class DAFolder;
 
 @interface DAFolderSyncRequest
 {
     _Bool _hasRemoteChanges;
-    _Bool _isInitialUberSync;
-    _Bool _isResyncAfterConnectionFailed;
-    _Bool _isResyncAfterServerError;
-    _Bool _containsPostponedActions;
-    DAFolder *_folder;
-    NSArray *_actions;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,21 +22,15 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)= %@, supportedStereoPairVersions = %@;
 - (void);
-- (id);
+- (id)8;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(nonatomic) _Bool containsPostponedActions; // @synthesize containsPostponedActions=_containsPostponedActions;
 @property(retain, nonatomic) DAFolder *folder; // @synthesize folder=_folder;
-@property(nonatomic) _Bool hasRemoteChanges; // @synthesize hasRemoteChanges=_hasRemoteChanges;
-@property(nonatomic) _Bool isInitialUberSync; // @synthesize isInitialUberSync=_isInitialUberSync;
-@property(nonatomic) _Bool isResyncAfterConnectionFailed; // @synthesize isResyncAfterConnectionFailed=_isResyncAfterConnectionFailed;
-@property(nonatomic) _Bool isResyncAfterServerError; // @synthesize isResyncAfterServerError=_isResyncAfterServerError;
 
 @end
 

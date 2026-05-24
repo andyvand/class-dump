@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CLMiLoPredictionDeviceDistanceIndication
 {
     NSString *_deviceIdentifier;
-    NSNumber *_uwbRange;
-    NSNumber *_bleRSSI;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)st    ;
 - (id);
-- (void);
-- (id);
+- (void)(;
+- (id)setFragmentAccelerationStructure:(struct _NSZone *)arg1 atBufferIndex: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *bleRSSI; // @synthesize bleRSSI=_bleRSSI;
 @property(readonly, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, nonatomic) NSNumber *uwbRange; // @synthesize uwbRange=_uwbRange;
 
 @end
 

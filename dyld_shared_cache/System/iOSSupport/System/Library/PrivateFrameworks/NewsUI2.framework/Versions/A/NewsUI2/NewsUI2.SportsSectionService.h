@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsSectionService
 {
     id tagService;
-    id tagFeedCurationService;
 }
 
 @end

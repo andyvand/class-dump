@@ -7,7 +7,7 @@
 @interface UnknownClass (SCRCIndexPathExtras)
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 @end
 

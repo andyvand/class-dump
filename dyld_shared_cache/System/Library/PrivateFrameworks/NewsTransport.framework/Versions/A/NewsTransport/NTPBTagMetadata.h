@@ -9,53 +9,39 @@
 @interface NTPBTagMetadata
 {
     NTPBContentAndRelevanceInfo *_contentAndRelevanceInfo;
-    float _flowRate;
-    int _ontologyLevel;
-    float _quality;
-    float _subscriptionRate;
-    CDStruct_c1a1871c _has;
 }
 
 - (id);
+- (void)URLIsPlayingVideo;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (unsigned long long)_updatePlaybackFilterInput;
+- (_Bool)IgnoreOnUpdate;
+- (_Bool)ing to acquire read token;
+- (id)h*@9;
 - (id);
 - (_Bool)@"NTPBEndOfArticleExposure";
-- (void)beClickValue;
-- (void):(float)arg1;
-- (_Bool)ex: /* Error: Ran out of types for this method. */;
-- (float)NotificationAlertsFrequency: /* Error: Ran out of types for this method. */;
-- (id)ifeMilliseconds: /* Error: Ran out of types for this method. */;
-- (float)ringOptions;
-- (float)tionConversionPointExposure;
-- (void)picDiversificationPenaltyHalfLife;
+- (void)subscribeClickValue;
+- (void)setSportsData:(float)arg1;
+- (_Bool)setHasTocNewIndex: /* Error: Ran out of types for this method. */;
+- (float)setHasNewFavoriteNotificationAlertsFrequency: /* Error: Ran out of types for this method. */;
+- (id)setFeedHalfLifeMilliseconds: /* Error: Ran out of types for this method. */;
+- (float)interSectionFilteringOptions;
+- (float)hasPaidSubscriptionConversionPointExposure;
+- (void)hasChannelTopicDiversificationPenaltyHalfLife;
 - (void)envelopes;
-- (int);
-- (void)lobalExpireUtcTime;
-- (void)igrisArticleScoring;
+- (int)_recordData;
+- (void)_globalExpireUtcTime;
+- (void)_enablePreTigrisArticleScoring;
 - (void)fficient;
 - (_Bool)rticles;
-- (void)ClickValue;
+- (void)videoInitiatePlaybackClickValue;
 - (_Bool)ray",&,N,V_publisherPaidFeldsparablePurchaseIDs;
 - (void)Ø;
-- (void)at16_full_body_encoding;
+- (void)float16_full_body_encoding;
 - (_Bool)B;0;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBContentAndRelevanceInfo *contentAndRelevanceInfo; // @synthesize contentAndRelevanceInfo=_contentAndRelevanceInfo;
-@property(nonatomic) float flowRate; // @synthesize flowRate=_flowRate;
-@property(readonly, nonatomic) _Bool hasContentAndRelevanceInfo;
 @property(nonatomic) _Bool hasFlowRate;
-@property(nonatomic) _Bool hasOntologyLevel;
-@property(nonatomic) _Bool hasQuality;
-@property(nonatomic) _Bool hasSubscriptionRate;
-@property(nonatomic) int ontologyLevel; // @synthesize ontologyLevel=_ontologyLevel;
-@property(nonatomic) float quality; // @synthesize quality=_quality;
-@property(nonatomic) float subscriptionRate; // @synthesize subscriptionRate=_subscriptionRate;
 
 @end
 

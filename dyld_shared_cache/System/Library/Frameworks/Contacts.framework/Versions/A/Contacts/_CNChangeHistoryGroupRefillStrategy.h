@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)is_FiletransferFtsms;
 - (id);
 - (id);
 - (id);
 - (void)!Dùñ*ð1Â0@ù
 × ;
-- (id)s;
+- (id)CNKeyPaths;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;

@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchTokenSpan, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchToken
 {
     PBDataReader *_reader;
-    NSMutableArray *_alternateForms;
-    NSString *_processedValue;
-    NSString *_rawValue;
-    GEOPDSearchTokenSpan *_tokenSpan;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _position;
-    struct {
-        unsigned int has_position:1;
-        unsigned int read_alternateForms:1;
-        unsigned int read_processedValue:1;
-        unsigned int read_rawValue:1;
-        unsigned int read_tokenSpan:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)tletKeyPath;
+- (id)enumeratorAtPath: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)qqa;
 - (_Bool);
 - (id);
 - (id)ad_evInfo"b1"read_evStateInfo"b1"read_exitNumber"b1"read_guidanceEvents"b1"read_instructionSet"b1"read_instructions"b1"read_maneuverNames"b1"read_notice"b1"read_roadDescriptions"b1"read_signposts"b1"read_stopWaypoint"b1"read_timeCheckpoints"b1"wrote_anyField"b1};
-- (id)lementAtIndex: /* Error: Ran out of types for this method. */;
+- (id)_removeElementAtIndex: /* Error: Ran out of types for this method. */;
 - (id)äu;
 - (void);
 

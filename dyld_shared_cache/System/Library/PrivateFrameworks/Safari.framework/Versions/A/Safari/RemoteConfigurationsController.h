@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL, NSURLSessionDataTask;
-@protocol OS_dispatch_queue, OS_dispatch_source, RemoteConfigurationsControllerDelegate;
+@class NSObject;
+@protocol OS_dispatch_source, RemoteConfigurationsControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface RemoteConfigurationsController
 {
     NSObject<OS_dispatch_source> *_downloadRemoteConfigurationTimer;
-    NSURLSessionDataTask *_downloadRemoteConfigurationTask;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_diskAccessQueue;
-    id <RemoteConfigurationsControllerDelegate> _delegate;
-    NSURL *_remoteConfigurationURL;
-    NSURL *_localConfigurationFileURL;
-    double _updateTimeInterval;
-    NSString *_lastDownloadedTimePreferenceKey;
 }
 
 + (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (id);
@@ -40,10 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <RemoteConfigurationsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *lastDownloadedTimePreferenceKey; // @synthesize lastDownloadedTimePreferenceKey=_lastDownloadedTimePreferenceKey;
-@property(readonly, nonatomic) NSURL *localConfigurationFileURL; // @synthesize localConfigurationFileURL=_localConfigurationFileURL;
-@property(readonly, nonatomic) NSURL *remoteConfigurationURL; // @synthesize remoteConfigurationURL=_remoteConfigurationURL;
-@property(readonly, nonatomic) double updateTimeInterval; // @synthesize updateTimeInterval=_updateTimeInterval;
 
 @end
 

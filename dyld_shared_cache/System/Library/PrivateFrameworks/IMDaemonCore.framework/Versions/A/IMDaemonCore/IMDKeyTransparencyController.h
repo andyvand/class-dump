@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface IMDKeyTransparencyController
 {
     id app;
-    id state;
 }
 
-+ (id);
++ (id)5;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)(;
 - (void). Starting translation... ;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool selfOptedIn;
-@property(nonatomic, readonly) NSDictionary *setupInfo;
 
 @end
 

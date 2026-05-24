@@ -10,7 +10,7 @@
 @protocol WKWebExtensionWindow
 
 @optional
-- (void)NetworkChangeNotification;
+- (void)_didReceiveNetworkChangeNotification;
 - (NSArray *);
 - (struct CGRect);
 - (struct CGRect)Ð-;

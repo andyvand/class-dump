@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PKApplyFooterContent
 {
     NSString *_footerText;
-    NSSet *_links;
 }
 
 + (_Bool)0@ù
 × ;
-- (id);
+- (id)@9;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)fr2DBRecommendation;
 - (void);
 - (id);
 - (id);
-- (id)s;
-- (void)NSTALLED_ALERT_TITLE;
+- (id)_installmentPlans;
+- (void)WALLET_UNINSTALLED_ALERT_TITLE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *footerText; // @synthesize footerText=_footerText;
-@property(copy, nonatomic) NSSet *links; // @synthesize links=_links;
 
 @end
 

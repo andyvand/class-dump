@@ -11,11 +11,11 @@
     struct _PKStrokeID _version;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (id);
-- (struct _PKStrokeID);
+- (struct _PKStrokeID)GAUSSIANQ;
 - (id);
-- (id);
+- (id)make an instance of TLAlert. Please make a copy of the TLAlertConfiguration instead.;
 - (unsigned long long);
 - (_Bool);
 - (void);

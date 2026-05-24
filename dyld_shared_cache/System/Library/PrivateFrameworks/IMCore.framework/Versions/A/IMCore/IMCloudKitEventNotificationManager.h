@@ -4,71 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitSyncProgress, IMCloudKitSyncState, IMEventNotificationManager, IMWeakReferenceCollection, NSTimer;
+@class IMWeakReferenceCollection;
 @protocol IMCloudKitEventHandlerAccountInfoProvider;
 
 @interface IMCloudKitEventNotificationManager
 {
     id <IMCloudKitEventHandlerAccountInfoProvider> _accountInfoProvider;
-    double _progressPollingInterval;
-    IMWeakReferenceCollection *_eventHandlers;
-    IMEventNotificationManager *_notificationManager;
-    NSTimer *_fetchStatsTimer;
-    IMCloudKitSyncState *_previousState;
-    IMCloudKitSyncProgress *_progressToSend;
 }
 
 + (void);
 + (id);
 + (id);
 + (id)ÄÿÿÿR;
+- (void)dStart (%p) didSucceed=%d, error=%@;
+- (id)p) Successfully loaded file at path=%@;
+- (void)idUpdateConfiguration (%p) configuration=%@, didSucceed=%{BOOL}d, error=%@;
+- (void)(%p) Session[%@] received callback for didUpdateConfig didSucceed=%{BOOL}d;
+- (void)ceTime video;
+- (void)%s] %s:(double)arg1 %d Handle optional control info failed with error %08X for FaceTime video;
+- (void)%s:(id)arg1 %d VideoConferenceDefaults:Found enableRxDecodeYUVDump but the value[%d] is invalid (should be 1 or 2) /* Error: Ran out of types for this method. */;
+- (void):(_Bool)arg1 %d packetThread=%p SendPacketsProc starting;
+- (void)e become negative! samples=%d sampleCount=%d
+;
+- (void)mples in the output buffer would have become negative! samples=%d sampleCount=%d
+;
+- (void)o player pointer is NULL;
+- (id)ePath=%@ error=%@;
+- (double)ssfully deleted filePath=%@;
+- (double)rated at [%@], after model download time [%@];
+- (void)argetEstimatorSynchronizer=%p;
+- (void)Receiver [%s] %s:(CDUnknownBlockType)arg1 %d Creating Audio Receiver with jbTargetEstimatorSynchronizer=%p;
+- (void)s:%d Failed to initialize the receiver thread /* Error: Ran out of types for this method. */;
+- (void)ver [%s] %s:(_Bool)arg1 %d Failed to allocate the audio receiver;
+- (void):%d Unknown transport stream type /* Error: Ran out of types for this method. */;
+- (void)sportStreams array;
+- (void)nsportStreams;
+- (void)ind. Buffer is full.;
+- (void)ideoClient-didReceiveFirstFrame;
+- (_Bool)en=%u;
+- (id)@(%p) superlayer bounds=%@;
+- (void)CNAT64ResolveNAT64Prefix:(id)arg1 Interface %s IS NOT behind NAT 64;
+- (_Bool):could not create a shared instance of NAT64Resolver /* Error: Ran out of types for this method. */;
+- (void)@(%p) Unregistering from video capture of type:(id)arg1 %d;
+- (void)ed to allocate config for type:(id)arg1 %d;
+- (void)it request;
+- (void)@ VCVirtualAVCaptureDevice-stopVirtualCapture [%p];
+- (void)VirtualAVCaptureDevice-stopVirtualCapture;
+- (void)ualAVCaptureDevice-startVirtualCapture [%p];
+- (void)-startVirtualCapture;
+- (void)%s] %s:%d Failed to allocate capture source /* Error: Ran out of types for this method. */;
+- (void)SSRCs are empty!;
+- (_Bool)oneToOneModeEnabled=%d;
+- (void)enerator;
+- (void)uniquePacketsNACKed=%lld packetsFulfilled=%lld packetsFulfilledOnTime=%lld averageResponseTime=%2.4fs maxAvgResponseTime=%2.4fs averageLateTime=%2.4fs maxAvgLateTime=%2.4fs mediaBitRate=%ukbps retransmittedMediaBitRate=%ukbps plrWithoutRTX=%3.2f%% plrWithRTX=%3.2f%% rtt=%2.3fs;
+- (id)create dispatch queue;
+- (void);
+- (void)C7;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)W%;
 - (void);
 - (id);
 - (id);
@@ -78,15 +74,7 @@
 - (id)ÿA4;
 
 // Remaining properties
-@property __weak id <IMCloudKitEventHandlerAccountInfoProvider> accountInfoProvider; // @synthesize accountInfoProvider=_accountInfoProvider;
-@property _Bool didPromptForCloudKitSync;
 @property(readonly) IMWeakReferenceCollection *eventHandlers; // @synthesize eventHandlers=_eventHandlers;
-@property __weak NSTimer *fetchStatsTimer; // @synthesize fetchStatsTimer=_fetchStatsTimer;
-@property(retain) IMEventNotificationManager *notificationManager; // @synthesize notificationManager=_notificationManager;
-@property(retain) IMCloudKitSyncState *previousState; // @synthesize previousState=_previousState;
-@property double progressPollingInterval; // @synthesize progressPollingInterval=_progressPollingInterval;
-@property(retain) IMCloudKitSyncProgress *progressToSend; // @synthesize progressToSend=_progressToSend;
-@property(readonly) IMCloudKitSyncState *syncState;
 
 @end
 

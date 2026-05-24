@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDHeadGestureProperties;
-
 @interface ODDSiriSchemaODDmacOSAssistantProperties : SISchemaInstrumentationMessage
 {
     _Bool _isExternalMicrophoneHSEnabled;
-    ODDSiriSchemaODDHeadGestureProperties *_headGestures;
-    struct {
-        unsigned int isExternalMicrophoneHSEnabled:1;
-    } _has;
-    _Bool _hasHeadGestures;
 }
 
 - (void);
@@ -38,15 +31,11 @@
 - (id)
 × ;
 - (id),N,V_nowPlayingAbsoluteCount10Min;
-- (id)argeIn;
+- (id)deleteIsBargeIn;
 - (void)orderedMessages.siriEventTypeUnion.rrClientEvent.rrUsoGraphTier1.usoGraphTier1.linkedUsoGraphNodeDatas.linkedUsoEntitySpans.alternatives.alternative;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeadGestures; // @synthesize hasHeadGestures=_hasHeadGestures;
-@property(nonatomic) _Bool hasIsExternalMicrophoneHSEnabled;
-@property(retain, nonatomic) ODDSiriSchemaODDHeadGestureProperties *headGestures; // @synthesize headGestures=_headGestures;
 @property(nonatomic) _Bool isExternalMicrophoneHSEnabled; // @synthesize isExternalMicrophoneHSEnabled=_isExternalMicrophoneHSEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

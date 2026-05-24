@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATGenerativeRequestEventEnded, GATSchemaGATGenerativeRequestEventFailed, GATSchemaGATGenerativeRequestEventStarted, NSData;
+@class GATSchemaGATGenerativeRequestEventStarted;
 
 @interface GATSchemaGATGenerativeRequestContext : SISchemaInstrumentationMessage
 {
     GATSchemaGATGenerativeRequestEventStarted *_startedOrChanged;
-    GATSchemaGATGenerativeRequestEventEnded *_ended;
-    GATSchemaGATGenerativeRequestEventFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContentevent;
 }
 
 - (unsigned long long);
@@ -31,16 +25,16 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)i;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)_isMediaAtTop;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)d";
 - (id)emonAudioRecordingLastBufferContext",&,N,V_assistantDaemonAudioRecordingLastBufferContext;
@@ -50,14 +44,7 @@
 - (void)Ùã®æ}$;
 
 // Remaining properties
-@property(retain, nonatomic) GATSchemaGATGenerativeRequestEventEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) GATSchemaGATGenerativeRequestEventFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GATSchemaGATGenerativeRequestEventStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContentevent; // @synthesize whichContentevent=_whichContentevent;
 
 @end
 

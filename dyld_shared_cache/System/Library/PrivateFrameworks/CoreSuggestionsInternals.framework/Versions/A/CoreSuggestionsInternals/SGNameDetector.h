@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGNameMappingTransformer, SGTokenizerMappingTransformer;
+@class SGTokenizerMappingTransformer;
 
 @interface SGNameDetector
 {
     SGTokenizerMappingTransformer *_noCoreNLPTokenizer;
-    SGTokenizerMappingTransformer *_coreNLPTokenizer;
-    NSString *_language;
-    SGNameMappingTransformer *_transformer;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)_performRequest:(unsigned long long)arg1 withHandler:(id)arg2;
++ (id)_passwordField;
++ (id)_accountTypeIdentifierForDataclass: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)q;
+- (id);
 - (id);
 - (id);
 - (id);

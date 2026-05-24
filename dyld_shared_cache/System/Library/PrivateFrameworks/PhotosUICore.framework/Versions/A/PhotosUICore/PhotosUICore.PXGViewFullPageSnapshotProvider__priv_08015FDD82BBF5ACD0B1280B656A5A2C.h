@@ -7,9 +7,6 @@
 @interface PhotosUICore.PXGViewFullPageSnapshotProvider__priv_08015FDD82BBF5ACD0B1280B656A5A2C
 {
     id view;
-    id $__lazy_storage_$_logger;
-    id uuid;
-    id temporaryDirectoryURL;
 }
 
 - (void);

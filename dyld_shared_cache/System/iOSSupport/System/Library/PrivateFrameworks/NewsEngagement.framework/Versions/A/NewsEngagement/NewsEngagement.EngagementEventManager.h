@@ -7,6 +7,7 @@
 @interface NewsEngagement.EngagementEventManager
 {
     id eventProviders;
+    id;
 }
 
 @end

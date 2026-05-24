@@ -15,48 +15,46 @@ __attribute__((visibility("hidden")))
         unsigned int _notifyContentControllerOfVisibleRowUpdates:1;
         unsigned int _reservedTableBinder:29;
     } _tableBinderFlags;
-    unsigned long long _numberOfDisplayedObjects;
-    id _modelObservingTracker;
 }
 
 + (id);
++ (_Bool)nse=%@, proxyURL=%@, request=%@, credentials=%@, handle=%p;
++ (id)kCFGetAddrInfoFailureKey;
++ (id);
++ (id)@;
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)@;
 - (Class);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)T;
 - (long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)2@0:(id)arg1 8Q16@?<v@?@"NSData">24;
+- (void)ecursiveLock";
+- (void)@56@64@72;
+- (void)b1b1b1}CCCCQICB};
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)with error %@, canceling auth;
+- (_Bool)t length check - expected:(id)arg1 %lld, received:(_Bool)arg2 %lld, received (uncompressed):%lld  /* Error: Ran out of types for this method. */;
+- (void));
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (void)NULL,        UNIQUE(domain, path, name, partition)        );;
+- (void)eResponsesSinceDate:dbConnection=%p DB=%@ Select for FS data failed:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (void)ROR:NSURLStorageURLCacheDB deleteResponsesSinceDate:dbConnection=%p DB=%@ Select for FS data failed:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (unsigned long long)Library/Cookies;
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)spotlightItemRecorderWithKnowledgeStore: /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

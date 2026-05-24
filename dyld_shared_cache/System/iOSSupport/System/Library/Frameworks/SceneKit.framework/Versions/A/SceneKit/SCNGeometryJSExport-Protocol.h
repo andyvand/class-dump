@@ -4,10 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SCNGeometryElement, SCNGeometrySource, SCNGeometryTessellator, SCNMaterial;
+@class CAAnimation, NSArray, NSString, SCNGeometryTessellator;
 
 @protocol SCNGeometryJSExport
++ (id)";
 + (id)ÿÿ	(;
+- (SCNGeometryTessellator *)џ;
+- (long long);
+- (void);
+- (NSArray *);
+- (NSArray *)toolPickerViewHeightConstraint;
+- (CAAnimation *)toolPickerView:(NSString *)arg1 widthForToolAtIndex:isCompactSize: /* Error: Ran out of types for this method. */;
+- (id)]3;
 - (void)1Â0@ù
 × ;
 - (id)cDepth0 = tc + vec2( -2., -2. ) * u_inversePixelSize * 0.25;
@@ -17,18 +25,6 @@
 };
 
 // Remaining properties
-@property(retain, nonatomic) SCNGeometryElement *edgeCreasesElement;
-@property(retain, nonatomic) SCNGeometrySource *edgeCreasesSource;
-@property(retain, nonatomic) SCNMaterial *firstMaterial;
-@property(readonly, nonatomic) long long geometryElementCount;
-@property(readonly, nonatomic) NSArray *geometryElements;
-@property(readonly, nonatomic) NSArray *geometrySourceChannels;
-@property(readonly, nonatomic) NSArray *geometrySources;
-@property(copy, nonatomic) NSArray *levelsOfDetail;
-@property(copy, nonatomic) NSArray *materials;
 @property(copy, nonatomic) NSString *name;
-@property(nonatomic) long long smoothingMode;
-@property(nonatomic) unsigned long long subdivisionLevel;
-@property(retain, nonatomic) SCNGeometryTessellator *tessellator;
 @end
 

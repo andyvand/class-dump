@@ -5,6 +5,7 @@
 //
 
 @protocol SNTestCaseRotate
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long rotateOrientation;

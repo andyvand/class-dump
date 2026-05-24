@@ -7,11 +7,6 @@
 @interface NewsFeed.FeedRecipeFactory
 {
     id accessProvider;
-    id imageShareAttributeProvider;
-    id subscriptionList;
-    id recipeFactory;
-    id featureAvailability;
-    id appConfigManager;
 }
 
 @end

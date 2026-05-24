@@ -6,22 +6,21 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSVisualEffectView;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface _NSScrollViewContentBackgroundView : NSView
 {
     NSColor *_backgroundColor;
-    NSVisualEffectView *_visualEffectView;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)s->config->verify_mode != SSL_VERIFY_NONE;
+- (void)t;
 - (void);
 - (id);
-- (void)rvicesMenuHandler;
+- (void)NSServicesMenuHandler;
 
 // Remaining properties
 @property(retain) NSColor *backgroundColor;

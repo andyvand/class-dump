@@ -5,5 +5,6 @@
 //
 
 @protocol NFNdefTagSessionCallbacks
+- (void)ACTION_VIEW_PHOTOS;
 @end
 

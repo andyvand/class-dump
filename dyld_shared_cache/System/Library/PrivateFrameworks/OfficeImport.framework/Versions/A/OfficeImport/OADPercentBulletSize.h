@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (float);
+- (float);
 - (unsigned long long);
 - (_Bool);
 

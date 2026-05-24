@@ -6,24 +6,16 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@class SXFeatures;
-@protocol SXAdIgnorableViewFactory, SXComponentActionHandler, SXComponentController, SXImageViewFactory, SXShareHandling, SXTextAttributionProviding, SXTextComponentLayoutHosting;
+@protocol SXImageViewFactory;
 
 @interface SXDataTableComponentViewFactory : SXComponentViewFactory
 {
     id <SXImageViewFactory> _imageViewFactory;
-    id <SXComponentActionHandler> _componentActionHandler;
-    id <SXTextComponentLayoutHosting> _textComponentLayoutHosting;
-    id <SXComponentController> _componentController;
-    id <SXAdIgnorableViewFactory> _adIgnorableViewFactory;
-    SXFeatures *_config;
-    id <SXTextAttributionProviding> _textAttributionProvider;
-    id <SXShareHandling> _shareHandler;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)m;
 - (id);
 - (id);
 - (id);
@@ -37,14 +29,7 @@
 - (void)tching";
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXAdIgnorableViewFactory> adIgnorableViewFactory; // @synthesize adIgnorableViewFactory=_adIgnorableViewFactory;
-@property(readonly, nonatomic) id <SXComponentActionHandler> componentActionHandler; // @synthesize componentActionHandler=_componentActionHandler;
-@property(readonly, nonatomic) __weak id <SXComponentController> componentController; // @synthesize componentController=_componentController;
-@property(retain, nonatomic) SXFeatures *config; // @synthesize config=_config;
 @property(readonly, nonatomic) id <SXImageViewFactory> imageViewFactory; // @synthesize imageViewFactory=_imageViewFactory;
-@property(readonly, nonatomic) id <SXShareHandling> shareHandler; // @synthesize shareHandler=_shareHandler;
-@property(readonly, nonatomic) id <SXTextAttributionProviding> textAttributionProvider; // @synthesize textAttributionProvider=_textAttributionProvider;
-@property(readonly, nonatomic) __weak id <SXTextComponentLayoutHosting> textComponentLayoutHosting; // @synthesize textComponentLayoutHosting=_textComponentLayoutHosting;
 
 @end
 

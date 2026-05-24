@@ -6,12 +6,9 @@
 
 #import <NaturalLanguage/NLTokenIDBasedLanguageModelSession.h>
 
-@class NLTokenizer;
-
 @interface NLLMLanguageModelSession : NLTokenIDBasedLanguageModelSession
 {
     void *_model;
-    NLTokenizer *_tokenizer;
 }
 
 - (float);
@@ -35,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`";
 - (id);
 - (void);
 

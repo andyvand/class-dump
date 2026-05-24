@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RSSSchemaRSSSiriVocabSyncDataDownloadEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Kq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeableAppResponse_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)date(IMDAttachmentRecordRef, CFStringRef, int64_t, int64_t, CFStringRef, CFStringRef, CFStringRef, CFStringRef, int64_t, Boolean, int64_t, CFDictionaryRef, Boolean, CFDictionaryRef, CFDictionaryRef, Boolean, int64_t, CFDataRef, CFStringRef, CFStringRef, int64_t, CFStringRef, CFStringRef, int64_t);
 - (id);
 - (id);
-- (id)iority;
+- (id)assistantDaemonAudioRecordingFailureInsufficientPriority;
 - (id)rPhoneCall7Day;
-- (_Bool)ported;
+- (_Bool)assetSetsReported;
 - (_Bool)terConfirmation.item.collection.values.primitive.app.bundleId;
 - (void)¦";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

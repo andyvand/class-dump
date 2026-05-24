@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UIDataSourceSnapshotter;
+@class _UIDataSourceSnapshotter;
 
 __attribute__((visibility("hidden")))
 @interface _UIDataSourceBatchUpdateMapHelper
 {
     _UIDataSourceSnapshotter *_initialSnapshot;
-    _UIDataSourceSnapshotter *_finalSnapshot;
-    NSArray *_updateItems;
-    struct _UIDataSourceUpdateMaps _updateMaps;
 }
 
-- (id);
-- (id);
+- (id)_relayService;
+- (id)_relayPushHandler;
+- (void)rror indicates device does not have keys to sync *****;
 - (void);
-- (void);
+- (long long)declarationRequiresNetworkTether;
 - (long long);
-- (long long);
+- (id);
 - (id);
-- (id);
-- (id)erredInputViewHeight;
+- (id)preferredInputViewHeight;
 - (long long)tionView internal inconsistency:(long long)arg1 expected reuse queue for view. Collection view:%@; view:%@; layout attributes:%@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (void)uÀ×\];

@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRAccountsListsPresenterCapability.RemindersInsertionPlan
 {
     id moveSubjects;
-    id shouldDisallow;
-    id hasSubjectExceedingMaximumNumberOfPinnedLists;
-    id insertionRequest;
-    id filteredMoveSubjects;
-    id $__lazy_storage_$_relativeInsertionPosition;
 }
 
 @end

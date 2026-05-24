@@ -10,7 +10,7 @@
 {
 }
 
-- (id)es;
+- (id)_solutionFrames;
 
 @end
 

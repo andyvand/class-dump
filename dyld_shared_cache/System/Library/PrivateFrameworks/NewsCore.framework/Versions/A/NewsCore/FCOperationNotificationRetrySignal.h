@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol NSObject, OS_dispatch_group;
+@class NSObject;
+@protocol OS_dispatch_group;
 
 @interface FCOperationNotificationRetrySignal
 {
     NSObject<OS_dispatch_group> *_group;
-    unsigned long long _timeoutTime;
-    id <NSObject> _notificationObserver;
-    NSString *_notificationName;
-    double _timeout;
 }
 
 - (id);
@@ -23,13 +19,7 @@
 - (void)gBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKRecordSchema.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

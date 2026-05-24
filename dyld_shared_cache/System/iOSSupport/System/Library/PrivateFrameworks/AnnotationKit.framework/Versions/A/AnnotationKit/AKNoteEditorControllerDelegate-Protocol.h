@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView, UIViewController;
+
 @protocol AKNoteEditorControllerDelegate
+- (struct CGRect)SRange=QQ}16^B32;
+- (UIView *)?0@"NSTextCheckingResult"8Q16^B24;
+- (UIViewController *)LPMetadataProductPluralTitle;
+- (void);
+- (_Bool);
 @end
 

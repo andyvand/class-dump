@@ -11,7 +11,6 @@
 @interface RBSOSServiceProcessIdentity : RBSProcessIdentity
 {
     NSString *_jobLabel;
-    unsigned char _type;
 }
 
 - (id);
@@ -21,21 +20,21 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)cT;
 - (id);
 - (id);
 - (unsigned char);
 - (id);
 - (id);
-- (void);
+- (void)Շ;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id)h;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)ublic}s/%{public}s;
 - (void);
 
 @end

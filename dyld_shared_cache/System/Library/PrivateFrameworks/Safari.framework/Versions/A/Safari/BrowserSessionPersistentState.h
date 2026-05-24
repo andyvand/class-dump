@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface BrowserSessionPersistentState
 {
     NSArray *_pinnedTabsStates;
-    NSArray *_privatePinnedTabsStates;
-    NSDictionary *_pinnedTabsStatesByProfileIdentifier;
-    NSArray *_windowStates;
 }
 
 - (void);
@@ -23,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void)ÿÿ6;
@@ -31,9 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *pinnedTabsStates; // @synthesize pinnedTabsStates=_pinnedTabsStates;
-@property(readonly, nonatomic) NSDictionary *pinnedTabsStatesByProfileIdentifier; // @synthesize pinnedTabsStatesByProfileIdentifier=_pinnedTabsStatesByProfileIdentifier;
-@property(readonly, nonatomic) NSArray *privatePinnedTabsStates; // @synthesize privatePinnedTabsStates=_privatePinnedTabsStates;
-@property(readonly, nonatomic) NSArray *windowStates; // @synthesize windowStates=_windowStates;
 
 @end
 

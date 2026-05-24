@@ -6,33 +6,22 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSArray, NSString;
-@protocol NURenderStatistics;
+@class NSArray;
 
 @interface _NUFaceDetectionResult : _NURenderResult
 {
     NSArray *_faces;
-    CDStruct_d58201db _imageSize;
 }
 
 - (CDStruct_912cb5d2);
 - (void);
 - (void)0@ù
 × ;
-- (id)ientOfVariation;
-- (void)thumbnail:(id)arg1 toBuffer:intensity:error: /* Error: Ran out of types for this method. */;
+- (id)coefficientOfVariation;
+- (void)applyStyle:(id)arg1 thumbnail:toBuffer:intensity:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSArray *faces; // @synthesize faces=_faces;
-@property(readonly) unsigned long long hash;
-@property CDStruct_912cb5d2 imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

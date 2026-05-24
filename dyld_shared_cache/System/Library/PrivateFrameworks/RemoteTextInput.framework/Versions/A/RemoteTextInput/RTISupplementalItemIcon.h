@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface RTISupplementalItemIcon
 {
     NSString *_dataType;
-    NSData *_data;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)Zg;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) NSString *dataType; // @synthesize dataType=_dataType;
 
 @end

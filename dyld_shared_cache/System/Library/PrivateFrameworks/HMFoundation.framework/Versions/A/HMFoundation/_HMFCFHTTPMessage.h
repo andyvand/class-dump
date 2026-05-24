@@ -6,8 +6,6 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSData, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _HMFCFHTTPMessage : HMFObject
 {
@@ -20,22 +18,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)user:(id)arg1 didUpdateNeedsiTunesMultiUserRepair: /* Error: Ran out of types for this method. */;
+- (void)setFetchShareParticipantsCompletionBlock:(long long)arg1;
 - (long long);
 - (struct __CFHTTPMessage *);
 - (id);
 - (void);
-- (id)ass:fromPolicies:error: /* Error: Ran out of types for this method. */;
+- (id)requiredPolicyOfClass:fromPolicies:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *body;
-@property(readonly, nonatomic) NSDictionary *headerFields;
 @property(readonly, nonatomic) struct __CFHTTPMessage *message; // @synthesize message=_message;
 
 @end

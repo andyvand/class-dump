@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRExternalDevice, NSObject, NSString;
-@protocol MRLegacyControllerDelegate, OS_dispatch_queue;
+@class NSString;
+@protocol MRLegacyControllerDelegate;
 
 @interface MRLegacyController
 {
     id <MRLegacyControllerDelegate> _delegate;
-    NSString *_outputDeviceUID;
-    MRExternalDevice *_externalDevice;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -22,40 +19,31 @@
 - (void);
 - (void);
 - (id);
+- (id);
+- (void)P;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)setBatteryImage: /* Error: Ran out of types for this method. */;
+- (void)setUseStandalone:(id)arg1;
+- (id)generativePlaygroundModelsAvailable;
+- (void)smsfp;
+- (void);
+- (id)}
+;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)context: /* Error: Ran out of types for this method. */;
-- (void)rtedPlaybackSessionTypes;
+- (void)service:account:didReceiveLocalNetworkHandshake:fromID:context: /* Error: Ran out of types for this method. */;
+- (void)supportedPlaybackSessionTypes;
 - (void)object passed to %s;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MRLegacyControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MRExternalDevice *externalDevice; // @synthesize externalDevice=_externalDevice;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,22 +7,10 @@
 @interface CUIRenditionMetrics
 {
     struct CGSize _imageSize;
-    struct CGSize _defaultImageSize;
-    struct CGSize _edgeBottomLeftMargin;
-    struct CGSize _edgeTopRightMargin;
-    struct CGSize _contentBottomLeftMargin;
-    struct CGSize _contentTopRightMargin;
-    double _baseline;
-    struct CGSize _auxiliary1BottomLeftMargin;
-    struct CGSize _auxiliary1TopRightMargin;
-    struct CGSize _auxiliary2BottomLeftMargin;
-    struct CGSize _auxiliary2TopRightMargin;
-    double _scale;
-    struct crmFlags _crmFlags;
 }
 
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize);
 - (double);
 - (struct CGSize);
 - (_Bool);
@@ -30,19 +18,19 @@
 - (struct CGRect);
 - (struct CGSize);
 - (double);
-- (struct CGSize);
+- (struct CGSize)t keys;
 - (id);
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)kCVPixelFormatType_Lossy75_420YpCbCr10PackedBiPlanarFullRange;
 - (id);
 - (struct CGRect);
-- (struct CGSize);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGSize);
-- (_Bool);
+- (struct CGSize)pple.LSSharedFileList.FavoriteVolumes.ShowNetworkVolumes;
+- (struct CGRect)ation was denied because the current credentials do not have the appropriate privileges.;
+- (struct CGRect)ervice might steal key focus;
+- (struct CGSize)lass]];
+- (_Bool)C;
 
 @end
 

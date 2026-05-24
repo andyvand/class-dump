@@ -6,25 +6,20 @@
 
 #import <authinstall/AppleTypeCRetimerRestoreInfoHelperOS.h>
 
-@class NSArray, NSData, NSDictionary;
+@class NSData, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AppleTypeCRetimerFirmwareAggregateRequestCreatorOS : AppleTypeCRetimerRestoreInfoHelperOS
 {
     NSData *_rkosData;
-    NSData *_rrkoData;
-    NSData *_cphyData;
-    NSArray *_deviceInfoArray;
-    NSDictionary *_apParameters;
-    NSDictionary *_requestDictionary;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (_Bool)_queryEvaluator;
+- (id)_propertyMapper;
+- (_Bool)eBracketIDHash",R,N,V_messageID;
+- (id)_postChangeNotificationForConversationID:(id)arg1 flags:oldFlags:reason: /* Error: Ran out of types for this method. */;
+- (id)ldn't find FIV index,%u;
+- (void)6;
 
 // Remaining properties
 @property(readonly) NSDictionary *requestDictionary; // @synthesize requestDictionary=_requestDictionary;

@@ -9,8 +9,6 @@
 @interface WFWeatherEventsConfig
 {
     WFWeatherEventConfig *_changeInConditions;
-    WFWeatherEventConfig *_nextHourPrecipitation;
-    WFWeatherEventConfig *_severeWeather;
 }
 
 - (id);
@@ -21,12 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFWeatherEventConfig *changeInConditions; // @synthesize changeInConditions=_changeInConditions;
-@property(retain, nonatomic) WFWeatherEventConfig *nextHourPrecipitation; // @synthesize nextHourPrecipitation=_nextHourPrecipitation;
-@property(retain, nonatomic) WFWeatherEventConfig *severeWeather; // @synthesize severeWeather=_severeWeather;
 
 @end
 

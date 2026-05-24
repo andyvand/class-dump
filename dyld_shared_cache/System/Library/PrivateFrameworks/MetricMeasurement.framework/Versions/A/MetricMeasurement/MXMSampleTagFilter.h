@@ -6,18 +6,15 @@
 
 #import <MetricMeasurement/MXMSampleTag.h>
 
-@class NSSet;
-
 @interface MXMSampleTagFilter : MXMSampleTag
 {
     _Bool _allowDescendents;
-    NSSet *_tagPermutations;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -28,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool finite;
-@property(readonly, nonatomic, getter=finite) _Bool isFinite;
-@property(copy, nonatomic) NSSet *tagPermutations; // @synthesize tagPermutations=_tagPermutations;
 
 @end
 

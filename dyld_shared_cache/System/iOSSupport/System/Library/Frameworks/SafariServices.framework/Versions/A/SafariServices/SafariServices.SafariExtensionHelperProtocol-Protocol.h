@@ -5,5 +5,6 @@
 //
 
 @protocol SafariServices.SafariExtensionHelperProtocol
+- (void);
 @end
 

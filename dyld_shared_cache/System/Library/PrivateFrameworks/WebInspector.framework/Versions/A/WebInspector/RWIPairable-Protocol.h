@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <RWIPairableDelegate> pairingDelegate;
-@property(readonly, nonatomic) long long pairingState;
 @end
 

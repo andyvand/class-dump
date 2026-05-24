@@ -6,8 +6,6 @@
 
 #import <UIKitCore/_UIFeedback.h>
 
-@class NSString;
-
 @interface _UIContinuousFeedback : _UIFeedback
 {
     double _duration;
@@ -17,32 +15,23 @@
 + (id);
 + (id)numeratedKeyboardShortcut"8^B16;
 + (_Bool)in order to be focusable.;
-- (void);
-- (double);
+- (void)atIdentifier:(double)arg1 %@;
+- (double)nil;
 - (id);
 - (unsigned long long);
 - (double);
-- (void);
+- (void)_userQueueModificationsDisabled;
 - (id);
 - (id);
 - (long long)!LFùqdÐ1Â0@ù
 × ;
-- (_Bool)ActionWithInitialPoint:(id)arg1;
+- (_Bool)setupDelayedLoupeActionWithInitialPoint:(id)arg1;
 - (id)IndicatorStore",&,N,V_indicatorStore;
-- (void)rfaceActionConcreteVisualStyle_iOSMacSheet;
+- (void)UIInterfaceActionConcreteVisualStyle_iOSMacSheet;
 - (id)°a;
-- (id)teCommit;
+- (id)_UILegacyPreviewInteractionStateCommit;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly) Class superclass;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

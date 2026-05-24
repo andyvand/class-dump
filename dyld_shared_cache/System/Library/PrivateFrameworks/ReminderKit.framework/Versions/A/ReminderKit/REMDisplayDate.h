@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimeZone;
+@class NSDate;
 
 @interface REMDisplayDate
 {
     _Bool _allDay;
-    NSDate *_date;
-    NSTimeZone *_timeZone;
-    long long _floatingDateSecondsFromGMT;
 }
 
 + (_Bool);
@@ -28,17 +25,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)@,;
 - (void)ëÐ!pBùs °1Â0@ù
 × ;
-- (_Bool)etEnableGroceryFeedbackSurvey: /* Error: Ran out of types for this method. */;
+- (_Bool)setEnableGroceryFeedbackSurvey: /* Error: Ran out of types for this method. */;
 - (id)|ðÿG;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAllDay) _Bool allDay; // @synthesize allDay=_allDay;
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) long long floatingDateSecondsFromGMT; // @synthesize floatingDateSecondsFromGMT=_floatingDateSecondsFromGMT;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

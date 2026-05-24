@@ -8,12 +8,12 @@
 {
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)8Ty:TSgGGACyFTGGoUTG /* Error: Ran out of types for this method. */;
 
 @end

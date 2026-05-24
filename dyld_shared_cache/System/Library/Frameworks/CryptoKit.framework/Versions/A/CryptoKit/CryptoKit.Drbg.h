@@ -7,9 +7,6 @@
 @interface CryptoKit.Drbg
 {
     id state;
-    id custom;
-    id drbgInfo;
-    id drbgCtx;
 }
 
 @end

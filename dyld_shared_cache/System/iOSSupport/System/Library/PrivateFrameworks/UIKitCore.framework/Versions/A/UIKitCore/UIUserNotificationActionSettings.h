@@ -13,21 +13,21 @@
 }
 
 + (_Bool)SplitViewControllerAdaptiveImpl _dismantleViewControllerInColumn:layout:] /* Error: Ran out of types for this method. */;
+- (id)setHfsType: /* Error: Ran out of types for this method. */;
+- (void)nessThread;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)ng exit record, exiting early;
+- (id)isSyncingEnabled %@ didRestore %@ accountsMatch %@ hasEnabled %@, MiC was enabled before uninstalling %@;
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long))A;
 - (id);
 - (id)0@ù
 × ;
-- (_Bool)ntentViewMaxHeightConstraint:(id)arg1;
-- (void);
-- (id)shotTextEffectsAfterRotation;
+- (_Bool)setContentViewMaxHeightConstraint:(id)arg1;
+- (void)isInteractiveSelectionDisabled;
+- (id)_snapshotTextEffectsAfterRotation;
 - (id)ceneTraitSource>",W,N,V_source;
 - (void)[presentationSourceRepresentationView]|;
 - (void);

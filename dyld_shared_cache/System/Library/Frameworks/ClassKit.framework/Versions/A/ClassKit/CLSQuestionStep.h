@@ -6,53 +6,40 @@
 
 #import <ClassKit/CLSSurveyStep.h>
 
-@class CLSAnswerFormat, NSArray, NSString;
+@class NSString;
 
 @interface CLSQuestionStep : CLSSurveyStep
 {
     NSString *_questionText;
-    long long _displayOrder;
-    long long _questionType;
-    NSArray *assets;
 }
 
-+ (id);
-+ (_Bool);
++ (id)d;
++ (_Bool)_delegate_presentAccountPrivacyOptInForAccount:userActionCompletion: /* Error: Ran out of types for this method. */;
+- (void)eFoundation;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
+- (void)OR:(id)arg1 ANEDeviceController array is empty;
+- (id)fProcedures %u more than maxProcedures:(id)arg1 %u
+;
+- (_Bool)ANEServicesDeviceUpdateParameters;
+- (id)rmware/ane;
 - (void);
-- (id);
-- (_Bool);
-- (id);
 - (void);
-- (void);
+- (long long)sh_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)K%;
 - (id);
 - (id);
-- (void);
+- (void)c;
 
 // Remaining properties
-@property(retain, nonatomic) CLSAnswerFormat *answerFormat;
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayOrder;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *questionText;
-@property(nonatomic) long long questionType;
-@property(readonly) Class superclass;
 
 @end
 

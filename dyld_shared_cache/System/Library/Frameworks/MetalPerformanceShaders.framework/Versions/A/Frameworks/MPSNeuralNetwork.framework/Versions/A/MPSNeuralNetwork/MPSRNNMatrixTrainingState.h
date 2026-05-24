@@ -9,12 +9,12 @@
 @interface MPSRNNMatrixTrainingState
 {
     MPSMatrix *singleGateZ;
-    _Bool _isTemporary;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)d=%ld][CSTopHitRanking] processing - current batch has %lu items (%ld items are L1 topHit candidates, %ld items are L2 topHit candidates)
+;
 - (_Bool);
 
 @end

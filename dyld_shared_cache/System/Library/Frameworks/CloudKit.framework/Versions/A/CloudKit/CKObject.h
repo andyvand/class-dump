@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKObjCClass, NSString;
+@class CKObjCClass;
 
 @interface CKObject
 {
@@ -13,19 +13,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)v32@0:8@"<MLPredictionRequest>"16@?<v@?@"<MLFeatureProvider>"@"NSError">24 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CKObjCClass *objcClass;
-@property(readonly) Class superclass;
 
 @end
 

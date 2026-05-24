@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICCompatibilityControllerDevice
 {
     long long _notesVersion;
-    long long _maximumNotesVersion;
-    NSString *_name;
 }
 
-+ (long long);
++ (long long);
 + (long long);
 + (_Bool);
 - (void);
-- (void);
+- (void)s;
 - (long long);
 - (long long);
 - (_Bool);
@@ -29,16 +25,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)stringByAppendingPathExtension:(id)arg1;
 - (void);
 - (void)ÄOüO0QST;
 
 // Remaining properties
-@property(nonatomic) long long maximumNotesVersion; // @synthesize maximumNotesVersion=_maximumNotesVersion;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) long long notesVersion; // @synthesize notesVersion=_notesVersion;
-@property(readonly, nonatomic, getter=isUpgradable) _Bool upgradable;
-@property(readonly, nonatomic, getter=isUpgraded) _Bool upgraded;
 
 @end
 

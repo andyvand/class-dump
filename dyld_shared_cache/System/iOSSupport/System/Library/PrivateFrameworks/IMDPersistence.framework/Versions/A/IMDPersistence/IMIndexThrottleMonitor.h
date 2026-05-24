@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSObject;
-@protocol IMIndexThrottleStorage, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface IMIndexThrottleMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSNumber *_lastState;
-    CDUnknownBlockType _changeHandler;
-    id <IMIndexThrottleStorage> _storage;
 }
 
 - (id);
@@ -20,12 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)Є;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -39,15 +36,7 @@
 - (void)c         INNER JOIN chat_message_join j ON c.ROWID = j.chat_id         WHERE           j.message_id = OLD.message_id       )       WHERE         message.ROWID = OLD.message_id;  DELETE FROM message WHERE message.ROWID = OLD.message_id AND OLD.message_id NOT IN (SELECT chat_message_join.message_id from chat_message_join WHERE chat_message_join.message_id = OLD.message_id LIMIT 1) AND OLD.message_id NOT IN (SELECT chat_recoverable_message_join.message_id from chat_recoverable_message_join WHERE chat_recoverable_message_join.message_id = OLD.message_id LIMIT 1); END;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler=_changeHandler;
-@property(readonly, nonatomic) NSDate *dateOfThrottlingCompletion;
-@property(retain, nonatomic) NSDictionary *historicalThrottles;
-@property(readonly, nonatomic) _Bool isThrottled;
-@property(retain, nonatomic) NSNumber *lastState; // @synthesize lastState=_lastState;
-@property(nonatomic) long long lastThrottleState;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) id <IMIndexThrottleStorage> storage; // @synthesize storage=_storage;
-@property(retain, nonatomic) NSDictionary *throttles;
 
 @end
 

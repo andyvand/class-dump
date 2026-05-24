@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APPCAdPolicyData, APPCTapAction, NSString, NSUUID;
+@class NSString;
 
 @interface APPCContentRepresentation
 {
     void identifier;
-    void id;
-    long long adType;
-    long long desiredPosition;
-    long long privacyMarkerPosition;
-    long long privacyMarkerType;
-    struct CGSize adSize;
-    APPCTapAction *tapAction;
-    APPCAdPolicyData *adPolicyData;
 }
 
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (long long);
 - (long long);
@@ -33,15 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) APPCAdPolicyData *adPolicyData; // @synthesize adPolicyData;
-@property(nonatomic, readonly) struct CGSize adSize; // @synthesize adSize;
-@property(nonatomic, readonly) long long adType; // @synthesize adType;
-@property(nonatomic, readonly) long long desiredPosition; // @synthesize desiredPosition;
-@property(nonatomic, readonly) NSUUID *id;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) long long privacyMarkerPosition; // @synthesize privacyMarkerPosition;
-@property(nonatomic, readonly) long long privacyMarkerType; // @synthesize privacyMarkerType;
-@property(nonatomic, readonly) APPCTapAction *tapAction; // @synthesize tapAction;
 
 @end
 

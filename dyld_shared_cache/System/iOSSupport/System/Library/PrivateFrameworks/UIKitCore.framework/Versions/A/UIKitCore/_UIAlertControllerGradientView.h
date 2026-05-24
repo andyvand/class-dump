@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
-- (void);
++ (Class)_loadDataSource:forSection:completion: /* Error: Ran out of types for this method. */;
+- (void)handler:(id)arg1 incomingEnrollMeRequest:toIdentifier:fromIdentifier:fromToken:messageGUID:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
 
 @end
 

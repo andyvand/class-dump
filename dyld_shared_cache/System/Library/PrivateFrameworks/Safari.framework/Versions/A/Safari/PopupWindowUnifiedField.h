@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)D;
 - (long long);
 - (id);
 - (double);
@@ -32,12 +32,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void)ListCSg;
+- (void)So21SafariWebBookmarkListCSg;
 
 // Remaining properties
 @property(nonatomic) long long lockdownModeStatus; // @synthesize lockdownModeStatus=_lockdownModeStatus;

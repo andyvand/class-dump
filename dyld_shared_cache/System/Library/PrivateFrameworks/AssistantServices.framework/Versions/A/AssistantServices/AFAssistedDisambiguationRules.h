@@ -17,11 +17,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double decisionAge;
 @property(readonly, nonatomic) unsigned long long decisionDepth;
-@property(readonly, nonatomic) double decisionThreshold;
-@property(readonly, nonatomic) double maxPersistenceAge;
-@property(readonly, nonatomic) unsigned long long maxPersistenceDepth;
 
 @end
 

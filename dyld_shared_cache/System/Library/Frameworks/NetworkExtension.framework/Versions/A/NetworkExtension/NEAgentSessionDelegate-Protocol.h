@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSXPCInterface;
+@class NSArray;
 
 @protocol NEAgentSessionDelegate
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCInterface *driverInterface;
-@property(readonly, nonatomic) NSXPCInterface *managerInterface;
 @property(readonly, nonatomic) NSArray *uuids;
 @end
 

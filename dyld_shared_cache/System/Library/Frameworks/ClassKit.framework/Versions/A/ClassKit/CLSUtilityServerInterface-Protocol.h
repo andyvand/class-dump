@@ -5,5 +5,23 @@
 //
 
 @protocol CLSUtilityServerInterface
+- (oneway void);
+- (oneway void);
+- (oneway void));
+- (oneway void)ibswift_Builtin_float.dylib;
+- (oneway void)/usr/lib/swift/libswiftXPC.dylib;
+- (oneway void)lytics.framework/Versions/A/CoreAnalytics;
+- (oneway void)ns/C/Foundation;
+- (oneway void)System/Library/Frameworks/Security.framework/Versions/A/Security;
+- (oneway void)ersions/A/InternationalTextSearch;
+- (oneway void)s/InternationalTextSearch.framework/Versions/A/InternationalTextSearch;
+- (oneway void)p;
+- (oneway void)rary/PrivateFrameworks/MobileAsset.framework/Versions/A/MobileAsset;
+- (oneway void)ramework/Versions/A/ProactiveSupport;
+- (oneway void)__LINKEDIT;
+- (oneway void);
+- (oneway void)__AUTH_CONST;
+- (oneway void)d size does not match the extraction type.;
+- (oneway void)e init info structure;
 @end
 

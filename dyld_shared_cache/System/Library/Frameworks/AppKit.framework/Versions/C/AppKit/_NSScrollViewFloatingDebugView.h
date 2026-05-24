@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     NSColor *_debugColor;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
+- (void)nnection client!;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ssl_send_tls12_certificate;
+- (void)rMark;
 - (id)on"16@"NSUserActivity"24;
 
 @end

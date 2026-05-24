@@ -6,21 +6,20 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class CKDeviceToDeviceShareInvitationToken, CKRecordID, HAPPairingIdentity, HMDAccountHandle, HMDAccountIdentifier, MKFUserDatabaseID, NSArray, NSData, NSDate, NSDictionary, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFHome, MKFOutgoingInvitation, MKFUserAccessCode;
+@class HMDAccountHandle;
 
 __attribute__((visibility("hidden")))
 @interface _MKFUser : _MKFModel
 {
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (Class);
 + (id);
 + (id);
@@ -31,10 +30,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -65,39 +64,39 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)containsHandle:(id)arg1;
+- (id)geController",&,N,V_storageController;
+- (id)Region",R,C,N;
+- (id)int;
+- (id)"CNLabeledValue",&,N,V_labeledValue;
+- (id)",W,N,V_delegate;
+- (id)service:(id)arg1 account:didReceiveLocalNetworkHandshake:fromID:context: /* Error: Ran out of types for this method. */;
+- (id)eredSet",R,N;
+- (id)removeObserver:(id)arg1;
+- (id)C,N,V_engineType;
+- (id)Capabilities;
+- (id)ry",&,N,V_capabilitiesByParticipant;
+- (id)objectInEditableObjectsAtIndex:(id)arg1;
+- (id)Array",&,N,V_messagesIdentifiers;
+- (id)fetchSharedTripsWithCompletion:(id)arg1;
+- (id)NSSecureCoding;
+- (id)blic}@] containsIdentifiers? %@ :(id)arg1 %@;
 - (id);
+- (id)participants, but state doesn't have routeInfo;
+- (id)g all tokens for %{private}@;
+- (id)ist;
+- (id)ess;
+- (id)s is not installed;
+- (id)SharedTripService sharedTripInvalidatedWithError:(id)arg1 ];
+- (id)StartSharingWithIdentifier:(id)arg1 ];
+- (id)ble:(id)arg1 ];
+- (id)PSharedTripService routeDidUpdateForSharedTrip:(id)arg1 ];
+- (id)dTrip:(id)arg1 ];
+- (id)"NSMutableSet"16^B24;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -108,11 +107,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)9;
 - (id);
 - (id);
-- (id);
+- (id)0;
 - (void);
 - (void);
 - (_Bool);
@@ -121,117 +120,7 @@ __attribute__((visibility("hidden")))
 - (id)roup with identifier:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFUserAccessCode> accessCode; // @dynamic accessCode;
-@property(readonly, retain, nonatomic) NSArray *accessoriesWithListeningHistoryEnabled;
-@property(retain, nonatomic) NSSet *accessoriesWithListeningHistoryEnabled_; // @dynamic accessoriesWithListeningHistoryEnabled_;
-@property(readonly, retain, nonatomic) NSArray *accessoriesWithMediaContentProfileEnabled;
-@property(retain, nonatomic) NSSet *accessoriesWithMediaContentProfileEnabled_; // @dynamic accessoriesWithMediaContentProfileEnabled_;
-@property(readonly, retain, nonatomic) NSArray *accessoriesWithPersonalRequestsEnabled;
-@property(retain, nonatomic) NSSet *accessoriesWithPersonalRequestsEnabled_; // @dynamic accessoriesWithPersonalRequestsEnabled_;
 @property(retain, nonatomic) HMDAccountHandle *accountHandle; // @dynamic accountHandle;
-@property(retain, nonatomic) HMDAccountIdentifier *accountIdentifier; // @dynamic accountIdentifier;
-@property(copy, nonatomic) NSNumber *activityNotificationsEnabledForPersonalRequests; // @dynamic activityNotificationsEnabledForPersonalRequests;
-@property(copy, nonatomic) NSNumber *adaptiveTemperatureAutomationsDisclosureStatus; // @dynamic adaptiveTemperatureAutomationsDisclosureStatus;
-@property(copy, nonatomic) NSNumber *allowExplicitContent; // @dynamic allowExplicitContent;
-@property(readonly, retain, nonatomic) NSArray *allowedAccessories;
-@property(copy, nonatomic) NSNumber *allowiTunesAccount; // @dynamic allowiTunesAccount;
-@property(copy, nonatomic) NSNumber *analysisAccessSelection; // @dynamic analysisAccessSelection;
-@property(copy, nonatomic) NSNumber *announceAccessLevel; // @dynamic announceAccessLevel;
-@property(readonly, retain, nonatomic) NSArray *bulletinConditions;
-@property(retain, nonatomic) NSSet *bulletinConditions_; // @dynamic bulletinConditions_;
-@property(readonly, retain, nonatomic) NSArray *bulletinRegistrations;
-@property(retain, nonatomic) NSSet *bulletinRegistrations_; // @dynamic bulletinRegistrations_;
-@property(copy, nonatomic) NSNumber *camerasAccessLevel; // @dynamic camerasAccessLevel;
-@property(copy, nonatomic) NSString *changeTag; // @dynamic changeTag;
-@property(copy, nonatomic) NSNumber *crossfadeDuration; // @dynamic crossfadeDuration;
-@property(copy, nonatomic) NSNumber *crossfadeEnabled; // @dynamic crossfadeEnabled;
-@property(readonly, copy, nonatomic) MKFUserDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *dolbyAtmosEnabled; // @dynamic dolbyAtmosEnabled;
-@property(readonly, retain, nonatomic) NSArray *faceprintsFromPhotos;
-@property(retain, nonatomic) NSSet *faceprintsFromPhotos_; // @dynamic faceprintsFromPhotos_;
-@property(copy, nonatomic) NSString *firstName; // @dynamic firstName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(copy, nonatomic) NSString *iCloudAltDSID; // @dynamic iCloudAltDSID;
-@property(copy, nonatomic) NSString *idsMergeIdentifier; // @dynamic idsMergeIdentifier;
-@property(retain, nonatomic) id <MKFOutgoingInvitation> invitation; // @dynamic invitation;
-@property(readonly) _Bool isOwner;
-@property(readonly) _Bool isOwnerOrAdmin;
-@property(readonly) _Bool isResidentSyncParticipant;
-@property(readonly) _Bool isRestrictedGuest;
-@property(copy, nonatomic) NSDate *lastLocalActivityTimeStamp; // @dynamic lastLocalActivityTimeStamp;
-@property(copy, nonatomic) NSString *lastName; // @dynamic lastName;
-@property(readonly, retain, nonatomic) NSArray *locationEvents;
-@property(retain, nonatomic) NSSet *locationEvents_; // @dynamic locationEvents_;
-@property(copy, nonatomic) NSNumber *losslessMusicEnabled; // @dynamic losslessMusicEnabled;
-@property(retain, nonatomic) NSData *matCredIPKExternalRepresentation; // @dynamic matCredIPKExternalRepresentation;
-@property(copy, nonatomic) NSNumber *matterCASEAuthenticatedTagID; // @dynamic matterCASEAuthenticatedTagID;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSNumber *musicTransitionStyle; // @dynamic musicTransitionStyle;
-@property(readonly, retain, nonatomic) NSArray *notificationRegistrations;
-@property(retain, nonatomic) NSSet *notificationRegistrations_; // @dynamic notificationRegistrations_;
-@property(readonly, retain, nonatomic) id <MKFHome> ownedHome; // @dynamic ownedHome;
-@property(copy, nonatomic) NSNumber *ownerAddSceneButtonPresentedCount; // @dynamic ownerAddSceneButtonPresentedCount;
-@property(retain, nonatomic) NSDictionary *ownerCharacteristicAuthorizationData; // @dynamic ownerCharacteristicAuthorizationData;
-@property(copy, nonatomic) NSNumber *ownerCompletedSwitchingHomesOnboardingUI; // @dynamic ownerCompletedSwitchingHomesOnboardingUI;
-@property(copy, nonatomic) NSNumber *ownerDismissed2024EnergyOnboarding; // @dynamic ownerDismissed2024EnergyOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedAccessCodeOnboarding; // @dynamic ownerDismissedAccessCodeOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedAccessoryFirmwareUpdateOnboarding; // @dynamic ownerDismissedAccessoryFirmwareUpdateOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedAnnounceOnboarding; // @dynamic ownerDismissedAnnounceOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedCameraRecordingOnboarding; // @dynamic ownerDismissedCameraRecordingOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedCameraRecordingSetupBanner; // @dynamic ownerDismissedCameraRecordingSetupBanner;
-@property(copy, nonatomic) NSNumber *ownerDismissedCameraUpgradeOfferBanner; // @dynamic ownerDismissedCameraUpgradeOfferBanner;
-@property(copy, nonatomic) NSNumber *ownerDismissedHomeTheaterOnboarding; // @dynamic ownerDismissedHomeTheaterOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedIdentifyVoiceOnboarding; // @dynamic ownerDismissedIdentifyVoiceOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedIdentifyVoiceSetupBanner; // @dynamic ownerDismissedIdentifyVoiceSetupBanner;
-@property(copy, nonatomic) NSNumber *ownerDismissedNaturalLightingOnboarding; // @dynamic ownerDismissedNaturalLightingOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedTVViewingProfileOnboarding; // @dynamic ownerDismissedTVViewingProfileOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedTVViewingProfileSetupBanner; // @dynamic ownerDismissedTVViewingProfileSetupBanner;
-@property(copy, nonatomic) NSNumber *ownerDismissedUserSplitMediaAccountWarning; // @dynamic ownerDismissedUserSplitMediaAccountWarning;
-@property(copy, nonatomic) NSNumber *ownerDismissedWalletKeyExpressModeOnboarding; // @dynamic ownerDismissedWalletKeyExpressModeOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedWelcomeUI; // @dynamic ownerDismissedWelcomeUI;
-@property(copy, nonatomic) NSNumber *ownerHasUserSeenRMVNewLanguageNotification; // @dynamic ownerHasUserSeenRMVNewLanguageNotification;
-@property(readonly, retain, nonatomic) NSArray *pairedAirPlayAccessories;
-@property(retain, nonatomic) NSSet *pairedAirPlayAccessories_; // @dynamic pairedAirPlayAccessories_;
-@property(readonly, retain, nonatomic) NSArray *pairedHAPAccessories;
-@property(retain, nonatomic) NSSet *pairedHAPAccessories_; // @dynamic pairedHAPAccessories_;
-@property(retain, nonatomic) HAPPairingIdentity *pairingIdentity; // @dynamic pairingIdentity;
-@property(readonly, retain, nonatomic) NSArray *personsFromPhotos;
-@property(retain, nonatomic) NSSet *personsFromPhotos_; // @dynamic personsFromPhotos_;
-@property(copy, nonatomic) NSUUID *photosPersonDataZoneUUID; // @dynamic photosPersonDataZoneUUID;
-@property(copy, nonatomic) NSNumber *playbackInfluencesEnabled; // @dynamic playbackInfluencesEnabled;
-@property(copy, nonatomic) NSNumber *presenceAuthorizationStatus; // @dynamic presenceAuthorizationStatus;
-@property(readonly, retain, nonatomic) NSArray *presenceEvents;
-@property(retain, nonatomic) NSSet *presenceEvents_; // @dynamic presenceEvents_;
-@property(copy, nonatomic) NSNumber *presenceRegionStatus; // @dynamic presenceRegionStatus;
-@property(copy, nonatomic) NSDate *presenceUpdateTimeStamp; // @dynamic presenceUpdateTimeStamp;
-@property(copy, nonatomic) NSNumber *privilege; // @dynamic privilege;
-@property(copy, nonatomic) NSNumber *remoteAccessAllowed; // @dynamic remoteAccessAllowed;
-@property(retain, nonatomic) CKRecordID *reverseShareID; // @dynamic reverseShareID;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *reverseShareToken; // @dynamic reverseShareToken;
-@property(copy, nonatomic) NSNumber *sharePhotosFaceClassifications; // @dynamic sharePhotosFaceClassifications;
-@property(copy, nonatomic) NSNumber *siriIdentifyVoiceEnabled; // @dynamic siriIdentifyVoiceEnabled;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSArray *triggers;
-@property(retain, nonatomic) NSSet *triggers_; // @dynamic triggers_;
-@property(copy, nonatomic) NSNumber *uniqueIDForAccessories; // @dynamic uniqueIDForAccessories;
-@property(readonly, retain, nonatomic) NSArray *userActivityStatuses;
-@property(retain, nonatomic) NSSet *userActivityStatuses_; // @dynamic userActivityStatuses_;
-@property(copy, nonatomic) NSString *userID; // @dynamic userID;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

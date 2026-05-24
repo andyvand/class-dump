@@ -7,13 +7,10 @@
 #import <MPSNeuralNetwork/MPSNNGradientState.h>
 
 @class MPSCNNGroupNormalization;
-@protocol MTLBuffer;
 
 @interface MPSCNNGroupNormalizationGradientState : MPSNNGradientState
 {
     MPSCNNGroupNormalization *_groupNormalization;
-    unsigned long long _numberOfFeatureChannels;
-    unsigned long long _numberOfGroups;
 }
 
 + (id);
@@ -27,10 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLBuffer> beta;
-@property(readonly, nonatomic) id <MTLBuffer> gamma;
-@property(readonly, nonatomic) id <MTLBuffer> gradientForBeta;
-@property(readonly, nonatomic) id <MTLBuffer> gradientForGamma;
 @property(readonly, retain, nonatomic) MPSCNNGroupNormalization *groupNormalization; // @synthesize groupNormalization=_groupNormalization;
 
 @end

@@ -4,74 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppleEventDescriptor, NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface NSWorkspaceOpenConfiguration
 {
     _Bool _promptsUserIfNeeded;
-    _Bool _addsToRecentItems;
-    _Bool _activates;
-    _Bool _hides;
-    _Bool _hidesOthers;
-    _Bool _forPrinting;
-    _Bool _createsNewApplicationInstance;
-    _Bool _allowsRunningApplicationSubstitution;
-    _Bool _requiresUniversalLinks;
-    int _architecture;
-    NSArray *_arguments;
-    NSDictionary *_environment;
-    NSAppleEventDescriptor *_appleEvent;
-    NSDictionary *_additionalLSOpenOptions;
 }
 
 + (id);
+- (void)pple-internal-install;
+- (void)engl-standard;
+- (void)UFqkf9tcH1ltsOMzpdwSUw;
+- (void)Gw;
+- (void)TqAfAH10ANDgiG7V2u8BkQ;
+- (void)xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/MobileGestalt.c;
+- (void)ed to copyDeviceTreeProperty(IODeviceTree:(_Bool)arg1 /arm-io soc-generation);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)Rv1;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id)ot;
-- (id);
-- (id)tSegmentedControl;
+- (void)<;
+- (id)currentItemSnapshot;
+- (id)G;
+- (id)RoundRectSegmentedControl;
 - (void)h`E;
 - (int)üy;
 
 // Remaining properties
 @property(copy, setter=_setAdditionalLSOpenOptions:) NSDictionary *_additionalLSOpenOptions; // @synthesize _additionalLSOpenOptions;
-@property _Bool activates; // @synthesize activates=_activates;
-@property _Bool addsToRecentItems; // @synthesize addsToRecentItems=_addsToRecentItems;
-@property _Bool allowsRunningApplicationSubstitution; // @synthesize allowsRunningApplicationSubstitution=_allowsRunningApplicationSubstitution;
-@property(retain) NSAppleEventDescriptor *appleEvent; // @synthesize appleEvent=_appleEvent;
-@property int architecture; // @synthesize architecture=_architecture;
-@property(copy) NSArray *arguments; // @synthesize arguments=_arguments;
-@property _Bool createsNewApplicationInstance; // @synthesize createsNewApplicationInstance=_createsNewApplicationInstance;
-@property(copy) NSDictionary *environment; // @synthesize environment=_environment;
-@property(getter=isForPrinting) _Bool forPrinting; // @synthesize forPrinting=_forPrinting;
-@property _Bool hides; // @synthesize hides=_hides;
-@property _Bool hidesOthers; // @synthesize hidesOthers=_hidesOthers;
-@property _Bool promptsUserIfNeeded; // @synthesize promptsUserIfNeeded=_promptsUserIfNeeded;
-@property _Bool requiresUniversalLinks; // @synthesize requiresUniversalLinks=_requiresUniversalLinks;
 
 @end
 

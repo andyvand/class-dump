@@ -9,9 +9,6 @@
 @interface PXActionRecord
 {
     NSString *_sourceIdentifier;
-    NSString *_variant;
-    long long _assetCount;
-    long long _userConfirmation;
 }
 
 - (id);
@@ -28,11 +25,7 @@
 - (id)Hÿ: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long assetCount; // @synthesize assetCount=_assetCount;
-@property(readonly, nonatomic) NSString *publicDescription;
 @property(readonly, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(readonly, nonatomic) long long userConfirmation; // @synthesize userConfirmation=_userConfirmation;
-@property(readonly, nonatomic) NSString *variant; // @synthesize variant=_variant;
 
 @end
 

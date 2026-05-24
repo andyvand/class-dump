@@ -5,5 +5,6 @@
 //
 
 @protocol _UIDiffableDataSourceIdentifying
+- (_Bool)ary"24@"NSArray"32;
 @end
 

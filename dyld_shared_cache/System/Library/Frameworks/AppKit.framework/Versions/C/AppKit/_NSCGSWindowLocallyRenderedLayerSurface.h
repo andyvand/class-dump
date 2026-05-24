@@ -12,12 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCGSWindowLocallyRenderedLayerSurface : NSCGSWindowLayerSurface
 {
     NSCGSWindow *_window;
-    unsigned int _surfaceID;
-    struct _CAView *_view;
-    struct CGRect _frame;
-    struct CGColorSpace *_colorSpace;
-    double _scale;
-    unsigned int _opaque:1;
 }
 
 + (void);
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)lo;
 - (double);
 - (struct CGColorSpace *);
 - (id);
@@ -35,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (struct CGRect);
 - (unsigned int);
-- (void)eHighlightInfo;
+- (void)_currentSentenceHighlightInfo;
 - (void)Ü;
 - (id)ight of view:(%@) to be less than or equal to 30 but got a height of %f. This error will be logged once per view in violation. /* Error: Ran out of types for this method. */;
 - (void)f;

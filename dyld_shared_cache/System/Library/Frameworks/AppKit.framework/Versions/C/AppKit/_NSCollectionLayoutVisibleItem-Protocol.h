@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
+@class NSString;
 
 @protocol _NSCollectionLayoutVisibleItem
+- (long long);
+- (void)_contentText;
+- (struct CGRect)nary"24@"NSArray"32@?<v@?@"NSDictionary"@"NSAttributedString"@"NSError">40;
+- (struct CATransform3D);
+- (struct CGRect)I;
 - (void)extHighlightView";
-- (long long)lphaTo:duration: /* Error: Ran out of types for this method. */;
-- (void)g:(struct CGAffineTransform)arg1;
-- (void)ypesFromSavePanelType;
+- (long long)scrollerImp:animateTrackAlphaTo:duration: /* Error: Ran out of types for this method. */;
+- (void)_userReplaceRange:(struct CGAffineTransform)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)_allowedTypesFromSavePanelType;
 - (void)à;
 - (double)´\;
-- (NSString *);
+- (NSString *)finalSnapshot;
 
 // Remaining properties
 @property double alpha;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property struct CGPoint center;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) NSIndexPath *indexPath;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long representedElementCategory;
-@property(readonly, nonatomic) NSString *representedElementKind;
-@property(nonatomic) struct CGAffineTransform transform;
-@property(nonatomic) struct CATransform3D transform3D;
-@property long long zIndex;
 @end
 

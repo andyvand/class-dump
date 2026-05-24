@@ -9,7 +9,7 @@
 @protocol UINavigationControllerDelegate
 
 @optional
-- (void)onfigFetcher;
+- (void)feedServiceConfigFetcher;
 - (id <UIViewControllerInteractiveTransitioning>).most_recent_feed_identifier;
 @end
 

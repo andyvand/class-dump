@@ -4,36 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageBrowserSubsetLayoutManager, NSColor, NSMutableDictionary;
+@class IKImageBrowserSubsetLayoutManager;
 
 @interface IKImageBrowserGridGroup
 {
     struct _NSRange _range;
-    struct _NSRange _rangeToParent;
-    struct _NSRange _transformedRange;
-    _Bool _expanded;
-    int _ghostCellCountOnTheLeft;
-    int _ghostCellCountOnTheRight;
-    int _groupStyle;
-    NSColor *_bgColor;
-    id _title;
-    id _headLayer;
-    id _tailLayer;
-    _Bool _selected;
-    _Bool _highlighted;
-    _Bool _isAnimating;
-    float _alpha;
-    IKImageBrowserSubsetLayoutManager *_grid;
-    NSMutableDictionary *_attributes;
-    id _sourceAttributes;
 }
 
 - (struct _NSRange);
-- (id);
+- (id)b;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,17 +33,17 @@
 - (int);
 - (_Bool);
 - (id);
+- (void)_MPNowPlayingInfoPropertyAppMetrics;
+- (id)ect has no identifiers);
+- (_Bool);
+- (int)E;
+- (void);
+- (void);
+- (_Bool)deviceInfo;
+- (void);
 - (void);
 - (id);
-- (_Bool);
-- (int);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_SFPBRFFactItemButtonCardSection;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -78,7 +61,6 @@
 
 // Remaining properties
 @property IKImageBrowserSubsetLayoutManager *grid; // @synthesize grid=_grid;
-@property(retain) id sourceAttributes; // @synthesize sourceAttributes=_sourceAttributes;
 
 @end
 

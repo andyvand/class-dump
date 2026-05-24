@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSWindow;
+@class NSString;
 
 @interface NSWindowTabGroup
 {
     NSString *_identifier;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)SecondaryEthernetMacAddress;
+- (void)*);
 - (void);
 - (id);
-- (_Bool);
+- (void);
+- (id);
+- (_Bool)x;
 - (id);
 - (void)0@ù
 × ;
@@ -26,12 +26,6 @@
 
 // Remaining properties
 @property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(getter=isOverviewVisible) _Bool overviewVisible; // @dynamic overviewVisible;
-@property __weak NSWindow *selectedWindow; // @dynamic selectedWindow;
-@property _Bool shouldShowTabBarWithOneItem; // @dynamic shouldShowTabBarWithOneItem;
-@property(getter=isTabBarEnabled) _Bool tabBarEnabled; // @dynamic tabBarEnabled;
-@property(readonly, getter=isTabBarVisible) _Bool tabBarVisible; // @dynamic tabBarVisible;
-@property(readonly, copy) NSArray *windows; // @dynamic windows;
 
 @end
 

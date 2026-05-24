@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface WBSDiagnosticStateCollector
 {
     unsigned long long _stateHandler;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _payloadProvider;
-    NSString *_logLabel;
 }
 
 + (id);
+- (id);
+- (void)_findVisiblePages;
 - (id);
-- (void);
-- (id);
+- (struct os_state_data_s *)decodeSizeForKey:(struct os_state_hints_s *)arg1;
 - (struct os_state_data_s *);
-- (struct os_state_data_s *);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -30,7 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *logLabel; // @synthesize logLabel=_logLabel;
-@property(readonly, nonatomic, getter=isRegisteredWithSysdiagnose) _Bool registeredWithSysdiagnose;
 
 @end
 

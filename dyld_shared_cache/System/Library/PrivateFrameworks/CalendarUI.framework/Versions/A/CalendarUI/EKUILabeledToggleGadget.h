@@ -13,7 +13,7 @@
     NSSwitch *_toggle;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);

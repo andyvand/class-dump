@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface SALocalSearchShowLocalSearchResult : SADomainCommand
 {
@@ -21,13 +21,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)n;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *extSessionGuid;
-@property(copy, nonatomic) NSDate *extSessionGuidCreatedTimestamp;
-@property(copy, nonatomic) NSData *rawData;
 
 @end
 

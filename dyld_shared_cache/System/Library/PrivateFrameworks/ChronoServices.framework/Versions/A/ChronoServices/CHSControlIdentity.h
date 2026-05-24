@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSExtensionIdentity, CHSIntentReference, NSString;
+@class CHSExtensionIdentity;
 
 @interface CHSControlIdentity
 {
     CHSExtensionIdentity *_extensionIdentity;
-    NSString *_kind;
-    CHSIntentReference *_intentReference;
 }
 
 + (_Bool);
@@ -21,26 +19,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)sA;
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) CHSExtensionIdentity *extensionIdentity; // @synthesize extensionIdentity=_extensionIdentity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CHSIntentReference *intentReference; // @synthesize intentReference=_intentReference;
-@property(readonly, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(readonly) Class superclass;
 
 @end
 

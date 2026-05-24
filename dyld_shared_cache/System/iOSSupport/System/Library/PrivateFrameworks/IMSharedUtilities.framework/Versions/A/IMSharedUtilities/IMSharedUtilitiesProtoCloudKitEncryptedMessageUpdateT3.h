@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageUpdateT3
 {
     NSString *_chatid;
-    NSString *_msgid;
-    NSData *_padding;
-    unsigned int _version;
-    CDStruct_f20694ce _has;
 }
 
-- (void);
+- (void)63;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -40,14 +36,7 @@
 - (void).effect.CKHeartEffect;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *chatid; // @synthesize chatid=_chatid;
-@property(readonly, nonatomic) _Bool hasChatid;
-@property(readonly, nonatomic) _Bool hasMsgid;
-@property(readonly, nonatomic) _Bool hasPadding;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *msgid; // @synthesize msgid=_msgid;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

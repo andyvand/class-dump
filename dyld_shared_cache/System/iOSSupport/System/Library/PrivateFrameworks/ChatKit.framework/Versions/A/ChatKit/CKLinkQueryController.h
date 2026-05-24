@@ -12,11 +12,11 @@
 
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id) ;
 - (void);
-- (id);
-- (id);
+- (id)h;
+- (id)u;
 - (id)äÆÇÈ@È;
 - (id);
 

@@ -7,26 +7,10 @@
 @interface NewsFeed.DebugFormatRulerView
 {
     id scale;
-    id contentSize;
-    id contentBounds;
-    id canvasOffset;
-    id selectionFrame;
-    id metricSelectionFrame;
-    id rulersHidden;
-    id separatorsHidden;
-    id separators;
-    id selectedSeparator;
-    id rulerSize;
-    id verticalRulerEdgeView;
-    id horizontalRulerEdgeView;
-    id gridView;
-    id cornerView;
-    id borderLayer;
-    id separatorViews;
 }
 
 - (id);
-- (void);
+- (void)ive copyToTemporaryLocationRelativeToURL:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (void)¤gBhCTh;

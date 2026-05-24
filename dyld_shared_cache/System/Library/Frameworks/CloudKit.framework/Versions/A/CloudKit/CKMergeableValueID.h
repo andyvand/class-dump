@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRoughlyEquivalentProperties, NSData, NSString;
+@class NSData;
 
 @interface CKMergeableValueID
 {
     _Bool _encrypted;
-    NSData *_identifier;
-    NSString *_zoneName;
-    NSString *_zoneOwner;
-    NSString *_recordName;
-    NSString *_recordFieldName;
 }
 
 + (_Bool);
@@ -24,14 +19,14 @@
 - (id);
 - (id);
 - (id);
+- (id)�;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)versionString;
 - (id);
 - (_Bool);
 - (id);
@@ -44,13 +39,7 @@
 - (void)ØåÉÿÿÿÿÿÌ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted; // @synthesize encrypted=_encrypted;
-@property(readonly, nonatomic) CKRoughlyEquivalentProperties *equivalencyProperties;
 @property(readonly, copy, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *recordFieldName; // @synthesize recordFieldName=_recordFieldName;
-@property(readonly, nonatomic) NSString *recordName; // @synthesize recordName=_recordName;
-@property(readonly, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
-@property(readonly, nonatomic) NSString *zoneOwner; // @synthesize zoneOwner=_zoneOwner;
 
 @end
 

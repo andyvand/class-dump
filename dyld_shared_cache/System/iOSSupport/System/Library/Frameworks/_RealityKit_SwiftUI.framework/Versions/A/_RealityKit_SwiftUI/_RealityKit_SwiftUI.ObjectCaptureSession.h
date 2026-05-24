@@ -8,13 +8,6 @@
 {
     id _state;
     id _feedback;
-    id _cameraTracking;
-    id _isPaused;
-    id _userCompletedScanPass;
-    id _canRequestImageCapture;
-    id _numberOfShotsTaken;
-    id _configuration;
-    id _$observationRegistrar;
 }
 
 @end

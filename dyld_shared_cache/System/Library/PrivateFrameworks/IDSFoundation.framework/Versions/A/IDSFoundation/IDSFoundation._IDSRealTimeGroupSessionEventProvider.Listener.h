@@ -7,8 +7,6 @@
 @interface IDSFoundation._IDSRealTimeGroupSessionEventProvider.Listener
 {
     id id;
-    id sessionID;
-    id continuation;
 }
 
 @end

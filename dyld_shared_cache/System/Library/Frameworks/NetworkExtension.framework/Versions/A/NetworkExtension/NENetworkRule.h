@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NWHostEndpoint;
-@protocol OS_nw_endpoint;
-
 @interface NENetworkRule
 {
     _Bool _appliesToLoopback;
-    NSObject<OS_nw_endpoint> *_matchRemoteHostOrNetworkEndpoint;
-    unsigned long long _matchRemotePrefix;
-    NSObject<OS_nw_endpoint> *_matchLocalNetworkEndpoint;
-    unsigned long long _matchLocalPrefix;
-    long long _matchProtocol;
-    long long _matchDirection;
 }
 
-+ (_Bool);
++ (_Bool)setPseudonymUpdateTaskQueue: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
@@ -38,19 +29,11 @@
 - (void);
 - (id);
 - (void)ary"24@0:8@"<NEProfilePayloadBaseDelegate>"16 /* Error: Ran out of types for this method. */;
-- (_Bool)ObjectAtIndex:(id)arg1;
+- (_Bool)removeObjectAtIndex:(id)arg1;
 - (id)(no eligible configuration);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool appliesToLoopback; // @synthesize appliesToLoopback=_appliesToLoopback;
-@property(readonly) long long matchDirection; // @synthesize matchDirection=_matchDirection;
-@property(readonly) NWHostEndpoint *matchLocalNetwork;
-@property(readonly) NSObject<OS_nw_endpoint> *matchLocalNetworkEndpoint; // @synthesize matchLocalNetworkEndpoint=_matchLocalNetworkEndpoint;
-@property(readonly) unsigned long long matchLocalPrefix; // @synthesize matchLocalPrefix=_matchLocalPrefix;
-@property(readonly) long long matchProtocol; // @synthesize matchProtocol=_matchProtocol;
-@property(readonly) NWHostEndpoint *matchRemoteEndpoint;
-@property(readonly) NSObject<OS_nw_endpoint> *matchRemoteHostOrNetworkEndpoint; // @synthesize matchRemoteHostOrNetworkEndpoint=_matchRemoteHostOrNetworkEndpoint;
-@property(readonly) unsigned long long matchRemotePrefix; // @synthesize matchRemotePrefix=_matchRemotePrefix;
 
 @end
 

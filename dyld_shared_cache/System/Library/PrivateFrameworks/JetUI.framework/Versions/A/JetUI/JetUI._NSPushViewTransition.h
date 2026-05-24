@@ -7,9 +7,6 @@
 @interface JetUI._NSPushViewTransition
 {
     id sourceView;
-    id destinationView;
-    id dimmingView;
-    id pushAnimator;
 }
 
 @end

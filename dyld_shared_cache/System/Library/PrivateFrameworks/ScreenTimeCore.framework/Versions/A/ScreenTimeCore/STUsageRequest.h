@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface STUsageRequest
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ion = 1140240;;
++ (id)base_location_id) WHERE path = '/var/mobile/Media/Podcasts');
++ (id)UPDATE base_location SET base_location_id = 400 WHERE path = 'Podcasts';
++ (id)ase_location USING(base_location_id) WHERE path = 'Podcasts');
++ (id)ation_id = 400 WHERE item_pid IN (SELECT item_pid FROM item JOIN base_location USING(base_location_id) WHERE path = 'Podcasts');
++ (id)EFAULT '', bit_rate INTEGER NOT NULL DEFAULT 0, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, jalisco_token INTEGER NOT NULL DEFAULT 0, codec_type INTEGER NOT NULL DEFAULT 0, codec_subtype INTEGER NOT NULL DEFAULT 0, format TEXT, data_kind INTEGER NOT NULL DEFAULT 0, data_url TEXT, has_video INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, has_chapter_data INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *acknowledgedDate; // @dynamic acknowledgedDate;
-@property(retain, nonatomic) NSNumber *forUserDSID; // @dynamic forUserDSID;
-@property(nonatomic) _Bool isBackgroundTask; // @dynamic isBackgroundTask;
-@property(retain, nonatomic) NSDate *requestedDate; // @dynamic requestedDate;
 
 @end
 

@@ -13,7 +13,7 @@
 
 + (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)D;
 - (CDStruct_1b6d18a9);
 - (id);
 - (CDStruct_1b6d18a9);
@@ -22,7 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) CDStruct_1b6d18a9 durationOffset;
 @property(readonly) CDStruct_1b6d18a9 startTimeOffset;
 
 @end

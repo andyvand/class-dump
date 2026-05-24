@@ -5,29 +5,24 @@
 //
 
 @class NSString;
-@protocol PKSandboxProvider;
 
 @interface PKSandboxExtension
 {
     long long _handle;
-    NSString *_token;
-    id <PKSandboxProvider> _provider;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)h;
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property long long handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) id <PKSandboxProvider> provider; // @synthesize provider=_provider;
 @property(readonly, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end

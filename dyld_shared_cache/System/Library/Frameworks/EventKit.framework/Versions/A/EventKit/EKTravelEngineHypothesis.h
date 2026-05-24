@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
-
 @interface EKTravelEngineHypothesis
 {
     int _transportType;
-    NSDate *_conservativeDepartureDate;
-    double _conservativeTravelTime;
-    NSDate *_suggestedDepartureDate;
-    double _estimatedTravelTime;
-    NSDate *_aggressiveDepartureDate;
-    double _aggressiveTravelTime;
-    NSString *_routeName;
-    _Bool _supportsLiveTraffic;
-    unsigned long long _currentTrafficDensity;
-    NSString *_trafficDensityDescription;
-    long long _travelState;
-    NSDate *_creationDate;
-    NSArray *_travelSections;
 }
 
-+ (id);
-+ (_Bool);
-- (_Bool);
++ (id)tDevices took %lf seconds;
++ (_Bool)WebKitCSSProgressFunctionEnabled;
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (id);
@@ -40,13 +25,13 @@
 - (double);
 - (unsigned long long);
 - (double);
-- (id);
+- (id);
 - (double);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)k;
 - (id);
 - (_Bool);
 - (void);
@@ -55,21 +40,7 @@
 - (int)<v@?i@"CADObjectID">24;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *aggressiveDepartureDate; // @synthesize aggressiveDepartureDate=_aggressiveDepartureDate;
-@property(readonly, nonatomic) double aggressiveTravelTime; // @synthesize aggressiveTravelTime=_aggressiveTravelTime;
-@property(readonly, copy, nonatomic) NSDate *conservativeDepartureDate; // @synthesize conservativeDepartureDate=_conservativeDepartureDate;
-@property(readonly, nonatomic) double conservativeTravelTime; // @synthesize conservativeTravelTime=_conservativeTravelTime;
-@property(readonly, copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) unsigned long long currentTrafficDensity; // @synthesize currentTrafficDensity=_currentTrafficDensity;
-@property(readonly, nonatomic) double estimatedTravelTime; // @synthesize estimatedTravelTime=_estimatedTravelTime;
-@property(readonly, nonatomic) _Bool isMultiModal;
-@property(readonly, copy, nonatomic) NSString *routeName; // @synthesize routeName=_routeName;
-@property(readonly, copy, nonatomic) NSDate *suggestedDepartureDate; // @synthesize suggestedDepartureDate=_suggestedDepartureDate;
-@property(readonly, nonatomic) _Bool supportsLiveTraffic; // @synthesize supportsLiveTraffic=_supportsLiveTraffic;
-@property(readonly, copy, nonatomic) NSString *trafficDensityDescription; // @synthesize trafficDensityDescription=_trafficDensityDescription;
 @property(readonly, nonatomic) int transportType; // @synthesize transportType=_transportType;
-@property(readonly, nonatomic) NSArray *travelSections; // @synthesize travelSections=_travelSections;
-@property(readonly, nonatomic) long long travelState; // @synthesize travelState=_travelState;
 
 @end
 

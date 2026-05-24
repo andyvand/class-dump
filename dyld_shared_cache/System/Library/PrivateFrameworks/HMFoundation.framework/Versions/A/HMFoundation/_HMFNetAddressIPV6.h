@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id)>	-;
+- (unsigned long long).	H		0	K	(	@	;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)extendSelectionForwardCharactersUsingCardinalNumber:(id)arg1;
+- (unsigned long long)setPlaybackState:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

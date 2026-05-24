@@ -6,19 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class JRSchemaRankingCandidateMatrix, JRSchemaRankingScoreMatrix, NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaRanking : SISchemaInstrumentationMessage
 {
     NSArray *_rankingMatrices;
-    JRSchemaRankingScoreMatrix *_rankingScoreMatrix;
-    JRSchemaRankingCandidateMatrix *_rankingCandidateMatrix;
-    _Bool _hasRankingScoreMatrix;
-    _Bool _hasRankingCandidateMatrix;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,11 +24,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)v;
 - (id);
 - (id);
 - (id);
@@ -43,16 +39,11 @@
 - (id);
 - (id);
 - (id)dPhonemes;
-- (id)iggerMetrics;
+- (id)SISchemaVoiceTriggerMetrics;
 - (void)[";
 
 // Remaining properties
-@property(nonatomic) _Bool hasRankingCandidateMatrix; // @synthesize hasRankingCandidateMatrix=_hasRankingCandidateMatrix;
-@property(nonatomic) _Bool hasRankingScoreMatrix; // @synthesize hasRankingScoreMatrix=_hasRankingScoreMatrix;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) JRSchemaRankingCandidateMatrix *rankingCandidateMatrix; // @synthesize rankingCandidateMatrix=_rankingCandidateMatrix;
 @property(copy, nonatomic) NSArray *rankingMatrices; // @synthesize rankingMatrices=_rankingMatrices;
-@property(retain, nonatomic) JRSchemaRankingScoreMatrix *rankingScoreMatrix; // @synthesize rankingScoreMatrix=_rankingScoreMatrix;
 
 @end
 

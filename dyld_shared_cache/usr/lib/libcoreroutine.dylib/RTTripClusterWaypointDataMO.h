@@ -6,17 +6,16 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSData, NSUUID;
+@class NSData;
 
 @interface RTTripClusterWaypointDataMO : RTCloudManagedObject
 {
 }
 
-+ (id);
-+ (id);
++ (id){_OpaquePCSShareProtection={__CFRuntimeBase=QAQ}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{_PCSIdentitySetData}^{__CFDictionary}^{__CFArray}^{__CFDictionary}^{__CFData}^{__CFData}^{__CFData}^{_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I};
++ (id)r:failed to get metadata; reading some more... /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *clusterID; // @dynamic clusterID;
 @property(copy, nonatomic) NSData *waypoints; // @dynamic waypoints;
 
 @end

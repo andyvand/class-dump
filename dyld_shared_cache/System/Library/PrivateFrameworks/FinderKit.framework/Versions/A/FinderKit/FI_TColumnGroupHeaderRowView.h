@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void)notificationRemovedWithNotificationIDs:(_Bool)arg1;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 
 @end
 

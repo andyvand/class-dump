@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SFAuthenticationApproveInfo
 {
     _Bool _biometricOnly;
-    unsigned long long _type;
-    NSString *_idsDeviceID;
-    NSString *_appName;
-    NSString *_bundleID;
 }
 
 + (_Bool);
@@ -23,15 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
-- (void)ination;
+- (unsigned long long)Ȃ;
+- (void)$;
+- (void)destination;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(readonly, nonatomic) _Bool biometricOnly; // @synthesize biometricOnly=_biometricOnly;
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSString *idsDeviceID; // @synthesize idsDeviceID=_idsDeviceID;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

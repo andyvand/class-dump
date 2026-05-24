@@ -7,29 +7,24 @@
 @interface RTStateModelLocation
 {
     int _referenceFrame;
-    double _Latitude_deg;
-    double _Longitude_deg;
-    double _uncertainty_m;
-    double _confidence;
-    double _timestamp_s;
 }
 
 + (_Bool);
 - (double);
 - (double);
 - (id);
-- (id);
-- (id);
+- (id)wnPacketLossScoring:%s:remote received %ld/%ld packets -> %f loss, %f weight -> %f /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)triggerAllFirewallNotificationsWithHandle:(double)arg1 delay:service: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
+- (id)jh8;
 - (void);
 - (int);
 - (double);
@@ -39,11 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) double Latitude_deg; // @synthesize Latitude_deg=_Latitude_deg;
-@property(nonatomic) double Longitude_deg; // @synthesize Longitude_deg=_Longitude_deg;
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) int referenceFrame; // @synthesize referenceFrame=_referenceFrame;
-@property(nonatomic) double timestamp_s; // @synthesize timestamp_s=_timestamp_s;
-@property(nonatomic) double uncertainty_m; // @synthesize uncertainty_m=_uncertainty_m;
 
 @end
 

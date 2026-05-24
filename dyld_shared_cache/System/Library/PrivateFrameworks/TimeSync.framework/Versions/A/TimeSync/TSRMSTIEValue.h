@@ -7,7 +7,6 @@
 @interface TSRMSTIEValue
 {
     double _observationInterval;
-    double _rmstie;
 }
 
 - (double);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double observationInterval; // @synthesize observationInterval=_observationInterval;
-@property(readonly, nonatomic) double rmstie; // @synthesize rmstie=_rmstie;
 
 @end
 

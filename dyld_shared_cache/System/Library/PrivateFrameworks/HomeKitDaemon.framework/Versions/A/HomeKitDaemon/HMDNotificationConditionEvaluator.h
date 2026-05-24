@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDNotificationConditionEvaluator
@@ -13,20 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)B;
-- (id);
+- (id)MSPUGCLogDiscardShouldReuseExistingKeyKey;
 - (_Bool);
 - (id);
 - (void)on for %@.%@, not a transformable attribute;
 
 // Remaining properties
 @property(readonly) NSSet *conditionHandlers; // @synthesize conditionHandlers=_conditionHandlers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

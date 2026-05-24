@@ -8,6 +8,7 @@
 {
 }
 
++ (_Bool)writeToURL:atomically: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -16,21 +17,20 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (void)hx);
 + (void);
 + (_Bool);
++ (_Bool)"NSString",C,N,V_localizedAppName;
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (_Bool);
++ (void)CinematicFramingMaxFrameRateOverride;
++ (_Bool)eams:] /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -39,8 +39,8 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (_Bool)enerateNewRecoveryKeyWithCompletion: /* Error: Ran out of types for this method. */;
++ (_Bool)9`B;
++ (_Bool)authenticateAndGenerateNewRecoveryKeyWithCompletion: /* Error: Ran out of types for this method. */;
 
 @end
 

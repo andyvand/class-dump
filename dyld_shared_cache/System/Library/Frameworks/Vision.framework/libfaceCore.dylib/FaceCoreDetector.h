@@ -19,14 +19,14 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (struct CGRect);
 + (struct CGPoint);
 + (struct coord);
 + (float);
 + (struct image);
 + (struct Face);
-+ (id);
++ (id)c;
 + (id);
 + (void);
 + (id)Ý$Å?F¶óýÔxÉ?ü©ñÒMbÐ?ÓMbX9Ô?F¶óýÔxÙ? /Ý$á?×£p=
@@ -38,11 +38,11 @@
 - (void);
 - (void);
 - (void);
+- (id)centerDocument;
+- (id)canSetCurrentPageToHomePage;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)`6;
+- (id)CacheDeleteErrorInsufficientPermissions;
 - (void)¦Ä °rØ?+ÙÎ÷Û?d;ßOâ?\Âõ(\ã?/Ý$á?F¶óýÔxÙ?j¼tÖ?ªñÒMbÈ?°rhí|¿?;ßOn²?ìQ¸ë¡?ú~j¼t?Ûù~j¼t?Zd;ßO??Ûù~j¼t£?{®Gáz¤?ÙÎ÷Sã¥«?Ûù~j¼tÃ?1¬ZdÛ?'1¬Zà?¼tVæ?yé&1¬è?1¬Zdç?+ÙÞ?òÒMbXÙ?5^ºIË?ð§ÆK7Á?shí|?µ?+ÙÎ·?hí|?5¾?;
 
 @end

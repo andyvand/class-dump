@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFRoomDatabaseID, NSArray, NSDate, NSString;
-@protocol MKFApplicationData, MKFHome, MKFRoomPresence;
+@class NSString;
+@protocol MKFHome, MKFRoomPresence;
 
 @protocol MKFRoom
+- (id <MKFRoomPresence>);
+- (void);
 - (id <MKFHome>)
 × ;
 - (void)ransfer management service is nil;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *accessories;
-@property(retain, nonatomic) id <MKFApplicationData> applicationData;
-@property(readonly, copy, nonatomic) MKFRoomDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(readonly, retain, nonatomic) id <MKFHome> homeDefault;
-@property(retain, nonatomic) id <MKFRoomPresence> localPresence;
-@property(readonly, retain, nonatomic) NSArray *localPresenceAccessories;
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSDate *writerTimestamp;
-@property(readonly, retain, nonatomic) NSArray *zones;
 @end
 

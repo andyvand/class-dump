@@ -4,39 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArrayShapeConstraint, NSArray, NSNumber;
+@class NSArray, NSNumber;
 
 @interface MLMultiArrayConstraint
 {
     NSNumber *_defaultOptionalValue;
-    NSArray *_shape;
-    long long _dataType;
-    MLMultiArrayShapeConstraint *_shapeConstraint;
 }
 
-+ (id);
++ (id)KEY_TYPE_MISMATCH;
 + (_Bool);
-+ (id)Specification34Int64ToStringMap_MapEntry_DoNotUseENS0_11MessageLiteExNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEELNS1_14WireFormatLite9FieldTypeE3ELSF_9EEE;
++ (id)N6google8protobuf8internal12MapEntryImplIN6CoreML13Specification34Int64ToStringMap_MapEntry_DoNotUseENS0_11MessageLiteExNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEELNS1_14WireFormatLite9FieldTypeE3ELSF_9EEE;
 - (_Bool);
 - (id);
-- (id);
+- (id)send STUN ping  err=;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (_Bool);
-- (id)letingPathExtension;
+- (id)URLByDeletingPathExtension;
 - (_Bool)¬;
 - (void)tion version for compiled model is %@ and is more recent than the supported version %@.;
 
 // Remaining properties
-@property(readonly, nonatomic) long long dataType; // @synthesize dataType=_dataType;
 @property(readonly, nonatomic) NSArray *shape; // @synthesize shape=_shape;
-@property(readonly, nonatomic) MLMultiArrayShapeConstraint *shapeConstraint; // @synthesize shapeConstraint=_shapeConstraint;
 
 @end
 

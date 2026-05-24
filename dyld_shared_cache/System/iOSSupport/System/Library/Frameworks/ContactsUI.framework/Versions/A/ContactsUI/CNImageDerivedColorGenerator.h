@@ -10,7 +10,7 @@
 
 + (void);
 + (void);
-+ (void);
++ (void)@9;
 + (id);
 + (id);
 - (id);

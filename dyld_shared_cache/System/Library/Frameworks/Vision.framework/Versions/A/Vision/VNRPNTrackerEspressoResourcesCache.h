@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VNRPNTrackerEspressoResourcesCache
 {
     NSMutableDictionary *_rpnEspressoResourcesKeyToEspressoResourcesCache;
-    NSLock *_rpnEspressoResourcesKeyToEspressoResourcesCacheLock;
 }
 
-+ (id);
++ (id)!;
 + (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)adeDetectorType;
+- (void)VNFaceprintUpgradeDetectorType;
 
 @end
 

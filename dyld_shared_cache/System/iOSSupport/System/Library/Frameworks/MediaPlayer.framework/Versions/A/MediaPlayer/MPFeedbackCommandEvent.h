@@ -11,8 +11,8 @@
     _Bool _negative;
 }
 
-- (id);
-- (_Bool);
+- (id)objectDefacl;
+- (_Bool)qA;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isNegative) _Bool negative; // @synthesize negative=_negative;

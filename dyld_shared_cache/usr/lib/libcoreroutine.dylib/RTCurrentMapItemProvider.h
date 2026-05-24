@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, RTFingerprintManager, RTLocationManager, RTMapServiceManager, RTWiFiManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTCurrentMapItemProvider
 {
     _Bool _registeredForNotifications;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTFingerprintManager *_fingerprintManager;
-    RTLocationManager *_locationManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTWiFiManager *_wifiManager;
-    NSMutableArray *_futureLocations;
-    NSMutableArray *_futureAccessPoints;
 }
 
-+ (void);
-+ (void);
-+ (id);
++ (void)_iCDPPlesio;
++ (void)_firstStep;
++ (id)CKKSSetCurrentIdentity;
+- (id)disableWalrus:(id)arg1 preRecords:(id)arg2 reply:(id)arg3;
+- (id)ed to softlink AuthKit;
+- (void):(double)arg1 %@;
+- (id)boardServices.Secure;
+- (void)input (%@) password generation does not match the record (%@) password generation;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)_handleLinkProbingTimer;
 - (void);
 - (id);
 - (id);
@@ -48,14 +41,7 @@
 - (void)tor,sessionID:%@,%@,%@,Updating InitiatorContact, transaction,%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) RTFingerprintManager *fingerprintManager; // @synthesize fingerprintManager=_fingerprintManager;
-@property(readonly, nonatomic) NSMutableArray *futureAccessPoints; // @synthesize futureAccessPoints=_futureAccessPoints;
-@property(readonly, nonatomic) NSMutableArray *futureLocations; // @synthesize futureLocations=_futureLocations;
-@property(readonly, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(readonly, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool registeredForNotifications; // @synthesize registeredForNotifications=_registeredForNotifications;
-@property(readonly, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
 
 @end
 

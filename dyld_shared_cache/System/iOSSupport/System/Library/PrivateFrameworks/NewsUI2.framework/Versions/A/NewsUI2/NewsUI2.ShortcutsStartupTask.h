@@ -7,13 +7,6 @@
 @interface NewsUI2.ShortcutsStartupTask
 {
     id executionPhase;
-    id shortcutService;
-    id shortcutList;
-    id subscriptionController;
-    id shortcutsOnboardingManager;
-    id configurationManager;
-    id feedPersonalizing;
-    id bundleSubscriptionManager;
 }
 
 @end

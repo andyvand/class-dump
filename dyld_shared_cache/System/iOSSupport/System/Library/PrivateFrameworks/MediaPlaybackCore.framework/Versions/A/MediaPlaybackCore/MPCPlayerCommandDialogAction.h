@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCMediaRemoteController, MPRemoteCommandHandlerDialogAction, NSString;
+@class MPRemoteCommandHandlerDialogAction, NSString;
 
 @interface MPCPlayerCommandDialogAction
 {
     MPRemoteCommandHandlerDialogAction *_action;
-    MPCMediaRemoteController *_controller;
 }
 
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (void)c}@ %{public}@;
 - (id)dern PIA;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *localizedTitle;
-@property(readonly, nonatomic) long long type;
 
 @end
 

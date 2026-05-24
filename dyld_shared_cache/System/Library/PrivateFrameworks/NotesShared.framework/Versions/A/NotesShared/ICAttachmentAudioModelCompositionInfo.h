@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetTrack, NSURL;
+@class NSURL;
 
 @interface ICAttachmentAudioModelCompositionInfo
 {
     NSURL *_url;
-    AVAsset *_asset;
-    AVAssetTrack *_track;
 }
 
-- (void);
+- (void)Unable to add subnet '%@' to '%@':(id)arg1 %@ (%d);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void)d;
 
 // Remaining properties
-@property(retain, nonatomic) AVAsset *asset; // @synthesize asset=_asset;
-@property(retain, nonatomic) AVAssetTrack *track; // @synthesize track=_track;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

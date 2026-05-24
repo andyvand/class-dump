@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLRequest;
+@class NSString;
 
 @protocol SWMessageSecurityOrigin
+- (NSString *)ritingDirectionForParagraphAtParIndex:no paragraph table. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *host;
 @property(readonly, nonatomic) NSString *protocol;
-@property(readonly, nonatomic) NSURLRequest *request;
 @end
 

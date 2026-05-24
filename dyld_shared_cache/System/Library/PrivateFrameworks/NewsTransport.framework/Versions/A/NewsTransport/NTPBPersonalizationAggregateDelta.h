@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBPersonalizationAggregateDelta
 {
     struct {
@@ -13,54 +11,41 @@
         unsigned long long count;
         unsigned long long size;
     } _events;
-    double _defaultClicks;
-    double _defaultImpressions;
-    double _groupBias;
-    double _impressionBias;
-    unsigned long long _timestamp;
-    NSString *_featureKey;
-    struct {
-        unsigned int defaultClicks:1;
-        unsigned int defaultImpressions:1;
-        unsigned int groupBias:1;
-        unsigned int impressionBias:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)effectiveSaliencyAreasFromTiledVisionSaliencyAreas:(double)arg1;
+- (void)dataSourceManagers;
+- (void)dataSectionArrayController:(_Bool)arg1 associatedObjectForTransformedObject: /* Error: Ran out of types for this method. */;
+- (void)currentImageGenerator;
+- (void)currentImageGeneration;
+- (void)createTopHeaderLayoutForSectionedLayout:(double)arg1 dataSource:spec:outShouldFloat: /* Error: Ran out of types for this method. */;
+- (void)createInitialPhotosDataSourceForDataSourceManager:(id)arg1;
+- (void)countLabel;
+- (void)countForCurationType:(double)arg1;
 - (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (id);
-- (double);
-- (double);
+- (_Bool)backingAlignedRect:options: /* Error: Ran out of types for this method. */;
+- (_Bool)avatarFromParticipantWithID:withPhotoLibrary:plPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (_Bool)autocompleteFetch:willAdjustResults: /* Error: Ran out of types for this method. */;
+- (_Bool)attributes;
+- (_Bool)attributedSubtitle2;
+- (double)assetChangeTimeInterval;
+- (id)applySpriteChangeDetails:countAfterChanges:initialState:modifyState: /* Error: Ran out of types for this method. */;
+- (double)animationCurve;
+- (double)animationController;
 - (void);
 - (unsigned long long);
 - (unsigned int);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)�;
+- (void)ZR;
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)user home directory for %@ at %@;
+- (_Bool)__objc_const;
+- (_Bool)So22FCFeedRequestOperationCSgXw;
 - (void);
 - (unsigned int *);
 - (void);
@@ -68,20 +53,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double defaultClicks; // @synthesize defaultClicks=_defaultClicks;
-@property(nonatomic) double defaultImpressions; // @synthesize defaultImpressions=_defaultImpressions;
-@property(readonly, nonatomic) unsigned int *events;
-@property(readonly, nonatomic) unsigned long long eventsCount;
-@property(retain, nonatomic) NSString *featureKey; // @synthesize featureKey=_featureKey;
-@property(nonatomic) double groupBias; // @synthesize groupBias=_groupBias;
-@property(nonatomic) _Bool hasDefaultClicks;
-@property(nonatomic) _Bool hasDefaultImpressions;
 @property(readonly, nonatomic) _Bool hasFeatureKey;
-@property(nonatomic) _Bool hasGroupBias;
-@property(nonatomic) _Bool hasImpressionBias;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) double impressionBias; // @synthesize impressionBias=_impressionBias;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

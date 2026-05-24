@@ -12,7 +12,6 @@
 
 
 // Remaining properties
-@property unsigned long long length; // @dynamic length;
 @property(readonly) void *mutableBytes; // @dynamic mutableBytes;
 @end
 

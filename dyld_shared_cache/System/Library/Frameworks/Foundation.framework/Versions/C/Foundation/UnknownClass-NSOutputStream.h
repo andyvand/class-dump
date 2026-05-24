@@ -7,8 +7,8 @@
 @interface UnknownClass (NSOutputStream)
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)a;
++ (id);
 + (id)ÊÄ»8;
 - (CDStruct_87dc826d);
 - (void);

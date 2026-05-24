@@ -8,10 +8,6 @@
 {
     id _storeName;
     id _modelIdentifier;
-    id context;
-    id _privatePersistentStore;
-    id server;
-    id $__lazy_storage_$_persistentContainer;
 }
 
 @end

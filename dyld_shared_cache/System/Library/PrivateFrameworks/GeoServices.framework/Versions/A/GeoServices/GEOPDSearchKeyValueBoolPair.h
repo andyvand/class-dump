@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKeyValueBoolPair
 {
     NSString *_key;
-    _Bool _value;
-    CDStruct_38ef1b98 _flags;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)ative dictionary is a %@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)s_stringSubstituteType"b1};
-- (id)ion;
+- (id)_postFusionCorrection;
 - (id)¨CdDE;
 - (void);
 

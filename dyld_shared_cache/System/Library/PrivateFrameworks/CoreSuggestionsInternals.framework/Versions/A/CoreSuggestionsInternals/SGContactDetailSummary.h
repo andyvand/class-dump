@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SGContactDetailSummary
 {
     NSArray *_phones;
-    NSString *_email;
-    NSArray *_socialProfileIdentifiers;
 }
 
 - (id);
@@ -22,9 +20,7 @@
 - (void)ä;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *email; // @synthesize email=_email;
 @property(copy, nonatomic) NSArray *phones; // @synthesize phones=_phones;
-@property(copy, nonatomic) NSArray *socialProfileIdentifiers; // @synthesize socialProfileIdentifiers=_socialProfileIdentifiers;
 
 @end
 

@@ -6,24 +6,14 @@
 
 #import <CoreData/NSPropertyDescription.h>
 
-@class NSAttributeDescription, NSExpression, NSString;
+@class NSString;
 
 @interface NSExpressionDescription : NSPropertyDescription
 {
     id _reservedtype1_1;
-    id _reservedtype1_2;
-    unsigned long long _reservedtype1_3;
-    id _reservedtype1_4;
-    unsigned long long _reservedtype1_5;
-    id _reservedtype1_6;
-    void *_reservedtype2_1;
-    void *_reservedtype2_2;
-    NSAttributeDescription *_underlyingAttribute;
-    NSExpression *_expression;
-    unsigned long long _expressionResultType;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -41,9 +31,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *attributeValueClassName;
-@property(retain) NSExpression *expression;
-@property unsigned long long expressionResultType;
-@property(readonly, copy) NSString *valueTransformerName;
 
 @end
 

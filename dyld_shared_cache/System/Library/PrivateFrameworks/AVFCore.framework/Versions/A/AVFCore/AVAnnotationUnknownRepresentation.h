@@ -6,20 +6,19 @@
 
 #import <AVFCore/AVAnnotationRepresentation.h>
 
-@class NSData, NSDictionary;
+@class NSDictionary;
 
 @interface AVAnnotationUnknownRepresentation : AVAnnotationRepresentation
 {
     NSDictionary *_properties;
-    NSData *_binaryData;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)B;
+- (_Bool);
 
 @end
 

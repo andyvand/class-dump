@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol HAP2EncodedRequest;
+
 @protocol HAP2AccessoryServerEncoding
+- (id <HAP2EncodedRequest>);
+- (NSArray *)W;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long encodingFeatures;

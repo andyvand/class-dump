@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (id)odedSnippetActionToolInvocation;
+- (id)encodedSnippetActionToolInvocation;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *fileURLs; // @synthesize fileURLs=_fileURLs;

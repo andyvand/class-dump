@@ -6,17 +6,9 @@
 
 #import <PassKitCore/PKPassUpcomingPassInformationEntryMetadata.h>
 
-@class NSString, PKLocation, PKSeatingInformation;
-
 @interface PKPassUpcomingPassInformationEntryMetadataEvent : PKPassUpcomingPassInformationEntryMetadata
 {
     _Bool _unannounced;
-    _Bool _undetermined;
-    _Bool _allDay;
-    NSString *_venueName;
-    NSString *_venueRegionName;
-    PKLocation *_venueLocation;
-    PKSeatingInformation *_seatingInformation;
 }
 
 + (_Bool)0@ù
@@ -29,19 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool)erlayRequest:(id)arg1 urlRequest:secureDictionary:dictionary: /* Error: Ran out of types for this method. */;
+- (void)selfMasterChannel;
+- (_Bool)configureOverlayRequest:(id)arg1 urlRequest:secureDictionary:dictionary: /* Error: Ran out of types for this method. */;
 - (void)tionName:%@ requiresUserInteraction:%d, contactPoint:%@, sourceAddress:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAllDay) _Bool allDay; // @synthesize allDay=_allDay;
-@property(readonly, nonatomic) PKSeatingInformation *seatingInformation; // @synthesize seatingInformation=_seatingInformation;
 @property(readonly, nonatomic, getter=isUnannounced) _Bool unannounced; // @synthesize unannounced=_unannounced;
-@property(readonly, nonatomic, getter=isUndetermined) _Bool undetermined; // @synthesize undetermined=_undetermined;
-@property(readonly, nonatomic) PKLocation *venueLocation; // @synthesize venueLocation=_venueLocation;
-@property(readonly, copy, nonatomic) NSString *venueName; // @synthesize venueName=_venueName;
-@property(readonly, copy, nonatomic) NSString *venueRegionName; // @synthesize venueRegionName=_venueRegionName;
 
 @end
 

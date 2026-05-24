@@ -14,7 +14,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id):(struct _NSZone *)arg1 lossImageSize:labelsDescriptor:weightsDescriptor:...] labels.length (%lu) is invalid /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long exitReason;

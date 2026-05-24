@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly) NSString *text;
-@property(readonly) unsigned long long textRegionType;
 @end
 

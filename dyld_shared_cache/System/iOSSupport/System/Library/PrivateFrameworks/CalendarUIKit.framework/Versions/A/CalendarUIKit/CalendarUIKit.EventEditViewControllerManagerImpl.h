@@ -9,13 +9,6 @@
 @interface CalendarUIKit.EventEditViewControllerManagerImpl
 {
     id delegate;
-    id isEditing;
-    id allowsEditing;
-    id needsInlineEditButton;
-    id eventCreationMethod;
-    id hasViewModel;
-    id $__lazy_storage_$_viewModel;
-    id $__lazy_storage_$_viewController;
 }
 
 - (void);
@@ -32,7 +25,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -44,12 +37,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)putElementsController",&,N,V_elementsController;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)ocationPrecisionDeterminedNotification: /* Error: Ran out of types for this method. */;
+- (void)locationPrecisionDeterminedNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) UIViewController *viewController;

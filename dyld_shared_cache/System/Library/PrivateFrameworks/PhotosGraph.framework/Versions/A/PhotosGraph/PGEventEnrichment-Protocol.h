@@ -4,15 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSArray, NSString, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection, PHAssetCollection, PHPhotoLibrary;
 
 @protocol PGEventEnrichment
+- (_Bool)__objc_arraydata__DATA_CONST;
+- (_Bool);
+- (_Bool)__objc_methlist;
+- (PHAssetCollection *)set_didRegisterMenuClosedNotification:(PHPhotoLibrary *)arg1;
+- (NSArray *)screenDescriberDidFinishDescribingElement: /* Error: Ran out of types for this method. */;
+- (PGGraphMomentNodeCollection *)screenDescriberContentNotFoundForElement: /* Error: Ran out of types for this method. */;
+- (PGGraphPersonNodeCollection *)_elementFilterStrategy;
+- (PGGraphPersonNodeCollection *)__currentInputMethodWindow;
 
 // Remaining properties
-@property(readonly) _Bool isAggregation;
-@property(readonly) _Bool isLongTrip;
-@property(readonly) _Bool isShortTrip;
-@property(readonly) _Bool isTrip;
 @property(readonly, nonatomic) NSString *uuid;
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL, NWEndpoint;
+@class NSArray, NWEndpoint;
 
 @interface PKPrinterBonjourEndpoint
 {
     NSArray *_resolvedCallouts;
-    NWEndpoint *_nwEndpoint;
-    NSURL *_resolvedURL;
-    NSDictionary *_resolvedTXT;
-    int _provenance;
-    NSString *_provenanceIdentifier;
 }
 
 + (id);
@@ -31,41 +26,27 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)?	;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (int);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)V=;
 - (void);
 - (id);
+- (id)hasBreakpoint;
 - (id);
-- (id);
-- (void);
+- (void)onController;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *displayNameForPrintKitUI;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isIPPS;
 @property(retain) NWEndpoint *nwEndpoint; // @synthesize nwEndpoint=_nwEndpoint;
-@property(readonly) NSString *persistentNameRepresentationForPrintKitUI;
-@property(readonly) int provenance; // @synthesize provenance=_provenance;
-@property(readonly) NSString *provenanceIdentifier; // @synthesize provenanceIdentifier=_provenanceIdentifier;
-@property(retain) NSDictionary *resolvedTXT; // @synthesize resolvedTXT=_resolvedTXT;
-@property(retain) NSURL *resolvedURL; // @synthesize resolvedURL=_resolvedURL;
-@property(readonly) Class superclass;
 
 @end
 

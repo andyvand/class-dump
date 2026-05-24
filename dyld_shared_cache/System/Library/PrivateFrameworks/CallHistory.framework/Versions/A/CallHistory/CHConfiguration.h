@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDelegateController, NSString;
+@class CHDelegateController;
 @protocol CHConfigurationDelegate, CHKeyValueDataSource;
 
 @interface CHConfiguration
 {
     id <CHKeyValueDataSource> _dataSource;
-    CHDelegateController<CHConfigurationDelegate> *_delegateController;
 }
 
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (void);
-- (_Bool)ated;
+- (_Bool)_originated;
 - (id)Ñßw<$;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCloudKitEnabled) _Bool cloudKitEnabled;
-@property(readonly, nonatomic) id <CHKeyValueDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) CHDelegateController<CHConfigurationDelegate> *delegateController; // @synthesize delegateController=_delegateController;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long keepCallsTimeIntervalType;
-@property(readonly) Class superclass;
 
 @end
 

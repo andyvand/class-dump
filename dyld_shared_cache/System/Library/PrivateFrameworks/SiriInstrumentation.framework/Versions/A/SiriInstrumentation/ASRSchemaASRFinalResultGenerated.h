@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ASRSchemaASRFinalResultGenerated : SISchemaInstrumentationMessage
 {
     NSArray *_tokenSilenceStartTimeInNsLists;
-    NSArray *_correctPartialResultIndexLists;
-    _Bool _isAfterResume;
-    NSArray *_correctAlignedPartialResultIndexLists;
-    NSArray *_correctAlignedUnfilteredPartialResultIndexLists;
-    struct {
-        unsigned int isAfterResume:1;
-    } _has;
 }
 
 - (id);
@@ -26,13 +19,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,24 +46,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)sharedAccessoryManager;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)oiceTriggerSettings;
+- (id)siriVoiceTriggerSettings;
 - (id)¢Ì¢P£à¤(¥x§P¨;
 - (id);
 - (void)dS¨ÿò¬¹';
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *correctAlignedPartialResultIndexLists; // @synthesize correctAlignedPartialResultIndexLists=_correctAlignedPartialResultIndexLists;
-@property(copy, nonatomic) NSArray *correctAlignedUnfilteredPartialResultIndexLists; // @synthesize correctAlignedUnfilteredPartialResultIndexLists=_correctAlignedUnfilteredPartialResultIndexLists;
-@property(copy, nonatomic) NSArray *correctPartialResultIndexLists; // @synthesize correctPartialResultIndexLists=_correctPartialResultIndexLists;
-@property(nonatomic) _Bool hasIsAfterResume;
-@property(nonatomic) _Bool isAfterResume; // @synthesize isAfterResume=_isAfterResume;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *tokenSilenceStartTimeInNsLists; // @synthesize tokenSilenceStartTimeInNsLists=_tokenSilenceStartTimeInNsLists;
 
 @end

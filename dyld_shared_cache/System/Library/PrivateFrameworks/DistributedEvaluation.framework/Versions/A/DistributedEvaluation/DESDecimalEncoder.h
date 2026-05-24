@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-- (id);
++ (id)onGrainSummary.bundleId;
+- (id)uestCreated.resolvedParameters.parameters.candidate.value.collection.values.enumeration.typeIdentifier.custom.bundleId;
 
 @end
 

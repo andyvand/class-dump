@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, PHAssetCollection, PHCollectionList, PHPhotoLibrary, PLQuery, PXFetchResultCountObserver, PXLabeledValue, PXSmartAlbumPhotoKitEditingContext;
-@protocol PXSmartAlbumQueryDelegate;
+@class NSMutableArray;
 
 @interface PXSmartAlbumPhotoKitQuery
 {
     NSMutableArray *_conditions;
-    PHAssetCollection *_albumToEdit;
-    PHCollectionList *_collectionList;
-    PHPhotoLibrary *_photoLibrary;
-    PXSmartAlbumPhotoKitEditingContext *_editingContext;
-    PLQuery *_query;
-    PXFetchResultCountObserver *_fetchResultCountObserver;
-    _Bool _canPersistChanges;
-    NSString *_title;
-    NSArray *_conjunctionValues;
-    PXLabeledValue *_conjunctionValue;
-    NSString *_statusString;
-    id <PXSmartAlbumQueryDelegate> _delegate;
 }
 
 + (id);
@@ -43,10 +30,10 @@
 - (id);
 - (void);
 - (id);
+- (id)=;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)24;
+- (void)setDisplaysFPS:(id)arg1;
 - (void);
 - (void)
 × ;
@@ -58,19 +45,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool canPersistChanges; // @synthesize canPersistChanges=_canPersistChanges;
-@property(retain, nonatomic) NSArray *conditions; // @synthesize conditions=_conditions;
-@property(retain, nonatomic) PXLabeledValue *conjunctionValue; // @synthesize conjunctionValue=_conjunctionValue;
-@property(readonly, nonatomic) NSArray *conjunctionValues; // @synthesize conjunctionValues=_conjunctionValues;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXSmartAlbumQueryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *statusString; // @synthesize statusString=_statusString;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

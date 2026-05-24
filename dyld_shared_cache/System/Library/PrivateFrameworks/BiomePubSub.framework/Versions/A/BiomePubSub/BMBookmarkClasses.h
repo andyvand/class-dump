@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 @interface BMBookmarkClasses
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_allowed;
-    _Bool _addedBiomeStorageClasses;
-    _Bool _addedBiomeStreamsClasses;
-    _Bool _addedCascadeSetsClasses;
 }
 
 + (id);
-- (id);
+- (id)promiseConfiguration;
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

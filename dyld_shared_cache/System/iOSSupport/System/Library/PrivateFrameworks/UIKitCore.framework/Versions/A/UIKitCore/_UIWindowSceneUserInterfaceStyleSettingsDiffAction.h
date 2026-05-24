@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIApplicationSceneSettingsDiffInspector;
+@class UIApplicationSceneSettingsDiffInspector;
 
 @interface _UIWindowSceneUserInterfaceStyleSettingsDiffAction
 {
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsUserInterfaceStyleDiffInspector;
 }
 
-- (id);
+- (id)__MPModelRelationshipPlaylistAuthorSocialProfile__MAPPING_MISSING__;
 - (void);
-- (void)butesMaskingToBackgroundConfiguration;
+- (void)_appliesLayoutAttributesMaskingToBackgroundConfiguration;
 - (void)lbar;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIApplicationSceneSettingsDiffInspector *sceneSettingsUserInterfaceStyleDiffInspector; // @synthesize sceneSettingsUserInterfaceStyleDiffInspector=_sceneSettingsUserInterfaceStyleDiffInspector;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,18 +9,6 @@
 @interface SwiftUI.SwiftUISearchController
 {
     id searchItem;
-    id $__lazy_storage_$__searchBar;
-    id targetController;
-    id pendingIsActive;
-    id pendingIsActiveAnimated;
-    id lastToolbarBehavior;
-    id coordinator;
-    id suggestions;
-    id configuration;
-    id customAccessoryHost;
-    id customAccessoryRecoveryGesture;
-    id customAccessoryContent;
-    id allowsSecureDrawing;
 }
 
 + (_Bool);
@@ -29,17 +17,17 @@
 - (id);
 - (void);
 - (id);
+- (void)play;
 - (void);
+- (void)3;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)embedReturnedMarkupURL:attachment:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)Vôÿ;
 - (void);
-- (void)stViewBase;
+- (void)PlatformListViewBase;
 - (void);
 - (long long);
 - (void)eedbackGenerator.swift;

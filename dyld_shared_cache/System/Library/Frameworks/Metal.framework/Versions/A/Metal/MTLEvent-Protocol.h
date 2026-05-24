@@ -8,10 +8,11 @@
 @protocol MTLDevice;
 
 @protocol MTLEvent
+- (NSString *){;
+- (id <MTLDevice>)ideographmooncircle;
 - (void)8@16{_NSRange=QQ}24I40;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(copy) NSString *label;
 @end
 

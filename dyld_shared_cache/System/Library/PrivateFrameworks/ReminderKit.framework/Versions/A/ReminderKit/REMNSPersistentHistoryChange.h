@@ -6,16 +6,11 @@
 
 #import <ReminderKit/REMChangeObject.h>
 
-@class NSArray, NSManagedObjectID, REMChangeTransaction, REMObjectID, _REMNSPersistentHistoryChangeStorage;
+@class _REMNSPersistentHistoryChangeStorage;
 
 @interface REMNSPersistentHistoryChange : REMChangeObject
 {
     _Bool _isCoalesced;
-    REMChangeTransaction *_internal_ChangeTransaction;
-    NSArray *_coalescedChanges;
-    _REMNSPersistentHistoryChangeStorage *_storage;
-    NSManagedObjectID *_persistentHistoryChangeObjectID;
-    REMObjectID *_cachedChangedREMObjectID;
 }
 
 + (_Bool);
@@ -37,25 +32,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);;
 - (id);
 - (long long);
-- (id);
+- (id)ationApplePayWarsawNoDFR);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)B�;
 - (long long);
 - (void);
 - (void)ñr °1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) REMObjectID *cachedChangedREMObjectID; // @synthesize cachedChangedREMObjectID=_cachedChangedREMObjectID;
-@property(retain, nonatomic) NSArray *coalescedChanges; // @synthesize coalescedChanges=_coalescedChanges;
-@property(nonatomic) __weak REMChangeTransaction *internal_ChangeTransaction; // @synthesize internal_ChangeTransaction=_internal_ChangeTransaction;
-@property(nonatomic) _Bool isCoalesced; // @synthesize isCoalesced=_isCoalesced;
-@property(readonly) NSManagedObjectID *persistentHistoryChangeObjectID; // @synthesize persistentHistoryChangeObjectID=_persistentHistoryChangeObjectID;
 @property(retain) _REMNSPersistentHistoryChangeStorage *storage; // @synthesize storage=_storage;
 
 @end

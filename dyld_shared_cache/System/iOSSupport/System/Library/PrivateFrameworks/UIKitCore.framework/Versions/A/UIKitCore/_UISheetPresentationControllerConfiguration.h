@@ -4,37 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _UISheetPresentationControllerAppearance;
-
 __attribute__((visibility("hidden")))
 @interface _UISheetPresentationControllerConfiguration
 {
     _Bool __shouldScaleDownBehindDescendantSheets;
-    _Bool __peeksWhenFloating;
-    _Bool __wantsFullScreen;
-    _Bool __wantsBottomAttached;
-    _Bool __wantsEdgeAttachedInCompactHeight;
-    _Bool __widthFollowsPreferredContentSizeWhenEdgeAttached;
-    _Bool __prefersGrabberVisible;
-    _Bool __insetsPresentedViewForGrabber;
-    _Bool __prefersScrollingResizesWhenDetentDirectionIsDown;
-    _Bool __prefersScrollingExpandsToLargerDetentWhenScrolledToEdge;
-    double __grabberTopSpacing;
-    double __additionalMinimumTopInset;
-    long long __mode;
-    double __cornerRadiusForPresentationAndDismissal;
-    double __preferredCornerRadius;
-    double __preferredShadowOpacity;
-    double __shadowRadius;
-    NSArray *__detents;
-    NSString *__selectedDetentIdentifier;
-    _UISheetPresentationControllerAppearance *__standardAppearance;
-    _UISheetPresentationControllerAppearance *__edgeAttachedCompactHeightAppearance;
-    _UISheetPresentationControllerAppearance *__floatingAppearance;
-    long long __detentDirectionWhenFloating;
-    double __hostParentDepthLevel;
-    struct CGRect __hostParentStackAlignmentFrame;
-    struct CGRect __hostParentFullHeightUntransformedFrameForDepthLevel;
 }
 
 + (id);
@@ -46,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -57,17 +30,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (long long);
+- (id)k;
+- (void);
+- (void);
+- (double)privateListeningEnabled;
+- (double)__MPModelRelationshipPlayEventAlbum__MAPPING_MISSING__;
 - (id);
-- (void);
-- (void);
-- (double);
-- (double);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (double)
 × ;
 - (void)1\Ð1Â0@ù
@@ -85,20 +58,20 @@ __attribute__((visibility("hidden")))
 - (double)× ;
 - (void)2B40@?44;
 - (_Bool)oardImplHeldOperation";
-- (void)ngedSettings:(struct CGRect)arg1;
-- (void)exer;
-- (void)bilityForRepresentationWithTypeIdentifier:(long long)arg1;
-- (void)isplayedViewControllers:(long long)arg1;
-- (void)tClicks:(_Bool)arg1;
-- (void)operty;
-- (void)ButtonItem;
-- (double)tingOverlayView;
-- (double)ShouldRespectGestureServerInstructions;
-- (double)veCandidates;
+- (void)updateForChangedSettings:(struct CGRect)arg1;
+- (void)sharedMultiplexer;
+- (void)itemProviderVisibilityForRepresentationWithTypeIdentifier:(long long)arg1;
+- (void)encodeRestorableStateWithCoder:(long long)arg1 includingSelectedTextAndDisplayedViewControllers: /* Error: Ran out of types for this method. */;
+- (void)_setIgnoreHeadsetClicks:(_Bool)arg1;
+- (void)_positionTrackingProperty;
+- (void)_originatingButtonItem;
+- (double)_existingOverlayView;
+- (double)_containedGestureRecognizersShouldRespectGestureServerInstructions;
+- (double)_autocorrectionToAcceptBeforeProgressiveCandidates;
 - (void)UIEdgeInsets=dddd},N,V_minimumContainerInsets;
-- (void)splayType:(double)arg1;
-- (id)eChange: /* Error: Ran out of types for this method. */;
-- (void)entInternalAdditions;
+- (void)setDisplayType:(double)arg1;
+- (id)draggingChangedInSource:withTranslation:velocity:animateChange: /* Error: Ran out of types for this method. */;
+- (void)_UIOrderedLayoutArrangementInternalAdditions;
 - (void)ÿÿÿÿ´;
 - (id)<ä?@AlB	èB
 CDXEHFG;
@@ -112,39 +85,7 @@ __attribute__((visibility("hidden")))
 - (id)°ÞÅÿ¤;
 
 // Remaining properties
-@property(nonatomic, setter=_setAdditionalMinimumTopInset:) double _additionalMinimumTopInset; // @synthesize _additionalMinimumTopInset=__additionalMinimumTopInset;
-@property(nonatomic, setter=_setCornerRadiusForPresentationAndDismissal:) double _cornerRadiusForPresentationAndDismissal; // @synthesize _cornerRadiusForPresentationAndDismissal=__cornerRadiusForPresentationAndDismissal;
-@property(nonatomic, setter=_setDetentDirectionWhenFloating:) long long _detentDirectionWhenFloating; // @synthesize _detentDirectionWhenFloating=__detentDirectionWhenFloating;
-@property(copy, nonatomic, setter=_setDetents:) NSArray *_detents; // @synthesize _detents=__detents;
-@property(retain, nonatomic, setter=_setEdgeAttachedCompactHeightAppearance:) _UISheetPresentationControllerAppearance *_edgeAttachedCompactHeightAppearance; // @synthesize _edgeAttachedCompactHeightAppearance=__edgeAttachedCompactHeightAppearance;
-@property(retain, nonatomic, setter=_setFloatingAppearance:) _UISheetPresentationControllerAppearance *_floatingAppearance; // @synthesize _floatingAppearance=__floatingAppearance;
-@property(nonatomic, setter=_setGrabberTopSpacing:) double _grabberTopSpacing; // @synthesize _grabberTopSpacing=__grabberTopSpacing;
-@property(nonatomic, setter=_setHostParentDepthLevel:) double _hostParentDepthLevel; // @synthesize _hostParentDepthLevel=__hostParentDepthLevel;
-@property(nonatomic, setter=_setHostParentFullHeightUntransformedFrameForDepthLevel:) struct CGRect _hostParentFullHeightUntransformedFrameForDepthLevel; // @synthesize _hostParentFullHeightUntransformedFrameForDepthLevel=__hostParentFullHeightUntransformedFrameForDepthLevel;
-@property(nonatomic, setter=_setHostParentStackAlignmentFrame:) struct CGRect _hostParentStackAlignmentFrame; // @synthesize _hostParentStackAlignmentFrame=__hostParentStackAlignmentFrame;
-@property(nonatomic, setter=_setInsetsPresentedViewForGrabber:) _Bool _insetsPresentedViewForGrabber; // @synthesize _insetsPresentedViewForGrabber=__insetsPresentedViewForGrabber;
-@property(nonatomic, setter=_setMode:) long long _mode; // @synthesize _mode=__mode;
-@property(nonatomic, setter=_setPeeksWhenFloating:) _Bool _peeksWhenFloating; // @synthesize _peeksWhenFloating=__peeksWhenFloating;
-@property(nonatomic, setter=_setPreferredCornerRadius:) double _preferredCornerRadius; // @synthesize _preferredCornerRadius=__preferredCornerRadius;
-@property(nonatomic, setter=_setPreferredShadowOpacity:) double _preferredShadowOpacity; // @synthesize _preferredShadowOpacity=__preferredShadowOpacity;
-@property(nonatomic, setter=_prefersGrabberVisible:) _Bool _prefersGrabberVisible; // @synthesize _prefersGrabberVisible=__prefersGrabberVisible;
-@property(nonatomic, setter=_setPrefersScrollingExpandsToLargerDetentWhenScrolledToEdge:) _Bool _prefersScrollingExpandsToLargerDetentWhenScrolledToEdge; // @synthesize _prefersScrollingExpandsToLargerDetentWhenScrolledToEdge=__prefersScrollingExpandsToLargerDetentWhenScrolledToEdge;
-@property(nonatomic, setter=_setPrefersScrollingResizesWhenDetentDirectionIsDown:) _Bool _prefersScrollingResizesWhenDetentDirectionIsDown; // @synthesize _prefersScrollingResizesWhenDetentDirectionIsDown=__prefersScrollingResizesWhenDetentDirectionIsDown;
-@property(copy, nonatomic, setter=_setSelectedDetentIdentifier:) NSString *_selectedDetentIdentifier; // @synthesize _selectedDetentIdentifier=__selectedDetentIdentifier;
-@property(nonatomic, setter=_setShadowRadius:) double _shadowRadius; // @synthesize _shadowRadius=__shadowRadius;
 @property(nonatomic, setter=_setShouldScaleDownBehindDescendantSheets:) _Bool _shouldScaleDownBehindDescendantSheets; // @synthesize _shouldScaleDownBehindDescendantSheets=__shouldScaleDownBehindDescendantSheets;
-@property(retain, nonatomic, setter=_setStandardAppearance:) _UISheetPresentationControllerAppearance *_standardAppearance; // @synthesize _standardAppearance=__standardAppearance;
-@property(nonatomic, setter=_setWantsBottomAttached:) _Bool _wantsBottomAttached; // @synthesize _wantsBottomAttached=__wantsBottomAttached;
-@property(nonatomic, setter=_setWantsEdgeAttachedInCompactHeight:) _Bool _wantsEdgeAttachedInCompactHeight; // @synthesize _wantsEdgeAttachedInCompactHeight=__wantsEdgeAttachedInCompactHeight;
-@property(nonatomic, setter=_setWantsFullScreen:) _Bool _wantsFullScreen; // @synthesize _wantsFullScreen=__wantsFullScreen;
-@property(nonatomic, setter=_setWidthFollowsPreferredContentSizeWhenEdgeAttached:) _Bool _widthFollowsPreferredContentSizeWhenEdgeAttached; // @synthesize _widthFollowsPreferredContentSizeWhenEdgeAttached=__widthFollowsPreferredContentSizeWhenEdgeAttached;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

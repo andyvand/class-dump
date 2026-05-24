@@ -9,8 +9,6 @@
 @protocol SSRVoiceProfileRetrainer
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool implicitTrainingRequired;
 @property(readonly, nonatomic) NSURL *modelFilePath;
-@property(readonly, nonatomic) unsigned long long retrainerType;
 @end
 

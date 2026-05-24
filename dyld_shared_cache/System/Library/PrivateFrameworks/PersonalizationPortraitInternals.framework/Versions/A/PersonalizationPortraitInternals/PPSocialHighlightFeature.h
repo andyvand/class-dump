@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PPSocialHighlightFeature
 {
     double _value;
-    NSString *_name;
-    CDStruct_01ef6375 _has;
 }
 
 - (void);
@@ -24,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (id);
@@ -34,9 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double value; // @synthesize value=_value;
 
 @end
 

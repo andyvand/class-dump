@@ -5,22 +5,12 @@
 //
 
 @protocol AMSDeviceClass
+- (_Bool)t"56;
+- (_Bool);
 - (_Bool)Êy{Ôäï]ÑCÝbønd.|"á]j°F«t¼ÛOýü£¹ãð>®»O¦X¥C;Ä,C22Þ¤M&RS*ÆÚjn0Äfó'ÙkÑÕöM»êîìôâh}¢bc®ÿ;g%úã¬]²QãÍxJÓt×Z4¯wD82`ª7
 ËOüÇÒú¼syBý¦\£äRËº*Æ;
 
 // Remaining properties
 @property(readonly) _Bool deviceIsAppleTV;
-@property(readonly) _Bool deviceIsAppleTVSimulator;
-@property(readonly) _Bool deviceIsAppleWatch;
-@property(readonly) _Bool deviceIsAppleWatchSimulator;
-@property(readonly) _Bool deviceIsAudioAccessory;
-@property(readonly) _Bool deviceIsComputeModule;
-@property(readonly) _Bool deviceIsMac;
-@property(readonly) _Bool deviceIsRealityDevice;
-@property(readonly) _Bool deviceIsRealityDeviceSimulator;
-@property(readonly) _Bool deviceIsiPad;
-@property(readonly) _Bool deviceIsiPadSimulator;
-@property(readonly) _Bool deviceIsiPhone;
-@property(readonly) _Bool deviceIsiPhoneSimulator;
 @end
 

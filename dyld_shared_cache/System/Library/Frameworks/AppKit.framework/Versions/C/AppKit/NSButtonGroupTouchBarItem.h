@@ -9,37 +9,31 @@
 @interface NSButtonGroupTouchBarItem : NSCustomTouchBarItem
 {
     unsigned long long _compressionOption;
-    unsigned long long _defaultButtonImagePosition;
-    double _preferredButtonWidth;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)und upload from a file %@ with %@ is not supported. Please reduce the file protection class.;
++ (id)ue sandbox extension for file %@, errno = %{errno}d;
++ (id)ot create upload task with corrupt resume data;
++ (id)sk:(id)arg1 )` delegate method.;
++ (id)sionDataTask, as remote session is unavailable;
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)set_usesNWLoader: /* Error: Ran out of types for this method. */;
+- (double)connection:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
 - (void);
-- (void);
+- (unsigned long long)ProtSpace - Error removing cred.  Error=%d, query=%@;
 - (unsigned long long);
-- (unsigned long long);
-- (double);
+- (double);
 - (void);
-- (void);
+- (void)6AG;
 - (void);
 - (id);
 
 // Remaining properties
-@property double buttonSpacing;
-@property unsigned long long compressionOption;
-@property unsigned long long defaultButtonImagePosition;
-@property double preferredButtonWidth;
 @property(readonly) long long viewCount;
 
 @end

@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID, SIRINLUParser, SIRINLURepetitionResult;
+@class NSArray;
 
 @interface SIRINLUUserParse
 {
     NSArray *_userDialogActs;
-    double _probability;
-    NSUUID *_nsUUID;
-    NSString *_parserId;
-    SIRINLURepetitionResult *_repetitionResult;
-    SIRINLUParser *_parser;
-    double _comparableProbability;
 }
 
 + (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)P;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)g quotation mark in string.;
 - (double);
 - (id);
 - (id);
@@ -46,12 +40,6 @@
 - (void)_common_App;
 
 // Remaining properties
-@property(nonatomic) double comparableProbability; // @synthesize comparableProbability=_comparableProbability;
-@property(retain, nonatomic) NSUUID *nsUUID; // @synthesize nsUUID=_nsUUID;
-@property(retain, nonatomic) SIRINLUParser *parser; // @synthesize parser=_parser;
-@property(retain, nonatomic) NSString *parserId; // @synthesize parserId=_parserId;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
-@property(retain, nonatomic) SIRINLURepetitionResult *repetitionResult; // @synthesize repetitionResult=_repetitionResult;
 @property(retain, nonatomic) NSArray *userDialogActs; // @synthesize userDialogActs=_userDialogActs;
 
 @end

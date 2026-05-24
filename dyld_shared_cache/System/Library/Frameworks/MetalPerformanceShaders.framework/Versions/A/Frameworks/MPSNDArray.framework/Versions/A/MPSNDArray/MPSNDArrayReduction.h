@@ -6,19 +6,14 @@
 
 #import <MPSNDArray/MPSNDArrayUnaryKernel.h>
 
-@class MPSNDArrayIdentity, NSArray;
-
 @interface MPSNDArrayReduction : MPSNDArrayUnaryKernel
 {
     unsigned long long _axis;
-    int _operation;
-    MPSNDArrayIdentity *_identity;
-    NSArray *_axes;
 }
 
 + (const struct MPSLibraryInfo *);
 - (id);
-- (void);
+- (void)k*;
 - (unsigned long long);
 - (id);
 - (id);
@@ -34,8 +29,6 @@
 - (int);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *axes; // @synthesize axes=_axes;
-@property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;
 @property(readonly, nonatomic) int operation; // @synthesize operation=_operation;
 
 @end

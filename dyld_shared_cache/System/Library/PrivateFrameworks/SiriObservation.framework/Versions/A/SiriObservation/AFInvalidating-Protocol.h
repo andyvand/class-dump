@@ -5,5 +5,6 @@
 //
 
 @protocol AFInvalidating
+- (void);
 @end
 

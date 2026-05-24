@@ -13,7 +13,7 @@
 + (Class);
 + (long long)@"NSDate",C,V_bookingDate;
 - (id);
-- (id)onSearchType:(id)arg1;
+- (id)StringAsLocationSearchType:(id)arg1;
 
 @end
 

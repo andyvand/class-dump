@@ -6,27 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLSchemaFLCandidateCategory, FLSchemaFLCandidateIdentifier, NSData;
+@class FLSchemaFLCandidateCategory;
 
 @interface FLSchemaFLCandidateEvaluation : SISchemaInstrumentationMessage
 {
     FLSchemaFLCandidateCategory *_candidateCategory;
-    FLSchemaFLCandidateIdentifier *_candidateIdentifier;
-    int _resolution;
-    int _outcome;
-    struct {
-        unsigned int resolution:1;
-        unsigned int outcome:1;
-    } _has;
-    _Bool _hasCandidateCategory;
-    _Bool _hasCandidateIdentifier;
 }
 
+- (void)!;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,36 +25,28 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)T;
+- (void)5!;
+- (unsigned long long)TKTonePickerView;
 - (int);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)i;
 - (id)geFallbackConfirmationOutcomeReceived";
-- (void)sClientEvent;
-- (id)stPassPolicyTriggered;
+- (void)hasPlusClientEvent;
+- (id)_hasRtsFirstPassPolicyTriggered;
 - (id)ø¯µ·;
-- (int)ForEntityInSec;
+- (int)timeSinceAppUsedForEntityInSec;
 - (void)Ñ$;
 
 // Remaining properties
 @property(retain, nonatomic) FLSchemaFLCandidateCategory *candidateCategory; // @synthesize candidateCategory=_candidateCategory;
-@property(retain, nonatomic) FLSchemaFLCandidateIdentifier *candidateIdentifier; // @synthesize candidateIdentifier=_candidateIdentifier;
-@property(nonatomic) _Bool hasCandidateCategory; // @synthesize hasCandidateCategory=_hasCandidateCategory;
-@property(nonatomic) _Bool hasCandidateIdentifier; // @synthesize hasCandidateIdentifier=_hasCandidateIdentifier;
-@property(nonatomic) _Bool hasOutcome;
-@property(nonatomic) _Bool hasResolution;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int outcome; // @synthesize outcome=_outcome;
-@property(nonatomic) int resolution; // @synthesize resolution=_resolution;
 
 @end
 

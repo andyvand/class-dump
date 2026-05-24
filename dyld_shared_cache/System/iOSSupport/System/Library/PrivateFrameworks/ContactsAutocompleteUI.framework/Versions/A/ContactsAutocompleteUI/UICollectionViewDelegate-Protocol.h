@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITargetedPreview, UIWindowSceneActivationConfiguration;
+
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)ifyDelegateOfSizeChange;
+- (UIWindowSceneActivationConfiguration *)(;
+- (UITargetedPreview *);
+- (_Bool);
+- (void)i@y?;
+- (_Bool)_notifyDelegateOfSizeChange;
 @end
 

@@ -4,114 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSProgress, NSString, NSURL, NSURLRequest, NSURLResponse, NSURLSessionDataTask, NSURLSessionTask, NSURLSessionTaskMetrics, NSURLSessionTaskTransactionMetrics, NWConcrete_nw_connection, NWURLError, NWURLSession, NWURLSessionDelegateWrapper, NWURLSessionMultipartParser, NWURLSessionRequestBodyInfo, NWURLSessionTaskConfiguration, NWURLSessionTaskMetrics;
-@protocol NSURLSessionTaskDelegate, NWURLLoader, NWURLSessionResponseConsumer, OS_dispatch_queue, OS_nw_activity, OS_nw_array, OS_nw_context, OS_nw_endpoint, OS_nw_http_cookie_storage, OS_nw_protocol_metadata, OS_sec_protocol_metadata;
-
 @interface NWURLSessionTask
 {
     struct os_unfair_lock_s progressLock;
-    _Bool _prefersIncrementalDelivery;
-    _Bool _automaticRetry;
-    _Bool __callCompletionHandlerInline;
-    _Bool __keepDownloadTaskFile;
-    _Bool __isTopLevelNavigation;
-    _Bool __preconnect;
-    _Bool _suspended;
-    _Bool _pendingRead;
-    unsigned char _retryCount;
-    _Bool _backoffInProgress;
-    _Bool _defaultUploadProgressState;
-    _Bool _defaultDownloadProgressState;
-    _Bool _performingServerTrustCallback;
-    _Bool _lastServerTrustVerifyResult;
-    _Bool _explicitlySetCookieStorage;
-    _Bool _disabledCredentialStorage;
-    float _priority;
-    NSObject<OS_nw_array> *_h1FallbackCache;
-    NSMutableDictionary *_appssoH1FallbackHeaders;
-    NSURLRequest *_originalRequest;
-    NSURLRequest *_currentRequest;
-    NSDate *_earliestBeginDate;
-    long long _countOfBytesClientExpectsToSend;
-    long long _countOfBytesClientExpectsToReceive;
-    long long _countOfBytesSent;
-    long long _countOfBytesReceived;
-    long long _countOfBytesExpectedToSend;
-    long long _countOfBytesExpectedToReceive;
-    NSString *_taskDescription;
-    struct __SecTrust *_secTrust;
-    double _backgroundSchedulingDelay;
-    NSObject<OS_nw_activity> *__nw_activity;
-    NSString *__pathToDownloadTaskFile;
-    NSString *__storagePartitionIdentifier;
-    NSURL *__siteForCookies;
-    CDUnknownBlockType __cookieTransformCallback;
-    NSArray *__resolvedCNAMEChain;
-    long long __bytesPerSecondLimit;
-    double __timeoutIntervalForResource;
-    NSObject<OS_nw_endpoint> *__hostOverride;
-    NSDictionary *__trailers;
-    NSString *__sourceApplicationBundleIdentifierForMobileAsset;
-    NSObject<OS_dispatch_queue> *_queue;
-    NWURLSessionDelegateWrapper *_publicDelegateWrapper;
-    NWURLSessionDelegateWrapper *_internalDelegateWrapper;
-    NSObject<OS_nw_protocol_metadata> *_clientMetadataForMetrics;
-    id <NWURLLoader> _loader;
-    NWURLSessionMultipartParser *_multipartParser;
-    NWURLError *_pendingError;
-    unsigned long long _redirectCount;
-    long long _internalState;
-    CDUnknownBlockType _pendingUpload;
-    CDUnknownBlockType _HTTPConnectionInfoHandler;
-    NSObject<OS_nw_context> *_sessionContext;
-    NWConcrete_nw_connection *_upgradedConnection;
-    long long _backgroundSchedulingPriorityInternal;
-    void *_resourceTimeoutTimer;
-    void *_requestTimeoutTimer;
-    void *_startTimeoutTimer;
-    void *_payloadTimeoutTimer;
-    NSProgress *_internalProgress;
-    NSProgress *_uploadProgress;
-    NSProgress *_downloadProgress;
-    NSData *_backtrace;
-    NSMutableArray *_serverTrustCallbackQueue;
-    NSObject<OS_sec_protocol_metadata> *_lastSecProtocolMetadata;
-    NWURLSession *_session;
-    NWURLSessionTaskConfiguration *_configuration;
-    double _timeoutIntervalForRequest;
-    double _timeoutIntervalForResource;
-    NWURLSessionRequestBodyInfo *_requestBody;
-    id <NWURLSessionResponseConsumer> _responseConsumer;
-    NSObject<OS_nw_http_cookie_storage> *_cookieStorage;
-    NWURLSessionTaskMetrics *_metrics;
-    double _startTime;
-    CDStruct_561ed401 _logDescription;
 }
 
-+ (_Bool);
++ (_Bool)te fake service responder;
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (struct __SecTrust *);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (void);
@@ -122,7 +43,7 @@
 - (id);
 - (void);
 - (long long);
-- (double);
+- (double)T;
 - (_Bool);
 - (id);
 - (void);
@@ -136,7 +57,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_s;
 - (_Bool);
 - (void);
 - (id);
@@ -150,11 +71,11 @@
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)swizzledHostWindowIsKey;
+- (id)was first responder when associated;
 - (void);
-- (id);
-- (void);
+- (id)ntext=}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)reUI:bid %d >= blockTableCount %d /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -164,7 +85,7 @@
 - (CDUnknownBlockType);
 - (long long);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (void);
@@ -172,17 +93,17 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_561ed401);
+- (CDStruct_3a052286);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (long long);
+- (long long);
 - (id);
 - (long long);
-- (id):(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)cancelTaskRequestWithIdentifier:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
 - (id)àldm;
 - (void)¸ë;
 - (id)à¢Ã;
@@ -205,69 +126,7 @@
 - (float);
 
 // Remaining properties
-@property long long _bytesPerSecondLimit; // @synthesize _bytesPerSecondLimit=__bytesPerSecondLimit;
-@property(nonatomic) _Bool _callCompletionHandlerInline; // @synthesize _callCompletionHandlerInline=__callCompletionHandlerInline;
-@property(copy, nonatomic) CDUnknownBlockType _cookieTransformCallback; // @synthesize _cookieTransformCallback=__cookieTransformCallback;
-@property(readonly) long long _countOfBytesReceivedEncoded;
-@property(nonatomic) unsigned long long _expectedProgressTarget;
-@property(retain, nonatomic) NSObject<OS_nw_endpoint> *_hostOverride; // @synthesize _hostOverride=__hostOverride;
-@property(readonly) NSURLSessionTaskTransactionMetrics *_incompleteCurrentTaskTransactionMetrics;
-@property(readonly) NSURLSessionTaskMetrics *_incompleteTaskMetrics;
-@property(retain, nonatomic) id <NSURLSessionTaskDelegate> _internalDelegate;
-@property(nonatomic) _Bool _isTopLevelNavigation; // @synthesize _isTopLevelNavigation=__isTopLevelNavigation;
-@property(nonatomic) _Bool _keepDownloadTaskFile; // @synthesize _keepDownloadTaskFile=__keepDownloadTaskFile;
-@property(retain, nonatomic) NSObject<OS_nw_activity> *_nw_activity; // @synthesize _nw_activity=__nw_activity;
-@property(copy, nonatomic) NSString *_pathToDownloadTaskFile; // @synthesize _pathToDownloadTaskFile=__pathToDownloadTaskFile;
-@property(nonatomic) _Bool _preconnect; // @synthesize _preconnect=__preconnect;
-@property(readonly) NSArray *_resolvedCNAMEChain;
-@property(copy, nonatomic) NSURL *_siteForCookies; // @synthesize _siteForCookies=__siteForCookies;
-@property(copy, nonatomic) NSString *_sourceApplicationBundleIdentifierForMobileAsset; // @synthesize _sourceApplicationBundleIdentifierForMobileAsset=__sourceApplicationBundleIdentifierForMobileAsset;
-@property(copy, nonatomic) NSString *_storagePartitionIdentifier; // @synthesize _storagePartitionIdentifier=__storagePartitionIdentifier;
-@property(nonatomic) double _timeoutIntervalForResource; // @synthesize _timeoutIntervalForResource=__timeoutIntervalForResource;
-@property(readonly) NSDictionary *_trailers;
-@property(nonatomic) _Bool automaticRetry; // @synthesize automaticRetry=_automaticRetry;
-@property double backgroundSchedulingDelay; // @synthesize backgroundSchedulingDelay=_backgroundSchedulingDelay;
-@property long long backgroundSchedulingPriority;
-@property(readonly, nonatomic) NSObject<OS_nw_protocol_metadata> *clientMetadata;
-@property(nonatomic) long long countOfBytesClientExpectsToReceive; // @synthesize countOfBytesClientExpectsToReceive=_countOfBytesClientExpectsToReceive;
-@property(nonatomic) long long countOfBytesClientExpectsToSend; // @synthesize countOfBytesClientExpectsToSend=_countOfBytesClientExpectsToSend;
-@property(readonly, nonatomic) long long countOfBytesExpectedToReceive;
-@property(readonly, nonatomic) long long countOfBytesExpectedToSend;
-@property(readonly, nonatomic) long long countOfBytesReceived;
-@property(readonly, nonatomic) long long countOfBytesSent;
-@property(readonly, copy, nonatomic) NSURLRequest *currentRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) id <NSURLSessionTaskDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *earliestBeginDate; // @synthesize earliestBeginDate=_earliestBeginDate;
-@property(readonly, copy) NWURLError *error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isUpload;
-@property(readonly, nonatomic) _Bool isWebSocket;
-@property(readonly, nonatomic) void *joiningContext;
-@property(readonly, nonatomic) NSURLSessionDataTask *loaderDataTask;
-@property(readonly, nonatomic) NSURLSessionTask *loaderTask;
-@property(readonly, nonatomic) CDStruct_561ed401 logDescription; // @synthesize logDescription=_logDescription;
-@property(readonly, nonatomic) NSObject<OS_nw_context> *networkContext;
-@property(readonly, copy, nonatomic) NSURLRequest *originalRequest;
-@property _Bool prefersIncrementalDelivery; // @synthesize prefersIncrementalDelivery=_prefersIncrementalDelivery;
-@property float priority; // @synthesize priority=_priority;
-@property(readonly) NSProgress *progress;
-@property(readonly, copy) NSString *redactedDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSURLResponse *response;
-@property(retain, nonatomic) struct __SecTrust *secTrust; // @synthesize secTrust=_secTrust;
-@property(readonly) long long state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsResumableUpload;
-@property(copy) NSString *taskDescription; // @synthesize taskDescription=_taskDescription;
 @property(readonly, nonatomic) unsigned long long taskIdentifier;
-@property(readonly, nonatomic) NSURL *uploadResumeURL;
 
 @end
 

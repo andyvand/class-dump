@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TKCTKDConnection;
+@class TKCTKDConnection;
 
 @interface TKClientToken
 {
     _Bool _canRequireCardInsertion;
-    NSString *_tokenID;
-    TKCTKDConnection *_ctkdConnection;
 }
 
 + (id);
@@ -18,18 +16,16 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)iceController PrepareRecord failed;
 - (id);
+- (void)7;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)<;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool canRequireCardInsertion; // @synthesize canRequireCardInsertion=_canRequireCardInsertion;
 @property(readonly, nonatomic) TKCTKDConnection *ctkdConnection; // @synthesize ctkdConnection=_ctkdConnection;
-@property(readonly, nonatomic) NSString *tokenID; // @synthesize tokenID=_tokenID;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SAUIAudioDescription : AceObject
 {
@@ -34,27 +34,11 @@
 - (id);
 - (id);
 - (id);
-- (id)ponseTargets;
+- (id)weightedPromptResponseTargets;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *bitsPerChannel;
-@property(copy, nonatomic) NSNumber *bytesPerFrame;
-@property(copy, nonatomic) NSNumber *bytesPerPacket;
-@property(copy, nonatomic) NSNumber *channelsPerFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *format;
-@property(copy, nonatomic) NSNumber *formatFlags;
-@property(copy, nonatomic) NSNumber *formatID;
-@property(copy, nonatomic) NSNumber *framesPerPacket;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *reserved;
-@property(copy, nonatomic) NSNumber *sampleRate;
-@property(readonly) Class superclass;
 
 @end
 

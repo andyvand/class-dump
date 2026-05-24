@@ -11,7 +11,8 @@
 }
 
 - (id);
-- (id);
+- (id)chemas archive at path %@
+ Local Exception:%@ %@ /* Error: Ran out of types for this method. */;
 
 @end
 

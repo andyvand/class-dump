@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBMutableCharacteristic, CBMutableService, CBPeripheralManager, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, SMBluetoothServerDelegate;
+@protocol SMBluetoothServerDelegate;
 
 @interface SMBluetoothServer
 {
     id <SMBluetoothServerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_bluetoothQueue;
-    NSObject<OS_dispatch_queue> *_writeQueue;
-    CBPeripheralManager *_manager;
-    CBMutableService *_service;
-    CBMutableCharacteristic *_capabilitiesCharacteristic;
-    CBMutableCharacteristic *_streamCharacteristic;
-    CBMutableCharacteristic *_optionsCharacteristic;
-    NSMutableDictionary *_inputPipesByCentral;
-    NSMutableArray *_pendingWriteRequests;
 }
 
 - (_Bool);
@@ -31,18 +20,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (_Bool);
 - (id);
@@ -63,11 +52,11 @@
 - (void);
 - (void);
 - (void);
+- (id)tor>"16;
+- (void)u52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsPreferredTransportTypeTrigger.m;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)time;
 - (void)
 × ;
 - (void)Ô ;
@@ -75,24 +64,7 @@
 - (void)AG³Ê;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *bluetoothQueue; // @synthesize bluetoothQueue=_bluetoothQueue;
-@property(retain) CBMutableCharacteristic *capabilitiesCharacteristic; // @synthesize capabilitiesCharacteristic=_capabilitiesCharacteristic;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <SMBluetoothServerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableDictionary *inputPipesByCentral; // @synthesize inputPipesByCentral=_inputPipesByCentral;
-@property(retain) CBPeripheralManager *manager; // @synthesize manager=_manager;
-@property(retain) CBMutableCharacteristic *optionsCharacteristic; // @synthesize optionsCharacteristic=_optionsCharacteristic;
-@property(retain) NSMutableArray *pendingWriteRequests; // @synthesize pendingWriteRequests=_pendingWriteRequests;
-@property(retain) CBMutableService *service; // @synthesize service=_service;
-@property(retain) CBMutableCharacteristic *streamCharacteristic; // @synthesize streamCharacteristic=_streamCharacteristic;
-@property(readonly) Class superclass;
-@property(retain) NSObject<OS_dispatch_queue> *writeQueue; // @synthesize writeQueue=_writeQueue;
 
 @end
 

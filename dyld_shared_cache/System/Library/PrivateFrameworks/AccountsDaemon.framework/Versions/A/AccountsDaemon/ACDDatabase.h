@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSPersistentStoreCoordinator, NSString, NSURL;
+@class NSPersistentStoreCoordinator, NSURL;
 
 @interface ACDDatabase
 {
     NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSDictionary *_storeOptions;
-    NSURL *_databaseURL;
 }
 
 + (id);
@@ -22,25 +20,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)5;
+- (id);
+- (_Bool)tsu_isSingleContiguousRange;
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)";
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

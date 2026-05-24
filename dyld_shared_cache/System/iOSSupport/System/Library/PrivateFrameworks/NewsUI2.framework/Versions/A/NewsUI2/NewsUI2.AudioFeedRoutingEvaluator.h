@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioFeedRoutingEvaluator
 {
     id offlineProvider;
-    id offlineArticleManager;
-    id featureAvailability;
 }
 
 @end

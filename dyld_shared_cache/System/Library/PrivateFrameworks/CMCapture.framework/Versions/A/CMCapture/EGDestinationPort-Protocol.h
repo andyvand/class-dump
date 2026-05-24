@@ -7,6 +7,7 @@
 @protocol EGSourcePort;
 
 @protocol EGDestinationPort
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <EGSourcePort> source;

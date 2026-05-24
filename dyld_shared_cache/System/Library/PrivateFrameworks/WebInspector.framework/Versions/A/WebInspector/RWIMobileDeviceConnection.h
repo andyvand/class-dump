@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface RWIMobileDeviceConnection
 {
     _Bool _networkPairable;
-    struct _AMDevice *_deviceRef;
-    long long _interfaceType;
-    NSString *_identifier;
-    NSString *_macAddress;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -28,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -41,15 +35,7 @@ __attribute__((visibility("hidden")))
 - (struct _AMDevice *)vice (%{public}@) encountered unsupported device class `%@`.;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
 @property(readonly, nonatomic) struct _AMDevice *deviceRef; // @synthesize deviceRef=_deviceRef;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long interfaceType; // @synthesize interfaceType=_interfaceType;
-@property(readonly, nonatomic) NSString *macAddress; // @synthesize macAddress=_macAddress;
-@property(readonly, nonatomic, getter=isNetworkPairable) _Bool networkPairable; // @synthesize networkPairable=_networkPairable;
-@property(readonly, nonatomic) NSString *networkPairableActualIdentifier;
-@property(readonly, nonatomic, getter=isWired) _Bool wired;
-@property(readonly, nonatomic, getter=isWireless) _Bool wireless;
 
 @end
 

@@ -11,7 +11,7 @@
     EKUICustomAlarmView *_alarmView;
 }
 
-- (void);
+- (void)qc;
 - (id);
 - (void);
 - (void);

@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)__objc_methname;
++ (id)8;
 + (void);
 - (_Bool);
 - (unsigned long long);

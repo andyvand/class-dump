@@ -18,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)clearDirectConnectionFirstByteBuckets;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPeerPaymentPass; // @synthesize isPeerPaymentPass=_isPeerPaymentPass;

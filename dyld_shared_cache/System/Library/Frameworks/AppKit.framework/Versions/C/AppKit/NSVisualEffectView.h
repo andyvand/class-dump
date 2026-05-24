@@ -6,30 +6,11 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSDictionary, NSImage, NSString;
+@class CALayer;
 
 @interface NSVisualEffectView : NSView
 {
     CALayer *_materialLayerActive;
-    CALayer *_materialLayerInactive;
-    long long _material;
-    long long _blendingMode;
-    long long _state;
-    NSImage *_cachedFillMaskImage;
-    NSString *_groupName;
-    NSDictionary *_coreUIOptions;
-    NSDictionary *_coreUIMetadata;
-    CALayer *_colorFillLayer;
-    NSImage *_maskImage;
-    double _materialCornerRadius;
-    unsigned int _clear:1;
-    unsigned int _emphasized:1;
-    unsigned int _appearsDarker:1;
-    unsigned int _inheritsBlendGroup:1;
-    unsigned int _hasSetUsesMaterialPreferredAppearance:1;
-    unsigned int _usesMaterialPreferredAppearance:1;
-    unsigned int _forcesArtificialChameleon:1;
-    unsigned int _useContinuousCorners;
 }
 
 @end

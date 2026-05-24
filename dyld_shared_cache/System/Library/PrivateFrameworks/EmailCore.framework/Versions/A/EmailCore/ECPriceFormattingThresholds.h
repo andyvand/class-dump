@@ -7,17 +7,15 @@
 @interface ECPriceFormattingThresholds
 {
     unsigned long long _nodeDepthThreshold;
-    unsigned long long _bodyChildCountThreshold;
 }
 
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (void)n invalid state %ld;
+- (void)tabs from:(unsigned long long)arg1 %@ --> to:%@, with transitioning state:%ld /* Error: Ran out of types for this method. */;
+- (unsigned long long)ca color:(R:%.2f G:%.2f B:%.2f Alpha:%.2f) and state:%@. /* Error: Ran out of types for this method. */;
+- (id)contentTabView is already a subview of another view.;
+- (unsigned long long)op command notification.;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bodyChildCountThreshold; // @synthesize bodyChildCountThreshold=_bodyChildCountThreshold;
 @property(nonatomic) unsigned long long nodeDepthThreshold; // @synthesize nodeDepthThreshold=_nodeDepthThreshold;
 
 @end

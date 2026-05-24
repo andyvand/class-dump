@@ -5,5 +5,7 @@
 //
 
 @protocol NSTextInput
+- (void);
+- (struct _NSRange);
 @end
 

@@ -9,10 +9,10 @@
 }
 
 + (unsigned long long);
-+ (void);
-+ (unsigned long long);
-+ (void);
-+ (_Bool);
++ (void)UUID;
++ (unsigned long long)PGCityscapeWallpaperSuggesterFetchCandidates;
++ (void)esolution;
++ (_Bool)omentScenes;
 + (void);
 + (id);
 + (_Bool);
@@ -30,10 +30,10 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)H;
 + (struct CGImage *);
 + (id);
-+ (void);
++ (void)initWithLatitude:(id)arg1 longitude:(id)arg2;
 + (void);
 + (void);
 + (_Bool)blank on the autoloop adjustment;

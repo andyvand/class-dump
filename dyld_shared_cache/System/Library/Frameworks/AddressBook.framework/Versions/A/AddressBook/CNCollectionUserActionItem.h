@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIUserActionItem, NSString;
-@protocol CNUIUserActionContext;
+@class CNUIUserActionItem;
 
 @interface CNCollectionUserActionItem
 {
     CNUIUserActionItem *_actionItem;
-    id <CNUIUserActionContext> _context;
 }
 
 + (id);
@@ -24,15 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNUIUserActionItem *actionItem; // @synthesize actionItem=_actionItem;
-@property(readonly, nonatomic) NSString *actionType;
-@property(readonly, nonatomic) id <CNUIUserActionContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

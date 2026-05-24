@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol HMDEventCounterContext;
+@class HMDEventCounterGroup;
+@protocol HMDEventCounterContext, HMDEventCounterGroupSpecifying;
 
 @protocol HMDEventCountersManagerDelegate
-- (void)ion;
+- (HMDEventCounterGroup *)editContentsUsingBarrierBlock:(id <HMDEventCounterGroupSpecifying>)arg1 context:completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (id <HMDEventCounterContext>)H;
+- (void)totalDuration;
 
 // Remaining properties
 @property(nonatomic) __weak id <HMDEventCounterContext> context;

@@ -16,11 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)<;
 - (void)È;
 
 // Remaining properties
-@property(nonatomic) long long code; // @synthesize code;
 @property(nonatomic, copy) NSString *list; // @dynamic list;
 
 @end

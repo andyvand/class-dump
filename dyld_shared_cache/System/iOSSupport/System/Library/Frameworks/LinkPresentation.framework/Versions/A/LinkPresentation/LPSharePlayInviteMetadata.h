@@ -6,26 +6,23 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPSharePlayInviteMetadata : LPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_applicationBundleIdentifier;
-    NSString *_application;
-    LPImage *_icon;
 }
 
-+ (id);
-+ (id);
++ (id)stageAssetArchive:skipShelf:completionHandler: /* Error: Ran out of types for this method. */;
++ (id)ID:(id)arg1 pluginLaunchPayload:(id)arg2 sendMessageHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (id)Attributes:(id)arg1;
+- (id)thumbnailContentAlignmentInsetsForOrientation:(id)arg1;
+- (id)thumbnailContentAlignmentInsetsForOrientation:(id)arg1;
+- (id)thumbnailAtIndex:(id)arg1 fillToSize:maxCount: /* Error: Ran out of types for this method. */;
+- (void)throwManagerDelegate;
+- (_Bool)tableView:(id)arg1 previewForDismissingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)stopTimingForKey:(CDUnknownBlockType)arg1;
 - (id);
 - (void);
 - (id);
@@ -36,24 +33,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *application; // @synthesize application=_application;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

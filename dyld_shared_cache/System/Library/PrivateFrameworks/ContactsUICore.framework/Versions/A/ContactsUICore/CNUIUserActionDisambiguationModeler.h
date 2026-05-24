@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CNUIDefaultUserActionFetcher, CNUIUserActionDiscoveringEnvironment, CNUIUserActionRanking, CNUIUserActionTargetDiscovering;
+@protocol CNUIUserActionTargetDiscovering;
 
 @interface CNUIUserActionDisambiguationModeler
 {
     id <CNUIUserActionTargetDiscovering> _targetDiscoveringHelper;
-    id <CNUIUserActionRanking> _rankingHelper;
-    id <CNUIDefaultUserActionFetcher> _defaultActionFetcher;
-    id <CNUIUserActionDiscoveringEnvironment> _discoveringEnvironment;
 }
 
 + (id);
@@ -29,25 +26,22 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)h@9IqA;
+- (void);
 - (id);
 - (id);
 - (id);
+- (id)8(;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)`%;
+- (id)U+;
 - (id);
 - (void)40q48Q56;
 - (void)ction invalidated for host connection:(id)arg1 %@ on queue = %@;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNUIDefaultUserActionFetcher> defaultActionFetcher; // @synthesize defaultActionFetcher=_defaultActionFetcher;
-@property(retain, nonatomic) id <CNUIUserActionDiscoveringEnvironment> discoveringEnvironment; // @synthesize discoveringEnvironment=_discoveringEnvironment;
-@property(retain, nonatomic) id <CNUIUserActionRanking> rankingHelper; // @synthesize rankingHelper=_rankingHelper;
 @property(retain, nonatomic) id <CNUIUserActionTargetDiscovering> targetDiscoveringHelper; // @synthesize targetDiscoveringHelper=_targetDiscoveringHelper;
 
 @end

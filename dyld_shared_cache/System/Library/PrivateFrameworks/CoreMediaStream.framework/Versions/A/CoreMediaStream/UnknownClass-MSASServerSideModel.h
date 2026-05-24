@@ -5,14 +5,14 @@
 //
 
 @interface UnknownClass (MSASServerSideModel)
-+ (id);
++ (id)notifications.;
+- (id)ing geo as user is at home for:%@ /* Error: Ran out of types for this method. */;
+- (id)ival notifications.;
+- (id){public}@Registering for arrival notifications.;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id){public}@Updating device:%@ /* Error: Ran out of types for this method. */;
+- (id)ved notification device updated:%@ /* Error: Ran out of types for this method. */;
+- (id)}@Updating the current device is not supported;
+- (id)@;
 @end
 

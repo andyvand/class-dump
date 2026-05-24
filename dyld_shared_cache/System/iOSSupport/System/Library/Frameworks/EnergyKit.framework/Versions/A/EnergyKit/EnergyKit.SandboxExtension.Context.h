@@ -8,7 +8,6 @@
 {
     id sandbox_extension_consume;
     id sandbox_extension_release;
-    id sandbox_extension_issue_file;
 }
 
 @end

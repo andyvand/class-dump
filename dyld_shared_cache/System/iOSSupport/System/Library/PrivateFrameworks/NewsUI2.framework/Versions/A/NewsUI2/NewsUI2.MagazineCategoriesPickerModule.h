@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineCategoriesPickerModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

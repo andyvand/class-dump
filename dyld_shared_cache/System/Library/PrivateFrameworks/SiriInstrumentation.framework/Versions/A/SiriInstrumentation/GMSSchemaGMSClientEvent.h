@@ -6,21 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class GMSSchemaGMSClientEventMetadata, GMSSchemaGMSModelRequestContext, GMSSchemaGMSPrivateCloudMetricsReceived, NSData, SISchemaInstrumentationMessage;
+@class GMSSchemaGMSClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface GMSSchemaGMSClientEvent : SISchemaTopLevelUnionType
 {
     GMSSchemaGMSClientEventMetadata *_eventMetadata;
-    GMSSchemaGMSModelRequestContext *_gmsModelRequestContext;
-    GMSSchemaGMSPrivateCloudMetricsReceived *_gmsPrivateCloudMetricsReceived;
-    _Bool _hasEventMetadata;
-    _Bool _hasGmsModelRequestContext;
-    _Bool _hasGmsPrivateCloudMetricsReceived;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
-+ (id);
++ (id)#;
 - (unsigned long long);
 - (void);
 - (void);
@@ -35,36 +29,28 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)!;
+- (_Bool)k;
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)und whitelisted protocol %@;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)outlineView:validateDrop:proposedItem:proposedChildIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)r"b1};
-- (id)oRecordingDialogDismissed;
+- (id)hasTimeToRecordingDialogDismissed;
 - (unsigned long long)C,N,V_handlesWithBgPrivacySignals;
 - (id)taTier1",&,N,V_internalSpanData;
 - (id)Ä#;
-- (int)iggerContext;
+- (int)voiceTriggerContext;
 - (void)h[$;
 
 // Remaining properties
-@property(retain, nonatomic) GMSSchemaGMSClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) GMSSchemaGMSModelRequestContext *gmsModelRequestContext; // @synthesize gmsModelRequestContext=_gmsModelRequestContext;
-@property(retain, nonatomic) GMSSchemaGMSPrivateCloudMetricsReceived *gmsPrivateCloudMetricsReceived; // @synthesize gmsPrivateCloudMetricsReceived=_gmsPrivateCloudMetricsReceived;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasGmsModelRequestContext; // @synthesize hasGmsModelRequestContext=_hasGmsModelRequestContext;
-@property(nonatomic) _Bool hasGmsPrivateCloudMetricsReceived; // @synthesize hasGmsPrivateCloudMetricsReceived=_hasGmsPrivateCloudMetricsReceived;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

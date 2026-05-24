@@ -5,12 +5,13 @@
 //
 
 @protocol _UIFocusBehavior
+- (long long);
 - (long long)!,Cùc1Â0@ù
 × ;
-- (_Bool)g: /* Error: Ran out of types for this method. */;
-- (_Bool)dInteractionController;
-- (_Bool)text;
+- (_Bool)_setSuppressesMaterialRendering: /* Error: Ran out of types for this method. */;
+- (_Bool)_cachedInteractionController;
+- (_Bool)_UISceneUnassociatedContext;
 - (unsigned long long)­®;
-- (unsigned long long)MENUITEM_APP_HIDE;
+- (unsigned long long)MACMENUITEM_APP_HIDE;
 @end
 

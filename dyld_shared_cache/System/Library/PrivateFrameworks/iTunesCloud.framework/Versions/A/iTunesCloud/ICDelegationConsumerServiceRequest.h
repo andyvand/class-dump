@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICRequestContext, NSDictionary;
+@class ICRequestContext;
 
 @interface ICDelegationConsumerServiceRequest
 {
     ICRequestContext *_requestContext;
-    double _timeoutInterval;
-    NSDictionary *_userIdentityDelegationAccountUUIDs;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ICRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(readonly, nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
-@property(readonly, copy, nonatomic) NSDictionary *userIdentityDelegationAccountUUIDs; // @synthesize userIdentityDelegationAccountUUIDs=_userIdentityDelegationAccountUUIDs;
 
 @end
 

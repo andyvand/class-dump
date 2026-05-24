@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSNumber, NSString, NSURL;
+@class NSArray;
 
 @interface SAAlarmUpdate : SADomainCommand
 {
@@ -20,36 +20,22 @@
 - (id);
 - (id);
 - (id);
+- (void)r;
+- (id);
+- (id);
+- (id)!;
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *addedFrequency;
-@property(copy, nonatomic) NSURL *alarmId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *enabled;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *hour;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSNumber *minute;
-@property(copy, nonatomic) NSArray *modifications;
-@property(copy, nonatomic) NSArray *removedFrequency;
-@property(readonly) Class superclass;
 
 @end
 

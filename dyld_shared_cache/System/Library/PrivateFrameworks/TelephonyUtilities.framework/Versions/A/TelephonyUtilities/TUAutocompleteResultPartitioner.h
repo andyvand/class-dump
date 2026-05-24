@@ -10,31 +10,25 @@ __attribute__((visibility("hidden")))
 @interface TUAutocompleteResultPartitioner
 {
     TUSearchController *_searchController;
-    NSMutableArray *_normalResultsArray;
-    NSMutableArray *_foundInMailResultsArray;
-    NSMutableArray *_foundOnServersResultsArray;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)= WTF:(id)arg1:HashMap<WTF::String, WTF::Vector<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void)imitTo:prependMaybe:onlySignificant:supportsInfoLookup:error: /* Error: Ran out of types for this method. */;
-- (void)tifier;
+- (void)namesForDetail:limitTo:prependMaybe:onlySignificant:supportsInfoLookup:error: /* Error: Ran out of types for this method. */;
+- (void)answerSourceIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *foundInMailResultsArray; // @synthesize foundInMailResultsArray=_foundInMailResultsArray;
-@property(retain, nonatomic) NSMutableArray *foundOnServersResultsArray; // @synthesize foundOnServersResultsArray=_foundOnServersResultsArray;
 @property(retain, nonatomic) NSMutableArray *normalResultsArray; // @synthesize normalResultsArray=_normalResultsArray;
-@property __weak TUSearchController *searchController; // @synthesize searchController=_searchController;
 
 @end
 

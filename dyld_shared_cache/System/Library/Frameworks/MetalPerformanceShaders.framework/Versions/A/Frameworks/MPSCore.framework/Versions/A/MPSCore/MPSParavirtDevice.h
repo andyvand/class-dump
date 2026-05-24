@@ -9,8 +9,6 @@
 @interface MPSParavirtDevice
 {
     id <MTLDevice> _device;
-    SEL _hostSupportsFamilySEL;
-    CDUnknownFunctionPointerType _hostSupportsFamily;
 }
 
 - (id);

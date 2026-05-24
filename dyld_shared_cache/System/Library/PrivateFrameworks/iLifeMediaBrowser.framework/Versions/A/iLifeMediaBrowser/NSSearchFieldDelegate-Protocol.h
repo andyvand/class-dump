@@ -5,5 +5,9 @@
 //
 
 @protocol NSSearchFieldDelegate
+
+@optional
+- (void)debugDelegate;
+- (void);
 @end
 

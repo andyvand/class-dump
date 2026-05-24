@@ -11,8 +11,6 @@
 @interface MPModelObjectMediaItem : MPNondurableMediaItem
 {
     NSDictionary *_propertyValues;
-    MPModelObject *_modelObject;
-    CDUnknownBlockType _fallbackArtworkCatalogBlock;
 }
 
 + (_Bool);
@@ -25,12 +23,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ndow;
 - (void);
-- (void)dLibraryInitialImport;
+- (void)_cloudLibraryInitialImport;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fallbackArtworkCatalogBlock; // @synthesize fallbackArtworkCatalogBlock=_fallbackArtworkCatalogBlock;
 @property(readonly, nonatomic) MPModelObject *modelObject; // @synthesize modelObject=_modelObject;
 
 @end

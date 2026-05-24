@@ -6,13 +6,9 @@
 
 #import <AVFCore/AVMetricEvent.h>
 
-@class AVAssetVariant;
-
 @interface AVMetricPlayerItemRateChangeEvent : AVMetricEvent
 {
     double _rate;
-    double _previousRate;
-    AVAssetVariant *_variant;
 }
 
 + (_Bool);
@@ -23,13 +19,11 @@
 - (id);
 - (void);
 - (id);
-- (id)e:copySettingsFromTrack:options: /* Error: Ran out of types for this method. */;
+- (id)addMutableTrackWithMediaType:copySettingsFromTrack:options: /* Error: Ran out of types for this method. */;
 - (double)ç;
 
 // Remaining properties
-@property(readonly) double previousRate;
 @property(readonly) double rate;
-@property(readonly) AVAssetVariant *variant;
 
 @end
 

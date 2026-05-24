@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)fileExistsAtPath:basepath] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

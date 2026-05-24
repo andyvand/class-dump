@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (void);
+- (void)initWithEventData:(id)arg1 eventType:guidString:date: /* Error: Ran out of types for this method. */;
+- (void)fileTransferWithAttachmentRecordRef:(id)arg1;
 - (id);
 - (id);
-- (void)sBookmarkButton:(id)arg1;
+- (void)setShowsBookmarkButton:(id)arg1;
 - (void);
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface CPAnalyticsEventMatcher
 {
     NSString *_eventKeyToMatch;
-    NSDictionary *_eventPropertiesToMatch;
-    NSArray *_conditionalChecks;
 }
 
 + (id);
@@ -27,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *conditionalChecks; // @synthesize conditionalChecks=_conditionalChecks;
 @property(readonly, nonatomic) NSString *eventKeyToMatch; // @synthesize eventKeyToMatch=_eventKeyToMatch;
-@property(readonly, nonatomic) NSDictionary *eventPropertiesToMatch; // @synthesize eventPropertiesToMatch=_eventPropertiesToMatch;
 
 @end
 

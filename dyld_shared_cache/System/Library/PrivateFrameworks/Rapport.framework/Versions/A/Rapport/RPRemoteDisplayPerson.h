@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface RPRemoteDisplayPerson
 {
     unsigned int _flags;
-    NSString *_accountAltDSID;
-    NSString *_accountID;
-    NSString *_contactID;
-    NSMutableArray *_discoveredDevices;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)eregistering multi-device registration callback with %d (%d named) devices:(id)arg1 %@;
+- (id)from: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)1;
 - (void);
 - (void);
 - (id)_updateTrafficRegistrationForIP:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountAltDSID; // @synthesize accountAltDSID=_accountAltDSID;
-@property(readonly, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
-@property(readonly, nonatomic) NSMutableArray *discoveredDevices; // @synthesize discoveredDevices=_discoveredDevices;
-@property(readonly, nonatomic) unsigned int flags; // @synthesize flags=_flags;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsArticles.ArticleFeatureProvider
 {
     id config;
-    id defaultFeatures;
 }
 
 @end

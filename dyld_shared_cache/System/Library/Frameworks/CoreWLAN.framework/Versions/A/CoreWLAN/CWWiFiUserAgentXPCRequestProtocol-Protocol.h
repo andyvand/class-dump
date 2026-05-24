@@ -5,5 +5,7 @@
 //
 
 @protocol CWWiFiUserAgentXPCRequestProtocol
+- (void)?!(kc;
+- (void);
 @end
 

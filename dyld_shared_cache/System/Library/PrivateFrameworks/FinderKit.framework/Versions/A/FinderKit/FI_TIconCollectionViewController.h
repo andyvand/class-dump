@@ -6,36 +6,13 @@
 
 #import <FinderKit/FI_TIconOrGalleryCollectionViewController.h>
 
-@class FI_TDesktopInlinePreviewController, FI_TIconView, NSColor, NSImage, NSString, NSView;
-
 __attribute__((visibility("hidden")))
 @interface FI_TIconCollectionViewController : FI_TIconOrGalleryCollectionViewController
 {
     double _gridSpacing;
-    _Bool _isTitleOnBottom;
-    _Bool _showItemInfo;
-    _Bool _isKeepArranged;
-    _Bool _isSnapToGrid;
-    int _backgroundType;
-    NSColor *_backgroundColor;
-    NSImage *_backgroundImage;
-    _Bool _isUpdateLayoutControllerSuspended;
-    _Bool _isUpdateLayoutControllerDirty;
-    struct optional_bool _hasNewDocumentButton;
-    FI_TIconView *_iconViewForDragImage;
-    FI_TDesktopInlinePreviewController *_inlinePreviewController;
-    _Bool _isUpdateInlinePreviewSuspended;
-    struct shared_ptr<TInfoExtractorController> _infoController;
-    struct TNotificationCenterObserver _iconSizeSliderWillChangeObserver;
-    struct TNotificationCenterObserver _iconSizeSliderDidChangeObserver;
-    struct TNotificationCenterObserver _gridSpacingSliderWillChangeObserver;
-    struct TNotificationCenterObserver _gridSpacingSliderDidChangeObserver;
-    struct TKeyValueObserver _safeAreaRectObserver;
-    struct TKeyValueObserver _allowsNewDocumentButtonObserver;
-    NSView *_currentDropTarget;
 }
 
-- (void);
+- (void)횔`;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -47,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -75,26 +52,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (struct TFENodeVector);
+- (struct TFENodeVector)*;
 - (struct TFENode);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (void);
 - (void);
 - (void);
@@ -120,10 +97,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)X9;
 - (void);
 - (void);
 - (id);
@@ -144,14 +121,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (id);
+- (_Bool)nse"24@"WKDownload"32;
+- (id)iew"16@"WKNavigation"24@"NSError"32;
+- (long long)v40@0:(id)arg1 8@"WKWebView"16@"WKNavigationResponse"24@?<v@?q>32;
+- (id)er"24@"WKSecurityOrigin"32;
 - (void);
 - (id);
 - (void);
@@ -161,7 +138,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
@@ -173,28 +150,10 @@ __attribute__((visibility("hidden")))
 - (int)neE3$_4FbS5_EEE;
 - (void)oupEERK7TFENodeEEENS2_4pairIS7_PT_EEDpOT0_E19MakeInstanceEnabler;
 - (id)initWithTargetNode:]E3$_6FvvEEE /* Error: Ran out of types for this method. */;
-- (id)e;
+- (id)15TSharePointNode;
 
 // Remaining properties
-@property(nonatomic) int arrangeBy;
-@property(retain, nonatomic) NSColor *backgroundColor;
-@property(retain, nonatomic) NSImage *backgroundImage;
-@property(nonatomic) int backgroundType; // @synthesize backgroundType=_backgroundType;
-@property(nonatomic) __weak NSView *currentDropTarget; // @synthesize currentDropTarget=_currentDropTarget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double gridSpacing; // @synthesize gridSpacing=_gridSpacing;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isUpdateLayoutControllerDirty; // @synthesize isUpdateLayoutControllerDirty=_isUpdateLayoutControllerDirty;
-@property(nonatomic) _Bool isUpdateLayoutControllerSuspended; // @synthesize isUpdateLayoutControllerSuspended=_isUpdateLayoutControllerSuspended;
 @property(nonatomic, getter=isKeepArranged) _Bool keepArranged; // @synthesize keepArranged=_isKeepArranged;
-@property(nonatomic) _Bool showItemInfo; // @synthesize showItemInfo=_showItemInfo;
-@property(nonatomic, getter=isSnapToGrid) _Bool snapToGrid; // @synthesize snapToGrid=_isSnapToGrid;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTitleOnBottom) _Bool titleOnBottom; // @synthesize titleOnBottom=_isTitleOnBottom;
 
 @end
 

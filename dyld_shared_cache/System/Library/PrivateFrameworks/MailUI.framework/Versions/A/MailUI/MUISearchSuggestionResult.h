@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItem, EMMessageObjectID;
+@class CSSearchableItem;
 
 @interface MUISearchSuggestionResult
 {
     CSSearchableItem *_searchableItem;
-    EMMessageObjectID *_objectID;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)�(;
 - (void);
-- (void);
+- (void)setAccessibilityTabs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) EMMessageObjectID *objectID; // @synthesize objectID=_objectID;
 @property(copy, nonatomic) CSSearchableItem *searchableItem; // @synthesize searchableItem=_searchableItem;
 
 @end

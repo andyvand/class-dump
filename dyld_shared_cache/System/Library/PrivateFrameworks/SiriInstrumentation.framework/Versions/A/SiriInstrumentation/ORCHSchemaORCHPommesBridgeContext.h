@@ -6,23 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHPommesRequestEnded, ORCHSchemaORCHPommesRequestFailed, ORCHSchemaORCHPommesRequestStarted, ORCHSchemaORCHPommesRequestUnableToHandle, SISchemaUUID;
+@class ORCHSchemaORCHPommesRequestStarted;
 
 @interface ORCHSchemaORCHPommesBridgeContext : SISchemaInstrumentationMessage
 {
     ORCHSchemaORCHPommesRequestStarted *_startedOrChanged;
-    ORCHSchemaORCHPommesRequestEnded *_ended;
-    ORCHSchemaORCHPommesRequestFailed *_failed;
-    ORCHSchemaORCHPommesRequestUnableToHandle *_cancelled;
-    SISchemaUUID *_trpId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -50,11 +38,11 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)eView"16@"NSTableColumn"24q32;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -66,25 +54,12 @@
 × ;
 - (void)!tBùàð1Â0@ù
 × ;
-- (id)countAttributeBigramMatch;
+- (id)_countAttributeBigramMatch;
 - (id)dentifierQueryTime;
 - (void)me.parameterConfirmation.item.value.primitive.app.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHPommesRequestUnableToHandle *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) ORCHSchemaORCHPommesRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHPommesRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ORCHSchemaORCHPommesRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

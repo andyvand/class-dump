@@ -7,13 +7,11 @@
 @interface WidgetKit.WidgetLocalizations
 {
     id identifier;
-    id availableLocalizations;
-    id supportsMixedLocalizations;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)estampGps:(id)arg1 deltaGroundAltitude:groundAltitudeUncertainty:originDevice:slope:maxAbsSlope: /* Error: Ran out of types for this method. */;
 
 @end
 

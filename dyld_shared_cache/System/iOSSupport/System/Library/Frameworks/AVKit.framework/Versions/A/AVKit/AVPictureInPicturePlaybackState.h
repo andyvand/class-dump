@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVPictureInPicturePlaybackState
 {
     _Bool _paused;
-    double _timelineRate;
-    double _timelineDuration;
-    double _initializationTimestamp;
-    double _initializedElapsedTime;
 }
 
 - (double);
@@ -25,12 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)¹Aû4.;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentElapsedTime;
 @property(readonly, nonatomic) double initializationTimestamp; // @synthesize initializationTimestamp=_initializationTimestamp;
-@property(readonly, nonatomic) double initializedElapsedTime; // @synthesize initializedElapsedTime=_initializedElapsedTime;
-@property(readonly, nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
-@property(readonly, nonatomic) double timelineDuration; // @synthesize timelineDuration=_timelineDuration;
-@property(readonly, nonatomic) double timelineRate; // @synthesize timelineRate=_timelineRate;
 
 @end
 

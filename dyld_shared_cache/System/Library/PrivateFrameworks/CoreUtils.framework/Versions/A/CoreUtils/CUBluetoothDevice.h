@@ -4,47 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, NSString, NSUUID;
+@class IOBluetoothDevice;
 
 @interface CUBluetoothDevice
 {
     _Bool _magicPaired;
-    _Bool _supportsAACPService;
-    _Bool _present;
-    unsigned int _connectedServices;
-    int _colorCode;
-    unsigned int _deviceFlags;
-    unsigned int _deviceType;
-    int _disconnectReason;
-    int _primaryPlacement;
-    int _secondaryPlacement;
-    unsigned int _productIdentifier;
-    int _streamState;
-    unsigned int _versionID;
-    CDStruct_83abfce7 _address;
-    NSString *_addressString;
-    NSString *_firmwareVersion;
-    NSUUID *_identifier;
-    NSString *_manufacturer;
-    NSString *_modelNumber;
-    NSString *_name;
-    IOBluetoothDevice *_ioBluetoothDevice;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (int)p~;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)`;
 - (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (unsigned int);
+- (unsigned int)d;
 - (int);
 - (_Bool);
 - (id);
@@ -57,13 +37,13 @@
 - (void);
 - (void);
 - (unsigned int);
-- (id);
-- (id);
+- (id)initWithEventName:eventCategory:initData:altDSID: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool),V_gradientKernel;
+- (void)(;
 - (unsigned int);
 - (void);
 - (int);
@@ -82,27 +62,7 @@
 - (void)w;
 
 // Remaining properties
-@property(nonatomic) CDStruct_83abfce7 address; // @synthesize address=_address;
-@property(copy) NSString *addressString; // @synthesize addressString=_addressString;
-@property(nonatomic) int colorCode; // @synthesize colorCode=_colorCode;
-@property(nonatomic) unsigned int connectedServices; // @synthesize connectedServices=_connectedServices;
-@property(nonatomic) unsigned int deviceFlags; // @synthesize deviceFlags=_deviceFlags;
-@property(nonatomic) unsigned int deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) int disconnectReason; // @synthesize disconnectReason=_disconnectReason;
-@property(copy) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(copy) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) IOBluetoothDevice *ioBluetoothDevice; // @synthesize ioBluetoothDevice=_ioBluetoothDevice;
-@property(nonatomic) _Bool magicPaired; // @synthesize magicPaired=_magicPaired;
-@property(copy) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(copy) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool present; // @synthesize present=_present;
-@property(nonatomic) int primaryPlacement; // @synthesize primaryPlacement=_primaryPlacement;
-@property(nonatomic) unsigned int productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(nonatomic) int secondaryPlacement; // @synthesize secondaryPlacement=_secondaryPlacement;
-@property(nonatomic) int streamState; // @synthesize streamState=_streamState;
-@property(nonatomic) _Bool supportsAACPService; // @synthesize supportsAACPService=_supportsAACPService;
-@property(nonatomic) unsigned int versionID; // @synthesize versionID=_versionID;
 
 @end
 

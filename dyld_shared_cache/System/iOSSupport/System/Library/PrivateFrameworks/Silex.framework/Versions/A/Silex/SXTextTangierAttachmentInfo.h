@@ -9,7 +9,6 @@
 @interface SXTextTangierAttachmentInfo
 {
     SXTextExclusionPath *_exclusionPath;
-    struct _NSRange _actualRange;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange actualRange; // @synthesize actualRange=_actualRange;
 @property(retain, nonatomic) SXTextExclusionPath *exclusionPath; // @synthesize exclusionPath=_exclusionPath;
 
 @end

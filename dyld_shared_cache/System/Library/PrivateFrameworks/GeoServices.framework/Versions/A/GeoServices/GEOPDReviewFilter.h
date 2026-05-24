@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDReviewFilter
 {
     PBUnknownFields *_unknownFields;
-    struct GEOPDPhotoSizeFilterValue *_photoSizeFilters;
-    unsigned long long _photoSizeFiltersCount;
-    unsigned long long _photoSizeFiltersSpace;
-    _Bool _suppressSyntheticReviews;
-    struct {
-        unsigned int has_suppressSyntheticReviews:1;
-    } _flags;
 }
 
 - (void);

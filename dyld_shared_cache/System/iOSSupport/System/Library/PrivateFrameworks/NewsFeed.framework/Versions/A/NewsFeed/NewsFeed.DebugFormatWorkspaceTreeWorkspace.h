@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceTreeWorkspace
 {
     id workspace;
-    id _isExpanded;
 }
 
 @end

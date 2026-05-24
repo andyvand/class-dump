@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface ACDLazyArray
 {
     struct os_unfair_lock_s _initializationLock;
-    CDUnknownBlockType _initializationBlock;
-    NSArray *_underlyingArray;
 }
 
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (unsigned long long);

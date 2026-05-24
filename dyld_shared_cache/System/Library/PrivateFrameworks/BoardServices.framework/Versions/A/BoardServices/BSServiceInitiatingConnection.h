@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)AVCFPlayerItemFailedToPlayToEndTimeErrorKey;
 - (void)Ôâ%°!¸Aùñ)ð1Â0@ù
 × ;
 

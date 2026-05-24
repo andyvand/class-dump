@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALForceFetchStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)I;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)llowing;
 - (id);
-- (id);
-- (id)tStep;
+- (id)hasFailedAtStep;
 - (id)`;
 - (_Bool)|Ýÿ¿;
 - (_Bool)8±&;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

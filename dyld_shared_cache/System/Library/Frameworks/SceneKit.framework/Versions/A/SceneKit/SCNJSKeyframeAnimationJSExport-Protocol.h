@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSArray, NSString;
+@class NSArray, NSString;
 
 @protocol SCNJSKeyframeAnimationJSExport
++ (id);
+- (NSArray *)instituted;
+- (void)inelegantly;
+- (void)homoeopathy;
+- (void)homer;
+- (void)heterosuggestion;
+- (NSArray *)frowst;
+- (_Bool)football;
+- (NSArray *)endoplasm;
+- (NSArray *)efficiency;
+- (NSArray *)differentiated;
+- (NSString *)deterrent;
+- (void);
+- (void);
+- (id)JunkFiltering;
+- (void)documentationForMetadata:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (double)rPresenceEventType:completionHandler:] /* Error: Ran out of types for this method. */;
+- (double)TEGER NOT NULL DEFAULT 0, edit_session_id TEXT NOT NULL DEFAULT '') ;
+- (void)n_id INTEGER NOT NULL DEFAULT 0, remote_location_id INTEGER NOT NULL DEFAULT 0, exclude_from_shuffle INTEGER NOT NULL DEFAULT 0;
+- (NSArray *)Media/Purchases');
 
 // Remaining properties
-@property(getter=isAdditive) _Bool additive;
-@property _Bool autoreverses;
-@property double beginTime;
-@property(copy) NSArray *biasValues;
-@property(retain) id byValue;
-@property(copy) NSString *calculationMode;
-@property(copy) NSArray *continuityValues;
-@property(getter=isCumulative) _Bool cumulative;
-@property double duration;
-@property(copy) NSString *fillMode;
 @property(retain) id fromValue;
-@property(copy) NSString *keyPath;
-@property(copy) NSArray *keyTimes;
-@property struct CGPath *path;
-@property(getter=isRemovedOnCompletion) _Bool removedOnCompletion;
-@property float repeatCount;
-@property double repeatDuration;
-@property float speed;
-@property(copy) NSArray *tensionValues;
-@property double timeOffset;
-@property(retain) CAMediaTimingFunction *timingFunction;
-@property(copy) NSArray *timingFunctions;
-@property(retain) id toValue;
-@property(copy) NSArray *values;
 @end
 

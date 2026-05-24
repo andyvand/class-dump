@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)igationButtonClicked:(id)arg1 ];
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASDPurgeAppsRequestOptions *options; // @dynamic options;

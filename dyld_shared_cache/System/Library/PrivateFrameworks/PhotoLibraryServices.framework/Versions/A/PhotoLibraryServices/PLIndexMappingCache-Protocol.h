@@ -6,5 +6,6 @@
 
 @protocol PLIndexMappingCache
 - (id);
+- (unsigned int :(null));
 @end
 

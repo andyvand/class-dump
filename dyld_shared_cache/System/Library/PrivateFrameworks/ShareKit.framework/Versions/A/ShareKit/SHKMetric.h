@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface SHKMetric
 {
     NSString *_identifier;
-    NSString *_title;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)i;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

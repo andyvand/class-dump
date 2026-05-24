@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WFAQIScaleGradientStop
 {
     float _location;
-    NSString *_color;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)-;
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (float);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *color; // @synthesize color=_color;
 @property(readonly, nonatomic) float location; // @synthesize location=_location;
 
 @end

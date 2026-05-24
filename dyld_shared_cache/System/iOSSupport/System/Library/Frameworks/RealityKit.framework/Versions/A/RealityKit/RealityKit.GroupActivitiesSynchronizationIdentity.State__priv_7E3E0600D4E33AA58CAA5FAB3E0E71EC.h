@@ -8,8 +8,6 @@
 {
     id participant;
     id address;
-    id isLocal;
-    id peerID;
 }
 
 @end

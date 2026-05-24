@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSObject, NSString;
+@class NSString;
 
 @interface CRKNotificationObservation
 {
     NSString *_notificationName;
-    NSNotificationCenter *_notificationCenter;
-    NSObject *_object;
-    CDUnknownBlockType _notificationHandler;
 }
 
 + (id);
@@ -20,20 +17,17 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)|;
 - (id);
 - (void);
+- (void)ioSemanticToDSPMap;
 - (void);
 - (void);
-- (void);
-- (id)veObjectOfClass:withData: /* Error: Ran out of types for this method. */;
+- (id)cat_unarchiveObjectOfClass:withData: /* Error: Ran out of types for this method. */;
 - (id)T@"NSSet",C,N,V_observedTrustedPersonIDs;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(copy, nonatomic) CDUnknownBlockType notificationHandler; // @synthesize notificationHandler=_notificationHandler;
 @property(readonly, copy, nonatomic) NSString *notificationName; // @synthesize notificationName=_notificationName;
-@property(retain, nonatomic) NSObject *object; // @synthesize object=_object;
 
 @end
 

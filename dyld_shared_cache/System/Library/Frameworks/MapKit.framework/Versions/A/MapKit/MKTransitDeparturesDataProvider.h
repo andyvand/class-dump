@@ -4,71 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAttribution, MKMapItem, MKTransitItemIncidentsController, MKTransitMapItemUpdater, NSArray, NSDate, NSDictionary, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSSet, NSString;
-@protocol GEOMapItemTransitInfo, GEOTransitAttribution, GEOTransitSystem, MKTransitDeparturesDataProviderDelegate;
+@class MKMapItem, NSSet;
 
 @interface MKTransitDeparturesDataProvider
 {
     NSSet *_disabledSections;
-    NSMutableArray *_sections;
-    NSMutableDictionary *_sectionControllers;
-    MKTransitItemIncidentsController *_incidentsController;
-    NSMutableSet *_hiddenSections;
-    NSMutableSet *_pagedSectionIdentifiers;
-    NSMutableDictionary *_cachedSequencesForSection;
-    NSMapTable *_cachedDirectionsForSystem;
-    NSMapTable *_cachedSystemHasInactiveLines;
-    MKTransitMapItemUpdater *_mapItemUpdater;
-    long long _lastFailureDiagnosis;
-    NSDictionary *_lineLookupBySection;
-    _Bool _active;
-    _Bool _refreshing;
-    NSDate *_departureCutoffDate;
-    NSDate *_lastCutoffDateWithValidSchedule;
-    id <GEOTransitSystem> _selectedSystem;
-    id <MKTransitDeparturesDataProviderDelegate> _delegate;
-    MKMapItem *_mapItem;
-    NSString *_lastInfoRefreshErrorDescription;
-    NSArray *_stationSystems;
 }
 
+- (id)ue>",&,V_adaptivePermissionWorkQueue;
+- (void)S_xpc_object>",&,N,V_xpcConnection;
+- (void)ch_source>",&,V_flushTimer;
+- (void)setQuickEnergyAccumulatorTimer:(id)arg1;
+- (id),N,V_openIntervalTimer;
+- (id)ecutionQueue;
 - (id);
-- (void);
-- (void);
-- (void);
+- (id)logFileUtilities:successfully copied major upgrade logs, srcPath = %@ /* Error: Ran out of types for this method. */;
+- (void)lterByInterval) 	 currentEventDate = %@
+;
+- (void)ey:(id)arg1 %@ withPayload:(out id *)arg2 %@;
+- (void)removing stale snapshots, quickEnergySnapshots=%@;
+- (void)bui_last_charge_iOS;
+- (void)XPCMetrics:(id)arg1:OngoingRestore /* Error: Ran out of types for this method. */;
+- (void)BackgroundProcessing:(id)arg1:TaskInstanceData /* Error: Ran out of types for this method. */;
+- (id)discretionaryNetworkTasks;
+- (long long)discretionaryenergymonitor;
+- (id);
+- (void);
+- (_Bool)h;
+- (_Bool);
+- (_Bool);
+- (long long);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (id)R!;
+- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (long long);
 - (long long);
 - (_Bool);
@@ -77,7 +57,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -89,10 +69,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)t;
+- (void)u;
+- (id);
+- (id)D;
 - (id);
 - (id);
 - (_Bool);
@@ -102,39 +82,16 @@
 - (void);
 - (id);
 - (long long);
-- (long long);
+- (long long)t;
 - (long long);
 - (id);
 - (void);
-- (void)g: /* Error: Ran out of types for this method. */;
-- (id)hedVenueIDWithFocus;
+- (void)replaceCharactersInRange:withString: /* Error: Ran out of types for this method. */;
+- (id)_cachedVenueIDWithFocus;
 - (void)óÿAq9Ñ';
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, nonatomic) NSArray *connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKTransitDeparturesDataProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSDate *departureCutoffDate; // @synthesize departureCutoffDate=_departureCutoffDate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSSet *disabledSections; // @synthesize disabledSections=_disabledSections;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *incidents;
-@property(readonly, nonatomic) _Bool isStuckWithExpiredInfo;
-@property(retain, nonatomic) NSDate *lastCutoffDateWithValidSchedule; // @synthesize lastCutoffDateWithValidSchedule=_lastCutoffDateWithValidSchedule;
-@property(readonly, copy, nonatomic) NSString *lastInfoRefreshErrorDescription; // @synthesize lastInfoRefreshErrorDescription=_lastInfoRefreshErrorDescription;
 @property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic, getter=isRefreshing) _Bool refreshing; // @synthesize refreshing=_refreshing;
-@property(readonly, nonatomic) NSArray *sectionControllers;
-@property(retain, nonatomic) id <GEOTransitSystem> selectedSystem; // @synthesize selectedSystem=_selectedSystem;
-@property(readonly, nonatomic) NSArray *stationSystems; // @synthesize stationSystems=_stationSystems;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <GEOTransitAttribution> transitAttribution;
-@property(readonly, nonatomic) id <GEOMapItemTransitInfo> transitInfo;
-@property(readonly, nonatomic) GEOAttribution *transitPunchoutAttribution;
 
 @end
 

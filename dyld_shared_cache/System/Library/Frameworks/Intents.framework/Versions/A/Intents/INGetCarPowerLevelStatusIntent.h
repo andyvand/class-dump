@@ -6,16 +6,16 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INGetCarPowerLevelStatusIntent : INIntent
 {
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -23,23 +23,16 @@
 - (id);
 - (id);
 - (long long);
+- (void)6;
 - (void);
+- (id)̤;
+- (id)INTEGER, yCount REAL;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)T;
 - (id);
 
 // Remaining properties
 @property(readonly, copy) INSpeakableString *carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,37 +7,6 @@
 @interface AppStoreKit.PendingPageRender
 {
     id metricsPipeline;
-    id metricsPageRenderTopic;
-    id lottery;
-    id gate;
-    id xpSessionDuration;
-    id xpSamplingPercentageUsers;
-    id hasEvent;
-    id event;
-    id hasRequestedTime;
-    id requestedTime;
-    id hasAppearTime;
-    id appearTime;
-    id disappearTime;
-    id resourceRequestStartTime;
-    id resourceRequestOnScreenEndTime;
-    id resourceRequestEndTime;
-    id userReadyTime;
-    id requests;
-    id isLayoutReady;
-    id hasViewModelPresentTime;
-    id rootViewModelPresentTime;
-    id isLowDataMode;
-    id assetLoaderIsIdle;
-    id assetLoader;
-    id hasInitialRequestEndTime;
-    id initialRequestEndTime;
-    id hasRequests;
-    id hasUserReadyTime;
-    id hasNetworkQualityReports;
-    id errors;
-    id contextProvider;
-    id didPost;
 }
 
 @end

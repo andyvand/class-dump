@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSSharingServiceReserved, NSString, NSURL;
+@class NSSharingServiceReserved;
 @protocol NSSharingServiceDelegate;
 
 @interface NSSharingService
@@ -14,16 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, copy) NSString *accountName;
-@property(readonly) NSImage *alternateImage;
-@property(readonly, copy) NSArray *attachmentFileURLs;
 @property __weak id <NSSharingServiceDelegate> delegate;
-@property(readonly) NSImage *image;
-@property(copy) NSString *menuItemTitle;
-@property(readonly, copy) NSString *messageBody;
-@property(readonly, copy) NSURL *permanentLink;
-@property(copy) NSArray *recipients;
-@property(copy) NSString *subject;
-@property(readonly, copy) NSString *title;
 @end
 

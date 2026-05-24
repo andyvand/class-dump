@@ -5,5 +5,8 @@
 //
 
 @protocol _UIPanOrFlickGestureRecognizerDelegate
+
+@optional
+- (double);
 @end
 

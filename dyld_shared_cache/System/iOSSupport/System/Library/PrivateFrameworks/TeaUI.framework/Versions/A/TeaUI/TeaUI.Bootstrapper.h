@@ -7,18 +7,12 @@
 @interface TeaUI.Bootstrapper
 {
     id mainViewControllerFactory;
-    id onboardingViewControllerFactory;
-    id onboardingViewDismissalAnimator;
-    id deferredPromise;
-    id deferringGroup;
-    id shouldCollapseSidebar;
-    id shouldHideToolbar;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)throttlePolicyWithDelay: /* Error: Ran out of types for this method. */;
 - (void)<þÿÿÿ;
 
 @end

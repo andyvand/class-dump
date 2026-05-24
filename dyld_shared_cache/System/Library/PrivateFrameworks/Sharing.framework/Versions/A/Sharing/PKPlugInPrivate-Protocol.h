@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString, NSUUID, NSXPCConnection;
+@class NSString, NSUUID;
 
 @protocol PKPlugInPrivate
+- (void)";
+- (_Bool)hh8;
+- (_Bool);
+- (void);
+- (void)4%;
+- (void)ۯ;
+- (NSString *)hBufferZone>",R,&,N;
 
 // Remaining properties
-@property(retain) NSDictionary *environment;
-@property(readonly) unsigned int extensionPointPlatform;
-@property(retain) NSDictionary *extensionState;
-@property(readonly) NSArray *launchPersonas;
-@property(readonly) NSXPCConnection *pluginConnection;
-@property(copy) NSArray *preferredLanguages;
-@property(copy) NSString *sandboxProfile;
-@property(readonly) NSDate *timestamp;
 @property(readonly) NSUUID *uuid;
 @end
 

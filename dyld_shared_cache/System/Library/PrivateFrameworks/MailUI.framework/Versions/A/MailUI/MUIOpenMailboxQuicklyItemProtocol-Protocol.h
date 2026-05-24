@@ -7,10 +7,10 @@
 @class NSArray, NSString;
 
 @protocol MUIOpenMailboxQuicklyItemProtocol
+- (NSArray *)a';
+- (NSString *)gleThreadWeakPtrImpl>];
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayName;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSArray *pathComponents;
 @end
 

@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, RBAssertionCollection, RBProcessIndex, RBProcessMap, RBSystemState;
-@protocol RBBundlePropertiesManaging, RBDomainAttributeManaging, RBEntitlementManaging;
+@class RBAssertionCollection;
 
 @interface RBAssertionStateResolver
 {
     RBAssertionCollection *_assertionCollection;
-    RBProcessIndex *_processIndex;
-    RBProcessMap *_stateMap;
-    id <RBDomainAttributeManaging> _domainAttributeManager;
-    id <RBBundlePropertiesManaging> _bundlePropertiesManager;
-    id <RBEntitlementManaging> _entitlementManager;
-    NSMapTable *_savedEndowments;
-    RBSystemState *_systemState;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ression of type %tu is not supported.;
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)!;
 - (id);
 - (void);
 - (id);
@@ -41,13 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RBAssertionCollection *assertionCollection; // @synthesize assertionCollection=_assertionCollection;
-@property(retain, nonatomic) id <RBBundlePropertiesManaging> bundlePropertiesManager; // @synthesize bundlePropertiesManager=_bundlePropertiesManager;
-@property(retain, nonatomic) id <RBDomainAttributeManaging> domainAttributeManager; // @synthesize domainAttributeManager=_domainAttributeManager;
-@property(retain, nonatomic) id <RBEntitlementManaging> entitlementManager; // @synthesize entitlementManager=_entitlementManager;
-@property(retain, nonatomic) RBProcessIndex *processIndex; // @synthesize processIndex=_processIndex;
-@property(retain, nonatomic) NSMapTable *savedEndowments; // @synthesize savedEndowments=_savedEndowments;
-@property(retain, nonatomic) RBProcessMap *stateMap; // @synthesize stateMap=_stateMap;
-@property(retain, nonatomic) RBSystemState *systemState; // @synthesize systemState=_systemState;
 
 @end
 

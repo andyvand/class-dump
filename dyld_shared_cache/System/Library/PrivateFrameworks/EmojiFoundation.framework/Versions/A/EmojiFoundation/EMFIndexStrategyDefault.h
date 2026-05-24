@@ -10,11 +10,12 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ser Window :(id)arg1 %@
+;
+- (id)DebugLabelPreviousSearchesInCompletionList;
+- (id)ariQuickLookPreview.appex;
+- (id)compactBookmarkTableCellViewIdentifier;
+- (id)AlertDialogPromptTextKey;
 - (double);
 
 @end

@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSObject, NSSet;
-@protocol OS_dispatch_queue;
-
 @interface _MDExtensionLoader
 {
     _Bool _extensionsCacheNeedsLoad;
-    id _matchingContext;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDictionary *_extensionsByBundleId;
-    NSDictionary *_fileProviderBundleMap;
-    NSSet *_fileProviderBundleIDs;
-    NSMutableArray *_containerPaths;
-    NSMutableArray *_queueLabels;
-    NSMutableArray *_containerIDs;
-    NSMutableArray *_extensionIdentifiers;
-    long long _notificationCount;
 }
 
 - (void);
 - (void);
+- (void)1;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)H;
 - (void);
+- (id)!;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -44,24 +31,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)  ;
 - (long long);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *containerIDs; // @synthesize containerIDs=_containerIDs;
-@property(retain, nonatomic) NSMutableArray *containerPaths; // @synthesize containerPaths=_containerPaths;
-@property(retain, nonatomic) NSMutableArray *extensionIdentifiers; // @synthesize extensionIdentifiers=_extensionIdentifiers;
-@property(retain, nonatomic) NSDictionary *extensionsByBundleId; // @synthesize extensionsByBundleId=_extensionsByBundleId;
-@property _Bool extensionsCacheNeedsLoad; // @synthesize extensionsCacheNeedsLoad=_extensionsCacheNeedsLoad;
-@property(retain, nonatomic) NSSet *fileProviderBundleIDs; // @synthesize fileProviderBundleIDs=_fileProviderBundleIDs;
-@property(retain, nonatomic) NSDictionary *fileProviderBundleMap; // @synthesize fileProviderBundleMap=_fileProviderBundleMap;
 @property(retain, nonatomic) id matchingContext; // @synthesize matchingContext=_matchingContext;
-@property(nonatomic) long long notificationCount; // @synthesize notificationCount=_notificationCount;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableArray *queueLabels; // @synthesize queueLabels=_queueLabels;
 
 @end
 

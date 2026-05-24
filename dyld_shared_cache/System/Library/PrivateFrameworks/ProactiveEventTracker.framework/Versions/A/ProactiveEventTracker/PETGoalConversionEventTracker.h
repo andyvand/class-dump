@@ -11,10 +11,9 @@
 @interface PETGoalConversionEventTracker : PETEventTracker
 {
     NSString *_opportunityEvent;
-    NSString *_conversionEvent;
 }
 
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (void);
@@ -26,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *conversionEvent; // @synthesize conversionEvent=_conversionEvent;
 @property(readonly, nonatomic) NSString *opportunityEvent; // @synthesize opportunityEvent=_opportunityEvent;
 
 @end

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL, PFVideoComplement;
-
 @interface PHCollectionShareAssetSource
 {
     long long _sourceType;
-    NSURL *_fileURL;
-    NSData *_data;
-    PFVideoComplement *_videoComplementBundle;
-    long long _resourceType;
 }
 
 + (id);
@@ -23,15 +17,11 @@
 - (id);
 - (void)V_clientConnection;
 - (id)NSMutableDictionary"16^B24;
-- (long long)Rect;
+- (long long)packedAcceptableCropRect;
 - (long long):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) long long resourceType; // @synthesize resourceType=_resourceType;
 @property(readonly) long long sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly) PFVideoComplement *videoComplementBundle; // @synthesize videoComplementBundle=_videoComplementBundle;
 
 @end
 

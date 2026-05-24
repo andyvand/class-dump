@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NFReaderSessionConfig
 {
     _Bool _delayConnectionHandoverRestart;
-    unsigned long long _uiMode;
-    unsigned long long _sessionType;
-    NSString *_initialScanText;
-    NSArray *_vasPasses;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)initWithExtensionBundleIdentifier:(id)arg1 containerBundleIdentifier:deviceIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool delayConnectionHandoverRestart; // @synthesize delayConnectionHandoverRestart=_delayConnectionHandoverRestart;
-@property(readonly, copy, nonatomic) NSString *initialScanText; // @synthesize initialScanText=_initialScanText;
-@property(readonly, nonatomic) unsigned long long sessionType; // @synthesize sessionType=_sessionType;
 @property(readonly, nonatomic) unsigned long long uiMode; // @synthesize uiMode=_uiMode;
-@property(readonly, copy, nonatomic) NSArray *vasPasses; // @synthesize vasPasses=_vasPasses;
 
 @end
 

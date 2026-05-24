@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIInteractionProgress, _UIStatesFeedbackGenerator;
+@class UIInteractionProgress, _UIStatesFeedbackGenerator;
 
 @interface _UIPreviewTransitionDelegate
 {
@@ -19,19 +19,11 @@
 - (id);
 - (id)_UISceneConnectionOptionDefinitionPayloadStorage.swift;
 - (void)þ¬þ;
-- (void)l;
+- (void)UITransitionEntityLayoutModel;
 - (id)4±8ÿ¾´;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _UIStatesFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIInteractionProgress *interactionProgressForPresentation; // @synthesize interactionProgressForPresentation;
-@property(readonly) Class superclass;
 
 @end
 

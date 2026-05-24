@@ -6,8 +6,6 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOImageServicePurgeCacheToSizeReply : GEOXPCReply
 {
     unsigned long long _amountDeleted;
@@ -17,17 +15,10 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)cesCount;
+- (void)_mapFeatureLibraryFavoritesGuideSavedPlacesCount;
 
 // Remaining properties
 @property(nonatomic) unsigned long long amountDeleted; // @synthesize amountDeleted=_amountDeleted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

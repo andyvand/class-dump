@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class AMSBinaryPromise, AMSMediaToken, AMSPromise, NSString;
 
 @protocol AMSMediaTokenServiceKeychainStoreProtocol
+- (AMSPromise *);
+- (AMSBinaryPromise *)AFCompanionDeviceInfo:(AMSMediaToken *)arg1:speechID /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *keychainAccessGroup;

@@ -7,9 +7,6 @@
 @interface TeaUI.StringArrayViewController
 {
     id tableView;
-    id onKeyboardWillChange;
-    id onDone;
-    id data;
 }
 
 - (void);
@@ -17,9 +14,9 @@
 - (id);
 - (void);
 - (id);
+- (id)/Messages/Source/StickerBrowser/MSSticker.m;
 - (id);
-- (id);
-- (long long);
+- (long long)OD DB for writing.;
 - (void);
 - (void);
 - (void);

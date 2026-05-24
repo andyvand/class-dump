@@ -7,10 +7,6 @@
 @interface TeaUI.ImageCacheRequestPipeline__priv_18B9CE531B3AA4CAC0CBCF0572522BF9
 {
     id defaultRequestStream;
-    id defaultRequestInjector;
-    id boostedRequestStream;
-    id boostedRequestInjector;
-    id state;
 }
 
 @end

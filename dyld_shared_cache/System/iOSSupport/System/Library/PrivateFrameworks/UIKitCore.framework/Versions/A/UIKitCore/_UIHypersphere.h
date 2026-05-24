@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIHypersphere
 {
     double *__center;
-    unsigned long long __dimensions;
-    double __radius;
 }
 
 + (id)setCaretVisible: /* Error: Ran out of types for this method. */;
 + (_Bool)rstPerson-%@;
-- (void);
-- (void);
-- (const double *);
+- (void)0;
+- (void)ncing chats when coming back online;
+- (const double *)adChatSelection;
 - (double);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)lFrame;
-- (void)etCurrentPageIndicatorTintColor:(id)arg1;
-- (id);
+- (_Bool)totalFrame;
+- (void)setCurrentPageIndicatorTintColor:(id)arg1;
+- (id)_barButtonGroups;
 - (id)ners;
 - (void)with view %p from %@ to %@;
 
 // Remaining properties
 @property(readonly, nonatomic) const double *_center;
-@property(readonly, nonatomic) unsigned long long _dimensions; // @synthesize _dimensions=__dimensions;
-@property(nonatomic, setter=_setRadius:) double _radius; // @synthesize _radius=__radius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

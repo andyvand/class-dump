@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteEventRouterProtoChangeRegistrationsResponse, HMDRemoteEventRouterProtoConnectResponse, HMDRemoteEventRouterProtoEventsMessage, HMDRemoteEventRouterProtoMultiHopFetchEventsResponse, NSString;
+@class HMDRemoteEventRouterProtoChangeRegistrationsResponse;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterProtoServerMessage
 {
     HMDRemoteEventRouterProtoChangeRegistrationsResponse *_changeRegistrationsResponse;
-    HMDRemoteEventRouterProtoConnectResponse *_connectResponse;
-    NSString *_identifier;
-    int _message;
-    HMDRemoteEventRouterProtoMultiHopFetchEventsResponse *_multiHopFetchEventsResponse;
-    HMDRemoteEventRouterProtoEventsMessage *_updatedEvents;
-    struct {
-        unsigned int message:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (void);
+- (id)imestamp"b1"searchType"b1"tracksRAPRecordingOnly"b1};
+- (id)XPCConnection"24;
+- (_Bool)dy when sharing (without destination);
+- (_Bool)ystem/Library/Frameworks/DeviceIdentity.framework/DeviceIdentity;
+- (_Bool)torage"16^B24;
+- (_Bool);
+- (void)H;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (int);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)d;
+- (void)T;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -47,27 +39,16 @@ __attribute__((visibility("hidden")))
 - (void)!HGùQ°1Â0@ù
 × ;
 - (void);
-- (id)ataSource:(struct _NSZone *)arg1 initialStateHoldDetails: /* Error: Ran out of types for this method. */;
+- (id)makeHomeActivityStateMachineWithAggregatorStateDataSource:(struct _NSZone *)arg1 initialStateHoldDetails: /* Error: Ran out of types for this method. */;
 - (id)ng",&,N,V_zoneName;
 - (id)	
 ;
 - (int)`s;
 - (_Bool)H|´~µD(¶D·ðè¸¤¹Àº°»Ìh@¼à½8¾¿¸;
-- (void)adWriteTimeout;
+- (void)assistantClientReadWriteTimeout;
 
 // Remaining properties
-@property(retain, nonatomic) HMDRemoteEventRouterProtoChangeRegistrationsResponse *changeRegistrationsResponse; // @synthesize changeRegistrationsResponse=_changeRegistrationsResponse;
-@property(retain, nonatomic) HMDRemoteEventRouterProtoConnectResponse *connectResponse; // @synthesize connectResponse=_connectResponse;
-@property(readonly, nonatomic) _Bool hasChangeRegistrationsResponse;
-@property(readonly, nonatomic) _Bool hasConnectResponse;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasMessage;
-@property(readonly, nonatomic) _Bool hasMultiHopFetchEventsResponse;
-@property(readonly, nonatomic) _Bool hasUpdatedEvents;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int message; // @synthesize message=_message;
-@property(retain, nonatomic) HMDRemoteEventRouterProtoMultiHopFetchEventsResponse *multiHopFetchEventsResponse; // @synthesize multiHopFetchEventsResponse=_multiHopFetchEventsResponse;
-@property(retain, nonatomic) HMDRemoteEventRouterProtoEventsMessage *updatedEvents; // @synthesize updatedEvents=_updatedEvents;
 
 @end
 

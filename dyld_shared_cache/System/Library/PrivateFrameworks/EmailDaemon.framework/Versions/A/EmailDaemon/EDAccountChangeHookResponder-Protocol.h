@@ -5,5 +5,8 @@
 //
 
 @protocol EDAccountChangeHookResponder
+
+@optional
+- (void);
 @end
 

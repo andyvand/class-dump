@@ -13,11 +13,11 @@
     ACAccount *_account;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)vectorListCardinality;
 - (void)ount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -9,11 +9,10 @@
 @interface CTLazuliGroupChatParticipantList
 {
     NSArray *_list;
-    NSArray *_memberList;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)cPlayerItemSeekDidCompleteEvent:%p %@ didSeekInBuffer:%d> /* Error: Ran out of types for this method. */;
+- (void)N;
 - (id);
 - (_Bool);
 - (id);
@@ -21,7 +20,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)itionalVerifyInfo;
 - (id);
 - (void);
 - (void)&Ð!Gùª)Ð1Â0@ù
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *list; // @synthesize list=_list;
-@property(retain, nonatomic) NSArray *memberList; // @synthesize memberList=_memberList;
 
 @end
 

@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface FI_TTouchBarScrollingStackViewController : FI_TTouchBarViewController
 {
     struct TFENodeVector _targetNodes;
-    optional_dc4c3092 _cachedScrollPosition;
-    _Bool _disableCachedScrollPosition;
 }
 
-- (const void *);
-- (id);
+- (const void *)#;
+- (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

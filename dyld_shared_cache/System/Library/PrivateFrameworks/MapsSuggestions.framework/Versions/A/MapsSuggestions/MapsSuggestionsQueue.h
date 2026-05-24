@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MapsSuggestionsQueue
@@ -12,8 +12,8 @@
     struct unique_ptr<MSg::Queue, std::default_delete<MSg::Queue>> _cppQueue;
 }
 
-+ (id);
-- (void);
++ (id)=;
+- (void)R#;
 - (id);
 - (_Bool);
 - (id);
@@ -24,15 +24,7 @@
 - (void)d}16d32d40q48@?56;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *innerQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

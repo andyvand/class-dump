@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSString, PKStrokeSelection, UIBezierPath;
-@protocol PKSelectionRenderingDelegate;
+@class CAShapeLayer, PKStrokeSelection;
 
 @interface PKLassoRenderer
 {
     CAShapeLayer *_lassoLayer;
-    CAShapeLayer *_whiteLassoLayer;
-    struct CGPoint _editMenuLocation;
-    UIBezierPath *_lassoPath;
-    PKStrokeSelection *_strokeSelection;
-    id <PKSelectionRenderingDelegate> _renderingDelegate;
-    CDUnknownBlockType _calculateSelectionHullBlock;
 }
 
 - (void);
 - (void);
 - (id);
-- (vector_9651d273);
+- (vector_52a4e7e1);
 - (id);
 - (id);
 - (id);
@@ -49,16 +42,7 @@
 - (void)h}¸};
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType calculateSelectionHullBlock; // @synthesize calculateSelectionHullBlock=_calculateSelectionHullBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PKSelectionRenderingDelegate> renderingDelegate; // @synthesize renderingDelegate=_renderingDelegate;
 @property(retain, nonatomic) PKStrokeSelection *strokeSelection; // @synthesize strokeSelection=_strokeSelection;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,25 +6,12 @@
 
 #import <CoreMediaStream/MSCupidStateMachine.h>
 
-@class MSMediaStreamDaemon, MSObjectQueue, MSReauthorizationProtocol, MSSubscribeStreamsProtocol, NSMutableArray, NSMutableDictionary, NSString;
-@protocol MSSubscribeStorageProtocol, MSSubscriberDelegate;
+@class MSMediaStreamDaemon;
+@protocol MSSubscriberDelegate;
 
 @interface MSSubscriber : MSCupidStateMachine
 {
     id <MSSubscriberDelegate> _delegate;
-    MSMediaStreamDaemon *_daemon;
-    _Bool _checkOneMoreTime;
-    int _state;
-    MSSubscribeStreamsProtocol *_protocol;
-    NSMutableDictionary *_newSubscriptionsByStreamID;
-    int _retrievalState;
-    id <MSSubscribeStorageProtocol> _storageProtocol;
-    MSReauthorizationProtocol *_reauthProtocol;
-    MSObjectQueue *_retrievalQueue;
-    NSMutableArray *_assetsBeingRetrieved;
-    long long _targetRetrievalByteCount;
-    int _retrievalBatchSize;
-    long long _maxErrorCount;
 }
 
 + (id);
@@ -39,51 +26,51 @@
 + (id);
 + (id);
 + (_Bool){public}@:Checking for comment changes in album %{public}@, /* Error: Ran out of types for this method. */;
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
+- (long long)shing for domain:%@ failed with error:%@ /* Error: Ran out of types for this method. */;
+- (void)identStatusChannel:(id)arg1 %@;
+- (void)with ResidentStatusChannelManager:(id)arg1 %@;
+- (void)tered for domain:(id)arg1 %@;
+- (void)blic}@Handling state sync publish:(id)arg1 %@ for domain:(id)arg2 %@;
+- (void)issing domain or data from publish:(id)arg1 %@, skipping;
+- (void):(id)arg1 missing domain;
+- (void)state for domain:(id)arg1 %@, skipping;
+- (void)fetch request for domains:(id)arg1 %@ from device:%@ /* Error: Ran out of types for this method. */;
+- (void)cting state sync fetch request %@:(id)arg1 missing domains;
+- (void)%@, not configured;
+- (void)with error:(int)arg1 %@;
+- (int)ticipants because home reference is nil;
+- (void)nts manager because home manager reference is nil;
+- (void)g audio relay connection with SSRC %08x;
+- (void)c}@Creating video relay connection with SSRC %08x;
+- (id)home %{public}@:no primary resident /* Error: Ran out of types for this method. */;
+- (void)ic}@mediaComponentUUID is nil - cannot create mediaSystemComponent with %@;
+- (void)find accessory with %@in home %@;
+- (void),uuid_t}.16P Received HMDCameraSnapshotRemoteRelayStreamDelegate callback that the image transfer has completed with error %@;
+- (id)lic,uuid_t}.16P Received HMDCameraSnapshotRemoteRelayStreamDelegate callback that the image capture has started;
+- (void)k that the image transfer has completed with error %@;
+- (void)started;
+- (void)callback that the image capture has started;
+- (void)callback that the image has been saved after relay with error %@;
+- (void)@;
+- (void)elegate callback that the image capture has started;
+- (void)ic,uuid_t}.16P] Received HMDCameraSnapshotRemoteRelaySenderDelegate callback that the image capture has started;
+- (_Bool);
+- (_Bool)for an unknown session UUID:%{public,uuid_t}.16P /* Error: Ran out of types for this method. */;
+- (void)or unknown session UUID:(id)arg1 %{public}@;
+- (void):%{public,uuid_t}.16P /* Error: Ran out of types for this method. */;
+- (void)aSnapshotRemoteStreamReceiver:accessory reference is nil /* Error: Ran out of types for this method. */;
+- (void)blic,uuid_t}.16P] Failed to create snapshot session with HMDCameraSnapshotRemoteStreamReceiver:(int)arg1 accessory reference is nil;
+- (void)handler because snapshot file is present in cache for %@;
+- (void)ists for:(int)arg1 %@;
+- (void)ublic}@Removing %@ from list of homes to ping about account upgrade.;
+- (void)ith error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)%{public}@Configured VacationDetector with initial state %@;
+- (void)serID:%{sensitive}@ /* Error: Ran out of types for this method. */;
+- (void)dling did add user with userID:(id)arg1 %{sensitive}@;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -95,16 +82,6 @@
 
 // Remaining properties
 @property(nonatomic) MSMediaStreamDaemon *daemon; // @synthesize daemon=_daemon;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <MSSubscriberDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int retrievalBatchSize; // @synthesize retrievalBatchSize=_retrievalBatchSize;
-@property(readonly) Class superclass;
-@property(nonatomic) long long targetRetrievalByteCount; // @synthesize targetRetrievalByteCount=_targetRetrievalByteCount;
 
 @end
 

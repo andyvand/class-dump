@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @protocol SFContactImage
+- (void);
+- (void)e";
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appIconBadgeBundleIdentifier;
 @property(copy, nonatomic) NSArray *contactIdentifiers;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool threeDTouchEnabled;
 @end
 

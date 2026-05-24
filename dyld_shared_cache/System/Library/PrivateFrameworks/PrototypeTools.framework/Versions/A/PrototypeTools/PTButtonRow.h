@@ -14,19 +14,19 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)7;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@24;
 - (void);
 - (id);
-- (void);
+- (void)id not load!;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *outletKeyPath; // @synthesize outletKeyPath=_outletKeyPath;

@@ -6,15 +6,11 @@
 
 #import <QuartzComposer/QCNetworkPatch.h>
 
-@class QCBooleanPort, QCDatagramReceiver, QCNumberPort, QCStringPort;
+@class QCStringPort;
 
 @interface QCNetworkReceiver : QCNetworkPatch
 {
     QCStringPort *outputString;
-    QCNumberPort *outputTimestamp;
-    QCBooleanPort *outputSignal;
-    _Bool _run;
-    QCDatagramReceiver *_receiver;
 }
 
 + (Class);
@@ -22,7 +18,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)?	-;
 
 @end
 

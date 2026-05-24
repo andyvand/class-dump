@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class INIntent, NSString;
+
 @protocol _INExtensionContextVending
+- (oneway void)activateAccount:(NSString *)arg1 force:(INIntent *)arg2 locally:(void (^)(NSData *, NSError *))arg3;
 
 @optional
+- (oneway void);
 - (oneway void)¡â
 Ð!Bù1°1Â0@ù
 × ;

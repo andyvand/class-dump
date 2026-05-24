@@ -6,14 +6,12 @@
 
 #import <AppleMediaServices/AMSURLRequestEncoder.h>
 
-@class AMSPurchaseInfo, NSObject;
-@protocol OS_dispatch_queue;
+@class AMSPurchaseInfo;
 
 __attribute__((visibility("hidden")))
 @interface AMSPurchaseRequestEncoder : AMSURLRequestEncoder
 {
     AMSPurchaseInfo *_purchaseInfo;
-    NSObject<OS_dispatch_queue> *_purchaseRequestQueue;
 }
 
 + (id);
@@ -24,16 +22,15 @@ __attribute__((visibility("hidden")))
 + (id);
 + (long long);
 - (id);
-- (id);
+- (id)_speechRecognitionFeatures;
 - (id);
 - (id);
 - (void);
-- (id)se;
+- (id)promise;
 - (void)Ü¹"kÏX©GúÚcÇ4Î"»ïhø´çy7ôF£ÆzôVÛ»ÝáßÏÃØî6âhE>ùÆ!!vEÆ×ß¿¢´Û%@£ï'ÆsF1ÓûQ³·Õ*ù>bç;
 
 // Remaining properties
 @property(readonly) AMSPurchaseInfo *purchaseInfo; // @synthesize purchaseInfo=_purchaseInfo;
-@property(retain) NSObject<OS_dispatch_queue> *purchaseRequestQueue; // @synthesize purchaseRequestQueue=_purchaseRequestQueue;
 
 @end
 

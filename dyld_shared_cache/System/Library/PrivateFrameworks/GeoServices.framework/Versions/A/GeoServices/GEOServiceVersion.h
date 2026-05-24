@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOServiceVersion
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_versionDomains;
-    unsigned int _minimumVersion;
-    struct {
-        unsigned int has_minimumVersion:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)rdRevealedPlaceCardModules"b1"read_placeCardState"b1"read_predExTrainingData"b1"read_ratingPhotoSubmissionDetailsState"b1"read_ratingSubmissionDetailsState"b1"read_routeRouteDetails"b1"read_searchResultsState"b1"read_suggestionsDisplayedResults"b1"read_suggestionsSearchString"b1"read_tapEventState"b1"read_ugcPhotoState"b1"read_userHomeCountry"b1"read_userHomeMetro"b1"wrote_anyField"b1};
-- (id)ror: /* Error: Ran out of types for this method. */;
-- (id)EventLookupResult;
+- (id)hasError: /* Error: Ran out of types for this method. */;
+- (id)GEOSpatialEventLookupResult;
 - (void);
 
 @end

@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDataOutputDelegateCallbackHelper, NSArray;
+@class AVCaptureDataOutputDelegateCallbackHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureMetadataOutputInternal_Tundra
 {
     AVCaptureDataOutputDelegateCallbackHelper *delegateCallbackHelper;
-    struct CGRect rectOfInterest;
-    _Bool faceTrackingMetadataObjectTypesAvailable;
-    long long faceTrackingMaxFaces;
-    NSArray *metadataObjectTypes;
-    _Bool faceTrackingUsesFaceRecognition;
-    float faceTrackingNetworkFailureThresholdMultiplier;
-    float faceTrackingFailureFieldOfViewModifier;
-    struct __CFDictionary *metadataToProcsUnits;
-    struct os_unfair_lock_s internalLock;
 }
 
-- (void);
+- (void)changeWithChangeType:account:oldAccount: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

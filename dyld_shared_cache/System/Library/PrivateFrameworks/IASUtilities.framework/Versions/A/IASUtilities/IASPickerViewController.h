@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IASMagicPocketScrollView, NSArray, NSArrayController, NSButton, NSCollectionView, NSLayoutConstraint;
+@class NSLayoutConstraint;
 
 @interface IASPickerViewController
 {
     NSLayoutConstraint *_scrollerButtonWidthConstraint;
-    NSLayoutConstraint *_collectionViewWidthConstraint;
-    NSCollectionView *_collectionView;
-    NSArrayController *_itemArrayController;
-    IASMagicPocketScrollView *_scroller;
-    NSButton *_scrollLeftButton;
-    NSButton *_scrollRightButton;
-    NSArray *_content;
 }
 
 + (void);
@@ -24,17 +17,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)&;
 - (void);
 - (id);
 - (void);
@@ -45,13 +38,6 @@
 - (void);
 
 // Remaining properties
-@property __weak NSCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property __weak NSLayoutConstraint *collectionViewWidthConstraint; // @synthesize collectionViewWidthConstraint=_collectionViewWidthConstraint;
-@property(retain) NSArray *content; // @synthesize content=_content;
-@property __weak NSArrayController *itemArrayController; // @synthesize itemArrayController=_itemArrayController;
-@property __weak NSButton *scrollLeftButton; // @synthesize scrollLeftButton=_scrollLeftButton;
-@property __weak NSButton *scrollRightButton; // @synthesize scrollRightButton=_scrollRightButton;
-@property __weak IASMagicPocketScrollView *scroller; // @synthesize scroller=_scroller;
 @property __weak NSLayoutConstraint *scrollerButtonWidthConstraint; // @synthesize scrollerButtonWidthConstraint=_scrollerButtonWidthConstraint;
 
 @end

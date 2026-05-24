@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIDelayedHoverButtonTableCellView;
-
 @interface CalUIDelayedHoverButton
 {
     _Bool _isHovered;
-    CalUIDelayedHoverButtonTableCellView *_view;
 }
 
 - (void);
@@ -22,7 +19,6 @@
 
 // Remaining properties
 @property _Bool isHovered; // @synthesize isHovered=_isHovered;
-@property __weak CalUIDelayedHoverButtonTableCellView *view; // @synthesize view=_view;
 
 @end
 

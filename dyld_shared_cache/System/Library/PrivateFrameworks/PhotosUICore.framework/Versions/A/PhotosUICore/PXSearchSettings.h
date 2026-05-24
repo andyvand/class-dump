@@ -6,29 +6,13 @@
 
 #import <PhotosUICore/PXSettings.h>
 
-@class NSString;
-
 @interface PXSearchSettings : PXSettings
 {
     _Bool _disableTopAssetCuration;
-    _Bool _forceIndexingFooter;
-    _Bool _forceIndexingPausedTitle;
-    _Bool _enableAutoCorrect;
-    _Bool _enableBatchedSearchResults;
-    _Bool _shouldSplitResults;
-    unsigned long long _maxNumberOfTopAssetColumns;
-    unsigned long long _maxNumberOfResultColumns;
-    unsigned long long _maxNumberOfTopAssetRows;
-    unsigned long long _standardNumberOfTopAssetRows;
-    unsigned long long _indexingBannerPercentageThreshold;
-    NSString *_overrideMatchedQueryText;
-    unsigned long long _batchedSearchResultInitialBatchSize;
-    unsigned long long _batchedSearchResultSubsequentBatchSize;
-    long long _overriddenCentralizedFeedbackMode;
 }
 
 + (id);
-+ (id);
++ (id)tionStatus",R,N,V_tagSubscriptionStatus;
 + (id)ÚÙMte: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
@@ -65,21 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchedSearchResultInitialBatchSize; // @synthesize batchedSearchResultInitialBatchSize=_batchedSearchResultInitialBatchSize;
-@property(nonatomic) unsigned long long batchedSearchResultSubsequentBatchSize; // @synthesize batchedSearchResultSubsequentBatchSize=_batchedSearchResultSubsequentBatchSize;
-@property(nonatomic) _Bool disableTopAssetCuration; // @synthesize disableTopAssetCuration=_disableTopAssetCuration;
-@property(nonatomic) _Bool enableAutoCorrect; // @synthesize enableAutoCorrect=_enableAutoCorrect;
-@property(nonatomic) _Bool enableBatchedSearchResults; // @synthesize enableBatchedSearchResults=_enableBatchedSearchResults;
-@property(nonatomic) _Bool forceIndexingFooter; // @synthesize forceIndexingFooter=_forceIndexingFooter;
-@property(nonatomic) _Bool forceIndexingPausedTitle; // @synthesize forceIndexingPausedTitle=_forceIndexingPausedTitle;
-@property(nonatomic) unsigned long long indexingBannerPercentageThreshold; // @synthesize indexingBannerPercentageThreshold=_indexingBannerPercentageThreshold;
-@property(nonatomic) unsigned long long maxNumberOfResultColumns; // @synthesize maxNumberOfResultColumns=_maxNumberOfResultColumns;
 @property(nonatomic) unsigned long long maxNumberOfTopAssetColumns; // @synthesize maxNumberOfTopAssetColumns=_maxNumberOfTopAssetColumns;
-@property(nonatomic) unsigned long long maxNumberOfTopAssetRows; // @synthesize maxNumberOfTopAssetRows=_maxNumberOfTopAssetRows;
-@property(nonatomic) long long overriddenCentralizedFeedbackMode; // @synthesize overriddenCentralizedFeedbackMode=_overriddenCentralizedFeedbackMode;
-@property(copy, nonatomic) NSString *overrideMatchedQueryText; // @synthesize overrideMatchedQueryText=_overrideMatchedQueryText;
-@property(nonatomic) _Bool shouldSplitResults; // @synthesize shouldSplitResults=_shouldSplitResults;
-@property(nonatomic) unsigned long long standardNumberOfTopAssetRows; // @synthesize standardNumberOfTopAssetRows=_standardNumberOfTopAssetRows;
 
 @end
 

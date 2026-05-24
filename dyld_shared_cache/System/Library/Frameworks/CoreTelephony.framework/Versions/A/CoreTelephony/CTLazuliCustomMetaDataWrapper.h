@@ -9,10 +9,9 @@
 @interface CTLazuliCustomMetaDataWrapper
 {
     NSString *_header;
-    NSString *_value;
 }
 
-+ (_Bool);
++ (_Bool)@ timeTaken:%f loadedTimeRanges:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -20,16 +19,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)LAAuthenticationBiometricMethodObserver;
 - (id);
-- (id);
+- (id);
 - (void)
 × ;
-- (id)dioConference;
+- (id)kCTCallTypeAudioConference;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *header; // @synthesize header=_header;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

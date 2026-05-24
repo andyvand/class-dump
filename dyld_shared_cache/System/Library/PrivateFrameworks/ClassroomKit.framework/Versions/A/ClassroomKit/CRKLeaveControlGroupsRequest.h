@@ -13,10 +13,10 @@
 
 + (_Bool);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *groupIdentifiers; // @synthesize groupIdentifiers=_groupIdentifiers;

@@ -5,5 +5,8 @@
 //
 
 @protocol PKDownloadDelegate
+
+@optional
+- (void);
 @end
 

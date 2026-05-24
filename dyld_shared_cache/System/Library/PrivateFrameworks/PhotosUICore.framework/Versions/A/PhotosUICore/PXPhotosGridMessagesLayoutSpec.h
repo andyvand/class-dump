@@ -7,12 +7,6 @@
 @interface PXPhotosGridMessagesLayoutSpec
 {
     struct CGSize _referenceSize;
-    double _itemCornerRadius;
-    unsigned long long _numberOfColumns;
-    struct CGSize _interItemSpacing;
-    struct CGSize _itemInternalMargin;
-    struct CGSize _itemInternalSquareMargin;
-    struct NSEdgeInsets _padding;
 }
 
 - (long long);
@@ -25,12 +19,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize interItemSpacing; // @synthesize interItemSpacing=_interItemSpacing;
-@property(readonly, nonatomic) double itemCornerRadius; // @synthesize itemCornerRadius=_itemCornerRadius;
-@property(readonly, nonatomic) struct CGSize itemInternalMargin; // @synthesize itemInternalMargin=_itemInternalMargin;
-@property(readonly, nonatomic) struct CGSize itemInternalSquareMargin; // @synthesize itemInternalSquareMargin=_itemInternalSquareMargin;
 @property(readonly, nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property(readonly, nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
 
 @end
 

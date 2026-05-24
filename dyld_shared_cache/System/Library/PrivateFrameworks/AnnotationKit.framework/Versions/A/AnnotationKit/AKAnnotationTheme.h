@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont;
-
 @interface AKAnnotationTheme
 {
     int _pageTheme;
@@ -46,23 +44,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int annotationStyle;
-@property(readonly, nonatomic) NSColor *highlightColor;
-@property(readonly, nonatomic) _Bool isUnderline;
-@property(readonly, nonatomic) NSColor *noteBorderColor;
-@property(readonly, nonatomic) NSColor *noteFillColor;
-@property(readonly, nonatomic) NSColor *noteMarkerBorderColor;
-@property(readonly, nonatomic) NSColor *noteMarkerFillColor;
-@property(readonly, nonatomic) NSColor *noteMarkerStrikethroughColor;
-@property(readonly, nonatomic) NSColor *noteShadowColor;
-@property(readonly, nonatomic) struct CGSize noteShadowOffset;
-@property(readonly, nonatomic) double noteShadowOpacity;
-@property(readonly, nonatomic) double noteShadowRadius;
-@property(readonly, nonatomic) NSColor *noteTextColor;
-@property(readonly, nonatomic) NSFont *noteTextFont;
-@property(readonly, nonatomic) NSFont *noteTextFontInTable;
-@property(readonly, nonatomic) NSColor *notesSidebarBarColor;
-@property(readonly, nonatomic) NSColor *notesSidebarTextColor;
 @property(nonatomic) int pageTheme; // @synthesize pageTheme=_pageTheme;
 
 @end

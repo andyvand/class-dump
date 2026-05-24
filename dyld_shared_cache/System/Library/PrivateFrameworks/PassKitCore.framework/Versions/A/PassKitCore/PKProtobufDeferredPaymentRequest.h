@@ -4,70 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKProtobufPaymentSummaryItem;
-
 @interface PKProtobufDeferredPaymentRequest
 {
     double _freeCancellationDate;
-    NSString *_billingAgreement;
-    PKProtobufPaymentSummaryItem *_deferredBilling;
-    NSString *_freeCancellationDateTimeZone;
-    NSString *_managementURL;
-    NSString *_paymentDescription;
-    NSString *_tokenNotificationURL;
-    struct {
-        unsigned int freeCancellationDate:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)V;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)롁T	M;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (double);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)"avgTimeBackoff"b1"dataTransferRateMpbs"b1"effectiveDataTransferRateMpbs"b1"effectiveLinkRateMpbs"b1"linkRateMbps"b1"phyType"b1"powerSaveDur"b1};
+- (void)';
+- (id)B;
 - (id);
 - (void)HTTP Redirect;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *billingAgreement; // @synthesize billingAgreement=_billingAgreement;
-@property(retain, nonatomic) PKProtobufPaymentSummaryItem *deferredBilling; // @synthesize deferredBilling=_deferredBilling;
-@property(nonatomic) double freeCancellationDate; // @synthesize freeCancellationDate=_freeCancellationDate;
-@property(retain, nonatomic) NSString *freeCancellationDateTimeZone; // @synthesize freeCancellationDateTimeZone=_freeCancellationDateTimeZone;
-@property(readonly, nonatomic) _Bool hasBillingAgreement;
-@property(readonly, nonatomic) _Bool hasDeferredBilling;
-@property(nonatomic) _Bool hasFreeCancellationDate;
-@property(readonly, nonatomic) _Bool hasFreeCancellationDateTimeZone;
-@property(readonly, nonatomic) _Bool hasManagementURL;
 @property(readonly, nonatomic) _Bool hasPaymentDescription;
-@property(readonly, nonatomic) _Bool hasTokenNotificationURL;
-@property(retain, nonatomic) NSString *managementURL; // @synthesize managementURL=_managementURL;
-@property(retain, nonatomic) NSString *paymentDescription; // @synthesize paymentDescription=_paymentDescription;
-@property(retain, nonatomic) NSString *tokenNotificationURL; // @synthesize tokenNotificationURL=_tokenNotificationURL;
 
 @end
 

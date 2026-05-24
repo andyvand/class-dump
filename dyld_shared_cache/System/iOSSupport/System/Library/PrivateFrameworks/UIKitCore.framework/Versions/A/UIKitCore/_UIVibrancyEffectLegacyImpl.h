@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _UIVibrancyEffectLegacyImpl : _UIVibrancyEffectImpl
 {
     long long _style;
-    _Bool _invertAutomaticStyle;
-    _Bool _ignoreSimpleVibrancy;
-    UIVibrancyEffect *_effect;
 }
 
 - (long long);
@@ -23,13 +20,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (void);
 - (_Bool)ItemPrivate>";
-- (void)imer;
-- (id)und;
+- (void)touchDictationMenuTimer;
+- (id)_keepContextAssociationInBackground;
 - (void)k;
 - (id)Ð g;
 - (_Bool)or UITableViewAutomaticDimension.;
-- (id);
-- (void)esFloatingContentView;
+- (id)_UIScreenDidConnectNotification;
+- (void)CollectionViewCellEagerlyEnsuresFloatingContentView;
 - (_Bool)r is not bottom aligned when the code to update it is expecting it to be;
 
 // Remaining properties

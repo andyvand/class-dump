@@ -6,18 +6,12 @@
 
 #import <NeutrinoCore/NURenderNode.h>
 
-@class NSObject, NUColorSpace, NUImageLayout, NUPixelFormat;
-@protocol NUMutablePurgeableImage, OS_dispatch_queue;
+@class NUImageLayout;
+@protocol NUMutablePurgeableImage;
 
 @interface NUImageAccumulationNode : NURenderNode
 {
     id <NUMutablePurgeableImage> _image;
-    NSObject<OS_dispatch_queue> *_queue;
-    float _contentHeadroom;
-    NUPixelFormat *_pixelFormat;
-    NUColorSpace *_colorSpace;
-    NUImageLayout *_layout;
-    CDStruct_d58201db _imageSize;
 }
 
 - (id);
@@ -27,19 +21,14 @@
 - (id);
 - (CDStruct_912cb5d2);
 - (float);
-- (id);
+- (id)assetMonitorWithPolicy:qosClass: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)v64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGPoint=dd}48 /* Error: Ran out of types for this method. */;
-- (id)ure;
+- (id)_sourceTexture;
 - (id)Ha0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Geometry/transforms/NUGeometryTransform.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, nonatomic) float contentHeadroom; // @synthesize contentHeadroom=_contentHeadroom;
-@property(readonly, nonatomic) id <NUMutablePurgeableImage> image;
-@property(readonly, nonatomic) CDStruct_912cb5d2 imageSize; // @synthesize imageSize=_imageSize;
 @property(readonly, nonatomic) NUImageLayout *layout; // @synthesize layout=_layout;
-@property(readonly, nonatomic) NUPixelFormat *pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end
 

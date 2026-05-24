@@ -4,42 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableArray;
-@protocol TSDTileGeometryProviding;
-
 @interface TSDTilingLayer
 {
     int mTilingMode;
-    struct CGSize mTileSize;
-    struct {
-        unsigned int tiled:1;
-        unsigned int hasCustomContents:1;
-        unsigned int drawsInBackground:1;
-        unsigned int forceTiling:1;
-        unsigned int needsTileLayout:1;
-        unsigned int needsTileDisplay:1;
-        unsigned int needsSelfDisplay:1;
-    } mFlags;
-    struct CGRect mLastVisibleBounds;
-    struct CGSize mLastBoundsSize;
-    CALayer *mProviderContentLayer;
-    NSMutableArray *mDirtyTiles;
-    _Bool mHasEverHadTileLayout;
-    _Bool _enableContext;
-    id <TSDTileGeometryProviding> _geometryProvider;
 }
 
 + (struct CGImage *);
 + (struct CGImage *);
 + (struct CGSize);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)vation did not complete;
+- (_Bool)r item for ;
+- (void)GaplessInfoLastPacketsResyncKey;
+- (void)interruption: /* Error: Ran out of types for this method. */;
+- (void)serEvent.beginScanning - identifier:(id)arg1;
+- (void)asset has been loaded;
+- (void)ReachedItsEnd - ;
+- (void)ems left in queue;
 - (_Bool);
 - (void);
 - (unsigned long long);
@@ -47,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -57,7 +37,7 @@
 - (void);
 - (_Bool);
 - (int);
-- (void);
+- (void)e don't need to check for feedNavImage and coverImage;
 - (void);
 - (void);
 - (id);
@@ -69,10 +49,6 @@
 - (void)oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDDrawableInfo.m;
 
 // Remaining properties
-@property(nonatomic) _Bool drawsInBackground;
-@property(nonatomic) _Bool enableContext; // @synthesize enableContext=_enableContext;
-@property(nonatomic) _Bool forceTiling;
-@property(retain, nonatomic) id <TSDTileGeometryProviding> geometryProvider; // @synthesize geometryProvider=_geometryProvider;
 @property(nonatomic) int tilingMode; // @synthesize tilingMode=mTilingMode;
 
 @end

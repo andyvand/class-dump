@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOURLCollectionStorage;
-
 @interface MKCollectionStorageRefiner
 {
     struct os_unfair_lock_s _lock;
-    GEOURLCollectionStorage *_collectionStorage;
 }
 
-- (id);
-- (id);
+- (id)9W;
+- (id);
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void)lTime;
+- (void)etaTravelTime;
 
 @end
 

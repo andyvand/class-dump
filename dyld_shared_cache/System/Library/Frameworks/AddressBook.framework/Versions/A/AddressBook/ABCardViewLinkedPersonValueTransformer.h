@@ -11,7 +11,7 @@
     ABCardViewLinkedPerson *_lastLinkedPerson;
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
 - (void);
 - (id);

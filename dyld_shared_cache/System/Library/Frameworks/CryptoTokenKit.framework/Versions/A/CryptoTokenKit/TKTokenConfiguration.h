@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, TKTokenConfigurationConnection, TKTokenID;
+@class TKTokenConfigurationConnection, TKTokenID;
 
 @interface TKTokenConfiguration
 {
     TKTokenConfigurationConnection *_configurationConnection;
-    NSArray *_keychainItems;
-    TKTokenID *_tokenID;
 }
 
 + (void);
@@ -26,14 +24,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)pV;
+- (void)nvalid update value type, expecting dictionary.;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *configurationData;
-@property(readonly, nonatomic) NSString *instanceID;
-@property(copy, nonatomic) NSArray *keychainItems;
 @property(readonly, nonatomic) TKTokenID *tokenID; // @synthesize tokenID=_tokenID;
 
 @end

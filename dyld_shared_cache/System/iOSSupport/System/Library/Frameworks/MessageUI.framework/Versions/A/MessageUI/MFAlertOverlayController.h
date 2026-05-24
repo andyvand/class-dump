@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAlertController, UIWindow, UIWindowScene;
+@class UIWindow, UIWindowScene;
 
 @interface MFAlertOverlayController
 {
     UIWindowScene *_scene;
-    UIWindow *_overlayWindow;
 }
 
 + (id);
@@ -29,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isPresentingAlert;
 @property(retain, nonatomic) UIWindow *overlayWindow; // @synthesize overlayWindow=_overlayWindow;
-@property(readonly, nonatomic) __weak UIWindowScene *scene; // @synthesize scene=_scene;
-@property(readonly, nonatomic) UIAlertController *topmostPresentedAlert;
 
 @end
 

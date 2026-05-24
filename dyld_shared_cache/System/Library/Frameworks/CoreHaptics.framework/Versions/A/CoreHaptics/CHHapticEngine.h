@@ -4,44 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, AVHapticPlayer, CASpatialAudioExperience, CHMetrics, HapticServerConfig, NSArray, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class AVHapticPlayer, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CHHapticEngine
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    AVAudioSession *_avAudioSession;
-    unsigned int _audioSessionID;
-    unsigned int _processTaskToken;
-    struct dict _processTaskTokenDict;
-    _Bool _sessionIsShared;
-    struct map<unsigned long, std::pair<NSURL *, NSDictionary *>, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, std::pair<NSURL *, NSDictionary *>>>> _publicAudioResources;
-    AVHapticPlayer *_player;
-    NSObject<OS_dispatch_source> *_timer;
-    CDUnknownBlockType _stoppedHandler;
-    CDUnknownBlockType _resetHandler;
-    _Bool _autoShutdownEnabled;
-    CDUnknownBlockType _clientFinishedHandler;
-    _Bool _running;
-    unsigned long long _currentPlayerBehavior;
-    HapticServerConfig *_serverConfig;
-    NSString *_priority;
-    NSString *_hapticPowerUsage;
-    NSString *_audioPowerUsage;
-    NSString *_usageCategory;
-    double _runTimeout;
-    CHMetrics *_metrics;
-    NSDictionary *_storedOptions;
-    CASpatialAudioExperience *_intendedSpatialExperience;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (void);
++ (void);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (void);
 - (id);
@@ -54,7 +31,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)T?;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -89,7 +66,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -102,7 +79,7 @@
 - (long long);
 - (id);
 - (double);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -135,14 +112,14 @@
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (double);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -152,19 +129,19 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)SB_EEEE;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
+- (_Bool)7@;
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)`;
 - (_Bool);
 - (id);
 - (double);
@@ -172,44 +149,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ntroller updateWithParameters:%@] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned int);
-- (id)rtTime;
+- (id)_lastStartTime;
 - (id)State %d);
 
 // Remaining properties
-@property(nonatomic) _Bool activateAudioSessionOnStart;
-@property(readonly) NSString *audioPowerUsage; // @synthesize audioPowerUsage=_audioPowerUsage;
-@property(readonly) unsigned int audioSessionID; // @synthesize audioSessionID=_audioSessionID;
-@property(nonatomic, getter=isAutoShutdownEnabled) _Bool autoShutdownEnabled;
-@property double autoShutdownTimeout;
-@property(readonly) AVAudioSession *avAudioSession; // @synthesize avAudioSession=_avAudioSession;
-@property(readonly) NSArray *availableLocalities;
-@property(copy) CDUnknownBlockType clientFinishedHandler; // @synthesize clientFinishedHandler=_clientFinishedHandler;
-@property unsigned long long currentPlayerBehavior; // @synthesize currentPlayerBehavior=_currentPlayerBehavior;
-@property(readonly) double currentTime;
-@property(nonatomic) _Bool followAudioRoute;
-@property(readonly) NSString *hapticPowerUsage; // @synthesize hapticPowerUsage=_hapticPowerUsage;
-@property(nonatomic) _Bool highPriority;
-@property(copy) CASpatialAudioExperience *intendedSpatialExperience; // @synthesize intendedSpatialExperience=_intendedSpatialExperience;
-@property(nonatomic) _Bool isMutedForAudio;
-@property(nonatomic) _Bool isMutedForHaptics;
-@property(readonly) NSString *locality;
-@property(readonly) CHMetrics *metrics;
-@property(nonatomic) _Bool muteHapticsWhileRecordingAudio;
-@property(readonly) _Bool needsAudioPowerBudget;
 @property(readonly) AVHapticPlayer *player;
-@property(nonatomic) _Bool playsAudioOnly;
-@property(nonatomic) _Bool playsHapticsOnly;
-@property(readonly) NSString *priority; // @synthesize priority=_priority;
-@property(copy) CDUnknownBlockType resetHandler; // @synthesize resetHandler=_resetHandler;
-@property _Bool running;
-@property(readonly) HapticServerConfig *serverConfig; // @synthesize serverConfig=_serverConfig;
-@property(readonly) _Bool sessionIsShared; // @synthesize sessionIsShared=_sessionIsShared;
-@property(copy) CDUnknownBlockType stoppedHandler; // @synthesize stoppedHandler=_stoppedHandler;
-@property(retain) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
-@property(readonly) NSString *usageCategory; // @synthesize usageCategory=_usageCategory;
 
 @end
 

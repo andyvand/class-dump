@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VGVehicle;
+@class VGDataCoordinator, VGVehicle;
 
 @protocol VGDataCoordinatorDelegate
+- (void);
+- (void)containersMatchingPredicate:(VGDataCoordinator *)arg1 error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) VGVehicle *selectedVehicle;
-@property(readonly, nonatomic) NSArray *vehicles;
 @end
 

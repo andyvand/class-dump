@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController;
 @protocol MUContentViewControllerDelegate;
 
 @interface MUContentViewController
 {
     id <MUContentViewControllerDelegate> _delegate;
-    AKController *_annotationController;
 }
 
 - (void);
@@ -23,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) AKController *annotationController; // @synthesize annotationController=_annotationController;
 @property __weak id <MUContentViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

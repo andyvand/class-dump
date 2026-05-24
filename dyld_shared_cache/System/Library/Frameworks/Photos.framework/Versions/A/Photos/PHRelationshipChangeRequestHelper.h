@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, PHChangeRequestHelper;
+@class NSString;
 
 @interface PHRelationshipChangeRequestHelper
 {
     _Bool _allowsInsert;
-    _Bool _allowsMove;
-    _Bool _allowsRemove;
-    NSString *_relationshipName;
-    NSString *_destinationEntityName;
-    NSString *_destinationUUIDKeyPath;
-    NSArray *_originalObjectIDs;
-    NSMutableArray *_mutableObjectIDsAndUUIDs;
-    NSMutableArray *_mutableAppendedObjectIDsAndUUIDs;
-    CDUnknownBlockType _isDestinationObjectValid;
-    PHChangeRequestHelper *_changeRequestHelper;
 }
 
 + (id);
@@ -27,7 +17,7 @@
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -38,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)8H;
 - (id);
 - (id);
 - (void);
@@ -53,27 +43,17 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)Rh"9uB;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_ICMusicSubscriptionStatusDidChangeDistributedNotification;
 - (void);
 - (void)ionDateSource;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsInsert; // @synthesize allowsInsert=_allowsInsert;
-@property(nonatomic) _Bool allowsMove; // @synthesize allowsMove=_allowsMove;
-@property(nonatomic) _Bool allowsRemove; // @synthesize allowsRemove=_allowsRemove;
-@property(retain, nonatomic) PHChangeRequestHelper *changeRequestHelper; // @synthesize changeRequestHelper=_changeRequestHelper;
-@property(retain, nonatomic) NSString *destinationEntityName; // @synthesize destinationEntityName=_destinationEntityName;
-@property(retain, nonatomic) NSString *destinationUUIDKeyPath; // @synthesize destinationUUIDKeyPath=_destinationUUIDKeyPath;
-@property(copy, nonatomic) CDUnknownBlockType isDestinationObjectValid; // @synthesize isDestinationObjectValid=_isDestinationObjectValid;
-@property(retain, nonatomic) NSMutableArray *mutableAppendedObjectIDsAndUUIDs; // @synthesize mutableAppendedObjectIDsAndUUIDs=_mutableAppendedObjectIDsAndUUIDs;
-@property(retain, nonatomic) NSMutableArray *mutableObjectIDsAndUUIDs; // @synthesize mutableObjectIDsAndUUIDs=_mutableObjectIDsAndUUIDs;
-@property(retain, nonatomic) NSArray *originalObjectIDs; // @synthesize originalObjectIDs=_originalObjectIDs;
 @property(readonly, nonatomic) NSString *relationshipName; // @synthesize relationshipName=_relationshipName;
 
 @end

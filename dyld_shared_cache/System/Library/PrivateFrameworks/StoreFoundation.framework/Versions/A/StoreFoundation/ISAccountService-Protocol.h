@@ -5,5 +5,7 @@
 //
 
 @protocol ISAccountService
+- (void);
+- (void);
 @end
 

@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPManifestURL
 {
     PBDataReader *_reader;
-    NSString *_urlName;
-    NSString *_urlValue;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_urlName:1;
-        unsigned int read_urlValue:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)edIndex:(id)arg1;
++ (_Bool)setLastZilchStitchedIndex:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)P;
+- (id)zeroFilter:zeroFilteredBufferAvailable:atHostTime: /* Error: Ran out of types for this method. */;
+- (void)CSSmartSiriVolumeProcessor;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)iculty";
-- (id)eNoCountryWithFallback: /* Error: Ran out of types for this method. */;
+- (id)cityAndAboveNoCountryWithFallback: /* Error: Ran out of types for this method. */;
 - (id)ZZ;
 - (id)iles.shrink;
 - (void)áR)vO@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasUrlName;
-@property(readonly, nonatomic) _Bool hasUrlValue;
-@property(retain, nonatomic) NSString *urlName;
-@property(retain, nonatomic) NSString *urlValue;
 
 @end
 

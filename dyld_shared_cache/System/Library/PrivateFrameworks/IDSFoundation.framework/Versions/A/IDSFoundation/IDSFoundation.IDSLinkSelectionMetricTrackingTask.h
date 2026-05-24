@@ -7,9 +7,6 @@
 @interface IDSFoundation.IDSLinkSelectionMetricTrackingTask
 {
     id name;
-    id state;
-    id timeSource;
-    id tracker;
 }
 
 @end

@@ -7,7 +7,6 @@
 @interface AppStoreKit.PlayableViewVisibilityTracker.PlayableItem__priv_3A578297A9899AAC30445D938DE4CDB4
 {
     id playableView;
-    id overrideFrame;
 }
 
 @end

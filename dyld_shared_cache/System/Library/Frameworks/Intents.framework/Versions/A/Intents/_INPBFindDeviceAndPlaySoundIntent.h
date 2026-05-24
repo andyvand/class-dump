@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class NSArray;
 
 @interface _INPBFindDeviceAndPlaySoundIntent
 {
     struct {
         unsigned int isStopRequest:1;
     } _has;
-    _Bool _isStopRequest;
-    NSArray *_devices;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -31,31 +28,19 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)lu);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)A;
+- (id)(;
 - (void);
 - (id);
 - (_Bool)umValue;
 - (void)tion: /* Error: Ran out of types for this method. */;
-- (void)sForSetTaskAttribute:(id)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideContactEventTriggerOptionsForSetTaskAttribute:(id)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)t.QýO;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(readonly, nonatomic) unsigned long long devicesCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasIsStopRequest;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) _Bool isStopRequest; // @synthesize isStopRequest=_isStopRequest;
-@property(readonly) Class superclass;
 
 @end
 

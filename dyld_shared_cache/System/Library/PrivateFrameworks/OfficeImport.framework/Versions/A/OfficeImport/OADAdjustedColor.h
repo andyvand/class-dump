@@ -10,18 +10,13 @@ __attribute__((visibility("hidden")))
 @interface OADAdjustedColor : OADColor
 {
     OADColor *mBaseColor;
-    int mAdjustmentType;
-    unsigned char mAdjustmentParam;
-    _Bool mInvert;
-    _Bool mInvert128;
-    _Bool mGray;
 }
 
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (_Bool);
 - (unsigned char);
-- (int);
+- (int));
 - (id);
 - (unsigned long long);
 - (_Bool);

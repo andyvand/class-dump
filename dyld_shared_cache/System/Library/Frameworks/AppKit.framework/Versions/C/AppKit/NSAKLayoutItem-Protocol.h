@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutDimension, NSLayoutXAxisAnchor, NSLayoutYAxisAnchor, NSString;
+@class NSISVariable, NSLayoutConstraint, NSLayoutDimension, NSLayoutXAxisAnchor, NSString;
 
 @protocol NSAKLayoutItem
+- (NSLayoutDimension *);
+- (NSISVariable *)tually returns %s;
+- (NSISVariable *)lMKshPs7fX9YxDSOEXnoiw;
+- (_Bool)BBRejectedTicket;
+- (NSLayoutConstraint *)q5wYk81dLM2qjufnC0phw;
+- (NSLayoutXAxisAnchor *)aA;
+- (NSLayoutXAxisAnchor *)nc/Udy4WNG8S+Q7a/s1A;
+- (struct CGRect)SURLSessionStreamTask captureStreams]; delegate = %@;
+- (struct CGRect)setPrefersEmojiImageTextAttachment: /* Error: Ran out of types for this method. */;
+- (NSISVariable *)layoutGlyphsInLayoutManager:startingAtGlyphIndex:maxNumberOfLineFragments:nextGlyphIndex: /* Error: Ran out of types for this method. */;
 - (void)ñâ3Ð1Â0@ù
 × ;
-- (NSString *)eys;
-- (struct CGRect)eOpsViewService;
+- (NSString *)NSEqualObjectsForKeys;
+- (struct CGRect)NSDocumentTitlebarPopoverLocalFileOpsViewService;
 
 // Remaining properties
-@property(readonly) NSLayoutYAxisAnchor *bottomAnchor;
-@property(readonly) struct CGRect bounds;
-@property(readonly) NSLayoutXAxisAnchor *centerXAnchor;
-@property(readonly) NSLayoutYAxisAnchor *centerYAnchor;
 @property(readonly) struct CGRect frame;
-@property(readonly) _Bool hasAmbiguousLayout;
-@property(readonly) NSLayoutDimension *heightAnchor;
-@property(copy) NSString *identifier;
-@property(readonly) NSLayoutXAxisAnchor *leadingAnchor;
-@property(readonly) NSLayoutXAxisAnchor *leftAnchor;
-@property(readonly) NSLayoutXAxisAnchor *rightAnchor;
-@property(readonly) NSLayoutYAxisAnchor *topAnchor;
-@property(readonly) NSLayoutXAxisAnchor *trailingAnchor;
-@property(readonly) NSLayoutDimension *widthAnchor;
 @end
 

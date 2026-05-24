@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _NSLevelIndicatorDiscreteCapacityCore : _NSLevelIndicatorAppearanceBasedVisualProvider
 {
     NSMutableArray *_segmentFillViews;
-    NSMutableArray *_segmentTrackViews;
-    NSMutableArray *_segmentOutlineViews;
 }
 
 - (void);
@@ -22,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct NSEdgeInsets);
 - (id);
-- (void);
+- (void)checked_isWaitingForConnectivity;
 - (id);
 - (void);
 - (void)n\U2019t be renamed to \U2018%@\U2019.;

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TMPathExclusion
 {
     unsigned char _type;
-    NSString *_standardizedPath;
-    NSString *_destinationUUID;
 }
 
 + (id);
@@ -18,23 +14,18 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)*!;
 - (unsigned long long);
 - (unsigned char);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool appManaged;
-@property(readonly) NSString *destinationUUID; // @synthesize destinationUUID=_destinationUUID;
-@property(readonly) NSString *standardizedPath; // @synthesize standardizedPath=_standardizedPath;
 @property(readonly) unsigned char type; // @synthesize type=_type;
-@property(readonly) _Bool userManagedGlobal;
-@property(readonly) _Bool userManagedPerDestination;
 
 @end
 

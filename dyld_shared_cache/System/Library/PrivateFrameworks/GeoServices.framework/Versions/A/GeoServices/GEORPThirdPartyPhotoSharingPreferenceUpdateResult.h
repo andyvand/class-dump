@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPThirdPartyPhotoSharingPreference, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPThirdPartyPhotoSharingPreferenceUpdateResult
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _errors;
-    GEORPThirdPartyPhotoSharingPreference *_preference;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_errors:1;
-        unsigned int read_preference:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)AlertText:(id)arg1;
++ (_Bool)setLocalizedAlertText:(id)arg1;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -35,9 +25,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)onitor"16@"CSAudioRecordContext"24@"NSString"32B40@"CSAudioStartStreamOption"44;
+- (void)Transaction",&,N,V_modelLoadTransaction;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -45,17 +35,14 @@
 - (id);
 - (void);
 - (id)read_waypointLocation"b1"read_waypointNameProperties"b1"read_waypointPlace"b1"wrote_anyField"b1};
-- (id)ingSections;
+- (id)daVinciBuildingSections;
 - (id)¼«²p²h³$´;
 - (id)emanifest.getMaximumZoomLevel;
 - (void)RµBAî#·&P@;
 - (id)©j@;
 
 // Remaining properties
-@property(readonly, nonatomic) int *errors;
 @property(readonly, nonatomic) unsigned long long errorsCount;
-@property(readonly, nonatomic) _Bool hasPreference;
-@property(retain, nonatomic) GEORPThirdPartyPhotoSharingPreference *preference;
 
 @end
 

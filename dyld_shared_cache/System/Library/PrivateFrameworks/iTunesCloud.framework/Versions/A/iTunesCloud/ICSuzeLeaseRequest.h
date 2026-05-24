@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreRequestContext, NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ICSuzeLeaseRequest
 {
     NSData *_clientData;
-    NSString *_leaseID;
-    long long _mediaType;
-    long long _qualityOfService;
-    ICStoreRequestContext *_requestContext;
-    long long _requestType;
 }
 
 - (id);
@@ -22,20 +17,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (id);
-- (void)Notification;
+- (void)hasNotification;
 - (void)KeyRequestDidSucceed:(long long)arg1 %{public}@;
-- (long long);
+- (long long)CommandOption;
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *clientData; // @synthesize clientData=_clientData;
-@property(readonly, copy, nonatomic) NSString *leaseID; // @synthesize leaseID=_leaseID;
-@property(readonly, nonatomic) long long mediaType; // @synthesize mediaType=_mediaType;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(readonly, copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(readonly, nonatomic) long long requestType; // @synthesize requestType=_requestType;
 
 @end
 

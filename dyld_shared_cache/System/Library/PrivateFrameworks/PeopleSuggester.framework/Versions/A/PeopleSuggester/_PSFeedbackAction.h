@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PSSuggestion;
-
 @interface _PSFeedbackAction
 {
     long long _type;
-    _PSSuggestion *_suggestion;
-    NSString *_transportBundleID;
 }
 
++ (id)Type;
++ (id)i,N,V_homeAutomationRequestOutcome;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
++ (id)ectionLatencyMs;
++ (id)s;
+- (id)_counterfactualTriggeredNonTier1;
 - (id);
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _PSSuggestion *suggestion; // @synthesize suggestion=_suggestion;
-@property(readonly, copy, nonatomic) NSString *transportBundleID; // @synthesize transportBundleID=_transportBundleID;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

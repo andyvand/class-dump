@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)0:8{CGRect={CGPoint=dd}{CGSize=dd}}16d48 /* Error: Ran out of types for this method. */;
+- (id)setButtonRespectsTextStackPadding: /* Error: Ran out of types for this method. */;
+- (id)setAccountMediaType: /* Error: Ran out of types for this method. */;
+- (id)separatorColor;
 
 @end
 

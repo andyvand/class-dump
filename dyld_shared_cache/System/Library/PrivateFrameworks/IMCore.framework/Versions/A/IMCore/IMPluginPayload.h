@@ -4,87 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerSetupInfo, CKShare, DDScannerResult, IMBalloonPluginDataSource, NSArray, NSAttributedString, NSData, NSDate, NSDictionary, NSString, NSURL, TUConversationActivity, _SWCollaborationMetadata;
+@class NSDate;
 
 @interface IMPluginPayload
 {
     _Bool _update;
-    _Bool _sticker;
-    _Bool _customAcknowledgement;
-    _Bool _shouldExpire;
-    _Bool _sendAsCopy;
-    _Bool _skipConfigurePlugin;
-    _Bool _liveEditableInEntryView;
-    _Bool _isPlayed;
-    _Bool _isFromMe;
-    TUConversationActivity *groupActivity;
-    NSAttributedString *_text;
-    NSData *_data;
-    NSData *_generativePlaygroundRecipeData;
-    NSURL *_url;
-    NSString *_breadcrumbText;
-    NSString *_statusText;
-    long long _payloadCollaborationType;
-    NSDictionary *_userInfo;
-    NSString *_messageGUID;
-    NSDate *_time;
-    NSString *_associatedMessageGUID;
-    NSString *_pluginSessionGUID;
-    NSString *_pluginBundleID;
-    NSArray *_consumedSessionPayloads;
-    NSString *_threadIdentifier;
-    NSArray *_fileTransferGUIDs;
-    DDScannerResult *_dataDetectedResult;
-    NSArray *_attachments;
-    IMBalloonPluginDataSource *_datasource;
-    _SWCollaborationMetadata *_collaborationMetadata;
-    NSString *_collaborationOptionsSummary;
-    NSURL *_sendAsCopyURL;
-    NSString *_sender;
-    CKShare *_cloudKitShare;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *associatedMessageGUID; // @synthesize associatedMessageGUID=_associatedMessageGUID;
-@property(retain, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(retain, nonatomic) NSString *breadcrumbText; // @synthesize breadcrumbText=_breadcrumbText;
-@property(retain, nonatomic) CKShare *cloudKitShare; // @synthesize cloudKitShare=_cloudKitShare;
-@property(retain, nonatomic) _SWCollaborationMetadata *collaborationMetadata; // @synthesize collaborationMetadata=_collaborationMetadata;
-@property(retain, nonatomic) NSString *collaborationOptionsSummary; // @synthesize collaborationOptionsSummary=_collaborationOptionsSummary;
-@property(retain, nonatomic) NSArray *consumedSessionPayloads; // @synthesize consumedSessionPayloads=_consumedSessionPayloads;
-@property(readonly, nonatomic) CKContainerSetupInfo *containerSetupInfo;
-@property(nonatomic, getter=isCustomAcknowledgement) _Bool customAcknowledgement; // @synthesize customAcknowledgement=_customAcknowledgement;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) DDScannerResult *dataDetectedResult; // @synthesize dataDetectedResult=_dataDetectedResult;
-@property(nonatomic) __weak IMBalloonPluginDataSource *datasource; // @synthesize datasource=_datasource;
-@property(retain, nonatomic) NSArray *fileTransferGUIDs; // @synthesize fileTransferGUIDs=_fileTransferGUIDs;
-@property(retain, nonatomic) NSData *generativePlaygroundRecipeData; // @synthesize generativePlaygroundRecipeData=_generativePlaygroundRecipeData;
-@property(copy, nonatomic) TUConversationActivity *groupActivity; // @synthesize groupActivity;
-@property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(nonatomic) _Bool isPlayed; // @synthesize isPlayed=_isPlayed;
-@property(nonatomic) _Bool liveEditableInEntryView; // @synthesize liveEditableInEntryView=_liveEditableInEntryView;
-@property(retain, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(nonatomic) long long payloadCollaborationType; // @synthesize payloadCollaborationType=_payloadCollaborationType;
-@property(retain, nonatomic) NSString *pluginBundleID; // @synthesize pluginBundleID=_pluginBundleID;
-@property(retain, nonatomic) NSString *pluginSessionGUID; // @synthesize pluginSessionGUID=_pluginSessionGUID;
-@property(nonatomic) _Bool sendAsCopy; // @synthesize sendAsCopy=_sendAsCopy;
-@property(retain, nonatomic) NSURL *sendAsCopyURL; // @synthesize sendAsCopyURL=_sendAsCopyURL;
-@property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(nonatomic) _Bool shouldExpire; // @synthesize shouldExpire=_shouldExpire;
-@property(readonly, nonatomic) _Bool shouldHideAttachments;
-@property(nonatomic) _Bool skipConfigurePlugin; // @synthesize skipConfigurePlugin=_skipConfigurePlugin;
-@property(retain, nonatomic) NSString *statusText; // @synthesize statusText=_statusText;
-@property(nonatomic, getter=isSticker) _Bool sticker; // @synthesize sticker=_sticker;
-@property(readonly, nonatomic) _Bool supportsCollaboration;
-@property(readonly, nonatomic) _Bool supportsSendLater;
-@property(retain, nonatomic) NSAttributedString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
 @property(retain, nonatomic) NSDate *time; // @synthesize time=_time;
-@property(nonatomic, getter=isUpdate) _Bool update; // @synthesize update=_update;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

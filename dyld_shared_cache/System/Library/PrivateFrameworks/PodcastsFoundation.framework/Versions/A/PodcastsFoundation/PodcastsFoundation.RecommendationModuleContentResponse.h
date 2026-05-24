@@ -10,9 +10,9 @@
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)6	;
 - (unsigned long long);
 
 @end

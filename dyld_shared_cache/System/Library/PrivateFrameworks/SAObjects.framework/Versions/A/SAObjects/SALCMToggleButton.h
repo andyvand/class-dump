@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSDictionary, NSString, SABaseCommand;
+@class SABaseCommand;
 
 @interface SALCMToggleButton : SAAceView
 {
@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,11 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SABaseCommand *commandToToggleToOffMode;
-@property(retain, nonatomic) SABaseCommand *commandToToggleToOnMode;
-@property(copy, nonatomic) NSDictionary *offIconDynamicImage;
-@property(copy, nonatomic) NSString *offTitle;
-@property(copy, nonatomic) NSDictionary *onIconDynamicImage;
-@property(copy, nonatomic) NSString *onTitle;
 
 @end
 

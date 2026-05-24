@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatDebuggerCallStackEntry
 {
     id callStackFrame;
-    id onSelectBlock;
-    id selectedCallStackFrame;
 }
 
 @end

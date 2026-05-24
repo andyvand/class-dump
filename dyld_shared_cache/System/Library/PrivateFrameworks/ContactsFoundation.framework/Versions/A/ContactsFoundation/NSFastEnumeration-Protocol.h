@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)ithProfileConnection:(CDStruct_58648341 *)arg1;
+- (unsigned long long)initWithProfileConnection:(CDStruct_70511ce9 *)arg1;
 @end
 

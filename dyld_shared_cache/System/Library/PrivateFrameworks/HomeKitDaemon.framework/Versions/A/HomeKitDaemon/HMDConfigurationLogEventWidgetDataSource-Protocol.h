@@ -5,7 +5,7 @@
 //
 
 @protocol HMDConfigurationLogEventWidgetDataSource
-- (long long)7W5rbjPi;
+- (long long)k8Y029QH96477W5rbjPi;
 
 // Remaining properties
 @property long long configuredWidgetsCount;

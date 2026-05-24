@@ -10,10 +10,10 @@
 {
 }
 
-- (id);
+- (id),N,V_retainOriginalFormatting;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

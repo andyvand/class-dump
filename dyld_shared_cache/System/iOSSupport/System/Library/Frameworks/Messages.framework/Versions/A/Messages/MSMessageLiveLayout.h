@@ -6,14 +6,11 @@
 
 #import <Messages/MSMessageLayout.h>
 
-@class MSMessageTemplateLayout, NSArray;
+@class NSArray;
 
 @interface MSMessageLiveLayout : MSMessageLayout
 {
     _Bool _sendAlternateLayoutAsText;
-    _Bool _liveEditableInEntryView;
-    NSArray *_requiredCapabilities;
-    MSMessageTemplateLayout *_alternateLayout;
 }
 
 + (_Bool);
@@ -28,15 +25,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MSMessageTemplateLayout *alternateLayout; // @synthesize alternateLayout=_alternateLayout;
-@property(nonatomic) _Bool liveEditableInEntryView; // @synthesize liveEditableInEntryView=_liveEditableInEntryView;
 @property(retain, nonatomic) NSArray *requiredCapabilities; // @synthesize requiredCapabilities=_requiredCapabilities;
-@property(nonatomic) _Bool sendAlternateLayoutAsText; // @synthesize sendAlternateLayoutAsText=_sendAlternateLayoutAsText;
 
 @end
 

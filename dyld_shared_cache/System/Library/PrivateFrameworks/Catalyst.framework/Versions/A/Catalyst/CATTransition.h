@@ -9,19 +9,17 @@
 @interface CATTransition
 {
     CATState *_state;
-    SEL _action;
 }
 
-+ (id);
++ (id)setCurrentProgress: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (SEL);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SEL action; // @synthesize action=_action;
 @property(readonly, nonatomic) __weak CATState *state; // @synthesize state=_state;
 
 @end

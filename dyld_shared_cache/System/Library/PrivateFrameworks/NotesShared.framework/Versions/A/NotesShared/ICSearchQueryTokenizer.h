@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)d downloading;
 + (id);
 + (id);
 + (void);

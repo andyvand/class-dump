@@ -13,10 +13,10 @@
     CKOrganicImageLayoutRecipe *_layoutRecipe;
 }
 
+- (void)_titleAttributedString;
+- (id)emphasizedDivider;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)!;
 - (void),ü;
 
 // Remaining properties

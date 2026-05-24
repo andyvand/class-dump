@@ -4,51 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOArrivalPoint
 {
     PBUnknownFields *_unknownFields;
-    GEOLatLng *_point;
-    unsigned int _radius;
-    struct {
-        unsigned int has_radius:1;
-    } _flags;
 }
 
-+ (_Bool)age:(id)arg1;
++ (_Bool)setHasMaximumVoltage:(id)arg1;
+- (_Bool)n;
+- (void);
+- (void);
+- (id)P;
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)assetForAssetType:(id)arg1 resourcePath:configVersion:assetProvider: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
+- (_Bool)m;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)u too big (> %u);
 - (void)0@ù
 × ;
-- (void)arget:(_Bool)arg1;
-- (id)erencesUpdate;
-- (unsigned int)Home;
+- (void)setHasTarget:(_Bool)arg1;
+- (id)photoAttributionPreferencesUpdate;
+- (unsigned int)guidesHome;
 - (id)8ÜÄÝ;
 - (id)AuditToken;
-- (id)aps;
+- (id)poi_id_taps;
 - (id);
 - (void)q;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPoint;
-@property(nonatomic) _Bool hasRadius;
-@property(retain, nonatomic) GEOLatLng *point;
-@property(nonatomic) unsigned int radius;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

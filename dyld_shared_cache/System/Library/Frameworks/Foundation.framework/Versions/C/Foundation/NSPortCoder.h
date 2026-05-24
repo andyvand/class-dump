@@ -12,7 +12,7 @@
 
 + (id);
 + (id)8;
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (void);
 - (void);

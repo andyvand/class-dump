@@ -7,11 +7,6 @@
 @interface NewsUI2.TitleView
 {
     id backgroundView;
-    id titleLabel;
-    id subtitleLabel;
-    id chevron;
-    id seeMoreButton;
-    id action;
 }
 
 - (void);

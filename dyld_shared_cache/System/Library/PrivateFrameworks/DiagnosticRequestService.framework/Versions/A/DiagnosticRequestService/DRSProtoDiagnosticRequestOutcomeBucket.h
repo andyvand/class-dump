@@ -8,23 +8,16 @@ __attribute__((visibility("hidden")))
 @interface DRSProtoDiagnosticRequestOutcomeBucket
 {
     unsigned long long _count;
-    int _outcome;
-    int _requestState;
-    struct {
-        unsigned int count:1;
-        unsigned int outcome:1;
-        unsigned int requestState:1;
-    } _has;
 }
 
-- (void);
+- (void)F;
 - (id);
 - (_Bool);
 - (int);
 - (void);
 - (id);
 - (_Bool);
-- (int);
+- (int)!;
 - (void);
 - (_Bool);
 - (void);
@@ -33,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -44,12 +37,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) _Bool hasCount;
 @property(nonatomic) _Bool hasOutcome;
-@property(nonatomic) _Bool hasRequestState;
-@property(nonatomic) int outcome; // @synthesize outcome=_outcome;
-@property(nonatomic) int requestState; // @synthesize requestState=_requestState;
 
 @end
 

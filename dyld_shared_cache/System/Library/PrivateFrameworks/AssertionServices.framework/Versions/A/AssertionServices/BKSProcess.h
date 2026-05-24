@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSProcessAssertion, BKSProcessExitContext, BSProcessHandle, RBSAssertion, RBSProcessHandle, RBSProcessIdentity, RBSProcessMonitor;
-
 @interface BKSProcess
 {
     struct os_unfair_lock_s _lock;
-    _Bool _bootstrapped;
-    RBSProcessIdentity *_identity;
-    RBSProcessHandle *_processHandle;
-    RBSAssertion *_assertion;
-    RBSProcessMonitor *_monitor;
-    BKSProcessExitContext *_lastExitContext;
-    BKSProcessAssertion *_mediaAssertion;
-    BKSProcessAssertion *_audioAssertion;
-    _Bool _nowPlayingWithAudio;
-    _Bool _recordingAudio;
-    long long _terminationReason;
-    BSProcessHandle *_handle;
 }
 
 + (id);
 + (double);
 + (id);
-- (_Bool);
+- (_Bool)D;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -35,23 +21,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)K;
+- (id)encodeToCommandBuffer:computeEncoder:destinationBuffer:destinationOffset:numEntries:stride: /* Error: Ran out of types for this method. */;
+- (void)must be contiguous;
 - (id);
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)debugDescription;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double backgroundTimeRemaining;
-@property(readonly, nonatomic) BSProcessHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) BKSProcessExitContext *lastExitContext;
 @property(nonatomic) _Bool nowPlayingWithAudio; // @synthesize nowPlayingWithAudio=_nowPlayingWithAudio;
-@property(nonatomic) _Bool recordingAudio; // @synthesize recordingAudio=_recordingAudio;
-@property(nonatomic) long long terminationReason; // @synthesize terminationReason=_terminationReason;
 
 @end
 

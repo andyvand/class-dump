@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBString
 {
     struct _has;
-    NSArray *_values;
 }
 
 + (Class);
@@ -19,27 +18,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
-- (void)ilureRequiringAppLaunch;
+- (void)INSetNicknameIntentResponseCodeFailureRequiringAppLaunch;
 - (void);
 - (id)n;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *values; // @synthesize values=_values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (void);
-+ (id);
++ (id)m:(Class)arg1;
 + (void)!øGùñc°1Â0@ù
 × ;
-+ (void)pellingCorrection:(id)arg1;
++ (void)toggleAutomaticSpellingCorrection:(id)arg1;
 
 @end
 

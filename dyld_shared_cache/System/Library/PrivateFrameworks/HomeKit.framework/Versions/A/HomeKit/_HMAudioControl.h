@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMediaSession, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue, _HMAudioControlDelegate;
+@class HMMediaSession;
 
 __attribute__((visibility("hidden")))
 @interface _HMAudioControl
 {
     struct os_unfair_lock_s _lock;
-    _Bool _muted;
-    float _volume;
-    NSUUID *_uniqueIdentifier;
-    HMMediaSession *_mediaSession;
-    id <_HMAudioControlDelegate> _delegate;
-    _HMContext *_context;
 }
 
 - (void);
@@ -24,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)#;
+- (void)~;
 - (void);
 - (void);
 - (id);
@@ -37,29 +30,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool)Data:qualityOfService:responseHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)sendRequestData:qualityOfService:responseHandler: /* Error: Ran out of types for this method. */;
 - (void)N,V_supports946950341b318ffd;
-- (id)nknownSettingType;
+- (id)HMImmutableUnknownSettingType;
 
 // Remaining properties
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <_HMAudioControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak HMMediaSession *mediaSession; // @synthesize mediaSession=_mediaSession;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property float volume; // @synthesize volume=_volume;
 
 @end
 

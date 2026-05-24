@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
 @protocol BPSSubscriber;
 
 @interface _BPSTimerInner
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _getTimestamp;
-    id <BPSSubscriber> _downstream;
-    double _interval;
-    NSDate *_nextIntervalBoundary;
-    NSDate *_startTimestamp;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)xpc_successPINForDevice: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -35,17 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double interval; // @synthesize interval=_interval;
-@property(retain, nonatomic) NSDate *nextIntervalBoundary; // @synthesize nextIntervalBoundary=_nextIntervalBoundary;
-@property(retain, nonatomic) NSDate *startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(readonly) Class superclass;
 
 @end
 

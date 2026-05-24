@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleMediaAccessory, NSHashTable, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDAppleMediaAccessory, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSoftwareUpdateManager
 {
     HMDAppleMediaAccessory *_accessory;
-    NSUUID *_identifier;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSHashTable *_activeClients;
 }
 
 + (_Bool)onsDailyTotal;
@@ -24,32 +20,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)election;
+- (id)HMDCameraAudioParameterSelection;
 - (id)ublic}@Submitting Repair Setup Session metric :%@ as accessory is already in the home %@ /* Error: Ran out of types for this method. */;
 - (id)ration to HH2 failed with error:%@ /* Error: Ran out of types for this method. */;
 - (void)n.commandAction;
 - (void)ationResponses=%@>;
-- (id)ingsAuditReasonRemoveSetting;
-- (id)rializer;
+- (id)HMDAccessorySettingsAuditReasonRemoveSetting;
+- (id)StateSyncPayloadSerializer;
 - (id);
 
 // Remaining properties
-@property __weak HMDAppleMediaAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic) NSHashTable *activeClients; // @synthesize activeClients=_activeClients;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
 
 @end
 

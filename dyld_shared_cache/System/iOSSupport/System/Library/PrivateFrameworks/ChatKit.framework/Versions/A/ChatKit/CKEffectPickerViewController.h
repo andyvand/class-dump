@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEffectPickerView, NSAttributedString;
-@protocol CKEffectPickerViewControllerDelegate;
+@class NSAttributedString;
 
 @interface CKEffectPickerViewController
 {
     _Bool _isInlineReply;
-    id <CKEffectPickerViewControllerDelegate> _delegate;
-    NSAttributedString *_text;
-    CKEffectPickerView *_pickerView;
-    struct CGPoint _balloonViewOrigin;
-    struct CGRect _sendButtonFrame;
 }
 
+- (void)deletePDFFolderIfExistsForAttachment:(double)arg1;
+- (void)addAttachmentWithUTI:data:filename:updateFileBasedAttributes:analytics:regulatoryLogging: /* Error: Ran out of types for this method. */;
+- (void)sswordIncorrectTextViewHeightConstraint;
+- (void)eInternal",N,R;
+- (void)Delayer",&,N,V_updateSelectorDelayer;
+- (void);
+- (void)\;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (_Bool)e;
+- (id)e;
+- (void)L;
+- (void)f;
+- (void)nt:(id)arg1 %{sensitive}s};
+- (void)achment title {id:(id)arg1 %s, title:%{sensitive}s} /* Error: Ran out of types for this method. */;
+- (struct CGPoint)licating note;
 - (struct CGRect);
 - (void);
 - (void);
@@ -42,17 +36,12 @@
 - (id);
 - (void);
 - (void);
-- (void)chedCompactFrame;
+- (void)_cachedCompactFrame;
 - (void)%@) does not allow presentation alongside Send Later. Presenting unsupported item alert and aborting.;
 - (unsigned long long)4	;
-- (void)utTemplate;
+- (void)TapbackPickerBalloonLayoutTemplate;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint balloonViewOrigin; // @synthesize balloonViewOrigin=_balloonViewOrigin;
-@property(nonatomic) __weak id <CKEffectPickerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isInlineReply; // @synthesize isInlineReply=_isInlineReply;
-@property(retain, nonatomic) CKEffectPickerView *pickerView; // @synthesize pickerView=_pickerView;
-@property(nonatomic) struct CGRect sendButtonFrame; // @synthesize sendButtonFrame=_sendButtonFrame;
 @property(copy, nonatomic) NSAttributedString *text; // @synthesize text=_text;
 
 @end

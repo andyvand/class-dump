@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, UITableView;
+
 @protocol UITableViewDelegate
+
+@optional
+- (void);
+- (long long);
+- (NSArray *)s:(UITableView *)arg1 �H;
+- (void);
+- (void)iv;
 @end
 

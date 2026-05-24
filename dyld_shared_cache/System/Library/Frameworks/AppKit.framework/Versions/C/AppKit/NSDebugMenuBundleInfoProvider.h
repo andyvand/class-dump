@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, NSString;
+@class NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugMenuBundleInfoProvider
 {
 }
 
-- (id);
+- (id)s"32@?<v@?q>40;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSMenuItem *menuItem;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatStateMachineStateStore
 {
     id states;
-    id lock;
 }
 
 @end

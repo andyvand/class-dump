@@ -13,7 +13,7 @@
 
 + (void)using already staged %@ marker;
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (void);
 - (int);
@@ -22,10 +22,9 @@
 - (_Bool);
 - (id)>> %s:%p:queues contain V %.4lf-%.4lf, A %.4lf-%.4lf, request for %@ /* Error: Ran out of types for this method. */;
 - (struct OpaqueCMClock *)Ï¤ÿ£Ï¤ÿªÏ¥ÿ°Ð¦ÿ·Ð§ÿ¾Ð¨ÿÄÑ©ÿÊÑªÿÒÑ«ÿØÒ­ÿßÒ®ÿæÒ¯ÿîÒ°ÿCÖªÿEÖªÿFÖªÿHÖªÿJÖ©ÿNÖ©ÿQÖ©ÿUÖ©ÿZÖ¨ÿ`Ö¨ÿeÖ§ÿjÖ§ÿp×¦ÿv×¦ÿ~×¦ÿ×¥ÿ×¥ÿ×¥ÿ×¥ÿ×¥ÿ¥×¦ÿ«×¦ÿ²Ø§ÿ¹Ø¨ÿ¿Ø©ÿÅÙªÿÌÙ«ÿÓÙ¬ÿÙÙ­ÿàÚ®ÿçÚ¯ÿîÚ°ÿJßªÿKßªÿLßªÿNßªÿPßªÿSßªÿWßªÿZß©ÿ_ß©ÿdß©ÿiß¨ÿnß¨ÿtà¨ÿzà§ÿà§ÿà§ÿà§ÿà§ÿà§ÿ¡à§ÿ§à§ÿ­à¨ÿ³á¨ÿºá©ÿÁáªÿÇá«ÿÍâ¬ÿÔâ­ÿÛâ®ÿáâ¯ÿèâ°ÿïã±ÿOç«ÿPç«ÿRç«ÿSç«ÿUç«ÿXç«ÿ[çªÿ_çªÿcçªÿhçªÿmç©ÿrç©ÿwè©ÿ}è¨ÿè¨ÿè¨ÿè¨ÿè¨ÿè¨ÿ¢è¨ÿ©è©ÿ¯è©ÿµè©ÿ¼éªÿÂé«ÿÈé¬ÿÎé­ÿÕê®ÿÜê®ÿâê¯ÿèê°ÿðê±ÿUï¬ÿVï¬ÿWï¬ÿXï«ÿZï«ÿ]ï«ÿ`ï«ÿcï«ÿgï«ÿlï«ÿpïªÿuïªÿzðªÿðªÿð©ÿð©ÿð©ÿð©ÿð©ÿ¤ð©ÿªðªÿ°ðªÿ·ð«ÿ½ñ«ÿÃñ¬ÿÊñ­ÿÐñ­ÿ×ñ®ÿÝñ¯ÿãò°ÿéò±ÿñò±ÿZ÷¬ÿ[÷¬ÿ\÷¬ÿ]÷¬ÿ_÷¬ÿb÷¬ÿd÷¬ÿh÷¬ÿk÷¬ÿp÷«ÿt÷«ÿy÷«ÿ}÷«ÿ÷«ÿø«ÿøªÿøªÿøªÿ ø«ÿ¦ø«ÿ¬ø«ÿ²ø«ÿ¸ø¬ÿ¿ø¬ÿÅø­ÿËù­ÿÑù®ÿØù¯ÿÞù°ÿäù±ÿêù±ÿñù²ÿ`ÿ­ÿaÿ­ÿbÿ­ÿcÿ­ÿeÿ­ÿgÿ­ÿjÿ­ÿlÿ­ÿpÿ­ÿtÿ¬ÿxÿ¬ÿ|ÿ¬ÿÿ¬ÿÿ¬ÿÿ¬ÿÿ¬ÿÿ¬ÿÿ¬ÿ£ÿ¬ÿ©ÿ¬ÿ®ÿ¬ÿ´ÿ¬ÿºÿ­ÿÁÿ­ÿÇÿ®ÿÍÿ®ÿÓÿ¯ÿÙÿ°ÿßÿ°ÿåÿ±ÿìÿ²ÿðÿ²ÿ;
-- (_Bool)lize;
+- (_Bool)FigCaptureBinaryPlistInitialize;
 
 // Remaining properties
-@property(readonly, nonatomic) struct OpaqueCMClock *clock;
 @property int sourceStartState; // @synthesize sourceStartState=_sourceStartState;
 
 @end

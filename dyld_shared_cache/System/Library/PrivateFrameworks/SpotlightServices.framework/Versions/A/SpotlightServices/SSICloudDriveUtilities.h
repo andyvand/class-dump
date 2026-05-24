@@ -8,17 +8,17 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (id)setCreatorFacebookProfile:(id)arg1;
++ (id)setCanDrawSubviewsIntoLayer:(id)arg1;
++ (id)setCanDrawSubviewsIntoLayer: /* Error: Ran out of types for this method. */;
++ (_Bool)firstBaselineOffsetFromTop;
++ (id)audioForStyle: /* Error: Ran out of types for this method. */;
++ (id)audioFilePlaybackInformationWithAudio: /* Error: Ran out of types for this method. */;
++ (id)_lp_simplifiedStringByDeduplicatingDelimiterSeparatedSubstrings:(id)arg1;
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)_displayNameInitialsPrefixMatchOnly;
 
 @end
 

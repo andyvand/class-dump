@@ -6,27 +6,23 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PKAccountWebserviceCustomizePhysicalCardRequest : PKAccountWebServiceRequest
 {
     NSURL *_baseURL;
-    NSString *_accountIdentifier;
-    NSString *_accountUserAltDSID;
 }
 
 - (void);
+- (id)C9;
 - (id);
 - (id);
-- (id);
-- (void)edAltDescription;
+- (void)localizedAltDescription;
 - (void);
 - (id),;
 - (void)Ö;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *accountUserAltDSID; // @synthesize accountUserAltDSID=_accountUserAltDSID;
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 
 @end

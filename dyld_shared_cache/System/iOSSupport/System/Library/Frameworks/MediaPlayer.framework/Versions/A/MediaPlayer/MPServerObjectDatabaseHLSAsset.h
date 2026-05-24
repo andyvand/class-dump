@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface MPServerObjectDatabaseHLSAsset
 {
     _Bool _iTunesStoreStream;
-    NSString *_identifier;
-    NSString *_hashedPersonID;
-    NSURL *_playlistURL;
-    NSURL *_keyCertificateURL;
-    NSURL *_keyServerURL;
-    NSNumber *_keyServerAdamID;
-    NSString *_keyServerProtocolType;
 }
 
-- (id);
-- (id);
+- (id)[,];
+- (id)$U;
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)otLibrary> _BiomeLibrary(void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)G__;
+- (void)__MPModelRelationshipSongComposer__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *hashedPersonID; // @synthesize hashedPersonID=_hashedPersonID;
-@property(readonly, nonatomic, getter=isiTunesStoreStream) _Bool iTunesStoreStream; // @synthesize iTunesStoreStream=_iTunesStoreStream;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSURL *keyCertificateURL; // @synthesize keyCertificateURL=_keyCertificateURL;
-@property(readonly, copy, nonatomic) NSNumber *keyServerAdamID; // @synthesize keyServerAdamID=_keyServerAdamID;
-@property(readonly, copy, nonatomic) NSString *keyServerProtocolType; // @synthesize keyServerProtocolType=_keyServerProtocolType;
-@property(readonly, copy, nonatomic) NSURL *keyServerURL; // @synthesize keyServerURL=_keyServerURL;
-@property(readonly, copy, nonatomic) NSURL *playlistURL; // @synthesize playlistURL=_playlistURL;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewFlexibleSectionLayout : NSTouchBarCustomizationPreviewSectionLayout
 {
     double _defaultItemPadding;
-    double _cachedVisualCenterXOffset;
 }
 
 - (void);

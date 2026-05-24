@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 __attribute__((visibility("hidden")))
 @interface __NSLMMarkedTextUnderlineRenderer
 {
     struct CGContext *_cgContextRef;
-    NSColor *_underlineColor;
-    _Bool _hasUnderlineSegment;
-    double _yPosition;
-    double _selectedStartX;
-    double _selectedEndX;
-    double _startX;
-    double _endX;
 }
 
 - (void);

@@ -9,7 +9,6 @@
 @interface IMDaemonQueryController
 {
     IMDaemonController *_daemonController;
-    NSMutableDictionary *_queries;
 }
 
 - (void);
@@ -22,11 +21,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)pJ3;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak IMDaemonController *daemonController; // @synthesize daemonController=_daemonController;
 @property(readonly, nonatomic) NSMutableDictionary *queries; // @synthesize queries=_queries;
 
 @end

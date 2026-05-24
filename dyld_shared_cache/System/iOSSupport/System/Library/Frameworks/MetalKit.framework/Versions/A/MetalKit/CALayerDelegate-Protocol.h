@@ -10,6 +10,7 @@
 @protocol CALayerDelegate
 
 @optional
-- (id <CAAction>)s:(CALayer *)arg1 count:(NSString *)arg2;
+- (void);
+- (id <CAAction>)countByEnumeratingWithState:(CALayer *)arg1 objects:(NSString *)arg2 count: /* Error: Ran out of types for this method. */;
 @end
 

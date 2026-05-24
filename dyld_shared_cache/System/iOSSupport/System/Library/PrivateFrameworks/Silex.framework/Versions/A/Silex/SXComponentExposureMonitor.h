@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, SXViewport;
-@protocol SXHost;
+@class SXViewport;
 
 @interface SXComponentExposureMonitor
 {
     SXViewport *_viewport;
-    id <SXHost> _host;
-    NSMutableSet *_trackingComponents;
 }
 
 - (void);
@@ -31,20 +28,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)"CADisplayLink";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXHost> host; // @synthesize host=_host;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableSet *trackingComponents; // @synthesize trackingComponents=_trackingComponents;
 @property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end

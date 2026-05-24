@@ -14,8 +14,8 @@
 }
 
 + (int);
-- (id);
-- (id);
+- (id)icePairingSession)] Opening Security Session in State = %ld usingSystemPairing = %s;
+- (id)lastSync;
 - (void);
 
 // Remaining properties

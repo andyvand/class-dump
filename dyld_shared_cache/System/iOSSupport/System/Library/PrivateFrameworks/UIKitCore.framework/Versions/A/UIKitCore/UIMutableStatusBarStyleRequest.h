@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIStatusBarStyleRequest.h>
 
-@class NSNumber, UIColor;
-
 __attribute__((visibility("hidden")))
 @interface UIMutableStatusBarStyleRequest : UIStatusBarStyleRequest
 {
@@ -17,15 +15,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)!tCùQg1Â0@ù
 × ;
-- (id)PageControlIndicatorContentView;
+- (id)_UIPageControlIndicatorContentView;
 - (void)Éÿä;
 - (void)ÈÞÿ"q};
 
 // Remaining properties
-@property(nonatomic) double foregroundAlpha; // @dynamic foregroundAlpha;
-@property(retain, nonatomic) UIColor *foregroundColor; // @dynamic foregroundColor;
-@property(nonatomic) long long legibilityStyle; // @dynamic legibilityStyle;
-@property(retain, nonatomic) NSNumber *overrideHeight; // @dynamic overrideHeight;
 @property(nonatomic) long long style; // @dynamic style;
 
 @end

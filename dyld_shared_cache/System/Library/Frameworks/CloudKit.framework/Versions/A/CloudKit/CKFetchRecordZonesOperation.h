@@ -6,27 +6,18 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchRecordZonesOperationInfo, NSArray, NSMutableDictionary, NSString;
 @protocol CKFetchRecordZonesOperationCallbacks;
 
 @interface CKFetchRecordZonesOperation : CKDatabaseOperation
 {
     _Bool _isFetchAllRecordZonesOperation;
-    _Bool _ignorePCSFailures;
-    CDUnknownBlockType _perRecordZoneCompletionBlock;
-    CDUnknownBlockType _fetchRecordZonesCompletionBlock;
-    NSArray *_recordZoneIDs;
-    CDUnknownBlockType _perRecordZoneCompletionBlock_wrapper;
-    CDUnknownBlockType _fetchRecordZonesCompletionBlock_wrapper;
-    NSMutableDictionary *_recordZonesByZoneID;
-    NSMutableDictionary *_recordZoneErrors;
 }
 
 + (SEL);
 + (void);
 + (id);
-- (id);
-- (id);
+- (id)+	;
+- (id)m;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -34,8 +25,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)@"NSDictionary"24;
+- (void)@%@;
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
@@ -48,9 +39,9 @@
 - (void);
 - (void)0@ù
 × ;
-- (void)ndexSet:(id)arg1 forSiteIdentifier:(id)arg2;
-- (id)ithCode:format: /* Error: Ran out of types for this method. */;
-- (void)odifyRecordsOperation;
+- (void)removeClockValuesInIndexSet:(id)arg1 forSiteIdentifier:(id)arg2;
+- (id)errorWithCode:format: /* Error: Ran out of types for this method. */;
+- (void)CKModifyRecordsOperation;
 - (_Bool)ø;
 - (void)è;
 - (CDUnknownBlockType)Ä¶9;
@@ -62,23 +53,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKFetchRecordZonesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordZonesCompletionBlock; // @synthesize fetchRecordZonesCompletionBlock=_fetchRecordZonesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordZonesCompletionBlock_wrapper; // @synthesize fetchRecordZonesCompletionBlock_wrapper=_fetchRecordZonesCompletionBlock_wrapper;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignorePCSFailures; // @synthesize ignorePCSFailures=_ignorePCSFailures;
-@property(nonatomic) _Bool isFetchAllRecordZonesOperation; // @synthesize isFetchAllRecordZonesOperation=_isFetchAllRecordZonesOperation;
-@property(readonly, nonatomic) CKFetchRecordZonesOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perRecordZoneCompletionBlock; // @synthesize perRecordZoneCompletionBlock=_perRecordZoneCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordZoneCompletionBlock_wrapper; // @synthesize perRecordZoneCompletionBlock_wrapper=_perRecordZoneCompletionBlock_wrapper;
-@property(retain, nonatomic) NSMutableDictionary *recordZoneErrors; // @synthesize recordZoneErrors=_recordZoneErrors;
-@property(copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(retain, nonatomic) NSMutableDictionary *recordZonesByZoneID; // @synthesize recordZonesByZoneID=_recordZonesByZoneID;
-@property(readonly) Class superclass;
 
 @end
 

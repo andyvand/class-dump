@@ -6,23 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface ExecutorSiriSchemaExecutorAppIntentMetrics : SISchemaInstrumentationMessage
 {
     double _connectionDurationInNanoSeconds;
-    int _executorAppIntentTargetType;
-    _Bool _isProcessLaunchRequired;
-    _Bool _isAppBroughtToForeground;
-    _Bool _startedLiveActivity;
-    NSArray *_executorAppIntentSegments;
-    struct {
-        unsigned int connectionDurationInNanoSeconds:1;
-        unsigned int executorAppIntentTargetType:1;
-        unsigned int isProcessLaunchRequired:1;
-        unsigned int isAppBroughtToForeground:1;
-        unsigned int startedLiveActivity:1;
-    } _has;
 }
 
 - (_Bool);
@@ -47,6 +33,7 @@
 - (id);
 - (id);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -55,33 +42,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (id);
-- (id);
+- (double)B;
+- (id)RROR_CONNECTION_INTERRUPTED error.
+;
+- (id)n=%u;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"b1"firstPassTriggerSource"b1"earlyDetectFiredTimeOffsetInNs"b1"earlyDetectFiredTime"b1"firstPassPrimaryChannelScoreBoost"b1"firstPassInfoDispatchTimeInNs"b1"firstPassInfoReceptionTimeInNs"b1};
-- (id)ncDataDownloadContext;
+- (id)RSSSchemaRSSSiriVocabSyncDataDownloadContext;
 - (id)<;
 - (void)pºÿ;
 
 // Remaining properties
 @property(nonatomic) double connectionDurationInNanoSeconds; // @synthesize connectionDurationInNanoSeconds=_connectionDurationInNanoSeconds;
-@property(copy, nonatomic) NSArray *executorAppIntentSegments; // @synthesize executorAppIntentSegments=_executorAppIntentSegments;
-@property(nonatomic) int executorAppIntentTargetType; // @synthesize executorAppIntentTargetType=_executorAppIntentTargetType;
-@property(nonatomic) _Bool hasConnectionDurationInNanoSeconds;
-@property(nonatomic) _Bool hasExecutorAppIntentTargetType;
-@property(nonatomic) _Bool hasIsAppBroughtToForeground;
-@property(nonatomic) _Bool hasIsProcessLaunchRequired;
-@property(nonatomic) _Bool hasStartedLiveActivity;
-@property(nonatomic) _Bool isAppBroughtToForeground; // @synthesize isAppBroughtToForeground=_isAppBroughtToForeground;
-@property(nonatomic) _Bool isProcessLaunchRequired; // @synthesize isProcessLaunchRequired=_isProcessLaunchRequired;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool startedLiveActivity; // @synthesize startedLiveActivity=_startedLiveActivity;
 
 @end
 

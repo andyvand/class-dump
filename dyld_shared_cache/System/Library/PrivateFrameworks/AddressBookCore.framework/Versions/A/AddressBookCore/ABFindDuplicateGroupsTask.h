@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress;
 @protocol ABFindDuplicateGroupsTaskStrategyImpl;
 
 @interface ABFindDuplicateGroupsTask
 {
     id <ABFindDuplicateGroupsTaskStrategyImpl> _discoveryStrategyImpl;
-    NSProgress *_progress;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)U;
 - (id);
 - (id);
 - (id);
@@ -28,7 +26,6 @@
 
 // Remaining properties
 @property(readonly) id <ABFindDuplicateGroupsTaskStrategyImpl> discoveryStrategyImpl; // @synthesize discoveryStrategyImpl=_discoveryStrategyImpl;
-@property(readonly) NSProgress *progress; // @synthesize progress=_progress;
 
 @end
 

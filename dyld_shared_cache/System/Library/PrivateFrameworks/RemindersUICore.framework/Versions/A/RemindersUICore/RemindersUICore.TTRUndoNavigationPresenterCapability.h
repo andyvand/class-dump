@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRUndoNavigationPresenterCapability
 {
     id delegate;
-    id deferredAction;
-    id undoActionNotificationCancellable;
-    id reminderIDsCancellable;
-    id batchProcessingSession;
 }
 
 @end

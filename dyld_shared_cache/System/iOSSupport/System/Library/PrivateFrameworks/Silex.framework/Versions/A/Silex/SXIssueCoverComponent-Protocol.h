@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *issueIdentifier;
-@property(readonly, nonatomic) _Bool videoPlaybackEnabled;
 @end
 

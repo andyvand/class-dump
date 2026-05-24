@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, HMHome, HMUser, NSString, NSURL;
+@class NSURL;
 
 @interface HMUserCloudShareInvitation
 {
     NSURL *_shareURL;
-    CKDeviceToDeviceShareInvitationToken *_shareToken;
-    NSString *_containerID;
-    HMHome *_home;
-    HMUser *_user;
-    HMUser *_fromUser;
 }
 
 - (id);
 - (id);
+- (id)localizedRecoveredTitle;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)HMParsedHomeEventTopic;
 - (id)to multi-user state change delegate;
 
 // Remaining properties
-@property(readonly) NSString *containerID; // @synthesize containerID=_containerID;
-@property(readonly) HMUser *fromUser; // @synthesize fromUser=_fromUser;
-@property(readonly) HMHome *home; // @synthesize home=_home;
-@property(readonly) CKDeviceToDeviceShareInvitationToken *shareToken; // @synthesize shareToken=_shareToken;
 @property(readonly) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(readonly) HMUser *user; // @synthesize user=_user;
 
 @end
 

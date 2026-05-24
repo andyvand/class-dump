@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INDateComponentsRange, INPaymentAccount, INPaymentAmount, NSString;
+@class INPaymentAccount;
 
 @interface INTransferMoneyIntent : INIntent
 {
@@ -38,18 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) INPaymentAccount *fromAccount;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) INPaymentAccount *toAccount;
-@property(readonly, copy) INPaymentAmount *transactionAmount;
-@property(readonly, copy) NSString *transactionNote;
-@property(readonly, copy) INDateComponentsRange *transactionScheduledDate;
 
 @end
 

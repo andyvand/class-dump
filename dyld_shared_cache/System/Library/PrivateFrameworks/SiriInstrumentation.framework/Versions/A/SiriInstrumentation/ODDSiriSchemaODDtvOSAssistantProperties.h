@@ -6,20 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDHomePodProperties, ODDSiriSchemaODDMultiUserState;
+@class ODDSiriSchemaODDMultiUserState;
 
 @interface ODDSiriSchemaODDtvOSAssistantProperties : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDMultiUserState *_multiUserState;
-    ODDSiriSchemaODDHomePodProperties *_homePodProperties;
-    _Bool _hasMultiUserState;
-    _Bool _hasHomePodProperties;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,10 +36,6 @@
 - (void)essages.siriEventTypeUnion.cnvClientEvent.cnvUsoGraphTier1.usoGraphTier1.linkedUsoNodeDatas.normalizedStringPayloads;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomePodProperties; // @synthesize hasHomePodProperties=_hasHomePodProperties;
-@property(nonatomic) _Bool hasMultiUserState; // @synthesize hasMultiUserState=_hasMultiUserState;
-@property(retain, nonatomic) ODDSiriSchemaODDHomePodProperties *homePodProperties; // @synthesize homePodProperties=_homePodProperties;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ODDSiriSchemaODDMultiUserState *multiUserState; // @synthesize multiUserState=_multiUserState;
 
 @end

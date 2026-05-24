@@ -5,5 +5,6 @@
 //
 
 @protocol BucketUpdateable
+- (void);
 @end
 

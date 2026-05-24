@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)@60@68;
+- (id)hasPhoneNumberAliasActiveCheckingSelf: /* Error: Ran out of types for this method. */;
 
 @end
 

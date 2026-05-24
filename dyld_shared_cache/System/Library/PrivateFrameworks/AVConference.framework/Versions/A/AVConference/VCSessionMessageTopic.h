@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, VCControlChannel;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionMessageTopic
 {
     NSArray *associatedStrings;
-    NSString *topicKey;
-    _Bool allowConcurrent;
-    _Bool requireReliable;
-    NSObject<OS_dispatch_queue> *_outMessageQueue;
-    VCControlChannel *controlChannel;
-    NSObject<OS_dispatch_queue> *inMessageQueue;
-    CDUnknownBlockType sendMessageCompletionBlock;
-    CDUnknownBlockType sendMessageDataCompletionBlock;
-    CDUnknownBlockType receiveMessageBlock;
-    CDUnknownBlockType receiveMessageDictionaryBlock;
-    long long latestOutgoingMessageIndex;
-    _Bool isSendingEnabled;
-    _Bool shouldEncodeTopicKeyInMessage;
-    NSMutableDictionary *transactionCache;
-    NSMutableDictionary *_sendMessageBuffers;
 }
 
 - (id);
@@ -35,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -45,16 +29,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (int);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)�;
+- (void)}JJ}B;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, setter=setIsSendingEnabled:) _Bool isSendingEnabled; // @synthesize isSendingEnabled;
-@property(readonly, nonatomic) NSString *topicKey; // @synthesize topicKey;
 
 @end
 

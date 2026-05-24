@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSSet;
+@class NSSet;
 
 @interface WBSCacheRetainReleasePolicy
 {
     CDUnknownBlockType _purgeBlock;
-    NSCountedSet *_entryRetainCounts;
-    NSCountedSet *_negativeEntryRetainCounts;
 }
 
 - (void);
-- (void);
+- (void)Q;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void)tore;
+- (void)WBSTouchIconCacheSettingsSQLiteStore;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *retainedKeyStrings;

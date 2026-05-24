@@ -7,6 +7,7 @@
 @class AVDesktopPlaybackControlsController;
 
 @protocol AVDesktopPlaybackControlsControllerClient
+- (AVDesktopPlaybackControlsController *);
 
 // Remaining properties
 @property(nonatomic) __weak AVDesktopPlaybackControlsController *playbackControlsController;

@@ -8,23 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCStatisticsCollectorQueue
 {
     struct OpaqueFigThread *_thread;
-    _Bool _isThreadRunning;
-    _Bool _shouldBlockWhenFull;
-    struct tagVCStatisticsMessage _messageQueue[300];
-    int _firstMessageIndex;
-    int _nextMessageIndex;
-    int _maxQueueSize;
-    int _almostFullQueueSize;
-    CDUnknownBlockType _messageHandler;
-    struct _opaque_pthread_mutex_t _queueMutex;
-    struct _opaque_pthread_cond_t _queueNotFullCondition;
-    struct _opaque_pthread_cond_t _queueNotEmptyCondition;
-    struct _opaque_pthread_mutex_t _waitMutex;
-    struct _opaque_pthread_cond_t _waitCondition;
-    _Bool _shouldProcessMessageOnExternalThread;
-    _Bool _shouldProcessMessageImmediately;
-    unsigned int _queueProcessWaitTimeMs;
-    unsigned int _queueFullCounter;
 }
 
 - (void);
@@ -38,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) _Bool isThreadRunning; // @synthesize isThreadRunning=_isThreadRunning;
-@property(copy) CDUnknownBlockType messageHandler; // @synthesize messageHandler=_messageHandler;
 
 @end
 

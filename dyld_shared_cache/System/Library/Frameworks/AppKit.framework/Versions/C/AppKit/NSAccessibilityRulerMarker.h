@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
     NSRulerMarker *_marker;
 }
 
-+ (id);
++ (id)questing pending callbacks for the background session:(id)arg1 %@;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)alDownloadFile:(id)arg1 error %d creating download file:(id)arg2 %s;
+- (id)le.com;
+- (void)ceiver_data - %s. ErrCode:(id)arg1 %d.;
+- (id)che_blob_data;;
+- (id)DBSchema:DB=%@ response create - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (_Bool)penCacheDB:size of DB specified too small (%ld).  No persistent DB opened at %@. /* Error: Ran out of types for this method. */;
+- (_Bool)gan;
+- (_Bool):status /* Error: Ran out of types for this method. */;
+- (id)rt.mm;
+- (id)startSecureConnection;
+- (void)@;
 - (id);
 - (void);
 - (unsigned long long);

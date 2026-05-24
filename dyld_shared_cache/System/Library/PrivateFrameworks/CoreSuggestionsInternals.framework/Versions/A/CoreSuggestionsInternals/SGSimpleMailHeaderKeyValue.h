@@ -9,7 +9,6 @@
 @interface SGSimpleMailHeaderKeyValue
 {
     NSString *_key;
-    NSString *_value;
 }
 
 + (_Bool);
@@ -18,7 +17,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)overrideFont: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

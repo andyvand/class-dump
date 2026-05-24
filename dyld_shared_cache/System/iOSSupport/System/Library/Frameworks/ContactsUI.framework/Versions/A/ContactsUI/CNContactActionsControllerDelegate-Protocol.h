@@ -5,5 +5,8 @@
 //
 
 @protocol CNContactActionsControllerDelegate
+
+@optional
+- (void)	;
 @end
 

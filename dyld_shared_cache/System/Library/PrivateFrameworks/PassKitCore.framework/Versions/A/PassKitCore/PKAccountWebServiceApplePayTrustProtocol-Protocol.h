@@ -7,12 +7,13 @@
 @class NSData, NSURL, PKApplePayTrustHashResponse;
 
 @protocol PKAccountWebServiceApplePayTrustProtocol
+- (PKApplePayTrustHashResponse *)C;
+- (void);
+- (NSData *)?;
 - (void)ary Properties Acquired:(NSURL *)arg1 %d];
 - (NSURL *)tioned;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *baseURL;
 @property(retain, nonatomic) PKApplePayTrustHashResponse *hashResponse;
-@property(copy, nonatomic) NSData *publicKeyHash;
 @end
 

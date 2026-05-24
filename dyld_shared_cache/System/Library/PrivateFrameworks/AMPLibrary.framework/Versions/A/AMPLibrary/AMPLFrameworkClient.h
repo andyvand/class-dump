@@ -11,7 +11,6 @@
 @interface AMPLFrameworkClient : AMPLClient
 {
     NSString *_deviceID;
-    NSString *_libraryFilePath;
 }
 
 - (void);
@@ -32,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)1;
 - (void);
 - (void);
 - (void);
@@ -61,7 +60,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(retain, nonatomic) NSString *libraryFilePath; // @synthesize libraryFilePath=_libraryFilePath;
 
 @end
 

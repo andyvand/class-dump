@@ -6,14 +6,11 @@
 
 #import <CallKit/CXCallSource.h>
 
-@class CXInProcessProvider, NSString, NSURL;
+@class CXInProcessProvider, NSString;
 
 @interface CXInProcessCallSource : CXCallSource
 {
     NSString *_bundleIdentifier;
-    NSURL *_bundleURL;
-    NSString *_localizedName;
-    CXInProcessProvider *_provider;
 }
 
 - (id);

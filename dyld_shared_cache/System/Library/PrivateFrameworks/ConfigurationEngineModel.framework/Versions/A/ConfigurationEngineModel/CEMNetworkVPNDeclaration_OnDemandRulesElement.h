@@ -6,17 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMNetworkVPNDeclaration_OnDemandRulesElementActionParameters, NSArray, NSString;
+@class NSArray;
 
 @interface CEMNetworkVPNDeclaration_OnDemandRulesElement : CEMPayloadBase
 {
     NSArray *_payloadDNSDomainMatch;
-    NSArray *_payloadDNSServerAddressMatch;
-    NSString *_payloadURLStringProbe;
-    NSString *_payloadAction;
-    CEMNetworkVPNDeclaration_OnDemandRulesElementActionParameters *_payloadActionParameters;
-    NSString *_payloadInterfaceTypeMatch;
-    NSArray *_payloadSSIDMatch;
 }
 
 + (id);
@@ -34,21 +28,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (_Bool)%@">%@</phoneme>;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)SSL_CTX_use_certificate_ASN1;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadAction; // @synthesize payloadAction=_payloadAction;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_OnDemandRulesElementActionParameters *payloadActionParameters; // @synthesize payloadActionParameters=_payloadActionParameters;
 @property(copy, nonatomic) NSArray *payloadDNSDomainMatch; // @synthesize payloadDNSDomainMatch=_payloadDNSDomainMatch;
-@property(copy, nonatomic) NSArray *payloadDNSServerAddressMatch; // @synthesize payloadDNSServerAddressMatch=_payloadDNSServerAddressMatch;
-@property(copy, nonatomic) NSString *payloadInterfaceTypeMatch; // @synthesize payloadInterfaceTypeMatch=_payloadInterfaceTypeMatch;
-@property(copy, nonatomic) NSArray *payloadSSIDMatch; // @synthesize payloadSSIDMatch=_payloadSSIDMatch;
-@property(copy, nonatomic) NSString *payloadURLStringProbe; // @synthesize payloadURLStringProbe=_payloadURLStringProbe;
 
 @end
 

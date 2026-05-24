@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
 @protocol ASDRequestObserver;
 
 @interface ASDRequest
 {
     id <ASDRequestObserver> _observer;
-    NSUUID *_requestID;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)mise:(id)arg1;
+- (void)!(;
+- (void);
+- (void)setCompleteDataPromise:(id)arg1;
 - (id)R,N,V_appleID;
 
 // Remaining properties
 @property __weak id <ASDRequestObserver> observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) NSUUID *requestID; // @synthesize requestID=_requestID;
 
 @end
 

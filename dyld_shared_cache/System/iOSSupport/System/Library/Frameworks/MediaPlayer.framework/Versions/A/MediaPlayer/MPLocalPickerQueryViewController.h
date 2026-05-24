@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaQuery, NSString;
-@protocol MPLocalPickerResponder;
+@class MPMediaQuery;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerQueryViewController
 {
     _Bool _mShowArtists;
-    MPMediaQuery *_mQuery;
-    Class _mCellClass;
-    id <MPLocalPickerResponder> _mPickerResponder;
-    NSString *_mGroupingProperty;
 }
 
 + (id);
@@ -31,17 +26,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (id);
-- (long long);
+- (long long)@;
 - (void);
 - (void);
 - (void)recommendationID;
 
 // Remaining properties
-@property(retain, nonatomic) Class mCellClass; // @synthesize mCellClass=_mCellClass;
-@property(retain, nonatomic) NSString *mGroupingProperty; // @synthesize mGroupingProperty=_mGroupingProperty;
-@property(nonatomic) __weak id <MPLocalPickerResponder> mPickerResponder; // @synthesize mPickerResponder=_mPickerResponder;
 @property(retain, nonatomic) MPMediaQuery *mQuery; // @synthesize mQuery=_mQuery;
-@property(nonatomic) _Bool mShowArtists; // @synthesize mShowArtists=_mShowArtists;
 
 @end
 

@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)TemplateIconLastRequestDate;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

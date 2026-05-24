@@ -6,16 +6,11 @@
 
 #import <SearchUI/SearchUIAccessoryViewController.h>
 
-@class NSSwitch, SearchUIBiomeStreamSubscriber, WFContextualAction;
+@class NSSwitch;
 
 @interface SearchUISwitchAccessoryViewController : SearchUIAccessoryViewController
 {
     _Bool _isAwaitingUpdate;
-    _Bool _expectedUpdateState;
-    _Bool _isHiddenByEvent;
-    SearchUIBiomeStreamSubscriber *_subscriber;
-    WFContextualAction *_action;
-    CDUnknownBlockType _debounceBlock;
 }
 
 + (_Bool);
@@ -33,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_currentModifierFlags;
 - (void);
 - (void);
 - (id);
@@ -42,12 +37,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) WFContextualAction *action; // @synthesize action=_action;
-@property(copy) CDUnknownBlockType debounceBlock; // @synthesize debounceBlock=_debounceBlock;
-@property _Bool expectedUpdateState; // @synthesize expectedUpdateState=_expectedUpdateState;
-@property _Bool isAwaitingUpdate; // @synthesize isAwaitingUpdate=_isAwaitingUpdate;
-@property(nonatomic) _Bool isHiddenByEvent; // @synthesize isHiddenByEvent=_isHiddenByEvent;
-@property(retain) SearchUIBiomeStreamSubscriber *subscriber; // @synthesize subscriber=_subscriber;
 @property(retain, nonatomic) NSSwitch *view; // @dynamic view;
 
 @end

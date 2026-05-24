@@ -4,62 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBFeedCellHostViewExposure
 {
     int _areaPresentationReason;
-    NSString *_campaignId;
-    NSString *_campaignType;
-    NSString *_creativeId;
-    int _feedCellHostType;
-    NSString *_topicFeedId;
-    int _userAction;
-    _Bool _pickFavsButtonExposed;
-    struct {
-        unsigned int areaPresentationReason:1;
-        unsigned int feedCellHostType:1;
-        unsigned int userAction:1;
-        unsigned int pickFavsButtonExposed:1;
-    } _has;
 }
 
+- (id)descriptorForRequiredKeysForStyle: /* Error: Ran out of types for this method. */;
+- (void)createInteractionHelperWithInteraction:(_Bool)arg1 viewModel: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)captureDescriptionOfUIState:(_Bool)arg1 resultHandler: /* Error: Ran out of types for this method. */;
+- (void)cacheDisplayInRect:(_Bool)arg1 toBitmapImageRep: /* Error: Ran out of types for this method. */;
+- (void)bestPositionInFrame:(int)arg1 occlusionSize:possiblePositions:displayAsset:currentAssetCropRect:layoutOrientation:desiredInternationalStyle: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)audioQueue_audioWriterDefaultTrack;
+- (_Bool)assetCollectionSuggestionGroup:extendedCuratedAssetsOnly:shouldReverseSortOrder: /* Error: Ran out of types for this method. */;
+- (_Bool)allShelvesCollapsingMovementAnimationDelay;
+- (_Bool)activeStateManagedExternally;
+- (_Bool);
+- (_Bool)_updatedAssetOIDs;
+- (_Bool)_updateTransitionCompletion;
+- (_Bool)_updateShowUnsavedSyndicatedContentInFeaturedPhotos;
+- (id)_updatePersistableRecipe;
+- (int)_updatePeopleLabel;
+- (id)_updateInactiveImageFilterAdjustment;
+- (id)_updateContentPrivacyEnabled;
+- (int)_updateAnimatedImage;
+- (_Bool)_titleOpacity;
+- (int)sToLoad:(id)arg1 preloadableClipsCounts:request: /* Error: Ran out of types for this method. */;
+- (int)_timelineIndex;
+- (void)_timeRangeMapper;
+- (id)_targetAssetCollectionReferenceInZoomLevel:(int)arg1 forTransitionFromAssetCollectionReference: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (id);
-- (int);
-- (id);
-- (id);
-- (int);
-- (_Bool);
-- (int);
-- (int);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)phILi1EEERKbEEE;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)g;
 - (_Bool);
 - (id);
 - (int);
@@ -67,22 +52,7 @@
 - (void)order;
 
 // Remaining properties
-@property(nonatomic) int areaPresentationReason; // @synthesize areaPresentationReason=_areaPresentationReason;
-@property(retain, nonatomic) NSString *campaignId; // @synthesize campaignId=_campaignId;
-@property(retain, nonatomic) NSString *campaignType; // @synthesize campaignType=_campaignType;
-@property(retain, nonatomic) NSString *creativeId; // @synthesize creativeId=_creativeId;
-@property(nonatomic) int feedCellHostType; // @synthesize feedCellHostType=_feedCellHostType;
-@property(nonatomic) _Bool hasAreaPresentationReason;
-@property(readonly, nonatomic) _Bool hasCampaignId;
-@property(readonly, nonatomic) _Bool hasCampaignType;
-@property(readonly, nonatomic) _Bool hasCreativeId;
 @property(nonatomic) _Bool hasFeedCellHostType;
-@property(nonatomic) _Bool hasPickFavsButtonExposed;
-@property(readonly, nonatomic) _Bool hasTopicFeedId;
-@property(nonatomic) _Bool hasUserAction;
-@property(nonatomic) _Bool pickFavsButtonExposed; // @synthesize pickFavsButtonExposed=_pickFavsButtonExposed;
-@property(retain, nonatomic) NSString *topicFeedId; // @synthesize topicFeedId=_topicFeedId;
-@property(nonatomic) int userAction; // @synthesize userAction=_userAction;
 
 @end
 

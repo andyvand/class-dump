@@ -19,8 +19,8 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (id);
@@ -30,7 +30,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)T;c;
 - (id);
 - (id);
 - (void);

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)9h;
 - (void);
 - (void);
 - (_Bool);
@@ -25,14 +25,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)7k;
+- (id);
 - (const struct MTLComputePassDescriptorPrivate *);
 
 // Remaining properties
-@property(nonatomic) _Bool allowCommandEncoderCoalescing;
 @property(nonatomic) unsigned int substreamCount;
-@property(nonatomic) _Bool usedForRaytracingEmulation;
 
 @end
 

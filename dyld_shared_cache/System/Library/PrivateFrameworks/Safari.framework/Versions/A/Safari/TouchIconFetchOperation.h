@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, _WKRemoteObjectInterface;
+@class _WKRemoteObjectInterface;
 
 __attribute__((visibility("hidden")))
 @interface TouchIconFetchOperation
 {
     _WKRemoteObjectInterface *_faviconObserverInterface;
-    NSImage *_candidateOSXUserAgentIcon;
-    _Bool _didTryWithIPhoneUserAgent;
 }
 
 - (void);

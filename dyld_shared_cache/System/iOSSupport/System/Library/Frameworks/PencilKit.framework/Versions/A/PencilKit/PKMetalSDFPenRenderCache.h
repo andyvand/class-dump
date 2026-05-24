@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface PKMetalSDFPenRenderCache
 {
     NSMutableArray *_buffers;
-    unsigned long long _totalCost;
-    long long _renderZoomFactor;
-    _Bool _purgeableBuffers;
 }
 
 - (_Bool);
@@ -25,13 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *buffers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

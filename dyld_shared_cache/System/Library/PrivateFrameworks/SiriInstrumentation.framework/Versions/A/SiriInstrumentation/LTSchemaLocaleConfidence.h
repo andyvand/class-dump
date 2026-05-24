@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LTSchemaLocaleConfidence : SISchemaInstrumentationMessage
 {
     NSString *_locale;
-    unsigned int _confidence;
-    CDStruct_81d693a7 _has;
-    _Bool _hasLocale;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)P;
 - (id);
 - (id)!,Bùßð1Â0@ù
 × ;
-- (unsigned int)te: /* Error: Ran out of types for this method. */;
-- (void)secase;
+- (unsigned int)setDataSharingOptInState: /* Error: Ran out of types for this method. */;
+- (void)_usecase;
 - (id)"PEGASUSSchemaPEGASUSRequestEndedTier1",&,N,V_pegasusRequestEndedTier1;
 - (id)NSString",C,N,V_sourceAuxKey;
 - (void)tá!;
 
 // Remaining properties
-@property(nonatomic) unsigned int confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) _Bool hasConfidence;
-@property(nonatomic) _Bool hasLocale; // @synthesize hasLocale=_hasLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *locale; // @synthesize locale=_locale;
 
 @end

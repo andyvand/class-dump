@@ -7,8 +7,6 @@
 @interface NewsArticles.TableOfContentsEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
 }
 
 @end

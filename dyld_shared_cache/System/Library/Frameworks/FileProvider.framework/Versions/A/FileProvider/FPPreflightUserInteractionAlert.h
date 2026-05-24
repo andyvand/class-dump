@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FPPreflightUserInteractionAlert
 {
     _Bool _enableContinue;
-    _Bool _continueIsDestructive;
-    FPStringFormat *_titleFormat;
-    FPStringFormat *_subtitleFormat;
-    FPStringFormat *_continueCaptionFormat;
-    FPStringFormat *_cancelCaptionFormat;
 }
 
 + (id);
@@ -25,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (id);
@@ -34,11 +29,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) FPStringFormat *cancelCaptionFormat; // @synthesize cancelCaptionFormat=_cancelCaptionFormat;
-@property(retain, nonatomic) FPStringFormat *continueCaptionFormat; // @synthesize continueCaptionFormat=_continueCaptionFormat;
-@property(nonatomic) _Bool continueIsDestructive; // @synthesize continueIsDestructive=_continueIsDestructive;
-@property(nonatomic) _Bool enableContinue; // @synthesize enableContinue=_enableContinue;
-@property(retain, nonatomic) FPStringFormat *subtitleFormat; // @synthesize subtitleFormat=_subtitleFormat;
 @property(retain, nonatomic) FPStringFormat *titleFormat; // @synthesize titleFormat=_titleFormat;
 
 @end

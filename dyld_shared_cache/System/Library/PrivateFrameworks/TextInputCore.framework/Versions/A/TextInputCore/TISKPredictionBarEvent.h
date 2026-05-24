@@ -6,20 +6,17 @@
 
 #import <TextInputCore/TISKTimestampEvent.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TISKPredictionBarEvent : TISKTimestampEvent
 {
     _Bool _emojiPrediction;
-    NSString *_emojiBucketCategory;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)setTTYSoftwareEnabled:(_Bool)arg1;
+- (void)setTTYHardwareEnabled:(id)arg1;
+- (void)recognitionTaskWithRequest:(id)arg1 resultHandler: /* Error: Ran out of types for this method. */;
+- (void)rapportClientForDevice:(id)arg1;
+- (id)elay number:%@ for context:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -27,7 +24,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *emojiBucketCategory; // @synthesize emojiBucketCategory=_emojiBucketCategory;
 @property(nonatomic) _Bool emojiPrediction; // @synthesize emojiPrediction=_emojiPrediction;
 
 @end

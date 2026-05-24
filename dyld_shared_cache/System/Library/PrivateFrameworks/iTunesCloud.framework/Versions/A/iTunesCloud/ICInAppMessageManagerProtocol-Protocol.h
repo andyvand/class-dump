@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol ICInAppMessageManagerProtocol
+- (void);
+- (void)setReferenceObject:(NSString *)arg1;
+- (void)maximumSuspensionTravel;
+- (void)l@?;
+- (void)6;
+- (void);
+- (void);
+- (void)_newSmallBubblePathForAnnotation:(void (^)(NSError *))arg1 atCenter:withSize: /* Error: Ran out of types for this method. */;
 @end
 

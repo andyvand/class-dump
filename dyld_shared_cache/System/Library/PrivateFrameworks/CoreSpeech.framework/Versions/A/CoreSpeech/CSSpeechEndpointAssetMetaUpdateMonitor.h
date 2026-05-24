@@ -9,10 +9,10 @@
     int _notifyToken;
 }
 
-+ (id)urrences;
++ (id)_numberOfOccurrences;
 - (void);
 - (id);
-- (void);
+- (void)�;
 - (void);
 - (void);
 

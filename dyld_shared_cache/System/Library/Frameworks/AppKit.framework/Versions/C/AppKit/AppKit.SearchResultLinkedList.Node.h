@@ -7,7 +7,6 @@
 @interface AppKit.SearchResultLinkedList.Node
 {
     id result;
-    id next;
 }
 
 @end

@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineCategoryService
 {
     id assetHandleFactory;
-    id tagService;
-    id paidBundleConfigManager;
 }
 
 @end

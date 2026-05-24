@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     unsigned long long arrowDirection;
 }
 
-+ (_Bool);
++ (_Bool)ting %@:messages /* Error: Ran out of types for this method. */;
 + (struct UIEdgeInsets);
++ (double)setStatusPasscodeLockGracePeriodEnforced: /* Error: Ran out of types for this method. */;
 + (double);
-+ (double);
-- (double);
+- (double)initWithPayload:requestPayload:hashedPersonID: /* Error: Ran out of types for this method. */;
 - (double)Ô;
 - (struct CGSize);
-- (double)nsureCleanedUp;
+- (double)_ensureCleanedUp;
 - (unsigned long long);
 - (void)raints for UITabBar managed by a controller;
 - (void);

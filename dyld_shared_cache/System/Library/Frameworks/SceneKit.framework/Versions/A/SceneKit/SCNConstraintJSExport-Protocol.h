@@ -4,7 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol SCNConstraintJSExport
+- (void)	;
+- (void)#;
+- (NSArray *);
+- (id)initWithContext:(NSString *)arg1 clipManager:reachabilityEventManager:home: /* Error: Ran out of types for this method. */;
+- (void);
 - (id)float2 tc;
     if (u_floorNormal.y != 0.)
         tc = _geometry.position.xz * 0.01;
@@ -19,7 +26,5 @@
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic, getter=isIncremental) _Bool incremental;
-@property(nonatomic) double influenceFactor;
 @end
 

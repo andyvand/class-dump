@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (USSAccessibilitySoftlinkExtensions)
-+ (id);
++ (id);
 @end
 

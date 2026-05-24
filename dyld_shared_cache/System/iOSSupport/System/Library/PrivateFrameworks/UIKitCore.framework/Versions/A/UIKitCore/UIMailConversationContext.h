@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIConversationContext.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface UIMailConversationContext : UIConversationContext
 {
     _Bool _responseHasCustomSignature;
-    NSString *_responseSubject;
-    NSSet *_responseSecondaryRecipientIdentifiers;
 }
 
 - (id);
@@ -20,16 +18,14 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)Did not generate any records to delete for attachments returning nil;
+- (id)ts with ID:%@ account:%@ result:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)5 ê;
 
 // Remaining properties
-@property(nonatomic) _Bool responseHasCustomSignature; // @synthesize responseHasCustomSignature=_responseHasCustomSignature;
-@property(copy, nonatomic) NSSet *responseSecondaryRecipientIdentifiers; // @synthesize responseSecondaryRecipientIdentifiers=_responseSecondaryRecipientIdentifiers;
 @property(copy, nonatomic) NSString *responseSubject; // @synthesize responseSubject=_responseSubject;
 
 @end

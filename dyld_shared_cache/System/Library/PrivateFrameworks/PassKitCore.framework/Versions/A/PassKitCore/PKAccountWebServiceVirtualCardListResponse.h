@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)ompact;
+- (void)compact;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *virtualCards; // @synthesize virtualCards=_virtualCards;

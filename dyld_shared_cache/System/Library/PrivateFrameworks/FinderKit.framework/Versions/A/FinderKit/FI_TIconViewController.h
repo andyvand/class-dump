@@ -15,13 +15,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)J-
++;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)arrayWithObject: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (void)±õð1Â0@ù
 × ;

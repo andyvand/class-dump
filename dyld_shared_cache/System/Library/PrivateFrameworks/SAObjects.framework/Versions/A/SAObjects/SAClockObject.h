@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SAClockObject : SADomainObject
 {
@@ -15,30 +15,24 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)tokenize:limit:fromEnd: /* Error: Ran out of types for this method. */;
+- (id)N3fst18MutableArcIteratorINS_9VectorFstINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEiEELNS_10GallicTypeE0EEENS_11VectorStateIS8_NSt3__19allocatorIS8_EEEEEEEE;
+- (id)	;
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)ay defaults are not supported yet.;
 - (void);
-- (void);
+- (void)*A;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *alCityId;
-@property(copy, nonatomic) NSString *cityName;
-@property(copy, nonatomic) NSString *countryCode;
-@property(copy, nonatomic) NSString *countryName;
-@property(copy, nonatomic) NSString *timezoneId;
-@property(copy, nonatomic) NSString *unlocalizedCityName;
-@property(copy, nonatomic) NSString *unlocalizedCountryName;
 
 @end
 

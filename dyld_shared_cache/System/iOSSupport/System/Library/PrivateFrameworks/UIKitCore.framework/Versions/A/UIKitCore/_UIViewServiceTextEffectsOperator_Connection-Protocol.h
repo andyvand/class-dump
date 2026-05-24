@@ -5,5 +5,6 @@
 //
 
 @protocol _UIViewServiceTextEffectsOperator_Connection
+- (void)name;
 @end
 

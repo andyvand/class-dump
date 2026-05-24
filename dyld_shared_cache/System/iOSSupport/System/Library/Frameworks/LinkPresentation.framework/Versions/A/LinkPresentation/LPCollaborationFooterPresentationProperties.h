@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString, UIImage;
+@class NSString;
 
 @interface LPCollaborationFooterPresentationProperties
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_initiatorName;
-    NSPersonNameComponents *_initiatorNameComponents;
-    UIImage *_glyphAttachmentImage;
-    CDUnknownBlockType _action;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)syncController;
+- (void)syncBarFooterHeight;
+- (void)switcherViewControllerDidFinishSwitching:(id)arg1 toViewController: /* Error: Ran out of types for this method. */;
+- (id)stringWithUTF8String: /* Error: Ran out of types for this method. */;
+- (id)stringWithFormat: /* Error: Ran out of types for this method. */;
+- (id)stickerDetailsCellBackgroundColor;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)`;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -32,11 +27,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(copy, nonatomic) UIImage *glyphAttachmentImage; // @synthesize glyphAttachmentImage=_glyphAttachmentImage;
-@property(copy, nonatomic) NSString *initiatorName; // @synthesize initiatorName=_initiatorName;
-@property(copy, nonatomic) NSPersonNameComponents *initiatorNameComponents; // @synthesize initiatorNameComponents=_initiatorNameComponents;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

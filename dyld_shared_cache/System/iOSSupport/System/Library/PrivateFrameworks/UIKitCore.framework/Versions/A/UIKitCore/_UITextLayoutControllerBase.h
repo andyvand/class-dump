@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextContainer, UITextRange, _UITextInputControllerLayoutManagerConnection;
+@class UITextRange, _UITextInputControllerLayoutManagerConnection;
 
 @interface _UITextLayoutControllerBase
 {
     _UITextInputControllerLayoutManagerConnection *_textInputControllerConnection;
-    _Bool _documentObscured;
-    Class _classicCanvasViewClass;
-    UITextRange *_unobscuredRange;
 }
 
 + (id);
-- (void)lor;
+- (void)tableCellValue2BlueColor;
 - (void)an incorrect role. Expected "%@", Received:"%@" /* Error: Ran out of types for this method. */;
 - (void)with identifier %@. Is the necessary entitlement set?;
 - (void)obal supplementary definition.;
 - (id)t;
 - (id)tEdgeStart;
 - (id)Îþÿ;
-- (void)w;
+- (void)SgXw;
 - (void)ë?¼t<Âu=¦Ä;;
 - (_Bool);
 - (id);
 - (id);
-- (id)awRepresentableTraitDefinition;
+- (id)_UICustomRawRepresentableTraitDefinition;
 - (void)§_;
 - (Class)}];
 
 // Remaining properties
-@property(retain, nonatomic) Class classicCanvasViewClass; // @synthesize classicCanvasViewClass=_classicCanvasViewClass;
-@property(nonatomic, getter=isDocumentObscured) _Bool documentObscured; // @synthesize documentObscured=_documentObscured;
-@property(readonly, nonatomic) NSTextContainer *firstTextContainer;
 @property(retain, nonatomic) UITextRange *unobscuredRange; // @synthesize unobscuredRange=_unobscuredRange;
 
 @end

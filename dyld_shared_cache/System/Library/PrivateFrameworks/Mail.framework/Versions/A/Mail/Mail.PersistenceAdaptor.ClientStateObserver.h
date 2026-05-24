@@ -7,10 +7,6 @@
 @interface Mail.PersistenceAdaptor.ClientStateObserver
 {
     id queue;
-    id token;
-    id mailboxPersistence;
-    id persistenceAdaptor;
-    id observerQueue;
 }
 
 - (void);

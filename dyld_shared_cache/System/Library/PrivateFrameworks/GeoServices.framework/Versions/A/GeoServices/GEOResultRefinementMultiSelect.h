@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface GEOResultRefinementMultiSelect
 {
     _Bool _showEqualWidthButtonsOnFilterView;
-    unsigned int _maximumNumberOfSelectElements;
-    NSString *_displayName;
-    NSArray *_multiSelect;
-    long long _clauseType;
-    NSString *_displayNameForMultiSelected;
-    NSString *_multiSelectIdentifier;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
+- (id)setRelationshipKeyPathsForPrefetching: /* Error: Ran out of types for this method. */;
+- (id)setRecordsToRemove: /* Error: Ran out of types for this method. */;
+- (unsigned int)setFullNumber: /* Error: Ran out of types for this method. */;
+- (id)className;
+- (id)inhibitsIndividualContactNumber;
 - (id);
 - (id);
 - (long long);
@@ -34,13 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long clauseType; // @synthesize clauseType=_clauseType;
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *displayNameForMultiSelected; // @synthesize displayNameForMultiSelected=_displayNameForMultiSelected;
-@property(nonatomic) unsigned int maximumNumberOfSelectElements; // @synthesize maximumNumberOfSelectElements=_maximumNumberOfSelectElements;
-@property(copy, nonatomic) NSArray *multiSelect; // @synthesize multiSelect=_multiSelect;
-@property(readonly, nonatomic) NSString *multiSelectIdentifier; // @synthesize multiSelectIdentifier=_multiSelectIdentifier;
-@property(readonly, nonatomic) _Bool showEqualWidthButtonsOnFilterView; // @synthesize showEqualWidthButtonsOnFilterView=_showEqualWidthButtonsOnFilterView;
 
 @end
 

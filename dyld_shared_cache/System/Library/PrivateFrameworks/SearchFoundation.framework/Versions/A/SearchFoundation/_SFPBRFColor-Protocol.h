@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBRFOptionalFloat, _SFPBRFRGBValue;
+@class NSData, _SFPBRFRGBValue;
 
 @protocol _SFPBRFColor
+- (_SFPBRFRGBValue *);
+- (NSData *)ion;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFOptionalFloat *alpha;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int name;
 @property(retain, nonatomic) _SFPBRFRGBValue *rgb_value;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

@@ -7,20 +7,6 @@
 @interface FCPersonalizationCohortConfig
 {
     _Bool _considerPublisherTopicAggregates;
-    _Bool _enableUndampening;
-    _Bool _undampenOnlyAboveBaselineMembership;
-    _Bool _useRelativePersonalizationValue;
-    _Bool _useExponentialFavoritedBoost;
-    double _dilutionFactor;
-    double _favoritedBoost;
-    double _exponentialFavoritedBoost;
-    double _globalWeight;
-    double _globalWeightHalfLife;
-    double _globalWeightInitialMultiplier;
-    double _paddingFactor;
-    double _preBaselineCurvature;
-    double _postBaselineCurvature;
-    double _userBaseline;
 }
 
 + (_Bool);
@@ -32,7 +18,7 @@
 - (_Bool);
 - (void);
 - (double);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -46,14 +32,14 @@
 - (double);
 - (void);
 - (void);
-- (double);
-- (double);
-- (void);
-- (void);
-- (double);
+- (double)ces/Maps/iOS/Suggestions/MapsSuggestionsMapsSync.mm;
 - (double);
 - (void);
-- (id);
+- (void);
+- (double);
+- (double)_remote_IXSCoordinatedAppInstall:setProgressHint:completion: /* Error: Ran out of types for this method. */;
+- (void)ion info.;
+- (id)S;
 - (void);
 - (double);
 - (_Bool)1Â0@ù
@@ -65,20 +51,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool considerPublisherTopicAggregates; // @synthesize considerPublisherTopicAggregates=_considerPublisherTopicAggregates;
-@property(nonatomic) double dilutionFactor; // @synthesize dilutionFactor=_dilutionFactor;
-@property(nonatomic) _Bool enableUndampening; // @synthesize enableUndampening=_enableUndampening;
-@property(nonatomic) double exponentialFavoritedBoost; // @synthesize exponentialFavoritedBoost=_exponentialFavoritedBoost;
-@property(nonatomic) double favoritedBoost; // @synthesize favoritedBoost=_favoritedBoost;
-@property(nonatomic) double globalWeight; // @synthesize globalWeight=_globalWeight;
-@property(nonatomic) double globalWeightHalfLife; // @synthesize globalWeightHalfLife=_globalWeightHalfLife;
-@property(nonatomic) double globalWeightInitialMultiplier; // @synthesize globalWeightInitialMultiplier=_globalWeightInitialMultiplier;
-@property(nonatomic) double paddingFactor; // @synthesize paddingFactor=_paddingFactor;
-@property(nonatomic) double postBaselineCurvature; // @synthesize postBaselineCurvature=_postBaselineCurvature;
-@property(nonatomic) double preBaselineCurvature; // @synthesize preBaselineCurvature=_preBaselineCurvature;
-@property(nonatomic) _Bool undampenOnlyAboveBaselineMembership; // @synthesize undampenOnlyAboveBaselineMembership=_undampenOnlyAboveBaselineMembership;
-@property(nonatomic) _Bool useExponentialFavoritedBoost; // @synthesize useExponentialFavoritedBoost=_useExponentialFavoritedBoost;
-@property(nonatomic) _Bool useRelativePersonalizationValue; // @synthesize useRelativePersonalizationValue=_useRelativePersonalizationValue;
-@property(nonatomic) double userBaseline; // @synthesize userBaseline=_userBaseline;
 
 @end
 

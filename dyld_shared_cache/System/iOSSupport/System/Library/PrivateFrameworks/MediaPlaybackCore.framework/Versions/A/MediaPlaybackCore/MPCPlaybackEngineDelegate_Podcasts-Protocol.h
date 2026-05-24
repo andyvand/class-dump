@@ -5,5 +5,9 @@
 //
 
 @protocol MPCPlaybackEngineDelegate_Podcasts
+
+@optional
+- (void)Enabling mail dataclass;
+- (void)__DATA_DIRTY;
 @end
 

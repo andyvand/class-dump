@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber, NSString, NSURL, SKPaymentTransaction;
+@class NSNumber;
 
 @interface SKDownload
 {
@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (void);
++ (void)dtl;
 - (void);
 - (void);
 - (void);
@@ -21,38 +21,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (long long);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);;
 - (long long);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)_;
 - (void);
 - (id);
-- (id);
+- (id)signatureDescriptionTagFromStringValue: /* Error: Ran out of types for this method. */;
 - (float);
 - (id);
-- (double);
+- (double)e:%s finished searching for all app container items. Error:%@. /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic, getter=_downloadID, setter=_setDownloadID:) NSNumber *_downloadID;
-@property(readonly, nonatomic) NSString *contentIdentifier;
-@property(readonly, copy, nonatomic) NSNumber *contentLength;
-@property(readonly, nonatomic) NSURL *contentURL;
-@property(readonly, nonatomic) NSString *contentVersion;
-@property(readonly, nonatomic) long long downloadState;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) long long expectedContentLength;
-@property(readonly, nonatomic) float progress;
-@property(readonly, nonatomic) long long state;
-@property(readonly, nonatomic) double timeRemaining;
-@property(readonly, nonatomic) SKPaymentTransaction *transaction;
 
 @end
 

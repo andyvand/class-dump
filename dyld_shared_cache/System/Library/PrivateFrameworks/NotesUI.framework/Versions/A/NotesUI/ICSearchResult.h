@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSearchResultConfiguration, ICSearchResultRegexMatchFinder, NSAttributedString, NSDictionary, NSRegularExpression, NSString, NSTextCheckingResult, NSValue;
-@protocol ICItemIdentifier, ICSearchIndexable;
+@protocol ICSearchIndexable;
 
 @interface ICSearchResult
 {
     unsigned long long _cachedHash;
-    _Bool _mathNote;
-    _Bool _isDisplayingParticipantMatch;
-    NSDictionary *_decomposedHighlightInfo;
-    id <ICSearchIndexable> _object;
-    ICSearchResultConfiguration *_configuration;
-    ICSearchResultRegexMatchFinder *_highlightPatternRegexFinder;
-    NSRegularExpression *_tipKitCheckRegex;
-    NSValue *_firstMatchingRangeInNote;
-    id <ICSearchIndexable> _currentContextObject;
-    NSString *_displayingTitle;
-    NSAttributedString *_displayingAttributedTitle;
-    ICSearchResultRegexMatchFinder *_titleHighlightRegexMatchFinder;
-    NSTextCheckingResult *_displayingTitleCheckingResult;
-    NSAttributedString *_titleAttributedString;
-    NSString *_displayingSnippet;
-    NSAttributedString *_displayingAttributedSnippet;
-    ICSearchResultRegexMatchFinder *_snippetHighlightRegexMatchFinder;
-    NSTextCheckingResult *_displayingSnippetCheckingResult;
-    NSAttributedString *_snippetAttributedString;
-    ICSearchResultRegexMatchFinder *_participantHighlightRegexMatchFinder;
-    struct CGRect _titleAttributedStringInsideFrame;
-    struct CGRect _snippetAttributedStringInsideFrame;
 }
 
 + (id);
@@ -48,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)a;
 - (id);
 - (void);
 - (void);
@@ -62,13 +39,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -102,42 +79,10 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)thConstraint;
+- (void)_zeroWidthConstraint;
 
 // Remaining properties
-@property(readonly, nonatomic) ICSearchResultConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(retain, nonatomic) id <ICSearchIndexable> currentContextObject; // @synthesize currentContextObject=_currentContextObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSDictionary *decomposedHighlightInfo; // @synthesize decomposedHighlightInfo=_decomposedHighlightInfo;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSAttributedString *displayingAttributedSnippet; // @synthesize displayingAttributedSnippet=_displayingAttributedSnippet;
-@property(retain, nonatomic) NSAttributedString *displayingAttributedTitle; // @synthesize displayingAttributedTitle=_displayingAttributedTitle;
-@property(retain, nonatomic) NSString *displayingSnippet; // @synthesize displayingSnippet=_displayingSnippet;
-@property(retain, nonatomic) NSTextCheckingResult *displayingSnippetCheckingResult; // @synthesize displayingSnippetCheckingResult=_displayingSnippetCheckingResult;
-@property(retain, nonatomic) NSString *displayingTitle; // @synthesize displayingTitle=_displayingTitle;
-@property(retain, nonatomic) NSTextCheckingResult *displayingTitleCheckingResult; // @synthesize displayingTitleCheckingResult=_displayingTitleCheckingResult;
-@property(retain, nonatomic) NSValue *firstMatchingRangeInNote; // @synthesize firstMatchingRangeInNote=_firstMatchingRangeInNote;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ICSearchResultRegexMatchFinder *highlightPatternRegexFinder; // @synthesize highlightPatternRegexFinder=_highlightPatternRegexFinder;
-@property(nonatomic) _Bool isDisplayingParticipantMatch; // @synthesize isDisplayingParticipantMatch=_isDisplayingParticipantMatch;
-@property(nonatomic, getter=isMathNote) _Bool mathNote; // @synthesize mathNote=_mathNote;
-@property(readonly, nonatomic) id <ICSearchIndexable> object; // @synthesize object=_object;
-@property(readonly, nonatomic) id <ICItemIdentifier> parentIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<ICItemIdentifier>",?,R,N
-
-@property(retain, nonatomic) ICSearchResultRegexMatchFinder *participantHighlightRegexMatchFinder; // @synthesize participantHighlightRegexMatchFinder=_participantHighlightRegexMatchFinder;
-@property(retain, nonatomic) NSAttributedString *snippetAttributedString; // @synthesize snippetAttributedString=_snippetAttributedString;
-@property(nonatomic) struct CGRect snippetAttributedStringInsideFrame; // @synthesize snippetAttributedStringInsideFrame=_snippetAttributedStringInsideFrame;
-@property(retain, nonatomic) ICSearchResultRegexMatchFinder *snippetHighlightRegexMatchFinder; // @synthesize snippetHighlightRegexMatchFinder=_snippetHighlightRegexMatchFinder;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSRegularExpression *tipKitCheckRegex; // @synthesize tipKitCheckRegex=_tipKitCheckRegex;
-@property(retain, nonatomic) NSAttributedString *titleAttributedString; // @synthesize titleAttributedString=_titleAttributedString;
-@property(nonatomic) struct CGRect titleAttributedStringInsideFrame; // @synthesize titleAttributedStringInsideFrame=_titleAttributedStringInsideFrame;
-@property(retain, nonatomic) ICSearchResultRegexMatchFinder *titleHighlightRegexMatchFinder; // @synthesize titleHighlightRegexMatchFinder=_titleHighlightRegexMatchFinder;
 
 @end
 

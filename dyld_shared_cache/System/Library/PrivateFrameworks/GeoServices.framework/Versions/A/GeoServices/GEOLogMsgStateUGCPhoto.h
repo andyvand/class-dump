@@ -9,7 +9,6 @@
 @interface GEOLogMsgStateUGCPhoto
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _photoSources;
 }
 
 + (_Bool)setHasSupportsGuidanceEventImportanceInfo:(id)arg1;
@@ -19,30 +18,28 @@
 - (int *);
 - (int);
 - (void);
-- (int);
-- (void);
+- (int)_cn_hasSuffix:(id)arg1;
+- (void)ispatch_queue>",R,N,V_queue;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)veOriginalLocation:(struct _NSZone *)arg1 traits: /* Error: Ran out of types for this method. */;
-- (id)pe: /* Error: Ran out of types for this method. */;
+- (id)StringAsAutocompleteResultCellType: /* Error: Ran out of types for this method. */;
 - (id)Traffic Skeleton (%d, %d, %d).;
 - (id)ÿ!;
 - (void)73;
 
 // Remaining properties
-@property(readonly, nonatomic) int *photoSources;
 @property(readonly, nonatomic) unsigned long long photoSourcesCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

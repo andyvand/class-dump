@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGElementIdentifierSet;
 @protocol MAGraphProxy;
 
 @protocol PhotosGraph.GenericCollection
 - (id <MAGraphProxy>)ýÿû¤ÿX^ÿÿ\þÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) KGElementIdentifierSet *elementIdentifiers;
 @property(nonatomic, readonly) id <MAGraphProxy> graph;
 @end
 

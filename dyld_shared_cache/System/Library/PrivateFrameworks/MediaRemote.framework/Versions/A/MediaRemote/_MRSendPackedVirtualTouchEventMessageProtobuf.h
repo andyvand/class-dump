@@ -22,11 +22,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)details:queue:completion: /* Error: Ran out of types for this method. */;
+- (id)erformRequestWithCompletion:] /* Error: Ran out of types for this method. */;
+- (void)adjustVolume:details:queue:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) _Bool hasData;
 
 @end

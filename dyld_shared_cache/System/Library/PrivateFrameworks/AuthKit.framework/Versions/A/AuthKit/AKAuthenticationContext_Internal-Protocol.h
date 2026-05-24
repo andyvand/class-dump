@@ -5,12 +5,10 @@
 //
 
 @protocol AKAuthenticationContext_Internal
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _capabilityForUIDisplay;
-@property(nonatomic) _Bool _ignoreShouldContinueProxy;
-@property(nonatomic) _Bool _performUIOutOfProcess;
-@property(nonatomic) _Bool ignorePasswordCache;
 @property(readonly, nonatomic) _Bool isContextEligibleForSilentAuth;
 @end
 

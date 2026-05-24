@@ -17,10 +17,10 @@
 + (id);
 - (id);
 - (void);
+- (id)ionButtonColor:(id)arg1 overrideSubtitle:captionButton:captionTextButton:secondaryCaptionButton: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void)r;
+- (void)directivesManager;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *suggestedContactIdentifier; // @synthesize suggestedContactIdentifier=_suggestedContactIdentifier;

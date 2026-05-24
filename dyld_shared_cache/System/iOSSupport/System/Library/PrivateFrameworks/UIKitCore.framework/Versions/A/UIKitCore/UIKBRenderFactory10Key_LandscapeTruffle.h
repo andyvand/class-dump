@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (double)DaemonWorkActor;
 - (double);
-- (double);
-- (double);
+- (double);
 
 @end
 

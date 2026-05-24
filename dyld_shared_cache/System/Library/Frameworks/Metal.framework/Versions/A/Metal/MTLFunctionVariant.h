@@ -10,17 +10,15 @@
 @interface MTLFunctionVariant
 {
     void *_inputInfo;
-    unsigned long long _inputInfoSize;
-    NSObject<OS_dispatch_data> *_debugInstrumentationData;
 }
 
-- (void);
+- (void);
 - (void);
 - (const void *);
 - (const void *);
 - (id);
 - (void);
-- (void);
+- (void)I;
 - (id)lock_s=I}@@Q@@}16@24Q32^v40@48@56@64^@72^@80@88@?96;
 
 // Remaining properties

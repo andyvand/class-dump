@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PKTextInputSupportedElementDelegate;
+
 @protocol PKTextInputHandwritingControllerDelegate
+- (id <PKTextInputSupportedElementDelegate>);
+- (void);
 @end
 

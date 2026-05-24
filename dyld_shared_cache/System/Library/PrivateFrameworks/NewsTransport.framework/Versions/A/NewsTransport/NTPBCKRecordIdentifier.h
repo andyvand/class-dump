@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBCKIdentifier, NTPBCKRecordZoneIdentifier;
+@class NTPBCKIdentifier;
 
 @interface NTPBCKRecordIdentifier
 {
     NTPBCKIdentifier *_value;
-    NTPBCKRecordZoneIdentifier *_zoneIdentifier;
 }
 
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)q;
+- (void)H;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -25,14 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ent;
+- (id)!d;
+- (void)hasSafariTagFavorabilityExponent;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(retain, nonatomic) NTPBCKIdentifier *value; // @synthesize value=_value;
-@property(retain, nonatomic) NTPBCKRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

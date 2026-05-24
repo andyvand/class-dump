@@ -9,41 +9,31 @@
 @interface BMParsecSearchTopic
 {
     float _score;
-    NSString *_identifier;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ublic}@ | BEGIN;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (float);
-- (id)ery__rename_stmt__get_packed_size;
+- (id)pg_query__rename_stmt__get_packed_size;
 - (void)D;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol NSUserInterfaceItemIdentification
-- (NSString *)ancy: /* Error: Ran out of types for this method. */;
+- (NSString *)setAllowsVibrancy: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSString *identifier;

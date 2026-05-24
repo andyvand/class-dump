@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKSharingMessageDisplayInformation;
+@class NSString;
 
 @interface PKSharingMessage
 {
     NSString *_identifier;
-    unsigned long long _type;
-    unsigned long long _format;
-    NSData *_payload;
-    PKSharingMessageDisplayInformation *_displayInformation;
 }
 
 + (id);
@@ -26,28 +22,24 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)kb;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (void)_txExpectedAMPDUDensity;
 - (void);
-- (void);
-- (void);
+- (void)hjh8i;
 - (id);
 - (unsigned long long)tBalanceReminder">32;
 - (void)6;
-- (void)sioningOptionsC;
+- (void)So29PKExternalProvisioningOptionsC;
 - (void)hT;
 
 // Remaining properties
-@property(retain, nonatomic) PKSharingMessageDisplayInformation *displayInformation; // @synthesize displayInformation=_displayInformation;
-@property(nonatomic) unsigned long long format; // @synthesize format=_format;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

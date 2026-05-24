@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsScoreSection
 {
     id header;
-    id scores;
 }
 
 @end

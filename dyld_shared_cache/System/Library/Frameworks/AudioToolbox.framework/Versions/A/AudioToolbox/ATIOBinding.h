@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, NSString;
+@class AVAudioSession;
 
 @interface ATIOBinding
 {
@@ -22,20 +22,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)garbageCollectionReclaimedMetadataBlockedSpace;
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)ent. (Amps) (ID0R);
 - (void);
 - (id)lization %s, %s. Format %s;
 - (id)Àì´¬ÐÔ(Ô¬ÀÐ°ðÀü¨4¤ÐÀèD¬¸D°¬¸(°Ô$´ð¸(Ä¼Ä´;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int deviceID;
-@property(readonly, retain, nonatomic) NSString *deviceUID;
 @property(readonly, retain, nonatomic) AVAudioSession *session;
-@property(readonly, nonatomic) unsigned int sessionID;
-@property(readonly, nonatomic) struct ATIsolatedAudioUseCaseID useCaseID;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <IMAP/IMAPPersistenceTaskOperation.h>
 
-@class NSIndexSet;
 @protocol IMAPGetServerMessagesOperationDelegate;
 
 @interface IMAPGetServerMessagesOperation : IMAPPersistenceTaskOperation
 {
     id <IMAPGetServerMessagesOperationDelegate> _delegate;
-    NSIndexSet *_uids;
 }
 
 - (id);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMAPGetServerMessagesOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSIndexSet *uids; // @synthesize uids=_uids;
 
 @end
 

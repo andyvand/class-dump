@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Iconset)
-+ (id);
-+ (id);
++ (id)nextSibling;
++ (id)milliseconds;
 @end
 

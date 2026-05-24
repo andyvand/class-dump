@@ -6,12 +6,11 @@
 
 #import <NetworkExtension/NEIKEv2Payload.h>
 
-@class NEIKEv2KEMProtocol, NSData;
+@class NEIKEv2KEMProtocol;
 
 @interface NEIKEv2KeyExchangePayload : NEIKEv2Payload
 {
     NEIKEv2KEMProtocol *_kem;
-    NSData *_keData;
 }
 
 - (_Bool);
@@ -19,7 +18,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)eLoggingEnabled: /* Error: Ran out of types for this method. */;
+- (void)setVerboseLoggingEnabled: /* Error: Ran out of types for this method. */;
 - (id)data length %zu is out of bounds;
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsFeed.SharingPuzzleTypeURLActivityItemSource
 {
     id puzzleTypeURL;
-    id linkPresentationSource;
 }
 
 - (id);

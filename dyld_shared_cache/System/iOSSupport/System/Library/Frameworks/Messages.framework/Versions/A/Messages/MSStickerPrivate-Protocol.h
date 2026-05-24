@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSURL, NSUUID;
+@class NSData, NSString, NSURL, NSUUID;
 
 @protocol MSStickerPrivate
+- (NSURL *)2@?40;
+- (NSUUID *)_invalidateFirstTimeExperienceReadinessLogging;
+- (NSURL *)out _invalidateModel];
+- (NSString *)#=�;
+- (NSData *)pple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Operations/DGDescription.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *animatedImageCacheURL;
-@property(readonly, nonatomic) NSDictionary *attributionInfo;
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSString *externalURI;
 @property(readonly, nonatomic) NSURL *imageFileURL;
-@property(readonly, copy, nonatomic) NSString *localizedDescription;
-@property(readonly, nonatomic) NSData *metadata;
-@property(readonly, nonatomic) NSArray *representations;
-@property(readonly, nonatomic) unsigned long long stickerEffectType;
-@property(readonly, nonatomic) NSUUID *stickerIdentifier;
-@property(readonly, nonatomic) NSString *stickerName;
-@property(retain, nonatomic) NSString *stickerPackGUID;
 @end
 

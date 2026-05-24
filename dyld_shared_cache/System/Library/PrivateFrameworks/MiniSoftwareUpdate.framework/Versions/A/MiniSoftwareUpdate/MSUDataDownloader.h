@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue;
-
 @interface MSUDataDownloader
 {
     unsigned long long _options;
-    NSOperationQueue *_delegateQueue;
 }
 
 + (id);
@@ -17,16 +14,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ontentView <%p> to:(unsigned long long)arg1 %f;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSOperationQueue *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
 @property unsigned long long options; // @synthesize options=_options;
-@property(readonly) _Bool requiresEV;
 
 @end
 

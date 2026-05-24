@@ -7,9 +7,14 @@
 @protocol MSPublisherDelegate;
 
 @protocol MSPublisher
+- (void)Cannot insert lock user change bulletin because eventReport.value is not a MTRDoorLockClusterLockUserChangeEvent.;
+- (void)ionType=%@ operationSource=%@ userIndex=%@ userUUID=%@ userUniqueID=%@ fabricIndex=%@ event=%@;
+- (void)tch retry timer fired;
+- (int)%{public}@Unable to publish state for domain:%@, not configured /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) id <MSPublisherDelegate> delegate;
-@property(nonatomic) int publishBatchSize;
 @end
 

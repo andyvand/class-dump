@@ -12,8 +12,8 @@
 
 + (id);
 + (id);
-+ (id);
-- (id);
++ (id)updateLastHitDate:(id)arg1 ofThumbnailForURL:completion: /* Error: Ran out of types for this method. */;
+- (id)/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate;
 - (id);
 
 @end

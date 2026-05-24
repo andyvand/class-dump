@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PGSchemaPGPrescribedPlanEnded, PGSchemaPGPrescribedPlanFailed, PGSchemaPGPrescribedPlanStarted;
+@class PGSchemaPGPrescribedPlanStarted;
 
 @interface PGSchemaPGPrescribedPlanRequestContext : SISchemaInstrumentationMessage
 {
     PGSchemaPGPrescribedPlanStarted *_startedOrChanged;
-    PGSchemaPGPrescribedPlanEnded *_ended;
-    PGSchemaPGPrescribedPlanFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,14 +18,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (id);
@@ -40,23 +34,16 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)unk older than %lld days;
 - (id);
 - (id)
 × ;
-- (id)veNull;
+- (id)_hasPrimitiveNull;
 - (id)sCirAlertRespectMultiTurnResolvedRankingFlag;
-- (void)odnessScoreBoosts;
+- (void)goodnessScoreBoosts;
 
 // Remaining properties
-@property(retain, nonatomic) PGSchemaPGPrescribedPlanEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PGSchemaPGPrescribedPlanFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PGSchemaPGPrescribedPlanStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

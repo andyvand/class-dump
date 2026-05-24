@@ -11,11 +11,11 @@
 
 + (_Bool);
 - (void);
-- (long long);
+- (long long)possibly retracted;
 - (id);
 - (id);
-- (void)ror:(id)arg1;
-- (id)zePreferenceExtension;
+- (void)copyFileRepresentationForTypeIdentifier:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)_UISceneHostingContentSizePreferenceExtension;
 
 // Remaining properties
 @property(nonatomic) long long maximumNumberOfTitleLines; // @synthesize maximumNumberOfTitleLines=_maximumNumberOfTitleLines;

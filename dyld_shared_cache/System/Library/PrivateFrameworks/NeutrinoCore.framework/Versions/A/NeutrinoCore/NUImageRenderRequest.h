@@ -6,29 +6,19 @@
 
 #import <NeutrinoCore/NURenderRequest.h>
 
-@class NSString, NUColorSpace, NUPixelFormat;
-@protocol NUExtentPolicy, NUMutableImage, NURegionPolicy, NUScalePolicy;
+@class NUColorSpace;
+@protocol NUMutableImage;
 
 @interface NUImageRenderRequest : NURenderRequest
 {
     NUColorSpace *_colorSpace;
-    double _maxEDRHeadroom;
-    double _currentEDRHeadroom;
-    id <NURegionPolicy> _regionPolicy;
-    id <NUScalePolicy> _scalePolicy;
-    id <NUExtentPolicy> _extentPolicy;
-    NUPixelFormat *_pixelFormat;
-    long long _auxiliaryImageType;
-    id <NUMutableImage> _targetImage;
-    CDStruct_d58201db _tileSize;
-    CDStruct_d58201db _borderSize;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (long long);
 - (double);
@@ -41,8 +31,8 @@
 - (double);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)o;
+- (id);
 - (CDStruct_912cb5d2);
 - (id);
 - (void);
@@ -51,28 +41,10 @@
 - (void)!°!ÔEùqá°1Â0@ù
 × ;
 - (void)q}32o^@56;
-- (id)FromArray: /* Error: Ran out of types for this method. */;
+- (id)addObjectsFromArray: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long auxiliaryImageType; // @synthesize auxiliaryImageType=_auxiliaryImageType;
-@property(nonatomic) CDStruct_912cb5d2 borderSize; // @synthesize borderSize=_borderSize;
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(nonatomic) double currentEDRHeadroom; // @synthesize currentEDRHeadroom=_currentEDRHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <NUExtentPolicy> extentPolicy; // @synthesize extentPolicy=_extentPolicy;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maxEDRHeadroom; // @synthesize maxEDRHeadroom=_maxEDRHeadroom;
-@property(retain, nonatomic) NUPixelFormat *pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(retain, nonatomic) id <NURegionPolicy> regionPolicy; // @synthesize regionPolicy=_regionPolicy;
-@property(retain, nonatomic) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
-@property(readonly) Class superclass;
 @property(retain) id <NUMutableImage> targetImage; // @synthesize targetImage=_targetImage;
-@property(nonatomic) CDStruct_912cb5d2 tileSize; // @synthesize tileSize=_tileSize;
-@property(nonatomic) CDStruct_1b6d18a9 time;
 
 @end
 

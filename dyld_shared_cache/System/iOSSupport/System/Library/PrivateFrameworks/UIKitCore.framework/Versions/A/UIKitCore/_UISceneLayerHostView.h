@@ -6,24 +6,16 @@
 
 #import <UIKitCore/_UIDirectionalRotationView.h>
 
-@class FBSceneLayer, UIScenePresentationContext, UITransformer;
+@class FBSceneLayer, UIScenePresentationContext;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneLayerHostView : _UIDirectionalRotationView
 {
     FBSceneLayer *_sceneLayer;
-    UITransformer *_transformer;
-    UIScenePresentationContext *_presentationContext;
-    _Bool _inheritsSecurity;
-    _Bool _resizesHostedContext;
-    _Bool _zombifiesHostedContext;
-    _Bool _stopsHitTestTransformAccumulation;
-    _Bool _stopsSecureSuperlayersValidation;
-    UIScenePresentationContext *_currentPresentationContext;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)itelistedBookmarks:withUserDefinedName:withPluginBundleID:withServerAddress:withUserName:withPassword:withCertificate:withOrganization:withVendorConfig:withFilterBrowsers:withFilterSockets: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -31,13 +23,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)¡°!¸Dù1cð1Â0@ù
 × ;
-- (_Bool)g: /* Error: Ran out of types for this method. */;
-- (id)ontext:(struct CGRect)arg1 tableView: /* Error: Ran out of types for this method. */;
-- (id)ion;
+- (_Bool)setVisualStyling: /* Error: Ran out of types for this method. */;
+- (id)_initWithContext:(struct CGRect)arg1 tableView: /* Error: Ran out of types for this method. */;
+- (id)_deferredTransition;
 - (id);
 - (void)or;
 - (void)pointOnRectClosestToCorner(CGRect, UIRectCorner);
-- (void)ewControllerDetachedInheritsContentOverlayInsetsFromSuperview;
+- (void)UIViewControllerDetachedInheritsContentOverlayInsetsFromSuperview;
 - (id)03yW*¿7G;
 - (void)å;
 - (void)ý;
@@ -46,13 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIScenePresentationContext *currentPresentationContext; // @synthesize currentPresentationContext=_currentPresentationContext;
-@property(nonatomic) _Bool inheritsSecurity; // @synthesize inheritsSecurity=_inheritsSecurity;
-@property(nonatomic) _Bool resizesHostedContext; // @synthesize resizesHostedContext=_resizesHostedContext;
-@property(readonly, nonatomic) FBSceneLayer *sceneLayer; // @synthesize sceneLayer=_sceneLayer;
-@property(nonatomic) _Bool stopsHitTestTransformAccumulation; // @synthesize stopsHitTestTransformAccumulation=_stopsHitTestTransformAccumulation;
-@property(nonatomic) _Bool stopsSecureSuperlayersValidation; // @synthesize stopsSecureSuperlayersValidation=_stopsSecureSuperlayersValidation;
-@property(retain, nonatomic) UITransformer *transformer; // @synthesize transformer=_transformer;
-@property(nonatomic) _Bool zombifiesHostedContext; // @synthesize zombifiesHostedContext=_zombifiesHostedContext;
 
 @end
 

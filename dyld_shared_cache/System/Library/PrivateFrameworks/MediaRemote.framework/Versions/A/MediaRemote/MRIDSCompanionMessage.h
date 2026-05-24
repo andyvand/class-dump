@@ -9,7 +9,6 @@
 @interface MRIDSCompanionMessage
 {
     NSData *_data;
-    NSNumber *_messageID;
 }
 
 - (_Bool);
@@ -19,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, copy, nonatomic) NSNumber *messageID; // @synthesize messageID=_messageID;
 
 @end

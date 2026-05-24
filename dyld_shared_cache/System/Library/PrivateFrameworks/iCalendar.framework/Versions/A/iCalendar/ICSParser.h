@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSTokenizer, NSData;
-@protocol ICSUIDGenerator;
+@class ICSTokenizer;
 
 @interface ICSParser
 {
     unsigned long long _options;
-    ICSTokenizer *_lexer;
-    NSData *_data;
-    id <ICSUIDGenerator> _uidGenerator;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (id);
 - (id);

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface UARPDynamicAssetCmapEvent
 {
     NSString *_sectionName;
-    NSMutableDictionary *_input;
-    NSObject<OS_os_log> *_log;
-    unsigned int _uuid;
-    unsigned int _decoderId;
 }
 
-+ (id);
++ (id):%s /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (_Bool);
 - (id);
@@ -24,13 +19,12 @@
 - (unsigned int);
 - (_Bool);
 - (id);
-- (id);
+- (id)AMSBagFrozenDataSourceBuilder;
 - (void);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int decoderId; // @synthesize decoderId=_decoderId;
 @property(readonly) unsigned int uuid; // @synthesize uuid=_uuid;
 
 @end

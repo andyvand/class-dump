@@ -18,7 +18,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long totalBytes;
 @property(nonatomic) unsigned long long usedBytes;
 
 @end

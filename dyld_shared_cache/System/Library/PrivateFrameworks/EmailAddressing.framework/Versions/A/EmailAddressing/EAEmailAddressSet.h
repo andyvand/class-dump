@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface EAEmailAddressSet
 {
@@ -16,42 +16,34 @@
 + (id);
 + (id);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)A;
 - (_Bool);
+- (void)LanguageResetReady;
+- (void);
+- (void);
+- (_Bool)plying AUStrip. DSPGraph must be the first item in a DSPConfiguration.;
+- (void)B;
+- (id)N5caulk10concurrent7details12message_callIZN3adm4util8RTLogger5doLogIJPKNS3_5graph30ExclaveDSPControllerClientImplERjEEEvNS4_10RTLogLevelEPKcDpOT_EUlvE_JEEE;
 - (id);
 - (id);
 - (id);
-- (id);
+- (void)mutableCopy;
+- (void)�;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (unsigned long long)g:%@ and csContext:%@ with suggestion:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id)rsonNameComponents;
+- (id)ea_addressCommentPersonNameComponents;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableSet *internalSet; // @synthesize internalSet=_internalSet;
-@property(readonly, nonatomic) NSData *serializedRepresentation;
-@property(readonly) Class superclass;
 
 @end
 

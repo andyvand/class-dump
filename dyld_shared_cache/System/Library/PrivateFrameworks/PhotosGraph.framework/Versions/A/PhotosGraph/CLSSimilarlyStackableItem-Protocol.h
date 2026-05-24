@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, VNSceneprint;
+@class VNSceneprint;
 
 @protocol CLSSimilarlyStackableItem
+- (VNSceneprint *)H;
 
 // Remaining properties
-@property(readonly) NSString *clsIdentifier;
 @property(readonly) VNSceneprint *clsSceneprint;
-@property(readonly) unsigned long long clsSimilarityModelVersion;
-@property(readonly) NSDate *cls_universalDate;
 @end
 

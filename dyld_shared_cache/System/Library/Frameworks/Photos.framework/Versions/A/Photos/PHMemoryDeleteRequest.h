@@ -12,9 +12,9 @@
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)(;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool clientEntitledToMemoryMutation; // @synthesize clientEntitledToMemoryMutation=_clientEntitledToMemoryMutation;

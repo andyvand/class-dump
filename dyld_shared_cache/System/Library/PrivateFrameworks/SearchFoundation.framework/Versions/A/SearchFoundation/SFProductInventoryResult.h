@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFProductInventoryResult
 {
     NSString *_productIdentifier;
-    NSArray *_availability;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)setValuesForProperties:(id)arg1 trackList:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)setRecoveryKeyUniqueIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)(x;
 - (_Bool);
+- (void)tl_errorWithDomain:(id)arg1 description: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
+- (id)PHPhotosErrorSocialGroupApproveRejectedMemberByNonUser;
+- (id)ed with the assets or fetch result;
 - (id);
-- (id);
-- (id);
-- (void)ions: /* Error: Ran out of types for this method. */;
+- (void)addButtonCardSections: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *availability; // @synthesize availability=_availability;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

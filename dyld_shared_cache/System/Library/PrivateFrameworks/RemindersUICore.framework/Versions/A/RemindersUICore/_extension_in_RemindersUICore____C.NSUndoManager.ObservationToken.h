@@ -7,7 +7,6 @@
 @interface (extension in RemindersUICore):__C.NSUndoManager.ObservationToken
 {
     id undoToken;
-    id redoToken;
 }
 
 @end

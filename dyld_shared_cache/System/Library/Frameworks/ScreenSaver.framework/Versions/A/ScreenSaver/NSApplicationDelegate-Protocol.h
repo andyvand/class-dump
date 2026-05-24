@@ -4,6 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKShareMetadata, NSApplication, NSCoder, NSError, NSMenu, NSNotification, NSString, NSUserActivity;
+
 @protocol NSApplicationDelegate
+
+@optional
+- (void)d ID:(NSNotification *)arg1 %@;
+- (void)he chat;
+- (void)ntroller_KT:(NSNotification *)arg1 There are no handles in the chat;
+- (void)MFileTransfer is nil.;
+- (void).;
+- (_Bool)%@;
+- (_Bool)%@;
+- (unsigned long long)ly unshared focus status with handleID:(NSApplication *)arg1 %@;
+- (_Bool)requested end sharing focus status with handleID:(NSApplication *)arg1 %@;
+- (_Bool)y shared focus status with handleID:(NSApplication *)arg1 %@ fromHandleID:(_Bool)arg2 %@;
+- (_Bool)ing focus with handleID:(NSApplication *)arg1 %@ fromHandleID:%@ error:%@ /* Error: Ran out of types for this method. */;
+- (void)ChangedNotification _handleGroupDisplayNameChanged called on details controller %@ with notification %@;
+- (void)ontroller %@ with notification %@;
+- (_Bool)IMChatGroupPhotoChangedNotification _handleGroupPhotoChanged called on details controller %@ with notification %@;
+- (NSMenu *):(NSApplication *)arg1 %@, model count:%@, backtrace:%@ /* Error: Ran out of types for this method. */;
+- (void)ndexPath with an invalid row index:(NSNotification *)arg1 %@, model count:%@, backtrace:%@ /* Error: Ran out of types for this method. */;
+- (void)ContactCellAtIndexPath passed an indexPath with an invalid row index:(NSNotification *)arg1 %@, model count:%@, backtrace:%@ /* Error: Ran out of types for this method. */;
+- (void)@ for phoneNumber %@ simID %@;
+- (void)avigation item.;
+- (void)arance progress because it is not enabled on the navigation item.;
+- (void)ply to Mac.;
+- (NSError *)ning if focus status is shared with chat, leaving switch disabled. Error:(NSApplication *)arg1 %@;
+- (void)focus status is shared with chat:(NSApplication *)arg1 %@;
+- (_Bool)rl:(NSApplication *)arg1 %@ from source application:(NSString *)arg2 %@;
+- (void)iled to force sync moment share:(NSApplication *)arg1 %{public}@, error:(CKShareMetadata *)arg2 %@;
+- (unsigned long long)set XMP Tag for messageTintColor;
+- (_Bool)zu;
+- (void)valid image source for image:(NSApplication *)arg1 %d %zu;
+- (_Bool)- this is an implementation error.;
+- (void)er;
+- (_Bool)ed itemProvider in CKLocationSearchController;
+- (_Bool)%@ from spotlight result;
+- (id);
+- (void)MapKit frameworks MKPlacemark:(NSApplication *)arg1 %@ MKMapItem:(NSUserActivity *)arg2 %@;
+- (void)rride forcing the visibility;
+- (void)ility change notification, we have a user defaults override forcing the visibility;
+- (void)iming:(NSApplication *)arg1 %@;
+- (void)orCloud %d, UpdateAppleID:(NSApplication *)arg1 %d;
+- (void)on failure:(NSApplication *)arg1 %@, reason:(NSCoder *)arg2 %d;
+- (_Bool)Composition recipients [%@];
+- (void);
+- (_Bool);
 @end
 

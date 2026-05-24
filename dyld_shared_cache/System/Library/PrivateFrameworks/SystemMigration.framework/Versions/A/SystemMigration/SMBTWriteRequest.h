@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentral, NSData, NSError, NSObject;
-@protocol OS_dispatch_semaphore;
+@class CBCentral;
 
 __attribute__((visibility("hidden")))
 @interface SMBTWriteRequest
 {
     CBCentral *_central;
-    NSData *_data;
-    unsigned long long _dataOffset;
-    unsigned long long _numberOfAttempts;
-    NSObject<OS_dispatch_semaphore> *_completionSemaphore;
-    NSError *_error;
 }
 
 - (void);
@@ -35,11 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) CBCentral *central; // @synthesize central=_central;
-@property(retain) NSObject<OS_dispatch_semaphore> *completionSemaphore; // @synthesize completionSemaphore=_completionSemaphore;
-@property(retain) NSData *data; // @synthesize data=_data;
-@property unsigned long long dataOffset; // @synthesize dataOffset=_dataOffset;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property unsigned long long numberOfAttempts; // @synthesize numberOfAttempts=_numberOfAttempts;
 
 @end
 

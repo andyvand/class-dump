@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaIFTActionConfirmationSystemStyleGenerativeAIEnablement : SISchemaInstrumentationMessage
 {
     NSString *_bundleId;
-    int _source;
-    _Bool _isExplicit;
-    struct {
-        unsigned int source:1;
-        unsigned int isExplicit:1;
-    } _has;
-    _Bool _hasBundleId;
 }
 
 - (void);
@@ -29,20 +22,20 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)4˟;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (int);
+- (id).fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INDEXED BY message_idx_isRead_isFromMe_itemType  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.ROWID > ?  AND m.is_read == 0  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.ROWID DESC;;
+- (_Bool)P;
+- (void);
+- (id)<OS_dispatch_queue>";
+- (int)?;
 - (id)1Â0@ù
 × ;
-- (void)ageScoreMusicWithoutRadioRemote;
+- (void)deleteUsageScoreMusicWithoutRadioRemote;
 - (id)me;
-- (_Bool)ationDiscoveryToolTipShown;
+- (_Bool)SISchemaUEIDictationDiscoveryToolTipShown;
 - (id)x¾P¿,ÀtÀ¼ÕÖäÖLØpÙHÚlÛüÛØÜ ÝDÞÔÞ°ßøßáôáãðãå|æ ç;
 - (_Bool)ð$#;
 - (void)Ìÿh¶§#;
@@ -50,12 +43,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(nonatomic) _Bool hasIsExplicit;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

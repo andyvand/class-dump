@@ -7,8 +7,6 @@
 @interface Speech.EARFullPayloadCorrector
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
 }
 
 @end

@@ -7,7 +7,6 @@
 @interface AVTSynchronousTransitionScheduler
 {
     _Bool _isRunningEvent;
-    CDUnknownBlockType _eventHandler;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
 @property(nonatomic) _Bool isRunningEvent; // @synthesize isRunningEvent=_isRunningEvent;
 
 @end

@@ -4,45 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPPhotoWithMetadata, NSData, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPInstructionCorrection
 {
     PBDataReader *_reader;
-    NSString *_comments;
-    NSString *_photoId;
-    GEORPPhotoWithMetadata *_photo;
-    NSData *_routeStepScreenshotImageData;
-    NSString *_routeStepScreenshotImageId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _routeStepIndex;
-    unsigned int _routeStepSubstepIndex;
-    struct {
-        unsigned int has_routeStepIndex:1;
-        unsigned int has_routeStepSubstepIndex:1;
-        unsigned int read_comments:1;
-        unsigned int read_photoId:1;
-        unsigned int read_photo:1;
-        unsigned int read_routeStepScreenshotImageData:1;
-        unsigned int read_routeStepScreenshotImageId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)te:(id)arg1;
++ (_Bool)setLastUpdateDate:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
-- (id);
-- (id);
-- (unsigned int);
+- (void)lastFourDigitsForNumber:(id)arg1;
+- (unsigned int)cacheKeyForAllSources;
+- (id)bundleWithURL: /* Error: Ran out of types for this method. */;
+- (id)bundleIdentifiers;
+- (unsigned int)builtInSocialProfileServices;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,44 +30,31 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)ue"8;
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)CSFileAudioInjectionEngine;
+- (id)idStopRecording:audioDeviceInfo:forReason:estimatedSpeechEndHostTime:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)read_mapsIds"b1"read_serverDynamicContexts"b1"wrote_anyField"b1};
-- (id);
+- (id)chargeLocationDetailsType;
 - (id);
 - (id)nly be called once per object;
 - (_Bool)es.data_pk                FROM access_times INNER JOIN tiles ON access_times.data_pk = tiles.data_pk                ORDER BY access_times.timestamp, tiles.insert_timestamp ASC                LIMIT @limit    );;
 - (void)Z+ÚçúN@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *comments;
-@property(readonly, nonatomic) _Bool hasComments;
-@property(readonly, nonatomic) _Bool hasPhoto;
-@property(readonly, nonatomic) _Bool hasPhotoId;
 @property(nonatomic) _Bool hasRouteStepIndex;
-@property(readonly, nonatomic) _Bool hasRouteStepScreenshotImageData;
-@property(readonly, nonatomic) _Bool hasRouteStepScreenshotImageId;
-@property(nonatomic) _Bool hasRouteStepSubstepIndex;
-@property(retain, nonatomic) GEORPPhotoWithMetadata *photo;
-@property(retain, nonatomic) NSString *photoId;
-@property(nonatomic) unsigned int routeStepIndex;
-@property(retain, nonatomic) NSData *routeStepScreenshotImageData;
-@property(retain, nonatomic) NSString *routeStepScreenshotImageId;
-@property(nonatomic) unsigned int routeStepSubstepIndex;
 
 @end
 

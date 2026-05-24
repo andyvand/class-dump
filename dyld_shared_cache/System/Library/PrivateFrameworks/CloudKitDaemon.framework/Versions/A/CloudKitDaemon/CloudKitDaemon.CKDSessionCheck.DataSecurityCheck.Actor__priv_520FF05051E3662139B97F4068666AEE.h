@@ -7,17 +7,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.DataSecurityCheck.Actor__priv_520FF05051E3662139B97F4068666AEE
 {
     id $defaultActor;
-    id sessionConfiguration;
-    id testDeviceReferenceProtocol;
-    id account;
-    id primaryServiceName;
-    id areDataSecurityStatusesValid;
-    id accountChangeToken;
-    id dataProtection;
-    id isServiceManatee;
-    id readinessSink;
-    id systemInteraction;
-    id state;
 }
 
 @end

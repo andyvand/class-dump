@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class DCContext;
+
 @protocol DCCryptoProxy
+- (void)initWithBinaryPromise:(DCContext *)arg1 block:(void (^)(NSData *, NSError *))arg2 completion: /* Error: Ran out of types for this method. */;
 @end
 

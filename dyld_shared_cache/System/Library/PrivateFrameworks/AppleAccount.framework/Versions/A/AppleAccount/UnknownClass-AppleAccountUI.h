@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (AppleAccountUI)
-- (id);
-- (void);
-- (void);
+- (id)ssPluginInstallActions updated prefs file = %d;
+- (void)mineUninstallFlags but removal will continue anyway;
+- (void)yloadData for %s;
 @end
 

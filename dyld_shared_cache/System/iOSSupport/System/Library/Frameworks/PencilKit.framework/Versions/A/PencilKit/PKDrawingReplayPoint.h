@@ -7,8 +7,6 @@
 @interface PKDrawingReplayPoint
 {
     unsigned long long _type;
-    double _delay;
-    struct CGPoint _point;
 }
 
 - (CDStruct_4cc01785);
@@ -20,8 +18,6 @@
 - (void)Êùÿß.Xî;
 
 // Remaining properties
-@property(nonatomic) double delay; // @synthesize delay=_delay;
-@property(nonatomic) struct CGPoint point; // @synthesize point=_point;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

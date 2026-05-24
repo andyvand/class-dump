@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
-@protocol UIAccessibilityBridgeAXActionHandler;
-
 @interface UIAccessibilityBridgeElement
 {
     _Bool _isAXScrollAncestor;
-    NSData *_elementRefData;
-    id <UIAccessibilityBridgeAXActionHandler> _axActionHandler;
-    NSArray *_accessibilityActionsForRemoteDevice;
 }
 
 - (void);
@@ -28,9 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accessibilityActionsForRemoteDevice; // @synthesize accessibilityActionsForRemoteDevice=_accessibilityActionsForRemoteDevice;
-@property(nonatomic) __weak id <UIAccessibilityBridgeAXActionHandler> axActionHandler; // @synthesize axActionHandler=_axActionHandler;
-@property(retain, nonatomic) NSData *elementRefData; // @synthesize elementRefData=_elementRefData;
 @property(nonatomic) _Bool isAXScrollAncestor; // @synthesize isAXScrollAncestor=_isAXScrollAncestor;
 
 @end

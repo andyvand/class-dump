@@ -12,16 +12,15 @@
 }
 
 + (_Bool);
-- (id);
+- (id)NavigationSplitViewController;
 - (id);
 - (id);
 - (long long);
 - (unsigned long long);
-- (void);
+- (void)Pv;
 
 // Remaining properties
 @property(nonatomic, readonly) long long targetLegIndex; // @synthesize targetLegIndex;
-@property(nonatomic, readonly) unsigned long long type;
 
 @end
 

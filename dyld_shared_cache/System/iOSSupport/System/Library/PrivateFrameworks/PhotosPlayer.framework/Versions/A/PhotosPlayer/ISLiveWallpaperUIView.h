@@ -6,39 +6,30 @@
 
 #import <PhotosPlayer/ISBasePlayerUIView.h>
 
-@class ISLiveWallpaperPlayer, NSTimer, UIGestureRecognizer;
-
 @interface ISLiveWallpaperUIView : ISBasePlayerUIView
 {
     _Bool _touching;
-    UIGestureRecognizer *_playbackGestureRecognizer;
-    double _force;
-    NSTimer *_updateTimer;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)T{CGSize=dd},?,R,N;
+- (void)Margin;
+- (void)count;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)B62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/paimaging/PhotoApps/PAItemControllerRegistry.m;
 - (void);
 - (id);
 - (id);
-- (double);
-- (void);
+- (double)_remote_IXSPlaceholder:hasEntitlementsPromise: /* Error: Ran out of types for this method. */;
+- (void)T@"NSURL",R,N;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double force; // @synthesize force=_force;
-@property(readonly, nonatomic) UIGestureRecognizer *playbackGestureRecognizer; // @synthesize playbackGestureRecognizer=_playbackGestureRecognizer;
-@property(retain, nonatomic) ISLiveWallpaperPlayer *player; // @dynamic player;
 @property(nonatomic) _Bool touching; // @synthesize touching=_touching;
-@property(retain, nonatomic) NSTimer *updateTimer; // @synthesize updateTimer=_updateTimer;
 
 @end
 

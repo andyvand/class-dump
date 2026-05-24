@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol TSKCompatibilityDelegate;
 
 @interface TSKApplicationDelegate
@@ -16,19 +15,19 @@
 + (void);
 + (id);
 + (_Bool)qóÿfYf®;
-- (id);
+- (id)p Leader (This is usually a HomeTheater HomePod);
+- (_Bool)ested, processing locally.;
+- (id)r">16;
+- (_Bool)d on destination;
+- (_Bool)r;
+- (_Bool)CML disabled;
+- (_Bool)stination does not support delegation;
+- (_Bool)ybackSessionRepresentation;
+- (_Bool)pNotification`: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ious: /* Error: Ran out of types for this method. */;
+- (_Bool)ata ;
+- (void)playbackRateDidChange:(id)arg1;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -40,9 +39,9 @@
 - (id);
 - (_Bool);
 - (struct CGRect);
-- (id);
-- (id);
-- (id);
+- (id)W@;
+- (id)8?;
+- (id)wx;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,21 +51,7 @@
 - (_Bool)lÄ;
 
 // Remaining properties
-@property(readonly, getter=isActivating) _Bool activating;
-@property(readonly, nonatomic) NSString *applicationName;
-@property(readonly, nonatomic) _Bool centerOnInitialSelection;
-@property(retain, nonatomic) id <TSKCompatibilityDelegate> compatibilityDelegate; // @synthesize compatibilityDelegate=_compatibilityDelegate;
-@property(readonly, nonatomic) _Bool designModeEnabled;
-@property(readonly, nonatomic) NSString *documentTypeDisplayName;
-@property(readonly, getter=isInBackground) _Bool inBackground;
-@property(readonly, nonatomic) _Bool isCanvasFullScreen;
-@property(readonly, nonatomic) _Bool performanceModeEnabled;
-@property(readonly, nonatomic) _Bool tableCellInspectorShowsNaturalAlignment;
-@property(readonly, nonatomic) _Bool tableHeaderInspectorShowsFreezeHeaderColumnsSwitch;
 @property(readonly, nonatomic) _Bool tableHeaderInspectorShowsFreezeHeaderRowsSwitch;
-@property(readonly, nonatomic) _Bool tableHeaderInspectorShowsRepeatHeaderRowsSwitch;
-@property(readonly, nonatomic) NSString *templateTypeDisplayName;
-@property(readonly, nonatomic) _Bool textInspectorShowsMoreSubpane;
 
 @end
 

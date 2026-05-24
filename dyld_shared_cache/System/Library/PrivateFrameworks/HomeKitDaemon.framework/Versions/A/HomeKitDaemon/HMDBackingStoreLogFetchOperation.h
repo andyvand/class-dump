@@ -10,12 +10,9 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreLogFetchOperation : HMDBackingStoreOperation
 {
     CDUnknownBlockType _fetchBlock;
-    id _sentinel;
-    long long _maskValue;
-    long long _compareValue;
 }
 
-- (void);
+- (void)e %@;
 - (void);
 - (void);
 - (id);
@@ -24,18 +21,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (id);
-- (CDUnknownBlockType);
+- (id)__AUTH_CONST;
+- (CDUnknownBlockType)and aesthetic score %.3f is lower than %.3f;
 - (void);
 - (long long);
 - (id);
 - (void)âÔ;
 
 // Remaining properties
-@property(nonatomic) long long compareValue; // @synthesize compareValue=_compareValue;
 @property(copy, nonatomic) CDUnknownBlockType fetchBlock; // @synthesize fetchBlock=_fetchBlock;
-@property(nonatomic) long long maskValue; // @synthesize maskValue=_maskValue;
-@property(retain, nonatomic) id sentinel; // @synthesize sentinel=_sentinel;
 
 @end
 

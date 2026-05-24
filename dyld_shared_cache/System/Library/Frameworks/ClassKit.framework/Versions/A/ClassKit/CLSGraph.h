@@ -5,44 +5,46 @@
 //
 
 @class NSMapTable;
-@protocol CLSGraphVertex><NSObject;
 
 @interface CLSGraph
 {
     NSMapTable *_verticesMap;
-    NSMapTable *_inEdgesMap;
-    NSMapTable *_outEdgesMap;
-    unsigned long long _options;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)izePlatformServices is called
+;
+- (void)Calcuating HwExecution Time for programId:(id)arg1 %u processId:(id)arg2 %u procedureId:%u, StartTime:%llu, nFinishTime:%llu
+ /* Error: Ran out of types for this method. */;
+- (id)er metric1;
+- (unsigned long long)rror:(id)arg1 Invalid perf tracer metric1;
+- (id)ytics] Group table must be stored prior to Group Info.;
+- (id)ad_info() for THREAD_SCHED_TIMESHARE_INFO failed
+;
+- (id)ANEServicesDeviceUpdateParameters;
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (_Bool)Callback(IOSurfaceRef, ANERequestReceiverBufferPool *);
+- (void)or:(id)arg1 %d
+;
+- (void)achstate() failed. Error:(id)arg1 %d
+;
+- (void)_attr_setschedparam() failed. Error:(id)arg1 %d
+;
+- (_Bool)PerfTracerMetric;
+- (id)dent_command *, bool, const ane_thread_state_64 *const, const void *, const void *, uint32_t &);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)N;
 - (unsigned long long);
 - (void);
 - (void);
@@ -50,8 +52,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CLSGraphVertex><NSObject> anyVertex;
-@property(readonly, nonatomic) unsigned long long edgeCount;
 @property(readonly, nonatomic) unsigned long long vertexCount;
 
 @end

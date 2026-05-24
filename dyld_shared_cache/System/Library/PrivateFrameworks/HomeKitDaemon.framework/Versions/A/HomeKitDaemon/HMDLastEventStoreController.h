@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMELastEventStore, NSString;
+@class HMELastEventStore;
 
 __attribute__((visibility("hidden")))
 @interface HMDLastEventStoreController
@@ -13,22 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)/"¦C;
+- (id)_fetchedTimestamp;
+- (void);
+- (void)Yg;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)edGRK;
+- (void)preexistingMatCredGRK;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) HMELastEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

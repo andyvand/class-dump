@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface VNCIContrastWithPivotColorFilter : VNCIFilter
 {
     NSNumber *_inputContrast;
-    NSNumber *_inputPivot;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -27,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *inputContrast; // @synthesize inputContrast=_inputContrast;
-@property(copy, nonatomic) NSNumber *inputPivot; // @synthesize inputPivot=_inputPivot;
 
 @end
 

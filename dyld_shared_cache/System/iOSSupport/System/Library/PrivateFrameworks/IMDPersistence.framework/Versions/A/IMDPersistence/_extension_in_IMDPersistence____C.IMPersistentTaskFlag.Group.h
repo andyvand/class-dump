@@ -7,9 +7,6 @@
 @interface (extension in IMDPersistence):__C.IMPersistentTaskFlag.Group
 {
     id id;
-    id name;
-    id flags;
-    id reasonsInPriorityOrder;
 }
 
 @end

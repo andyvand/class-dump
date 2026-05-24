@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface NSFileAccessProcessManager
 {
     NSObject<OS_xpc_object> *_connection;
-    int _pid;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _suspensionHandler;
-    NSArray *_urls;
-    id _assertionToken;
-    int _pendingMessageCount;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)J;
 - (void);
 - (id);
 - (void);
@@ -35,7 +29,6 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(copy) NSArray *URLs;
 @property(copy) CDUnknownBlockType suspensionHandler;
 
 @end

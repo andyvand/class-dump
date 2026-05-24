@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, NSData;
+@class HMAccessory;
 
 __attribute__((visibility("hidden")))
 @interface CUHomeKitResolvableAccessory
 {
     HMAccessory *_accessory;
-    NSData *_irkData;
 }
 
 - (void);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain, nonatomic) NSData *irkData; // @synthesize irkData=_irkData;
 
 @end
 

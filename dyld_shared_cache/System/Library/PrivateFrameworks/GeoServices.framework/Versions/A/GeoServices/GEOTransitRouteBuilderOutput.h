@@ -6,14 +6,10 @@
 
 #import <GeoServices/GEORouteBuilderOutput.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface GEOTransitRouteBuilderOutput : GEORouteBuilderOutput
 {
     _Bool _isWalkingOnlyRoute;
-    NSArray *_rideSelections;
-    NSArray *_sectionOptions;
 }
 
 - (void);
@@ -26,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isWalkingOnlyRoute; // @synthesize isWalkingOnlyRoute=_isWalkingOnlyRoute;
-@property(readonly, nonatomic) NSArray *rideSelections; // @synthesize rideSelections=_rideSelections;
-@property(readonly, nonatomic) NSArray *sectionOptions; // @synthesize sectionOptions=_sectionOptions;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TUHandle;
+@class TUHandle;
 
 @interface TUMetadataDestinationID
 {
@@ -15,22 +15,22 @@
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)$;
 - (_Bool);
 - (id);
-- (id);
+- (id))~)!)i	
+ b;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)cessaryAndNotifyDelegate:forConversation: /* Error: Ran out of types for this method. */;
+- (void)startTrackingCollaborationIfNecessaryAndNotifyDelegate:forConversation: /* Error: Ran out of types for this method. */;
 - (id)Thumper calling;
 
 // Remaining properties
 @property(readonly, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(readonly, copy, nonatomic) NSString *isoCountryCode;
 
 @end
 

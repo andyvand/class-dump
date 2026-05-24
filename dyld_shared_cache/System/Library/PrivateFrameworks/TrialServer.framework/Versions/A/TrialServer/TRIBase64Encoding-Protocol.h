@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData, NSString;
+
 @protocol TRIBase64Encoding
+- (NSString *)setAssetWriterInput:(NSData *)arg1;
 @end
 

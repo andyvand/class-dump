@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVFlowPluginLoadContextEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    _Bool _hasPluginCached;
-    struct {
-        unsigned int exists:1;
-        unsigned int hasPluginCached:1;
-    } _has;
 }
 
 - (void);
@@ -25,9 +18,9 @@
 - (_Bool);
 - (void);
 - (id);
+- (void): /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -40,10 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasHasPluginCached;
-@property(nonatomic) _Bool hasPluginCached; // @synthesize hasPluginCached=_hasPluginCached;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

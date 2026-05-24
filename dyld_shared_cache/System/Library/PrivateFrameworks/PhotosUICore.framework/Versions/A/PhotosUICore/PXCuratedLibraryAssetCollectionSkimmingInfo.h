@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXIndexPathSet;
-@protocol PXDisplayCollection;
-
 @interface PXCuratedLibraryAssetCollectionSkimmingInfo
 {
     _Bool _slideshowStarted;
-    _Bool _touchInteractionStarted;
-    id <PXDisplayCollection> _parentAssetCollection;
-    long long _childCollectionsZoomLevel;
-    PXIndexPathSet *_childCollectionsIndexes;
-    struct PXSimpleIndexPath _currentChildCollectionIndexPath;
 }
 
 - (_Bool);
@@ -32,12 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PXIndexPathSet *childCollectionsIndexes; // @synthesize childCollectionsIndexes=_childCollectionsIndexes;
-@property(nonatomic) long long childCollectionsZoomLevel; // @synthesize childCollectionsZoomLevel=_childCollectionsZoomLevel;
-@property(nonatomic) struct PXSimpleIndexPath currentChildCollectionIndexPath; // @synthesize currentChildCollectionIndexPath=_currentChildCollectionIndexPath;
-@property(retain, nonatomic) id <PXDisplayCollection> parentAssetCollection; // @synthesize parentAssetCollection=_parentAssetCollection;
 @property(nonatomic) _Bool slideshowStarted; // @synthesize slideshowStarted=_slideshowStarted;
-@property(nonatomic) _Bool touchInteractionStarted; // @synthesize touchInteractionStarted=_touchInteractionStarted;
 
 @end
 

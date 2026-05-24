@@ -11,8 +11,8 @@
     TRIServerContext *_context;
 }
 
-- (id);
-- (_Bool);
+- (id)originalTimeForScaledTime:(id)arg1;
+- (_Bool)maxTopOverlapForTopRect:(id)arg1 isInteractive: /* Error: Ran out of types for this method. */;
 - (void)×!T@ù1!°1Â0@ù
 × ;
 

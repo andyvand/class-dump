@@ -9,7 +9,6 @@
 @interface IKReflectiveIconCell : IKIconCell
 {
     id _currentRenderedImage;
-    float _rotation;
 }
 
 - (float);
@@ -30,20 +29,19 @@
 - (float);
 - (_Bool);
 - (double);
+- (struct CGRect)i;
+- (void);
 - (struct CGRect);
-- (void);
 - (struct CGRect);
-- (struct CGRect);
-- (unsigned long long);
+- (unsigned long long):%d - Error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (double);
+- (double)h&;
 - (float);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGRect reflectionFrame;
 @property float rotation; // @synthesize rotation=_rotation;
 
 @end

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface THAButtonEvent
 {
     THAButton *_button;
-    unsigned long long _state;
-    double _timestamp;
 }
 
 - (id);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) THAButton *button; // @synthesize button=_button;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

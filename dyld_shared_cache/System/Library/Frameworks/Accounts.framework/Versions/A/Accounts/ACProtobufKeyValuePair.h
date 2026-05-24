@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ACProtobufKeyValuePair
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (id);
@@ -18,11 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -31,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

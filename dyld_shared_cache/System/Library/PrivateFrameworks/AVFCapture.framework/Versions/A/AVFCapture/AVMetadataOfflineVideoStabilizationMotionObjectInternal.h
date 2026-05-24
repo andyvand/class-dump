@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)setSmartCamVersion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

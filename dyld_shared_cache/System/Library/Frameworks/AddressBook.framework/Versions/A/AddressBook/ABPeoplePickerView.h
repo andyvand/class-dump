@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSView;
+@class NSView;
 
 @interface ABPeoplePickerView
 {
     id _reserved1;
-    id _reserved2;
-    id _reserved3;
-    id _reserved4;
-    id _reserved5;
-    SEL _reserved6;
-    SEL _reserved7;
-    id _reserved8;
-    id _reserved9;
-    id _reserved10;
 }
 
 + (_Bool);
@@ -28,10 +19,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,7 +63,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -86,25 +77,15 @@
 - (void);
 - (void);
 - (id);
+- (void)y.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:106 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (id)ibrary/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDIAPInfoResponse_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void)ContactHandleLabel;
+- (void)CNContactHandleLabel;
 
 // Remaining properties
 @property(retain, nonatomic) NSView *accessoryView;
-@property(nonatomic) _Bool allowsGroupSelection;
-@property(nonatomic) _Bool allowsMultipleSelection;
-@property(retain, nonatomic) NSString *autosaveName;
-@property(retain, nonatomic) NSString *displayedProperty;
-@property(nonatomic) SEL groupDoubleAction;
-@property(nonatomic) SEL nameDoubleAction;
-@property(readonly) NSArray *selectedGroups;
-@property(readonly) NSArray *selectedRecords;
-@property(nonatomic) id target;
-@property(nonatomic) int valueSelectionBehavior;
 
 @end
 

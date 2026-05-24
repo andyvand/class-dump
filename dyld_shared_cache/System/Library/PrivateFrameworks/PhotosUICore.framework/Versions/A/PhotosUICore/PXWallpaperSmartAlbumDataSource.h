@@ -6,19 +6,16 @@
 
 #import <PhotosUICore/PXPassiveContentDataSourceBase.h>
 
-@class NSDictionary, NSString, PFPosterMediaSuggestion, PHSuggestion;
+@class NSDictionary, PFPosterMediaSuggestion;
 
 @interface PXWallpaperSmartAlbumDataSource : PXPassiveContentDataSourceBase
 {
     NSDictionary *_classificationByPreviewAssetUUID;
-    NSDictionary *_shuffleSuggestionByKeyAssetUUID;
-    PFPosterMediaSuggestion *_centerMedia;
-    PHSuggestion *_workQueue_centerSuggestion;
 }
 
 + (id);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)#;
 - (id);
 - (_Bool);
 - (void);
@@ -30,26 +27,16 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)former;
+- (void)q^;
+- (void)PXPhotosGridCustomizeCollectionActionPerformer;
 
 // Remaining properties
 @property(readonly, nonatomic) PFPosterMediaSuggestion *centerMedia; // @synthesize centerMedia=_centerMedia;
-@property(retain) NSDictionary *classificationByPreviewAssetUUID; // @synthesize classificationByPreviewAssetUUID=_classificationByPreviewAssetUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *shuffleSuggestionByKeyAssetUUID; // @synthesize shuffleSuggestionByKeyAssetUUID=_shuffleSuggestionByKeyAssetUUID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PHSuggestion *workQueue_centerSuggestion; // @synthesize workQueue_centerSuggestion=_workQueue_centerSuggestion;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PKPassLibraryDataProvider, PKPaymentDataProvider;
+@protocol PKPaymentDataProvider;
 
 @interface PKExpressPassController
 {
     id <PKPaymentDataProvider> _paymentDataProvider;
-    id <PKPassLibraryDataProvider> _passLibraryDataProvider;
-    _Bool _isForWatch;
-    _Bool _hasSupportsExpressForAutomaticSelectionTechnologyTypeCheck;
-    id _presentingViewController;
-    long long _apiVersion;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)͗;
 - (id);
 - (id);
 - (id);
@@ -42,10 +37,9 @@
 - (_Bool);
 - (long long)%@ for request protobuf %@;
 - (void)o decode cert.;
-- (void)efaultInstallmentOfferAfterRetryReasonMissingSelectedOfferIdentifier;
+- (void)loadDefaultInstallmentOfferAfterRetryReasonMissingSelectedOfferIdentifier;
 
 // Remaining properties
-@property(nonatomic) long long apiVersion; // @synthesize apiVersion=_apiVersion;
 @property(nonatomic) __weak id presentingViewController; // @synthesize presentingViewController=_presentingViewController;
 
 @end

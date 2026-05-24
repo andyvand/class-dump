@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSData, NSDictionary, NSMutableArray, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface NSScriptSDEFParser
 {
     NSData *_data;
-    NSBundle *_bundle;
-    NSDictionary *_descriptionCreationMethodsByElementName;
-    NSDictionary *_validSubelementNamesPerArrayElementName;
-    NSMutableArray *_elementsBeingParsed;
-    NSArray *_suiteDescriptions;
-    _Bool _parsesCocoaElements;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (unsigned long long);
@@ -30,6 +24,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)6p;
 - (id);
 - (id);
 - (id);
@@ -37,15 +39,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (_Bool);
@@ -53,20 +47,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
+- (void)r	;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)zz;
 - (void)zR;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

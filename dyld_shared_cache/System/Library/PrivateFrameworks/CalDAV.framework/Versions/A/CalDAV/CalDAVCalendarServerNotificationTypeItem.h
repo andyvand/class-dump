@@ -9,12 +9,10 @@
 @interface CalDAVCalendarServerNotificationTypeItem
 {
     CoreDAVItemWithNoChildren *_inviteNotification;
-    CoreDAVItemWithNoChildren *_inviteReply;
-    CoreDAVItemWithNoChildren *_resourceChanged;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,16 +23,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)charge_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVItemWithNoChildren *inviteNotification; // @synthesize inviteNotification=_inviteNotification;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *inviteReply; // @synthesize inviteReply=_inviteReply;
-@property(readonly, nonatomic) _Bool isInviteNotification;
-@property(readonly, nonatomic) _Bool isInviteReply;
-@property(readonly, nonatomic) _Bool isResourceChanged;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *resourceChanged; // @synthesize resourceChanged=_resourceChanged;
 
 @end
 

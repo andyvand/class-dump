@@ -4,43 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface COMAPPLEPETCOMMONPETMetadata
 {
     unsigned long long _uploadTime;
-    NSString *_build;
-    unsigned int _configVersion;
-    NSString *_country;
-    NSString *_device;
-    NSString *_language;
-    NSString *_messageGroup;
-    NSString *_messageName;
-    NSString *_platform;
-    NSString *_pseudoDeviceId;
-    unsigned int _typeId;
-    NSString *_uploadIdentifier;
-    int _uploadService;
-    _Bool _isConfigEnabled;
-    _Bool _isGm;
-    _Bool _isInternal;
-    _Bool _isInternalCarry;
-    _Bool _isSeed;
-    _Bool _isTestingData;
-    _Bool _isTrialUpload;
-    struct {
-        unsigned int uploadTime:1;
-        unsigned int configVersion:1;
-        unsigned int typeId:1;
-        unsigned int uploadService:1;
-        unsigned int isConfigEnabled:1;
-        unsigned int isGm:1;
-        unsigned int isInternal:1;
-        unsigned int isInternalCarry:1;
-        unsigned int isSeed:1;
-        unsigned int isTestingData:1;
-        unsigned int isTrialUpload:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -57,16 +23,21 @@
 - (void);
 - (void);
 - (void);
+- (void)Ѡ";
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -79,21 +50,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)	;
 - (int);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)	;
+- (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)d;
 - (_Bool);
 - (id);
 - (id);
@@ -102,12 +68,12 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)kMaxNumberListType;
 - (void);
 - (id);
 - (unsigned int);
@@ -123,52 +89,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)8n;
 - (unsigned int);
 - (_Bool)@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *build; // @synthesize build=_build;
-@property(nonatomic) unsigned int configVersion; // @synthesize configVersion=_configVersion;
-@property(retain, nonatomic) NSString *country; // @synthesize country=_country;
-@property(retain, nonatomic) NSString *device; // @synthesize device=_device;
-@property(readonly, nonatomic) _Bool hasBuild;
-@property(nonatomic) _Bool hasConfigVersion;
-@property(readonly, nonatomic) _Bool hasCountry;
-@property(readonly, nonatomic) _Bool hasDevice;
-@property(nonatomic) _Bool hasIsConfigEnabled;
-@property(nonatomic) _Bool hasIsGm;
-@property(nonatomic) _Bool hasIsInternal;
-@property(nonatomic) _Bool hasIsInternalCarry;
-@property(nonatomic) _Bool hasIsSeed;
-@property(nonatomic) _Bool hasIsTestingData;
-@property(nonatomic) _Bool hasIsTrialUpload;
-@property(readonly, nonatomic) _Bool hasLanguage;
-@property(readonly, nonatomic) _Bool hasMessageGroup;
-@property(readonly, nonatomic) _Bool hasMessageName;
-@property(readonly, nonatomic) _Bool hasPlatform;
-@property(readonly, nonatomic) _Bool hasPseudoDeviceId;
-@property(nonatomic) _Bool hasTypeId;
-@property(readonly, nonatomic) _Bool hasUploadIdentifier;
-@property(nonatomic) _Bool hasUploadService;
 @property(nonatomic) _Bool hasUploadTime;
-@property(nonatomic) _Bool isConfigEnabled; // @synthesize isConfigEnabled=_isConfigEnabled;
-@property(nonatomic) _Bool isGm; // @synthesize isGm=_isGm;
-@property(nonatomic) _Bool isInternal; // @synthesize isInternal=_isInternal;
-@property(nonatomic) _Bool isInternalCarry; // @synthesize isInternalCarry=_isInternalCarry;
-@property(nonatomic) _Bool isSeed; // @synthesize isSeed=_isSeed;
-@property(nonatomic) _Bool isTestingData; // @synthesize isTestingData=_isTestingData;
-@property(nonatomic) _Bool isTrialUpload; // @synthesize isTrialUpload=_isTrialUpload;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSString *messageGroup; // @synthesize messageGroup=_messageGroup;
-@property(retain, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
-@property(retain, nonatomic) NSString *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NSString *pseudoDeviceId; // @synthesize pseudoDeviceId=_pseudoDeviceId;
-@property(nonatomic) unsigned int typeId; // @synthesize typeId=_typeId;
-@property(retain, nonatomic) NSString *uploadIdentifier; // @synthesize uploadIdentifier=_uploadIdentifier;
-@property(nonatomic) int uploadService; // @synthesize uploadService=_uploadService;
-@property(nonatomic) unsigned long long uploadTime; // @synthesize uploadTime=_uploadTime;
 
 @end
 

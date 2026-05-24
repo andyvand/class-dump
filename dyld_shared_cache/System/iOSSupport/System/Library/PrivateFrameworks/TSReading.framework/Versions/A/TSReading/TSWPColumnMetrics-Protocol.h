@@ -7,18 +7,10 @@
 @class TSWPPadding;
 
 @protocol TSWPColumnMetrics
+- (_Bool);
 - (TSWPPadding *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize adjustedInsets;
-@property(readonly, nonatomic) _Bool alwaysStartsNewTarget;
-@property(readonly, nonatomic) unsigned long long columnCount;
-@property(readonly, nonatomic) _Bool columnsAreLeftToRight;
-@property(readonly, nonatomic) TSWPPadding *layoutMargins;
-@property(readonly, nonatomic) _Bool shrinkTextToFit;
-@property(readonly, nonatomic) double textScaleFactor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @end
 

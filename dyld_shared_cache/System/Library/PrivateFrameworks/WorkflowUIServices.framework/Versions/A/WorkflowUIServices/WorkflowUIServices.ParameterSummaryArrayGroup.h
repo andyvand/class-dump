@@ -7,15 +7,6 @@
 @interface WorkflowUIServices.ParameterSummaryArrayGroup
 {
     id identifier;
-    id parameterDefinition;
-    id typeIdentifier;
-    id typeInstance;
-    id toolInvocation;
-    id toolSessionPool;
-    id placeholder;
-    id mode;
-    id parameters;
-    id delegate;
 }
 
 @end

@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AKAppleIDPasskeySetupContext
 {
     _Bool _forceEnrollmentIgnoringServerState;
-    NSString *_altDSID;
-    NSDictionary *_appProvidedData;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)D;
 - (void)ð$;
 - (id)dL$"ÊïûDuE#g¿|É-¹Æ6¼óvAHõæU®ròTâ½ XJ×K:ðÕøO ±¦4ý7ôÚÄ?*fík+)Cp°¬·lÃÒ<÷SÌñmË¾zßNQºcnã«ey~0³þÈ§R`\kíf*C)+·¬°p<ÒÃlOøÕ4¦± Úô7ý?Äye«ã³0~§Èþ\`RÌS÷ËmñNßz¾ncºQûïÊ#EuD|¿g¹-ÉG%à5¶[ëoÎ"$LdTò ½â×JXð:K6ÆAvó¼æõHr®U­aÞ¯£µ3äqç}Å¥ÙÖ@=ÁÜFÑPM /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSDictionary *appProvidedData; // @synthesize appProvidedData=_appProvidedData;
-@property(nonatomic) _Bool forceEnrollmentIgnoringServerState; // @synthesize forceEnrollmentIgnoringServerState=_forceEnrollmentIgnoringServerState;
 
 @end
 

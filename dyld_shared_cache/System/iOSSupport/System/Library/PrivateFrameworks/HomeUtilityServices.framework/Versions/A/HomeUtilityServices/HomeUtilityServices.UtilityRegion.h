@@ -8,7 +8,6 @@
 {
     id name;
     id identifier;
-    id shortName;
 }
 
 - (id);

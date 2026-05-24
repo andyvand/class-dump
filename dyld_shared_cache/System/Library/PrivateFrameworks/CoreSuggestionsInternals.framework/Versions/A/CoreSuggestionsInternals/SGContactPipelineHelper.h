@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface SGContactPipelineHelper
 {
     NSDictionary *_lengthsCounts;
-    unsigned long long _phonesSeenInContacts;
-    NSString *_mostCommonCountryCode;
-    struct _opaque_pthread_mutex_t _helperLock;
 }
 
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)verifyCredentialsForAccount:(id)arg1 saveWhenAuthorized:(id)arg2 withHandler: /* Error: Ran out of types for this method. */;
++ (id)verifyCredentialsForAccount:(unsigned long long)arg1 options:(id)arg2 completion: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
 - (_Bool);

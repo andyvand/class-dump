@@ -6,42 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLATFORMProvisionalConnectecedComponentIdentifier : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_uuid;
-    NSString *_component;
-    _Bool _hasUuid;
-    _Bool _hasComponent;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
-- (_Bool);
+- (_Bool)licateChatsWithOperation in agent failed with error:(id)arg1 %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)SinceLastSubscriptionHashChangeInSeconds;
-- (id)dactionState;
+- (id)hasTimeSinceLastSubscriptionHashChangeInSeconds;
+- (id)_hasRedactionState;
 - (void)BargeInDetected;
-- (_Bool)0_A;
+- (_Bool)UTCOFFSET_PLUS_01_00_A;
 - (void)e.aiml.engagement.ch.CHClientEvent.CHUserAlignmentInferenceGenerated;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *component; // @synthesize component=_component;
-@property(nonatomic) _Bool hasComponent; // @synthesize hasComponent=_hasComponent;
-@property(nonatomic) _Bool hasUuid; // @synthesize hasUuid=_hasUuid;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

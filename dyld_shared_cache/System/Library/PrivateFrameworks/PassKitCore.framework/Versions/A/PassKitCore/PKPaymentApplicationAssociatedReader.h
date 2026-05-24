@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet;
+@class NSData;
 
 @interface PKPaymentApplicationAssociatedReader
 {
     NSData *_readerIdentifier;
-    NSSet *_readerCAs;
 }
 
 + (_Bool)0@ù
@@ -22,16 +21,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setHasPhyOffDuration:(id)arg1;
+- (void)cntRedBtDisconnLatHi;
 - (id);
 - (id);
-- (id);
-- (id)us:(id)arg1 forDomain:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)$;
+- (id)checkMerchantStatus:(id)arg1 forDomain:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)v32@?0@"PKFidoProfile"8Q16^B24;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *readerCAs; // @synthesize readerCAs=_readerCAs;
 @property(copy, nonatomic) NSData *readerIdentifier; // @synthesize readerIdentifier=_readerIdentifier;
 
 @end

@@ -9,7 +9,6 @@
 @interface PhotoAnalysis.FastPassActivity : PhotoAnalysis.Activity
 {
     id processingTaskIdentifiers;
-    id featureCodes;
 }
 
 @end

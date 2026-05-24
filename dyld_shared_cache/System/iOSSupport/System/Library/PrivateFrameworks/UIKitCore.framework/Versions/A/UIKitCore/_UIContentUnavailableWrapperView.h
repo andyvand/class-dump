@@ -6,19 +6,12 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class NSMutableDictionary, UIScrollView, UIView, UIViewController;
-@protocol UIContentConfiguration, _UIContentViewInternal;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContentUnavailableWrapperView : _UITouchPassthroughView
 {
     UIView *_contentView;
-    UIView *_backgroundView;
-    UIView<_UIContentViewInternal> *_viewForConfiguration;
-    NSMutableDictionary *_parentScrollViews;
-    UIScrollView *_contentScrollView;
-    _Bool _isConfiguringContentScrollView;
-    UIViewController *_viewController;
 }
 
 - (id);
@@ -30,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets)ùñfÐ1Â0@ù
 × ;
 - (void)8i16;
-- (void)tyleChange;
+- (void)_onUserInterfaceStyleChange;
 - (void)_manager.cache_resource_cleanup;
 - (id)(deprecated);
 - (void))ÕÄÏ];
@@ -38,9 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)¤á1ÿGvËh3c;
 
 // Remaining properties
-@property(retain, nonatomic) id <UIContentConfiguration> configuration;
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICStoreRequestContext, ICStoreURLRequest, NSString;
+@class ICStoreRequestContext;
 
 @interface ICSongDownloadDoneRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    NSString *_downloadIdentifier;
-    unsigned long long _songID;
-    ICStoreURLRequest *_storeURLRequest;
 }
 
 - (id);

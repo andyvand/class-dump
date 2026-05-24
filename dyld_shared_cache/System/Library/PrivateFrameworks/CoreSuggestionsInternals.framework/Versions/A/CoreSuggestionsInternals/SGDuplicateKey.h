@@ -4,56 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject;
-@protocol SGEntityKey;
-
 @interface SGDuplicateKey
 {
     long long _entityType;
-    NSObject<SGEntityKey> *_entityKey;
-    SGDuplicateKey *_parentKey;
 }
 
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)tableView:(id)arg1 toolTipForCell:rect:tableColumn:row:mouseLocation: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 sizeToFitWidthOfColumn:(id)arg2;
++ (id)tableView:(id)arg1 shouldTypeSelectForEvent:(id)arg2 withCurrentSearchString: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 shouldShowCellExpansionForTableColumn:(id)arg2 row: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 shouldShowCellExpansionForTableColumn:row: /* Error: Ran out of types for this method. */;
++ (id)tableView:shouldSelectRow: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 shouldEditTableColumn:(struct SGUnixTimestamp_)arg2 row:(id)arg3;
++ (id)tableView:(id)arg1 setObjectValue:(id)arg2 forTableColumn:row: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 rowViewForRow:(id)arg2;
++ (id)tableView:(id)arg1 objectValueForTableColumn:(id)arg2 row:(id)arg3;
++ (id)tableView:(id)arg1 nextTypeSelectMatchFromRow:(id)arg2 toRow:forString: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 namesOfPromisedFilesDroppedAtDestination:(id)arg2 forDraggedRowsWithIndexes: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 mouseDownInHeaderOfTableColumn:(id)arg2;
++ (id)tableView:(id)arg1 draggingSession:(id)arg2 willBeginAtPoint:forRowIndexes: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 draggingSession:(id)arg2 willBeginAtPoint:forRowIndexes: /* Error: Ran out of types for this method. */;
++ (id)tableView:(id)arg1 didRemoveRowView:(id)arg2 forRow:(id)arg3;
++ (id)tableView:(id)arg1 didClickTableColumn: /* Error: Ran out of types for this method. */;
+- (id)ework/Versions/A/AttributeGraph;
+- (id)ions/A/MediaAccessibility;
+- (id)ccessibility.framework/Versions/A/MediaAccessibility;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);�(;
+- (id);
+- (id);
+- (id)__AUTH_CONST;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)setHeaderLogoWithDetails: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
 - (long long);
 - (id);
 - (unsigned long long);
@@ -65,10 +60,7 @@
 - (void)ò3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *compositeHash;
-@property(readonly, nonatomic) NSObject<SGEntityKey> *entityKey; // @synthesize entityKey=_entityKey;
 @property(readonly, nonatomic) long long entityType; // @synthesize entityType=_entityType;
-@property(readonly, nonatomic) SGDuplicateKey *parentKey; // @synthesize parentKey=_parentKey;
 
 @end
 

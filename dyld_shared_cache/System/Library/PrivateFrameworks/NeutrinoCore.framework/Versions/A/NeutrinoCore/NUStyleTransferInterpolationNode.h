@@ -14,13 +14,13 @@
 - (id);
 - (id);
 - (float);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)ionary",&,V_outOfBandHints;
+- (id)der;
+- (id)T;
+- (unsigned long long)e, using initial scaled res of %.02f %.02f;
 
 @end
 

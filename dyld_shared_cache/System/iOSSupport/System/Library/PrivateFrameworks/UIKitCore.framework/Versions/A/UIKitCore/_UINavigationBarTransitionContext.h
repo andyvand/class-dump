@@ -4,47 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, UINavigationBar, UIView, _UIBarBackground, _UINavigationBarContentView, _UINavigationBarContentViewLayout, _UINavigationBarItemStack, _UINavigationBarLargeTitleView, _UINavigationBarLargeTitleViewLayout, _UINavigationBarLayout, _UINavigationBarModernPromptView;
+@class UINavigationBar;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarTransitionContext
 {
     UINavigationBar *_navigationBar;
-    _UINavigationBarItemStack *_stack;
-    _UINavigationBarModernPromptView *_promptView;
-    _UINavigationBarContentView *_contentView;
-    _UIBarBackground *_backgroundView;
-    _UINavigationBarLargeTitleView *_largeTitleView;
-    UIView *_tabBarHostedView;
-    UIView *_transitionOverlayView;
-    _UINavigationBarLayout *_fromLayout;
-    _UINavigationBarLayout *_toLayout;
-    _UINavigationBarContentViewLayout *_fromContentLayout;
-    _UINavigationBarContentViewLayout *_toContentLayout;
-    _UINavigationBarLargeTitleViewLayout *_fromLargeTitleLayout;
-    _UINavigationBarLargeTitleViewLayout *_toLargeTitleLayout;
-    double _backgroundAlpha;
-    double _twoPartAnimationBaseDuration;
-    double _twoPartAnimationOverlapDuration;
-    long long _largeTitleTransitionType;
-    long long _apiVersion;
-    struct {
-        unsigned int isPushOperation:1;
-        unsigned int isRTL:1;
-        unsigned int compact:1;
-        unsigned int allowLargeTitles:1;
-        unsigned int twoPart:1;
-        unsigned int beginWithLargeTitle:1;
-        unsigned int endWithLargeTitle:1;
-        unsigned int observedScrollViewOffsetIsApplicable:1;
-        unsigned int sharesContentViewLayouts:1;
-        unsigned int beginWithTransparencyAllowed:1;
-        unsigned int endWithTransparencyAllowed:1;
-        unsigned int usesBarBackground:1;
-    } _flags;
-    NSMutableSet *_clippingViews;
-    CDUnknownBlockType _completionHandler;
-    struct CGPoint _startingContentOffsetForObservedScrollView;
 }
 
 + (id);
@@ -52,12 +17,12 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)T@"NSNumber",C,N,V_statusPerformPeriodicCheck;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)importAlbumArtistHeroImageForPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -76,19 +41,19 @@ __attribute__((visibility("hidden")))
 - (_Bool)0@ù
 × ;
 - (void)b1"skipUpdatingContainerInSetView"b1"insideSetState"b1"subclassCanPrevent"b1};
-- (CDUnknownBlockType): /* Error: Ran out of types for this method. */;
-- (void)ar:shouldChangeTextInRanges:replacementText: /* Error: Ran out of types for this method. */;
-- (unsigned long long)Named:action: /* Error: Ran out of types for this method. */;
-- (id)gmentState:isMini:withFallback: /* Error: Ran out of types for this method. */;
-- (_Bool)ete;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)wActionsPanningGestureRecognizer;
-- (void)Leaf:(double)arg1 translationMap:(CDUnknownBlockType)arg2 translator:(CDUnknownBlockType)arg3 addingModifiers:ignoringModifiers: /* Error: Ran out of types for this method. */;
-- (void)nFrame;
-- (void)etingAnimations:completion: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)setContentOffsetForSameViewDrops: /* Error: Ran out of types for this method. */;
+- (void)searchBar:shouldChangeTextInRanges:replacementText: /* Error: Ran out of types for this method. */;
+- (unsigned long long)makeButtonWithSystemImageNamed:action: /* Error: Ran out of types for this method. */;
+- (id)dividerImageForLeftSegmentState:rightSegmentState:isMini:withFallback: /* Error: Ran out of types for this method. */;
+- (_Bool)disableSmartInsertDelete;
+- (id)_timestampForTouches: /* Error: Ran out of types for this method. */;
+- (void)_modalPreviewActionsPanningGestureRecognizer;
+- (void)_matchFidelityFromKeyMapForKeyboardShortcutLeaf:(double)arg1 translationMap:(CDUnknownBlockType)arg2 translator:(CDUnknownBlockType)arg3 addingModifiers:ignoringModifiers: /* Error: Ran out of types for this method. */;
+- (void)_focusedOrMainFrame;
+- (void)_animateByRetargetingAnimations:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)uiringContentMargin;
 - (void)onItem;
-- (void)kGeneratorConfiguration;
+- (void)_UIClickPresentationFeedbackGeneratorConfiguration;
 - (double)àQ^Ô^;
 - (void);
 - (_Bool);
@@ -108,11 +73,11 @@ Group:%@ /* Error: Ran out of types for this method. */;
 - (long long)on With Pencil;
 - (_Bool)result in a corrupted navigation bar;
 - (void)move your +_forceLegacyVisualProvider override.;
-- (void)eATVLight;
-- (void)e;
-- (_Bool)ponsePhaseContextMutation;
+- (void)UIBlurEffectStyleATVLight;
+- (void)UIBlurEffectStyle;
+- (_Bool)_UIScenePostSettingsUpdateResponsePhaseContextMutation;
 - (void)UIColor"16@?0@"UITraitCollection"8;
-- (void)UILeadingButtonToggle;
+- (void)_UILeadingButtonToggle;
 - (void);
 - (void);
 - (_Bool);
@@ -121,19 +86,19 @@ Group:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)½þÿ^ÔþÿúÓþÿ;
 - (_Bool)3GGSOGGGAIyQ¢.3ys¾7GGG_ºÚ.3Qo_;
 - (void);
-- (void)iddenViewsContributeToPocketC;
+- (void)So37_UITraitHiddenViewsContributeToPocketC;
 - (void)zOþ;
 - (void)U	¿7_G;
 - (void)E03ySo8UIScreenC03G;
 - (id): /* Error: Ran out of types for this method. */;
-- (void)lEffectContentProxy;
+- (void)_UIVisualEffectContentProxy;
 - (_Bool)13;[;
 - (void);
 - (id);
 - (void)23ð|;
 - (void)R0;
 - (void);
-- (void)erTransitionComponent;
+- (void)UIModifierTransitionComponent;
 - (void)±þ;
 - (id);
 - (void);
@@ -142,43 +107,7 @@ Group:%@ /* Error: Ran out of types for this method. */;
 - (id)«Á;
 
 // Remaining properties
-@property(nonatomic) _Bool allowLargeTitles;
-@property(nonatomic) long long apiVersion; // @synthesize apiVersion=_apiVersion;
-@property(nonatomic) double backgroundAlpha; // @synthesize backgroundAlpha=_backgroundAlpha;
-@property(readonly, nonatomic) _UIBarBackground *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(nonatomic) _Bool beginWithLargeTitle;
-@property(nonatomic) _Bool beginWithTransparencyAllowed;
-@property(nonatomic) _Bool compact;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) _UINavigationBarContentView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool endWithLargeTitle;
-@property(nonatomic) _Bool endWithTransparencyAllowed;
-@property(retain, nonatomic) _UINavigationBarLargeTitleViewLayout *fromLargeTitleViewLayout;
-@property(retain, nonatomic) _UINavigationBarLayout *fromLayout; // @synthesize fromLayout=_fromLayout;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, setter=setPushOperation:) _Bool isPushOperation;
-@property(nonatomic, setter=setRTL:) _Bool isRTL;
-@property(retain, nonatomic) _UINavigationBarLargeTitleView *largeTitleView; // @synthesize largeTitleView=_largeTitleView;
-@property(nonatomic) UINavigationBar *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(nonatomic) _Bool observedScrollViewOffsetIsApplicable;
-@property(retain, nonatomic) _UINavigationBarModernPromptView *promptView; // @synthesize promptView=_promptView;
-@property(nonatomic) _Bool sharesContentViewLayouts;
-@property(retain, nonatomic) _UINavigationBarItemStack *stack; // @synthesize stack=_stack;
-@property(nonatomic) struct CGPoint startingContentOffsetForObservedScrollView; // @synthesize startingContentOffsetForObservedScrollView=_startingContentOffsetForObservedScrollView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *tabBarHostedView; // @synthesize tabBarHostedView=_tabBarHostedView;
-@property(retain, nonatomic) _UINavigationBarLargeTitleViewLayout *toLargeTitleViewLayout;
-@property(retain, nonatomic) _UINavigationBarLayout *toLayout; // @synthesize toLayout=_toLayout;
 @property(readonly, nonatomic) long long transition; // @dynamic transition;
-@property(retain, nonatomic) UIView *transitionOverlayView; // @synthesize transitionOverlayView=_transitionOverlayView;
-@property(nonatomic) _Bool twoPart;
-@property(readonly, nonatomic) UIView *viewFadingInFromCustomAlpha;
-@property(readonly, nonatomic) UIView *viewUsingEaseInCurve;
 
 @end
 

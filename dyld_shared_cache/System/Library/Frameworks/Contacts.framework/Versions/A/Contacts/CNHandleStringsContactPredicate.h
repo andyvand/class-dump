@@ -6,13 +6,12 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNHandleStringsContactPredicate : CNPredicate
 {
     NSArray *_handleStrings;
-    NSArray *_containerIdentifiers;
 }
 
 + (id);
@@ -23,33 +22,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)kSuppServicesProvServiceTypeCallForward;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long)addChild:(id)arg1;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *containerIdentifiers; // @synthesize containerIdentifiers=_containerIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *handleStrings; // @synthesize handleStrings=_handleStrings;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

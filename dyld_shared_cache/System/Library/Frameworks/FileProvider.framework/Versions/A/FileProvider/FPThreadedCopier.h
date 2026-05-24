@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface FPThreadedCopier
 {
     long long _numberOfInflightCopies;
-    NSObject<OS_dispatch_semaphore> *_bufferLimitSemaphore;
-    NSMutableArray *_buffers;
-    NSObject<OS_dispatch_queue> *_writeQueue;
 }
 
 + (id);
@@ -21,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)M;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -33,13 +27,10 @@ __attribute__((visibility("hidden")))
 - (void)0@ù
 × ;
 - (void)NSData",R,N,V_metadataVersion;
-- (id)tiplePagesEnumeration;
+- (id)_itemPendingScanningProviderHasMultiplePagesEnumeration;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *bufferLimitSemaphore; // @synthesize bufferLimitSemaphore=_bufferLimitSemaphore;
-@property(retain, nonatomic) NSMutableArray *buffers; // @synthesize buffers=_buffers;
 @property(nonatomic) long long numberOfInflightCopies; // @synthesize numberOfInflightCopies=_numberOfInflightCopies;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *writeQueue; // @synthesize writeQueue=_writeQueue;
 
 @end
 

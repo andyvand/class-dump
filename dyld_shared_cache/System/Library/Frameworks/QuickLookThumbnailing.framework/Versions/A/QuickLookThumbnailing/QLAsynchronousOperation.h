@@ -7,10 +7,9 @@
 @interface QLAsynchronousOperation
 {
     _Bool _finished;
-    _Bool _executing;
 }
 
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isExecuting) _Bool executing; // @synthesize executing=_executing;
-@property(nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
 
 @end
 

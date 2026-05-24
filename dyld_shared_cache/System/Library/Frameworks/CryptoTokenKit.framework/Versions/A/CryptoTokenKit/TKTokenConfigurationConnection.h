@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCConnection;
 
 @interface TKTokenConfigurationConnection
 {
     NSXPCConnection *_connection;
-    NSXPCListenerEndpoint *_endpoint;
-    NSHashTable *_configurationConnections;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)eauthd_client;
 
 @end
 

@@ -6,21 +6,18 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOPDPlaceRequest, NSString, NSUUID;
+@class NSUUID;
 
 @interface GEOPlaceRequestMessage : GEOXPCRequest
 {
     NSUUID *_requestUUID;
-    GEOPDPlaceRequest *_request;
-    unsigned long long _cachePolicy;
-    double _timeout;
 }
 
-+ (Class);
++ (Class)setPersistentStoreCoordinator: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
@@ -103,17 +100,7 @@ deprecated (:false
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOPDPlaceRequest *request; // @synthesize request=_request;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

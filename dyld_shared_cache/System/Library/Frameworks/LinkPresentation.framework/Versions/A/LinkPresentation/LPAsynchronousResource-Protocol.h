@@ -5,5 +5,6 @@
 //
 
 @protocol LPAsynchronousResource
+- (_Bool);
 @end
 

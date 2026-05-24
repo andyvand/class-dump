@@ -11,19 +11,19 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)___UIStatusBarCellularNetworkTypeViewAccessibility_super;
++ (void)AXLabelUIAccessibilityTokenBrailleOverride;
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id),;
 - (void);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

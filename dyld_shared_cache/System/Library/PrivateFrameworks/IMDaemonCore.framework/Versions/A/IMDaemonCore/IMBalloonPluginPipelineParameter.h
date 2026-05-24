@@ -6,38 +6,29 @@
 
 #import <IMDaemonCore/IMTextMessagePipelineParameter.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface IMBalloonPluginPipelineParameter : IMTextMessagePipelineParameter
 {
     NSString *_balloonPluginBundleID;
-    NSData *_balloonPluginPayload;
-    NSDictionary *_combinedPayloadAttachmentDictionary;
-    long long _associatedMessageType;
-    struct _NSRange _associatedMessageRange;
 }
 
 + (id)Lo;
-- (void);
-- (void);
-- (void);
+- (void));
+- (void);
+- (void)H;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)_ր;
 - (struct _NSRange);
 - (void)c}s] resuming execution;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *associatedMessageGUID;
-@property(nonatomic) struct _NSRange associatedMessageRange; // @synthesize associatedMessageRange=_associatedMessageRange;
-@property(nonatomic) long long associatedMessageType; // @synthesize associatedMessageType=_associatedMessageType;
 @property(copy, nonatomic) NSString *balloonPluginBundleID; // @synthesize balloonPluginBundleID=_balloonPluginBundleID;
-@property(copy, nonatomic) NSData *balloonPluginPayload; // @synthesize balloonPluginPayload=_balloonPluginPayload;
-@property(copy, nonatomic) NSDictionary *combinedPayloadAttachmentDictionary; // @synthesize combinedPayloadAttachmentDictionary=_combinedPayloadAttachmentDictionary;
 
 @end
 

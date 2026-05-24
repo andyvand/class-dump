@@ -4,33 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NUVersion;
+@class NSNumber, NUVersion;
 
 @protocol NUSemanticStyleProperties
+- (double);
+- (NUVersion *)lid bit string bits left;
 - (NSNumber *)_evaluateVideo] failed to get new composition;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *baseGain;
-@property(readonly, nonatomic) double baselineExposure;
-@property(readonly, nonatomic) NSNumber *brightness;
-@property(readonly, copy, nonatomic) NSDictionary *extendedStats;
-@property(readonly, nonatomic) NSNumber *faceBasedGlobalExposureBoostRatio;
-@property(readonly, copy, nonatomic) NSData *globalToneCurveData;
-@property(readonly, nonatomic) _Bool isVideo;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 keyTime;
-@property(readonly, copy, nonatomic) NSData *lightMapData;
-@property(readonly, nonatomic) NSNumber *lightMapHeight;
-@property(readonly, nonatomic) NSNumber *lightMapWidth;
-@property(readonly, nonatomic) NSNumber *linearGain;
-@property(readonly, copy, nonatomic) NSData *linearLightMapData;
-@property(readonly, nonatomic) NSNumber *linearRangeMax;
-@property(readonly, nonatomic) NSNumber *linearRangeMin;
-@property(readonly, nonatomic) NSNumber *sceneType;
-@property(readonly, copy, nonatomic) NSDictionary *stats;
-@property(readonly, copy, nonatomic) NSData *styleData;
-@property(readonly, nonatomic) _Bool styleDataIsFloat16;
-@property(readonly, copy, nonatomic) NSNumber *subjectRelightingValue;
-@property(readonly, nonatomic) NSNumber *tuningType;
 @property(readonly, nonatomic) NUVersion *version;
 @end
 

@@ -7,11 +7,10 @@
 @interface NewsFeed.DebugFormatCanvasPriorityView
 {
     id priority;
-    id notchViews;
 }
 
 - (id);
-- (void);
+- (void)ccurred while writing;
 - (id);
 - (void)A=:PR /* Error: Ran out of types for this method. */;
 

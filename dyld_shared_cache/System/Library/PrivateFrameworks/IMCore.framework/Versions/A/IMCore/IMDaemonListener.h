@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString;
-
 @interface IMDaemonListener
 {
 }
 
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ype=%@ mixingMediaType=%@;
+- (_Bool)VCVideoStream [%s] %s:%d Error initializing... no results dict /* Error: Ran out of types for this method. */;
+- (void)rame seq[%d] energyInfo.rms[%f] energyInfo.RMSAvg[%f];
+- (unsigned long long)layer:Failed initializing Crossfade /* Error: Ran out of types for this method. */;
+- (unsigned int)oPlayer [%s] %s:%d Invalid number of channels[%d] /* Error: Ran out of types for this method. */;
+- (_Bool)ice:didStartConnectionBlock:strongSelf == nil /* Error: Ran out of types for this method. */;
+- (void)picker;
+- (id)s] %s:(id)arg1 %d Ignoring redundancy controller callback for controller=%@, current controller=%@, streamGroupMode=%u;
+- (void)] %s:(id)arg1 %d streamID=%d is the highest temporal tier within max=%d;
+- (void)ctoryURL=%@ is unsupported with a non-local request mode=%hhu;
+- (id)Enabled=%d message;
+- (id)d media packet length to retransmitted media bit rate summer, err=%d;
+- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (unsigned int);
-- (_Bool);
-- (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -37,26 +35,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *_contexts;
-@property(nonatomic, setter=_setHidingDisconnect:) _Bool _hidingDisconnect;
-@property(readonly, nonatomic) NSArray *allServices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPostedSetupComplete;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHoldingChatMessages) _Bool holdingChatMessages;
-@property(readonly, nonatomic) unsigned int myIdleTime;
-@property(readonly, nonatomic) unsigned long long myStatus;
-@property(readonly, nonatomic) NSString *myStatusMessage;
-@property(readonly, nonatomic) NSDictionary *persistentProperties;
-@property(readonly, nonatomic) NSDictionary *properties;
 @property(readonly, nonatomic, getter=isSetupComplete) _Bool setupComplete;
-@property(readonly, nonatomic) _Bool shouldHoldChatMessages;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long vcCapabilities;
 
 @end
 

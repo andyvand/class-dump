@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceInternal_Tundra
 {
     int openRefCount;
-    _Bool usingDevice;
-    int lockedForConfigurationRefCount;
-    NSHashTable *linkedDevices;
-    NSMutableArray *activeReactions;
 }
 
-- (void);
+- (void)_compatibleModelForStoreAtURL: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

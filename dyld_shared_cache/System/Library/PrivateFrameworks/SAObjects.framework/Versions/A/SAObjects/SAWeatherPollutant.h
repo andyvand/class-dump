@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SAWeatherPollutant : SADomainObject
 {
@@ -16,17 +16,15 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)ignored translation model file:(id)arg1;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *amount;
-@property(copy, nonatomic) NSString *localizedDescription;
-@property(copy, nonatomic) NSString *name;
 
 @end
 

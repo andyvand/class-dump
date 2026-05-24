@@ -7,14 +7,6 @@
 @interface BWSpringSimulation
 {
     double _tension;
-    double _friction;
-    double _convergedSpeed;
-    double _inputValue;
-    double _outputValue;
-    double _velocity;
-    double _previousForce;
-    _Bool _completed;
-    int _updateCount;
 }
 
 + (void)eFileSinkNode _driveStateMachineWithPauseMarkerBuffer:forInputIndex:inputStagingQueue:sampleBufferAlreadyAtHeadOfQueue:] /* Error: Ran out of types for this method. */;
@@ -22,25 +14,19 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)6(;
 - (double);
 - (double);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)withTransformers: /* Error: Ran out of types for this method. */;
 - (double);
 - (int);
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCompleted) _Bool completed; // @synthesize completed=_completed;
-@property(nonatomic) double friction; // @synthesize friction=_friction;
 @property(nonatomic) double input; // @synthesize input=_inputValue;
-@property(readonly, nonatomic) double output; // @synthesize output=_outputValue;
-@property(nonatomic) double tension; // @synthesize tension=_tension;
-@property(readonly, nonatomic) int updateCount; // @synthesize updateCount=_updateCount;
-@property(readonly, nonatomic) double velocity; // @synthesize velocity=_velocity;
 
 @end
 

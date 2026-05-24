@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface IKImageCellReservedIvars
 {
     id _cellParent;
-    id _concreteInstance;
-    id _cellSource;
-    id _proxy;
-    unsigned long long _dataSourceIndex;
-    NSString *_sourceUID;
-    int _lastRenderedSize;
-    unsigned int _datasourceParsed:1;
-    unsigned int _datasourceIsVectorial:1;
-    unsigned int _contentCanBePlayed:1;
-    float _alpha;
-    NSMutableDictionary *_properties;
 }
 
 - (void)8{CGPoint=dd}52;

@@ -6,34 +6,28 @@
 
 #import <KnowledgeGraphKit/MAElementFilter.h>
 
-@class KGNodeFilter, MARelation;
+@class KGNodeFilter;
 
 @interface MANodeFilter : MAElementFilter
 {
     _Bool _whereNoInAndOutEdges;
-    _Bool _whereNoOutEdges;
-    _Bool _whereNoInEdges;
 }
 
 + (_Bool);
 + (id);
+- (_Bool)elegate";
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)_backgroundContentURL;
+- (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)q;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) KGNodeFilter *kgNodeFilter;
-@property(readonly, nonatomic) MARelation *relation;
-@property(nonatomic) _Bool whereNoInAndOutEdges; // @synthesize whereNoInAndOutEdges=_whereNoInAndOutEdges;
-@property(nonatomic) _Bool whereNoInEdges; // @synthesize whereNoInEdges=_whereNoInEdges;
-@property(nonatomic) _Bool whereNoOutEdges; // @synthesize whereNoOutEdges=_whereNoOutEdges;
 
 @end
 

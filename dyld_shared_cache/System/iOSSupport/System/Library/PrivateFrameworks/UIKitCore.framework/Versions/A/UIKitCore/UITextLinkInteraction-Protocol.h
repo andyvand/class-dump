@@ -5,5 +5,11 @@
 //
 
 @protocol UITextLinkInteraction
+- (_Bool);
+- (void);
+
+@optional
+- (_Bool)num texture instructions;
+- (void)createDiscontinuedAccount;
 @end
 

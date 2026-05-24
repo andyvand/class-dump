@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObject, NSMutableSet, NSString;
+@class NSManagedObject;
 
 __attribute__((visibility("hidden")))
 @interface _NSNotifyingWrapperMutableSet
 {
     NSManagedObject *_container;
-    NSString *_key;
-    NSMutableSet *_mutableSet;
 }
 
 + (Class)t read entity into shell:Missing entity frontside delimiter /* Error: Ran out of types for this method. */;
@@ -27,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)J;
 - (id);
 - (void);
 - (_Bool);
@@ -37,9 +35,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id)_removeObsoleteKeysFromDictionary:(id)arg1;
 - (id);
-- (id);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (void);

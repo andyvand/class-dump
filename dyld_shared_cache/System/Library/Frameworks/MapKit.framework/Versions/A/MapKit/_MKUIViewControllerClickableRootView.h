@@ -6,12 +6,9 @@
 
 #import <MapKit/_MKUIViewControllerRootView.h>
 
-@class NSInvocation;
-
 @interface _MKUIViewControllerClickableRootView : _MKUIViewControllerRootView
 {
     _Bool _trackingClick;
-    NSInvocation *_actionInvocation;
 }
 
 - (void);

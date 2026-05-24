@@ -4,9 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDate;
+@protocol EDPersistedMessage;
+
 @protocol EDMessageChangeHookResponder
 
 @optional
+- (void);
+- (void);
+- (void);
+- (void)redactedGraphHelperWithRedactedGraph:(id <EDPersistedMessage>)arg1 redactedList:(NSDate *)arg2 visitedNodes:(long long)arg3 fromNode:successors:vocabManager: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)FigEndpointStreamRef, Boolean);
+- (void)n_createPairingClient(APSenderSessionRef, Boolean, Boolean, Boolean, Boolean, CFStringRef, CFDataRef, APPairingClientRef *);
+- (void)usageRank;
 - (void)´Ð1Â0@ù
 × ;
 @end

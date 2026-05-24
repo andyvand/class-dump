@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BridgeOSInstallDownloader, NSObject, NSString, SUCoreLog;
-@protocol OS_dispatch_queue;
+@class NSString, SUCoreLog;
 
 @interface SUMacControllerBridgeOSManager
 {
     NSString *_uuid;
-    BridgeOSInstallDownloader *_downloader;
-    SUCoreLog *_logger;
-    NSObject<OS_dispatch_queue> *_operationQueue;
-    NSObject<OS_dispatch_queue> *_completionQueue;
 }
 
 + (void);
@@ -38,11 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(readonly, retain, nonatomic) BridgeOSInstallDownloader *downloader; // @synthesize downloader=_downloader;
 @property(readonly, retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

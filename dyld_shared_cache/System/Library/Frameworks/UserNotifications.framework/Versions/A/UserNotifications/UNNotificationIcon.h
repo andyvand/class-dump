@@ -7,8 +7,6 @@
 @interface UNNotificationIcon
 {
     id _iconInfo;
-    long long _iconInfoType;
-    _Bool _shouldSuppressMask;
 }
 
 + (id);
@@ -19,10 +17,10 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
@@ -31,10 +29,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)__AUTH_CONST;
+- (id)!;
 - (id);
 - (id);
 - (id);

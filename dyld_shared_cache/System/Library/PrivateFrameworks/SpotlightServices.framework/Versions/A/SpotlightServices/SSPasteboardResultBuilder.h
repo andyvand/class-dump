@@ -6,13 +6,11 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSDate, NSString, UTType;
+@class NSString;
 
 @interface SSPasteboardResultBuilder : SSResultBuilder
 {
     NSString *_copiedText;
-    NSDate *_dateCopied;
-    UTType *_contentType;
 }
 
 + (_Bool);
@@ -20,33 +18,31 @@
 - (void);
 - (void);
 - (id);
+- (id)symbolicTraits;
+- (id)streamingURL;
+- (id)setPulsingLoadIndicatorTimingFunction: /* Error: Ran out of types for this method. */;
+- (id)setPulsingLoadIndicatorTimingFunction: /* Error: Ran out of types for this method. */;
+- (id)setOverrideAllowOpeningSensitiveURLs: /* Error: Ran out of types for this method. */;
+- (id)setOnlyShowIcon: /* Error: Ran out of types for this method. */;
+- (id)setObject:forKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (id)setMessagesAppIcon: /* Error: Ran out of types for this method. */;
+- (id)setMenuMinimumWidth: /* Error: Ran out of types for this method. */;
+- (id)setMenuBackgroundColor: /* Error: Ran out of types for this method. */;
+- (id)setMediaOverlayIcon: /* Error: Ran out of types for this method. */;
+- (id)setMediaFixedAspectRatio: /* Error: Ran out of types for this method. */;
+- (id)setMediaBottomCaptionBar: /* Error: Ran out of types for this method. */;
+- (_Bool)setMaterial: /* Error: Ran out of types for this method. */;
+- (id)setMasksToBounds: /* Error: Ran out of types for this method. */;
+- (id)reasonForWaitingToPlay;
+- (id)rangeAtIndex:(id)arg1;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)aleId:defaultValue: /* Error: Ran out of types for this method. */;
+- (void)getLocaleId:defaultValue: /* Error: Ran out of types for this method. */;
 - (void)ntRestaurantEvent;
 
 // Remaining properties
-@property(retain, nonatomic) UTType *contentType; // @synthesize contentType=_contentType;
 @property(retain, nonatomic) NSString *copiedText; // @synthesize copiedText=_copiedText;
-@property(retain, nonatomic) NSDate *dateCopied; // @synthesize dateCopied=_dateCopied;
 
 @end
 

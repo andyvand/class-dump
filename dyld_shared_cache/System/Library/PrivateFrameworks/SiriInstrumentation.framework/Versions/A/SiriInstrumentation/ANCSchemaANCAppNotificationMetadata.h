@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ANCSchemaANCAppNotificationMetadata : SISchemaInstrumentationMessage
 {
     int _commsNotificationType;
-    _Bool _isSmsEligible;
-    _Bool _isAskWithSiriEnabled;
-    struct {
-        unsigned int commsNotificationType:1;
-        unsigned int isSmsEligible:1;
-        unsigned int isAskWithSiriEnabled:1;
-    } _has;
 }
 
 - (void);
@@ -29,30 +20,25 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)hardwareRevision:(id)arg1 %@ 
+;
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id)TaskAbandonCountInUsingApp28Days: /* Error: Ran out of types for this method. */;
+- (id)(;
+- (id)setTaskAbandonCountInUsingApp28Days: /* Error: Ran out of types for this method. */;
 - (id)©H©;
-- (id)ARTY_BLUETOOTH;
+- (id)TTSAUDIOOUTPUTROUTE_THIRD_PARTY_BLUETOOTH;
 
 // Remaining properties
 @property(nonatomic) int commsNotificationType; // @synthesize commsNotificationType=_commsNotificationType;
-@property(nonatomic) _Bool hasCommsNotificationType;
-@property(nonatomic) _Bool hasIsAskWithSiriEnabled;
-@property(nonatomic) _Bool hasIsSmsEligible;
-@property(nonatomic) _Bool isAskWithSiriEnabled; // @synthesize isAskWithSiriEnabled=_isAskWithSiriEnabled;
-@property(nonatomic) _Bool isSmsEligible; // @synthesize isSmsEligible=_isSmsEligible;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

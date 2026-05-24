@@ -7,10 +7,9 @@
 @interface NewsUI2.RecentSearchManager
 {
     id searchRecentsDataSource;
-    id observers;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 

@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchPreferredCategory
 {
     NSString *_categoryId;
-    float _score;
-    CDStruct_f58e6c32 _flags;
 }
 
 - (id);
-- (void);
+- (void)dle found for settings class '%@' at path %@;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)`";
 - (id)ource"b1};
-- (id)ivacyFilterType;
+- (id)_privacyFilterType;
 - (id)ü;
 - (void)b¯èÖ¹H@;
 

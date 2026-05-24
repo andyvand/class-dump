@@ -7,28 +7,22 @@
 @interface AVSemanticStyle
 {
     float _toneBias;
-    float _warmthBias;
-    unsigned long long _hash;
-    float _subjectBias;
 }
 
 + (id);
 + (id);
-- (float);
-- (float);
-- (float);
-- (float);
-- (id);
+- (float)stringForFactor: /* Error: Ran out of types for this method. */;
+- (float)setLyricsLineKey: /* Error: Ran out of types for this method. */;
+- (float)setAlternateButtonTitle: /* Error: Ran out of types for this method. */;
+- (float)initWithTimeout: /* Error: Ran out of types for this method. */;
+- (id)ection] <%p> Header did not contain valid message type %{public}@;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) float sceneBias;
 @property(readonly, nonatomic) float subjectBias; // @synthesize subjectBias=_subjectBias;
-@property(readonly, nonatomic) float toneBias; // @synthesize toneBias=_toneBias;
-@property(readonly, nonatomic) float warmthBias; // @synthesize warmthBias=_warmthBias;
 
 @end
 

@@ -9,10 +9,6 @@
 @interface PXGVideoSessionPixelBufferSource
 {
     NSString *_bufferRequestIdentifier;
-    CDUnknownBlockType _pixelBufferDidChangeHandler;
-    CDUnknownBlockType _providePlaceholderHandler;
-    PXVideoSession *_videoSession;
-    struct CGSize _maxOutputSize;
 }
 
 - (id);
@@ -28,22 +24,9 @@
 - (id);
 - (void)Core.PXLibraryFilterObservableViewMode;
 - (struct CGAffineTransform);
-- (void)tionedFeedProvider;
+- (void)LemonadeBasicSectionedFeedProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CVBuffer *currentPixelBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize maxOutputSize; // @synthesize maxOutputSize=_maxOutputSize;
-@property(copy, nonatomic) CDUnknownBlockType pixelBufferDidChangeHandler; // @synthesize pixelBufferDidChangeHandler=_pixelBufferDidChangeHandler;
-@property(readonly, nonatomic) struct CGAffineTransform preferredTransform;
-@property(copy, nonatomic) CDUnknownBlockType providePlaceholderHandler; // @synthesize providePlaceholderHandler=_providePlaceholderHandler;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double suppressContentsRect;
 @property(readonly, nonatomic) PXVideoSession *videoSession; // @synthesize videoSession=_videoSession;
 
 @end

@@ -7,8 +7,6 @@
 @interface ChronoKit.EnvironmentProvider
 {
     id _environmentDidChangePublisher;
-    id _lock;
-    id _lock_environmentValues;
 }
 
 @end

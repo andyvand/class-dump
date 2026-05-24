@@ -8,8 +8,6 @@
 {
     id _cRoomTrackingProvider;
     id _cRoomTrackingConfiguration;
-    id anchorUpdateIterators;
-    id anchorQueue;
 }
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-- (long long);
+- (long long)_convertAXFTextRange:(id)arg1 toParagraphRange:(id)arg2 rangeLimit:(id *)arg3;
 - (long long);
 - (long long);
 

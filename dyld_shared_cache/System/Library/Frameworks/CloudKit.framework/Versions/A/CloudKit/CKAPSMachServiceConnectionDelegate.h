@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, CKAPSMachServiceConnectionKey, NSString;
+@class APSConnection;
 
 @interface CKAPSMachServiceConnectionDelegate
 {
     APSConnection *_connection;
-    CKAPSMachServiceConnectionKey *_key;
 }
 
 - (id);
@@ -21,22 +20,14 @@
 - (void);
 - (void);
 - (void);
-- (void)ndler:(id)arg1;
-- (void)y:(id)arg1 error:(id)arg2;
+- (void)getRegisteredItemCountWithCompletionHandler:(id)arg1;
+- (void)hasEntry:(id)arg1 error:(id)arg2;
 - (void)xJ;
 - (void)d not find asset or package in field %@ and index %ld of record %@;
 - (void)property %@ in %@ is not allowed"); ;
 
 // Remaining properties
 @property(nonatomic) __weak APSConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CKAPSMachServiceConnectionKey *key; // @synthesize key=_key;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol GCAxisInput, GCRelativeInput;
+@protocol GCAxisInput;
 
 @protocol GCAxisElement
 
 // Remaining properties
 @property(readonly) id <GCAxisInput> absoluteInput;
-@property(readonly) id <GCRelativeInput> relativeInput;
 @end
 

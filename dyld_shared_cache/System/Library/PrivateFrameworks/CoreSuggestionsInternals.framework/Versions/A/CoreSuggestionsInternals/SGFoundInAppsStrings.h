@@ -10,10 +10,10 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)t<OS_dispatch_semaphore>";
++ (id)i24^v28;
++ (id)@28@?36@?44;
++ (id)tupManagerViewController";
 
 @end
 

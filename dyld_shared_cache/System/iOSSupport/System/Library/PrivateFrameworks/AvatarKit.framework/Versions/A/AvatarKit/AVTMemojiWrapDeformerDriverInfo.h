@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVTMemojiWrapDeformerDriverInfo
 {
     NSMutableDictionary *_driverNodes;
-    NSMutableDictionary *_driverStates;
 }
 
 - (id);

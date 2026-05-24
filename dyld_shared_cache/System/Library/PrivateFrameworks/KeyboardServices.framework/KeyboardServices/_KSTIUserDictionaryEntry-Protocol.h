@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol _KSTIUserDictionaryEntry
 
 // Remaining properties
 @property(copy, nonatomic) NSString *phrase;
-@property(copy, nonatomic) NSString *shortcut;
-@property(retain, nonatomic) NSDate *timestamp;
 @end
 

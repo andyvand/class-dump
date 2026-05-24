@@ -4,49 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteEntryQuery
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_completion;
-    NSMutableArray *_resultRefinements;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _tapBehavior;
-    _Bool _queryHasAttributeIntentsInRefinements;
-    _Bool _showIntermediateStateTapBehaviorListView;
-    struct {
-        unsigned int has_tapBehavior:1;
-        unsigned int has_queryHasAttributeIntentsInRefinements:1;
-        unsigned int has_showIntermediateStateTapBehaviorListView:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_completion:1;
-        unsigned int read_resultRefinements:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)urce:(id)arg1;
++ (Class)O;
++ (_Bool)setHasWaypointLocationSource:(id)arg1;
 - (id);
 - (int);
 - (_Bool);
+- (void)%;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,15 +34,15 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)Zb;
+- (id)CSCoreSpeechDaemonStateMonitor;
+- (void)on:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -80,18 +60,7 @@
 - (void)(;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *completion;
 @property(readonly, nonatomic) _Bool hasCompletion;
-@property(nonatomic) _Bool hasQueryHasAttributeIntentsInRefinements;
-@property(nonatomic) _Bool hasShowIntermediateStateTapBehaviorListView;
-@property(readonly, nonatomic) _Bool hasStyleAttributes;
-@property(nonatomic) _Bool hasTapBehavior;
-@property(nonatomic) _Bool queryHasAttributeIntentsInRefinements;
-@property(retain, nonatomic) NSMutableArray *resultRefinements;
-@property(nonatomic) _Bool showIntermediateStateTapBehaviorListView;
-@property(retain, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(nonatomic) int tapBehavior;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

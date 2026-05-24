@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, VCDurationHistogram;
-
 __attribute__((visibility("hidden")))
 @interface VCDataMLEnhance
 {
     int _thermalLevel;
-    BOOL _mlEnhanceStatus;
-    _Bool _mlEnhanceLastEnabledReport;
-    NSMutableDictionary *_resolutionDurations;
-    VCDurationHistogram *_totalActiveDuration;
 }
 
 - (void);
@@ -33,14 +27,7 @@ __attribute__((visibility("hidden")))
 - (BOOL);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) BOOL status;
-@property(readonly) Class superclass;
 
 @end
 

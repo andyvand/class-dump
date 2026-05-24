@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
+@class NSMutableDictionary;
 
 @interface PLEntry
 {
     _Bool _existsInDB;
-    _Bool _isErrorEntry;
-    _Bool _writeToDB;
-    NSMutableDictionary *_dictionary;
-    NSDictionary *_entryDefinition;
-    NSDate *_entryDate;
-    NSString *_entryKey;
-    long long _entryID;
-    NSObject<OS_dispatch_semaphore> *_sem;
 }
 
 + (id);
@@ -30,25 +21,25 @@
 + (id);
 + (void)y block end;
 - (_Bool);
+- (id)9;
 - (id);
-- (id);
-- (int);
+- (int);;
+- (void);
+- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id)B;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -61,7 +52,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)CH;
 - (id);
 - (void);
 - (short);
@@ -79,9 +70,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)e=dd}}32;
 - (id);
-- (id);
+- (id)ayName:%s, age:%ld, altDSID:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -91,31 +82,13 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
+- (id);
+- (id)h;
 - (void);
 - (id)pEntryCache:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *DMAKeys;
-@property(readonly) NSArray *arrayKeys;
-@property(readonly) NSArray *definedKeys;
 @property(retain) NSMutableDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly) NSArray *dynamicKeys;
-@property(retain, nonatomic) NSDate *entryDate; // @synthesize entryDate=_entryDate;
-@property(retain, nonatomic) NSDictionary *entryDefinition; // @synthesize entryDefinition=_entryDefinition;
-@property(nonatomic) long long entryID; // @synthesize entryID=_entryID;
-@property(retain, nonatomic) NSString *entryKey; // @synthesize entryKey=_entryKey;
-@property _Bool existsInDB; // @synthesize existsInDB=_existsInDB;
-@property(readonly) _Bool hasArrayKeys;
-@property(readonly) _Bool hasDMAKeys;
-@property(readonly) _Bool hasDynamicKeys;
-@property _Bool isErrorEntry; // @synthesize isErrorEntry=_isErrorEntry;
-@property(readonly) NSMutableArray *keys;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *sem; // @synthesize sem=_sem;
-@property(readonly) id subEntryKey;
-@property(readonly, getter=allValues) NSMutableArray *values;
-@property _Bool writeToDB; // @synthesize writeToDB=_writeToDB;
 
 @end
 

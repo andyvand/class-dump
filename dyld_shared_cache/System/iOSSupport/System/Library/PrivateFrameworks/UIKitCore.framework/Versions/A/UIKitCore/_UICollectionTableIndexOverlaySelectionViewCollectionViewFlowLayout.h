@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     double _rightMarginForDoneButton;
 }
 
-+ (Class): /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (double);
-- (struct CGRect);
++ (Class)appendBool:withName: /* Error: Ran out of types for this method. */;
+- (void)unarchivedDictionaryWithKeysOfClass:(double)arg1 objectsOfClass:fromData:error: /* Error: Ran out of types for this method. */;
+- (void)requestTranscriptBackgroundIfNecessary:(struct CGRect)arg1 incomingVersion:toIdentifier:fromIdentifier:messageIsFromStorage: /* Error: Ran out of types for this method. */;
+- (double)idsAccountsDidChange;
+- (struct CGRect)ray",&,N,V_sentToDevices;
 - (id)ing *getIAPayloadKeySmartRepliesSelectedIntent(void);
 - (id)$e`;
 

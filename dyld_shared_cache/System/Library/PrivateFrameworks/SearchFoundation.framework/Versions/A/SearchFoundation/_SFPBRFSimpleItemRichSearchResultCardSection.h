@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSimpleItemRichSearchResultCardSection
 {
     _SFPBRFTextProperty *_text_1;
-    _SFPBRFTextProperty *_text_2;
-    NSArray *_text_3s;
-    _SFPBRFTextProperty *_text_4;
-    NSArray *_text_5s;
-    _SFPBRFTextProperty *_text_6;
-    _SFPBRFTextProperty *_text_7;
-    _SFPBRFTextProperty *_text_8;
-    _SFPBRFVisualProperty *_thumbnail;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
@@ -30,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -44,38 +36,22 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)kPageShadowsOffsetShadow2;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)removeObjectsInArray:(id)arg1;
+- (id)thorized fetch result;
 - (id);
 - (id);
 - (id);
 - (void)Item"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2; // @synthesize text_2=_text_2;
-@property(copy, nonatomic) NSArray *text_3s; // @synthesize text_3s=_text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4; // @synthesize text_4=_text_4;
-@property(copy, nonatomic) NSArray *text_5s; // @synthesize text_5s=_text_5s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_6; // @synthesize text_6=_text_6;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_7; // @synthesize text_7=_text_7;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_8; // @synthesize text_8=_text_8;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

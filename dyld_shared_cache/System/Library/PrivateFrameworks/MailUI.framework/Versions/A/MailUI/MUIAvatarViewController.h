@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarViewController, MUIAvatarImageContext, NSString, NSView;
-@protocol EFCancelable;
+@class CNAvatarViewController, NSView;
 
 @interface MUIAvatarViewController
 {
     NSView *_view;
-    CNAvatarViewController *_avatarViewController;
-    id <EFCancelable> _token;
-    MUIAvatarImageContext *_context;
 }
 
 + (id);
@@ -27,21 +23,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)ctAtIndexedSubscript: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)objectAtIndexedSubscript: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) MUIAvatarImageContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <EFCancelable> token; // @synthesize token=_token;
-@property(readonly, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end
 

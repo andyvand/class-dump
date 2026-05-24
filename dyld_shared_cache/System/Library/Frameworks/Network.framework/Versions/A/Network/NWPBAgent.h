@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NWPBAgentClass;
+@class NWPBAgentClass;
 
 __attribute__((visibility("hidden")))
 @interface NWPBAgent
 {
     NWPBAgentClass *_agentClass;
-    NSData *_agentData;
-    NSString *_agentDescription;
-    NSString *_agentIdentifier;
-    _Bool _active;
-    _Bool _networkProvider;
-    _Bool _nexusProvider;
-    _Bool _userActivated;
-    _Bool _voluntary;
-    struct {
-        unsigned int active:1;
-        unsigned int networkProvider:1;
-        unsigned int nexusProvider:1;
-        unsigned int userActivated:1;
-        unsigned int voluntary:1;
-    } _has;
 }
 
 - (id);
@@ -32,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)hURL:(struct _NSZone *)arg1 delegate:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_dataTaskWithURL:(struct _NSZone *)arg1 delegate:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)À	;
 - (void)@;
 

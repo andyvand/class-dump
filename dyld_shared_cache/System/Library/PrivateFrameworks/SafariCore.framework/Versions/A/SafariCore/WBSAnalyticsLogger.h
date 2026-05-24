@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSAnalyticsLogger
 {
     NSObject<OS_dispatch_queue> *_analyticsSynchronizationQueue;
-    long long _persona;
-    NSString *_safariVersion;
-    NSString *_perSitePreferencesPopoverLocation;
-    _Bool _safariReportedNonOtherBlockingReason;
-    long long _safariQuitReason;
-    _Bool _safariIsTerminating;
 }
 
 + (id);

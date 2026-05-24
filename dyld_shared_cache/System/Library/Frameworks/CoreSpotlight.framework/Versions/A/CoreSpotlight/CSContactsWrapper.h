@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CSContactsWrapper
 {
 }
@@ -20,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *CNContactEmailAddressesKeyString;
 @property(readonly, nonatomic) Class CNContactPropertyClass;
 
 @end

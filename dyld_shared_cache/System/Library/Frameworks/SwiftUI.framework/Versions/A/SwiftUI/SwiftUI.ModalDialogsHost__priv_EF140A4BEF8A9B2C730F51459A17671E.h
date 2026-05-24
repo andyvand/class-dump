@@ -7,14 +7,6 @@
 @interface SwiftUI.ModalDialogsHost__priv_EF140A4BEF8A9B2C730F51459A17671E
 {
     id viewGraph;
-    id eventBindingManager;
-    id currentTimestamp;
-    id valuesNeedingUpdate;
-    id renderingPhase;
-    id externalUpdateCount;
-    id dialogBridge;
-    id rootView;
-    id environment;
 }
 
 @end

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISUIScrollViewVitalityController;
-@protocol UIScrollViewDelegate;
-
 @interface UnknownClass (ISScrollViewVitalityController)
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (void)=dd}},N,V_presentationFrame;
+- (id)N,V_cachedDirection;
+- (id)xpansionMode;
+- (id)bilityFactor;
+- (void)nMargin;
+- (_Bool)wsletterSubscriptionStatus;
 
 // Remaining properties
 @property(nonatomic) _Bool canDriveVitality;
-@property(readonly, nonatomic) id <UIScrollViewDelegate> is_scrollViewDelegate;
-@property(readonly, nonatomic) ISUIScrollViewVitalityController *is_vitalityController;
 @end
 

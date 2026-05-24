@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PXStoryClipLayout;
+
 @protocol PXStoryTransitionSource
+- (PXStoryClipLayout *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect transitionViewport;

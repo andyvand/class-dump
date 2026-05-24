@@ -6,21 +6,17 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface RAWEdgeSharpen : RAWFilter
 {
     CIImage *inputImage;
-    id inputColorSpace;
-    NSNumber *inputPreSharpenAmount;
-    NSNumber *inputPreSharpenBlurAmount;
-    NSNumber *inputVersion;
 }
 
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

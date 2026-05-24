@@ -9,8 +9,6 @@
 @interface TeaUI.JSONSchemaValueObject : TeaUI.JSONSchemaValue
 {
     id object;
-    id _value;
-    id _$observationRegistrar;
 }
 
 @end

@@ -5,20 +5,15 @@
 //
 
 @protocol LPInProcessMediaPlayable
+- (_Bool)unregisterPhotoLibraryPersistenceManagerSession: /* Error: Ran out of types for this method. */;
+- (_Bool)unarchiveFromData:error: /* Error: Ran out of types for this method. */;
+
+@optional
+- (double)unsubscribeAlertControllerActionHandler;
+- (_Bool)transcriptTextColor;
+- (unsigned long long)transcriptDockingMaximumBalloonHeight;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;
-@property(readonly, nonatomic, getter=isFullScreen) _Bool fullScreen;
-@property(readonly, nonatomic) unsigned long long lastInteractionTimestamp;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic, getter=isMuted) _Bool muted;
-@property(readonly, nonatomic) _Bool shouldUnmuteWhenUserAdjustsVolume;
-@property(readonly, nonatomic) double unobscuredAreaFraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool usesSharedAudioSession;
 @end
 

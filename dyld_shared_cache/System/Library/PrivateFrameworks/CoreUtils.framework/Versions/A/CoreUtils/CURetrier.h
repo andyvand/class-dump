@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface CURetrier
 {
     _Bool _invalidateCalled;
-    NSObject<OS_dispatch_source> *_retryTimer;
-    CDUnknownBlockType _actionHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    double _interval;
-    double _leeway;
-    CDUnknownBlockType _invalidationHandler;
-    double _startTime;
 }
 
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
@@ -32,23 +22,18 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (CDUnknownBlockType);
+- (void)P;
+- (double)setTemporalWeighting: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (double);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)reason;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) double interval; // @synthesize interval=_interval;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(nonatomic) double leeway; // @synthesize leeway=_leeway;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end
 

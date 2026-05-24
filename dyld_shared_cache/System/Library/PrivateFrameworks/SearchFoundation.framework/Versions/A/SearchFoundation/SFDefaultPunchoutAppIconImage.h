@@ -6,58 +6,32 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSData, NSDictionary, NSString, SFPunchout;
+@class SFPunchout;
 
 @interface SFDefaultPunchoutAppIconImage : SFImage
 {
     SFPunchout *_punchout;
-    NSString *_coreSpotlightIdentifier;
-    NSString *_fileProviderIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)';
+- (id)respondWithData:(id)arg1;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)ibrary/Components/CoreAudio.component/Contents/SharedSupport/SystemSounds;
+- (id)PLSortedChangedObjects";
+- (id)PHQueryForCollectionsInFolder_block_invoke_5;
 - (id);
 - (id);
 - (void)atchInTextContent;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *fileProviderIdentifier; // @synthesize fileProviderIdentifier=_fileProviderIdentifier;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
 @property(retain, nonatomic) SFPunchout *punchout; // @synthesize punchout=_punchout;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
 
 @end
 

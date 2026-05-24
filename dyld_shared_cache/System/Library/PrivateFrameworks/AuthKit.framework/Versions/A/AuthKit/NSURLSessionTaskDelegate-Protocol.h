@@ -10,7 +10,9 @@
 
 @optional
 - (void);
-- (void)dleId;
+- (void)17IAOrderedStorable;
+- (void);
+- (void)_bundleId;
 - (void)[mÀ{¿HZuÎõCöþÑè®/BåPÇjµ^ó,Ö{¤	Oâ=:(NSURLSession *)arg1 Hå£Ñ|+Yô²Àm¿`Í&ùT®qÜ7èEïB0vÛ©þS!gÊ¸ ÿR¹fË1îC¨wÚpÝ¯éD6aÌ¾øU'Xõ*Ál³Iä;Ð}¢¥×z<Nã´Æk-_òGê5Þs¬Vû$Ïb½ºÈe#Qü«Ùt2@í?àM¦yÔ.ñ\·hÅoÂ°ö[)~Ó¡çJ8 Ò9æK±nÃ(÷Zð]/iÄ¶áL>xÕ
 §ØuªAì3Éd»Pý"%Wú¼Îc4Fë­;
 - (void)ø	ý0f?YªÖüá÷ÞîÇºðF_¾Z£øT~["`ò8òÚþ@¬¤&÷&DvCKö-`¥Â :(NSURLSession *)arg1 DA¦;

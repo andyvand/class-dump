@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBString;
+@class _INPBString;
 
 @interface _INPBCopyFileIntent
 {
@@ -13,19 +13,11 @@
         unsigned int entityType:1;
         unsigned int sourceType:1;
     } _has;
-    int _destinationType;
-    int _entityType;
-    int _sourceType;
-    _INPBString *_destinationName;
-    _INPBString *_entityName;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_properties;
-    _INPBString *_sourceName;
 }
 
 + (Class);
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -34,14 +26,14 @@
 - (_Bool);
 - (id);
 - (int);
-- (int);
+- (int)C;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
-- (void);
+- (id)t"@"NSError">24;
+- (int)Library/PrivateFrameworks/UniversalAccess.framework/Frameworks/UniversalAccessCore.framework/Contents/MacOS/UniversalAccessCore;
+- (void)*;
 - (void);
 - (id);
 - (int);
@@ -57,44 +49,22 @@
 - (id);
 - (void);
 - (int);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool):(id)arg1 8@"UNUserNotificationCenter"16@"UNNotificationResponse"24@?<v@?>32;
+- (void)] Unscheduling next check keychain attempt;
 - (id);
 - (id);
-- (void);
-- (_Bool)earchForMediaIntentData;
-- (void)g;
+- (void)c;
+- (_Bool)INPrivateSearchForMediaIntentData;
+- (void)string;
 - (void)¤Ï;
 - (id)ü;
 - (int)NÍ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBString *destinationName; // @synthesize destinationName=_destinationName;
-@property(nonatomic) int destinationType; // @synthesize destinationType=_destinationType;
-@property(retain, nonatomic) _INPBString *entityName; // @synthesize entityName=_entityName;
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(nonatomic) _Bool hasDestinationType;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSourceName;
-@property(nonatomic) _Bool hasSourceType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSArray *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) unsigned long long propertiesCount;
-@property(retain, nonatomic) _INPBString *sourceName; // @synthesize sourceName=_sourceName;
-@property(nonatomic) int sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly) Class superclass;
 
 @end
 

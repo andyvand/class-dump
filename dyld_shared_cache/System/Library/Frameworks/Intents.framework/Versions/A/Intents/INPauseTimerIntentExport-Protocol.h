@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTimer, NSNumber;
+@class INTimer;
 
 @protocol INPauseTimerIntentExport
+- (void);
 
 // Remaining properties
-@property(copy) NSNumber *pauseMultiple;
 @property(copy) INTimer *targetTimer;
 @end
 

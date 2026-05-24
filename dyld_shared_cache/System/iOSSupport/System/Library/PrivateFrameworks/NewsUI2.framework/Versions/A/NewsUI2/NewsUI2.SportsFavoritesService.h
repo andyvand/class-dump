@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsFavoritesService
 {
     id tagService;
-    id appConfigurationManager;
 }
 
 @end

@@ -6,16 +6,11 @@
 
 #import <UIKitCore/UISlider.h>
 
-@class UIImageView, UILabel, UIView, _UIPortalView;
+@class UIView;
 
 @interface _UIPrototypingMenuSlider : UISlider
 {
     _Bool _didBringKnobToFront;
-    double _stepSize;
-    UIView *_knobView;
-    UIImageView *_knobBGView;
-    _UIPortalView *_knobPortal;
-    UILabel *_currentValueLabel;
 }
 
 - (void);
@@ -25,31 +20,26 @@
 - (id);
 - (struct CGPoint);
 - (id);
-- (id);
-- (struct UIEdgeInsets);
-- (void);
+- (id)dMessageGUID:sender: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)_finishSendingMessageItem:chatIdentifier:chatStyle:foundChat:didSendSMS:attemptingReplication:shouldForceFail:watchSendsOverCellular:forceReflection:forceRelay:callerID: /* Error: Ran out of types for this method. */;
+- (void)ion;
 - (void);
 - (double);
 - (id);
 - (void);
-- (void)Disappear;
-- (void)nge:(id)arg1;
-- (struct CGRect)Font:(struct CGRect)arg1;
-- (id);
+- (void)removeTabBarFocusedOnViewDidDisappear;
+- (void)_updateEffectiveUserInterfaceStyleAfterChange:(id)arg1;
+- (struct CGRect)_ui_fontsInRange:(struct CGRect)arg1 usingDefaultFont:(struct CGRect)arg2;
+- (id)_homeItemsDisabled;
 - (float)eedbackCoreHapticsEngine",W,N,V_hapticEngine;
 - (void);
-- (void)nceSceneComponentKey;
+- (void)_UIContextMenuAvoidanceSceneComponentKey;
 - (void); symbol = (%@);
 - (void)ted;
-- (void)GroupID;
+- (void)StorageGroupID;
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *currentValueLabel; // @synthesize currentValueLabel=_currentValueLabel;
-@property(retain, nonatomic) UIImageView *knobBGView; // @synthesize knobBGView=_knobBGView;
-@property(readonly, nonatomic) struct CGPoint knobCenter;
-@property(retain, nonatomic) _UIPortalView *knobPortal; // @synthesize knobPortal=_knobPortal;
 @property(retain, nonatomic) UIView *knobView; // @synthesize knobView=_knobView;
-@property(nonatomic) double stepSize; // @synthesize stepSize=_stepSize;
 
 @end
 

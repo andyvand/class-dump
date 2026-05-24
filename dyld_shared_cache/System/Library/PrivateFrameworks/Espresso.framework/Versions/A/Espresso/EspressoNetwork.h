@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EspressoContext;
-
 @interface EspressoNetwork
 {
     shared_ptr_d082c67d _net;
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) EspressoContext *ctx;
-@property(readonly) unsigned long long layers_size;
 @property(readonly) shared_ptr_d082c67d net; // @synthesize net=_net;
 
 @end

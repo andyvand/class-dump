@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSURL;
+@class NSURL;
 
 @interface PFAppleArchiveStream
 {
     struct AAByteStream_impl *_inputStream;
-    struct AAByteStream_impl *_outputStream;
-    struct AAByteStream_impl *_compressionStream;
-    struct AAByteStream_impl *_encryptionStream;
-    struct AEAContext_impl *_encryptionContext;
-    _Bool _appendToExistingArchive;
-    NSURL *_archiveURL;
-    long long _compression;
-    NSData *_encryptionKey;
-    NSDictionary *_encryptedArchiveMetadata;
-    unsigned long long _blockSize;
 }
 
 - (void);
@@ -39,22 +29,17 @@
 - (void);
 - (long long);
 - (void);
-- (void);
-- (id);
+- (void)_initWithStoreIdentifier:usingEndToEndEncryption: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property _Bool appendToExistingArchive; // @synthesize appendToExistingArchive=_appendToExistingArchive;
 @property(readonly) NSURL *archiveURL; // @synthesize archiveURL=_archiveURL;
-@property unsigned long long blockSize; // @synthesize blockSize=_blockSize;
-@property long long compression; // @synthesize compression=_compression;
-@property(retain) NSDictionary *encryptedArchiveMetadata; // @synthesize encryptedArchiveMetadata=_encryptedArchiveMetadata;
-@property(retain) NSData *encryptionKey; // @synthesize encryptionKey=_encryptionKey;
 
 @end
 

@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface VCTextJitterBuffer
 {
     struct tagVCTextJitterBufferConfiguration _configuration;
-    _Bool _resetRequested;
-    id _delegate;
-    struct JitterPreloadQueue_t *_preloadQueue;
-    struct JitterQueue_t *_jitterQueue;
-    NSObject<OS_dispatch_source> *_heartbeat;
-    unsigned int _lastSequenceNumber;
-    _Bool _firstFrameReceived;
 }
 
 - (void);
@@ -33,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id)e;
+- (void)kAPPolicyKeySource;
+- (id)VCMediaRecorderHistoryBufferDelegate;
 
 @end
 

@@ -4,46 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, NSMutableOrderedSet;
+@class AVObservationController;
 
 __attribute__((visibility("hidden")))
 @interface AVSecondScreenController
 {
     _Bool _allowsUpdatingActiveConnection;
-    AVObservationController *_observationController;
-    NSMutableOrderedSet *_secondScreens;
-    NSMutableOrderedSet *_connections;
 }
 
 + (id)fectView";
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)oundingBox;
+- (void)N14CoreNavigation3CLP8LogEntry11PrivateData17CompassTypeSampleE;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
+- (void)error
+;
+- (void)ion;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)!èFù1[Ð1Â0@ù
 × ;
-- (id)nued;
+- (id)hasContinued;
 - (void),N,V_playbackControlsVisibilityTimer;
 - (void)rubber",R,N,V_scrubber;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsUpdatingActiveConnection; // @synthesize allowsUpdatingActiveConnection=_allowsUpdatingActiveConnection;
-@property(readonly, nonatomic) NSMutableOrderedSet *connections; // @synthesize connections=_connections;
 @property(readonly, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(readonly, nonatomic) NSMutableOrderedSet *secondScreens; // @synthesize secondScreens=_secondScreens;
 
 @end
 

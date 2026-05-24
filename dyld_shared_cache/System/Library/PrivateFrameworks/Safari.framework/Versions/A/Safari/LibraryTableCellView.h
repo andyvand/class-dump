@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSLayoutConstraint, NSString;
-@protocol LibraryTableCellViewDelegate;
+@class NSButton, NSString;
 
 __attribute__((visibility("hidden")))
 @interface LibraryTableCellView
 {
     NSString *_titleBeforeEditing;
-    _Bool _selected;
-    _Bool _hovered;
-    NSButton *_trailingButton;
-    NSButton *_moreButton;
-    NSButton *_closeButton;
-    NSLayoutConstraint *_imageViewWidthConstraint;
-    id <LibraryTableCellViewDelegate> _delegate;
 }
 
 - (void);
@@ -26,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (void);
@@ -41,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id)i;
@@ -55,19 +47,6 @@ function setScrollTop(e){document.documentElement.scrollTop=e}function readerWil
 - (_Bool)Hð;
 
 // Remaining properties
-@property __weak NSButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <LibraryTableCellViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hovered; // @synthesize hovered=_hovered;
-@property __weak NSLayoutConstraint *imageViewWidthConstraint; // @synthesize imageViewWidthConstraint=_imageViewWidthConstraint;
-@property __weak NSButton *moreButton; // @synthesize moreButton=_moreButton;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly) Class superclass;
 @property __weak NSButton *trailingButton; // @synthesize trailingButton=_trailingButton;
 
 @end

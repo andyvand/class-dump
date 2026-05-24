@@ -7,19 +7,10 @@
 @interface NewsFeed.DebugJournalGroupViewController
 {
     id group;
-    id sections;
-    id tableView;
-    id cloudContext;
-    id tagService;
-    id commandCenter;
-    id feedItemImages;
-    id placeholderImage;
-    id naImage;
-    id radarAttachmentProvider;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

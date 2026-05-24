@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, _UINavigationBarNSToolbarLayout;
 @protocol _UINavigationBarNSToolbarProxyTabBarItemProviding;
 
 __attribute__((visibility("hidden")))
 @interface _UINSToolbarLayoutExtractionContext
 {
     _Bool _haveSupplementaryColumn;
-    _Bool _haveSidebarToggleGlobally;
-    _Bool _haveInspectorToggleGlobally;
-    id <_UINavigationBarNSToolbarProxyTabBarItemProviding> _tabBarProvider;
-    _UINavigationBarNSToolbarLayout *_currentLayout;
-    NSString *_leadingSeparatorIdentifier;
-    NSString *_trailingSeparatorIdentifier;
-    NSMutableSet *_knownUniqueToolbarItemIdentifiers;
-    NSMutableDictionary *_itemsToSourceMap;
-    NSMutableArray *_currentItems;
-    NSMutableArray *_defaultItems;
-    NSMutableSet *_movableItems;
-    NSMutableSet *_moveOnlyItems;
-    NSMutableSet *_centeredItems;
-    long long _minCustomizationIndex;
-    long long _maxCustomizationIndex;
 }
 
 - (id);
@@ -34,41 +18,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)rror"32;
+- (id)ry"24;
+- (long long)Task"8;
+- (long long)2@40@48@56@64;
+- (id)TUConversation"24@"TUConversationActivityEvent"32;
+- (id)16^C24;
+- (id)64;
+- (id)syncControllerRecordType;
+- (_Bool)respondToVCInvitationWithPerson:properties:conference: /* Error: Ran out of types for this method. */;
+- (_Bool): /* Error: Ran out of types for this method. */;
+- (_Bool)respondToNotificationWithIdentifier:sessionIdentifier:actionIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (id)commonCapabilitiesSupportHighQualityPhotos: /* Error: Ran out of types for this method. */;
+- (void)lt:(_Bool)arg1 [%@] for key:[%@] /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (void)©»33hö;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *centeredItems; // @synthesize centeredItems=_centeredItems;
-@property(readonly, nonatomic) NSMutableArray *currentItems; // @synthesize currentItems=_currentItems;
-@property(readonly, nonatomic) _UINavigationBarNSToolbarLayout *currentLayout; // @synthesize currentLayout=_currentLayout;
-@property(readonly, nonatomic) NSMutableArray *defaultItems; // @synthesize defaultItems=_defaultItems;
-@property(nonatomic) _Bool haveInspectorToggleGlobally; // @synthesize haveInspectorToggleGlobally=_haveInspectorToggleGlobally;
-@property(nonatomic) _Bool haveSidebarToggleGlobally; // @synthesize haveSidebarToggleGlobally=_haveSidebarToggleGlobally;
-@property(readonly, nonatomic) _Bool haveSupplementaryColumn; // @synthesize haveSupplementaryColumn=_haveSupplementaryColumn;
-@property(readonly, nonatomic) NSMutableDictionary *itemsToSourceMap; // @synthesize itemsToSourceMap=_itemsToSourceMap;
-@property(readonly, nonatomic) NSMutableSet *knownUniqueToolbarItemIdentifiers; // @synthesize knownUniqueToolbarItemIdentifiers=_knownUniqueToolbarItemIdentifiers;
-@property(readonly, nonatomic) NSString *leadingSeparatorIdentifier; // @synthesize leadingSeparatorIdentifier=_leadingSeparatorIdentifier;
-@property(nonatomic) long long maxCustomizationIndex; // @synthesize maxCustomizationIndex=_maxCustomizationIndex;
-@property(nonatomic) long long minCustomizationIndex; // @synthesize minCustomizationIndex=_minCustomizationIndex;
-@property(readonly, nonatomic) NSMutableSet *movableItems; // @synthesize movableItems=_movableItems;
-@property(readonly, nonatomic) NSMutableSet *moveOnlyItems; // @synthesize moveOnlyItems=_moveOnlyItems;
 @property(readonly, nonatomic) id <_UINavigationBarNSToolbarProxyTabBarItemProviding> tabBarProvider; // @synthesize tabBarProvider=_tabBarProvider;
-@property(readonly, nonatomic) NSString *trailingSeparatorIdentifier; // @synthesize trailingSeparatorIdentifier=_trailingSeparatorIdentifier;
 
 @end
 

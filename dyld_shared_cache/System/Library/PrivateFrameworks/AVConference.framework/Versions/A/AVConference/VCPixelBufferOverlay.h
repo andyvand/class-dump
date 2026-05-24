@@ -13,19 +13,6 @@ __attribute__((visibility("hidden")))
 @interface VCPixelBufferOverlay : VCObject
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    long long _videoActivationTimestamp;
-    struct tagVCOverlaySource *_audioInfo;
-    struct tagVCOverlaySource *_videoInfo;
-    struct tagVCOverlaySource *_networkInfo;
-    struct CGAffineTransform _transform;
-    struct CGRect _textFrame;
-    struct __CFDictionary *_stringAttributes;
-    struct __CFString *_mutableDisplayText;
-    struct CGSize _currentVRADimensions;
-    int _currentLongestLine;
-    double _lastDefaultsReadTime;
-    double _lastStringAttributesReadTime;
-    struct tagVCPixelBufferOverlayConfig _currentDetails;
 }
 
 - (void);

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol WFForecastDataParser;
+@class NSMutableDictionary;
 
 @interface WFWeatherChannelAPIConfiguration
 {
     NSMutableDictionary *_requestFormatterForForecastType;
-    NSMutableDictionary *_requestParserForForecastType;
-    Class _defaultForecastRequestFormatterClass;
-    id <WFForecastDataParser> _defaultForecastParser;
 }
 
 - (void);
@@ -35,18 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <WFForecastDataParser> defaultForecastParser; // @synthesize defaultForecastParser=_defaultForecastParser;
-@property(retain, nonatomic) Class defaultForecastRequestFormatterClass; // @synthesize defaultForecastRequestFormatterClass=_defaultForecastRequestFormatterClass;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isValid;
 @property(retain, nonatomic) NSMutableDictionary *requestFormatterForForecastType; // @synthesize requestFormatterForForecastType=_requestFormatterForForecastType;
-@property(retain, nonatomic) NSMutableDictionary *requestParserForForecastType; // @synthesize requestParserForForecastType=_requestParserForForecastType;
-@property(readonly) Class superclass;
 
 @end
 

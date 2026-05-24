@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatStringSelector
 {
     id cache;
-    id lock;
 }
 
 @end

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (LPExtras)
-- (id);
+- (id)shouldDisplayTextEntry;
 @end
 

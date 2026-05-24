@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SCNMTLArgumentBinder
 {
     CDUnknownBlockType _block;
-    int _frequency;
-    _Bool _needsRenderResource;
 }
 
 - (id);

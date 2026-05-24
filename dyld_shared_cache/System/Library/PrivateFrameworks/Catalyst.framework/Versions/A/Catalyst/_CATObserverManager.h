@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperation, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _CATObserverManager
 {
     NSMutableSet *mObservers;
-    int mState;
-    NSObject<OS_dispatch_queue> *mQueue;
-    NSObject<OS_dispatch_source> *mProgressSource;
-    CATOperation *mOperation;
-    CATOperation *mStrongOperation;
-    _Bool mIsObserving;
 }
 
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)y:(id)arg1;
+- (id)valueForKey:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

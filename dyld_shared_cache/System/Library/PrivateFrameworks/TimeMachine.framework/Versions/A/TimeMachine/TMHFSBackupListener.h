@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface TMHFSBackupListener
@@ -15,14 +15,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)i;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *listenerID;
 @property(readonly) NSURL *machineStoreURL; // @synthesize machineStoreURL=_machineStoreURL;
 
 @end

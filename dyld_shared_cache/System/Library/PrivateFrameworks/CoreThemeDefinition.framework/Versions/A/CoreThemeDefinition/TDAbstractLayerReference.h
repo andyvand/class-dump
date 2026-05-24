@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface TDAbstractLayerReference
 {
@@ -15,24 +15,10 @@
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *blendMode; // @dynamic blendMode;
-@property(nonatomic) float blurStrength; // @dynamic blurStrength;
-@property(nonatomic) struct CGRect frameRect; // @dynamic frameRect;
-@property(retain, nonatomic) NSString *frameRectString; // @dynamic frameRectString;
-@property(nonatomic) _Bool gathersSpecularByElement; // @dynamic gathersSpecularByElement;
-@property(retain, nonatomic) NSString *gradientOrColorName; // @dynamic gradientOrColorName;
-@property(nonatomic) _Bool hasLightingEffects; // @dynamic hasLightingEffects;
-@property(nonatomic) _Bool hasSpecular; // @dynamic hasSpecular;
-@property(nonatomic) _Bool makeOpaqueIfPossible; // @dynamic makeOpaqueIfPossible;
 @property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSNumber *opacity; // @dynamic opacity;
-@property(nonatomic) struct CGRect primitiveFrameRect;
-@property(retain, nonatomic) NSNumber *shadowOpacity; // @dynamic shadowOpacity;
-@property(retain, nonatomic) NSNumber *shadowStyle; // @dynamic shadowStyle;
-@property(retain, nonatomic) NSNumber *translucency; // @dynamic translucency;
 
 @end
 

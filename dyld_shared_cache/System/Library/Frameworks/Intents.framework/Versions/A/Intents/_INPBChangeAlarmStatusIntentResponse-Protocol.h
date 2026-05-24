@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol _INPBChangeAlarmStatusIntentResponse
+- (NSArray *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *modifiedAlarms;
-@property(readonly, nonatomic) unsigned long long modifiedAlarmsCount;
 @end
 

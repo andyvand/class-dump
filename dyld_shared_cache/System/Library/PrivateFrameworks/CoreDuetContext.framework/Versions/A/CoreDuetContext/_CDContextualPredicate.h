@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, NSPredicate, NSSet;
+@class NSPredicate;
 
 @interface _CDContextualPredicate
 {
     _Bool _evaluateOnEveryKeyPathUpdate;
-    NSSet *_keyPaths;
-    NSPredicate *_predicate;
-    NSPredicate *_predicateForPreviousState;
-    double _minimumDurationInPreviousState;
-    NSOrderedSet *_timeBasedPredicateEvaluationIntervals;
-    NSSet *_circularLocationRegions;
 }
 
 + (id);
 + (id);
++ (id)e;
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -31,12 +25,12 @@
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)tokenForIdentifierOfCGSWindow: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -47,26 +41,19 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (double);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)handleShareFile:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (_Bool)_resolveExecutionInfoByLinkingExtensionToApp:(id)arg1;
+- (id)busName;
+- (void)uous confidence;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *circularLocationRegions; // @synthesize circularLocationRegions=_circularLocationRegions;
-@property(nonatomic) _Bool evaluateOnEveryKeyPathUpdate; // @synthesize evaluateOnEveryKeyPathUpdate=_evaluateOnEveryKeyPathUpdate;
-@property(readonly, nonatomic) _Bool firesOnAnyChange;
-@property(copy, nonatomic) NSSet *keyPaths; // @synthesize keyPaths=_keyPaths;
-@property(nonatomic) double minimumDurationInPreviousState; // @synthesize minimumDurationInPreviousState=_minimumDurationInPreviousState;
 @property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(retain, nonatomic) NSPredicate *predicateForPreviousState; // @synthesize predicateForPreviousState=_predicateForPreviousState;
-@property(retain, nonatomic) NSOrderedSet *timeBasedPredicateEvaluationIntervals; // @synthesize timeBasedPredicateEvaluationIntervals=_timeBasedPredicateEvaluationIntervals;
 
 @end
 

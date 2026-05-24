@@ -7,6 +7,8 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void);
+- (void);
 - (void)assed all checks and is eligible to receive POI ads.;
 @end
 

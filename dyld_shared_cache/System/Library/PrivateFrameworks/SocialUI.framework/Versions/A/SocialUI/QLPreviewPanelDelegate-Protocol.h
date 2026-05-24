@@ -5,5 +5,8 @@
 //
 
 @protocol QLPreviewPanelDelegate
+
+@optional
+- (id)BlueprintLayoutSectionFramePosition;
 @end
 

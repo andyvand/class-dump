@@ -13,30 +13,30 @@
     id <NFSecureElementReaderSessionDelegate> _delegate;
 }
 
-- (id);
-- (id);
+- (id)Q8^B16;
+- (id)coreDataProperty;
+- (_Bool)ABContactRelationshipChangeTag;
+- (id)stions.interaction;
+- (_Bool)CNPostalAddressSubAdministrativeAreaKey;
+- (id)CNPostalAddressSubAdministrativeAreaKey;
+- (void)light;
+- (id)onversation:(id)arg1 %@;
+- (_Bool)validation;
+- (_Bool)CNPostalAddress;
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (void);
+- (void);
+- (void)`;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool)ntactlessPaymentStartEvent;
+- (_Bool)NFContactlessPaymentStartEvent;
 
 // Remaining properties
 @property __weak id <NFSecureElementReaderSessionDelegate> delegate; // @synthesize delegate=_delegate;

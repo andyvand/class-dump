@@ -25,14 +25,11 @@
 - (unsigned long long);
 - (unsigned char);
 - (_Bool);
-- (id);
+- (id)c;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAdaptive) _Bool adaptive; // @dynamic adaptive;
-@property(readonly, nonatomic) unsigned char filterShift; // @dynamic filterShift;
-@property(readonly, nonatomic) unsigned long long nominalDomainInterval; // @dynamic nominalDomainInterval;
 @property(readonly, nonatomic) unsigned long long nominalMachInterval; // @dynamic nominalMachInterval;
 
 @end

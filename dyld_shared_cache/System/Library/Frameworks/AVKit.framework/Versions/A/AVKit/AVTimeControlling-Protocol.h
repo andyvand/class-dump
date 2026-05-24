@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVValueTiming, NSArray;
-
 @protocol AVTimeControlling
+- (_Bool)	K
+K;
+- (double);
 - (double)ù
 × ;
 - (_Bool)4@0:8@"PIPViewController"16 /* Error: Ran out of types for this method. */;
-- (_Bool)nWithinEndTimes;
+- (_Bool)keyPathsForValuesAffectingContentDurationWithinEndTimes;
 
 // Remaining properties
-@property(readonly) _Bool canSeek;
-@property(readonly, getter=isCompletelySeekable) _Bool completelySeekable;
-@property(readonly) double contentDuration;
-@property(readonly) double contentDurationWithinEndTimes;
-@property(readonly) _Bool hasSeekableLiveStreamingContent;
-@property(readonly) double maxTime;
-@property(readonly) AVValueTiming *maxTiming;
 @property(readonly) double minTime;
-@property(readonly) AVValueTiming *minTiming;
-@property(readonly) double seekToTime;
-@property(readonly) NSArray *seekableTimeRanges;
-@property(readonly, getter=isSeeking) _Bool seeking;
-@property(readonly) AVValueTiming *timing;
 @end
 

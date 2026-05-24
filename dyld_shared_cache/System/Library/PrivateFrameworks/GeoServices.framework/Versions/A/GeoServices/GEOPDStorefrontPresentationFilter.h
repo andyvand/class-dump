@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)createDirectoryAtPath:(id)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)�;
 - (_Bool);
-- (_Bool);
+- (_Bool)e;
 - (id)anyField"b1};
-- (id)romOriginal;
+- (id)_routeDeviatesFromOriginal;
 - (id)ø7;
 
 @end

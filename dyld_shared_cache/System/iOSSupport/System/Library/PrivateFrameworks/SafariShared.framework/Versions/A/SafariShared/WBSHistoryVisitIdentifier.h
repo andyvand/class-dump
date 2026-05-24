@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSHistoryItem, WBSHistoryVisit;
+@class NSString;
 
 @interface WBSHistoryVisitIdentifier
 {
     unsigned long long _hash;
-    NSString *_urlString;
-    double _visitTime;
-    WBSHistoryItem *_associatedHistoryItem;
-    WBSHistoryVisit *_associatedHistoryVisit;
 }
 
 + (_Bool);
@@ -21,8 +17,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -33,10 +29,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) WBSHistoryItem *associatedHistoryItem; // @synthesize associatedHistoryItem=_associatedHistoryItem;
-@property(retain, nonatomic) WBSHistoryVisit *associatedHistoryVisit; // @synthesize associatedHistoryVisit=_associatedHistoryVisit;
 @property(readonly, copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
-@property(readonly, nonatomic) double visitTime; // @synthesize visitTime=_visitTime;
 
 @end
 

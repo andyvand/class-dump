@@ -7,11 +7,11 @@
 @class NSArray, NSData, NSDictionary, NSString;
 
 @protocol SFHashBucketDetail
+- (NSArray *)PDFPageDrawingComplete;
+- (NSData *)Ԑ3;
+- (NSDictionary *)I;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *hash_details;
 @property(copy, nonatomic) NSString *hash_prefix;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

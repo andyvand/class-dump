@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCachedURLResponseInternal, NSData, NSDictionary, NSURLResponse;
+@class NSCachedURLResponseInternal, NSURLResponse;
 
 @interface NSCachedURLResponse
 {
@@ -14,10 +14,7 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSData *data;
 @property(readonly, copy) NSURLResponse *response;
-@property(readonly) unsigned long long storagePolicy;
-@property(readonly, copy) NSDictionary *userInfo;
 
 @end
 

@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol INImageServing
+- (unsigned long long)-457A-87BC-8094CD3FA84A;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *serviceIdentifier;
-@property(readonly, nonatomic) unsigned long long servicePriority;
 @end
 

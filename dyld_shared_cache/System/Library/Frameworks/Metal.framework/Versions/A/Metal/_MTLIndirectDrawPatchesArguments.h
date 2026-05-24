@@ -7,13 +7,6 @@
 @interface _MTLIndirectDrawPatchesArguments
 {
     unsigned long long _numberOfPatchControlPoints;
-    unsigned long long _patchStart;
-    unsigned long long _patchCount;
-    void *_patchIndexBufferVirtualAddress;
-    unsigned long long _patchIndexBufferGPUVirtualAddress;
-    unsigned long long _patchIndexBufferOffset;
-    unsigned long long _instanceCount;
-    unsigned long long _baseInstance;
 }
 
 - (void);
@@ -28,20 +21,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long)tion;
+- (unsigned long long)tileFunction;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long baseInstance; // @synthesize baseInstance=_baseInstance;
-@property(nonatomic) unsigned long long instanceCount; // @synthesize instanceCount=_instanceCount;
 @property(nonatomic) unsigned long long numberOfPatchControlPoints; // @synthesize numberOfPatchControlPoints=_numberOfPatchControlPoints;
-@property(nonatomic) unsigned long long patchCount; // @synthesize patchCount=_patchCount;
-@property(nonatomic) unsigned long long patchIndexBufferGPUVirtualAddress; // @synthesize patchIndexBufferGPUVirtualAddress=_patchIndexBufferGPUVirtualAddress;
-@property(nonatomic) unsigned long long patchIndexBufferOffset; // @synthesize patchIndexBufferOffset=_patchIndexBufferOffset;
-@property(nonatomic) void *patchIndexBufferVirtualAddress;
-@property(nonatomic) unsigned long long patchStart; // @synthesize patchStart=_patchStart;
 
 @end
 

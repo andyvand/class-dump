@@ -20,9 +20,9 @@
 - (id);
 - (void)¡;
 - (void)Ô ;
-- (void)ippingView;
-- (id)ughScrollGestureRecognizerShouldRequireFailureOfGestureRecognizer: /* Error: Ran out of types for this method. */;
-- (id)tion: /* Error: Ran out of types for this method. */;
+- (void)prepareClippingView;
+- (id)_passthroughScrollGestureRecognizerShouldRequireFailureOfGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (id)_fulfilledConfigurationForConfiguration:atLocation: /* Error: Ran out of types for this method. */;
 - (void).m;
 - (void)antsP;
 - (void);

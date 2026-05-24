@@ -7,8 +7,6 @@
 @interface AppKit.UnbridgedMenuBarSettings
 {
     id perMenuBarSettings;
-    id globalSettings;
-    id applicationTitle;
 }
 
 + (_Bool);

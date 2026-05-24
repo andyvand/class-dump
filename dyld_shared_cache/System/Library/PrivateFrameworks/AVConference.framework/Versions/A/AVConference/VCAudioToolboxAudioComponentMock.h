@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 
 + (id)/90000;
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (_Bool);
 - (void);
 - (void);

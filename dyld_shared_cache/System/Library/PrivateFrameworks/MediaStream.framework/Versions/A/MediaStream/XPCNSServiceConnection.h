@@ -5,38 +5,26 @@
 //
 
 @class NSString, XPCServiceConnection;
-@protocol NSObject, XPCNSServiceConnectionDelegate;
 
 @interface XPCNSServiceConnection
 {
     XPCServiceConnection *_serviceConnection;
-    id <XPCNSServiceConnectionDelegate> _delegate;
-    id <NSObject> _context;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)document with %ld attachments.;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)o allocate profiles array;
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <NSObject> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <XPCNSServiceConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) NSString *serviceName;
-@property(readonly) Class superclass;
 
 @end
 

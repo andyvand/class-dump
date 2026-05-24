@@ -5,5 +5,9 @@
 //
 
 @protocol EARAudioResultsGeneratorDelegate
+
+@optional
+- (void);
+- (void)tactInformation",&,N,V_contactInformation;
 @end
 

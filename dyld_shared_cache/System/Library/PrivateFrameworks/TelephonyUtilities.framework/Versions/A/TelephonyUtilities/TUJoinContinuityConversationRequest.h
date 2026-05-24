@@ -9,12 +9,9 @@
 @interface TUJoinContinuityConversationRequest
 {
     _Bool _isAudioEnabled;
-    _Bool _isVideoEnabled;
-    _Bool _wantsStagingArea;
-    NSUUID *_uuid;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (_Bool);
@@ -24,14 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)rformSynchronously: /* Error: Ran out of types for this method. */;
+- (id)@16;
+- (void)shouldRestrictJoinConversationRequest:performSynchronously: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAudioEnabled; // @synthesize isAudioEnabled=_isAudioEnabled;
-@property(readonly, nonatomic) _Bool isVideoEnabled; // @synthesize isVideoEnabled=_isVideoEnabled;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, nonatomic) _Bool wantsStagingArea; // @synthesize wantsStagingArea=_wantsStagingArea;
 
 @end
 

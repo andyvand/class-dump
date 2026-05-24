@@ -4,48 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFilter, CNContactFormatter, CNContactStore, NSArray, NSDictionary, NSString;
-@protocol CNContactDataSourceDelegate;
+@class CNContactFilter, CNContactStore, NSArray, NSString;
 
 @protocol CNContactDataSource
+- (NSArray *);
 
 @optional
+- (void)qa;
+- (void);
+- (NSString *);
+- (CNContactStore *)32{_NSRange=QQ}40B56;
+- (CNContactFilter *);
 - (void)B16;
 - (_Bool)than one contact instead of a unified one;
 - (void)r;
-- (CNContactFormatter *);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canReload;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactFormatter",?,&,N
-
-@property(readonly, nonatomic) NSDictionary *contactMatchInfos;
 @property(readonly, nonatomic) NSArray *contacts;
-@property(nonatomic) __weak id <CNContactDataSourceDelegate> delegate;
-@property(readonly, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) CNContactFilter *effectiveFilter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactFilter",?,R,N
-
-@property(copy, nonatomic) CNContactFilter *filter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactFilter",?,C,N
-
-@property(readonly, nonatomic) NSArray *indexSections;
-@property(readonly, nonatomic) NSArray *sections;
-@property(readonly, nonatomic) _Bool shouldReturnToAccountsAndGroupsViewAfterSearchIsCanceled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) CNContactStore *store;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactStore",?,R,N
-
 @end
 

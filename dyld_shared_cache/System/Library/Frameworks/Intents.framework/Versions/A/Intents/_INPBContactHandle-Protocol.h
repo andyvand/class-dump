@@ -7,26 +7,19 @@
 @class NSString;
 
 @protocol _INPBContactHandle
+- (int)5;
+- (_Bool);
+- (int)8`;
+- (int)A;
 - (int)callCapability"b1"callType"b1"isCallerIdBlocked"b1"preferredCallProvider"b1"unseen"b1};
-- (NSString *)lder;
-- (void)atelyStartPlayback;
+- (NSString *)localizedPlaceholder;
+- (void)immediatelyStartPlayback;
 - (void)PhoneLabel;
 - (_Bool)BDataString",&,N,V_entityName;
 - (void)@"NSString",C,N,V_categoryVerb;
-- (_Bool)ureRequiringAppLaunch;
+- (_Bool)INDeleteTasksIntentResponseCodeFailureRequiringAppLaunch;
 
 // Remaining properties
 @property(nonatomic) int emergencyType;
-@property(nonatomic) int faceTimeType;
-@property(nonatomic) _Bool hasEmergencyType;
-@property(nonatomic) _Bool hasFaceTimeType;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasSuggested;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(copy, nonatomic) NSString *label;
-@property(nonatomic) _Bool suggested;
-@property(nonatomic) int type;
-@property(copy, nonatomic) NSString *value;
 @end
 

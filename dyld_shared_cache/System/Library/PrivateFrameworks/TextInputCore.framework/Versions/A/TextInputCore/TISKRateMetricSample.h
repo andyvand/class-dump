@@ -8,28 +8,26 @@ __attribute__((visibility("hidden")))
 @interface TISKRateMetricSample
 {
     int _countFactor;
-    double _durationFactor;
 }
 
 + (id);
 + (_Bool);
+- (void)setTTYShouldBeRealtime:(double)arg1 forContext: /* Error: Ran out of types for this method. */;
+- (double)ntext found for call %@;
+- (int)in for RTT call:%@ and found:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
-- (int);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)read"8@"SAThreadState"16Q24^B32;
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id)plete;
+- (void)Identifier;
+- (id)isComplete;
 
 // Remaining properties
 @property(nonatomic) int countFactor; // @synthesize countFactor=_countFactor;
-@property(nonatomic) double durationFactor; // @synthesize durationFactor=_durationFactor;
 
 @end
 

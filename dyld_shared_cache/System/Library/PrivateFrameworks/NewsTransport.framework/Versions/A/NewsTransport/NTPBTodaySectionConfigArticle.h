@@ -9,11 +9,6 @@
 @interface NTPBTodaySectionConfigArticle
 {
     NSString *_actionURLString;
-    NSString *_articleID;
-    NSString *_displayDateString;
-    NTPBTodaySectionConfigArticle *_paidArticle;
-    NSString *_storyType;
-    NSString *_title;
 }
 
 @end

@@ -4,6 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NCNotificationRequest;
+@protocol NCNotificationDestination;
+
 @protocol NCNotificationDestinationDelegate
+- (void)tSyncSession setWalrusForcedEnabled:(id <NCNotificationDestination>)arg1 ];
+- (void)tSyncSession resolveWalrusStatus];
+- (void)WFWalrusForcedEnabled;
+- (void)WFLastSyncedFlagsHash;
+- (void)WFCloudKitSyncZoneWasPurged;
+- (void)dateinterval_parameter;
+
+@optional
+- (void)ePolicyWithXPCActivity:(id <NCNotificationDestination>)arg1 completionHandler:(_Bool)arg2 ]_block_invoke_2;
+- (void)uration = %@;
+- (void)bilityVersion = %ld AND contentVersion > %ld AND configuration = %@;
+- (void)eQuarantinePolicyManager policyStringForBundleIfValid:(id <NCNotificationDestination>)arg1 ];
+- (void)motePolicyAssetBundle];
+- (void)NSBundle"24@?0@"NSURL"8Q16;
+- (void)@ is not valid;
+- (void)RemoteQuarantineAsset;
+- (void)WFRemoteQuarantinePolicy;
+- (NCNotificationRequest *)KitSyncFlags"8@"NSError"16;
 @end
 

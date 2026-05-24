@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEnumerator, NSMutableArray;
+@class NSEnumerator;
 
 __attribute__((visibility("hidden")))
 @interface XCTElementSnapshotDescendantsEnumerator
 {
     NSEnumerator *_innerEnumerator;
-    NSMutableArray *_unenumeratedDescendantsQueue;
 }
 
-- (id);
+- (id)�;
+- (void)i;
 - (void);
-- (void);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) NSEnumerator *innerEnumerator; // @synthesize innerEnumerator=_innerEnumerator;
-@property(retain) NSMutableArray *unenumeratedDescendantsQueue; // @synthesize unenumeratedDescendantsQueue=_unenumeratedDescendantsQueue;
 
 @end
 

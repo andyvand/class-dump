@@ -5,5 +5,27 @@
 //
 
 @protocol TUConversationManagerDelegate
+
+@optional
+- (void);
+- (void)$x{;
+- (void);
+- (void)};
+- (void)RR;
+- (void);
+- (void)CanBeCastAsCFType;
+- (void);
+- (void);
+- (void);
+- (void)W;
+- (void)CoreMedia;
+- (void)DynamicContent;
+- (void)MultiSampleContent;
+- (void)Value;
+- (void)CMAttachmentBearerAttachments;
+- (void)CMAttachmentBearerProtocol;
+- (void)BlockSource;
+- (void)X;
+- (void)^;
 @end
 

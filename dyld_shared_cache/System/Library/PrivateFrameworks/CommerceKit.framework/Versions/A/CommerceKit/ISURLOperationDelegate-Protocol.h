@@ -5,5 +5,9 @@
 //
 
 @protocol ISURLOperationDelegate
+
+@optional
+- (void)H;
+- (void)Rя;
 @end
 

@@ -11,10 +11,9 @@ __attribute__((visibility("hidden")))
 @interface __NSCFURLLocalStreamTaskFromDataTaskDataBlobby
 {
     NSObject<OS_dispatch_data> *_remainingData;
-    CDUnknownBlockType _completion;
 }
 
-- (void);
+- (void)gmacron;
 - (id);
 
 @end

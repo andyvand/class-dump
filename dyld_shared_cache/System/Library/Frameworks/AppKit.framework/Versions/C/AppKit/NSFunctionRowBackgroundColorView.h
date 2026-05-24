@@ -6,43 +6,33 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSString;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface NSFunctionRowBackgroundColorView : NSView
 {
     NSColor *_backgroundColor;
-    _Bool _ignoresTouchEvents;
 }
 
-+ (id);
-- (void);
++ (id)_kCFNTimingDataFetchStart;
+- (void)Failed to get the code directory hash for %d:(_Bool)arg1 %s;
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)setCookies:withFilter:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)responseStatusCode;
 - (void);
 - (Class);
 - (void);
-- (id);
+- (id)BAD_E_VALUE;
 - (void);
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)ludeBoldItalic:(struct CGRect)arg1;
+- (id)displayStringsForAttributes:(struct CGRect)arg1 includeBoldItalic: /* Error: Ran out of types for this method. */;
 - (void)HH;
-- (id)appedValue;
+- (id)wrappedValue;
 
 // Remaining properties
-@property(copy) NSColor *backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property _Bool ignoresTouchEvents; // @synthesize ignoresTouchEvents=_ignoresTouchEvents;
-@property(readonly) Class superclass;
 
 @end
 

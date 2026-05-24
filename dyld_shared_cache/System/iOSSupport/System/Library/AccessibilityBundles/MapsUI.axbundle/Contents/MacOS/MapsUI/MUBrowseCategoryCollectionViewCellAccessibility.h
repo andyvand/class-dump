@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)n;
 + (void);
-- (_Bool);
+- (_Bool)_timeTravelUpdateFrequency;
 - (unsigned long long);
 - (id);
 

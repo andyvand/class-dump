@@ -5,5 +5,9 @@
 //
 
 @protocol UITextFieldDelegate
+
+@optional
+- (void);
+- (void)TJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNewsPersonalizationTrainingBias.m;
 @end
 

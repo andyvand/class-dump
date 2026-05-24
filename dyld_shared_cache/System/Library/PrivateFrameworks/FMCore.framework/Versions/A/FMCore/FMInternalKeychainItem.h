@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FMInternalKeychainItem
 {
     NSString *_password;
-    NSDate *_lastModifyDate;
-    NSDate *_creationDate;
-    NSData *_rawData;
 }
 
-- (id);
-- (id);
+- (id)t;
+- (id)needsReorderingNumber;
 - (void);
 - (void);
 - (id);
@@ -27,17 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastModifyDate; // @synthesize lastModifyDate=_lastModifyDate;
 @property(retain, nonatomic) NSString *password; // @synthesize password=_password;
-@property(retain, nonatomic) NSData *rawData; // @synthesize rawData=_rawData;
-@property(readonly) Class superclass;
 
 @end
 

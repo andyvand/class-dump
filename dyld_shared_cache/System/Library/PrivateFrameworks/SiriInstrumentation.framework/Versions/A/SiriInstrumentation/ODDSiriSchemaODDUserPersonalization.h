@@ -6,27 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaVoiceSettings;
-
 @interface ODDSiriSchemaODDUserPersonalization : SISchemaInstrumentationMessage
 {
     _Bool _isPersonalDomainRequestsEnabled;
-    NSArray *_activeSubscriptions;
-    SISchemaVoiceSettings *_voiceSettings;
-    struct {
-        unsigned int isPersonalDomainRequestsEnabled:1;
-    } _has;
-    _Bool _hasVoiceSettings;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (int);
@@ -47,16 +39,11 @@
 - (unsigned long long)@ù
 × ;
 - (id)hlightLevel;
-- (id)d;
+- (id)deleteButtonInteractionDetected;
 - (void)tTypeUnion.asrClientEvent.rescoringDeliberationResultTier1.linkId;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activeSubscriptions; // @synthesize activeSubscriptions=_activeSubscriptions;
-@property(nonatomic) _Bool hasIsPersonalDomainRequestsEnabled;
-@property(nonatomic) _Bool hasVoiceSettings; // @synthesize hasVoiceSettings=_hasVoiceSettings;
 @property(nonatomic) _Bool isPersonalDomainRequestsEnabled; // @synthesize isPersonalDomainRequestsEnabled=_isPersonalDomainRequestsEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaVoiceSettings *voiceSettings; // @synthesize voiceSettings=_voiceSettings;
 
 @end
 

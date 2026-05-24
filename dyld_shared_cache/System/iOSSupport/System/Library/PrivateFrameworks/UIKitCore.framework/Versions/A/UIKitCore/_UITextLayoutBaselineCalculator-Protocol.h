@@ -5,6 +5,7 @@
 //
 
 @protocol _UITextLayoutBaselineCalculator
+- (double)ableView",&,N,V_tableView;
 
 // Remaining properties
 @property(readonly, nonatomic) double firstBaselineOffsetFromTop;

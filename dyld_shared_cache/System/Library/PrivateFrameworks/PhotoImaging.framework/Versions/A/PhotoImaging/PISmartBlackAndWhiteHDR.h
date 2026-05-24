@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PISmartBlackAndWhiteHDR
 {
     CIImage *inputImage;
-    NSNumber *inputStrength;
-    NSNumber *inputNeutralGamma;
-    NSNumber *inputTone;
-    NSNumber *inputHue;
-    NSNumber *inputGrain;
-    NSNumber *inputSeed;
-    NSNumber *inputScaleFactor;
 }
 
 + (id);
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)J;
 - (void);
 - (void);
 - (id);
@@ -40,17 +33,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ateWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)updateWithConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputGrain; // @synthesize inputGrain;
-@property(copy, nonatomic) NSNumber *inputHue; // @synthesize inputHue;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputNeutralGamma; // @synthesize inputNeutralGamma;
-@property(copy, nonatomic) NSNumber *inputScaleFactor; // @synthesize inputScaleFactor;
-@property(copy, nonatomic) NSNumber *inputSeed; // @synthesize inputSeed;
-@property(copy, nonatomic) NSNumber *inputStrength; // @synthesize inputStrength;
-@property(copy, nonatomic) NSNumber *inputTone; // @synthesize inputTone;
 
 @end
 

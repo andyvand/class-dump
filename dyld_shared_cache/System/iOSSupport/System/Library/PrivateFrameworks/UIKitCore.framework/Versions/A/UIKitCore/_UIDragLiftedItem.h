@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITargetedDragPreview, UIView, _UIPlatterView;
+@class UIView;
 
 @interface _UIDragLiftedItem
 {
     _Bool _sourceViewWasAdded;
-    UIView *_previewContainer;
-    _UIPlatterView *_platterView;
-    UITargetedDragPreview *_targetedPreview;
-    double _liftAlpha;
 }
 
 - (_Bool);
@@ -20,19 +16,15 @@
 - (void);
 - (void);
 - (void);
-- (double);
-- (id);
-- (void)oryView;
-- (id)ertionCount;
+- (double)handler:receivedPriorityMessageCommand:fromIdentifier:toIdentifier:fromToken: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)recentsAccessoryView;
+- (id)characterInsertionCount;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double liftAlpha; // @synthesize liftAlpha=_liftAlpha;
-@property(retain, nonatomic) _UIPlatterView *platterView; // @synthesize platterView=_platterView;
 @property(retain, nonatomic) UIView *previewContainer; // @synthesize previewContainer=_previewContainer;
-@property(nonatomic) _Bool sourceViewWasAdded; // @synthesize sourceViewWasAdded=_sourceViewWasAdded;
-@property(retain, nonatomic) UITargetedDragPreview *targetedPreview; // @synthesize targetedPreview=_targetedPreview;
 
 @end
 

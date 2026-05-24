@@ -4,49 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol MPMediaLibraryDataProviderPrivate
 
 @optional
-- (NSString *)odeArtworkInfo;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)!;
+- (void)x;
+- (NSString *)h=}24d32@40;
+- (_Bool);
+- (NSString *)MPModelPropertyPodcastEpisodeArtworkInfo;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accountDSID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSString *databasePath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) long long favoriteSongsPlaylistPersistentID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool isGeniusEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSArray *localizedSectionIndexTitles;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) long long photosMemoriesPlaylistPersistentID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long playbackHistoryPlaylistPersistentID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) NSArray *preferredAudioLanguages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *preferredSubtitleLanguages;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
 
 @end
 

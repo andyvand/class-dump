@@ -6,19 +6,18 @@
 
 #import <PhotosGraph/PGGraphEdgeCollection.h>
 
-@class PGGraphPersonNodeCollection, PGGraphPersonRelationshipTagNodeCollection;
+@class PGGraphPersonNodeCollection;
 
 @interface PGGraphRelationshipTagEdgeCollection : PGGraphEdgeCollection
 {
 }
 
 + (Class);
-- (id);
+- (id)tokenizerUnit;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) PGGraphPersonRelationshipTagNodeCollection *tagNodes;
 
 @end
 

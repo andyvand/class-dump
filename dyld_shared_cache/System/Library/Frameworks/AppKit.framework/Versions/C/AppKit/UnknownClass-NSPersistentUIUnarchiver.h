@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCoder, NSWindowRestorationOptions;
+@class NSCoder;
 
 @interface UnknownClass (NSPersistentUIUnarchiver)
-- (id);
+- (id)ke up for uuid %@ for session %@ with identifier %@;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (int);
 - (unsigned char);
 
 // Remaining properties
 @property(readonly) NSCoder *_secureStateRestorationCoder;
-@property(readonly, copy) NSWindowRestorationOptions *_windowRestorationOptions;
 @end
 

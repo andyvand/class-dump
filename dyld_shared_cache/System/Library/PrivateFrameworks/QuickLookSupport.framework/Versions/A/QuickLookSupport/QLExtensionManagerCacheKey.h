@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface QLExtensionManagerCacheKey
 {
     NSDictionary *_attributes;
-    _Bool _allowParentTypes;
-    _Bool _wantsFirstPartyExtension;
-    NSString *_extensionPath;
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)s1EyaU8WzebByK7E/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/StdLibExtras.h;
+- (id)Origin>>:(id)arg1:(_Bool)arg2 validateKey(const ValueType &) [Key = WebCore:(_Bool)arg3:(id)arg4 ClientOrigin, Value = WTF::KeyValuePair<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>>, HashFunctions = WTF::DefaultHash<WebCore::ClientOrigin>, Traits = WTF::HashMap<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ClientOrigin>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)cessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::IdentityExtractor, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool allowParentTypes; // @synthesize allowParentTypes=_allowParentTypes;
 @property(readonly) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly) NSString *extensionPath; // @synthesize extensionPath=_extensionPath;
-@property(readonly) _Bool wantsFirstPartyExtension; // @synthesize wantsFirstPartyExtension=_wantsFirstPartyExtension;
 
 @end
 

@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NUComposition, PIAdjustmentConstants, PIBrushStrokeHistory, _PICompositionControllerTransaction;
-@protocol PICompositionControllerDelegate;
+@class NUComposition, PIAdjustmentConstants;
 
 @interface PICompositionController
 {
     NUComposition *_composition;
-    struct {
-        _Bool hasDidAdd;
-        _Bool hasDidRemove;
-        _Bool hasDidUpdate;
-        _Bool hasDidUpdateMultiple;
-        _Bool hasClassForController;
-    } _delegateFlags;
-    NSDictionary *_identifierMap;
-    _PICompositionControllerTransaction *_transaction;
-    id <PICompositionControllerDelegate> _changeDelegate;
-    PIBrushStrokeHistory *_brushStrokeHistory;
-    long long _imageOrientation;
 }
 
 + (id);
@@ -32,11 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PIAdjustmentConstants *adjustmentConstants;
-@property(retain, nonatomic) PIBrushStrokeHistory *brushStrokeHistory; // @synthesize brushStrokeHistory=_brushStrokeHistory;
-@property(nonatomic) __weak id <PICompositionControllerDelegate> changeDelegate; // @synthesize changeDelegate=_changeDelegate;
-@property(readonly, copy, nonatomic) NUComposition *composition;
-@property(nonatomic) long long imageOrientation; // @synthesize imageOrientation=_imageOrientation;
-@property(nonatomic) long long mediaType;
 
 @end
 

@@ -7,21 +7,15 @@
 @interface CAFenceHandle
 {
     unsigned long long _handle_name;
-    unsigned long long _fence_name;
-    unsigned int _port;
-    struct Mutex _invalidation_mutex;
-    struct SpinLock _lock;
-    _Bool _invalidated;
-    _Bool _invalidate_on_dealloc;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
-+ (id);
++ (id)CIMakeShadowMask;
 - (void);
 - (unsigned long long);
 - (id);
@@ -34,12 +28,11 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, getter=isInvalidated) _Bool invalidated;
 @property(readonly, getter=isUsable) _Bool usable;
 
 @end

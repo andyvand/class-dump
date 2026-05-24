@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIAccessibilityElementTraversalOptions;
-
 @interface UIAccessibilityHierarchyEncoder
 {
     _Bool _shouldResolveRemoteElements;
-    id _rootElement;
-    UIAccessibilityElementTraversalOptions *_traversalOptions;
 }
 
 - (id);
@@ -21,15 +17,13 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)MemoriesFeedDataSourceManagerBase.m;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id rootElement; // @synthesize rootElement=_rootElement;
-@property(nonatomic) _Bool shouldResolveRemoteElements; // @synthesize shouldResolveRemoteElements=_shouldResolveRemoteElements;
-@property(retain, nonatomic) UIAccessibilityElementTraversalOptions *traversalOptions; // @synthesize traversalOptions=_traversalOptions;
 
 @end
 

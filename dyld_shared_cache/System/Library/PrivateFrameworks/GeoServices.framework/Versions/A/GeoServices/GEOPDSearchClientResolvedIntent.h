@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchClientResolvedIntent
 {
     NSString *_name;
-    int _resolvedItemType;
-    CDStruct_2aff0b11 _flags;
 }
 
 - (id);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)_alternateFormatStrings"b1"read_separator"b1"read_timezone"b1"wrote_anyField"b1};
-- (id)Muids;
+- (id)_placeEntityMuids;
 - (id),Ë,ÌäÌ$ÍøÍÄÎÐÑäÑ°ÒpÔxÕLÖÌÖ ×à×ÙÚðÚ0ÛØÜÞèÞ(ßÐàÐá¤â8ãä;
 - (void)ÊÛNH@;
 

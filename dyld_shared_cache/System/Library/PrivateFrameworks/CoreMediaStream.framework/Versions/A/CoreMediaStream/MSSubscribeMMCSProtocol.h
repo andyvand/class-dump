@@ -6,23 +6,17 @@
 
 #import <CoreMediaStream/MSMMCSProtocol.h>
 
-@class NSMutableDictionary, NSString;
 @protocol MSSubscribeStorageProtocolDelegate;
 
 @interface MSSubscribeMMCSProtocol : MSMMCSProtocol
 {
     id <MSSubscribeStorageProtocolDelegate> _delegate;
-    unsigned long long _itemCount;
-    NSMutableDictionary *_itemIDToAssetDict;
-    unsigned long long *_itemIDs;
-    const char **_signatures;
-    char **_authTokens;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)r %@;
+- (void)%{public,uuid_t}.16P (class:%@) /* Error: Ran out of types for this method. */;
+- (void)ession has timed out:(unsigned long long)arg1 %@;
+- (void)- not scheduling again.;
 - (id);
 - (void);
 - (id);
@@ -31,14 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) id <MSSubscribeStorageProtocolDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

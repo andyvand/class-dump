@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSString;
+@class CLLocation;
 
 @protocol INRestaurantExport
 - (CLLocation *)%Ð! Aù¾(1Â0@ù
@@ -15,8 +15,5 @@
 
 // Remaining properties
 @property(copy) CLLocation *location;
-@property(copy) NSString *name;
-@property(copy) NSString *restaurantIdentifier;
-@property(copy) NSString *vendorIdentifier;
 @end
 

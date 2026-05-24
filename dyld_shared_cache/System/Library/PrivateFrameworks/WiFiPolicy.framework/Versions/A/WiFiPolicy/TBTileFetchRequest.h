@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, TBTileFetchRequestDescriptor;
+@class TBTileFetchRequestDescriptor;
 
 @interface TBTileFetchRequest
 {
     _Bool _cacheable;
-    unsigned long long _sourcePolicy;
-    NSDictionary *userInfo;
-    CDUnknownBlockType resultsHandler;
-    CDUnknownBlockType preferLocalHandler;
-    TBTileFetchRequestDescriptor *_descriptor;
 }
 
 + (id);
@@ -21,12 +16,12 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool):(id)arg1;
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)UsageStartFlag;
 - (void);
 - (_Bool);
 - (id);
@@ -34,26 +29,11 @@
 - (void);
 - (void)0@ù
 × ;
-- (CDUnknownBlockType)topMonitoringVisits;
+- (CDUnknownBlockType)stopMonitoringVisits;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool cacheable; // @synthesize cacheable=_cacheable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) TBTileFetchRequestDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType preferLocalHandler; // @synthesize preferLocalHandler;
-@property(copy, nonatomic) CDUnknownBlockType resultsHandler; // @synthesize resultsHandler;
-@property(nonatomic) unsigned long long sourcePolicy; // @synthesize sourcePolicy=_sourcePolicy;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,&,N,VuserInfo
-
 
 @end
 

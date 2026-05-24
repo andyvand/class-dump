@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     void *_auInstance;
 }
 
-- (void);
+- (void)o;
 - (void *);
 - (void);
 

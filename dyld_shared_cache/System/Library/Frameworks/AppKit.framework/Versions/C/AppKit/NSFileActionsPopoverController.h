@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSPopover, NSString, NSTitlebarPopoverLocalFileOpsViewController, NSURL;
+@class NSPopover;
 @protocol NSFileActionsPopoverDelegate;
 
 @interface NSFileActionsPopoverController
 {
     NSPopover *_popover;
-    NSTitlebarPopoverLocalFileOpsViewController *_popoverViewController;
-    NSURL *_originalURL;
-    _Bool _popoverHasWarmedUp;
-    id <NSFileActionsPopoverDelegate> _fileActionsDelegate;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)32;
+- (id)setCookie:(id)arg1;
+- (void)_maxDataSegmentCount;
+- (id)_lastResponseBodyTransferSize;
 - (id);
 - (void)¦A;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak id <NSFileActionsPopoverDelegate> fileActionsDelegate; // @synthesize fileActionsDelegate=_fileActionsDelegate;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *initialViewBridgeInfo;
-@property(readonly, nonatomic) NSPopover *popover;
-@property(readonly) Class superclass;
 
 @end
 

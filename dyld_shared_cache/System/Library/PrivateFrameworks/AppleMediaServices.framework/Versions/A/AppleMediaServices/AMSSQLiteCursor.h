@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteStatement, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSSQLiteCursor
 {
     NSDictionary *_columnIndexByName;
-    struct sqlite3_stmt *_statement;
-    AMSSQLiteStatement *_statementWrapper;
 }
 
-- (double);
+- (double)isTranscriptSharingEnabled;
 - (id);
 - (int);
 - (id);

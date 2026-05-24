@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)st for setting:(id)arg1 %@ > %@;
 - (id);
 - (void)0@ù
 × ;

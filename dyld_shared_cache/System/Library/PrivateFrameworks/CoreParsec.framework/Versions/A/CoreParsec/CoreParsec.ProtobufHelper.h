@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)header and source size; data is invalid.;
 - (id);
 
 @end

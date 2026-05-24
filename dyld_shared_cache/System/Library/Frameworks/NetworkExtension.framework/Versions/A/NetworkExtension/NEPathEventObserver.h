@@ -7,12 +7,9 @@
 @interface NEPathEventObserver
 {
     struct network_config_cellular_blocked_observer_s *_cellBlockedObserver;
-    struct network_config_cellular_blocked_observer_s *_cellFailedObserver;
-    struct network_config_cellular_blocked_observer_s *_wifiBlockedObserver;
-    CDUnknownBlockType _eventHandler;
 }
 
-- (void);
+- (void)4C9;
 - (id);
 - (void);
 - (void)i16@20;

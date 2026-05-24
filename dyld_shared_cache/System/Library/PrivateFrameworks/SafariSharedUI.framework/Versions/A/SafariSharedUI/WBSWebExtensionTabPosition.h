@@ -7,15 +7,13 @@
 @interface WBSWebExtensionTabPosition
 {
     double _windowID;
-    unsigned long long _index;
 }
 
 - (double);
-- (id);
+- (id)8;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(readonly, nonatomic) double windowID; // @synthesize windowID=_windowID;
 
 @end

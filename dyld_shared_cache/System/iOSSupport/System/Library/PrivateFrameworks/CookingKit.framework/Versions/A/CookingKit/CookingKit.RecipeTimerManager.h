@@ -8,8 +8,6 @@
 {
     id recipeTimerStore;
     id manager;
-    id _allTimers;
-    id _observers;
 }
 
 - (void);

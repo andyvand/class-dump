@@ -5,5 +5,43 @@
 //
 
 @protocol FAServiceProtocol
+- (void)publication;
+- (void)KeyValueEntry;
+- (void)PhoneNumber;
+- (void)providerCommand;
+- (void)weightedPromptResponseTargets;
+- (void)systemDialogActOutput;
+- (void)APPLICATION_CONTEXT;
+- (void)phone;
+- (void)textToSpeechIsMuted;
+- (void)PaymentsAccountNickname;
+- (void)PhotoAlbumName;
+- (void)AceBargeInState;
+- (void)ExtractSpeechDataCompleted;
+- (void)REMOVED_FROM_HOME_SCREEN;
+- (void)RemoveOutputDevicesFromGroupResponse;
+- (void)maxResults;
+- (void)selectionResponse;
+- (void).sync;
+- (void)appsList;
+- (void)MediaTVShowWide;
+- (void)companionOfMUDevice;
+- (void)onTitle;
+- (void)UpdateCompleted;
+- (void)adjustmentInMilliseconds;
+- (void)SetNavigationVoiceVolumeCompleted;
+- (void)GetWristDetectionStatusClientState;
+- (void)iTunesMatchSubscriptionStatus;
+- (void)defaultMediaPlaybackAppBundleIdentifier;
+- (void)attributionPunchOut;
+- (void)CallSnippet;
+- (void)snippetStartDate;
+- (void)assistantId;
+- (void)confirmText;
+- (void)allConfirmationOptions;
+- (void)dateSent;
+- (void)dateLastMessageReadInThread;
+- (void)PressBackButton;
+- (void)LIFE_OF_SESSION;
 @end
 

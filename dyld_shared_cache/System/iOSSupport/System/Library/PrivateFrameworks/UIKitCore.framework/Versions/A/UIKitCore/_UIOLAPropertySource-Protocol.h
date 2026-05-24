@@ -7,9 +7,12 @@
 @class NSMapTable;
 
 @protocol _UIOLAPropertySource
+- (void)Handler:(_Bool)arg1;
+- (_Bool)_MPNowPlayingInfoPropertyiTunesStoreSubscriptionAdamIdentifier;
+- (_Bool)pping for MPModelRelationshipGenericPodcast;
 - (void)!¨@ù±d°1Â0@ù
 × ;
-- (long long)ndidateViewOffset: /* Error: Ran out of types for this method. */;
+- (long long)setCandidateViewOffset: /* Error: Ran out of types for this method. */;
 - (double)ù;
 - (void)on-nil trait change handler to register;
 - (_Bool)ility (%ld);
@@ -18,11 +21,6 @@
 - (void)À°þÿÿÿÿ;
 
 // Remaining properties
-@property(nonatomic, setter=_setItemFittingSizeChanged:) _Bool _itemFittingSizeChanged;
-@property(nonatomic, setter=_setItemOrderingChanged:) _Bool _itemOrderingChanged;
-@property(nonatomic, getter=isBaselineRelativeArrangement) _Bool baselineRelativeArrangement;
-@property(readonly, nonatomic) NSMapTable *customSpacings;
-@property(nonatomic) long long distribution;
 @property(nonatomic) double spacing;
 @end
 

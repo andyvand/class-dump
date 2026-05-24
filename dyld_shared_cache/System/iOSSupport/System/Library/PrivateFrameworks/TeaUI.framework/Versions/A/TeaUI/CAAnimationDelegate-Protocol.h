@@ -8,6 +8,6 @@
 
 @optional
 - (void)=%{public}@, state=%{public}@;
-- (void)ViewController;
+- (void)MastheadViewController;
 @end
 

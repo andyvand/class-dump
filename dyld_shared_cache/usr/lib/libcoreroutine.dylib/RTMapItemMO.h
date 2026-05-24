@@ -6,50 +6,29 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSArray, NSData, NSNumber, NSString, NSUUID, RTAddressMO, RTLearnedPlaceMO, RTMapItemExtendedAttributesMO, RTUserCurationMO;
+@class NSData, RTMapItemExtendedAttributesMO;
 
 @interface RTMapItemMO : RTCloudManagedObject
 {
     RTMapItemExtendedAttributesMO *cachedExtendedAttributes;
 }
 
++ (id)ine storage empty message for topic %@ with command %@;
 + (id);
-+ (id);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)ntity for IDSPublicAccountIdentity {IDSAccountIdentity:%{public}@, error:%{public}@} /* Error: Ran out of types for this method. */;
+- (void)uccessCodingKeys;
 - (void);
 - (void);
 - (void)tion submitted on %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTAddressMO *address; // @dynamic address;
-@property(copy, nonatomic) NSArray *businessHours; // @dynamic businessHours;
-@property(retain, nonatomic) RTMapItemExtendedAttributesMO *cachedExtendedAttributes; // @synthesize cachedExtendedAttributes;
-@property(copy, nonatomic) NSString *category; // @dynamic category;
-@property(copy, nonatomic) NSNumber *categoryMUID; // @dynamic categoryMUID;
-@property(retain, nonatomic) RTUserCurationMO *curationWhereOriginal; // @dynamic curationWhereOriginal;
-@property(copy, nonatomic) NSString *displayLanguage; // @dynamic displayLanguage;
-@property(nonatomic) _Bool disputed; // @dynamic disputed;
-@property(copy, nonatomic) NSUUID *extendedAttributesIdentifier; // @dynamic extendedAttributesIdentifier;
 @property(retain, nonatomic) NSData *geoMapItemHandle; // @dynamic geoMapItemHandle;
-@property(retain, nonatomic) NSData *geoMapItemIdentifier; // @dynamic geoMapItemIdentifier;
-@property(copy, nonatomic) NSNumber *latitude; // @dynamic latitude;
-@property(copy, nonatomic) NSNumber *longitude; // @dynamic longitude;
-@property(copy, nonatomic) NSNumber *mapItemPlaceType; // @dynamic mapItemPlaceType;
-@property(copy, nonatomic) NSNumber *mapItemSource; // @dynamic mapItemSource;
-@property(copy, nonatomic) NSNumber *muid; // @dynamic muid;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) RTLearnedPlaceMO *place; // @dynamic place;
-@property(copy, nonatomic) NSNumber *referenceFrame; // @dynamic referenceFrame;
-@property(copy, nonatomic) NSNumber *resultProviderID; // @dynamic resultProviderID;
-@property(copy, nonatomic) NSNumber *uncertainty; // @dynamic uncertainty;
-@property(retain, nonatomic) RTUserCurationMO *userCuration; // @dynamic userCuration;
 
 @end
 

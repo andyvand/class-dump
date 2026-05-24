@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCTranslationMap;
-@protocol FCContentContext, FCTranslationProvider;
+@class FCAsyncSerialQueue;
 
 @interface FCTranslationManager
 {
     FCAsyncSerialQueue *_queue;
-    FCTranslationMap *_translationMap;
-    id <FCContentContext> _contentContext;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)addObjectsFromArray:(id)arg1;
+- (void)[MapsSuggestionsLimitedDictionary setObject:(CDUnknownBlockType)arg1 forKeyedSubscript:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void)zeIPhone;
+- (id)elativeHomeDir;
+- (id)r proxy:%@ /* Error: Ran out of types for this method. */;
+- (void)minClusterSizeIPhone;
 - (id)º>j_pGSgG;
 - (void)À;
 
 // Remaining properties
-@property(retain, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(readonly, nonatomic) id <FCTranslationProvider> possiblyUnfetchedTranslationProvider;
 @property(retain, nonatomic) FCAsyncSerialQueue *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FCTranslationMap *translationMap; // @synthesize translationMap=_translationMap;
 
 @end
 

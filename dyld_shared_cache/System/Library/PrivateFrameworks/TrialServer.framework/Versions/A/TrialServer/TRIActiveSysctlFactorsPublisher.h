@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIActiveSysctlFactorsProviding, TRISysctlWriting;
+@protocol TRIActiveSysctlFactorsProviding;
 
 @interface TRIActiveSysctlFactorsPublisher
 {
     id <TRIActiveSysctlFactorsProviding> _factorsProvider;
-    id <TRISysctlWriting> _sysctlWriter;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)initWithImageSource:contentType:options:timeZoneLookup:cacheImageSource: /* Error: Ran out of types for this method. */;
+- (id)initWithAVProxyData:(id)arg1 timeZoneLookup:(id)arg2;
+- (id)indexOfObject:(id)arg1 inSortedRange:options:usingComparator: /* Error: Ran out of types for this method. */;
 - (void)g>";
 
 @end

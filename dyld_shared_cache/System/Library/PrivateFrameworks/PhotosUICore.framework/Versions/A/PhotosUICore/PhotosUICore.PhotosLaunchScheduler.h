@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotosLaunchScheduler
 {
     id priorityOrder;
-    id queue;
-    id queue_features;
-    id loadTimeout;
 }
 
 @end

@@ -7,11 +7,10 @@
 @class NSArray, NSData;
 
 @protocol NFTagF
+- (NSArray *)m/Library/Frameworks/Contacts.framework/Contents/MacOS/Contacts;
+- (NSData *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *IDm;
-@property(readonly, copy, nonatomic) NSData *PMm;
-@property(readonly, copy, nonatomic) NSData *SystemCode;
-@property(readonly, copy, nonatomic) NSArray *allSystemCodes;
 @end
 

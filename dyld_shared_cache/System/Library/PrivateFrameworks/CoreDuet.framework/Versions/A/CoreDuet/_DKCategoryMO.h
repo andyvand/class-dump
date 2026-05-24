@@ -12,7 +12,6 @@
 
 
 // Remaining properties
-@property(nonatomic) long long categoryType; // @dynamic categoryType;
 @property(nonatomic) long long integerValue; // @dynamic integerValue;
 @end
 

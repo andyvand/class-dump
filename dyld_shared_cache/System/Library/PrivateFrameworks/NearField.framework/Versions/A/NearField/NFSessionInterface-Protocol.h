@@ -5,5 +5,8 @@
 //
 
 @protocol NFSessionInterface
+- (oneway void)namePrefix;
+- (oneway void)CNFromABCNConversions;
+- (oneway void)};
 @end
 

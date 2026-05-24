@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSearchToolbarItem, NSString, NSToolbar, UXBarButtonItem, UXNavigationItem;
+@class NSArray, UXBarButtonItem;
 
 @interface UXWindowToolbarController
 {
     NSArray *_defaultItemIdentifiers;
-    NSArray *_allowedItemIdentifiers;
-    NSDictionary *_itemByIdentifier;
-    NSToolbar *_toolbar;
-    UXNavigationItem *_navigationItem;
-    NSSearchToolbarItem *_searchToolbarItem;
-    UXBarButtonItem *_observedProgressButtonItem;
 }
 
 - (void);
@@ -31,21 +25,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ingInput:(id)arg1 compositionController:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UXNavigationItem *navigationItem; // @synthesize navigationItem=_navigationItem;
 @property(retain, nonatomic) UXBarButtonItem *observedProgressButtonItem; // @synthesize observedProgressButtonItem=_observedProgressButtonItem;
-@property(retain, nonatomic) NSSearchToolbarItem *searchToolbarItem; // @synthesize searchToolbarItem=_searchToolbarItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSToolbar *toolbar; // @synthesize toolbar=_toolbar;
 
 @end
 

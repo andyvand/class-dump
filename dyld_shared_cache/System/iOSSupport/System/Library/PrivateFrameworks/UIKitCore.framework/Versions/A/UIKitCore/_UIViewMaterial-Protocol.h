@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITraitCollection;
+@protocol _UIViewMaterial;
+
 @protocol _UIViewMaterial
+- (id <_UIViewMaterial>)retrieveAccountAndPhoneAliasForAccounts:(UITraitCollection *)arg1 shouldFilterRecepients:(struct CGSize)arg2 requestProxySend:preferredCallerID: /* Error: Ran out of types for this method. */;
 @end
 

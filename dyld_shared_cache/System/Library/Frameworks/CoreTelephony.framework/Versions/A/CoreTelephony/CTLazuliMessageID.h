@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliOriginalMessageID, CTLazuliSecureGroupVersion, NSString;
+@class NSString;
 
 @interface CTLazuliMessageID
 {
     NSString *_uuid;
-    CTLazuliSecureGroupVersion *_secureGroupVersion;
-    CTLazuliOriginalMessageID *_originalId;
 }
 
-+ (_Bool);
++ (_Bool)Rendition:%@ subtitleRendition:%@ loadedTimeRanges:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id);
+- (id)@�?;
+- (_Bool);
+- (id);
+- (id)C;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)_bootstrapServiceType:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -32,8 +30,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CTLazuliOriginalMessageID *originalId; // @synthesize originalId=_originalId;
-@property(copy, nonatomic) CTLazuliSecureGroupVersion *secureGroupVersion; // @synthesize secureGroupVersion=_secureGroupVersion;
 @property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWInteraction> interaction;
-@property(copy, nonatomic) CDUnknownBlockType interactionBlock;
 @end
 

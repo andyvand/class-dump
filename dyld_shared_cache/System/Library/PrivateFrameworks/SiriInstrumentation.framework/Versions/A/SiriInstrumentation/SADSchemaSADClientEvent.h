@@ -6,56 +6,44 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SADSchemaSADAssetBringUpState, SADSchemaSADAvailableAssetDailyStatus, SADSchemaSADImmediateDownloadTriggered, SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus, SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus, SADSchemaSADUODAssetsPrepared, SISchemaInstrumentationMessage;
+@class SADSchemaSADUODAssetsPrepared, SISchemaInstrumentationMessage;
 
 @interface SADSchemaSADClientEvent : SISchemaTopLevelUnionType
 {
     SADSchemaSADUODAssetsPrepared *_uodAssetsPrepared;
-    SADSchemaSADAvailableAssetDailyStatus *_availableAssetDailyStatus;
-    SADSchemaSADImmediateDownloadTriggered *_immediateDownloadTriggered;
-    SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus *_intelligenceFeatureAvailabilityDetailedStatus;
-    SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus *_intelligenceFeatureAvailabilityChangeStatus;
-    SADSchemaSADAssetBringUpState *_assetBringUpState;
-    _Bool _hasUodAssetsPrepared;
-    _Bool _hasAvailableAssetDailyStatus;
-    _Bool _hasImmediateDownloadTriggered;
-    _Bool _hasIntelligenceFeatureAvailabilityDetailedStatus;
-    _Bool _hasIntelligenceFeatureAvailabilityChangeStatus;
-    _Bool _hasAssetBringUpState;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
 - (unsigned long long);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)˟;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool)Pp;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -64,32 +52,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)MESSAGE_SEND_TO_PERSON_FAILED_FORMAT;
 - (id);
 - (id);
 - (id)ùà°1Â0@ù
 × ;
-- (unsigned long long)eSearchHallucinationTime;
-- (id)tionReason;
+- (unsigned long long)deleteSearchHallucinationTime;
+- (id)cancellationReason;
 - (id)logPhase;
-- (void)Count1Hr;
+- (void)appUsageCount1Hr;
 
 // Remaining properties
-@property(retain, nonatomic) SADSchemaSADAssetBringUpState *assetBringUpState; // @synthesize assetBringUpState=_assetBringUpState;
-@property(retain, nonatomic) SADSchemaSADAvailableAssetDailyStatus *availableAssetDailyStatus; // @synthesize availableAssetDailyStatus=_availableAssetDailyStatus;
-@property(nonatomic) _Bool hasAssetBringUpState; // @synthesize hasAssetBringUpState=_hasAssetBringUpState;
-@property(nonatomic) _Bool hasAvailableAssetDailyStatus; // @synthesize hasAvailableAssetDailyStatus=_hasAvailableAssetDailyStatus;
-@property(nonatomic) _Bool hasImmediateDownloadTriggered; // @synthesize hasImmediateDownloadTriggered=_hasImmediateDownloadTriggered;
-@property(nonatomic) _Bool hasIntelligenceFeatureAvailabilityChangeStatus; // @synthesize hasIntelligenceFeatureAvailabilityChangeStatus=_hasIntelligenceFeatureAvailabilityChangeStatus;
-@property(nonatomic) _Bool hasIntelligenceFeatureAvailabilityDetailedStatus; // @synthesize hasIntelligenceFeatureAvailabilityDetailedStatus=_hasIntelligenceFeatureAvailabilityDetailedStatus;
-@property(nonatomic) _Bool hasUodAssetsPrepared; // @synthesize hasUodAssetsPrepared=_hasUodAssetsPrepared;
-@property(retain, nonatomic) SADSchemaSADImmediateDownloadTriggered *immediateDownloadTriggered; // @synthesize immediateDownloadTriggered=_immediateDownloadTriggered;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(retain, nonatomic) SADSchemaSADIntelligenceFeatureAvailabilityChangeStatus *intelligenceFeatureAvailabilityChangeStatus; // @synthesize intelligenceFeatureAvailabilityChangeStatus=_intelligenceFeatureAvailabilityChangeStatus;
-@property(retain, nonatomic) SADSchemaSADIntelligenceFeatureAvailabilityDetailedStatus *intelligenceFeatureAvailabilityDetailedStatus; // @synthesize intelligenceFeatureAvailabilityDetailedStatus=_intelligenceFeatureAvailabilityDetailedStatus;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SADSchemaSADUODAssetsPrepared *uodAssetsPrepared; // @synthesize uodAssetsPrepared=_uodAssetsPrepared;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

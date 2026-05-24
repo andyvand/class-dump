@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CBCurveShape, CBLuxRampPolicy;
-
 __attribute__((visibility("hidden")))
 @interface CBLuxRamp
 {
     int _state;
-    float _targetLux;
-    id <CBLuxRampPolicy> _policy;
-    id <CBCurveShape> _shape;
-    float _duration;
-    float _startLux;
-    float _startTime;
-    float _targetTime;
-    float _lux;
 }
 
 + (id);
 - (int);
 - (int);
 - (float);
-- (float);
+- (float)@;
 - (_Bool);
 - (int);
-- (int);
+- (int)SK2;
 - (_Bool);
 - (int);
 - (int);
@@ -36,16 +26,11 @@ __attribute__((visibility("hidden")))
 - (float);
 - (void);
 - (float);
-- (float);
-- (float);
+- (float)'B*/'1;
+- (float)rror %d;
 
 // Remaining properties
 @property(readonly) float duration; // @synthesize duration=_duration;
-@property(readonly) float lux; // @synthesize lux=_lux;
-@property(readonly) float startLux; // @synthesize startLux=_startLux;
-@property(readonly) float startTime; // @synthesize startTime=_startTime;
-@property(readonly) float targetLux;
-@property(readonly) float targetTime; // @synthesize targetTime=_targetTime;
 
 @end
 

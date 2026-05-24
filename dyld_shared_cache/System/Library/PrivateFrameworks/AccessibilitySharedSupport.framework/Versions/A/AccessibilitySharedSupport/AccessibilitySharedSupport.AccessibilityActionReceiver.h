@@ -7,12 +7,6 @@
 @interface AccessibilitySharedSupport.AccessibilityActionReceiver
 {
     id $defaultActor;
-    id client;
-    id domains;
-    id handler;
-    id monitor;
-    id sender;
-    id receiver;
 }
 
 @end

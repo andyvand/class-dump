@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatImageRequest
 {
     id size;
-    id scale;
-    id style;
-    id inventory;
-    id focalFrame;
-    id renderingMode;
-    id traitCollection;
-    id assetHandles;
-    id assetHandle;
-    id cacheIdentifier;
-    id requestData;
 }
 
 @end

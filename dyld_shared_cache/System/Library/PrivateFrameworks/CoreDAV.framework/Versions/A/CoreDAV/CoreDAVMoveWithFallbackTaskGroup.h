@@ -6,19 +6,11 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface CoreDAVMoveWithFallbackTaskGroup : CoreDAVTaskGroup
 {
     NSURL *_sourceURL;
-    NSURL *_destinationURL;
-    NSString *_previousETag;
-    _Bool _useFallback;
-    int _overwrite;
-    NSData *_dataPayload;
-    NSString *_dataContentType;
-    NSDictionary *_responseHeaders;
-    NSString *_nextETag;
 }
 
 - (_Bool);
@@ -28,30 +20,22 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (int);
-- (void);
+- (void)eys.acceptance.delay;
 - (id);
+- (id)_weekNumbersHeight;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dataContentType; // @synthesize dataContentType=_dataContentType;
-@property(retain, nonatomic) NSData *dataPayload; // @synthesize dataPayload=_dataPayload;
-@property(readonly, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(readonly, nonatomic) NSString *nextETag; // @synthesize nextETag=_nextETag;
-@property(nonatomic) int overwrite; // @synthesize overwrite=_overwrite;
-@property(retain, nonatomic) NSString *previousETag; // @synthesize previousETag=_previousETag;
-@property(readonly, nonatomic) NSDictionary *responseHeaders; // @synthesize responseHeaders=_responseHeaders;
 @property(readonly, nonatomic) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
-@property(nonatomic) _Bool useFallback; // @synthesize useFallback=_useFallback;
 
 @end
 

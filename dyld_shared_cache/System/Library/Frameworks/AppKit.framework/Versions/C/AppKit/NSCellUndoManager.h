@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool)urationKey: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool)_imageByRemovingConfigurationKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)J;
 

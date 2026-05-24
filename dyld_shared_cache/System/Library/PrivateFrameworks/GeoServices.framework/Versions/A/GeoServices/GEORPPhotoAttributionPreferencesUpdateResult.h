@@ -4,58 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPPhotoAttributionPreferences, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPPhotoAttributionPreferencesUpdateResult
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _errors;
-    GEORPPhotoAttributionPreferences *_preferences;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_errors:1;
-        unsigned int read_preferences:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ionInternal:(id)arg1;
-- (void);
++ (_Bool)setLaunchActionInternal:(id)arg1;
+- (void)setShouldRefreshRefetchedObjects:(int *)arg1;
 - (_Bool);
 - (unsigned long long);
 - (int);
-- (void);
-- (id);
+- (void)h"@9;
+- (id);
 - (int);
 - (int *);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id)r;
 - (void);
+- (id)"CSSiriClientBehaviorMonitor"16@"CSAudioStopStreamOption"24Q32@"NSString"40;
+- (void)CSAutomaticVolumeEnabledMonitor:(id)arg1 didReceiveEnabled: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)T;
 - (id);
 - (id)6@0:(struct _NSZone *)arg1 8;
-- (id)FormatStyles;
+- (id)clearFormatStyles;
 - (id)44 5;
-- (id)E_ENRICHMENT_DATA;
+- (id)COMPONENT_TYPE_ENRICHMENT_DATA;
 - (void)U¼yRO@;
 
 // Remaining properties
-@property(readonly, nonatomic) int *errors;
 @property(readonly, nonatomic) unsigned long long errorsCount;
-@property(readonly, nonatomic) _Bool hasPreferences;
-@property(retain, nonatomic) GEORPPhotoAttributionPreferences *preferences;
 
 @end
 

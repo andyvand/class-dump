@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface IMAttributedStringParserContext
 {
@@ -24,9 +24,6 @@
 
 // Remaining properties
 @property(readonly, retain) NSAttributedString *inString; // @synthesize inString=_inString;
-@property(readonly, retain) NSString *name;
-@property(readonly, retain) NSArray *resultsForLogging;
-@property(readonly) _Bool shouldPreprocess;
 
 @end
 

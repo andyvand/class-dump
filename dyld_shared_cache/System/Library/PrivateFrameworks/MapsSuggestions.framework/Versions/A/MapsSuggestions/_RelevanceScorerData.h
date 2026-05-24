@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _RelevanceScorerData
 {
     NSMutableArray *_finalRelevanceScores;
-    NSMutableArray *_indexMapping;
-    unsigned long long _inputCount;
-    NSMutableArray *_names;
-    NSMutableArray *_addresses;
-    NSMutableArray *_mapItems;
 }
 
 - (void);
@@ -22,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -33,12 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)|Il\;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *addresses; // @synthesize addresses=_addresses;
 @property(retain, nonatomic) NSMutableArray *finalRelevanceScores; // @synthesize finalRelevanceScores=_finalRelevanceScores;
-@property(retain, nonatomic) NSMutableArray *indexMapping; // @synthesize indexMapping=_indexMapping;
-@property(nonatomic) unsigned long long inputCount; // @synthesize inputCount=_inputCount;
-@property(retain, nonatomic) NSMutableArray *mapItems; // @synthesize mapItems=_mapItems;
-@property(retain, nonatomic) NSMutableArray *names; // @synthesize names=_names;
 
 @end
 

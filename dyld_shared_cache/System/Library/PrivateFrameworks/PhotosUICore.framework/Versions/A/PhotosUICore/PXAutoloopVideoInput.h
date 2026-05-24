@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSURL;
+@class AVAsset;
 
 @interface PXAutoloopVideoInput
 {
     AVAsset *_asset;
-    NSURL *_imageURL;
 }
 
 + (id);
 - (id);
-- (id)THIS_VIDEO_YOU_SUBJECT;
+- (id)CLOUD_FEED_YOU_AND_TWO_PERSONS_LIKED_THIS_VIDEO_YOU_SUBJECT;
 - (void);
 - (id)<;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) AVAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
 
 @end
 

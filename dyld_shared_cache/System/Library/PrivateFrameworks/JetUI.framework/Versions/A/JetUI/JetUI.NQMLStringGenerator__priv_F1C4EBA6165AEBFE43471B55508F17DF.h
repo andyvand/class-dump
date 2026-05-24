@@ -7,25 +7,19 @@
 @interface JetUI.NQMLStringGenerator__priv_F1C4EBA6165AEBFE43471B55508F17DF
 {
     id parser;
-    id configuration;
-    id orderedListTracker;
-    id accumulator;
-    id attributeStack;
-    id didParseEverything;
-    id foregroundColor;
 }
 
+- (void):(id)arg1: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)9SendableMessageComposeRequest";
+- (void);
+- (void);
+- (void)leCloudSyncVersions";
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)hrome;
 - (void);
 - (void);
 

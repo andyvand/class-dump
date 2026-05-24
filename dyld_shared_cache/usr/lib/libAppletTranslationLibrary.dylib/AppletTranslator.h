@@ -9,24 +9,24 @@
 }
 
 + (id);
++ (id)q;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)deleteAllSearchableItemsWithBundleID:(id)arg1 protectionClass:(id)arg2 shouldGC:(id)arg3 completionHandler:(id)arg4;
 + (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (void);
++ (id)lastForegroundedTimestamp;
++ (void)cleanupBlock;
 + (id);
-+ (void);
-+ (id);
-+ (void);
++ (void)common_MeasurementUnit_MeterPerSecond;
++ (_Bool);
 + (_Bool);
-+ (_Bool);
 + (id);
 + (id);
-+ (void)rror: /* Error: Ran out of types for this method. */;
++ (void)ParseEndEventShort:withApplet:error: /* Error: Ran out of types for this method. */;
 
 @end
 

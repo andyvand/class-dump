@@ -4,49 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface XARSignerDefaultSignatureProvider
 {
     CDUnknownBlockType _cmsCertificatesBlock;
     CDUnknownBlockType _rsaCertificatesBlock;
-    CDUnknownBlockType _CMSSignatureBlock;
-    CDUnknownBlockType _RSASignatureBlock;
 }
 
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void)M;
 
 // Remaining properties
-@property(readonly) NSArray *CMSCertificates;
-@property(copy) CDUnknownBlockType CMSSignatureBlock; // @synthesize CMSSignatureBlock=_CMSSignatureBlock;
-@property(readonly) NSArray *RSACertificates;
-@property(copy) CDUnknownBlockType RSASignatureBlock; // @synthesize RSASignatureBlock=_RSASignatureBlock;
 @property(copy) CDUnknownBlockType cmsCertificatesBlock; // @synthesize cmsCertificatesBlock=_cmsCertificatesBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) CDUnknownBlockType rsaCertificatesBlock; // @synthesize rsaCertificatesBlock=_rsaCertificatesBlock;
-@property(readonly) _Bool shouldSignWithCMS;
-@property(readonly) _Bool shouldSignWithRSA;
-@property(readonly) Class superclass;
 
 @end
 

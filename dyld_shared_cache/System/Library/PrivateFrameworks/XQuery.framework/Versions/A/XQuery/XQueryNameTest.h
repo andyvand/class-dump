@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface XQueryNameTest : XQueryExpr
 {
     NSString *_name;
-    id _qName;
-    _Bool _attribute;
 }
 
 + (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)y;
 - (id);
 - (id);
 - (void);
@@ -29,13 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

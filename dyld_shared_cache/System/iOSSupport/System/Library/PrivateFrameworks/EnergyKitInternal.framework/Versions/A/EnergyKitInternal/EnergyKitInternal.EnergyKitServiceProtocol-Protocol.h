@@ -5,5 +5,6 @@
 //
 
 @protocol EnergyKitInternal.EnergyKitServiceProtocol
+- (void);
 @end
 

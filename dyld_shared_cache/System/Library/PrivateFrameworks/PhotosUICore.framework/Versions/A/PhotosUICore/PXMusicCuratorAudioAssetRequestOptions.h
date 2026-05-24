@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface PXMusicCuratorAudioAssetRequestOptions
 {
     _Bool _forceMetadataRefetch;
@@ -17,7 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool forceMetadataRefetch; // @synthesize forceMetadataRefetch=_forceMetadataRefetch;
-@property(readonly, nonatomic) NSDictionary *requestOptions;
 
 @end
 

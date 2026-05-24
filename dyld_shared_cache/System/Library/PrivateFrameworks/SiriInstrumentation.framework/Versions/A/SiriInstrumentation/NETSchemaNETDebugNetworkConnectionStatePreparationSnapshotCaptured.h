@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface NETSchemaNETDebugNetworkConnectionStatePreparationSnapshotCaptured : SISchemaInstrumentationMessage
 {
     _Bool _isExpensive;
-    NSArray *_pathGateways;
-    NSString *_connectionInfo;
-    _Bool _hasIpv6;
-    _Bool _hasIpv4;
-    _Bool _isConstrained;
-    NSArray *_pathInterfaces;
-    int _status;
-    struct {
-        unsigned int isExpensive:1;
-        unsigned int hasIpv6:1;
-        unsigned int hasIpv4:1;
-        unsigned int isConstrained:1;
-        unsigned int status:1;
-    } _has;
-    _Bool _hasConnectionInfo;
 }
 
 - (void);
@@ -33,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,63 +26,49 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)serviceLocator;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)eCustomFunctionDeleteChatBackground:wrong number of arguments /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
-- (int);
+- (int)@	;
 - (id);
 - (id)enerativeAIEnablement;
 - (id)"NSString",C,N,V_productIdentifier;
 - (_Bool)chemaCDMSpanMatcherStarted",&,N,V_startedOrChanged;
-- (void)ASE_CHANGED;
-- (void)ageFailureReason;
+- (void)CDMXPCSYSTEMEVENTTYPE_APPLICATION_SHORTCUT_DATABASE_CHANGED;
+- (void)ASRSchemaASRSampledAudioStorageFailureReason;
 - (_Bool)q;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *connectionInfo; // @synthesize connectionInfo=_connectionInfo;
-@property(nonatomic) _Bool hasConnectionInfo; // @synthesize hasConnectionInfo=_hasConnectionInfo;
-@property(nonatomic) _Bool hasHasIpv4;
-@property(nonatomic) _Bool hasHasIpv6;
-@property(nonatomic) _Bool hasIpv4; // @synthesize hasIpv4=_hasIpv4;
-@property(nonatomic) _Bool hasIpv6; // @synthesize hasIpv6=_hasIpv6;
-@property(nonatomic) _Bool hasIsConstrained;
-@property(nonatomic) _Bool hasIsExpensive;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool isConstrained; // @synthesize isConstrained=_isConstrained;
 @property(nonatomic) _Bool isExpensive; // @synthesize isExpensive=_isExpensive;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *pathGateways; // @synthesize pathGateways=_pathGateways;
-@property(copy, nonatomic) NSArray *pathInterfaces; // @synthesize pathInterfaces=_pathInterfaces;
-@property(nonatomic) int status; // @synthesize status=_status;
 
 @end
 

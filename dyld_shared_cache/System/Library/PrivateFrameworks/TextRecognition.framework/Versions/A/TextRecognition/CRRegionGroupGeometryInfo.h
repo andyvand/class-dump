@@ -9,15 +9,11 @@
 @interface CRRegionGroupGeometryInfo : CRRegionGeometryInfo
 {
     _Bool _isCenterJustified;
-    _Bool _isLeftJustified;
-    _Bool _isRightJustified;
-    CRRegionGeometryInfo *_firstSubregion;
-    CRRegionGeometryInfo *_lastSubregion;
 }
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -25,10 +21,6 @@
 
 // Remaining properties
 @property(readonly) CRRegionGeometryInfo *firstSubregion; // @synthesize firstSubregion=_firstSubregion;
-@property(readonly) _Bool isCenterJustified; // @synthesize isCenterJustified=_isCenterJustified;
-@property(readonly) _Bool isLeftJustified; // @synthesize isLeftJustified=_isLeftJustified;
-@property(readonly) _Bool isRightJustified; // @synthesize isRightJustified=_isRightJustified;
-@property(readonly) CRRegionGeometryInfo *lastSubregion; // @synthesize lastSubregion=_lastSubregion;
 
 @end
 

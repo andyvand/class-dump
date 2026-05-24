@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NSObject><NSCopying;
 
 @interface PXDataSection
 {
     id <NSObject><NSCopying> _outlineObject;
-    long long _identifier;
-    id _content;
 }
 
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)J;
 - (id);
 - (id);
 - (id);
-- (id)nager;
+- (id)keyPathsAffectingCurrentSharedLibraryDataSourceManager;
 - (long long)<;
 - (id);
 - (id)):%@ /* Error: Ran out of types for this method. */;
@@ -33,19 +30,7 @@
 - (id)ì÷ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsAnyObjects;
-@property(readonly, nonatomic) id content; // @synthesize content=_content;
-@property(readonly, nonatomic) long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id firstObject;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) id <NSObject><NSCopying> outlineObject; // @synthesize outlineObject=_outlineObject;
-@property(readonly) Class superclass;
+@property(readonly) unsigned long long count;
 
 @end
 

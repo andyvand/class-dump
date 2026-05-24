@@ -7,8 +7,6 @@
 @interface AppKit._NSSuggestionListTouchBarController
 {
     id delegate;
-    id items;
-    id touchBar;
 }
 
 - (void);

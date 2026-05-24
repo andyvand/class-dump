@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDeviceInfo, MROrigin, MRPlayerPath, NSArray, NSDate, NSMutableArray, NSNumber, NSObject;
+@class MROrigin, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRNowPlayingOriginClientRequests
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_callOutQueue;
-    struct os_unfair_lock_s _deviceInfoLock;
-    MRDeviceInfo *_deviceInfo;
-    NSMutableArray *_deviceInfoCompletions;
-    NSNumber *_volumeCapabilities;
-    NSNumber *_volume;
-    NSDate *_lastPlayingDate;
-    NSMutableArray *_nowPlayingClients;
-    NSMutableArray *_volumeCompletions;
-    NSMutableArray *_volumeCapabilitiesCompletions;
-    NSMutableArray *_lastPlayingDateCompletions;
-    MROrigin *_origin;
-    MRPlayerPath *_playerPath;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)v44@0:(CDUnknownBlockType)arg1 8@"NSString"16@"NSString"24C32@"NSString"36;
+- (void)chat:(CDUnknownBlockType)arg1 updateDisplayName:messageID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id)ata",&,N,V_imageData;
+- (id);
+- (id);
+- (void)h;
+- (id)`h
+;
 - (id);
 - (id);
 - (id);
@@ -52,13 +40,7 @@
 - (void)ø;
 
 // Remaining properties
-@property(copy, nonatomic) MRDeviceInfo *deviceInfo;
-@property(retain, nonatomic) NSDate *lastPlayingDate;
-@property(readonly, nonatomic) NSArray *nowPlayingClientRequests;
 @property(readonly, nonatomic) MROrigin *origin; // @synthesize origin=_origin;
-@property(readonly, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(retain, nonatomic) NSNumber *volume;
-@property(retain, nonatomic) NSNumber *volumeCapabilities;
 
 @end
 

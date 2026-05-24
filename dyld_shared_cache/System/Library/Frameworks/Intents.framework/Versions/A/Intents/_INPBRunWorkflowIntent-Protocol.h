@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @protocol _INPBRunWorkflowIntent
-- (_Bool)deName;
+- (_Bool);
+- (_Bool)hasPodcastEpisodeName;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasWorkflow;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDataString *workflow;
 @end
 

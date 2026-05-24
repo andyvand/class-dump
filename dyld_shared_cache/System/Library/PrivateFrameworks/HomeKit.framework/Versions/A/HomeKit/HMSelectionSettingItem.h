@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface HMSelectionSettingItem
 {
     NSUUID *_identifier;
-    NSString *_title;
-    NSString *_localizedTitle;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)$Ok@;
 - (id);
 - (void)	
 ;
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, copy) NSString *title; // @synthesize title=_title;
 
 @end
 

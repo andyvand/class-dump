@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDOfflineSearchCapabilities, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchCapabilitiesResult
 {
     PBUnknownFields *_unknownFields;
-    GEOPDOfflineSearchCapabilities *_offlineCapabilities;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)};
-- (id)aceCardPlaceCardCategory;
+- (id)_placeCardPlaceCardCategory;
 - (id)ëì;
 - (void);
 

@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface C2MPDeviceInfo
 {
     NSMutableArray *_internalTestConfigs;
-    NSString *_processName;
-    NSString *_processUuid;
-    NSString *_processVersion;
-    NSString *_productBuild;
-    NSString *_productName;
-    NSString *_productType;
-    NSString *_productVersion;
-    NSString *_userDefaultTestName;
-    _Bool _isAppleInternal;
-    struct {
-        unsigned int isAppleInternal:1;
-    } _has;
 }
 
 + (Class);
-- (id);
+- (id)_occurrenceList;
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)k;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -39,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)_;
 - (void);
 - (_Bool);
 - (id);
@@ -54,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)J/@�?;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -63,33 +51,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)LWrapper",&,N,V_urlWrapper;
 - (void);
 - (void);
 - (id)ray;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAppleInternal;
-@property(readonly, nonatomic) _Bool hasProcessName;
-@property(readonly, nonatomic) _Bool hasProcessUuid;
-@property(readonly, nonatomic) _Bool hasProcessVersion;
-@property(readonly, nonatomic) _Bool hasProductBuild;
 @property(readonly, nonatomic) _Bool hasProductName;
-@property(readonly, nonatomic) _Bool hasProductType;
-@property(readonly, nonatomic) _Bool hasProductVersion;
-@property(readonly, nonatomic) _Bool hasUserDefaultTestName;
-@property(retain, nonatomic) NSMutableArray *internalTestConfigs; // @synthesize internalTestConfigs=_internalTestConfigs;
-@property(nonatomic) _Bool isAppleInternal; // @synthesize isAppleInternal=_isAppleInternal;
-@property(retain, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(retain, nonatomic) NSString *processUuid; // @synthesize processUuid=_processUuid;
-@property(retain, nonatomic) NSString *processVersion; // @synthesize processVersion=_processVersion;
-@property(retain, nonatomic) NSString *productBuild; // @synthesize productBuild=_productBuild;
-@property(retain, nonatomic) NSString *productName; // @synthesize productName=_productName;
-@property(retain, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(retain, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
-@property(retain, nonatomic) NSString *userDefaultTestName; // @synthesize userDefaultTestName=_userDefaultTestName;
 
 @end
 

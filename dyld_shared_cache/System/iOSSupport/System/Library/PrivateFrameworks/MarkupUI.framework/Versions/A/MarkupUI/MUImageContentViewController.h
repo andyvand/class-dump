@@ -6,34 +6,9 @@
 
 #import <MarkupUI/MUContentViewController.h>
 
-@class AKPageController, AKRectAnnotation, NSArray, NSString, UIImage, UIImageView, UIScrollView, UITapGestureRecognizer, UIView;
-@protocol UIScrollViewDelegate;
-
 @interface MUImageContentViewController : MUContentViewController
 {
     struct CGPoint _pointToCenterAfterRotation;
-    _Bool _wasZoomToFit;
-    _Bool _centersIgnoringContentInsets;
-    _Bool _usePlaceholderAsDisplayImageIfPossible;
-    _Bool _inDoubleTapZoom;
-    _Bool _didSetup;
-    _Bool _firstLoadZoomToFit;
-    _Bool _zoomToFitRestoreValue;
-    UIImage *_tentativePlaceholderImage;
-    double _maxImageDimension;
-    UIView *_combinedContentView;
-    unsigned long long _inkStyle;
-    id <UIScrollViewDelegate> _scrollViewDelegate;
-    id _sourceContent;
-    UIScrollView *_scrollView;
-    UIImageView *_imageView;
-    double _downsampledImageScale;
-    CDUnknownBlockType _loadCompletionBlock;
-    UITapGestureRecognizer *_localDoubleTapRecognizer;
-    AKRectAnnotation *_editingAnnotaiton;
-    AKPageController *_pageController;
-    struct CGSize _sourceImagePixelSize;
-    struct UIEdgeInsets _edgeInsets;
 }
 
 - (_Bool);
@@ -41,6 +16,7 @@
 - (_Bool);
 - (id);
 - (struct CGSize);
+- (void)Ҁ;
 - (void);
 - (void);
 - (void);
@@ -52,14 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (double);
@@ -75,7 +50,7 @@
 - (double);
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,7 +71,7 @@
 - (void);
 - (struct CGRect);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)ed operations;
 - (void);
 - (id);
 - (void);
@@ -104,7 +79,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)eN9;
 - (void);
 - (id);
 - (void);
@@ -115,12 +90,12 @@
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)9;
+- (struct CGPoint)AC9	;
 - (void);
 - (void);
 - (void);
@@ -146,13 +121,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (id);
@@ -161,69 +136,10 @@
 - (void);
 - (void);
 - (void);
-- (struct CGSize)eOptionsForImageRef:withPreviousPage: /* Error: Ran out of types for this method. */;
+- (struct CGSize)pdfPageOptionsForImageRef:withPreviousPage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canEditContent;
-@property(nonatomic) _Bool centersIgnoringContentInsets; // @synthesize centersIgnoringContentInsets=_centersIgnoringContentInsets;
-@property(retain, nonatomic) UIView *combinedContentView; // @synthesize combinedContentView=_combinedContentView;
-@property(readonly, nonatomic) UIScrollView *contentViewScrollView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) long long defaultToolTag;
-@property(readonly, copy) NSString *description;
-@property _Bool didSetup; // @synthesize didSetup=_didSetup;
-@property double downsampledImageScale; // @synthesize downsampledImageScale=_downsampledImageScale;
-@property(nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(nonatomic) __weak AKRectAnnotation *editingAnnotaiton; // @synthesize editingAnnotaiton=_editingAnnotaiton;
-@property(nonatomic) _Bool firstLoadZoomToFit; // @synthesize firstLoadZoomToFit=_firstLoadZoomToFit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImage *imageForAnalysis;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool inDoubleTapZoom; // @synthesize inDoubleTapZoom=_inDoubleTapZoom;
-@property(nonatomic) unsigned long long inkStyle; // @synthesize inkStyle=_inkStyle;
-@property(copy) CDUnknownBlockType loadCompletionBlock; // @synthesize loadCompletionBlock=_loadCompletionBlock;
-@property(retain) UITapGestureRecognizer *localDoubleTapRecognizer; // @synthesize localDoubleTapRecognizer=_localDoubleTapRecognizer;
-@property double maxImageDimension; // @synthesize maxImageDimension=_maxImageDimension;
-@property(nonatomic) _Bool navigationModeHorizontal;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, copy, nonatomic) NSString *originalImageDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property(readonly) unsigned long long pageCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property __weak id <UIScrollViewDelegate> scrollViewDelegate; // @synthesize scrollViewDelegate=_scrollViewDelegate;
-@property(nonatomic) _Bool showsThumbnailView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 @property(retain) id sourceContent; // @synthesize sourceContent=_sourceContent;
-@property(retain) NSArray *sourceContentReplacedAnnotationMaps;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,&
-
-@property struct CGSize sourceImagePixelSize; // @synthesize sourceImagePixelSize=_sourceImagePixelSize;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsFormFill;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsImageDescriptionEditing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) UIImage *tentativePlaceholderImage; // @synthesize tentativePlaceholderImage=_tentativePlaceholderImage;
-@property(nonatomic) _Bool usePlaceholderAsDisplayImageIfPossible; // @synthesize usePlaceholderAsDisplayImageIfPossible=_usePlaceholderAsDisplayImageIfPossible;
-@property(nonatomic) _Bool zoomToFitRestoreValue; // @synthesize zoomToFitRestoreValue=_zoomToFitRestoreValue;
 
 @end
 

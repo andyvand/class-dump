@@ -9,28 +9,22 @@
 @interface SUAdminUpdate
 {
     _Bool _useDoItLaterWhenAppropriate;
-    NSString *_productKey;
-    long long _adminAction;
-    long long _restartTimeInterval;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (id);
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)annelMetadataType_EncryptionSequenceNumber got %llu (*Client <- IDSD);
 - (void);
 
 // Remaining properties
-@property(readonly) long long adminAction; // @synthesize adminAction=_adminAction;
 @property(readonly, retain) NSString *productKey; // @synthesize productKey=_productKey;
-@property long long restartTimeInterval; // @synthesize restartTimeInterval=_restartTimeInterval;
-@property _Bool useDoItLaterWhenAppropriate; // @synthesize useDoItLaterWhenAppropriate=_useDoItLaterWhenAppropriate;
 
 @end
 

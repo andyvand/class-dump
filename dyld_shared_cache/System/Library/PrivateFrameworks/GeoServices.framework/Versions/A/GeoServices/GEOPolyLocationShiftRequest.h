@@ -11,20 +11,20 @@
     GEOLatLng *_location;
 }
 
-+ (_Bool)eId:(id)arg1;
++ (_Bool)setIsExternalVisibleId:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)ed on since audioInjection is enabled;
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id)SummaryFilter";
-- (id)options: /* Error: Ran out of types for this method. */;
+- (id)_urlForDirectionsToPlace:options: /* Error: Ran out of types for this method. */;
 - (id)¨Ò;
 - (id)16;
 - (id)hÀ;

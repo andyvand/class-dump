@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNContactPosterDataStore;
 
 __attribute__((visibility("hidden")))
@@ -15,21 +14,15 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)tlight;
 - (long long);
 - (void)!ÀDùñ*ð1Â0@ù
 × ;
 - (id)cted, using a store with default options;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,37 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFPairingIdentity, HMSetupAccessoryDescription, NSData, NSMutableArray, NSObject, NSString, NSUUID;
-@protocol HMDAppleMediaAccessorySensorManagerDataSource, HMDAppleMediaAccessorySensorManagerDataStore, HMDHPSManager, OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessorySensorManager
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_derivedSensorUUID;
-    NSData *_derivedHAPAccessoryIdentifierData;
-    NSString *_derivedHAPAccessoryIdentifier;
-    _Bool _isCurrentlyPairing;
-    _Bool _isCurrentlyCheckingPairing;
-    _Bool _isCurrentlyStartingADK;
-    _Bool _hasAttemptedRecovery;
-    _Bool _shouldUseDerivedSensorUUID;
-    _Bool _hasPendingRetry;
-    _Bool _shouldAttemptToSetServiceNames;
-    NSUUID *_sensorAccessoryUUID;
-    double _pairingStartTime;
-    id <HMDHPSManager> _sensorClient;
-    id <HMDAppleMediaAccessorySensorManagerDataSource> _dataSource;
-    HMSetupAccessoryDescription *_setupDescription;
-    id <HMDAppleMediaAccessorySensorManagerDataStore> _dataStore;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    unsigned long long _pairingRetryCount;
-    NSMutableArray *_renamedServiceIDs;
-    HMFPairingIdentity *_pairingIdentity;
 }
 
 + (id)þB;
-- (void);
+- (void)MSPShareETAFetchedIDSStatusTTLKey;
 - (id);
 - (void);
 - (void);
@@ -56,21 +35,7 @@ __attribute__((visibility("hidden")))
 - (id)À!dtB;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSString *derivedHAPAccessoryIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *derivedSensorUUID;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property(copy) NSUUID *sensorAccessoryUUID; // @synthesize sensorAccessoryUUID=_sensorAccessoryUUID;
-@property(readonly) Class superclass;
 
 @end
 

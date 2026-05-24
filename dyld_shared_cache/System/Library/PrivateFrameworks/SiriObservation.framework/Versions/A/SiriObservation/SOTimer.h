@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, NSUUID;
+@class NSUUID;
 
 @interface SOTimer
 {
     _Bool _isFiring;
-    NSUUID *_timerID;
-    NSURL *_timerURL;
-    NSString *_title;
-    long long _state;
-    double _duration;
-    long long _type;
-    double _fireTimeInterval;
-    NSDate *_fireDate;
-    NSDate *_firedDate;
-    NSDate *_dismissedDate;
-    NSDate *_lastModifiedDate;
 }
 
 + (id);
@@ -31,17 +20,17 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)Ǥ+{;
 - (id);
 - (long long);
 - (long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ollerOperatorCreateResult";
 - (id);
 - (id);
 - (id);
@@ -50,18 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *dismissedDate; // @synthesize dismissedDate=_dismissedDate;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, copy, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(readonly, nonatomic) double fireTimeInterval; // @synthesize fireTimeInterval=_fireTimeInterval;
-@property(readonly, copy, nonatomic) NSDate *firedDate; // @synthesize firedDate=_firedDate;
-@property(readonly, nonatomic) _Bool isFiring; // @synthesize isFiring=_isFiring;
-@property(readonly, copy, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 @property(readonly, copy, nonatomic) NSUUID *timerID; // @synthesize timerID=_timerID;
-@property(readonly, copy, nonatomic) NSURL *timerURL; // @synthesize timerURL=_timerURL;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

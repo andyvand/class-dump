@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, UIAlertController;
+@class UIAlertController;
 
 @interface WBUFormAutoFillPrompt
 {
     UIAlertController *_alertController;
-    NSURL *_url;
 }
 
 + (void);
-+ (void);
-- (void);
++ (void)A;
+- (void)OptionSection;
 - (void);
 - (void);
 

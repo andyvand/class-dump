@@ -4,62 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRLineWrappingContext, CRLineWrappingParameters, NSString;
-@protocol CRLineWrappable;
-
 @interface CRWrappingEvaluationResult
 {
     _Bool _matchingLocales;
-    _Bool _isOversegmented;
-    _Bool _leadingAligned;
-    _Bool _centerAligned;
-    _Bool _continuesToNewColumn;
-    _Bool _midSentencePunctuated;
-    _Bool _bothBeginWithDigits;
-    _Bool _f2StartOfSentence;
-    _Bool _oversegmentedListItem;
-    _Bool _isHyphenatedPrefixOfWord;
-    _Bool _shouldAllowWhitespaceDelimiter;
-    _Bool _f2BeginsWithDD;
-    _Bool _f1EndsWithDD;
-    _Bool _f2FullyDD;
-    _Bool _multilineDD;
-    _Bool _wrappedDD;
-    _Bool _lmScoreSet;
-    _Bool _eosLMScoreSet;
-    _Bool _featureTokensSet;
-    _Bool _contextNoText;
-    _Bool _featureInTestNoText;
-    float _textHeightRatio;
-    float _textWidthRatio;
-    float _angleDiff;
-    float _topDistanceLeft;
-    float _topDistanceRight;
-    float _topDistanceRightToBottomLeft;
-    float _leftDistance;
-    float _rightDistance;
-    float _midDistance;
-    float _newParagraphIndentDistanceRatio;
-    float _horizontalOverlap;
-    float _verticalOverlap;
-    float _xSpace;
-    float _ySpace;
-    id <CRLineWrappable> _featureInTest;
-    NSString *_paragraphText;
-    double _verticalSpacing;
-    CRLineWrappingParameters *_parameters;
-    CRLineWrappingContext *_context;
-    NSString *_sentencePuncStringToCheck;
-    double _cachedLMScore;
-    double _cachedEOSLMScore;
-    struct CGSize _imageSize;
-    struct CGSize _lastFeatureSize;
-    struct CGSize _featureInTestSize;
-    vector_9c509c4c _cachedFeatureTokens;
 }
 
 - (float);
-- (float);
+- (float)C;
 - (_Bool);
 - (long long);
 - (double);
@@ -70,9 +21,9 @@
 - (float);
 - (long long);
 - (long long);
+- (_Bool)T_;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -85,6 +36,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -95,15 +54,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -117,7 +68,7 @@
 - (float);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -127,7 +78,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (float);
 - (_Bool);
 - (vector_9c509c4c);
@@ -154,7 +105,7 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -162,10 +113,10 @@
 - (void);
 - (void);
 - (float);
-- (float);
+- (float);
 - (float);
 - (_Bool);
-- (double);
+- (double);
 - (float);
 - (void);
 - (void);
@@ -173,7 +124,7 @@
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id)ted;
 - (id);
 - (void);
 - (void);
@@ -182,66 +133,7 @@
 - (void)ableStructureMerge}^{CRTableStructureMerge}{?=^{CRTableStructureMerge}}}}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property float angleDiff; // @synthesize angleDiff=_angleDiff;
-@property _Bool bothBeginWithDigits; // @synthesize bothBeginWithDigits=_bothBeginWithDigits;
-@property double cachedEOSLMScore; // @synthesize cachedEOSLMScore=_cachedEOSLMScore;
-@property vector_9c509c4c cachedFeatureTokens; // @synthesize cachedFeatureTokens=_cachedFeatureTokens;
-@property double cachedLMScore; // @synthesize cachedLMScore=_cachedLMScore;
-@property _Bool centerAligned; // @synthesize centerAligned=_centerAligned;
-@property __weak CRLineWrappingContext *context; // @synthesize context=_context;
-@property _Bool contextNoText; // @synthesize contextNoText=_contextNoText;
-@property _Bool continuesToNewColumn; // @synthesize continuesToNewColumn=_continuesToNewColumn;
-@property(readonly) _Bool contributesToVerticalSpacing;
-@property(readonly) double eosLMScore;
-@property _Bool eosLMScoreSet; // @synthesize eosLMScoreSet=_eosLMScoreSet;
-@property(readonly) _Bool excessiveVerticalDistance;
-@property _Bool f1EndsWithDD; // @synthesize f1EndsWithDD=_f1EndsWithDD;
-@property _Bool f2BeginsWithDD; // @synthesize f2BeginsWithDD=_f2BeginsWithDD;
-@property _Bool f2FullyDD; // @synthesize f2FullyDD=_f2FullyDD;
-@property _Bool f2StartOfSentence; // @synthesize f2StartOfSentence=_f2StartOfSentence;
-@property(retain) id <CRLineWrappable> featureInTest; // @synthesize featureInTest=_featureInTest;
-@property _Bool featureInTestNoText; // @synthesize featureInTestNoText=_featureInTestNoText;
-@property struct CGSize featureInTestSize; // @synthesize featureInTestSize=_featureInTestSize;
-@property(readonly) vector_9c509c4c featureTokens;
-@property _Bool featureTokensSet; // @synthesize featureTokensSet=_featureTokensSet;
-@property float horizontalOverlap; // @synthesize horizontalOverlap=_horizontalOverlap;
-@property(readonly) struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly) _Bool isHyphenatedPrefixOfWord; // @synthesize isHyphenatedPrefixOfWord=_isHyphenatedPrefixOfWord;
-@property _Bool isOversegmented; // @synthesize isOversegmented=_isOversegmented;
-@property struct CGSize lastFeatureSize; // @synthesize lastFeatureSize=_lastFeatureSize;
-@property _Bool leadingAligned; // @synthesize leadingAligned=_leadingAligned;
-@property float leftDistance; // @synthesize leftDistance=_leftDistance;
-@property(readonly) double lmScore;
-@property _Bool lmScoreSet; // @synthesize lmScoreSet=_lmScoreSet;
 @property _Bool matchingLocales; // @synthesize matchingLocales=_matchingLocales;
-@property float midDistance; // @synthesize midDistance=_midDistance;
-@property _Bool midSentencePunctuated; // @synthesize midSentencePunctuated=_midSentencePunctuated;
-@property _Bool multilineDD; // @synthesize multilineDD=_multilineDD;
-@property float newParagraphIndentDistanceRatio; // @synthesize newParagraphIndentDistanceRatio=_newParagraphIndentDistanceRatio;
-@property _Bool oversegmentedListItem; // @synthesize oversegmentedListItem=_oversegmentedListItem;
-@property(retain) NSString *paragraphText; // @synthesize paragraphText=_paragraphText;
-@property(retain) CRLineWrappingParameters *parameters; // @synthesize parameters=_parameters;
-@property float rightDistance; // @synthesize rightDistance=_rightDistance;
-@property(retain) NSString *sentencePuncStringToCheck; // @synthesize sentencePuncStringToCheck=_sentencePuncStringToCheck;
-@property(readonly) _Bool shouldAllowWhitespaceDelimiter; // @synthesize shouldAllowWhitespaceDelimiter=_shouldAllowWhitespaceDelimiter;
-@property(readonly) _Bool similarAngles;
-@property(readonly) _Bool similarHeights;
-@property(readonly) long long textBasedEvaluation;
-@property(readonly) long long textContentWrappingScore;
-@property float textHeightRatio; // @synthesize textHeightRatio=_textHeightRatio;
-@property float textWidthRatio; // @synthesize textWidthRatio=_textWidthRatio;
-@property(readonly) long long tokenCountDiff;
-@property float topDistanceLeft; // @synthesize topDistanceLeft=_topDistanceLeft;
-@property float topDistanceRight; // @synthesize topDistanceRight=_topDistanceRight;
-@property float topDistanceRightToBottomLeft; // @synthesize topDistanceRightToBottomLeft=_topDistanceRightToBottomLeft;
-@property float verticalOverlap; // @synthesize verticalOverlap=_verticalOverlap;
-@property double verticalSpacing; // @synthesize verticalSpacing=_verticalSpacing;
-@property(readonly) double verticalSpacingToHeightRatio;
-@property(readonly) double widthGrowth;
-@property(readonly) long long wordCountWrappingScore;
-@property _Bool wrappedDD; // @synthesize wrappedDD=_wrappedDD;
-@property float xSpace; // @synthesize xSpace=_xSpace;
-@property float ySpace; // @synthesize ySpace=_ySpace;
 
 @end
 

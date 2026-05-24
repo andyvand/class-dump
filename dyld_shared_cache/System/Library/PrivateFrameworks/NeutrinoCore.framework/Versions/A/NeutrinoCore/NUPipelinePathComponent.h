@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NUPipelinePathComponent
 {
     long long _type;
-    NSString *_name;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)quickResponsesPrediction;
 - (_Bool);
 - (id);
 - (id);
@@ -30,7 +27,6 @@
 - (void)tyleEngineConfiguration";
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

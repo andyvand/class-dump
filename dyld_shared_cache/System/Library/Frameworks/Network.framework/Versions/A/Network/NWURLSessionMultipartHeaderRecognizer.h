@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface NWURLSessionMultipartHeaderRecognizer
 {
     unsigned char _last;
-    unsigned char _current;
 }
 
-- (id);
+- (id));
 
 @end
 

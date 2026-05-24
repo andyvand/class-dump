@@ -7,10 +7,6 @@
 @interface PassKitCore.ProvisioningContinuityCarClientManager
 {
     id sid;
-    id queue;
-    id coordinator;
-    id commonCompletion;
-    id proximityVerificationType;
 }
 
 - (id);

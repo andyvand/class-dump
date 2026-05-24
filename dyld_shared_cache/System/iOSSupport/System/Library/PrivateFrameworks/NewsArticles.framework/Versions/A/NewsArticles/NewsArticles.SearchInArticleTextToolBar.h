@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (void)sion;
+- (void)recipeViewingSession;
 
 @end
 

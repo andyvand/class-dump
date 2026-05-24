@@ -7,7 +7,6 @@
 @interface ConversationKit.ConversationControlsJoinCountdownActionController.CountdownInfo
 {
     id lastCountdownStart;
-    id lastCountdownEnded;
 }
 
 @end

@@ -12,7 +12,7 @@
 
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)at identifier %@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long controllerID;

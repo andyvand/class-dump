@@ -9,13 +9,11 @@
 @interface CHSDescriptorEnablementChangeRequest
 {
     NSString *_extensionBundleIdentifier;
-    NSString *_kind;
-    _Bool _enabled;
 }
 
-+ (_Bool);
++ (_Bool)setButtonBarDictionaries: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (id);
@@ -23,16 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(readonly, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(readonly) Class superclass;
 
 @end
 

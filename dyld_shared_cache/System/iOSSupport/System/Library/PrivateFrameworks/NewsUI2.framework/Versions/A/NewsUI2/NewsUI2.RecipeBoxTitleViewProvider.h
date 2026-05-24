@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeBoxTitleViewProvider
 {
     id titleView;
-    id renderer;
 }
 
 @end

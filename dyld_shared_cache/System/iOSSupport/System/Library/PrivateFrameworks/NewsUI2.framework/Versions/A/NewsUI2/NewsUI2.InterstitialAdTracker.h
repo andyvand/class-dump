@@ -7,7 +7,6 @@
 @interface NewsUI2.InterstitialAdTracker
 {
     id tracker;
-    id trackerConfiguration;
 }
 
 @end

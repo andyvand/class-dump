@@ -15,6 +15,6 @@
 × ;
 - (void)1Â0@ù
 × ;
-- (id <_UISwipeViewManipulator>)nTraits:(UISwipeActionController *)arg1 splitTraits: /* Error: Ran out of types for this method. */;
+- (id <_UISwipeViewManipulator>)showKeyboardWithInputTraits:(UISwipeActionController *)arg1 screenTraits:splitTraits: /* Error: Ran out of types for this method. */;
 @end
 

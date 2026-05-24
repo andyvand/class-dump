@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol AVTAvatarAttributeEditorSectionSupplementalPickerItem
+- (NSString *)g.;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *localizedDescription;
 @property(readonly, copy, nonatomic) NSString *localizedName;
-@property(nonatomic, getter=isSelected) _Bool selected;
 @end
 

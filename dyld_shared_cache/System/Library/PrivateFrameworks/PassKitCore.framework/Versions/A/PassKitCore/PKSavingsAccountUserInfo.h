@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, PKAccountBeneficiaryInfo;
+@class CNContact;
 
 @interface PKSavingsAccountUserInfo
 {
     CNContact *_primaryUser;
-    PKAccountBeneficiaryInfo *_beneficiaryInfo;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
+- (id)T	;
 - (id);
+- (id);
+- (void)_nStatusUpdateDelayBin1;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id)lizedSuspendedReason;
-- (void)y;
+- (id)localizedSuspendedReason;
+- (void)notInFamily;
 
 // Remaining properties
-@property(copy, nonatomic) PKAccountBeneficiaryInfo *beneficiaryInfo; // @synthesize beneficiaryInfo=_beneficiaryInfo;
 @property(copy, nonatomic) CNContact *primaryUser; // @synthesize primaryUser=_primaryUser;
 
 @end

@@ -7,16 +7,11 @@
 @class NSArray, NSString;
 
 @protocol INSpeakable
+- (NSArray *);
+- (NSString *).;
 - (NSString *)_linkAction;
 
 // Remaining properties
-@property(readonly) NSArray *alternativeSpeakableMatches;
-@property(readonly) NSString *identifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *pronunciationHint;
 @property(readonly) NSString *spokenPhrase;
-@property(readonly) NSString *vocabularyIdentifier;
 @end
 

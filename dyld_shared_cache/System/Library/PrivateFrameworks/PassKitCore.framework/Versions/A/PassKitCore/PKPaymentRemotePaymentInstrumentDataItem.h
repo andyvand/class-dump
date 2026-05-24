@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKPaymentDataItem.h>
 
-@class CNContact, PKPaymentApplication, PKRemoteDevice, PKRemotePaymentInstrument;
+@class PKRemoteDevice;
 
 @interface PKPaymentRemotePaymentInstrumentDataItem : PKPaymentDataItem
 {
@@ -17,21 +17,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)3i}S);
 - (id);
 - (long long);
 - (_Bool)asset data from CloudKit.;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContact *billingAddress;
-@property(readonly, nonatomic) PKPaymentApplication *paymentApplication;
 @property(readonly, nonatomic) PKRemoteDevice *remoteDevice;
-@property(readonly, nonatomic) PKRemotePaymentInstrument *remotePaymentInstrument;
-@property(readonly, nonatomic) _Bool requiresBillingAddress;
 
 @end
 

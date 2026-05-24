@@ -6,23 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class NSArray, NSData, NSString, NSURL;
+@class NSString;
 
 @interface CKCodeFunctionInvokeOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _shouldSendRecordPCSKeys;
-    _Bool _enqueuedOnContainerService;
-    _Bool _legacyIsLocalBit;
-    _Bool _shouldFetchAssetContentInMemory;
-    NSString *_serviceName;
-    NSString *_functionName;
-    NSArray *_requestLocalSerializations;
-    NSArray *_requestLocalEnvelopes;
-    unsigned long long _dataProtectionType;
-    NSData *_permittedRemoteMeasurement;
-    NSString *_trustedTargetDomain;
-    NSString *_trustedTargetOID;
-    NSURL *_clientRuntimeProvidedServiceURL;
 }
 
 + (void);
@@ -37,17 +25,17 @@
 - (void);
 - (void);
 - (void);
+- (void)?A;
+- (void)9;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)k	;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -59,19 +47,7 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *clientRuntimeProvidedServiceURL; // @synthesize clientRuntimeProvidedServiceURL=_clientRuntimeProvidedServiceURL;
-@property(nonatomic) unsigned long long dataProtectionType; // @synthesize dataProtectionType=_dataProtectionType;
-@property(nonatomic) _Bool enqueuedOnContainerService; // @synthesize enqueuedOnContainerService=_enqueuedOnContainerService;
-@property(copy, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(nonatomic) _Bool legacyIsLocalBit; // @synthesize legacyIsLocalBit=_legacyIsLocalBit;
-@property(copy, nonatomic) NSData *permittedRemoteMeasurement; // @synthesize permittedRemoteMeasurement=_permittedRemoteMeasurement;
-@property(copy, nonatomic) NSArray *requestLocalEnvelopes; // @synthesize requestLocalEnvelopes=_requestLocalEnvelopes;
-@property(copy, nonatomic) NSArray *requestLocalSerializations; // @synthesize requestLocalSerializations=_requestLocalSerializations;
 @property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) _Bool shouldFetchAssetContentInMemory; // @synthesize shouldFetchAssetContentInMemory=_shouldFetchAssetContentInMemory;
-@property(nonatomic) _Bool shouldSendRecordPCSKeys; // @synthesize shouldSendRecordPCSKeys=_shouldSendRecordPCSKeys;
-@property(copy, nonatomic) NSString *trustedTargetDomain; // @synthesize trustedTargetDomain=_trustedTargetDomain;
-@property(copy, nonatomic) NSString *trustedTargetOID; // @synthesize trustedTargetOID=_trustedTargetOID;
 
 @end
 

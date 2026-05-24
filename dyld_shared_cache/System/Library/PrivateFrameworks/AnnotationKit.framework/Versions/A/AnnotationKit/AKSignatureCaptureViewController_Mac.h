@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKSignatureCameraCaptureViewController_Mac, AKSignatureGestureCaptureViewController_Mac, AKSignatureSidecarCaptureViewController_Mac, NSSegmentedControl, NSView;
-@protocol AKSignatureCaptureViewControllerDelegate;
+@class AKController;
 
 @interface AKSignatureCaptureViewController_Mac
 {
     long long _captureMode;
-    AKSignatureCameraCaptureViewController_Mac *_cameraCaptureController;
-    AKSignatureGestureCaptureViewController_Mac *_trackpadCaptureController;
-    AKSignatureSidecarCaptureViewController_Mac *_sidecarCaptureController;
-    id <AKSignatureCaptureViewControllerDelegate> _delegate;
-    AKController *_controller;
-    NSSegmentedControl *_segmentedControl;
-    NSView *_captureViewHolder;
 }
 
++ (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)P;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,21 +26,133 @@
 - (void);
 - (id);
 - (id);
+- (id)`;
+- (void)ARYING)
+            if (channelDescriptor.texcoordPrimvars[1].isUsed) {
+                int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * channelDescriptor.dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[1].offset;
+                geometry.texcoords[1] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+#if defined(NEED_IN_TEXCOORD2) && (OSD_TEXCOORD2_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+            if (channelDescriptor.texcoordPrimvars[2].isUsed) {
+                int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * channelDescriptor.dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[2].offset;
+                geometry.texcoords[2] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+#if defined(NEED_IN_TEXCOORD3) && (OSD_TEXCOORD3_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+            if (channelDescriptor.texcoordPrimvars[3].isUsed) {
+                int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * channelDescriptor.dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[3].offset;
+                geometry.texcoords[3] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+#if defined(NEED_IN_TEXCOORD4) && (OSD_TEXCOORD4_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+            if (channelDescriptor.texcoordPrimvars[4].isUsed) {
+                int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * channelDescriptor.dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[4].offset;
+                geometry.texcoords[4] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+#if defined(NEED_IN_TEXCOORD5) && (OSD_TEXCOORD5_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+            if (channelDescriptor.texcoordPrimvars[5].isUsed) {
+                int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * channelDescriptor.dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[5].offset;
+                geometry.texcoords[5] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+#if defined(NEED_IN_TEXCOORD6) && (OSD_TEXCOORD6_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+            if (channelDescriptor.texcoordPrimvars[6].isUsed) {
+                int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * channelDescriptor.dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[6].offset;
+                geometry.texcoords[6] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+#if defined(NEED_IN_TEXCOORD7) && (OSD_TEXCOORD7_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+            if (channelDescriptor.texcoordPrimvars[7].isUsed) {
+                int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * channelDescriptor.dataBufferFVarWidth + channelDescriptor.texcoordPrimvars[7].offset;
+                geometry.texcoords[7] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+            }
+#endif
+        }
+    }
+    
+#else 
+    
+#if OSD_IS_ADAPTIVE
+    int3 fvarPatchParam = osdFaceVaryingPatchParams[patchIndex];
+    bool isRegular = OsdGetPatchIsRegular(fvarPatchParam);
+    
+    int4 patchArray = osdFaceVaryingPatchArray;
+    int patchStride = OsdGetPatchNumControlVertices(patchArray.x);
+    int patchType = select(patchArray.x, int(6), isRegular);
+    int patchCVs = OsdGetPatchNumControlVertices(patchType);
+    
+    float wP[20], wDs[20], wDt[20], wDss[20], wDst[20], wDtt[20];
+    
+    if (patchType == 3) {
+        OsdGetBilinearPatchWeights(uv.x, uv.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if (patchType == 6) {
+        int boundaryMask = OsdGetPatchBoundaryMask(fvarPatchParam);
+        OsdGetBSplinePatchWeights(uv.x, uv.y, 1.0f, boundaryMask, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if (patchType == 9) {
+        OsdGetGregoryPatchWeights(uv.x, uv.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+    }
+#else
+    float wP[4], wDs[4], wDt[4], wDss[4], wDst[4], wDtt[4];
+    int patchCVs = 4;
+    int patchStride = patchCVs;
+    OsdGetBilinearPatchWeights(uv.x, uv.y, 1.0f, wP, wDs, wDt, wDss, wDst, wDtt);
+#endif
+    
+    for (int i = 0; i < patchCVs; ++i) {
+        int index = osdFaceVaryingIndices[patchIndex * patchStride + i] * OSD_FVAR_WIDTH + 0 ;
+#if defined(HAS_VERTEX_COLOR) && (OSD_COLOR_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.color += wP[i] * float4(osdFaceVaryingData[index], osdFaceVaryingData[index+1], osdFaceVaryingData[index+2], osdFaceVaryingData[index+3]);
+        index += 4;
+#endif
+#if defined(NEED_IN_TEXCOORD0) && (OSD_TEXCOORD0_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[0] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD1) && (OSD_TEXCOORD1_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[1] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD2) && (OSD_TEXCOORD2_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[2] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD3) && (OSD_TEXCOORD3_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[3] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD4) && (OSD_TEXCOORD4_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[4] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD5) && (OSD_TEXCOORD5_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[5] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD6) && (OSD_TEXCOORD6_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[6] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+#if defined(NEED_IN_TEXCOORD7) && (OSD_TEXCOORD7_INTERPOLATION_MODE == OSD_PRIMVAR_INTERPOLATION_MODE_FACE_VARYING)
+        geometry.texcoords[7] += wP[i] * float2(osdFaceVaryingData[index], osdFaceVaryingData[index+1]);
+        index += 2;
+#endif
+    }
+#endif 
+}
+#endif 
+;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)drawTextBoundingBoxesType:enableDrawing: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSView *captureViewHolder; // @synthesize captureViewHolder=_captureViewHolder;
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property __weak id <AKSignatureCaptureViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSSegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
 
 @end
 

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFQuoteParser, NSMutableArray, NSOperationQueue;
-@protocol MFSnippetCalculatorDelegate;
+@class MFQuoteParser, NSMutableArray;
 
 @interface MFSnippetCalculator
 {
     NSMutableArray *_messagesToCalculate;
-    _Bool _isCalculating;
-    id <MFSnippetCalculatorDelegate> _delegate;
-    MFQuoteParser *_quoteParser;
-    NSOperationQueue *_calculationQueue;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -32,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSOperationQueue *calculationQueue; // @synthesize calculationQueue=_calculationQueue;
-@property __weak id <MFSnippetCalculatorDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) MFQuoteParser *quoteParser; // @synthesize quoteParser=_quoteParser;
 
 @end

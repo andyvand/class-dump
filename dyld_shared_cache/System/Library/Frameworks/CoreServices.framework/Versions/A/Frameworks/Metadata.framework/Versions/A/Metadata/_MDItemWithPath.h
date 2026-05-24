@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     struct __CFString *_path;
 }
 
-- (id);
+- (id)m.apple.private.accounts.allaccounts entitlement;
 - (unsigned long long);
 - (void);
 - (oneway void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)+;
 - (unsigned long long);
 
 @end

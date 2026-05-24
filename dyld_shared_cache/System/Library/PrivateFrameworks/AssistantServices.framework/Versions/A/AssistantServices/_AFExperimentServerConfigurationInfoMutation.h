@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFExperimentServerConfigurationInfo, NSString, NSURL;
+@class AFExperimentServerConfigurationInfo;
 
 @interface _AFExperimentServerConfigurationInfoMutation
 {
     AFExperimentServerConfigurationInfo *_base;
-    NSString *_configurationIdentifier;
-    NSURL *_configurationURL;
-    double _maxTimeToSync;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasConfigurationIdentifier:1;
-        unsigned int hasConfigurationURL:1;
-        unsigned int hasMaxTimeToSync:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -27,17 +18,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (id)utgoingTriggerWithContext:(id)arg1;
-- (void)lizedDisplay;
+- (id)startAdvertisingFromOutgoingTriggerWithContext:(id)arg1;
+- (void)_localizedDisplay;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

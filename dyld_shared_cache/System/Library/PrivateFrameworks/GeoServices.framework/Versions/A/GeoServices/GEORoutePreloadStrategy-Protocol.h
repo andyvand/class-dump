@@ -7,11 +7,11 @@
 @class GEOComposedRoute, GEORoutePreloader;
 
 @protocol GEORoutePreloadStrategy
+- (void)entifiers:multivalueIdentifiers: /* Error: Ran out of types for this method. */;
 - (GEOComposedRoute *)endTime, @appid, @requesttype, @result, @xmitbytes, @recvbytes, @interface);;
 - (void)only be called once per object;
 
 // Remaining properties
 @property(nonatomic) __weak GEORoutePreloader *preloader;
-@property(retain, nonatomic) GEOComposedRoute *route;
 @end
 

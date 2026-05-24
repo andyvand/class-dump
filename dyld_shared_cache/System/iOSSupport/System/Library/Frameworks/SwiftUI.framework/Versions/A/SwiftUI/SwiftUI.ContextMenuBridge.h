@@ -7,16 +7,10 @@
 @interface SwiftUI.ContextMenuBridge
 {
     id host;
-    id interaction;
-    id menuOrder;
-    id hasContextMenuSeed;
-    id menuOrderSeed;
-    id popoverBridgeToken;
-    id presentedMenu;
 }
 
 - (void);
-- (id);
+- (id)updateMacPlatformElementCacheForUpdatedTreeDumpResponse: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)TEÂþ;
 - (void)YÏ¨5Åþ;
@@ -24,7 +18,7 @@
 - (id)ÔÅ
 ;
 - (void);
-- (id);
+- (id)attributes;
 
 @end
 

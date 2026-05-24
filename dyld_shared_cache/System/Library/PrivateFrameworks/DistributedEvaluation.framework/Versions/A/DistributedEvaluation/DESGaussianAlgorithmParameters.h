@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface DESGaussianAlgorithmParameters
 {
     double _epsilon;
-    double _delta;
-    double _clippingBound;
-    NSMutableDictionary *_parameters;
-    NSDictionary *_momentsAccountantParameters;
-    NSString *_key;
-    double _sigma;
 }
 
+- (id)alues.entity.typeIdentifier.custom.bundleId;
+- (id)ationRequest.statementResults.payload.outcome.success.returnValue.collection.values.entity.typeIdentifier.custom.bundleId;
+- (id)n.typeIdentifier.custom.bundleId;
+- (double)collection.values.entity.typeIdentifier.custom.bundleId;
+- (_Bool)ifier.custom.bundleId;
+- (void)meters.candidate.value.collection.values.primitive.app.bundleId;
 - (id);
-- (id);
-- (id);
-- (double);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)ZMsm5FQ;
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double clippingBound; // @synthesize clippingBound=_clippingBound;
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSDictionary *parameters;
-@property(readonly, nonatomic) double sigma; // @synthesize sigma=_sigma;
 
 @end
 

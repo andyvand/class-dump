@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSMutableSet, NSString;
+@class NSCache;
 
 @interface PXPeopleFaceCropManager
 {
     NSCache *_faceCropCache;
-    struct os_unfair_lock_s _faceCropCacheLock;
-    NSMutableDictionary *_faceCropRequestsByRequestIDs;
-    struct os_unfair_lock_s _faceCropRequestsByRequestIDsLock;
-    NSMutableSet *_peopleWithoutKeyFaces;
-    struct os_unfair_lock_s _peopleWithoutKeyFacesLock;
 }
 
 + (double);
@@ -27,7 +22,7 @@
 + (double);
 + (double);
 + (double);
-+ (id);
++ (id)5;
 + (_Bool);
 + (struct CGSize);
 + (_Bool);
@@ -39,11 +34,11 @@
 - (void);
 - (void);
 - (int);
+- (void)4;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,13 +48,7 @@
 - (void)d3ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

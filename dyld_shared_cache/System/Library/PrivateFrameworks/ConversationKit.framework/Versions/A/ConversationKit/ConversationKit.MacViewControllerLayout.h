@@ -7,18 +7,6 @@
 @interface ConversationKit.MacViewControllerLayout
 {
     id stateConstraints;
-    id participantListHeightConstraint;
-    id containingView;
-    id shutterButtonTopConstraint;
-    id shutterButtonBottomConstraint;
-    id currentConstraints;
-    id localParticipantViewRegularHeightConstraint;
-    id localParticipantViewRegularWidthConstraint;
-    id currentOverallLayoutState;
-    id localParticipantAspectRatio;
-    id floatingControlsView;
-    id oneToOneShutterButton;
-    id macViews;
 }
 
 @end

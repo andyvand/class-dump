@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol _INPBGetSettingIntentResponse
+- (void)i;
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(copy, nonatomic) NSArray *settingResponseDatas;
-@property(readonly, nonatomic) unsigned long long settingResponseDatasCount;
 @end
 

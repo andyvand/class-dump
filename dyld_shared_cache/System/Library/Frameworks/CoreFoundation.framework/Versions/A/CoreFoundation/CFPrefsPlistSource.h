@@ -10,22 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CFPrefsPlistSource : CFPrefsSource
 {
     struct __CFString *userIdentifier;
-    struct __CFString *domainIdentifier;
-    struct __CFString *container;
-    _Atomic struct __CFDictionary *_locallySetDict;
-    _Atomic char *accessPath;
-    unsigned int userUID;
-    _Atomic _Bool _isByHost;
-    _Atomic _Bool _volatile;
-    _Atomic _Bool _readonly;
-    _Atomic _Bool _avoidsDaemonCache;
-    _Atomic _Bool _restrictedAccess;
-    _Atomic _Bool _checkedInvalidHome;
-    _Atomic _Bool _lastWriteFailed;
-    _Atomic _Bool _observing;
-    _Atomic _Bool _byteCountLimitExceeded;
-    _Atomic _Bool _directMode;
-    _Atomic int _fileProtectionClass;
 }
 
 - (void);
@@ -35,17 +19,17 @@ __attribute__((visibility("hidden")))
 - (struct __CFString *)ó;
 - (long long)ÜÝÞßàáâãäåæçèéêëìíîïðñòóôõÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ;
 - (struct __CFArray *);
-- (id)ProviderKnownFolderLocations;
-- (void)igrationPaymentRequest;
+- (id)NSFileProviderKnownFolderLocations;
+- (void)NFCardMigrationPaymentRequest;
 - (id);
 - (id);
 - (void);
 - (void);
-- (struct __CFDictionary *)viceRemoteServerInterface;
+- (struct __CFDictionary *)GCMotionXPCProxyServiceRemoteServerInterface;
 - (void);
 - (void);
 - (_Bool);
-- (void *)nslationResult;
+- (void *)_LTStabilizationTranslationResult;
 - (void);
 - (void *);
 - (int);

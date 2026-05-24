@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMIVideoEncoderDelegateAdapter
 {
     CDUnknownBlockType _encoderDidEncodeSampleBuffer;
-    CDUnknownBlockType _encoderDidFailWithError;
 }
 
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) CDUnknownBlockType encoderDidEncodeSampleBuffer; // @synthesize encoderDidEncodeSampleBuffer=_encoderDidEncodeSampleBuffer;
-@property(copy) CDUnknownBlockType encoderDidFailWithError; // @synthesize encoderDidFailWithError=_encoderDidFailWithError;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

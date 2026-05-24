@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 @interface PXRepetitivePausableTimer
 {
     double _repetitiveInterval;
-    CDUnknownBlockType _callBlock;
-    int _reasonsToPause;
-    NSTimer *_timer;
 }
 
-- (id);
+- (id)x>;
 - (void);
 - (void);
 - (void);
@@ -22,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ge;
+- (void)curatedLibraryTransitionChromeExpandPercentage;
 - (void)Æ;
 
 @end

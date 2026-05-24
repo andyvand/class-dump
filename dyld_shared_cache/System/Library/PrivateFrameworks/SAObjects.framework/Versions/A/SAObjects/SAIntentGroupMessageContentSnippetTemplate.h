@@ -17,13 +17,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)7;
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *content;
-@property(nonatomic) _Bool sentStatus;
 
 @end
 

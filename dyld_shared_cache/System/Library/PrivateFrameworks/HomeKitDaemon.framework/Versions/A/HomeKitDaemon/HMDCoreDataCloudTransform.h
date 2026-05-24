@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCoreData, HMDCoreDataCloudTransformMergePolicy, NSManagedObjectContext, NSMapTable, NSMutableDictionary, NSMutableSet, NSObject, NSPersistentCloudKitContainerActivityVoucher, NSString, NSUserDefaults;
-@protocol HMDCoreDataCloudTransformDelegate, HMMLogEventSubmitting, OS_os_log;
+@class HMDCoreData, NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudTransform
 {
     NSObject<OS_os_log> *_logger;
-    struct hmf_unfair_data_lock_s _lock;
-    unsigned long long _importSignpostID;
-    HMDCoreDataCloudTransformMergePolicy *_mergePolicy;
-    _Bool _fakeRecordsEnabled;
-    NSManagedObjectContext *_lazyManagedObjectContext;
-    NSMutableSet *_pendingChangedStoreIdentifiers;
-    NSMutableSet *_cloudImportInProgressStoreIdentifiers;
-    id <HMDCoreDataCloudTransformDelegate> _delegate;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSPersistentCloudKitContainerActivityVoucher *_activeExportVoucher;
-    NSMutableDictionary *_historyTokensByStoreIdentifier;
-    NSMapTable *_cloudChangeListeners;
-    HMDCoreData *_coreData;
-    NSUserDefaults *_userDefaults;
 }
 
 + (void);
-+ (id);
++ (id)nePrint;
 + (Class);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (Class)FindVendorAccessoryRequest:(id)arg1;
-+ (id)BackingStoreCacheUpdateRecordOperation;
++ (Class)handleFindVendorAccessoryRequest:(id)arg1;
++ (id)HMDBackingStoreCacheUpdateRecordOperation;
 + (id);
 + (id)É[ÿ;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)doesServerSupportFeature:(id)arg1;
 - (id);
 - (_Bool);
 - (void);
@@ -50,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)icatesFromModels:(id)arg1;
+- (void)_auditAccessCodesByRemovingIllegalDuplicatesFromModels:(id)arg1;
 - (void)	
 ;
 - (id)ð;
@@ -58,24 +44,14 @@ __attribute__((visibility("hidden")))
 - (id)[%@];
 - (void)ration started error response;
 - (id)[%@ %@]>;
-- (_Bool)tResidentStatus;
+- (_Bool)HomeKitResidentStatus;
 - (void)ation failure.
 ;
 - (_Bool)¤.?;
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool badCDPState;
 @property(readonly, nonatomic) HMDCoreData *coreData; // @synthesize coreData=_coreData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMDCoreDataCloudTransformDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

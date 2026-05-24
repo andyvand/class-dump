@@ -7,7 +7,6 @@
 @protocol MPSImageSizeEncodingState
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long sourceHeight;
 @property(readonly, nonatomic) unsigned long long sourceWidth;
 @end
 

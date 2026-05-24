@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoRule
 {
     int _width;
-    int _height;
-    float _frameRate;
-    float _priority;
-    int _payload;
 }
 
 - (void);
@@ -34,11 +28,6 @@ __attribute__((visibility("hidden")))
 - (long long)multiway to OneToOne enabled is not supported. switchFromGFTToOneToOneEnabled=%d remoteSupportsGFTSwitchToOneToOne=%d ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *description;
-@property(nonatomic) float fPref; // @synthesize fPref=_priority;
-@property(readonly, nonatomic) float fRate; // @synthesize fRate=_frameRate;
-@property(readonly, nonatomic) int iHeight; // @synthesize iHeight=_height;
-@property(readonly, nonatomic) int iPayload; // @synthesize iPayload=_payload;
 @property(readonly, nonatomic) int iWidth; // @synthesize iWidth=_width;
 
 @end

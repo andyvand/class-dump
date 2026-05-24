@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+@protocol OS_xpc_object;
+
 @protocol RemoteDeviceCommon
+- (NSObject<OS_xpc_object> *)o;
 
 // Remaining properties
-@property(readonly, nonatomic) char *device_alias;
 @property(readonly, nonatomic) const char *device_name;
-@property(readonly, nonatomic) unsigned int type;
-@property(readonly, nonatomic) char *uuid;
 @end
 

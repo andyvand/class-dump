@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NSMutableArray;
 
 @interface SystemMigrationDaemon
 {
     unsigned long long _requestedDaemonScannerState;
-    NSMutableArray *_daemonAdditions;
-    NSObject<OS_dispatch_source> *_shutdownTimer;
-    struct __IPConfigurationService *_thunderboltIPService;
 }
 
 + (void);
@@ -25,7 +21,7 @@
 + (id);
 + (id);
 + (id);
-+ (void)stemConnected;
++ (void)systemConnected;
 - (void);
 - (void);
 - (struct __IPConfigurationService *);
@@ -53,16 +49,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *daemonAdditions; // @synthesize daemonAdditions=_daemonAdditions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long requestedDaemonScannerState; // @synthesize requestedDaemonScannerState=_requestedDaemonScannerState;
-@property(retain) NSObject<OS_dispatch_source> *shutdownTimer; // @synthesize shutdownTimer=_shutdownTimer;
-@property(readonly) Class superclass;
-@property struct __IPConfigurationService *thunderboltIPService; // @synthesize thunderboltIPService=_thunderboltIPService;
 
 @end
 

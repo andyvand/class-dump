@@ -6,15 +6,10 @@
 
 #import <SpotlightIndex/PRAstNode.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface PRAstFieldNode : PRAstNode
 {
     _Bool _isIgnored;
-    long long _fieldType;
-    NSString *_originalKeyword;
-    PRAstNode *_expression;
 }
 
 - (void);
@@ -25,16 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)9S;
 - (long long);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) PRAstNode *expression; // @synthesize expression=_expression;
 @property(nonatomic) long long fieldType; // @synthesize fieldType=_fieldType;
-@property(nonatomic) _Bool isIgnored; // @synthesize isIgnored=_isIgnored;
-@property(retain, nonatomic) NSString *originalKeyword; // @synthesize originalKeyword=_originalKeyword;
 
 @end
 

@@ -6,38 +6,10 @@
 
 #import <CoreImage/CIPerspectiveAutoCalc.h>
 
-@class CIImage;
-
 __attribute__((visibility("hidden")))
 @interface CIPerspectiveAutoCalcV2 : CIPerspectiveAutoCalc
 {
     struct float3x3 K;
-    struct float3x3 invK;
-    struct float3x3 T;
-    struct float3x3 invT;
-    CIImage *gradMap;
-    unsigned long long gradMapW;
-    unsigned long long gradMapH;
-    id *gradMapBmp;
-    unsigned long long gradMapRb;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> vLines;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> hLines;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> vClusterInliers;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> hClusterInliers;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> vClusterOutliers;
-    struct vector<CI::Perspective::Line, std::allocator<CI::Perspective::Line>> hClusterOutliers;
-    struct vector<LineCostProxy, std::allocator<LineCostProxy>> vClusterInliersProxies;
-    struct vector<LineCostProxy, std::allocator<LineCostProxy>> hClusterInliersProxies;
-    struct vector<LineCostProxy, std::allocator<LineCostProxy>> vClusterOutliersProxies;
-    struct vector<LineCostProxy, std::allocator<LineCostProxy>> hClusterOutliersProxies;
-    id initialSimplexVerticesXYZ[64];
-    id initialSimplexVerticesXZ[16];
-    id initialSimplexVerticesYZ[16];
-    int solutionType;
-    struct Solution solution;
-    double unlimitedPitch;
-    double unlimitedYaw;
-    double unlimitedRoll;
 }
 
 - (double);
@@ -45,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (id);
 - (void);
@@ -65,8 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) double unlimitedPitch; // @synthesize unlimitedPitch;
-@property(readonly) double unlimitedRoll; // @synthesize unlimitedRoll;
-@property(readonly) double unlimitedYaw; // @synthesize unlimitedYaw;
 
 @end
 

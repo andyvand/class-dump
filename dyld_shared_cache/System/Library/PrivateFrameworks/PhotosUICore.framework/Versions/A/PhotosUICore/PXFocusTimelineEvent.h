@@ -7,9 +7,6 @@
 @interface PXFocusTimelineEvent
 {
     _Bool _shouldAnimate;
-    unsigned long long _type;
-    struct CGPoint _location;
-    CDStruct_1b6d18a9 _time;
 }
 
 - (id);
@@ -17,13 +14,10 @@
 - (_Bool);
 - (unsigned long long);
 - (CDStruct_1b6d18a9)ôG;
-- (struct CGPoint)Identifier1;
+- (struct CGPoint)PXMockStepContextIdentifier1;
 - (void)ð?;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(nonatomic) _Bool shouldAnimate; // @synthesize shouldAnimate=_shouldAnimate;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 time; // @synthesize time=_time;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

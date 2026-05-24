@@ -7,19 +7,6 @@
 @interface AWDSlowWiFiNotification
 {
     unsigned long long _timestamp;
-    unsigned int _actionField;
-    unsigned int _recoveryAction;
-    unsigned int _recoveryReason;
-    unsigned int _userInput;
-    _Bool _facetimeCallInProgress;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int actionField:1;
-        unsigned int recoveryAction:1;
-        unsigned int recoveryReason:1;
-        unsigned int userInput:1;
-        unsigned int facetimeCallInProgress:1;
-    } _has;
 }
 
 - (void);
@@ -27,12 +14,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
-- (_Bool);
+- (unsigned int)R	ja;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,32 +30,21 @@
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (void);
+- (void)?kh0;
+- (void)?;
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)"	;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)9;
+- (id)!;
 
 // Remaining properties
-@property(nonatomic) unsigned int actionField; // @synthesize actionField=_actionField;
-@property(nonatomic) _Bool facetimeCallInProgress; // @synthesize facetimeCallInProgress=_facetimeCallInProgress;
-@property(nonatomic) _Bool hasActionField;
-@property(nonatomic) _Bool hasFacetimeCallInProgress;
-@property(nonatomic) _Bool hasRecoveryAction;
-@property(nonatomic) _Bool hasRecoveryReason;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUserInput;
-@property(nonatomic) unsigned int recoveryAction; // @synthesize recoveryAction=_recoveryAction;
-@property(nonatomic) unsigned int recoveryReason; // @synthesize recoveryReason=_recoveryReason;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int userInput; // @synthesize userInput=_userInput;
 
 @end
 

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLayoutArea, CPList, NSArray;
+@class CPLayoutArea;
 
 __attribute__((visibility("hidden")))
 @interface CPListMaker
 {
     CPLayoutArea *area;
-    NSArray *spacers;
-    unsigned int textLineCount;
-    id *textLines;
-    CPList *list;
 }
 
-+ (void);
-+ (void);
-+ (void);
++ (void)i";
++ (void);
++ (void);
 - (void);
 - (void);
 - (void);
@@ -26,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)4	;
 - (void);
 - (void);
 

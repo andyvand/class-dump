@@ -14,9 +14,9 @@
 }
 
 + (id);
++ (unsigned short)P;
 + (unsigned short);
-+ (unsigned short);
-- (id);
+- (id)AMSPushParsableFollowUp;
 - (void);
 
 @end

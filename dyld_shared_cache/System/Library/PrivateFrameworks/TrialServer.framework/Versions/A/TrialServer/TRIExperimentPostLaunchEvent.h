@@ -4,52 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TRIExperimentDeploymentTreatment, TRITrialSystemTelemetry;
-
 @interface TRIExperimentPostLaunchEvent
 {
     unsigned char _eventType;
-    int _deploymentEnvironment;
-    NSString *_experimentStateName;
-    TRIExperimentDeploymentTreatment *_treatmentTriple;
-    NSString *_errorOrDeactivationReason;
-    NSArray *_versionedNamespaces;
-    TRITrialSystemTelemetry *_additionalTelemetry;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (id)facePositionAcceptable:(unsigned long long)arg1 imageAspect:(id)arg2;
++ (id)currentDeviceIsEligibleForHDRPlayback;
++ (id)createImageRefFromAuxiliaryImageInfo:(unsigned char)arg1 applyingOrientation:(id)arg2 scaleFactor:(id)arg3;
++ (id)copyItemAtPath:(unsigned char)arg1 toPath:(id)arg2 error: /* Error: Ran out of types for this method. */;
++ (id)copyCGImageFromImageGenerator:(unsigned char)arg1 atTime:(id)arg2 actualTime:error: /* Error: Ran out of types for this method. */;
++ (id)compoundLayerStackByUpdatingParallaxDisabled:(unsigned long long)arg1;
++ (id)d:(id)arg1 sourceAcceptableCropRectNormalized:(_Bool)arg2 sourceFaceAreaRectNormalized:(int)arg3;
++ (id)d:(id)arg1;
++ (_Bool)addAuxiliaryResourceAtURL:(unsigned char)arg1 resourceKey: /* Error: Ran out of types for this method. */;
++ (id)_volumeDuringSlowMotion;
++ (_Bool)_shouldStripCaption;
+- (id)ing:(unsigned char)arg1;
+- (id)initWithScreenSize:(unsigned char)arg1 screenScale:(id)arg2 normalizedTimeRect:(id)arg3 parallaxPadding:(id)arg4;
+- (id)initWithScreenSize:(unsigned char)arg1 screenScale:(id)arg2 denormalizedYDownTimeRect:(id)arg3 parallaxPadding:(id)arg4;
+- (id)ions:semanticEnhanceScene:contactIDsInProximity:sharedLibraryMode: /* Error: Ran out of types for this method. */;
+- (id)soprints:foodAndDrinkObservations:semanticEnhanceScene:contactIDsInProximity:sharedLibraryMode: /* Error: Ran out of types for this method. */;
+- (id)imageByApplyingOrientation: /* Error: Ran out of types for this method. */;
+- (id)dcfCompliantFilenameBaseForWritingResourceFiles;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned char);
+- (unsigned char);
 - (id);
 - (int)1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TRITrialSystemTelemetry *additionalTelemetry; // @synthesize additionalTelemetry=_additionalTelemetry;
-@property(readonly, nonatomic) int deploymentEnvironment; // @synthesize deploymentEnvironment=_deploymentEnvironment;
-@property(readonly, nonatomic) NSString *errorOrDeactivationReason; // @synthesize errorOrDeactivationReason=_errorOrDeactivationReason;
 @property(readonly, nonatomic) unsigned char eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) NSString *experimentStateName; // @synthesize experimentStateName=_experimentStateName;
-@property(readonly, nonatomic) TRIExperimentDeploymentTreatment *treatmentTriple; // @synthesize treatmentTriple=_treatmentTriple;
-@property(readonly, nonatomic) NSArray *versionedNamespaces; // @synthesize versionedNamespaces=_versionedNamespaces;
 
 @end
 

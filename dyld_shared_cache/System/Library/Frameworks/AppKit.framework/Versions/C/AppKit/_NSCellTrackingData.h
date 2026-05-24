@@ -10,25 +10,21 @@ __attribute__((visibility("hidden")))
 @interface _NSCellTrackingData
 {
     NSCell *_mouseCell;
-    long long _mouseRow;
-    long long _mouseCol;
-    _Bool _cellNeedsDisplay;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)KeyboardMutePreservesRegionalShutterClickBehaviorForLegacyDevices;
+- (void)IsSimulator;
+- (void)IsComputePacketBridge;
+- (void)Key in power source dictionary;
 - (long long);
-- (long long);
-- (id);
+- (long long)y;
+- (id)*9
+
+9*c;
 - (_Bool);
 - (void)finalURL;
 
 // Remaining properties
-@property _Bool cellNeedsDisplay; // @synthesize cellNeedsDisplay=_cellNeedsDisplay;
-@property(retain, nonatomic) NSCell *mouseCell; // @synthesize mouseCell=_mouseCell;
-@property long long mouseCol; // @synthesize mouseCol=_mouseCol;
 @property long long mouseRow; // @synthesize mouseRow=_mouseRow;
 
 @end

@@ -9,19 +9,17 @@
 @interface FCIssueThumbnail
 {
     FCAssetHandle *_thumbnailAssetHandle;
-    struct CGSize _thumbnailSize;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void)verTextColor;
+- (void)coverTextColor;
 - (struct CGSize)rrent size %{public}@ doesn't violate max size %{public}@, skipping pruning;
 
 // Remaining properties
 @property(retain, nonatomic) FCAssetHandle *thumbnailAssetHandle; // @synthesize thumbnailAssetHandle=_thumbnailAssetHandle;
-@property(nonatomic) struct CGSize thumbnailSize; // @synthesize thumbnailSize=_thumbnailSize;
 
 @end
 

@@ -21,13 +21,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void)bersCount;
+- (id)AssetResourceBackgroundUpload;
+- (id)ate];
+- (void)allClusterMembersCount;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasJpegData;
-@property(retain, nonatomic) NSData *jpegData; // @synthesize jpegData=_jpegData;
 
 @end
 

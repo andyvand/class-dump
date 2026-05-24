@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _ICLLPlaybackItemContainer
 {
     NSString *_containerId;
-    NSString *_featureName;
-    NSString *_mediaId;
-    NSString *_stationHash;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (id);

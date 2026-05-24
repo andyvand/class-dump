@@ -5,5 +5,6 @@
 //
 
 @protocol ABSearchElementRepresentationBuilder
+- (void)us bitRateDataPacer_GetPacedRate(APSDataPacerRef, uint64_t *);
 @end
 

@@ -6,14 +6,10 @@
 
 #import <CoreData/NSAtomicStore.h>
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NSXMLObjectStore2 : NSAtomicStore
 {
     unsigned long long _nextPK64;
-    void *_reserved;
-    NSDictionary *_entitiesForConfiguration;
 }
 
 + (_Bool);
@@ -30,10 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)weakObjectsHashTable;
 - (void);
 - (_Bool);
-- (id);
+- (id)K!;
 - (id);
 
 @end

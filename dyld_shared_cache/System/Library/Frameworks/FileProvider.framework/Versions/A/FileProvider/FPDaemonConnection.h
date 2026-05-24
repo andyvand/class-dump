@@ -4,61 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSXPCConnection;
-@protocol FPDDaemon, OS_dispatch_queue, OS_dispatch_source;
+@class NSXPCConnection;
+@protocol FPDDaemon;
 
 @interface FPDaemonConnection
 {
     NSXPCConnection<FPDDaemon> *_connectionQueueConnection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSMutableDictionary *_getAttributeConnections;
-    NSObject<OS_dispatch_source> *_getAttributeConnectionsIdleCleanupTimer;
-    unsigned int _user;
-    NSXPCConnection<FPDDaemon> *_connection;
 }
 
 + (_Bool);
-+ (id);
-+ (id);
++ (id)rm3D=dddddddddddddddd}20;
++ (id);
 + (id);
 + (id);
 + (id);
 + (void);
 + (id);
 + (id);
+- (void)	r`;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)setEntitlementKey:(id)arg1;
+- (void)SACardShowNextCard;
+- (void)RunNLXRequest;
+- (void)U];
 - (void);
 - (void);
 - (id);
+- (void)@;
+- (id);
 - (void);
+- (void)SArray",&,V_urls;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)initWithKeyOptions:(id)arg1 valueOptions:(CDUnknownBlockType)arg2 capacity: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -66,21 +47,35 @@
 - (void);
 - (void);
 - (void);
+- (void)AVSampleBufferDisplayLayerQueue;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)initWithQueue:(id)arg1 multiplexer:(CDUnknownBlockType)arg2;
+- (void)CTXPCGetIsInHomeCountryResponse;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)G;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -88,13 +83,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)d data missing;
+- (void)client_metadata;
 - (void);
 - (void);
 - (void)atedExtension>";
 - (unsigned int)nt:atURL:error: /* Error: Ran out of types for this method. */;
-- (void)ns;
+- (void)FSEventAdditions;
 - (void);
 - (void);
 - (id);
@@ -105,7 +100,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection<FPDDaemon> *connection; // @synthesize connection=_connection;
-@property(nonatomic) unsigned int user; // @synthesize user=_user;
 
 @end
 

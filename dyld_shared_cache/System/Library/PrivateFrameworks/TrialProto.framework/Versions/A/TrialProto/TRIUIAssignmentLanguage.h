@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, TRIPredicateExpression;
+@class NSMutableArray;
 
 @interface TRIUIAssignmentLanguage : TRIPBMessage
 {
@@ -15,16 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) int allocationUnitType; // @dynamic allocationUnitType;
-@property(retain, nonatomic) NSMutableArray *assignmentArray; // @dynamic assignmentArray;
-@property(readonly, nonatomic) unsigned long long assignmentArray_Count; // @dynamic assignmentArray_Count;
-@property(nonatomic) _Bool hasAllocationUnitType; // @dynamic hasAllocationUnitType;
-@property(nonatomic) _Bool hasPredicateExpression; // @dynamic hasPredicateExpression;
-@property(nonatomic) _Bool hasPreservePopulationDistribution; // @dynamic hasPreservePopulationDistribution;
 @property(retain, nonatomic) NSMutableArray *predicateArray; // @dynamic predicateArray;
-@property(readonly, nonatomic) unsigned long long predicateArray_Count; // @dynamic predicateArray_Count;
-@property(retain, nonatomic) TRIPredicateExpression *predicateExpression; // @dynamic predicateExpression;
-@property(nonatomic) _Bool preservePopulationDistribution; // @dynamic preservePopulationDistribution;
 
 @end
 

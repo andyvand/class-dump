@@ -10,7 +10,6 @@
 {
     id animationTimer;
     id currentTimelineIndex;
-    id nextAnimation;
 }
 
 @end

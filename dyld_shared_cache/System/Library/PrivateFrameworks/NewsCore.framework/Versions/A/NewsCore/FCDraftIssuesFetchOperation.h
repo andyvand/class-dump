@@ -6,15 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray, NSString;
 @protocol FCContentContext;
 
 @interface FCDraftIssuesFetchOperation : FCOperation
 {
     CDUnknownBlockType _fetchCompletionHandler;
-    id <FCContentContext> _context;
-    NSString *_issueListID;
-    NSArray *_resultIssues;
 }
 
 - (void);
@@ -34,9 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(retain, nonatomic) NSString *issueListID; // @synthesize issueListID=_issueListID;
-@property(retain, nonatomic) NSArray *resultIssues; // @synthesize resultIssues=_resultIssues;
 
 @end
 

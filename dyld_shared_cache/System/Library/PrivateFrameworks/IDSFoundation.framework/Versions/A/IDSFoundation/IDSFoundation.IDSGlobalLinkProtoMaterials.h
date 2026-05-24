@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void)Sync;
+- (void)AppRegistrySync;
 
 @end
 

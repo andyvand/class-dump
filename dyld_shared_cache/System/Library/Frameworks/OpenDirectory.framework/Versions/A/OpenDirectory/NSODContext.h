@@ -11,14 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)wo-class probability estimates
+;
 - (oneway void);
 - (unsigned long long);
 - (id);
+- (_Bool)redentials;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_;
 - (_Bool);
 
 @end

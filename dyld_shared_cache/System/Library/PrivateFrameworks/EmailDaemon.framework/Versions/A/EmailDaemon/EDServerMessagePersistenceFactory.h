@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDGmailLabelPersistence, EDPersistenceDatabase;
+@class EDPersistenceDatabase;
 
 @interface EDServerMessagePersistenceFactory
 {
     EDPersistenceDatabase *_database;
-    EDGmailLabelPersistence *_gmailLabelPersistence;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)UsoEntityBuilder_common_Utilities;
 - (id);
 - (void).vipsenders;
 
 // Remaining properties
 @property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, nonatomic) EDGmailLabelPersistence *gmailLabelPersistence; // @synthesize gmailLabelPersistence=_gmailLabelPersistence;
 
 @end
 

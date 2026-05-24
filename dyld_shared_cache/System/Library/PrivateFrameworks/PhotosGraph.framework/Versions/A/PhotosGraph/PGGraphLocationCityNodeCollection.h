@@ -6,27 +6,22 @@
 
 #import <PhotosGraph/PGGraphNamedLocationNodeCollection.h>
 
-@class PGGraphAddressNodeCollection, PGGraphLocationCountryNodeCollection, PGGraphLocationCountyNodeCollection, PGGraphLocationStateNodeCollection, PGGraphMomentNodeCollection;
+@class PGGraphAddressNodeCollection;
 
 @interface PGGraphLocationCityNodeCollection : PGGraphNamedLocationNodeCollection
 {
 }
 
-+ (Class);
++ (Class);
 - (id);
 - (id);
-- (id);
+- (id)qh;
 - (id);
 - (unsigned long long);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphAddressNodeCollection *addressNodes;
-@property(readonly, nonatomic) PGGraphLocationCountryNodeCollection *countryNodes;
-@property(readonly, nonatomic) PGGraphLocationCountyNodeCollection *countyNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) unsigned long long numberOfMomentNodes;
-@property(readonly, nonatomic) PGGraphLocationStateNodeCollection *stateNodes;
 
 @end
 

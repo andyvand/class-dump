@@ -18,7 +18,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)t find entity object;
 - (void);
 
 @end

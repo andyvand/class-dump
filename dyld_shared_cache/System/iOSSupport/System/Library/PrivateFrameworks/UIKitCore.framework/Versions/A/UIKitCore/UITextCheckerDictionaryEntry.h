@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface UITextCheckerDictionaryEntry
 {
     struct __CFSet *dictionary;
-    NSData *data;
-    long long size;
 }
 
 - (void);

@@ -7,11 +7,11 @@
 @class NSArray;
 
 @protocol GEOTransitVehicleEntries
+- (unsigned long long);
+- (NSArray *)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
+- (NSArray *)copyGuardianWhitelistedPropertyValuesToContacts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long firstTripID;
-@property(readonly, nonatomic) unsigned long long tripIDForNextUpcomingDeparture;
-@property(readonly, copy, nonatomic) NSArray *tripIDs;
-@property(readonly, copy, nonatomic) NSArray *upcomingTripIDs;
 @end
 

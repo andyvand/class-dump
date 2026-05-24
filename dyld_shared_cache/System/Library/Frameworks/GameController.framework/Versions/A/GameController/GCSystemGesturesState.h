@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface GCSystemGesturesState
 {
     NSString *_bundleIdentifier;
-    NSSet *_disabledSystemGestureInputNames;
-    NSSet *_enabledSystemGestureInputNames;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)K;
 - (id);
 - (id);
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSSet *disabledSystemGestureInputNames; // @synthesize disabledSystemGestureInputNames=_disabledSystemGestureInputNames;
-@property(retain, nonatomic) NSSet *enabledSystemGestureInputNames; // @synthesize enabledSystemGestureInputNames=_enabledSystemGestureInputNames;
 
 @end
 

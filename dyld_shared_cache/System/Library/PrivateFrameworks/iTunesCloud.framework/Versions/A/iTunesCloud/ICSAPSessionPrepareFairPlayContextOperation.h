@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface ICSAPSessionPrepareFairPlayContextOperation : ICAsyncOperation
 {
     ICSAPSession *_sapSession;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (CDUnknownBlockType);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (void)tName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 @property(retain, nonatomic) ICSAPSession *sapSession; // @synthesize sapSession=_sapSession;
 
 @end

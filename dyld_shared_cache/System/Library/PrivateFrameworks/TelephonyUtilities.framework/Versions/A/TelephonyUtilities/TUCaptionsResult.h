@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface TUCaptionsResult
 {
     _Bool _utteranceComplete;
-    unsigned int _utteranceNumber;
-    unsigned int _updateNumber;
-    NSArray *_tokens;
-    NSString *_text;
-    double _utteranceStartTimestamp;
-    double _utteranceDuration;
 }
 
 + (_Bool);
-- (double);
+- (double);
 - (double);
 - (_Bool);
 - (unsigned int);
@@ -29,21 +21,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@@9;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void)ial: /* Error: Ran out of types for this method. */;
+- (void)scheduleConversationLinkCheckInInitial: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
-@property(readonly, nonatomic) unsigned int updateNumber; // @synthesize updateNumber=_updateNumber;
 @property(readonly, nonatomic) _Bool utteranceComplete; // @synthesize utteranceComplete=_utteranceComplete;
-@property(readonly, nonatomic) double utteranceDuration; // @synthesize utteranceDuration=_utteranceDuration;
-@property(readonly, nonatomic) unsigned int utteranceNumber; // @synthesize utteranceNumber=_utteranceNumber;
-@property(readonly, nonatomic) double utteranceStartTimestamp; // @synthesize utteranceStartTimestamp=_utteranceStartTimestamp;
 
 @end
 

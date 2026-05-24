@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSPreMyriadVoiceTriggerMetaData, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol CSSecondPassProgressProviding, CSVoiceTriggerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol CSVoiceTriggerDelegate, OS_dispatch_queue;
 
 @interface CSPreMyriadCoordinator
 {
     id <CSVoiceTriggerDelegate> _delegate;
-    id <CSSecondPassProgressProviding> _builtInSeconPassProgressProvider;
-    id <CSSecondPassProgressProviding> _remoraSecondPassProgressProvider;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDictionary *_pendingRemoraVoiceTriggerResult;
-    NSString *_pendingRemoraVoiceTriggerDeviceId;
-    CDUnknownBlockType _pendingRemoraVoiceTriggerCompletionBlk;
-    unsigned long long _pendingRemoraVoiceTriggerDetectedTime;
-    NSDictionary *_pendingBuiltInVoiceTriggerResult;
-    CDUnknownBlockType _pendingBuiltInVoiceTriggerCompletionBlk;
-    unsigned long long _pendingBuiltInVoiceTriggerDetectedTime;
-    CSPreMyriadVoiceTriggerMetaData *_builtInVoiceTriggerMetaData;
-    NSMutableDictionary *_accessoryVoiceTriggerMetaDataByDeviceId;
 }
 
 - (void);
+- (void)vN;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)U;
 - (void);
 - (void);
 - (void);
@@ -56,42 +44,23 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)s:failed to get eligibility result:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void)initWithVectorHead:(id)arg1 tail: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)LevelAndLKFS:LKFS: /* Error: Ran out of types for this method. */;
+- (void)estimatedTTSVolumeForNoiseLevelAndLKFS:LKFS: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *accessoryVoiceTriggerMetaDataByDeviceId; // @synthesize accessoryVoiceTriggerMetaDataByDeviceId=_accessoryVoiceTriggerMetaDataByDeviceId;
-@property(nonatomic) __weak id <CSSecondPassProgressProviding> builtInSeconPassProgressProvider; // @synthesize builtInSeconPassProgressProvider=_builtInSeconPassProgressProvider;
-@property(retain, nonatomic) CSPreMyriadVoiceTriggerMetaData *builtInVoiceTriggerMetaData; // @synthesize builtInVoiceTriggerMetaData=_builtInVoiceTriggerMetaData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSVoiceTriggerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType pendingBuiltInVoiceTriggerCompletionBlk; // @synthesize pendingBuiltInVoiceTriggerCompletionBlk=_pendingBuiltInVoiceTriggerCompletionBlk;
-@property(nonatomic) unsigned long long pendingBuiltInVoiceTriggerDetectedTime; // @synthesize pendingBuiltInVoiceTriggerDetectedTime=_pendingBuiltInVoiceTriggerDetectedTime;
-@property(retain, nonatomic) NSDictionary *pendingBuiltInVoiceTriggerResult; // @synthesize pendingBuiltInVoiceTriggerResult=_pendingBuiltInVoiceTriggerResult;
-@property(copy, nonatomic) CDUnknownBlockType pendingRemoraVoiceTriggerCompletionBlk; // @synthesize pendingRemoraVoiceTriggerCompletionBlk=_pendingRemoraVoiceTriggerCompletionBlk;
-@property(nonatomic) unsigned long long pendingRemoraVoiceTriggerDetectedTime; // @synthesize pendingRemoraVoiceTriggerDetectedTime=_pendingRemoraVoiceTriggerDetectedTime;
-@property(retain, nonatomic) NSString *pendingRemoraVoiceTriggerDeviceId; // @synthesize pendingRemoraVoiceTriggerDeviceId=_pendingRemoraVoiceTriggerDeviceId;
-@property(retain, nonatomic) NSDictionary *pendingRemoraVoiceTriggerResult; // @synthesize pendingRemoraVoiceTriggerResult=_pendingRemoraVoiceTriggerResult;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) __weak id <CSSecondPassProgressProviding> remoraSecondPassProgressProvider; // @synthesize remoraSecondPassProgressProvider=_remoraSecondPassProgressProvider;
-@property(readonly) Class superclass;
 
 @end
 

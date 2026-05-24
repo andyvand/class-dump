@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString, NSXPCConnection, WFSystemSurfaceWorkflowStatusRegistry, WFVoiceShortcutCache;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface VCVoiceShortcutClient
 {
     NSObject<OS_dispatch_queue> *_internalStateQueue;
-    NSHashTable *_errorHandlers;
-    CDUnknownBlockType _creationBlock;
-    CDUnknownBlockType _interfaceSetupBlock;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
-    NSXPCConnection *_xpcConnection;
-    WFSystemSurfaceWorkflowStatusRegistry *_systemSurfaceStatus;
-    WFVoiceShortcutCache *_voiceShortcutCache;
 }
 
 + (id);
@@ -33,10 +26,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -46,8 +39,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)Wz;
+- (id)chfz;
 - (void);
 - (id);
 - (void);
@@ -59,32 +52,32 @@
 - (id);
 - (id);
 - (void);
+- (void)"EMContentRepresentation";
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)e;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)KDisplayTraitCollection";
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)̪2;
 - (void);
 - (void);
 - (_Bool);
@@ -97,48 +90,38 @@
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)C;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)@0:(CDUnknownBlockType)arg1 8@?<v@?@"<SCKDatabaseStore>">16;
+- (void)setSecurity:(id)arg1;
 - (void);
 - (id);
+- (id)setDynamicFingerPathBackgroundGradientPatternColor:(CDUnknownBlockType)arg1;
+- (void);
+- (id);
+- (id)setUiClass:(id *)arg1;
+- (id)interruptsAndClearsQueue;
+- (id)_timeEncodingValue;
+- (id);
+- (void)VNImageTranslationAlignmentObservation;
+- (id);
+- (void);
+- (id)*;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -146,6 +129,16 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -154,31 +147,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void)1Â0@ù
 × ;
-- (void)ferredMIMEType;
+- (void)preferredMIMEType;
 - (id)P;
 - (id)lle.fill;
-- (CDUnknownBlockType)dleIdentifier;
+- (CDUnknownBlockType)ExtensionBundleIdentifier;
 - (id)T`0e;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType creationBlock; // @synthesize creationBlock=_creationBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSHashTable *errorHandlers; // @synthesize errorHandlers=_errorHandlers;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CDUnknownBlockType interfaceSetupBlock; // @synthesize interfaceSetupBlock=_interfaceSetupBlock;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *internalStateQueue; // @synthesize internalStateQueue=_internalStateQueue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WFSystemSurfaceWorkflowStatusRegistry *systemSurfaceStatus; // @synthesize systemSurfaceStatus=_systemSurfaceStatus;
-@property(readonly, nonatomic) WFVoiceShortcutCache *voiceShortcutCache; // @synthesize voiceShortcutCache=_voiceShortcutCache;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *xpcQueue; // @synthesize xpcQueue=_xpcQueue;
 
 @end
 

@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface CKPresentationControllerRootViewController
 {
     _Bool _allowsRotation;
-    _Bool _allowsStatusBarChanges;
-    _Bool _restrictedToPortraitOrientation;
 }
 
+- (void)convertInlineAttachmentToTextInTextView:(_Bool)arg1 forRange: /* Error: Ran out of types for this method. */;
+- (void)inSize;
+- (_Bool)k for note… {note:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long)ViewModelPhotosSavedAllTitle;
+- (_Bool)!;
+- (unsigned long long)CKPhotosGridFooterViewModelPhotosSavedAllTitle;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsRotation; // @synthesize allowsRotation=_allowsRotation;
-@property(nonatomic) _Bool allowsStatusBarChanges; // @synthesize allowsStatusBarChanges=_allowsStatusBarChanges;
-@property(nonatomic) _Bool restrictedToPortraitOrientation; // @synthesize restrictedToPortraitOrientation=_restrictedToPortraitOrientation;
 
 @end
 

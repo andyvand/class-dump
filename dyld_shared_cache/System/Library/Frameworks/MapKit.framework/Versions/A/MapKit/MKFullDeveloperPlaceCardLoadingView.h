@@ -12,8 +12,8 @@
 }
 
 + (struct CGSize)àÝùÿ)Í<p´;
-- (id);
-- (void)tartPanning: /* Error: Ran out of types for this method. */;
+- (id)VNImageSignatureDetectorInitOption_ImageSignatureHashType;
+- (void)gestureControllerWillStartPanning: /* Error: Ran out of types for this method. */;
 
 @end
 

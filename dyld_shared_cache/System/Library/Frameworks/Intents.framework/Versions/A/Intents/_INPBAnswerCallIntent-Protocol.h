@@ -7,14 +7,12 @@
 @class NSString, _INPBIntentMetadata;
 
 @protocol _INPBAnswerCallIntent
+- (NSString *);
+- (_INPBIntentMetadata *)3Ex1DzGwiw5z-foFo/Library/Caches/com.apple.xbs/TemporaryDirectory.ecuqJw/Sources/backupd/TimeMachine-Framework/DisksAndFilesystems/TMVolumeUtilities.m;
+- (void);
 - (_Bool)_setImageTypeToStore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int audioRoute;
-@property(copy, nonatomic) NSString *callIdentifier;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(readonly, nonatomic) _Bool hasCallIdentifier;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

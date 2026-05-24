@@ -9,24 +9,20 @@
 @interface CKDemoAccount
 {
     _Bool _autoLogin;
-    NSString *_username;
-    NSString *_password;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ignatures;
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void));
 
 // Remaining properties
-@property _Bool autoLogin; // @synthesize autoLogin=_autoLogin;
-@property(readonly) NSString *password; // @synthesize password=_password;
 @property(readonly) NSString *username; // @synthesize username=_username;
 
 @end

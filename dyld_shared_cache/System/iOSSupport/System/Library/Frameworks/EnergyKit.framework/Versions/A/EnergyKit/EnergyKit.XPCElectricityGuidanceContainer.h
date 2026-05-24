@@ -7,9 +7,10 @@
 @interface EnergyKit.XPCElectricityGuidanceContainer
 {
     id value;
+    id ;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (id);
 - (id);
 - (void);

@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemElementIsEnabledKey;
 + (id);
 - (_Bool);
 - (id);

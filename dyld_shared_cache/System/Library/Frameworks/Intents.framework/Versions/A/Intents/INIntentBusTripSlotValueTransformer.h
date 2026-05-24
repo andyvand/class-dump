@@ -13,7 +13,7 @@
 + (Class);
 + (long long)payloadPaymentMethodValuesCount;
 - (id);
-- (id)rtIncidentIntent;
+- (id)INReportIncidentIntent;
 
 @end
 

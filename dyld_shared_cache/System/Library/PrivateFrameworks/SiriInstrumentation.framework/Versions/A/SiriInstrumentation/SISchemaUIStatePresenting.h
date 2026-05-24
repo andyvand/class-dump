@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUIStatePresenting : SISchemaInstrumentationMessage
 {
     int _presentationType;
-    struct {
-        unsigned int presentationType:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)getSubscriptionEntitlementsForSegment:ignoreCaches:isBackground:requestingBundleId:withReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)(is_finished, is_from_me, error);
+- (id)A;
 - (id);
-- (id);
-- (id);
-- (id)ResponseReported;
+- (id)deleteHabitualUsage;
+- (id)_hasDecisionEngineResponseReported;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPresentationType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int presentationType; // @synthesize presentationType=_presentationType;
 
 @end

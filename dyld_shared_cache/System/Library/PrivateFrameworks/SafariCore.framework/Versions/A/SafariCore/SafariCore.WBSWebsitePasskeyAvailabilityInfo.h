@@ -7,8 +7,6 @@
 @interface SafariCore.WBSWebsitePasskeyAvailabilityInfo
 {
     id supportsPasskeys;
-    id enrollURL;
-    id manageURL;
 }
 
 - (id);

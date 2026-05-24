@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString, REMObjectID;
+@class NSString, REMObjectID;
 
 @interface REMSharee
 {
     NSString *_displayName;
-    NSString *_firstName;
-    NSString *_middleName;
-    NSString *_lastName;
-    NSString *_namePrefix;
-    NSString *_nameSuffix;
-    NSString *_nickname;
-    NSString *_address;
-    long long _status;
-    long long _accessLevel;
-    REMObjectID *_objectID;
-    REMObjectID *_accountID;
-    REMObjectID *_listID;
 }
 
 + (CDUnknownBlockType);
 + (id);
 + (id);
 + (CDUnknownBlockType);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)atingSystemName;
 + (id);
-+ (_Bool);
++ (_Bool)l;
 + (id);
-+ (_Bool);
++ (_Bool)rchProvider"16^B24;
 + (id);
 + (_Bool);
 + (_Bool);
@@ -46,8 +34,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -68,32 +56,7 @@
 - (id),µöÿ«Ñ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessLevel; // @synthesize accessLevel=_accessLevel;
-@property(readonly, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *externalIdentifierForMarkedForDeletionObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(readonly, nonatomic) REMObjectID *listID; // @synthesize listID=_listID;
-@property(readonly, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(readonly, nonatomic) NSString *namePrefix; // @synthesize namePrefix=_namePrefix;
-@property(readonly, nonatomic) NSString *nameSuffix; // @synthesize nameSuffix=_nameSuffix;
-@property(readonly, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
-@property(readonly, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, nonatomic) NSPersonNameComponents *personNameComponents;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
+@property(readonly, nonatomic) REMObjectID *objectID;
 
 @end
 

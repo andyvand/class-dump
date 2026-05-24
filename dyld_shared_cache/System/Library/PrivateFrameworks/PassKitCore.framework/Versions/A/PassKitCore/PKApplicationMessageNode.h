@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol NSObject><NSCopying;
-
 @interface PKApplicationMessageNode
 {
     _Bool _visited;
-    long long _type;
-    PKApplicationMessageNode *_parent;
-    id _context;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (unsigned long long);
+- (id)@;
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)will make it impossible for Markup to modify annotations that were previously placed on an image using Markup.;
 - (id);
 - (void);
-- (id)loadTaskFailureKey;
-- (void)ONNECT_TITLE;
+- (id)PKForceURLSessionRemoteAssetDownloadTaskFailureKey;
+- (void)COULD_NOT_CONNECT_TITLE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *children;
-@property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(readonly, nonatomic) id <NSObject><NSCopying> key;
-@property(readonly, nonatomic) unsigned long long numberOfChildren;
-@property(readonly, nonatomic) __weak PKApplicationMessageNode *parent; // @synthesize parent=_parent;
-@property(readonly, nonatomic) PKApplicationMessageNode *root;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -10,17 +10,16 @@
 @interface BKSHIDEventDeferringChangeBasis
 {
     NSString *_identifier;
-    id <BKSHIDEventProvenance> _eventProvenance;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)FOLLOWUP_START_USING_MESSAGE;
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)requiresBuddyComplete;
+- (id)ero range;
 - (void);
 - (void);
 

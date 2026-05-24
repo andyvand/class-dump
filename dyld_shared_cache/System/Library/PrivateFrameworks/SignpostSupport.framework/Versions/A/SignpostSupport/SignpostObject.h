@@ -6,26 +6,12 @@
 
 #import <SignpostSupport/SignpostSupportObject.h>
 
-@class NSDictionary, NSNumber, NSString;
-
 @interface SignpostObject : SignpostSupportObject
 {
     _Bool _telemetryEnabled;
-    NSString *_name;
-    unsigned long long _signpostId;
-    unsigned long long _scope;
-    NSDictionary *_attributes;
-    NSString *_string1Name;
-    NSString *_string1Value;
-    NSString *_string2Name;
-    NSString *_string2Value;
-    NSString *_number1Name;
-    NSNumber *_number1Value;
-    NSString *_number2Name;
-    NSNumber *_number2Value;
 }
 
-+ (id);
++ (id)h;
 - (id);
 - (void);
 - (void);
@@ -35,11 +21,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -51,31 +37,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id)loat: /* Error: Ran out of types for this method. */;
+- (id)numberWithFloat: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *number1Name; // @synthesize number1Name=_number1Name;
-@property(retain, nonatomic) NSNumber *number1Value; // @synthesize number1Value=_number1Value;
-@property(retain, nonatomic) NSString *number2Name; // @synthesize number2Name=_number2Name;
-@property(retain, nonatomic) NSNumber *number2Value; // @synthesize number2Value=_number2Value;
-@property(nonatomic) unsigned long long scope; // @synthesize scope=_scope;
-@property(readonly, nonatomic) NSString *scopeString;
 @property(nonatomic) unsigned long long signpostId; // @synthesize signpostId=_signpostId;
-@property(retain, nonatomic) NSString *string1Name; // @synthesize string1Name=_string1Name;
-@property(retain, nonatomic) NSString *string1Value; // @synthesize string1Value=_string1Value;
-@property(retain, nonatomic) NSString *string2Name; // @synthesize string2Name=_string2Name;
-@property(retain, nonatomic) NSString *string2Value; // @synthesize string2Value=_string2Value;
-@property(nonatomic) _Bool telemetryEnabled; // @synthesize telemetryEnabled=_telemetryEnabled;
 
 @end
 

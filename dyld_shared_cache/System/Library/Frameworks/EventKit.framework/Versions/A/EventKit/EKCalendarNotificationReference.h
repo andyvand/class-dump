@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarNotification, EKEventStore, EKObjectID, NSDate;
+@class EKCalendarNotification;
 
 @interface EKCalendarNotificationReference
 {
     EKCalendarNotification *_notification;
-    struct os_unfair_lock_s _lock;
-    int _type;
-    EKObjectID *_objectID;
-    EKEventStore *_eventStore;
-    NSDate *_date;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)rror encoding to XPC message:(int)arg1 %@ object:%@ /* Error: Ran out of types for this method. */;
++ (id)updating=%@
+   loadRetryTimer = %@
+   response=%@
+}>
+;
++ (id)er.queue;
 - (id);
-- (id);
-- (int);
-- (long long);
-- (id);
+- (id).;
+- (int)RQHONPC] <%{public}@> Begin resolving player path for endpoint %{public}@.;
+- (long long)kMRMediaRemotePickedRouteVolumeControlAvailabilityDidChangeNotification;
+- (id)kMRMediaRemotePickedRouteVolumeControlAvailabilityDidChangeNotification;
 - (id);
 - (id);
 - (_Bool);
@@ -35,10 +34,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly, nonatomic) EKCalendarNotification *notification;
-@property(readonly, nonatomic) EKObjectID *objectID; // @synthesize objectID=_objectID;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end

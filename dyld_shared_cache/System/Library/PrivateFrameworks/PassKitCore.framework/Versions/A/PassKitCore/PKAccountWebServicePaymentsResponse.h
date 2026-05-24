@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ITLE;
+- (void)NEARBY_ERROR_RECEIVER_CASH_OFF_TITLE;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *payments; // @synthesize payments=_payments;

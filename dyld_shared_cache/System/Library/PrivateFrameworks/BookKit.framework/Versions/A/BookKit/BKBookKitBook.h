@@ -4,51 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface BKBookKitBook
 {
     _Bool _sample;
-    _Bool _locked;
-    _Bool _proof;
-    _Bool _compressed;
-    _Bool _hasPendingUpdate;
-    _Bool _computedRating;
-    NSString *_assetID;
-    NSString *_storeID;
-    NSString *_author;
-    NSString *_sortAuthor;
-    NSString *_title;
-    NSString *_sortTitle;
-    NSString *_scrollDirection;
-    NSURL *_url;
-    NSString *_genre;
-    long long _generation;
-    long long _metadataMigrationVersion;
-    long long _fileSize;
-    unsigned long long _storeFrontID;
-    long long _contentType;
-    NSNumber *_isExplicit;
-    NSDate *_dataSourceInsertionDate;
-    NSDate *_releaseDate;
-    NSDate *_purchaseDate;
-    NSDate *_expectedDate;
-    NSDate *_lastOpenDate;
-    long long _pageCount;
-    long long _rating;
-    NSDate *_updateDate;
-    NSString *_bookDescription;
-    NSString *_comments;
-    NSString *_kind;
-    NSString *_year;
-    NSString *_grouping;
-    NSNumber *_versionNumber;
-    NSString *_versionNumberHumanReadable;
-    NSString *_seriesID;
-    NSNumber *_seriesIsHidden;
-    NSString *_sequenceDisplayName;
-    NSString *_pageProgressionDirection;
-    NSURL *_permlink;
 }
 
 + (id);
@@ -94,30 +54,30 @@
 - (id);
 - (void);
 - (void);
+- (unsigned long long)clearAuthors;
+- (void)articleRecirculationComponentPlacementConfig;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)h;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id)_TtC15RemindersUICore30TTREditSectionsSmartListEditor;
+- (id);
+- (id)e_Sb8acceptedtSg;
+- (void)to list;
+- (void);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -137,7 +97,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)eworks/CoreImage.framework/Versions/A/CoreImage;
 - (void);
 - (long long);
 - (void);
@@ -145,51 +105,11 @@
 - (long long);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (id);
 
 // Remaining properties
 @property(retain) NSString *assetID; // @synthesize assetID=_assetID;
-@property(retain) NSString *author; // @synthesize author=_author;
-@property(retain) NSString *bookDescription; // @synthesize bookDescription=_bookDescription;
-@property(retain) NSString *comments; // @synthesize comments=_comments;
-@property(getter=isCompressed) _Bool compressed; // @synthesize compressed=_compressed;
-@property _Bool computedRating; // @synthesize computedRating=_computedRating;
-@property long long contentType; // @synthesize contentType=_contentType;
-@property(retain) NSDate *dataSourceInsertionDate; // @synthesize dataSourceInsertionDate=_dataSourceInsertionDate;
-@property(retain) NSDate *expectedDate; // @synthesize expectedDate=_expectedDate;
-@property long long fileSize; // @synthesize fileSize=_fileSize;
-@property long long generation; // @synthesize generation=_generation;
-@property(retain) NSString *genre; // @synthesize genre=_genre;
-@property(retain) NSString *grouping; // @synthesize grouping=_grouping;
-@property _Bool hasPendingUpdate; // @synthesize hasPendingUpdate=_hasPendingUpdate;
-@property(retain) NSNumber *isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(retain) NSString *kind; // @synthesize kind=_kind;
-@property(retain) NSDate *lastOpenDate; // @synthesize lastOpenDate=_lastOpenDate;
-@property(getter=isLocked) _Bool locked; // @synthesize locked=_locked;
-@property long long metadataMigrationVersion; // @synthesize metadataMigrationVersion=_metadataMigrationVersion;
-@property long long pageCount; // @synthesize pageCount=_pageCount;
-@property(retain) NSString *pageProgressionDirection; // @synthesize pageProgressionDirection=_pageProgressionDirection;
-@property(retain) NSURL *permlink; // @synthesize permlink=_permlink;
-@property(getter=isProof) _Bool proof; // @synthesize proof=_proof;
-@property(retain) NSDate *purchaseDate; // @synthesize purchaseDate=_purchaseDate;
-@property long long rating; // @synthesize rating=_rating;
-@property(retain) NSDate *releaseDate; // @synthesize releaseDate=_releaseDate;
-@property(getter=isSample) _Bool sample; // @synthesize sample=_sample;
-@property(retain) NSString *scrollDirection; // @synthesize scrollDirection=_scrollDirection;
-@property(retain) NSString *sequenceDisplayName; // @synthesize sequenceDisplayName=_sequenceDisplayName;
-@property(retain) NSString *seriesID; // @synthesize seriesID=_seriesID;
-@property(readonly) NSNumber *seriesIsHidden; // @synthesize seriesIsHidden=_seriesIsHidden;
-@property(retain) NSString *sortAuthor; // @synthesize sortAuthor=_sortAuthor;
-@property(retain) NSString *sortTitle; // @synthesize sortTitle=_sortTitle;
-@property unsigned long long storeFrontID; // @synthesize storeFrontID=_storeFrontID;
-@property(retain) NSString *storeID; // @synthesize storeID=_storeID;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property(retain) NSDate *updateDate; // @synthesize updateDate=_updateDate;
-@property(retain) NSURL *url; // @synthesize url=_url;
-@property(retain) NSNumber *versionNumber; // @synthesize versionNumber=_versionNumber;
-@property(retain) NSString *versionNumberHumanReadable; // @synthesize versionNumberHumanReadable=_versionNumberHumanReadable;
-@property(retain) NSString *year; // @synthesize year=_year;
 
 @end
 

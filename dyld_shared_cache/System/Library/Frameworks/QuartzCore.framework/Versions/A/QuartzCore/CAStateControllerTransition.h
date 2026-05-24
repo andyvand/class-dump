@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAStateController, CAStateTransition, NSMutableArray, NSString;
+@class CALayer, CAStateController;
 
 __attribute__((visibility("hidden")))
 @interface CAStateControllerTransition
 {
     CAStateController *_controller;
-    CALayer *_layer;
-    CAStateTransition *_transition;
-    double _beginTime;
-    double _duration;
-    float _speed;
-    NSString *_masterKey;
-    NSMutableArray *_animations;
 }
 
 - (void);
@@ -24,27 +17,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (double);
-- (float);
+- (double)_protocol;
+- (float);
 - (void);
 - (id);
 - (id)CoreAnimation:mach_msg returned 0x%x for retry with size:%zu
  /* Error: Ran out of types for this method. */;
-- (void)ctor;
+- (void)blendFactor;
 
 // Remaining properties
-@property(readonly, nonatomic) double beginTime; // @synthesize beginTime=_beginTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CALayer *layer; // @synthesize layer=_layer;
-@property(readonly, nonatomic) float speed; // @synthesize speed=_speed;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CAStateTransition *transition; // @synthesize transition=_transition;
 
 @end
 

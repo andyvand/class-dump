@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSArray, NSString;
+@class AMSProcessInfo;
 
 @interface AMSEngagementEnqueueRequest
 {
     int _processIdentifier;
-    AMSProcessInfo *_clientInfo;
-    NSArray *_destinations;
-    NSArray *_events;
-    NSString *_logKey;
-    double _timeout;
 }
 
 + (id);
@@ -38,11 +33,6 @@ gÓEÇLë>?:ñ df¾èöæ&9|J5qÕì]'ZR\¦NÛeò¡Oà*jÃ®ô
 
 // Remaining properties
 @property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(retain) NSArray *destinations; // @synthesize destinations=_destinations;
-@property(retain) NSArray *events; // @synthesize events=_events;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property double timeout; // @synthesize timeout=_timeout;
 
 @end
 

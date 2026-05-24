@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VNEspressoResources
 {
     void *_plan;
-    void *_context;
-    NSString *_modelPath;
-    NSString *_networkConfigurationName;
-    CDStruct_2bc666a5 _network;
 }
 
 - (void);
@@ -21,18 +15,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void *);
+- (void *)anged;
 - (void);
-- (CDStruct_2bc666a5)riginalBuffer: /* Error: Ran out of types for this method. */;
+- (CDStruct_2bc666a5)purgeCacheRepresentationsForOriginalBuffer: /* Error: Ran out of types for this method. */;
 - (void)D;
 - (void *)q;
 
 // Remaining properties
-@property(readonly) void *context; // @synthesize context=_context;
-@property(readonly) NSString *modelPath; // @synthesize modelPath=_modelPath;
 @property(readonly) CDStruct_2bc666a5 network; // @synthesize network=_network;
-@property(readonly) NSString *networkConfigurationName; // @synthesize networkConfigurationName=_networkConfigurationName;
-@property(readonly) void *plan; // @synthesize plan=_plan;
 
 @end
 

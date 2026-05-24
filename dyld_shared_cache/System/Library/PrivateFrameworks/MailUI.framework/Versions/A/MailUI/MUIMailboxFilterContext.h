@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFocus, NSArray;
+@class NSArray;
 
 @interface MUIMailboxFilterContext
 {
     _Bool _isFilteringAvailable;
-    NSArray *_mailboxes;
-    EMFocus *_focus;
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)� ;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void):confirmActionHandler:cancelTitle:cancelActionHandler: /* Error: Ran out of types for this method. */;
+- (void)presentAlertWithTitle:message:confirmTitle:confirmActionHandler:cancelTitle:cancelActionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) EMFocus *focus; // @synthesize focus=_focus;
-@property(readonly, nonatomic) _Bool isFilteringAvailable; // @synthesize isFilteringAvailable=_isFilteringAvailable;
 @property(readonly, copy, nonatomic) NSArray *mailboxes; // @synthesize mailboxes=_mailboxes;
 
 @end

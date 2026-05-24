@@ -6,16 +6,11 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class EKParticipant, EKUIAttendeeCommentCompositeGadget, NSButton, NSTextField;
+@class EKParticipant;
 
 @interface EKUIAttendeeCommentSingleGadget : EKUISingleViewGadget
 {
     EKParticipant *_participant;
-    NSTextField *_attendeeNameField;
-    NSTextField *_attendeeCommentField;
-    NSTextField *_attendeeCommentLastModifiedField;
-    NSButton *_clearButton;
-    EKUIAttendeeCommentCompositeGadget *_compositeGadget;
 }
 
 - (void);

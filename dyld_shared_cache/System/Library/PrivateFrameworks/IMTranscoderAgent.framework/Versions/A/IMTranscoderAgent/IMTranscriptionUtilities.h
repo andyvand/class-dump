@@ -8,10 +8,12 @@
 {
 }
 
-+ (void);
-+ (id);
-+ (id);
-+ (void);
++ (void)nt type %'C.
+;
++ (id)ean);
++ (id)ing APEndpointPlaybackSessionAirPlay
+;
++ (void)t:(id)arg1 %@ | %@;
 
 @end
 

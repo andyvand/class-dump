@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, SXConditionalObjectAnalysis, SXMutableConditionalObjectAnalysis, SXMutableNamespacedObjectReferences, SXNamespacedObjectReferences;
+@class NSMutableDictionary, SXConditionalObjectAnalysis;
 
 @interface SXDOMAnalysis
 {
     NSMutableDictionary *_roleToComponentsMap;
-    NSMutableDictionary *_componentToRoleMap;
-    NSMutableDictionary *_typeToComponentsMap;
-    NSMutableDictionary *_componentToTypeMap;
-    NSMutableDictionary *_componentStyleToComponentsMap;
-    NSMutableDictionary *_componentToComponentStylesMap;
-    NSMutableDictionary *_componentTextStyleToComponentsMap;
-    NSMutableDictionary *_componentToComponentTextStylesMap;
-    NSMutableDictionary *_textStyleToComponentsMap;
-    NSMutableDictionary *_componentToTextStylesMap;
-    NSMutableDictionary *_componentToChildComponentsMap;
-    NSMutableDictionary *_componentToParentComponentMap;
-    SXMutableConditionalObjectAnalysis *_conditionalObjectAnalysis;
-    SXMutableNamespacedObjectReferences *_namespacedObjectReferences;
 }
 
 - (id);
@@ -31,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,7 +42,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SXConditionalObjectAnalysis *conditionalObjectAnalysis; // @synthesize conditionalObjectAnalysis=_conditionalObjectAnalysis;
-@property(readonly, copy, nonatomic) SXNamespacedObjectReferences *namespacedObjectReferences; // @synthesize namespacedObjectReferences=_namespacedObjectReferences;
 
 @end
 

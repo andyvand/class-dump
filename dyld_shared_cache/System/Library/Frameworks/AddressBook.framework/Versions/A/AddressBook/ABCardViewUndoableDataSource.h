@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCommandExecutor, AKCardViewDataSource, NSString;
-@protocol ABCardViewMultiValue;
+@class AKCardViewDataSource;
 
 @interface ABCardViewUndoableDataSource
 {
     AKCardViewDataSource *_dataSource;
-    ABCommandExecutor *_commandExecutor;
 }
 
 - (id);
@@ -94,7 +92,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)=;
 - (id);
 - (id);
 - (void);
@@ -105,77 +103,49 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)en attempting to pause CPUTrace (may not be fatal):(id)arg1 %d;
+- (id)PHOTOSTREAM_HFSWARNING_TITLE;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_isInvalidated;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (_Bool);
+- (void)E;
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (_Bool);
+- (void);
+- (id)(;
 - (unsigned long long);
 - (id);
 - (void)0@ù
 × ;
-- (id)ngeInLength: /* Error: Ran out of types for this method. */;
+- (id)edited:range:changeInLength: /* Error: Ran out of types for this method. */;
 - (id)boolHash: /* Error: Ran out of types for this method. */;
-- (id)ntifiers;
-- (_Bool)ameViewTaglinePlaceholderAttributes;
-- (id)rs;
-- (id)CoreRecentsCommand;
-- (id)OFILE_FIELD;
+- (id)_personIdentifiers;
+- (_Bool)_nameViewTaglinePlaceholderAttributes;
+- (id)_fetchMembers;
+- (id)CNUIDeleteCoreRecentsCommand;
+- (id)SOCIAL_PROFILE_FIELD;
 - (id)¹m;
 - (id)·B;
 - (id)6;
 
 // Remaining properties
-@property(retain, nonatomic) id <ABCardViewMultiValue> accountKey;
-@property(retain, nonatomic) id <ABCardViewMultiValue> addressingGrammars;
-@property(retain, nonatomic) id <ABCardViewMultiValue> birthday;
-@property(retain, nonatomic) id <ABCardViewMultiValue> callAlert;
-@property(retain, nonatomic) ABCommandExecutor *commandExecutor; // @synthesize commandExecutor=_commandExecutor;
-@property(retain, nonatomic) id <ABCardViewMultiValue> contactRelations;
 @property(retain, nonatomic) AKCardViewDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) id <ABCardViewMultiValue> dates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <ABCardViewMultiValue> emailAddresses;
-@property(nonatomic) _Bool hasUpdatedPronouns;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <ABCardViewMultiValue> instantMessageAddresses;
-@property(retain, nonatomic) id <ABCardViewMultiValue> linkedContacts;
-@property(retain, nonatomic) id <ABCardViewMultiValue> nonGregorianBirthday;
-@property(retain, nonatomic) id <ABCardViewMultiValue> note;
-@property(retain, nonatomic) id <ABCardViewMultiValue> phoneNumbers;
-@property(retain, nonatomic) id <ABCardViewMultiValue> postalAddresses;
-@property(retain, nonatomic) id <ABCardViewMultiValue> preferredForName;
-@property(retain, nonatomic) id <ABCardViewMultiValue> previousFamilyName;
-@property(retain, nonatomic) id <ABCardViewMultiValue> socialProfiles;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <ABCardViewMultiValue> textAlert;
-@property(readonly, getter=isTransient) _Bool transient;
-@property(retain, nonatomic) id <ABCardViewMultiValue> urlAddresses;
 
 @end
 

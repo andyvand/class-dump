@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSDRep;
-@protocol TSDGestureDelegate, TSDGestureTarget;
-
 @interface TSWPTapAndTouchGestureRecognizer
 {
     unsigned long long _numberOfTapsRequired;
 }
 
 - (void);
-- (void);
+- (void)@;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)ovider;
+- (void)styleProvider;
 
 // Remaining properties
-@property(retain, nonatomic) id <TSDGestureTarget> cachedGestureTarget; // @dynamic cachedGestureTarget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) id <TSDGestureDelegate> gestureDelegate; // @dynamic gestureDelegate;
-@property(retain, nonatomic) NSString *gestureKind; // @dynamic gestureKind;
-@property(readonly, nonatomic) int gestureState; // @dynamic gestureState;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long numberOfTapsRequired; // @synthesize numberOfTapsRequired=_numberOfTapsRequired;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TSDRep *targetRep; // @dynamic targetRep;
 
 @end
 

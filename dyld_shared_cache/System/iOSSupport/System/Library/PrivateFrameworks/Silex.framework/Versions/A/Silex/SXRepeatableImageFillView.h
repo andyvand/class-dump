@@ -6,13 +6,11 @@
 
 #import <Silex/SXFillView.h>
 
-@class SXClippingView, SXRepeatableImageFill, SXRepeatableImageView;
+@class SXRepeatableImageFill, SXRepeatableImageView;
 
 @interface SXRepeatableImageFillView : SXFillView
 {
     SXRepeatableImageView *_imageView;
-    SXClippingView *_clippingView;
-    struct CGSize _patternSize;
 }
 
 - (struct CGSize);
@@ -21,20 +19,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)Needed;
-- (void)fontAttributes;
+- (void)createTextInfoIfNeeded;
+- (void)_fontAttributes;
 - (struct CGRect)y;
 
 // Remaining properties
-@property(readonly, nonatomic) SXClippingView *clippingView; // @synthesize clippingView=_clippingView;
 @property(readonly, nonatomic) SXRepeatableImageFill *fill;
-@property(readonly, nonatomic) SXRepeatableImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) struct CGSize patternSize; // @synthesize patternSize=_patternSize;
 
 @end
 

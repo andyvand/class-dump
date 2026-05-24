@@ -7,17 +7,15 @@
 @interface AKPaddedTextFieldCell
 {
     _Bool _shouldPad;
-    _Bool _isSignInView;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGRect);
 
 // Remaining properties
-@property(nonatomic) _Bool isSignInView; // @synthesize isSignInView=_isSignInView;
 @property(nonatomic) _Bool shouldPad; // @synthesize shouldPad=_shouldPad;
 
 @end

@@ -12,22 +12,22 @@
     NSSet *_categories;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)r type:(unsigned long long)arg1 %@;
++ (id)Could not find an expected event class for type:(unsigned long long)arg1 %@;
++ (id)tionType:(id)arg1 %@, guids:(id)arg2 %@;
 + (_Bool)ntrollerInColumn:layout:] /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (id)setIncomingTranslatedMessageIdentifier: /* Error: Ran out of types for this method. */;
+- (id)setFetchUserQuotaCompletionBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)nt:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
 - (id)isplay"b1"generatesThumbnails"b1"skipImageStats"b1};
-- (_Bool)tsIsSingleValue:(id)arg1;
-- (void)Keyboard;
+- (_Bool)setContentsIsSingleValue:(id)arg1;
+- (void)isKanaKeyboard;
 - (id)sitionAnimationSettings;
 - (void);
 - (unsigned long long)Õnd;

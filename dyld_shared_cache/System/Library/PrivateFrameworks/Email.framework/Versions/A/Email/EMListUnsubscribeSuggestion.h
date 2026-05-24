@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMListUnsubscribeCommand, NSString, SGSuggestionPresenter;
-@protocol SGSuggestion, SGSuggestionDelegate;
+@class EMListUnsubscribeCommand;
 
 @interface EMListUnsubscribeSuggestion
 {
     _Bool _shouldShowICloudUnsubscribe;
-    id <SGSuggestionDelegate> suggestionDelegate;
-    EMListUnsubscribeCommand *_listUnsubscribeCommand;
-    SGSuggestionPresenter *_suggestionPresenter;
 }
 
 + (id);
@@ -20,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)M=;
 - (id);
 - (id);
 - (id);
@@ -38,8 +34,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)ManagerError;
+- (id)AccessoryPresenceUpdate;
 - (void);
 - (void);
 - (id);
@@ -47,25 +43,13 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_retryActivityFired;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) EMListUnsubscribeCommand *listUnsubscribeCommand; // @synthesize listUnsubscribeCommand=_listUnsubscribeCommand;
-@property(nonatomic) _Bool shouldShowICloudUnsubscribe; // @synthesize shouldShowICloudUnsubscribe=_shouldShowICloudUnsubscribe;
-@property(readonly, nonatomic) id <SGSuggestion> suggestion;
-@property(nonatomic) __weak id <SGSuggestionDelegate> suggestionDelegate; // @synthesize suggestionDelegate;
-@property(nonatomic) __weak SGSuggestionPresenter *suggestionPresenter; // @synthesize suggestionPresenter=_suggestionPresenter;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *unsubscribeMessageAlertString;
 
 @end
 

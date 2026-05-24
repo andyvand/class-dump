@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAInviteContext, LPImage, LPLinkMetadata;
+@class FAInviteContext;
 
 @interface FAInviteLinkMetadata
 {
     FAInviteContext *_context;
-    LPImage *_image;
-    LPImage *_icon;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)deleteInconsistencyTrigger;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)Ü,à-è.;
 
 // Remaining properties
-@property(readonly, nonatomic) LPLinkMetadata *bubbleMetadata;
 @property(retain, nonatomic) FAInviteContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) LPLinkMetadata *mailMetadata;
 
 @end
 

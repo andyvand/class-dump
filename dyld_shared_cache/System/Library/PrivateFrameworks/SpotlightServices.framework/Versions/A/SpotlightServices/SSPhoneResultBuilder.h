@@ -6,21 +6,11 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSDate, NSString, NSURL;
+@class NSArray;
 
 @interface SSPhoneResultBuilder : SSResultBuilder
 {
     _Bool _isMissedCall;
-    _Bool _isOutgoingCall;
-    _Bool _isVideoCall;
-    _Bool _isVoicemail;
-    NSArray *_recipientContactIdentifiers;
-    NSArray *_senderContactIdentifiers;
-    NSURL *_callbackURL;
-    NSString *_callSourceApplicationBundleIdentifier;
-    NSDate *_callDate;
-    NSString *_voicemailTranscription;
-    NSString *_callOrigin;
 }
 
 - (id);
@@ -35,30 +25,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool):8@16q24q32 /* Error: Ran out of types for this method. */;
+- (id)setTextContainerInset: /* Error: Ran out of types for this method. */;
+- (id)setTextAlignment: /* Error: Ran out of types for this method. */;
+- (id)setTemplate: /* Error: Ran out of types for this method. */;
+- (void)radioPlaybackInformationWithStoreIdentifier:(id)arg1 storefrontIdentifier: /* Error: Ran out of types for this method. */;
+- (void)quaternarySystemFillColor;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)createDirectoryAtPath:(_Bool)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)getSpotlightRecentEngagementAttributes;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *callDate; // @synthesize callDate=_callDate;
-@property(retain, nonatomic) NSString *callOrigin; // @synthesize callOrigin=_callOrigin;
-@property(retain, nonatomic) NSString *callSourceApplicationBundleIdentifier; // @synthesize callSourceApplicationBundleIdentifier=_callSourceApplicationBundleIdentifier;
-@property(retain, nonatomic) NSURL *callbackURL; // @synthesize callbackURL=_callbackURL;
-@property(nonatomic) _Bool isMissedCall; // @synthesize isMissedCall=_isMissedCall;
-@property(nonatomic) _Bool isOutgoingCall; // @synthesize isOutgoingCall=_isOutgoingCall;
-@property(nonatomic) _Bool isVideoCall; // @synthesize isVideoCall=_isVideoCall;
-@property(nonatomic) _Bool isVoicemail; // @synthesize isVoicemail=_isVoicemail;
 @property(retain, nonatomic) NSArray *recipientContactIdentifiers; // @synthesize recipientContactIdentifiers=_recipientContactIdentifiers;
-@property(retain, nonatomic) NSArray *senderContactIdentifiers; // @synthesize senderContactIdentifiers=_senderContactIdentifiers;
-@property(retain, nonatomic) NSString *voicemailTranscription; // @synthesize voicemailTranscription=_voicemailTranscription;
 
 @end
 

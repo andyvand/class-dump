@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CPXFocusManagerDataSource, CPXProcessManaging;
+@protocol CPXFocusManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface CPXEventDeferringPolicySanitizer
 {
     id <CPXFocusManagerDataSource> _dataSource;
-    id <CPXProcessManaging> _processManager;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (id). Requested QoS:(id)arg1 %d. Log size:%d checkpointed:%d /* Error: Ran out of types for this method. */;
+- (id)urce database %@;
+- (void)ical:(id)arg1 (not a keypath expression);
+- (void)ter to function expression canonical:(id)arg1 (not a keypath expression);
+- (_Bool);;
 - (void)ÿÿ;
 
 @end

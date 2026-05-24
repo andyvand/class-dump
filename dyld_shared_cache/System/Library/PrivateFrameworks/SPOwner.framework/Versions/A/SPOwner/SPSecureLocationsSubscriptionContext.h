@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SPSecureLocationsSubscriptionContext
 {
     long long _subscriptionMode;
-    NSString *_clientApp;
-    long long _fetchMode;
-    NSDictionary *_pushIdentifiers;
 }
 
 + (_Bool);
@@ -21,19 +16,16 @@
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)previewGenerationVersion;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientApp; // @synthesize clientApp=_clientApp;
-@property(nonatomic) long long fetchMode; // @synthesize fetchMode=_fetchMode;
-@property(retain, nonatomic) NSDictionary *pushIdentifiers; // @synthesize pushIdentifiers=_pushIdentifiers;
 @property(nonatomic) long long subscriptionMode; // @synthesize subscriptionMode=_subscriptionMode;
 
 @end

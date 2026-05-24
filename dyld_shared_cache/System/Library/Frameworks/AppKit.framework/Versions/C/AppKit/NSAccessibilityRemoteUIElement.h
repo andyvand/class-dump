@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 @interface NSAccessibilityRemoteUIElement
 {
     struct __AXUIElement *_elementRef;
-    id _windowUIElement;
-    id _topLevelUIElement;
-    NSView *_presenterView;
 }
 
 + (void);
 + (id);
 + (void);
-+ (_Bool);
-+ (void);
++ (_Bool)PSP;
++ (void):(_Bool)arg1 xv;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)MinimumFastLanePriority"i"fHTTPConnectionCachePurgeTimeout"d"fHTTPConnectionCacheCellPurgeTimeout"d"fLongLivedConnectionCachePurgeTimeout"d"fLongLivedConnectionCacheCellPurgeTimeout"d};
+- (id)TTP;
+- (id)iled to create a CF request from an HTTP message.;
+- (id)that has been invalidated;
+- (_Bool)Q}8;
+- (_Bool)st(%p, %@) Auth(%@);
+- (id)needClientCert;
+- (id)Error;
+- (id)startSecureConnection;
+- (id)n;
 - (id);
 - (struct __AXUIElement *);
 - (void);
@@ -39,8 +34,6 @@
 - (void)4<¯ÿá7D;
 
 // Remaining properties
-@property __weak NSView *presenterView; // @synthesize presenterView=_presenterView;
-@property(retain) id topLevelUIElement; // @synthesize topLevelUIElement=_topLevelUIElement;
 @property(retain) id windowUIElement; // @synthesize windowUIElement=_windowUIElement;
 
 @end

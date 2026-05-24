@@ -6,21 +6,17 @@
 
 #import <IMAP/IMAPSingleCommand.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMAPListCommand : IMAPSingleCommand
 {
     NSString *_mailboxName;
-    NSString *_referenceName;
-    long long _options;
-    NSDictionary *_listing;
-    NSString *_separator;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)sb;
 - (long long);
 - (id);
 - (id);
@@ -28,10 +24,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)qa;
 - (id);
 - (void);
-- (id);
+- (id)sources/Sync Services Icon.icns;
 - (long long);
 - (id);
 - (id);
@@ -40,11 +36,7 @@
 × ;
 
 // Remaining properties
-@property(copy) NSDictionary *listing; // @synthesize listing=_listing;
 @property(readonly, copy) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
-@property long long options; // @synthesize options=_options;
-@property(copy) NSString *referenceName; // @synthesize referenceName=_referenceName;
-@property(copy) NSString *separator; // @synthesize separator=_separator;
 
 @end
 

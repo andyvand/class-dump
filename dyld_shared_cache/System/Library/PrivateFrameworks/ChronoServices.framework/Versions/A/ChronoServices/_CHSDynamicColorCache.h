@@ -9,11 +9,10 @@
 @interface _CHSDynamicColorCache
 {
     NSMutableDictionary *_lock_cache;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
-- (id);
+- (id)k+cJ?;
 - (id);
 - (void);
 

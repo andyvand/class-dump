@@ -13,15 +13,14 @@
     id <TLIdentifiable> _identifiable;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType));
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <TLIdentifiable> identifiable; // @synthesize identifiable=_identifiable;
-@property(copy) CDUnknownBlockType timelineOperationCompletionBlock;
 
 @end
 

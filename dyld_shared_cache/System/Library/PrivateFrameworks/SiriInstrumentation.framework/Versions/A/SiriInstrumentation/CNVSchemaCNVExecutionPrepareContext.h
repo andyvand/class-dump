@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CNVSchemaCNVExecutionPrepareEnded, CNVSchemaCNVExecutionPrepareStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CNVSchemaCNVExecutionPrepareContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    CNVSchemaCNVExecutionPrepareStarted *_startedOrChanged;
-    CNVSchemaCNVExecutionPrepareEnded *_ended;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -41,7 +35,7 @@
 - (_Bool);
 - (id);
 - (id)ClientEventMetadata";
-- (id)ventMetadata;
+- (id)INFERENCESchemaINFERENCEClientEventMetadata;
 - (id)¼wøw;
 - (void)í]«ø&;
 - (void)¹pÿq;
@@ -49,13 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) CNVSchemaCNVExecutionPrepareEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CNVSchemaCNVExecutionPrepareStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

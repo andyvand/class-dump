@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMCSCPassPhraseRecoveryViewController, MMCSCPinRecoveryViewController, MMCSCSMSTargetRecoveryViewController, NSMutableDictionary, NSString, NSWindow;
-@protocol MMCSCRecoveryControllerDelegate;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface MMCSCRecoveryController
 {
     NSWindow *_parentWindow;
-    int _pinLength;
-    NSString *_accountID;
-    NSString *_passPhrase;
-    NSString *_verificationToken;
-    NSString *_smsTargetCountryCode;
-    NSString *_smsTarget;
-    _Bool _isFirstDevice;
-    _Bool _useComplexPassphraseView;
-    _Bool _needsVerification;
-    _Bool _usesRandomPassphrase;
-    NSMutableDictionary *_recoveryContext;
-    id <MMCSCRecoveryControllerDelegate> _delegate;
-    NSWindow *_dialog;
-    MMCSCPinRecoveryViewController *_cscPinVC;
-    MMCSCPassPhraseRecoveryViewController *_cscPassPhraseVC;
-    MMCSCSMSTargetRecoveryViewController *_cscSMSTargetVC;
 }
 
 - (_Bool);
@@ -41,18 +24,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool)`@(`;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)?1	3;
+- (void);
+- (void)Ki;
+- (void)3;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)?q)3;
 - (id);
 - (id);
 - (void);
@@ -64,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -83,30 +66,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(copy) NSString *accountID; // @synthesize accountID=_accountID;
-@property(retain) MMCSCPassPhraseRecoveryViewController *cscPassPhraseVC; // @synthesize cscPassPhraseVC=_cscPassPhraseVC;
-@property(retain) MMCSCPinRecoveryViewController *cscPinVC; // @synthesize cscPinVC=_cscPinVC;
-@property(retain) MMCSCSMSTargetRecoveryViewController *cscSMSTargetVC; // @synthesize cscSMSTargetVC=_cscSMSTargetVC;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <MMCSCRecoveryControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property __weak NSWindow *dialog; // @synthesize dialog=_dialog;
-@property(readonly) unsigned long long hash;
-@property _Bool isFirstDevice; // @synthesize isFirstDevice=_isFirstDevice;
-@property _Bool needsVerification; // @synthesize needsVerification=_needsVerification;
 @property(retain) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(copy) NSString *passPhrase; // @synthesize passPhrase=_passPhrase;
-@property int pinLength; // @synthesize pinLength=_pinLength;
-@property(retain) NSMutableDictionary *recoveryContext; // @synthesize recoveryContext=_recoveryContext;
-@property(copy) NSString *smsTarget; // @synthesize smsTarget=_smsTarget;
-@property(copy) NSString *smsTargetCountryCode; // @synthesize smsTargetCountryCode=_smsTargetCountryCode;
-@property(readonly) Class superclass;
-@property _Bool useComplexPassphraseView; // @synthesize useComplexPassphraseView=_useComplexPassphraseView;
-@property _Bool usesRandomPassphrase; // @synthesize usesRandomPassphrase=_usesRandomPassphrase;
-@property(copy) NSString *verificationToken; // @synthesize verificationToken=_verificationToken;
 
 @end
 

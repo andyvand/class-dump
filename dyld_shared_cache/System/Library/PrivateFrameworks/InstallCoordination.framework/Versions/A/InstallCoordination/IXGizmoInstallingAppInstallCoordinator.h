@@ -6,28 +6,18 @@
 
 #import <InstallCoordination/IXAppInstallCoordinator.h>
 
-@class NSString;
-
 @interface IXGizmoInstallingAppInstallCoordinator : IXAppInstallCoordinator
 {
 }
 
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)";
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasAppAssetPromise;
-@property(readonly, nonatomic) _Bool hasInstallOptions;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

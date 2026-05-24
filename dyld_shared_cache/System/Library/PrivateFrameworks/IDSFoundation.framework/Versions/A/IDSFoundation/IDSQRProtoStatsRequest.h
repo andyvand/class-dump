@@ -7,25 +7,15 @@
 @interface IDSQRProtoStatsRequest
 {
     unsigned int _clientLatencyMs;
-    unsigned int _clientTimestampNtp;
-    unsigned int _receivedPackets;
-    unsigned int _sentPackets;
-    _Bool _p2pConnection;
-    struct {
-        unsigned int clientLatencyMs:1;
-        unsigned int receivedPackets:1;
-        unsigned int sentPackets:1;
-        unsigned int p2pConnection:1;
-    } _has;
 }
 
 - (void);
+- (void)R2;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (_Bool);
@@ -33,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)h8?;
 - (unsigned int);
 - (void);
 - (unsigned int);
@@ -42,21 +32,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)CompleteResults=S{BluetoothDeviceAddress=[6C]}CCCSSC}48;
+- (void)sessionError:(id)arg1 ]_block_invoke;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int clientLatencyMs; // @synthesize clientLatencyMs=_clientLatencyMs;
 @property(nonatomic) unsigned int clientTimestampNtp; // @synthesize clientTimestampNtp=_clientTimestampNtp;
-@property(nonatomic) _Bool hasClientLatencyMs;
-@property(nonatomic) _Bool hasP2pConnection;
-@property(nonatomic) _Bool hasReceivedPackets;
-@property(nonatomic) _Bool hasSentPackets;
-@property(nonatomic) _Bool p2pConnection; // @synthesize p2pConnection=_p2pConnection;
-@property(nonatomic) unsigned int receivedPackets; // @synthesize receivedPackets=_receivedPackets;
-@property(nonatomic) unsigned int sentPackets; // @synthesize sentPackets=_sentPackets;
 
 @end
 

@@ -10,23 +10,21 @@
 @interface ISAVPlayer
 {
     ISRateCurveRequest *_currentRequest;
-    NSObject<OS_dispatch_queue> *_initializedDispatchQueue;
-    NSObject<OS_dispatch_queue> *_actualDispatchQueue;
 }
 
 + (_Bool);
 + (_Bool);
+- (void)URLFragmentAllowedCharacterSet;
+- (void)CGSize=dd}},N,V_contentViewFrame;
+- (id)galleryImageCount;
+- (void)originView;
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)s~;
 - (void);
 
 // Remaining properties

@@ -4,52 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHImageRequestBehaviorSpec, PHResourceChooserList, PHResourceChooserListResourceInfo;
 @protocol PHResourceChooserAsset;
 
 @interface PHImageResourceChooser
 {
     id <PHResourceChooserAsset> _asset;
-    PHResourceChooserList *_list;
-    CDUnknownBlockType _resourceHandler;
-    double _requiredScale;
-    struct CGRect _normalizedCropRect;
-    PHResourceChooserListResourceInfo *_fallbackInfo;
-    PHImageRequestBehaviorSpec *_behaviorSpec;
-    _Bool _didCheckForLocalVideoKeyFrame;
-    _Bool _hasLocalVideoKeyFrameInNonHintResources;
-    _Bool _needsReset;
-    _Bool _allowHints;
-    _Bool _allowChoosingNonLocalVideoKeyFrameResource;
-    _Bool _isCloudSharedMode;
-    double _fallbackRequestedScaleIfPreferredResourceNotLocallyAvailable;
-    id _context;
-    NSString *_loggingPrefix;
-    struct CGSize _desiredSize;
 }
 
 + (unsigned long long);
 + (id);
-+ (id);
++ (id)STCustomRestrictionWebFilterState;
 + (void)v24@?0@"NSString"8@"NSArray"16;
+- (void)_;
 - (void);
+- (void)NSInputAlignmentItem;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)c;
 - (CDUnknownBlockType);
-- (void);
-- (struct CGSize);
+- (void)setCanShowCloudDownloadButtons:(CDUnknownBlockType)arg1;
+- (struct CGSize)sponse:%{public}@<%{public}@> returned with error <%{public}@> in %.4lf seconds /* Error: Ran out of types for this method. */;
 - (id);
 - (Class);
 - (id);
-- (id);
+- (id)_domainsToDomainsToConsiderIdentical;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)ifier:(double)arg1 %{public}@;
 - (void);
 - (_Bool);
 - (void);
@@ -60,21 +43,12 @@
 - (void);
 - (void);
 - (id);
-- (void)thOptions: /* Error: Ran out of types for this method. */;
-- (void)otoTime:asset:options: /* Error: Ran out of types for this method. */;
-- (void)fier;
+- (void)fetchPersonsWithUserFeedbackWithOptions: /* Error: Ran out of types for this method. */;
+- (void)initWithImage:uiOrientation:videoAsset:photoTime:asset:options: /* Error: Ran out of types for this method. */;
+- (void)reservedCloudIdentifier;
 
 // Remaining properties
-@property(nonatomic) _Bool allowChoosingNonLocalVideoKeyFrameResource; // @synthesize allowChoosingNonLocalVideoKeyFrameResource=_allowChoosingNonLocalVideoKeyFrameResource;
-@property(nonatomic) _Bool allowHints; // @synthesize allowHints=_allowHints;
-@property(retain, nonatomic) PHImageRequestBehaviorSpec *behaviorSpec; // @synthesize behaviorSpec=_behaviorSpec;
-@property(nonatomic) __weak id context; // @synthesize context=_context;
 @property(nonatomic) struct CGSize desiredSize; // @synthesize desiredSize=_desiredSize;
-@property(nonatomic) double fallbackRequestedScaleIfPreferredResourceNotLocallyAvailable; // @synthesize fallbackRequestedScaleIfPreferredResourceNotLocallyAvailable=_fallbackRequestedScaleIfPreferredResourceNotLocallyAvailable;
-@property(nonatomic) _Bool isCloudSharedMode; // @synthesize isCloudSharedMode=_isCloudSharedMode;
-@property(retain, nonatomic) NSString *loggingPrefix; // @synthesize loggingPrefix=_loggingPrefix;
-@property(nonatomic) struct CGRect normalizedCropRect;
-@property(copy, nonatomic) CDUnknownBlockType resourceHandler; // @synthesize resourceHandler=_resourceHandler;
 
 @end
 

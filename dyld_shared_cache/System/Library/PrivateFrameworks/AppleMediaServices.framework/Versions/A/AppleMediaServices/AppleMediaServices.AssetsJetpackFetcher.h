@@ -7,8 +7,6 @@
 @interface AppleMediaServices.AssetsJetpackFetcher
 {
     id kJetpackURLBagKey;
-    id outputFileURL;
-    id dateFormatter;
 }
 
 + (id)ïðN0ðQðPRðSjðR5ðU¢ðTAðW ðVxðYëðXÿð[ðZ;

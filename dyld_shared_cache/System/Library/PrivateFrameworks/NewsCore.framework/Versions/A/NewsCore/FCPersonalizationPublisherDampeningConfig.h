@@ -9,16 +9,12 @@
 @interface FCPersonalizationPublisherDampeningConfig
 {
     NSDictionary *_dampeningFactorMapping;
-    unsigned long long _dampeningStrategy;
-    double _defaultDampeningFactor;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *dampeningFactorMapping; // @synthesize dampeningFactorMapping=_dampeningFactorMapping;
-@property(nonatomic) unsigned long long dampeningStrategy; // @synthesize dampeningStrategy=_dampeningStrategy;
-@property(nonatomic) double defaultDampeningFactor; // @synthesize defaultDampeningFactor=_defaultDampeningFactor;
 
 @end
 

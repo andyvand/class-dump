@@ -6,67 +6,55 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSManagedObjectContext, NSString, RTDefaultsManager, RTEventHistogram, RTEventHistogramOptions, RTEventManager, RTInvocationDispatcher, RTLearnedLocationManager, RTLocationShifter, RTMetricManager, RTPersistenceManager;
-
 @interface RTEventModelProvider : RTService
 {
     _Bool _locationsOfInterestsAvailable;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTEventManager *_eventManager;
-    RTMetricManager *_metricManager;
-    NSManagedObjectContext *_managedObjectContext;
-    RTPersistenceManager *_persistenceManager;
-    RTDefaultsManager *_defaultsManager;
-    RTInvocationDispatcher *_dispatcher;
-    RTLocationShifter *_locationShifter;
-    RTEventHistogramOptions *_histogramOptions;
-    RTEventHistogram *_locationOfInterestEventHistograms;
 }
 
 + (long long);
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)s/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id)initWithBytes:(id)arg1 length:(id)arg2;
 - (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
+- (double)J;
+- (id)d$;
 - (void);
 - (void);
+- (void)sue %u missing %u present %u error:(CDUnknownBlockType)arg1 %@;
+- (_Bool)pping key from keychain:%@ /* Error: Ran out of types for this method. */;
+- (id)ethics;
+- (id)ong, CFDataRef, CFErrorRef *);
+- (void)dDataOnOTClique;
+- (id)s NOT dropped from HSM;
+- (void)ting Walrus state after set:(id)arg1 %@;
+- (void)should fix this;
+- (void)d error code:(CDUnknownBlockType)arg1 %d;
+- (_Bool)st.val[n].key);
+- (_Bool)CSSPKey:_PCSPublicIdentityExportPCSSPKey(se->identity, &share.tbs.shareList.val[n].key) /* Error: Ran out of types for this method. */;
+- (unsigned long long)ice:(id)arg1 %@;
+- (_Bool)NPR/ouXyQv7ySGBp8PUCwnnqWNM=;
+- (id)nable to attempt HSM p_password recovery;
+- (id)errorCode;
+- (void)BEGIN ;
 - (void);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -74,11 +62,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)delegate;
+- (void)8;
+- (void)f[subject.OU] = DE8Y96K9QP);
+- (void):(id)arg1 ;
+- (id);
 - (void);
 - (id);
 - (void);
@@ -86,35 +74,18 @@
 × ;
 - (id)
 × ;
-- (void)eKeys;
+- (void)substitutionVariableKeys;
 - (id)ÿÿò;
 - (void)oo close;
-- (id)mCycle;
-- (void)nnection_duration_home;
+- (id)_numAdditionalFixesRequired_5mCycle;
+- (void)mean_daily_total_uninterrupted_WiFi_connection_duration_home;
 - (void)ng nil;
 - (void)ability case (in %s:(id)arg1 %d);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(retain, nonatomic) RTEventManager *eventManager; // @synthesize eventManager=_eventManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTEventHistogramOptions *histogramOptions; // @synthesize histogramOptions=_histogramOptions;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTEventHistogram *locationOfInterestEventHistograms; // @synthesize locationOfInterestEventHistograms=_locationOfInterestEventHistograms;
-@property(retain, nonatomic) RTLocationShifter *locationShifter; // @synthesize locationShifter=_locationShifter;
 @property(nonatomic) _Bool locationsOfInterestsAvailable; // @synthesize locationsOfInterestsAvailable=_locationsOfInterestsAvailable;
-@property(retain, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
-@property(retain, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(retain, nonatomic) RTPersistenceManager *persistenceManager; // @synthesize persistenceManager=_persistenceManager;
-@property(readonly) Class superclass;
 
 @end
 

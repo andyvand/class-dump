@@ -11,7 +11,7 @@
     EKObject *_undeletedObject;
 }
 
-- (void)ªéò	?×;
+- (void);
 - (id);
 - (void)@36^d44^d52;
 

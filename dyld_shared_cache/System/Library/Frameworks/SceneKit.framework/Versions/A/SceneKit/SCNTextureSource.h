@@ -7,8 +7,6 @@
 @interface SCNTextureSource
 {
     id _mtlTextureCache;
-    id _glTextureCache;
-    id _size;
 }
 
 - (_Bool);
@@ -25,7 +23,7 @@
 - (struct __C3DTexture *);
 - (void);
 - (id);
-- (double);
+- (double)amateurishness;
 - (void);
 - (void);
 

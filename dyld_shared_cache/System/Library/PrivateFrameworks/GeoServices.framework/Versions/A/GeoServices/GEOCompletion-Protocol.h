@@ -7,10 +7,10 @@
 @class GEOAutocompleteSessionData, NSArray;
 
 @protocol GEOCompletion
+- (GEOAutocompleteSessionData *);
 - (NSArray *)Ù©P@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *groups;
-@property(readonly, nonatomic) GEOAutocompleteSessionData *sessionData;
 @end
 

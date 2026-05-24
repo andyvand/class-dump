@@ -7,7 +7,6 @@
 @interface JetEngine.DiskPropertyCache
 {
     id ttlSeconds;
-    id diskPropertiesCache;
 }
 
 @end

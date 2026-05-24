@@ -4,39 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSString, PRSRankingConfiguration;
+@class PRSRankingConfiguration;
 
 @interface SPKResponse
 {
     _Bool _topHitIsIn;
-    _Bool _noChangeInResultsSinceLastResponse;
-    _Bool _parsecFinished;
-    _Bool _metadataFinished;
-    _Bool _corespotlightFinished;
-    _Bool _queryResponseComplete;
-    _Bool _isRewrite;
-    _Bool _didReceiveLaterThanRenderTimeout;
-    _Bool _suggestionsAreBlended;
-    int _kind;
-    int _sourceKind;
-    PRSRankingConfiguration *_rankingConfiguration;
-    unsigned long long _queryId;
-    NSError *_error;
-    NSArray *_sections;
-    NSDictionary *_groupedResults;
-    NSArray *_supportedFilters;
-    NSString *_fbq;
-    NSString *_userQueryString;
-    NSString *_correctedQuery;
-    NSArray *_serverSuggestionResults;
-    NSArray *_localSuggestionResults;
-    NSArray *_added;
-    NSArray *_changed;
-    NSArray *_removed;
 }
 
-- (id);
-- (id);
+- (id)setNumberOfItems:(unsigned long long)arg1;
+- (id)setNeedsSubresourceFetch:(unsigned long long)arg1;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -47,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,13 +35,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (id)f;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -78,40 +54,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)initWithName:fromBundle:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)commonInit;
 
 // Remaining properties
-@property(readonly) NSArray *added; // @synthesize added=_added;
-@property(readonly) NSArray *changed; // @synthesize changed=_changed;
-@property _Bool corespotlightFinished; // @synthesize corespotlightFinished=_corespotlightFinished;
-@property(retain) NSString *correctedQuery; // @synthesize correctedQuery=_correctedQuery;
-@property _Bool didReceiveLaterThanRenderTimeout; // @synthesize didReceiveLaterThanRenderTimeout=_didReceiveLaterThanRenderTimeout;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(retain) NSString *fbq; // @synthesize fbq=_fbq;
-@property(readonly) NSDictionary *groupedResults; // @synthesize groupedResults=_groupedResults;
-@property _Bool isRewrite; // @synthesize isRewrite=_isRewrite;
-@property(readonly) int kind; // @synthesize kind=_kind;
-@property(retain) NSArray *localSuggestionResults; // @synthesize localSuggestionResults=_localSuggestionResults;
-@property _Bool metadataFinished; // @synthesize metadataFinished=_metadataFinished;
-@property _Bool noChangeInResultsSinceLastResponse; // @synthesize noChangeInResultsSinceLastResponse=_noChangeInResultsSinceLastResponse;
-@property _Bool parsecFinished; // @synthesize parsecFinished=_parsecFinished;
-@property(readonly) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property _Bool queryResponseComplete; // @synthesize queryResponseComplete=_queryResponseComplete;
 @property(retain) PRSRankingConfiguration *rankingConfiguration; // @synthesize rankingConfiguration=_rankingConfiguration;
-@property(readonly) NSArray *removed; // @synthesize removed=_removed;
-@property(readonly) NSArray *sections; // @synthesize sections=_sections;
-@property(retain) NSArray *serverSuggestionResults; // @synthesize serverSuggestionResults=_serverSuggestionResults;
-@property(readonly) int sourceKind; // @synthesize sourceKind=_sourceKind;
-@property _Bool suggestionsAreBlended; // @synthesize suggestionsAreBlended=_suggestionsAreBlended;
-@property(readonly) NSArray *supportedFilters; // @synthesize supportedFilters=_supportedFilters;
-@property _Bool topHitIsIn; // @synthesize topHitIsIn=_topHitIsIn;
-@property(retain) NSString *userQueryString; // @synthesize userQueryString=_userQueryString;
 
 @end
 

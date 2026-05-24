@@ -7,10 +7,9 @@
 @interface NEFilterDataSavedMessageHandler
 {
     CDUnknownBlockType _getVerdict;
-    CDUnknownBlockType _handleVerdict;
 }
 
-- (void)r:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (void)setClasses:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 
 @end
 

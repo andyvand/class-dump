@@ -9,17 +9,6 @@
 @interface SGM2SelfIdPatternMatched
 {
     NSString *_key;
-    unsigned int _messageIndex;
-    int _nameClass;
-    unsigned int _nameTokens;
-    NSString *_patternHash;
-    int _patternType;
-    struct {
-        unsigned int messageIndex:1;
-        unsigned int nameClass:1;
-        unsigned int nameTokens:1;
-        unsigned int patternType:1;
-    } _has;
 }
 
 - (void);
@@ -39,7 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)A;
 - (_Bool);
 - (int);
 - (int);
@@ -49,10 +38,10 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)essage;
 - (id);
 - (_Bool);
-- (void);
+- (void)v5;
 - (id);
 - (id);
 - (_Bool);
@@ -61,17 +50,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasMessageIndex;
-@property(nonatomic) _Bool hasNameClass;
-@property(nonatomic) _Bool hasNameTokens;
-@property(readonly, nonatomic) _Bool hasPatternHash;
-@property(nonatomic) _Bool hasPatternType;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) unsigned int messageIndex; // @synthesize messageIndex=_messageIndex;
-@property(nonatomic) int nameClass; // @synthesize nameClass=_nameClass;
-@property(nonatomic) unsigned int nameTokens; // @synthesize nameTokens=_nameTokens;
-@property(retain, nonatomic) NSString *patternHash; // @synthesize patternHash=_patternHash;
-@property(nonatomic) int patternType; // @synthesize patternType=_patternType;
 
 @end
 

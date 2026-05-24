@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _NSTouchBarItemTreeSlices
 {
     NSTouchBarItemTreeNode *_leftNode;
-    NSTouchBarItemTreeNode *_rightNode;
 }
 
 - (id);
-- (id);
+- (id)0dnM19zBqLw5ZPhIo4GEkg;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly) NSTouchBarItemTreeNode *leftNode;
-@property(readonly) NSTouchBarItemTreeNode *rightNode;
 
 @end
 

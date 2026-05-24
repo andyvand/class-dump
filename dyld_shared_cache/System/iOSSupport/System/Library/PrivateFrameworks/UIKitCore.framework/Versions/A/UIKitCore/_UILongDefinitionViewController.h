@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     _UIDefinitionValue *_definitionValue;
 }
 
-- (id);
+- (id)serviceAllowedTrafficClassifiersDidReset:(id)arg1;
 - (void);
-- (void)MorphAnimation;
+- (void)_UIMagicMorphAnimation;
 
 @end
 

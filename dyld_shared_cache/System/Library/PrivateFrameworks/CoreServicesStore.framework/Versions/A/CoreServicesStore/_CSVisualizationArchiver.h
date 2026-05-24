@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPredicate, _CSVisualizer;
+@class _CSVisualizer;
 
 @interface _CSVisualizationArchiver
 {
     struct __sFILE *_fileHandle;
-    _Bool _closeWhenDone;
-    _Bool _outputAsXML;
-    struct atomic<bool> _hadEPIPE;
-    struct os_unfair_lock_s _dictWriteLock;
-    unsigned long long _stats[2];
-    _CSVisualizer *_visualizer;
-    NSPredicate *_unitDescriptionPredicate;
 }
 
 + (void);
@@ -26,8 +19,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -38,7 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSPredicate *unitDescriptionPredicate; // @synthesize unitDescriptionPredicate=_unitDescriptionPredicate;
 @property(readonly) _CSVisualizer *visualizer; // @synthesize visualizer=_visualizer;
 
 @end

@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface NEBundleProxy
 {
     _Bool _isWatchKitApp;
-    NSString *_identifier;
-    NSURL *_url;
-    NSArray *_machOUUIDs;
-    NSString *_name;
-    NSArray *_appGroups;
 }
 
-+ (_Bool);
++ (_Bool)setIsInitialDonation: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (id)4H;
 - (id);
-- (id);
-- (id);
+- (id)ortsSpatialAudio;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)stPeerMessage:error: /* Error: Ran out of types for this method. */;
+- (id)_applicationToVerificationInfoProviders;
+- (void)processFirstPeerMessage:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *appGroups; // @synthesize appGroups=_appGroups;
 @property(readonly, retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isWatchKitApp; // @synthesize isWatchKitApp=_isWatchKitApp;
-@property(readonly, retain, nonatomic) NSArray *machOUUIDs; // @synthesize machOUUIDs=_machOUUIDs;
-@property(readonly, retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

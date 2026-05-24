@@ -5,5 +5,6 @@
 //
 
 @protocol TSWPGraphicalAttachmentRenderer
+- (void)StallingState;
 @end
 

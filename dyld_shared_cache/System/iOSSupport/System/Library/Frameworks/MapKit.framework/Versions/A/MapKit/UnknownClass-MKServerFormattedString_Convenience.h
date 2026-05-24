@@ -6,11 +6,11 @@
 
 @interface UnknownClass (MKServerFormattedString_Convenience)
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id);
 - (double);
 @end
 

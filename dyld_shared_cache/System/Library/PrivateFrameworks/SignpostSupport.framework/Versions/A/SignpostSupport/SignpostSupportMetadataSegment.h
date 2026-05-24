@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SignpostSupportMessageArgument;
-
 @interface SignpostSupportMetadataSegment
 {
     _Bool _isGenerator;
-    NSString *_typeNamespace;
-    NSString *_type;
-    NSArray *_placeholderTokens;
-    NSString *_stringPrefix;
-    SignpostSupportMessageArgument *_argument;
-    unsigned long long _scalarType;
 }
 
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long)th message id %i but session has no app data;
+- (_Bool);
+- (id)rangeOfFirstMatchInString:options:range: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -35,13 +27,7 @@
 - (id),N,V_hasRelativeMcts;
 
 // Remaining properties
-@property(readonly, nonatomic) SignpostSupportMessageArgument *argument; // @synthesize argument=_argument;
 @property(readonly, nonatomic) _Bool isGenerator; // @synthesize isGenerator=_isGenerator;
-@property(readonly, nonatomic) NSArray *placeholderTokens; // @synthesize placeholderTokens=_placeholderTokens;
-@property(readonly, nonatomic) unsigned long long scalarType; // @synthesize scalarType=_scalarType;
-@property(readonly, nonatomic) NSString *stringPrefix; // @synthesize stringPrefix=_stringPrefix;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *typeNamespace; // @synthesize typeNamespace=_typeNamespace;
 
 @end
 

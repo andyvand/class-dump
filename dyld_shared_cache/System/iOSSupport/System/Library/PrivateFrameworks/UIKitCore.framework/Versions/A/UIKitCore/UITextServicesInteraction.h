@@ -12,19 +12,14 @@ __attribute__((visibility("hidden")))
 @interface UITextServicesInteraction : UITextInteraction
 {
     _UITextServiceSession *_definitionSession;
-    _UITextServiceSession *_learnSession;
-    _UITextServiceSession *_shareSession;
-    _UITextServiceSession *_lookupSession;
-    _UITextServiceSession *_translateSession;
-    _UITextServicesResponderProxy *_responderProxy;
 }
 
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void){CGPoint=dd}{CGSize=dd}}32;
 - (void)r animation;
-- (void)rollerOutgoingRightViewControllerKey;
+- (void)UIPageCurlControllerOutgoingRightViewControllerKey;
 - (_Bool)roups;
 - (void)´ú];
 - (void)n;

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, PAItemView, PAItemViewConfiguration;
-@protocol PANUMediaView;
+@class PAItemView;
 
 @interface PACanvasItemView
 {
     double _zoomFactor;
-    double _zoomToFitFactor;
-    _Bool _zoomToFit;
-    _Bool _allowScaleUpInZoomToFit;
-    NSView *_contentOverlayContainer;
-    _Bool _shouldPerformLayout;
-    NSView<PANUMediaView> *_mediaView;
-    NSView *_overlayView;
-    NSView *_contentOverlayView;
-    PAItemView *_itemViewImpl;
 }
 
 + (_Bool);
@@ -30,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGPoint);
 - (struct CGRect);
 - (struct CGRect);
@@ -46,10 +36,10 @@
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)LemonadeShelvesViewModel;
 - (void);
-- (void);
-- (id);
+- (void)ConcretePhotoLibraryObservation;
+- (id)LPS;;
 - (void);
 - (id);
 - (id);
@@ -99,25 +89,7 @@ gl_FragColor = outColor * channelMask;
 - (void)'FJ¥;
 
 // Remaining properties
-@property(nonatomic) _Bool allowScaleUpInZoomToFit; // @synthesize allowScaleUpInZoomToFit=_allowScaleUpInZoomToFit;
-@property(retain, nonatomic) PAItemViewConfiguration *configuration;
-@property(readonly, nonatomic) NSView *contentOverlayView; // @synthesize contentOverlayView=_contentOverlayView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) PAItemView *itemView; // @dynamic itemView;
 @property(retain) PAItemView *itemViewImpl; // @synthesize itemViewImpl=_itemViewImpl;
-@property(retain, nonatomic) NSView<PANUMediaView> *mediaView; // @synthesize mediaView=_mediaView;
-@property(readonly, nonatomic) NSView *overlayView; // @synthesize overlayView=_overlayView;
-@property(nonatomic) _Bool shouldPerformLayout; // @synthesize shouldPerformLayout=_shouldPerformLayout;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGRect visibleContentRect;
-@property(nonatomic) double zoomFactor; // @synthesize zoomFactor=_zoomFactor;
-@property(nonatomic) _Bool zoomToFit; // @synthesize zoomToFit=_zoomToFit;
-@property(readonly, nonatomic) double zoomToFitFactor; // @synthesize zoomToFitFactor=_zoomToFitFactor;
 
 @end
 

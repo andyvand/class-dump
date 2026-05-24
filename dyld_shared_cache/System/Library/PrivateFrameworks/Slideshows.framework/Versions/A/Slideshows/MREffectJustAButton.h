@@ -9,11 +9,10 @@
 @interface MREffectJustAButton : MREffect
 {
     _Bool mIsPressed;
-    _Bool mIsSet;
 }
 
-- (void);
-- (void);
+- (void)fc_arraysByPartitioningWithBudget:(id)arg1 indicesOfOverBudgetObjects:appraiser:accumulator:comparator: /* Error: Ran out of types for this method. */;
+- (void)userSegmentationTreatmentIDs;
 - (_Bool);
 - (id);
 

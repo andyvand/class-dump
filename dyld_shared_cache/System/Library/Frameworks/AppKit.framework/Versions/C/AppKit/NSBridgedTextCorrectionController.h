@@ -6,37 +6,19 @@
 
 #import <AppKit/NSResponder.h>
 
-@class NSMutableAttributedString, NSTextCheckingController, NSTextInputContext, NSTimer;
+@class NSTextInputContext;
 
 __attribute__((visibility("hidden")))
 @interface NSBridgedTextCorrectionController : NSResponder
 {
     _Bool _secureTextEntry;
-    _Bool _textCheckingChangedText;
-    _Bool _needsToApplyTextCheckingIndication;
-    _Bool _needsToApplyGrammarCheckingIndication;
-    _Bool _recentlyInsertedText;
-    int grammarCheckingEnabledUserSetting;
-    NSTextInputContext *_textInputContext;
-    long long spellCheckingType;
-    long long autocorrectionType;
-    long long inlinePredictionType;
-    long long mathExpressionCompletionType;
-    NSMutableAttributedString *_annotationString;
-    NSTextCheckingController *_textCheckingController;
-    long long smartQuotesType;
-    long long smartDashesType;
-    long long textReplacementType;
-    NSTimer *_pauseTimer;
-    double _lastPauseTimer;
-    struct _NSRange _softSpaceRange;
 }
 
 + (id);
-+ (void);
-+ (_Bool);
++ (void)parse:(id)arg1 len:completion: /* Error: Ran out of types for this method. */;
++ (_Bool)2we;
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (void);
 - (void);
@@ -71,63 +53,63 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
+- (void)32@0:(long long)arg1 8^{__CFDictionary=}16^{__CFDictionary=}24;
+- (void)_end_node<std:(_Bool)arg1:__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_ipAddressToConnectionKey"{map<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)tring>>, std:(_Bool)arg1:allocator<std::pair<const std::string, std::vector<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_ipAddressToConnectionKey"{map<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)tring, std:(_Bool)arg1:vector<std::string>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_ipAddressToConnectionKey"{map<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void), std:(_Bool)arg1:vector<std::string>>>>="__tree_"{__tree<std::__value_type<std::string, std::vector<std::string>>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<std::string>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_ipAddressToConnectionKey"{map<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)ObjCPP>="__ptr_"^{TransportConnectionObjCPP}"__cntrl_"^{__shared_weak_count}};
+- (void)8Q16Q24Q32;
+- (void)@32@40@?48;
+- (void)set_shouldSkipPreferredClientCertificateLookup:(struct _NSRange)arg1;
+- (void)initWithDataTask:(struct _NSRange)arg1 uniqueIdentifier:(id)arg2 bundleID:sessionID: /* Error: Ran out of types for this method. */;
+- (void)initWithCapacity:(struct _NSRange)arg1;
+- (void)initWithCFNetService:(struct _NSRange)arg1;
+- (void)decodeObjectOfClass:(id)arg1 forKey:(struct _NSRange)arg2;
+- (_Bool)backgroundDownloadTask:didResumeAtOffset:expectedTotalBytes: /* Error: Ran out of types for this method. */;
+- (void)_remoteAddressAndPort;
+- (void)_initWithExistingCFURLCache:(id)arg1;
+- (void)_httpProtocol;
+- (id)_explicitlySetAllowsCellularAccess;
+- (_Bool)UCA: /* Error: Ran out of types for this method. */;
+- (_Bool)ure;
+- (long long)NSURLSessionAVAssetDownloadTask;
+- (id)NSURLAuthenticationChallengeInternal;
 - (double);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool) \;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)b6;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ion cache key;
+- (_Bool)ason:(id)arg1:Deny_MaxRetriesReached fNumConnectionLossRetries=%d, fNumRetries=%d /* Error: Ran out of types for this method. */;
+- (long long)ng state (%lu, %lu) %@;
+- (int)emoving all entries config %p;
+- (struct CGRect)ownload to an accessible file.;
+- (void)ned and in state %d;
 - (long long);
-- (int);
-- (struct CGRect);
 - (void);
-- (long long);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
+- (void)ug: /* Error: Ran out of types for this method. */;
+- (void)Logging;
+- (void)thCachedResponse-ERROR:(id)arg1 bind of storage policy for item:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct _NSRange);
+- (struct _NSRange)O;
 - (void);
 - (void);
 - (_Bool);
@@ -138,18 +120,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (unsigned long long);
 - (void);
-- (void)rorHandler:(id)arg1;
+- (void)_openURLs:(id)arg1 withApplicationAtURL:options:configuration:errorHandler: /* Error: Ran out of types for this method. */;
 - (void)èIàJKLL;
 - (id)ø;
 - (_Bool)¸_ÿi\X$ÀØ ð( h¸ØäÈ
 <ì(ÔàX;
 - (void);
 - (void)nel(NSSavePanelSPI) _setDict:(_Bool)arg1 forKey:] /* Error: Ran out of types for this method. */;
-- (struct _NSRange)onWatchingTextSuggestionsDelegate;
+- (struct _NSRange)_NSSelectionWatchingTextSuggestionsDelegate;
 - (long long)ö;
 - (void);
 - (void)¬@;
@@ -176,89 +158,7 @@ __attribute__((visibility("hidden")))
 ä~J;
 
 // Remaining properties
-@property unsigned long long allowedWritingToolsResultOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
-@property(retain) NSMutableAttributedString *annotationString; // @synthesize annotationString=_annotationString;
-@property long long autocorrectionType; // @synthesize autocorrectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,VautocorrectionType
-
-@property(readonly, getter=isAutomaticDashSubstitutionEnabled) _Bool automaticDashSubstitutionEnabled;
-@property(readonly, getter=isAutomaticQuoteSubstitutionEnabled) _Bool automaticQuoteSubstitutionEnabled;
-@property long long dataDetectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property(readonly) struct CGRect documentVisibleRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property int grammarCheckingEnabledUserSetting; // @synthesize grammarCheckingEnabledUserSetting;
-@property long long grammarCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long inlinePredictionType; // @synthesize inlinePredictionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,VinlinePredictionType
-
-@property double lastPauseTimer; // @synthesize lastPauseTimer=_lastPauseTimer;
-@property long long linkDetectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long mathExpressionCompletionType; // @synthesize mathExpressionCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,VmathExpressionCompletionType
-
-@property _Bool needsToApplyGrammarCheckingIndication; // @synthesize needsToApplyGrammarCheckingIndication=_needsToApplyGrammarCheckingIndication;
-@property _Bool needsToApplyTextCheckingIndication; // @synthesize needsToApplyTextCheckingIndication=_needsToApplyTextCheckingIndication;
-@property(retain) NSTimer *pauseTimer; // @synthesize pauseTimer=_pauseTimer;
-@property _Bool recentlyInsertedText; // @synthesize recentlyInsertedText=_recentlyInsertedText;
-@property _Bool secureTextEntry; // @synthesize secureTextEntry=_secureTextEntry;
-@property long long smartDashesType; // @synthesize smartDashesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,VsmartDashesType
-
-@property long long smartInsertDeleteType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long smartQuotesType; // @synthesize smartQuotesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,VsmartQuotesType
-
-@property struct _NSRange softSpaceRange; // @synthesize softSpaceRange=_softSpaceRange;
-@property(readonly) long long spellCheckerDocumentTag;
-@property long long spellCheckingType; // @synthesize spellCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,VspellCheckingType
-
-@property(readonly) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property _Bool textCheckingChangedText; // @synthesize textCheckingChangedText=_textCheckingChangedText;
-@property(retain) NSTextCheckingController *textCheckingController; // @synthesize textCheckingController=_textCheckingController;
-@property long long textCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
 @property __weak NSTextInputContext *textInputContext; // @synthesize textInputContext=_textInputContext;
-@property long long textReplacementType; // @synthesize textReplacementType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,VtextReplacementType
-
-@property(readonly) struct CGRect unionRectInVisibleSelectedRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property long long writingToolsBehavior;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
 
 @end
 

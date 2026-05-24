@@ -5,5 +5,6 @@
 //
 
 @protocol NSSerializerStream
+- (unsigned long long);
 @end
 

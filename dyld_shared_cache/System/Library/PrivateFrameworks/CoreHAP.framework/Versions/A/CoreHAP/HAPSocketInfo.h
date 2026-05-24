@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface HAPSocketInfo
 {
     NSString *_ipAddressString;
-    NSNumber *_port;
-    long long _ipAddressType;
 }
 
 + (id);
@@ -25,18 +23,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)6cancelC0yyYaKFTE;
 - (id);
 - (id);
 - (void)istic"16;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSString *ipAddressString; // @synthesize ipAddressString=_ipAddressString;
-@property(readonly, nonatomic) NSString *ipAddressStringWithScope;
-@property(readonly, nonatomic) long long ipAddressType; // @synthesize ipAddressType=_ipAddressType;
-@property(readonly, nonatomic) NSNumber *port; // @synthesize port=_port;
-@property(readonly) NSString *shortDescription;
 
 @end
 

@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreDataCloudKitSetupActivityLogEvent
 {
     NSUUID *_activityIdentifier;
-    NSString *_setupSessionIdentifier;
-    long long _checkAccountDurationMS;
-    long long _checkUserIdentityDurationMS;
-    long long _initializeAssetStorageDurationMS;
-    long long _initializeDatabaseSubscriptionDurationMS;
-    long long _initializeMetadataDurationMS;
-    long long _initializeZoneDurationMS;
-    long long _scheduledDurationMS;
-    long long _totalSetupDurationMS;
-    long long _phaseErrorCode;
-    NSString *_phaseErrorDomain;
-    NSString *_errorPhaseName;
 }
 
-- (long long);
+- (long long)stateByMovingObjectAtIndex:toIndex: /* Error: Ran out of types for this method. */;
+- (void)addNewSession:(long long)arg1 originator:receivingHandle:receivingAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_maps_isErrorOfDomain:(long long)arg1 code: /* Error: Ran out of types for this method. */;
+- (void)n",&,N,V_icon;
+- (void)dealloc;
+- (void);
+- (void)8@;
+- (void)0`h;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)topSharing didn't clear all destinations, forcing it now;
+- (long long)ting routingPathLeg from closest coordinate;
 - (id);
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long): /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
@@ -51,48 +39,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id)c;
 - (id);
 - (id)redentials:%@ /* Error: Ran out of types for this method. */;
 - (void)HMDActionSetTriggerDeletionCounts;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, nonatomic) NSUUID *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
-@property(nonatomic) long long checkAccountDurationMS; // @synthesize checkAccountDurationMS=_checkAccountDurationMS;
-@property(nonatomic) long long checkUserIdentityDurationMS; // @synthesize checkUserIdentityDurationMS=_checkUserIdentityDurationMS;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *errorPhaseName; // @synthesize errorPhaseName=_errorPhaseName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(nonatomic) long long initializeAssetStorageDurationMS; // @synthesize initializeAssetStorageDurationMS=_initializeAssetStorageDurationMS;
-@property(nonatomic) long long initializeDatabaseSubscriptionDurationMS; // @synthesize initializeDatabaseSubscriptionDurationMS=_initializeDatabaseSubscriptionDurationMS;
-@property(nonatomic) long long initializeMetadataDurationMS; // @synthesize initializeMetadataDurationMS=_initializeMetadataDurationMS;
-@property(nonatomic) long long initializeZoneDurationMS; // @synthesize initializeZoneDurationMS=_initializeZoneDurationMS;
-@property(nonatomic) long long phaseErrorCode; // @synthesize phaseErrorCode=_phaseErrorCode;
-@property(retain, nonatomic) NSString *phaseErrorDomain; // @synthesize phaseErrorDomain=_phaseErrorDomain;
-@property(nonatomic) long long scheduledDurationMS; // @synthesize scheduledDurationMS=_scheduledDurationMS;
-@property(readonly, nonatomic) NSString *setupSessionIdentifier; // @synthesize setupSessionIdentifier=_setupSessionIdentifier;
-@property(readonly) Class superclass;
-@property(nonatomic) long long totalSetupDurationMS; // @synthesize totalSetupDurationMS=_totalSetupDurationMS;
 
 @end
 

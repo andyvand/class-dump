@@ -7,11 +7,6 @@
 @interface NewsArticles.AudioArticleMessageUpdater
 {
     id articleNavigationBarMessageContainer;
-    id bundleSubscriptionManager;
-    id headline;
-    id currentlyPlayingObservable;
-    id currentPlayableArticleID;
-    id supportedMessages;
 }
 
 @end

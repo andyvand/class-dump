@@ -6,56 +6,44 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class BMSource, NSDate, NSObject, _CDContextualKeyPath;
-@protocol OS_dispatch_source, _CDLocalContext;
+@class BMSource;
 
 @interface _DKDeviceActivityLevelMonitor : _DKMonitor
 {
     BMSource *_bmSource;
-    _Bool _enabled;
-    _Bool _initialized;
-    int _siriToken;
-    unsigned long long _lastInUseStatus;
-    unsigned long long _currentInUseStatus;
-    NSDate *_lastSetActiveDate;
-    id <_CDLocalContext> _context;
-    _CDContextualKeyPath *_lastUseDate;
-    _CDContextualKeyPath *_inUseStatus;
-    NSObject<OS_dispatch_source> *_debounceTimer;
-    unsigned long long _userActivityNotificationHandle;
 }
 
-+ (id);
++ (id)imit;
 + (_Bool);
 + (id);
 + (id);
 + (void);
 - (void);
 - (void);
-- (id);
+- (id)_calculateCoordinatesToFrameBounds;
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (void)c type (unknown) z.;
+- (void)FRANCE_RER_Rail_La_Chaux_De_Fonds_Morteau;
+- (id)Name() [T = gdc::component::DataRequest<arComponents::ExternalAssetRequestData>] /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)c;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -65,17 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
-@property(nonatomic) unsigned long long currentInUseStatus; // @synthesize currentInUseStatus=_currentInUseStatus;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *debounceTimer; // @synthesize debounceTimer=_debounceTimer;
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) _CDContextualKeyPath *inUseStatus; // @synthesize inUseStatus=_inUseStatus;
-@property(nonatomic) _Bool initialized; // @synthesize initialized=_initialized;
-@property(nonatomic) unsigned long long lastInUseStatus; // @synthesize lastInUseStatus=_lastInUseStatus;
-@property(retain, nonatomic) NSDate *lastSetActiveDate; // @synthesize lastSetActiveDate=_lastSetActiveDate;
-@property(retain, nonatomic) _CDContextualKeyPath *lastUseDate; // @synthesize lastUseDate=_lastUseDate;
-@property(nonatomic) int siriToken; // @synthesize siriToken=_siriToken;
-@property(nonatomic) unsigned long long userActivityNotificationHandle; // @synthesize userActivityNotificationHandle=_userActivityNotificationHandle;
 
 @end
 

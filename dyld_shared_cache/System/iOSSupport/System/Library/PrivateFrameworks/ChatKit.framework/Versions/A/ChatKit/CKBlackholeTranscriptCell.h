@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDateLabel, UILabel;
+@class UILabel;
 
 @interface CKBlackholeTranscriptCell
 {
     UILabel *_fromLabel;
-    UIDateLabel *_dateLabel;
-    UILabel *_bodyLabel;
 }
 
 - (void);
-- (id);
+- (id)from webArchive %@;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (void);
-- (id)erableSortComparator;
+- (id)_recoverableSortComparator;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *bodyLabel; // @synthesize bodyLabel=_bodyLabel;
-@property(retain, nonatomic) UIDateLabel *dateLabel; // @synthesize dateLabel=_dateLabel;
 @property(retain, nonatomic) UILabel *fromLabel; // @synthesize fromLabel=_fromLabel;
 
 @end

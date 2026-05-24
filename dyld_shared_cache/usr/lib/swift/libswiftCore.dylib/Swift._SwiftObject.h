@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface Swift._SwiftObject
 {
     Class isa;
-    struct RefCounts<swift::RefCountBitsT<swift::RefCountIsInline>> refCounts;
 }
 
 + (Class);
 + (_Bool);
 + (CDUnknownFunctionPointerType);
 + (Class);
-+ (unsigned long long);
++ (unsigned long long)`;
 + (void);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (CDUnknownFunctionPointerType);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)@16@24B32;
 + (id);
 + (_Bool)Ho<p0phq°qTr1àr;
 + (_Bool)©L©¿;
 + (void)uÔ;
 + (id)OÿO;
-+ (id)dExistentialTypeShapeSymbolicReference;
-+ (_Bool)oken;
++ (id)NonUniqueExtendedExistentialTypeShapeSymbolicReference;
++ (_Bool)CanonicalPrespecializedGenericTypeCachingOnceToken;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -63,29 +60,23 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)remoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (CDUnknownFunctionPointerType);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)0;
+- (id)@36:44@52B60@64 /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool)À¸;
 - (unsigned long long)4æ&;
 - (struct _NSZone *)`Î'ÀÓ'`×'ÀÜ'`ß'Àâ'`ð'À;
-- (_Bool)tlinedEnumTagStore;
+- (_Bool)OutlinedEnumTagStore;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

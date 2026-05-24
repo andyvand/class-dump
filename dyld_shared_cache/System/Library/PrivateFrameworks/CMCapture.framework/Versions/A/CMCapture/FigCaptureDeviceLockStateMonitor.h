@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FigCaptureDeviceLockStateMonitor
 {
     NSObject<OS_dispatch_queue> *_monitorQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSMutableArray *_deviceLockStateObservers;
-    int _deviceLockStateChangedToken;
-    NSDictionary *_mobileKeyBagOptions;
-    _Bool _deviceIsLocked;
-    _Bool _invalid;
 }
 
 + (id);
 + (void)evice.private.built-in_pointcloud:1 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)isGeneratedText;
 - (id);
 - (_Bool)T;
 

@@ -8,7 +8,6 @@
 {
     id _image;
     id publisher;
-    id subscription;
 }
 
 @end

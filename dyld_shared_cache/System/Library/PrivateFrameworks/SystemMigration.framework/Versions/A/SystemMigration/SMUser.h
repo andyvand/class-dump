@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSNumber, NSString, NSURL, SMSystem;
+@class NSString;
 
 @interface SMUser
 {
     NSString *_shortNameForImport;
-    NSString *_longNameForImport;
-    _Bool _dontNeedToCopyUserHome;
-    _Bool _homeDirIsRedirected;
-    _Bool _homeDirToBeCopiedByMigration;
-    _Bool _homeDirToBeSymlinkedByMigration;
-    _Bool _fdeSigned;
-    _Bool _filevault;
-    _Bool _portableHomeUser;
-    _Bool _isAdminUser;
-    _Bool _isRoleUser;
-    _Bool _needsAttention;
-    _Bool _isConflictingWithAnAdmin;
-    unsigned int _uid;
-    unsigned int _gid;
-    unsigned long long _userConflictState;
-    NSString *_UUID;
-    SMSystem *_sourceSystem;
-    NSString *_name;
-    NSString *_iCloudName;
-    NSArray *_iCloudNames;
-    NSArray *_iCloudIdentifiers;
-    NSString *_fullName;
-    NSImage *_accountPicture;
-    NSURL *_relativeHomeDir;
-    NSNumber *_homeDirSize;
-    unsigned long long _userConflictResolutionOptions;
 }
 
 + (id);
@@ -49,39 +23,39 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)`B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -96,54 +70,21 @@
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)ameRenderTime;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)early;
+- (id)MapsSuggestionsRatingRequestLifetimeKey;
 - (void);
-- (void);
-- (void);
-- (void)ADirectory;
+- (void)onHandler;
+- (void)__auth_stubs;
+- (void)isCurrentPathADirectory;
 - (unsigned int);
 
 // Remaining properties
-@property(retain) NSString *UUID; // @synthesize UUID=_UUID;
-@property(retain) NSImage *accountPicture; // @synthesize accountPicture=_accountPicture;
-@property _Bool allowOverwriteOfConflictedShortName;
-@property _Bool dontNeedToCopyUserHome; // @synthesize dontNeedToCopyUserHome=_dontNeedToCopyUserHome;
-@property _Bool fdeSigned; // @synthesize fdeSigned=_fdeSigned;
-@property _Bool filevault; // @synthesize filevault=_filevault;
-@property(retain) NSString *fullName; // @synthesize fullName=_fullName;
-@property unsigned int gid; // @synthesize gid=_gid;
-@property _Bool homeDirIsRedirected; // @synthesize homeDirIsRedirected=_homeDirIsRedirected;
-@property(readonly) NSNumber *homeDirSize; // @synthesize homeDirSize=_homeDirSize;
-@property _Bool homeDirToBeCopiedByMigration; // @synthesize homeDirToBeCopiedByMigration=_homeDirToBeCopiedByMigration;
-@property _Bool homeDirToBeSymlinkedByMigration; // @synthesize homeDirToBeSymlinkedByMigration=_homeDirToBeSymlinkedByMigration;
-@property(retain) NSArray *iCloudIdentifiers; // @synthesize iCloudIdentifiers=_iCloudIdentifiers;
-@property(retain) NSString *iCloudName; // @synthesize iCloudName=_iCloudName;
-@property(retain) NSArray *iCloudNames; // @synthesize iCloudNames=_iCloudNames;
-@property(readonly) _Bool isAdminUser; // @synthesize isAdminUser=_isAdminUser;
-@property _Bool isConflictingWithAnAdmin; // @synthesize isConflictingWithAnAdmin=_isConflictingWithAnAdmin;
-@property(readonly) _Bool isRoleUser; // @synthesize isRoleUser=_isRoleUser;
-@property(readonly) _Bool isRoot;
-@property(retain) NSString *longNameForImport;
-@property(readonly) _Bool longNameHasConflict;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property _Bool needsAttention; // @synthesize needsAttention=_needsAttention;
-@property _Bool portableHomeUser; // @synthesize portableHomeUser=_portableHomeUser;
-@property(readonly) NSURL *relativeHomeDir; // @synthesize relativeHomeDir=_relativeHomeDir;
-@property(retain) NSString *shortNameForImport;
-@property(readonly) _Bool shortNameHasConflict;
-@property(readonly) _Bool shortNameHasConflictWithOtherShortName;
-@property _Bool shouldOverwriteConflictedShortName;
-@property _Bool shouldPreserveConflictedHomeDirectory;
-@property(readonly) SMSystem *sourceSystem; // @synthesize sourceSystem=_sourceSystem;
 @property unsigned int uid; // @synthesize uid=_uid;
-@property unsigned long long userConflictResolutionOptions; // @synthesize userConflictResolutionOptions=_userConflictResolutionOptions;
-@property(readonly) unsigned long long userConflictState; // @synthesize userConflictState=_userConflictState;
 
 @end
 

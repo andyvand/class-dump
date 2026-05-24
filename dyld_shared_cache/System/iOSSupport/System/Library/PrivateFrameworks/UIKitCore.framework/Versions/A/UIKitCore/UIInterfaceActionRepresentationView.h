@@ -6,57 +6,40 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UIInterfaceAction, UIInterfaceActionVisualStyle, UISpringLoadedInteraction;
-@protocol UIFocusEnvironment, UIFocusItemContainer, UIInterfaceActionVisualBackgroundDisplaying;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface UIInterfaceActionRepresentationView : UIView
 {
     _Bool _hasLoadedBackgroundView;
-    _Bool _canKeepContentsInHierarchy;
-    _Bool _hasLoadedContentFirstTime;
-    _Bool _enforcedCanRemoveContentFromHierarchyWhenNotVisible;
-    _Bool _enforcedCanRemoveContentFromHierarchyWhenNotVisibleValue;
-    _Bool _contentsInsertedIntoViewHierarchy;
-    _Bool _ownsActionContent;
-    _Bool _highlighted;
-    _Bool _pressed;
-    _Bool _canRemoveContentFromHierarchyWhenNotVisible;
-    UIInterfaceAction *_action;
-    unsigned long long _visualCornerPosition;
-    id _actionViewStateContext;
-    NSLayoutConstraint *_minimumWidthConstraint;
-    NSLayoutConstraint *_minimumHeightConstraint;
-    NSArray *_viewsToDisappearWhenHighlighted;
-    NSString *_sectionID;
-    UIView<UIInterfaceActionVisualBackgroundDisplaying> *_backgroundHighlightView;
-    UISpringLoadedInteraction *_interactionForSpringLoading;
 }
 
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)workload reporting task;
+- (void)leOnDatabase:(id)arg1 %{bool}d
+    isPurgeableOnDisk:%{bool}d
+    filePath:%s /* Error: Ran out of types for this method. */;
+- (void)again;
+- (void)Found a better asset in CKRecord %@, cloud size %@ local size %@;
+- (void)t rowID %lld;
+- (_Bool)gh Blastdoor name=(%@); reason=(%@);
+- (id)ing if chats with chatIdentifier %@ and style %hhu need to have shouldForceToSMS updated to %@.;
+- (id)party message, so let's try and transcode them;
+- (void)(%d);
+- (void)pients %@;
+- (void)efaults delete com.apple.madrid initialSyncRecordHasBeenWritten;
+- (void)dIfNeeded We have already done this. Not doing again unless you do defaults delete com.apple.madrid initialSyncRecordHasBeenWritten;
+- (id)te:%@ error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)= %@; numMessageItems = %lu};
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -64,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -78,7 +61,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -98,11 +81,11 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void)1Â0@ù
 × ;
-- (void)sentative;
-- (void)s;
-- (id)dSolvedItemFrame;
+- (void)groupRepresentative;
+- (void)_updateHighlightColors;
+- (id)_uncommittedSolvedItemFrame;
 - (void)ô´;
-- (void)t;
+- (void)currentTouchPoint;
 - (struct CGSize)estination:(struct CGSize)arg1 ];
 - (void);
 - (id)u ÒÀ¡ó»4@ø¤	¦ò?;
@@ -119,40 +102,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic, setter=_setContentsInsertedIntoViewHierarchy:) _Bool _contentsInsertedIntoViewHierarchy; // @synthesize _contentsInsertedIntoViewHierarchy;
-@property(readonly, nonatomic) UIInterfaceAction *action; // @synthesize action=_action;
-@property(retain, nonatomic) id actionViewStateContext; // @synthesize actionViewStateContext=_actionViewStateContext;
-@property(readonly, nonatomic) UIView<UIInterfaceActionVisualBackgroundDisplaying> *backgroundHighlightView; // @synthesize backgroundHighlightView=_backgroundHighlightView;
-@property(nonatomic) _Bool canRemoveContentFromHierarchyWhenNotVisible; // @synthesize canRemoveContentFromHierarchyWhenNotVisible=_canRemoveContentFromHierarchyWhenNotVisible;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UISpringLoadedInteraction *interactionForSpringLoading; // @synthesize interactionForSpringLoading=_interactionForSpringLoading;
-@property(readonly, nonatomic) NSLayoutConstraint *minimumHeightConstraint; // @synthesize minimumHeightConstraint=_minimumHeightConstraint;
 @property(readonly, nonatomic) NSLayoutConstraint *minimumWidthConstraint; // @synthesize minimumWidthConstraint=_minimumWidthConstraint;
-@property(nonatomic) _Bool ownsActionContent; // @synthesize ownsActionContent=_ownsActionContent;
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment;
-@property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly, nonatomic) __weak UIView *preferredFocusedView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,W,N
-
-@property(nonatomic, getter=isPressed) _Bool pressed; // @synthesize pressed=_pressed;
-@property(retain, nonatomic) NSString *sectionID; // @synthesize sectionID=_sectionID;
-@property(nonatomic, getter=isSpringLoaded) _Bool springLoaded; // @dynamic springLoaded;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *viewsToDisappearWhenHighlighted; // @synthesize viewsToDisappearWhenHighlighted=_viewsToDisappearWhenHighlighted;
-@property(nonatomic) unsigned long long visualCornerPosition; // @synthesize visualCornerPosition=_visualCornerPosition;
-@property(readonly, nonatomic) UIInterfaceActionVisualStyle *visualStyle;
 
 @end
 

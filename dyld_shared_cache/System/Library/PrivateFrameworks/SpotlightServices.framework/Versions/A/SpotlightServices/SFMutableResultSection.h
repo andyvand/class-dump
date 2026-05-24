@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableOrderedSet, NSNumber, NSString, SPGroupHeadingResult;
+@class NSString;
 
 @interface SFMutableResultSection
 {
     _Bool _doNotFold;
-    _Bool _pinToTop;
-    unsigned int _domain;
-    unsigned int _confidence;
-    NSArray *_hiddenExtResults;
-    NSString *_groupName;
-    NSNumber *_groupId;
-    NSMutableOrderedSet *_resultSet;
-    NSMutableOrderedSet *_backingResultSet;
-    SPGroupHeadingResult *_headerResult;
-    NSString *_relatedSectionBundleIdentifier;
-    NSString *_resultSetIdentifier;
 }
 
 + (_Bool);
@@ -29,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)gP;
 - (void);
 - (id);
 - (unsigned long long);
@@ -40,30 +29,30 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id)$0;
 - (void);
+- (void);
+- (void)setDestinationPathVideoComplement:(id)arg1;
 - (id);
 - (void);
+- (void)defaultManager;
+- (id);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
@@ -79,24 +68,13 @@
 - (id);
 - (void);
 - (void);
-- (void)teLogsURLForBundle: /* Error: Ran out of types for this method. */;
+- (void)candidateLogsURLForBundle: /* Error: Ran out of types for this method. */;
 - (id)&,N,V_definitionString;
-- (id)GES;
-- (void)ymbolName;
+- (id)IMAGES;
+- (void)symbolName;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableOrderedSet *backingResultSet; // @synthesize backingResultSet=_backingResultSet;
-@property(nonatomic) unsigned int confidence; // @synthesize confidence=_confidence;
-@property _Bool doNotFold; // @synthesize doNotFold=_doNotFold;
-@property(nonatomic) unsigned int domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) NSNumber *groupId; // @synthesize groupId=_groupId;
 @property(retain, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(retain, nonatomic) SPGroupHeadingResult *headerResult; // @synthesize headerResult=_headerResult;
-@property(retain, nonatomic) NSArray *hiddenExtResults; // @synthesize hiddenExtResults=_hiddenExtResults;
-@property _Bool pinToTop; // @synthesize pinToTop=_pinToTop;
-@property(retain, nonatomic) NSString *relatedSectionBundleIdentifier; // @synthesize relatedSectionBundleIdentifier=_relatedSectionBundleIdentifier;
-@property(retain, nonatomic) NSMutableOrderedSet *resultSet; // @synthesize resultSet=_resultSet;
-@property(retain, nonatomic) NSString *resultSetIdentifier; // @synthesize resultSetIdentifier=_resultSetIdentifier;
 
 @end
 

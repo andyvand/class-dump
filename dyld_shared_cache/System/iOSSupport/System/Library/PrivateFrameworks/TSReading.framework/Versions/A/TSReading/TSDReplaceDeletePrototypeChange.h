@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol TSSPropertySource;
-
 @interface TSDReplaceDeletePrototypeChange
 {
     _Bool mPrototypeIsBeingReplaced;
-    _Bool mPrototypeIsBeingDeleted;
-    id mReplacement;
-    id mPrototype;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -31,20 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) id <TSSPropertySource> propertiesAfterChange;
-@property(readonly, retain) id <TSSPropertySource> propertiesBeforeChange;
-@property(readonly, retain) id prototype; // @synthesize prototype=mPrototype;
-@property(readonly) _Bool prototypeIsBeingDeleted; // @synthesize prototypeIsBeingDeleted=mPrototypeIsBeingDeleted;
-@property(readonly) _Bool prototypeIsBeingModified;
 @property(readonly) _Bool prototypeIsBeingReplaced; // @synthesize prototypeIsBeingReplaced=mPrototypeIsBeingReplaced;
-@property(readonly, retain) id replacement; // @synthesize replacement=mReplacement;
-@property(readonly) Class superclass;
 
 @end
 

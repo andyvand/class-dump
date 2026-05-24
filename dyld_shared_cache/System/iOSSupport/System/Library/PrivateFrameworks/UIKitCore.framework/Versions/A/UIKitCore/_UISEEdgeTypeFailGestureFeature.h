@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _Bool _initialFromEdgeTip;
 }
 
-- (void)alePtsX:(const struct _UISEGestureFeatureSample *)arg1;
+- (void)setInteractionPulseScalePtsX:(const struct _UISEGestureFeatureSample *)arg1;
 
 @end
 

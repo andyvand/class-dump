@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void)SAGE;
+- (void)NEARBY_ERROR_RECEIVER_SETUP_REQUIRED_MESSAGE;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) PKAppleBalanceInStoreTopUpToken *token; // @synthesize token=_token;

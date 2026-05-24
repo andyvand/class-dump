@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection, UNDockConnection;
 @protocol UNUninstallClientDelegate;
 
 @interface UNUninstallClient
 {
     id <UNUninstallClientDelegate> _delegate;
-    UNDockConnection *_dockConnection;
-    NSXPCConnection *_connection;
-    NSLock *_connectionLock;
 }
 
 - (int);
@@ -20,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -28,8 +24,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)
+?ל;
+- (id)TranscriptVideMessageEnded;
 - (void);
 - (void);
 - (id);
@@ -38,10 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSLock *connectionLock; // @synthesize connectionLock=_connectionLock;
 @property(retain, nonatomic) id <UNUninstallClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UNDockConnection *dockConnection; // @synthesize dockConnection=_dockConnection;
 
 @end
 

@@ -9,17 +9,15 @@
 @interface MREffectManager
 {
     NSMutableDictionary *mEffectSets;
-    NSMutableDictionary *mEffectPools;
-    NSMutableDictionary *mFontRepository;
 }
 
 + (id);
 + (void)&;
-- (id);
+- (id)v@?@"<FCNewsAppConfiguration>"@"NSDictionary"@"NSData"@"NSError">28;
 - (id);
 - (void);
-- (double);
-- (_Bool);
+- (double)pesAsPreparedForUpload:(id)arg1 ];
+- (_Bool)init];
 - (id);
 - (id);
 - (_Bool);
@@ -28,7 +26,7 @@
 - (id);
 - (double);
 - (double);
-- (id);
+- (id)#;
 - (id);
 - (Class);
 - (id);

@@ -4,53 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAnnounceUserSettings, HMAssistantAccessControl, HMFPairingIdentity, HMHome, HMHomeAccessControl, HMMediaContentProfileAccessControl, HMMutableArray, HMPhotosPersonManager, HMPhotosPersonManagerSettings, HMSettings, HMSettingsController, HMUserListeningHistoryUpdateControl, HMUserSettingsAdapter, IDSURI, NSDictionary, NSObject, NSString, NSUUID, _HMContext;
-@protocol HMUserDelegatePrivate, OS_dispatch_queue;
+@class HMPhotosPersonManager;
 
 @interface HMUser
 {
     struct os_unfair_lock_s _lock;
-    HMMutableArray *_pendingAccessoryInvitations;
-    NSString *_senderCorrelationIdentifier;
-    _Bool _currentUser;
-    _Bool _needsiTunesMultiUserRepair;
-    _Bool _settingsInitialized;
-    _Bool _supportsSharedHomeHH2AutoMigration;
-    _Bool _requiresAdaptiveTemperatureAutomationsDisclosure;
-    _Bool _rgAllowedPeriod;
-    NSUUID *_uniqueIdentifier;
-    NSString *_name;
-    HMHomeAccessControl *_homeAccessControl;
-    HMAssistantAccessControl *_assistantAccessControl;
-    HMMediaContentProfileAccessControl *_mediaContentProfileAccessControl;
-    HMUserListeningHistoryUpdateControl *_userListeningHistoryUpdateControl;
-    NSString *_userID;
-    HMHome *_home;
-    HMFPairingIdentity *_pairingIdentity;
-    HMSettings *_settings;
-    HMSettings *_privateSettings;
-    HMAnnounceUserSettings *_announceUserSettings;
-    HMPhotosPersonManager *_photosPersonManager;
-    HMPhotosPersonManagerSettings *_photosPersonManagerSettings;
-    NSUUID *_photosPersonManagerZoneUUID;
-    NSString *_iCloudAltDSID;
-    NSString *_givenName;
-    NSString *_familyName;
-    id <HMUserDelegatePrivate> _delegate;
-    HMSettingsController *_settingsController;
-    HMSettingsController *_privateSettingsController;
-    HMUserSettingsAdapter *_privateSettingsAdapter;
-    HMUserSettingsAdapter *_sharedSettingsAdapter;
-    NSDictionary *_pendingPrivateSettings;
-    NSDictionary *_pendingSharedSettings;
-    NSUUID *_uuid;
-    _HMContext *_context;
 }
 
 + (_Bool);
 + (id)med.xpc.accessory-setup;
 - (id);
-- (id);
+- (id)~;
 - (void);
 - (void);
 - (void);
@@ -73,40 +37,40 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)K	;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ѓ"�;
 - (void);
+- (void)&;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)˟;
 - (id);
 - (id);
 - (void);
@@ -128,87 +92,48 @@
 - (id);
 - (id);
 - (id);
+- (id)K';
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)_setIsTakingPhoto:(CDUnknownBlockType)arg1;
+- (void)_resumeMarkerKeyPath;
+- (id)_resetAnalysisStateForVideosInStore:(id)arg1;
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)a;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)unboundedAttributedDocumentStateForTestingWithPlainContextBefore:(id)arg1 selectedText:contextAfter: /* Error: Ran out of types for this method. */;
+- (id)>
+0
+>
+;
+- (id)*
+>
+%
+;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)ngContext: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)MutableMediaContentProfileAccessControl;
-- (id)mat;
-- (id)upports2c25465bb0b47366;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)SRCSCommandDescriptionsSectionDescValue;
+- (id);
+- (id);
+- (void);
+- (id)notifyDelegateUpdatedPreferredMediaUserUsingContext: /* Error: Ran out of types for this method. */;
+- (void)deregisterReceiver:(_Bool)arg1;
+- (void)HMMutableMediaContentProfileAccessControl;
+- (id)metadataFormat;
+- (id)supports2c25465bb0b47366;
 
 // Remaining properties
-@property(retain) HMAnnounceUserSettings *announceUserSettings; // @synthesize announceUserSettings=_announceUserSettings;
-@property(copy) HMAssistantAccessControl *assistantAccessControl; // @synthesize assistantAccessControl=_assistantAccessControl;
-@property(retain) _HMContext *context; // @synthesize context=_context;
-@property(nonatomic, getter=isCurrentUser) _Bool currentUser; // @synthesize currentUser=_currentUser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMUserDelegatePrivate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(retain, nonatomic) HMHomeAccessControl *homeAccessControl; // @synthesize homeAccessControl=_homeAccessControl;
-@property(readonly) NSString *iCloudAltDSID; // @synthesize iCloudAltDSID=_iCloudAltDSID;
-@property(copy) HMMediaContentProfileAccessControl *mediaContentProfileAccessControl; // @synthesize mediaContentProfileAccessControl=_mediaContentProfileAccessControl;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property _Bool needsiTunesMultiUserRepair; // @synthesize needsiTunesMultiUserRepair=_needsiTunesMultiUserRepair;
-@property(copy) HMFPairingIdentity *pairingIdentity; // @synthesize pairingIdentity=_pairingIdentity;
-@property(retain) NSDictionary *pendingPrivateSettings; // @synthesize pendingPrivateSettings=_pendingPrivateSettings;
-@property(retain) NSDictionary *pendingSharedSettings; // @synthesize pendingSharedSettings=_pendingSharedSettings;
-@property(retain) HMPhotosPersonManager *photosPersonManager; // @synthesize photosPersonManager=_photosPersonManager;
-@property(copy) HMPhotosPersonManagerSettings *photosPersonManagerSettings; // @synthesize photosPersonManagerSettings=_photosPersonManagerSettings;
-@property(copy) NSUUID *photosPersonManagerZoneUUID; // @synthesize photosPersonManagerZoneUUID=_photosPersonManagerZoneUUID;
-@property(readonly) HMSettings *privateSettings; // @synthesize privateSettings=_privateSettings;
-@property(retain) HMUserSettingsAdapter *privateSettingsAdapter; // @synthesize privateSettingsAdapter=_privateSettingsAdapter;
-@property(readonly) HMSettingsController *privateSettingsController; // @synthesize privateSettingsController=_privateSettingsController;
-@property _Bool requiresAdaptiveTemperatureAutomationsDisclosure; // @synthesize requiresAdaptiveTemperatureAutomationsDisclosure=_requiresAdaptiveTemperatureAutomationsDisclosure;
-@property _Bool rgAllowedPeriod; // @synthesize rgAllowedPeriod=_rgAllowedPeriod;
-@property(readonly) HMSettings *settings; // @synthesize settings=_settings;
-@property(readonly) HMSettingsController *settingsController; // @synthesize settingsController=_settingsController;
-@property(readonly) _Bool settingsInitialized; // @synthesize settingsInitialized=_settingsInitialized;
-@property(retain) HMUserSettingsAdapter *sharedSettingsAdapter; // @synthesize sharedSettingsAdapter=_sharedSettingsAdapter;
-@property(readonly) Class superclass;
-@property _Bool supportsSharedHomeHH2AutoMigration; // @synthesize supportsSharedHomeHH2AutoMigration=_supportsSharedHomeHH2AutoMigration;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
-@property(readonly, copy, nonatomic) IDSURI *userIDSURI;
-@property(copy) HMUserListeningHistoryUpdateControl *userListeningHistoryUpdateControl; // @synthesize userListeningHistoryUpdateControl=_userListeningHistoryUpdateControl;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
+@property(readonly) HMPhotosPersonManager *photosPersonManager;
 
 @end
 

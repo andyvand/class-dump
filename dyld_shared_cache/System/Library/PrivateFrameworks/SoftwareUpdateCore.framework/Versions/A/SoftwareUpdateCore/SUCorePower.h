@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SUCorePower
 {
     NSObject<OS_dispatch_queue> *_assertionQueue;
-    NSMutableDictionary *_activePowerAssertions;
 }
 
 + (id);
@@ -19,13 +18,12 @@
 + (void);
 + (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)_collectionViewLayout;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *activePowerAssertions; // @synthesize activePowerAssertions=_activePowerAssertions;
 @property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *assertionQueue; // @synthesize assertionQueue=_assertionQueue;
 
 @end

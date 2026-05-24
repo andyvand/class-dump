@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSMutableArray;
+@class NSMutableArray;
 
 @interface EKUIDividedGridViewWeekView
 {
     NSMutableArray *_buttonViews;
-    NSLayoutConstraint *_heightConstraint;
 }
 
 - (id);
-- (void);
+- (void)s;
 - (id);
 - (void);
 - (id);
-- (void)llBlueTextColor;
+- (void)tableCellBlueTextColor;
 
 // Remaining properties
 @property(retain) NSMutableArray *buttonViews; // @synthesize buttonViews=_buttonViews;
-@property __weak NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
 
 @end
 

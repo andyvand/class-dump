@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MCExtension)
-+ (id);
++ (id)/>;
 + (id);
 + (id);
 + (id);

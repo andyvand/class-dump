@@ -6,13 +6,9 @@
 
 #import <PhotosUICore/PXMemoriesAction.h>
 
-@class NSString;
-
 @interface PXFavoriteMemoriesAction : PXMemoriesAction
 {
     _Bool _favorite;
-    NSString *_localizedActionName;
-    NSString *_actionSystemImageName;
 }
 
 + (_Bool);
@@ -24,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool)radingEffect;
+- (_Bool)_updateColorGradingEffect;
 - (void)Ù/¶3;
 
 // Remaining properties

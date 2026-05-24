@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAllCollectionsViewResultFilterTypeAddress, GEOPDAllCollectionsViewResultFilterTypeKeyword, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAllCollectionsViewResultFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDAllCollectionsViewResultFilterTypeAddress *_filterAddress;
-    GEOPDAllCollectionsViewResultFilterTypeKeyword *_filterKeyword;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _filterType;
-    CDStruct_85060554 _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)CSVoiceTriggerXPCClientDelegate;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

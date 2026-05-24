@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SignpostSupportSubsystemCategoryAllowlist;
-@protocol OS_dispatch_queue, OS_os_transaction;
-
 @interface STYSignpostsMonitorHelper
 {
     _Bool _shouldBeEnabled;
-    _Bool _isEnabled;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    NSObject<OS_os_transaction> *_osTransaction;
 }
 
 - (void);
@@ -29,20 +23,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)C	;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) SignpostSupportSubsystemCategoryAllowlist *allowList;
-@property _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly) NSString *name;
-@property(retain) NSObject<OS_os_transaction> *osTransaction; // @synthesize osTransaction=_osTransaction;
-@property(retain) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
 @property _Bool shouldBeEnabled; // @synthesize shouldBeEnabled=_shouldBeEnabled;
 
 @end

@@ -6,36 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IFTSchemaIFTClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ifRequestId;
-    SISchemaUUID *_ifEventId;
-    SISchemaUUID *_ifSessionId;
-    SISchemaUUID *_clientTraceId;
-    int _sender;
-    unsigned long long _postingSpanId;
-    NSArray *_initiatedSpans;
-    int _clientApplicationId;
-    struct {
-        unsigned int sender:1;
-        unsigned int postingSpanId:1;
-        unsigned int clientApplicationId:1;
-    } _has;
-    _Bool _hasIfRequestId;
-    _Bool _hasIfEventId;
-    _Bool _hasIfSessionId;
-    _Bool _hasClientTraceId;
 }
 
+- (void)X;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,7 +36,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)ѿ;
 - (_Bool);
 - (void);
 - (void);
@@ -77,29 +61,14 @@
 - (id);
 - (id);
 - (id)lGenerated;
-- (int)elRequestContext;
+- (int)GMSSchemaGMSModelRequestContext;
 - (id);
-- (void)EIVOICECOMMANDTYPE_MOVE_CURSOR_BEGINNING;
-- (_Bool)ONACCURACYSIGNALSOURCE_IN_SESSION_INDIRECT_USER_FEEDBACK;
+- (void)UEIVOICECOMMANDTYPE_MOVE_CURSOR_BEGINNING;
+- (_Bool)PLUSSUGGESTIONACCURACYSIGNALSOURCE_IN_SESSION_INDIRECT_USER_FEEDBACK;
 - (void)w²#;
 
 // Remaining properties
-@property(nonatomic) int clientApplicationId; // @synthesize clientApplicationId=_clientApplicationId;
-@property(retain, nonatomic) SISchemaUUID *clientTraceId; // @synthesize clientTraceId=_clientTraceId;
-@property(nonatomic) _Bool hasClientApplicationId;
-@property(nonatomic) _Bool hasClientTraceId; // @synthesize hasClientTraceId=_hasClientTraceId;
-@property(nonatomic) _Bool hasIfEventId; // @synthesize hasIfEventId=_hasIfEventId;
-@property(nonatomic) _Bool hasIfRequestId; // @synthesize hasIfRequestId=_hasIfRequestId;
-@property(nonatomic) _Bool hasIfSessionId; // @synthesize hasIfSessionId=_hasIfSessionId;
-@property(nonatomic) _Bool hasPostingSpanId;
-@property(nonatomic) _Bool hasSender;
-@property(retain, nonatomic) SISchemaUUID *ifEventId; // @synthesize ifEventId=_ifEventId;
 @property(retain, nonatomic) SISchemaUUID *ifRequestId; // @synthesize ifRequestId=_ifRequestId;
-@property(retain, nonatomic) SISchemaUUID *ifSessionId; // @synthesize ifSessionId=_ifSessionId;
-@property(copy, nonatomic) NSArray *initiatedSpans; // @synthesize initiatedSpans=_initiatedSpans;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long postingSpanId; // @synthesize postingSpanId=_postingSpanId;
-@property(nonatomic) int sender; // @synthesize sender=_sender;
 
 @end
 

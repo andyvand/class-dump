@@ -4,39 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDocumentLayoutAnalysisResult, CHRecognitionSessionAutoRefineResult, CHStrokeClassificationResult, CHStrokeClutterFilter, CHStrokeGroupingResult, CHTilingResult, NSArray, NSData, NSDictionary, NSSet, NSString;
+@class NSDictionary;
 @protocol CHStrokeProviderVersion;
 
 @interface CHRecognitionSessionResult
 {
     NSDictionary *_recognitionResultsByGroupID;
-    NSDictionary *_rawRecognitionResultsByGroupID;
-    NSDictionary *_textCorrectionResultsByGroupID;
-    NSDictionary *_cachedRecognitionResultsFromPostProcessing;
-    long long __transcriptionCapability;
-    NSData *_encodedStrokeProviderVersion;
-    NSSet *_declaredVariables;
-    long long _completeness;
-    _Bool __shouldUseCachedCompleteness;
-    id <CHStrokeProviderVersion> _strokeProviderVersion;
-    NSArray *_orderedStrokeIdentifiers;
-    long long _sessionMode;
-    NSArray *_locales;
-    NSArray *_preferredLocales;
-    CHStrokeClutterFilter *_clutterFilter;
-    long long _recognitionEnvironment;
-    CHStrokeClassificationResult *_strokeClassificationResult;
-    CHStrokeGroupingResult *_unprocessedStrokeGroupingResult;
-    CHStrokeGroupingResult *_strokeGroupingResult;
-    CHTilingResult *_tilingResult;
-    CHDocumentLayoutAnalysisResult *_documentLayoutAnalysisResult;
-    NSArray *_autoRefineResults;
-    CHRecognitionSessionAutoRefineResult *_lastAutoRefineResult;
-    CDStruct_14eb5789 _generationDuration;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_fsStream;
 - (id);
 - (id);
 - (id);
@@ -54,12 +31,13 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (CDStruct_14eb5789);
+- (id)
+!;
+- (CDStruct_a6fa95e6);
 - (id);
 - (id);
 - (id);
@@ -78,33 +56,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (void);
-- (id);
+- (id)inkRenderingDescriptorWithDictionary: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *allResultsDebugDescription;
-@property(readonly, nonatomic) NSArray *allResultsDebugDescriptionByGroup;
-@property(readonly, nonatomic) NSArray *autoRefineResults; // @synthesize autoRefineResults=_autoRefineResults;
-@property(readonly, nonatomic) CHStrokeClutterFilter *clutterFilter; // @synthesize clutterFilter=_clutterFilter;
-@property(readonly, nonatomic) CHDocumentLayoutAnalysisResult *documentLayoutAnalysisResult; // @synthesize documentLayoutAnalysisResult=_documentLayoutAnalysisResult;
-@property(readonly, nonatomic) CDStruct_14eb5789 generationDuration; // @synthesize generationDuration=_generationDuration;
-@property(readonly, nonatomic) NSString *highConfidenceDebugDescription;
-@property(readonly, nonatomic) CHRecognitionSessionAutoRefineResult *lastAutoRefineResult; // @synthesize lastAutoRefineResult=_lastAutoRefineResult;
-@property(readonly, copy, nonatomic) NSArray *locales; // @synthesize locales=_locales;
-@property(readonly, nonatomic) NSArray *orderedStrokeIdentifiers; // @synthesize orderedStrokeIdentifiers=_orderedStrokeIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *preferredLocales; // @synthesize preferredLocales=_preferredLocales;
-@property(readonly, nonatomic) long long recognitionEnvironment; // @synthesize recognitionEnvironment=_recognitionEnvironment;
-@property(readonly, nonatomic) long long sessionMode; // @synthesize sessionMode=_sessionMode;
-@property(readonly, nonatomic) CHStrokeClassificationResult *strokeClassificationResult; // @synthesize strokeClassificationResult=_strokeClassificationResult;
-@property(readonly, nonatomic) CHStrokeGroupingResult *strokeGroupingResult; // @synthesize strokeGroupingResult=_strokeGroupingResult;
 @property(readonly, nonatomic) id <CHStrokeProviderVersion> strokeProviderVersion; // @synthesize strokeProviderVersion=_strokeProviderVersion;
-@property(readonly, nonatomic) CHTilingResult *tilingResult; // @synthesize tilingResult=_tilingResult;
-@property(readonly, nonatomic) CHStrokeGroupingResult *unprocessedStrokeGroupingResult; // @synthesize unprocessedStrokeGroupingResult=_unprocessedStrokeGroupingResult;
 
 @end
 

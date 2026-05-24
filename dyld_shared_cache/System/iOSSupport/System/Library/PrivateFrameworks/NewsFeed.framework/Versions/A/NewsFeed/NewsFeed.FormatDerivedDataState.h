@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatDerivedDataState
 {
     id inventory;
-    id files;
-    id slotDefinitions;
-    id results;
-    id resultBlocks;
-    id options;
 }
 
 @end

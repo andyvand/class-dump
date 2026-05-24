@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     _Bool _shouldExpandHeight;
 }
 
-- (_Bool);
+- (_Bool)ICDocumentMergeController;
 - (void);
-- (void);
-- (void);
+- (void)se it is either cancelled or not needed:%@ /* Error: Ran out of types for this method. */;
+- (void)ivePaper:] /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 
 // Remaining properties

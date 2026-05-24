@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CAMeshTransform
 {
     void *_impl;
-    unsigned long long _normalization;
-    long long _subdivisionSteps;
-    _Bool _replicatesEdges;
-    _Bool _preallocatesBounds;
 }
 
 - (id);
@@ -24,17 +18,17 @@
 - (id);
 - (struct CAMeshVertex);
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)CKSyncEnginePendingDatabaseChange;
+- (unsigned long long)CKFetchShareParticipantsOperationInfo;
 - (int);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (struct Object *);
+- (struct Object *)UMUserSwitchBlockingTask;
 - (id);
 - (void);
 - (void);
@@ -47,11 +41,6 @@
 - (_Bool)setOverscanAmount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *depthNormalization;
-@property(readonly) unsigned long long faceCount;
-@property(readonly) _Bool preallocatesBounds;
-@property(readonly) _Bool replicatesEdges;
-@property(readonly) int subdivisionSteps;
 @property(readonly) unsigned long long vertexCount;
 
 @end

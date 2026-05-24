@@ -9,15 +9,12 @@
 @interface CTMmsRegistrationFailureInfoType
 {
     _Bool _dataActive;
-    _Bool _isDataAttached;
-    _Bool _activationForMms;
-    NSNumber *_pdpContextId;
 }
 
-+ (_Bool);
++ (_Bool)rmatDescription != NULL;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -27,15 +24,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)dataForKey:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool activationForMms; // @synthesize activationForMms=_activationForMms;
-@property(nonatomic) _Bool dataActive; // @synthesize dataActive=_dataActive;
-@property(nonatomic) _Bool isDataAttached; // @synthesize isDataAttached=_isDataAttached;
 @property(retain, nonatomic) NSNumber *pdpContextId; // @synthesize pdpContextId=_pdpContextId;
 
 @end

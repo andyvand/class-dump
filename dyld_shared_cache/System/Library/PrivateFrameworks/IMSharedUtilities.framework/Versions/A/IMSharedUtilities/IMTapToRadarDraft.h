@@ -10,7 +10,7 @@
 
 + (void);
 + (id);
-- (id);
+- (id)yment.origin.request.messages;
 
 @end
 

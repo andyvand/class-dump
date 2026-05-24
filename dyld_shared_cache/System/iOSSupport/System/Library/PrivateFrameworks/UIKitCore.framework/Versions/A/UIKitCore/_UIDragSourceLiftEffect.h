@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
-@protocol UITimingCurveProvider;
+@class NSMapTable;
 
 @interface _UIDragSourceLiftEffect
 {
@@ -14,31 +13,22 @@
 }
 
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)fleType;
 - (id);
-- (void);
+- (void)rks/MediaExperience.framework/Versions/A/MediaExperience;
 - (id)X°1Â0@ù
 × ;
 - (_Bool)× ;
-- (id)tusUpdated;
-- (void)lback:(id)arg1;
-- (void)anceSceneComponent;
+- (id)_pointerLockStatusUpdated;
+- (void)_initWithDictionary:(id)arg1 copyItems:(id)arg2 fallback: /* Error: Ran out of types for this method. */;
+- (void)_contextMenuAvoidanceSceneComponent;
 - (void)N,V_sectionEndFocusGuide;
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double liftAnimationDuration;
-@property(readonly, nonatomic) id <UITimingCurveProvider> liftTimingParameters;
 @property(nonatomic) _Bool scrollCancelling; // @synthesize scrollCancelling=_scrollCancelling;
-@property(readonly) Class superclass;
 
 @end
 

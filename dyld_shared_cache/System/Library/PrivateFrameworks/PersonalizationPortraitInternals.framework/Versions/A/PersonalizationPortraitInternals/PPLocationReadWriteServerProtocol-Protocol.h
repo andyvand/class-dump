@@ -5,5 +5,6 @@
 //
 
 @protocol PPLocationReadWriteServerProtocol
+- (void);
 @end
 

@@ -7,6 +7,9 @@
 @class NSDictionary;
 
 @protocol SSRSpeakerRecognizer
+- (void)�;
+- (NSDictionary *);
+- (id)!;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *lastScoreCard;

@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MRMRNowPlayingAudioFormatContentInfoProtobuf
 {
     unsigned long long _audioFormat;
-    unsigned long long _audioSessionID;
-    unsigned long long _channelCount;
-    long long _intendedSpatialExperience;
-    unsigned long long _pid;
-    long long _renderingMode;
-    long long _resolvedSpatialExperience;
-    NSString *_bestAvailableContent;
-    NSString *_bundleID;
-    _Bool _eligibleForSpatialization;
-    _Bool _spatialized;
-    struct {
-        unsigned int audioFormat:1;
-        unsigned int audioSessionID:1;
-        unsigned int channelCount:1;
-        unsigned int intendedSpatialExperience:1;
-        unsigned int pid:1;
-        unsigned int renderingMode:1;
-        unsigned int resolvedSpatialExperience:1;
-        unsigned int eligibleForSpatialization:1;
-        unsigned int spatialized:1;
-    } _has;
 }
 
 - (void);
@@ -60,13 +37,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)64;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)rangeListOfDifferingTextFromTargetTokenList:(unsigned long long)arg1 comparedToBaseTokenList: /* Error: Ran out of types for this method. */;
+- (void)_instanceContext;
+- (id)guage Priors = %@,
+;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -74,41 +52,20 @@
 - (void)Ô ;
 - (void)Â0@ù
 × ;
-- (void)DialogueActive;
-- (_Bool)rval;
-- (void)eArtwork:queue:completion: /* Error: Ran out of types for this method. */;
+- (void)hasEnhanceDialogueActive;
+- (_Bool)electedPlayerInterval;
+- (void)_onQueue_requestPlaybackQueueForPlayerPath:includeArtwork:queue:completion: /* Error: Ran out of types for this method. */;
 - (void)essionCommandInfo;
 - (_Bool)¸¬­;
 - (long long)for item %{public}@;
 - (long long)int registered to receive message:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long)ternalDeviceCopyUniqueIdentifier(MRExternalDeviceRef);
-- (void)kQueueNowPlayingItemChangedNotification;
+- (void)MRPlayerPlaybackQueueNowPlayingItemChangedNotification;
 - (id)pyPeerIdentifier(PairingSessionRef, size_t *, OSStatus *);
 - (unsigned long long)ñêÿq;
 
 // Remaining properties
-@property(nonatomic) unsigned long long audioFormat; // @synthesize audioFormat=_audioFormat;
-@property(nonatomic) unsigned long long audioSessionID; // @synthesize audioSessionID=_audioSessionID;
-@property(retain, nonatomic) NSString *bestAvailableContent; // @synthesize bestAvailableContent=_bestAvailableContent;
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) unsigned long long channelCount; // @synthesize channelCount=_channelCount;
-@property(nonatomic) _Bool eligibleForSpatialization; // @synthesize eligibleForSpatialization=_eligibleForSpatialization;
-@property(nonatomic) _Bool hasAudioFormat;
-@property(nonatomic) _Bool hasAudioSessionID;
-@property(readonly, nonatomic) _Bool hasBestAvailableContent;
 @property(readonly, nonatomic) _Bool hasBundleID;
-@property(nonatomic) _Bool hasChannelCount;
-@property(nonatomic) _Bool hasEligibleForSpatialization;
-@property(nonatomic) _Bool hasIntendedSpatialExperience;
-@property(nonatomic) _Bool hasPid;
-@property(nonatomic) _Bool hasRenderingMode;
-@property(nonatomic) _Bool hasResolvedSpatialExperience;
-@property(nonatomic) _Bool hasSpatialized;
-@property(nonatomic) long long intendedSpatialExperience; // @synthesize intendedSpatialExperience=_intendedSpatialExperience;
-@property(nonatomic) unsigned long long pid; // @synthesize pid=_pid;
-@property(nonatomic) long long renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(nonatomic) long long resolvedSpatialExperience; // @synthesize resolvedSpatialExperience=_resolvedSpatialExperience;
-@property(nonatomic) _Bool spatialized; // @synthesize spatialized=_spatialized;
 
 @end
 

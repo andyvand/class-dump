@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)tingsExtensionType _Nonnull);
 - (id);
 - (int);
 

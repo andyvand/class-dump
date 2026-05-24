@@ -5,7 +5,7 @@
 //
 
 @protocol UITextAutoscrolling
-- (void)ty;
+- (void)TSCHChartAxisMajorGridlineShadowProperty;
 - (void):(struct CGPoint)arg1 |[rootView]|;
 - (void);
 @end

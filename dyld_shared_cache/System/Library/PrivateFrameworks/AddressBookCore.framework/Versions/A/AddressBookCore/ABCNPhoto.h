@@ -9,22 +9,18 @@
 @interface ABCNPhoto
 {
     NSString *_identifier;
-    NSData *_imageData;
-    struct CGRect _cropRect;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)C;
+- (id)we're being throttled by RegistrationPolicy;
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (struct CGRect)hObjectsAndKeys: /* Error: Ran out of types for this method. */;
+- (struct CGRect)dictionaryWithObjectsAndKeys: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly) NSData *imageData; // @synthesize imageData=_imageData;
 
 @end

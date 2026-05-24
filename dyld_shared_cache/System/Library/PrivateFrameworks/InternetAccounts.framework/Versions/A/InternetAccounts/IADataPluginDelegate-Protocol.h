@@ -5,5 +5,7 @@
 //
 
 @protocol IADataPluginDelegate
+- (_Bool);
+- (void)];
 @end
 

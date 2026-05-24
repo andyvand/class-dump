@@ -6,29 +6,26 @@
 
 #import <CalendarUI/EKUIPopUpButton.h>
 
-@class NSArray, NSMenuItem;
+@class NSMenuItem;
 
 @interface EKUIVirtualConferencePopupButton : EKUIPopUpButton
 {
     NSMenuItem *_defaultVirtualConferenceItem;
-    CDUnknownBlockType _roomTypeSelected;
-    NSArray *_roomTypes;
 }
 
 + (Class);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)dictionaryWithContentsOfFile: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType roomTypeSelected; // @synthesize roomTypeSelected=_roomTypeSelected;
-@property(copy, nonatomic) NSArray *roomTypes; // @synthesize roomTypes=_roomTypes;
 
 @end
 

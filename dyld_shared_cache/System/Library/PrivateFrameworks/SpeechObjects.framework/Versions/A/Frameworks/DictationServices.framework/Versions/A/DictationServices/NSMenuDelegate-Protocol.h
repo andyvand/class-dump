@@ -5,5 +5,10 @@
 //
 
 @protocol NSMenuDelegate
+
+@optional
+- (void)a;
+- (void);
+- (_Bool);
 @end
 

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol FCNewsletterManager
-- (void)cription;
-- (void);
+- (_Bool)A;
+- (_Bool)";
+- (_Bool).;
+- (NSArray *);
+- (_Bool);
+- (void);
+- (void)subscription;
 
 // Remaining properties
-@property(readonly, nonatomic) long long activeNewsletter;
-@property(readonly, nonatomic) NSArray *cachedNewsletters;
-@property(readonly, nonatomic) NSString *cachedVector;
-@property(readonly, nonatomic) _Bool canSubscribe;
-@property(readonly, nonatomic) _Bool canUnsubscribe;
 @property(readonly, nonatomic) _Bool enabled;
-@property(readonly, nonatomic) _Bool includeBundleSubscribedVector;
-@property(readonly, nonatomic) long long includeOptions;
-@property(readonly, nonatomic) _Bool includeSportsVector;
-@property(readonly, nonatomic) _Bool includeUserVector;
-@property(readonly, nonatomic) _Bool isSubscribed;
-@property(readonly, nonatomic) long long subscription;
 @end
 

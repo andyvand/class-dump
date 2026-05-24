@@ -7,15 +7,14 @@
 @interface PFPseudoRandomNumberGenerator
 {
     unsigned int _z;
-    unsigned int _w;
 }
 
 - (unsigned long long);
-- (double);
+- (double)te;
 - (void);
 - (id);
 - (id);
-- (unsigned long long)ent_destroyINS_9container12basic_stringIcNSt3__111char_traitsIcEENS0_9allocatorIcNS0_15segment_managerIcNS0_15rbtree_best_fitINS0_17null_mutex_familyENS0_10offset_ptrIvlmLm0EEELm0EEENS0_10iset_indexEEEEEEEEE;
+- (unsigned long long)N5boost12interprocess9ipcdetail17placement_destroyINS_9container12basic_stringIcNSt3__111char_traitsIcEENS0_9allocatorIcNS0_15segment_managerIcNS0_15rbtree_best_fitINS0_17null_mutex_familyENS0_10offset_ptrIvlmLm0EEELm0EEENS0_10iset_indexEEEEEEEEE;
 
 // Remaining properties
 @property(nonatomic) unsigned long long seed;

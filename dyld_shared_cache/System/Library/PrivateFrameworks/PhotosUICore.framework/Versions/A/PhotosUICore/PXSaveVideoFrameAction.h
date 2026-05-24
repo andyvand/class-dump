@@ -6,15 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class AVAssetImageGenerator, PHAsset;
+@class PHAsset;
 
 @interface PXSaveVideoFrameAction : PXPhotosAction
 {
     int _imageRequestID;
-    PHAsset *_createdAsset;
-    PHAsset *_asset;
-    AVAssetImageGenerator *_assetImageGenerator;
-    CDStruct_1b6d18a9 _time;
 }
 
 + (_Bool);
@@ -32,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (CDStruct_1b6d18a9)0'°'(3;
 - (id)rtItems:] /* Error: Ran out of types for this method. */;
@@ -40,10 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) AVAssetImageGenerator *assetImageGenerator; // @synthesize assetImageGenerator=_assetImageGenerator;
-@property(retain, nonatomic) PHAsset *createdAsset; // @synthesize createdAsset=_createdAsset;
-@property(nonatomic) int imageRequestID; // @synthesize imageRequestID=_imageRequestID;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 time; // @synthesize time=_time;
 
 @end
 

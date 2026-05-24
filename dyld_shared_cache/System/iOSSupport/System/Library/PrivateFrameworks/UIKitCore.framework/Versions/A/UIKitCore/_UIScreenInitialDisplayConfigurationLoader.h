@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 + (id)];
 - (void);
-- (id)ckButton;
+- (id)backButton;
 - (void)È¶®þµ&13p
 ¹þ;
 

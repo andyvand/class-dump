@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSUUID;
 
 @protocol BTMBackgroundItem
 
 // Remaining properties
-@property(readonly) NSData *bookmark;
 @property(readonly) NSUUID *identifier;
-@property(readonly) NSString *name;
-@property(readonly) unsigned long long type;
-@property(readonly) long long userElection;
 @end
 

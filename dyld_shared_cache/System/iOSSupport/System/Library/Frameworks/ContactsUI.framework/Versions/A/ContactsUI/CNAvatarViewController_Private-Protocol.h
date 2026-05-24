@@ -5,14 +5,13 @@
 //
 
 @class CNContactStore;
-@protocol CNAvatarViewControllerDelegate;
 
 @protocol CNAvatarViewController_Private
+- (_Bool);
+- (void)So12NSURLSessionC;
 - (CNContactStore *)bIeggd_;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore;
-@property(nonatomic) __weak id <CNAvatarViewControllerDelegate> delegate;
-@property(nonatomic, getter=isThreeDTouchEnabled) _Bool threeDTouchEnabled;
 @end
 

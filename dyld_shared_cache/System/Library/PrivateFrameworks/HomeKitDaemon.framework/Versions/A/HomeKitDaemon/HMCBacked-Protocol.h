@@ -9,12 +9,11 @@
 
 @protocol HMCBacked
 - (id)nSunsetSunriseProvider>";
-- (_Bool)r:(id <MKFObject>)arg1;
+- (_Bool)findMatterLocalKeyValuePairWithDatabaseID:(id <MKFObject>)arg1 error:(id *)arg2;
 - (id <NSCopying>)(ø	;
 - (Protocol *)camera %s, zone:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <NSCopying> backingModelKey;
 @property(readonly) Protocol *backingModelType;
 @end
 

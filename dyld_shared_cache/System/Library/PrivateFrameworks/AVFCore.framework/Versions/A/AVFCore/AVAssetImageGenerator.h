@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetImageGeneratorInternal, AVVideoComposition, NSString;
-@protocol AVVideoCompositing;
+@class AVAsset, AVAssetImageGeneratorInternal;
 
 @interface AVAssetImageGenerator
 {
@@ -14,7 +13,7 @@
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -23,13 +22,13 @@
 - (void);
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
-- (_Bool);
+- (_Bool)x;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ܖ;
 - (id);
 - (_Bool);
 - (struct CGSize);
@@ -45,7 +44,7 @@
 - (id);
 - (void);
 - (void);
-- (struct CGImage *);
+- (struct CGImage *);
 - (void);
 - (void);
 - (void);
@@ -57,15 +56,7 @@
 - (id)¤ðôÿ!ºG4;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *apertureMode;
-@property(nonatomic) _Bool appliesPreferredTrackTransform;
 @property(readonly, nonatomic) AVAsset *asset;
-@property(readonly, nonatomic) id <AVVideoCompositing> customVideoCompositor;
-@property(copy, nonatomic) NSString *dynamicRangePolicy;
-@property(nonatomic) struct CGSize maximumSize;
-@property(nonatomic) CDStruct_1b6d18a9 requestedTimeToleranceAfter;
-@property(nonatomic) CDStruct_1b6d18a9 requestedTimeToleranceBefore;
-@property(copy, nonatomic) AVVideoComposition *videoComposition;
 
 @end
 

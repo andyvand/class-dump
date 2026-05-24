@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSProcessHandle, NSMutableSet, NSString;
-
 @interface BSXPCServiceConnectionPeer
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_lock_connections;
-    unsigned long long _lock_lastConnectedGenerationCount;
-    BSProcessHandle *_processHandle;
 }
 
 - (id);
@@ -19,17 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CWFRangingPeer
 {
     _Bool _useCoreRotation;
-    NSString *_MACAddress;
-    NSData *_identifier;
-    NSData *_PMK;
-    unsigned long long _numberOfMeasurements;
 }
 
 + (id);
@@ -20,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,14 +30,10 @@
 - (id);
 - (id);
 - (void)face;
-- (id)iNetworkSharingUtil;
+- (id)CWFWiFiNetworkSharingUtil;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *MACAddress; // @synthesize MACAddress=_MACAddress;
-@property(copy, nonatomic) NSData *PMK; // @synthesize PMK=_PMK;
-@property(copy, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long numberOfMeasurements; // @synthesize numberOfMeasurements=_numberOfMeasurements;
-@property(nonatomic) _Bool useCoreRotation; // @synthesize useCoreRotation=_useCoreRotation;
 
 @end
 

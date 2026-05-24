@@ -5,5 +5,13 @@
 //
 
 @protocol TSDTrackerManipulator
+- (_Bool).;
+- (_Bool)InternalUserActions;
+
+@optional
+- (void)NoCurrentItem;
+- (void)chronizeQueueItems [new item];
+- (void);
+- (void)AVPlayerIntegratedTimelineSnapshotsOutOfSyncReason;
 @end
 

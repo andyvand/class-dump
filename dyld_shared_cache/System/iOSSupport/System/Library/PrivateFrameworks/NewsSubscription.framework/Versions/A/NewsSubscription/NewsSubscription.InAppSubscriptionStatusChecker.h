@@ -7,12 +7,6 @@
 @interface NewsSubscription.InAppSubscriptionStatusChecker
 {
     id purchaseController;
-    id bundleSubscriptionManager;
-    id purchaseManager;
-    id subscriptionExpiryManager;
-    id subscriptionRouter;
-    id entitlementsManager;
-    id sceneProvider;
 }
 
 @end

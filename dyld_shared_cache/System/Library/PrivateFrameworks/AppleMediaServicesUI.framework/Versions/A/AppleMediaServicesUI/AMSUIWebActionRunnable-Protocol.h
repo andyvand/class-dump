@@ -7,6 +7,7 @@
 @class AMSUIWebClientContext;
 
 @protocol AMSUIWebActionRunnable
+- (id)wnload for %lu assertions;
 
 // Remaining properties
 @property(readonly) AMSUIWebClientContext *context;

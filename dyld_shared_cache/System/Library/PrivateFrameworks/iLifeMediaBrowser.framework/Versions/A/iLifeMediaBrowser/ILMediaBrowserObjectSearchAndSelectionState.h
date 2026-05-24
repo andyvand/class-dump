@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ILMediaBrowserObjectSearchAndSelectionState
 {
     NSArray *searchKeys;
-    NSString *searchString;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(copy) NSArray *searchKeys; // @synthesize searchKeys;
-@property(copy) NSString *searchString; // @synthesize searchString;
 
 @end
 

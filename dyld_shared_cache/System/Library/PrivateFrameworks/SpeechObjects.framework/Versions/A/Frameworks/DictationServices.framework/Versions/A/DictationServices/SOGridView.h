@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface SOGridView
 {
     _Bool _drawBadges;
-    _Bool _drawBordered;
-    struct CGPoint _screenOrigin;
-    NSMutableArray *_elementViews;
-    unsigned long long _minimumNumber;
-    unsigned long long _maximumNumber;
-    NSMutableArray *_labeledElementsForElementViews;
 }
 
 - (void);
@@ -25,20 +17,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *elementViews; // @synthesize elementViews=_elementViews;
-@property(readonly) NSMutableArray *labeledElements;
-@property(retain) NSMutableArray *labeledElementsForElementViews; // @synthesize labeledElementsForElementViews=_labeledElementsForElementViews;
-@property unsigned long long maximumNumber; // @synthesize maximumNumber=_maximumNumber;
 @property unsigned long long minimumNumber; // @synthesize minimumNumber=_minimumNumber;
 
 @end

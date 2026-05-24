@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, NSViewController, STPINRemoteViewController;
+@class STPINRemoteViewController;
 @protocol CNEditAuthorizationViewControllerDelegate;
 
 @interface CNEditAuthorizationViewController
 {
     id <CNEditAuthorizationViewControllerDelegate> _delegate;
-    NSViewController *_guardedViewController;
-    long long _authorizationResult;
-    STPINRemoteViewController *_pinViewController;
-    NSButton *_cancelButton;
-    CDUnknownBlockType _authorizationHandler;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (_Bool);
+- (void)
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -40,27 +36,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)AXDefaultsObserverPostDarwinNotificationAction;
 - (void);
-- (void);
+- (void)K3$_0clEvEUlvE_EEvRNS2_10RestModuleEOT_NS_17integral_constantIbLb1EEEEUlRKN3xpc6objectEE_FvSI_EEE;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType authorizationHandler; // @synthesize authorizationHandler=_authorizationHandler;
-@property(nonatomic) long long authorizationResult; // @synthesize authorizationResult=_authorizationResult;
-@property(readonly, nonatomic) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNEditAuthorizationViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSViewController *guardedViewController; // @synthesize guardedViewController=_guardedViewController;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) STPINRemoteViewController *pinViewController; // @synthesize pinViewController=_pinViewController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,65 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCondition, GEOFormattedString, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
+@protocol GEOServerFormattedString;
 
 @interface GEOConditionalFormattedString
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOCondition *_condition;
-    GEOFormattedString *_formattedString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_condition:1;
-        unsigned int read_formattedString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageLineId:(id)arg1;
++ (_Bool)setHasPlaceCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageLineId:(id)arg1;
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)CNSchedulerProvider;
+- (_Bool)CNEntitlementVerifierTestDouble;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)7%;
 - (void);
-- (void);
-- (id);
+- (void)sanitizeEventInfoForLogging:(id)arg1;
+- (id)aSourcesWithContext:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)V;
 - (void)1Â0@ù
 × ;
-- (id)erences:(struct _NSZone *)arg1;
-- (void)onomicalTimeForLocation:(id)arg1;
-- (id)tureIdGeocodingParameters;
-- (id)OUTE_DRIVING;
+- (id)setEvChargingPreferences:(struct _NSZone *)arg1;
+- (void)calculateAstronomicalTimeForLocation:(id)arg1;
+- (id)GEOPDFeatureIdGeocodingParameters;
+- (id)HAS_REROUTE_DRIVING;
 - (id)¨¸;
 - (id)JyP@;
 - (void)ì!®ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOCondition *condition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEOFormattedString *formattedString;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(readonly, nonatomic) _Bool hasFormattedString;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
+@property(readonly, nonatomic) id <GEOServerFormattedString> formattedString;
 
 @end
 

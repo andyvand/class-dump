@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDKeyedCollection, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface EDTableStyle
 {
     NSString *mName;
-    EDKeyedCollection *mTableStyleElements;
 }
 
 + (id);
 - (id);
 - (id);
+- (id)COMAPPLEPROACTIVEGMSGMSPETUploadEvent;
+- (id)SPNEGONegTokenInitMechs;
 - (id);
-- (id);
-- (id);
-- (void)rection:(id)arg1;
+- (void)setTextDirection:(id)arg1;
 - (void);
 
 @end

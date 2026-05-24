@@ -8,16 +8,17 @@
 @protocol NSCoding><NSCopying;
 
 @protocol _UITextSearching
+- (void)initWithBytes:length: /* Error: Ran out of types for this method. */;
+- (void)h~;
 - (UITextRange *)ctIdentifierGeneric<WebKit::ShapeDetectionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::RemoteTextDetector>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::ShapeDetectionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::ShapeDetectionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::RemoteTextDetector>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::ShapeDetectionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 @optional
-- (_Bool)xy_WriteStringToPasteboard;
+- (_Bool);
+- (id <NSCoding><NSCopying>);
+- (void)H;
+- (_Bool)WebPasteboardProxy_WriteStringToPasteboard;
 
 // Remaining properties
 @property(readonly) UITextRange *selectedTextRange;
-@property(readonly) id <NSCoding><NSCopying> selectedTextSearchDocument;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSCoding><NSCopying>",?,R
-
 @end
 

@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FigCaptureSemanticStyleSet
 {
     NSArray *_semanticStyles;
-    NSArray *_regions;
 }
 
 + (id);
 - (float);
 - (id);
 - (float);
-- (void);
+- (void)mergeStopArray: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H0;
 - (struct CGRect);
 - (id)epthDataSinkConfiguration",R;
 - (id)ÁhÿÉfÿÏeÿÖd;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *regions;
 @property(readonly, nonatomic) NSArray *semanticStyles;
-@property(readonly) Class superclass;
 
 @end
 

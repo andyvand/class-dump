@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt64UInt64Dictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -29,9 +28,9 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)5;
 - (void);
-- (void)relessInsights;
+- (void)WirelessDataAnalyticsWirelessInsights;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

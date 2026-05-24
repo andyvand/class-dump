@@ -6,14 +6,11 @@
 
 #import <MPSNeuralNetwork/MPSNNFilterNode.h>
 
-@class NSString;
 @protocol MPSCNNBatchNormalizationDataSource;
 
 @interface MPSCNNBatchNormalizationNode : MPSNNFilterNode
 {
     id <MPSCNNBatchNormalizationDataSource> _dataSource;
-    unsigned long long _flags;
-    unsigned long long _trainingStyle;
 }
 
 + (id);
@@ -27,18 +24,10 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)uested topK numbers in result exceeds source matrix size.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long trainingStyle; // @synthesize trainingStyle=_trainingStyle;
 
 @end
 

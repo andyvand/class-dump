@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol MPSectionedIdentifierListEnumerationItem
+- (_Bool)S;
 - (NSString *)%@:%p /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *itemIdentifier;
-@property(readonly, nonatomic, getter=isRemoved) _Bool removed;
 @property(readonly, nonatomic) NSString *sectionIdentifier;
 @end
 

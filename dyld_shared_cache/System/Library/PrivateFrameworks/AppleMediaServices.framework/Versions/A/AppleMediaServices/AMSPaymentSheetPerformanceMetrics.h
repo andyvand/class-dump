@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBag, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSPaymentSheetPerformanceMetrics
 {
     double _modelConstructionStartTime;
-    double _modelConstructionEndTime;
-    NSString *_primaryDataAppleTimingApp;
-    double _primaryDataRequestStartTime;
-    double _primaryDataResponseStartTime;
-    double _primaryDataResponseEndTime;
-    double _primaryDataParseStartTime;
-    double _primaryDataParseEndTime;
-    double _resourceRequestStartTime;
-    double _resourceRequestEndTime;
-    double _pageRequestTime;
-    double _pageEndTime;
-    AMSBag *_bag;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,8 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (double);
 - (double);
 - (double);
 - (double);
@@ -55,19 +41,7 @@ JÕÖIQÎÍRÐOLÓËTWÈÛDGØÀ_\ÃÏPSÌÔ
 - (id)>»ÉpÝ`+_S©æ5;
 
 // Remaining properties
-@property(readonly) AMSBag *bag; // @synthesize bag=_bag;
-@property double modelConstructionEndTime; // @synthesize modelConstructionEndTime=_modelConstructionEndTime;
 @property double modelConstructionStartTime; // @synthesize modelConstructionStartTime=_modelConstructionStartTime;
-@property double pageEndTime; // @synthesize pageEndTime=_pageEndTime;
-@property double pageRequestTime; // @synthesize pageRequestTime=_pageRequestTime;
-@property(copy) NSString *primaryDataAppleTimingApp; // @synthesize primaryDataAppleTimingApp=_primaryDataAppleTimingApp;
-@property double primaryDataParseEndTime; // @synthesize primaryDataParseEndTime=_primaryDataParseEndTime;
-@property double primaryDataParseStartTime; // @synthesize primaryDataParseStartTime=_primaryDataParseStartTime;
-@property double primaryDataRequestStartTime; // @synthesize primaryDataRequestStartTime=_primaryDataRequestStartTime;
-@property double primaryDataResponseEndTime; // @synthesize primaryDataResponseEndTime=_primaryDataResponseEndTime;
-@property double primaryDataResponseStartTime; // @synthesize primaryDataResponseStartTime=_primaryDataResponseStartTime;
-@property double resourceRequestEndTime; // @synthesize resourceRequestEndTime=_resourceRequestEndTime;
-@property double resourceRequestStartTime; // @synthesize resourceRequestStartTime=_resourceRequestStartTime;
 
 @end
 

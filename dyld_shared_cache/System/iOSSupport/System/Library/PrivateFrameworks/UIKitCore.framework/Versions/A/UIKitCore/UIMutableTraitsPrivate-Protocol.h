@@ -5,6 +5,8 @@
 //
 
 @protocol UIMutableTraitsPrivate
+- (double)SString"16@?<v@?@"NSArray">24;
+- (void)setCkChatSyncControllerNeedsSync:(double)arg1;
 
 // Remaining properties
 @property(nonatomic, setter=_setTypesettingLanguageAwareLineHeightRatio:) double _typesettingLanguageAwareLineHeightRatio;

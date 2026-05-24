@@ -7,8 +7,6 @@
 @interface AMSActionContext
 {
     id account;
-    id bag;
-    id processInfo;
 }
 
 - (id);

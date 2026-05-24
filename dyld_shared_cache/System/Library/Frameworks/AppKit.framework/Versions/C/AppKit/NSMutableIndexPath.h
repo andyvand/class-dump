@@ -8,17 +8,16 @@ __attribute__((visibility("hidden")))
 @interface NSMutableIndexPath
 {
     unsigned long long *_mutableIndexes;
-    _Bool _locked;
 }
 
-+ (void);
++ (void)destinationURL;
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id)orPart:(struct _NSZone *)arg1;
+- (id)_rectForPart:(struct _NSZone *)arg1;
 - (long long);
 
 @end

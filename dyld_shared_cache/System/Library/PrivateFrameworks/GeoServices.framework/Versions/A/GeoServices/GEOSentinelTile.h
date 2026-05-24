@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOSentinelTile
 {
     PBUnknownFields *_unknownFields;
-    NSString *_resourceName;
-    int _type;
 }
 
-+ (_Bool)wViewMode:(id)arg1;
++ (_Bool)setMapViewViewMode:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)_setupAudioProviderFromXPC:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,18 +27,16 @@
 - (_Bool);
 - (void);
 - (id)bsite"b1"read_mapLaunchSourceAppId"b1"read_mapLaunchSourceHandoffDevice"b1"read_mapViewMapRegion"b1"read_mapsPlaceIdsState"b1"read_mapsServerMetadataSuggestionEntryDisplayeds"b1"read_mapsServerMetadataSuggestionEntryTappedOn"b1"read_mapsServerMetadata"b1"read_metroRegion"b1"read_photoSubmissionDetailsState"b1"read_placeCardPlaceActionDetailsActionUrl"b1"read_placeCardPlaceActionDetailsDestinationApp"b1"read_placeCardPlaceActionDetailsPhotoId"b1"read_placeCardPlaceActionDetailsRichProviderId"b1"read_placeCardPlaceActionDetailsShowcaseId"b1"read_placeCardPlaceActionDetailsTransitPlaceCardIncidentType"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageDirection"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitDepartureSequenceUsageHeadsign"b1"read_placeCardPlaceActionDetailsTransitPlaceCardTransitSystemName"b1"read_placeCardPlaceCardCategory"b1"read_placeCardRevealedPlaceCardModules"b1"read_placeCardState"b1"read_predExTrainingData"b1"read_ratingPhotoSubmissionDetailsState"b1"read_ratingSubmissionDetailsState"b1"read_routeRouteDetails"b1"read_searchResultsState"b1"read_suggestionsDisplayedResults"b1"read_suggestionsSearchString"b1"read_tapEventState"b1"read_ugcPhotoState"b1"read_userHomeCountry"b1"read_userHomeMetro"b1"wrote_anyField"b1};
-- (void)ectionZilchPointsAtIndex:(int)arg1;
-- (id)asEnableUnitScaling;
+- (void)invalidSectionZilchPointsAtIndex:(int)arg1;
+- (id)hasEnableUnitScaling;
 - (int)R,N;
-- (id)hResult;
-- (id)_HANDLE_SIRI_TRAFFIC_INCIDENTS;
+- (id)GEOWiFiQualityNetworkSearchResult;
+- (id)CLIENT_REVISION_CAN_HANDLE_SIRI_TRAFFIC_INCIDENTS;
 - (id)Ô	;
 - (void)í+ÒS±P@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *resourceName;
 @property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

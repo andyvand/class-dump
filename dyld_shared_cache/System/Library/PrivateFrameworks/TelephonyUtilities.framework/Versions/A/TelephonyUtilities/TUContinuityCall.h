@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSUUID, TUContinuityCallInfo;
+@class NSUUID;
 
 @interface TUContinuityCall
 {
     int _status;
-    NSUUID *_uuid;
-    NSUUID *_conversationUUID;
-    NSNumber *_isMuted;
-    NSNumber *_isCameraEnabled;
-    NSUUID *_callGroupUUID;
-    TUContinuityCallInfo *_callInfo;
 }
 
 + (_Bool);
@@ -25,27 +19,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)long>, WTF::Function<void ()>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::UserMediaClient::DeviceChangeObserverTokenType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::UserMediaClient::DeviceChangeObserverTokenType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::UserMediaClient::DeviceChangeObserverTokenType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void ()>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::UserMediaClient::DeviceChangeObserverTokenType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void ()>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::UserMediaClient::DeviceChangeObserverTokenType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::UserMediaClient::DeviceChangeObserverTokenType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void ()>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::UserMediaClient::DeviceChangeObserverTokenType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)`;
 - (id);
 - (id);
 - (void);
 - (int);
+- (id)otection type %d;
 - (id);
-- (id);
-- (void)etAnsweringMachineAvailable: /* Error: Ran out of types for this method. */;
+- (void)setAnsweringMachineAvailable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *callGroupUUID; // @synthesize callGroupUUID=_callGroupUUID;
-@property(readonly, nonatomic) TUContinuityCallInfo *callInfo; // @synthesize callInfo=_callInfo;
-@property(readonly, nonatomic) NSString *callerIdSubstring;
-@property(readonly, nonatomic) NSUUID *conversationUUID; // @synthesize conversationUUID=_conversationUUID;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _Bool isBranded;
-@property(readonly, nonatomic) NSNumber *isCameraEnabled; // @synthesize isCameraEnabled=_isCameraEnabled;
-@property(readonly, nonatomic) NSNumber *isMuted; // @synthesize isMuted=_isMuted;
-@property(readonly, nonatomic) NSArray *remoteMemberContactIdentifiers;
-@property(readonly, nonatomic) int status; // @synthesize status=_status;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigMetadataObjectCaptureConnectionConfiguration, FigVideoCaptureConnectionConfiguration, NSArray;
+@class FigMetadataObjectCaptureConnectionConfiguration;
 
 @interface FigCaptureSessionParsedMetadataSinkConfiguration
 {
     FigMetadataObjectCaptureConnectionConfiguration *_metadataObjectConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_sceneClassifierConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_videoDataConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_videoPreviewSinkConnectionConfiguration;
-    FigVideoCaptureConnectionConfiguration *_movieFileVideoConnectionConfiguration;
-    NSArray *_movieFileDetectedObjectMetadataConnectionConfigurations;
 }
 
-- (void);
-- (id);
+- (void)URLForResource:withExtension:subdirectory:inBundle: /* Error: Ran out of types for this method. */;
+- (id)akKZ;
 - (id);
 - (id);
 - (id);
@@ -26,11 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FigMetadataObjectCaptureConnectionConfiguration *metadataObjectConnectionConfiguration; // @synthesize metadataObjectConnectionConfiguration=_metadataObjectConnectionConfiguration;
-@property(readonly, nonatomic) NSArray *movieFileDetectedObjectMetadataConnectionConfigurations; // @synthesize movieFileDetectedObjectMetadataConnectionConfigurations=_movieFileDetectedObjectMetadataConnectionConfigurations;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *movieFileVideoConnectionConfiguration; // @synthesize movieFileVideoConnectionConfiguration=_movieFileVideoConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *sceneClassifierConnectionConfiguration; // @synthesize sceneClassifierConnectionConfiguration=_sceneClassifierConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *videoDataConnectionConfiguration; // @synthesize videoDataConnectionConfiguration=_videoDataConnectionConfiguration;
-@property(readonly, nonatomic) FigVideoCaptureConnectionConfiguration *videoPreviewSinkConnectionConfiguration; // @synthesize videoPreviewSinkConnectionConfiguration=_videoPreviewSinkConnectionConfiguration;
 
 @end
 

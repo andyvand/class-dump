@@ -6,7 +6,7 @@
 
 @protocol _UILabelImplProtocol
 - (void)ø;
-- (double)UIRemoteViewControllerSceneContextSystemReferenceAngle;
+- (double)_UIRemoteViewControllerSceneContextSystemReferenceAngle;
 
 // Remaining properties
 @property(nonatomic) double minimumScaleFactor;

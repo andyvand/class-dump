@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id)­;
-- (void);
-- (void)Section:(struct CGRect)arg1;
+- (void)rItem;
+- (void)_maxTitleWidthForFooterInSection:(struct CGRect)arg1;
 - (void)ion;
 - (void)gacyFocusingAnimations;
 - (void)d.;

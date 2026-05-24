@@ -7,11 +7,6 @@
 @interface NewsFeed.NativeAdService
 {
     id contextBuilder;
-    id headlineService;
-    id adManager;
-    id adRequestManager;
-    id adRequestStore;
-    id providers;
 }
 
 @end

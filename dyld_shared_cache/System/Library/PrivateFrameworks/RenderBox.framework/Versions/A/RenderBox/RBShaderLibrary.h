@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSData, NSString, NSURL;
-@protocol MTLLibrary;
+@class NSBundle;
 
 @interface RBShaderLibrary
 {
@@ -17,30 +16,24 @@
 + (id);
 + (id);
 + (id);
++ (id)V2;
 + (id);
-+ (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)"<;
 - (id);
 - (id);
 - (unsigned int);
 - (int);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int ABIVersion;
-@property(readonly, copy, nonatomic) NSURL *URL;
-@property(copy, nonatomic) NSURL *binaryArchiveURL;
 @property(readonly, nonatomic) NSBundle *bundle;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, nonatomic) id <MTLLibrary> metalLibrary;
-@property(readonly, copy, nonatomic) NSString *source;
 
 @end
 

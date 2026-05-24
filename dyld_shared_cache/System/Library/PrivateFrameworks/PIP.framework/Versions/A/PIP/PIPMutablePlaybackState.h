@@ -6,21 +6,19 @@
 
 #import <PIP/PIPPlaybackState.h>
 
-@class PIPPrerollAttributes;
-
 @interface PIPMutablePlaybackState : PIPPlaybackState
 {
 }
 
 + (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)UsoEntityBuilderProtocol_common_VoiceCommandPayload;
+- (_Bool)UsoEntityBuilder_common_ResponseStatus;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)dService.Builtin;
 - (void);
 - (double);
 - (long long);
@@ -29,10 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) double contentDuration;
-@property(nonatomic) long long contentType;
-@property(nonatomic) _Bool muted;
-@property(nonatomic, retain) PIPPrerollAttributes *prerollAttributes;
-@property(nonatomic) _Bool requiresLinearPlayback;
 
 @end
 

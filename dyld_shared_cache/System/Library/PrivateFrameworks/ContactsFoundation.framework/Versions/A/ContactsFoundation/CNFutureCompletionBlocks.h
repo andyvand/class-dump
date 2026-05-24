@@ -9,13 +9,12 @@
 @interface CNFutureCompletionBlocks
 {
     NSMutableArray *_completionBlocks;
-    _Bool _shouldCallImmediately;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

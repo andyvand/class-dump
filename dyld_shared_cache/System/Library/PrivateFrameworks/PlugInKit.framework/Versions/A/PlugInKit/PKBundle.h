@@ -4,43 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURL;
+@class NSObject, NSString;
 @protocol OS_xpc_object;
 
 @interface PKBundle
 {
     NSString *_supportPath;
-    NSObject<OS_xpc_object> *__bundle;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)h;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)`;
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(retain) NSObject<OS_xpc_object> *_bundle; // @synthesize _bundle=__bundle;
-@property(readonly) NSString *bundleIdentifier;
-@property(readonly) NSString *executablePath;
-@property(readonly) NSDictionary *infoDictionary;
-@property(readonly) NSString *path;
-@property(readonly) NSString *plugInsPath;
-@property(readonly) NSString *supportPath; // @synthesize supportPath=_supportPath;
-@property(readonly) NSURL *url;
 
 @end
 

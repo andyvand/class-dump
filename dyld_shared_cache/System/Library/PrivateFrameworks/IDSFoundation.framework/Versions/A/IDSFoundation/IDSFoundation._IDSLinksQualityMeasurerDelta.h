@@ -9,7 +9,6 @@
 @interface IDSFoundation._IDSLinksQualityMeasurerDelta
 {
     IDSFoundation._IDSLinksQualityMeasurerSyncToken *syncToken;
-    id measurementsByLinkUUID;
 }
 
 - (id);

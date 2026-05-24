@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _UIContextGraphTrackingAssertion
 {
     unsigned int _contextID;
-    NSArray *_contextIDGraph;
-    CDUnknownBlockType _clientHandlerBlock;
 }
 
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)_sosURLMatchInText:(unsigned int)arg1;
+- (id)_currentParticipants;
+- (void)uery trustKit with no inference type;
 - (void);
 - (unsigned int)
 × ;

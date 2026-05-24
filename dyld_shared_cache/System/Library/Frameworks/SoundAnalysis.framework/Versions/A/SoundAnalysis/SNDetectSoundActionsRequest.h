@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SNDetectSoundActionsRequest
 {
     id impl;
@@ -13,20 +11,17 @@
 
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)memory datastore;
 - (id);
 - (void);
 - (double);
 - (void)Æüÿ;
 
 // Remaining properties
-@property(nonatomic) long long blocksBetweenTriggers;
-@property(nonatomic, copy) NSArray *commands;
-@property(nonatomic) long long hopSizeSamples;
 @property(nonatomic) double sampleRate;
 
 @end

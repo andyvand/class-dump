@@ -5,5 +5,7 @@
 //
 
 @protocol TransparencydIDSProtocol
+- (void);
+- (void)-;
 @end
 

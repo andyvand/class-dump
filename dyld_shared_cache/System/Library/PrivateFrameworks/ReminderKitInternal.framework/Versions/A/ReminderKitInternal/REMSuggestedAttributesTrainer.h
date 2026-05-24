@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-- (void);
+- (void)GANSU_Lanzhou_Metro_Line_One;
 - (id);
 - (id);
 - (void);

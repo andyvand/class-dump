@@ -9,27 +9,13 @@
 @interface _LSDisplayNameConstructor
 {
     NSString *_originalName;
-    NSString *_baseName;
-    NSString *_extension;
-    NSString *_secondaryExtension;
-    unsigned int _wantsHiddenExtension:1;
-    unsigned int _isFolder:1;
-    unsigned int _isApplication:1;
-    unsigned int _hadNonASCIICharacter:1;
-    unsigned int _hadColonInFSName:1;
-    unsigned int _hadBiDiControlCharacter:1;
-    unsigned int _hadForbiddenCharacter:1;
-    unsigned int _hadCompoundConfusable:1;
-    unsigned int _hadExactConfusable:1;
-    unsigned int _secondaryExtensionHadNonASCIICharacter:1;
-    unsigned int _hasForcedExtension:1;
 }
 
 + (void);
 + (unsigned char);
 + (id);
 + (id);
-+ (id);
++ (id)`;
 + (id);
 + (void);
 + (id);
@@ -38,8 +24,8 @@
 + (void);
 + (_Bool);
 + (id);
++ (id)#;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (_Bool);
@@ -49,14 +35,14 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)e was not provided.;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (_Bool);

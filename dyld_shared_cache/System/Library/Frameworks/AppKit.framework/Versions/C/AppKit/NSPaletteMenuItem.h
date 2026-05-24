@@ -18,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)Áì/°!(Bùâ3°1Â0@ù
 × ;
-- (id)onsButtonUpdates;
+- (id)_beginVersionsButtonUpdates;
 - (void)èE;
 
 // Remaining properties

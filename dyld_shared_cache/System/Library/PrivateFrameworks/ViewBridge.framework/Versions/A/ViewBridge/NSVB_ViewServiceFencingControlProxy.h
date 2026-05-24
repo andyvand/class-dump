@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     NSVB_ViewServiceFencingController *_fencingController;
 }
 
-+ (id);
++ (id)i^;
 - (void);
 - (void);
 - (void);

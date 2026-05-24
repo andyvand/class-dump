@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMCommandBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMDeviceEraseCommand : CEMCommandBase
 {
     NSNumber *_payloadPreserveDataPlan;
-    NSNumber *_payloadDisallowProximitySetup;
-    NSString *_payloadPIN;
 }
 
 + (id);
@@ -31,19 +29,10 @@
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void)\;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadDisallowProximitySetup; // @synthesize payloadDisallowProximitySetup=_payloadDisallowProximitySetup;
-@property(copy, nonatomic) NSString *payloadPIN; // @synthesize payloadPIN=_payloadPIN;
 @property(copy, nonatomic) NSNumber *payloadPreserveDataPlan; // @synthesize payloadPreserveDataPlan=_payloadPreserveDataPlan;
-@property(readonly) Class superclass;
 
 @end
 

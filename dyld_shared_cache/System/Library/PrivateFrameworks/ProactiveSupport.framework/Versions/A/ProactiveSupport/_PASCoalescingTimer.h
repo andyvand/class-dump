@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _PASLock;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _PASCoalescingTimer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    double _leewaySeconds;
-    CDUnknownBlockType _coalesceData;
-    CDUnknownBlockType _operation;
-    _PASLock *_lock;
 }
 
 - (void);
@@ -21,9 +17,9 @@
 - (id);
 - (void);
 - (void);
+- (void)to check and merge;
 - (void);
-- (void);
-- (void);
+- (void)setDuration: /* Error: Ran out of types for this method. */;
 
 @end
 

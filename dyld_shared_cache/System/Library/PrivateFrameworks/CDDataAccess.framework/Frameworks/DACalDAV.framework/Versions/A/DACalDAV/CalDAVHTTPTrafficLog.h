@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ntIdentifier;
 - (void);
 
 // Remaining properties

@@ -12,16 +12,15 @@
 
 + (id);
 + (id);
-- (void);
+- (void)lid SentencePiece IDs in input;
 - (id);
 - (id);
-- (double);
+- (double)(;
 - (double);
 - (void);
 
 // Remaining properties
 @property(nonatomic) double maximumValue;
-@property(nonatomic) double value;
 
 @end
 

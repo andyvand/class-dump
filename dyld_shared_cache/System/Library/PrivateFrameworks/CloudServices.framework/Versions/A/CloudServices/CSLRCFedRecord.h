@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSLRCFedRecordLRCFedClientMetadata, NSData, NSString;
+@class NSData;
 
 @interface CSLRCFedRecord
 {
     NSData *_backupKeybagLRCFedSHA256;
-    NSData *_backupKeybagLRCSHA256;
-    CSLRCFedRecordLRCFedClientMetadata *_clientMetadata;
-    NSData *_lrcFedRecord;
-    NSData *_lrcRecordFedHash;
-    NSString *_timestamp;
 }
 
 + (id);
@@ -32,33 +27,22 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)to notification request. Record:%@. /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)m;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)c;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *backupKeybagLRCFedSHA256; // @synthesize backupKeybagLRCFedSHA256=_backupKeybagLRCFedSHA256;
-@property(retain, nonatomic) NSData *backupKeybagLRCSHA256; // @synthesize backupKeybagLRCSHA256=_backupKeybagLRCSHA256;
-@property(retain, nonatomic) CSLRCFedRecordLRCFedClientMetadata *clientMetadata; // @synthesize clientMetadata=_clientMetadata;
-@property(readonly, nonatomic) _Bool hasBackupKeybagLRCFedSHA256;
-@property(readonly, nonatomic) _Bool hasBackupKeybagLRCSHA256;
 @property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(readonly, nonatomic) _Bool hasLrcFedRecord;
-@property(readonly, nonatomic) _Bool hasLrcRecordFedHash;
-@property(readonly, nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSData *lrcFedRecord; // @synthesize lrcFedRecord=_lrcFedRecord;
-@property(retain, nonatomic) NSData *lrcRecordFedHash; // @synthesize lrcRecordFedHash=_lrcRecordFedHash;
-@property(retain, nonatomic) NSString *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

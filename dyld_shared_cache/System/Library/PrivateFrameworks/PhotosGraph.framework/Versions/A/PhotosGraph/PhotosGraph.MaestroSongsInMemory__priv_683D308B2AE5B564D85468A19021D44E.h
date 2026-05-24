@@ -7,7 +7,6 @@
 @interface PhotosGraph.MaestroSongsInMemory__priv_683D308B2AE5B564D85468A19021D44E
 {
     id songs;
-    id index;
 }
 
 @end

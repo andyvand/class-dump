@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)s:(id)arg1 %lu… | opening database [] result=%d;
 
 @end
 

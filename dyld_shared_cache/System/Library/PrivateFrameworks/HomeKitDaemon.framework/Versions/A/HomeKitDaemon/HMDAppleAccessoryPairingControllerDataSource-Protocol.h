@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPPairingIdentity, HMDBulletinBoard, HMDDevice, HMFTimer, NSArray, NSNotificationCenter, NSUUID;
+@class HMDDevice, HMFTimer, NSArray, NSNotificationCenter, NSUUID;
 
 @protocol HMDAppleAccessoryPairingControllerDataSource
-- (HMFTimer *);
-- (void)ProtoFetchEventsResponse;
+- (NSArray *)&,V_trackingAreaBottom;
+- (HMFTimer *)submitCloudShareTrustStatusDailyEvent;
+- (void)HMDRemoteEventRouterProtoFetchEventsResponse;
 - (HMDDevice *)blic}@Record missing deserializedPayloadModel:(NSUUID *)arg1 %@;
 - (NSNotificationCenter *)stributionLogEvent;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDBulletinBoard *bulletinBoard;
-@property(readonly, nonatomic) HAPPairingIdentity *hh1ControllerIdentity;
 @property(readonly, nonatomic) NSArray *inProgressPairingAccessories;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
 @end
 

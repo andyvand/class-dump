@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSHTTPArchiveMetrics, NSData, NSURLSessionTaskMetrics;
+@class AMSHTTPArchiveMetrics, NSData;
 
 @interface AMSHTTPArchiveTaskInfo
 {
     NSData *_HTTPBody;
-    NSData *_responseData;
-    AMSHTTPArchiveMetrics *_taskMetrics;
 }
 
 + (_Bool);
@@ -29,9 +27,6 @@ AsAsAsêAsüAskAslAsãAsÜ
 AsAs4AsAs1As@lAs¶nAsÝhAsjAstAs¥vAs¡pAsrAs;lAsnAsýhAs9jAsJtAs°vAsôpAsxrAsbLAs\NAsªHAsºJAswTAsdVAs[PAs¹RAszLAsNAsHAsàJAs¬TAsLVAsPAsRAs_æíö¡4§ü0èNúx /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSData *HTTPBody; // @synthesize HTTPBody=_HTTPBody;
-@property(readonly) NSURLSessionTaskMetrics *metrics;
-@property(readonly) NSData *responseData; // @synthesize responseData=_responseData;
 @property(readonly) AMSHTTPArchiveMetrics *taskMetrics; // @synthesize taskMetrics=_taskMetrics;
 
 @end

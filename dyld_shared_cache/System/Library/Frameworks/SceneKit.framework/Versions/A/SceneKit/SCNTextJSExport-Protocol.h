@@ -7,19 +7,15 @@
 @class NSString;
 
 @protocol SCNTextJSExport
++ (id);
+- (void);
+- (NSString *)informational;
+- (id)to encode user invite information:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)8;
+- (struct CGRect)PRIMARY KEY, source_name TEXT, last_sync_date INTEGER NOT NULL DEFAULT 0, last_sync_revision INTEGER NOT NULL DEFAULT 0);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *alignmentMode;
-@property(copy, nonatomic) id chamferProfile;
-@property(nonatomic) double chamferRadius;
-@property(nonatomic) long long chamferSegmentCount;
-@property(nonatomic) struct CGRect containerFrame;
 @property(nonatomic) double extrusionDepth;
-@property(nonatomic) double flatness;
-@property(retain, nonatomic) id font;
-@property(copy, nonatomic) id string;
-@property(readonly, nonatomic) struct CGSize textSize;
-@property(copy, nonatomic) NSString *truncationMode;
-@property(nonatomic, getter=isWrapped) _Bool wrapped;
 @end
 

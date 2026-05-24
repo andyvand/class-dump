@@ -6,35 +6,31 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIPageControl, UIPageViewController, _UIQueuingScrollView;
+@class UIPageViewController;
 
 __attribute__((visibility("hidden")))
 @interface _UIPageViewControllerContentView : UIView
 {
     UIPageViewController *_pageViewController;
-    _UIQueuingScrollView *_scrollView;
-    UIPageControl *_pageControl;
 }
 
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)htClientState"8@"NSError"16;
+- (id)2B216B220B224B228q232q240@?<v@?>248;
+- (void)IMSeenAsOffGridProcessingParameter;
 - (struct CGRect);
 - (double);
 - (_Bool);
 - (void);
-- (void)pedIndexPath;
-- (id)te;
+- (void)_swipedIndexPath;
+- (id)_effectivePrimaryHidingState;
 - (void)rollerContainerViewWidthConstraint;
 - (id)ot a UIGraphicsRendererContext subclass as a UIGraphicsRenderer context.;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIPageControl *pageControl; // @synthesize pageControl=_pageControl;
 @property(readonly, nonatomic) __weak UIPageViewController *pageViewController; // @synthesize pageViewController=_pageViewController;
-@property(readonly, nonatomic) _UIQueuingScrollView *scrollView; // @synthesize scrollView=_scrollView;
 
 @end
 

@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMIMDFREmojiListMatrixView, NSBox, NSButton, NSImageView, NSLayoutConstraint, NSMutableArray;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface EMIMDFREmojiListSkinToneView
 {
     _Bool _hasClosebox;
-    _Bool _shownAtOppositeSide;
-    _Bool _gestureCanceled;
-    NSButton *_closeButton;
-    NSBox *_backgroundBox;
-    NSMutableArray *_skinToneCells;
-    NSLayoutConstraint *_closeBoxLeadingConstraint;
-    NSLayoutConstraint *_skinToneBoxLeadingConstraint;
-    id _firstTouchID;
-    long long _selectedCharacterIndex;
-    long long _highlightedCharacterIndex;
-    EMIMDFREmojiListMatrixView *_sourceMatrixView;
-    NSImageView *_prereleaseStamp;
 }
 
 - (void);
@@ -31,20 +19,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)R{;
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -62,19 +50,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property NSBox *backgroundBox; // @synthesize backgroundBox=_backgroundBox;
-@property NSLayoutConstraint *closeBoxLeadingConstraint; // @synthesize closeBoxLeadingConstraint=_closeBoxLeadingConstraint;
 @property NSButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(retain) id firstTouchID; // @synthesize firstTouchID=_firstTouchID;
-@property _Bool gestureCanceled; // @synthesize gestureCanceled=_gestureCanceled;
-@property _Bool hasClosebox; // @synthesize hasClosebox=_hasClosebox;
-@property long long highlightedCharacterIndex; // @synthesize highlightedCharacterIndex=_highlightedCharacterIndex;
-@property NSImageView *prereleaseStamp; // @synthesize prereleaseStamp=_prereleaseStamp;
-@property long long selectedCharacterIndex; // @synthesize selectedCharacterIndex=_selectedCharacterIndex;
-@property _Bool shownAtOppositeSide; // @synthesize shownAtOppositeSide=_shownAtOppositeSide;
-@property NSLayoutConstraint *skinToneBoxLeadingConstraint; // @synthesize skinToneBoxLeadingConstraint=_skinToneBoxLeadingConstraint;
-@property(retain) NSMutableArray *skinToneCells; // @synthesize skinToneCells=_skinToneCells;
-@property EMIMDFREmojiListMatrixView *sourceMatrixView; // @synthesize sourceMatrixView=_sourceMatrixView;
 
 @end
 

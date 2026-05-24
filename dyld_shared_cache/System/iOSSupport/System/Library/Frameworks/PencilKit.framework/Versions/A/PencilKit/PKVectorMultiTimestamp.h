@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -29,7 +29,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)el: /* Error: Ran out of types for this method. */;
+- (void)setWindowLevel: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *timestamps; // @synthesize timestamps=_timestamps;

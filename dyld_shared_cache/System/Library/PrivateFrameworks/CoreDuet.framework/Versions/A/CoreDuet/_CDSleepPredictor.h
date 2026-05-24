@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
++ (id):(id)arg1;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)y;
++ (id)kHct;
++ (id)kHcq;
++ (id)kHcn;
 
 @end
 

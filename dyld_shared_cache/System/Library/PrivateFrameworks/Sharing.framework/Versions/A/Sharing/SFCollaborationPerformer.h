@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SFCollaborationCloudSharingResult;
-@protocol OS_dispatch_queue, SFCollaborationCreationDelegate, SFCollaborationItem, SFCollaborationPerformerDelegate;
-
 @interface SFCollaborationPerformer
 {
     _Bool _isRunning;
-    _Bool _requiresParticipants;
-    _Bool _didCancel;
-    id <SFCollaborationItem> _collaborationItem;
-    NSString *_activityType;
-    double _deviceScreenScale;
-    id <SFCollaborationPerformerDelegate> _delegate;
-    id <SFCollaborationCreationDelegate> _creationDelegate;
-    SFCollaborationCloudSharingResult *_cloudSharingResult;
-    NSObject<OS_dispatch_queue> *_performQueue;
 }
 
 - (void);
@@ -28,38 +16,29 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (void)C;
+- (void);
+- (void);
+- (void)P;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)analyticsReporterWithTransport: /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
 - (void);
 - (_Bool)nqueue_findAssetBundleForAssetQuery:ucat:queryType:fallback:retryAttempt:withCompletionHandler:]_block_invoke_3 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(readonly, nonatomic) SFCollaborationCloudSharingResult *cloudSharingResult; // @synthesize cloudSharingResult=_cloudSharingResult;
-@property(readonly, nonatomic) id <SFCollaborationItem> collaborationItem; // @synthesize collaborationItem=_collaborationItem;
-@property(nonatomic) __weak id <SFCollaborationCreationDelegate> creationDelegate; // @synthesize creationDelegate=_creationDelegate;
-@property(nonatomic) __weak id <SFCollaborationPerformerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) double deviceScreenScale; // @synthesize deviceScreenScale=_deviceScreenScale;
-@property(nonatomic) _Bool didCancel; // @synthesize didCancel=_didCancel;
-@property(readonly, nonatomic) _Bool isRunning; // @synthesize isRunning=_isRunning;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *performQueue; // @synthesize performQueue=_performQueue;
 @property(nonatomic) _Bool requiresParticipants; // @synthesize requiresParticipants=_requiresParticipants;
 
 @end

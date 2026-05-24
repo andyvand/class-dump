@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSObject, NSPreviewTargetWindow, NSString, VBXPCConnectionFenced;
-@protocol NSObject, NSSecureCoding;
+@protocol NSObject;
 
 @interface NSPreviewTargetController
 {
     id <NSObject> _observerOfWindowWillStartLiveResizeNotification;
-    id <NSObject> _observerOfWindowDidEndLiveResizeNotification;
-    unsigned int _allowFrameRequests:1;
-    unsigned int _didOrderWindowIn:1;
-    unsigned int _hostWantsKeyboardFocus:1;
-    unsigned int _invalid:1;
-    unsigned int _targetFinishedBootstrap:1;
-    unsigned int _willReportMinMaxFrameSizes:1;
-    unsigned int _windowIgnoredMouseEventsAtBootstrap:1;
-    struct os_unfair_lock_s _retainReleaseLock;
-    CDStruct_42a63532 _mostRecentlyReportedMinMaxFrameSizes;
-    _Bool _didCompleteBootstrap;
-    CDStruct_28acc417 _desiredWindowState;
-    unsigned int _settingHostAppActiveness;
-    unsigned int _hostViewFrameInScreenCoordsDidChangeInProgress;
-    unsigned int _resizeRequestReplyInProgress;
-    unsigned int _keyboardFocusTheft;
-    NSPreviewTargetWindow *_window;
-    NSObject<NSSecureCoding> *_hostAppClientParameters;
-    id _hostControllerProxy;
-    VBXPCConnectionFenced *_hostAppConnection;
-    long long _desiredWindowLevel;
-    struct CGRect _hostViewFrame;
-    CDStruct_4c969caf _hostAppAuditToken;
 }
 
 + (id);
@@ -44,7 +20,7 @@
 + (id);
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)X;
 + (id);
 + (_Bool);
 + (void)'t reached durability floor;
@@ -54,7 +30,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void))!;
 - (void);
 - (void);
 - (void);
@@ -69,17 +45,17 @@
 - (void);
 - (unsigned int);
 - (void);
-- (struct CGRect);
+- (struct CGRect)B;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (_Bool);
-- (CDStruct_28acc417);
-- (long long);
+- (CDStruct_5c52f79b);
+- (long long);
 - (_Bool);
 - (void);
 - (void);
@@ -88,49 +64,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (CDStruct_4c969caf);
-- (int);
+- (int)@9	;
+- (void): /* Error: Ran out of types for this method. */;
+- (void)*;
 - (void);
-- (void);
-- (void);
-- (oneway void);
+- (oneway void)`;
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (void)on for process identifier %d;
 
 // Remaining properties
-@property(readonly) _Bool allowFrameRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property long long desiredWindowLevel; // @synthesize desiredWindowLevel=_desiredWindowLevel;
-@property CDStruct_28acc417 desiredWindowState; // @synthesize desiredWindowState=_desiredWindowState;
-@property(readonly) _Bool didCompleteBootstrap; // @synthesize didCompleteBootstrap=_didCompleteBootstrap;
-@property(readonly) CAContext *fenceContext;
-@property(readonly) unsigned long long hash;
-@property(readonly) CDStruct_4c969caf hostAppAuditToken; // @synthesize hostAppAuditToken=_hostAppAuditToken;
-@property(retain) NSObject<NSSecureCoding> *hostAppClientParameters; // @synthesize hostAppClientParameters=_hostAppClientParameters;
-@property __weak VBXPCConnectionFenced *hostAppConnection; // @synthesize hostAppConnection=_hostAppConnection;
-@property(retain) id hostControllerProxy; // @synthesize hostControllerProxy=_hostControllerProxy;
-@property struct CGRect hostViewFrame; // @synthesize hostViewFrame=_hostViewFrame;
-@property unsigned int hostViewFrameInScreenCoordsDidChangeInProgress; // @synthesize hostViewFrameInScreenCoordsDidChangeInProgress=_hostViewFrameInScreenCoordsDidChangeInProgress;
-@property(readonly) _Bool isValid;
-@property(readonly) unsigned int keyboardFocusTheft; // @synthesize keyboardFocusTheft=_keyboardFocusTheft;
-@property unsigned int resizeRequestReplyInProgress; // @synthesize resizeRequestReplyInProgress=_resizeRequestReplyInProgress;
 @property(readonly) unsigned int settingHostAppActiveness; // @synthesize settingHostAppActiveness=_settingHostAppActiveness;
-@property(readonly) Class superclass;
-@property(readonly) _Bool targetFinishedBootstrap;
-@property(retain) NSPreviewTargetWindow *window; // @synthesize window=_window;
 
 @end
 

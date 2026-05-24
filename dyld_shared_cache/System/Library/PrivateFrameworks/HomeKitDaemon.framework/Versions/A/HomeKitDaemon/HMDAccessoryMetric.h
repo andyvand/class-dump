@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDAccessoryDiagnosticsMetric, HMDAccessorySessionMetric, HMFTimer, NSArray, NSDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDAccessory, HMDAccessorySessionMetric;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryMetric
 {
     HMDAccessorySessionMetric *_sessionMetric;
-    HMDAccessoryDiagnosticsMetric *_diagnosticsMetric;
-    HMDAccessory *_accessory;
-    HMFTimer *_accessoryMetricTimer;
-    double _timerInterval;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSArray *_deltaCounters;
-    NSDictionary *_previousDiagnosticMetrics;
 }
 
 + (id)@;
-- (double);
+- (double)<MSPNavigationListenerDelegate>"16;
+- (void)ming sharing, generic;
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)@$;
+- (id)numberOfTopTwoPersonSocialGroupSignalRegistrations;
+- (id)endHour;
+- (id);
 - (id)0@ù
 × ;
 - (void)HÿÿXØ;
@@ -41,20 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain, nonatomic) HMFTimer *accessoryMetricTimer; // @synthesize accessoryMetricTimer=_accessoryMetricTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *deltaCounters; // @synthesize deltaCounters=_deltaCounters;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) HMDAccessoryDiagnosticsMetric *diagnosticsMetric; // @synthesize diagnosticsMetric=_diagnosticsMetric;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *previousDiagnosticMetrics; // @synthesize previousDiagnosticMetrics=_previousDiagnosticMetrics;
-@property(readonly, nonatomic) HMDAccessorySessionMetric *sessionMetric; // @synthesize sessionMetric=_sessionMetric;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timerInterval; // @synthesize timerInterval=_timerInterval;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

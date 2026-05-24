@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PXStoryRelatedResult
 {
     NSArray *_storyConfigurations;
-    NSString *_debugInfo;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)º,;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *debugInfo; // @synthesize debugInfo=_debugInfo;
 @property(readonly, nonatomic) NSArray *storyConfigurations; // @synthesize storyConfigurations=_storyConfigurations;
 
 @end

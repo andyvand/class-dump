@@ -5,5 +5,10 @@
 //
 
 @protocol ABPersonListDelegate
+- (void);
+- (void);
+
+@optional
+- (void);
 @end
 

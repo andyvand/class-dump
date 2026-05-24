@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneSubscription, CKServerChangeToken, HMDBackingStoreCacheZone, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheGroup
 {
     long long _groupID;
-    HMDBackingStoreCacheZone *_zone;
-    NSString *_rootRecordName;
-    CKServerChangeToken *_serverChangeToken;
-    NSString *_subscriptionName;
-    NSString *_owner;
-    CKRecordZoneSubscription *_subscription;
 }
 
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)zZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxLegacyPosterStyle.m;
 - (void);
 - (id)QÐ1Â0@ù
 × ;
@@ -35,12 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property long long groupID; // @synthesize groupID=_groupID;
-@property(readonly) NSString *owner; // @synthesize owner=_owner;
-@property(readonly) NSString *rootRecordName; // @synthesize rootRecordName=_rootRecordName;
-@property(retain) CKServerChangeToken *serverChangeToken; // @synthesize serverChangeToken=_serverChangeToken;
-@property(retain) CKRecordZoneSubscription *subscription; // @synthesize subscription=_subscription;
-@property(readonly) NSString *subscriptionName; // @synthesize subscriptionName=_subscriptionName;
-@property(readonly) __weak HMDBackingStoreCacheZone *zone; // @synthesize zone=_zone;
 
 @end
 

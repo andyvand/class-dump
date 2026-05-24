@@ -5,5 +5,9 @@
 //
 
 @protocol MPCVideoOutputDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EFSQLExpressable;
 
 @interface EFSQLBinaryExpression
 {
     id <EFSQLExpressable> _left;
-    id <EFSQLExpressable> _right;
-    unsigned long long _binaryOperator;
 }
 
 - (id);
@@ -20,22 +17,12 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (void)Resolution;
+- (void)_conflictResolution;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long binaryOperator; // @synthesize binaryOperator=_binaryOperator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <EFSQLExpressable> left; // @synthesize left=_left;
-@property(readonly, nonatomic) id <EFSQLExpressable> right; // @synthesize right=_right;
-@property(readonly) Class superclass;
 
 @end
 

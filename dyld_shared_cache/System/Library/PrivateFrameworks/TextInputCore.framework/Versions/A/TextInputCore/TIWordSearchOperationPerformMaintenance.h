@@ -13,11 +13,11 @@
     TIMecabraWrapper *_mecabraWrapper;
 }
 
-- (id);
+- (id)lastObject;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)[;
 
 // Remaining properties
 @property(retain, nonatomic) TIMecabraWrapper *mecabraWrapper; // @synthesize mecabraWrapper=_mecabraWrapper;

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDeviceController, NSString;
+@class HMDDeviceController;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryDependencyFactory
 {
 }
 
-- (id);
-- (id);
+- (id){private}@;
+- (id)aring token storage for %{private}@;
 - (id);
 - (id);
 - (id);
@@ -21,14 +21,7 @@ __attribute__((visibility("hidden")))
 - (id)d¬8­t®Ä®;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) HMDDeviceController *deviceController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLFunctionConstantValues, NSString;
+@class NSString;
 
 @interface MPSUserDAGVisibleOperation
 {
     NSString *_visibleName;
-    NSString *_specializedName;
-    MTLFunctionConstantValues *_functionConstants;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)y ;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MTLFunctionConstantValues *functionConstants; // @synthesize functionConstants=_functionConstants;
-@property(readonly, nonatomic) NSString *specializedName; // @synthesize specializedName=_specializedName;
 @property(readonly, nonatomic) NSString *visibleName; // @synthesize visibleName=_visibleName;
 
 @end

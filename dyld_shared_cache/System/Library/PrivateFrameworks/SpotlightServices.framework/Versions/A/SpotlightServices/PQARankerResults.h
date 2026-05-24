@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PQARequestIdentifiers, PQAResultList;
+@class PQAResultList;
 
 @interface PQARankerResults
 {
     PQAResultList *_filteredResults;
-    PQAResultList *_rankedResults;
-    PQARequestIdentifiers *_requestIdentifier;
-    PQAResultList *_retrievedResults;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)6;
+- (void)r";
+- (void)Insets="top"d"left"d"bottom"d"right"d};
+- (id)trailingAccessory;
+- (id)standardQuickLookMenuItem;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)initWithHost:media:style:posterFrame:posterFrameStyle:configuration: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithError:fetcher: /* Error: Ran out of types for this method. */;
+- (id)_quickLookThumbnail;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (id);
 - (id);
-- (void)awPhoneNumbers;
+- (void)_rawPhoneNumbers;
 
 // Remaining properties
-@property(retain, nonatomic) PQAResultList *filteredResults; // @synthesize filteredResults=_filteredResults;
-@property(readonly, nonatomic) _Bool hasFilteredResults;
-@property(readonly, nonatomic) _Bool hasRankedResults;
 @property(readonly, nonatomic) _Bool hasRequestIdentifier;
-@property(readonly, nonatomic) _Bool hasRetrievedResults;
-@property(retain, nonatomic) PQAResultList *rankedResults; // @synthesize rankedResults=_rankedResults;
-@property(retain, nonatomic) PQARequestIdentifiers *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(retain, nonatomic) PQAResultList *retrievedResults; // @synthesize retrievedResults=_retrievedResults;
 
 @end
 

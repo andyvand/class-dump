@@ -5,5 +5,6 @@
 //
 
 @protocol BROperationClient
+- (oneway void);
 @end
 

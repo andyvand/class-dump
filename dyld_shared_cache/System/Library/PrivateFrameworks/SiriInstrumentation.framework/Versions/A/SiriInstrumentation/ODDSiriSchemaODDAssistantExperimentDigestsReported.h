@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDExperimentFixedDimensions, ODDSiriSchemaODDFixedDimensions;
-
 @interface ODDSiriSchemaODDAssistantExperimentDigestsReported : SISchemaInstrumentationMessage
 {
     int _digestType;
-    ODDSiriSchemaODDExperimentFixedDimensions *_experimentFixedDimensions;
-    ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    CDStruct_5e3ed298 _has;
-    _Bool _hasExperimentFixedDimensions;
-    _Bool _hasFixedDimensions;
 }
 
 - (void);
@@ -45,24 +37,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)PendingAssociation;
 - (id);
 - (id)Þ1Â0@ù
 × ;
-- (id);
+- (id)deleteActionEventId;
 - (id)pleCount;
 - (id)Reported;
-- (void)ESTFEATURETAG_SIMPLE_APP_INTENT;
+- (void)PNROD_REQUESTFEATURETAG_SIMPLE_APP_INTENT;
 
 // Remaining properties
 @property(nonatomic) int digestType; // @synthesize digestType=_digestType;
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
-@property(retain, nonatomic) ODDSiriSchemaODDExperimentFixedDimensions *experimentFixedDimensions; // @synthesize experimentFixedDimensions=_experimentFixedDimensions;
-@property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasDigestType;
-@property(nonatomic) _Bool hasExperimentFixedDimensions; // @synthesize hasExperimentFixedDimensions=_hasExperimentFixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

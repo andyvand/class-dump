@@ -5,12 +5,10 @@
 //
 
 @class CIRenderTask;
-@protocol NUPurgeableStorage;
 
 @interface PISliderNetBaseJob
 {
     CIRenderTask *_renderTask;
-    id <NUPurgeableStorage> _storage;
 }
 
 - (_Bool);
@@ -19,8 +17,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void)or: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)unarchivedStyleRecipeWithURL:error: /* Error: Ran out of types for this method. */;
 
 @end
 

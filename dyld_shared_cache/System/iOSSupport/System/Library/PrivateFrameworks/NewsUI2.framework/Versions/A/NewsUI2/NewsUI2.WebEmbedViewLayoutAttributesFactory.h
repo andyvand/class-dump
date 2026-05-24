@@ -7,7 +7,6 @@
 @interface NewsUI2.WebEmbedViewLayoutAttributesFactory
 {
     id styler;
-    id cache;
 }
 
 @end

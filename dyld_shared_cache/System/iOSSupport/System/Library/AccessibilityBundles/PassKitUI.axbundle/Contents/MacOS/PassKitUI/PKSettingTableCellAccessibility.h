@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)_accessibilitySetSelectedTextRange: /* Error: Ran out of types for this method. */;
 + (void);
-- (id);
-- (struct CGPoint);
+- (id).L;
+- (struct CGPoint);
 - (_Bool);
 - (id);
 - (unsigned long long);

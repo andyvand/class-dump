@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKFCKModel, NSDictionary, NSManagedObjectID, NSSet;
+
 @protocol HMDCoreDataCloudChangeListener
+
+@optional
+- (void);
+- (void)removeParticipant:(MKFCKModel *)arg1 forServiceName:(NSSet *)arg2 reason: /* Error: Ran out of types for this method. */;
+- (void)relay:(NSManagedObjectID *)arg1 accountStatusChanged:(NSDictionary *)arg2;
 @end
 

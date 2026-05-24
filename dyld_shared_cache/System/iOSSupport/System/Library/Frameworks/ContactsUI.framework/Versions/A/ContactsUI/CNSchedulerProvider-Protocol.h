@@ -7,13 +7,12 @@
 @protocol CNScheduler;
 
 @protocol CNSchedulerProvider
+- (id <CNScheduler>);
+- (id <CNScheduler>)ing value;
 - (id <CNScheduler>)x;
 - (id <CNScheduler>)tXÐÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNScheduler> backgroundScheduler;
-@property(readonly, nonatomic) id <CNScheduler> immediateScheduler;
-@property(readonly, nonatomic) id <CNScheduler> inlineScheduler;
-@property(readonly, nonatomic) id <CNScheduler> mainThreadScheduler;
 @end
 

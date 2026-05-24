@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface SCNUIVector2TextField : SCNUIBindableView
 {
     NSTextField *tx;
-    NSTextField *ty;
 }
 
 - (void);
 - (struct CGSize);
-- (id);
+- (id)a_id=0);
 - (id);
 - (void)zed_l);
         shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light));

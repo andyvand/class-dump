@@ -6,14 +6,11 @@
 
 #import <EventKit/EKObject.h>
 
-@class EKAvailabilityCache, EKSourceConstraints, EKSyncError, NSDate, NSDictionary, NSError, NSNumber, NSSet, NSString, NSURL, REMObjectID;
+@class EKAvailabilityCache;
 
 @interface EKSource : EKObject
 {
     EKAvailabilityCache *_availabilityCache;
-    _Bool _supportsTaskCalendarCreation;
-    _Bool _isFacebook;
-    _Bool _snoozeAlarmRequiresDetach;
 }
 
 + (id);
@@ -24,109 +21,11 @@
 + (id);
 + (long long);
 + (id);
-+ (_Bool);
++ (_Bool)drain_depth_p_0_00_at_charge_start_soc_curr_dynamic_bin_4;
 + (int);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allCalendars;
-@property(nonatomic) _Bool allowsCalendarAddDeleteModify;
-@property(nonatomic) _Bool allowsEvents;
-@property(nonatomic) _Bool allowsPrivateEventAccessByDelegate;
-@property(nonatomic) _Bool allowsProposeNewTime;
-@property(nonatomic) _Bool allowsTasks;
-@property(copy, nonatomic) NSString *appGroupIdentifier;
-@property(retain, nonatomic) NSDictionary *cachedExternalInfo;
-@property(readonly, nonatomic) NSSet *calendars;
-@property(readonly, nonatomic) _Bool constraintSupportsAvailabilityRequests;
-@property(readonly, nonatomic) EKSourceConstraints *constraints;
-@property(retain, nonatomic) NSString *constraintsDescriptionPath;
-@property(retain, nonatomic) NSString *constraintsDescriptionPathForUnitTesting;
-@property(retain, nonatomic) NSString *constraintsName;
-@property(copy, nonatomic) NSString *creatorBundleID;
-@property(copy, nonatomic) NSString *creatorCodeSigningIdentity;
-@property(copy, nonatomic) NSNumber *defaultAlarmOffset;
-@property(copy, nonatomic) NSNumber *defaultAllDayAlarmOffset;
-@property(copy, nonatomic) NSString *delegatedAccountOwnerStoreID;
-@property(nonatomic) int displayOrder;
-@property(readonly, nonatomic) int displayOrderForNewCalendar;
-@property(nonatomic) _Bool doesSyncDefaultAlarmsToServer;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(copy, nonatomic) NSString *externalID;
-@property(copy, nonatomic) NSString *externalModificationTag;
-@property(nonatomic) int flags;
-@property(nonatomic) int flags2;
 @property(readonly, nonatomic) _Bool hasOwnerEmailAddress;
-@property(readonly, nonatomic) _Bool isDelegate;
-@property(readonly, nonatomic) _Bool isEnabledForEvents;
-@property(nonatomic) _Bool isFacebook; // @synthesize isFacebook=_isFacebook;
-@property(readonly, nonatomic) _Bool isFacebookSource;
-@property(nonatomic) _Bool isInMainWindow;
-@property(nonatomic) _Bool isInSeparateWindow;
-@property(readonly, nonatomic) _Bool isPrimaryAppleAccount;
-@property(readonly, nonatomic) _Bool isReadable;
-@property(readonly, nonatomic) _Bool isSyncing;
-@property(readonly, nonatomic) _Bool isWritable;
-@property(retain, nonatomic) NSDate *lastSyncEndDate;
-@property(readonly, nonatomic) unsigned long long lastSyncError;
-@property(readonly, copy, nonatomic) NSDictionary *lastSyncErrorUserInfo;
-@property(retain, nonatomic) NSDate *lastSyncStartDate;
-@property(readonly, nonatomic, getter=isNestedLocalSource) _Bool nestedLocalSource;
-@property(copy, nonatomic) NSString *notes;
-@property(nonatomic) _Bool onlyCreatorCanModify;
-@property(readonly, nonatomic) NSSet *ownerAddresses;
-@property(copy, nonatomic) NSString *ownerName;
-@property(readonly, nonatomic) NSString *personaIdentifier;
-@property(nonatomic) long long preferredEventPrivateValue;
-@property(readonly, nonatomic) NSString *preferredOwnerAddress;
-@property(readonly, nonatomic, getter=isPrimaryLocalSource) _Bool primaryLocalSource;
-@property(nonatomic) _Bool prohibitsDetachmentOnCommentChange;
-@property(nonatomic) _Bool prohibitsICSImport;
-@property(nonatomic) _Bool prohibitsMultipleDaysInMonthlyRecurrence;
-@property(nonatomic) _Bool prohibitsMultipleMonthsInYearlyRecurrence;
-@property(nonatomic) _Bool prohibitsPrivateEventsWithAttendees;
-@property(nonatomic) _Bool prohibitsSlicingEventsWithAttendees;
-@property(nonatomic) _Bool prohibitsYearlyRecurrenceInterval;
-@property(nonatomic) _Bool readOnly;
-@property(readonly, nonatomic) REMObjectID *remAccountObjectID;
-@property(nonatomic) _Bool requiresOccurrencesConformToRecurrenceRule;
-@property(nonatomic) _Bool requiresSamePrivacyLevelAcrossRecurrenceSeries;
-@property(readonly, nonatomic) NSString *serverHost;
-@property(readonly, nonatomic) long long serverPort;
-@property(readonly, nonatomic) NSURL *serverURL;
-@property(readonly, nonatomic) _Bool serverUsesSSL;
-@property(nonatomic) _Bool showsNotifications;
-@property(nonatomic) _Bool snoozeAlarmRequiresDetach; // @synthesize snoozeAlarmRequiresDetach=_snoozeAlarmRequiresDetach;
-@property(readonly, nonatomic) NSError *sourceError;
-@property(retain, nonatomic) NSString *sourceIdentifier;
-@property(readonly, nonatomic) NSError *sourceOrEventError;
-@property(nonatomic) long long sourceType;
-@property(nonatomic) long long sourceTypeRaw;
-@property(nonatomic) long long strictestEventPrivateValue;
-@property(nonatomic) _Bool supportsAlarmAcknowledgedDate;
-@property(nonatomic) _Bool supportsAttachments;
-@property(nonatomic) _Bool supportsAvailabilityRequests;
-@property(readonly, nonatomic) _Bool supportsCalendarCreation;
-@property(nonatomic) _Bool supportsClearingPrivateComments;
-@property(nonatomic) _Bool supportsDelegateEnumeration;
-@property(nonatomic) _Bool supportsDelegation;
-@property(readonly, nonatomic) _Bool supportsEventCalendarCreation;
-@property(nonatomic) _Bool supportsEventForwarding;
-@property(nonatomic) _Bool supportsIgnoringEventsInAvailabilityRequests;
-@property(nonatomic) _Bool supportsInvitationModificationsWithoutNotification;
-@property(nonatomic) _Bool supportsLocationDirectorySearches;
-@property(nonatomic) _Bool supportsPrivateEvents;
-@property(nonatomic) _Bool supportsPush;
-@property(readonly, nonatomic) _Bool supportsReminderActions;
-@property(nonatomic) _Bool supportsSharedCalendars;
-@property(readonly, nonatomic) _Bool supportsTaskCalendarCreation; // @synthesize supportsTaskCalendarCreation=_supportsTaskCalendarCreation;
-@property(nonatomic) _Bool supportsTravelTime;
-@property(readonly, nonatomic) NSString *symbolicColorForNewCalendar;
-@property(retain, nonatomic) EKSyncError *syncError;
-@property(readonly, nonatomic) _Bool syncs;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) _Bool usesSelfAttendee;
-@property(readonly, nonatomic) _Bool wantsCommentPromptWhenDeclining;
-@property(nonatomic) _Bool wasMigrated;
 
 @end
 

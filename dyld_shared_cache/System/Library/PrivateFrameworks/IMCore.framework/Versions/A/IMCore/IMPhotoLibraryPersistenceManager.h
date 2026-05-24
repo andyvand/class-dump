@@ -4,53 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSHashTable, NSMutableDictionary, NSMutableSet, NSString, PHPhotoLibrary;
+@class NSHashTable;
 
 @interface IMPhotoLibraryPersistenceManager
 {
     NSHashTable *_listeners;
-    NSMutableDictionary *_syndicationIdentifierSaveStateCache;
-    NSMutableDictionary *_syndicationIdentifierFetchResultCache;
-    NSMutableDictionary *_syndicationIdentifierToAssetUUIDCache;
-    NSMutableSet *_syndicationIdentifiersPendingFetch;
-    NSMutableSet *_syndicationIdentifiersWithActiveFetch;
-    NSCountedSet *_sessions;
-    PHPhotoLibrary *_photoLibrary;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)d messageReceived:(id)arg1 found existing dialog for participantID='%@';
++ (id)o configure transport;
++ (id)BufferFrameSize with error %08x %d;
 + (id),p;
+- (void)rt datagram channel MultiLink;
+- (void)@(%p) Failed to start NW connections;
+- (void)to setup datagram channel;
+- (id)ectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AVCMediaStreamConfig.m:%d:Unexpected pixel format type:%d /* Error: Ran out of types for this method. */;
+- (id)UVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AVCMediaStreamConfig.m:%d:Unexpected pixel format type:%d /* Error: Ran out of types for this method. */;
+- (id)ry/BuildRoots/4~CNquugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AVCMediaStreamConfig.m:%d:Unexpected pixel format type:%d /* Error: Ran out of types for this method. */;
+- (id)lFormat to 420f;
+- (id)t to 444f 10-bit;
+- (void)uildRoots/4~CNquugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/AVCPacketRelayDriverThread.m:(id)arg1 %d:AVCPacketRelayDriverThread:calloc(%d) failed /* Error: Ran out of types for this method. */;
+- (void)%d duration=%f;
+- (void)eams:(id)arg1 %d;
+- (void)eamGroup=%@;
+- (void)D %d;
+- (void)) clientID is nil;
+- (void)m [%s] %s:(id)arg1 %d clientID is nil;
+- (void)%d transportStream[%p] already registered a vtpCallbackId [%d];
+- (unsigned long long)oad=%u, totalPacketsSent=%d %@ _targetBitrate=%u _currentTargetBitrate=%u _supportsAdaptation=%d audioTxRedRate=%ukbps;
+- (void)DIO_TRANSMITTER_MIN_BITRATE_REPORT_PERIOD=%fs);
+- (void)Failed to update audio buffer list;
+- (_Bool)guration-init (%p);
+- (_Bool)CapBitrate=%d;
+- (void)sLocalInitiated:%d isLocalSideOnly:%d message:%@, symptomID:%d, groupID:%@ /* Error: Ran out of types for this method. */;
+- (id)tapType=%u, originalToken=%u;
+- (void)ing not in progress;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)iZ/JRTSzUAmxd/sf7/7wZvcK/3mCIaDuOmf6h81dfE
+YZUH45YpZksv2lia6beuIYifQEG/FViIUwDkACssh1Whawhm4xzd1SMCgYEAzYxW
+jYvhmDfJBX7B+hoYv79PqWpURRnkbhr2uGm1DHMyqCM2tzL69hxP//92MOfw4grf
+x0fpdG3TVmrSnswEC4rtu3Ubpwa+xcbUrnOPxGJ/JrN8X3vCyalL64Z3sxG3ebAu
+NhJR0Gfy8vWQmWUlc3JttKwXUeguivh+0IS66+MCgYBlUTeOg/V8JCtMtNYwgc+n
+awyOp86tSww4J1V7XCpaKlpFnyxX6ODxAiAijGDATzqNXKocAG85KwfOcK4YIXo5
+iBPqMjn1kFc1WOWWXmfb654K/6Hgioof58P4/hbnslVidJf3kS5WaY0btrCD0l2c
+R0H+EuNmULPQ4C9iiAOBoQKBgF3pi7YaPhVlD4RiONBDUiFxkD0QZrY3sUWZLjZt
+nZm1nGRzylEDiuQdZXPKTT7lCgrM+xc6xPA8KX3nSpnhDswTSrEGPX8fttP4Fz4p
+cHtCoWOWR/H8QrAOmLBgfJolMxX3J/XugtDcXYUiK1Hag7TuiC8vHWx/z5wREyfE
+LP8PAoGBAK11VjQVUXuOrbugSERDPmIfTaZWkqCBUYegJpgyKkXzajYrO8gjrJOm
++bh/fLkTTgBz/p5wOq0ukbXtP1GExR8h4IK6uTEuwmXthOKduFtyCOzVcsMTjtkB
+O4KWlY8uaMKq8/4EQkrDOCzbk8TmbM+ld/MMl1Dglu/EJ/Xz0uuU
+-----END RSA PRIVATE KEY-----;
 - (id);
 - (void);
 - (void)¨;
@@ -59,21 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSHashTable *listeners; // @synthesize listeners=_listeners;
-@property(retain, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(retain, nonatomic) NSCountedSet *sessions; // @synthesize sessions=_sessions;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *syndicationIdentifierFetchResultCache; // @synthesize syndicationIdentifierFetchResultCache=_syndicationIdentifierFetchResultCache;
-@property(retain, nonatomic) NSMutableDictionary *syndicationIdentifierSaveStateCache; // @synthesize syndicationIdentifierSaveStateCache=_syndicationIdentifierSaveStateCache;
-@property(retain, nonatomic) NSMutableDictionary *syndicationIdentifierToAssetUUIDCache; // @synthesize syndicationIdentifierToAssetUUIDCache=_syndicationIdentifierToAssetUUIDCache;
-@property(retain, nonatomic) NSMutableSet *syndicationIdentifiersPendingFetch; // @synthesize syndicationIdentifiersPendingFetch=_syndicationIdentifiersPendingFetch;
-@property(retain, nonatomic) NSMutableSet *syndicationIdentifiersWithActiveFetch; // @synthesize syndicationIdentifiersWithActiveFetch=_syndicationIdentifiersWithActiveFetch;
 
 @end
 

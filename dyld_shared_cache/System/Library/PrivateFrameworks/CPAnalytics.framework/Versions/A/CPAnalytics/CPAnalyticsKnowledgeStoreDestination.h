@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol _DKKnowledgeSaving;
+@class NSMutableArray;
 
 @interface CPAnalyticsKnowledgeStoreDestination
 {
     NSMutableArray *_matchers;
-    id <_DKKnowledgeSaving> _knowledgeStore;
 }
 
-- (void);
-- (id);
-- (void);
+- (void)SAStartMultiUserTestRequest;
+- (id)GetMidnightMode;
+- (void)kCTSIMSupportSIMStatusOperatorSubsetLocked;
 - (id);
 - (void);
 - (id);
@@ -23,19 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <_DKKnowledgeSaving> knowledgeStore; // @synthesize knowledgeStore=_knowledgeStore;
 @property(readonly, nonatomic) NSMutableArray *matchers; // @synthesize matchers=_matchers;
-@property(readonly) Class superclass;
 
 @end
 

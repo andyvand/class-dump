@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBookChangesNotifier, ABAddressBookNotificationInfo, ABCustomPropertyCache, ABPersistentStoreCoordinatorCache, NSArray;
-
 @interface ABAddressBookImpl
 {
     _Bool _createdOnMainThread;
-    _Bool _deactivated;
-    _Bool _provisional;
-    _Bool _registeredForChangeNotifications;
-    _Bool _directoryResults;
-    _Bool _overridesReadOnly;
-    _Bool _hasUnfilteredAccess;
-    ABCustomPropertyCache *_customPropertyCache;
-    ABAddressBookNotificationInfo *_preparedNotificationInfo;
-    ABPersistentStoreCoordinatorCache *_persistentStoreCoordinatorCache;
-    NSArray *_allocationBacktrace;
-    ABAddressBookChangesNotifier *_changesNotifier;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)3;
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -38,29 +25,18 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(copy) NSArray *allocationBacktrace; // @synthesize allocationBacktrace=_allocationBacktrace;
-@property(retain) ABAddressBookChangesNotifier *changesNotifier; // @synthesize changesNotifier=_changesNotifier;
 @property(nonatomic) _Bool createdOnMainThread; // @synthesize createdOnMainThread=_createdOnMainThread;
-@property(readonly, retain) ABCustomPropertyCache *customPropertyCache; // @synthesize customPropertyCache=_customPropertyCache;
-@property _Bool deactivated; // @synthesize deactivated=_deactivated;
-@property(nonatomic, getter=isDirectoryResults) _Bool directoryResults; // @synthesize directoryResults=_directoryResults;
-@property(nonatomic) _Bool hasUnfilteredAccess; // @synthesize hasUnfilteredAccess=_hasUnfilteredAccess;
-@property(nonatomic) _Bool overridesReadOnly; // @synthesize overridesReadOnly=_overridesReadOnly;
-@property(retain) ABPersistentStoreCoordinatorCache *persistentStoreCoordinatorCache; // @synthesize persistentStoreCoordinatorCache=_persistentStoreCoordinatorCache;
-@property(retain) ABAddressBookNotificationInfo *preparedNotificationInfo; // @synthesize preparedNotificationInfo=_preparedNotificationInfo;
-@property(nonatomic, getter=isProvisional) _Bool provisional; // @synthesize provisional=_provisional;
-@property(nonatomic) _Bool registeredForChangeNotifications; // @synthesize registeredForChangeNotifications=_registeredForChangeNotifications;
 
 @end
 

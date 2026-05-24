@@ -9,11 +9,9 @@
 @interface (extension in UIKit):__C.UIWindowScene.TextureController__priv_FDF62CE22547DB2BF49759240B89F9C1
 {
     void _scene;
-    id _textureWindow;
-    id manager;
 }
 
-- (id);
+- (id);
 - (id)ÿ¯;ÒPj;
 - (void)ÐÿÑal;
 - (id);

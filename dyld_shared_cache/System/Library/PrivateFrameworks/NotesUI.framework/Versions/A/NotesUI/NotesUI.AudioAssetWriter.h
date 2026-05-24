@@ -7,12 +7,6 @@
 @interface NotesUI.AudioAssetWriter
 {
     id assetWriter;
-    id assetWriterInput;
-    id state;
-    id frameCount;
-    id queue;
-    id fragmentInterval;
-    id queuedBuffers;
 }
 
 @end

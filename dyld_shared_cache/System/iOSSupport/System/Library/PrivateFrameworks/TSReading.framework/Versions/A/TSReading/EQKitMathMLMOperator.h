@@ -6,8 +6,6 @@
 
 #import <TSReading/EQKitMathMLMToken.h>
 
-@class NSString;
-
 @interface EQKitMathMLMOperator : EQKitMathMLMToken
 {
     unsigned short mOperatorId;
@@ -15,22 +13,16 @@
 
 - (id);
 - (unsigned int);
-- (unsigned short);
+- (unsigned short)|;
 - (id);
-- (const void *);
+- (const void *)x+;
 - (struct Schemata);
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

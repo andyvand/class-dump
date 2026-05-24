@@ -6,46 +6,31 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFPerson, SFTopic;
+@class NSData;
 
 @interface SFFillToolPersonParameterCommand : SFCommand
 {
     NSData *_encodedTypedValue;
-    SFPerson *_person;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)setAutoPlayItem:(id)arg1;
+- (unsigned long long)I_;
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)interruption, for %{public}@. Leaving this alert playing.;
+- (id)16@20;
+- (id)PHQueryForAssetCollectionType_MomentShare_block_invoke_111;
+- (id);
 - (id);
 - (id);
 - (void)Â0@ù
 × ;
-- (void)sibilityLabel;
+- (void)_accessibilityLabel;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSData *encodedTypedValue; // @synthesize encodedTypedValue=_encodedTypedValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(retain, nonatomic) SFPerson *person; // @synthesize person=_person;
-@property(readonly) Class superclass;
 
 @end
 

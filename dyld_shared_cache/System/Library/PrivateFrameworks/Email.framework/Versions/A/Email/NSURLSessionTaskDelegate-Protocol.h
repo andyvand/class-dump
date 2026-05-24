@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession, NSURLSessionTask;
+
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void);
+- (void)BufferToCxt:(NSURLSession *)arg1 cbdrInitSent(687):(NSURLSessionTask *)arg2 (#3) cfg elements != (%d) buffer elements;
 - (void);
 - (void)\ü;
 @end

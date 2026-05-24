@@ -4,45 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPodcastFeedChannelItem, NSArray, NSMutableArray, NSOrderedSet, NSSet, NSString;
-
 @interface IMPodcastFeed
 {
     _Bool _preferredCategoryFound;
-    _Bool _isExplicit;
-    _Bool _isNotSubscribable;
-    NSString *_feedDescription;
-    NSString *_author;
-    NSString *_category;
-    NSString *_globalImageURL;
-    NSMutableArray *_items;
-    NSString *_provider;
-    NSString *_updatedFeedURL;
-    NSString *_resolvedFeedURL;
-    NSString *_title;
-    NSString *_shareURL;
-    NSString *_showType;
-    NSString *_webpageURL;
-    NSString *_podcastStoreId;
-    NSString *_displayType;
-    NSArray *_offers;
-    NSString *_uberBackgroundImageURL;
-    NSString *_uberBackgroundJoeColor;
-    NSString *_uberArtworkTextPrimaryColor;
-    NSString *_uberArtworkTextSecondaryColor;
-    NSString *_uberArtworkTextTertiaryColor;
-    NSString *_uberArtworkTextQuaternaryColor;
-    NSString *_imageURL;
-    NSString *_artworkTemplateURL;
-    NSString *_artworkPrimaryColor;
-    NSString *_artworkTextPrimaryColor;
-    NSString *_artworkTextSecondaryColor;
-    NSString *_artworkTextTertiaryColor;
-    NSString *_artworkTextQuaternaryColor;
-    IMPodcastFeedChannelItem *_channelItem;
-    NSOrderedSet *_categories;
-    NSString *_showSpecificUpsellCopy;
-    NSSet *_mediaKinds;
 }
 
 - (id);
@@ -77,87 +41,52 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)3+;
+- (id);
+- (id);
+- (void)0;
+- (void);
+- (void);
+- (id);
+- (_Bool));
+- (void);
+- (void)BPJ10;
+- (id);
+- (id)a;
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id)ter:ctx: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)isKindOfClass:(id)arg1;
+- (id)P;
+- (id)_nextEpisodeForUnplayedPodcast:serial:filter:ctx: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ySdGSg;
+- (void)SNySdGSg;
 - (id)LL OR %K = 0);
 - (id)ÿÝ?]C¹ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *artworkPrimaryColor; // @synthesize artworkPrimaryColor=_artworkPrimaryColor;
-@property(retain, nonatomic) NSString *artworkTemplateURL; // @synthesize artworkTemplateURL=_artworkTemplateURL;
-@property(retain, nonatomic) NSString *artworkTextPrimaryColor; // @synthesize artworkTextPrimaryColor=_artworkTextPrimaryColor;
-@property(retain, nonatomic) NSString *artworkTextQuaternaryColor; // @synthesize artworkTextQuaternaryColor=_artworkTextQuaternaryColor;
-@property(retain, nonatomic) NSString *artworkTextSecondaryColor; // @synthesize artworkTextSecondaryColor=_artworkTextSecondaryColor;
-@property(retain, nonatomic) NSString *artworkTextTertiaryColor; // @synthesize artworkTextTertiaryColor=_artworkTextTertiaryColor;
-@property(retain, nonatomic) NSString *author; // @synthesize author=_author;
-@property(retain, nonatomic) NSOrderedSet *categories; // @synthesize categories=_categories;
-@property(retain, nonatomic) NSString *category; // @synthesize category=_category;
-@property(retain, nonatomic) IMPodcastFeedChannelItem *channelItem; // @synthesize channelItem=_channelItem;
-@property(retain, nonatomic) NSString *displayType; // @synthesize displayType=_displayType;
-@property(retain, nonatomic) NSString *feedDescription; // @synthesize feedDescription=_feedDescription;
-@property(retain, nonatomic) NSString *globalImageURL; // @synthesize globalImageURL=_globalImageURL;
-@property(readonly, nonatomic) _Bool hasEpisodes;
-@property(retain, nonatomic) NSString *imageURL; // @synthesize imageURL=_imageURL;
-@property(nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(nonatomic) _Bool isNotSubscribable; // @synthesize isNotSubscribable=_isNotSubscribable;
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSSet *mediaKinds; // @synthesize mediaKinds=_mediaKinds;
-@property(retain, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(retain, nonatomic) NSString *podcastStoreId; // @synthesize podcastStoreId=_podcastStoreId;
 @property(nonatomic) _Bool preferredCategoryFound; // @synthesize preferredCategoryFound=_preferredCategoryFound;
-@property(retain, nonatomic) NSString *provider; // @synthesize provider=_provider;
-@property(retain, nonatomic) NSString *resolvedFeedURL; // @synthesize resolvedFeedURL=_resolvedFeedURL;
-@property(retain, nonatomic) NSString *shareURL; // @synthesize shareURL=_shareURL;
-@property(retain, nonatomic) NSString *showSpecificUpsellCopy; // @synthesize showSpecificUpsellCopy=_showSpecificUpsellCopy;
-@property(retain, nonatomic) NSString *showType; // @synthesize showType=_showType;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uberArtworkTextPrimaryColor; // @synthesize uberArtworkTextPrimaryColor=_uberArtworkTextPrimaryColor;
-@property(retain, nonatomic) NSString *uberArtworkTextQuaternaryColor; // @synthesize uberArtworkTextQuaternaryColor=_uberArtworkTextQuaternaryColor;
-@property(retain, nonatomic) NSString *uberArtworkTextSecondaryColor; // @synthesize uberArtworkTextSecondaryColor=_uberArtworkTextSecondaryColor;
-@property(retain, nonatomic) NSString *uberArtworkTextTertiaryColor; // @synthesize uberArtworkTextTertiaryColor=_uberArtworkTextTertiaryColor;
-@property(retain, nonatomic) NSString *uberBackgroundImageURL; // @synthesize uberBackgroundImageURL=_uberBackgroundImageURL;
-@property(retain, nonatomic) NSString *uberBackgroundJoeColor; // @synthesize uberBackgroundJoeColor=_uberBackgroundJoeColor;
-@property(retain, nonatomic) NSString *updatedFeedURL; // @synthesize updatedFeedURL=_updatedFeedURL;
-@property(retain, nonatomic) NSString *webpageURL; // @synthesize webpageURL=_webpageURL;
 
 @end
 

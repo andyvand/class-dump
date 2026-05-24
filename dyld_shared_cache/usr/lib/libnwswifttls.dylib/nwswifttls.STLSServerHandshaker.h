@@ -8,10 +8,6 @@
 {
     id stateMachine;
     id partialHandshakeResult;
-    id readEncryptionLevel;
-    id writeEncryptionLevel;
-    id latestError;
-    id clientAppSecret;
 }
 
 - (long long);

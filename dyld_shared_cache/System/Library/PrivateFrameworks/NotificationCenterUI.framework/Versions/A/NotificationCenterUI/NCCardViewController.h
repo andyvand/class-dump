@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSView, NSViewController, _NCCardViewControllerContentView;
+@class NSArray;
 
 @interface NCCardViewController
 {
     NSArray *_layoutConstraints;
-    NSView *_cardLayerView;
-    _NCCardViewControllerContentView *_cardContentView;
-    _Bool _needsLayout;
-    _Bool _isSystemDark;
-    struct CGRect _lastLayoutRectBounds;
-    _Bool _onDarkBackdrop;
-    _Bool _cardVisible;
-    NSViewController *_headerController;
-    NSViewController *_contentController;
-    unsigned long long _cardMaterial;
 }
 
 @end

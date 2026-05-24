@@ -6,21 +6,12 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TMDUserSearch, FI_TSearchCriteriaSheetController, FI_TSlicesInterpreter, NSArray, NSMutableArray, NSObject, NSString;
-@protocol TSearchCriteriaViewControllerDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface FI_TSearchCriteriaViewController : FI_TViewController
 {
     struct TNSWeakPtr<NSObject<TSearchCriteriaViewControllerDelegate>> _weakDelegate;
-    struct TKeyValueBinder _criteriaRuleEditorRowsBinder;
-    NSMutableArray *_customFieldsArray;
-    NSArray *_rootSliceAttributes;
-    NSMutableArray *_boundRulesArray;
-    FI_TSearchCriteriaSheetController *_sheetController;
-    FI_TMDUserSearch *_search;
-    FI_TSlicesInterpreter *_strongSliceInterpreter;
-    _Bool tornDown;
 }
 
 + (id);
@@ -57,10 +48,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -73,10 +64,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -109,15 +100,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *boundRulesArray;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak NSObject<TSearchCriteriaViewControllerDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
 
 @end
 

@@ -6,30 +6,11 @@
 
 #import <AppKit/NSResponder.h>
 
-@class NSArray, NSDocument, NSString, NSViewController, NSWindow, NSWindowControllerMoreIVars;
+@class NSViewController, NSWindow;
 
 @interface NSWindowController : NSResponder
 {
     NSWindow *_window;
-    NSString *_windowNibName;
-    NSDocument *_document;
-    NSArray *_topLevelObjects;
-    id _owner;
-    struct __wcFlags {
-        unsigned int shouldCloseDocument:1;
-        unsigned int shouldCascade:1;
-        unsigned int isLoadingNib:1;
-        unsigned int nibIsLoaded:1;
-        unsigned int nibNameIsPath:1;
-        unsigned int settingWindowsContentViewController:1;
-        unsigned int didInitWithCoder:1;
-        unsigned int nibIsMakingConnections:1;
-        unsigned int sentWindowWillLoad:1;
-        unsigned int RESERVED:23;
-    } _wcFlags;
-    NSString *_frameAutosaveName;
-    NSWindowControllerMoreIVars *_moreVars;
-    NSArray *_previewRepresentableActivityItems;
 }
 
 + (id);
@@ -37,26 +18,7 @@
 + (void)YÍK;
 
 // Remaining properties
-@property(copy, setter=_setFrameAutosaveName:) NSString *_frameAutosaveName; // @synthesize _frameAutosaveName;
-@property(retain) NSViewController *contentViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property id document;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak id owner;
 @property(readonly) __weak NSViewController *presentingViewController;
-@property(copy) NSArray *previewRepresentableActivityItems;
-@property _Bool shouldCascadeWindows;
-@property _Bool shouldCloseDocument;
-@property(readonly) Class superclass;
-@property(retain) NSWindow *window;
-@property(copy) NSString *windowFrameAutosaveName;
-@property(readonly, getter=isWindowLoaded) _Bool windowLoaded;
-@property(readonly, copy) NSString *windowNibName;
-@property(readonly, copy) NSString *windowNibPath;
 
 @end
 

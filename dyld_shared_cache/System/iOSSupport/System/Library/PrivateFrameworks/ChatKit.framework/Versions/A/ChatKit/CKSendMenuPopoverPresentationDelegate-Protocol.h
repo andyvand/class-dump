@@ -5,5 +5,9 @@
 //
 
 @protocol CKSendMenuPopoverPresentationDelegate
+- (void)scriptMessageHandler;
+- (void)scopeWithPointSize:(struct CGRect)arg1 scale:rightToLeft:style: /* Error: Ran out of types for this method. */;
+- (void)ompletionHandler:(struct CGRect)arg1;
+- (void)showPasswordChangeSheetForAccount:(struct CGRect)arg1 didAuthenticateWithBiometrics:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
 @end
 

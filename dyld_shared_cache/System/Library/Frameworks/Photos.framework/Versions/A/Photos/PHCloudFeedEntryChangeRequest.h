@@ -6,14 +6,11 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSArray, NSManagedObjectID, NSString, PHObjectPlaceholder;
-@protocol PLChangesForServiceHandling;
+@class NSArray, PHObjectPlaceholder;
 
 @interface PHCloudFeedEntryChangeRequest : PHChangeRequest
 {
     NSArray *_entryAssets;
-    NSArray *_entryComments;
-    NSArray *_entryLikes;
 }
 
 + (id);
@@ -25,40 +22,20 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void)ocalIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool entryIsMine;
-@property(nonatomic) long long entryType;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
 @property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedEntry;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,7 +13,7 @@
     id <BMCoreDuetMediaUsageStore> _storage;
 }
 
-- (void);
+- (void)ession %u;
 - (id);
 - (id);
 - (void);

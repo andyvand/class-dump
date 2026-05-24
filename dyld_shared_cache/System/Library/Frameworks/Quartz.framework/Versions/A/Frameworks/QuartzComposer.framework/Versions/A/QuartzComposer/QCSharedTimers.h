@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)em USING (item_pid) WHERE distinguished_kind IN (19, 20) AND in_my_library = 0;
 
 @end
 

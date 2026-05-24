@@ -5,6 +5,7 @@
 //
 
 @protocol CHDeviceDataSource
+- (_Bool)32;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isBootLockEnabled) _Bool bootLockEnabled;

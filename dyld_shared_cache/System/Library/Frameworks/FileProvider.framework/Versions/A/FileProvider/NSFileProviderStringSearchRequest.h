@@ -9,17 +9,15 @@
 @interface NSFileProviderStringSearchRequest
 {
     NSString *_query;
-    long long _desiredNumberOfResults;
 }
 
-- (id);
+- (id)AM;
 - (long long);
-- (id);
+- (id)_initWithModes: /* Error: Ran out of types for this method. */;
 - (void)±ç)1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long desiredNumberOfResults; // @synthesize desiredNumberOfResults=_desiredNumberOfResults;
 @property(readonly, nonatomic) NSString *query; // @synthesize query=_query;
 
 @end

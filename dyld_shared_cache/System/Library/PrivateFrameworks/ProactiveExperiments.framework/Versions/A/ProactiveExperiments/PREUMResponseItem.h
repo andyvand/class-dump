@@ -7,24 +7,13 @@
 @interface PREUMResponseItem
 {
     unsigned int _modelId;
-    unsigned int _replyTextId;
-    unsigned int _responseClassId;
-    _Bool _isCustomResponse;
-    _Bool _isRobotResponse;
-    struct {
-        unsigned int modelId:1;
-        unsigned int replyTextId:1;
-        unsigned int responseClassId:1;
-        unsigned int isCustomResponse:1;
-        unsigned int isRobotResponse:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Ѱ#;
 - (void);
 - (void);
 - (void);
@@ -40,27 +29,18 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsCustomResponse;
-@property(nonatomic) _Bool hasIsRobotResponse;
 @property(nonatomic) _Bool hasModelId;
-@property(nonatomic) _Bool hasReplyTextId;
-@property(nonatomic) _Bool hasResponseClassId;
-@property(nonatomic) _Bool isCustomResponse; // @synthesize isCustomResponse=_isCustomResponse;
-@property(nonatomic) _Bool isRobotResponse; // @synthesize isRobotResponse=_isRobotResponse;
-@property(nonatomic) unsigned int modelId; // @synthesize modelId=_modelId;
-@property(nonatomic) unsigned int replyTextId; // @synthesize replyTextId=_replyTextId;
-@property(nonatomic) unsigned int responseClassId; // @synthesize responseClassId=_responseClassId;
 
 @end
 

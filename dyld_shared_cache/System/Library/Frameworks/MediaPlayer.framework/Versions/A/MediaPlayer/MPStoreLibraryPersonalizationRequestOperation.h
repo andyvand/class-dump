@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface MPStoreLibraryPersonalizationRequestOperation : MPAsyncOperation
 {
     NSOperationQueue *_operationQueue;
-    MPStoreLibraryPersonalizationRequest *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
 + (id);
@@ -24,11 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)ue;
+- (void)_soundCheckCachedValue;
 
 // Remaining properties
 @property(copy, nonatomic) MPStoreLibraryPersonalizationRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

@@ -7,19 +7,17 @@
 @interface _DPRenyiDP
 {
     double _alpha;
-    double _tau;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)&;
++ (id);
 - (id);
-- (id);
+- (id))%ښ	;
 - (double);
 - (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(readonly, nonatomic) double tau; // @synthesize tau=_tau;
 
 @end
 

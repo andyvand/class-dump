@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEIKEv2EAPProtocol;
-
 @interface NEIKEv2EAP
 {
     struct EAPClientPluginData_s _pluginData;
-    NEIKEv2EAPProtocol *_protocol;
-    struct EAPClientModule_s *_module;
 }
 
 - (void);
 - (id);
-- (void)tion: /* Error: Ran out of types for this method. */;
+- (void)setProviderConfiguration: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSArray, NSMutableDictionary;
 
 @interface CNOrderedDictionary
 {
     NSMutableDictionary *_dictionary;
-    NSMutableArray *_orderedKeys;
 }
 
 + (id);
@@ -17,20 +16,19 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ovider.launch-items-permissions-repair;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long):(CDStruct_58648341 *)arg1 withReply:(id *)arg2;
+- (unsigned long long)applicationForBundleIdentifier:(CDStruct_70511ce9 *)arg1 withReply:(id *)arg2;
 
 // Remaining properties
 @property(readonly, copy) NSArray *allKeys;
-@property(readonly, copy) NSArray *allObjects;
 
 @end
 

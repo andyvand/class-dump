@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSViewController, _UNNotificationContentExtensionVendorSizingView;
+@class NSViewController;
 @protocol UNNotificationContentExtension;
 
 @interface _UNNotificationContentExtensionVendorViewController
 {
     struct atomic_flag _invalidationOnceFlag;
-    _UNNotificationContentExtensionVendorSizingView *_sizingView;
-    NSViewController<UNNotificationContentExtension> *_extensionViewController;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,21 +31,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_centerViewAlignmentConstraint;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSViewController<UNNotificationContentExtension> *extensionViewController; // @synthesize extensionViewController=_extensionViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

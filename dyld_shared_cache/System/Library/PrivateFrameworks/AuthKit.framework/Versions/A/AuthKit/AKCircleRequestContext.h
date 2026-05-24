@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationContext, AKCircleRequestPayload, NSString;
+@class NSString;
 
 @interface AKCircleRequestContext
 {
     _Bool _waitForReply;
-    _Bool __notifyOfTimeout;
-    AKCircleRequestPayload *_payload;
-    double _waitForReplyTimeout;
-    NSString *_identityTokenValue;
-    NSString *_heartbeatTokenValue;
-    NSString *_pushToken;
-    AKAppleIDAuthenticationContext *_authContext;
 }
 
-+ (_Bool);
-- (double);
++ (_Bool)*�NS;
+- (double)B#;
 - (_Bool);
 - (void);
 - (void);
@@ -44,14 +37,7 @@ P{{Äl³}/6k¢ï¤Ýä³á
 &w^"^ºÿ4]¹ãVnU±» U·² Ïé5_Ò9ùª6XÑ¢ ;
 
 // Remaining properties
-@property(nonatomic) _Bool _notifyOfTimeout; // @synthesize _notifyOfTimeout=__notifyOfTimeout;
-@property(retain, nonatomic) AKAppleIDAuthenticationContext *authContext; // @synthesize authContext=_authContext;
-@property(retain, nonatomic) NSString *heartbeatTokenValue; // @synthesize heartbeatTokenValue=_heartbeatTokenValue;
 @property(retain, nonatomic) NSString *identityTokenValue; // @synthesize identityTokenValue=_identityTokenValue;
-@property(retain, nonatomic) AKCircleRequestPayload *payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) NSString *pushToken; // @synthesize pushToken=_pushToken;
-@property(nonatomic) _Bool waitForReply; // @synthesize waitForReply=_waitForReply;
-@property(nonatomic) double waitForReplyTimeout; // @synthesize waitForReplyTimeout=_waitForReplyTimeout;
 
 @end
 

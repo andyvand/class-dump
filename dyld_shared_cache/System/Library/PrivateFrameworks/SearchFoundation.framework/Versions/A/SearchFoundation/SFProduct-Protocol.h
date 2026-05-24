@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSDictionary, NSString;
 
 @protocol SFProduct
+- (void)G;
+- (void)ICANotificationTypeKey;
+- (NSDictionary *);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *availabilityURL;
-@property(nonatomic) _Bool buyable;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *displayName;
 @property(copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *productIdentifier;
 @end
 

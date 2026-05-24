@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSProtocolChecker;
-@protocol OS_dispatch_queue;
+@class NSProtocolChecker;
 
 @interface IDSDaemonControllerForwarder
 {
     NSProtocolChecker *_protocol;
-    CDUnknownBlockType _completion;
-    NSObject<OS_dispatch_queue> *_ivarQueue;
-    NSObject<OS_dispatch_queue> *_remoteMessageQueue;
-    int _priority;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)APBrowserCreateAdvertiserInfoForDevice;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -27,14 +22,10 @@
 - (void)f(ð!p@ù1,°1Â0@ù
 × ;
 - (id)inkID:%d, no valid offsetAndRTTCount /* Error: Ran out of types for this method. */;
-- (int)ompletion;
+- (int)DeviceIdentityIssueClientCertificateWithCompletion;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *ivarQueue; // @synthesize ivarQueue=_ivarQueue;
 @property(nonatomic) int priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) NSProtocolChecker *protocol; // @synthesize protocol=_protocol;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *remoteMessageQueue; // @synthesize remoteMessageQueue=_remoteMessageQueue;
 
 @end
 

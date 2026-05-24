@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXQuickLookFile;
 @protocol SXQuickLookInteractorDelegate, SXQuickLookService;
 
 @interface SXQuickLookInteractor
 {
     id <SXQuickLookInteractorDelegate> delegate;
-    SXQuickLookFile *_file;
-    id <SXQuickLookService> _service;
 }
 
 - (void);
@@ -24,16 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXQuickLookInteractorDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) SXQuickLookFile *file; // @synthesize file=_file;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXQuickLookService> service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

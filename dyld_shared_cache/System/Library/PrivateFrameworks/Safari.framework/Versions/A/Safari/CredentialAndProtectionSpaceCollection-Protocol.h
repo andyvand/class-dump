@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol CredentialAndProtectionSpaceCollection
-- (void)ger:(NSArray *)arg1 didRangeBeacons:inRegion: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSArray *)?;
+- (void)locationManager:(NSArray *)arg1 didRangeBeacons:inRegion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=credentialAndProtectionSpacePairsCount) unsigned long long count;
 @property(nonatomic) __weak id delegate;
-@property(copy, nonatomic) NSString *filterString;
-@property(copy, nonatomic) NSArray *sortDescriptors;
 @end
 

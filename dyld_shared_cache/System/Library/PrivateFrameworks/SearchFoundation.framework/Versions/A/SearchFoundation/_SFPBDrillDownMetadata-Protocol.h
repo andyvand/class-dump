@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBCardMetadata, _SFPBCardSearchMetadata, _SFPBEntitySearchMetadata;
+@class NSData, NSString;
 
 @protocol _SFPBDrillDownMetadata
+- (void);
+- (void)leftEyeX;
+- (NSString *);
+- (NSData *)PHObjectClassForEntityName: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cardDomains;
 @property(copy, nonatomic) NSString *cardIdentifier;
-@property(copy, nonatomic) NSArray *cardIdentifiers;
-@property(retain, nonatomic) _SFPBCardMetadata *cardOnlyMetadata;
-@property(retain, nonatomic) _SFPBCardSearchMetadata *cardSearchMetadata;
-@property(copy, nonatomic) NSString *debugParams;
-@property(retain, nonatomic) _SFPBEntitySearchMetadata *entitySearchMetadata;
-@property(retain, nonatomic) _SFPBEntitySearchMetadata *entitySearchOnlyMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *params;
-@property(copy, nonatomic) NSString *qtype;
-@property(copy, nonatomic) NSString *viewConfigName;
-@property(readonly, nonatomic) unsigned long long whichMetadata;
 @end
 

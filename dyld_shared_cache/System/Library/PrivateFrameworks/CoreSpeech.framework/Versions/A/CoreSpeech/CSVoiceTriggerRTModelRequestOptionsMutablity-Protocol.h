@@ -5,6 +5,8 @@
 //
 
 @protocol CSVoiceTriggerRTModelRequestOptionsMutablity
-- (void)nvoLanguagePriors;
+- (void);
+- (void);M;
+- (void)CSSpeechRecordSettingsKey_LanguageDetectorKeyboardConvoLanguagePriors;
 @end
 

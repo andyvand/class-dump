@@ -9,14 +9,14 @@
     id userDefaults;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)o;
+- (id);
 - (id);
 - (void)dingP;
 

@@ -5,19 +5,15 @@
 //
 
 @class NSRunningApplication;
-@protocol UINSAppKitBackgroundingControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UINSAppKitBackgroundingController
 {
     _Bool _isAppKitHidden;
-    _Bool _isAppKitBackground;
-    id <UINSAppKitBackgroundingControllerDelegate> _delegate;
-    NSRunningApplication *__observedRunningApplication;
 }
 
 - (void);
-- (void);
+- (void)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -33,20 +29,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)tableView:nextTypeSelectMatchFromRow:toRow:forString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSRunningApplication *_observedRunningApplication; // @synthesize _observedRunningApplication=__observedRunningApplication;
-@property(nonatomic, getter=isAppKitBackground) _Bool appKitBackground; // @synthesize appKitBackground=_isAppKitBackground;
-@property(nonatomic, getter=isAppKitHidden) _Bool appKitHidden; // @synthesize appKitHidden=_isAppKitHidden;
-@property(nonatomic) __weak id <UINSAppKitBackgroundingControllerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

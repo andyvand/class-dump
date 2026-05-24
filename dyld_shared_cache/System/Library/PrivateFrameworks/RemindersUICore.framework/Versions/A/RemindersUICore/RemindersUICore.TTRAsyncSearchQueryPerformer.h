@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRAsyncSearchQueryPerformer
 {
     id criteria;
-    id itemTypes;
-    id $__lazy_storage_$_entityNames;
-    id attributesToFetch;
-    id query;
 }
 
 - (id);

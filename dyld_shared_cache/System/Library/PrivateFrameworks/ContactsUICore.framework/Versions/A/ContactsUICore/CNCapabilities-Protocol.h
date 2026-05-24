@@ -5,13 +5,10 @@
 //
 
 @protocol CNCapabilities
++ (_Bool)	
+k;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool areTelephonyCallsSupported;
-@property(readonly, nonatomic) _Bool isExpanseSupported;
-@property(readonly, nonatomic) _Bool isFaceTimeAudioSupported;
-@property(readonly, nonatomic) _Bool isFaceTimeVideoSupported;
-@property(readonly, nonatomic) _Bool isPaySupported;
-@property(readonly, nonatomic) _Bool isiMessageSupported;
 @end
 

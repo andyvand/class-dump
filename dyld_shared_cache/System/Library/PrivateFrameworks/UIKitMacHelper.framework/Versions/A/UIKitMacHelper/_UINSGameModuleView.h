@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, UINSGameModule, UINSSceneView;
+@class UINSSceneView;
 
 __attribute__((visibility("hidden")))
 @interface _UINSGameModuleView
 {
     UINSSceneView *_sceneView;
-    UINSGameModule *_gameModule;
-    NSLayoutConstraint *_xConstraint;
-    NSLayoutConstraint *_yConstraint;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGPoint);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak UINSGameModule *gameModule; // @synthesize gameModule=_gameModule;
-@property struct CGPoint position;
 @property __weak UINSSceneView *sceneView; // @synthesize sceneView=_sceneView;
 
 @end

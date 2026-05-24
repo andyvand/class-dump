@@ -6,7 +6,7 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSArray, NSString, NSView, TLKImage, TLKRichText, TLKTextAreaView;
+@class TLKTextAreaView;
 @protocol TLKDetailsViewDelegate;
 
 @interface TLKDetailsView : TLKView
@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -28,7 +28,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)b;
 - (id);
 - (id);
 - (id);
@@ -39,7 +39,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8vKKUgPF
+4zLSbg80sYVkMAxpAjdIxDoXAGZX9ss8l4Z7QtbNHEUZoihXz5dWhjTUHfsNZsG4
+MxCIO9wniOpG5C/bUquZXq+Q75j4P4fC/KEfC70G/LVXzCTii+vEE6WTz8XhG2Ek
+oZt6eUiXbC8LjA4Iss8POlr9oTj1y9zsZwdUN7E6/crQhtc68El3XcGWTvveMWIw
+/Ry4bOUy5w0BVWlJEA==
+-----END CERTIFICATE-----;
 - (id);
 - (id);
 - (id);
@@ -49,40 +54,18 @@
 - (void);
 - (id);
 - (id);
+- (id)144@152@160@168@176;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void)ignmentRectInsets;
+- (void)alignmentRectInsets;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *accessoryView;
-@property(retain, nonatomic) TLKRichText *bannerBadge;
 @property(retain, nonatomic) TLKTextAreaView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TLKDetailsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *details;
-@property(retain, nonatomic) TLKRichText *footnote;
-@property(retain, nonatomic) NSString *footnoteButtonText;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAccessoryViewBottomAligned;
-@property(retain, nonatomic) TLKRichText *secondaryTitle;
-@property(retain, nonatomic) TLKImage *secondaryTitleImage;
-@property(nonatomic) _Bool secondaryTitleIsDetached;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TLKRichText *title;
-@property(retain, nonatomic) TLKRichText *topText;
-@property(nonatomic) _Bool truncateDetailsMiddle;
-@property(nonatomic) _Bool truncateTitleMiddle;
-@property(nonatomic) _Bool useCompactMode;
 
 @end
 

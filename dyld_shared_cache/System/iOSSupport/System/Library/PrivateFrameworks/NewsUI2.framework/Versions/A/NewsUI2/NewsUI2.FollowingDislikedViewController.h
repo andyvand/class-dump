@@ -7,10 +7,6 @@
 @interface NewsUI2.FollowingDislikedViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id prewarm;
-    id $__lazy_storage_$_closeBarButtonItem;
 }
 
 - (void);
@@ -20,7 +16,7 @@
 - (void);
 - (void)ÿÿÿÿÔ;
 - (void);
-- (void)paperGroupService;
+- (void)NewspaperGroupService;
 - (void);
 
 @end

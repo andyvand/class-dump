@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAuthenticationSettings, CKDialogContext, CKStoreClient;
+@class CKStoreClient;
 
 @interface CKAuthenticationContext
 {
     CKStoreClient *_storeClient;
-    CKDialogContext *_dialogContext;
-    CKAuthenticationSettings *_settings;
 }
 
 + (id);
@@ -23,15 +21,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) CKDialogContext *dialogContext; // @synthesize dialogContext=_dialogContext;
-@property(retain) CKAuthenticationSettings *settings; // @synthesize settings=_settings;
 @property(readonly) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
 
 @end

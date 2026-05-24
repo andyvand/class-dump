@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)vCardRepresentationForPeople: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);

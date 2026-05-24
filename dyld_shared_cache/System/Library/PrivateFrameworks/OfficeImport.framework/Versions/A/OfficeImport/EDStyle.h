@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDAlignmentInfo, EDBorders, EDContentFormat, EDFill, EDFont, EDProtection, EDResources, NSString;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDStyle
 {
     EDResources *mResources;
-    unsigned long long mParentIndex;
-    unsigned long long mContentFormatId;
-    unsigned long long mFontIndex;
-    unsigned long long mFillIndex;
-    unsigned long long mAlignmentInfoIndex;
-    unsigned long long mBordersIndex;
-    EDProtection *mProtection;
-    unsigned long long mIndex;
-    _Bool mContentFormatOverridden;
-    _Bool mContentFormatApplied;
-    _Bool mFontOverridden;
-    _Bool mFontApplied;
-    _Bool mFillOverridden;
-    _Bool mFillApplied;
-    _Bool mAlignmentInfoOverridden;
-    _Bool mAlignmentInfoApplied;
-    _Bool mBordersOverridden;
-    _Bool mBordersApplied;
-    _Bool mProtectionOverridden;
-    _Bool mProtectionApplied;
-    _Bool mDoNotModify;
 }
 
 + (id);
@@ -43,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)k@;
+- (void)~;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -67,15 +46,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (unsigned long long)8;
 - (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (unsigned long long)q;
 - (void);
 - (void);
 - (_Bool);
@@ -84,45 +63,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)մ;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)^B24;
+- (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void) ;
 - (void);
 
 // Remaining properties
-@property(retain) EDAlignmentInfo *alignmentInfo;
-@property(getter=isAlignmentInfoApplied) _Bool alignmentInfoApplied; // @synthesize alignmentInfoApplied=mAlignmentInfoApplied;
-@property(getter=isAlignmentInfoOverridden) _Bool alignmentInfoOverridden;
-@property(retain) EDBorders *borders;
-@property(getter=isBordersApplied) _Bool bordersApplied; // @synthesize bordersApplied=mBordersApplied;
-@property(getter=isBordersOverridden) _Bool bordersOverridden;
-@property(retain) EDContentFormat *contentFormat;
-@property(getter=isContentFormatApplied) _Bool contentFormatApplied; // @synthesize contentFormatApplied=mContentFormatApplied;
 @property(getter=isContentFormatOverridden) _Bool contentFormatOverridden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) EDFill *fill;
-@property(getter=isFillApplied) _Bool fillApplied; // @synthesize fillApplied=mFillApplied;
-@property(getter=isFillOverridden) _Bool fillOverridden;
-@property(retain) EDFont *font;
-@property(getter=isFontApplied) _Bool fontApplied; // @synthesize fontApplied=mFontApplied;
-@property(getter=isFontOverridden) _Bool fontOverridden;
-@property(readonly) unsigned long long hash;
-@property(retain) EDProtection *protection;
-@property(getter=isProtectionApplied) _Bool protectionApplied; // @synthesize protectionApplied=mProtectionApplied;
-@property(getter=isProtectionOverridden) _Bool protectionOverridden;
-@property(readonly) Class superclass;
 
 @end
 

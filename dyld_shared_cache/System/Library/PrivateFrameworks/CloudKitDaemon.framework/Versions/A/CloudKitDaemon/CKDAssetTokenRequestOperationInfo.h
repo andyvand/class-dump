@@ -11,8 +11,8 @@
     CKDAssetTokenRequest *_assetTokenRequest;
 }
 
-- (void)countContext;
-- (void)ceptTwice;
+- (void)primaryAccountContext;
+- (void)ForceShareAcceptTwice;
 - (id)ßÿ;
 
 // Remaining properties

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage, UIImageSymbolConfiguration;
+@class UIImage;
 
 @interface UIContentUnavailableImageProperties
 {
@@ -15,12 +15,6 @@
         unsigned int hasCustomizedMaximumSize:1;
         unsigned int hasCustomizedAccessibilityIgnoresInvertColors:1;
     } _imageFlags;
-    _Bool _accessibilityIgnoresInvertColors;
-    UIImage *_image;
-    UIImageSymbolConfiguration *_preferredSymbolConfiguration;
-    UIColor *_tintColor;
-    double _cornerRadius;
-    struct CGSize _maximumSize;
 }
 
 + (_Bool)eader/footer view;
@@ -41,9 +35,9 @@
 - (id)ùÑ^°1Â0@ù
 × ;
 - (_Bool):(id)arg1 8@16B24B28@32;
-- (double)_firstResponderTarget: /* Error: Ran out of types for this method. */;
-- (_Bool)ldResign:(id)arg1 waitForReply: /* Error: Ran out of types for this method. */;
-- (void)userInfo;
+- (double)set_firstResponderTarget: /* Error: Ran out of types for this method. */;
+- (_Bool)endInputSessionWithIdentifier:(id)arg1 shouldResign:waitForReply: /* Error: Ran out of types for this method. */;
+- (void)_userInfo;
 - (id)Ô@|A¤B,C¤EðL$QQÈR
 àSHT;
 - (id);
@@ -53,8 +47,8 @@
 - (void)IBarBackground.m;
 - (struct CGSize)is not allowed to set the userInteractionEnabled property of an active animator (%@);
 - (id);
-- (void)erLayer;
-- (void)43;
+- (void)_UIViewMarkerLayer;
+- (void)Ix43;
 - (id);
 - (double)>;
 - (void)¬];
@@ -69,18 +63,7 @@
 - (void)(o;
 
 // Remaining properties
-@property(nonatomic, setter=_setAccessibilityIgnoresInvertColors:) _Bool _accessibilityIgnoresInvertColors; // @synthesize _accessibilityIgnoresInvertColors;
-@property(nonatomic, setter=_setCornerRadius:) double _cornerRadius; // @synthesize _cornerRadius;
-@property(retain, nonatomic, setter=_setImage:) UIImage *_image; // @synthesize _image;
-@property(nonatomic, setter=_setMaximumSize:) struct CGSize _maximumSize; // @synthesize _maximumSize;
-@property(copy, nonatomic, setter=_setPreferredSymbolConfiguration:) UIImageSymbolConfiguration *_preferredSymbolConfiguration; // @synthesize _preferredSymbolConfiguration;
-@property(retain, nonatomic, setter=_setTintColor:) UIColor *_tintColor; // @synthesize _tintColor;
-@property(nonatomic) _Bool accessibilityIgnoresInvertColors;
-@property(nonatomic) double cornerRadius;
 @property(retain, nonatomic) UIImage *image;
-@property(nonatomic) struct CGSize maximumSize;
-@property(copy, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfiguration;
-@property(retain, nonatomic) UIColor *tintColor;
 
 @end
 

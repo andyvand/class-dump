@@ -11,8 +11,8 @@
     DCCryptoProxyImpl *_cryptoProxy;
 }
 
-- (id);
-- (void);
+- (id)initWithAnomalyDetectors: /* Error: Ran out of types for this method. */;
+- (void)initWithAccount:(id)arg1 serviceIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

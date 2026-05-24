@@ -9,11 +9,9 @@
 @interface Network.__NWInterface
 {
     id interface;
-    id lock;
-    id nameStorage;
 }
 
-- (void);
+- (void)%s unknown pixel format %d rendition '%@';
 - (id);
 - (id);
 - (void)@;

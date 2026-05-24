@@ -4,65 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCompressionGroupLayout, NSTouchBarItem, NSView;
+@class NSCompressionGroupLayout, NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSFunctionRowCustomizationDFRItem
 {
     NSView *_itemView;
-    struct CGSize _minSize;
-    struct CGSize _preferredSize;
-    struct CGSize _maxSize;
-    struct CGSize _reducedMetricsThreshold;
-    _Bool _hasCachedMinMaxSize;
-    _Bool _requiresExactMinSize;
-    _Bool _forcesReducedMetricsCompression;
-    _Bool _requiresTrueCenterLayout;
-    long long _section;
-    NSCompressionGroupLayout *_compressionLayout;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct CGSize);
-- (struct CGSize);
+- (void)WLANBusInterfacePCIe:(_Bool)arg1 wifi-module-sn;
+- (void)reSecurityInfo returned NULL;
+- (void)=%;
+- (void)2.0 format;
+- (_Bool)ReleaseType;
+- (_Bool)GraphicsFeatureSetFallbacks;
+- (struct CGSize)/Tk27/hw;
+- (struct CGSize)m version dictionary;
 - (id);
 - (_Bool);
 - (struct CGSize);
 - (id);
 - (void);
+- (id)lishment;
+- (void)h nil request;
+- (_Bool)ransaction_duration_ms=%u, response_status=%ld, connection=%llu, reused=1, reused_after_ms=%u, reused_after_sleep=%{bool}d, request_start_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (void);
+- (id)9;
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)__oslogstring;
 - (_Bool);
 - (void)1Â0@ù
 × ;
 - (long long)î/ð!AùÑã3°1Â0@ù
 × ;
-- (struct CGSize)n;
+- (struct CGSize)NSTableViewColumnDidResizeNotification;
 - (struct CGSize)kÿözA;
 
 // Remaining properties
 @property(retain) NSCompressionGroupLayout *compressionLayout; // @synthesize compressionLayout=_compressionLayout;
-@property(readonly) struct CGSize contentClippingSize;
-@property _Bool forcesReducedMetricsCompression; // @synthesize forcesReducedMetricsCompression=_forcesReducedMetricsCompression;
-@property(readonly) NSView *itemView;
-@property(readonly) struct CGSize maxSize;
-@property(readonly) struct CGSize minSize;
-@property(readonly) struct CGSize preferredSize;
-@property(readonly) struct CGSize reducedMetricsThreshold; // @synthesize reducedMetricsThreshold=_reducedMetricsThreshold;
-@property(readonly) NSTouchBarItem *representedItem;
-@property _Bool requiresExactMinSize; // @synthesize requiresExactMinSize=_requiresExactMinSize;
-@property _Bool requiresTrueCenterLayout; // @synthesize requiresTrueCenterLayout=_requiresTrueCenterLayout;
-@property long long section; // @synthesize section=_section;
 
 @end
 

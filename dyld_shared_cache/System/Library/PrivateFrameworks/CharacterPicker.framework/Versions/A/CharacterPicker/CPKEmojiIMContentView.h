@@ -4,47 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKEmojiIMCategoryView, CPKEmojiIMContentCoverView, CPKEmojiIMEmojiListView, CPKEmojiIMPreviewWindow, CPKEmojiIMViewController, NSDictionary, NSString;
-@protocol CPKEmojiIMViewControllerDelegate><NSObject;
+@class CPKEmojiIMViewController;
 
 __attribute__((visibility("hidden")))
 @interface CPKEmojiIMContentView
 {
     _Bool _shownInCharacterPicker;
-    _Bool _secondaryInitializationDone;
-    _Bool _needsReset;
-    CPKEmojiIMViewController *_viewController;
-    id <CPKEmojiIMViewControllerDelegate><NSObject> _delegate;
-    CPKEmojiIMPreviewWindow *_previewWindow;
-    CDUnknownBlockType _getWindowInfoBlock;
-    CPKEmojiIMCategoryView *_categoryView;
-    CPKEmojiIMEmojiListView *_emojiListView;
-    CPKEmojiIMContentCoverView *_coverView;
-    double _defaultGapContainerAndList;
-    NSDictionary *_emojiBarState;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)q`;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (CDUnknownBlockType);
+- (_Bool);
+- (CDUnknownBlockType)qa;
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,42 +54,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)A;
+- (id)String"16@?<v@?@"NSURL"@"NSError">24;
 - (id)String"24@0:(id)arg1 8d16;
 
 // Remaining properties
-@property CPKEmojiIMCategoryView *categoryView; // @synthesize categoryView=_categoryView;
-@property CPKEmojiIMContentCoverView *coverView; // @synthesize coverView=_coverView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property double defaultGapContainerAndList; // @synthesize defaultGapContainerAndList=_defaultGapContainerAndList;
-@property id <CPKEmojiIMViewControllerDelegate><NSObject> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSDictionary *emojiBarState; // @synthesize emojiBarState=_emojiBarState;
-@property CPKEmojiIMEmojiListView *emojiListView; // @synthesize emojiListView=_emojiListView;
-@property(copy, nonatomic) CDUnknownBlockType getWindowInfoBlock; // @synthesize getWindowInfoBlock=_getWindowInfoBlock;
-@property(readonly) unsigned long long hash;
-@property _Bool needsReset; // @synthesize needsReset=_needsReset;
-@property(retain) CPKEmojiIMPreviewWindow *previewWindow; // @synthesize previewWindow=_previewWindow;
-@property _Bool secondaryInitializationDone; // @synthesize secondaryInitializationDone=_secondaryInitializationDone;
-@property _Bool shownInCharacterPicker; // @synthesize shownInCharacterPicker=_shownInCharacterPicker;
-@property(readonly) Class superclass;
 @property CPKEmojiIMViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

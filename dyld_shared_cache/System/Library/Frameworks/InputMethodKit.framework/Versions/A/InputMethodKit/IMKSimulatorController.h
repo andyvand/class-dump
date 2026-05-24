@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKInputController, IMKSimulatorWindow, NSString;
-@protocol IMKSimulatorDelegate><NSObject, IMKTextInput><NSObject;
+@class IMKSimulatorWindow;
 
 @interface IMKSimulatorController
 {
     IMKSimulatorWindow *_currentWindow;
-    NSString *_inputMode;
-    _Bool _inPressAndHoldEvent;
-    _Bool _isPressAndHold;
 }
 
-+ (id);
++ (id)�;
 - (void);
-- (_Bool);
+- (_Bool)O;
 - (id);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (_Bool);
 - (Class);
 - (_Bool);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (Class);
-- (long long);
+- (id)_xpc_get_connections_from_list_for_context: /* Error: Ran out of types for this method. */;
+- (Class)captions for token=%@;
+- (long long)A;
 - (void);
 - (long long);
 - (void);
@@ -44,16 +40,7 @@
 - (id)attributes;
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMKTextInput><NSObject> currentClient;
-@property(readonly, nonatomic) IMKInputController *currentInputController;
 @property(retain, nonatomic) IMKSimulatorWindow *currentWindow; // @synthesize currentWindow=_currentWindow;
-@property(nonatomic) long long direction;
-@property(nonatomic) _Bool inPressAndHoldEvent; // @synthesize inPressAndHoldEvent=_inPressAndHoldEvent;
-@property(copy, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(nonatomic) _Bool isPressAndHold; // @synthesize isPressAndHold=_isPressAndHold;
-@property(nonatomic) long long orientation;
-@property(readonly, nonatomic) id <IMKSimulatorDelegate><NSObject> simulatorDelegate;
-@property(nonatomic) _Bool spotlightOn;
 
 @end
 

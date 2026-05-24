@@ -4,73 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableDictionary, NSMutableSet, NSObject, NSPredicate, NSSet, NSUUID, NSUserActivity, NSXPCConnection, NSXPCInterface, SMSystem_Client;
-@protocol OS_dispatch_queue, SMDPScannerProtocol;
+@class NSMutableSet;
 
 @interface SMSystemScanner_Client
 {
     _Bool _automaticallyAdvertiseHandoff;
-    _Bool _hostingWirelessAP;
-    _Bool _attemptingWirelessNetworkSwitch;
-    _Bool _currentlyLostConnectedSourceSystem;
-    NSXPCInterface *daemonInterface;
-    NSXPCConnection *daemonConnection;
-    id <SMDPScannerProtocol> daemonProxy;
-    NSXPCInterface *exportedInterface;
-    NSArray *_systemSortDescriptors;
-    NSPredicate *_displaySystemsFilter;
-    NSUUID *_handoffPasscode;
-    NSMutableSet *_observedSystems;
-    NSMutableDictionary *_systemDict;
-    NSObject<OS_dispatch_queue> *_systemDictQueue;
-    SMSystem_Client *_currentSystem;
-    unsigned long long _scannerState;
-    NSHashTable *_scannerClients;
-    NSHashTable *_systemEventListeners;
-    NSUserActivity *_handoffActivity;
 }
 
 + (id);
 + (id);
++ (id)@a%@a;
 + (id);
 + (id);
 + (id);
-+ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -82,7 +63,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -115,28 +96,7 @@
 - (id)ry Services DB for volume at path %@!;
 
 // Remaining properties
-@property(readonly) unsigned long long actualScannerState;
-@property(readonly) NSSet *allSystems;
-@property _Bool attemptingWirelessNetworkSwitch; // @synthesize attemptingWirelessNetworkSwitch=_attemptingWirelessNetworkSwitch;
-@property _Bool automaticallyAdvertiseHandoff; // @synthesize automaticallyAdvertiseHandoff=_automaticallyAdvertiseHandoff;
-@property(retain) SMSystem_Client *currentSystem; // @synthesize currentSystem=_currentSystem;
-@property _Bool currentlyLostConnectedSourceSystem; // @synthesize currentlyLostConnectedSourceSystem=_currentlyLostConnectedSourceSystem;
-@property(retain) NSXPCConnection *daemonConnection; // @synthesize daemonConnection;
-@property(retain) NSXPCInterface *daemonInterface; // @synthesize daemonInterface;
-@property(retain) id <SMDPScannerProtocol> daemonProxy; // @synthesize daemonProxy;
-@property(readonly) __weak NSArray *displaySystems;
-@property(retain) NSPredicate *displaySystemsFilter; // @synthesize displaySystemsFilter=_displaySystemsFilter;
-@property(retain) NSXPCInterface *exportedInterface; // @synthesize exportedInterface;
-@property(retain) NSUserActivity *handoffActivity; // @synthesize handoffActivity=_handoffActivity;
-@property(retain) NSUUID *handoffPasscode; // @synthesize handoffPasscode=_handoffPasscode;
-@property _Bool hostingWirelessAP; // @synthesize hostingWirelessAP=_hostingWirelessAP;
 @property(retain) NSMutableSet *observedSystems; // @synthesize observedSystems=_observedSystems;
-@property(retain) NSHashTable *scannerClients; // @synthesize scannerClients=_scannerClients;
-@property unsigned long long scannerState; // @synthesize scannerState=_scannerState;
-@property(retain) NSMutableDictionary *systemDict; // @synthesize systemDict=_systemDict;
-@property(retain) NSObject<OS_dispatch_queue> *systemDictQueue; // @synthesize systemDictQueue=_systemDictQueue;
-@property(retain) NSHashTable *systemEventListeners; // @synthesize systemEventListeners=_systemEventListeners;
-@property(retain) NSArray *systemSortDescriptors; // @synthesize systemSortDescriptors=_systemSortDescriptors;
 
 @end
 

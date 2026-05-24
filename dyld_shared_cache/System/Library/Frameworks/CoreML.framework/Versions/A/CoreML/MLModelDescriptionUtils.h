@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 + (void);
 + (_Bool);
 + (void *);
-+ (void *);
++ (void *)a;
 + (void *);
 + (void *);
 + (void *);
 + (void *);
 + (_Bool);
-+ (void *)NSoundPrintAFeatureEmbeddingCustomModel;
++ (void *)_SNSoundPrintAFeatureEmbeddingCustomModel;
 
 @end
 

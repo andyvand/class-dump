@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RTInvocationDispatcher
 {
     _Bool _valid;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_pendingInvocations;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)list is nil; not processing binding response;
 - (id);
 - (void);
 - (id);
@@ -33,9 +31,7 @@
 - (void)rror, %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *pendingInvocations; // @synthesize pendingInvocations=_pendingInvocations;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

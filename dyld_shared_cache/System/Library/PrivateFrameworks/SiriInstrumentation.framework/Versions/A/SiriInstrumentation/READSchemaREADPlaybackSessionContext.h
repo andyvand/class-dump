@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, READSchemaREADPlaybackSessionEnded, READSchemaREADPlaybackSessionFailed, READSchemaREADPlaybackSessionStartedOrChanged, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface READSchemaREADPlaybackSessionContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    READSchemaREADPlaybackSessionStartedOrChanged *_startedOrChanged;
-    READSchemaREADPlaybackSessionEnded *_ended;
-    READSchemaREADPlaybackSessionFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,43 +20,34 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)__objc_classlist__DATA_CONST;
+- (void)setPrevExecName:(id)arg1;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDMigrationRequestOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)re/IMDPersistence/Source/IMDSqlStatement.m;
 - (id);
 - (id);
-- (id)ggerAssetVersion;
+- (id)_voiceTriggerAssetVersion;
 - (id),N,V_sizeInBytes;
-- (void)ELCATALOG_CATALOGERRORS_ASSETERRORS;
+- (void)GMSERRORDOMAIN_INFERENCEERROR_LOADFAILED_MODELCATALOG_CATALOGERRORS_ASSETERRORS;
 - (void);
 - (id)$sÏÿ;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) READSchemaREADPlaybackSessionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) READSchemaREADPlaybackSessionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) READSchemaREADPlaybackSessionStartedOrChanged *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

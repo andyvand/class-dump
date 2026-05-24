@@ -5,5 +5,6 @@
 //
 
 @protocol SSRSpeakerProfileEmbeddingService
+- (oneway void);
 @end
 

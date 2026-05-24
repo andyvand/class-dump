@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, BrowserWindowController;
+@class BrowserWindowController;
 
 __attribute__((visibility("hidden")))
 @interface TabPlacementHint
 {
     _Bool _treatCurrentTabAsAncestorTabIfPossible;
-    BrowserWindowController *_windowController;
 }
 
 - (_Bool);
@@ -18,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BrowserViewController *currentTabBrowserViewController;
-@property(readonly, nonatomic) _Bool treatCurrentTabAsAncestorTabIfPossible; // @synthesize treatCurrentTabAsAncestorTabIfPossible=_treatCurrentTabAsAncestorTabIfPossible;
 @property(readonly, nonatomic) BrowserWindowController *windowController; // @synthesize windowController=_windowController;
 
 @end

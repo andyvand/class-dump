@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface INFocusStatus
 {
@@ -14,27 +14,20 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)ors>",R,N;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)entifier:(unsigned long long)arg1;
-- (id)SettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)rchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)__stopCellularDataUsageAccountingPostTD;
+- (void)d.8913CDAF-6F0F-4BBC-BF35-976ADFE4E17F;
+- (id);
+- (id);
+- (id)_setObjectDescription:(unsigned long long)arg1 forClass:identifier: /* Error: Ran out of types for this method. */;
+- (id)provideRelativeFanSpeedSettingOptionsForSetClimateSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideSignalsOptionsForActivateCarSignal:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id){û;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSNumber *isFocused; // @synthesize isFocused=_isFocused;
-@property(readonly) Class superclass;
 
 @end
 

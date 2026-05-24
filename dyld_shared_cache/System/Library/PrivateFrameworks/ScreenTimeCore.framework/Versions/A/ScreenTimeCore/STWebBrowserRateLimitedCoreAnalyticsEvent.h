@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface STWebBrowserRateLimitedCoreAnalyticsEvent
 {
     NSString *_bundleIdentifier;
 }
 
-+ (id);
++ (id)t;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)isGeniusEnabled;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
 
 @end
 

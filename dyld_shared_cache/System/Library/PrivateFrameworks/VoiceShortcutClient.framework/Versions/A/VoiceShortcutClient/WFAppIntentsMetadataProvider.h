@@ -9,37 +9,27 @@
 @interface WFAppIntentsMetadataProvider
 {
     id actionsCache;
-    id queriesCache;
-    id entitiesCache;
-    id enumerationsCache;
-    id examplePhrasesCache;
-    LNMetadataProvider *metadataProvider;
-    id cacheActivityTransaction;
-    id cachePurgeDebouncer;
-    id cachePurgeDispatchQueue;
-    id cachePurgeDispatchSource;
-    id cachePurgeNotificationObserver;
 }
 
 + (id);
 + (id);
+- (id)2|;
+- (id)2|;
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)[2|;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id){;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);

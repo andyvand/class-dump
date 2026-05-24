@@ -6,25 +6,19 @@
 
 #import <AppKit/NSPSMatrix.h>
 
-@class NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface NSFocusState : NSPSMatrix
 {
     struct CGRect theClip;
-    NSWindow *window;
-    _Bool clipSet;
-    _Bool clipEmpty;
-    struct __CFArray *specialGStateViews;
 }
 
-+ (id);
++ (id)nChallenge"^?};
+- (void)accept_willCacheResponse;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ng:error: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
+- (void)invokeSelector:withArguments:forBinding:error: /* Error: Ran out of types for this method. */;
+- (void)_presentationInstanceSetUIMode:(id)arg1 withOptions: /* Error: Ran out of types for this method. */;
 
 @end
 

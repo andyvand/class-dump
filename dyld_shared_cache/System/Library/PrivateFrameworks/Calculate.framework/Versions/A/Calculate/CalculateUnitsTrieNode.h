@@ -12,10 +12,11 @@
 }
 
 + (id);
-- (id);
+- (id)0״;
+- (_Bool)
++;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (void);
 - (id);
 - (id);
@@ -23,9 +24,6 @@
 - (id)gY*þõ)í(*`eÏ·Ï>àÔò]¨ù÷ûÊKâÓ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsConversionVerb;
-@property(readonly, nonatomic) _Bool containsCurrency;
-@property(readonly, nonatomic) _Bool isMatch;
 @property(retain, nonatomic) TrieNode *node; // @synthesize node=_node;
 
 @end

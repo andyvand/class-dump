@@ -9,8 +9,6 @@
 @interface CNAutocompleteResultFormatter
 {
     _Bool _includeAddress;
-    _Bool _suppressNonEmailValues;
-    id <CNAutocompleteResultWindowDelegate> _delegate;
 }
 
 + (id);
@@ -21,15 +19,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)	;
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <CNAutocompleteResultWindowDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool includeAddress; // @synthesize includeAddress=_includeAddress;
-@property(nonatomic) _Bool suppressNonEmailValues; // @synthesize suppressNonEmailValues=_suppressNonEmailValues;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AKAccountRecoveryStepChangePassword
 {
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -20,20 +18,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id):(id)arg1;
 - (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

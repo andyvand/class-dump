@@ -7,7 +7,6 @@
 @interface ICCRVectorTimestampElement
 {
     unsigned long long _clock;
-    unsigned long long _subclock;
 }
 
 - (unsigned long long);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long clock; // @synthesize clock=_clock;
-@property(nonatomic) unsigned long long subclock; // @synthesize subclock=_subclock;
 
 @end
 

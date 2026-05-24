@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFDispatchQueue;
 @protocol _AXFLaunchServicesProviderDelegate;
 
 @interface _AXFLaunchServicesProvider
 {
     id <_AXFLaunchServicesProviderDelegate> _delegate;
-    AXFDispatchQueue *_delegateQueue;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (CDStruct_cc465f6f);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)p;
+- (void)initWithFormat: /* Error: Ran out of types for this method. */;
 - (id)Ù?ñhãµøä>¹?umuapmaslppa;
 
 // Remaining properties
 @property(readonly) __weak id <_AXFLaunchServicesProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) AXFDispatchQueue *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
 
 @end
 

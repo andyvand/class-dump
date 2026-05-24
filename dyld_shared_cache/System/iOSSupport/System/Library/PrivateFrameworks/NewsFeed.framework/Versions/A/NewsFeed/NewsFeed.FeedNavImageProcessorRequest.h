@@ -7,17 +7,6 @@
 @interface NewsFeed.FeedNavImageProcessorRequest
 {
     id assetHandles;
-    id assetHandle;
-    id feedNavImageSize;
-    id scale;
-    id cornerRadius;
-    id continuousCurve;
-    id userInterfaceStyle;
-    id fillColor;
-    id cacheIdentifier;
-    id uniqueIdentifier;
-    id imageScaleFactor;
-    id maintainTargetSize;
 }
 
 @end

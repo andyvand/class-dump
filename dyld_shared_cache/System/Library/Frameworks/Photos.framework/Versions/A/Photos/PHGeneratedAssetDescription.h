@@ -11,29 +11,25 @@
 @interface PHGeneratedAssetDescription : PHObject
 {
     short _analysisVersion;
-    NSString *_descriptionText;
-    long long _analysisSourceType;
 }
 
 + (id);
++ (id)forcesModalAppearance;
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (long long);
+- (long long)8;
 - (short);
-- (void);
+- (void)BNMOk/Library/Caches/com.apple.xbs/TemporaryDirectory.A4b0Lc/Sources/QuartzComposer/MeshKit/sources/Core3DKit/classes/SCNAnimation.i;
 - (id);
 - (id);
 - (id);
 - (void)alues;
 
 // Remaining properties
-@property(nonatomic) long long analysisSourceType; // @synthesize analysisSourceType=_analysisSourceType;
-@property(nonatomic) short analysisVersion; // @synthesize analysisVersion=_analysisVersion;
 @property(copy, nonatomic) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;
 
 @end

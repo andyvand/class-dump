@@ -5,5 +5,7 @@
 //
 
 @protocol PPConnectionsServerProtocol
+- (void)setDouble:(unsigned long long)arg1;
+- (void)Z�;
 @end
 

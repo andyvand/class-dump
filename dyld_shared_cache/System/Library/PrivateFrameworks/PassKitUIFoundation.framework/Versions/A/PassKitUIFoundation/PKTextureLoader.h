@@ -4,28 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer, MTLDevice;
-
 @interface PKTextureLoader
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _storageMode;
-    struct vImage_CGImageFormat _sourceFormat;
-    struct CGColorSpace *_sourceColorSpace;
-    struct vImage_CGImageFormat _destinationFormat;
-    struct CGColorSpace *_destinationColorSpace;
-    id <MTLDevice> _device;
-    struct CGImage *_image;
-    struct vImageConverter *_converter;
-    id <MTLBuffer> _buffer;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _bytesPerRow;
-    unsigned long long _format;
 }
 
 - (void);
-- (void);
+- (void)d56;
 - (id);
 - (void);
 - (void);

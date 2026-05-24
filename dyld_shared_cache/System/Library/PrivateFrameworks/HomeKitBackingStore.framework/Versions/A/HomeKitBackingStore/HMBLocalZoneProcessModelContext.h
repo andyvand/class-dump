@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBModel, NSData, NSNumber;
+@class HMBModel;
 
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneProcessModelContext
 {
     HMBModel *_model;
-    NSNumber *_outputBlockRow;
-    NSData *_externalData;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *externalData; // @synthesize externalData=_externalData;
 @property(readonly, nonatomic) HMBModel *model; // @synthesize model=_model;
-@property(readonly, copy, nonatomic) NSNumber *outputBlockRow; // @synthesize outputBlockRow=_outputBlockRow;
 
 @end
 

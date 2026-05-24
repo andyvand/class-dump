@@ -6,7 +6,7 @@
 
 @interface UnknownClass (FuseBoard)
 + (id);
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (unsigned int);

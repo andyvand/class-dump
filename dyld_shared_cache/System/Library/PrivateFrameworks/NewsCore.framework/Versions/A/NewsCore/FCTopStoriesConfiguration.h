@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface FCTopStoriesConfiguration
 {
     NSDictionary *_configDict;
-    _Bool _promotingEnabled;
-    NSString *_channelID;
-    NSDictionary *_styleConfigurations;
-    long long _storyTypeTimeout;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
+- (id)ric P3;
+- (_Bool)16@"UNNotification"24;
 - (id);
-- (_Bool);
-- (id);
-- (long long);
+- (long long);
 - (id)pped:reachedMinOrder:reachedEnd:nextOrder: /* Error: Ran out of types for this method. */;
-- (void)BaselineClickValue;
+- (void)weakClickBaselineClickValue;
 - (id)icate request;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
 @property(readonly, nonatomic, getter=isPromotingEnabled) _Bool promotingEnabled; // @synthesize promotingEnabled=_promotingEnabled;
-@property(readonly, nonatomic) long long storyTypeTimeout; // @synthesize storyTypeTimeout=_storyTypeTimeout;
-@property(readonly, nonatomic) NSDictionary *styleConfigurations; // @synthesize styleConfigurations=_styleConfigurations;
 
 @end
 

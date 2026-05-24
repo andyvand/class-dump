@@ -6,44 +6,29 @@
 
 #import <AnnotationKit/AKRectangularShapeAnnotation.h>
 
-@class NSString;
-
 @interface AKPolygonAnnotation : AKRectangularShapeAnnotation
 {
     _Bool _verticallyFlipped;
-    unsigned long long _pointCount;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool)loud Drive;
 - (void);
+- (id)a;
+- (id)?;
+- (struct CGRect);
 - (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (void);
+- (void)databaseInspectorAttachmentStorageInspectorCrossCheckReport;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool horizontallyFlipped;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 @property unsigned long long pointCount; // @synthesize pointCount=_pointCount;
-@property(readonly) Class superclass;
-@property _Bool verticallyFlipped; // @synthesize verticallyFlipped=_verticallyFlipped;
 
 @end
 

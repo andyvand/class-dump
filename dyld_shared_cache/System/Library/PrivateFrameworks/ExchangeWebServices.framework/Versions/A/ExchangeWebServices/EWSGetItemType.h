@@ -6,23 +6,21 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSItemResponseShapeType, NSArray;
+@class EWSItemResponseShapeType;
 
 @interface EWSGetItemType : EWSBaseRequestType
 {
     EWSItemResponseShapeType *_ItemShape;
-    NSArray *_ItemIds;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *ItemIds; // @synthesize ItemIds=_ItemIds;
 @property(retain, nonatomic) EWSItemResponseShapeType *ItemShape; // @synthesize ItemShape=_ItemShape;
 
 @end

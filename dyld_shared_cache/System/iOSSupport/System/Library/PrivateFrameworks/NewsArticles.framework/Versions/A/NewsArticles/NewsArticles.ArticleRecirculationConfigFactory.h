@@ -7,7 +7,6 @@
 @interface NewsArticles.ArticleRecirculationConfigFactory
 {
     id personalizationService;
-    id isTesting;
 }
 
 @end

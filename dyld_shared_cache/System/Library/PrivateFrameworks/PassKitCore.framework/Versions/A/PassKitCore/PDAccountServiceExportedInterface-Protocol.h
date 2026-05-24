@@ -5,5 +5,15 @@
 //
 
 @protocol PDAccountServiceExportedInterface
+- (void);
+- (void);
+- (void)!;
+- (void);
+- (void)J;
+- (void)6;
+- (void)qH;
+- (void);
+- (void);
+- (void)q;
 @end
 

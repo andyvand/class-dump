@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)computeIndexPathsBasedDiffsWithOldItems:(id)arg1 futureItems: /* Error: Ran out of types for this method. */;
 - (void);
 - (const id *)tions);
 

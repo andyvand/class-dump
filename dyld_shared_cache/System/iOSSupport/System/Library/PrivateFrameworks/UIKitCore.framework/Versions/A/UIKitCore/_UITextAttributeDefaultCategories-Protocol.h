@@ -11,8 +11,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UITextAttributeDefaults> _generic;
-@property(readonly, nonatomic) id <_UITextAttributeDefaults> _label;
-@property(readonly, nonatomic) id <_UITextAttributeDefaults> _textField;
-@property(readonly, nonatomic) id <_UITextAttributeDefaults> _textView;
 @end
 

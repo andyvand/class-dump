@@ -10,39 +10,31 @@ __attribute__((visibility("hidden")))
 @interface _UISearchBarSearchFieldBackgroundView : _UITextFieldRoundedRectBackgroundViewNeue
 {
     _Bool _showingTouch;
-    _Bool _backgroundContainer;
-    _Bool _showingCursor;
-    long long _barStyle;
-    unsigned long long _searchBarStyle;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_usesPredictedOutputDevice;
 - (void);
 - (void);
 - (void)A!¸Bù\1Â0@ù
 × ;
 - (id)
 × ;
-- (long long);
-- (void)eThreshold;
-- (unsigned long long)nUserActivityAvailableForSceneIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)ureServerInstructions;
-- (void)ductType;
+- (long long)updateImageIfNeededWithTintColor: /* Error: Ran out of types for this method. */;
+- (void)didBreakLineThreshold;
+- (unsigned long long)_restorationUserActivityAvailableForSceneIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)__containedGestureRecognizersShouldRespectGestureServerInstructions;
+- (void)ProductType;
 - (void);
 - (id)N¶;
 - (id)hßÎÿ'_Ñè];
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool backgroundContainer; // @synthesize backgroundContainer=_backgroundContainer;
 @property(nonatomic) long long barStyle; // @synthesize barStyle=_barStyle;
-@property(nonatomic) unsigned long long searchBarStyle; // @synthesize searchBarStyle=_searchBarStyle;
-@property(nonatomic) _Bool showingCursor; // @synthesize showingCursor=_showingCursor;
-@property(nonatomic) _Bool showingTouch; // @synthesize showingTouch=_showingTouch;
 
 @end
 

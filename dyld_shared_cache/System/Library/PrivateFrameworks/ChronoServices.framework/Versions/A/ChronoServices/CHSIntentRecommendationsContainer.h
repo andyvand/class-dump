@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface CHSIntentRecommendationsContainer
 {
     NSData *_schemaData;
-    NSArray *_recommendations;
-    _Bool _didAdjustRecommendationCount;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)setCachingEnabled:forSelector: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -27,18 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _didAdjustRecommendationCount; // @synthesize _didAdjustRecommendationCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *recommendations; // @synthesize recommendations=_recommendations;
-@property(readonly) Class superclass;
 
 @end
 

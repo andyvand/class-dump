@@ -7,19 +7,15 @@
 @interface IOGPUMTLEvent
 {
     struct __IOGPUDevice *_deviceRef;
-    unsigned int _eventName;
-    unsigned long long _globalTraceObjectID;
-    unsigned long long _eventOptions;
-    _Bool _enableBarrier;
 }
 
-- (id);
+- (id)?	;
 - (id);
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)?;
+- (unsigned int)c;
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -29,8 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool enableBarrier; // @synthesize enableBarrier=_enableBarrier;
-@property(readonly, nonatomic) unsigned int eventName; // @synthesize eventName=_eventName;
-@property(readonly, nonatomic) _Bool supportsRollback;
 
 @end
 

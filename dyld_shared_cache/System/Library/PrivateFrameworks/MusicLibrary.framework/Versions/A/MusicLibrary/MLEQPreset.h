@@ -9,15 +9,13 @@
 @interface MLEQPreset
 {
     NSString *_name;
-    NSString *_localizedName;
-    int _builtInPresetType;
 }
 
-+ (id);
-+ (id);
-- (int);
-- (id);
-- (int);
++ (id)ighlights;
++ (id)_failed_repairSingletonObjectsInNewDatabaseWithNilContextError:(int)arg1;
+- (int)_checkScopeValidityForDeletingRecords:includeMainScopeIdentifier:withRecordChangeClass:managedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)__SBSApplicationShortcutCustomImageIconClass;
+- (int)sEntitled;
 - (id);
 - (id);
 - (void)subscription_store_item_id, store_saga_id, is_subscription, cloud_asset_available ON item_store BEGIN UPDATE item SET remote_location_id = ( CASE WHEN new.home_sharing_id != 0 THEN 300 ELSE ( CASE WHEN IFNULL(new.match_redownload_params, '') != '' THEN 200 ELSE ( CASE WHEN IFNULL(new.purchase_history_redownload_params, '') != '' AND new.purchase_history_id != 0 THEN 100 ELSE ( CASE WHEN new.subscription_store_item_id != 0 AND new.is_subscription AND new.cloud_asset_available THEN 50 ELSE ( CASE WHEN new.sync_redownload_params == 'redownload' AND new.sync_id != 0 THEN 20 ELSE ( CASE WHEN new.sync_redownload_params == 'local' AND new.sync_id != 0 THEN 10 ELSE 0 END) END) END) END) END) END) WHERE item_pid = new.item_pid; END;;

@@ -7,12 +7,6 @@
 @interface ConversationKit.VideoReactionPickerViewModel__priv_5A0B7B44E54382705C993A39EDE5E358
 {
     id _isShowingPicker;
-    id _anchorPoint;
-    id anchorFrame;
-    id bubbleGrowsRightwards;
-    id anchorCorner;
-    id shouldHidePickerAfterReaction;
-    id onReaction;
 }
 
 @end

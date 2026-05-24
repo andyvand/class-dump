@@ -4,22 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSWindow;
+@class NSArray, NSNotification, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void);
+- (NSArray *);
+- (struct CGRect);
+- (void)ContactPickerHelperDelegate>"16;
+- (void)eName:(NSNotification *)arg1 %s manager:%llx cbid:%llx cb:%llx customCbs:%llx /* Error: Ran out of types for this method. */;
+- (id)dically over XPC;
+- (void)}m;
 - (unsigned long long)°1Â0@ù
 × ;
 - (void)1Â0@ù
 × ;
 - (void)y";
-- (void)ntroller:(NSNotification *)arg1;
-- (struct CGRect)hConnectionHandler:(NSWindow *)arg1;
-- (void)nsForCollaborationItem:(NSNotification *)arg1 skipInitialUpdate: /* Error: Ran out of types for this method. */;
+- (void)windowWithContentViewController:(NSNotification *)arg1;
+- (struct CGRect)requestViewControllerFromServiceWithBundleIdentifier:(NSWindow *)arg1 withConnectionHandler:(NSWindow *)arg2;
+- (void)_updateOptionsForCollaborationItem:(NSNotification *)arg1 skipInitialUpdate: /* Error: Ran out of types for this method. */;
 - (void)onder;
-- (_Bool)eHorizontally:(NSWindow *)arg1 accountForBackingScale: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool)SHKFlippedImageHorizontally:(NSWindow *)arg1 accountForBackingScale: /* Error: Ran out of types for this method. */;
 - (void)found for Mail collaboration;
 - (struct CGSize)or:(NSWindow *)arg1 %@;
 @end

@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)AMAuthInstallMonetSetVersionAndPartialDigest;
 - (void);
 - (id);
 - (_Bool);

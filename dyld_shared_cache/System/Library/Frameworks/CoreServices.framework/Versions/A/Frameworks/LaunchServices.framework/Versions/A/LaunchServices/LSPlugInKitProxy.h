@@ -6,46 +6,24 @@
 
 #import <LaunchServices/LSBundleProxy.h>
 
-@class LSApplicationExtensionRecord, LSExtensionPoint, NSDate, NSDictionary, NSNumber, NSString, NSUUID;
+@class NSString;
 
 @interface LSPlugInKitProxy : LSBundleProxy
 {
     unsigned int _platform;
-    unsigned int _pluginFlags;
-    LSApplicationExtensionRecord *_appexRecord;
-    NSString *_extensionPointID;
-    _Bool _onSystemPartition;
-    NSString *_pluginIdentifier;
-    NSString *_originalIdentifier;
-    NSString *_protocol;
-    NSUUID *_pluginUUID;
-    NSDate *_registrationDate;
-    LSBundleProxy *_containingBundle;
 }
 
++ (id)[;
++ (id)i;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (_Bool)>"40@0:8Q16@"NSURL"24^@32 /* Error: Ran out of types for this method. */;
++ (id)MTLTextureImplementation;
 
 // Remaining properties
-@property(readonly, nonatomic) LSBundleProxy *containingBundle; // @synthesize containingBundle=_containingBundle;
-@property(readonly, nonatomic) LSExtensionPoint *extensionPoint;
-@property(readonly, nonatomic) NSDictionary *infoPlist;
-@property(readonly, nonatomic, getter=isOnSystemPartition) _Bool onSystemPartition; // @synthesize onSystemPartition=_onSystemPartition;
-@property(readonly, nonatomic) NSString *originalIdentifier; // @synthesize originalIdentifier=_originalIdentifier;
-@property(readonly, nonatomic) NSNumber *platform;
-@property(readonly, nonatomic) _Bool pluginCanProvideIcon;
 @property(readonly, nonatomic) NSString *pluginIdentifier; // @synthesize pluginIdentifier=_pluginIdentifier;
-@property(readonly, nonatomic) NSDictionary *pluginKitDictionary;
-@property(readonly, nonatomic) NSUUID *pluginUUID; // @synthesize pluginUUID=_pluginUUID;
-@property(readonly, nonatomic) NSString *protocol; // @synthesize protocol=_protocol;
-@property(readonly, nonatomic) NSDate *registrationDate; // @synthesize registrationDate=_registrationDate;
-@property(readonly, nonatomic) NSString *teamID; // @dynamic teamID;
 
 @end
 

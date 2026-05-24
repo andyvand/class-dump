@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)_axVisualSearchCornerButtons;
 + (void);
 - (void);
 - (void);

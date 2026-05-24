@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UICollectionView;
+@class UICollectionView;
 
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingSettingsNameEditorViewController
 {
     UICollectionView *_collectionView;
-    NSArray *_textFields;
 }
 
 - (id);
@@ -24,19 +23,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)Qt°1Â0@ù
 × ;
-- (void)nItems;
+- (void)_extraLeftBarButtonItems;
 - (id)perty %@ with action item %@;
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *textFields; // @synthesize textFields=_textFields;
 
 @end
 

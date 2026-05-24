@@ -9,11 +9,11 @@
 }
 
 + (id);
++ (id)erSkipBonjourUpdateForIdentifier from preferences to clear;
++ (_Bool):(id)arg1 %@;
 + (id);
-+ (_Bool);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (void);
 + (_Bool);
 

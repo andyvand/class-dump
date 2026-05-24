@@ -5,5 +5,7 @@
 //
 
 @protocol PATiledImageBacking
+- (unsigned long long);
+- (struct CGSize)VfadeOutDuration;
 @end
 

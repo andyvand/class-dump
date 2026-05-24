@@ -6,22 +6,15 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSArray, NSEnumerator, NSMutableSet, NSString, PGSuggestionOptions;
+@class PGSuggestionOptions;
 
 @interface PGRecentSocialGroupCentricSuggester : PGAbstractSuggester
 {
     PGSuggestionOptions *_options;
-    NSArray *_allPotentialSuggestions;
-    NSMutableSet *_usedPotentialSuggestions;
-    NSArray *_longTimeNoSeeSocialGroupPotentialSuggestions;
-    NSArray *_socialGroupPotentialSuggestions;
-    NSEnumerator *_longTimeNoSeeSocialGroupPotentialSuggestionEnumerator;
-    NSEnumerator *_socialGroupPotentialSuggestionEnumerator;
-    NSArray *_eligibleAssets;
 }
 
++ (id)firstAncestorWithinDistance:matchingBlock: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (id);
@@ -30,23 +23,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)urrently supported for elements without parents that support setting selected children (or rows where appropriate). Consider implementing %@ for %@.;
+- (id)ACMContextContainsPassphraseCredentialWithPurpose;
+- (id)ACMContextReplacePassphraseCredentialsWithScope;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void)ersonYear;
+- (void)PersonYear;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool lastSuggestionWasColliding;
-@property(readonly) Class superclass;
 
 @end
 

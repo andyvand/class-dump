@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (id)dentifier;
+- (id)_identifier;
 
 @end
 

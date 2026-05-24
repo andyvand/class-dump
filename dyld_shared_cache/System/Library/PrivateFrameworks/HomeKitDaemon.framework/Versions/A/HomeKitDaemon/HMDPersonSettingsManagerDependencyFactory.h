@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol HMDFileManager, HMDPersistentStore;
+@protocol HMDFileManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDPersonSettingsManagerDependencyFactory
@@ -16,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) id <HMDFileManager> fileManager;
-@property(readonly) id <HMDPersistentStore> persistentStore;
 
 @end
 

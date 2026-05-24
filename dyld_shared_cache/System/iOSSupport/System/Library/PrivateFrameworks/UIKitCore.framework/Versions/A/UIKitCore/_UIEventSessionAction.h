@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, _UIEventSessionContextualAction, _UIEventSessionHoverAction, _UIEventSessionKeyCommandAction, _UIEventSessionScrollAction, _UIEventSessionTapAction, _UIEventSessionTextSelectionAction, _UIEventSessionTouchAction, _UIEventSessionTypingAction;
-
 __attribute__((visibility("hidden")))
 @interface _UIEventSessionAction
 {
     long long _source;
-    long long _actionType;
-    NSNumber *_sessionID;
-    long long _uiInterfaceOrientation;
-    long long _magicKeyboardState;
-    long long _hardwareKeyboardState;
-    long long _sequenceNumber;
-    long long _actionCountFromMergedActions;
 }
 
-+ (id);
++ (id)r so will store message [%@] anyways;
 + (long long);
-+ (id);
++ (id)setStatusAllowOroms:(long long)arg1;
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
+- (void)ring"52i60@"NSArray"64;
+- (void)updatePersonCentricIDForHandlesInChatWithMessage:(long long)arg1 fromIdentifier:personCentricID:chat: /* Error: Ran out of types for this method. */;
+- (long long)lastMessageWithRoomNames:(id)arg1 onServices: /* Error: Ran out of types for this method. */;
+- (long long)isCorrupt;
+- (long long)_typingContext;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (long long);
@@ -45,10 +36,10 @@ __attribute__((visibility("hidden")))
 - (long long)Á;
 - (void)
 × ;
-- (long long)nder: /* Error: Ran out of types for this method. */;
-- (id)dChange;
-- (void)usesBottomSafeArea;
-- (void)eAndCalendarIfNeeded;
+- (long long)setOriginalParentFirstResponder: /* Error: Ran out of types for this method. */;
+- (id)sendCurrentOffsetDidChange;
+- (void)_usesBottomSafeArea;
+- (void)_deriveEffectiveLocaleAndCalendarIfNeeded;
 - (id)erlineForAccessibilityButtonShapesEnabled:(struct _NSZone *)arg1;
 - (id)N,V_contentSpacingForContainer;
 - (long long)IView",R,N,V_trailingBarSnapshot;
@@ -56,25 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long actionCount;
-@property(nonatomic) long long actionCountFromMergedActions; // @synthesize actionCountFromMergedActions=_actionCountFromMergedActions;
-@property(nonatomic) long long actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) _UIEventSessionContextualAction *asContextualPress;
-@property(readonly, nonatomic) _UIEventSessionHoverAction *asHover;
-@property(readonly, nonatomic) _UIEventSessionKeyCommandAction *asKeyCommand;
-@property(readonly, nonatomic) _UIEventSessionScrollAction *asScroll;
-@property(readonly, nonatomic) _UIEventSessionTapAction *asTap;
-@property(readonly, nonatomic) _UIEventSessionTextSelectionAction *asTextSelection;
-@property(readonly, nonatomic) _UIEventSessionTouchAction *asTouch;
-@property(readonly, nonatomic) _UIEventSessionTypingAction *asTyping;
-@property(nonatomic) long long hardwareKeyboardState; // @synthesize hardwareKeyboardState=_hardwareKeyboardState;
-@property(nonatomic) long long magicKeyboardState; // @synthesize magicKeyboardState=_magicKeyboardState;
-@property(readonly, nonatomic) NSString *metadata;
-@property(nonatomic) long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(retain, nonatomic) NSNumber *sessionID; // @synthesize sessionID=_sessionID;
 @property(nonatomic) long long source; // @synthesize source=_source;
-@property(readonly, nonatomic) NSString *typeEncoding;
-@property(nonatomic) long long uiInterfaceOrientation; // @synthesize uiInterfaceOrientation=_uiInterfaceOrientation;
 
 @end
 

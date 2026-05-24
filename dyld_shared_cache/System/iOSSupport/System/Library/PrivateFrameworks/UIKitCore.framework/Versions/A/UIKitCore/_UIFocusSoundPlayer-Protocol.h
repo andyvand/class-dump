@@ -5,5 +5,6 @@
 //
 
 @protocol _UIFocusSoundPlayer
+- (void);
 @end
 

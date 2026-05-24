@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSUserDefaults;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface DCBGSTaskController
 {
     NSMutableArray *_tasks;
-    NSUserDefaults *_defaultsSuite;
-    NSObject<OS_dispatch_queue> *_expiryQueue;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)initWithBundleIdentifier:(id)arg1 options:(double)arg2;
+- (void)initWithBundle:(id)arg1 scheme:secureScheme: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithBool:(id)arg1;
+- (void)initWithBag:(id)arg1 deviceGUID:(_Bool *)arg2 masterSerialNumber:urlSession: /* Error: Ran out of types for this method. */;
+- (id)initWithBag:(id)arg1 account: /* Error: Ran out of types for this method. */;
+- (id)initWithAuthorization:error: /* Error: Ran out of types for this method. */;
+- (id)initWithAuthenticationResults:options:bag: /* Error: Ran out of types for this method. */;
+- (void)initWithAccount:(id)arg1 serviceIdentifier:useCachedServiceToken: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)r_dynamic_bin_2:(id)arg1 drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_2:(id)arg2 drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_2:(id)arg3 drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_2:(void *)arg4 drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_2:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_4:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_8:drain_duration_mean_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUserDefaults *defaultsSuite; // @synthesize defaultsSuite=_defaultsSuite;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *expiryQueue; // @synthesize expiryQueue=_expiryQueue;
 @property(retain, nonatomic) NSMutableArray *tasks; // @synthesize tasks=_tasks;
 
 @end

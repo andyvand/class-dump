@@ -10,21 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _NSDrawingHandlerView : NSView
 {
     CDUnknownBlockType _drawingHandler;
-    _Bool _flipped;
-    _Bool _opaque;
 }
 
-- (void);
+- (void)ength must be non NULL;
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)_onqueue_cancel_with_error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)cbs_get_asn1;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)geForTabItem:(struct CGRect)arg1;
+- (id)visualTabPickerGridView:(struct CGRect)arg1 imageForTabItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType drawingHandler;

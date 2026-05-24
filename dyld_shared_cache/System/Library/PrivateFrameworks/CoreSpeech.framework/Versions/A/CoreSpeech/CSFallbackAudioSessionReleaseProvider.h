@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioRecorder, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSFallbackAudioSessionReleaseProvider
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CSAudioRecorder *_audioRecorder;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)initWithOperationPointsCache:(id)arg1 originatingRequestSpecifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void)eakerDetectionResultTypeToString: /* Error: Ran out of types for this method. */;
+- (void)convertSecureVoiceTriggerSpeakerDetectionResultTypeToString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CSAudioRecorder *audioRecorder; // @synthesize audioRecorder=_audioRecorder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

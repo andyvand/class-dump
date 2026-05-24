@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBGraphicalFloat;
+@class NSArray, NSData, _SFPBCardSection, _SFPBColor;
 
 @protocol _SFPBLeadingTrailingCardSection
+- (void)_;
+- (void);
+- (_SFPBCardSection *);
+- (void);
+- (_Bool)initWithUpdatedShuffleType: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithResponseDictionary:requestDate: /* Error: Ran out of types for this method. */;
+- (void)stringByAppendingString:(_SFPBColor *)arg1;
+- (NSData *)",&,N,V_themeAssignments;
 - (int)ü;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingCardSections;
-@property(retain, nonatomic) _SFPBGraphicalFloat *leadingToTrailingRatio;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSArray *trailingCardSections;
-@property(copy, nonatomic) NSString *type;
 @end
 

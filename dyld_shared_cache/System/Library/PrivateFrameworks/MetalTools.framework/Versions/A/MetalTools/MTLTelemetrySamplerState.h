@@ -11,7 +11,6 @@
 @interface MTLTelemetrySamplerState : MTLToolsSamplerState
 {
     _Bool isAniso;
-    MTLSamplerDescriptor *_descriptor;
 }
 
 - (void);

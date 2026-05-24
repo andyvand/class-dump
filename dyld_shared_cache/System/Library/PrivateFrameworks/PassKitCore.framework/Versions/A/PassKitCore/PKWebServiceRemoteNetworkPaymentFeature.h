@@ -6,26 +6,20 @@
 
 #import <PassKitCore/PKWebServiceRegionFeature.h>
 
-@class NSArray;
-
 @interface PKWebServiceRemoteNetworkPaymentFeature : PKWebServiceRegionFeature
 {
     _Bool _enabled;
-    NSArray *_unsupportedIssuerCardCountryCodes;
-    NSArray *_unsupportedNetworks;
 }
 
 + (id);
 - (id);
-- (id);
-- (_Bool)ginMatchingCompletions;
+- (id);
+- (_Bool)_beginMatchingCompletions;
 - (id);
 - (void)-change;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, copy, nonatomic) NSArray *unsupportedIssuerCardCountryCodes; // @synthesize unsupportedIssuerCardCountryCodes=_unsupportedIssuerCardCountryCodes;
-@property(readonly, copy, nonatomic) NSArray *unsupportedNetworks; // @synthesize unsupportedNetworks=_unsupportedNetworks;
 
 @end
 

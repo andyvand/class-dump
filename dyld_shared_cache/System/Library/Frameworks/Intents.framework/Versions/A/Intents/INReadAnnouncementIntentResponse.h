@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INReadAnnouncementIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)stringWithFileSystemRepresentation:(long long)arg1 length: /* Error: Ran out of types for this method. */;
++ (int)generateThumbnailAndPerformCompletionHandler;
 + (long long);
-+ (_Bool);
++ (_Bool)dictionaryWithObject:(long long)arg1 forKey: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
 - (id);
+- (id);
+- (long long)9h;
 - (id);
 - (long long);
+- (id)updateTable:withAttribute:whereMatch: /* Error: Ran out of types for this method. */;
+- (id)enabledSystemGestureInputNames;
 - (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)atomicInstanceTrackedForDownloaded is nil;
 - (id);
 - (id);
 - (long long)stination",R,C;
 
 // Remaining properties
-@property(copy) NSArray *announcementRecords;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

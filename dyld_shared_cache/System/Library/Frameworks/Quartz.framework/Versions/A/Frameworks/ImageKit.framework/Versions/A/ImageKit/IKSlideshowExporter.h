@@ -19,8 +19,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)ndow.pageXOffset?n=window.pageXOffset-e.left:(id)arg1 e.left>window.pageXOffset+window.innerWidth&&(n=e.left-window.pageXOffset-window.innerWidth),t=Math.floor(t/window.innerHeight),n=Math.floor(n/window.innerWidth),Math.max(t,n)}retrieveNodeInformation();;
+- (void)ffset-e.top:(id)arg1 e.top>window.pageYOffset+window.innerHeight&&(t=e.top-window.pageYOffset-window.innerHeight),e.left<window.pageXOffset?n=window.pageXOffset-e.left:(id)arg2 e.left>window.pageXOffset+window.innerWidth&&(n=e.left-window.pageXOffset-window.innerWidth),t=Math.floor(t/window.innerHeight),n=Math.floor(n/window.innerWidth),Math.max(t,n)}retrieveNodeInformation();;
 - (id);
 
 @end

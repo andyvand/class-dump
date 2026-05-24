@@ -9,14 +9,13 @@
 @interface PHACameraSmartSharingTask
 {
     NSString *_libraryScopeLocalIdentifier;
-    PHLibraryScope *_libraryScope;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (double);
 - (id);
 - (_Bool);
@@ -25,41 +24,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)_oversamplingRate;
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool featureAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned long long featureCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) _Bool featureComplete;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double incrementalWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @property(retain, nonatomic) PHLibraryScope *libraryScope; // @synthesize libraryScope=_libraryScope;
-@property(retain, nonatomic) NSString *libraryScopeLocalIdentifier; // @synthesize libraryScopeLocalIdentifier=_libraryScopeLocalIdentifier;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double period;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long version;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 
 @end
 

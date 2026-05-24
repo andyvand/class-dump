@@ -8,8 +8,9 @@
 {
 }
 
-+ (_Bool);
-+ (unsigned long long);
++ (_Bool)_oneFinanceKitConnector;
++ (unsigned long long)@ State=%@
+;
 + (_Bool);
 
 @end

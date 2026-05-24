@@ -11,8 +11,6 @@
 @interface AAMyPhotoRequest : AARequest
 {
     ACAccount *_account;
-    NSString *_serverCacheTag;
-    ACAccount *_iTunesAccount;
 }
 
 + (Class);
@@ -22,11 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
-- (id)odelLargePhotoURL1x;
+- (void)pendingFollowUpItems: /* Error: Ran out of types for this method. */;
+- (id)modelLargePhotoURL1x;
 
 // Remaining properties
-@property(retain, nonatomic, setter=setiTunesAccount:) ACAccount *iTunesAccount; // @synthesize iTunesAccount=_iTunesAccount;
 @property(copy, nonatomic) NSString *serverCacheTag; // @synthesize serverCacheTag=_serverCacheTag;
 
 @end

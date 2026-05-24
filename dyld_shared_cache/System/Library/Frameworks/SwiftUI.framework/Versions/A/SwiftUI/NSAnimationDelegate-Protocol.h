@@ -5,5 +5,8 @@
 //
 
 @protocol NSAnimationDelegate
+
+@optional
+- (void)meworks/PassKitCore.framework/Contents/MacOS/PassKitCore;
 @end
 

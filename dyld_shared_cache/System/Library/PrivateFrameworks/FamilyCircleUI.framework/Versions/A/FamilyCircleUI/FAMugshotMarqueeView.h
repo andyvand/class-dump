@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAProfilePictureStore, NSMutableDictionary, NSStackView;
+@class NSMutableDictionary;
 
 @interface FAMugshotMarqueeView
 {
     NSMutableDictionary *_memberPhotoMap;
-    FAProfilePictureStore *_pictureStore;
-    CDUnknownBlockType _membersFilter;
-    NSStackView *_marquee;
 }
 
 + (id);
@@ -22,8 +19,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)setAudioType: /* Error: Ran out of types for this method. */;
+- (id)FLOWHOMEAUTOMATIONCOMMANDERRORREASON_SCENE_NOT_SET_UP;
 - (struct CGSize);
 - (id);
 - (void)ø¶p¹»8¼9½:ð¾X¿ì¿À /* Error: Ran out of types for this method. */;

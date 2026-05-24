@@ -6,35 +6,33 @@
 
 #import <AppKit/NSButtonAppearanceBasedVisualProvider.h>
 
-@class NSButtonCell, NSColor, NSImage, NSPopUpButtonBezelConfiguration, NSPopUpButtonCell, NSPopUpIndicatorView, NSString;
+@class NSPopUpButtonCell, NSPopUpIndicatorView;
 
 __attribute__((visibility("hidden")))
 @interface NSPopUpButtonAppearanceBasedVisualProvider : NSButtonAppearanceBasedVisualProvider
 {
     NSPopUpIndicatorView *_indicatorView;
-    _Bool _inContentLayout;
-    NSImage *__indicatorImage;
 }
 
-+ (_Bool);
++ (_Bool)4@0:(struct CGRect)arg1 8^{__CFURLStorageSession=}16;
 + (double);
-+ (unsigned long long);
-+ (id);
-+ (struct __CFDictionary *);
++ (unsigned long long)mon prior to NSURLSessionTask creation, reconnect=%c, invalid=%c;
++ (id)%.*s':(id)arg1 `%.*s';
++ (struct __CFDictionary *)bug:(struct CGRect)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (struct CGRect);
+- (void)%;
 - (void);
-- (void);
-- (id);
+- (id);
 - (struct CGPoint);
 - (long long);
 - (id);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (void)__bss;
 - (void);
 - (_Bool);
 - (struct CGSize);
@@ -45,59 +43,39 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)e2Storage";
+- (long long)otectionSpace"16@?<v@?@"NSURLCredential">24;
+- (struct CGSize)set_clientIsNotExplicitlyDiscretionary:(struct CGRect)arg1;
+- (struct CGRect)initWithMemoryCapacity:(struct CGRect)arg1 diskCapacity:(_Bool)arg2 diskPath: /* Error: Ran out of types for this method. */;
+- (double)domain;
+- (double)distantPast;
+- (struct CGSize)discretionary;
+- (double)credStorage_credentialsForProtectionSpace:(struct CGRect)arg1 reply:(_Bool)arg2;
+- (struct NSEdgeInsets)_timingData;
+- (_Bool)loadingPriority;
+- (struct CGSize)5;
+- (struct CGSize);
+- (double)apper<@%p> for HTTP3ConnectionCacheEntry<@%p>;
+- (struct CGRect)%s %s %s };
+- (struct CGRect)_tlsProcessSaveHandshakeProperties;
+- (double)e -[%s %s]!;
+- (double);
 - (long long);
-- (struct CGSize);
-- (struct CGRect);
-- (double);
-- (double);
-- (struct CGSize);
-- (double);
-- (struct NSEdgeInsets);
-- (_Bool);
-- (struct CGSize);
-- (struct CGSize);
-- (double);
-- (struct CGRect);
-- (struct CGRect);
-- (double);
-- (double);
-- (long long);
-- (void);
-- (struct CGSize);
+- (void)@;
+- (struct CGSize)@;
 - (struct CGRect);
 - (struct CGSize);
-- (id);
+- (id);
 - (double);
 - (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (void)ToViewport;
+- (void)NSScrubberLensBoundToViewport;
 - (void)¹ÁB;
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *_indicatorImage; // @synthesize _indicatorImage=__indicatorImage;
-@property(readonly) int blendModeForImageContent;
-@property __weak NSButtonCell *buttonCell;
-@property(readonly) NSPopUpButtonBezelConfiguration *currentPopUpBezelConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasBezelTint;
-@property(readonly) _Bool hasDestructiveAppearance;
-@property(readonly) _Bool hasInactiveAppearance;
-@property(readonly) _Bool hasRolloverAppearance;
-@property(readonly) _Bool hasSubviews;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSImage *indicatorImage;
-@property(readonly) NSPopUpIndicatorView *indicatorView;
-@property(readonly) long long interiorBackgroundStyle;
 @property(readonly) NSPopUpButtonCell *popUpButtonCell;
-@property(readonly) NSColor *preferredTemplateImageFillColor;
-@property(readonly) Class superclass;
 
 @end
 

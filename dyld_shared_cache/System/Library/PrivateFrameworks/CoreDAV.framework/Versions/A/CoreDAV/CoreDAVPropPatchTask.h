@@ -6,31 +6,25 @@
 
 #import <CoreDAV/CoreDAVActionBackedTask.h>
 
-@class CoreDAVResponseItem, NSSet, NSURL;
-@protocol CoreDAVPropPatchTaskDelegate;
+@class NSSet;
 
 @interface CoreDAVPropPatchTask : CoreDAVActionBackedTask
 {
     NSSet *_propPatchRemoveElements;
-    NSSet *_propPatchSetElements;
-    CoreDAVResponseItem *_responseItem;
-    _Bool _sendOrder;
-    int _absoluteOrder;
-    NSURL *_priorOrderedURL;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (int);
-- (id);
+- (void)7h;
 - (void);
 - (id);
 - (id);
+- (int)q;
 - (id);
+- (void);
+- (id);
+- (id);
+- (id)addButton;
 - (id);
 - (id);
 - (id);
@@ -40,12 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int absoluteOrder; // @synthesize absoluteOrder=_absoluteOrder;
-@property(nonatomic) __weak id <CoreDAVPropPatchTaskDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) NSURL *priorOrderedURL; // @synthesize priorOrderedURL=_priorOrderedURL;
 @property(retain, nonatomic) NSSet *propPatchRemoveElements; // @synthesize propPatchRemoveElements=_propPatchRemoveElements;
-@property(retain, nonatomic) NSSet *propPatchSetElements; // @synthesize propPatchSetElements=_propPatchSetElements;
-@property(retain, nonatomic) CoreDAVResponseItem *responseItem; // @synthesize responseItem=_responseItem;
 
 @end
 

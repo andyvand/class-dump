@@ -5,11 +5,10 @@
 //
 
 @protocol MRRenderable
+- (void);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAlphaFriendly;
-@property(readonly, nonatomic) _Bool isInfinite;
 @property(readonly, nonatomic) _Bool isNative3D;
-@property(readonly, nonatomic) _Bool isOpaque;
 @end
 

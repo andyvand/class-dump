@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PDFPageLayerEffect;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface PDFCoachMark
 {
     NSDate *creationTime;
-    struct CGRect frame;
-    PDFPageLayerEffect *layerEffect;
 }
 
 - (void);

@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
++ (id)eted;
 - (id);
-- (id);
+- (id)extendSelectionBackwardParagraphsWithCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (int)OLUMN grouping_key BLOB;
 

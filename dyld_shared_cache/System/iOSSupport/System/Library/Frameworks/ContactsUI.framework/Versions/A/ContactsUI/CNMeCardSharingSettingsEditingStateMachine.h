@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (long long);
-+ (long long);
++ (long long)&B80n@;
 
 @end
 

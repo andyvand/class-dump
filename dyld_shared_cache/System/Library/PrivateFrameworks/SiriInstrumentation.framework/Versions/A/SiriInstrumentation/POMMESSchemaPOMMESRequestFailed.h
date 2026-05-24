@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    unsigned int _pommesSearchReason;
-    struct {
-        unsigned int reason:1;
-        unsigned int pommesSearchReason:1;
-    } _has;
 }
 
 - (void);
@@ -24,25 +17,21 @@
 - (_Bool);
 - (void);
 - (id);
-- (int);
+- (int)d over %d times (%d overall) in %g seconds. No longer attempting to reconnect.;
 - (_Bool);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)@;
+- (unsigned long long).xpc;
 - (_Bool);
-- (_Bool);
+- (_Bool)and text;
 - (void);
 - (id);
 - (id);
-- (id)nput;
+- (id)_responseIsValidInput;
 - (id)hreshold;
-- (void)iriIsActiveOrOtherAssertion;
+- (void)siriIsActiveOrOtherAssertion;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPommesSearchReason;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int pommesSearchReason; // @synthesize pommesSearchReason=_pommesSearchReason;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

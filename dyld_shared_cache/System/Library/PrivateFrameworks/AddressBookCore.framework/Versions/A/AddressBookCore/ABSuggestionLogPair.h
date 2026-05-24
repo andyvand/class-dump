@@ -9,11 +9,10 @@
 @interface ABSuggestionLogPair
 {
     NSString *_label;
-    NSString *_value;
 }
 
 + (id);
-- (void);
+- (void)sult:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

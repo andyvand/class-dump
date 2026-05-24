@@ -4,73 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface FAFamilyInvite
 {
     _Bool _isChildTransferInvite;
-    NSString *_code;
-    NSString *_inviteId;
-    NSString *_organizerFirstName;
-    NSString *_organizerLastName;
-    NSString *_organizerEmail;
-    NSString *_inviteStatus;
-    NSNumber *_organizerDSID;
-    NSString *_childFirstName;
-    NSString *_childLastName;
-    NSDate *_inviteDate;
-    NSDate *_associateInviteDate;
-    NSNumber *_badgeAfter;
-    NSNumber *_followUpNotificationAfter;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)needsConfirmation;
+- (void)updateLocationCommand;
+- (void)interactive;
+- (void)color;
+- (void)Anchor;
+- (void)intentSlotName;
+- (void)appMetaData;
+- (void)UpdateCompleted;
+- (void)languageOptionChangeUserSetting;
+- (void)relativeOffsetMinutes;
+- (void)label;
+- (void)IntervalSkipBackward;
+- (void)Pause;
+- (id)FaceTimeAudio;
+- (id)VoiceCall;
+- (id)DEFAULT;
+- (id)temporary;
+- (_Bool)dynamicURLImageResourceDataEvodBumper;
+- (id)packetNumber;
+- (id)ApiQuotaLimitExceeded;
+- (id)SALocalSearch;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *associateInviteDate; // @synthesize associateInviteDate=_associateInviteDate;
-@property(retain, nonatomic) NSNumber *badgeAfter; // @synthesize badgeAfter=_badgeAfter;
-@property(copy, nonatomic) NSString *childFirstName; // @synthesize childFirstName=_childFirstName;
-@property(copy, nonatomic) NSString *childLastName; // @synthesize childLastName=_childLastName;
 @property(copy, nonatomic) NSString *code; // @synthesize code=_code;
-@property(retain, nonatomic) NSNumber *followUpNotificationAfter; // @synthesize followUpNotificationAfter=_followUpNotificationAfter;
-@property(retain, nonatomic) NSDate *inviteDate; // @synthesize inviteDate=_inviteDate;
-@property(copy, nonatomic) NSString *inviteId; // @synthesize inviteId=_inviteId;
-@property(copy, nonatomic) NSString *inviteStatus; // @synthesize inviteStatus=_inviteStatus;
-@property(nonatomic) _Bool isChildTransferInvite; // @synthesize isChildTransferInvite=_isChildTransferInvite;
-@property(copy, nonatomic) NSNumber *organizerDSID; // @synthesize organizerDSID=_organizerDSID;
-@property(copy, nonatomic) NSString *organizerEmail; // @synthesize organizerEmail=_organizerEmail;
-@property(copy, nonatomic) NSString *organizerFirstName; // @synthesize organizerFirstName=_organizerFirstName;
-@property(copy, nonatomic) NSString *organizerLastName; // @synthesize organizerLastName=_organizerLastName;
 
 @end
 

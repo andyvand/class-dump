@@ -9,26 +9,10 @@
 @interface AppKit._NSTextSuggestionsControllerState
 {
     id suggestionItems;
-    id highlightedSuggestionItem;
-    id accessoryView;
-    id progressIndicator;
-    id isShowingSuggestions;
-    id suggestionsMenu;
-    id suggestionsMenuDelegate;
-    id suggestionsRange;
-    id textChangingViaInsertCompletion;
-    id isInTextDidChange;
-    id pauseAutocomplete;
-    id attributedStringValueMinusCompletion;
-    id userIsFinishedWithAutocomplete;
-    AppKit._NSSuggestionListTouchBarController *suggestionListTouchBarController;
-    id mostRecentSearchString;
-    id stopMenuItemChanges;
-    id hasPresentedMenuForSession;
 }
 
-- (id);
-- (void);
+- (id)e=}16;
+- (void)connection:(id)arg1 didReceiveData:lengthReceived: /* Error: Ran out of types for this method. */;
 - (id);
 - (void) ÿZ;gE;
 

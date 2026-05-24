@@ -9,7 +9,7 @@
     unsigned long long _discoverySessionFeatures;
 }
 
-- (void);
+- (void)';
 - (id);
 - (id)Count"b1"intendedSpatialExperience"b1"pid"b1"renderingMode"b1"resolvedSpatialExperience"b1"eligibleForSpatialization"b1"spatialized"b1};
 

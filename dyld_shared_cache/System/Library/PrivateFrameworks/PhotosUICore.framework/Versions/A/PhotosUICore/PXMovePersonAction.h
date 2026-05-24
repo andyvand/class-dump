@@ -6,22 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSArray, NSNumber, NSString, PXPhotoLibraryLocalDefaults;
-@protocol PXFastEnumeration;
+@class NSArray;
 
 @interface PXMovePersonAction : PXPhotosAction
 {
     NSArray *_sourcePeople;
-    long long _sourceType;
-    id <PXFastEnumeration> _destinationPeople;
-    long long _destinationManualOrder;
-    long long _destinationType;
-    NSString *_targetLocalIdentifier;
-    NSArray *_modifiedDestinationPeople;
-    id <PXFastEnumeration> _otherPeople;
-    NSArray *_modifiedOtherPeople;
-    PXPhotoLibraryLocalDefaults *_localDefaults;
-    NSNumber *_sourceSortingType;
 }
 
 - (id);
@@ -29,10 +18,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,24 +29,14 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)0;
 - (id);
-- (id)letionHandlerManager;
-- (void)yKey;
+- (id)completionHandlerManager;
+- (void)NNSBitmapImageRepPropertyKey;
 - (long long): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long destinationManualOrder; // @synthesize destinationManualOrder=_destinationManualOrder;
-@property(readonly, nonatomic) id <PXFastEnumeration> destinationPeople; // @synthesize destinationPeople=_destinationPeople;
-@property(readonly, nonatomic) long long destinationType; // @synthesize destinationType=_destinationType;
-@property(readonly, nonatomic) PXPhotoLibraryLocalDefaults *localDefaults; // @synthesize localDefaults=_localDefaults;
-@property(copy, nonatomic) NSArray *modifiedDestinationPeople; // @synthesize modifiedDestinationPeople=_modifiedDestinationPeople;
-@property(copy, nonatomic) NSArray *modifiedOtherPeople; // @synthesize modifiedOtherPeople=_modifiedOtherPeople;
-@property(readonly, nonatomic) id <PXFastEnumeration> otherPeople; // @synthesize otherPeople=_otherPeople;
 @property(readonly, nonatomic) NSArray *sourcePeople; // @synthesize sourcePeople=_sourcePeople;
-@property(retain, nonatomic) NSNumber *sourceSortingType; // @synthesize sourceSortingType=_sourceSortingType;
-@property(readonly, nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly, nonatomic) NSString *targetLocalIdentifier; // @synthesize targetLocalIdentifier=_targetLocalIdentifier;
 
 @end
 

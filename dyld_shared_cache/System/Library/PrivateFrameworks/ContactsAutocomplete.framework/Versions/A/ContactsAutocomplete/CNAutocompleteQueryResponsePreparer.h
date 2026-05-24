@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchRequest, CNHandleStringClassifier, NSMutableOrderedSet;
-@protocol CNAutocompleteFetchDelegate, CNFuture, CNPromise;
+@class NSMutableOrderedSet;
+@protocol CNAutocompleteFetchDelegate;
 
 @interface CNAutocompleteQueryResponsePreparer
 {
     NSMutableOrderedSet *_previouslyReturnedResults;
-    CNHandleStringClassifier *_handleStringClassifier;
-    id <CNAutocompleteFetchDelegate> _delegate;
-    CNAutocompleteFetchRequest *_fetchRequest;
-    id <CNFuture> _priorityResultsFuture;
-    id <CNPromise> _matchingPriorityResultsPromise;
 }
 
 - (id);
@@ -24,12 +19,12 @@
 - (id);
 - (id);
 - (id);
+- (id)T;
 - (id);
 - (id);
+- (id)C;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,9 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <CNAutocompleteFetchDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) CNAutocompleteFetchRequest *fetchRequest; // @synthesize fetchRequest=_fetchRequest;
-@property(retain, nonatomic) id <CNPromise> matchingPriorityResultsPromise; // @synthesize matchingPriorityResultsPromise=_matchingPriorityResultsPromise;
-@property(retain, nonatomic) id <CNFuture> priorityResultsFuture; // @synthesize priorityResultsFuture=_priorityResultsFuture;
 
 @end
 

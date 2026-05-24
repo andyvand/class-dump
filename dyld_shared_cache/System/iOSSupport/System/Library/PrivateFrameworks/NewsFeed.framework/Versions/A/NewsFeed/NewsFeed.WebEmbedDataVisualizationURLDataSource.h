@@ -7,8 +7,6 @@
 @interface NewsFeed.WebEmbedDataVisualizationURLDataSource
 {
     id contentType;
-    id key;
-    id url;
 }
 
 @end

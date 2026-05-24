@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UINSToolbarItemGenerator
 {
     NSString *_identifier;
-    _Bool _isSpecialCasedAppKitItem;
-    CDUnknownBlockType _configurator;
-    CDUnknownBlockType _handler;
-    NSHashTable *_generatedItems;
 }
 
++ (id)on object %@ %@;
++ (id). This may lead to issues ingesting the moment share;
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
+- (void)_completionBlocksForAssetFetchOperations;
+- (id)r unread count change.;
+- (id)y has more than one message part;
+- (void)reflecting it, setting shouldForceToSMS on chat %@ to NO;
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)Ij;
 - (id);
 - (id)DirectionalEdgeInsets=dddd},N,V_sectionInsets;
 - (id)ôà¸;
@@ -33,15 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)Ðwþ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *_nstoolbarItemIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

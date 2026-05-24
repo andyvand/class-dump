@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSOEPEntitledAssetManager, NSHashTable, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CSAsset, NSMutableDictionary;
 
 @interface CSEndpointerAssetManager
 {
     NSMutableDictionary *_tokenForAssetUpdateNotification;
-    CSAsset *_currentHEPAsset;
-    CSAsset *_currentOEPAsset;
-    CSOEPEntitledAssetManager *_oepEntitledAssetManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
 }
 
 + (id);
@@ -27,14 +21,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)_cardURL;
 - (void);
 - (id);
+- (id);
 - (void);
-- (void);
+- (id);
+- (void)initWithSession:(id)arg1 requestPerformer:imageBuffer:forensics:observationsCache: /* Error: Ran out of types for this method. */;
+- (void)initWithIndexes:(id)arg1 length: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -46,25 +40,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)<z;
 - (void)Ô&!dBù1*ð1Â0@ù
 × ;
-- (void)gAOPVoiceTrigger;
+- (void)configAOPVoiceTrigger;
 - (void)gerAnalyzing>",&,N,V_exclaveClient;
 
 // Remaining properties
 @property(retain, nonatomic) CSAsset *currentHEPAsset; // @synthesize currentHEPAsset=_currentHEPAsset;
-@property(retain, nonatomic) CSAsset *currentOEPAsset; // @synthesize currentOEPAsset=_currentOEPAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) CSOEPEntitledAssetManager *oepEntitledAssetManager; // @synthesize oepEntitledAssetManager=_oepEntitledAssetManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

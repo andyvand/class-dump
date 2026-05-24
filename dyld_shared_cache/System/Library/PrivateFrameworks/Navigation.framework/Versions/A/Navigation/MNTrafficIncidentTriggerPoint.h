@@ -7,7 +7,6 @@
 @interface MNTrafficIncidentTriggerPoint
 {
     _Bool _allowsShifting;
-    CDStruct_3f2a7a20 _referenceCoordinate;
 }
 
 + (_Bool);
@@ -18,10 +17,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)_accountDetailsTabView;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsShifting; // @synthesize allowsShifting=_allowsShifting;
 @property(nonatomic) CDStruct_3f2a7a20 referenceCoordinate; // @synthesize referenceCoordinate=_referenceCoordinate;
 
 @end

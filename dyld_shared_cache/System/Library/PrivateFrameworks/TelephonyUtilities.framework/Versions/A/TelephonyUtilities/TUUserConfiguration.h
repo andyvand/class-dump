@@ -13,7 +13,7 @@
     CoreTelephonyClient *_coreTelephonyClient;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 + (_Bool);
 + (_Bool);
 + (unsigned long long);
@@ -24,16 +24,16 @@
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id)_unwantedSoftwareThreatTypeOff;
 + (id);
 + (_Bool)0@ù
 × ;
-+ (id)n: /* Error: Ran out of types for this method. */;
++ (id)handleMediaRemoteCommand:sourceIdentifier:completion: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
 - (void);
 - (void);
@@ -43,34 +43,34 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
 - (_Bool);
+- (void)~;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)h;
+- (_Bool)`B;
 - (_Bool);
 - (void)inkDescriptorDataSourceDelegate>";
-- (void)ventType;
-- (void)rVoiceCallSpamReportAddressCarrierBundleKeyHierarchy;
+- (void)_sessionEventType;
+- (void)carrierVoiceCallSpamReportAddressCarrierBundleKeyHierarchy;
 - (id)ocessing post, no newer ones in the queue;
 
 // Remaining properties

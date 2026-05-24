@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKBAAAttestationData, NSString;
+@class NSString;
 
 @interface AKAnisetteData
 {
     NSString *_machineID;
-    NSString *_oneTimePassword;
-    unsigned long long _routingInfo;
-    AKBAAAttestationData *_baaAttestationData;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)e.spotlight.SearchAgent;
 - (void);
 - (id);
 - (void);
 - (id)h;
 
 // Remaining properties
-@property(retain, nonatomic) AKBAAAttestationData *baaAttestationData; // @synthesize baaAttestationData=_baaAttestationData;
 @property(copy, nonatomic) NSString *machineID; // @synthesize machineID=_machineID;
-@property(copy, nonatomic) NSString *oneTimePassword; // @synthesize oneTimePassword=_oneTimePassword;
-@property(nonatomic) unsigned long long routingInfo; // @synthesize routingInfo=_routingInfo;
 
 @end
 

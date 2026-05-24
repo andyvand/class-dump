@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface DRSCloudChannelConfigMO
 {
 }
 
-+ (id);
++ (id)textContainer;
 
 // Remaining properties
 @property(nonatomic) short channelType; // @dynamic channelType;
-@property(nonatomic) short environment; // @dynamic environment;
-@property(nonatomic) _Bool overridesDeviceDefault; // @dynamic overridesDeviceDefault;
-@property(nonatomic) short platform; // @dynamic platform;
-@property(copy, nonatomic) NSNumber *populationSliceNumber; // @dynamic populationSliceNumber;
 
 @end
 

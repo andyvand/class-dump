@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, NSArray, NSString, NUDigest, PIInpaintMask;
+@class PIInpaintMask;
 @protocol NUVisionInstanceSegmentationResult;
 
 @interface PIInpaintMaskContext
 {
     id <NUVisionInstanceSegmentationResult> _segmentationResult;
-    NSArray *_detectedFaces;
-    NSString *_assetIdentifier;
-    NSString *_requestID;
-    double _initialSensitivityScore;
-    PIInpaintMask *_subjectMask;
-    NUDigest *_subjectMaskDigest;
-    CIContext *_ciContext;
-    CDStruct_1b6d18a9 _livePhotoKeyFrameTime;
-    CDStruct_996ac03c _fullImageExtent;
 }
 
 + (id);
@@ -34,27 +25,18 @@
 - (void);
 - (id);
 - (void);
-- (CDStruct_996ac03c);
+- (CDStruct_0973877e);
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
-- (id);
-- (id);
+- (id)r;
+- (id)initWithAccountStore: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)setCacheURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(readonly, nonatomic) CIContext *ciContext; // @synthesize ciContext=_ciContext;
-@property(readonly, nonatomic) NSArray *detectedFaces; // @synthesize detectedFaces=_detectedFaces;
-@property(readonly, nonatomic) CDStruct_996ac03c fullImageExtent; // @synthesize fullImageExtent=_fullImageExtent;
-@property(readonly, nonatomic) double initialSensitivityScore; // @synthesize initialSensitivityScore=_initialSensitivityScore;
-@property(nonatomic) CDStruct_1b6d18a9 livePhotoKeyFrameTime; // @synthesize livePhotoKeyFrameTime=_livePhotoKeyFrameTime;
-@property(readonly, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) id <NUVisionInstanceSegmentationResult> segmentationResult; // @synthesize segmentationResult=_segmentationResult;
 @property(retain) PIInpaintMask *subjectMask; // @synthesize subjectMask=_subjectMask;
-@property(retain) NUDigest *subjectMaskDigest; // @synthesize subjectMaskDigest=_subjectMaskDigest;
 
 @end
 

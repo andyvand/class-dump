@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMImageGalleryQuadEditorLayerImageView, NSImage;
-@protocol ICMImageGalleryQuadEditorScrollViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface ICMImageGalleryQuadEditorScrollView
 {
     _Bool _hasDividerLineCursorFrame;
-    _Bool _ignoreScrollWheelEvents;
-    id <ICMImageGalleryQuadEditorScrollViewDelegate> _delegate;
-    NSImage *_image;
-    long long _orientation;
-    ICMImageGalleryQuadEditorLayerImageView *_imageView;
-    double _mininumMagnification;
-    struct CGPoint _lineDragAdjustmentPoint;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)s;
 - (void);
 - (double);
 - (double);
@@ -31,31 +21,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)C;
+- (_Bool)B;
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)rend_suggestion"i"timestamp"Q"max_bandwidth"Q"total_byte_count"Q"average_throughput"Q"flushable_queue_size"I"non_flushable_queue_size"I"average_delay"I}""(?="wifi_context"{ifnet_interface_advisory_wifi_context="frequency_band"C"intermittent_state"C"estimated_intermittent_period"S"single_outage_period"S"bt_coex"C"quality_score_delay"C"quality_score_loss"C"quality_score_channel"C"radio_coex"C"wlan_duty_cycle"S"wifi_observed_tx_bitrate"[6I]}"cell_context"{ifnet_interface_advisory_cell_context="radio_access_technology"C"reference_signal_level"s"signal_level"s"signal_quality"c"uplink_bler"C"downlink_bler"C"bandwidth_limitation_indication"C"cdrx_state"C"cdrx_cycle"S"estimated_outage_period"S"outage_state"C"__pad"C})})}"codecRateAdaptation"{tagVCNWConnectionNotification_BBUplinkCRA="radioAccessTechnology"i"timestamp"Q"totalByteCount"Q"flushableQueueSize"I"nonFlushableQueueSize"I}"linkMeasurement"{tagVCNWConnectionNotification_BBLinkMeasurement="radioAccessTechnology"i"referenceSignalLevel"s"signalLevel"s"signalQuality"c"uplinkBler"C"downlinkBler"C}"bandwidthLimitation"{tagVCNWConnectionNotification_BBBWLimitation="bandwidthLimitationIndication"C}"cdrxUpdate"{tagVCNWConnectionNotification_BBCDRXUpdate="cdrxState"C"cdrxCycle"S}"outage"{tagVCNWConnectionNotification_BBOutage="radioAccessTechnology"i"estimatedOutagePeriod"S"outageState"C}"thermalUpdate"{tagVCNWConnectionNotification_BBThermalUpdate="rateTrendSuggestion"i})};
+- (void)reenUUID=%@, displayMode=%lu, pdProtectionOptions=%llu };
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)ndsToSelector:%s
+	name = %@
+	reason = %@
+	userInfo = %@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <ICMImageGalleryQuadEditorScrollViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasDividerLineCursorFrame; // @synthesize hasDividerLineCursorFrame=_hasDividerLineCursorFrame;
-@property(nonatomic) _Bool ignoreScrollWheelEvents; // @synthesize ignoreScrollWheelEvents=_ignoreScrollWheelEvents;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) ICMImageGalleryQuadEditorLayerImageView *imageView; // @synthesize imageView=_imageView;
 @property(nonatomic) struct CGPoint lineDragAdjustmentPoint; // @synthesize lineDragAdjustmentPoint=_lineDragAdjustmentPoint;
-@property(readonly, nonatomic) double mininumMagnification; // @synthesize mininumMagnification=_mininumMagnification;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly, nonatomic) double scaleValueForAspectFit;
 
 @end
 

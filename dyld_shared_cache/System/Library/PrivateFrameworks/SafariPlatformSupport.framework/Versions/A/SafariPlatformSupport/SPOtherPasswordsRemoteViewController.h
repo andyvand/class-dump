@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)T;
 - (id);
-- (id);
+- (id);
 
 @end
 

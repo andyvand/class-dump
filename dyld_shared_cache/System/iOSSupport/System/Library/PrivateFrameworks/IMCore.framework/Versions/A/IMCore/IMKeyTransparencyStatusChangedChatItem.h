@@ -11,14 +11,10 @@
 @interface IMKeyTransparencyStatusChangedChatItem : IMTranscriptChatItem
 {
     _Bool _groupChat;
-    NSArray *_affectedHandles;
-    unsigned long long _status;
 }
 
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *affectedHandles; // @synthesize affectedHandles=_affectedHandles;
-@property(readonly, getter=isGroupChat) _Bool groupChat; // @synthesize groupChat=_groupChat;
-@property(readonly, nonatomic) unsigned long long status; // @synthesize status=_status;
 @end
 

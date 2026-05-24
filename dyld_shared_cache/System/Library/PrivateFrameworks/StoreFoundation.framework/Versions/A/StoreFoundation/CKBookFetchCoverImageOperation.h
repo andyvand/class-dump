@@ -6,24 +6,22 @@
 
 #import <StoreFoundation/ISOperation.h>
 
-@class CKBook, NSImage;
+@class CKBook;
 
 @interface CKBookFetchCoverImageOperation : ISOperation
 {
     CKBook *_book;
-    NSImage *_coverImage;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)edAccessoryContext;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly) CKBook *book; // @synthesize book=_book;
-@property(readonly) NSImage *coverImage; // @synthesize coverImage=_coverImage;
 
 @end
 

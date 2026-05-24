@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICTTMergeableUndoString.h>
 
-@class NSArray, NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface ICTTMergeableAttributedString : ICTTMergeableUndoString
 {
@@ -21,43 +21,35 @@
 + (id);
 + (int);
 + (id);
+- (void)CFArray;
+- (void);
+- (void);
+- (id)createRecordWithRecordType:(id)arg1 name:(const void *)arg2 attributes:error: /* Error: Ran out of types for this method. */;
+- (id)appendFormat:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)roduct subdirectory:(const void *)arg1 %@;
+- (void)87;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)_sendImageVersionChangedNotificationIfNeeded;
+- (void)?	;
 - (void);
 - (void)
 ;
 - (void)ð»;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *edits;
-@property(retain, nonatomic) NSAttributedString *editsAttributedString; // @synthesize editsAttributedString=_editsAttributedString;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

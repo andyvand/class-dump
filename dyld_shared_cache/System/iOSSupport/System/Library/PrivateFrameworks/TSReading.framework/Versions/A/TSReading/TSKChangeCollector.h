@@ -12,8 +12,8 @@
 + (id);
 + (id)W;
 - (void);
-- (id);
-- (id);
+- (id)PlayerViewControllerBehaviorDelegate;
+- (id)z;
 - (void);
 - (unsigned long long);
 - (oneway void);

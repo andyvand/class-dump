@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface PLNetworkUsageSnapshot
 {
     NSDate *_timestamp;
-    NSString *_cellType;
-    NSString *_quality;
-    NSString *_wifi;
 }
 
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (double);
-- (id);
+- (void)fp_createEmptyTempFileWithName:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -32,10 +29,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain) NSString *cellType; // @synthesize cellType=_cellType;
-@property(retain) NSString *quality; // @synthesize quality=_quality;
 @property(retain) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain) NSString *wifi; // @synthesize wifi=_wifi;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSString;
-
 @interface AKPanGestureRecognizer
 {
     _Bool _penGestureDetected;
-    double _currentWeight;
-    double _currentMaxWeight;
-    NSMutableArray *_currentAccumulatedTouches;
-    NSMutableSet *_additionalTouches;
-    struct CGPoint _locationOfFirstTouch;
 }
 
 - (void);
@@ -21,12 +14,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -34,28 +27,15 @@
 - (struct CGPoint);
 - (double);
 - (double);
+- (void)setPresentationOptions: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)paneDelegate;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long additionalNumberOfTouches;
-@property(retain, nonatomic) NSMutableSet *additionalTouches; // @synthesize additionalTouches=_additionalTouches;
-@property(retain, nonatomic) NSMutableArray *currentAccumulatedTouches; // @synthesize currentAccumulatedTouches=_currentAccumulatedTouches;
-@property(nonatomic) double currentMaxWeight; // @synthesize currentMaxWeight=_currentMaxWeight;
-@property(nonatomic) double currentWeight; // @synthesize currentWeight=_currentWeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct CGPoint locationOfFirstTouch; // @synthesize locationOfFirstTouch=_locationOfFirstTouch;
-@property(nonatomic) _Bool penGestureDetected; // @synthesize penGestureDetected=_penGestureDetected;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,8 +6,7 @@
 
 #import <Silex/SXComponent.h>
 
-@class NSString, SXComponentAnimation, SXComponentClassification, SXComponentConditions, SXJSONArray, SXJSONDictionary, UIColor;
-@protocol SXComponentAnchor;
+@class NSString;
 
 @interface SXAdvertisementComponent : SXComponent
 {
@@ -15,45 +14,13 @@
 }
 
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsServicesInternal/NSSNewsTermination.m;
+- (unsigned long long)`c;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityLabel;
-@property(readonly, nonatomic) unsigned long long adType; // @synthesize adType;
-@property(readonly, nonatomic) SXJSONArray *additions;
-@property(readonly, nonatomic) SXJSONDictionary *advertising; // @dynamic advertising;
-@property(readonly, nonatomic) SXJSONDictionary *analytics;
-@property(readonly, nonatomic) id <SXComponentAnchor> anchor;
-@property(readonly, nonatomic) SXComponentAnimation *animation;
-@property(readonly, nonatomic) SXJSONArray *behaviors;
-@property(readonly, nonatomic) SXComponentClassification *classification;
-@property(readonly, nonatomic) SXJSONArray *conditional;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SXJSONArray",?,R,N
-
-@property(readonly, nonatomic) SXComponentConditions *conditions;
-@property(readonly, nonatomic) unsigned long long contentRelevance;
-@property(readonly, nonatomic) UIColor *debugColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hidden;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *layout;
 @property(readonly, nonatomic) NSString *placementIdentifier; // @dynamic placementIdentifier;
-@property(readonly, nonatomic) unsigned long long placementType;
-@property(readonly, nonatomic) _Bool requiresLinkedContent;
-@property(readonly, nonatomic) int role;
-@property(readonly, nonatomic) NSString *style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long traits;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

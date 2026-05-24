@@ -5,5 +5,10 @@
 //
 
 @protocol ARInternalSessionObserver
+
+@optional
+- (void);
+- (void);
+- (void)4;
 @end
 

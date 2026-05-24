@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface MPPSearchStringPredicate
 {
     NSMutableArray *_properties;
-    NSString *_searchString;
 }
 
 - (_Bool);
@@ -18,25 +17,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)i;
+- (unsigned long long)sentenceTokenizer;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)__MPModelPropertyPodcastEpisodeNumber__MAPPING_MISSING__;
 - (void)tokenRevision=%d, .databaseStorage={ .options={%d}, .occurrenceCount=%d } } result=%@ explicit=%{BOOL}u containerItem=%{BOOL}u;
 - (id)ericGenre;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSearchString;
-@property(retain, nonatomic) NSMutableArray *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

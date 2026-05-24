@@ -6,22 +6,14 @@
 
 #import <CMCapture/FigCaptureBaseStillImageSinkPipelineConfiguration.h>
 
-@class NSDictionary;
-
 @interface FigCaptureStillImageSinkPipelineConfiguration : FigCaptureBaseStillImageSinkPipelineConfiguration
 {
     int _clientPID;
-    NSDictionary *_stillImageColorInfoForFramesOriginatingFromVideoStream;
-    _Bool _stillImageISPChromaNoiseReductionEnabled;
-    _Bool _stereoFusionSupported;
-    _Bool _isIrisSupported;
-    _Bool _hdrSupported;
-    _Bool _gnrHDRSupported;
 }
 
 + (_Bool)$Ð1Â0@ù
 × ;
-- (void);
+- (void)setMap;
 - (id);
 - (_Bool);
 - (void);

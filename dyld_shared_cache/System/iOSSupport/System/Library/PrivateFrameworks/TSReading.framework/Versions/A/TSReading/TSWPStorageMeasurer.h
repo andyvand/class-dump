@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, TSDCanvas, TSDLayout, TSPObject, TSWPPadding, TSWPStorage;
-@protocol TSDHint, TSWPFootnoteHeightMeasurer, TSWPFootnoteMarkProvider, TSWPLayoutParent, TSWPOffscreenColumn, TSWPStyleProvider;
+@class NSMutableArray, TSWPStorage;
 
 @interface TSWPStorageMeasurer
 {
     TSWPStorage *_storage;
-    NSObject<TSWPLayoutParent> *_layoutParent;
-    id <TSWPStyleProvider> _styleProvider;
-    NSMutableArray *_columns;
-    struct CGSize _minSize;
-    struct CGSize _maxSize;
-    unsigned int _flags;
-    struct CGPoint _anchor;
 }
 
+- (id)ived playbackRateDidChange [rate:(struct CGSize)arg1;
+- (struct CGSize)failed items skip=;
+- (struct CGSize)WithFadeout];
 - (id);
-- (struct CGSize);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
+- (void)ssionSummary;
+- (void)umer;
 - (_Bool);
 - (double);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (void);
 - (const void *);
@@ -49,16 +41,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id));
 - (unsigned int);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)ҏ@;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -69,106 +61,15 @@
 - (struct CGSize);
 - (struct CGPoint);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id)STCell *, TSTCellID);
 - (struct CGSize)torage findNextParagraphStyleChange:maxCharIndex:] /* Error: Ran out of types for this method. */;
-- (id)ader;
-- (unsigned long long)anvasControllerDidUpdateMoviePlayerControllerNotification;
+- (id)TSDMetalShaderDefaultHalfSizedRadiusGaussianBlur_FragmentShader;
+- (unsigned long long)TSDInteractiveCanvasControllerDidUpdateMoviePlayerControllerNotification;
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize adjustedInsets;
-@property(readonly, nonatomic) _Bool allowsDescendersToClip;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool allowsLastLineTruncation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool alwaysAllowWordSplit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool alwaysStartsNewTarget;
-@property(readonly, nonatomic) struct CGPoint anchorPoint;
-@property(retain, nonatomic) NSMutableArray *anchoredDrawablesForRelayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSMutableArray",?,&,N
-
-@property(readonly, nonatomic) unsigned int autosizeFlags;
-@property(readonly, nonatomic) TSDCanvas *canvas;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSDCanvas",?,R,N
-
-@property(readonly, nonatomic) unsigned long long columnCount;
 @property(readonly, retain, nonatomic) NSMutableArray *columns; // @synthesize columns=_columns;
-@property(readonly, nonatomic) _Bool columnsAreLeftToRight;
-@property(readonly, nonatomic) struct CGSize currentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <TSWPFootnoteHeightMeasurer> footnoteHeightMeasurer;
-@property(readonly, nonatomic) id <TSWPFootnoteMarkProvider> footnoteMarkProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct __CFLocale *hyphenationLocale;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T^{__CFLocale=},?,R,N
-
-@property(readonly, nonatomic) _Bool ignoresEquationAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool layoutIsValid;
-@property(readonly, nonatomic) TSWPPadding *layoutMargins;
-@property(readonly, nonatomic) struct CGRect maskRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property(readonly, nonatomic) double maxAnchorY;
-@property(readonly, nonatomic) unsigned int maxLineCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R,N
-
-@property(readonly, nonatomic) struct CGSize maxSize;
-@property(readonly, nonatomic) struct CGSize minSize;
-@property(readonly, nonatomic) unsigned int naturalAlignment;
-@property(readonly, nonatomic) int naturalDirection;
-@property(readonly, nonatomic) TSPObject<TSDHint> *nextTargetFirstChildHint;
-@property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> nextTargetFirstColumn;
-@property(readonly, nonatomic) const void *nextTargetTopicNumbers;
-@property(readonly, nonatomic) unsigned long long pageCount;
-@property(readonly, nonatomic) unsigned long long pageNumber;
-@property(readonly, nonatomic) TSDLayout *parentLayoutForInlineAttachments;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSDLayout",?,R,N
-
-@property(readonly, nonatomic) struct CGPoint position;
-@property(readonly, retain, nonatomic) id <TSWPOffscreenColumn> previousTargetLastColumn;
-@property(readonly, nonatomic) const void *previousTargetTopicNumbers;
-@property(readonly, nonatomic) _Bool pushAscendersIntoColumn;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) double reservedWidthWhenTruncating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldHyphenate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shrinkTextToFit;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool textIsVertical;
-@property(readonly, nonatomic) double textScaleFactor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) unsigned int verticalAlignment;
-@property(readonly, nonatomic) _Bool wantsLineFragments;
 
 @end
 

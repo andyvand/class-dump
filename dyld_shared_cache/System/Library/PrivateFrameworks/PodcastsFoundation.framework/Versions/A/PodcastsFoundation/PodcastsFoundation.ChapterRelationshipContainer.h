@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.ChapterRelationshipContainer
 {
     id data;
-    id meta;
 }
 
 @end

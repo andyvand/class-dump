@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMINMSConfiguration, NSArray, NSString;
+@class NSString;
 
 @interface HMISignificantActivityFcosDetector
 {
     float _confidenceThresholds[7];
-    struct CGSize _anchorStrides[5];
-    NSString *_inputFeatureValueName;
-    NSArray *_offsetsZeroFeatureValueNames;
-    NSArray *_offsetsOneFeatureValueNames;
-    NSArray *_scoresFeatureValueNames;
-    NSArray *_yawsFeatureValueNames;
-    NSArray *_rollsFeatureValueNames;
-    HMINMSConfiguration *_nmsConfiguration;
-    struct CGSize _inputDimensions;
 }
 
 + (id);
@@ -28,7 +19,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,21 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) struct CGSize inputDimensions; // @synthesize inputDimensions=_inputDimensions;
 @property(readonly) NSString *inputFeatureValueName; // @synthesize inputFeatureValueName=_inputFeatureValueName;
-@property(readonly) HMINMSConfiguration *nmsConfiguration; // @synthesize nmsConfiguration=_nmsConfiguration;
-@property(readonly) NSArray *offsetsOneFeatureValueNames; // @synthesize offsetsOneFeatureValueNames=_offsetsOneFeatureValueNames;
-@property(readonly) NSArray *offsetsZeroFeatureValueNames; // @synthesize offsetsZeroFeatureValueNames=_offsetsZeroFeatureValueNames;
-@property(readonly) NSArray *rollsFeatureValueNames; // @synthesize rollsFeatureValueNames=_rollsFeatureValueNames;
-@property(readonly) NSArray *scoresFeatureValueNames; // @synthesize scoresFeatureValueNames=_scoresFeatureValueNames;
-@property(readonly) Class superclass;
-@property(readonly) NSArray *yawsFeatureValueNames; // @synthesize yawsFeatureValueNames=_yawsFeatureValueNames;
 
 @end
 

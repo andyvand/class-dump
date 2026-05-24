@@ -6,42 +6,12 @@
 
 #import <AppKit/NSTabBarViewButton.h>
 
-@class NSArray, NSAttributedString, NSButton, NSImage, NSImageView, NSLayoutConstraint, NSMutableArray, NSStackView, NSString, NSTabBarItem, NSTextField, NSView;
 @protocol NSTabButtonDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSTabButton : NSTabBarViewButton
 {
     _Bool _didEstablishTabBarViewItemBindings;
-    NSMutableArray *_accessoryViews;
-    NSView *_placeholderAccessoryViewForCentering;
-    NSArray *_accessoryViewConstraints;
-    NSStackView *_titleContainerView;
-    NSTextField *_titleTextField;
-    NSButton *_closeButton;
-    NSImageView *_imageView;
-    NSStackView *_mainContentContainer;
-    NSView *_mainContentClippingContainer;
-    NSStackView *_accessoryViewsContainer;
-    NSLayoutConstraint *_mainContentContainerWidthConstraint;
-    NSLayoutConstraint *_mainContentContainerLeftConstraint;
-    NSLayoutConstraint *_mainContentContainerRightConstraint;
-    NSLayoutConstraint *_mainContentContainerHorizontalCenteringConstraint;
-    NSLayoutConstraint *_titleContainerViewHorizontalCenteringConstraint;
-    NSTabBarItem *_tabBarViewItem;
-    NSString *_title;
-    NSAttributedString *_attributedTitle;
-    id <NSTabButtonDelegate> _delegate;
-    double _buttonWidthForTitleLayout;
-    long long _alignment;
-    double _mainContentContainerCenterOffset;
-    double _titleTextFieldCenterOffset;
-    _Bool _pinned;
-    NSImage *_image;
-    _Bool _canShowCloseButton;
-    _Bool _showingCloseButton;
-    _Bool _isDealloced;
-    _Bool _showIcon;
 }
 
 + (id);
@@ -57,108 +27,88 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (_Bool);
 - (_Bool);
 - (double);
 - (_Bool);
 - (id);
-- (struct CGRect);
+- (struct CGRect)website context;
 - (void);
-- (unsigned long long);
+- (unsigned long long);;
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void).;
 - (_Bool);
 - (double);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)n"I"st_lspare"i"st_qspare"[2q]};
+- (void)no"Q"st_uid"I"st_gid"I"st_rdev"i"st_atimespec"{timespec="tv_sec"q"tv_nsec"q}"st_mtimespec"{timespec="tv_sec"q"tv_nsec"q}"st_ctimespec"{timespec="tv_sec"q"tv_nsec"q}"st_birthtimespec"{timespec="tv_sec"q"tv_nsec"q}"st_size"q"st_blocks"q"st_blksize"i"st_flags"I"st_gen"I"st_lspare"i"st_qspare"[2q]};
+- (void)stringWithString: /* Error: Ran out of types for this method. */;
+- (void)stringWithCapacity: /* Error: Ran out of types for this method. */;
+- (id)setEstablishedConnection:(_Bool)arg1;
+- (_Bool)_sessionWithConfiguration:delegate:delegateDispatchQueue: /* Error: Ran out of types for this method. */;
+- (_Bool)_schemeWasUpgradedDueToDynamicHSTS;
+- (void)_expectedProgressTarget;
+- (void)_enumerateHTTPHeaderFieldsWithRequest:usingBlock: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)oder decodeDownloadData:dataForkData:resourceForkData:] /* Error: Ran out of types for this method. */;
+- (void)state %d for request %p;
+- (_Bool)y_state) VALUES (';
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)@;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id)re is %{public}@ for transport %{public}@;
 - (_Bool);
 - (void);
+- (_Bool);
 - (void);
+- (void)9;
 - (id);
 - (id);
 - (id);
-- (void);
-- (long long);
+- (void)8;
+- (long long)_doSomeBackgroundLayout;
 - (void);
 - (void)1"subclassOverridesDrawing"b1"wantsBackground"b1"controlViewIsStepper"b1};
-- (id)er:(struct CGRect)arg1;
+- (id)readDataOfLength:(struct CGRect)arg1 buffer: /* Error: Ran out of types for this method. */;
 - (_Bool)¨;
 - (id)kMetadata:%@> /* Error: Ran out of types for this method. */;
 - (void)ond:(long long)arg1 third:] /* Error: Ran out of types for this method. */;
 - (_Bool)_SO_L.AME;
-- (id)ication;
+- (id)NSWindowDidChangeOcclusionStateNotification;
 - (void);
 - (void)Ñh¾ÿÁh¼ ÿ±hL¾ÿ;
 - (id)h´ÁÿÁhhÂÿÁhdÂÿÁh4Âÿ;
 - (void)àêA;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;
-@property(nonatomic) long long alignment; // @dynamic alignment;
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(nonatomic) double buttonWidthForTitleLayout; // @dynamic buttonWidthForTitleLayout;
-@property(nonatomic) _Bool canShowCloseButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <NSTabButtonDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(nonatomic) double mainContentContainerCenterOffset; // @dynamic mainContentContainerCenterOffset;
-@property(nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(nonatomic) _Bool showIcon; // @synthesize showIcon=_showIcon;
-@property(nonatomic, getter=isShowingCloseButton) _Bool showingCloseButton; // @synthesize showingCloseButton=_showingCloseButton;
-@property(readonly) Class superclass;
-@property(readonly) NSTabBarItem *tabBarViewItem; // @synthesize tabBarViewItem=_tabBarViewItem;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) double titleTextFieldCenterOffset; // @dynamic titleTextFieldCenterOffset;
 
 @end
 

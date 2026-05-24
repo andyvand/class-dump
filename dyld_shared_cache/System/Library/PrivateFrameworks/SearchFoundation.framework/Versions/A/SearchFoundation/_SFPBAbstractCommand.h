@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCommandValue;
-
 @interface _SFPBAbstractCommand
 {
     int _type;
-    _SFPBCommandValue *_value;
 }
 
 - (void);
@@ -17,27 +14,18 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (int)updateAsFulfilledWithStopDate: /* Error: Ran out of types for this method. */;
+- (_Bool)!	;
+- (id)tionComponents:(id)arg1 photosEntityStore: /* Error: Ran out of types for this method. */;
+- (id)r %{public}@ asset:%{public}@. No need for a custom date. /* Error: Ran out of types for this method. */;
+- (id)8[;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)initWithVersion:serverScore:severScoreConfidence:localScore:localScoreConfidence:domainScores: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _SFPBCommandValue *value; // @synthesize value=_value;
 
 @end
 

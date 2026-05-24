@@ -7,25 +7,20 @@
 @interface CUIRenditionSliceInformation
 {
     long long _renditionType;
-    double _boundaries[4];
-    struct CGRect _destinationRect;
-    CDStruct_3c058996 _edgeInsets;
 }
 
-- (CDStruct_3c058996);
+- (CDStruct_3c058996)b$B;
 - (double);
-- (id);
-- (id);
+- (id)@;
+- (id)C;
 - (struct CGSize);
 - (struct CGRect);
-- (struct CGSize);
+- (struct CGSize)@;
 - (id);
 - (id);
-- (long long);
+- (long long)bitmapImageRepForCachingDisplayInRect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect destinationRect; // @synthesize destinationRect=_destinationRect;
-@property(readonly, nonatomic) CDStruct_3c058996 edgeInsets; // @synthesize edgeInsets=_edgeInsets;
 @property(readonly, nonatomic) long long renditionType; // @synthesize renditionType=_renditionType;
 
 @end

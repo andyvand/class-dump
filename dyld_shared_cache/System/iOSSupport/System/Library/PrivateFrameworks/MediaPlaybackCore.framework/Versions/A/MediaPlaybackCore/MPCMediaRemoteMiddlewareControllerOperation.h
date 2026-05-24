@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCFuture, MPCMediaRemoteController, MPCMediaRemoteMiddleware, MPCPlayerPath, NSArray, NSError, NSMapTable, NSString;
+@class MPCFuture, NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface MPCMediaRemoteMiddlewareControllerOperation
 {
     NSMapTable *_inputOperations;
-    CDUnknownBlockType _invalidationHandler;
-    NSArray *_invalidationObservers;
-    MPCMediaRemoteMiddleware *_middleware;
-    MPCPlayerPath *_playerPath;
-    MPCFuture *_controllerFuture;
 }
 
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)d %d;
+- (id)ework/Versions/C/Foundation;
+- (id)g for primary apple account...;
 - (id);
 - (void);
 - (void);
@@ -34,27 +29,11 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id)að1Â0@ù
 × ;
-- (void)stigateTimeoutForEvent:(CDUnknownBlockType)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)investigateTimeoutForEvent:(CDUnknownBlockType)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) MPCMediaRemoteController *controller;
-@property(retain, nonatomic) MPCFuture *controllerFuture; // @synthesize controllerFuture=_controllerFuture;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMapTable *inputOperations; // @synthesize inputOperations=_inputOperations;
-@property(readonly, nonatomic) NSArray *inputProtocols;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSArray *invalidationObservers; // @synthesize invalidationObservers=_invalidationObservers;
-@property(retain, nonatomic) MPCMediaRemoteMiddleware *middleware; // @synthesize middleware=_middleware;
-@property(readonly, nonatomic) NSArray *outputProtocols;
-@property(retain, nonatomic) MPCPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(readonly) Class superclass;
+@property(readonly, nonatomic) MPCFuture *controllerFuture;
 
 @end
 

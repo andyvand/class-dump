@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVLayoutItemAttributes, NSString, UIImageView;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface AVVolumeSlider
 {
     _Bool _included;
-    _Bool _collapsed;
-    _Bool _hasAlternateAppearance;
-    _Bool _hasFullScreenAppearance;
-    _Bool _removed;
-    _Bool _animatingVolumeChange;
-    _Bool _hasChangedLocationAtLeastOnce;
-    _Bool _scrubsWhenTappedAnywhere;
-    UIImageView *_thumbView;
-    AVLayoutItemAttributes *_layoutAttributes;
-    double _thumbSize;
-    struct CGSize _extrinsicContentSize;
 }
 
 - (double);
@@ -32,21 +21,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (struct CGSize);
+- (_Bool)pi/client/anonymousShare/remove;
+- (void);
+- (struct CGSize)B;
 - (struct CGSize);
 - (id);
-- (struct CGRect);
+- (struct CGRect)?נ;
 - (id);
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void)_initiatorName;
 - (void);
 - (_Bool);
 - (void);
@@ -69,33 +58,14 @@ __attribute__((visibility("hidden")))
 - (void)
 × ;
 - (id)?<v@?B>24;
-- (struct UIEdgeInsets)erViewHeight: /* Error: Ran out of types for this method. */;
-- (void)layButtonHandlerForLazyPlayerLoading;
-- (_Bool)aybackControlsSupplementalSubtitleDisplayOption;
-- (void)urrentTransportControlsTopAnchorConstraint;
+- (struct UIEdgeInsets)setPlayerViewHeight: /* Error: Ran out of types for this method. */;
+- (void)playButtonHandlerForLazyPlayerLoading;
+- (_Bool)_preferredPlaybackControlsSupplementalSubtitleDisplayOption;
+- (void)_currentTransportControlsTopAnchorConstraint;
 - (_Bool)SString",&,N,V_trailingTimeText;
-- (_Bool)ureSampleBufferDisplayLayerHostView;
+- (_Bool)AVPictureInPictureSampleBufferDisplayLayerHostView;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimatingVolumeChange) _Bool animatingVolumeChange; // @synthesize animatingVolumeChange=_animatingVolumeChange;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize extrinsicContentSize; // @synthesize extrinsicContentSize=_extrinsicContentSize;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
-@property(nonatomic) _Bool hasChangedLocationAtLeastOnce; // @synthesize hasChangedLocationAtLeastOnce=_hasChangedLocationAtLeastOnce;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(nonatomic) _Bool scrubsWhenTappedAnywhere; // @synthesize scrubsWhenTappedAnywhere=_scrubsWhenTappedAnywhere;
-@property(readonly) Class superclass;
-@property(nonatomic, setter=setThumbSize:) double thumbSize; // @synthesize thumbSize=_thumbSize;
 @property(retain, nonatomic) UIImageView *thumbView; // @synthesize thumbView=_thumbView;
 
 @end

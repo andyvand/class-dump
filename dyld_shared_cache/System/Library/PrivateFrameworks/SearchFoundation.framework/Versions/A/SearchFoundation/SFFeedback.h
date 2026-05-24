@@ -7,7 +7,6 @@
 @interface SFFeedback
 {
     unsigned long long _timestamp;
-    unsigned long long _queryId;
 }
 
 + (_Bool);

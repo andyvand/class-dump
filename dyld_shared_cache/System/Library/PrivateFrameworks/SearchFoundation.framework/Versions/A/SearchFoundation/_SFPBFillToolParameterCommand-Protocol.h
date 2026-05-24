@@ -7,9 +7,11 @@
 @class NSData;
 
 @protocol _SFPBFillToolParameterCommand
+- (NSData *);
+- (NSData *)photosctlExpungeOverride;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *encodedTypedValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

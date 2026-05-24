@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)error: /* Error: Ran out of types for this method. */;
+- (id)T;
+- (void)peripheral:didDiscoverCharacteristicsForService:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSDictionary *atvLUT; // @synthesize atvLUT=_atvLUT;

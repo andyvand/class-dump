@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)_topConstraint;
 + (id);
 + (void);
 - (id);

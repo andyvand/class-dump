@@ -8,7 +8,6 @@
 {
     id _pagingSafeAreaInsets;
     id _screenSize;
-    id _$observationRegistrar;
 }
 
 @end

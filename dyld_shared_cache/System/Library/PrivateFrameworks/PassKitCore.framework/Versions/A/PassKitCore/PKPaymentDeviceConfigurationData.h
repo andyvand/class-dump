@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PKPaymentDeviceConfigurationData
 {
     _Bool _devSigned;
-    NSNumber *_primaryJSBLSequenceCounter;
-    NSString *_secureElementIdentifier;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -19,17 +17,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)otationCursor;
 - (void);
-- (id);
+- (id);
 - (void)rameworks/Sharing.framework/Sharing;
 - (void);
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool devSigned; // @synthesize devSigned=_devSigned;
 @property(copy, nonatomic) NSNumber *primaryJSBLSequenceCounter; // @synthesize primaryJSBLSequenceCounter=_primaryJSBLSequenceCounter;
-@property(copy, nonatomic) NSString *secureElementIdentifier; // @synthesize secureElementIdentifier=_secureElementIdentifier;
 
 @end
 

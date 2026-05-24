@@ -14,12 +14,12 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)QCSCN_SceneSourceReserved;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_alignedStableRectForRect:(id)arg1 alignToContent:alignToScreenUsingPageController:orAlignToBitmapContext:usingAnnotation: /* Error: Ran out of types for this method. */;
+- (void)that requires the migrator service is not supported anymore.;
 - (void);
-- (void);
-- (void)em:inSection:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
+- (void)_createShuffleCloneForItem:inSection:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *keyPath; // @synthesize keyPath=_keyPath;

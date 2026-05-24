@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrightnessSystemClientInternal, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
-
 @interface DFRBrightnessClient
 {
     struct __IOHIDEventSystemClient *_hidClient;
-    struct __IOHIDServiceClient *_DFRService;
-    NSObject<OS_os_log> *_logHandle;
-    NSMutableDictionary *_propertyCache;
-    NSObject<OS_dispatch_queue> *_scheduledQueue;
-    NSObject<OS_dispatch_queue> *_hidQueue;
-    CDUnknownBlockType _clientCallbackBlockDisplayState;
-    CDUnknownBlockType _clientCallbackBlockHarmonyState;
-    CDUnknownBlockType _displayStateNotificationHandler;
-    int _displayStateNotificationToken;
-    CDUnknownBlockType _coreBrightnessClientCallback;
-    BrightnessSystemClientInternal *_coreBrightnessClient;
-    long long _displayState;
-    long long _harmonyState;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -36,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)3;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -49,16 +33,15 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
-- (void);
-- (id);
+- (void)K.;
+- (id)!;
 - (_Bool);
 
 // Remaining properties
 @property(readonly) long long displayState; // @synthesize displayState=_displayState;
-@property(readonly) long long harmonyState; // @synthesize harmonyState=_harmonyState;
 
 @end
 

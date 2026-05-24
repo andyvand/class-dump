@@ -4,25 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AWDSymptomsSignificantOperationalEvent
 {
     long long _errorCode;
-    unsigned long long _timestamp;
-    NSString *_alternateName;
-    int _error;
-    NSString *_errorDomain;
-    int _name;
-    int _status;
-    struct {
-        unsigned int errorCode:1;
-        unsigned int timestamp:1;
-        unsigned int error:1;
-        unsigned int name:1;
-        unsigned int status:1;
-    } _has;
 }
 
 - (void);
@@ -37,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (_Bool);
-- (id);
+- (id));
 - (_Bool);
-- (void);
+- (void)addRowWithTitle:(_Bool)arg1 description:image:radioButton: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -47,17 +32,17 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)yOSUpdates;
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)kIPCGuidanceStateReplyEvChargingMetadataKey;
+- (void)inishLocationUpdate:(_Bool)arg1 ];
+- (id);
 - (void);
 - (void);
 - (id);
 - (int);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -69,20 +54,7 @@ __attribute__((visibility("hidden")))
 - (long long)ameters:) with timeout = %d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *alternateName; // @synthesize alternateName=_alternateName;
-@property(nonatomic) int error; // @synthesize error=_error;
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(readonly, nonatomic) _Bool hasAlternateName;
-@property(nonatomic) _Bool hasError;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasStatus;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int name; // @synthesize name=_name;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

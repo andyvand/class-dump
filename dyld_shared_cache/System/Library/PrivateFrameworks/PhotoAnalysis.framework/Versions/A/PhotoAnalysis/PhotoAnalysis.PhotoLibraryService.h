@@ -7,11 +7,6 @@
 @interface PhotoAnalysis.PhotoLibraryService
 {
     id $defaultActor;
-    id identifier;
-    id worker;
-    id associatedWorkers;
-    id stateHolder;
-    id operationManager;
 }
 
 - (void);
@@ -28,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

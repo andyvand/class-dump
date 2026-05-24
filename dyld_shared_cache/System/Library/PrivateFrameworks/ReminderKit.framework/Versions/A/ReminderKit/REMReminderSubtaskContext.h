@@ -17,19 +17,18 @@
 - (long long);
 - (id);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)áê°!xEùÑr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) REMReminder *parentReminder;
 @property(retain, nonatomic) REMReminder *reminder; // @synthesize reminder=_reminder;
 
 @end

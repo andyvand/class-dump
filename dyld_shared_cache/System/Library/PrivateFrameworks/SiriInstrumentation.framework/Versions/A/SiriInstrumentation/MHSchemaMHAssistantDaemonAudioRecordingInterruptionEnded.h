@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioRecordingInterruptionEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)nt);
+- (id)%;
+- (void)2;
+- (void)n1/asn_pack.c;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (id)enerated:(id)arg1;
+- (id)setHasPatternSequenceGenerated:(id)arg1;
 - (id)SchemaExecutorStringQueryEntityCallFailed",&,N,V_failed;
-- (_Bool)OUNTRYCODE_BJ;
+- (_Bool)ISOCOUNTRYCODE_BJ;
 - (_Bool)&$;
 - (void)Hÿ©	²'7(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface PXAsyncOperation
 {
     struct os_unfair_lock_s _stateLock;
-    int _operationState;
 }
 
 - (void);
@@ -16,7 +15,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)lers;
+- (_Bool)_invalidateControllers;
 - (_Bool)ÓMÈÉ?;
 - (_Bool);
 

@@ -9,25 +9,6 @@
 @interface SwiftUI.HostingScrollView : SwiftUI.AppKitScrollView
 {
     id viewType;
-    id host;
-    id parentContainer;
-    id responder;
-    id layoutDirection;
-    id rtlAdjustment;
-    id lastOrigin;
-    id safeAreaHelper;
-    id nonScrollableEdgeInsets;
-    id pendingContext;
-    id animationTarget;
-    id animationTargetConfig;
-    id animationOffset;
-    id lastScrollGestureAxis;
-    id orthogonalAccumulator;
-    id accumulatedAxisChangeThreshold;
-    id oldContentMargins;
-    id viewGraph;
-    id pinnedViews;
-    id configuration;
 }
 
 + (_Bool);
@@ -42,7 +23,7 @@
 - (id);
 - (void);
 - (struct CGRect);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void)U7¸þ;

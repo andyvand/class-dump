@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSAlternateQuerySuggestion : SISchemaInstrumentationMessage
 {
     int _alternateQuerySuggestionCount;
-    struct {
-        unsigned int alternateQuerySuggestionCount:1;
-    } _has;
 }
 
 - (void);
@@ -25,17 +20,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)fallbackGUID:(id)arg1 %@ (Result:%lu) /* Error: Ran out of types for this method. */;
 - (id);
 - (id)Ar°!@ùñÝ1Â0@ù
 × ;
-- (id)citResolutionRequest;
+- (id)_explicitResolutionRequest;
 - (id)llContext",&,N,V_RGCacheManagerCallContext;
 
 // Remaining properties
 @property(nonatomic) int alternateQuerySuggestionCount; // @synthesize alternateQuerySuggestionCount=_alternateQuerySuggestionCount;
-@property(nonatomic) _Bool hasAlternateQuerySuggestionCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

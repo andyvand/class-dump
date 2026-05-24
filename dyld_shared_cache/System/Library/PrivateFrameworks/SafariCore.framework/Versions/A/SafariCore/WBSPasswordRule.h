@@ -7,19 +7,17 @@
 @interface WBSPasswordRule
 {
     long long _type;
-    id _value;
 }
 
 + (id);
 - (id);
-- (long long);
-- (id);
+- (long long)_shouldExcludeFromBackgroundRefresh;
+- (id)ay"24@"AVPlayerItemTrack"32;
 - (void)±X°1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

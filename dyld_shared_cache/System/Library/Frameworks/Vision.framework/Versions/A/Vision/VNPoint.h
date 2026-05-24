@@ -7,7 +7,6 @@
 @interface VNPoint
 {
     double _x;
-    double _y;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)fp_isiCloudDriveOrCloudDocsIdentifier;
 - (id);
 - (id);
 - (unsigned long long);
@@ -25,14 +24,12 @@
 - (void);
 - (id);
 - (double)nceForSolution"f"frameWidth"i"frameHeight"i"xScaleFactor"f"yScaleFactor"f"runningMinDiffDeviation"i"maxFrameSkipScaleFactor"f"majorAxisScaler"f"minorAxisScalar"f"contourSizeUpperBound"f"contourSizeLowerBound"f"maxRadiusToCompensate"f"maxRadiusBasedDeviation"f"xConsistencyDeviation"f"rejectionScaler"f};
-- (struct CGPoint)tionRequest;
+- (struct CGPoint)VNTranslationalImageRegistrationRequest;
 - (id)H>ºÚJ>²L>!N>`vO>|P>4Q>·Q>¼R>¼R>·Q>4Q>|P>`vO>!N>²L>ºÚJ>§èH>ð§F>Ê2D>7A>;
 - (double)©Í¤T Íÿ;
 
 // Remaining properties
 @property(readonly) struct CGPoint location;
-@property(readonly) double x; // @synthesize x=_x;
-@property(readonly) double y; // @synthesize y=_y;
 
 @end
 

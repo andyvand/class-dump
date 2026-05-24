@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMutableArray;
-
 @interface MKStarRatingView
 {
     double _rating;
-    unsigned long long _numLevels;
-    double _padding;
-    _Bool _highlighted;
-    NSMutableArray *_ratingViews;
-    long long _numReviews;
-    long long _starStyle;
-    NSImage *_fullStarImage;
-    NSImage *_halfStarImage;
-    NSImage *_emptyStarImage;
-    NSImage *_fullStarHighlightedImage;
-    NSImage *_halfStarHighlightedImage;
-    NSImage *_emptyStarHighlightedImage;
 }
 
 + (id);
 + (id);
 + (id);
-- (double);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (double)PLCPUEnergySnapshot;
+- (long long)ionWithClientID:creating connection to powerlog! /* Error: Ran out of types for this method. */;
+- (void)arting report intervals to powerlog, identifierToDiscretionaryIntervals=;
+- (void)createIdentifierForSubsystem:(unsigned long long)arg1 category:] /* Error: Ran out of types for this method. */;
+- (void)value;
+- (void)BLMStopAllDuetEvents;
+- (void)ug.accumulatedCPUEnergy;
+- (void)etworkEnergy;
+- (void)CPUEnergyPrevious;
+- (void)PowerlogTimestampPrevious;
 - (unsigned long long);
 - (id);
 - (id);
@@ -46,33 +32,24 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
+- (void)awWifesBrothersWife>!$_;
+- (struct CGSize);
 - (id);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)SVoiceTriggerSecondPass[%{public}@]:(struct CGRect)arg1 secondpass SAT reject but overriding decision with PHS threshold reduced setted;
 - (double);
 - (void);
 - (void);
 - (void);
-- (void)gAndReviewSummaryAttributedStringForMapItem:textColor:font:theme: /* Error: Ran out of types for this method. */;
-- (id)didZoomWithDirection:(long long)arg1 type: /* Error: Ran out of types for this method. */;
-- (struct NSEdgeInsets)oCallViewControllerLayoutDelegate;
-- (_Bool)PriceDescription;
+- (void)ratingAndReviewSummaryAttributedStringForMapItem:textColor:font:theme: /* Error: Ran out of types for this method. */;
+- (id)lookAroundGestureController:(long long)arg1 didZoomWithDirection:type: /* Error: Ran out of types for this method. */;
+- (struct NSEdgeInsets)_needToCallViewControllerLayoutDelegate;
+- (_Bool)_hasPriceDescription;
 - (void)_MKPlaceViewControllerDelegate>",W,N,V_placeViewControllerDelegate;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *emptyStarHighlightedImage; // @synthesize emptyStarHighlightedImage=_emptyStarHighlightedImage;
-@property(retain, nonatomic) NSImage *emptyStarImage; // @synthesize emptyStarImage=_emptyStarImage;
-@property(retain, nonatomic) NSImage *fullStarHighlightedImage; // @synthesize fullStarHighlightedImage=_fullStarHighlightedImage;
-@property(retain, nonatomic) NSImage *fullStarImage; // @synthesize fullStarImage=_fullStarImage;
-@property(retain, nonatomic) NSImage *halfStarHighlightedImage; // @synthesize halfStarHighlightedImage=_halfStarHighlightedImage;
-@property(retain, nonatomic) NSImage *halfStarImage; // @synthesize halfStarImage=_halfStarImage;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property(nonatomic) unsigned long long numberOfRatingLevels; // @synthesize numberOfRatingLevels=_numLevels;
-@property(nonatomic) double rating; // @synthesize rating=_rating;
-@property(nonatomic) long long starStyle; // @synthesize starStyle=_starStyle;
 
 @end
 

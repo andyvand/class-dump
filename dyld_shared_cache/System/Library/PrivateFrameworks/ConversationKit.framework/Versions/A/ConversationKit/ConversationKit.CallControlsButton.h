@@ -7,23 +7,18 @@
 @interface ConversationKit.CallControlsButton
 {
     id style;
-    id offColors;
-    id onColors;
-    struct CGSize padding;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)detectProminentObjects;
 - (id);
 - (void);
 - (struct CGSize)ol}d;
-- (void)on;
+- (void)DidChangeIsWaitingOnFirstFrameNotification;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allowsVibrancy;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 @property(nonatomic) struct CGSize padding; // @synthesize padding;
 
 @end

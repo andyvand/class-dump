@@ -15,11 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long endOfFragmentSampleIndex; // @dynamic endOfFragmentSampleIndex;
-@property(nonatomic) unsigned long long endOfVertexSampleIndex; // @dynamic endOfVertexSampleIndex;
 @property(retain, nonatomic) id <MTLCounterSampleBuffer> sampleBuffer; // @dynamic sampleBuffer;
-@property(nonatomic) unsigned long long startOfFragmentSampleIndex; // @dynamic startOfFragmentSampleIndex;
-@property(nonatomic) unsigned long long startOfVertexSampleIndex; // @dynamic startOfVertexSampleIndex;
 
 @end
 

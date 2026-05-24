@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioRecordingEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)l was granted, but no prepare is available to apply (downloading in progress for another client);
 - (id);
 - (void);
-- (void);
+- (void)GENERALSTRING;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -26,14 +23,12 @@
 × ;
 - (id)POMMESSchemaPOMMESCacheMaintenanceStarted",&,N,V_startedOrChanged;
 - (id)N,V_experimentTriggered;
-- (_Bool)_GENERATIVE_AI;
+- (_Bool)IEROUTING_GENERATIVE_AI;
 - (_Bool)q;
 - (void)S®2=(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

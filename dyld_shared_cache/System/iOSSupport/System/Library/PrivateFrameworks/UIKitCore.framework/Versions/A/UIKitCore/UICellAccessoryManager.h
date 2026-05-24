@@ -4,43 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, UICellAccessoryConfiguration, UIView;
-@protocol UICellAccessoryLayout;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UICellAccessoryManager
 {
     struct CGSize _enforcedContainerSize;
-    _Bool _needsLayout;
-    CDUnknownBlockType _standardLayoutWidthProvider;
-    CDUnknownBlockType _disclosureLayoutWidthProvider;
-    id <UICellAccessoryLayout> _leadingLayout;
-    id <UICellAccessoryLayout> _trailingLayout;
-    NSDictionary *_configurations;
-    NSString *_currentConfigurationIdentifier;
-    UIView *_containerView;
-    UICellAccessoryConfiguration *_previousConfiguration;
-    NSMutableDictionary *_accessoryViews;
-    long long _animatedLayoutUpdatesCount;
-    struct CGSize _previousContainerSize;
-    struct UIEdgeInsets _safeAreaInsets;
-    struct UIEdgeInsets _contentInset;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (struct CGRect)setHeaderTextLabel:(id)arg1;
 - (void);
 - (id);
+- (id);
+- (id)String"24q32q40@?<v@?B@"NSError">48;
+- (void)__podcast_KEY;
+- (void)ze;
+- (id)c	@A9kA;
 - (void);
 - (void);
 - (id);
@@ -54,10 +39,10 @@ __attribute__((visibility("hidden")))
 - (long long)0@ù
 × ;
 - (CDUnknownBlockType);
-- (struct CGSize)eraction;
-- (void)ge:(long long)arg1 session: /* Error: Ran out of types for this method. */;
+- (struct CGSize)textDropInteraction;
+- (void)_updateDropCaretToRange:(long long)arg1 session: /* Error: Ran out of types for this method. */;
 - (void)an anchor;
-- (id)t;
+- (id)timeOffset;
 - (id)rOfScopeTitles=%lu scopeBar=%p;
 - (struct UIEdgeInsets);
 - (void)Êÿbí;
@@ -73,23 +58,7 @@ __attribute__((visibility("hidden")))
 - (void)¬_;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *accessoryViews; // @synthesize accessoryViews=_accessoryViews;
-@property(nonatomic) long long animatedLayoutUpdatesCount; // @synthesize animatedLayoutUpdatesCount=_animatedLayoutUpdatesCount;
-@property(retain, nonatomic) NSDictionary *configurations; // @synthesize configurations=_configurations;
-@property(readonly, nonatomic) struct CGSize containerSize;
 @property(nonatomic) __weak UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, nonatomic) struct CGRect contentFrame;
-@property(readonly, nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;
-@property(readonly, nonatomic) UICellAccessoryConfiguration *currentConfiguration;
-@property(copy, nonatomic) NSString *currentConfigurationIdentifier; // @synthesize currentConfigurationIdentifier=_currentConfigurationIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType disclosureLayoutWidthProvider; // @synthesize disclosureLayoutWidthProvider=_disclosureLayoutWidthProvider;
-@property(retain, nonatomic) id <UICellAccessoryLayout> leadingLayout; // @synthesize leadingLayout=_leadingLayout;
-@property(nonatomic) _Bool needsLayout; // @synthesize needsLayout=_needsLayout;
-@property(retain, nonatomic) UICellAccessoryConfiguration *previousConfiguration; // @synthesize previousConfiguration=_previousConfiguration;
-@property(nonatomic) struct CGSize previousContainerSize; // @synthesize previousContainerSize=_previousContainerSize;
-@property(nonatomic) struct UIEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
-@property(copy, nonatomic) CDUnknownBlockType standardLayoutWidthProvider; // @synthesize standardLayoutWidthProvider=_standardLayoutWidthProvider;
-@property(retain, nonatomic) id <UICellAccessoryLayout> trailingLayout; // @synthesize trailingLayout=_trailingLayout;
 
 @end
 

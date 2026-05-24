@@ -4,50 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognitionSession, NSArray, NSDate, NSHashTable, NSObject, NSSet, NSString, NSTimer, NSUUID, PKAutoRefineQuery, PKAutoRefineTaskManager, PKDrawing, PKHandwritingTranscriptionCache, PKRecognitionQueryController, PKRecognitionSessionObserverWrapper;
-@protocol CHCalculateDocumentProvider, CHCanvasAttachmentProvider, CHSynthesizingText, CHSynthesizingTextWithLocaleFallback, OS_dispatch_queue, PKAutoRefineViewDelegate, PKRecognitionSessionManagerDelegate;
-
 @interface PKRecognitionSessionManager
 {
     _Bool _shouldLoadAndSaveSession;
-    _Atomic long long _stateAtomic;
-    NSObject<OS_dispatch_queue> *_recognitionSessionQueue;
-    PKDrawing *_drawingForGetter;
-    PKDrawing *q_drawing;
-    CHRecognitionSession *q_session;
-    id <CHSynthesizingTextWithLocaleFallback> q_textSynthesizerWithLocaleFallback;
-    id <CHSynthesizingText> q_textSynthesizer;
-    NSDate *q_previousTime;
-    id <CHCalculateDocumentProvider> q_calculateDocumentProvider;
-    id <CHCanvasAttachmentProvider> q_canvasAttachmentProvider;
-    PKHandwritingTranscriptionCache *q_transcriptionCache;
-    PKHandwritingTranscriptionCache *q_stagingTranscriptionCache;
-    NSArray *q_visibleOnscreenStrokes;
-    _Bool q_wantsGrouping;
-    _Bool q_wantsDataDetection;
-    _Bool q_wantsHashtagDetection;
-    _Bool q_wantsMentionDetection;
-    _Bool q_wantsProofreadingDetection;
-    _Bool q_wantsTranscription;
-    _Bool q_wantsAutoRefine;
-    PKRecognitionQueryController *q_queryController;
-    PKRecognitionSessionObserverWrapper *_observerWrapper;
-    PKAutoRefineQuery *q_autoRefineQuery;
-    PKAutoRefineTaskManager *q_autoRefineManager;
-    NSHashTable *q_listeners;
-    _Bool _isTearingDown;
-    NSTimer *_proofreadingTimer;
-    struct {
-        unsigned int delegateSupportsFoundDataDetectorItems:1;
-        unsigned int delegateSupportsFoundHashtagItems:1;
-        unsigned int delegateSupportsFoundMentionItems:1;
-        unsigned int delegateSupportsFoundProofreadingItems:1;
-        unsigned int delegateSupportsFoundGroupItems:1;
-    } _delegateFlags;
-    NSUUID *_sessionCacheIdentifier;
-    id <PKRecognitionSessionManagerDelegate> _delegate;
-    id <PKAutoRefineViewDelegate> _autoRefineViewDelegate;
-    NSSet *_mentionSuffixes;
 }
 
 + (_Bool);
@@ -98,7 +57,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -133,7 +92,7 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)5;
 - (id);
 - (id);
 - (void)",W,D,N;
@@ -141,19 +100,7 @@
 - (void)S -Âä;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKAutoRefineViewDelegate> autoRefineViewDelegate; // @synthesize autoRefineViewDelegate=_autoRefineViewDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKRecognitionSessionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) PKDrawing *drawing;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSSet *mentionSuffixes; // @synthesize mentionSuffixes=_mentionSuffixes;
-@property(readonly, nonatomic) CHRecognitionSession *session;
 @property(nonatomic) long long state;
-@property(readonly) Class superclass;
 
 @end
 

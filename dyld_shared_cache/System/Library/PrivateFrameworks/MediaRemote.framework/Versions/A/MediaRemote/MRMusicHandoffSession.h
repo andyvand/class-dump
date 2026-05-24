@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, NSData, NSObject, NSString, _MRMusicHandoffSessionProtobuf;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface MRMusicHandoffSession
 {
     NSString *_identifier;
-    MRPlayerPath *_sourcePlayerPath;
-    MRPlayerPath *_destinationPlayerPath;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (void);
 + (_Bool);
-- (id);
+- (id)jh8);
 - (id);
 - (id);
 - (id);
@@ -25,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)$;
 - (id);
 - (id);
 - (id);
@@ -34,12 +31,7 @@
 - (void)String",&,N,V_localizedTitle;
 
 // Remaining properties
-@property(readonly, nonatomic) MRPlayerPath *destinationPlayerPath; // @synthesize destinationPlayerPath=_destinationPlayerPath;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _MRMusicHandoffSessionProtobuf *protobuf;
-@property(readonly, nonatomic) NSData *protobufData;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) MRPlayerPath *sourcePlayerPath; // @synthesize sourcePlayerPath=_sourcePlayerPath;
 
 @end
 

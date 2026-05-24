@@ -5,12 +5,10 @@
 //
 
 @class NSString, PKToolConfiguration;
-@protocol PKPaletteErasingTool, PKPaletteHandwritingTool, PKPaletteInkingTool;
 
 @interface PKPaletteConcreteBaseTool
 {
     PKToolConfiguration *_cachedConfiguration;
-    NSString *_toolVariant;
 }
 
 - (id);
@@ -25,24 +23,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)onDelegate;
+- (id)sharingAuthorizations;
+- (void)_PKColorPickerImplementationDelegate;
 
 // Remaining properties
-@property(readonly, nonatomic) PKToolConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PKPaletteErasingTool> erasingTool;
-@property(readonly, nonatomic) id <PKPaletteHandwritingTool> handwritingTool;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PKPaletteInkingTool> inkingTool;
-@property(readonly, nonatomic) NSString *itemIdentifier;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *toolIdentifier;
-@property(readonly, nonatomic) NSString *toolVariant; // @synthesize toolVariant=_toolVariant;
 
 @end
 

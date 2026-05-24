@@ -6,7 +6,7 @@
 
 #import <ReminderKit/REMBaseSection.h>
 
-@class NSString, REMList, REMObjectID;
+@class REMList;
 
 @interface REMListSection : REMBaseSection
 {
@@ -17,14 +17,12 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)>;
 - (void)ë!hFùñr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *canonicalName; // @dynamic canonicalName;
 @property(readonly, nonatomic) REMList *list; // @synthesize list=_list;
-@property(retain, nonatomic) REMObjectID *listID; // @dynamic listID;
 
 @end
 

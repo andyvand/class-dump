@@ -9,12 +9,10 @@
 @interface PKServiceProviderPurchaseAction
 {
     NSString *_identifier;
-    NSString *_localizedTitle;
-    NSString *_localizedDescription;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)Frameworks/Foundation.framework/Versions/C/Foundation;
 - (_Bool);
 - (void);
 - (id);
@@ -23,17 +21,15 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)_sockAllocKernelOs;
 - (void);
 - (id);
-- (id)edsSyncWithFinance;
-- (void)on;
-- (id)xpressCredentialTypes;
+- (id)needsSyncWithFinance;
+- (void)PKPaymentVerificationObserverPassVerifiedNotification;
+- (id)expressCredentialTypes;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

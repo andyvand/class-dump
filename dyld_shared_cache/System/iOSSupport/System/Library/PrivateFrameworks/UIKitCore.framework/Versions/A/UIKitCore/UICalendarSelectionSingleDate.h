@@ -6,22 +6,16 @@
 
 #import <UIKitCore/UICalendarSelection.h>
 
-@class NSDateComponents;
-@protocol UICalendarSelectionSingleDateDelegate;
-
 @interface UICalendarSelectionSingleDate : UICalendarSelection
 {
     CDStruct_e5c9d39b _delegateImplements;
-    _Bool __selectionFollowsMonthSelection;
-    id <UICalendarSelectionSingleDateDelegate> _delegate;
-    NSDateComponents *_selectedDate;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)| No recoverable messages data to sync;
+- (_Bool)Transfer %@ for messageItem:(id)arg1 %@ groupPhotoUpdate:%@ /* Error: Ran out of types for this method. */;
+- (void)ier;
+- (void)o handle %@;
+- (void)Relay service set to sms watch service relay , accounts count %@ devices count %@;
 - (void);
 - (void);
 - (void);
@@ -40,8 +34,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool _selectionFollowsMonthSelection; // @synthesize _selectionFollowsMonthSelection=__selectionFollowsMonthSelection;
-@property(readonly, nonatomic) __weak id <UICalendarSelectionSingleDateDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSDateComponents *selectedDate; // @synthesize selectedDate=_selectedDate;
 
 @end
 

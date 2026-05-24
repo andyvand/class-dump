@@ -7,7 +7,6 @@
 @interface (extension in CoreMIDI):__C.MIDIPacket.Builder
 {
     id packetPointer;
-    id capacity;
 }
 
 @end

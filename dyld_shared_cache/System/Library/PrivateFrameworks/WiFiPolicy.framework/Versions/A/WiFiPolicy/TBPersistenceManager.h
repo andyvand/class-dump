@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSManagedObjectModel, NSPersistentStoreCoordinator, TBPersistenceRemoteStoreServer;
+@class NSManagedObjectContext, NSManagedObjectModel;
 
 @interface TBPersistenceManager
 {
     NSManagedObjectContext *_persistenceContext;
-    NSPersistentStoreCoordinator *_persistenceCoordinator;
-    NSManagedObjectModel *_managedObjectModel;
-    TBPersistenceRemoteStoreServer *_remoteStoreServer;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void)afð!ÌBù1¥°1Â0@ù
 × ;
-- (id)alCca80to85;
+- (id)totalCca80to85;
 - (void)_block_invoke;
 
 // Remaining properties
 @property(retain, nonatomic) NSManagedObjectModel *managedObjectModel; // @synthesize managedObjectModel=_managedObjectModel;
-@property(retain, nonatomic) NSManagedObjectContext *persistenceContext; // @synthesize persistenceContext=_persistenceContext;
-@property(retain, nonatomic) NSPersistentStoreCoordinator *persistenceCoordinator; // @synthesize persistenceCoordinator=_persistenceCoordinator;
-@property(retain, nonatomic) TBPersistenceRemoteStoreServer *remoteStoreServer; // @synthesize remoteStoreServer=_remoteStoreServer;
 
 @end
 

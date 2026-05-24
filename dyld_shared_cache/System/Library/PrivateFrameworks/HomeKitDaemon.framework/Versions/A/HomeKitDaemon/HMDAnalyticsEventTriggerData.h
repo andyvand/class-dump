@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAnalyticsPredicateData, NSArray;
-
 __attribute__((visibility("hidden")))
 @interface HMDAnalyticsEventTriggerData
 {
     _Bool _containsRecurrences;
-    _Bool _executeOnce;
-    int _activationState;
-    int _activationType;
-    NSArray *_events;
-    HMDAnalyticsPredicateData *_predicate;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)pastMemoriesForConfiguration:withGraph:progressReporter: /* Error: Ran out of types for this method. */;
+- (void)insertSource:(_Bool)arg1 target: /* Error: Ran out of types for this method. */;
+- (void)gurations loaded from the plist is nil, failed with error %@;
 - (void);
 - (int);
 - (id);
 - (void);
 - (int)!DùQð1Â0@ù
 × ;
-- (id)sPrimaryUserInfoSubscription;
-- (void)pInfo:(id)arg1;
+- (id)supportsPrimaryUserInfoSubscription;
+- (void)setLastSetupInfo:(id)arg1;
 - (void);
 
 // Remaining properties
 @property(nonatomic) int activationState; // @synthesize activationState=_activationState;
-@property(nonatomic) int activationType; // @synthesize activationType=_activationType;
-@property _Bool containsRecurrences; // @synthesize containsRecurrences=_containsRecurrences;
-@property(copy, nonatomic) NSArray *events; // @synthesize events=_events;
-@property _Bool executeOnce; // @synthesize executeOnce=_executeOnce;
-@property(retain, nonatomic) HMDAnalyticsPredicateData *predicate; // @synthesize predicate=_predicate;
 
 @end
 

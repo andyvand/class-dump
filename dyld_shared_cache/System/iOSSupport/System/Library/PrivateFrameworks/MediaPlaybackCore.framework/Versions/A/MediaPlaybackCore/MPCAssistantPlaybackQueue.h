@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, NSDictionary, NSString;
+@class NSString;
 
 @interface MPCAssistantPlaybackQueue
 {
     _Bool _shouldOverrideManuallyCuratedQueue;
-    _Bool _shouldImmediatelyStartPlayback;
-    NSString *_contextID;
-    NSString *_siriRecommendationID;
-    NSString *_siriAssetInfo;
-    NSString *_featureName;
-    NSString *_queueGroupingID;
-    NSDictionary *_siriWHAMetricsInfo;
-    ICUserIdentity *_userIdentity;
-    NSString *_homeKitUserIdentifier;
 }
 
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)eAccount.framework/Versions/A/AppleAccount;
+- (void)System/Library/PrivateFrameworks/AccountsDaemon.framework/Versions/A/AccountsDaemon;
 - (id);
-- (void);
+- (void)aryServices.framework/Versions/A/PhotoLibraryServices;
 - (struct _MRSystemAppPlaybackQueue *);
 - (void);
 - (id);
@@ -39,7 +30,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)sr/lib/libc++.1.dylib;
 - (void);
 - (id);
 - (void)c}@ - Unpreparing tap;
@@ -47,15 +38,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contextID; // @synthesize contextID=_contextID;
-@property(copy, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
-@property(copy, nonatomic) NSString *homeKitUserIdentifier; // @synthesize homeKitUserIdentifier=_homeKitUserIdentifier;
-@property(copy, nonatomic) NSString *queueGroupingID; // @synthesize queueGroupingID=_queueGroupingID;
-@property(nonatomic) _Bool shouldImmediatelyStartPlayback; // @synthesize shouldImmediatelyStartPlayback=_shouldImmediatelyStartPlayback;
-@property(nonatomic) _Bool shouldOverrideManuallyCuratedQueue; // @synthesize shouldOverrideManuallyCuratedQueue=_shouldOverrideManuallyCuratedQueue;
-@property(copy, nonatomic) NSString *siriAssetInfo; // @synthesize siriAssetInfo=_siriAssetInfo;
-@property(copy, nonatomic) NSString *siriRecommendationID; // @synthesize siriRecommendationID=_siriRecommendationID;
-@property(copy, nonatomic) NSDictionary *siriWHAMetricsInfo; // @synthesize siriWHAMetricsInfo=_siriWHAMetricsInfo;
-@property(copy, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

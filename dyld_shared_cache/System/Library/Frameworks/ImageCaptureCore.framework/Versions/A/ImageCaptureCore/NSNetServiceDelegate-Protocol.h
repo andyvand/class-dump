@@ -5,5 +5,8 @@
 //
 
 @protocol NSNetServiceDelegate
+
+@optional
+- (void);
 @end
 

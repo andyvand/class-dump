@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoStreamRTTPLRRateControl
 {
     double _rampUpFrozenDuration;
-    unsigned short _currentTierIndex;
-    double _packetLossRate;
-    double _roundTripTime;
-    double _rampUpFrozenTime;
-    double _rampDownPacketLossRate;
-    double _rampDownRoundTripTime;
-    double _rampUpPacketLossRate;
-    int _state;
-    double _rateControlTime;
-    unsigned int _targetBitrate;
-    unsigned short _minTierIndex;
-    unsigned short _maxTierIndex;
-    double _rateControlInterval;
 }
 
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)*7;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -41,28 +26,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (void);
+- (void);
 - (double);
+- (id);
 - (id);
-- (id);
-- (int);
+- (int)SSSSSSS[6C][6C]}]{?=SSCssssssss}[4{?=SSCSSCssssssss}]{?=SCCCC}{?=SS[256C]}{?=SCC}{?=SCCCCCC}SI}32^{ToneCurve_Control=dddfffffffBfdBBffBi^{__CFString}iiiIIIIIfffffIb1b1ffBfiBBfBBBIBffI{_AuxData=iiifffffifffB}{_TMData=iiiIiifffifffffffffffffffffBfiiff{_Percentiles_t=[8f][8f]I}BBBBBffi[10f]ffffffffffffffffffffffffff}{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_TMData=iiiIiifffifffffffffffffffffBfiiff{_Percentiles_t=[8f][8f]I}BBBBBffi[10f]ffffffffffffffffffffffffff}{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_HLGTMParam=f{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}40^{?=IIIIIIIIIIIIIfIIIII[9f][9f]IfIIfiBiIBB}48^{EngineHDRContext=IIiIIIIIIIIIIQQQQBBB{_DpcParam=ffffBBfIf}I}56;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double nowrd;
-@property(readonly, nonatomic) double nowrdAcc;
-@property(readonly, nonatomic) double nowrdShort;
-@property(readonly, nonatomic) double owrd;
-@property(nonatomic) double rateControlInterval; // @synthesize rateControlInterval=_rateControlInterval;
 @property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned int targetBitrate; // @synthesize targetBitrate=_targetBitrate;
 
 @end
 

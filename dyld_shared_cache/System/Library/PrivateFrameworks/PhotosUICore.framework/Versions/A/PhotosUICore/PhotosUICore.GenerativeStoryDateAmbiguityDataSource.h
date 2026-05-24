@@ -7,9 +7,6 @@
 @interface PhotosUICore.GenerativeStoryDateAmbiguityDataSource
 {
     id _selectedDateComponents;
-    id logger;
-    id localCalendar;
-    id _$observationRegistrar;
 }
 
 @end

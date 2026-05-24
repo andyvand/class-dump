@@ -8,9 +8,9 @@
 {
 }
 
++ (void)C;
 + (void);
-+ (void);
-- (id);
+- (id)!;
 - (void)y_-þTy_NÿTy_SaySiGIVG#þTy_,ü$GGSiSgG0;
 
 @end

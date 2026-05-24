@@ -6,26 +6,21 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class UIColor, UIImageView, UITableViewCell;
+@class UIColor, UITableViewCell;
 
 __attribute__((visibility("hidden")))
 @interface UITableViewCellReorderControl : UIControl
 {
     UITableViewCell *_cell;
-    struct CGPoint _downPoint;
-    double _focalY;
-    double _focalHeight;
-    UIImageView *_imageView;
-    UIColor *_accessoryTintColor;
 }
 
-- (_Bool);
+- (_Bool)_setTimeoutTimerForRelayMessageID:timeout: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (id)H;
+- (void)or reporting junk -> %@;
 - (struct CGSize);
 - (void);
-- (_Bool)etForEnvironmentScrollableContainer:toShowFocusItem:targetOffset: /* Error: Ran out of types for this method. */;
+- (_Bool)contentOffsetForEnvironmentScrollableContainer:toShowFocusItem:targetOffset: /* Error: Ran out of types for this method. */;
 - (void)&,N,V_druidConnection;
 - (void)ômLn;
 - (id){¬;

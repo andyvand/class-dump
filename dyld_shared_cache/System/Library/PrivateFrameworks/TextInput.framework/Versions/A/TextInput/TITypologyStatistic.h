@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)TB,R,V_coreSceneUnderstandingTaxonomyWriteAuthorized;
 - (void);
 - (void);
 - (void);
@@ -20,12 +20,12 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)predictWithFeatureProvider:(id)arg1;
+- (id)contactSuggestionsWithMaxSuggestions:excludeContactsWithIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)usWithReply:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -33,7 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *aggregateReport;
 @property(readonly, nonatomic) NSDictionary *structuredReport;
 
 @end

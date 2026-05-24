@@ -5,11 +5,13 @@
 //
 
 @protocol AXMActiveSoundOutputActionHandleProvider
+- (void);
+- (void);
+- (void);
 - (float)<Ð!°Fù±E1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) float pitch;
 @property(nonatomic) float rate;
 @end
 

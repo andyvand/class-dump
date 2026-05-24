@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNVisualIdentity, NSString;
+@class CNVisualIdentity;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerRecentsProvider
 {
     _Bool _containsContactImage;
-    _Bool _containsMonogram;
-    NSString *identifier;
-    CNVisualIdentity *_visualIdentity;
 }
 
 + (id);
@@ -31,19 +28,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void)OfColumns;
+- (void)_numberOfColumns;
 
 // Remaining properties
-@property(nonatomic) _Bool containsContactImage; // @synthesize containsContactImage=_containsContactImage;
-@property(nonatomic) _Bool containsMonogram; // @synthesize containsMonogram=_containsMonogram;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end

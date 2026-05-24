@@ -17,9 +17,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (void);
-- (void);
+- (void)an unsupported object);
 
 // Remaining properties
 @property(retain) PCSCKKSItemModifyContext *context; // @synthesize context=_context;

@@ -7,14 +7,11 @@
 @interface TSDStrokePattern
 {
     double _pattern[6];
-    long long _type;
-    unsigned long long _count;
-    double _phase;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -29,9 +26,9 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (id);
 - (long long);
@@ -45,12 +42,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) _Bool isDash;
-@property(readonly, nonatomic) _Bool isRoundDash;
-@property(readonly, nonatomic) double *pattern;
 @property(readonly, nonatomic) long long patternType; // @synthesize patternType=_type;
-@property(readonly, nonatomic) double phase; // @synthesize phase=_phase;
 
 @end
 

@@ -9,6 +9,9 @@
 @protocol FCUserInfoObserving
 
 @optional
+- (void);
+- (void);
+- (void)h;
 - (void)tingSecret:(FCUserInfo *)arg1 withRemoteRecipeRatingSecret:] /* Error: Ran out of types for this method. */;
 @end
 

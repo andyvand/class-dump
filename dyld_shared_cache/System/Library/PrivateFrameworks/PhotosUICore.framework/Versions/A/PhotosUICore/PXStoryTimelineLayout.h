@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableDictionary, NSMutableIndexSet, NSMutableOrderedSet, NSString, PXStoryTimelineLayoutSnapshot, PXStoryViewModeTransition;
-@protocol PXStoryTimeline;
+@class NSIndexSet;
 
 @interface PXStoryTimelineLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    NSMutableIndexSet *_clipIdentifiers;
-    NSMutableOrderedSet *_clipLayoutReuseIdentifiers;
-    NSMutableDictionary *_clipLayoutReuseIdentifiersByClipIdentifier;
-    _Bool _isUpdatingTimelineContent;
-    NSIndexSet *_supportedResourceKindsForClipLayouts;
-    id <PXStoryTimeline> _displayedTimeline;
-    double _relativeZPositionAboveLegibilityGradients;
-    PXStoryViewModeTransition *_presentedTimelineTransition;
-    CDStruct_2bd92d94 _cornerRadius;
-    CDStruct_2bd92d94 _clipsCornerRadius;
-    struct CGRect _displayedTimelineRect;
-    struct NSEdgeInsets _clippingInsets;
-    CDStruct_e83c9415 _displayedTimeRange;
 }
 
 - (void);
-- (void);
+- (void)J;
 - (id);
 - (_Bool);
 - (void);
@@ -34,17 +20,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
 - (double);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (struct CGRect);
+- (void)T	;
+- (void);
+- (struct CGRect)9	;
 - (void);
 - (id);
 - (void);
@@ -53,43 +39,25 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_2bd92d94);
+- (CDStruct_c2259bfa)#;
 - (struct NSEdgeInsets);
-- (double);
+- (double)4k78;
 - (void);
 - (long long);
+- (void)h;
+- (void)7;
 - (void);
 - (void);
-- (void);
-- (void);
-- (long long);
+- (long long)localizedLowercaseString;
 - (id);
 - (void);
-- (CDStruct_2bd92d94)etrics or passcode/password set at all.;
-- (void)ackCollection;
+- (CDStruct_c2259bfa)etrics or passcode/password set at all.;
+- (void)PXFeedbackCollection;
 - (void)nsitionTimeline.m;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct NSEdgeInsets clippingInsets; // @synthesize clippingInsets=_clippingInsets;
-@property(nonatomic) CDStruct_2bd92d94 clipsCornerRadius; // @synthesize clipsCornerRadius=_clipsCornerRadius;
-@property(nonatomic) CDStruct_2bd92d94 cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) CDStruct_e83c9415 displayedTimeRange; // @synthesize displayedTimeRange=_displayedTimeRange;
-@property(retain, nonatomic) id <PXStoryTimeline> displayedTimeline; // @synthesize displayedTimeline=_displayedTimeline;
-@property(nonatomic) struct CGRect displayedTimelineRect; // @synthesize displayedTimelineRect=_displayedTimelineRect;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXStoryTimelineLayoutSnapshot *presentedSnapshot;
-@property(retain, nonatomic) PXStoryViewModeTransition *presentedTimelineTransition; // @synthesize presentedTimelineTransition=_presentedTimelineTransition;
-@property(nonatomic) double relativeZPositionAboveLegibilityGradients; // @synthesize relativeZPositionAboveLegibilityGradients=_relativeZPositionAboveLegibilityGradients;
-@property(readonly, nonatomic) _Bool shouldSetContentSizeToReferenceSize;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSIndexSet *supportedResourceKindsForClipLayouts; // @synthesize supportedResourceKindsForClipLayouts=_supportedResourceKindsForClipLayouts;
-@property(readonly, nonatomic) long long viewMode;
 
 @end
 

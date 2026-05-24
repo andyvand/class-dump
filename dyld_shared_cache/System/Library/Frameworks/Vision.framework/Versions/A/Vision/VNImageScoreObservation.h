@@ -11,26 +11,24 @@
 @interface VNImageScoreObservation : VNObservation
 {
     NSNumber *_blurScore;
-    NSNumber *_exposureScore;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)fetchRootItemForProviderDomain:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void)ion"8@"NSDictionary"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *blurScore; // @synthesize blurScore=_blurScore;
-@property(retain, nonatomic) NSNumber *exposureScore; // @synthesize exposureScore=_exposureScore;
 
 @end
 

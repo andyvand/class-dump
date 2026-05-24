@@ -7,13 +7,12 @@
 @interface PXImportConcurrentAction
 {
     _Bool _executing;
-    _Bool _finished;
 }
 
 - (void);
-- (id);
+- (id)addSongsForAssets: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)esChangeNotifications:commentsChangeNotifications: /* Error: Ran out of types for this method. */;
+- (_Bool)_shouldPerformFullReloadForFeedEntriesChangeNotifications:commentsChangeNotifications: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool)¤QÐÿ+;
 - (_Bool)Ç,ö>;

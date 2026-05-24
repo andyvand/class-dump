@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPaymentContentItem, NSArray, NSString;
+@class NSString;
 
 @interface AMSPaymentRequest
 {
     _Bool _drawBackground;
-    _Bool _drawBottomDivider;
-    NSString *_dialogCancelButtonLabel;
-    NSString *_dialogDefaultButtonLabel;
-    NSString *_dialogOtherButtonLabel;
-    AMSPaymentContentItem *_salableInfo;
-    AMSPaymentContentItem *_secondarySalableInfo;
-    NSArray *_paymentContentItems;
-    NSArray *_secondaryContentItems;
-    NSString *_localizedNavigationTitle;
-    NSString *_languageTagBagValue;
 }
 
 + (_Bool);
@@ -52,16 +42,6 @@
 
 // Remaining properties
 @property(retain) NSString *dialogCancelButtonLabel; // @synthesize dialogCancelButtonLabel=_dialogCancelButtonLabel;
-@property(retain) NSString *dialogDefaultButtonLabel; // @synthesize dialogDefaultButtonLabel=_dialogDefaultButtonLabel;
-@property(retain) NSString *dialogOtherButtonLabel; // @synthesize dialogOtherButtonLabel=_dialogOtherButtonLabel;
-@property _Bool drawBackground; // @synthesize drawBackground=_drawBackground;
-@property _Bool drawBottomDivider; // @synthesize drawBottomDivider=_drawBottomDivider;
-@property(retain) NSString *languageTagBagValue; // @synthesize languageTagBagValue=_languageTagBagValue;
-@property(copy, nonatomic) NSString *localizedNavigationTitle; // @synthesize localizedNavigationTitle=_localizedNavigationTitle;
-@property(copy, nonatomic) NSArray *paymentContentItems; // @synthesize paymentContentItems=_paymentContentItems;
-@property(retain) AMSPaymentContentItem *salableInfo; // @synthesize salableInfo=_salableInfo;
-@property(copy, nonatomic) NSArray *secondaryContentItems; // @synthesize secondaryContentItems=_secondaryContentItems;
-@property(retain) AMSPaymentContentItem *secondarySalableInfo; // @synthesize secondarySalableInfo=_secondarySalableInfo;
 
 @end
 

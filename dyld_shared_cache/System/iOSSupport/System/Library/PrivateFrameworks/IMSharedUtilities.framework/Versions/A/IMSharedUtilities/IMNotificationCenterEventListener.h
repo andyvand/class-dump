@@ -11,8 +11,6 @@
 @interface IMNotificationCenterEventListener : IMEventListener
 {
     NSString *_registeredNotificationName;
-    NSString *_notificationName;
-    id _notificationObject;
 }
 
 + (id);
@@ -32,9 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool isRegisteredForNotification;
-@property(readonly, copy) NSString *notificationName; // @synthesize notificationName=_notificationName;
-@property(readonly) __weak id notificationObject; // @synthesize notificationObject=_notificationObject;
 @property(readonly, nonatomic) NSString *registeredNotificationName; // @synthesize registeredNotificationName=_registeredNotificationName;
 
 @end

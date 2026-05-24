@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSuggestionsGCDTimer, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface MapsSuggestionsCanKicker
 {
     NSObject<OS_dispatch_queue> *_targetQueue;
-    NSString *_name;
-    CDUnknownBlockType _block;
-    double _time;
-    double _leeway;
-    MapsSuggestionsGCDTimer *_timer;
-    unsigned long long _count;
 }
 
 - (id);
@@ -24,18 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void):_RollingWindowBudgetRule>>="__begin_"^{_RollingWindowBudgetRule}"__end_"^{_RollingWindowBudgetRule}""{?="__cap_"^{_RollingWindowBudgetRule}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

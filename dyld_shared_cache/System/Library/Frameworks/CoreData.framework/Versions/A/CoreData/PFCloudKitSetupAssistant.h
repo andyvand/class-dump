@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKDatabase, CKDatabaseSubscription, NSCloudKitMirroringDelegateOptions, NSCloudKitMirroringDelegateSetupRequest, NSObject, NSPersistentCloudKitContainerEvent, NSURL, PFCKAccountMonitor, PFCloudKitStoreMonitor;
-@protocol OS_dispatch_semaphore;
+@class NSCloudKitMirroringDelegateOptions, PFCKAccountMonitor;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitSetupAssistant
 {
     NSCloudKitMirroringDelegateOptions *_mirroringOptions;
-    CKContainer *_container;
-    CKDatabase *_database;
-    CKDatabaseSubscription *_databaseSubscription;
-    NSURL *_largeBlobDirectoryURL;
-    NSObject<OS_dispatch_semaphore> *_cloudKitSemaphore;
-    PFCloudKitStoreMonitor *_storeMonitor;
-    NSPersistentCloudKitContainerEvent *_setupEvent;
-    NSCloudKitMirroringDelegateSetupRequest *_setupRequest;
-    PFCKAccountMonitor *_accountMonitor;
 }
 
 - (void);

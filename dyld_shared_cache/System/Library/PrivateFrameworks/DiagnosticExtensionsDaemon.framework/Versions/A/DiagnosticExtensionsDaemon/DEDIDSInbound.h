@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDIDSConnection, NSString;
-@protocol DEDIDSInboundDelegate;
+@class DEDIDSConnection;
 
 @interface DEDIDSInbound
 {
     DEDIDSConnection *_connection;
-    id <DEDIDSInboundDelegate> _delegate;
 }
 
 + (id);
@@ -28,7 +26,13 @@
 - (void);
 - (void);
 - (void);
+- (void)tOrPackage;
+- (void)CKDDiscoverAllUserIdentitiesOperation;
+- (void)PD;
 - (void);
+- (void)rePCSData];
+- (void)ents;
+- (id)led, non-manatee and behavior option for container %@, isZoneishRecord:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -36,12 +40,6 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -53,6 +51,14 @@
 - (void);
 - (void);
 - (void);
+- (void)LocalizationResult;
+- (void)R;
+- (void);
+- (void);
+- (void)I;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,36 +66,20 @@
 - (void);
 - (void);
 - (void);
+- (void)a;
+- (void);
+- (void);;
+- (void);
+- (void)Unable to read from asset with error:(id)arg1 %@;
+- (void)H/Sources/Photos/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeSongAsset.m;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void)7°1Â0@ù
 × ;
 
 // Remaining properties
 @property __weak DEDIDSConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <DEDIDSInboundDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

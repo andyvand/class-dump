@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBlurEffect, UIColor, UINavigationBar, UIPanelController, UIViewController;
+@class UIBlurEffect, UIColor, UINavigationBar, UIPanelController, UISlidingBarState, UIViewController;
 
 @protocol UIPanelControllerDelegate
 
 @optional
+- (void);
+- (void)buildWithIdentifier:(UIPanelController *)arg1 withAllowGameCenter:(UISlidingBarState *)arg2 withAllowMultiplayerGaming:(struct CGSize)arg3 withAllowAddingGameCenterFriends:withAllowGameCenterNearbyMultiplayer:withAllowGameCenterPrivateMessaging:withAllowGameCenterProfilePrivacyModification:withAllowGameCenterProfileModification:withAllowedGameCenterOtherPlayerTypes:withAllowGameCenterFriendsSharingModification: /* Error: Ran out of types for this method. */;
+- (void)setDetailFieldAndFootnoteStackView:(UIPanelController *)arg1;
+- (UIViewController *)setMaximumResultsPerScope:(UIPanelController *)arg1;
+- (long long)ation.operationQueue;
 - (void)1Â0@ù
 × ;
 - (void);
@@ -22,10 +27,10 @@
 × ;
 - (UIColor *)?="enabled"b1};
 - (void)SwipeActionController"16@"NSIndexPath"24;
-- (UISlidingBarStateRequest * (^)(NSArray *, _Bool *))eNamed:(UIPanelController *)arg1 capInsets:resizingMode:duration: /* Error: Ran out of types for this method. */;
-- (_Bool)eItemFromPendingQueueOrLibArchiveRead;
-- (UINavigationBar *)tViewInsetsForArrowDirection:(UIPanelController *)arg1;
-- (void)utViewController;
+- (UISlidingBarStateRequest * (^)(NSArray *, _Bool *))animatedResizableImageNamed:(UIPanelController *)arg1 capInsets:resizingMode:duration: /* Error: Ran out of types for this method. */;
+- (_Bool)_nextSimpleItemFromPendingQueueOrLibArchiveRead;
+- (UINavigationBar *)_contentViewInsetsForArrowDirection:(UIPanelController *)arg1;
+- (void)UIKBSystemLayoutViewController;
 - (void)ng inputAccessoryView:(UIPanelController *)arg1 %@;
 - (UIViewController *);
 - (void)tentUnavailableConfigurationStyle);

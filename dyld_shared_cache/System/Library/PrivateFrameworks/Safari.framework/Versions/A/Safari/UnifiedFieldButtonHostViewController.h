@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString;
-@protocol AccordionHostableExpansionRequestHandler, UnifiedFieldButtonHostViewControllerDelegate;
+@class NSButton;
+@protocol UnifiedFieldButtonHostViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldButtonHostViewController
 {
     NSButton *_expandedButton;
-    NSButton *_collapsedButton;
-    id <UnifiedFieldButtonHostViewControllerDelegate> _delegate;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)_biomeSystemDataDirectory;
 - (_Bool)d decide policy for navigation action "%{public}@" for url <%{private}@>, isForMainFrame <YES>;
 - (void)ÿÿ);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UnifiedFieldButtonHostViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic) __weak id <AccordionHostableExpansionRequestHandler> expansionRequestHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<AccordionHostableExpansionRequestHandler>",?,W,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

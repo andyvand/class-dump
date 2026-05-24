@@ -7,7 +7,6 @@
 @interface NewsPersonalization.ComputeServiceCohortMembershipService
 {
     id bundleSubscriptionIsSubscribedProvider;
-    id computeService;
 }
 
 @end

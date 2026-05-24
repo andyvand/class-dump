@@ -9,17 +9,14 @@
 @interface TIKeyboardInputManagerLoader
 {
     NSMutableDictionary *_availableInputManagers;
-    NSMutableDictionary *_lastUsedDate;
-    NSMutableDictionary *_activeInputManagers;
-    NSXPCConnection *_interactingConnection;
 }
 
 + (id);
 - (void);
 - (void);
+- (void)v;
 - (void);
-- (void);
-- (id);
+- (id)newPlaneWithDimensions:(id)arg1 segments:(id)arg2 geometryType:(Class)arg3 allocator: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -27,11 +24,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)nk}^{ktrace_chunk}QQI{timezone=ii}{?=II}i^{ktrace_file}^{__CFDictionary}I^{__CFDictionary}^{ktrace_chunk}*Q@?@?@?qqBBBBBB}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (void)0@ù
 × ;

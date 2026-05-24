@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface RFSchemaRFGVisualResponseShownTier1 : SISchemaInstrumentationMessage
 {
     NSString *_responseModel;
-    NSString *_patternId;
-    NSString *_version;
-    NSString *_responseViewId;
-    _Bool _hasResponseModel;
-    _Bool _hasPatternId;
-    _Bool _hasVersion;
-    _Bool _hasResponseViewId;
 }
 
 - (void);
@@ -29,39 +22,32 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
+- (void)at flag:(_Bool)arg1 %d
+;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)m:19 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)chived, last_addressed_handle, display_name, group_id, is_filtered, successful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE    chat_identifier = ? AND    service_name = ? ORDER BY chat.ROWID ASC;;
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool)lientId;
+- (_Bool)hasAudioClientId;
 - (id)actionFailureDeveloperDefinedError;
 - (id)V_faults;
-- (void)yEvents;
+- (void)anyEvents;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPatternId; // @synthesize hasPatternId=_hasPatternId;
-@property(nonatomic) _Bool hasResponseModel; // @synthesize hasResponseModel=_hasResponseModel;
-@property(nonatomic) _Bool hasResponseViewId; // @synthesize hasResponseViewId=_hasResponseViewId;
-@property(nonatomic) _Bool hasVersion; // @synthesize hasVersion=_hasVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *patternId; // @synthesize patternId=_patternId;
 @property(copy, nonatomic) NSString *responseModel; // @synthesize responseModel=_responseModel;
-@property(copy, nonatomic) NSString *responseViewId; // @synthesize responseViewId=_responseViewId;
-@property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

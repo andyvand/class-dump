@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSMutableDictionary, NSString, NSTimer;
+@class NSMutableDictionary;
 
 @interface TIPreferencesController
 {
     NSMutableDictionary *_configuredDomains;
-    NSMutableDictionary *_configuredPreferences;
-    NSCache *_cachedMCRestrictedValue;
-    NSTimer *_synchronizePreferencesTimer;
-    _Bool isInternalInstall;
-    _Bool _inhibitGlobalNotification;
-    _Bool _ignoreNextSyncNotification;
 }
 
 + (void);
@@ -30,10 +24,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)LPhotoLibrary"24;
+- (void);
+- (void)ignore budgets flag is updated for moment share %@, boosting its priority;
+- (void)create AVAsset for extracting media metadata %{public}@;
 - (id);
 - (void);
 - (id);
@@ -65,18 +59,18 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)N;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void)erations:(id)arg1 withErrorHandler:(id)arg2;
+- (void)connectForOperations:(id)arg1 withErrorHandler:(id)arg2;
 - (void)Ì;
 - (void);
 - (void)µ¾¦¿;
@@ -86,50 +80,33 @@
 ;
 - (void);
 - (struct CGPoint)throneless;
-- (void)g;
-- (_Bool)er;
-- (_Bool)ration;
-- (void);
+- (void)spelunking;
+- (_Bool)revenger;
+- (_Bool)redecoration;
+- (void)interactant;
 - (_Bool)impoliteness;
-- (void)ness;
-- (id);
+- (void)fatherlessness;
+- (id)rally;
 - (void)enfranchisement;
-- (void)rsenic;
-- (_Bool)adblock;
-- (void)ant;
-- (void)ction;
-- (_Bool)ry;
-- (void)oman;
-- (void)ymnal;
-- (void)omatopsia;
-- (_Bool)gonal;
-- (void);
-- (void)elmingly;
+- (void)arsenic;
+- (_Bool)roadblock;
+- (void)malignant;
+- (void)detection;
+- (_Bool)tapestry;
+- (void)policewoman;
+- (void)hymnal;
+- (void)dyschromatopsia;
+- (_Bool)decagonal;
+- (void)beseeching;
+- (void)overwhelmingly;
 - (struct CGPoint)environment;
-- (void);
+- (void)chess;
 - (void)baboon;
 - (void)OTA.download.failedCount;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool autocorrectionEnabled;
-@property(nonatomic) _Bool automaticMinimizationEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long floatingKeyboardDockedEdge;
-@property(nonatomic) struct CGPoint floatingKeyboardPosition;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool ignoreNextSyncNotification; // @synthesize ignoreNextSyncNotification=_ignoreNextSyncNotification;
-@property(nonatomic) _Bool inhibitGlobalNotification; // @synthesize inhibitGlobalNotification=_inhibitGlobalNotification;
-@property(copy, nonatomic) NSArray *inputModeSelectionSequence;
-@property(nonatomic) _Bool isInternalInstall; // @synthesize isInternalInstall;
-@property(nonatomic) struct CGPoint keyboardPosition;
-@property(nonatomic) _Bool keyboardShownByTouch;
-@property(nonatomic) _Bool predictionEnabled;
-@property(readonly) Class superclass;
 
 @end
 

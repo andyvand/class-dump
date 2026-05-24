@@ -13,12 +13,12 @@
 
 + (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)h@9	;
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_numScanModes;
 - (void)ionary"16@?0@"PKPaymentOfferInstallmentAssessmentOffer"8;
 
 // Remaining properties

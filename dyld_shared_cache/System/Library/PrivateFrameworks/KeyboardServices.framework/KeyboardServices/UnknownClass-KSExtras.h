@@ -5,14 +5,14 @@
 //
 
 @interface UnknownClass (KSExtras)
++ (struct USet *)a;
 + (struct USet *);
 + (struct USet *);
-+ (struct USet *);
+- (_Bool)3;
+- (_Bool)4;
+- (_Bool)4;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (long long);
 @end
 

@@ -6,44 +6,40 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRRecognitionResultTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_tokens;
-    _Bool _hasLinkId;
 }
 
+- (unsigned long long)@�A;
+- (id);
+- (void);
+- (void);
+- (void)h3x;
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id)B;
+- (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)F
+;
 - (void);
 - (id);
-- (id)inalized;
+- (id)trpFinalized;
 - (id)Ï;
 - (id);
 - (void)tmªÿ¦%³yÒ&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

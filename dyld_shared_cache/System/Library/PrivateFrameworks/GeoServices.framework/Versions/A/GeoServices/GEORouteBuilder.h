@@ -10,21 +10,21 @@ __attribute__((visibility("hidden")))
 }
 
 + (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long)_buffer;
++ (id)Verification>",&,D;
++ (id)notFound;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)4;
 + (id);
 + (_Bool);
 + (id);
++ (_Bool);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)p;
 + (void);
 + (id);
 + (id);

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIFocusEffect, UISplitViewControllerPanelImpl, UIView;
-@protocol UICoordinateSpace, UIFocusEnvironment, UIFocusItemContainer;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UISplitViewControllerPanelPrimaryViewControllerPromiseItem
 {
     struct CGRect _frame;
-    UIView *_parentView;
-    UISplitViewControllerPanelImpl *_impl;
 }
 
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)hG;
 - (id);
 - (id);
 - (_Bool);
@@ -31,51 +28,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)age"[256c]"quietModeName"[256c]};
 - (struct CGRect)visibleSupplementaryViewsOfKind: /* Error: Ran out of types for this method. */;
-- (id)splacement:reuseViewIfPossible:willDisplay: /* Error: Ran out of types for this method. */;
+- (id)_sectionHeaderViewWithFrame:forSection:floating:visibleRectDisplacement:reuseViewIfPossible:willDisplay: /* Error: Ran out of types for this method. */;
 - (void)Àºþÿºíîÿóîÿíîÿ;
 - (_Bool)Saturation;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBecomeFocused;
-@property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) UIFocusEffect *focusEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIFocusEffect",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) long long focusGroupPriority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly, nonatomic) long long focusItemDeferralMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) struct CGRect frame;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UISplitViewControllerPanelImpl *impl; // @synthesize impl=_impl;
-@property(readonly, nonatomic) _Bool isTransparentFocusItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment;
 @property(nonatomic) __weak UIView *parentView; // @synthesize parentView=_parentView;
-@property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly, nonatomic) __weak UIView *preferredFocusedView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,W,N
-
-@property(readonly) Class superclass;
 
 @end
 

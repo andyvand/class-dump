@@ -11,24 +11,22 @@
 @interface WFIconColorBackground : WFIconBackground
 {
     WFColor *_color;
-    long long _blendMode;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id)`z;
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
-- (id);
+- (id)l from file URL: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)!Uð!@CùÑ^ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long blendMode; // @synthesize blendMode=_blendMode;
 @property(readonly, nonatomic) WFColor *color; // @synthesize color=_color;
 
 @end

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioMix, AVAudioOutputSettings, NSArray, NSMutableDictionary, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetReaderAudioMixOutputInternal
 {
     NSArray *audioTracks;
-    AVAudioMix *audioMix;
-    NSMutableDictionary *audioCurvesForTracks;
-    NSMutableDictionary *audioTimePitchAlgorithmsForTracks;
-    NSMutableDictionary *audioTapProcessorsForTracks;
-    NSMutableDictionary *audioEffectsParametersForTracks;
-    AVAudioOutputSettings *audioOutputSettings;
-    NSString *audioTimePitchAlgorithm;
 }
 
 @end

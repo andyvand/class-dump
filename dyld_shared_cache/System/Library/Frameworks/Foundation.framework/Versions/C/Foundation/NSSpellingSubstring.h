@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSSpellingSubstring : NSString
 {
     NSString *_originalString;
-    unsigned long long _startingOffset;
 }
 
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned short)dentifierKey;
+- (unsigned short)NSURLFileResourceIdentifierKey;
 
 @end
 

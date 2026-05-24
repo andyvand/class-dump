@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface deoc_iphone_95Output
 {
     long long _target;
-    NSDictionary *_classProbability;
 }
 
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (void);
@@ -24,8 +21,6 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) long long target; // @synthesize target=_target;
 
 @end

@@ -7,13 +7,10 @@
 @interface NewsFeed.VideoPlaceholderView
 {
     id $__lazy_storage_$_imageView;
-    id label;
-    id $__lazy_storage_$_blurView;
-    id $__lazy_storage_$_vibrancyView;
 }
 
 - (id);
-- (void);
+- (void)Internal/Library/BuildRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/utility/TSUDownloadSession.m;
 - (id)1Â0@ù
 × ;
 - (void)ðØ}þ;

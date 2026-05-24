@@ -7,15 +7,6 @@
 @interface NewsFeed.FormatVideoNodeStyle
 {
     id _identifier;
-    id class;
-    id _selectors;
-    id alpha;
-    id background;
-    id borders;
-    id cornerRadius;
-    id shadow;
-    id tintColor;
-    id ignoresSmartInvertColors;
 }
 
 @end

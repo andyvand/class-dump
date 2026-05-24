@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableOrderedSet, NSThread, NSUserDefaults;
-@protocol AXFWindowManagerDataSource;
-
 @interface AXFWindowManagerController
 {
     void *_lsNotificationID;
-    unsigned int _wsConnectionID;
-    struct os_unfair_lock_s _layoutObserversLock;
-    struct os_unfair_lock_s _layoutCacheLock;
-    double _ignoreNextSynchronizeUntilTime;
-    _Bool _layoutThreadIsValid;
-    id <AXFWindowManagerDataSource> _dataSource;
-    unsigned long long __cachedStageManagerStatus;
-    NSUserDefaults *__userDefaults;
-    NSThread *__controllerThread;
-    NSMutableOrderedSet *__registeredWindowIDs;
-    NSMutableDictionary *__stageManagerStateObservers;
-    NSMutableArray *__cachedStageManagerLayout;
-    NSMutableDictionary *__stageManagerLayoutObservers;
 }
 
 - (unsigned long long);
@@ -43,14 +27,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)a;
+- (void)4;
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -62,23 +46,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)loudKitClient;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_currentNatType;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *_cachedStageManagerLayout; // @synthesize _cachedStageManagerLayout=__cachedStageManagerLayout;
 @property unsigned long long _cachedStageManagerStatus; // @synthesize _cachedStageManagerStatus=__cachedStageManagerStatus;
-@property(retain, nonatomic) NSThread *_controllerThread; // @synthesize _controllerThread=__controllerThread;
-@property(retain, nonatomic) NSMutableOrderedSet *_registeredWindowIDs; // @synthesize _registeredWindowIDs=__registeredWindowIDs;
-@property(retain, nonatomic) NSMutableDictionary *_stageManagerLayoutObservers; // @synthesize _stageManagerLayoutObservers=__stageManagerLayoutObservers;
-@property(retain, nonatomic) NSMutableDictionary *_stageManagerStateObservers; // @synthesize _stageManagerStateObservers=__stageManagerStateObservers;
-@property(retain) NSUserDefaults *_userDefaults; // @synthesize _userDefaults=__userDefaults;
-@property(nonatomic) __weak id <AXFWindowManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
 
 @end
 

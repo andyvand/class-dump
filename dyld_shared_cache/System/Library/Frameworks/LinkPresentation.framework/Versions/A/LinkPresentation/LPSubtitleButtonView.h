@@ -6,24 +6,19 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPCaptionButtonPresentationProperties, LPTextView, LPTextViewStyle, NSTrackingArea;
+@class LPCaptionButtonPresentationProperties;
 
 __attribute__((visibility("hidden")))
 @interface LPSubtitleButtonView : LPComponentView
 {
     LPCaptionButtonPresentationProperties *_buttonProperties;
-    LPTextViewStyle *_style;
-    NSTrackingArea *_trackingArea;
-    _Bool _hovered;
-    _Bool _pressed;
-    LPTextView *_textView;
 }
 
 - (void);
-- (id);
+- (id)yd;
 - (void);
 - (struct CGSize);
-- (void);
+- (void){;
 - (void);
 - (void);
 - (double);
@@ -32,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)k [%lu] for session [%{public}@] completed with error %{public}@;
 - (void);
 - (void)úÿÿB;
 - (void)¸,;

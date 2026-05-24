@@ -9,9 +9,6 @@
 @interface IPPerson
 {
     NSString *_fullName;
-    NSString *_handle;
-    NSString *_ABUUID;
-    NSString *_handleType;
 }
 
 - (id);
@@ -19,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,12 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSString *ABUUID; // @synthesize ABUUID=_ABUUID;
-@property(readonly, copy) NSString *displayableName;
-@property(readonly) NSString *email; // @dynamic email;
 @property(readonly) NSString *fullName; // @synthesize fullName=_fullName;
-@property(readonly) NSString *handle; // @synthesize handle=_handle;
-@property(readonly) NSString *handleType; // @synthesize handleType=_handleType;
 
 @end
 

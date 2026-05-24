@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSURL, UARPSuperBinaryAsset;
-@protocol OS_os_log;
+@class NSURL;
 
 @interface UARPDynamicAssetTmapDatabase
 {
     NSURL *_url;
-    NSURL *_plistURL;
-    UARPSuperBinaryAsset *_asset;
-    NSMutableArray *_tmapDatabase;
-    NSObject<OS_os_log> *_log;
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)T;
 - (id);
 - (id);
+- (id)};
+- (_Bool);
+- (_Bool);
+- (_Bool)!;
+- (_Bool);
 - (id);
+- (id);
+- (id)AMSCardRegistrationTask;
 - (void);
 - (void);
 

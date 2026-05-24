@@ -11,20 +11,14 @@ __attribute__((visibility("hidden")))
 @interface LSDBExecutionContext
 {
     NSObject<OS_dispatch_queue> *_maintenanceQueue;
-    struct unfair_lock_mutex _databaseLock;
-    struct unfair_lock_mutex _perThreadContextsLock;
-    struct unordered_map<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>, std::hash<_opaque_pthread_t *>, std::equal_to<_opaque_pthread_t *>, std::allocator<std::pair<_opaque_pthread_t *const, std::shared_ptr<LaunchServices::PerThreadContext>>>> _perThreadContexts;
-    struct CFReleaser<__CSStoreAccessContext *> _readAccessContext;
-    struct CFReleaser<__CSStoreAccessContext *> _writeAccessContext;
-    _Bool _databaseLeftWritable;
 }
 
 - (struct PerThreadContext *);
 - (struct PerThreadContext *);
 - (void);
 - (struct PerThreadContext *);
-- (id);
-- (id);
+- (id)A;
+- (id);
 - (void);
 
 @end

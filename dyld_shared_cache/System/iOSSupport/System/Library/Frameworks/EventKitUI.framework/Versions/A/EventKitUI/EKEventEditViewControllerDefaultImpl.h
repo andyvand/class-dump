@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKEventEditor, EKEventStore, NSString, UIColor;
-@protocol EKEventEditViewDelegate;
+@class EKEventEditor, EKEventStore;
 
 @interface EKEventEditViewControllerDefaultImpl
 {
     EKEventStore *_store;
-    EKEvent *_event;
-    NSString *_eventId;
-    _Bool _completedWithAction;
-    _Bool _keyboardIsUp;
-    _Bool ignoreUnsavedChanges;
-    _Bool _createdOwnEKEvent;
-    NSString *_suggestionKey;
-    id <EKEventEditViewDelegate> _editViewDelegate;
-    unsigned long long eventCreationViewStart;
-    EKEventEditor *_editor;
-    EKEventEditViewControllerDefaultImpl *_strongSelf;
 }
 
 + (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)&s;
 - (void);
 - (void);
 - (void);
@@ -34,65 +22,65 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)؏&s;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void))s;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)&s;
+- (void)<&s;
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
 - (id);
 - (void);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void){;
+- (id);
+- (void){l;
+- (void);
+- (_Bool)z;
+- (id)"STSetupConfiguration"@"NSError">;
+- (id)Value";
+- (void);
+- (_Bool);
+- (id);
+- (void)N1;
+- (void);
+- (struct CGSize)__objc_const;
+- (void);
+- (void)chartViewInScrollView;
 - (id);
 - (void);
 - (void);
@@ -100,33 +88,13 @@
 - (void);
 - (unsigned long long)0@ù
 × ;
-- (void)lFrame: /* Error: Ran out of types for this method. */;
+- (void)setCircleShouldFillFrame: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)¶TÕV«;
 - (void)òÿ}3_¸È;
 
 // Remaining properties
-@property(nonatomic) _Bool createdOwnEKEvent; // @synthesize createdOwnEKEvent=_createdOwnEKEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <EKEventEditViewDelegate> editViewDelegate; // @synthesize editViewDelegate=_editViewDelegate;
 @property(retain, nonatomic) EKEventEditor *editor; // @synthesize editor=_editor;
-@property(retain, nonatomic) UIColor *editorBackgroundColor;
-@property(retain, nonatomic) EKEvent *event;
-@property(nonatomic) unsigned long long eventCreationMethod;
-@property(nonatomic) unsigned long long eventCreationViewStart; // @synthesize eventCreationViewStart;
-@property(retain, nonatomic) EKEventStore *eventStore;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreUnsavedChanges; // @synthesize ignoreUnsavedChanges;
-@property(readonly, nonatomic) id precommitSerializedEvent;
-@property(nonatomic) _Bool shouldRecordPrecommitEvent;
-@property(retain, nonatomic) EKEventEditViewControllerDefaultImpl *strongSelf; // @synthesize strongSelf=_strongSelf;
-@property(retain, nonatomic) NSString *suggestionKey; // @synthesize suggestionKey=_suggestionKey;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool timeImplicitlySet;
 
 @end
 

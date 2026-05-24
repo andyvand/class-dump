@@ -5,5 +5,16 @@
 //
 
 @protocol CLLocationManagerDelegate
+
+@optional
+- (void);
+- (void)
+;
+- (void);
+- (void)@;
+- (void)Q_;
+- (void);
+- (void)	k;
+- (void)length;
 @end
 

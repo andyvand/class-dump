@@ -7,8 +7,6 @@
 @protocol SCNJSValueSExport
 
 // Remaining properties
-@property(readonly) struct CATransform3D matrix4;
 @property(readonly) struct SCNVector3 vector3;
-@property(readonly) struct SCNVector4 vector4;
 @end
 

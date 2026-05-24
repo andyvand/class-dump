@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBContactList, _INPBDateTimeRange, _INPBIntentMetadata, _INPBLocation, _INPBString, _INPBStringList;
+@class NSString, _INPBIntentMetadata, _INPBString, _INPBStringList;
 
 @protocol _INPBStartPhotoPlaybackIntent
-- (void)abelForCreateTimer:(_INPBStringList *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSString *)/;
+- (_INPBIntentMetadata *)initWithStream: /* Error: Ran out of types for this method. */;
+- (void)resolveLabelForCreateTimer:(_INPBStringList *)arg1 completion: /* Error: Ran out of types for this method. */;
 - (_Bool)me:deviceType:home:zone:group:room:isExcludeFilter:hasAllQuantifier: /* Error: Ran out of types for this method. */;
-- (_INPBStringList *)e:launchableAppBundleId:containingAppBundleURL:extensionBundleId: /* Error: Ran out of types for this method. */;
+- (_INPBStringList *)_initWithUserActivityType:launchableAppBundleId:containingAppBundleURL:extensionBundleId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *albumName;
-@property(retain, nonatomic) _INPBDateTimeRange *dateCreated;
-@property(readonly, nonatomic) int *excludedAttributes;
-@property(readonly, nonatomic) unsigned long long excludedAttributesCount;
-@property(readonly, nonatomic) _Bool hasAlbumName;
-@property(readonly, nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLocationCreated;
-@property(readonly, nonatomic) _Bool hasPeopleInPhoto;
-@property(readonly, nonatomic) _Bool hasSearchTerm;
-@property(readonly, nonatomic) int *includedAttributes;
-@property(readonly, nonatomic) unsigned long long includedAttributesCount;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBLocation *locationCreated;
-@property(retain, nonatomic) _INPBContactList *peopleInPhoto;
-@property(retain, nonatomic) _INPBStringList *searchTerm;
 @end
 

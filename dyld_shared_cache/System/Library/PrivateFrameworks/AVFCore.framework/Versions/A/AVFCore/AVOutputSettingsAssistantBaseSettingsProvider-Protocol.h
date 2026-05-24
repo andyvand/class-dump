@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *baseAudioSettings;
-@property(readonly, nonatomic) NSDictionary *baseVideoSettings;
 @end
 

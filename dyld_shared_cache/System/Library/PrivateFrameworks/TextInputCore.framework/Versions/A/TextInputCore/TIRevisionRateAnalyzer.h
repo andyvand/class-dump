@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, TIRevisionRateAnalysisSummary;
-
 __attribute__((visibility("hidden")))
 @interface TIRevisionRateAnalyzer
 {
     _Bool _hasEmojiInput;
-    _Bool _hasCursorMovement;
-    NSNumber *_sessionAlignmentConfidence;
-    TIRevisionRateAnalysisSummary *_revisionRateAnalysisSummary;
 }
 
 - (id);
@@ -22,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_groundColor;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -32,20 +27,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)maryLocaleForEmojiLoad;
+- (void)m_didAttemptPrimaryLocaleForEmojiLoad;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCursorMovement; // @synthesize hasCursorMovement=_hasCursorMovement;
 @property(nonatomic) _Bool hasEmojiInput; // @synthesize hasEmojiInput=_hasEmojiInput;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TIRevisionRateAnalysisSummary *revisionRateAnalysisSummary; // @synthesize revisionRateAnalysisSummary=_revisionRateAnalysisSummary;
-@property(retain, nonatomic) NSNumber *sessionAlignmentConfidence; // @synthesize sessionAlignmentConfidence=_sessionAlignmentConfidence;
-@property(readonly) Class superclass;
 
 @end
 

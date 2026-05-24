@@ -6,29 +6,27 @@
 
 #import <VoiceShortcutClient/WFConfiguredSystemAction.h>
 
-@class WFContextualAction, WFExecutableAppShortcutIdentifier;
+@class WFContextualAction;
 
 @interface WFConfiguredSystemContextualAction : WFConfiguredSystemAction
 {
     WFContextualAction *_contextualAction;
-    WFExecutableAppShortcutIdentifier *_appShortcutIdentifier;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WFExecutableAppShortcutIdentifier *appShortcutIdentifier; // @synthesize appShortcutIdentifier=_appShortcutIdentifier;
 @property(readonly, nonatomic) WFContextualAction *contextualAction; // @synthesize contextualAction=_contextualAction;
 
 @end

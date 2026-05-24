@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface EDSearchableAttachment
 {
@@ -13,14 +13,13 @@
 
 - (id);
 - (void);
+- (id)UsoTaskBuilder_noVerb_common_DayOfWeek;
 - (id);
-- (id);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)red;
+- (id)objectForKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (void)shared;
 
 // Remaining properties
 @property(nonatomic, readonly) NSURL *contentURL;
-@property(nonatomic, readonly) NSString *displayName;
 
 @end
 

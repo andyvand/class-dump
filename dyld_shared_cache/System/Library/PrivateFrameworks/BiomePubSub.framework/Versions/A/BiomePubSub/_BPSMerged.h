@@ -6,24 +6,11 @@
 
 #import <BiomePubSub/BMBookmarkableSubscription.h>
 
-@class NSMutableArray;
 @protocol BPSSubscriber;
 
 @interface _BPSMerged : BMBookmarkableSubscription
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_recursive_lock_s _downstreamLock;
-    _Bool _terminated;
-    _Bool _finished;
-    _Bool _recursive;
-    id <BPSSubscriber> _downstream;
-    long long _count;
-    long long _demand;
-    long long _upstreamFinished;
-    NSMutableArray *_subscriptions;
-    NSMutableArray *_buffers;
-    long long _pending;
-    NSMutableArray *_upstreamBookmarks;
 }
 
 - (id);
@@ -40,12 +27,12 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)!= NSNotFound;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)createDirectoryAtPath:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
 - (void);
@@ -61,17 +48,7 @@
 - (_Bool)hllData;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *buffers; // @synthesize buffers=_buffers;
-@property(nonatomic) long long count; // @synthesize count=_count;
-@property(nonatomic) long long demand; // @synthesize demand=_demand;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(nonatomic) long long pending; // @synthesize pending=_pending;
-@property(nonatomic) _Bool recursive; // @synthesize recursive=_recursive;
-@property(retain, nonatomic) NSMutableArray *subscriptions; // @synthesize subscriptions=_subscriptions;
-@property(nonatomic) _Bool terminated; // @synthesize terminated=_terminated;
-@property(retain, nonatomic) NSMutableArray *upstreamBookmarks; // @synthesize upstreamBookmarks=_upstreamBookmarks;
-@property(nonatomic) long long upstreamFinished; // @synthesize upstreamFinished=_upstreamFinished;
 
 @end
 

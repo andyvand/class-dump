@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAccountInfo, CKContainer, CKRecordID, NSCloudKitMirroringDelegateOptions, NSObject, NSString;
-@protocol PFCKAccountMonitorDelegate;
+@class NSCloudKitMirroringDelegateOptions;
 
 __attribute__((visibility("hidden")))
 @interface PFCKAccountMonitor
 {
     _Bool _observingNotifications;
-    _Bool _registeredForAccountChangeNotifications;
-    _Bool _registeredForIdentityUpdateNotifications;
-    NSCloudKitMirroringDelegateOptions *_options;
-    NSString *_storeIdentifier;
-    NSObject<PFCKAccountMonitorDelegate> *_delegate;
-    CKContainer *_container;
-    CKAccountInfo *_currentAccountInfo;
-    CKRecordID *_currentUserRecordID;
 }
 
 + (_Bool);
 + (_Bool);
 - (void);
+- (_Bool)gR;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -39,21 +30,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)igrationManagerForSourceModel:destinationModel:error: /* Error: Ran out of types for this method. */;
+- (id)createMigrationManagerForSourceModel:destinationModel:error: /* Error: Ran out of types for this method. */;
 - (void)¬è;
 - (id)/ leaked.  sql:'%@' /* Error: Ran out of types for this method. */;
 - (void)ration %@;
 
 // Remaining properties
-@property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(readonly) CKAccountInfo *currentAccountInfo; // @synthesize currentAccountInfo=_currentAccountInfo;
-@property(readonly) CKRecordID *currentUserRecordID; // @synthesize currentUserRecordID=_currentUserRecordID;
-@property(nonatomic) __weak NSObject<PFCKAccountMonitorDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool observingNotifications; // @synthesize observingNotifications=_observingNotifications;
 @property(readonly, nonatomic) NSCloudKitMirroringDelegateOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) _Bool registeredForAccountChangeNotifications; // @synthesize registeredForAccountChangeNotifications=_registeredForAccountChangeNotifications;
-@property(readonly, nonatomic) _Bool registeredForIdentityUpdateNotifications; // @synthesize registeredForIdentityUpdateNotifications=_registeredForIdentityUpdateNotifications;
-@property(readonly, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
 
 @end
 

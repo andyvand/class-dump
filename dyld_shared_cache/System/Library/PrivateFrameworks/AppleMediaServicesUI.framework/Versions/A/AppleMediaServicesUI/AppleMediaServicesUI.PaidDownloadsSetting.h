@@ -7,9 +7,6 @@
 @interface AppleMediaServicesUI.PaidDownloadsSetting
 {
     id account;
-    id bag;
-    id delegate;
-    id _isUpdating;
 }
 
 @end

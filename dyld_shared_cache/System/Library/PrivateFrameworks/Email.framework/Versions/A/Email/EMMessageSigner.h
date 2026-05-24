@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMCertificateTrustInformation, NSError;
+@class EMCertificateTrustInformation;
 
 @interface EMMessageSigner
 {
     EMCertificateTrustInformation *_signingCertificateTrustInfo;
-    EMCertificateTrustInformation *_encryptionCertificateTrustInfo;
-    NSError *_error;
 }
 
 + (_Bool);
-- (id);
+- (id)SubscriptionManagerDelegate;
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)PresenceState;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) EMCertificateTrustInformation *encryptionCertificateTrustInfo; // @synthesize encryptionCertificateTrustInfo=_encryptionCertificateTrustInfo;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool hasSeparateSigningAndEncryptionCertificates;
 @property(retain, nonatomic) EMCertificateTrustInformation *signingCertificateTrustInfo; // @synthesize signingCertificateTrustInfo=_signingCertificateTrustInfo;
 
 @end

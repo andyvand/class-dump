@@ -7,8 +7,6 @@
 @interface AppleMediaServices.KeepAlive.RBSAssertionComponent__priv_8D5EA5EE57B6E86A66C300315FB99416
 {
     id logKey;
-    id assertion;
-    id invalidationHandler;
 }
 
 - (id);

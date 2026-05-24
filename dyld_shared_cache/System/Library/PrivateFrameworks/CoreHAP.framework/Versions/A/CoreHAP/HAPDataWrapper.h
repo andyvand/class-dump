@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (void)0@0:8@"<HAPPairSetupSession>"16@"HAPPairingIdentity"24^@32 /* Error: Ran out of types for this method. */;
-- (id)riteValue:toCharacteristic:authorizationData:contextData:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_writeValue:toCharacteristic:authorizationData:contextData:options:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *field; // @synthesize field=_field;

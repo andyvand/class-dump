@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ngUtilities;
+- (void)LemonadeTransientCollectionSortingUtilities;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPhotosSearchBodyContainerInfo *containerInfo; // @synthesize containerInfo=_containerInfo;

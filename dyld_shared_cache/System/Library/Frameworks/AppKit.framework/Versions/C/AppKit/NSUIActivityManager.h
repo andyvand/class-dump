@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface NSUIActivityManager
 {
     NSMapTable *_infoByUserActivity;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id)oolbox.showFrontMenuBar;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)48@0:(id)arg1 8@16q24@32@?40;
+- (void)validated;
+- (void);
+- (void)_kCFNTimingDataSubflowCountsAtStart;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)Ti;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

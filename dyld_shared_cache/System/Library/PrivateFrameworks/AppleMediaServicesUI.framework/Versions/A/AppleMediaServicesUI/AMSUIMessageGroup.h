@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol AMSBagProtocol, AMSUIMessageGroupDelegate;
+@class NSDictionary;
+@protocol AMSBagProtocol;
 
 @interface AMSUIMessageGroup
 {
     NSDictionary *_clientData;
-    NSString *_clientIdentifier;
-    NSString *_clientVersion;
-    id <AMSUIMessageGroupDelegate> _delegate;
-    NSDictionary *_clientMetricsOverlay;
-    id <AMSBagProtocol> _bag;
 }
 
 - (void);
@@ -26,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)mpute Sync enabled check for direction:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
@@ -35,25 +30,13 @@
 - (void);
 - (void);
 - (id);
-- (void)on:completion: /* Error: Ran out of types for this method. */;
-- (id)LastNavigationStyle: /* Error: Ran out of types for this method. */;
-- (id)ntationViewController;
+- (void)viewControllerForModalMessagePresentation:completion: /* Error: Ran out of types for this method. */;
+- (id)setLastNavigationStyle: /* Error: Ran out of types for this method. */;
+- (id)currentPresentationViewController;
 - (void)_¾~=Qo_îº=yË=GG_A1_tGGAIGAIGtGGAIGAIGG_Qo_tGG_º×=y=GQo__ Ó@m!Ó@Qo_;
 
 // Remaining properties
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) NSDictionary *clientData; // @synthesize clientData=_clientData;
-@property(retain) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) NSDictionary *clientMetricsOverlay; // @synthesize clientMetricsOverlay=_clientMetricsOverlay;
-@property(retain) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUIMessageGroupDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

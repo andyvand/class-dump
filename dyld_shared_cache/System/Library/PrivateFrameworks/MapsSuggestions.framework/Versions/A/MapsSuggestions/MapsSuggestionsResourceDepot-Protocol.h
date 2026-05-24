@@ -5,8 +5,11 @@
 //
 
 @class MapsSuggestionsUser;
+@protocol MapsSuggestionsLocationUpdater, MapsSuggestionsSourceDelegate;
 
 @protocol MapsSuggestionsResourceDepot
+- (id <MapsSuggestionsSourceDelegate>)_;
+- (id <MapsSuggestionsLocationUpdater>)8@"UXCollectionView"16;
 - (MapsSuggestionsUser *)È(;
 @end
 

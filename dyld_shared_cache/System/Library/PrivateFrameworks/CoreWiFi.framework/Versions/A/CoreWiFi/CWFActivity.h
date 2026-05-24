@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface CWFActivity
 {
     NSUUID *_UUID;
-    NSString *_reason;
-    long long _type;
-    unsigned long long _timeout;
 }
 
 + (id);
-+ (id);
++ (id)ecrets;
 + (_Bool);
 - (_Bool);
 - (void);
@@ -28,7 +25,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)exadecimal number;
 - (id);
 - (void);
 - (void);
@@ -37,9 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned long long timeout; // @synthesize timeout=_timeout;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

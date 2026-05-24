@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDate, NSString;
+@class NSAttributedString;
 
 @interface IMMessagePartHistoricalContent
 {
     NSAttributedString *_messagePartText;
-    NSAttributedString *_messagePartTranslation;
-    NSDate *_dateSent;
-    NSString *_backwardCompatibleMessageGUID;
 }
 
+- (void)	k@;
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)T:2 /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)ous;
+- (void)previous;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *backwardCompatibleMessageGUID; // @synthesize backwardCompatibleMessageGUID=_backwardCompatibleMessageGUID;
-@property(retain, nonatomic) NSDate *dateSent; // @synthesize dateSent=_dateSent;
 @property(retain, nonatomic) NSAttributedString *messagePartText; // @synthesize messagePartText=_messagePartText;
-@property(retain, nonatomic) NSAttributedString *messagePartTranslation; // @synthesize messagePartTranslation=_messagePartTranslation;
 
 @end
 

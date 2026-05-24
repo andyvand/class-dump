@@ -8,12 +8,12 @@
 {
 }
 
-+ (void);
++ (void)pageControllers;
 + (id);
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id);
 + (void);
 
 @end

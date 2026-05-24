@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, UITableViewCell;
+
 @protocol UITableViewDataSource
+- (UITableViewCell *)SbGG;
+- (long long);
+
+@optional
+- (NSString *);
+- (long long);
+- (NSArray *);
+- (long long)@;
 @end
 

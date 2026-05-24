@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIContextMenuInteraction, UITextSelectionDisplayInteraction, UIView, UIWKTextInteractionAssistant;
-@protocol UIAsyncTextInteractionDelegate, UIContextMenuInteractionDelegate;
+@class UIWKTextInteractionAssistant;
+@protocol UIAsyncTextInteractionDelegate;
 
 @interface UIAsyncTextInteraction
 {
     UIWKTextInteractionAssistant *_textInteractionAssistant;
-    UIView *_view;
-    id <UIAsyncTextInteractionDelegate> _delegate;
 }
 
-- (void);
-- (void);
+- (void)ceived message with sender:(id)arg1 %@, %lu parts, type:%ld  msgCountryCode:%@ service center:%@  incoming code:%@ displayName:%@ /* Error: Ran out of types for this method. */;
+- (void)@"NSError"24;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)¡;
@@ -30,12 +28,12 @@
 - (void)ñeÐ1Â0@ù
 × ;
 - (id)"16@"NSArray"24;
-- (void)firmPanelWithMessage:(id)arg1;
-- (void)taryContentInsetsReferenceInsets;
-- (void)ssInterfaceOrientation;
+- (void)webView:(id)arg1 runJavaScriptConfirmPanelWithMessage: /* Error: Ran out of types for this method. */;
+- (void)_minimumSupplementaryContentInsetsReferenceInsets;
+- (void)_initialGuessInterfaceOrientation;
 - (id)ì¼;
 - (void)ng, UIView *const __strong);
-- (void)LinearLight;
+- (void)UICompositingModeLinearLight;
 - (void)<pþ;
 - (void)ut;
 - (void)Ðþ°éÔõd;
@@ -45,18 +43,7 @@
 - (id)Àÿàñ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIContextMenuInteraction *contextMenuInteraction;
-@property(nonatomic) __weak id <UIContextMenuInteractionDelegate> contextMenuInteractionDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UIAsyncTextInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITextSelectionDisplayInteraction *textSelectionDisplayInteraction;
-@property(readonly, nonatomic) __weak UIView *view;
 
 @end
 

@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXHandle, NSData, NSString;
+@class CXHandle, NSString;
 
 @interface CXMember
 {
     CXHandle *_handle;
-    NSData *_identityBlob;
-    NSString *_stableDeviceIdentifier;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)QMI_ERR_ACCESS_DENIED;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)_delegatedAccountID;
+- (void)action for section without active transaction:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
-- (id)vider:(id)arg1 performSetVideoPresentationSizeCallAction: /* Error: Ran out of types for this method. */;
+- (id)provider:(id)arg1 performSetVideoPresentationSizeCallAction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CXHandle *handle; // @synthesize handle=_handle;
-@property(readonly, copy, nonatomic) NSData *identityBlob; // @synthesize identityBlob=_identityBlob;
 @property(retain, nonatomic) NSString *stableDeviceIdentifier; // @synthesize stableDeviceIdentifier=_stableDeviceIdentifier;
 
 @end

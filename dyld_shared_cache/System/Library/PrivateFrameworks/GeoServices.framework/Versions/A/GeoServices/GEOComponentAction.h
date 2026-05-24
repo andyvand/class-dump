@@ -10,24 +10,17 @@ __attribute__((visibility("hidden")))
 @interface GEOComponentAction
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _actions;
-    int _component;
-    _Bool _handleLocally;
-    struct {
-        unsigned int has_component:1;
-        unsigned int has_handleLocally:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)lastAggTime;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)icData:(struct _NSZone *)arg1;
+- (id)setAnalyticData:(struct _NSZone *)arg1;
 - (id)X;
-- (id)d;
+- (id)notificationsEnabled;
 - (void)ã5;
 
 @end

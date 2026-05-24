@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSS_PunctuationGroup, NSString;
+@class NSString;
 
 @interface AXSS_PunctuationContext
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contextIdentifier; // @dynamic contextIdentifier;
-@property(retain, nonatomic) AXSS_PunctuationGroup *group; // @dynamic group;
 
 @end
 

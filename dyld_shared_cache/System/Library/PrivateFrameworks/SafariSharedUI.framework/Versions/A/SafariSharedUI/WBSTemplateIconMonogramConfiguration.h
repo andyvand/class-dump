@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface WBSTemplateIconMonogramConfiguration
 {
     _Bool _skipMonogramGeneration;
-    double _fontSize;
-    long long _fontWeight;
-    long long _fontDesign;
-    double _baselineOffset;
-    NSColor *_backgroundColor;
-    NSColor *_foregroundColor;
-    double _cornerRadius;
-    struct CGSize _iconSize;
 }
 
-+ (id);
++ (id)9
+7
+;
 + (id);
 - (_Bool);
 - (void);
@@ -28,8 +20,8 @@
 - (long long);
 - (unsigned long long);
 - (void);
-- (struct CGSize);
-- (_Bool);
+- (struct CGSize);
+- (_Bool);
 - (void);
 - (double);
 - (id);
@@ -47,14 +39,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) double baselineOffset; // @synthesize baselineOffset=_baselineOffset;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) long long fontDesign; // @synthesize fontDesign=_fontDesign;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(nonatomic) long long fontWeight; // @synthesize fontWeight=_fontWeight;
-@property(retain, nonatomic) NSColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(nonatomic) struct CGSize iconSize; // @synthesize iconSize=_iconSize;
 @property(nonatomic) _Bool skipMonogramGeneration; // @synthesize skipMonogramGeneration=_skipMonogramGeneration;
 
 @end

@@ -6,31 +6,10 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TLabelView, FI_TTableView, FI_TTaggingTokenField, NSImage, NSLayoutConstraint;
-
 __attribute__((visibility("hidden")))
 @interface FI_TTaggingSuggestionsViewController : FI_TViewController
 {
     struct TNSWeakPtr<FI_TTaggingTokenField> _weakTokenField;
-    _Bool _showingAll;
-    _Bool _needShowAll;
-    struct TString _previousTypedPartOfMatchingName;
-    NSImage *_topClipViewMaskImage;
-    NSImage *_bottomClipViewMaskImage;
-    NSImage *_topAndBottomClipViewMaskImage;
-    double _lastIndexSelected;
-    double _lastScrollOffset;
-    struct TNotificationCenterObserver _tagRegistryChangedObserver;
-    struct TNotificationCenterObserver _generateNewTagCompletionsObserver;
-    struct TNotificationCenterObserver _suggestionsWillShowObserver;
-    struct TNotificationCenterObserver _clipViewFrameChangedObserver;
-    struct TNotificationCenterObserver _clipViewBoundsChangedObserver;
-    struct TNotificationCenterObserver _showAllIsSelectedObserver;
-    NSLayoutConstraint *_maxHeightConstraint;
-    _Bool _fadeScrolledRows;
-    _Bool _showLabelColorView;
-    FI_TTableView *_tableView;
-    FI_TLabelView *_labelColorView;
 }
 
 - (void);
@@ -45,7 +24,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!B9
+;
 - (void);
 - (void);
 - (void);
@@ -65,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)TS;
 - (void);
 - (void);
 - (void);
@@ -82,10 +62,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool fadeScrolledRows; // @synthesize fadeScrolledRows=_fadeScrolledRows;
-@property(retain, nonatomic) FI_TLabelView *labelColorView; // @synthesize labelColorView=_labelColorView;
-@property(nonatomic) _Bool showLabelColorView; // @synthesize showLabelColorView=_showLabelColorView;
-@property(retain, nonatomic) FI_TTableView *tableView; // @synthesize tableView=_tableView;
-@property(nonatomic) __weak FI_TTaggingTokenField *taggingTokenField;
 
 @end
 

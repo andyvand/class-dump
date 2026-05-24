@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     int m_edgeType;
 }
 
-- (void);
+- (void)ytic zone.;
 - (void);
 
 @end

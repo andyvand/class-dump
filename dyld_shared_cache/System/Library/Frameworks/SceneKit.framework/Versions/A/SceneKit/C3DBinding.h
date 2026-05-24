@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface C3DBinding
 {
     id sourceObject;
-    NSString *keyPathSrc;
-    NSString *keyPathDst;
-    NSDictionary *options;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)yM;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *keyPathDst; // @synthesize keyPathDst;
-@property(retain, nonatomic) NSString *keyPathSrc; // @synthesize keyPathSrc;
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options;
 @property(retain, nonatomic) id sourceObject; // @synthesize sourceObject;
 
 @end

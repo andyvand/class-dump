@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VCMediaNegotiatorLocalConfiguration, VCMediaNegotiatorMediaEncryptionSettings, VCMediaNegotiatorResults, VCMediaNegotiatorResultsAudio, VCMediaNegotiatorResultsFaceTimeSettings, VCMediaNegotiatorResultsMediaRecorder, VCMediaNegotiatorResultsVideo;
+@class VCMediaNegotiatorLocalConfiguration, VCMediaNegotiatorResultsAudio;
 
 @protocol VCMediaNegotiatorProtocol
+- (VCMediaNegotiatorResultsAudio *);
+- (VCMediaNegotiatorLocalConfiguration *)etStorage>>=""{?="__ptr_"^{MeshSetStorage}}}"_storageClient"{shared_ptr<md::MeshSetStorageClient>="__ptr_"^{MeshSetStorageClient}"__cntrl_"^{__shared_weak_count}}})"__engaged_"B} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) VCMediaNegotiatorLocalConfiguration *localSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsAudio *negotiatedAudioSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsFaceTimeSettings *negotiatedFaceTimeSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorMediaEncryptionSettings *negotiatedMediaEncyptionSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsMediaRecorder *negotiatedMediaRecorderSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsVideo *negotiatedScreenSettings;
-@property(readonly, nonatomic) VCMediaNegotiatorResults *negotiatedSettings;
-@property(readonly, nonatomic) NSArray *negotiatedStreamGroups;
-@property(readonly, nonatomic) VCMediaNegotiatorResultsVideo *negotiatedVideoSettings;
 @end
 

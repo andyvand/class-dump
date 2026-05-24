@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEFlowMetaData, NSData, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_interface;
-
 @interface NEAppProxyFlow
 {
     _Bool _isBound;
-    NEFlowMetaData *_metaData;
-    NSString *_remoteHostname;
-    struct _NEFlow *_flow;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_nw_interface> *__networkInterface;
-    CDUnknownBlockType _guard_proxy_completion_handler;
 }
 
 - (void);
@@ -31,18 +22,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)cked and on wrist:%@.
+ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
-- (void)wEndpoint:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)openWithLocalFlowEndpoint:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSData *applicationData;
 @property _Bool isBound; // @synthesize isBound=_isBound;
-@property(readonly) NEFlowMetaData *metaData; // @synthesize metaData=_metaData;
-@property(copy) NSObject<OS_nw_interface> *networkInterface;
-@property(readonly) NSString *remoteHostname; // @synthesize remoteHostname=_remoteHostname;
 
 @end
 

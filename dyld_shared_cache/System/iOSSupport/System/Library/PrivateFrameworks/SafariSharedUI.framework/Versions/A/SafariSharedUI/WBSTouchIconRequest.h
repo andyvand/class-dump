@@ -6,52 +6,34 @@
 
 #import <SafariSharedUI/WBSSiteMetadataRequest.h>
 
-@class NSString, UIColor, WBSTemplateIconMonogramConfiguration;
-
 @interface WBSTouchIconRequest : WBSSiteMetadataRequest
 {
     unsigned long long _options;
-    WBSTemplateIconMonogramConfiguration *_monogramConfiguration;
-    NSString *_monogramTitle;
-    UIColor *_backgroundColor;
-    struct CGSize _minimumIconSize;
-    struct CGSize _maximumIconSize;
 }
 
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (struct CGSize);
 - (id);
 - (id);
 - (id);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
-- (unsigned long long);
+- (unsigned long long)c.rowid
+ORDER BY
+  MAX(cmj.message_date) DESC
+LIMIT ?;;
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void)afari_isICloudAppWithBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (void)safari_isICloudAppWithBundleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize maximumIconSize; // @synthesize maximumIconSize=_maximumIconSize;
-@property(readonly, nonatomic) struct CGSize minimumIconSize; // @synthesize minimumIconSize=_minimumIconSize;
-@property(readonly, nonatomic) WBSTemplateIconMonogramConfiguration *monogramConfiguration; // @synthesize monogramConfiguration=_monogramConfiguration;
-@property(readonly, copy, nonatomic) NSString *monogramTitle; // @synthesize monogramTitle=_monogramTitle;
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) struct CGSize sizeForDrawing;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier;
 
 @end
 

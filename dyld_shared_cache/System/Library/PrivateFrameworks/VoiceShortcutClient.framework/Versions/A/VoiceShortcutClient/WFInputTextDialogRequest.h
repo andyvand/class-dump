@@ -6,25 +6,21 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class NSString, WFDialogButton, WFTextFieldConfiguration;
+@class WFTextFieldConfiguration;
 
 @interface WFInputTextDialogRequest : WFDialogRequest
 {
     WFTextFieldConfiguration *_textFieldConfiguration;
-    NSString *_message;
-    WFDialogButton *_cancelButton;
-    WFDialogButton *_doneButton;
-    NSString *_parameterKey;
 }
 
-+ (_Bool);
++ (_Bool);
+- (id);
+- (id);
+- (_Bool)|;
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -32,10 +28,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) WFDialogButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, copy, nonatomic) WFDialogButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSString *parameterKey; // @synthesize parameterKey=_parameterKey;
 @property(readonly, copy, nonatomic) WFTextFieldConfiguration *textFieldConfiguration; // @synthesize textFieldConfiguration=_textFieldConfiguration;
 
 @end

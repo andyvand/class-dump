@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSQLSchema, BMStreamBase, NSString;
+@class NSString;
 
 @interface BMStreamVirtualTable
 {
     _Bool _acceptPublisherOptions;
-    BMStreamBase *_stream;
-    BMSQLSchema *_schema;
-    CDUnknownBlockType _publisherBlock;
-    NSString *_useCase;
 }
 
 + (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)u;
 - (id);
 - (id);
 - (_Bool);
@@ -25,15 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void) !;
 - (id)äoØ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool acceptPublisherOptions; // @synthesize acceptPublisherOptions=_acceptPublisherOptions;
-@property(readonly, copy, nonatomic) CDUnknownBlockType publisherBlock; // @synthesize publisherBlock=_publisherBlock;
-@property(readonly, nonatomic) BMSQLSchema *schema; // @synthesize schema=_schema;
-@property(readonly, nonatomic) BMStreamBase *stream; // @synthesize stream=_stream;
 @property(readonly, nonatomic) NSString *useCase; // @synthesize useCase=_useCase;
 
 @end

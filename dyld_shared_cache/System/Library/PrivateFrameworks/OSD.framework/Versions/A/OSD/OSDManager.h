@@ -9,15 +9,14 @@
 @interface OSDManager
 {
     OSDConnectionInfo *_osd;
-    OSDConnectionInfo *_systemBanners;
 }
 
 + (id);
 - (void);
+- (void)xA;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

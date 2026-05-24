@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAppletSubcredential;
+@class PKAppletSubcredential;
 
 @interface PKCarShareAcceptanceResponse
 {
     PKAppletSubcredential *_subcredential;
-    NSString *_passUniqueIdentifier;
 }
 
 + (_Bool)0@ù
@@ -21,13 +20,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void)s;
+- (unsigned long long)	;
+- (_Bool)hasGeneratedPasswordInteractionType;
+- (void);
+- (void)shareDetails;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;
 @property(retain, nonatomic) PKAppletSubcredential *subcredential; // @synthesize subcredential=_subcredential;
 
 @end

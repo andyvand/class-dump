@@ -4,36 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMApplicationData, HMHome, NSArray, NSString, NSUUID, _HMContext;
+@class _HMContext;
 
 @interface HMRoom
 {
     struct os_unfair_lock_s _lock;
-    NSUUID *_uniqueIdentifier;
-    NSString *_name;
-    NSUUID *_uuid;
-    HMHome *_home;
-    HMApplicationData *_applicationData;
-    _HMContext *_context;
 }
 
 + (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)_prepareLibraryForDeletionWithTombstone:libraryURL:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)setHeaderTraitsInFirstLine:(id)arg1;
+- (id)9
+?
+8
+<
+$
+;
 - (void);
 - (id);
 - (id);
@@ -46,21 +45,7 @@
 - (id)ve cached metadata configuration from serialized metadata configuration:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *accessories;
-@property(retain, nonatomic) HMApplicationData *applicationData; // @synthesize applicationData=_applicationData;
-@property(readonly, copy) NSUUID *applicationDataIdentifier;
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

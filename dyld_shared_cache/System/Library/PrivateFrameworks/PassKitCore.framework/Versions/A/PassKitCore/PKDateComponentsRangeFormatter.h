@@ -15,13 +15,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@y?;
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (long long);
-- (void)tices;
+- (void)requiresDebtCollectionNotices;
 
 // Remaining properties
 @property(retain, nonatomic) NSDateIntervalFormatter *dateIntervalFormatter; // @synthesize dateIntervalFormatter=_dateIntervalFormatter;

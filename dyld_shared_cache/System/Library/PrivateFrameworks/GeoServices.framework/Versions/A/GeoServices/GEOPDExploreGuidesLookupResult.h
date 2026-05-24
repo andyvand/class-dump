@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDExploreGuides, GEOPDExplorePlace, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDExploreGuidesLookupResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDExploreGuides *_exploreGuides;
-    GEOPDExplorePlace *_explorePlace;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _punchoutType;
-    struct {
-        unsigned int has_punchoutType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_exploreGuides:1;
-        unsigned int read_explorePlace:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)NSString",&,N,V_previousMessageLanguage;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)|;
 - (_Bool);
 - (id);
 - (id)s"b1"read_primaryFeatureLocation"b1"wrote_anyField"b1};
-- (id)artureTime;
+- (id)_departureTime;
 - (id)ðt;
 - (void)R¸ë7@;
 

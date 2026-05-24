@@ -5,5 +5,9 @@
 //
 
 @protocol TUConversationManagerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

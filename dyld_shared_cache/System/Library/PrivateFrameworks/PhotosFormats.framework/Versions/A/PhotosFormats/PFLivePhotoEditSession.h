@@ -4,60 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetExportSession, CIContext, CIImage, NSDictionary, NSObject, NSString, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PFLivePhotoEditSession
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_renderQueue;
-    AVAsset *_videoAsset;
-    CDStruct_1b6d18a9 _inputVideoDuration;
-    CDStruct_1b6d18a9 _photoTime;
-    struct CGImageSource *_inputImageSource;
-    unsigned int _inputOrientation;
-    NSDictionary *_inputImageProperties;
-    CIContext *_renderContext;
-    AVAssetExportSession *_exportSession;
-    CIImage *_inputImage;
-    CIImage *_subsampledInputImage;
-    long long _subsampleFactor;
-    CIImage *_outputImage;
-    CIImage *_scaledOutputImage;
-    double _inputVideoScale;
-    struct CGSize _inputVideoScaleRoundingError;
-    CDUnknownBlockType _frameProcessor;
-    NSString *_temporaryDirectory;
-    NSURL *_lastTemporaryVideoURL;
-    NSString *_uniqueIdentifier;
-    _Bool _isExporting;
-    float _audioVolume;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)Ԗ;
 - (double);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (struct CGSize);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (id);
 - (unsigned int);
 - (struct CGAffineTransform);
 - (id);
 - (double);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (unsigned int);
 - (id);
 - (id);
@@ -73,16 +51,16 @@
 - (struct CGSize);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)P;
 - (void);
 - (void);
-- (void);
-- (CDStruct_1b6d18a9);
+- (void)_messageCategorizer;
+- (CDStruct_198678f7);
 - (id);
 - (float);
-- (id);
+- (id)2@0:8@"CKCodeFunctionInvokeOperationInfo"16@?<v@?@"NSError">24 /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 - (id);
@@ -90,14 +68,7 @@
 - (id);
 
 // Remaining properties
-@property float audioVolume; // @synthesize audioVolume=_audioVolume;
-@property(readonly) CDStruct_1b6d18a9 duration;
-@property(copy) CDUnknownBlockType frameProcessor;
-@property(readonly) CIImage *inputImage;
-@property(readonly) unsigned int orientation;
-@property(readonly) struct CGSize outputImageSize;
-@property(readonly) struct CGSize outputVideoSize;
-@property(readonly) CDStruct_1b6d18a9 photoTime; // @synthesize photoTime=_photoTime;
+@property(readonly) CDStruct_198678f7 duration;
 
 @end
 

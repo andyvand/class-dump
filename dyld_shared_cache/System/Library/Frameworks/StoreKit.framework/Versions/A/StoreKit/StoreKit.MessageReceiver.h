@@ -7,12 +7,10 @@
 @interface StoreKit.MessageReceiver
 {
     id $defaultActor;
-    id continuation;
-    id logKey;
 }
 
 - (void);
-- (id);
+- (id);
 
 @end
 

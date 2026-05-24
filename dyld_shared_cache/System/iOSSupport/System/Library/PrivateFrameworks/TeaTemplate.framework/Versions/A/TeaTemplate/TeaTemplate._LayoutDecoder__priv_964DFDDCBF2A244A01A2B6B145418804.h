@@ -7,8 +7,6 @@
 @interface TeaTemplate._LayoutDecoder__priv_964DFDDCBF2A244A01A2B6B145418804
 {
     id object;
-    id codingPath;
-    id userInfo;
 }
 
 @end

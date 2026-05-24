@@ -5,5 +5,8 @@
 //
 
 @protocol IMKXPCServerProxy
+- (void);
+- (void)D;
+- (void);
 @end
 

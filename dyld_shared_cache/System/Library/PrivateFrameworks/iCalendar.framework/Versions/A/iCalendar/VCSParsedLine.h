@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface VCSParsedLine
 {
     NSString *_keyword;
-    NSMutableData *_content;
-    NSMutableDictionary *_params;
-    _Bool _usePalmD4Hooks;
-    unsigned long long _type;
-    long long _tokenID;
 }
 
-+ (long long);
++ (long long)`;
 + (long long);
 + (const CDStruct_8fc448ea *);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)K;
 - (id);
 - (void);
 - (id);
@@ -33,14 +28,12 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)r;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long tokenID; // @synthesize tokenID=_tokenID;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool usePalmD4Hooks; // @synthesize usePalmD4Hooks=_usePalmD4Hooks;
 
 @end
 

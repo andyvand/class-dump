@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSUUID;
+@class NSUUID;
 
 @interface RTFingerprint
 {
     NSUUID *_identifier;
-    unsigned long long _settledState;
-    NSDate *_start;
-    NSArray *_accessPoints;
 }
 
 @end

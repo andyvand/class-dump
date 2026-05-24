@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSNumber, NSSet, NSString, NSUUID, NSXPCListenerEndpoint, TUConversationActivity, TUHandle;
-
 @interface TUConversationActivitySession
 {
     _Bool _isLocallyInitiated;
-    _Bool _isLightweightPrimaryInitiated;
-    _Bool _isFirstJoin;
-    _Bool _permittedToJoin;
-    _Bool _localParticipantActive;
-    _Bool _didAssociateScene;
-    _Bool _persistentSceneIsEligibleForAutoClose;
-    _Bool _usingAirplay;
-    _Bool _isStageInitiated;
-    NSDate *_timestamp;
-    NSUUID *_UUID;
-    TUConversationActivity *_activity;
-    unsigned long long _state;
-    NSXPCListenerEndpoint *_endpoint;
-    NSNumber *_clientAudioSessionID;
-    NSSet *_activeRemoteParticipants;
-    NSArray *_persistentSceneIdentifiers;
-    NSString *_primarySceneAssociationIdentifier;
-    unsigned long long _distributionCount;
-    unsigned long long _applicationState;
-    NSArray *_externalParticipants;
-    TUHandle *_terminatingHandle;
-    NSDate *_localCreationTimestamp;
-    NSDate *_permittedJoinTimestamp;
-    NSDictionary *_participantIdentifierMap;
 }
 
 + (_Bool);

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSTableRowData;
+@class NSTableRowData;
 
 __attribute__((visibility("hidden")))
 @interface NSTableViewRecycledViews
 {
     NSTableRowData *_rowData;
-    NSMutableDictionary *_viewPools;
-    unsigned long long _maxPoolSize;
-    _Bool _cullingDisabled;
 }
 
 - (void);

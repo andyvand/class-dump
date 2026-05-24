@@ -7,15 +7,12 @@
 #import <GeoServices/GEOMapRequestManager.h>
 
 @class NSObject;
-@protocol GEOMapAccessRestrictions, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface GEOZilchDecoder : GEOMapRequestManager
 {
     NSObject<OS_dispatch_queue> *_decoderQueue;
-    NSObject<OS_dispatch_queue> *_requestQueue;
-    struct mutex _lock;
-    id <GEOMapAccessRestrictions> _mapAccessRestrictions;
 }
 
 + (_Bool);
@@ -33,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *decoderQueue; // @synthesize decoderQueue=_decoderQueue;
-@property(nonatomic) __weak id <GEOMapAccessRestrictions> mapAccessRestrictions; // @synthesize mapAccessRestrictions=_mapAccessRestrictions;
 
 @end
 

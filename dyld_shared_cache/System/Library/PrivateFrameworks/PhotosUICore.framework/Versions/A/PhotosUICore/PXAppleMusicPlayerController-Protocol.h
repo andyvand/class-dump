@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXObservable;
+@class PXObservable;
 
 @protocol PXAppleMusicPlayerController
-- (PXObservable *)rmMessagePayload;
+- (_Bool)h;
+- (double);
+- (PXObservable *)OneUpSharePlayTileTransformMessagePayload;
 
 // Remaining properties
-@property(copy) NSString *currentClientIdentifier;
-@property(readonly, nonatomic) _Bool isAtEnd;
 @property(readonly, nonatomic) PXObservable *observable;
-@property(readonly, nonatomic) long long playbackState;
-@property(readonly, nonatomic) double volume;
-@property(copy, nonatomic) NSString *windowSceneID;
 @end
 

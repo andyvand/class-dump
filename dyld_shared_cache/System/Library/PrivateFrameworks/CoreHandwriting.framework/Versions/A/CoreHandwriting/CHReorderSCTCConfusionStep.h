@@ -9,12 +9,11 @@
 @interface CHReorderSCTCConfusionStep : CHPostprocessingStep
 {
     void **_icuTransliterator;
-    long long _maxResultCount;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)masterthumb;
 
 @end
 

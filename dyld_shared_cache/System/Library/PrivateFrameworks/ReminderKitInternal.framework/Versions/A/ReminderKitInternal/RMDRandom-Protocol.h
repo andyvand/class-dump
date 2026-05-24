@@ -5,5 +5,6 @@
 //
 
 @protocol RMDRandom
+- (unsigned long long);
 @end
 

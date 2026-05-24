@@ -7,8 +7,6 @@
 @interface AXCoreUtilities.SWEAXTextFileHandleReader
 {
     id handle;
-    id collectedData;
-    id isParsingMultiChunkMessage;
 }
 
 @end

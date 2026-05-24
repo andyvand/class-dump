@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SASyncAppMetaData;
+@class NSString;
 
 @interface SASyncChunk : SABaseClientBoundCommand
 {
@@ -16,24 +16,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSString *appBundleId;
-@property(retain, nonatomic) SASyncAppMetaData *appMetaData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *intentSlotName;
-@property(copy, nonatomic) NSString *key;
-@property(copy, nonatomic) NSString *postGen;
-@property(copy, nonatomic) NSString *preGen;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *toAdd;
-@property(copy, nonatomic) NSArray *toRemove;
-@property(copy, nonatomic) NSString *validity;
 
 @end
 

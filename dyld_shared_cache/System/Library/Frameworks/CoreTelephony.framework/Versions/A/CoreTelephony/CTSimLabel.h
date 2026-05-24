@@ -9,29 +9,25 @@
 @interface CTSimLabel
 {
     _Bool _didSetup;
-    NSString *_unique_id;
-    NSString *_text;
 }
 
-+ (_Bool);
++ (_Bool)e of %@;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)lockoutStateFromError:(id)arg1;
 - (id);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool didSetup; // @synthesize didSetup=_didSetup;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 @property(retain, nonatomic) NSString *unique_id; // @synthesize unique_id=_unique_id;
 
 @end

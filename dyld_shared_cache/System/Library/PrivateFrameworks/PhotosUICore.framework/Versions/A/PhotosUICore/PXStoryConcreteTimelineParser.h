@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, PXStoryConcreteSubtimelineScanner, PXStoryMutableConcreteTimeline, PXStoryResourcesDataSource;
-@protocol PFRandomNumberGenerator;
+@class PXStoryConcreteSubtimelineScanner, PXStoryMutableConcreteTimeline;
 
 @interface PXStoryConcreteTimelineParser
 {
     PXStoryMutableConcreteTimeline *_accumulatedBestTimeline;
-    PXStoryMutableConcreteTimeline *_nextBestTimeline;
-    PXStoryMutableConcreteTimeline *_candidateAccumulatedTimelineWithNextBestTimeline;
-    id <PFRandomNumberGenerator> _randomNumberGenerator;
-    BOOL _fallbackTransitionKind;
-    long long _preferredInitialDisplayAssetResourceIndex;
-    double _parseTimeLimit;
-    long long _parseCountLimit;
-    PXStoryConcreteSubtimelineScanner *_scanner;
-    PXStoryResourcesDataSource *_resourcesDataSource;
-    NSIndexSet *_allowedTransitionKinds;
 }
 
 - (void);
@@ -40,13 +29,6 @@
 - (id)¬Ðÿ/6N©<;
 
 // Remaining properties
-@property(readonly, nonatomic) NSIndexSet *allowedTransitionKinds; // @synthesize allowedTransitionKinds=_allowedTransitionKinds;
-@property(readonly, nonatomic) BOOL fallbackTransitionKind; // @synthesize fallbackTransitionKind=_fallbackTransitionKind;
-@property(readonly, nonatomic) _Bool isAtEnd;
-@property(nonatomic) long long parseCountLimit; // @synthesize parseCountLimit=_parseCountLimit;
-@property(nonatomic) double parseTimeLimit; // @synthesize parseTimeLimit=_parseTimeLimit;
-@property(nonatomic) long long preferredInitialDisplayAssetResourceIndex; // @synthesize preferredInitialDisplayAssetResourceIndex=_preferredInitialDisplayAssetResourceIndex;
-@property(readonly, nonatomic) PXStoryResourcesDataSource *resourcesDataSource; // @synthesize resourcesDataSource=_resourcesDataSource;
 @property(readonly, nonatomic) PXStoryConcreteSubtimelineScanner *scanner; // @synthesize scanner=_scanner;
 
 @end

@@ -16,7 +16,7 @@
 - (_Bool);
 - (long long);
 - (unsigned long long);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long value; // @synthesize value=_value;

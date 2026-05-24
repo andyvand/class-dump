@@ -10,45 +10,10 @@
 {
     id °10@ù
 ?×é;
-    id 1	?×hbAù@ù@ùñª1\íò0ÁÚ	Oøh:@ùàª!;
-    id ù
-?×é;
-    id jAùtbAù@ù0ÁÚñªñGÁÚë@;
-    id ?×ÿ@ÑÿCÑó;
-    id  ;
-    id ª±°10@ù
-?×é;
-    id 0@ù
-?×é;
-    id ;
 }
 
 
 // Remaining properties
-// Error: Property attributes should begin with the type ('T') attribute, property name: 
-// Property attributes: àò	?×¨
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: í|éªñ°10@ù
-?×é
-// Property attributes: ñ	ªñÇåò0ÁÚñªñGÁÚë@
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: jv¸³þÿ5ø7è?@ù@ù	
-// Property attributes: 	@øªÑ@PøªC
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: (ø
-// Property attributes: 
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: :÷Øâ
-// Property attributes: @ù
-?×é
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: @
-// Property attributes: âªhùñªìò	?×
-
-// Error: Property attributes should begin with the type ('T') attribute, property name: A
-// Property attributes: @PøªÑAPøñªàò1	?×àª¨ÃÑ	Pø(@øªÃ
-Ñ¨øÿ¨cÑPøàª¨cÑPø¢Pø¨CÑPø©Ñ)Pø(	?×¨ÑPøèª Óq©Ùàÿ¨cÑPø´Sø@ù0ÁÚñªñGÁÚë@
-
 // Error: Property attributes should begin with the type ('T') attribute, property name: uÝþà
 // Property attributes: 2-qÝÒ0
 ÁÚâª©R

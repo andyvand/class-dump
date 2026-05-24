@@ -9,7 +9,6 @@
 @interface MLCDropoutLayer : MLCLayer
 {
     float _rate;
-    unsigned long long _seed;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float rate; // @synthesize rate=_rate;
-@property(readonly, nonatomic) unsigned long long seed; // @synthesize seed=_seed;
 
 @end
 

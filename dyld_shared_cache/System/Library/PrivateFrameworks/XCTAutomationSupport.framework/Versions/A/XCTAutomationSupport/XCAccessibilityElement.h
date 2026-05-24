@@ -9,31 +9,25 @@
 @interface XCAccessibilityElement
 {
     int _processIdentifier;
-    struct __AXUIElement *_AXUIElement;
-    unsigned long long _elementType;
-    unsigned long long _originPlatform;
-    NSData *_token;
-    unsigned long long _elementOrHash;
-    unsigned long long _elementID;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)c;
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (struct __AXUIElement *);
 - (void);
 - (id);
@@ -43,19 +37,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id):(struct _NSZone *)arg1: /* Error: Ran out of types for this method. */;
 - (int);
-- (unsigned long long);
+- (unsigned long long)`;
 - (void);
 
 // Remaining properties
-@property(readonly) struct __AXUIElement *AXUIElement; // @synthesize AXUIElement=_AXUIElement;
-@property(readonly) unsigned long long elementID; // @synthesize elementID=_elementID;
-@property(readonly) unsigned long long elementOrHash; // @synthesize elementOrHash=_elementOrHash;
-@property(readonly) unsigned long long elementType; // @synthesize elementType=_elementType;
-@property(readonly) _Bool hasValidElementType;
-@property(readonly) unsigned long long originPlatform; // @synthesize originPlatform=_originPlatform;
-@property(readonly) int processIdentifier; // @synthesize processIdentifier=_processIdentifier;
 @property(readonly, copy) NSData *token; // @synthesize token=_token;
 
 @end

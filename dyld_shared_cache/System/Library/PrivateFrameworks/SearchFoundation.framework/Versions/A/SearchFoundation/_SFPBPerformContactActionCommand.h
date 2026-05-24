@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBPerformContactActionCommand
 {
     _Bool _didDisplayHandleOptions;
-    _Bool _didSelectFromOptionsMenu;
-    int _contactActionType;
 }
 
 - (void);
@@ -24,23 +20,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)possibleChangesForChange:(id)arg1;
+- (id)ublic}@, will associate with merge target %{public}@;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) int contactActionType; // @synthesize contactActionType=_contactActionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didDisplayHandleOptions; // @synthesize didDisplayHandleOptions=_didDisplayHandleOptions;
-@property(nonatomic) _Bool didSelectFromOptionsMenu; // @synthesize didSelectFromOptionsMenu=_didSelectFromOptionsMenu;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

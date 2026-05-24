@@ -6,76 +6,55 @@
 
 #import <EmailDaemon/EDMessageRepositoryQueryHandler.h>
 
-@class EDInMemoryThreadCollection, EDMessageQueryHelper, EDUpdateThrottler, EDVIPManager, EFProcessTransaction, EMCollectionItemIDStateCapturer, EMMailboxScope, EMThreadReloadSummaryHelper, NSArray, NSMutableDictionary, NSObject, NSString;
-@protocol EDSearchProvider, EFAssertableScheduler, EMMessageListItemQueryResultsObserver, OS_dispatch_queue;
+@class EDInMemoryThreadCollection, EDVIPManager;
 
 @interface EDInMemoryThreadQueryHandler : EDMessageRepositoryQueryHandler
 {
     EDInMemoryThreadCollection *_threadCollection;
-    NSMutableDictionary *_changesWhilePaused;
-    EFProcessTransaction *_processTransaction;
-    unsigned long long _helperCount;
-    _Bool _didCancel;
-    _Bool _isInitialized;
-    _Bool _isPreparingFirstBatch;
-    _Bool _hasEverReconciledJournal;
-    _Bool _isPaused;
-    _Bool _hasChangesWhilePaused;
-    EDVIPManager *_vipManager;
-    id <EDSearchProvider> _searchProvider;
-    EDMessageQueryHelper *_messageQueryHelper;
-    NSArray *_messageSortDescriptors;
-    EDUpdateThrottler *_updateThrottler;
-    EMThreadReloadSummaryHelper *_reloadSummaryHelper;
-    id <EFAssertableScheduler> _scheduler;
-    NSObject<OS_dispatch_queue> *_contentProtectionQueue;
-    NSObject<OS_dispatch_queue> *_resultQueue;
-    EMMailboxScope *_mailboxScope;
-    EMCollectionItemIDStateCapturer *_stateCapturer;
 }
 
 + (id);
 + (id)tð!@ù³ð1Â0@ù
 × ;
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)�!;
 - (void);
 - (void);
-- (id);
-- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -88,24 +67,24 @@
 - (id);
 - (id);
 - (id);
+- (id)#;
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)scription:unpairedDescription: /* Error: Ran out of types for this method. */;
+- (void)performKVOUpdateForKeyPaths:(id)arg1 updateBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -120,30 +99,6 @@
 - (_Bool)Ìäáÿ2;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *contentProtectionQueue; // @synthesize contentProtectionQueue=_contentProtectionQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didCancel; // @synthesize didCancel=_didCancel;
-@property(nonatomic) _Bool hasChangesWhilePaused; // @synthesize hasChangesWhilePaused=_hasChangesWhilePaused;
-@property(nonatomic) _Bool hasEverReconciledJournal; // @synthesize hasEverReconciledJournal=_hasEverReconciledJournal;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInitialized; // @synthesize isInitialized=_isInitialized;
-@property(nonatomic) _Bool isPaused; // @synthesize isPaused=_isPaused;
-@property(nonatomic) _Bool isPreparingFirstBatch; // @synthesize isPreparingFirstBatch=_isPreparingFirstBatch;
-@property(readonly, nonatomic) EMMailboxScope *mailboxScope; // @synthesize mailboxScope=_mailboxScope;
-@property(retain, nonatomic) EDMessageQueryHelper *messageQueryHelper; // @synthesize messageQueryHelper=_messageQueryHelper;
-@property(readonly, copy, nonatomic) NSArray *messageSortDescriptors; // @synthesize messageSortDescriptors=_messageSortDescriptors;
-@property(readonly, nonatomic) EMThreadReloadSummaryHelper *reloadSummaryHelper; // @synthesize reloadSummaryHelper=_reloadSummaryHelper;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *resultQueue; // @synthesize resultQueue=_resultQueue;
-@property(readonly, nonatomic) id <EMMessageListItemQueryResultsObserver> resultsObserverIfNotPaused;
-@property(readonly, nonatomic) id <EFAssertableScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly, nonatomic) id <EDSearchProvider> searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(readonly, nonatomic) EMCollectionItemIDStateCapturer *stateCapturer; // @synthesize stateCapturer=_stateCapturer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) EDUpdateThrottler *updateThrottler; // @synthesize updateThrottler=_updateThrottler;
 @property(readonly, nonatomic) EDVIPManager *vipManager; // @synthesize vipManager=_vipManager;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBezierPath, UIColor;
+@class UIColor;
 
 @interface UIShadowProperties
 {
@@ -12,10 +12,10 @@
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)attachmentZoneChangeToken;
+- (void)v16@?0@"CKRecord"8;
+- (void)PeriodicSync;
+- (void)Invalid transfer state. transferState:(long long)arg1 %@ cloudKitSyncState:%@ existsAtLocalPath:%@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (struct CGSize);
 - (double);
@@ -23,16 +23,16 @@
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)responseWithIdentifier:sessionType:data: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)A!ôFù±ZÐ1Â0@ù
 × ;
-- (id)tems;
-- (id)roller:separateSecondaryViewControllerFromPrimaryViewController: /* Error: Ran out of types for this method. */;
-- (void)InflightState;
-- (_Bool)ustedPoint;
-- (void)etPlacement:(id)arg1;
-- (double)city: /* Error: Ran out of types for this method. */;
+- (id)previousIndexPathsForInteractivelyMovingItems;
+- (id)panelController:separateSecondaryViewControllerFromPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (void)didTransitionToInflightState;
+- (_Bool)adjustedPoint;
+- (void)_setPlacement:(id)arg1;
+- (double)_defaultColorTintColorWithOpacity: /* Error: Ran out of types for this method. */;
 - (void)KBRTTouchHistoryInfo",&,N,V_leftIndexFingerInfo;
 - (id)´upw;
 - (double);
@@ -45,18 +45,7 @@
 - (struct CGSize)¤`Y;
 
 // Remaining properties
-@property(nonatomic) long long _backgroundConfigurationShadowType;
-@property(nonatomic, retain) UIColor *_color;
-@property(nonatomic) struct CGSize _offset;
-@property(nonatomic) double _opacity;
-@property(nonatomic, retain) UIBezierPath *_path;
-@property(nonatomic) double _radius;
 @property(nonatomic, retain) UIColor *color;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) struct CGSize offset;
-@property(nonatomic) double opacity;
-@property(nonatomic, retain) UIBezierPath *path;
-@property(nonatomic) double radius;
 
 @end
 

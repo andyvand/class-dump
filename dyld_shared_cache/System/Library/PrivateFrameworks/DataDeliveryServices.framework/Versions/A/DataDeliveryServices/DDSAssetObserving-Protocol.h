@@ -7,6 +7,7 @@
 @protocol DDSAssetObservingDelegate;
 
 @protocol DDSAssetObserving
+- (void)s;
 
 // Remaining properties
 @property __weak id <DDSAssetObservingDelegate> delegate;

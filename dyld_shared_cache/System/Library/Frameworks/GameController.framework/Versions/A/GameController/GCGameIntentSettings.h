@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GCGameIntentSettings
 {
     _Bool _enabled;
-    long long _type;
-    NSString *_gameBundleID;
-    long long _appLibraryPod;
 }
 
 + (id);
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)o;
 - (void);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id));
 - (id);
 - (long long);
 - (void);
-- (void);
-- (_Bool);
+- (void)�;
+- (_Bool)J;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long appLibraryPod; // @synthesize appLibraryPod=_appLibraryPod;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) NSString *gameBundleID; // @synthesize gameBundleID=_gameBundleID;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

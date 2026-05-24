@@ -16,8 +16,8 @@
 + (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)n file:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSettingSelectionItem
 {
     NSUUID *_identifier;
-    NSString *_title;
 }
 
 + (_Bool)\ö;
-- (id);
+- (id)RFBSharePlayInitConnectionCore;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)dels:(struct _NSZone *)arg1;
-- (id)essoryFeatureProtocol;
+- (id)mostRecentReachabilityEventModelInModels:(struct _NSZone *)arg1;
+- (id)HMDMatterAccessoryFeatureProtocol;
 - (id)}@Could not create execution session, updating the current status to YES;
-- (void)StateTimeNotificationKey;
+- (void)HMDAccessoryProgressStateTimeNotificationKey;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *title; // @synthesize title=_title;
 
 @end
 

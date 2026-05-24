@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAccountRepository, NSError;
+@class ABAccountRepository;
 
 @interface ABAccountMigrator
 {
     ABAccountRepository *_repository;
-    ABAccount *_sourceAccount;
-    ABAccount *_destinationAccount;
-    int _options;
-    NSError *_error;
-    _Bool _backgroundMigrationComplete;
-    _Bool _deletionHandledDuringMigration;
 }
 
 + (id);
@@ -24,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +33,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ind the given or implied APFS Snapshot;
 - (void);
 
 @end

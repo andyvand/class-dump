@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserDiagnosticLoggingDelegate, NSArray, NSMenu, NSMenuItem, NSMutableSet, NSString, NSWindowController, OpenPageWithSimulatorMenuController;
+@class NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface DevelopMenuController
 {
     NSMenuItem *_developMenuItem;
-    NSMenuItem *_highlightedRemoteWebInspectorMenuItem;
-    NSMenu *_userAgentMenu;
-    NSMenu *_openWithMenu;
-    NSMenu *_serviceWorkersMenu;
-    NSMenu *_webExtensionBackgroundPagesMenu;
-    NSMenuItem *_getSafariTechnologyPreviewMenuItem;
-    _Bool _developMenuOpen;
-    NSArray *_userAgents;
-    struct optional<unsigned long long> _notificationHandlerID;
-    BrowserDiagnosticLoggingDelegate *_sharedInspectorDiagnosticLoggingDelegate;
-    NSMutableSet *_uuidsOfWebExtensionBackgroundPagesToInspect;
-    OpenPageWithSimulatorMenuController *_openPageWithSimulatorMenuController;
-    NSWindowController *_webInspectorGadgetWindowController;
-    _Bool _menuInstalled;
 }
 
-+ (id);
++ (id)initWithPolicyDictionary: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -39,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -50,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)(K;
 - (_Bool);
 - (void);
 - (void);
@@ -74,7 +60,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -97,18 +83,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *iPadMiniUserAgent;
-@property(readonly) NSString *iPadUserAgent;
-@property(readonly) NSString *iPhoneUserAgent;
 @property(readonly, nonatomic, getter=isMenuInstalled) _Bool menuInstalled; // @synthesize menuInstalled=_menuInstalled;
-@property(readonly) Class superclass;
-@property(readonly) NSArray *userAgents;
 
 @end
 

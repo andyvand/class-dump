@@ -7,10 +7,6 @@
 @interface NewsFeed.HistoryFeaturePromotionEligibilityProvider
 {
     id history;
-    id readingHistory;
-    id headlineService;
-    id recipeHistory;
-    id puzzleHistoryService;
 }
 
 @end

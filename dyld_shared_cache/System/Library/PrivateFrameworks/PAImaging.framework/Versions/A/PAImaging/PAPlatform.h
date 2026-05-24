@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface PAPlatform
 {
     struct __CFRunLoopSource *_powerManagementObserver;
-    int _discreteGraphicsRetainCount;
-    NSObject<OS_dispatch_queue> *_thermalPressureQueue;
-    int _thermalPressureNotifyToken;
-    _Bool _hasHeadlessGPU;
-    _Bool _hasMuxedGraphics;
-    _Bool _isPluggedIn;
-    _Bool _hasRetainedDiscreteGPU;
-    int _thermalPressureLevel;
-    NSString *_model;
-    double _baseClockSpeedInGHz;
-    long long _physicalCoreCount;
-    double _systemRAMInGigabytes;
-    unsigned long long _masterCacheSize;
-    unsigned long long _previewCacheSize;
-    unsigned long long _thumbnailCacheSize;
-    unsigned long long _temporaryCacheSize;
 }
 
 + (id);
@@ -33,7 +14,7 @@
 - (unsigned long long);
 - (double);
 - (void);
-- (void);
+- (void)׵;
 - (void);
 - (void);
 - (unsigned long long);
@@ -54,30 +35,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)#;
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)_allowForRevert;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)|;
 
 // Remaining properties
-@property(readonly) double baseClockSpeedInGHz; // @synthesize baseClockSpeedInGHz=_baseClockSpeedInGHz;
-@property(readonly) _Bool hasDiscreteGPU;
-@property(readonly) _Bool hasHeadlessGPU; // @synthesize hasHeadlessGPU=_hasHeadlessGPU;
-@property(readonly) _Bool hasMuxedGraphics; // @synthesize hasMuxedGraphics=_hasMuxedGraphics;
-@property _Bool hasRetainedDiscreteGPU; // @synthesize hasRetainedDiscreteGPU=_hasRetainedDiscreteGPU;
 @property _Bool isPluggedIn; // @synthesize isPluggedIn=_isPluggedIn;
-@property(readonly) unsigned long long masterCacheSize; // @synthesize masterCacheSize=_masterCacheSize;
-@property(readonly) NSString *model; // @synthesize model=_model;
-@property(readonly) long long physicalCoreCount; // @synthesize physicalCoreCount=_physicalCoreCount;
-@property(readonly) unsigned long long previewCacheSize; // @synthesize previewCacheSize=_previewCacheSize;
-@property(readonly) double systemRAMInGigabytes; // @synthesize systemRAMInGigabytes=_systemRAMInGigabytes;
-@property(readonly) unsigned long long temporaryCacheSize; // @synthesize temporaryCacheSize=_temporaryCacheSize;
-@property int thermalPressureLevel; // @synthesize thermalPressureLevel=_thermalPressureLevel;
-@property(readonly) unsigned long long thumbnailCacheSize; // @synthesize thumbnailCacheSize=_thumbnailCacheSize;
 
 @end
 

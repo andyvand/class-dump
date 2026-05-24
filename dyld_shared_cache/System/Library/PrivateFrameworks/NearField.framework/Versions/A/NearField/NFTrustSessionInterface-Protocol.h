@@ -5,5 +5,9 @@
 //
 
 @protocol NFTrustSessionInterface
+- (oneway void)ctionTypeVideoCall(void);
+- (oneway void)ayView]|;
+- (oneway void)tlightLibrary(void);
+- (oneway void)PostalAddressValue;
 @end
 

@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVPictureInPictureSampleBufferDisplayLayerHostView
 {
     _Bool _needsGeometryUpdate;
-    _Bool _deferringGeometryUpdates;
-    AVPictureInPictureCALayerHostView *_hostView;
-    struct CGSize _imageQueueSize;
-    struct CGSize _contentDimensions;
-    struct CGRect _lastKnownFrame;
-    struct CGRect _lastKnownBounds;
 }
 
 + (Class);
@@ -31,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (struct CGRect);
-- (double);
+- (double);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)c}@[%{public}@] Beginning processing of block %lu;
 - (id)Ô ;
 - (void)1Â0@ù
 × ;
@@ -44,15 +38,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) double beginTime;
-@property(nonatomic) struct CGSize contentDimensions; // @synthesize contentDimensions=_contentDimensions;
-@property(nonatomic) unsigned int contextId;
-@property(nonatomic, getter=isDeferringGeometryUpdates) _Bool deferringGeometryUpdates; // @synthesize deferringGeometryUpdates=_deferringGeometryUpdates;
 @property(readonly, nonatomic) AVPictureInPictureCALayerHostView *hostView; // @synthesize hostView=_hostView;
-@property(nonatomic) struct CGSize imageQueueSize; // @synthesize imageQueueSize=_imageQueueSize;
-@property(nonatomic) struct CGRect lastKnownBounds; // @synthesize lastKnownBounds=_lastKnownBounds;
-@property(nonatomic) struct CGRect lastKnownFrame; // @synthesize lastKnownFrame=_lastKnownFrame;
-@property(nonatomic) _Bool needsGeometryUpdate; // @synthesize needsGeometryUpdate=_needsGeometryUpdate;
 
 @end
 

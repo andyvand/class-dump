@@ -6,20 +6,20 @@
 
 @interface UnknownClass (NSItemSourceInfo)
 - (void);
-- (void);
+- (void)__cstring;
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
 - (id);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (struct CGRect);
 - (void);
-- (struct CGRect): /* Error: Ran out of types for this method. */;
+- (struct CGRect)_setTextRangeNeedsDisplay: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, SLSScreenTelemetryResultsSnapshotDataWrapper, SLScreenTelemetryConnection;
-
 __attribute__((visibility("hidden")))
 @interface SLSScreenTelemetryUpdate
 {
     unsigned int _action;
-    SLScreenTelemetryConnection *_connection;
-    NSError *_error;
-    SLSScreenTelemetryResultsSnapshotDataWrapper *_snapshot;
 }
 
-+ (id);
-- (id);
++ (id)BY COUNT DESC;
+- (id)adata Model Migration;
 - (id);
 - (void);
 - (id);
@@ -25,9 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int action; // @synthesize action=_action;
-@property(readonly, retain, nonatomic) SLScreenTelemetryConnection *connection; // @synthesize connection=_connection;
-@property(readonly, retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, retain, nonatomic) SLSScreenTelemetryResultsSnapshotDataWrapper *snapshot; // @synthesize snapshot=_snapshot;
 
 @end
 

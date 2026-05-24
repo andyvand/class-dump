@@ -6,14 +6,12 @@
 
 #import <CoreData/NSSQLStoreRequestContext.h>
 
-@class NSFetchRequest, NSManagedObjectID;
+@class NSManagedObjectID;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLObjectFaultRequestContext : NSSQLStoreRequestContext
 {
     NSManagedObjectID *_objectID;
-    NSFetchRequest *_fetchRequest;
-    _Bool _forConflictAnalysis;
 }
 
 - (void);

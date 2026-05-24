@@ -7,9 +7,6 @@
 @interface ConversationKit.ParticipantBorderView
 {
     id borderWidth;
-    id customCornerRadius;
-    id blurView;
-    id localParticipant;
 }
 
 - (id);

@@ -9,32 +9,23 @@
 @interface UIPointerAccessory
 {
     _Bool _isArrowAccessory;
-    _Bool _orientationMatchesAngle;
-    UIPointerShape *_shape;
-    struct {
-        double offset;
-        double angle;
-    } _position;
 }
 
 + (id);
 + (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)filtered.;
+- (_Bool)8Ԫ#;
 - (unsigned long long);
 - (CDStruct_c3b9c2ee)eringModeAutomatic"b1"resolvedColorMaterialRenderingMode"b2};
-- (_Bool)ustomizationIndex;
+- (_Bool)minCustomizationIndex;
 - (id),V_customHighlighterGesture;
-- (id);
+- (id)_UICollectionCompositionalSolverPreferredSizesRebaseInfo;
 - (void)ðç[;
 - (void)â·d;
 - (void)h;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _isArrowAccessory; // @synthesize _isArrowAccessory;
-@property(nonatomic) _Bool orientationMatchesAngle; // @synthesize orientationMatchesAngle=_orientationMatchesAngle;
-@property(nonatomic) CDStruct_c3b9c2ee position; // @synthesize position=_position;
 @property(copy, nonatomic) UIPointerShape *shape; // @synthesize shape=_shape;
 
 @end

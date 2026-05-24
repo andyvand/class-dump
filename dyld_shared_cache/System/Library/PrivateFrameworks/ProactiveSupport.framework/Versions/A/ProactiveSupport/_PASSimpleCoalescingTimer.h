@@ -15,9 +15,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Record must be made as root;
 - (id);
-- (void);
+- (void)value;
 
 @end
 

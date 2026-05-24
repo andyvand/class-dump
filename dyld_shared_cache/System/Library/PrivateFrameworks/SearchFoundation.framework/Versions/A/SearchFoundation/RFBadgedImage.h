@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFImageSource;
+@class RFImageSource;
 
 @interface RFBadgedImage
 {
     RFImageSource *_image;
-    RFImageSource *_badge;
 }
 
 + (_Bool);
-- (id);
+- (id)initWithType:(id)arg1 sessionIdentifier:data:dataType:bundleIdentifier:supportedOptions:displayProperties: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)setVideoCpVisibilityState:(id)arg1;
+- (void)ic}@;
+- (id)Filename;
+- (id)\;
 - (id);
 - (void)annelsRequestItem",&,N,V_cloudChannelsRequestItem;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) RFImageSource *badge; // @synthesize badge=_badge;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) RFImageSource *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

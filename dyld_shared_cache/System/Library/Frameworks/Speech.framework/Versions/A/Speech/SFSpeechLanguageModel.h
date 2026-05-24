@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSLocale, SFLocalSpeechRecognitionClient;
+@class NSLocale, SFLocalSpeechRecognitionClient;
 
 @interface SFSpeechLanguageModel
 {
     SFLocalSpeechRecognitionClient *_lsrClient;
-    NSLocale *_locale;
 }
 
 + (void);
@@ -23,31 +22,29 @@
 + (void)XOÌOPPP;
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)";
+- (id)$@y	 @y	K;
 - (id);
 - (void);
+- (id)T;
+- (id);
+- (id);
 - (void);
+- (void);
 - (_Bool);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)setStartLeftwardContentTransitionButtonEnabled: /* Error: Ran out of types for this method. */;
+- (id)hair;
 - (void);
-- (void);
+- (void)";
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, copy, nonatomic) NSArray *outOfVocabularyWords;
-@property(readonly, copy, nonatomic) NSDictionary *outOfVocabularyWordsAndFrequencies;
 
 @end
 

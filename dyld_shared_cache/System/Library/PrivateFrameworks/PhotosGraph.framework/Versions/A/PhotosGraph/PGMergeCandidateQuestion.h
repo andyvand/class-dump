@@ -6,27 +6,21 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString, PHPerson;
+@class PHPerson;
 
 @interface PGMergeCandidateQuestion : PGSurveyQuestion
 {
     unsigned short _type;
-    unsigned short _displayType;
-    unsigned short _state;
-    unsigned short _entityType;
-    NSString *_entityIdentifier;
-    double _score;
-    PHPerson *_person;
-    NSDictionary *_additionalInfo;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (unsigned short);
+- (unsigned short);
 - (id);
 - (unsigned short);
-- (unsigned long long);
+- (unsigned long long)data:e,removedControlsMetadata:t})}static fieldLabelToInfo(e){if(void 0===e)return null;const[t,a]=e;if(t===65535)return[a,"","",""];const o=valueSpecifiers[t];return[a,o.property,o.category,o.parentProperty]}}class FieldMovementChecker{textField;textFieldMetadata;formMetadata;numberOfTimesFieldMovementTimerHasFired;checkForFieldMovementTimeout;pollingIntervals;onFieldMoved;constructor(e){this.textField=null,this.textFieldMetadata=null,this.numberOfTimesFieldMovementTimerHasFired=0,this.checkForFieldMovementTimeout=null,this.pollingIntervals=[10,50,100,850],this.onFieldMoved=e}setTextFieldToMonitor(e,t,a){this.textField=e,this.textFieldMetadata=t,this.formMetadata=a}performNextCheckForFieldMovement(){if(this.checkForFieldMovementTimeout=null,!this.textField||!this.textFieldMetadata)return void this.reset();const e=this.textField.getBoundingClientRect();this.textFieldMetadata.ControlRectLeft!=e.left||this.textFieldMetadata.ControlRectTop!=e.top||this.textFieldMetadata.ControlRectWidth!=e.width||this.textFieldMetadata.ControlRectHeight!=e.height?(this.onFieldMoved(this.textField,this.textFieldMetadata,this.formMetadata),this.numberOfTimesFieldMovementTimerHasFired=0):this.numberOfTimesFieldMovementTimerHasFired+=1,this.numberOfTimesFieldMovementTimerHasFired>=this.pollingIntervals.length?this.reset():this.scheduleNextCheckForFieldMovement()}reset(){this.checkForFieldMovementTimeout&&window.clearTimeout(this.checkForFieldMovementTimeout),this.checkForFieldMovementTimeout=null}scheduleNextCheckForFieldMovement(){this.reset();const e=this.pollingIntervals[this.numberOfTimesFieldMovementTimerHasFired];this.checkForFieldMovementTimeout=window.setTimeout(this.performNextCheckForFieldMovement.bind(this),e)}}class EventDispatcher{#r=new Map;addGlobalListener(e,t){this.#r.has(e)||this.#r.set(e,new Set),this.#r.get(e).add(t)}dispatchEvent(e){if(this.#r.has(e.type))for(const t of this.#r.get(e.type))t(e.target,e.data)}}const formMetadataEventDispatcher=new EventDispatcher;class FocusManager{jsController;fieldMovementChecker;constructor(e){this.jsController=e,this.fieldMovementChecker=new FieldMovementChecker(this.handleElementFocused.bind(this))}addEventListeners(){formMetadataEventDispatcher.addGlobalListener("webkitsubmit",this.submitEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("webkitbeforefocus",this.focusInEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("webkitbeforeblur",this.focusOutEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("webkitusertextinput",this.inputEventHandler.bind(this)),formMetadataEventDispatcher.addGlobalListener("keydown",this.keydownEventHandler.bind(this))}focusInEventHandler(e){this.fieldMovementChecker.reset();let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestNormal,!0);t&&(e.setUserInfo({form:a,textField:t}),this.fieldMovementChecker.setTextFieldToMonitor(e,t,a),this.fieldMovementChecker.scheduleNextCheckForFieldMovement(),this.handleElementFocused(e,t,a))}handleElementFocused(e,t,a){this.jsController.populateRectFieldsInFormElementMetadata(t,e),window.webkit.messageHandlers.controller.postMessage({name:"elementFocused",focusedElementMetadata:t,formMetadata:a})}focusOutEventHandler(e){this.fieldMovementChecker.reset();let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestNormal,!0);t&&window.webkit.messageHandlers.controller.postMessage({name:"elementBlurred",focusedElementMetadata:t,formMetadata:a})}inputEventHandler(e){let[t,a]=FormMetadataJS.textFieldOrSelectElementMetadata(e,WBSFormMetadataRequestTextChange,!0);t&&(this.jsController.populateRectFieldsInFormElementMetadata(t,e),window.webkit.messageHandlers.controller.postMessage({name:"elementInput",focusedElementMetadata:t,formMetadata:a}))}static#n(e,t){switch(e){case"ArrowUp":return WKInputFieldActionTypeMoveUp;case"ArrowDown":return WKInputFieldActionTypeMoveDown;case"Escape":return WKInputFieldActionTypeCancel;case"Tab":return t?WKInputFieldActionTypeInsertBacktab:WKInputFieldActionTypeInsertTab;case"Enter":return WKInputFieldActionTypeInsertNewline;case"Backspace":return WKInputFieldActionTypeInsertDelete;default:return null}}keydownEventHandler(e,t){const a=FocusManager.#n(t.key,t.shiftKey);if(null===a)return;const[o,r]=this.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"observedActionInFormTextField",action:a,controlMetadata:o,formMetadata:r})}submitEventHandler(e){const t=this.jsController.getMetadataForForm(e);e.setUserInfo(t)}}class AutoFillButtonManager{jsController;constructor(e){this.jsController=e}addEventListeners(){formMetadataEventDispatcher.addGlobalListener("webkitautofillrequest",this.webKitAutofillRequestEventHandler.bind(this))}webKitAutofillRequestEventHandler(e){let[t,a]=this.jsController._getMetadataForControl(e,WBSFormMetadataRequestNormal);window.webkit.messageHandlers.controller.postMessage({name:"manualAutoFillRequest",focusedElementMetadata:t,formMetadata:a})}}let formMetadataJSController=new FormMetadataJSController;eventQueue.setDelegate(formMetadataEventDispatcher);
+0; /* Error: Ran out of types for this method. */;
 - (unsigned short);
 - (unsigned short);
 - (_Bool);
@@ -34,7 +28,7 @@
 - (void);
 - (id)°1Â0@ù
 × ;
-- (id)ersonsForContactIdentifiers:options: /* Error: Ran out of types for this method. */;
+- (id)fetchPersonsForContactIdentifiers:options: /* Error: Ran out of types for this method. */;
 - (void)R,N,V_placeInterestType;
 - (void)brated Events:%lu
  /* Error: Ran out of types for this method. */;

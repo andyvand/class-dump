@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VSKeychainItemAttribute
 {
     NSString *_name;
-    unsigned long long _attributeType;
-    NSString *_attributeValueClassName;
-    struct __CFString *_secItemAttributeKey;
-    id _defaultValue;
 }
 
 - (void);
@@ -23,19 +19,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)bidirectionalStreamingRequest:streamingResponseHandler:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)«ù;
 
 // Remaining properties
-@property(nonatomic) unsigned long long attributeType; // @synthesize attributeType=_attributeType;
-@property(copy, nonatomic) NSString *attributeValueClassName; // @synthesize attributeValueClassName=_attributeValueClassName;
-@property(retain, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) struct __CFString *secItemAttributeKey; // @synthesize secItemAttributeKey=_secItemAttributeKey;
 
 @end
 

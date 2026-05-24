@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 + (long long);
 - (long long);
 - (id);
-- (long long);
-- (long long);
-- (id);
-- (void);
+- (long long)respondToVCInvitationWithPerson:(id)arg1 properties:(id)arg2 conference:(long long)arg3 account:(long long)arg4;
+- (long long)informOfCancelledMessageWithMessageGUID:(unsigned long long)arg1 success:cancelType:error: /* Error: Ran out of types for this method. */;
+- (id)_convertIMDHandlesToArrayOfIDs:(id)arg1;
+- (void)So26IMDFilePurgeabilityMonitorCSgXwz_Xx;
 - (_Bool);
 
 @end

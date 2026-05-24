@@ -7,21 +7,16 @@
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLNotabilityScore
 {
     float _score;
-    int _type;
-    struct {
-        unsigned int score:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)origin waypoint;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (int);
+- (_Bool)c;
+- (int)inFlightRefreshTask;
 - (_Bool);
 - (void);
 - (id);
@@ -32,13 +27,10 @@
 - (void);
 - (id);
 - (_Bool)egmentsThreshold"b1"segmentsEnabled"b1};
-- (void)tionStarting:(_Bool)arg1;
+- (void)setHasVerticalScrollPositionStarting:(_Bool)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScore;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) float score; // @synthesize score=_score;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

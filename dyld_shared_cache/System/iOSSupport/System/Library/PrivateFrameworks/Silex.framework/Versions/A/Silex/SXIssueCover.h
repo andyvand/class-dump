@@ -11,7 +11,7 @@
     NSString *_issueIdentifier;
 }
 
-- (id);
+- (id);
 - (id);
 - (void)2;
 

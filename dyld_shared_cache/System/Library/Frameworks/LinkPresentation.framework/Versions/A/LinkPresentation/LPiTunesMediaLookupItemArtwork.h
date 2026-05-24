@@ -17,12 +17,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id)9;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long height;
-@property(readonly, nonatomic) long long width;
 
 @end
 

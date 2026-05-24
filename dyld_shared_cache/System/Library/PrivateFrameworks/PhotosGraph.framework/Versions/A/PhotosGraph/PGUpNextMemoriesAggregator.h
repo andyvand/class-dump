@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject;
-@protocol OS_os_log;
+@class NSMutableArray, NSMutableSet;
 
 @interface PGUpNextMemoriesAggregator
 {
     NSMutableSet *_keyAssetLocalIdentifiers;
-    NSMutableSet *_lowercaseTitles;
-    _Bool _gateOnUserFeedback;
-    NSMutableArray *_acceptedMemories;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)setAccessibilitySelected: /* Error: Ran out of types for this method. */;
+- (_Bool)N,V_focusDelegate;
+- (id)i;
 - (id);
-- (id);
-- (void)ght;
+- (void)LocationWeight;
 - (id)Igggy_;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *acceptedMemories; // @synthesize acceptedMemories=_acceptedMemories;
-@property(readonly, nonatomic) _Bool gateOnUserFeedback; // @synthesize gateOnUserFeedback=_gateOnUserFeedback;
-@property(readonly, nonatomic) NSMutableSet *keyAssetLocalIdentifiers; // @synthesize keyAssetLocalIdentifiers=_keyAssetLocalIdentifiers;
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) NSMutableSet *lowercaseTitles; // @synthesize lowercaseTitles=_lowercaseTitles;
 
 @end
 

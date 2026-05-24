@@ -15,8 +15,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)	;
 - (id);
 - (id).apple.xbs/TemporaryDirectory.BsrFNm/Sources/MetalPerformanceShaders/MPSNeuralNetwork/Filters/MPSNNConcatenation.mm;
 

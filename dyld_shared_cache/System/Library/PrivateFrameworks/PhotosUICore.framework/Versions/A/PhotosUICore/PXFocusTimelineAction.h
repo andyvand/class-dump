@@ -7,16 +7,14 @@
 @interface PXFocusTimelineAction
 {
     long long _kind;
-    CDStruct_1b6d18a9 _time;
 }
 
-- (void);
+- (void);
 - (CDStruct_1b6d18a9)¬<;
 - (long long)nal:[%{public}ld] Cancel from deinit for image data /* Error: Ran out of types for this method. */;
-- (void)teOnly;
+- (void)MemoryCreationDisambiguationMenuActionTitleChooseEventDateOnly;
 
 // Remaining properties
-@property(nonatomic) long long kind; // @synthesize kind=_kind;
 @property(nonatomic) CDStruct_1b6d18a9 time; // @synthesize time=_time;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSURL;
+@class NSDictionary;
 
 @interface ICURLBagEnhancedAudioConfiguration
 {
@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)C3DAnimationManagerSetSceneTime;
 - (id);
 - (id);
 - (id);
@@ -22,9 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *bagEnhancedAudioDictionary; // @synthesize bagEnhancedAudioDictionary=_bagEnhancedAudioDictionary;
-@property(readonly, copy, nonatomic) NSURL *certificateURL;
-@property(readonly, copy, nonatomic) NSURL *keyServerURL;
-@property(readonly, copy, nonatomic) NSArray *prefetchSKDs;
 
 @end
 

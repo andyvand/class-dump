@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SXTangierTextRenderCollector, SXTextTangierInteractiveCanvasController, SXViewport;
+@class SXTangierTextRenderCollector;
 
 @interface SXHighlightManager
 {
     SXTangierTextRenderCollector *_renderCollector;
-    SXTextTangierInteractiveCanvasController *_icc;
-    NSMutableArray *_highlightLayers;
-    SXViewport *_viewport;
-    NSString *_text;
 }
 
 - (void);
@@ -30,11 +26,7 @@
 - (void)v@?@"SVVideoPlayerViewController">24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *highlightLayers; // @synthesize highlightLayers=_highlightLayers;
-@property(readonly, nonatomic) SXTextTangierInteractiveCanvasController *icc; // @synthesize icc=_icc;
 @property(readonly, nonatomic) SXTangierTextRenderCollector *renderCollector; // @synthesize renderCollector=_renderCollector;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end
 

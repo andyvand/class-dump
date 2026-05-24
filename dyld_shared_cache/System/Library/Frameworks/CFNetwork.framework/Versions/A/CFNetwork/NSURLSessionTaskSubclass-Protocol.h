@@ -5,8 +5,9 @@
 //
 
 @protocol NSURLSessionTaskSubclass
+- (void);
 - (void)_transferredRequest;
-- (void)AME_NEW;
+- (void)EHA_LIT_WITH_NAME_NEW;
 - (void)U8UVV
 VVVV)V8VWW
 WWWW)W8WYY

@@ -5,5 +5,9 @@
 //
 
 @protocol NSNetServiceBrowserDelegate
+
+@optional
+- (void)alP;
+- (void)xyYbKc;
 @end
 

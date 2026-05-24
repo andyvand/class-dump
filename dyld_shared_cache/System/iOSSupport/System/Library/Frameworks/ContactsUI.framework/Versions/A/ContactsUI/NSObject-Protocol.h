@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (id);
+- (unsigned long long)PodcastsFoundation;
+- (_Bool)`;
+- (_Bool)__objc_stubs;
+- (id)IMAPResponse;
 - (_Bool)1Â0@ù
 × ;
 - (struct _NSZone *)ContactsUI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

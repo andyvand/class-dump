@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ATLTimer, NSData, NSMutableArray, NSNumber, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AtlasDecoder
 {
     NSMutableArray *_hciArray;
-    NSNumber *_serviceProvider;
-    NSString *_appletAID;
-    _Bool _errorTransaction;
-    NSNumber *_errorCode;
-    NSData *_transactionDetailRaw;
-    ATLTimer *_timer;
 }
 
++ (id)(M;
 + (id);
 + (id);
 + (id);
@@ -28,8 +23,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)cU;
 + (id);
 + (id);
 + (id);
@@ -67,13 +61,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)fetchAttributes:(id)arg1 bundleID:(id)arg2 identifiers:(id)arg3 userCtx:(id)arg4 flags:(id *)arg5 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)ory: /* Error: Ran out of types for this method. */;
+- (void)O;
+- (void)decodeDirectory: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSTextContainer, UITextRange;
+@class UITextRange;
 
 @interface _UIBoundingTextRectsSolver
 {
     UITextRange *_range;
-    struct CGRect _firstRect;
-    struct CGRect _lastRect;
-    struct CGRect _middleRect;
-    struct CGRect _totalRect;
-    _Bool _calculated;
-    _Bool _unifyRects;
-    NSTextContainer *_textContainer;
 }
 
-- (struct CGRect);
-- (id);
+- (struct CGRect)_createSubscriptionForZoneID:subscriptionID:recordType:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)changeEventType;
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -34,11 +27,7 @@
 - (void)j^;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bodyRect;
-@property(readonly, nonatomic) struct CGRect boundingRect;
 @property(readonly, nonatomic) struct CGRect firstLineRect;
-@property(readonly, nonatomic) struct CGRect lastLineRect;
-@property(readonly, nonatomic) NSArray *rects;
 
 @end
 

@@ -5,10 +5,9 @@
 //
 
 @protocol PXStoryMemoryMomentClusteringDistanceCalculator
+- (double)blueprintViewController;
 
 // Remaining properties
-@property(readonly, nonatomic) double faceWeight;
-@property(readonly, nonatomic) double locationWeight;
 @property(readonly, nonatomic) double timeWeight;
 @end
 

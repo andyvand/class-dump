@@ -13,7 +13,7 @@
     NSString *_payloadCredentialIdentifier;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -27,19 +27,12 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)ym;
+- (id)sultCGGG;
+- (void)ite hello request B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadCredentialIdentifier; // @synthesize payloadCredentialIdentifier=_payloadCredentialIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

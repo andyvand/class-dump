@@ -7,12 +7,6 @@
 @interface IMDaemonCore.FileEventStream
 {
     id paths;
-    id streamEventID;
-    id latency;
-    id createFlags;
-    id pathFilter;
-    id callback;
-    id eventStreamRef;
 }
 
 @end

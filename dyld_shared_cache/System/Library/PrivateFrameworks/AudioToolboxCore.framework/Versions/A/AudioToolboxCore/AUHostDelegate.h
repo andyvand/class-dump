@@ -11,14 +11,13 @@ __attribute__((visibility("hidden")))
 @interface AUHostDelegate
 {
     NSObject<OS_dispatch_queue> *mParameterQueue;
-    AUAudioUnit *_audioUnit;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)lableItems;
+- (void)etPropertyData:(id)arg1 inDataSize too small for any of kAudioPlugInPropertyDeviceList to be returned;
 - (void);
 - (id);
 - (void)teHost:config:reply:] /* Error: Ran out of types for this method. */;

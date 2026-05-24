@@ -11,17 +11,16 @@
 @interface AXFMockUIElement : AXFUIElement
 {
     NSMutableDictionary *__attributes;
-    NSMutableDictionary *__writableAttributes;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (struct CGSize);
 - (void);
 - (void);
@@ -57,35 +56,35 @@
 - (void);
 - (void);
 - (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Բ;
+- (void);
+- (void);
+- (id)MoIAiI/Sources/libressl/libressl-2.6/crypto/dh/dh_key.c;
+- (void)-2.6/crypto/asn1/asn1_lib.c;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)ݣ;
+- (_Bool);
+- (id)B�;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (void)%s
+;
 - (void);
-- (void);
-- (void);
+- (void)__kIMAVChatParticipantMuteChangedNotification;
 - (void)onServices;
 - (id)½õ+Ù;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAttributes:) NSMutableDictionary *_attributes; // @synthesize _attributes=__attributes;
-@property(retain, nonatomic, setter=_setWritableAttributes:) NSMutableDictionary *_writableAttributes; // @synthesize _writableAttributes=__writableAttributes;
 
 @end
 

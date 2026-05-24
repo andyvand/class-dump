@@ -9,7 +9,6 @@
 @interface DEMatchCriteria
 {
     NSArray *_prefixes;
-    NSArray *_suffixes;
 }
 
 + (void);
@@ -22,12 +21,11 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool):(id)arg1 A;
 - (void)ÐµÐ±Ð°ÑÐ¾ÑÐ¸Ñ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *prefixes; // @synthesize prefixes=_prefixes;
-@property(retain, nonatomic) NSArray *suffixes; // @synthesize suffixes=_suffixes;
 
 @end
 

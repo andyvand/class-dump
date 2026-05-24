@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SAIntentGroupSiriKitListPosition : AceObject
 {
 }
@@ -19,18 +17,10 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)SAWeatherTVObject;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long offset;
-@property(copy, nonatomic) NSString *position;
-@property(readonly) Class superclass;
 
 @end
 

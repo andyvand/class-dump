@@ -7,23 +7,61 @@
 @interface QCSCN_BoundingSphere
 {
     struct _SCNVector3 center;
-    double radius;
 }
 
 + (int);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
-- (id);
-- (id);
+- (id);
+- (id)5	;
 - (void);
-- (struct _SCNVector3);
+- (struct _SCNVector3)_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_line_integral_position(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l / (d * (d_squared + l_squared)) + atan(l / d) / d_squared;
+}
+
+inline float pbr_area_light_line_integral_direction(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l_squared / (d * (d_squared + l_squared));
+}
+
+inline float pbr_area_light_eval_line(float2x3 cornerDirections)
+{
+    
+    
+    
+    float3 corner0 = normalize(cornerDirections[0]);
+    float3 corner1 = normalize(cornerDirections[1]);
+    
+    float3 direction = normalize(corner1 - corner0);
+    
+    if (corner0.y <= 0.f && corner1.y <= 0.f) return 0.f;
+    if (corner0.y < 0.f) corner0 = (+corner0 * corner1.y - corner1 * corner0.y) / (+corner1.y - corner0.y);
+    if (corner1.y < 0.f) corner1 = (-corner0 * corner1.y + corner1 * corner0.y) / (-corner1.y + corner0.y);
+    
+    float l1 = dot(corner0, direction);
+    float l2 = dot(corner1, direction);
+    
+    float3 position = corner0 - l1 * direction;
+    float d = length(position);
+    
+    float I = (pbr_area_light_line_integral_position(d, l2) - pbr_area_light_line_integral_position(d, l1)) * position.y
+            + (pbr_area_light_line_integral_direction(d, l2) - pbr_area_light_line_integral_direction(d, l1)) * direction.y;
+    
+    return M_1_PI_F * I;
+}
+;
 - (double);
 - (void);
 
 // Remaining properties
 @property struct _SCNVector3 center; // @synthesize center;
-@property double radius; // @synthesize radius;
 
 @end
 

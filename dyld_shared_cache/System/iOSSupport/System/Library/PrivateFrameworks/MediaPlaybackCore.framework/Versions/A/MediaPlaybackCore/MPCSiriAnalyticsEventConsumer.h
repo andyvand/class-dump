@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine, NSObject, NSString, NSUserDefaults;
+@class NSObject;
 @protocol MPCPlaybackEngineEventStreamSubscription, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPCSiriAnalyticsEventConsumer
 {
     NSObject<OS_dispatch_queue> *_eventQueue;
-    NSString *_lastSiriReferenceIdentifierForPlaybackStart;
-    NSUserDefaults *_mobileipodDefaults;
-    MPCPlaybackEngine *_playbackEngine;
-    id <MPCPlaybackEngineEventStreamSubscription> _subscription;
 }
 
 + (unsigned int);
@@ -29,15 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)ay-SIL] startingSectionID=%{public}@ startingItemID=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
 @property(readonly, nonatomic) id <MPCPlaybackEngineEventStreamSubscription> subscription; // @synthesize subscription=_subscription;
-@property(readonly) Class superclass;
 
 @end
 

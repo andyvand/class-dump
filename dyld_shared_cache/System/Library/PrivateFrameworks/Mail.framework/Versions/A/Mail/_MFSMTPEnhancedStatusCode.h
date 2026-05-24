@@ -7,24 +7,19 @@
 @interface _MFSMTPEnhancedStatusCode
 {
     int _classStatus;
-    int _subject;
-    int _detail;
 }
 
 - (long long);
 - (int);
 - (void);
-- (int);
-- (id);
+- (int);
+- (id)webAudioEnabled;
 - (void);
 - (void);
 - (int)<Ó¯ 9BH#$ã;
 
 // Remaining properties
 @property(nonatomic) int classStatus; // @synthesize classStatus=_classStatus;
-@property(nonatomic) int detail; // @synthesize detail=_detail;
-@property(readonly, nonatomic) long long interpretedStatusCode;
-@property(nonatomic) int subject; // @synthesize subject=_subject;
 
 @end
 

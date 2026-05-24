@@ -14,15 +14,15 @@
 }
 
 + (_Bool);
-- (id);
+- (id)ng",C,N,V_humanReadableName;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)setExtensionUUID:(id)arg1;
+- (void)arrayByAddingObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;

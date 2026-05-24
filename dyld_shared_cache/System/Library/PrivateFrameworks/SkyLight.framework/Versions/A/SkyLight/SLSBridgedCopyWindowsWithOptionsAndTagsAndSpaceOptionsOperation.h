@@ -11,19 +11,15 @@
 @interface SLSBridgedCopyWindowsWithOptionsAndTagsAndSpaceOptionsOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     NSData *_setTagsData;
-    NSData *_clearedTagsData;
-    unsigned int _owner;
-    unsigned int _spaceOptions;
-    unsigned int _options;
 }
 
 + (_Bool);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (unsigned int)s;
+- (id)0@"NSMutableDictionary"8;
+- (id)OB;
+- (id)g primary key table.;
+- (void)LIKE "%%%@%%";
+- (void)lite3_db_config for SQLITE_DBCONFIG_ENABLE_COMMENTS failed:(unsigned int [2])arg1 %d;
 - (id);
 - (unsigned int);
 - (void);
@@ -31,9 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int options; // @synthesize options=_options;
 @property(readonly) unsigned int owner; // @synthesize owner=_owner;
-@property(readonly) unsigned int spaceOptions; // @synthesize spaceOptions=_spaceOptions;
 
 @end
 

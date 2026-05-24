@@ -5,5 +5,6 @@
 //
 
 @protocol TSDLayerProviderRep
+- (void);
 @end
 

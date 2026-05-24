@@ -7,17 +7,14 @@
 @interface NewsAds.InterstitialAdMetricsView
 {
     id contentIdentifier;
-    id onLongPress;
-    id onCollapse;
-    id metricsView;
 }
 
-- (void);
-- (void);
+- (void)ews-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserData.swift;
+- (void).QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserData.swift;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)T;
 
 @end
 

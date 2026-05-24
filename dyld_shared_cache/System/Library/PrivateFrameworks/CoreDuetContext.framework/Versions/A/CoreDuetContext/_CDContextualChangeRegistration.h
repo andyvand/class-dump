@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _CDContextualPredicate;
+@class NSString;
 
 @interface _CDContextualChangeRegistration
 {
     _Bool _mustWake;
-    _Bool _isDeserialized;
-    unsigned int _qualityOfService;
-    NSString *_identifier;
-    _CDContextualPredicate *_predicate;
-    _CDContextualPredicate *_dismissalPolicy;
-    CDUnknownBlockType _callback;
-    unsigned long long _deviceSet;
-    unsigned long long _deviceTypes;
-    NSString *_clientIdentifier;
-    NSString *_locationManagerEffectiveBundleID;
-    NSString *_locationManagerEffectiveBundlePath;
-    CDUnknownBlockType _informativeCallback;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)backQueueLocation"b1"playbackRepeatMode"b1"playbackSpeed"b1"resumePlayback"b1};
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)9;
 + (id);
 - (unsigned long long);
 - (void);
@@ -43,20 +31,21 @@
 - (id);
 - (id);
 - (id);
-- (unsigned int);
-- (unsigned long long);
-- (id);
+- (unsigned int)allback %p
+;
+- (unsigned long long)`;
+- (id)Inactive;
 - (unsigned long long);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
+- (_Bool)_requestPaymentIntentPayerUnsupportedReason;
+- (void)entityConfidenceSignalsFrequencyDenominatorProd;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -69,19 +58,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(nonatomic) unsigned long long deviceSet; // @synthesize deviceSet=_deviceSet;
-@property(readonly, nonatomic) unsigned long long deviceTypes; // @synthesize deviceTypes=_deviceTypes;
-@property(retain, nonatomic) _CDContextualPredicate *dismissalPolicy; // @synthesize dismissalPolicy=_dismissalPolicy;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) CDUnknownBlockType informativeCallback; // @synthesize informativeCallback=_informativeCallback;
-@property(nonatomic) _Bool isDeserialized; // @synthesize isDeserialized=_isDeserialized;
-@property(copy, nonatomic) NSString *locationManagerEffectiveBundleID; // @synthesize locationManagerEffectiveBundleID=_locationManagerEffectiveBundleID;
-@property(copy, nonatomic) NSString *locationManagerEffectiveBundlePath; // @synthesize locationManagerEffectiveBundlePath=_locationManagerEffectiveBundlePath;
-@property(nonatomic) _Bool mustWake; // @synthesize mustWake=_mustWake;
-@property(retain, nonatomic) _CDContextualPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly, nonatomic) unsigned int qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 
 @end
 

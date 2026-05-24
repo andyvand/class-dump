@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSHashTable, NSString;
-@protocol MRExternalDeviceTransportConnectionDataSource;
+@class NSHashTable;
 
 @interface MRExternalDeviceTransportConnection
 {
     unsigned int _connectOptions;
-    NSString *_label;
-    NSString *_destinationOutputDeviceUID;
-    NSString *_destinationGroupUID;
-    NSDictionary *_connectUserInfo;
-    NSHashTable *_observers;
-    id <MRExternalDeviceTransportConnectionDataSource> _dataSource;
 }
 
 - (void);
@@ -27,23 +20,23 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)@;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)DowntimeConversationListRemoteNotifierActor;
 - (void);
 - (void);
 - (id);
@@ -51,22 +44,12 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)tedCommandsOnQueue:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)requestSupportedCommandsOnQueue:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)URLData;
 - (long long)H;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allObservers;
-@property(nonatomic) unsigned int connectOptions; // @synthesize connectOptions=_connectOptions;
-@property(retain, nonatomic) NSDictionary *connectUserInfo; // @synthesize connectUserInfo=_connectUserInfo;
-@property(nonatomic) __weak id <MRExternalDeviceTransportConnectionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) NSString *destinationGroupUID; // @synthesize destinationGroupUID=_destinationGroupUID;
-@property(retain, nonatomic) NSString *destinationOutputDeviceUID; // @synthesize destinationOutputDeviceUID=_destinationOutputDeviceUID;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) _Bool isValid;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
 @property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly, nonatomic) long long transportType;
 
 @end
 

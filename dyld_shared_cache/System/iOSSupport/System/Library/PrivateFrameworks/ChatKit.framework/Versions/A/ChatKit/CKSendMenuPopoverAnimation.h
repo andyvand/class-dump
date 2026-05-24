@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_group;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CKSendMenuPopoverAnimation
 {
     CDUnknownBlockType _completion;
-    NSArray *_animators;
-    NSObject<OS_dispatch_group> *_group;
 }
 
-- (void);
-- (id);
+- (void)addGestureRecognizer:(id)arg1;
+- (id)ew thumbnail — falling back to default preview thumbnail;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -28,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *animators; // @synthesize animators=_animators;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
 
 @end
 

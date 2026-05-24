@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSOrderedSet, NSString;
+@class NSString;
 
 @protocol PLCloudSharedAlbumProtocol
+- (void);
+- (void);
+- (NSString *)newMainEventHandlerForCurrentPlatformWithController: /* Error: Ran out of types for this method. */;
+- (NSString *)RIIi8	J;
+- (int)populateLocationPropertiesWithPath:assetProtectionType:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)7;
+- (NSString *)__ustring;
+- (_Bool)enumerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSOrderedSet *cloudAlbumSubscriberRecords;
-@property(retain, nonatomic) NSDate *cloudCreationDate;
-@property(readonly, retain, nonatomic) NSDate *cloudFirstRecentBatchDate;
 @property(retain, nonatomic) NSString *cloudGUID;
-@property(retain, nonatomic) NSDate *cloudLastContributionDate;
-@property(retain, nonatomic) NSDate *cloudLastInterestingChangeDate;
-@property(retain, nonatomic) NSDictionary *cloudMetadata;
-@property(retain, nonatomic) NSNumber *cloudMultipleContributorsEnabled;
-@property(retain, nonatomic) NSNumber *cloudMultipleContributorsEnabledLocal;
-@property(nonatomic) _Bool cloudNotificationsEnabled;
-@property(retain, nonatomic) NSString *cloudOwnerEmail;
-@property(retain, nonatomic) NSString *cloudOwnerFirstName;
-@property(retain, nonatomic) NSString *cloudOwnerFullName;
-@property(retain, nonatomic) NSString *cloudOwnerHashedPersonID;
-@property(nonatomic) _Bool cloudOwnerIsWhitelisted;
-@property(retain, nonatomic) NSString *cloudOwnerLastName;
-@property(retain, nonatomic) NSString *cloudPersonID;
-@property(retain, nonatomic) NSNumber *cloudPublicURLEnabled;
-@property(retain, nonatomic) NSNumber *cloudPublicURLEnabledLocal;
-@property(readonly) int cloudRelationshipStateLocalValue;
-@property(readonly) int cloudRelationshipStateValue;
-@property(retain, nonatomic) NSDate *cloudSubscriptionDate;
-@property(retain, nonatomic) NSOrderedSet *invitationRecords;
-@property(readonly, retain, nonatomic) NSString *localizedSharedWithLabel;
-@property(retain, nonatomic) NSString *publicURL;
-@property(retain, nonatomic) NSNumber *unseenAssetsCount;
-@property unsigned long long unseenAssetsCountIntegerValue;
 @end
 

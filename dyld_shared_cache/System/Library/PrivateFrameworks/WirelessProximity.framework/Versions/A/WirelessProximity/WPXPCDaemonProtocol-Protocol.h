@@ -7,7 +7,13 @@
 @protocol WPXPCDaemonProtocol
 
 @optional
-- (void)tScanningForType:(_Bool)arg1 withError: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (void)addHyperlinkFieldMarker: /* Error: Ran out of types for this method. */;
+- (void)h.";
+- (void)A;
+- (void)n"16@"SGPipelineEntity"24@"SGRequestContext"32;
+- (void)r;
+- (void)test:(_Bool)arg1 didFailToStartScanningForType:withError: /* Error: Ran out of types for this method. */;
 @end
 

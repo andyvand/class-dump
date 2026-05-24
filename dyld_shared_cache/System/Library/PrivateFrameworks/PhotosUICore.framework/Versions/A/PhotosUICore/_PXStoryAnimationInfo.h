@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryAnimation;
+@class NSString;
 
 @interface _PXStoryAnimationInfo
 {
     NSString *_animationIdentifier;
-    PXStoryAnimation *_animation;
-    CDStruct_1b6d18a9 _startTime;
 }
 
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
-- (id);
+- (id);
 - (void)State;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak PXStoryAnimation *animation; // @synthesize animation=_animation;
 @property(readonly, nonatomic) NSString *animationIdentifier; // @synthesize animationIdentifier=_animationIdentifier;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 startTime; // @synthesize startTime=_startTime;
 
 @end
 

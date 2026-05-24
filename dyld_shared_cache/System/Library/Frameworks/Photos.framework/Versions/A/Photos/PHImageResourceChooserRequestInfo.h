@@ -4,43 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PHImageRequestBehaviorSpec;
 @protocol PHResourceChooserAsset;
 
 @interface PHImageResourceChooserRequestInfo
 {
     _Bool _isCloudShared;
-    float _requestedScale;
-    id <PHResourceChooserAsset> _asset;
-    NSArray *_allowedResourceVersions;
-    PHImageRequestBehaviorSpec *_behaviorSpec;
-    double _fallbackRequestedScaleIfPreferredResourceNotLocallyAvailable;
-    NSString *_loggingPrefix;
-    struct CGSize _desiredSize;
 }
 
 - (_Bool);
+- (id)_addObservationsForAVPlayerItem:(id)arg1;
+- (struct CGSize)f seconds;
 - (id);
-- (struct CGSize);
-- (id);
-- (id);
+- (id)`*;
 - (float);
 - (double);
-- (id);
+- (id);
 - (id)q1Â0@ù
 × ;
-- (void)ts;
+- (void)insertedObjects;
 - (void)preview job creation request returned nil;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowedResourceVersions; // @synthesize allowedResourceVersions=_allowedResourceVersions;
 @property(readonly, nonatomic) id <PHResourceChooserAsset> asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) PHImageRequestBehaviorSpec *behaviorSpec; // @synthesize behaviorSpec=_behaviorSpec;
-@property(readonly, nonatomic) struct CGSize desiredSize; // @synthesize desiredSize=_desiredSize;
-@property(readonly, nonatomic) double fallbackRequestedScaleIfPreferredResourceNotLocallyAvailable; // @synthesize fallbackRequestedScaleIfPreferredResourceNotLocallyAvailable=_fallbackRequestedScaleIfPreferredResourceNotLocallyAvailable;
-@property(readonly, nonatomic) _Bool isCloudShared; // @synthesize isCloudShared=_isCloudShared;
-@property(copy, nonatomic) NSString *loggingPrefix; // @synthesize loggingPrefix=_loggingPrefix;
-@property(readonly, nonatomic) float requestedScale; // @synthesize requestedScale=_requestedScale;
 
 @end
 

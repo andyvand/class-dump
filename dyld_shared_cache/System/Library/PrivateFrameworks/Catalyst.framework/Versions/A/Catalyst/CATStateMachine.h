@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATState, NSMutableDictionary, NSString;
+@class CATState, NSMutableDictionary;
 
 @interface CATStateMachine
 {
     NSMutableDictionary *mStateByName;
-    NSString *mCalloutReason;
-    NSString *_name;
-    CATState *_initialState;
-    CATState *_currentState;
-    id _target;
-    unsigned long long _logLevel;
 }
 
-+ (id);
++ (id)setCoordinate: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -34,7 +28,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)1;
 - (id);
 - (id);
 - (void);
@@ -44,10 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CATState *currentState; // @synthesize currentState=_currentState;
-@property(retain, nonatomic) CATState *initialState; // @synthesize initialState=_initialState;
-@property(nonatomic) unsigned long long logLevel; // @synthesize logLevel=_logLevel;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) __weak id target; // @synthesize target=_target;
 
 @end
 

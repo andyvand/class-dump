@@ -6,21 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSAuthenticateRequest, AMSProcessInfo, AMSURLSession, NSNumber, NSString;
-@protocol AMSBagProtocol, AMSRequestPresentationDelegate;
+@class AMSAuthenticateRequest;
 
 @interface AMSAuthorizeMachineTask : AMSTask
 {
     _Bool _deauthorize;
-    ACAccount *_validAccount;
-    unsigned long long _authorizeReason;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSNumber *_familyMemberAccountDSID;
-    NSString *_logKey;
-    id <AMSRequestPresentationDelegate> _presentationDelegate;
-    AMSAuthenticateRequest *_authenticateRequest;
-    AMSURLSession *_session;
 }
 
 + (id);
@@ -54,14 +44,14 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id)of changed group display name with:%@  /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -74,22 +64,6 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 
 // Remaining properties
 @property(retain) AMSAuthenticateRequest *authenticateRequest; // @synthesize authenticateRequest=_authenticateRequest;
-@property unsigned long long authorizeReason; // @synthesize authorizeReason=_authorizeReason;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(getter=isDeauthorize) _Bool deauthorize; // @synthesize deauthorize=_deauthorize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSNumber *familyMemberAccountDSID; // @synthesize familyMemberAccountDSID=_familyMemberAccountDSID;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property __weak id <AMSRequestPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate=_presentationDelegate;
-@property(retain) AMSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(retain) ACAccount *validAccount; // @synthesize validAccount=_validAccount;
 
 @end
 

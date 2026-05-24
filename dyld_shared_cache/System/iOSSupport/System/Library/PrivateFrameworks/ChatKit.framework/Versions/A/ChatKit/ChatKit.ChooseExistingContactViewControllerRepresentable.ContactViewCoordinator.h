@@ -7,7 +7,6 @@
 @interface ChatKit.ChooseExistingContactViewControllerRepresentable.ContactViewCoordinator
 {
     id parent;
-    id viewController;
 }
 
 - (void);

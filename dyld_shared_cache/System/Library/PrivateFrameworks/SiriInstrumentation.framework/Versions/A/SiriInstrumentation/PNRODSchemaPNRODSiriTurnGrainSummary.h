@@ -6,42 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODSiriTurnGrainSummary : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_turnid;
-    long long _status;
-    _Bool _hasAssistantPerformanceData;
-    _Bool _hasDictationPerformanceData;
-    _Bool _hasReliabilityData;
-    PNRODSchemaPNRODMetricDuration *_srt;
-    PNRODSchemaPNRODMetricDuration *_launch;
-    PNRODSchemaPNRODMetricDuration *_epd;
-    PNRODSchemaPNRODMetricDuration *_uufr;
-    PNRODSchemaPNRODMetricDuration *_ttfw;
-    NSArray *_queryDecorations;
-    NSArray *_searchs;
-    NSArray *_planResolutions;
-    NSArray *_responseGenerations;
-    NSArray *_executors;
-    NSArray *_planGenerations;
-    PNRODSchemaPNRODMetricDuration *_ttaie;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    struct {
-        unsigned int status:1;
-        unsigned int hasAssistantPerformanceData:1;
-        unsigned int hasDictationPerformanceData:1;
-        unsigned int hasReliabilityData:1;
-    } _has;
-    _Bool _hasTurnid;
-    _Bool _hasSrt;
-    _Bool _hasLaunch;
-    _Bool _hasEpd;
-    _Bool _hasUufr;
-    _Bool _hasTtfw;
-    _Bool _hasTtaie;
-    _Bool _hasFailureInfo;
 }
 
 - (id);
@@ -86,13 +55,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)H;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -105,11 +74,11 @@
 - (void);
 - (void);
 - (void);
+- (void)�@y;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)PM;
 - (void);
 - (void);
 - (void);
@@ -139,7 +108,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -147,49 +116,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ort for Chats and Participants.;
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id)onReceived;
+- (id)_notificationReceived;
 - (id)susMetadata;
 - (_Bool)_hasIsActionConfirmed;
 - (void)8¬ü p\;
 - (void)ri.flow.link.FLOWLINKClientEvent.FLOWLINKActionTier1;
 
 // Remaining properties
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *epd; // @synthesize epd=_epd;
-@property(copy, nonatomic) NSArray *executors; // @synthesize executors=_executors;
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(nonatomic) _Bool hasAssistantPerformanceData; // @synthesize hasAssistantPerformanceData=_hasAssistantPerformanceData;
-@property(nonatomic) _Bool hasDictationPerformanceData; // @synthesize hasDictationPerformanceData=_hasDictationPerformanceData;
-@property(nonatomic) _Bool hasEpd; // @synthesize hasEpd=_hasEpd;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasHasAssistantPerformanceData;
-@property(nonatomic) _Bool hasHasDictationPerformanceData;
-@property(nonatomic) _Bool hasHasReliabilityData;
-@property(nonatomic) _Bool hasLaunch; // @synthesize hasLaunch=_hasLaunch;
-@property(nonatomic) _Bool hasReliabilityData; // @synthesize hasReliabilityData=_hasReliabilityData;
-@property(nonatomic) _Bool hasSrt; // @synthesize hasSrt=_hasSrt;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool hasTtaie; // @synthesize hasTtaie=_hasTtaie;
-@property(nonatomic) _Bool hasTtfw; // @synthesize hasTtfw=_hasTtfw;
-@property(nonatomic) _Bool hasTurnid; // @synthesize hasTurnid=_hasTurnid;
-@property(nonatomic) _Bool hasUufr; // @synthesize hasUufr=_hasUufr;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *launch; // @synthesize launch=_launch;
-@property(copy, nonatomic) NSArray *planGenerations; // @synthesize planGenerations=_planGenerations;
-@property(copy, nonatomic) NSArray *planResolutions; // @synthesize planResolutions=_planResolutions;
-@property(copy, nonatomic) NSArray *queryDecorations; // @synthesize queryDecorations=_queryDecorations;
-@property(copy, nonatomic) NSArray *responseGenerations; // @synthesize responseGenerations=_responseGenerations;
-@property(copy, nonatomic) NSArray *searchs; // @synthesize searchs=_searchs;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *srt; // @synthesize srt=_srt;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *ttaie; // @synthesize ttaie=_ttaie;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *ttfw; // @synthesize ttfw=_ttfw;
 @property(retain, nonatomic) SISchemaUUID *turnid; // @synthesize turnid=_turnid;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *uufr; // @synthesize uufr=_uufr;
 
 @end
 

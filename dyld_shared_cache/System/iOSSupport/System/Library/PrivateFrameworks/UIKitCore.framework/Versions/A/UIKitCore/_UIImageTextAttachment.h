@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (id)1Â0@ù
 × ;
 - (id)uchPoints"^{_UIWebTouchPoint}"touchPointCount"I"isPotentialTap"B};
-- (id):(id)arg1 container: /* Error: Ran out of types for this method. */;
-- (void)setRawLeadingBorderWidth:(struct CGRect)arg1;
+- (id)initWithFrame:(id)arg1 container: /* Error: Ran out of types for this method. */;
+- (void)_setRawLeadingBorderWidth:(struct CGRect)arg1;
 
 @end
 

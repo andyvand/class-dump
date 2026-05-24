@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ClippingIconImageRenderer
 {
     NSImage *_maskImage;
-    NSImage *_dropShadowImage;
-    _Bool _drawsDropShadowAndMask;
-    long long _style;
 }
 
 - (void);
@@ -25,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void)Ü;
 
 // Remaining properties
-@property(nonatomic) _Bool drawsDropShadowAndMask; // @synthesize drawsDropShadowAndMask=_drawsDropShadowAndMask;
 @property(nonatomic) long long style; // @synthesize style=_style;
 
 @end

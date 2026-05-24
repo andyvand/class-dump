@@ -6,20 +6,12 @@
 
 #import <Safari/RolloverTrackingButton.h>
 
-@class NSArray, NSColor, NSImage;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface RolloverImageButton : RolloverTrackingButton
 {
     _Bool _allowsVibrancy;
-    _Bool _shouldUseReaderActivatedColorPalette;
-    NSColor *_rolloverColor;
-    NSColor *_alternateColor;
-    NSColor *_rolloverBackgroundColor;
-    NSColor *_alternateBackgroundColor;
-    NSArray *_symbolColorPalette;
-    NSImage *_rolloverImage;
-    NSImage *_focusRingMask;
 }
 
 - (id);
@@ -50,24 +42,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (id)PdÈ@t¼Ð°|4ÌXØìd;
 - (double)1;
 - (void)e Key;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsVibrancy; // @synthesize allowsVibrancy=_allowsVibrancy;
-@property(retain, nonatomic) NSColor *alternateBackgroundColor; // @synthesize alternateBackgroundColor=_alternateBackgroundColor;
-@property(retain, nonatomic) NSColor *alternateColor; // @synthesize alternateColor=_alternateColor;
 @property(retain, nonatomic) NSColor *backgroundColor;
-@property(nonatomic) double cornerRadius;
-@property(retain, nonatomic) NSImage *focusRingMask; // @synthesize focusRingMask=_focusRingMask;
-@property(retain, nonatomic) NSColor *rolloverBackgroundColor; // @synthesize rolloverBackgroundColor=_rolloverBackgroundColor;
-@property(retain, nonatomic) NSColor *rolloverColor; // @synthesize rolloverColor=_rolloverColor;
-@property(retain, nonatomic) NSImage *rolloverImage; // @synthesize rolloverImage=_rolloverImage;
-@property(nonatomic) _Bool shouldUseReaderActivatedColorPalette; // @synthesize shouldUseReaderActivatedColorPalette=_shouldUseReaderActivatedColorPalette;
-@property(retain, nonatomic) NSArray *symbolColorPalette; // @synthesize symbolColorPalette=_symbolColorPalette;
 
 @end
 

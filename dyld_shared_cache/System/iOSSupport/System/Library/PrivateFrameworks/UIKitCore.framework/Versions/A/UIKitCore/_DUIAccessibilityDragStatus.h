@@ -7,25 +7,21 @@
 @interface _DUIAccessibilityDragStatus
 {
     _Bool _forbidden;
-    long long _itemCount;
-    unsigned long long _potentialOperation;
 }
 
 + (_Bool)n a document could not be imported.;
-- (void);
-- (void);
-- (unsigned long long);
+- (void)isFromActivePairedDevice;
+- (void)dispatcher:(_Bool)arg1 didReceiveNotice:fromID: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_chatGUIDsForNoticeURL:completionBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id)r resume;
 - (void);
 - (void)moveSectionWithIdentifier:(id)arg1 beforeSectionWithIdentifier: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) _Bool forbidden; // @synthesize forbidden=_forbidden;
 @property(nonatomic) long long itemCount; // @synthesize itemCount=_itemCount;
-@property(nonatomic) unsigned long long potentialOperation; // @synthesize potentialOperation=_potentialOperation;
 
 @end
 

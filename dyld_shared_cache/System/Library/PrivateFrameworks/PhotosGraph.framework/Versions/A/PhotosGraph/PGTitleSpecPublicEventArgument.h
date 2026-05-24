@@ -9,7 +9,6 @@
 @interface PGTitleSpecPublicEventArgument : PGTitleSpecArgument
 {
     _Bool _shouldUseLongPublicEventTitle;
-    unsigned long long _type;
 }
 
 + (id);
@@ -18,18 +17,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)t - ACMRequirementDataPasscodeValidated;
+- (id)Util_AllocRequirement;
+- (id)tialDataSignature;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool shouldUseLongPublicEventTitle; // @synthesize shouldUseLongPublicEventTitle=_shouldUseLongPublicEventTitle;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

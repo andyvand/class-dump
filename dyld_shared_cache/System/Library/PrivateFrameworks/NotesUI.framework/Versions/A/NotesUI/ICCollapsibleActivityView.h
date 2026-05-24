@@ -20,12 +20,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)_editingExistingLink;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSProgressIndicator *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
-@property(readonly, nonatomic) _Bool isAnimating;
 
 @end
 

@@ -6,22 +6,11 @@
 
 #import <ContactsUI/CNMaskingTableView.h>
 
-@class CNContact, CNContactHeaderView, NSDictionary, UIColor, UIView;
+@class CNContact;
 
 @interface CNContactView : CNMaskingTableView
 {
     _Bool _cellsLayoutCachingEnabled;
-    _Bool _shouldUseMapTiles;
-    _Bool _isSiri;
-    _Bool _needsUpdateVisibleCells;
-    UIView *_customHeaderView;
-    CNContact *_contact;
-    UIColor *_sectionBackgroundColor;
-    UIColor *_selectedCellBackgroundColor;
-    NSDictionary *_labelTextAttributes;
-    NSDictionary *_valueTextAttributes;
-    NSDictionary *_actionTextAttributes;
-    struct CGSize _oldSize;
 }
 
 + (id);
@@ -32,6 +21,7 @@
 + (id);
 + (Class);
 + (id);
++ (id)?	;
 + (id);
 + (id);
 + (id);
@@ -41,25 +31,24 @@
 + (id);
 + (id);
 + (id);
++ (id)a;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
+- (void)@z ;
 - (void);
 - (void);
 - (_Bool);
@@ -67,8 +56,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)9;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,17 +70,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)9H&;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (void);
+- (void)MTApplicationSceneDidDisconnectNotification;
+- (void)P;
 - (id);
 - (void);
 - (void);
@@ -101,26 +90,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void)n;
+- (void)modifyTotalBy:(id)arg1 forSlice: /* Error: Ran out of types for this method. */;
+- (void)_actionsViewTopMargin;
 - (void)Body;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *actionTextAttributes; // @synthesize actionTextAttributes=_actionTextAttributes;
-@property(retain, nonatomic) UIColor *backgroundColor; // @dynamic backgroundColor;
-@property(nonatomic, getter=isCellsLayoutCachingEnabled) _Bool cellsLayoutCachingEnabled; // @synthesize cellsLayoutCachingEnabled=_cellsLayoutCachingEnabled;
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) UIView *customHeaderView; // @synthesize customHeaderView=_customHeaderView;
-@property(readonly, nonatomic) CNContactHeaderView *defaultHeaderView;
-@property(nonatomic) _Bool isSiri; // @synthesize isSiri=_isSiri;
-@property(copy, nonatomic) NSDictionary *labelTextAttributes; // @synthesize labelTextAttributes=_labelTextAttributes;
-@property(nonatomic) _Bool needsUpdateVisibleCells; // @synthesize needsUpdateVisibleCells=_needsUpdateVisibleCells;
-@property(nonatomic) struct CGSize oldSize; // @synthesize oldSize=_oldSize;
-@property(retain, nonatomic) UIColor *sectionBackgroundColor; // @synthesize sectionBackgroundColor=_sectionBackgroundColor;
-@property(retain, nonatomic) UIColor *selectedCellBackgroundColor; // @synthesize selectedCellBackgroundColor=_selectedCellBackgroundColor;
-@property(retain, nonatomic) UIColor *separatorColor; // @dynamic separatorColor;
-@property(nonatomic) _Bool shouldUseMapTiles; // @synthesize shouldUseMapTiles=_shouldUseMapTiles;
-@property(copy, nonatomic) NSDictionary *valueTextAttributes; // @synthesize valueTextAttributes=_valueTextAttributes;
 
 @end
 

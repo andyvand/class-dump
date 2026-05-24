@@ -6,45 +6,41 @@
 
 #import <MapKit/MKOverlayPathRenderer.h>
 
-@class MKMultiPolyline, VKVectorOverlayPolylineGroup;
+@class VKVectorOverlayPolylineGroup;
 
 @interface MKMultiPolylineRenderer : MKOverlayPathRenderer
 {
     VKVectorOverlayPolylineGroup *_vectorGeometry;
-    double _strokeStart;
-    double _strokeEnd;
 }
 
 + (Class);
 + (_Bool);
-- (id);
+- (id)BatteryUI;
 - (_Bool);
 - (id);
-- (id);
+- (id)d;
 - (void);
 - (void);
 - (void);
 - (double);
 - (double);
-- (void);
-- (void);
+- (void);
+- (void)Y;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)object proxy error %@;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
+- (void)exture>";
 - (void);
 - (void);
-- (void);
-- (void)dAddLookAroundView: /* Error: Ran out of types for this method. */;
-- (void)yclopedicInfoAttribution;
+- (void)lookAroundContainerView:didAddLookAroundView: /* Error: Ran out of types for this method. */;
+- (void)_encyclopedicInfoAttribution;
 
 // Remaining properties
-@property(readonly, nonatomic) MKMultiPolyline *multiPolyline;
-@property(nonatomic, getter=_strokeEnd, setter=_setStrokeEnd:) double strokeEnd;
 @property(nonatomic, getter=_strokeStart, setter=_setStrokeStart:) double strokeStart;
 
 @end

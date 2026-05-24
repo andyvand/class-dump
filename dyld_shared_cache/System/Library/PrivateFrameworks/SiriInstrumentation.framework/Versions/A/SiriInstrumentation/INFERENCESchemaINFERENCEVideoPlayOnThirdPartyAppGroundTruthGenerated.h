@@ -6,18 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppIndependentSignals, NSArray, NSData;
+@class INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppIndependentSignals;
 
 @interface INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppGroundTruthGenerated : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppIndependentSignals *_independentSignal;
-    NSArray *_dependentSignals;
-    _Bool _hasIndependentSignal;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -37,14 +35,11 @@
 - (id)!äFùÑß°1Â0@ù
 × ;
 - (id)ta",C,N,V_entropy;
-- (id)onEngagement;
+- (id)PSESchemaPSEAppIntentInteractionEngagement;
 - (void)!´;";
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *dependentSignals; // @synthesize dependentSignals=_dependentSignals;
-@property(nonatomic) _Bool hasIndependentSignal; // @synthesize hasIndependentSignal=_hasIndependentSignal;
 @property(retain, nonatomic) INFERENCESchemaINFERENCEVideoPlayOnThirdPartyAppIndependentSignals *independentSignal; // @synthesize independentSignal=_independentSignal;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

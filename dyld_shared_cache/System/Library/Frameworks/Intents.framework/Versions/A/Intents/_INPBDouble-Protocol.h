@@ -7,11 +7,13 @@
 @class NSArray, _INPBDoubleValue;
 
 @protocol _INPBDouble
++ (Class);
+- (void);
+- (NSArray *)`;
 - (void)Successfully proxied image %@, injecting into %@;
 - (_INPBDoubleValue *)j;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

@@ -10,10 +10,10 @@
 {
 }
 
-+ (struct CGPath *);
++ (struct CGPath *);
 + (struct CGPath *);
 + (struct CGRect);
-+ (void);
++ (void)"A9iB;
 + (struct CGRect);
 + (_Bool);
 + (_Bool);

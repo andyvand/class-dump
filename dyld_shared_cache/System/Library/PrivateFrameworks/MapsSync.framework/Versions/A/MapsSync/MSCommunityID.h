@@ -11,11 +11,6 @@
 @interface MSCommunityID : MapsSync.MapsSyncObject
 {
     id _communityIdentifier;
-    id _expired;
-    id _positionIndex;
-    id _usedCount;
-    id _rapRecordChanges;
-    id _reviewedPlaceChanges;
 }
 
 + (Class);
@@ -30,21 +25,18 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)f;
 - (void);
 - (long long);
-- (long long);
+- (long long)_preferredFormatExt1;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *communityIdentifier;
-@property(nonatomic) _Bool expired;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic) long long usedCount;
 
 @end
 

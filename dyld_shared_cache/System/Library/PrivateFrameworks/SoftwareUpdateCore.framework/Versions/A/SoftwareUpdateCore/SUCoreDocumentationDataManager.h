@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SUCoreDocumentationDataManager
 {
     _Bool _supportCanarySplat;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSString *_documentationPath;
 }
 
 + (id);
@@ -33,15 +31,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_itemsToRequests;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *documentationPath; // @synthesize documentationPath=_documentationPath;
 @property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
-@property _Bool supportCanarySplat; // @synthesize supportCanarySplat=_supportCanarySplat;
 
 @end
 

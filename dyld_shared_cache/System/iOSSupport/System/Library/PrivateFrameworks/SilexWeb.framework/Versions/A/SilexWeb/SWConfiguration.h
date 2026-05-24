@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLocale, NSString, NSURL, SWFeedConfiguration, SWKeyboardConfiguration, SWLayoutGuide;
-@protocol SWLocation;
+@class NSString;
 
 @interface SWConfiguration
 {
     _Bool _is24HourTime;
-    _Bool _supportsLiveActivities;
-    _Bool _isTransitioning;
-    NSString *_identifier;
-    NSString *_storeFront;
-    NSLocale *_locale;
-    NSString *_contentEnvironment;
-    NSString *_contentSizeCategory;
-    SWLayoutGuide *_layoutGuide;
-    NSDictionary *_dataSources;
-    id <SWLocation> _location;
-    NSURL *_sourceURL;
-    NSString *_systemVersion;
-    NSString *_appVersion;
-    NSURL *_activePictureInPictureURL;
-    SWFeedConfiguration *_feedConfiguration;
-    SWKeyboardConfiguration *_keyboardConfiguration;
-    long long _networkStatus;
 }
 
 + (id);
@@ -43,18 +25,18 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)of product with id:%{public}s /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)addConstraints:(id)arg1;
 - (_Bool);
-- (void);
-- (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -66,32 +48,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (long long);
 - (id);
 - (_Bool);
 - (void)äQþÿøé;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *activePictureInPictureURL; // @synthesize activePictureInPictureURL=_activePictureInPictureURL;
-@property(copy, nonatomic) NSString *appVersion; // @synthesize appVersion=_appVersion;
-@property(copy, nonatomic) NSString *contentEnvironment; // @synthesize contentEnvironment=_contentEnvironment;
-@property(copy, nonatomic) NSString *contentSizeCategory; // @synthesize contentSizeCategory=_contentSizeCategory;
-@property(copy, nonatomic) NSDictionary *dataSources; // @synthesize dataSources=_dataSources;
-@property(copy, nonatomic) SWFeedConfiguration *feedConfiguration; // @synthesize feedConfiguration=_feedConfiguration;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool is24HourTime; // @synthesize is24HourTime=_is24HourTime;
-@property(nonatomic) _Bool isTransitioning; // @synthesize isTransitioning=_isTransitioning;
-@property(copy, nonatomic) SWKeyboardConfiguration *keyboardConfiguration; // @synthesize keyboardConfiguration=_keyboardConfiguration;
-@property(copy, nonatomic) SWLayoutGuide *layoutGuide; // @synthesize layoutGuide=_layoutGuide;
-@property(copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) id <SWLocation> location; // @synthesize location=_location;
-@property(nonatomic) long long networkStatus; // @synthesize networkStatus=_networkStatus;
-@property(copy, nonatomic) NSURL *sourceURL; // @synthesize sourceURL=_sourceURL;
-@property(copy, nonatomic) NSString *storeFront; // @synthesize storeFront=_storeFront;
-@property(nonatomic) _Bool supportsLiveActivities; // @synthesize supportsLiveActivities=_supportsLiveActivities;
-@property(copy, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
 
 @end
 

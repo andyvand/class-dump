@@ -7,19 +7,15 @@
 @class NSString;
 
 @protocol _INPBDevice
+- (int)64;
 - (NSString *)¿(Ð1Â0@ù
 × ;
 - (void)tifier:(NSString *)arg1 ]_block_invoke_2;
-- (int)CollectionForOpenFile:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)thCompletion:(NSString *)arg1;
-- (NSString *)tent;
+- (int)provideScopeEntityNameOptionsCollectionForOpenFile:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideScopeOptionsForOpenFile:(NSString *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSString *)ChangeAlarmStatusIntent;
 
 // Remaining properties
 @property(nonatomic) int deviceCategory;
-@property(copy, nonatomic) NSString *deviceModel;
-@property(copy, nonatomic) NSString *deviceName;
-@property(nonatomic) _Bool hasDeviceCategory;
-@property(readonly, nonatomic) _Bool hasDeviceModel;
-@property(readonly, nonatomic) _Bool hasDeviceName;
 @end
 

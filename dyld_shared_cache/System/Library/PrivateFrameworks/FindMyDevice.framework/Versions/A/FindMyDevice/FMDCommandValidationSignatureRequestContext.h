@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface FMDCommandValidationSignatureRequestContext
 {
     _Bool _requestEphemeralAuth;
-    NSString *_ephemeralToken;
-    NSString *_altDSID;
-    NSData *_dataToSign;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)B124;
+- (void)d}{CGSize=dd}}24@0:(id)arg1 8@16;
+- (void)@16d24@32;
+- (_Bool){CGPoint=dd}{CGSize=dd}}16@48;
+- (id)PKStrokePoint="timestamp"d"location"{CGPoint="x"d"y"d}"radius"d"aspectRatio"d"edgeWidth"d"force"d"azimuth"d"altitude"d"opacity"d"radius2"d"threshold"d};
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)setProtectedConfiguration:(id)arg1 user:options:async:client:replyBlock: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1 %p> {
+	currentVersion:%llu
+	maxLastSavedVersion:%llu
+	Replica UUIDs:%@
+	Replica Entries:%@
+} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSData *dataToSign; // @synthesize dataToSign=_dataToSign;
-@property(copy, nonatomic) NSString *ephemeralToken; // @synthesize ephemeralToken=_ephemeralToken;
 @property(nonatomic) _Bool requestEphemeralAuth; // @synthesize requestEphemeralAuth=_requestEphemeralAuth;
 
 @end

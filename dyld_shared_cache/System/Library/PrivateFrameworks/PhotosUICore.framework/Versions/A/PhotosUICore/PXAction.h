@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXAction
 {
     _Bool _executionStarted;
-    NSString *_actionSystemImageName;
-    long long _phase;
-    NSString *_actionNameLocalizationKey;
-    NSString *_undoMenuItemTitle;
-    NSString *_redoMenuItemTitle;
-    NSString *_localizedActionName;
-    NSString *_analyticsEventName;
 }
 
 - (void);
@@ -43,15 +34,7 @@
 - (void)NÊ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionIdentifier;
-@property(readonly, nonatomic) NSString *actionNameLocalizationKey; // @synthesize actionNameLocalizationKey=_actionNameLocalizationKey;
-@property(readonly, nonatomic) NSString *actionSystemImageName; // @synthesize actionSystemImageName=_actionSystemImageName;
-@property(readonly, nonatomic) NSString *analyticsEventName; // @synthesize analyticsEventName=_analyticsEventName;
 @property(readonly) _Bool executionStarted; // @synthesize executionStarted=_executionStarted;
-@property(readonly, nonatomic) NSString *localizedActionName; // @synthesize localizedActionName=_localizedActionName;
-@property(readonly, nonatomic) long long phase; // @synthesize phase=_phase;
-@property(readonly, nonatomic) NSString *redoMenuItemTitle; // @synthesize redoMenuItemTitle=_redoMenuItemTitle;
-@property(readonly, nonatomic) NSString *undoMenuItemTitle; // @synthesize undoMenuItemTitle=_undoMenuItemTitle;
 
 @end
 

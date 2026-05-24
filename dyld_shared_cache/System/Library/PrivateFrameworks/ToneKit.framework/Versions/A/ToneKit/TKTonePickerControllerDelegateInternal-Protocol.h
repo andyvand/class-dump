@@ -5,5 +5,9 @@
 //
 
 @protocol TKTonePickerControllerDelegateInternal
+
+@optional
+- (void);
+- (void);
 @end
 

@@ -6,18 +6,17 @@
 
 #import <IMDPersistence/IMDExportedRecordBatch.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface IMDExportedParticipantBatch : IMDExportedRecordBatch
 {
     void batchIterationKeys;
-    void records;
 }
 
-+ (_Bool);
++ (_Bool)h: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *batchIterationKeys;
-@property(nonatomic, readonly) NSArray *records;
 
 @end
 

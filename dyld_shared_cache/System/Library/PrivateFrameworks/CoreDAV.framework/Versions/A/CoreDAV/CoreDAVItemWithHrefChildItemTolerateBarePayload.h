@@ -6,15 +6,14 @@
 
 #import <CoreDAV/CoreDAVItemWithHrefChildItem.h>
 
-@class CoreDAVHrefItem, NSURL;
+@class CoreDAVHrefItem;
 
 @interface CoreDAVItemWithHrefChildItemTolerateBarePayload : CoreDAVItemWithHrefChildItem
 {
     CoreDAVHrefItem *_virtualHref;
-    NSURL *_baseURL;
 }
 
-- (id);
+- (id)_url;
 - (void);
 - (void);
 - (id);

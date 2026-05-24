@@ -7,7 +7,6 @@
 @interface _AFDataStoreEntry
 {
     long long _type;
-    id _value;
 }
 
 - (id);
@@ -17,13 +16,12 @@
 - (id);
 - (id);
 - (long long);
+- (id);
 - (id);
-- (id);
-- (void)isVoiceOverTouchEnabled;
+- (void)_isVoiceOverTouchEnabled;
 
 // Remaining properties
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

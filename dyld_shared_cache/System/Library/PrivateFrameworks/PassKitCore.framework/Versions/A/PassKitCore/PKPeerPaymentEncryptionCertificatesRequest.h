@@ -11,7 +11,7 @@
     unsigned long long _destination;
 }
 
-- (id);
+- (id);
 - (id);
 
 @end

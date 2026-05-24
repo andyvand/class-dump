@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASPasskeyAssertionCredentialExtensionInput, NSArray, NSData, NSString;
+@class NSString;
 
 @interface ASPasskeyCredentialRequestParameters
 {
     NSString *_relyingPartyIdentifier;
-    NSData *_clientDataHash;
-    NSString *_userVerificationPreference;
-    NSArray *_allowedCredentials;
-    ASPasskeyAssertionCredentialExtensionInput *_extensionInput;
 }
 
 + (_Bool);
@@ -24,15 +20,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)fetchMessageRecordsFilteredUsingPredicate:(struct _NSZone *)arg1 sortedUsingDescriptors:inChatsFilteredUsingPredicate:limit:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)__objc_imageinfo__DATA_CONST;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allowedCredentials; // @synthesize allowedCredentials=_allowedCredentials;
-@property(readonly, copy, nonatomic) NSData *clientDataHash; // @synthesize clientDataHash=_clientDataHash;
-@property(readonly, nonatomic) ASPasskeyAssertionCredentialExtensionInput *extensionInput; // @synthesize extensionInput=_extensionInput;
 @property(readonly, copy, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(readonly, copy, nonatomic) NSString *userVerificationPreference; // @synthesize userVerificationPreference=_userVerificationPreference;
 
 @end
 

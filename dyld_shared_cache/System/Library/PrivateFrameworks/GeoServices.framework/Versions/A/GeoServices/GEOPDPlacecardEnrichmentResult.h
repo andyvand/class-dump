@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)ror">24;
-- (id)FavoritesCount;
+- (id)_mapFeatureFavoritesCount;
 - (id)ð«;
 - (void);
 

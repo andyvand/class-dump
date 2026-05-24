@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSyndicationUtilities, NSString, SWHighlightCenter;
+@class IMSyndicationUtilities;
 
 @interface IMSWHighlightCenterController
 {
     IMSyndicationUtilities *_utilities;
-    SWHighlightCenter *_highlightCenter;
 }
 
++ (id)d/%d+%d)*%d/%d) header for mode=%d;
 + (id);
-+ (id);
+- (id)%s] %s:(id)arg1 %d Parameter 'transportStream' should not be NULL;
+- (void)utBuffer.samples=%d, decoded=%d;
+- (id)orrect %d;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (void);
 - (void)CøCDE,G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SWHighlightCenter *highlightCenter; // @synthesize highlightCenter=_highlightCenter;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) IMSyndicationUtilities *utilities; // @synthesize utilities=_utilities;
 
 @end

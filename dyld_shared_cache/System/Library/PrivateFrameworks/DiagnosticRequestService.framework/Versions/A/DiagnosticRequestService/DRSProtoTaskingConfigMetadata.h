@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoTaskingDeviceMetadata, NSString;
+@class DRSProtoTaskingDeviceMetadata;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoTaskingConfigMetadata
 {
     DRSProtoTaskingDeviceMetadata *_taskingDeviceMetadata;
-    NSString *_teamId;
-    NSString *_uuid;
 }
 
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`-;
 - (void);
 - (void);
 - (void);
@@ -31,16 +29,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_ratingControl;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTaskingDeviceMetadata;
-@property(readonly, nonatomic) _Bool hasTeamId;
-@property(readonly, nonatomic) _Bool hasUuid;
-@property(retain, nonatomic) DRSProtoTaskingDeviceMetadata *taskingDeviceMetadata; // @synthesize taskingDeviceMetadata=_taskingDeviceMetadata;
-@property(retain, nonatomic) NSString *teamId; // @synthesize teamId=_teamId;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

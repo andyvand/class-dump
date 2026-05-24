@@ -13,10 +13,5 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *action;
-@property(nonatomic, readonly) NSString *challenge;
-@property(nonatomic, readonly) NSString *publicKey;
-@property(nonatomic, readonly) NSString *signature;
-@property(nonatomic, readonly) NSString *signatureVersion;
-@property(nonatomic, readonly) NSString *state;
 @end
 

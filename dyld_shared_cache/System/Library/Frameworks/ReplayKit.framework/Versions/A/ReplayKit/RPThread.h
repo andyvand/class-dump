@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RPThread
 {
     CDUnknownFunctionPointerType _routine;
-    void *_context;
-    NSString *_threadName;
-    struct OpaqueFigThread *_thread;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } _stateMutex;
-    _Bool _isRunning;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void)ame=%@ pointOfView=%@>;
+- (void)#;
 - (_Bool);
-- (_Bool);
+- (_Bool)amount;
 - (void);
 
 @end

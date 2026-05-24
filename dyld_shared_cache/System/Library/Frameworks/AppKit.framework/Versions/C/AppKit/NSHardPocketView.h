@@ -6,21 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSHardPocketView : NSView
 {
     id captureView;
-    id captureViewObserverIDs;
-    NSColor *captureColor;
-    id prefersSolidColorHardPocket;
-    id _edgesWithSeparators;
-    id blurView;
-    id backgroundReplay;
-    id backgroundColorReplay;
-    id topSeparatorView;
-    id bottomSeparatorView;
 }
 
 - (_Bool);
@@ -30,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)onForTabBarViewItem:(struct CGRect)arg1;
+- (void)setAccessibilityCustomRotors:(id)arg1;
+- (id)_shouldShowCloseButtonForTabBarViewItem:(struct CGRect)arg1;
 - (id);
 - (void)Ü;
 - (void).
@@ -39,9 +30,6 @@ __attribute__((visibility("hidden")))
 - (void)5L;
 
 // Remaining properties
-@property(nonatomic, readonly) long long _scrollPocketElementStyle;
-@property(nonatomic, readonly) _Bool _shouldDescendantsContributeToScrollPocket;
-@property(nonatomic, retain) NSColor *color; // @synthesize color=captureColor;
 @property(nonatomic, copy) NSString *groupName;
 
 @end

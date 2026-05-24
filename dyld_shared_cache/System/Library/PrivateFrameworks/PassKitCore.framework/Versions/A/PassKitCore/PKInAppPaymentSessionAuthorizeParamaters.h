@@ -9,14 +9,10 @@
 @interface PKInAppPaymentSessionAuthorizeParamaters
 {
     NSData *_nonce;
-    NSData *_authenticationCredential;
-    NSData *_networkMerchantIdentifier;
-    long long _cryptogramType;
-    _Bool *_isFeatureNotSupportedError;
 }
 
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (id);
@@ -29,10 +25,6 @@
 - (id)eneService;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authenticationCredential; // @synthesize authenticationCredential=_authenticationCredential;
-@property(nonatomic) long long cryptogramType; // @synthesize cryptogramType=_cryptogramType;
-@property(nonatomic) _Bool *isFeatureNotSupportedError; // @synthesize isFeatureNotSupportedError=_isFeatureNotSupportedError;
-@property(retain, nonatomic) NSData *networkMerchantIdentifier; // @synthesize networkMerchantIdentifier=_networkMerchantIdentifier;
 @property(retain, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
 
 @end

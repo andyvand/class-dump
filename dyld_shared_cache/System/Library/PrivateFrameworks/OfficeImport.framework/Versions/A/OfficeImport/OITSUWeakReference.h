@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     id mObject;
 }
 
-+ (id);
++ (id)	;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id)J\KHMôM<NN<OO4PPäPQ¤QØQ8SxU;
 
 // Remaining properties

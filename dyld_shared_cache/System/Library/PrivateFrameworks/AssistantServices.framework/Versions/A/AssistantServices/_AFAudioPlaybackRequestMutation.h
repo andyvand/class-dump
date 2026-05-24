@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAudioPlaybackRequest, NSData, NSDictionary, NSString, NSURL;
+@class AFAudioPlaybackRequest;
 
 @interface _AFAudioPlaybackRequestMutation
 {
     AFAudioPlaybackRequest *_base;
-    NSURL *_itemURL;
-    NSData *_itemData;
-    long long _numberOfLoops;
-    float _volume;
-    double _fadeInDuration;
-    double _fadeOutDuration;
-    NSDictionary *_userInfo;
-    NSString *_hapticLibraryKey;
-    NSString *_UUID;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasItemURL:1;
-        unsigned int hasItemData:1;
-        unsigned int hasNumberOfLoops:1;
-        unsigned int hasVolume:1;
-        unsigned int hasFadeInDuration:1;
-        unsigned int hasFadeOutDuration:1;
-        unsigned int hasUserInfo:1;
-        unsigned int hasHapticLibraryKey:1;
-        unsigned int hasUUID:1;
-    } _mutationFlags;
 }
 
 - (float);
@@ -42,26 +21,20 @@
 - (double);
 - (void);
 - (void);
+- (void)?V;
 - (void);
-- (void);
-- (id);
+- (id)7	7	;
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)requestWithIdentifier:(id)arg1 content:trigger: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)dows;
-- (void)esMonitor;
+- (id)setupActionWindows;
+- (void)_headphonesMonitor;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface PISliderNetLiftJob : PISliderNetBaseJob
 {
     NSData *_styleFeatureVectorData;
-    NSData *_contentFeatureVectorData;
 }
 
 - (_Bool);
@@ -21,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void)object: /* Error: Ran out of types for this method. */;
+- (void)unsupportedError:object: /* Error: Ran out of types for this method. */;
 - (id)n;
 
 @end

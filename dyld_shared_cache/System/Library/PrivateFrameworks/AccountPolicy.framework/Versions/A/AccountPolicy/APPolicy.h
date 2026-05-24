@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface APPolicy
 {
     NSString *_identifier;
-    NSString *_content;
-    NSDictionary *_contentDescriptions;
-    NSDictionary *_parameters;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)@c;
 + (id);
 + (_Bool);
 - (void);
@@ -26,29 +23,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)z;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)h~;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSString *content; // @synthesize content=_content;
-@property(copy) NSDictionary *contentDescriptions; // @synthesize contentDescriptions=_contentDescriptions;
-@property(readonly, copy) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSDictionary *parameters; // @synthesize parameters=_parameters;
 
 @end
 

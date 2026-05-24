@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol SATurnIdContaining
+- (NSString *);
+- (void)R#;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *turnId;

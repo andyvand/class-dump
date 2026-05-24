@@ -5,5 +5,7 @@
 //
 
 @protocol ASDServiceProtocol
+- (void);
+- (void);
 @end
 

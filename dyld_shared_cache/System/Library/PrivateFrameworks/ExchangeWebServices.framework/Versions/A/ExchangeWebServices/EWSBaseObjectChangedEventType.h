@@ -6,13 +6,11 @@
 
 #import <ExchangeWebServices/EWSBaseNotificationEventType.h>
 
-@class EWSFolderIdType, NSDateComponents;
+@class NSDateComponents;
 
 @interface EWSBaseObjectChangedEventType : EWSBaseNotificationEventType
 {
     NSDateComponents *_TimeStamp;
-    id _ItemOrFolderId;
-    EWSFolderIdType *_ParentFolderId;
 }
 
 + (id);
@@ -22,11 +20,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)pe;
 
 // Remaining properties
-@property(retain, nonatomic) id ItemOrFolderId; // @synthesize ItemOrFolderId=_ItemOrFolderId;
-@property(retain, nonatomic) EWSFolderIdType *ParentFolderId; // @synthesize ParentFolderId=_ParentFolderId;
 @property(retain, nonatomic) NSDateComponents *TimeStamp; // @synthesize TimeStamp=_TimeStamp;
 
 @end

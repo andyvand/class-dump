@@ -28,19 +28,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool bu_isCancelError;
-@property(readonly, nonatomic) _Bool bu_isCorruptedError;
-@property(readonly, nonatomic) _Bool bu_isFileExistsError;
-@property(readonly, nonatomic) _Bool bu_isNoPermissionError;
-@property(readonly, nonatomic) _Bool bu_isNoSuchFileError;
-@property(readonly, nonatomic) _Bool bu_isOutOfSpaceError;
 @property(readonly, nonatomic) _Bool bu_isReadError;
-@property(readonly, nonatomic) _Bool bu_isWriteError;
 @end
 

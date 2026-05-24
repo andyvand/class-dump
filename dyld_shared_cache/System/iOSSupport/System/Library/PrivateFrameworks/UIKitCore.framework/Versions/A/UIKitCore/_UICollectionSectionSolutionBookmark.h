@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutSection, _UICollectionLayoutSectionDescriptor, _UICollectionPreferredSizes, _UIContentInsetsEnvironment;
 @protocol _UICollectionLayoutSectionSolver;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionSectionSolutionBookmark
 {
     id <_UICollectionLayoutSectionSolver> _solution;
-    NSCollectionLayoutSection *_section;
-    struct CGRect _globalFrame;
-    struct CGRect _globalPinningFrame;
-    _UIContentInsetsEnvironment *_insetEnvironment;
-    _UIContentInsetsEnvironment *_supplementaryInsetEnvironment;
-    _UICollectionPreferredSizes *_preferredSizes;
-    _UICollectionLayoutSectionDescriptor *_memoizedDescriptor;
 }
 
 - (id);
@@ -30,23 +22,15 @@ __attribute__((visibility("hidden")))
 - (struct CGRect)0@ù
 × ;
 - (unsigned long long)ematurelyEnded"b1"automaticallyAdjustsWritingDirection"b1};
-- (id)llGesture;
-- (id)btitle: /* Error: Ran out of types for this method. */;
-- (id)eExpansionWithVelocity: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)BoxcarFilterPointFIFO;
+- (id)endScrollGesture;
+- (id)_setHeaderSubtitle: /* Error: Ran out of types for this method. */;
+- (id)_animateExpansionWithVelocity: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)UIKBHandwritingBoxcarFilterPointFIFO;
 - (struct CGPoint);
 - (void);
 - (id)êÊøc;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint contentInsetsOffset;
-@property(readonly, nonatomic) struct CGRect globalFrame; // @synthesize globalFrame=_globalFrame;
-@property(readonly, nonatomic) struct CGRect globalPinningFrame; // @synthesize globalPinningFrame=_globalPinningFrame;
-@property(readonly, nonatomic) _UIContentInsetsEnvironment *insetEnvironment; // @synthesize insetEnvironment=_insetEnvironment;
-@property(readonly, nonatomic) _UICollectionLayoutSectionDescriptor *memoizedDescriptor; // @synthesize memoizedDescriptor=_memoizedDescriptor;
-@property(readonly, nonatomic) _UICollectionPreferredSizes *preferredSizes; // @synthesize preferredSizes=_preferredSizes;
-@property(readonly, nonatomic) NSCollectionLayoutSection *section; // @synthesize section=_section;
-@property(readonly, nonatomic) struct CGPoint sectionAuxiliaryContentInsetsOffset;
 @property(readonly, nonatomic) id <_UICollectionLayoutSectionSolver> solution; // @synthesize solution=_solution;
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol TUMomentsControllerDataSourceDelegate;
 
 @protocol TUMomentsControllerDataSource
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <TUMomentsControllerDataSourceDelegate> delegate;
-@property(readonly, nonatomic) int processIdentifier;
-@property(readonly, copy, nonatomic) NSString *processName;
 @end
 

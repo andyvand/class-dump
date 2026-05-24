@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont;
-
 __attribute__((visibility("hidden")))
 @interface NSSecureTextStorage
 {
     struct __CFAttributedString *_storage;
-    NSFont *_font;
-    _Atomic long long _level;
-    unsigned short _bulletCharacter;
 }
 
 + (void)2µ5H;
@@ -25,17 +20,17 @@ __attribute__((visibility("hidden")))
 - (unsigned short);
 - (void);
 - (void);
-- (id);
+- (id)os/engagement/other;
 - (id);
 - (void);
 - (id);
 - (id)!lBùqà31Â0@ù
 × ;
 - (void);
-- (id)Contents:(id)arg1;
+- (id)_setRawContents:(id)arg1;
 - (id);
 - (void)for url %{private}@. Eliding writes from previous service for %{public}@. New connection is %{public}@.;
-- (void)aveAs;
+- (void)DidAutosaveBeforeSaveAs;
 - (void)SFocusItemCache _validateNavigationLoopForGroupingItem:(id)arg1 ];
 - (id);
 

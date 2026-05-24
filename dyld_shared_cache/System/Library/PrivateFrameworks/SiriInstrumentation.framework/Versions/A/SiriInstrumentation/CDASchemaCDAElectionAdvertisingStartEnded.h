@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CDASchemaCDAElectionAdvertisingStartEnded : SISchemaInstrumentationMessage
 {
     int _state;
-    CDStruct_5accba53 _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
+- (int)e_id FROM chat_message_join where chat_id = ?) AND m.text = ? AND m.date > ? AND m.date < ?;
 - (_Bool);
 - (id);
 - (id)xt";
-- (id)skEvaluationStarted;
+- (id)CLPInstSchemaCLPNLv4TaskEvaluationStarted;
 - (id)S;
 
 // Remaining properties
-@property(nonatomic) _Bool hasState;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

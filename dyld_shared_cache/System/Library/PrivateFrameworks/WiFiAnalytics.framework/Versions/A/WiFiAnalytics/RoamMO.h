@@ -6,8 +6,6 @@
 
 #import <WiFiAnalytics/WADeviceAnalyticsDatedRecord.h>
 
-@class BSSMO, NSObject;
-
 @interface RoamMO : WADeviceAnalyticsDatedRecord
 {
 }
@@ -25,36 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) short cacheChannel; // @dynamic cacheChannel;
-@property(nonatomic) int cacheChannelFlags; // @dynamic cacheChannelFlags;
-@property(nonatomic) short cacheRssiBin; // @dynamic cacheRssiBin;
-@property(retain, nonatomic) NSObject *channelsScanned; // @dynamic channelsScanned;
-@property(nonatomic) _Bool displayOn; // @dynamic displayOn;
-@property(nonatomic) short hostReason; // @dynamic hostReason;
-@property(nonatomic) _Bool isLateRoam; // @dynamic isLateRoam;
-@property(nonatomic) _Bool isPingPong; // @dynamic isPingPong;
-@property(retain, nonatomic) NSObject *neighborCache; // @dynamic neighborCache;
-@property(nonatomic) short roamDelta; // @dynamic roamDelta;
-@property(nonatomic) long long roamLatencyMs; // @dynamic roamLatencyMs;
-@property(nonatomic) short roamProfileType; // @dynamic roamProfileType;
-@property(retain, nonatomic) BSSMO *source; // @dynamic source;
-@property(nonatomic) short sourceBand; // @dynamic sourceBand;
-@property(nonatomic) short sourceCcaOther; // @dynamic sourceCcaOther;
-@property(nonatomic) short sourceCcaSelf; // @dynamic sourceCcaSelf;
-@property(nonatomic) short sourceCcaTotal; // @dynamic sourceCcaTotal;
-@property(nonatomic) short sourceChannel; // @dynamic sourceChannel;
-@property(nonatomic) short sourceChannelWidth; // @dynamic sourceChannelWidth;
-@property(nonatomic) int sourcePhyMode; // @dynamic sourcePhyMode;
-@property(nonatomic) short sourceRssi; // @dynamic sourceRssi;
-@property(nonatomic) short sourceSnr; // @dynamic sourceSnr;
-@property(nonatomic) long long sourceTimeSpentSecs; // @dynamic sourceTimeSpentSecs;
-@property(nonatomic) short targetCca; // @dynamic targetCca;
-@property(nonatomic) _Bool targetDhcpFailed; // @dynamic targetDhcpFailed;
-@property(nonatomic) int targetDhcpLatencyMs; // @dynamic targetDhcpLatencyMs;
-@property(nonatomic) int targetDhcpLeaseMins; // @dynamic targetDhcpLeaseMins;
-@property(nonatomic) int targetPhyMode; // @dynamic targetPhyMode;
-@property(nonatomic) short targetSnr; // @dynamic targetSnr;
-@property(nonatomic) _Bool userInteractive; // @dynamic userInteractive;
-@property(nonatomic) _Bool voipActive; // @dynamic voipActive;
 
 @end
 

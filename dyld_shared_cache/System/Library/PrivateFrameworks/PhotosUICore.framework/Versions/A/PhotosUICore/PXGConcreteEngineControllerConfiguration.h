@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString, PXGViewEnvironment, PXMediaProvider;
-
 @interface PXGConcreteEngineControllerConfiguration
 {
     _Bool _isVisible;
-    _Bool _deferReferenceSizeChanges;
-    CDUnknownBlockType _rootLayoutPromise;
-    PXGViewEnvironment *_viewEnvironment;
-    double _displayScale;
-    NSColor *_backgroundColor;
-    PXMediaProvider *_mediaProvider;
-    long long _version;
-    struct CGSize _referenceSize;
 }
 
 - (void);
@@ -39,30 +29,14 @@
 - (void);
 - (double)1Â0@ù
 × ;
-- (id)leButtonVisibilityFraction;
-- (struct CGSize)ssalTargetPlacement;
+- (id)muteToggleButtonVisibilityFraction;
+- (struct CGSize)_invalidateViewControllerDismissalTargetPlacement;
 - (id);
 - (void);
 - (_Bool)PÀ<;
 
 // Remaining properties
-@property(copy, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool deferReferenceSizeChanges; // @synthesize deferReferenceSizeChanges=_deferReferenceSizeChanges;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double displayScale; // @synthesize displayScale=_displayScale;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(retain, nonatomic) PXMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) struct CGSize pixelSize;
-@property(nonatomic) struct CGSize referenceSize; // @synthesize referenceSize=_referenceSize;
-@property(copy, nonatomic) CDUnknownBlockType rootLayoutPromise; // @synthesize rootLayoutPromise=_rootLayoutPromise;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;
-@property(copy, nonatomic) PXGViewEnvironment *viewEnvironment; // @synthesize viewEnvironment=_viewEnvironment;
 
 @end
 

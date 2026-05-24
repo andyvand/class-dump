@@ -12,10 +12,10 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)olor;
+- (id)ckgroundColor;
+- (id)Block;
+- (id)_dispatch_queue>",&,N,V_queue;
 - (id);
 - (id);
 - (long long);

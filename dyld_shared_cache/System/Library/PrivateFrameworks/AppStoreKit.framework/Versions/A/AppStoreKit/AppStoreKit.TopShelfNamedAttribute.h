@@ -7,7 +7,6 @@
 @interface AppStoreKit.TopShelfNamedAttribute
 {
     id name;
-    id values;
 }
 
 @end

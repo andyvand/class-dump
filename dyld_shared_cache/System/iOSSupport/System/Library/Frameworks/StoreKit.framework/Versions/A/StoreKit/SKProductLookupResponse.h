@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SKProductLookupResponse
 {
     _Bool _isEntitled;
-    _Bool _hasPresentationEntitlement;
-    NSDictionary *_resultDictionary;
-    NSString *_extensionBundleID;
-    NSURL *_productURL;
-    NSDictionary *_parameters;
-    NSURL *_deepLinkURL;
 }
 
 + (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)fy;
+- (_Bool)tion listeners of evicted assets;
 - (id);
 - (id);
+- (id);
+- (id)HP;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)B�;
 - (_Bool)nse:%{private}s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *deepLinkURL; // @synthesize deepLinkURL=_deepLinkURL;
-@property(readonly, nonatomic) NSString *extensionBundleID; // @synthesize extensionBundleID=_extensionBundleID;
-@property(readonly, nonatomic) _Bool hasPresentationEntitlement; // @synthesize hasPresentationEntitlement=_hasPresentationEntitlement;
-@property(readonly, nonatomic) _Bool isEntitled; // @synthesize isEntitled=_isEntitled;
-@property(readonly, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) NSURL *productURL; // @synthesize productURL=_productURL;
 @property(readonly, nonatomic) NSDictionary *resultDictionary; // @synthesize resultDictionary=_resultDictionary;
 
 @end

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BKSTerminationContext
 {
     long long _exceptionCode;
-    NSString *_explanation;
 }
 
 + (id);
@@ -20,12 +17,11 @@
 - (void);
 - (long long);
 - (_Bool);
-- (id);
+- (id)els data ({%lu, %lu, %lu}) is invalid (must be >= labels.length (%lu));
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long exceptionCode; // @synthesize exceptionCode=_exceptionCode;
-@property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
 
 @end
 

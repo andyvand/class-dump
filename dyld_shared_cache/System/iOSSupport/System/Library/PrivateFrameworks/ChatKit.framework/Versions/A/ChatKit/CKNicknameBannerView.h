@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView;
+@class UIView;
 
 @interface CKNicknameBannerView
 {
     unsigned long long _style;
-    NSArray *_nicknameUpdates;
-    UIView *_swiftBanner;
 }
 
-- (id);
-- (void);
+- (id)ic_preferredFontForStyle:symbolicTraits: /* Error: Ran out of types for this method. */;
+- (void)_subtitleTextViewHeightConstraint;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)w;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *nicknameUpdates; // @synthesize nicknameUpdates=_nicknameUpdates;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
 @property(retain, nonatomic) UIView *swiftBanner; // @synthesize swiftBanner=_swiftBanner;
 
 @end

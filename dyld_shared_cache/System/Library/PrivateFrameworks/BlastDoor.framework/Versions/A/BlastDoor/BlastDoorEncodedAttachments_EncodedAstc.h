@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorImage, NSString;
+@class NSString;
 
 @interface BlastDoorEncodedAttachments_EncodedAstc
 {
     id encodedAttachments_EncodedAstc;
 }
 
-- (id);
+- (id)ScreenBalloonViewControllerPhone";
 - (id);
 - (id);
 - (id);
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorImage *image;
-@property(nonatomic, readonly) NSString *originalUTIType;
 
 @end
 

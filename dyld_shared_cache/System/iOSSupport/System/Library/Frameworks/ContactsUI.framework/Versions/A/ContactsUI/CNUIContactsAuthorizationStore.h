@@ -5,39 +5,27 @@
 //
 
 @class NSString;
-@protocol CNTCCSettings, CNUICoreRemoteApplicationIconFetching;
 
 __attribute__((visibility("hidden")))
 @interface CNUIContactsAuthorizationStore
 {
     NSString *_bundleIdentifier;
-    id <CNTCCSettings> _tccSettings;
-    id <CNUICoreRemoteApplicationIconFetching> _iconFetcher;
 }
 
 - (id);
+- (id)hnM9;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)setPositionY: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)addStaticKeyWithPublicIDString:contact: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNUICoreRemoteApplicationIconFetching> iconFetcher; // @synthesize iconFetcher=_iconFetcher;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CNTCCSettings> tccSettings; // @synthesize tccSettings=_tccSettings;
 
 @end
 

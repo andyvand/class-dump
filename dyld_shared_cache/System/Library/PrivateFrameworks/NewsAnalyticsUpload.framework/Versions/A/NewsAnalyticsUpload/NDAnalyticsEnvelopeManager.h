@@ -4,23 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCKeyValueStore, NDAnalyticsEnvelopeStore, NDAnalyticsPayloadAssembler, NDAnalyticsPayloadUploader, NDAnalyticsTelemetryUploader, NDAnalyticsUploadScheduler, NFMutexLock, NSObject, NSString;
+@class FCAsyncSerialQueue, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NDAnalyticsEnvelopeManager
 {
     NSObject<OS_dispatch_queue> *_URLSessionQueue;
-    FCAsyncSerialQueue *_submissionQueue;
-    NDAnalyticsEnvelopeStore *_envelopeStore;
-    NDAnalyticsPayloadAssembler *_payloadAssembler;
-    NDAnalyticsPayloadUploader *_payloadUploader;
-    NDAnalyticsUploadScheduler *_uploadScheduler;
-    FCKeyValueStore *_lastUploadDatesByContentType;
-    NFMutexLock *_keyValueStoreLock;
-    NDAnalyticsTelemetryUploader *_telemetryUploader;
 }
 
+- (id);
 - (id);
+- (id);
+- (id);
+- (id)Sources/AlderShared/application/common/TSADocumentRoot.mm;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -29,20 +33,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)ity/sf/SFUZipArchiveFileDataRepresentation.m;
 - (id);
 - (void);
 - (void);
@@ -52,22 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *URLSessionQueue; // @synthesize URLSessionQueue=_URLSessionQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NDAnalyticsEnvelopeStore *envelopeStore; // @synthesize envelopeStore=_envelopeStore;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NFMutexLock *keyValueStoreLock; // @synthesize keyValueStoreLock=_keyValueStoreLock;
-@property(retain, nonatomic) FCKeyValueStore *lastUploadDatesByContentType; // @synthesize lastUploadDatesByContentType=_lastUploadDatesByContentType;
-@property(retain, nonatomic) NDAnalyticsPayloadAssembler *payloadAssembler; // @synthesize payloadAssembler=_payloadAssembler;
-@property(retain, nonatomic) NDAnalyticsPayloadUploader *payloadUploader; // @synthesize payloadUploader=_payloadUploader;
 @property(retain, nonatomic) FCAsyncSerialQueue *submissionQueue; // @synthesize submissionQueue=_submissionQueue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NDAnalyticsTelemetryUploader *telemetryUploader; // @synthesize telemetryUploader=_telemetryUploader;
-@property(retain, nonatomic) NDAnalyticsUploadScheduler *uploadScheduler; // @synthesize uploadScheduler=_uploadScheduler;
 
 @end
 

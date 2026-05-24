@@ -8,14 +8,11 @@
 {
     id _textBinding;
     id _isFocusedBinding;
-    id _showTextFormatting;
-    id crTextStorage;
-    id isShowingFormattingController;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,8 +21,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)!;
 - (id);
 - (void)Ry{RGGÕsRyßTGG_eRyylR_Qo_Qo_MrRyiRGG_ADyACyAAyAAyTyAAyAAyÏõ¦1ýÿGuRyv1ýÿGGGAIG;1ýÿG_AAyAAyA4_yAAyAAyLTyAByACy¨õ_ªõtGG_Qo_A6_GA10_GGAIGA14_GtGGtGG_ÍòA30_SQ12CoreGraphicsyHCg0_Qo_AWGA8_yüy>õGGG_5ìSgQo__ÒÍTSgQo_XuRyAVGG>cRyÐ}RGG;
 

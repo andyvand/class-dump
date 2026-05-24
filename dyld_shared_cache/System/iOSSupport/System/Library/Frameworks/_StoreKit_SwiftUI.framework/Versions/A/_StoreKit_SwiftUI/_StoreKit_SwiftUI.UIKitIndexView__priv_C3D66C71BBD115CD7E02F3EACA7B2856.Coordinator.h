@@ -7,6 +7,7 @@
 @interface _StoreKit_SwiftUI.UIKitIndexView__priv_C3D66C71BBD115CD7E02F3EACA7B2856.Coordinator
 {
     id _value;
+    id;
 }
 
 - (void);

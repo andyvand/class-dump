@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSDictionary, NSMenu, NSString;
-@protocol CNCancelable, CNContactQuickActionViewContainer, CNContactQuickActionsControllerDelegate, CNSchedulerProvider, CNUIUserActionContext, CNUIUserActionListDataSource;
+@protocol CNContactQuickActionViewContainer, CNUIUserActionListDataSource;
 
 @interface CNContactQuickActionsController
 {
     id <CNContactQuickActionViewContainer> _contactQuickActionViewContainer;
-    id <CNContactQuickActionsControllerDelegate> _delegate;
-    NSArray *_actionTypes;
-    CNContact *_contact;
-    id <CNUIUserActionListDataSource> _userActionListDataSource;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <CNCancelable> _actionDiscoveryToken;
-    NSDictionary *_actionListModelsByActionType;
-    id <CNUIUserActionContext> _userActionContext;
-    NSMenu *_disambiguationMenu;
 }
 
 + (id);
@@ -31,14 +21,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)"	;
 - (void);
 - (void);
 - (id);
@@ -47,41 +37,25 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)S;
+- (void)@;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)24BlastDoorClientInterface;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CNCancelable> actionDiscoveryToken; // @synthesize actionDiscoveryToken=_actionDiscoveryToken;
-@property(retain, nonatomic) NSDictionary *actionListModelsByActionType; // @synthesize actionListModelsByActionType=_actionListModelsByActionType;
-@property(readonly, nonatomic) NSArray *actionTypes; // @synthesize actionTypes=_actionTypes;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) __weak id <CNContactQuickActionViewContainer> contactQuickActionViewContainer; // @synthesize contactQuickActionViewContainer=_contactQuickActionViewContainer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactQuickActionsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMenu *disambiguationMenu; // @synthesize disambiguationMenu=_disambiguationMenu;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CNUIUserActionContext> userActionContext; // @synthesize userActionContext=_userActionContext;
 @property(readonly, nonatomic) id <CNUIUserActionListDataSource> userActionListDataSource; // @synthesize userActionListDataSource=_userActionListDataSource;
 
 @end

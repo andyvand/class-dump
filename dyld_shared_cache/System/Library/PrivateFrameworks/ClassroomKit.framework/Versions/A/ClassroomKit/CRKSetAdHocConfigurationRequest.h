@@ -9,12 +9,11 @@
 @interface CRKSetAdHocConfigurationRequest
 {
     _Bool _merge;
-    NSDictionary *_configuration;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) _Bool merge; // @synthesize merge=_merge;
 
 @end
 

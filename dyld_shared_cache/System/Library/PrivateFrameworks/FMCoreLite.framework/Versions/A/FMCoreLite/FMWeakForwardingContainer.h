@@ -11,9 +11,9 @@
     NSObject *_target;
 }
 
+- (id)c;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)(=;
 - (void);
 - (id);
 - (id);

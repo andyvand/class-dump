@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType observer;
 }
 
-- (void);
+- (void)@;
 - (void);
 - (CDUnknownBlockType);
 

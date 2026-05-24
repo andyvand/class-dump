@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-
 @interface _UILegibilitySettings
 {
     long long _style;
-    UIColor *_contentColor;
-    UIColor *_primaryColor;
-    UIColor *_secondaryColor;
-    UIColor *_shadowColor;
-    double _shadowRadius;
-    double _shadowAlpha;
-    double _imageOutset;
-    double _minFillHeight;
-    NSString *_shadowCompositingFilterName;
 }
 
 + (_Bool)_selectedFontDescriptors;
-+ (id)eAppearance;
++ (id)effectiveAppearance;
 - (id);
 - (void);
 - (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (double);
-- (void);
-- (void);
+- (double)"40q48@?<v@?@"NSArray">56;
+- (id)setTimeRead:(long long)arg1;
+- (id)setTimeDelivered:(long long)arg1;
+- (id)sendReadReceiptForMessageGUID:(id)arg1 timeRead:(double)arg2 reflectOnly: /* Error: Ran out of types for this method. */;
+- (double)requestQOSClassWhileServicingRequestsWithID: /* Error: Ran out of types for this method. */;
+- (void)d to relay!;
+- (void)PersistentTaskCriticalExecutionBudgetExceededTTRDate;
 - (id);
 - (void);
 - (void);
@@ -40,16 +29,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)= 0.;
 - (id);
 - (double);
-- (void);
+- (void)_addRemoveButton;
 - (id);
 - (id)1]ð1Â0@ù
 × ;
 - (void);
-- (_Bool)ect;
-- (void)t:(id)arg1;
+- (_Bool)usedBoundingRect;
+- (void)setIsUpdatingContentLayout:(id)arg1;
 - (id)_setAltitudeAngle:(struct _NSZone *)arg1 ,V_altitudeAngle;
 - (id)8¬
 °¬;
@@ -60,23 +49,7 @@
 - (double);
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *contentColor; // @synthesize contentColor=_contentColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double imageOutset; // @synthesize imageOutset=_imageOutset;
-@property(nonatomic) double minFillHeight; // @synthesize minFillHeight=_minFillHeight;
-@property(retain, nonatomic) UIColor *primaryColor; // @synthesize primaryColor=_primaryColor;
-@property(retain, nonatomic) UIColor *secondaryColor; // @synthesize secondaryColor=_secondaryColor;
-@property(nonatomic) double shadowAlpha; // @synthesize shadowAlpha=_shadowAlpha;
-@property(retain, nonatomic) UIColor *shadowColor; // @synthesize shadowColor=_shadowColor;
-@property(copy, nonatomic) NSString *shadowCompositingFilterName; // @synthesize shadowCompositingFilterName=_shadowCompositingFilterName;
-@property(nonatomic) double shadowRadius; // @synthesize shadowRadius=_shadowRadius;
 @property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

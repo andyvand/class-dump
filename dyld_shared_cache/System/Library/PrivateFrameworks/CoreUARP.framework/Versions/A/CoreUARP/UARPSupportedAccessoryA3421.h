@@ -14,7 +14,7 @@
 }
 
 + (id);
-- (id);
+- (id)AMSPushParsableEngagementEvent;
 - (void);
 
 @end

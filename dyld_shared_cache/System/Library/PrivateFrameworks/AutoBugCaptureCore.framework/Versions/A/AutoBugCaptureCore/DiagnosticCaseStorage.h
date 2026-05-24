@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, UploadRecord;
+@class NSString;
 
 @interface DiagnosticCaseStorage
 {
@@ -12,36 +12,6 @@
 
 
 // Remaining properties
-@property(nonatomic) _Bool attachmentsIncomplete; // @dynamic attachmentsIncomplete;
-@property(retain, nonatomic) NSString *basebandChipset; // @dynamic basebandChipset;
-@property(retain, nonatomic) NSString *basebandFirmwareVersion; // @dynamic basebandFirmwareVersion;
-@property(retain, nonatomic) NSString *buildVariant; // @dynamic buildVariant;
-@property(retain, nonatomic) NSString *buildVersion; // @dynamic buildVersion;
-@property(retain, nonatomic) NSString *caseAttachments; // @dynamic caseAttachments;
-@property(retain, nonatomic) NSDate *caseClosedTime; // @dynamic caseClosedTime;
-@property(nonatomic) short caseClosureType; // @dynamic caseClosureType;
-@property(retain, nonatomic) NSString *caseContext; // @dynamic caseContext;
-@property(nonatomic) short caseDampeningType; // @dynamic caseDampeningType;
-@property(retain, nonatomic) NSString *caseDetectedProcess; // @dynamic caseDetectedProcess;
-@property(retain, nonatomic) NSString *caseDomain; // @dynamic caseDomain;
-@property(retain, nonatomic) NSString *caseEffectiveProcess; // @dynamic caseEffectiveProcess;
-@property(retain, nonatomic) NSString *caseEvents; // @dynamic caseEvents;
-@property(retain, nonatomic) NSString *caseGroupID; // @dynamic caseGroupID;
 @property(retain, nonatomic) NSString *caseID; // @dynamic caseID;
-@property(retain, nonatomic) NSString *caseObjectVersion; // @dynamic caseObjectVersion;
-@property(retain, nonatomic) NSString *casePayloads; // @dynamic casePayloads;
-@property(retain, nonatomic) NSString *caseRelatedProcesses; // @dynamic caseRelatedProcesses;
-@property(nonatomic) short caseState; // @dynamic caseState;
-@property(retain, nonatomic) NSString *caseSubtype; // @dynamic caseSubtype;
-@property(retain, nonatomic) NSString *caseSubtypeContext; // @dynamic caseSubtypeContext;
-@property(retain, nonatomic) NSString *caseThresholdValues; // @dynamic caseThresholdValues;
-@property(retain, nonatomic) NSString *caseType; // @dynamic caseType;
-@property(nonatomic) short dpSubmissionState; // @dynamic dpSubmissionState;
-@property(retain, nonatomic) NSString *homeCarrier; // @dynamic homeCarrier;
-@property(retain, nonatomic) NSString *regulatoryDomainCountry; // @dynamic regulatoryDomainCountry;
-@property(nonatomic) _Bool remoteTrigger; // @dynamic remoteTrigger;
-@property(retain, nonatomic) NSDate *timeStamp; // @dynamic timeStamp;
-@property(retain, nonatomic) UploadRecord *uploadRecord; // @dynamic uploadRecord;
-@property(nonatomic) short uploadState; // @dynamic uploadState;
 @end
 

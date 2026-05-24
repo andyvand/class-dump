@@ -11,9 +11,9 @@
     struct nstat_ifnet_descriptor _descriptor;
 }
 
-- (id);
-- (id);
-- (int);
+- (id)addAggregation: /* Error: Ran out of types for this method. */;
+- (id)TRIUrgentRollbackScheduler;
+- (int);
 - (id);
 
 @end

@@ -12,7 +12,7 @@
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (struct __C3DTimingFunction *);
 - (void);
 - (id);

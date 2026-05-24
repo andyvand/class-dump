@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroupEntriesList, NSString;
+@class ABAddressBook;
 
 @interface ABBookRenameGroupCommand
 {
     ABAddressBook *_addressBook;
-    NSString *_groupUid;
-    NSString *_oldName;
-    NSString *_newName;
-    ABGroupEntriesList *_groupEntriesList;
-    ABAccount *_account;
-    _Bool ignoresGuardianRestrictions;
 }
 
 + (id);

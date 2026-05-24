@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, TSDAutoscroll, TSDInteractiveCanvasController;
+@class NSSet, TSDInteractiveCanvasController;
 
 @interface TSDDynamicOperationController
 {
     TSDInteractiveCanvasController *mICC;
-    _Bool mOperationIsDynamic;
-    _Bool mResetGuides;
-    _Bool mSupportsAlignmentGuides;
-    _Bool mPossibleDynamicOperation;
-    NSMutableSet *mReps;
-    NSMutableSet *mAllTransformedReps;
-    TSDAutoscroll *mAutoscroll;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)]0[;
+- (void)]pi;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -41,7 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allTransformedReps; // @synthesize allTransformedReps=mAllTransformedReps;
-@property(readonly, nonatomic) NSSet *currentlyTransformingReps; // @synthesize currentlyTransformingReps=mReps;
 
 @end
 

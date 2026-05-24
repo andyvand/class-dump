@@ -7,8 +7,6 @@
 @interface NewsUI2.UserNotificationModifierEventProcessor
 {
     id modifier;
-    id jsonDecoder;
-    id headlineService;
 }
 
 @end

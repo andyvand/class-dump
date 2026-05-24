@@ -6,48 +6,18 @@
 
 #import <MediaRemote/MRAVRoutingDiscoverySession.h>
 
-@class MRAVDistantEndpoint, MRAVLocalEndpoint, NSArray, NSDate, NSObject, NSString, NSXPCConnection;
-@protocol MRActivityTracker, OS_dispatch_queue;
+@class NSObject, NSXPCConnection;
+@protocol OS_dispatch_queue;
 
 @interface MRAVDistantRoutingDiscoverySession : MRAVRoutingDiscoverySession
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    unsigned int _endpointFeatures;
-    unsigned int _discoveryMode;
-    NSDate *_discoveryModeDate;
-    NSArray *_distantEndpoints;
-    NSArray *_distantOutputDevices;
-    NSString *_routingContextUID;
-    int _serviceResetNotifyToken;
-    _Bool _hostedRoutingConnectionDidInitialize;
-    NSDate *_hostedRoutingConnectionDate;
-    NSArray *_notificationTokens;
-    id <MRActivityTracker> _discoveryTracker;
-    NSXPCConnection *_hostedRoutingSessionConnection;
-    MRAVLocalEndpoint *_localEndpoint;
-    MRAVDistantEndpoint *_distantLocalEndpoint;
 }
 
 + (id);
-+ (id);
++ (id)';
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
@@ -55,30 +25,35 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)SnippetName;
+- (void)e.siri.keychain.DynamiteClientState;
 - (id);
 - (unsigned int);
 - (id);
 - (void);
 - (id);
-- (_Bool)airedDeviceSync: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasPairedDeviceSync: /* Error: Ran out of types for this method. */;
 - (id)olumeControlCapabilitiesDidChangeMessageProtobuf",&,N,V_volumeControlCapabilitiesDidChangeMessage;
 - (void)terName;
 - (unsigned int)Device volumeCapabilities changed <%{public}@> to <%{public}@>. Endpoint=<%@>;
 - (id)requestedArtworkFormats;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *distantEndpoints;
-@property(retain, nonatomic) MRAVDistantEndpoint *distantLocalEndpoint; // @synthesize distantLocalEndpoint=_distantLocalEndpoint;
-@property(readonly, nonatomic) NSArray *distantOutputDevices;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXPCConnection *hostedRoutingSessionConnection; // @synthesize hostedRoutingSessionConnection=_hostedRoutingSessionConnection;
-@property(retain, nonatomic) MRAVLocalEndpoint *localEndpoint; // @synthesize localEndpoint=_localEndpoint;
-@property(readonly) Class superclass;
 
 @end
 

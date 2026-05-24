@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_os_log;
-
 @interface CLSRegionItemCacheUpdater
 {
     _Bool _simulatesTimeout;
-    NSObject<OS_os_log> *_loggingConnection;
-    double _timeoutInterval;
-    unsigned long long _numberOfRetries;
-    NSArray *_queryPerformers;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)!;
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id)ù
@@ -32,11 +25,7 @@
 - (double):8Q16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(nonatomic) unsigned long long numberOfRetries; // @synthesize numberOfRetries=_numberOfRetries;
-@property(readonly, nonatomic) NSArray *queryPerformers; // @synthesize queryPerformers=_queryPerformers;
 @property(nonatomic, getter=isSimulatingTimeout) _Bool simulatesTimeout; // @synthesize simulatesTimeout=_simulatesTimeout;
-@property(nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
 
 @end
 

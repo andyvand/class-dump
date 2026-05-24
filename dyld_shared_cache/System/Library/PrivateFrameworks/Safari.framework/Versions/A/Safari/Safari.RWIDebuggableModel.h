@@ -7,12 +7,6 @@
 @interface Safari.RWIDebuggableModel
 {
     id liveDebuggable;
-    id application;
-    id delegate;
-    id id;
-    id _displayName;
-    id _uuid;
-    id _$observationRegistrar;
 }
 
 @end

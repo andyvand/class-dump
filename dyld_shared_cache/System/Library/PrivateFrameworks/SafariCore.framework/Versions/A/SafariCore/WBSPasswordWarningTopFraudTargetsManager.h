@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void)_updateLayerEffect:withPageTransform: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)A×!°Dù±X°1Â0@ù
 × ;

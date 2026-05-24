@@ -7,23 +7,19 @@
 @interface _DASInternalPolicyEvaluationMetadata
 {
     double _score;
-    long long _reason;
-    long long _decision;
 }
 
 + (id);
 - (void);
 - (id);
 - (long long);
-- (long long);
-- (void);
+- (long long)ZN8Espresso3AOT25AOTCompilerOptionsManager4Impl13AddOptionImplIfEEvRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_NS1_10OptionTypeENS4_8optionalISB_EESF_SC_EUlRNS0_18AOTCompilerOptionsERKN7cxxopts11OptionValueEE_;
+- (void)_끴;
 - (id);
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long decision; // @synthesize decision=_decision;
-@property(nonatomic) long long reason; // @synthesize reason=_reason;
 @property(nonatomic) double score; // @synthesize score=_score;
 
 @end

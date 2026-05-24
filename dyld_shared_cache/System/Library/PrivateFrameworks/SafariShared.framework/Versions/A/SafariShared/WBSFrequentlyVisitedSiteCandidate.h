@@ -9,18 +9,16 @@
 @interface WBSFrequentlyVisitedSiteCandidate
 {
     float _score;
-    WBSHistoryItem *_historyItem;
 }
 
 + (id);
 - (id);
 - (id);
-- (float);
+- (float);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WBSHistoryItem *historyItem; // @synthesize historyItem=_historyItem;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
 
 @end
 

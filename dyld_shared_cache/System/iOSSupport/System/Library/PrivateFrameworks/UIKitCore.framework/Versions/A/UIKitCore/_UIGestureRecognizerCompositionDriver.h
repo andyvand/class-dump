@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIGestureRecognizerDriver.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIGestureRecognizerCompositionDriver : _UIGestureRecognizerDriver
@@ -17,27 +17,21 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
+- (id)index;
+- (void)%@ to %@;
+- (void)runConcurrentlyWithRequestThrottle: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)e;
-- (void)tInfoDidInvalidateUntransformedFrame:(id)arg1;
-- (void)hStyle:(id)arg1;
-- (void)acentBarEdges;
+- (void)m_caretVisible;
+- (void)_sheetLayoutInfoDidInvalidateUntransformedFrame:(id)arg1;
+- (void)_configureWithStyle:(id)arg1;
+- (void)__adjacentBarEdges;
 - (_Bool)temStackEntry",R,N;
 - (void);
 - (void)z×L[;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UISegmentedControl, _PKInkThicknessPicker;
-
 @interface PKPaletteErasingAttributesView
 {
     _Bool _hideWeightPicker;
-    UISegmentedControl *_segmentedControl;
-    _PKInkThicknessPicker *_thicknessPicker;
-    NSArray *_hiddenThicknessPickerConstraints;
-    NSArray *_visibleThicknessPickerConstraints;
 }
 
 - (id);
@@ -27,19 +21,14 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (struct CGSize);
 - (_Bool);
-- (id);
-- (void)inerViewDelegate;
+- (id)!;
+- (void)PKTextInputContainerViewDelegate;
 
 // Remaining properties
 @property(nonatomic) long long eraserType;
-@property(retain, nonatomic) NSArray *hiddenThicknessPickerConstraints; // @synthesize hiddenThicknessPickerConstraints=_hiddenThicknessPickerConstraints;
-@property(nonatomic) _Bool hideWeightPicker; // @synthesize hideWeightPicker=_hideWeightPicker;
-@property(retain, nonatomic) UISegmentedControl *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property(retain, nonatomic) _PKInkThicknessPicker *thicknessPicker; // @synthesize thicknessPicker=_thicknessPicker;
-@property(retain, nonatomic) NSArray *visibleThicknessPickerConstraints; // @synthesize visibleThicknessPickerConstraints=_visibleThicknessPickerConstraints;
 
 @end
 

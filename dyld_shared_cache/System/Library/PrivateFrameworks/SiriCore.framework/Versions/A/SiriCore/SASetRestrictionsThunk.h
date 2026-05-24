@@ -9,8 +9,8 @@
     CDUnknownBlockType _thunk;
 }
 
-- (void);
-- (id);
+- (void)NSDictionary"16;
+- (id)gathered;
 - (id);
 - (void);
 

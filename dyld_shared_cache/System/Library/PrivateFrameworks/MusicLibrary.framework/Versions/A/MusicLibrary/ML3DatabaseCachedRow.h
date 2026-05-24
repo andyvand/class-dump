@@ -16,12 +16,12 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (const char *);
 - (double);
 - (id);
 - (const char *);
-- (id);
+- (id)BuiltInLM.TextSegmentCardinalNumber} lines;
 - (id);
 - (id);
 - (id);
@@ -36,7 +36,7 @@
 - (long long);
 - (int)Ô1;
 - (int)shared_ptrI13ML3ImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
-- (id)abaseImportDataSourceNS_10shared_ptrI27ML3DatabaseImportDataSourceE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
+- (id)NSt3__120__shared_ptr_pointerIP33ML3PersonDatabaseImportDataSourceNS_10shared_ptrI27ML3DatabaseImportDataSourceE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
 - (double);
 
 @end

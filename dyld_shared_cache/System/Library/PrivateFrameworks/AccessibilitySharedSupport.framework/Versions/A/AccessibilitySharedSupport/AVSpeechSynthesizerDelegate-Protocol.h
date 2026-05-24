@@ -5,5 +5,9 @@
 //
 
 @protocol AVSpeechSynthesizerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

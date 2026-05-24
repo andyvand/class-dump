@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface WAQueuedInvocation
 {
     NSInvocation *_invocation;
-    CDUnknownBlockType _reply;
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void)(;
 - (void);
 - (id);
-- (void)re:(CDUnknownBlockType)arg1;
+- (void)compare:(CDUnknownBlockType)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) NSInvocation *invocation; // @synthesize invocation=_invocation;
-@property(copy, nonatomic) CDUnknownBlockType reply; // @synthesize reply=_reply;
 
 @end
 

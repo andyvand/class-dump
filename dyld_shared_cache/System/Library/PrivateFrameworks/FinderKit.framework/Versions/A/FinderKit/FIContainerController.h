@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FIContainerController : FI_TBrowserContainerController
 {
     unsigned long long _mediaBrowserShownTypes;
-    TNSWeakPtr_db0eab6c fTelemetryToken;
-    _Bool _historyDisabled;
 }
 
 + (unsigned long long);
@@ -23,31 +21,31 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (struct TFENode);
+- (_Bool)';
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (struct TFENodeVector);
 - (_Bool);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)d;
+- (_Bool)9m;
 - (id);
 - (void);
 - (void);
@@ -57,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (Class);
@@ -73,19 +71,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)MMessageRepository",&,N,V_messageRepository;
+- (void)SDySSSo8NSNumberCG;
 - (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool){CGSize=dd}32@?48;
+- (_Bool);
 - (id);
 - (void)À¨;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool downloadsUbiquitousContents;
 @property(nonatomic) _Bool historyDisabled; // @synthesize historyDisabled=_historyDisabled;
-@property(nonatomic) unsigned long long mediaBrowserShownTypes; // @synthesize mediaBrowserShownTypes=_mediaBrowserShownTypes;
 
 @end
 

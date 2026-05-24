@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPrototype
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_componentType;
-    NSMutableArray *_values;
-    NSString *_version;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_componentType:1;
-        unsigned int read_values:1;
-        unsigned int read_version:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)_setupForJarvisIfNeededWithPrepareCompletion:completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)(;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)?@"GEOSpatialEventLookupResult"@"NSError">24;
-- (id)yMuids;
+- (id)_mapsAltCategoryMuids;
 - (id)èýþdÿ$;
 - (void);
 

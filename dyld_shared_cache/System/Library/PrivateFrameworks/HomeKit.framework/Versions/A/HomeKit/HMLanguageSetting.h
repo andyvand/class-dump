@@ -13,16 +13,16 @@
     HMSettingLanguageValue *_languageValue;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)obscurantism;
 - (id);
 - (void);
 

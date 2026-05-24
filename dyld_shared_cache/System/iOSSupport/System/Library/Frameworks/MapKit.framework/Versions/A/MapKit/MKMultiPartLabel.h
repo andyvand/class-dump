@@ -4,47 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMultiPartAttributedString, NSDictionary, NSString, UIColor, UIFont, UITextView, _MKMultiPartLabelMetrics;
+@class UITextView, _MKMultiPartLabelMetrics;
 
 @interface MKMultiPartLabel
 {
     UITextView *_textView;
-    struct CGRect _previousBounds;
-    NSDictionary *_cachedTextAttributes;
-    NSDictionary *_lastAppliedNonColorAttributes;
-    _Bool _highlighted;
-    MKMultiPartAttributedString *_multiPartString;
-    UIFont *_font;
-    UIColor *_textColor;
-    long long _textAlignment;
-    UIColor *_highlightedTextColor;
-    _MKMultiPartLabelMetrics *_data;
 }
 
 + (id);
 - (void);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (void)WTF:(float)arg1:(long long)arg2 DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)Traits<uint64_t>, unsigned long long>, unsigned long long>>, WTF:(float)arg1:(long long)arg2 DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, unsigned long long>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)9;
 - (id);
 - (id);
 - (id);
 - (id);
+- (struct CGSize)	;
+- (void);
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (struct CGSize);
 - (id);
 - (void);
+- (id)	;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -55,28 +45,18 @@
 - (id);
 - (void)Ð1Â0@ù
 × ;
-- (long long)conForStyleAttributes:contentScale:size:transparent: /* Error: Ran out of types for this method. */;
-- (void)nateTest;
-- (id)parameters;
-- (void)hasSentFeedbackForCompletion;
+- (long long)iconForStyleAttributes:contentScale:size:transparent: /* Error: Ran out of types for this method. */;
+- (void)annotationCoordinateTest;
+- (id)_parameters;
+- (void)_hasSentFeedbackForCompletion;
 - (_Bool)ributedString",&,N,V_string;
 - (void)ibution",R,N,G_reviewsAttribution;
-- (long long)ctOriginY;
+- (long long)mapRectOriginY;
 - (unsigned long long)added;
 - (void)õ6» 	;
 
 // Remaining properties
 @property(retain, nonatomic) _MKMultiPartLabelMetrics *data; // @synthesize data=_data;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UIColor *highlightedTextColor; // @synthesize highlightedTextColor=_highlightedTextColor;
-@property(nonatomic) long long lineBreakMode;
-@property(retain, nonatomic) MKMultiPartAttributedString *multiPartString; // @synthesize multiPartString=_multiPartString;
-@property(nonatomic) unsigned long long numberOfLines;
-@property(retain, nonatomic) NSString *text;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(retain, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
-@property(nonatomic) struct UIEdgeInsets textInset;
 
 @end
 

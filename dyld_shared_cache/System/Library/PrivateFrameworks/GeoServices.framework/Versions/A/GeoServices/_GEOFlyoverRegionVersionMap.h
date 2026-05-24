@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _GEOFlyoverRegionVersionMap
 {
     GEOFlyoverRegionVersions *_versions;
-    struct unordered_map<unsigned int, unsigned long, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long>>> _regionToIndex;
 }
 
 - (struct GEOFlyoverRegion *);

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIFluidSliderDiscreteButtonDriverSettings, _UIFluidSliderElasticPanDriverSettings, _UISpringAnimationPrototypeSettings;
+@class _UISpringAnimationPrototypeSettings;
 
 __attribute__((visibility("hidden")))
 @interface _UIFluidSliderSettings
 {
     _UISpringAnimationPrototypeSettings *_programmaticUpdate;
-    _UISpringAnimationPrototypeSettings *_pressScale;
-    double _sliderDriftFactor;
-    double _sliderStepCount;
-    double _defaultStretchAmount;
-    double _squishFactor;
-    double _minSquishPoints;
-    _UIFluidSliderElasticPanDriverSettings *_elasticPanDriverSettings;
-    _UIFluidSliderDiscreteButtonDriverSettings *_discreteButtonDriverSettings;
 }
 
 + (id);
@@ -32,26 +24,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setVersion: /* Error: Ran out of types for this method. */;
+- (id)setRemovedFromBackup: /* Error: Ran out of types for this method. */;
+- (id)_shouldForceSensitivityResult;
+- (id)_populateAttachmentInfo:fromFileTransferGUIDs:transferInfoProvider:completionBlock: /* Error: Ran out of types for this method. */;
+- (double)_haveRecentUrgentMessageInGracePeriodForChat: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (double);
-- (void)ormer;
+- (double);
+- (void)sectionDecorationLayoutAttributesTransformer;
 - (void)ãÉÔ×[;
 
 // Remaining properties
-@property(nonatomic) double defaultStretchAmount; // @synthesize defaultStretchAmount=_defaultStretchAmount;
-@property(retain, nonatomic) _UIFluidSliderDiscreteButtonDriverSettings *discreteButtonDriverSettings; // @synthesize discreteButtonDriverSettings=_discreteButtonDriverSettings;
-@property(retain, nonatomic) _UIFluidSliderElasticPanDriverSettings *elasticPanDriverSettings; // @synthesize elasticPanDriverSettings=_elasticPanDriverSettings;
-@property(nonatomic) double minSquishPoints; // @synthesize minSquishPoints=_minSquishPoints;
-@property(retain, nonatomic) _UISpringAnimationPrototypeSettings *pressScale; // @synthesize pressScale=_pressScale;
 @property(retain, nonatomic) _UISpringAnimationPrototypeSettings *programmaticUpdate; // @synthesize programmaticUpdate=_programmaticUpdate;
-@property(nonatomic) double sliderDriftFactor; // @synthesize sliderDriftFactor=_sliderDriftFactor;
-@property(nonatomic) double sliderStepCount; // @synthesize sliderStepCount=_sliderStepCount;
-@property(nonatomic) double squishFactor; // @synthesize squishFactor=_squishFactor;
 
 @end
 

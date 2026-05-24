@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (int);
+- (int)I;
 - (int);
 - (int)ÿÿ2;
 

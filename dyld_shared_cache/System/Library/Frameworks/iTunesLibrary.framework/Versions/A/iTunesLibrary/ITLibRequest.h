@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITLibModelKind, NSArray;
+@class ITLibModelKind;
 
 @interface ITLibRequest
 {
     unsigned long long _ampMediaKinds;
-    _Bool _needsTitledSections;
-    ITLibModelKind *_libModelKindItem;
-    ITLibModelKind *_libModelKindSection;
-    NSArray *_allowedItemIdentifierSets;
-    NSArray *_allowedSectionIdentifierSets;
-    NSArray *_scopedContainers;
-    NSArray *_itemSortDescriptors;
-    NSArray *_sectionSortDescriptors;
-    unsigned long long _filteringOptions;
-    NSArray *_itemPropertyFilters;
-    NSArray *_sectionPropertyFilters;
-    NSArray *_allowedItemIdentifiers;
-    NSArray *_allowedSectionIdentifiers;
-    struct _NSRange _contentRange;
 }
 
 - (id);
@@ -51,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -67,21 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allowedItemIdentifierSets; // @synthesize allowedItemIdentifierSets=_allowedItemIdentifierSets;
-@property(copy, nonatomic) NSArray *allowedItemIdentifiers; // @synthesize allowedItemIdentifiers=_allowedItemIdentifiers;
-@property(copy, nonatomic) NSArray *allowedSectionIdentifierSets; // @synthesize allowedSectionIdentifierSets=_allowedSectionIdentifierSets;
-@property(copy, nonatomic) NSArray *allowedSectionIdentifiers; // @synthesize allowedSectionIdentifiers=_allowedSectionIdentifiers;
-@property(nonatomic) struct _NSRange contentRange; // @synthesize contentRange=_contentRange;
-@property(nonatomic) unsigned long long filteringOptions; // @synthesize filteringOptions=_filteringOptions;
-@property(copy, nonatomic) NSArray *itemPropertyFilters; // @synthesize itemPropertyFilters=_itemPropertyFilters;
-@property(copy, nonatomic) NSArray *itemSortDescriptors; // @synthesize itemSortDescriptors=_itemSortDescriptors;
 @property(retain, nonatomic) ITLibModelKind *libModelKindItem; // @synthesize libModelKindItem=_libModelKindItem;
-@property(retain, nonatomic) ITLibModelKind *libModelKindSection; // @synthesize libModelKindSection=_libModelKindSection;
-@property(readonly, nonatomic) unsigned long long mediaKinds;
-@property(nonatomic) _Bool needsTitledSections; // @synthesize needsTitledSections=_needsTitledSections;
-@property(copy, nonatomic) NSArray *scopedContainers; // @synthesize scopedContainers=_scopedContainers;
-@property(copy, nonatomic) NSArray *sectionPropertyFilters; // @synthesize sectionPropertyFilters=_sectionPropertyFilters;
-@property(copy, nonatomic) NSArray *sectionSortDescriptors; // @synthesize sectionSortDescriptors=_sectionSortDescriptors;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _NSTextFormattingViewControllerConfiguration;
+
 @protocol AppKit._NSTextFormattingResponder
+- (_NSTextFormattingViewControllerConfiguration *)ze"q"st_blocks"q"st_blksize"i"st_flags"I"st_gen"I"st_lspare"i"st_qspare"[2q]};
 @end
 

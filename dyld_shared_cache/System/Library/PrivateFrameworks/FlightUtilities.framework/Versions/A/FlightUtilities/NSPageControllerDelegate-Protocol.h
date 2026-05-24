@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, NSViewController;
+
 @protocol NSPageControllerDelegate
+
+@optional
+- (void);
+- (NSViewController *)n;
+- (void)@Nh;
+- (NSString *)Ϥ;
 @end
 

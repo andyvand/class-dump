@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CTSimHardwareInfo
 {
     long long _hardwareType;
-    long long _simLocation;
 }
 
-+ (_Bool);
++ (_Bool)anges must be an instance of %@;
 - (long long);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)lockoutState:(id)arg1;
 - (void);
-- (void);
-- (id);
+- (id)Fk;
 - (id);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ct_shortDescription;
-@property(readonly, nonatomic) NSString *ct_shortName;
 @property(nonatomic) long long hardwareType; // @synthesize hardwareType=_hardwareType;
-@property(nonatomic) long long simLocation; // @synthesize simLocation=_simLocation;
 
 @end
 

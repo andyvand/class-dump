@@ -5,5 +5,6 @@
 //
 
 @protocol NSAccessibilityElement
+- (id);
 @end
 

@@ -11,7 +11,7 @@
     double mOffset;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

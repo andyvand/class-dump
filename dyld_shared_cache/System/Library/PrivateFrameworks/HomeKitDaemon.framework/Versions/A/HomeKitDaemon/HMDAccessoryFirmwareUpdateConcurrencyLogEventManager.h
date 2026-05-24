@@ -4,42 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEventCountersManager, NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateConcurrencyLogEventManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_currentActivity;
-    NSMutableArray *_peakActivity;
-    NSMutableDictionary *_inProgress;
-    HMDEventCountersManager *_countersManager;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)initWithNibName:(id)arg1 bundle: /* Error: Ran out of types for this method. */;
+- (id)h %s  destlen %lu;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)B;
+- (unsigned long long)0;
 - (void);
 - (id);
 - (void);
 - (id)EùqÐ1Â0@ù
 × ;
 - (void)inkDevice";
-- (void)nfiguration:(id)arg1;
-- (void)ta;
+- (void)updateVideoConfiguration:(id)arg1;
+- (void)prepareMetadata;
 - (void);
 - (void)try callback for region %@;
 - (void)@^=;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDEventCountersManager *countersManager; // @synthesize countersManager=_countersManager;
 @property(retain, nonatomic) NSMutableArray *currentActivity; // @synthesize currentActivity=_currentActivity;
-@property(retain, nonatomic) NSMutableDictionary *inProgress; // @synthesize inProgress=_inProgress;
-@property(retain, nonatomic) NSMutableArray *peakActivity; // @synthesize peakActivity=_peakActivity;
 
 @end
 

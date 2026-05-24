@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUndoManager, PXContentPrivacyController, PXSectionedChangeDetailsRepository, PXSelectionSnapshot;
-@protocol PXAssetsDataSourceContainer, PXDisplayCollection, PXDisplayCollectionFetcher, PXFastEnumeration;
+@protocol PXFastEnumeration;
 
 @interface PXSelectionContainer
 {
     id <PXFastEnumeration> _selectedObjects;
-    id <PXFastEnumeration> _allDataSourceObjects;
-    PXSelectionSnapshot *_selectionSnapshot;
-    id <PXDisplayCollection> _collection;
-    id <PXAssetsDataSourceContainer> _assetsContainer;
-    id <PXDisplayCollectionFetcher> _collectionFetcher;
-    PXSectionedChangeDetailsRepository *_changeHistory;
-    NSUndoManager *_undoManager;
-    long long _context;
-    PXContentPrivacyController *_privacyController;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id)!;
+- (id)!;
+- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)R!;
 - (id);
 - (id);
 - (_Bool);
@@ -62,7 +52,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)U;
 - (id);
 - (id);
 - (id);
@@ -76,34 +66,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXFastEnumeration> allDataSourceObjects; // @synthesize allDataSourceObjects=_allDataSourceObjects;
-@property(readonly, nonatomic) _Bool allowImplicitSelectionForProjectsOrSharing;
-@property(readonly, nonatomic) id <PXAssetsDataSourceContainer> assetsContainer; // @synthesize assetsContainer=_assetsContainer;
-@property(readonly, nonatomic) PXSectionedChangeDetailsRepository *changeHistory; // @synthesize changeHistory=_changeHistory;
-@property(readonly, nonatomic) id <PXDisplayCollection> collection; // @synthesize collection=_collection;
-@property(readonly, nonatomic) __weak id <PXDisplayCollectionFetcher> collectionFetcher; // @synthesize collectionFetcher=_collectionFetcher;
-@property(readonly, nonatomic) _Bool containsAssetsWithNonEditableProperties;
-@property(readonly, nonatomic) _Bool containsContentSyndicationAssets;
-@property(readonly, nonatomic) _Bool containsMemories;
-@property(readonly, nonatomic) _Bool containsNonContentSyndicationAssets;
-@property(readonly, nonatomic) _Bool containsPeople;
-@property(readonly, nonatomic) _Bool containsRAWAssets;
-@property(readonly, nonatomic) _Bool containsRAWPlusJPEGAssets;
-@property(readonly, nonatomic) _Bool containsReferencedFileAssets;
-@property(readonly, nonatomic) _Bool containsSensitiveAssets;
-@property(readonly, nonatomic) _Bool containsSpatialAssets;
-@property(readonly, nonatomic) _Bool containsSpatialVideoAssets;
-@property(readonly, nonatomic) _Bool containsUnsavedContentSyndicationAssets;
-@property(readonly, nonatomic) long long context; // @synthesize context=_context;
-@property(readonly, nonatomic) _Bool hasExplicitSelection;
-@property(readonly, nonatomic) PXContentPrivacyController *privacyController; // @synthesize privacyController=_privacyController;
-@property(readonly, nonatomic) id <PXFastEnumeration> selectedContainedAssets;
-@property(readonly, nonatomic) id <PXFastEnumeration> selectedContainedAssetsForProjectsOrSharing;
-@property(readonly, nonatomic) id <PXFastEnumeration> selectedObjects; // @synthesize selectedObjects=_selectedObjects;
 @property(readonly, nonatomic) long long selectionCount;
-@property(readonly, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end
 

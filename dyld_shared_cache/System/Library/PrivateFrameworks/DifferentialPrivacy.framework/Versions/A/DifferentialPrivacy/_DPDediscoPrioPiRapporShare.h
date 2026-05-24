@@ -7,8 +7,6 @@
 @interface _DPDediscoPrioPiRapporShare
 {
     id prioShare;
-    id numberOfEncodedIndices;
-    id piRapporOtherPhi;
 }
 
 - (id);

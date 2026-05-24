@@ -11,14 +11,13 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)_CFURLConnectionSetFrameworkStubs;
 - (id)pen files of this type.;
 - (id)ÿJÝF;
 - (_Bool)|ÿ¢	;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeKeyWindow;
-@property(nonatomic, readonly) _Bool canBecomeMainWindow;
 
 @end
 

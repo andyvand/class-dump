@@ -9,10 +9,6 @@
 @interface RemindersUICore.TTRShowCompletedByDateBucketsDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id store;
-    id countCompleted;
-    id tipKitContextInstance;
-    id dataViewMonitor;
 }
 
 @end

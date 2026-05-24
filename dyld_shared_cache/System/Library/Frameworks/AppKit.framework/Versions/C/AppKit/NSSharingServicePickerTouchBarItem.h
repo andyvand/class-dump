@@ -6,15 +6,11 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSPopoverTouchBarItem, NSString, NSTouchBarSharingServicePickerViewController;
-@protocol NSSharingServicePickerTouchBarItemDelegate;
+@class NSPopoverTouchBarItem;
 
 @interface NSSharingServicePickerTouchBarItem : NSTouchBarItem
 {
     NSPopoverTouchBarItem *_internalPopoverItem;
-    NSTouchBarSharingServicePickerViewController *_pickerViewController;
-    NSString *_customizationLabel;
-    id <NSSharingServicePickerTouchBarItemDelegate> _delegate;
 }
 
 @end

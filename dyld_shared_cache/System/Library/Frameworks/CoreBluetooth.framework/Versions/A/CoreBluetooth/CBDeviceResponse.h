@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CBDeviceResponse
 {
     unsigned char _btBand;
-    BOOL _core0TargetPower;
-    BOOL _core1TargetPower;
-    BOOL _currentPCAP;
-    BOOL _rssi;
-    BOOL _txPower;
-    BOOL _txPowerMax;
-    unsigned short _connectionHandle;
-    unsigned int _sniffInterval;
-    NSString *_identifier;
 }
 
 - (BOOL);
 - (unsigned int);
-- (void);
-- (void);
+- (void)a!;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,13 +23,13 @@
 - (unsigned char);
 - (void);
 - (BOOL);
-- (unsigned short);
+- (unsigned short)EU;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)fp_isCiconiaDomain;
 - (id);
 - (BOOL);
 - (void);
@@ -49,15 +38,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned char btBand; // @synthesize btBand=_btBand;
-@property(nonatomic) unsigned short connectionHandle; // @synthesize connectionHandle=_connectionHandle;
-@property(nonatomic) BOOL core0TargetPower; // @synthesize core0TargetPower=_core0TargetPower;
-@property(nonatomic) BOOL core1TargetPower; // @synthesize core1TargetPower=_core1TargetPower;
-@property(nonatomic) BOOL currentPCAP; // @synthesize currentPCAP=_currentPCAP;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) BOOL rssi; // @synthesize rssi=_rssi;
-@property(nonatomic) unsigned int sniffInterval; // @synthesize sniffInterval=_sniffInterval;
-@property(nonatomic) BOOL txPower; // @synthesize txPower=_txPower;
-@property(nonatomic) BOOL txPowerMax; // @synthesize txPowerMax=_txPowerMax;
 
 @end
 

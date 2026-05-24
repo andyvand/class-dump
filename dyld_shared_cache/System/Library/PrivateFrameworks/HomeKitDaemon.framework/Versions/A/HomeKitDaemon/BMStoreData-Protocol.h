@@ -9,7 +9,7 @@
 @protocol BMStoreData
 
 @optional
-- (NSData *)tupSessionIdentifier;
+- (NSData *)controllerSetupSessionIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int dataVersion;

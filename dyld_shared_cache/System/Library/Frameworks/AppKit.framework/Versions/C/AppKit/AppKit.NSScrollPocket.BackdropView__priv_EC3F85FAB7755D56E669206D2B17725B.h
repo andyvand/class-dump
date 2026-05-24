@@ -9,14 +9,13 @@
 @interface AppKit.NSScrollPocket.BackdropView__priv_EC3F85FAB7755D56E669206D2B17725B : NSView
 {
     id _luma;
-    id _lumaIsProtected;
 }
 
-- (id);
+- (id)e in an error state with no error and no connection;
+- (void)CFHTTPCookieGetExpirationTime_block_invoke;
 - (void);
-- (void);
 - (id);
-- (id)tMatch:(struct CGRect)arg1;
+- (id)_startIncrementalSearchShowingFirstMatch:(struct CGRect)arg1;
 - (void)@^E;
 
 @end

@@ -5,6 +5,6 @@
 //
 
 @protocol SXBookmarkManager
-- (void)eshold_override;
+- (void)loose_layouting_threshold_override;
 @end
 

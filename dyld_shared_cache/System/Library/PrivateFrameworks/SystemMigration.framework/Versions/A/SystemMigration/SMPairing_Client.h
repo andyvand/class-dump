@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
-@protocol SMDPairingProtocol, SMPairingEventsListener;
+@protocol SMPairingEventsListener;
 
 @interface SMPairing_Client
 {
     id <SMPairingEventsListener> _delegate;
-    NSXPCConnection *_connection;
-    NSXPCInterface *_exportedInterface;
-    id <SMDPairingProtocol> _daemon;
 }
 
 + (_Bool);
@@ -24,26 +20,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)վ;
 - (id);
 - (void);
 - (void)Áð!GùÑ	°1Â0@ù
 × ;
-- (id)nalyzer: /* Error: Ran out of types for this method. */;
+- (id)verifyWindowsAnalyzer: /* Error: Ran out of types for this method. */;
 - (void)onary",&,V_allEstablishedConnections;
-- (void)nts;
+- (void)_scannerClients;
 - (void)Could not create directory %@; (%@);
 
 // Remaining properties
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain) id <SMDPairingProtocol> daemon; // @synthesize daemon=_daemon;
 @property __weak id <SMPairingEventsListener> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation;
-
 @protocol MKAnnotationPrivate
 
 @optional
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CLLocation *location;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CLLocation",?,&,N
-
 @property(readonly, nonatomic) long long representation;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?,R,N

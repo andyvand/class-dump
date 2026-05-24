@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PGSchemaPGGeneratePlanEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)b;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)t an invalid IDs uncanon:(id)arg1 (%@) canon:(%@) in %s. /* Error: Ran out of types for this method. */;
 - (id);
 - (id)!øBùÝð1Â0@ù
 × ;
 - (id)_hasPgOverridesAssetVersion;
 - (id)AvailableAssetDailyStatus;
-- (_Bool)ELLED;
+- (_Bool)INFERENCECONFIRMATIONRESOLUTIONTYPE_CANCELLED;
 - (_Bool)Úæ9æ>;
 - (void)ø;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface RBDecodedFontMetadata
 {
     struct cf_ptr<const __CFString *> _uid;
-    struct cf_ptr<const __CFDictionary *> _glyph_map;
 }
 
 - (id);

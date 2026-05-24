@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SOAudioDevice
 {
     unsigned int _audioDeviceID;
-    NSString *_identifier;
-    NSString *_manufacturer;
-    NSString *_name;
-    float _balance;
-    float _level;
-    float _hwLevelRight;
-    float _hwLevelLeft;
-    unsigned int _prevSource;
-    unsigned int _channelCount;
-    unsigned int _streamCount;
-    _Bool _isInput;
-    _Bool _isBuiltInAudio;
-    _Bool _isBluetoothAudio;
-    _Bool _ownsAudioConnection;
-    _Bool _isContinuityAudio;
-    _Bool _channelCountComputed;
-    _Bool _isActive;
-    _Bool _hasMaster;
-    _Bool _hasLevel;
-    _Bool _hasBalance;
-    _Bool _hasMute;
-    _Bool _allInputStreamsMixable;
-    _Bool _showFakeDigitalItem;
 }
 
 - (void);
@@ -48,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -58,36 +33,36 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (float);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (unsigned int);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (unsigned int);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (unsigned int)t,%hhu;
 - (void);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (float);
+- (void)0;
+- (float)boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>>, pf::SceneGeographyNode>>, long, unsigned long, 0UL>=(offset_ptr_internal<unsigned long, 0UL>=Q(aligned_struct_wrapper<8UL, 1UL>={aligned_struct<8UL, 1UL>=[8C]}[8C]))}}24@0:8@16 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -96,7 +71,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)eferences;
+- (id)DSRPreferences;
 - (float);
 
 @end

@@ -9,12 +9,10 @@
 @interface NewsSubscription.OfferIdentifierProvider
 {
     id offerManager;
-    id observers;
-    id didProcessInitialOffer;
 }
 
 - (id);
-- (id);
+- (id)ll initWithTrianglePoints:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

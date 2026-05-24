@@ -7,8 +7,6 @@
 @interface TeaCharts.ColumnChartRenderer
 {
     id imageLoader;
-    id animationSynchronizer;
-    id reuseProtector;
 }
 
 @end

@@ -6,18 +6,12 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSColor, NSColorPanel, NSString, NSURL;
+@class NSColor, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSLegacyExternalColorPickerHostViewController : NSViewController
 {
     NSURL *_bundleURL;
-    unsigned long long _initialMask;
-    _Bool _firstLoad;
-    NSColorPanel *_colorPanel;
-    _Bool _isActivePicker;
-    NSColor *_currentColor;
-    int _architecture;
 }
 
 + (void);
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)le.alf.plist;
 - (id);
 - (id);
 - (void);
@@ -36,10 +30,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void)addObserver:(id)arg1 forKeyPath:options:context: /* Error: Ran out of types for this method. */;
+- (id)backgroundSession;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -48,17 +42,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void)}16^{CGSize=dd}24^{CGSize=dd}32B40;
-- (void)hForEvent: /* Error: Ran out of types for this method. */;
+- (void)_shouldAllowClickThroughForEvent: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(copy, setter=_setCurrentColor:) NSColor *_currentColor; // @synthesize _currentColor;
-@property _Bool isActivePicker;
-@property(readonly, copy) NSString *pickerIdentifier;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

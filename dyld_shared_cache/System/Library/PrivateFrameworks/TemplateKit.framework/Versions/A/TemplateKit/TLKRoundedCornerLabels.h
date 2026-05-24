@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface TLKRoundedCornerLabels : TLKStackView
 {
     NSMutableArray *_roundedLabels;
-    unsigned long long _prominence;
-    unsigned long long _sizeConfiguration;
 }
 
 - (void);
@@ -21,15 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (void);
-- (unsigned long long)phs;
+- (unsigned long long)overlayLabelForColoredGlyphs;
 
 // Remaining properties
-@property(nonatomic) unsigned long long prominence; // @synthesize prominence=_prominence;
 @property(retain, nonatomic) NSMutableArray *roundedLabels; // @synthesize roundedLabels=_roundedLabels;
-@property(nonatomic) unsigned long long sizeConfiguration; // @synthesize sizeConfiguration=_sizeConfiguration;
 
 @end
 

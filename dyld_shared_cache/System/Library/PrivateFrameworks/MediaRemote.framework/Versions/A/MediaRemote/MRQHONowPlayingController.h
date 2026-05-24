@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVEndpoint, MRAVEndpointObserver, MRArtwork, MRClient, MRNowPlayingPlayerResponse, MRPlayer, MRPlayerPath, NSMutableArray, NSObject, NSString;
-@protocol MRQHONowPlayingControllerDelegate, OS_dispatch_queue;
+@class MRNowPlayingPlayerResponse;
 
 __attribute__((visibility("hidden")))
 @interface MRQHONowPlayingController
 {
     _Bool _registeredForNotifications;
-    _Bool _registeredForEndpointChanges;
-    _Bool _registeredForPlayerPathInvalidations;
-    _Bool _updateLoadingEnabled;
-    _Bool _requestingQueue;
-    NSString *_uid;
-    MRClient *_client;
-    MRPlayer *_player;
-    id <MRQHONowPlayingControllerDelegate> _delegate;
-    MRNowPlayingPlayerResponse *_response;
-    MRPlayerPath *_unresolvedPlayerPath;
-    MRPlayerPath *_resolvedPlayerPath;
-    MRAVEndpoint *_endpoint;
-    id _playerPathInvalidationObserver;
-    MRAVEndpointObserver *_endpointObserver;
-    NSString *_endpointObserverGroupUID;
-    NSMutableArray *_deferredContentItemsToMerge;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSString *_cachedNowPlayingArtworkIdentifier;
-    MRArtwork *_cachedNowPlayingArtwork;
 }
 
 + (id);
@@ -38,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)+;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -56,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -82,14 +61,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)v56@0:8@"NSCollectionView"16@"NSDraggingSession"24{CGPoint=dd}32@"NSIndexSet"48 /* Error: Ran out of types for this method. */;
+- (id)networkStatusViewController;
 - (id);
-- (id);
+- (void)ze=dd}dBBB}32^@72;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)was_transcoded;
+- (void)ReindexSchedulingBatchDelay;
 - (_Bool);
 - (void);
 - (id);
@@ -105,9 +84,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (_Bool);
-- (void);
+- (void)roundRequest with requestInfo:%@ and AFInstanceContext:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -126,27 +105,7 @@ __attribute__((visibility("hidden")))
 - (void)ray<NSError *> *__strong));
 
 // Remaining properties
-@property(retain, nonatomic) MRArtwork *cachedNowPlayingArtwork; // @synthesize cachedNowPlayingArtwork=_cachedNowPlayingArtwork;
-@property(retain, nonatomic) NSString *cachedNowPlayingArtworkIdentifier; // @synthesize cachedNowPlayingArtworkIdentifier=_cachedNowPlayingArtworkIdentifier;
-@property(readonly, nonatomic) MRClient *client; // @synthesize client=_client;
-@property(retain, nonatomic) NSMutableArray *deferredContentItemsToMerge; // @synthesize deferredContentItemsToMerge=_deferredContentItemsToMerge;
-@property(nonatomic) __weak id <MRQHONowPlayingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(retain, nonatomic) MRAVEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(retain, nonatomic) MRAVEndpointObserver *endpointObserver; // @synthesize endpointObserver=_endpointObserver;
-@property(retain, nonatomic) NSString *endpointObserverGroupUID; // @synthesize endpointObserverGroupUID=_endpointObserverGroupUID;
-@property(readonly, nonatomic) MRPlayer *player; // @synthesize player=_player;
-@property(retain, nonatomic) id playerPathInvalidationObserver; // @synthesize playerPathInvalidationObserver=_playerPathInvalidationObserver;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool registeredForEndpointChanges; // @synthesize registeredForEndpointChanges=_registeredForEndpointChanges;
-@property(nonatomic) _Bool registeredForNotifications; // @synthesize registeredForNotifications=_registeredForNotifications;
-@property(nonatomic) _Bool registeredForPlayerPathInvalidations; // @synthesize registeredForPlayerPathInvalidations=_registeredForPlayerPathInvalidations;
-@property(nonatomic) _Bool requestingQueue; // @synthesize requestingQueue=_requestingQueue;
-@property(retain, nonatomic) MRPlayerPath *resolvedPlayerPath; // @synthesize resolvedPlayerPath=_resolvedPlayerPath;
 @property(copy, nonatomic) MRNowPlayingPlayerResponse *response; // @synthesize response=_response;
-@property(readonly, nonatomic) NSString *uid; // @synthesize uid=_uid;
-@property(retain, nonatomic) MRPlayerPath *unresolvedPlayerPath; // @synthesize unresolvedPlayerPath=_unresolvedPlayerPath;
-@property(nonatomic) _Bool updateLoadingEnabled; // @synthesize updateLoadingEnabled=_updateLoadingEnabled;
 
 @end
 

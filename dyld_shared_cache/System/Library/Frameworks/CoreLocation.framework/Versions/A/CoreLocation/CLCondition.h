@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLClientKeyPath, CLClientManagerAuthorizationContext, NSString;
-@protocol CLIntersiloUniverse;
+@class CLClientKeyPath;
 
 @interface CLCondition
 {
     _Bool _isMonitoring;
-    CLClientKeyPath *_ckp;
-    NSString *_identifier;
-    CLClientManagerAuthorizationContext *_authorizationContext;
-    CDUnknownBlockType _onConditionUpdateCallbackHandler;
-    id <CLIntersiloUniverse> _universe;
-    CLCondition *_refinement;
-    unsigned long long _lastMonitoringState;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,32 +24,24 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)createTwiddledDataFromTwiddled;
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void)('@�L;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)stageInputAttributes;
+- (id)profilingResults;
 - (id);
 - (void);
 - (void);
 - (id)oadGeometryBuffer>);
-- (_Bool)ianConnectionState;
+- (_Bool)CLDurianConnectionState;
 
 // Remaining properties
-@property(retain, nonatomic) CLClientManagerAuthorizationContext *authorizationContext; // @synthesize authorizationContext=_authorizationContext;
 @property(retain, nonatomic) CLClientKeyPath *ckp; // @synthesize ckp=_ckp;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isMonitoring; // @synthesize isMonitoring=_isMonitoring;
-@property(nonatomic) unsigned long long lastMonitoringState; // @synthesize lastMonitoringState=_lastMonitoringState;
-@property(readonly) NSString *monitoredIdentifier;
-@property(copy, nonatomic) CDUnknownBlockType onConditionUpdateCallbackHandler; // @synthesize onConditionUpdateCallbackHandler=_onConditionUpdateCallbackHandler;
-@property(retain, nonatomic) CLCondition *refinement; // @synthesize refinement=_refinement;
-@property(nonatomic) id <CLIntersiloUniverse> universe; // @synthesize universe=_universe;
 
 @end
 

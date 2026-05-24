@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)opUp;
+- (void)useApplePayForWalletTopUp;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *purchases; // @synthesize purchases=_purchases;

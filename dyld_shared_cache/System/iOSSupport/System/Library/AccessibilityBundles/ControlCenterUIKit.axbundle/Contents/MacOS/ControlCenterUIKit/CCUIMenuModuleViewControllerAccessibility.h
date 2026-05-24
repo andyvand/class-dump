@@ -15,11 +15,11 @@
 + (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)Y;
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)B;
 - (_Bool);
 - (void);
 

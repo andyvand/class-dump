@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)setAttributes:(id)arg1 ofItemAtPath:error: /* Error: Ran out of types for this method. */;
 
 @end
 

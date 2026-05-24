@@ -7,52 +7,40 @@
 @interface CPLResourceTransferTaskOptions
 {
     _Bool _shouldBypassCaches;
-    unsigned long long _intent;
-    unsigned long long _priority;
-    CDStruct_e83c9415 _timeRange;
 }
 
 + (id);
-+ (_Bool)Ôù
-@ùâªÑùàªý{B©ôOA©öWÃ¨ÿ#ÕÐÊP;
-+ (id)ÿ_Ö#ÕôO¾©ý{©ýC;
-+ (id)ÿ_Ög#ÕÿÃÑöW©ôO©ý{©ýó;
++ (_Bool);
++ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
 + (_Bool);
+- (_Bool);
+- (unsigned long long)R;
+- (id);
+- (id)d;
+- (id);
 - (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (void)rrorsTriggeringAReimport:(CDStruct_3c1748cc)arg1 %s;
+- (_Bool)z;
+- (id);
+- (id);
+- (id)y^�|;
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (unsigned long long)DownloadTaskForResource:intent:downloading:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (CDStruct_e83c9415);
+- (CDStruct_3c1748cc);
 - (_Bool);
 - (unsigned long long)ate of %@ is supposed to be %@ but is %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsUnsafeClientCache;
-@property(readonly, nonatomic) _Bool hasValidTimeRange;
-@property(readonly, nonatomic) unsigned long long intent; // @synthesize intent=_intent;
-@property(readonly, nonatomic) _Bool isForeground;
-@property(readonly, nonatomic) _Bool isHighPriority;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) _Bool shouldBypassCaches; // @synthesize shouldBypassCaches=_shouldBypassCaches;
 @property(readonly, nonatomic) _Bool shouldKeepPower;
-@property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
 
 @end
 

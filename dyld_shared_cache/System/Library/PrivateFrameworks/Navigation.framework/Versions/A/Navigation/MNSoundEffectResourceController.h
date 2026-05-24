@@ -4,54 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioPlayer, NSString;
-@protocol MNSoundEffectControllerDelegate;
+@class AVAudioPlayer;
 
 __attribute__((visibility("hidden")))
 @interface MNSoundEffectResourceController
 {
     unsigned long long _indicatorID;
-    id <MNSoundEffectControllerDelegate> _delegate;
-    AVAudioPlayer *_approach;
-    AVAudioPlayer *_leftTurn;
-    AVAudioPlayer *_rightTurn;
 }
 
 - (void);
+- (void)AbsoluteCodingKeys;
+- (void);
+- (id);
+- (_Bool)G4;
+- (id)8m
+;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)SizedHalfOpenCircularGauge;
+- (void)4;
+- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)";
 - (_Bool);
 - (void)QÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) AVAudioPlayer *approach; // @synthesize approach=_approach;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MNSoundEffectControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVAudioPlayer *leftTurn; // @synthesize leftTurn=_leftTurn;
-@property(readonly, nonatomic) _Bool playing;
-@property(retain, nonatomic) AVAudioPlayer *rightTurn; // @synthesize rightTurn=_rightTurn;
-@property(readonly) Class superclass;
 
 @end
 

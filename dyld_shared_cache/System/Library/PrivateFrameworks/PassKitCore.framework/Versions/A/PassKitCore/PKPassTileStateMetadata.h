@@ -21,11 +21,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)requestseSCO;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPassTileStateMetadataVehicleFunction *metadataTypeVehicleFunction;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

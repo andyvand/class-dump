@@ -6,8 +6,6 @@
 
 #import <AppKit/NSBinder.h>
 
-@class NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSObjectParameterBinder : NSBinder
 {
@@ -15,20 +13,18 @@ __attribute__((visibility("hidden")))
         unsigned int _needsToRefreshOriginalValues:1;
         unsigned int _reservedObjectParameterBinder:31;
     } _objectParameterBinderFlags;
-    NSString *_bindingValueBeingSet;
-    NSMutableDictionary *_originalValues;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id);
++ (_Bool)UUID %@ for session %@ with identifier %@ outstanding auth tasks %@;
++ (id)NSParsedCIDRAddressKey;
++ (id)@;
 - (Class);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)backgroundTask:(id)arg1 willBeginDelayedRequest:(id)arg2 reply: /* Error: Ran out of types for this method. */;
+- (id)_requiresSustainedDataDelivery;
 - (void);
-- (void);
+- (void)i}36;
 - (void);
 - (void);
 - (void)Ñ;

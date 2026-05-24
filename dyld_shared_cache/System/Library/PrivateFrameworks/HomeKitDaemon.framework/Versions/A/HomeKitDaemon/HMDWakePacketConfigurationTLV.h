@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, HMDSleepConfigurationWakePacketTypeWrapper, HMDSleepConfigurationWakeUpTypeWrapper, NSData, NSString;
+@class HMDSleepConfigurationWakePacketTypeWrapper;
 
 __attribute__((visibility("hidden")))
 @interface HMDWakePacketConfigurationTLV
 {
     HMDSleepConfigurationWakePacketTypeWrapper *_wakePacketType;
-    HAPTLVUnsignedNumberValue *_wakeDestinationPort;
-    NSData *_wakeDestinationAddress;
-    HMDSleepConfigurationWakeUpTypeWrapper *_wakeType;
-    NSData *_wakePattern;
 }
 
-+ (id);
++ (id)numberOfPublicEventsCategoryCommunity;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -33,22 +29,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)vent:(struct _NSZone *)arg1;
-- (void)24;
+- (id)processCASESanityCheckEvent:(struct _NSZone *)arg1;
+- (void)HMDVideoResolutionType768x1024;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSData *wakeDestinationAddress; // @synthesize wakeDestinationAddress=_wakeDestinationAddress;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *wakeDestinationPort; // @synthesize wakeDestinationPort=_wakeDestinationPort;
 @property(retain, nonatomic) HMDSleepConfigurationWakePacketTypeWrapper *wakePacketType; // @synthesize wakePacketType=_wakePacketType;
-@property(retain, nonatomic) NSData *wakePattern; // @synthesize wakePattern=_wakePattern;
-@property(retain, nonatomic) HMDSleepConfigurationWakeUpTypeWrapper *wakeType; // @synthesize wakeType=_wakeType;
 
 @end
 

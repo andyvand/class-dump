@@ -5,8 +5,9 @@
 //
 
 @protocol SFUInputStream
+- (void);
+- (_Bool);
 - (void)Â0@ù
 × ;
-- (long long);
 @end
 

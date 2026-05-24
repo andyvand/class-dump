@@ -6,26 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLOWSchemaFLOWMediaPlayerMediaItem : SISchemaInstrumentationMessage
 {
     NSString *_title;
-    NSString *_artist;
-    int _mediaType;
-    NSString *_entityId;
-    _Bool _isAlternative;
-    _Bool _isNlsResult;
-    _Bool _isNlsContainerResult;
-    struct {
-        unsigned int mediaType:1;
-        unsigned int isAlternative:1;
-        unsigned int isNlsResult:1;
-        unsigned int isNlsContainerResult:1;
-    } _has;
-    _Bool _hasTitle;
-    _Bool _hasArtist;
-    _Bool _hasEntityId;
 }
 
 - (void);
@@ -38,20 +23,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void)(<;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@C;
 - (id);
 - (id);
 - (void);
@@ -60,7 +45,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)i7;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -68,28 +53,14 @@
 - (id)questCancelled";
 - (id)NKSchemaFLOWLINKActionConfirmationStarted",&,N,V_startedOrChanged;
 - (id)oôr;
-- (id)ERRIDETYPE_UNKNOWN;
-- (void)oneCallDurationBucket;
+- (id)RGOVERRIDETYPE_UNKNOWN;
+- (void)PLUSSchemaPLUSPhoneCallDurationBucket;
 - (void)wB´¹Ú$;
 - (_Bool)ÿ@³;
 - (void)æ;
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(copy, nonatomic) NSString *entityId; // @synthesize entityId=_entityId;
-@property(nonatomic) _Bool hasArtist; // @synthesize hasArtist=_hasArtist;
-@property(nonatomic) _Bool hasEntityId; // @synthesize hasEntityId=_hasEntityId;
-@property(nonatomic) _Bool hasIsAlternative;
-@property(nonatomic) _Bool hasIsNlsContainerResult;
-@property(nonatomic) _Bool hasIsNlsResult;
-@property(nonatomic) _Bool hasMediaType;
-@property(nonatomic) _Bool hasTitle; // @synthesize hasTitle=_hasTitle;
-@property(nonatomic) _Bool isAlternative; // @synthesize isAlternative=_isAlternative;
-@property(nonatomic) _Bool isNlsContainerResult; // @synthesize isNlsContainerResult=_isNlsContainerResult;
-@property(nonatomic) _Bool isNlsResult; // @synthesize isNlsResult=_isNlsResult;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mediaType; // @synthesize mediaType=_mediaType;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

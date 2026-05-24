@@ -5,5 +5,10 @@
 //
 
 @protocol HMDResidentStatusChannelManagerDelegate
+
+@optional
+- (void)MapRegion",R,N;
+- (void)region;
+- (void)MapItemStorage;
 @end
 

@@ -6,68 +6,62 @@
 
 #import <TSReading/TSDStyledRep.h>
 
-@class NSString;
-
 @interface TSDShapeRep : TSDStyledRep
 {
     struct CGRect mFrameInUnscaledCanvasRelativeToSuper;
-    _Bool mFrameInUnscaledCanvasIsValid;
-    _Bool mDirectlyManagesLayerContent;
-    struct CGRect mOriginalAliasedAlignmentFrameInLayerFrame;
-    _Bool mShadowOnChildrenDisabled;
 }
 
 + (double);
+- (void)o Pair;
+- (void):(id)arg1;
+- (struct CGRect)OT overwriting existing resume time ;
+- (_Bool)temChangeEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)ge to 0 while playing - reason: /* Error: Ran out of types for this method. */;
+- (_Bool)ause;
+- (_Bool)〔;
+- (_Bool)STATE EXITED            ;
+- (double)item:(struct CGPoint)arg1;
+- (id)ion received for current item: /* Error: Ran out of types for this method. */;
+- (id)temTimeJumpedNotification received for current item: /* Error: Ran out of types for this method. */;
+- (_Bool)eason information];
+- (void)urrent:(_Bool)arg1;
 - (void);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
 - (id);
-- (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (_Bool)PodcastsArtworkCatalogDataSource;
+- (void)_MPCPlaybackEngineElapsedTimeProviding;
 - (_Bool);
 - (id);
 - (struct CGAffineTransform);
-- (void);
+- (void)Foundation;
+- (struct CGRect)MPCPlaybackEngineEventPayloadKey;
 - (struct CGRect);
-- (struct CGRect);
 - (_Bool);
-- (_Bool);
+- (_Bool)] .;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (struct CGPoint);
 - (_Bool);
+- (_Bool);
 - (_Bool);
+- (_Bool)\D3;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)j;
 - (void);
 - (void);
 - (_Bool);
@@ -77,21 +71,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)new content, time=%fms, identifier=%{public}@;
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool shadowOnChildrenDisabled; // @synthesize shadowOnChildrenDisabled=mShadowOnChildrenDisabled;
-@property(readonly) Class superclass;
 
 @end
 

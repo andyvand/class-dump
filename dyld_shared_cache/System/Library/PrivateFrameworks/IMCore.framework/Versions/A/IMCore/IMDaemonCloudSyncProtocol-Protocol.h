@@ -5,6 +5,13 @@
 //
 
 @protocol IMDaemonCloudSyncProtocol
+- (void);
+- (void);
+- (void)%;
+- (void)RC7;
+- (void);;
+- (void)logs for cause;
+- (void).;
 - (void)r:query to move %lu message GUIDs [%@] to recently deleted at time:%@ gave error:%@ /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDThreadResidentCommissioner, NSString;
-@protocol HMDCHIPThreadNetworkEventListenerDelegate;
+@class HMDThreadResidentCommissioner;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPThreadNetworkEventListener
 {
     _Bool _pendingRadioStateChangeNotification;
-    long long _threadNetworkNodeType;
-    long long _threadNetworkConnectionState;
-    id <HMDCHIPThreadNetworkEventListenerDelegate> _eventListenerDelegate;
-    HMDThreadResidentCommissioner *_threadResidentCommissioner;
 }
 
 + (id)íB;
+- (void)StringAsIconType:(id)arg1;
+- (id)playName;
+- (void)"NSString",?,R,C;
+- (void)ng;
+- (void)&,N,V_originatorIdentifier;
+- (long long)uage;
+- (long long)setHasPosition: /* Error: Ran out of types for this method. */;
+- (void)serviceSpaceDidBecomeAvailable:(id)arg1;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)dles from statuses;
+- (void)apabilityLevelForContact returning cached service name %{public}@;
+- (void)apabilityLevelForContact nil service name for blocked %{private}@;
+- (void)unsubscribing from trip %@ for purged connection:(_Bool)arg1 %@;
+- (void)pServer unsubscribeFromSharedTripUpdatesWithIdentifier:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)erServicesCoordinator;
+- (void)HomeMatterServicesCoordinator;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <HMDCHIPThreadNetworkEventListenerDelegate> eventListenerDelegate; // @synthesize eventListenerDelegate=_eventListenerDelegate;
-@property(readonly) unsigned long long hash;
-@property _Bool pendingRadioStateChangeNotification; // @synthesize pendingRadioStateChangeNotification=_pendingRadioStateChangeNotification;
-@property(readonly) Class superclass;
-@property long long threadNetworkConnectionState; // @synthesize threadNetworkConnectionState=_threadNetworkConnectionState;
-@property long long threadNetworkNodeType; // @synthesize threadNetworkNodeType=_threadNetworkNodeType;
 @property(retain) HMDThreadResidentCommissioner *threadResidentCommissioner; // @synthesize threadResidentCommissioner=_threadResidentCommissioner;
 
 @end

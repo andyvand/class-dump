@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AMSDialogButton
 {
     CDUnknownBlockType _handler;
-    long long _style;
-    NSString *_title;
 }
 
 + (id);
@@ -26,8 +22,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property long long style; // @synthesize style=_style;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

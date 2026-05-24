@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKTravelEngineHypothesis;
-
 @protocol CALNRouteHypothesizer
-- (void (^)(void))vider;
+- (void)@9;
+- (void);
+- (void (^)(void))_coreLocationProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) EKTravelEngineHypothesis *currentHypothesis;
 @property(readonly, nonatomic) unsigned long long state;
-@property(readonly, nonatomic) CDUnknownBlockType updateHandler;
 @end
 

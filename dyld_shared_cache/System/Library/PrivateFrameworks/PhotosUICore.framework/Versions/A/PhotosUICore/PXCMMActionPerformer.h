@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress, PXCMMSession;
-@protocol PXCMMActionPerformerDelegate;
+@class PXCMMSession;
 
 @interface PXCMMActionPerformer
 {
     PXCMMSession *_session;
-    NSProgress *_progress;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <PXCMMActionPerformerDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
 @property(readonly, nonatomic) PXCMMSession *session; // @synthesize session=_session;
 
 @end

@@ -6,29 +6,14 @@
 
 #import <CloudPhotoLibrary/CPLEngineScopedTask.h>
 
-@class CPLEngineScope, CPLRecordTargetMapping, CPLTransportScopeMapping, CPLUploadComputeStatesAccumulator, NSDictionary, NSObject, NSProgress;
-@protocol CPLEngineTransportGroup, CPLEngineTransportUploadComputeStatesTask, OS_dispatch_queue;
+@class CPLRecordTargetMapping;
 
 @interface CPLUploadComputeStatesScopeTask : CPLEngineScopedTask
 {
     CPLRecordTargetMapping *_targetMapping;
-    CPLTransportScopeMapping *_transportScopeMapping;
-    id <CPLEngineTransportUploadComputeStatesTask> _uploadComputeStatesTask;
-    id <CPLEngineTransportGroup> _transportGroup;
-    NSProgress *_requestMissingPayloadsProgress;
-    NSObject<OS_dispatch_queue> *_queue;
-    CPLUploadComputeStatesAccumulator *_computeStatesAccumulator;
-    NSDictionary *_knownRecords;
-    CPLEngineScope *_sharedScope;
-    _Bool _didUploadSomeComputeStates;
-    long long _taskItem;
-    unsigned long long _countOfComputeStatesPutAside;
-    unsigned long long _countOfDroppedComputeStates;
-    unsigned long long _countOfRequestedComputeStates;
-    unsigned long long _countOfProvidedComputeStates;
 }
 
-- (void);
+- (void)commute20MinWarningEntityRelevanceDayOfWeekAndTimeOfDayFeatures;
 - (id);
 - (void);
 - (void);
@@ -40,7 +25,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)7;
+- (void);
 - (void);
 - (void)
 × ;

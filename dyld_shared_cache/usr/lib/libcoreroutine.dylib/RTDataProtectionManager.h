@@ -6,42 +6,36 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTDarwinNotificationHelper, RTKeybagMonitor;
+@class RTDarwinNotificationHelper;
 
 @interface RTDataProtectionManager : RTService
 {
     _Bool _unlockedSinceBoot;
-    RTDarwinNotificationHelper *_notificationHelper;
-    RTKeybagMonitor *_keybagMonitor;
-    long long _encryptedDataAvailability;
 }
 
-+ (id);
-+ (id);
++ (id)ing/lost escrow data, will attempt to restore.;
++ (id)ing that service identity;
 - (void);
 - (id);
+- (id)setVersion:(id)arg1;
+- (void);
+- (void)or the inner record, needs repair;
+- (void);
+- (void);
+- (void);
+- (_Bool)ocated at %s;
+- (void);
+- (id);
+- (long long)@;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void)an_visit_duration_weekend_others;
+- (void)median_visit_duration_weekend_others;
 - (void), setting it to the default value.;
 - (void)%s:%d) /* Error: Ran out of types for this method. */;
 - (void)Î;
 
 // Remaining properties
-@property(nonatomic) long long encryptedDataAvailability; // @synthesize encryptedDataAvailability=_encryptedDataAvailability;
-@property(retain, nonatomic) RTKeybagMonitor *keybagMonitor; // @synthesize keybagMonitor=_keybagMonitor;
 @property(retain, nonatomic) RTDarwinNotificationHelper *notificationHelper; // @synthesize notificationHelper=_notificationHelper;
-@property(nonatomic) _Bool unlockedSinceBoot; // @synthesize unlockedSinceBoot=_unlockedSinceBoot;
 
 @end
 

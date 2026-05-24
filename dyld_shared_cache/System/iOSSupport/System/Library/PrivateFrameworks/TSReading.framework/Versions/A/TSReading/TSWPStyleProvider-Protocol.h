@@ -4,7 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSWPCharacterStyle, TSWPListStyle, TSWPParagraphStyle;
+
 @protocol TSWPStyleProvider
+
+@optional
+- (_Bool)ionSize;
+- (unsigned long long)-deployment-id;
+- (TSWPCharacterStyle *);
+- (TSWPListStyle *);
+- (unsigned long long)eparing for pause;
+- (TSWPParagraphStyle *)playbackDidStart after rate change dropping to 0 [not-stalled] - Unpreparing for pause;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool supportsBoldItalicUnderlineShortcuts;

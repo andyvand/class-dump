@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface WiFiAnalyticsAWDWiFiNWActivityAPInterfaceStats
 {
     NSMutableArray *_bytes;
-    NSMutableArray *_enableStates;
-    unsigned int _enabled;
-    NSMutableArray *_npeers;
-    NSMutableArray *_packets;
-    unsigned int _peerCount;
-    unsigned int _peersAdded;
-    unsigned int _peersRemoved;
-    NSString *_role;
-    NSMutableArray *_txLatencyBEs;
-    NSMutableArray *_txLatencyBKs;
-    NSMutableArray *_txLatencyVIs;
-    NSMutableArray *_txLatencyVOs;
-    CDStruct_422e47ee _has;
 }
 
 + (Class);
@@ -42,14 +29,14 @@
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
+- (_Bool)k;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)TH;
 - (id);
 - (id);
 - (unsigned long long);
@@ -71,64 +58,47 @@
 - (id);
 - (void);
 - (void);
+- (void)O;
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)onary",R,N,V_options;
+- (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)eModel:ERROR:Failed to fetch REMHashtag {objectIDs:%{public}@, error:%@}. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)D;
 - (void);
-- (id);
+- (id)percent2IMUInVehicle;
 - (void);
 - (id);
 - (unsigned int);
 - (id);
 - (unsigned int);
 - (void);
-- (_Bool)teRoamPoliciesForSourceBssid:andUpdateRoamCache:andReply: /* Error: Ran out of types for this method. */;
-- (void)triesTrue;
+- (_Bool)xpcConnection:updateRoamPoliciesForSourceBssid:andUpdateRoamCache:andReply: /* Error: Ran out of types for this method. */;
+- (void)hasHighTxRetriesTrue;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *bytes; // @synthesize bytes=_bytes;
-@property(retain, nonatomic) NSMutableArray *enableStates; // @synthesize enableStates=_enableStates;
-@property(nonatomic) unsigned int enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool hasEnabled;
-@property(nonatomic) _Bool hasPeerCount;
-@property(nonatomic) _Bool hasPeersAdded;
-@property(nonatomic) _Bool hasPeersRemoved;
 @property(readonly, nonatomic) _Bool hasRole;
-@property(retain, nonatomic) NSMutableArray *npeers; // @synthesize npeers=_npeers;
-@property(retain, nonatomic) NSMutableArray *packets; // @synthesize packets=_packets;
-@property(nonatomic) unsigned int peerCount; // @synthesize peerCount=_peerCount;
-@property(nonatomic) unsigned int peersAdded; // @synthesize peersAdded=_peersAdded;
-@property(nonatomic) unsigned int peersRemoved; // @synthesize peersRemoved=_peersRemoved;
-@property(retain, nonatomic) NSString *role; // @synthesize role=_role;
-@property(retain, nonatomic) NSMutableArray *txLatencyBEs; // @synthesize txLatencyBEs=_txLatencyBEs;
-@property(retain, nonatomic) NSMutableArray *txLatencyBKs; // @synthesize txLatencyBKs=_txLatencyBKs;
-@property(retain, nonatomic) NSMutableArray *txLatencyVIs; // @synthesize txLatencyVIs=_txLatencyVIs;
-@property(retain, nonatomic) NSMutableArray *txLatencyVOs; // @synthesize txLatencyVOs=_txLatencyVOs;
 
 @end
 

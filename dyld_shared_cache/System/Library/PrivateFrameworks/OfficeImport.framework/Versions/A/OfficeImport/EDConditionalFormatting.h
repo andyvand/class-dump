@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDReferenceCollection, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface EDConditionalFormatting
 {
     NSMutableArray *mRules;
-    EDReferenceCollection *mRanges;
-    _Bool mApplyToDate;
 }
 
 + (id);

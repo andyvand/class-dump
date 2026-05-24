@@ -14,10 +14,10 @@
 }
 
 - (id);
+- (id)setCoords: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (void)hmentPersistenceManagerC;
+- (void):(id)arg1 More than %lu menu items for circular menu is not supported. Consider picking a different style.;
+- (void)So30EDAttachmentPersistenceManagerC;
 - (void)Ä;
 
 // Remaining properties

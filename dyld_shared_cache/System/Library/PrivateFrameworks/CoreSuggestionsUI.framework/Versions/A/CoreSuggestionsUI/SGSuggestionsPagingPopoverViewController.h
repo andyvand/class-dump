@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSString, NSTextField, NSView, NSViewController, SGSuggestionStore;
+@class NSView, NSViewController;
 
 @interface SGSuggestionsPagingPopoverViewController
 {
     NSViewController *_currentSuggestionViewController;
-    SGSuggestionStore *_suggestionStore;
-    NSView *_containerView;
-    NSButton *_prevButton;
-    NSButton *_nextButton;
-    NSTextField *_pagingTitleView;
-    long long _currentSuggestionIndex;
 }
 
 + (id);
@@ -38,34 +32,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
+- (void)!;
+- (id)pactSize;
 
 // Remaining properties
 @property(nonatomic) NSView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) long long currentSuggestionIndex; // @synthesize currentSuggestionIndex=_currentSuggestionIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasNextSuggestion;
-@property(readonly, nonatomic) _Bool hasPreviousSuggestion;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) NSButton *nextButton; // @synthesize nextButton=_nextButton;
-@property(readonly, nonatomic) NSString *pagingTitle;
-@property(nonatomic) NSTextField *pagingTitleView; // @synthesize pagingTitleView=_pagingTitleView;
-@property(nonatomic) NSButton *prevButton; // @synthesize prevButton=_prevButton;
-@property(retain, nonatomic) SGSuggestionStore *suggestionStore; // @synthesize suggestionStore=_suggestionStore;
-@property(readonly, nonatomic) NSArray *suggestions;
-@property(readonly) Class superclass;
 
 @end
 

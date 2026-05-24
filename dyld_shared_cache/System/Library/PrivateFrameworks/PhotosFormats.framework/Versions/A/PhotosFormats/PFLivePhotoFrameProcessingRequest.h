@@ -9,9 +9,6 @@
 @interface PFLivePhotoFrameProcessingRequest
 {
     CIImage *_image;
-    long long _type;
-    double _renderScale;
-    CDStruct_1b6d18a9 _time;
 }
 
 - (double);
@@ -20,15 +17,12 @@
 - (id);
 - (long long);
 - (void);
-- (CDStruct_1b6d18a9);
-- (void);
+- (CDStruct_198678f7);
+- (void)invalidated:(CDStruct_198678f7)arg1 %@;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *image; // @synthesize image=_image;
-@property(nonatomic) double renderScale; // @synthesize renderScale=_renderScale;
-@property(nonatomic) CDStruct_1b6d18a9 time; // @synthesize time=_time;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

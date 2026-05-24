@@ -6,30 +6,28 @@
 
 #import <HomeKitDaemon/HMDBulletinNotificationRegistration.h>
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDEndpointBulletinNotificationRegistration : HMDBulletinNotificationRegistration
 {
     NSUUID *_accessoryUUID;
-    NSNumber *_endpointID;
 }
 
 + (_Bool)pXGP0H,I¼J`ÌH
 t&Ð&°'K(x)à)L*MP+N(,p,;
 - (id);
-- (id);
+- (id)gContext";
 - (id);
 - (_Bool);
 - (void);
-- (id)sAnyAccessoryWithWalletKeySupport;
+- (id)hasAnyAccessoryWithWalletKeySupport;
 - (id)not be nil;
 - (void);
 - (id)@;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy) NSNumber *endpointID; // @synthesize endpointID=_endpointID;
 
 @end
 

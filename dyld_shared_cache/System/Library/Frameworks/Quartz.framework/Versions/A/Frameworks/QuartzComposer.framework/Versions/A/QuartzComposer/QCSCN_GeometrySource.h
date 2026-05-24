@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface QCSCN_GeometrySource
 {
@@ -13,8 +13,8 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 - (long long);
@@ -23,23 +23,16 @@
 - (long long);
 - (long long);
 - (long long);
-- (int);
+- (int)#�;
 - (_Bool);
 - (long long);
 - (void);
-- (id);
+- (id)item_pid, container_pid, item_pid, position) VALUES (?, ?, ?, ?);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesPerComponent;
-@property(readonly, nonatomic) long long componentsPerVector;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long dataOffset;
-@property(readonly, nonatomic) long long dataStride;
-@property(readonly, nonatomic) _Bool floatComponents;
-@property(readonly, nonatomic) NSString *semantic;
-@property(readonly, nonatomic) long long vectorCount;
 
 @end
 

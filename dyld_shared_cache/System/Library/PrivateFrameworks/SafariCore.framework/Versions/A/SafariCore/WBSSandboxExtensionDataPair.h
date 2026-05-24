@@ -10,11 +10,11 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
-- (id)ri_sharedBrowserKitDefaults;
+- (id)safari_sharedBrowserKitDefaults;
 
 @end
 

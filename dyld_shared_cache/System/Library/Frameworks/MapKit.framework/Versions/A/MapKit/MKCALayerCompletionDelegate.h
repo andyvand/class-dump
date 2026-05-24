@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MKCALayerCompletionDelegate
 {
@@ -15,18 +13,11 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)Extensions: /* Error: Ran out of types for this method. */;
+- (void)endMatchingExtensions: /* Error: Ran out of types for this method. */;
 - (void)TÔöÿ~<Ý÷;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

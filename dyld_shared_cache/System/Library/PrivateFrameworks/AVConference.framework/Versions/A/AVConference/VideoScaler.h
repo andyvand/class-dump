@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (int);
 - (void);
-- (id);
+- (id)T: /* Error: Ran out of types for this method. */;
 
 @end
 

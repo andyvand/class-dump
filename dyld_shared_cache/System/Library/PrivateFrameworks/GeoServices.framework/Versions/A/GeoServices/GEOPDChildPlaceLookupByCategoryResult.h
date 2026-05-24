@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     PBUnknownFields *_unknownFields;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)backCommonCorrections";
-- (id)egorySearchParameters;
+- (id)_categorySearchParameters;
 - (id)Ti´(i´¬äi´xÁHj´ÄÇ`j´Tì¬j´ðÔj´Ð'n´(8n´4)\n´ä)n´*¤n´L+Èn´;
 - (void)åÿÿÿúÿÿÿôÿÿÿøÿÿÿêÿÿÿýÿÿÿìÿÿÿëÿÿÿüÿÿÿâÿÿÿõÿÿÿÿÿÿÿûÿúÿøÿ÷ÿ÷ÿõÿùÿøÿüÿÿÿýÿúÿùÿüÿúÿûÿ;
 

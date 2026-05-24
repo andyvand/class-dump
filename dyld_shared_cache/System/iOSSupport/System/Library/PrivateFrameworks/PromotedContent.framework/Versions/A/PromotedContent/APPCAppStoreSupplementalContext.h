@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface APPCAppStoreSupplementalContext
 {
     void storeFront;
-    void storeFrontLocale;
-    void impressionCap;
-    void clickCap;
-    void additionalImpressionCaps;
-    void additionalClickCaps;
-    void adamId;
-    void appMetadataFields;
-    void requestTime;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)handleSingleTapAtPoint:withRecognizer: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -37,20 +29,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *adamId;
-@property(nonatomic, copy) NSDictionary *additionalClickCaps;
-@property(nonatomic, copy) NSDictionary *additionalImpressionCaps;
-@property(nonatomic, copy) NSDictionary *appMetadataFields;
-@property(nonatomic, copy) NSDictionary *clickCap;
-@property(nonatomic, readonly) NSDictionary *dictionaryRepresentation;
-@property(nonatomic, copy) NSDictionary *impressionCap;
-@property(nonatomic, copy) NSDate *requestTime;
 @property(nonatomic, readonly) NSString *storeFront;
-@property(nonatomic, readonly) NSString *storeFrontLocale;
 
 @end
 

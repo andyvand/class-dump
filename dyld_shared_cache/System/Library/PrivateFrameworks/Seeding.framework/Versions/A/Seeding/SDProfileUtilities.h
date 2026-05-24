@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)dioPlaybackRequest"16;
 
 @end
 

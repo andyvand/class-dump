@@ -7,9 +7,6 @@
 @interface SPShared.XPCSessionManager
 {
     id name;
-    id serialQueue;
-    id listenerTrampoline;
-    id listeners;
 }
 
 @end

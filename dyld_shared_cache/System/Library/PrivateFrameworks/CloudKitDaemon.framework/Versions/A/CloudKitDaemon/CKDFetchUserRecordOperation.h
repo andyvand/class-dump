@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (int);
+- (int)IS_NETWORK_APPBASED;
 - (id);
 - (void)%@.;
 

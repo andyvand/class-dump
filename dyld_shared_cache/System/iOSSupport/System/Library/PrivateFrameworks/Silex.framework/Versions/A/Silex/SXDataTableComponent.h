@@ -6,7 +6,7 @@
 
 #import <Silex/SXComponent.h>
 
-@class SXDataRecordStore, SXJSONArray;
+@class SXDataRecordStore;
 
 @interface SXDataTableComponent : SXComponent
 {
@@ -18,9 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SXDataRecordStore *data; // @dynamic data;
-@property(readonly, nonatomic) unsigned long long dataOrientation; // @dynamic dataOrientation;
-@property(readonly, nonatomic) _Bool showDescriptorLabels; // @dynamic showDescriptorLabels;
-@property(readonly, nonatomic) SXJSONArray *sortBy; // @dynamic sortBy;
 
 @end
 

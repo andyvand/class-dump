@@ -4,51 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAssetsToDownload, CKDPRecordIdentifier, CKDPRecordRetrieveRequestRetrieveAssetURL, CKDPRequestedFields, NSString;
+@class CKDPAssetsToDownload;
 
 @interface CKDPRecordRetrieveRequest
 {
     CKDPAssetsToDownload *_assetsToDownload;
-    NSString *_clientVersionETag;
-    CKDPRecordRetrieveRequestRetrieveAssetURL *_getAssetURL;
-    CKDPRecordIdentifier *_recordIdentifier;
-    CKDPRequestedFields *_requestedFields;
-    NSString *_versionETag;
-    _Bool _requestEncryptedAssetUserIdentifiers;
-    _Bool _shouldFailBatch;
-    struct {
-        unsigned int requestEncryptedAssetUserIdentifiers:1;
-        unsigned int shouldFailBatch:1;
-    } _has;
 }
 
 + (id);
-- (id);
+- (id)UsoTaskBuilder_summarise_common_UserEntity;
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)";
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)*;
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (unsigned long long)GetAnchor. 
+;
+- (id);
+- (void);
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
+- (void)setMaxFileSizeInMB:(id)arg1;
 - (void);
-- (void);
-- (id);
+- (id)zb;
 - (_Bool);
 - (void);
 - (id);
@@ -57,28 +47,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (Class)ationRequest;
+- (Class)hasAttestationRequest;
 - (_Bool);
 - (void);
 - (void)ister operation info cache eviction task with error:(_Bool)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPAssetsToDownload *assetsToDownload; // @synthesize assetsToDownload=_assetsToDownload;
-@property(retain, nonatomic) NSString *clientVersionETag; // @synthesize clientVersionETag=_clientVersionETag;
-@property(retain, nonatomic) CKDPRecordRetrieveRequestRetrieveAssetURL *getAssetURL; // @synthesize getAssetURL=_getAssetURL;
-@property(readonly, nonatomic) _Bool hasAssetsToDownload;
-@property(readonly, nonatomic) _Bool hasClientVersionETag;
-@property(readonly, nonatomic) _Bool hasGetAssetURL;
 @property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(nonatomic) _Bool hasRequestEncryptedAssetUserIdentifiers;
-@property(readonly, nonatomic) _Bool hasRequestedFields;
-@property(nonatomic) _Bool hasShouldFailBatch;
-@property(readonly, nonatomic) _Bool hasVersionETag;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(nonatomic) _Bool requestEncryptedAssetUserIdentifiers; // @synthesize requestEncryptedAssetUserIdentifiers=_requestEncryptedAssetUserIdentifiers;
-@property(retain, nonatomic) CKDPRequestedFields *requestedFields; // @synthesize requestedFields=_requestedFields;
-@property(nonatomic) _Bool shouldFailBatch; // @synthesize shouldFailBatch=_shouldFailBatch;
-@property(retain, nonatomic) NSString *versionETag; // @synthesize versionETag=_versionETag;
 
 @end
 

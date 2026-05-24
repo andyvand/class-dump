@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface INBalanceAmount
 {
     NSDecimalNumber *_amount;
-    long long _balanceType;
-    NSString *_currencyCode;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)AuthorizationProxCardHandler;
+- (void)valid UTF-8.;
 - (id);
 - (id);
 - (id);
-- (id)tionary;
-- (void)ntent;
+- (id)_dictionary;
+- (void)StartPhotoPlaybackIntent;
 - (id)Üÿ¢éMºÁ;
 
 // Remaining properties
 @property(readonly, copy) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(readonly) long long balanceType; // @synthesize balanceType=_balanceType;
-@property(readonly, copy) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
 
 @end
 

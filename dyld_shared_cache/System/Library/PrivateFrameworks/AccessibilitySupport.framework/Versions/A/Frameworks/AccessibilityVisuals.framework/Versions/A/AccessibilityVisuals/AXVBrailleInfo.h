@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface AXVBrailleInfo
 {
     _Bool _brailleDisplayingAnnouncement;
-    NSAttributedString *_brailleWithTransliteration;
-    long long _brailleCursorIndex;
-    long long _brailleStatusPosition;
-    NSString *_brailleStatus;
-    NSArray *_brailleBoldRanges;
-    NSArray *_brailleItalicRanges;
-    NSArray *_brailleUnderlineRanges;
-    struct _NSRange _brailleCellRange;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (long long);
 - (id);
-- (long long);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (struct _NSRange);
 - (id);
@@ -49,14 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *brailleBoldRanges; // @synthesize brailleBoldRanges=_brailleBoldRanges;
-@property(nonatomic) struct _NSRange brailleCellRange; // @synthesize brailleCellRange=_brailleCellRange;
-@property(nonatomic) long long brailleCursorIndex; // @synthesize brailleCursorIndex=_brailleCursorIndex;
-@property(nonatomic) _Bool brailleDisplayingAnnouncement; // @synthesize brailleDisplayingAnnouncement=_brailleDisplayingAnnouncement;
-@property(retain, nonatomic) NSArray *brailleItalicRanges; // @synthesize brailleItalicRanges=_brailleItalicRanges;
-@property(copy, nonatomic) NSString *brailleStatus; // @synthesize brailleStatus=_brailleStatus;
-@property(nonatomic) long long brailleStatusPosition; // @synthesize brailleStatusPosition=_brailleStatusPosition;
-@property(retain, nonatomic) NSArray *brailleUnderlineRanges; // @synthesize brailleUnderlineRanges=_brailleUnderlineRanges;
 @property(copy, nonatomic) NSAttributedString *brailleWithTransliteration; // @synthesize brailleWithTransliteration=_brailleWithTransliteration;
 
 @end

@@ -5,20 +5,21 @@
 //
 
 @class NSString;
-@protocol CNTUCallProvider;
 
 @interface CNUIUserActionTarget
 {
     NSString *_name;
-    NSString *_bundleIdentifier;
-    NSString *_teamIdentifier;
-    NSString *_actionType;
-    id <CNTUCallProvider> _callProvider;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)\8;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -26,14 +27,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
++ (id)B;
+- (void);
+- (id);
+- (id)J;
 - (id);
 - (id);
 - (id);
@@ -42,9 +39,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)e.switch.control.useextendedkeyboardpredictions;
 - (unsigned long long);
 - (void);
 - (id);
@@ -55,11 +50,7 @@
 - (void)mColor"24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) id <CNTUCallProvider> callProvider; // @synthesize callProvider=_callProvider;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
 
 @end
 

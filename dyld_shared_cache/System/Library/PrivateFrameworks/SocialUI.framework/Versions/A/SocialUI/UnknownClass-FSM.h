@@ -7,8 +7,8 @@
 @interface UnknownClass (FSM)
 - (void);
 - (double);
-- (struct CGRect);
-- (void);
+- (struct CGRect)updateSINFForAppWithIdentity:sinfData:options:error: /* Error: Ran out of types for this method. */;
+- (void)representedObject;
 - (_Bool);
 @end
 

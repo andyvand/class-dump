@@ -8,11 +8,6 @@
 {
     id _ageRangeRequestModel;
     id _clientMetadata;
-    id _ageRangeAlertModel;
-    id _privacyVersion;
-    id sandboxStore;
-    id _connection;
-    id _$observationRegistrar;
 }
 
 - (void);

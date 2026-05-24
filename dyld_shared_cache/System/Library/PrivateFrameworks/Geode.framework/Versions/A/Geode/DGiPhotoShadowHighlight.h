@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGiPhotoShadowHighlight
 {
     CIImage *inputImage;
-    NSNumber *inputShadowAmount;
-    NSNumber *inputShadowTonalWidth;
-    NSNumber *inputRadius;
-    NSNumber *inputHighlightAmount;
-    NSNumber *inputHighlightTonalWidth;
-    NSNumber *inputColorCorrection;
-    NSNumber *inputMidtoneContrast;
-    NSNumber *inputBlackClip;
-    NSNumber *inputWhiteClip;
 }
 
 + (id);
-+ (void)n;
++ (void)DGSelectiveColorOperation;
 - (id);
 - (id);
 - (void);

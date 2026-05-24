@@ -9,7 +9,7 @@
 @protocol UICollectionViewFocusDelegate_Legacy
 
 @optional
-- (void):(UICollectionView *)arg1 didUnfocusItemAtIndexPath:(NSIndexPath *)arg2;
+- (void)collectionView:(UICollectionView *)arg1 didUnfocusItemAtIndexPath:(NSIndexPath *)arg2;
 - (void)	
 ;
 - (NSIndexPath *);

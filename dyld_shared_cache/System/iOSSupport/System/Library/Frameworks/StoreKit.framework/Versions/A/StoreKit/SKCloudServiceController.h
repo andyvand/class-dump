@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudServiceStatusMonitor;
-
 @interface SKCloudServiceController
 {
     _Bool _allowsPromptingForPrivacyAcknowledgement;
-    ICCloudServiceStatusMonitor *_cloudServiceStatusMonitor;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
-+ (void);
++ (void)availableInForYou;
 + (long long);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)@;
+- (_Bool)@;
+- (void)ady;
 - (void);
 - (void);
 - (id);

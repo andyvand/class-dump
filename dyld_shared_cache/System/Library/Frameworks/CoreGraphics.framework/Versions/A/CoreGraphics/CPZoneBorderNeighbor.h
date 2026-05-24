@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface CPZoneBorderNeighbor
 {
     CPShape *neighborShape;
-    int shapeSide;
 }
 
-- (int);
+- (int);
 - (void);
 - (void);
 - (id);

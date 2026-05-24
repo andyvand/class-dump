@@ -7,17 +7,6 @@
 @interface AWDDEDFinisherEnded
 {
     unsigned long long _duration;
-    unsigned long long _numbytes;
-    unsigned long long _timestamp;
-    int _state;
-    int _type;
-    struct {
-        unsigned int duration:1;
-        unsigned int numbytes:1;
-        unsigned int timestamp:1;
-        unsigned int state:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
@@ -28,10 +17,10 @@
 - (_Bool);
 - (int);
 - (id);
-- (id);
+- (id)setHasTetraVersion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
-- (void);
+- (void)_fetchRecordsGroup;
+- (void)Request",&,N,V_pendingRequest;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -40,14 +29,14 @@
 - (_Bool);
 - (int);
 - (int);
+- (_Bool)nalToolData.GnssMsmtAnalysisToolData.CNTimeSpan;
+- (void);
+- (void);
+- (void);
+- (id))|S(;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)b;
 - (int);
 - (void);
 - (id);
@@ -55,16 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasNumbytes;
-@property(nonatomic) _Bool hasState;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned long long numbytes; // @synthesize numbytes=_numbytes;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

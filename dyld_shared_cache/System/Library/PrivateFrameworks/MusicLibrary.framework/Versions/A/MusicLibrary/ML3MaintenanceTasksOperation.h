@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3MusicLibrary, NSObject;
-@protocol OS_xpc_object;
+@class ML3MusicLibrary;
 
 @interface ML3MaintenanceTasksOperation
 {
     ML3MusicLibrary *_library;
-    NSObject<OS_xpc_object> *_activity;
 }
 
-- (id);
-- (id);
+- (id)_deletionCount;
+- (id)HMAppleMediaAccessorySensorManagerTestErrorCaseLoseAccessoryKey;
 - (void);
-- (id)IsAUCVideoKind: /* Error: Ran out of types for this method. */;
+- (id)_platformMetadataItemIsAUCVideoKind: /* Error: Ran out of types for this method. */;
 - (void)er.representative_item_pid == composer_item_store.ROWID);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
 @property(readonly, nonatomic) ML3MusicLibrary *library; // @synthesize library=_library;
 
 @end

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AAMessagingCapability
 {
     long long _capability;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)):(long long)arg1 cfArray1 or cfArray2 have bad type;
+- (id)sscodeupdatestate returned %d;
 - (id);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long capability; // @synthesize capability=_capability;
-@property(readonly, nonatomic) NSString *capabilityString;
 
 @end
 

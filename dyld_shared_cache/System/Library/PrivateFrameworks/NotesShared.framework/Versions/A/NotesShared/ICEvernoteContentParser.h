@@ -4,51 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString, NSXMLParser;
-
 @interface ICEvernoteContentParser
 {
     _Bool _shouldAppendCharactersToBuffer;
-    NSMutableString *_bufferString;
-    NSMutableString *_htmlString;
-    NSXMLParser *_parser;
-    unsigned long long _parserType;
 }
 
-- (id);
-- (void);
+- (id)7;
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)appendFormat: /* Error: Ran out of types for this method. */;
+- (void)addMemberRecord:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_timeDescriptions;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_;
 - (void)¬5;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableString *bufferString; // @synthesize bufferString=_bufferString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableString *htmlString; // @synthesize htmlString=_htmlString;
-@property(retain, nonatomic) NSXMLParser *parser; // @synthesize parser=_parser;
-@property(nonatomic) unsigned long long parserType; // @synthesize parserType=_parserType;
 @property(nonatomic) _Bool shouldAppendCharactersToBuffer; // @synthesize shouldAppendCharactersToBuffer=_shouldAppendCharactersToBuffer;
-@property(readonly) Class superclass;
 
 @end
 

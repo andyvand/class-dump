@@ -5,5 +5,10 @@
 //
 
 @protocol WKWebProcessPlugInLoadDelegate
+
+@optional
+- (void);
+- (void)(;
+- (void);
 @end
 

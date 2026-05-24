@@ -6,7 +6,7 @@
 
 @interface UnknownClass (SCNAdditions)
 + (id);
-- (CDStruct_95fa7c00);
+- (CDStruct_95fa7c00)׀;
 - (id);
 @end
 

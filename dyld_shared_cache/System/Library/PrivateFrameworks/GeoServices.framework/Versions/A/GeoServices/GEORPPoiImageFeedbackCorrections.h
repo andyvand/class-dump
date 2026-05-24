@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORPPoiImageFeedbackCorrections
 {
     PBUnknownFields *_unknownFields;
-    NSString *_comments;
-    int _correctionType;
-    CDStruct_ef3e2236 _flags;
 }
 
-+ (_Bool)velOfDetail:(id)arg1;
++ (_Bool)setLevelOfDetail:(id)arg1;
 - (void);
-- (void);
-- (void);
+- (void)setSortDescriptors:(int)arg1;
+- (void)setPrimitivePhoneticOrganization:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -27,26 +24,22 @@
 - (void);
 - (id);
 - (id);
+- (void)h;
 - (void);
-- (void);
-- (void);
+- (void)N,V_delegate;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)clearSuggestedChargerPlugs;
 - (id)Ó\ÔÖðØ;
-- (id);
+- (id)labelType;
 - (void)L8 ¥§O@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *comments;
-@property(nonatomic) int correctionType;
-@property(readonly, nonatomic) _Bool hasComments;
 @property(nonatomic) _Bool hasCorrectionType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

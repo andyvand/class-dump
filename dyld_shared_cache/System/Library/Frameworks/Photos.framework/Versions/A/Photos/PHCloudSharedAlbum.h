@@ -6,52 +6,23 @@
 
 #import <Photos/PHAssetCollection.h>
 
-@class NSArray, NSNumber, NSString;
-
 @interface PHCloudSharedAlbum : PHAssetCollection
 {
     _Bool _owned;
-    _Bool _cloudMultipleContributorsEnabled;
-    _Bool _cloudNotificationsEnabled;
-    _Bool _publicURLEnabled;
-    short _cloudAlbumSubtype;
-    NSString *_cloudOwnerFirstName;
-    NSString *_cloudOwnerLastName;
-    NSString *_cloudOwnerFullName;
-    NSNumber *_cloudOwnerEmailKey;
-    NSString *_cloudOwnerHashedPersonID;
-    NSString *_publicURL;
-    NSString *_cloudOwnerPersonID;
-    NSNumber *_cloudRelationshipState;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)environmentMonitorDidChangeNetworkType: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id)thLibrary:(id)arg1;
++ (id)a;
++ (id)_extendedCuratedAssetIDsWithLibrary:(id)arg1;
 + (id)^é;
 
 // Remaining properties
-@property(readonly, nonatomic) short cloudAlbumSubtype; // @synthesize cloudAlbumSubtype=_cloudAlbumSubtype;
-@property(readonly, nonatomic, getter=isCloudMultipleContributorsEnabled) _Bool cloudMultipleContributorsEnabled; // @synthesize cloudMultipleContributorsEnabled=_cloudMultipleContributorsEnabled;
-@property(readonly, nonatomic, getter=isCloudNotificationsEnabled) _Bool cloudNotificationsEnabled; // @synthesize cloudNotificationsEnabled=_cloudNotificationsEnabled;
-@property(readonly, nonatomic) NSString *cloudOwnerEmail;
-@property(readonly, retain, nonatomic) NSNumber *cloudOwnerEmailKey; // @synthesize cloudOwnerEmailKey=_cloudOwnerEmailKey;
-@property(readonly, retain, nonatomic) NSString *cloudOwnerFirstName; // @synthesize cloudOwnerFirstName=_cloudOwnerFirstName;
-@property(readonly, retain, nonatomic) NSString *cloudOwnerFullName; // @synthesize cloudOwnerFullName=_cloudOwnerFullName;
-@property(readonly, retain, nonatomic) NSString *cloudOwnerHashedPersonID; // @synthesize cloudOwnerHashedPersonID=_cloudOwnerHashedPersonID;
-@property(readonly, retain, nonatomic) NSString *cloudOwnerLastName; // @synthesize cloudOwnerLastName=_cloudOwnerLastName;
-@property(readonly, nonatomic) NSString *cloudOwnerPersonID; // @synthesize cloudOwnerPersonID=_cloudOwnerPersonID;
-@property(readonly, nonatomic) NSString *cloudOwnerPhone;
-@property(readonly, retain, nonatomic) NSNumber *cloudRelationshipState; // @synthesize cloudRelationshipState=_cloudRelationshipState;
-@property(readonly, nonatomic) NSArray *invitationRecords;
 @property(readonly, nonatomic, getter=isOwned) _Bool owned; // @synthesize owned=_owned;
-@property(readonly, retain, nonatomic) NSString *publicURL; // @synthesize publicURL=_publicURL;
-@property(readonly, nonatomic) _Bool publicURLEnabled; // @synthesize publicURLEnabled=_publicURLEnabled;
 
 @end
 

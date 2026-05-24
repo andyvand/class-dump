@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface _DRCTaskingConnectionState
 {
     _Bool _isClosed;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (_Bool);
+- (_Bool)Y;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
 @property(readonly, nonatomic) _Bool isClosed; // @synthesize isClosed=_isClosed;
 
 @end

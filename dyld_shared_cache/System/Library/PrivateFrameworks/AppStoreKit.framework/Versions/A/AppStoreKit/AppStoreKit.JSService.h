@@ -7,9 +7,6 @@
 @interface AppStoreKit.JSService
 {
     id stack;
-    id garbageCollector;
-    id networkActivity;
-    id observations;
 }
 
 @end

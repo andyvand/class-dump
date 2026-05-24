@@ -12,16 +12,15 @@
 }
 
 - (unsigned long long);
+- (id)T;
+- (id)@9	ka;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)update_last_failed_message_date;
+- (void)isModelPredictedChoice;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *clockIdentifier;
-@property(readonly, nonatomic) unsigned long long nanoSecondsSinceBoot;
 
 @end
 

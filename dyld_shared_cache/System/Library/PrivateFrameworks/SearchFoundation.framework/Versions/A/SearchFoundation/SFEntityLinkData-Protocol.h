@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFCommand;
+@class NSData, SFCommand;
 
 @protocol SFEntityLinkData
+- (NSData *)63;
 
 // Remaining properties
 @property(retain, nonatomic) SFCommand *command;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

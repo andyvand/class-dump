@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableSet;
-@protocol DARefreshManagerDelegate;
+@class NSMutableSet;
 
 @interface DARefreshWrapper
 {
     int _pushState;
-    int _curStyle;
-    int _refreshReason;
-    id <DARefreshManagerDelegate> _delegate;
-    NSDate *_pushRegistrationTime;
-    NSMutableSet *_tokenRegistrations;
-    NSMutableSet *_refreshCollections;
-    long long _fetchInterval;
 }
 
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)	;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,13 +27,13 @@
 - (const char *);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (long long);
 - (const char *);
 - (void);
-- (int);
+- (int)ѓ"�;
 - (void);
 - (void);
 - (void);
@@ -57,18 +49,11 @@
 - (void);
 - (int);
 - (void);
-- (int);
-- (id);
+- (int);
+- (id)buildDailySet:(int)arg1;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int curStyle; // @synthesize curStyle=_curStyle;
-@property(nonatomic) __weak id <DARefreshManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long fetchInterval; // @synthesize fetchInterval=_fetchInterval;
-@property(retain, nonatomic) NSDate *pushRegistrationTime; // @synthesize pushRegistrationTime=_pushRegistrationTime;
-@property(nonatomic) int pushState; // @synthesize pushState=_pushState;
-@property(retain, nonatomic) NSMutableSet *refreshCollections; // @synthesize refreshCollections=_refreshCollections;
-@property(nonatomic) int refreshReason; // @synthesize refreshReason=_refreshReason;
 @property(retain, nonatomic) NSMutableSet *tokenRegistrations; // @synthesize tokenRegistrations=_tokenRegistrations;
 
 @end

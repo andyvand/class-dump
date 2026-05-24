@@ -4,44 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, UIButton;
+@class NSArray;
 @protocol EKUIEventStatusButtonsViewDelegate;
 
 @interface EKUIEventStatusButtonsView
 {
     NSArray *_buttons;
-    NSArray *_actions;
-    double _outsideMargin;
-    NSLayoutConstraint *_leadingMarginConstraint;
-    NSLayoutConstraint *_trailingMarginConstraint;
-    _Bool _forcesSingleButtonToCenter;
-    _Bool _inboxStyle;
-    _Bool _allowAppliesToAll;
-    NSArray *_currentConstraints;
-    _Bool _layoutButtons;
-    _Bool _disableButtonHighlights;
-    _Bool _shouldUseVerticalLayout;
-    _Bool _inPadSidebar;
-    id <EKUIEventStatusButtonsViewDelegate> _delegate;
-    long long _selectedAction;
-    long long _textSizeMode;
-    struct UIEdgeInsets _buttonsTouchInsets;
 }
 
 + (double);
-+ (id);
-+ (_Bool);
-+ (id);
++ (id);
++ (_Bool);
++ (id)_volumeEncodingValue;
 + (id);
 + (id);
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void):(id)arg1: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
@@ -49,8 +33,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (double);
-- (void);
+- (double)Ј;
+- (void)`O;
 - (_Bool);
 - (id);
 - (double);
@@ -62,24 +46,24 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_organizationDescription;
 - (void);
-- (void);
+- (void)rror:(id)arg1 %@;
 - (void);
 - (long long);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)localizedMagnitudeAbbreviatedStringWithString:(double)arg1 fractionDigits: /* Error: Ran out of types for this method. */;
+- (void)[r:(long long)arg1 %u g:%u b:%u] [h:%u s:%u b:%u] /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)LineSeriesDataElement;
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)roup>",&,N,V_waitGroup;
+- (_Bool)%@ due to error:%@ /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (void);
@@ -87,27 +71,10 @@
 - (void);
 - (id);
 - (void)× ;
-- (void)ath:toProposedIndexPath: /* Error: Ran out of types for this method. */;
+- (void)tableView:targetIndexPathForMoveFromRowAtIndexPath:toProposedIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(nonatomic) struct UIEdgeInsets buttonsTouchInsets; // @synthesize buttonsTouchInsets=_buttonsTouchInsets;
-@property(readonly, nonatomic) UIButton *centerButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EKUIEventStatusButtonsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableButtonHighlights; // @synthesize disableButtonHighlights=_disableButtonHighlights;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inPadSidebar; // @synthesize inPadSidebar=_inPadSidebar;
-@property(readonly, nonatomic) UIButton *leadingButton;
-@property(nonatomic) long long selectedAction; // @synthesize selectedAction=_selectedAction;
-@property(nonatomic) _Bool shouldUseVerticalLayout; // @synthesize shouldUseVerticalLayout=_shouldUseVerticalLayout;
-@property(readonly) Class superclass;
-@property(nonatomic) long long textSizeMode; // @synthesize textSizeMode=_textSizeMode;
-@property(readonly, nonatomic) UIButton *trailingButton;
 
 @end
 

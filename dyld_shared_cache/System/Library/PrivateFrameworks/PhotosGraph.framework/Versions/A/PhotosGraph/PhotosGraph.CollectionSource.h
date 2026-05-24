@@ -7,9 +7,6 @@
 @interface PhotosGraph.CollectionSource
 {
     id photoLibrary;
-    id curationRecipe;
-    id triggers;
-    id history;
 }
 
 @end

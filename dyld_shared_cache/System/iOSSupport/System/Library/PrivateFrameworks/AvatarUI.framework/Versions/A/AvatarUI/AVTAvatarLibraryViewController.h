@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarLibraryModel, AVTUIEnvironment, NSString, UICollectionView, UILongPressGestureRecognizer, _AVTAvatarRecordImageProvider;
+@class UICollectionView;
 @protocol AVTAvatarLibraryViewControllerDelegate;
 
 @interface AVTAvatarLibraryViewController
 {
     id <AVTAvatarLibraryViewControllerDelegate> _delegate;
-    UICollectionView *_collectionView;
-    UILongPressGestureRecognizer *_longPressGesture;
-    AVTAvatarLibraryModel *_model;
-    _AVTAvatarRecordImageProvider *_imageProvider;
-    AVTUIEnvironment *_environment;
 }
 
 - (void);
@@ -31,39 +26,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)roundedValue;
 - (void);
 - (id);
 - (void);
+- (id)Operation:%@
+ /* Error: Ran out of types for this method. */;
+- (void)finishIndexingWhileLocked:(id)arg1 protectionClass:(id)arg2 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
-- (struct CGSize);
-- (long long);
+- (struct CGSize)thing about person ID %@...;
+- (long long)s Win32SHA1OfUDID:(id)arg1 ];
 - (void);
-- (id);
+- (id);
 - (void);
-- (id)PresetsForCategory:(id)arg1 colorIndex:(id)arg2;
-- (id);
+- (id)colorPresetsForCategory:(id)arg1 colorIndex:(id)arg2;
+- (id)Rendering;
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarLibraryViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _AVTAvatarRecordImageProvider *imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(readonly, nonatomic) UILongPressGestureRecognizer *longPressGesture; // @synthesize longPressGesture=_longPressGesture;
-@property(readonly, nonatomic) AVTAvatarLibraryModel *model; // @synthesize model=_model;
-@property(readonly) Class superclass;
 
 @end
 

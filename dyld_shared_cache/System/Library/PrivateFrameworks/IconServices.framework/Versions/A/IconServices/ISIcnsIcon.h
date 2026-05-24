@@ -6,13 +6,12 @@
 
 #import <IconServices/ISConcreteIcon.h>
 
-@class ISIcns, NSData;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ISIcnsIcon : ISConcreteIcon
 {
     NSData *_icnsData;
-    ISIcns *_internalICNS;
 }
 
 + (_Bool);
@@ -20,18 +19,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)A	;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)hrR9;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) ISIcns *icns; // @dynamic icns;
 @property(readonly) NSData *icnsData; // @synthesize icnsData=_icnsData;
-@property(retain) ISIcns *internalICNS; // @synthesize internalICNS=_internalICNS;
 
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)f;
+- (id)processResponseDictionary:withStorefrontIdentifier: /* Error: Ran out of types for this method. */;
+- (id)processResponseDictionary:withStorefrontIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

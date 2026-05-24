@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUserDefaults;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BULogUtilities
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    _Bool _buVerboseLoggingEnabled;
-    NSUserDefaults *_defaults;
-    NSString *_keyPath;
 }
 
 + (id);
@@ -23,17 +20,15 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)`;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool buVerboseLoggingEnabled; // @synthesize buVerboseLoggingEnabled=_buVerboseLoggingEnabled;
-@property(retain, nonatomic) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(retain, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 
 @end
 

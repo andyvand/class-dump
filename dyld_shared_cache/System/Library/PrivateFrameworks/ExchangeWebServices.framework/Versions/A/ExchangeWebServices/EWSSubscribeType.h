@@ -14,7 +14,7 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)t;
 
 // Remaining properties
 @property(retain, nonatomic) id SubscriptionRequest; // @synthesize SubscriptionRequest=_SubscriptionRequest;

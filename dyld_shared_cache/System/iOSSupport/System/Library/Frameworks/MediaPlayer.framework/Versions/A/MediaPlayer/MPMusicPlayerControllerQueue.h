@@ -14,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (void)AlbumPreorder__MAPPING_MISSING__;
+- (void)__MPModelPropertyAlbumPreorder__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *items;

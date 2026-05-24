@@ -7,18 +7,15 @@
 @interface IDSQRProtoParticipantUpdateResponse
 {
     CDStruct_62a50c50 _participantIdLists;
-    unsigned int _operationFlags;
-    unsigned int _sessionStateCounter;
-    CDStruct_87dd7fbd _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (unsigned long long);
-- (unsigned long long *);
+- (unsigned long long *);
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
@@ -28,19 +25,15 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)32@0:(id)arg1 8I16C20*24;
+- (void):(id)arg1 flags:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSessionStateCounter;
 @property(nonatomic) unsigned int operationFlags; // @synthesize operationFlags=_operationFlags;
-@property(readonly, nonatomic) unsigned long long *participantIdLists;
-@property(readonly, nonatomic) unsigned long long participantIdListsCount;
-@property(nonatomic) unsigned int sessionStateCounter; // @synthesize sessionStateCounter=_sessionStateCounter;
 
 @end
 

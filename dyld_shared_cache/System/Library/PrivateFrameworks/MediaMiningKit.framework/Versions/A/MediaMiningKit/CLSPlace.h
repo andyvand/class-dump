@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, CLSLitePlacemark, NSString;
+@class CLCircularRegion, NSString;
 
 @interface CLSPlace
 {
     NSString *_name;
-    CLCircularRegion *_region;
-    CLSLitePlacemark *_placemark;
 }
 
 + (_Bool);
@@ -23,12 +21,9 @@
 - (void);
 - (struct CLLocationCoordinate2D);
 - (void);
-- (id)Search:limitTo:error: /* Error: Ran out of types for this method. */;
+- (id)suggestContactMatchesWithFullTextSearch:limitTo:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) CLSLitePlacemark *placemark; // @synthesize placemark=_placemark;
 @property(readonly, nonatomic) CLCircularRegion *region; // @synthesize region=_region;
 
 @end

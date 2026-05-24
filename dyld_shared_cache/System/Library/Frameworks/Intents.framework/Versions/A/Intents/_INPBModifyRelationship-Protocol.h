@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBString;
-
 @protocol _INPBModifyRelationship
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRemoval;
-@property(readonly, nonatomic) _Bool hasTargetRelationship;
 @property(nonatomic) _Bool isRemoval;
-@property(retain, nonatomic) _INPBString *targetRelationship;
 @end
 

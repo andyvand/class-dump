@@ -5,5 +5,8 @@
 //
 
 @protocol FCNewsAppConfigurationObserving
+
+@optional
+- (void);
 @end
 

@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SGPipelineTransformer
 {
     NSArray *_transformers;
 }
 
-+ (id);
++ (id)dataWithJSONObject:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)decodeCardNumberFromBlock0:(id)arg1 andBlock1:(unsigned long long)arg2;
+- (id)decodeCardNumberFromBlock0:(id)arg1 andBlock1: /* Error: Ran out of types for this method. */;
+- (id)dataWithJSONObject:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) NSArray *transformers; // @synthesize transformers=_transformers;
 
 @end

@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSPasteboard;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _NSPasteboardOwnersCollection
 {
     NSMapTable *_ownersByIndex;
-    NSMapTable *_ownerCounts;
-    NSPasteboard *_pasteboard;
 }
 
+- (void)tor:(id)arg1 0x%x
+;
+- (void)had an unexpected size of %zu instead of %zu or %zu.;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_initWithListOfProtectionSpaces:(id)arg1 CurrentProtectionSpace:proposedCredential:previousFailureCount:failureResponse:error:sender: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)TouchBarItemCustomizationLabel;
+- (void)NSTouchBarItemCustomizationLabel;
 
 @end
 

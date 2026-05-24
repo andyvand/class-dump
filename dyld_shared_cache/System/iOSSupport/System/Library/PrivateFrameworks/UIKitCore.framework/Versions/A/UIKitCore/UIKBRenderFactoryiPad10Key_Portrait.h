@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (id);
 - (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)nickname:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ng key store;
+- (double)l nickname fetch with nickname:%@, updating key store /* Error: Ran out of types for this method. */;
+- (id)e callback with callback dictionary:%@ /* Error: Ran out of types for this method. */;
+- (id)ged files;
+- (id)ing up:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)pelineComponent> Started processing mark as reviewed chats:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)@-%@ [identifier-domain-chatIdentifier];
+- (struct CGPoint)IMPendingReplicatedMessageCache;
 - (double);
-- (id);
-- (id);
-- (id);
-- (struct CGPoint);
-- (unsigned long long);
-- (struct CGPoint);
-- (double);
-- (id);
+- (id)?;
 - (struct CGPoint);
 - (id);
 - (void);

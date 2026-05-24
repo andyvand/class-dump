@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CUIKIntegrationAlert
 {
     CDUnknownBlockType _cancelBlock;
-    NSString *_title;
-    NSString *_message;
-    NSArray *_actions;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)eenUtils>";
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

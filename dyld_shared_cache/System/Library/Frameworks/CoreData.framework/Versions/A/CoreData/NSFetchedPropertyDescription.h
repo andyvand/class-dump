@@ -6,29 +6,26 @@
 
 #import <CoreData/NSPropertyDescription.h>
 
-@class NSFetchRequest, NSString;
+@class NSFetchRequest;
 
 @interface NSFetchedPropertyDescription : NSPropertyDescription
 {
     void *_reserved5;
-    void *_reserved6;
-    NSFetchRequest *_fetchRequest;
-    NSString *_lazyFetchRequestEntityName;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
+- (id)H;
 - (id);
-- (id);
-- (void);
+- (void)a;
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)C;
 - (_Bool);
 - (void)
 × ;

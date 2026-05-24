@@ -7,25 +7,6 @@
 @interface MailUI.MUIHighlightedMessagesViewModel
 {
     id logger;
-    id _messages;
-    id _mailboxes;
-    id _showBelowLineMessages;
-    id _layoutValues;
-    id _contactPhotoPreferenceIsVisible;
-    id _messageListFont;
-    id _headerTextFont;
-    id _footerTextFont;
-    id delegate;
-    id contactStore;
-    id avatarGenerator;
-    id contactPhotoPreferenceObserver;
-    id cachedBelowLineMessagesSummary;
-    id cachedBelowLineMessagesWithAddresses;
-    id contactsByCollectionItemID;
-    id _containerInsets;
-    id _selectedObjectID;
-    id _cellLayoutValues;
-    id _$observationRegistrar;
 }
 
 @end

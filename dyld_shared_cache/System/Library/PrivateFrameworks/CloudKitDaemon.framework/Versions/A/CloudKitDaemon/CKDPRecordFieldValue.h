@@ -4,39 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAsset, CKDPDate, CKDPEncryptedMergeableValue, CKDPFieldCryptoFeatureSet, CKDPLocationCoordinate, CKDPMergeableValue, CKDPPackage, CKDPRecordReference, CKDPStreamingAsset, NSData, NSMutableArray, NSString;
-
 @interface CKDPRecordFieldValue
 {
     double _ckDoubleValue;
-    long long _signedValue;
-    CKDPFieldCryptoFeatureSet *_appliedCryptoFeatures;
-    CKDPAsset *_assetValue;
-    NSData *_bytesValue;
-    CKDPDate *_dateValue;
-    CKDPEncryptedMergeableValue *_encryptedMergeableValue;
-    NSMutableArray *_listValues;
-    CKDPLocationCoordinate *_locationValue;
-    CKDPMergeableValue *_mergeableValue;
-    CKDPPackage *_packageValue;
-    CKDPRecordReference *_referenceValue;
-    CKDPStreamingAsset *_streamingAssetValue;
-    NSString *_stringValue;
-    int _type;
-    _Bool _isEncrypted;
-    struct {
-        unsigned int ckDoubleValue:1;
-        unsigned int signedValue:1;
-        unsigned int type:1;
-        unsigned int isEncrypted:1;
-    } _has;
 }
 
 + (Class);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -51,9 +28,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)endpoint_handleMediaRemoteCommand;
+- (unsigned long long)bufferedAudioEngine_setMagicCookieForAllHoses;
+- (void)^;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -61,15 +38,15 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_createGroupedSenderQueryHandlerForQuery:withObserver:observationIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)_id INTEGER,sender INTEGER,subject_prefix,subject INTEGER,date_sent INTEGER,date_received INTEGER,date_created INTEGER,date_last_viewed INTEGER,mailbox INTEGER,remote_mailbox INTEGER,flags INTEGER,read,flagged,size INTEGER,color,type INTEGER,conversation_id INTEGER DEFAULT -1,snippet TEXT DEFAULT NULL,fuzzy_ancestor INTEGER DEFAULT NULL,automated_conversation INTEGER DEFAULT 0,root_status INTEGER DEFAULT -1,conversation_position INTEGER DEFAULT -1,deleted INTEGER DEFAULT 0,list_id_hash INTEGER NOT NULL DEFAULT 0);;
+- (void)jectIDs;
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -78,21 +55,21 @@
 - (int);
 - (_Bool);
 - (id);
-- (id)edFromCache;
-- (void)s:(_Bool)arg1;
-- (id)hPCSData:(int)arg1;
+- (id)wasFetchedFromCache;
+- (void)setModifyRecordZoneIDs:(_Bool)arg1;
+- (id)initWithPCSData:(int)arg1;
 - (id);
 - (_Bool)oneCreateOperation;
 - (_Bool),V_MMCS;
-- (void)ToUpload;
-- (void)peration;
-- (id)RecordsOperation;
+- (void)_assetsToUpload;
+- (void)CKDLongLivedCallbackRelayOperation;
+- (id)CKDDecryptRecordsOperation;
 - (double)°;
 - (void)Ô;
 - (void);
 - (void)%@ when using anonymous to server share participants;
-- (_Bool)Requirements;
-- (id);
+- (_Bool)signedCryptoRequirements;
+- (id)CALDAV;
 - (_Bool)supported by decline;
 - (long long)ation %@ is not allowed to run without an entitlement;
 - (void)LiteTablePredicateSetup>"8;
@@ -103,37 +80,7 @@
 - (void){;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPFieldCryptoFeatureSet *appliedCryptoFeatures; // @synthesize appliedCryptoFeatures=_appliedCryptoFeatures;
-@property(retain, nonatomic) CKDPAsset *assetValue; // @synthesize assetValue=_assetValue;
-@property(retain, nonatomic) NSData *bytesValue; // @synthesize bytesValue=_bytesValue;
-@property(nonatomic) double ckDoubleValue; // @synthesize ckDoubleValue=_ckDoubleValue;
-@property(retain, nonatomic) CKDPDate *dateValue; // @synthesize dateValue=_dateValue;
-@property(retain, nonatomic) CKDPEncryptedMergeableValue *encryptedMergeableValue; // @synthesize encryptedMergeableValue=_encryptedMergeableValue;
-@property(readonly, nonatomic) _Bool hasAppliedCryptoFeatures;
-@property(readonly, nonatomic) _Bool hasAssetValue;
-@property(readonly, nonatomic) _Bool hasBytesValue;
-@property(nonatomic) _Bool hasCkDoubleValue;
-@property(readonly, nonatomic) _Bool hasDateValue;
-@property(readonly, nonatomic) _Bool hasEncryptedMergeableValue;
-@property(nonatomic) _Bool hasIsEncrypted;
-@property(readonly, nonatomic) _Bool hasLocationValue;
-@property(readonly, nonatomic) _Bool hasMergeableValue;
-@property(readonly, nonatomic) _Bool hasPackageValue;
-@property(readonly, nonatomic) _Bool hasReferenceValue;
-@property(nonatomic) _Bool hasSignedValue;
-@property(readonly, nonatomic) _Bool hasStreamingAssetValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool isEncrypted; // @synthesize isEncrypted=_isEncrypted;
-@property(retain, nonatomic) NSMutableArray *listValues; // @synthesize listValues=_listValues;
-@property(retain, nonatomic) CKDPLocationCoordinate *locationValue; // @synthesize locationValue=_locationValue;
-@property(retain, nonatomic) CKDPMergeableValue *mergeableValue; // @synthesize mergeableValue=_mergeableValue;
-@property(retain, nonatomic) CKDPPackage *packageValue; // @synthesize packageValue=_packageValue;
-@property(retain, nonatomic) CKDPRecordReference *referenceValue; // @synthesize referenceValue=_referenceValue;
-@property(nonatomic) long long signedValue; // @synthesize signedValue=_signedValue;
-@property(retain, nonatomic) CKDPStreamingAsset *streamingAssetValue; // @synthesize streamingAssetValue=_streamingAssetValue;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

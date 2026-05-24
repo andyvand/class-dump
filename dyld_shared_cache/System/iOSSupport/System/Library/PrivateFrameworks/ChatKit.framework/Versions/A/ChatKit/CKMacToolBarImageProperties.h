@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage;
+@class UIImage;
 
 @interface CKMacToolBarImageProperties
 {
     UIImage *_image;
-    NSString *_imageName;
-    UIColor *_tintColor;
 }
 
 - (void);
@@ -19,14 +17,12 @@
 × ;
 - (id)
 × ;
-- (void)RL:(id)arg1 includingPropertiesForKeys:options:errorHandler: /* Error: Ran out of types for this method. */;
+- (void)enumeratorAtURL:(id)arg1 includingPropertiesForKeys:options:errorHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ðí0;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

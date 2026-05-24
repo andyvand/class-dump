@@ -5,5 +5,8 @@
 //
 
 @protocol _UIStateRestorationContinuation
+
+@optional
+- (void (^)(void));
 @end
 

@@ -7,13 +7,6 @@
 @interface AppleMediaServices.AccountCachedServerDataDaemonAccessor
 {
     id $defaultActor;
-    id storedConnection;
-    id currentlyObservedIDs;
-    id observerContinuation;
-    id notificationObserver;
-    id serviceProvider;
-    id previousLazySyncAt;
-    id dataSequence;
 }
 
 @end

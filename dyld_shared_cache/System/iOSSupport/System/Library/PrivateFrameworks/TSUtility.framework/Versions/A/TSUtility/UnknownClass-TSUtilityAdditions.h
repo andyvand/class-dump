@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (TSUtilityAdditions)
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);

@@ -6,23 +6,21 @@
 
 #import <Slideshows/MRCAMLLayer.h>
 
-@class MRImage, MRTextRenderer;
+@class MRImage;
 
 @interface MRCAMLTextLayer : MRCAMLLayer
 {
     MRImage *textImage;
-    MRTextRenderer *textRenderer;
 }
 
-- (void);
-- (void);
+- (void)_uploadQueue;
+- (void)_submissionQueue;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) MRImage *textImage; // @synthesize textImage;
-@property(retain, nonatomic) MRTextRenderer *textRenderer; // @synthesize textRenderer;
 
 @end
 

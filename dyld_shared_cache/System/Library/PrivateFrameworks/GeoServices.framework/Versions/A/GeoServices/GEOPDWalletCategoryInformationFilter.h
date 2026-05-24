@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)sMultiTokenDirection"b1"has_isMultiTokenTitle"b1"has_isMultiTokenType"b1"has_isOrdinal"b1"has_isPersonalName"b1"has_isStopWord"b1"has_isTitle"b1"has_isType"b1"read_alternatives"b1"read_canonicalForm"b1"read_cardinalWord"b1"read_ordinalWord"b1"wrote_anyField"b1};
-- (id)ationQueryItem;
+- (id)_sourceLocationQueryItem;
 - (id)$;
 - (void);
 

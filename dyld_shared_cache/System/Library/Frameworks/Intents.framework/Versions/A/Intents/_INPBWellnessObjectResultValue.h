@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRange, _INPBString;
+@class _INPBDateTimeRange;
 
 @interface _INPBWellnessObjectResultValue
 {
     struct {
         unsigned int resultType:1;
     } _has;
-    int _resultType;
-    _INPBDateTimeRange *_recordDate;
-    _INPBString *_unit;
-    NSArray *_values;
 }
 
 + (Class);
@@ -25,7 +21,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)c;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -36,33 +32,19 @@
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int)scheduling next ask-to-share scan (clientID=%{public}@);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (int)INPBLocationValue"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)veStrings;
+- (id)clearPayloadPrimitiveStrings;
 - (void)otRequired.;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasRecordDate;
-@property(nonatomic) _Bool hasResultType;
-@property(readonly, nonatomic) _Bool hasUnit;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBDateTimeRange *recordDate; // @synthesize recordDate=_recordDate;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBString *unit; // @synthesize unit=_unit;
-@property(copy, nonatomic) NSArray *values; // @synthesize values=_values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

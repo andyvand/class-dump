@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)stringByReallyAbbreviatingWithTildeInPath;
+- (_Bool)snapshotForMessageListSectionDataSource:(id)arg1;
+- (id)setSizeView:(id)arg1;
+- (id)setSigners: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 

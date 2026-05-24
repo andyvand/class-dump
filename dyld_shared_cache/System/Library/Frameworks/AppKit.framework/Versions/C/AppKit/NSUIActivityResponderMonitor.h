@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)InsetForAnchor:areasOfInterest:cornerRadius: /* Error: Ran out of types for this method. */;
-- (_Bool);
++ (id)_coreUIOptionsWithAnchorEdge:anchorPoint:anchorSize:shouldInsetForAnchor:areasOfInterest:cornerRadius: /* Error: Ran out of types for this method. */;
+- (_Bool)_AMFDRDecodeSequenceString;
 - (void);
 - (void);
 - (void);

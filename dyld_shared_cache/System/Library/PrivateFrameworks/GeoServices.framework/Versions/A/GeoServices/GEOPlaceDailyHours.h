@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface GEOPlaceDailyHours
 {
     struct _NSRange _dayOfWeekRange;
-    NSArray *_openIntervals;
 }
 
 + (id);
 + (id);
 - (id);
 - (struct _NSRange);
-- (id);
+- (id)h";
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange dayOfWeekRange; // @synthesize dayOfWeekRange=_dayOfWeekRange;
-@property(readonly, nonatomic) NSArray *openIntervals; // @synthesize openIntervals=_openIntervals;
 
 @end
 

@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACProtobufVariableValue, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface ACProtobufVariableKeyValuePair
 {
     NSString *_key;
-    ACProtobufVariableValue *_value;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)C;
+- (void)Ka;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -31,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) ACProtobufVariableValue *value; // @synthesize value=_value;
 
 @end
 

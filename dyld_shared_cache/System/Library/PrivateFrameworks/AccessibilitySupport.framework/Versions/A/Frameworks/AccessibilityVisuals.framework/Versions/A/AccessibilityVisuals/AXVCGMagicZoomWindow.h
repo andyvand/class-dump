@@ -4,38 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSOperationQueue, NSWindow, _AXVCGMagicZoomWindowInfo;
-
 __attribute__((visibility("hidden")))
 @interface AXVCGMagicZoomWindow
 {
     _Bool _fullscreen;
-    _Bool _smoothImages;
-    _Bool _invertColor;
-    _Bool _keepFullyContainedWithinScreens;
-    _Bool _keepZoomedRegionAndZoomWindowCentersAligned;
-    _Bool _visible;
-    _Bool __referenceWindowCreated;
-    _Bool __invertColorFilterAdded;
-    _Bool __drawingDisabled;
-    _Bool __frameChangedWhileDrawingDisabled;
-    unsigned int __invertColorFilterID;
-    unsigned int __mainCGSConnectionID;
-    unsigned int __zoomWindowID;
-    unsigned int __zoomWindowNumber;
-    double _zoomFactor;
-    unsigned long long _pinnedZoomFrameDuringZoomFactorChanges;
-    long long _level;
-    NSWindow *__referenceWindow;
-    NSLock *__drawingLock;
-    double __previousScreenBackingScaleFactor;
-    _AXVCGMagicZoomWindowInfo *__lastestZoomWindowInfo;
-    NSOperationQueue *__zoomDrawingQueue;
-    NSLock *__zoomInfoLock;
-    struct CGSize _minimumSize;
-    struct CGRect _frame;
-    struct CGRect _zoomedRegionFrame;
-    struct CGRect __frameBeforeGoingFullscreen;
 }
 
 + (id);
@@ -44,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (long long);
++ (long long)Iz;
 + (id);
 - (struct CGSize);
 - (struct CGRect);
@@ -55,24 +27,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)Ҷ;
 - (long long);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)?%@qa;
+- (_Bool)`;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)?%@qa;
 - (void);
 - (void);
 - (void);
@@ -85,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -96,74 +68,42 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)@y	?%@q;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)o}"(&@!;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
 - (struct CGSize);
-- (struct CGPoint);
+- (struct CGPoint)_;
 - (void);
 - (struct CGRect);
 - (struct CGSize);
-- (void);
-- (void);
+- (void)b;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void)
 × ;
-- (void)ts:(double)arg1;
-- (double)eature:enabled: /* Error: Ran out of types for this method. */;
+- (void)initWithObjects:(double)arg1;
+- (double)stringToShowForFeature:enabled: /* Error: Ran out of types for this method. */;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) _Bool _drawingDisabled; // @synthesize _drawingDisabled=__drawingDisabled;
-@property(retain, nonatomic) NSLock *_drawingLock; // @synthesize _drawingLock=__drawingLock;
-@property(nonatomic) struct CGRect _frameBeforeGoingFullscreen; // @synthesize _frameBeforeGoingFullscreen=__frameBeforeGoingFullscreen;
-@property(nonatomic) _Bool _frameChangedWhileDrawingDisabled; // @synthesize _frameChangedWhileDrawingDisabled=__frameChangedWhileDrawingDisabled;
-@property(nonatomic) _Bool _invertColorFilterAdded; // @synthesize _invertColorFilterAdded=__invertColorFilterAdded;
-@property(readonly, nonatomic) unsigned int _invertColorFilterID; // @synthesize _invertColorFilterID=__invertColorFilterID;
-@property(retain, nonatomic) _AXVCGMagicZoomWindowInfo *_lastestZoomWindowInfo; // @synthesize _lastestZoomWindowInfo=__lastestZoomWindowInfo;
-@property(readonly, nonatomic) unsigned int _mainCGSConnectionID; // @synthesize _mainCGSConnectionID=__mainCGSConnectionID;
-@property(nonatomic) double _previousScreenBackingScaleFactor; // @synthesize _previousScreenBackingScaleFactor=__previousScreenBackingScaleFactor;
-@property(retain, nonatomic) NSWindow *_referenceWindow; // @synthesize _referenceWindow=__referenceWindow;
-@property(nonatomic) _Bool _referenceWindowCreated; // @synthesize _referenceWindowCreated=__referenceWindowCreated;
-@property(retain, nonatomic) NSOperationQueue *_zoomDrawingQueue; // @synthesize _zoomDrawingQueue=__zoomDrawingQueue;
-@property(retain, nonatomic) NSLock *_zoomInfoLock; // @synthesize _zoomInfoLock=__zoomInfoLock;
-@property(nonatomic) unsigned int _zoomWindowID; // @synthesize _zoomWindowID=__zoomWindowID;
-@property(readonly, nonatomic) unsigned int _zoomWindowNumber; // @synthesize _zoomWindowNumber=__zoomWindowNumber;
-@property(nonatomic) struct CGPoint center;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(nonatomic) _Bool fullscreen; // @synthesize fullscreen=_fullscreen;
-@property(nonatomic) _Bool invertColor; // @synthesize invertColor=_invertColor;
-@property(readonly, nonatomic) _Bool isZoomed;
-@property(nonatomic) _Bool keepFullyContainedWithinScreens; // @synthesize keepFullyContainedWithinScreens=_keepFullyContainedWithinScreens;
-@property(nonatomic) _Bool keepZoomedRegionAndZoomWindowCentersAligned; // @synthesize keepZoomedRegionAndZoomWindowCentersAligned=_keepZoomedRegionAndZoomWindowCentersAligned;
-@property(nonatomic) long long level; // @synthesize level=_level;
-@property(nonatomic) long long maxZoomedWindowLevel;
-@property(nonatomic) struct CGSize minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(nonatomic) unsigned long long pinnedZoomFrameDuringZoomFactorChanges; // @synthesize pinnedZoomFrameDuringZoomFactorChanges=_pinnedZoomFrameDuringZoomFactorChanges;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) _Bool smoothImages; // @synthesize smoothImages=_smoothImages;
 @property(nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
-@property(nonatomic) double zoomFactor; // @synthesize zoomFactor=_zoomFactor;
-@property(nonatomic) struct CGPoint zoomedRegionCenter;
-@property(nonatomic) struct CGRect zoomedRegionFrame; // @synthesize zoomedRegionFrame=_zoomedRegionFrame;
-@property(nonatomic) struct CGSize zoomedRegionSize;
 
 @end
 

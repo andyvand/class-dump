@@ -6,13 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 @interface AMSAutomaticDownloadKindsFetchTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
 }
 
 + (id);
@@ -26,7 +24,7 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 + (id)9lM(;
 + (id)ð;
 - (id);
-- (id);
+- (id)group photo:%@ since SMManager does not respond to iMessageGroupPhotoChangedFor: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)¶¹²G0ÆáÛÖÉn}ìÉ§¯Ð²õøü¢Û>ýÙ"eÝWUs¹nU¯ÈÈ¹£6¸¦¯Ð1ëÁYÂúíç;9ï»sÒþ;3é xãíæ×/´¦<T5~Æ2 ùZXûXÑW§A+¶%,¾ÊA¢ad»ÈÏ(Ú^êñ¦°ÎÖ¯,Î^°×´×Çß"lô®TÞåÌ­·¦zuÒ-S;
 - (id)|·|8|äK|£|Qd|¼|C9|¢|u0|ô'|ÎÅ|cê|Î|Üà|Bd|$m|dÏ|O|Tê|»|iê|t|¨8|sÏ|W9|îv|h|øv|?9|L|*m|v|Î|||ÉÅ|¶|FÏ|ÒÅ|]9|¦|}ê|¼|æ¼|&|óK|D|àà||¼||Ï|'||8|xê|ÐK|b|åà|||Î|I9|B|vMÉoh¼ÉMß~Ì®½KNï¦ÇÓ3Ø¡']Þ$*¾ïo3Gój÷ÞÞÖW
@@ -34,14 +32,6 @@ QÏgÌrHêâÌq¿a% 6=fØ4Ïý+Ë¯à	l@¢HNØA¿øi{ñ¬ËºéQ>2®º
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

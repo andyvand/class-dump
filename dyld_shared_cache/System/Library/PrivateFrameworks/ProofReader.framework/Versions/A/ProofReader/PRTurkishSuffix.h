@@ -10,15 +10,9 @@ __attribute__((visibility("hidden")))
 @interface PRTurkishSuffix
 {
     NSString *_pattern;
-    NSString *_name;
-    unsigned char _patternBuffer[16];
-    unsigned char _isOptional[16];
-    unsigned long long _patternBufferLength;
-    int _suffixType;
-    _Bool _postponesApostrophe;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);

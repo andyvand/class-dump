@@ -9,18 +9,17 @@
 @interface DESCategoricalMetadataEncoder
 {
     NSDictionary *_schemaDict;
-    _Bool _useRange;
 }
 
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)entResults.payload.outcome.parameterConfirmation.item.value.query.typeIdentifier.custom.bundleId;
+- (id)ection.values.entity.typeIdentifier.custom.bundleId;
+- (unsigned long long)n.typeIdentifier.custom.bundleId;
+- (unsigned long long)s.parameters.candidate.value.value.enumeration.typeIdentifier.custom.bundleId;
+- (id)Identifier.custom.bundleId;
+- (id)s.candidate.value.value.entity.typeIdentifier.custom.bundleId;
+- (id)questCreated.resolvedParameters.parameters.candidate.value.value.entity.typeIdentifier.custom.bundleId;
+- (id)ustom.bundleId;
+- (id)ontext.ended.voiceIdScores.loggableSharedUserId;
 - (void);
 
 // Remaining properties

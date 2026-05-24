@@ -9,9 +9,6 @@
 @interface _BlastDoorLPMessagesPayload
 {
     _Bool _placeholder;
-    _Bool _needsSubresourceFetch;
-    _Bool _needsCompleteFetch;
-    _BlastDoorLPLinkMetadata *_metadata;
 }
 
 + (id);
@@ -22,10 +19,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)	
 ;
 - (_Bool);
@@ -33,9 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) _BlastDoorLPLinkMetadata *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) _Bool needsCompleteFetch; // @synthesize needsCompleteFetch=_needsCompleteFetch;
-@property(nonatomic) _Bool needsSubresourceFetch; // @synthesize needsSubresourceFetch=_needsSubresourceFetch;
-@property(nonatomic, getter=isPlaceholder) _Bool placeholder; // @synthesize placeholder=_placeholder;
 
 @end
 

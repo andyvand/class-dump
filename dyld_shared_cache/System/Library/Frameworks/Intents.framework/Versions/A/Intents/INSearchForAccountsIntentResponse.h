@@ -6,42 +6,32 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INSearchForAccountsIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)="_os_unfair_lock_opaque"I};
++ (int)ties:(long long)arg1;
++ (long long)initWithFPItem:(int)arg1 automaticallyGenerated:(int)arg2;
++ (_Bool)imageNameFor1024ThumbnailAtURL:(long long)arg1 metadataDictionary: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id)ions/A/AuthKit;
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)makeObjectsPerformSelector:(id)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ENT, will not continue (pid=%d proc=%{public}@ bundleID=%{public}@ codesignID=%{public}@ service=%{public}@ req=%{public}@ entitlements=[%{public}@]);
 - (id);
 - (id);
 - (id);
 - (long long)_bookingDate;
 
 // Remaining properties
-@property(copy) NSArray *accounts;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

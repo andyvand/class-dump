@@ -11,7 +11,6 @@
 @interface SPParsecGroupHeadingResult : SPGroupHeadingResult
 {
     NSString *_rolloverString;
-    NSURL *_focusURL;
 }
 
 - (_Bool);

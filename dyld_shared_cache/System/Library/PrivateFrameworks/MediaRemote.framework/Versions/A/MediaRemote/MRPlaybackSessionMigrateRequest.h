@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContentItem, MRPlaybackSessionMigrateAnalytics, MRPlaybackSessionRequest, MRPlayerPath, MRSendCommandResultStatus, NSData, NSError, NSString, _MRPlaybackSessionMigrateRequestProtobuf;
+@class _MRPlaybackSessionMigrateRequestProtobuf;
 
 @interface MRPlaybackSessionMigrateRequest
 {
     _MRPlaybackSessionMigrateRequestProtobuf *_protobuf;
-    struct os_unfair_lock_s _lock;
-    NSError *_migrateError;
-    NSError *_fallbackError;
-    _Bool _finalized;
-    MRPlaybackSessionMigrateAnalytics *_analytics;
-    unsigned long long _requestType;
-    unsigned long long _fallbackReason;
-    unsigned long long _playbackSessionSize;
 }
 
 - (unsigned int);
@@ -24,9 +16,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,7 +31,7 @@
 - (id);
 - (double);
 - (unsigned int);
-- (void);
+- (void)x;
 - (unsigned long long);
 - (void);
 - (unsigned int);
@@ -53,12 +45,12 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)_jsonDictionaryForURL:(id)arg1;
 - (id);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (double);
 - (id);
 - (id);
@@ -68,40 +60,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (double);
-- (id);
+- (id)inputType;
 - (void)tMessageProtobuf",&,N,V_microphoneConnectionRequestMessage;
 - (void)r path:(unsigned long long)arg1 %@.;
-- (unsigned long long)houldBeginRadioPlayback;
-- (void)ls;
+- (unsigned long long)shouldBeginRadioPlayback;
+- (void)details;
 
 // Remaining properties
-@property(nonatomic) _Bool allowFadeTransition;
-@property(retain, nonatomic) MRContentItem *contentItem;
 @property(nonatomic) unsigned int destinationTypes;
-@property(readonly, nonatomic) double duration;
-@property(nonatomic) long long endpointOptions;
-@property(nonatomic) unsigned long long fallbackReason; // @synthesize fallbackReason=_fallbackReason;
-@property(retain, nonatomic) NSString *initiator;
-@property(nonatomic) unsigned int originatorType;
-@property(nonatomic) double playbackPosition;
-@property(nonatomic) double playbackRate;
-@property(retain, nonatomic) MRPlaybackSessionRequest *playbackSessionRequest;
-@property(nonatomic) unsigned long long playbackSessionSize; // @synthesize playbackSessionSize=_playbackSessionSize;
-@property(nonatomic) unsigned int playbackState;
-@property(nonatomic) long long playerOptions;
-@property(retain, nonatomic) MRPlayerPath *playerPath;
-@property(readonly, nonatomic) _MRPlaybackSessionMigrateRequestProtobuf *protobuf;
-@property(readonly, nonatomic) NSData *protobufData;
-@property(nonatomic) int recipeType;
-@property(readonly, nonatomic) NSString *report;
-@property(retain, nonatomic) NSString *requestID;
-@property(nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
-@property(retain, nonatomic) MRPlayerPath *resolvedPlayerPath;
-@property(retain, nonatomic) MRSendCommandResultStatus *setPlaybackSessionCommandStatus;
 
 @end
 

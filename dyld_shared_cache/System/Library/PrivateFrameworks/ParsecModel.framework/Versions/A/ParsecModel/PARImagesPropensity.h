@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PARImagesPropensity
 {
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) short image; // @dynamic image;
-@property(nonatomic) short other; // @dynamic other;
-@property(nonatomic) short querySuggestion; // @dynamic querySuggestion;
-@property(nonatomic) short recentResult; // @dynamic recentResult;
-@property(nonatomic, copy) NSDate *timestamp; // @dynamic timestamp;
-@property(nonatomic) short zkw; // @dynamic zkw;
 
 @end
 

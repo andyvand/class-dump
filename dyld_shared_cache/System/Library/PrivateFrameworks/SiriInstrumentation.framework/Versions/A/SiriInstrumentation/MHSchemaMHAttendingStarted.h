@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAttendingStarted : SISchemaInstrumentationMessage
 {
     int _startReason;
-    struct {
-        unsigned int startReason:1;
-    } _has;
 }
 
 - (int);
@@ -22,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)pleInternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/x_crl.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,8 +28,6 @@
 - (id)maFLTupleInteraction",&,N,V_tuple;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStartReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int startReason; // @synthesize startReason=_startReason;
 
 @end

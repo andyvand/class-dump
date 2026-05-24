@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, W5Peer;
+@class NSMutableDictionary;
 
 @interface W5DiagnosticsModePeer
 {
     long long _role;
-    W5Peer *_peer;
-    NSMutableDictionary *_info;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)__objc_const;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)__TEXT;
+- (id)CoreServices.framework/Versions/A/CoreServices;
 - (void);
 - (id);
-- (void);
+- (void)leFactor outImageWidth = %lu;
 - (id);
 - (long long);
 - (void);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *info; // @synthesize info=_info;
-@property(retain, nonatomic) W5Peer *peer; // @synthesize peer=_peer;
-@property(nonatomic) long long role; // @synthesize role=_role;
 
 @end
 

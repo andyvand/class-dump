@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)_callerIDForRelay;
+- (id)lastScheduledMessageCreatedDate;
+- (_Bool)IMDServiceSession_Base;
 - (void)âÝøn\;
 - (id)J;
 

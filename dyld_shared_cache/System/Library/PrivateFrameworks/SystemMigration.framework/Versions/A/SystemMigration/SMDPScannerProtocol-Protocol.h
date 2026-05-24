@@ -5,5 +5,7 @@
 //
 
 @protocol SMDPScannerProtocol
+- (void)Lh;
+- (void);
 @end
 

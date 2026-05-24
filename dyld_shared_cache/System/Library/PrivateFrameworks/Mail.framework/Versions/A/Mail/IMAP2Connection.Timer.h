@@ -7,9 +7,6 @@
 @interface IMAP2Connection.Timer
 {
     id workItem;
-    id underlying;
-    id counter;
-    id queue;
 }
 
 @end

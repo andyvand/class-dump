@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (id);
++ (id)<K;
 - (void);
 - (void);
 - (void);

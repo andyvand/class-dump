@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioChannelLayout, NSArray;
+@class AVAudioChannelLayout;
 
 @interface AVAudioAggregateStreamTopology
 {
 }
 
 + (id);
-+ (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
++ (id);
+- (_Bool)NEIKEv2KeyExchangeHandlerMODP;
+- (_Bool)NEIKEv2ConfigurationMessage;
+- (id)_TtCE16NetworkExtensionCSo27NEExtensionBaseProviderHost21NEAppExtensionMonitor;
+- (_Bool)_TtP16NetworkExtension42NEHotspotEvaluationProviderHostXPCProtocol_;
+- (id)_TtC16NetworkExtensionP33_8A6EAEC7B0CD28E3C1D36D746A66647F32NEIKEv2CryptoKitSPAKE2PlusProver;
+- (id)_TtC16NetworkExtensionP33_8A6EAEC7B0CD28E3C1D36D746A66647F32NEIKEv2CryptoKitSPAKE2PlusProver;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)king Alerts:(id)arg1 Couldn't create xpc object in SSDSetCFValue
+;
 - (unsigned long long)²Ô(%;
 
 // Remaining properties
 @property(readonly, nonatomic) AVAudioChannelLayout *channelLayout;
-@property(readonly, nonatomic) NSArray *hardwareStreams;
-@property(readonly, nonatomic) _Bool hasCustomChannelMappings;
-@property(readonly, nonatomic) unsigned long long policy;
 
 @end
 

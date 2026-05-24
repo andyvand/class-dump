@@ -6,13 +6,11 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFPairingKey, NSString;
+@class NSString;
 
 @interface HMFPairingIdentity : HMFObject
 {
     NSString *_identifier;
-    HMFPairingKey *_publicKey;
-    HMFPairingKey *_privateKey;
 }
 
 + (id);

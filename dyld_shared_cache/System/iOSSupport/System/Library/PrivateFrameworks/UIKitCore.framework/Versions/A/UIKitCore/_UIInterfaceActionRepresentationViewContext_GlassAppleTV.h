@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (struct CGSize);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)muteIdentifiersForChatStyle:(id)arg1 groupID:domainIdentifiers:participantIDs:lastAddressedHandleID:originalGroupID:chatIdentifier: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_contactsChanged: /* Error: Ran out of types for this method. */;
+- (_Bool)rdZoneID;
 - (id);
 - (id);
+- (void)cted to blocklist chat for chatDict:%@ but groupID nil /* Error: Ran out of types for this method. */;
+- (id)IMDPushHandling;
+- (id)e an IDSAccount, please file a radar ********** State:service session = %@, accounts = %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGSize asymmetricalFocusSizeIncrease; // @synthesize asymmetricalFocusSizeIncrease=_asymmetricalFocusSizeIncrease;

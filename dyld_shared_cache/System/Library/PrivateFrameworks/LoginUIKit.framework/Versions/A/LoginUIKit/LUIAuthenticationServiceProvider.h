@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString, NSXPCConnection;
-@protocol AuthenticationHintsDelegate, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface LUIAuthenticationServiceProvider
 {
     NSObject<OS_dispatch_queue> *providerQueue;
-    NSString *_serviceName;
-    NSString *_userName;
-    NSXPCConnection *_serviceConnection;
-    NSError *_error;
-    _Bool _sessionUnlocked;
-    _Bool _serviceActive;
-    id <AuthenticationHintsDelegate> _hintsDelegate;
-    long long _mode;
 }
 
 - (void);
@@ -29,7 +21,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -40,18 +32,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)t;
 - (void);
 - (id)ication, reseting window alpha values to 1.0;
 
 // Remaining properties
-@property(copy) NSError *error; // @synthesize error=_error;
-@property id <AuthenticationHintsDelegate> hintsDelegate; // @synthesize hintsDelegate=_hintsDelegate;
-@property long long mode; // @synthesize mode=_mode;
-@property _Bool serviceActive; // @synthesize serviceActive=_serviceActive;
-@property(retain) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(copy) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property _Bool sessionUnlocked; // @synthesize sessionUnlocked=_sessionUnlocked;
 @property(copy) NSString *userName; // @synthesize userName=_userName;
 
 @end

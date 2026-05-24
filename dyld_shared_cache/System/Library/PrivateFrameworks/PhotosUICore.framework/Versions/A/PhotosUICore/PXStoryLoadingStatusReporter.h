@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PXStoryLoadingStatusReporter
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _lock_statesCount;
-    unsigned long long _lock_statesCapacity;
-    CDStruct_a06f635e *_lock_states;
-    NSMutableDictionary *_lock_stateIndexByClipIdentifier;
-    NSDate *_lock_lastUserActivity;
-    NSObject<OS_os_log> *_log;
-    unsigned long long _logContext;
 }
 
 - (void);
@@ -29,7 +22,7 @@
 - (void);
 - (CDStruct_a06f635e *);
 - (unsigned char);
-- (void);
+- (void);
 - (id);
 - (void)_invalidateManuallyCuratedAssets;
 - (id)ry results failed to fetch all Memories. The could be expected if a collection was deleted.
@@ -42,7 +35,6 @@ Collections returned:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) unsigned long long logContext; // @synthesize logContext=_logContext;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsArticles.ReportConcernDetailEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
 }
 
 @end

@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEODirectionsError, GEODirectionsRequest, NSError;
+@class GEOComposedRoute;
 
 __attribute__((visibility("hidden")))
 @interface _MNRouteEditorRequestGeometryStepResult
 {
     GEOComposedRoute *_route;
-    GEODirectionsRequest *_directionsRequest;
-    NSError *_error;
-    GEODirectionsError *_directionsError;
 }
 
+- (void));
+- (id);
+- (id);
+- (id);
+- (void)y^;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)uest is the same, new client (%{public}@) context should be updated for control:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) GEODirectionsError *directionsError; // @synthesize directionsError=_directionsError;
-@property(retain, nonatomic) GEODirectionsRequest *directionsRequest; // @synthesize directionsRequest=_directionsRequest;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
 
 @end

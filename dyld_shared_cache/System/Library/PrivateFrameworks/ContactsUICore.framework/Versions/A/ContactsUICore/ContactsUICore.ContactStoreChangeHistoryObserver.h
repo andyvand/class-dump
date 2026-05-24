@@ -7,10 +7,6 @@
 @interface ContactsUICore.ContactStoreChangeHistoryObserver
 {
     id store;
-    id changeHistoryToken;
-    id observer;
-    id requiredKeys;
-    id queue;
 }
 
 @end

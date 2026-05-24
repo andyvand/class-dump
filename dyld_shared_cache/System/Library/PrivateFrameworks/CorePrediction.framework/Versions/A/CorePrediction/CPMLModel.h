@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPMLModelEvaluate, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CPMLModelEvaluate, NSString;
 
 @interface CPMLModel
 {
     NSString *_savedPlistPath;
-    NSString *_modelPath;
-    NSObject<OS_dispatch_queue> *_dispatch_queue;
-    void *_mData;
-    unsigned long long _totalBytesIntSection;
-    unsigned long long _totalBytesRealSection;
-    double *_realBase;
-    CPMLModelEvaluate *cpModelEvaluate;
 }
 
-+ (id);
++ (id)v32@0:(id)arg1 8@16@"NSURL"24;
+- (_Bool)Object<NSSidebarTrackingAdapter>";
+- (_Bool)rackingSeparatorToolbarItem";
+- (void)dd}}48@80;
+- (void)"NSSharingServicePicker"16@"NSSharingService"24;
+- (void)@"NSSharingService"24;
+- (void)@0:(id)arg1 8@"NSTitlebarAccessoryViewController"16;
+- (id)IOHIDEvent=}16;
+- (id)rowserViewController>"16@0:(id)arg1 8;
+- (id)SData"16@0:(id)arg1 8;
+- (id)archScopeBarController";
+- (id)"NSOpenPanel";
+- (id)ndow>";
+- (void)Error">40;
+- (id)v36@0:8@16B24@?28 /* Error: Ran out of types for this method. */;
+- (id):8@"NSWindow"16 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)reportWithTeamID:(id)arg1 eventType:event:allowCellularAccess:allowExpensiveAccess:bundleID:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

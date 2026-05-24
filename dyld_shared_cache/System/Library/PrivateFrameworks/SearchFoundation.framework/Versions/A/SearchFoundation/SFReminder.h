@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface SFReminder
 {
     NSString *_title;
-    NSDate *_dueDate;
-    NSString *_notes;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)shouldPurgeSideLoadedVocalAttenuationModels;
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (void)phasizedPlaybackStarts;
+- (id);
+- (void)wellFramedSubjectScore;
+- (id)(%@) does not match video identifier (%@);
+- (id)-op media request;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)ionTitle;
+- (void)attachmentSectionTitle;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSDate *dueDate; // @synthesize dueDate=_dueDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *notes; // @synthesize notes=_notes;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

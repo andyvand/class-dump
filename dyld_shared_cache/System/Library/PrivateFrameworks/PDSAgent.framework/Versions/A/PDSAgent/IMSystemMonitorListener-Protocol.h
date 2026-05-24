@@ -5,5 +5,11 @@
 //
 
 @protocol IMSystemMonitorListener
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)ith %d callbacks at QoS %{public}@;
 @end
 

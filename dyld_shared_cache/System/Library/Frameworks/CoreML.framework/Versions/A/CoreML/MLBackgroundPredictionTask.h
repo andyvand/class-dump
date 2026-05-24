@@ -6,13 +6,11 @@
 
 #import <CoreML/MLBackgroundTask.h>
 
-@class MLModelConfiguration, MLPredictionOptions, NSURL;
+@class NSURL;
 
 @interface MLBackgroundPredictionTask : MLBackgroundTask
 {
     NSURL *_modelURL;
-    MLModelConfiguration *_modelConfiguration;
-    MLPredictionOptions *_predictionOptions;
 }
 
 + (Class);
@@ -21,8 +19,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void)to compute the prediction using a user-provided custom layer in a neural network model. It can be an invalid input data or broken/unsupported model.;
 - (void)8:(id)arg1 Code=%@;
 - (void)`¾ú¡-ø¾7vfLÐP>{±ÒÅUëZ^¿Osà]$ ý8Ò¶4y8ÿçÀòáû/¥3øh¹èñùó¡¨_ãõr_.äæ47tÞ@íù5f¯{G·×ëThîIz«æÅ;
@@ -30,9 +28,7 @@
 ÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) MLModelConfiguration *modelConfiguration; // @synthesize modelConfiguration=_modelConfiguration;
 @property(copy, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(copy, nonatomic) MLPredictionOptions *predictionOptions; // @synthesize predictionOptions=_predictionOptions;
 
 @end
 

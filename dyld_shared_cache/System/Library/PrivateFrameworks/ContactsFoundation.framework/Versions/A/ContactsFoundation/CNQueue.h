@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-@protocol CNQueueingStrategy;
+@class NSMutableArray;
 
 @interface CNQueue
 {
     NSMutableArray *_buffer;
-    id <CNQueueingStrategy> _strategy;
 }
 
 + (id);
@@ -28,13 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (id)ndition:nextState:resultSelector: /* Error: Ran out of types for this method. */;
+- (id)initWithInitialState:condition:nextState:resultSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *allObjects;
 @property(readonly, nonatomic) NSMutableArray *buffer; // @synthesize buffer=_buffer;
-@property(readonly) unsigned long long count;
-@property(readonly, nonatomic) id <CNQueueingStrategy> strategy; // @synthesize strategy=_strategy;
 
 @end
 

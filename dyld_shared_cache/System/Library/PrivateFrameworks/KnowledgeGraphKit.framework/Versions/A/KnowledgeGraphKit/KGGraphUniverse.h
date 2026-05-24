@@ -9,26 +9,25 @@
 @interface KGGraphUniverse
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_graphManagerByURL;
 }
 
 + (_Bool);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool)";
 + (void);
 + (id);
-+ (void);
++ (void)ibswiftCoreFoundation.dylib;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)computeEnclosingAppBundleID;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *graphManagerByURL; // @synthesize graphManagerByURL=_graphManagerByURL;

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PREUMMessageMetadata, PREUMTrialExperiment;
-
 @interface PREUMEngagedResponseList
 {
     unsigned long long _timeToTap;
-    unsigned int _engagedItem;
-    PREUMTrialExperiment *_experiment;
-    int _generationStatus;
-    int _inputMethod;
-    NSMutableArray *_items;
-    PREUMMessageMetadata *_msgMetadata;
-    struct {
-        unsigned int timeToTap:1;
-        unsigned int engagedItem:1;
-        unsigned int generationStatus:1;
-        unsigned int inputMethod:1;
-    } _has;
 }
 
 + (Class);
@@ -36,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -54,11 +40,11 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool));
+- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)qa;
+- (void)B;
 - (unsigned long long);
 - (id);
 - (id);
@@ -68,19 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int engagedItem; // @synthesize engagedItem=_engagedItem;
-@property(retain, nonatomic) PREUMTrialExperiment *experiment; // @synthesize experiment=_experiment;
-@property(nonatomic) int generationStatus; // @synthesize generationStatus=_generationStatus;
-@property(nonatomic) _Bool hasEngagedItem;
 @property(readonly, nonatomic) _Bool hasExperiment;
-@property(nonatomic) _Bool hasGenerationStatus;
-@property(nonatomic) _Bool hasInputMethod;
-@property(readonly, nonatomic) _Bool hasMsgMetadata;
-@property(nonatomic) _Bool hasTimeToTap;
-@property(nonatomic) int inputMethod; // @synthesize inputMethod=_inputMethod;
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) PREUMMessageMetadata *msgMetadata; // @synthesize msgMetadata=_msgMetadata;
-@property(nonatomic) unsigned long long timeToTap; // @synthesize timeToTap=_timeToTap;
 
 @end
 

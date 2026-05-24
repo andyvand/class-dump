@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSString;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVCMNotificationDispatcherListenerKey
 {
     AVWeakReference *_weakReferenceToListener;
-    CDUnknownFunctionPointerType _callback;
-    NSString *_name;
-    void *_object;
 }
 
 + (id);

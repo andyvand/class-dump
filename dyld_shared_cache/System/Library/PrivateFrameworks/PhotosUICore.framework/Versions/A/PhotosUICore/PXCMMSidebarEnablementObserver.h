@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibrary, PXCMMCapabilitiesProvider, PXCMMInvitationsDataSourceManager, PXLibraryFilterState;
+@class PHPhotoLibrary;
 
 @interface PXCMMSidebarEnablementObserver
 {
     PHPhotoLibrary *_photoLibrary;
-    PXCMMCapabilitiesProvider *_capabilitiesProvider;
-    PXLibraryFilterState *_libraryFilterState;
-    PXCMMInvitationsDataSourceManager *_dataSourceManager;
-    _Bool _showSidebarItem;
 }
 
 - (void);
@@ -27,14 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool showSidebarItem; // @synthesize showSidebarItem=_showSidebarItem;
-@property(readonly) Class superclass;
 
 @end
 

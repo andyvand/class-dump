@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMIMDFREmojiListCoupleSkinToneView, EMIMDFREmojiListSkinToneView, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface EMIMDFREmojiListDocumentView
 {
     _Bool _gestureCanceled;
-    _Bool _scrollingByExternalTrigger;
-    _Bool _scrollingStartAtCollapsedEdge;
-    NSMutableArray *_labelViews;
-    NSMutableArray *_characterViews;
-    long long _topVisibleCategoryIndex;
-    id _firstTouchID;
-    long long _highlightedCategoryIndex;
-    long long _highlightedCharacterIndex;
-    EMIMDFREmojiListSkinToneView *_skinToneView;
-    EMIMDFREmojiListCoupleSkinToneView *_coupleSkinToneView;
 }
 
-- (long long);
+- (long long)C;
 - (id);
 - (void);
 - (void);
@@ -31,8 +21,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void));
+- (void)t
+;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -45,7 +36,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)h
+;
 - (void);
 - (id);
 - (id);
@@ -62,24 +54,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *characterViews; // @synthesize characterViews=_characterViews;
-@property(retain) EMIMDFREmojiListCoupleSkinToneView *coupleSkinToneView; // @synthesize coupleSkinToneView=_coupleSkinToneView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) id firstTouchID; // @synthesize firstTouchID=_firstTouchID;
-@property _Bool gestureCanceled; // @synthesize gestureCanceled=_gestureCanceled;
-@property(readonly) unsigned long long hash;
-@property long long highlightedCategoryIndex; // @synthesize highlightedCategoryIndex=_highlightedCategoryIndex;
-@property long long highlightedCharacterIndex; // @synthesize highlightedCharacterIndex=_highlightedCharacterIndex;
 @property(retain) NSMutableArray *labelViews; // @synthesize labelViews=_labelViews;
-@property _Bool scrollingByExternalTrigger; // @synthesize scrollingByExternalTrigger=_scrollingByExternalTrigger;
-@property _Bool scrollingStartAtCollapsedEdge; // @synthesize scrollingStartAtCollapsedEdge=_scrollingStartAtCollapsedEdge;
-@property(retain) EMIMDFREmojiListSkinToneView *skinToneView; // @synthesize skinToneView=_skinToneView;
-@property(readonly) Class superclass;
-@property long long topVisibleCategoryIndex; // @synthesize topVisibleCategoryIndex=_topVisibleCategoryIndex;
 
 @end
 

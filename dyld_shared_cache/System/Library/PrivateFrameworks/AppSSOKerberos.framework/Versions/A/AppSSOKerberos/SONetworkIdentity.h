@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol OS_nw_path;
+@class NSString;
 
 @interface SONetworkIdentity
 {
     _Bool _perAppVPN;
-    NSString *_networkFingerprint;
-    NSString *_realm;
-    NSString *_bundleIdentifier;
-    NSObject<OS_nw_path> *_lastpath;
-    NSData *_auditToken;
 }
 
 - (void);
@@ -30,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)rentKey:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -40,11 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *auditToken; // @synthesize auditToken=_auditToken;
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSObject<OS_nw_path> *lastpath; // @synthesize lastpath=_lastpath;
-@property(retain, nonatomic) NSString *networkFingerprint; // @synthesize networkFingerprint=_networkFingerprint;
-@property(nonatomic, getter=isPerAppVPN) _Bool perAppVPN; // @synthesize perAppVPN=_perAppVPN;
 @property(retain, nonatomic) NSString *realm; // @synthesize realm=_realm;
 
 @end

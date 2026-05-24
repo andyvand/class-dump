@@ -6,13 +6,11 @@
 
 #import <HomeAI/HMIVideoProcessingNode.h>
 
-@class NSString;
 @protocol HMIVideoRetimerDelegate;
 
 @interface HMIVideoRetimer : HMIVideoProcessingNode
 {
     struct opaqueCMSampleBuffer *_lastSample;
-    id <HMIVideoRetimerDelegate> _delegate;
 }
 
 + (id)£;
@@ -20,19 +18,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Q;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMIVideoRetimerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

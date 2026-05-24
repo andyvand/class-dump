@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVPersistentTimer, MSVTimer;
+@class MSVPersistentTimer;
 
 @interface MRPersistentTimer
 {
     MSVPersistentTimer *_pTimer;
-    MSVTimer *_timer;
 }
 
 + (_Bool);

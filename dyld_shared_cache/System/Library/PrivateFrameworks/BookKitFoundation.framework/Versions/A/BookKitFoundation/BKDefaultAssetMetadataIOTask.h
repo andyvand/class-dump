@@ -6,37 +6,24 @@
 
 #import <BookKitFoundation/BKAssetMetadataIOTask.h>
 
-@class NSString;
-
 @interface BKDefaultAssetMetadataIOTask : BKAssetMetadataIOTask
 {
     _Bool _cancelled;
-    unsigned long long _totalBytes;
-    unsigned long long _bytesSoFar;
 }
 
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)RB;
 - (void);
-- (void);
+- (void)SAdaptiveImageGlyph"16@"UITextRange"24;
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bytesSoFar; // @synthesize bytesSoFar=_bytesSoFar;
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long totalBytes; // @synthesize totalBytes=_totalBytes;
 
 @end

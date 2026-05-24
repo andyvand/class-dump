@@ -11,28 +11,27 @@
     GEONonTiledInfo *_info;
 }
 
-+ (_Bool)mp:(id)arg1;
++ (_Bool)setHasUpdatedTimeStamp:(id)arg1;
 - (void);
+- (id)h;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)formCompoundFamilyName:(id)arg1;
+- (void)ereResetNotificationWithUserInfo:(id)arg1 ];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool)ilter";
 - (id)EOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@0:(struct _NSZone *)arg1 8Q16;
-- (void)Count;
+- (void)resourcesCount;
 - (id)uestCallback;
 - (id)tÇ;
-- (id)youtStyle;
+- (id)layoutStyle;
 - (id)S7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/arena.cc;
 - (void)@Wÿ>7B=2;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasInfo;
-@property(retain, nonatomic) GEONonTiledInfo *info;
 
 @end
 

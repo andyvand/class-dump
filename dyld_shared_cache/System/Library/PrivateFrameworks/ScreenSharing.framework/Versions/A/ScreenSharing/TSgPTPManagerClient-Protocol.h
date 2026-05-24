@@ -5,5 +5,8 @@
 //
 
 @protocol TSgPTPManagerClient
+
+@optional
+- (void);
 @end
 

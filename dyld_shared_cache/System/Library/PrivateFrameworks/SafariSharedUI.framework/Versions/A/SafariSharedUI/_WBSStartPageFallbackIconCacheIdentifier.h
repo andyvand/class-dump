@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, WBSTemplateIconMonogramConfiguration;
+@class WBSTemplateIconMonogramConfiguration;
 
 @interface _WBSStartPageFallbackIconCacheIdentifier
 {
     WBSTemplateIconMonogramConfiguration *_configuration;
-    NSString *_title;
-    NSString *_url;
-    NSImage *_baseImage;
-    struct CGSize _imageSize;
 }
 
-- (id);
-- (id);
+- (id)	;
+- (id)˿;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -24,14 +20,10 @@
 - (id);
 - (struct CGSize);
 - (id);
-- (void)celClearSearchSuggestionImageCacheTimer;
+- (void)_cancelClearSearchSuggestionImageCacheTimer;
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *baseImage; // @synthesize baseImage=_baseImage;
 @property(readonly, nonatomic) WBSTemplateIconMonogramConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

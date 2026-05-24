@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMEMessageDatagramClient, NSSet;
+
 @protocol HMEMessageDatagramClientDataSource
+- (_Bool)oute update;
+- (NSSet *)ting state, we already have one;
+- (_Bool);
+- (NSSet *)add:(HMEMessageDatagramClient *)arg1 %lu %{private}@, removed:(NSSet *)arg2 %lu %{private}@;
 @end
 

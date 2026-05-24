@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, WBSPasswordManagerWebsiteMetadataEntry, _ASWebsiteNameProvider;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface _ASWebsiteNameFetchOperation
 {
@@ -14,30 +13,25 @@
         _Bool isExecuting;
         _Bool isFinished;
     } _state;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_domain;
-    WBSPasswordManagerWebsiteMetadataEntry *_metadataEntry;
-    _ASWebsiteNameProvider *_provider;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)toggleAllowJavaScriptFromSmartSearchField: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool));
 - (void);
-- (void)mage;
+- (void)firstBulletImage;
 - (_Bool)getWBSPrivacyProxyChangeNotification(void);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) WBSPasswordManagerWebsiteMetadataEntry *metadataEntry; // @synthesize metadataEntry=_metadataEntry;
 
 @end
 

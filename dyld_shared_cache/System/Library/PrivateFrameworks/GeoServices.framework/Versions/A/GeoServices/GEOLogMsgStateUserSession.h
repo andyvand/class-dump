@@ -4,47 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalTime, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateUserSession
 {
     PBUnknownFields *_unknownFields;
-    struct GEOSessionID _deviceLocalSessionId;
-    struct GEOSessionID _initialDeviceSessionId;
-    struct GEOSessionID _navSessionId;
-    struct GEOSessionID _preSyncSessionId;
-    struct GEOSessionID _sessionId;
-    double _ageOfSessionIdInSeconds;
-    GEOLocalTime *_eventTime;
-    double _lastIcloudSyncDate;
-    double _navSessionRelativeTimestamp;
-    double _relativeTimestamp;
-    unsigned long long _sessionCreateHour;
-    unsigned long long _sessionEpoch;
-    unsigned int _sequenceNumber;
-    unsigned int _userCohortValue;
-    _Bool _didPreviouslyRotate;
-    _Bool _hasRotated;
-    struct {
-        unsigned int has_deviceLocalSessionId:1;
-        unsigned int has_initialDeviceSessionId:1;
-        unsigned int has_navSessionId:1;
-        unsigned int has_preSyncSessionId:1;
-        unsigned int has_sessionId:1;
-        unsigned int has_ageOfSessionIdInSeconds:1;
-        unsigned int has_lastIcloudSyncDate:1;
-        unsigned int has_navSessionRelativeTimestamp:1;
-        unsigned int has_relativeTimestamp:1;
-        unsigned int has_sessionCreateHour:1;
-        unsigned int has_sessionEpoch:1;
-        unsigned int has_sequenceNumber:1;
-        unsigned int has_userCohortValue:1;
-        unsigned int has_didPreviouslyRotate:1;
-        unsigned int has_hasRotated:1;
-    } _flags;
 }
 
-+ (_Bool)sSupportsGuidanceEventPrivacyFilters:(id)arg1;
++ (_Bool)setHasSupportsGuidanceEventPrivacyFilters:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -61,11 +28,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)auditd_swap_trail;
 - (_Bool);
 - (void);
-- (double);
-- (void);
+- (double)componentsSeparatedByString: /* Error: Ran out of types for this method. */;
+- (void)_firstAudioPacketTimestamp;
 - (void);
 - (id);
 - (_Bool);
@@ -74,35 +41,36 @@
 - (struct GEOSessionID);
 - (unsigned int);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)
+;
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)n the XPC connection when sending a new flow message:%s /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)B,R,N,G_acceptsApplePay;
 - (void);
 - (_Bool);
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)SRDTranscriptionToken;
 - (void)0@ù
 × ;
 - (double);
-- (id)ainedSearch:(struct _NSZone *)arg1 maxResults:suppressResultsRequiringAttribution:traits:searchSessionData: /* Error: Ran out of types for this method. */;
-- (void)cationUpdatesDesiredAccuracyForWalking;
-- (void);
-- (_Bool)pe: /* Error: Ran out of types for this method. */;
-- (id)estinationLocation: /* Error: Ran out of types for this method. */;
-- (struct GEOSessionID)ManifestListenerCallbackWithQueue;
+- (id)ticketForSearchQuery:(struct _NSZone *)arg1 completionItem:retainedSearch:maxResults:suppressResultsRequiringAttribution:traits:searchSessionData: /* Error: Ran out of types for this method. */;
+- (void)locationUpdatesDesiredAccuracyForWalking;
+- (void)isForServerIdentifier:(_Bool)arg1;
+- (_Bool)_isConnectionType: /* Error: Ran out of types for this method. */;
+- (id)StringAsDestinationLocation: /* Error: Ran out of types for this method. */;
+- (struct GEOSessionID)_GEOURLManifestListenerCallbackWithQueue;
 - (id);
 - (id);
 - (_Bool)ÿ;
@@ -127,39 +95,7 @@
 - (_Bool)6;
 
 // Remaining properties
-@property(nonatomic) double ageOfSessionIdInSeconds;
-@property(nonatomic) struct GEOSessionID deviceLocalSessionId;
-@property(nonatomic) _Bool didPreviouslyRotate;
-@property(retain, nonatomic) GEOLocalTime *eventTime;
-@property(nonatomic) _Bool hasAgeOfSessionIdInSeconds;
-@property(nonatomic) _Bool hasDeviceLocalSessionId;
-@property(nonatomic) _Bool hasDidPreviouslyRotate;
-@property(readonly, nonatomic) _Bool hasEventTime;
-@property(nonatomic) _Bool hasHasRotated;
-@property(nonatomic) _Bool hasInitialDeviceSessionId;
-@property(nonatomic) _Bool hasLastIcloudSyncDate;
-@property(nonatomic) _Bool hasNavSessionId;
-@property(nonatomic) _Bool hasNavSessionRelativeTimestamp;
-@property(nonatomic) _Bool hasPreSyncSessionId;
-@property(nonatomic) _Bool hasRelativeTimestamp;
-@property(nonatomic) _Bool hasRotated;
-@property(nonatomic) _Bool hasSequenceNumber;
-@property(nonatomic) _Bool hasSessionCreateHour;
-@property(nonatomic) _Bool hasSessionEpoch;
 @property(nonatomic) _Bool hasSessionId;
-@property(nonatomic) _Bool hasUserCohortValue;
-@property(nonatomic) struct GEOSessionID initialDeviceSessionId;
-@property(nonatomic) double lastIcloudSyncDate;
-@property(nonatomic) struct GEOSessionID navSessionId;
-@property(nonatomic) double navSessionRelativeTimestamp;
-@property(nonatomic) struct GEOSessionID preSyncSessionId;
-@property(nonatomic) double relativeTimestamp;
-@property(nonatomic) unsigned int sequenceNumber;
-@property(nonatomic) unsigned long long sessionCreateHour;
-@property(nonatomic) unsigned long long sessionEpoch;
-@property(nonatomic) struct GEOSessionID sessionId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int userCohortValue;
 
 @end
 

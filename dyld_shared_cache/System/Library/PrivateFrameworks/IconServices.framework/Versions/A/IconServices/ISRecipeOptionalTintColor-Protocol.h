@@ -7,7 +7,8 @@
 @class IFColor;
 
 @protocol ISRecipeOptionalTintColor
-- (void)mentation;
+- (IFColor *)ClientBrightnessOverrideNits;
+- (void)dark_icon_segmentation;
 
 // Remaining properties
 @property(retain) IFColor *tintColor;

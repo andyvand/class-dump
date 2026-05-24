@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, SGContactDetailsHolder, SGRecordId;
+@class NSMutableSet, SGContactDetailsHolder;
 
 @interface SGStorageContact
 {
     NSMutableSet *_profiles;
-    long long _masterEntityId;
-    SGRecordId *_recordId;
-    SGContactDetailsHolder *_internalDetectedDetails;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)webView:(long long)arg1 didFailNavigation:withError: /* Error: Ran out of types for this method. */;
++ (id)webView:(id)arg1 decidePolicyForNavigationResponse:decisionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
@@ -34,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)setActions:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
@@ -42,14 +39,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)sInferenceAndGroundTruth;
-- (void)ighest;
+- (void)SGMIMetricsInferenceAndGroundTruth;
+- (void)serialized_contacts_highest;
 
 // Remaining properties
 @property(retain) SGContactDetailsHolder *internalDetectedDetails; // @synthesize internalDetectedDetails=_internalDetectedDetails;
-@property(readonly, nonatomic) long long masterEntityId; // @synthesize masterEntityId=_masterEntityId;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) SGRecordId *recordId; // @synthesize recordId=_recordId;
 
 @end
 

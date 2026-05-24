@@ -12,6 +12,6 @@
 - (void)2;
 - (void)}~;
 - (UITargetedPreview *);
-- (void)er;
+- (void)Solver;
 @end
 

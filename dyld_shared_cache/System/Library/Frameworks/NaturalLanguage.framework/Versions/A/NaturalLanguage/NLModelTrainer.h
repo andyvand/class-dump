@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLDataSet, NLModel, NLModelConfiguration, NSDictionary, NSError;
-@protocol NLModelTrainerDelegate;
+@class NLModelConfiguration;
 
 @interface NLModelTrainer
 {
     NLModelConfiguration *_configuration;
-    NLDataSet *_dataSet;
-    NSDictionary *_options;
-    NLModel *_model;
-    NSError *_trainingError;
-    id <NLModelTrainerDelegate> _delegate;
-    _Bool _delegateRespondsToLogMessage;
-    _Bool _delegateRespondsToShouldStop;
 }
 
-+ (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
++ (id);
+- (id)e;
+- (_Bool)ontroller.m;
+- (void)IPAddLanguageSheet;
+- (id)AppleICUDateFormatStrings;
+- (id)resInputSourceSelectionForKeyboardIDs:] /* Error: Ran out of types for this method. */;
+- (void)oller.m;
 - (Class);
 - (id);
 - (_Bool);
@@ -33,7 +25,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -41,12 +33,6 @@
 
 // Remaining properties
 @property(readonly, copy) NLModelConfiguration *configuration;
-@property(readonly) NLDataSet *dataSet;
-@property(readonly) id <NLModelTrainerDelegate> delegate;
-@property(readonly, copy) NSDictionary *options;
-@property(readonly, copy) NSDictionary *testResults;
-@property(readonly, copy) NLModel *trainedModel;
-@property(readonly, copy) NSError *trainingError;
 
 @end
 

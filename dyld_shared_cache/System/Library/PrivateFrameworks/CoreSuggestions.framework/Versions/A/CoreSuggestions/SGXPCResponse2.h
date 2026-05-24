@@ -18,10 +18,10 @@
 + (_Bool);
 - (id);
 - (id);
+- (void)discoverInitialPropertiesWithConsumer:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (id)rror: /* Error: Ran out of types for this method. */;
+- (void)U;
+- (id)reminderAlarmTriggeredForRecordId:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSSecureCoding> response2; // @synthesize response2=_response2;

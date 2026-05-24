@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue, RPMessageable;
 
 @interface RPHIDGCSession
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSDictionary *_options;
-    id <RPMessageable> _messenger;
 }
 
 - (void);
@@ -19,9 +17,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)p;
 - (void);
-- (void);
+- (void)h;
 - (void);
 
 // Remaining properties

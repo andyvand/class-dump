@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSImage, NSObject, NSString, PXDisplayAssetViewModel, PXDisplayScreenDynamicRangeMonitor, PXImageRequester, PXRegionOfInterest, PXUIMediaProvider, UXView;
-@protocol OS_os_log, PXDisplayAsset, PXDisplayAssetContentViewDelegate;
+@class UXView;
 
 @interface PXDisplayAssetContentView
 {
     CDStruct_af00bf4e _updateFlags;
-    _Bool _canDisplayLoadingIndicator;
-    _Bool _isDisplayingFullQualityContent;
-    _Bool _disableImageRequestsOnResize;
-    _Bool _animatedContentEnabled;
-    _Bool _toneMapVideoToStandardDynamicRange;
-    id <PXDisplayAsset> _asset;
-    long long _playbackStyle;
-    PXUIMediaProvider *_mediaProvider;
-    NSArray *_placeholderImageFilters;
-    double _placeholderTransitionDuration;
-    PXImageRequester *_imageRequester;
-    NSError *_error;
-    long long _preferredImageDynamicRange;
-    PXDisplayAssetViewModel *_viewModel;
-    long long _effectivePreferredImageDynamicRange;
-    id <PXDisplayAssetContentViewDelegate> _delegate;
-    UXView *_contentView;
-    NSError *_latestError;
-    PXDisplayScreenDynamicRangeMonitor *_screenDynamicRangeMonitor;
-    NSImage *_image;
-    double _imageProgress;
-    long long _requestID;
-    double _loadingProgress;
-    struct CGSize _targetSize;
-    struct CGRect _contentBounds;
-    struct CGRect _contentsRect;
 }
 
 + (id);
@@ -63,7 +36,7 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)yz;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -106,15 +79,15 @@
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void)integerValue;
+- (void);
 - (void);
 - (void);
 - (id);
 - (struct CGRect);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -127,12 +100,12 @@
 - (void)× ;
 - (id)"d"fadeOut"d};
 - (id),N,V_showFilterView;
-- (void)XAssistantListViewItem;
-- (void)KitMoveToPersonalLibraryActionPerformer;
+- (void)PXAssistantListViewItem;
+- (void)PXPhotoKitMoveToPersonalLibraryActionPerformer;
 - (void)9ÿÿÿÿÿ;
 - (void)ø;
 - (void);
-- (void)agerSerialQueue;
+- (void)PXMediaTypeInfoManagerSerialQueue;
 - (id)ype=?;
 - (id)seLowMemoryMode:%@
  /* Error: Ran out of types for this method. */;
@@ -144,43 +117,7 @@
 - (id).Nìj>;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimatedContentEnabled) _Bool animatedContentEnabled; // @synthesize animatedContentEnabled=_animatedContentEnabled;
-@property(retain, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;
-@property(nonatomic) _Bool canDisplayLoadingIndicator; // @synthesize canDisplayLoadingIndicator=_canDisplayLoadingIndicator;
-@property(nonatomic) struct CGRect contentBounds; // @synthesize contentBounds=_contentBounds;
 @property(readonly, nonatomic) UXView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) struct CGRect contentsRect; // @synthesize contentsRect=_contentsRect;
-@property(readonly, nonatomic) struct CGRect currentContentsRect;
-@property(readonly, nonatomic) NSImage *currentImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXDisplayAssetContentViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableImageRequestsOnResize; // @synthesize disableImageRequestsOnResize=_disableImageRequestsOnResize;
-@property(nonatomic) long long effectivePreferredImageDynamicRange; // @synthesize effectivePreferredImageDynamicRange=_effectivePreferredImageDynamicRange;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) double imageProgress; // @synthesize imageProgress=_imageProgress;
-@property(readonly, nonatomic) PXImageRequester *imageRequester; // @synthesize imageRequester=_imageRequester;
-@property(nonatomic) _Bool isDisplayingFullQualityContent; // @synthesize isDisplayingFullQualityContent=_isDisplayingFullQualityContent;
-@property(retain, nonatomic) NSError *latestError; // @synthesize latestError=_latestError;
-@property(readonly, nonatomic) double loadingProgress; // @synthesize loadingProgress=_loadingProgress;
-@property(readonly, nonatomic) NSObject<OS_os_log> *log;
-@property(retain, nonatomic) PXUIMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(copy, nonatomic) NSArray *placeholderImageFilters; // @synthesize placeholderImageFilters=_placeholderImageFilters;
-@property(nonatomic) double placeholderTransitionDuration; // @synthesize placeholderTransitionDuration=_placeholderTransitionDuration;
-@property(readonly, nonatomic) long long playbackStyle; // @synthesize playbackStyle=_playbackStyle;
-@property(nonatomic) long long preferredImageDynamicRange; // @synthesize preferredImageDynamicRange=_preferredImageDynamicRange;
-@property(readonly, nonatomic) PXRegionOfInterest *regionOfInterest;
-@property(nonatomic) long long requestID; // @synthesize requestID=_requestID;
-@property(retain, nonatomic) PXDisplayScreenDynamicRangeMonitor *screenDynamicRangeMonitor; // @synthesize screenDynamicRangeMonitor=_screenDynamicRangeMonitor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
-@property(nonatomic) _Bool toneMapVideoToStandardDynamicRange; // @synthesize toneMapVideoToStandardDynamicRange=_toneMapVideoToStandardDynamicRange;
-@property(retain, nonatomic) PXDisplayAssetViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

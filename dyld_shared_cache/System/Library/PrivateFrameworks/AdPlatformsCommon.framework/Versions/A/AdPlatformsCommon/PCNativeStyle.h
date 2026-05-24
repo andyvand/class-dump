@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PCNativeBorderStyle, PCNativeButtonStyle, PCNativeColor, PCNativeShadowStyle;
+@class PCNativeColor;
 
 @interface PCNativeStyle
 {
     PCNativeColor *_backgroundColor;
-    PCNativeBorderStyle *_borderStyle;
-    PCNativeButtonStyle *_buttonStyle;
-    PCNativeShadowStyle *_shadowStyle;
-    PCNativeColor *_textColor;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)to %@;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (void)failed, deactivating (%@);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) PCNativeColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) PCNativeBorderStyle *borderStyle; // @synthesize borderStyle=_borderStyle;
-@property(retain, nonatomic) PCNativeButtonStyle *buttonStyle; // @synthesize buttonStyle=_buttonStyle;
-@property(retain, nonatomic) PCNativeShadowStyle *shadowStyle; // @synthesize shadowStyle=_shadowStyle;
-@property(retain, nonatomic) PCNativeColor *textColor; // @synthesize textColor=_textColor;
 
 @end
 

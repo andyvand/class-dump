@@ -9,11 +9,6 @@
 @interface AppStoreKit.TodayCardMediaList : AppStoreKit.TodayCardMedia
 {
     id lockups;
-    id marketingText;
-    id artworks;
-    id videos;
-    id artworkLayoutsWithMetrics;
-    id isMediaDark;
 }
 
 @end

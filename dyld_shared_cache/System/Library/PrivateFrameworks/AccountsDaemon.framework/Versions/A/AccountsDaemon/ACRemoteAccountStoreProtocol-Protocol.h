@@ -7,6 +7,13 @@
 @class ACAccount, ACAccountCredential, ACAccountType, NSNumber, NSString, NSURL;
 
 @protocol ACRemoteAccountStoreProtocol
+- (void)Charts.framework/Versions/A/QLCharts;
+- (void);
+- (void)__objc_methlist;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void)ù
 × ;
 - (void)× ;
@@ -20,33 +27,32 @@
 × ;
 - (void)ù1d$Ð1Â0@ù
 × ;
-- (void);
 - (void)ù1d$ð1Â0@ù
 × ;
 - (void)1Â0@ù
 × ;
 - (void)B28@0:(ACAccountType *)arg1 8@16B24;
 - (void)2;
-- (void)ss:(NSString *)arg1;
-- (void)astObject;
+- (void)setEnabled:(NSString *)arg1 forDataclass:(void (^)(ACAccountType *, NSError *))arg2;
+- (void)removeLastObject;
 - (void)pluginWithName:(NSURL *)arg1 inSubpath:(ACAccount *)arg2;
-- (void)eCopy;
-- (void)untSyncMigratedItemWithError:(ACAccount *)arg1;
-- (void)ct:(ACAccountCredential *)arg1;
-- (void)classes;
-- (void)ithDataclassActions:(NSString *)arg1 error:(void (^)(ACAccount *, NSError *))arg2;
-- (void)ssKeys;
-- (void)me:(NSNumber *)arg1 visibility:(NSString *)arg2 supportedDataclasses:(ACAccountType *)arg3 syncableDataclasses:(void (^)(id, NSError *))arg4 credentialType:supportsAuthentication:supportsMultipleAccounts: /* Error: Ran out of types for this method. */;
-- (void)ePath:(ACAccount *)arg1;
-- (void)tion;
+- (void)mutableCopy;
+- (void)createAccountSyncMigratedItemWithError:(ACAccount *)arg1;
+- (void)addObject:(ACAccountCredential *)arg1;
+- (void)_removeMessengerFromYahooSupportedDataclasses;
+- (void)_deleteAccountNoSave:(NSString *)arg1 withDataclassActions:(void (^)(ACAccount *, NSError *))arg2 error: /* Error: Ran out of types for this method. */;
+- (void)_addLinkedInAccessKeys;
+- (void)_addAccountTypeWithIdentifier:(NSNumber *)arg1 displayName:(NSString *)arg2 visibility:(ACAccountType *)arg3 supportedDataclasses:(void (^)(id, NSError *))arg4 syncableDataclasses:credentialType:supportsAuthentication:supportsMultipleAccounts: /* Error: Ran out of types for this method. */;
+- (void)setAuthDelegateClassBundlePath:(ACAccount *)arg1;
+- (void)ACDClientAuthorization;
 - (void);
 - (void)¤_;
 - (void)P235;
 - (void)`ª;
 - (void)$ss21_ObjectiveCBridgeableP;
 - (void);
-- (void)tID;
-- (void)V2;
+- (void)objectID;
+- (void)asyncCredentialRenewalV2;
 - (void)nt:(ACAccount *)arg1 %@ (%@) trace:(NSString *)arg2 %@;
 - (void)keychain for password for service:(NSNumber *)arg1 %@;
 - (void)to clear TCC state for %@";

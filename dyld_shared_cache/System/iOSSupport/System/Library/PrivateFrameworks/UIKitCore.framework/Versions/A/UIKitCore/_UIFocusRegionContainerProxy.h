@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIView, _UIFocusEnvironmentContainerTuple;
-@protocol UIFocusEnvironment, UIFocusItemContainer;
+@class _UIFocusEnvironmentContainerTuple;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusRegionContainerProxy
 {
     _Bool _allowsLazyLoading;
-    _Bool _shouldCreateRegionForOwningItem;
-    _Bool _shouldCreateRegionForGuideBehavior;
-    _UIFocusEnvironmentContainerTuple *_environmentContainer;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)B32B36^@40;
+- (id)setHandleAllowList: /* Error: Ran out of types for this method. */;
+- (id)initWithEnvironmentName:(id)arg1 namedDelegatePort:(id)arg2 queue: /* Error: Ran out of types for this method. */;
+- (id)allbackFilterSubCategory:(id)arg1 filteringProcessingBlock:processDictCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)availabilityStatusTypeIdentifier;
+- (_Bool)ncyInfo",&,N;
+- (_Bool)@;
 - (void);
+- (id)etadata in map for %s;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)e to mark message delivered quietly with missing GUID;
+- (_Bool);
 - (struct CGRect);
 - (void);
 - (void);
@@ -41,53 +37,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)Field:(id)arg1 editMenuForCharactersInRange:suggestedActions: /* Error: Ran out of types for this method. */;
-- (id)sForItemNearestPosition:maximumDistance: /* Error: Ran out of types for this method. */;
-- (void)ackgroundView;
+- (_Bool)textField:(id)arg1 editMenuForCharactersInRange:suggestedActions: /* Error: Ran out of types for this method. */;
+- (id)_layoutAttributesForItemNearestPosition:maximumDistance: /* Error: Ran out of types for this method. */;
+- (void)UIUseCustomBackgroundView;
 - (void)ÿ6õoþ;
 - (_Bool)í13l¯uþí13Ôt°þ;
 - (void)#5;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsLazyLoading; // @synthesize allowsLazyLoading=_allowsLazyLoading;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=_isEligibleForFocusInteraction) _Bool eligibleForFocusInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,G_isEligibleForFocusInteraction
-
-@property(readonly, nonatomic, getter=_isEligibleForFocusOcclusion) _Bool eligibleForFocusOcclusion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,G_isEligibleForFocusOcclusion
-
 @property(retain, nonatomic) _UIFocusEnvironmentContainerTuple *environmentContainer; // @synthesize environmentContainer=_environmentContainer;
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic, getter=_linearFocusMovementSequences) NSArray *linearFocusMovementSequences;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N,G_linearFocusMovementSequences
-
-@property(readonly, nonatomic) id <UIFocusEnvironment> owningEnvironment;
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment;
-@property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly, nonatomic, getter=_preferredFocusMovementStyle) long long preferredFocusMovementStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N,G_preferredFocusMovementStyle
-
-@property(readonly, nonatomic) __weak UIView *preferredFocusedView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,W,N
-
-@property(nonatomic) _Bool shouldCreateRegionForGuideBehavior; // @synthesize shouldCreateRegionForGuideBehavior=_shouldCreateRegionForGuideBehavior;
-@property(nonatomic) _Bool shouldCreateRegionForOwningItem; // @synthesize shouldCreateRegionForOwningItem=_shouldCreateRegionForOwningItem;
-@property(readonly) Class superclass;
 
 @end
 

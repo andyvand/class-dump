@@ -7,8 +7,6 @@
 @interface PFTranscriptProviderBridge
 {
     id wrappedProvider;
-    id managedObjectContext;
-    id workQueue;
 }
 
 + (id)_AAy_ 3Uy

@@ -7,11 +7,11 @@
 @class NSString;
 
 @protocol TIMarkedTextBuffer
+- (NSString *);
+- (void);
+- (_Bool)of path is not a directory:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long externalIndex;
-@property(readonly, nonatomic) NSString *externalString;
-@property(nonatomic) _Bool hardwareKeyboard;
 @property(readonly, nonatomic) long long internalIndex;
 @property(readonly, nonatomic) NSString *internalString;
 @end

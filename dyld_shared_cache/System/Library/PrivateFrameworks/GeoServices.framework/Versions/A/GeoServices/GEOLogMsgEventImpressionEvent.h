@@ -11,19 +11,19 @@
     PBUnknownFields *_unknownFields;
 }
 
-+ (_Bool)asSpokenPrivacyFilterType:(id)arg1;
++ (_Bool)setHasSpokenPrivacyFilterType:(id)arg1;
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ory.cImxkp/Sources/IOUSBHostFamily/IOUSBHostFramework/IOUSBHostPipe.m;
 - (_Bool);
 - (void);
-- (id)mentIndex:(struct _NSZone *)arg1;
+- (id)setStartValidSegmentIndex:(struct _NSZone *)arg1;
 - (id)tionDetails",&,N;
 - (id)n failed:routeIndex < _coordinateCount /* Error: Ran out of types for this method. */;
 - (id);

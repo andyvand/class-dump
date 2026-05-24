@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)ing all unread messages because we have already logged in the past hour.;
+- (id);
 
 @end
 

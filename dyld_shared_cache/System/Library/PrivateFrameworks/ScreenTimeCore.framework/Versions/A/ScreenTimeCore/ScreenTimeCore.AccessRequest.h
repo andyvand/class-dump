@@ -7,12 +7,11 @@
 @interface ScreenTimeCore.AccessRequest
 {
     id resource;
-    id accessType;
 }
 
 + (void);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

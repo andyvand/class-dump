@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AXEMockTimerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AXEMockTimer
 {
     _Bool _valid;
-    _Bool __repeats;
-    id <AXEMockTimerDelegate> _delegate;
-    id _userInfo;
-    double _timeInterval;
-    double _nextFireTime;
-    id __target;
-    SEL __selector;
-    double __startTime;
 }
 
-- (void);
+- (void)?%@qa;
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (SEL);
+- (SEL)}$h&@!;
 - (void);
 - (id);
 - (void);
@@ -38,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (long long);
+- (long long)N2cv8Filter2DIsNS_4CastIfsEENS_11FilterNoVecEEE;
 - (void);
 - (void);
 - (void);
@@ -46,22 +37,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool _repeats; // @synthesize _repeats=__repeats;
-@property(nonatomic) SEL _selector; // @synthesize _selector=__selector;
-@property(nonatomic) double _startTime; // @synthesize _startTime=__startTime;
-@property(retain, nonatomic) id _target; // @synthesize _target=__target;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AXEMockTimerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double nextFireTime; // @synthesize nextFireTime=_nextFireTime;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
-@property(nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

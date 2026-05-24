@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
-
 @interface _INPBMediaDestination
 {
     struct {
         unsigned int mediaDestinationType:1;
     } _has;
-    int _mediaDestinationType;
-    _INPBString *_playlistName;
 }
 
 + (_Bool);
@@ -22,12 +18,12 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)|;
 - (_Bool);
 - (int);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)P;
+- (unsigned long long)H;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -36,17 +32,7 @@
 - (void)a"8@"NSError"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasMediaDestinationType;
-@property(readonly, nonatomic) _Bool hasPlaylistName;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int mediaDestinationType; // @synthesize mediaDestinationType=_mediaDestinationType;
-@property(retain, nonatomic) _INPBString *playlistName; // @synthesize playlistName=_playlistName;
-@property(readonly) Class superclass;
 
 @end
 

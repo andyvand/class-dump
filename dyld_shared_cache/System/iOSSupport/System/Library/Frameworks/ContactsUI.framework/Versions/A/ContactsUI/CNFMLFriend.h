@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFMLHandle, NSDate;
+@class CNFMLHandle;
 
 __attribute__((visibility("hidden")))
 @interface CNFMLFriend
 {
     _Bool _originatedFromTheSameClient;
-    CNFMLHandle *_handle;
-    long long _handleType;
-    NSDate *_createdAt;
-    NSDate *_expiry;
-    long long _origin;
 }
 
-- (id);
+- (id)	;
 - (void);
 - (_Bool);
 - (id);
@@ -26,24 +21,19 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)ivelyListeningForEvents;
 - (id);
 - (long long);
 - (void);
 - (id);
-- (void)ndexPath: /* Error: Ran out of types for this method. */;
-- (long long)fileContentView;
+- (void)_cellForIndexPath: /* Error: Ran out of types for this method. */;
+- (long long)_meCardSharedProfileContentView;
 - (void);
 - (void);
 - (id)Ù!;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(retain, nonatomic) NSDate *expiry; // @synthesize expiry=_expiry;
 @property(retain, nonatomic) CNFMLHandle *handle; // @synthesize handle=_handle;
-@property(nonatomic) long long handleType; // @synthesize handleType=_handleType;
-@property(nonatomic) long long origin; // @synthesize origin=_origin;
-@property(nonatomic) _Bool originatedFromTheSameClient; // @synthesize originatedFromTheSameClient=_originatedFromTheSameClient;
 
 @end
 

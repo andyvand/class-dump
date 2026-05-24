@@ -14,10 +14,10 @@
 + (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@9;
 - (const char *);
-- (id);
-- (id);
+- (id)as unhealthy. Exiting with check passed return value.;
+- (id)M;
 - (id);
 - (void);
 - (id);

@@ -6,24 +6,21 @@
 
 #import <QuickLookSupport/QLExtensionPreview.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface QLCoreSpotlightExtensionPreview : QLExtensionPreview
 {
     NSString *_searchableItemUniqueIdentifier;
-    NSString *_query;
-    NSString *_searchableItemTitle;
-    NSURL *_searchableItemURL;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)/Source/WebKit/Shared/Cocoa/AuxiliaryProcessCocoa.mm;
+- (void)oraryDirectory.4923j9/Sources/WebKit/Source/WebKit/Shared/Cocoa/AuxiliaryProcessCocoa.mm;
+- (id):KeyValuePair<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>>, HashFunctions = WTF::DefaultHash<WebCore::ClientOrigin>, Traits = WTF::HashMap<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ClientOrigin>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)F::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>>, HashFunctions = WTF::DefaultHash<WebCore::ClientOrigin>, Traits = WTF::HashMap<WebCore::ClientOrigin, WTF::HashMap<WTF::String, WTF::String>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ClientOrigin>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)its<WTF:(id)arg1:(id)arg2 ObjectIdentifierGeneric<WebCore:(id)arg3:(id)arg4 ProcessIdentifierType, WTF:(id)arg5:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)a.;
+- (id)@9V;
 - (void);
 - (id);
 - (id);
@@ -31,9 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *query; // @synthesize query=_query;
-@property(copy) NSString *searchableItemTitle; // @synthesize searchableItemTitle=_searchableItemTitle;
-@property(copy) NSURL *searchableItemURL; // @synthesize searchableItemURL=_searchableItemURL;
 @property(copy) NSString *searchableItemUniqueIdentifier; // @synthesize searchableItemUniqueIdentifier=_searchableItemUniqueIdentifier;
 
 @end

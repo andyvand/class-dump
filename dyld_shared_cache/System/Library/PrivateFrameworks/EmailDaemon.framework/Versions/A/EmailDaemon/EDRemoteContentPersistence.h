@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabase, NSBackgroundActivityScheduler, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class EDPersistenceDatabase;
 
 @interface EDRemoteContentPersistence
 {
     long long _currentRowCount;
-    long long _protectedRowCount;
-    _Bool _useAdditionalTable;
-    EDPersistenceDatabase *_database;
-    NSObject<OS_dispatch_queue> *_contentProtectionQueue;
-    NSBackgroundActivityScheduler *_analyticsScheduler;
-    unsigned long long _maximumRemoteContentLinks;
-    unsigned long long _pruneThreshold;
 }
 
 + (id);
 + (id);
-+ (id);
-- (unsigned long long);
++ (id);
+- (unsigned long long)initWithCSInstantAnswers: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -33,14 +25,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)UsoEntityBuilderProtocol_common_Religion;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)qa;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)tatus APEndpointStreamAudioHoseAggregateDeregisterWithParentRegistrar(APEndpointStreamAudioHoseAggregateRef);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -56,19 +48,7 @@
 - (void)QLSelectStatement"16;
 
 // Remaining properties
-@property(readonly, nonatomic) NSBackgroundActivityScheduler *analyticsScheduler; // @synthesize analyticsScheduler=_analyticsScheduler;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *contentProtectionQueue; // @synthesize contentProtectionQueue=_contentProtectionQueue;
 @property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maximumRemoteContentLinks; // @synthesize maximumRemoteContentLinks=_maximumRemoteContentLinks;
-@property(nonatomic) unsigned long long pruneThreshold; // @synthesize pruneThreshold=_pruneThreshold;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useAdditionalTable; // @synthesize useAdditionalTable=_useAdditionalTable;
 
 @end
 

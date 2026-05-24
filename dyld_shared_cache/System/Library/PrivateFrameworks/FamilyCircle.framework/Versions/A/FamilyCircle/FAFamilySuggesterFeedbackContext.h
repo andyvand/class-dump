@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _PSPredictionContext;
+@class _PSPredictionContext;
 
 @interface FAFamilySuggesterFeedbackContext
 {
     _PSPredictionContext *_peopleSuggesterPredictionContext;
-    NSArray *_peopleSuggesterSuggestions;
-    long long _megadomeFeedbackEventId;
 }
 
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (id)SkipToPrevious;
+- (id)watchImageResource;
+- (long long)CENTERED;
+- (id)imageResource;
+- (id)clearContext;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long megadomeFeedbackEventId; // @synthesize megadomeFeedbackEventId=_megadomeFeedbackEventId;
 @property(readonly, nonatomic) _PSPredictionContext *peopleSuggesterPredictionContext; // @synthesize peopleSuggesterPredictionContext=_peopleSuggesterPredictionContext;
-@property(readonly, nonatomic) NSArray *peopleSuggesterSuggestions; // @synthesize peopleSuggesterSuggestions=_peopleSuggesterSuggestions;
 
 @end
 

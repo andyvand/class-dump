@@ -4,36 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAPMailbox, MCInvocationQueue, NSArray, NSMutableDictionary, NSMutableSet, NSRecursiveLock, NSString;
-@protocol IMAPAccount, IMAPConnectionResponseDelegate;
+@class NSRecursiveLock;
 
 @interface IMAPConnection
 {
     NSRecursiveLock *_imapConnectionLock;
-    unsigned long long _capabilityFlags;
-    unsigned long long _enabledCapabilityFlags;
-    long long _connectionState;
-    NSMutableSet *_capabilities;
-    NSString *_separatorChar;
-    NSString *_selectedMailboxName;
-    IMAPMailbox *_selectedIMAPMailbox;
-    _Bool _selectedMailboxIsReadOnly;
-    unsigned long long _commandNumber;
-    unsigned int _readBufferSize;
-    double _expirationTime;
-    MCInvocationQueue *_streamEventQueue;
-    NSMutableDictionary *_unhandledTaggedResponses;
-    unsigned long long _lastIdleSequenceNumber;
-    unsigned long long _lastIdleSessionNumber;
-    _Bool _createsGateway;
-    _Bool _executingInternalReconnect;
-    _Bool _canStartIdle;
-    _Bool _sentID;
-    id <IMAPConnectionResponseDelegate> _responseDelegate;
-    NSString *_selectedMailboxNameForLogging;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -41,8 +19,8 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)k`;
 - (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -76,18 +54,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void):(_Bool)arg1 k;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -95,7 +73,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Thjz85;
 - (void);
 - (void);
 - (void);
@@ -122,23 +100,32 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ing sql to add or update client  %@;
 - (long long);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)s not have a valid path extension. Skipping cache.;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)hardware:%@
+                                    platform:%@
+                                    osProductName:%@
+                                    osVersionString:%@
+                                    osVersion:%@
+                                    osVersionBuild:%@
+                                    osVersionMajor:%ld
+                                    osVersionMinor:%ld
+                                    osVersionPatch:%ld
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -148,22 +135,7 @@
 - (_Bool)d´;
 
 // Remaining properties
-@property __weak id <IMAPAccount> account;
-@property(nonatomic) _Bool canStartIdle; // @synthesize canStartIdle=_canStartIdle;
-@property(readonly, copy) NSArray *capabilities;
-@property(readonly, nonatomic) long long connectionState;
-@property(readonly, nonatomic) long long currentConnectionState;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _Bool isDisconnected;
-@property(readonly, nonatomic) _Bool isIdle;
-@property(nonatomic) unsigned int readBufferSize;
-@property __weak id <IMAPConnectionResponseDelegate> responseDelegate; // @synthesize responseDelegate=_responseDelegate;
-@property(retain, nonatomic) IMAPMailbox *selectedIMAPMailbox;
-@property(readonly, copy, nonatomic) NSString *selectedMailboxName;
-@property(copy, nonatomic) NSString *selectedMailboxNameForLogging; // @synthesize selectedMailboxNameForLogging=_selectedMailboxNameForLogging;
 @property _Bool sentID; // @synthesize sentID=_sentID;
-@property(copy) NSString *separatorChar;
-@property(readonly, copy, nonatomic) NSString *separatorCharIfAvailable;
 
 @end
 

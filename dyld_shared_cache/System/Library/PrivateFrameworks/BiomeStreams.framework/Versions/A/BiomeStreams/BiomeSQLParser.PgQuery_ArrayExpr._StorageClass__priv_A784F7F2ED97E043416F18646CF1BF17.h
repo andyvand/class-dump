@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_ArrayExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _arrayTypeid;
-    id _arrayCollid;
-    id _elementTypeid;
-    id _elements;
-    id _multidims;
-    id _location;
 }
 
 @end

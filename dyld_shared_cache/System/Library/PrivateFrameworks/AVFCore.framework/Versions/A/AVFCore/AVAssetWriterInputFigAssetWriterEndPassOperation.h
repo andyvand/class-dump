@@ -12,11 +12,9 @@ __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputFigAssetWriterEndPassOperation : AVOperation
 {
     struct OpaqueFigAssetWriter *_figAssetWriter;
-    int _trackID;
-    AVAssetWriterInputPassDescription *_nextPassDescription;
 }
 
-- (id);
+- (id)l;
 - (void);
 - (id);
 - (void);

@@ -6,39 +6,26 @@
 
 #import <CFNetwork/NSProxyConnection.h>
 
-@class NSInputStream, NSObject, NSOutputStream, NSString, NSURLSessionStreamTask;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NSProxyConnectionStreamTask : NSProxyConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isConnected;
-    NSString *_host;
-    int _port;
-    _Bool _dataAvailableForReading;
-    NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
-    NSURLSessionStreamTask *_streamTask;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)kCGTextStroke;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

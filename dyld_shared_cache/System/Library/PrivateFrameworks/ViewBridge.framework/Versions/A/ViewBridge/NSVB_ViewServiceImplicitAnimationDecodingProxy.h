@@ -6,33 +6,24 @@
 
 #import <ViewBridge/NSVB_TargetedProxy.h>
 
-@class NSString, NSVB_ViewAnimationAttributes, NSViewServiceMarshal;
+@class NSVB_ViewAnimationAttributes, NSViewServiceMarshal;
 
 __attribute__((visibility("hidden")))
 @interface NSVB_ViewServiceImplicitAnimationDecodingProxy : NSVB_TargetedProxy
 {
     NSVB_ViewAnimationAttributes *_animationAttributes;
-    NSViewServiceMarshal *_serviceMarshal;
-    struct __CFSet *animatedSelectors;
 }
 
 + (id);
-- (void);
+- (void)9;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSViewServiceMarshal *serviceMarshal; // @synthesize serviceMarshal=_serviceMarshal;
-@property(readonly) Class superclass;
 
 @end
 

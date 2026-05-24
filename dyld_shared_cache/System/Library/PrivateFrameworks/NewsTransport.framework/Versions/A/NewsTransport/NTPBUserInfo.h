@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface NTPBUserInfo
 {
     NSMutableArray *_preferredLanguages;
-    NSString *_storefrontId;
-    int _subscriberType;
-    struct {
-        unsigned int subscriberType:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)_stateQueue_outroDuration;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasStorefrontId;
-@property(nonatomic) _Bool hasSubscriberType;
-@property(retain, nonatomic) NSMutableArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
-@property(retain, nonatomic) NSString *storefrontId; // @synthesize storefrontId=_storefrontId;
-@property(nonatomic) int subscriberType; // @synthesize subscriberType=_subscriberType;
 
 @end
 

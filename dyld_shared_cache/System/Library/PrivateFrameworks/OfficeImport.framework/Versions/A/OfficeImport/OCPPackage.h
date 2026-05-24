@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, OCPPackageProperties, OCPPackageRelationshipCollection;
+@class OCPPackageRelationshipCollection;
 
 __attribute__((visibility("hidden")))
 @interface OCPPackage
 {
     OCPPackageRelationshipCollection *mRelationships;
-    OCPPackageProperties *mProperties;
-    NSMutableDictionary *mDefaultContentTypes;
-    NSMutableDictionary *mContentTypeOverrides;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

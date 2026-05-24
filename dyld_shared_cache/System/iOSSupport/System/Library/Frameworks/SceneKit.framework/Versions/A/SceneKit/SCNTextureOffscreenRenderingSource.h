@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SCNTextureOffscreenRenderingSource : SCNTextureSource
 {
     _Bool _usesIOSurface;
-    struct CGSize _framebufferSize;
-    struct __C3DFramebuffer *_framebuffer;
 }
 
 - (void);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct __C3DTexture *);
 - (void);
-- (id);
+- (id);
 
 @end
 

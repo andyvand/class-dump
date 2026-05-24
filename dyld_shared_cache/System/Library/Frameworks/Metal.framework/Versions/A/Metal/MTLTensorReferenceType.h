@@ -6,31 +6,22 @@
 
 #import <Metal/MTLType.h>
 
-@class MTLTensorExtents;
-
 @interface MTLTensorReferenceType : MTLType
 {
     unsigned long long _dataType;
-    long long _tensorDataType;
-    unsigned long long _indexType;
-    MTLTensorExtents *_dimensions;
-    unsigned long long _access;
 }
 
 - (long long);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id)lineState>";
 - (id)onWidth =;
 
 // Remaining properties
-@property(readonly) unsigned long long access; // @synthesize access=_access;
-@property(readonly) MTLTensorExtents *dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly) unsigned long long indexType; // @synthesize indexType=_indexType;
 @property(readonly) long long tensorDataType; // @synthesize tensorDataType=_tensorDataType;
 
 @end

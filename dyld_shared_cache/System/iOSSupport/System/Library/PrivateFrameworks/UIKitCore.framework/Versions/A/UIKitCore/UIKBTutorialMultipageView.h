@@ -6,29 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, NSTimer, UIPageControl, UIScrollView;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface UIKBTutorialMultipageView : UIView
 {
     UIScrollView *_pageScrollView;
-    NSArray *_pageViews;
-    UIPageControl *_pageControl;
-    NSTimer *_nextPageScrollTimer;
-    double _pagingInterval;
 }
 
+- (void)e priorities.;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)eck purgeability status for %{private}s:(id)arg1 %s;
+- (void)ration notice directory path %s;
+- (void)) timestamp:(%@) Messages time date (%@) timestamp:(%@) Server timestamp:(%@) /* Error: Ran out of types for this method. */;
+- (void)ation set for:%@   success:%@ /* Error: Ran out of types for this method. */;
+- (double)e table;
+- (id)g a T1 update. Bailing for now;
+- (id)? %{bool}d;
+- (id)%@ from index;
+- (id)or attachment found:(id)arg1 %@;
 - (void);
 - (void);
 - (id);
@@ -38,18 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)(f;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSTimer *nextPageScrollTimer; // @synthesize nextPageScrollTimer=_nextPageScrollTimer;
-@property(retain, nonatomic) UIPageControl *pageControl; // @synthesize pageControl=_pageControl;
 @property(retain, nonatomic) UIScrollView *pageScrollView; // @synthesize pageScrollView=_pageScrollView;
-@property(retain, nonatomic) NSArray *pageViews; // @synthesize pageViews=_pageViews;
-@property(nonatomic) double pagingInterval; // @synthesize pagingInterval=_pagingInterval;
-@property(readonly) Class superclass;
 
 @end
 

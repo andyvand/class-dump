@@ -4,77 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBrowserDragManager, CKConversation, CKDismissView, IMBalloonPlugin, IMBalloonPluginDataSource, NSArray, NSData, NSNumber, NSString, UIView, UIViewController;
-@protocol CKBrowserViewControllerProtocol, CKBrowserViewControllerSendDelegate, CKExpandedAppViewControllerDelegate, UIViewControllerTransitioningDelegate;
+@class UIViewController;
 
 @interface CKFullScreenCardAppViewController
 {
     _Bool _shouldDisableSnapshotView;
-    _Bool _inTransition;
-    UIViewController<CKBrowserViewControllerProtocol> *_contentViewController;
-    id <CKExpandedAppViewControllerDelegate> _delegate;
-    id <UIViewControllerTransitioningDelegate> _parentTransitioningDelegate;
-    UIView *_contentView;
-    CKDismissView *_dismissView;
-    CKConversation *_conversation;
-    long long _lastKnownDeviceOrientation;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ic_attributedStringByReplacingNewlineCharactersWithWhiteSpace;
+- (_Bool)tachmentsOnly:updateRangeValueToObjectMapBlock:replacementAttributedStringBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)_webView:drawFooterInRect:forPageWithTitle:URL: /* Error: Ran out of types for this method. */;
+- (_Bool)owCancelButton;
+- (_Bool),N,V_hasAttachments;
+- (_Bool)uiModel;
+- (_Bool)typeDescription;
+- (void)diaFilenameExtension;
+- (void)_textLayoutManagerReferences;
+- (void)ICSystemPaperThumbnailService;
+- (void)ICAttachmentInsertionController;
+- (void)ICFolderListSectionIdentifier;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
+- (long long)d;
+- (_Bool)T;
+- (_Bool)s;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)};
+- (id)e;
+- (_Bool){;
+- (_Bool)e;
+- (_Bool)e;
 - (struct CGRect);
-- (long long);
-- (id);
+- (long long)nvalid named style %lu, defaulting to title;
+- (id)8Q16^B24;
+- (void)PX;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (_Bool)ionRow;
 - (void);
 - (_Bool);
-- (_Bool);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)_modificationScore;
 - (_Bool);
 - (id)áúð!TCùñÐ1Â0@ù
 × ;
@@ -88,7 +79,7 @@
 - (_Bool):in scrollToBottomAnimated - content offset change timer /* Error: Ran out of types for this method. */;
 - (unsigned long long)pshot];
 - (id);
-- (void)bugTickHUDView;
+- (void)CKDebugTickHUDView;
 - (void)hÐ/;
 - (long long)N0;
 - (id)°P0;
@@ -96,121 +87,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *adamID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNumber",?,&,N
-
-@property(readonly, nonatomic) unsigned long long badgeValue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) IMBalloonPlugin *balloonPlugin;
-@property(retain, nonatomic) IMBalloonPluginDataSource *balloonPluginDataSource;
-@property(readonly, nonatomic) CKBrowserDragManager *browserDragManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CKBrowserDragManager",?,R,N
-
-@property(readonly, nonatomic) long long browserPresentationStyle;
-@property(readonly, nonatomic) _Bool canReplaceDataSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) UIViewController *canvasViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIViewController",?,R,N
-
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) UIViewController<CKBrowserViewControllerProtocol> *contentViewController; // @synthesize contentViewController=_contentViewController;
-@property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(retain, nonatomic) NSData *conversationEngramID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,&,N
-
-@property(retain, nonatomic) NSString *conversationID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(nonatomic) long long currentBrowserConsumer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKExpandedAppViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CKDismissView *dismissView; // @synthesize dismissView=_dismissView;
-@property(readonly, nonatomic, getter=isDismissing) _Bool dismissing;
-@property(nonatomic) __weak UIView *dragTargetView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,W,N
-
-@property(copy, nonatomic) NSString *generatedSummary;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSArray *generativeContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGRect horizontalSwipeExclusionRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property(readonly, nonatomic) _Bool inExpandedPresentation;
-@property(readonly, nonatomic) _Bool inFullScreenModalPresentation;
-@property(nonatomic) _Bool inTransition; // @synthesize inTransition=_inTransition;
-@property(readonly, nonatomic) _Bool isAlive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool isBusiness;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool isPrimaryViewController;
-@property(nonatomic) _Bool isiMessage;
-@property(nonatomic) long long lastKnownDeviceOrientation; // @synthesize lastKnownDeviceOrientation=_lastKnownDeviceOrientation;
-@property(readonly, nonatomic) _Bool mayBeKeptInViewHierarchy;
-@property(readonly, nonatomic) long long parentModalPresentationStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) __weak id <UIViewControllerTransitioningDelegate> parentTransitioningDelegate; // @synthesize parentTransitioningDelegate=_parentTransitioningDelegate;
-@property(retain, nonatomic) id pluginContext;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,&,N
-
 @property(retain, nonatomic) UIViewController *presentationViewController;
-@property(retain, nonatomic) NSArray *recipients;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,&,N
-
-@property(readonly, nonatomic) UIViewController *remoteViewController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIViewController",?,R,N
-
-@property(nonatomic) __weak id <CKBrowserViewControllerSendDelegate> sendDelegate;
-@property(retain, nonatomic) NSString *sender;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(nonatomic) _Bool shouldDisableSnapshotView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) _Bool shouldShowChatChrome;
-@property(readonly, nonatomic) _Bool shouldSuppressEntryView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsQuickView;
-@property(readonly, nonatomic) _Bool wantsDarkUI;
-@property(readonly, nonatomic) _Bool wantsOpaqueUI;
-@property(readonly, nonatomic) _Bool wasExpandedPresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

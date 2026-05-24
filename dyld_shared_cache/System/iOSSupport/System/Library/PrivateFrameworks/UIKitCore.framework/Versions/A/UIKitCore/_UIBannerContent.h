@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImage;
+@class NSString;
 
 @interface _UIBannerContent
 {
     NSString *_title;
-    NSString *_body;
-    NSString *_imageName;
-    UIImage *_image;
-    UIColor *_backgroundColor;
-    UIColor *_contentColor;
 }
 
 + (id);
-+ (_Bool)on;
++ (_Bool)TextFieldScalesClearButton;
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)h;
+- (void)DynamicIsland;
 - (id)Ôa;
 - (id)1Â0@ù
 × ;
 - (void)¡°!0@ùd°1Â0@ù
 × ;
-- (void)ler:(id)arg1 collapseOntoPrimaryViewController: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1;
-- (void)tageObservable;
+- (void)panelController:(id)arg1 collapseOntoPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (void)initWithItems:(id)arg1 mode: /* Error: Ran out of types for this method. */;
+- (void)_forceStageObservable;
 - (id)a;
 - (void);
 - (id);
@@ -37,11 +32,6 @@
 - (void):( /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) NSString *body; // @synthesize body=_body;
-@property(retain, nonatomic) UIColor *contentColor; // @synthesize contentColor=_contentColor;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

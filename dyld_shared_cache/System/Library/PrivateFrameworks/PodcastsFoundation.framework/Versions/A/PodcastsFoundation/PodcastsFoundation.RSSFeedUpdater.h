@@ -7,21 +7,14 @@
 @interface PodcastsFoundation.RSSFeedUpdater
 {
     id workQueue;
-    id feedQueue;
-    id ctx;
-    id ingesterProvider;
-    id externalFeedDownloader;
-    id pendingRestorationQueue;
-    id requests;
-    id imMetrics;
 }
 
 - (void);
 - (CDUnknownBlockType);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)	k@;
 - (void)odeStateP;
 
 // Remaining properties

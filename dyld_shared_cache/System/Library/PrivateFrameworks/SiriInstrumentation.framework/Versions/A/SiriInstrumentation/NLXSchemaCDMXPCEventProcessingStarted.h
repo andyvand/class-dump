@@ -6,26 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMXPCEventProcessingStarted : SISchemaInstrumentationMessage
 {
     int _processingType;
-    int _xpcType;
-    int _xpcSystemEventType;
-    int _serviceName;
-    struct {
-        unsigned int processingType:1;
-        unsigned int xpcType:1;
-        unsigned int xpcSystemEventType:1;
-        unsigned int serviceName:1;
-    } _has;
 }
 
 - (int);
 - (void);
-- (void);
-- (void);
+- (void)q;
+- (void)t;
 - (void);
 - (void);
 - (void);
@@ -40,9 +29,10 @@
 - (void);
 - (int);
 - (int);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)H;
+- (void)ificates
+;
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -51,18 +41,10 @@
 × ;
 - (id),V_isFaceTimeable;
 - (id)@"GATSchemaGATImageResizingContext",&,N,V_imageResizingContext;
-- (_Bool)meter;
+- (_Bool)IFTSchemaIFTResponseParameter;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProcessingType;
-@property(nonatomic) _Bool hasServiceName;
-@property(nonatomic) _Bool hasXpcSystemEventType;
-@property(nonatomic) _Bool hasXpcType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int processingType; // @synthesize processingType=_processingType;
-@property(nonatomic) int serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) int xpcSystemEventType; // @synthesize xpcSystemEventType=_xpcSystemEventType;
-@property(nonatomic) int xpcType; // @synthesize xpcType=_xpcType;
 
 @end
 

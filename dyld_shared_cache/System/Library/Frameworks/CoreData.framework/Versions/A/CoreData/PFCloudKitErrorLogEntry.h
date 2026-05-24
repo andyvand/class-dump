@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSError;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitErrorLogEntry
 {
     NSError *_error;
-    NSString *_annotation;
 }
 
 - (id);
-- (void);
+- (void);
 
 @end
 

@@ -4,6 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCell, NSView;
+
 @protocol NSOutlineViewDelegate
+
+@optional
+- (void)idingP;
+- (void)gurationCSgGSg;
+- (void)So28UIActivityItemsConfigurationCSgIego_;
+- (void)EQzGtc;
+- (void)ationt;
+- (void)peP;
+- (NSView *);
+- (double)I42BlueprintLayoutSupplementaryAttributesTypeP;
+- (_Bool)8RawValueSYQz;
+- (_Bool)bleP;
+- (_Bool)cMenuItemProviderTypeP;
+- (_Bool)ySfcSg;
+- (_Bool)0BlueprintImpressionActiveSessionProviderP;
+- (_Bool)resentationStateProvidingP;
+- (_Bool)So7UIColorC14statusBarColor_t;
+- (void)P;
+- (void)tcutItemHandlerTypeP;
+- (void)actoryTypeP;
+- (NSCell *)soryP;
+- (void);
 @end
 

@@ -7,6 +7,6 @@
 @interface UnknownClass (SQLRequests)
 - (struct sqlite3_stmt *);
 - (struct sqlite3_stmt *);
-- (id);
+- (id)Ų;
 @end
 

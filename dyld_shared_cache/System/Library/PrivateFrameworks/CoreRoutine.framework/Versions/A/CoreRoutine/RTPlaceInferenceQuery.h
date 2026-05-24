@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID, RTPlaceInference;
+@class NSDate;
 
 @interface RTPlaceInferenceQuery
 {
     NSDate *_date;
-    long long _errorCode;
-    unsigned long long _fidelityPolicyMask;
-    NSUUID *_identifier;
-    RTPlaceInference *_placeInference;
-    NSString *_sourceIdentifier;
 }
 
 @end

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWAutoFocusDriverShortStatisticsAnalyticsPayload
 {
     NSString *_portType;
-    NSDictionary *_afDriverShortStatistics;
 }
 
 - (void);
@@ -18,21 +17,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (id)%;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *afDriverShortStatistics; // @synthesize afDriverShortStatistics=_afDriverShortStatistics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(readonly) Class superclass;
 
 @end
 

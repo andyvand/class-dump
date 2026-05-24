@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol BRCancellable, OS_dispatch_queue;
-
 @interface BROperation
 {
     id _remoteOperation;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned char _uuid[16];
-    id _executionTransation;
-    _Bool _finished;
-    _Bool _waitForRemoteToBeCancelled;
-    _Bool _nonDiscretionary;
 }
 
 - (_Bool);
@@ -25,21 +16,21 @@
 - (void);
 - (id);
 - (oneway void);
+- (_Bool);
 - (_Bool);
+- (void);
+- (void)9;
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id)qh;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)K;
 - (oneway void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -47,19 +38,7 @@
 - (_Bool)returning %d for bundle %@%@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_queue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, getter=isExecuting) _Bool executing;
-@property(readonly, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool nonDiscretionary; // @synthesize nonDiscretionary=_nonDiscretionary;
-@property(retain, nonatomic) NSObject<BRCancellable> *remoteOperation; // @synthesize remoteOperation=_remoteOperation;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool waitForRemoteToBeCancelled; // @synthesize waitForRemoteToBeCancelled=_waitForRemoteToBeCancelled;
 
 @end
 

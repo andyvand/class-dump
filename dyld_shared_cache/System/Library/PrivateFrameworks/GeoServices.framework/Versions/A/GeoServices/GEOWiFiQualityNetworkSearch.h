@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSMutableArray, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOWiFiQualityNetworkSearch
 {
     PBDataReader *_reader;
-    NSMutableArray *_ess;
-    GEOLocation *_location;
-    unsigned long long _radius;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_radius:1;
-        unsigned int read_ess:1;
-        unsigned int read_location:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
@@ -32,13 +20,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)startAudioStreamWithOutError:(id)arg1;
+- (void)CSEndpointLatencyInfo;
+- (unsigned long long)G;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)sionTask"24@"NSHTTPURLResponse"32@"NSURLRequest"40@?<v@?@"NSURLRequest">48;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -49,9 +37,9 @@
 - (id)
 × ;
 - (unsigned long long)d_walkingOptions"b1"wrote_anyField"b1};
-- (id)unt;
+- (id)layersCount;
 - (id)xtSafeRequestTime;
-- (unsigned long long)hreshold;
+- (unsigned long long)NavdLocationReuseThreshold;
 - (id)attempts INT,    success_count INT,    failure_count INT,    bytes_downloaded INT    );;
 - (id)sert_timestamp    ) AND ext_uuid IS NOT NULL;;
 - (void);
@@ -60,10 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *ess;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasRadius;
-@property(retain, nonatomic) GEOLocation *location;
-@property(nonatomic) unsigned long long radius;
 
 @end
 

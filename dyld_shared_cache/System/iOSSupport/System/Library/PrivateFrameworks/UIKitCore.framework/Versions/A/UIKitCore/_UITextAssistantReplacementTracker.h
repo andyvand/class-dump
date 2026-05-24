@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSMutableArray, NSMutableDictionary, NSUUID, NSWritingToolsEditTracker, NSWritingToolsProofreadingController, WTContext;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface _UITextAssistantReplacementTracker
 {
     unsigned long long _offsetForSessionRange;
-    struct _NSRange _sessionContextRange;
-    WTContext *_originalContext;
-    NSWritingToolsEditTracker *_editTracker;
-    NSMutableArray *_replacementDeliveryUUIDs;
-    NSMutableDictionary *_replacementChunksByUUID;
-    NSMutableDictionary *_initialReplacementChunksByUUID;
-    NSUUID *_fallbackDeliveryID;
-    long long _selectedRewriteIndex;
-    NSMutableArray *_previousRewrites;
-    NSMutableArray *_previousRewrittenTexts;
-    _Bool _proofreading;
-    _Bool _finished;
-    long long _compositionSessionState;
-    NSAttributedString *_processedOriginalText;
-    NSAttributedString *_unprocessedOriginalText;
-    NSUUID *_contextUUID;
-    NSWritingToolsProofreadingController *_proofreadingController;
-    NSAttributedString *_originalText;
-    NSAttributedString *_rewrittenText;
 }
 
 - (void);
@@ -47,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct _NSRange);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)}20@0:8i16 /* Error: Ran out of types for this method. */;
+- (unsigned long long)performActionForControlWithDictionaryRepresentation: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)__kIMPersonIdleSinceKey;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -60,43 +41,21 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (id);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
-- (id);
+- (id)56@0:(id)arg1 8@"IDSService"16@"IDSAccount"24@"NSData"32@"NSString"40@"IDSMessageContext"48;
+- (id)NSString"40@"IDSMessageContext"48;
+- (id)syncingEnabled;
+- (struct _NSRange)syncReportDictionaryForAttempt:withSuccess:duration: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)syncDeletesToCloudKitWithActivity:completion: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)p enabled:%@ /* Error: Ran out of types for this method. */;
+- (struct _NSRange)r %p;
+- (struct _NSRange)isteners of service switch request for chat %@;
+- (id)TQ,VsubsegmentLength;
 - (_Bool)Component",R,N;
 - (id)ewCellSwipeContainerView was hit tested that had no children. This indicates UIKit is not properly cleaning up the container view. tableView:%@; responder chain:%@ /* Error: Ran out of types for this method. */;
 - (void)7UIImageCG;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange activeCharacterRange;
-@property(readonly, nonatomic) struct _NSRange activeFullCharacterRange;
-@property(readonly, nonatomic) NSAttributedString *activeText;
-@property(readonly, nonatomic) struct _NSRange activeUnprocessedCharacterRange;
 @property(readonly, nonatomic) NSAttributedString *assembledRewrittenText;
-@property(nonatomic) long long compositionSessionState; // @synthesize compositionSessionState=_compositionSessionState;
-@property(readonly, nonatomic) NSUUID *contextUUID; // @synthesize contextUUID=_contextUUID;
-@property(readonly, nonatomic) struct _NSRange finalCurrentChunkCharacterRange;
-@property(readonly, nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(readonly, nonatomic) _Bool hasProcessedOriginalRange;
-@property(readonly, nonatomic) struct _NSRange initialCurrentChunkCharacterRange;
-@property(readonly, nonatomic) unsigned long long numberOfPreviousRewrittenTexts;
-@property(nonatomic) unsigned long long offsetForSessionRange; // @synthesize offsetForSessionRange=_offsetForSessionRange;
-@property(readonly, nonatomic) struct _NSRange originalCharacterRange;
-@property(readonly, nonatomic) NSAttributedString *originalText; // @synthesize originalText=_originalText;
-@property(readonly, nonatomic) struct _NSRange processedOriginalCharacterRange;
-@property(readonly, nonatomic) NSAttributedString *processedOriginalText; // @synthesize processedOriginalText=_processedOriginalText;
-@property(readonly, nonatomic, getter=isProofreading) _Bool proofreading; // @synthesize proofreading=_proofreading;
-@property(readonly, nonatomic) NSWritingToolsProofreadingController *proofreadingController; // @synthesize proofreadingController=_proofreadingController;
-@property(readonly, nonatomic, getter=isRewriting) _Bool rewriting;
-@property(readonly, nonatomic) struct _NSRange rewrittenCharacterRange;
-@property(readonly, nonatomic) NSAttributedString *rewrittenText; // @synthesize rewrittenText=_rewrittenText;
-@property(readonly, nonatomic) NSAttributedString *unprocessedOriginalText; // @synthesize unprocessedOriginalText=_unprocessedOriginalText;
 
 @end
 

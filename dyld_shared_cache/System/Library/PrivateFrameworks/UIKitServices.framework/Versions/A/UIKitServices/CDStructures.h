@@ -45,8 +45,8 @@ struct CGSize {
 };
 
 struct CGVector {
-    double dx;
-    double dy;
+    double _field1;
+    double _field2;
 };
 
 struct _UISTransform3DGrade {

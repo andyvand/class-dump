@@ -10,14 +10,14 @@
 {
 }
 
-+ (void);
++ (void)t pairing from the HAP accessory :(CDUnknownBlockType)arg1 %@;
 + (id);
+- (void)handle for user:(id)arg1 %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)relay between %@:(id)arg1 %tu (%d,%d);
+- (void)lic,uuid_t}.16P] Received HMDCameraSnapshotRemoteStreamReceiverDelegate callback that the image capture has started after relay;
+- (void)unknown session UUID:(id)arg1 %{public}@;
+- (void)%{public,uuid_t}.16P] Creating a snapshot session with HMDCameraSnapshotRemoteRelayReceiver;
 - (id);
 - (_Bool);
 

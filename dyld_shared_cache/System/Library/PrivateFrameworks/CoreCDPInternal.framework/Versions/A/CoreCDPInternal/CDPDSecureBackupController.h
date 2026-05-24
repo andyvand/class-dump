@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPDSecureBackupConfiguration, NSDictionary, NSString;
-@protocol CDPDOctagonTrustProxy, CDPDSecureBackupDelegate, CDPDSecureBackupProxy, CDPStateUIProviderInternal;
+@class NSDictionary;
 
 @interface CDPDSecureBackupController
 {
     _Bool fakeNearlyDepletedRecords;
-    _Bool _isSimulateNonViableEscrowRecordEnabled;
-    _Bool _simulateEPThrottle;
-    CDPContext *_context;
-    id <CDPDSecureBackupProxy> _secureBackupProxy;
-    id <CDPStateUIProviderInternal> _uiProvider;
-    id <CDPDOctagonTrustProxy> _octagonTrustProxy;
-    NSDictionary *_cachedAccountInfo;
-    id <CDPDSecureBackupDelegate> _delegate;
-    CDPDSecureBackupConfiguration *_configuration;
-    long long _icscRepairTotalRetries;
-    long long _icscRepairRetryDelay;
 }
 
++ (id)FavoritesPickerViewController;
 + (id);
-+ (id);
-- (id);
+- (id)(through software update asset metadata);
 - (void);
 - (id);
 - (void);
@@ -33,7 +21,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -43,13 +31,13 @@
 - (void);
 - (void);
 - (void);
+- (void)matchDomainWithURL:(CDUnknownBlockType)arg1;
+- (void);
 - (void);
-- (void);
-- (void);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void)p_"^^d}}"__start_"Q""{?="__size_"Q}}};
+- (id)tions;
 - (id);
 - (void);
 - (void);
@@ -62,7 +50,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)?Y&1s*l	;
 - (void);
 - (void);
 - (void);
@@ -85,7 +73,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -100,7 +88,7 @@
 - (_Bool);
 - (void);
 - (long long);
-- (void);
+- (void)@ a;
 - (id);
 - (void);
 - (void);
@@ -108,36 +96,18 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)k3)sL7;
+- (_Bool)!;
 - (id);
-- (void);
+- (void))`);;
 - (void);
 - (void);
 - (id);
-- (void)capeOffersLedgerC;
-- (id)ForCDP;
+- (void)So21CDPEscapeOffersLedgerC;
+- (id)IsEligibleForCDP;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *cachedAccountInfo; // @synthesize cachedAccountInfo=_cachedAccountInfo;
-@property(retain, nonatomic) CDPDSecureBackupConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) CDPContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CDPDSecureBackupDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fakeNearlyDepletedRecords; // @synthesize fakeNearlyDepletedRecords;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long icscRepairRetryDelay; // @synthesize icscRepairRetryDelay=_icscRepairRetryDelay;
-@property(nonatomic) long long icscRepairTotalRetries; // @synthesize icscRepairTotalRetries=_icscRepairTotalRetries;
-@property(nonatomic) _Bool isSimulateNonViableEscrowRecordEnabled; // @synthesize isSimulateNonViableEscrowRecordEnabled=_isSimulateNonViableEscrowRecordEnabled;
-@property(retain, nonatomic) id <CDPDOctagonTrustProxy> octagonTrustProxy; // @synthesize octagonTrustProxy=_octagonTrustProxy;
-@property(retain, nonatomic) id <CDPDSecureBackupProxy> secureBackupProxy; // @synthesize secureBackupProxy=_secureBackupProxy;
-@property(nonatomic) _Bool simulateEPThrottle; // @synthesize simulateEPThrottle=_simulateEPThrottle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CDPStateUIProviderInternal> uiProvider; // @synthesize uiProvider=_uiProvider;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface AppStoreKit.AccessibilityParagraph
 {
     id id;
-    id text;
-    id impressionMetrics;
-    id segue;
 }
 
 @end

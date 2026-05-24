@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSNumber, NSTableCellView, NSTextField;
+@class NSTextField;
 
 @interface IOBluetoothUI_BatteryControl
 {
     int batteryState;
-    _Bool scalesWhenResized;
-    float floatValue;
-    float redLevelThreshold;
-    float receivedValue;
-    NSImage *batteryImage;
-    NSImage *levelImage0;
-    NSImage *levelImage1;
-    NSImage *levelImage2;
-    _Bool isUsingRedLevel;
-    _Bool mSelected;
-    _Bool mDrawNow;
-    NSNumber *floatVal;
-    NSTextField *mDeviceName;
-    NSTableCellView *mBT_Row;
 }
 
 + (id);
@@ -48,16 +34,11 @@
 - (void);
 - (id);
 - (float);
-- (void);
+- (void)foundInStringForRecordId:(float)arg1 style:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property NSTextField *BT_deviceName; // @synthesize BT_deviceName=mDeviceName;
-@property NSTableCellView *BT_row; // @synthesize BT_row=mBT_Row;
-@property(nonatomic) int batteryState; // @synthesize batteryState;
-@property(nonatomic) float floatValue; // @synthesize floatValue;
-@property(nonatomic) float redLevelThreshold; // @synthesize redLevelThreshold;
-@property(nonatomic) _Bool scalesWhenResized; // @synthesize scalesWhenResized;
 
 @end
 

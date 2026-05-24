@@ -11,18 +11,18 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (id);
+- (_Bool)setStartingInitialSyncSetByCloudKitHooks:(id)arg1;
+- (id);
 - (_Bool)Áð!¬@ùÑ\°1Â0@ù
 × ;
 - (void)Â0@ù
 × ;
-- (void);
-- (void)inerSubrangesOfAdjustedOriginalRange;
-- (void)w:(int)arg1;
-- (void)dSpringWithDelay:(id)arg1 initialSpringVelocity:(CDUnknownBlockType)arg2 options:animations:start:completion: /* Error: Ran out of types for this method. */;
+- (void)setButtonMinimumDistanceFromEdge:(id)arg1;
+- (void)_singleContainerSubrangesOfAdjustedOriginalRange;
+- (void)_installContentClippingView:(int)arg1;
+- (void)_animateUsingDefaultDampedSpringWithDelay:(id)arg1 initialSpringVelocity:(CDUnknownBlockType)arg2 options:animations:start:completion: /* Error: Ran out of types for this method. */;
 - (void)õhöùù;
-- (void)agicShadowOpacity;
+- (void)magicShadowOpacity;
 
 @end
 

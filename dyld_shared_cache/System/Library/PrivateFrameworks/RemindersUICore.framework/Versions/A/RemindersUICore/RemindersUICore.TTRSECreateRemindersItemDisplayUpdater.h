@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRSECreateRemindersItemDisplayUpdater
 {
     id cellsToUpdateSubject;
-    id reminderEditingComponentsToUpdateSubject;
-    id $__lazy_storage_$_batchProcessor;
 }
 
 @end

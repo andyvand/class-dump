@@ -4,38 +4,3 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Named Structures
-
-struct cdb {
-    int cdb_fd;
-    unsigned int cdb_fsize;
-    unsigned int cdb_dend;
-    char *cdb_mem;
-    unsigned int cdb_vpos;
-    unsigned int cdb_vlen;
-    unsigned int cdb_kpos;
-    unsigned int cdb_klen;
-};
-
-struct cdb_find {
-    struct cdb *cdb_cdbp;
-    unsigned int cdb_hval;
-    char *cdb_htp;
-    char *cdb_htab;
-    char *cdb_htend;
-    unsigned int cdb_httodo;
-    void *cdb_key;
-    unsigned int cdb_klen;
-};
-
-struct cdb_make {
-    int cdb_fd;
-    unsigned int cdb_dpos;
-    unsigned int cdb_rcnt;
-    unsigned char cdb_buf[4096];
-    char *cdb_bpos;
-    struct cdb_rl *cdb_rec[256];
-};
-
-struct cdb_rl;
-

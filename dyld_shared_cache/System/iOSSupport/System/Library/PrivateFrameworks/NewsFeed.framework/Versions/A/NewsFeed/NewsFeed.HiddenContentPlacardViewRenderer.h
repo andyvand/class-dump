@@ -7,10 +7,6 @@
 @interface NewsFeed.HiddenContentPlacardViewRenderer
 {
     id layoutAttributesFactory;
-    id styler;
-    id feedItemDimmingEvaluator;
-    id commandCenter;
-    id unavailableItemAlpha;
 }
 
 @end

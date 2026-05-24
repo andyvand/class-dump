@@ -11,7 +11,7 @@
 
 - (void);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -21,7 +21,6 @@
 - (_Bool);
 
 // Remaining properties
-@property struct CGPoint contentOffset;
 @property(getter=isScrollEnabled) _Bool scrollEnabled; // @synthesize scrollEnabled=_scrollEnabled;
 
 @end

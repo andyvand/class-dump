@@ -4,57 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIDragInteraction, UIScrollView, UIView, _UIBarCustomizationContainerView, _UIBarCustomizationItemReservoirView, _UIBarCustomizationSession;
-@protocol _UIBarCustomizerDelegate;
+@class NSMutableArray;
 
 @interface _UIBarCustomizer
 {
     _Bool _isActive;
-    _Bool _wasReset;
-    id <_UIBarCustomizerDelegate> _delegate;
-    NSMutableArray *__visibleItems;
-    _UIBarCustomizationSession *__activeSession;
-    id _keyboardSuppressionAssertion;
-    UIDragInteraction *_dragInteraction;
-    _UIBarCustomizationContainerView *_containerView;
-    UIView *_dimmingView;
-    UIScrollView *_visibleItemScrollView;
-    UIView *_reservoirContainerView;
-    _UIBarCustomizationItemReservoirView *_reservoir;
-    unsigned long long __dropIndex;
-    NSMutableArray *_ellipsisDotViews;
-    unsigned long long _overflowItemCount;
-    struct CGPoint _lastDragLocation;
-    struct CGRect _initialSourceFrame;
 }
 
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)updateMessageHandshakeState:(id)arg1;
+- (void)transcriptBackgroundPath;
+- (void)timingComingBackFromStorage;
+- (void)syndicatedItemType;
+- (void)syncAttachmentsWithSyncType:(id)arg1 deviceConditionsToCheck:activity:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)sendRepositionStickerMessage:(id)arg1 chatIdentifier:accountID:style: /* Error: Ran out of types for this method. */;
+- (void)sendRepositionStickerMessage:(id)arg1 chatIdentifier:accountID:style: /* Error: Ran out of types for this method. */;
+- (void)removeTranslationsForMessagePart:(unsigned long long)arg1;
+- (void)personCentricGroupedChatsArrayWithMaximumNumberOfChats:(struct CGPoint)arg1 skipsLastMessageLoading:usingChats:useCachedChatGroups:includingPinnedChatIdentifiers:repairInconsistentMergedChats: /* Error: Ran out of types for this method. */;
+- (void)pendingCodesToDevicesForApproval;
+- (void)metricAttachmentValidation:(struct CGRect)arg1 attachmentSize:operationalErrorDomain:operationalErrorCode:validationErrorDomain:validationErrorCode: /* Error: Ran out of types for this method. */;
+- (void)isPersistentTaskNotificationsEnabled;
+- (id)compressedProtobufDataForMessageActionItem;
+- (id)compressedProtobufDataForMessage;
+- (unsigned long long)_pendingMessages;
+- (struct CGPoint)onBlock: /* Error: Ran out of types for this method. */;
+- (id)ationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGRect)ncTelemetryReporter",&,N,V_telemetryReporter;
+- (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
-- (struct CGPoint);
-- (id);
-- (struct CGRect);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (int);
-- (void);
+- (void)@;
+- (int)uid in %@;
+- (void)l-message-error;
 - (unsigned long long);
 - (id);
 - (double);
@@ -64,22 +47,22 @@
 - (id);
 - (_Bool)0@ù
 × ;
-- (void)BackgroundColorFromBaseColor:state:traitCollection: /* Error: Ran out of types for this method. */;
-- (void)leModeForContextID: /* Error: Ran out of types for this method. */;
-- (id)se:(id)arg1;
+- (void)effectiveBackgroundColorFromBaseColor:state:traitCollection: /* Error: Ran out of types for this method. */;
+- (void)_systemReferenceAngleModeForContextID: /* Error: Ran out of types for this method. */;
+- (id)_completeAnimationWithUUID:(id)arg1 duration:curve:reverse: /* Error: Ran out of types for this method. */;
 - (void)"NSLayoutConstraint",&,V_contentScrollViewMaximumWidthConstraint;
 - (id)R,N;
-- (void)onstraintCreation;
+- (void)UIViewLayoutConstraintCreation;
 - (void)g image -- possibly corrupt;
 - (id)ic}p>;
 - (id)ËéÿàËéÿHÌéÿÌéÿDÎéÿÎéÿÜÎéÿÏéÿÜÏéÿ;
 - (_Bool);
 - (void)gleInRadiansForRotationBetweenAngleAndAngleInDirection(CGFloat, CGFloat, _UIInterfaceOrientationRotationDirection);
-- (void);
+- (void)clientIdentity;
 - (void)ropInteraction:(id)arg1 viewControllerForDroppingUserActivityOfType:must return a non-nil view controller. /* Error: Ran out of types for this method. */;
 - (_Bool)cks *, NSString *__autoreleasing *);
 - (void)d never be returned at this point;
-- (id)nSelected;
+- (id)UISearchResultsButtonSelected;
 - (id)ÿ;
 - (void);
 - (id);
@@ -92,30 +75,7 @@
 - (_Bool)LéþEá;
 
 // Remaining properties
-@property(retain, nonatomic) _UIBarCustomizationSession *_activeSession; // @synthesize _activeSession=__activeSession;
-@property(nonatomic) unsigned long long _dropIndex; // @synthesize _dropIndex=__dropIndex;
 @property(retain, nonatomic) NSMutableArray *_visibleItems; // @synthesize _visibleItems=__visibleItems;
-@property(retain, nonatomic) _UIBarCustomizationContainerView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <_UIBarCustomizerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIView *dimmingView; // @synthesize dimmingView=_dimmingView;
-@property(retain, nonatomic) UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
-@property(retain, nonatomic) NSMutableArray *ellipsisDotViews; // @synthesize ellipsisDotViews=_ellipsisDotViews;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGRect initialSourceFrame; // @synthesize initialSourceFrame=_initialSourceFrame;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(retain, nonatomic) id keyboardSuppressionAssertion; // @synthesize keyboardSuppressionAssertion=_keyboardSuppressionAssertion;
-@property(nonatomic) struct CGPoint lastDragLocation; // @synthesize lastDragLocation=_lastDragLocation;
-@property(nonatomic) unsigned long long overflowItemCount; // @synthesize overflowItemCount=_overflowItemCount;
-@property(retain, nonatomic) _UIBarCustomizationItemReservoirView *reservoir; // @synthesize reservoir=_reservoir;
-@property(retain, nonatomic) UIView *reservoirContainerView; // @synthesize reservoirContainerView=_reservoirContainerView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIScrollView *visibleItemScrollView; // @synthesize visibleItemScrollView=_visibleItemScrollView;
-@property(nonatomic) _Bool wasReset; // @synthesize wasReset=_wasReset;
 
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface PFStoryConcreteTransitionTable
 {
     NSDictionary *_transitionsByColorGrade;
-    NSArray *_defaultFrequencies;
 }
 
 - (id);
+- (id)__unwind_info;
 - (id);
-- (id);
-- (void);
+- (void)dismissPictureInPictureByRestoringToRect:inWindow:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

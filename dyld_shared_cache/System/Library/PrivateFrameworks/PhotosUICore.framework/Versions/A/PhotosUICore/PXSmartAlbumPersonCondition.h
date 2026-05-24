@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXSmartAlbumCondition.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PXSmartAlbumPersonCondition : PXSmartAlbumCondition
 {
@@ -14,13 +14,12 @@
 }
 
 + (id);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *personName;
 @property(readonly, nonatomic) NSArray *personNames;
 
 @end

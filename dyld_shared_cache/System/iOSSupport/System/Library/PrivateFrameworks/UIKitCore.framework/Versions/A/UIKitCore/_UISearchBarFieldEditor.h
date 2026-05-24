@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)ashedParentViewController:(id)arg1;
-- (id);
+- (void)P;
+- (void)_footerHeight;
+- (_Bool)setStashedParentViewController:(id)arg1;
+- (id)RenderEffect;
 - (void)Õ¼®\;
 
 @end

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPUserPrivacySettings, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface CKDPUserPrivacySettingsBatchLookupResponseContainerPrivacySettings
 {
     NSMutableArray *_applicationBundles;
-    NSString *_applicationContainer;
-    int _applicationContainerEnvironment;
-    CKDPUserPrivacySettings *_userPrivacySettings;
-    struct {
-        unsigned int applicationContainerEnvironment:1;
-    } _has;
 }
 
 + (Class);
@@ -32,11 +26,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)xtendedRef, CFStringRef, CFDictionaryRef, CFTypeRef *);
+- (unsigned long long)senderRenderDeadlineHistogramCount;
 - (_Bool);
 - (int);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -48,13 +42,7 @@
 - (void)T;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *applicationBundles; // @synthesize applicationBundles=_applicationBundles;
-@property(retain, nonatomic) NSString *applicationContainer; // @synthesize applicationContainer=_applicationContainer;
-@property(nonatomic) int applicationContainerEnvironment; // @synthesize applicationContainerEnvironment=_applicationContainerEnvironment;
 @property(readonly, nonatomic) _Bool hasApplicationContainer;
-@property(nonatomic) _Bool hasApplicationContainerEnvironment;
-@property(readonly, nonatomic) _Bool hasUserPrivacySettings;
-@property(retain, nonatomic) CKDPUserPrivacySettings *userPrivacySettings; // @synthesize userPrivacySettings=_userPrivacySettings;
 
 @end
 

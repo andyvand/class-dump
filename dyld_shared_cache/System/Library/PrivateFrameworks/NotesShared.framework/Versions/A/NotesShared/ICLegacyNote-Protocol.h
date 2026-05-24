@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSManagedObjectContext, NSManagedObjectID, NSSet, NSString;
-@protocol ICLegacyAccount, ICLegacyFolder;
+@class NSDate, NSSet, NSString;
+@protocol ICLegacyFolder;
 
 @protocol ICLegacyNote
-- (_Bool);
+- (_Bool)�|�;
+- (void);
+- (_Bool)RLAsset"16;
+- (id <ICLegacyFolder>);
+- (void)initWithFileAtURL:(NSString *)arg1 size:scale:representationTypes: /* Error: Ran out of types for this method. */;
 - (NSSet *)host application identifier for noteâ¦ {note:%@, identifier:%@} /* Error: Ran out of types for this method. */;
 - (NSDate *)ForNoteObjectID ::Submitting asset fetch download operations for recordIDs %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <ICLegacyAccount> account;
-@property(readonly, nonatomic) NSSet *attachments;
-@property(readonly, nonatomic) NSString *contentAsPlainText;
-@property(readonly, copy, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) id <ICLegacyFolder> folder;
 @property(copy, nonatomic) NSString *htmlString;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isDeletedOrInTrash;
-@property(readonly, nonatomic) _Bool isMarkedForDeletion;
-@property(readonly, nonatomic) _Bool isPlainText;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, copy, nonatomic) NSDate *modificationDate;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, copy, nonatomic) NSString *title;
 @end
 

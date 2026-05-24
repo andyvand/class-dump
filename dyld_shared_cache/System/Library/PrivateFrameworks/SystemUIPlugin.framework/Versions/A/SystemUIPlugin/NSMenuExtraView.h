@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMenu, NSMenuExtra;
+@class NSImage, NSMenu;
 
 @interface NSMenuExtraView
 {
     NSMenu *_menu;
-    NSMenuExtra *_menuExtra;
-    NSImage *_image;
-    NSImage *_alternateImage;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__objc_data;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *alternateImage; // @synthesize alternateImage=_alternateImage;
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
 
 @end

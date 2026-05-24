@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDecimalNumber, NSLocale, NSString, SKProductDiscount, SKProductSubscriptionPeriod;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SKProductInternal
 {
     NSString *_contentVersion;
-    _Bool _downloadable;
-    _Bool _familyShareable;
-    NSArray *_downloadContentLengths;
-    SKProductDiscount *_introductoryPrice;
-    NSString *_localizedDescription;
-    NSString *_localizedTitle;
-    NSDecimalNumber *_price;
-    NSLocale *_priceLocale;
-    NSString *_productIdentifier;
-    NSString *_productKind;
-    NSString *_subscriptionGroupIdentifier;
-    SKProductSubscriptionPeriod *_subscriptionPeriod;
-    NSArray *_discounts;
 }
 
 - (void);

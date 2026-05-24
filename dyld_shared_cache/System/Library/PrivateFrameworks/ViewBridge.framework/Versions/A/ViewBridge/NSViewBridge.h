@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
-@protocol NSViewBridgeKVOBuddy;
+@class NSMutableDictionary;
 
 @interface NSViewBridge
 {
     NSMutableDictionary *_dict;
-    NSObject<NSViewBridgeKVOBuddy> *_kvoBuddy;
-    NSMutableSet *_nonLocalChangesInProgress;
-    NSMutableSet *_validClasses;
-    struct os_unfair_lock_s _retainReleaseLock;
 }
 
 + (id);
@@ -23,40 +18,40 @@
 - (id);
 - (struct os_unfair_lock_s *);
 - (unsigned char);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)k;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)!;
 - (id);
 - (oneway void);
-- (id);
-- (void);
+- (id);
+- (void)ɂ;
 - (CDStruct_4c969caf);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (int);
-- (void)ingWindow:(id)arg1 perform: /* Error: Ran out of types for this method. */;
+- (_Bool)03C ISOnum;
+- (int)LmSHmSI}S)}L
+J}SJ}L
+;
+- (void)whileOrderingWindow:(id)arg1 perform: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly) CDStruct_4c969caf auditToken;
-@property NSObject<NSViewBridgeKVOBuddy> *kvoBuddy; // @synthesize kvoBuddy=_kvoBuddy;
 @property(readonly) int processIdentifier;
 
 @end

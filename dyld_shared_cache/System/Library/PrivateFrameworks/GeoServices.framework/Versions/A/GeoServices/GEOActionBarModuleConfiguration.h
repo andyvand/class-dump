@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOButtonItem, GEOPDActionBarModuleConfiguration, NSArray;
+@class GEOButtonItem, GEOPDActionBarModuleConfiguration;
 
 @interface GEOActionBarModuleConfiguration
 {
     GEOPDActionBarModuleConfiguration *_actionBarModuleConfig;
 }
 
-- (id);
-- (id);
+- (id)_cn_md5Hash;
+- (id)count;
 - (id);
 - (id);
 - (void)Ú7;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOButtonItem *primaryButtonItem;
-@property(readonly, nonatomic) NSArray *secondaryButtonItems;
 
 @end
 

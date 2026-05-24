@@ -7,6 +7,8 @@
 @class WebDeviceOrientation;
 
 @protocol WebDeviceOrientationProvider
-- (WebDeviceOrientation *)naryWithContentsOfFile: /* Error: Ran out of types for this method. */;
+- (void)rI
+;
+- (WebDeviceOrientation *)dictionaryWithContentsOfFile: /* Error: Ran out of types for this method. */;
 @end
 

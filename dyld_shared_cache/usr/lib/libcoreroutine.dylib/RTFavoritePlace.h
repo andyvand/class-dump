@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTMapItem;
+@class NSString;
 
 @interface RTFavoritePlace
 {
     NSString *_title;
-    RTMapItem *_mapItem;
 }
 
 - (id);
+- (id)kProbingStatus:skipped shared QR session %@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)ilterLocations: /* Error: Ran out of types for this method. */;
-- (id)omVisits: /* Error: Ran out of types for this method. */;
+- (id)filterLocations: /* Error: Ran out of types for this method. */;
+- (id)_getLOIsUUIDsFromVisits: /* Error: Ran out of types for this method. */;
 - (void)try %@, total duration, %f wks;
 
 // Remaining properties
-@property(readonly, nonatomic) RTMapItem *mapItem; // @synthesize mapItem=_mapItem;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

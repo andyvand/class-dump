@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)Writing nickname data of size %lu, recordID data of size %lu, and encryption key of size %lu to disk;
 
 @end
 

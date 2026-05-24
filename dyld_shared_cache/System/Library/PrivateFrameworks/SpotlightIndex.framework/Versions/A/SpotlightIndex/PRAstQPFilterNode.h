@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)s;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *filterString; // @synthesize filterString=_filterString;

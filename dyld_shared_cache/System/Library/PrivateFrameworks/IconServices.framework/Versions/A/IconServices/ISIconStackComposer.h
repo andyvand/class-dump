@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface ISIconStackComposer
 {
     struct CGImage *_asset;
-    long long _assetAppearance;
-    unsigned long long _platform;
 }
 
-- (unsigned long long);
+- (unsigned long long)__objc_superrefs__DATA_CONST;
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long)q56@0:8@16{_NSRange=QQ}24@40@?48 /* Error: Ran out of types for this method. */;
+- (void)5;
 - (unsigned long long);
-- (struct CGImage *);
+- (struct CGImage *)R;
 
 // Remaining properties
 @property(readonly) struct CGImage *asset; // @synthesize asset=_asset;
-@property(readonly) long long assetAppearance; // @synthesize assetAppearance=_assetAppearance;
-@property(readonly) unsigned long long platform; // @synthesize platform=_platform;
 
 @end
 

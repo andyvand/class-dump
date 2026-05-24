@@ -9,26 +9,21 @@
 @interface IMActionDialEnriched
 {
     void phoneNumber;
-    void fallbackUrl;
-    void subject;
 }
 
 - (id);
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool));
 - (id);
 - (id);
 - (id);
 - (void)l GUIDs to be posted in the next update;
-- (id)ce;
+- (id)SKStatusSubscriptionService;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *fallbackUrl;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
-@property(nonatomic, readonly) NSString *subject;
 
 @end
 

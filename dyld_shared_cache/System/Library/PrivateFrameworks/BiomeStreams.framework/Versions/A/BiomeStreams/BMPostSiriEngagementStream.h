@@ -11,10 +11,10 @@
     BMStoreStream *_storeStream;
 }
 
+- (id)9;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);

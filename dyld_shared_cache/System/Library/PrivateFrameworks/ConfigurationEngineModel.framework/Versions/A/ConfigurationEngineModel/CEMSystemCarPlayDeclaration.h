@@ -6,16 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemCarPlayDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowVehicleUI;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -27,19 +27,13 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)thread priority
+;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadAllowVehicleUI; // @synthesize payloadAllowVehicleUI=_payloadAllowVehicleUI;
-@property(readonly) Class superclass;
 
 @end
 

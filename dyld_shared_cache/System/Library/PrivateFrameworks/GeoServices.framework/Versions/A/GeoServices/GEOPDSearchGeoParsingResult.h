@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchGeoParsingResult
 {
     PBDataReader *_reader;
-    NSMutableArray *_droppedTokens;
-    double _labelScore;
-    NSMutableArray *_labelings;
-    NSString *_taggerModelId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _tagSource;
-    struct {
-        unsigned int has_labelScore:1;
-        unsigned int has_tagSource:1;
-        unsigned int read_droppedTokens:1;
-        unsigned int read_labelings:1;
-        unsigned int read_taggerModelId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (id)!;
+- (void)cate provided for -[PTRow condition] is a block based predicate, which cannot be encoded. ***;
+- (id)builtInVoiceTriggerMetaData;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ging"b1"has_batteryPercentageAfterCharging"b1"has_chargingTime"b1};
-- (id)CurrentLocation:currentLocationIndex:options: /* Error: Ran out of types for this method. */;
+- (id)_placesFromShowAction:hasCurrentLocation:currentLocationIndex:options: /* Error: Ran out of types for this method. */;
 - (id)P,Ü,;
 - (void)û]Ø­<H@;
 

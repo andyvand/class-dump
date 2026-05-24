@@ -4,32 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol EFSQLValueExpressable;
-
 @interface EFSQLGeneratorCompoundPredicateNode
 {
     unsigned long long _predicateType;
-    NSArray *_childPredicates;
 }
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id)q;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *childPredicates; // @synthesize childPredicates=_childPredicates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long predicateType; // @synthesize predicateType=_predicateType;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> sqlExpressable;
-@property(readonly) Class superclass;
 
 @end
 

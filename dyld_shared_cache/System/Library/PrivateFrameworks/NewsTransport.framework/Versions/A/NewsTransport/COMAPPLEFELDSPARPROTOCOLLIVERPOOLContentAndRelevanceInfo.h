@@ -7,16 +7,14 @@
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLContentAndRelevanceInfo
 {
     int _contentRating;
-    int _relevanceRating;
-    CDStruct_e4d87e55 _has;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (int);
-- (int);
+- (void)animationWithCAAnimation:(int)arg1;
+- (void)_wantsOverlayVisible;
+- (id)_toLayoutSnapshotGeometryDescriptor;
+- (_Bool)_simulateSilentMode;
+- (int)_presentDuplicationWasInterruptedWithItemCount:hasPhotos:hasVideos: /* Error: Ran out of types for this method. */;
+- (int)_photosGridViewModel;
 - (void);
 - (_Bool);
 - (id);
@@ -34,10 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int contentRating; // @synthesize contentRating=_contentRating;
 @property(nonatomic) _Bool hasContentRating;
-@property(nonatomic) _Bool hasRelevanceRating;
-@property(nonatomic) int relevanceRating; // @synthesize relevanceRating=_relevanceRating;
 
 @end
 

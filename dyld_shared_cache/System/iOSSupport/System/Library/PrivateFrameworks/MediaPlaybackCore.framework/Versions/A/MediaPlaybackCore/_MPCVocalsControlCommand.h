@@ -6,21 +6,13 @@
 
 #import <MediaPlaybackCore/_MPCPlayerCommand.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCVocalsControlCommand : _MPCPlayerCommand
 {
     _Bool _active;
-    _Bool _continuous;
-    _Bool _disabled;
-    float _level;
-    float _minLevel;
-    float _maxLevel;
-    long long _disabledReason;
 }
 
-- (void);
+- (void)ACDAccountAuthenticationPlugin;
 - (void);
 - (id);
 - (id);
@@ -31,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool)Ó
 Ð3Ùÿ=rÓ
@@ -41,19 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic, getter=isContinuous) _Bool continuous; // @synthesize continuous=_continuous;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDisabled) _Bool disabled; // @synthesize disabled=_disabled;
-@property(nonatomic) long long disabledReason; // @synthesize disabledReason=_disabledReason;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float level; // @synthesize level=_level;
-@property(nonatomic) float maxLevel; // @synthesize maxLevel=_maxLevel;
-@property(nonatomic) float minLevel; // @synthesize minLevel=_minLevel;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IMDPersistentTask
 {
     long long _rowID;
-    NSString *_guid;
-    NSDictionary *_userInfo;
-    unsigned long long _group;
-    unsigned long long _flag;
-    long long _flagPriority;
-    unsigned long long _lane;
-    long long _reason;
-    long long _reasonPriority;
-    long long _retryCount;
 }
 
 + (id);
@@ -32,29 +21,20 @@
 - (long long);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)ub;
 - (long long);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (id)tificationRequests:isMostActiveDevice: /* Error: Ran out of types for this method. */;
-- (long long)tateMonitor;
+- (id)__postNotificationRequests:isMostActiveDevice: /* Error: Ran out of types for this method. */;
+- (long long)IMSpotlightClientStateMonitor;
 - (void);
 - (long long)eMessageSyndicationRanges:shouldHideFromSyndication:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long flag; // @synthesize flag=_flag;
-@property(readonly, nonatomic) long long flagPriority; // @synthesize flagPriority=_flagPriority;
-@property(readonly, nonatomic) unsigned long long group; // @synthesize group=_group;
-@property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) unsigned long long lane; // @synthesize lane=_lane;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) long long reasonPriority; // @synthesize reasonPriority=_reasonPriority;
-@property(readonly, nonatomic) long long retryCount; // @synthesize retryCount=_retryCount;
 @property(readonly, nonatomic) long long rowID; // @synthesize rowID=_rowID;
-@property(readonly, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

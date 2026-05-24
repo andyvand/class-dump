@@ -11,18 +11,16 @@
 @interface PARSafariSummarizationSummaryCandidate : PARResponse
 {
     NSString *_hashIdentifier;
-    NSString *_url;
 }
 
-- (void);
+- (void)_action` manifest entry.;
 - (id);
 - (void);
-- (id);
+- (id)tableView:rowViewForRow: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *hashIdentifier;
-@property(retain, nonatomic) NSString *url;
+@property(retain, nonatomic) NSString *hashIdentifier; // @synthesize hashIdentifier=_hashIdentifier;
 
 @end
 

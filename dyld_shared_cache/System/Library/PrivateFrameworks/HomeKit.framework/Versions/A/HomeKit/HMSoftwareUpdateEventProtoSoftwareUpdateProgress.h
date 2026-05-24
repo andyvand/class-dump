@@ -7,19 +7,16 @@
 @interface HMSoftwareUpdateEventProtoSoftwareUpdateProgress
 {
     double _estimatedTimeRemaining;
-    float _percentageComplete;
-    struct {
-        unsigned int estimatedTimeRemaining:1;
-        unsigned int percentageComplete:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (float);
+- (void)AF'
+;
+- (float)J
+;
 - (void);
 - (double);
 - (id);
@@ -27,16 +24,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)hurdle;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
-@property(nonatomic) _Bool hasEstimatedTimeRemaining;
 @property(nonatomic) _Bool hasPercentageComplete;
-@property(nonatomic) float percentageComplete; // @synthesize percentageComplete=_percentageComplete;
 
 @end
 

@@ -6,19 +6,12 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVMobileContentTab, CAGradientLayer, NSArray, NSMutableArray, UIScrollView;
-@protocol AVMobileControlsStyleFontsSheet, AVMobileGlassContentTabSelectionViewDelegate;
+@class AVMobileContentTab, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassContentTabSelectionView : AVGlassBackedView
 {
     NSMutableArray *_tabButtons;
-    UIScrollView *_scrollingContentView;
-    CAGradientLayer *_gradientFadeoutLayer;
-    id <AVMobileControlsStyleFontsSheet> _styleSheet;
-    NSArray *_contentTabs;
-    AVMobileContentTab *_selectedTab;
-    id <AVMobileGlassContentTabSelectionViewDelegate> _delegate;
 }
 
 - (void);
@@ -26,26 +19,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void):(id)arg1 %@;
+- (void)<-;
 - (void);
 - (struct CGSize);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id)Ð@ùq[°1Â0@ù
 × ;
 - (void);
 - (void)ngPresented,V_popoverIsBeingPresented;
-- (void)text;
+- (void)AVMobileContentTabTransitionContext;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contentTabs; // @synthesize contentTabs=_contentTabs;
-@property(nonatomic) __weak id <AVMobileGlassContentTabSelectionViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) AVMobileContentTab *selectedTab; // @synthesize selectedTab=_selectedTab;
-@property(retain, nonatomic) id <AVMobileControlsStyleFontsSheet> styleSheet; // @synthesize styleSheet=_styleSheet;
 
 @end
 

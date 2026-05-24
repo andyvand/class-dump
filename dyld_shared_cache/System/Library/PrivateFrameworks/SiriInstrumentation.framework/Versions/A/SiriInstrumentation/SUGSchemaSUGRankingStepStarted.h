@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGRankingStepStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)port matching strategy for peer %'@ with err:%#m /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)etaAppVersion";
+- (_Bool)ate;
+- (_Bool)sr_ck_sync_state;
 - (id);
 - (id);
-- (id)edActionDisambiguationsLastSixHours;
-- (id)TextPairsSelected;
-- (_Bool)LOGPHASE_ERROR;
-- (_Bool)_REPEAT_ALL;
-- (void)ENCESchemaINFERENCEForcePromptType;
+- (id)deleteNumSelectedActionDisambiguationsLastSixHours;
+- (id)_hasUeiDictationAlternativeTextPairsSelected;
+- (_Bool)UEIUUFRREADYDIALOGPHASE_ERROR;
+- (_Bool)FLOWMEDIAPLAYERTASKTYPE_REPEAT_ALL;
+- (void)INFERENCESchemaINFERENCEForcePromptType;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

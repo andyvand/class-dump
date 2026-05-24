@@ -7,7 +7,6 @@
 @interface TeaUI.DynamicMenuGroupOptionProvider
 {
     id needsUpdate;
-    id menuGroup;
 }
 
 @end

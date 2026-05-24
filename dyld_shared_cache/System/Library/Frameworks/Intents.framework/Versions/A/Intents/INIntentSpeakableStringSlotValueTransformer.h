@@ -13,7 +13,7 @@
 + (Class);
 + (long long)"NSNumber",&,N,V_rank;
 - (id);
-- (id)tringAsSendAnnouncementIntentAnnouncementConfirmationReason:(id)arg1;
+- (id)StringAsSendAnnouncementIntentAnnouncementConfirmationReason:(id)arg1;
 
 @end
 

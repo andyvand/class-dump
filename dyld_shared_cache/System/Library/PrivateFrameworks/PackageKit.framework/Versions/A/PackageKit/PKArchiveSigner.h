@@ -9,20 +9,9 @@
 @interface PKArchiveSigner
 {
     NSString *_algorithmType;
-    struct __SecKey {
-        struct __CFRuntimeBase {
-            unsigned long long _field1;
-            _Atomic unsigned long long _field2;
-        } _field1;
-        struct __SecKeyDescriptor *_field2;
-        void *_field3;
-    } *_privateKeyRef;
-    struct _CMSEncoder *_encoder;
-    struct __CFDictionary *_tsaContext;
-    int _signatureSize;
 }
 
-- (int);
+- (int)@9;
 - (id);
 - (void);
 - (id);

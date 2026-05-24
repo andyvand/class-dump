@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSString;
+@class CLPlacemark;
 
 @protocol INSaveParkingLocationIntentExport
 
 // Remaining properties
 @property(copy) CLPlacemark *parkingLocation;
-@property(copy) NSString *parkingNote;
 @end
 

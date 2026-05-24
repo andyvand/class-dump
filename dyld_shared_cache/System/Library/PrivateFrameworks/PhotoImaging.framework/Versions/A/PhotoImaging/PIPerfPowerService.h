@@ -9,24 +9,20 @@
 @interface PIPerfPowerService
 {
     PIPerfPowerServiceIdentifier *_identifier;
-    long long _operation;
-    PIPerfPowerRecord *_record;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)ateFrameworks/CoreNameParser.framework/Versions/A/CoreNameParser;
+- (void)closeOpenProModeSession;
+- (void)setSegmentationInfillDilationPercent: /* Error: Ran out of types for this method. */;
 - (long long)known' or 'unavailable';
 
 // Remaining properties
-@property(readonly, nonatomic) PIPerfPowerServiceIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long operation; // @synthesize operation=_operation;
 @property(retain, nonatomic) PIPerfPowerRecord *record; // @synthesize record=_record;
 
 @end

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSPredicate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSBatchUpdateRequestEncodingToken
 {
     NSString *_entityName;
-    NSPredicate *_predicate;
-    NSDictionary *_columnsToUpdate;
-    long long _resultType;
-    long long _nullValueCount;
-    _Bool _includeSubEntities;
-    _Bool _secure;
 }
 
 + (_Bool);
@@ -32,13 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)%qd);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *columnsToUpdate; // @synthesize columnsToUpdate=_columnsToUpdate;
 @property(readonly, retain, nonatomic) NSString *entityName; // @synthesize entityName=_entityName;
-@property(readonly, nonatomic) _Bool includeSubEntities; // @synthesize includeSubEntities=_includeSubEntities;
-@property(readonly, nonatomic) long long nullValueCount; // @synthesize nullValueCount=_nullValueCount;
-@property(readonly, retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly, nonatomic) long long resultType; // @synthesize resultType=_resultType;
-@property(readonly, nonatomic) _Bool secure; // @synthesize secure=_secure;
 
 @end
 

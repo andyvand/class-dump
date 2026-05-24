@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray, NSString;
 
 @protocol _CDPDataPoint
+- (NSArray *);
+- (NSString *)-caProtEncCert;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *peopleIdentifiers;
-@property(readonly, nonatomic) NSDate *timestamp;
-@property(readonly, nonatomic) NSString *title;
 @property(readonly, nonatomic) _Bool userIsSender;
-@property(readonly, nonatomic) _Bool userIsThreadInitiator;
 @end
 

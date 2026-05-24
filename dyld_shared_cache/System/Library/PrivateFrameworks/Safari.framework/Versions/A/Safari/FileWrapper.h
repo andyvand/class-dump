@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSURL *_originatingURL;
 }
 
-+ (_Bool)ndler: /* Error: Ran out of types for this method. */;
++ (_Bool)importPasswordsFromCSVAnchoredToWindow:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

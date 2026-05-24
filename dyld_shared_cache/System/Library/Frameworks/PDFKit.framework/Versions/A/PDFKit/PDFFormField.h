@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (struct __CFDictionary *);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,17 +31,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)setIsMovingFromParentViewController:(id)arg1;
 - (void);
 - (int);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)__objc_protorefs__DATA_CONST;
 - (void)qä1Â0@ù
 × ;
 - (id)ä1Â0@ù

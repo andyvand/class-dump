@@ -8,15 +8,15 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (void);
++ (id)erIndex;
++ (id)Tq,N,V_trialDeploymentId;
++ (id),V_timestampMs;
++ (id)ch;
++ (id)V_timeSinceAppUsedInSec;
++ (id)N,V_timeSinceAppUsedFromSiriInSec;
+- (id)_anonymizedSelectedEntityIdentifier;
+- (id)_accessoryCategory;
+- (void)criptionType;
 
 @end
 

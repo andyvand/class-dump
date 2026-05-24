@@ -6,13 +6,11 @@
 
 #import <SystemMigration/SMEngineStep.h>
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_semaphore;
+@class NSArray;
 
 @interface SMMigrateUserAccountsStep : SMEngineStep
 {
     NSArray *_usersToReplace;
-    NSObject<OS_dispatch_semaphore> *_dmWaitingSem;
 }
 
 - (id);
@@ -40,7 +38,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_semaphore> *dmWaitingSem; // @synthesize dmWaitingSem=_dmWaitingSem;
 @property(retain) NSArray *usersToReplace; // @synthesize usersToReplace=_usersToReplace;
 
 @end

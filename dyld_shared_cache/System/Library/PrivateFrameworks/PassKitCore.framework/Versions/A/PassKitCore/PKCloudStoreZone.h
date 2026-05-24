@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PKCloudStoreZone
 {
     NSString *_containerName;
-    NSString *_zoneName;
-    NSString *_ownerName;
-    long long _scope;
-    NSString *_zoneSubscriptionIdentifier;
-    NSSet *_shareParticipants;
 }
 
 + (void);
 + (_Bool)X"Ð!xDùî%Ð1Â0@ù
 × ;
+- (unsigned long long);
+- (void);
+- (id)(;
+- (id);
+- (void);
+- (id);
 - (unsigned long long);
-- (void);
+- (id);
+- (long long)I;
 - (id);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)hasLessThan20mHistogram;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -43,16 +38,11 @@
 - (id)ure descriptor (%ld) or location (%ld) was nil when checking supported balance access locations;
 - (id)ntactless Interface Session Did Enter Field:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ubmissionConfirmationDescription;
+- (void)submissionConfirmationDescription;
 - (id)8å ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(copy, nonatomic) NSString *ownerName; // @synthesize ownerName=_ownerName;
-@property(nonatomic) long long scope; // @synthesize scope=_scope;
-@property(copy, nonatomic) NSSet *shareParticipants; // @synthesize shareParticipants=_shareParticipants;
-@property(copy, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
-@property(retain, nonatomic) NSString *zoneSubscriptionIdentifier; // @synthesize zoneSubscriptionIdentifier=_zoneSubscriptionIdentifier;
 
 @end
 

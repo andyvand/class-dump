@@ -7,10 +7,6 @@
 @interface AppleMediaServicesUI.PurchaseViewModel
 {
     id bagWrapper;
-    id delegateWrapper;
-    id _accounts;
-    id accountStoreObserver;
-    id mediaTypes;
 }
 
 - (void);

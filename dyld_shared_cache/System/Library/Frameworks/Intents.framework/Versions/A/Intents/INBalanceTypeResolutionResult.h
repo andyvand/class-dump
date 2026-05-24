@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)unsignedIntegerValue;
++ (id)t %@;
 - (void);
-- (id);
+- (id)Frameworks/ImageIO.framework/Versions/A/ImageIO;
 - (id);
 
 @end

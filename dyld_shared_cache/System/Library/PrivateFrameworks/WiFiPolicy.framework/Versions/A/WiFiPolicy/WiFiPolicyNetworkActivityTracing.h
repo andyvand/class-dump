@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WiFiPolicyNetworkActivityTracing
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_activities;
-    NSMutableSet *_connections;
 }
 
 + (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

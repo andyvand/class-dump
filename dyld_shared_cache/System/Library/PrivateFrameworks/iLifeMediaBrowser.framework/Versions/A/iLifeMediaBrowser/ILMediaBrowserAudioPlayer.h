@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerItem, ILMediaObject, NSMutableArray;
+@class NSMutableArray;
 
 @interface ILMediaBrowserAudioPlayer
 {
     NSMutableArray *fileList;
-    AVPlayer *avPlayer;
-    AVPlayerItem *mCurrentAudioPlayerItem;
-    ILMediaObject *mCurrentAudioMediaObject;
-    _Bool _isPlaying;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)setHasTagOrder:(id)arg1;
+- (id)StringAsFeedCellSection: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)T;
 - (_Bool);
 - (void);
 

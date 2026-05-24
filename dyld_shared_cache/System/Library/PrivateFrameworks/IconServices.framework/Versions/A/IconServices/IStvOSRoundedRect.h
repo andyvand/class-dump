@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double);
+- (double),N,V_lastSpawnError;
 
 @end
 

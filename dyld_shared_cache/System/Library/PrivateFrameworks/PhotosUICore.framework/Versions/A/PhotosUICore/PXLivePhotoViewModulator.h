@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXImageLayerModulator;
-
 @interface PXLivePhotoViewModulator
 {
     _Bool _isPerformingChanges;
-    _Bool _isPerformingUpdates;
-    struct {
-        _Bool input;
-        _Bool gainMapImage;
-    } _needsUpdateFlags;
-    _Bool _revealsGainMapImage;
-    _Bool _animateGainMapAppearance;
-    _Bool _displayingVideoComplement;
-    float _gainMapValue;
-    struct CGImage *_gainMapImage;
-    PXImageLayerModulator *_imageModulator;
-    PXImageLayerModulator *_videoModulator;
 }
 
 - (id);
@@ -30,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (float);
 - (struct CGImage *);
@@ -44,9 +30,9 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)beginEditingTextElement:inContainer:clickAt:vertices: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ð1Â0@ù
 × ;
@@ -54,19 +40,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool animateGainMapAppearance; // @synthesize animateGainMapAppearance=_animateGainMapAppearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool displayingVideoComplement; // @synthesize displayingVideoComplement=_displayingVideoComplement;
-@property(readonly, nonatomic) struct CGImage *gainMapImage; // @synthesize gainMapImage=_gainMapImage;
-@property(readonly, nonatomic) float gainMapValue; // @synthesize gainMapValue=_gainMapValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXImageLayerModulator *imageModulator; // @synthesize imageModulator=_imageModulator;
-@property(readonly, nonatomic) _Bool revealsGainMapImage; // @synthesize revealsGainMapImage=_revealsGainMapImage;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXImageLayerModulator *videoModulator; // @synthesize videoModulator=_videoModulator;
 
 @end
 

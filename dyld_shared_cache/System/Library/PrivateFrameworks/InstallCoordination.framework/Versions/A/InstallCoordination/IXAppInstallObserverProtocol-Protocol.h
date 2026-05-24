@@ -5,5 +5,6 @@
 //
 
 @protocol IXAppInstallObserverProtocol
+- (oneway void)inputBrightness;
 @end
 

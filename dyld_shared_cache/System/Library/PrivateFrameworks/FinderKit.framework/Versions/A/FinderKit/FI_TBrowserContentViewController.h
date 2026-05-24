@@ -6,14 +6,12 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TBrowserContainerController, FI_TContainerLayoutManager, NSString;
+@class FI_TContainerLayoutManager;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBrowserContentViewController : FI_TViewController
 {
     struct TNSWeakPtr<FI_TBrowserContainerController> _weakBrowserContainerController;
-    FI_TContainerLayoutManager *_containerLayoutManager;
-    _Bool _isTornDown;
 }
 
 - (void);
@@ -24,23 +22,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@"NSIndexSet"32@0:(_Bool)arg1 8@"NSTableView"16@"NSIndexSet"24;
 - (_Bool);
 - (void);
 - (id);
 - (void)¼;
 
 // Remaining properties
-@property(nonatomic) __weak FI_TBrowserContainerController *browserContainerController;
 @property(retain, nonatomic) FI_TContainerLayoutManager *containerLayoutManager; // @synthesize containerLayoutManager=_containerLayoutManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
 
 @end
 

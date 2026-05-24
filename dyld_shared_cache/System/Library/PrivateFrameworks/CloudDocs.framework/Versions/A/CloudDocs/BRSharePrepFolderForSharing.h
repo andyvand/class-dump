@@ -14,7 +14,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (void);
 

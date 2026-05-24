@@ -6,42 +6,33 @@
 
 #import <TextInputCore/TIUserAction.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TIContextChangeEvent : TIUserAction
 {
     _Bool _isSelection;
-    _Bool _extendsPriorWord;
-    NSString *_inWord;
-    unsigned long long _selectionLocation;
-    struct _NSRange _inWordRange;
 }
 
-+ (_Bool);
-- (void);
-- (void);
-- (void);
++ (_Bool);
+- (void)outgoingTTYCallCount;
+- (void)TTYPersonMe;
+- (void)ech;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)R;
 - (id);
 - (struct _NSRange);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)uspend count %d, pageins %u, darwinBG %d, foreground %d, boosted %d, dirty %d, isRunningBoardActive %d, hasRunningBoardAssertion %d, wq total %d, wq constrained %d wq cooperative %d wq active constrained %d) backfilled to %d task states (indexes %lu-%lu)
+;
 - (id);
 - (void);
 - (void)ð!Aùi°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool extendsPriorWord; // @synthesize extendsPriorWord=_extendsPriorWord;
-@property(copy, nonatomic) NSString *inWord; // @synthesize inWord=_inWord;
-@property(nonatomic) struct _NSRange inWordRange; // @synthesize inWordRange=_inWordRange;
 @property(nonatomic) _Bool isSelection; // @synthesize isSelection=_isSelection;
-@property(nonatomic) unsigned long long selectionLocation; // @synthesize selectionLocation=_selectionLocation;
 
 @end
 

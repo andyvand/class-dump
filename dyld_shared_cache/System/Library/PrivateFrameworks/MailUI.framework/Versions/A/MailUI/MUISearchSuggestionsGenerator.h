@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, _MUISearchSuggestionsOperation;
-@protocol MUISearchSuggestionsGeneratorDelegate, OS_dispatch_queue;
+@protocol MUISearchSuggestionsGeneratorDelegate;
 
 @interface MUISearchSuggestionsGenerator
 {
     id <MUISearchSuggestionsGeneratorDelegate> _delegate;
-    NSArray *_suggesters;
-    _MUISearchSuggestionsOperation *_pendingOperation;
-    NSMutableArray *_cancelledOperations;
-    NSMutableArray *_activeOperations;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void)essibilityURL: /* Error: Ran out of types for this method. */;
+- (void));
+- (void)setAccessibilityURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

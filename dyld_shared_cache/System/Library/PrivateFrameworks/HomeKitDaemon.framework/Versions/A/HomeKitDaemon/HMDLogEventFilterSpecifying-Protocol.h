@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
-
 @protocol HMDLogEventFilterSpecifying
+- (_Bool)_batchIDQueryController;
 
 // Remaining properties
 @property(readonly) _Bool enableEventFilterSpecifying;
-@property(readonly, nonatomic) NSString *sampledCategory;
-@property(readonly, nonatomic) NSData *sampledData;
-@property(readonly, nonatomic) NSUUID *sampledUUID;
 @end
 

@@ -6,56 +6,45 @@
 
 #import <StorageKit/SKBaseManager.h>
 
-@class NSArray, NSHashTable, NSMutableDictionary, NSMutableSet, NSObject, NSSet, NSString, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SKManager : SKBaseManager
 {
     _Bool diskQueueStuck;
-    _Bool _shouldBeBindingsSafe;
-    NSMutableSet *allDisks;
-    NSXPCConnection *_connection;
-    NSHashTable *_listeners;
-    NSMutableDictionary *_listenersAppearedDisks;
-    NSObject<OS_dispatch_queue> *_waitingForDiskQueue;
-    NSMutableSet *_waitingForDiskSet;
-    NSArray *_filesystems;
-    NSArray *imageSrcArray;
-    NSSet *_visibleRoles;
-    NSObject<OS_dispatch_queue> *_frameworkAsyncOperationsQueue;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
++ (id)multitapKeyboardState;
++ (id)(d/=;
+- (id)9;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (void);
+- (id)T*;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)_;
 - (id);
 - (void);
 - (id);
@@ -72,39 +61,30 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)nkkList:(id)arg1 handlingProgress:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)VCAudioReceiver_CalculateBurstLoss;
+- (id)`	;
+- (void);
+- (void);
+- (void)ensureRecovery:(id)arg1 chunkkList:handlingProgress:withCompletionBlock: /* Error: Ran out of types for this method. */;
 - (_Bool)s;
 - (void) ;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *frameworkAsyncOperationsQueue; // @synthesize frameworkAsyncOperationsQueue=_frameworkAsyncOperationsQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSSet *visibleRoles; // @synthesize visibleRoles=_visibleRoles;
 
 @end
 

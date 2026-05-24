@@ -11,28 +11,24 @@
 @interface CEMAccountLDAPDeclaration_LDAPSearchSettingsItem : CEMPayloadBase
 {
     NSString *_payloadLDAPSearchSettingDescription;
-    NSString *_payloadLDAPSearchSettingSearchBase;
-    NSString *_payloadLDAPSearchSettingScope;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
+- (void)8;
 - (void);
-- (void);
 - (id);
+- (id)`W;
 - (id);
-- (id);
-- (id);
+- (id)J;
 - (_Bool);
 - (id);
-- (void);
+- (void)|;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadLDAPSearchSettingDescription; // @synthesize payloadLDAPSearchSettingDescription=_payloadLDAPSearchSettingDescription;
-@property(copy, nonatomic) NSString *payloadLDAPSearchSettingScope; // @synthesize payloadLDAPSearchSettingScope=_payloadLDAPSearchSettingScope;
-@property(copy, nonatomic) NSString *payloadLDAPSearchSettingSearchBase; // @synthesize payloadLDAPSearchSettingSearchBase=_payloadLDAPSearchSettingSearchBase;
 
 @end
 

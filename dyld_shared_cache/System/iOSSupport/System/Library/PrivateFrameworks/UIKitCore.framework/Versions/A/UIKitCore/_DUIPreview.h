@@ -4,77 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBezierPath, UIColor, UIDragPreviewParameters, _DUITargetLayerDescriptor, _UIDragPreviewShadowProperties;
-
 @interface _DUIPreview
 {
     CDStruct_bd34ff7f _contentSize;
-    struct CAPoint3D _originalCenterInCoordinateSpace;
-    _Bool _hidesSourceView;
-    _Bool _hiddenDuringDrag;
-    _Bool _hasCustomOutline;
-    _Bool _avoidAnimation;
-    _Bool _wantsSuppressedMask;
-    UIColor *_backgroundColor;
-    UIBezierPath *_outline;
-    UIBezierPath *_shadowPath;
-    _UIDragPreviewShadowProperties *_shadowProperties;
-    _DUITargetLayerDescriptor *_coordinateSpaceSourceLayerContext;
-    double _originalRotation;
-    long long _previewMode;
-    long long _preferredStackOrder;
-    struct CGPoint _contentOffset;
-    struct CGPoint _initialBadgeLocation;
-    struct CGPoint _originalCenter;
-    struct CGPoint _liftAnchorPoint;
-    struct CGSize _viewScaleFactor;
-    CDStruct_bd34ff7f _placeholderContentSize3D;
-    struct CGAffineTransform _overrideStackTransform;
 }
 
 + (double);
 + (id);
 + (_Bool)alert presented when a document could not be imported.;
 - (_Bool);
-- (struct CGPoint);
-- (double);
-- (_Bool);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (CDStruct_39925896);
-- (struct CGAffineTransform);
-- (double);
-- (struct CGPoint);
-- (struct CGAffineTransform);
-- (double);
-- (_Bool);
-- (_Bool);
+- (struct CGPoint)0:8@16@24@32@40q48 /* Error: Ran out of types for this method. */;
+- (double)B40@0:8@"NSString"16Q24@"NSDictionary"32 /* Error: Ran out of types for this method. */;
+- (_Bool)v24@0:8@"IMDServiceSession"16 /* Error: Ran out of types for this method. */;
+- (double)setSubServiceName: /* Error: Ran out of types for this method. */;
+- (void)requestVCWithPerson:(_Bool)arg1 properties:conference:account: /* Error: Ran out of types for this method. */;
+- (void)recentMessageIDs;
+- (void)itemsWithHandles:(long long)arg1 onServices:messageGUID:limit: /* Error: Ran out of types for this method. */;
+- (void)initWithType:(struct CGAffineTransform)arg1 sourceLocaleIdentifier:destinationLocaleIdentifier:messages:requestID: /* Error: Ran out of types for this method. */;
+- (void)ceID:(double)arg1 errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void):(struct CGPoint)arg1 bodyData:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)initWithSenderInfo:(struct CGPoint)arg1 time:timeRead:timeDelivered:timePlayed:subject:body:bodyData:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)idsDeviceFromUniqueID:(struct CGPoint)arg1;
+- (void)fileURLWithPath:(struct CGPoint)arg1 isDirectory: /* Error: Ran out of types for this method. */;
+- (void)limit:(_Bool)arg1;
+- (void)conversationManager:(id)arg1 conversation:participant:addedNotice: /* Error: Ran out of types for this method. */;
+- (void)broadcasterForSentMessageListenersSupportingService:(_Bool)arg1;
+- (long long)ges:context: /* Error: Ran out of types for this method. */;
+- (long long)_createGroupActionItemDictionaryForItem:senderURI:chat:conversationID:receiverURI:notifyInternalSecurity:completionBlock: /* Error: Ran out of types for this method. */;
+- (CDStruct_bd34ff7f)loadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGAffineTransform)mBatchSets;
+- (double)AsOffGrid;
+- (struct CGPoint)dModel;
+- (struct CGAffineTransform)registerPurgedAttachmentAtPath: /* Error: Ran out of types for this method. */;
+- (double)reflectDismissalForNoticeGUIDs: /* Error: Ran out of types for this method. */;
+- (_Bool)_TtC12IMDaemonCore15FileEventStream;
+- (_Bool)RecordStoreDeleting;
 - (struct CGPoint);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (struct CGSize);
 - (id);
-- (struct CGSize);
+- (struct CGSize)3;
 - (double);
 - (_Bool);
-- (double);
-- (id);
+- (double)report:%lu, actual file size:%lu, allowCompatibilityOverride:%@, recipients support hqp:%@, hqp enabled:%@ /* Error: Ran out of types for this method. */;
+- (id)IMDRelayErrorChatForOutgoingMessageRemovedParticipantsKey;
 - (void);
 - (void);
 - (struct CGPoint);
@@ -86,15 +63,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (struct CGSize)ù
 × ;
-- (_Bool)or:(id)arg1;
+- (_Bool)setLiftForceFloor:(id)arg1;
 - (struct CGSize);
-- (void)Frame;
+- (void)rightFrame;
 - (void)moveToRightEndOfLine:(id)arg1;
-- (void)de;
-- (struct CGPoint)entFont;
+- (void)inHardwareKeyboardMode;
+- (struct CGPoint)_contentFont;
 - (id)N,S_setItemVariation:(struct _NSZone *)arg1 ,V__itemVariation;
 - (id)x;
 - (double)ector -%@;
@@ -105,42 +82,7 @@
 - (struct CGSize)f;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidAnimation; // @synthesize avoidAnimation=_avoidAnimation;
-@property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) struct CGSize boundingSize;
-@property(readonly, nonatomic) struct CGPoint contentOffset; // @synthesize contentOffset=_contentOffset;
-@property(readonly, nonatomic) struct CGSize contentSize; // @dynamic contentSize;
-@property(retain, nonatomic) _DUITargetLayerDescriptor *coordinateSpaceSourceLayerContext; // @synthesize coordinateSpaceSourceLayerContext=_coordinateSpaceSourceLayerContext;
-@property(readonly, nonatomic) struct CGSize croppedScaledSize;
-@property(readonly, nonatomic) UIBezierPath *effectiveShadowPath;
-@property(nonatomic) _Bool hasCustomOutline; // @synthesize hasCustomOutline=_hasCustomOutline;
-@property(readonly, nonatomic, getter=isHiddenDuringDrag) _Bool hiddenDuringDrag; // @synthesize hiddenDuringDrag=_hiddenDuringDrag;
-@property(nonatomic) _Bool hidesSourceView; // @synthesize hidesSourceView=_hidesSourceView;
-@property(nonatomic) struct CGPoint initialBadgeLocation; // @synthesize initialBadgeLocation=_initialBadgeLocation;
-@property(readonly, nonatomic) double liftAlpha;
-@property(nonatomic) struct CGPoint liftAnchorPoint; // @synthesize liftAnchorPoint=_liftAnchorPoint;
-@property(readonly, nonatomic) struct CGAffineTransform liftTransform;
-@property(nonatomic) struct CGPoint originalCenter; // @synthesize originalCenter=_originalCenter;
-@property(nonatomic) struct CGPoint originalCenterInCoordinateSpace; // @dynamic originalCenterInCoordinateSpace;
-@property(nonatomic) double originalRotation; // @synthesize originalRotation=_originalRotation;
-@property(copy, nonatomic) UIBezierPath *outline; // @synthesize outline=_outline;
-@property(nonatomic) struct CGAffineTransform overrideStackTransform; // @synthesize overrideStackTransform=_overrideStackTransform;
-@property(readonly, nonatomic, getter=isOversized) _Bool oversized;
-@property(readonly, nonatomic) UIDragPreviewParameters *parameters;
-@property(readonly, nonatomic) CDStruct_39925896 placeholderContentSize3D; // @synthesize placeholderContentSize3D=_placeholderContentSize3D;
-@property(nonatomic) long long preferredStackOrder; // @synthesize preferredStackOrder=_preferredStackOrder;
-@property(nonatomic) long long previewMode; // @synthesize previewMode=_previewMode;
-@property(readonly, nonatomic) double scaleFactor;
-@property(readonly, nonatomic) struct CGSize scaledSize;
-@property(copy, nonatomic) UIBezierPath *shadowPath; // @synthesize shadowPath=_shadowPath;
-@property(copy, nonatomic) _UIDragPreviewShadowProperties *shadowProperties; // @synthesize shadowProperties=_shadowProperties;
-@property(readonly, nonatomic) double stackAlpha;
-@property(nonatomic) _Bool textMode;
-@property(readonly, nonatomic) double topAlpha;
-@property(readonly, nonatomic) struct CGPoint unscaledAnchorPoint;
-@property(readonly, nonatomic) struct CGSize unscaledSize;
 @property(readonly, nonatomic) struct CGSize viewScaleFactor; // @synthesize viewScaleFactor=_viewScaleFactor;
-@property(nonatomic) _Bool wantsSuppressedMask; // @synthesize wantsSuppressedMask=_wantsSuppressedMask;
 
 @end
 

@@ -9,14 +9,13 @@
 @interface IMDSyncChatSliceRecord
 {
     void serviceName;
-    void ckRecordID;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)leiCloudDriveCancelButton;
 - (id);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 - (void)ssage_attachment_join ma ON a.ROWID = ma.attachment_id INNER JOIN message m ON m.rowid = ma.message_id WHERE (m.service == 'iMessage' OR m.service == 'SMS') AND a.ck_sync_state == 1 AND a.transfer_state == 0 AND a.ROWID > ? ORDER BY a.ROWID LIMIT ? ;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *ckRecordID;
 @property(nonatomic, copy) NSString *serviceName;
 
 @end

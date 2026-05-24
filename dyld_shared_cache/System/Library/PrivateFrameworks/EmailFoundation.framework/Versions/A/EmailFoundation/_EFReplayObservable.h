@@ -6,15 +6,11 @@
 
 #import <EmailFoundation/EFObservable.h>
 
-@class EFQueue, NSError, NSLock, NSMutableArray, NSString;
+@class NSLock;
 
 @interface _EFReplayObservable : EFObservable
 {
     NSLock *_lock;
-    _Bool _isStopped;
-    NSError *_error;
-    EFQueue *_queue;
-    NSMutableArray *_observers;
 }
 
 - (void);
@@ -26,13 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

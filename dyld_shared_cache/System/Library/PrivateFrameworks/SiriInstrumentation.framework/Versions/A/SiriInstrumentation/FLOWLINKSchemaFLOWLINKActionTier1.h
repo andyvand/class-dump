@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWLINKSchemaFLOWLINKActionTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_appBundleId;
-    _Bool _hasLinkId;
-    _Bool _hasAppBundleId;
 }
 
 - (void);
@@ -25,7 +22,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)numberWithUnsignedInteger:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -33,16 +30,12 @@
 - (id);
 - (id)entMetadata";
 - (void){?="isRedacted"b1};
-- (id)rumentationMessage;
-- (id)AppShortcutFirstRunConfirmationEnded;
+- (id)SISchemaInstrumentationMessage;
+- (id)FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationEnded;
 - (id)dde;
 - (void)¶¼ÿ};
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(nonatomic) _Bool hasAppBundleId; // @synthesize hasAppBundleId=_hasAppBundleId;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

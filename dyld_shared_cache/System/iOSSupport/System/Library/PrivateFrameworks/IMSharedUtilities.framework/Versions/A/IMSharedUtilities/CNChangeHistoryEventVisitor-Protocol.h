@@ -5,8 +5,10 @@
 //
 
 @protocol CNChangeHistoryEventVisitor
+- (void)/;
 
 @optional
-- (void)anageStatusProtocol;
+- (void)`";
+- (void)IMDaemonManageStatusProtocol;
 @end
 

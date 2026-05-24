@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTTTodo, NSUUID;
-
 @interface ICTTParagraphStyle
 {
     _Bool _needsParagraphCleanup;
-    _Bool _needsListCleanup;
-    unsigned int _style;
-    unsigned int _hints;
-    long long _alignment;
-    long long _writingDirection;
-    unsigned long long _indent;
-    unsigned long long _blockQuoteLevel;
-    unsigned long long _startingItemNumber;
-    ICTTTodo *_todo;
-    NSUUID *_uuid;
 }
 
 + (long long);

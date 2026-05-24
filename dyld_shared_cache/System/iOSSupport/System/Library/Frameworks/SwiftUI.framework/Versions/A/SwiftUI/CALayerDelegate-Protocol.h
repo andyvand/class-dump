@@ -11,6 +11,6 @@
 @optional
 - (void);
 - (void)¤¤Îá`Po;
-- (id <CAAction>)ibilityGeometryTransform;
+- (id <CAAction>)AccessibilityGeometryTransform;
 @end
 

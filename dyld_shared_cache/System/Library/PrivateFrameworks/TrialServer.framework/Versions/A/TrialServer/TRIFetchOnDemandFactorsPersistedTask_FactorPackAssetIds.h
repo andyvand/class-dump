@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TRIFetchOnDemandFactorsPersistedTask_FactorPackAssetIds
 {
 }
 
-+ (id);
++ (id)SignpostSupportSubsystemCategoryBlocklist;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *assetIdArray; // @dynamic assetIdArray;
-@property(readonly, nonatomic) unsigned long long assetIdArray_Count; // @dynamic assetIdArray_Count;
-@property(retain, nonatomic) NSMutableArray *assetIdFactorNameArray; // @dynamic assetIdFactorNameArray;
-@property(readonly, nonatomic) unsigned long long assetIdFactorNameArray_Count; // @dynamic assetIdFactorNameArray_Count;
 @property(copy, nonatomic) NSString *factorPackId; // @dynamic factorPackId;
-@property(nonatomic) _Bool hasFactorPackId; // @dynamic hasFactorPackId;
 
 @end
 

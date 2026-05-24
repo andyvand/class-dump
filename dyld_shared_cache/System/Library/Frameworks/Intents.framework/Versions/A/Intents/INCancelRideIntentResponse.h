@@ -6,31 +6,28 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INCurrencyAmount, NSDateComponents;
+@class INCurrencyAmount;
 
 @interface INCancelRideIntentResponse : INIntentResponse
 {
     INCurrencyAmount *_cancellationFee;
-    NSDateComponents *_cancellationFeeThreshold;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
+- (id)am;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)TLSShareableIdentityInfo;
 - (id);
 - (id);
 - (long long);
 - (void)hForPhotosIntent;
 
 // Remaining properties
-@property(copy) INCurrencyAmount *cancellationFee; // @synthesize cancellationFee=_cancellationFee;
-@property(copy) NSDateComponents *cancellationFeeThreshold; // @synthesize cancellationFeeThreshold=_cancellationFeeThreshold;
 @property(readonly) long long code; // @dynamic code;
 
 @end

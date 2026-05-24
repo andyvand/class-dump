@@ -9,29 +9,18 @@
 @interface SXProxyConfiguration
 {
     _Bool usePrivateRelay;
-    NSString *_proxyHost;
-    NSString *_proxyAutoConfigScript;
 }
 
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)beginEntryWithName: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *proxyAutoConfigScript; // @synthesize proxyAutoConfigScript=_proxyAutoConfigScript;
 @property(readonly, copy, nonatomic) NSString *proxyHost; // @synthesize proxyHost=_proxyHost;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usePrivateRelay; // @synthesize usePrivateRelay;
 
 @end
 

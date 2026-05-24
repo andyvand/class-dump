@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSVoiceProfileRetrainManager
@@ -12,32 +12,25 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)ventMonitor;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
++ (id)_opportuneSpeakEventMonitor;
+- (void)ilycircle.ages;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)eshold;
-- (void)iceWithUUID:withNumChannels:withUserIntentOptions:started: /* Error: Ran out of types for this method. */;
+- (void)LINK_SELECTED_CARDS_MENU_TITLE;
+- (void);
+- (void)preferredSmallSide;
+- (void);
+- (void);
+- (id);
+- (void)snrThreshold;
+- (void)injectAudio:toDeviceWithUUID:withNumChannels:withUserIntentOptions:started: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

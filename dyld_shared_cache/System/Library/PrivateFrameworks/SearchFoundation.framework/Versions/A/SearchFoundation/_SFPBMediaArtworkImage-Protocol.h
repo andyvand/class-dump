@@ -7,12 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBMediaArtworkImage
+- (NSData *)",R;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mediaEntityType;
 @property(copy, nonatomic) NSString *persistentID;
-@property(copy, nonatomic) NSString *spotlightIdentifier;
-@property(copy, nonatomic) NSString *universalLibraryID;
 @end
 

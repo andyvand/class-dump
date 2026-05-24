@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorColor, BlastDoorOrderPreview_OrderImage, BlastDoorOrderPreview_OrderText, NSString;
+@class NSString;
 
 @interface BlastDoorOrderPreview
 {
     id orderPreview;
 }
 
+- (id)144@0:8{CKBalloonDescriptor_t=ccccQdc{IMColorComponents=dddd}{IMColorComponents=dddd}BqqBBBBB}16 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id){;
 - (id);
 - (id);
 - (id)e;
@@ -21,12 +21,7 @@
 - (id)@aÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorColor *backgroundColor;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorOrderPreview_OrderImage *headerImage;
-@property(nonatomic, readonly) BlastDoorOrderPreview_OrderText *primaryText;
-@property(nonatomic, readonly) BlastDoorOrderPreview_OrderText *secondaryText;
-@property(nonatomic, readonly) BlastDoorOrderPreview_OrderText *tertiaryText;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface SwiftUI.DictionaryDecoder
 {
     id dateDecodingStrategy;
-    id dataDecodingStrategy;
-    id nonConformingFloatDecodingStrategy;
-    id keyDecodingStrategy;
-    id userInfo;
 }
 
 @end

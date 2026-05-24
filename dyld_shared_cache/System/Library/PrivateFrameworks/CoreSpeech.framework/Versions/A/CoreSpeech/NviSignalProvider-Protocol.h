@@ -5,6 +5,7 @@
 //
 
 @protocol NviSignalProvider
+- (unsigned long long)k;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long sigType;

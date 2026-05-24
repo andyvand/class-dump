@@ -8,8 +8,6 @@
 {
     id _cHandTrackingProvider;
     id _cHandTrackingConfiguration;
-    id anchorUpdateIterators;
-    id anchorQueue;
 }
 
 @end

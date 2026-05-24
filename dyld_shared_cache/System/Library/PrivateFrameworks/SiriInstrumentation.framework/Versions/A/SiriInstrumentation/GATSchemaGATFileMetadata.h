@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATFileMetadata : SISchemaInstrumentationMessage
 {
     unsigned long long _sizeInKB;
-    CDStruct_cf858e12 _has;
 }
 
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)(8;
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_indexPathForToneWithIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -30,8 +27,6 @@
 - (id)HØ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSizeInKB;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long sizeInKB; // @synthesize sizeInKB=_sizeInKB;
 
 @end

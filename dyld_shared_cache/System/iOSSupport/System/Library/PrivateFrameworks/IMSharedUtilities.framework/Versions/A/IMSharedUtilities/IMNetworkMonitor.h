@@ -9,10 +9,6 @@
 @interface IMNetworkMonitor
 {
     id queue;
-    id delegate;
-    id evaluator;
-    id state;
-    id host;
 }
 
 + (id);
@@ -29,10 +25,6 @@
 - (id)gging is enabled %@;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool immediatelyReachable;
-@property(nonatomic, readonly) _Bool isCellular;
-@property(nonatomic, readonly) _Bool isReachableFromPath;
-@property(nonatomic, readonly) _Bool isUltraConstrained;
 @property(nonatomic, readonly) NSString *remoteHost;
 
 @end

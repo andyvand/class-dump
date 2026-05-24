@@ -8,28 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSEncodingDetector
 {
     CDUnknownFunctionPointerType _recognizeFunc;
-    unsigned long long _nsEncoding;
-    unsigned int _cfEncoding;
-    unsigned long long _givenNumBytes;
-    unsigned long long _numChars;
-    unsigned long long _numMultiByteChars;
-    unsigned long long _numSingleBytechars;
-    unsigned long long _skipBytes;
-    unsigned long long _numZeroBytes;
-    unsigned long long _mostFrqChars;
-    unsigned long long _numBigrams;
-    unsigned long long _numRep;
-    unsigned long long _numDirect;
-    unsigned long long _numBase64;
-    unsigned long long _numSeq;
-    unsigned long long _numTrigram;
-    unsigned long long _numLower;
-    unsigned long long _numHigher;
-    double _weight;
-    _Bool _hasBase64;
-    _Bool _isBigEndian;
-    _Bool _hasBOM;
-    unsigned int _tag;
 }
 
 + (CDUnknownFunctionPointerType);
@@ -39,17 +17,16 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (double);
+- (double)T6;
 - (unsigned int);
 - (double);
-- (double);
-- (double);
+- (double)(@�`;
+- (double);
 - (double);
 - (void);
 - (double)       ¡¡¡¡¡¢£¤¥¦¦§¨¨¨¨¨¨¨¨¨¨¨¨©ª«¬¬¬¬¬¬¬¬­®¯¯°±±±²³³´µµ¶·¸¸¹ººº»»¼¼½½½½½½¾¾¾¾¾¾¾¾¾¾¾¿ÀÀÁÁÁÁÁÁÁÂÃÃÄÄÄÄÄÄÅÆÆÇÈÈÈÈÉÉÊÊËËÌÌÌÌÌÌÌÌÌÌÍÍÎÎÏÏÏÏÏÏÐÐÑÑÑÑÒÓÔÔÔÔÔÕÕÕÖÖÖÖÖÖ××××××××ØØÙÙÙÙÙÙÙÙÚÚÛÛÛÛÛÛÛÛÛÛÜÝÞÞßßßßàààààààáâââââãããäåååæææææææææçèèééêêêêêëìíííííîîîïððñññññòòòòòóóóóóóôôôõöö÷øøøøùúûûûûüüýýýýþÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly) unsigned int cfEncoding; // @synthesize cfEncoding=_cfEncoding;
 @property(readonly) unsigned long long nsEncoding; // @synthesize nsEncoding=_nsEncoding;
 
 @end

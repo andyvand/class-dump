@@ -6,13 +6,10 @@
 
 #import <NaturalLanguage/NLLanguageModelSession.h>
 
-@class NLTokenizer;
-
 __attribute__((visibility("hidden")))
 @interface NLLMSLanguageModelSession : NLLanguageModelSession
 {
     struct unique_ptr<language_modeling::LanguageModelSession, std::default_delete<language_modeling::LanguageModelSession>> _session;
-    NLTokenizer *_tokenizer;
 }
 
 - (void);

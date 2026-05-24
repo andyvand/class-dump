@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSMutableDictionary;
 
 @interface _PXDefaultAudioCueProvider
 {
     NSMutableDictionary *_providersByCatalog;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_os_log> *_log;
 }
 
 - (id);

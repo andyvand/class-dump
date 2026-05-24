@@ -5,5 +5,7 @@
 //
 
 @protocol _UITableViewSubviewManagerDelegate
+- (void)resetRecordCounts;
+- (void)resetCKSyncState;
 @end
 

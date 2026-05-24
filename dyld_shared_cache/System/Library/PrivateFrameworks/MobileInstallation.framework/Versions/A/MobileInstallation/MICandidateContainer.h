@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface MICandidateContainer
 {
     NSURL *_rootURL;
-    NSString *_identifier;
-    NSDictionary *_metadata;
 }
 
 - (_Bool);
@@ -19,16 +17,13 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id)
+ҿ;
 - (id);
-- (id);
-- (id);
+- (id)foreknowledge;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long estimatedSize;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isAppleApp;
-@property(readonly, copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
 @property(readonly, nonatomic) NSURL *rootURL; // @synthesize rootURL=_rootURL;
 
 @end

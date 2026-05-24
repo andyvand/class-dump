@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface WBSHistoryServiceURLRepresentation
 {
     NSString *_urlString;
-    NSData *_urlHash;
-    NSData *_urlSalt;
 }
 
 + (_Bool);
@@ -30,8 +28,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *urlHash; // @synthesize urlHash=_urlHash;
-@property(readonly, copy, nonatomic) NSData *urlSalt; // @synthesize urlSalt=_urlSalt;
 @property(readonly, copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end

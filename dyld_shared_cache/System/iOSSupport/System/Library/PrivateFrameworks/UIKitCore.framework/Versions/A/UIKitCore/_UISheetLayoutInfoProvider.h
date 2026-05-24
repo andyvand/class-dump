@@ -8,7 +8,7 @@
 {
 }
 
-+ (struct CGAffineTransform);
++ (struct CGAffineTransform)ountry code:(id)arg1 %@;
 + (double);
 + (id);
 - (id);

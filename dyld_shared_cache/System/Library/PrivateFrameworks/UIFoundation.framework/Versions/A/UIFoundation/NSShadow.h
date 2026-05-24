@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface NSShadow
 {
     unsigned long long _shadowFlags;
-    struct CGSize _shadowOffset;
-    double _shadowBlurRadius;
-    NSColor *_shadowColor;
-    double _reservedFloat[3];
-    void *_reserved;
 }
 
 + (id);
 + (id);
-+ (_Bool);
-+ (void)ex: /* Error: Ran out of types for this method. */;
++ (_Bool),\4,;
++ (void)attachmentSizeForGlyphAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double shadowBlurRadius; // @synthesize shadowBlurRadius=_shadowBlurRadius;
-@property(copy) NSColor *shadowColor;
 @property struct CGSize shadowOffset; // @synthesize shadowOffset=_shadowOffset;
 
 @end

@@ -11,8 +11,8 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)alterTsconfigAddMapping;
 - (id);
 
 @end

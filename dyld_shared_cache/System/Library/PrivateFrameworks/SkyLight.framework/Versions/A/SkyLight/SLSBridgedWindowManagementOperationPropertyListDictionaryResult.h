@@ -13,10 +13,10 @@
     NSDictionary *_propertyListDictionary;
 }
 
-+ (_Bool);
-- (id);
-- (id);
-- (id);
++ (_Bool)*@9J6;
+- (id)s not a file url.;
+- (id)re_delete=0;
+- (id)9;
 - (void);
 - (void);
 

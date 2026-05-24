@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFigVideoCaptureDevice, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureSessionActiveCameraCaptureSource
 {
     struct OpaqueFigCaptureSource *_source;
-    BWFigVideoCaptureDevice *_device;
-    NSString *_nonLocalizedName;
-    int _deviceType;
 }
 
-- (void);
+- (void)VmNextAction;
 
 @end
 

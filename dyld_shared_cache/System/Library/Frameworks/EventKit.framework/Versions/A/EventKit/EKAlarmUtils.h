@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (void);
++ (id)tringRef MRPlaybackQueueRequestGetRequestID(MRPlaybackQueueRequestRef);
++ (id)ludeArtwork(MRPlaybackQueueRequestRef, double, double);
++ (id)questRef, _Bool);
++ (void)thCurrentState(MRPlaybackQueueRequestRef, CFRange, CFArrayRef);
 
 @end
 

@@ -12,33 +12,24 @@ __attribute__((visibility("hidden")))
 @interface _UICommandMenuInsertion : _UICommandChange
 {
     NSArray *_fallbacks;
-    NSArray *_insertsAtStart;
-    NSArray *_insertsAtEnd;
-    NSArray *_insertsBefore;
-    NSArray *_insertsAfter;
 }
 
 + (id);
-+ (_Bool)wsNumberPadPopover;
++ (_Bool)UITextAllowsNumberPadPopover;
+- (id)_processReceivedDictionaryInBlastDoor:storageContext:receivedViaRelay:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)_processReceivedDictionary:storageContext:receivedViaRelay:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)_processReceivedDictionary:storageContext:receivedViaRelay:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)_processReceivedDictionary:storageContext:receivedViaRelay:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)_associatedMessageGUID;
+- (id)lastScheduledMessageCreatedDate;
+- (void)So19NSMutableDictionaryC;
+- (_Bool)ϪH6G;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)rbSymbolConfiguration;
 - (void)ØXþ²;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *anchor; // @dynamic anchor;
-@property(readonly, nonatomic) NSArray *fallbacks; // @synthesize fallbacks=_fallbacks;
-@property(readonly, nonatomic) NSArray *insertsAfter; // @synthesize insertsAfter=_insertsAfter;
-@property(readonly, nonatomic) NSArray *insertsAtEnd; // @synthesize insertsAtEnd=_insertsAtEnd;
-@property(readonly, nonatomic) NSArray *insertsAtStart; // @synthesize insertsAtStart=_insertsAtStart;
-@property(readonly, nonatomic) NSArray *insertsBefore; // @synthesize insertsBefore=_insertsBefore;
 
 @end
 

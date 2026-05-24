@@ -11,18 +11,18 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct FaceLandmarkDetectorPoint;
@@ -62,48 +62,26 @@ struct _AnalyticsTaskInfo {
     unsigned long long _field2;
 };
 
-struct __CVBuffer;
-
 struct __shared_weak_count;
 
 struct _mxnetTools_imageHeader_t_ {
-    unsigned int flag;
-    float label;
-    struct _mxnetTools_imageID_t_ imageID;
+    unsigned int _field1;
+    float _field2;
+    struct _mxnetTools_imageID_t_ _field3;
 };
 
 struct _mxnetTools_imageID_t_ {
-    unsigned long long ID[2];
+    unsigned long long _field1[2];
 };
 
 struct _mxnetTools_recordHeader_t_ {
-    unsigned int magic;
-    unsigned int lrecord;
+    unsigned int _field1;
+    unsigned int _field2;
 };
 
 struct abstract_blob_container;
 
 struct abstract_context;
-
-struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
-    struct {
-        union __rep {
-            struct __short {
-                char __data_[23];
-                unsigned int __size_:7;
-                unsigned int __is_long_:1;
-            } __s;
-            struct __long {
-                char *__data_;
-                unsigned long long __size_;
-                unsigned int __cap_:63;
-                unsigned int __is_long_:1;
-            } __l;
-        } __rep_;
-    } ;
-};
-
-struct blob_cpu;
 
 struct convolution_uniforms {
     int W;
@@ -155,12 +133,10 @@ struct convolution_uniforms {
 struct fast_pyramid_resizer;
 
 struct float_buffer_t {
-    float *ptr;
-    unsigned long long size;
-    _Bool free_when_done;
+    float *_field1;
+    unsigned long long _field2;
+    _Bool _field3;
 };
-
-struct generic_load_constant_kernel;
 
 struct gradient_builder;
 
@@ -200,40 +176,12 @@ struct inner_product_uniforms {
     int disable_bnns_client_ptr;
 };
 
-struct linear_congruential_engine<unsigned int, 48271U, 0U, 2147483647U> {
-    unsigned int __x_;
-};
-
-struct map<int, ETDataPoint *, std::less<int>, std::allocator<std::pair<const int, ETDataPoint *>>> {
-    struct __tree<std::__value_type<int, ETDataPoint *>, std::__map_value_compare<int, std::pair<const int, ETDataPoint *>, std::less<int>>, std::allocator<std::pair<const int, ETDataPoint *>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, ETDataPoint_buffer, std::less<std::string>, std::allocator<std::pair<const std::string, ETDataPoint_buffer>>> {
-    struct __tree<std::__value_type<std::string, ETDataPoint_buffer>, std::__map_value_compare<std::string, std::pair<const std::string, ETDataPoint_buffer>, std::less<std::string>>, std::allocator<std::pair<const std::string, ETDataPoint_buffer>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<std::string, float, std::less<std::string>, std::allocator<std::pair<const std::string, float>>> {
-    struct __tree<std::__value_type<std::string, float>, std::__map_value_compare<std::string, std::pair<const std::string, float>, std::less<std::string>>, std::allocator<std::pair<const std::string, float>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct map<std::string, float_buffer_t, std::less<std::string>, std::allocator<std::pair<const std::string, float_buffer_t>>> {
     struct __tree<std::__value_type<std::string, float_buffer_t>, std::__map_value_compare<std::string, std::pair<const std::string, float_buffer_t>, std::less<std::string>>, std::allocator<std::pair<const std::string, float_buffer_t>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
+        void *_field1;
+        CDStruct_09bd28e6 _field2;
+        CDStruct_a7186859 _field3;
+    } _field1;
 };
 
 struct map<std::string, std::shared_ptr<Espresso::blob<float, 2>>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 2>>>>> {
@@ -268,20 +216,13 @@ struct map<std::string, vImage_Buffer, std::less<std::string>, std::allocator<st
     } __tree_;
 };
 
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
-};
-
 struct net;
 
 struct net_strides_configuration {
-    int num_layer;
-    struct vector<int, std::allocator<int>> kernel_size;
-    struct vector<int, std::allocator<int>> stride;
-    struct vector<int, std::allocator<int>> pad;
+    int _field1;
+    struct vector<int, std::allocator<int>> _field2;
+    struct vector<int, std::allocator<int>> _field3;
+    struct vector<int, std::allocator<int>> _field4;
 };
 
 struct padding_params_t {
@@ -301,53 +242,6 @@ struct pair<int, int> {
     int _field2;
 };
 
-struct pair<unsigned long long, unsigned long long> {
-    unsigned long long first;
-    unsigned long long second;
-};
-
-struct postprocessing_settings_t {
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> name;
-    struct basic_string<char, std::char_traits<char>, std::allocator<char>> network;
-    int do_blend;
-    float blend_alpha;
-    int grayscale_i0;
-    int grayscale_i1;
-    float temporal_alpha;
-    float gamma;
-    float saturation;
-    float contrast;
-    float brightness;
-    int color_transfer_mode;
-    int width;
-    int height;
-    int width_fast;
-    int height_fast;
-    int width_capture;
-    int height_capture;
-    int width_miniature;
-    int height_miniature;
-    int width_fullscreen;
-    int height_fullscreen;
-    int width_hd;
-    int height_hd;
-    float old_frame_scale;
-    float noise_strength;
-    int dyn_noise;
-    float noise_speed;
-    float preprocessing_bias_b;
-    float preprocessing_bias_g;
-    float preprocessing_bias_r;
-    float preprocessing_scale;
-    float preprocessing_old_frame_bias_scale;
-    _Bool high_quality_scaling;
-};
-
-struct shared_ptr<Espresso::V9Engine::v9_noise_kernel> {
-    struct v9_noise_kernel *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<Espresso::abstract_blob_container> {
     struct abstract_blob_container *__ptr_;
     struct __shared_weak_count *__cntrl_;
@@ -358,19 +252,14 @@ struct shared_ptr<Espresso::abstract_context> {
     struct __shared_weak_count *__cntrl_;
 };
 
-struct shared_ptr<Espresso::blob<float __attribute__((ext_vector_type(2))), 1>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<Espresso::blob<float, 1>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<Espresso::blob<float, 2>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<Espresso::blob<float, 3>> {
@@ -379,38 +268,13 @@ struct shared_ptr<Espresso::blob<float, 3>> {
 };
 
 struct shared_ptr<Espresso::blob<float, 4>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<Espresso::blob<unsigned char, 1>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<Espresso::blob<unsigned char, 2>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<Espresso::blob<unsigned char, 4>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<Espresso::blob<unsigned short, 2>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<Espresso::blob<unsigned short, 4>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<Espresso::blob_cpu> {
-    struct blob_cpu *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    void *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<Espresso::fast_pyramid_resizer> {
@@ -418,14 +282,9 @@ struct shared_ptr<Espresso::fast_pyramid_resizer> {
     struct __shared_weak_count *_field2;
 };
 
-struct shared_ptr<Espresso::generic_load_constant_kernel> {
-    struct generic_load_constant_kernel *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<Espresso::gradient_builder> {
-    struct gradient_builder *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct gradient_builder *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<Espresso::net> {
@@ -443,33 +302,31 @@ struct shared_ptr<std::string> {
     struct __shared_weak_count *_field2;
 };
 
-struct surface_and_buffer;
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*>>> {
     struct {
-        void **__ptr_;
+        void **_field1;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
+            CDStruct_a7186859 _field1;
+        } _field2;
+    } _field1;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*>>> {
     struct {
-        void **__ptr_;
+        void **_field1;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
+            CDStruct_a7186859 _field1;
+        } _field2;
+    } _field1;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*>>> {
     struct {
-        void **__ptr_;
+        void **_field1;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
+            CDStruct_a7186859 _field1;
+        } _field2;
+    } _field1;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, unsigned long>, void *>*>*>>> {
@@ -483,41 +340,41 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
 
 struct unordered_map<std::string, Espresso::layer_shape, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, Espresso::layer_shape>>> {
     struct __hash_table<std::__hash_value_type<std::string, Espresso::layer_shape>, std::__unordered_map_hasher<std::string, std::pair<const std::string, Espresso::layer_shape>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, Espresso::layer_shape>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, Espresso::layer_shape>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
 };
 
 struct unordered_map<std::string, std::shared_ptr<Espresso::blob<float, 1>>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 1>>>>> {
     struct __hash_table<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 1>>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 1>>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 1>>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
 };
 
 struct unordered_map<std::string, std::shared_ptr<Espresso::blob<float, 4>>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 4>>>>> {
     struct __hash_table<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 4>>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 4>>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 4>>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
 };
 
 struct unordered_map<std::string, unsigned long, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, unsigned long>>> {
@@ -533,21 +390,11 @@ struct unordered_map<std::string, unsigned long, std::hash<std::string>, std::eq
     } __table_;
 };
 
-struct v9_noise_kernel;
-
 struct vImage_Buffer {
     void *data;
     unsigned long long height;
     unsigned long long width;
     unsigned long long rowBytes;
-};
-
-struct vector<Espresso::ANERuntimeEngine::surface_and_buffer, std::allocator<Espresso::ANERuntimeEngine::surface_and_buffer>> {
-    struct surface_and_buffer *__begin_;
-    struct surface_and_buffer *__end_;
-    struct {
-        struct surface_and_buffer *__cap_;
-    } ;
 };
 
 struct vector<FaceLandmarkDetectorPoint, std::allocator<FaceLandmarkDetectorPoint>> {
@@ -558,57 +405,15 @@ struct vector<FaceLandmarkDetectorPoint, std::allocator<FaceLandmarkDetectorPoin
     } _field3;
 };
 
-struct vector<NSString *, std::allocator<NSString *>> {
-    id *__begin_;
-    id *__end_;
-    struct {
-        id *__cap_;
-    } ;
-};
-
-struct vector<__CVBuffer *, std::allocator<__CVBuffer *>> {
-    struct __CVBuffer **__begin_;
-    struct __CVBuffer **__end_;
-    struct {
-        struct __CVBuffer **__cap_;
-    } ;
-};
-
-struct vector<double, std::allocator<double>> {
-    double *__begin_;
-    double *__end_;
-    struct {
-        double *__cap_;
-    } ;
-};
-
 struct vector<int, std::allocator<int>> {
-    int *__begin_;
-    int *__end_;
+    int *_field1;
+    int *_field2;
     struct {
-        int *__cap_;
-    } ;
+        int *_field1;
+    } _field3;
 };
 
 struct vector<std::pair<NSString *, unsigned long>, std::allocator<std::pair<NSString *, unsigned long>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::pair<unsigned long long, unsigned long long>, std::allocator<std::pair<unsigned long long, unsigned long long>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::shared_ptr<Espresso::blob<float, 3>>, std::allocator<std::shared_ptr<Espresso::blob<float, 3>>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-};
-
-struct vector<std::shared_ptr<Espresso::fast_pyramid_resizer>, std::allocator<std::shared_ptr<Espresso::fast_pyramid_resizer>>> {
     void *__begin_;
     void *__end_;
     CDStruct_63fd5f43 ;
@@ -621,15 +426,15 @@ struct vector<std::shared_ptr<Espresso::net>, std::allocator<std::shared_ptr<Esp
 };
 
 struct vector<std::shared_ptr<unsigned char>, std::allocator<std::shared_ptr<unsigned char>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
 };
 
 struct vector<std::string, std::allocator<std::string>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
 };
 
 struct vector<void *, std::allocator<void *>> {
@@ -689,9 +494,9 @@ typedef struct {
 } CDStruct_0a65202a;
 
 typedef struct {
-    void *plan;
-    int network_index;
-} CDStruct_2bc666a5;
+    void *_field1;
+    int _field2;
+} CDStruct_e4961688;
 
 typedef struct {
     void *__cap_;
@@ -715,11 +520,11 @@ typedef struct {
 // Template types
 typedef struct map<std::string, float_buffer_t, std::less<std::string>, std::allocator<std::pair<const std::string, float_buffer_t>>> {
     struct __tree<std::__value_type<std::string, float_buffer_t>, std::__map_value_compare<std::string, std::pair<const std::string, float_buffer_t>, std::less<std::string>>, std::allocator<std::pair<const std::string, float_buffer_t>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-} map_db1875bf;
+        void *_field1;
+        CDStruct_09bd28e6 _field2;
+        CDStruct_a7186859 _field3;
+    } _field1;
+} map_3f4fe2ef;
 
 typedef struct map<std::string, vImage_Buffer, std::less<std::string>, std::allocator<std::pair<const std::string, vImage_Buffer>>> {
     struct __tree<std::__value_type<std::string, vImage_Buffer>, std::__map_value_compare<std::string, std::pair<const std::string, vImage_Buffer>, std::less<std::string>>, std::allocator<std::pair<const std::string, vImage_Buffer>>> {
@@ -745,14 +550,14 @@ typedef struct shared_ptr<Espresso::abstract_context> {
 } shared_ptr_ae8b808b;
 
 typedef struct shared_ptr<Espresso::blob<float, 1>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_b3167edd;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_1800a67c;
 
 typedef struct shared_ptr<Espresso::blob<float, 2>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_9dc4c196;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_5ca6912b;
 
 typedef struct shared_ptr<Espresso::blob<float, 3>> {
     void *_field1;
@@ -760,14 +565,14 @@ typedef struct shared_ptr<Espresso::blob<float, 3>> {
 } shared_ptr_891d523c;
 
 typedef struct shared_ptr<Espresso::blob<float, 4>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_619761a4;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_5fe32275;
 
 typedef struct shared_ptr<Espresso::blob<unsigned char, 1>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_163bc247;
+    void *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_34d09657;
 
 typedef struct shared_ptr<Espresso::fast_pyramid_resizer> {
     struct fast_pyramid_resizer *_field1;
@@ -775,9 +580,9 @@ typedef struct shared_ptr<Espresso::fast_pyramid_resizer> {
 } shared_ptr_7fb9d9f9;
 
 typedef struct shared_ptr<Espresso::gradient_builder> {
-    struct gradient_builder *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_c14ee569;
+    struct gradient_builder *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_43503870;
 
 typedef struct shared_ptr<Espresso::net> {
     struct net *__ptr_;
@@ -796,42 +601,42 @@ typedef struct shared_ptr<std::string> {
 
 typedef struct unordered_map<std::string, Espresso::layer_shape, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, Espresso::layer_shape>>> {
     struct __hash_table<std::__hash_value_type<std::string, Espresso::layer_shape>, std::__unordered_map_hasher<std::string, std::pair<const std::string, Espresso::layer_shape>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, Espresso::layer_shape>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, Espresso::layer_shape>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, Espresso::layer_shape>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-} unordered_map_3d313a2a;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
+} unordered_map_122062d3;
 
 typedef struct unordered_map<std::string, std::shared_ptr<Espresso::blob<float, 1>>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 1>>>>> {
     struct __hash_table<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 1>>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 1>>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 1>>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 1>>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-} unordered_map_80565e0a;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
+} unordered_map_49d5c5b1;
 
 typedef struct unordered_map<std::string, std::shared_ptr<Espresso::blob<float, 4>>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 4>>>>> {
     struct __hash_table<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, std::__unordered_map_hasher<std::string, std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 4>>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 4>>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<Espresso::blob<float, 4>>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*>>> __bucket_list_;
+        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*>*>>> _field1;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<Espresso::blob<float, 4>>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-} unordered_map_15d4c443;
+                void *_field1;
+            } _field1;
+        } _field2;
+        CDStruct_a7186859 _field3;
+        CDStruct_717dde41 _field4;
+    } _field1;
+} unordered_map_bc276792;
 
 typedef struct vector<FaceLandmarkDetectorPoint, std::allocator<FaceLandmarkDetectorPoint>> {
     struct FaceLandmarkDetectorPoint *_field1;
@@ -842,14 +647,14 @@ typedef struct vector<FaceLandmarkDetectorPoint, std::allocator<FaceLandmarkDete
 } vector_b7c49a4d;
 
 typedef struct vector<std::shared_ptr<unsigned char>, std::allocator<std::shared_ptr<unsigned char>>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-} vector_1354944f;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
+} vector_f019daed;
 
 typedef struct vector<std::string, std::allocator<std::string>> {
-    void *__begin_;
-    void *__end_;
-    CDStruct_63fd5f43 ;
-} vector_64acebbd;
+    void *_field1;
+    void *_field2;
+    CDStruct_63fd5f43 _field3;
+} vector_76d36e47;
 

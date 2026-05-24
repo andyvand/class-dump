@@ -11,35 +11,30 @@
 @interface NSPICTImageRep : NSImageRep
 {
     struct CGImage *_img;
-    struct CGPoint _pictOrigin;
-    NSData *_pictData;
-    NSImageRep *_imageRep;
-    unsigned long long _pictOffset;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)ConditionalConnectionSIMScheduler;
 + (void)q;
 - (id);
 - (struct CGImage *);
 - (void);
-- (id);
+- (id)d);
 - (id);
 - (struct CGRect);
 - (void)¡ê/Ð!¸CùQß31Â0@ù
 × ;
 - (id)
 × ;
-- (id)nContext:(struct _NSZone *)arg1;
+- (id)_renderForegroundInContext:(struct _NSZone *)arg1;
 - (_Bool)lG`HTJ;
 - (_Bool)thCjÂñÿ_So6NSViewCXcSgIeyByyya_;
 
 // Remaining properties
 @property(readonly, copy) NSData *PICTRepresentation;
-@property(readonly) struct CGRect boundingBox;
 
 @end
 

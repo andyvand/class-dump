@@ -6,20 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class HomeKitSchemaHKAccessoryOperationReported, HomeKitSchemaHKAudioTopologyReported, HomeKitSchemaHomeKitEventMetadata, NSData, SISchemaInstrumentationMessage;
+@class HomeKitSchemaHomeKitEventMetadata, SISchemaInstrumentationMessage;
 
 @interface HomeKitSchemaHKClientEvent : SISchemaTopLevelUnionType
 {
     HomeKitSchemaHomeKitEventMetadata *_eventMetadata;
-    HomeKitSchemaHKAccessoryOperationReported *_homeKitAccessoryOperationReported;
-    HomeKitSchemaHKAudioTopologyReported *_audioTopologyReported;
-    _Bool _hasEventMetadata;
-    _Bool _hasHomeKitAccessoryOperationReported;
-    _Bool _hasAudioTopologyReported;
-    unsigned long long _whichEvent_Type;
 }
 
-+ (int);
++ (int)qA;
 + (id);
 - (unsigned long long);
 - (void);
@@ -30,13 +24,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)terface:Unable to get method signature from Protocol data (%s / %s). /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -46,26 +40,18 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_sessionInterruptionFuture;
 - (id)AtÐ!Gù±à1Â0@ù
 × ;
-- (id)sStrictPrompt;
-- (unsigned long long)tionScore;
-- (id)articipantId;
+- (id)isStrictPrompt;
+- (unsigned long long)predictionScore;
+- (id)hasRotatedElectionParticipantId;
 - (id);
-- (int)CERESOLUTIONSTATE_FAILED;
+- (int)INFERENCERESOLUTIONSTATE_FAILED;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HomeKitSchemaHKAudioTopologyReported *audioTopologyReported; // @synthesize audioTopologyReported=_audioTopologyReported;
-@property(retain, nonatomic) HomeKitSchemaHomeKitEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasAudioTopologyReported; // @synthesize hasAudioTopologyReported=_hasAudioTopologyReported;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasHomeKitAccessoryOperationReported; // @synthesize hasHomeKitAccessoryOperationReported=_hasHomeKitAccessoryOperationReported;
-@property(retain, nonatomic) HomeKitSchemaHKAccessoryOperationReported *homeKitAccessoryOperationReported; // @synthesize homeKitAccessoryOperationReported=_homeKitAccessoryOperationReported;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

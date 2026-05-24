@@ -6,26 +6,19 @@
 
 #import <xpc_datastores/OS_xpc_datastore_object.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface OS_xpc_datastore_publisher : OS_xpc_datastore_object
 {
     NSObject<OS_dispatch_queue> *pending_work_dq;
     NSObject<OS_dispatch_queue> *dq;
-    CDUnknownBlockType publish_data;
-    unsigned int activated:1;
 }
 
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
 @property(readonly) Class superclass;
 

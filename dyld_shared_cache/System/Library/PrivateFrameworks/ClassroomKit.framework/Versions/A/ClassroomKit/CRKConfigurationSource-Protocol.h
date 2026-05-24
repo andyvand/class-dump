@@ -5,5 +5,6 @@
 //
 
 @protocol CRKConfigurationSource
+- (void);
 @end
 

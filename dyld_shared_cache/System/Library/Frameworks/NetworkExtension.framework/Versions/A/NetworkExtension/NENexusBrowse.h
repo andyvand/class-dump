@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, NWBrowseDescriptor, NWParameters;
+@class NWBrowseDescriptor;
 
 @interface NENexusBrowse
 {
     NWBrowseDescriptor *_descriptor;
-    NWParameters *_parameters;
-    NSUUID *_clientIdentifier;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -22,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
 @property(retain, nonatomic) NWBrowseDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) NWParameters *parameters; // @synthesize parameters=_parameters;
 
 @end
 

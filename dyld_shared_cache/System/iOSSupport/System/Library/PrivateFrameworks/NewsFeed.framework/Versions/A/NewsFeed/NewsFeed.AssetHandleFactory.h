@@ -7,8 +7,6 @@
 @interface NewsFeed.AssetHandleFactory
 {
     id assetManager;
-    id contentContext;
-    id sportsDataService;
 }
 
 @end

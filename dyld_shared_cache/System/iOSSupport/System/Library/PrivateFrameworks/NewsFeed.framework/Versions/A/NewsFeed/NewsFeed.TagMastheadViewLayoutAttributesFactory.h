@@ -7,10 +7,6 @@
 @interface NewsFeed.TagMastheadViewLayoutAttributesFactory
 {
     id styler;
-    id baseMastheadHeight;
-    id publisherLogoMaxHeight;
-    id supplementalViewWidth;
-    id featureAvailability;
 }
 
 @end

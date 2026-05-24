@@ -5,5 +5,9 @@
 //
 
 @protocol CNContactContentEditViewControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

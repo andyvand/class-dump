@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTokenizedMathResult, NSArray, NSDictionary, NSLocale, NSNumber;
+@class NSNumber;
 
 @interface CHStrokeGroupQueryItem
 {
     NSNumber *_strokeGroupIdentifier;
-    NSNumber *_strokeGroupStableIdentifier;
-    NSArray *_strokeIdentifiers;
-    long long _strokeGroupType;
-    NSLocale *_preferredLocale;
-    CHTokenizedMathResult *_mathResult;
-    NSDictionary *__tokenizedTextResultsByLocale;
-    NSDictionary *__errorsByLocale;
-    long long __strokeClassification;
 }
 
 + (id);
@@ -32,12 +24,7 @@
 - (void)À;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CHTokenizedMathResult *mathResult; // @synthesize mathResult=_mathResult;
-@property(readonly, copy, nonatomic) NSLocale *preferredLocale; // @synthesize preferredLocale=_preferredLocale;
 @property(readonly, nonatomic) NSNumber *strokeGroupIdentifier; // @synthesize strokeGroupIdentifier=_strokeGroupIdentifier;
-@property(readonly, nonatomic) NSNumber *strokeGroupStableIdentifier; // @synthesize strokeGroupStableIdentifier=_strokeGroupStableIdentifier;
-@property(readonly, nonatomic) long long strokeGroupType; // @synthesize strokeGroupType=_strokeGroupType;
-@property(readonly, copy, nonatomic) NSArray *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
 
 @end
 

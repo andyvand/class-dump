@@ -6,16 +6,11 @@
 
 #import <HomeAI/HMIPersonManager.h>
 
-@class HMFTimer, HMIExternalPersonManagerSettings, NSOperationQueue, NSString;
-@protocol HMIExternalPersonManagerDataSource;
+@class NSOperationQueue;
 
 @interface HMIExternalPersonManager : HMIPersonManager
 {
     struct os_unfair_lock_s _lock;
-    id <HMIExternalPersonManagerDataSource> _dataSource;
-    HMIExternalPersonManagerSettings *_settings;
-    NSOperationQueue *_operationQueue;
-    HMFTimer *_watchdogTimer;
 }
 
 + (id);
@@ -27,30 +22,20 @@
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
 - (void);
+- (id);
+- (id)qA;
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)initWithDisplayCompositedVideoFrames:droppedVideoFrames:totalVideoFrames: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <HMIExternalPersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly) HMIExternalPersonManagerSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
-@property(readonly) HMFTimer *watchdogTimer; // @synthesize watchdogTimer=_watchdogTimer;
 
 @end
 

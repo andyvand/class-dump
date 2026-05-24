@@ -7,22 +7,6 @@
 @interface Network.Ack
 {
     id initialAckSpace;
-    id handshakeAckSpace;
-    id applicationAckSpace;
-    id delayExponent;
-    id unackedPacketCount;
-    id lastSentTime;
-    id timerID;
-    id timer;
-    id flags;
-    id delaySize;
-    id immediateAcks;
-    id packetThreshold;
-    id sentFrequencyThreshold;
-    id maxDelay;
-    id sentFrequencyTimestamp;
-    id nextFrequencySequence;
-    id receivedFrequencySequence;
 }
 
 @end

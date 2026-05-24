@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityMapping, NSError, NSManagedObjectModel;
+@class NSManagedObjectModel;
 
 __attribute__((visibility("hidden")))
 @interface _NSMappingModelBuilder
 {
     NSManagedObjectModel *_sourceModel;
-    NSManagedObjectModel *_destinationModel;
-    NSEntityMapping *_currentEntityMapping;
-    NSError *_error;
 }
 
 + (int);

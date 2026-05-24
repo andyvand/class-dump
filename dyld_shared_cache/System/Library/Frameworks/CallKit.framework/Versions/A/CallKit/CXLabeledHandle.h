@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXHandle, NSString;
+@class CXHandle;
 
 @interface CXLabeledHandle
 {
     CXHandle *_handle;
-    NSString *_label;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)loading of carrier bundling status because the combination (MCC:%{public}@, MNC:%{public}@) for the current active SIM card is not in the allow list. /* Error: Ran out of types for this method. */;
+- (id)%@';
+- (_Bool)_defaultPlaylistEntryPropertySet;
+- (void)cannot be nil;
 - (id);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void)ParticipantHandles:(id)arg1;
+- (void)setActiveRemoteParticipantHandles:(id)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) CXHandle *handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

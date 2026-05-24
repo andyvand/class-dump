@@ -9,13 +9,10 @@
 @interface VTUIStringsHelper
 {
     NSDictionary *_localizedStringTable;
-    NSDictionary *_localizedStringTableForSiriLanguage;
-    NSString *_heySiriTriggerPhrase;
-    NSString *_compactTriggerPhrase;
 }
 
 + (id);
-+ (void)jisOnly;
++ (void)_renderEmojisOnly;
 - (id);
 - (id);
 - (void);
@@ -29,7 +26,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *compactTriggerPhrase; // @synthesize compactTriggerPhrase=_compactTriggerPhrase;
 @property(readonly, nonatomic) NSString *heySiriTriggerPhrase; // @synthesize heySiriTriggerPhrase=_heySiriTriggerPhrase;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, BlastDoorStickerAttachmentInfo, NSString;
+@class NSString;
 
 @interface BlastDoorRepositionStickerCommand
 {
@@ -20,9 +20,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) NSString *stickerEditedMessageGUID;
-@property(nonatomic, readonly) BlastDoorStickerAttachmentInfo *stickerMetadata;
 
 @end
 

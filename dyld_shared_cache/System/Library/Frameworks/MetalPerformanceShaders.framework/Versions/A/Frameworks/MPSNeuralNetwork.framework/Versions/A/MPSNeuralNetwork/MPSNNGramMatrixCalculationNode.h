@@ -6,16 +6,13 @@
 
 #import <MPSNeuralNetwork/MPSNNFilterNode.h>
 
-@protocol MPSNNGramMatrixCallback;
-
 @interface MPSNNGramMatrixCalculationNode : MPSNNFilterNode
 {
     float _alpha;
-    id <MPSNNGramMatrixCallback> _propertyCallBack;
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id).;
 - (void);
 - (id);
 - (void *);
@@ -23,11 +20,10 @@
 - (Class);
 - (void);
 - (float);
-- (id)ridSample;
+- (id)MPSNNGridSample;
 
 // Remaining properties
 @property(readonly, nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(retain, nonatomic) id <MPSNNGramMatrixCallback> propertyCallBack; // @synthesize propertyCallBack=_propertyCallBack;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface TRINamespaceRecord
 {
     unsigned int _compatibilityVersion;
-    NSString *_name;
-    NSURL *_treatmentURL;
 }
 
 + (id);
@@ -30,12 +28,10 @@
 - (unsigned int);
 - (_Bool);
 - (id);
-- (void);
+- (void)^);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSURL *treatmentURL; // @synthesize treatmentURL=_treatmentURL;
 
 @end
 

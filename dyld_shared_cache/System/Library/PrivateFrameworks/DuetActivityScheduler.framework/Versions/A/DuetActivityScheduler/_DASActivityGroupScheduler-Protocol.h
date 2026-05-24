@@ -5,5 +5,7 @@
 //
 
 @protocol _DASActivityGroupScheduler
+- (void)ZN8Espresso3AOT25AOTCompilerOptionsManager4Impl13AddOptionImplIbEEvRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_NS1_10OptionTypeENS4_8optionalISB_EESF_SC_EUlRNS0_18AOTCompilerOptionsERKN7cxxopts11OptionValueEE_;
+- (void);
 @end
 

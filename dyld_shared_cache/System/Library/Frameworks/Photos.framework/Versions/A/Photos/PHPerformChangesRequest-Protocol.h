@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol PHInsertChangeRequest;
+
 @protocol PHPerformChangesRequest
+- (void)erSaveMarker;
+- (void)v40@0:(id <PHInsertChangeRequest>)arg1 8@16@24@?32;
+- (void),V_childDSID;
 @end
 

@@ -4,31 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKOSVersionRequirement, PKPaymentWebService;
+@class NSArray, NSDate, NSNumber, NSSet, NSString, PKOSVersionRequirement, PKPaymentBalanceReminder, PKPaymentRewardsBalance;
 @protocol PKPaymentDataProviderDelegate;
 
 @protocol PKPaymentDataProvider
+- (void);
+- (id <PKPaymentDataProviderDelegate>);
 - (NSString *)panIdentifier;
 - (PKOSVersionRequirement *)lÆ÷ÿÆ÷ÿ´Æ÷ÿØÆ÷ÿÇ÷ÿ8Ç÷ÿ\Ç÷ÿÇ÷ÿ¼Ç÷ÿàÇ÷ÿÈ÷ÿ(È÷ÿdÈ÷ÿÈ÷ÿ¬È÷ÿÐÈ÷ÿÉ÷ÿhÉ÷ÿÉ÷ÿ°É÷ÿüÉ÷ÿ Ê÷ÿDÊ÷ÿ¤Ê÷ÿÈÊ÷ÿìÊ÷ÿ(Ë÷ÿLË÷ÿË÷ÿ¼Ë÷ÿøË÷ÿÌÌ÷ÿÍ÷ÿ´Í÷ÿØÍ÷ÿüÍ÷ÿ¨Î÷ÿÏ÷ÿ Ï÷ÿ¤Ð÷ÿÈÐ÷ÿÑ÷ÿ8Ñ÷ÿ\Ñ÷ÿhÓ÷ÿtÔ÷ÿÀÔ÷ÿlÚ÷ÿ¨Û÷ÿÌÛ÷ÿÜ÷ÿ,Ü÷ÿhÜ÷ÿÜ÷ÿÈÜ÷ÿìÜ÷ÿ(Ý÷ÿôÞ÷ÿ;
 
 @optional
+- (void);
+- (void);
+- (NSDate *)=;
+- (void)P;
+- (void);
+- (NSNumber *)_=;
+- (NSSet *);
+- (void)i;
+- (void)P;
+- (void);
+- (void)L;
+- (void);
+- (void);
+- (PKPaymentRewardsBalance *))J
+]S];
+- (void)_qFetchCachedGroupWithGroupID:(NSSet *)arg1 completion:(unsigned long long)arg2;
+- (void)createArchivedModelData;
+- (void)setSearchQueryIndex:(PKPaymentBalanceReminder *)arg1;
+- (void)hasSwitchedToAnotherNetwork;
+- (void) ` L`l(a!@e;
 - (NSArray *)ñ%1Â0@ù
 × ;
-- (long long);
 - (void),;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *defaultPaymentPassIdentifier;
-@property(nonatomic) __weak id <PKPaymentDataProviderDelegate> delegate;
-@property(readonly, nonatomic) NSString *deviceClass;
-@property(readonly, nonatomic) NSString *deviceName;
-@property(readonly, nonatomic) PKOSVersionRequirement *deviceVersion;
 @property(readonly, nonatomic) _Bool isDeviceInRestrictedMode;
-@property(readonly, nonatomic) _Bool isOrderManagementDisabled;
-@property(readonly, nonatomic) _Bool isOrderManagementNotificationsDisabled;
-@property(readonly, nonatomic) _Bool isPaymentHandoffDisabled;
-@property(readonly, nonatomic) PKPaymentWebService *paymentWebService;
-@property(readonly, nonatomic) NSString *secureElementIdentifier;
-@property(readonly, nonatomic) _Bool secureElementIsProductionSigned;
 @end
 

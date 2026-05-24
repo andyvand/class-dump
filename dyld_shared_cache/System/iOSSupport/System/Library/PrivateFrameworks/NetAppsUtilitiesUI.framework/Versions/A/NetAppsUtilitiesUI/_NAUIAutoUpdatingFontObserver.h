@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface _NAUIAutoUpdatingFontObserver
 {
     id _notificationObserver;
-    id _target;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void);
 

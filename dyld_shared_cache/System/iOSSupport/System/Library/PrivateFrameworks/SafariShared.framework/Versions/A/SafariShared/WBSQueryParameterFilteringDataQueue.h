@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, WBSQueryParameterFilteringData;
-@protocol WBSQueryParameterFilteringDataQueueDelegate;
+@class WBSQueryParameterFilteringData;
 
 @interface WBSQueryParameterFilteringDataQueue
 {
     WBSQueryParameterFilteringData *_pendingData;
-    NSTimer *_mergePendingDataTimer;
-    WBSQueryParameterFilteringData *_currentData;
-    id <WBSQueryParameterFilteringDataQueueDelegate> _delegate;
 }
 
 - (void);
@@ -25,11 +21,10 @@
 - (void);
 - (id);
 - (void);
-- (void)RL;
+- (void)AnywhereInURL;
 
 // Remaining properties
 @property(readonly, nonatomic) WBSQueryParameterFilteringData *currentData; // @synthesize currentData=_currentData;
-@property(nonatomic) __weak id <WBSQueryParameterFilteringDataQueueDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

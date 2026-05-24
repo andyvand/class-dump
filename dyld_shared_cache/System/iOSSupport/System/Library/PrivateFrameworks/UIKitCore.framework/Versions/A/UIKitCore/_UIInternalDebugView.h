@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)ontext is not a IDSMessageContext, bail.;
 - (void);
 
 @end

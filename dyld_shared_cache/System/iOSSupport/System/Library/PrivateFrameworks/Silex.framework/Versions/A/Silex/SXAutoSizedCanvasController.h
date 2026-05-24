@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXTextTangierCanvasViewController, SXTextTangierInteractiveCanvasController, TSDCanvasView, TSKDocumentRoot;
-@protocol SXAutoSizedCanvasControllerDelegate, SXComponentActionHandler, SXTangierDragItemProvider;
+@class TSKDocumentRoot;
+@protocol SXComponentActionHandler;
 
 @interface SXAutoSizedCanvasController
 {
     TSKDocumentRoot *_documentRoot;
-    struct CGRect _frame;
-    id <SXAutoSizedCanvasControllerDelegate> _delegate;
-    SXTextTangierInteractiveCanvasController *_icc;
-    SXTextTangierCanvasViewController *_cvc;
-    double _lineHeight;
-    id <SXComponentActionHandler> _actionHandler;
-    id <SXTangierDragItemProvider> _dragItemProvider;
 }
 
 - (Class);
@@ -25,7 +18,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
 - (_Bool);
@@ -47,112 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly, nonatomic) _Bool allowEditMenuToAppear;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool allowTextEditingToBegin;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) TSDCanvasView *canvasView;
-@property(readonly, nonatomic) SXTextTangierCanvasViewController *cvc; // @synthesize cvc=_cvc;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXAutoSizedCanvasControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TSKDocumentRoot *documentRoot; // @dynamic documentRoot;
-@property(readonly, nonatomic) id <SXTangierDragItemProvider> dragItemProvider; // @synthesize dragItemProvider=_dragItemProvider;
-@property(readonly, nonatomic) _Bool editorAllowsCaret;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsEditMenu;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsHyperlinkInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsKeyboard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsListInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsMagnifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsParagraphMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorAllowsRubyInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool editorShouldAlwaysBeInParagraphMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SXTextTangierInteractiveCanvasController *icc; // @synthesize icc=_icc;
-@property(readonly, nonatomic) _Bool interactiveCanvasControllerAllowsHyperlinkInteraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isCanvasInteractive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isPrintingCanvas;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) double lineHeight; // @synthesize lineHeight=_lineHeight;
-@property(readonly, nonatomic) unsigned long long selectableWordLimit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldClipToScrollViewBoundsInVisibleBounds;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldPopKnobsOutsideEnclosingScrollView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldResizeCanvasToScrollView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldShowInstructionalText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldShowTextOverflowGlyphs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) struct CGSize sizeOfScrollViewEnclosingCanvas;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R,N
-
-@property(readonly, nonatomic) _Bool spellCheckingSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool spellCheckingSuppressed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

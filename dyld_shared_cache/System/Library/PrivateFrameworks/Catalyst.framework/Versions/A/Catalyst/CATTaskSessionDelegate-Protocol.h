@@ -5,5 +5,9 @@
 //
 
 @protocol CATTaskSessionDelegate
+- (_Bool)accessoryView;
+
+@optional
+- (void);
 @end
 

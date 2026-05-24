@@ -7,9 +7,6 @@
 @interface AppStoreKit.TodayWidgetContainerTemplate
 {
     id collections;
-    id refreshDate;
-    id originalResponseDate;
-    id originalResponseHash;
 }
 
 @end

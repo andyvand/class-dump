@@ -6,14 +6,9 @@
 
 #import <QuartzComposer/QCArray.h>
 
-@class QCCGLContext;
-
 @interface QCArrayBufferObject : QCArray
 {
     unsigned int _vertexBuffer;
-    unsigned int _target;
-    QCCGLContext *_context;
-    void *_unused2[4];
 }
 
 - (void);
@@ -32,8 +27,6 @@
 - (void *);
 
 // Remaining properties
-@property(readonly) QCCGLContext *context; // @synthesize context=_context;
-@property(readonly) unsigned int target; // @synthesize target=_target;
 @property(readonly) unsigned int vertexBuffer; // @synthesize vertexBuffer=_vertexBuffer;
 
 @end

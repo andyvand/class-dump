@@ -9,43 +9,37 @@
 @interface GEOJunctionViewGuidanceFeedback
 {
     NSMutableArray *_imageIDs;
-    _Bool _imageDisplayed;
-    struct {
-        unsigned int has_imageDisplayed:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)setHasRoutingKey:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)setIsUnitTestingCachedValue: /* Error: Ran out of types for this method. */;
+- (void)CachedValue;
 - (void);
-- (void);
+- (id);
+- (void)M^(^;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void):(id)arg1 8@"NSURL"16@?<v@?@"NSError"dq>24;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)LocalizedName:(struct _NSZone *)arg1;
-- (id)entRideBookingSession;
+- (id)setLocalizedName:(struct _NSZone *)arg1;
+- (id)GEOLogMsgEventRideBookingSession;
 - (id)leted successfully;
 - (id);
 - (void)ËþPd;
 
 // Remaining properties
 @property(nonatomic) _Bool hasImageDisplayed;
-@property(nonatomic) _Bool imageDisplayed;
-@property(retain, nonatomic) NSMutableArray *imageIDs;
 
 @end
 

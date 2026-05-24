@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface MLNonMaximumSuppressionParameters
 {
     _Bool _perClass;
-    int _suppressionMethod;
-    double _iouThreshold;
-    double _confidenceThreshold;
-    unsigned long long _minBoxes;
-    long long _maxBoxes;
-    unsigned long long _numClasses;
-    NSString *_confidenceInputFeatureName;
-    NSString *_coordinatesInputFeatureName;
-    NSString *_iouThresholdInputFeatureName;
-    NSString *_confidenceThresholdInputFeatureName;
-    NSString *_confidenceOutputFeatureName;
-    NSString *_coordinatesOutputFeatureName;
-    NSArray *_labelNames;
 }
 
-- (int);
+- (int)ComputePipelineStateType;
+- (void)AmplificationIDArg;
+- (void)ThreadgroupPositionInGridArg;
+- (void)MeshPrimitiveDataRet;
+- (void)MeshFunction;
+- (void)FragmentFunction;
+- (void)lled;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (void)h;
+- (void)pointCoordLowerLeft;
+- (void)fragmentPreloadedLibraries;
+- (void)vertexPreloadedLibraries;
+- (void)maxVertexAmplificationCount;
+- (_Bool)tDescriptorArrayInternal objectAtIndexedSubscript:] /* Error: Ran out of types for this method. */;
+- (id)LMeshRenderPipelineDescriptor setMeshLinkedFunctions:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)er %u: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (long long);
 - (id);
@@ -56,19 +41,6 @@
 - (void)sks.;
 
 // Remaining properties
-@property(retain) NSString *confidenceInputFeatureName; // @synthesize confidenceInputFeatureName=_confidenceInputFeatureName;
-@property(retain) NSString *confidenceOutputFeatureName; // @synthesize confidenceOutputFeatureName=_confidenceOutputFeatureName;
-@property double confidenceThreshold; // @synthesize confidenceThreshold=_confidenceThreshold;
-@property(retain) NSString *confidenceThresholdInputFeatureName; // @synthesize confidenceThresholdInputFeatureName=_confidenceThresholdInputFeatureName;
-@property(retain) NSString *coordinatesInputFeatureName; // @synthesize coordinatesInputFeatureName=_coordinatesInputFeatureName;
-@property(retain) NSString *coordinatesOutputFeatureName; // @synthesize coordinatesOutputFeatureName=_coordinatesOutputFeatureName;
-@property double iouThreshold; // @synthesize iouThreshold=_iouThreshold;
-@property(retain) NSString *iouThresholdInputFeatureName; // @synthesize iouThresholdInputFeatureName=_iouThresholdInputFeatureName;
-@property(retain) NSArray *labelNames; // @synthesize labelNames=_labelNames;
-@property long long maxBoxes; // @synthesize maxBoxes=_maxBoxes;
-@property unsigned long long minBoxes; // @synthesize minBoxes=_minBoxes;
-@property unsigned long long numClasses; // @synthesize numClasses=_numClasses;
-@property _Bool perClass; // @synthesize perClass=_perClass;
 @property int suppressionMethod; // @synthesize suppressionMethod=_suppressionMethod;
 
 @end

@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INInteraction, INShortcut, NSDate, NSString;
+@class INInteraction, NSString;
 
 @interface VCInteractionDonation
 {
     NSString *_identifier;
-    NSString *_sourceAppIdentifier;
-    NSString *_title;
-    NSString *_subtitle;
-    INInteraction *_interaction;
 }
 
-+ (id);
++ (id)s;
+- (id);
+- (id);
+- (id)p^5k;
+- (id);
+- (id)s;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (id)SError">;
+- (unsigned long long)tSessionInterface>";
 - (id);
 - (id);
 - (_Bool);
@@ -36,25 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *fullDescription;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) INInteraction *interaction; // @synthesize interaction=_interaction;
-@property(readonly, nonatomic) INShortcut *shortcut;
-@property(readonly, copy, nonatomic) NSString *sourceAppIdentifier; // @synthesize sourceAppIdentifier=_sourceAppIdentifier;
-@property(readonly, copy, nonatomic) NSString *sourceAppIdentifierForDisplay;
-@property(readonly, copy, nonatomic) NSString *sourceAppIdentifierForLaunching;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *suggestedPhrase;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) id uniqueProperty;
 
 @end
 

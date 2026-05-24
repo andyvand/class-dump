@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface MKTransitInfoPreload
@@ -14,17 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)tLanded;
+- (void)draggedObjectLanded;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

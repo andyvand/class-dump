@@ -4,52 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _EARSpeechRecognitionResult
 {
     _Bool _isComplete;
-    double _confidence;
-    NSArray *_voiceCommandInterpretations;
-    NSArray *_preITNVoiceCommandInterpretations;
-    long long _utteranceStartMilliseconds;
-    vector_9a34c3e7 _quasarTokens;
-    vector_9a34c3e7 _quasarPreItnTokens;
-    vector_3f2cadd7 _resultCosts;
 }
 
 - (id);
 - (long long);
 - (double);
 - (vector_3f2cadd7);
-- (vector_9a34c3e7);
-- (vector_9a34c3e7);
+- (vector_fa1a2223);
+- (vector_fa1a2223);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)H7;
 - (id);
+- (id)6|;
 - (id);
-- (id);
-- (id);
-- (double);
+- (double)setIsActive: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)$;
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) _Bool isComplete; // @synthesize isComplete=_isComplete;
-@property(readonly, copy, nonatomic) NSArray *preITNTokens;
-@property(readonly, copy, nonatomic) NSArray *preITNVoiceCommandInterpretations; // @synthesize preITNVoiceCommandInterpretations=_preITNVoiceCommandInterpretations;
-@property(readonly, nonatomic) vector_9a34c3e7 quasarPreItnTokens; // @synthesize quasarPreItnTokens=_quasarPreItnTokens;
-@property(readonly, nonatomic) vector_9a34c3e7 quasarTokens; // @synthesize quasarTokens=_quasarTokens;
-@property(readonly, nonatomic) vector_3f2cadd7 resultCosts; // @synthesize resultCosts=_resultCosts;
-@property(readonly, copy, nonatomic) NSArray *tokens;
 @property(readonly, nonatomic) double utteranceStart;
-@property(readonly, nonatomic) long long utteranceStartMilliseconds; // @synthesize utteranceStartMilliseconds=_utteranceStartMilliseconds;
-@property(readonly, copy, nonatomic) NSArray *voiceCommandInterpretations; // @synthesize voiceCommandInterpretations=_voiceCommandInterpretations;
 
 @end
 

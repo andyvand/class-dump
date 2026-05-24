@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLScopedIdentifier, NSDate, NSString, NSURL;
+@class CPLScopedIdentifier, NSString;
 
 @interface CPLRecordComputeState
 {
     CPLScopedIdentifier *_itemScopedIdentifier;
-    NSString *_version;
-    NSURL *_fileURL;
-    NSString *_adjustmentFingerprint;
-    NSDate *_lastUpdatedDate;
-    NSString *_fileStorageIdentifier;
 }
 
 + (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)hStrength:(id)arg1 %ld, pommesCalibratedL1Score:%f, pommesL1Score:%f, calibratedDenseScore:%f, originalDenseScore:%f, keywordMatchScore:%f, topicalityScore:%f /* Error: Ran out of types for this method. */;
+- (id)IntentModelingShowWebAsTypedLocalStrong;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)Couldn't create open options for %s;
 - (void);
 - (id)SDate",C,N,V_addedDate;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *adjustmentFingerprint; // @synthesize adjustmentFingerprint=_adjustmentFingerprint;
 @property(copy, nonatomic) NSString *fileStorageIdentifier; // @synthesize fileStorageIdentifier=_fileStorageIdentifier;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) CPLScopedIdentifier *itemScopedIdentifier; // @synthesize itemScopedIdentifier=_itemScopedIdentifier;
-@property(readonly, nonatomic) NSDate *lastUpdatedDate; // @synthesize lastUpdatedDate=_lastUpdatedDate;
-@property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

@@ -6,6 +6,9 @@
 
 @protocol MTLDrawableSPI
 
+@optional
+- (void)tion in progress;
+
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long status;
 @end

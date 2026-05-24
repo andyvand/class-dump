@@ -6,33 +6,12 @@
 
 #import <AudioToolboxCore/AUAudioUnit.h>
 
-@class AUAudioUnitBusArray_XPC, AUCrashHandler, AUParameterTree, NSArray, NSUUID, NSXPCConnection;
+@class NSUUID, NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface AUAudioUnit_XPC : AUAudioUnit
 {
     NSXPCConnection *_xpcConnection;
-    struct recursive_mutex _propListenerMutex;
-    _Bool _crashNotificationSent;
-    struct mutex _mCrashNotificationMutex;
-    struct OpaqueAudioComponentInstance *_componentInstance;
-    int _remotePID;
-    struct mach_timebase_info _remoteMachTimebaseInfo;
-    AUCrashHandler *_crashHandler;
-    _Bool _canRender;
-    _Bool _canProcess;
-    _Bool _removingObserverWithContext;
-    struct mutex _parameterTreeMutex;
-    AUAudioUnitBusArray_XPC *_inputBusses;
-    AUAudioUnitBusArray_XPC *_outputBusses;
-    struct unique_ptr<AUProcAndUserData, std::default_delete<AUProcAndUserData>> _elementCountListenerToken;
-    struct vector<AUAudioUnit_XPC_PropListener, std::allocator<AUAudioUnit_XPC_PropListener>> _propListeners;
-    struct shared_ptr<caulk::synchronized<auoop::RenderPipePool, std::recursive_mutex>> _renderPipePool;
-    struct optional<auoop::RenderPipeUser> _renderPipeUser;
-    AUParameterTree *_cachedParameterTree;
-    NSArray *_userPresets;
-    struct optional<bool> _localCachingDisabled;
-    NSUUID *_auInstanceUUID;
 }
 
 + (_Bool);
@@ -69,13 +48,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)R!;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -84,19 +63,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void)AudioStereoPanControlPropertyValue;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)age_callIZN13HALB_MachPort11DestroyPortEjbbE3$_0JNSt3__15tupleIJPKcijEEEEEE;
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (int);
 - (void);
-- (void)6detail10ScopeGuardIZN14pooledRenderer17AudioConverterOOP17fillComplexBufferEPFiP20OpaqueAudioConverterP;
+- (void)_ZN10applesauce4raii2v16detail10ScopeGuardIZN14pooledRenderer17AudioConverterOOP17fillComplexBufferEPFiP20OpaqueAudioConverterP;
 - (void)R) failed;
 
 // Remaining properties

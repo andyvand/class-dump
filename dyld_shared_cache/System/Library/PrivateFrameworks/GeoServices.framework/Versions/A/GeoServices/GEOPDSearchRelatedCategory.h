@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchRelatedCategory
 {
     long long _densityScore;
-    NSString *_entityId;
-    int _type;
-    struct {
-        unsigned int has_densityScore:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-- (id);
+- (id)!;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (id)b1};
-- (id)queuedTime;
+- (id)_queuedTime;
 - (id)È)*0+;
 - (void);
 

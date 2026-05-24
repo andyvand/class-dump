@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSCalendarEventDetails, NSDateComponents, NSString;
+@class NSDateComponents;
 
 @interface EWSCalendarEvent
 {
     NSDateComponents *_StartTime;
-    NSDateComponents *_EndTime;
-    long long _BusyType;
-    EWSCalendarEventDetails *_CalendarEventDetails;
 }
 
-+ (id);
++ (id)_;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void)Þzu;
 
 // Remaining properties
-@property(nonatomic) long long BusyType; // @synthesize BusyType=_BusyType;
-@property(retain, nonatomic) EWSCalendarEventDetails *CalendarEventDetails; // @synthesize CalendarEventDetails=_CalendarEventDetails;
-@property(retain, nonatomic) NSDateComponents *EndTime; // @synthesize EndTime=_EndTime;
 @property(retain, nonatomic) NSDateComponents *StartTime; // @synthesize StartTime=_StartTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

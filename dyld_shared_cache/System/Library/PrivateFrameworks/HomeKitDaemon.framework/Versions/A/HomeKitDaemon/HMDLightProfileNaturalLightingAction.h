@@ -6,17 +6,10 @@
 
 #import <HomeKitDaemon/HMDAction.h>
 
-@class HMDLightProfile, NSArray, NSNotificationCenter, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDLightProfileNaturalLightingAction : HMDAction
 {
     struct os_unfair_lock_s _lock;
-    _Bool _naturalLightingEnabled;
-    HMDLightProfile *_lightProfile;
-    NSUUID *_lightProfileUUID;
-    NSNotificationCenter *_notificationCenter;
-    NSArray *_lightServices;
 }
 
 + (id);
@@ -26,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)hunkMessage error:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)ath %@;
+- (_Bool)dTripStorageController;
+- (_Bool)after filtering;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)otificationType:(id)arg1 %{public}@;
+- (id)ngQueue"8;
 - (id);
 - (void);
 - (void);
@@ -42,24 +35,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)just orientation;
 - (unsigned long long);
 - (void);
-- (id)itCharacteristicWriteErrorLogEvent:startTime:message:error: /* Error: Ran out of types for this method. */;
+- (id)submitCharacteristicWriteErrorLogEvent:startTime:message:error: /* Error: Ran out of types for this method. */;
 - (id)send the message is nil;
 - (id)d key path targeted update value message.;
 - (Class)ic}@[CHECK_AFU_SESSION][%@] Matter firmware update not supported;
 - (void)}@Set up new shared user fabric data with error:(id)arg1 %@;
 - (void)era.stream.video;
-- (id)umberOfEntitiesKey;
+- (id)kAssistantConfigurationNumberOfEntitiesKey;
 - (id)x>;
 
 // Remaining properties
-@property(retain) HMDLightProfile *lightProfile; // @synthesize lightProfile=_lightProfile;
-@property(readonly, copy) NSUUID *lightProfileUUID; // @synthesize lightProfileUUID=_lightProfileUUID;
-@property(retain, nonatomic) NSArray *lightServices; // @synthesize lightServices=_lightServices;
 @property(getter=isNaturalLightingEnabled) _Bool naturalLightingEnabled; // @synthesize naturalLightingEnabled=_naturalLightingEnabled;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 
 @end
 

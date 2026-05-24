@@ -7,8 +7,6 @@
 @interface HomeKitCore.HomesStore.CoreData.PersistentContainer
 {
     id coordinator;
-    id store;
-    id managedObjectContext;
 }
 
 @end

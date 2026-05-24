@@ -9,9 +9,6 @@
 @interface MPSNNLocalCorrelation : MPSNNReduceBinary
 {
     unsigned long long _windowInX;
-    unsigned long long _windowInY;
-    unsigned long long _strideInX;
-    unsigned long long _strideInY;
 }
 
 - (unsigned long long);
@@ -30,10 +27,7 @@
 - (id).;
 
 // Remaining properties
-@property(nonatomic) unsigned long long strideInX; // @synthesize strideInX=_strideInX;
-@property(nonatomic) unsigned long long strideInY; // @synthesize strideInY=_strideInY;
 @property(nonatomic) unsigned long long windowInX; // @synthesize windowInX=_windowInX;
-@property(nonatomic) unsigned long long windowInY; // @synthesize windowInY=_windowInY;
 
 @end
 

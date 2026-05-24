@@ -9,15 +9,6 @@
 @interface IKGradientImageButtonCell
 {
     NSShadow *_imageShadow;
-    int _gradientStyle;
-    int _borderSides;
-    int _highlightSides;
-    _Bool _showsState;
-    _Bool _suppressLeftBorderForTabStyles;
-    _Bool _enableGradientStylBorderSuppression;
-    _Bool _useButtonImageCenteringHack;
-    _Bool _usedAsRadioButton;
-    _Bool _drawBackground;
 }
 
 - (_Bool);
@@ -37,31 +28,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property int borderSides; // @synthesize borderSides=_borderSides;
-@property _Bool drawBackground; // @synthesize drawBackground=_drawBackground;
-@property _Bool enableGradientStylBorderSuppression; // @synthesize enableGradientStylBorderSuppression=_enableGradientStylBorderSuppression;
 @property(nonatomic) int gradientStyle; // @synthesize gradientStyle=_gradientStyle;
-@property int highlightSides; // @synthesize highlightSides=_highlightSides;
-@property(copy) NSShadow *imageShadow; // @synthesize imageShadow=_imageShadow;
-@property(nonatomic) _Bool showsState; // @synthesize showsState=_showsState;
-@property _Bool suppressLeftBorderForTabStyles; // @synthesize suppressLeftBorderForTabStyles=_suppressLeftBorderForTabStyles;
-@property _Bool useButtonImageCenteringHack; // @synthesize useButtonImageCenteringHack=_useButtonImageCenteringHack;
-@property _Bool usedAsRadioButton; // @synthesize usedAsRadioButton=_usedAsRadioButton;
 
 @end
 

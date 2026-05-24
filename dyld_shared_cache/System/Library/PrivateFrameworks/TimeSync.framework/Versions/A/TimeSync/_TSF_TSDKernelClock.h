@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOKInterestNotification, IOKNotificationPort, IOKService, NSObject, NSPointerArray, NSString, _TSF_IODConnection;
+@class NSObject, NSPointerArray;
 @protocol OS_dispatch_queue;
 
 @interface _TSF_TSDKernelClock
 {
     NSPointerArray *_clients;
-    struct os_unfair_lock_s _clientsLock;
-    NSObject<OS_dispatch_queue> *_notificationsQueue;
-    _Bool _logNotifyTest;
-    IOKService *_service;
-    _TSF_IODConnection *_connection;
-    IOKNotificationPort *_notificationPort;
-    IOKInterestNotification *_interestNotification;
-    struct os_unfair_lock_s _serviceLock;
-    unsigned long long _asyncCallbackRefcon;
-    int _lockState;
-    unsigned long long _clockIdentifier;
-    NSObject<OS_dispatch_queue> *_propertyUpdateQueue;
 }
 
 + (id);
@@ -33,9 +21,9 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -50,8 +38,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)C;
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -71,17 +59,10 @@
 - (id);
 - (void);
 - (void);
-- (void)O;
+- (void)NO;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(readonly, copy, nonatomic) NSString *clockName; // @dynamic clockName;
-@property(readonly, nonatomic) _TSF_IODConnection *connection;
-@property(readonly, nonatomic) double hostRateRatio; // @dynamic hostRateRatio;
-@property(nonatomic) int lockState; // @synthesize lockState=_lockState;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @dynamic notificationQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *propertyUpdateQueue; // @synthesize propertyUpdateQueue=_propertyUpdateQueue;
-@property(readonly, nonatomic) IOKService *service;
 
 @end
 

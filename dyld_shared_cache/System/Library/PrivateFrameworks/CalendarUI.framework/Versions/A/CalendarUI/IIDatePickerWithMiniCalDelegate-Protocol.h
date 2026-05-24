@@ -5,5 +5,6 @@
 //
 
 @protocol IIDatePickerWithMiniCalDelegate
+- (void);
 @end
 

@@ -9,11 +9,9 @@
 @interface PKPaymentWebServiceBackgroundContext
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_backgroundTaskRecordsByTaskIdentifier;
-    NSMutableDictionary *_backgroundTaskRecordsByRecordName;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (void);
 - (void);
@@ -22,18 +20,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)SDB;
 - (void)returnRecords:'%@';  /* Error: Ran out of types for this method. */;
 - (void)6åÿNFiwN;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *backgroundTaskRecordsByRecordName; // @synthesize backgroundTaskRecordsByRecordName=_backgroundTaskRecordsByRecordName;
 @property(retain) NSMutableDictionary *backgroundTaskRecordsByTaskIdentifier; // @synthesize backgroundTaskRecordsByTaskIdentifier=_backgroundTaskRecordsByTaskIdentifier;
 
 @end

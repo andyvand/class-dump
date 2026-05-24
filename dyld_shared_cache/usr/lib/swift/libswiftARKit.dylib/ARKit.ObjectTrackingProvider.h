@@ -8,8 +8,6 @@
 {
     id _cObjectTrackingProvider;
     id anchorUpdateIterators;
-    id anchorQueue;
-    id referenceObjects;
 }
 
 @end

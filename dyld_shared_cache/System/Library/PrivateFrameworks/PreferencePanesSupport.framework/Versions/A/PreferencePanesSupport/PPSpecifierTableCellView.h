@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSLayoutConstraint, NSTextField;
-
 @interface PPSpecifierTableCellView
 {
     _Bool _selected;
-    _Bool _enabled;
-    NSTextField *_subtitleTextField;
-    NSButton *_badge;
-    NSImageView *_badgeImageView;
-    NSLayoutConstraint *_labelToBadgeImageConstraint;
-    NSLayoutConstraint *_labelToBadgeConstraint;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)__bss;
 - (id);
-- (id);
+- (id)-;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (_Bool);
+- (void)
+k;
+- (void)_updateClientRecord:(_Bool)arg1 withChangesFromTruth:formattedRecordDictionary:saveUnformattedValues: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)attributesOfItemAtPath:error: /* Error: Ran out of types for this method. */;
 - (id)@"CloudSettingsManager";
 
 // Remaining properties
-@property NSButton *badge; // @synthesize badge=_badge;
-@property NSImageView *badgeImageView; // @synthesize badgeImageView=_badgeImageView;
-@property(getter=isEnabled) _Bool enabled;
-@property(retain) NSLayoutConstraint *labelToBadgeConstraint; // @synthesize labelToBadgeConstraint=_labelToBadgeConstraint;
-@property(retain) NSLayoutConstraint *labelToBadgeImageConstraint; // @synthesize labelToBadgeImageConstraint=_labelToBadgeImageConstraint;
 @property(getter=isSelected) _Bool selected; // @dynamic selected;
-@property NSTextField *subtitleTextField; // @synthesize subtitleTextField=_subtitleTextField;
 
 @end
 

@@ -4,54 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSError, NSHTTPURLResponse, NSMutableData, NSMutableDictionary, NSString, NSURL, NSURLConnection, NSURLCredential;
+@class NSData;
 
 @interface AOSRequest
 {
     NSData *_messageBody;
-    NSString *_method;
-    NSURL *_url;
-    NSURL *_originalUrl;
-    NSMutableDictionary *_requestHeaders;
-    NSHTTPURLResponse *_response;
-    NSDictionary *_responseHeaders;
-    NSMutableData *_responseData;
-    NSURLCredential *_credentials;
-    NSError *_error;
-    NSURLConnection *_connection;
-    _Bool _requestStarted;
-    _Bool _requestCompleted;
-    struct _CFURLConnection *_cfConnection;
-    struct _CFURLResponse *_cfResponse;
-    struct __CFHTTPMessage *_responseMsg;
-    NSMutableDictionary *_requestInfo;
-    NSString *_clientID;
-    int _akRetryCount;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)!;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)works/APFS.framework/Versions/A/APFS;
++ (_Bool)/libpartition2_dynamic.dylib;
 + (id);
 + (void)@) updatedAliases=%d, dsid=%@, accountAliases:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)E;
 - (void);
 - (void);
 - (id);
-- (int);
+- (void)P;
+- (void);
+- (id);
+- (int);
 - (struct _CFURLConnection *);
 - (_Bool);
 - (void);
@@ -64,15 +46,16 @@
 - (void);
 - (void);
 - (struct _CFURLResponse *);
-- (struct _CFURLRequest *);
+- (struct _CFURLRequest *)G
+;
 - (void);
-- (id);
+- (id)aggreageCommand;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)m.apple.aiml.siri.gat.GATClientEvent.GATLoadScreenContentContext;
 - (id);
 - (void);
 - (void);
@@ -81,10 +64,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (struct __CFHTTPMessage *);

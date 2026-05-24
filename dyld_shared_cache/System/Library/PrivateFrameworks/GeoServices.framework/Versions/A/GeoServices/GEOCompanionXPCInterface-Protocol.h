@@ -5,5 +5,6 @@
 //
 
 @protocol GEOCompanionXPCInterface
+- (void);
 @end
 

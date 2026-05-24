@@ -14,13 +14,12 @@
 - (void);
 - (long long);
 - (long long);
-- (id);
+- (id)J;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) long long firstItemIndex;
-@property(nonatomic) long long focusedItemIndex;
 
 @end
 

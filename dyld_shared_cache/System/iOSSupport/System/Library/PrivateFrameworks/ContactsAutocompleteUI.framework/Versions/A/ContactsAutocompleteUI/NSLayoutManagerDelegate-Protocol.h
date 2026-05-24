@@ -5,5 +5,8 @@
 //
 
 @protocol NSLayoutManagerDelegate
+
+@optional
+- (double);
 @end
 

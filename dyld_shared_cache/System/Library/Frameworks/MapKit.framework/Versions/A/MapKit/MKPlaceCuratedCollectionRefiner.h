@@ -5,19 +5,16 @@
 //
 
 @class MKMapItemIdentifier;
-@protocol MKMapServiceCuratedCollectionItemsTicket, MKMapServiceCuratedCollectionTicket;
 
 @interface MKPlaceCuratedCollectionRefiner
 {
     MKMapItemIdentifier *_collectionIdentifier;
-    id <MKMapServiceCuratedCollectionTicket> _identifierRefinementTicket;
-    id <MKMapServiceCuratedCollectionItemsTicket> _mapItemRefinementTicket;
 }
 
-- (id);
+- (id)';
 - (void);
 - (id);
-- (void);
+- (void)maxResultCount;
 
 @end
 

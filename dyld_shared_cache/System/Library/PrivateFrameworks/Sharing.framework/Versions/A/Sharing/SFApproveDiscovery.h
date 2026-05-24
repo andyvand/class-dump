@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, SFDeviceDiscovery;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface SFApproveDiscovery
 {
     _Bool _activateCalled;
-    CDUnknownBlockType _activateHandler;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    SFDeviceDiscovery *_deviceDiscovery;
-    NSMutableDictionary *_deviceDictionary;
-    NSArray *_devices;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _deviceFoundHandler;
-    CDUnknownBlockType _deviceLostHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
@@ -46,11 +35,7 @@
 - (void)'T;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType deviceFoundHandler; // @synthesize deviceFoundHandler=_deviceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType deviceLostHandler; // @synthesize deviceLostHandler=_deviceLostHandler;
 @property(retain, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 
 @end
 

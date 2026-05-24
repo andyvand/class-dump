@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
+@class NSString;
 
 @interface PTTestRecipeInfo
 {
     NSString *_uniqueIdentifier;
-    NSString *_domainIdentifier;
-    NSString *_title;
-    NSIndexSet *_events;
-    NSString *_recipeDescription;
 }
 
 + (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)VNCRImageReaderForDocumentsDetectorProcessOption_DetectionOnly;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)estRecipeEatsVolumeDown;
+- (void)raryDirectory.duXmje/Sources/Admin/UserCSFDESupport.m;
+- (id)TestRecipeEatsVolumeDown;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(readonly, nonatomic) NSIndexSet *events; // @synthesize events=_events;
-@property(readonly, nonatomic) NSString *recipeDescription; // @synthesize recipeDescription=_recipeDescription;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSString *uniqueIdentifier;
 
 @end

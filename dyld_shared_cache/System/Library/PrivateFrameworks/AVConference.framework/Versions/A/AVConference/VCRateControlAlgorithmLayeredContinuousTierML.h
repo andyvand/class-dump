@@ -12,19 +12,9 @@ __attribute__((visibility("hidden")))
 @interface VCRateControlAlgorithmLayeredContinuousTierML : VCRateControlAlgorithmLayeredContinuousTier
 {
     VCRateControlMachineLearningInference *_model;
-    struct tagVCRateControlMachineLearningInferenceInput _inferenceInputs;
-    struct tagVCRateControlMachineLearningInferenceOutput _inferenceOutputs;
-    double _previousRateControlTimeForDelta;
-    double _previousArrivalTimeForDelta;
-    double _startingRateControlTime;
-    int _machineLearningModeAfterDisengagement;
-    unsigned int _numberOfStableTimesteps;
-    double _smoothedTargetBitrate;
-    double _firstRateControlTime;
-    double _targetBitrateStabilityCriteria;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 

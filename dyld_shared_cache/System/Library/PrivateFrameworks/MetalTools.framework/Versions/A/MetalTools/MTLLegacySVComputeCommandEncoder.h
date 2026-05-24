@@ -6,25 +6,14 @@
 
 #import <MetalTools/MTLToolsComputeCommandEncoder.h>
 
-@class MTLLegacySVCommandBuffer, MTLLegacySVComputePipelineState, NSString;
-@protocol MTLBuffer;
+@class MTLLegacySVCommandBuffer;
 
 @interface MTLLegacySVComputeCommandEncoder : MTLToolsComputeCommandEncoder
 {
     unsigned int useResourceIteration;
-    _Bool _enableUseResourceValidation;
-    unsigned int _commandBufferJumpNestingLevel;
-    struct Options *_options;
-    struct MTLLegacySVStageBufferHandles _handles;
-    struct MTLLegacySVThreadgroupLengths _threadgroup;
-    struct GPUDebugEventUUIDPacket _dispatchID;
-    MTLLegacySVComputePipelineState *_currentPipeline;
-    struct MTLLegacySVBufferSubAlloc _reportBuffer;
-    id <MTLBuffer> _bufferUsageTable;
-    id <MTLBuffer> _textureUsageTable;
 }
 
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (void);
@@ -39,12 +28,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)qC;
 - (id);
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -53,37 +42,29 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)NSt3__110__function6__funcIZN3nlpL12reverseBurstIPNS2_16_RankedTrieLevelEPNS2_15_RankedListNodeEEEvPNS2_10_BurstTrieERKNS_6vectorIT_NS_9allocatorISB_EEEEPKhjEUlPvSI_jjfPbE_FvSJ_SI_jjfSK_EEE;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)NSt3__114default_deleteIN5MeCab10DictionaryEEE;
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly) MTLLegacySVCommandBuffer *commandBuffer; // @dynamic commandBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned int encoderID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

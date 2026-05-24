@@ -5,5 +5,7 @@
 //
 
 @protocol CNXPCContactsSupportService
+- (void)J9;
+- (void)C;
 @end
 

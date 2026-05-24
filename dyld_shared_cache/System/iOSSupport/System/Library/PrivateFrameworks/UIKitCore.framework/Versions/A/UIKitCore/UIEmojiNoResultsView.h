@@ -12,11 +12,9 @@ __attribute__((visibility("hidden")))
 @interface UIEmojiNoResultsView : UIView
 {
     UILabel *_noResultsLabel;
-    UILabel *_createNewEmojiLabel;
-    _Bool _supportsGenmoji;
 }
 
-- (void);
+- (void)ith TrustKit warn state:(_Bool)arg1 %@;
 - (void);
 - (_Bool);
 - (id)rphAnimationSpec",N,&,VliquidMorphShrink;

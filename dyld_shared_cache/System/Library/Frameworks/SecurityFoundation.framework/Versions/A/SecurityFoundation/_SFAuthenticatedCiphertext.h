@@ -14,7 +14,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)d);
 - (id);
 - (id);
 - (_Bool);
@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(readonly) NSData *authenticationCode;
-@property(readonly) NSData *initializationVector;
 
 @end
 

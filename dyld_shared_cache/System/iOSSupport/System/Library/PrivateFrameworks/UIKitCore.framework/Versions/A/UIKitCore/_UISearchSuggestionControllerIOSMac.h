@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UISearchSuggestionControllerIOSBase.h>
 
-@class NSString, UINSSearchSuggestionController;
+@class UINSSearchSuggestionController;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchSuggestionControllerIOSMac : _UISearchSuggestionControllerIOSBase
@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (void);
-- (id);
+- (id)setFetchedChatsDuringLastSync: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -37,13 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UINSSearchSuggestionController *catalystSuggestionController; // @synthesize catalystSuggestionController=_catalystSuggestionController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

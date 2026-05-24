@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCDevice, NSArray, NSMutableArray;
+@class MLCDevice;
 
 @interface MLCOptimizer
 {
     _Bool _appliesGradientClipping;
-    float _learningRate;
-    float _gradientRescale;
-    float _gradientClipMax;
-    float _gradientClipMin;
-    float _regularizationScale;
-    int _regularizationType;
-    int _gradientClippingType;
-    float _maximumClippingNorm;
-    float _customGlobalNorm;
-    MLCDevice *_device;
-    NSArray *_deviceOps;
-    unsigned long long _numOptimizerDataBuffers;
-    NSMutableArray *_oneStepOptimizerBuffers;
 }
 
 - (void);
@@ -29,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (float);
 - (id);
 - (id);
@@ -50,23 +37,10 @@
 - (id);
 - (float);
 - (void);
-- (void);
+- (void)PSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}}24@0:8^v16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool appliesGradientClipping; // @synthesize appliesGradientClipping=_appliesGradientClipping;
-@property(readonly, nonatomic) float customGlobalNorm; // @synthesize customGlobalNorm=_customGlobalNorm;
 @property(retain, nonatomic) MLCDevice *device; // @synthesize device=_device;
-@property(retain, nonatomic) NSArray *deviceOps; // @synthesize deviceOps=_deviceOps;
-@property(readonly, nonatomic) float gradientClipMax; // @synthesize gradientClipMax=_gradientClipMax;
-@property(readonly, nonatomic) float gradientClipMin; // @synthesize gradientClipMin=_gradientClipMin;
-@property(readonly, nonatomic) int gradientClippingType; // @synthesize gradientClippingType=_gradientClippingType;
-@property(readonly, nonatomic) float gradientRescale; // @synthesize gradientRescale=_gradientRescale;
-@property(nonatomic) float learningRate; // @synthesize learningRate=_learningRate;
-@property(readonly, nonatomic) float maximumClippingNorm; // @synthesize maximumClippingNorm=_maximumClippingNorm;
-@property(nonatomic) unsigned long long numOptimizerDataBuffers; // @synthesize numOptimizerDataBuffers=_numOptimizerDataBuffers;
-@property(retain, nonatomic) NSMutableArray *oneStepOptimizerBuffers; // @synthesize oneStepOptimizerBuffers=_oneStepOptimizerBuffers;
-@property(readonly, nonatomic) float regularizationScale; // @synthesize regularizationScale=_regularizationScale;
-@property(readonly, nonatomic) int regularizationType; // @synthesize regularizationType=_regularizationType;
 
 @end
 

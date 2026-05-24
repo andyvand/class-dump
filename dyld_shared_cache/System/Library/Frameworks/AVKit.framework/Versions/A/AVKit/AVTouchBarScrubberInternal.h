@@ -4,37 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerLayer, AVTouchBarScrubberKnobView, AVTouchBarTrackView, NSColor, NSDateComponentsFormatter, NSLayoutConstraint, NSString, NSTextField, NSView;
-@protocol AVTouchBarScrubberDelegateInternal, NSObject><NSCopying;
+@class NSDateComponentsFormatter;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarScrubberInternal
 {
     NSDateComponentsFormatter *_dateComponentsFormatter;
-    AVTouchBarScrubberKnobView *_knobView;
-    AVTouchBarTrackView *_trackView;
-    double _minValue;
-    double _maxValue;
-    double _currentValue;
-    id _expandableInnerKnobFrameObserver;
-    NSColor *_audioWaveformColor;
-    NSView *_elapsedTimeContainerView;
-    NSTextField *_elapsedTimeTextField;
-    NSTextField *_elapsedTimeShadowTextField;
-    _Bool _showsElapsedTimeRightOfTheKnob;
-    id <NSObject><NSCopying> _identityOfTrackedTouch;
-    _Bool _didStartScrubbingForTrackedTouch;
-    struct CGPoint _touchStartLocation;
-    double _touchOffset;
-    _Bool _needsLayoutSubviews;
-    NSLayoutConstraint *_knobViewPositionLayoutConstraint;
-    NSLayoutConstraint *_elapsedTimeLayoutConstraint;
-    _Bool _shouldSkipForwardOrBackwardWhenTapped;
-    _Bool _keepsExpandedKnobWithinBounds;
-    id <AVTouchBarScrubberDelegateInternal> _delegate;
 }
 
-+ (void): /* Error: Ran out of types for this method. */;
++ (void)setAllowedTimeDisplayStylesInternal: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -43,64 +21,49 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
+- (double)__DATA;
+- (double);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)Iegg_Sg;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (struct CGPoint);
-- (void);
-- (struct CGRect);
+- (struct CGPoint);
+- (void)HashForUser:%u
+ /* Error: Ran out of types for this method. */;
+- (struct CGRect)<4;
 - (id);
-- (void);
-- (double);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (id);
+- (id);
 - (void);
 - (void);
+- (void)initWithYear:month:day:hour:minute:second:timeZone: /* Error: Ran out of types for this method. */;
+- (void)a;
+- (double);
+- (id)bvh_top_down_split_leaf_nodes_motion;
+- (void);
+- (void)?;
 - (id);
 - (struct NSEdgeInsets)­ °1Â0@ù
 × ;
 - (double)¼';
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *audioWaveformColor;
-@property(nonatomic) double currentValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTouchBarScrubberDelegateInternal> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool keepsExpandedKnobWithinBounds; // @synthesize keepsExpandedKnobWithinBounds=_keepsExpandedKnobWithinBounds;
-@property(nonatomic) double maxValue;
 @property(nonatomic) double minValue;
-@property(retain, nonatomic) AVPlayerLayer *scrubPlayerLayer;
-@property(nonatomic) _Bool shouldSkipForwardOrBackwardWhenTapped; // @synthesize shouldSkipForwardOrBackwardWhenTapped=_shouldSkipForwardOrBackwardWhenTapped;
-@property(nonatomic) _Bool showsElapsedTime;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVTouchBarTrackView *trackView;
 
 @end
 

@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSUserActionMetadataElement
 {
     PBUnknownFields *_unknownFields;
-    int _uiAction;
-    int _uiTarget;
-    struct {
-        unsigned int has_uiAction:1;
-        unsigned int has_uiTarget:1;
-    } _flags;
 }
 
 - (id);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)clopedicInfo>"16@0:(struct _NSZone *)arg1 8;
-- (id):firstErrorStepIndex:firstLoadStepIndex:loadStepsAhead:loadStepsAheadIfNoWiFi: /* Error: Ran out of types for this method. */;
+- (id)_performTileRequestsWithCurrentRoutePositionStepIndex:firstErrorStepIndex:firstLoadStepIndex:loadStepsAhead:loadStepsAheadIfNoWiFi: /* Error: Ran out of types for this method. */;
 - (id)¸ð;
 - (void)\pÕG@;
 

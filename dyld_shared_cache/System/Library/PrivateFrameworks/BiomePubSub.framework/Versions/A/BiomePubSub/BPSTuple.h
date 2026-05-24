@@ -7,24 +7,22 @@
 @interface BPSTuple
 {
     id _first;
-    id _second;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)setupDeferredDiagnosticsWithExtensionInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)rDelegate>",W,N,V_transitionDriverDelegate;
 - (void);
 - (id);
-- (id);
+- (id)gnitionOrchestrator processAudio:numSamples:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id first; // @synthesize first=_first;
-@property(readonly, nonatomic) id second; // @synthesize second=_second;
 
 @end
 

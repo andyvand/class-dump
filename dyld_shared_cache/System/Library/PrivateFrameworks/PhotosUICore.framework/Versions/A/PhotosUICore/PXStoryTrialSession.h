@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)SXPlaceholderArticleThumbnailComponentAssembly;
 - (id);
 - (id);
 - (void)Èÿÿÿ;

@@ -5,5 +5,7 @@
 //
 
 @protocol CNContactPickerInternalSetup
+- (void);
+- (void)apple.Messages.IMMetricsCollectorEventSendFullQualityButtonPressSuccess;
 @end
 

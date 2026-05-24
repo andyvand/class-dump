@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteParametersLocalitiesAndLandmarks
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_query;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _maxResults;
-    _Bool _highlightDiff;
-    CDStruct_f55cf389 _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasWifiEstimatedBW:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -32,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)C ;
 - (id);
 - (_Bool);
 - (void);
@@ -40,31 +31,23 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)oSessionProviding>",&,N,V_audioSessionProvider;
+- (void)ctory:(id)arg1 matchingPredicate:sortedByCreationDate:compressedFileAvailable:] /* Error: Ran out of types for this method. */;
+- (id)P;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)Ȉ;
 - (id)b1"read_ticketingSegments"b1"wrote_anyField"b1};
-- (id)StringTo:forAppId: /* Error: Ran out of types for this method. */;
+- (id)_appendFormattedCSVStringTo:forAppId: /* Error: Ran out of types for this method. */;
 - (id)d³GÄd³ìGe³´G@e³|!G|e³D#G¸e³à#GÐe³´%GHf³h&Gdf³Ì(Gìf³p+G\g³8-Gg³0Gh³2Gh³à3GÐh³(5Gi³:Gði³<GDj³$CGäk³ðDG l³èEG<l³KG¨l³MGül³8NGm³´OG8m³lVGn³ÌXG r³ìYG0r³[G@r³,\GPr³L]G`r³l^Gpr³èaGr³ÜbG r³eG<s³\mGtu³¨nG /* Error: Ran out of types for this method. */;
 - (id)IMARY KEY NOT NULL,    key_a INT NOT NULL,    key_b INT NOT NULL,    key_c INT NOT NULL,    key_d INT NOT NULL,    tileset INT NOT NULL,    wants_proactive_load INT NOT NULL,    timestamp INT,    UNIQUE(key_a, key_b, key_c, key_d)    ON CONFLICT REPLACE    );;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHighlightDiff;
-@property(nonatomic) _Bool hasMaxResults;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasViewportInfo;
-@property(nonatomic) _Bool highlightDiff;
-@property(nonatomic) int maxResults;
-@property(retain, nonatomic) NSString *query;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOPDViewportInfo *viewportInfo;
 
 @end
 

@@ -5,9 +5,11 @@
 //
 
 @protocol PLHighlightItem
+- (id)D(J*J
+;
 - (id)0@ù
 × ;
-- (id)yMessage;
+- (id)_hasEmptyMessage;
 - (id)opulate matching dictionary for %d people;
 @end
 

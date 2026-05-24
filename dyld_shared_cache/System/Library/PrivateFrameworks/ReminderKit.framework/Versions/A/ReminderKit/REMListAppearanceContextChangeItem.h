@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, REMListBadge, REMListChangeItem;
+@class REMListChangeItem;
 
 @interface REMListAppearanceContextChangeItem
 {
@@ -14,8 +14,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)we should never ask for the position of a record known to not have one!;
+- (_Bool)als for account %@:%@. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -24,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) REMListBadge *badge;
-@property(copy, nonatomic) NSString *badgeEmblem;
 @property(retain, nonatomic) REMListChangeItem *listChangeItem; // @synthesize listChangeItem=_listChangeItem;
 
 @end

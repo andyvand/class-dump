@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPDate, CKDPIdentifier, NSMutableArray;
+@class CKDPIdentifier;
 
 @interface CKDPSupportedCapabilities
 {
     CKDPIdentifier *_deviceIdentifier;
-    NSMutableArray *_fieldLevelCapabilities;
-    NSMutableArray *_recordLevelCapabilities;
-    CKDPDate *_time;
-    CKDPIdentifier *_userIdentifier;
-    int _version;
-    NSMutableArray *_zoneLevelCapabilities;
-    CDStruct_f20694ce _has;
 }
 
 + (Class);
@@ -23,23 +16,23 @@
 + (Class);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)h;
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
+- (id)u;
 - (id);
-- (id);
+- (void);
+- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)^;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -47,34 +40,24 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)realTimeAudioEngine_setNTPTimeAnnounce;
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
+- (_Bool);
+- (void)LqmTxFramesPerSecondMin;
 - (id);
 - (_Bool);
+- (void)ay",R,C,N,V_recipientAddresses;
+- (void);
 - (id);
-- (void)ntifiers;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)clearReplacedDeltaIdentifiers;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPIdentifier *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(retain, nonatomic) NSMutableArray *fieldLevelCapabilities; // @synthesize fieldLevelCapabilities=_fieldLevelCapabilities;
-@property(readonly, nonatomic) _Bool hasDeviceIdentifier;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly, nonatomic) _Bool hasUserIdentifier;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSMutableArray *recordLevelCapabilities; // @synthesize recordLevelCapabilities=_recordLevelCapabilities;
-@property(retain, nonatomic) CKDPDate *time; // @synthesize time=_time;
-@property(retain, nonatomic) CKDPIdentifier *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(nonatomic) int version; // @synthesize version=_version;
-@property(retain, nonatomic) NSMutableArray *zoneLevelCapabilities; // @synthesize zoneLevelCapabilities=_zoneLevelCapabilities;
 
 @end
 

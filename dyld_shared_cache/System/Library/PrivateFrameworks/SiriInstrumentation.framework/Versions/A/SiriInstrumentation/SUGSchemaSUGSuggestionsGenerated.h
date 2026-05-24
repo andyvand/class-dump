@@ -6,23 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaUUID, SUGSchemaSUGAutoCompleteQuery;
+@class NSArray;
 
 @interface SUGSchemaSUGSuggestionsGenerated : SISchemaInstrumentationMessage
 {
     NSArray *_suggestions;
-    int _invocationType;
-    SISchemaUUID *_generationId;
-    NSString *_generationTag;
-    SUGSchemaSUGAutoCompleteQuery *_autoCompleteQuery;
-    SISchemaUUID *_linkId;
-    struct {
-        unsigned int invocationType:1;
-    } _has;
-    _Bool _hasGenerationId;
-    _Bool _hasGenerationTag;
-    _Bool _hasAutoCompleteQuery;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -32,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -47,40 +35,29 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
+- (void)verifyAndRepairCloudDataProtectionWithCompletion:(id)arg1;
+- (void)updateServiceRow:(_Bool)arg1;
+- (id)setStopCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)recoveryKeyLabel;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id);
 - (void);
 - (id);
+- (unsigned long long)v28@0:8B16@?<v@?@"NSDictionary"@"NSError">20 /* Error: Ran out of types for this method. */;
+- (_Bool)&,N,V_transitionProvider;
+- (void);
+- (_Bool)s_read = 1, date_read = %lld WHERE (is_read == 0 AND is_finished == 1 AND is_from_me == 0 AND item_type == 1 AND is_system_message == 0);;
+- (void);
 - (id);
-- (id)eleteOrchestrationMode;
-- (id)erty;
+- (id);
+- (id)deleteOrchestrationMode;
+- (id)_hasVideoExperienceProperty;
 - (id)SchemaPNRODMetricDuration",&,N,V_planResolverServiceSetupTime;
-- (void)TYPE_START_CALL;
-- (void)rtTimeInNs;
+- (void)ODMSIRITASKTYPE_START_CALL;
+- (void)secondPassCheckerModelKeywordDetectionStartTimeInNs;
 
 // Remaining properties
-@property(retain, nonatomic) SUGSchemaSUGAutoCompleteQuery *autoCompleteQuery; // @synthesize autoCompleteQuery=_autoCompleteQuery;
-@property(retain, nonatomic) SISchemaUUID *generationId; // @synthesize generationId=_generationId;
-@property(copy, nonatomic) NSString *generationTag; // @synthesize generationTag=_generationTag;
-@property(nonatomic) _Bool hasAutoCompleteQuery; // @synthesize hasAutoCompleteQuery=_hasAutoCompleteQuery;
-@property(nonatomic) _Bool hasGenerationId; // @synthesize hasGenerationId=_hasGenerationId;
-@property(nonatomic) _Bool hasGenerationTag; // @synthesize hasGenerationTag=_hasGenerationTag;
-@property(nonatomic) _Bool hasInvocationType;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) int invocationType; // @synthesize invocationType=_invocationType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 @property(copy, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;
 
 @end

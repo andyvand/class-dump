@@ -6,58 +6,39 @@
 
 #import <HomeKitDaemon/HMDCameraParameterSelection.h>
 
-@class HAPSupportedVideoStreamTiers, HAPVideoStreamTier, HMDCameraVideoTier, HMDCameraVideoTierParameters, HMDH264Level, HMDH264Profile, HMDPacketizationMode, HMDSelectedVideoParameters, HMDStreamingCapabilities, HMDSupportedRTPConfiguration, HMDSupportedVideoStreamConfiguration, HMDVideoCodec, NSArray, NSNumber;
+@class HMDSupportedVideoStreamConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraVideoParameterSelection : HMDCameraParameterSelection
 {
     HMDSupportedVideoStreamConfiguration *_supportedVideoStreamConfiguration;
-    HMDSupportedRTPConfiguration *_rtpConfiguration;
-    NSNumber *_syncSource;
-    HMDSelectedVideoParameters *_selectedVideoParameters;
-    HMDStreamingCapabilities *_streamingCapabilities;
-    NSArray *_videoCodecsPreference;
-    NSArray *_h264ProfilesPreference;
-    NSArray *_h264LevelsPreference;
-    NSArray *_h264PacketizationPreference;
-    NSArray *_videoResolutionsPreference;
-    NSArray *_validVideoParameterCombinations;
-    HMDCameraVideoTierParameters *_videoTierParameters;
-    HMDH264Profile *_selectedProfile;
-    HMDH264Level *_selectedLevel;
-    HMDPacketizationMode *_selectedPacketizationMode;
-    NSNumber *_selectedFramerate;
-    HMDCameraVideoTier *_selectedVideoTier;
-    HMDVideoCodec *_selectedCodecType;
-    HAPSupportedVideoStreamTiers *_supportedVideoStreamTiers;
-    HAPVideoStreamTier *_selectedVideoStreamTier;
 }
 
-+ (id);
++ (id);
 + (id)¼B;
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)oller"16;
+- (id)<v@?@"NSArray">16;
+- (id)ng"32@?<v@?@"NSError">40;
+- (id)eraseFromStorageTypes:withCompletionQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)enumerateSubstringsInRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)commitEditWithNewContents:edits:appliedToOldContents:completion: /* Error: Ran out of types for this method. */;
+- (void),V_currentState;
+- (void)o",R,N;
+- (void)V_traits;
+- (void)_sharingService;
+- (void)laceMapItemStorage;
+- (void)_sessionStorage;
+- (void)EOCyclingOptions",R,N;
+- (id)tate"8;
+- (id)SPQueryState"16@?0@"_MSPQueryState"8;
+- (id)t:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id)WithStateTransformation:containerEdit:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (id)ilityStatus"16^B24;
+- (id)"MSPSharedTripFetchedCapabilityStatus"16^B24;
+- (id)0@"NSMutableDictionary"8@"NSString"16;
+- (id)apabilitiesForContacts:] /* Error: Ran out of types for this method. */;
+- (_Bool)abilityFetchingServer createXPCListener];
+- (id)he route;
 - (id);
 - (id);
 - (id);
@@ -74,29 +55,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)!DFùñÐ1Â0@ù
 × ;
-- (void)BULLETIN_BODY_HEAT;
+- (void)CLIMATE_BULLETIN_BODY_HEAT;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *h264LevelsPreference; // @synthesize h264LevelsPreference=_h264LevelsPreference;
-@property(readonly, nonatomic) NSArray *h264PacketizationPreference; // @synthesize h264PacketizationPreference=_h264PacketizationPreference;
-@property(readonly, nonatomic) NSArray *h264ProfilesPreference; // @synthesize h264ProfilesPreference=_h264ProfilesPreference;
-@property(readonly, nonatomic) HMDSupportedRTPConfiguration *rtpConfiguration; // @synthesize rtpConfiguration=_rtpConfiguration;
-@property(retain, nonatomic) HMDVideoCodec *selectedCodecType; // @synthesize selectedCodecType=_selectedCodecType;
-@property(retain, nonatomic) NSNumber *selectedFramerate; // @synthesize selectedFramerate=_selectedFramerate;
-@property(retain, nonatomic) HMDH264Level *selectedLevel; // @synthesize selectedLevel=_selectedLevel;
-@property(retain, nonatomic) HMDPacketizationMode *selectedPacketizationMode; // @synthesize selectedPacketizationMode=_selectedPacketizationMode;
-@property(retain, nonatomic) HMDH264Profile *selectedProfile; // @synthesize selectedProfile=_selectedProfile;
-@property(retain, nonatomic) HMDSelectedVideoParameters *selectedVideoParameters; // @synthesize selectedVideoParameters=_selectedVideoParameters;
-@property(retain, nonatomic) HAPVideoStreamTier *selectedVideoStreamTier; // @synthesize selectedVideoStreamTier=_selectedVideoStreamTier;
-@property(retain, nonatomic) HMDCameraVideoTier *selectedVideoTier; // @synthesize selectedVideoTier=_selectedVideoTier;
-@property(readonly, nonatomic) HMDStreamingCapabilities *streamingCapabilities; // @synthesize streamingCapabilities=_streamingCapabilities;
 @property(readonly, nonatomic) HMDSupportedVideoStreamConfiguration *supportedVideoStreamConfiguration; // @synthesize supportedVideoStreamConfiguration=_supportedVideoStreamConfiguration;
-@property(readonly, nonatomic) HAPSupportedVideoStreamTiers *supportedVideoStreamTiers; // @synthesize supportedVideoStreamTiers=_supportedVideoStreamTiers;
-@property(readonly, nonatomic) NSNumber *syncSource; // @synthesize syncSource=_syncSource;
-@property(readonly, nonatomic) NSArray *validVideoParameterCombinations; // @synthesize validVideoParameterCombinations=_validVideoParameterCombinations;
-@property(readonly, nonatomic) NSArray *videoCodecsPreference; // @synthesize videoCodecsPreference=_videoCodecsPreference;
-@property(readonly, nonatomic) NSArray *videoResolutionsPreference; // @synthesize videoResolutionsPreference=_videoResolutionsPreference;
-@property(readonly, nonatomic) HMDCameraVideoTierParameters *videoTierParameters; // @synthesize videoTierParameters=_videoTierParameters;
 
 @end
 

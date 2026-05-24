@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCell, NSTimer, NSValue;
+@class NSCell, NSValue;
 @protocol _NSAcceleratorCell;
 
 __attribute__((visibility("hidden")))
 @interface _NSAcceleratorButtonHelper
 {
     NSValue *_cellStorage;
-    NSTimer *_timer;
-    double _lastTime;
-    double _accumulatedActions;
-    double _timerTarget;
-    double _initialDelay;
-    float _minRate;
-    float _maxRate;
-    float _currentRate;
-    _Bool _satisfiedInitialDelay;
 }
 
 + (float);
 + (float);
-+ (double);
++ (double)ces;;
 - (void);
 - (void);
 - (void);
@@ -32,14 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)o^q24;
+- (void)#;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly) __weak NSCell<_NSAcceleratorCell> *cell;
-@property(retain) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

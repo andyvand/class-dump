@@ -9,10 +9,10 @@
     _Bool _circular;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)`b;
 
 // Remaining properties
 @property(getter=isCircular) _Bool circular; // @synthesize circular=_circular;

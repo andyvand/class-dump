@@ -11,8 +11,6 @@
 @interface NSTernaryExpression : NSExpression
 {
     NSPredicate *_predicate;
-    NSExpression *_trueExpression;
-    NSExpression *_falseExpression;
 }
 
 + (_Bool)SCalendars cannot be decoded by non-keyed archivers;

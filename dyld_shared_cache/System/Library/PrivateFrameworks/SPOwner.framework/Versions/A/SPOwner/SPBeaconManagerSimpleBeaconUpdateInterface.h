@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCSession, NSArray, NSObject, NSString, SPSimpleBeaconContext;
-@protocol OS_dispatch_queue, SPBeaconManagerXPCProtocol;
+@class FMXPCSession;
 
 @interface SPBeaconManagerSimpleBeaconUpdateInterface
 {
     _Bool _reconnectionUpdate;
-    NSArray *_simpleBeacons;
-    FMXPCSession *_session;
-    id <SPBeaconManagerXPCProtocol> _proxy;
-    CDUnknownBlockType _collectionDifferenceBlock;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    SPSimpleBeaconContext *_context;
 }
 
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -29,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
@@ -42,27 +35,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)s;
+- (id)FocusMode;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType collectionDifferenceBlock; // @synthesize collectionDifferenceBlock=_collectionDifferenceBlock;
-@property(retain, nonatomic) SPSimpleBeaconContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <SPBeaconManagerXPCProtocol> proxy; // @synthesize proxy=_proxy;
-@property(nonatomic) _Bool reconnectionUpdate; // @synthesize reconnectionUpdate=_reconnectionUpdate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 @property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) NSArray *simpleBeacons; // @synthesize simpleBeacons=_simpleBeacons;
-@property(readonly) Class superclass;
 
 @end
 

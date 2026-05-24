@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol LUI2CollectionViewDelegate;
-
 @interface LUI2CollectionView
 {
     unsigned long long _focusedUserIndex;
-    NSObject<LUI2CollectionViewDelegate> *_lui2Delegate;
-    id _accessibilityButtonRepresentationTarget;
-    SEL _accessibilityButtonRepresentationAction;
-    NSString *_accessibilityButtonRepresentationLabel;
 }
 
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
 - (id);
 - (SEL);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -37,22 +30,18 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)"b1"locationDBFR2Count"b1"radioCoverage"b1"radioFrequency"b1"recommendedlink"b1"totalNrBandwidth"b1"triggerReason"b1"wRMRecommendationReason"b1"wiFiPredictedThroughput"b1"wiFiThroughput"b1"wifPoi"b1"wifiCca"b1"wifiEstThoughtput"b1"wifiQbssLoad"b1"wifiRecommendationConfidence"b1"wifiRecommendationScore"b1"wifiRssi"b1"wifiRxRetry"b1"wifiSnr"b1"wifiStationCount"b1"wifiTxPER"b1"wifiWghtAVGRXPHYRATE"b1"wifiWghtAVGSNR"b1"wifiWghtAVGTXPHYRATE"b1"wifiWgtAVGRSSI"b1"wifiWifiEstThoughtputConfidence"b1"fr2DBRecommendation"b1"highThermalTemperatureNotification"b1};
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)SXPCConnection";
 - (void)0:(id)arg1 8q16@?24;
 - (void)Dß;
 
 // Remaining properties
-@property SEL accessibilityButtonRepresentationAction; // @synthesize accessibilityButtonRepresentationAction=_accessibilityButtonRepresentationAction;
-@property(retain) NSString *accessibilityButtonRepresentationLabel; // @synthesize accessibilityButtonRepresentationLabel=_accessibilityButtonRepresentationLabel;
-@property __weak id accessibilityButtonRepresentationTarget; // @synthesize accessibilityButtonRepresentationTarget=_accessibilityButtonRepresentationTarget;
 @property unsigned long long focusedUserIndex; // @synthesize focusedUserIndex=_focusedUserIndex;
-@property __weak NSObject<LUI2CollectionViewDelegate> *lui2Delegate; // @synthesize lui2Delegate=_lui2Delegate;
 
 @end
 

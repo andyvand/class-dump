@@ -10,14 +10,6 @@
 {
     void type;
     void label;
-    void formKey;
-    void hintText;
-    void textContextType;
-    _Bool isSecure;
-    long long maxCharacterCount;
-    long long minCharacterCount;
-    void regex;
-    _Bool required;
 }
 
 - (long long);
@@ -35,15 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *formKey;
-@property(nonatomic, readonly) NSString *hintText;
-@property(nonatomic, readonly) _Bool isSecure; // @synthesize isSecure;
 @property(nonatomic, readonly) NSString *label;
-@property(nonatomic, readonly) long long maxCharacterCount; // @synthesize maxCharacterCount;
-@property(nonatomic, readonly) long long minCharacterCount; // @synthesize minCharacterCount;
-@property(nonatomic, readonly) NSString *regex;
-@property(nonatomic, readonly) _Bool required; // @synthesize required;
-@property(nonatomic, readonly) NSString *textContextType;
 @property(nonatomic, readonly) NSString *type;
 
 @end

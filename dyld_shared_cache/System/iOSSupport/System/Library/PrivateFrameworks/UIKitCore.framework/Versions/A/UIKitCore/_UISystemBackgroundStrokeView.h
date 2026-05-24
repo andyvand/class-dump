@@ -6,20 +6,14 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIColor;
-
 __attribute__((visibility("hidden")))
 @interface _UISystemBackgroundStrokeView : UIView
 {
     _Bool _useContinuousCurve;
-    double _strokeWidth;
-    double _strokeCornerRadius;
-    UIColor *_strokeColor;
-    unsigned long long _maskedCorners;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (double);
 - (void);
 - (void);
@@ -29,18 +23,14 @@ __attribute__((visibility("hidden")))
 - (void)1Â0@ù
 × ;
 - (id)RawValue;
-- (void);
+- (void)Row0;
 - (void)container;
 - (double)ngs isUISubclass];
 - (void);
 - (void).8ÔD;^;
 
 // Remaining properties
-@property(nonatomic) unsigned long long maskedCorners; // @synthesize maskedCorners=_maskedCorners;
-@property(retain, nonatomic) UIColor *strokeColor; // @synthesize strokeColor=_strokeColor;
-@property(nonatomic) double strokeCornerRadius; // @synthesize strokeCornerRadius=_strokeCornerRadius;
 @property(nonatomic) double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
-@property(nonatomic) _Bool useContinuousCurve; // @synthesize useContinuousCurve=_useContinuousCurve;
 
 @end
 

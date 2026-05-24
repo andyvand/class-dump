@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AKApplicationMetadataInfo
 {
     NSString *_authorizedAppListVersion;
-    NSDictionary *_teams;
 }
 
 + (_Bool);
-- (id);
+- (id),;
 - (id);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *authorizedAppListVersion; // @synthesize authorizedAppListVersion=_authorizedAppListVersion;
-@property(readonly, copy, nonatomic) NSDictionary *teams; // @synthesize teams=_teams;
 
 @end
 

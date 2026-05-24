@@ -6,12 +6,9 @@
 
 #import <CoreHAP/HAP2AccessoryServerPairingDriverWorkItem.h>
 
-@class NSError;
-
 @interface HAP2AccessoryServerPairingDriverAuthPromptWorkItem : HAP2AccessoryServerPairingDriverWorkItem
 {
     unsigned long long _permissionType;
-    NSError *_cancelError;
 }
 
 + (id);
@@ -22,10 +19,9 @@
 - (id);
 - (void);
 - (id);
-- (void)eenForTrackedAccessories: /* Error: Ran out of types for this method. */;
+- (void)resetLastSeenForTrackedAccessories: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *cancelError; // @synthesize cancelError=_cancelError;
 @property(readonly, nonatomic) unsigned long long permissionType; // @synthesize permissionType=_permissionType;
 
 @end

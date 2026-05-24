@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, NSError, NSString;
+@class NSError;
 
 @interface MPAsyncOperation
 {
     _Bool _finished;
-    _Bool _executing;
-    _Bool _cancelled;
-    struct os_unfair_lock_s _lock;
-    NSError *_error;
-    ICUserIdentity *_userIdentity;
 }
 
 - (id);
@@ -22,25 +17,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)%;
 - (_Bool);
 - (void);
 - (_Bool)1Â0@ù
 × ;
-- (void)orkInfoType;
-- (id)ontroller: /* Error: Ran out of types for this method. */;
+- (void)artworkInfoType;
+- (id)willMoveToParentViewController: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

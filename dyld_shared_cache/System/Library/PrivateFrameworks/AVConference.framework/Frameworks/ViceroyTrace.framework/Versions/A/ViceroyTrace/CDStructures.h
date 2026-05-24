@@ -26,16 +26,12 @@ struct _opaque_pthread_mutex_t {
     char _field2[56];
 };
 
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
 struct tagABCSymptomsReportingTelemetryThresholdValues {
-    int audioConnectionTimeThreshold;
-    int audioErasurePercentageThreshold;
-    int poorConnectionPercentageThreshold;
-    int videoConnectionTimeThreshold;
-    int videoStallPercentageThreshold;
+    int _field1;
+    int _field2;
+    int _field3;
+    int _field4;
+    int _field5;
 };
 
 struct tagVCAggregatorFaceTimeSegmentStatsBytes {
@@ -56,77 +52,6 @@ struct tagVCAudioCodecAndMediaBitrateStats {
     unsigned int _field4;
 };
 
-struct tagVCDataCollectionBaseband {
-    unsigned int radioTechnology;
-    unsigned int flushableQueueDepth;
-    unsigned int unflushableQueueDepth;
-    unsigned int averageBitrate;
-    unsigned int averageBitrateShort;
-    unsigned int averageBitrateLong;
-    unsigned int txBitrate;
-    double averageQueueDepth;
-    double expectedQueuingDelay;
-    double bdcd;
-    double normalizedBDCD;
-    double normalizedDelay;
-};
-
-struct tagVCDataCollectionFeedback {
-    double rateControlTime;
-    double owrd;
-    double nowrd;
-    double nowrda;
-    double roundTripTime;
-    double roundTripTimeAverage;
-    double roundTripTimeMinEnvelope;
-    double audioPacketLossRate;
-    double audioPacketLossRateShort;
-    double videoPacketLossRate;
-    double ecnCERatio;
-    unsigned int bandwidthEstimate;
-    double trainingValue;
-    unsigned int trainingAction;
-    double trainingActionLogProbability;
-};
-
-struct tagVCDataCollectionLocalRCEvent {
-    unsigned int bytesInFlight;
-    unsigned int bytesInFlightRollingAverage;
-};
-
-struct tagVCDataCollectionMetadata {
-    struct __CFString *conversationID;
-    struct __CFString *participantID;
-    unsigned int deviceClass;
-};
-
-struct tagVCDataCollectionNWConnection {
-    unsigned long long nwConnectionTimestamp;
-    unsigned char frequencyBand;
-    unsigned char intermittentState;
-    unsigned short estimatedIntermittentPeriod;
-    unsigned short singleOutagePeriod;
-    unsigned char btCoex;
-    unsigned char radioCoex;
-    unsigned char qualityScoreDelayRx;
-    unsigned char qualityScoreDelayTx;
-    unsigned char qualityScoreLossRx;
-    unsigned char qualityScoreLossTx;
-    unsigned char qualityScoreChannel;
-    float offChannelTimeRatio;
-    unsigned short wlanDutyCycle;
-    unsigned int wifiObservedTxBitrate[6];
-};
-
-struct tagVCDataCollectionRCConfiguration {
-    int algorithmVersion;
-    unsigned int mode;
-    unsigned int radioAccessTechnology;
-    unsigned int remoteRadioAccessTechnology;
-    unsigned int minTargetBitrate;
-    unsigned int maxTargetBitrate;
-};
-
 struct tagVCFECSegmentReportParameters {
     id _field1;
     id _field2;
@@ -144,64 +69,33 @@ struct tagVCPersistentDataStoreConfiguration {
     struct __CFString *_field3;
 };
 
-struct tagVCPersistentDataStoreMessage {
-    int type;
-    union {
-        struct tagVCRateControlDataCollectionMessage data;
-        struct tagVCDataCollectionMetadata metadata;
-    } ;
-};
-
-struct tagVCRateControlDataCollectionMessage {
-    unsigned char state;
-    double timestamp;
-    double arrivalTime;
-    unsigned int targetBitrate;
-    unsigned int bitrate;
-    _Bool basebandFlush;
-    union {
-        struct tagVCDataCollectionFeedback feedback;
-        struct tagVCDataCollectionLocalRCEvent localRCEvent;
-        struct tagVCDataCollectionNWConnection nwConnection;
-        struct tagVCDataCollectionBaseband baseband;
-        struct tagVCDataCollectionRCConfiguration configuration;
-    } ;
-};
-
 struct tagVCReportingClientExperimentSettings {
-    _Bool networkConditionMonitoringClientExperimentEnabled;
-    _Bool motionBasedDuplicationClientExperimentEnabled;
-    _Bool detectInactiveAudioFramesAACELD;
+    _Bool _field1;
+    _Bool _field2;
+    _Bool _field3;
 };
 
 struct tagVCReportingClientSettingsPersist {
-    char eyeContactStatus;
-    char mlEnhanceStatus;
-    char centerStageStatus;
-    char portraitModeStatus;
-    char studioLightStatus;
-    char reactionsStatus;
-    char backgroundReplacementStatus;
-    char alwaysfullbleedUserPreferenceStatus;
-    unsigned long long switches;
-    struct tagVCReportingClientExperimentSettings experimentSettings;
+    char _field1;
+    char _field2;
+    char _field3;
+    char _field4;
+    char _field5;
+    char _field6;
+    char _field7;
+    char _field8;
+    unsigned long long _field9;
+    struct tagVCReportingClientExperimentSettings _field10;
 };
 
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned int linkProbingVersion;
-    unsigned int remoteLinkProbingVersion;
-    double localAlertDuration;
-    double remoteAlertDuration;
-} CDStruct_4bc0a271;
-
-typedef struct {
-    int twoPtFourGhzChannelCount;
-    int fiveGhzChannelCount;
-    int dfsChannelCount;
-    int inactiveSlotCount;
-} CDStruct_f2f7ecfd;
+    unsigned int _field1;
+    unsigned int _field2;
+    double _field3;
+    double _field4;
+} CDStruct_b7f6baa1;
 
 typedef struct {
     id _field1;
@@ -231,5 +125,5 @@ typedef struct {
     _Bool _field15;
     struct tagABCSymptomsReportingTelemetryThresholdValues _field16;
     struct tagVCPersistentDataStoreConfiguration _field17;
-} CDStruct_328cc8a8;
+} CDStruct_1327dbd2;
 

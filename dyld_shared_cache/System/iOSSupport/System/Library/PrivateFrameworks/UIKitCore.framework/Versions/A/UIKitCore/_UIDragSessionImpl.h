@@ -4,86 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMapTable, NSMutableArray, NSMutableSet, NSSet, NSString, UIDragInteraction, _UIInternalDraggingSessionSource;
+@class NSMutableArray, _UIInternalDraggingSessionSource;
 
 __attribute__((visibility("hidden")))
 @interface _UIDragSessionImpl
 {
     NSMutableArray *_allItems;
-    NSMapTable *_dragSourceInteractionByItem;
-    NSHashTable *_allInteractions;
-    _Bool _didHandOffDragImage;
-    NSMutableSet *_addedDraggingItemsWaitingForHandOffOfDragImage;
-    NSMutableSet *_addedDragItemsPendingUpdate;
-    _Bool _sentSessionDidBegin;
-    id _localContext;
-    _UIInternalDraggingSessionSource *_internalDragSession;
-    UIDragInteraction *_primaryInteraction;
 }
 
 + (id);
-+ (id)rForSpelling;
++ (id)underlineColorForSpelling;
 - (id);
-- (id);
-- (id);
+- (id)relayTranslationWithMessageGUID:sourceLocaleIdentifier:destinationLocaleIdentifier:text:partIndex: /* Error: Ran out of types for this method. */;
+- (id)broadcasterForKeyTransparencyListeners;
+- (void)ePluginsRegistered:(id)arg1;
+- (void)_checkAndUpdateSMSSpamFilterExtensionForUnregisteredOrUpdatedPlugins:(id)arg1 arePluginsRegistered: /* Error: Ran out of types for this method. */;
+- (_Bool)lterExtensionName:(id)arg1;
+- (_Bool)_checkAndUpdateSMSFilteringSettingsForDeviceID:(id)arg1 smsFilterCapabilitiesOptions:filterExtensionName: /* Error: Ran out of types for this method. */;
+- (void)_checkAndUpdateFilterParamsForFilterExtension;
+- (void)_chatsWithBlackholed:(id)arg1;
+- (void)_chatsLock;
+- (void)_chatsForMessageGUID:(id)arg1 enableVerboseLogging:(id)arg2;
+- (unsigned long long)_chatsForDeleteAndRecoveryChatMetadataDictionary:(id)arg1;
+- (id)_chatInfoForConnection;
 - (void);
 - (void);
+- (void);
+- (_Bool)%@;
+- (void)ing assigned to chat %@;
+- (id)ndle %@;
+- (id)ath during mark as updated %@;
+- (void)o reflect it only;
+- (void)tting shouldForceToSMS on chat %@ to YES;
+- (long long)ion;
+- (_Bool)rescan;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id)_UICollectionViewPrefetchingContext";
-- (struct CGPoint);
-- (id)iousFrame:isNewLine: /* Error: Ran out of types for this method. */;
-- (id)lyTitleConstraints;
+- (struct CGPoint)m_previousSpaceKeyBehavior;
+- (id)cursorDidMoveToFrame:fromPreviousFrame:isNewLine: /* Error: Ran out of types for this method. */;
+- (id)_applyTitleConstraints;
 - (void);
 - (_Bool)PæþW;
 - (unsigned int)Óÿ'.{;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_allowsItemsToUpdate) _Bool _allowsItemsToUpdate;
-@property(readonly, nonatomic) long long _dataOwner;
-@property(readonly, nonatomic) unsigned int _sessionIdentifier;
-@property(readonly, nonatomic) _Bool allowsMoveOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic, getter=_internalDragSession, setter=_setInternalDragSession:) _UIInternalDraggingSessionSource *internalDragSession; // @synthesize internalDragSession=_internalDragSession;
-@property(readonly, nonatomic) NSArray *items;
-@property(retain, nonatomic) id localContext; // @synthesize localContext=_localContext;
-@property(readonly, nonatomic) __weak UIDragInteraction *primaryInteraction; // @synthesize primaryInteraction=_primaryInteraction;
-@property(readonly, nonatomic, getter=isRestrictedToDraggingApplication) _Bool restrictedToDraggingApplication;
-@property(nonatomic, getter=_sentSessionDidBegin, setter=_setSentSessionDidBegin:) _Bool sentSessionDidBegin; // @synthesize sentSessionDidBegin=_sentSessionDidBegin;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *trackedInteractions;
 
 @end
 

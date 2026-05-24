@@ -4,7 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSData, NSString;
+
 @protocol CKSMSCompose
-- (void)AULT;
++ (double)allIndexableObjectIDsInReversedReindexingOrderWithContext: /* Error: Ran out of types for this method. */;
++ (double)allChildCloudObjects;
++ (_Bool);
+- (void);
+- (void)Path=}24@0:(NSData *)arg1 8d16;
+- (void)4;
+- (void)24Q32{_NSRange=QQ}40q56;
+- (void)0:(NSString *)arg1 8@16@24Q32{_NSRange=QQ}40q56;
+- (void)=dd}16d32@40@48@56@?64@?72@?80@?88;
+- (void)@"<ICLegacyNote>"24@0:(_Bool)arg1 8@"<ICLegacyContext>"16;
+- (void)48@56B64@68;
+- (void)updateAudioClientsState:(NSArray *)arg1;
+- (void)unsupportedAttachmentSubtitle;
+- (void)setTrackedParagraphIsRTL:(NSArray *)arg1;
+- (void)setTrackAddedExtraNewlineRanges:(void (^)(void))arg1;
+- (void)setInDidFailFetchingMetadataNotification:(NSArray *)arg1;
+- (_Bool)_pendingSeekTime;
+- (_Bool)_passwordTextField;
+- (_Bool)_passwordAndVerifyDoNotMatchLabel;
+- (_Bool)_paperIdentifierBeforeAttachmentIsSet;
+- (_Bool)_oldPasswordIncorrectTextViewScrollView;
+- (_Bool)_oldPasswordContainer;
+- (_Bool)_nonMathNotesNotesInSource;
+- (_Bool)_nonEncryptedContentCRContextURL;
+- (_Bool)_needsUpdateManagedObjectIDs;
+- (_Bool)_mustZoomTextBeforeReplacingCharactersInRange;
+- (_Bool)_modernSourceObjects;
+- (_Bool)_mentionsController;
+- (_Bool)_maxCharacterCount;
+- (_Bool)_managedObjectContext;
+- (_Bool)_makeDecisionForMovingModernObjectsToModernDestination;
+- (void)wordTextField;
+- (void)InlineAttachmentManagement_UI;
+- (void)ated it with object {share:(NSString *)arg1 %@, objectID:(NSString *)arg2 %@};
+- (void)(%@) for object:(NSArray *)arg1 %@;
+- (void)EXPANSE_DEFAULT;
 @end
 

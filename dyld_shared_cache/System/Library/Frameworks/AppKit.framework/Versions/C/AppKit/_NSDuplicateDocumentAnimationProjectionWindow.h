@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _NSDuplicateDocumentAnimationProjectionWindow : _NSSlideAndCrossFadeAnimationProjectionWindow
 {
     NSWindow *sourceWindow;
-    NSWindow *targetWindow;
 }
 
 - (id);

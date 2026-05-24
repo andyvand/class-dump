@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPMergeableValueIdentifier, CKDPRecordFieldIdentifier, CKDPRecordIdentifier, CKDPRecordType, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPRecordRetrieveChangesResponseMergeableDeltaChange
 {
     NSMutableArray *_deltas;
-    CKDPRecordFieldIdentifier *_fieldIdentifier;
-    CKDPMergeableValueIdentifier *_identifier;
-    CKDPRecordIdentifier *_recordIdentifier;
-    CKDPRecordType *_recordType;
 }
 
-+ (Class);
++ (Class);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)B;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -29,32 +25,25 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)%s(startup) hose [%{ptr}] HoseState=%d, isLocal=%c
+;
+- (_Bool);
+- (void)setLinkTheoreticalMaxRate:(id)arg1;
+- (id)pO;
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)):%d /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *deltas; // @synthesize deltas=_deltas;
-@property(retain, nonatomic) CKDPRecordFieldIdentifier *fieldIdentifier; // @synthesize fieldIdentifier=_fieldIdentifier;
-@property(readonly, nonatomic) _Bool hasFieldIdentifier;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(readonly, nonatomic) _Bool hasRecordType;
-@property(retain, nonatomic) CKDPMergeableValueIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(retain, nonatomic) CKDPRecordType *recordType; // @synthesize recordType=_recordType;
 
 @end
 

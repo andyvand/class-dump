@@ -20,14 +20,14 @@
 - (double);
 - (id);
 - (id);
+- (void)P;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void)n:(long long)arg1;
-- (void)atImageAsTemplate:(long long)arg1;
-- (void)veHeightChanged;
-- (void)llectionJoinBehavior;
-- (void);
+- (void)presentPopoverAtWindowLocation:(long long)arg1 completion:(struct CGPoint)arg2;
+- (void)_shouldTreatImageAsTemplate:(long long)arg1;
+- (void)isObservingDidEncounterFirstTitleWithExcessiveHeightChanged;
+- (void)collectionJoinBehavior;
+- (void)lockEntry;
 - (id)h;
 
 // Remaining properties

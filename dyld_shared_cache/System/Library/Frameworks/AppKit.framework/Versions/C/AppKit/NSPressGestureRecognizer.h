@@ -6,27 +6,9 @@
 
 #import <AppKit/NSGestureRecognizer.h>
 
-@class NSArray, NSMutableArray;
-
 @interface NSPressGestureRecognizer : NSGestureRecognizer
 {
     struct CGPoint _location;
-    unsigned long long _buttonMask;
-    double _minimumPressDuration;
-    double _allowableMovement;
-    long long _buttonCount;
-    struct {
-        unsigned int enoughTimeElapsed:1;
-        unsigned int gotButtonUp:1;
-        unsigned int hasCustomMinPressDuration:1;
-        unsigned int hasCustomAllowableMovement:1;
-        unsigned int cancelPastAllowableMovement:1;
-        unsigned int reserved:27;
-    } _lcflags;
-    long long _numberOfTouchesRequired;
-    long long _activeTouchCount;
-    NSMutableArray *_trackingTouchIdentities;
-    NSArray *_currentTouches;
 }
 
 - (void);
@@ -36,15 +18,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)= %lu, child maps count = %lu, bytes_count = %lu, extra_bytes = %lu, total memory size %lu fd %d);
+- (void)ie - initializing (Nodes count = %lu, child maps count = %lu, bytes_count = %lu, extra_bytes = %lu, total memory size %lu fd %d);
+- (_Bool)timeIntervalSinceNow;
+- (unsigned long long)set_preventsSystemHTTPProxyAuthentication: /* Error: Ran out of types for this method. */;
+- (void)xpectedly returned NULL;
+- (_Bool)shouldHandleHTTPCookies;
+- (_Bool)__CFURLRequestNullTokenString__;
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,24 +43,19 @@
 - (struct CGPoint)!PDùà3ð1Â0@ù
 × ;
 - (void)× ;
-- (void)dFocusRingNeedsDisplayIfNeededInRect:(id)arg1;
-- (void)dgetView;
+- (void)setKeyboardFocusRingNeedsDisplayIfNeededInRect:(id)arg1;
+- (void)accessoryWidgetView;
 - (double)Ð\Ó;
 - (void)ÄÄ	;
 - (void)ÿP;
 - (double)of macOS.;
-- (void)tedUIServiceContextMenuAction;
+- (void)TrustedUIServiceContextMenuAction;
 - (void)XüþvÀýB;
 - (void)ÐÑkÿÎÌüþC;
 - (void)l G;
 
 // Remaining properties
-@property double allowableMovement;
-@property unsigned long long buttonMask;
 @property _Bool cancelPastAllowableMovement;
-@property double minimumPressDuration;
-@property long long numberOfTouchesRequired; // @synthesize numberOfTouchesRequired=_numberOfTouchesRequired;
-@property(readonly, retain) NSArray *touches;
 
 @end
 

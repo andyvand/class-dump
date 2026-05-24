@@ -7,9 +7,6 @@
 @interface PhotosUICore.PXModelDeliveryProgressViewController
 {
     id $__lazy_storage_$_progressView;
-    id progressState;
-    id progressConfiguration;
-    id progressHostingViewController;
 }
 
 - (void);
@@ -17,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)cipeStylerTypeP;
 - (void);
 
 @end

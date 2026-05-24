@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void);
+- (void):(id)arg1 {;
+- (id)xohz;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)*;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *scrClassName; // @synthesize scrClassName=_scrClassName;

@@ -6,26 +6,12 @@
 
 #import <OfficeImport/OCDDocument.h>
 
-@class ECMappingContext, EDProcessors, EDReference, EDResources, EDWarnings, ESDContainer, NSDate, NSMutableArray, NSString;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDWorkbook : OCDDocument
 {
     EDResources *mResources;
-    NSMutableArray *mOtherResources;
-    EDProcessors *mProcessors;
-    ECMappingContext *mMappingContext;
-    EDWarnings *mWarnings;
-    NSMutableArray *mSheets;
-    EDReference *mVisibleRange;
-    unsigned long long mActiveSheetIndex;
-    NSDate *mDateBaseDate;
-    int mDateBase;
-    NSString *mFileName;
-    NSString *mTemporaryDirectory;
-    NSMutableArray *mBulletBlips;
-    ESDContainer *mEscherDrawingGroup;
-    _Bool mIsOutOfMemoryConditionDetected;
 }
 
 + (id);
@@ -34,29 +20,29 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
+- (void)A;
 - (void);
 - (void);
 - (void);
+- (void)qA;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id);
 - (unsigned int);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)	;
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -64,12 +50,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_inited;
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id)ng: /* Error: Ran out of types for this method. */;
+- (id)scannerWithString: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

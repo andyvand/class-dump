@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetrics, NSString;
+@class AMSMetrics;
 
 @interface IMMetricsController
 {
     _Bool _shouldSuppressUserInfo;
-    _Bool _shouldIgnoreDNU;
-    _Bool _isLoading;
-    NSString *_topic;
-    AMSMetrics *_metricsController;
 }
 
-+ (id);
++ (id)A;
 - (_Bool);
 - (void);
 - (void);
@@ -25,8 +21,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)(;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -34,18 +30,7 @@
 - (_Bool)Éé[w;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isLoading; // @synthesize isLoading=_isLoading;
 @property(retain, nonatomic) AMSMetrics *metricsController; // @synthesize metricsController=_metricsController;
-@property(nonatomic) _Bool shouldIgnoreDNU; // @synthesize shouldIgnoreDNU=_shouldIgnoreDNU;
-@property(nonatomic) _Bool shouldSuppressUserInfo; // @synthesize shouldSuppressUserInfo=_shouldSuppressUserInfo;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end
 

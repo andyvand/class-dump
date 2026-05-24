@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Z;
 - (void);
 - (id);
 - (void);

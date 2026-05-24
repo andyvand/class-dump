@@ -7,24 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceCanvasViewController
 {
     id $__lazy_storage_$_navigationItemManager;
-    id editor;
-    id $__lazy_storage_$_generator;
-    id $__lazy_storage_$_exporter;
-    id $__lazy_storage_$_sorter;
-    id styler;
-    id collectionView;
-    id $__lazy_storage_$_devicesBarButtonItem;
-    id $__lazy_storage_$_userInterfaceBarButtonItem;
-    id $__lazy_storage_$_interfaceLayoutDirectionBarButtonItem;
-    id $__lazy_storage_$_activateBarButtonItem;
-    id $__lazy_storage_$_snapshotExportBarButtonItem;
-    id $__lazy_storage_$_dimissBarButtonItem;
-    id $__lazy_storage_$_statusView;
-    id prewarmTask;
-    id exportTask;
-    id _selection;
-    id sections;
-    id workspace;
 }
 
 - (void);

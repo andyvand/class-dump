@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NTPBAVAsset, NTPBAVAssetKey, NTPBAppConfigurationResource, NTPBAsset, NTPBAudioPlaylistItem, NTPBCacheCoordinatorHints, NTPBDate, NTPBIssueReadingHistoryItem, NTPBNetworkSessionList, NTPBPersonalizationLocalData, NTPBPrivateDataControllerSyncState, NTPBReadingHistoryItem;
+@class NTPBAppConfigurationResource;
 
 @interface NTPBKeyValuePair
 {
     NTPBAppConfigurationResource *_appConfigurationResource;
-    NTPBAsset *_asset;
-    NTPBAudioPlaylistItem *_audioPlaylistItem;
-    NTPBAVAsset *_avAsset;
-    NTPBAVAssetKey *_avAssetKey;
-    NTPBCacheCoordinatorHints *_cacheCoordinatorHintsValue;
-    NSData *_dataValue;
-    NTPBDate *_dateValue;
-    NTPBIssueReadingHistoryItem *_issueReadingHistoryItem;
-    NSString *_key;
-    NTPBNetworkSessionList *_networkSessionList;
-    NTPBPersonalizationLocalData *_personalizationLocalData;
-    NTPBPrivateDataControllerSyncState *_privateDataControllerSyncState;
-    NTPBReadingHistoryItem *_readingHistoryItem;
-    NSData *_recordData;
-    NSString *_stringValue;
-    int _valueType;
-    struct {
-        unsigned int valueType:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -41,12 +22,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)setFurtherServiceDiscoveryRequired:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)p;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -57,8 +38,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)shouldFailOnMissingObjects;
+- (void)ata",R,N;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -69,64 +50,31 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id);
+- (void);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void)nt=dd}48@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
+- (void)_accessibilityHitTest:(id)arg1 withEvent: /* Error: Ran out of types for this method. */;
+- (void)ong);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool)_nonSelectedResultFeedIds;
 - (void)x9åÿ¹ÚBkÚ;
 - (id)i;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBAppConfigurationResource *appConfigurationResource; // @synthesize appConfigurationResource=_appConfigurationResource;
-@property(retain, nonatomic) NTPBAsset *asset; // @synthesize asset=_asset;
-@property(retain, nonatomic) NTPBAudioPlaylistItem *audioPlaylistItem; // @synthesize audioPlaylistItem=_audioPlaylistItem;
-@property(retain, nonatomic) NTPBAVAsset *avAsset; // @synthesize avAsset=_avAsset;
-@property(retain, nonatomic) NTPBAVAssetKey *avAssetKey; // @synthesize avAssetKey=_avAssetKey;
-@property(retain, nonatomic) NTPBCacheCoordinatorHints *cacheCoordinatorHintsValue; // @synthesize cacheCoordinatorHintsValue=_cacheCoordinatorHintsValue;
-@property(retain, nonatomic) NSData *dataValue; // @synthesize dataValue=_dataValue;
-@property(retain, nonatomic) NTPBDate *dateValue; // @synthesize dateValue=_dateValue;
-@property(readonly, nonatomic) _Bool hasAppConfigurationResource;
-@property(readonly, nonatomic) _Bool hasAsset;
-@property(readonly, nonatomic) _Bool hasAudioPlaylistItem;
-@property(readonly, nonatomic) _Bool hasAvAsset;
-@property(readonly, nonatomic) _Bool hasAvAssetKey;
-@property(readonly, nonatomic) _Bool hasCacheCoordinatorHintsValue;
-@property(readonly, nonatomic) _Bool hasDataValue;
-@property(readonly, nonatomic) _Bool hasDateValue;
-@property(readonly, nonatomic) _Bool hasIssueReadingHistoryItem;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasNetworkSessionList;
-@property(readonly, nonatomic) _Bool hasPersonalizationLocalData;
-@property(readonly, nonatomic) _Bool hasPrivateDataControllerSyncState;
-@property(readonly, nonatomic) _Bool hasReadingHistoryItem;
-@property(readonly, nonatomic) _Bool hasRecordData;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasValueType;
-@property(retain, nonatomic) NTPBIssueReadingHistoryItem *issueReadingHistoryItem; // @synthesize issueReadingHistoryItem=_issueReadingHistoryItem;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NTPBNetworkSessionList *networkSessionList; // @synthesize networkSessionList=_networkSessionList;
-@property(retain, nonatomic) NTPBPersonalizationLocalData *personalizationLocalData; // @synthesize personalizationLocalData=_personalizationLocalData;
-@property(retain, nonatomic) NTPBPrivateDataControllerSyncState *privateDataControllerSyncState; // @synthesize privateDataControllerSyncState=_privateDataControllerSyncState;
-@property(retain, nonatomic) NTPBReadingHistoryItem *readingHistoryItem; // @synthesize readingHistoryItem=_readingHistoryItem;
-@property(retain, nonatomic) NSData *recordData; // @synthesize recordData=_recordData;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) int valueType; // @synthesize valueType=_valueType;
 
 @end
 

@@ -16,8 +16,8 @@
 + (_Bool);
 + (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)C;
+- (id)__DATA_CONST;
 - (void);
 
 // Remaining properties

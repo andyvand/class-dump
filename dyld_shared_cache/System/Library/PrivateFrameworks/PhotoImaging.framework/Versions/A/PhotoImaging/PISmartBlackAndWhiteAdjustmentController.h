@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -28,11 +28,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) double grain;
-@property(nonatomic) double hue;
-@property(nonatomic) double neutral;
 @property(nonatomic) double strength;
-@property(nonatomic) double tone;
 
 @end
 

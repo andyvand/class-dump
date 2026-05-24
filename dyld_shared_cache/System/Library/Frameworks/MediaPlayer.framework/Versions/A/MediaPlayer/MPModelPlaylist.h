@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelCurator, NSDate, NSDateComponents, NSString, NSURL;
+@class NSString;
 
 @interface MPModelPlaylist : MPModelObject
 {
@@ -14,62 +14,6 @@
 
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSString *cloudVersionHash; // @dynamic cloudVersionHash;
-@property(copy, nonatomic) NSURL *collaborationInvitationURL; // @dynamic collaborationInvitationURL;
-@property(copy, nonatomic) NSDate *collaborationInvitationURLExpirationDate; // @dynamic collaborationInvitationURLExpirationDate;
-@property(nonatomic, getter=isCollaborationJoinRequestPending) _Bool collaborationJoinRequestIsPending; // @dynamic collaborationJoinRequestIsPending;
-@property(nonatomic) long long collaborationMode; // @dynamic collaborationMode;
-@property(nonatomic) long long collaborationSharingMode; // @dynamic collaborationSharingMode;
-@property(nonatomic, getter=isCollaborative) _Bool collaborative; // @dynamic collaborative;
-@property(nonatomic) unsigned long long collaboratorPermissions; // @dynamic collaboratorPermissions;
-@property(nonatomic) unsigned long long collaboratorStatus; // @dynamic collaboratorStatus;
-@property(copy, nonatomic) NSString *coverArtworkRecipe; // @dynamic coverArtworkRecipe;
-@property(copy, nonatomic) MPModelCurator *curator; // @dynamic curator;
-@property(nonatomic, getter=isCuratorPlaylist) _Bool curatorPlaylist; // @dynamic curatorPlaylist;
-@property(copy, nonatomic) NSDate *dateFavorited; // @dynamic dateFavorited;
-@property(copy, nonatomic) NSString *descriptionText; // @dynamic descriptionText;
-@property(copy, nonatomic) NSDate *downloadedDate; // @dynamic downloadedDate;
-@property(nonatomic) unsigned long long downloadedTrackCount; // @dynamic downloadedTrackCount;
-@property(copy, nonatomic) NSString *editSessionID; // @dynamic editSessionID;
-@property(copy, nonatomic) NSString *editorNotes; // @dynamic editorNotes;
-@property(copy, nonatomic) CDUnknownBlockType editorialArtworkCatalogBlock; // @dynamic editorialArtworkCatalogBlock;
-@property(readonly, nonatomic) _Bool favoriteSongsPlaylist;
-@property(nonatomic) _Bool hasAnyCleanDownloadedTracks; // @dynamic hasAnyCleanDownloadedTracks;
-@property(nonatomic) _Bool hasAnyCleanTracks; // @dynamic hasAnyCleanTracks;
-@property(nonatomic) _Bool hasCleanContent; // @dynamic hasCleanContent;
-@property(nonatomic) _Bool hasExplicitContent; // @dynamic hasExplicitContent;
-@property(nonatomic) _Bool isDisliked; // @dynamic isDisliked;
-@property(nonatomic) _Bool isFavorite; // @dynamic isFavorite;
-@property(nonatomic) _Bool isFavoriteSongsPlaylist; // @dynamic isFavoriteSongsPlaylist;
-@property(nonatomic) _Bool isPinned; // @dynamic isPinned;
-@property(nonatomic) unsigned long long keepLocalConstraints; // @dynamic keepLocalConstraints;
-@property(nonatomic) long long keepLocalEnableState; // @dynamic keepLocalEnableState;
-@property(nonatomic) long long keepLocalManagedStatus; // @dynamic keepLocalManagedStatus;
-@property(nonatomic) unsigned long long keepLocalManagedStatusReason; // @dynamic keepLocalManagedStatusReason;
-@property(copy, nonatomic) NSDate *lastDevicePlaybackDate; // @dynamic lastDevicePlaybackDate;
-@property(copy, nonatomic) NSDateComponents *lastModifiedDateComponents; // @dynamic lastModifiedDateComponents;
-@property(nonatomic, getter=isLibraryAdded) _Bool libraryAdded; // @dynamic libraryAdded;
-@property(copy, nonatomic) NSDate *libraryAddedDate; // @dynamic libraryAddedDate;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic, getter=isOwner) _Bool owner; // @dynamic owner;
-@property(nonatomic) unsigned long long parentPersistentID; // @dynamic parentPersistentID;
-@property(copy, nonatomic) CDUnknownBlockType portraitArtworkCatalogBlock; // @dynamic portraitArtworkCatalogBlock;
-@property(nonatomic, getter=isPublicPlaylist) _Bool publicPlaylist; // @dynamic publicPlaylist;
-@property(copy, nonatomic) NSDateComponents *releaseDateComponents; // @dynamic releaseDateComponents;
-@property(copy, nonatomic) NSURL *shareShortURL; // @dynamic shareShortURL;
-@property(copy, nonatomic) NSURL *shareURL; // @dynamic shareURL;
-@property(copy, nonatomic) NSString *shortEditorNotes; // @dynamic shortEditorNotes;
-@property(copy, nonatomic) CDUnknownBlockType staticTallEditorialArtworkCatalogBlock; // @dynamic staticTallEditorialArtworkCatalogBlock;
-@property(nonatomic, getter=isStoreRedownloadable) _Bool storeRedownloadable; // @dynamic storeRedownloadable;
-@property(nonatomic, getter=isSubscribed) _Bool subscribed; // @dynamic subscribed;
-@property(copy, nonatomic) CDUnknownBlockType superHeroTallEditorialArtworkCatalogBlock; // @dynamic superHeroTallEditorialArtworkCatalogBlock;
-@property(copy, nonatomic) CDUnknownBlockType tiledArtworkCatalogBlock; // @dynamic tiledArtworkCatalogBlock;
-@property(nonatomic) unsigned long long trackCount; // @dynamic trackCount;
-@property(nonatomic) unsigned long long traits; // @dynamic traits;
-@property(nonatomic) long long type; // @dynamic type;
-@property(nonatomic) long long userEditableComponents; // @dynamic userEditableComponents;
-@property(copy, nonatomic) NSString *versionHash; // @dynamic versionHash;
-@property(nonatomic, getter=isVisiblePlaylist) _Bool visiblePlaylist; // @dynamic visiblePlaylist;
 @end
 

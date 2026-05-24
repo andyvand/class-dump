@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableSet, NSTimer;
-
 @interface GEOTransitRouteUpdateRequester
 {
     struct os_unfair_lock_s _updatersLock;
-    NSHashTable *_updaters;
-    struct os_unfair_lock_s _processedRequestsLock;
-    NSMutableSet *_processedRequests;
-    struct os_unfair_lock_s _inflightRequestsLock;
-    NSMutableSet *_inflightRequests;
-    NSTimer *_updateTimer;
-    unsigned long long _maxRetries;
-    unsigned long long _numRetries;
-    double _initialDelay;
-    double _requestInterval;
 }
 
 + (id)ò|7;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)contacts.use-remote-persistence;
+- (void)wallpaper;
+- (void)NAccountDescription>"8;
+- (id)i;
+- (void)tringForIndexing;
+- (void)@"ABCDUnknownProperty"8;
 - (void);
 - (void);
 - (void);
@@ -45,9 +33,6 @@
 
 // Remaining properties
 @property(nonatomic) double initialDelay; // @synthesize initialDelay=_initialDelay;
-@property(readonly, nonatomic) NSMutableSet *processedRequests; // @synthesize processedRequests=_processedRequests;
-@property(nonatomic) double requestInterval; // @synthesize requestInterval=_requestInterval;
-@property(readonly, nonatomic) NSHashTable *updaters; // @synthesize updaters=_updaters;
 
 @end
 

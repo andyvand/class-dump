@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIBackdropViewSettings, _UIVisualEffectConfig;
+@class _UIBackdropViewSettings;
 
 @interface UIVisualEffect
 {
 }
 
+- (_Bool)ot enabled for message %@;
+- (id)ning early.;
 - (_Bool);
-- (id);
-- (_Bool);
-- (long long);
+- (long long)kMDSStoreUUID;
 - (void);
 - (id);
-- (id);
+- (id)copyByRemovingStaticEntities;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)ageDidRender: /* Error: Ran out of types for this method. */;
-- (void)y;
-- (_Bool)sentationContext;
-- (id)s:(struct _NSZone *)arg1;
-- (void)rdSyntheticTouch;
+- (id)pageDidRender: /* Error: Ran out of types for this method. */;
+- (void)legacyAnimationCopy;
+- (_Bool)_defaultScenePresentationContext;
+- (id)_recreatePatternColorForBounds:(struct _NSZone *)arg1;
+- (void)UIKeyboardSyntheticTouch;
 - (_Bool)ewControllerAdaptiveImpl setMinimumSecondaryColumnWidth:(id)arg1 ];
 - (id)ÿ/@Øþ_d;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _isATVStyle;
-@property(readonly, nonatomic) _Bool _isAutomaticStyle;
-@property(readonly, nonatomic) _UIVisualEffectConfig *effectConfig;
 @property(readonly, nonatomic) _UIBackdropViewSettings *effectSettings;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SLDataTimelineSnapshotCollection
@@ -12,27 +12,21 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_snapshotsArray;
 }
 
-+ (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (double);
-- (unsigned long long);
-- (double);
-- (unsigned long long);
-- (void);
-- (id);
++ (id)_free %lld;
+- (id)recordName;
+- (void)changeTokenBytes;
+- (id)importDate;
+- (unsigned long long)NSCKImportPendingRelationship;
+- (double)ZTIMESTAMP FLOAT;
+- (unsigned long long)TRANSACTION';
+- (double)er where name = 'ZCHANGE';
+- (unsigned long long)ZTRANSACTION;
+- (void)AR;
+- (id)SPersistentHistoryBatchDeleteUpdateTrigger(Z_ENT, '%@'));
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long newestSnapshotIndex;
-@property(readonly, nonatomic) double newestSnapshotTimestamp;
-@property(readonly, nonatomic) unsigned long long oldestSnapshotIndex;
-@property(readonly, nonatomic) double oldestSnapshotTimestamp;
-@property(readonly, nonatomic) unsigned long long snapshotCount;
-@property(readonly, nonatomic) NSArray *snapshots;
 @property(readonly, nonatomic) NSMutableArray *snapshotsArray; // @synthesize snapshotsArray=_snapshotsArray;
 
 @end

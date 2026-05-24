@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (void)ode;
+- (_Bool)@0:8@16@24@32q40@48@56@64 /* Error: Ran out of types for this method. */;
+- (id)rCookies;
+- (void)NSEventTrackingRunLoopMode;
 
 @end
 

@@ -11,21 +11,20 @@
 @interface ML3PersistentIDsPredicate : ML3Predicate
 {
     NSArray *_persistentIDs;
-    _Bool _shouldContain;
 }
 
-+ (id);
-+ (id);
++ (id)initWithOffset:(id)arg1;
++ (id)fetch internal resources for metadata overflow:(const long long *)arg1 %@;
 + (_Bool);
-- (id);
+- (id)pe;
+- (_Bool);
+- (void);
+- (id)l (Promote From Placeholder);
+- (unsigned long long);;
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (void)OrderedSet:(id)arg1;
+- (void)initWithOrderedSet:(id)arg1;
 - (void)container JOIN container_items USING (container_pid) WHERE distinguished_kind = 0 AND smart_criteria IS NULL AND is_hidden = 0 AND LENGTH(item_pid_data) > 0 AND cloud_is_subscribed = 0 AND cloud_is_curator_playlist = 0;
 
 // Remaining properties

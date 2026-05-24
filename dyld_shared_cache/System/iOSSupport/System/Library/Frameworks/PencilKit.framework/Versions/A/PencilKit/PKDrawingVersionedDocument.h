@@ -11,8 +11,6 @@
 @interface PKDrawingVersionedDocument : PKVersionedDocument
 {
     _Bool _loadNonInkingStrokes;
-    PKDrawingConcrete *_drawing;
-    Class _drawingClass;
 }
 
 + (unsigned int);
@@ -24,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)3;
 - (Class);
 - (void);
 - (id);
@@ -34,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKDrawingConcrete *drawing; // @synthesize drawing=_drawing;
-@property(retain, nonatomic) Class drawingClass; // @synthesize drawingClass=_drawingClass;
-@property(nonatomic) _Bool loadNonInkingStrokes; // @synthesize loadNonInkingStrokes=_loadNonInkingStrokes;
 
 @end
 

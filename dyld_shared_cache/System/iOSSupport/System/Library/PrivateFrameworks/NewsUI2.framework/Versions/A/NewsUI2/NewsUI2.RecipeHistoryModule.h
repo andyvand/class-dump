@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeHistoryModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

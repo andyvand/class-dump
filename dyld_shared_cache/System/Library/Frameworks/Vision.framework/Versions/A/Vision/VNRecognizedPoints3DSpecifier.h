@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, VNRequestSpecifier;
+@class VNRequestSpecifier;
 
 __attribute__((visibility("hidden")))
 @interface VNRecognizedPoints3DSpecifier
 {
     VNRequestSpecifier *_originatingRequestSpecifier;
-    NSDictionary *_allRecognizedPoints;
 }
 
 + (_Bool);
@@ -18,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)#;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)fp_transformArgumentAtIndex:(id)arg1 withBlock: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);

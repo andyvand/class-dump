@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol NSFileProviderTestingContentFetch
-- (NSString *)lags;
+- (NSString *)ModifyFlags;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *itemIdentifier;
 @property(readonly, nonatomic) unsigned long long side;
 @end
 

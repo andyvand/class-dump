@@ -5,5 +5,6 @@
 //
 
 @protocol PKStrokeSpatialCacheDelegate
+- (void);
 @end
 

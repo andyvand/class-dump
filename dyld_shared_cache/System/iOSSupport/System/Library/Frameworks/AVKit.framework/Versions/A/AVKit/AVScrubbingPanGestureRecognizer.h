@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPanGestureIncrement, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVScrubbingPanGestureRecognizer
 {
     NSMutableArray *_candidateGestureIncrements;
-    AVPanGestureIncrement *_lastPanGestureIncrement;
 }
 
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 - (struct CGPoint);
 - (void);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint translation;
-@property(readonly, nonatomic) struct CGPoint velocity;
 
 @end
 

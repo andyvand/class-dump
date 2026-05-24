@@ -11,7 +11,6 @@
 @interface PETEventStringValuedProperty : PETEventProperty
 {
     NSSet *_possibleValues;
-    _Bool _autoSanitizeValues;
 }
 
 - (id);
@@ -21,7 +20,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 @end
 

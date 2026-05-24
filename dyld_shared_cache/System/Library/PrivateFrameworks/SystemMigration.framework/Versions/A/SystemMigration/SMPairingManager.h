@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString, SMBluetoothServer, SMPairingCode, SMSystem_Daemon_Network;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, SMPairingEventsListener;
+@protocol SMPairingEventsListener;
 
 @interface SMPairingManager
 {
     _Bool _bluetoothReady;
-    _Bool _started;
-    id <SMPairingEventsListener> _delegate;
-    NSObject<OS_dispatch_semaphore> *_bluetoothReadySemaphore;
-    SMBluetoothServer *_bluetoothServer;
-    NSData *_remoteCertificateData;
-    unsigned long long _requestedDaemonScannerState;
-    SMPairingCode *_pairingCode;
-    SMSystem_Daemon_Network *_currentSystem;
-    NSObject<OS_dispatch_queue> *_pairingQueue;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -31,8 +21,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)C;
+- (void)`B;
 - (void);
 - (void);
 - (void);
@@ -49,7 +39,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,27 +54,11 @@
 - (void)!ØFùÑ	°1Â0@ù
 × ;
 - (_Bool);
-- (void)sing: /* Error: Ran out of types for this method. */;
-- (void)tringByAppendingPathExtension: /* Error: Ran out of types for this method. */;
+- (void)startAdvertising: /* Error: Ran out of types for this method. */;
+- (void)stringByAppendingPathExtension: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool bluetoothReady; // @synthesize bluetoothReady=_bluetoothReady;
-@property(retain) NSObject<OS_dispatch_semaphore> *bluetoothReadySemaphore; // @synthesize bluetoothReadySemaphore=_bluetoothReadySemaphore;
-@property(retain) SMBluetoothServer *bluetoothServer; // @synthesize bluetoothServer=_bluetoothServer;
-@property(retain) SMSystem_Daemon_Network *currentSystem; // @synthesize currentSystem=_currentSystem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <SMPairingEventsListener> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) SMPairingCode *pairingCode; // @synthesize pairingCode=_pairingCode;
-@property(retain) NSObject<OS_dispatch_queue> *pairingQueue; // @synthesize pairingQueue=_pairingQueue;
-@property(retain) NSData *remoteCertificateData; // @synthesize remoteCertificateData=_remoteCertificateData;
-@property unsigned long long requestedDaemonScannerState; // @synthesize requestedDaemonScannerState=_requestedDaemonScannerState;
-@property _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
 
 @end
 

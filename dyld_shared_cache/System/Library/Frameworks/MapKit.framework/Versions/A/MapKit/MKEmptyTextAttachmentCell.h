@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     double _width;
 }
 
-- (struct CGSize);
+- (struct CGSize)avatarRecord:%@, poseName:%@, pose:%@ :received nil argument /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

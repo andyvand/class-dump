@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, PKXPCService;
-@protocol OS_dispatch_queue;
+@class PKXPCService;
 
 @interface PKDiscoveryService
 {
     PKXPCService *_remoteService;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    NSHashTable *_observers;
-    struct os_unfair_lock_s _observersLock;
 }
 
 + (id);
@@ -20,37 +16,38 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (void)A;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)T)@9?;
+- (void)T);
+- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)
+kB;
 - (void);
 - (void);
 - (void);
@@ -58,8 +55,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)maxAspectRatio: /* Error: Ran out of types for this method. */;
+- (void)_netscoreHealthAfterDecision;
+- (id)constraintsWithMinSize:minAspectRatio:maxAspectRatio: /* Error: Ran out of types for this method. */;
 - (void)e:(id)arg1 %s;
 - (void)aEvent:]_block_invoke_3 /* Error: Ran out of types for this method. */;
 

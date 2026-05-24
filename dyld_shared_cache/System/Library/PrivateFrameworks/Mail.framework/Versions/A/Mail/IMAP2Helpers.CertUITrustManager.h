@@ -7,8 +7,6 @@
 @interface IMAP2Helpers.CertUITrustManager
 {
     id underlying;
-    id _rawTrust;
-    id _allow;
 }
 
 - (unsigned int);

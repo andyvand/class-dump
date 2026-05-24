@@ -5,31 +5,25 @@
 //
 
 @class AVWeakReference;
-@protocol AVAssetWriterFigAssetWriterNotificationHandlerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterFigAssetWriterNotificationHandler
 {
     struct OpaqueFigAssetWriter *_figAssetWriter;
-    int _didNotCallDelegate;
-    AVWeakReference *_weakReferenceToSelf;
-    AVWeakReference *_weakReferenceToDelegate;
-    int _notificationHandlersAreRegistered;
 }
 
-- (id);
+- (id)9(;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)c;
+- (id)&;
+- (void)__objc_protorefs__DATA_CONST;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak id <AVAssetWriterFigAssetWriterNotificationHandlerDelegate> delegate;
 @property(retain, getter=_weakReferenceToDelegate, setter=_setWeakReferenceToDelegate:) AVWeakReference *weakReferenceToDelegate; // @synthesize weakReferenceToDelegate=_weakReferenceToDelegate;
 
 @end

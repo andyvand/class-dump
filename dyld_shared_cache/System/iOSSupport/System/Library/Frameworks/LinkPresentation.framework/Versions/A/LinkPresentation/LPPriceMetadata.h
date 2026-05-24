@@ -9,7 +9,6 @@
 @interface LPPriceMetadata
 {
     NSString *_amount;
-    NSString *_currency;
 }
 
 + (_Bool);
@@ -22,14 +21,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
 
 @end
 

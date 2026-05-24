@@ -9,8 +9,6 @@
 @interface AFSpeechAudioAnalytics
 {
     NSDictionary *_speechRecognitionFeatures;
-    NSDictionary *_acousticFeatures;
-    double _snr;
 }
 
 + (_Bool);
@@ -25,8 +23,6 @@
 - (void)PersistentAcrossInvocations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *acousticFeatures; // @synthesize acousticFeatures=_acousticFeatures;
-@property(readonly, nonatomic) double snr; // @synthesize snr=_snr;
 @property(readonly, nonatomic) NSDictionary *speechRecognitionFeatures; // @synthesize speechRecognitionFeatures=_speechRecognitionFeatures;
 
 @end

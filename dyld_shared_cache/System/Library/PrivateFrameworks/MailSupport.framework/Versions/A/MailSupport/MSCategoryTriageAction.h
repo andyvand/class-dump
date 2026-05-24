@@ -9,7 +9,6 @@
 @interface MSCategoryTriageAction : MSTriageAction
 {
     unsigned long long _categoryType;
-    unsigned long long _changeOptions;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long categoryType; // @synthesize categoryType=_categoryType;
-@property(readonly, nonatomic) unsigned long long changeOptions; // @synthesize changeOptions=_changeOptions;
 
 @end
 

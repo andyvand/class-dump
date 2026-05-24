@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorSMSCTPartAttachment, BlastDoorSMSCTPartAttributedChipList, BlastDoorSMSCTPartAttributedRichCards, BlastDoorSMSCTPartPlain, BlastDoorSMSCTPartSMIL, NSString;
+@class NSString;
 
 @interface BlastDoorSMSCTPartContentWrapper
 {
@@ -16,19 +16,13 @@
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)connectedDeviceNamesThatMayBeDenylisted;
 - (void)S;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorSMSCTPartAttachment *attachment;
-@property(nonatomic, readonly) BlastDoorSMSCTPartAttributedChipList *attributedChipList;
-@property(nonatomic, readonly) BlastDoorSMSCTPartAttributedRichCards *attributedRichCards;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorSMSCTPartPlain *plain;
-@property(nonatomic, readonly) BlastDoorSMSCTPartSMIL *smil;
-@property(nonatomic, readonly) unsigned long long type;
 
 @end
 

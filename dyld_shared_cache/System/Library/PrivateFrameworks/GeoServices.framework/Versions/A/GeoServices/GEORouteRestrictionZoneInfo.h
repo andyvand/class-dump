@@ -9,13 +9,12 @@
 @interface GEORouteRestrictionZoneInfo
 {
     NSArray *_zoneIDs;
-    int _restrictionZoneImpact;
 }
 
 + (_Bool)ilding geometry route. The number of paths in `rawRouteGeometry` (%d) must be equal to the number of `destinations` (%d) (Or `destinations` should be set to nil).;
 - (int);
-- (id);
-- (id);
+- (id)numberWithInteger:(id)arg1;
+- (id)nts_HasChangedProperties;
 - (id);
 - (id);
 - (void);
@@ -23,7 +22,6 @@
 - (void)þ°VíP@;
 
 // Remaining properties
-@property(readonly, nonatomic) int restrictionZoneImpact; // @synthesize restrictionZoneImpact=_restrictionZoneImpact;
 @property(readonly, nonatomic) NSArray *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end

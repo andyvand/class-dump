@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOperationQueue, NSString, WBSBrowserTabCompletionInfo;
-@protocol WBSBrowserTabCompletionProviderDelegate, WBSBrowserTabCompletionProviderSource;
+@class NSOperationQueue;
+@protocol WBSBrowserTabCompletionProviderSource;
 
 @interface WBSBrowserTabCompletionProvider
 {
     NSOperationQueue *_queue;
-    NSArray *_tabInfos;
-    WBSBrowserTabCompletionInfo *_selectedTabInfo;
-    id <WBSBrowserTabCompletionProviderSource> _dataSource;
-    id <WBSBrowserTabCompletionProviderDelegate> _delegate;
-    NSString *_currentQuery;
-    NSArray *_currentTabCompletionMatches;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)f;
 - (id);
 - (id);
 - (id);
@@ -40,11 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *currentQuery; // @synthesize currentQuery=_currentQuery;
-@property(readonly, copy, nonatomic) NSArray *currentTabCompletionMatches; // @synthesize currentTabCompletionMatches=_currentTabCompletionMatches;
 @property(nonatomic) __weak id <WBSBrowserTabCompletionProviderSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <WBSBrowserTabCompletionProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSArray *tabInfos;
 
 @end
 

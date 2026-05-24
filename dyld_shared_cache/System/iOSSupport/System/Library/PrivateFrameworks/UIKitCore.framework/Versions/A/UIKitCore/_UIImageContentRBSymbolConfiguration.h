@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUINamedVectorGlyph, NSSet;
+@class CUINamedVectorGlyph;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageContentRBSymbolConfiguration
 {
     unsigned int _renderingMode;
-    unsigned int _renderingOptions;
-    CUINamedVectorGlyph *_vectorGlyph;
-    NSSet *_knownSymbolStyles;
-    CDUnknownBlockType _styleResolver;
-    double _variableValue;
 }
 
 - (void);
-- (id);
+- (id)oggedOutOfIMessage: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (unsigned int);
-- (void);
-- (void);
+- (void);
+- (void)H;
 - (void);
 - (void);
 - (unsigned int);
 - (id);
 - (id)1Â0@ù
 × ;
-- (double);
+- (double)_presentViewController:animated:completion: /* Error: Ran out of types for this method. */;
 - (void)setTrailingBar:(unsigned int)arg1;
 - (void)¥Ò4[;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *knownSymbolStyles; // @synthesize knownSymbolStyles=_knownSymbolStyles;
-@property(nonatomic) unsigned int renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(nonatomic) unsigned int renderingOptions; // @synthesize renderingOptions=_renderingOptions;
-@property(copy, nonatomic) CDUnknownBlockType styleResolver; // @synthesize styleResolver=_styleResolver;
-@property(nonatomic) double variableValue; // @synthesize variableValue=_variableValue;
 @property(nonatomic) __weak CUINamedVectorGlyph *vectorGlyph; // @synthesize vectorGlyph=_vectorGlyph;
 
 @end

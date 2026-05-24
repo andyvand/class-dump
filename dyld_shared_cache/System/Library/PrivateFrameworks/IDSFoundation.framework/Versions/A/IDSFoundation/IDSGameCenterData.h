@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface IDSGameCenterData
 {
     NSString *_contactsAssociationID;
-    NSNumber *_contactsSharingState;
-    NSDate *_contactsLastUpdatedDate;
 }
 
 + (_Bool);
@@ -25,14 +23,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void)ssing;
+- (_Bool)handleIncomingRFCOMMChannelOpened:(id)arg1 channel: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)IDSFirstUnlockBatchProcessing;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contactsAssociationID; // @synthesize contactsAssociationID=_contactsAssociationID;
-@property(retain, nonatomic) NSDate *contactsLastUpdatedDate; // @synthesize contactsLastUpdatedDate=_contactsLastUpdatedDate;
-@property(retain, nonatomic) NSNumber *contactsSharingState; // @synthesize contactsSharingState=_contactsSharingState;
 
 @end
 

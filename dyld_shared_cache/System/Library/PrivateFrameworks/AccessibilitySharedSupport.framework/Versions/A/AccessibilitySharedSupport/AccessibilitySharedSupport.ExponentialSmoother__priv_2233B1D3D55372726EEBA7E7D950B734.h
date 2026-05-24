@@ -7,7 +7,6 @@
 @interface AccessibilitySharedSupport.ExponentialSmoother__priv_2233B1D3D55372726EEBA7E7D950B734
 {
     id alpha;
-    id state;
 }
 
 @end

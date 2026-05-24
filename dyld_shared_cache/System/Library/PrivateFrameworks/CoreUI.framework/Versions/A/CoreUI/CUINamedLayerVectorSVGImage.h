@@ -6,16 +6,9 @@
 
 #import <CoreUI/CUINamedVectorSVGImage.h>
 
-@class CUINamedGradient, NSString;
-
 @interface CUINamedLayerVectorSVGImage : CUINamedVectorSVGImage
 {
     struct CGRect _frame;
-    double _opacity;
-    int _blendMode;
-    double _blurStrength;
-    NSString *_gradientOrColorName;
-    _Bool _hasLightingEffects;
 }
 
 - (void);
@@ -23,17 +16,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (double);
+- (double)i;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)model at %@ with error:(struct CGRect)arg1 %@;
 - (void);
-- (void);
-- (int);
+- (int)isCStyleIdentifier;
 - (id);
 - (struct CGColor *);
 - (struct CGRect);
@@ -42,17 +35,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)NSViewBridgeErrorServiceViewControllerDisallowedSnapshot;
 
 // Remaining properties
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(nonatomic) double blurStrength; // @synthesize blurStrength=_blurStrength;
-@property(readonly, nonatomic) struct CGColor *color;
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) CUINamedGradient *gradient;
-@property(copy, nonatomic) NSString *gradientOrColorName; // @synthesize gradientOrColorName=_gradientOrColorName;
-@property(nonatomic) _Bool hasLightingEffects; // @synthesize hasLightingEffects=_hasLightingEffects;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
 
 @end
 

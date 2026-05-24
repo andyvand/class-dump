@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface IMPersistentMenu
 {
     long long level;
-    void displayText;
-    void items;
 }
 
-+ (id);
++ (id)@;
 + (id);
 + (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ssbook.payment.continuity.received.payment.fail;
 - (long long);
 - (_Bool);
 - (id);
@@ -30,9 +26,6 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *displayText;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSArray *items;
 @property(nonatomic, readonly) long long level; // @synthesize level;
 
 @end

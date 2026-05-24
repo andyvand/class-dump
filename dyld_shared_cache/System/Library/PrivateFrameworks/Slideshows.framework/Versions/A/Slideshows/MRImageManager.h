@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContext, NSMutableDictionary, NSMutableSet, NSOperationQueue, NSString;
+@class MRContext;
 
 @interface MRImageManager
 {
     MRContext *mBaseContext;
-    struct _CGLContextObject *mImageGLContext;
-    NSMutableDictionary *mTextures;
-    NSMutableSet *mAvailableTextures;
-    NSMutableSet *mRecyclableTextures;
-    NSOperationQueue *mImageCacheQueue;
-    NSString *mOptimizedPicturesFolderPath;
-    NSMutableDictionary *_assetMasters;
 }
 
 + (void);
 + (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct _CGLContextObject *);
-- (id);
+- (id)__DATA;
+- (id)setEndpointConnection:(id)arg1;
+- (id)setBackgroundSessionQueue:(id)arg1;
+- (id)setBackgroundSessionLaunchEventCounter:(struct CGSize)arg1;
+- (id)sessionWithConfiguration:(struct CGContext *)arg1 delegate:delegateQueue: /* Error: Ran out of types for this method. */;
+- (id)49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsUploadScheduler.m;
+- (struct _CGLContextObject *)son:withError:] /* Error: Ran out of types for this method. */;
+- (id)rServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsPayloadUploader.m;
 - (struct _CGLPixelFormatObject *);
 - (id);
 - (id);
@@ -44,8 +37,6 @@
 
 // Remaining properties
 @property(readonly) MRContext *baseContext; // @synthesize baseContext=mBaseContext;
-@property(readonly) struct _CGLPixelFormatObject *cglPixelFormat;
-@property(readonly) struct _CGLContextObject *imageGLContext; // @synthesize imageGLContext=mImageGLContext;
 
 @end
 

@@ -4,57 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTKTextureLoader, NSMutableArray, SCNMTLBufferAllocator, SCNMTLLibraryManager, SCNMTLShadableKey, SCNMTLShaderBindingsGenerator;
-@protocol MTLCommandQueue, MTLDepthStencilState, MTLDevice, MTLTexture;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface SCNMTLResourceManager
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    struct __C3DEngineStats *__engineStats;
-    SCNMTLLibraryManager *_libraryManager;
-    SCNMTLShaderBindingsGenerator *_bindingsGenerator;
-    struct __CFDictionary *_availablePipelineStates;
-    struct os_unfair_lock_s _availablePipelineStatesLock;
-    SCNMTLBufferAllocator *_commonProfileBuffersAllocator;
-    CDStruct_670bd187 _availableLightingSystemReflectionProbeTextures;
-    CDStruct_670bd187 _availableIrradianceTextures;
-    CDStruct_670bd187 _availableRadianceTextures;
-    CDStruct_670bd187 _availableImages;
-    CDStruct_670bd187 _availableImageProxy;
-    CDStruct_670bd187 _availableSamplers;
-    CDStruct_670bd187 _availableIESTextures;
-    CDStruct_670bd187 _availableBuffers;
-    CDStruct_670bd187 _availableMeshes;
-    CDStruct_670bd187 _availableMeshSources;
-    CDStruct_670bd187 _availableMeshElements;
-    CDStruct_670bd187 _availableRasterizerStates;
-    CDStruct_670bd187 _availableDeformerStacks;
-    CDStruct_670bd187 _availableSkinDeformerReadOnlyBuffers;
-    CDStruct_670bd187 _availableMorphDeformerReadOnlyBuffers;
-    CDStruct_670bd187 _availableComputePipelines;
-    CDStruct_670bd187 _availableComputePipelinesWithStageDescriptor;
-    CDStruct_670bd187 _availableColorMatchingComputePipelines;
-    CDStruct_670bd187 _availableTessellators;
-    CDStruct_670bd187 _availableWireframeMaterials;
-    CDStruct_670bd187 _availableOpenSubdivComputeEvaluators;
-    CDStruct_670bd187 _availableShadables;
-    SCNMTLShadableKey *_availableShadablesSearchKey;
-    NSMutableArray *_availableStageDescriptors;
-    struct os_unfair_lock_s _stageDescriptorsLock;
-    id <MTLTexture> _areaLightPrecomputedDataTexture;
-    id <MTLTexture> _specularDFGDiffuseHammonTexture;
-    struct __C3DFXMetalProgram *_defaultProgram;
-    struct __C3DFXMetalProgram *_defaultProgramForTessellation;
-    struct __C3DFXMetalProgram *_isolateProgram;
-    id <MTLDepthStencilState> _depthAndStencilStateWithReadWriteDepthDisabled;
-    id <MTLTexture> _defaultTexture;
-    id <MTLTexture> _defaultTexture3D;
-    id <MTLTexture> _defaultCubeTexture;
-    id <MTLTexture> _defaultLightingEnvironmentIrradianceTexture;
-    id <MTLTexture> _defaultLightingEnvironmentRadianceTexture;
-    MTKTextureLoader *_mtkTextureLoader;
 }
 
 + (void);
@@ -62,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -74,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
@@ -92,17 +47,17 @@ __attribute__((visibility("hidden")))
 - (struct __C3DFXMetalProgram *);
 - (id);
 - (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

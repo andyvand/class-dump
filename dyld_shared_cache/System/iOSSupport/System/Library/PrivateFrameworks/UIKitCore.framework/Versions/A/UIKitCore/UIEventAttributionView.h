@@ -10,12 +10,12 @@
 {
 }
 
-+ (void);
++ (void)IMDRelayChatValidationDisabled;
 + (id);
 + (void);
 - (void);
 - (id);
-- (void)tentFocusContainerGuide;
+- (void)_setUpContentFocusContainerGuide;
 - (void)Action;
 - (id)UIFluidParallaxTransitionSettings",N,R;
 - (void);

@@ -6,21 +6,16 @@
 
 #import <PassKitCore/PKPaymentBackgroundDownloadRecord.h>
 
-@class NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface PKPaymentRemoteAssetDownloadRecord : PKPaymentBackgroundDownloadRecord
 {
     NSURL *_passURL;
-    NSString *_pushTopic;
-    NSDictionary *_remoteAssetsByTaskIdentifier;
-    NSDictionary *_failedRequiredRemoteAssetDownloadsByTaskIdentifier;
-    NSDictionary *_remoteAssetsByRecordName;
-    NSDictionary *_failedRequiredRemoteAssetDownloadsByRecordName;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,18 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_missingPrekeys;
 - (void)¸pøÿ;
 - (void)s-location;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *failedRequiredRemoteAssetDownloadsByRecordName; // @synthesize failedRequiredRemoteAssetDownloadsByRecordName=_failedRequiredRemoteAssetDownloadsByRecordName;
-@property(readonly, nonatomic) NSDictionary *failedRequiredRemoteAssetDownloadsByTaskIdentifier; // @synthesize failedRequiredRemoteAssetDownloadsByTaskIdentifier=_failedRequiredRemoteAssetDownloadsByTaskIdentifier;
 @property(retain, nonatomic) NSURL *passURL; // @synthesize passURL=_passURL;
-@property(copy, nonatomic) NSString *pushTopic; // @synthesize pushTopic=_pushTopic;
-@property(readonly, nonatomic) NSDictionary *remoteAssetsByRecordName; // @synthesize remoteAssetsByRecordName=_remoteAssetsByRecordName;
-@property(readonly, nonatomic) NSDictionary *remoteAssetsByTaskIdentifier; // @synthesize remoteAssetsByTaskIdentifier=_remoteAssetsByTaskIdentifier;
 
 @end
 

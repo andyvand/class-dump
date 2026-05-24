@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TIAutocorrectionList, TICandidateRequestToken;
+
 @protocol TIKeyboardInputManagerToImplProtocol
-- (void)an;
+- (void)suggestionFromContactPriors:(TIAutocorrectionList *)arg1 priorScoreThreshold:(TICandidateRequestToken *)arg2 bundleID:reason: /* Error: Ran out of types for this method. */;
+- (void)crustacean;
 @end
 

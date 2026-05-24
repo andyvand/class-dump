@@ -8,6 +8,9 @@
 
 @protocol NSItemProviderWriting
 
+@optional
++ (long long);
+
 // Remaining properties
 @property(readonly, copy) NSArray *writableTypeIdentifiersForItemProvider;
 // Preceding property had unknown attributes: ?

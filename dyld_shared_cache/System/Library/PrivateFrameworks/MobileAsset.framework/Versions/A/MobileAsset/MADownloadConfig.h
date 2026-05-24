@@ -10,13 +10,13 @@
 }
 
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)receivePacket:(id)arg1 transport: /* Error: Ran out of types for this method. */;
+- (void)isIdentifierExternal;
 - (id);
 - (_Bool);
-- (void);
+- (void)P;
 - (id);
 - (void);
 

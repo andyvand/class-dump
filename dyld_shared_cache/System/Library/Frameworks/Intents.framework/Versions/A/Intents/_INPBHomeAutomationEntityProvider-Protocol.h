@@ -7,31 +7,24 @@
 @class NSArray, _INPBString;
 
 @protocol _INPBHomeAutomationEntityProvider
++ (Class);
++ (Class)#;
+- (unsigned long long)`;
+- (_INPBString *);
+- (void);
+- (void)T;
+- (void);
+- (_INPBString *)#;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_INPBString *);
+- (void);
+- (void)!k;
+- (_INPBString *);
+- (void)@;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accessoryNames;
-@property(readonly, nonatomic) unsigned long long accessoryNamesCount;
-@property(retain, nonatomic) _INPBString *destinationDeviceId;
-@property(readonly, nonatomic) _Bool hasDestinationDeviceId;
-@property(readonly, nonatomic) _Bool hasHomeName;
-@property(readonly, nonatomic) _Bool hasIntentDeviceQuantifier;
-@property(readonly, nonatomic) _Bool hasIntentDeviceType;
-@property(readonly, nonatomic) _Bool hasIntentPlaceHint;
-@property(readonly, nonatomic) _Bool hasIntentReference;
-@property(retain, nonatomic) _INPBString *homeName;
-@property(retain, nonatomic) _INPBString *intentDeviceQuantifier;
-@property(retain, nonatomic) _INPBString *intentDeviceType;
-@property(copy, nonatomic) NSArray *intentFromEntities;
-@property(readonly, nonatomic) unsigned long long intentFromEntitiesCount;
-@property(retain, nonatomic) _INPBString *intentPlaceHint;
-@property(retain, nonatomic) _INPBString *intentReference;
-@property(copy, nonatomic) NSArray *roomNames;
-@property(readonly, nonatomic) unsigned long long roomNamesCount;
-@property(copy, nonatomic) NSArray *serviceGroups;
-@property(readonly, nonatomic) unsigned long long serviceGroupsCount;
-@property(copy, nonatomic) NSArray *serviceNames;
-@property(readonly, nonatomic) unsigned long long serviceNamesCount;
-@property(copy, nonatomic) NSArray *zoneNames;
-@property(readonly, nonatomic) unsigned long long zoneNamesCount;
 @end
 

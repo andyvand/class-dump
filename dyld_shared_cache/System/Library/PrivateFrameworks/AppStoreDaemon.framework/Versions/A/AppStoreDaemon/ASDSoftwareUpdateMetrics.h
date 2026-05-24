@@ -9,8 +9,6 @@
 @interface ASDSoftwareUpdateMetrics
 {
     _Bool _usingModernUpdatesCheck;
-    NSDate *_lastUpdateCheck;
-    NSDate *_nextUpdateCheck;
 }
 
 + (_Bool);
@@ -20,13 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ng motion update;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *lastUpdateCheck; // @synthesize lastUpdateCheck=_lastUpdateCheck;
-@property(readonly, nonatomic) NSDate *nextUpdateCheck; // @synthesize nextUpdateCheck=_nextUpdateCheck;
-@property(readonly, nonatomic) _Bool usingModernUpdatesCheck; // @synthesize usingModernUpdatesCheck=_usingModernUpdatesCheck;
 
 @end
 

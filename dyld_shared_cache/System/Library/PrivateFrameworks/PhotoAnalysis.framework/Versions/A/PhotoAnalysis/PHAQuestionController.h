@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSUbiquitousKeyValueStore, PGManager, PGTrialSession;
-@protocol OS_os_log;
+@class PGManager;
 
 @interface PHAQuestionController
 {
     short _currentQuestionVersion;
-    PGManager *_graphManager;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGTrialSession *_trialSession;
-    NSMutableDictionary *_questionTypeImportanceByQuestionType;
-    unsigned long long _numberOfQuestionsGenerated;
-    NSUbiquitousKeyValueStore *_store;
 }
 
 - (id);
@@ -41,17 +34,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)hemeAssignments;
+- (void);
+- (void)clearThemeAssignments;
 - (id)e source;
 
 // Remaining properties
 @property(retain, nonatomic) PGManager *graphManager; // @synthesize graphManager=_graphManager;
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) unsigned long long numberOfQuestionsGenerated; // @synthesize numberOfQuestionsGenerated=_numberOfQuestionsGenerated;
-@property(retain, nonatomic) NSMutableDictionary *questionTypeImportanceByQuestionType; // @synthesize questionTypeImportanceByQuestionType=_questionTypeImportanceByQuestionType;
-@property(retain, nonatomic) NSUbiquitousKeyValueStore *store; // @synthesize store=_store;
-@property(retain, nonatomic) PGTrialSession *trialSession; // @synthesize trialSession=_trialSession;
 
 @end
 

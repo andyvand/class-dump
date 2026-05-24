@@ -14,11 +14,10 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long flagged;
 @property(retain, nonatomic) REMReminder *reminder; // @synthesize reminder=_reminder;
 
 @end

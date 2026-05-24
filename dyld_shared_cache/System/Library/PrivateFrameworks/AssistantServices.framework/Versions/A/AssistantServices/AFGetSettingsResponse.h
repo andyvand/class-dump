@@ -17,8 +17,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)ChangeReason;
+- (void)P;
+- (void)getChangeReason;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *settings; // @synthesize settings=_settings;

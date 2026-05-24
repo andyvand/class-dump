@@ -6,13 +6,11 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BMUserStatusChangeEvent : BMEventBase
 {
     NSString *_idsHandle;
-    NSString *_statusChangeType;
-    NSArray *_idsHandles;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)J!;
 - (id);
 - (id);
 - (id);
@@ -31,21 +29,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)olicy_stmt__free_unpacked;
+- (id)pg_query__create_policy_stmt__free_unpacked;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *idsHandle; // @synthesize idsHandle=_idsHandle;
-@property(copy, nonatomic) NSArray *idsHandles; // @synthesize idsHandles=_idsHandles;
-@property(copy, nonatomic) NSString *statusChangeType; // @synthesize statusChangeType=_statusChangeType;
-@property(readonly) Class superclass;
 
 @end
 

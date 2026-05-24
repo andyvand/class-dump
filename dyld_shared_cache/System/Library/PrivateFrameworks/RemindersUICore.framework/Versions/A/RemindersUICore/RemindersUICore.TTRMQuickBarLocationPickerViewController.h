@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMQuickBarLocationPickerViewController
 {
     id presenter;
-    id $__lazy_storage_$_pickerView;
-    id suggestionMenuUtils;
 }
 
 - (id);

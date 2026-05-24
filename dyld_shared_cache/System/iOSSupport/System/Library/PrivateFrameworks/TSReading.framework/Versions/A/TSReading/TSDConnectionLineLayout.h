@@ -9,10 +9,9 @@
 @interface TSDConnectionLineLayout : TSDConnectionLineAbstractLayout
 {
     double mStartClipT;
-    double mEndClipT;
 }
 
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (struct CGPoint);
 - (id);

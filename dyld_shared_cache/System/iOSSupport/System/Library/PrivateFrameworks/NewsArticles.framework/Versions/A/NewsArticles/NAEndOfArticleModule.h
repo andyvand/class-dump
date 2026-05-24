@@ -7,14 +7,11 @@
 @interface NAEndOfArticleModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
-    id feedDismissingManager;
 }
 
 - (id);
 - (id);
-- (void)eDelegate;
+- (void)pluggableDelegate;
 
 @end
 

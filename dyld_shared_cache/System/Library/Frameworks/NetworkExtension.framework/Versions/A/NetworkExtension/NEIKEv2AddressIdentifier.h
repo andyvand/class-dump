@@ -11,15 +11,14 @@
 @interface NEIKEv2AddressIdentifier : NEIKEv2Identifier
 {
     unsigned long long _identifierType;
-    NWAddressEndpoint *_address;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
+- (id)requestNWConnectionforIDSGroupSessionUnicastParameter:(id)arg1;
 - (id);
-- (id);
-- (void)OffloadEnabled: /* Error: Ran out of types for this method. */;
+- (void)setNatTraversalKeepaliveOffloadEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NWAddressEndpoint *address; // @synthesize address=_address;

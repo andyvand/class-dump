@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBContact, _INPBDateTimeRange, _INPBIntentMetadata;
+@class _INPBContact, _INPBDateTimeRange;
 
 @protocol _INPBSearchCallHistoryIntent
-- (_Bool)onStatus;
+- (_Bool);
+- (void)";
+- (_Bool)#;
+- (int);
+- (void)_sendPendingBatches;
+- (_INPBContact *)QLIncrementalThumbnailGenerationHandler;
+- (_INPBDateTimeRange *);
+- (_Bool)hasReservationStatus;
 
 // Remaining properties
 @property(readonly, nonatomic) int *callCapabilities;
-@property(readonly, nonatomic) unsigned long long callCapabilitiesCount;
-@property(nonatomic) int callType;
-@property(readonly, nonatomic) int *callTypes;
-@property(readonly, nonatomic) unsigned long long callTypesCount;
-@property(readonly, nonatomic) int *capabilities;
-@property(readonly, nonatomic) unsigned long long capabilitiesCount;
-@property(retain, nonatomic) _INPBDateTimeRange *dateCreated;
-@property(nonatomic) _Bool hasCallType;
-@property(readonly, nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPreferredCallProvider;
-@property(readonly, nonatomic) _Bool hasRecipient;
-@property(readonly, nonatomic) _Bool hasTargetContact;
-@property(nonatomic) _Bool hasUnseen;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int preferredCallProvider;
-@property(retain, nonatomic) _INPBContact *recipient;
-@property(retain, nonatomic) _INPBContact *targetContact;
-@property(nonatomic) _Bool unseen;
 @end
 

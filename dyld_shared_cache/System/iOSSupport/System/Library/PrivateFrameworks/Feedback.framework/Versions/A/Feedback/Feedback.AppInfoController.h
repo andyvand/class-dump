@@ -8,7 +8,6 @@
 {
     id _data;
     id _bundleID;
-    id _$observationRegistrar;
 }
 
 @end

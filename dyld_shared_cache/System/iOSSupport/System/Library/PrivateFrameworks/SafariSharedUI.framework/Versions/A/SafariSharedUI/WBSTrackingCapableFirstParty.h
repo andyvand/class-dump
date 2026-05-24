@@ -12,11 +12,11 @@
 }
 
 - (id);
-- (id);
-- (unsigned long long);
+- (id)requestAuthorizationWithOptions:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)AND last_addressed_sim_id = ?;;
 - (_Bool);
 - (id);
-- (void)xperimentalFeature: /* Error: Ran out of types for this method. */;
+- (void)safari_keyForWebKitExperimentalFeature: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;

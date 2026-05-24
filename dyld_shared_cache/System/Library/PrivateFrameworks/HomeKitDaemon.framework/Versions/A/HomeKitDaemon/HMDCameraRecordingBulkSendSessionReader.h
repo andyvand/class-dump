@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDataStreamFragmentAssembler, HMFTimer, NSObject, NSString;
-@protocol HMDCameraRecordingBulkSendSessionReaderDelegate, HMDDataStreamBulkSendSession, OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingBulkSendSessionReader
 {
     NSString *_logIdentifier;
-    id <HMDDataStreamBulkSendSession> _session;
-    id <HMDCameraRecordingBulkSendSessionReaderDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFTimer *_readCallbackTimer;
-    HMDDataStreamFragmentAssembler *_fragmentChunkAssembler;
 }
 
 + (id)G;
 - (id);
-- (id);
+- (id);
 - (void);
+- (id)a;
+- (void)A;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id)0@ù
 × ;
 - (void)tþÿ9þÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraRecordingBulkSendSessionReaderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) id <HMDDataStreamBulkSendSession> session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

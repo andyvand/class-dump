@@ -7,7 +7,6 @@
 @interface IMSharedUtilities.IntentClientRequestAdapter
 {
     id safeRenderProvider;
-    id chatContactsProvider;
 }
 
 @end

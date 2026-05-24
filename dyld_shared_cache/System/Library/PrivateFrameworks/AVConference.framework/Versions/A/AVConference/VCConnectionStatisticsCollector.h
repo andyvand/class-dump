@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_source;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCConnectionStatisticsCollector
 {
     NSMutableDictionary *_packetCountsHistorySent;
-    NSMutableDictionary *_packetCountsHistoryRecv;
-    unsigned int _currentPacketSentCount[256];
-    unsigned int _currentPacketRecvCount[256];
-    unsigned int _currentPacketSentUpdateTicks;
-    unsigned int _currentPacketRecvUpdateTicks;
-    NSObject<OS_dispatch_source> *_periodicHistoryUpdateSentTimer;
-    NSObject<OS_dispatch_source> *_periodicHistoryUpdateRecvTimer;
-    CDUnknownBlockType _copyPacketCountCallbackSend;
-    CDUnknownBlockType _copyPacketCountCallbackRecv;
-    struct _opaque_pthread_rwlock_t _historyStateRWlock;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (id);
 
 @end

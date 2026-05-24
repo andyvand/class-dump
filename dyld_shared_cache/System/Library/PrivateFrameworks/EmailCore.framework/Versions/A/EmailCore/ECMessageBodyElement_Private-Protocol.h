@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol ECMessageBodyElement_Private;
+
 @protocol ECMessageBodyElement_Private
+- (id <ECMessageBodyElement_Private>)P;
+- (_Bool);
 @end
 

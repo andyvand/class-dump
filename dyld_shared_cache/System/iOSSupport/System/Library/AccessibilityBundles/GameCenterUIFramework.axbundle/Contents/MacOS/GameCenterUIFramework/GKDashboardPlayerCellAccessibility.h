@@ -15,7 +15,7 @@
 + (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)shouldSuppressLocationUpdates;
 
 @end
 

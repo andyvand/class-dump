@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)VCPropertyPeerNATIP;
 - (void);
 - (id);
 - (void);
@@ -28,8 +28,8 @@
 - (void)
 × ;
 - (void)"24I32;
-- (void)endAckForMessageWithContext:(id)arg1;
-- (void)lineNumber:(id)arg1 description:(id)arg2;
+- (void)sendAckForMessageWithContext:(id)arg1;
+- (void)handleFailureInFunction:(id)arg1 file:(id)arg2 lineNumber:(CDUnknownBlockType)arg3 description: /* Error: Ran out of types for this method. */;
 - (void)Ï Ï¼ÐhÒpÒ;
 - (id)i:%d /* Error: Ran out of types for this method. */;
 - (void)soryData Now;

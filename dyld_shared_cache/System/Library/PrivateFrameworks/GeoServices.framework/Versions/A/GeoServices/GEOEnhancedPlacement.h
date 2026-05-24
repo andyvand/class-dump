@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface GEOEnhancedPlacement
 {
     NSArray *_buildingIds;
-    NSNumber *_elevationInMeters;
-    NSNumber *_buildingHeightInMeters;
-    NSNumber *_buildingFaceAzimuth;
 }
 
+- (id)2@0:(id)arg1 8@"NSNumber"16@?<v@?@"CNApplicationProxy"@"NSError">24;
+- (id)_userDefaults;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void)Þ4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *buildingFaceAzimuth; // @synthesize buildingFaceAzimuth=_buildingFaceAzimuth;
-@property(readonly, nonatomic) NSNumber *buildingHeightInMeters; // @synthesize buildingHeightInMeters=_buildingHeightInMeters;
 @property(readonly, nonatomic) NSArray *buildingIds; // @synthesize buildingIds=_buildingIds;
-@property(readonly, nonatomic) NSNumber *elevationInMeters; // @synthesize elevationInMeters=_elevationInMeters;
 
 @end
 

@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)__VKCImageAnalysisBaseViewAccessibility_super;
 + (void);
 - (id);
 

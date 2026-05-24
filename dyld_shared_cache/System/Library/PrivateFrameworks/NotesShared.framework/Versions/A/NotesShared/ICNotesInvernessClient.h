@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ic_mentionTokensPerParticipant;
 - (void)p;
 
 // Remaining properties

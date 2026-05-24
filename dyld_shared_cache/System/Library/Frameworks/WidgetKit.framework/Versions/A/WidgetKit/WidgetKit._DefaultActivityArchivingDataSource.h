@@ -9,7 +9,6 @@
 @interface WidgetKit._DefaultActivityArchivingDataSource : WidgetKit._SimpleActivityArchivingDataSource
 {
     id activityDescriptor;
-    id request;
 }
 
 @end

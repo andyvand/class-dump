@@ -7,11 +7,9 @@
 @interface CKTranscriptScrollIntentEntryViewChangedTrigger
 {
     id hasSendLaterPluginInfo;
-    id hadContentChange;
-    id isSendLaterPluginChange;
 }
 
-- (id);
+- (id)NoteSelection;
 - (id);
 - (id);
 

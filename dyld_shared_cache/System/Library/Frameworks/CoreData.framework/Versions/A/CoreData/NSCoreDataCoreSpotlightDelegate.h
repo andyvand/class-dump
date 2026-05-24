@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectContext, NSPersistentStoreCoordinator, NSPersistentStoreDescription, NSString, NSURL, PFCSSearchableIndexProvider;
+@class NSPersistentStoreCoordinator, NSURL;
 
 @interface NSCoreDataCoreSpotlightDelegate
 {
     NSPersistentStoreCoordinator *_coordinator;
-    NSPersistentStoreDescription *_description;
-    NSString *_storeIdentifier;
-    NSManagedObjectContext *_context__;
-    NSString *_domainIdentifier;
-    NSString *_indexName;
-    NSString *_bundleIdentifier;
-    NSString *_protectionClass;
-    _Atomic _Bool _enabled;
-    _Bool _usesPrivateIndex;
-    NSURL *_indexURL;
-    int __indexerThrottle;
-    NSDictionary *_indexedPropertyNamesByEntity;
-    int __enqueuedOperationCount;
-    unsigned long long _allKnownItems;
-    PFCSSearchableIndexProvider *_indexProvider;
 }
 
 + (void)ithCompletionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,21 +33,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)rrant message dictionary key:'%s' value:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)³=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PFCSSearchableIndexProvider *indexProvider; // @synthesize indexProvider=_indexProvider;
 @property(copy) NSURL *indexURL;
-@property(readonly, getter=isIndexingEnabled) _Bool indexingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,62 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOBrandInfoMapping
 {
     PBDataReader *_reader;
-    struct {
-        _Bool *list;
-        unsigned long long count;
-        unsigned long long size;
-    } _isSuggesteds;
-    unsigned long long _globalBrandId;
-    NSMutableArray *_isoCountryCodes;
-    NSMutableArray *_scopedBrandInfos;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_globalBrandId:1;
-        unsigned int read_isSuggesteds:1;
-        unsigned int read_isoCountryCodes:1;
-        unsigned int read_scopedBrandInfos:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class).;
 + (Class);
-+ (Class);
-+ (_Bool)utesUntilEvent:(id)arg1;
++ (_Bool)setHasMinutesUntilEvent:(id)arg1;
+- (void)__const;
 - (void);
 - (void);
 - (void);
+- (void)}16d32@40;
+- (unsigned long long)performSynchronousWriterBlock: /* Error: Ran out of types for this method. */;
+- (id)performSynchronousReaderBlock: /* Error: Ran out of types for this method. */;
+- (id)performSelector:(unsigned long long)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (unsigned long long)onNameComponents",&,V_components;
+- (id)bject<OS_tcc_service>",R,N,V_service;
+- (unsigned long long)ondPartyCachedValue;
+- (_Bool *),&,N,V_isClientFirstOrSecondPartyCachedValue;
+- (_Bool)lue;
+- (_Bool)netic Qatar;
+- (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool *);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void)continuousVoiceTrigger:(id)arg1 detectedVoiceTriggerResult: /* Error: Ran out of types for this method. */;
+- (id)p;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -67,19 +49,14 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)tep;
+- (id)previousBoardingStep;
 - (id)¾;
 - (id)IN (            SELECT parent                FROM region_relationship_mapping                WHERE child = @child AND (areas & @areas) != 0    )    ORDER BY sort_order, name COLLATE region_collater, iso_code, time_zone_name;;
 - (id);
 - (void)x6;
 
 // Remaining properties
-@property(nonatomic) unsigned long long globalBrandId;
 @property(nonatomic) _Bool hasGlobalBrandId;
-@property(readonly, nonatomic) _Bool *isSuggesteds;
-@property(readonly, nonatomic) unsigned long long isSuggestedsCount;
-@property(retain, nonatomic) NSMutableArray *isoCountryCodes;
-@property(retain, nonatomic) NSMutableArray *scopedBrandInfos;
 
 @end
 

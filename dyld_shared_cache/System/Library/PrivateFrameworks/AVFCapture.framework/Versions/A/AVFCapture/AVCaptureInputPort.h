@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureInput, AVCaptureInputPortInternal, NSString;
+@class AVCaptureInput, AVCaptureInputPortInternal;
 
 @interface AVCaptureInputPort
 {
@@ -13,41 +13,35 @@
 
 + (_Bool);
 + (id);
-+ (void)cfutcdtvcfetvogvcfutvncacfetnysaxumtximacfetnysccfetnsdm;
++ (void)cfetnysvxmdtonafcfutcdtvcfetvogvcfutvncacfetnysaxumtximacfetnysccfetnsdm;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)addPersistentStoreWithType:configuration:URL:options:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)addDroppedFrameForPortType:(id)arg1 pts:(id)arg2;
+- (id)cording captureID:(id)arg1 %lld:(id)arg2 recent video latency from file coordinator node:(struct opaqueCMFormatDescription *)arg3 %@;
 - (id);
-- (id);
-- (struct opaqueCMFormatDescription *);
+- (struct opaqueCMFormatDescription *)zeOfV1Metadata + sizeOfV2Metadata + sizeOfV3Metadata );
 - (long long);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (struct OpaqueCMClock *);
+- (id)ers46createNetworkInputPixelBufferFromOneComponent8ERKNS0_4e5rt20E5RTTensorDescriptorERK13vImage_BufferRKNS_5CFRefIP19__CVPixelBufferPoolEERNSt3__18optionalINS_5ErrorEEERKNSG_IyEEE3$_0;
+- (struct OpaqueCMClock *)EE8prepare_ERNSt3__18optionalINS_5ErrorEEERKNS5_IyEEEUlmmmE_;
 - (void);
 - (void);
 - (int)ported - use -isSmoothAutoFocusSupported to discover if smooth autofocus is supported;
 
 // Remaining properties
-@property(readonly, nonatomic) struct OpaqueCMClock *clock;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) struct opaqueCMFormatDescription *formatDescription;
 @property(readonly, nonatomic) AVCaptureInput *input;
-@property(readonly, nonatomic) NSString *mediaType;
-@property(readonly, nonatomic) long long sourceDevicePosition;
-@property(readonly, nonatomic) NSString *sourceDeviceType;
 
 @end
 

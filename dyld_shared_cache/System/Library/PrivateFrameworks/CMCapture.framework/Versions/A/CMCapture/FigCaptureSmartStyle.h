@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface FigCaptureSmartStyle
 {
     NSString *_cast;
-    float _intensity;
-    float _toneBias;
-    float _colorBias;
-    unsigned long long _hash;
 }
 
 + (id);
@@ -24,14 +20,14 @@
 - (float);
 - (id);
 - (_Bool);
-- (void);
+- (void)_columnHeaders;
 - (id);
 - (id);
 - (unsigned long long);
 - (float);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id)ray",C,N,V_supportedCacheModes;
 - (id)vm­ÿl­ÿl®ÿl®ÿl¯ÿ¦l¯ÿ²j¯ÿºg«ÿÃc§ÿÌ_£ÿÖ[ÿÞXÿäVÿèTÿéSÿz¯ÿz¯ÿy¯ÿy¯ÿy¯ÿy®ÿy®ÿx®ÿ x®ÿ.x®ÿ8x®ÿAw®ÿJw®ÿSw­ÿ]w­ÿew­ÿnw­ÿwv­ÿv®ÿv®ÿv®ÿv¯ÿ¦v°ÿ²u¯ÿºq¬ÿÃm¨ÿÌj¤ÿ×f ÿßcÿåaÿé_ÿé^ÿ°ÿ°ÿ°ÿ°ÿ°ÿ°ÿ°ÿ¯ÿ¯ÿ-¯ÿ7¯ÿA¯ÿK¯ÿT¯ÿ^®ÿf®ÿo®ÿx®ÿ®ÿ¯ÿ¯ÿ°ÿ§°ÿ²°ÿ»~­ÿÄz©ÿÍw¥ÿ×s¡ÿßpÿænÿêmÿêkÿ²ÿ±ÿ±ÿ±ÿ±ÿ±ÿ±ÿ±ÿ°ÿ,°ÿ7°ÿA°ÿK°ÿT°ÿ^¯ÿh¯ÿq¯ÿz¯ÿ¯ÿ¯ÿ°ÿ°ÿ§±ÿ³±ÿ»®ÿÄªÿÍ¦ÿØ¡ÿà}ÿæ{ÿêyÿëxÿ³ÿ³ÿ³ÿ³ÿ²ÿ²ÿ²ÿ²ÿ±ÿ+±ÿ7±ÿA±ÿK±ÿU±ÿ_±ÿi°ÿr°ÿ{°ÿ°ÿ°ÿ°ÿ ±ÿ©²ÿ³²ÿ»¯ÿÄ«ÿÍ§ÿ×£ÿà ÿæÿêÿëÿ ¡´ÿ ¡´ÿ ¡´ÿ ¡´ÿ ¡´ÿ ¡´ÿ ¡³ÿ ¡³ÿ  ³ÿ* ³ÿ6 ²ÿA ²ÿK ²ÿU ²ÿ` ²ÿj ²ÿs ²ÿ} ²ÿ ²ÿ¡²ÿ¢²ÿ¢¢²ÿª£³ÿ´£³ÿ¼¡±ÿÄ­ÿÍ©ÿ×¥ÿß¢ÿæ ÿêÿëÿ"«µÿ"«µÿ"«µÿ"«µÿ"«µÿ"«µÿ"«µÿ"«´ÿ"ª´ÿ'ª´ÿ4ª´ÿ@ª´ÿJª´ÿUª´ÿ`ª³ÿjª³ÿtª³ÿª³ÿª³ÿ«³ÿ¬´ÿ¦¬´ÿ­­´ÿµ®µÿ¼¬³ÿÄ«¯ÿÌ©¬ÿÖ¦©ÿÞ¤§ÿå£¥ÿê¡£ÿê ¢ÿ#··ÿ#··ÿ#··ÿ#··ÿ#¶·ÿ#¶¶ÿ#¶¶ÿ$¶¶ÿ$¶¶ÿ$µµÿ1µµÿ=µµÿIµµÿSµµÿ_µµÿjµµÿuµµÿ¶µÿ¶¶ÿ¶¶ÿ¶¶ÿ©··ÿ±¸¸ÿ¹¹¹ÿ¾¸¸ÿÅ·¶ÿÍµ³ÿÖ³°ÿß²®ÿæ±¬ÿë¯«ÿë®©ÿ!¾¶ÿ!¾¶ÿ!¾¶ÿ!¾¶ÿ!¾¶ÿ!¾µÿ!¾µÿ!¾µÿ!¾µÿ!½µÿ*½µÿ7½´ÿC½´ÿO½´ÿ[½´ÿf½µÿq½µÿ|¾µÿ¾µÿ¾¶ÿ¾·ÿ¨¿¸ÿ±¿¹ÿºÀºÿÁÁ»ÿÇÁºÿÎÀ¸ÿ×¿µÿà¾³ÿç½±ÿì¼°ÿí»®ÿÆµÿÆµÿÆµÿÆµÿÆµÿÆµÿÆµÿÆ´ÿÅ´ÿÅ´ÿ Å´ÿ0Å´ÿ=Å´ÿIÅ´ÿWÅ´ÿbÅ´ÿmÆ´ÿyÆµÿÆµÿÆ¶ÿÇ·ÿ¦Ç¸ÿ°È¹ÿºÉºÿÃÊ»ÿËË¼ÿÑÊ»ÿÚÊ¹ÿáÊ·ÿèÉµÿíÉ´ÿïÈ²ÿÎ´ÿÎ´ÿÎ´ÿÎ´ÿÍ´ÿÍ´ÿÍ´ÿÍ´ÿÍ´ÿÍ³ÿÍ³ÿ'Í³ÿ6Í³ÿCÍ³ÿQÍ³ÿ]Î³ÿiÎ´ÿuÎ´ÿÏ´ÿÏµÿÏ¶ÿ¤Ð·ÿ®Ñ¸ÿºÒºÿÃÒ»ÿÌÔ»ÿÕÕ»ÿÝÕºÿäÕ¹ÿëÕ¸ÿðÕ·ÿñÕµÿÕ´ÿÕ´ÿÕ´ÿÕ³ÿÕ³ÿÕ³ÿÕ³ÿÕ³ÿÕ³ÿÕ³ÿÕ²ÿÕ²ÿ,Õ²ÿ;Õ²ÿJÖ²ÿWÖ²ÿc×³ÿo×³ÿ}Ø´ÿØ´ÿÙµÿ¡Ú¶ÿ¬Ú·ÿ¹Ü¹ÿÃÝºÿÍÞºÿÖß»ÿáá»ÿèáºÿïâ¹ÿóâ¸ÿôâ·ÿÜ³ÿÜ³ÿÜ³ÿÜ³ÿÜ³ÿÜ³ÿÜ³ÿÜ³ÿÜ²ÿÜ²ÿÜ²ÿÜ²ÿ!Ü²ÿ3Ü²ÿCÜ²ÿQÝ²ÿ^Ý²ÿjÞ²ÿyß³ÿà´ÿà´ÿáµÿªâ¶ÿ·ä·ÿÃå¹ÿÍæ¹ÿØèºÿãêºÿëëºÿñìºÿöì¹ÿ÷ì·ÿá³ÿá³ÿá³ÿá³ÿá²ÿá²ÿá²ÿá²ÿá²ÿá²ÿá±ÿá±ÿá±ÿ*á±ÿ<â±ÿKâ±ÿXã±ÿeä²ÿtä²ÿå³ÿæ³ÿç´ÿ¨éµÿ¶ê¶ÿÂì·ÿÍí¸ÿØï¹ÿäñ¹ÿíò¹ÿóó¹ÿ÷ô¹ÿøô·ÿä²ÿä²ÿä²ÿä²ÿä²ÿä²ÿä²ÿä²ÿä±ÿä±ÿä±ÿä±ÿä°ÿ ä°ÿ5å°ÿEå°ÿSæ°ÿaç±ÿpè±ÿ}é±ÿê²ÿë³ÿ¥ì´ÿ´îµÿÁð¶ÿÍñ·ÿØó·ÿäõ¸ÿí÷¸ÿôø¸ÿøù¸ÿùù¶ÿå²ÿå²ÿå²ÿå²ÿå²ÿå±ÿå±ÿå±ÿå±ÿå±ÿå°ÿå°ÿå°ÿå¯ÿ.æ¯ÿ>æ¯ÿMç¯ÿ\ç¯ÿkè°ÿyé°ÿê°ÿì±ÿ¢í²ÿ±ï³ÿ¾ð´ÿËò´ÿ×ôµÿäöµÿí÷µÿôùµÿøùµÿùù´ÿ;
@@ -39,18 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *cast; // @synthesize cast=_cast;
-@property(readonly, nonatomic) float colorBias; // @synthesize colorBias=_colorBias;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash; // @synthesize hash=_hash;
-@property(readonly, nonatomic, getter=isIdentity) _Bool identity;
-@property(readonly, nonatomic) float intensity; // @synthesize intensity=_intensity;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) float toneBias; // @synthesize toneBias=_toneBias;
 
 @end
 

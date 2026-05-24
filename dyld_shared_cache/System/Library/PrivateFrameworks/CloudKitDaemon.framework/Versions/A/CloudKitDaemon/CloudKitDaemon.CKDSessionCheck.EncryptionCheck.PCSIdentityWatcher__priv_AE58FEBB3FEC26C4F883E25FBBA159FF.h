@@ -9,8 +9,6 @@
 @interface CloudKitDaemon.CKDSessionCheck.EncryptionCheck.PCSIdentityWatcher__priv_AE58FEBB3FEC26C4F883E25FBBA159FF
 {
     void token;
-    id serviceName;
-    id pcsIdentityChangedCallback;
 }
 
 - (void);

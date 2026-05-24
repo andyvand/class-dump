@@ -7,7 +7,6 @@
 @interface (extension in AVFoundation):__C.AVAssetWriterInput.MultiPassController
 {
     id input;
-    id _passDescriptions;
 }
 
 @end

@@ -9,10 +9,6 @@
 @interface AKToolController
 {
     _Bool _allInkEnabled;
-    _Bool _pencilInkEnabled;
-    _Bool _suppressSuggestedTouchBarChange;
-    unsigned long long _toolMode;
-    AKController *_controller;
 }
 
 + (void);
@@ -33,7 +29,7 @@
 - (void);
 - (void);
 - (double);
-- (id);
+- (id);
 - (struct CGRect);
 - (id);
 - (id);
@@ -42,7 +38,7 @@
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
@@ -54,12 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allInkEnabled; // @synthesize allInkEnabled=_allInkEnabled;
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, nonatomic) _Bool isInDefaultMode;
-@property(nonatomic) _Bool pencilInkEnabled; // @synthesize pencilInkEnabled=_pencilInkEnabled;
-@property _Bool suppressSuggestedTouchBarChange; // @synthesize suppressSuggestedTouchBarChange=_suppressSuggestedTouchBarChange;
-@property(nonatomic) unsigned long long toolMode; // @synthesize toolMode=_toolMode;
 
 @end
 

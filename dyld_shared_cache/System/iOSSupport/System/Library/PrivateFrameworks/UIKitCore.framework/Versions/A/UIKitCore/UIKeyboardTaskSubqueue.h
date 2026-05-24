@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     UIKeyboardTaskExecutionContext *_context;
 }
 
-+ (id);
-- (void);
-- (id);
-- (void);
++ (id)ed out waiting for peer attachment completion for attachment:(id)arg1 %@;
+- (void)background asset at:%@. Error:%@ /* Error: Ran out of types for this method. */;
+- (id)IDGreaterThanWatermark with rowID %@ iteration %@;
+- (void)lready done this. Not doing again unless you do defaults delete com.apple.madrid initialSyncRecordHasBeenWritten;
 - (void)Ð!PGùqZÐ1Â0@ù
 × ;
 - (void)ØØe;

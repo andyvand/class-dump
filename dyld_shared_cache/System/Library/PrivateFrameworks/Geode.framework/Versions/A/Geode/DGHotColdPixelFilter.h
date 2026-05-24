@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGHotColdPixelFilter
 {
     CIImage *inputImage;
-    NSNumber *inputOverlayType;
-    NSNumber *inputShowHotAndCold;
-    NSNumber *inputHotThreshold;
-    NSNumber *inputColdThreshold;
-    id inputColorSpace;
 }
 
 + (id);
-+ (void);
++ (void)RKColorUtil;
 - (id);
 - (id);
 

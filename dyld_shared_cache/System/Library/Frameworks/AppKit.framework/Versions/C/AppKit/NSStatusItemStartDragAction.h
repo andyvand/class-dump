@@ -11,7 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)
+;
 - (void)ion failure:(struct CGPoint)arg1 "_isCancelledPtr == ((void*)0)" -> %llu;
 - (struct CGPoint)CÜð;
 

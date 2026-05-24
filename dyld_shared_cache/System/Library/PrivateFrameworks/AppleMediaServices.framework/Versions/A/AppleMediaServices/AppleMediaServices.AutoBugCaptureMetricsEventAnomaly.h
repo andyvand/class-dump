@@ -9,9 +9,6 @@
 @interface AppleMediaServices.AutoBugCaptureMetricsEventAnomaly
 {
     void identifier;
-    id metricsEvent;
-    id subtype;
-    id subtypeContext;
 }
 
 - (id);

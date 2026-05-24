@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMILAssetAcquisitionStarted : SISchemaInstrumentationMessage
 {
     int _model;
-    struct {
-        unsigned int model:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)osVersion;
+- (void){public}@ error:(int)arg1 %{public}@;
 - (id);
-- (void);
+- (void)error;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int)noLocationImageForScreenRatio:andCompletion: /* Error: Ran out of types for this method. */;
 - (id)Árð!Gù±Þ°1Â0@ù
 × ;
 - (id)tSatisfied;
 - (id)SRSpeechProfileUpdateStarted",&,N,V_startedOrChanged;
 
 // Remaining properties
-@property(nonatomic) _Bool hasModel;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int model; // @synthesize model=_model;
 
 @end

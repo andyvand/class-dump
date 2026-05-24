@@ -11,11 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)abRecordLowConfidenceSampleRate;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *supportsAutomaticHH2Migration; // @dynamic supportsAutomaticHH2Migration;
-@property(copy, nonatomic) NSNumber *supportsHH2MigrationByOwnerAuto; // @dynamic supportsHH2MigrationByOwnerAuto;
 
 @end
 

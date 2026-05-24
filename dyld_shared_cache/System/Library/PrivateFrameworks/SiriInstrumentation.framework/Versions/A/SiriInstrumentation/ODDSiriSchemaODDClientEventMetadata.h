@@ -6,33 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDTimeInterval, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODDSiriSchemaODDClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_oddId;
-    unsigned long long _eventTimestampInMsSince1970;
-    ODDSiriSchemaODDTimeInterval *_aggregationInterval;
-    SISchemaUUID *_deviceAggregationId;
-    unsigned long long _userAggregationIdRotationTimestampMs;
-    unsigned long long _userAggregationIdExpirationTimestampMs;
-    int _eventOrigin;
-    SISchemaUUID *_userAggregationId;
-    _Bool _isLongLivedIDUploadDisabled;
-    struct {
-        unsigned int eventTimestampInMsSince1970:1;
-        unsigned int userAggregationIdRotationTimestampMs:1;
-        unsigned int userAggregationIdExpirationTimestampMs:1;
-        unsigned int eventOrigin:1;
-        unsigned int isLongLivedIDUploadDisabled:1;
-    } _has;
-    _Bool _hasOddId;
-    _Bool _hasAggregationInterval;
-    _Bool _hasDeviceAggregationId;
-    _Bool _hasUserAggregationId;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
@@ -50,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,7 +41,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (unsigned long long);
 - (int);
 - (id);
@@ -77,11 +58,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)P;
+- (void)cpreboot]/SFR/current/sep-patches.img4;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (id);
 - (id);
 - (id);
@@ -90,25 +71,7 @@
 - (void)Payload;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDTimeInterval *aggregationInterval; // @synthesize aggregationInterval=_aggregationInterval;
-@property(retain, nonatomic) SISchemaUUID *deviceAggregationId; // @synthesize deviceAggregationId=_deviceAggregationId;
-@property(nonatomic) int eventOrigin; // @synthesize eventOrigin=_eventOrigin;
-@property(nonatomic) unsigned long long eventTimestampInMsSince1970; // @synthesize eventTimestampInMsSince1970=_eventTimestampInMsSince1970;
-@property(nonatomic) _Bool hasAggregationInterval; // @synthesize hasAggregationInterval=_hasAggregationInterval;
-@property(nonatomic) _Bool hasDeviceAggregationId; // @synthesize hasDeviceAggregationId=_hasDeviceAggregationId;
-@property(nonatomic) _Bool hasEventOrigin;
-@property(nonatomic) _Bool hasEventTimestampInMsSince1970;
-@property(nonatomic) _Bool hasIsLongLivedIDUploadDisabled;
-@property(nonatomic) _Bool hasOddId; // @synthesize hasOddId=_hasOddId;
-@property(nonatomic) _Bool hasUserAggregationId; // @synthesize hasUserAggregationId=_hasUserAggregationId;
-@property(nonatomic) _Bool hasUserAggregationIdExpirationTimestampMs;
-@property(nonatomic) _Bool hasUserAggregationIdRotationTimestampMs;
-@property(nonatomic) _Bool isLongLivedIDUploadDisabled; // @synthesize isLongLivedIDUploadDisabled=_isLongLivedIDUploadDisabled;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *oddId; // @synthesize oddId=_oddId;
-@property(retain, nonatomic) SISchemaUUID *userAggregationId; // @synthesize userAggregationId=_userAggregationId;
-@property(nonatomic) unsigned long long userAggregationIdExpirationTimestampMs; // @synthesize userAggregationIdExpirationTimestampMs=_userAggregationIdExpirationTimestampMs;
-@property(nonatomic) unsigned long long userAggregationIdRotationTimestampMs; // @synthesize userAggregationIdRotationTimestampMs=_userAggregationIdRotationTimestampMs;
 
 @end
 

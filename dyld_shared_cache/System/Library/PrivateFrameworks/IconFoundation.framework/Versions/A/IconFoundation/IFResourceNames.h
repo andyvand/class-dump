@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSSet;
 
 @interface IFResourceNames
 {
     NSSet *_rootNames;
-    NSArray *_variants;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSSet *rootNames; // @synthesize rootNames=_rootNames;
-@property(readonly, copy) NSArray *variants; // @synthesize variants=_variants;
 
 @end
 

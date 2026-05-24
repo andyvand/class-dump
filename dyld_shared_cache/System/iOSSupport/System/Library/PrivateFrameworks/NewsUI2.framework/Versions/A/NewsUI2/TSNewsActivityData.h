@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TSNewsActivityData
 {
     long long activity;
-    void identifier;
-    id object;
-    void traits;
 }
 
-+ (long long);
++ (long long)upperBound;
+- (id)/Library/Frameworks/MapKit.framework/Versions/A/MapKit;
+- (id);
+- (id)cilKit.framework/Versions/A/PencilKit;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
+- (id)_contentItemAnimatedArtworkPreviewFrames;
 - (long long);
 - (id)ÐÃ$Ä;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long activity; // @synthesize activity;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) id object; // @synthesize object;
-@property(nonatomic, readonly) NSArray *traits;
 
 @end
 

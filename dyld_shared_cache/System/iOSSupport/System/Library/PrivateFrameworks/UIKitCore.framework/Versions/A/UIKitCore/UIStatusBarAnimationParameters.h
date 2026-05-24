@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAnimationSettings;
-@protocol _UIBasicAnimationFactory;
-
 @interface UIStatusBarAnimationParameters
 {
     double _duration;
-    double _delay;
-    long long _curve;
-    id <_UIBasicAnimationFactory> _animationFactory;
-    _Bool _skipFencing;
-    double _startTime;
 }
 
 + (void);
@@ -26,31 +18,25 @@
 - (long long);
 - (void);
 - (id);
-- (double);
+- (double)__pinnedEntityType_KEY;
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (double)Ð!Dù_ð1Â0@ù
 × ;
 - (_Bool)Á°!xFùbÐ1Â0@ù
 × ;
 - (void)ñb°1Â0@ù
 × ;
-- (id)utTag;
-- (id)egate;
+- (id)_layoutTag;
+- (id)UIMultiSelectInteractionDelegate;
 - (void)|´zÿ;
 - (void)h;
 
 // Remaining properties
-@property(retain, nonatomic) id <_UIBasicAnimationFactory> animationFactory; // @synthesize animationFactory=_animationFactory;
-@property(readonly, nonatomic) BSAnimationSettings *bsAnimationSettings;
-@property(nonatomic) long long curve; // @synthesize curve=_curve;
-@property(nonatomic) double delay; // @synthesize delay=_delay;
 @property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool skipFencing; // @synthesize skipFencing=_skipFencing;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end
 

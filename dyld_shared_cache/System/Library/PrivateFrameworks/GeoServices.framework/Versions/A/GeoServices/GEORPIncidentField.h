@@ -9,19 +9,13 @@
 @interface GEORPIncidentField
 {
     NSString *_siriType;
-    int _trafficType;
-    _Bool _displayIncidentOnMap;
-    struct {
-        unsigned int has_trafficType:1;
-        unsigned int has_displayIncidentOnMap:1;
-    } _flags;
 }
 
-+ (_Bool)astSearchString:(id)arg1;
-- (id);
++ (_Bool)setLastSearchString:(id)arg1;
+- (id)P;
 - (void);
-- (void);
-- (void);
+- (void)timeProvider;
+- (void)notificationCenter;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -29,18 +23,18 @@
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)`;
 - (void);
-- (int);
-- (void);
+- (int)"24;
+- (void)CSSiriAudioPlaybackSession;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id)anyField"b1};
-- (id)onnection;
+- (id)cellConnection;
 - (id)t;
 - (void)Øh
 Hi
@@ -58,12 +52,7 @@ $mn
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool displayIncidentOnMap;
-@property(nonatomic) _Bool hasDisplayIncidentOnMap;
 @property(readonly, nonatomic) _Bool hasSiriType;
-@property(nonatomic) _Bool hasTrafficType;
-@property(retain, nonatomic) NSString *siriType;
-@property(nonatomic) int trafficType;
 
 @end
 

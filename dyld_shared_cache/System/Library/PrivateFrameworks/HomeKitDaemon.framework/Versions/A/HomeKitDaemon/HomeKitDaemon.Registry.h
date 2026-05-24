@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.Registry
 {
     id registeredItems;
-    id identity;
-    id missingItemHandler;
 }
 
 @end

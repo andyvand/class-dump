@@ -6,18 +6,14 @@
 
 @interface GEORPIncidentUserPath
 {
-    CDStruct_95bda58d _userPaths;
-    int _transportType;
-    _Bool _navigationActive;
-    _Bool _reportedFromCarplay;
     struct {
-        unsigned int has_transportType:1;
-        unsigned int has_navigationActive:1;
-        unsigned int has_reportedFromCarplay:1;
-    } _flags;
+        int *list;
+        unsigned long long count;
+        unsigned long long size;
+    } _userPaths;
 }
 
-+ (_Bool)mestamp:(id)arg1;
++ (_Bool)setLastTimestamp:(id)arg1;
 - (unsigned long long);
 - (id);
 - (int *);
@@ -27,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool),V_maxContainerSequenceNumberInUse;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,10 +32,10 @@
 - (int);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)CSVoiceTriggerFirstPassJarvisAP;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -51,20 +47,13 @@
 - (void)ÔA	'!Eù±¹*°1Â0@ù
 × ;
 - (id)_website"b1"wrote_anyField"b1};
-- (id)tring: /* Error: Ran out of types for this method. */;
+- (id)cellularDataStateAsString: /* Error: Ran out of types for this method. */;
 - (id)`Ä`;
-- (id)ng;
+- (id)_batteryChargeAfterCharging;
 - (void)Ø;
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasNavigationActive;
-@property(nonatomic) _Bool hasReportedFromCarplay;
-@property(nonatomic) _Bool hasTransportType;
-@property(nonatomic) _Bool navigationActive;
-@property(nonatomic) _Bool reportedFromCarplay;
-@property(nonatomic) int transportType;
-@property(readonly, nonatomic) int *userPaths;
 @property(readonly, nonatomic) unsigned long long userPathsCount;
 
 @end

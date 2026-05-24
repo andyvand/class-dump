@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSURL, SMPaths;
-@protocol OS_dispatch_queue;
+@class SMPaths;
 
 @interface SMPathsBundleScanner
 {
     _Bool _scanned;
-    SMPaths *_pather;
-    NSURL *_rootURL;
-    NSMutableDictionary *_applicationsBundles;
-    NSMutableDictionary *_sourceApplicationBundles;
-    NSMutableSet *_appStoreBundles;
-    NSObject<OS_dispatch_queue> *_scanQueue;
-    NSMutableArray *_decisionLog;
-    NSMutableArray *_incompatibleApps;
 }
 
 - (id);
@@ -30,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)P;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -42,7 +33,7 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
 - (id);
@@ -52,15 +43,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSMutableSet *appStoreBundles; // @synthesize appStoreBundles=_appStoreBundles;
-@property(retain) NSMutableDictionary *applicationsBundles; // @synthesize applicationsBundles=_applicationsBundles;
-@property(retain) NSMutableArray *decisionLog; // @synthesize decisionLog=_decisionLog;
-@property(retain) NSMutableArray *incompatibleApps; // @synthesize incompatibleApps=_incompatibleApps;
 @property __weak SMPaths *pather; // @synthesize pather=_pather;
-@property(retain) NSURL *rootURL; // @synthesize rootURL=_rootURL;
-@property(retain) NSObject<OS_dispatch_queue> *scanQueue; // @synthesize scanQueue=_scanQueue;
-@property _Bool scanned; // @synthesize scanned=_scanned;
-@property(retain) NSMutableDictionary *sourceApplicationBundles; // @synthesize sourceApplicationBundles=_sourceApplicationBundles;
 
 @end
 

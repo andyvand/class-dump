@@ -6,15 +6,12 @@
 
 #import <UIKitCore/UIPanGestureRecognizer.h>
 
-@class UIEvent, UITouch;
-@protocol _UIMultiSelectOneFingerPanGestureDelegate;
+@class UITouch;
 
 __attribute__((visibility("hidden")))
 @interface _UIMultiSelectOneFingerPanGesture : UIPanGestureRecognizer
 {
     UITouch *_activeTouch;
-    UIEvent *_activeEvent;
-    id <_UIMultiSelectOneFingerPanGestureDelegate> _oneFingerPanDelegate;
 }
 
 - (void);
@@ -23,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (_Bool)1_ð1Â0@ù
 × ;
 - (_Bool);
-- (_Bool)_connectionActionProvider:(id)arg1;
-- (void)ction;
-- (_Bool)sToBounds;
+- (_Bool)set_connectionActionProvider:(id)arg1;
+- (void)pivotSection;
+- (_Bool)masksToBounds;
 - (id)_menuPresentationDelegate;
 - (_Bool)"<UITextDragDelegate>",W,N;
 - (id)UIKeyboardLayoutJapanese50OnFlick;
@@ -34,9 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIEvent *activeEvent; // @synthesize activeEvent=_activeEvent;
 @property(readonly, nonatomic) UITouch *activeTouch; // @synthesize activeTouch=_activeTouch;
-@property(nonatomic) __weak id <_UIMultiSelectOneFingerPanGestureDelegate> oneFingerPanDelegate; // @synthesize oneFingerPanDelegate=_oneFingerPanDelegate;
 
 @end
 

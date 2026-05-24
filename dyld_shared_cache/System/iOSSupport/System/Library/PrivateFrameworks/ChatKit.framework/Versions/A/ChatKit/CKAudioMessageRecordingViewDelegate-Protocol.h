@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKAudioMessageRecordingView;
+
 @protocol CKAudioMessageRecordingViewDelegate
+- (double)ic_enumerateContentLineRangesInRange:(CKAudioMessageRecordingView *)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)_GAIGA10_GAIGGtGG;
+- (double)performPDFGenerationWithGenerator:(CKAudioMessageRecordingView *)arg1 galleryModel:progress: /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

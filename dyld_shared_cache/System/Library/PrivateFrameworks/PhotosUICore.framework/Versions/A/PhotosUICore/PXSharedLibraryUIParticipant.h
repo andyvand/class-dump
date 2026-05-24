@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface PXSharedLibraryUIParticipant
 {
     unsigned long long _addressKind;
-    NSString *_appleIDAddress;
-    CNContact *_contact;
 }
 
 + (int);
@@ -25,25 +23,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@b;
 - (id);
 - (id)meline>"24;
-- (id)DefaultAssetWidthLandscape:(struct _NSZone *)arg1;
-- (void);
+- (id)setDefaultAssetWidthLandscape:(struct _NSZone *)arg1;
+- (void)TTRRequestReason;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long addressKind; // @synthesize addressKind=_addressKind;
 @property(retain, nonatomic) NSString *appleIDAddress; // @synthesize appleIDAddress=_appleIDAddress;
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSPersonNameComponents *nameComponents;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface PhotosUICore.LemonadePeopleSortModel
 {
     id _photoLibrary;
-    id _currentSortOrder;
-    id _nameSortDirection;
-    id _observation;
-    id _$observationRegistrar;
 }
 
 @end

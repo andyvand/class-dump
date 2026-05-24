@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -24,8 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionIdentifier;
-@property(copy, nonatomic) NSString *actionTitle;
-@property(copy, nonatomic) NSString *notificationIdentifier;
 
 @end
 

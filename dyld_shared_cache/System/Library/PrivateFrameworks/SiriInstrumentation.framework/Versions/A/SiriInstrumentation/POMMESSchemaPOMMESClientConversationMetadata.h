@@ -6,22 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESOnDeviceMetadata;
-
 @interface POMMESSchemaPOMMESClientConversationMetadata : SISchemaInstrumentationMessage
 {
     _Bool _hasPromptContext;
-    _Bool _hasDisplayHints;
-    POMMESSchemaPOMMESOnDeviceMetadata *_onDeviceMetadata;
-    struct {
-        unsigned int hasPromptContext:1;
-        unsigned int hasDisplayHints:1;
-    } _has;
-    _Bool _hasOnDeviceMetadata;
 }
 
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -34,27 +25,21 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)Handler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)eted %ld messages in %f seconds on %ld chats and %ld services;
 - (id);
 - (id);
-- (id)ementId;
+- (id)_originTaskStatementId;
 - (id)oolsRetrieved;
-- (void)SSION_CATEGORY;
+- (void)FLOWDOMAINEXECUTIONTYPE_MEDIAPLAYER_AIRPLAY_SET_AUDIO_SESSION_CATEGORY;
 
 // Remaining properties
-@property(nonatomic) _Bool hasDisplayHints; // @synthesize hasDisplayHints=_hasDisplayHints;
-@property(nonatomic) _Bool hasHasDisplayHints;
-@property(nonatomic) _Bool hasHasPromptContext;
-@property(nonatomic) _Bool hasOnDeviceMetadata; // @synthesize hasOnDeviceMetadata=_hasOnDeviceMetadata;
 @property(nonatomic) _Bool hasPromptContext; // @synthesize hasPromptContext=_hasPromptContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) POMMESSchemaPOMMESOnDeviceMetadata *onDeviceMetadata; // @synthesize onDeviceMetadata=_onDeviceMetadata;
 
 @end
 

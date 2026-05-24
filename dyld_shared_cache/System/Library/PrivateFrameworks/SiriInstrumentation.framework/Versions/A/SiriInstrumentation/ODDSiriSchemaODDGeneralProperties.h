@@ -6,32 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaISOLocale, UAFSchemaUAFAssetSetStatus;
+@class SISchemaISOLocale;
 
 @interface ODDSiriSchemaODDGeneralProperties : SISchemaInstrumentationMessage
 {
     SISchemaISOLocale *_systemLocale;
-    int _storefrontId;
-    int _UTCOffset;
-    NSString *_deviceType;
-    NSString *_modelNumber;
-    NSString *_deviceOS;
-    _Bool _isStoreDemoMode;
-    unsigned long long _buildInstallationTimestampInSecondsSince1970;
-    UAFSchemaUAFAssetSetStatus *_assetSetStatus;
-    NSString *_dataCollectionId;
-    struct {
-        unsigned int storefrontId:1;
-        unsigned int UTCOffset:1;
-        unsigned int isStoreDemoMode:1;
-        unsigned int buildInstallationTimestampInSecondsSince1970:1;
-    } _has;
-    _Bool _hasSystemLocale;
-    _Bool _hasDeviceType;
-    _Bool _hasModelNumber;
-    _Bool _hasDeviceOS;
-    _Bool _hasAssetSetStatus;
-    _Bool _hasDataCollectionId;
 }
 
 - (void);
@@ -74,12 +53,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (int);
+- (int)˩C;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)o %d peers:(id)arg1 %@;
 - (_Bool);
 - (id);
 - (void);
@@ -98,26 +77,6 @@
 - (void)+«ÿ©µ4Ä&;
 
 // Remaining properties
-@property(nonatomic) int UTCOffset; // @synthesize UTCOffset=_UTCOffset;
-@property(retain, nonatomic) UAFSchemaUAFAssetSetStatus *assetSetStatus; // @synthesize assetSetStatus=_assetSetStatus;
-@property(nonatomic) unsigned long long buildInstallationTimestampInSecondsSince1970; // @synthesize buildInstallationTimestampInSecondsSince1970=_buildInstallationTimestampInSecondsSince1970;
-@property(copy, nonatomic) NSString *dataCollectionId; // @synthesize dataCollectionId=_dataCollectionId;
-@property(copy, nonatomic) NSString *deviceOS; // @synthesize deviceOS=_deviceOS;
-@property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) _Bool hasAssetSetStatus; // @synthesize hasAssetSetStatus=_hasAssetSetStatus;
-@property(nonatomic) _Bool hasBuildInstallationTimestampInSecondsSince1970;
-@property(nonatomic) _Bool hasDataCollectionId; // @synthesize hasDataCollectionId=_hasDataCollectionId;
-@property(nonatomic) _Bool hasDeviceOS; // @synthesize hasDeviceOS=_hasDeviceOS;
-@property(nonatomic) _Bool hasDeviceType; // @synthesize hasDeviceType=_hasDeviceType;
-@property(nonatomic) _Bool hasIsStoreDemoMode;
-@property(nonatomic) _Bool hasModelNumber; // @synthesize hasModelNumber=_hasModelNumber;
-@property(nonatomic) _Bool hasStorefrontId;
-@property(nonatomic) _Bool hasSystemLocale; // @synthesize hasSystemLocale=_hasSystemLocale;
-@property(nonatomic) _Bool hasUTCOffset;
-@property(nonatomic) _Bool isStoreDemoMode; // @synthesize isStoreDemoMode=_isStoreDemoMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(nonatomic) int storefrontId; // @synthesize storefrontId=_storefrontId;
 @property(retain, nonatomic) SISchemaISOLocale *systemLocale; // @synthesize systemLocale=_systemLocale;
 
 @end

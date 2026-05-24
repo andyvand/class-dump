@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlayerPath, NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface MRTransactionMessage : MRProtocolMessage
 {
@@ -18,14 +18,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ugh BlastDoor;
 - (id);
 - (void)N,V_canAccessAppleMusic;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long name;
-@property(readonly, nonatomic) NSArray *packets;
-@property(readonly, nonatomic) MRPlayerPath *playerPath;
 
 @end
 

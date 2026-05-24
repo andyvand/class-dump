@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 @interface SGMatchinfoData
 {
     NSNumber *_entityId;
-    NSNumber *_detailEntityId;
-    NSData *_matchinfoData;
 }
 
 + (id);
@@ -28,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *detailEntityId; // @synthesize detailEntityId=_detailEntityId;
 @property(readonly, nonatomic) NSNumber *entityId; // @synthesize entityId=_entityId;
-@property(readonly, nonatomic) NSData *matchinfoData; // @synthesize matchinfoData=_matchinfoData;
 
 @end
 

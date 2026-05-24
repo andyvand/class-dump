@@ -8,6 +8,9 @@
 
 @protocol MFSearchableIndexQueryResultProcessor
 
+@optional
+- (void)0;
+
 // Remaining properties
 @property(nonatomic) __weak id <MFSearchableIndexQueryResultProcessorDelegate> delegate;
 @end

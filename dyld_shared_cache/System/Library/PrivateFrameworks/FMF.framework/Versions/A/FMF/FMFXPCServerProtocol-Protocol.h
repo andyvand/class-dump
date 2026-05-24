@@ -5,5 +5,19 @@
 //
 
 @protocol FMFXPCServerProtocol
+- (oneway void);
+- (oneway void);
+- (oneway void)U;
+- (oneway void);
+- (oneway void)C,N,V_personaIdentifier;
+- (oneway void)ices;
+- (oneway void)rying, re-sending fileUUID:(void (^)(_Bool, NSError *))arg1 %{public}@ | active:%{public}@ /* Error: Ran out of types for this method. */;
+- (oneway void)PersistAccessControl;
+- (oneway void)6@"NSXPCConnection"24;
+- (oneway void);
+- (oneway void)_rerouteRequestParametersForLocation:transportType:] /* Error: Ran out of types for this method. */;
+- (oneway void);
+- (oneway void)OS.m:(_Bool)arg1 18 :(void (^)(NSError *))arg2 Not supported on macOS;
+- (oneway void)Z#;
 @end
 

@@ -4,52 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol SiriCoreSQLiteValue;
+@class NSString;
 
 @interface SiriCoreSQLiteQueryCriterion
 {
     NSString *_columnName;
-    long long _comparisonOperator;
-    long long _logicalOperator;
-    id <SiriCoreSQLiteValue> _value;
-    NSArray *_values;
-    NSArray *_subcriteria;
 }
 
++ (id)EFPropertyKey_contactIdentifier;
++ (id)EFPropertyKey_databaseID;
++ (id)EFPropertyKey_signers;
++ (id)MSearchableIndexQuery init];
++ (id)kSearchableIndexQueryKeyIntervalForSpotlightFailureSimulation;
++ (id)d;
++ (id)epository performQuery:(id)arg1 withObserver:(id)arg2 ];
++ (id)EMRemoteContentURLUtilities;
++ (id)e"8;
++ (id)rentProxy=%p, pendingReattempts=%@;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)EFPropertyKey_queryOptions;
++ (id)tings;
++ (id)x-apple-mail-vip-messages;
++ (id)UpdateDisplayDate;
+- (id)rver sent an unexpected response that could not be parsed.;
+- (id)ng"16;
+- (id).kvStore.maximumKeyLength;
+- (long long)',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (long long)lAccountDirectoryLock;
 - (id);
 - (id);
 - (id);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *columnName; // @synthesize columnName=_columnName;
-@property(readonly, nonatomic) long long comparisonOperator; // @synthesize comparisonOperator=_comparisonOperator;
-@property(readonly, nonatomic) long long logicalOperator; // @synthesize logicalOperator=_logicalOperator;
-@property(readonly, copy, nonatomic) NSArray *subcriteria; // @synthesize subcriteria=_subcriteria;
-@property(readonly, copy, nonatomic) id <SiriCoreSQLiteValue> value; // @synthesize value=_value;
-@property(readonly, copy, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

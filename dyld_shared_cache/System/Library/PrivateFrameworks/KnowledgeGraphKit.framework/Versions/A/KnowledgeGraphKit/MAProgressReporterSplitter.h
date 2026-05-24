@@ -9,7 +9,6 @@
 @interface MAProgressReporterSplitter
 {
     MAProgressReporter *_progressReporter;
-    double _previousCheckpoint;
 }
 
 - (id);

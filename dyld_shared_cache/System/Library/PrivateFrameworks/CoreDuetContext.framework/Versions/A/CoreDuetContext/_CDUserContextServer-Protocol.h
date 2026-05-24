@@ -5,5 +5,6 @@
 //
 
 @protocol _CDUserContextServer
+- (void);
 @end
 

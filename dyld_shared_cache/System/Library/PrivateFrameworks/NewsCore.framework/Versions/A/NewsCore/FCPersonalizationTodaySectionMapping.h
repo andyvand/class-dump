@@ -9,7 +9,6 @@
 @interface FCPersonalizationTodaySectionMapping
 {
     NTPBTodaySectionsMapping *_pbTodaySectionMapping;
-    NSDictionary *_todaySectionIdentifiersToFRGroupViewExposureTypes;
 }
 
 + (_Bool);
@@ -17,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)CKPrivateFetchRecordsOperation.m;

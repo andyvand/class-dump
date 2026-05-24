@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCEndpointConnection;
+@class FCEndpointConnection;
 
 @interface FCAnalyticsEndpointConnection
 {
     FCEndpointConnection *_endpointConnection;
-    FCAsyncSerialQueue *_serialQueue;
 }
 
 - (void);
-- (id);
+- (id)\_;
 - (id);
 - (id);
 - (void);
 - (void)ortsEventType;
 - (void)tchedSaveRecordsOperation.m;
-- (void)icesBundleCIPActivationEnabledLevel;
+- (void)servicesBundleCIPActivationEnabledLevel;
 
 // Remaining properties
 @property(retain, nonatomic) FCEndpointConnection *endpointConnection; // @synthesize endpointConnection=_endpointConnection;
-@property(retain, nonatomic) FCAsyncSerialQueue *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end
 

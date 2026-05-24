@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SMPathWithAttributes
 {
     NSString *_pathname;
-    NSDictionary *_attributes;
 }
 
 + (id);
@@ -17,13 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ionResult=Q{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}Q}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
 - (void);
 - (void)Ñ	°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(retain) NSString *pathname; // @synthesize pathname=_pathname;
 
 @end

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFPerson;
+@class NSString;
 
 @protocol SFContactButtonItem
+- (void)"8;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionTypesToShow;
 @property(copy, nonatomic) NSString *contactIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFPerson *person;
 @end
 

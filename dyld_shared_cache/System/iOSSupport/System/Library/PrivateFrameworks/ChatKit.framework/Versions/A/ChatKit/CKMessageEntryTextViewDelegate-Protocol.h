@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMessageEntryTextView;
+
 @protocol CKMessageEntryTextViewDelegate
+- (void)dateByAddingUnit:(_Bool)arg1 value:toDate:options: /* Error: Ran out of types for this method. */;
+- (void)dateByAddingTimeInterval:(CKMessageEntryTextView *)arg1;
 @end
 

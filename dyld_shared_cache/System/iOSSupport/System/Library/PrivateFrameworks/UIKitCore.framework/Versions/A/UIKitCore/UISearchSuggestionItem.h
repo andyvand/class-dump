@@ -4,54 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIImage;
+@class NSAttributedString;
 
 @interface UISearchSuggestionItem
 {
     NSAttributedString *_localizedAttributedSuggestion;
-    NSString *_localizedSuggestion;
-    NSString *_localizedDescription;
-    UIImage *_iconImage;
-    id _representedObject;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)uid:(id)arg1 %@;
++ (id)o release sandbox token, %@ token:(id)arg1 %@;
++ (id)not allowed to access request path:(id)arg1 %@;
++ (id)token, %@ token:(id)arg1 %@;
++ (id)coverable error state (%zd) for IMFileTransfer %@;
++ (id)ment part, success %@ error %@;
 + (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)lready performing a sync.  Ignoring current request to sync.
+ Syncing Self:(id)arg1 %@ Chat:(id)arg2 %@ Message:(id)arg3 %@ Attachment:%@ Exit:%@ /* Error: Ran out of types for this method. */;
+- (id)c appropriately;
+- (id)he Identity is restored, we will kick sync appropriately;
+- (id)ding the security level, downgrade date %@. We can't download at this time. When the Identity is restored, we will kick sync appropriately;
+- (id), downloading all attachments. {shouldDownloadAssets:(id)arg1 %@};
+- (id)rd Error:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (unsigned long long);
-- (id);
-- (_Bool)tion:(id)arg1;
+- (id)requiresLegacyLayout;
+- (_Bool)performSendAction:(id)arg1;
 - (id);
 - (void)þ½c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImage *iconImage; // @synthesize iconImage=_iconImage;
 @property(readonly, nonatomic) NSAttributedString *localizedAttributedSuggestion; // @synthesize localizedAttributedSuggestion=_localizedAttributedSuggestion;
-@property(readonly, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, nonatomic) NSString *localizedSuggestion; // @synthesize localizedSuggestion=_localizedSuggestion;
-@property(retain, nonatomic) id representedObject; // @synthesize representedObject=_representedObject;
-@property(readonly) Class superclass;
 
 @end
 

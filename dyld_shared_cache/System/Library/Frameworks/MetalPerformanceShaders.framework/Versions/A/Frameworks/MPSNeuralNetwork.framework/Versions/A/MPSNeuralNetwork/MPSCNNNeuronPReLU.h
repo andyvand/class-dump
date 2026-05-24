@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (id);
+- (id)sliceLayerWithStart:(id)arg1 end:(id)arg2 stride: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

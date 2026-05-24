@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadata, NSNumber, NSString;
+@class NSString;
 
 @interface GEOResultRefinementMultiSelectElement
 {
     _Bool _isSelected;
-    int _evChargingConnectorType;
-    NSString *_displayName;
-    GEOPDResultRefinementMetadata *_metadata;
-    unsigned long long _elementType;
-    NSNumber *_selectionSequenceNumber;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)components:(id)arg1 fromDate: /* Error: Ran out of types for this method. */;
+- (id)hasAddressBookContentForRecord:(id)arg1;
 - (int);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)otes;
-- (unsigned long long)ory_type;
+- (void)editorialNotes;
+- (unsigned long long)advisory_type;
 - (void)6?P@;
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) unsigned long long elementType; // @synthesize elementType=_elementType;
-@property(readonly, nonatomic) int evChargingConnectorType; // @synthesize evChargingConnectorType=_evChargingConnectorType;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
-@property(retain, nonatomic) GEOPDResultRefinementMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSString *refinementKey;
-@property(readonly, nonatomic) NSNumber *selectionSequenceNumber; // @synthesize selectionSequenceNumber=_selectionSequenceNumber;
 
 @end
 

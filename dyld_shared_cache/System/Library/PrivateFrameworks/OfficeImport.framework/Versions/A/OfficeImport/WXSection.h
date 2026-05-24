@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (id);
++ (id))Z;
 + (id);
 
 @end

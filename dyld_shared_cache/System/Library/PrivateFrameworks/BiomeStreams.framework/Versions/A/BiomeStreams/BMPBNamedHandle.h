@@ -9,12 +9,9 @@
 @interface BMPBNamedHandle
 {
     NSString *_contactIdentifier;
-    NSString *_handle;
-    NSString *_handleType;
-    NSString *_name;
 }
 
-- (_Bool);
+- (_Bool)CallSession"16I24i28i32;
 - (id);
 - (_Bool);
 - (void);
@@ -24,28 +21,21 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)+;
 - (_Bool);
-- (void);
-- (id);
+- (void)2;
+- (id)oice;
 - (id);
 - (id);
 - (void)(­;
 - (_Bool);
 - (void)û;
-- (id);
+- (id)y;
 - (void)~Þÿ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(retain, nonatomic) NSString *handleType; // @synthesize handleType=_handleType;
-@property(readonly, nonatomic) _Bool hasContactIdentifier;
-@property(readonly, nonatomic) _Bool hasHandle;
-@property(readonly, nonatomic) _Bool hasHandleType;
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol MFDeviceDriver;
-
 __attribute__((visibility("hidden")))
 @interface MFTransform
 {
     struct CGAffineTransform m_world;
-    struct CGPoint m_windowOrg;
-    struct CGPoint m_windowExt;
-    struct CGPoint m_viewportOrg;
-    struct CGPoint m_viewportExt;
-    struct CGAffineTransform m_combinedTransform;
-    int m_mapMode;
-    NSObject<MFDeviceDriver> *m_deviceDriver;
 }
 
 - (int);
@@ -43,13 +33,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGPoint);
-- (int);
+- (int)p
+;
 - (void);
 - (struct CGPoint);
 - (struct CGPoint);
 - (int);
 - (id);
-- (id);
+- (id);0;
 - (void)0 p;
 
 @end

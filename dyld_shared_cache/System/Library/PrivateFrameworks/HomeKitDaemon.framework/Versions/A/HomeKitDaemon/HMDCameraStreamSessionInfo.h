@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool allowsReconfiguration; // @synthesize allowsReconfiguration=_allowsReconfiguration;

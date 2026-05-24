@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIVisualEffectView, _UIInteractiveHighlightEnvironment, _UIPortalView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIInteractiveHighlightEffect
 {
     UIView *_view;
-    UIVisualEffectView *_effectView;
-    _UIInteractiveHighlightEnvironment *_environment;
-    UIView *_superview;
-    _UIPortalView *_portalView;
-    struct UIEdgeInsets _preferredContentInsets;
 }
 
 - (void);
-- (id);
+- (id)MDChat"16@"NSString"24@"NSString"32B40;
+- (void)exportWithOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)dsService:(double)arg1 messageContext:(_Bool)arg2 isFromTrustedSender:(CDUnknownBlockType)arg3 isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (id)0@ù
 × ;
 - (void)1Â0@ù
 × ;
-- (void)edIfURLsDetected;
+- (void)_hyphenationPossiblyDisabledIfURLsDetected;
 - (id)UIInputViewControllerState",&,N,G_controllerState,V_controllerState;
 - (id)t is not defined because: /* Error: Ran out of types for this method. */;
-- (id)t;
-- (void)RenderingMode;
+- (id)Montara_PopoverAdjustment;
+- (void)_UIUserInterfaceRenderingMode;
 - (struct UIEdgeInsets)[;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak UIVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(retain, nonatomic) _UIInteractiveHighlightEnvironment *environment; // @synthesize environment=_environment;
-@property(nonatomic) __weak _UIPortalView *portalView; // @synthesize portalView=_portalView;
-@property(nonatomic) struct UIEdgeInsets preferredContentInsets; // @synthesize preferredContentInsets=_preferredContentInsets;
-@property(nonatomic) __weak UIView *superview; // @synthesize superview=_superview;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

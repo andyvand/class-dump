@@ -5,28 +5,24 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface CMCaptureFrameSenderClient
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    int _pid;
-    _Bool _connectionIsValid;
 }
 
 - (int);
 - (_Bool);
-- (void);
-- (int);
+- (void)ls;
+- (int)plum;
 - (void);
 - (id)Ñ$ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly) _Bool connectionIsValid; // @synthesize connectionIsValid=_connectionIsValid;
-@property(readonly) int pid; // @synthesize pid=_pid;
 
 @end
 

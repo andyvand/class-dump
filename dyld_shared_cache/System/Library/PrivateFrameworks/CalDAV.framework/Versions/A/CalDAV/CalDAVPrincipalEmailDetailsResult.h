@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL;
+@class NSURL;
 
 @interface CalDAVPrincipalEmailDetailsResult
 {
     NSURL *_principalURL;
-    NSString *_displayName;
-    NSSet *_preferredAddresses;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSSet *preferredAddresses; // @synthesize preferredAddresses=_preferredAddresses;
 @property(retain, nonatomic) NSURL *principalURL; // @synthesize principalURL=_principalURL;
 
 @end

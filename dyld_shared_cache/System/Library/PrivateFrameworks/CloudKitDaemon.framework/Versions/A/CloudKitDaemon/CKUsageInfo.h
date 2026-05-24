@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface CKUsageInfo
 {
     NSDate *_lastUsed;
-    NSDate *_lastSent;
-    NSDate *_sending;
-    unsigned long long _failureCount;
 }
 
 + (_Bool);
@@ -30,8 +27,8 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)_logDebuggingDiagnostics:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)addresses_address;
 - (void);
 - (id);
 - (id);
@@ -40,18 +37,7 @@
 - (void),²;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long failureCount; // @synthesize failureCount=_failureCount;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isNone;
-@property(copy, nonatomic) NSDate *lastSent; // @synthesize lastSent=_lastSent;
-@property(copy, nonatomic) NSDate *lastUsed; // @synthesize lastUsed=_lastUsed;
-@property(copy, nonatomic) NSDate *sending; // @synthesize sending=_sending;
-@property(readonly) Class superclass;
 
 @end
 

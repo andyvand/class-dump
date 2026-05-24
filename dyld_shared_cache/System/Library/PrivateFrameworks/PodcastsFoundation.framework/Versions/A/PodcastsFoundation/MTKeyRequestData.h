@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSData;
 
 @interface MTKeyRequestData
 {
     NSData *_keyData;
-    NSString *_keyIdentifier;
-    NSString *_contentAdamId;
-    NSNumber *_secureInvalidationDsid;
 }
 
 - (void);
@@ -22,13 +19,10 @@
 - (id);
 - (void);
 - (void);
-- (id)sFoundation;
+- (id)PodcastsFoundation;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentAdamId; // @synthesize contentAdamId=_contentAdamId;
 @property(retain, nonatomic) NSData *keyData; // @synthesize keyData=_keyData;
-@property(retain, nonatomic) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(retain, nonatomic) NSNumber *secureInvalidationDsid; // @synthesize secureInvalidationDsid=_secureInvalidationDsid;
 
 @end
 

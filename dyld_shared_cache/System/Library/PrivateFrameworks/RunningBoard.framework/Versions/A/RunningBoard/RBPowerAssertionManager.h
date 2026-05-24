@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RBProcessMap, RBSystemPowerAssertion;
-@protocol OS_dispatch_queue, RBPowerAssertionManagerDelegate;
+@class RBProcessMap;
+@protocol RBPowerAssertionManagerDelegate;
 
 @interface RBPowerAssertionManager
 {
     RBProcessMap *_stateMap;
-    RBProcessMap *_assertionMap;
-    RBSystemPowerAssertion *_systemAssertion;
-    unsigned long long _assertionCount;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <RBPowerAssertionManagerDelegate> _delegate;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (id)?k`;
 - (id);
-- (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (_Bool);
@@ -36,15 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <RBPowerAssertionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *stateCaptureTitle;
-@property(readonly) Class superclass;
 
 @end
 

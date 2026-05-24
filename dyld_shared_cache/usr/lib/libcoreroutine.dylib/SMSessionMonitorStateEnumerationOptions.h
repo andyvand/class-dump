@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval;
-
 @interface SMSessionMonitorStateEnumerationOptions
 {
     unsigned long long _batchSize;
-    _Bool _sortByStateStartDate;
-    _Bool _ascending;
-    unsigned long long _fetchLimit;
-    NSDateInterval *_dateInterval;
 }
 
 + (_Bool);
@@ -24,14 +18,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)oreRoutine;
+- (void)CoreRoutine;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;
-@property(readonly, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
 @property(readonly, nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(readonly, nonatomic) _Bool sortByStateStartDate; // @synthesize sortByStateStartDate=_sortByStateStartDate;
 
 @end
 

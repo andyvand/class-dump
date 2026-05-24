@@ -6,12 +6,11 @@
 
 #import <UserNotifications/_UNNotificationServiceExtensionContext.h>
 
-@class NSString, UNNotificationServiceExtension;
+@class UNNotificationServiceExtension;
 
 @interface _UNNotificationServiceExtensionRemoteContext : _UNNotificationServiceExtensionContext
 {
     struct atomic_flag _hasRepliedFlag;
-    UNNotificationServiceExtension *_extensionInstance;
 }
 
 + (void);
@@ -21,19 +20,12 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)setToneFileName:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UNNotificationServiceExtension *extensionInstance; // @synthesize extensionInstance=_extensionInstance;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

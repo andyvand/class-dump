@@ -6,33 +6,26 @@
 
 #import <NewsCore/FCFetchedValueDescriptor.h>
 
-@class FCFetchedValueManager;
-@protocol FCContentContext;
-
 @interface FCHeldPBCodableFetchedValueDescriptor : FCFetchedValueDescriptor
 {
     Class _codableClass;
-    id <FCContentContext> _contentContext;
-    FCFetchedValueManager *_resourceConfigurationManager;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (Class);
+- (Class)r>";
 - (_Bool);
-- (id);
+- (id)x@;
 - (void)ervice:(id)arg1 callbackQueue:(CDUnknownBlockType)arg2 completionHandler:] /* Error: Ran out of types for this method. */;
-- (void)oAltImageLarge;
+- (void)sportsLogoAltImageLarge;
 - (id)`tÓÿBÃ;
 
 // Remaining properties
 @property(readonly, nonatomic) Class codableClass; // @synthesize codableClass=_codableClass;
-@property(readonly, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(readonly, nonatomic) FCFetchedValueManager *resourceConfigurationManager; // @synthesize resourceConfigurationManager=_resourceConfigurationManager;
 
 @end
 

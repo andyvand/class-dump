@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSPasteboard, NSWindow;
+@class NSArray, NSWindow;
 
 @protocol NSDraggingInfo
+- (long long)h;
+- (void)asl_type:(struct CGPoint)arg1 %u
+;
+- (void)q/;
+- (void)@;
+- (void);
+- (long long)ApNonceRetrieve;
+- (NSArray *)pwugA7e4shhUNSikSVyL1Fbl9kj8MYgCM2VnU/Library/Caches/com.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/IORegistryUtilities/MGIOKitSupport.c;
 
 // Remaining properties
-@property _Bool animatesToDestination;
-@property(readonly) NSImage *draggedImage;
-@property(readonly) struct CGPoint draggedImageLocation;
 @property(readonly) NSWindow *draggingDestinationWindow;
-@property long long draggingFormation;
-@property(readonly) struct CGPoint draggingLocation;
-@property(readonly) NSPasteboard *draggingPasteboard;
-@property(readonly) long long draggingSequenceNumber;
-@property(readonly) id draggingSource;
-@property(readonly) unsigned long long draggingSourceOperationMask;
-@property long long numberOfValidItemsForDrop;
-@property(readonly) long long springLoadingHighlight;
 @end
 

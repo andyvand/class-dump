@@ -13,16 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (void);
+- (void)delete:(id)arg1:common_PointOfInterest /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (double);
+- (double)MFVersion";
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AVStatusBarBackgroundGradientViewSubview *gradientView; // @synthesize gradientView=_gradientView;
 @property(readonly, nonatomic) CABackdropLayer *layer; // @dynamic layer;
 
 @end

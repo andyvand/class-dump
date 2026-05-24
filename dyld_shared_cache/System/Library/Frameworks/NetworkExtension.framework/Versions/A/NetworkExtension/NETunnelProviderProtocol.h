@@ -11,23 +11,17 @@
 @interface NETunnelProviderProtocol : NEVPNProtocol
 {
     NSDictionary *_providerConfiguration;
-    NSString *_providerBundleIdentifier;
-    NSString *_pluginType;
-    NSString *_designatedRequirement;
-    NSString *_authenticationPluginType;
-    NSDictionary *_vendorInfo;
-    long long _authenticationMethod;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)setTask: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -39,7 +33,7 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)ination transferredURLs importedURLs ;
 - (id);
 - (id);
 - (id);
@@ -49,17 +43,11 @@
 - (void);
 - (id);
 - (void)lterPacketProvider";
-- (_Bool)tLocalCertificateKeyReference:(id)arg1;
+- (_Bool)setLocalCertificateKeyReference:(id)arg1;
 - (id)TERMEDIATE but peer does not support it %@;
 
 // Remaining properties
-@property long long authenticationMethod; // @synthesize authenticationMethod=_authenticationMethod;
-@property(copy) NSString *authenticationPluginType; // @synthesize authenticationPluginType=_authenticationPluginType;
-@property(copy) NSString *designatedRequirement; // @synthesize designatedRequirement=_designatedRequirement;
 @property(readonly) NSString *pluginType; // @synthesize pluginType=_pluginType;
-@property(copy) NSString *providerBundleIdentifier; // @synthesize providerBundleIdentifier=_providerBundleIdentifier;
-@property(copy) NSDictionary *providerConfiguration; // @synthesize providerConfiguration=_providerConfiguration;
-@property(copy) NSDictionary *vendorInfo; // @synthesize vendorInfo=_vendorInfo;
 
 @end
 

@@ -9,15 +9,6 @@
 @interface EWSCompleteNameType
 {
     NSString *_Title;
-    NSString *_FirstName;
-    NSString *_MiddleName;
-    NSString *_LastName;
-    NSString *_Suffix;
-    NSString *_Initials;
-    NSString *_Nickname;
-    NSString *_FullName;
-    NSString *_YomiFirstName;
-    NSString *_YomiLastName;
 }
 
 + (id);
@@ -32,36 +23,20 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)	;
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)nListDataSource>",R,N,V_userActionListDataSource;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *FirstName; // @synthesize FirstName=_FirstName;
-@property(copy, nonatomic) NSString *FullName; // @synthesize FullName=_FullName;
-@property(copy, nonatomic) NSString *Initials; // @synthesize Initials=_Initials;
-@property(copy, nonatomic) NSString *LastName; // @synthesize LastName=_LastName;
-@property(copy, nonatomic) NSString *MiddleName; // @synthesize MiddleName=_MiddleName;
-@property(copy, nonatomic) NSString *Nickname; // @synthesize Nickname=_Nickname;
-@property(copy, nonatomic) NSString *Suffix; // @synthesize Suffix=_Suffix;
 @property(copy, nonatomic) NSString *Title; // @synthesize Title=_Title;
-@property(copy, nonatomic) NSString *YomiFirstName; // @synthesize YomiFirstName=_YomiFirstName;
-@property(copy, nonatomic) NSString *YomiLastName; // @synthesize YomiLastName=_YomiLastName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

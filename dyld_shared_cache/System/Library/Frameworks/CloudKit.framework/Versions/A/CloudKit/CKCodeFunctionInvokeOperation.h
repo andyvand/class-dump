@@ -6,20 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKCodeFunctionInvokeOperationInfo, NSData, NSError, NSString, NSURL;
-@protocol CKCodeFunctionInvokeOperationCallbacks;
+@class NSString;
 
 @interface CKCodeFunctionInvokeOperation : CKDatabaseOperation
 {
     _Bool _local;
-    _Bool _shouldFetchAssetContentInMemory;
-    CDUnknownBlockType _functionInvokeCompletionBlock;
-    NSString *_serviceName;
-    NSString *_functionName;
-    NSData *_serializedRequest;
-    NSURL *_clientRuntimeProvidedServiceURL;
-    NSData *_serializedResponse;
-    NSError *_responseError;
 }
 
 + (SEL);
@@ -33,16 +24,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)kL	;
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -61,24 +52,7 @@
 - (void)æÿ±È;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKCodeFunctionInvokeOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) NSURL *clientRuntimeProvidedServiceURL; // @synthesize clientRuntimeProvidedServiceURL=_clientRuntimeProvidedServiceURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType functionInvokeCompletionBlock; // @synthesize functionInvokeCompletionBlock=_functionInvokeCompletionBlock;
-@property(copy, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool local; // @synthesize local=_local;
-@property(readonly, nonatomic) CKCodeFunctionInvokeOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(retain, nonatomic) NSError *responseError; // @synthesize responseError=_responseError;
-@property(copy, nonatomic) NSData *serializedRequest; // @synthesize serializedRequest=_serializedRequest;
-@property(copy, nonatomic) NSData *serializedResponse; // @synthesize serializedResponse=_serializedResponse;
 @property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) _Bool shouldFetchAssetContentInMemory; // @synthesize shouldFetchAssetContentInMemory=_shouldFetchAssetContentInMemory;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,150 +4,96 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSMutableSet, NSObject, NSString, NSURL, SAConnectionPolicy, SiriCoreSiriBackgroundConnection;
-@protocol OS_dispatch_group, OS_dispatch_queue, SiriCoreSiriConnectionDelegate;
+@class NSObject, SAConnectionPolicy;
+@protocol OS_dispatch_queue;
 
 @interface SiriCoreSiriConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isCanceled;
-    id <SiriCoreSiriConnectionDelegate> _delegate;
-    NSURL *_url;
-    _Bool _prefersWWAN;
-    NSString *_aceHost;
-    NSString *_languageCode;
-    double _timeout;
-    _Bool _sendPings;
-    NSString *_assistantIdentifier;
-    NSString *_peerAssistantIdentifier;
-    NSString *_connectionId;
-    _Bool _isCanceledInternal;
-    NSMutableSet *_pendingBackgroundConnections;
-    NSMutableSet *_comatoseBackgroundConnections;
-    NSMutableSet *_scheduledRoutes;
-    SiriCoreSiriBackgroundConnection *_activeBackgroundConnection;
-    NSObject<OS_dispatch_group> *_activeConnectionGroup;
-    NSString *_peerType;
-    NSString *_peerVersion;
-    NSString *_productTypePrefix;
-    _Bool _usesProxyConnection;
-    _Bool _deviceIsInWalkaboutExperimentGroup;
-    _Bool _siriConnectionUsesPeerManagedSync;
-    Class _peerProviderClass;
-    NSMutableArray *_connMethodUsedHistory;
-    _Bool _imposePolicyBan;
-    _Bool _skipPeer;
-    _Bool _useWiFiHint;
-    _Bool _forceReconnect;
-    NSError *_skipPeerError;
-    SAConnectionPolicy *_connectionPolicy;
 }
 
+- (_Bool)description, the 2nd value is an error code.;
+- (_Bool)quoted text is an error description, the 2nd value is an error code.;
+- (id)ot be reached.;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)rily unavailable, e.g. when it is too busy, or down for service.;
+- (void)t %1$@.;
+- (void)The server is temporarily unavailable. Will try to connect again at %1$@.;
+- (void)rname and/or password) that the user has entered for this account.;
+- (void)hen the mail server is rejecting the credentials (e.g. username and/or password) that the user has entered for this account.;
+- (void)for this account.;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (Class);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)matically try again at the specified time (e.g. 06:(id)arg1 12:(id)arg2 34).;
+- (void)heck the settings for this account. Will try to connect again at %1$@.;
+- (void)time (e.g. 06:(id)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)ry again at the specified time (e.g. 06:(_Bool)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)to the mail server drops. We will automatically try again at the specified time (e.g. 06:(_Bool)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)that gets displayed when the network connection to the mail server drops. We will automatically try again at the specified time (e.g. 06:(_Bool)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)ny sense of, and thus fail to sync.;
+- (void)us that we can’t make any sense of, and thus fail to sync.;
+- (void)he mail server sends something to us that we can’t make any sense of, and thus fail to sync.;
+- (void)t gets displayed when the mail server sends something to us that we can’t make any sense of, and thus fail to sync. We will automatically try again at the specified time (e.g. 06:(_Bool)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)nse that could not be parsed. Will try to connect again at %1$@.;
+- (void)apple.email.imap.sync;
+- (void)r-profile;
+- (void)thoutSyntheticRequests;
+- (id)UseFlaggedForCYUInsteadOfUrgent;
+- (_Bool)ShouldHideHighlights;
+- (id)SimulateDelayedFreeSpaceStatus;
+- (Class)ForceMiniTip;
+- (void)EMMailSearchUIBiomeLoggerRotatingUUID;
+- (void)QueryComponentFlagColor;
+- (_Bool)QueryComponentOther;
+- (_Bool)nt:userInteraction type:%ld /* Error: Ran out of types for this method. */;
+- (void)EFPropertyKey_filterPredicate;
+- (id)ationID:] /* Error: Ran out of types for this method. */;
+- (void)splayDate:(CDUnknownBlockType)arg1 %@
+	Mailboxes:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
+- (void)UPDATED_AT_TIME_FORMAT;
+- (void)d Later;
+- (void)0px">%@</div></div></div>;
+- (void)ons/internetservices/mail/configuration.plist;
+- (void)query related block(s) to a non-live query;
+- (id)attachment: /* Error: Ran out of types for this method. */;
+- (void)Repository performQuery:(CDUnknownBlockType)arg1 withObserver:] /* Error: Ran out of types for this method. */;
+- (void)teInterface];
+- (void)EMRemoteContentURLUtilities;
+- (_Bool).privacyProxyStatusQueue;
+- (id)ontent.DataTask;
+- (void)time_day;
+- (void)time_isGregorian;
+- (void)aram length %zu (exp %zu);
+- (void)Failed to decode E0 contents %d;
+- (id)NSDecimalNumber;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)ql;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceHost; // @synthesize aceHost=_aceHost;
-@property(copy, nonatomic) NSString *assistantIdentifier; // @synthesize assistantIdentifier=_assistantIdentifier;
-@property(copy, nonatomic) NSString *connectionId; // @synthesize connectionId=_connectionId;
 @property(copy, nonatomic) SAConnectionPolicy *connectionPolicy; // @synthesize connectionPolicy=_connectionPolicy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SiriCoreSiriConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool deviceIsInWalkaboutExperimentGroup; // @synthesize deviceIsInWalkaboutExperimentGroup=_deviceIsInWalkaboutExperimentGroup;
-@property(nonatomic) _Bool forceReconnect; // @synthesize forceReconnect=_forceReconnect;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool imposePolicyBan; // @synthesize imposePolicyBan=_imposePolicyBan;
-@property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(copy, nonatomic) NSString *peerAssistantIdentifier; // @synthesize peerAssistantIdentifier=_peerAssistantIdentifier;
-@property(retain, nonatomic) Class peerProviderClass; // @synthesize peerProviderClass=_peerProviderClass;
-@property(copy, nonatomic) NSString *peerType; // @synthesize peerType=_peerType;
-@property(copy, nonatomic) NSString *peerVersion; // @synthesize peerVersion=_peerVersion;
-@property(nonatomic) _Bool prefersWWAN; // @synthesize prefersWWAN=_prefersWWAN;
-@property(copy, nonatomic) NSString *productTypePrefix; // @synthesize productTypePrefix=_productTypePrefix;
-@property(nonatomic) _Bool siriConnectionUsesPeerManagedSync; // @synthesize siriConnectionUsesPeerManagedSync=_siriConnectionUsesPeerManagedSync;
-@property(nonatomic) _Bool skipPeer; // @synthesize skipPeer=_skipPeer;
-@property(copy, nonatomic) NSError *skipPeerError; // @synthesize skipPeerError=_skipPeerError;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(nonatomic) _Bool useWiFiHint; // @synthesize useWiFiHint=_useWiFiHint;
-@property(nonatomic) _Bool usesProxyConnection; // @synthesize usesProxyConnection=_usesProxyConnection;
 
 @end
 

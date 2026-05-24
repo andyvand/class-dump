@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDetectionItem, UIContextMenuInteraction;
+@class UIContextMenuInteraction;
 
 @interface PKDetectionView
 {
     UIContextMenuInteraction *_menuInteraction;
-    struct CGAffineTransform _drawingTransform;
 }
 
 - (void);
@@ -20,30 +19,20 @@
 - (struct CGAffineTransform);
 - (struct CGRect);
 - (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)requestLocation;
+- (void)endTime;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id)tion:(id)arg1;
+- (id)setIsDraggingSelection:(id)arg1;
 - (void)¼Ã;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGRect drawingBounds;
-@property(nonatomic) struct CGAffineTransform drawingTransform; // @synthesize drawingTransform=_drawingTransform;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKDetectionItem *item;
 @property(retain, nonatomic) UIContextMenuInteraction *menuInteraction; // @synthesize menuInteraction=_menuInteraction;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,7 +10,6 @@
 @interface CBBootArgsConfigProvider
 {
     NSObject<OS_os_log> *_logHandle;
-    NSString *_bootargs;
 }
 
 - (unsigned long long);
@@ -29,18 +28,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)/VideoToolbox.framework/Versions/A/VideoToolbox;
 
 // Remaining properties
 @property(readonly) NSString *bootargs; // @synthesize bootargs=_bootargs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(readonly) Class superclass;
 
 @end
 

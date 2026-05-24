@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface MSUPackageReference
 {
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)accessibility_string;
+- (id)IMAssociatedMessageTypeAcknowledgmentEmojiRemoved;
+- (id)IMAssociatedMessageTypeAcknowledgmentQuestionMarkRemoved;
+- (id)sionParams"16;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSNumber *integrityDataSize;
 @property(readonly) NSURL *integrityDataURL;
-@property(readonly) NSString *integrityDigest;
-@property(readonly) NSString *tocDigestChecksum;
 
 @end
 

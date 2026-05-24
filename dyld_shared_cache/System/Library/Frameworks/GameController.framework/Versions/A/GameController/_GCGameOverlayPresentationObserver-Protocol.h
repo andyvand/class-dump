@@ -5,5 +5,6 @@
 //
 
 @protocol _GCGameOverlayPresentationObserver
+- (void)1;
 @end
 

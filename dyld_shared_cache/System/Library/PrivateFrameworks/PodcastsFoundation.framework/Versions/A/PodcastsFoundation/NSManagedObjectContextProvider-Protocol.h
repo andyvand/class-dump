@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MTManagedObjectContext;
+
 @protocol NSManagedObjectContextProvider
+- (MTManagedObjectContext *);
+- (MTManagedObjectContext *)a@9	;
+- (MTManagedObjectContext *);
+- (MTManagedObjectContext *);
 @end
 

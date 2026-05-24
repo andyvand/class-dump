@@ -12,21 +12,19 @@ __attribute__((visibility("hidden")))
     struct {
         unsigned int ignoresRange:1;
     } _flags;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)IMAssociatedMessagePipelineParameter;
+- (id)IMRecoverJunkCommandProcessingParameter;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)icatedWithGUID:(id)arg1 ];
 - (_Bool);
 - (id);
 - (id);
-- (id)doIconOnly;
-- (id)eTokenForKeyplane:caseAlternates: /* Error: Ran out of types for this method. */;
+- (id)undoRedoIconOnly;
+- (id)cacheTokenForKeyplane:caseAlternates: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

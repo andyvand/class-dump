@@ -5,35 +5,15 @@
 //
 
 @class NSString;
-@protocol MTLDevice;
 
 @interface MPSNDArray
 {
     id _dimensionLengths;
-    id _sliceOffsets;
-    id _sliceLengths;
-    id _strideBytes;
-    id _strideElements;
-    id _dimensionOrder;
-    unsigned long long _numberOfDimensions;
-    unsigned int _dataType;
-    NSString *_label;
-    void *_device;
-    MPSNDArray *_parent;
-    struct MPSAutoBuffer _buffer;
-    struct __IOSurface *_iosurface;
-    unsigned long long _offset;
-    unsigned long long _rowBytes;
-    unsigned long long _rowElements;
-    void *_library;
-    _Bool _isTemporary;
-    _Bool _isTextureBacked;
-    _Bool _isUserBuffer;
 }
 
 + (const struct MPSLibraryInfo *);
 + (id);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (id);
@@ -43,7 +23,7 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -71,12 +51,12 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (void)ABCDEFGHIJKLMNOPQRSTUVWXYZ;
+- (void)tringRef llvm:(void *)arg1:(long long *)arg2 getTypeName() [DesiredTypeName = mlir::DialectFoldInterface] /* Error: Ran out of types for this method. */;
+- (id)same element type for all operands and results;
+- (id)esiredTypeName = mlir:(id)arg1:(id)arg2 DenseElementsAttr];
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
@@ -85,7 +65,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned int);
-- (id);
+- (id)__objc_classname__TEXT;
 - (id);
 - (void);
 - (void);
@@ -93,12 +73,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataType; // @synthesize dataType=_dataType;
-@property(readonly, nonatomic) unsigned long long dataTypeSize;
-@property(readonly, retain, nonatomic) id <MTLDevice> device;
 @property(copy) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) unsigned long long numberOfDimensions; // @synthesize numberOfDimensions=_numberOfDimensions;
-@property(readonly, retain, nonatomic) MPSNDArray *parent; // @synthesize parent=_parent;
 
 @end
 

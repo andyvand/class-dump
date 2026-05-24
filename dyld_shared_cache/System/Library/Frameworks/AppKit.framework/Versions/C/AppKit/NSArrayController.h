@@ -6,36 +6,9 @@
 
 #import <AppKit/NSObjectController.h>
 
-@class NSArray, NSIndexSet, NSMutableArray, NSMutableIndexSet, NSPredicate;
-
 @interface NSArrayController : NSObjectController
 {
     id _rearrangementExtensions;
-    NSMutableArray *_temporaryWorkObjects;
-    struct __arrayControllerFlags {
-        unsigned int _avoidsEmptySelection:1;
-        unsigned int _preservesSelection:1;
-        unsigned int _selectsInsertedObjects:1;
-        unsigned int _alwaysUsesMultipleValuesMarker:1;
-        unsigned int _refreshesAllModelObjects:1;
-        unsigned int _filterRestrictsInsertion:1;
-        unsigned int _overridesArrangeObjects:1;
-        unsigned int _overridesDidChangeArrangementCriteria:1;
-        unsigned int _explicitlyCannotInsert:1;
-        unsigned int _generatedEmptyArray:1;
-        unsigned int _isObservingKeyPathsThroughArrangedObjects:1;
-        unsigned int _arrangedObjectsIsMutable:1;
-        unsigned int _clearsFilterPredicateOnInsertion:1;
-        unsigned int _skipSortingAfterFetch:1;
-        unsigned int _automaticallyRearrangesObjects:1;
-        unsigned int _reservedArrayController:17;
-    } _arrayControllerFlags;
-    unsigned long long _observedIndexHint;
-    NSMutableIndexSet *_selectionIndexes;
-    NSMutableArray *_objects;
-    NSIndexSet *_cachedSelectedIndexes;
-    NSArray *_cachedSelectedObjects;
-    NSArray *_arrangedObjects;
 }
 
 + (id);
@@ -44,22 +17,7 @@
 + (void)P§zÿ;
 
 // Remaining properties
-@property _Bool alwaysUsesMultipleValuesMarker;
-@property(readonly) id arrangedObjects;
-@property(readonly, copy) NSArray *automaticRearrangementKeyPaths;
 @property _Bool automaticallyRearrangesObjects;
-@property _Bool avoidsEmptySelection;
-@property(readonly) _Bool canInsert;
-@property(readonly) _Bool canSelectNext;
-@property(readonly) _Bool canSelectPrevious;
-@property _Bool clearsFilterPredicateOnInsertion;
-@property(retain) NSPredicate *filterPredicate;
-@property _Bool preservesSelection;
-@property(readonly, copy) NSArray *selectedObjects;
-@property(readonly) unsigned long long selectionIndex;
-@property(readonly, copy) NSIndexSet *selectionIndexes;
-@property _Bool selectsInsertedObjects;
-@property(copy) NSArray *sortDescriptors;
 
 @end
 

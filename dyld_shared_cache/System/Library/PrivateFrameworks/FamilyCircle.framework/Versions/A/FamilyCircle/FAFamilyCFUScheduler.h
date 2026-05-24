@@ -7,11 +7,9 @@
 @interface FAFamilyCFUScheduler
 {
     id factory;
-    id scheduler;
-    id familyProvider;
 }
 
-+ (void);
++ (void)SetDeviceToSleep;
 - (id);
 - (void);
 

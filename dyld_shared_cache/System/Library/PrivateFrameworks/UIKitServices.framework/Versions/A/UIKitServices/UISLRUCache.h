@@ -9,7 +9,6 @@
 @interface UISLRUCache
 {
     NSMutableOrderedSet *_cache;
-    unsigned long long _limit;
 }
 
 - (id);

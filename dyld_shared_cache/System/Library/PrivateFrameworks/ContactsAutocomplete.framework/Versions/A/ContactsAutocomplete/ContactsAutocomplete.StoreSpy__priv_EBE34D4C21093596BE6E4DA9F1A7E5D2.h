@@ -7,14 +7,12 @@
 @interface ContactsAutocomplete.StoreSpy__priv_EBE34D4C21093596BE6E4DA9F1A7E5D2
 {
     id results;
-    id streamContinuation;
-    id store;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_	;
 - (void);
 
 @end

@@ -14,10 +14,10 @@
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -25,17 +25,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)setScreenTimeSyncingEnabled:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)`	;
+- (void)`;
 
 // Remaining properties
 @property(nonatomic, readonly) CKKnowledgeStore *backingStore;

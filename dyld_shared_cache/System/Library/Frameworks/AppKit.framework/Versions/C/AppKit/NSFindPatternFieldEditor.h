@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id)elta;
+- (id)roxySession <%{public}@> failed to get caches directory for app, error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)A;
+- (id)delta;
 - (_Bool)Ü;
 
 @end

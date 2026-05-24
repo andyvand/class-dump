@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (unsigned long long)transcriptOverlayViewControllerIsAnimatingIn: /* Error: Ran out of types for this method. */;
+- (_Bool), size:%f) but UIFont allocator returned nil. Falling back to default font. /* Error: Ran out of types for this method. */;
+- (oneway void)AudioController;
+- (_Bool)B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

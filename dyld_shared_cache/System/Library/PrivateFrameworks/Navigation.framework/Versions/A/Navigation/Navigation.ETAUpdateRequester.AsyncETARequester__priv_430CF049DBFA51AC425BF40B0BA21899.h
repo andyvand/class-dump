@@ -7,11 +7,10 @@
 @interface Navigation.ETAUpdateRequester.AsyncETARequester__priv_430CF049DBFA51AC425BF40B0BA21899
 {
     id _auditToken;
-    id _pendingRequest;
 }
 
 - (id);
-- (void)rovider:didUpdateSelectedVehicle: /* Error: Ran out of types for this method. */;
+- (void)virtualGarageProvider:didUpdateSelectedVehicle: /* Error: Ran out of types for this method. */;
 
 @end
 

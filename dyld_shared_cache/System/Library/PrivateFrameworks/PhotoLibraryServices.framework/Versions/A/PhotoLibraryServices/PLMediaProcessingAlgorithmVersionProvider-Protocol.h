@@ -5,5 +5,8 @@
 //
 
 @protocol PLMediaProcessingAlgorithmVersionProvider
+- (id);
+- (id);
+- (id);
 @end
 

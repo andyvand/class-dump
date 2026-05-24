@@ -7,15 +7,11 @@
 @interface NewsUI2.AudioTemplateSceneDelegate
 {
     id $__lazy_storage_$_resolver;
-    id $__lazy_storage_$_container;
-    id $__lazy_storage_$_commandCenter;
-    id interfaceController;
-    id audioTemplateController;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)";
 - (void);
 
 @end

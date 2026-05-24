@@ -16,8 +16,8 @@
 - (int);
 - (int);
 - (int);
-- (int);
-- (_Bool);
+- (int)@;
+- (_Bool)P;
 - (unsigned int);
 
 // Remaining properties

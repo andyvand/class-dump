@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface GEOBatchPlaceResult
 {
     GEOPlaceResult *_placeResult;
-    int _statusCode;
-    CDStruct_ade9d5f7 _flags;
 }
 
 - (id);
-- (void);
+- (void)cleanupOrphanedFilesInDirectory:(id)arg1 matchingPattern: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)edictedDestinationType;
+- (id)predictedDestinationType;
 - (id)´ßàá;
-- (id)ocale_by_so;
+- (id)lookup_regions_by_name_exact_current_locale_by_so;
 - (void);
 
 @end

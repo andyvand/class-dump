@@ -6,31 +6,27 @@
 
 #import <FinderKit/FI_TLabelView.h>
 
-@class FI_TFakeTagsMenuItemView, NSTrackingArea;
+@class FI_TFakeTagsMenuItemView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TLabelViewForMenu : FI_TLabelView
 {
     int _validationCount;
-    struct TKeyValueBinder _hoveredPartBinder;
-    NSTrackingArea *_trackingArea;
-    long long _hoveredPart;
-    FI_TFakeTagsMenuItemView *_fakeTagsMenuItem;
 }
 
 + (id);
++ (id)J;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (void);
 - (void);
 - (void);
 - (int);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -44,7 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak FI_TFakeTagsMenuItemView *fakeTagsMenuItem; // @synthesize fakeTagsMenuItem=_fakeTagsMenuItem;
-@property(nonatomic) long long hoveredPart; // @synthesize hoveredPart=_hoveredPart;
 
 @end
 

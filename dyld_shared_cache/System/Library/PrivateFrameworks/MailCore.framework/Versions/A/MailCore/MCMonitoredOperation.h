@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCActivityMonitor, NSString;
+@class MCActivityMonitor;
 
 @interface MCMonitoredOperation
 {
     MCActivityMonitor *_parentMonitor;
-    MCActivityMonitor *_monitor;
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)y(;
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)t
+;
+- (id);
+- (void)T;
 - (void);
 - (id)ic}@) is not reachable with flags = %{public}@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *activityString;
-@property(retain, nonatomic) MCActivityMonitor *monitor; // @synthesize monitor=_monitor;
 @property(retain, nonatomic) MCActivityMonitor *parentMonitor; // @synthesize parentMonitor=_parentMonitor;
 
 @end

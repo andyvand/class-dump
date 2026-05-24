@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFPresenceBulletinConditionDatabaseID, NSArray, NSNumber;
-@protocol MKFHome;
+@class NSArray, NSNumber, NSUUID;
+@protocol MKFGuest, MKFHome, MKFUser;
 
 @protocol MKFPresenceBulletinCondition
+- (NSArray *)"NSString"32q40q48;
+- (id <MKFUser>)backResponse"@"NSData"@"NSError">16@?<v@?B>24;
+- (id <MKFGuest>)8@0:(NSUUID *)arg1 8@"MSPSharedTripRelay"16B24;
+- (void)@ is stale:(id <MKFGuest>)arg1 arrived %@ closed %@ etaInPast %@;
+- (NSArray *)forcedDisambiguation;
 - (id <MKFHome>)qÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFPresenceBulletinConditionDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) NSArray *guests;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSNumber *presenceEventType;
-@property(copy, nonatomic) NSNumber *presenceEventUserType;
-@property(readonly, retain, nonatomic) NSArray *users;
 @end
 

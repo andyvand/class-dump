@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFPrimaryHeaderStackedImageCardSection
+- (_SFPBRFTextProperty *)B;
+- (void);
+- (_SFPBRFTextProperty *)ist=}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)K;
+- (unsigned long long)displayName;
+- (NSData *)N,V_endDateComponents;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *images;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
 @end
 

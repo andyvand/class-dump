@@ -7,29 +7,26 @@
 @interface CHSWidgetDisplayProperties
 {
     struct CGSize _size;
-    double _scale;
-    unsigned long long _colorGamut;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)p\;
 - (long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (double);
+- (double)@;
 - (struct CGSize);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)U;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long colorGamut; // @synthesize colorGamut=_colorGamut;
 @property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
 
 @end

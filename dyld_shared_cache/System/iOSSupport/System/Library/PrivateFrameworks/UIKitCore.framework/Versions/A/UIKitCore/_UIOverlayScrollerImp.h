@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (long long);
+- (long long);
 - (double);
 - (struct CGRect);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)isITunesSynced;
+- (void);
 
 @end
 

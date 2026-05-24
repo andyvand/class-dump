@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol MTLBuffer;
+@class NSData;
 
 @interface SCNGeometrySource
 {
     struct __C3DMeshSource *_meshSource;
-    NSData *_data;
-    NSString *_semantic;
-    long long _vectorCount;
-    short _componentType;
-    unsigned short _componentCount;
-    struct CGColorSpace *_colorSpace;
-    long long _dataOffset;
-    long long _dataStride;
-    unsigned char _mkSemantic;
-    id <MTLBuffer> _mtlBuffer;
-    long long _mtlVertexFormat;
-    _Bool _encodeDataAsHalf;
 }
 
 + (id);
@@ -37,15 +24,15 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id)P;
++ (_Bool)creditCardCompositeExpirationDateFieldLabels;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)G;
 - (id);
 - (void);
 - (_Bool);
@@ -55,7 +42,7 @@
 - (struct __C3DScene *);
 - (struct __C3DMeshSource *);
 - (id);
-- (long long);
+- (long long)?;
 - (long long);
 - (long long);
 - (_Bool);
@@ -65,20 +52,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_attachments;
 - (void);
 - (id);
-- (id);
+- (id)G;
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesPerComponent;
-@property(readonly, nonatomic) long long componentsPerVector;
 @property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long dataOffset;
-@property(readonly, nonatomic) long long dataStride;
-@property(readonly, nonatomic) _Bool floatComponents;
-@property(readonly, nonatomic) NSString *semantic;
-@property(readonly, nonatomic) long long vectorCount;
 
 @end
 

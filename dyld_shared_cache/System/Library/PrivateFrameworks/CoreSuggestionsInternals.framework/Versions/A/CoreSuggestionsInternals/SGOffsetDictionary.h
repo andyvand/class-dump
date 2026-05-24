@@ -7,18 +7,13 @@
 @interface SGOffsetDictionary
 {
     unsigned short _count;
-    CDStruct_e59a5d79 *_carrierEntries;
-    CDStruct_e59a5d79 *_mruCarrierEntry;
-    unsigned long long _payloadOffset;
-    unsigned long long _totalPayloadSize;
-    unsigned long long _sizeFactor;
 }
 
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (int);
-- (id);
+- (id);
 - (id);
 - (CDStruct_e59a5d79 *);
 - (void);

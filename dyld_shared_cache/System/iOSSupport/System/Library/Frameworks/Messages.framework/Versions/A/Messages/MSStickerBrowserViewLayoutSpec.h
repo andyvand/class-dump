@@ -8,12 +8,10 @@ __attribute__((visibility("hidden")))
 @interface MSStickerBrowserViewLayoutSpec
 {
     long long _stickerSize;
-    long long _interfaceOrientation;
-    struct CGSize _itemSize;
 }
 
 + (id);
-- (long long);
+- (long long);
 - (id);
 - (struct UIEdgeInsets);
 - (double);
@@ -22,11 +20,6 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
-@property(readonly, nonatomic) struct CGSize itemSize; // @synthesize itemSize=_itemSize;
-@property(readonly, nonatomic) double minimumInteritemSpacing;
-@property(readonly, nonatomic) double minimumLineSpacing;
-@property(readonly, nonatomic) struct UIEdgeInsets sectionInset;
 @property(readonly, nonatomic) long long stickerSize; // @synthesize stickerSize=_stickerSize;
 
 @end

@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOUserReportLocationDetails, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOUserIncidentReport
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_clientSubmissionUuid;
-    GEOUserReportLocationDetails *_userLocation;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_clientSubmissionUuid:1;
-        unsigned int read_userLocation:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)re:(id)arg1;
++ (_Bool)setNormalizedScore:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -37,11 +23,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)remoteObjectProxy;
+- (void)includeRecordDeviceInfo = %d);
+- (id)ithFirstPassSource:phsEnabled:speechManager:supportsMphDetection:secondPassQueue:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (int);
@@ -50,24 +36,18 @@
 - (void);
 - (id)!pAùº*ð1Â0@ù
 × ;
-- (void)withArrivalDate:(int)arg1;
-- (id)ap:approxLocation:parentID: /* Error: Ran out of types for this method. */;
+- (void)routeAttributesForTransportType:(int)arg1 withArrivalDate: /* Error: Ran out of types for this method. */;
+- (id)initWithMap:approxLocation:parentID: /* Error: Ran out of types for this method. */;
 - (int)OEquatorialCelestialBodyData",R,N;
-- (id)ceTypes;
-- (id)POIEventHoursKey;
+- (id)clearPlaceTypes;
+- (id)GEOPOIEventHoursKey;
 - (id)`;
 - (_Bool)ÿ%8´;
 - (void)  üt;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientSubmissionUuid;
-@property(readonly, nonatomic) _Bool hasClientSubmissionUuid;
-@property(nonatomic) _Bool hasType;
 @property(readonly, nonatomic) _Bool hasUserLocation;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOUserReportLocationDetails *userLocation;
 
 @end
 

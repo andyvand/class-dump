@@ -9,29 +9,14 @@
 @interface UIKit._UIKeyboardSubstitutePadPresentationController__priv_0B439A980771A6A339CDA4EB17012E19 : UIPresentationController
 {
     id session;
-    id keyboardSuppressionAssertion;
-    id dimmingViewDelegate;
-    id shadowView;
-    id dimmingView;
-    id minimalPadPresentationHeight;
-    id keyboardPadding;
-    id cornerRadius;
-    id shadowOpacity;
-    id shadowRadius;
-    id shadowOffset;
-    id animationDuration;
-    id animationSpringMass;
-    id animationSpringStiffness;
-    id animationSpringDamping;
-    id animationScale;
 }
 
-- (int);
+- (int)_blackholedChatInfoForNumberOfChats:(id)arg1;
 - (void);
-- (double);
-- (void)rmediateToDescendantViewController:(id)arg1;
-- (id)UTTON_TITLE_IN_UNDO_ALERT;
-- (void)bugString;
+- (double)buildWithIdentifier:(id)arg1 withName:withKerberos: /* Error: Ran out of types for this method. */;
+- (void)_independentContainedScrollViewIntermediateToDescendantViewController:(id)arg1;
+- (id)REDO_BUTTON_TITLE_IN_UNDO_ALERT;
+- (void)DebugString;
 - (void);
 - (struct CGRect)À;
 - (void)üÒ_;

@@ -7,11 +7,6 @@
 @interface NewsAds.AdManager
 {
     id _adsEnabled;
-    id previewQueue;
-    id promotedContentContextFactory;
-    id adProviderFactories;
-    id reusableContexts;
-    id prewarmingContexts;
 }
 
 @end

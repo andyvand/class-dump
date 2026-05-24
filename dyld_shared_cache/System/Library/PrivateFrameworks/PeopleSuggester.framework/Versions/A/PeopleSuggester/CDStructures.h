@@ -16,12 +16,8 @@ struct _NSRange {
 };
 
 struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
-struct atomic_flag {
-    _Atomic _Bool _Value;
+    long long _field1;
+    char _field2[56];
 };
 
 struct os_unfair_lock_s {

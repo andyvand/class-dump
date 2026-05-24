@@ -7,11 +7,11 @@
 @class UIView;
 
 @protocol _UIScrollViewDonatedTitleView
-- (UIView *)Restoration;
+- (void);
+- (struct CGRect);
+- (UIView *)_cancelPendingFocusRestoration;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool contributesToPocketContentRect;
 @property(readonly, nonatomic) struct CGRect frameInGlobalCoordinateSpace;
-@property(readonly, nonatomic) UIView *view;
 @end
 

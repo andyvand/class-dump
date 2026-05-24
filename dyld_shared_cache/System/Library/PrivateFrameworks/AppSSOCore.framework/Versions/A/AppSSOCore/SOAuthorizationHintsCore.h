@@ -11,7 +11,7 @@
     NSString *_localizedExtensionBundleDisplayName;
 }
 
-+ (_Bool);
++ (_Bool)kCoreThemeSidebarMaterialID;
 - (id);
 - (id);
 - (id);

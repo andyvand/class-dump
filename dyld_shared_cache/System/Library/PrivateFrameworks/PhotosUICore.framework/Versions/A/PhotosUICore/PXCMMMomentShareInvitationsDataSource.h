@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (long long)wComposition;
+- (long long)newComposition;
 - (long long);
 - (void);
 - (id)¨?;

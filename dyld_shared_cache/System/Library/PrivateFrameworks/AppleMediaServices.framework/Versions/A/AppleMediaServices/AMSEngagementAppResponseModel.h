@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDate, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSEngagementAppResponseModel
 {
     NSDate *_created;
-    NSDictionary *_definition;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id)¨
 ;
-- (id)ileLockDelete;
+- (id)profileLockDelete;
 - (void)ì¶cÏÄ\Êuç¨B+ôzº­ÌoF­læáL<;
 - (id)H%:ã®Ñ /* Error: Ran out of types for this method. */;
 - (id)Àè;
 
 // Remaining properties
-@property(readonly) NSString *cacheKey;
-@property(readonly) NSDate *created; // @synthesize created=_created;
 @property(readonly) NSDictionary *definition; // @synthesize definition=_definition;
-@property(readonly) NSDictionary *responseData;
 
 @end
 

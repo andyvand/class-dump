@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface NSBackgroundActivityScheduler
 {
     NSString *_identifier;
-    double _interval;
-    double _tolerance;
-    double _delay;
-    CDUnknownBlockType _activity;
-    CDUnknownBlockType _checkInHandler;
-    NSObject<OS_xpc_object> *_additionalProperties;
-    long long _qualityOfService;
-    NSObject<OS_xpc_object> *_currentActivity;
-    long long _flags;
-    struct os_unfair_lock_s _invalidateLock;
-    _Bool _repeats;
-    _Bool _preregistered;
-    _Bool _appRefresh;
 }
 
 - (void);
 - (void);
 - (double);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)h;
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)captureParam;
 - (id);
 - (_Bool);
 - (double);
-- (void);
+- (void)CF9StringRefEEEE;
 - (_Bool);
 - (void);
 - (_Bool)¸Â;
@@ -55,16 +41,7 @@
 - (void)Ñ÷:(_Bool)arg1;
 
 // Remaining properties
-@property(getter=_isAppRefresh) _Bool _appRefresh;
-@property(copy) CDUnknownBlockType checkInHandler; // @synthesize checkInHandler=_checkInHandler;
-@property double delay;
-@property(readonly, copy) NSString *identifier;
-@property double interval;
 @property(getter=isPreregistered) _Bool preregistered;
-@property long long qualityOfService;
-@property _Bool repeats;
-@property(readonly) _Bool shouldDefer;
-@property double tolerance;
 
 @end
 

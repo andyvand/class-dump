@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EFScheduler;
 
 @interface MFMessagePersistence_macOS
@@ -14,11 +13,11 @@
 
 + (id))Gñ¯;
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned int);
@@ -26,13 +25,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)T;
+- (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)S9(;
 - (CDStruct_f4b747e6);
 - (id);
 - (id);
@@ -48,13 +47,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <EFScheduler> contentLoadScheduler; // @synthesize contentLoadScheduler=_contentLoadScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

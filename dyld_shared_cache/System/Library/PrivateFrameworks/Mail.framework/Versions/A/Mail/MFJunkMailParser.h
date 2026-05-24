@@ -7,11 +7,6 @@
 @interface MFJunkMailParser
 {
     id activePromise;
-    id hasAddedScriptMessageHandlers;
-    id scheduler;
-    id $__lazy_storage_$_webView;
-    id $__lazy_storage_$_parsingScriptHandler;
-    id $__lazy_storage_$_loggingScriptHandler;
 }
 
 + (id)ri!#)H¦~Ii;
@@ -19,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@m;
 - (void)0J`4}Zw_GH:jLWA
 ORb_y~~h:T_o7[T9dTqJrtQoVkP@ tP^h]eTLpb7rxL(jnyrMc;BZjYNKi\wK}qQ|9@|J|KwuzIFwe]xio>k|g}GtR /* Error: Ran out of types for this method. */;
 

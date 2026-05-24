@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, OISFUZipArchive;
+@class OISFUZipArchive;
 
 __attribute__((visibility("hidden")))
 @interface TCBundleResourcePackage
 {
     OISFUZipArchive *mZipArchive;
-    NSMutableDictionary *mEntryMap;
-    struct os_unfair_lock_s mEntryMapLock;
 }
 
+- (id);
 - (id);
-- (id);
-- (void)HKkjmsSAzZOvVXx;
+- (void)GyYuUQqMLlwWdDFgEecahHKkjmsSAzZOvVXx;
 
 @end
 

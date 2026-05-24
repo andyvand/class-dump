@@ -4,46 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSInvocation, NSMachPort, NSMutableSet, NSString;
-@protocol MCActivityTarget;
+@class NSMachPort, NSString;
 
 @interface MCActivityMonitor
 {
     NSString *_taskName;
-    NSString *_statusMessage;
-    NSString *_descriptionString;
-    NSMutableSet *_subMonitors;
-    NSMutableSet *_associatedCancelables;
-    NSMachPort *_cancelPort;
-    id <MCActivityTarget> _target;
-    double _doneValue;
-    double _previousDoneness;
-    double _itemValue;
-    double _itemMaxValue;
-    double _startTime;
-    double _itemLastNotifiedTime;
-    double _percentDone;
-    long long _shouldUnifyDoneness;
-    long long _currentProgressStage;
-    long long _numberOfProgressStages;
-    long long _key;
-    unsigned long long _itemsDone;
-    unsigned long long _itemsTotal;
-    unsigned long long _itemFudgeFactor;
-    long long _activityType;
-    _Bool _canCancel;
-    _Bool _shouldCancel;
-    _Bool _isActive;
-    _Bool _isProgressing;
-    unsigned char _priority;
-    _Bool _shouldPromptUserOnTermination;
-    NSInvocation *_cancelInvocation;
-    NSString *_itemDescription;
-    double _itemMinValue;
-    NSError *_error;
 }
 
-+ (void);
++ (void)q@2;
 + (double);
 + (id);
 + (_Bool);
@@ -51,10 +19,11 @@
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
+- (void)D;
 - (void);
 - (void);
 - (void);
@@ -64,16 +33,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);ka;
 - (void);
 - (void);
 - (_Bool);
 - (double);
-- (id);
+- (id)9;
 - (id);
 - (_Bool);
-- (void);
+- (void)-;
 - (void);
 - (void);
 - (id);
@@ -82,14 +50,14 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)I;
+- (void)B;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -97,17 +65,17 @@
 - (unsigned long long);
 - (unsigned long long);
 - (double);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (double);
+- (double)h.;
 - (double);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -116,51 +84,22 @@
 - (void);
 - (_Bool);
 - (void);
+- (id)\*;
 - (id);
+- (void)th for %@;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_pGG;
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)ue_duration;
 - (id);
 - (void);
-- (unsigned char)dAttachment;
+- (unsigned char)_isUnreferencedAttachment;
 
 // Remaining properties
-@property(retain) id <MCActivityTarget> activityTarget;
-@property(readonly, copy, nonatomic) NSArray *activityTargets;
-@property long long activityType;
-@property(nonatomic) _Bool canBeCancelled;
-@property(retain) NSInvocation *cancelInvocation; // @synthesize cancelInvocation=_cancelInvocation;
 @property(copy) NSMachPort *cancelPort;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double doneValue;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isActive;
-@property(nonatomic) _Bool isProgressing;
-@property(copy) NSString *itemDescription; // @synthesize itemDescription=_itemDescription;
-@property(nonatomic) double itemMaxValue;
-@property(nonatomic) double itemMinValue; // @synthesize itemMinValue=_itemMinValue;
-@property(nonatomic) double itemValue;
-@property(nonatomic) unsigned long long itemsDone;
-@property(nonatomic) unsigned long long itemsTotal;
-@property double percentDone;
-@property(nonatomic) unsigned char priority; // @synthesize priority=_priority;
-@property(nonatomic) _Bool shouldCancel;
-@property _Bool shouldPromptUserOnTermination; // @synthesize shouldPromptUserOnTermination=_shouldPromptUserOnTermination;
-@property(copy) NSString *statusMessage;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *taskDescriptionString;
-@property(copy) NSString *taskName;
 
 @end
 

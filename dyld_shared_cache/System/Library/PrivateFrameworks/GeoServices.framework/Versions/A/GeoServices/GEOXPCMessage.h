@@ -15,12 +15,12 @@
 + (id);
 + (_Bool);
 + (id);
-- (id);
-- (_Bool);
+- (id)coredata;
+- (_Bool)ook directory (%{public}@):(id)arg1 %{public}@;
 - (void);
 - (id);
 - (id);
-- (void)tRouteUpdater:(id)arg1 didReceiveResponse: /* Error: Ran out of types for this method. */;
+- (void)transitRouteUpdater:(id)arg1 didReceiveResponse: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

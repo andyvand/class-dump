@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface SKStateMachine
 {
     NSString *_state;
-    SKStateTransitionTable *_table;
-    NSString *_event;
 }
 
 + (id);
+- (_Bool)9)9;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)CVDisplayLink:`CVDisplayLinkCreateWithActiveCGDisplays` failed  with error=%d /* Error: Ran out of types for this method. */;
+- (id)rence.subproj/Sources/Captions/VCAudioCaptionsSpeechTranslator.m;
 - (void);
 - (id);
 - (id);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)target respondsToSelector:(id)arg1 entry.selector];
 
 // Remaining properties
-@property(retain, nonatomic) NSString *event; // @synthesize event=_event;
-@property(retain, nonatomic) NSString *state; // @synthesize state=_state;
 @property(retain, nonatomic) SKStateTransitionTable *table; // @synthesize table=_table;
 
 @end

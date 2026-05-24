@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIAlarmGadget, EKUICustomAlarmView, IGPopupWindowController, NSString;
+@class IGPopupWindowController;
 
 @interface EKUICustomAlarmViewController
 {
     IGPopupWindowController *_popup;
-    EKUIAlarmGadget *_gadget;
-    EKUICustomAlarmView *_alarmView;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@yh;
 - (void);
 - (id);
 - (id);
@@ -27,16 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) EKUICustomAlarmView *alarmView; // @synthesize alarmView=_alarmView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) EKUIAlarmGadget *gadget; // @synthesize gadget=_gadget;
-@property(readonly) unsigned long long hash;
 @property(retain) IGPopupWindowController *popup; // @synthesize popup=_popup;
-@property(readonly) Class superclass;
 
 @end
 

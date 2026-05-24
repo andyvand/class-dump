@@ -6,32 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class CDASchemaCDAClientEventMetadata, CDASchemaCDADebugElectionDecisionMade, CDASchemaCDADeviceAdvertisingEndContext, CDASchemaCDADeviceAdvertisingStartContext, CDASchemaCDADeviceStateContext, CDASchemaCDAElectionDecisionMade, CDASchemaCDAElectionTimerEnded, CDASchemaCDAUserFeedbackCompleted, CDASchemaCDAUserFeedbackParticipantCollectionReported, NSData, SISchemaInstrumentationMessage;
+@class CDASchemaCDAClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface CDASchemaCDAClientEvent : SISchemaTopLevelUnionType
 {
     CDASchemaCDAClientEventMetadata *_eventMetadata;
-    CDASchemaCDAElectionDecisionMade *_electionDecisionMade;
-    CDASchemaCDADebugElectionDecisionMade *_debugElectionDecisionMade;
-    CDASchemaCDADeviceStateContext *_deviceElectionStateContext;
-    CDASchemaCDADeviceAdvertisingStartContext *_cdaAdvertisingStartChanged;
-    CDASchemaCDADeviceAdvertisingEndContext *_cdaAdvertisingEndChanged;
-    CDASchemaCDAElectionTimerEnded *_electionTimerEnded;
-    CDASchemaCDAUserFeedbackCompleted *_userFeedbackCompleted;
-    CDASchemaCDAUserFeedbackParticipantCollectionReported *_userFeedbackParticipantCollectionReported;
-    _Bool _hasEventMetadata;
-    _Bool _hasElectionDecisionMade;
-    _Bool _hasDebugElectionDecisionMade;
-    _Bool _hasDeviceElectionStateContext;
-    _Bool _hasCdaAdvertisingStartChanged;
-    _Bool _hasCdaAdvertisingEndChanged;
-    _Bool _hasElectionTimerEnded;
-    _Bool _hasUserFeedbackCompleted;
-    _Bool _hasUserFeedbackParticipantCollectionReported;
-    unsigned long long _whichEvent_Type;
 }
 
-+ (int);
++ (int)o(`(;
 + (id);
 - (unsigned long long);
 - (id);
@@ -61,7 +43,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -73,16 +55,16 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
+- (id){*;
 - (int);
 - (id);
 - (void);
@@ -99,27 +81,7 @@
 - (void))³åp&;
 
 // Remaining properties
-@property(retain, nonatomic) CDASchemaCDADeviceAdvertisingEndContext *cdaAdvertisingEndChanged; // @synthesize cdaAdvertisingEndChanged=_cdaAdvertisingEndChanged;
-@property(retain, nonatomic) CDASchemaCDADeviceAdvertisingStartContext *cdaAdvertisingStartChanged; // @synthesize cdaAdvertisingStartChanged=_cdaAdvertisingStartChanged;
-@property(retain, nonatomic) CDASchemaCDADebugElectionDecisionMade *debugElectionDecisionMade; // @synthesize debugElectionDecisionMade=_debugElectionDecisionMade;
-@property(retain, nonatomic) CDASchemaCDADeviceStateContext *deviceElectionStateContext; // @synthesize deviceElectionStateContext=_deviceElectionStateContext;
-@property(retain, nonatomic) CDASchemaCDAElectionDecisionMade *electionDecisionMade; // @synthesize electionDecisionMade=_electionDecisionMade;
-@property(retain, nonatomic) CDASchemaCDAElectionTimerEnded *electionTimerEnded; // @synthesize electionTimerEnded=_electionTimerEnded;
-@property(retain, nonatomic) CDASchemaCDAClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasCdaAdvertisingEndChanged; // @synthesize hasCdaAdvertisingEndChanged=_hasCdaAdvertisingEndChanged;
-@property(nonatomic) _Bool hasCdaAdvertisingStartChanged; // @synthesize hasCdaAdvertisingStartChanged=_hasCdaAdvertisingStartChanged;
-@property(nonatomic) _Bool hasDebugElectionDecisionMade; // @synthesize hasDebugElectionDecisionMade=_hasDebugElectionDecisionMade;
-@property(nonatomic) _Bool hasDeviceElectionStateContext; // @synthesize hasDeviceElectionStateContext=_hasDeviceElectionStateContext;
-@property(nonatomic) _Bool hasElectionDecisionMade; // @synthesize hasElectionDecisionMade=_hasElectionDecisionMade;
-@property(nonatomic) _Bool hasElectionTimerEnded; // @synthesize hasElectionTimerEnded=_hasElectionTimerEnded;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasUserFeedbackCompleted; // @synthesize hasUserFeedbackCompleted=_hasUserFeedbackCompleted;
-@property(nonatomic) _Bool hasUserFeedbackParticipantCollectionReported; // @synthesize hasUserFeedbackParticipantCollectionReported=_hasUserFeedbackParticipantCollectionReported;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CDASchemaCDAUserFeedbackCompleted *userFeedbackCompleted; // @synthesize userFeedbackCompleted=_userFeedbackCompleted;
-@property(retain, nonatomic) CDASchemaCDAUserFeedbackParticipantCollectionReported *userFeedbackParticipantCollectionReported; // @synthesize userFeedbackParticipantCollectionReported=_userFeedbackParticipantCollectionReported;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

@@ -15,10 +15,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tiveC.dylib;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cipher;
 @property(copy, nonatomic) NSString *protocol;
 
 @end

@@ -9,20 +9,18 @@
 @interface IMReplyingRemoteDaemonProxy
 {
     _Bool _synchronousReplies;
-    IMDaemonController *_daemonController;
 }
 
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (_Bool)ate the transport streams with the remote endpoint info;
+- (void)de=%u;
+- (id)ad=%p Failed to create dispatch_semaphore;
+- (void)setIdentifier:(id)arg1;
 - (id);
 - (id);
 - (void)xH;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak IMDaemonController *daemonController; // @synthesize daemonController=_daemonController;
-@property(nonatomic) _Bool synchronousReplies; // @synthesize synchronousReplies=_synchronousReplies;
 
 @end
 

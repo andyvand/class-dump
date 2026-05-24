@@ -6,14 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface STSchemaQueryAttributes : SISchemaInstrumentationMessage
 {
     NSArray *_quTokenParseInfos;
 }
 
-- (void);
+- (void)4(;
 - (id);
 - (unsigned long long);
 - (id);
@@ -23,17 +23,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)ryStrippedOfPunctuation;
-- (id)FromLatestRequestTool;
-- (void)ONSOURCE_SIRI_COMPLICATION;
+- (unsigned long long)setAppIconCompatibleArtworkURLString: /* Error: Ran out of types for this method. */;
+- (_Bool)ABSuggestedValueViewControllerDelegate;
+- (_Bool)tlight at %@, scheduled to run later.;
+- (id);
+- (id);
+- (id)deleteIsQueryStrippedOfPunctuation;
+- (id)_hasOpenSuccessValueFromLatestRequestTool;
+- (void)INVOCATIONSOURCE_SIRI_COMPLICATION;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *quTokenParseInfos; // @synthesize quTokenParseInfos=_quTokenParseInfos;
 
 @end

@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMDExportedRecordBatch
 {
     long long examinedRecordsCount;
-    _Bool isDone;
-    double databaseQueryDuration;
-    long long recordCount;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (double);
 - (id);
 - (long long);
 - (double);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (long long);
+- (void)dataSourceController;
+- (long long)ITapGestureRecognizer",&,N,V_noOpTapGestureRecognizer;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) double databaseQueryDuration; // @synthesize databaseQueryDuration;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) long long examinedRecordsCount; // @synthesize examinedRecordsCount;
-@property(nonatomic) _Bool isDone; // @synthesize isDone;
-@property(nonatomic, readonly) _Bool isEmpty;
-@property(nonatomic) long long recordCount; // @synthesize recordCount;
-@property(nonatomic, readonly) double recordsPerSecond;
 
 @end
 

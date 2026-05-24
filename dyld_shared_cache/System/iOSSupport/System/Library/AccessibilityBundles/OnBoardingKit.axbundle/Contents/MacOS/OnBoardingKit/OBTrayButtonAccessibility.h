@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class)oint=dd}40@0:8{CGPoint=dd}16@32 /* Error: Ran out of types for this method. */;
++ (id);
 + (void);
 - (void);
 - (id);

@@ -4,51 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
 @protocol CNCDContactPredicate;
 
 @interface CNCDContactFetchRequestDescription
 {
     _Bool _unifyResults;
-    _Bool _wantsPosterData;
-    _Bool _wantsPosterImageData;
-    NSArray *_propertyKeys;
-    NSArray *_relationshipKeyPaths;
-    NSArray *_sortDescriptors;
-    NSArray *_effectiveKeysToFetch;
-    CDUnknownBlockType _contactsByNameComparator;
-    id <CNCDContactPredicate> _predicate;
-    NSError *_predicateError;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)a;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)withBlock: /* Error: Ran out of types for this method. */;
+- (void)updateClientWithIdentifier:withBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) CDUnknownBlockType contactsByNameComparator; // @synthesize contactsByNameComparator=_contactsByNameComparator;
-@property(readonly, copy) NSArray *effectiveKeysToFetch; // @synthesize effectiveKeysToFetch=_effectiveKeysToFetch;
 @property(readonly) id <CNCDContactPredicate> predicate; // @synthesize predicate=_predicate;
-@property(readonly, copy) NSError *predicateError; // @synthesize predicateError=_predicateError;
-@property(readonly, copy) NSArray *propertyKeys; // @synthesize propertyKeys=_propertyKeys;
-@property(readonly, copy) NSArray *relationshipKeyPaths; // @synthesize relationshipKeyPaths=_relationshipKeyPaths;
-@property(readonly, copy) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
-@property(readonly) _Bool unifyResults; // @synthesize unifyResults=_unifyResults;
-@property(readonly) _Bool wantsPosterData; // @synthesize wantsPosterData=_wantsPosterData;
-@property(readonly) _Bool wantsPosterImageData; // @synthesize wantsPosterImageData=_wantsPosterImageData;
 
 @end
 

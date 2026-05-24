@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 @protocol AVTAvatarAttributeEditorControllerSubSelectionDelegate;
 
 @interface AVTAvatarAttributeEditorSectionCoordinator
 {
     id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> _delegate;
-    NSMutableDictionary *_sectionControllers;
 }
 
 - (void);
@@ -24,19 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)d_map<std::string, adm::DSPGraphBasicConfiguration>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::pair<const std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::pair<const std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::unordered_map<std::string, adm::DSPGraphBasicConfiguration>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"mProcessName"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mAudioCaptureOptions"{AudioCaptureOptions="mExclaveAudioCapturePoints"I}"mDSPBypass"B}"mHostDescription"{HostDescription="mBundleID"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}"mIOContextUID"{basic_string<char, std::char_traits<char>, std::allocator<char>>=""{?="__rep_"(__rep="__s"{__short="__data_"[23c]"__size_"b7"__is_long_"b1}"__l"{__long="__data_"*"__size_"Q"__cap_"b63"__is_long_"b1})}}}})"__engaged_"B} /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableDictionary *sectionControllers; // @synthesize sectionControllers=_sectionControllers;
-@property(readonly) Class superclass;
 
 @end
 

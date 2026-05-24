@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NGMPBPublicDevicePrekey
 {
     double _timestamp;
-    NSData *_prekey;
-    NSData *_prekeySignature;
-    NSData *_tetraPreKey;
 }
 
 - (void);
@@ -25,22 +22,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)vgRxBadFcsPerSecond;
+- (void)hdog reply handler:(id)arg1 %s;
 - (id);
 - (void);
-- (id);
+- (id)queryCountLogs_;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasTetraPreKey;
 @property(retain, nonatomic) NSData *prekey; // @synthesize prekey=_prekey;
-@property(retain, nonatomic) NSData *prekeySignature; // @synthesize prekeySignature=_prekeySignature;
-@property(retain, nonatomic) NSData *tetraPreKey; // @synthesize tetraPreKey=_tetraPreKey;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

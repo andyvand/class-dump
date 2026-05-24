@@ -4,40 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface DEDDiagnosticCollector
 {
     unsigned long long _collectionTimeout;
-    NSObject<OS_os_log> *_log;
-    NSArray *_cachedExtensions;
 }
 
 - (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (unsigned long long)createSharePCSOfType:forPCSServiceType:error: /* Error: Ran out of types for this method. */;
+- (id)user key sync due to unit tests;
+- (_Bool)icipant %@:%@ (key was %{public}@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
 - (id)ù
 × ;
 
 // Remaining properties
-@property(retain) NSArray *cachedExtensions; // @synthesize cachedExtensions=_cachedExtensions;
-@property unsigned long long collectionTimeout; // @synthesize collectionTimeout=_collectionTimeout;
 @property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
 
 @end

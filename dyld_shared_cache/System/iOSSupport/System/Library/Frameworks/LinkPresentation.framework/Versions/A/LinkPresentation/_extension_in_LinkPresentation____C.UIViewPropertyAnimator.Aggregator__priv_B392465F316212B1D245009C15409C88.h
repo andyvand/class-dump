@@ -7,8 +7,6 @@
 @interface (extension in LinkPresentation):__C.UIViewPropertyAnimator.Aggregator__priv_B392465F316212B1D245009C15409C88
 {
     id animators;
-    id didStart;
-    id completion;
 }
 
 @end

@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoTaskingDeviceMetadata, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoTaskingSystemMessageReceipt
 {
     NSString *_channelEnvironment;
-    NSString *_channelType;
-    NSString *_messageType;
-    float _receiptDelay;
-    DRSProtoTaskingDeviceMetadata *_taskingDeviceMetadata;
-    NSString *_uuid;
-    struct {
-        unsigned int receiptDelay:1;
-    } _has;
 }
 
-- (id);
+- (id)A;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (float);
 - (_Bool);
@@ -43,33 +35,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id)_;
 - (void);
-- (_Bool);
+- (_Bool)_resetObjectsAndGroupsDictionaries;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *channelEnvironment; // @synthesize channelEnvironment=_channelEnvironment;
-@property(retain, nonatomic) NSString *channelType; // @synthesize channelType=_channelType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasChannelEnvironment;
-@property(readonly, nonatomic) _Bool hasChannelType;
-@property(readonly, nonatomic) _Bool hasMessageType;
-@property(nonatomic) _Bool hasReceiptDelay;
-@property(readonly, nonatomic) _Bool hasTaskingDeviceMetadata;
-@property(readonly, nonatomic) _Bool hasUuid;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *messageType; // @synthesize messageType=_messageType;
-@property(nonatomic) float receiptDelay; // @synthesize receiptDelay=_receiptDelay;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) DRSProtoTaskingDeviceMetadata *taskingDeviceMetadata; // @synthesize taskingDeviceMetadata=_taskingDeviceMetadata;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

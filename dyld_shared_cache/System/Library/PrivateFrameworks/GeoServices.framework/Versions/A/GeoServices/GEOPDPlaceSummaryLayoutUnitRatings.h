@@ -7,33 +7,29 @@
 @interface GEOPDPlaceSummaryLayoutUnitRatings
 {
     _Bool _shouldShowRatingCount;
-    struct {
-        unsigned int has_shouldShowRatingCount:1;
-    } _flags;
 }
 
-+ (_Bool)sHours:(id)arg1;
++ (_Bool)setIncludeBusinessHours:(id)arg1;
+- (_Bool);
+- (void)tion because the version number (%f) is current (%f);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ublic}ld;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (id)6@"GEORouteMatch"24;
-- (id)localizedSectionHeader;
+- (id)_localizedSectionHeader;
 - (id)¸º8¼H¾XÀ	ôÂHÃ;
-- (id)sitOnly;
+- (id)isTransitOnly;
 
 // Remaining properties
 @property(nonatomic) _Bool hasShouldShowRatingCount;
-@property(nonatomic) _Bool shouldShowRatingCount;
 
 @end
 

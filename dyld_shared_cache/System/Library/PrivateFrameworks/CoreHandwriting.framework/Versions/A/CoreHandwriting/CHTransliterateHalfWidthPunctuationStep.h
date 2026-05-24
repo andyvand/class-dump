@@ -6,18 +6,12 @@
 
 #import <CoreHandwriting/CHPostprocessingStepModifyingOriginalTokens.h>
 
-@class NSCharacterSet;
-
 @interface CHTransliterateHalfWidthPunctuationStep : CHPostprocessingStepModifyingOriginalTokens
 {
     _Bool _shouldAddAlternatives;
-    NSCharacterSet *_contextInvariantCharacterSet;
-    NSCharacterSet *_forwardLookingCharacterSet;
-    NSCharacterSet *_backwardLookingCharacterSet;
-    NSCharacterSet *_widthAlternativeCharacterSet;
 }
 
-- (id);
+- (id);
 - (id);
 - (void)ë;
 

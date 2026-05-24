@@ -7,7 +7,6 @@
 @interface NewsUI2.ChannelEngagementLayoutAttributesFactory
 {
     id styler;
-    id engagementInlineViewManager;
 }
 
 @end

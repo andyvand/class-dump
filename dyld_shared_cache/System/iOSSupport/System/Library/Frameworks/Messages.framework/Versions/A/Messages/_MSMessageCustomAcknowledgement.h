@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSSession, NSDate, NSString, NSURL, NSUUID;
+@class MSSession;
 
 @interface _MSMessageCustomAcknowledgement
 {
     _Bool _isFromMe;
-    MSSession *_session;
-    NSDate *_time;
-    NSUUID *_senderParticipantIdentifier;
-    NSString *_senderAddress;
-    NSURL *_URL;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -33,18 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)premultiplied alpha first;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(retain, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(retain, nonatomic) NSUUID *senderParticipantIdentifier; // @synthesize senderParticipantIdentifier=_senderParticipantIdentifier;
 @property(readonly, nonatomic) MSSession *session; // @synthesize session=_session;
-@property(readonly, nonatomic) NSDate *time; // @synthesize time=_time;
 
 @end
 

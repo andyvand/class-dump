@@ -9,11 +9,6 @@
 @interface CHStrokeClassificationResultDifference
 {
     NSSet *_addedTextStrokeIdentifiers;
-    NSSet *_removedTextStrokeIdentifiers;
-    NSSet *_addedNonTextStrokeIdentifiers;
-    NSSet *_removedNonTextStrokeIdentifiers;
-    NSSet *_transitionedTextStrokeIdentifiers;
-    NSSet *_transitionedNonTextStrokeIdentifiers;
 }
 
 - (id);
@@ -25,21 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Ji;
 - (void)8;
 - (_Bool)4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *addedNonTextStrokeIdentifiers; // @synthesize addedNonTextStrokeIdentifiers=_addedNonTextStrokeIdentifiers;
-@property(readonly, nonatomic) NSSet *addedStrokeIdentifiers;
-@property(readonly, nonatomic) NSSet *addedTextStrokeIdentifiers; // @synthesize addedTextStrokeIdentifiers=_addedTextStrokeIdentifiers;
 @property(readonly, nonatomic) _Bool hasChanges;
-@property(readonly, nonatomic) NSSet *removedNonTextStrokeIdentifiers; // @synthesize removedNonTextStrokeIdentifiers=_removedNonTextStrokeIdentifiers;
-@property(readonly, nonatomic) NSSet *removedStrokeIdentifiers;
-@property(readonly, nonatomic) NSSet *removedTextStrokeIdentifiers; // @synthesize removedTextStrokeIdentifiers=_removedTextStrokeIdentifiers;
-@property(readonly, nonatomic) NSSet *transitionedNonTextStrokeIdentifiers; // @synthesize transitionedNonTextStrokeIdentifiers=_transitionedNonTextStrokeIdentifiers;
-@property(readonly, nonatomic) NSSet *transitionedStrokeIdentifiers;
-@property(readonly, nonatomic) NSSet *transitionedTextStrokeIdentifiers; // @synthesize transitionedTextStrokeIdentifiers=_transitionedTextStrokeIdentifiers;
 
 @end
 

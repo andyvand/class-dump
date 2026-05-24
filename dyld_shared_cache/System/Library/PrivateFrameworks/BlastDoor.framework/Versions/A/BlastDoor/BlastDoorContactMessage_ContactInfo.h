@@ -11,26 +11,19 @@
     id contactMessage_ContactInfo;
 }
 
+- (id)CollectionViewControllerDelegate>";
+- (id)ControllerAdapter";
+- (id)ttonStateResolver";
+- (id)BarUnifiedCallButton";
+- (id)";
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)í½àj;
 - (id)ù*£¼C;;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *contactFormatterTitle;
-@property(nonatomic, readonly) NSString *contactNameSubtitle;
-@property(nonatomic, readonly) NSString *contactNameTitle;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *familyName;
-@property(nonatomic, readonly) NSString *givenName;
-@property(nonatomic, readonly) NSString *organizationNameSubtitle;
-@property(nonatomic, readonly) NSString *organizationNameTitle;
 
 @end
 

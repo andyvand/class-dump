@@ -7,35 +7,26 @@
 @interface NEIKEv2AuthenticationProtocol
 {
     _Bool _isNonStandard;
-    unsigned long long _method;
-    unsigned long long _digitalSignatureAlgorithm;
-    unsigned long long _securePasswordMethod;
 }
 
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)(;
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)missingDownloadDirectory;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long digitalSignatureAlgorithm; // @synthesize digitalSignatureAlgorithm=_digitalSignatureAlgorithm;
-@property(readonly, nonatomic) _Bool isDigitalSignature;
-@property(readonly, nonatomic) _Bool isNonStandard; // @synthesize isNonStandard=_isNonStandard;
-@property(readonly, nonatomic) _Bool isSecurePassword;
 @property(readonly, nonatomic) _Bool isSignature;
-@property(readonly, nonatomic) unsigned long long method; // @synthesize method=_method;
-@property(readonly, nonatomic) unsigned long long securePasswordMethod; // @synthesize securePasswordMethod=_securePasswordMethod;
 
 @end
 

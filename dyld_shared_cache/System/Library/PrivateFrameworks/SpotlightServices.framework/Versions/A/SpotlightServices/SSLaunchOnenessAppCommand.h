@@ -12,12 +12,12 @@
 }
 
 + (_Bool);
-- (id);
+- (id)unregisterForStoreAvailablityChangesWithToken:(id)arg1;
 - (void);
 - (id);
-- (id);
+- (id)h";
 - (void);
-- (void)e:userInfo: /* Error: Ran out of types for this method. */;
+- (void)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSString *applicationBundleId; // @synthesize applicationBundleId=_applicationBundleId;

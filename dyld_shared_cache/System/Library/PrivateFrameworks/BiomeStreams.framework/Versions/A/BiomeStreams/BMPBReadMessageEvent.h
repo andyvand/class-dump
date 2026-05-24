@@ -9,10 +9,6 @@
 @interface BMPBReadMessageEvent
 {
     NSString *_idsHandle;
-    _Bool _markedUnread;
-    struct {
-        unsigned int markedUnread:1;
-    } _has;
 }
 
 - (void);
@@ -24,7 +20,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -36,9 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdsHandle;
-@property(nonatomic) _Bool hasMarkedUnread;
-@property(retain, nonatomic) NSString *idsHandle; // @synthesize idsHandle=_idsHandle;
-@property(nonatomic) _Bool markedUnread; // @synthesize markedUnread=_markedUnread;
 
 @end
 

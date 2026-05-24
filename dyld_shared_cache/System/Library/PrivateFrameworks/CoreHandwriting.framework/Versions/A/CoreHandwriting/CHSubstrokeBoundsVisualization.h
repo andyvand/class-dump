@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)J!;
 - (struct CGRect);
 
 @end

@@ -9,9 +9,6 @@
 @interface ChatKit.DetailsViewDownloadAssetsSection.ViewModel : ChatKit.DetailsConfiguredViewModel
 {
     id downloadAttachmentsTextFont;
-    id buttonFont;
-    id buttonColor;
-    id _$observationRegistrar;
 }
 
 @end

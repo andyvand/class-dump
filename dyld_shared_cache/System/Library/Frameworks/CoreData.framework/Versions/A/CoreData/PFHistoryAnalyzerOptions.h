@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PFHistoryAnalyzerOptions
 {
     _Bool _automaticallyPruneTransientRecords;
-    unsigned long long _transactionLimit;
-    unsigned long long _contextMemoryLimitBytes;
 }
 
 - (id);

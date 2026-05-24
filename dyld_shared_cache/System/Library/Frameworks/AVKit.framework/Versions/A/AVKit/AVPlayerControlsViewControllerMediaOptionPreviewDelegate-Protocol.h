@@ -5,5 +5,8 @@
 //
 
 @protocol AVPlayerControlsViewControllerMediaOptionPreviewDelegate
+
+@optional
+- (void);
 @end
 

@@ -18,16 +18,16 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)erChangeItem.listID isEqual:self.objectID]) -- reminderChangeItem must have been assigned to this list change item at this point /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)tType == kCMWorkoutTypeElliptical || workoutType == kCMWorkoutTypeStairClimbing || workoutType == kCMWorkoutTypeRowing;
 - (id);
-- (id);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *sliceStats; // @synthesize sliceStats=_sliceStats;

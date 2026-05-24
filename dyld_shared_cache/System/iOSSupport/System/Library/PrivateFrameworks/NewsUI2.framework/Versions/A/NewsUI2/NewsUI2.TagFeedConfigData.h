@@ -7,8 +7,6 @@
 @interface NewsUI2.TagFeedConfigData
 {
     id recordID;
-    id source;
-    id fetchInterval;
 }
 
 @end

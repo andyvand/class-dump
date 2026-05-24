@@ -4,39 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDResetConfigPostCleanup
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (void);
 + (void);
 + (void);
 + (id);
++ (void);
++ (void)= sample(src, samplerCoord(src));
+opix = sample(original, samplerCoord(original));
+pix.rgb *= 200.0;
+f.y = (pix.r + 16.0) / 116.0;
+f.x = f.y + pix.g * 0.002;
+f.z = f.y - pix.b * 0.005;
+color.xyz = f * f * f;
+cie = compare(color.xyz - 0.00885645, (f.xyz - 0.137931) / 7.787037, color.xyz);
+cie *= vec3(0.95047, 1.0, 1.08883);
+color.rgb = cie.x * vec3(2.95176,   -1.28951, -0.47388  )
++ cie.y * vec3(-1.0851,    1.99084,  0.0372023)
++ cie.z * vec3(0.0854804, -0.269456, 1.09113  );
+color.a = opix.a;
+return premultiply(color);
+}
+
+;
++ (id);
 + (id);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (void)0@ù
 × ;
 + (void)ed;
 + (id)$;
-+ (id)AdaptiveTemperatureUpdated;
++ (id)HMDAccessoryAdaptiveTemperatureUpdated;
 + (id)ÆLÿC	(B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

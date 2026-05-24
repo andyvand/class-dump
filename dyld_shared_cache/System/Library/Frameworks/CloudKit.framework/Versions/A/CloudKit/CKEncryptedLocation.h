@@ -6,7 +6,7 @@
 
 #import <CloudKit/CKEncryptedData.h>
 
-@class CLLocation, NSString;
+@class CLLocation;
 
 @interface CKEncryptedLocation : CKEncryptedData
 {
@@ -17,14 +17,7 @@
 - (id)¨;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) CLLocation *location;
-@property(readonly) Class superclass;
 
 @end
 

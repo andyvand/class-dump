@@ -18,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) double gradientOpacity; // @synthesize gradientOpacity=_gradientOpacity;
 @property(readonly, nonatomic) CAGradientLayer *layer; // @dynamic layer;
 
 @end

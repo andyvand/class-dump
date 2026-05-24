@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWEntityContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    unsigned int _numberOfEntitiesShown;
-    struct {
-        unsigned int numberOfEntitiesShown:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -23,7 +18,7 @@
 - (unsigned int);
 - (_Bool);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (id);
@@ -31,7 +26,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)x;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -43,11 +38,7 @@
 ¾ÿb°%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasNumberOfEntitiesShown;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) unsigned int numberOfEntitiesShown; // @synthesize numberOfEntitiesShown=_numberOfEntitiesShown;
 
 @end
 

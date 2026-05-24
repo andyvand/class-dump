@@ -4,63 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 @interface FMOwnerAccount
 {
     _Bool _legacyBehavior;
-    NSString *_personId;
-    NSString *_username;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_authToken;
-    NSString *_hostName;
-    ACAccount *_account;
 }
 
++ (id)_counterValue;
++ (void)_cachedBeforeRFReset;
++ (id)_authTransientSupport;
++ (id)_atrString;
++ (id)_assertionTime;
++ (id)_applicationLabel;
 + (id);
-+ (void);
++ (id)Q,R,N,V_firmwareRevision;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)_startDeferredCardEmulationWithAuthorization:(long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)_setApplet:(_Bool)arg1;
+- (_Bool)_remoteObjectInterface;
+- (void)_referenceCounter;
+- (id)_primitiveLocalValidation;
+- (id)_merchantId;
+- (void)t;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(readonly, copy, nonatomic) NSString *authToken; // @synthesize authToken=_authToken;
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(copy, nonatomic) NSString *hostName; // @synthesize hostName=_hostName;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(nonatomic) _Bool legacyBehavior; // @synthesize legacyBehavior=_legacyBehavior;
-@property(copy, nonatomic) NSString *personId; // @synthesize personId=_personId;
-@property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

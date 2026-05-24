@@ -7,16 +7,12 @@
 @class NSString;
 
 @protocol NSObject
-- (_Bool)itialPositionBuffer;
-- (struct _NSZone *);
+- (id);
+- (NSString *)fileURLForSearchableIndex:itemIdentifier:typeIdentifier:inPlace:allowDownload:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_insertFileAtURL:(Class)arg1 type:afterPage:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_initialPositionBuffer;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

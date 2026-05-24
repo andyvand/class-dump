@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSMutableSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _CDContextualLocationRegistrationMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_registrations;
-    NSMutableDictionary *_managers;
-    NSMapTable *_effectiveBundleIDs;
-    NSMutableDictionary *_effectiveBundleIDRegionInfos;
 }
 
 - (id);
@@ -21,29 +17,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)own-networks;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)H;
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSMutableDictionary *effectiveBundleIDRegionInfos; // @synthesize effectiveBundleIDRegionInfos=_effectiveBundleIDRegionInfos;
-@property(readonly, nonatomic) NSMapTable *effectiveBundleIDs; // @synthesize effectiveBundleIDs=_effectiveBundleIDs;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *managers; // @synthesize managers=_managers;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSMutableSet *registrations; // @synthesize registrations=_registrations;
-@property(readonly) Class superclass;
 
 @end
 

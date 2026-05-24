@@ -7,8 +7,6 @@
 @interface PromotedContentUI.SearchAdRequestPayload
 {
     id clientRequestID;
-    id sponsoredSearchRequestData;
-    id routingInfoData;
 }
 
 @end

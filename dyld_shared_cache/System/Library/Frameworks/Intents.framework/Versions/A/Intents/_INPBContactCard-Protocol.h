@@ -4,79 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRangeValue, _INPBImageValue;
+@class NSArray, NSString, _INPBContactHandle, _INPBDateTimeRangeValue;
 
 @protocol _INPBContactCard
+- (void){;
+- (void);
+- (NSArray *)rtFrequencyBase;
+- (void)_kCFNTimingDataNetworkProtocolName;
+- (NSArray *)S;
+- (void)tableView:(NSArray *)arg1 isGroupRow: /* Error: Ran out of types for this method. */;
+- (NSArray *)setCustomButtonTitle: /* Error: Ran out of types for this method. */;
+- (unsigned long long),;
+- (NSString *)_localizedAppName;
+- (void);
+- (void)Changed;
+- (void)ive)? (an|zu)?(schaust|schaut|schau(e)?(n)?|treffen|triffst|trifft);
+- (_Bool)(;
+- (_Bool)`;
+- (void)8/crypto/dh/dh_pmeth.c;
+- (void)erringToken; got %@;
+- (_INPBContactHandle *)Observer-deferringObserver;
+- (NSString *)__calloutToCheckForKeychainPasswordWithNetworkProfile:error: /* Error: Ran out of types for this method. */;
+- (NSString *)_beginTimestamp;
+- (unsigned long long)CWFPowerTableElectionTelemetry;
+- (void);
+- (NSArray *)?	;
 - (void)¾(1Â0@ù
 × ;
-- (NSString *)ompletion: /* Error: Ran out of types for this method. */;
-- (void)lveCarNameForSetDefrosterSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
-- (NSArray *);
+- (NSString *)resolveScopeForOpenFile:completion: /* Error: Ran out of types for this method. */;
+- (void)resolveCarNameForSetDefrosterSettingsInCar:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSArray *)hasBluetoothIdentifier;
 - (_Bool)ons",R,N,V_serviceOptions;
-- (_Bool)rt;
-- (_INPBDateTimeRangeValue *)tation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (NSArray *):withCompletion: /* Error: Ran out of types for this method. */;
-- (NSString *)rchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)INReportIncidentIntentExport;
+- (_INPBDateTimeRangeValue *)provideRadioTypeOptionsCollectionForSetRadioStation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSArray *)provideTitleOptionsForCreateTaskList:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSString *)provideAppIdOptionsCollectionForSearchForFiles:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (NSString *)dQc;
 - (NSString *)In;
 - (NSString *)J;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTimeRangeValue *birthday;
-@property(copy, nonatomic) NSString *contactIdentifier;
-@property(copy, nonatomic) NSArray *contactRelations;
-@property(readonly, nonatomic) unsigned long long contactRelationsCount;
-@property(copy, nonatomic) NSArray *dates;
-@property(readonly, nonatomic) unsigned long long datesCount;
-@property(copy, nonatomic) NSString *departmentName;
-@property(copy, nonatomic) NSArray *emailAddresses;
-@property(readonly, nonatomic) unsigned long long emailAddressesCount;
-@property(copy, nonatomic) NSString *firstName;
-@property(copy, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) _Bool hasBirthday;
-@property(readonly, nonatomic) _Bool hasContactIdentifier;
-@property(readonly, nonatomic) _Bool hasDepartmentName;
-@property(readonly, nonatomic) _Bool hasFirstName;
-@property(readonly, nonatomic) _Bool hasFullName;
-@property(readonly, nonatomic) _Bool hasImage;
-@property(nonatomic) _Bool hasIsMe;
-@property(readonly, nonatomic) _Bool hasJobTitle;
-@property(readonly, nonatomic) _Bool hasLastName;
-@property(readonly, nonatomic) _Bool hasMiddleName;
-@property(readonly, nonatomic) _Bool hasNamePrefix;
-@property(readonly, nonatomic) _Bool hasNameSuffix;
-@property(readonly, nonatomic) _Bool hasNickName;
-@property(readonly, nonatomic) _Bool hasNonGregorianBirthday;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(readonly, nonatomic) _Bool hasPhoneticFirstName;
-@property(readonly, nonatomic) _Bool hasPhoneticLastName;
-@property(readonly, nonatomic) _Bool hasPhoneticMiddleName;
-@property(readonly, nonatomic) _Bool hasPhoneticNamePrefix;
-@property(readonly, nonatomic) _Bool hasPhoneticNameSuffix;
-@property(readonly, nonatomic) _Bool hasPhoneticNickName;
-@property(retain, nonatomic) _INPBImageValue *image;
-@property(copy, nonatomic) NSArray *instantMessageAddresses;
-@property(readonly, nonatomic) unsigned long long instantMessageAddressesCount;
-@property(nonatomic) _Bool isMe;
-@property(copy, nonatomic) NSString *jobTitle;
-@property(copy, nonatomic) NSString *lastName;
-@property(copy, nonatomic) NSString *middleName;
-@property(copy, nonatomic) NSString *namePrefix;
-@property(copy, nonatomic) NSString *nameSuffix;
-@property(copy, nonatomic) NSString *nickName;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *nonGregorianBirthday;
-@property(copy, nonatomic) NSString *organizationName;
-@property(copy, nonatomic) NSArray *phoneNumbers;
-@property(readonly, nonatomic) unsigned long long phoneNumbersCount;
-@property(copy, nonatomic) NSString *phoneticFirstName;
-@property(copy, nonatomic) NSString *phoneticLastName;
-@property(copy, nonatomic) NSString *phoneticMiddleName;
-@property(copy, nonatomic) NSString *phoneticNamePrefix;
-@property(copy, nonatomic) NSString *phoneticNameSuffix;
-@property(copy, nonatomic) NSString *phoneticNickName;
-@property(copy, nonatomic) NSArray *postalAddresses;
-@property(readonly, nonatomic) unsigned long long postalAddressesCount;
-@property(copy, nonatomic) NSArray *urlAddresses;
-@property(readonly, nonatomic) unsigned long long urlAddressesCount;
 @end
 

@@ -11,13 +11,12 @@
 @interface CHSWidgetRelevanceGroupAttribute : CHSWidgetRelevanceAttribute
 {
     NSString *_groupIdentifier;
-    unsigned long long _groupType;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,11 +25,10 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long)xtendedAttributeError;
+- (unsigned long long)ExtendedAttributeError;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(readonly, nonatomic) unsigned long long groupType; // @synthesize groupType=_groupType;
 
 @end
 

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, UARPController;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class UARPController;
 
 @interface UARPAnalyticsUpdateFirmwareManager
 {
     UARPController *_controller;
-    NSMutableArray *_stateArray;
-    NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_purgeTimer;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

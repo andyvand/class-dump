@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface WBSAction
 {
     CDUnknownBlockType _handler;
-    NSString *_title;
-    UIImage *_image;
-    NSString *_identifier;
-    NSString *_accessibilityIdentifier;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ssage_date as m_date FROM message_attachment_join ma JOIN (SELECT cm.message_id as message_id, cm.message_date as message_date FROM message m JOIN chat_message_join cm WHERE m.cache_has_attachments = 1 AND cm.chat_id AND cm.chat_id = ? AND m.rowid = cm.message_id) as tmp WHERE ma.message_id = tmp.message_id) as tmp2 WHERE a.rowid = tmp2.a_id ORDER BY tmp2.m_date DESC LIMIT ?;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)Bi;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)_updateRemoteBarButtonFrames:forUUID: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

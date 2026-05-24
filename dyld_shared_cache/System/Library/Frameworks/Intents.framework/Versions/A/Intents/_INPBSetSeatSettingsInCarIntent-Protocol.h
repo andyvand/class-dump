@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDataString, _INPBInteger, _INPBIntentMetadata;
+@class NSString, _INPBDataString, _INPBIntentMetadata;
 
 @protocol _INPBSetSeatSettingsInCarIntent
+- (NSString *)?;
+- (int);
+- (_Bool);
+- (int);
+- (void),V_inexpensiveNetworkPathStatus;
+- (_INPBIntentMetadata *)TMBackupDeleterProtocol;
 - (_Bool)Denominator:shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay:isPersonalizedRequest:internalSignals:entityConfidenceSignalsEnabled:entityConfidenceSignalsFrequencyDenominatorInternal:entityConfidenceSignalsFrequencyDenominatorProd:entityConfidenceSignalsMaxItemsToDisambiguate:alternativeProviderBundleIdentifier:ampPAFDataSetID: /* Error: Ran out of types for this method. */;
-- (_INPBInteger *);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName;
-@property(nonatomic) _Bool enableCooling;
-@property(nonatomic) _Bool enableHeating;
-@property(nonatomic) _Bool enableMassage;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(nonatomic) _Bool hasEnableCooling;
-@property(nonatomic) _Bool hasEnableHeating;
-@property(nonatomic) _Bool hasEnableMassage;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLevel;
-@property(nonatomic) _Bool hasRelativeLevelSetting;
-@property(nonatomic) _Bool hasSeat;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBInteger *level;
-@property(nonatomic) int relativeLevelSetting;
-@property(nonatomic) int seat;
 @end
 

@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)setAction: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);

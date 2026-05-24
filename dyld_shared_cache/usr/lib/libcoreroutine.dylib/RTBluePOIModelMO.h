@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID, RTBluePOITileMO;
+@class NSUUID;
 
 @interface RTBluePOIModelMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)_options;
++ (id)o:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) RTBluePOITileMO *bluePOITile; // @dynamic bluePOITile;
-@property(retain, nonatomic) NSDictionary *featureToHashedApMapping; // @dynamic featureToHashedApMapping;
-@property(copy, nonatomic) NSString *featureToHashedApMappingDataURL; // @dynamic featureToHashedApMappingDataURL;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSString *url; // @dynamic url;
 
 @end
 

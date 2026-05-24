@@ -6,62 +6,52 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class MPSCNNConvolution, MPSNNNeuronDescriptor;
-@protocol MPSCNNConvolutionDataSource;
-
 @interface MPSCNNConvolutionTranspose : MPSCNNKernel
 {
     unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _featureChannelsLayout;
-    long long _kernelOffsetX;
-    long long _kernelOffsetY;
-    unsigned long long _groups;
-    MPSCNNConvolution *_convolution;
-    MPSNNNeuronDescriptor *_fusedNeuronDescriptor;
 }
 
 + (const struct MPSLibraryInfo *);
-+ (_Bool);
++ (_Bool),	;
 - (id);
+- (id);
+- (void)K;
+- (void);
+- (void)c;
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (id)(%;
+- (id);
+- (_Bool)_resultMatchingSceneIdentifiers;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)(C;
 - (id);
 - (void);
 - (long long);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id)nfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}}24@0:(id)arg1 8^v16;
+- (void)kUpsample_1_1_2_2_5_5_4_1_4_8_1_1_1_0_0_0;
+- (long long);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)MPSQuadrilateralAccelerationStructure;
 - (unsigned long long);
 - (id);
 - (unsigned long long)`º ;
@@ -69,15 +59,7 @@
 - (unsigned long long)(âùÿn|;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accumulatorPrecisionOption;
-@property(readonly, retain, nonatomic) id <MPSCNNConvolutionDataSource> dataSource;
 @property(readonly, nonatomic) unsigned long long featureChannelsLayout; // @synthesize featureChannelsLayout=_featureChannelsLayout;
-@property(readonly, nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(readonly, nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
-@property(nonatomic) long long kernelOffsetX; // @synthesize kernelOffsetX=_kernelOffsetX;
-@property(nonatomic) long long kernelOffsetY; // @synthesize kernelOffsetY=_kernelOffsetY;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(readonly, nonatomic) unsigned long long weightsBufferLength;
 
 @end
 

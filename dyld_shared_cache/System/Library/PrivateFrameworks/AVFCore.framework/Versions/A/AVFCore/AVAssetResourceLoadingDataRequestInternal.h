@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AVAssetResourceLoadingDataRequestInternal
 {
     long long requestedOffset;
-    long long requestedLength;
-    long long currentOffset;
-    NSObject<OS_dispatch_queue> *dataResponseQueue;
-    _Bool requestsAllDataToEndOfResource;
-    _Bool canSupplyIncrementalDataImmediately;
-    AVWeakReference *weakReferenceToLoadingRequest;
 }
 
 @end

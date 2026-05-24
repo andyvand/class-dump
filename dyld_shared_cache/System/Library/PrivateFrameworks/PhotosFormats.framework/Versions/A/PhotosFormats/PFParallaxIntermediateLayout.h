@@ -4,47 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PFParallaxIntermediateLayout
 {
     _Bool _hasTopEdgeContact;
-    unsigned long long _zoomStrategy;
-    unsigned long long _overlapStrategy;
-    unsigned long long _parallaxStrategy;
-    unsigned long long _inactiveStrategy;
-    unsigned long long _headroomStrategy;
-    unsigned long long _adaptiveStrategy;
-    unsigned long long _spatialStrategy;
-    unsigned long long _layoutVariant;
-    double _cropScore;
-    double _layoutScore;
-    double _timeBottomOverlap;
-    double _timeTopOverlap;
-    double _unsafeAreaOverlap;
-    double _uninflatedUnsafeAreaOverlap;
-    double _maxClockShift;
-    double _zoomFactor;
-    struct CGRect _visibleRect;
-    struct CGRect _salientContentRect;
-    struct CGRect _adaptiveVisibleRect;
-    struct CGRect _inactiveRect;
-    struct CGRect _adaptiveInactiveTopRect;
-    struct CGRect _spatialVisibleRect;
-    struct CGRect _spatialAdaptiveVisibleRect;
 }
 
+- (unsigned long long)s;
+- (double)rk/Versions/A/BackgroundSystemTasks;
+- (double);
+- (double)__DATA_DIRTY;
+- (double)__objc_data;
+- (struct CGRect)__objc_arraydata__DATA_CONST;
+- (struct CGRect)__objc_imageinfo__DATA_CONST;
+- (struct CGRect);
 - (unsigned long long);
 - (double);
-- (double);
-- (double);
-- (double);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (unsigned long long);
-- (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -53,9 +28,9 @@
 - (double);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (double);
+- (double)$;
 - (unsigned long long);
 - (struct CGRect);
 - (unsigned long long);
@@ -63,8 +38,8 @@
 - (double);
 - (struct CGRect);
 - (double);
-- (unsigned long long);
-- (id);
+- (unsigned long long)9;
+- (id)sigValidationQueue;
 - (double);
 - (id);
 - (struct CGRect);
@@ -74,31 +49,7 @@
 - (double)Ð;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect adaptiveInactiveTopRect; // @synthesize adaptiveInactiveTopRect=_adaptiveInactiveTopRect;
-@property(readonly, nonatomic) unsigned long long adaptiveStrategy; // @synthesize adaptiveStrategy=_adaptiveStrategy;
-@property(readonly, nonatomic) struct CGRect adaptiveVisibleRect; // @synthesize adaptiveVisibleRect=_adaptiveVisibleRect;
-@property(readonly, nonatomic) double cropScore; // @synthesize cropScore=_cropScore;
-@property(readonly, nonatomic) NSString *debugStub;
-@property(readonly, nonatomic) _Bool hasTopEdgeContact; // @synthesize hasTopEdgeContact=_hasTopEdgeContact;
-@property(readonly, nonatomic) unsigned long long headroomStrategy; // @synthesize headroomStrategy=_headroomStrategy;
-@property(readonly, nonatomic) struct CGRect inactiveRect; // @synthesize inactiveRect=_inactiveRect;
-@property(readonly, nonatomic) unsigned long long inactiveStrategy; // @synthesize inactiveStrategy=_inactiveStrategy;
-@property(readonly, nonatomic) double layoutScore; // @synthesize layoutScore=_layoutScore;
-@property(readonly, nonatomic) unsigned long long layoutVariant; // @synthesize layoutVariant=_layoutVariant;
-@property(readonly, nonatomic) double maxClockShift; // @synthesize maxClockShift=_maxClockShift;
-@property(readonly, nonatomic) unsigned long long overlapStrategy; // @synthesize overlapStrategy=_overlapStrategy;
-@property(readonly, nonatomic) unsigned long long parallaxStrategy; // @synthesize parallaxStrategy=_parallaxStrategy;
-@property(readonly, nonatomic) struct CGRect salientContentRect; // @synthesize salientContentRect=_salientContentRect;
-@property(readonly, nonatomic) struct CGRect spatialAdaptiveVisibleRect; // @synthesize spatialAdaptiveVisibleRect=_spatialAdaptiveVisibleRect;
-@property(readonly, nonatomic) unsigned long long spatialStrategy; // @synthesize spatialStrategy=_spatialStrategy;
-@property(readonly, nonatomic) struct CGRect spatialVisibleRect; // @synthesize spatialVisibleRect=_spatialVisibleRect;
-@property(readonly, nonatomic) double timeBottomOverlap; // @synthesize timeBottomOverlap=_timeBottomOverlap;
-@property(readonly, nonatomic) double timeTopOverlap; // @synthesize timeTopOverlap=_timeTopOverlap;
-@property(readonly, nonatomic) double uninflatedUnsafeAreaOverlap; // @synthesize uninflatedUnsafeAreaOverlap=_uninflatedUnsafeAreaOverlap;
-@property(readonly, nonatomic) double unsafeAreaOverlap; // @synthesize unsafeAreaOverlap=_unsafeAreaOverlap;
 @property(readonly, nonatomic) struct CGRect visibleRect; // @synthesize visibleRect=_visibleRect;
-@property(readonly, nonatomic) double zoomFactor; // @synthesize zoomFactor=_zoomFactor;
-@property(readonly, nonatomic) unsigned long long zoomStrategy; // @synthesize zoomStrategy=_zoomStrategy;
 
 @end
 

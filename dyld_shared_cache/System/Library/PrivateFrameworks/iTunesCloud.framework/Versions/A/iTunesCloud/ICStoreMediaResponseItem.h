@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreFinanceItemMetadata, ICStoreHLSAssetInfo, ICURLBag, NSArray, NSDate, NSDictionary, NSString, NSURL;
+@class NSDate, NSDictionary;
 
 @interface ICStoreMediaResponseItem
 {
     NSDictionary *_itemResponseDictionary;
-    ICURLBag *_urlBag;
-    NSDate *_assetExpirationDate;
 }
 
 - (void);
@@ -25,7 +23,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)countOfMaterials;
 - (id);
 - (_Bool);
 - (id);
@@ -33,18 +31,7 @@
 - (void)_serverRevision;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *artworkURL;
 @property(copy, nonatomic) NSDate *assetExpirationDate; // @synthesize assetExpirationDate=_assetExpirationDate;
-@property(readonly, copy, nonatomic) NSURL *cancelDownloadURL;
-@property(readonly, copy, nonatomic) NSString *downloadIdentifier;
-@property(readonly, copy, nonatomic) NSArray *fileAssets;
-@property(readonly, copy, nonatomic) ICStoreHLSAssetInfo *hlsAsset;
-@property(readonly, nonatomic) _Bool isPurchasedRedownload;
-@property(readonly, copy, nonatomic) ICStoreFinanceItemMetadata *metadata;
-@property(readonly, copy, nonatomic) NSDate *purchaseDate;
-@property(readonly, copy, nonatomic) NSString *redownloadParameters;
-@property(readonly, nonatomic) long long storeAdamID;
-@property(readonly, nonatomic) id suzeLeaseID;
 
 @end
 

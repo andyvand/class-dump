@@ -6,32 +6,17 @@
 
 #import <SearchFoundation/SFButtonItem.h>
 
-@class NSData, NSDictionary, NSString, SFAudioData, SFButtonItemAppearance, SFMediaMetadata, SFToggleButtonConfiguration;
+@class SFMediaMetadata;
 
 @interface SFPlayAudioButtonItem : SFButtonItem
 {
     SFMediaMetadata *_mediaMetadata;
-    SFToggleButtonConfiguration *_toggleButtonConfiguration;
-    SFAudioData *_audioData;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) SFAudioData *audioData; // @synthesize audioData=_audioData;
-@property(retain, nonatomic) SFButtonItemAppearance *buttonAppearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFMediaMetadata *mediaMetadata; // @synthesize mediaMetadata=_mediaMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SFToggleButtonConfiguration *toggleButtonConfiguration; // @synthesize toggleButtonConfiguration=_toggleButtonConfiguration;
-@property(nonatomic) unsigned long long uniqueId;
 
 @end
 

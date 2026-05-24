@@ -8,27 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _KDNode
 {
     _Bool _isLeaf;
-    float _splitValue;
-    unsigned long long _splitDimension;
-    unsigned long long _splitIndex;
-    unsigned long long _startingIndex;
-    unsigned long long _count;
-    _KDNode *_leftChild;
-    _KDNode *_rightChild;
-    struct _KDBoundingBox _boundingBox;
 }
 
 + (_Bool);
-- (unsigned long long);
-- (float);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)mandBuffer encodeConditionalAbortEvent:] /* Error: Ran out of types for this method. */;
+- (float)SignalEvent:value:with uncommitted encoder /* Error: Ran out of types for this method. */;
+- (unsigned long long)it command buffer with uncommitted encoder;
+- (unsigned long long)mmitted command buffer;
+- (void)riptor has %lu keyframes).;
+- (void)tureMotionCurveGeometryDescriptor has %lu keyframes).;
+- (void)of the MTLAccelerationStructureMotionCurveGeometryDescriptor has %lu keyframes).;
+- (void)has %lu keyframes and and one of the MTLAccelerationStructureMotionCurveGeometryDescriptor has %lu keyframes).;
+- (void)extractMTLGenericBVHHeaderKernel_1_4;
+- (void)ClipDistanceAttr;
 - (void);
 - (void);
 - (void);
@@ -41,22 +33,14 @@ __attribute__((visibility("hidden")))
 - (struct _KDBoundingBox);
 - (id);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (unsigned long long)
 × ;
 - (void)/MobileAsset/AssetsV2;
 
 // Remaining properties
-@property(nonatomic) struct _KDBoundingBox boundingBox; // @synthesize boundingBox=_boundingBox;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) _Bool isLeaf; // @synthesize isLeaf=_isLeaf;
-@property(retain, nonatomic) _KDNode *leftChild; // @synthesize leftChild=_leftChild;
-@property(retain, nonatomic) _KDNode *rightChild; // @synthesize rightChild=_rightChild;
 @property(nonatomic) unsigned long long splitDimension; // @synthesize splitDimension=_splitDimension;
-@property(nonatomic) unsigned long long splitIndex; // @synthesize splitIndex=_splitIndex;
-@property(nonatomic) float splitValue; // @synthesize splitValue=_splitValue;
-@property(nonatomic) unsigned long long startingIndex; // @synthesize startingIndex=_startingIndex;
 
 @end
 

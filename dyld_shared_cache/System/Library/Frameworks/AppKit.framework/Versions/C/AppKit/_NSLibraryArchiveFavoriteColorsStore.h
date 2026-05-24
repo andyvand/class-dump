@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSURL *_fileURL;
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)U%d.%s;
+- (void)H15;
+- (void)ByXIY9ub/M8broA;
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (id)itmap key. cid=%x;
 

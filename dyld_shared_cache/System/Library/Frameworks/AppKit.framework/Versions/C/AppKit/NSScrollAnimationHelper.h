@@ -11,17 +11,6 @@
 @interface NSScrollAnimationHelper : NSAnimation
 {
     id <NSScrollAnimationHelperDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
-    struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
-    struct {
-        unsigned int logPerformanceAnalysis:1;
-        unsigned int logPerformanceAnalysisInProgress:1;
-        unsigned int isScrollDueToUserAction:1;
-        unsigned int delegateRespondsTo_setIsScrollDueToUserAction:1;
-        unsigned int :28;
-    } _flags;
-    CDUnknownBlockType _focusNavigationRetryHandler;
 }
 
 - (struct CGPoint);
@@ -36,14 +25,13 @@
 - (void);
 - (CDUnknownBlockType)
 × ;
-- (id)DisplayValue:(id)arg1 toCriterion:withLocalizedDisplayValue: /* Error: Ran out of types for this method. */;
+- (id)ruleEditor:(id)arg1 parentCriterion:compareCriterion:withLocalizedDisplayValue:toCriterion:withLocalizedDisplayValue: /* Error: Ran out of types for this method. */;
 - (void)CursorRectsForView:(CDUnknownBlockType)arg1 %@];
 - (_Bool)utosaveSelector:implicitCancellability:contextInfo:]_block_invoke_3 /* Error: Ran out of types for this method. */;
 - (void)de by the other application will be lost if you save. Save anyway?;
 - (void)ihðCÿ;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(copy) CDUnknownBlockType focusNavigationRetryHandler; // @synthesize focusNavigationRetryHandler=_focusNavigationRetryHandler;
 
 @end

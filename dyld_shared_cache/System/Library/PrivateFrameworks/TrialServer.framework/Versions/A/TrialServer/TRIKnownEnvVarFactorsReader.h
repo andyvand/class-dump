@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)faceTileSizeAdjustingForImageAspectRatio:(id)arg1 imgWidth:imgHeight: /* Error: Ran out of types for this method. */;
++ (id)adjustmentCreatorCode;
 
 @end
 

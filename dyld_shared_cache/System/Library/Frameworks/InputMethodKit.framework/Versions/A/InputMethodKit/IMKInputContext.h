@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKKeyboardState, NSString;
-@protocol IMKTextDocument;
+@class IMKKeyboardState;
 
 @interface IMKInputContext
 {
     IMKKeyboardState *_keyboardState;
-    id <IMKTextDocument> _documentContent;
-    NSString *_languageCode;
-    IMKInputContext *_composingContext;
 }
 
 - (id);
 - (id);
+- (id)*i%;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);};
 - (void);
-- (id)InvalidateCacheBlock: /* Error: Ran out of types for this method. */;
+- (id)setWillInvalidateCacheBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) IMKInputContext *composingContext; // @synthesize composingContext=_composingContext;
-@property(readonly, nonatomic) id <IMKTextDocument> documentContent; // @synthesize documentContent=_documentContent;
 @property(readonly, nonatomic) IMKKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;
-@property(readonly, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
 
 @end
 

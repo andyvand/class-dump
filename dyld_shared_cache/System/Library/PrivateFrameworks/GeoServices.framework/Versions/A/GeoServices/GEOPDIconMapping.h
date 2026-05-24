@@ -4,50 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDVectorPoiDisplayDV, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDIconMapping
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_cartoZoomIndoors;
-    NSMutableArray *_cartoZooms;
-    NSString *_countryCode3A;
-    NSString *_countryCode;
-    NSString *_state;
-    GEOPDVectorPoiDisplayDV *_vectorPoiDisplayDv;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _cartoSignificance;
-    unsigned int _poiType;
-    _Bool _aoiZoom;
-    _Bool _isIconSuppressed;
-    struct {
-        unsigned int has_cartoSignificance:1;
-        unsigned int has_aoiZoom:1;
-        unsigned int has_isIconSuppressed:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_cartoZoomIndoors:1;
-        unsigned int read_cartoZooms:1;
-        unsigned int read_countryCode3A:1;
-        unsigned int read_countryCode:1;
-        unsigned int read_state:1;
-        unsigned int read_vectorPoiDisplayDv:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)tegory;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)b1"read_placeNameHint"b1"wrote_anyField"b1};
-- (id)ations;
+- (id)_etaResultReferencePointDestinations;
 - (id)¼¨(«;
 - (void);
 

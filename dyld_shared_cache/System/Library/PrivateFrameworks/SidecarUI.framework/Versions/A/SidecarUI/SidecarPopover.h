@@ -11,15 +11,15 @@
     SidecarRequest *_request;
 }
 
-+ (id);
-- (void);
-- (id);
++ (id)akColorForKey:(id)arg1;
+- (void)akEncodeImage:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)akEnclosingScrollView;
 - (void);
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 

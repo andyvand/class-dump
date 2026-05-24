@@ -4,46 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLanguage
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_languages;
-    unsigned int _identifier;
 }
 
-+ (Class);
-+ (_Bool)ionIndex:(id)arg1;
++ (Class)onor;
++ (_Bool)setHasServerSectionIndex:(id)arg1;
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)_cn_flatMap: /* Error: Ran out of types for this method. */;
+- (void)CNCoalescingTimer;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (void);
-- (id)tingCoordinate:(struct _NSZone *)arg1;
-- (id)stance;
+- (id)setOriginatingCoordinate:(struct _NSZone *)arg1;
+- (id)_cameraDistance;
 - (unsigned int)/Ö;
 - (id)e connections;
-- (void)EQUEST;
+- (void)PROACTIVE_TYPE_RATING_REQUEST;
 - (id)ìÌ;
 - (void)üùäþ;Ô;
 - (id)@<ÿ§76ò8;
 
 // Remaining properties
 @property(nonatomic) unsigned int identifier;
-@property(retain, nonatomic) NSMutableArray *languages;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

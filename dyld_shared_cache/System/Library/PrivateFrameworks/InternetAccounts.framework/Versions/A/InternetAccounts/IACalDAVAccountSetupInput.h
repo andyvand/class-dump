@@ -11,17 +11,15 @@
 @interface IACalDAVAccountSetupInput : IAAccountSetupInput
 {
     NSString *_serverAddress;
-    NSString *_emailAddress;
 }
 
 - (void);
-- (id);
+- (id)q`;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
 @property(retain) NSString *serverAddress; // @synthesize serverAddress=_serverAddress;
 
 @end

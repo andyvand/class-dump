@@ -13,15 +13,15 @@
     NSArray *_associatedDomains;
 }
 
-+ (_Bool);
++ (_Bool)`;
 + (_Bool);
 + (_Bool);
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)collectionView:canDragItemsAtIndexes:withEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *associatedDomains; // @synthesize associatedDomains=_associatedDomains;

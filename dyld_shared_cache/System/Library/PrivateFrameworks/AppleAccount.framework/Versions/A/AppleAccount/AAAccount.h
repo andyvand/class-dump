@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSArray, NSDictionary, NSSet, NSString;
+@class ACAccount, NSString;
 
 @interface AAAccount
 {
     ACAccount *_account;
-    NSString *_fmipToken;
-    NSArray *_appleIDAliases;
-    NSString *_protocolVersion;
 }
 
-+ (id);
++ (id)onIdentifier:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -45,32 +42,32 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (int);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (void)o;
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id)data.plist;
+- (void);
+- (id);
+- (_Bool)R;
+- (id);
+- (id);
+- (id)So23AKMacOSRemoteUIProviderC;
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id)\y;
 - (id);
 - (id);
 - (void);
@@ -79,43 +76,15 @@
 - (void);
 - (id)D(ð1Â0@ù
 × ;
-- (void)ceEnclosureColor;
+- (void)deviceEnclosureColor;
 - (id)tailHttpMethod;
-- (_Bool)face;
+- (_Bool)AAFlowPresenterHostInterface;
 - (void)etry:(id)arg1 number2,name=Error}d ;
 - (id)!)ªo+fG9ä!KãðÑ*E/^JÎaOýé°­Î|·l&;®m2Ë¤ 5ÃÐ¯F+£UgUÁI	Í|§ÂJóiËz´ýD'ÀZª¿vG$íw¬¹Þ£=Ô¾ó Ç.°øZp`;þ ísc-â+Òcòr%i¦²KEÔ6a®¼¨æ17%ìÈQ¢"µFbû>&¿LÃ0vxVËHPáÏØìðÕnHÈG{gåµÿÙTÛPëi¯	`Ûþ	3¸¢ü;
 - (void)`x¡`x`x6`x`xá_x°_xy`x¬_xº_xÍ_x:(id)arg1 `xñ_x`xg`x`x`xC`xl`xî_xÒ_x`x¥`xË_x`x`x``x¦`x!`xØ_xæ_x4`xÇ_x`x~`x`xL`xd`x;`xS`x1`xÅ_x©_xÝ_x>`xs`x[`x`xø_xf`xc`xv`xÐ_x`xe`x%`xU`x`x?`xp`xë_x`IOPlatformUUID;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountDescription;
-@property(readonly, nonatomic) NSDictionary *accountFirstDisplayAlert;
-@property(readonly, nonatomic) NSDictionary *accountFooterButton;
-@property(readonly, nonatomic) NSString *accountFooterText;
-@property(readonly, nonatomic) int accountServiceType;
-@property(readonly, nonatomic) NSArray *appleIDAliases; // @synthesize appleIDAliases=_appleIDAliases;
 @property(copy, nonatomic) NSString *authToken;
-@property(readonly, nonatomic) NSDictionary *dataclassProperties;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSSet *enabledDataclasses;
-@property(readonly, nonatomic) NSString *firstName;
-@property(copy, nonatomic) NSString *fmipToken; // @synthesize fmipToken=_fmipToken;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *lastName;
-@property(readonly, nonatomic) _Bool needsEmailConfiguration;
-@property(readonly, nonatomic) _Bool needsRegistration;
-@property(nonatomic) _Bool needsToVerifyTerms;
-@property(copy, nonatomic) NSString *password;
-@property(readonly, nonatomic) NSString *personID;
-@property(nonatomic) _Bool primaryAccount;
-@property(readonly, nonatomic) NSString *primaryEmail;
-@property(readonly, nonatomic) _Bool primaryEmailVerified;
-@property(readonly, nonatomic) NSString *protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(readonly, nonatomic) NSSet *provisionedDataclasses;
-@property(readonly, nonatomic) _Bool serviceUnavailable;
-@property(readonly, nonatomic) NSDictionary *serviceUnavailableInfo;
-@property(readonly, nonatomic) NSArray *supportedDataclasses;
-@property(readonly, nonatomic) NSString *syncStoreIdentifier;
-@property(copy, nonatomic) NSString *username;
 
 @end
 

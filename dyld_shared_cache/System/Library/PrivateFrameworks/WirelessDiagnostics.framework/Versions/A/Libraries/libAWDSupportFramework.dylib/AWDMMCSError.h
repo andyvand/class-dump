@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface AWDMMCSError
 {
     int _code;
-    NSString *_domain;
-    NSMutableArray *_underlyingErrors;
-    struct {
-        unsigned int code:1;
-    } _has;
 }
 
 + (Class);
@@ -21,32 +14,28 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)YjxM;
 - (id);
 - (void);
-- (void);
+- (void)Y;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)/;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (int);
-- (void)eTxhesuppduCnt;
+- (void)hasHeTxhesuppduCnt;
 
 // Remaining properties
-@property(nonatomic) int code; // @synthesize code=_code;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
 @property(readonly, nonatomic) _Bool hasDomain;
-@property(retain, nonatomic) NSMutableArray *underlyingErrors; // @synthesize underlyingErrors=_underlyingErrors;
 
 @end
 

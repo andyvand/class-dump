@@ -6,33 +6,24 @@
 
 #import <AppKit/_NSViewAnimator.h>
 
-@class NSLayoutConstraint, NSString;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface _NSViewAnimator__NSSliderTouchBarItemView : _NSViewAnimator
 {
     NSLayoutConstraint *_collapseAnimationConstraint;
-    long long _animationDepth;
-    _Bool _animatingCollapse;
 }
 
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`>;
 - (_Bool)ces;
 - (void)Q¸¾?©ïlÔw6@6×P^Cé?ffffffæ¿¿{®>;
 - (void)í¹hÝâ;
-- (void)s;
+- (void)SearchButtonContentBounds;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property double valueAccessoryWidth; // @dynamic valueAccessoryWidth;
 
 @end

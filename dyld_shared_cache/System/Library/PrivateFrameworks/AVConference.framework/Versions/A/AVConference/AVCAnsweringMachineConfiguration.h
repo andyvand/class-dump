@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, NSUUID, VCSandboxedURL;
-
 @interface AVCAnsweringMachineConfiguration
 {
     unsigned char _source;
-    _Bool _isMessageRecordingEnabled;
-    _Bool _isMessageCaptioningEnabled;
-    _Bool _isMessagePlaybackEnabled;
-    VCSandboxedURL *_announcementAsset;
-    unsigned int _announcementAssetMilliSecondDelay;
-    int _clientPid;
-    unsigned char _usage;
-    NSUUID *_reportingSamplingUUID;
 }
 
 + (id);
@@ -30,7 +20,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned int);
 - (id);
@@ -42,18 +32,11 @@
 - (void);
 - (id);
 - (unsigned char);
-- (int)pe;
+- (int)codecType;
 - (void)<Õ§ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *announcementAsset;
-@property(nonatomic) unsigned int announcementAssetMilliSecondDelay; // @synthesize announcementAssetMilliSecondDelay=_announcementAssetMilliSecondDelay;
-@property(nonatomic) _Bool isMessageCaptioningEnabled; // @synthesize isMessageCaptioningEnabled=_isMessageCaptioningEnabled;
-@property(nonatomic) _Bool isMessagePlaybackEnabled; // @synthesize isMessagePlaybackEnabled=_isMessagePlaybackEnabled;
-@property(nonatomic) _Bool isMessageRecordingEnabled; // @synthesize isMessageRecordingEnabled=_isMessageRecordingEnabled;
-@property(retain, nonatomic) NSUUID *reportingSamplingUUID; // @synthesize reportingSamplingUUID=_reportingSamplingUUID;
 @property(nonatomic) unsigned char source; // @synthesize source=_source;
-@property(nonatomic) unsigned char usage; // @synthesize usage=_usage;
 
 @end
 

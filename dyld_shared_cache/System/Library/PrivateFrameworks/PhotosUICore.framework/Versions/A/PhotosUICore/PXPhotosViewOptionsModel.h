@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMenu, NSString, PXPhotoLibraryLocalDefaults, PXSortOrderState;
-@protocol PXPhotosLensControlItem;
+@class PXPhotoLibraryLocalDefaults, PXSortOrderState;
 
 @interface PXPhotosViewOptionsModel
 {
     PXPhotoLibraryLocalDefaults *_localDefaults;
-    NSArray *_lensControlItems;
-    id <PXPhotosLensControlItem> _selectedLensControlItem;
-    NSString *_sortOrderTitle;
-    NSMenu *_sortOrderMenu;
-    _Bool _hidesSortOrderMenu;
-    NSArray *_additionalLensControlItems;
-    PXSortOrderState *_sortOrderState;
 }
 
 - (id);
@@ -43,27 +35,12 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)6&;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalLensControlItems; // @synthesize additionalLensControlItems=_additionalLensControlItems;
-@property(readonly, nonatomic) unsigned long long browserDateType;
-@property(readonly, nonatomic) long long centralizedFeedbackMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hidesSortOrderMenu; // @synthesize hidesSortOrderMenu=_hidesSortOrderMenu;
-@property(readonly, nonatomic) NSArray *lensControlItems; // @synthesize lensControlItems=_lensControlItems;
-@property(readonly, nonatomic) id <PXPhotosLensControlItem> selectedLensControlItem; // @synthesize selectedLensControlItem=_selectedLensControlItem;
-@property(readonly, nonatomic) NSMenu *sortOrderMenu;
 @property(readonly, nonatomic) PXSortOrderState *sortOrderState; // @synthesize sortOrderState=_sortOrderState;
-@property(readonly, nonatomic) NSString *sortOrderTitle;
-@property(readonly) Class superclass;
 
 @end
 

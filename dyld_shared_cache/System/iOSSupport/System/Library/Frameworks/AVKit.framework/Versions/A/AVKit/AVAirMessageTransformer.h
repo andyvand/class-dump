@@ -12,15 +12,14 @@ __attribute__((visibility("hidden")))
 @interface AVAirMessageTransformer : AVDataValueTransformer
 {
     NSData *_previousUnusedData;
-    Class _messageClass;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)_icloudSyncScheduler;
 - (Class);
 - (void);
-- (void)ortControlsViewDelegate;
+- (void)AVTransportControlsViewDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) Class messageClass; // @synthesize messageClass=_messageClass;

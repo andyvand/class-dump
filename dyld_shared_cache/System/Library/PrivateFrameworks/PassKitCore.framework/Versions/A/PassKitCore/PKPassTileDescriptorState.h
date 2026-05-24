@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPassTileState;
-
 @interface PKPassTileDescriptorState
 {
     _Bool _supported;
-    _Bool _inProgress;
-    long long _type;
-    unsigned long long _enabled;
-    NSString *_stateIdentifier;
-    PKPassTileState *_stateOverride;
 }
 
 - (id);
@@ -24,17 +17,12 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (id);
-- (_Bool):completion: /* Error: Ran out of types for this method. */;
+- (id)i;
+- (_Bool)usingSynchronousProxy:entitlementsForPassIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)invalid - unrecognized width class:%@. /* Error: Ran out of types for this method. */;
 - (void)for criteria identifier %@;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEnabled) unsigned long long enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic, getter=isInProgress) _Bool inProgress; // @synthesize inProgress=_inProgress;
-@property(readonly, copy, nonatomic) NSString *stateIdentifier; // @synthesize stateIdentifier=_stateIdentifier;
-@property(readonly, nonatomic) PKPassTileState *stateOverride; // @synthesize stateOverride=_stateOverride;
-@property(readonly, nonatomic, getter=isSupported) _Bool supported; // @synthesize supported=_supported;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

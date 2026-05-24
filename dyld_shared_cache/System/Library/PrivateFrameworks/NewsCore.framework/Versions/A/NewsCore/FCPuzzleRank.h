@@ -9,28 +9,18 @@
 @interface FCPuzzleRank
 {
     _Bool _defaultRank;
-    _Bool _isProdigyLevel;
-    NSString *_name;
-    NSString *_identifier;
-    NSString *_icon;
-    long long _index;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)__objc_protorefs__DATA_CONST;
 - (id);
-- (id);
-- (id);
+- (id);
 - (long long);
-- (void)evel;
+- (void)localNotificationEnabledLevel;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool defaultRank; // @synthesize defaultRank=_defaultRank;
-@property(readonly, nonatomic) NSString *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) _Bool isProdigyLevel; // @synthesize isProdigyLevel=_isProdigyLevel;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

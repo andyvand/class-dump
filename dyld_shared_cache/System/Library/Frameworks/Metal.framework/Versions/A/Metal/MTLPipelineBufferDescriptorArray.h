@@ -10,7 +10,7 @@
 
 + (id)ÿÿ	0;
 + (id)°ãÿÆ0;
-- (void)ze;
+- (void)_bitcodeSize;
 - (id);
 
 @end

@@ -6,8 +6,6 @@
 
 #import <HMFoundation/HMFNetService.h>
 
-@class NSDictionary;
-
 @interface HMFMutableNetService : HMFNetService
 {
     CDUnknownBlockType _publishBlock;
@@ -31,11 +29,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)SKyS;
 
 // Remaining properties
-@property(copy) NSDictionary *TXTRecord; // @dynamic TXTRecord;
-@property unsigned long long port; // @dynamic port;
 @property(copy, nonatomic) CDUnknownBlockType publishBlock; // @synthesize publishBlock=_publishBlock;
 
 @end

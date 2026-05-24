@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface SIRISETUPSchemaSIRISETUPPHSEnrollmentSessionSummary : SISchemaInstrumentationMessage
 {
     unsigned int _lastOpenedPageNumber;
-    unsigned int _lastCompletedPage;
-    NSArray *_pageAttempts;
-    struct {
-        unsigned int lastOpenedPageNumber:1;
-        unsigned int lastCompletedPage:1;
-    } _has;
 }
 
 - (void);
@@ -25,10 +17,10 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id)=;
 - (id);
-- (id);
+- (unsigned int);
 - (unsigned int);
-- (unsigned int);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -38,23 +30,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)@;
+- (unsigned long long)blic}@;
+- (_Bool)getCNContactPhoneticGivenNameKey(void);
+- (_Bool)_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m JOIN chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE m.guid = ?;;
 - (id);
 - (id);
-- (id)Ids;
+- (id)clearStatementIds;
 - (id)_suppressionReason;
-- (void)PATH_APP_USAGE_RULE_DIRECT_EXECUTE_1_APP_USAGE;
+- (void)INFERENCESMARTENOUGHAPPSELECTIONEXECUTIONPATH_APP_USAGE_RULE_DIRECT_EXECUTE_1_APP_USAGE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLastCompletedPage;
-@property(nonatomic) _Bool hasLastOpenedPageNumber;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int lastCompletedPage; // @synthesize lastCompletedPage=_lastCompletedPage;
 @property(nonatomic) unsigned int lastOpenedPageNumber; // @synthesize lastOpenedPageNumber=_lastOpenedPageNumber;
-@property(copy, nonatomic) NSArray *pageAttempts; // @synthesize pageAttempts=_pageAttempts;
 
 @end
 

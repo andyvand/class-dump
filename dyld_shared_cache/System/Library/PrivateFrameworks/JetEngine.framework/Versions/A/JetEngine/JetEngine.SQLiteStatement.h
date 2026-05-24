@@ -7,7 +7,6 @@
 @interface JetEngine.SQLiteStatement
 {
     id handle;
-    id $__lazy_storage_$_columnMap;
 }
 
 @end

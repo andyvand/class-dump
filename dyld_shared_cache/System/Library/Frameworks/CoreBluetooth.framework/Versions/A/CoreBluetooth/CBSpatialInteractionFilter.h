@@ -13,9 +13,9 @@
 - (unsigned char);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)initWithItem:(id)arg1 style: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

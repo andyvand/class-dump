@@ -4,43 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSMutableArray, NSMutableDictionary, NSObject, NSString, RTLocationSmoother;
-@protocol OS_dispatch_queue;
-
 @interface SMReplayManager
 {
     _Bool _noProgressTriggered;
-    _Bool _routeDeviationTriggered;
-    _Bool _predominantMotionActivitySet;
-    _Bool _muteTriggers;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_currentDate;
-    double _currentMapsExpectedETA;
-    unsigned long long _currentPredominantMotionActivityType;
-    NSMutableArray *_mockLocations;
-    NSMutableDictionary *_locationToEtaDictionary;
-    NSMutableArray *_mockMotionActivities;
-    NSMutableArray *_timerStack;
-    NSMutableDictionary *_defaults;
-    NSMutableDictionary *_results;
-    NSString *_resultsPath;
-    double _etaScaleFactor;
-    double _muteMapsExpectedETA;
-    double _muteRouteDeviationTriggerWithinThreshold;
-    double _minDistanceETAUpdateThreshold;
-    double _crowFliesWalkingSpeed;
-    CLLocation *_destinationLocation;
-    RTLocationSmoother *_locationSmoother;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,42 +28,42 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)3;
 - (double);
 - (double);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
+- (double);
+- (id);
+- (void);
+- (void)4;
+- (void);
 - (double);
 - (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (unsigned long long);
+- (unsigned long long)R;
 - (double);
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void)publicKey;
+- (void)mobileBackupStatus:(id)arg1;
+- (void)identityNegativeCache;
+- (id)UUIDString;
+- (id)recordModify;
+- (void)dentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I},R,N,V_shareProtection;
+- (void)Record",&,V_lrcSerializedEscrowRecord;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void)@?0;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)qec;
 - (void);
 - (void);
 - (void);
@@ -95,44 +71,16 @@
 - (id);
 - (void);
 - (id);
+- (void)e connection:(id)arg1 didFlushCacheForKTPeerURI:(id)arg2 ];
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id)RTWatchdogProtocol>";
 - (void)updateSMTriggerDestinationTransportTypeToAvgSpeedWithDefaultsManager:(id)arg1 ];
 - (void)c instance;
 
 // Remaining properties
-@property(nonatomic) double crowFliesWalkingSpeed; // @synthesize crowFliesWalkingSpeed=_crowFliesWalkingSpeed;
-@property(copy, nonatomic) NSDate *currentDate; // @synthesize currentDate=_currentDate;
-@property(nonatomic) double currentMapsExpectedETA; // @synthesize currentMapsExpectedETA=_currentMapsExpectedETA;
-@property(nonatomic) unsigned long long currentPredominantMotionActivityType; // @synthesize currentPredominantMotionActivityType=_currentPredominantMotionActivityType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSMutableDictionary *defaults; // @synthesize defaults=_defaults;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CLLocation *destinationLocation; // @synthesize destinationLocation=_destinationLocation;
-@property(nonatomic) double etaScaleFactor; // @synthesize etaScaleFactor=_etaScaleFactor;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTLocationSmoother *locationSmoother; // @synthesize locationSmoother=_locationSmoother;
-@property(readonly, nonatomic) NSMutableDictionary *locationToEtaDictionary; // @synthesize locationToEtaDictionary=_locationToEtaDictionary;
-@property(nonatomic) double minDistanceETAUpdateThreshold; // @synthesize minDistanceETAUpdateThreshold=_minDistanceETAUpdateThreshold;
-@property(readonly, nonatomic) NSMutableArray *mockLocations; // @synthesize mockLocations=_mockLocations;
-@property(readonly, nonatomic) NSMutableArray *mockMotionActivities; // @synthesize mockMotionActivities=_mockMotionActivities;
-@property(nonatomic) double muteMapsExpectedETA; // @synthesize muteMapsExpectedETA=_muteMapsExpectedETA;
-@property(nonatomic) double muteRouteDeviationTriggerWithinThreshold; // @synthesize muteRouteDeviationTriggerWithinThreshold=_muteRouteDeviationTriggerWithinThreshold;
-@property(nonatomic) _Bool muteTriggers; // @synthesize muteTriggers=_muteTriggers;
 @property(nonatomic) _Bool noProgressTriggered; // @synthesize noProgressTriggered=_noProgressTriggered;
-@property(nonatomic) _Bool predominantMotionActivitySet; // @synthesize predominantMotionActivitySet=_predominantMotionActivitySet;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSMutableDictionary *results; // @synthesize results=_results;
-@property(copy, nonatomic) NSString *resultsPath; // @synthesize resultsPath=_resultsPath;
-@property(nonatomic) _Bool routeDeviationTriggered; // @synthesize routeDeviationTriggered=_routeDeviationTriggered;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableArray *timerStack; // @synthesize timerStack=_timerStack;
 
 @end
 

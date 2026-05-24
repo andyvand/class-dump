@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalculateResult, CalculateUnit, NSArray, NSNumber, NSString;
+@class CalculateResult, NSNumber;
 
 @interface CalculateTerm
 {
     NSNumber *_value;
-    NSArray *_units;
-    CalculateResult *_result;
-    NSNumber *_forceScientificNotation;
-    CDStruct_bc361aee _decimalValue;
 }
 
 + (id);
@@ -29,37 +25,29 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (double);
 - (_Bool);
+- (id);
 - (id);
+- (id);
+- (CDStruct_492b6082);
+- (void);
 - (id);
-- (id);
-- (CDStruct_bc361aee);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)";
 - (long long);
 - (id)/âøÎ¯°£^6xþÁÂûôÜ0÷#÷mÒãU{!·ÂÛLöC~r³ºü?1Tüô,u`/Ç}\+Úéád³ÄßóÔO`éûOc=©;28I<µ}Î[(2°Úker1Üqý^Æíd#\"CBàq²~Ð&.Ñ^¾!Ï=SÎ|õ7ì(>ç+3.kÔRX_0Cz(ö-êBèüòE'³á6àüÂÒÄ3÷hûâRþilSÙ¹\ÒI1Ý·ø¨L"¼s¶;
 - (void)lTêmm73'nZVâÁ*Ç¢ñÊÑ;P÷BÄt²DH;
 - (void)àh$Á{òQm½O;
 
 // Remaining properties
-@property(nonatomic) CDStruct_bc361aee decimalValue; // @synthesize decimalValue=_decimalValue;
-@property(retain, nonatomic) NSNumber *forceScientificNotation; // @synthesize forceScientificNotation=_forceScientificNotation;
-@property(readonly, nonatomic) NSString *formattedResult;
-@property(readonly, nonatomic) NSString *formattedUnit;
-@property(readonly, nonatomic) NSString *formattedValue;
-@property(readonly, nonatomic) CalculateUnit *primaryUnit;
 @property(nonatomic) __weak CalculateResult *result; // @synthesize result=_result;
-@property(readonly, nonatomic) NSArray *units; // @synthesize units=_units;
-@property(retain, nonatomic) NSNumber *value; // @synthesize value=_value;
 
 @end
 

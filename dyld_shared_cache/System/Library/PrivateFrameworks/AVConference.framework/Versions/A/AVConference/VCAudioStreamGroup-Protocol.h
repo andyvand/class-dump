@@ -5,14 +5,12 @@
 //
 
 @protocol VCAudioStreamGroup
-- (void)cordingWithPreferredClient:(_Bool)arg1;
+- (_Bool)4 ;
+- (int);
+- (void)computeAllowAudioRecordingWithPreferredClient:(_Bool)arg1;
 - (_Bool)%s] %s:%d stop=%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) int deviceRole;
 @property(nonatomic, setter=setMuted:) _Bool isMuted;
-@property(setter=setPowerSpectrumEnabled:) _Bool isPowerSpectrumEnabled;
-@property(nonatomic, setter=setVADFilteringEnabled:) _Bool isVADFilteringEnabled;
-@property(readonly, nonatomic) int operatingMode;
 @end
 

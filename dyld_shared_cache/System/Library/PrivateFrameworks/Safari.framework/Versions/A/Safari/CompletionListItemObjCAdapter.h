@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFSearchResult, WBSQuerySuggestion;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CompletionListItemObjCAdapter
 {
     NSString *_parsecDomainIdentifier;
-    WBSQuerySuggestion *siriSuggestion;
-    long long _parsecQueryID;
-    SFSearchResult *_sfSearchResultValue;
-    unsigned long long _engagementDestination;
-    void *_completionListItem;
 }
 
 - (void);
 - (id);
 - (void *);
 - (_Bool);
-- (id);
+- (id)q;
 - (id);
 - (unsigned long long);
 - (id);
@@ -30,27 +25,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)$;
 - (void);
 - (void)°;
 
 // Remaining properties
 @property(nonatomic) void *completionListItem; // @synthesize completionListItem=_completionListItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long engagementDestination; // @synthesize engagementDestination=_engagementDestination;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *parsecDomainIdentifier; // @synthesize parsecDomainIdentifier=_parsecDomainIdentifier;
-@property(nonatomic) long long parsecQueryID; // @synthesize parsecQueryID=_parsecQueryID;
-@property(readonly, nonatomic) SFSearchResult *sfSearchResultValue; // @synthesize sfSearchResultValue=_sfSearchResultValue;
-@property(retain, nonatomic) WBSQuerySuggestion *siriSuggestion; // @synthesize siriSuggestion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WBSQuerySuggestion",?,&,N,VsiriSuggestion
-
-@property(readonly) Class superclass;
 
 @end
 

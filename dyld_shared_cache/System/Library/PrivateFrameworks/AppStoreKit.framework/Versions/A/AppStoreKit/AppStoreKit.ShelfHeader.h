@@ -7,19 +7,6 @@
 @interface AppStoreKit.ShelfHeader
 {
     id eyebrow;
-    id eyebrowArtwork;
-    id eyebrowArtworkSize;
-    id eyebrowArtworkType;
-    id eyebrowAction;
-    id eyebrowTrailingArtwork;
-    id title;
-    id titleArtwork;
-    id titleArtworkType;
-    id titleAction;
-    id subtitle;
-    id trailingArtwork;
-    id accessoryAction;
-    id configuration;
 }
 
 @end

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFUserAccessCodeDatabaseID;
 @protocol MKFGuest, MKFHome, MKFUser;
 
 @protocol MKFUserAccessCode
 - (id <MKFHome>)
 × ;
-- (id <MKFUser>)ccessorySoftwareUpdateEnabledBool;
+- (id <MKFUser>)isAutomaticThirdPartyAccessorySoftwareUpdateEnabledBool;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFUserAccessCodeDatabaseID *databaseID;
 @property(retain, nonatomic) id <MKFGuest> guest;
-@property(readonly) id <MKFHome> home;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
 @end
 

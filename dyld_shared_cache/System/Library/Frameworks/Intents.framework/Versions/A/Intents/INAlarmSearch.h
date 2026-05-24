@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, INSpeakableString, NSNumber, NSString;
-
 @interface INAlarmSearch
 {
     long long _alarmReferenceType;
-    NSString *_identifier;
-    INDateComponentsRange *_time;
-    INSpeakableString *_label;
-    long long _alarmSearchStatus;
-    NSNumber *_includeSleepAlarm;
-    long long _period;
-    NSNumber *_isMeridianInferred;
 }
 
 + (id);
@@ -26,36 +17,22 @@
 - (long long);
 - (long long);
 - (long long);
+- (id)<U;
 - (id);
+- (unsigned long long)interfaceWithProtocol: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
+- (_Bool)T@"NSSet",C,N,V_serviceNames;
+- (void)CWFNDDOperationMax;
 - (id);
-- (_Bool);
-- (void);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)gFormulaArguments;
+- (id)_chargingFormulaArguments;
 - (void)transactionNote;
 - (id)¬x÷ÿ7<;
 
 // Remaining properties
 @property(readonly) long long alarmReferenceType; // @synthesize alarmReferenceType=_alarmReferenceType;
-@property(readonly) long long alarmSearchStatus; // @synthesize alarmSearchStatus=_alarmSearchStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSNumber *includeSleepAlarm; // @synthesize includeSleepAlarm=_includeSleepAlarm;
-@property(readonly, copy) NSNumber *isMeridianInferred; // @synthesize isMeridianInferred=_isMeridianInferred;
-@property(readonly, copy) INSpeakableString *label; // @synthesize label=_label;
-@property(readonly) long long period; // @synthesize period=_period;
-@property(readonly) Class superclass;
-@property(readonly, copy) INDateComponentsRange *time; // @synthesize time=_time;
 
 @end
 

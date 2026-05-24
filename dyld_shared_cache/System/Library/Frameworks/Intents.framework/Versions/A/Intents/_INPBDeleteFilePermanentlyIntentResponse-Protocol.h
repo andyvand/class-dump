@@ -5,13 +5,10 @@
 //
 
 @protocol _INPBDeleteFilePermanentlyIntentResponse
-- (_Bool)equestedEventAttribute: /* Error: Ran out of types for this method. */;
-- (void)ngTypePhotoTag;
+- (_Bool)setHasRequestedEventAttribute: /* Error: Ran out of types for this method. */;
+- (void)INVocabularyStringTypePhotoTag;
 
 // Remaining properties
 @property(nonatomic) _Bool confirm;
-@property(nonatomic) _Bool hasConfirm;
-@property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool success;
 @end
 

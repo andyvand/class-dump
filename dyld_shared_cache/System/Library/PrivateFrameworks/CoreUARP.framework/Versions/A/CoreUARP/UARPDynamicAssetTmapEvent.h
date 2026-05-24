@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_os_log;
-
 @interface UARPDynamicAssetTmapEvent
 {
     unsigned int _eventID;
-    NSArray *_eventFields;
-    NSObject<OS_os_log> *_log;
-    NSString *_eventName;
 }
 
 + (_Bool);
@@ -20,15 +14,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AMSChannelLinkTask;
 - (void);
-- (id);
+- (id)@;
 - (unsigned int);
-- (void);
+- (void)]-;
 
 // Remaining properties
 @property(readonly) unsigned int eventID; // @synthesize eventID=_eventID;
-@property(readonly) NSString *eventName; // @synthesize eventName=_eventName;
 
 @end
 

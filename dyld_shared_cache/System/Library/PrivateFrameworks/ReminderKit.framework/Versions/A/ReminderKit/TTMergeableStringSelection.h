@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TTMergeableStringSelection
 {
     struct vector<std::pair<TopoID, TopoID>, std::allocator<std::pair<TopoID, TopoID>>> _selectionRanges;
-    unsigned long long _selectionAffinity;
 }
 
 - (void);
@@ -18,26 +15,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void *);
-- (id);
+- (id)TY;
+- (_Bool)potheses:(id)arg1 %@;
+- (void *)`;
+- (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long selectionAffinity; // @synthesize selectionAffinity=_selectionAffinity;
-@property(readonly) Class superclass;
 
 @end
 

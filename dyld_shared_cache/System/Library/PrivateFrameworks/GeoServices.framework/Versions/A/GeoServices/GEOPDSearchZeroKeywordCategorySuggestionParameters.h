@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchZeroKeywordCategorySuggestionParameters
 {
     PBUnknownFields *_unknownFields;
-    double _requestLocalTimestamp;
-    GEOLatLng *_significantLocation;
-    unsigned int _maxNumCategoriesPerEntry;
-    int _userPreferredTransportType;
-    _Bool _shouldMatchNoQueryStateSuggestions;
-    struct {
-        unsigned int has_requestLocalTimestamp:1;
-        unsigned int has_maxNumCategoriesPerEntry:1;
-        unsigned int has_userPreferredTransportType:1;
-        unsigned int has_shouldMatchNoQueryStateSuggestions:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)_allChildAndLeafKeys;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)"b1"read_analyticsMessageValue"b1"read_artworkOverride"b1"read_bannerDescription"b1"read_bannerId"b1"read_bannerLargeTexts"b1"read_bannerSmallTexts"b1"read_buttons"b1"read_cameraInput"b1"read_eventInfo"b1"read_localizedIncidentBanners"b1"read_localizedIncidentSpokenTexts"b1"read_localizedIncidentSubBanners"b1"read_progressBarRange"b1"read_spokenPrompt"b1"read_triggerRange"b1"wrote_anyField"b1};
-- (id)estNewRouteFromLocation:usualRouteData: /* Error: Ran out of types for this method. */;
+- (id)_requestNewRouteFromLocation:usualRouteData: /* Error: Ran out of types for this method. */;
 - (id)ìA;
 - (void)"þaKzI@;
 

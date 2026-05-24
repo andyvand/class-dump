@@ -9,12 +9,11 @@
 @interface EMTProjection
 {
     NSString *_identifier;
-    struct _NSRange _range;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (struct _NSRange);
 - (_Bool);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

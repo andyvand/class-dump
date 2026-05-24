@@ -4,53 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString, UARPAccessoryHardwareID;
+@class NSMutableSet, NSString;
 
 @interface UARPSupportedAccessory
 {
     NSMutableSet *_bsdNotificationsInternal;
-    NSMutableSet *_serviceBsdNotificationsInternal;
-    NSMutableSet *_supplementalAssetsInternal;
-    NSMutableSet *_downstreamAppleModelNumbers;
-    NSMutableSet *_alternativeAppleModelNumbers;
-    NSString *_mobileAssetAppleModelNumber;
-    NSString *_supplementalMobileAssetAppleModelNumber;
-    NSString *_modelName;
-    NSString *_vendorName;
-    NSString *_productCode;
-    _Bool _autoAppliesStagedFirmware;
-    _Bool _supportsPowerLogging;
-    _Bool _supportsVoiceAssist;
-    _Bool _supportsHeySiriCompact;
-    _Bool _supportsLogs;
-    _Bool _supportsAnalytics;
-    _Bool _supportsMappedAnalytics;
-    _Bool _supportsFriendlyName;
-    _Bool _supportsAccMode7;
-    _Bool _reofferFirmwareOnSync;
-    _Bool _supportsInternalSettings;
-    _Bool _supportsDeveloperSettings;
-    _Bool _supportsVersions;
-    _Bool _allowDownloadOnCellular;
-    _Bool _isSimulator;
-    _Bool _dfuMode;
-    _Bool _updateRequiresPowerAssertion;
-    _Bool _ttrSolicitLogs;
-    _Bool _postStagingNotifications;
-    _Bool _supportsAuthListingInternally;
-    _Bool _supportsPallas;
-    _Bool _supportsSoftwareUpdateAssets;
-    NSString *_appleModelNumber;
-    NSString *_productGroup;
-    NSString *_productNumber;
-    unsigned long long _capabilities;
-    UARPAccessoryHardwareID *_hardwareID;
-    NSString *_fusingOverrideUnfused;
-    NSString *_updaterName;
-    NSString *_personalizationNotification;
-    unsigned long long _uploaderResponseTimeout;
-    unsigned long long _uploaderRetryLimit;
-    NSString *_assetTypeOverride;
 }
 
 + (id);
@@ -59,9 +17,9 @@
 + (id);
 + (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)hostedExternalDeviceEndpointDidChange: /* Error: Ran out of types for this method. */;
+- (void)BacklightOff;
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -74,20 +32,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (_Bool);
-- (id);
+- (void);
+- (id)AMSMockURLResponse;
+- (id)<;
+- (void);
+- (void)%{public}@ failed with error:(_Bool)arg1 %{public}@;
+- (id)ublic}@Recording metrics for a successful biometric authorization that is neither Signature- nor PET-based;
+- (_Bool)te the AMSCookie database schema. error = %{public}@;
+- (id)type. mediaType = %{public}@ | accountStore = %{public}@;
 - (id);
 - (void);
 - (void);
@@ -98,7 +56,7 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -121,7 +79,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)(=;
 - (void);
 - (void);
 - (void);
@@ -133,13 +91,13 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)j;
 - (void);
 - (_Bool);
 - (id);
@@ -148,12 +106,12 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)B;
 - (_Bool);
 - (void);
-- (long long);
+- (long long)!+;
 - (id);
-- (id);
+- (id)J*=;
 - (_Bool);
 - (void);
 - (void);
@@ -163,60 +121,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)List not initialized!;
 - (id);
 - (void);
-- (id);
-- (id)ssory: /* Error: Ran out of types for this method. */;
-- (id)363;
+- (id)ary/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
+- (id)resumeAssetTransfersForAccessory: /* Error: Ran out of types for this method. */;
+- (id)A2363;
 - (_Bool)DeploymentLimit];
 
 // Remaining properties
-@property _Bool allowDownloadOnCellular; // @synthesize allowDownloadOnCellular=_allowDownloadOnCellular;
-@property(readonly) NSSet *alternativeAppleModelNumbers;
 @property(copy) NSString *appleModelNumber; // @synthesize appleModelNumber=_appleModelNumber;
-@property(copy) NSString *assetTypeOverride; // @synthesize assetTypeOverride=_assetTypeOverride;
-@property _Bool autoAppliesStagedFirmware;
-@property(readonly) NSSet *bsdNotifications;
-@property unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property _Bool dfuMode; // @synthesize dfuMode=_dfuMode;
-@property(readonly) NSSet *downstreamAppleModelNumbers;
-@property(retain) NSString *fusingOverrideUnfused; // @synthesize fusingOverrideUnfused=_fusingOverrideUnfused;
-@property(retain) UARPAccessoryHardwareID *hardwareID; // @synthesize hardwareID=_hardwareID;
-@property(readonly) NSString *identifier;
-@property(readonly) _Bool isMFi;
-@property _Bool isSimulator; // @synthesize isSimulator=_isSimulator;
-@property(readonly) NSString *mobileAssetAppleModelNumber;
-@property(copy) NSString *modelName;
-@property(copy) NSString *personalizationNotification; // @synthesize personalizationNotification=_personalizationNotification;
-@property _Bool postStagingNotifications; // @synthesize postStagingNotifications=_postStagingNotifications;
-@property(copy) NSString *productCode;
-@property(copy) NSString *productGroup; // @synthesize productGroup=_productGroup;
-@property(copy) NSString *productNumber; // @synthesize productNumber=_productNumber;
-@property _Bool reofferFirmwareOnSync; // @synthesize reofferFirmwareOnSync=_reofferFirmwareOnSync;
-@property(readonly) NSSet *serviceBsdNotifications;
-@property(readonly) NSSet *supplementalAssets;
-@property(readonly) NSString *supplementalMobileAssetAppleModelNumber;
-@property _Bool supportsAccMode7; // @synthesize supportsAccMode7=_supportsAccMode7;
-@property _Bool supportsAnalytics; // @synthesize supportsAnalytics=_supportsAnalytics;
-@property _Bool supportsAuthListingInternally; // @synthesize supportsAuthListingInternally=_supportsAuthListingInternally;
-@property _Bool supportsDeveloperSettings; // @synthesize supportsDeveloperSettings=_supportsDeveloperSettings;
-@property _Bool supportsFriendlyName; // @synthesize supportsFriendlyName=_supportsFriendlyName;
-@property _Bool supportsHeySiriCompact; // @synthesize supportsHeySiriCompact=_supportsHeySiriCompact;
-@property _Bool supportsInternalSettings; // @synthesize supportsInternalSettings=_supportsInternalSettings;
-@property _Bool supportsLogs; // @synthesize supportsLogs=_supportsLogs;
-@property _Bool supportsMappedAnalytics; // @synthesize supportsMappedAnalytics=_supportsMappedAnalytics;
-@property _Bool supportsPallas; // @synthesize supportsPallas=_supportsPallas;
-@property _Bool supportsPowerLogging; // @synthesize supportsPowerLogging=_supportsPowerLogging;
-@property _Bool supportsSoftwareUpdateAssets; // @synthesize supportsSoftwareUpdateAssets=_supportsSoftwareUpdateAssets;
-@property _Bool supportsVersions; // @synthesize supportsVersions=_supportsVersions;
-@property _Bool supportsVoiceAssist; // @synthesize supportsVoiceAssist=_supportsVoiceAssist;
-@property _Bool ttrSolicitLogs; // @synthesize ttrSolicitLogs=_ttrSolicitLogs;
-@property _Bool updateRequiresPowerAssertion; // @synthesize updateRequiresPowerAssertion=_updateRequiresPowerAssertion;
-@property(copy) NSString *updaterName; // @synthesize updaterName=_updaterName;
-@property unsigned long long uploaderResponseTimeout; // @synthesize uploaderResponseTimeout=_uploaderResponseTimeout;
-@property unsigned long long uploaderRetryLimit; // @synthesize uploaderRetryLimit=_uploaderRetryLimit;
-@property(copy) NSString *vendorName;
 
 @end
 

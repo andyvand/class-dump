@@ -4,53 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString, NSUUID, SMReceiverContactMO;
+@class NSUUID;
 
 @interface SMReceiverSessionStatusMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)@0:(id)arg1 8^{_PCSIdentityData=}16;
++ (id)text=}16;
++ (id)u);
 
 // Remaining properties
-@property(nonatomic) short cacheDownloadError; // @dynamic cacheDownloadError;
-@property(copy, nonatomic) NSDate *cacheExpiryDate; // @dynamic cacheExpiryDate;
-@property(copy, nonatomic) NSDate *cacheRequestDate; // @dynamic cacheRequestDate;
-@property(copy, nonatomic) NSDate *coarseEstimatedEndDate; // @dynamic coarseEstimatedEndDate;
-@property(retain, nonatomic) SMReceiverContactMO *contact; // @dynamic contact;
-@property(retain, nonatomic) NSData *destinationMapItem; // @dynamic destinationMapItem;
-@property(nonatomic) short destinationType; // @dynamic destinationType;
-@property(copy, nonatomic) NSDate *estimatedEndDate; // @dynamic estimatedEndDate;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSString *initiatorPrimaryHandle; // @dynamic initiatorPrimaryHandle;
-@property(retain, nonatomic) NSArray *initiatorSecondaryHandles; // @dynamic initiatorSecondaryHandles;
-@property(nonatomic) _Bool isSOSTrigger; // @dynamic isSOSTrigger;
-@property(nonatomic) short keyReleaseInfoRequestCount; // @dynamic keyReleaseInfoRequestCount;
-@property(copy, nonatomic) NSDate *lastKeyReleaseInfoRequestDate; // @dynamic lastKeyReleaseInfoRequestDate;
-@property(copy, nonatomic) NSDate *lastSessionStartInfoRequestDate; // @dynamic lastSessionStartInfoRequestDate;
-@property(copy, nonatomic) NSDate *lastUpdateDate; // @dynamic lastUpdateDate;
-@property(nonatomic) double locationOfTriggerAltitude; // @dynamic locationOfTriggerAltitude;
-@property(copy, nonatomic) NSDate *locationOfTriggerDate; // @dynamic locationOfTriggerDate;
-@property(nonatomic) double locationOfTriggerHorizontalUncertainty; // @dynamic locationOfTriggerHorizontalUncertainty;
-@property(nonatomic) double locationOfTriggerLatitude; // @dynamic locationOfTriggerLatitude;
-@property(nonatomic) double locationOfTriggerLongitude; // @dynamic locationOfTriggerLongitude;
-@property(nonatomic) short locationOfTriggerReferenceFrame; // @dynamic locationOfTriggerReferenceFrame;
-@property(nonatomic) short locationOfTriggerSourceAccuracy; // @dynamic locationOfTriggerSourceAccuracy;
-@property(nonatomic) double locationOfTriggerSpeed; // @dynamic locationOfTriggerSpeed;
-@property(nonatomic) double locationOfTriggerVerticalUncertainty; // @dynamic locationOfTriggerVerticalUncertainty;
-@property(nonatomic) short lowPowerModeWarningState; // @dynamic lowPowerModeWarningState;
-@property(copy, nonatomic) NSString *receiverHandle; // @dynamic receiverHandle;
-@property(nonatomic) short sessionEndReason; // @dynamic sessionEndReason;
-@property(copy, nonatomic) NSUUID *sessionID; // @dynamic sessionID;
-@property(copy, nonatomic) NSDate *sessionStartDate; // @dynamic sessionStartDate;
-@property(nonatomic) short sessionStartInfoRequestCount; // @dynamic sessionStartInfoRequestCount;
-@property(nonatomic) short sessionState; // @dynamic sessionState;
-@property(nonatomic) short sessionType; // @dynamic sessionType;
-@property(copy, nonatomic) NSDate *triggerDate; // @dynamic triggerDate;
-@property(nonatomic) short triggerType; // @dynamic triggerType;
-@property(nonatomic) _Bool zoneShareAccepted; // @dynamic zoneShareAccepted;
 
 @end
 

@@ -11,7 +11,6 @@
 - (NSString *);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *message;
 @property(nonatomic, readonly) NSString *title;
 @end
 

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol MTLDevice, MTLFunction;
+@class MTLFunctionReflection, NSString;
+@protocol MTLFunction;
 
 @protocol MTLLibrary
-- (id <MTLFunction>)scriptor:(NSString *)arg1 options: /* Error: Ran out of types for this method. */;
+- (MTLFunctionReflection *)05;
+- (void)utableTriePosition=*CBI}12^B20;
+- (id <MTLFunction>)renderCommandEncoderWithDescriptor:(NSString *)arg1 options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSArray *functionNames;
-@property(readonly) NSString *installName;
 @property(copy) NSString *label;
-@property(readonly) long long type;
 @end
 

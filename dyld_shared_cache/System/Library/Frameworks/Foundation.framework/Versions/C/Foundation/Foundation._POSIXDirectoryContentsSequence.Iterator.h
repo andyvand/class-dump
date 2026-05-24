@@ -7,10 +7,6 @@
 @interface Foundation._POSIXDirectoryContentsSequence.Iterator
 {
     id dirp;
-    id directoryPath;
-    id prefix;
-    id appendSlash;
-    id error;
 }
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id);
+- (void)rt/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit;
 @end
 

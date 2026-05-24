@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCVocalAttenuationModel, NSObject;
-@protocol OS_dispatch_queue;
+@class MPCVocalAttenuationModel;
 
 __attribute__((visibility("hidden")))
 @interface MPCVocalAttenuationProcessorImplementation
 {
     struct AudioTimeStamp _timestamp;
-    long long _previousContiguousSampleIndex;
-    long long _nextContiguousSampleIndex;
-    struct AudioBufferList *_ioBuffer;
-    struct AudioStreamBasicDescription _audioFormat;
-    unsigned int _maxFrames;
-    struct OpaqueAudioComponentInstance *_processingAU;
-    NSObject<OS_dispatch_queue> *_creationQueue;
-    _Bool _enabled;
-    float _level;
-    float _minLevel;
-    float _maxLevel;
-    long long _state;
-    MPCVocalAttenuationModel *_model;
 }
 
-- (void);
-- (void);
-- (double);
+- (void)canRemoveAccount:(CDUnknownBlockType)arg1 inStore: /* Error: Ran out of types for this method. */;
+- (void)Parent account is not an Apple Account;
+- (double)CurrentRegion:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)canSaveAccount:(id *)arg1 inStore: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -43,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)?;
 - (double);
 - (_Bool);
 - (long long);
@@ -53,15 +39,7 @@ __attribute__((visibility("hidden")))
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAvailable) _Bool available;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) float level; // @synthesize level=_level;
-@property(readonly, nonatomic) float maxLevel; // @synthesize maxLevel=_maxLevel;
-@property(readonly, nonatomic) float minLevel; // @synthesize minLevel=_minLevel;
 @property(readonly, nonatomic) MPCVocalAttenuationModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) double renderingLimit;
-@property(readonly, nonatomic) double sampleTime;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

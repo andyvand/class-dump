@@ -6,28 +6,23 @@
 
 #import <UIKitCore/UIAlertControllerVisualStyleActionSheet.h>
 
-@class UIView, UIVisualEffectView, _UIPreviewPresentationEffectView;
-
 __attribute__((visibility("hidden")))
 @interface UIAlertControllerVisualStyleActionSheetInline : UIAlertControllerVisualStyleActionSheet
 {
     _Bool _actionsReversed;
-    UIView *_headerView;
-    UIVisualEffectView *_revealEffectView;
-    _UIPreviewPresentationEffectView *_sourceViewSnapshot;
 }
 
 + (void);
 + (long long);
-- (_Bool);
-- (double);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)ices or was nil %@;
+- (double)Relay:(_Bool)arg1 going to write an empty dictionary to the kSMSDefaultsAllowedKey;
+- (id)not allow sync;
+- (id)x, messages is being edited for a second (or more) time. Not overriding original values.;
+- (_Bool)to disk;
+- (void)item from temporary directory:(id)arg1 %@;
+- (void)stAddressedHandle %@ lastAddressedSIMID %@;
+- (void)reMessageToOtherMessagesWithSameReplyToGUIDAndAssignSortID:(_Bool)arg1 existingMessagesWithSameReplyToGUID:] /* Error: Ran out of types for this method. */;
+- (id)itical-messaging-app-name;
 - (_Bool);
 - (long long);
 - (id);
@@ -40,18 +35,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)e were no items that could be put.;
 - (double)r";
-- (_Bool)kAnimationEnabled;
+- (_Bool)cursorBlinkAnimationEnabled;
 - (id)ÌèPé-4ó<õÄöè÷ø;
 - (void)¸ÜªÿØüWj;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool actionsReversed; // @synthesize actionsReversed=_actionsReversed;
-@property(retain, nonatomic) UIView *headerView; // @synthesize headerView=_headerView;
-@property(retain, nonatomic) UIVisualEffectView *revealEffectView; // @synthesize revealEffectView=_revealEffectView;
-@property(retain, nonatomic) _UIPreviewPresentationEffectView *sourceViewSnapshot; // @synthesize sourceViewSnapshot=_sourceViewSnapshot;
 
 @end
 

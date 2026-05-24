@@ -18,9 +18,7 @@
 - (void)lÏ~ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *audioTranscription;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *inlineAttachmentKey;
 
 @end
 

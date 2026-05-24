@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNContactPosterDataXPCConnectionFactory;
 
 @interface CNContactPosterDataXPCAccess
@@ -19,20 +18,13 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (long long);
+- (long long)maxCapacity;
 - (void)SArray"24@0:8@"CNContact"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <CNContactPosterDataXPCConnectionFactory> connectionFactory; // @synthesize connectionFactory=_connectionFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

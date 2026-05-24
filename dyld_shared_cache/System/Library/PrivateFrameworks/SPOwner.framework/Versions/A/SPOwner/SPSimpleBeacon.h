@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, SPKeySyncRecord;
+@class NSUUID;
 
 @interface SPSimpleBeacon
 {
     _Bool _connectionAllowed;
-    NSUUID *_identifier;
-    NSString *_type;
-    NSUUID *_groupIdentifier;
-    long long _partIdentifier;
-    NSString *_systemVersion;
-    double _txPower;
-    NSUUID *_productUUID;
-    NSString *_name;
-    long long _vendorId;
-    long long _productId;
-    long long _batteryLevel;
-    long long _connectableDeviceCount;
-    NSString *_modelName;
-    NSString *_manufacturerName;
-    NSString *_serialNumber;
-    SPKeySyncRecord *_keySyncRecord;
 }
 
 - (void);
@@ -36,11 +20,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)!a;
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (long long);
@@ -53,9 +37,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)r state;
+- (id)conversationListFocusFilterActionEnabled;
+- (void)U;
 - (id);
 - (id);
 - (id);
@@ -66,26 +50,10 @@
 - (void);
 - (id);
 - (void);
-- (id)tReason: /* Error: Ran out of types for this method. */;
+- (id)setReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long batteryLevel; // @synthesize batteryLevel=_batteryLevel;
-@property(nonatomic) long long connectableDeviceCount; // @synthesize connectableDeviceCount=_connectableDeviceCount;
-@property(nonatomic) _Bool connectionAllowed; // @synthesize connectionAllowed=_connectionAllowed;
-@property(copy, nonatomic) NSUUID *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) SPKeySyncRecord *keySyncRecord; // @synthesize keySyncRecord=_keySyncRecord;
-@property(copy, nonatomic) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long partIdentifier; // @synthesize partIdentifier=_partIdentifier;
-@property(nonatomic) long long productId; // @synthesize productId=_productId;
-@property(copy, nonatomic) NSUUID *productUUID; // @synthesize productUUID=_productUUID;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
-@property(nonatomic) double txPower; // @synthesize txPower=_txPower;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(nonatomic) long long vendorId; // @synthesize vendorId=_vendorId;
 
 @end
 

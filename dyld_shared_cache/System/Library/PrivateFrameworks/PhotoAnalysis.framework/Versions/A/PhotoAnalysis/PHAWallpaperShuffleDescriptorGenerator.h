@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PFPseudoRandomNumberGenerator, PHPhotoLibrary;
-@protocol OS_os_log;
+@class PHPhotoLibrary;
 
 @interface PHAWallpaperShuffleDescriptorGenerator
 {
     PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
-    PFPseudoRandomNumberGenerator *_randomNumberGenerator;
-    long long _shuffleMinimumSuggestionRequired;
 }
 
 + (unsigned short);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -29,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void)Collection:options:curationContext:progressBlock: /* Error: Ran out of types for this method. */;
+- (void)dejunkAndDedupeAssetsInAssetCollection:options:curationContext:progressBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

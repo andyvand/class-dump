@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)0;
 - (void);
 
 @end

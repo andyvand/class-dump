@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDSleepConfigurationWakeUpTypeWrapper
 {
     long long _value;
 }
 
-+ (id);
++ (id)numberOfAssetClustersWithin50mOfCenter;
 - (id);
 - (void);
 - (id);
 - (id);
+- (_Bool)!;
 - (_Bool);
-- (_Bool);
-- (id)dSettingsWithPreviousSettings:(struct _NSZone *)arg1;
+- (id)notifyClientsOfUpdatedSettingsWithPreviousSettings:(struct _NSZone *)arg1;
 - (long long)fetchMaxValueForStatisticsName:forDate: /* Error: Ran out of types for this method. */;
 - (id)d user NOC info missing from resident response;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long value; // @synthesize value=_value;
 
 @end

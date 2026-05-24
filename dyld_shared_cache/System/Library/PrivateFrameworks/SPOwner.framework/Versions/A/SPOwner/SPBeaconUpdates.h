@@ -9,14 +9,11 @@
 @interface SPBeaconUpdates
 {
     _Bool _restoreDefaultName;
-    NSString *_name;
-    long long _roleId;
-    NSString *_emoji;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (id);
@@ -25,16 +22,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)IMMapPreviewGenerator;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *emoji; // @synthesize emoji=_emoji;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool restoreDefaultName; // @synthesize restoreDefaultName=_restoreDefaultName;
-@property(nonatomic) long long roleId; // @synthesize roleId=_roleId;
 
 @end
 

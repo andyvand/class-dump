@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (double);
-- (struct CGSize);
-- (struct CGRect);
+- (struct CGSize)redContactsWithTimeout).;
+- (struct CGRect)lly fetched %lu sharing paired contacts;
 
 // Remaining properties
 @property(nonatomic) double verticalOffset; // @synthesize verticalOffset=_verticalOffset;

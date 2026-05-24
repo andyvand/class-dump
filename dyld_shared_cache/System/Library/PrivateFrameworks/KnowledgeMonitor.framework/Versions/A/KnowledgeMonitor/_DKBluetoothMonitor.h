@@ -6,22 +6,11 @@
 
 #import <KnowledgeMonitor/_DKMonitor.h>
 
-@class BMPruner, BMSource, NSDictionary, NSLock, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class BMSource, NSMutableDictionary;
 
 @interface _DKBluetoothMonitor : _DKMonitor
 {
     BMSource *_source;
-    _Bool _enabled;
-    CDUnknownBlockType historicalDeletingHandler;
-    NSMutableDictionary *_activeConnections;
-    NSMutableDictionary *_inactiveConnections;
-    NSMutableDictionary *_previousVendorIDs;
-    BMPruner *_pruner;
-    NSObject<OS_dispatch_queue> *_batteryLevelPollingQueue;
-    NSObject<OS_dispatch_source> *_batteryLevelPollingTimer;
-    NSDictionary *_batteryLevels;
-    NSLock *_connectionUpdateLock;
 }
 
 + (id);
@@ -34,12 +23,12 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)ed:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)SYSTEM_SPAIN_Renfe_SNCF_Rail;
+- (void)SYSTEM_DENVER_Platte_Valley_Trolley;
+- (_Bool)SYSTEM_SYDNEY_Junee_Buses;
+- (id)yIdentifiedResourceFetcher<%p>;
 - (void);
 - (void);
 - (void);
@@ -54,10 +43,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id))!;
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void)initWithBundleIdentifier:(id)arg1 profileIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -67,21 +56,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *activeConnections; // @synthesize activeConnections=_activeConnections;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *batteryLevelPollingQueue; // @synthesize batteryLevelPollingQueue=_batteryLevelPollingQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *batteryLevelPollingTimer; // @synthesize batteryLevelPollingTimer=_batteryLevelPollingTimer;
-@property(retain) NSDictionary *batteryLevels; // @synthesize batteryLevels=_batteryLevels;
-@property(retain, nonatomic) NSLock *connectionUpdateLock; // @synthesize connectionUpdateLock=_connectionUpdateLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType historicalDeletingHandler; // @synthesize historicalDeletingHandler;
-@property(retain, nonatomic) NSMutableDictionary *inactiveConnections; // @synthesize inactiveConnections=_inactiveConnections;
-@property(retain, nonatomic) NSMutableDictionary *previousVendorIDs; // @synthesize previousVendorIDs=_previousVendorIDs;
-@property(retain, nonatomic) BMPruner *pruner; // @synthesize pruner=_pruner;
-@property(readonly) Class superclass;
 
 @end
 

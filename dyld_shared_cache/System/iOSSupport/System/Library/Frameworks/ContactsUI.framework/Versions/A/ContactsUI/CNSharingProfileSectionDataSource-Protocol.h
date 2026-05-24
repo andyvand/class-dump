@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CNSharingProfileSectionDataSource
+- (NSString *)j;
+
+@optional
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long selectedIndex;

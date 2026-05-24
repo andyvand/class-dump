@@ -9,7 +9,6 @@
 @interface PXCuratedLibraryLabel
 {
     PXCuratedLibraryLabelConfiguration *_userData;
-    struct CGRect _clippingRect;
 }
 
 + (struct CGSize);
@@ -24,19 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) PXCuratedLibraryLabelConfiguration *userData; // @synthesize userData=_userData;
 
 @end

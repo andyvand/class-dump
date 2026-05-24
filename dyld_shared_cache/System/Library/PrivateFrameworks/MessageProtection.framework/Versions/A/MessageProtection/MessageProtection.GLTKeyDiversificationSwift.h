@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (struct __SecKey *);
++ (struct __SecKey *)9h;
 - (id);
 
 @end

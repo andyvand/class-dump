@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSSet, PGGraphYearNodeCollection, PGTitle, PGTitleGenerationContext, PGTitleGeneratorDateMatching, PHAsset, PHAssetCollection, PHFetchResult;
+@class PHAssetCollection, PHFetchResult;
 
 @interface PGTitleGenerator
 {
     PHFetchResult *_curatedAssets;
-    _Bool _isForHighlight;
-    NSSet *_momentNodes;
-    PGTitleGeneratorDateMatching *_dateMatching;
-    PHAsset *_keyAsset;
-    PHAssetCollection *_curatedAssetCollection;
-    PHAssetCollection *_assetCollection;
-    PGTitleGenerationContext *_titleGenerationContext;
-    PGTitle *_title;
-    PGTitle *_subtitle;
-    NSSet *_usedLocationNodes;
-    NSLocale *_locale;
-    unsigned long long _preferredTitleType;
-    unsigned long long _lineBreakBehavior;
-    PGGraphYearNodeCollection *_featuredYearNodes;
 }
 
 - (id);
@@ -39,46 +25,35 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (double);
+- (id)descriptionForElement:type: /* Error: Ran out of types for this method. */;
+- (id)_descriptionForChildrenOfElement:type:singleCharCheck: /* Error: Ran out of types for this method. */;
+- (id)_controllerClass;
+- (_Bool)is not supported.;
+- (_Bool)zu.
+;
+- (id)ACMContextSetData;
+- (double)onController"16@"AXKElementController"24;
 - (void);
 - (void);
-- (id);
+- (id)d;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)e;
+- (id)A
+;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)utineInfo:universalStartDate:universalEndDate: /* Error: Ran out of types for this method. */;
+- (id)(J;
+- (id)initFromMomentNode:toBusinessNode:confidence:hasRoutineInfo:universalStartDate:universalEndDate: /* Error: Ran out of types for this method. */;
 - (void)tMemoryGenerator.m;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) PHAssetCollection *curatedAssetCollection; // @synthesize curatedAssetCollection=_curatedAssetCollection;
-@property(readonly, nonatomic) PGTitleGeneratorDateMatching *dateMatching; // @synthesize dateMatching=_dateMatching;
-@property(retain, nonatomic) PGGraphYearNodeCollection *featuredYearNodes; // @synthesize featuredYearNodes=_featuredYearNodes;
-@property(nonatomic) _Bool isForHighlight; // @synthesize isForHighlight=_isForHighlight;
-@property(readonly, nonatomic) PHAsset *keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(nonatomic) unsigned long long lineBreakBehavior; // @synthesize lineBreakBehavior=_lineBreakBehavior;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSSet *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(nonatomic) unsigned long long preferredTitleType; // @synthesize preferredTitleType=_preferredTitleType;
-@property(readonly, nonatomic) PGTitle *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) PGTitle *title; // @synthesize title=_title;
-@property(readonly, nonatomic) PGTitleGenerationContext *titleGenerationContext; // @synthesize titleGenerationContext=_titleGenerationContext;
-@property(retain, nonatomic) NSSet *usedLocationNodes; // @synthesize usedLocationNodes=_usedLocationNodes;
 
 @end
 

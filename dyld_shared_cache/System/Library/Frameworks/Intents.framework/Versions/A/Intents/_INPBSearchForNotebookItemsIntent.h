@@ -4,38 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBDateTimeRange, _INPBIntentMetadata, _INPBLocation;
+@class NSString;
 
 @interface _INPBSearchForNotebookItemsIntent
 {
     CDStruct_95bda58d _temporalEventTriggerTypes;
-    struct {
-        unsigned int dateSearchType:1;
-        unsigned int includeAllNoteContents:1;
-        unsigned int itemType:1;
-        unsigned int locationSearchType:1;
-        unsigned int status:1;
-        unsigned int taskPriority:1;
-    } _has;
-    _Bool _includeAllNoteContents;
-    int _dateSearchType;
-    int _itemType;
-    int _locationSearchType;
-    int _status;
-    int _taskPriority;
-    NSString *_content;
-    _INPBDateTimeRange *_dateTime;
-    _INPBDataString *_groupName;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBLocation *_location;
-    NSString *_notebookItemIdentifier;
-    _INPBDataString *_title;
 }
 
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (id);
-- (int *);
+- (int *);
 - (int);
 - (id);
 - (int);
@@ -48,10 +27,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (int);
 - (id);
 - (_Bool);
@@ -77,11 +56,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_cachedBBHStateMap;
 - (void);
 - (void);
 - (id);
@@ -99,52 +78,18 @@
 - (id);
 - (_Bool)Â0@ù
 × ;
-- (void)on;
-- (id);
+- (void)addTasksIntentTemporalEventTriggerUnsupportedReason;
+- (id)_cancelIfNotAlreadyCanceled;
 - (_Bool)@"_INPBLocation",&,N,V_location;
-- (int)tionRequired;
+- (int)INStartCallIntentResponseCodeUserConfirmationRequired;
 - (void)PerHour;
-- (_Bool)titlement;
+- (_Bool)requiredEntitlement;
 - (int)Í>;
 - (void);
 - (void)[óÿiàÉ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(nonatomic) int dateSearchType; // @synthesize dateSearchType=_dateSearchType;
-@property(retain, nonatomic) _INPBDateTimeRange *dateTime; // @synthesize dateTime=_dateTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDataString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(nonatomic) _Bool hasDateSearchType;
-@property(readonly, nonatomic) _Bool hasDateTime;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(nonatomic) _Bool hasIncludeAllNoteContents;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasItemType;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasLocationSearchType;
-@property(readonly, nonatomic) _Bool hasNotebookItemIdentifier;
-@property(nonatomic) _Bool hasStatus;
-@property(nonatomic) _Bool hasTaskPriority;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeAllNoteContents; // @synthesize includeAllNoteContents=_includeAllNoteContents;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int itemType; // @synthesize itemType=_itemType;
-@property(retain, nonatomic) _INPBLocation *location; // @synthesize location=_location;
-@property(nonatomic) int locationSearchType; // @synthesize locationSearchType=_locationSearchType;
-@property(copy, nonatomic) NSString *notebookItemIdentifier; // @synthesize notebookItemIdentifier=_notebookItemIdentifier;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(nonatomic) int taskPriority; // @synthesize taskPriority=_taskPriority;
-@property(readonly, nonatomic) int *temporalEventTriggerTypes;
-@property(readonly, nonatomic) unsigned long long temporalEventTriggerTypesCount;
-@property(retain, nonatomic) _INPBDataString *title; // @synthesize title=_title;
 
 @end
 

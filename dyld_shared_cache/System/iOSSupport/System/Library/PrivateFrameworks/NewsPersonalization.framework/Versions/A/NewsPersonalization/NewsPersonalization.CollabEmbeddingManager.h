@@ -7,9 +7,6 @@
 @interface NewsPersonalization.CollabEmbeddingManager
 {
     id processedEmbedding;
-    id defaultRecommendations;
-    id vectorTable;
-    id tokensByIndex;
 }
 
 @end

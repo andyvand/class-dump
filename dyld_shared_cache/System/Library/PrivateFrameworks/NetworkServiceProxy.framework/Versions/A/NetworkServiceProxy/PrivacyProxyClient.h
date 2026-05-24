@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void);
++ (void)-;
 + (void);
 + (void);
 + (void);
@@ -20,15 +20,14 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (id);
-+ (void)ª1\íò0
-ÁÚð;
++ (void);
 + (_Bool);
++ (void)D;
 + (void);
 + (void);
-+ (void);
-+ (void);
++ (void)A;
 + (id);
 + (void);
 + (id);
@@ -38,10 +37,10 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)stination scope to use;
 + (void);
 + (id);
-+ (void);
++ (void)e;
 + (void);
 + (void);
 + (void);

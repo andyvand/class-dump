@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MapsSuggestionsEntry;
+
 @protocol MapsSuggestionsDeduper
+- (_Bool)setDocumentBounds:(MapsSuggestionsEntry *)arg1;
 @end
 

@@ -11,7 +11,6 @@
 @interface CallDBManagerServer : CallDBManager
 {
     CDUnknownBlockType _metaInfoProvider;
-    CHFeatureFlags *_featureFlags;
 }
 
 + (id);
@@ -22,33 +21,33 @@
 + (long long);
 + (id);
 + (id);
-+ (id);
++ (id)CKi;
+- (void)initWithIdentifier:(id)arg1 senderHandle:(id)arg2 handle:displayName:contact:mostRecentTransportBundleId: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (void)distanceIdentity;
+- (_Bool)_facesMatchingPredicate:(id)arg1 limit:(_Bool)arg2 inPhotoLibrary:(_Bool)arg3;
 - (void);
+- (id)c;
+- (void);
+- (void);
+- (void);
+- (_Bool)B;
+- (id);
+- (CDUnknownBlockType)P;
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)	$	M	0	?		;
 - (_Bool);
 - (id);
 - (void);
@@ -57,7 +56,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CHFeatureFlags *featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly, nonatomic) CDUnknownBlockType metaInfoProvider; // @synthesize metaInfoProvider=_metaInfoProvider;
 
 @end
 

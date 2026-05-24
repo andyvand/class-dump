@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSString;
+@class IFColor;
 
 __attribute__((visibility("hidden")))
 @interface ISBlendledTintEffect
@@ -12,21 +12,14 @@ __attribute__((visibility("hidden")))
     IFColor *_color;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)synchronousRemoteObjectProxyWithErrorHandler:(id)arg1;
+- (id)alidDataAddr(optionsStrP);
+- (id)K;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) IFColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

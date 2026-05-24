@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)connectionDidDrop;
 - (void);
 - (id);
 - (void)#ð!¸Cù§&°1Â0@ù

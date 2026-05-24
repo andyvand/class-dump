@@ -8,7 +8,7 @@
 - (double)ers.glassBackground.inputBleedDistance1;
 - (_Bool);
 - (struct CGRect)¬Ú;
-- (struct CGSize)tyle;
+- (struct CGSize)NUIButtonConfigurationCornerStyle;
 
 // Remaining properties
 @property(readonly, nonatomic) double naturalHeight;

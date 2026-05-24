@@ -7,6 +7,8 @@
 @class NSTextAttachment;
 
 @protocol NSTextAttachmentCell
+- (_Bool);
+- (struct CGRect);
 
 // Remaining properties
 @property NSTextAttachment *attachment;

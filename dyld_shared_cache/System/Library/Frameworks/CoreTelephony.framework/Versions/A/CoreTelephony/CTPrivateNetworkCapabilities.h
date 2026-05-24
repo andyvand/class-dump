@@ -7,30 +7,24 @@
 @interface CTPrivateNetworkCapabilities
 {
     _Bool _isPrivateNetworkSIM;
-    _Bool _isPrivateNetworkPreferredOverWifi;
-    _Bool _isPrivateNetworkModeEnabled;
-    _Bool _hideDataRoaming;
 }
 
-+ (_Bool);
++ (_Bool)he tracks being associated must belong to the same movie;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)fetchPairedSmartCards:(id)arg1;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hideDataRoaming; // @synthesize hideDataRoaming=_hideDataRoaming;
-@property(nonatomic) _Bool isPrivateNetworkModeEnabled; // @synthesize isPrivateNetworkModeEnabled=_isPrivateNetworkModeEnabled;
-@property(nonatomic) _Bool isPrivateNetworkPreferredOverWifi; // @synthesize isPrivateNetworkPreferredOverWifi=_isPrivateNetworkPreferredOverWifi;
 @property(nonatomic) _Bool isPrivateNetworkSIM; // @synthesize isPrivateNetworkSIM=_isPrivateNetworkSIM;
 
 @end

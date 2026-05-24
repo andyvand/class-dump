@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceManager, NSArray, NSMutableOrderedSet, NSString, RBSTarget;
+@class BSServiceManager;
 
 @interface BSServiceConnectionEndpointInjectorConfiguration
 {
     BSServiceManager *_lock_manager;
-    CDUnknownBlockType _lock_assertionGenerator;
-    RBSTarget *_lock_target;
-    NSString *_lock_domain;
-    NSString *_lock_service;
-    NSString *_lock_instance;
-    NSMutableOrderedSet *_lock_endpoints;
-    NSString *_lock_inheritingEnvironment;
-    NSArray *_lock_additionalAttributes;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (void);
-- (void);
+- (void)*m;
 - (void)°;
 
 @end

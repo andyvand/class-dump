@@ -5,6 +5,7 @@
 //
 
 @protocol PLPersistentHistoryMarkerOverrides
-- (id)dRelationshipsOfInterestForObject: /* Error: Ran out of types for this method. */;
+- (unsigned int :(null))w1;
+- (id)_orderedRelationshipsOfInterestForObject: /* Error: Ran out of types for this method. */;
 @end
 

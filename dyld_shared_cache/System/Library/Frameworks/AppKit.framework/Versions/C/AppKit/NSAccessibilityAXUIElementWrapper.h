@@ -9,12 +9,12 @@
     struct __AXUIElement *_elementRef;
 }
 
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)ion(%d);
+- (id)rrCode:%d. /* Error: Ran out of types for this method. */;
+- (id)tDBSchema:DB=%@ pragma wal enable - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (_Bool)cks_Listener=^^?{CBs=@?@?@?@?@?@?}@i}8;
+- (id)transfer service;
+- (id)e;
 - (struct __AXUIElement *);
 - (void);
 - (unsigned long long);

@@ -5,5 +5,6 @@
 //
 
 @protocol AMSSystemEngagementTaskClientInterface
+- (void);
 @end
 

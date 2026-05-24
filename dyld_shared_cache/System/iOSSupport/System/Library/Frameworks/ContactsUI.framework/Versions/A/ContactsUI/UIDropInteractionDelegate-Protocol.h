@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIDropInteraction;
+@class UIDropInteraction, UITargetedDragPreview;
+@protocol UIDropSession;
 
 @protocol UIDropInteractionDelegate
 
 @optional
+- (UITargetedDragPreview *);
 - (void)rView"16;
-- (void)Contact:(UIDropInteraction *)arg1;
+- (void)actionForRelationshipResults:(UIDropInteraction *)arg1 forContact:(id <UIDropSession>)arg2;
 - (void)ô°	
 
 hè<;

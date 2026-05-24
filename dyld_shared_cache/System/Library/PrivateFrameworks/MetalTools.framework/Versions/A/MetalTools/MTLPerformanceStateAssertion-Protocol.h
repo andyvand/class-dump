@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly) long long requestedPerformanceState;
-@property(readonly) _Bool wasPerformanceStateAssertionMaintained;
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, NSWindow;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSFocusStackElement
 {
     NSView *_view;
-    NSWindow *_originalWindow;
-    unsigned long long _errorData;
-    _Bool _valid;
 }
 
 @end

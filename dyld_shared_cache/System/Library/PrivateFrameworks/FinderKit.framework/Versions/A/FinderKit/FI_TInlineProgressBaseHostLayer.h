@@ -6,16 +6,12 @@
 
 #import <FinderKit/FI_TLayer.h>
 
-@class FI_TInlineProgressBarLayer, NSObject, NSString;
-@protocol CAAnimationDelegate;
+@class FI_TInlineProgressBarLayer;
 
 __attribute__((visibility("hidden")))
 @interface FI_TInlineProgressBaseHostLayer : FI_TLayer
 {
     FI_TInlineProgressBarLayer *_progressLayer;
-    unsigned long long _animationCount;
-    _Bool _cleanupWhenFinished;
-    NSObject<CAAnimationDelegate> *_animationDelegate;
 }
 
 - (void);
@@ -29,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned int);
 - (void)0@ù
@@ -40,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)orISIconAndSpecP6ISIconRK13IconImageSpecONS_15unique_functionIFvP7NSImageEEE12IconTypeHintbP5NSURLE3$_0vJEEE;
 
 // Remaining properties
-@property(nonatomic) __weak NSObject<CAAnimationDelegate> *animationDelegate; // @synthesize animationDelegate=_animationDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double percentComplete;
-@property(nonatomic) unsigned int state;
-@property(readonly) Class superclass;
 
 @end
 

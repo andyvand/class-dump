@@ -9,16 +9,10 @@
 @interface PKVerificationChannel
 {
     _Bool _requiresUserInteraction;
-    NSString *_identifier;
-    unsigned long long _type;
-    NSString *_typeDescription;
-    NSString *_organizationName;
-    NSString *_contactPoint;
-    NSString *_sourceAddress;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)L;
 - (id);
 - (void);
 - (void);
@@ -33,23 +27,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (void)cellularRecommendationScore;
 - (void);
 - (id);
-- (void);
+- (void);
+- (id);
+- (void)PKPaymentSetupFeatureTypeTransit;
 - (id)ÕL±ÿ%ÕLø±ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contactPoint; // @synthesize contactPoint=_contactPoint;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
-@property(nonatomic) _Bool requiresUserInteraction; // @synthesize requiresUserInteraction=_requiresUserInteraction;
-@property(copy, nonatomic) NSString *sourceAddress; // @synthesize sourceAddress=_sourceAddress;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *typeDescription; // @synthesize typeDescription=_typeDescription;
-@property(readonly, copy, nonatomic) NSString *typeDescriptionUnlocalized;
 
 @end
 

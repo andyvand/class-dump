@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSControlDescriptorsPredicate, CHSWidgetDescriptorsPredicate, ChronoServices.LiveActivityDescriptorsPredicate, NSString;
+@class CHSControlDescriptorsPredicate;
 
 @interface CHSWidgetExtensionProviderOptions
 {
     CHSControlDescriptorsPredicate *controlsPredicate;
-    CHSWidgetDescriptorsPredicate *widgetsPredicate;
-    _Bool includeIntents;
-    ChronoServices.LiveActivityDescriptorsPredicate *_liveActivitiesPredicate;
 }
 
-+ (id);
++ (id)j?;
 + (id);
 + (id);
 + (void);
@@ -25,32 +22,26 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (long long);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (long long)7;
+- (_Bool)@;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) ChronoServices.LiveActivityDescriptorsPredicate *_liveActivitiesPredicate; // @synthesize _liveActivitiesPredicate;
-@property(nonatomic, readonly) CHSControlDescriptorsPredicate *controlsPredicate; // @synthesize controlsPredicate;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool includeIntents; // @synthesize includeIntents;
 @property(nonatomic, readonly) _Bool matchesEverything;
-@property(nonatomic, readonly) CHSWidgetDescriptorsPredicate *widgetsPredicate; // @synthesize widgetsPredicate;
 
 @end
 

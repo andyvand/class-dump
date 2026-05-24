@@ -6,14 +6,9 @@
 
 #import <UXKit/UXCollectionReusableView.h>
 
-@class NSBox, UXLabel, UXView;
-
 @interface _UXTableHeaderView : UXCollectionReusableView
 {
     _Bool _floating;
-    UXView *_contentView;
-    UXLabel *_titleLabel;
-    NSBox *_separator;
 }
 
 - (void);
@@ -23,14 +18,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id)tersectOrderedSet: /* Error: Ran out of types for this method. */;
+- (id)intersectOrderedSet: /* Error: Ran out of types for this method. */;
 - (void)UXBarButtonItem.m;
 
 // Remaining properties
-@property(readonly, nonatomic) UXView *contentView; // @synthesize contentView=_contentView;
 @property(nonatomic, getter=isFloating) _Bool floating; // @synthesize floating=_floating;
-@property(readonly, nonatomic) NSBox *separator; // @synthesize separator=_separator;
-@property(readonly, nonatomic) UXLabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

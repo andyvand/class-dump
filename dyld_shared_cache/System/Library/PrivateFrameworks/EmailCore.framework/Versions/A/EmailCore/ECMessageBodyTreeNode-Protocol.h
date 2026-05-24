@@ -5,5 +5,6 @@
 //
 
 @protocol ECMessageBodyTreeNode
+- (void)lsView should only be set once on an AVMobileChromelessControlsView.;
 @end
 

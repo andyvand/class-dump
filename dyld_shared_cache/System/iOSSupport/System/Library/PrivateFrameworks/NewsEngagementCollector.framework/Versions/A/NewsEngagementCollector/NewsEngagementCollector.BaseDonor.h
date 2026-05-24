@@ -8,8 +8,6 @@
 {
     id type;
     id eventConfigurations;
-    id observations;
-    id lock;
 }
 
 @end

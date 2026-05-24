@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSString;
 
 @interface GEOServerFormatStyleParser
 {
     NSString *_string;
-    NSMutableArray *_styleNames;
-    NSMutableArray *_styleRanges;
-    NSMutableArray *_tokenRanges;
-    NSArray *_results;
-    NSMutableArray *_openStyleNames;
-    NSMutableArray *_openStyleLocations;
-    _Bool _parsed;
 }
 
 - (id);
-- (struct _NSRange);
-- (void);
+- (struct _NSRange)__TEXT;
+- (void)!$_;
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)R;
 - (void);
 - (id);
-- (id);
+- (id)cognition event for %@
+;
 - (id)ed. Too many parameters:(id)arg1 %lu max allowed:%lu /* Error: Ran out of types for this method. */;
 - (void)ï;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *styles;
-@property(readonly, nonatomic) NSArray *tokenRanges;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface JetEngine.JetPackageFormatWriter
 {
     id outputStream;
-    id state;
 }
 
 @end

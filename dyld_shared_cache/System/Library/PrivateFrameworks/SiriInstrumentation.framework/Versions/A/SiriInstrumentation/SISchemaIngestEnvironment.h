@@ -6,35 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaIngestEnvironment : SISchemaInstrumentationMessage
 {
     int _buildVariant;
-    struct {
-        unsigned int buildVariant:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (int);
+- (int)otificationFrequencyDays;
 - (id);
+- (void)oup parts are too large:(int)arg1 %u %u %u
+;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)Attempts;
+- (_Bool)r in %@:(id)arg1 %@;
+- (_Bool)FStringRef, CFStringRef, int64_t, int64_t, int64_t, CFStringRef, CFStringRef, int64_t, CFStringRef, int64_t, CFStringRef, CFStringRef, int64_t, int64_t, int64_t, int64_t, int64_t);
 - (id);
 - (id);
-- (id)sification;
-- (id)ctationAlternativesViewed;
+- (id)deleteClassification;
+- (id)_dictationAlternativesViewed;
 
 // Remaining properties
 @property(nonatomic) int buildVariant; // @synthesize buildVariant=_buildVariant;
-@property(nonatomic) _Bool hasBuildVariant;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

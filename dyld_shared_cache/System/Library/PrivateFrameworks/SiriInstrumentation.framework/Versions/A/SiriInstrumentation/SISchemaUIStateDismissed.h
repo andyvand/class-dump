@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUIStateDismissed : SISchemaInstrumentationMessage
 {
     int _dismissalReason;
-    CDStruct_bdc5678a _has;
 }
 
 - (void);
@@ -21,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)getSubscriptionEntitlementsForActiveAccountWithResultHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)message_attachment_join_idx_attachment_id;
 - (id);
 - (id);
-- (id)ndTruth;
-- (id)de;
+- (id)deleteGroundTruth;
+- (id)_hasDebugElectionDecisionMade;
 
 // Remaining properties
 @property(nonatomic) int dismissalReason; // @synthesize dismissalReason=_dismissalReason;
-@property(nonatomic) _Bool hasDismissalReason;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

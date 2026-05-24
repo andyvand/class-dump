@@ -7,23 +7,11 @@
 @protocol MTLSamplerStateSPI
 - (unsigned long long);
 
+@optional
+- (unsigned long long);
+- (unsigned long long)($�4;
+
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long gpuHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
 @property(readonly, nonatomic) unsigned long long pixelFormat;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
 @end
 

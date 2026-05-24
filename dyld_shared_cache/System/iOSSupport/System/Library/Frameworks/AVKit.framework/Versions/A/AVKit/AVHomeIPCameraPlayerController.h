@@ -10,38 +10,34 @@ __attribute__((visibility("hidden")))
 @interface AVHomeIPCameraPlayerController
 {
     double _volume;
-    _Bool _muted;
-    id <AVHomeIPCameraActionButtonHandling> _delegate;
-    struct CGSize _presentationSize;
 }
 
 - (id);
 - (void);
 - (void);
 - (double);
-- (long long);
+- (long long)@(#)PROGRAM:CoreSuggestionsML  PROJECT:Suggestions-1311.7
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (long long);
-- (void);
+- (void){[;
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
 - (_Bool);
 - (void)0@ù
 × ;
-- (void)trolsViewLayoutGuides;
-- (_Bool)roller;
-- (void)ontentViewOverrideLayoutClass:(id)arg1;
+- (void)updateCustomControlsViewLayoutGuides;
+- (_Bool)systemPIPController;
+- (void)playerViewControllerContentViewOverrideLayoutClass:(id)arg1;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) __weak id <AVHomeIPCameraActionButtonHandling> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property(nonatomic) struct CGSize presentationSize; // @synthesize presentationSize=_presentationSize;
 
 @end
 

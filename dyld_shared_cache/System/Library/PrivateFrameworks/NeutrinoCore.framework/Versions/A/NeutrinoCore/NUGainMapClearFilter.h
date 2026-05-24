@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface NUGainMapClearFilter
 {
     CIImage *_inputGainMap;
-    CIImage *_inputMatte;
-    NSNumber *_inputInvertMatte;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputGainMap; // @synthesize inputGainMap=_inputGainMap;
-@property(retain, nonatomic) NSNumber *inputInvertMatte; // @synthesize inputInvertMatte=_inputInvertMatte;
-@property(retain, nonatomic) CIImage *inputMatte; // @synthesize inputMatte=_inputMatte;
 
 @end
 

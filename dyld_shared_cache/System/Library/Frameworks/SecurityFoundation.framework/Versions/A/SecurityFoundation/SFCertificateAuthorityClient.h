@@ -9,9 +9,9 @@
     id _reserved_SFCollaborationCertificateAuthorityClient;
 }
 
-+ (id);
++ (id)R( ;
 - (id);
-- (id);
+- (id)R$;
 
 @end
 

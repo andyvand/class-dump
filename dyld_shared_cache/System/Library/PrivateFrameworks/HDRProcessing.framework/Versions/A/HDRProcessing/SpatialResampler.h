@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ResamplerShader;
-@protocol MTLDeviceSPI, MTLLibrary;
+@protocol MTLDeviceSPI;
 
 @interface SpatialResampler
 {
     id <MTLDeviceSPI> _device;
-    id <MTLLibrary> _defaultLibrary;
-    ResamplerShader *_verticalResampleKernel;
-    ResamplerShader *_verticalResampleChromaKernel;
-    ResamplerShader *_horizontalResampleKernel;
 }
 
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
+- (void)!	;
 - (void);
-- (void);
-- (void);
-- (id)rl:(id)arg1;
+- (id)setupDoViDmVersion:(id)arg1 tmData:hdrCtrl:tcCtrl: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -11,8 +11,6 @@
 @interface MPChangePlaybackRateCommand : MPRemoteCommand
 {
     float _preferredRate;
-    NSArray *_extendedSupportedPlaybackRates;
-    NSArray *_supportedPlaybackRates;
 }
 
 - (void);
@@ -22,7 +20,7 @@
 - (id);
 - (id);
 - (float);
-- (void)PodcastChapterURL__MAPPING_MISSING__;
+- (void)__MPModelPropertyPodcastChapterURL__MAPPING_MISSING__;
 - (void);
 
 // Remaining properties

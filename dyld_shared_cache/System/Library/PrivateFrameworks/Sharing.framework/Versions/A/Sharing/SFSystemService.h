@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SFService;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFSystemService
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    SFService *_sfService;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 - (void);

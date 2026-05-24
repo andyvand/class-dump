@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface MRScreenMirroringObserver
 {
     CDUnknownBlockType _callback;
-    NSObject<OS_dispatch_queue> *_queue;
-    long long _deviceCount;
 }
 
 + (id);
 + (id);
 - (id);
+- (void)_;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long)_serializedBackingStoreIncludingKeys:excludingMandatoryKeys: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDUnknownBlockType);
 - (void)buf",&,N,V_deviceDescriptor;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(nonatomic) long long deviceCount; // @synthesize deviceCount=_deviceCount;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

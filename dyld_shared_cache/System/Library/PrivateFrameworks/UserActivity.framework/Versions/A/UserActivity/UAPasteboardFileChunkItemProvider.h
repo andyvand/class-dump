@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSNumber, NSString, NSUUID;
+@class NSFileHandle, NSString;
 
 __attribute__((visibility("hidden")))
 @interface UAPasteboardFileChunkItemProvider
 {
     NSString *_type;
-    NSUUID *_uuid;
-    NSFileHandle *_dataFile;
-    NSNumber *_offsetInFile;
-    long long _chunkSize;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -31,18 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property long long chunkSize; // @synthesize chunkSize=_chunkSize;
 @property(retain) NSFileHandle *dataFile; // @synthesize dataFile=_dataFile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSNumber *offsetInFile; // @synthesize offsetInFile=_offsetInFile;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

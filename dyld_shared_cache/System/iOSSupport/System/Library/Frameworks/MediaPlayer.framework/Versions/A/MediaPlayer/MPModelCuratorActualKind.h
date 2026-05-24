@@ -15,9 +15,9 @@
 + (id);
 + (_Bool);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)ful.;
+- (unsigned long long)listener:shouldAcceptNewConnection: /* Error: Ran out of types for this method. */;
+- (id)registerRequestID:options:handler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 

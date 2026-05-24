@@ -9,10 +9,9 @@
 @interface DMFControlSessionIdentifier : DMFControlGroupIdentifier
 {
     unsigned short _port;
-    unsigned int _leaderIP;
 }
 
-+ (_Bool);
++ (_Bool)`;
 
 @end
 

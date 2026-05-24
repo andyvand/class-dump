@@ -4,47 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackIdLookupParameters, GEORPFeedbackImageUploadParameters, GEORPFeedbackLayoutConfigParameters, GEORPFeedbackLogEventParameters, GEORPFeedbackQueryParameters, GEORPFeedbackSubmissionParameters, GEORPTdmFraudNotificationParameters, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackRequestParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPFeedbackIdLookupParameters *_idLookupParameters;
-    GEORPFeedbackImageUploadParameters *_imageUploadParameters;
-    GEORPFeedbackLayoutConfigParameters *_layoutConfigParameters;
-    GEORPFeedbackLogEventParameters *_logEventParameters;
-    GEORPFeedbackQueryParameters *_queryParameters;
-    GEORPFeedbackSubmissionParameters *_submissionParameters;
-    GEORPTdmFraudNotificationParameters *_tdmFraudNotificationParameters;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_idLookupParameters:1;
-        unsigned int read_imageUploadParameters:1;
-        unsigned int read_layoutConfigParameters:1;
-        unsigned int read_logEventParameters:1;
-        unsigned int read_queryParameters:1;
-        unsigned int read_submissionParameters:1;
-        unsigned int read_tdmFraudNotificationParameters:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)KnownRefinementTypes:(id)arg1 count: /* Error: Ran out of types for this method. */;
++ (_Bool)setKnownRefinementTypes:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (void)stem/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices;
+- (void)__objc_superrefs__DATA_CONST;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)remember to assign contacts to containers to avoid recurring container lookup and contact re-validation costs.;
+- (id)incompatible;
 - (id);
 - (id);
 - (id);
@@ -53,8 +31,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -65,9 +43,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)speechManagerLPCMRecordBufferAvailable:chunk: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)ioFileWriter addSamples:(unsigned long long)arg1 numSamples:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -76,27 +54,13 @@
 - (id);
 - (void);
 - (id)erimentDescription"b1"read_experimentId"b1"read_treatmentId"b1"wrote_anyField"b1};
-- (id)dString;
+- (id)bestLocalizedString;
 - (id)xa;
 - (id)per object;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIdLookupParameters;
-@property(readonly, nonatomic) _Bool hasImageUploadParameters;
-@property(readonly, nonatomic) _Bool hasLayoutConfigParameters;
-@property(readonly, nonatomic) _Bool hasLogEventParameters;
-@property(readonly, nonatomic) _Bool hasQueryParameters;
 @property(readonly, nonatomic) _Bool hasSubmissionParameters;
-@property(readonly, nonatomic) _Bool hasTdmFraudNotificationParameters;
-@property(retain, nonatomic) GEORPFeedbackIdLookupParameters *idLookupParameters;
-@property(retain, nonatomic) GEORPFeedbackImageUploadParameters *imageUploadParameters;
-@property(retain, nonatomic) GEORPFeedbackLayoutConfigParameters *layoutConfigParameters;
-@property(retain, nonatomic) GEORPFeedbackLogEventParameters *logEventParameters;
-@property(retain, nonatomic) GEORPFeedbackQueryParameters *queryParameters;
-@property(retain, nonatomic) GEORPFeedbackSubmissionParameters *submissionParameters;
-@property(retain, nonatomic) GEORPTdmFraudNotificationParameters *tdmFraudNotificationParameters;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

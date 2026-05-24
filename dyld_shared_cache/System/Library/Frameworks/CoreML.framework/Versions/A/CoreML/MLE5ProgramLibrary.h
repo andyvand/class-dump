@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelConfiguration, MLProgramE5Container, NSArray, NSObject, NSString;
-@protocol MLE5ProgramLibraryImpl, OS_dispatch_queue;
+@protocol MLE5ProgramLibraryImpl;
 
 __attribute__((visibility("hidden")))
 @interface MLE5ProgramLibrary
 {
     struct e5rt_program_library *_programLibraryHandle;
-    id <MLE5ProgramLibraryImpl> _impl;
-    NSObject<OS_dispatch_queue> *_lazyInitQueue;
-    MLModelConfiguration *_modelConfiguration;
-    MLProgramE5Container *_container;
 }
 
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id)X;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)";
 - (struct e5rt_execution_stream_operation *);
 - (struct e5rt_program_library *);
 - (id);
@@ -33,16 +28,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)ô,ð1;
 - (id)8;
-- (void)y;
+- (void)parameterDescriptionsByKey;
 
 // Remaining properties
-@property(readonly, nonatomic) MLProgramE5Container *container; // @synthesize container=_container;
-@property(readonly, copy, nonatomic) NSArray *functionNames;
 @property(readonly, nonatomic) id <MLE5ProgramLibraryImpl> impl; // @synthesize impl=_impl;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *lazyInitQueue; // @synthesize lazyInitQueue=_lazyInitQueue;
-@property(readonly, nonatomic) MLModelConfiguration *modelConfiguration; // @synthesize modelConfiguration=_modelConfiguration;
-@property(readonly, copy, nonatomic) NSString *modelDisplayName;
-@property(readonly) NSString *serializedMILText;
 
 @end
 

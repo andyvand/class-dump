@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSString;
 
 @interface HMCoreAnalyticsFieldData
 {
     NSString *_name;
-    NSObject *_value;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSObject *value; // @synthesize value=_value;
 
 @end
 

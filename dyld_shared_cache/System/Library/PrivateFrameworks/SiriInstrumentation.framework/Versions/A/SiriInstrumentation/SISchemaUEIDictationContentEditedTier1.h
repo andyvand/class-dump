@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface SISchemaUEIDictationContentEditedTier1 : SISchemaInstrumentationMessage
 {
@@ -23,18 +23,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)addProgressObserver: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)message_id LIMIT 1) IS NULL;;
 - (id);
 - (id);
-- (id)ndEventIndex;
-- (id)pshot;
-- (void)INTTYPE_INVALID;
+- (id)deleteEndEventIndex;
+- (id)_hasAllocationSnapshot;
+- (void)NETENDPOINTTYPE_INVALID;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *autoPunctuationEdits; // @synthesize autoPunctuationEdits=_autoPunctuationEdits;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

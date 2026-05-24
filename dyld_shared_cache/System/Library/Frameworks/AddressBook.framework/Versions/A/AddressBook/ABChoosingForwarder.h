@@ -7,8 +7,6 @@
 @interface ABChoosingForwarder
 {
     CDUnknownBlockType _selectorTest;
-    id _yesTarget;
-    id _noTarget;
 }
 
 - (id);

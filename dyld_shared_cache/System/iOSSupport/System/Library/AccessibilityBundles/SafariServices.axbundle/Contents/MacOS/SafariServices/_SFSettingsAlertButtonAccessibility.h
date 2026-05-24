@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)P;
 + (void);
 - (_Bool);
 - (unsigned long long);

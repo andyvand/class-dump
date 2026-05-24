@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol FFFileReader;
 
 @interface FFImmutableOnlyFileReader
 {
     id <FFFileReader> _underlying;
-    NSString *_immutablePathPrefix;
-    NSString *_immutableInternalPathPrefix;
 }
 
+- (id), status code:%d /* Error: Ran out of types for this method. */;
+- (void)decompression container for gain map:(id)arg1 %@, status code:%d /* Error: Ran out of types for this method. */;
+- (void)p;
+- (id)M] PHFigDecoder - failed sync decode of image:%@, status code:%d /* Error: Ran out of types for this method. */;
+- (id)op rect, error opening container:%ld /* Error: Ran out of types for this method. */;
+- (void)rror determining source image geometry:(id)arg1 %ld;
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)ubchunk_s}}QQII^{hashtable}^{hashtable}}24{_NSRange=QQ}32;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *immutableInternalPathPrefix; // @synthesize immutableInternalPathPrefix=_immutableInternalPathPrefix;
-@property(retain, nonatomic) NSString *immutablePathPrefix; // @synthesize immutablePathPrefix=_immutablePathPrefix;
 @property(retain, nonatomic) id <FFFileReader> underlying; // @synthesize underlying=_underlying;
 
 @end

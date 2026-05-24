@@ -9,22 +9,18 @@
 @interface MUIOriginalMessageInfo
 {
     _Bool _fromMicrosoft;
-    NSString *_headersHTML;
-    NSString *_bodyHTML;
 }
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)T;
+- (id)?;
 - (void);
 - (void)selectedMailboxes;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bodyHTML; // @synthesize bodyHTML=_bodyHTML;
-@property(readonly, nonatomic, getter=isFromMicrosoft) _Bool fromMicrosoft; // @synthesize fromMicrosoft=_fromMicrosoft;
 @property(readonly, copy, nonatomic) NSString *headersHTML; // @synthesize headersHTML=_headersHTML;
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol AVTAvatarStore
+- (void)P;
+- (void);
 @end
 

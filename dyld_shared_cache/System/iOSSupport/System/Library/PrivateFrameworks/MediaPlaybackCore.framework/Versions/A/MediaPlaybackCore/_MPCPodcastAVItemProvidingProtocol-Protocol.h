@@ -7,11 +7,12 @@
 @class NSString;
 
 @protocol _MPCPodcastAVItemProvidingProtocol
+- (NSString *)0:8@"ACAccount"16@"ACDClient"24@"ACDAccountStore"32^@40 /* Error: Ran out of types for this method. */;
+- (void)16@24@?32;
+- (_Bool)isMomentsDataclassEnabled;
+- (_Bool)h18Q;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAudioOnlyDownload;
-@property(readonly, nonatomic) _Bool hasVideo;
-@property(readonly, copy, nonatomic) NSString *podcastUUID;
 @property(nonatomic) float preferredPlaybackRate;
 @end
 

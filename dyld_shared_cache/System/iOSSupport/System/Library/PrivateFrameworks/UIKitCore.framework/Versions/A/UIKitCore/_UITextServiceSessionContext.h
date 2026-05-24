@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RVItem, UIResponder, UIView;
+@class UIResponder;
 @protocol UITextInput;
 
 __attribute__((visibility("hidden")))
 @interface _UITextServiceSessionContext
 {
     UIResponder<UITextInput> *_textInput;
-    UIView *_view;
-    NSString *_textWithContext;
-    RVItem *_rvItemWithContext;
-    struct _NSRange _selectedRange;
-    struct CGRect _presentationRect;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (struct CGRect);
-+ (id);
++ (id)tifier for 1-1 chat did not match the participant's handle ID.;
++ (id)at properties;
++ (id)ants;
++ (struct CGRect)cationAction = %@>;
++ (id)chatBotRecoverableMessageDeleteZone;
 + (_Bool)uld never be nil. This likely means that the UIKit_Artwork.bundle inside UIKitCore.framework is missing.;
 - (id);
-- (struct CGRect);
+- (struct CGRect)/lib/libamsupport.dylib;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ons:(long long)arg1 callerID:iMessageCapability:requiredCapabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)chat creation!;
 - (id);
 - (id);
 - (void);
-- (void)gnored;
+- (void)textInputChangesIgnored;
 - (id)dd}{CGSize=dd}},N;
 - (struct _NSRange)%@;
 - (void)7f%03G;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect presentationRect; // @synthesize presentationRect=_presentationRect;
-@property(readonly, copy, nonatomic) RVItem *rvItemWithContext; // @synthesize rvItemWithContext=_rvItemWithContext;
-@property(readonly, nonatomic) struct _NSRange selectedRange; // @synthesize selectedRange=_selectedRange;
 @property(readonly, nonatomic) UIResponder<UITextInput> *textInput; // @synthesize textInput=_textInput;
-@property(readonly, copy, nonatomic) NSString *textWithContext; // @synthesize textWithContext=_textWithContext;
-@property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end
 

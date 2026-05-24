@@ -7,14 +7,10 @@
 @interface MROrigamiAnimationPath
 {
     id *_curves;
-    double *_keyTimes;
-    double *_values;
-    long long _length;
-    float _timeFirstAtRestValue;
 }
 
 - (float);
-- (id);
+- (id);
 - (id);
 - (float);
 - (void);

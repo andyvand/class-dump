@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSKeyChord, _VOSProfileCommand;
+@class AXSSKeyChord;
 
 @interface _VOSProfileKeyChord
 {
     AXSSKeyChord *_keyChord;
-    _VOSProfileCommand *_command;
 }
 
 + (id);
@@ -26,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak _VOSProfileCommand *command; // @synthesize command=_command;
 @property(retain, nonatomic) AXSSKeyChord *keyChord; // @synthesize keyChord=_keyChord;
 
 @end

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSAccessibilityNotificationTable
 {
     NSMapTable *_notificationTable;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);

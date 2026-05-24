@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackRouteStep
 {
     PBDataReader *_reader;
-    NSString *_routeStepImageId;
-    NSString *_userPhotoId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _directionsResponseWaypointIndex;
-    int _routeLegIndex;
-    unsigned int _stepId;
-    struct {
-        unsigned int has_directionsResponseWaypointIndex:1;
-        unsigned int has_routeLegIndex:1;
-        unsigned int has_stepId:1;
-        unsigned int read_routeStepImageId:1;
-        unsigned int read_userPhotoId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)abelFrames:(id)arg1 count: /* Error: Ran out of types for this method. */;
++ (_Bool)setLabelFrames:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned int);
+- (void)__objc_arrayobj;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
+- (void)replaceObjectAtIndex:(_Bool)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void)getIOSLegacyIdentifierRegistrationsForRequest:(int)arg1 withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)oreURL;
+- (int)setMaxGroupSequenceNumberInUse: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,8 +33,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)xW;
+- (id)startRequest:options:preparationHandler:executionHandler:finalizationHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -58,22 +42,13 @@
 - (id);
 - (void);
 - (id)ommonOptions";
-- (id)MappingType;
+- (id)brandInfoMappingType;
 - (id);
-- (id);
+- (id)NOT;
 - (void)*¨¨úLN@;
 
 // Remaining properties
-@property(nonatomic) int directionsResponseWaypointIndex;
 @property(nonatomic) _Bool hasDirectionsResponseWaypointIndex;
-@property(nonatomic) _Bool hasRouteLegIndex;
-@property(readonly, nonatomic) _Bool hasRouteStepImageId;
-@property(nonatomic) _Bool hasStepId;
-@property(readonly, nonatomic) _Bool hasUserPhotoId;
-@property(nonatomic) int routeLegIndex;
-@property(retain, nonatomic) NSString *routeStepImageId;
-@property(nonatomic) unsigned int stepId;
-@property(retain, nonatomic) NSString *userPhotoId;
 
 @end
 

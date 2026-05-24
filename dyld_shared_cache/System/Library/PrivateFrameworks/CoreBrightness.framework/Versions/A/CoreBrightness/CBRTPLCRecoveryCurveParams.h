@@ -11,12 +11,6 @@ __attribute__((visibility("hidden")))
 @interface CBRTPLCRecoveryCurveParams
 {
     NSObject<OS_os_log> *_log;
-    unsigned long long _nitsTableSizeEDT;
-    float *_nitsTableEDT;
-    unsigned long long _apceTableSizeEDT;
-    float *_apceTableEDT;
-    CBFloatArray *_apce;
-    CBFloatArray *_nits;
 }
 
 - (_Bool);
@@ -27,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) CBFloatArray *apce; // @synthesize apce=_apce;
-@property(readonly) CBFloatArray *nits; // @synthesize nits=_nits;
 
 @end
 

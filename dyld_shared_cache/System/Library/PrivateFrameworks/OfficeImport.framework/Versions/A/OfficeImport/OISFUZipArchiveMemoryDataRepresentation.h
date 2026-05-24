@@ -6,7 +6,7 @@
 
 #import <OfficeImport/OISFUDataRepresentation.h>
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface OISFUZipArchiveMemoryDataRepresentation : OISFUDataRepresentation
@@ -15,25 +15,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id):(id)arg1 8:16 /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

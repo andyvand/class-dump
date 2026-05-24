@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface IMDServiceController
 {
     NSMutableDictionary *_services;
-    NSMutableDictionary *_serviceCapabilityCache;
-    NSMutableDictionary *_serviceNameCapabilityCache;
 }
 
 + (id);
@@ -19,9 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (void);
-- (void);
+- (void)M;
 - (id);
 - (id);
 - (id);
@@ -32,9 +30,6 @@
 - (void)tified about leaving dataProtection lock;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allServices;
-@property(retain, nonatomic) NSMutableDictionary *serviceCapabilityCache; // @synthesize serviceCapabilityCache=_serviceCapabilityCache;
-@property(retain, nonatomic) NSMutableDictionary *serviceNameCapabilityCache; // @synthesize serviceNameCapabilityCache=_serviceNameCapabilityCache;
 @property(retain, nonatomic) NSMutableDictionary *services; // @synthesize services=_services;
 
 @end

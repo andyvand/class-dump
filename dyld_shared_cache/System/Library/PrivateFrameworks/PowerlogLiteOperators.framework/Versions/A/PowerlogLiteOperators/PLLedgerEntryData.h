@@ -7,21 +7,17 @@
 @interface PLLedgerEntryData
 {
     long long _credit;
-    long long _debit;
-    long long _balance;
 }
 
 - (void);
 - (long long);
+- (void)riEnabled;
+- (long long);
 - (void);
-- (long long);
-- (void);
-- (long long)UClusterAccumulators;
+- (long long)CPUClusterAccumulators;
 
 // Remaining properties
-@property long long balance; // @synthesize balance=_balance;
 @property long long credit; // @synthesize credit=_credit;
-@property long long debit; // @synthesize debit=_debit;
 
 @end
 

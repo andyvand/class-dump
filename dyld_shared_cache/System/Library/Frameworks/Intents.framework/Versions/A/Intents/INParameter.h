@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface INParameter
 {
     NSMutableDictionary *_indexesForSubKeyPaths;
-    Class _parameterClass;
-    NSString *_parameterKeyPath;
 }
 
 + (id);
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *_indexesForSubKeyPaths; // @synthesize _indexesForSubKeyPaths;
-@property(readonly, copy, nonatomic) NSString *_subscriptedKeyPath;
 @property(retain, nonatomic) Class parameterClass; // @synthesize parameterClass=_parameterClass;
-@property(copy, nonatomic) NSString *parameterKeyPath; // @synthesize parameterKeyPath=_parameterKeyPath;
 
 @end
 

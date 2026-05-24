@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _clientCompletion;
 }
 
-- (id);
+- (id);
 - (void);
-- (void)ata:error: /* Error: Ran out of types for this method. */;
+- (void)securitySessionWillCloseWithResponseData:error: /* Error: Ran out of types for this method. */;
 
 @end
 

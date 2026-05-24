@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCInterface, SMSystem_Client;
-@protocol SMCustomize_Client_Delegate, SMDPCustomizeProtocol;
+@class NSXPCInterface;
+@protocol SMCustomize_Client_Delegate;
 
 @interface SMCustomize_Client
 {
     id <SMCustomize_Client_Delegate> _delegate;
-    NSString *_pathingProgressMessage;
-    NSXPCInterface *_daemonInterface;
-    NSXPCInterface *_exportedInterface;
-    NSXPCConnection *_daemonConnection;
-    SMSystem_Client *_customizeSystem;
-    id <SMDPCustomizeProtocol> _daemonProxy;
 }
 
 + (id);
@@ -27,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,7 +30,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)qh;
 - (unsigned long long);
 - (void);
 - (void);
@@ -57,18 +51,11 @@
 - (id);
 - (void);
 - (void);
-- (id)Version: /* Error: Ran out of types for this method. */;
+- (id)setRemoteClientVersion: /* Error: Ran out of types for this method. */;
 - (id)brary/Preferences/com.apple.ScreenSharing.launchd;
 
 // Remaining properties
-@property(retain) SMSystem_Client *customizeSystem; // @synthesize customizeSystem=_customizeSystem;
-@property(retain) NSXPCConnection *daemonConnection; // @synthesize daemonConnection=_daemonConnection;
 @property(retain) NSXPCInterface *daemonInterface; // @synthesize daemonInterface=_daemonInterface;
-@property(retain) id <SMDPCustomizeProtocol> daemonProxy; // @synthesize daemonProxy=_daemonProxy;
-@property unsigned long long deferredMandatoryUpdateProductSizeInBytes;
-@property __weak id <SMCustomize_Client_Delegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property(retain) NSString *pathingProgressMessage; // @synthesize pathingProgressMessage=_pathingProgressMessage;
 
 @end
 

@@ -9,33 +9,29 @@
 @interface EFBloomFilter
 {
     NSIndexSet *_indexes;
-    unsigned long long _bucketCount;
-    unsigned long long _hashFunctionCount;
-    unsigned long long _seed;
 }
 
-+ (id);
++ (id)R!s;
 + (id);
 + (id);
 - (_Bool);
 - (id);
+- (id);
+- (unsigned long long)R;
+- (id);
+- (_Bool);
+- (id);
+- (_Bool)removeObjectAtIndex:(id)arg1;
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)s:(struct _NSZone *)arg1 failed to build parameters out of build identity
+;
 - (void);
-- (id);
+- (id)`;
 - (unsigned long long)=;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bucketCount; // @synthesize bucketCount=_bucketCount;
-@property(readonly, nonatomic) unsigned long long hashFunctionCount; // @synthesize hashFunctionCount=_hashFunctionCount;
-@property(readonly, nonatomic) unsigned long long seed; // @synthesize seed=_seed;
 
 @end
 

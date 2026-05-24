@@ -9,12 +9,12 @@
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (void);
 - (void)á@Ð!8Cù1ªÐ1Â0@ù
 × ;
-- (_Bool)tColor;
+- (_Bool)_datumValueMouseOverTextColor;
 
 @end
 

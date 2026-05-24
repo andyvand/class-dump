@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIScrollView.h>
 
-@class NSString, UICollectionView, _UICollectionLayoutSectionDescriptor, _UICollectionViewSubviewRouter;
+@class _UICollectionLayoutSectionDescriptor;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewOrthogonalScrollView : UIScrollView
@@ -14,75 +14,54 @@ __attribute__((visibility("hidden")))
     struct {
         unsigned int isConfiguring;
     } _orthogonalScrollViewFlags;
-    UICollectionView *_collectionView;
-    long long _section;
-    _UICollectionViewSubviewRouter *_subviewRouter;
-    _UICollectionLayoutSectionDescriptor *_descriptor;
-    struct UIEdgeInsets _baseContentInsets;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)phoneAliasForDominentPhoneAlias:(struct UIEdgeInsets)arg1 registeredPhoneNumbers:preferredCallerID:CTPhoneNumber: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGPoint);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
-- (void);
+- (void)ng for RCS encryption test messages.;
+- (struct CGPoint)esWithHandles:(struct CGPoint)arg1 %@ onServices %@ limit %d recordStoreRecords:%@ /* Error: Ran out of types for this method. */;
+- (struct CGPoint)count:(struct CGPoint)arg1 %d;
+- (struct CGPoint)oaded and saved nickname for %@ %@.;
+- (struct CGPoint)SNaP trusted:(id)arg1 %@;
+- (struct UIEdgeInsets)is a 1-1 chat.;
+- (id)E - Warning, missing %@ to add to %s;
+- (id)deleteDateInterval;
+- (id)counts = %@;
 - (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct UIEdgeInsets);
+- (void)ą;
 - (id);
-- (id);
-- (id);
 - (struct CGPoint);
 - (void);
-- (id);
-- (struct CGPoint);
-- (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)annerText;
+- (void);
 - (id)0@ù
 × ;
 - (id)!xCùqf1Â0@ù
 × ;
-- (void)onSeparatorInsets:(id)arg1;
-- (void)ment:(id)arg1 finalUnlockHandler:(id)arg2;
+- (void)setSectionSeparatorInsets:(id)arg1;
+- (void)initWithEnvironment:(id)arg1 finalUnlockHandler:(id)arg2;
 - (void)exPath:(id)arg1;
-- (void)FirstMouse:(long long)arg1;
-- (long long)taValue:forKey: /* Error: Ran out of types for this method. */;
-- (void)gAxis;
+- (void)acceptsFirstMouse:(long long)arg1;
+- (long long)_setMetadataValue:forKey: /* Error: Ran out of types for this method. */;
+- (void)_rubberBandingAxis;
 - (void)ks:(id)arg1;
 - (unsigned long long);
 - (void)al to 0.0;
-- (void)lly;
-- (id)boseLogging;
+- (void)itemsDroppedSuccessfully;
+- (id)FocusTreeLockVerboseLogging;
 - (void);
 - (void);
 - (void)q;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets baseContentInsets; // @synthesize baseContentInsets=_baseContentInsets;
-@property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, nonatomic) struct CGPoint contentOffset;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic, getter=isDecelerating) _Bool decelerating;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _UICollectionLayoutSectionDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic, getter=isDragging) _Bool dragging;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long section; // @synthesize section=_section;
-@property(readonly, nonatomic) _UICollectionViewSubviewRouter *subviewRouter; // @synthesize subviewRouter=_subviewRouter;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isTracking) _Bool tracking;
 
 @end
 

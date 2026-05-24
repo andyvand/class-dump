@@ -7,21 +7,17 @@
 @interface MPCScene
 {
     long long _startFrame;
-    long long _endFrame;
-    long long _iterations;
 }
 
 - (long long);
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long)acksResponse"8@"ICURLAggregatedPerformanceMetrics"16@"NSError"24;
 
 // Remaining properties
-@property(nonatomic) long long endFrame; // @synthesize endFrame=_endFrame;
-@property(nonatomic) long long iterations; // @synthesize iterations=_iterations;
 @property(nonatomic) long long startFrame; // @synthesize startFrame=_startFrame;
 
 @end

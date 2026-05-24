@@ -5,5 +5,6 @@
 //
 
 @protocol SiriUISetupXPCProtocol
+- (void)";
 @end
 

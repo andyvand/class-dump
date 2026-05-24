@@ -14,20 +14,19 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)setAppVersion: /* Error: Ran out of types for this method. */;
+- (_Bool)_isAutomaticOutgoingTranslation_watch;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)p;
+- (id)SiriNotifications;
+- (void)_isSiriBundleID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasOutputDeviceUID;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

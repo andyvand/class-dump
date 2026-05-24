@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UITraitCollection;
-
 @interface UIViewConfigurationState
 {
     unsigned long long _mutations;
-    NSMutableDictionary *_customStates;
-    struct {
-        unsigned int isDisabled:1;
-        unsigned int isHighlighted:1;
-        unsigned int isSelected:1;
-        unsigned int isFocused:1;
-        unsigned int isPinned:1;
-    } _stateFlags;
-    UITraitCollection *_traitCollection;
 }
 
 + (id);
 + (_Bool)olumn presentation. Split view controller:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id)ksumChunkReferences for storageContainerIndex;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long),;
 - (void);
-- (void);
-- (_Bool)erView:(id)arg1;
-- (void)boardTypeRequiresASCIICapable:(id)arg1;
-- (void)orBarMetrics:(long long)arg1;
+- (void);
+- (_Bool)setDruidPlatterView:(id)arg1;
+- (void)keyboardTypeRequiresASCIICapable:(id)arg1;
+- (void)_setBackButtonBackgroundVerticalPositionAdjustment:(long long)arg1 forBarMetrics: /* Error: Ran out of types for this method. */;
 - (long long)essionIdentifier;
-- (id)entationContextByDefault;
+- (id)_isPresentationContextByDefault;
 - (void)ð°@\ÄP;
 - (_Bool)settings update response block from a background thread.;
 - (void);
@@ -58,22 +47,7 @@
 - (void)pg;
 
 // Remaining properties
-@property(nonatomic, setter=_setContextMenuGroupLocation:) long long _contextMenuGroupLocation;
 @property(readonly, nonatomic) unsigned long long _mutations;
-@property(readonly, nonatomic) unsigned long long _viewConfigurationState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDisabled) _Bool disabled;
-@property(nonatomic, getter=isFocused) _Bool focused;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(nonatomic, getter=isPinned) _Bool pinned;
-@property(nonatomic, getter=isSelected) _Bool selected;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

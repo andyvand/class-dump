@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebActivityIndicatorModel, NSDictionary, NSString;
-@protocol AMSUIWebActionRunnable;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebButtonModel
 {
     _Bool _bold;
-    _Bool _enabled;
-    NSString *_accessibilityLabel;
-    id <AMSUIWebActionRunnable> _action;
-    CDUnknownBlockType _actionBlock;
-    AMSUIWebActivityIndicatorModel *_activityIndicator;
-    NSString *_identifier;
-    NSString *_keyEquivalent;
-    NSString *_title;
-    long long _style;
-    NSString *_systemImageName;
-    NSDictionary *_underlyingJSObject;
 }
 
-- (id);
+- (id)set due to error:%@ /* Error: Ran out of types for this method. */;
+- (void)not update asset for type, manager interface is nil for asset type:(id)arg1 %@;
 - (void);
+- (id);
+- (id);
+- (id);
+- (id)(;
+- (id);
+- (id);
+- (void)pl_nodeIDsPendingEdgeCleanup;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -55,27 +43,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void)face>";
-- (id)eInsetsForNavigationBarStyle: /* Error: Ran out of types for this method. */;
+- (id)_edgeInsetsForNavigationBarStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(retain) id <AMSUIWebActionRunnable> action; // @synthesize action=_action;
-@property(copy) CDUnknownBlockType actionBlock; // @synthesize actionBlock=_actionBlock;
-@property(retain) AMSUIWebActivityIndicatorModel *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
-@property _Bool bold; // @synthesize bold=_bold;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *keyEquivalent; // @synthesize keyEquivalent=_keyEquivalent;
-@property long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain) NSString *systemImageName; // @synthesize systemImageName=_systemImageName;
-@property(retain) NSString *title; // @synthesize title=_title;
 @property(retain) NSDictionary *underlyingJSObject; // @synthesize underlyingJSObject=_underlyingJSObject;
 
 @end

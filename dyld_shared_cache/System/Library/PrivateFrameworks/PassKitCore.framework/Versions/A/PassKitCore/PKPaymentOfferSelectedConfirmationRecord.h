@@ -24,9 +24,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void)anatee;
+- (_Bool)setNetworkServiceType:(id)arg1;
+- (void)AWDMPTCPConnectionInterfaceReport;
+- (void)supportsManatee;
 - (id)NÀ3;
 
 // Remaining properties

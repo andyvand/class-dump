@@ -4,41 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSArray, NSDictionary, NSString, NSURL;
-
 @interface _PSCoreMLScoringModel
 {
     _Bool _mlModelInitialized;
-    MLModel *_mlModel;
-    NSDictionary *_metadata;
-    NSArray *_inputShape;
-    NSURL *_modelURL;
-    NSString *_inputFeatureName;
-    NSString *_numCandidatesFeatureName;
-    NSString *_outputFeatureName;
-    long long _modelType;
-    struct _opaque_pthread_mutex_t _lock;
 }
 
+- (void)_groundTruthSource;
+- (void)_executionBridgeContext;
+- (void)_eventDuration;
+- (void)_eventDonationTimeInSecondsSince2001;
+- (id)_displayedDialog;
+- (id)_displayRepresentation;
+- (id)_dictationEnabled;
+- (id)_daysWithTwoAssistantSpeechRequestsPerWeek;
+- (id)_contextualEntityRetrievalContext;
+- (_Bool)_contentFirstSegmentDurationInMs;
+- (void)_connectedComponents;
+- (void)_connectedAudioDevice;
+- (id)_confirmationSnippet;
+- (_Bool)_componentId;
+- (_Bool)_companionSyncUploadStarted;
+- (id)_canceled;
+- (id)_appUsageCountForEntityFromSiri1Day;
+- (long long)_appUsageCount28Days;
+- (id)_appUsageCount1Hr;
+- (id)_appUsageCount14Days;
+- (id)_appContactFreqForPhoneCall10Min;
+- (id)estampMs;
+- (id);
+- (id).;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (long long);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -46,16 +43,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (struct _opaque_pthread_mutex_t);
+- (void)PortType;
+- (struct _opaque_pthread_mutex_t)ed;
 - (void);
 - (void)!DùñºÐ1Â0@ù
 × ;
@@ -64,16 +53,7 @@
 - (long long)ä<;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *inputFeatureName; // @synthesize inputFeatureName=_inputFeatureName;
-@property(retain, nonatomic) NSArray *inputShape; // @synthesize inputShape=_inputShape;
 @property(nonatomic) struct _opaque_pthread_mutex_t lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) MLModel *mlModel; // @synthesize mlModel=_mlModel;
-@property(nonatomic) _Bool mlModelInitialized; // @synthesize mlModelInitialized=_mlModelInitialized;
-@property(nonatomic) long long modelType; // @synthesize modelType=_modelType;
-@property(retain, nonatomic) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(retain, nonatomic) NSString *numCandidatesFeatureName; // @synthesize numCandidatesFeatureName=_numCandidatesFeatureName;
-@property(retain, nonatomic) NSString *outputFeatureName; // @synthesize outputFeatureName=_outputFeatureName;
 
 @end
 

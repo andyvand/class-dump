@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MTFeedUpdatePreProcessResult
 {
     _Bool _shouldContinue;
-    NSString *_createdPodcastUUID;
 }
 
 + (id);
@@ -19,7 +16,6 @@
 - (void)þ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *createdPodcastUUID; // @synthesize createdPodcastUUID=_createdPodcastUUID;
 @property(readonly, nonatomic) _Bool shouldContinue; // @synthesize shouldContinue=_shouldContinue;
 
 @end

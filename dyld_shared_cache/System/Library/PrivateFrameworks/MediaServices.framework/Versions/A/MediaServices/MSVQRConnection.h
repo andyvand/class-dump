@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSGroupSession, MSVBlockGuard, MSVQRConnectionMessageCoder, NSNumber, NSObject, NSString;
-@protocol MSVQRConnectionDelegate, MSVQRConnectionReportProtocol, MSVQRConnectionSessionDataSource, OS_dispatch_queue, OS_nw_connection, OS_nw_protocol_definition;
+@class NSObject;
+@protocol OS_nw_protocol_definition;
 
 @interface MSVQRConnection
 {
     _Bool _shouldTerminate;
-    id <MSVQRConnectionDelegate> _delegate;
-    id <MSVQRConnectionSessionDataSource> _dataSource;
-    id <MSVQRConnectionReportProtocol> _report;
-    NSObject<OS_nw_protocol_definition> *_framerDefinition;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    MSVQRConnectionMessageCoder *_messageCoder;
-    IDSGroupSession *_session;
-    NSNumber *_participantIdentifier;
-    NSObject<OS_nw_connection> *_connection;
-    unsigned long long _state;
-    MSVBlockGuard *_guard;
 }
 
 + (id);
@@ -37,14 +25,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)M9;
 - (_Bool);
+- (void)(;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)`;
 - (id);
-- (void);
+- (void)addOperationWithBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -59,31 +47,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)%;
 - (void);
 - (void)ion"8^B16;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_nw_connection> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) id <MSVQRConnectionSessionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MSVQRConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSObject<OS_nw_protocol_definition> *framerDefinition; // @synthesize framerDefinition=_framerDefinition;
-@property(retain, nonatomic) MSVBlockGuard *guard; // @synthesize guard=_guard;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MSVQRConnectionMessageCoder *messageCoder; // @synthesize messageCoder=_messageCoder;
-@property(copy, nonatomic) NSNumber *participantIdentifier; // @synthesize participantIdentifier=_participantIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) __weak id <MSVQRConnectionReportProtocol> report; // @synthesize report=_report;
-@property(retain, nonatomic) IDSGroupSession *session; // @synthesize session=_session;
-@property(nonatomic) _Bool shouldTerminate; // @synthesize shouldTerminate=_shouldTerminate;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

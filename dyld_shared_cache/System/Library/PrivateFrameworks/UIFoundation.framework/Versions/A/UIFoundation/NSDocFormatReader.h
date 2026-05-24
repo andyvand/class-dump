@@ -4,68 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableArray, NSMutableAttributedString, NSMutableData, NSMutableDictionary, NSMutableRLEArray;
+@class NSMutableAttributedString;
 
 @interface NSDocFormatReader
 {
     NSMutableAttributedString *_attrStr;
-    NSMutableDictionary *_documentAttrs;
-    NSData *_primaryData;
-    NSMutableData *_secondaryData;
-    NSMutableData *_primaryIndex;
-    NSMutableData *_secondaryIndex;
-    NSMutableData *_tableOfContents;
-    NSMutableDictionary *_contentsDictionary;
-    NSData *_documentData;
-    NSData *_tableData;
-    NSData *_infoData;
-    NSMutableArray *_fontNames;
-    struct __CFArray *_predefinedOffsets;
-    struct __CFDictionary *_predefinedAttributes;
-    NSMutableRLEArray *_parAttributes;
-    NSMutableRLEArray *_charAttributes;
-    NSArray *_previousRowArray;
-    NSMutableDictionary *_fontCache;
-    unsigned long long _magicNumber;
-    unsigned long long _versionNumber;
-    unsigned long long _versionCode;
-    unsigned long long _productNumber;
-    unsigned long long _globalFlags;
-    unsigned long long _charsetNumber;
-    unsigned long long _bytesPerCharacter;
-    unsigned int _stringEncoding;
-    unsigned long long _lastModifier;
-    unsigned long long _predefinedHeaderLength;
-    long long _errorCode;
-    long long _indexingLimit;
-    long long _thumbnailLimit;
-    double _defaultTabInterval;
-    long long _firstEntryNumber;
-    long long _textStart;
-    long long _textLength;
-    long long _predefinedInfoStart;
-    long long _predefinedInfoEnd;
-    long long _charInfoStart;
-    long long _charInfoEnd;
-    long long _parInfoStart;
-    long long _parInfoEnd;
-    long long _fontInfoStart;
-    long long _fontInfoEnd;
-    long long _docInfoStart;
-    long long _docInfoEnd;
-    long long _metaInfoStart;
-    long long _metaInfoEnd;
-    long long _textInfoStart;
-    long long _textInfoEnd;
-    _Bool _removeRowInfo;
-    _Bool _includesTextListMarkers;
 }
 
-+ (id)t;
++ (id)right;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)S#;
 - (id);
 - (id);
 - (id);
@@ -75,15 +25,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Z;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -99,17 +49,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)";
 - (void);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)Device %{public}@:withProgress:%{public}@ (%{public}s) /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties

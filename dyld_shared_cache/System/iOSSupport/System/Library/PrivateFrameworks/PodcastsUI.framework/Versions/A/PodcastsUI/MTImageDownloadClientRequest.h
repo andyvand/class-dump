@@ -9,10 +9,6 @@
 @interface MTImageDownloadClientRequest
 {
     NSString *_uniqueId;
-    NSString *_url;
-    NSString *_key;
-    CDUnknownBlockType _completion;
-    NSString *_uuid;
 }
 
 + (id);
@@ -20,17 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)P";
 - (id);
-- (id);
+- (id)O;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
-@property(readonly, nonatomic) NSString *url; // @synthesize url=_url;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

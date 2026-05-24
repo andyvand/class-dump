@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTAdaptiveImageGlyph, NSArray, NSData, NSFileWrapper, NSString, NSTextAttachment;
+@class CTAdaptiveImageGlyph, NSFileWrapper;
 
 @interface NSAdaptiveImageGlyph
 {
@@ -12,24 +12,24 @@
 }
 
 + (id);
++ (id)4;
++ (void);
++ (void)[;
++ (_Bool)L;
++ (void)DD8G"I;
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (id);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
+- (id);
+- (id);
+- (id)registerSymbolicHotKeyConnection:hotKeyID:symbolicHotKey:option:callbackFunc: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (struct CGImage *)KK;
 - (struct CGImage *);
-- (struct CGImage *);
-- (id);
+- (id)4;
 - (struct CGSize);
 - (id);
 - (id);
@@ -43,13 +43,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) CTAdaptiveImageGlyph *_CTAdaptiveImageGlyph; // @synthesize _CTAdaptiveImageGlyph;
 @property(readonly) NSFileWrapper *_fallbackFileWrapper;
-@property(readonly, copy) NSString *contentDescription;
-@property(readonly) NSString *contentIdentifier;
-@property(readonly) NSData *imageContent;
-@property(readonly) NSTextAttachment *nominalTextAttachment;
-@property(readonly) NSArray *strikes;
 
 @end
 

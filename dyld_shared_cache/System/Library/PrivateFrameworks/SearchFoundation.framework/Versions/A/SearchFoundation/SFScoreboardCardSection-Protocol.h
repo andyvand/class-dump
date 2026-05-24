@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFSportsTeam;
+@class SFSportsTeam;
 
 @protocol SFScoreboardCardSection
+- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *eventStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFSportsTeam *team1;
-@property(retain, nonatomic) SFSportsTeam *team2;
 @end
 

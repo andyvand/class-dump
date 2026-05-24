@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCategory, HMAccessorySettings, HMAccessorySettingsAdapter, HMAccessorySettingsController, HMAccessorySettingsDataSource, HMApplicationData, HMHome, HMMediaDestination, HMMediaSession, HMMutableArray, HMSymptomsHandler, NSArray, NSObject, NSString, NSUUID, _HMContext;
-@protocol HMMediaSystemDelegate, OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMMediaSystem
 {
     struct os_unfair_lock_s _lock;
-    _Bool _compatible;
-    NSString *_name;
-    NSString *_configuredName;
-    NSUUID *_uniqueIdentifier;
-    HMAccessorySettings *_settings;
-    id <HMMediaSystemDelegate> _delegate;
-    HMApplicationData *_applicationData;
-    HMHome *_home;
-    _HMContext *_context;
-    HMAccessorySettingsDataSource *_accessorySettingsDataSource;
-    HMAccessorySettingsController *_accessorySettingsController;
-    HMAccessorySettingsAdapter *_mediaSystemSettingsAdapter;
-    NSUUID *_uuid;
-    HMMutableArray *_componentsArray;
-    HMMediaDestination *_audioDestination;
 }
 
 + (id);
@@ -35,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)qa;
 - (void);
 - (void);
 - (void);
@@ -43,14 +27,14 @@
 - (void);
 - (void);
 - (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -69,47 +53,48 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)i;
+- (void)!;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)*/GH1F'
+;
 - (void);
-- (void);
-- (id);
+- (id)setHasNormalizedOutgoingCallFrequency: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_nearestDateSetToHour:minute: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)oardOutput"@"TIKeyboardConfiguration">32;
+- (void)setBatchCandidateLocation:(id)arg1;
+- (void)initWithName:(id)arg1 isInteger:minValue:maxValue:significantDigits: /* Error: Ran out of types for this method. */;
+- (id)	$	M	0		M		>	(	;
+- (id)$	G	;
+- (_Bool)artwork;
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)16@?24;
 - (id);
 - (id);
 - (void);
@@ -120,49 +105,7 @@
 - (void)ì$0';
 
 // Remaining properties
-@property(retain, nonatomic) HMAccessorySettingsController *accessorySettingsController; // @synthesize accessorySettingsController=_accessorySettingsController;
-@property(retain, nonatomic) HMAccessorySettingsDataSource *accessorySettingsDataSource; // @synthesize accessorySettingsDataSource=_accessorySettingsDataSource;
-@property(retain, nonatomic) HMApplicationData *applicationData; // @synthesize applicationData=_applicationData;
-@property(retain) HMMediaDestination *audioDestination; // @synthesize audioDestination=_audioDestination;
-@property(readonly, copy) NSUUID *audioDestinationGroupIdentifier;
-@property(readonly, copy) NSString *audioDestinationIdentifier;
-@property(readonly, copy) NSArray *audioDestinationMediaProfiles;
-@property(readonly, copy) NSString *audioDestinationName;
-@property(readonly, copy) NSString *audioDestinationParentIdentifier;
-@property(readonly) long long audioDestinationType;
-@property(readonly, nonatomic) HMAccessoryCategory *category;
-@property(readonly, nonatomic, getter=isCompatible) _Bool compatible; // @synthesize compatible=_compatible;
-@property(readonly, nonatomic) NSArray *components;
-@property(retain, nonatomic) HMMutableArray *componentsArray; // @synthesize componentsArray=_componentsArray;
-@property(readonly, nonatomic) NSString *configuredName; // @synthesize configuredName=_configuredName;
-@property(readonly) __weak HMHome *containerHome;
-@property(readonly) __weak NSUUID *containerUUID;
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, getter=isControllable) _Bool controllable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMMediaSystemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, copy) HMMediaSession *mediaSession;
-@property(retain, nonatomic) HMAccessorySettingsAdapter *mediaSystemSettingsAdapter; // @synthesize mediaSystemSettingsAdapter=_mediaSystemSettingsAdapter;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) HMAccessorySettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsAudioDestination;
-@property(readonly) _Bool supportsAudioGroup;
-@property(readonly, nonatomic) _Bool supportsMessagedHomepodSettings;
-@property(readonly, nonatomic) HMSymptomsHandler *symptomsHandler;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

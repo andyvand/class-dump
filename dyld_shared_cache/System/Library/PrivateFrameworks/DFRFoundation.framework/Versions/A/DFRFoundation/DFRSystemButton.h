@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DFRSystemButton
 {
     NSString *_identifier;
-    unsigned int _on:1;
-    unsigned int _enabled:1;
-    long long _tintCount;
-    double *_tintComponents;
-    long long _bezelTintCount;
-    double *_bezelTintComponents;
-    struct ImageData _image;
-    struct ImageData _altImage;
-    CAContext *_context;
 }
 
 - (void);

@@ -4,62 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSProgress, NSString;
+@class NSMutableDictionary;
 @protocol _UIDataTransferMonitorDelegate;
 
 @interface _UIDataTransferMonitor
 {
     NSMutableDictionary *_transferQueue_requestsBySourceItemUUID;
-    NSMutableSet *_transferQueue_requestsInProgress;
-    _Bool _transferQueue_suppressEventsUntilRequested;
-    _Bool _transferQueue_shouldSendBeganCallback;
-    _Bool _transferQueue_hasSentBeganCallback;
-    _Bool _transferQueue_hasSentFinishedCallback;
-    _Bool _transferQueue_shouldSendFinishedCallback;
-    NSProgress *_transferQueue_masterProgress;
-    NSMutableArray *_transferQueue_childProgresses;
-    NSMutableSet *_transferQueue_allEncounteredItemUUIDs;
-    id <_UIDataTransferMonitorDelegate> _delegate;
-    NSArray *_outstandingRequests;
-    unsigned long long _outstandingItemsCount;
 }
 
 - (_Bool);
 - (void);
+- (void)scheduledMessagesBatchFetcherForSyncState: /* Error: Ran out of types for this method. */;
+- (unsigned long long)handleWithHandleRecord: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)\;
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)ette;
+- (id)inNavigationPalette;
 - (id)sInfo"8;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UIDataTransferMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long outstandingItemsCount; // @synthesize outstandingItemsCount=_outstandingItemsCount;
-@property(readonly, copy, nonatomic) NSArray *outstandingRequests; // @synthesize outstandingRequests=_outstandingRequests;
-@property(readonly) NSProgress *progress;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressEventsUntilRequested; // @dynamic suppressEventsUntilRequested;
-@property(readonly, nonatomic) unsigned long long totalItemsCount; // @dynamic totalItemsCount;
 
 @end
 

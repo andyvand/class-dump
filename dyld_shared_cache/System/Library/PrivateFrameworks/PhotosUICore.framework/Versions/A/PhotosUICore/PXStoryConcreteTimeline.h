@@ -6,25 +6,9 @@
 
 #import <PhotosUICore/PXStoryBaseTimeline.h>
 
-@class PXStoryResourcesDataSource;
-
 @interface PXStoryConcreteTimeline : PXStoryBaseTimeline
 {
     CDStruct_e83c9415 _timeRange;
-    long long _clipCapacity;
-    CDStruct_e83c9415 *_clipTimeRanges;
-    long long *_clipIndicesSortedByTimeRangeEnd;
-    struct CGRect *_clipFrames;
-    CDStruct_c0304e72 *_clipInfos;
-    long long *_clipResourceKinds;
-    long long *_clipResourceIndexes;
-    long long _segmentCapacity;
-    CDStruct_e83c9415 *_segmentTimeRanges;
-    CDStruct_ae7b37d2 *_segmentInfos;
-    long long _numberOfClips;
-    long long _numberOfSegments;
-    PXStoryResourcesDataSource *_resourcesDataSource;
-    struct CGSize _size;
 }
 
 - (CDStruct_e83c9415);
@@ -33,7 +17,7 @@
 - (long long);
 - (id);
 - (id);
-- (CDStruct_ae7b37d2);
+- (CDStruct_1e69568f);
 - (id);
 - (long long);
 - (long long);
@@ -55,22 +39,19 @@
 - (long long);
 - (void);
 - (long long);
-- (void);
+- (void)conversionCoefficient;
 - (id);
-- (long long);
+- (long long);
 - (id);
-- (id);
+- (id);
 - (struct CGSize);
-- (id)e:(struct _NSZone *)arg1 forItemAtIndex: /* Error: Ran out of types for this method. */;
+- (id)setImage:(struct _NSZone *)arg1 forItemAtIndex: /* Error: Ran out of types for this method. */;
 - (id)ve to parse a hero row with %li items;
 - (CDStruct_e83c9415)plit by Batch ID;
 - (void)B;
 
 // Remaining properties
-@property(readonly, nonatomic) long long lastClipIdentifier;
 @property(nonatomic) long long numberOfClips; // @synthesize numberOfClips=_numberOfClips;
-@property(nonatomic) long long numberOfSegments; // @synthesize numberOfSegments=_numberOfSegments;
-@property(readonly, nonatomic) PXStoryResourcesDataSource *resourcesDataSource; // @synthesize resourcesDataSource=_resourcesDataSource;
 
 @end
 

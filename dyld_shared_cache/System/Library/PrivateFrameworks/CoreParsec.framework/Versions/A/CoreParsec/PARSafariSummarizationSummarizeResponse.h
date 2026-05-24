@@ -13,14 +13,14 @@
     NSArray *_summaryCandidates;
 }
 
-+ (id);
-- (id);
-- (void);
-- (id);
++ (id)ContentWorldIdentifierType, WTF:(id)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)cOSX26.5.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h;
+- (void)web_accessible_resources;
+- (id)akPtrImpl = WTF:(id)arg1:(id)arg2 DefaultWeakPtrImpl];
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *summaryCandidates;
+@property(retain, nonatomic) NSArray *summaryCandidates; // @synthesize summaryCandidates=_summaryCandidates;
 
 @end
 

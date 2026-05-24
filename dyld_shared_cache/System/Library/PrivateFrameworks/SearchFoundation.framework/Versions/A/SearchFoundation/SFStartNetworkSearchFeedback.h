@@ -6,18 +6,11 @@
 
 #import <SearchFoundation/SFStartSearchFeedback.h>
 
-@class NSDictionary, NSString, SFIndexState;
+@class NSString;
 
 @interface SFStartNetworkSearchFeedback : SFStartSearchFeedback
 {
     NSString *_url;
-    NSDictionary *_headers;
-    unsigned long long _endpoint;
-    unsigned long long _rawRequestSize;
-    unsigned long long _compressedRequestSize;
-    NSString *_experimentId;
-    NSString *_treatmentId;
-    SFIndexState *_indexState;
 }
 
 + (_Bool);

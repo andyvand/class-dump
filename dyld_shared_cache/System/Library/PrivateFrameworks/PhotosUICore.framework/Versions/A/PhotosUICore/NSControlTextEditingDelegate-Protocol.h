@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSControlTextEditingDelegate
 
 @optional
-- (void);
+- (NSArray *);
 - (_Bool)ÝBÿ;
 @end
 

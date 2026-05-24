@@ -16,7 +16,7 @@
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)textRect;
+- (id)_textRect;
 
 @end
 

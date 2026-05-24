@@ -6,27 +6,25 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSFDSRequest, AMSPurchaseInfo, NSNumber, NSString;
+@class AMSFDSRequest;
 @protocol AMSBagProtocol;
 
 __attribute__((visibility("hidden")))
 @interface AMSGenerateFDSTask : AMSTask
 {
     id <AMSBagProtocol> _bag;
-    AMSPurchaseInfo *_purchaseInfo;
-    AMSFDSRequest *_request;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)IMRuntimeTestSuite;
+- (id)called but initial language response not received yet;
+- (id)_classForPlatform: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)ams_removeCookiesMatchingProperties:(id)arg1 error:(id)arg2;
@@ -35,12 +33,6 @@ __attribute__((visibility("hidden")))
 - (id)ò¿~¸;ÙÙçäàªG|ßÓ¦ó±tú~¯~:dFMÔ0©0*e!%Ã#ÁU¾#ìÑý¾CÊ¤Ôµ3»¸ÝC´*atjåÊ]OÞ2åØ5¬Èz¡tîßÜW[³=¿¿¾²lï @ËvFáè¨Ë Ú6ïsÖAL/ZQ¶º#fÔÞ£ÇÁl]§m®ðË.¡jaBrilì5ñA /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) ACAccount *account;
-@property(readonly) unsigned long long action;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) NSString *logKey;
-@property(readonly) NSNumber *purchaseIdentifier;
-@property(readonly) AMSPurchaseInfo *purchaseInfo; // @synthesize purchaseInfo=_purchaseInfo;
 @property(readonly) AMSFDSRequest *request; // @synthesize request=_request;
 
 @end

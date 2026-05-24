@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDWoLANDarkPollInvalidIntervalLogEvent
 {
     unsigned char _wolanVersion;
-    unsigned int _minValueMinutes;
-    unsigned int _maxValueMinutes;
-    long long _logType;
-    NSUUID *_accessoryUUID;
-    NSNumber *_interval;
 }
 
 - (unsigned char);
-- (id);
+- (id)dataWithContentsOfFile:(id)arg1 options:(id)arg2 error:(unsigned int)arg3;
 - (unsigned int);
 - (unsigned int);
 - (unsigned long long);
-- (id);
+- (id)kSSAppleIDResolutionError;
 - (id);
 - (id);
 - (id);
@@ -31,30 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿÐ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) NSNumber *interval; // @synthesize interval=_interval;
 @property(readonly, nonatomic) long long logType; // @synthesize logType=_logType;
-@property(readonly, nonatomic) unsigned int maxValueMinutes; // @synthesize maxValueMinutes=_maxValueMinutes;
-@property(readonly, nonatomic) unsigned int minValueMinutes; // @synthesize minValueMinutes=_minValueMinutes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned char wolanVersion; // @synthesize wolanVersion=_wolanVersion;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface ETModelDef
 {
     struct map<std::string, std::vector<std::string>, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<std::string>>>> layer_variable_names;
-    NSMutableArray *_all_variables;
-    shared_ptr_d082c67d _network;
-    shared_ptr_c14ee569 _gb;
 }
 
-- (shared_ptr_9dc4c196);
+- (shared_ptr_5ca6912b);
 - (id);
 - (id);
 - (void);
@@ -25,22 +20,20 @@
 - (void);
 - (void);
 - (void *);
-- (shared_ptr_c14ee569);
+- (shared_ptr_43503870);
 - (int);
 - (id);
 - (void);
-- (shared_ptr_b3167edd);
+- (shared_ptr_1800a67c);
 - (id);
 - (id);
 - (id);
-- (id);
-- (shared_ptr_d082c67d)ion;
+- (id);
+- (shared_ptr_d082c67d)Version;
 - (void)IRValueType.;
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *all_variables; // @synthesize all_variables=_all_variables;
-@property shared_ptr_c14ee569 gb; // @synthesize gb=_gb;
 @property shared_ptr_d082c67d network; // @synthesize network=_network;
 
 @end

@@ -6,20 +6,19 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSMutableArray, NSObject, NSString, RTTimer, RTTimerManager;
-@protocol OS_os_transaction;
+@class NSMutableArray, RTTimerManager;
 
 @interface RTLocationStore : RTStore
 {
     RTTimerManager *_timerManager;
-    NSObject<OS_os_transaction> *_flushTransaction;
-    NSMutableArray *_locations;
-    RTTimer *_flushTimer;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
+- (id);
+- (void)Q;
 - (void);
 - (id);
 - (void);
@@ -28,34 +27,23 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void)Protocol;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ф;
 - (void);
 - (void)laceDisplaysWithOptions:(CDUnknownBlockType)arg1 handler:] /* Error: Ran out of types for this method. */;
-- (void)etchActiveSessionDetailsCkLatency;
+- (void)SMHandoffSessionCriteriaFetchActiveSessionDetailsCkLatency;
 - (void)was set.;
 - (void)eamType, %@, date interval, %@;
 - (id)nvalid parameter not satisfying:(id)arg1 hyperParameter;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) RTTimer *flushTimer; // @synthesize flushTimer=_flushTimer;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableArray *locations; // @synthesize locations=_locations;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelConfiguration, MLProgramE5Container, NSString, NSURL;
+@class MLModelConfiguration, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface MLE5ProgramLibraryOnDeviceAOTCompilationImpl
 {
     NSURL *_milTextURL;
-    shared_ptr_71e6e433 _irProgram;
-    CDUnknownBlockType _deallocator;
-    MLModelConfiguration *_configuration;
-    MLProgramE5Container *_container;
-    NSString *_serializedMILText;
 }
 
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (struct e5rt_program_library *);
+- (id);
+- (id);
+- (struct e5rt_program_library *);
 - (void);
 - (id);
 - (id);
@@ -32,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) MLModelConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) MLProgramE5Container *container; // @synthesize container=_container;
-@property(readonly, copy, nonatomic) NSString *modelDisplayName;
-@property(copy, nonatomic) NSString *serializedMILText; // @synthesize serializedMILText=_serializedMILText;
 
 @end
 

@@ -6,32 +6,25 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class LPMapCollectionMetadata, LPMapCollectionPublisherMetadata, LPMapMetadata, MKLinkPreviewMetadataRequest, MKLinkPreviewSnapshotRequest;
-
 __attribute__((visibility("hidden")))
 @interface LPAppleMapsMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     _Bool _cancelled;
-    MKLinkPreviewMetadataRequest *_request;
-    MKLinkPreviewSnapshotRequest *_snapshotRequest;
-    LPMapMetadata *_mapMetadata;
-    LPMapCollectionMetadata *_collectionMetadata;
-    LPMapCollectionPublisherMetadata *_publisherMetadata;
 }
 
 + (id);
 + (unsigned long long);
 - (id);
-- (id);
+- (id)z;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)_txRateOverLinkTheoreticalMaxPercentage;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)enableFeature;
 - (void);
 
 @end

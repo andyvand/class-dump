@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface HMDSoftwareUpdateFetchedEvent
 {
     _Bool _userInitiated;
-    _Bool _newUpdateFetched;
 }
 
-+ (id);
++ (id)RFBFileCopy_CopyFromServerCore;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void)O;
 
 // Remaining properties
-@property(nonatomic, getter=wasNewUpdateFetched) _Bool newUpdateFetched; // @synthesize newUpdateFetched=_newUpdateFetched;
 @property(nonatomic, getter=wasUserInitiated) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end

@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDecimalNumber, NSError, NSMutableSet, NSObject, NSString, PKAccount, PKAccountEvent, PKAccountService, PKAccountServiceTransferRequest, PKAccountWebServiceSchedulePaymentRequest, PKPaymentAuthorizationCoordinator, PKPaymentPass, PKPaymentService, PKPaymentWebService;
-@protocol OS_dispatch_group, PKAccountBillPaymentControllerDelegate;
+@class PKAccount, PKPaymentWebService;
 
 @interface PKAccountBillPaymentController
 {
     PKPaymentWebService *_webService;
-    PKPaymentService *_paymentService;
-    PKAccountWebServiceSchedulePaymentRequest *_schedulePaymentRequest;
-    PKPaymentAuthorizationCoordinator *_schedulePaymentAuthorizationCoordinator;
-    NSError *_applePayTrustResponseError;
-    PKPaymentPass *_pass;
-    PKAccountService *_accountService;
-    NSDecimalNumber *_totalPaymentAmount;
-    NSDecimalNumber *_peerPaymentBalance;
-    PKAccountServiceTransferRequest *_paymentRequest;
-    PKAccountEvent *_billPaymentSuggestedAmountDataEvent;
-    _Bool _performingAction;
-    _Bool _dismissedBillPayment;
-    _Bool _completedBillPayment;
-    _Bool _fetchingData;
-    NSError *_fetchingDataError;
-    NSMutableSet *_dataFetchingCompletionHandlers;
-    NSObject<OS_dispatch_group> *_performBillPaymentGroup;
-    PKAccount *_account;
-    id <PKAccountBillPaymentControllerDelegate> _delegate;
-    NSArray *_fundingSources;
-    NSArray *_payments;
 }
 
 - (void);
@@ -64,23 +42,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)finds significant errors (see force-output). ;
 - (void)rtyImage;
 - (id)àá;
-- (void)iceCSg;
+- (void)So23PKPeerPaymentWebServiceCSg;
 
 // Remaining properties
 @property(retain, nonatomic) PKAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKAccountBillPaymentControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *fundingSources; // @synthesize fundingSources=_fundingSources;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *payments; // @synthesize payments=_payments;
-@property(readonly) Class superclass;
 
 @end
 

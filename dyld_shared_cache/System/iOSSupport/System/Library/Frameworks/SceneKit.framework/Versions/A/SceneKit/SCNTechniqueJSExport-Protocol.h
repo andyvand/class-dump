@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class CAAnimation, NSArray, NSDictionary;
 
 @protocol SCNTechniqueJSExport
+- (void)�b@�;
+- (void);
+- (NSArray *)writeCurrentPencilSharpenerLogsToURL:fullLogs:windowScene: /* Error: Ran out of types for this method. */;
+- (CAAnimation *)windowLevel;
+- (id);
+- (NSDictionary *);
+- (void)I;
 - (id)ture2D(pickedColorBuffer, uv + vec2(                0., u_inverseResolution.y)).r;
     texels[8] = texture2D(pickedColorBuffer, uv + vec2( u_inverseResolution.x, u_inverseResolution.y)).r;
     

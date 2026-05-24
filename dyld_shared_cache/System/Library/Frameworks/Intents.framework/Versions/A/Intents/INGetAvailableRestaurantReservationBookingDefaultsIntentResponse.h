@@ -6,15 +6,9 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INImage, NSDate, NSNumber, NSString;
-
 @interface INGetAvailableRestaurantReservationBookingDefaultsIntentResponse : INIntentResponse
 {
     unsigned long long _defaultPartySize;
-    NSDate *_defaultBookingDate;
-    NSNumber *_maximumPartySize;
-    NSNumber *_minimumPartySize;
-    INImage *_providerImage;
 }
 
 + (_Bool);
@@ -29,30 +23,18 @@
 - (id);
 - (void);
 - (id);
+- (id)iceServer;
+- (_Bool)__timerQueue;
+- (void)7-BA1645C787BB;
 - (id);
-- (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long)eComponentsAttributeMetadata;
+- (long long)INCodableDateComponentsAttributeMetadata;
 - (void)erm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSDate *defaultBookingDate; // @synthesize defaultBookingDate=_defaultBookingDate;
 @property(readonly) unsigned long long defaultPartySize; // @synthesize defaultPartySize=_defaultPartySize;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *maximumPartySize; // @synthesize maximumPartySize=_maximumPartySize;
-@property(copy) NSNumber *minimumPartySize; // @synthesize minimumPartySize=_minimumPartySize;
-@property(copy) INImage *providerImage; // @synthesize providerImage=_providerImage;
-@property(readonly) Class superclass;
 
 @end
 

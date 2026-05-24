@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAttachmentPreviewGeneratorOperationQueue, NSManagedObjectContext, NSMapTable, NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ICAttachmentPreviewGeneratorOperationQueue;
 
 @interface ICAttachmentPreviewGenerator
 {
     _Atomic _Bool _shouldGenerateAttachmentsWhenReachable;
-    ICAttachmentPreviewGeneratorOperationQueue *_asyncGeneratorQueue;
-    ICAttachmentPreviewGeneratorOperationQueue *_costlyGeneratorQueue;
-    ICAttachmentPreviewGeneratorOperationQueue *_generatorQueue;
-    NSMapTable *_lastOperationForAttachmentID;
-    NSMutableSet *_attachmentIDsPending;
-    NSMutableDictionary *_attachmentIDsProgress;
-    ICAttachmentPreviewGeneratorOperationQueue *_postProcessingQueue;
-    NSMutableOrderedSet *_postProcessingIDsPending;
-    unsigned long long _postProcessingRequestIndex;
-    unsigned long long _previewGenerationState;
-    NSObject<OS_dispatch_queue> *_previewQueue;
-    NSObject<OS_dispatch_queue> *_previewProgressQueue;
-    NSManagedObjectContext *_workerManagedObjectContext;
 }
 
 + (_Bool);
@@ -36,6 +22,7 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,13 +31,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
@@ -62,10 +48,10 @@
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)E;
 - (void);
 - (void);
 - (void);
@@ -73,7 +59,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -95,33 +81,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)atorMatchString;
+- (void)_persistInfoToDisk;
+- (void)csEvaluatorMatchString;
 - (void)unts;
 
 // Remaining properties
 @property(retain, nonatomic) ICAttachmentPreviewGeneratorOperationQueue *asyncGeneratorQueue; // @synthesize asyncGeneratorQueue=_asyncGeneratorQueue;
-@property(retain, nonatomic) NSMutableSet *attachmentIDsPending; // @synthesize attachmentIDsPending=_attachmentIDsPending;
-@property(retain, nonatomic) NSMutableDictionary *attachmentIDsProgress; // @synthesize attachmentIDsProgress=_attachmentIDsProgress;
-@property(retain, nonatomic) ICAttachmentPreviewGeneratorOperationQueue *costlyGeneratorQueue; // @synthesize costlyGeneratorQueue=_costlyGeneratorQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) ICAttachmentPreviewGeneratorOperationQueue *generatorQueue; // @synthesize generatorQueue=_generatorQueue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMapTable *lastOperationForAttachmentID; // @synthesize lastOperationForAttachmentID=_lastOperationForAttachmentID;
-@property(retain, nonatomic) NSMutableOrderedSet *postProcessingIDsPending; // @synthesize postProcessingIDsPending=_postProcessingIDsPending;
-@property(retain, nonatomic) ICAttachmentPreviewGeneratorOperationQueue *postProcessingQueue; // @synthesize postProcessingQueue=_postProcessingQueue;
-@property unsigned long long postProcessingRequestIndex; // @synthesize postProcessingRequestIndex=_postProcessingRequestIndex;
-@property unsigned long long previewGenerationState; // @synthesize previewGenerationState=_previewGenerationState;
-@property(readonly, nonatomic) _Bool previewOperationsIdle;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *previewProgressQueue; // @synthesize previewProgressQueue=_previewProgressQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *previewQueue; // @synthesize previewQueue=_previewQueue;
-@property(nonatomic) _Atomic _Bool shouldGenerateAttachmentsWhenReachable; // @synthesize shouldGenerateAttachmentsWhenReachable=_shouldGenerateAttachmentsWhenReachable;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSManagedObjectContext *workerManagedObjectContext; // @synthesize workerManagedObjectContext=_workerManagedObjectContext;
 
 @end
 

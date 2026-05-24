@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (double);
 - (double);
-- (void);
+- (void),V_pdfAttachmentProxy;
 - (id);
 - (_Bool);
 - (id);

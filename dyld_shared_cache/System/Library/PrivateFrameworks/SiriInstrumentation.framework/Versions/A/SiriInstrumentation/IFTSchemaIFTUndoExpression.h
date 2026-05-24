@@ -6,19 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTUndoExpression : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    _Bool _hasStatementId;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (void);
@@ -29,12 +28,10 @@
 - (id)!PFù1à°1Â0@ù
 × ;
 - (id)onQueryCallContext;
-- (id)TextMetadata;
+- (id)GATSchemaGATTextMetadata;
 - (void)É;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end

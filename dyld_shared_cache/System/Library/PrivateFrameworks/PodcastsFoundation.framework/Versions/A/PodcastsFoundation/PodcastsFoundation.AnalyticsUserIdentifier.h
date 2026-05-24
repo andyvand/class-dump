@@ -9,26 +9,18 @@
 @interface PodcastsFoundation.AnalyticsUserIdentifier
 {
     void clientId;
-    void userId;
-    _Bool userAllowsPersonalization;
-    _Bool userUnder13YearsOld;
-    _Bool userIsManagedAccount;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id)$SgVVG;
 - (void)y_lUSo17OS_dispatch_queueCGSbGGGSbSgG;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *clientId;
-@property(nonatomic, readonly) _Bool userAllowsPersonalization; // @synthesize userAllowsPersonalization;
-@property(nonatomic, readonly) NSString *userId;
-@property(nonatomic, readonly) _Bool userIsManagedAccount; // @synthesize userIsManagedAccount;
-@property(nonatomic, readonly) _Bool userUnder13YearsOld; // @synthesize userUnder13YearsOld;
 
 @end
 

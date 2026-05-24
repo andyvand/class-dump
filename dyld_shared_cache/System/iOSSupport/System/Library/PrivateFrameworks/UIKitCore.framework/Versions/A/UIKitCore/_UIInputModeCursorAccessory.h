@@ -15,14 +15,14 @@
 }
 
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)broadcasterForAllListeners;
+- (id)backlogged;
+- (id)e; sender:'%@':'%@':'%@' /* Error: Ran out of types for this method. */;
+- (id)w;
 - (id);
 - (void);
 - (unsigned long long);
-- (void)tDisableAllSliderVisuals:(id)arg1;
+- (void)setDisableAllSliderVisuals:(id)arg1;
 - (id)DÓ;
 - (void)UIViewGlassLegibilitySetting;
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol NADiffableItemGroup
-- (NSString *):16@24B32@36@44@52 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *diffableItems;
 @property(readonly, copy, nonatomic) NSString *groupIdentifier;
 @end
 

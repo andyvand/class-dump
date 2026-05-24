@@ -9,13 +9,12 @@
 @interface PXSharedCollectionsSettings : PXSettings
 {
     _Bool _showCollaborationUIForExistingShares;
-    _Bool _showCollaborationUIToCreateNewShares;
 }
 
-+ (id);
++ (id)XTextLayouter",&,N,V_textLayouter;
 + (id)8c: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool showCollaborationUIForExistingShares; // @synthesize showCollaborationUIForExistingShares=_showCollaborationUIForExistingShares;
-@property(nonatomic) _Bool showCollaborationUIToCreateNewShares; // @synthesize showCollaborationUIToCreateNewShares=_showCollaborationUIToCreateNewShares;
 
 @end
 

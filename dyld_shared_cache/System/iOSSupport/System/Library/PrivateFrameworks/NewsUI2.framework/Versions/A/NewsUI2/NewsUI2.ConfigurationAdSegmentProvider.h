@@ -7,12 +7,11 @@
 @interface NewsUI2.ConfigurationAdSegmentProvider
 {
     id needsUpdate;
-    id appConfigurationManager;
 }
 
 - (void);
 - (id);
-- (void)erDelegate;
+- (void)SavedFeedBlueprintViewCellProviderDelegate;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSSettingsDiff, NSSet;
+@class BSSettingsDiff;
 
 @interface FBSSettingsDiff
 {
     BSSettingsDiff *_diff;
-    BSSettingsDiff *_legacyDiff;
-    BSSettingsDiff *_localDiff;
-    BSSettingsDiff *_legacyLocalDiff;
-    Class _settingsClass;
-    NSSet *_changedSettings;
-    NSSet *_changedLegacySettings;
 }
 
 + (id);

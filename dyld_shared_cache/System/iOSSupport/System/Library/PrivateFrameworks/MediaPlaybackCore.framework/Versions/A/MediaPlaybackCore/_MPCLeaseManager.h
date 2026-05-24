@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngine, NSMutableDictionary, NSMutableSet, NSString;
+@class MPCPlaybackEngine, NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _MPCLeaseManager
 {
     MPCPlaybackEngine *_playbackEngine;
-    NSMutableSet *_leaseEndIgnoreReasons;
-    NSMutableDictionary *_prepareCompletions;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)";
+- (void)dataclassActionsForAccountSave:error: /* Error: Ran out of types for this method. */;
+- (void)dataclasses;
+- (void)ple.MobileSMS;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (void)S;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)debugDescription;
 - (void);
 - (id);
 - (id);
@@ -35,17 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)blic}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableSet *leaseEndIgnoreReasons; // @synthesize leaseEndIgnoreReasons=_leaseEndIgnoreReasons;
-@property(readonly, nonatomic) __weak MPCPlaybackEngine *playbackEngine; // @synthesize playbackEngine=_playbackEngine;
-@property(readonly, copy, nonatomic) NSString *playbackEngineID;
-@property(retain, nonatomic) NSMutableDictionary *prepareCompletions; // @synthesize prepareCompletions=_prepareCompletions;
-@property(readonly) Class superclass;
 
 @end
 

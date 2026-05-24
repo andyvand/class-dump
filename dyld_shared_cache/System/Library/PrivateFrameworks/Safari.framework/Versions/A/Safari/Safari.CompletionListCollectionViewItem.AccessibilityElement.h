@@ -7,8 +7,6 @@
 @interface Safari.CompletionListCollectionViewItem.AccessibilityElement
 {
     id completionListItemView;
-    id descriptionForAccessibility;
-    id shouldBeAccessibilitySelected;
 }
 
 - (_Bool);

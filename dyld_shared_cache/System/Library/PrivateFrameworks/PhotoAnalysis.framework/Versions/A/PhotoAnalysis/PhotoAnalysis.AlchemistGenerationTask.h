@@ -7,19 +7,6 @@
 @interface PhotoAnalysis.AlchemistGenerationTask
 {
     id worker;
-    id name;
-    id identifier;
-    id version;
-    id periodicity;
-    id priority;
-    id incrementalKey;
-    id shouldRecordCompletion;
-    id taskProductivityReporter;
-    id processedSomeSuggestions;
-    id fullyProcessedSuggestions;
-    id graphManager;
-    id tmpAssetDirectory;
-    id analyticsHelper;
 }
 
 @end

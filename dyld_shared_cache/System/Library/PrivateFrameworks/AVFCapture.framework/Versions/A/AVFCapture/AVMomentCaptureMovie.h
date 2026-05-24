@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMomentCaptureMovieRecordingResolvedSettings, NSArray, NSString, NSURL;
+@class AVMomentCaptureMovieRecordingResolvedSettings;
 
 @interface AVMomentCaptureMovie
 {
     AVMomentCaptureMovieRecordingResolvedSettings *_resolvedSettings;
-    NSURL *_outputFileURL;
-    NSURL *_debugMetadataSidecarFileURL;
-    struct __CVBuffer *_previewPixelBuffer;
-    CDStruct_1b6d18a9 _duration;
-    NSArray *_movieMetadata;
-    NSString *_overCaptureGroupIdentifier;
-    _Bool _hasOverCapture;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)ٖ;
+- (id)createDirectoryAtPath:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (id)bindDoubleValue:toParameterNamed: /* Error: Ran out of types for this method. */;
+- (id)N;
 - (void);
 - (void);
-- (id);
+- (id)rived from code-signing information:(id)arg1 bundleID=%{public}@;
 - (void);
 - (id);
 - (CDStruct_1b6d18a9);
 - (void);
-- (id);
-- (id);
+- (id)(! n;
+- (id);
 - (struct __CVBuffer *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *debugMetadataSidecarFileURL; // @synthesize debugMetadataSidecarFileURL=_debugMetadataSidecarFileURL;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) NSArray *movieMetadata; // @synthesize movieMetadata=_movieMetadata;
-@property(readonly, nonatomic) NSURL *outputFileURL; // @synthesize outputFileURL=_outputFileURL;
-@property(readonly, nonatomic) struct __CVBuffer *previewPixelBuffer; // @synthesize previewPixelBuffer=_previewPixelBuffer;
 @property(readonly, nonatomic) AVMomentCaptureMovieRecordingResolvedSettings *resolvedSettings; // @synthesize resolvedSettings=_resolvedSettings;
 
 @end

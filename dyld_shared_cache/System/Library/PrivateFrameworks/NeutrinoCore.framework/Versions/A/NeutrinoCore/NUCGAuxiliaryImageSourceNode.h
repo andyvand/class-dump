@@ -12,8 +12,6 @@
 @interface NUCGAuxiliaryImageSourceNode : NUSourceNode
 {
     id <NUAuxiliaryImageProperties> _auxiliaryImageProperties;
-    long long _auxiliaryImageType;
-    NUCGImageSourceNode *_sourceNode;
 }
 
 - (_Bool);
@@ -27,16 +25,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)J;
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void)edIntValue;
+- (void)unsignedIntValue;
 
 // Remaining properties
-@property(readonly, nonatomic) id <NUAuxiliaryImageProperties> auxiliaryImageProperties; // @synthesize auxiliaryImageProperties=_auxiliaryImageProperties;
-@property(readonly) long long auxiliaryImageType;
 @property(retain) NUCGImageSourceNode *sourceNode; // @synthesize sourceNode=_sourceNode;
 
 @end

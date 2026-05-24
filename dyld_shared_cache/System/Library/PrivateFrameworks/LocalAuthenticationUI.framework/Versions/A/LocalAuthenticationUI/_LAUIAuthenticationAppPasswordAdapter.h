@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)is nil! Should not be nil!;
+- (void)7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_chk.c;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)+j;
 - (void);
 
 @end

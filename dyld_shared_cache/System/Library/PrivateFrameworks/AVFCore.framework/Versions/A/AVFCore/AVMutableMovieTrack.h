@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVMovieTrack.h>
 
-@class AVMediaDataStorage, AVMutableMovieTrackInternal, NSArray, NSURL;
+@class AVMutableMovieTrackInternal, NSArray;
 
 @interface AVMutableMovieTrack : AVMovieTrack
 {
@@ -24,7 +24,7 @@
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (struct CGSize);
@@ -35,8 +35,8 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
+- (void)u;
+- (void)E;
 - (void);
 - (long long);
 - (void);
@@ -48,59 +48,51 @@
 - (id);
 - (id);
 - (CDStruct_e83c9415);
-- (struct OpaqueFigAssetTrack *);
-- (void);
+- (struct OpaqueFigAssetTrack *)/;
+- (void);
 - (struct OpaqueFigMutableMovie *);
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)xed size array of scalars;
 - (id);
+- (id)X@;
+- (void)SAScreenActionShowHomeScreen;
+- (void);
+- (void);
+- (int)rDisconnectBlock:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
-- (int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)~p;
 - (long long);
-- (void);
+- (void)_;
 - (void);
 - (long long);
 - (void);
-- (struct CGSize);
+- (struct CGSize)(;
 - (void)!@@ùQ)1Â0@ù
 × ;
 - (struct CGAffineTransform);
 - (id)1Â0@ù
 × ;
 - (float)rameHDRDisplayMetadataPolicy: /* Error: Ran out of types for this method. */;
-- (id)StatusOperation;
-- (void)imit;
-- (void)ng: /* Error: Ran out of types for this method. */;
-- (void)igUpdatedReason:(id)arg1;
-- (CDStruct_1b6d18a9)ieFromFormatReader: /* Error: Ran out of types for this method. */;
+- (id)transitionToTerminalStatusOperation;
+- (void)playoutLimit;
+- (void)numberWithUnsignedLong: /* Error: Ran out of types for this method. */;
+- (void)changeToTerminalStatusBasedOnRouteConfigUpdatedReason:(id)arg1;
+- (CDStruct_1b6d18a9)_figMutableMovieFromFormatReader: /* Error: Ran out of types for this method. */;
 - (long long),R,D,N;
 - (id)0ÜüÝ;
-- (void)ndSetRate;
+- (void)AVPlaybackCoordinatorPlaybackObjectCommandSetRate;
 - (struct CGSize)when it's already attached to a client-created AVContentKeySession;
 - (void)on:(CDStruct_1b6d18a9)arg1 contentKeyBoss:useContentKeyBoss:keySpecifier:initializationData:keyIDFromInitializationData:contentIdentifier:isRenewalRequest:requestID:providesPersistableKey:preloadingRequestOptions:identifier:supportsOfflineKey:originatingRecipientIdentifier:] /* Error: Ran out of types for this method. */;
-- (_Bool)sterClock;
+- (_Bool)masterClock;
 - (int)¶GVè;
 
 // Remaining properties
-@property(nonatomic) long long alternateGroupID;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 @property(readonly, nonatomic) NSArray *formatDescriptions;
-@property(readonly, nonatomic) _Bool hasProtectedContent;
-@property(copy, nonatomic) AVMediaDataStorage *mediaDataStorage;
-@property(copy, nonatomic) NSArray *metadata;
-@property(nonatomic, getter=isModified) _Bool modified;
-@property(copy, nonatomic) NSURL *sampleReferenceBaseURL;
-@property(nonatomic) int timescale;
 
 @end
 

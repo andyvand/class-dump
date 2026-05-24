@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, LUIEffectsButton, LUITextField, NSStackView, NSString;
+@class CALayer;
 
 @interface LUITextFieldView
 {
     CALayer *_backgroundLayer;
-    NSStackView *_stackView;
-    LUITextField *_textField;
-    LUIEffectsButton *_actionButton;
-    id _delegate;
 }
 
 - (_Bool);
-- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
@@ -27,15 +23,15 @@
 - (float);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGRect);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)j;
+- (id)Transfer;
+- (id)cardBackground;
 - (void);
 - (void);
 - (id);
@@ -44,14 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

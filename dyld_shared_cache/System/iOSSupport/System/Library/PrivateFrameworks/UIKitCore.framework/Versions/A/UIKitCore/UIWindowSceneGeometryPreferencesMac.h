@@ -12,13 +12,13 @@
 }
 
 + (double);
-+ (long long);
-- (struct CGRect);
-- (id);
++ (long long);
+- (struct CGRect)startUserInitiatedSyncWithDelegate: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool):(id)arg1;
+- (unsigned long long)a;
+- (_Bool)setLatchingAxes:(id)arg1;
 - (long long);
 
 // Remaining properties

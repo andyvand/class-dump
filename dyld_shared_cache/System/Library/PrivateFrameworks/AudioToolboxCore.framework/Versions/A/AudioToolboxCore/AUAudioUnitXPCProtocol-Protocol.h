@@ -5,6 +5,16 @@
 //
 
 @protocol AUAudioUnitXPCProtocol
+- (void)`;
+- (void);
+- (void)62;
+- (void);
+- (void);
+- (void)$Jza;
+- (void)@e;
+- (void)sizeCategory;
+- (void);
+- (void);
 - (void)¨ÂÂßBÀ¢éÂgl©B;
 @end
 

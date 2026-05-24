@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface NSPPrivateAccessTokenChallenge
 {
     unsigned short _tokenType;
-    NSData *_challengeData;
-    NSString *_issuerName;
-    NSData *_redemptionContext;
-    NSString *_originName;
-    NSArray *_originNames;
-    NSData *_credentialContext;
-    NSString *_originInfo;
 }
 
 + (id);
@@ -34,7 +27,7 @@
 - (id);
 - (id);
 - (unsigned short);
-- (id);
+- (id)r domain %@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,17 +37,6 @@
 
 // Remaining properties
 @property(readonly) NSData *challengeData;
-@property(readonly) NSData *credentialContext;
-@property(readonly) _Bool isSupportedTokenType;
-@property(readonly) NSString *issuerName;
-@property(readonly) NSString *originName;
-@property(readonly) NSArray *originNames;
-@property(readonly) NSData *redemptionContext;
-@property(readonly) NSData *redemptionNonce;
-@property(readonly) unsigned short tokenType;
-@property(readonly) _Bool typeHasAllowedOriginList;
-@property(readonly) _Bool typeRequiresOriginName;
-@property(readonly) _Bool typeRequiresRedemptionNonce;
 
 @end
 

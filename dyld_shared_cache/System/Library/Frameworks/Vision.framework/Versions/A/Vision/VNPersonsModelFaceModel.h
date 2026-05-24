@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 - (_Bool);
+- (id)fp_homeDirectoryPathForUserID:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (unsigned long long)orQuality;
+- (id)I;
+- (unsigned long long)PoorQuality;
 
 @end
 

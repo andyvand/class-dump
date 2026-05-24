@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVFragmentedAssetMinderInternal, NSArray;
+@class AVFragmentedAssetMinderInternal;
 
 @interface AVFragmentedAssetMinder
 {
@@ -19,12 +19,11 @@
 - (_Bool);
 - (void);
 - (double);
-- (void);
-- (id);
-- (id);
+- (void)A(;
+- (id),;
+- (id)otocol;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets;
 @property(nonatomic) double mindingInterval;
 
 @end

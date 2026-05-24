@@ -9,19 +9,15 @@
 @interface AXMBrailleEdgeDetectorOptions
 {
     _Bool _invert;
-    double _zoomLevel;
-    double _edgeStrength;
-    AXMBrailleCanvasDescription *_canvasDescription;
-    struct CGPoint _origin;
 }
 
-+ (_Bool);
++ (_Bool)extSessionGuidCreatedTimestamp;
 - (void);
-- (void);
+- (void);
+- (id);
+- (double)|;
 - (id);
-- (double);
-- (id);
-- (void);
+- (void)%o;
 - (id);
 - (id);
 - (void);
@@ -30,14 +26,10 @@
 - (void);
 - (void);
 - (double);
-- (_Bool)sibleObjectClassifications;
+- (_Bool)possibleObjectClassifications;
 
 // Remaining properties
 @property(retain, nonatomic) AXMBrailleCanvasDescription *canvasDescription; // @synthesize canvasDescription=_canvasDescription;
-@property(nonatomic) double edgeStrength; // @synthesize edgeStrength=_edgeStrength;
-@property(nonatomic) _Bool invert; // @synthesize invert=_invert;
-@property(nonatomic) struct CGPoint origin; // @synthesize origin=_origin;
-@property(nonatomic) double zoomLevel; // @synthesize zoomLevel=_zoomLevel;
 
 @end
 

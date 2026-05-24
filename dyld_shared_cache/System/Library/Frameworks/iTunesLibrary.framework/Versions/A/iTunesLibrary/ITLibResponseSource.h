@@ -9,16 +9,14 @@
 @interface ITLibResponseSource
 {
     NSArray *_sections;
-    NSArray *_items;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Versions/C/Foundation;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(readonly, nonatomic) NSArray *sections; // @synthesize sections=_sections;
 
 @end

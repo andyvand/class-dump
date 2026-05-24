@@ -10,33 +10,21 @@ __attribute__((visibility("hidden")))
 @interface AVControlCenterCaptureDeviceWatcher
 {
     AVCaptureDeviceDiscoverySession *_discoverySession;
-    CDUnknownBlockType _handler;
-    _Bool _centerStageSupported;
-    _Bool _backgroundBlurSupported;
-    _Bool _studioLightingSupported;
-    _Bool _reactionEffectsSupported;
-    _Bool _backgroundReplacementSupported;
-    _Bool _micModesSupported;
 }
 
-- (void);
+- (void)24@"NSDictionary"32;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool)1Â0@ù
 × ;
 - (_Bool)× ;
-- (_Bool)tiveDepthDataMinFrameDuration;
+- (_Bool)_activeDepthDataMinFrameDuration;
 - (_Bool)e_Tundra _ringLightActiveChanged:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool backgroundBlurSupported;
-@property(readonly) _Bool backgroundReplacementSupported;
 @property(readonly) _Bool centerStageSupported;
-@property(readonly) _Bool micModesSupported; // @synthesize micModesSupported=_micModesSupported;
-@property(readonly) _Bool reactionEffectsSupported;
-@property(readonly) _Bool studioLightingSupported;
 
 @end
 

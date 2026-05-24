@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Feedback)
-- (id);
+- (id)_dominantImageBackgroundColor;
 @end
 

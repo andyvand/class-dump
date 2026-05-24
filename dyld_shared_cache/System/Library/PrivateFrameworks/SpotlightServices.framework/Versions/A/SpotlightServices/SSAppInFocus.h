@@ -11,14 +11,14 @@
 }
 
 + (id);
+- (id)@"NSURLRequest">40;
+- (id)setBottom: /* Error: Ran out of types for this method. */;
+- (id)isiTunesStoreURLThatUsesWebMetadata:(id)arg1;
+- (id)internalSnapshotForMetadata:(id)arg1 configurations:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)(;
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool)DItemProtectionClass;
+- (_Bool)_kMDItemProtectionClass;
 
 @end
 

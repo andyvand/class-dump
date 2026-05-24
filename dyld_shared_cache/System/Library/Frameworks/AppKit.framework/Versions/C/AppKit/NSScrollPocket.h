@@ -6,61 +6,31 @@
 
 #import <AppKit/NSView.h>
 
-@class NSAppearance, NSColor, NSString;
+@class NSString;
 
 @interface NSScrollPocket : NSView
 {
     id backgroundCapture;
-    id pocketMask;
-    id luminanceAdjustment;
-    id additionalDimmingContainer;
-    id additionalDimming;
-    id pocketMaskedBlur;
-    id hardPocketView;
-    id debugOverlay;
-    id _viewAppearanceManager;
-    id _pocketParameterContainer;
-    id accessibilityDisplayOptionsDidChangeObserver;
-    id glassEffectDiffusionDidChangeObserver;
-    id _resetLumaTimer;
-    id contentLuma;
-    id priorEMAWeightedLuma;
-    id lumaUpdateSettleTimer;
-    long long edge;
-    long long style;
-    NSAppearance *appearanceBias;
-    _Bool prefersSolidColorHardPocket;
-    _Bool _showSeparatorsOnHardPocket;
-    NSColor *captureColor;
-    _Bool allowsColorSchemeAdaptivity;
-    id _enabledAnimationCount;
-    id _targetAlphaValues;
-    id _isEnabled;
-    id scrollVelocity;
-    id scrollVelocityResetTimer;
-    id elementModel;
-    id elementContainerModels;
-    id titlebarElementContainerCount;
 }
 
-+ (_Bool);
-+ (long long);
++ (_Bool)ruu;
++ (long long)2M1;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (id)onse}{os_unfair_lock_s=I}}16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)unarchivedObjectOfClasses:fromData:error: /* Error: Ran out of types for this method. */;
+- (void)set_allowsTLSFallback:(id)arg1;
+- (void)set_allowsTCPFastOpen:(id)arg1;
+- (_Bool);
+- (_Bool)k6;
 - (id);
 - (void);
 - (id);
@@ -72,33 +42,20 @@
 - (void);
 - (void);
 - (id);
+- (void)@$;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)youtIsPrepared;
+- (void)TextEffects"b1"_activeRenderers"b4"_applicationPlatformContext"b3};
+- (id)layoutIsPrepared;
 - (void)M|OüOPQÈQôQR¼S;
 - (id)¨;
 - (void)could not be completed.;
-- (void)InWindowCoordinates;
+- (void)positioningRectInWindowCoordinates;
 - (void)T®;
 - (long long);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *_adaptationDebugDescription;
-@property(nonatomic) _Bool _hidesTitlebarElements; // @dynamic _hidesTitlebarElements;
-@property(nonatomic, readonly) NSAppearance *_preferredAppearance;
-@property(nonatomic, readonly) _Bool _shouldDescendantsContributeToScrollPocket;
-@property(nonatomic) _Bool _showSeparatorsOnHardPocket; // @synthesize _showSeparatorsOnHardPocket;
-@property(nonatomic) long long _titlebarBackgroundStyle; // @dynamic _titlebarBackgroundStyle;
-@property(nonatomic) _Bool allowsColorSchemeAdaptivity; // @synthesize allowsColorSchemeAdaptivity;
-@property(nonatomic, retain) NSAppearance *appearanceBias; // @synthesize appearanceBias;
-@property(nonatomic, retain) NSColor *captureColor; // @synthesize captureColor;
-@property(nonatomic, readonly) NSView *captureView;
-@property(nonatomic, readonly) _Bool computed_hidesTitlebarElements;
-@property(nonatomic) long long edge; // @synthesize edge;
-@property(nonatomic) _Bool prefersSolidColorHardPocket; // @synthesize prefersSolidColorHardPocket;
-@property(nonatomic) long long style; // @synthesize style;
 
 @end
 

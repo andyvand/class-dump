@@ -6,33 +6,25 @@
 
 #import <IMSharedUtilities/IMSimulatedMessagePart.h>
 
-@class IMSandboxedFileURL, NSString, NSURL;
+@class NSURL;
 
 @interface IMSimulatedMessageFileTransferPart : IMSimulatedMessagePart
 {
     _Bool _pluginPayloadAttachment;
-    NSURL *_url;
-    NSString *_fileName;
-    NSString *_mimeType;
-    NSString *_utiType;
-    IMSandboxedFileURL *_securityURL;
-    NSString *_fallbackHashFileName;
-    NSString *_fallbackMimeType;
-    NSString *_fallbackUTIType;
 }
 
 + (_Bool);
 + (_Bool);
 + (id);
 + (_Bool);
-- (void);
+- (void)t;
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -43,11 +35,11 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)4;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -62,15 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fallbackHashFileName; // @synthesize fallbackHashFileName=_fallbackHashFileName;
-@property(retain, nonatomic) NSString *fallbackMimeType; // @synthesize fallbackMimeType=_fallbackMimeType;
-@property(retain, nonatomic) NSString *fallbackUTIType; // @synthesize fallbackUTIType=_fallbackUTIType;
-@property(retain, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(retain, nonatomic) NSString *mimeType; // @synthesize mimeType=_mimeType;
-@property(nonatomic) _Bool pluginPayloadAttachment; // @synthesize pluginPayloadAttachment=_pluginPayloadAttachment;
-@property(retain, nonatomic) IMSandboxedFileURL *securityURL; // @synthesize securityURL=_securityURL;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain, nonatomic) NSString *utiType; // @synthesize utiType=_utiType;
 
 @end
 

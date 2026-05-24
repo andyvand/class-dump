@@ -6,12 +6,11 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface DGAutoLoopOperation : DGOperation
 {
     NSDictionary *_recipe;
-    NSString *_flavor;
 }
 
 + (id);
@@ -23,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -32,7 +31,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *flavor; // @synthesize flavor=_flavor;
 @property(copy, nonatomic) NSDictionary *recipe; // @synthesize recipe=_recipe;
 
 @end

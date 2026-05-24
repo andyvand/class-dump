@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)creen:(id)arg1 traverseHierarchy:(id)arg2;
-- (struct CGSize);
-- (void);
++ (id)_didChangeFromIdiomOnScreen:(id)arg1 traverseHierarchy:(id)arg2;
+- (struct CGSize)0:(struct CGSize)arg1 8@16f24;
+- (void)disableQueueModifications;
 - (void);
 - (long long)0@ù
 × ;
-- (_Bool)Handle:(id)arg1;
-- (_Bool)e;
+- (_Bool)setServiceWindowHostingHandle:(id)arg1;
+- (_Bool)00e;
 
 // Remaining properties
 @property(nonatomic) long long options; // @synthesize options=_options;

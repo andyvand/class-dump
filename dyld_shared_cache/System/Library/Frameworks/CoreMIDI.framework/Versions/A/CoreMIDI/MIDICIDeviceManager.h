@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSPointerArray;
+@class NSPointerArray;
 
 @interface MIDICIDeviceManager
 {
     struct unfair_lock mMutex;
-    unsigned int _serverMUID;
-    NSPointerArray *_mutableDevices;
-    NSMutableArray *_devices;
 }
 
 + (id);
@@ -23,7 +20,7 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)R";
 - (id);
 - (void);
 - (void);
@@ -39,14 +36,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)CalDAVCalendarItemProtocol;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *devices; // @synthesize devices=_devices;
-@property(readonly, copy, nonatomic) NSArray *discoveredCIDevices;
 @property(retain, nonatomic) NSPointerArray *mutableDevices; // @synthesize mutableDevices=_mutableDevices;
-@property(readonly) unsigned int serverMUID; // @synthesize serverMUID=_serverMUID;
 
 @end
 

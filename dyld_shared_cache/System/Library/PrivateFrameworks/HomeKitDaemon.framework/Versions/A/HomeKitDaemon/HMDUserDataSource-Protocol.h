@@ -7,12 +7,12 @@
 @class NSNotificationCenter, NSString;
 
 @protocol HMDUserDataSource
+- (NSString *)phoneNumbers;
+- (void)C;
 - (_Bool)6@?0@"MTRDoorLockClusterCredentialStruct"8;
-- (NSNotificationCenter *)le;
+- (NSNotificationCenter *)MKFAccountHandle;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *fmfDeviceName;
-@property(readonly, nonatomic) _Bool isThisDeviceDesignatedFMFDevice;
 @property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
 @end
 

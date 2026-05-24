@@ -5,5 +5,6 @@
 //
 
 @protocol BrowserCredentialImporterDelegate
+- (void);
 @end
 

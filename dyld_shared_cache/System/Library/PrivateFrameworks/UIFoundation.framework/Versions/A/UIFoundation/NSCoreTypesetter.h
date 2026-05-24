@@ -6,83 +6,56 @@
 
 #import <UIFoundation/NSTypesetter.h>
 
-@class NSArray, NSDictionary, NSMutableArray;
-@protocol NSCoreTypesetterDelegate, NSCoreTypesetterDelegateInternal, NSTextAnimationKeyframe;
+@class NSDictionary;
 
 @interface NSCoreTypesetter : NSTypesetter
 {
     double _lineFragmentOriginYOffset;
-    id <NSCoreTypesetterDelegateInternal> _delegate;
-    NSMutableArray *_truncatedRanges;
-    _Bool _delegateSupportsTextContainer;
-    _Bool _delegateSupportsTruncationToken;
-    _Bool _delegateSupportsBidi;
-    const char *_bidiLevels;
-    long long _resolvedBaseWritingDirection;
-    _Bool _wantsExtraLineFragment;
-    _Bool _usesDefaultHyphenation;
-    _Bool _allowsFontSubstitutionAffectingVerticalMetrics;
-    _Bool _limitsLayoutForSuspiciousContents;
-    _Bool _allowsFontOverridingTextAttachmentVerticalMetrics;
-    _Bool _enforcesMinimumTextLineFragment;
-    _Bool _beginningOfDocument;
-    _Bool _typographicBoundsIncludesLineFragmentPadding;
-    _Bool _requiresCTLineRef;
-    _Bool _breaksLinesForInteractiveText;
-    _Bool _resolvesNaturalAlignmentWithBaseWritingDirection;
-    CDUnknownBlockType _laidOutLineFragment;
-    CDUnknownBlockType _validateLineBreakIndex;
-    NSDictionary *__extraLineFragmentAttributes;
-    long long _layoutOrientation;
-    unsigned long long _containerBreakMode;
-    long long _maximumNumberOfLines;
-    long long _fallbackBaseWritingDirection;
-    id <NSTextAnimationKeyframe> _keyframe;
-    NSArray *_forcedLineBreaks;
-    struct _NSRange characterRange;
-    struct CGSize textContainerSize;
 }
 
++ (_Bool);
++ (void)LSDownloadMIMETypeKey;
 + (_Bool);
 + (void);
-+ (_Bool);
-+ (void);
-+ (void);
-- (struct __CTLine *);
-- (void);
++ (void)J	KJKJHJ)K)
+K))
+J
+K	K;
+- (struct __CTLine *)DisplayArrangement;
+- (void)y->collapsed_windows == nullptr;
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)`;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)K;
 - (CDStruct_39925896);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (long long);
-- (id);
-- (void);
+- (id)ramework/Versions/A/RunningBoardServices;
+- (void)p comparing kFDRTag_inst object property;
 - (long long);
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_makeRequestCanonicalByMakingRequestURLCanonical:(long long)arg1;
+- (_Bool)shedConnection;
+- (void);
+- (void):(_Bool)arg1 UJ;
+- (id)27_;
 - (void);
-- (void);
-- (id);
-- (void);
-- (struct __CTRun *);
+- (struct __CTRun *)!;
 - (struct CGSize);
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)`";
 - (void);
 - (void);
 - (_Bool);
@@ -101,21 +74,21 @@
 - (void);
 - (struct __CTLine *);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (struct _NSRange);
-- (id);
+- (id)St19bad_optional_access;
 - (id);
 - (void)1Â0@ù
 × ;
 - (CDUnknownBlockType)3Ð1Â0@ù
 × ;
-- (void)ayoutManager:(CDUnknownBlockType)arg1;
+- (void)viewProviderForParentView:(CDUnknownBlockType)arg1 characterIndex:layoutManager: /* Error: Ran out of types for this method. */;
 - (void)sInKey:(id)arg1;
-- (id)nyRunHasBottomBorderOnPoint:withLeftCornerExtensionDistance:withRightCornerExtensionDistance: /* Error: Ran out of types for this method. */;
-- (_Bool)SShadow;
+- (id)anyRunHasBottomBorderOnPoint:withLeftCornerExtensionDistance:withRightCornerExtensionDistance: /* Error: Ran out of types for this method. */;
+- (_Bool)NSShadow;
 - (id)³;
 - (void)eDocument" Target="word/document.xml"/></Relationships>;
 - (void)ng"8@"NSTextRange"16@"NSTextRange"24^B32;
@@ -123,31 +96,6 @@
 
 // Remaining properties
 @property(copy) NSDictionary *_extraLineFragmentAttributes; // @synthesize _extraLineFragmentAttributes=__extraLineFragmentAttributes;
-@property(readonly) long long _fallbackWritingDirection; // @dynamic _fallbackWritingDirection;
-@property(readonly) _Bool _overridingFallbackWritingDirection; // @dynamic _overridingFallbackWritingDirection;
-@property _Bool allowsFontOverridingTextAttachmentVerticalMetrics; // @synthesize allowsFontOverridingTextAttachmentVerticalMetrics=_allowsFontOverridingTextAttachmentVerticalMetrics;
-@property _Bool allowsFontSubstitutionAffectingVerticalMetrics; // @synthesize allowsFontSubstitutionAffectingVerticalMetrics=_allowsFontSubstitutionAffectingVerticalMetrics;
-@property(getter=isBeginningOfDocument) _Bool beginningOfDocument; // @synthesize beginningOfDocument=_beginningOfDocument;
-@property _Bool breaksLinesForInteractiveText; // @synthesize breaksLinesForInteractiveText=_breaksLinesForInteractiveText;
-@property struct _NSRange characterRange; // @synthesize characterRange;
-@property unsigned long long containerBreakMode; // @synthesize containerBreakMode=_containerBreakMode;
-@property __weak id <NSCoreTypesetterDelegate> delegate; // @dynamic delegate;
-@property _Bool enforcesMinimumTextLineFragment; // @synthesize enforcesMinimumTextLineFragment=_enforcesMinimumTextLineFragment;
-@property long long fallbackBaseWritingDirection; // @synthesize fallbackBaseWritingDirection=_fallbackBaseWritingDirection;
-@property(copy) NSArray *forcedLineBreaks; // @synthesize forcedLineBreaks=_forcedLineBreaks;
-@property(retain) id <NSTextAnimationKeyframe> keyframe; // @synthesize keyframe=_keyframe;
-@property(copy) CDUnknownBlockType laidOutLineFragment; // @synthesize laidOutLineFragment=_laidOutLineFragment;
-@property long long layoutOrientation; // @synthesize layoutOrientation=_layoutOrientation;
-@property _Bool limitsLayoutForSuspiciousContents; // @synthesize limitsLayoutForSuspiciousContents=_limitsLayoutForSuspiciousContents;
-@property long long maximumNumberOfLines; // @synthesize maximumNumberOfLines=_maximumNumberOfLines;
-@property _Bool requiresCTLineRef; // @synthesize requiresCTLineRef=_requiresCTLineRef;
-@property _Bool resolvesNaturalAlignmentWithBaseWritingDirection; // @synthesize resolvesNaturalAlignmentWithBaseWritingDirection=_resolvesNaturalAlignmentWithBaseWritingDirection;
-@property struct CGSize textContainerSize; // @synthesize textContainerSize;
-@property(readonly) NSArray *truncatedRanges; // @synthesize truncatedRanges=_truncatedRanges;
-@property _Bool typographicBoundsIncludesLineFragmentPadding; // @synthesize typographicBoundsIncludesLineFragmentPadding=_typographicBoundsIncludesLineFragmentPadding;
-@property _Bool usesDefaultHyphenation; // @synthesize usesDefaultHyphenation=_usesDefaultHyphenation;
-@property(copy) CDUnknownBlockType validateLineBreakIndex; // @synthesize validateLineBreakIndex=_validateLineBreakIndex;
-@property _Bool wantsExtraLineFragment; // @synthesize wantsExtraLineFragment=_wantsExtraLineFragment;
 
 @end
 

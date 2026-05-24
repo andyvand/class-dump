@@ -7,20 +7,6 @@
 @interface ContactsUI.PosterEditFlowReporter
 {
     id logger;
-    id isEditingMeCard;
-    id entryPoint;
-    id processName;
-    id editType;
-    id avatarResult;
-    id posterResult;
-    id didDeleteCount;
-    id didCancelAvatarCount;
-    id didCancelPosterCount;
-    id deepestCancelPoint;
-    id cancelLocation;
-    id startTime;
-    id duration;
-    id didAlreadySubmit;
 }
 
 - (void);
@@ -29,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)L;
 - (void);
 - (void);
 - (void);

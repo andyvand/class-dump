@@ -6,59 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CDASchemaCDAAdvertisementData, CDASchemaCDAScoreBoosters, NSArray, NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CDASchemaCDAUserFeedbackParticipant : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_siriSpeechId;
-    SISchemaUUID *_cdaId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_halTargetSiriSpeechId;
-    int _decision;
-    unsigned long long _voiceTriggerTimeNS;
-    unsigned int _rawGoodnessScore;
-    unsigned int _granularBoostValue;
-    double _granularBoostDecay;
-    int _trumpReason;
-    unsigned int _psdScore;
-    int _mediaState;
-    int _alarmState;
-    int _timerState;
-    unsigned long long _timeSinceLastWinInMilliseconds;
-    int _triggerType;
-    NSString *_roomNameHash;
-    unsigned long long _timeSinceTriggerInMilliseconds;
-    CDASchemaCDAScoreBoosters *_scoreBoosters;
-    NSString *_build;
-    NSString *_locale;
-    CDASchemaCDAAdvertisementData *_advertisement;
-    NSArray *_productTypes;
-    _Bool _isNearMiss;
-    struct {
-        unsigned int decision:1;
-        unsigned int voiceTriggerTimeNS:1;
-        unsigned int rawGoodnessScore:1;
-        unsigned int granularBoostValue:1;
-        unsigned int granularBoostDecay:1;
-        unsigned int trumpReason:1;
-        unsigned int psdScore:1;
-        unsigned int mediaState:1;
-        unsigned int alarmState:1;
-        unsigned int timerState:1;
-        unsigned int timeSinceLastWinInMilliseconds:1;
-        unsigned int triggerType:1;
-        unsigned int timeSinceTriggerInMilliseconds:1;
-        unsigned int isNearMiss:1;
-    } _has;
-    _Bool _hasSiriSpeechId;
-    _Bool _hasCdaId;
-    _Bool _hasRequestId;
-    _Bool _hasHalTargetSiriSpeechId;
-    _Bool _hasRoomNameHash;
-    _Bool _hasScoreBoosters;
-    _Bool _hasBuild;
-    _Bool _hasLocale;
-    _Bool _hasAdvertisement;
 }
 
 - (unsigned long long);
@@ -90,7 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned int);
@@ -152,7 +104,7 @@
 - (_Bool);
 - (id);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -164,31 +116,31 @@
 - (void);
 - (id);
 - (int);
-- (int);
-- (int);
+- (int):8B16B20 /* Error: Ran out of types for this method. */;
+- (int)verifyFidoKeyWithFidoContext:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)ion.;
 - (id);
 - (void);
-- (int);
+- (int)menu;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)otification CacheDelete:(id)arg1 %p, %d;
+- (void)7;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id)ions"b1"numInsertions"b1"numSubstitutions"b1"editDistance"b1"referenceSize"b1};
-- (void)pe:(_Bool)arg1;
+- (void)setHasOperationType:(_Bool)arg1;
 - (_Bool)_gaveOptions;
-- (id);
+- (id)DODMLASRSchemaDODMLASRDecodingMetrics;
 - (id)ÔZ;
 - (void);
 - (id)þÐÿ¿;
@@ -196,54 +148,7 @@
 - (id)ÿLu¯þ¶,;
 
 // Remaining properties
-@property(retain, nonatomic) CDASchemaCDAAdvertisementData *advertisement; // @synthesize advertisement=_advertisement;
-@property(nonatomic) int alarmState; // @synthesize alarmState=_alarmState;
-@property(copy, nonatomic) NSString *build; // @synthesize build=_build;
-@property(retain, nonatomic) SISchemaUUID *cdaId; // @synthesize cdaId=_cdaId;
-@property(nonatomic) int decision; // @synthesize decision=_decision;
-@property(nonatomic) double granularBoostDecay; // @synthesize granularBoostDecay=_granularBoostDecay;
-@property(nonatomic) unsigned int granularBoostValue; // @synthesize granularBoostValue=_granularBoostValue;
-@property(retain, nonatomic) SISchemaUUID *halTargetSiriSpeechId; // @synthesize halTargetSiriSpeechId=_halTargetSiriSpeechId;
-@property(nonatomic) _Bool hasAdvertisement; // @synthesize hasAdvertisement=_hasAdvertisement;
-@property(nonatomic) _Bool hasAlarmState;
-@property(nonatomic) _Bool hasBuild; // @synthesize hasBuild=_hasBuild;
-@property(nonatomic) _Bool hasCdaId; // @synthesize hasCdaId=_hasCdaId;
-@property(nonatomic) _Bool hasDecision;
-@property(nonatomic) _Bool hasGranularBoostDecay;
-@property(nonatomic) _Bool hasGranularBoostValue;
-@property(nonatomic) _Bool hasHalTargetSiriSpeechId; // @synthesize hasHalTargetSiriSpeechId=_hasHalTargetSiriSpeechId;
-@property(nonatomic) _Bool hasIsNearMiss;
-@property(nonatomic) _Bool hasLocale; // @synthesize hasLocale=_hasLocale;
-@property(nonatomic) _Bool hasMediaState;
-@property(nonatomic) _Bool hasPsdScore;
-@property(nonatomic) _Bool hasRawGoodnessScore;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasRoomNameHash; // @synthesize hasRoomNameHash=_hasRoomNameHash;
-@property(nonatomic) _Bool hasScoreBoosters; // @synthesize hasScoreBoosters=_hasScoreBoosters;
-@property(nonatomic) _Bool hasSiriSpeechId; // @synthesize hasSiriSpeechId=_hasSiriSpeechId;
-@property(nonatomic) _Bool hasTimeSinceLastWinInMilliseconds;
-@property(nonatomic) _Bool hasTimeSinceTriggerInMilliseconds;
-@property(nonatomic) _Bool hasTimerState;
-@property(nonatomic) _Bool hasTriggerType;
-@property(nonatomic) _Bool hasTrumpReason;
-@property(nonatomic) _Bool hasVoiceTriggerTimeNS;
-@property(nonatomic) _Bool isNearMiss; // @synthesize isNearMiss=_isNearMiss;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(nonatomic) int mediaState; // @synthesize mediaState=_mediaState;
-@property(copy, nonatomic) NSArray *productTypes; // @synthesize productTypes=_productTypes;
-@property(nonatomic) unsigned int psdScore; // @synthesize psdScore=_psdScore;
-@property(nonatomic) unsigned int rawGoodnessScore; // @synthesize rawGoodnessScore=_rawGoodnessScore;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(copy, nonatomic) NSString *roomNameHash; // @synthesize roomNameHash=_roomNameHash;
-@property(retain, nonatomic) CDASchemaCDAScoreBoosters *scoreBoosters; // @synthesize scoreBoosters=_scoreBoosters;
 @property(retain, nonatomic) SISchemaUUID *siriSpeechId; // @synthesize siriSpeechId=_siriSpeechId;
-@property(nonatomic) unsigned long long timeSinceLastWinInMilliseconds; // @synthesize timeSinceLastWinInMilliseconds=_timeSinceLastWinInMilliseconds;
-@property(nonatomic) unsigned long long timeSinceTriggerInMilliseconds; // @synthesize timeSinceTriggerInMilliseconds=_timeSinceTriggerInMilliseconds;
-@property(nonatomic) int timerState; // @synthesize timerState=_timerState;
-@property(nonatomic) int triggerType; // @synthesize triggerType=_triggerType;
-@property(nonatomic) int trumpReason; // @synthesize trumpReason=_trumpReason;
-@property(nonatomic) unsigned long long voiceTriggerTimeNS; // @synthesize voiceTriggerTimeNS=_voiceTriggerTimeNS;
 
 @end
 

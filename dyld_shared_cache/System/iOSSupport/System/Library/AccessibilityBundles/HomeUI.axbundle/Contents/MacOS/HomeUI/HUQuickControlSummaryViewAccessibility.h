@@ -12,12 +12,12 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)iH;
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)(;
 - (void);
-- (id);
+- (id)localizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
 
 @end
 

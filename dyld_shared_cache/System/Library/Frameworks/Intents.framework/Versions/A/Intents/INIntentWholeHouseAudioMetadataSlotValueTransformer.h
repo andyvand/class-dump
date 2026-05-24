@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
++ (Class);
 + (Class);
-+ (Class);
-+ (long long)tentRating: /* Error: Ran out of types for this method. */;
++ (long long)StringAsContentRating: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)_effect;
 

@@ -7,83 +7,51 @@
 @interface NTPBBinningConfig
 {
     double _decreaseConsumptionThreshold;
-    long long _evaluationFrequency;
-    long long _historyLength;
-    double _increaseConsumptionThreshold;
-    long long _minimumArticleCount;
-    int _defaultChannelBin;
-    int _defaultTopicBin;
-    _Bool _enabled;
-    struct {
-        unsigned int decreaseConsumptionThreshold:1;
-        unsigned int evaluationFrequency:1;
-        unsigned int historyLength:1;
-        unsigned int increaseConsumptionThreshold:1;
-        unsigned int minimumArticleCount:1;
-        unsigned int defaultChannelBin:1;
-        unsigned int defaultTopicBin:1;
-        unsigned int enabled:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (int);
-- (double);
-- (_Bool);
-- (_Bool);
-- (int);
+- (void)canSetSocialGroupAsMagicItem:(long long)arg1;
+- (void)buildAVPlayerItemFromVideoURL:(double)arg1 infoDictionary:options:completion: /* Error: Ran out of types for this method. */;
+- (void)browserGridLayoutMetrics;
+- (void)assetImportStatusManager:(_Bool)arg1 didChangeStatusForAssetReference: /* Error: Ran out of types for this method. */;
+- (void)ovider:(_Bool)arg1 outChangedSections:outSectionsWithItemChanges:changeMediaVersionHandler: /* Error: Ran out of types for this method. */;
+- (void)applicationStateObservation;
+- (void)animateNextRender;
+- (void)alwaysShowBanner;
+- (void)alwaysLeadingAlignAttributionViewOnRegularWidthPads;
+- (void)alwaysFilterPlaceholder;
+- (void)addRecipients:(long long)arg1;
+- (void)addItemWithTitle:(int)arg1 action:keyEquivalent: /* Error: Ran out of types for this method. */;
+- (void)addIndexes:(int)arg1;
+- (void)addImportSourceObserver:(double)arg1;
+- (long long)_validatedPerformerClassForActionType:checkIfCanPerformAction: /* Error: Ran out of types for this method. */;
+- (double)_updateVisibleSegmentIdentifiers;
+- (_Bool)_upNextCountDownFormatter;
+- (_Bool)_topAddParticipantsToTableViewConstraint;
+- (_Bool)_timeRangeController;
+- (_Bool)_thumbnailChromeDetailsViewButtonSpec;
+- (_Bool)_thumbnailAutoplayTimeRange;
+- (long long)_stateQueue_segmentTimeRangeOfOriginalVideo;
+- (int)_stateQueue_exportedStyle;
+- (double)_stateQueue_estimationDiagnostics;
+- (_Bool)_shouldHideChromeItemsWhenRelatedOverlayIsScrolledIntoView;
+- (_Bool)_setPreviousOffsetInvalid: /* Error: Ran out of types for this method. */;
+- (int)_setOutputSubtitle: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)decodeObjectForKey: /* Error: Ran out of types for this method. */;
 - (_Bool)st;
 
 // Remaining properties
-@property(nonatomic) double decreaseConsumptionThreshold; // @synthesize decreaseConsumptionThreshold=_decreaseConsumptionThreshold;
-@property(nonatomic) int defaultChannelBin; // @synthesize defaultChannelBin=_defaultChannelBin;
-@property(nonatomic) int defaultTopicBin; // @synthesize defaultTopicBin=_defaultTopicBin;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) long long evaluationFrequency; // @synthesize evaluationFrequency=_evaluationFrequency;
-@property(nonatomic) _Bool hasDecreaseConsumptionThreshold;
-@property(nonatomic) _Bool hasDefaultChannelBin;
-@property(nonatomic) _Bool hasDefaultTopicBin;
 @property(nonatomic) _Bool hasEnabled;
-@property(nonatomic) _Bool hasEvaluationFrequency;
-@property(nonatomic) _Bool hasHistoryLength;
-@property(nonatomic) _Bool hasIncreaseConsumptionThreshold;
-@property(nonatomic) _Bool hasMinimumArticleCount;
-@property(nonatomic) long long historyLength; // @synthesize historyLength=_historyLength;
-@property(nonatomic) double increaseConsumptionThreshold; // @synthesize increaseConsumptionThreshold=_increaseConsumptionThreshold;
-@property(nonatomic) long long minimumArticleCount; // @synthesize minimumArticleCount=_minimumArticleCount;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, PXPersonImageRequest, UXImageView, UXView;
+@class UXView;
 
 @interface PXPeopleBootstrapCollectionViewCell
 {
     _Bool _confirmed;
-    _Bool _isMergeCandidate;
-    _Bool _isVerified;
-    unsigned long long _presentationStatus;
-    PXPersonImageRequest *_imageRequest;
-    UXView *_selectedCheckmarkView;
-    UXView *_unselectedCheckmarkView;
-    UXImageView *_badgeView;
-    UXImageView *_imageView;
-    struct CGSize _checkmarkImageSize;
 }
 
 + (id);
@@ -34,30 +25,20 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)activityItems;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id){?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}16;
-- (id)ad;
-- (void)Positioning:(struct CGRect)arg1;
+- (id)percentCompletedForUpload;
+- (void)_checkForForcedPositioning:(struct CGRect)arg1;
 - (_Bool)les;
 - (void)emListManager;
 
 // Remaining properties
-@property(readonly, nonatomic) UXImageView *badgeView; // @synthesize badgeView=_badgeView;
-@property(readonly, nonatomic) struct CGSize checkmarkImageSize; // @synthesize checkmarkImageSize=_checkmarkImageSize;
-@property(nonatomic) _Bool confirmed; // @synthesize confirmed=_confirmed;
-@property(readonly, nonatomic) NSImage *image;
-@property(retain, nonatomic) PXPersonImageRequest *imageRequest; // @synthesize imageRequest=_imageRequest;
-@property(readonly, nonatomic) UXImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool isMergeCandidate; // @synthesize isMergeCandidate=_isMergeCandidate;
-@property(nonatomic) _Bool isVerified; // @synthesize isVerified=_isVerified;
-@property(nonatomic) unsigned long long presentationStatus; // @synthesize presentationStatus=_presentationStatus;
 @property(readonly, nonatomic) UXView *selectedCheckmarkView; // @synthesize selectedCheckmarkView=_selectedCheckmarkView;
-@property(readonly, nonatomic) UXView *unselectedCheckmarkView; // @synthesize unselectedCheckmarkView=_unselectedCheckmarkView;
 
 @end
 

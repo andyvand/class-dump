@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIApplicationSceneSettingsDiffInspector;
+@class UIApplicationSceneSettingsDiffInspector;
 
 __attribute__((visibility("hidden")))
 @interface _UICarPlaySceneDiffAction
@@ -12,20 +12,13 @@ __attribute__((visibility("hidden")))
     UIApplicationSceneSettingsDiffInspector *_carPlayDiffInspector;
 }
 
-- (void);
+- (void)isFetchingExitForEnablement;
 - (id);
 - (void)Type;
 - (void)<¼ÿÒ>Ó8^;
 
 // Remaining properties
 @property(retain, nonatomic) UIApplicationSceneSettingsDiffInspector *carPlayDiffInspector; // @synthesize carPlayDiffInspector=_carPlayDiffInspector;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

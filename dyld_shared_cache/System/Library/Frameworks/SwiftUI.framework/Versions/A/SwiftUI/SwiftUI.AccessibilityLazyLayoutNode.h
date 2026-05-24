@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_test_overrideAppIdentifierToIsWebBrowser;
 - (id);
 
 @end

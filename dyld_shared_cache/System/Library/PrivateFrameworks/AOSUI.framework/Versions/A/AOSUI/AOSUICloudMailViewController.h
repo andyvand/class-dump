@@ -4,31 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSBox, NSButton, NSImageView, NSTextFieldCell, NSTextStorage, NSTextView, NSWindow;
+@class NSButton;
 @protocol AOSUIViewControllerProvider;
 
 __attribute__((visibility("hidden")))
 @interface AOSUICloudMailViewController
 {
     id <AOSUIViewControllerProvider> _mailViewControllerProvider;
-    ACAccount *_appleAccount;
-    _Bool _isEnabled;
-    NSButton *_doneButton;
-    NSTextView *_learnMoreBYOD;
-    NSTextView *_learnMoreICloudMail;
-    NSTextView *_learnMoreEncrypt;
-    NSImageView *_mailLogoImageView;
-    NSTextFieldCell *_statusLabel;
-    NSButton *_switchButton;
-    NSButton *_optionsButton;
-    NSButton *_pontifexButton;
-    NSBox *_customDomainPane;
-    NSWindow *_modalWindow;
-    NSWindow *_hostWindow;
-    CDUnknownBlockType _callback;
-    NSTextStorage *_learnMoreBYODTextStorage;
-    NSTextStorage *_learnMoreICloudMailTextStorage;
-    NSTextStorage *_learnMoreEncryptTextStorage;
 }
 
 - (void);
@@ -38,32 +20,35 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)
+k	3;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)
+u+13;
+- (void)?
+k)3;
 - (void);
 - (id);
+- (void);
+- (id);
+- (id)B(w;
+- (id);
+- (id);
+- (id)1*3;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)kB;
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)setMatchMustBeWordOrSentenceTerminal:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -85,23 +70,7 @@ __attribute__((visibility("hidden")))
 - (void)local or remote resources for app bundles %@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) NSBox *customDomainPane; // @synthesize customDomainPane=_customDomainPane;
 @property(retain, nonatomic) NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(retain, nonatomic) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(retain, nonatomic) NSTextView *learnMoreBYOD; // @synthesize learnMoreBYOD=_learnMoreBYOD;
-@property(retain, nonatomic) NSTextStorage *learnMoreBYODTextStorage; // @synthesize learnMoreBYODTextStorage=_learnMoreBYODTextStorage;
-@property(retain, nonatomic) NSTextView *learnMoreEncrypt; // @synthesize learnMoreEncrypt=_learnMoreEncrypt;
-@property(retain, nonatomic) NSTextStorage *learnMoreEncryptTextStorage; // @synthesize learnMoreEncryptTextStorage=_learnMoreEncryptTextStorage;
-@property(retain, nonatomic) NSTextView *learnMoreICloudMail; // @synthesize learnMoreICloudMail=_learnMoreICloudMail;
-@property(retain, nonatomic) NSTextStorage *learnMoreICloudMailTextStorage; // @synthesize learnMoreICloudMailTextStorage=_learnMoreICloudMailTextStorage;
-@property(retain, nonatomic) NSImageView *mailLogoImageView; // @synthesize mailLogoImageView=_mailLogoImageView;
-@property(retain, nonatomic) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property(retain, nonatomic) NSButton *optionsButton; // @synthesize optionsButton=_optionsButton;
-@property(retain, nonatomic) NSButton *pontifexButton; // @synthesize pontifexButton=_pontifexButton;
-@property(retain, nonatomic) NSTextFieldCell *statusLabel; // @synthesize statusLabel=_statusLabel;
-@property(retain, nonatomic) NSButton *switchButton; // @synthesize switchButton=_switchButton;
 
 @end
 

@@ -7,36 +7,24 @@
 @interface PARSmartSearchV1Parameters
 {
     double _weightLast1hour;
-    double _weightLast1day;
-    double _weightLast1week;
-    double _weightLast1month;
-    double _weightAll;
-    double _weightMostRecent;
-    double _weightMinThresholdToSend;
 }
 
 + (_Bool);
 - (double);
 - (id);
+- (double)(;
 - (double);
-- (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (double);
-- (double);
+- (double){;
+- (double)`;
 - (double);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double weightAll; // @synthesize weightAll=_weightAll;
-@property(readonly, nonatomic) double weightLast1day; // @synthesize weightLast1day=_weightLast1day;
 @property(readonly, nonatomic) double weightLast1hour; // @synthesize weightLast1hour=_weightLast1hour;
-@property(readonly, nonatomic) double weightLast1month; // @synthesize weightLast1month=_weightLast1month;
-@property(readonly, nonatomic) double weightLast1week; // @synthesize weightLast1week=_weightLast1week;
-@property(readonly, nonatomic) double weightMinThresholdToSend; // @synthesize weightMinThresholdToSend=_weightMinThresholdToSend;
-@property(readonly, nonatomic) double weightMostRecent; // @synthesize weightMostRecent=_weightMostRecent;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <MiniSoftwareUpdate/MSUDataDownloader.h>
 
-@class NSMutableDictionary, NSString, NSURLSession;
+@class NSURLSession;
 
 @interface MSUNSURLSessionDataDownloader : MSUDataDownloader
 {
     NSURLSession *_session;
-    NSMutableDictionary *_challengeErrorsByHostname;
-    NSMutableDictionary *_extendedValidationBooleansByHostname;
 }
 
 + (_Bool);
@@ -24,22 +22,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Tab Group on activation;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *challengeErrorsByHostname; // @synthesize challengeErrorsByHostname=_challengeErrorsByHostname;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableDictionary *extendedValidationBooleansByHostname; // @synthesize extendedValidationBooleansByHostname=_extendedValidationBooleansByHostname;
-@property(readonly) unsigned long long hash;
 @property(retain) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

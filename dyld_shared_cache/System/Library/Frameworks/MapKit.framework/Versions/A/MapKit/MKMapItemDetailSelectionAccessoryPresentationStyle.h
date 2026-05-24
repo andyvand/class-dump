@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSViewController;
-
 @interface MKMapItemDetailSelectionAccessoryPresentationStyle
 {
     long long _style;
-    long long _calloutStyle;
-    NSViewController *_presentationViewController;
 }
 
 + (id);
@@ -23,12 +19,10 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void)anager:desiredAccuracy:handler:timeout:maxLocationAge: /* Error: Ran out of types for this method. */;
-- (long long)enericOptionsFrom: /* Error: Ran out of types for this method. */;
+- (void)initWithLocationManager:desiredAccuracy:handler:timeout:maxLocationAge: /* Error: Ran out of types for this method. */;
+- (long long)_treatGenericOptionsFrom: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_calloutStyle) long long calloutStyle; // @synthesize calloutStyle=_calloutStyle;
-@property(readonly, nonatomic, getter=_presentationViewController) __weak NSViewController *presentationViewController; // @synthesize presentationViewController=_presentationViewController;
 @property(readonly, nonatomic, getter=_style) long long style; // @synthesize style=_style;
 
 @end

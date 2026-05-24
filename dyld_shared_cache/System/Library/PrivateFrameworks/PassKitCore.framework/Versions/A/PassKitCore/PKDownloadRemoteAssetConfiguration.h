@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol PKCloudStoreCoordinatorDelegate;
+@class NSArray;
 
 @interface PKDownloadRemoteAssetConfiguration
 {
     _Bool _ignoreRequiredAssetDownloadFailures;
-    _Bool _includeEncryptedAssets;
-    NSArray *_seids;
-    id <PKCloudStoreCoordinatorDelegate> _cloudStoreCoordinatorDelegate;
-    double _screenScale;
-    NSString *_suffix;
 }
 
 + (id);
@@ -23,7 +17,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -31,23 +25,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (double);
-- (_Bool);
-- (id);
-- (void)dnDataSource;
+- (_Bool)hasWeightedAverageRssi;
+- (id)!;
+- (void)cdnDataSource;
 
 // Remaining properties
-@property(retain, nonatomic) id <PKCloudStoreCoordinatorDelegate> cloudStoreCoordinatorDelegate; // @synthesize cloudStoreCoordinatorDelegate=_cloudStoreCoordinatorDelegate;
-@property(nonatomic) _Bool ignoreRequiredAssetDownloadFailures; // @synthesize ignoreRequiredAssetDownloadFailures=_ignoreRequiredAssetDownloadFailures;
-@property(nonatomic) _Bool includeEncryptedAssets; // @synthesize includeEncryptedAssets=_includeEncryptedAssets;
-@property(nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
 @property(retain, nonatomic) NSArray *seids; // @synthesize seids=_seids;
-@property(retain, nonatomic) NSString *suffix; // @synthesize suffix=_suffix;
 
 @end
 

@@ -7,6 +7,7 @@
 @interface WeatherAppSupport.PressureChartHeaderStringBuilder
 {
     id averagePressureCache;
+    id;
 }
 
 @end

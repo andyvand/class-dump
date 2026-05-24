@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.RotatingIdentifierXPCRequester
 {
     id queue;
-    id queueLabel;
-    id session;
 }
 
 @end

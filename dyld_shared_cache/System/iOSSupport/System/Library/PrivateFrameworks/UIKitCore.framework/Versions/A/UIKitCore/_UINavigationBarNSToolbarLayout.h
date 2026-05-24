@@ -4,44 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, UIBarButtonItemGroup, UIImage, UISearchTextField, _UINavigationBarPalette;
-
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarNSToolbarLayout
 {
     _Bool _isTitleSectionHidden;
-    _Bool _showSidebarToggle;
-    _Bool _isParentVCPresentingFullScreen;
-    long long _style;
-    long long _location;
-    NSString *_customizationIdentifier;
-    NSString *_title;
-    NSString *_subtitle;
-    NSURL *_representedURL;
-    CDUnknownBlockType _representedDragItemsProvider;
-    _UINavigationBarPalette *_bottomPalette;
-    NSArray *_staticLeadingItemGroups;
-    NSArray *_leadingGroups;
-    NSArray *_centerGroupsCustomized;
-    NSArray *_centerGroupsFull;
-    NSArray *_trailingGroups;
-    UIBarButtonItemGroup *_pinnedTrailingGroup;
-    NSArray *_staticTrailingItemGroups;
-    NSString *_backButtonTitle;
-    UIImage *_backButtonImage;
-    CDUnknownBlockType _backButtonHandler;
-    UISearchTextField *_trailingInlineSearchTextField;
-    UISearchTextField *_centeredInlineSearchTextField;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)notificationCenter;
+- (void)myIdleTime;
+- (void)PoolName;
 - (void);
 - (void);
 - (void);
@@ -51,21 +27,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)ger"16@"TUConversation"24@"NSData"32;
+- (_Bool)ntroller"16q24@"IMDChat"32;
+- (id)databaseUpdated: /* Error: Ran out of types for this method. */;
+- (id)dataWithContentsOfFile: /* Error: Ran out of types for this method. */;
+- (id)dataValue;
+- (CDUnknownBlockType)chat:lastAddressedHandleUpdated: /* Error: Ran out of types for this method. */;
+- (id)chat %s to message %s readDate %s rcptVer %ld hadQOI %{bool}d;
+- (id)ion.;
+- (void);
 - (id);
-- (id);
-- (id);
+- (void);
 - (CDUnknownBlockType);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
+- (void)k�;
 - (long long);
 - (id);
 - (id);
@@ -77,9 +53,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)w:(id)arg1 didFailProvisionalLoadWithError:forFrame: /* Error: Ran out of types for this method. */;
-- (void)ithWhite:(id)arg1 alpha: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 scale:inContext: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 didFailProvisionalLoadWithError:forFrame: /* Error: Ran out of types for this method. */;
+- (void)initWithWhite:(id)arg1 alpha: /* Error: Ran out of types for this method. */;
+- (void)_prepareForDrawingWithSize:(id)arg1 scale:inContext: /* Error: Ran out of types for this method. */;
 - (id)_quietPeriod;
 - (id)be called for custom symbol images.;
 - (long long)lues:] called with NULL values array /* Error: Ran out of types for this method. */;
@@ -88,29 +64,7 @@ __attribute__((visibility("hidden")))
 - (void)6h;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType backButtonHandler; // @synthesize backButtonHandler=_backButtonHandler;
-@property(retain, nonatomic) UIImage *backButtonImage; // @synthesize backButtonImage=_backButtonImage;
-@property(copy, nonatomic) NSString *backButtonTitle; // @synthesize backButtonTitle=_backButtonTitle;
-@property(retain, nonatomic) _UINavigationBarPalette *bottomPalette; // @synthesize bottomPalette=_bottomPalette;
-@property(copy, nonatomic) NSArray *centerGroupsCustomized; // @synthesize centerGroupsCustomized=_centerGroupsCustomized;
-@property(copy, nonatomic) NSArray *centerGroupsFull; // @synthesize centerGroupsFull=_centerGroupsFull;
-@property(retain, nonatomic) UISearchTextField *centeredInlineSearchTextField; // @synthesize centeredInlineSearchTextField=_centeredInlineSearchTextField;
-@property(copy, nonatomic) NSString *customizationIdentifier; // @synthesize customizationIdentifier=_customizationIdentifier;
-@property(nonatomic) _Bool isParentVCPresentingFullScreen; // @synthesize isParentVCPresentingFullScreen=_isParentVCPresentingFullScreen;
-@property(nonatomic) _Bool isTitleSectionHidden; // @synthesize isTitleSectionHidden=_isTitleSectionHidden;
-@property(copy, nonatomic) NSArray *leadingGroups; // @synthesize leadingGroups=_leadingGroups;
-@property(nonatomic) long long location; // @synthesize location=_location;
-@property(retain, nonatomic) UIBarButtonItemGroup *pinnedTrailingGroup; // @synthesize pinnedTrailingGroup=_pinnedTrailingGroup;
-@property(copy, nonatomic) CDUnknownBlockType representedDragItemsProvider; // @synthesize representedDragItemsProvider=_representedDragItemsProvider;
-@property(copy, nonatomic) NSURL *representedURL; // @synthesize representedURL=_representedURL;
-@property(nonatomic) _Bool showSidebarToggle; // @synthesize showSidebarToggle=_showSidebarToggle;
-@property(copy, nonatomic) NSArray *staticLeadingItemGroups; // @synthesize staticLeadingItemGroups=_staticLeadingItemGroups;
-@property(copy, nonatomic) NSArray *staticTrailingItemGroups; // @synthesize staticTrailingItemGroups=_staticTrailingItemGroups;
 @property(nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSArray *trailingGroups; // @synthesize trailingGroups=_trailingGroups;
-@property(retain, nonatomic) UISearchTextField *trailingInlineSearchTextField; // @synthesize trailingInlineSearchTextField=_trailingInlineSearchTextField;
 
 @end
 

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface NSFileProviderMovingResponse
 {
     _Bool _requiresProviding;
-    _Bool _requiresAccessorBlockMaterializationPolicy;
-    unsigned long long _syncRootID;
 }
 
 + (id);
 + (id);
 + (_Bool)th>;
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -25,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool requiresAccessorBlockMaterializationPolicy; // @synthesize requiresAccessorBlockMaterializationPolicy=_requiresAccessorBlockMaterializationPolicy;
 @property(readonly) _Bool requiresProviding; // @synthesize requiresProviding=_requiresProviding;
-@property(readonly) NSNumber *syncRootID;
 
 @end
 

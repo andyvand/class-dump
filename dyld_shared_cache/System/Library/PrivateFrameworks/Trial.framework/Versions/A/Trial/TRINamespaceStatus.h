@@ -4,43 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface TRINamespaceStatus
 {
     _Bool _lastFetchWasSuccess;
-    unsigned int _compatibilityVersion;
-    NSString *_namespaceName;
-    NSDate *_lastFetchAttempt;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (_Bool);
+- (id)@@9	;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)P;
+- (id)hS;
+- (id);
 - (unsigned long long);
-- (id);
+- (id)ng key face for face group %@ and associated person :%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(readonly, nonatomic) NSDate *lastFetchAttempt; // @synthesize lastFetchAttempt=_lastFetchAttempt;
-@property(readonly, nonatomic) _Bool lastFetchWasSuccess; // @synthesize lastFetchWasSuccess=_lastFetchWasSuccess;
 @property(readonly, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
 
 @end

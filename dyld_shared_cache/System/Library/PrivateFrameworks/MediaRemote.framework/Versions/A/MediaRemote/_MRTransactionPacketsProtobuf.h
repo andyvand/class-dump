@@ -12,22 +12,22 @@
 }
 
 + (Class);
-- (unsigned long long);
+- (unsigned long long)T;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)5;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void)erMembers;
+- (void);
+- (id)G;
+- (id)aemon.speech.result-candidate.evaluation.begin;
+- (void)clearActivatedClusterMembers;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *packets; // @synthesize packets=_packets;

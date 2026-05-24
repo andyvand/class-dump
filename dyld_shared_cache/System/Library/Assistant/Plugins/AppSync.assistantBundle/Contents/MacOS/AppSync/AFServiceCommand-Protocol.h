@@ -5,5 +5,9 @@
 //
 
 @protocol AFServiceCommand
+
+@optional
+- (void)r;
+- (void);
 @end
 

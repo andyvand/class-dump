@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     CNLabeledValue *_value;
 }
 
-- (id);
+- (id)nsupported SMS content type ;
 - (id);
 - (id);
 - (void);

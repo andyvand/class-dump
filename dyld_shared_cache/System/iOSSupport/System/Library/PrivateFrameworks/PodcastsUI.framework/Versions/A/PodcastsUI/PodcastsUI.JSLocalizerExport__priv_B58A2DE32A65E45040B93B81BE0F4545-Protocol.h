@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol PodcastsUI.JSLocalizerExport__priv_B58A2DE32A65E45040B93B81BE0F4545
+- (NSString *);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *identifier;

@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface IDSQRProtoReallocateIndication
 {
     unsigned long long _txnId;
-    NSString *_clientAddress;
-    NSData *_reallocateToken;
-    int _reason;
-    NSString *_serverAddress;
-    NSData *_serverBlob;
-    NSString *_serverIpAddressV4;
-    NSString *_serverIpAddressV6;
-    NSData *_sessionId;
-    struct {
-        unsigned int txnId:1;
-        unsigned int reason:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -36,8 +24,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)T?;
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -50,9 +38,9 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)^{ReportInfo=iiqq}24;
 - (void);
-- (void);
+- (void)on _fetchInfo];
 - (id);
 - (id);
 - (void)ËþÿÐ$;
@@ -62,20 +50,7 @@
 - (id)W( Òÿ5áWDðØÿáWd°ØÿuáWlÐÿáWl°Øÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientAddress; // @synthesize clientAddress=_clientAddress;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) _Bool hasServerBlob;
-@property(readonly, nonatomic) _Bool hasServerIpAddressV4;
-@property(readonly, nonatomic) _Bool hasServerIpAddressV6;
-@property(nonatomic) _Bool hasTxnId;
 @property(retain, nonatomic) NSData *reallocateToken; // @synthesize reallocateToken=_reallocateToken;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSString *serverAddress; // @synthesize serverAddress=_serverAddress;
-@property(retain, nonatomic) NSData *serverBlob; // @synthesize serverBlob=_serverBlob;
-@property(retain, nonatomic) NSString *serverIpAddressV4; // @synthesize serverIpAddressV4=_serverIpAddressV4;
-@property(retain, nonatomic) NSString *serverIpAddressV6; // @synthesize serverIpAddressV6=_serverIpAddressV6;
-@property(retain, nonatomic) NSData *sessionId; // @synthesize sessionId=_sessionId;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
 
 @end
 

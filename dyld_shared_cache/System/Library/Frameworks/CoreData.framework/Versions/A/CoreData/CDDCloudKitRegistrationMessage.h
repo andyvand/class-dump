@@ -6,22 +6,16 @@
 
 #import <CoreData/CDDCloudKitMessage.h>
 
-@class NSFileHandle, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CDDCloudKitRegistrationMessage : CDDCloudKitMessage
 {
     NSString *_bundleIdentifier;
-    NSFileHandle *_storeFileHandle;
-    NSString *_storePath;
-    NSString *_storeFileProtectionClass;
-    NSString *_storeType;
-    NSString *_storeConfigurationName;
-    NSString *_containerIdentifier;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)';
+- (void)08;
 - (id);
 - (void);
 

@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUserDefaults;
+@class HMDResidentStatusChannel, NSNumber, NSUserDefaults;
+@protocol HMDResidentSelectionManager;
 
 @protocol HMDResidentDeviceManagerRoarV3DataSource
+- (NSNumber *);
+- (HMDResidentStatusChannel *)Pe;
+- (id <HMDResidentSelectionManager>)l6p7;
 - (NSUserDefaults *)public key to add remote gateway;
 
 // Remaining properties
-@property(readonly) NSNumber *primaryResidentPeriodicReassertDurationSeconds;
-@property(readonly) NSNumber *primaryResidentPeriodicReassertSlopDurationSeconds;
 @property(readonly) NSUserDefaults *userDefaults;
 @end
 

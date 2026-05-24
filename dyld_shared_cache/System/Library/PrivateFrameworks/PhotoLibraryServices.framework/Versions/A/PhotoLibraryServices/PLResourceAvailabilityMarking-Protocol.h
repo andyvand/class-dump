@@ -5,6 +5,7 @@
 //
 
 @protocol PLResourceAvailabilityMarking
-- (id)ngAssetObjectIDs;
+- (id),';
+- (id)_pendingAssetObjectIDs;
 @end
 

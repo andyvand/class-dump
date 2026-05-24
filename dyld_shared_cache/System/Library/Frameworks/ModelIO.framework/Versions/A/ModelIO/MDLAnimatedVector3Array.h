@@ -20,8 +20,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (struct VtValue);
-- (unsigned long long);
-- (void);
+- (unsigned long long)K;
+- (void)Id from sessionsItemIds WHERE lastUsed < :(const id *)arg1 lastUsedExpirationDate));
 - (unsigned long long);
 - (void);
 - (unsigned long long);

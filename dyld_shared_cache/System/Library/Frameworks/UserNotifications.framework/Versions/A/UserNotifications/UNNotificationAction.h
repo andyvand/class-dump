@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, UNNotificationActionIcon;
+@class NSString;
 
 @interface UNNotificationAction
 {
     NSString *_identifier;
-    NSString *_title;
-    unsigned long long _options;
-    UNNotificationActionIcon *_icon;
-    NSString *_textInputButtonTitle;
-    NSString *_textInputPlaceholder;
-    NSURL *_url;
 }
 
 + (id);
@@ -22,11 +16,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)О;
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (unsigned long long);
 - (id);
 - (id);
@@ -38,17 +32,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)queryUnderstandingOutput;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) UNNotificationActionIcon *icon; // @synthesize icon=_icon;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
 @property(readonly, copy) NSString *textInputButtonTitle; // @synthesize textInputButtonTitle=_textInputButtonTitle;
-@property(readonly, copy) NSString *textInputPlaceholder; // @synthesize textInputPlaceholder=_textInputPlaceholder;
-@property(readonly, copy) NSString *title; // @synthesize title=_title;
-@property(readonly, copy) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIVector;
+@class CIVector;
 
 __attribute__((visibility("hidden")))
 @interface CILinearGradient : CIFilter
 {
     CIVector *inputPoint0;
-    CIVector *inputPoint1;
-    CIColor *inputColor0;
-    CIColor *inputColor1;
 }
 
 + (id);
@@ -30,10 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)evrxxxxO`Xe[bYf||||vsYjduqqqqqqqqtttttyx|l~cyyjxw~h{|~viyy~bsoybnguwpgww~¦¦¦¦zzzzL_XcAK=VP\Uc}}}}¢¢¢¢ftn}?UEjNdZpZurzmmgmenhp~~~~sspsVibs¡¡¡¡¢¢¢^vt}}}}Wh`p_cZkepjpnzzzeqoxiidlbb_bMXP\^`Z``gakQnj~°°°°¥¯¯l}zapjssrs8PB_AQE[eeeefihiU`Yd;
 
 // Remaining properties
-@property(retain, nonatomic) CIColor *inputColor0; // @synthesize inputColor0;
-@property(retain, nonatomic) CIColor *inputColor1; // @synthesize inputColor1;
 @property(retain, nonatomic) CIVector *inputPoint0; // @synthesize inputPoint0;
-@property(retain, nonatomic) CIVector *inputPoint1; // @synthesize inputPoint1;
 
 @end
 

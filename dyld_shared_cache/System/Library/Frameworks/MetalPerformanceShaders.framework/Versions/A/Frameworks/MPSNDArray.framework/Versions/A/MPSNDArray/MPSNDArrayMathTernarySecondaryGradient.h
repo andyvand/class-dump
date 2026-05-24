@@ -12,7 +12,7 @@
 }
 
 + (const struct MPSLibraryInfo *);
-- (id);
+- (id)km;
 - (id);
 - (void);
 - (id);

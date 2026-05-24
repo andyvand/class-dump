@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CHCSVOrderedDictionary
 {
     NSArray *_keys;
-    NSArray *_values;
-    NSDictionary *_dictionary;
 }
 
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)D;
 - (id);
 - (id);
 - (id);

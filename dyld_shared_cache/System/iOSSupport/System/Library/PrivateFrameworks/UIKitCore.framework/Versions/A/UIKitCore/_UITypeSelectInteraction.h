@@ -4,55 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, UIView, _UITypeSelectFilterSystem, _UITypeSelectItem, _UITypeSelectKeyInput, _UITypeSelectKeyPressGestureRecognizer, _UITypeSelectNavigationGestureRecognizer, _UITypeSelectTouchResetGestureRecognizer;
-@protocol _UITypeSelectInteractionDelegate;
+@class NSString, _UITypeSelectKeyPressGestureRecognizer;
 
 @interface _UITypeSelectInteraction
 {
     _UITypeSelectKeyPressGestureRecognizer *_keyPressGestureRecognizer;
-    _UITypeSelectTouchResetGestureRecognizer *_didRecognizeTouchResetGestureRecognizer;
-    _UITypeSelectNavigationGestureRecognizer *_navigationGestureRecognizer;
-    NSString *_programmaticInput;
-    double _defaultTimeout;
-    NSTimer *_timer;
-    _Bool _noMatch;
-    _UITypeSelectFilterSystem *_filterSystem;
-    _UITypeSelectItem *_primaryMatch;
-    _UITypeSelectItem *_secondaryMatch;
-    _UITypeSelectKeyInput *_keyInput;
-    struct {
-        unsigned int updateSceneComponentStatePendingWindowMoveToScene:1;
-        unsigned int registrationPendingDidMoveToWindow:1;
-    } _interactionFlags;
-    _Bool _enabled;
-    _Bool _hasTimedOut;
-    UIView *_view;
-    id <_UITypeSelectInteractionDelegate> _delegate;
-    NSString *_currentInput;
-    long long _inputMethod;
 }
 
-+ (_Bool);
++ (_Bool);
 + (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)32@40B48q52;
+- (void)tring"40@"NSData"48@"NSError"56;
+- (void)updateAttachment:(id)arg1;
+- (void)storageContext;
+- (void)setPosterWasRemoved: /* Error: Ran out of types for this method. */;
+- (void)senderRegistrationProperties;
+- (void)scheduleGUIDs:(id)arg1 flag:lane:reason:userInfo:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)scheduleFullReindexWithContext:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)removeObjectFromAnalyticSyncDatesDictionaryForKey: /* Error: Ran out of types for this method. */;
+- (void)registerStore:(id)arg1 asType: /* Error: Ran out of types for this method. */;
+- (void)_postFMLFriendshipChangeForHandleID:handleType:updateType:isFromMessages: /* Error: Ran out of types for this method. */;
+- (void)_login_checkUsernameAndPasswordWithAccount:(id)arg1;
+- (void)_itemsForMessageRecords:(id)arg1 handleID:useAttachmentCache:shouldLoadAttachments:reverseOrder: /* Error: Ran out of types for this method. */;
+- (void)_handleFileTransfer:(id)arg1 updatedWithProperties:isStickerReposition:repositionedLocally: /* Error: Ran out of types for this method. */;
+- (void)R,N,V_chatStatusChanges;
 - (void);
 - (void);
 - (_Bool);
@@ -60,46 +39,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)potentially re-inviting senderHandleID %@ fromHandleID %@;
 - (id);
-- (void);
+- (void)ges! syndicationIdentifier:(id)arg1 %@;
 - (long long);
-- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (void)buildRequiredOnlyWithIdentifier:(_Bool)arg1 withApplicationRules: /* Error: Ran out of types for this method. */;
+- (_Bool)Z;
+- (void)hasInTransition;
 - (id);
 - (_Bool);
 - (_Bool)!$@ùq\°1Â0@ù
 × ;
-- (void)oller;
-- (id)ferredSizesWithUpdate:(id)arg1;
-- (_Bool)ntPoint;
-- (id)f;
+- (void)actionSelectionController;
+- (id)_rebasedPreferredSizesWithUpdate:(id)arg1;
+- (_Bool)_extentPoint;
+- (id)__didHandoff;
 - (void)finishObserving;
 - (void)ed to create unarchiver for formatting style attributes:(id)arg1 %@;
 - (void);
-- (void)oviderC;
+- (void)So24_UIToolbarVisualProviderC;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *currentInput; // @synthesize currentInput=_currentInput;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <_UITypeSelectInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) _Bool hasTimedOut; // @synthesize hasTimedOut=_hasTimedOut;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long inputMethod; // @synthesize inputMethod=_inputMethod;
-@property(readonly, nonatomic) _Bool registrationPendingDidMoveToWindow;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool updateSceneComponentStatePendingWindowMoveToScene;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

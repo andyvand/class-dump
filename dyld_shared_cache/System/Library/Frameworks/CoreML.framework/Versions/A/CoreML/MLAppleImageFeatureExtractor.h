@@ -6,15 +6,11 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLAppleImageFeatureExtractorParameters, NSArray, NSString;
+@class MLAppleImageFeatureExtractorParameters, NSString;
 
 @interface MLAppleImageFeatureExtractor : MLModel
 {
     NSString *_inputFeatureName;
-    NSArray *_outputFeatureName;
-    long long _outputDataType;
-    int _extractorType;
-    MLAppleImageFeatureExtractorParameters *_parameters;
 }
 
 + (id);
@@ -27,14 +23,7 @@
 - (void)%d.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) MLAppleImageFeatureExtractorParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

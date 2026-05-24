@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, RPCompanionLinkClient;
+@class RPCompanionLinkClient;
 
 __attribute__((visibility("hidden")))
 @interface HMDRapportDeviceClientWrapper
 {
     RPCompanionLinkClient *_client;
-    long long _activateState;
-    NSMutableArray *_requestQueue;
 }
 
 + (id)¤ì^B;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)CFArrayCreateMutable;
+- (void)!;
 - (id)ô÷Õþÿÿÿÿx;
-- (void)erAddSceneEventCounter;
+- (void)HMDLogEventUserActivityAnalyzerAddSceneEventCounter;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

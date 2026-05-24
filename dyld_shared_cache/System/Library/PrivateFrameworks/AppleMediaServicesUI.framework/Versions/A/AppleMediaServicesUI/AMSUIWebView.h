@@ -6,41 +6,36 @@
 
 #import <AppleMediaServicesUI/AMSUICommonView.h>
 
-@class AMSBinaryPromise, AMSUIWebClientContext, NSArray, NSString, WKWebView;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebView : AMSUICommonView
 {
     _Bool _contentLoaded;
-    WKWebView *_underlyingWebView;
-    NSArray *_baseScripts;
-    AMSBinaryPromise *_contentRulesPromise;
-    AMSUIWebClientContext *_context;
-    AMSBinaryPromise *_currentLoadPromise;
 }
 
-+ (id);
-- (void);
++ (id)igrator _retryQuarantinedAssetsAndFixResourceRelation:(id)arg1 ];
+- (void)DDSInterface",R,N,V_sharedInstance;
+- (id)egate;
+- (void)"<DDSAssetProviding>",R,N,V_provider;
+- (void)ate auto asset for query:(id)arg1 %{public}@;
+- (void)asset update status failed for asset:(id)arg1 %{public}@ with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)updating it again;
+- (id)}@);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)ate];
+- (id)DDSUAFAssetProviderErrorDomain;
+- (id)as catalog update is failed;
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id)Sk;
+- (void)_ք;
 - (void);
 - (void);
 - (void);
@@ -56,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)s;
 - (double);
 - (void);
 - (void);
@@ -69,20 +64,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSArray *baseScripts; // @synthesize baseScripts=_baseScripts;
-@property double bottomInset;
-@property(readonly) _Bool contentLoaded; // @synthesize contentLoaded=_contentLoaded;
-@property(retain) AMSBinaryPromise *contentRulesPromise; // @synthesize contentRulesPromise=_contentRulesPromise;
-@property __weak AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(retain) AMSBinaryPromise *currentLoadPromise; // @synthesize currentLoadPromise=_currentLoadPromise;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property double topInset;
-@property(readonly) WKWebView *underlyingWebView; // @synthesize underlyingWebView=_underlyingWebView;
 
 @end
 

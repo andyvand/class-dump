@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, _HMContext;
+@class _HMContext;
 
 @interface __HMActiveAssertion
 {
     _HMContext *_context;
-    NSUUID *_messageTargetUUID;
-    NSUUID *_UUID;
 }
 
 - (id);
@@ -18,14 +16,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (void)CameraUserNotificationSettings",C,V_notificationSettings;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
 
 @end
 

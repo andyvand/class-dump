@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMObject.h>
 
-@class DOMCSSStyleSheet, NSString;
-
 @interface DOMCSSRule : DOMObject
 {
 }
@@ -16,13 +14,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)%{public}@] [%{public}@] Failed to remove data stored with 'after first unlock' attribute from keychain. Status:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned short);
 
 // Remaining properties
-@property(copy) NSString *cssText;
-@property(readonly) DOMCSSRule *parentRule;
-@property(readonly) DOMCSSStyleSheet *parentStyleSheet;
 @property(readonly) unsigned short type;
 
 @end

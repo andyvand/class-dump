@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSSet;
+@class NSMutableDictionary;
 
 @interface TrackedMessageListItems
 {
@@ -12,9 +12,9 @@
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (id);
@@ -22,14 +22,11 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (void)rSegment: /* Error: Ran out of types for this method. */;
+- (unsigned long long)iso_a5_148x210mm_borderless;
+- (void)setToolTip:forSegment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSArray *itemIDs;
-@property(readonly, nonatomic) NSSet *itemIDsSet;
-@property(readonly, nonatomic) NSArray *messageListItems;
 
 @end
 

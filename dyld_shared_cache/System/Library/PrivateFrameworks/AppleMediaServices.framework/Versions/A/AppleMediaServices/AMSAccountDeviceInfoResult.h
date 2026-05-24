@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSDictionary, NSNumber;
+@class ACAccount, NSDictionary;
 
 @interface AMSAccountDeviceInfoResult
 {
     ACAccount *_account;
-    NSDictionary *_rawResult;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)cking invitability for handle:%@ fromHandle:%@ /* Error: Ran out of types for this method. */;
+- (id)MessageType;
 - (void)µýýrsËHÓ®ü ÙÄµu4:LîX1ßjÈØR7X½ÅÏ21iÈQ¢lYÏÇþ²rÔ±íHÇû··9¶oÂ+#X¹+Vd¤ÓëfÊ?ÀTUútO²LÚMQ3x0ú^>tsØýÈ~¦ÿkÌ<¿Bª¦àôv¸¥ÛºïIZù1±óéþÍ¤îPÂK#³Â©óA;öË_AL¼ò /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) NSNumber *isBundleOwner;
 @property(readonly) NSDictionary *rawResult; // @synthesize rawResult=_rawResult;
 
 @end

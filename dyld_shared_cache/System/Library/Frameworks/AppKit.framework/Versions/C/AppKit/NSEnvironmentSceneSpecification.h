@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NSEnvironmentSceneSpecification
 {
 }
 
 - (_Bool);
-- (id);
+- (id)index ON cfurl_cache_blob_data(entry_ID);;
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *defaultExtensions;
 @property(nonatomic, readonly) _Bool isAppKitSubclass;
 
 @end

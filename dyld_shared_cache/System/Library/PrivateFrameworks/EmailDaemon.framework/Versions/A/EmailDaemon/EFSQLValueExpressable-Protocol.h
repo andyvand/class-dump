@@ -7,6 +7,6 @@
 @protocol EFSQLValueExpressable;
 
 @protocol EFSQLValueExpressable
-- (id <EFSQLValueExpressable>)thDatabase:hookRegistry: /* Error: Ran out of types for this method. */;
+- (id <EFSQLValueExpressable>)initWithDatabase:hookRegistry: /* Error: Ran out of types for this method. */;
 @end
 

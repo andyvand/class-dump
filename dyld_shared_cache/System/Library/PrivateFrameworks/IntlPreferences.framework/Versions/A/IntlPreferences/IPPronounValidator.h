@@ -4,50 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSRegularExpression, NSString;
+@class NSMutableArray, NSRegularExpression;
 
 @interface IPPronounValidator
 {
     NSRegularExpression *_validationRegex;
-    long long _maxPronounLength;
-    NSArray *_displayedMorphologies;
-    NSArray *_exampleStrings;
-    NSArray *_examplePlaceholders;
-    NSString *_language;
-    NSMutableArray *_rememberedPronouns;
-    NSArray *_knownPronouns;
-    NSString *_propertyPreferenceName;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)childNodeWithName: /* Error: Ran out of types for this method. */;
++ (id)automaticallyAdjustsShadowProjection;
++ (id)animationDidStart;
++ (_Bool)_windowBackingDidChange: /* Error: Ran out of types for this method. */;
++ (_Bool)_vignettingPower;
++ (_Bool)_tubeheight;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (_Bool)cylinderWithRadius:(id)arg1 height:(id)arg2 options: /* Error: Ran out of types for this method. */;
+- (void)correctiveDriverCountForCorrectiveAtIndex:(id)arg1;
+- (void)copyTextureByConvertingToCubeMapIfApplicable:(id)arg1 engineContext:needsMipmap: /* Error: Ran out of types for this method. */;
+- (void)copyFromBuffer:(long long)arg1 sourceOffset:toBuffer:destinationOffset:size: /* Error: Ran out of types for this method. */;
+- (void)convertTransform:(id)arg1 fromNode: /* Error: Ran out of types for this method. */;
+- (void)controlTextDidBeginEditing:(id)arg1;
+- (void)control:(id)arg1 textView:doCommandBySelector: /* Error: Ran out of types for this method. */;
+- (void)control:(id)arg1 textShouldEndEditing: /* Error: Ran out of types for this method. */;
+- (id)constrainedEdgeLengthTessellationDrawMeshElement:forMesh:instanceCount:renderContext: /* Error: Ran out of types for this method. */;
+- (void)constrainedEdgeLengthTessellationDrawMeshElement:(id)arg1 forMesh:instanceCount:renderContext: /* Error: Ran out of types for this method. */;
+- (id)configureStageInputOutputDescriptor:withDeformerFunction: /* Error: Ran out of types for this method. */;
+- (_Bool)coneWithHeight:(id)arg1 topRadius:bottomRadius:options: /* Error: Ran out of types for this method. */;
+- (_Bool):(id)arg1 constants:constantsHash: /* Error: Ran out of types for this method. */;
+- (id)colorMatchingComputePipelineStateForSourceColorSpace:(id)arg1 destinationColorSpace:renderContext: /* Error: Ran out of types for this method. */;
+- (long long)colorMatchSourceTexture:sourceColorSpace:destinationColorSpace:destinationTexture:renderContext: /* Error: Ran out of types for this method. */;
+- (id)checkResourceIsReachableAndReturnError: /* Error: Ran out of types for this method. */;
+- (void)buildTessellationVertexDescriptorIfNeeded;
+- (id)bufferDataSize;
+- (id)bufferAtIndices: /* Error: Ran out of types for this method. */;
+- (id)bloomIterationSpread;
+- (id)authoringEnvironmentCompanionNode;
+- (void)appliedOnCompletion;
 - (void);
 - (id);
 - (id);
@@ -56,15 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *displayedMorphologies; // @synthesize displayedMorphologies=_displayedMorphologies;
-@property(retain, nonatomic) NSArray *examplePlaceholders; // @synthesize examplePlaceholders=_examplePlaceholders;
-@property(retain, nonatomic) NSArray *exampleStrings; // @synthesize exampleStrings=_exampleStrings;
-@property(retain, nonatomic) NSArray *knownPronouns; // @synthesize knownPronouns=_knownPronouns;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(nonatomic) long long maxPronounLength; // @synthesize maxPronounLength=_maxPronounLength;
-@property(retain, nonatomic) NSString *propertyPreferenceName; // @synthesize propertyPreferenceName=_propertyPreferenceName;
 @property(retain, nonatomic) NSMutableArray *rememberedPronouns; // @synthesize rememberedPronouns=_rememberedPronouns;
-@property(retain, nonatomic) NSRegularExpression *validationRegex; // @synthesize validationRegex=_validationRegex;
 
 @end
 

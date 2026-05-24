@@ -5,5 +5,6 @@
 //
 
 @protocol WebPolicyDecisionListener
+- (void);
 @end
 

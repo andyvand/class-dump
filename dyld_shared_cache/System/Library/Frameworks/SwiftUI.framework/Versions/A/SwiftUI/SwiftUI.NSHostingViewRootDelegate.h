@@ -7,10 +7,6 @@
 @interface SwiftUI.NSHostingViewRootDelegate
 {
     id colorSchemeSeed;
-    id lastWindowAppearanceFromColorScheme;
-    id barAppearanceBridge;
-    id toolbarBridge;
-    id dockTileInvalidator;
 }
 
 @end

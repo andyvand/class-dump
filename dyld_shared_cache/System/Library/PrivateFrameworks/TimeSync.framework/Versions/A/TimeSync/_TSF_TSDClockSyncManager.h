@@ -9,7 +9,6 @@
 @interface _TSF_TSDClockSyncManager
 {
     NSMutableDictionary *_clockSyncs;
-    struct os_unfair_lock_s _clockSyncsLock;
 }
 
 + (id);

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BGNonRepeatingSystemTask, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NWURLBackgroundScheduler
 {
     NSString *_identifier;
-    BGNonRepeatingSystemTask *_task;
 }
 
 - (void)@;

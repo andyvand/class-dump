@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMHomeManager;
+
 @protocol HMHomeManagerDelegate
+
+@optional
+- (void);
+- (void)validatedPinConfigurationWithCurrentVersionForPinConfiguration:(HMHomeManager *)arg1;
+- (void)setPayloadKerberos:(HMHomeManager *)arg1;
+- (void);
 @end
 

@@ -9,10 +9,6 @@
 @interface CWRecommendationItem
 {
     NSString *_title;
-    NSString *_desc;
-    NSString *_recommendation;
-    NSString *_externalLink;
-    unsigned long long _issueType;
 }
 
 + (_Bool);
@@ -21,7 +17,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (unsigned long long);
 - (void);
@@ -30,16 +26,12 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)t;
 
 // Remaining properties
-@property(copy) NSString *desc; // @synthesize desc=_desc;
-@property(copy) NSString *externalLink; // @synthesize externalLink=_externalLink;
-@property unsigned long long issueType; // @synthesize issueType=_issueType;
-@property(copy) NSString *recommendation; // @synthesize recommendation=_recommendation;
 @property(copy) NSString *title; // @synthesize title=_title;
 
 @end

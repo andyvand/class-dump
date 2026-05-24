@@ -7,7 +7,7 @@
 @class NSTouchBar;
 
 @protocol NSTouchBarProvider
-- (NSTouchBar *):withView: /* Error: Ran out of types for this method. */;
+- (NSTouchBar *)CalAlignBottomOfView:withView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSTouchBar *touchBar;

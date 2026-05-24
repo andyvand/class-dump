@@ -11,12 +11,6 @@
 @interface PKDiscoveryTextBlockShelf : PKDiscoveryShelf
 {
     long long _style;
-    NSString *_bodyKey;
-    NSString *_ledeKey;
-    NSString *_sectionHeaderLineKey;
-    NSString *_localizedBody;
-    NSString *_localizedLede;
-    NSString *_localizedSectionHeaderLine;
 }
 
 + (_Bool)î%°1Â0@ù
@@ -24,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)J5V);
+- (id)AT;
 - (id);
 - (id);
 - (void);
@@ -36,19 +30,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id)D:(id)arg1;
-- (void)tAttestationAnonymizationSalt;
+- (_Bool)hasUserInput;
+- (void)Wj;
+- (id)_sanitizedHandleWithFromID:(id)arg1;
+- (void)accountAttestationAnonymizationSalt;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bodyKey; // @synthesize bodyKey=_bodyKey;
-@property(readonly, nonatomic) NSString *ledeKey; // @synthesize ledeKey=_ledeKey;
 @property(retain, nonatomic) NSString *localizedBody; // @synthesize localizedBody=_localizedBody;
-@property(retain, nonatomic) NSString *localizedLede; // @synthesize localizedLede=_localizedLede;
-@property(retain, nonatomic) NSString *localizedSectionHeaderLine; // @synthesize localizedSectionHeaderLine=_localizedSectionHeaderLine;
-@property(readonly, nonatomic) NSString *sectionHeaderLineKey; // @synthesize sectionHeaderLineKey=_sectionHeaderLineKey;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

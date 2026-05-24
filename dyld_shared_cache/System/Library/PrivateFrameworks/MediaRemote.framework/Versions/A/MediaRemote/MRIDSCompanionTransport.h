@@ -6,16 +6,11 @@
 
 #import <MediaRemote/MRExternalDeviceTransport.h>
 
-@class MRAVOutputDevice, MRDeviceInfo, MRIDSCompanionTransportConnection, NSError, NSString;
+@class MRAVOutputDevice, NSString;
 
 @interface MRIDSCompanionTransport : MRExternalDeviceTransport
 {
     MRAVOutputDevice *_outputDevice;
-    MRIDSCompanionTransportConnection *_connection;
-    _Bool _shouldUseSystemAuthenticationPrompt;
-    MRDeviceInfo *_deviceInfo;
-    NSError *_error;
-    NSString *_sessionUID;
 }
 
 - (_Bool);
@@ -28,14 +23,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)actionButtonPressed: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);
 - (void);
 - (id);
 - (id);
-- (void)ueueIdentifier;
+- (void)queueIdentifier;
 - (id)ncreteOutputContext sharedAudioPresentationContext]_block_invoke;
 
 // Remaining properties

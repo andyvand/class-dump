@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)I;
 
 // Remaining properties
 @property(nonatomic) __weak DeviceCollection *deviceCollection; // @synthesize deviceCollection=_deviceCollection;

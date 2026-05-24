@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPBTLETransactionIdentifier, NSData, NSObject, NSOperationQueue;
-@protocol HAPBTLEControlOutputStreamDelegate, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HAPBTLEControlOutputStream
 {
     unsigned char _type;
-    _Bool _complete;
-    _Bool _open;
-    id <HAPBTLEControlOutputStreamDelegate> _delegate;
-    HAPBTLETransactionIdentifier *_transactionIdentifier;
-    NSData *_payload;
-    unsigned long long _mtuLength;
-    double _timeoutInterval;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    unsigned long long _controlPayloadWrittenLength;
-    NSOperationQueue *_operationQueue;
 }
 
-+ (id);
++ (id)sheetml;
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -39,16 +26,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)relayNumberForContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned char);
 - (void);
-- (void);
+- (void),W,N,V_delegate;
 - (CDUnknownBlockType);
-- (id);
-- (id);
-- (void);
+- (id)nary",R,D,N;
+- (id)Baobab2,TCON;
+- (void);
 - (id);
 - (id);
 - (void)4;
@@ -58,18 +45,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)p;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
 @property(copy, nonatomic) CDUnknownBlockType completionHandler;
-@property(nonatomic) unsigned long long controlPayloadWrittenLength; // @synthesize controlPayloadWrittenLength=_controlPayloadWrittenLength;
-@property __weak id <HAPBTLEControlOutputStreamDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long mtuLength; // @synthesize mtuLength=_mtuLength;
-@property(nonatomic, getter=isOpen) _Bool open; // @synthesize open=_open;
-@property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, copy, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
-@property(readonly, nonatomic) HAPBTLETransactionIdentifier *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
-@property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end
 

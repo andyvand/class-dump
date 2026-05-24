@@ -6,49 +6,33 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, AMSUIWebSafariViewController, NSDictionary, NSString, NSURL, NSViewController;
+@class NSString, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebOpenSafariAction : AMSUIWebAction
 {
     NSURL *_URL;
-    NSString *_callbackScheme;
-    NSDictionary *_data;
-    NSViewController *_presentedViewController;
-    AMSUIWebSafariViewController *_safariViewController;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)o asset is not supported for query:(id)arg1 %{public}@;
+- (void)e:(id)arg1 (%{public}@);
+- (void)Stub:(id)arg1 addAssertionForAssetsWithQuery called (no-op);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)r asset observer;
+- (id)giving up for today;
+- (id)SpellChecker;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)one second, then release.;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
 @property(retain) NSString *callbackScheme; // @synthesize callbackScheme=_callbackScheme;
-@property(readonly) AMSUIWebClientContext *context;
-@property(retain) NSDictionary *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak NSViewController *presentedViewController; // @synthesize presentedViewController=_presentedViewController;
-@property __weak AMSUIWebSafariViewController *safariViewController; // @synthesize safariViewController=_safariViewController;
-@property(readonly) Class superclass;
 
 @end
 

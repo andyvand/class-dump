@@ -4,43 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatItem, NSArray, NSMutableArray;
+@class CKChatItem;
 
 @interface CKTranscriptCollectionViewLayoutAttributes
 {
     struct CGRect _targetFrame;
-    struct CGRect _currentFrame;
-    double _easing;
-    double _targetEasing;
-    BOOL _orientation;
-    double _initialBalloonOffsetX;
-    double _currentBalloonOffsetX;
-    struct CATransform3D _contentTransform3D;
-    double _targetCenterY;
-    double _currentCenterY;
-    double _height;
-    double _factor;
-    _Bool _hidden;
-    double _associatedVerticalShift;
-    NSMutableArray *_associatedLayoutAttributes;
-    CKTranscriptCollectionViewLayoutAttributes *_initialParentLayoutAttributes;
-    NSArray *_threadGroupLayoutAttributes;
-    CKChatItem *_chatItem;
-    _Bool _insertingReply;
-    double _parentRotationOffset;
-    struct CGSize _parentChatItemSize;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (struct CGSize);
-- (_Bool);
+- (void)initializeCryptoProperties;
+- (void)initWithWindow:(struct CGSize)arg1 intervalBeforeOpeningProgressDialog: /* Error: Ran out of types for this method. */;
+- (void)ic_setNeedsLayout;
+- (void)fontDescriptorByAddingAttributes:(id)arg1;
+- (double)Progress;
+- (struct CGSize),N,GisMathNote,V_mathNote;
+- (_Bool);
 - (id);
-- (struct CATransform3D);
-- (id);
+- (struct CATransform3D)opCGSo15NSManagedObjectCG;
+- (id)t;
 - (id);
 - (_Bool);
 - (id)1Â0@ù
@@ -49,10 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKChatItem *chatItem; // @synthesize chatItem=_chatItem;
-@property(readonly, nonatomic) struct CATransform3D contentTransform3D; // @synthesize contentTransform3D=_contentTransform3D;
-@property(nonatomic, getter=isInsertingReply) _Bool insertingReply; // @synthesize insertingReply=_insertingReply;
-@property(nonatomic) struct CGSize parentChatItemSize; // @synthesize parentChatItemSize=_parentChatItemSize;
-@property(nonatomic) double parentRotationOffset; // @synthesize parentRotationOffset=_parentRotationOffset;
 
 @end
 

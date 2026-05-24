@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssistantProperties, ODDSiriSchemaODDDictationProperties, ODDSiriSchemaODDGeneralProperties, ODDSiriSchemaODDiOSAssistantProperties, ODDSiriSchemaODDiOSGeneralProperties;
+@class ODDSiriSchemaODDGeneralProperties;
 
 @interface ODDSiriSchemaODDiOSDevicePropertiesReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDGeneralProperties *_general;
-    ODDSiriSchemaODDAssistantProperties *_assistant;
-    ODDSiriSchemaODDDictationProperties *_dictation;
-    ODDSiriSchemaODDiOSAssistantProperties *_iOSAssistant;
-    ODDSiriSchemaODDiOSGeneralProperties *_iOSGeneral;
-    _Bool _hasGeneral;
-    _Bool _hasAssistant;
-    _Bool _hasDictation;
-    _Bool _hasIOSAssistant;
-    _Bool _hasIOSGeneral;
 }
 
 - (void);
@@ -36,16 +27,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -61,17 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantProperties *assistant; // @synthesize assistant=_assistant;
-@property(retain, nonatomic) ODDSiriSchemaODDDictationProperties *dictation; // @synthesize dictation=_dictation;
 @property(retain, nonatomic) ODDSiriSchemaODDGeneralProperties *general; // @synthesize general=_general;
-@property(nonatomic) _Bool hasAssistant; // @synthesize hasAssistant=_hasAssistant;
-@property(nonatomic) _Bool hasDictation; // @synthesize hasDictation=_hasDictation;
-@property(nonatomic) _Bool hasGeneral; // @synthesize hasGeneral=_hasGeneral;
-@property(nonatomic) _Bool hasIOSAssistant; // @synthesize hasIOSAssistant=_hasIOSAssistant;
-@property(nonatomic) _Bool hasIOSGeneral; // @synthesize hasIOSGeneral=_hasIOSGeneral;
-@property(retain, nonatomic) ODDSiriSchemaODDiOSAssistantProperties *iOSAssistant; // @synthesize iOSAssistant=_iOSAssistant;
-@property(retain, nonatomic) ODDSiriSchemaODDiOSGeneralProperties *iOSGeneral; // @synthesize iOSGeneral=_iOSGeneral;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

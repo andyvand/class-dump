@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MSPublishStorageProtocol;
+
 @protocol MSPublishStorageProtocolDelegate
+- (void)domain:(id <MSPublishStorageProtocol>)arg1 %@, not configured;
+- (int)%@ for domain:(id <MSPublishStorageProtocol>)arg1 %@;
+- (void)r domain:(id <MSPublishStorageProtocol>)arg1 %@ failed with error:(int)arg2 %@;
 @end
 

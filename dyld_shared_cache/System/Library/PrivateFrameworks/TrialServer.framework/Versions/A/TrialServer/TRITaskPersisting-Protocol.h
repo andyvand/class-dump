@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
+@class NSDictionary, NSNumber;
 
 @protocol TRITaskPersisting
+- (_Bool);
+- (_Bool)F;
+- (NSNumber *)talogTimeout;
+- (unsigned long long)Aggregation;
+- (NSDictionary *)validateLivePhotoPairingIdentifierConfigurationForRequest: /* Error: Ran out of types for this method. */;
 - (NSNumber *)×°!èFùñ °1Â0@ù
 × ;
 @end

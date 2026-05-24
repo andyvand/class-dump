@@ -9,7 +9,6 @@
 @interface CalDAVGetGrantedDelegatesTaskGroup : CalDAVGetDelegatesBaseTaskGroup
 {
     _Bool _fetchPrincipalDetails;
-    int _state;
 }
 
 - (void);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool fetchPrincipalDetails; // @synthesize fetchPrincipalDetails=_fetchPrincipalDetails;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

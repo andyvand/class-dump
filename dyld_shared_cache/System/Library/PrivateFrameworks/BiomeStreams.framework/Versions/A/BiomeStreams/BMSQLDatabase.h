@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSArray;
 
 @interface BMSQLDatabase
 {
     struct os_unfair_lock_s _lock;
-    NSMutableArray *_accessedColumns;
-    NSMutableDictionary *_resourceAccessAssertions;
-    _Bool _isColumnAccessLoggingEnabled;
-    NSArray *_privileges;
-    struct sqlite3 *_db;
-    NSArray *_virtualTables;
 }
 
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,17 +34,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void)ÒÓÔÕÖ×ØÙÚÛÜÝ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *accessedColumns; // @synthesize accessedColumns=_accessedColumns;
-@property(readonly, nonatomic) struct sqlite3 *db; // @synthesize db=_db;
-@property(readonly, nonatomic) _Bool isColumnAccessLoggingEnabled; // @synthesize isColumnAccessLoggingEnabled=_isColumnAccessLoggingEnabled;
 @property(readonly, copy, nonatomic) NSArray *privileges; // @synthesize privileges=_privileges;
-@property(readonly, nonatomic) NSArray *virtualTables; // @synthesize virtualTables=_virtualTables;
 
 @end
 

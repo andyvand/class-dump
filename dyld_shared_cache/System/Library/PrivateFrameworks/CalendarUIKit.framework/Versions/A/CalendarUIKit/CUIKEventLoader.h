@@ -4,83 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKOccurrenceSet, NSMutableDictionary, NSMutableSet, NSSet, NSTimeZone;
-@protocol CUIKEventLoaderDelegate, EKPredicateMonitor;
+@protocol CUIKEventLoaderDelegate;
 
 @interface CUIKEventLoader
 {
     struct os_unfair_lock_s _occurrencesLock;
-    CUIKOccurrenceSet *_loadedOccurrences;
-    NSMutableSet *_occurrencesAwaitingRefresh;
-    NSMutableSet *_newOccurrencesAwaitingRefresh;
-    NSMutableSet *_occurrencesAwaitingDeletion;
-    NSSet *_selectedCalendars;
-    unsigned long long _calendarGeneration;
-    unsigned long long _loadingCalendarGeneration;
-    unsigned int _daysOfPadding;
-    unsigned int _maxDaysToCache;
-    unsigned long long _componentForExpandingPadding;
-    double _preferredReloadStart;
-    double _preferredReloadEnd;
-    double _lastRequestedStart;
-    double _lastRequestedEnd;
-    double _loadedStart;
-    double _loadedEnd;
-    double _loadingStart;
-    double _loadingEnd;
-    id <EKPredicateMonitor> _predicateMonitor;
-    unsigned long long _loadedGeneration;
-    unsigned long long _loadingGeneration;
-    unsigned long long _predicateMonitorGeneration;
-    NSMutableDictionary *_waitersByGeneration;
-    unsigned long long _notifiedGeneration;
-    int _resultsReceived;
-    double _paddingLoadDelay;
-    int _pendingPaddingPredicateUpdates;
-    NSTimeZone *_timeZone;
-    _Bool _allowEventLocationPrediction;
-    id <CUIKEventLoaderDelegate> _delegate;
 }
 
-- (void)ªáªâªóý¨Tø	@øàªáªñªàò1	?×`!;
-- (_Bool)ÆÀ=a­!£Ç<hB¡<aU­cV­b­yRAùwVAùd­`ªÀ=`­`Âa¢uÐB Ã;
-- (void);
-- (void)ªáª;
-- (void)ªå¶ô;
-- (void)ýâ;
-- (void)AøôªàªáªñªQüò1	?×ô;
 - (void);
-- (id)ªÚð10@ù
-?×é;
-- (_Bool)ø¸Xøë¢ðÿT¨XøúªßëCòÿTÿÿ ;
-- (_Bool)
-;
-- (_Bool)(Bø¼Xøàªáªâªñªéò	?×àªôªt¼ö;
-- (void)ð10@ù
-?×é;
-- (void)ë@;
-- (void)ð	ð#ÁÚáªÌ°ÿÿÀu;
-- (unsigned long long);
-- (void)áªëï¶(ìxÓ)Ü@ô';
-- (unsigned long long);
-- (id)¿©ý;
-- (void)@ùb@9À= <¨ø©8è#;
-- (void)8è#;
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void)NqDugCvxsAqS6DX8BD3e2ecMLSfRYQ_ycw7Pqo/Library/Caches/com.apple.xbs/TemporaryDirectory.0pDcl1/Sources/SDAPI/libtextproc/libmrec/src/channel/utteranc.cpp;
+- (void)UL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLSocialGroupChange.m;
+- (void);
+- (void)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)haracterSet;
+- (void)whitespaceAndNewlineCharacterSet;
 - (void)/ya¡/yKu¡/y¡/(±¡/Gz¡/G_«²¡/yABy*°¡/y$°¡/y°¡/yACyACyACy0¢4Ê¡/Gü¡/y®z¡/GG?w¡/yAEGG_SbQo__SbQo__SbQo__ACyACyACyACyÞ/¢4a¡/GALGAPGASGtGGtGG;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowEventLocationPrediction; // @synthesize allowEventLocationPrediction=_allowEventLocationPrediction;
 @property(nonatomic) __weak id <CUIKEventLoaderDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

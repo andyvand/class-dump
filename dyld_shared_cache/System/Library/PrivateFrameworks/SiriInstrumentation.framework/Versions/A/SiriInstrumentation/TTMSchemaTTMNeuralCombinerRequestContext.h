@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, TTMSchemaTTMNeuralCombinerRequestEnded, TTMSchemaTTMNeuralCombinerRequestFailed, TTMSchemaTTMNeuralCombinerRequestStarted;
+@class TTMSchemaTTMNeuralCombinerRequestStarted;
 
 @interface TTMSchemaTTMNeuralCombinerRequestContext : SISchemaInstrumentationMessage
 {
     TTMSchemaTTMNeuralCombinerRequestStarted *_startedOrChanged;
-    TTMSchemaTTMNeuralCombinerRequestEnded *_ended;
-    TTMSchemaTTMNeuralCombinerRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,38 +18,31 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)#;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (id)SUMacControllerErrorAccessPersistedStateNotFound;
+- (id);
+- (id);
+- (void);
+- (_Bool)AUTHORITY_KEYID;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)N,V_updatedImageCommand;
+- (_Bool)e_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE error == 0 AND is_from_me == 0 AND is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT 1;;
 - (id);
 - (id);
-- (id)cyReported;
-- (id)n;
-- (void)erverFallbackDeprecated;
+- (id)deletePowerContextPolicyReported;
+- (id)_isDisambiguation;
+- (void)nlv3ServerFallbackDeprecated;
 
 // Remaining properties
-@property(retain, nonatomic) TTMSchemaTTMNeuralCombinerRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) TTMSchemaTTMNeuralCombinerRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) TTMSchemaTTMNeuralCombinerRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

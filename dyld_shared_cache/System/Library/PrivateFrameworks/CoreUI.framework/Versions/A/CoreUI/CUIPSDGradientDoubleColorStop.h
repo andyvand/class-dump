@@ -17,7 +17,7 @@
 - (struct _psdGradientColor);
 - (_Bool);
 - (id);
-- (id);
+- (id)c|);
 - (id);
 - (void);
 - (id);

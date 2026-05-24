@@ -4,66 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupSetupLatencyLogEvent
 {
     NSString *_requestType;
-    NSString *_systemUUID;
-    NSString *_deviceRole;
-    unsigned long long _totalDurationMS;
-    NSString *_errorStage;
-    NSString *_setupSessionIdentifier;
-    unsigned long long _setupRequestOption;
-    unsigned long long _totalDurationSinceAccessorySetupStartMS;
 }
 
 - (unsigned long long);
 - (id);
 - (unsigned long long);
+- (id)ext:(id)arg1 completionQueue:(id)arg2 completion:(id)arg3 ]_block_invoke_2;
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void)stManagerConfigureStateRemoved;
+- (void)HMDCloudShareTrustManagerConfigureStateRemoved;
 - (id)Z;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *deviceRole; // @synthesize deviceRole=_deviceRole;
-@property(readonly, copy, nonatomic) NSString *errorStage; // @synthesize errorStage=_errorStage;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, copy, nonatomic) NSString *requestType; // @synthesize requestType=_requestType;
-@property(readonly, nonatomic) unsigned long long setupRequestOption; // @synthesize setupRequestOption=_setupRequestOption;
-@property(readonly, copy) NSString *setupSessionIdentifier; // @synthesize setupSessionIdentifier=_setupSessionIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *systemUUID; // @synthesize systemUUID=_systemUUID;
-@property(readonly, nonatomic) unsigned long long totalDurationMS; // @synthesize totalDurationMS=_totalDurationMS;
-@property(readonly, nonatomic) unsigned long long totalDurationSinceAccessorySetupStartMS; // @synthesize totalDurationSinceAccessorySetupStartMS=_totalDurationSinceAccessorySetupStartMS;
 
 @end
 

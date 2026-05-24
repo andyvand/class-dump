@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface CSVTRejectDetectDataExtractor
 {
     float _hsThreshold;
-    float _jsThreshold;
-    float _phsThreshold;
-    float _pjsThreshold;
-    unsigned long long _jsRejectCount;
-    unsigned long long _hsRejectCount;
-    unsigned long long _spkrIdRejectCount;
-    NSMutableArray *_hsScores;
-    NSMutableArray *_jsScores;
-    NSMutableArray *_spkrIdScores;
-    NSMutableArray *_hsTimeDelta;
-    NSMutableArray *_jsTimeDelta;
-    NSMutableArray *_spkrIdTimeDelta;
 }
 
-- (id);
+- (id)ZS;
 - (unsigned long long);
 - (void);
 - (void);
@@ -32,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)\;
 - (void);
 - (float);
 - (float);
@@ -43,7 +29,7 @@
 - (id);
 - (float);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Z;
 - (void);
 - (void);
 - (void);
@@ -55,19 +41,7 @@
 - (void)EndpointerScore:pauseCounts:silencePosterior:clientSilenceFramesCountMs:clientSilenceProbability:silencePosteriorNF:serverFeaturesLatency:eagerResultEndTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long hsRejectCount; // @synthesize hsRejectCount=_hsRejectCount;
-@property(retain, nonatomic) NSMutableArray *hsScores; // @synthesize hsScores=_hsScores;
-@property(nonatomic) float hsThreshold; // @synthesize hsThreshold=_hsThreshold;
-@property(retain, nonatomic) NSMutableArray *hsTimeDelta; // @synthesize hsTimeDelta=_hsTimeDelta;
 @property(nonatomic) unsigned long long jsRejectCount; // @synthesize jsRejectCount=_jsRejectCount;
-@property(retain, nonatomic) NSMutableArray *jsScores; // @synthesize jsScores=_jsScores;
-@property(nonatomic) float jsThreshold; // @synthesize jsThreshold=_jsThreshold;
-@property(retain, nonatomic) NSMutableArray *jsTimeDelta; // @synthesize jsTimeDelta=_jsTimeDelta;
-@property(nonatomic) float phsThreshold; // @synthesize phsThreshold=_phsThreshold;
-@property(nonatomic) float pjsThreshold; // @synthesize pjsThreshold=_pjsThreshold;
-@property(nonatomic) unsigned long long spkrIdRejectCount; // @synthesize spkrIdRejectCount=_spkrIdRejectCount;
-@property(retain, nonatomic) NSMutableArray *spkrIdScores; // @synthesize spkrIdScores=_spkrIdScores;
-@property(retain, nonatomic) NSMutableArray *spkrIdTimeDelta; // @synthesize spkrIdTimeDelta=_spkrIdTimeDelta;
 
 @end
 

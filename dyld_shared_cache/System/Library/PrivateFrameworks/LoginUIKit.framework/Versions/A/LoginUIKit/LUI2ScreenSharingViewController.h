@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (void);
+- (void)TRANSACTION_SECONDARY_FUNDING_SOURCE_DEBIT_DESCRIPTION_ACCOUNT_SUFFIX_FORMAT_STRING;
 - (void);
-- (void);
-- (void);
-- (void)eachableSubnodeNamesAndReturnError:(_Bool)arg1;
+- (void)valueForKey: /* Error: Ran out of types for this method. */;
+- (void)unreachableSubnodeNamesAndReturnError:(_Bool)arg1;
 - (_Bool);
 
 // Remaining properties

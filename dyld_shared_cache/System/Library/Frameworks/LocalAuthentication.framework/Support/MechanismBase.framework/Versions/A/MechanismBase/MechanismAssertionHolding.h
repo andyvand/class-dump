@@ -11,11 +11,12 @@
     id _object;
 }
 
+- (id)y be called after initialize();
+- (void)rictly positive
+;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)"7;
 
 // Remaining properties
 @property(readonly, nonatomic) id object; // @synthesize object=_object;

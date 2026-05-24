@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID, USPSchemaUSPMeasurementContext;
+@class SISchemaUUID;
 
 @interface USPSchemaUSPClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_uspId;
-    USPSchemaUSPMeasurementContext *_context;
-    SISchemaUUID *_sutFingerprint;
-    _Bool _hasUspId;
-    _Bool _hasContext;
-    _Bool _hasSutFingerprint;
 }
 
 - (id);
@@ -33,25 +28,19 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_removeSubgroups:(id)arg1 fromGroup: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)bundleForClass: /* Error: Ran out of types for this method. */;
+- (_Bool)r, m.handle_id, m.subject, m.country, m.attributedBody, m.version, m.type, m.service, m.account, m.account_guid, m.error, m.date, m.date_read, m.date_delivered, m.is_delivered, m.is_finished, m.is_emote, m.is_from_me, m.is_empty, m.is_delayed, m.is_auto_reply, m.is_prepared, m.is_read, m.is_system_message, m.is_sent, m.has_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INDEXED BY message_idx_isRead_isFromMe_itemType  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.ROWID > ?  AND m.is_read == 0  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.date DESC, m.ROWID DESC LIMIT ?;;
 - (void);
 - (id);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id)nstant;
-- (id)act;
+- (id)deleteSymptomsCellularInstant;
+- (id)_peopleSuggesterScoreSumForContact;
 - (_Bool)eProfileOnboarded;
 - (void)ted;
 
 // Remaining properties
-@property(retain, nonatomic) USPSchemaUSPMeasurementContext *context; // @synthesize context=_context;
-@property(nonatomic) _Bool hasContext; // @synthesize hasContext=_hasContext;
-@property(nonatomic) _Bool hasSutFingerprint; // @synthesize hasSutFingerprint=_hasSutFingerprint;
-@property(nonatomic) _Bool hasUspId; // @synthesize hasUspId=_hasUspId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *sutFingerprint; // @synthesize sutFingerprint=_sutFingerprint;
 @property(retain, nonatomic) SISchemaUUID *uspId; // @synthesize uspId=_uspId;
 
 @end

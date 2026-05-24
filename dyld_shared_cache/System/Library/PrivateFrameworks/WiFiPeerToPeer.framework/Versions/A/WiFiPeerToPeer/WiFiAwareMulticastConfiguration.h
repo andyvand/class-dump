@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, WiFiMACAddress;
+@class WiFiMACAddress;
 
 @interface WiFiAwareMulticastConfiguration
 {
     _Bool _dynamicLinkRate;
-    WiFiMACAddress *_multicastAddress;
-    long long _keyExchangeOverMedium;
-    NSData *_gtkKey;
-    NSData *_igtkKey;
-    NSData *_keyBlob;
 }
 
 + (_Bool);
@@ -39,11 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool dynamicLinkRate; // @synthesize dynamicLinkRate=_dynamicLinkRate;
-@property(copy, nonatomic) NSData *gtkKey; // @synthesize gtkKey=_gtkKey;
-@property(copy, nonatomic) NSData *igtkKey; // @synthesize igtkKey=_igtkKey;
-@property(copy, nonatomic) NSData *keyBlob; // @synthesize keyBlob=_keyBlob;
-@property(nonatomic) long long keyExchangeOverMedium; // @synthesize keyExchangeOverMedium=_keyExchangeOverMedium;
 @property(copy, nonatomic) WiFiMACAddress *multicastAddress; // @synthesize multicastAddress=_multicastAddress;
 
 @end

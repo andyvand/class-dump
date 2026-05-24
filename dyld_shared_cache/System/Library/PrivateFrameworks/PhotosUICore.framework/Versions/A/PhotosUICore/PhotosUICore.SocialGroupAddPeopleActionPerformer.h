@@ -9,10 +9,6 @@
 @interface PhotosUICore.SocialGroupAddPeopleActionPerformer : PXPhotoKitAssetCollectionActionPerformer
 {
     id additionalPeopleToFilter;
-    id photoLibrary;
-    id peopleToAdd;
-    id error;
-    id mutationActionDelegate;
 }
 
 - (id);

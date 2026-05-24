@@ -7,24 +7,6 @@
 @interface BlastDoor.CSDMProtoConversation._StorageClass__priv_E954D71DD385455E8AA8CD6D25163487
 {
     id _version;
-    id _uuidstring;
-    id _groupUuidstring;
-    id _messagesGroupUuidstring;
-    id _locallyCreated;
-    id _initiator;
-    id _localMember;
-    id _remoteMembers;
-    id _activeRemoteParticipants;
-    id _activitySessions;
-    id _link;
-    id _reportData;
-    id _conversationProviderIdentifier;
-    id _otherInvitedHandles;
-    id _lightweightMembers;
-    id _activeLightweightParticipants;
-    id _highlightIdentifier;
-    id _stagedActivitySession;
-    id _avMode;
 }
 
 @end

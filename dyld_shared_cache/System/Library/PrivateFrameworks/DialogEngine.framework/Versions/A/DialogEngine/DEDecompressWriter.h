@@ -10,9 +10,6 @@
 @interface DEDecompressWriter
 {
     _Bool _streamInitialized;
-    _Bool _streamEnded;
-    NSObject<DEWriter> *_writer;
-    struct z_stream_s _stream;
 }
 
 - (_Bool);
@@ -22,19 +19,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);
 - (struct z_stream_s);
 - (void);
 - (void)Ð·Ð´Ð°Ð½ÐµÑ;
-- (void)fault_deleteIN4YAML6detail6memoryEEE;
+- (void)NSt3__114default_deleteIN4YAML6detail6memoryEEE;
 
 // Remaining properties
-@property(nonatomic) struct z_stream_s stream; // @synthesize stream=_stream;
-@property(nonatomic) _Bool streamEnded; // @synthesize streamEnded=_streamEnded;
-@property(nonatomic) _Bool streamInitialized; // @synthesize streamInitialized=_streamInitialized;
 @property(retain, nonatomic) NSObject<DEWriter> *writer; // @synthesize writer=_writer;
 
 @end

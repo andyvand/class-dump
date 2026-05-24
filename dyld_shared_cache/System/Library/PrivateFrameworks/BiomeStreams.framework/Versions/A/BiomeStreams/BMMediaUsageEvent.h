@@ -6,14 +6,11 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSDateInterval, NSString, NSURL;
+@class NSURL;
 
 @interface BMMediaUsageEvent : BMEventBase
 {
     _Bool _usageTrusted;
-    NSURL *_URL;
-    NSURL *_mediaURL;
-    NSString *_safariProfileID;
 }
 
 + (id);
@@ -35,21 +32,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) double absoluteTimestamp; // @dynamic absoluteTimestamp;
-@property(copy, nonatomic) NSString *bundleID; // @dynamic bundleID;
-@property(copy, nonatomic) NSDateInterval *dateInterval; // @dynamic dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double duration; // @dynamic duration;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSURL *mediaURL; // @synthesize mediaURL=_mediaURL;
-@property(copy, nonatomic) NSString *safariProfileID; // @synthesize safariProfileID=_safariProfileID;
-@property(nonatomic, getter=isStarting) _Bool starting; // @dynamic starting;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isUsageTrusted) _Bool usageTrusted; // @synthesize usageTrusted=_usageTrusted;
 
 @end
 

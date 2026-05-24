@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage, WBSTemplateIconMonogramConfiguration;
+@class WBSTemplateIconMonogramConfiguration;
 
 @interface _WBSStartPageFallbackIconCacheIdentifier
 {
     WBSTemplateIconMonogramConfiguration *_configuration;
-    NSString *_title;
-    NSString *_url;
-    UIImage *_baseImage;
-    struct CGSize _imageSize;
 }
 
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)P;
+- (unsigned long long)THEN CAST(message.date AS float) / 1e9 + 978307200 + (
+                CASE WHEN message.is_read
+                    THEN ;
+- (_Bool);
 - (id);
 - (id);
 - (struct CGSize);
-- (id);
-- (void)led: /* Error: Ran out of types for this method. */;
+- (id)unarchivedObjectOfClass:fromData:error: /* Error: Ran out of types for this method. */;
+- (void)safari_wkFeatureEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *baseImage; // @synthesize baseImage=_baseImage;
 @property(readonly, nonatomic) WBSTemplateIconMonogramConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

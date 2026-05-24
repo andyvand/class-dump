@@ -5,6 +5,7 @@
 //
 
 @protocol _UIFBSSceneCatalystHost
+- (long long)rk/Versions/C/Foundation;
 
 // Remaining properties
 @property(nonatomic) long long hostingWindowCreationBehavior;

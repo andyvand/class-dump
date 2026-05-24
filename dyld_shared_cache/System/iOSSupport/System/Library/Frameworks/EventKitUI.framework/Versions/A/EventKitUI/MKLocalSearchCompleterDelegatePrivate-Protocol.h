@@ -8,6 +8,10 @@
 
 @protocol MKLocalSearchCompleterDelegatePrivate
 
+@optional
+- (id <GEOMapServiceCompletionTicket>);
+- (void)f;
+
 // Remaining properties
 @property(retain, nonatomic) id <GEOMapServiceCompletionTicket> lastTicket;
 // Preceding property had unknown attributes: ?

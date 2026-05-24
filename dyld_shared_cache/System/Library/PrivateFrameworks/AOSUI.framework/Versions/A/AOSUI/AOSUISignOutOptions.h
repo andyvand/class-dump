@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface AOSUISignOutOptions
 {
     _Bool _shouldRetainAppleAccount;
-    NSDictionary *_dataClassActions;
 }
 
 - (_Bool);
@@ -20,7 +17,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSDictionary *dataClassActions; // @synthesize dataClassActions=_dataClassActions;
 @property(nonatomic) _Bool shouldRetainAppleAccount; // @synthesize shouldRetainAppleAccount=_shouldRetainAppleAccount;
 
 @end

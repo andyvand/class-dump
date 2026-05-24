@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AMSTreatmentArea
 {
     _Bool _cacheable;
-    NSString *_identifier;
 }
 
 + (_Bool);
-- (void);
+- (void)0:(_Bool)arg1 8q16@24;
 - (id);
-- (id);
+- (id)@) is a candidate for international filtering.;
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)ation"16@0:(id)arg1 8;
+- (void)!;
 - (id);
 - (id);
 - (_Bool)|0;
@@ -27,7 +24,6 @@
 
 // Remaining properties
 @property _Bool cacheable; // @synthesize cacheable=_cacheable;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

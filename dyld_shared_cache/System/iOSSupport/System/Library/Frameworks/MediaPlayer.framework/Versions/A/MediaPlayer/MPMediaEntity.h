@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIPMultiverseIdentifier, MPMediaItem, MPMediaLibrary, NSString;
+@class MIPMultiverseIdentifier, MPMediaLibrary;
 
 @interface MPMediaEntity
 {
     MIPMultiverseIdentifier *_multiverseIdentifier;
-    NSString *__tokenBinaryIdentifierAsString;
 }
 
 + (_Bool);
@@ -18,15 +17,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (void)objectProcedure;
+- (id)fetchRelative;
+- (id)_varattno;
 - (id);
 - (unsigned long long);
+- (id):(id)arg1 activeRemoteParticipantsChangedForConversation:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id)P;
+- (unsigned long long)initWithEventIdentifier:objectID:title:location:calendar:startDate:endDate:availability:externalURI:attendees:organizerName:eventFlags:notes:url:structuredLocationTitle:structuredLocationAddress:structuredLocationCoordinates:suggestedEventCategory: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -34,11 +33,7 @@
 - (void)ng",R,N,V_requestingBundleVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_tokenBinaryIdentifierAsString; // @synthesize _tokenBinaryIdentifierAsString=__tokenBinaryIdentifierAsString;
 @property(readonly, nonatomic) MPMediaLibrary *mediaLibrary;
-@property(readonly, nonatomic) MIPMultiverseIdentifier *multiverseIdentifier; // @synthesize multiverseIdentifier=_multiverseIdentifier;
-@property(readonly, nonatomic) unsigned long long persistentID;
-@property(readonly, nonatomic) MPMediaItem *representativeItem;
 
 @end
 

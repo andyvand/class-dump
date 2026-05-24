@@ -7,9 +7,6 @@
 @interface NewsFeed.LayeredMediaAssetHandlesProvider
 {
     id variantFactory;
-    id imageVariantSelector;
-    id videoVariantSelector;
-    id options;
 }
 
 @end

@@ -8,9 +8,9 @@
 {
 }
 
-+ (void)Gizmo;
++ (void)IKImageGizmo;
 - (float);
-- (float);
+- (float);
 - (float);
 - (void);
 - (void);

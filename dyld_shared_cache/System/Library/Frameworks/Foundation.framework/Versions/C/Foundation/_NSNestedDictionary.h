@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSNestedDictionary
 {
     id _locals;
-    id _bindings;
 }
 
 - (id);

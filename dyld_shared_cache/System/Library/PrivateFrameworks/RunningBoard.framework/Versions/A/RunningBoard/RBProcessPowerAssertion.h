@@ -6,13 +6,12 @@
 
 #import <RunningBoard/RBPowerAssertion.h>
 
-@class RBProcess, RBProcessState;
+@class RBProcessState;
 
 __attribute__((visibility("hidden")))
 @interface RBProcessPowerAssertion : RBPowerAssertion
 {
     RBProcessState *_state;
-    RBProcess *_process;
 }
 
 - (int);

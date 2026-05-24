@@ -9,7 +9,6 @@
 @interface Foundation.__PlistReferencingEncoderBPlist__priv_BB206CA0B38724D56C5B55865D7B7E02 : Foundation.__PlistEncoderBPlist
 {
     id encoder;
-    id reference;
 }
 
 @end

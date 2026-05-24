@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaEntity, NSString;
+@class MPMediaEntity;
 
 @interface _MPMediaLibraryEntityChange
 {
     MPMediaEntity *_entity;
-    NSString *_anchor;
-    long long _deletionType;
 }
 
-- (id);
+- (id)`BC;
 - (long long);
 - (id);
-- (void)tionary;
-- (id)PicksSingleCollectionEntity: /* Error: Ran out of types for this method. */;
+- (void)_createFilterableDictionary;
+- (id)setPicksSingleCollectionEntity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *anchor; // @synthesize anchor=_anchor;
-@property(readonly, nonatomic) long long deletionType; // @synthesize deletionType=_deletionType;
 @property(readonly, nonatomic) MPMediaEntity *entity; // @synthesize entity=_entity;
 
 @end

@@ -6,7 +6,7 @@
 
 @interface UnknownClass (Tokenize)
 - (id);
-- (id);
+- (id)requirePrivateRelayForAllNetworkTraffic;
 - (id);
 @end
 

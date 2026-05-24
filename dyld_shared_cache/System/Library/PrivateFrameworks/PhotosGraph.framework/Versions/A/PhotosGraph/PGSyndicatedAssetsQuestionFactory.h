@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)LibCall_ACMSecContextVerifyAclConstraintAndCopyRequirement;
+- (id)verifyAclConstraintInternal;
+- (id)ACMContextRemoveCredentialsByTypeAndScope;
 - (_Bool);
 - (id);
 - (id);

@@ -6,45 +6,33 @@
 
 #import <WebInspector/RWIMobileDeviceTargetBase.h>
 
-@class NSImage, NSString;
+@class NSImage;
 @protocol RWIPairableDelegate;
 
 __attribute__((visibility("hidden")))
 @interface RWINetworkPairableMobileDeviceTarget : RWIMobileDeviceTargetBase
 {
     NSImage *_icon;
-    NSImage *_symbolImage;
-    long long _deviceClass;
-    id <RWIPairableDelegate> _pairingDelegate;
-    long long _pairingState;
 }
 
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool)p;
+- (id);
+- (id)c=;
+- (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (long long);
+- (long long)f<WebKit::WebStorageNamespaceProvider>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <RWIPairableDelegate> pairingDelegate; // @synthesize pairingDelegate=_pairingDelegate;
-@property(readonly, nonatomic) long long pairingState; // @synthesize pairingState=_pairingState;
-@property(readonly) Class superclass;
 
 @end
 

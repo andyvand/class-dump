@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIHighKeyHDR
 {
     CIImage *inputImage;
-    NSNumber *inputStrength;
 }
 
 + (id);
@@ -17,13 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)gsForScale:aspectRatio: /* Error: Ran out of types for this method. */;
+- (void)semanticStyleImageSettingsForScale:aspectRatio: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputStrength; // @synthesize inputStrength;
 
 @end
 

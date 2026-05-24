@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_FinderResolvedURL
 {
     struct TFENode _node;
-    NSURL *_url;
 }
 
 - (id);

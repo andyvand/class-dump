@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID, SFLBookmark;
+@class NSDictionary, NSUUID;
 
 @protocol SFLInternalItem
-- (unsigned long long)LocalVolume;
+- (NSDictionary *),R,V_sessionContext;
+- (void)hb;
+- (void)T;
+- (void)endElement;
+- (unsigned long long)__sfl__isLocalVolume;
 
 // Remaining properties
-@property(copy) SFLBookmark *bookmark;
 @property(retain) NSUUID *identifier;
-@property(copy) NSString *listIdentifier;
-@property(copy) NSString *name;
-@property(copy) NSDictionary *properties;
-@property unsigned long long seed;
 @end
 

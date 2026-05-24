@@ -7,10 +7,9 @@
 @class HMFPairingIdentity;
 
 @protocol HMDAccessoryUserManagement
-- (HMFPairingIdentity *)ode:accessoryColorTemp:completion: /* Error: Ran out of types for this method. */;
+- (HMFPairingIdentity *)enableOrUpdateNaturalLightingCurveWithColorMode:accessoryColorTemp:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) HMFPairingIdentity *pairingIdentity;
 @property(readonly) _Bool supportsUserManagement;
 @end
 

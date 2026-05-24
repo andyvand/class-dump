@@ -14,7 +14,7 @@
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)IsEncrypted;
 - (id);
 - (id);
 

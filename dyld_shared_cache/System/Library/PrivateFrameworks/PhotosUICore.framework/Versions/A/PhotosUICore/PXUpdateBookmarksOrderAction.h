@@ -11,13 +11,11 @@
 @interface PXUpdateBookmarksOrderAction : PXPhotosAction
 {
     id <PXFastEnumeration> orderedCollections;
-    id undoOrderedBookmarks;
-    id redoOrderedBookmarks;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

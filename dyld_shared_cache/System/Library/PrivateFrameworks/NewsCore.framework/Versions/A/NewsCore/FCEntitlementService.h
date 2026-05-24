@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFMutexLock, NSMutableArray, NSObject;
-@protocol FCCoreConfigurationManager, OS_dispatch_source;
-
 @interface FCEntitlementService
 {
     _Bool _requestInProgress;
-    NSObject<OS_dispatch_source> *_entitlementRequestTimer;
-    NSMutableArray *_blocks;
-    NFMutexLock *_accessLock;
-    id <FCCoreConfigurationManager> _configurationManager;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)cacheItemWithCursor:radius:softness:showSoftness:style:scale: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)gRequestForMapItem:(id)arg1 '%@';
 - (id);
 - (void);
 - (void);
@@ -33,10 +26,6 @@
 - (void)s/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNewsAppConfig.m;
 
 // Remaining properties
-@property(retain, nonatomic) NFMutexLock *accessLock; // @synthesize accessLock=_accessLock;
-@property(retain, nonatomic) NSMutableArray *blocks; // @synthesize blocks=_blocks;
-@property(readonly, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *entitlementRequestTimer; // @synthesize entitlementRequestTimer=_entitlementRequestTimer;
 @property(nonatomic) _Bool requestInProgress; // @synthesize requestInProgress=_requestInProgress;
 
 @end

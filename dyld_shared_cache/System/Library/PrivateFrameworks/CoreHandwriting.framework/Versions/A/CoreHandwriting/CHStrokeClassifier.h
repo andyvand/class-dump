@@ -9,7 +9,6 @@
 @interface CHStrokeClassifier
 {
     id <CHStrokeProvider> _strokeProvider;
-    long long _forcedStrokeClass;
 }
 
 + (id);
@@ -25,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long forcedStrokeClass; // @synthesize forcedStrokeClass=_forcedStrokeClass;
 @property(readonly, nonatomic) id <CHStrokeProvider> strokeProvider; // @synthesize strokeProvider=_strokeProvider;
 
 @end

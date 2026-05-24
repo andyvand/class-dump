@@ -13,16 +13,16 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (struct UIEdgeInsets);
-- (double);
+- (double)|;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (unsigned long long);
-- (double);
-- (id);
-- (double);
-- (unsigned long long);
-- (double);
+- (unsigned long long)e conditions allow sync:(id)arg1 %@ deviceConditionsToCheck %@ currentBatchCount %@;
+- (double)g transcript background command %@;
+- (id)atch ***;
+- (double)que records;
+- (unsigned long long)Error"16;
+- (double)@"IMDServiceSession"8Q16^B24;
 - (double);
 - (id);
 - (void);

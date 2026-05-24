@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SXFeatures
 {
     _Bool _newAdsEnabled;
-    _Bool _limitTextSelectionEnabled;
-    _Bool _writingToolsDisabled;
-    int _textSelectionLimit;
 }
 
 - (_Bool);
@@ -21,17 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool limitTextSelectionEnabled; // @synthesize limitTextSelectionEnabled=_limitTextSelectionEnabled;
 @property(readonly, nonatomic) _Bool newAdsEnabled; // @synthesize newAdsEnabled=_newAdsEnabled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int textSelectionLimit; // @synthesize textSelectionLimit=_textSelectionLimit;
-@property(readonly, nonatomic) _Bool writingToolsDisabled; // @synthesize writingToolsDisabled=_writingToolsDisabled;
 
 @end
 

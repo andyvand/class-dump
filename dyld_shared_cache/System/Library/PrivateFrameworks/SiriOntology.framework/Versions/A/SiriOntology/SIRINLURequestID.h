@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface SIRINLURequestID
 {
     NSString *_idAsString;
-    NSUUID *_nluRequestId;
-    NSString *_connectionID;
 }
 
 + (_Bool);
@@ -21,16 +19,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void)tion;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *connectionID; // @synthesize connectionID=_connectionID;
 @property(retain, nonatomic) NSString *idAsString; // @synthesize idAsString=_idAsString;
-@property(retain, nonatomic) NSUUID *nluRequestId; // @synthesize nluRequestId=_nluRequestId;
 
 @end
 

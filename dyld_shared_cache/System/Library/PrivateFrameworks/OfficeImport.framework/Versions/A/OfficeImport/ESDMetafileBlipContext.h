@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface ESDMetafileBlipContext : ESDBlipContext
 {
     unsigned int mCb;
-    unsigned int defaultHeaderSize;
 }
 
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (unsigned int);
 

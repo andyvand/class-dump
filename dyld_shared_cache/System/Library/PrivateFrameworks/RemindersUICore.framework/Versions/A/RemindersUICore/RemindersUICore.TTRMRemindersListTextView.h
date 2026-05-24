@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -32,10 +32,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool drawsBackground;
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
 @property(nonatomic, readonly) NSUndoManager *undoManager;
-@property(nonatomic) _Bool usesFontPanel;
 
 @end
 

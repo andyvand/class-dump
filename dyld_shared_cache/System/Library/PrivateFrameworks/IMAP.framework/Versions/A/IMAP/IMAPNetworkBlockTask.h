@@ -6,39 +6,31 @@
 
 #import <IMAP/IMAPTask.h>
 
-@class IMAPNetworkBlockOperation, IMAPTaskManager, NSString;
+@class IMAPNetworkBlockOperation;
 
 @interface IMAPNetworkBlockTask : IMAPTask
 {
     IMAPNetworkBlockOperation *_operation;
-    CDUnknownBlockType _block;
-    IMAPTaskManager *_taskManager;
-    long long _taskPriority;
-    NSString *_blockDescription;
 }
 
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)=*	;
+- (id);
+- (void)A;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)x9;
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)(;
 - (void);
 - (id);
 - (void)};
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly, copy, nonatomic) NSString *blockDescription; // @synthesize blockDescription=_blockDescription;
 @property(retain, nonatomic) IMAPNetworkBlockOperation *operation; // @synthesize operation=_operation;
-@property(readonly, nonatomic) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
-@property(readonly, nonatomic) long long taskPriority; // @synthesize taskPriority=_taskPriority;
 
 @end
 

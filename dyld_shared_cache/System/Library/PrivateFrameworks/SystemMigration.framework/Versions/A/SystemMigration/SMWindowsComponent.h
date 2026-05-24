@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSImage, NSMutableArray, NSNumber, NSString;
+@class NSMutableArray;
 
 @interface SMWindowsComponent
 {
     _Bool isContainer;
-    NSNumber *identifier;
-    long long type;
-    NSString *name;
-    NSNumber *size;
-    NSImage *image;
-    NSDictionary *attributes;
-    NSMutableArray *subcomponents;
-    NSString *localizedDescription;
 }
 
 + (id);
 + (id);
 + (long long);
-+ (_Bool);
++ (_Bool)tf;
 - (id);
 - (_Bool);
 - (void);
@@ -37,30 +29,22 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void),';
 - (long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)toolbarExtendedBackgroundView;
 - (id);
 - (id);
-- (id);
+- (id)proxyFromConnection:proxyHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, retain) NSDictionary *attributes; // @synthesize attributes;
-@property(readonly, retain) NSNumber *identifier; // @synthesize identifier;
-@property(readonly, retain) NSImage *image; // @synthesize image;
-@property _Bool isContainer; // @synthesize isContainer;
-@property(readonly, retain) NSString *localizedDescription; // @synthesize localizedDescription;
-@property(readonly, retain) NSString *name; // @synthesize name;
-@property(retain) NSNumber *size; // @synthesize size;
 @property(retain) NSMutableArray *subcomponents; // @synthesize subcomponents;
-@property(readonly) long long type; // @synthesize type;
 
 @end
 

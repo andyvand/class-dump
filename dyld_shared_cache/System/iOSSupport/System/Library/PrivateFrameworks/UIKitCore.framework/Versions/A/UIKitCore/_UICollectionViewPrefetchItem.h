@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionReusableView, UICollectionViewLayoutAttributes;
+@class UICollectionViewLayoutAttributes;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewPrefetchItem
@@ -14,20 +14,18 @@ __attribute__((visibility("hidden")))
         unsigned int needsPreferredAttributesUpdate:1;
         unsigned int needsReconfigure:1;
     } _flags;
-    UICollectionViewLayoutAttributes *_attributes;
-    UICollectionReusableView *_view;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id)b1"typeSelectState"b2};
-- (void)dMode;
+- (void)preBackdropBlendMode;
 - (id)NSMutableArray",&,V_secondaryRepresentations;
-- (void)lowSleep:(id)arg1;
+- (void)set_allowSleep:(id)arg1;
 - (void)ns:instead. /* Error: Ran out of types for this method. */;
 - (id)This is likely a framework bug. ;
 - (_Bool);
@@ -35,10 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionViewLayoutAttributes *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) _Bool needsLayoutAttributesUpdate;
-@property(readonly, nonatomic) _Bool needsPreferredAttributesUpdate;
-@property(readonly, nonatomic) _Bool needsReconfigure;
-@property(retain, nonatomic) UICollectionReusableView *view; // @synthesize view=_view;
 
 @end
 

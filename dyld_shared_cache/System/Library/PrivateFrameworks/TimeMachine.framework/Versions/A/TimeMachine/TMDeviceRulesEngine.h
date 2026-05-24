@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDSPathFilter, NSArray, NSSet, TMDisk, TMSpotlightOracle;
+@class NSSet, TMDisk;
 
 @interface TMDeviceRulesEngine
 {
     TMDisk *_disk;
-    MDSPathFilter *_baseFilter;
-    MDSPathFilter *_customExclusionsFilter;
-    TMSpotlightOracle *_spotlightOracle;
-    NSSet *_stickyExclusionPaths;
-    struct _TMRulesEngineStatistics _stats;
-    struct os_unfair_lock_s _stickyExclusionCacheLock;
-    struct _CFBurstTrie *_undiscoveredStickyExclusionCache;
-    NSArray *_neverEnumeratePaths;
 }
 
-- (id);
-- (void);
+- (id)@;
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -35,9 +27,9 @@
 - (id);
 - (id);
 - (long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)h;
 - (void);
 - (long long);
 - (void);
@@ -47,17 +39,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)_;
 - (struct _TMRulesEngineStatistics);
 - (void);
 
 // Remaining properties
-@property(readonly) MDSPathFilter *baseFilter; // @synthesize baseFilter=_baseFilter;
-@property(readonly) MDSPathFilter *customExclusionsFilter; // @synthesize customExclusionsFilter=_customExclusionsFilter;
-@property(readonly) TMDisk *disk; // @synthesize disk=_disk;
-@property(readonly, copy) NSArray *neverEnumeratePaths; // @synthesize neverEnumeratePaths=_neverEnumeratePaths;
-@property(readonly) TMSpotlightOracle *spotlightOracle; // @synthesize spotlightOracle=_spotlightOracle;
-@property(readonly) struct _TMRulesEngineStatistics statistics; // @synthesize statistics=_stats;
 @property(copy) NSSet *stickyExclusionPaths; // @synthesize stickyExclusionPaths=_stickyExclusionPaths;
 
 @end

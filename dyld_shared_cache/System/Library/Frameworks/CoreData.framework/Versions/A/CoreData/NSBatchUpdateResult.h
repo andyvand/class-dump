@@ -9,18 +9,16 @@
 @interface NSBatchUpdateResult : NSPersistentStoreResult
 {
     id _aggregatedResult;
-    unsigned long long _resultType;
 }
 
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) id result; // @synthesize result=_aggregatedResult;
-@property(readonly) unsigned long long resultType; // @synthesize resultType=_resultType;
 
 @end
 

@@ -6,32 +6,22 @@
 
 #import <CoreBrightness/CBHIDService.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CBALSService : CBHIDService
 {
     _Bool _validData;
-    double _lux;
-    _Bool _colorSupport;
-    double _x;
-    double _y;
-    double _CCT;
-    NSString *_desc;
-    unsigned long long _location;
-    unsigned long long _placement;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)7;
 - (_Bool);
 - (double);
 - (_Bool);
 - (double);
-- (void);
-- (id);
+- (void);
+- (id)'2~H1;
 - (double);
 - (unsigned long long);
 - (double)eFrameSynchronisation;
@@ -39,14 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)´;
 
 // Remaining properties
-@property(readonly) double CCT; // @synthesize CCT=_CCT;
-@property(readonly) _Bool colorSupport; // @synthesize colorSupport=_colorSupport;
-@property(readonly) unsigned long long location; // @synthesize location=_location;
-@property(readonly) double lux; // @synthesize lux=_lux;
-@property(readonly) unsigned long long placement; // @synthesize placement=_placement;
 @property(readonly) _Bool validData; // @synthesize validData=_validData;
-@property(readonly) double x; // @synthesize x=_x;
-@property(readonly) double y; // @synthesize y=_y;
 
 @end
 

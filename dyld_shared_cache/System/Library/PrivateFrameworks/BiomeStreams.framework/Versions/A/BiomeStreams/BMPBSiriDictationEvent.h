@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBSiriDictationEvent
 {
     double _absoluteTimestamp;
-    NSString *_correctedText;
-    NSString *_recognizedText;
-    CDStruct_d3e759b0 _has;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
-- (id);
+- (id)EventAttendeeModelType;
 - (id);
 - (id);
 - (void);
@@ -36,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *correctedText; // @synthesize correctedText=_correctedText;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasCorrectedText;
-@property(readonly, nonatomic) _Bool hasRecognizedText;
-@property(retain, nonatomic) NSString *recognizedText; // @synthesize recognizedText=_recognizedText;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSVisualTabPickerTileContainerDelegate
+- (void);
 @end
 

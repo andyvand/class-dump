@@ -7,15 +7,6 @@
 @interface AWDIDSRegistrationControlChosen
 {
     unsigned long long _timestamp;
-    int _registrationControlStatus;
-    int _registrationType;
-    _Bool _isInterestingRegion;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int registrationControlStatus:1;
-        unsigned int registrationType:1;
-        unsigned int isInterestingRegion:1;
-    } _has;
 }
 
 - (void);
@@ -41,18 +32,11 @@
 - (id);
 - (id);
 - (int)ptErrsTrue;
-- (void)tesRead;
+- (void)_totalBytesRead;
 - (void)$#öÿ<äoÌC;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsInterestingRegion;
-@property(nonatomic) _Bool hasRegistrationControlStatus;
-@property(nonatomic) _Bool hasRegistrationType;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool isInterestingRegion; // @synthesize isInterestingRegion=_isInterestingRegion;
-@property(nonatomic) int registrationControlStatus; // @synthesize registrationControlStatus=_registrationControlStatus;
-@property(nonatomic) int registrationType; // @synthesize registrationType=_registrationType;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

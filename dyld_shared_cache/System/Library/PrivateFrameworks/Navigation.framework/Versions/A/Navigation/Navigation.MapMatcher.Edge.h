@@ -7,9 +7,6 @@
 @interface Navigation.MapMatcher.Edge
 {
     id startRouteCoordinate;
-    id endRouteCoordinate;
-    id startLocationCoordinate;
-    id endLocationCoordinate;
 }
 
 @end

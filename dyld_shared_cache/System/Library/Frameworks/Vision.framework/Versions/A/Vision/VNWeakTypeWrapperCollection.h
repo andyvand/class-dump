@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSRecursiveLock;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VNWeakTypeWrapperCollection
 {
     NSMutableArray *_weakObjectWrappers;
-    NSRecursiveLock *_weakObjectWrappersLock;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

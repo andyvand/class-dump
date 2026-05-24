@@ -7,7 +7,6 @@
 @interface XPC._KeyedGraphEncodingNode
 {
     id keyToIndex;
-    id values;
 }
 
 @end

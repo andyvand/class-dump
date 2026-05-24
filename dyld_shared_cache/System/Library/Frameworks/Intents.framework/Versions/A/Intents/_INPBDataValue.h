@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _INPBValueMetadata;
+@class NSData;
 
 @interface _INPBDataValue
 {
     struct _has;
-    NSData *_value;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -18,11 +16,11 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void)A3 personal due to transition disabled 0x%x;
+- (id)H;
 - (id);
 - (id);
 - (_Bool)xð;
@@ -31,17 +29,7 @@
 - (id)zdQX»;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSData *value; // @synthesize value=_value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

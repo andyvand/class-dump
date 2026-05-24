@@ -10,7 +10,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)=;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *externalMediaContentIdentifier;

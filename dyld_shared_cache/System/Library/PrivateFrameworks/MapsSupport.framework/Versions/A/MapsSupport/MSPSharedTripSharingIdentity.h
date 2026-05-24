@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface MSPSharedTripSharingIdentity
 {
     _Bool _validAccount;
-    NSString *_name;
-    NSString *_handle;
-    NSArray *_aliases;
 }
 
 + (_Bool);
@@ -21,14 +16,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)];
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *aliases; // @synthesize aliases=_aliases;
-@property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic, getter=hasValidAccount) _Bool validAccount; // @synthesize validAccount=_validAccount;
 
 @end

@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAccount, IDSService;
+@class IDSAccount, IDSService, NSDictionary;
 
 @protocol IDSServiceDelegate
 
 @optional
-- (void)idExpressModeStateChange:(IDSService *)arg1 withObject:(IDSAccount *)arg2;
-- (void)cesMerchantURLForAPIType:(IDSService *)arg1 completion:(IDSAccount *)arg2;
+- (void)T);
+- (void)9q;
+- (void);
 - (void);
+- (void)session:(IDSService *)arg1 didExpressModeStateChange:(IDSAccount *)arg2 withObject:(NSDictionary *)arg3;
+- (void)paymentServicesMerchantURLForAPIType:(IDSService *)arg1 completion:(IDSAccount *)arg2;
 - (void)eAmount:(IDSService *)arg1 '%@'; ;
 @end
 

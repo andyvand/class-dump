@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection, STScreenTimeConfiguration;
+@class NSObject, NSXPCConnection;
 
 @interface STScreenTimeConfigurationObserver
 {
     NSObject *_configurationLock;
-    int _notificationToken;
-    STScreenTimeConfiguration *_configuration;
-    NSXPCConnection *_xpcConnection;
 }
 
+- (void)DefaultClientSideEngagementBoostANFMutiplier;
+- (void)DefaultClientSideEngagementBoostReduceVisibilityMultiplier;
 - (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (int)updateDataSectionIfNecessary;
+- (id)cloudOwnerPhone;
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)DELETE;
 
 // Remaining properties
-@property(retain) STScreenTimeConfiguration *configuration; // @synthesize configuration=_configuration;
-@property int notificationToken; // @synthesize notificationToken=_notificationToken;
 @property(readonly) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

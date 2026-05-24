@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TRIRolloutDeployment;
+
 @protocol TRIPushServiceConnectionMultiplexing
+- (void)te<NU:(TRIRolloutDeployment *)arg1:Histogram<long, double>>>=""{?="__ptr_"^v}} /* Error: Ran out of types for this method. */;
 @end
 

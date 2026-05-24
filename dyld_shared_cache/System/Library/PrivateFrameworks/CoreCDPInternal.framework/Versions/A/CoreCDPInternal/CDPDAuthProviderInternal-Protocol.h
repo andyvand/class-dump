@@ -5,5 +5,10 @@
 //
 
 @protocol CDPDAuthProviderInternal
+- (_Bool)VisualTabPickerTransitionCoordinator;
+- (void)BrowserToolbarItem;
+- (void)CollaborationToolbarItemDelegate;
+- (void)_authenticationServicesAgentProxy;
+- (void);
 @end
 

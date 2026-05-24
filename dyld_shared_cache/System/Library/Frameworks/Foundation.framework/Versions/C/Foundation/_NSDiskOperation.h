@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 __attribute__((visibility("hidden")))
 @interface _NSDiskOperation
 {
     struct __DADisk *_disk;
-    _Bool _eject;
-    NSURL *_volumeURL;
 }
 
 - (void);

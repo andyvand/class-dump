@@ -5,5 +5,9 @@
 //
 
 @protocol OSDUIHelperProtocol
+- (void)T(;
+- (void)T;
+- (void)9;
+- (void)T	;
 @end
 

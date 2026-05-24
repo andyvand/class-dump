@@ -4,38 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWVideoDataOutputAnalyticsPayload
 {
     int _deviceMask;
-    int _devicePosition;
-    _Bool _videoMirrored;
-    NSString *_clientApplicationID;
-    double _duration;
-    float _nominalFramerate;
-    int _height;
-    int _width;
-    _Bool _hdrVideo;
-    _Bool _proresVideo;
-    int _colorSpace;
-    unsigned long long _numberOfFramesDropped;
-    unsigned long long _numberOfISPFramesDropped;
-    unsigned long long _numberOfFrames;
-    unsigned int _pixelFormat;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)mBand1VertStyle;
+- (void)JPEGRepresentationWithCompressionQuality: /* Error: Ran out of types for this method. */;
+- (void)tion parent transition;
 - (double);
 - (void);
-- (id);
+- (id);
 - (int);
-- (void);
-- (int);
+- (void)in returning wallet order state for string %@:(id)arg1;
+- (int)OOLEAN);
 - (int);
 - (void);
 - (void);
@@ -44,15 +28,15 @@ __attribute__((visibility("hidden")))
 - (int);
 - (float);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)r scanning:%@ or connected:%d, advconnected:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void)gString;
-- (int)imeOverride;
+- (void)currentStateDebugString;
+- (int)_movieStartTimeOverride;
 - (_Bool)¯!ÿ·"ÿÀ #ÿÇ"%ÿÏ#&ÿÖ%'ÿß')ÿÿÿÿÿÿÿ#ÿ*ÿ0ÿ8ÿ?ÿFÿMÿSÿ[ÿcÿjÿqÿyÿÿÿ ÿ! ÿ "!ÿ¨#"ÿ¯$#ÿ·%$ÿ¿'%ÿÇ(&ÿÏ)(ÿÖ+)ÿÞ-+ÿ%ÿ%ÿ%ÿ%ÿ%ÿ%ÿ$%ÿ*%ÿ1%ÿ8%ÿ?%ÿF%ÿM%ÿT%ÿ\%ÿc&ÿj&ÿr&ÿz'ÿ'ÿ(ÿ) ÿ)!ÿ *"ÿ¨+#ÿ¯,$ÿ·-&ÿ¿.'ÿÇ/(ÿÎ1*ÿÖ2+ÿÞ4-ÿ-ÿ
 -ÿ-ÿ,ÿ,ÿ,ÿ%-ÿ+-ÿ1-ÿ9-ÿ@-ÿG-ÿM-ÿT-ÿ\-ÿd.ÿk.ÿr.ÿz/ÿ/ÿ0 ÿ0!ÿ1"ÿ 2#ÿ¨3%ÿ¯3&ÿ·4'ÿ¿5)ÿÇ7*ÿÎ8+ÿÕ9-ÿÞ:/ÿ4ÿ4ÿ4ÿ4ÿ4ÿ 4ÿ&4ÿ,4ÿ25ÿ95ÿ@5ÿG5ÿN5ÿU5ÿ]6ÿd6ÿk6ÿr6ÿ{7ÿ7 ÿ8!ÿ8"ÿ9#ÿ :%ÿ¨:&ÿ¯;'ÿ·<)ÿ¿=*ÿÇ>,ÿÎ?-ÿÕ@/ÿÞA0ÿ<ÿ<ÿ<ÿ<ÿ<ÿ"<ÿ'<ÿ-<ÿ3<ÿ:=ÿA=ÿH=ÿN=ÿU=ÿ]>ÿe>ÿl>ÿs>ÿ{? ÿ?!ÿ@"ÿ@$ÿA%ÿ¡A&ÿ¨B'ÿ°C)ÿ·D*ÿ¿E,ÿÇE-ÿÎF/ÿÖG0ÿÞI2ÿEÿEÿEÿEÿEÿ$Eÿ)Eÿ/Eÿ5Eÿ<EÿBFÿHFÿOFÿVFÿ^GÿeGÿlGÿsH ÿ|H!ÿH#ÿI$ÿI%ÿJ&ÿ¡J(ÿ©K)ÿ°L+ÿ¸L,ÿÀM.ÿÇN/ÿÏO1ÿÖP2ÿÞQ4ÿMÿMÿMÿMÿ Mÿ&Mÿ+Mÿ0Mÿ6Mÿ=MÿCNÿINÿPNÿWNÿ_OÿfO ÿmO!ÿtP"ÿ|P#ÿP$ÿQ%ÿQ&ÿR(ÿ¢R)ÿ©S+ÿ±T,ÿ¸T-ÿÀU/ÿÈV1ÿÏW2ÿÖX4ÿÞY6ÿUÿUÿUÿUÿ"Uÿ(Uÿ-Uÿ2Uÿ8Uÿ>UÿDVÿKVÿQVÿXVÿ`W ÿfW!ÿnW"ÿuX#ÿ}X$ÿY%ÿY'ÿY(ÿZ)ÿ¢Z+ÿª[,ÿ±\.ÿ¸\/ÿÁ]1ÿÈ^2ÿÏ^4ÿ×_6ÿß`8ÿ]ÿ]ÿ]ÿ!]ÿ%]ÿ*]ÿ/]ÿ4]ÿ:]ÿ@]ÿF^ÿL^ÿS^ÿY^ ÿa_!ÿg_#ÿn`$ÿu`%ÿ}`&ÿa'ÿa(ÿb*ÿb+ÿ£c,ÿªc.ÿ²d/ÿ¹d1ÿÁe2ÿÈf4ÿÐf6ÿ×g7ÿßh9ÿeÿeÿ"eÿ$eÿ(eÿ-eÿ1eÿ6eÿ<eÿBeÿHfÿNfÿTf ÿZf!ÿbg#ÿhg$ÿoh%ÿvh&ÿ~h(ÿi)ÿi*ÿj+ÿj,ÿ£k.ÿ«k/ÿ²l1ÿ¹l2ÿÂm4ÿÉn6ÿÐn7ÿ×o9ÿàp;ÿ"nÿ#nÿ%nÿ(nÿ+nÿ0nÿ4nÿ9nÿ>nÿDnÿJoÿPoÿVo!ÿ\o#ÿcp$ÿjp&ÿqq'ÿwq(ÿr*ÿr+ÿr,ÿs-ÿs.ÿ¤t0ÿ¬t1ÿ³u3ÿºu4ÿÂv6ÿÊw7ÿÑw9ÿØx;ÿày=ÿ%vÿ'vÿ)vÿ+vÿ.vÿ3vÿ7vÿ<vÿAvÿGwÿLwÿRw ÿXw"ÿ^x$ÿex&ÿkx'ÿry)ÿyy*ÿz+ÿz-ÿz.ÿ{/ÿ{0ÿ¥|2ÿ¬|3ÿ´}4ÿ»}6ÿÃ~8ÿÊ9ÿÒ;ÿÙ<ÿá>ÿ)~ÿ+~ÿ,~ÿ/~ÿ2~ÿ6~ÿ:~ÿ>~ÿCÿIÿNÿT!ÿZ#ÿ`%ÿg'ÿm)ÿs*ÿz,ÿ-ÿ.ÿ0ÿ1ÿ2ÿ¦4ÿ­5ÿ´6ÿ¼8ÿÄ9ÿË;ÿÒ<ÿÙ>ÿá@ÿ-ÿ/ÿ0ÿ2ÿ5ÿ9ÿ=ÿAÿFÿKÿQÿV!ÿ\$ÿb&ÿi(ÿo*ÿu+ÿ|-ÿ/ÿ0ÿ2ÿ3ÿ4ÿ§6ÿ®7ÿµ8ÿ¼:ÿÄ;ÿÌ=ÿÓ>ÿÚ@ÿâBÿ2
 ÿ3ÿ4ÿ6ÿ9ÿ=ÿ@ÿDÿIÿNÿT ÿY"ÿ_$ÿd'ÿk)ÿq+ÿw-ÿ~/ÿ1ÿ2ÿ4ÿ5ÿ 6ÿ¨8ÿ¯9ÿ¶:ÿ½<ÿÅ=ÿÌ?ÿÔ@ÿÛBÿãCÿ6ÿ7
@@ -69,28 +53,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(nonatomic) int colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) int deviceMask; // @synthesize deviceMask=_deviceMask;
-@property(nonatomic) int devicePosition; // @synthesize devicePosition=_devicePosition;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hdrVideo; // @synthesize hdrVideo=_hdrVideo;
-@property(nonatomic) int height; // @synthesize height=_height;
-@property(nonatomic) float nominalFramerate; // @synthesize nominalFramerate=_nominalFramerate;
-@property(nonatomic) unsigned long long numberOfFrames; // @synthesize numberOfFrames=_numberOfFrames;
-@property(nonatomic) unsigned long long numberOfFramesDropped; // @synthesize numberOfFramesDropped=_numberOfFramesDropped;
-@property(nonatomic) unsigned long long numberOfISPFramesDropped; // @synthesize numberOfISPFramesDropped=_numberOfISPFramesDropped;
-@property(nonatomic) unsigned int pixelFormat; // @synthesize pixelFormat=_pixelFormat;
-@property(nonatomic) _Bool proresVideo; // @synthesize proresVideo=_proresVideo;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool videoMirrored; // @synthesize videoMirrored=_videoMirrored;
-@property(nonatomic) int width; // @synthesize width=_width;
 
 @end
 

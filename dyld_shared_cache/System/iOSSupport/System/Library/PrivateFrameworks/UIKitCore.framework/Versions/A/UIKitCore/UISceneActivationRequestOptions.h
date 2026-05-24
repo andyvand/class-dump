@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene;
-
 @interface UISceneActivationRequestOptions
 {
     _Bool _preserveLayout;
-    _Bool __requestFullscreen;
-    UIScene *_requestingScene;
-    long long _collectionJoinBehavior;
 }
 
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)known error code. Clearing out CK metadata;
 - (void);
 - (_Bool);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)!dCùÑ_1Â0@ù
 × ;
 - (id)IImageView"16@0:8 /* Error: Ran out of types for this method. */;
@@ -36,18 +31,7 @@
 - (void),ëÿÙ;
 
 // Remaining properties
-@property(nonatomic) long long _collectionJoinBehavior;
-@property(nonatomic, setter=_setRequestFullscreen:) _Bool _requestFullscreen; // @synthesize _requestFullscreen=__requestFullscreen;
-@property(nonatomic) long long collectionJoinBehavior; // @synthesize collectionJoinBehavior=_collectionJoinBehavior;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool preserveLayout; // @synthesize preserveLayout=_preserveLayout;
-@property(retain, nonatomic) UIScene *requestingScene; // @synthesize requestingScene=_requestingScene;
-@property(readonly) Class superclass;
 
 @end
 

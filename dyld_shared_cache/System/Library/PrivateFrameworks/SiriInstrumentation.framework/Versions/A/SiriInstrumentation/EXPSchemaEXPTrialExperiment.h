@@ -6,26 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface EXPSchemaEXPTrialExperiment : SISchemaInstrumentationMessage
 {
     NSString *_experimentNamespace;
-    NSString *_experimentId;
-    SISchemaUUID *_treatmentId;
-    long long _deploymentId;
-    int _allocationStatus;
-    unsigned long long _lastUpdatedAtInMs;
-    unsigned int _compatibilityVersion;
-    struct {
-        unsigned int deploymentId:1;
-        unsigned int allocationStatus:1;
-        unsigned int lastUpdatedAtInMs:1;
-        unsigned int compatibilityVersion:1;
-    } _has;
-    _Bool _hasExperimentNamespace;
-    _Bool _hasExperimentId;
-    _Bool _hasTreatmentId;
 }
 
 - (void);
@@ -49,49 +34,35 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)nsferCookie:(_Bool)arg1 name should not be nil!;
 - (_Bool);
 - (void);
 - (void);
 - (int);
 - (_Bool);
 - (void);
-- (id);
+- (id)isEnabled;
 - (_Bool);
-- (id);
+- (id)dingEvent;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)d9;
 - (void);
 - (unsigned int);
 - (id)0@ù
 × ;
 - (id)chemaMHRaiseToSpeakSecondPassPolicyDecisionMade";
-- (void);
-- (id)eration;
-- (long long)tFalseTriggerMitigationEvaluationContext;
+- (void)_vtAssetConfigVersion;
+- (id)PNRODSchemaPNRODPlanGeneration;
+- (long long)MHSchemaMHUserEngagementFalseTriggerMitigationEvaluationContext;
 - (id)t;
 - (void)\@¹ÿ;
 
 // Remaining properties
-@property(nonatomic) int allocationStatus; // @synthesize allocationStatus=_allocationStatus;
-@property(nonatomic) unsigned int compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(nonatomic) long long deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(copy, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
 @property(copy, nonatomic) NSString *experimentNamespace; // @synthesize experimentNamespace=_experimentNamespace;
-@property(nonatomic) _Bool hasAllocationStatus;
-@property(nonatomic) _Bool hasCompatibilityVersion;
-@property(nonatomic) _Bool hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @synthesize hasExperimentId=_hasExperimentId;
-@property(nonatomic) _Bool hasExperimentNamespace; // @synthesize hasExperimentNamespace=_hasExperimentNamespace;
-@property(nonatomic) _Bool hasLastUpdatedAtInMs;
-@property(nonatomic) _Bool hasTreatmentId; // @synthesize hasTreatmentId=_hasTreatmentId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long lastUpdatedAtInMs; // @synthesize lastUpdatedAtInMs=_lastUpdatedAtInMs;
-@property(retain, nonatomic) SISchemaUUID *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

@@ -7,15 +7,14 @@
 @interface ICStoreDialogResponseHandlerConfiguration
 {
     _Bool _allowsHandlingNonAuthenticationDialogs;
-    _Bool _shouldRecordLastAuthenticationDialogResponseTime;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)H;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Cg_int3;
 - (_Bool);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowsHandlingNonAuthenticationDialogs; // @synthesize allowsHandlingNonAuthenticationDialogs=_allowsHandlingNonAuthenticationDialogs;
-@property(nonatomic) _Bool shouldRecordLastAuthenticationDialogResponseTime; // @synthesize shouldRecordLastAuthenticationDialogResponseTime=_shouldRecordLastAuthenticationDialogResponseTime;
 
 @end
 

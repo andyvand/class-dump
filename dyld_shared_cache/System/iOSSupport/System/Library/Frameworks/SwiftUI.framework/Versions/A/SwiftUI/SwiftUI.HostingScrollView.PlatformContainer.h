@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIResponder;
-@protocol _UIGestureRecognizerContainer;
-
 @interface SwiftUI.HostingScrollView.PlatformContainer
 {
     id scrollView;
-    id safeAreaHelper;
-    id isInitialSafeAreaUpdate;
-    id _safeAreaInsets;
 }
 
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)hashtagObjectIDWithStandardizedContent:context: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (void);
@@ -28,11 +22,7 @@
 - (id)_PickerContentBodyAdaptor;
 
 // Remaining properties
-@property(nonatomic, readonly) id <_UIGestureRecognizerContainer> _parentGestureRecognizerContainer;
-@property(nonatomic) struct CGRect bounds;
 @property(nonatomic) struct CGRect frame;
-@property(nonatomic, readonly) UIResponder *nextResponder;
-@property(nonatomic, readonly) struct UIEdgeInsets safeAreaInsets;
 
 @end
 

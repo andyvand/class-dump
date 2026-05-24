@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol TIProactiveQuickTypeManaging
+- (void)/M;
+- (_Bool);
+- (void)NSScreenNumber;
+- (NSArray *)omitFramesBelowSampleCount;
+- (void)ffScreenPassCount;
+- (NSArray *)packs:(NSString *)arg1 %@>;
 @end
 

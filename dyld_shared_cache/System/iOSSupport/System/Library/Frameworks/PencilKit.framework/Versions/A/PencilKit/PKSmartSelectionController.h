@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, PKDrawing, PKRecognitionController, PKRecognitionSessionManager, PKSelectionController, PKTiledView, UIGestureRecognizer, UIView;
-@protocol PKAttachment, PKSmartSelectionControllerDelegate;
+@class PKDrawing;
+@protocol PKSmartSelectionControllerDelegate;
 
 @interface PKSmartSelectionController
 {
     id <PKSmartSelectionControllerDelegate> _delegate;
-    PKTiledView *_tiledView;
-    id <PKAttachment> _currentAttachment;
-    NSMutableDictionary *_uuidToStrokeSpatialCacheDict;
-    PKSelectionController *_selectionController;
-    PKRecognitionController *_recognitionController;
-    PKRecognitionSessionManager *_sessionManager;
-    struct CGPoint _lastTapLocation;
-    double _lastTapTimestamp;
-    long long _currentTapCount;
-    UIGestureRecognizer *_gestureRecognizer;
 }
 
 - (void);
@@ -60,19 +50,7 @@
 - (void)Dictionary",&,N,V_timestamps;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PKAttachment> currentAttachment;
 @property(readonly, nonatomic) PKDrawing *currentDrawing;
-@property(readonly, copy, nonatomic) NSArray *currentSelectedStrokes;
-@property(readonly, nonatomic) long long currentSelectionType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PKRecognitionController *recognitionController;
-@property(readonly, nonatomic) UIView *selectionView;
-@property(readonly) Class superclass;
 
 @end
 

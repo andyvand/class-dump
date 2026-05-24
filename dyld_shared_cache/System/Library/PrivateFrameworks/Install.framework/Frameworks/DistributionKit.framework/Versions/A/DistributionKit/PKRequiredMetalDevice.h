@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
 @protocol MTLDevice;
 
 @interface PKRequiredMetalDevice
@@ -22,19 +21,12 @@
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool)ription: /* Error: Ran out of types for this method. */;
+- (_Bool)propertyListFromData:mutabilityOption:format:errorDescription: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSNumber *argumentBuffersTier;
 @property(retain) id <MTLDevice> currentDevice; // @synthesize currentDevice=_currentDevice;
-@property(readonly, retain) NSString *deviceName;
-@property(readonly) _Bool isHeadless;
-@property(readonly) _Bool isLowPowerDevice;
-@property(readonly) _Bool isRemovable;
-@property(readonly) _Bool rasterOrderGroupsSupported;
-@property(readonly, retain) NSArray *supportedFeatureSets;
 
 @end
 

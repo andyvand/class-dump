@@ -4,45 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelPlayEvent, MPModelSong, NSData, NSString;
+@class MPModelSong;
 
 @interface MPCReportingLyricsViewEvent
 {
     _Bool _continuityCameraUsed;
-    _Bool _continuityMicrophoneUsed;
-    _Bool _displayTranslationEnabled;
-    _Bool _displayTransliterationEnabled;
-    MPModelSong *_modelSong;
-    MPModelPlayEvent *_modelPlayEvent;
-    NSString *_lyricsID;
-    double _visibleDuration;
-    long long _displayType;
-    long long _displayedCharacterCount;
-    NSString *_language;
-    NSString *_featureName;
-    NSString *_queueGroupingID;
-    NSData *_recommendationData;
-    long long _sourceType;
-    long long _userPreferenceSyllable;
 }
 
-- (long long);
-- (void);
-- (void);
-- (void);
+- (long long)__objc_methlist;
+- (void)_shouldVerifyAccountSave;
+- (void)ction for BYOE:(id)arg1 %@;
+- (void)s:(long long)arg1 forAccount:] /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ion;
+- (_Bool);
 - (void);
-- (double);
-- (void);
-- (void);
+- (double);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -63,22 +48,7 @@ RtzlXX;
 ÖÕÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool continuityCameraUsed; // @synthesize continuityCameraUsed=_continuityCameraUsed;
-@property(nonatomic) _Bool continuityMicrophoneUsed; // @synthesize continuityMicrophoneUsed=_continuityMicrophoneUsed;
-@property(nonatomic) _Bool displayTranslationEnabled; // @synthesize displayTranslationEnabled=_displayTranslationEnabled;
-@property(nonatomic) _Bool displayTransliterationEnabled; // @synthesize displayTransliterationEnabled=_displayTransliterationEnabled;
-@property(nonatomic) long long displayType; // @synthesize displayType=_displayType;
-@property(nonatomic) long long displayedCharacterCount; // @synthesize displayedCharacterCount=_displayedCharacterCount;
-@property(copy, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSString *lyricsID; // @synthesize lyricsID=_lyricsID;
-@property(retain, nonatomic) MPModelPlayEvent *modelPlayEvent; // @synthesize modelPlayEvent=_modelPlayEvent;
 @property(retain, nonatomic) MPModelSong *modelSong; // @synthesize modelSong=_modelSong;
-@property(copy, nonatomic) NSString *queueGroupingID; // @synthesize queueGroupingID=_queueGroupingID;
-@property(copy, nonatomic) NSData *recommendationData; // @synthesize recommendationData=_recommendationData;
-@property(nonatomic) long long sourceType; // @synthesize sourceType=_sourceType;
-@property(nonatomic) long long userPreferenceSyllable; // @synthesize userPreferenceSyllable=_userPreferenceSyllable;
-@property(nonatomic) double visibleDuration; // @synthesize visibleDuration=_visibleDuration;
 
 @end
 

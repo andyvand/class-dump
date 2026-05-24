@@ -7,14 +7,11 @@
 @interface NewsUI2.NotificationService
 {
     id warmingSheetPresenter;
-    id authorizationOptions;
-    id networkReachability;
-    id metricsProvider;
 }
 
 - (id);
 - (void);
-- (void)lterBarViewModel;
+- (void)SearchFilterBarViewModel;
 
 @end
 

@@ -7,11 +7,12 @@
 @class NSString, XCTBacktrace;
 
 @protocol XCTRuntimeIssue
++ (NSString *);
+- (unsigned long long);
+- (XCTBacktrace *);
+- (NSString *);
 
 // Remaining properties
-@property(readonly) unsigned long long aggregationHash;
-@property(readonly) XCTBacktrace *backtrace;
-@property(readonly) NSString *detailedDescription;
 @property(readonly) NSString *shortDescription;
 @end
 

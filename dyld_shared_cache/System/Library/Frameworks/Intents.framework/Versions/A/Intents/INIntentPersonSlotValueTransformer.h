@@ -13,7 +13,7 @@
 + (Class);
 + (long long)NSData",R,N,V_archivedObjectCollection;
 - (id);
-- (id)onversationUnsupportedReason:(id)arg1;
+- (id)StringAsJoinCallIntentGroupConversationUnsupportedReason:(id)arg1;
 
 @end
 

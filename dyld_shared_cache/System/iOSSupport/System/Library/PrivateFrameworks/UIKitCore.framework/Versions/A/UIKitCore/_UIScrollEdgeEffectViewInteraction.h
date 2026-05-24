@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKit.ScrollEdgeEffectView, UIScrollEdgeEffect, UIView, _UIScrollPocketRegistrationInteraction;
+@class UIView;
 
 @interface _UIScrollEdgeEffectViewInteraction
 {
     void _view;
-    UIScrollEdgeEffect *topEdgeEffect;
-    UIScrollEdgeEffect *leftEdgeEffect;
-    UIScrollEdgeEffect *bottomEdgeEffect;
-    UIScrollEdgeEffect *rightEdgeEffect;
-    _Bool isEnabled;
-    _Bool ordersBlurOverLuminanceAdjustment;
-    _UIScrollPocketRegistrationInteraction *registrationInteraction;
-    UIView *effectView;
-    UIView *captureView;
-    UIKit.ScrollEdgeEffectView *topPocket;
-    UIKit.ScrollEdgeEffectView *leftPocket;
-    UIKit.ScrollEdgeEffectView *bottomPocket;
-    UIKit.ScrollEdgeEffectView *rightPocket;
 }
 
+- (void)ating attachment zone *******;
+- (void)metadata only sync.;
+- (void)nc error;
+- (void)d message guid:%@  to identifier:%@  critical app name:%@   chat:%@ /* Error: Ran out of types for this method. */;
+- (id)e participant version. This is not right!;
+- (void)ExistingMergedChatsWithChatTTR;
+- (void)4;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id) ;
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)8';
 - (id);
 - (id);
 - (id);
 - (struct UIEdgeInsets);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -52,7 +39,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setSupportedRepeatTypes: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)A°!¨Eù±^ð1Â0@ù
 × ;
@@ -73,23 +60,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak UIView *_view; // @synthesize _view;
-@property(nonatomic, readonly) UIScrollEdgeEffect *bottomEdgeEffect; // @synthesize bottomEdgeEffect;
-@property(nonatomic, retain) UIKit.ScrollEdgeEffectView *bottomPocket; // @synthesize bottomPocket;
-@property(nonatomic, readonly) UIView *captureView; // @synthesize captureView;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) struct UIEdgeInsets effectInsets;
-@property(nonatomic, readonly) UIView *effectView; // @synthesize effectView;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled;
-@property(nonatomic, readonly) UIScrollEdgeEffect *leftEdgeEffect; // @synthesize leftEdgeEffect;
-@property(nonatomic, retain) UIKit.ScrollEdgeEffectView *leftPocket; // @synthesize leftPocket;
-@property(nonatomic, readonly) _Bool needsPockets;
-@property(nonatomic) _Bool ordersBlurOverLuminanceAdjustment; // @synthesize ordersBlurOverLuminanceAdjustment;
-@property(nonatomic, retain) _UIScrollPocketRegistrationInteraction *registrationInteraction; // @synthesize registrationInteraction;
-@property(nonatomic, readonly) UIScrollEdgeEffect *rightEdgeEffect; // @synthesize rightEdgeEffect;
-@property(nonatomic, retain) UIKit.ScrollEdgeEffectView *rightPocket; // @synthesize rightPocket;
-@property(nonatomic, readonly) UIScrollEdgeEffect *topEdgeEffect; // @synthesize topEdgeEffect;
-@property(nonatomic, retain) UIKit.ScrollEdgeEffectView *topPocket; // @synthesize topPocket;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

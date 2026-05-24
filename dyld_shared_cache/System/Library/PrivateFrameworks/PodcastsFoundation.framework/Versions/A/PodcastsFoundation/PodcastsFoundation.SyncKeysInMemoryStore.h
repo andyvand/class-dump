@@ -7,22 +7,6 @@
 @interface PodcastsFoundation.SyncKeysInMemoryStore
 {
     id isSubscriptionSyncV1Dirty;
-    id isSubscriptionSyncV3Dirty;
-    id subscriptionSyncV1Version;
-    id subscriptionSyncV3Version;
-    id isNonFollowedShowsSyncDirty;
-    id isInterestSyncDirty;
-    id isPlaylistSyncDirty;
-    id isBookmarksSyncDirty;
-    id isBookmarksDRMSyncDirty;
-    id isLibrarySyncEnabled;
-    id nonFollowedShowsLastSyncTimestamp;
-    id nonFollowedShowsSyncVersion;
-    id interestLastSyncTimestamp;
-    id interestSyncVersion;
-    id podcastsDomainVersion;
-    id subscriptionsV1LastSyncTimestamp;
-    id subscriptionsV3LastSyncTimestamp;
 }
 
 @end

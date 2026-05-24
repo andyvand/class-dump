@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController;
+@class UIViewController;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewControllerAnimatedTransitionViewControllerHandoffData
 {
     UIViewController *_viewController;
-    UIView *_containerView;
-    UIView *_snapshot;
-    double _dimmingAmount;
-    double _targetDimmingAmount;
-    struct CGRect _frame;
-    struct CGRect _targetFrame;
 }
 
 - (double);
-- (id);
+- (id);
 - (double);
 - (struct CGRect);
 - (struct CGRect)lostNavigationControllerDelegate"b1"didSetAppearanceProperty"b1};
 - (id)¼]ÿÿP;
 - (void)eP;
 - (void)onConditionCG;
-- (id)r;
-- (id)terfaceActiveAppearance;
+- (id)UICATransactionCommitObserverProvider;
+- (id)UIUserInterfaceActiveAppearance;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, nonatomic) double dimmingAmount; // @synthesize dimmingAmount=_dimmingAmount;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) UIView *snapshot; // @synthesize snapshot=_snapshot;
-@property(readonly, nonatomic) double targetDimmingAmount; // @synthesize targetDimmingAmount=_targetDimmingAmount;
-@property(readonly, nonatomic) struct CGRect targetFrame; // @synthesize targetFrame=_targetFrame;
 @property(readonly, nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

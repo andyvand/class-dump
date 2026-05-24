@@ -19,15 +19,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)dSupportedPlaybackSessionTypes: /* Error: Ran out of types for this method. */;
+- (id)on handleIntentForwardingAction:inBackgroundApplicationWithBundleIdentifier:completionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void)addSupportedPlaybackSessionTypes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHidEventData;
-@property(retain, nonatomic) NSData *hidEventData; // @synthesize hidEventData=_hidEventData;
 
 @end
 

@@ -10,25 +10,19 @@ __attribute__((visibility("hidden")))
 @interface ISPlayerState
 {
     NSString *_diagnosticLabel;
-    double _photoBlurRadius;
-    double _videoAlpha;
-    double _videoBlurRadius;
 }
 
-+ (id);
-- (double);
-- (id);
-- (double);
-- (double);
-- (id);
++ (id)V_scrubGesture;
+- (double)_intendedColumnWidths;
+- (id)_componentTextStylesToConditionsMap;
+- (double)ghtMargin;
+- (double)eItemHeight;
+- (id)s;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *diagnosticLabel; // @synthesize diagnosticLabel=_diagnosticLabel;
-@property(readonly, nonatomic) double photoBlurRadius; // @synthesize photoBlurRadius=_photoBlurRadius;
-@property(readonly, nonatomic) double videoAlpha; // @synthesize videoAlpha=_videoAlpha;
-@property(readonly, nonatomic) double videoBlurRadius; // @synthesize videoBlurRadius=_videoBlurRadius;
 
 @end
 

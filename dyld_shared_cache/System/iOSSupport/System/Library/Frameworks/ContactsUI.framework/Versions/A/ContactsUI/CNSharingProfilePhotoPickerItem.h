@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNSharingProfileAvatarItem, NSString, UIImage;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface CNSharingProfilePhotoPickerItem
 {
     UIImage *_cachedPreviewImage;
-    CNSharingProfileAvatarItem *_avatarItem;
-    NSString *_symbolImageName;
 }
 
+- (void)9?;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id)CGSize=dd}}40@0:8@16@24^@32 /* Error: Ran out of types for this method. */;
-- (void)a: /* Error: Ran out of types for this method. */;
+- (void)activityViewControllerLinkMetadata: /* Error: Ran out of types for this method. */;
 - (void)will show shared profile photo and poster;
 
 // Remaining properties
-@property(retain, nonatomic) CNSharingProfileAvatarItem *avatarItem; // @synthesize avatarItem=_avatarItem;
 @property(retain, nonatomic) UIImage *cachedPreviewImage; // @synthesize cachedPreviewImage=_cachedPreviewImage;
-@property(retain, nonatomic) NSString *symbolImageName; // @synthesize symbolImageName=_symbolImageName;
 
 @end
 

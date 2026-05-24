@@ -4,46 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LocalizeNumberingSystem, NSArray, NSMutableDictionary, NSNumberFormatter, NSString, UnitTypeInfo, UnitsInfo;
-
 @interface CalculateResult
 {
     _Bool _autoScientificNotation;
-    _Bool _matchLocale;
-    _Bool _flexibleFractionDigits;
-    _Bool _assumeDegrees;
-    _Bool _isTrivial;
-    _Bool _isPartialExpression;
-    _Bool _hasStaleCurrencyData;
-    _Bool _synchronous;
-    _Bool _localizeUnit;
-    _Bool _isSimpleVerticalMath;
-    int _minimumFractionDigits;
-    int _unitExponent;
-    int _singleUnitID;
-    int _variableResultTreesCount;
-    NSString *_expression;
-    NSNumberFormatter *_numberFormatter;
-    NSArray *_locales;
-    unsigned long long _scientificNotationFormat;
-    unsigned long long _unitFormat;
-    unsigned long long _unitType;
-    NSArray *_terms;
-    CalculateResult *_inputValueAndUnit;
-    NSArray *_conversions;
-    CalculateResult *_parent;
-    struct TreeObject *_parseTree;
-    struct TreeObject *_resultTree;
-    UnitsInfo *_unitsInfo;
-    UnitTypeInfo *_typeInfo;
-    NSMutableDictionary *_variableLookups;
-    struct TreeObject **_variableResultTrees;
-    LocalizeNumberingSystem *_numberingSystem;
-    CDStruct_6db91a3e _resolvedUnitFormats;
 }
 
 + (id);
-+ (void);
++ (void);
 + (id);
 + (id);
 - (int);
@@ -69,33 +36,33 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (struct TreeObject *);
-- (CDStruct_6db91a3e);
-- (struct TreeObject *);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (_Bool);
-- (void);
+- (struct TreeObject *);
+- (CDStruct_83e2b949);
 - (struct TreeObject *);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (_Bool)@;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (_Bool);
+- (void);
+- (struct TreeObject *);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -119,14 +86,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)8;
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)s/com.apple.xbs/TemporaryDirectory.9I9RkV/Sources/AccessibilityLibraries/Source/AXCoreUtilities/source/DataStructures/NSArray+AXExtensions.m;
 - (void);
-- (id);
-- (void);
+- (id)emView"32@0:(double)arg1 8@"NSScrubber"16q24;
+- (void)C;
 - (long long);
 - (id);
 - (id);
@@ -134,44 +101,7 @@
 - (void)ýÿ9'2;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool assumeDegrees; // @synthesize assumeDegrees=_assumeDegrees;
-@property(nonatomic) _Bool autoScientificNotation; // @synthesize autoScientificNotation=_autoScientificNotation;
-@property(readonly, nonatomic) NSArray *conversions; // @synthesize conversions=_conversions;
-@property(readonly, nonatomic) NSString *expression; // @synthesize expression=_expression;
-@property(nonatomic) _Bool flexibleFractionDigits; // @synthesize flexibleFractionDigits=_flexibleFractionDigits;
-@property(readonly, nonatomic) NSString *formattedExpression;
-@property(readonly, nonatomic) NSString *formattedResult;
-@property(readonly, nonatomic) CDUnknownBlockType graphableFunction;
-@property(readonly, nonatomic) CDUnknownBlockType graphableFunction2D;
-@property(readonly, nonatomic) CDUnknownBlockType graphableFunction3D;
-@property(readonly, nonatomic) _Bool hasStaleCurrencyData; // @synthesize hasStaleCurrencyData=_hasStaleCurrencyData;
-@property(readonly, nonatomic) CalculateResult *inputValueAndUnit; // @synthesize inputValueAndUnit=_inputValueAndUnit;
-@property(readonly, nonatomic) _Bool isNaN;
-@property(readonly, nonatomic) _Bool isPartialExpression; // @synthesize isPartialExpression=_isPartialExpression;
-@property(nonatomic) _Bool isSimpleVerticalMath; // @synthesize isSimpleVerticalMath=_isSimpleVerticalMath;
-@property(readonly, nonatomic) _Bool isTrivial; // @synthesize isTrivial=_isTrivial;
-@property(retain, nonatomic) NSArray *locales; // @synthesize locales=_locales;
-@property(nonatomic) _Bool localizeUnit; // @synthesize localizeUnit=_localizeUnit;
-@property(nonatomic) _Bool matchLocale; // @synthesize matchLocale=_matchLocale;
-@property(nonatomic) int minimumFractionDigits; // @synthesize minimumFractionDigits=_minimumFractionDigits;
-@property(retain, nonatomic) NSNumberFormatter *numberFormatter; // @synthesize numberFormatter=_numberFormatter;
-@property(retain, nonatomic) LocalizeNumberingSystem *numberingSystem; // @synthesize numberingSystem=_numberingSystem;
 @property(nonatomic) __weak CalculateResult *parent; // @synthesize parent=_parent;
-@property(nonatomic) struct TreeObject *parseTree; // @synthesize parseTree=_parseTree;
-@property(nonatomic) CDStruct_6db91a3e resolvedUnitFormats; // @synthesize resolvedUnitFormats=_resolvedUnitFormats;
-@property(nonatomic) struct TreeObject *resultTree; // @synthesize resultTree=_resultTree;
-@property(nonatomic) unsigned long long scientificNotationFormat; // @synthesize scientificNotationFormat=_scientificNotationFormat;
-@property(nonatomic) int singleUnitID; // @synthesize singleUnitID=_singleUnitID;
-@property(nonatomic) _Bool synchronous; // @synthesize synchronous=_synchronous;
-@property(readonly, nonatomic) NSArray *terms; // @synthesize terms=_terms;
-@property(retain, nonatomic) UnitTypeInfo *typeInfo; // @synthesize typeInfo=_typeInfo;
-@property(readonly, nonatomic) int unitExponent; // @synthesize unitExponent=_unitExponent;
-@property(nonatomic) unsigned long long unitFormat; // @synthesize unitFormat=_unitFormat;
-@property(readonly, nonatomic) unsigned long long unitType; // @synthesize unitType=_unitType;
-@property(retain, nonatomic) UnitsInfo *unitsInfo; // @synthesize unitsInfo=_unitsInfo;
-@property(retain, nonatomic) NSMutableDictionary *variableLookups; // @synthesize variableLookups=_variableLookups;
-@property(nonatomic) struct TreeObject **variableResultTrees; // @synthesize variableResultTrees=_variableResultTrees;
-@property(nonatomic) int variableResultTreesCount; // @synthesize variableResultTreesCount=_variableResultTreesCount;
 
 @end
 

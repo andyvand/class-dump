@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSError, NSNumber, NSString;
+@class NSString;
 
 @interface KTNetworkResponse
 {
     int _type;
-    NSString *_uri;
-    NSData *_request;
-    NSData *_response;
-    NSError *_error;
-    NSNumber *_responseStatus;
-    NSDictionary *_metadata;
-    NSDate *_queryTime;
-    NSString *_requestUUID;
 }
 
 + (_Bool);
@@ -25,40 +17,30 @@
 - (void);
 - (id);
 - (id);
+- (id)PHMediaFormatConversionSinglePassVideoProgressObserver;
+- (id)allocDescriptorForName:valueNames:values:count:enumVerifier: /* Error: Ran out of types for this method. */;
+- (void)meTaskQueueWithCompletion:(id)arg1;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)placeViewController:requestPasscodeUnlockWithCompletion: /* Error: Ran out of types for this method. */;
+- (id),;
 - (int);
 - (id);
 - (void);
 - (id);
+- (void)GPoint=dd}{CGSize=dd}}24;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)4;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@24@0:(id)arg1 8d16;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain) NSDate *queryTime; // @synthesize queryTime=_queryTime;
-@property(retain) NSData *request; // @synthesize request=_request;
 @property(retain) NSString *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(retain) NSData *response; // @synthesize response=_response;
-@property(retain) NSNumber *responseStatus; // @synthesize responseStatus=_responseStatus;
-@property(readonly) NSString *serverHint;
-@property(readonly) NSString *traceUUID;
-@property int type; // @synthesize type=_type;
-@property(retain) NSString *uri; // @synthesize uri=_uri;
 
 @end
 

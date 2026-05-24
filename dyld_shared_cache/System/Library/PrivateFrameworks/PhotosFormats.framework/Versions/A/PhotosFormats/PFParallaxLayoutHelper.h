@@ -4,51 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFParallaxLayoutConfiguration;
-
 @interface PFParallaxLayoutHelper
 {
     _Bool _headroomFeasible;
-    _Bool _hasTopEdgeContact;
-    _Bool _computeSpatial;
-    unsigned long long _classification;
-    unsigned long long _layoutType;
-    double _spatialPadding;
-    double _allowedClockStretch;
-    unsigned long long _allowedLayoutStrategies;
-    PFParallaxLayoutConfiguration *_layoutConfiguration;
-    struct CGSize _originalImageSize;
-    struct CGRect _initialRect;
-    struct CGRect _pixelValidBounds;
-    struct CGRect _pixelEffectiveAcceptable;
-    struct CGRect _pixelEffectivePreferred;
 }
 
 + (double);
++ (double);
 + (double);
-+ (double);
++ (void);
++ (void);
++ (void)4;
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
 + (double);
 + (double);
 + (double);
++ (double)4;
++ (double)0;
 + (double);
 + (double);
 + (double);
++ (struct CGRect)h;
 + (double);
-+ (double);
-+ (struct CGRect);
-+ (double);
-- (struct CGRect);
-- (double);
+- (struct CGRect)dding.framework/Versions/A/SpotlightEmbedding;
+- (double)__DATA_DIRTY;
 - (void);
-- (id);
-- (double);
+- (id)_TtCO10Accelerate4BNNS9LossLayer;
+- (double)_TtCO10Accelerate4BNNS21BinaryArithmeticLayer;
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
@@ -60,12 +45,12 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id),;
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)T;
 - (double);
 - (_Bool);
 - (id);
@@ -79,22 +64,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double allowedClockStretch; // @synthesize allowedClockStretch=_allowedClockStretch;
-@property(readonly, nonatomic) unsigned long long allowedLayoutStrategies; // @synthesize allowedLayoutStrategies=_allowedLayoutStrategies;
-@property(readonly, nonatomic) _Bool canInflate;
 @property(readonly, nonatomic) unsigned long long classification; // @synthesize classification=_classification;
-@property(readonly, nonatomic) _Bool computeSpatial; // @synthesize computeSpatial=_computeSpatial;
-@property(readonly, nonatomic) struct CGSize extendedImageSize;
-@property(readonly, nonatomic) _Bool hasTopEdgeContact; // @synthesize hasTopEdgeContact=_hasTopEdgeContact;
-@property(readonly, nonatomic) _Bool headroomFeasible; // @synthesize headroomFeasible=_headroomFeasible;
-@property(readonly, nonatomic) struct CGRect initialRect; // @synthesize initialRect=_initialRect;
-@property(readonly, nonatomic) PFParallaxLayoutConfiguration *layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
-@property(readonly, nonatomic) unsigned long long layoutType; // @synthesize layoutType=_layoutType;
-@property(readonly, nonatomic) struct CGSize originalImageSize; // @synthesize originalImageSize=_originalImageSize;
-@property(readonly, nonatomic) struct CGRect pixelEffectiveAcceptable; // @synthesize pixelEffectiveAcceptable=_pixelEffectiveAcceptable;
-@property(readonly, nonatomic) struct CGRect pixelEffectivePreferred; // @synthesize pixelEffectivePreferred=_pixelEffectivePreferred;
-@property(readonly, nonatomic) struct CGRect pixelValidBounds; // @synthesize pixelValidBounds=_pixelValidBounds;
-@property(readonly, nonatomic) double spatialPadding; // @synthesize spatialPadding=_spatialPadding;
 
 @end
 

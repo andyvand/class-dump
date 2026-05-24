@@ -7,9 +7,6 @@
 @interface AppStoreKit.PrimaryLocalization
 {
     id localizer;
-    id adsLocalizer;
-    id adsOverrideLanguage;
-    id legacyLocale;
 }
 
 @end

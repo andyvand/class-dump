@@ -20,14 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id)eReason;
+- (_Bool)U;
+- (id)lastChromeVisibilityChangeReason;
 - (long long)acceptInvitation]_block_invoke;
 - (void)ÜÖ"ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_dateRanges; // @synthesize _dateRanges=__dateRanges;
-@property(readonly, nonatomic) long long count;
 
 @end
 

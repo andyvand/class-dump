@@ -14,10 +14,10 @@
 }
 
 + (Class);
+- (id)ble to create message tracer domain;
+- (void)eturned %d;
 - (id);
-- (void);
-- (id);
-- (void)heEquivalent:toRequest: /* Error: Ran out of types for this method. */;
+- (void)requestIsCacheEquivalent:toRequest: /* Error: Ran out of types for this method. */;
 - (id)tring *getFLNotificationOptionForce(void);
 
 @end

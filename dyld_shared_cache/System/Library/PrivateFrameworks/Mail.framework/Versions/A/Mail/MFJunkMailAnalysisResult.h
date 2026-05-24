@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MFJunkMailAnalysisResult
 {
     long long _junkMailLevel;
-    NSString *_plainText;
 }
 
 - (void);
@@ -21,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) long long junkMailLevel; // @synthesize junkMailLevel=_junkMailLevel;
-@property(retain, nonatomic) NSString *plainText; // @synthesize plainText=_plainText;
 
 @end
 

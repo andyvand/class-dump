@@ -9,7 +9,6 @@
 @interface MSCollectionItem : MapsSync.MapsSyncObject
 {
     id _positionIndex;
-    id _collections;
 }
 
 + (Class);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)�(;
 - (void);
 - (long long);
 - (void);

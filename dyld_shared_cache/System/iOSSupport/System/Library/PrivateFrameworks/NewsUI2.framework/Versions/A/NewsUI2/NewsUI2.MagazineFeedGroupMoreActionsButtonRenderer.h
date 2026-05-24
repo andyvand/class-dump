@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineFeedGroupMoreActionsButtonRenderer
 {
     id commandCenter;
-    id tracker;
 }
 
 @end

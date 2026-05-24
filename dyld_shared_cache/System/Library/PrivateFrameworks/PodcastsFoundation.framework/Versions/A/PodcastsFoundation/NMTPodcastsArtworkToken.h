@@ -9,19 +9,16 @@
 @interface NMTPodcastsArtworkToken
 {
     void key;
-    id $__lazy_storage_$_backgroundColor;
-    id backgroundColorString;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)JQ;
 - (struct CGColor *);
 - (void)y_|Uy_SaySSSgGuVG¯Uy_Uy_&USo17OS_dispatch_queueCGACGG;
 
 // Remaining properties
-@property(nonatomic, retain) struct CGColor *backgroundColor;
 @property(nonatomic, readonly) NSString *key;
 
 @end

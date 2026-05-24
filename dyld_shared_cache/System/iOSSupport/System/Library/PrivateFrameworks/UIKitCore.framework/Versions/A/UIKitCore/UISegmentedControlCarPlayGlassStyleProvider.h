@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (id);
+- (_Bool)_noteDeviceHasMICForSMSRelay: /* Error: Ran out of types for this method. */;
+- (id)ting transfer GUID from %@ to %@;
 - (id)item passed to %@ must be an instance of UIDragItem;
 - (_Bool)DisplayState;
 

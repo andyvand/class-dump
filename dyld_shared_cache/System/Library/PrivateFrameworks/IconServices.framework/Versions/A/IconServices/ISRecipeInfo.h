@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)scannerResultFromXML:(id)arg1 stringToScan: /* Error: Ran out of types for this method. */;
++ (id)physicalMemory;
++ (id)enumerateKeysAndObjectsUsingBlock:(unsigned long long)arg1;
++ (id)enumerateAttribute:(unsigned long long)arg1 inRange:(id)arg2 options:(_Bool)arg3 usingBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

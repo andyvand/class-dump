@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCKDatabase, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IDSCloudKitTransportLog
 {
     NSObject<OS_dispatch_queue> *_queue;
-    IDSCKDatabase *_database;
 }
 
 + (id);
@@ -22,11 +21,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void)it;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSCKDatabase *database; // @synthesize database=_database;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

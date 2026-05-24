@@ -6,13 +6,9 @@
 
 #import <SearchFoundation/SFFeedback.h>
 
-@class NSString, SFCard;
-
 @interface SFCardViewAppearFeedback : SFFeedback
 {
     unsigned int _level;
-    SFCard *_card;
-    NSString *_fbr;
 }
 
 + (_Bool);

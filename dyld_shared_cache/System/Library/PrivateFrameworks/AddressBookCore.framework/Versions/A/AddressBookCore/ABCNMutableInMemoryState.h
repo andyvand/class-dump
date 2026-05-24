@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (void);
-- (void)ntRepositoryDidChange:(id)arg1;
+- (void)accountRepositoryDidChange:(id)arg1;
 
 @end
 

@@ -4,47 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSXPCInterface, NSXPCListener, Protocol;
+@class NSString;
 
 @interface SLServiceListener
 {
     Class _sessionClass;
-    Protocol *_serviceProtocol;
-    NSXPCInterface *_clientInterface;
-    NSXPCListener *_listener;
-    NSString *_persistentStoreName;
-    NSString *_managedObjectModelPath;
-    NSArray *_allowedEntitlements;
-    NSString *_serviceName;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)}@ for identifier expansion:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)siriClientBehaviorMonitor:(id)arg1 willStartStreamWithContext:(id)arg2 option:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain) NSXPCInterface *clientInterface; // @synthesize clientInterface=_clientInterface;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *managedObjectModelPath; // @synthesize managedObjectModelPath=_managedObjectModelPath;
-@property(retain) NSString *persistentStoreName; // @synthesize persistentStoreName=_persistentStoreName;
 @property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

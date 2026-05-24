@@ -6,19 +6,16 @@
 
 #import <UIKitCore/UIScenePresentationBinder.h>
 
-@class FBSDisplayConfiguration, NSMutableSet, UIMutableTransformer, UIRootSceneWindow;
+@class FBSDisplayConfiguration, UIMutableTransformer;
 
 @interface UIRootWindowScenePresentationBinder : UIScenePresentationBinder
 {
     FBSDisplayConfiguration *_displayConfiguration;
-    UIRootSceneWindow *_rootSceneWindow;
-    _Bool _shouldManageWindowLifecycle;
-    NSMutableSet *_presentedScenes;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)r:(long long)arg1 Told To Transcode and upload Parts of a Message to MMCS ;
+- (id)sible availability reply for sender with zero length handle;
 - (void);
 - (void);
 - (id);

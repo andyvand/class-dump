@@ -6,25 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ExecutorSiriSchemaExecutorSearchToolQueryCallEnded, ExecutorSiriSchemaExecutorSearchToolQueryCallFailed, ExecutorSiriSchemaExecutorSearchToolQueryCallStarted, NSData, SISchemaUUID;
+@class ExecutorSiriSchemaExecutorSearchToolQueryCallStarted;
 
 @interface ExecutorSiriSchemaExecutorSearchToolQueryCallContext : SISchemaInstrumentationMessage
 {
     ExecutorSiriSchemaExecutorSearchToolQueryCallStarted *_startedOrChanged;
-    ExecutorSiriSchemaExecutorSearchToolQueryCallEnded *_ended;
-    ExecutorSiriSchemaExecutorSearchToolQueryCallFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (void);
 - (void);
@@ -32,39 +24,30 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)S0x2C02,C0x31,S0x32ff,S0x8200,S0x8205,S0x8206,S0x820a,S0x820c,S0x8228,S0x823f,S0x8502,S0x8590,S0x8592,S0x8599;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)A;
+- (id)8Q;
 - (void);
-- (id);
-- (void);
+- (id)_setIdentifier:(id)arg1;
+- (void)A;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)\O;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)b1"isConnected"b1"hasDevice"b1"timeSinceLastNearbyChangeInSeconds"b1"isNearby"b1"isPreferringBtClassic"b1};
-- (id)emaTypingRequestTrace;
+- (id)SISchemaTypingRequestTrace;
 - (id)Ø{|;
 - (void)7G%;
 - (id)+;
 
 // Remaining properties
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorSearchToolQueryCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorSearchToolQueryCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ExecutorSiriSchemaExecutorSearchToolQueryCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

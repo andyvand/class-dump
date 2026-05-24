@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSViewController;
+
 @protocol VRXInteractionDelegate
+
+@optional
+- (void);
+- (NSViewController *)@0:8@16{CGPoint=dd}24{CGSize=dd}40B56@60 /* Error: Ran out of types for this method. */;
 @end
 

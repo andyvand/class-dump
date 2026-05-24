@@ -8,25 +8,24 @@ __attribute__((visibility("hidden")))
 @interface GEORPProblemOptInResponse
 {
     int _statusCode;
-    CDStruct_ade9d5f7 _flags;
 }
 
-+ (_Bool);
++ (_Bool)setLightGuidance:(id)arg1;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Remora;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ts"b1"read_directionsResponses"b1"read_directionsWaypointPlaceInfos"b1"read_lastSearchString"b1"read_lastUserTypedSearchString"b1"read_mapLocation"b1"read_merchantLookupContext"b1"read_navigationSettings"b1"read_originalPlace"b1"read_personalizedMaps"b1"read_placeInfo"b1"read_place"b1"read_servicesState"b1"read_tileStateLog"b1"read_transitLineTileInfo"b1"read_visibleTileSets"b1"wrote_anyField"b1};
-- (id)onSuggestions;
+- (id)collectionSuggestions;
 - (id)Ìø
 ìù
 ûLü;
@@ -36,7 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool hasStatusCode;
-@property(nonatomic) int statusCode;
 
 @end
 

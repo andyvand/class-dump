@@ -9,9 +9,6 @@
 @interface LAUser
 {
     id properties;
-    id disk;
-    id database;
-    id controller;
 }
 
 + (id);
@@ -46,13 +43,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool)D;
 - (_Bool);
 - (_Bool);
+- (id)R;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)NSt3__110__function6__funcIZN23CSCppMemoryMappingCache34read_size_ignoring_extra_bits_implILm5ELb0EEEbyPvEUlPKvE_FvS6_EEE;
+- (id)ASCIICapable;
 - (void);
 
 // Remaining properties

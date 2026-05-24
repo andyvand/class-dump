@@ -9,7 +9,6 @@
 @interface PKIdentityProvisioningTransactionKey
 {
     NSData *_casdAttestation;
-    NSData *_authorization;
 }
 
 + (_Bool)0@ù
@@ -17,12 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)dRequest;
+- (void)activeRequestInterrupted;
+- (void)PKProxCardRequest;
 - (id)Ahú¨;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *authorization; // @synthesize authorization=_authorization;
 @property(readonly, nonatomic) NSData *casdAttestation; // @synthesize casdAttestation=_casdAttestation;
 
 @end

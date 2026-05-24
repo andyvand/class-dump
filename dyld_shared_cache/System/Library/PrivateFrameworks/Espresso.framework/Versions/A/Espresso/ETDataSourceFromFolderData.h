@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface ETDataSourceFromFolderData
 {
     _Bool _balanceClassesForTraining;
-    int _numberOfClasses;
-    NSString *_imagesDir;
-    NSMutableDictionary *_folderToImages;
-    NSArray *_imageFileNames;
-    NSMutableArray *_classNames;
-    NSMutableDictionary *_pathToClassIndex;
 }
 
 - (void);
@@ -38,13 +32,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool balanceClassesForTraining; // @synthesize balanceClassesForTraining=_balanceClassesForTraining;
-@property(retain, nonatomic) NSMutableArray *classNames; // @synthesize classNames=_classNames;
-@property(retain, nonatomic) NSMutableDictionary *folderToImages; // @synthesize folderToImages=_folderToImages;
-@property(retain, nonatomic) NSArray *imageFileNames; // @synthesize imageFileNames=_imageFileNames;
 @property(retain, nonatomic) NSString *imagesDir; // @synthesize imagesDir=_imagesDir;
-@property int numberOfClasses; // @synthesize numberOfClasses=_numberOfClasses;
-@property(retain, nonatomic) NSMutableDictionary *pathToClassIndex; // @synthesize pathToClassIndex=_pathToClassIndex;
 
 @end
 

@@ -8,7 +8,6 @@
 {
     id _$scope;
     id _subHeader;
-    id _$observationRegistrar;
 }
 
 @end

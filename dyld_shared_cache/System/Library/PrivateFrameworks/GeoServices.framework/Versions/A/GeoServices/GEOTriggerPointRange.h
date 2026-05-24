@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTriggerPoint, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTriggerPointRange
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOTriggerPoint *_hideAtPoint;
-    GEOTriggerPoint *_showAtPoint;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _displayTime;
-    struct {
-        unsigned int has_displayTime:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_hideAtPoint:1;
-        unsigned int read_showAtPoint:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tNetworkEventSummary:(id)arg1;
++ (_Bool)setNetworkEventSummary:(id)arg1;
 - (id);
 - (void);
-- (id);
+- (id)framework/Versions/A/ApplePushService;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,31 +24,25 @@
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)objectEnumerator;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (id)Index:onRoute:withPosition: /* Error: Ran out of types for this method. */;
+- (id)initWithEnrouteNotice:enrouteNoticeIndex:legIndex:onRoute:withPosition: /* Error: Ran out of types for this method. */;
 - (id)OLatLng",R,N;
 - (id)unning Operations;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int displayTime;
-@property(nonatomic) _Bool hasDisplayTime;
-@property(readonly, nonatomic) _Bool hasHideAtPoint;
 @property(readonly, nonatomic) _Bool hasShowAtPoint;
-@property(retain, nonatomic) GEOTriggerPoint *hideAtPoint;
-@property(retain, nonatomic) GEOTriggerPoint *showAtPoint;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SXTextTangierStorage, TSDInfoGeometry, TSPObject;
-@protocol TSDContainerInfo, TSDOwningAttachment;
+@class SXTextTangierStorage;
 
 @interface SXStandaloneTextInfo
 {
     _Bool floatingAboveText;
-    _Bool anchoredToText;
-    _Bool inlineWithText;
-    _Bool attachedToBodyText;
-    TSDInfoGeometry *geometry;
-    TSPObject<TSDOwningAttachment> *owningAttachment;
-    NSObject<TSDContainerInfo> *parentInfo;
-    SXTextTangierStorage *_storage;
 }
 
 - (void);
@@ -27,7 +19,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,31 +34,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText; // @synthesize anchoredToText;
-@property(readonly, nonatomic, getter=isAttachedToBodyText) _Bool attachedToBodyText; // @synthesize attachedToBodyText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFloatingAboveText) _Bool floatingAboveText; // @synthesize floatingAboveText;
-@property(copy, nonatomic) TSDInfoGeometry *geometry; // @synthesize geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInlineWithText) _Bool inlineWithText; // @synthesize inlineWithText;
-@property(nonatomic) _Bool matchesObjectPlaceholderGeometry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) TSPObject<TSDOwningAttachment> *owningAttachment; // @synthesize owningAttachment;
-@property(readonly, nonatomic) TSPObject<TSDOwningAttachment> *owningAttachmentNoRecurse;
-@property(nonatomic) NSObject<TSDContainerInfo> *parentInfo; // @synthesize parentInfo;
 @property(readonly, nonatomic) SXTextTangierStorage *storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUPresenter, LUSearchTermIndicator, NSAttributedString;
+@class LUPresenter, LUSearchTermIndicator;
 
 __attribute__((visibility("hidden")))
 @interface LUPresenterAnimationController
 {
     LUSearchTermIndicator *_searchTermIndicator;
-    NSAttributedString *_displayedTerm;
-    struct CGPoint _displayedTermOrigin;
-    LUPresenter *_associatedPresenter;
 }
 
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (id);
 - (struct CGPoint);
 - (id);
-- (void);
+- (void)d;
 - (id);
 - (void);
 - (void);
@@ -31,9 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) LUPresenter *associatedPresenter; // @synthesize associatedPresenter=_associatedPresenter;
-@property(retain, nonatomic) NSAttributedString *displayedTerm; // @synthesize displayedTerm=_displayedTerm;
-@property(nonatomic) struct CGPoint displayedTermOrigin; // @synthesize displayedTermOrigin=_displayedTermOrigin;
-@property(retain, nonatomic) LUSearchTermIndicator *searchTermIndicator; // @synthesize searchTermIndicator=_searchTermIndicator;
 
 @end
 

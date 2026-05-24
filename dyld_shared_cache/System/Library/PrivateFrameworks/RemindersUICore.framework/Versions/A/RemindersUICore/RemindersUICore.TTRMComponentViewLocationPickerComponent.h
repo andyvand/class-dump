@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewLocationPickerComponent
 {
     id enabledState;
-    id locationString;
-    id locationPickerView;
-    id action;
 }
 
 @end

@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SAWSUpdateDataStore
 {
     NSMutableArray *_wsUpdateArray;
-    CDUnknownBlockType _wsUpdateCallbackBlock;
-    NSObject<OS_dispatch_queue> *_wsUpdateCallbackQueue;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityNextContents;
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)T;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

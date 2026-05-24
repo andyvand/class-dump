@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol NSXMLParserDelegate
+
+@optional
+- (NSData *)*DHE3;
+- (void);
+- (void)*;
+- (void)1*;
+- (void);
 @end
 

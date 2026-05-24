@@ -11,13 +11,11 @@
 @interface CEMSystemBasicWebContentFilterDeclaration_SiteWhiteListItem : CEMPayloadBase
 {
     NSString *_payloadAddress;
-    NSString *_payloadBookmarkPath;
-    NSString *_payloadPageTitle;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)fgheF;
 - (void);
 - (id);
 - (id);
@@ -25,14 +23,12 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ame, expected %u-byte buffer; ioOutputBufferLists[%u]->mBuffers[%u].mDataByteSize=%u; kAudio_ParamError;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadAddress; // @synthesize payloadAddress=_payloadAddress;
-@property(copy, nonatomic) NSString *payloadBookmarkPath; // @synthesize payloadBookmarkPath=_payloadBookmarkPath;
-@property(copy, nonatomic) NSString *payloadPageTitle; // @synthesize payloadPageTitle=_payloadPageTitle;
 
 @end
 

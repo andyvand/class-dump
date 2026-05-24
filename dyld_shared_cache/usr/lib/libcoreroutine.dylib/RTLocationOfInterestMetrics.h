@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTDefaultsManager, RTDistanceCalculator, RTLearnedLocationStore, RTLocationStore;
+@class RTDefaultsManager;
 
 @interface RTLocationOfInterestMetrics
 {
     RTDefaultsManager *_defaultsManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTLocationStore *_locationStore;
 }
 
 - (id);
 - (_Bool);
-- (void);
-- (int);
-- (id);
-- (id);
-- (id);
+- (void)ate key for Service Identity %@;
+- (int)stadium;
+- (id)spring;
+- (id)tWithData;
+- (id)set;
 - (id);
 - (void)available, data is not published;
 

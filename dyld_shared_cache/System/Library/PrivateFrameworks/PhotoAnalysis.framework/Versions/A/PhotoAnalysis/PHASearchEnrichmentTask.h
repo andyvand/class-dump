@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (int)escriptorsDeleted;
+- (int)numberOfInvalidDescriptorsDeleted;
 
 @end
 

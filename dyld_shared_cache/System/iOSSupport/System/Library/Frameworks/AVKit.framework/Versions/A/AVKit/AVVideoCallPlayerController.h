@@ -10,26 +10,22 @@ __attribute__((visibility("hidden")))
 @interface AVVideoCallPlayerController
 {
     _Bool _pictureInPicturePossible;
-    AVPictureInPictureControllerContentSource *_contentSource;
-    struct CGSize _contentDimensions;
 }
 
 - (void);
 - (void);
-- (long long);
+- (long long)dynamicIndicesAndTopIsDynamic:config: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)as a property on %@:(struct CGSize)arg1 %@;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (double)viorOfClass: /* Error: Ran out of types for this method. */;
-- (struct CGSize)WhenPlaybackBegins;
+- (double)behaviorOfClass: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_entersFullScreenWhenPlaybackBegins;
 
 // Remaining properties
-@property(nonatomic) struct CGSize contentDimensions; // @synthesize contentDimensions=_contentDimensions;
 @property(nonatomic) __weak AVPictureInPictureControllerContentSource *contentSource; // @synthesize contentSource=_contentSource;
-@property(nonatomic, getter=isPictureInPicturePossible) _Bool pictureInPicturePossible; // @synthesize pictureInPicturePossible=_pictureInPicturePossible;
 
 @end
 

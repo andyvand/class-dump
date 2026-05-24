@@ -7,21 +7,22 @@
 @class UIImage;
 
 @interface UnknownClass (CKUtils)
-+ (id);
-+ (_Bool);
++ (id)G;
++ (_Bool)s=-
+;
 + (_Bool);
 + (struct CGSize);
 + (double);
 + (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void)4@0:(id)arg1 8@"WKWebView"16@"NSDictionary"24@"WKFrameInfo"32@"WKFrameInfo"40@"NSObject<NSSecureCoding>"48@?<v@?>56;
+- (void)6@"NSNumber"24@"WKSecurityOrigin"32;
+- (id)ebView"16@?<v@?>24@?<v@?B>32;
+- (_Bool)gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer: /* Error: Ran out of types for this method. */;
+- (id)"NSManagedObjectContext",&,N,V_context;
 - (double);
 - (id);
-- (id);
+- (id)@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UIImage *image;

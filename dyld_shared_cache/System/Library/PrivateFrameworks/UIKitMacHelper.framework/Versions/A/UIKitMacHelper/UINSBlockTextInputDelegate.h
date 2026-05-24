@@ -7,11 +7,10 @@
 @interface UINSBlockTextInputDelegate
 {
     CDUnknownBlockType _willUpdateConnection;
-    CDUnknownBlockType _didUpdateConnection;
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType didUpdateConnection; // @synthesize didUpdateConnection=_didUpdateConnection;
 @property(copy, nonatomic) CDUnknownBlockType willUpdateConnection; // @synthesize willUpdateConnection=_willUpdateConnection;
 
 @end

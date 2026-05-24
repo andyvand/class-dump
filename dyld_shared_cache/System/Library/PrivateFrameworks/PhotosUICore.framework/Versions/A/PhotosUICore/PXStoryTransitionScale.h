@@ -6,14 +6,9 @@
 
 #import <PhotosUICore/PXStoryConcreteTransition.h>
 
-@class CAMediaTimingFunction;
-
 @interface PXStoryTransitionScale : PXStoryConcreteTransition
 {
     double _scaleRelativeFactor;
-    _Bool _zoomingOut;
-    CAMediaTimingFunction *_orderedAboveAnimationCurve;
-    CAMediaTimingFunction *_orderedBelowAnimationCurve;
 }
 
 - (void);

@@ -7,14 +7,10 @@
 @interface CKDPDate
 {
     double _time;
-    struct {
-        unsigned int time:1;
-    } _has;
 }
 
 
 // Remaining properties
 @property(nonatomic) _Bool hasTime;
-@property(nonatomic) double time; // @synthesize time=_time;
 @end
 

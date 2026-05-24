@@ -5,10 +5,11 @@
 //
 
 @protocol RTCMutableYUVPlanarBuffer
+- (char *)tionBits)0x80000000UL)) != 0);
+- (char *)Node->options) & ((XMP_OptionBits)0x80000000UL)) != 0);
+- (char *)RemoveSchemaChildren;
 
 // Remaining properties
-@property(readonly, nonatomic) char *mutableDataU;
-@property(readonly, nonatomic) char *mutableDataV;
 @property(readonly, nonatomic) char *mutableDataY;
 @end
 

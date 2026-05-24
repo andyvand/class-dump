@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable;
-@protocol CRKCancelable, CRKIDSPrimitives;
+@protocol CRKIDSPrimitives;
 
 @interface CRKPrimitiveBackedIDSMessageBroadcaster
 {
     id <CRKIDSPrimitives> _IDSPrimitives;
-    NSHashTable *_broadcastHandlers;
-    id <CRKCancelable> _messageSubscription;
 }
 
 + (id);
@@ -27,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKIDSPrimitives> IDSPrimitives; // @synthesize IDSPrimitives=_IDSPrimitives;
-@property(readonly, nonatomic) NSHashTable *broadcastHandlers; // @synthesize broadcastHandlers=_broadcastHandlers;
-@property(retain, nonatomic) id <CRKCancelable> messageSubscription; // @synthesize messageSubscription=_messageSubscription;
 
 @end
 

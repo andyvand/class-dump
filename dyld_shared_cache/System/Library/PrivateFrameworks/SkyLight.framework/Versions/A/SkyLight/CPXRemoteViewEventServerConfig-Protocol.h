@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BSServiceConnection, CPXRemoteViewEventManager, NSString;
+@protocol BSServiceConnectionHost;
+
 @protocol CPXRemoteViewEventServerConfig
+- (CPXRemoteViewEventManager *)Delegate _scheduleAutomatedImportWithLabel:(BSServiceConnection<BSServiceConnectionHost> *)arg1 activity:voucher:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (NSString *)uniqueIdentifier;
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITargetedPreview;
-
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionCrossBlurViewControllerTransition
 {
     struct CGRect _initialPlatterRect;
-    struct CGRect _finalPlatterRect;
-    _Bool _dismissTransition;
 }
 
 - (void);
@@ -25,18 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isDismissTransition) _Bool dismissTransition; // @synthesize dismissTransition=_dismissTransition;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UITargetedPreview *sourcePreview;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITargetedPreview",?,C,N
-
-@property(readonly) Class superclass;
 
 @end
 

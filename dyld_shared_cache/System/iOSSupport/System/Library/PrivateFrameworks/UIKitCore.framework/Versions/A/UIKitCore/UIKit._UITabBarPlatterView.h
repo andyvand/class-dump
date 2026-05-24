@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id)ule;
+- (id)_UIFocusDebugWindowLabelModule;
 - (void)D%&ÿ;
 
 @end

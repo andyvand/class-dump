@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _UIImageViewAnimationProperties
 {
     NSArray *_animationImages;
-    NSArray *_highlightedAnimationImages;
-    double _animationDuration;
-    long long _animationRepeatCount;
 }
 
-- (void);
+- (void)-;
 - (id);
 - (long long)thogonalScrollingDecelerationRate;
-- (id)indowSceneActivationPrewarmActionResponse;
+- (id)_UIWindowSceneActivationPrewarmActionResponse;
 - (void)ÿÿÿ;
 - (double)t;
 - (void)rray;
@@ -26,10 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)$Ò_;
 
 // Remaining properties
-@property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
 @property(retain, nonatomic) NSArray *animationImages; // @synthesize animationImages=_animationImages;
-@property(nonatomic) long long animationRepeatCount; // @synthesize animationRepeatCount=_animationRepeatCount;
-@property(retain, nonatomic) NSArray *highlightedAnimationImages; // @synthesize highlightedAnimationImages=_highlightedAnimationImages;
 
 @end
 

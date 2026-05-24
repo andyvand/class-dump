@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, NSArray, NSString;
-
 @interface INIntentResolutionResult
 {
     long long _resolutionResultCode;
-    NSArray *_disambiguationItems;
-    NSArray *_alternatives;
-    id _resolvedValue;
-    id _itemToConfirm;
-    unsigned long long _unsupportedReason;
-    unsigned long long _confirmationReason;
-    INIntent *_intentToExecute;
 }
 
 + (id);
++ (id)c;
++ (id);
++ (id);
++ (id)(;
 + (id);
 + (id);
 + (id);
@@ -26,25 +21,21 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)generateThumbnailForRequest:(id)arg1 updateHandler:(id)arg2 statusHandler:completionHandler: /* Error: Ran out of types for this method. */;
++ (id)nail:type:error: /* Error: Ran out of types for this method. */;
 + (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)Ծ$1;
 - (id);
 - (id);
 - (id);
@@ -58,31 +49,17 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)tiveSpeakableMatches;
-- (void)hCompletion: /* Error: Ran out of types for this method. */;
+- (id)alternativeSpeakableMatches;
+- (void)provideEntityNamesOptionsCollectionForMoveFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(nonatomic) unsigned long long confirmationReason; // @synthesize confirmationReason=_confirmationReason;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *disambiguationItems; // @synthesize disambiguationItems=_disambiguationItems;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) INIntent *intentToExecute; // @synthesize intentToExecute=_intentToExecute;
-@property(retain, nonatomic) id itemToConfirm; // @synthesize itemToConfirm=_itemToConfirm;
 @property(nonatomic) long long resolutionResultCode; // @synthesize resolutionResultCode=_resolutionResultCode;
-@property(retain, nonatomic) id resolvedValue; // @synthesize resolvedValue=_resolvedValue;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long unsupportedReason; // @synthesize unsupportedReason=_unsupportedReason;
 
 @end
 

@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface UIDictationPhrase
 {
     NSString *_text;
-    NSArray *_alternativeInterpretations;
-    long long _style;
 }
 
 + (id);
 + (id);
 + (_Bool)t must not be negative - height for index path (%@) is %g;
+- (id)PKPeerPaymentMessageTypeFromDataURL;
 - (id);
-- (id);
-- (long long);
-- (id);
+- (long long)tModification;
+- (id)K;
 - (id);
 - (id)_1Â0@ù
 × ;
 - (void)32r*36r*44r*52I60I64i68i72i76B80;
-- (_Bool)torActivationCountWithSuffix:(id)arg1;
-- (void)t:(id)arg1 inView: /* Error: Ran out of types for this method. */;
+- (_Bool)feedbackGeneratorActivationCountWithSuffix:(id)arg1;
+- (void)_visibleCellClosestToPoint:(id)arg1 inView: /* Error: Ran out of types for this method. */;
 - (void)N;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternativeInterpretations; // @synthesize alternativeInterpretations=_alternativeInterpretations;
 @property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

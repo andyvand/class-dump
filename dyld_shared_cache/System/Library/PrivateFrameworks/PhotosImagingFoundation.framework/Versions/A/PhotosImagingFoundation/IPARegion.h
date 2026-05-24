@@ -11,8 +11,10 @@
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
+- (id)SSypG;
+- (id)ion18_ErrorCodeProtocolP;
 - (id);
 - (id);
 - (id);
@@ -32,9 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -42,17 +42,18 @@
 - (double);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (id);
+- (id)ʐ
+;
 - (_Bool);
 - (unsigned long long);
 

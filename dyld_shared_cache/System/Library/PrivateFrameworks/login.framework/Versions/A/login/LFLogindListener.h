@@ -17,14 +17,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)y;
 - (id);
-- (id);
+- (id)e strictly positive.;
 - (void);
 
 // Remaining properties
 @property(retain) id <LFLogindListenerInterface> messageHandler; // @dynamic messageHandler;
-@property(retain) NSXPCInterface *privilegedInterface; // @synthesize privilegedInterface=_privilegedInterface;
 
 @end
 

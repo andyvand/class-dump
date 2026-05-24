@@ -6,50 +6,11 @@
 
 #import <MapKit/MKPlaceSectionViewController.h>
 
-@class MKPlaceSectionRowView, NSArray, NSLayoutConstraint, NSString, NSURL, UIImageView, UILayoutGuide, UIView, _MKDataHeaderModel, _MKLocalizedHoursBuilder, _MKTokenAttributedString, _MKUILabel;
-@protocol GEOTransitLineItem, MKPlaceCardHeaderViewControllerDelegate, _MKPlaceItem;
+@class _MKLocalizedHoursBuilder;
 
 @interface MKPlaceCardHeaderViewController : MKPlaceSectionViewController
 {
     unsigned long long _layout;
-    MKPlaceSectionRowView *_titleSectionView;
-    MKPlaceSectionRowView *_labelsSectionView;
-    UIImageView *_logoImageView;
-    _MKUILabel *_titleOnlyLabel;
-    _MKUILabel *_firstLabel;
-    _MKUILabel *_secondLabel;
-    _MKUILabel *_secondaryNameLabel;
-    _MKUILabel *_thirdLabel;
-    UIView *_thirdDisplayedLabel;
-    NSArray *_constraints;
-    UILayoutGuide *_leadingGuide;
-    NSURL *_logoURL;
-    _MKDataHeaderModel *_dataModel;
-    _MKTokenAttributedString *_titleToken;
-    _MKTokenAttributedString *_secondaryNameToken;
-    _MKTokenAttributedString *_distanceToken;
-    _MKTokenAttributedString *_ratingsToken;
-    _MKTokenAttributedString *_priceToken;
-    _MKTokenAttributedString *_categoryToken;
-    _MKTokenAttributedString *_openStateToken;
-    _MKTokenAttributedString *_userLocationToken;
-    _MKTokenAttributedString *_venueToken;
-    _MKTokenAttributedString *_verifiedToken;
-    NSLayoutConstraint *_titleTrailingConstraint;
-    NSLayoutConstraint *_secondLabelToFirstLabelConstraint;
-    NSLayoutConstraint *_lastLabelToBottomConstraint;
-    double _secondLabelToFirstLabelConstraintConstantMax;
-    double _secondLabelToFirstLabelConstraintConstantMin;
-    _Bool _isUserLocation;
-    _Bool _optionSmallScreen;
-    _Bool _constraintsCreated;
-    _Bool _notVerified;
-    double _lastMaskAlphaValueApplied;
-    id <_MKPlaceItem> _placeItem;
-    id <GEOTransitLineItem> _lineItem;
-    double _contentAlpha;
-    id <MKPlaceCardHeaderViewControllerDelegate> _delegate;
-    _MKLocalizedHoursBuilder *_localizedHoursBuilder;
 }
 
 + (double);
@@ -62,12 +23,12 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (double);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -79,12 +40,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)9h;
 - (id);
 - (void);
 - (id);
@@ -93,24 +54,11 @@
 - (void);
 - (void);
 - (void);
-- (void)y:(double)arg1;
-- (void)er;
+- (void)contactsAddressDictionaryFromGeoAddressDictionary:(double)arg1;
+- (void)canEnter3DModeFlyover;
 
 // Remaining properties
-@property(nonatomic) double contentAlpha; // @synthesize contentAlpha=_contentAlpha;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKPlaceCardHeaderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double lastLabelToBottomConstant;
-@property(readonly, nonatomic) id <GEOTransitLineItem> lineItem; // @synthesize lineItem=_lineItem;
 @property(retain, nonatomic) _MKLocalizedHoursBuilder *localizedHoursBuilder; // @synthesize localizedHoursBuilder=_localizedHoursBuilder;
-@property(readonly, nonatomic) id <_MKPlaceItem> placeItem; // @synthesize placeItem=_placeItem;
-@property(readonly, nonatomic) _Bool shouldShowCallToActionWithRatingHeaderInfo;
-@property(readonly) Class superclass;
 
 @end
 

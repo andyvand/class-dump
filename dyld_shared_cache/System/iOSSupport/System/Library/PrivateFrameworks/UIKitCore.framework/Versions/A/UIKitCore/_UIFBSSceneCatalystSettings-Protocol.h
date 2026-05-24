@@ -5,6 +5,8 @@
 //
 
 @protocol _UIFBSSceneCatalystSettings
+- (void);
+- (long long)8;
 
 // Remaining properties
 @property(nonatomic) long long hostingWindowCreationBehavior;

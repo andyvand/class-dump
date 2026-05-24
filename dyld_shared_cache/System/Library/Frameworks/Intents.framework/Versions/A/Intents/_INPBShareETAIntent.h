@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBShareETAIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_recipients;
 }
 
-+ (Class);
++ (Class)lastObject;
 + (_Bool);
 - (id);
 - (id);
@@ -27,25 +25,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool)ength;
 - (void)Sent;
 - (id)atRow;
-- (void)eCodeFailureCallRinging;
+- (void)INStartCallIntentResponseCodeFailureCallRinging;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(readonly) Class superclass;
 
 @end
 

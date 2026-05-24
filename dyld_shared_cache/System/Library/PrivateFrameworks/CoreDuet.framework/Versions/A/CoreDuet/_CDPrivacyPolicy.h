@@ -7,7 +7,6 @@
 @interface _CDPrivacyPolicy
 {
     _Bool canPersistOnStorage;
-    double temporalPrecision;
 }
 
 + (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canPersistOnStorage; // @synthesize canPersistOnStorage;
-@property(readonly, nonatomic) double temporalPrecision; // @synthesize temporalPrecision;
 
 @end
 

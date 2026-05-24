@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)UIToolbarButtonAccessibility__PhotoLibrary__UIKit;
 - (_Bool);
 - (id);
 - (id);

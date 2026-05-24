@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @protocol _SFPBEngagementSignal
+- (void);
+- (unsigned long long);
+- (NSData *)Label;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *domainEngagementScores;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float localScore;
-@property(nonatomic) int localScoreConfidence;
-@property(nonatomic) float serverScore;
-@property(nonatomic) int serverScoreConfidence;
 @property(nonatomic) int version;
 @end
 

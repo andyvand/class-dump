@@ -6,7 +6,7 @@
 
 #import <LinkPresentation/LPFetcherResponse.h>
 
-@class LPARAsset, NSString;
+@class LPARAsset;
 
 __attribute__((visibility("hidden")))
 @interface LPFetcherARAssetResponse : LPFetcherResponse
@@ -14,23 +14,16 @@ __attribute__((visibility("hidden")))
     LPARAsset *_arAsset;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-- (id);
-- (id);
++ (id)startDownloadingTranslationAssetsForLanguageCodes:(id)arg1 completion:(id)arg2;
++ (_Bool)sourceSceneIdentifier;
++ (id)showFullScreenPresentationFromView:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)stopSuppressingSoundsForBulletinMessagesWithChatItems:(id)arg1;
+- (id)showBrowserForPlugin:dataSource:style: /* Error: Ran out of types for this method. */;
 - (void)qð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) LPARAsset *arAsset; // @synthesize arAsset=_arAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

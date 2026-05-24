@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBiometricsSignatureResult, NSError, NSNumber, NSString;
+@class NSError;
 
 __attribute__((visibility("hidden")))
 @interface _PaymentSheetState
 {
     _Bool _didAuthorizePayment;
-    _Bool _didBiometricsLockout;
-    _Bool _didPresent;
-    NSError *_error;
-    unsigned long long _cancellationType;
-    NSString *_passwordEquivalentToken;
-    NSNumber *_paymentMethodType;
-    NSString *_paymentToken;
-    AMSBiometricsSignatureResult *_signatureResult;
 }
 
 - (void);
@@ -28,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)$;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -42,15 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)É¥1B»ªX.`GVöÚçXý9(`ÐAp@¥ôL¬´>ìî,IC1ñ*óY=]K8ÃëyÍf~_¦T¤kxX®ô7J;$êÔmB^å«ïpLMXaÅ÷Ú&»t(ë¢¯ßÞÝ"vªeTd¸p`ó´ðpQ||=ö½`F0Ñ¿t !E×Ç¥ÁVm1 ²"µ»'¹áõOäá§¹ÐTéô÷¥ÓÝÿ|PFÃáû_$8tj~ÔÖk/x;Ôô×è¡(ä¨n`&ì«E]ùµYjðy?ÀÉQ*Ü?7i|Iñy5+Ø+láì{÷(;
 
 // Remaining properties
-@property unsigned long long cancellationType; // @synthesize cancellationType=_cancellationType;
-@property _Bool didAuthorizePayment; // @synthesize didAuthorizePayment=_didAuthorizePayment;
-@property _Bool didBiometricsLockout; // @synthesize didBiometricsLockout=_didBiometricsLockout;
-@property _Bool didPresent; // @synthesize didPresent=_didPresent;
 @property(retain) NSError *error; // @synthesize error=_error;
-@property(retain) NSString *passwordEquivalentToken; // @synthesize passwordEquivalentToken=_passwordEquivalentToken;
-@property(retain) NSNumber *paymentMethodType; // @synthesize paymentMethodType=_paymentMethodType;
-@property(retain) NSString *paymentToken; // @synthesize paymentToken=_paymentToken;
-@property(retain) AMSBiometricsSignatureResult *signatureResult; // @synthesize signatureResult=_signatureResult;
 
 @end
 

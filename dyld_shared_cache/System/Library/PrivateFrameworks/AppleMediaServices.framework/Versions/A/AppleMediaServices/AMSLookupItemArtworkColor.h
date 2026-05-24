@@ -7,14 +7,11 @@
 @interface AMSLookupItemArtworkColor
 {
     double _alpha;
-    double _blue;
-    double _green;
-    double _red;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)p:(double)arg1 %@, tagToVerify:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (double);
@@ -23,9 +20,6 @@
 
 // Remaining properties
 @property double alpha; // @synthesize alpha=_alpha;
-@property double blue; // @synthesize blue=_blue;
-@property double green; // @synthesize green=_green;
-@property double red; // @synthesize red=_red;
 
 @end
 

@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHomeManagerDatabaseID, NSArray, NSDate, NSDictionary, NSNumber, NSString, NSUUID;
-@protocol MKFAccount, MKFHAPMetadata, MKFHomeManagerHome;
+@class NSArray, NSDictionary, NSNumber, NSUUID;
+@protocol MKFAccount, MKFHAPMetadata;
 
 @protocol MKFHomeManager
+- (void);
+- (NSNumber *)%{public}@);
+- (void);
+- (NSArray *);
 - (NSArray *)tsList;
 - (NSDictionary *)#\$´$t,,<.Ø.;
 - (void)ublic}@Cannot update access mode:(id <MKFHAPMetadata>)arg1 camera accessory or profile is nil;
@@ -15,16 +19,6 @@
 - (NSArray *)oto.PET.ActivityLogger.HMDService;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *accounts;
 @property(retain, nonatomic) NSDictionary *appDataDictionary;
-@property(copy, nonatomic) NSNumber *assistantSyncDataPosted;
-@property(copy, nonatomic) NSString *controllerKeyIdentifier;
-@property(readonly, copy, nonatomic) MKFHomeManagerDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) NSArray *homes;
-@property(readonly, retain, nonatomic) NSArray *incomingInvitations;
-@property(retain, nonatomic) id <MKFHAPMetadata> metadata;
-@property(retain, nonatomic) NSArray *pairingAppleAccessories;
-@property(retain, nonatomic) id <MKFHomeManagerHome> primaryHome;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

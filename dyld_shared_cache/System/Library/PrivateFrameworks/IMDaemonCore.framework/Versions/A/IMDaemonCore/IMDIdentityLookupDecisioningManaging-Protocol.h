@@ -5,5 +5,6 @@
 //
 
 @protocol IMDIdentityLookupDecisioningManaging
+- (_Bool);
 @end
 

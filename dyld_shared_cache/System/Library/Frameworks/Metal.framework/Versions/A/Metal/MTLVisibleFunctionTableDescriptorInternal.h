@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 + (id)ä;
 + (id)¢«;
 - (void);
-- (void);
+- (void)samplingY;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (id)i;
+- (_Bool)`;
 - (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (unsigned long long)sourceEEEEEvRT_NS_10option_setINS0_12region_usageEjEERKNSt3__18functionIFvSA_NS0_5blockEEEEEUlSA_mmE_;
 - (_Bool);
 - (void);
 

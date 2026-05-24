@@ -6,18 +6,17 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SANPMoveOutputGroupToDevices : SABaseClientBoundCommand
 {
 }
 
 + (id);
-+ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *groupID;
-@property(copy, nonatomic) NSArray *hashedRouteUIDs;
 
 @end
 

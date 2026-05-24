@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TransceiverWrapper
 {
     id <SETransceiver> _transceiver;
-    struct _CircularBuffer *_circbuff;
-    unsigned char _circBuffStorage[4096];
-    _Bool _isMultiOS;
 }
 
 + (id);

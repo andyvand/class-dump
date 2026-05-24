@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UICollectionLayoutContainer, _UICollectionViewListLayoutSectionConfiguration;
+@class _UICollectionViewListLayoutSectionConfiguration;
 @protocol NSCollectionLayoutEnvironment_Private;
 
 @interface _UICollectionViewListLayoutSection
 {
     _UICollectionViewListLayoutSectionConfiguration *_configuration;
-    struct {
-        unsigned int hasCustomizedContentInsets:1;
-    } _sectionFlags;
-    long long _headerFooterPinningBehavior;
-    double _paddingToBoundarySupplementaries;
-    id <NSCollectionLayoutEnvironment_Private> _layoutEnvironment;
-    struct NSDirectionalEdgeInsets _defaultSectionContentInsets;
-    struct NSDirectionalEdgeInsets _defaultDirectionalLayoutMargins;
-    struct NSDirectionalEdgeInsets _defaultSeparatorInsets;
 }
 
 - (struct NSDirectionalEdgeInsets);
@@ -26,23 +17,23 @@
 - (struct UIEdgeInsets);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)String",C,N,V_statusUDID;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)volumeControllerDataSource:(id)arg1 didChangeVolumeLabel: /* Error: Ran out of types for this method. */;
+- (void)hasLanguageOptions;
+- (id)constraintWithItem:(id)arg1 attribute:(id)arg2 relatedBy:toItem:attribute:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (_Bool)MPModelPropertyRadioStationContainsVideo;
 - (struct UIEdgeInsets);
 - (_Bool);
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (_Bool);
 - (void);
@@ -63,25 +54,25 @@
 - (id)Interaction>"16;
 - (unsigned long long)16@0:8 /* Error: Ran out of types for this method. */;
 - (struct NSDirectionalEdgeInsets)butedString"B>64;
-- (struct NSDirectionalEdgeInsets)ion;
-- (double)ataKind;
-- (double)TextualContext;
-- (id)setShouldInvokeCancelActionOnDimmingViewTap: /* Error: Ran out of types for this method. */;
-- (long long)eContentViewControllerContainerViewSubviews;
-- (double)omTransition;
-- (void)ath: /* Error: Ran out of types for this method. */;
+- (struct NSDirectionalEdgeInsets)updateFromQuickAction;
+- (double)dataKind;
+- (double)accessibilityTextualContext;
+- (id)_setShouldInvokeCancelActionOnDimmingViewTap: /* Error: Ran out of types for this method. */;
+- (long long)_removeContentViewControllerContainerViewSubviews;
+- (double)_isInCustomTransition;
+- (void)_cachedSupplementaryAttributesForElementKind:indexPath: /* Error: Ran out of types for this method. */;
 - (void)rtedAnimationTracking;
 - (id)ustomizationSession",&,N,V__activeSession;
 - (_Bool)tion",&,N,V_interactionForSpringLoading;
-- (_Bool)nterfaceActionRepresentationViewContext_GlassAppleTV;
+- (_Bool)_UIInterfaceActionRepresentationViewContext_GlassAppleTV;
 - (void);
 - (_Bool);
 - (struct NSDirectionalEdgeInsets);
 - (unsigned long long);
 - (id)(%@, %@) ;
-- (struct NSDirectionalEdgeInsets)fersGrabberVisible;
+- (struct NSDirectionalEdgeInsets)_prefersGrabberVisible;
 - (id)ntroller must call -[super initWithCoder:] when created from -[%@ %@] /* Error: Ran out of types for this method. */;
-- (id)ISplitViewControllerAllowAutoHidesColumns;
+- (id)UISplitViewControllerAllowAutoHidesColumns;
 - (void)%@;
 - (id)ateLayoutWithContext:] is not an instance of type UICollectionViewFlowLayoutInvalidationContext or a subclass. Collection view:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)yïÜ.3yAHy¾¾7ALyN¼.3GGSOGGGAPG_¾Ý.3Qo__AFQo__7~.3Qo__Qo_ALyH­.3GGGG;
@@ -92,20 +83,7 @@
 - (void)ÔC³ÿ;×t&^;
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets _defaultDirectionalLayoutMargins; // @synthesize _defaultDirectionalLayoutMargins;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets _defaultSectionContentInsets; // @synthesize _defaultSectionContentInsets;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets _defaultSeparatorInsets; // @synthesize _defaultSeparatorInsets;
-@property(readonly, nonatomic) long long _headerFooterPinningBehavior; // @synthesize _headerFooterPinningBehavior;
-@property(readonly, nonatomic) _UICollectionLayoutContainer *_layoutContainer;
-@property(readonly, nonatomic) double _paddingToBoundarySupplementaries; // @synthesize _paddingToBoundarySupplementaries;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=_layoutEnvironment) id <NSCollectionLayoutEnvironment_Private> layoutEnvironment; // @synthesize layoutEnvironment=_layoutEnvironment;
-@property(readonly) Class superclass;
 
 @end
 

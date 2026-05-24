@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)insertSerializedDictationResult:withCorrectionIdentifier: /* Error: Ran out of types for this method. */;
 + (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)@;
 
 @end
 

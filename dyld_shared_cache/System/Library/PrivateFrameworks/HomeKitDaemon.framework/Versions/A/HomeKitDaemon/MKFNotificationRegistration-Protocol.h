@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFNotificationRegistrationDatabaseID, NSDate, NSNumber, NSString;
-@protocol MKFGuest, MKFHome, MKFUser;
+@class NSDate, NSNumber, NSString;
+@protocol MKFHome, MKFUser;
 
 @protocol MKFNotificationRegistration
+- (NSString *)hasHidden;
 - (id <MKFHome>);
 - (NSDate *)ession %{public,uuid_t}.16P;
 - (NSNumber *)date captured %@ or image data %@ is missing;
-- (id <MKFUser>)erverChangeTokenExpired;
-- (void)t;
+- (id <MKFUser>)ServerChangeTokenExpired;
+- (void)outlet;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFNotificationRegistrationDatabaseID *databaseID;
 @property(copy, nonatomic) NSString *deviceIdsDestination;
-@property(copy, nonatomic) NSNumber *enabled;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(readonly) id <MKFHome> home;
-@property(copy, nonatomic) NSDate *lastModified;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

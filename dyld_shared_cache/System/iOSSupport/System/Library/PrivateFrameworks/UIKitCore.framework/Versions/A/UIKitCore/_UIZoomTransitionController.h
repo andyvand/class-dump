@@ -4,39 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController, _UIDismissInteraction, _UIViewAlphaOverrideAssertion, _UIZoomViewControllerTransition;
+@class _UIZoomViewControllerTransition;
 
 @interface _UIZoomTransitionController
 {
     _UIZoomViewControllerTransition *clientTransition;
-    _Bool isZoomingIn;
-    void owningViewController;
-    _UIDismissInteraction *dismissInteraction;
-    id activeTransitionContext;
-    id isForNavigation;
-    id morphAnimation;
-    id dimmingView;
-    id foregroundView;
-    id backgroundView;
-    id viewToScaleBack;
-    id isPreempting;
-    id morphInteractionAssertion;
-    id shimPropertyAnimator;
-    id shimAnimationView;
-    id transitionOverlayView;
-    id fallbackSourceView;
-    _UIViewAlphaOverrideAssertion *sourceViewHidingAssertion;
-    id showcasePortal;
-    id toolbarTransitionController;
-    id style;
-    id behaviors;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
+- (_Bool)up pipeline for transcript background command received fromID:%@, result:%@ /* Error: Ran out of types for this method. */;
+- (id)sts to retry later;
+- (id)d error %@;
+- (void).messages.profiles;
+- (void)M&;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -60,11 +39,11 @@
 - (double);
 - (void);
 - (id);
-- (id)ehavior:(id)arg1 interactionEffect:activationHandler: /* Error: Ran out of types for this method. */;
+- (id)initWithInteractionBehavior:(id)arg1 interactionEffect:activationHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)boardIntroduction;
-- (_Bool)ollisionBitMask;
-- (id)aultTitle;
+- (void)dismissGestureKeyboardIntroduction;
+- (_Bool)collisionBitMask;
+- (id)_defaultTitle;
 - (void)keyViewAnimator;
 - (void);
 - (void)0q;
@@ -73,17 +52,7 @@
 - (void)rfÝ	m;
 
 // Remaining properties
-@property(nonatomic, readonly) UIView *_navigationBarTransitionOverlay;
-@property(nonatomic, readonly) long long _navigationBarTransitionVariant;
-@property(nonatomic, readonly) _Bool _shouldAnimateBottomBarVisibility;
-@property(nonatomic, readonly) _Bool _shouldCrossFadeBottomBars;
 @property(nonatomic, retain) _UIZoomViewControllerTransition *clientTransition; // @synthesize clientTransition;
-@property(nonatomic, retain) _UIDismissInteraction *dismissInteraction; // @synthesize dismissInteraction;
-@property(nonatomic) _Bool isZoomingIn; // @synthesize isZoomingIn;
-@property(nonatomic) __weak UIViewController *owningViewController; // @synthesize owningViewController;
-@property(nonatomic, readonly) _Bool prefersPreemptionEnabledForPresentations;
-@property(nonatomic, retain) _UIViewAlphaOverrideAssertion *sourceViewHidingAssertion; // @synthesize sourceViewHidingAssertion;
-@property(nonatomic, readonly) _Bool wantsInteractiveStart;
 
 @end
 

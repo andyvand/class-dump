@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface AFAnnouncementContext
 {
     _Bool _isSameAppIdAsLastAnnounce;
-    long long _platform;
-    long long _notificationType;
-    NSDate *_lastAnnouncementTimestamp;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (_Bool);
+- (id)k;
+- (long long);
+- (id)accountsWithRequest:(CDUnknownBlockType)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)B;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool)timerWithTimeInterval:(id)arg1 target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
+- (void)P;
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (long long);
-- (id);
-- (void)udioSessionActiveContextMutation;
+- (void)_AFSetAudioSessionActiveContextMutation;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSameAppIdAsLastAnnounce; // @synthesize isSameAppIdAsLastAnnounce=_isSameAppIdAsLastAnnounce;
-@property(readonly, copy, nonatomic) NSDate *lastAnnouncementTimestamp; // @synthesize lastAnnouncementTimestamp=_lastAnnouncementTimestamp;
-@property(readonly, nonatomic) long long notificationType; // @synthesize notificationType=_notificationType;
 @property(readonly, nonatomic) long long platform; // @synthesize platform=_platform;
 
 @end

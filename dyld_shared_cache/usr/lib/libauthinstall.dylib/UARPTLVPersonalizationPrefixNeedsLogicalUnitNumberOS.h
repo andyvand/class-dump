@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id)P;
 + (id);
 + (unsigned int);
 - (id);
 - (void);
 - (unsigned char);
 - (id);
-- (id);
+- (id)stateDescription;
 
 // Remaining properties
 @property(readonly) unsigned char prefixNeedsLogicalUnitNumber; // @synthesize prefixNeedsLogicalUnitNumber=_prefixNeedsLogicalUnitNumber;

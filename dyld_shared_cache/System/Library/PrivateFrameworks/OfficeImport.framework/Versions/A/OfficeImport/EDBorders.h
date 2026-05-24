@@ -10,26 +10,19 @@ __attribute__((visibility("hidden")))
 @interface EDBorders
 {
     EDResources *mResources;
-    unsigned long long mLeftBorderIndex;
-    unsigned long long mRightBorderIndex;
-    unsigned long long mTopBorderIndex;
-    unsigned long long mBottomBorderIndex;
-    unsigned long long mDiagonalBorderIndex;
-    unsigned long long mVerticalBorderIndex;
-    unsigned long long mHorizontalBorderIndex;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -41,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)Z;
 - (void)ÿÿ(;
 
 @end

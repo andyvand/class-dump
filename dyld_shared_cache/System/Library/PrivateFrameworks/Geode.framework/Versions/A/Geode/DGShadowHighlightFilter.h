@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGShadowHighlightFilter
 {
     CIImage *inputImage;
-    NSNumber *inputShadowAmount;
-    NSNumber *inputShadowTonalWidth;
-    NSNumber *inputRadius;
-    NSNumber *inputHighlightAmount;
-    NSNumber *inputHighlightTonalWidth;
-    NSNumber *inputColorCorrection;
-    NSNumber *inputMidtoneContrast;
-    NSNumber *inputVersion;
 }
 
 + (id);
-+ (void)icAberrationOperation;
++ (void)DGChromaticAberrationOperation;
 - (id);
 - (id);
 - (void);

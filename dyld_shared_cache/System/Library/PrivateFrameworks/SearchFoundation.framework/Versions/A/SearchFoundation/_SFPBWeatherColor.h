@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate, _SFPBLatLng;
+@class NSString;
 
 @interface _SFPBWeatherColor
 {
     NSString *_condition;
-    _SFPBLatLng *_location;
-    _SFPBDate *_date;
-    double _cloudCover;
-    double _cloudCoverLowAltPct;
-    double _cloudCoverMidAltPct;
-    double _cloudCoverHighAltPct;
 }
 
+- (void)%;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (double);
 - (double);
 - (double);
 - (double);
 - (id);
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)vuIndexIsFullClustered;
+- (id)setInviteeHashedPersonID:(id)arg1;
+- (id)h;
 - (void);
 - (id);
 - (id);
@@ -44,21 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double cloudCover; // @synthesize cloudCover=_cloudCover;
-@property(nonatomic) double cloudCoverHighAltPct; // @synthesize cloudCoverHighAltPct=_cloudCoverHighAltPct;
-@property(nonatomic) double cloudCoverLowAltPct; // @synthesize cloudCoverLowAltPct=_cloudCoverLowAltPct;
-@property(nonatomic) double cloudCoverMidAltPct; // @synthesize cloudCoverMidAltPct=_cloudCoverMidAltPct;
 @property(copy, nonatomic) NSString *condition; // @synthesize condition=_condition;
-@property(retain, nonatomic) _SFPBDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBLatLng *location; // @synthesize location=_location;
-@property(readonly) Class superclass;
 
 @end
 

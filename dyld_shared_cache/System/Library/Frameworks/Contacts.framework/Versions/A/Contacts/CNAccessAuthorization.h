@@ -16,19 +16,19 @@
 + (id);
 + (_Bool);
 + (id);
++ (id)ary",&,V_dictionary;
 + (id);
-+ (id);
 - (id);
+- (id)?-;
 - (id);
-- (id);
-- (void);
+- (void)ndle"16@"NSString"24q32q40@?<v@?@"NSFileHandle"@"NSError">48;
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id)substringFromIndex:(id)arg1;
 - (id);
-- (id);
-- (void)ryProperties;
+- (void)summaryProperties;
 
 // Remaining properties
 @property(readonly, nonatomic) CNAuthorizationContext *authorizer; // @synthesize authorizer=_authorizer;

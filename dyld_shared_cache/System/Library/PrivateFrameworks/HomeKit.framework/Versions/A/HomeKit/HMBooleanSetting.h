@@ -11,7 +11,7 @@
     _Bool _boolValue;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)ideologist;
 - (id);
 
 // Remaining properties

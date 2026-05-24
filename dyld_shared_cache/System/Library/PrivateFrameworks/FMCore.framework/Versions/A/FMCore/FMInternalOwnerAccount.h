@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FMInternalOwnerAccount
 {
     NSString *_personId;
-    NSString *_username;
-    NSString *_firstName;
-    NSString *_lastName;
 }
 
 - (void);
@@ -21,17 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)carPlay;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
 @property(copy, nonatomic) NSString *personId; // @synthesize personId=_personId;
-@property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

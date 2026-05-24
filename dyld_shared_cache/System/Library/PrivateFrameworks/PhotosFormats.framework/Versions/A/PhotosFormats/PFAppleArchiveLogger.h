@@ -12,7 +12,7 @@
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id)UsoTaskBuilder_noVerb_common_SiriPossession;
 - (_Bool);
 
 @end

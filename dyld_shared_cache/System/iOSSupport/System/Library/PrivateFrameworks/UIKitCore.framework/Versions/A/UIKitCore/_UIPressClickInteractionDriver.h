@@ -4,40 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIGestureRecognizer, UIView, _UISimplePressGestureRecognizer;
-@protocol _UIClickInteractionDriverDelegate;
+@class _UISimplePressGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UIPressClickInteractionDriver
 {
     _Bool _cancelsTouchesInView;
-    id <_UIClickInteractionDriverDelegate> _delegate;
-    UIView *_view;
-    double _allowableMovement;
-    NSArray *_triggers;
-    _UISimplePressGestureRecognizer *_pressGR;
 }
 
 + (_Bool)!´@ùQ^°1Â0@ù
 × ;
-+ (_Bool)hadowBlurRadius;
++ (_Bool)inputShadowBlurRadius;
 - (void);
-- (unsigned long long);
+- (unsigned long long)canShowCloudDownloadButtonsDidChangeNotification: /* Error: Ran out of types for this method. */;
 - (double);
-- (id);
+- (id)MPModelPropertyPlaylistAuthorRole;
 - (void);
-- (struct CGPoint);
-- (id);
+- (struct CGPoint)P;
+- (id)7;
 - (void);
 - (void);
 - (void)1Â0@ù
 × ;
-- (void)View:(id)arg1 dataOwnerForDragSession: /* Error: Ran out of types for this method. */;
-- (void)ocusItemAtIndexPath:(double)arg1;
+- (void)_webView:(id)arg1 dataOwnerForDragSession: /* Error: Ran out of types for this method. */;
+- (void)_collectionView:(double)arg1 didFocusItemAtIndexPath: /* Error: Ran out of types for this method. */;
 - (id)licitlySetGraphicsQuality;
 - (void)sualEffectView",&,N,V_selectionView;
-- (void)tIndexPath;
-- (_Bool)laryOffsets;
+- (void)targetIndexPath;
+- (_Bool)_UICollectionLayoutAuxillaryOffsets;
 - (double)Ôh;
 - (id)B24;
 - (id)@; dataSource:<%@:%p>> /* Error: Ran out of types for this method. */;
@@ -53,34 +47,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Õÿ;
 
 // Remaining properties
-@property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;
-@property(readonly, nonatomic) _Bool allowsFeedback;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool cancelsTouchesInView; // @synthesize cancelsTouchesInView=_cancelsTouchesInView;
-@property(readonly, nonatomic) _Bool clicksUpAutomaticallyAfterTimeout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIClickInteractionDriverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long driverStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly, nonatomic) _Bool hasExceededAllowableMovement;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long inputPrecision;
-@property(readonly, nonatomic) _Bool isCurrentlyAcceleratedByForce;
-@property(readonly, nonatomic) double maximumEffectProgress;
 @property(retain, nonatomic) _UISimplePressGestureRecognizer *pressGR; // @synthesize pressGR=_pressGR;
-@property(readonly, nonatomic) UIGestureRecognizer *primaryGestureRecognizer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double touchDuration;
-@property(retain, nonatomic) NSArray *triggers; // @synthesize triggers=_triggers;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

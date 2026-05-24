@@ -6,24 +6,14 @@
 
 #import <PhotosUICore/PXSettings.h>
 
-@class NSString;
-
 @interface PXApplicationSettings : PXSettings
 {
     _Bool _wantsPseudostringsWithSpecialCharacters;
-    _Bool _wantsPseudostringsWithIncreasedLength;
-    _Bool _enableSlideshowAction;
-    _Bool _enablePlayMovieAction;
-    _Bool _shouldClearUndoStackAutomatically;
-    double _defaultNavigationTimeoutDuration;
-    NSString *_stringWithSpecialCharacters;
-    long long _pseudoStringsLengthIncreaseFactor;
-    double _backgroundThresholdDurationForUndoActionsInvalidation;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)yer",&,N,V_repContainerLayer;
 + (id)¡: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
@@ -34,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -46,18 +36,10 @@
 - (void);
 - (id);
 - (void);
-- (void)ator;
+- (void)OneUpSharePlaySessionHostCoordinator;
 
 // Remaining properties
-@property(nonatomic) double backgroundThresholdDurationForUndoActionsInvalidation; // @synthesize backgroundThresholdDurationForUndoActionsInvalidation=_backgroundThresholdDurationForUndoActionsInvalidation;
 @property(nonatomic) double defaultNavigationTimeoutDuration; // @synthesize defaultNavigationTimeoutDuration=_defaultNavigationTimeoutDuration;
-@property(nonatomic) _Bool enablePlayMovieAction; // @synthesize enablePlayMovieAction=_enablePlayMovieAction;
-@property(nonatomic) _Bool enableSlideshowAction; // @synthesize enableSlideshowAction=_enableSlideshowAction;
-@property(nonatomic) long long pseudoStringsLengthIncreaseFactor; // @synthesize pseudoStringsLengthIncreaseFactor=_pseudoStringsLengthIncreaseFactor;
-@property(nonatomic) _Bool shouldClearUndoStackAutomatically; // @synthesize shouldClearUndoStackAutomatically=_shouldClearUndoStackAutomatically;
-@property(copy, nonatomic) NSString *stringWithSpecialCharacters; // @synthesize stringWithSpecialCharacters=_stringWithSpecialCharacters;
-@property(nonatomic) _Bool wantsPseudostringsWithIncreasedLength; // @synthesize wantsPseudostringsWithIncreasedLength=_wantsPseudostringsWithIncreasedLength;
-@property(nonatomic) _Bool wantsPseudostringsWithSpecialCharacters; // @synthesize wantsPseudostringsWithSpecialCharacters=_wantsPseudostringsWithSpecialCharacters;
 
 @end
 

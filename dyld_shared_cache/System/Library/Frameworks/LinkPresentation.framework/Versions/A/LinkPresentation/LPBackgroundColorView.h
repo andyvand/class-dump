@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSColor *_color;
 }
 
-- (void);
+- (void)In;
 - (id);
 - (void);
 - (id);

@@ -6,14 +6,12 @@
 
 #import <SpotlightServerKit/MDSMachPortObject.h>
 
-@class MDSMachSubsystem, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MDSTwoFaceMachPortObject : MDSMachPortObject
 {
     NSObject<OS_dispatch_queue> *_backgroundQueue;
-    unsigned int _backgroundPort;
-    MDSMachSubsystem *_backgroundSubsystem;
 }
 
 - (void);
@@ -23,7 +21,7 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)isInternalBuild;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWColorLookupCache, CIFilter, NSData, NSString;
+@class BWColorLookupCache, CIFilter;
 
 @interface BWMetalColorCubeRendererParameters
 {
     CIFilter *_colorFilter;
-    BWColorLookupCache *_colorLookupCache;
-    NSData *_foregroundColorLookupTable;
-    NSData *_backgroundColorLookupTable;
-    float _interpolationFractionComplete;
 }
 
 + (void)pedSample:forInput:] /* Error: Ran out of types for this method. */;
@@ -23,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)pid;
 - (short);
 - (id);
 - (float);
@@ -32,19 +28,7 @@
 - (int)ic}lld);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *backgroundColorLookupTable; // @synthesize backgroundColorLookupTable=_backgroundColorLookupTable;
-@property(retain, nonatomic) CIFilter *colorFilter; // @synthesize colorFilter=_colorFilter;
 @property(readonly, retain, nonatomic) BWColorLookupCache *colorLookupCache; // @synthesize colorLookupCache=_colorLookupCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSData *foregroundColorLookupTable; // @synthesize foregroundColorLookupTable=_foregroundColorLookupTable;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) float interpolationFractionComplete; // @synthesize interpolationFractionComplete=_interpolationFractionComplete;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) short type;
 
 @end
 

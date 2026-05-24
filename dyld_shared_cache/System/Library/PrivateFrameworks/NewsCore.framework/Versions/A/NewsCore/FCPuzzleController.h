@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAssetManager, FCPuzzleRecordSource, FCPuzzleTypeController, NSCache, NSString;
-@protocol FCCoreConfigurationManager;
+@class FCAssetManager;
 
 @interface FCPuzzleController
 {
     FCAssetManager *_assetManager;
-    FCPuzzleRecordSource *_puzzleRecordSource;
-    FCPuzzleTypeController *_puzzleTypeController;
-    NSCache *_fastCache;
-    id <FCCoreConfigurationManager> _configurationManager;
 }
 
 - (id);
@@ -38,7 +33,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)6;
 - (void);
 - (id);
 - (void)s/FCEndpointConnection.m;
@@ -47,17 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCAssetManager *assetManager; // @synthesize assetManager=_assetManager;
-@property(retain, nonatomic) id <FCCoreConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSCache *fastCache; // @synthesize fastCache=_fastCache;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FCPuzzleRecordSource *puzzleRecordSource; // @synthesize puzzleRecordSource=_puzzleRecordSource;
-@property(retain, nonatomic) FCPuzzleTypeController *puzzleTypeController; // @synthesize puzzleTypeController=_puzzleTypeController;
-@property(readonly) Class superclass;
 
 @end
 

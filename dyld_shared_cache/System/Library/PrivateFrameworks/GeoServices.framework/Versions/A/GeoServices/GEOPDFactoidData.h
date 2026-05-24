@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDFactoid, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDFactoidData
 {
     PBUnknownFields *_unknownFields;
-    GEOPDFactoid *_factoid;
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)_p;
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (id)rType"b1"read_unknownFields"b1"read_filterConcept"b1"read_subFilters"b1"wrote_anyField"b1};
-- (id)iceModel;
+- (id)_deviceModel;
 - (id)}Pdx¬À0¬D\¸Øp¢4¦h§4«­x®¯À°<²´µL·¬¸ ÂäÃ¼Ä;
 - (void);
 

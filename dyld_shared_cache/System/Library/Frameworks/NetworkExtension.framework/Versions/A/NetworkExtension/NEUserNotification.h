@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface NEUserNotification
 {
     _Bool _isAlert;
-    id _notification;
-    id _notificationSource;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CDUnknownBlockType _callback;
 }
 
 + (_Bool);

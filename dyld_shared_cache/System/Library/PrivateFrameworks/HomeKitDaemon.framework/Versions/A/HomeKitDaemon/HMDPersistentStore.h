@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDPersistentStore
 {
@@ -16,30 +14,30 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
++ (id)gColorAnalysisBuffer;
++ (id)port check overridden to YES;
++ (id)itivityScore];
 + (id);
 + (id);
 + (_Bool);
++ (_Bool);
++ (id);
++ (void)(a;
++ (void);
++ (void);
++ (id);
++ (id);
++ (void);
++ (id)CNContactType;
++ (id);
++ (id);
++ (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id)ding;
-+ (_Bool)ithCurrentKeyPath:(id)arg1;
-+ (_Bool)elationshipName:(id)arg1 context:(id)arg2;
++ (id)supportsSecureCoding;
++ (_Bool)constraintsByKeyPathWithCurrentKeyPath:(id)arg1;
++ (_Bool)_exportRelationshipsFromLocalHome:(id)arg1 localRelationshipName:(id)arg2 context: /* Error: Ran out of types for this method. */;
 + (void)¤;
 + (_Bool);
 + (id)ted for accessory server %@ corresponding to unpaired accessory that is not in list of currently pairing accessories;
@@ -53,13 +51,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

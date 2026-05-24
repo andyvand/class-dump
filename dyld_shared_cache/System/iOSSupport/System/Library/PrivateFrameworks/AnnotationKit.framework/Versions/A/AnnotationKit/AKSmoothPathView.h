@@ -4,93 +4,66 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKBitmapFIFO, AKController, CHBoxcarFilterPointFIFO, CHPointStrokeFIFO, CHQuadCurvePointFIFO, NSString, UIColor;
-@protocol AKSmoothPathViewDelegate;
-
 @interface AKSmoothPathView
 {
     double _cachedEffectiveStrokeWidthInModel;
-    double _cachedModelToViewScale;
-    _Bool _prestrokedOutputMode;
-    _Bool _hasShadow;
-    _Bool _applyModelBaseScaleFactorToStroke;
-    _Bool _startedTouchDrawing;
-    _Bool _isAddingPointWithoutSmoothing;
-    _Bool _disableSingleDotSpecialCase;
-    AKController *_controller;
-    id <AKSmoothPathViewDelegate> _delegate;
-    UIColor *_strokeColor;
-    double _strokeWidth;
-    double _shadowRadiusInModel;
-    double _shadowRadiusInView;
-    double _minPressure;
-    double _maxPressure;
-    double _minThickness;
-    double _maxThickness;
-    CHPointStrokeFIFO *_strokeFIFO;
-    CHBoxcarFilterPointFIFO *_smoothingFIFO;
-    CHQuadCurvePointFIFO *_interpolatingFIFO;
-    AKBitmapFIFO *_bitmapFifo;
-    double _currentWeight;
-    double _singleDotCurrentSize;
-    struct CGRect _singleDotRect;
 }
 
 + (id);
 - (id);
+- (void)iTunesBrand;
+- (id)CUCoverEffectsFilterInfoAlternativeAppearanceKey(void);
+- (_Bool)0{CGSize=dd}8;
+- (void)overrideBackgroundColor;
+- (id)ed from %@;
+- (struct CGRect)e;
+- (double)ers Shared List;
+- (double)locationLongitude;
+- (double)maximumNumberOfPlayers;
+- (void)LPMetadataContentImages;
+- (void)LPMetadataCreator;
+- (void)LPMetadataURL;
+- (void)Wallet;
+- (void)Numbers;
+- (void)24;
+- (void)PImageRemoteURLRepresentation"8Q16^B24;
+- (void)a.;
+- (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (struct CGRect);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (double);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (id);
 - (void);
 - (void);
 - (_Bool);
 - (double);
-- (void);
 - (double);
+- (double);
+- (double);
+- (_Bool);
+- (id): /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (double)-: /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
 - (id);
 - (_Bool);
 - (double);
+- (void)@#;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (struct CGContext *);
 - (double);
 - (double);
 - (_Bool);
 - (double);
 - (void);
-- (void);
+- (void)[;
 - (void);
 - (void);
 - (void);
@@ -102,53 +75,29 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)t.reflectanceRoughnessOutput = half4( 0.h );
+#endif
+#endif
+    
+    return _output;
+}
+;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)s, retrying;
 - (id);
-- (void);
+- (void)E;
 - (double);
 - (void);
-- (void)tations: /* Error: Ran out of types for this method. */;
+- (void)_popoverAnchorFrameInModelForAnnotations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool applyModelBaseScaleFactorToStroke; // @synthesize applyModelBaseScaleFactorToStroke=_applyModelBaseScaleFactorToStroke;
-@property(retain, nonatomic) AKBitmapFIFO *bitmapFifo; // @synthesize bitmapFifo=_bitmapFifo;
-@property double cachedModelToViewScale; // @synthesize cachedModelToViewScale=_cachedModelToViewScale;
-@property __weak AKController *controller; // @synthesize controller=_controller;
-@property double currentWeight; // @synthesize currentWeight=_currentWeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) id <AKSmoothPathViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property _Bool disableSingleDotSpecialCase; // @synthesize disableSingleDotSpecialCase=_disableSingleDotSpecialCase;
-@property(nonatomic) _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CHQuadCurvePointFIFO *interpolatingFIFO; // @synthesize interpolatingFIFO=_interpolatingFIFO;
-@property _Bool isAddingPointWithoutSmoothing; // @synthesize isAddingPointWithoutSmoothing=_isAddingPointWithoutSmoothing;
-@property(nonatomic) double maxPressure; // @synthesize maxPressure=_maxPressure;
-@property(nonatomic) double maxThickness; // @synthesize maxThickness=_maxThickness;
-@property(nonatomic) double minPressure; // @synthesize minPressure=_minPressure;
-@property(nonatomic) double minThickness; // @synthesize minThickness=_minThickness;
-@property(nonatomic) _Bool prestrokedOutputMode; // @synthesize prestrokedOutputMode=_prestrokedOutputMode;
-@property double shadowRadiusInModel; // @synthesize shadowRadiusInModel=_shadowRadiusInModel;
-@property double shadowRadiusInView; // @synthesize shadowRadiusInView=_shadowRadiusInView;
-@property double singleDotCurrentSize; // @synthesize singleDotCurrentSize=_singleDotCurrentSize;
-@property struct CGRect singleDotRect; // @synthesize singleDotRect=_singleDotRect;
-@property(retain, nonatomic) CHBoxcarFilterPointFIFO *smoothingFIFO; // @synthesize smoothingFIFO=_smoothingFIFO;
-@property(nonatomic) _Bool startedTouchDrawing; // @synthesize startedTouchDrawing=_startedTouchDrawing;
-@property(retain, nonatomic) UIColor *strokeColor; // @synthesize strokeColor=_strokeColor;
-@property(retain, nonatomic) CHPointStrokeFIFO *strokeFIFO; // @synthesize strokeFIFO=_strokeFIFO;
-@property(nonatomic) double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
-@property(readonly) Class superclass;
 
 @end
 

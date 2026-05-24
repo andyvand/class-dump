@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, RBProcessMap;
-@protocol RBCoalitionKernelAdapting;
+@class NSMutableDictionary;
 
 @interface RBCoalitionManager
 {
     NSMutableDictionary *_lock_coalitions;
-    RBProcessMap *_lock_processes;
-    id <RBCoalitionKernelAdapting> _adapter;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)exicon did change (active identifier=%llu);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *stateCaptureTitle;
-@property(readonly) Class superclass;
 
 @end
 

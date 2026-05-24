@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBMailResultDetails
 {
     int _dataSources;
-    float _suggestionScore;
-    int _skgMegadomeSpotlightIndexEntries;
 }
 
 - (int);
@@ -24,23 +20,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)pageSize;
+- (id)ublic}@;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) int dataSources; // @synthesize dataSources=_dataSources;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int skgMegadomeSpotlightIndexEntries; // @synthesize skgMegadomeSpotlightIndexEntries=_skgMegadomeSpotlightIndexEntries;
-@property(nonatomic) float suggestionScore; // @synthesize suggestionScore=_suggestionScore;
-@property(readonly) Class superclass;
 
 @end
 

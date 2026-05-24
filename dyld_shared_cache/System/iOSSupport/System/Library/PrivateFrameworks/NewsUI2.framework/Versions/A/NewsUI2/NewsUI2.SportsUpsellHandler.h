@@ -7,17 +7,9 @@
 @interface NewsUI2.SportsUpsellHandler
 {
     id configurationManager;
-    id tagService;
-    id userInfo;
-    id store;
-    id postActionHandlerManager;
-    id router;
-    id onOnboardTapped;
-    id onUpsellCancelled;
-    id $__lazy_storage_$_sportsUpsellConfig;
 }
 
-- (void);
+- (void)ssEvent entry:(id)arg1 %u Owner:(unsigned long long)arg2 %s Name:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void)lc;
 

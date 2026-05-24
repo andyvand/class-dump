@@ -9,22 +9,18 @@
 @interface SGTISODateRange
 {
     NSString *_displayName;
-    NSString *_isoStart;
-    NSString *_isoEnd;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)stringByAppendingPathComponent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *isoEnd; // @synthesize isoEnd=_isoEnd;
-@property(copy, nonatomic) NSString *isoStart; // @synthesize isoStart=_isoStart;
 
 @end
 

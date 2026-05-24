@@ -6,8 +6,6 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMHTMLFormElement, NSString;
-
 @interface DOMHTMLTextAreaElement : DOMHTMLElement
 {
 }
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)$!;
 - (void);
 - (void);
 - (void);
@@ -29,8 +27,8 @@
 - (void);
 - (int);
 - (int);
-- (id);
-- (id);
+- (id)ee;
+- (id)vP;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -39,21 +37,21 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)AMSURLSession:(id)arg1 task:handleDialogRequest:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)r;
+- (id);
 - (id);
-- (id);
 - (void);
+- (void)get valid dataArchive for dictionary. Data archive length is 0!;
 - (void);
-- (void);
-- (id);
+- (id)_accountID;
 - (_Bool);
-- (void)Selector:(_Bool)arg1;
+- (void)control:(_Bool)arg1 textView:doCommandBySelector: /* Error: Ran out of types for this method. */;
 - (int);
 - (int)st WebCore::QualifiedName::QualifiedNameImpl *>, WTF::HashMap<const WebCore::QualifiedName::QualifiedNameImpl *, Class>::KeyValuePairTraits, WTF::HashTraits<const WebCore::QualifiedName::QualifiedNameImpl *>>::validateKey(const ValueType &) [Key = const WebCore::QualifiedName::QualifiedNameImpl *, Value = WTF::KeyValuePair<const WebCore::QualifiedName::QualifiedNameImpl *, Class>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<const WebCore::QualifiedName::QualifiedNameImpl *, Class>>, HashFunctions = WTF::DefaultHash<const WebCore::QualifiedName::QualifiedNameImpl *>, Traits = WTF::HashMap<const WebCore::QualifiedName::QualifiedNameImpl *, Class>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<const WebCore::QualifiedName::QualifiedNameImpl *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool)l\(;
@@ -61,20 +59,7 @@
 - (void)>¶U@;
 
 // Remaining properties
-@property(copy) NSString *accessKey;
 @property _Bool autofocus;
-@property int cols;
-@property(copy) NSString *defaultValue;
-@property _Bool disabled;
-@property(readonly) DOMHTMLFormElement *form;
-@property(copy) NSString *name;
-@property _Bool readOnly;
-@property int rows;
-@property int selectionEnd;
-@property int selectionStart;
-@property(readonly, copy) NSString *type;
-@property(copy) NSString *value;
-@property(readonly) _Bool willValidate;
 
 @end
 

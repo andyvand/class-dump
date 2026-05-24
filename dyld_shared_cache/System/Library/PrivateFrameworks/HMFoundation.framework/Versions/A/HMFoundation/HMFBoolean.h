@@ -8,15 +8,15 @@
 {
 }
 
++ (id)e=dd}}16q48;
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -25,16 +25,16 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id)n;
++ (id)privateDescription;
 - (id);
 - (Class);
-- (unsigned long long);
+- (unsigned long long)0		;
 - (_Bool);
-- (id);
+- (id)x;
 - (void);
 - (BOOL);
 - (void);
-- (id);
+- (id)HMHomeSetDismissedWalletKeyUWBUnlockOnboardingRequestKey;
 - (void);
 - (long long);
 - (const char *);

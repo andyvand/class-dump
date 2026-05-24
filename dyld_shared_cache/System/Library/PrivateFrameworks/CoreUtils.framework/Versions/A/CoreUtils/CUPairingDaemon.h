@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUHomeKitManager, NSData, NSMutableSet, NSObject, NSString, NSXPCListener, NSXPCListenerEndpoint;
+@class CUHomeKitManager, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUPairingDaemon
 {
     CUHomeKitManager *_homeKitManager;
-    int _rpIdentityNotifier;
-    NSData *_rpSelfIRK;
-    unsigned long long _stateHandle;
-    NSMutableSet *_xpcConnections;
-    NSXPCListener *_xpcListener;
-    _Bool _testMode;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
-+ (id);
++ (id) L`@!`d*;
 - (id);
 - (void);
 - (void);
@@ -28,23 +21,23 @@
 - (int);
 - (void);
 - (void);
+- (id);
+- (int);
+- (id)passwordResetTokenBackupForAccount: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void);
+- (int);
+- (id)J;
+- (void);
+- (void);
 - (id);
 - (int);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (int);
-- (id);
-- (void);
-- (void);
-- (id);
-- (int);
-- (id);
 - (int);
 - (void);
-- (void);
+- (void)luesMatrix: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (id);
@@ -56,28 +49,19 @@
 - (id);
 - (int);
 - (id);
-- (int);
+- (int)(;;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool)m+Ð!°FùA/°1Â0@ù
 × ;
-- (id)PeerChanged;
+- (id)_trafficPeerChanged;
 - (id)er;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *testListenerEndpoint;
-@property(nonatomic) _Bool testMode; // @synthesize testMode=_testMode;
 
 @end
 

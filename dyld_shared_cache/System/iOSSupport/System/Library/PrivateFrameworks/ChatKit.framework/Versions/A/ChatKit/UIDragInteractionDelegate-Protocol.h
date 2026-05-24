@@ -5,11 +5,13 @@
 //
 
 @class NSArray, UIDragInteraction, UIDragItem, UITargetedDragPreview;
+@protocol UIDragSession;
 
 @protocol UIDragInteractionDelegate
-- (NSArray *)ckgroundColor;
+- (NSArray *)entryViewPlusButtonSendMenuOpenBackgroundColor;
 
 @optional
+- (id <UIDragSession>);
 - (void);
 - (void)0@ù
 × ;
@@ -18,10 +20,10 @@
 - (void)1Â0@ù
 × ;
 - (void)nIsPlayground:(UIDragInteraction *)arg1;
-- (UITargetedDragPreview *)tionManager:(UIDragInteraction *)arg1 didFetchSyncStatistics:(UIDragItem *)arg2 error:(UITargetedDragPreview *)arg3;
+- (UITargetedDragPreview *)cloudKitEventNotificationManager:(UIDragInteraction *)arg1 didFetchSyncStatistics:(UIDragItem *)arg2 error:(UITargetedDragPreview *)arg3;
 - (void);
 - (_Bool)Ö;
-- (_Bool)p;
+- (_Bool)So45CKTapbackPickerContainerAccessoryViewDelegate_p;
 - (void)GtGG;
 - (void)g account:(UIDragInteraction *)arg1 [%@];
 - (UITargetedDragPreview *)part of notification:(UIDragInteraction *)arg1 %@;

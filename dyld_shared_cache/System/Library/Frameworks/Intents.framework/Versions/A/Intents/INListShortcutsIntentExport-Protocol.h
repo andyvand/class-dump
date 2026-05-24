@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INListShortcutsIntentExport
 
 // Remaining properties
-@property(copy) NSArray *appTitles;
 @property long long originDevice;
 @end
 

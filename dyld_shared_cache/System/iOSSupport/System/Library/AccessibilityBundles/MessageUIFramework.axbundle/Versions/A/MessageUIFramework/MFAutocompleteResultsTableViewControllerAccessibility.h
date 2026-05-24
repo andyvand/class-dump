@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_UIContextMenuActionsOnlyViewControllerAccessibility;
++ (void)ger"8;
 - (void);
 
 @end

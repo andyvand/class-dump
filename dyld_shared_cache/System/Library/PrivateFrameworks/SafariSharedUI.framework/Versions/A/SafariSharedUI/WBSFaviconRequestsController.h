@@ -9,15 +9,10 @@
 @interface WBSFaviconRequestsController
 {
     NSMapTable *_tokenToRequestToken;
-    WBSSiteMetadataManager *_manager;
-    long long _priority;
-    struct CGSize _size;
 }
 
 
 // Remaining properties
 @property(readonly, nonatomic) WBSSiteMetadataManager *manager; // @synthesize manager=_manager;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 @end
 

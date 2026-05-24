@@ -6,18 +6,10 @@
 
 #import <ViceroyTrace/VCAggregatorAudioStream.h>
 
-@class VCReportingHistogram;
-
 __attribute__((visibility("hidden")))
 @interface VCAggregatorHomeKitAudio : VCAggregatorAudioStream
 {
     unsigned int _previousStreamDirection;
-    VCReportingHistogram *_streamDirectionDurations;
-    double _lastStreamDirectionSwitchTime;
-    unsigned int _mediaStreamEndReason;
-    long long _rtcpTimeoutCount;
-    unsigned int _connectionType;
-    int _streamDirection;
 }
 
 - (void);

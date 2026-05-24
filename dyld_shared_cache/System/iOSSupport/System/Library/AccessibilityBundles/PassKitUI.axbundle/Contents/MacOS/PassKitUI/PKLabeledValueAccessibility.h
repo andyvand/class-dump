@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKImageAnalysis;
 + (void);
 - (id);
 

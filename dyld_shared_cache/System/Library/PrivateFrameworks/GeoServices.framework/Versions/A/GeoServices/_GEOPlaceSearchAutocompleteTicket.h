@@ -6,18 +6,16 @@
 
 #import <GeoServices/GEOAbstractRequestResponseTicket.h>
 
-@class GEOAutocompleteSessionData, GEOMIFAutocompleteRequest, GEOMapServiceTraits, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GEOPlaceSearchAutocompleteTicket : GEOAbstractRequestResponseTicket
 {
     NSString *_searchQuery;
-    GEOAutocompleteSessionData *_sessionData;
-    GEOMIFAutocompleteRequest *_autocompleteRankerRequest;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -31,27 +29,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)9;
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)Response"@"NSError">24;
+- (void)tStoreEndpointFetchRequest"16@?<v@?@"CNCDRemotePersistentStoreEndpointFetchResponse"@"NSError">24;
+- (id)logSimpleEvent:forApplication:andLog: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)üÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) CDStruct_d1a7ebee dataRequestKind;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=_searchQuery) NSString *searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end
 

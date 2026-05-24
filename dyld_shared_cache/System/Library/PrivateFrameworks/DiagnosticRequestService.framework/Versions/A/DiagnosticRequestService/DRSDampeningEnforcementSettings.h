@@ -7,12 +7,6 @@
 @interface DRSDampeningEnforcementSettings
 {
     _Bool _enforcesResourceHysteresis;
-    _Bool _enforcesResourceCap;
-    _Bool _enforcesResourceDownsampling;
-    _Bool _enforcesSignatureHysteresis;
-    _Bool _enforcesSignatureCap;
-    _Bool _enforcesSignatureDownsampling;
-    _Bool _enforcesTotalCap;
 }
 
 - (void);
@@ -22,15 +16,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)H7;
 - (id);
 - (_Bool);
 - (void);
@@ -38,13 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool enforcesResourceCap; // @synthesize enforcesResourceCap=_enforcesResourceCap;
-@property(nonatomic) _Bool enforcesResourceDownsampling; // @synthesize enforcesResourceDownsampling=_enforcesResourceDownsampling;
 @property(nonatomic) _Bool enforcesResourceHysteresis; // @synthesize enforcesResourceHysteresis=_enforcesResourceHysteresis;
-@property(nonatomic) _Bool enforcesSignatureCap; // @synthesize enforcesSignatureCap=_enforcesSignatureCap;
-@property(nonatomic) _Bool enforcesSignatureDownsampling; // @synthesize enforcesSignatureDownsampling=_enforcesSignatureDownsampling;
-@property(nonatomic) _Bool enforcesSignatureHysteresis; // @synthesize enforcesSignatureHysteresis=_enforcesSignatureHysteresis;
-@property(nonatomic) _Bool enforcesTotalCap; // @synthesize enforcesTotalCap=_enforcesTotalCap;
 
 @end
 

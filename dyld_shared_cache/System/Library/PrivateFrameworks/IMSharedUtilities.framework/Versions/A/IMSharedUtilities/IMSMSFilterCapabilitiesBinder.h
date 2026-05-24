@@ -11,10 +11,11 @@
 + (int);
 + (id);
 + (long long);
-+ (_Bool);
++ (_Bool)(!Ț;
 + (void);
-+ (void);
-+ (void);
++ (void)#;
++ (void)
+;
 + (long long);
 + (_Bool);
 + (void);

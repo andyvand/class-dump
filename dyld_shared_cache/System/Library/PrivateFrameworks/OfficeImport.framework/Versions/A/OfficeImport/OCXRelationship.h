@@ -10,22 +10,17 @@ __attribute__((visibility("hidden")))
 @interface OCXRelationship
 {
     NSString *mIdString;
-    NSString *mType;
-    NSString *mTarget;
-    _Bool mExternal;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)initWithContentsOfURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ø;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *idString; // @synthesize idString=mIdString;
-@property(readonly, nonatomic) NSString *target; // @synthesize target=mTarget;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=mType;
 
 @end
 

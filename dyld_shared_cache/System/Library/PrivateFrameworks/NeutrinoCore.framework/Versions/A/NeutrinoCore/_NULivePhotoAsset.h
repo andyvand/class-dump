@@ -6,33 +6,27 @@
 
 #import <NeutrinoCore/_NUAsset.h>
 
-@class NSString;
-@protocol NUAssetMedia, NUImageAsset, NUVideoAsset;
+@protocol NUImageAsset;
 
 @interface _NULivePhotoAsset : _NUAsset
 {
     id <NUImageAsset> _image;
-    id <NUVideoAsset> _video;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)trieve 'https://captive.apple.com' via HTTPS /* Error: Ran out of types for this method. */;
 - (void)!ôFùñá1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) id <NUImageAsset> image; // @synthesize image=_image;
-@property(readonly, nonatomic) id <NUAssetMedia> media;
-@property(readonly, nonatomic) long long type;
-@property(readonly, nonatomic) id <NUVideoAsset> video; // @synthesize video=_video;
 
 @end
 

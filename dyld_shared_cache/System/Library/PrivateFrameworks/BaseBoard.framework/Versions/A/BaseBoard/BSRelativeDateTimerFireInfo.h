@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface BSRelativeDateTimerFireInfo
 {
     unsigned long long _value;
-    unsigned long long _resolution;
-    long long _comparedToNow;
-    NSDate *_fireDate;
 }
 
 - (id);
@@ -20,12 +15,9 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)#;
 
 // Remaining properties
-@property(readonly, nonatomic) long long comparedToNow; // @synthesize comparedToNow=_comparedToNow;
-@property(readonly, copy, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(readonly, nonatomic) unsigned long long resolution; // @synthesize resolution=_resolution;
 @property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end

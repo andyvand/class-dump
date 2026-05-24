@@ -6,18 +6,18 @@
 
 @interface UnknownClass (KeyedDataSource)
 - (id);
+- (id)R'H;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)Rh;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id).!(*;
 - (id);
 - (id);
 - (id);
@@ -28,8 +28,8 @@
 - (id);
 - (id);
 - (id)ÜÜ;
-- (void)ipeline;
-- (id)er;
-- (id)timap;
+- (void)BlastdoorReceivePipeline;
+- (id)IMDCollaborationNoticeRateLimiter;
+- (id)Multimap;
 @end
 

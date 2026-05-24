@@ -11,26 +11,22 @@
 @interface SXComponentScrollPosition : SXScrollPosition
 {
     NSString *_componentIdentifier;
-    double _relativePageOffset;
-    double _canvasWidth;
 }
 
++ (_Bool)C;
 + (_Bool);
-+ (_Bool);
-- (double);
+- (double)P;
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)�;
 - (id);
 - (void);
 - (id);
 - (void)Point=dd}{CGSize=dd}}48@0:8@"SXFullscreenCanvasController"16@"<SXFullscreenCanvasShowable>"24@"UIView"32Q40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double canvasWidth; // @synthesize canvasWidth=_canvasWidth;
 @property(readonly, copy, nonatomic) NSString *componentIdentifier; // @synthesize componentIdentifier=_componentIdentifier;
-@property(readonly, nonatomic) double relativePageOffset; // @synthesize relativePageOffset=_relativePageOffset;
 
 @end
 

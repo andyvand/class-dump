@@ -11,25 +11,22 @@
 @interface PHVideoRequestContext : PHMediaRequestContext
 {
     NSProgress *_progress;
-    PHVideoRequestOptions *_videoOptions;
-    long long _intent;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)TXs;
+- (id)';
 - (_Bool);
-- (id);
-- (void);
+- (id)_artworkCatalogForContentItem: /* Error: Ran out of types for this method. */;
+- (void)MPStoreLibraryPersonalizationResponse;
 - (long long);
 - (long long);
 - (id);
-- (void)changeRequest;
+- (void)_changeRequest;
 - (CDUnknownBlockType);
-- (_Bool)tandard;
+- (_Bool)PHAdjustmentStyleCastStandard;
 
 // Remaining properties
-@property(readonly, nonatomic) long long intent; // @synthesize intent=_intent;
 @property(readonly, nonatomic) PHVideoRequestOptions *videoOptions; // @synthesize videoOptions=_videoOptions;
 
 @end

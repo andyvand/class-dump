@@ -15,18 +15,18 @@
 + (_Bool)0@ù
 × ;
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setMultipathBytesOutWiFi:(id)arg1;
+- (void)AWDIDSWiProxConnectionSuccess;
+- (id);
 - (id);
-- (id);
-- (id)TransactionWithIdentifier:(id)arg1 handler: /* Error: Ran out of types for this method. */;
-- (void)ContactField;
+- (id)deletePaymentTransactionWithIdentifier:(id)arg1 handler: /* Error: Ran out of types for this method. */;
+- (void)PKDisbursementErrorContactField;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *offersByMerchandisingIdentifier; // @synthesize offersByMerchandisingIdentifier=_offersByMerchandisingIdentifier;

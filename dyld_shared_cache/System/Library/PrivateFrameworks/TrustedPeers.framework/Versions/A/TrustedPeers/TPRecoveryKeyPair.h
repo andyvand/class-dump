@@ -9,7 +9,6 @@
 @interface TPRecoveryKeyPair
 {
     NSData *_signingKeyData;
-    NSData *_encryptionKeyData;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain) NSData *encryptionKeyData; // @synthesize encryptionKeyData=_encryptionKeyData;
 @property(readonly, retain) NSData *signingKeyData; // @synthesize signingKeyData=_signingKeyData;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol AVCatalystScrubberDelegate
+- (void);
 @end
 

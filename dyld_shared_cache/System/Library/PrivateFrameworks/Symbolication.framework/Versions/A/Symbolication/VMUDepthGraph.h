@@ -9,7 +9,6 @@
 @interface VMUDepthGraph
 {
     VMUProcessObjectGraph *_graph;
-    unsigned int *_depthMap;
 }
 
 - (long long);

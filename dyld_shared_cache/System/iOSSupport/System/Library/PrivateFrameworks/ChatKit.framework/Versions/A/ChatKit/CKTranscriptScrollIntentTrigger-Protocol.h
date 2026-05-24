@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKTranscriptScrollIntentTriggerUpdateContext, CKTranscriptScrollIntentUpdateRequest;
+
 @protocol CKTranscriptScrollIntentTrigger
+- (CKTranscriptScrollIntentUpdateRequest *)d to generate waveform:(CKTranscriptScrollIntentTriggerUpdateContext *)arg1 %@;
 @end
 

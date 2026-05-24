@@ -4,49 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCKeyValueStore, NSArray, NSDate, NSHashTable, NSMutableArray, NSMutableIndexSet, NSObject, NSString;
-@protocol FCOperationThrottler, OS_dispatch_queue;
+@class NSDate, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface FCNetworkBehaviorMonitor
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableArray *_sessions;
-    NSMutableIndexSet *_sessionIDsThisLaunch;
-    NSMutableArray *_events;
-    FCKeyValueStore *_localStore;
-    id <FCOperationThrottler> _saveThrottler;
-    NSHashTable *_observers;
-    long long _options;
-    NSDate *_dateOfLastNetworkIssue;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)EyeCorrections;
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)nodeWithSession:(id)arg1 name:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void),V_personalizationTreatment;
 - (void)ReferenceToMembership.m;
-- (void)tate;
+- (void)AsyncDownloadState;
 - (id)`êÿ\K;
 
 // Remaining properties
 @property(copy) NSDate *dateOfLastNetworkIssue; // @synthesize dateOfLastNetworkIssue=_dateOfLastNetworkIssue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *networkEvents;
-@property(readonly, copy, nonatomic) NSArray *sessions;
-@property(readonly) Class superclass;
 
 @end
 

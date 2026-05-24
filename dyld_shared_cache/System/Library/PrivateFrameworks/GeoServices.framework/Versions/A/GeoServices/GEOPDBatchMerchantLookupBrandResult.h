@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBatchMerchantLookupBrandResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_merchantLookupBrandResults;
-    int _statusCode;
-    CDStruct_ade9d5f7 _flags;
 }
 
 - (id);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)SObject<OS_os_log>";
-- (id)on;
+- (id)_bannerDescription;
 - (id)lTS¿³üXS¬¿³T\SÐ¿³^Sä¿³T_Sø¿³iS,À³ðiS@À³ÌjSTÀ³$£SPÁ³x«SdÁ³8­S|Á³À®SÁ³°S¬Á³Ø¸SÐÁ³`»SôÁ³|ÌSÂ³ÐÎSHÂ³ôSÂ³PõSÂ³øSÄÂ³ôTØÂ³tTìÂ³T;
 - (void);
 

@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (Class);
-- (id);
+- (id)ved secure data (type %d):(id)arg1 %@;
 
 @end
 

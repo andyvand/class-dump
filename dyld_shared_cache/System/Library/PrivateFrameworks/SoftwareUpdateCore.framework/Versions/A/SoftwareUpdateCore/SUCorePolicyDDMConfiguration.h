@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SUCorePersistedState;
-@protocol OS_dispatch_queue;
+@class SUCorePersistedState;
 
 @interface SUCorePolicyDDMConfiguration
 {
     _Bool _allowInvalidDeclaration;
-    SUCorePersistedState *_persistedState;
-    NSObject<OS_dispatch_queue> *_stateQueue;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 + (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -37,7 +34,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -51,16 +48,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)safari_fallbackPrecomposedTouchIconURL;
+- (id)_loadAlternateHTMLString:baseURL:forUnreachableURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowInvalidDeclaration; // @synthesize allowInvalidDeclaration=_allowInvalidDeclaration;
 @property(retain) SUCorePersistedState *persistedState; // @synthesize persistedState=_persistedState;
-@property(retain) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
 
 @end
 

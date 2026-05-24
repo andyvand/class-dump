@@ -4,73 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, NSURL;
-
 @interface SDBetaProgram
 {
     long long _programID;
-    NSString *_title;
-    long long _program;
-    NSURL *_catalog;
-    NSURL *_assetUpdate;
-    NSURL *_assetBrain;
-    NSString *_assetAudience;
-    NSArray *_legalDocs;
-    unsigned long long _platform;
-    NSString *_buildPrefix;
-    long long _accountID;
-    NSSet *_betaEnrollmentTokens;
 }
 
-+ (id);
++ (id)voiceTriggerEndTime;
 + (_Bool);
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
+- (void)t=QQQ}40{AFPowerContext=QQQ}64{AFPowerContext=QQQ}88;
+- (void)Q}16{AFPowerContext=QQQ}40{AFPowerContext=QQQ}64{AFPowerContext=QQQ}88Q112;
+- (void)@"NSURL"16@0:(id)arg1 8;
+- (void)@88@96@104@112@120@128@136;
+- (long long)16d24@?32;
+- (id)@0:8@16@?24 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)>";
+- (id)?B>24;
+- (id)ct<SAAceCommand>"16@?<v@?@"AceObject<SAAceCommand>"@"NSError">24;
+- (id)6B24B28Q32@?40;
+- (id)Vv24@0:8@?16 /* Error: Ran out of types for this method. */;
+- (void)ontextPayload";
+- (void)"16;
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void)D;
 - (void);
-- (unsigned long long);
+- (unsigned long long)nlit, have non-thaw-intention;
 - (long long);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)@:ANEVirtualClient echo dictionary success=%lld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long accountID; // @synthesize accountID=_accountID;
-@property(retain) NSString *assetAudience; // @synthesize assetAudience=_assetAudience;
-@property(retain) NSURL *assetBrain; // @synthesize assetBrain=_assetBrain;
-@property(retain) NSURL *assetUpdate; // @synthesize assetUpdate=_assetUpdate;
-@property(retain) NSSet *betaEnrollmentTokens; // @synthesize betaEnrollmentTokens=_betaEnrollmentTokens;
-@property(retain) NSString *buildPrefix; // @synthesize buildPrefix=_buildPrefix;
-@property(retain) NSURL *catalog; // @synthesize catalog=_catalog;
-@property(readonly) _Bool isMDMProgram;
-@property(retain) NSArray *legalDocs; // @synthesize legalDocs=_legalDocs;
-@property unsigned long long platform; // @synthesize platform=_platform;
-@property long long program; // @synthesize program=_program;
 @property long long programID; // @synthesize programID=_programID;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

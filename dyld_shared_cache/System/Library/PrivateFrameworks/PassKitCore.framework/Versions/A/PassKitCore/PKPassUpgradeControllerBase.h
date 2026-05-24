@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PKPaymentWebService;
+@class PKPaymentWebService;
 
 @interface PKPassUpgradeControllerBase
 {
     CDUnknownBlockType _addPaymentPassToLibrary;
-    struct os_unfair_lock_s _pass_upgrade_lock;
-    NSMutableDictionary *_pendingPassUpgrades;
-    PKPaymentWebService *_paymentWebService;
 }
 
 - (void);
@@ -22,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (void)UNAVAILABLE_REASON_NO_SPECIFIC_DEBIT_CARD_AVAILABLE_TRANSIT;
+- (void)PASS_ACTION_UNAVAILABLE_REASON_NO_SPECIFIC_DEBIT_CARD_AVAILABLE_TRANSIT;
 
 // Remaining properties
 @property(retain, nonatomic) PKPaymentWebService *paymentWebService; // @synthesize paymentWebService=_paymentWebService;

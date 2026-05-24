@@ -11,12 +11,11 @@
         unsigned long long count;
         unsigned long long size;
     } _materialTypes;
-    unsigned long long _participantId;
 }
 
 - (void);
-- (void);
-- (unsigned long long);
+- (void)qa;
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (int *);
@@ -25,19 +24,17 @@
 - (void);
 - (int);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)RFCOMMConnection";
+- (void)Response without request identifier:(id)arg1 %@;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int *materialTypes;
-@property(readonly, nonatomic) unsigned long long materialTypesCount;
 @property(nonatomic) unsigned long long participantId; // @synthesize participantId=_participantId;
 
 @end

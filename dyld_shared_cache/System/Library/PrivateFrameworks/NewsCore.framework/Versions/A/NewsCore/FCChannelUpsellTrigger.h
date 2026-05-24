@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCChannelUpsellTrigger
 {
     unsigned long long _triggerMethod;
-    long long _triggerCount;
-    NSString *_subscriberUpsellArticleID;
-    NSString *_nonSubscriberUpsellArticleID;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)UXCollectionViewUpdateItem;
+- (void)public}s:(id)arg1 %d, %{public}s forbids:%{public}s. Requires a valid coordinate /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
-- (void);
+- (void)threshold;
 - (void);
 - (unsigned long long);
 - (void)Topic"8Q16^B24;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *nonSubscriberUpsellArticleID; // @synthesize nonSubscriberUpsellArticleID=_nonSubscriberUpsellArticleID;
-@property(copy, nonatomic) NSString *subscriberUpsellArticleID; // @synthesize subscriberUpsellArticleID=_subscriberUpsellArticleID;
-@property(nonatomic) long long triggerCount; // @synthesize triggerCount=_triggerCount;
 @property(nonatomic) unsigned long long triggerMethod; // @synthesize triggerMethod=_triggerMethod;
 
 @end

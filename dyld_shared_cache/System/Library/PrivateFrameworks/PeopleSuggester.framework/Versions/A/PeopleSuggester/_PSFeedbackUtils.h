@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)Ti,N,V_maxEntityChars;
 
 @end
 

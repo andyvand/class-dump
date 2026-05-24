@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRCloudKitMigrationManager
 {
     id store;
-    id queue;
-    id delegate;
-    id cachedResults;
-    id cachedAccountIdentifiers;
-    id simulatedMigrationStartDateByParentAccountIdentifier;
 }
 
 @end

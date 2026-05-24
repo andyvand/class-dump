@@ -15,14 +15,14 @@
 }
 
 - (void);
-- (void);
+- (void)%@ accepted success %@ error %@ for message %@;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)Insets;
+- (void)drawingInsets;
 - (void)ØÿK;
 - (void);
 

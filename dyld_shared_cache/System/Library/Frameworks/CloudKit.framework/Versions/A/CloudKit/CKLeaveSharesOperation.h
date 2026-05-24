@@ -6,23 +6,16 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKLeaveSharesOperationInfo, NSArray, NSMutableDictionary, NSSet, NSString;
-@protocol CKLeaveSharesOperationCallbacks;
+@class NSMutableDictionary;
 
 @interface CKLeaveSharesOperation : CKOperation
 {
     CDUnknownBlockType _perShareCompletionBlock;
-    CDUnknownBlockType _leaveSharesCompletionBlock;
-    NSArray *_shareIDs;
-    NSMutableDictionary *_errorsByShareID;
-    NSSet *_submittedShareIDs;
-    CDUnknownBlockType _perShareCompletionBlock_wrapper;
-    CDUnknownBlockType _leaveSharesCompletionBlock_wrapper;
 }
 
-+ (SEL);
++ (SEL);
 + (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -38,7 +31,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)\;
 - (id);
 - (void);
 - (id);
@@ -51,22 +44,7 @@
 - (void)»7;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKLeaveSharesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableDictionary *errorsByShareID; // @synthesize errorsByShareID=_errorsByShareID;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType leaveSharesCompletionBlock; // @synthesize leaveSharesCompletionBlock=_leaveSharesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType leaveSharesCompletionBlock_wrapper; // @synthesize leaveSharesCompletionBlock_wrapper=_leaveSharesCompletionBlock_wrapper;
-@property(readonly, nonatomic) CKLeaveSharesOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perShareCompletionBlock; // @synthesize perShareCompletionBlock=_perShareCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perShareCompletionBlock_wrapper; // @synthesize perShareCompletionBlock_wrapper=_perShareCompletionBlock_wrapper;
-@property(copy, nonatomic) NSArray *shareIDs; // @synthesize shareIDs=_shareIDs;
-@property(retain, nonatomic) NSSet *submittedShareIDs; // @synthesize submittedShareIDs=_submittedShareIDs;
-@property(readonly) Class superclass;
 
 @end
 

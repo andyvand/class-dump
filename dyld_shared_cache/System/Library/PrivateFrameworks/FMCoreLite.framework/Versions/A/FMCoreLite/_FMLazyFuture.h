@@ -6,26 +6,20 @@
 
 #import <FMCoreLite/FMFuture.h>
 
-@class NSObject;
-@protocol FMScheduler, OS_dispatch_queue;
-
 @interface _FMLazyFuture : FMFuture
 {
     _Bool _started;
-    CDUnknownBlockType _block;
-    id <FMScheduler> _scheduler;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
 - (id);
-- (void);
+- (void)licy;
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (_Bool);
 - (void);
 - (id);
@@ -33,10 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(retain, nonatomic) id <FMScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(nonatomic) _Bool started; // @synthesize started=_started;
 
 @end
 

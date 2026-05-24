@@ -9,12 +9,11 @@
 @interface SiriUIHeater
 {
     id <SiriUIHeaterDelegate> _delegate;
-    double _preparationStartTime;
 }
 
 - (void);
 - (void);
-- (double);
+- (double);;
 - (void);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SiriUIHeaterDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic, getter=_preparationStartTime, setter=_setPreparationStartTime:) double preparationStartTime; // @synthesize preparationStartTime=_preparationStartTime;
 
 @end

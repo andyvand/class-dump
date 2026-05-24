@@ -6,13 +6,10 @@
 
 #import <OfficeImport/WDCharacterRun.h>
 
-@class WDRubyProperties;
-
 __attribute__((visibility("hidden")))
 @interface WDRubyRun : WDCharacterRun
 {
     WDCharacterRun *mPhoneticRun;
-    WDRubyProperties *mRubyProperties;
 }
 
 - (void);
@@ -21,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (int);
-- (id);
+- (int)	;
+- (id)#;
 - (id);
 - (void)e seeked for CRC calculation.;
 

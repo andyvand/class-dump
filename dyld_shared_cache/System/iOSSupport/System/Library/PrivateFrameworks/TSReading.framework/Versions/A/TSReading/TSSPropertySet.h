@@ -14,10 +14,10 @@
 + (id);
 + (id);
 - (id);
+- (id)RateDidChange:(id)arg1;
+- (id)ltRateDidChange:(int)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ayer - items:(id)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -31,7 +31,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)x;
 - (id);
 - (id);
 - (void);

@@ -9,9 +9,6 @@
 @interface FCSubscribedTags
 {
     NSArray *_subscribedTags;
-    NSArray *_mutedTags;
-    NSArray *_autoFavoriteTags;
-    NSArray *_groupableTags;
 }
 
 - (id);
@@ -20,15 +17,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_displaysExtraInfo;
 - (void);
-- (void)ScoringConfig;
+- (void)mySportsGroupScoringConfig;
 - (id)"16^B24;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *autoFavoriteTags; // @synthesize autoFavoriteTags=_autoFavoriteTags;
-@property(copy, nonatomic) NSArray *groupableTags; // @synthesize groupableTags=_groupableTags;
-@property(copy, nonatomic) NSArray *mutedTags; // @synthesize mutedTags=_mutedTags;
 @property(copy, nonatomic) NSArray *subscribedTags; // @synthesize subscribedTags=_subscribedTags;
 
 @end

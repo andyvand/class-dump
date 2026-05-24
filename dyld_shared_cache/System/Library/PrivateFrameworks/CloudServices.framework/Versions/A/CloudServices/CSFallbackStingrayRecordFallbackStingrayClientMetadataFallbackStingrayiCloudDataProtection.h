@@ -11,7 +11,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)entifier = %{public}@, date = %{public}@, record = %@;
 - (_Bool);
 - (_Bool);
 - (void);

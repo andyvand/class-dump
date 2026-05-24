@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatSupplementaryNodeStyle
 {
     id _identifier;
-    id class;
-    id clipsToBounds;
-    id _selectors;
-    id pin;
-    id rubberband;
 }
 
 @end

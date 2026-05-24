@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-@protocol TBScore;
+@class NSString;
 
 @interface WiFi3BarsNetwork
 {
     _Bool matched;
-    _Bool _unwantedNetworkName;
-    unsigned int _venueType;
-    NSString *password;
-    NSSet *_attributes;
-    id <TBScore> _qualityScore;
-    id <TBScore> _popularityScore;
-    unsigned long long _type;
-    unsigned long long _venueGroup;
-    NSString *_uniqueIdentifier;
-    NSString *_SSID;
-    NSSet *_accessPoints;
 }
 
-+ (_Bool);
++ (_Bool)etInfoResponseWithUGLAddressesUpdatedFromTransportStream(FigTransportStreamRef, CFDictionaryRef, LogCategory *, void *);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -32,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setMaxConcurrentOperationCount:(id)arg1;
 - (id);
 - (void);
 - (unsigned long long);
@@ -41,48 +29,17 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)>;
+- (id)(!;
 - (void);
-- (long long);
+- (long long)R;
 - (id);
 - (id);
 - (void)¥ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *SSID; // @synthesize SSID=_SSID;
-@property(retain, nonatomic) NSSet *accessPoints; // @synthesize accessPoints=_accessPoints;
-@property(readonly, nonatomic) NSSet *attributes; // @synthesize attributes=_attributes;
-@property(readonly, copy, nonatomic) NSString *captiveToken;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *captiveTokenAuthURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool matched; // @synthesize matched;
-@property(readonly, copy, nonatomic) NSString *password; // @synthesize password;
-@property(readonly, nonatomic) id <TBScore> popularityScore; // @synthesize popularityScore=_popularityScore;
-@property(readonly, nonatomic) id <TBScore> qualityScore; // @synthesize qualityScore=_qualityScore;
-@property(readonly, copy, nonatomic) NSString *receivedFromDeviceName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) long long source;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 @property(copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(nonatomic) _Bool unwantedNetworkName; // @synthesize unwantedNetworkName=_unwantedNetworkName;
-@property(readonly, nonatomic) unsigned long long venueGroup; // @synthesize venueGroup=_venueGroup;
-@property(readonly, nonatomic) unsigned int venueType; // @synthesize venueType=_venueType;
 
 @end
 

@@ -4,47 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECSubject, NSArray;
 @protocol EDIndexableAccount, EDIndexableMailbox;
 
 @protocol EDBaseMessage
+- (id <EDIndexableMailbox>)D;
 - (unsigned long long)lity];
 
 @optional
+- (unsigned long long){public}@) Application (%{public}@) Drivable (%{public}@) Paired to Driver Session (%{public}@);
 - (long long)¸«;
 
 // Remaining properties
 @property(readonly, nonatomic) id <EDIndexableAccount> account;
-@property(readonly) unsigned long long attachmentCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly, copy) NSArray *bccIfAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
-@property(readonly, nonatomic) unsigned long long fileSize;
-@property(readonly, nonatomic) id <EDIndexableMailbox> mailbox;
-@property(readonly) struct messageColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{?=CCC},?,R
-
-@property(readonly) _Bool messageColorIsHighlight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(nonatomic) unsigned long long messageSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly) long long priority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly, copy) ECSubject *subjectIfAvailable;
-@property(readonly) _Bool wasActedOnByExtension;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @end
 

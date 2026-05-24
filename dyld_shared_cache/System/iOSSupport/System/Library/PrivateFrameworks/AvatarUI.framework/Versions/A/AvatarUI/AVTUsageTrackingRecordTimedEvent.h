@@ -5,14 +5,10 @@
 //
 
 @class NSDate;
-@protocol AVTAvatarRecord;
 
 @interface AVTUsageTrackingRecordTimedEvent
 {
     _Bool _paused;
-    id <AVTAvatarRecord> _record;
-    NSDate *_currentStartTime;
-    double _totalTime;
 }
 
 - (double);
@@ -30,9 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *currentStartTime; // @synthesize currentStartTime=_currentStartTime;
-@property(nonatomic) _Bool paused; // @synthesize paused=_paused;
-@property(readonly, nonatomic) id <AVTAvatarRecord> record; // @synthesize record=_record;
-@property(nonatomic) double totalTime; // @synthesize totalTime=_totalTime;
 
 @end
 

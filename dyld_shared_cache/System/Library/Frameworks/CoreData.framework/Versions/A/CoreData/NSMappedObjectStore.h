@@ -6,13 +6,12 @@
 
 #import <CoreData/NSPersistentStore.h>
 
-@class NSPersistentStoreMap, NSSet;
+@class NSPersistentStoreMap;
 
 __attribute__((visibility("hidden")))
 @interface NSMappedObjectStore : NSPersistentStore
 {
     NSPersistentStoreMap *_theMap;
-    NSSet *_entitiesToFetch;
 }
 
 + (id);
@@ -21,15 +20,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void))h(xH;
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
+- (id)K;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)gth:(id)arg1;
+- (id)managedObjectIDFromUTF8String:(id)arg1 length:(id)arg2;
 - (id)identifier mismatch;
 
 @end

@@ -7,10 +7,9 @@
 @interface AuthenticationServices._ASCredentialProviderExtensionNotificationManager
 {
     id $defaultActor;
-    id credentialProviderExtensionManager;
 }
 
-- (void);
+- (void);
 - (id);
 
 @end

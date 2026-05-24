@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNScene;
+@class SCNScene;
 
 @protocol SCNRendererJSExport
-- (_Bool)Scale;
+- (id);
+- (void);
+- (void)manciple;
+- (double)legacy;
+- (void)EPLACE INTO genius_metadata (genius_id, checksum, data) VALUES (?, ?, ?);;
+- (_Bool)SCNActionScale;
 - (void)üy?Q/? Dò½"5->âz?-|?ßþÜ½>V¶{?µNx?ÂÇ½>¼w|?rÂt?L²½`tù=$)}?q?pa½T¬Ú=øÅ}?P©n?o½+Ú¼=/P~?nl?mTg½G=TÇ~?yæi?ÑÍ>½ðü=I*?Þh?7½§ÌM=z?×gf?ðÝ¼\=þ¶?:(_Bool)arg1 êd?D¥¼y°Å<à?vmc?¼Á;
 
 // Remaining properties
-@property(nonatomic) double currentTime;
-@property(nonatomic) id delegate;
-@property(nonatomic) _Bool jitteringEnabled;
-@property(nonatomic) _Bool loops;
-@property(readonly, nonatomic) double nextFrameTime;
-@property(nonatomic, getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) SCNNode *pointOfView;
 @property(retain, nonatomic) SCNScene *scene;
-@property(nonatomic) _Bool temporalAntialiasingEnabled;
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface HMITask
 {
     int _taskID;
-    CDUnknownBlockType _progressBlock;
 }
 
 - (void);
@@ -24,8 +21,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(readonly) NSDictionary *results;
-@property(readonly) int taskID; // @synthesize taskID=_taskID;
 
 @end
 

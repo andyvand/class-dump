@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCKeyValueStore, FCMTWriterLock, NSMutableDictionary;
-@protocol FCPuzzleTypeSettingsDelegate;
+@class FCMTWriterLock;
 
 @interface FCPuzzleTypeSettings
 {
     FCMTWriterLock *_entriesLock;
-    NSMutableDictionary *_entriesByPuzzleTypeID;
-    FCKeyValueStore *_localStore;
-    id <FCPuzzleTypeSettingsDelegate> _delegate;
 }
 
 + (id);
@@ -21,13 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)peDiversificationConfiguration;
+- (void)recipeDiversificationConfiguration;
 
 @end
 

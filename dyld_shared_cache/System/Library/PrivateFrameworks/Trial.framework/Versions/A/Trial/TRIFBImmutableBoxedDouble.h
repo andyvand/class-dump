@@ -11,7 +11,6 @@
 @interface TRIFBImmutableBoxedDouble : TRIFBBoxedDouble
 {
     AFBBufRef *_br;
-    const struct BoxedDouble *_ptr;
 }
 
 - (id);

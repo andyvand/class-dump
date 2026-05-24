@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (double);
++ (double)(;
 + (CDStruct_996ac03c);
 + (double);
 

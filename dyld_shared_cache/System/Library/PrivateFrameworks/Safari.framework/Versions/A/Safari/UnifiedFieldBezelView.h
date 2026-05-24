@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, UnifiedTabBarVisualEffectView;
+@class UnifiedTabBarVisualEffectView;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedFieldBezelView
 {
     UnifiedTabBarVisualEffectView *_backingMaterial;
-    unsigned long long _browsingMode;
-    NSAppearance *_titlebarAppearance;
 }
 
 + (long long);
@@ -34,9 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long backingMaterial;
 @property(nonatomic) unsigned long long browsingMode; // @synthesize browsingMode=_browsingMode;
-@property(retain, nonatomic) NSAppearance *titlebarAppearance; // @synthesize titlebarAppearance=_titlebarAppearance;
 
 @end
 

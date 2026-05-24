@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)itemInTabBarWithTouches:withEvent: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 

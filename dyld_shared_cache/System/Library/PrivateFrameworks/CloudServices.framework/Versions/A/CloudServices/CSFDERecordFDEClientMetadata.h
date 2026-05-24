@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSFDERecordFDEClientMetadataFDEKeyRegistry, CSFDERecordFDEClientMetadataFDEiCloudDataProtection;
+@class CSFDERecordFDEClientMetadataFDEiCloudDataProtection;
 
 @interface CSFDERecordFDEClientMetadata
 {
     CSFDERecordFDEClientMetadataFDEiCloudDataProtection *_icdp;
-    CSFDERecordFDEClientMetadataFDEKeyRegistry *_keyRegistry;
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)%{public}@, record = %@;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)vV;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIcdp;
-@property(readonly, nonatomic) _Bool hasKeyRegistry;
-@property(retain, nonatomic) CSFDERecordFDEClientMetadataFDEiCloudDataProtection *icdp; // @synthesize icdp=_icdp;
-@property(retain, nonatomic) CSFDERecordFDEClientMetadataFDEKeyRegistry *keyRegistry; // @synthesize keyRegistry=_keyRegistry;
 
 @end
 

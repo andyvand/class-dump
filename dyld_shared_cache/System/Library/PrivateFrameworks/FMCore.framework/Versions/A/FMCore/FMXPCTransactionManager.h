@@ -4,43 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_os_transaction;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface FMXPCTransactionManager
 {
     NSObject<OS_dispatch_queue> *_txn_ops_queue;
-    NSCountedSet *_activeTransactions;
-    NSString *_keepAliveActivityIdentifier;
-    NSObject<OS_os_transaction> *_masterTransaction;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)pomofo:(id)arg1 ];
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)';
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSCountedSet *activeTransactions; // @synthesize activeTransactions=_activeTransactions;
-@property(retain, nonatomic) NSString *keepAliveActivityIdentifier; // @synthesize keepAliveActivityIdentifier=_keepAliveActivityIdentifier;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *masterTransaction; // @synthesize masterTransaction=_masterTransaction;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *txn_ops_queue; // @synthesize txn_ops_queue=_txn_ops_queue;
 
 @end

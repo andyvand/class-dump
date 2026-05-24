@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 @interface UAShortcutCategory
 {
     NSString *_localizedName;
-    NSMutableArray *__mutableFeatures;
-    unsigned long long __categoryID;
 }
 
 - (void);
@@ -18,16 +16,13 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setCategoryID:) unsigned long long _categoryID; // @synthesize _categoryID=__categoryID;
-@property(retain, nonatomic) NSMutableArray *_mutableFeatures; // @synthesize _mutableFeatures=__mutableFeatures;
-@property(readonly, copy, nonatomic) NSArray *features;
 @property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
 
 @end

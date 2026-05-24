@@ -11,16 +11,15 @@
 }
 
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)sectionType;
 - (id);
-- (id);
+- (id)isMathPaperSolvingAllowed;
 - (id);
 - (Class);
-- (unsigned long long)Offset:forAttachmentClass: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setCachedAttachmentFetchOffset:forAttachmentClass: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) Class cellClass;
-@property(nonatomic, readonly) _Bool shouldShowIntroductionsLabel;
 
 @end
 

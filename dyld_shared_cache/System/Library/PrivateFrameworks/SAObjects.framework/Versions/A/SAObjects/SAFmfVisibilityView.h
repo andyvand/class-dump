@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *searchContext;
-@property(nonatomic) _Bool visible;
 
 @end
 

@@ -5,5 +5,11 @@
 //
 
 @protocol UIScrollViewDelegate
+
+@optional
+- (void);
+- (void)?;
+- (void)h;
+- (void)TR_SESSION_FLAGS;
 @end
 

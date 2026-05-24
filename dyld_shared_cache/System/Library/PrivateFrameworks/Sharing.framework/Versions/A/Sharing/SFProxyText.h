@@ -9,8 +9,6 @@
 @interface SFProxyText
 {
     unsigned int _slotIdentifier;
-    NSString *_text;
-    double _slotTextHeight;
 }
 
 + (_Bool);
@@ -22,14 +20,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)!;
 - (_Bool);
-- (void);
+- (void)p;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int slotIdentifier; // @synthesize slotIdentifier=_slotIdentifier;
-@property(readonly, nonatomic) double slotTextHeight; // @synthesize slotTextHeight=_slotTextHeight;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

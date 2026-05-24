@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleListEditorialMetadata, FCInterestToken, NSArray, NSDate, NSString, NTPBArticleListRecord;
+@class NSString, NTPBArticleListRecord;
 
 @interface FCArticleList
 {
     NSString *_identifier;
-    NSArray *_articleIDs;
-    unsigned long long _type;
-    FCArticleListEditorialMetadata *_editorialMetadata;
-    NSDate *_lastModifiedDate;
-    NTPBArticleListRecord *_record;
-    FCInterestToken *_interestToken;
 }
 
-- (id);
+- (id)8H;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)INELIGIBLE_SOURCE_NOT_CASESENSITIVE;
 - (id);
 - (id)ñ(	1Â0@ù
 × ;
-- (void)g;
+- (void)headlinePersonalizationInstrumentationConfig;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *articleIDs; // @synthesize articleIDs=_articleIDs;
-@property(readonly, nonatomic) FCArticleListEditorialMetadata *editorialMetadata; // @synthesize editorialMetadata=_editorialMetadata;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) FCInterestToken *interestToken; // @synthesize interestToken=_interestToken;
-@property(readonly, copy, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
 @property(readonly, nonatomic) NTPBArticleListRecord *record; // @synthesize record=_record;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

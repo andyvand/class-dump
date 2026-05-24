@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (WebKitExtras)
-- (float);
+- (float)`;
 - (float);
 - (float);
 @end

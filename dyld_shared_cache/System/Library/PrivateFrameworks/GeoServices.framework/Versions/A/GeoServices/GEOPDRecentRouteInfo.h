@@ -4,47 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRecentRouteInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSData *_etaFilter;
-    NSData *_evChargingMetadata;
-    NSData *_originalWaypointRoute;
-    NSData *_routeId;
-    NSData *_sessionState;
-    NSMutableArray *_zilchPointSegments;
-    NSData *_zilchPoints;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _preferredTransportType;
-    struct {
-        unsigned int has_preferredTransportType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_etaFilter:1;
-        unsigned int read_evChargingMetadata:1;
-        unsigned int read_originalWaypointRoute:1;
-        unsigned int read_routeId:1;
-        unsigned int read_sessionState:1;
-        unsigned int read_zilchPointSegments:1;
-        unsigned int read_zilchPoints:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (id)_startListenWithCompletion: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool);
+- (_Bool)#�N>;
 - (id);
 - (id)32@0:(struct _NSZone *)arg1 8d16{?=If}24;
-- (id)gth;
+- (id)_minLength;
 - (id)¼ÊxË4ÌðÌ<Ñ;
 - (void)¦Õ¸ÇÀF@;
 

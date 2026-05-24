@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEExtensionHostContext, NSExtension, NSMutableArray, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSExtension;
 
 @interface DEExtension
 {
     _Bool _allowUserAttachmentSelection;
-    _Bool _isFetchingExtensionHostContext;
-    _Bool _adoptsExtensionTrackerFlow;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSString *_attachmentsName;
-    NSString *_identifier;
-    DEExtensionHostContext *_context;
-    NSString *_loggingConsent;
-    NSExtension *_extension;
-    NSMutableArray *_contextFetchHandlers;
-    long long _callCount;
-    NSNumber *_cachedRequiresDataClassBAccessToRun;
 }
 
 - (void);
-- (id);
+- (id)ailbox %@ (success = %d);
 - (void);
 - (id);
 - (void);
@@ -32,33 +20,46 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)Pje14wHwYDVR0jBBgwFoAUESXWmKVwOl5LaoSB
+35L33xPje14wDQYJKoZIhvcNAQELBQADggIBAJcISq7FqhBfFRpgEAiedVPPzff5
+rU2uNQLpApMb3A6jFSostHTwypA//pc0PbTPTi5t2CcF14Gznqt4Gf1Ej75C+fgK
+QoWjcgYPCXkK+6KkTW8EMLsL+n8ZL1tqdOuJCOBTRBTU3Lbwon5uYF98CdBlPIam
+ZqDEbEiwrp/I5uBMkut1P2sftxu5ysu3+A1bGMDI5T84sXbG0eJU6zmx1p/WUHAc
+HZy9/S7Ad5vJRMQrWx4JDdLvJ+1PXqdJtZUkp4TNPchxA9OzGsatVJJ5T/5EVDuL
+QgLaZNiWeAC19+clUREnS247RjLNIZZq0hj2Rk5zO6sSyt8vM+kJZrTVdGaSk++l
+OFWzSdo0Ev/izPkuL/cH146YZS1UWZJI61mdvbvvxqqQaoTmviuMDqDoCZ7crLu3
+LRoS6/+w+xir5s6hmAF8D6FzAkVmeAroyd6Hclk6CnhlcQP5GxjTQjA2YGe/9X54
+30qL4fjiDwdLYqxyL5J28/yxt068aoVaukoRAgiGoZouyieTV9DabenxYBOygijS
+4G4RVf4qVnQ7wGkQokhz4WIkMr4C4ydWU3GhSuM3T9Tx9ASscch/oLMczDMLKYMe
+3sdtc60+gxrctSq/B3E/5nddDj9vQ7BdRWcvJ+n/ESsXgwk5z15YZUwU/qW0j5rD
+4bPy9nox5DLds+/l
+-----END CERTIFICATE-----;
 - (void);
 - (void);
 - (id);
+- (void)ating manifest for package %@ and operation %{public}@;
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id)high turn rate,turning_rate_dps,%.2lf;
+- (void)N18cnbuildinggeometry21CompositeBuildingDataIdE8IteratorE;
 - (void);
 - (_Bool);
 - (id);
@@ -71,25 +72,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)atLeastOneTransferIncomplete;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool adoptsExtensionTrackerFlow; // @synthesize adoptsExtensionTrackerFlow=_adoptsExtensionTrackerFlow;
-@property(nonatomic) _Bool allowUserAttachmentSelection; // @synthesize allowUserAttachmentSelection=_allowUserAttachmentSelection;
-@property(retain, nonatomic) NSString *attachmentsName; // @synthesize attachmentsName=_attachmentsName;
-@property(retain) NSNumber *cachedRequiresDataClassBAccessToRun; // @synthesize cachedRequiresDataClassBAccessToRun=_cachedRequiresDataClassBAccessToRun;
-@property long long callCount; // @synthesize callCount=_callCount;
-@property(retain) DEExtensionHostContext *context; // @synthesize context=_context;
-@property(retain) NSMutableArray *contextFetchHandlers; // @synthesize contextFetchHandlers=_contextFetchHandlers;
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isFetchingExtensionHostContext; // @synthesize isFetchingExtensionHostContext=_isFetchingExtensionHostContext;
-@property(readonly, nonatomic) _Bool isLoggingEnabled;
-@property(retain, nonatomic) NSString *loggingConsent; // @synthesize loggingConsent=_loggingConsent;
-@property(readonly) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol CRKASMRoster, CRKASMUserFetching;
+@protocol CRKASMRoster;
 
 @protocol CRKASMRosterProviding
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *locationsWithManagePermissions;
-@property(readonly, nonatomic, getter=isPopulated) _Bool populated;
 @property(readonly, nonatomic) id <CRKASMRoster> roster;
-@property(readonly, nonatomic) id <CRKASMUserFetching> userFetcher;
 @end
 

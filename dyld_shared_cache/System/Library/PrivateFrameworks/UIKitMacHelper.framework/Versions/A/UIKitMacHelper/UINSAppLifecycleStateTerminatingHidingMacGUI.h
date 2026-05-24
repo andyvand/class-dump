@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UINSAppLifecycleStateTerminatingHidingMacGUI : UINSAppLifecycleState
 {
     _Bool _appDidHide;
-    _Bool _appWentBackgroundOnly;
-    _Bool _wantWindowStateReset;
-    _Bool _didRequestDefaultWindowState;
-    _Bool _reachedDefaultWindowState;
-    _Bool _relaunchRequested;
-    _Bool _isActiveState;
 }
 
 - (_Bool);
@@ -24,38 +18,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)1�rB;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void)u;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)UARPSupportedAccessoryA2049Simulated;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool appDidHide; // @synthesize appDidHide=_appDidHide;
-@property(nonatomic) _Bool appWentBackgroundOnly; // @synthesize appWentBackgroundOnly=_appWentBackgroundOnly;
-@property(nonatomic) _Bool didRequestDefaultWindowState; // @synthesize didRequestDefaultWindowState=_didRequestDefaultWindowState;
-@property(nonatomic) _Bool isActiveState; // @synthesize isActiveState=_isActiveState;
-@property(nonatomic) _Bool reachedDefaultWindowState; // @synthesize reachedDefaultWindowState=_reachedDefaultWindowState;
-@property(nonatomic) _Bool relaunchRequested; // @synthesize relaunchRequested=_relaunchRequested;
-@property(nonatomic) _Bool wantWindowStateReset; // @synthesize wantWindowStateReset=_wantWindowStateReset;
 
 @end
 

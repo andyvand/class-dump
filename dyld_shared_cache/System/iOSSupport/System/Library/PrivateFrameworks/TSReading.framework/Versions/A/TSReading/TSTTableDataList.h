@@ -6,17 +6,12 @@
 
 #import <TSReading/TSPObject.h>
 
-@class TSTIntegerKeyDict, TSTTableDataObjectKeyDict;
-
 @interface TSTTableDataList : TSPObject
 {
     int mListType;
-    unsigned int mNextID;
-    TSTIntegerKeyDict *mData;
-    TSTTableDataObjectKeyDict *mIDs;
 }
 
-- (_Bool);
+- (_Bool)older must have deferredNextContentItemID:(int)arg1 %@;
 - (id);
 - (void);
 - (unsigned long long);
@@ -24,10 +19,9 @@
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id)sourceApplicationBundleIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) TSTIntegerKeyDict *data;
 @property(readonly, nonatomic) unsigned int nextID; // @synthesize nextID=mNextID;
 
 @end

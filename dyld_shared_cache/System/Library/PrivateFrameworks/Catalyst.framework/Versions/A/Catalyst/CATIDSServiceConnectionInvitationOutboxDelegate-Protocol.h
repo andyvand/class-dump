@@ -5,5 +5,7 @@
 //
 
 @protocol CATIDSServiceConnectionInvitationOutboxDelegate
+- (void);
+- (void);
 @end
 

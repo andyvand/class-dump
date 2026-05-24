@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void)ifiedBy;
+- (void)verifiedBy;
 
 @end
 

@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView;
+
 @protocol SNTestCaseScroll
+- (UIScrollView *);
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long iterations;
-@property(readonly, nonatomic) long long numberOfScreens;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long offset;
-@property(readonly, nonatomic) unsigned long long scrollDirection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 @end
 

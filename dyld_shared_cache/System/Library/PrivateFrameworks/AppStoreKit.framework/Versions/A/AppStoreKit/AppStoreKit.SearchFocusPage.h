@@ -9,7 +9,6 @@
 @interface AppStoreKit.SearchFocusPage : AppStoreKit.GenericPage
 {
     id maxShelfRowCount;
-    id prefersSmallShelfTitles;
 }
 
 @end

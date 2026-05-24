@@ -9,11 +9,10 @@
 @interface ChatKit.TapbackPickerEmojiTailView : ChatKit.TapbackPickerButtonView
 {
     id delegate;
-    id showsContent;
 }
 
-- (_Bool)ginOverlayBalloonLayer;
-- (void)ion;
+- (_Bool)pluginOverlayBalloonLayer;
+- (void)BackgroundExtension;
 
 @end
 

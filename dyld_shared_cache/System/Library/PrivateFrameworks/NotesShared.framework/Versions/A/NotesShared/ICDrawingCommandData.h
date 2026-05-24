@@ -7,33 +7,24 @@
 @interface ICDrawingCommandData
 {
     struct CGRect _cachedBounds;
-    struct vector<ICDrawingOutputPoint, std::allocator<ICDrawingOutputPoint>> _points;
-    _Bool _isClipped;
-    unsigned int _type;
-    struct CGColor *_color;
-    struct CGPoint _clipOrigin;
-    struct CGPoint _clipNormal;
-    CDStruct_30364a2d _parameters;
-    struct ICDrawingCommandID _commandID;
-    CDStruct_4a3d0796 _baseValues;
 }
 
-- (CDStruct_30364a2d);
-- (void);
+- (CDStruct_39925896);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)/System/Library/Frameworks/LDAP.framework/Versions/A/LDAP;
 - (double);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (struct CGPoint);
-- (struct CGPoint);
-- (CDStruct_4a3d0796);
-- (CDStruct_4a3d0796);
+- (struct CGPoint);
+- (CDStruct_47a7c924);
+- (CDStruct_47a7c924);
 - (void);
 - (struct ICDrawingCommandID);
 - (unsigned int);
@@ -42,28 +33,18 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (struct CGRect);
 - (struct CGColor *);
 - (_Bool);
+- (void);
+- (void)attachment file type:(CDStruct_39925896)arg1 %@;
 - (void);
-- (void);
-- (void);
-- (CDStruct_30364a2d);
+- (CDStruct_39925896);
 - (void)X&'p,4-Ð/h0Ä1¸2t3Ì5D;¼<´= H;
 - (void *)7h8 :; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) CDStruct_4a3d0796 baseValues; // @synthesize baseValues=_baseValues;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(nonatomic) struct CGPoint clipNormal; // @synthesize clipNormal=_clipNormal;
-@property(nonatomic) struct CGPoint clipOrigin; // @synthesize clipOrigin=_clipOrigin;
-@property(retain, nonatomic) struct CGColor *color; // @synthesize color=_color;
-@property(nonatomic) struct ICDrawingCommandID commandID; // @synthesize commandID=_commandID;
-@property _Bool isClipped; // @synthesize isClipped=_isClipped;
-@property(nonatomic) CDStruct_30364a2d parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) void *points; // @synthesize points=_points;
-@property(readonly, nonatomic) unsigned int randomSeed;
 @property(nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end

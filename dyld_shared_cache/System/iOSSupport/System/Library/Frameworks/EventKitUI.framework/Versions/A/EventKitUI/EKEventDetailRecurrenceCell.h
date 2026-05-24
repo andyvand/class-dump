@@ -11,7 +11,6 @@
 @interface EKEventDetailRecurrenceCell : EKEventDetailCell
 {
     UILabel *_recurrenceLabel;
-    double _lastLayoutWidth;
 }
 
 - (id);
@@ -20,7 +19,7 @@
 - (void);
 - (double);
 - (void);
-- (void)esSubviews: /* Error: Ran out of types for this method. */;
+- (void)setAutoresizesSubviews: /* Error: Ran out of types for this method. */;
 
 @end
 

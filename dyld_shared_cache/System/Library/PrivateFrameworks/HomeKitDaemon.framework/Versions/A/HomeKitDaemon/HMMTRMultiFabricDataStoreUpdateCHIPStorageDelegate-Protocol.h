@@ -7,6 +7,6 @@
 @class NSString;
 
 @protocol HMMTRMultiFabricDataStoreUpdateCHIPStorageDelegate
-- (NSString *)omatedCount;
+- (NSString *)_automatedCount;
 @end
 

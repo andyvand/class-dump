@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPCPlaybackIntent;
+
 @protocol MPCPlaybackIntentDataSource
++ (_Bool)ccount, error:(MPCPlaybackIntent *)arg1 %@;
++ (_Bool)y action %lu is not safe for auto enablement.";
+- (void);
+
+@optional
+- (void)ricted;
+- (void)<;
 @end
 

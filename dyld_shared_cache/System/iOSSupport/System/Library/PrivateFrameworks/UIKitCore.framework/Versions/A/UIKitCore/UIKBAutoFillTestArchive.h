@@ -4,57 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UIKBAutoFillTestExpectedResult, UINavigationItem, UIView;
+@class NSMutableDictionary, UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIKBAutoFillTestArchive
 {
     NSMutableDictionary *_tableViewTagToDataSource;
-    _Bool _requiresNavigationControllerNesting;
-    UIKBAutoFillTestExpectedResult *_expectedResult;
-    UIView *_snapshotView;
-    NSString *_viewControllerClassName;
-    NSString *_viewControllerTitle;
-    NSString *_navigationControllerClassName;
-    NSString *_presentingViewControllerClassName;
-    UINavigationItem *_viewControllerNavigationItem;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)p;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)pdating Participants for scheduled messages in chat %s if necessary;
+- (void)otification center to post badge number %@;
+- (void)hare:(id)arg1 %ld Error:%@ /* Error: Ran out of types for this method. */;
+- (void)update, no verification manager action required. Subscription:(id)arg1 %@;
+- (_Bool)sage profile:%@ /* Error: Ran out of types for this method. */;
+- (id)@;
+- (id)%@;
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
-- (void)equestHealthAuthorization:(id)arg1;
-- (void)isitedScrollingContainers;
 - (id);
+- (void)applicationShouldRequestHealthAuthorization:(id)arg1;
+- (void)stackVisitedScrollingContainers;
+- (id)UIKBKeyViewContentView;
 - (void)qÔX:g /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIKBAutoFillTestExpectedResult *expectedResult; // @synthesize expectedResult=_expectedResult;
-@property(copy, nonatomic) NSString *navigationControllerClassName; // @synthesize navigationControllerClassName=_navigationControllerClassName;
-@property(copy, nonatomic) NSString *presentingViewControllerClassName; // @synthesize presentingViewControllerClassName=_presentingViewControllerClassName;
-@property(nonatomic) _Bool requiresNavigationControllerNesting; // @synthesize requiresNavigationControllerNesting=_requiresNavigationControllerNesting;
 @property(retain, nonatomic) UIView *snapshotView; // @synthesize snapshotView=_snapshotView;
-@property(copy, nonatomic) NSString *viewControllerClassName; // @synthesize viewControllerClassName=_viewControllerClassName;
-@property(retain, nonatomic) UINavigationItem *viewControllerNavigationItem; // @synthesize viewControllerNavigationItem=_viewControllerNavigationItem;
-@property(copy, nonatomic) NSString *viewControllerTitle; // @synthesize viewControllerTitle=_viewControllerTitle;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAMacFileSearchView : SAAceView
 {
@@ -18,7 +18,7 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entities;
-@property(nonatomic) long long numResults;
-@property(copy, nonatomic) NSString *query;
-@property(copy, nonatomic) NSString *searchTitle;
 
 @end
 

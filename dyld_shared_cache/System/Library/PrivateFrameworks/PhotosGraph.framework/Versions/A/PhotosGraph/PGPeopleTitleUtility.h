@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)AXTextInputMarkingSessionBegan;
++ (id).AXKInputMarkingSessionTracker.queue;
 + (id);
 + (id);
 + (id);

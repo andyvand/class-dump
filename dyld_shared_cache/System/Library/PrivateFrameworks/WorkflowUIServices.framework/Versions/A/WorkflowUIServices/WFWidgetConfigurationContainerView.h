@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, WFWidgetConfigurationCardView;
+@class WFWidgetConfigurationCardView;
 @protocol WFWidgetConfigurationContainerViewDelegate;
 
 @interface WFWidgetConfigurationContainerView
 {
     id <WFWidgetConfigurationContainerViewDelegate> _delegate;
-    unsigned long long _widgetConfigurationStyle;
-    WFWidgetConfigurationCardView *_cardView;
-    NSArray *_defaultCardLayoutConstraints;
-    NSLayoutConstraint *_preferredCardWidthLayoutConstraint;
-    NSLayoutConstraint *_preferredCardHeightLayoutConstraint;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (struct CGRect);
+- (id)H*T;
+- (id)zg;
+- (struct CGRect)T;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)@@"NSString";
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) WFWidgetConfigurationCardView *cardView; // @synthesize cardView=_cardView;
-@property(nonatomic) struct CGRect configurationCardViewFrame;
-@property(readonly, nonatomic) NSArray *defaultCardLayoutConstraints; // @synthesize defaultCardLayoutConstraints=_defaultCardLayoutConstraints;
-@property(nonatomic) __weak id <WFWidgetConfigurationContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSLayoutConstraint *preferredCardHeightLayoutConstraint; // @synthesize preferredCardHeightLayoutConstraint=_preferredCardHeightLayoutConstraint;
-@property(readonly, nonatomic) NSLayoutConstraint *preferredCardWidthLayoutConstraint; // @synthesize preferredCardWidthLayoutConstraint=_preferredCardWidthLayoutConstraint;
-@property(nonatomic) unsigned long long widgetConfigurationStyle; // @synthesize widgetConfigurationStyle=_widgetConfigurationStyle;
 
 @end
 

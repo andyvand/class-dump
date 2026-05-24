@@ -6,29 +6,18 @@
 
 #import <NetworkExtension/NEIKEv2Packet.h>
 
-@class NEIKEv2AuthPayload, NEIKEv2ChildSAPayload, NEIKEv2ConfigPayload, NEIKEv2EAPPayload, NEIKEv2GSPMPayload, NEIKEv2InitiatorIdentifierPayload, NEIKEv2InitiatorTrafficSelectorPayload, NEIKEv2ResponderIdentifierPayload, NEIKEv2ResponderTrafficSelectorPayload, NSArray;
+@class NEIKEv2ChildSAPayload;
 
 @interface NEIKEv2IKEAuthPacket : NEIKEv2Packet
 {
     NEIKEv2ChildSAPayload *_sa;
-    NEIKEv2InitiatorIdentifierPayload *_idi;
-    NEIKEv2ResponderIdentifierPayload *_idr;
-    NSArray *_certificates;
-    NSArray *_certificateRequests;
-    NEIKEv2AuthPayload *_auth;
-    NEIKEv2EAPPayload *_eap;
-    NEIKEv2GSPMPayload *_gspm;
-    NEIKEv2ConfigPayload *_config;
-    NEIKEv2InitiatorTrafficSelectorPayload *_tsi;
-    NEIKEv2ResponderTrafficSelectorPayload *_tsr;
-    NSArray *_vendorIDs;
 }
 
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (void)Block: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setRequestCompletionBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

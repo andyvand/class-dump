@@ -11,10 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
-- (id);
+- (id)rd-1000.4.11
+;
 
 @end
 

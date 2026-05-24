@@ -6,15 +6,14 @@
 
 #import <AuthKitUI/AKAuthorizationScopeDetailTableViewCell.h>
 
-@class AKAuthorizationLoginChoice, UIImage, UIImageView;
+@class AKAuthorizationLoginChoice;
 
 @interface AKAuthorizationLoginChoiceTableViewCell : AKAuthorizationScopeDetailTableViewCell
 {
     AKAuthorizationLoginChoice *_loginChoice;
-    UIImageView *_sharedIconImageView;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -29,9 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *iconImage;
 @property(copy, nonatomic) AKAuthorizationLoginChoice *loginChoice; // @synthesize loginChoice=_loginChoice;
-@property(retain, nonatomic) UIImageView *sharedIconImageView; // @synthesize sharedIconImageView=_sharedIconImageView;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface APPolicyMaximumFailedAuthentications : APPolicy
 {
     NSNumber *_maximumFailedAuthentications;
-    NSNumber *_minutesUntilAutomaticallyUnlocked;
 }
 
 + (id);
@@ -25,14 +24,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSNumber *maximumFailedAuthentications; // @synthesize maximumFailedAuthentications=_maximumFailedAuthentications;
-@property(copy) NSNumber *minutesUntilAutomaticallyUnlocked; // @synthesize minutesUntilAutomaticallyUnlocked=_minutesUntilAutomaticallyUnlocked;
 
 @end
 

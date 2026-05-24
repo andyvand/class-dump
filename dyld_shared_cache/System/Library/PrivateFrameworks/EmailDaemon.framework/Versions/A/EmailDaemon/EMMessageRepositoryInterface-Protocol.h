@@ -5,5 +5,10 @@
 //
 
 @protocol EMMessageRepositoryInterface
+- (void);
+- (void)/;
+- (void)B;
+- (void)B#;
+- (void)trafficClassBESucceededSmall;
 @end
 

@@ -6,17 +6,14 @@
 
 #import <CoreData/PFHistoryAnalyzerOptions.h>
 
-@class NSCloudKitMirroringRequest;
-
 __attribute__((visibility("hidden")))
 @interface PFCloudKitHistoryAnalyzerOptions : PFHistoryAnalyzerOptions
 {
     _Bool _includePrivateTransactions;
-    NSCloudKitMirroringRequest *_request;
 }
 
 - (void);
-- (id);
+- (id);
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, PKFakeUITapGestureForRequirements, UITapGestureRecognizer, UIView, _PKFakeTapToFocusInfo;
+@class UIView;
 
 @interface PKFakeTapToFocusDelegate
 {
     UIView *_view;
-    _PKFakeTapToFocusInfo *_focusInfo;
-    NSUUID *_elementID;
-    UITapGestureRecognizer *_tapGesture;
-    PKFakeUITapGestureForRequirements *_gestureForRequirements;
 }
 
 + (_Bool);
@@ -33,13 +29,7 @@
 - (id)^{CGPoint}}8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

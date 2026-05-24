@@ -6,22 +6,16 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSArray, NSMutableArray, NSString, NUIContainerFlowView;
-@protocol TLKImagesViewDelegate;
+@class NSMutableArray;
 
 @interface TLKImagesView : TLKView
 {
     _Bool _paddingDisabled;
-    _Bool _selectionEnabled;
-    _Bool _useGridAlignment;
-    id <TLKImagesViewDelegate> _delegate;
-    NSArray *_images;
-    NSMutableArray *_imageButtons;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -34,27 +28,14 @@
 - (void);
 - (void);
 - (void);
+- (id)ith no context! Might have been delivered while under first unlock. Can't track batches!;
+- (void)s config;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void){;
 
 // Remaining properties
-@property(retain, nonatomic) NUIContainerFlowView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TLKImagesViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableArray *imageButtons; // @synthesize imageButtons=_imageButtons;
-@property(retain, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(nonatomic, getter=isPaddingDisabled) _Bool paddingDisabled; // @synthesize paddingDisabled=_paddingDisabled;
-@property(nonatomic, getter=isSelectionEnabled) _Bool selectionEnabled; // @synthesize selectionEnabled=_selectionEnabled;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useGridAlignment; // @synthesize useGridAlignment=_useGridAlignment;
 
 @end
 

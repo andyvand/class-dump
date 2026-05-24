@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDSearchQuery, NSMutableOrderedSet, NSString;
-
 @interface CalSpotlightPendingSearch
 {
     CDUnknownBlockType _completionHandler;
-    NSMutableOrderedSet *_searchableItemIdentifiers;
-    NSMutableOrderedSet *_searchableItems;
-    MDSearchQuery *_query;
-    NSString *_clientBundleID;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id))!;
 - (void);
 - (id);
 - (void);
@@ -30,10 +24,10 @@
 - (void);
 - (void);
 - (void);
+- (id)rRejected",&,N,V_eventBannerRejected;
+- (void)Ö;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -41,18 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) MDSearchQuery *query; // @synthesize query=_query;
-@property(retain) NSMutableOrderedSet *searchableItemIdentifiers; // @synthesize searchableItemIdentifiers=_searchableItemIdentifiers;
-@property(retain) NSMutableOrderedSet *searchableItems; // @synthesize searchableItems=_searchableItems;
-@property(readonly) Class superclass;
 
 @end
 

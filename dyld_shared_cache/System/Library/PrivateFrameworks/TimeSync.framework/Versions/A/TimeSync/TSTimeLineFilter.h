@@ -8,19 +8,18 @@
 {
 }
 
-- (CDStruct_4e4c37a4);
+- (CDStruct_4bcfbbae);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)(;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canConvertTime;
-@property(readonly, nonatomic) CDStruct_4e4c37a4 rateRatio;
+@property(readonly, nonatomic) CDStruct_4bcfbbae rateRatio;
 
 @end
 

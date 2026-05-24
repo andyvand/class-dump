@@ -5,8 +5,9 @@
 //
 
 @protocol PLPerformChangesRequestService
+- (id)%s, nestedGroups="%s" location=%s;
 - (id);
-- (id)nantOrderType;
+- (id)dominantOrderType;
 - (id)ce-backup in preparation for device-library configuration change from %@ to %@;
 @end
 

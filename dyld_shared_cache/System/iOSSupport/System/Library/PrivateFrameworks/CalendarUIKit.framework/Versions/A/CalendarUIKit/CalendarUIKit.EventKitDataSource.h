@@ -7,7 +7,6 @@
 @interface CalendarUIKit.EventKitDataSource
 {
     id visibilityManager;
-    id eventStore;
 }
 
 @end

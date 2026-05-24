@@ -4,75 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIApplicationInfoParser
 {
     _Bool _isYukonLinked;
-    _Bool _isExitsOnSuspend;
-    _Bool _canChangeBackgroundStyle;
-    _Bool _statusBarHidden;
-    _Bool _statusBarHiddenWhenVerticallyCompact;
-    _Bool _systemWindowsSecure;
-    _Bool _optOutOfRTL;
-    _Bool _disableLayoutAwareShortcuts;
-    _Bool _requiresHighResolution;
-    _Bool _fakingRequiresHighResolution;
-    _Bool _supportsMultiwindow;
-    _Bool _supportsSceneItemProviders;
-    _Bool _supportedOnLockScreen;
-    _Bool _hasSupportsIndirectInputEventsKey;
-    _Bool _supportsIndirectInputEvents;
-    _Bool _uiRequiresFullScreenValue;
-    _Bool _effectiveUIRequiresFullScreenValue;
-    _Bool _usesSplashBoard;
-    _Bool _requiresFullScreen;
-    _Bool _macTrueScreenSizeEnabled;
-    _Bool _macLaunchToFullScreen;
-    _Bool _exemptFromiOSCompatibilityRestrictionsOnMac;
-    _Bool _supportsTabbedWindows;
-    _Bool _requiresGameControllerBasedFocus;
-    _Bool _requestsFlattenedGameControllerFocusMovement;
-    _Bool _focusEnabledInLimitedControls;
-    _Bool _forcesDefaultFocusAppearance;
-    _Bool _focusSystemEnabled;
-    _Bool _supportsPrintCommand;
-    long long _requestedStatusBarStyle;
-    long long _interfaceOrientation;
-    long long _launchingInterfaceOrientationForSpringBoard;
-    unsigned long long _supportedInterfaceOrientations;
-    long long _backgroundStyle;
-    unsigned long long _ignoredOverrides;
-    long long _whitePointAdaptivityStyle;
-    unsigned long long _viewControllerBasedStatusBarAppearance;
-    NSString *_launchImageFile;
-    NSString *_keyColorAssetName;
-    NSArray *_canvasDefinitions;
-    NSString *_preferredDefaultSceneSessionRole;
-    NSDictionary *_sceneConfigurations;
-    long long _supportedUserInterfaceStyle;
-    NSArray *_deviceFamilies;
-    NSString *_uiRequiresFullScreenIgnoredStartingWithVersion;
-    NSDictionary *_utTypeToDocumentClassMap;
-    NSArray *_viewerRoleDocumentUTTypes;
-    NSArray *_editorRoleDocumentUTTypes;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
-- (long long);
-- (id);
+- (long long);
+- (id)rary/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/s3_clnt.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (long long);
-- (id);
-- (_Bool);
+- (id)_clearConnection;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -93,27 +44,27 @@ __attribute__((visibility("hidden")))
 - (_Bool)× ;
 - (id)0@ù
 × ;
-- (_Bool)eEmoji;
-- (_Bool)umContentWidth: /* Error: Ran out of types for this method. */;
-- (id)tyle: /* Error: Ran out of types for this method. */;
-- (_Bool)esture:touchCancelledAtDigitizerLocation: /* Error: Ran out of types for this method. */;
-- (_Bool)singComparator:fromItem:inDirection:loopAround: /* Error: Ran out of types for this method. */;
-- (id)ersectsDateComponents:accuracy: /* Error: Ran out of types for this method. */;
-- (_Bool)teTargetContentOffset;
-- (_Bool)Image:forState:barMetrics: /* Error: Ran out of types for this method. */;
+- (_Bool)userHasSelectedSkinToneEmoji;
+- (_Bool)setMinimumContentWidth: /* Error: Ran out of types for this method. */;
+- (id)setAlertStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)focusEnginePanGesture:touchCancelledAtDigitizerLocation: /* Error: Ran out of types for this method. */;
+- (_Bool)_nextItemInOrderedSet:usingComparator:fromItem:inDirection:loopAround: /* Error: Ran out of types for this method. */;
+- (id)_intersectsDateComponents:accuracy: /* Error: Ran out of types for this method. */;
+- (_Bool)_deferredUpdateTargetContentOffset;
+- (_Bool)_UIAppearance_setBackgroundImage:forState:barMetrics: /* Error: Ran out of types for this method. */;
 - (id)ostRotationInputViewSet;
-- (_Bool)ordanceView;
+- (_Bool)_affordanceView;
 - (_Bool)ecognizer;
 - (_Bool);
-- (id)iewSupplementaryRegistration;
+- (id)_UICollectionViewSupplementaryRegistration;
 - (_Bool)\U;
 - (id)hes current phase. Not doing so runs a risk of triggering infinite loop.;
 - (void)%ld;
 - (id)ViewControllerSceneShimEnabledForBundleIdentifierAndExtensionPointIdentifier(NSString * _Nullable __strong, NSString * _Nullable __strong);
 - (void)Document File Access;
 - (long long)ibutes:%@; new transform:%@ /* Error: Ran out of types for this method. */;
-- (id)ification;
-- (_Bool)ionContextCSgIggg_;
+- (id)UIAccessibilityAssistiveTouchStatusDidChangeNotification;
+- (_Bool)So23FBSMutableSceneSettingsCSo25FBSSceneTransitionContextCSgIggg_;
 - (_Bool)Ñ;
 - (unsigned long long)ü`\;
 - (void);
@@ -121,53 +72,7 @@ __attribute__((visibility("hidden")))
 - (long long)ò­É`;
 
 // Remaining properties
-@property(readonly, nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(readonly, nonatomic) _Bool canChangeBackgroundStyle; // @synthesize canChangeBackgroundStyle=_canChangeBackgroundStyle;
-@property(readonly, copy, nonatomic) NSArray *canvasDefinitions; // @synthesize canvasDefinitions=_canvasDefinitions;
-@property(readonly, copy, nonatomic) NSArray *deviceFamilies; // @synthesize deviceFamilies=_deviceFamilies;
-@property(readonly, nonatomic) _Bool disableLayoutAwareShortcuts; // @synthesize disableLayoutAwareShortcuts=_disableLayoutAwareShortcuts;
-@property(readonly, nonatomic) NSArray *editorRoleDocumentUTTypes; // @synthesize editorRoleDocumentUTTypes=_editorRoleDocumentUTTypes;
-@property(readonly, nonatomic) _Bool effectiveUIRequiresFullScreenValue; // @synthesize effectiveUIRequiresFullScreenValue=_effectiveUIRequiresFullScreenValue;
-@property(readonly, nonatomic, getter=isExemptFromiOSCompatibilityRestrictionsOnMac) _Bool exemptFromiOSCompatibilityRestrictionsOnMac; // @synthesize exemptFromiOSCompatibilityRestrictionsOnMac=_exemptFromiOSCompatibilityRestrictionsOnMac;
-@property(readonly, nonatomic) _Bool fakingRequiresHighResolution; // @synthesize fakingRequiresHighResolution=_fakingRequiresHighResolution;
-@property(readonly, nonatomic) _Bool focusEnabledInLimitedControls; // @synthesize focusEnabledInLimitedControls=_focusEnabledInLimitedControls;
-@property(readonly, nonatomic) _Bool focusSystemEnabled; // @synthesize focusSystemEnabled=_focusSystemEnabled;
-@property(readonly, nonatomic) _Bool forcesDefaultFocusAppearance; // @synthesize forcesDefaultFocusAppearance=_forcesDefaultFocusAppearance;
-@property(readonly, nonatomic) _Bool hasSupportsIndirectInputEventsKey; // @synthesize hasSupportsIndirectInputEventsKey=_hasSupportsIndirectInputEventsKey;
-@property(readonly, nonatomic) unsigned long long ignoredOverrides; // @synthesize ignoredOverrides=_ignoredOverrides;
-@property(readonly, nonatomic) long long interfaceOrientation; // @synthesize interfaceOrientation=_interfaceOrientation;
-@property(readonly, nonatomic) _Bool isExitsOnSuspend; // @synthesize isExitsOnSuspend=_isExitsOnSuspend;
-@property(readonly, copy, nonatomic) NSString *keyColorAssetName; // @synthesize keyColorAssetName=_keyColorAssetName;
-@property(readonly, copy, nonatomic) NSString *launchImageFile; // @synthesize launchImageFile=_launchImageFile;
-@property(readonly, nonatomic) long long launchingInterfaceOrientationForSpringBoard; // @synthesize launchingInterfaceOrientationForSpringBoard=_launchingInterfaceOrientationForSpringBoard;
-@property(readonly, nonatomic) _Bool macLaunchToFullScreen; // @synthesize macLaunchToFullScreen=_macLaunchToFullScreen;
-@property(readonly, nonatomic) _Bool macTrueScreenSizeEnabled; // @synthesize macTrueScreenSizeEnabled=_macTrueScreenSizeEnabled;
-@property(readonly, nonatomic) _Bool optOutOfRTL; // @synthesize optOutOfRTL=_optOutOfRTL;
-@property(readonly, copy, nonatomic) NSString *preferredDefaultSceneSessionRole; // @synthesize preferredDefaultSceneSessionRole=_preferredDefaultSceneSessionRole;
 @property(readonly, nonatomic) long long requestedStatusBarStyle; // @synthesize requestedStatusBarStyle=_requestedStatusBarStyle;
-@property(readonly, nonatomic) _Bool requestsFlattenedGameControllerFocusMovement; // @synthesize requestsFlattenedGameControllerFocusMovement=_requestsFlattenedGameControllerFocusMovement;
-@property(readonly, nonatomic) _Bool requiresFullScreen; // @synthesize requiresFullScreen=_requiresFullScreen;
-@property(readonly, nonatomic) _Bool requiresGameControllerBasedFocus; // @synthesize requiresGameControllerBasedFocus=_requiresGameControllerBasedFocus;
-@property(readonly, nonatomic) _Bool requiresHighResolution; // @synthesize requiresHighResolution=_requiresHighResolution;
-@property(readonly, copy, nonatomic) NSDictionary *sceneConfigurations; // @synthesize sceneConfigurations=_sceneConfigurations;
-@property(readonly, nonatomic) _Bool statusBarHidden; // @synthesize statusBarHidden=_statusBarHidden;
-@property(readonly, nonatomic) _Bool statusBarHiddenWhenVerticallyCompact; // @synthesize statusBarHiddenWhenVerticallyCompact=_statusBarHiddenWhenVerticallyCompact;
-@property(readonly, nonatomic) unsigned long long supportedInterfaceOrientations; // @synthesize supportedInterfaceOrientations=_supportedInterfaceOrientations;
-@property(readonly, nonatomic) _Bool supportedOnLockScreen; // @synthesize supportedOnLockScreen=_supportedOnLockScreen;
-@property(readonly, nonatomic) long long supportedUserInterfaceStyle; // @synthesize supportedUserInterfaceStyle=_supportedUserInterfaceStyle;
-@property(readonly, nonatomic) _Bool supportsIndirectInputEvents; // @synthesize supportsIndirectInputEvents=_supportsIndirectInputEvents;
-@property(readonly, nonatomic) _Bool supportsMultiwindow; // @synthesize supportsMultiwindow=_supportsMultiwindow;
-@property(readonly, nonatomic) _Bool supportsPrintCommand; // @synthesize supportsPrintCommand=_supportsPrintCommand;
-@property(readonly, nonatomic) _Bool supportsSceneItemProviders; // @synthesize supportsSceneItemProviders=_supportsSceneItemProviders;
-@property(readonly, nonatomic) _Bool supportsTabbedWindows; // @synthesize supportsTabbedWindows=_supportsTabbedWindows;
-@property(readonly, nonatomic) _Bool systemWindowsSecure; // @synthesize systemWindowsSecure=_systemWindowsSecure;
-@property(readonly, copy, nonatomic) NSString *uiRequiresFullScreenIgnoredStartingWithVersion; // @synthesize uiRequiresFullScreenIgnoredStartingWithVersion=_uiRequiresFullScreenIgnoredStartingWithVersion;
-@property(readonly, nonatomic) _Bool uiRequiresFullScreenValue; // @synthesize uiRequiresFullScreenValue=_uiRequiresFullScreenValue;
-@property(readonly, nonatomic) _Bool usesSplashBoard; // @synthesize usesSplashBoard=_usesSplashBoard;
-@property(readonly, nonatomic) NSDictionary *utTypeToDocumentClassMap; // @synthesize utTypeToDocumentClassMap=_utTypeToDocumentClassMap;
-@property(readonly, nonatomic) unsigned long long viewControllerBasedStatusBarAppearance; // @synthesize viewControllerBasedStatusBarAppearance=_viewControllerBasedStatusBarAppearance;
-@property(readonly, nonatomic) NSArray *viewerRoleDocumentUTTypes; // @synthesize viewerRoleDocumentUTTypes=_viewerRoleDocumentUTTypes;
-@property(readonly, nonatomic) long long whitePointAdaptivityStyle; // @synthesize whitePointAdaptivityStyle=_whitePointAdaptivityStyle;
 
 @end
 

@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-- (id);
++ (id)expandItem:(long long)arg1 expandChildren:(id)arg2;
+- (id)replaceCharactersInRange:(long long)arg1 withString:(id)arg2;
 
 @end
 

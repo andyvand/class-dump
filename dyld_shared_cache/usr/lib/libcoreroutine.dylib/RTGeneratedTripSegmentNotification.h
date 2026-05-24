@@ -13,8 +13,8 @@
     RTTripSegment *_generatedTripSegment;
 }
 
-- (id);
-- (id);
+- (id)stop;
+- (id)meworks/AuthKit.framework/AuthKit;
 - (void)ax Cluster Dist %{sensitive}f, weeklyDens %{sensitive}f, dailyDens %{sensitive}f;
 
 // Remaining properties

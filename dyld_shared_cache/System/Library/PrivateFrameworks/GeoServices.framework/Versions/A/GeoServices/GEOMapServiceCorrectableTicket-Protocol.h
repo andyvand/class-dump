@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class GEORPCorrectedSearch;
+
 @protocol GEOMapServiceCorrectableTicket
+- (void)CSVoiceTriggerSecondPass[%{public}@]:(GEORPCorrectedSearch *)arg1 AFSiriActivationBluetoothDeviceVoiceTriggerPrewarm failed :%{public}@ /* Error: Ran out of types for this method. */;
 @end
 

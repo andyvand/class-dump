@@ -9,8 +9,6 @@
 @interface MFComposeDisplayMetrics
 {
     UITraitCollection *_traitCollection;
-    struct NSDirectionalEdgeInsets _layoutMargins;
-    struct UIEdgeInsets _safeAreaInsets;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (struct NSDirectionalEdgeInsets);
 - (_Bool);
 - (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)authenticationSessionRequestServerDidFinishAllRequests: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -27,12 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets headerViewSeparatorInset;
-@property(readonly, nonatomic) _Bool isCompactHeight;
-@property(nonatomic) struct NSDirectionalEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(nonatomic) struct UIEdgeInsets safeAreaInsets; // @synthesize safeAreaInsets=_safeAreaInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets sendBarButtonItemImageInsets;
-@property(readonly, nonatomic) double trailingButtonMidlineOffset;
 @property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end

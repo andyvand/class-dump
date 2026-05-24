@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol CNUICoreFamilyMemberContactsObserver;
 
 @protocol CNUICoreFamilyMemberWhitelistedContactsDataSource
+- (void);
 - (void);
 - (id <CNUICoreFamilyMemberContactsObserver>)?0@"NSNumber"8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *familyMemberContactItems;
-@property(readonly, nonatomic) _Bool familyMemberContainerIsEmpty;
-@property(readonly, nonatomic) long long fetchStatus;
 @property(nonatomic) __weak id <CNUICoreFamilyMemberContactsObserver> observer;
 @end
 

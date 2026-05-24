@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRestaurantReservationLink
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_restaurantLinks;
 }
 
 + (id);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ad_etaResponse"b1"read_name"b1"read_originalRouteID"b1"read_originalSuggestedRoute"b1"read_origin"b1"read_request"b1"read_response"b1"read_revisionID"b1"read_routeDescriptions"b1"read_routeID"b1"read_steps"b1"read_storageID"b1"read_styleAttributes"b1"read_trafficDescription"b1"read_waypoints"b1"wrote_anyField"b1};
-- (id)muninVersionIndex;
+- (id)_muninVersionIndex;
 - (id)h¦8§À§¨Ì¨¤©ªØª¨«x¬;
 - (void);
 

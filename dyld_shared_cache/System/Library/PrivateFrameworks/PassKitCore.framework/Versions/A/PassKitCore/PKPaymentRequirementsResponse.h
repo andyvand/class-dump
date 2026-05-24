@@ -6,17 +6,9 @@
 
 #import <PassKitCore/PKPaymentWebServiceResponse.h>
 
-@class NSArray, NSString, NSURL;
-
 @interface PKPaymentRequirementsResponse : PKPaymentWebServiceResponse
 {
     long long _status;
-    NSArray *_requiredPaymentSetupFields;
-    NSString *_productIdentifier;
-    NSArray *_possibleProducts;
-    NSURL *_learnMoreURL;
-    NSString *_nonce;
-    NSString *_region;
 }
 
 + (id);
@@ -27,20 +19,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (long long);
 - (void)action.cancel;
-- (id)tCredit;
+- (id)statementCredit;
 - (id)hã;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *learnMoreURL; // @synthesize learnMoreURL=_learnMoreURL;
-@property(readonly, copy, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(readonly, copy, nonatomic) NSArray *possibleProducts; // @synthesize possibleProducts=_possibleProducts;
-@property(readonly, copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(readonly, copy, nonatomic) NSString *region; // @synthesize region=_region;
-@property(readonly, copy, nonatomic) NSArray *requiredPaymentSetupFields; // @synthesize requiredPaymentSetupFields=_requiredPaymentSetupFields;
 @property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end

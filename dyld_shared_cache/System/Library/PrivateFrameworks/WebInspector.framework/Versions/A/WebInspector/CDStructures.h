@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RWIProtocolCSSDomainEventDispatcher, RWIProtocolConfiguration, RWIProtocolConsoleDomainEventDispatcher, RWIProtocolDOMDomainEventDispatcher, RWIProtocolDOMStorageDomainEventDispatcher, RWIProtocolNetworkDomainEventDispatcher, RWIProtocolPageDomainEventDispatcher;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -35,8 +33,6 @@ struct CGSize {
 
 struct Object;
 
-struct RWIAugmentableInspectorControllerClient;
-
 struct Ref<WTF::JSONImpl::Object, WTF::RawPtrTraits<WTF::JSONImpl::Object>, WTF::DefaultRefDerefTraits<WTF::JSONImpl::Object>> {
     struct Object *_field1;
 };
@@ -49,58 +45,6 @@ struct RefPtr<WTF::JSONImpl::Object, WTF::RawPtrTraits<WTF::JSONImpl::Object>, W
     struct Object *m_ptr;
 };
 
-struct RetainPtr<RWIProtocolCSSDomainEventDispatcher> {
-    RWIProtocolCSSDomainEventDispatcher *m_ptr;
-};
-
-struct RetainPtr<RWIProtocolConfiguration> {
-    RWIProtocolConfiguration *m_ptr;
-};
-
-struct RetainPtr<RWIProtocolConsoleDomainEventDispatcher> {
-    RWIProtocolConsoleDomainEventDispatcher *m_ptr;
-};
-
-struct RetainPtr<RWIProtocolDOMDomainEventDispatcher> {
-    RWIProtocolDOMDomainEventDispatcher *m_ptr;
-};
-
-struct RetainPtr<RWIProtocolDOMStorageDomainEventDispatcher> {
-    RWIProtocolDOMStorageDomainEventDispatcher *m_ptr;
-};
-
-struct RetainPtr<RWIProtocolNetworkDomainEventDispatcher> {
-    RWIProtocolNetworkDomainEventDispatcher *m_ptr;
-};
-
-struct RetainPtr<RWIProtocolPageDomainEventDispatcher> {
-    RWIProtocolPageDomainEventDispatcher *m_ptr;
-};
-
-struct RetainPtr<id<RWIProtocolCSSDomainHandler>> {
-    id m_ptr;
-};
-
-struct RetainPtr<id<RWIProtocolDOMDomainHandler>> {
-    id m_ptr;
-};
-
-struct RetainPtr<id<RWIProtocolDOMStorageDomainHandler>> {
-    id m_ptr;
-};
-
-struct RetainPtr<id<RWIProtocolNetworkDomainHandler>> {
-    id m_ptr;
-};
-
-struct RetainPtr<id<RWIProtocolPageDomainHandler>> {
-    id m_ptr;
-};
-
-struct RetainPtrArc<__CFRunLoop *> {
-    struct __CFRunLoop *m_ptr;
-};
-
 struct _AMDevice;
 
 struct _AMDeviceNotificationContext;
@@ -109,20 +53,6 @@ struct _AMDeviceNotificationInfo {
     struct _AMDevice *_field1;
     int _field2;
     struct _AMDeviceNotificationContext *_field3;
-};
-
-struct optional<unsigned long long> {
-    union {
-        char __null_state_;
-        unsigned long long __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct unique_ptr<RWIAugmentableInspectorControllerClient, std::default_delete<RWIAugmentableInspectorControllerClient>> {
-    struct {
-        struct RWIAugmentableInspectorControllerClient *__ptr_;
-    } ;
 };
 
 #pragma mark Typedef'd Structures

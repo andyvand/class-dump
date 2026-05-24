@@ -6,6 +6,8 @@
 
 @interface GameKit.GSGameActivitySupport
 {
+    id service;
+    id;
 }
 
 + (id);

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatar, AVTStickerConfiguration, NSData;
+@class AVTStickerConfiguration;
 @protocol AVTAvatarRecord;
 
 @protocol CNUIMemojiMetadata
+- (AVTStickerConfiguration *);
 
 // Remaining properties
-@property(readonly, nonatomic) AVTAvatar *avatar;
 @property(readonly, nonatomic) id <AVTAvatarRecord> avatarRecord;
-@property(readonly, nonatomic) NSData *avatarRecordData;
-@property(readonly, nonatomic) AVTStickerConfiguration *poseConfiguration;
-@property(readonly, nonatomic) NSData *poseConfigurationData;
-@property(readonly, nonatomic) _Bool poseHasBody;
 @end
 

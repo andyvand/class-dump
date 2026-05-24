@@ -5,5 +5,7 @@
 //
 
 @protocol _DPDaemonProtocol
+- (void);
+- (void);
 @end
 

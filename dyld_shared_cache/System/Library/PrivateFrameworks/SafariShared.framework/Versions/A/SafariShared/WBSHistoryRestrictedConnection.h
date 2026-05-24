@@ -11,7 +11,7 @@
     WBSHistoryService *_historyService;
 }
 
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (void);

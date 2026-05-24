@@ -6,25 +6,24 @@
 
 #import <AppKit/NSView.h>
 
-@class NSOpenGLContext, NSOpenGLPixelFormat;
+@class NSOpenGLContext;
 
 @interface NSOpenGLView : NSView
 {
     NSOpenGLContext *_openGLContext;
-    NSOpenGLPixelFormat *_pixelFormat;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)DeviceCommunicationExceptionEnable;
 - (id);
 - (id);
 - (_Bool);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)flushWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)invalid proxy authentication state;
+- (id)234567890-_[]: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -33,16 +32,13 @@
 - (void);
 - (void)Qß3Ð1Â0@ù
 × ;
-- (id)erUniformity:(struct CGRect)arg1;
+- (id)initWithCornerRadius:(struct CGRect)arg1 cornerUniformity: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)lignmentRects;
+- (void)NSShowAlignmentRects;
 - (id)xÍA;
 
 // Remaining properties
 @property(retain) NSOpenGLContext *openGLContext;
-@property(retain) NSOpenGLPixelFormat *pixelFormat;
-@property _Bool wantsBestResolutionOpenGLSurface; // @dynamic wantsBestResolutionOpenGLSurface;
-@property _Bool wantsExtendedDynamicRangeOpenGLSurface; // @dynamic wantsExtendedDynamicRangeOpenGLSurface;
 
 @end
 

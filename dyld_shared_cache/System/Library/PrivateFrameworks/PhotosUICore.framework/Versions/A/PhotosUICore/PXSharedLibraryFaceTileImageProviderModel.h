@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor;
-
 @interface PXSharedLibraryFaceTileImageProviderModel
 {
     _Bool _includeMeContact;
-    _Bool _isRTL;
-    _Bool _isAscending;
-    double _displayScale;
-    double _imageDiameter;
-    double _imageOffset;
-    NSColor *_backgroundColor;
-    NSColor *_borderColor;
-    double _borderWidth;
-    NSArray *_faceTileCombinerItems;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)H;
 - (double);
 - (id);
 - (void);
@@ -33,29 +22,20 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)e remove it first.  This is unsupported.;
 - (double);
-- (void);
+- (void)H;
 - (double)¡'Ð! Eùq;ð1Â0@ù
 × ;
-- (id)getDestination;
-- (id);
-- (_Bool)onsCompleted;
+- (id)_targetDestination;
+- (id)_ErrorType;
+- (_Bool)actionsCompleted;
 - (double)== nil) == (actionButtonHandler == nil);
 - (void);
 - (void)ÿþ T^Ô<;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, copy, nonatomic) NSColor *borderColor; // @synthesize borderColor=_borderColor;
-@property(readonly, nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
-@property(readonly, nonatomic) double displayScale; // @synthesize displayScale=_displayScale;
-@property(readonly, copy, nonatomic) NSArray *faceTileCombinerItems; // @synthesize faceTileCombinerItems=_faceTileCombinerItems;
-@property(readonly, nonatomic) double imageDiameter; // @synthesize imageDiameter=_imageDiameter;
-@property(readonly, nonatomic) double imageOffset; // @synthesize imageOffset=_imageOffset;
 @property(readonly, nonatomic) _Bool includeMeContact; // @synthesize includeMeContact=_includeMeContact;
-@property(readonly, nonatomic) _Bool isAscending; // @synthesize isAscending=_isAscending;
-@property(readonly, nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
 
 @end
 

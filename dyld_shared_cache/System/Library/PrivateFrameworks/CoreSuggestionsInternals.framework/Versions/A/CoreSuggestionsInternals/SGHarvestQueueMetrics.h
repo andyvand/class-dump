@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGM2HarvestCost, _PASLock;
+@class _PASLock;
 
 @interface SGHarvestQueueMetrics
 {
     _PASLock *_guardedData;
-    SGM2HarvestCost *_harvestCostMetrics;
 }
 
-+ (id);
++ (id)ayoutConstraint",&,V_heightConstraint;
+- (void);
+- (id)__TEXT;
+- (id);
+- (id);
+- (id)l;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (int);
+- (int)@0:(id)arg1 8@16@24@32@40;
 - (void);
 - (void)$s4;
 

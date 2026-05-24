@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetLockReason, MAAutoAssetPolicy, NSDate, NSString;
+@class MAAutoAssetLockReason;
 
 @interface MAAutoAssetLockTracker
 {
     MAAutoAssetLockReason *_clientLockReason;
-    NSString *_clientProcessName;
-    long long _clientProcessID;
-    MAAutoAssetPolicy *_lockUsagePolicy;
-    long long _activeLockCount;
-    long long _maximumLockCount;
-    long long _totalLockCount;
-    long long _continueCount;
-    NSDate *_firstLockTimestamp;
-    NSDate *_lastRefreshTimestamp;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)RTPersistenceContainer _validateConfigurations:(id)arg1 ];
 + (id);
 + (_Bool);
 - (id);
@@ -31,15 +22,15 @@
 - (id);
 - (void);
 - (long long);
-- (id);
-- (long long);
-- (id);
+- (id)initWithNameAndType:(id)arg1 payloadType: /* Error: Ran out of types for this method. */;
+- (long long)xtension request started;
+- (id)y:(id)arg1 prfProtocol:(id)arg2 ];
 - (id);
 - (long long);
 - (void);
-- (long long);
-- (id);
-- (id);
+- (long long)_fixedRateLocationRequesters;
+- (id)intDataStore _fetchTripClusterWaypointWithContext:(id)arg1 handler:(id)arg2 ];
+- (id)@ and date, %@, ascending, %@;
 - (void);
 - (void);
 - (id);
@@ -58,16 +49,7 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(nonatomic) long long activeLockCount; // @synthesize activeLockCount=_activeLockCount;
 @property(readonly, retain, nonatomic) MAAutoAssetLockReason *clientLockReason; // @synthesize clientLockReason=_clientLockReason;
-@property(nonatomic) long long clientProcessID; // @synthesize clientProcessID=_clientProcessID;
-@property(retain, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
-@property(nonatomic) long long continueCount; // @synthesize continueCount=_continueCount;
-@property(retain, nonatomic) NSDate *firstLockTimestamp; // @synthesize firstLockTimestamp=_firstLockTimestamp;
-@property(retain, nonatomic) NSDate *lastRefreshTimestamp; // @synthesize lastRefreshTimestamp=_lastRefreshTimestamp;
-@property(retain, nonatomic) MAAutoAssetPolicy *lockUsagePolicy; // @synthesize lockUsagePolicy=_lockUsagePolicy;
-@property(nonatomic) long long maximumLockCount; // @synthesize maximumLockCount=_maximumLockCount;
-@property(nonatomic) long long totalLockCount; // @synthesize totalLockCount=_totalLockCount;
 
 @end
 

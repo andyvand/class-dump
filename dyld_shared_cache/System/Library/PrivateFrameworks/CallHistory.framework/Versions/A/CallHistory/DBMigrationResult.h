@@ -7,17 +7,15 @@
 @interface DBMigrationResult
 {
     long long _errorCode;
-    long long _dbVersion;
 }
 
 - (id);
 - (long long);
 - (void);
-- (void)gedHandleMigrationPolicy;
+- (void)CHManagedHandleMigrationPolicy;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long dbVersion; // @synthesize dbVersion=_dbVersion;
 @property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
 
 @end

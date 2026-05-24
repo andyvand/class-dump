@@ -5,5 +5,9 @@
 //
 
 @protocol CBPairingAgentDelegate
+
+@optional
+- (void)&;
+- (void);
 @end
 

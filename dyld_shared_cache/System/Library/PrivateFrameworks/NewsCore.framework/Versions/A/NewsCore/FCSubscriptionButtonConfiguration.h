@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCColor, NSString, NSURL;
-
 @interface FCSubscriptionButtonConfiguration
 {
     _Bool _dismissLandingPagePostPurchase;
-    unsigned long long _subscriptionButtonType;
-    NSString *_trialText;
-    NSString *_nonTrialText;
-    unsigned long long _targetType;
-    unsigned long long _postPurchaseActionType;
-    NSURL *_postPurchaseURL;
-    NSString *_landingPageArticleID;
-    FCColor *_buttonColor;
-    FCColor *_buttonTextColor;
 }
 
 + (id);
@@ -25,12 +14,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)`;
 + (id);
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -43,31 +32,22 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)queryNANAvailWithCompletionHandler:(id)arg1;
+- (void)nsferSeed"16@?<v@?@"IXPromisedOutOfBandTransferSeed"@"NSError">24;
+- (void)TransferSeed",&,D,N;
 - (void);
-- (void);
-- (void);
+- (id);
+- (id)Message:(struct _NSZone *)arg1 conversationState:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ecirculationTertiaryHeadlineScoringOutputName:(_Bool)arg1;
+- (void)setShadowArticleRecirculationTertiaryHeadlineScoringOutputName:(_Bool)arg1;
 - (void)foodForYouScoringConfig;
-- (void)tics;
+- (void)personalizationAnalytics;
 - (unsigned long long)an error getting WebUsageStream. Error=%{public}@;
 - (id), time=%{public}llums;
 
 // Remaining properties
-@property(retain, nonatomic) FCColor *buttonColor; // @synthesize buttonColor=_buttonColor;
-@property(retain, nonatomic) FCColor *buttonTextColor; // @synthesize buttonTextColor=_buttonTextColor;
-@property(nonatomic, getter=shouldDismissLandingPagePostPurchase) _Bool dismissLandingPagePostPurchase; // @synthesize dismissLandingPagePostPurchase=_dismissLandingPagePostPurchase;
-@property(copy, nonatomic) NSString *landingPageArticleID; // @synthesize landingPageArticleID=_landingPageArticleID;
-@property(copy, nonatomic) NSString *nonTrialText; // @synthesize nonTrialText=_nonTrialText;
-@property(nonatomic) unsigned long long postPurchaseActionType; // @synthesize postPurchaseActionType=_postPurchaseActionType;
-@property(copy, nonatomic) NSURL *postPurchaseURL; // @synthesize postPurchaseURL=_postPurchaseURL;
 @property(nonatomic) unsigned long long subscriptionButtonType; // @synthesize subscriptionButtonType=_subscriptionButtonType;
-@property(nonatomic) unsigned long long targetType; // @synthesize targetType=_targetType;
-@property(copy, nonatomic) NSString *trialText; // @synthesize trialText=_trialText;
 
 @end
 

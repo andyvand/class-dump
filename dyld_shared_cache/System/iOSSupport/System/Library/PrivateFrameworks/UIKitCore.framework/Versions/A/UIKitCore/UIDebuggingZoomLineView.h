@@ -12,34 +12,26 @@ __attribute__((visibility("hidden")))
 @interface UIDebuggingZoomLineView : UIView
 {
     unsigned long long _direction;
-    UILabel *_lineLabel;
-    struct CGPoint _start;
-    struct CGPoint _end;
-    struct CGRect _rect;
 }
 
 - (void);
-- (void);
-- (id);
+- (void)etchRecordZoneChangesOperation;
+- (id)participantsToRemove;
 - (void);
 - (struct CGPoint)
 × ;
-- (struct CGPoint)sentation;
+- (struct CGPoint)_endNoPresentingViewControllerPresentation;
 - (struct CGRect)ardChangedInformation",&,V_backupState;
 - (id)tLargeTitleAccessoryView:(struct CGRect)arg1 ,V__largeTitleAccessoryView;
 - (unsigned long long)om.inditex.zara;
 - (void)·þ;
 - (void);
-- (void)f;
+- (void)4wf;
 - (void)¿;
 - (void)li;
 
 // Remaining properties
-@property(nonatomic) unsigned long long direction; // @synthesize direction=_direction;
-@property(nonatomic) struct CGPoint end; // @synthesize end=_end;
 @property(retain, nonatomic) UILabel *lineLabel; // @synthesize lineLabel=_lineLabel;
-@property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;
-@property(nonatomic) struct CGPoint start; // @synthesize start=_start;
 
 @end
 

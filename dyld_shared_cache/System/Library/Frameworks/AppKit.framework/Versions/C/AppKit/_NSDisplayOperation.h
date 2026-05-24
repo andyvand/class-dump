@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSOperationQueue, NSRegion, NSView, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface _NSDisplayOperation
 {
     NSWindow *_window;
-    NSRegion *_windowRegion;
-    NSMapTable *_viewToRegionMapTable;
-    _Bool _isViewWillDrawOperation;
-    NSView *_clipRootView;
-    NSOperationQueue *_viewDrawOperationQueue;
-    NSMapTable *_viewToDrawOperationMapTable;
-    struct os_unfair_lock_s _viewToDrawOperationMapTableLock;
-    _Bool _attemptingConcurrentViewDrawing;
 }
 
 - (id);
 - (id);
+- (void)alized sysconfig dictionary;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)DeviceSupportsSimplisticRoadMesh;
+- (void)a multiple of %d;
+- (id)IMEI;
 - (void);
 - (void);
 - (_Bool);

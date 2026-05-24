@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRange, _INPBHomeUserTask, _INPBIntentMetadata;
+@class NSArray;
 
 @interface _INPBControlHomeIntent
 {
     struct _has;
-    NSArray *_contents;
-    NSArray *_filters;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDateTimeRange *_time;
-    _INPBHomeUserTask *_userTask;
 }
 
 + (Class);
@@ -24,21 +19,21 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)dRule;
 - (_Bool);
 - (void);
-- (id);
+- (id)GSize="width"d"height"d}};
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)R#;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)els"b1"networks"b1"cacheEnabled"b1"cacheRollover"b1"scanFrequency"b1"lostNetworkScanCount"b1};
+- (void)wifi] [cloudsync] Checking waiting for password list;
 - (void);
 - (id);
 - (id);
@@ -47,28 +42,12 @@
 - (id);
 - (void)!ÜBù¾(ð1Â0@ù
 × ;
-- (void)etStringValue:(id)arg1;
-- (_Bool)eParkingLocationIntentExport;
+- (void)setStringValue:(id)arg1;
+- (_Bool)INDeleteParkingLocationIntentExport;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contents; // @synthesize contents=_contents;
-@property(readonly, nonatomic) unsigned long long contentsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(readonly, nonatomic) unsigned long long filtersCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly, nonatomic) _Bool hasUserTask;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDateTimeRange *time; // @synthesize time=_time;
-@property(retain, nonatomic) _INPBHomeUserTask *userTask; // @synthesize userTask=_userTask;
 
 @end
 

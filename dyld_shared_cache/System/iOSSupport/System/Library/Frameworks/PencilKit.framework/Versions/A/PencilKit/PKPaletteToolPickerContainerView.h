@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, PKPaletteToolPickerView;
+@class NSLayoutConstraint;
 
 @interface PKPaletteToolPickerContainerView
 {
     unsigned long long _edgeLocation;
-    unsigned long long _cornerLocation;
-    double _scalingFactor;
-    PKPaletteToolPickerView *_toolPickerView;
-    NSLayoutConstraint *_toolPickerViewTopConstraint;
-    NSLayoutConstraint *_toolPickerViewBottomConstraint;
-    NSLayoutConstraint *_toolPickerViewLeftConstraint;
-    NSLayoutConstraint *_toolPickerViewRightConstraint;
-    NSLayoutConstraint *_toolPickerViewCenterXConstraint;
-    NSLayoutConstraint *_toolPickerViewCenterYConstraint;
 }
 
 - (id);
@@ -42,29 +33,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (double);
+- (id);
+- (double)$;
 - (void);
-- (void)ctorTimestampPersistenceAdditions;
+- (void)PKVectorTimestampPersistenceAdditions;
 
 // Remaining properties
-@property(nonatomic) _Bool allowHDR;
-@property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long edgeLocation; // @synthesize edgeLocation=_edgeLocation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PKPaletteToolPickerView *toolPickerView; // @synthesize toolPickerView=_toolPickerView;
-@property(retain, nonatomic) NSLayoutConstraint *toolPickerViewBottomConstraint; // @synthesize toolPickerViewBottomConstraint=_toolPickerViewBottomConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *toolPickerViewCenterXConstraint; // @synthesize toolPickerViewCenterXConstraint=_toolPickerViewCenterXConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *toolPickerViewCenterYConstraint; // @synthesize toolPickerViewCenterYConstraint=_toolPickerViewCenterYConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *toolPickerViewLeftConstraint; // @synthesize toolPickerViewLeftConstraint=_toolPickerViewLeftConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *toolPickerViewRightConstraint; // @synthesize toolPickerViewRightConstraint=_toolPickerViewRightConstraint;
 @property(retain, nonatomic) NSLayoutConstraint *toolPickerViewTopConstraint; // @synthesize toolPickerViewTopConstraint=_toolPickerViewTopConstraint;
 
 @end

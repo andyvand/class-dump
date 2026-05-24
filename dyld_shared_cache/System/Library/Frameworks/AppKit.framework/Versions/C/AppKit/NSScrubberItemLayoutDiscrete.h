@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScrubberLayout, NSString;
+@class NSScrubberLayout;
 
 __attribute__((visibility("hidden")))
 @interface NSScrubberItemLayoutDiscrete
 {
     NSScrubberLayout *_scrubberLayout;
-    CDStruct_11db19a6 _cleanState;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (CDStruct_11db19a6);
+- (id);
+- (id)ub_activation_id = %{public}lu;
+- (id):(long long)arg1 attribute}u sub_component = %{public}u sub_opcode = %{public}u sub_activation_id = %{public}lu;
+- (void)ary;
+- (CDStruct_e7e06f5e);
 - (void);
 - (id);
 
 // Remaining properties
-@property CDStruct_11db19a6 cleanState; // @synthesize cleanState=_cleanState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSScrubberLayout *scrubberLayout; // @synthesize scrubberLayout=_scrubberLayout;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsTrackingPosition;
+@property CDStruct_e7e06f5e cleanState; // @synthesize cleanState=_cleanState;
 
 @end
 

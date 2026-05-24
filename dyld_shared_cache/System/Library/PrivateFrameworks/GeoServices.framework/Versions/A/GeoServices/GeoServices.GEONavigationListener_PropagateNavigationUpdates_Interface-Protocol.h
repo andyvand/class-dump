@@ -4,20 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol GeoServices.GEONavigationListener_PropagateNavigationUpdates_Interface
+- (void);
+- (void)internalFormat;
 - (void)Ô'ð!hGù1¸*1Â0@ù
 × ;
-- (void)ithHighPriority;
-- (void)leInfos:(CDStruct_c3b9c2ee)arg1;
-- (void)HasStartOffsetM:(CDStruct_c3b9c2ee)arg1;
-- (void)maxResultCount;
+- (void)shouldPreloadWithHighPriority;
+- (void)setRouteLineStyleInfos:(CDStruct_c3b9c2ee)arg1;
+- (void)setHasStartOffsetM:(CDStruct_c3b9c2ee)arg1;
+- (void)_maxResultCount;
 - (void)n only be called once per object;
+- (void)C;
+- (void)"*;
+- (void)loadMatrix:(NSString *)arg1 matrix: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
-- (void);
-- (void)outeResumed:(CDStruct_c3b9c2ee)arg1;
-- (void)atusCode:(CDStruct_c3b9c2ee)arg1;
+- (void)shouldShowRatingCount;
+- (void)setRouteResumed:(CDStruct_c3b9c2ee)arg1;
+- (void)setHasStatusCode:(CDStruct_c3b9c2ee)arg1;
 - (void)en",R,N;
-- (void)_CORRECTION_TYPE_EDIT;
+- (void)ADDRESS_CORRECTION_TYPE_EDIT;
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface AFSiriWorkoutVoiceFeedback
 {
     NSString *_feedbackIdentifier;
-    NSString *_feedbackText;
-    NSString *_voiceName;
-    NSString *_voiceLanguage;
-    unsigned long long _feedbackIntensity;
-    NSData *_feedbackAudioData;
-    struct AudioStreamBasicDescription _feedbackAudioASBD;
 }
 
 + (_Bool);
@@ -32,18 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)a;
 - (id);
-- (void)estCategorization;
+- (void)_activeRequestTypeForRequestCategorization;
 
 // Remaining properties
-@property(readonly, nonatomic) struct AudioStreamBasicDescription feedbackAudioASBD; // @synthesize feedbackAudioASBD=_feedbackAudioASBD;
-@property(readonly, nonatomic) NSData *feedbackAudioData; // @synthesize feedbackAudioData=_feedbackAudioData;
 @property(readonly, nonatomic) NSString *feedbackIdentifier; // @synthesize feedbackIdentifier=_feedbackIdentifier;
-@property(readonly, nonatomic) unsigned long long feedbackIntensity; // @synthesize feedbackIntensity=_feedbackIntensity;
-@property(readonly, nonatomic) NSString *feedbackText; // @synthesize feedbackText=_feedbackText;
-@property(readonly, nonatomic) NSString *voiceLanguage; // @synthesize voiceLanguage=_voiceLanguage;
-@property(readonly, nonatomic) NSString *voiceName; // @synthesize voiceName=_voiceName;
 
 @end
 

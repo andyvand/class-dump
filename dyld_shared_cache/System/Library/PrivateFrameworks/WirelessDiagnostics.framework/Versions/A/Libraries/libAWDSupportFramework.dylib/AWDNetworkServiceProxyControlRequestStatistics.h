@@ -7,34 +7,6 @@
 @interface AWDNetworkServiceProxyControlRequestStatistics
 {
     CDStruct_9f2792e4 _responseTimeBuckets;
-    unsigned long long _requestCount;
-    unsigned long long _resultCertificateFailureCount;
-    unsigned long long _resultConnectionResetCount;
-    unsigned long long _resultNetworkUnavailableCount;
-    unsigned long long _resultResponseTimeoutCount;
-    unsigned long long _resultSendFailureCount;
-    unsigned long long _resultServerUnreachableCount;
-    unsigned long long _resultSuccessCount;
-    unsigned long long _resultUnknownErrorCount;
-    unsigned long long _timestamp;
-    int _interfaceType;
-    int _protocolType;
-    int _requestType;
-    struct {
-        unsigned int requestCount:1;
-        unsigned int resultCertificateFailureCount:1;
-        unsigned int resultConnectionResetCount:1;
-        unsigned int resultNetworkUnavailableCount:1;
-        unsigned int resultResponseTimeoutCount:1;
-        unsigned int resultSendFailureCount:1;
-        unsigned int resultServerUnreachableCount:1;
-        unsigned int resultSuccessCount:1;
-        unsigned int resultUnknownErrorCount:1;
-        unsigned int timestamp:1;
-        unsigned int interfaceType:1;
-        unsigned int protocolType:1;
-        unsigned int requestType:1;
-    } _has;
 }
 
 - (void);
@@ -42,29 +14,29 @@
 - (void);
 - (void);
 - (void);
+- (void)E+;
+- (void);
+- (void);
+- (void);
+- (void),;
+- (void)?+;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long);
+- (unsigned long long)|;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)@;
 - (unsigned long long);
 - (unsigned int);
 - (unsigned int *);
@@ -76,7 +48,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -84,10 +56,10 @@
 - (int);
 - (_Bool);
 - (int);
-- (void);
+- (void);
 - (int);
-- (void);
-- (id);
+- (void);
+- (id)~;
 - (void);
 - (void);
 - (unsigned long long);
@@ -95,17 +67,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)%;
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)I;
+- (id))@9!;
 - (int);
 - (void);
-- (void)sedInLpas;
+- (void)_beaconsMissedInLpas;
 - (void)valDuration;
 - (int)apTotal;
 - (unsigned long long)p.;
@@ -113,34 +85,7 @@
 - (id)ÙñÿýÕp¦;
 
 // Remaining properties
-@property(nonatomic) _Bool hasInterfaceType;
-@property(nonatomic) _Bool hasProtocolType;
-@property(nonatomic) _Bool hasRequestCount;
-@property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) _Bool hasResultCertificateFailureCount;
-@property(nonatomic) _Bool hasResultConnectionResetCount;
-@property(nonatomic) _Bool hasResultNetworkUnavailableCount;
-@property(nonatomic) _Bool hasResultResponseTimeoutCount;
-@property(nonatomic) _Bool hasResultSendFailureCount;
-@property(nonatomic) _Bool hasResultServerUnreachableCount;
-@property(nonatomic) _Bool hasResultSuccessCount;
-@property(nonatomic) _Bool hasResultUnknownErrorCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int interfaceType; // @synthesize interfaceType=_interfaceType;
-@property(nonatomic) int protocolType; // @synthesize protocolType=_protocolType;
-@property(nonatomic) unsigned long long requestCount; // @synthesize requestCount=_requestCount;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
-@property(readonly, nonatomic) unsigned int *responseTimeBuckets;
-@property(readonly, nonatomic) unsigned long long responseTimeBucketsCount;
-@property(nonatomic) unsigned long long resultCertificateFailureCount; // @synthesize resultCertificateFailureCount=_resultCertificateFailureCount;
-@property(nonatomic) unsigned long long resultConnectionResetCount; // @synthesize resultConnectionResetCount=_resultConnectionResetCount;
-@property(nonatomic) unsigned long long resultNetworkUnavailableCount; // @synthesize resultNetworkUnavailableCount=_resultNetworkUnavailableCount;
-@property(nonatomic) unsigned long long resultResponseTimeoutCount; // @synthesize resultResponseTimeoutCount=_resultResponseTimeoutCount;
-@property(nonatomic) unsigned long long resultSendFailureCount; // @synthesize resultSendFailureCount=_resultSendFailureCount;
-@property(nonatomic) unsigned long long resultServerUnreachableCount; // @synthesize resultServerUnreachableCount=_resultServerUnreachableCount;
-@property(nonatomic) unsigned long long resultSuccessCount; // @synthesize resultSuccessCount=_resultSuccessCount;
-@property(nonatomic) unsigned long long resultUnknownErrorCount; // @synthesize resultUnknownErrorCount=_resultUnknownErrorCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

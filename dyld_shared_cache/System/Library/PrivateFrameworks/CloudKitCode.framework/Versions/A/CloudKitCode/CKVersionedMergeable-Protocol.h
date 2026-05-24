@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKDistributedTimestampStateVector;
+
 @protocol CKVersionedMergeable
+- (CKDistributedTimestampStateVector *)endHoldingContentOffsetUpdatesForAllReasons;
+
+@optional
+- (unsigned long long)convertPointToUIWindow: /* Error: Ran out of types for this method. */;
 @end
 

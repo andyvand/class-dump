@@ -9,22 +9,15 @@
 @interface NTPBArticleFeedback
 {
     NSString *_articleId;
-    int _feedback;
-    NSString *_language;
-    NSString *_sourceChannelId;
-    NSString *_topicId;
-    struct {
-        unsigned int feedback:1;
-    } _has;
 }
 
-- (void);
+- (void)_resetCurrentRequestAndDispatchNextRequest;
+- (_Bool)`;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (void)AppleInternal/Library/BuildRoots/4~CNrDugCASYl0BwcdRv7LjLO4bLqOCmdgcCr59iQ/Library/Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsHomeWorkSchoolDeduper.m;
 - (id);
 - (_Bool);
 - (void);
@@ -35,26 +28,17 @@
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void)e is %{public}@;
 - (_Bool);
 - (id);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (void)sArticleScrollNotw;
+- (void)hasArticleScrollNotw;
 - (void)umbnailAccentColor;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(nonatomic) int feedback; // @synthesize feedback=_feedback;
-@property(readonly, nonatomic) _Bool hasArticleId;
-@property(nonatomic) _Bool hasFeedback;
-@property(readonly, nonatomic) _Bool hasLanguage;
 @property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(readonly, nonatomic) _Bool hasTopicId;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
-@property(retain, nonatomic) NSString *topicId; // @synthesize topicId=_topicId;
 
 @end
 

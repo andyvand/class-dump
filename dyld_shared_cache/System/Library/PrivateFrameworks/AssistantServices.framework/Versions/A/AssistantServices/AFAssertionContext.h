@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
-
 @interface AFAssertionContext
 {
     unsigned long long _timestamp;
-    NSString *_reason;
-    NSDate *_effectiveDate;
-    double _expirationDuration;
-    NSDictionary *_userInfo;
 }
 
 + (id);
@@ -20,8 +14,8 @@
 - (id);
 - (double);
 - (id);
-- (id);
-- (id);
+- (id)rces;
+- (id)"NSDate",&,N,V_expiryDate;
 - (id);
 - (id);
 - (id);
@@ -30,26 +24,15 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)userAuthorizationStatus;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)";
+- (void)AFContextCollating;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDate *effectiveDate; // @synthesize effectiveDate=_effectiveDate;
-@property(readonly, nonatomic) double expirationDuration; // @synthesize expirationDuration=_expirationDuration;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

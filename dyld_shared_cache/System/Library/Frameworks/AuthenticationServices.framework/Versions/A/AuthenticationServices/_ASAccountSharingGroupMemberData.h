@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSImage, NSString;
+@class NSString;
 
 @interface _ASAccountSharingGroupMemberData
 {
     _Bool _isMeParticipant;
-    NSString *_handle;
-    NSString *_handleForDisplay;
-    NSString *_contactDisplayName;
-    NSString *_shortContactDisplayName;
-    NSImage *_avatarImageForGroupMemberCell;
-    long long _groupPermissionLevel;
-    long long _inviteStatus;
-    CNContact *_contact;
-    NSString *_participantID;
 }
 
 - (id);
@@ -25,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id);
 - (long long);
@@ -36,7 +27,7 @@
 - (void);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ew",N,R;
 - (id);
 - (void);
 - (_Bool);
@@ -47,17 +38,7 @@
 - (void)e;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *avatarImageForGroupMemberCell; // @synthesize avatarImageForGroupMemberCell=_avatarImageForGroupMemberCell;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(copy, nonatomic) NSString *contactDisplayName; // @synthesize contactDisplayName=_contactDisplayName;
-@property(readonly, copy, nonatomic) NSString *displayName;
-@property(nonatomic) long long groupPermissionLevel; // @synthesize groupPermissionLevel=_groupPermissionLevel;
 @property(copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) NSString *handleForDisplay; // @synthesize handleForDisplay=_handleForDisplay;
-@property(nonatomic) long long inviteStatus; // @synthesize inviteStatus=_inviteStatus;
-@property(nonatomic) _Bool isMeParticipant; // @synthesize isMeParticipant=_isMeParticipant;
-@property(copy, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(copy, nonatomic) NSString *shortContactDisplayName; // @synthesize shortContactDisplayName=_shortContactDisplayName;
 
 @end
 

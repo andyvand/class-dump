@@ -7,14 +7,6 @@
 @interface ContactsUICore.CNContactAvatarContact
 {
     id contact;
-    id avatarStoreCache;
-    id canAsyncRender;
-    id $__lazy_storage_$_id;
-    id $__lazy_storage_$_initials;
-    id $__lazy_storage_$_isOrganization;
-    id $__lazy_storage_$_imageCropRect;
-    id _fullImageState;
-    id _thumbnailImageState;
 }
 
 @end

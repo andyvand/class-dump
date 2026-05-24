@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFPromise, NSMutableArray, NSString, WKWebView;
+@class WKWebView;
 
 @interface EDMailDropMetadataGenerator
 {
     WKWebView *_webView;
-    NSMutableArray *_scriptHandlers;
-    EFPromise *_activePromise;
 }
 
 - (id);
@@ -34,15 +32,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) EFPromise *activePromise; // @synthesize activePromise=_activePromise;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *scriptHandlers; // @synthesize scriptHandlers=_scriptHandlers;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end

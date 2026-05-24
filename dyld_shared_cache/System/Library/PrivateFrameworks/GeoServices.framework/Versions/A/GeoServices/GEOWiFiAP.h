@@ -9,30 +9,22 @@
 @interface GEOWiFiAP
 {
     NSString *_uniqueID;
-    unsigned int _channel;
-    int _origin;
-    int _rssi;
-    struct {
-        unsigned int has_channel:1;
-        unsigned int has_origin:1;
-        unsigned int has_rssi:1;
-    } _flags;
 }
 
-+ (_Bool)etOptionId:(id)arg1;
++ (_Bool)setOptionId:(id)arg1;
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)the target persistent store. This is unexpected at this time. Proceeding with the first for record adoption.;
+- (_Bool)repared store without migration (path:%{public}@) /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setSupportTriagleModeSessionActivationRetry:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)r";
 - (_Bool);
 - (_Bool);
 - (id);
@@ -42,26 +34,19 @@
 × ;
 - (unsigned int)ge";
 - (int)_searchFilter"b1"read_searchLocation"b1"read_searchString"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (void)Total:(int)arg1;
-- (id)cation;
-- (_Bool)egoriesURL;
-- (void)rivalPoints;
+- (void)setHasBytesInTotal:(int)arg1;
+- (id)isContactWithWorkLocation;
+- (_Bool)hasProblemCategoriesURL;
+- (void)_arrivalPoints;
 - (id)NSObject<OS_dispatch_queue>",C,N;
-- (void)ation;
+- (void)GEOTileEnumeration;
 - (id)object;
-- (int)SULT_SUBTYPE_SUGGESTIONS_HOTEL;
+- (int)AUTOCOMPLETE_RESULT_SUBTYPE_SUGGESTIONS_HOTEL;
 - (void);
 - (void)ÜHÙ"iiN@;
 
 // Remaining properties
-@property(nonatomic) unsigned int channel;
-@property(nonatomic) _Bool hasChannel;
-@property(nonatomic) _Bool hasOrigin;
-@property(nonatomic) _Bool hasRssi;
 @property(readonly, nonatomic) _Bool hasUniqueID;
-@property(nonatomic) int origin;
-@property(nonatomic) int rssi;
-@property(retain, nonatomic) NSString *uniqueID;
 
 @end
 

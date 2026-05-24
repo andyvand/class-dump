@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SISchemaClientAnyEvent, SISchemaClientTurnContext;
+@class SISchemaClientAnyEvent;
 
 @interface SISchemaClientTurnBasedEvent
 {
     SISchemaClientAnyEvent *_event;
-    SISchemaClientTurnContext *_turnContext;
 }
 
 - (id);
@@ -27,14 +26,11 @@
 - (void);
 - (id);
 - (id);
-- (void)tchChildAccountStatusWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)_fetchChildAccountStatusWithCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaClientAnyEvent *event; // @synthesize event=_event;
-@property(readonly, nonatomic) _Bool hasEvent;
 @property(readonly, nonatomic) _Bool hasTurnContext;
-@property(retain, nonatomic) SISchemaClientTurnContext *turnContext; // @synthesize turnContext=_turnContext;
 
 @end
 

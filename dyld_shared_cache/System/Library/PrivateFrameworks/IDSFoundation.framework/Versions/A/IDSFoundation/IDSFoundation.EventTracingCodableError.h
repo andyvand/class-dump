@@ -7,9 +7,6 @@
 @interface IDSFoundation.EventTracingCodableError
 {
     id code;
-    id domain;
-    id underlyingErrors;
-    id errorDescription;
 }
 
 @end

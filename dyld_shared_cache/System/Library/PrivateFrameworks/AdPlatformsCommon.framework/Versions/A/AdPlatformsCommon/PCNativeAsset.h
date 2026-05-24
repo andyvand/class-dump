@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PCNativeAsset
 {
     NSString *_name;
-    long long _location;
-    NSArray *_assetInformation;
-    unsigned long long _adamID;
-    NSString *_treatment;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Cell;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (long long);
+- (void)8;
 - (void);
-- (void);
-- (unsigned long long)count;
+- (unsigned long long)account;
 - (void)Av óÿ1vóÿ!vóÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long adamID; // @synthesize adamID=_adamID;
-@property(retain, nonatomic) NSArray *assetInformation; // @synthesize assetInformation=_assetInformation;
-@property(nonatomic) long long location; // @synthesize location=_location;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *treatment; // @synthesize treatment=_treatment;
 
 @end
 

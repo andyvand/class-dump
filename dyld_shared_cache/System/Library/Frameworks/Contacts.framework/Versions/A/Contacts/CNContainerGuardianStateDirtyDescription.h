@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)componentsJoinedByString: /* Error: Ran out of types for this method. */;
+- (_Bool)nteractionSession _activate];
 - (Class)ÔAq&!¤Dù1*ð1Â0@ù
 × ;
 

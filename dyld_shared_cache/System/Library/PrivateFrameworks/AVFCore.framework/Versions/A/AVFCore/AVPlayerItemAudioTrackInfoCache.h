@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface AVPlayerItemAudioTrackInfoCache
 {
     NSMutableSet *availableTracks;
-    struct OpaqueFigSimpleMutex *mutex;
 }
 
-- (void);
+- (void)har>, std:(id)arg1:allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{vector<std::string, std::allocator<std::string>>=^v^v{?=^v}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{vector<std::pair<std::string, float>, std::allocator<std::pair<std::string, float>>>=^v^v{?=^v}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}iBB{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}B{DecodingSignals=ffff}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}},R,N,V_quasarToken /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (id);
-- (_Bool)ompositionTool;
+- (_Bool)_videoCompositionTool;
 
 @end
 

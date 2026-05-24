@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 @interface IDDiagnosticsStore
 {
     NSMutableArray *_installEvents;
-    NSMutableDictionary *_messages;
 }
 
 + (id);
@@ -31,14 +30,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)_hasOdldFalseTriggerMitigated;
 - (id);
 - (id);
-- (void);
+- (void)~;
 
 // Remaining properties
 @property(retain) NSMutableArray *installEvents; // @synthesize installEvents=_installEvents;
-@property(retain) NSMutableDictionary *messages; // @synthesize messages=_messages;
 
 @end
 

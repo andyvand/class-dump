@@ -9,11 +9,6 @@
 @interface SCNCapsule : SCNGeometry
 {
     double _capsulecapRadius;
-    double _capsuleheight;
-    long long _capsuleheightSegmentCount;
-    long long _capsuleradialSegmentCount;
-    long long _capsulecapSegmentCount;
-    long long _capsuleprimitiveType;
 }
 
 + (id);
@@ -102,10 +97,6 @@
 
 // Remaining properties
 @property(nonatomic) double capRadius;
-@property(nonatomic) long long capSegmentCount;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) long long radialSegmentCount;
 
 @end
 

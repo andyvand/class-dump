@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITableView;
+
 @protocol UITableViewDropDelegate_Private
+
+@optional
+- (long long)exMessage:(UITableView *)arg1;
 @end
 

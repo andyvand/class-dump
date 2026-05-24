@@ -7,15 +7,12 @@
 @interface NAUniqueArrayDiffOptions
 {
     _Bool _allowMoves;
-    CDUnknownBlockType _equalComparator;
-    CDUnknownBlockType _hashGenerator;
-    CDUnknownBlockType _changeComparator;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -24,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowMoves; // @synthesize allowMoves=_allowMoves;
-@property(copy, nonatomic) CDUnknownBlockType changeComparator; // @synthesize changeComparator=_changeComparator;
 @property(copy, nonatomic) CDUnknownBlockType equalComparator; // @synthesize equalComparator=_equalComparator;
-@property(copy, nonatomic) CDUnknownBlockType hashGenerator; // @synthesize hashGenerator=_hashGenerator;
 
 @end
 

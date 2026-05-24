@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDHikeSummary, NSMeasurement;
+@class NSMeasurement;
 
 @interface GEOHikeSummary
 {
     NSMeasurement *_elevationGainMeters;
-    NSMeasurement *_elevationLossMeters;
-    NSMeasurement *_expectedDurationSeconds;
-    NSMeasurement *_lengthMeters;
-    GEOPDHikeSummary *_hikeSummary;
 }
 
 - (void);
@@ -24,21 +20,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)canWriteToAccountWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)accountForIdentifier:(id)arg1;
+- (id)absoluteURL;
+- (id)_workloopSchedulerProvider;
+- (id)_workBlockScheduled;
+- (id)_sampler;
 - (id);
 - (void)<CZÿÂ7Ä4;
 
 // Remaining properties
 @property(copy, nonatomic) NSMeasurement *elevationGainMeters; // @synthesize elevationGainMeters=_elevationGainMeters;
-@property(copy, nonatomic) NSMeasurement *elevationLossMeters; // @synthesize elevationLossMeters=_elevationLossMeters;
-@property(copy, nonatomic) NSMeasurement *expectedDurationSeconds; // @synthesize expectedDurationSeconds=_expectedDurationSeconds;
-@property(readonly, nonatomic) GEOPDHikeSummary *hikeSummary; // @synthesize hikeSummary=_hikeSummary;
-@property(copy, nonatomic) NSMeasurement *lengthMeters; // @synthesize lengthMeters=_lengthMeters;
 
 @end
 

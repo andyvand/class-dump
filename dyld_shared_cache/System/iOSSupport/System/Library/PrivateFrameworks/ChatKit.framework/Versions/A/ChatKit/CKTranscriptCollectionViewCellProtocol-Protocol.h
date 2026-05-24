@@ -5,5 +5,6 @@
 //
 
 @protocol CKTranscriptCollectionViewCellProtocol
+- (void);
 @end
 

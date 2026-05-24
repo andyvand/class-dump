@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatNodeDebugData
 {
     id bindRecords;
-    id buildRecords;
-    id sourceMaps;
 }
 
 @end

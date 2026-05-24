@@ -7,8 +7,6 @@
 @interface NewsArticles.OverflowMenuArticleViewerFeatureProvider
 {
     id menuProvider;
-    id paidAccessChecker;
-    id viewController;
 }
 
 @end

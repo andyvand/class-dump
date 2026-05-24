@@ -7,6 +7,7 @@
 @interface TeaBreeze.Dependencies.AmbiguousResolutionContext__priv_CCFAA78DB0E9409BF8B4766CFC192A7F
 {
     id disambiguation;
+    id;
 }
 
 @end

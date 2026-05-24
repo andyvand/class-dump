@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol AVCSessionParticipantControlProtocol
-- (NSString *)ntrollerDelegate;
+- (void);
+- (_Bool);
+- (_Bool)q;
+- (NSString *)_mediaControllerDelegate;
 
 // Remaining properties
-@property(nonatomic, getter=isAudioEnabled) _Bool audioEnabled;
-@property(nonatomic, getter=isAudioMuted) _Bool audioMuted;
-@property(nonatomic, getter=isAudioPaused) _Bool audioPaused;
-@property(readonly, nonatomic) NSData *frequencyLevels;
-@property(readonly, nonatomic) NSData *negotiationData;
-@property(nonatomic, getter=isOneToOneEnabled) _Bool oneToOneEnabled;
-@property(nonatomic, getter=isScreenEnabled) _Bool screenEnabled;
 @property(readonly, nonatomic) NSString *uuid;
-@property(nonatomic, getter=isVideoEnabled) _Bool videoEnabled;
-@property(nonatomic, getter=isVideoPaused) _Bool videoPaused;
-@property(nonatomic) float volume;
 @end
 

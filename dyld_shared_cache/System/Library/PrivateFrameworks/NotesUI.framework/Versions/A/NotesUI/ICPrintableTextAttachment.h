@@ -10,7 +10,7 @@
 }
 
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)can add an additional language that Reminders will recognize to place grocery items into categories. A language can be selected automatically based on your Keyboard and Language & Region settings. _LEARN_MORE_ELLIPSIS_DO_NOT_LOCALIZE;
 - (struct CGRect);
 - (void);
 - (struct CGPoint);

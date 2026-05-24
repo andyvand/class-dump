@@ -6,37 +6,30 @@
 
 #import <UIKitCore/UIColor.h>
 
-@class CADisplayLink, UIView, UIViewFloatAnimatableProperty;
+@class UIView;
 
 @interface _UIAnimatedColor : UIColor
 {
     UIColor *_wrappedColor;
-    struct CGRect _bounds;
-    CADisplayLink *_displayLink;
-    UIViewFloatAnimatableProperty *_progressAnimatableProperty;
-    CDUnknownBlockType _invalidationHandler;
-    _Bool _animating;
-    UIView *_parentView;
-    double _progress;
 }
 
 + (id);
 + (struct CGPatternCallbacks);
 - (id);
+- (void)covery Resync!;
+- (struct CGColor *)len:(struct CGSize)arg1 %llu);
+- (_Bool)SError"16;
+- (void)fT;
 - (void);
-- (struct CGColor *);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)b;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)setPayloadADWarnUserBeforeCreatingMAFlag:(_Bool)arg1;
 - (unsigned long long);
-- (_Bool)tem:(id)arg1;
+- (_Bool)setOverrideTargetItem:(id)arg1;
 - (_Bool)È;
 - (double)ction '%@' with no event mask set;
 - (void):(double)arg1 Buttons added must have a title.;
@@ -54,9 +47,7 @@
 - (_Bool)Gn;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
 @property(readonly, nonatomic) __weak UIView *parentView; // @synthesize parentView=_parentView;
-@property(nonatomic) double progress; // @synthesize progress=_progress;
 
 @end
 

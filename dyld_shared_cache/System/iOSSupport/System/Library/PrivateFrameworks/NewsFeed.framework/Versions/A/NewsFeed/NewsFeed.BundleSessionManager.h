@@ -7,24 +7,13 @@
 @interface NewsFeed.BundleSessionManager
 {
     id observers;
-    id bundleSessionProvider;
-    id newsletterManager;
-    id appConfigurationManager;
-    id familySharingStatusManager;
-    id featureAvailability;
-    id bundleSubscriptionManager;
-    id bundleSubscriptionDetectionManager;
-    id notificationCenter;
-    id cachedBundleSessionKey;
-    id _sessionCache;
-    id _sceneIsActive;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)KIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDMovieRep.m;
 - (void);
 - (id);
 - (void)Ý;

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAListPlugin, NSButton, NSImage, NSImageView, NSString, NSTextField, NSView;
-@protocol IANewAccountChooserRadioRowItemDelegateProtocol;
+@class NSImageView, NSView;
 
 @interface IANewAccountChooserRadioRowItem
 {
     NSImageView *_imageView;
-    NSButton *_radioButton;
-    NSTextField *_textField;
-    id _delegate;
-    NSImage *_image;
-    NSString *_text;
-    NSString *_title;
-    IAAListPlugin *_plugin;
-    NSView *_view;
 }
 
 + (id);
@@ -25,14 +16,14 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)\;
 - (id);
 - (void);
 - (id);
@@ -49,14 +40,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) id <IANewAccountChooserRadioRowItemDelegateProtocol> delegate; // @synthesize delegate=_delegate;
-@property(copy) NSImage *image; // @synthesize image=_image;
-@property(retain) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain) IAAListPlugin *plugin; // @synthesize plugin=_plugin;
-@property(retain) NSButton *radioButton; // @synthesize radioButton=_radioButton;
-@property(copy) NSString *text; // @synthesize text=_text;
-@property(retain) NSTextField *textField; // @synthesize textField=_textField;
-@property(copy) NSString *title; // @synthesize title=_title;
 @property(retain, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end

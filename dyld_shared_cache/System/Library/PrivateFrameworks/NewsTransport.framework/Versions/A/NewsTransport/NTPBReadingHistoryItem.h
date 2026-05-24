@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBDate;
-
 @interface NTPBReadingHistoryItem
 {
     long long _listenedCount;
-    double _listeningProgress;
-    long long _maxVersionRead;
-    long long _maxVersionSeen;
-    long long _readCount;
-    NSString *_articleID;
-    NSString *_clusterID;
-    NSString *_deviceID;
-    NTPBDate *_firstSeenDate;
-    NTPBDate *_firstSeenDateOfMaxVersionSeen;
-    unsigned int _flags;
-    NTPBDate *_lastListened;
-    NTPBDate *_lastVisitedDate;
-    NTPBDate *_listeningProgressSavedDate;
-    NSString *_readingPosition;
-    NTPBDate *_readingPositionSavedDate;
-    NSString *_sourceChannelTagID;
-    struct {
-        unsigned int listenedCount:1;
-        unsigned int listeningProgress:1;
-        unsigned int maxVersionRead:1;
-        unsigned int maxVersionSeen:1;
-        unsigned int readCount:1;
-        unsigned int flags:1;
-    } _has;
 }
 
 @end

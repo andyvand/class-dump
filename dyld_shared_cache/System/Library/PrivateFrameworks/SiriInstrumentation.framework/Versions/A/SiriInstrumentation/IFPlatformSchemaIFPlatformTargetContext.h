@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFPlatformSchemaIFPlatformTargetEnded, IFPlatformSchemaIFPlatformTargetFailed, IFPlatformSchemaIFPlatformTargetStarted, NSData, SISchemaUUID;
+@class IFPlatformSchemaIFPlatformTargetStarted;
 
 @interface IFPlatformSchemaIFPlatformTargetContext : SISchemaInstrumentationMessage
 {
     IFPlatformSchemaIFPlatformTargetStarted *_startedOrChanged;
-    IFPlatformSchemaIFPlatformTargetEnded *_ended;
-    IFPlatformSchemaIFPlatformTargetFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -47,25 +39,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)numberWithInteger: /* Error: Ran out of types for this method. */;
 - (id)At°!EùàÐ1Â0@ù
 × ;
-- (id)esultsAtIndex:(id)arg1;
+- (id)resultsAtIndex:(id)arg1;
 - (id)l¨;
 - (void)(Ëÿ^ÐFEÊ#;
 - (id)*;
 
 // Remaining properties
-@property(retain, nonatomic) IFPlatformSchemaIFPlatformTargetEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) IFPlatformSchemaIFPlatformTargetFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFPlatformSchemaIFPlatformTargetStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

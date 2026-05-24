@@ -7,12 +7,6 @@
 @interface SiriInference.ModelBasedAppResolverRule
 {
     id signalGathererProducer;
-    id appMatcher;
-    id phoneAppSelectionModelCache;
-    id messageAppSelectionModelCache;
-    id defaultAppProvider;
-    id signalGatheringSignpostName;
-    id interactionStatsQuerySignpostName;
 }
 
 @end

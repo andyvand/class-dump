@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface LPiTunesMediaURLComponents
 {
     NSString *_identifier;
-    NSString *_storefrontCountryCode;
 }
 
-+ (id);
-+ (id);
++ (id)supportsInlineAdaptiveImageGlyphs;
++ (id)spaceSavedByDeletingNonSyncedAttachments;
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *storefrontCountryCode; // @synthesize storefrontCountryCode=_storefrontCountryCode;
 
 @end
 

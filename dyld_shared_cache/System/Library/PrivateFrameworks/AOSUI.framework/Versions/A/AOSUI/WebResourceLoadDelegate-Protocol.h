@@ -5,5 +5,10 @@
 //
 
 @protocol WebResourceLoadDelegate
+
+@optional
+- (void);
+- (void)!;
+- (id)�E;
 @end
 

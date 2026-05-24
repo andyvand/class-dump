@@ -5,39 +5,31 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_queue;
 
 @interface FMDispatchTimer
 {
     double _leewayTimeInterval;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _completion;
-    double _timeout;
-    NSObject<OS_dispatch_source> *_timerSource;
 }
 
+- (void)_isReleased;
+- (double)_historicalBytes;
+- (id)_hasCarKeySupport;
+- (void)s not enabled;
 - (void);
-- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)initWithCandidate:forInput:rawInput:wordOriginFeedbackID:usageTrackingMask:sourceMask:secureContentCandidate:proactiveTrigger:proactivePredictedItem:responseKitCategory: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
 - (id);
-- (id);
-- (double);
+- (double)W;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(nonatomic) double leewayTimeInterval; // @synthesize leewayTimeInterval=_leewayTimeInterval;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timerSource; // @synthesize timerSource=_timerSource;
 
 @end
 

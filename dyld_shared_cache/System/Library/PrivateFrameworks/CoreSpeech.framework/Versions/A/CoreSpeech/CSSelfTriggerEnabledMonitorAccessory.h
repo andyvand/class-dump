@@ -9,9 +9,9 @@
     _Bool _enabled;
 }
 
-+ (id)ect:result:isSecondChanceCandidate: /* Error: Ran out of types for this method. */;
++ (id)_notifySecondPassReject:result:isSecondChanceCandidate: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)4@"NSString"32@?<v@?@"FPSandboxingURLWrapper"@"NSError">40;
 - (void);
 - (id);
 - (_Bool);

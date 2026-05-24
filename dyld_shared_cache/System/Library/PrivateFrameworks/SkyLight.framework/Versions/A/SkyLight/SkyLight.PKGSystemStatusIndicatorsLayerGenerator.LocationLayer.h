@@ -9,14 +9,10 @@
 @interface SkyLight.PKGSystemStatusIndicatorsLayerGenerator.LocationLayer : SkyLight.PKGSystemStatusIndicatorsLayerGenerator.IndicatorLayer
 {
     id dataSource;
-    id locationFillLayer;
-    id locationCircleFillLayer;
-    id layerAssetContext;
-    id maxOffsetInterp;
 }
 
-- (id);
-- (id);
+- (id)n.framework/Versions/A/CoreFoundation;
+- (id);
 - (void);
 
 @end

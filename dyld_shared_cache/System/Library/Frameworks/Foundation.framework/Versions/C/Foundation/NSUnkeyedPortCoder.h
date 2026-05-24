@@ -6,20 +6,10 @@
 
 #import <Foundation/NSConcretePortCoder.h>
 
-@class NSDOStreamData, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface NSUnkeyedPortCoder : NSConcretePortCoder
 {
     id sndPort;
-    id rcvPort;
-    NSDOStreamData *doStreamData;
-    NSMutableArray *components;
-    NSMutableArray *importedObjects;
-    unsigned long long componentIndex;
-    _Bool isBycopy;
-    _Bool isByref;
-    _Bool isValid;
 }
 
 + (void);
@@ -28,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -38,16 +28,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))
+
+)2		;
 - (id);
 - (void);
 - (void);

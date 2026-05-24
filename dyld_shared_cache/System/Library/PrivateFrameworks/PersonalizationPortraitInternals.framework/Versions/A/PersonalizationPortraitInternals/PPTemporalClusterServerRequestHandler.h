@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPXPCServerPipelinedBatchQueryManager;
+@class NSString;
 @protocol PPTemporalClusterClientProtocol;
 
 @interface PPTemporalClusterServerRequestHandler
 {
     id <PPTemporalClusterClientProtocol> _clientProxy;
-    PPXPCServerPipelinedBatchQueryManager *_queryManager;
-    NSString *_clientProcessName;
 }
 
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (void)
 × ;

@@ -9,13 +9,12 @@
 @interface _CDInteractionAdvisor
 {
     NSXPCConnection *_connection;
-    NSError *_error;
 }
 
-+ (id);
++ (id)v,;
 + (id);
 - (void);
-- (id);
+- (id)fW;
 - (id);
 - (id);
 - (id);

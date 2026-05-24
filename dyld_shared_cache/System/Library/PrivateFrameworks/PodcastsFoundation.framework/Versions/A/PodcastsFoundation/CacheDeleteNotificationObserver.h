@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateFormatter, NSObject;
-@protocol CacheDeleteNotificationObserverDelegate, OS_dispatch_queue;
+@class NSDateFormatter;
+@protocol CacheDeleteNotificationObserverDelegate;
 
 @interface CacheDeleteNotificationObserver
 {
     NSDateFormatter *_formatter;
-    id <CacheDeleteNotificationObserverDelegate> _delegate;
-    NSArray *_observedPaths;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -28,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <CacheDeleteNotificationObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(readonly, nonatomic) NSArray *observedPaths; // @synthesize observedPaths=_observedPaths;
 
 @end
 

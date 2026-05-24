@@ -9,8 +9,6 @@
 @interface MAMultiStepRelation : MARelation
 {
     MARelation *_base;
-    unsigned long long _minNumberOfSteps;
-    unsigned long long _maxNumberOfSteps;
 }
 
 + (id);
@@ -25,14 +23,12 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_TtC13ControlCenterP33_6558F1D9DB188FECE7DB19DFCB1EB2C221LoginItemListObserver;
 - (id)¼Bùñcð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) MARelation *base; // @synthesize base=_base;
-@property(readonly, nonatomic) unsigned long long maxNumberOfSteps; // @synthesize maxNumberOfSteps=_maxNumberOfSteps;
-@property(readonly, nonatomic) unsigned long long minNumberOfSteps; // @synthesize minNumberOfSteps=_minNumberOfSteps;
 
 @end
 

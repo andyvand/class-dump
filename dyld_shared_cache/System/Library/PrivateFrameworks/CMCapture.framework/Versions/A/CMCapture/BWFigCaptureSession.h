@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSessionPipelines, NSString;
-
 @interface BWFigCaptureSession
 {
     struct OpaqueFigCaptureSession *_captureSession;
-    FigCaptureSessionPipelines *_pipelines;
-    long long _graphID;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (float);
 - (void);
@@ -25,51 +21,45 @@
 - (void);
 - (void);
 - (void);
+- (void)t;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)?;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)8B56;
+- (void)Failed to map email address feature %@ to MDIAttribute;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ntral connected to our device %{public}@, send Peripheral didConnect;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)mberOfMatchesInString:(id)arg1 options:(CDStruct_1b6d18a9)arg2 range: /* Error: Ran out of types for this method. */;
-- (void)ntCloudDataConnectionConfiguration;
+- (void)numberOfMatchesInString:(id)arg1 options:(CDStruct_1b6d18a9)arg2 range: /* Error: Ran out of types for this method. */;
+- (void)_pointCloudDataConnectionConfiguration;
 - (void)ÕÿUÖÿT×ÿ©SØÿ³SÙÿ½RÚÿÇRÛÿÑQÛÿÚQÜÿàPÛÿäOÛÿåOÛÿ;
 - (void)8±Õÿ8±Õÿ8±Õÿ8±Õÿ8±Õÿ8±Õÿ7±Õÿ7°Õÿ@°ÖÿL±×ÿW±Øÿc±Ùÿm²Ûÿw²Üÿ²Ýÿ³Þÿ³ßÿ£´àÿ®¶àÿ··àÿÁ¹àÿÉºàÿÐ»áÿÖ¼âÿÝ½ãÿâ½äÿå¼åÿç»åÿæºåÿD¼×ÿD¼×ÿD¼×ÿD¼×ÿD¼×ÿC¼×ÿC»×ÿC»×ÿC»×ÿC»×ÿC»×ÿE»×ÿP»Øÿ[¼Ùÿg¼Ûÿq½Üÿ{½Ýÿ¾ßÿ¾àÿ¿âÿ¥Àãÿ¯Áäÿ¹ÂäÿÄÄäÿÌÆåÿÔÇåÿÚÈæÿàÉçÿåÊèÿéÊéÿëÉéÿëÈéÿNÄÙÿNÄÙÿNÄÙÿMÄÙÿMÄÙÿMÄÙÿMÄÙÿMÄÙÿMÄÙÿMÄÙÿMÃÙÿMÃÙÿUÄÚÿ`ÄÛÿkÅÜÿuÆÝÿÆßÿÇàÿÈâÿÉãÿ§Êåÿ±Ëæÿ»ÌçÿÆÎèÿÏÏèÿ×ÑéÿÞÓéÿäÔêÿéÕëÿìÕìÿïÔíÿïÔíÿWÌÛÿWÌÛÿWÌÛÿWÌÛÿWÌÛÿWÌÛÿVÌÛÿVÌÛÿVËÛÿVËÛÿVËÛÿVËÛÿ[ËÛÿeÌÜÿqÍÞÿ{ÎßÿÏàÿÐáÿÑãÿ¢Òåÿ¬ÓæÿµÔèÿ¾ÖêÿÉ×ëÿÒÙìÿÚÚìÿáÜíÿçÞîÿìßïÿðßðÿòßðÿóßñÿ_ÓÝÿ_ÓÝÿ_ÓÝÿ_ÓÝÿ_ÓÝÿ_ÓÝÿ_ÓÝÿ_ÓÝÿ_ÓÝÿ_ÒÝÿ_ÒÝÿ^ÒÝÿ_ÒÝÿjÓÞÿvÔßÿÕàÿÖâÿ×ãÿÙåÿ¨Úæÿ±ÜèÿºÝêÿÃÞëÿÍàíÿÕáïÿÝãðÿååðÿëçñÿïèòÿóéóÿöéôÿ÷éôÿgÚßÿgÚßÿgÚßÿgÚßÿgÚßÿgÙßÿgÙßÿgÙßÿgÙßÿgÙßÿgÙßÿgÙßÿgÙßÿmÚßÿzÛáÿÜâÿÝãÿßåÿ¤àçÿ®âèÿ·ãêÿÁåìÿÉçíÿÓèïÿÚêñÿâìóÿèíôÿïïõÿóñõÿ÷ò÷ÿùòøÿûóøÿmÞáÿmÞáÿmÞáÿmÞáÿmÞáÿmÞáÿmÞáÿmÞáÿmÞáÿlÞáÿlÞáÿlÞáÿlÞáÿoßáÿ{àâÿáãÿâåÿäæÿ§æèÿ²çêÿ¼éìÿÅëíÿÎíïÿØïñÿàðóÿçòõÿíôöÿòõ÷ÿ÷÷øÿùøùÿüùûÿþùûÿqââÿqââÿqââÿqââÿqââÿqââÿqââÿqââÿqââÿqââÿqââÿqââÿqââÿqââÿ{ããÿåäÿææÿèçÿ©ééÿ³ëëÿ¾ííÿÈïïÿÑññÿÛóóÿãõõÿë÷÷ÿñøøÿöúúÿúûûÿüüüÿþýýÿÿþþÿsäâÿsäâÿsäâÿsäâÿsäâÿsäâÿsäâÿsäâÿsäâÿsäâÿsäâÿsäâÿsäâÿsäâÿxåãÿæäÿèæÿéèÿ¨ëêÿ³íìÿ¾ïîÿÈñðÿÒóòÿÜöôÿåøöÿìúøÿóûúÿùýüÿüþýÿþÿþÿÿÿÿÿÿÿÿÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿtåãÿæäÿèåÿéçÿ¤ëéÿ°íëÿ»ïíÿÅòïÿÐôòÿÛöôÿãø÷ÿëúùÿòüûÿùþýÿüÿþÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

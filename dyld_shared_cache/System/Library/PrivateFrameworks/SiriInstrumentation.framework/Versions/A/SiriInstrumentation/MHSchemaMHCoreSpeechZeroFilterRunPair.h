@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHCoreSpeechZeroFilterRunPair : SISchemaInstrumentationMessage
 {
     unsigned long long _zeroRunStartingSample;
-    unsigned long long _zeroRunLength;
-    struct {
-        unsigned int zeroRunStartingSample:1;
-        unsigned int zeroRunLength:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -29,21 +22,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)BN_mod_exp_recp;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)?;
 - (id)qß°1Â0@ù
 × ;
 - (id)SchemaRedactableString",&,N,V_displayedDialogOutput;
 - (id)lureDeveloperDefinedError",&,N,V_actionFailureDeveloperDefinedError;
 
 // Remaining properties
-@property(nonatomic) _Bool hasZeroRunLength;
-@property(nonatomic) _Bool hasZeroRunStartingSample;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long zeroRunLength; // @synthesize zeroRunLength=_zeroRunLength;
 @property(nonatomic) unsigned long long zeroRunStartingSample; // @synthesize zeroRunStartingSample=_zeroRunStartingSample;
 
 @end

@@ -9,8 +9,6 @@
 @interface IKOpenGLRoundedRectRenderer
 {
     NSMutableArray *_roundedRectCaches;
-    id _lastRoundedRectUsed;
-    double _scaleFactor;
 }
 
 - (_Bool);
@@ -19,7 +17,7 @@
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (void);
+- (void)(;
 - (id);
 - (double);
 - (void);

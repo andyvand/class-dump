@@ -7,16 +7,28 @@
 @class NSData, NSDate, NSError, NSString;
 
 @protocol MMCSAsset
+- (void)for domain:(NSString *)arg1 %@;
+- (void)as added;
+- (void)main:(unsigned long long)arg1 %@ because observer was added;
+- (void)public}@Performing sync for domain:(unsigned int)arg1 %@ because observer was added;
+- (void)ver:(NSData *)arg1 %@ for domain:%@ /* Error: Ran out of types for this method. */;
+- (void)not configured;
+- (void)for domain:(NSString *)arg1 %@;
+- (void)snapshot session with HMDCameraSnapshotRemoteRelaySender;
+- (int)remote snapshot requests during stream setup %@:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)%{public}@Failing pending remote snapshot requests during stream setup %@:%@ /* Error: Ran out of types for this method. */;
+- (unsigned int)uring stream setup %@:%@ /* Error: Ran out of types for this method. */;
+- (NSError *)%@:%@ /* Error: Ran out of types for this method. */;
+- (NSDate *)}@Delete siri history completed with error:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)y operation;
+- (NSString *)napshot session;
+- (NSString *)public}@Send failed for snapshot session;
+- (unsigned long long)o resident succeeded;
+- (NSData *)relayed to resident has failed:%@ /* Error: Ran out of types for this method. */;
+- (NSString *)egion updates;
+- (void)CAMERA_ACCESS_MODE_CHANGED_NOTIFICATION_WITH_REASON;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *MMCSAccessHeader;
-@property(retain, nonatomic) NSDate *MMCSAccessHeaderTimeStamp;
-@property(retain, nonatomic) NSError *MMCSError;
-@property(retain, nonatomic) NSData *MMCSHash;
-@property(nonatomic) unsigned int MMCSItemFlags;
-@property(nonatomic) unsigned long long MMCSItemID;
-@property(nonatomic) unsigned long long MMCSItemSize;
-@property(retain, nonatomic) NSString *MMCSReceipt;
 @property(retain, nonatomic) NSString *MMCSUTI;
 @end
 

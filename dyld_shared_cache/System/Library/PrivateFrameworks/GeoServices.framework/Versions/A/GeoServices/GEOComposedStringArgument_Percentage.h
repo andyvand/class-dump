@@ -9,7 +9,6 @@
 @interface GEOComposedStringArgument_Percentage : GEOComposedStringArgument
 {
     float _defaultValue;
-    float _overrideValue;
 }
 
 + (_Bool)chived resource at "%@" doesn't match packed copy "%@", deleting - %@;
@@ -21,7 +20,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)rkConnectivity:(struct _NSZone *)arg1;
+- (id)setDeviceNetworkConnectivity:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(nonatomic) float overrideValue; // @synthesize overrideValue=_overrideValue;

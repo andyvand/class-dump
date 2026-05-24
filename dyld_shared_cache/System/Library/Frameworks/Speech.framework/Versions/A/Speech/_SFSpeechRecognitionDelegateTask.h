@@ -6,20 +6,15 @@
 
 #import <Speech/SFSpeechRecognitionTask.h>
 
-@class SFSpeechRecognitionResult;
 @protocol _SFSpeechRecognitionTaskDelegatePrivate;
 
 @interface _SFSpeechRecognitionDelegateTask : SFSpeechRecognitionTask
 {
     id <_SFSpeechRecognitionTaskDelegatePrivate> _delegate;
-    SFSpeechRecognitionResult *_recognitionResultToReportAfterFinalSearchResults;
-    _SFSpeechRecognitionDelegateTask *_selfReference;
-    _Bool _waitForVoiceSearchResult;
-    _Bool _hasSentRealSearchResults;
 }
 
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
@@ -35,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)$;
 
 @end
 

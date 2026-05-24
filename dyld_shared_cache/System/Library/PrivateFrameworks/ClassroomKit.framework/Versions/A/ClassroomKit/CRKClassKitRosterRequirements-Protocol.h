@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CRKClassKitQuery;
+
 @protocol CRKClassKitRosterRequirements
+- (void)C;
+- (void);
+- (id <CRKClassKitQuery>);
+- (void)setQueryTask:(id)arg1 forQueryID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long accountState;

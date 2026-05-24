@@ -7,7 +7,6 @@
 @interface TeaUI.DebugSection
 {
     id section;
-    id items;
 }
 
 @end

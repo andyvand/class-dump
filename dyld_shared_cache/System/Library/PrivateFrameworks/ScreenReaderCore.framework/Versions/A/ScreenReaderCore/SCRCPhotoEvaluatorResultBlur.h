@@ -11,7 +11,7 @@
     double _blurLevel;
 }
 
-- (id);
+- (id);
 - (double);
 - (id);
 

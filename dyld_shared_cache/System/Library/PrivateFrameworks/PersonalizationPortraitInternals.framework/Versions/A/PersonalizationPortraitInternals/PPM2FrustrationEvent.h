@@ -9,10 +9,6 @@
 @interface PPM2FrustrationEvent
 {
     NSString *_activeTreatments;
-    NSString *_bundleId;
-    NSString *_clientId;
-    int _domain;
-    CDStruct_497d21fc _has;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -32,9 +28,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (void)GL;
+- (_Bool)_chat_fetchHistorySummary:dateInterval:synchronous:queryID:completion: /* Error: Ran out of types for this method. */;
+- (id)W;
 - (id);
 - (int);
 - (void);
@@ -44,14 +40,7 @@
 - (void)32;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
-@property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(readonly, nonatomic) _Bool hasBundleId;
 @property(readonly, nonatomic) _Bool hasClientId;
-@property(nonatomic) _Bool hasDomain;
 
 @end
 

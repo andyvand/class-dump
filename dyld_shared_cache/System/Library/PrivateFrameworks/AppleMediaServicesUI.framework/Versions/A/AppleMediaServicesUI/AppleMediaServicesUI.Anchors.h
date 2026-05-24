@@ -7,7 +7,6 @@
 @interface AppleMediaServicesUI.Anchors
 {
     id _anchors;
-    id _$observationRegistrar;
 }
 
 @end

@@ -7,9 +7,6 @@
 @interface AppStoreKit.MetricsPageEnterGate
 {
     id sender;
-    id hasAppeared;
-    id hasExitedWhileAppeared;
-    id hasMetricsPage;
 }
 
 @end

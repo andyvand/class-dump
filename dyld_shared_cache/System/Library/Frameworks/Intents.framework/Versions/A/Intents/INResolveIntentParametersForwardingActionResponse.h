@@ -6,28 +6,23 @@
 
 #import <Intents/INIntentForwardingActionResponse.h>
 
-@class INIntent, NSDictionary;
-
 @interface INResolveIntentParametersForwardingActionResponse : INIntentForwardingActionResponse
 {
     _Bool _success;
-    INIntent *_updatedIntent;
-    NSDictionary *_parameterResolutionResults;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)etTaskAttribute:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (_Bool)ompletion: /* Error: Ran out of types for this method. */;
+- (id)includedServices;
+- (void)public}s (%{public}s:(id)arg1 %u) Data obtained for cellular stats is invalid, exiting
+;
+- (void)provideTargetTaskOptionsCollectionForSetTaskAttribute:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)provideAlarmOptionsForUpdateAlarm:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *parameterResolutionResults; // @synthesize parameterResolutionResults=_parameterResolutionResults;
 @property(readonly, nonatomic, getter=isSuccess) _Bool success; // @synthesize success=_success;
-@property(readonly, nonatomic) INIntent *updatedIntent; // @synthesize updatedIntent=_updatedIntent;
 
 @end
 

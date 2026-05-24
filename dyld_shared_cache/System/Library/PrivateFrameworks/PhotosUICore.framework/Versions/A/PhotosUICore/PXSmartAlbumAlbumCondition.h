@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PXLabeledValue *albumValue;
-@property(readonly, nonatomic) _Bool albumValueIsOrphaned;
 
 @end
 

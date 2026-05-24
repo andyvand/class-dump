@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TLKKeyValueGridView
 {
     NSMutableArray *_keyLabels;
-    NSMutableArray *_valueLabels;
 }
 
 - (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *keyLabels; // @synthesize keyLabels=_keyLabels;
-@property(retain, nonatomic) NSMutableArray *valueLabels; // @synthesize valueLabels=_valueLabels;
 
 @end
 

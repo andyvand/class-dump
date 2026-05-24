@@ -7,6 +7,7 @@
 @interface HomeEnergyDaemon.MockOptions
 {
     id $defaultActor;
+    id;
 }
 
 @end

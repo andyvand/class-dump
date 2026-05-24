@@ -6,17 +6,12 @@
 
 #import <CMCapture/BWSinkNode.h>
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface BWAttachedMediaTimeMachineSinkNode : BWSinkNode
 {
     NSMutableDictionary *_timeMachineFrames;
-    struct os_unfair_lock_s _timeMachineLock;
-    int _timeMachineCapacity;
-    struct opaqueCMFormatDescription *_formatDescription;
-    NSArray *_attachedMediaKeys;
-    NSArray *_metadataKeys;
 }
 
 + (void)nc primary - not supported on this device;
@@ -30,13 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)Ü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

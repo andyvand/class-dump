@@ -12,26 +12,19 @@
 {
 }
 
+- (void)getVolumeRampForTime:(id)arg1 startVolume:endVolume:timeRange:rampMode: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)RFCOMMCallback;
 - (id);
 - (void);
 - (void);
-- (id)cts;
+- (id)ABCNUnifiedContacts;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *city; // @dynamic city;
-@property(copy, nonatomic) NSString *country; // @dynamic country;
-@property(copy, nonatomic) NSString *countryCode; // @dynamic countryCode;
-@property(copy, nonatomic) NSString *postalCode; // @dynamic postalCode;
-@property(copy, nonatomic) NSString *state; // @dynamic state;
 @property(copy, nonatomic) NSString *street; // @dynamic street;
-@property(copy, nonatomic) NSString *subAdministrativeArea; // @dynamic subAdministrativeArea;
-@property(copy, nonatomic) NSString *subLocality; // @dynamic subLocality;
 
 @end
 

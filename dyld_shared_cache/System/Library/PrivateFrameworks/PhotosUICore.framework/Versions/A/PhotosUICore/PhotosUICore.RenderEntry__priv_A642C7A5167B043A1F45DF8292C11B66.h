@@ -7,10 +7,6 @@
 @interface PhotosUICore.RenderEntry__priv_A642C7A5167B043A1F45DF8292C11B66
 {
     id renderPreference;
-    id status;
-    id imageBuffer;
-    id updateIntent;
-    id renderDestination;
 }
 
 @end

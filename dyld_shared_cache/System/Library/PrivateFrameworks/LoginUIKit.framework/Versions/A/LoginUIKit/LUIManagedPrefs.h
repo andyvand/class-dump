@@ -9,7 +9,6 @@
 @interface LUIManagedPrefs
 {
     _Bool _MCXSettingsChanged;
-    NSMutableDictionary *_managedPreferences;
 }
 
 + (id);
@@ -18,9 +17,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool MCXSettingsChanged; // @synthesize MCXSettingsChanged=_MCXSettingsChanged;
 @property(retain) NSMutableDictionary *managedPreferences; // @synthesize managedPreferences=_managedPreferences;
 
 @end

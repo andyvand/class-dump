@@ -9,12 +9,13 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)substringFromIndex:(id)arg1;
+- (void)sponse %@, error %{error}
+;
 - (id);
 - (id);
 

@@ -9,30 +9,21 @@
 @interface IAChatService
 {
     NSString *_identifier;
-    NSString *_displayName;
-    NSString *_domainLabel;
-    NSString *_accountLabel;
-    _Bool _showUsernameField;
-    _Bool _showPasswordField;
-    _Bool _showServerHostField;
-    _Bool _showServerPortField;
-    _Bool _showUseSSLCheckbox;
-    _Bool _showKerberosCheckbox;
 }
 
+- (_Bool);
+- (_Bool);
+- (_Bool)߈	;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)I;
 - (id);
 - (id);
 - (void);
@@ -44,16 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountLabel; // @synthesize accountLabel=_accountLabel;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *domainLabel; // @synthesize domainLabel=_domainLabel;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool showKerberosCheckbox; // @synthesize showKerberosCheckbox=_showKerberosCheckbox;
-@property _Bool showPasswordField; // @synthesize showPasswordField=_showPasswordField;
-@property _Bool showServerHostField; // @synthesize showServerHostField=_showServerHostField;
-@property _Bool showServerPortField; // @synthesize showServerPortField=_showServerPortField;
-@property _Bool showUseSSLCheckbox; // @synthesize showUseSSLCheckbox=_showUseSSLCheckbox;
-@property _Bool showUsernameField; // @synthesize showUsernameField=_showUsernameField;
 
 @end
 

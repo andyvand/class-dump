@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppleEventDescriptor, NSArray, _LSAEKeyDesc, _LSLauncherOptions, _LSOpen2Options, _LSRemoteOpenCallApplicationParameters;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _LSRemoteOpenCallInputs
 {
     NSArray *inURLs;
-    unsigned int inRoleMask;
-    _LSAEKeyDesc *inAEParam;
-    _LSRemoteOpenCallApplicationParameters *inAppParams;
-    NSAppleEventDescriptor *inAnnotations;
-    _LSOpen2Options *inOptions2;
-    unsigned long long inPSNCount;
-    _LSLauncherOptions *inLauncherOptions;
 }
 
-+ (_Bool);
++ (_Bool)nctionDescriptor"16;
 - (id);
 - (void);
 - (void);

@@ -9,22 +9,20 @@
 @interface EKUIDividedGridViewTableViewCell
 {
     _Bool _drawsTopDivider;
-    EKUIDividedGridViewController *_gridViewController;
 }
 
-- (_Bool);
+- (_Bool)Y%s;
 - (void);
-- (id);
-- (_Bool);
+- (id)&s;
+- (_Bool)&s;
 - (_Bool);
 - (void);
 - (id);
 - (struct CGRect);
 - (void);
-- (void)stemMidGrayColor;
+- (void)systemMidGrayColor;
 
 // Remaining properties
-@property(nonatomic) _Bool drawsTopDivider; // @synthesize drawsTopDivider=_drawsTopDivider;
 @property(retain) EKUIDividedGridViewController *gridViewController; // @synthesize gridViewController=_gridViewController;
 
 @end

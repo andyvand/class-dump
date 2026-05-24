@@ -9,31 +9,28 @@
 @interface AeroMLTracerAttribute
 {
     NSString *_name;
-    NSString *_stringValue;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)FAFamilySettingRowPendingInvitesKey;
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void)JDJ
+;
+- (id)		;
+- (id)_;
+- (id),@�?;
+- (_Bool)getDisplayBlock;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

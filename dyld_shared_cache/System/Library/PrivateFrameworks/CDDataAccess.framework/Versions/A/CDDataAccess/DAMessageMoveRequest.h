@@ -9,9 +9,6 @@
 @interface DAMessageMoveRequest
 {
     NSString *_message;
-    NSString *_fromFolder;
-    NSString *_toFolder;
-    id _context;
 }
 
 - (id);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (_Bool);
 - (void);
@@ -29,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(copy, nonatomic) NSString *fromFolder; // @synthesize fromFolder=_fromFolder;
 @property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *toFolder; // @synthesize toFolder=_toFolder;
 
 @end
 

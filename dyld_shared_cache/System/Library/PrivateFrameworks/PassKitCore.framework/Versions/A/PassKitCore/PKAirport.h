@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimeZone;
+@class NSString;
 
 @interface PKAirport
 {
     NSString *_code;
-    NSString *_name;
-    NSString *_city;
-    NSTimeZone *_timeZone;
-    double _latitude;
-    double _longitude;
 }
 
 + (_Bool);
@@ -23,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)n;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)clearTxLatencyVIs;
 - (void);
 - (id);
 - (void);
@@ -43,13 +38,7 @@
 - (id)×l¸!;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *city; // @synthesize city=_city;
 @property(retain, nonatomic) NSString *code; // @synthesize code=_code;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D location;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

@@ -11,14 +11,14 @@
     ICLightweightMusicSubscriptionStatus *_lightweightSubscriptionStatus;
 }
 
-+ (_Bool);
++ (_Bool)m;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)ListeningConnectionControllerDelegate;
+- (void)ICSharedListeningConnectionControllerDelegate;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ICLightweightMusicSubscriptionStatus *lightweightSubscriptionStatus; // @synthesize lightweightSubscriptionStatus=_lightweightSubscriptionStatus;

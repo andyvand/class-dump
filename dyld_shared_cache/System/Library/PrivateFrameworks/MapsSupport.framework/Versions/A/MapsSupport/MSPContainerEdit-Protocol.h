@@ -5,5 +5,6 @@
 //
 
 @protocol MSPContainerEdit
+- (void);
 @end
 

@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBRecordBase;
+@class NTPBRecordBase;
 
 @interface NTPBChannelMembershipRecord
 {
     NTPBRecordBase *_base;
-    NSString *_channelID;
-    NSString *_draftArticleListID;
-    NSString *_draftIssueListID;
-    _Bool _canAccessDrafts;
-    struct {
-        unsigned int canAccessDrafts:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)assetReferenceAtIndex:(_Bool)arg1;
+- (void)animation:(id)arg1 adjustPresentedGeometries:styles:infos:count: /* Error: Ran out of types for this method. */;
+- (void)animation:(id)arg1 adjustPresentedGeometries:styles:infos:count: /* Error: Ran out of types for this method. */;
+- (void)allowsMultipartPanoramaForDisplayAsset:(_Bool)arg1 startTime: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateChromeVisibility;
+- (_Bool)_updateChrome;
+- (_Bool)_unformattedAllPhones;
+- (id)_tileCaptionSizeBlock;
+- (id)_tileAspectRatio;
+- (_Bool)_showSendAsAssetBundlesForCMM;
+- (void)apB;
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)_;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool)ifiedDateMilliseconds;
-- (id)_paid_subscription_status;
+- (id)user_paid_subscription_status;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
-@property(nonatomic) _Bool canAccessDrafts; // @synthesize canAccessDrafts=_canAccessDrafts;
-@property(retain, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(retain, nonatomic) NSString *draftArticleListID; // @synthesize draftArticleListID=_draftArticleListID;
-@property(retain, nonatomic) NSString *draftIssueListID; // @synthesize draftIssueListID=_draftIssueListID;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(nonatomic) _Bool hasCanAccessDrafts;
-@property(readonly, nonatomic) _Bool hasChannelID;
-@property(readonly, nonatomic) _Bool hasDraftArticleListID;
-@property(readonly, nonatomic) _Bool hasDraftIssueListID;
 
 @end
 

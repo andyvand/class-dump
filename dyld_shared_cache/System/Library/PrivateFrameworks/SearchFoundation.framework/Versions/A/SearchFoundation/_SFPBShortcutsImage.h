@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBShortcutsImage
 {
@@ -18,22 +18,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)setAssetExistingWithSyndicationIdentifierIsTrashed:(id)arg1;
+- (id)get aux image count, %ld;
+- (id);
 - (id);
 - (void)d"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *lnPropertyIdentifier; // @synthesize lnPropertyIdentifier=_lnPropertyIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

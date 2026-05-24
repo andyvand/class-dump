@@ -13,7 +13,7 @@
 + (Class);
 + (id);
 + (void);
-- (void);
+- (void);
 - (void);
 - (void);
 

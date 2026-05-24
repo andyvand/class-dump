@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FMFMapCacheImage
 {
     long long _count;
-    NSString *_path;
-    NSDate *_timestamp;
 }
 
-+ (_Bool);
++ (_Bool)AttachmentStorageDirectoryLoggerDelegate;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (void);
+- (void)initWithContact:(id)arg1 contactStore:accountIdentifier:personInserted:ignoresGuardianRestrictions: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -30,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

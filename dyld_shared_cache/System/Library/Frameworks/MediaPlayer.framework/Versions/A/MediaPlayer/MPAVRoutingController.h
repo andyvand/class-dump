@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVRoute, MPAVRoutingControllerSelectionQueue, MPAVRoutingDataSource, NSArray, NSObject, NSSet, NSString;
-@protocol MPAVOutputDevicePlaybackDataSource, MPAVRoutingControllerDelegate, OS_dispatch_queue;
+@class MPAVRoute, NSArray;
 
 @interface MPAVRoutingController
 {
     NSArray *_cachedRoutes;
-    NSArray *_cachedPickedRoutes;
-    long long _externalScreenType;
-    _Bool _hasExternalScreenType;
-    _Bool _scheduledSendDelegateRoutesChanged;
-    long long _volumeControlStateForPickedRoute;
-    MPAVRoutingControllerSelectionQueue *_routingControllerSelectionQueue;
-    int _deviceAvailabilityNotifyToken;
-    _Bool _deviceAvailabilityOverrideState;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    unsigned long long _stateHandle;
-    _Bool _alwaysAllowUpdates;
-    _Bool _fetchAvailableRoutesSynchronously;
-    _Bool _representsLongFormVideoContent;
-    id <MPAVRoutingControllerDelegate> _delegate;
-    MPAVRoutingDataSource *_dataSource;
-    NSString *_name;
-    long long _discoveryMode;
-    NSString *_category;
-    long long _routeTypes;
-    MPAVRoute *_legacyCachedRoute;
-    id <MPAVOutputDevicePlaybackDataSource> _playbackDataSource;
-    NSString *_presentedBundleID;
-    NSString *_representedBundleID;
 }
 
 + (id);
@@ -44,10 +20,10 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (_Bool);
 + (id);
-+ (id);
++ (id)9H'Ț;
 + (id);
 + (id);
 + (id);
@@ -62,14 +38,14 @@
 + (void);
 + (id);
 + (id);
-+ (id);
-+ (long long);
++ (id)eFrameworks/MobileStoreDemoCore.framework/Versions/A/MobileStoreDemoCore;
++ (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -93,13 +69,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (id);
@@ -109,21 +85,21 @@
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)TY;
 - (void);
 - (void);
 - (void);
@@ -144,58 +120,30 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)(=;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)nverting mem object;
+- (id)s >= [format packedBytesPerRowForWidth:bounds.size.width] /* Error: Ran out of types for this method. */;
+- (id)a;
+- (void)h;
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
+- (void)updatePinnedLibraryAlbumWithPersistentID:cloudAlbumID:defaultAction:configuration:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)leAssetQualityType__MAPPING_MISSING__;
+- (void)__MPModelPropertyFileAssetQualityType__MAPPING_MISSING__;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysAllowUpdates;
-@property(readonly, copy, nonatomic) NSArray *availableRoutes;
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) MPAVRoutingDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MPAVRoutingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long discoveryMode; // @synthesize discoveryMode=_discoveryMode;
-@property(readonly, nonatomic) long long externalScreenType;
-@property(nonatomic) _Bool fetchAvailableRoutesSynchronously; // @synthesize fetchAvailableRoutesSynchronously=_fetchAvailableRoutesSynchronously;
-@property(readonly, nonatomic) _Bool hasPendingPickedRoutes;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) MPAVRoute *legacyCachedRoute; // @synthesize legacyCachedRoute=_legacyCachedRoute;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) MPAVRoute *pendingPickedRoute;
-@property(readonly, nonatomic) NSSet *pendingPickedRoutes;
-@property(readonly, nonatomic) MPAVRoute *pickedRoute;
-@property(readonly, nonatomic) NSArray *pickedRoutes;
-@property(nonatomic) __weak id <MPAVOutputDevicePlaybackDataSource> playbackDataSource; // @synthesize playbackDataSource=_playbackDataSource;
-@property(copy, nonatomic) NSString *presentedBundleID; // @synthesize presentedBundleID=_presentedBundleID;
-@property(copy, nonatomic) NSString *representedBundleID; // @synthesize representedBundleID=_representedBundleID;
-@property(readonly, nonatomic) _Bool representsLongFormVideoContent; // @synthesize representsLongFormVideoContent=_representsLongFormVideoContent;
-@property(nonatomic) long long routeTypes; // @synthesize routeTypes=_routeTypes;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsMultipleSelection;
-@property(readonly, nonatomic) _Bool volumeControlIsAvailable;
 
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSPopUpButton, NSTextField, NSView, PPGesture, PPGestureMovieView;
+@class NSView, PPGesture;
 
 @interface PPGestureRow
 {
     NSView *mGroupRowView;
-    NSTextField *mGroupTitle;
-    NSView *mGestureRowView;
-    NSButton *mGestureOptions;
-    NSButton *mEnableGestureButton;
-    NSPopUpButton *mGestureChoices;
-    NSTextField *mGestureName;
-    NSTextField *mGestureLabel;
-    PPGesture *mGesture;
-    _Bool mUIEnabled;
-    PPGestureMovieView *mMovieView;
 }
 
 - (void);
@@ -28,26 +18,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id)+;
+- (void)!;
+- (void);
 - (id);
-- (id);
+- (id)T	;
+- (id)er,  deleted integer);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSPopUpButton *choicesPopUp; // @synthesize choicesPopUp=mGestureChoices;
-@property(readonly) NSButton *enableGestureButton; // @dynamic enableGestureButton;
 @property(retain) PPGesture *gesture; // @synthesize gesture=mGesture;
-@property(readonly) NSTextField *groupTitle; // @synthesize groupTitle=mGroupTitle;
-@property(retain) PPGestureMovieView *movieView; // @synthesize movieView=mMovieView;
-@property(readonly) NSButton *optionsButton; // @dynamic optionsButton;
-@property(readonly) NSTextField *title; // @dynamic title;
 
 @end
 

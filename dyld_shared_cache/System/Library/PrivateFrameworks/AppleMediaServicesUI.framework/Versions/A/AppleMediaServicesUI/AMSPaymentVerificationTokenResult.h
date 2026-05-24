@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)kSize: /* Error: Ran out of types for this method. */;
+- (void)portsResidentSelection;
+- (void)setCardArtworkSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSData *tokenData; // @synthesize tokenData=_tokenData;

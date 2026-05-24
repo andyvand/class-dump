@@ -6,28 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, ODDSiriSchemaODDAssistantDimensions;
+@class ODDSiriSchemaODDAssistantDimensions;
 
 @interface ODDSiriSchemaODDAssistantVoicesDimensions : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantDimensions *_assistantDimensions;
-    NSString *_voiceName;
-    int _voiceType;
-    int _synthesisSource;
-    int _clientId;
-    int _ttsStatus;
-    NSArray *_errorCodes;
-    struct {
-        unsigned int voiceType:1;
-        unsigned int synthesisSource:1;
-        unsigned int clientId:1;
-        unsigned int ttsStatus:1;
-    } _has;
-    _Bool _hasAssistantDimensions;
-    _Bool _hasVoiceName;
 }
 
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -39,7 +25,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)˟;
 - (_Bool);
 - (int);
 - (void);
@@ -70,28 +56,15 @@
 - (id);
 - (id)¡rð!CùqÞð1Â0@ù
 × ;
-- (void)KBsPerSecond;
+- (void)_loadScreenContentRateKBsPerSecond;
 - (id)ntAudioDurationInNs;
 - (id)kError;
 - (int)ntTypeUnion.asrClientEvent.rescoringDeliberationResultTier1.linkId;
 - (void)linkedUsoNodeData.stringPayload;
-- (int)aPSEAppIntentFollowupActionType;
+- (int)PSESchemaPSEAppIntentFollowupActionType;
 
 // Remaining properties
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantDimensions *assistantDimensions; // @synthesize assistantDimensions=_assistantDimensions;
-@property(nonatomic) int clientId; // @synthesize clientId=_clientId;
-@property(copy, nonatomic) NSArray *errorCodes; // @synthesize errorCodes=_errorCodes;
-@property(nonatomic) _Bool hasAssistantDimensions; // @synthesize hasAssistantDimensions=_hasAssistantDimensions;
-@property(nonatomic) _Bool hasClientId;
-@property(nonatomic) _Bool hasSynthesisSource;
-@property(nonatomic) _Bool hasTtsStatus;
-@property(nonatomic) _Bool hasVoiceName; // @synthesize hasVoiceName=_hasVoiceName;
-@property(nonatomic) _Bool hasVoiceType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int synthesisSource; // @synthesize synthesisSource=_synthesisSource;
-@property(nonatomic) int ttsStatus; // @synthesize ttsStatus=_ttsStatus;
-@property(copy, nonatomic) NSString *voiceName; // @synthesize voiceName=_voiceName;
-@property(nonatomic) int voiceType; // @synthesize voiceType=_voiceType;
 
 @end
 

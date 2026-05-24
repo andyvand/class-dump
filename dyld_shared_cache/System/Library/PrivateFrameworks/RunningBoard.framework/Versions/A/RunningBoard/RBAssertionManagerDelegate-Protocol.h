@@ -5,5 +5,8 @@
 //
 
 @protocol RBAssertionManagerDelegate
+- (void)`";
+- (void);
+- (void);
 @end
 

@@ -7,14 +7,15 @@
 @protocol TSSPropertySource;
 
 @protocol TSDPrototypeChange
+- (_Bool)ssetLoadOperation.accessQueue;
+- (_Bool)re.MPCModelGenericAVItemSubscriptionAssetLoadOperation.accessQueue;
+- (_Bool)st context;
+- (_Bool)ey certificate URL;
+- (id <TSSPropertySource>)L;
+- (_Bool)rotected content support storage URL;
+- (id <TSSPropertySource>)Purchase bundle dictionary;
 
 // Remaining properties
-@property(readonly, retain) id <TSSPropertySource> propertiesAfterChange;
-@property(readonly, retain) id <TSSPropertySource> propertiesBeforeChange;
-@property(readonly, retain) id prototype;
-@property(readonly) _Bool prototypeIsBeingDeleted;
-@property(readonly) _Bool prototypeIsBeingModified;
 @property(readonly) _Bool prototypeIsBeingReplaced;
-@property(readonly, retain) id replacement;
 @end
 

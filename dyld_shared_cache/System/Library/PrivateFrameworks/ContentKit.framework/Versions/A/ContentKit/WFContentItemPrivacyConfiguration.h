@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, WFContentLocation;
+@class WFContentLocation;
 
 @interface WFContentItemPrivacyConfiguration
 {
     WFContentLocation *_origin;
-    unsigned long long _disclosureLevel;
-    NSOrderedSet *_disclosureWarnings;
 }
 
 + (id);
@@ -19,12 +17,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)n$;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long disclosureLevel; // @synthesize disclosureLevel=_disclosureLevel;
-@property(readonly, nonatomic) NSOrderedSet *disclosureWarnings; // @synthesize disclosureWarnings=_disclosureWarnings;
 @property(readonly, nonatomic) WFContentLocation *origin; // @synthesize origin=_origin;
 
 @end

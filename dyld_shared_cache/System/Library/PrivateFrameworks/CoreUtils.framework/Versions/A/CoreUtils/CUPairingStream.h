@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUPairingStream
 {
     struct CryptoAEADPrivate *_decryptAEAD;
-    unsigned char _decryptNonce[12];
-    struct CryptoAEADPrivate *_encryptAEAD;
-    unsigned char _encryptNonce[12];
-    unsigned long long _authTagLength;
-    NSString *_name;
 }
 
-- (void);
+- (void)__TEXT;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -28,13 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)ngIdentitiesWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)&;
+- (void)_setTarget: /* Error: Ran out of types for this method. */;
+- (void)fetchAllPairingIdentitiesWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long authTagLength; // @synthesize authTagLength=_authTagLength;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

@@ -4,69 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDChat, IMDServiceSession, NSArray, NSData, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IMMarkAsReviewedCommandPipelineParameter
 {
     _Bool _isFromMe;
-    _Bool _isFromStorage;
-    _Bool _isLastFromStorage;
-    NSString *_fromIdentifier;
-    NSString *_toIdentifier;
-    NSString *_GUID;
-    NSNumber *_timestamp;
-    NSDictionary *_batchContext;
-    NSData *_fromToken;
-    NSArray *_reviewedChatGUIDs;
-    NSString *_replicationSourceServiceName;
-    IMDAccount *_account;
-    IMDServiceSession *_serviceSession;
-    NSArray *_messageItems;
-    IMDChat *_chat;
 }
 
 - (id);
 - (void);
 - (void);
+- (void)[;
 - (void);
+- (id);
+- (id);
+- (id);
+- (id)2;
+- (id)(;
+- (id);
+- (id);
+- (_Bool)SRTPUpdateRTCPReceiveSSRCAndDeriveNewKeys;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)`;
 - (void) ä¬(´;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSDictionary *batchContext; // @synthesize batchContext=_batchContext;
-@property(retain, nonatomic) IMDChat *chat; // @synthesize chat=_chat;
 @property(copy, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
-@property(readonly, nonatomic) NSData *fromToken; // @synthesize fromToken=_fromToken;
-@property(readonly, nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, nonatomic) _Bool isFromStorage; // @synthesize isFromStorage=_isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage; // @synthesize isLastFromStorage=_isLastFromStorage;
-@property(copy, nonatomic) NSArray *messageItems; // @synthesize messageItems=_messageItems;
-@property(copy, nonatomic) NSString *replicationSourceServiceName; // @synthesize replicationSourceServiceName=_replicationSourceServiceName;
-@property(readonly, copy, nonatomic) NSArray *reviewedChatGUIDs; // @synthesize reviewedChatGUIDs=_reviewedChatGUIDs;
-@property(retain, nonatomic) IMDServiceSession *serviceSession; // @synthesize serviceSession=_serviceSession;
-@property(readonly, nonatomic) NSNumber *timestamp; // @synthesize timestamp=_timestamp;
-@property(copy, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
 
 @end
 

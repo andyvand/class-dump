@@ -6,17 +6,11 @@
 
 #import <PhotosUICore/PXAsyncOperation.h>
 
-@class NSError, PXMediaProvider;
-@protocol PXDisplayAsset, PXStoryResource;
+@protocol PXStoryResource;
 
 @interface PXStoryDisplayAssetResourcePreloadingOperation : PXAsyncOperation
 {
     id <PXStoryResource> _resource;
-    id <PXDisplayAsset> _displayAsset;
-    PXMediaProvider *_mediaProvider;
-    CDUnknownBlockType _progressHandler;
-    NSError *_error;
-    double _startTime;
 }
 
 - (void);
@@ -24,22 +18,17 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)@;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void));
 - (void);
 - (CDUnknownBlockType);
 - (void)Q<;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAsset> displayAsset; // @synthesize displayAsset=_displayAsset;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) PXMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(readonly, nonatomic) id <PXStoryResource> resource; // @synthesize resource=_resource;
 @property double startTime; // @synthesize startTime=_startTime;
 
 @end

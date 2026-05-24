@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXDisplayAssetCollection, PXPresentationEnvironment;
+@protocol PXDisplayAssetCollection;
 
 @interface PXContentSyndicationAssetSavingHelper
 {
     _Bool _userCanContinueAfterSavingSyndicatedAssets;
-    _Bool _allowSkippingUnsavedAssets;
-    _Bool _skipUserPromptForSavingAssets;
-    id <PXDisplayAssetCollection> _assetCollection;
-    id <PXPresentationEnvironment> _presentationEnvironment;
 }
 
 + (id);
@@ -33,11 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowSkippingUnsavedAssets; // @synthesize allowSkippingUnsavedAssets=_allowSkippingUnsavedAssets;
 @property(readonly, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(retain, nonatomic) id <PXPresentationEnvironment> presentationEnvironment; // @synthesize presentationEnvironment=_presentationEnvironment;
-@property(nonatomic) _Bool skipUserPromptForSavingAssets; // @synthesize skipUserPromptForSavingAssets=_skipUserPromptForSavingAssets;
-@property(nonatomic) _Bool userCanContinueAfterSavingSyndicatedAssets; // @synthesize userCanContinueAfterSavingSyndicatedAssets=_userCanContinueAfterSavingSyndicatedAssets;
 
 @end
 

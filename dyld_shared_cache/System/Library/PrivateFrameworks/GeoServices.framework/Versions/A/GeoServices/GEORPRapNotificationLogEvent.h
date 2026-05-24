@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPRapNotificationLogEvent
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_originalRapId;
-    NSString *_responseId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _userInteractedWithNotification;
-    _Bool _userShownNotification;
-    struct {
-        unsigned int has_userInteractedWithNotification:1;
-        unsigned int has_userShownNotification:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_originalRapId:1;
-        unsigned int read_responseId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tributeName:(id)arg1;
++ (_Bool)setLinkAttributeName:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -36,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)markForRemovalTaskWithRequest: /* Error: Ran out of types for this method. */;
+- (id)_requestedContainerIdentifierCount;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -47,30 +31,22 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)ault_delete<SmartSiriVolume>>=""{?="__ptr_"^{SmartSiriVolume}}};
+- (void)CSPhraseSpotterEnabledMonitor:(id)arg1 didReceiveEnabled: /* Error: Ran out of types for this method. */;
+- (id)k9;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`;
 - (void);
 - (id)s"b1"has_includeCenter"b1"read_unknownFields"b1"read_attributeKeys"b1"read_photoOptions"b1"wrote_anyField"b1};
-- (id)intForSearchString:completionItem:traits:clientAttributes:completionHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
+- (id)composedWaypointForSearchString:completionItem:traits:clientAttributes:completionHandler:networkActivityHandler: /* Error: Ran out of types for this method. */;
 - (id){x|Ø};
-- (id)odelNumberMajor;
+- (id)modelNumberMajor;
 - (void)75Ð|ÎíO@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasOriginalRapId;
-@property(readonly, nonatomic) _Bool hasResponseId;
-@property(nonatomic) _Bool hasUserInteractedWithNotification;
-@property(nonatomic) _Bool hasUserShownNotification;
-@property(retain, nonatomic) NSString *originalRapId;
-@property(retain, nonatomic) NSString *responseId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) _Bool userInteractedWithNotification;
-@property(nonatomic) _Bool userShownNotification;
 
 @end
 

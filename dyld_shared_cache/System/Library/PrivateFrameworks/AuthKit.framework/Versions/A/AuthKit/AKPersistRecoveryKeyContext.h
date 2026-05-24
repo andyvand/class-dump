@@ -9,7 +9,6 @@
 @interface AKPersistRecoveryKeyContext
 {
     NSDictionary *_verifier;
-    unsigned long long _keyType;
 }
 
 + (_Bool);
@@ -17,14 +16,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (void)`;
 
 // Remaining properties
-@property(nonatomic) unsigned long long keyType; // @synthesize keyType=_keyType;
 @property(copy, nonatomic) NSDictionary *verifier; // @synthesize verifier=_verifier;
 
 @end

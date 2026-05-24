@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, NSArray, NSDictionary, NSDiffableDataSourceSnapshot;
+@class CKConversation;
 @protocol CKTranscriptModelDelegate;
 
 @interface CKTranscriptModel
 {
     id <CKTranscriptModelDelegate> _delegate;
-    CKConversation *_conversation;
-    NSArray *_chatItems;
-    NSDictionary *_supplementaryKindToChatItemMap;
 }
 
 + (id);
+- (id)setWebViewBottomConstraint: /* Error: Ran out of types for this method. */;
+- (void)passwordLabel;
+- (id),;
+- (id)o;
+- (id)o
+;
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)imaryColor2;
+- (void)CKFSMPickerPrimaryColor2;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *chatItems; // @synthesize chatItems=_chatItems;
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(nonatomic) __weak id <CKTranscriptModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSDiffableDataSourceSnapshot *snapshot;
-@property(retain, nonatomic) NSDictionary *supplementaryKindToChatItemMap; // @synthesize supplementaryKindToChatItemMap=_supplementaryKindToChatItemMap;
 
 @end
 

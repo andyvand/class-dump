@@ -12,17 +12,16 @@ __attribute__((visibility("hidden")))
 @interface OITSUNSImage : OITSUImage
 {
     NSImage *mNSImage;
-    double mScale;
 }
 
 + (id);
-- (id);
+- (id);
+- (struct CGImage *)TJ;
+- (id)#;
 - (struct CGImage *);
-- (id);
 - (struct CGImage *);
-- (struct CGImage *);
-- (id);
-- (void);
+- (id)24SettingsFactoryInterface;
+- (void)٨;
 - (int);
 - (double);
 - (struct CGSize);

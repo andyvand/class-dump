@@ -4,48 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetReader, AVAssetReaderTrackOutput, AVAssetTrack, AVAssetWriter, AVAssetWriterInput, NSArray, NSFileHandle, NSObject, NSProgress, NSString, NSURL, PFProportionalIntegralController, PFSinglePassVideoExportItemStatistics, PFVideoExportRangeCoordinator;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
 
 @interface PFSinglePassVideoExportItem
 {
     _Bool _shouldDeleteDestinationURLOnDeallocation;
-    _Bool _needsCurrentEncodingBitRateUpdate;
-    _Bool _maximizePowerEfficiency;
-    _Bool _didCancel;
-    NSString *_identifier;
-    unsigned long long _targetOutputFileSize;
-    NSProgress *_progress;
-    NSArray *_additionalMetadata;
-    unsigned long long _state;
-    NSObject<OS_dispatch_queue> *_exportItemStateQueue;
-    AVAsset *_inputAsset;
-    AVAssetTrack *_videoTrack;
-    NSArray *_additionalTracks;
-    NSFileHandle *_conversionOutputFileHandle;
-    NSURL *_destinationFileURL;
-    unsigned long long _outputFileLastEndOffset;
-    long long _targetOutputMediaDataSize;
-    PFSinglePassVideoExportItemStatistics *_statistics;
-    PFProportionalIntegralController *_bitRateController;
-    AVAssetReader *_assetReader;
-    AVAssetReaderTrackOutput *_videoReaderTrackOutput;
-    NSArray *_additionalReaderTrackOutputs;
-    AVAssetWriter *_assetWriter;
-    AVAssetWriterInput *_videoWriterInput;
-    NSArray *_additionalWriterInputs;
-    NSObject<OS_dispatch_source> *_outputFileSizeChangeSource;
-    unsigned long long _minimumChunkLength;
-    NSObject<OS_dispatch_group> *_inputReadingCompletionGroup;
-    PFVideoExportRangeCoordinator *_availableRangeCoordinator;
-    struct OpaqueVTCompressionSession *_compressionSession;
-    long long _currentEncodingBitRate;
 }
 
 - (id);
 - (id);
 - (long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -57,37 +26,37 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)F;
+- (void);
+- (void)l;
 - (void);
 - (void);
+- (void)lib;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)leKeyBag.framework/Versions/A/MobileKeyBag;
+- (void)/Versions/A/UserManagement;
+- (void)ameworks/UserManagement.framework/Versions/A/UserManagement;
+- (void)ns/A/SpotlightResources;
+- (void)*;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)__const;
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (double);
-- (id);
+- (_Bool)graphContextEnableNanAndInfChecks;
+- (id)_TtCVO10Accelerate9BNNSGraph7Builder20ErrorMessagesWrapper;
+- (double)_TtCO10Accelerate4BNNS12PaddingLayer;
+- (id)_TtCO10Accelerate4BNNS12PaddingLayer;
 - (id);
 - (long long);
-- (long long);
+- (long long)4;
 - (id);
 - (void);
-- (void);
+- (void)4;
 - (struct OpaqueVTCompressionSession *);
 - (id);
 - (id);
@@ -97,7 +66,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -106,7 +75,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_swapMessagesTables: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -114,47 +83,17 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (id)@;
+- (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (_Bool)ringSlowMotion;
+- (_Bool)volumeDuringSlowMotion;
 - (void)h£l¤¤t¥t¦|§,¨ª$­;
 - (_Bool)@;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalMetadata; // @synthesize additionalMetadata=_additionalMetadata;
-@property(retain) NSArray *additionalReaderTrackOutputs; // @synthesize additionalReaderTrackOutputs=_additionalReaderTrackOutputs;
-@property(retain) NSArray *additionalTracks; // @synthesize additionalTracks=_additionalTracks;
-@property(retain) NSArray *additionalWriterInputs; // @synthesize additionalWriterInputs=_additionalWriterInputs;
-@property(retain) AVAssetReader *assetReader; // @synthesize assetReader=_assetReader;
-@property(retain) AVAssetWriter *assetWriter; // @synthesize assetWriter=_assetWriter;
-@property(retain) PFVideoExportRangeCoordinator *availableRangeCoordinator; // @synthesize availableRangeCoordinator=_availableRangeCoordinator;
-@property(retain) PFProportionalIntegralController *bitRateController; // @synthesize bitRateController=_bitRateController;
-@property struct OpaqueVTCompressionSession *compressionSession; // @synthesize compressionSession=_compressionSession;
-@property(retain) NSFileHandle *conversionOutputFileHandle; // @synthesize conversionOutputFileHandle=_conversionOutputFileHandle;
-@property long long currentEncodingBitRate; // @synthesize currentEncodingBitRate=_currentEncodingBitRate;
-@property(retain) NSURL *destinationFileURL; // @synthesize destinationFileURL=_destinationFileURL;
-@property _Bool didCancel; // @synthesize didCancel=_didCancel;
-@property(retain) NSObject<OS_dispatch_queue> *exportItemStateQueue; // @synthesize exportItemStateQueue=_exportItemStateQueue;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) AVAsset *inputAsset; // @synthesize inputAsset=_inputAsset;
-@property(retain) NSObject<OS_dispatch_group> *inputReadingCompletionGroup; // @synthesize inputReadingCompletionGroup=_inputReadingCompletionGroup;
-@property _Bool maximizePowerEfficiency; // @synthesize maximizePowerEfficiency=_maximizePowerEfficiency;
-@property unsigned long long minimumChunkLength; // @synthesize minimumChunkLength=_minimumChunkLength;
-@property _Bool needsCurrentEncodingBitRateUpdate; // @synthesize needsCurrentEncodingBitRateUpdate=_needsCurrentEncodingBitRateUpdate;
-@property unsigned long long outputFileLastEndOffset; // @synthesize outputFileLastEndOffset=_outputFileLastEndOffset;
-@property(retain) NSObject<OS_dispatch_source> *outputFileSizeChangeSource; // @synthesize outputFileSizeChangeSource=_outputFileSizeChangeSource;
-@property(retain) NSProgress *progress; // @synthesize progress=_progress;
-@property _Bool shouldDeleteDestinationURLOnDeallocation; // @synthesize shouldDeleteDestinationURLOnDeallocation=_shouldDeleteDestinationURLOnDeallocation;
-@property unsigned long long state; // @synthesize state=_state;
-@property(retain) PFSinglePassVideoExportItemStatistics *statistics; // @synthesize statistics=_statistics;
-@property(nonatomic) unsigned long long targetOutputFileSize; // @synthesize targetOutputFileSize=_targetOutputFileSize;
-@property long long targetOutputMediaDataSize; // @synthesize targetOutputMediaDataSize=_targetOutputMediaDataSize;
-@property(retain) AVAssetReaderTrackOutput *videoReaderTrackOutput; // @synthesize videoReaderTrackOutput=_videoReaderTrackOutput;
-@property(retain) AVAssetTrack *videoTrack; // @synthesize videoTrack=_videoTrack;
-@property(retain) AVAssetWriterInput *videoWriterInput; // @synthesize videoWriterInput=_videoWriterInput;
 
 @end
 

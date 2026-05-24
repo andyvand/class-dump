@@ -7,11 +7,6 @@
 @interface NewsFeed.FeedItemRendererPipelineProcessor
 {
     id thumbnailImageCache;
-    id publisherLogoImageCache;
-    id formatImageCache;
-    id issueCoverImageCache;
-    id rendererEnvironment;
-    id lastRendererOptions;
 }
 
 @end

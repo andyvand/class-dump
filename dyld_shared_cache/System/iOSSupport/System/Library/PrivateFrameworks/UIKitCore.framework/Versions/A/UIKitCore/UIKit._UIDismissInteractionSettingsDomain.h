@@ -10,7 +10,7 @@
 
 + (id);
 + (id)backgroundMaterialGroupName;
-+ (id)pdateSwipeEdgeMultipliersIfNeededForTouchPosition: /* Error: Ran out of types for this method. */;
++ (id)_updateSwipeEdgeMultipliersIfNeededForTouchPosition: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIEditMenuPresentationAnimator
@@ -13,26 +13,18 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_completionBlocks;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)useChatRoom:(id)arg1 forGroupChatIdentifier: /* Error: Ran out of types for this method. */;
+- (void)sharedCoordinator;
+- (void)sharedCache;
 - (id);
 - (id)V_cellUpdateHandler;
-- (void)ngeNotification;
+- (void)_UIRecommendedScrollerStyleDidChangeNotification;
 - (void)¶U;
 - (void)¨Ü@s\;
 - (void)ÈØþ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *animationBlocks; // @synthesize animationBlocks=_animationBlocks;
-@property(retain, nonatomic) NSMutableArray *completionBlocks; // @synthesize completionBlocks=_completionBlocks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

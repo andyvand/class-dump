@@ -6,21 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, FCCloudContext, NSArray, NSString;
+@class FCCachePolicy;
 
 @interface FCCurrentMagazineContentFetchOperation : FCOperation
 {
     FCCachePolicy *_cachedPolicy;
-    long long _contentOptions;
-    CDUnknownBlockType _fetchCompletionHandler;
-    FCCloudContext *_context;
-    NSArray *_configIssueIDs;
-    NSArray *_configArticleIDs;
-    NSString *_trendingArticleListID;
-    NSArray *_resultConfigIssues;
-    NSArray *_resultConfigHeadlines;
-    NSArray *_resultCurrentIssues;
-    NSArray *_resultTrendingHeadlines;
 }
 
 - (CDUnknownBlockType);
@@ -38,8 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCCachePolicy *cachedPolicy; // @synthesize cachedPolicy=_cachedPolicy;
-@property(nonatomic) long long contentOptions; // @synthesize contentOptions=_contentOptions;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
 
 @end
 

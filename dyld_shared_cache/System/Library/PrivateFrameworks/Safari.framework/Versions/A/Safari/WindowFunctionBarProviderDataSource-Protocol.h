@@ -5,14 +5,15 @@
 //
 
 @protocol WindowFunctionBarProviderDataSource
-- (_Bool)ts;
+- (_Bool)d;
+- (_Bool)itemEdgeInsets;
 - (_Bool),;
 - (_Bool)ÿ;
 - (long long)(;
 - (_Bool)Tà;
 - (_Bool)ÿÿ9;
 - (_Bool);
-- (_Bool)d;
+- (_Bool)Xd;
 - (_Bool)	;
 - (_Bool)t;
 @end

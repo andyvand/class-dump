@@ -6,29 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PSESchemaPSEClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_uiSessionId;
-    SISchemaUUID *_originalLastRequestId;
-    int _siriEngagementTaskSuccess;
-    SISchemaUUID *_taskId;
-    SISchemaUUID *_pseId;
-    int _triggerOrigin;
-    struct {
-        unsigned int siriEngagementTaskSuccess:1;
-        unsigned int triggerOrigin:1;
-    } _has;
-    _Bool _hasUiSessionId;
-    _Bool _hasOriginalLastRequestId;
-    _Bool _hasTaskId;
-    _Bool _hasPseId;
 }
 
 - (id);
 - (int);
-- (int);
+- (int)@ ;
 - (void);
 - (void);
 - (void);
@@ -48,7 +35,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -57,30 +44,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)i;
+- (unsigned long long)braries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool), received error:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
-- (id)us_code;
+- (id)_status_code;
 - (id)tervalInDays;
-- (void)TYPE_REQUEST_IDENTITY;
+- (void)FLOWSTATETYPE_REQUEST_IDENTITY;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginalLastRequestId; // @synthesize hasOriginalLastRequestId=_hasOriginalLastRequestId;
-@property(nonatomic) _Bool hasPseId; // @synthesize hasPseId=_hasPseId;
-@property(nonatomic) _Bool hasSiriEngagementTaskSuccess;
-@property(nonatomic) _Bool hasTaskId; // @synthesize hasTaskId=_hasTaskId;
-@property(nonatomic) _Bool hasTriggerOrigin;
-@property(nonatomic) _Bool hasUiSessionId; // @synthesize hasUiSessionId=_hasUiSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *originalLastRequestId; // @synthesize originalLastRequestId=_originalLastRequestId;
-@property(retain, nonatomic) SISchemaUUID *pseId; // @synthesize pseId=_pseId;
-@property(nonatomic) int siriEngagementTaskSuccess; // @synthesize siriEngagementTaskSuccess=_siriEngagementTaskSuccess;
-@property(retain, nonatomic) SISchemaUUID *taskId; // @synthesize taskId=_taskId;
-@property(nonatomic) int triggerOrigin; // @synthesize triggerOrigin=_triggerOrigin;
 @property(retain, nonatomic) SISchemaUUID *uiSessionId; // @synthesize uiSessionId=_uiSessionId;
 
 @end

@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLMiLoLocationType, CLMiLoServiceDescriptor, CLMiLoServiceMetaInfo, CLMiLoServiceQualityInfo, NSArray, NSError, NSUUID;
-
 @interface CLMiLoServiceStatus
 {
     unsigned long long _serviceState;
-    NSArray *_serviceSuspendReasons;
-    CLMiLoServiceDescriptor *_serviceDescriptor;
-    NSUUID *_currentLocationOfInterestUuid;
-    CLMiLoLocationType *_currentLocationOfInterestType;
-    NSError *_error;
-    CLMiLoServiceQualityInfo *_serviceQualityInfo;
-    NSArray *_places;
-    CLMiLoServiceMetaInfo *_metaInfo;
 }
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)Ys;
 - (id);
 - (id);
 - (id);
@@ -31,20 +21,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)setFramebufferOnly:(struct _NSZone *)arg1;
 - (unsigned long long)rometerSlopeModeConfiguration;
 
 // Remaining properties
-@property(readonly, nonatomic) CLMiLoLocationType *currentLocationOfInterestType; // @synthesize currentLocationOfInterestType=_currentLocationOfInterestType;
-@property(readonly, nonatomic) NSUUID *currentLocationOfInterestUuid; // @synthesize currentLocationOfInterestUuid=_currentLocationOfInterestUuid;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) CLMiLoServiceMetaInfo *metaInfo; // @synthesize metaInfo=_metaInfo;
-@property(readonly, nonatomic) NSArray *places; // @synthesize places=_places;
-@property(readonly, nonatomic) CLMiLoServiceDescriptor *serviceDescriptor; // @synthesize serviceDescriptor=_serviceDescriptor;
-@property(readonly, nonatomic) CLMiLoServiceQualityInfo *serviceQualityInfo; // @synthesize serviceQualityInfo=_serviceQualityInfo;
 @property(readonly, nonatomic) unsigned long long serviceState; // @synthesize serviceState=_serviceState;
-@property(readonly, nonatomic) NSArray *serviceSuspendReasons; // @synthesize serviceSuspendReasons=_serviceSuspendReasons;
 
 @end
 

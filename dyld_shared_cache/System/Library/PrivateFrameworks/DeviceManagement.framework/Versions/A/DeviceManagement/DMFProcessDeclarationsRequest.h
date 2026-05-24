@@ -13,14 +13,14 @@
     NSString *_organizationIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)V;
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
-- (void);
+- (void)_isSelected;
 - (id);
 
 // Remaining properties

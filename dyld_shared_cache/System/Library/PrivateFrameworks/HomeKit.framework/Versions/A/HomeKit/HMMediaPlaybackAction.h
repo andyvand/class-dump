@@ -6,25 +6,18 @@
 
 #import <HomeKit/HMAction.h>
 
-@class MPPlaybackArchive, NSNumber, NSSet;
+@class NSSet;
 
 @interface HMMediaPlaybackAction : HMAction
 {
     struct os_unfair_lock_s _lock;
-    NSSet *_mediaProfiles;
-    long long _state;
-    NSNumber *_volume;
-    MPPlaybackArchive *_playbackArchive;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *mediaProfiles;
-@property(readonly, nonatomic) MPPlaybackArchive *playbackArchive;
-@property(readonly, nonatomic) long long state;
-@property(readonly, copy, nonatomic) NSNumber *volume;
 
 @end
 

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface MLFairPlayDecryptSessionManager
 {
     NSMutableDictionary *_modelPathToSessionID;
-    CDStruct_6463db26 *_sessionContext;
-    NSObject<OS_dispatch_queue> *_syncQueue;
 }
 
 - (_Bool);
 - (int);
 - (id);
 - (_Bool);
-- (CDStruct_6463db26 *);
+- (CDStruct_6463db26 *)findMyAccessoryManager:didStopPlayingSoundOnDevice:withError: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)a mixture of enumerated and range shape flexibility, but feature ;
@@ -26,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, retain) NSMutableDictionary *modelPathToSessionID; // @synthesize modelPathToSessionID=_modelPathToSessionID;
-@property(readonly) CDStruct_6463db26 *sessionContext; // @synthesize sessionContext=_sessionContext;
-@property(readonly, retain) NSObject<OS_dispatch_queue> *syncQueue; // @synthesize syncQueue=_syncQueue;
 
 @end
 

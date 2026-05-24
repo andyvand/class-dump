@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSValue;
+@class NSValue;
 
 @interface AAIdentityAvatar
 {
     void imageData;
-    id cropRect;
 }
 
 + (void);
 + (_Bool);
+- (id)Profile found agent port %d;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
-- (void)nabled;
+- (void)isRCInSettingsEnabled;
 
 // Remaining properties
 @property(nonatomic, readonly) NSValue *cropRectValue;
-@property(nonatomic, readonly) NSData *imageData;
 
 @end
 

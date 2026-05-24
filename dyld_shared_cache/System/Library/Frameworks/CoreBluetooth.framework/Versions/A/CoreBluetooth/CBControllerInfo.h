@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSError, NSString;
+@class NSArray;
 
 @interface CBControllerInfo
 {
     unsigned char _cloudSyncStatus;
-    unsigned char _fastLEConnectionInfoVersion;
-    BOOL _hciTransportType;
-    unsigned char _leaVersion;
-    unsigned char _lmpVersion;
-    unsigned char _vendorIDSource;
-    _Bool _fastLEConnectionAllowed;
-    unsigned short _vendorID;
-    int _discoverableState;
-    int _inquiryState;
-    unsigned int _productID;
-    unsigned int _supportedServices;
-    NSArray *_audioLinkQualityArray;
-    long long _bluetoothState;
-    NSString *_chipsetID;
-    NSData *_fastLEConnectionInfoData;
-    NSString *_firmwareName;
-    NSString *_firmwareVersion;
-    NSData *_hardwareAddressData;
-    NSError *_lastChipsetInitError;
 }
 
 + (_Bool);
@@ -54,56 +35,37 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@�;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)fetchFSItemsForItemIdentifiers:(id)arg1 providerIdentifier:domainIdentifier:materializingIfNeeded:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned short);
 - (id);
 - (BOOL);
 - (void);
 - (id);
-- (void);
+- (void)1365-D revision 10;
 - (unsigned char);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)!;
+- (void)P;
 - (void);
-- (void);
-- (int)fig: /* Error: Ran out of types for this method. */;
-- (void)ger:(id)arg1 offlineAdvPayloadRequestedWithReason: /* Error: Ran out of types for this method. */;
-- (id)ool: /* Error: Ran out of types for this method. */;
-- (unsigned int)DuplicatesOnStart;
+- (int)setConversationDetectConfig: /* Error: Ran out of types for this method. */;
+- (void)peripheralManager:(id)arg1 offlineAdvPayloadRequestedWithReason: /* Error: Ran out of types for this method. */;
+- (id)numberWithBool: /* Error: Ran out of types for this method. */;
+- (unsigned int)kCBScanOptionRetainDuplicatesOnStart;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *audioLinkQualityArray; // @synthesize audioLinkQualityArray=_audioLinkQualityArray;
-@property(nonatomic) long long bluetoothState; // @synthesize bluetoothState=_bluetoothState;
-@property(copy, nonatomic) NSString *chipsetID; // @synthesize chipsetID=_chipsetID;
-@property(nonatomic) unsigned char cloudSyncStatus; // @synthesize cloudSyncStatus=_cloudSyncStatus;
-@property(nonatomic) int discoverableState; // @synthesize discoverableState=_discoverableState;
-@property(nonatomic) _Bool fastLEConnectionAllowed; // @synthesize fastLEConnectionAllowed=_fastLEConnectionAllowed;
-@property(copy, nonatomic) NSData *fastLEConnectionInfoData; // @synthesize fastLEConnectionInfoData=_fastLEConnectionInfoData;
-@property(nonatomic) unsigned char fastLEConnectionInfoVersion; // @synthesize fastLEConnectionInfoVersion=_fastLEConnectionInfoVersion;
-@property(copy, nonatomic) NSString *firmwareName; // @synthesize firmwareName=_firmwareName;
-@property(copy, nonatomic) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(copy, nonatomic) NSData *hardwareAddressData; // @synthesize hardwareAddressData=_hardwareAddressData;
-@property(nonatomic) BOOL hciTransportType; // @synthesize hciTransportType=_hciTransportType;
-@property(nonatomic) int inquiryState; // @synthesize inquiryState=_inquiryState;
-@property(copy, nonatomic) NSError *lastChipsetInitError; // @synthesize lastChipsetInitError=_lastChipsetInitError;
-@property(nonatomic) unsigned char leaVersion; // @synthesize leaVersion=_leaVersion;
-@property(nonatomic) unsigned char lmpVersion; // @synthesize lmpVersion=_lmpVersion;
-@property(nonatomic) unsigned int productID; // @synthesize productID=_productID;
-@property(nonatomic) unsigned int supportedServices; // @synthesize supportedServices=_supportedServices;
-@property(nonatomic) unsigned short vendorID; // @synthesize vendorID=_vendorID;
-@property(nonatomic) unsigned char vendorIDSource; // @synthesize vendorIDSource=_vendorIDSource;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface AAAgeMigrationDaemonConnection
 {
     struct os_unfair_lock_s _unfairLock;
-    NSXPCConnection *_connection;
-    NSXPCListenerEndpoint *_listenerEndpoint;
 }
 
 - (void);
@@ -19,8 +17,8 @@
 - (void);
 - (id);
 - (id);
-- (id)ionHandler: /* Error: Ran out of types for this method. */;
-- (void)coveryKeysWithContext:completion: /* Error: Ran out of types for this method. */;
+- (id)setInvalidationHandler: /* Error: Ran out of types for this method. */;
+- (void)fetchCustodianRecoveryKeysWithContext:completion: /* Error: Ran out of types for this method. */;
 - (id)¾¼¯¾|¸¾¼±¾£¾\¢¾¾¾°¾|¥¾\·¾¼¾ü¬¾±¾¼­¾ü¢¾<¢¾<¬¾¼½¾ü¯¾<«¾¹¾|¹¾\»¾|¡¾|º¾¼¤¾\±¾\¬¾|´¾|¨¾|²¾\©¾µ¾|·¾<§¾ü³¾|½¾ü¹¾<¦¾ü´¾´¾|±¾¼ ¾Ü£¾¦¾|¬¾ü ¾<¶¾ü£¾Ü¡¾§¾|µ¾<¥¾\¼¾¼µ¾¼©¾<¸¾¦¾<®¾²¾º¾Ü¹¾|°¾Ü¢¾<¯¾|¿¾Ü³¾\º¾\£¾Ü¤¾\¥¾<¨¾¼¹¾|¾¾Ü¦¾<¾¾<²¾\´¾¼¡¾¼ª¾ü±¾<¹¾Ü ¾¾¾<°¾¼¶¾ü»¾­¾<³¾üª¾ª¾<µ¾Ü±¾Ü¼¾ª¾Ü·¾¸¾\­¾ü¿¾¬¾­¾|¤¾|¢¾|³¾¼³¾ ¾Ü®¾üº¾\¹¾£¾ü²¾<©¾Ü²¾\¤¾¼¦¾©¾¹¾<±¾Ü¶¾\µ¾ü©¾¬¾|¶¾ü¤¾°¾Ü½¾¡¾¼°¾§¾¥¾¼®¾Ü¿¾¼¾¾¼»¾\¿¾·¾ü·¾«¾ü­¾\ ¾Üª¾|®¾¼´¾·¾|©¾¡¾< ¾Ü«¾¼¸¾µ¾\²¾\ª¾©¾|¦¾ü®¾¶¾<´¾¿¾±¾¯¾¼¨¾ü«¾<¤¾Ü¥¾¯¾ü¸¾¼¥¾|¯¾¼«¾<¡¾\¾¾ü½¾<·¾<»¾\°¾¤¾²¾¼·¾\¡¾½¾¢¾Ü­¾¼£¾Ü§¾<º¾\¯¾\«¾¥¾¼º¾|«¾®¾<½¾¸¾¼¿¾\®¾Ü´¾ü¨¾\³¾\¨¾®¾ü¡¾¿¾|§¾\¦¾Ü»¾¤¾\½¾¼¬¾¨¾<£¾<ª¾|¼¾üµ¾¢¾ü¾¾Üº¾Ü¨¾\¶¾¼²¾¼¼¾¼¾Ü©¾ü§¾³¾\§¾ü¥¾¨¾ ¾ü°¾´¾<¿¾|­¾|ª¾³¾»¾½¾<­¾»¾Ü°¾¼¢¾<¼¾¶¾Ü¯¾|»¾ü¼¾| ;Fâ|;áâ|;¸â|;â|;ïâ|;Hâ|;â|;¶â|;;
 - (id)0âï;
 

@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTTZoomController, NSDictionary, NSString;
-
 @interface ICTTTextController
 {
     _Bool _isForPrint;
-    _Bool _isForSiri;
-    _Bool _keepNSTextTableAttributes;
-    _Bool _disableSingleLineA;
-    _Bool _inPreviewMode;
-    _Bool _showsEditorDebugTooltips;
-    double _bodyStyleFontSizeThreshold;
-    double _headingStyleFontSizeThreshold;
-    unsigned long long _defaultTabInterval;
-    NSDictionary *_indentForHeadIndent;
-    ICTTZoomController *_zoomController;
 }
 
 + (double);
@@ -26,16 +14,16 @@
 + (double);
 + (double);
 + (double);
-+ (double);
++ (double)TT;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
 - (id);
@@ -46,9 +34,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -92,35 +80,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (unsigned long long);
 - (id);
 - (id);
-- (void)ttachmentWithIdentifier:subtype: /* Error: Ran out of types for this method. */;
+- (void)addPaperDocumentAttachmentWithIdentifier:subtype: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double bodyStyleFontSizeThreshold; // @synthesize bodyStyleFontSizeThreshold=_bodyStyleFontSizeThreshold;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long defaultTabInterval; // @synthesize defaultTabInterval=_defaultTabInterval;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableAddingExtraLinesIfNeeded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool disableSingleLineA; // @synthesize disableSingleLineA=_disableSingleLineA;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double headingStyleFontSizeThreshold; // @synthesize headingStyleFontSizeThreshold=_headingStyleFontSizeThreshold;
-@property(nonatomic, getter=isInPreviewMode) _Bool inPreviewMode; // @synthesize inPreviewMode=_inPreviewMode;
-@property(retain, nonatomic) NSDictionary *indentForHeadIndent; // @synthesize indentForHeadIndent=_indentForHeadIndent;
-@property(nonatomic) _Bool isForPrint; // @synthesize isForPrint=_isForPrint;
-@property(nonatomic) _Bool isForSiri; // @synthesize isForSiri=_isForSiri;
-@property(nonatomic) _Bool keepNSTextTableAttributes; // @synthesize keepNSTextTableAttributes=_keepNSTextTableAttributes;
 @property(nonatomic) _Bool showsEditorDebugTooltips; // @synthesize showsEditorDebugTooltips=_showsEditorDebugTooltips;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) ICTTZoomController *zoomController; // @synthesize zoomController=_zoomController;
 
 @end
 

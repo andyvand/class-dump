@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCapturePhotoPrivateClientMetadata, NSArray, NSDictionary;
+@class AVCapturePhotoPrivateClientMetadata;
 
 @interface PFCameraClientMetadata
 {
     AVCapturePhotoPrivateClientMetadata *_privateClientMetadata;
-    NSArray *_contactIDsInProximity;
-    long long _sharedLibraryMode;
-    NSDictionary *_sharedLibraryDiagnostics;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contactIDsInProximity; // @synthesize contactIDsInProximity=_contactIDsInProximity;
 @property(retain, nonatomic) AVCapturePhotoPrivateClientMetadata *privateClientMetadata; // @synthesize privateClientMetadata=_privateClientMetadata;
-@property(copy, nonatomic) NSDictionary *sharedLibraryDiagnostics; // @synthesize sharedLibraryDiagnostics=_sharedLibraryDiagnostics;
-@property(nonatomic) long long sharedLibraryMode; // @synthesize sharedLibraryMode=_sharedLibraryMode;
 
 @end
 

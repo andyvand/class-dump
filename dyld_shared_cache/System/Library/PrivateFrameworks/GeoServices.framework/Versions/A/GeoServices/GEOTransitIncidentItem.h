@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOTransitIncidentItem
 {
     PBDataReader *_reader;
-    NSString *_transitIncidentTitle;
-    NSString *_transitLineMuid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_transitIncidentTitle:1;
-        unsigned int read_transitLineMuid:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setModelTrainedDate:(id)arg1;
 - (id);
-- (void);
+- (void)�;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -31,25 +21,22 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)MACaptionSystemDefaultProfile;
 - (id);
-- (void);
+- (void)injectAudio:(id)arg1 toDeviceWithUUID:withNumChannels:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)$;
 - (id);
 - (void);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)implicateAssetMetadataTilesForCoordinate:size: /* Error: Ran out of types for this method. */;
 - (id)N;
-- (id)llular;
+- (id)usedCellular;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTransitIncidentTitle;
-@property(readonly, nonatomic) _Bool hasTransitLineMuid;
-@property(retain, nonatomic) NSString *transitIncidentTitle;
-@property(retain, nonatomic) NSString *transitLineMuid;
 
 @end
 

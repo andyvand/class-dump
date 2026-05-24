@@ -6,33 +6,24 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface CardDAVUpdateMeCardTaskGroup : CoreDAVTaskGroup
 {
     NSURL *_homeURL;
-    NSURL *_cardURL;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)InvertDisplayEnabledByiTunes;
+- (id)_queryInBecomeFirstResponder;
+- (id)UNNotificationExtensionCustomSectionIdentifier;
+- (void)GetInboxRules;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cardURL; // @synthesize cardURL=_cardURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSURL *homeURL; // @synthesize homeURL=_homeURL;
-@property(readonly) Class superclass;
 
 @end
 

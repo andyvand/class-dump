@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _MPArtworkDataSourceURLCache
 {
     NSMapTable *_requestSizeMap;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
 - (void);
 - (id);
 - (void);
-- (void)ks;
+- (void)_valuePersistenceBlocks;
 
 @end
 

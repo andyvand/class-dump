@@ -14,8 +14,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)disableMCL;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *recurrences; // @synthesize recurrences=_recurrences;

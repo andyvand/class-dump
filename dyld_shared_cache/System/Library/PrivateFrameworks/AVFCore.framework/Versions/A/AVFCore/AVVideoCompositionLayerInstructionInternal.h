@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AVVideoCompositionLayerInstructionInternal
 {
     int trackID;
-    NSMutableArray *transformRamps;
-    NSMutableArray *opacityRamps;
-    NSMutableArray *cropRectangleRamps;
 }
 
 @end

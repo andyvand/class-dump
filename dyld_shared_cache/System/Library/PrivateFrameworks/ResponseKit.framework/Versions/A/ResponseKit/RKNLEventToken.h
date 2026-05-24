@@ -9,27 +9,21 @@
 @interface RKNLEventToken
 {
     unsigned int _tokenID;
-    NSString *_string;
-    long long _location;
-    long long _length;
 }
 
 - (id);
 - (void);
 - (long long);
 - (id);
+- (void){Ie;
 - (void);
+- (long long)_urlForMapItemHandles:options: /* Error: Ran out of types for this method. */;
 - (void);
-- (long long);
-- (void);
-- (unsigned int);
-- (void)ngs;
+- (unsigned int)u;
+- (void)MRLModelGetIOMappings;
 
 // Remaining properties
-@property long long length; // @synthesize length=_length;
-@property long long location; // @synthesize location=_location;
 @property(retain) NSString *string; // @synthesize string=_string;
-@property unsigned int tokenID; // @synthesize tokenID=_tokenID;
 
 @end
 

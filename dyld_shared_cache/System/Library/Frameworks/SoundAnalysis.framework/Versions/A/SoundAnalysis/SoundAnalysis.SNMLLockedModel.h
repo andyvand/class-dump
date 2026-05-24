@@ -7,8 +7,6 @@
 @interface SoundAnalysis.SNMLLockedModel
 {
     id modelID;
-    id model;
-    id lock;
 }
 
 @end

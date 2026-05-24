@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDCompositeSettingsControllerManager, HMDSiriEndpointProfileFields, NSString;
+
 @protocol HMDSiriEndpointProfileMetricsDispatcherDataSource
+- (HMDSiriEndpointProfileFields *)";
+- (HMDCompositeSettingsControllerManager *)now %{private}@ (stopSharingWith);
+- (NSString *)D0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
 @end
 

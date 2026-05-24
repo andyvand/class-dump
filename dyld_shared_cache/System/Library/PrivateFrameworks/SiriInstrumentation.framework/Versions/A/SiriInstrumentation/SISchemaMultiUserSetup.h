@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaMultiUserSetup : SISchemaInstrumentationMessage
 {
     unsigned int _numGuestsAccepted;
-    unsigned int _numParticipantsWithTrust;
-    unsigned int _numUsersWhoSyncedRecognizeMyVoice;
-    unsigned int _numUsersWithRecognizeMyVoiceEnabled;
-    unsigned int _numVoiceProfilesAvailable;
-    int _numUsersWithPersonalRequestsEnabled;
-    int _numUsersWithMatchingSiriLanguage;
-    int _numUsersWithSiriCloudSyncEnabled;
-    int _numUsersWithLocationServicesEnabled;
-    CDStruct_12cd49df _has;
 }
 
 - (void);
@@ -34,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,34 +58,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)sage;
+- (_Bool)ABFieldPopupAttribute;
+- (_Bool)ay_name TEXT, group_id TEXT, is_filtered INTEGER DEFAULT 0, successful_query INTEGER DEFAULT 1);;
 - (id);
 - (id);
-- (id)teConfusionPair;
-- (id)s;
+- (id)deleteConfusionPair;
+- (id)_enrollmentDataDedupeHashBytes;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumGuestsAccepted;
-@property(nonatomic) _Bool hasNumParticipantsWithTrust;
-@property(nonatomic) _Bool hasNumUsersWhoSyncedRecognizeMyVoice;
-@property(nonatomic) _Bool hasNumUsersWithLocationServicesEnabled;
-@property(nonatomic) _Bool hasNumUsersWithMatchingSiriLanguage;
-@property(nonatomic) _Bool hasNumUsersWithPersonalRequestsEnabled;
-@property(nonatomic) _Bool hasNumUsersWithRecognizeMyVoiceEnabled;
-@property(nonatomic) _Bool hasNumUsersWithSiriCloudSyncEnabled;
-@property(nonatomic) _Bool hasNumVoiceProfilesAvailable;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int numGuestsAccepted; // @synthesize numGuestsAccepted=_numGuestsAccepted;
-@property(nonatomic) unsigned int numParticipantsWithTrust; // @synthesize numParticipantsWithTrust=_numParticipantsWithTrust;
-@property(nonatomic) unsigned int numUsersWhoSyncedRecognizeMyVoice; // @synthesize numUsersWhoSyncedRecognizeMyVoice=_numUsersWhoSyncedRecognizeMyVoice;
-@property(nonatomic) int numUsersWithLocationServicesEnabled; // @synthesize numUsersWithLocationServicesEnabled=_numUsersWithLocationServicesEnabled;
-@property(nonatomic) int numUsersWithMatchingSiriLanguage; // @synthesize numUsersWithMatchingSiriLanguage=_numUsersWithMatchingSiriLanguage;
-@property(nonatomic) int numUsersWithPersonalRequestsEnabled; // @synthesize numUsersWithPersonalRequestsEnabled=_numUsersWithPersonalRequestsEnabled;
-@property(nonatomic) unsigned int numUsersWithRecognizeMyVoiceEnabled; // @synthesize numUsersWithRecognizeMyVoiceEnabled=_numUsersWithRecognizeMyVoiceEnabled;
-@property(nonatomic) int numUsersWithSiriCloudSyncEnabled; // @synthesize numUsersWithSiriCloudSyncEnabled=_numUsersWithSiriCloudSyncEnabled;
-@property(nonatomic) unsigned int numVoiceProfilesAvailable; // @synthesize numVoiceProfilesAvailable=_numVoiceProfilesAvailable;
 
 @end
 

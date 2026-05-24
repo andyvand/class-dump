@@ -6,17 +6,15 @@
 
 #import <coreroutine/RTMetric.h>
 
-@class NSString;
-
 @interface RTRelabelerPersisterMetrics : RTMetric
 {
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)dified);
++ (id)kPCSSetupHSMMetaData;
++ (id)VlAoZMSbwKlGRubuRTsR8EKAA6pKDTo=;
 + (CDStruct_b8464340);
 - (void);
 - (void);
@@ -25,16 +23,10 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)R;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

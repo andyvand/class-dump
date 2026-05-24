@@ -6,13 +6,13 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SAStockNews : SADomainObject
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);
@@ -25,8 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *timeStamp;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *url;
 
 @end
 

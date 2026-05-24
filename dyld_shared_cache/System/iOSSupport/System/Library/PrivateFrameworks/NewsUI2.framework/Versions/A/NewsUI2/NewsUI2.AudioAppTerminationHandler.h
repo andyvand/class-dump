@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioAppTerminationHandler
 {
     id currentlyPlayingObservable;
-    id commandCenter;
-    id terminationObserver;
 }
 
 @end

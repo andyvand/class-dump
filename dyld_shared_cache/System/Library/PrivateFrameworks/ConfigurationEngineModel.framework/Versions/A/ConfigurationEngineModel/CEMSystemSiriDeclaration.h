@@ -6,32 +6,22 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemSiriDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowAssistant;
-    NSNumber *_payloadAllowDictation;
-    NSNumber *_payloadAllowAssistantUserGeneratedContent;
-    NSNumber *_payloadForceAssistantProfanityFilter;
-    NSNumber *_payloadAllowKeyboardMathSolving;
-    NSNumber *_payloadAllowMathPaperSolving;
-    NSNumber *_payloadAllowWritingTools;
-    NSNumber *_payloadAllowGenmoji;
-    NSNumber *_payloadAllowImagePlayground;
-    NSNumber *_payloadAllowImageWand;
-    NSNumber *_payloadAllowExternalIntelligenceIntegrations;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -40,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,33 +45,16 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)G1;
+- (void)> %@ :(id)arg1 Pitch %f :Language:%@, voiceId:%@ /* Error: Ran out of types for this method. */;
+- (id)So9HIDDeviceCSgAE_pGG;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadAllowAssistant; // @synthesize payloadAllowAssistant=_payloadAllowAssistant;
-@property(copy, nonatomic) NSNumber *payloadAllowAssistantUserGeneratedContent; // @synthesize payloadAllowAssistantUserGeneratedContent=_payloadAllowAssistantUserGeneratedContent;
-@property(copy, nonatomic) NSNumber *payloadAllowDictation; // @synthesize payloadAllowDictation=_payloadAllowDictation;
-@property(copy, nonatomic) NSNumber *payloadAllowExternalIntelligenceIntegrations; // @synthesize payloadAllowExternalIntelligenceIntegrations=_payloadAllowExternalIntelligenceIntegrations;
-@property(copy, nonatomic) NSNumber *payloadAllowGenmoji; // @synthesize payloadAllowGenmoji=_payloadAllowGenmoji;
-@property(copy, nonatomic) NSNumber *payloadAllowImagePlayground; // @synthesize payloadAllowImagePlayground=_payloadAllowImagePlayground;
-@property(copy, nonatomic) NSNumber *payloadAllowImageWand; // @synthesize payloadAllowImageWand=_payloadAllowImageWand;
-@property(copy, nonatomic) NSNumber *payloadAllowKeyboardMathSolving; // @synthesize payloadAllowKeyboardMathSolving=_payloadAllowKeyboardMathSolving;
-@property(copy, nonatomic) NSNumber *payloadAllowMathPaperSolving; // @synthesize payloadAllowMathPaperSolving=_payloadAllowMathPaperSolving;
-@property(copy, nonatomic) NSNumber *payloadAllowWritingTools; // @synthesize payloadAllowWritingTools=_payloadAllowWritingTools;
-@property(copy, nonatomic) NSNumber *payloadForceAssistantProfanityFilter; // @synthesize payloadForceAssistantProfanityFilter=_payloadForceAssistantProfanityFilter;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     NSEnumerator *_nameEnum;
 }
 
-- (id);
+- (id)MPModelPropertyMediaClipPreviewArtwork;
 - (id);
 - (void)¡Ò;
 

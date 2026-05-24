@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface FPSpotlightCollectorManager
 {
     _Bool _areMountQueriesEnabled;
-    id _providerDomainChangesToken;
-    NSSet *_currentMountPoints;
-    NSMutableDictionary *_collectorByDescriptor;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)BM;
+- (void);
+- (void)M;
 - (void);
 - (void);
 - (id);
@@ -28,22 +23,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)P;
+- (id)dataWithRange: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property _Bool areMountQueriesEnabled; // @synthesize areMountQueriesEnabled=_areMountQueriesEnabled;
-@property(retain) NSMutableDictionary *collectorByDescriptor; // @synthesize collectorByDescriptor=_collectorByDescriptor;
-@property(readonly, nonatomic) NSArray *collectors;
-@property(retain) NSSet *currentMountPoints; // @synthesize currentMountPoints=_currentMountPoints;
-@property(readonly) NSSet *effectiveCurrentMountPoints;
 @property(retain) id providerDomainChangesToken; // @synthesize providerDomainChangesToken=_providerDomainChangesToken;
 
 @end

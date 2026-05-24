@@ -5,6 +5,7 @@
 //
 
 @protocol ISRecipeOptionalBorder
+- (void)/System/Library/PrivateFrameworks;
 
 // Remaining properties
 @property _Bool shouldDrawBorder;

@@ -16,7 +16,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void)	
 ;
 

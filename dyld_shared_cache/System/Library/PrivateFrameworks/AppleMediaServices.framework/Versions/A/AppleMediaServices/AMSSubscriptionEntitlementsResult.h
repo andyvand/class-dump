@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSNumber;
 
 @interface AMSSubscriptionEntitlementsResult
 {
     NSNumber *_appAdamId;
-    NSNumber *_appVersion;
-    NSDictionary *_entitlements;
-    NSDictionary *_serverResponse;
 }
 
 - (void);
@@ -20,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)IDSSession"32@"NSString"40@"NSDictionary"48;
 - (id);
 - (void)0@ù
 × ;
@@ -30,9 +27,6 @@ DH /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSNumber *appAdamId; // @synthesize appAdamId=_appAdamId;
-@property(retain) NSNumber *appVersion; // @synthesize appVersion=_appVersion;
-@property(retain) NSDictionary *entitlements; // @synthesize entitlements=_entitlements;
-@property(retain) NSDictionary *serverResponse; // @synthesize serverResponse=_serverResponse;
 
 @end
 

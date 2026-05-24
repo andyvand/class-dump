@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelConfiguration, NSString, NSURL;
+@class MLModelConfiguration, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface MLE5ProgramLibraryE5BundleImpl
 {
     NSURL *_e5BundleURL;
-    MLModelConfiguration *_configuration;
 }
 
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (struct e5rt_program_library *);
+- (struct e5rt_program_library *);
 - (id);
 - (void)backing object for %@ must be either CVPixelBuffer or MLMultiArray.;
 
 // Remaining properties
 @property(readonly, nonatomic) MLModelConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) NSURL *e5BundleURL; // @synthesize e5BundleURL=_e5BundleURL;
-@property(readonly, copy, nonatomic) NSString *modelDisplayName;
-@property(readonly, copy, nonatomic) NSString *serializedMILText;
 
 @end
 

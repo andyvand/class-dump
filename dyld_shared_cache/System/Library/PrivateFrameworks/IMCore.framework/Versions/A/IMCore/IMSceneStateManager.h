@@ -12,16 +12,15 @@
 }
 
 + (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)pant screenEnabled to %d;
+- (void)en participant audio is not enabled;
+- (_Bool)] %s:%d VTP_GetPreferredSendQueue failed - %d /* Error: Ran out of types for this method. */;
+- (id)ed seq = %x] DTX[%d];
 - (id);
 - (void)4;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *foregroundSceneUUIDs; // @synthesize foregroundSceneUUIDs=_foregroundSceneUUIDs;
-@property(readonly, nonatomic) _Bool inForeground;
 
 @end
 

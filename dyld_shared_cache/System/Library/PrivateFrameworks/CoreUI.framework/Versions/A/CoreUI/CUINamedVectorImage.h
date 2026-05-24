@@ -10,12 +10,11 @@
 {
 }
 
-- (struct CGImage *);
+- (struct CGImage *)`;
 - (struct CGPDFDocument *);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPDFDocument *pdfDocument;
 @property(readonly, nonatomic) double scale;
 
 @end

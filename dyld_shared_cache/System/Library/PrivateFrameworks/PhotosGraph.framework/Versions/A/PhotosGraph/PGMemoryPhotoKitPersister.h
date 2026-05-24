@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PGNeighborScoreComputer, PHPhotoLibrary;
-@protocol OS_os_log;
+@class PHPhotoLibrary;
 
 @interface PGMemoryPhotoKitPersister
 {
     PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
-    PGNeighborScoreComputer *_neighborScoreComputer;
-    _Bool _isAppleMusicSubscriber;
 }
 
-+ (void);
++ (void)_navigationOrderChildControllersToIncludeInPromotedHierarchy;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?@q`;
 - (_Bool);
 - (id);
 - (id);
@@ -26,7 +22,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)y;
 - (void);
 - (id);
 - (void)e creation:%@

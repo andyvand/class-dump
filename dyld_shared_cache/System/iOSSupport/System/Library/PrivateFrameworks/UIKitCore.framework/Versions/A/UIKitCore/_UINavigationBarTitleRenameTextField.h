@@ -6,24 +6,20 @@
 
 #import <UIKitCore/UITextField.h>
 
-@class FBSSceneIdentityToken, NSLayoutConstraint, NSString, _UINavigationBarTitleRenamerSession, _UIPassthroughScrollInteraction;
+@class FBSSceneIdentityToken, _UINavigationBarTitleRenamerSession;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarTitleRenameTextField : UITextField
 {
     FBSSceneIdentityToken *_layeringSceneIdentity;
-    CDUnknownBlockType _horizontalTextInsetDidChangeCallback;
-    _UINavigationBarTitleRenamerSession *_session;
-    NSLayoutConstraint *_iconHeightConstraint;
-    _UIPassthroughScrollInteraction *_passthroughInteraction;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (CDUnknownBlockType);
-- (double);
+- (id)setIsMergedBusinessThread: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)setGroupConcurrencyLimit: /* Error: Ran out of types for this method. */;
+- (double)setGroupActionType: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -33,29 +29,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void)thIdentifier: /* Error: Ran out of types for this method. */;
+- (void)updateSupportsDetach:forPopoverWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void)xhÈh;
-- (void)lateImageLandscape;
+- (void)UISelectedTemplateImageLandscape;
 - (_Bool)DelegateP;
 - (void);
 - (_Bool);
 - (id)þ;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setLayeringSceneIdentity:) FBSSceneIdentityToken *_layeringSceneIdentity; // @synthesize _layeringSceneIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double horizontalTextInset;
-@property(copy, nonatomic) CDUnknownBlockType horizontalTextInsetDidChangeCallback; // @synthesize horizontalTextInsetDidChangeCallback=_horizontalTextInsetDidChangeCallback;
-@property(readonly, nonatomic) NSLayoutConstraint *iconHeightConstraint; // @synthesize iconHeightConstraint=_iconHeightConstraint;
-@property(retain, nonatomic) _UIPassthroughScrollInteraction *passthroughInteraction; // @synthesize passthroughInteraction=_passthroughInteraction;
 @property(readonly, nonatomic) _UINavigationBarTitleRenamerSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(nonatomic) long long textAlignment;
 
 @end
 

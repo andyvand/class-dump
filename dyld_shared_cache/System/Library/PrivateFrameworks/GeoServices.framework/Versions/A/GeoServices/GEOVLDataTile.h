@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileCoordinate, PBDataReader;
+@class PBDataReader;
 
 @interface GEOVLDataTile
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _buildIndexs;
-    CDStruct_9f2792e4 _precisionIndexs;
-    CDStruct_95bda58d _purposeDenylists;
-    GEOTileCoordinate *_coord;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_buildIndexs:1;
-        unsigned int read_precisionIndexs:1;
-        unsigned int read_purposeDenylists:1;
-        unsigned int read_coord:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ChainedVariants:(id)arg1;
++ (_Bool)setNumChainedVariants:(id)arg1;
 - (void);
 - (unsigned long long);
 - (int);
@@ -43,8 +29,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)sampleCountFromHostTime:(id)arg1;
+- (unsigned long long)at time:%f /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (unsigned int *);
@@ -60,23 +46,16 @@
 - (id);
 - (id)0@ù
 × ;
-- (id):relyingPartyIdentifier:industryCategory:industryCode:paymentNetwork:transactionDate:transactionLocation:terminalId:transactionCurrencyCode:transactionType:transactionId:warsawMerchantDomain:warsawMerchantName:warsawMerchantId:adamId:merchantId:merchantDoingBizAsName:merchantEnhancedName:merchantCity:merchantRawCity:merchantState:merchantRawState:merchantZip:merchantAddress:merchantRawAddress:merchantCountryCode:merchantType:merchantCleanConfidenceLevel:merchantAdditionalData:merchantCanl:fuzzyMatched:coarseLocationUsed:traits: /* Error: Ran out of types for this method. */;
+- (id)initWithMerchantCode:rawMerchantCode:relyingPartyIdentifier:industryCategory:industryCode:paymentNetwork:transactionDate:transactionLocation:terminalId:transactionCurrencyCode:transactionType:transactionId:warsawMerchantDomain:warsawMerchantName:warsawMerchantId:adamId:merchantId:merchantDoingBizAsName:merchantEnhancedName:merchantCity:merchantRawCity:merchantState:merchantRawState:merchantZip:merchantAddress:merchantRawAddress:merchantCountryCode:merchantType:merchantCleanConfidenceLevel:merchantAdditionalData:merchantCanl:fuzzyMatched:coarseLocationUsed:traits: /* Error: Ran out of types for this method. */;
 - (id)ayoutUnitPublisherDescription",&,N;
 - (void)TileSetVersionReadAllFrom can only be called once per object;
-- (id)ion;
-- (unsigned long long)TRUCTIONS;
+- (id)patch_version;
+- (unsigned long long)DIRECTIONS_INCORRECT_INSTRUCTIONS;
 - (void)y:(unsigned int *)arg1 3 in (3, 6);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *buildIndexs;
-@property(readonly, nonatomic) unsigned long long buildIndexsCount;
-@property(retain, nonatomic) GEOTileCoordinate *coord;
 @property(readonly, nonatomic) _Bool hasCoord;
-@property(readonly, nonatomic) unsigned int *precisionIndexs;
-@property(readonly, nonatomic) unsigned long long precisionIndexsCount;
-@property(readonly, nonatomic) int *purposeDenylists;
-@property(readonly, nonatomic) unsigned long long purposeDenylistsCount;
 
 @end
 

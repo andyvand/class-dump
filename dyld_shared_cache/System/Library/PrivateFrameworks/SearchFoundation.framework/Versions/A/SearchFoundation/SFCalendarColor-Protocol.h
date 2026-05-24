@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @protocol SFCalendarColor
+- (NSDictionary *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *eventIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

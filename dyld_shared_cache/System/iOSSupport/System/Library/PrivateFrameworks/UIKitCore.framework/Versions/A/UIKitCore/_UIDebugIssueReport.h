@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIDebugIssueReport
@@ -12,20 +12,13 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_mutableIssues;
 }
 
-- (id);
-- (void);
+- (id)esult with no URI:%@. Skipping. /* Error: Ran out of types for this method. */;
+- (void)invitation received, clearing cache and notifying UI to subscribe, if necessary. %@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSArray *issues;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CNHandleBlocking, CNKeyboardStateMonitor, CNNicknameProvider;
+@protocol CNKeyboardStateMonitor;
 
 @interface UnknownClass (CNKeyboardStateMonitor)
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain) id <CNHandleBlocking> handleBlocking;
 @property(retain) id <CNKeyboardStateMonitor> keyboardStateMonitor; // @dynamic keyboardStateMonitor;
-@property(retain) id <CNNicknameProvider> nicknameProvider; // @dynamic nicknameProvider;
 @end
 

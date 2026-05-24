@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)homeSharingDatabaseID;
 - (double)0@ù
 × ;
 

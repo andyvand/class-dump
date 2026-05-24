@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)neAutoFavorite;
+- (void)minClusterSizeIPhoneAutoFavorite;
 - (long long)Õ;
 
 // Remaining properties

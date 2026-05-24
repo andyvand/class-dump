@@ -4,28 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerControllerTimeResolver, AVPlayerLayer, AVTouchBarScrubberInternal, AVTouchBarTrackViewController, NSMutableArray, NSString;
+@class AVPlayerControllerTimeResolver;
 @protocol AVTouchBarScrubberControlling><AVTouchBarTrackControlling><AVTimeControlling;
 
 __attribute__((visibility("hidden")))
 @interface AVTouchBarScrubberController
 {
     id <AVTouchBarScrubberControlling><AVTouchBarTrackControlling><AVTimeControlling> _playerController;
-    AVTouchBarTrackViewController *_touchBarTrackViewController;
-    NSMutableArray *_bindings;
-    id _touchBarTrackViewBoundsObserver;
-    long long _previousAssetPreviewRequestType;
-    double _previousAssetPreviewRequestDuration;
-    double _previousAssetPreviewRequestMinTime;
-    double _previousAssetPreviewRequestMaxTime;
-    unsigned long long _previousAssetPreviewRequestNumberOfPreviewLayers;
-    _Bool _isVisible;
-    _Bool _thumbnailsNeedRedraw;
-    id _applicationWillBecomeActiveObserverToken;
-    id _applicationDidResignActiveObserverToken;
-    _Bool _hasRoundedCorners;
-    AVPlayerLayer *_scrubPlayerLayer;
-    AVPlayerControllerTimeResolver *_timeResolver;
 }
 
 - (void);
@@ -44,31 +29,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__DATA_DIRTY;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)), %p
+;
+- (id)C;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)e*;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasRoundedCorners; // @synthesize hasRoundedCorners=_hasRoundedCorners;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <AVTouchBarScrubberControlling><AVTouchBarTrackControlling><AVTimeControlling> playerController; // @synthesize playerController=_playerController;
-@property(retain, nonatomic) AVPlayerLayer *scrubPlayerLayer; // @synthesize scrubPlayerLayer=_scrubPlayerLayer;
-@property(readonly, nonatomic) AVTouchBarScrubberInternal *scrubber;
-@property(readonly) Class superclass;
 @property(retain) AVPlayerControllerTimeResolver *timeResolver; // @synthesize timeResolver=_timeResolver;
 
 @end

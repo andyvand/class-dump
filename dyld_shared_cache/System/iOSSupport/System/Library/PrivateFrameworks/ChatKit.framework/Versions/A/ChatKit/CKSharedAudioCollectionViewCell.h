@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKSharedContentsCollectionViewCell.h>
 
-@class CKAudioProgressView, UIDateLabel;
+@class CKAudioProgressView;
 
 __attribute__((visibility("hidden")))
 @interface CKSharedAudioCollectionViewCell : CKSharedContentsCollectionViewCell
@@ -15,17 +15,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)attachmentFromLegacyAttachmentFileWrapper:(id)arg1;
 - (id);
 - (id);
-- (void);
+- (void)f;
 - (id);
 - (void);
 - (void)Èà;
 
 // Remaining properties
 @property(retain, nonatomic) CKAudioProgressView *audioPlaybackView; // @synthesize audioPlaybackView=_audioPlaybackView;
-@property(retain, nonatomic) UIDateLabel *previewTitleLabel; // @dynamic previewTitleLabel;
 
 @end
 

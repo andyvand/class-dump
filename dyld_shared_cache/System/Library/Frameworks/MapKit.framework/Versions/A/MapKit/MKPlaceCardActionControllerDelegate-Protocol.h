@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKPlaceCardActionsViewController, NSURL;
+@protocol MKPlaceActionManagerProtocol;
+
 @protocol MKPlaceCardActionControllerDelegate
+- (void)setDynamicCache:(MKPlaceCardActionsViewController *)arg1;
+- (void)setCpuEnergy:(id <MKPlaceActionManagerProtocol>)arg1;
+- (void)setBatchDropMessages:(id <MKPlaceActionManagerProtocol>)arg1;
+
+@optional
+- (void)systemTimeZone;
+- (void)stringWithFormat:(MKPlaceCardActionsViewController *)arg1;
+- (void)stringByReplacingOccurrencesOfString:(MKPlaceCardActionsViewController *)arg1 withString:(NSURL *)arg2;
 @end
 

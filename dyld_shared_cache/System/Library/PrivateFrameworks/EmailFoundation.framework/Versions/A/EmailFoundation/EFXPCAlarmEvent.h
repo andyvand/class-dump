@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface EFXPCAlarmEvent
 {
     _Bool _isUserVisible;
-    NSString *_name;
-    NSDate *_fireDate;
 }
 
 + (id);
-- (id);
+- (id)setAVRouteDetectorCoordinatorMultipleRoutesDetectedObserver: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)_firmwareData;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(readonly, nonatomic) _Bool isUserVisible; // @synthesize isUserVisible=_isUserVisible;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

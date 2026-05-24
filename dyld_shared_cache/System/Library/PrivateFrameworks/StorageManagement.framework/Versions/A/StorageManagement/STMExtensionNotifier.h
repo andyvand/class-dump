@@ -10,11 +10,9 @@
 @interface STMExtensionNotifier
 {
     id <STMExtensionNotifierDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_serialAccessQueue;
-    id _matchingContext;
 }
 
-- (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
@@ -22,19 +20,17 @@
 - (void);
 - (id);
 - (void);
+- (void)H;
+- (id)N,VextensionRangesCount_;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)freeFormLayoutDidChange;
+- (void)_showValidateButton;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property __weak id <STMExtensionNotifierDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) id matchingContext; // @synthesize matchingContext=_matchingContext;
 @property(retain) NSObject<OS_dispatch_queue> *serialAccessQueue; // @synthesize serialAccessQueue=_serialAccessQueue;
 
 @end

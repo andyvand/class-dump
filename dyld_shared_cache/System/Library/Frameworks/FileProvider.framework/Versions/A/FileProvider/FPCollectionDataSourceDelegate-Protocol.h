@@ -5,6 +5,7 @@
 //
 
 @protocol FPCollectionDataSourceDelegate
+- (unsigned long long)BM;
 
 // Remaining properties
 @property(readonly) unsigned long long lastForcedUpdate;

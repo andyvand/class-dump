@@ -6,7 +6,7 @@
 
 #import <WiFiAnalytics/PoliciesMO.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface PoliciesUsageMO : PoliciesMO
 {
@@ -17,8 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date_lt; // @dynamic date_lt;
-@property(copy, nonatomic) NSString *object; // @dynamic object;
-@property(copy, nonatomic) NSString *timeSpan; // @dynamic timeSpan;
 
 @end
 

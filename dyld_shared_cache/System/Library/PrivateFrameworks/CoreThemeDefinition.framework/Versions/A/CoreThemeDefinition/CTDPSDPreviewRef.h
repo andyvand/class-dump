@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CTDPSDPreviewRef
 {
     struct _PSDImageInfo _imageInfo;
-    long long _layerCount;
-    long long _sliceCount;
-    long long _columnWidth;
-    long long _rowHeight;
-    NSArray *_layerIndexLayout;
-    long long _sliceRowCount;
-    long long _sliceColumnCount;
-    NSArray *_sliceRects;
 }
 
 - (long long);
@@ -27,7 +17,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

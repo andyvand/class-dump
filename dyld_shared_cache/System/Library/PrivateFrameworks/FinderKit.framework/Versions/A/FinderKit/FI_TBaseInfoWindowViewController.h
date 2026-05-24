@@ -6,19 +6,15 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBaseInfoWindowViewController : FI_TViewController
 {
     struct TFENodeVector _targetNodes;
-    NSArray *_valueControllers;
-    NSObject<OS_dispatch_queue> *_prefetchValuesQueue;
-    _Bool _isTornDown;
 }
 
-+ (id)LoadingToken;
++ (id)_slowLoadingToken;
 - (id);
 - (void);
 - (void);
@@ -32,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)unregisterMouseEventListener:(_Bool)arg1 listenOnly: /* Error: Ran out of types for this method. */;
+- (void)splitView:additionalEffectiveRectOfDividerAtIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -41,14 +37,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
 @property(retain, nonatomic) NSArray *valueControllers;
 
 @end

@@ -6,9 +6,6 @@
 
 #import <SAObjects/SAUITemplateBaseItem.h>
 
-@class NSArray, NSNumber, NSString;
-@protocol SAUITemplateItem;
-
 @interface SAUITemplateTabularData : SAUITemplateBaseItem
 {
 }
@@ -20,29 +17,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
+- (id)> *out) not implemented for fp16;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id)etModalDetailSnippetCommand: /* Error: Ran out of types for this method. */;
+- (id)setGetModalDetailSnippetCommand: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowContentScrolling;
-@property(copy, nonatomic) NSArray *columns;
-@property(retain, nonatomic) id <SAUITemplateItem> footerItem;
-@property(retain, nonatomic) id <SAUITemplateItem> headerItem;
-@property(copy, nonatomic) NSString *layoutStyle;
-@property(copy, nonatomic) NSNumber *minimumRowHeight;
-@property(copy, nonatomic) NSArray *rowStyleRules;
-@property(nonatomic) _Bool showHeaderDivider;
 
 @end
 

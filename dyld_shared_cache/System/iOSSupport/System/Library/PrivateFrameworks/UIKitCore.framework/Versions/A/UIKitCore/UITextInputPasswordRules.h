@@ -11,14 +11,14 @@
     NSString *_passwordRulesDescriptor;
 }
 
-+ (id);
++ (id)`;
 + (_Bool)troller.edgeSwipeBase;
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool)eleratedUpdate:(id)arg1;
-- (void)tWithTitle:(id)arg1 actionHandler:type: /* Error: Ran out of types for this method. */;
+- (_Bool)setAcceleratedUpdate:(id)arg1;
+- (void)initWithTitle:(id)arg1 actionHandler:type: /* Error: Ran out of types for this method. */;
 - (id)EB2711DestOutView",N,&,VliftedContentPunchout;
 - (void)!èñ;
 

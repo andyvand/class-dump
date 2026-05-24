@@ -11,13 +11,13 @@
     NSString *_data;
 }
 
-+ (_Bool);
++ (_Bool)ricHLSPlaylistRequestEvent:%p %@ isMultivariantPlaylist:%d mediaType:%@ mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)SASTTemplatePercentageRating;
+- (_Bool)`;
 - (id);
 - (void);
 - (id);

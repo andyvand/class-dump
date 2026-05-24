@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRCDTextBlock, NSMutableData;
+@class DRCDTextBlock;
 
 __attribute__((visibility("hidden")))
 @interface DRSessionCDTextProducer
 {
     DRCDTextBlock *_cdText;
-    NSMutableData *_packData;
-    unsigned long long _pwIndex;
-    unsigned long long _pwSize;
 }
 
 - (unsigned int);
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void),6;
 
 @end
 

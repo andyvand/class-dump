@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RTSSchemaRTSFirstPassPolicyTriggered : SISchemaInstrumentationMessage
 {
     _Bool _isReplayModeEnabled;
-    double _firstPassTriggerScore;
-    CDStruct_0a205c72 _has;
 }
 
 - (void);
@@ -27,20 +23,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Kteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDInstallManifestRequest_macOS.m:20 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)wasDetectedAsSMSSpam;
 - (id);
 - (id);
-- (id)oTopology;
+- (id)audioTopology;
 - (id)Type;
 
 // Remaining properties
-@property(nonatomic) double firstPassTriggerScore; // @synthesize firstPassTriggerScore=_firstPassTriggerScore;
-@property(nonatomic) _Bool hasFirstPassTriggerScore;
-@property(nonatomic) _Bool hasIsReplayModeEnabled;
 @property(nonatomic) _Bool isReplayModeEnabled; // @synthesize isReplayModeEnabled=_isReplayModeEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

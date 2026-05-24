@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject, NSString;
-@protocol OS_dispatch_queue, SPLocalFindableConnectionMaterialMonitoringXPCProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SPLocalFindableConnectionMaterialMonitoringSession
 {
     CDUnknownBlockType _sessionInvalidatedCallback;
-    CDUnknownBlockType _peripheralConnectionMaterialCallback;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPLocalFindableConnectionMaterialMonitoringXPCProtocol> _proxy;
 }
 
 + (id);
@@ -44,20 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType peripheralConnectionMaterialCallback; // @synthesize peripheralConnectionMaterialCallback=_peripheralConnectionMaterialCallback;
-@property(retain, nonatomic) id <SPLocalFindableConnectionMaterialMonitoringXPCProtocol> proxy; // @synthesize proxy=_proxy;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) CDUnknownBlockType sessionInvalidatedCallback; // @synthesize sessionInvalidatedCallback=_sessionInvalidatedCallback;
-@property(readonly) Class superclass;
 
 @end
 

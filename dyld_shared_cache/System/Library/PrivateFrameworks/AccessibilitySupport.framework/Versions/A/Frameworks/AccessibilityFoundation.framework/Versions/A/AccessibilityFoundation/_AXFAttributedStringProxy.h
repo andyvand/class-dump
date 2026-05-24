@@ -12,14 +12,14 @@
 }
 
 - (id);
+- (id)sage imprint mismatch;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)additionalPeers;
 - (id);
 
 // Remaining properties

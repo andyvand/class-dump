@@ -5,5 +5,8 @@
 //
 
 @protocol AVPlayerItemOutputPushDelegate
+
+@optional
+- (void);
 @end
 

@@ -7,8 +7,6 @@
 @interface AWDWiFiNWActivityPowerPStats
 {
     unsigned long long _kRadioPhyReportRxDur;
-    unsigned long long _kRadioPhyReportTxDur;
-    CDStruct_7117223f _has;
 }
 
 - (void);
@@ -17,23 +15,20 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)b;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)Aw;
 - (void);
-- (void);
+- (void)B;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasKRadioPhyReportRxDur;
 @property(nonatomic) _Bool hasKRadioPhyReportTxDur;
-@property(nonatomic) unsigned long long kRadioPhyReportRxDur; // @synthesize kRadioPhyReportRxDur=_kRadioPhyReportRxDur;
-@property(nonatomic) unsigned long long kRadioPhyReportTxDur; // @synthesize kRadioPhyReportTxDur=_kRadioPhyReportTxDur;
 
 @end
 

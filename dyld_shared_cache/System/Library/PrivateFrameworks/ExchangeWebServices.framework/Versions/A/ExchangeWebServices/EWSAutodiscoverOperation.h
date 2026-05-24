@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSAutodiscoverBinding, EWSAutodiscoverRequest, EWSAutodiscoverResponse, NSError, NSHTTPURLResponse, NSMutableArray, NSMutableData, NSMutableDictionary, NSString, NSURL, NSURLSession, NSURLSessionDataTask;
+@class NSMutableData;
 
 @interface EWSAutodiscoverOperation
 {
     NSMutableData *_buffer;
-    NSMutableArray *_activeDirectoryRecords;
-    NSMutableArray *_srvRecords;
-    NSMutableDictionary *_sentKerberosCredentials;
-    _Bool _logsActivity;
-    BOOL _autodiscoverState;
-    _Bool _inProgress;
-    EWSAutodiscoverOperation *_me;
-    NSString *_emailAddress;
-    NSString *_host;
-    NSURL *_autodiscoverURLUsed;
-    NSError *_serverCertificateError;
-    NSError *_authenticationError;
-    EWSAutodiscoverRequest *_request;
-    EWSAutodiscoverResponse *_response;
-    EWSAutodiscoverBinding *_binding;
-    NSString *_user;
-    NSString *_password;
-    NSError *_error;
-    NSURLSession *_session;
-    NSURLSessionDataTask *_dataTask;
-    NSHTTPURLResponse *_rawResponse;
 }
 
 + (id);
@@ -37,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (_Bool);
 - (id);
@@ -55,33 +34,33 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
+- (void)= %{public}@;
+- (id);
 - (void);
 - (void);
 - (void);
+- (void)sult" entity type.;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void){;
 - (id);
 - (void);
 - (void);
@@ -90,34 +69,10 @@
 - (id);
 - (id);
 - (void)ts",&,N,V_EndDateTime;
-- (void)peType;
+- (void)EWSFolderResponseShapeType;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *authenticationError; // @synthesize authenticationError=_authenticationError;
-@property(nonatomic) BOOL autodiscoverState; // @synthesize autodiscoverState=_autodiscoverState;
-@property(retain, nonatomic) NSURL *autodiscoverURLUsed; // @synthesize autodiscoverURLUsed=_autodiscoverURLUsed;
-@property(retain, nonatomic) EWSAutodiscoverBinding *binding; // @synthesize binding=_binding;
-@property(retain, nonatomic) NSURLSessionDataTask *dataTask; // @synthesize dataTask=_dataTask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *host; // @synthesize host=_host;
-@property(nonatomic) _Bool inProgress; // @synthesize inProgress=_inProgress;
-@property _Bool logsActivity; // @synthesize logsActivity=_logsActivity;
 @property(retain, nonatomic) EWSAutodiscoverOperation *me; // @synthesize me=_me;
-@property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(retain, nonatomic) NSHTTPURLResponse *rawResponse; // @synthesize rawResponse=_rawResponse;
-@property(readonly, nonatomic) EWSAutodiscoverRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) EWSAutodiscoverResponse *response; // @synthesize response=_response;
-@property(retain, nonatomic) NSError *serverCertificateError; // @synthesize serverCertificateError=_serverCertificateError;
-@property(readonly, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *user; // @synthesize user=_user;
 
 @end
 

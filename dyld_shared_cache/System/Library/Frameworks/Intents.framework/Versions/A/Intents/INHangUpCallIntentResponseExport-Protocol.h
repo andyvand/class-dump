@@ -5,10 +5,9 @@
 //
 
 @protocol INHangUpCallIntentResponseExport
-- (long long)Capability;
+- (long long)hasCallCapability;
 
 // Remaining properties
 @property(readonly) long long code;
-@property long long hungUpCallType;
 @end
 

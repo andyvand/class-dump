@@ -7,14 +7,9 @@
 @class NSString;
 
 @protocol PFStoryRecipeSongAsset
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *catalog;
 @property(readonly, nonatomic) long long category;
-@property(readonly, nonatomic) NSString *colorGradeCategory;
-@property(readonly, nonatomic) NSString *songID;
-@property(readonly, nonatomic) long long subcategory;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) NSString *title;
 @end
 

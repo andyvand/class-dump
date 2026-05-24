@@ -9,24 +9,22 @@
 @interface MPModelPodcastEpisodeKind : MPModelKind
 {
     unsigned long long _variants;
-    unsigned long long _options;
 }
 
-+ (id);
++ (id)useCache;
 + (id);
 + (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)__kIMPinnedConversationsDidChangeNotification;
+- (unsigned long long)nameForObjectScoreIndex: /* Error: Ran out of types for this method. */;
+- (id)supportsFusionOfVisionEmbeddingVersion:audioEmbeddingVersion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

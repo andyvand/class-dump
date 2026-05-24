@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDTurnCounts;
+@class ODDSiriSchemaODDTurnCounts;
 
 @interface ODDSiriSchemaODDAssistantCarPlayCounts : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDTurnCounts *_turnCounts;
-    unsigned int _carPlayConnectionsInTheLast24Hours;
-    struct {
-        unsigned int carPlayConnectionsInTheLast24Hours:1;
-    } _has;
-    _Bool _hasTurnCounts;
 }
 
 - (id);
@@ -39,13 +34,9 @@
 × ;
 - (id)ansCreatedForResponse;
 - (id);
-- (void)TYPE_ENTITY_VIDEO;
+- (void)JRPARAMETERSUBTYPE_ENTITY_VIDEO;
 
 // Remaining properties
-@property(nonatomic) unsigned int carPlayConnectionsInTheLast24Hours; // @synthesize carPlayConnectionsInTheLast24Hours=_carPlayConnectionsInTheLast24Hours;
-@property(nonatomic) _Bool hasCarPlayConnectionsInTheLast24Hours;
-@property(nonatomic) _Bool hasTurnCounts; // @synthesize hasTurnCounts=_hasTurnCounts;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ODDSiriSchemaODDTurnCounts *turnCounts; // @synthesize turnCounts=_turnCounts;
 
 @end

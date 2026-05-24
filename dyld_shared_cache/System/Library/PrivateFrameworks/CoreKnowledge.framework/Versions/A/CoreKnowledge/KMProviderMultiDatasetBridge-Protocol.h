@@ -5,5 +5,6 @@
 //
 
 @protocol KMProviderMultiDatasetBridge
+- (void);
 @end
 

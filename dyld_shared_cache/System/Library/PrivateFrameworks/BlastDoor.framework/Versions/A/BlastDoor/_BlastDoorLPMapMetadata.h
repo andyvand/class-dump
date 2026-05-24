@@ -6,30 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class CNPostalAddress, NSNumber, NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPMapMetadata : _BlastDoorLPSpecializationMetadata
 {
     _Bool _isPointOfInterest;
-    NSString *_name;
-    NSString *_address;
-    CNPostalAddress *_addressComponents;
-    NSString *_category;
-    _BlastDoorLPImage *_categoryIcon;
-    NSString *_searchQuery;
-    NSString *_directionsType;
-    NSNumber *_transportType;
-    NSString *_directionsSourceAddress;
-    CNPostalAddress *_directionsSourceAddressComponents;
-    NSString *_directionsSourceLocationName;
-    NSString *_directionsDestinationAddress;
-    CNPostalAddress *_directionsDestinationAddressComponents;
-    NSString *_directionsDestinationLocationName;
-    NSNumber *_distance;
-    _BlastDoorLPImage *_image;
-    _BlastDoorLPImage *_darkImage;
-    _BlastDoorLPImage *_storeFrontImage;
-    struct CLLocationCoordinate2D _location;
 }
 
 + (id);
@@ -45,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -55,11 +36,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)4h.;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)$;
 - (void);
 - (id);
 - (void);
@@ -67,7 +48,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)pJ;
 - (id);
 - (_Bool);
 - (void);
@@ -85,26 +66,7 @@
 - (void)(:(struct CLLocationCoordinate2D)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(copy, nonatomic) CNPostalAddress *addressComponents; // @synthesize addressComponents=_addressComponents;
-@property(copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(retain, nonatomic) _BlastDoorLPImage *categoryIcon; // @synthesize categoryIcon=_categoryIcon;
-@property(retain, nonatomic) _BlastDoorLPImage *darkImage; // @synthesize darkImage=_darkImage;
-@property(copy, nonatomic) NSString *directionsDestinationAddress; // @synthesize directionsDestinationAddress=_directionsDestinationAddress;
-@property(copy, nonatomic) CNPostalAddress *directionsDestinationAddressComponents; // @synthesize directionsDestinationAddressComponents=_directionsDestinationAddressComponents;
-@property(copy, nonatomic) NSString *directionsDestinationLocationName; // @synthesize directionsDestinationLocationName=_directionsDestinationLocationName;
-@property(copy, nonatomic) NSString *directionsSourceAddress; // @synthesize directionsSourceAddress=_directionsSourceAddress;
-@property(copy, nonatomic) CNPostalAddress *directionsSourceAddressComponents; // @synthesize directionsSourceAddressComponents=_directionsSourceAddressComponents;
-@property(copy, nonatomic) NSString *directionsSourceLocationName; // @synthesize directionsSourceLocationName=_directionsSourceLocationName;
-@property(copy, nonatomic) NSString *directionsType; // @synthesize directionsType=_directionsType;
-@property(retain, nonatomic) NSNumber *distance; // @synthesize distance=_distance;
-@property(retain, nonatomic) _BlastDoorLPImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isPointOfInterest; // @synthesize isPointOfInterest=_isPointOfInterest;
-@property(nonatomic) struct CLLocationCoordinate2D location; // @synthesize location=_location;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *searchQuery; // @synthesize searchQuery=_searchQuery;
-@property(retain, nonatomic) _BlastDoorLPImage *storeFrontImage; // @synthesize storeFrontImage=_storeFrontImage;
-@property(retain, nonatomic) NSNumber *transportType; // @synthesize transportType=_transportType;
 
 @end
 

@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContact, _INPBCurrencyAmount, _INPBPaymentMethodValue, _INPBString;
+@class _INPBCurrencyAmount;
 
 @interface _INPBPaymentRecord
 {
     struct {
         unsigned int status:1;
     } _has;
-    int _status;
-    _INPBCurrencyAmount *_currencyAmount;
-    _INPBCurrencyAmount *_feeAmount;
-    _INPBString *_note;
-    _INPBContact *_payee;
-    _INPBContact *_payer;
-    _INPBPaymentMethodValue *_paymentMethod;
 }
 
 + (_Bool);
@@ -33,16 +26,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool))b;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -51,32 +44,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)rchs;
-- (int)seCodeReady;
-- (void)roster;
+- (void)_payloadMediaSearchs;
+- (int)INCreateTaskListIntentResponseCodeReady;
+- (void)_payloadCarDefroster;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBCurrencyAmount *feeAmount; // @synthesize feeAmount=_feeAmount;
-@property(readonly, nonatomic) _Bool hasCurrencyAmount;
-@property(readonly, nonatomic) _Bool hasFeeAmount;
-@property(readonly, nonatomic) _Bool hasNote;
-@property(readonly, nonatomic) _Bool hasPayee;
-@property(readonly, nonatomic) _Bool hasPayer;
-@property(readonly, nonatomic) _Bool hasPaymentMethod;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBString *note; // @synthesize note=_note;
-@property(retain, nonatomic) _INPBContact *payee; // @synthesize payee=_payee;
-@property(retain, nonatomic) _INPBContact *payer; // @synthesize payer=_payer;
-@property(retain, nonatomic) _INPBPaymentMethodValue *paymentMethod; // @synthesize paymentMethod=_paymentMethod;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

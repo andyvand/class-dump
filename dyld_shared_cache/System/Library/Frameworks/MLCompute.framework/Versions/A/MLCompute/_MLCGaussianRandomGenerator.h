@@ -7,25 +7,19 @@
 @interface _MLCGaussianRandomGenerator
 {
     _Bool _seeded;
-    double _mean;
-    double _scale;
-    unsigned long long _seedValue;
 }
 
 + (id);
-+ (id);
++ (id);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (double);
+- (id)R#;
+- (double)a;
 - (double);
 - (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double mean; // @synthesize mean=_mean;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) unsigned long long seedValue; // @synthesize seedValue=_seedValue;
-@property(readonly, nonatomic) _Bool seeded; // @synthesize seeded=_seeded;
 
 @end
 

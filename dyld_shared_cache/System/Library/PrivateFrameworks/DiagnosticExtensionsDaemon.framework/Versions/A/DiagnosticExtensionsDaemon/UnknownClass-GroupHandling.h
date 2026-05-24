@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (GroupHandling)
-- (id);
+- (id)initWithProtobufferData:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 @end
 

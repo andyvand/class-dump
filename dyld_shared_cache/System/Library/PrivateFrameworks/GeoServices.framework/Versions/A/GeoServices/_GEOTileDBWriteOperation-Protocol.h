@@ -5,6 +5,7 @@
 //
 
 @protocol _GEOTileDBWriteOperation
+- (void)];
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long sizeInBytes;

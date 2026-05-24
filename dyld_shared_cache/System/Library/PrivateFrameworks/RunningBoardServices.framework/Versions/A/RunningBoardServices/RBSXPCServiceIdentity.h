@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID, RBSProcessInstance, RBSXPCServiceDefinition;
+@class RBSXPCServiceDefinition;
 
 @interface RBSXPCServiceIdentity
 {
     RBSXPCServiceDefinition *_definition;
-    NSString *_sessionID;
-    RBSProcessInstance *_host;
-    NSUUID *_uuid;
-    NSString *_personaString;
-    NSData *_validationToken;
 }
 
 + (id);
@@ -21,34 +16,22 @@
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void)TW;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) RBSXPCServiceDefinition *definition; // @synthesize definition=_definition;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RBSProcessInstance *host; // @synthesize host=_host;
-@property(readonly, copy, nonatomic) NSString *personaString; // @synthesize personaString=_personaString;
-@property(readonly, copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly, copy, nonatomic) NSData *validationToken; // @synthesize validationToken=_validationToken;
 
 @end
 

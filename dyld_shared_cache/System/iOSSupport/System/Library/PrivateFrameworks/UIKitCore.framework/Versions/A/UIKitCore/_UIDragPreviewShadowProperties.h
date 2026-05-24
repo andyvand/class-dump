@@ -7,29 +7,23 @@
 @interface _UIDragPreviewShadowProperties
 {
     long long _shadowType;
-    double _liftedAlpha;
-    double _radiosityBlurRadius;
-    struct CGAffineTransform _liftedTransform;
 }
 
-+ (_Bool)e0;
++ (_Bool)UICTFontTextStyleEmphasizedTitle0;
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
-- (void);
+- (double)reportMessageDictionariesForMessages:isAutoReport:withChat:conversationID:maxMessagesToReport:totalMessageCount:notifyInternalSecurity:isJunkReportedToCarrier:reportReason:context: /* Error: Ran out of types for this method. */;
+- (double)hasLegacyUrgentTriggerMatchInText;
+- (void);
 - (struct CGAffineTransform);
 - (long long);
-- (id);
-- (id);
-- (void)creenEdgePanGestureRecognizer;
+- (id)floatValue;
+- (id);
+- (void)screenEdgePanGestureRecognizer;
 - (id),S_setTraitsWillChangeHandler:(struct _NSZone *)arg1 ,V__traitsWillChangeHandler;
 
 // Remaining properties
-@property(nonatomic) double liftedAlpha; // @synthesize liftedAlpha=_liftedAlpha;
-@property(nonatomic) struct CGAffineTransform liftedTransform; // @synthesize liftedTransform=_liftedTransform;
-@property(nonatomic) double radiosityBlurRadius; // @synthesize radiosityBlurRadius=_radiosityBlurRadius;
 @property(nonatomic) long long shadowType; // @synthesize shadowType=_shadowType;
 
 @end

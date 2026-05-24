@@ -9,7 +9,6 @@
 @interface NTPBCKRecordZoneIdentifier
 {
     NTPBCKIdentifier *_ownerIdentifier;
-    NTPBCKIdentifier *_value;
 }
 
 - (void);
@@ -17,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -26,13 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (void)asSectionId;
+- (void)hasSectionId;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasOwnerIdentifier;
 @property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NTPBCKIdentifier *ownerIdentifier; // @synthesize ownerIdentifier=_ownerIdentifier;
-@property(retain, nonatomic) NTPBCKIdentifier *value; // @synthesize value=_value;
 
 @end
 

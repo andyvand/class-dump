@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SDRDiagnosticReporter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BiometricAutoBugCapture
 {
     _Bool _serialLogEnabled;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_domain;
-    NSString *_process;
-    SDRDiagnosticReporter *_reporter;
 }
 
 - (_Bool);
-- (void);
+- (void)hh80;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -25,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
@@ -36,10 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) NSString *process; // @synthesize process=_process;
-@property(readonly, nonatomic) SDRDiagnosticReporter *reporter; // @synthesize reporter=_reporter;
-@property(readonly, nonatomic) _Bool serialLogEnabled; // @synthesize serialLogEnabled=_serialLogEnabled;
 
 @end
 

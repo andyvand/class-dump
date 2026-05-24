@@ -7,10 +7,6 @@
 @interface NewsCore.MyArticlesService
 {
     id contentContext;
-    id feedDatabase;
-    id smarterFetchRequestFactory;
-    id smarterFetchService;
-    id feedItemFactory;
 }
 
 @end

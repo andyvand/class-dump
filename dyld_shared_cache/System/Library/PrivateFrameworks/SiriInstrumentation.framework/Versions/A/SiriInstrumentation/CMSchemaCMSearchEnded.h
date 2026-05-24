@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CMSchemaCMSearchEnded : SISchemaInstrumentationMessage
 {
     int _searchStrategy;
-    int _resultCount;
-    double _highestMatchScore;
-    double _lowestMatchScore;
-    struct {
-        unsigned int searchStrategy:1;
-        unsigned int resultCount:1;
-        unsigned int highestMatchScore:1;
-        unsigned int lowestMatchScore:1;
-    } _has;
 }
 
 - (void);
@@ -48,19 +37,11 @@
 - (_Bool);
 - (id);
 - (id)nded";
-- (id)ariant;
+- (id)IFTSchemaASTFlatExprCancelVariant;
 - (id)¸S;
 - (int)ÿb#®"Ç,;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHighestMatchScore;
-@property(nonatomic) _Bool hasLowestMatchScore;
-@property(nonatomic) _Bool hasResultCount;
-@property(nonatomic) _Bool hasSearchStrategy;
-@property(nonatomic) double highestMatchScore; // @synthesize highestMatchScore=_highestMatchScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double lowestMatchScore; // @synthesize lowestMatchScore=_lowestMatchScore;
-@property(nonatomic) int resultCount; // @synthesize resultCount=_resultCount;
 @property(nonatomic) int searchStrategy; // @synthesize searchStrategy=_searchStrategy;
 
 @end

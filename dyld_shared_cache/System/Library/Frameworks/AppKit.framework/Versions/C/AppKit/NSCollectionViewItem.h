@@ -6,28 +6,11 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSCollectionView, NSData;
+@class NSCollectionView;
 
 @interface NSCollectionViewItem : NSViewController
 {
     NSCollectionView *_collectionView;
-    struct {
-        unsigned int isSelected:1;
-        unsigned int suppressSelectionChangedNotification:1;
-        unsigned int connectionsCopied:1;
-        unsigned int highlightState:2;
-        unsigned int wasDequeued:1;
-        unsigned int stayHiddenAwaitingReuse:1;
-        unsigned int stayHiddenAfterReuse:1;
-        unsigned int updateAnimationCount:16;
-        unsigned int dragging:1;
-        unsigned int isTransientAccessibilityElement:1;
-        unsigned int shouldConstrainWidth:1;
-        unsigned int shouldConstrainHeight:1;
-        unsigned int reserved:4;
-    } _cviFlags;
-    NSData *_cachedArchive;
-    id _reserved2;
 }
 
 @end

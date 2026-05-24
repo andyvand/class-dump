@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristic, NSString;
+@class HAPCharacteristic;
 
 __attribute__((visibility("hidden")))
 @interface HAPAccessoryReachabilityProfile
 {
     double _sleepInterval;
-    HAPCharacteristic *_sleepIntervalCharacteristic;
-    HAPCharacteristic *_pollCharacteristic;
 }
 
 + (double);
-+ (id);
-- (id);
++ (id)e);
+- (id);
 - (double);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (void);
 - (id);
 - (id);
-- (void)rationType: /* Error: Ran out of types for this method. */;
+- (id);
+- (id));
+- (void)setOperationType: /* Error: Ran out of types for this method. */;
 - (id)sories.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPCharacteristic *pollCharacteristic; // @synthesize pollCharacteristic=_pollCharacteristic;
-@property(nonatomic) double sleepInterval; // @synthesize sleepInterval=_sleepInterval;
 @property(retain, nonatomic) HAPCharacteristic *sleepIntervalCharacteristic; // @synthesize sleepIntervalCharacteristic=_sleepIntervalCharacteristic;
-@property(readonly) Class superclass;
 
 @end
 

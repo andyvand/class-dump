@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)isCommunicationSafetySendingRestricted;
 - (void);
 
 // Remaining properties

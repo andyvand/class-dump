@@ -7,16 +7,6 @@
 @interface CalendarWidget.WideMultidayLayout.SingleDayViewModel
 {
     id xMoreEvents;
-    id uncompressedEvents;
-    id allDayEvents;
-    id forceXMoreHidden;
-    id forceAllDayCompressed;
-    id emptyStateViewPresent;
-    id emptyStateViewCenteredInSpace;
-    id eventsExistBeforeFirst;
-    id viewHeights;
-    id date;
-    id id;
 }
 
 @end

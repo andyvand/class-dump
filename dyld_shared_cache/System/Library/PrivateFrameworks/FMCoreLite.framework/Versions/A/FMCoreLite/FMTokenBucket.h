@@ -7,36 +7,24 @@
 @interface FMTokenBucket
 {
     double _interArrivalTime;
-    double _fillRate;
-    double _capacity;
-    double _operationCost;
-    double _tokenBucket;
-    double _lastArrivalTime;
-    double _totalInterArrivalTime;
-    double _wastedTokens;
-    double _totalTokensGenerated;
-    double _totalTokensConsumed;
-    long long _totalOperations;
-    long long _operationsAllowed;
-    double _lastBucketFill;
 }
 
 - (void);
 - (id);
-- (long long);
+- (long long)localizedStringWithFormat: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
-- (double);
-- (double);
+- (double)setHasSecurityTypes: /* Error: Ran out of types for this method. */;
+- (double),N,V_mptcpBackToWiFi;
 - (void);
 - (double);
 - (void);
 - (double);
 - (_Bool);
-- (void);
+- (void)?;
 - (void);
 - (_Bool);
-- (void);
+- (void)PEER_PAYMENT_GENERIC_ERROR_MESSAGE;
 - (double);
 - (void);
 - (void);
@@ -58,23 +46,10 @@
 - (void);
 - (double);
 - (long long);
-- (id);
+- (id);
 
 // Remaining properties
-@property(nonatomic) double capacity; // @synthesize capacity=_capacity;
 @property(nonatomic) double fillRate; // @synthesize fillRate=_fillRate;
-@property(nonatomic) double interArrivalTime; // @synthesize interArrivalTime=_interArrivalTime;
-@property(nonatomic) double lastArrivalTime; // @synthesize lastArrivalTime=_lastArrivalTime;
-@property(nonatomic) double lastBucketFill; // @synthesize lastBucketFill=_lastBucketFill;
-@property(readonly, nonatomic) _Bool operationAllowed;
-@property(nonatomic) double operationCost; // @synthesize operationCost=_operationCost;
-@property(nonatomic) long long operationsAllowed; // @synthesize operationsAllowed=_operationsAllowed;
-@property(nonatomic) double tokenBucket; // @synthesize tokenBucket=_tokenBucket;
-@property(nonatomic) double totalInterArrivalTime; // @synthesize totalInterArrivalTime=_totalInterArrivalTime;
-@property(nonatomic) long long totalOperations; // @synthesize totalOperations=_totalOperations;
-@property(nonatomic) double totalTokensConsumed; // @synthesize totalTokensConsumed=_totalTokensConsumed;
-@property(nonatomic) double totalTokensGenerated; // @synthesize totalTokensGenerated=_totalTokensGenerated;
-@property(nonatomic) double wastedTokens; // @synthesize wastedTokens=_wastedTokens;
 
 @end
 

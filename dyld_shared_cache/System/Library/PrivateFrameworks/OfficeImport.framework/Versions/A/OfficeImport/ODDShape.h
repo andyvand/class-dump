@@ -6,20 +6,16 @@
 
 #import <OfficeImport/ODDLayoutObject.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface ODDShape : ODDLayoutObject
 {
     int mType;
-    int mPresetType;
-    NSMutableArray *mAdjustments;
 }
 
-- (void);
+- (void);
 - (int);
 - (void);
-- (id);
+- (id)߈	;
 - (id);
 - (id);
 - (int);

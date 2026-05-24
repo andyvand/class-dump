@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBUGeneratedPasswordCredentialUpdater
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_urlsScheduledForUpdating;
-    NSMutableDictionary *_urlsToUpdateRequests;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)H;
 - (void);
 
 @end

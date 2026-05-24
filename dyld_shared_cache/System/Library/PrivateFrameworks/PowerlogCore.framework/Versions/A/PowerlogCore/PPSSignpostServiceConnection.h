@@ -10,7 +10,6 @@
 @interface PPSSignpostServiceConnection
 {
     id <PPSSignpostServiceDelegate> _service;
-    NSXPCConnection *_connectionToServer;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connectionToServer; // @synthesize connectionToServer=_connectionToServer;
-@property(readonly) id <PPSSignpostServiceDelegate> service; // @synthesize service=_service;
 
 @end
 

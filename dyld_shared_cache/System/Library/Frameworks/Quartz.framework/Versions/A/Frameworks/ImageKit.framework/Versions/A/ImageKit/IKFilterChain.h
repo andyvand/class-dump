@@ -9,21 +9,17 @@
 @interface IKFilterChain
 {
     NSMutableArray *_filterArray;
-    NSMutableArray *_filterConfigurationArray;
-    id _delegate;
-    _Bool _handleXRGB;
-    _Bool _useSoftwareRenderer;
 }
 
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)+;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,19 +31,17 @@
 - (void);
 - (int);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)8i16Q20@28@36q44B52@?56@?64;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void);;
 - (void);
-- (void)ationMotionBlurKey;
+- (void)IKAnimationMotionBlurKey;
 
 // Remaining properties
 @property id delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableArray *filterArray; // @synthesize filterArray=_filterArray;
-@property _Bool useSoftwareRenderer; // @synthesize useSoftwareRenderer=_useSoftwareRenderer;
 
 @end
 

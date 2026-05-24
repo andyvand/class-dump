@@ -5,5 +5,6 @@
 //
 
 @protocol PPLocationReadOnlyServerProtocol
+- (void)8^S56^@64;
 @end
 

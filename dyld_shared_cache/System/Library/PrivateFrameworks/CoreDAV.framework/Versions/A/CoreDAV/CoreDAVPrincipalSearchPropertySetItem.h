@@ -16,10 +16,10 @@
 + (id);
 - (void);
 - (void);
+- (id)activeKeyboardHover;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)Z;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *principalSearchProperties; // @synthesize principalSearchProperties=_principalSearchProperties;

@@ -9,12 +9,12 @@
     id customAcceptsFirstMouse;
 }
 
-+ (Class);
++ (Class)embeddedDomain;
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 
 // Remaining properties

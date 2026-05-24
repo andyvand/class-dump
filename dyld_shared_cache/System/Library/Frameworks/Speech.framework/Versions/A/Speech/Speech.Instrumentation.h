@@ -7,10 +7,6 @@
 @interface Speech.Instrumentation
 {
     id selfLogger;
-    id signpostLogger;
-    id powerLogger;
-    id coreAnalyticsLogger;
-    id ondeviceRecordLogger;
 }
 
 @end

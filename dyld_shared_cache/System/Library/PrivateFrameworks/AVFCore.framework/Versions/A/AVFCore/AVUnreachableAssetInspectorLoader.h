@@ -6,18 +6,14 @@
 
 #import <AVFCore/AVAssetInspectorLoader.h>
 
-@class NSDictionary;
-
 @interface AVUnreachableAssetInspectorLoader : AVAssetInspectorLoader
 {
     int _figError;
-    NSDictionary *_figErrorUserInfo;
-    _Bool _statusOfValueForKeyReturnsLoaded;
 }
 
-- (id);
+- (id)EARSentencePieceModule;
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (Class);
 - (long long);

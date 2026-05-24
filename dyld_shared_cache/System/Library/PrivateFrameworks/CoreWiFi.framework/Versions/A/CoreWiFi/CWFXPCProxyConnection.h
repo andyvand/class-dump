@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFXPCProxy, NSObject;
-@protocol OS_dispatch_queue;
+@class CWFXPCProxy;
 
 @interface CWFXPCProxyConnection
 {
     CWFXPCProxy *_XPCProxy;
-    CWFXPCProxy *_synchronousXPCProxy;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)aquagym;
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (void);
-- (void)er:interfaceName: /* Error: Ran out of types for this method. */;
+- (void)__autoJoinStartedWithTrigger:interfaceName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ExecutorSiriSchemaExecutorAppIntentMetrics, NSData;
-
 @interface ExecutorSiriSchemaExecutorAppIntentCallEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _result;
-    ExecutorSiriSchemaExecutorAppIntentMetrics *_executorAppIntentMetrics;
-    struct {
-        unsigned int exists:1;
-        unsigned int result:1;
-    } _has;
-    _Bool _hasExecutorAppIntentMetrics;
 }
 
 - (void);
@@ -27,20 +18,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)NVALID error.
+;
+- (id)ertion - system already going to sleep;
+- (void)nid;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id):3 /* Error: Ran out of types for this method. */;
 - (id)nizerScoreHS"b1"recognizerScoreJS"b1"triggerScoreHS"b1"triggerScoreJS"b1"mitigationScore"b1"invocationTypeId"b1"secondsSinceEpoch"b1"repetitionSimilarityScore"b1"tdSpeakerRecognizerCombinedScore"b1"keywordThresholdHS"b1"keywordThresholdJS"b1"tdSpeakerRecognizerCombinedThresholdHS"b1"tdSpeakerRecognizerCombinedThresholdJS"b1};
-- (_Bool)riRequest;
-- (void)ex:(_Bool)arg1;
-- (id)tFailed;
+- (_Bool)hasRecencyRankInSiriRequest;
+- (void)channelSelectionScoresAtIndex:(_Bool)arg1;
+- (id)RGSiriSchemaRGRequestFailed;
 - (id)Ü;
-- (int)NABLE_TO_DERIVE_OUTCOME;
+- (int)FLCANDIDATEOUTCOME_UNABLE_TO_DERIVE_OUTCOME;
 - (void)>;
 - (_Bool)#;
 - (void),Sºÿø;
@@ -48,13 +40,7 @@
 - (void)è+;
 
 // Remaining properties
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorAppIntentMetrics *executorAppIntentMetrics; // @synthesize executorAppIntentMetrics=_executorAppIntentMetrics;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExecutorAppIntentMetrics; // @synthesize hasExecutorAppIntentMetrics=_hasExecutorAppIntentMetrics;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasResult;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int result; // @synthesize result=_result;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface TSULogCatThreadSafeMutableSet
 {
     NSMutableSet *_objects;
-    NSObject<OS_dispatch_queue> *_logCatQueue;
 }
 
 - (id);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)iscoverV2:operation started asynchronously /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long)1Â0@ù

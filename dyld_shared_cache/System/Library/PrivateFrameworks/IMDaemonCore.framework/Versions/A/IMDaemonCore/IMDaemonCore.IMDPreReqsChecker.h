@@ -9,7 +9,7 @@
     id logger;
 }
 
-- (void);
+- (void)H;
 - (id);
 - (void)ing guid or original guid found in transfers for guid:%s /* Error: Ran out of types for this method. */;
 

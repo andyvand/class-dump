@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _fromNotification;
 }
 
-- (id);
-- (id);
+- (id);
+- (id);
 - (id)type on class '%s' that does not match its entity's property's 32 bit scalar type.  Implicit coercion to 32 bits in the database is not recommended.
 ;
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AKInAppAuthenticationUIProvider
+- (void);
 @end
 

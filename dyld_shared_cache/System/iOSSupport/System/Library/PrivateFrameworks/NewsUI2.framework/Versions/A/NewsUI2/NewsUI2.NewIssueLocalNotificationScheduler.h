@@ -7,10 +7,6 @@
 @interface NewsUI2.NewIssueLocalNotificationScheduler
 {
     id newIssueThreadIdentifier;
-    id notificationService;
-    id calendar;
-    id secondsPastMidnightToDeliverNotification;
-    id issueReadingHistory;
 }
 
 - (void);

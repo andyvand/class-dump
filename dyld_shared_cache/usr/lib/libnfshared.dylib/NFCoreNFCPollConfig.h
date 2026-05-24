@@ -6,14 +6,9 @@
 
 #import <nfshared/NFReaderSessionPollConfig.h>
 
-@class NSArray;
-
 @interface NFCoreNFCPollConfig : NFReaderSessionPollConfig
 {
     unsigned long long _pollingOption;
-    unsigned long long _sessionConfig;
-    NSArray *_iso7816SelectIdentifiers;
-    NSArray *_felicaSystemCodes;
 }
 
 - (void);
@@ -25,17 +20,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)initWithCategoriesPrimitives:(id)arg1;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *felicaSystemCodes; // @synthesize felicaSystemCodes=_felicaSystemCodes;
-@property(retain, nonatomic) NSArray *iso7816SelectIdentifiers; // @synthesize iso7816SelectIdentifiers=_iso7816SelectIdentifiers;
 @property(nonatomic) unsigned long long pollingOption; // @synthesize pollingOption=_pollingOption;
-@property(nonatomic) unsigned long long sessionConfig; // @synthesize sessionConfig=_sessionConfig;
 
 @end
 

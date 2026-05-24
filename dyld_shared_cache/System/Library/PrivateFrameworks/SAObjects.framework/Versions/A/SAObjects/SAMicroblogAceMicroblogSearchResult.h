@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString, NSURL, SADecoratedString, SAMicroblogTwitterPostAuthor, SAUIAppPunchOut;
+@class SAMicroblogTwitterPostAuthor;
 
 @interface SAMicroblogAceMicroblogSearchResult : SADomainObject
 {
@@ -21,27 +21,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Ҋ;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)CNqSugAg8-tX6r33YPGYXCGszUl3zzUeA3LMbms/Library/Caches/com.apple.xbs/TemporaryDirectory.wcqX1e/Sources/EmbeddedAcousticRecognition/libquasar/libsentencepiece/third_party/protobuf-lite/extension_set.cc;
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)?;
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAMicroblogTwitterPostAuthor *globalAuthor;
-@property(retain, nonatomic) SAUIAppPunchOut *punchOut;
-@property(copy, nonatomic) NSString *query;
-@property(copy, nonatomic) NSArray *resultNews;
-@property(copy, nonatomic) NSArray *resultPosts;
-@property(copy, nonatomic) NSArray *resultUsers;
-@property(retain, nonatomic) SADecoratedString *summary;
-@property(copy, nonatomic) NSURL *webAddress;
 
 @end
 

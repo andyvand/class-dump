@@ -6,12 +6,11 @@
 
 #import <EmailFoundation/EFSQLValueSource.h>
 
-@class EFSQLColumnExpression, NSString;
+@class EFSQLColumnExpression;
 
 @interface EFSQLColumnValueSource : EFSQLValueSource
 {
     EFSQLColumnExpression *_columnExpression;
-    NSString *_columnAlias;
 }
 
 - (id);

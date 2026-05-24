@@ -5,13 +5,9 @@
 //
 
 @protocol REMAppStoreReviewCloudConfiguration
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long appStoreReviewCreatedOrCompletedRemindersCountThreshold;
-@property(readonly, nonatomic) unsigned long long appStoreReviewNumberOfForegroundsThreshold;
-@property(readonly, nonatomic) double appStoreReviewTimeIntervalOfInterest;
-@property(readonly, nonatomic) double appStoreReviewTimeIntervalSinceInitialForeground;
-@property(readonly, nonatomic) double appStoreReviewTimeIntervalSinceLastFetch;
-@property(readonly, nonatomic) double appStoreReviewTimeIntervalSinceLastPrompt;
 @end
 

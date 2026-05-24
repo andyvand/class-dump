@@ -6,7 +6,7 @@
 
 #import <MetricMeasurement/MXMMetric.h>
 
-@class MXMInstrument, MXMSampleData, NSSet;
+@class MXMSampleData, NSSet;
 
 @interface MXMEnergyMetric : MXMMetric
 {
@@ -22,11 +22,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MXMInstrument *instrument; // @dynamic instrument;
 @property(readonly, nonatomic) NSSet *processNames;
 
 @end

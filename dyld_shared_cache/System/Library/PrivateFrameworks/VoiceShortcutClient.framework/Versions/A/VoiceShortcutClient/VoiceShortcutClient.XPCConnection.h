@@ -7,15 +7,6 @@
 @interface VoiceShortcutClient.XPCConnection
 {
     id connection;
-    id queue;
-    id handlers;
-    id noReplyHandlers;
-    id messageTypeKey;
-    id messageBodyKey;
-    id messageErrorReplyKey;
-    id messageUnhandledErrorReplyKey;
-    id onConnectionInterrupted;
-    id onConnectionInvalidated;
 }
 
 @end

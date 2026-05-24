@@ -12,7 +12,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)cryptoTag;
 - (id)ùÐ\Âhÿ;
 
 @end

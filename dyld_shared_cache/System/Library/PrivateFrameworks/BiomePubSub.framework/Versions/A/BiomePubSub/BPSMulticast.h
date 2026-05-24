@@ -6,50 +6,57 @@
 
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
-@class BPSMulticastDownstream, NSMutableArray, NSMutableDictionary, NSString;
-@protocol BPSPublisher, BPSSubject><BPSSubscriber;
-
 @interface BPSMulticast : BMBookmarkablePublisher
 {
     struct os_unfair_lock_s _lock;
-    id <BPSSubject><BPSSubscriber> _subject;
-    _Bool _connected;
-    id <BPSPublisher> _upstream;
-    CDUnknownBlockType _createSubject;
-    unsigned long long _bookmarkCount;
-    unsigned long long _resetCount;
-    NSMutableArray *_downstreams;
-    NSMutableDictionary *_pendingEvents;
-    BPSMulticastDownstream *_electedMainDownstream;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void):(id)arg1 %{public}@
+idsIdentifier:%{public}@
+address:%{private}@
+model:%{public}@
+name:%{private}@
+platform:%{public}@
+deviceType:%{public}s
+build:%{public}@
+remoteTransport:%{public}s
+transport:%{public}s
+status:%{public}s
+deviceClass:%{public}@
+productType:%{public}@
+color:%{public}@
+enclosureColor:%{public}@
+homeButtonType:%li
+isHomeKitResident:%d
+mediaSystemRole:%li
+capabilities:%{public}@
+ /* Error: Ran out of types for this method. */;
+- (void);
+- (CDUnknownBlockType)LPImageMetadata;
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (void)__auth_stubs;
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)getCarrierValueForKeyHierarchy:(id)arg1 andContext: /* Error: Ran out of types for this method. */;
+- (id)yDirectory.MoIAiI/Sources/libressl/libressl-2.6/crypto/engine/eng_pkey.c;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)Kd;
+- (id)removeObjectForKey:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -59,25 +66,11 @@
 × ;
 - (void)6;
 - (void)$;
-- (unsigned long long)ights;
+- (unsigned long long)centroidWeights;
 - (_Bool)°$ÿÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bookmarkCount; // @synthesize bookmarkCount=_bookmarkCount;
 @property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, nonatomic) CDUnknownBlockType createSubject; // @synthesize createSubject=_createSubject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *downstreams; // @synthesize downstreams=_downstreams;
-@property(nonatomic) __weak BPSMulticastDownstream *electedMainDownstream; // @synthesize electedMainDownstream=_electedMainDownstream;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *pendingEvents; // @synthesize pendingEvents=_pendingEvents;
-@property(nonatomic) unsigned long long resetCount; // @synthesize resetCount=_resetCount;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end
 

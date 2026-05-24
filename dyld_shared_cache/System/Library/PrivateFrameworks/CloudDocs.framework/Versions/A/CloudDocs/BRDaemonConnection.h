@@ -9,7 +9,6 @@
 @interface BRDaemonConnection
 {
     NSUUID *_uuid;
-    _Bool _isUsingTokenService;
 }
 
 + (id);
@@ -21,20 +20,20 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (void);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
 + (void);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
++ (id)J;
 + (id);
 + (id);
 + (id);

@@ -11,10 +11,6 @@
 @interface AVAnnotationShapeRepresentation : AVAnnotationRepresentation
 {
     NSString *_shape;
-    struct CGColor *_strokeColor;
-    long long _strokeWidth;
-    _Bool _dashed;
-    _Bool _hasShadow;
 }
 
 - (void);
@@ -28,8 +24,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (struct CGColor *);
-- (_Bool);
+- (struct CGColor *)32;
+- (_Bool)addObserver:forKeyPath:options:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long)!LAù)1Â0@ù
@@ -37,11 +33,7 @@
 - (void)AudioSettings dictionary must contain AVFormatIDKey;
 
 // Remaining properties
-@property(nonatomic) _Bool dashed; // @synthesize dashed=_dashed;
-@property(nonatomic) _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
 @property(copy, nonatomic) NSString *shape; // @synthesize shape=_shape;
-@property(nonatomic) struct CGColor *strokeColor;
-@property(nonatomic) long long strokeWidth; // @synthesize strokeWidth=_strokeWidth;
 
 @end
 

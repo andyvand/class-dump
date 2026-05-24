@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
     _UIStatusBarRoundedCornerView *_pillView;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (double);
-- (_Bool);
-- (void);
+- (_Bool)account:registrationStatusInfoChanged: /* Error: Ran out of types for this method. */;
+- (_Bool)ks;
+- (void);
+- (double)attributes;
+- (_Bool)pdated activity result %d;
+- (void):Handling request to reflect notice dismissal for guids:%@ /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (_Bool);
+- (_Bool)tionEmail:withOrganizationMagic: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)Guide;
 - (void)¢¨¢ä£;
 - (void)ath = %@; proposal = %@; didDrop = %d; effectiveIndexPath = %@>;
-- (void)eractionCSg;
+- (void)So20UIPointerInteractionCSg;
 - (void)0öb;
 - (long long)e;
 - (long long)èvi;

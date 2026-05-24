@@ -4,46 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMWebKitController, NSDictionary, NSImageView, NSMutableDictionary, NSNumber, NSProgressIndicator, NSString, NSTextField, NSView, NSWindow;
-@protocol MMWebKitViewControllerDelegate;
+@class MMWebKitController;
 
 @interface MMWebKitViewController
 {
     MMWebKitController *_webKitController;
-    SEL _classCreationSelector;
-    NSString *_accountID;
-    NSString *_password;
-    NSMutableDictionary *_authenticationResults;
-    NSNumber *_librarySize;
-    unsigned long long _mmWebKitViewType;
-    NSMutableDictionary *_webKitContext;
-    NSMutableDictionary *_storageContext;
-    struct {
-        unsigned int delegateDidCancel:1;
-        unsigned int delegateDidSucceed:1;
-        unsigned int delegateDidFailLoading:1;
-        unsigned int delegateDidFinishLoading:1;
-        unsigned int delegateDidDismiss:1;
-        unsigned int delegateDidReceiveResponse:1;
-        unsigned int padding:3;
-    } _delegateFlags;
-    id <MMWebKitViewControllerDelegate> _delegate;
-    NSTextField *_loadingText;
-    NSProgressIndicator *_loadingProgress;
-    NSView *_loadingView;
-    NSImageView *_serverErrorImageView;
-    NSTextField *_serverErrorTitle;
-    NSView *_serverErrorView;
-    NSView *_contentView;
-    NSWindow *_window;
-    NSWindow *_parentWindow;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
@@ -72,32 +44,32 @@
 - (id);
 - (void);
 - (SEL);
+- (void)?k3;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)3;
+- (struct OpaqueJSClass *)3;
 - (struct OpaqueJSClass *);
-- (struct OpaqueJSClass *);
-- (struct OpaqueJSClass *);
+- (struct OpaqueJSClass *))3;
+- (id);
+- (void);
+- (void)d1;
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)+A;
+- (void)#;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -109,39 +81,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)u"@�;
 - (void)0@ù
 × ;
-- (void)rtTitle;
+- (void)enableAlertTitle;
 - (id)vite is not pending. Dismissing view.;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) NSMutableDictionary *authenticationResults; // @synthesize authenticationResults=_authenticationResults;
-@property(nonatomic) SEL classCreationSelector; // @synthesize classCreationSelector=_classCreationSelector;
-@property(nonatomic) __weak NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <MMWebKitViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *librarySize; // @synthesize librarySize=_librarySize;
-@property(nonatomic) __weak NSProgressIndicator *loadingProgress; // @synthesize loadingProgress=_loadingProgress;
-@property(nonatomic) __weak NSTextField *loadingText; // @synthesize loadingText=_loadingText;
-@property(nonatomic) __weak NSView *loadingView; // @synthesize loadingView=_loadingView;
-@property(nonatomic) unsigned long long mmWebKitViewType; // @synthesize mmWebKitViewType=_mmWebKitViewType;
-@property(nonatomic) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(nonatomic) __weak NSImageView *serverErrorImageView; // @synthesize serverErrorImageView=_serverErrorImageView;
-@property(nonatomic) __weak NSTextField *serverErrorTitle; // @synthesize serverErrorTitle=_serverErrorTitle;
-@property(retain, nonatomic) NSView *serverErrorView; // @synthesize serverErrorView=_serverErrorView;
-@property(copy, nonatomic) NSDictionary *storageContext; // @synthesize storageContext=_storageContext;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *webKitContext; // @synthesize webKitContext=_webKitContext;
 @property(retain, nonatomic) MMWebKitController *webKitController; // @synthesize webKitController=_webKitController;
-@property(nonatomic) __weak NSWindow *window; // @synthesize window=_window;
 
 @end
 

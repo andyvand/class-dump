@@ -5,5 +5,6 @@
 //
 
 @protocol HMDAppleMediaAccessorySensorManagerDataStore
+- (void)den;
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSString, PKContact, PKPaymentToken, PKShippingMethod;
+@class PKContact, PKPaymentToken;
 
 @interface PKPayment
 {
     PKPaymentToken *_token;
-    PKContact *_billingContact;
-    PKContact *_shippingContact;
-    PKShippingMethod *_shippingMethod;
-    NSData *_credential;
-    NSMutableDictionary *_authKitAuthenticationResults;
-    long long _biometricAuthorizationAttempts;
-    NSString *_installmentAuthorizationToken;
 }
 
 + (id);
@@ -31,29 +24,22 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)Y;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void)sinceLastSuccessHowManyFailed;
+- (id);
+- (id)B;
 - (void);
 - (id);
 - (id)sing;
-- (void)Type;
+- (void)secondaryType;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *authKitAuthenticationResults; // @synthesize authKitAuthenticationResults=_authKitAuthenticationResults;
 @property(retain, nonatomic) PKContact *billingContact; // @synthesize billingContact=_billingContact;
-@property(nonatomic) long long biometricAuthorizationAttempts; // @synthesize biometricAuthorizationAttempts=_biometricAuthorizationAttempts;
-@property(retain, nonatomic) NSData *credential; // @synthesize credential=_credential;
-@property(copy, nonatomic) NSString *installmentAuthorizationToken; // @synthesize installmentAuthorizationToken=_installmentAuthorizationToken;
-@property(retain, nonatomic) PKContact *shippingContact; // @synthesize shippingContact=_shippingContact;
-@property(retain, nonatomic) PKShippingMethod *shippingMethod; // @synthesize shippingMethod=_shippingMethod;
-@property(retain, nonatomic) PKPaymentToken *token; // @synthesize token=_token;
 
 @end
 

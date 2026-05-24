@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (void);
-+ (id);
++ (id)adjustLayout:(unsigned long long)arg1 animation:(unsigned long long)arg2 completion:(id)arg3;
 
 @end
 

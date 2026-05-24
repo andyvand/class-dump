@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDNotifierConfiguration, FLFollowUpController, NSString;
+@class DEDNotifierConfiguration;
 
 @interface DEDFollowUpNotifier
 {
     DEDNotifierConfiguration *_config;
-    NSString *_bugSessionIdentifier;
-    FLFollowUpController *_followUpController;
 }
 
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool)N3ctu20SharedSynchronizableIN3qmi11ClientProxy5StateEEE;
 - (void);
 - (void);
 - (void);
@@ -23,24 +21,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)ObjectINS4_25PrefilteredBarometerEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (id)-;
 - (id);
-- (id);
-- (void);
+- (void)__objc_arrayobj;
 
 // Remaining properties
-@property(retain) NSString *bugSessionIdentifier; // @synthesize bugSessionIdentifier=_bugSessionIdentifier;
 @property __weak DEDNotifierConfiguration *config; // @synthesize config=_config;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) FLFollowUpController *followUpController; // @synthesize followUpController=_followUpController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface PXLivePhotoRequestOptions
 {
     _Bool _networkAccessAllowed;
-    _Bool _preferHDR;
-    long long _deliveryMode;
-    long long _downloadPriority;
-    long long _downloadIntent;
-    CDUnknownBlockType _progressHandler;
 }
 
 - (id);
@@ -20,10 +15,10 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
-- (id)uggestionsDataSourceManagerWithAssetCollection:(struct _NSZone *)arg1;
+- (id)photosGraphPeopleSuggestionsDataSourceManagerWithAssetCollection:(struct _NSZone *)arg1;
 - (void)²l;
 - (void)Õà¶ç1;
 - (CDUnknownBlockType)°³=;
@@ -32,11 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) long long deliveryMode; // @synthesize deliveryMode=_deliveryMode;
-@property(nonatomic) long long downloadIntent; // @synthesize downloadIntent=_downloadIntent;
-@property(nonatomic) long long downloadPriority; // @synthesize downloadPriority=_downloadPriority;
-@property(nonatomic, getter=isNetworkAccessAllowed) _Bool networkAccessAllowed; // @synthesize networkAccessAllowed=_networkAccessAllowed;
-@property(nonatomic) _Bool preferHDR; // @synthesize preferHDR=_preferHDR;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

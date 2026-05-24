@@ -5,34 +5,23 @@
 //
 
 @class NSString;
-@protocol GEOMapItemPhoto;
 
 @interface GEOTooltip
 {
     int _customRouteType;
-    int _type;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_actionLink;
-    id <GEOMapItemPhoto> _photo;
 }
 
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)didCancel;
 - (id);
 - (int);
 - (id);
 - (void)S[ê ¯UQ@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionLink; // @synthesize actionLink=_actionLink;
-@property(readonly, nonatomic) id <GEOMapItemPhoto> photo; // @synthesize photo=_photo;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
-@property(readonly, nonatomic) _Bool usesOriginMapItem;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol CoreMLModelSecurityProtocol;
+@class NSString;
 
 @interface MLFairPlayDecryptSession
 {
     NSString *_modelPath;
-    NSXPCConnection *_xpcConnection;
-    NSObject<CoreMLModelSecurityProtocol> *_xpcProxy;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)D;
 - (void);
 - (void);
 - (id);
@@ -27,8 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *modelPath; // @synthesize modelPath=_modelPath;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
-@property(retain, nonatomic) NSObject<CoreMLModelSecurityProtocol> *xpcProxy; // @synthesize xpcProxy=_xpcProxy;
 
 @end
 

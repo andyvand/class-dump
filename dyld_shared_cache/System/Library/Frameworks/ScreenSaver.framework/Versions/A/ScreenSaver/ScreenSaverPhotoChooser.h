@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ILMediaBrowserView, NSArray, NSButton, NSMutableArray, NSObject, NSPopUpButton, NSString, NSTextField, NSView, NSWindow, PHImageManager, PHImageRequestOptions, PHPhotoLibrary, ScreenSaverDefaults;
-@protocol OS_dispatch_queue;
+@class ScreenSaverDefaults;
 
 @interface ScreenSaverPhotoChooser
 {
     ScreenSaverDefaults *_defaults;
-    unsigned long long _currentPhotoChooserSource;
-    NSString *_selectedLocalIdentifier;
-    PHPhotoLibrary *_photosLibrary;
-    NSArray *_latestPhotosProjects;
-    NSArray *_latestPhotosEvents;
-    NSArray *_defaultCollections;
-    NSObject<OS_dispatch_queue> *_cacheMonitorQueue;
-    PHImageManager *_imageMgr;
-    PHImageRequestOptions *_cacheRequestOptions;
-    long long _remoteAssetCount;
-    long long _totalRemoteAssetCount;
-    long long _failedfetchCount;
-    _Bool _monitoring;
-    NSArray *_mediaBrowserViewTLOArray;
-    NSWindow *_mediaChooserWindow;
-    ILMediaBrowserView *_mediaBrowserView;
-    NSArray *_customControlsViewTLOArray;
-    NSView *_customControlsView;
-    NSPopUpButton *_sourcePopUpButton;
-    NSTextField *_sourceLabelField;
-    NSButton *_sourceShuffleButton;
-    CDUnknownBlockType _sourceMenuLoadedBlock;
-    NSMutableArray *_blocksToCallOnceFinishedLoading;
 }
 
 + (id);
@@ -54,7 +30,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);;
 - (id);
 - (void);
 - (void);
@@ -84,7 +60,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)0;
 - (void);
 - (id);
 - (id);

@@ -15,18 +15,15 @@
 
 - (id);
 - (id);
-- (id);
+- (id)ᏹhhx;
 - (id);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)IMConversationListFilterModeSMSPromotional;
 - (id);
 - (void)tentRating;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addingOutputDeviceUIDs;
-@property(readonly, nonatomic) NSArray *removingOutputDeviceUIDs;
-@property(readonly, nonatomic) MRGroupTopologyModificationRequest *request;
-@property(readonly, nonatomic) NSArray *settingOutputDeviceUIDs;
 
 @end
 

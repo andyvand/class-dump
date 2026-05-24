@@ -7,11 +7,6 @@
 @interface IMDPersistence.IndexStateMetricsRecord
 {
     id _id;
-    id _pendingCount;
-    id _donatedCount;
-    id _redonationCount;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

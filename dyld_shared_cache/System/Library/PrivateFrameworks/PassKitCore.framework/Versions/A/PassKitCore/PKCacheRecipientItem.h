@@ -9,16 +9,15 @@
 @interface PKCacheRecipientItem
 {
     NSDate *_insertDate;
-    PKPeerPaymentRecipient *_item;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)0f;
 - (_Bool);
 - (void);
-- (void)tOffers;
+- (void)paymentOffers;
 - (id);
 
 // Remaining properties

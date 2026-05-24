@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSArray, NSNumber, NSString, SAMPMediaItem;
+@class NSArray;
 
 @interface SAMPGeniusSummon : SADomainCommand
 {
@@ -17,9 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *hashedRouteUIDs;
-@property(retain, nonatomic) SAMPMediaItem *mediaItem;
-@property(copy, nonatomic) NSNumber *startPlaying;
-@property(copy, nonatomic) NSString *upNextQueueInsertLocation;
 
 @end
 

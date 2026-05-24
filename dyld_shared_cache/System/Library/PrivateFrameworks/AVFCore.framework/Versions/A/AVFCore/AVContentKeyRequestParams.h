@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface AVContentKeyRequestParams
 {
     NSData *_initializationData;
-    NSData *_contentIdentifier;
-    NSData *_keyIDFromInitializationData;
-    NSDictionary *_options;
-    id _identifier;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)O;
 - (id);
 - (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)P;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSData *contentIdentifier; // @synthesize contentIdentifier=_contentIdentifier;
-@property(copy) id identifier; // @synthesize identifier=_identifier;
 @property(copy) NSData *initializationData; // @synthesize initializationData=_initializationData;
-@property(copy) NSData *keyIDFromInitializationData; // @synthesize keyIDFromInitializationData=_keyIDFromInitializationData;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

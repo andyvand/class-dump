@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol PETLoggingOutlet;
-
 @interface PETEventTracker
 {
     _Bool _testingMode;
-    NSString *_featureId;
-    NSArray *_registeredProperties;
-    NSArray *_propertySubsets;
-    id <PETLoggingOutlet> _loggingOutlet;
 }
 
 - (id);
@@ -21,16 +14,16 @@
 - (id);
 - (id);
 - (void);
+- (_Bool)>;
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,13 +32,9 @@
 - (id);
 - (id);
 - (void);
-- (id)fer:keyStringForStringifiedPairs: /* Error: Ran out of types for this method. */;
+- (id)_pushToBuffer:keyStringForStringifiedPairs: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *featureId; // @synthesize featureId=_featureId;
-@property(readonly, nonatomic) id <PETLoggingOutlet> loggingOutlet; // @synthesize loggingOutlet=_loggingOutlet;
-@property(readonly, nonatomic) NSArray *propertySubsets; // @synthesize propertySubsets=_propertySubsets;
-@property(readonly, nonatomic) NSArray *registeredProperties; // @synthesize registeredProperties=_registeredProperties;
 @property(readonly, nonatomic) _Bool testingMode; // @synthesize testingMode=_testingMode;
 
 @end

@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRRemindersListEditableSectionNameInteractor
 {
     id delegate;
-    id store;
-    id undoManager;
-    id committer;
 }
 
 @end

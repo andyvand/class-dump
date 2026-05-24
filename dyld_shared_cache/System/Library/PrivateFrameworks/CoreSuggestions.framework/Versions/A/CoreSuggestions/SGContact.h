@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SGDateComponents, SGName, SGRecordId, _PASCachedResult;
+@class SGName, _PASCachedResult;
 
 @interface SGContact
 {
     _PASCachedResult *_cachedDetailForRecordIdMap;
-    int _updatedFields;
-    SGRecordId *_recordId;
-    SGName *_name;
-    NSArray *_emailAddresses;
-    NSArray *_phones;
-    NSArray *_postalAddresses;
-    NSArray *_socialProfiles;
-    SGDateComponents *_birthday;
-    NSString *_photoPath;
-    unsigned long long _significance;
-    unsigned long long _significanceOrigin;
 }
 
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)removeObserver:(id)arg1;
 - (int);
 - (unsigned long long);
 - (void);
@@ -48,7 +37,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -65,17 +54,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) SGDateComponents *birthday; // @synthesize birthday=_birthday;
-@property(copy, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
 @property(copy, nonatomic) SGName *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *phones; // @synthesize phones=_phones;
-@property(readonly, copy, nonatomic) NSString *photoPath; // @synthesize photoPath=_photoPath;
-@property(copy, nonatomic) NSArray *postalAddresses; // @synthesize postalAddresses=_postalAddresses;
-@property(readonly, nonatomic) SGRecordId *recordId; // @synthesize recordId=_recordId;
-@property(nonatomic) unsigned long long significance; // @synthesize significance=_significance;
-@property(nonatomic) unsigned long long significanceOrigin; // @synthesize significanceOrigin=_significanceOrigin;
-@property(copy, nonatomic) NSArray *socialProfiles; // @synthesize socialProfiles=_socialProfiles;
-@property(nonatomic) int updatedFields; // @synthesize updatedFields=_updatedFields;
 
 @end
 

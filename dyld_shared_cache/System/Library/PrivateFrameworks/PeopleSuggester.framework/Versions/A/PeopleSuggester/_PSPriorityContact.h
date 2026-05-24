@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class NSString;
 
 @interface _PSPriorityContact
 {
     NSString *_identifier;
-    CNContact *_contact;
 }
 
 + (_Bool);
+- (id)_endpointerThreshold;
+- (id)(;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)n dataFromPropertyList:(id)arg1 ] raised exception "%s" because "%s";
 - (void);
+- (void)Ɩ;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)ݔ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

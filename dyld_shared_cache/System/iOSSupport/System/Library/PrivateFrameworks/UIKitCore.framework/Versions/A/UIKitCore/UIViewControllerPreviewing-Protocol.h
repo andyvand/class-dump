@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer, UIView;
-@protocol UIViewControllerPreviewingDelegate;
+@class UIGestureRecognizer;
 
 @protocol UIViewControllerPreviewing
-- (struct CGRect);
+- (struct CGRect)initWithDuration:advanceBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <UIViewControllerPreviewingDelegate> delegate;
 @property(readonly, nonatomic) UIGestureRecognizer *previewingGestureRecognizerForFailureRelationship;
-@property(nonatomic) struct CGRect sourceRect;
-@property(readonly, nonatomic) UIView *sourceView;
 @end
 

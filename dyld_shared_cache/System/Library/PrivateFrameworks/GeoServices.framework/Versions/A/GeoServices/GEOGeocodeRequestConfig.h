@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)SHTTPURLResponse"32@"NSURLRequest"40@?<v@?@"NSURLRequest">48;
 - (unsigned long long);
-- (CDStruct_d1a7ebee);
+- (CDStruct_026435ec);
 - (id);
 
 @end

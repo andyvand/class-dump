@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGFeatureExtractor.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PGLibraryAveragePersonCountFeatureExtractor : PGFeatureExtractor
 {
@@ -15,13 +15,11 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)createAndShowContextualLinkWithUserActivity:linkPreviewMetadata:preferNewDocument:completion: /* Error: Ran out of types for this method. */;
 - (id)	
 ;
 
 // Remaining properties
-@property(nonatomic, readonly) long long featureLength;
-@property(nonatomic, readonly) NSArray *featureNames;
 @property(nonatomic, readonly) NSString *name;
 
 @end

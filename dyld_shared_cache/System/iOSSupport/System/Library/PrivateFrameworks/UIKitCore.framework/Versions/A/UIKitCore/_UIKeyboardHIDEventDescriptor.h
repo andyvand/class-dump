@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)ivity:(unsigned long long)arg1;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_sectionKeepLocalStatusConfigurations;
 - (id);
 - (unsigned long long);
 - (long long)0@ù
@@ -25,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (void)!Ü@ùQc°1Â0@ù
 × ;
 - (id);
-- (_Bool)teClientResponseDelegatesWithDelegate:(id)arg1;
-- (long long)elState;
-- (id)eleteItems;
+- (_Bool)updateClientResponseDelegatesWithDelegate:(id)arg1;
+- (long long)didTransitionToCancelState;
+- (id)_deleteItems;
 - (id)isPerformingLowLatencyPhases,V_performingLowLatencyPhases;
 
 // Remaining properties

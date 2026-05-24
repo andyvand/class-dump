@@ -7,9 +7,6 @@
 @interface VMUBacktraceRecursionInfo
 {
     unsigned int _hottestElided;
-    unsigned int _coldestElided;
-    unsigned int _depth;
-    unsigned long long _keyPC;
 }
 
 - (void);
@@ -22,12 +19,9 @@
 - (void);
 - (id);
 - (id);
-- (unsigned int)gtXCSg;
+- (unsigned int)GSg_SvSgtXCSg;
 
 // Remaining properties
-@property(nonatomic) unsigned int coldestElided; // @synthesize coldestElided=_coldestElided;
-@property(nonatomic) unsigned int depth; // @synthesize depth=_depth;
-@property(nonatomic) unsigned int hottestElided; // @synthesize hottestElided=_hottestElided;
 @property(nonatomic) unsigned long long keyPC; // @synthesize keyPC=_keyPC;
 
 @end

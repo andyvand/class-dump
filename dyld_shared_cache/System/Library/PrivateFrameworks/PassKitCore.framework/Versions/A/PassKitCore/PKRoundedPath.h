@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (struct CGPath *);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties

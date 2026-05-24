@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NWPBAddressEndpoint, NWPBHostEndpoint, NWPBInterface, NWPBServiceEndpoint;
+@class NWPBAddressEndpoint;
 
 __attribute__((visibility("hidden")))
 @interface NWPBEndpoint
 {
     NWPBAddressEndpoint *_address;
-    NWPBHostEndpoint *_host;
-    NWPBInterface *_interface;
-    NWPBServiceEndpoint *_service;
-    NSData *_txtRecord;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)ressOptions;
+- (id)_dnsServerAddressOptions;
 - (id);
 - (void)@;
 

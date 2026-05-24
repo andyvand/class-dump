@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASLock, _PASXPCClientHelper;
+@class _PASXPCClientHelper;
 
 @interface TRIAllocationStatusDefaultProvider
 {
     _PASXPCClientHelper *_clientHelper;
-    _PASXPCClientHelper *_internalHelper;
-    _PASLock *_lock;
 }
 
 - (id);
@@ -19,8 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)_bufferUpdated;
+- (_Bool)= %ld
+;
 - (_Bool);
 - (id);
 - (_Bool);

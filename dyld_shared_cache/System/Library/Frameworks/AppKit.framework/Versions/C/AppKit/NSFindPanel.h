@@ -6,31 +6,13 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSButton, NSComboBox, NSMutableArray, NSPopUpButton, NSString, NSTextField, NSTextView;
+@class NSComboBox;
 @protocol NSFindPatternField;
 
 __attribute__((visibility("hidden")))
 @interface NSFindPanel : NSPanel
 {
     NSComboBox<NSFindPatternField> *_findComboBox;
-    NSComboBox<NSFindPatternField> *_replaceComboBox;
-    NSTextField *_statusField;
-    NSButton *_ignoreCaseButton;
-    NSButton *_replaceAllButton;
-    NSButton *_replaceButton;
-    NSButton *_findNextButton;
-    NSButton *_findPreviousButton;
-    NSButton *_replaceAndFindButton;
-    NSButton *_wrapAroundButton;
-    NSPopUpButton *_matchPopUp;
-    NSTextView *_fe;
-    NSMutableArray *_recentFindStrings;
-    NSMutableArray *_recentFindOptions;
-    NSMutableArray *_recentReplaceStrings;
-    long long _numberOfRecentStrings;
-    _Bool _caseInsensitiveSearchDefault;
-    long long _substringMatchDefault;
-    _Bool _lastFindWasSuccessful;
 }
 
 + (_Bool);
@@ -43,25 +25,19 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)kCFStreamPropertyStreamLength;
+- (void)kConditionalConnectionRequirementTimeWindowDuration;
+- (void)kConditionalConnectionRequirementTimeWindowDelay;
+- (void)username;
+- (void)SO_RECV_ANYIF;
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

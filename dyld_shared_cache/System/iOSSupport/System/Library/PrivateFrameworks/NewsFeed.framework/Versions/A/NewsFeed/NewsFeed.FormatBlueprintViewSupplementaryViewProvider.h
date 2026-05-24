@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatBlueprintViewSupplementaryViewProvider
 {
     id delegate;
-    id feedItemSupplementaryRenderer;
 }
 
 @end

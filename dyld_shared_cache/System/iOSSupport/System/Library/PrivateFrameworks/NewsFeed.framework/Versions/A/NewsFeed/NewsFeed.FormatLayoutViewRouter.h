@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatLayoutViewRouter
 {
     id commandCenter;
-    id tracker;
-    id router;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol RPNearFieldXPCDaemonInterfaceOld
+- (void);
 @end
 

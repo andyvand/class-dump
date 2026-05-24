@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _CDPeriodicSchedulerJob
 {
     long long _period;
-    double _interval;
-    NSString *_jobName;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _handler;
-    NSObject<OS_xpc_object> *_executionCriteria;
-    _Bool _isHandlerAsynchronous;
-    NSObject<OS_xpc_object> *_activity;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)WSWindowReleaseDisplayAlphaTuples;
++ (id)65U;
 - (void);
 - (long long);
-- (double);
-- (id);
+- (double)#;
+- (id)q`;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType))A;
 - (id);
 - (_Bool);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(readonly) NSObject<OS_xpc_object> *executionCriteria; // @synthesize executionCriteria=_executionCriteria;
-@property(readonly) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) double interval; // @synthesize interval=_interval;
-@property(readonly) _Bool isHandlerAsynchronous; // @synthesize isHandlerAsynchronous=_isHandlerAsynchronous;
-@property(readonly) NSString *jobName; // @synthesize jobName=_jobName;
-@property(readonly) long long period; // @synthesize period=_period;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

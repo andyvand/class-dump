@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PHFetchResult, PHPerson, PXPhotosDataSource;
-@protocol PXDisplayAsset;
+@class PHFetchResult;
 
 @interface PXActivitySharingContext
 {
     PHFetchResult *_assetCollectionsFetchResult;
-    PXPhotosDataSource *_photosDataSource;
-    NSArray *_activities;
-    NSArray *_excludedActivityTypes;
-    id <PXDisplayAsset> _keyAsset;
-    PHPerson *_person;
-    long long _sourceOrigin;
 }
 
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
@@ -36,13 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *activities; // @synthesize activities=_activities;
 @property(readonly, copy, nonatomic) PHFetchResult *assetCollectionsFetchResult; // @synthesize assetCollectionsFetchResult=_assetCollectionsFetchResult;
-@property(copy, nonatomic) NSArray *excludedActivityTypes; // @synthesize excludedActivityTypes=_excludedActivityTypes;
-@property(retain, nonatomic) id <PXDisplayAsset> keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(retain, nonatomic) PHPerson *person; // @synthesize person=_person;
-@property(readonly, nonatomic) PXPhotosDataSource *photosDataSource; // @synthesize photosDataSource=_photosDataSource;
-@property(nonatomic) long long sourceOrigin; // @synthesize sourceOrigin=_sourceOrigin;
 
 @end
 

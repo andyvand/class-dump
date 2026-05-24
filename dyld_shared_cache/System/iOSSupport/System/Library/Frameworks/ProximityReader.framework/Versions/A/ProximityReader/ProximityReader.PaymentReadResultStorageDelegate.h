@@ -7,6 +7,7 @@
 @interface ProximityReader.PaymentReadResultStorageDelegate
 {
     id lock;
+    id;
 }
 
 - (void);

@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)previous time range;
 - (id);
-- (void);
+- (void)optionDisableConcurrentEvaluation;
 
 @end
 

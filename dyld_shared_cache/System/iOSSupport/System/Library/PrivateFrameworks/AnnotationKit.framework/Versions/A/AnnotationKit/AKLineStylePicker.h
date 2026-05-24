@@ -9,7 +9,6 @@
 @interface AKLineStylePicker : AKModernToolbarPicker
 {
     unsigned long long _lineType;
-    long long _lineStyle;
 }
 
 - (void);
@@ -18,10 +17,9 @@
 - (void);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)TER TABLE message ADD COLUMN read INTEGER;
 
 // Remaining properties
-@property(readonly) long long lineStyle; // @synthesize lineStyle=_lineStyle;
 @property(readonly) unsigned long long lineType; // @synthesize lineType=_lineType;
 
 @end

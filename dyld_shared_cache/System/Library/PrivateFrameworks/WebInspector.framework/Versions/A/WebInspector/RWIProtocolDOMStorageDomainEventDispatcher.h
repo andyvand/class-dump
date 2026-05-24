@@ -9,10 +9,10 @@
     struct AugmentableInspectorController *_controller;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)	;
 - (id);
 
 @end

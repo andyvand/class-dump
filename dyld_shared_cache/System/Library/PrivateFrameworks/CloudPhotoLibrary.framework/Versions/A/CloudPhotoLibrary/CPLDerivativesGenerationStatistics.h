@@ -9,18 +9,15 @@
 @interface CPLDerivativesGenerationStatistics
 {
     double _startTime;
-    double _endTime;
-    CPLResource *_sourceResource;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double generationDuration;
 @property(readonly, nonatomic) CPLResource *sourceResource; // @synthesize sourceResource=_sourceResource;
 
 @end

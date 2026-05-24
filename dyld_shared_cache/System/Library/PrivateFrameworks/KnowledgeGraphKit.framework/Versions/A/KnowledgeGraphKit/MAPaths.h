@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setRoiLength: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)C;
 
 @end
 

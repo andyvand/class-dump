@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSProcessAssertion, NSObject, NSString, NSTimer;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface MTBackgroundAssertion
 {
     NSString *_name;
-    NSTimer *_invalidationTimer;
-    BKSProcessAssertion *_assertion;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
@@ -21,17 +16,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)K	kc;
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)?;
+- (_Bool));
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end

@@ -4,81 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKRecurrenceChooserController, EKRecurrenceMonthChooserController, EKRecurrenceMonthlyChooserController, EKRecurrenceOrdinalChooserController, EKRecurrenceRule, EKRecurrenceWeekdayChooserController, EKUIPopupTableViewCell, NSDate, NSString, NSTimeZone, UIPickerView, UISwitch, UITableView, UITableViewCell;
-
 @interface EKUICustomRecurrenceViewController
 {
     long long _cachedFrequency;
-    long long _cachedInterval;
-    EKRecurrenceRule *_cachedRecurrenceRule;
-    _Bool _showingIntervalPicker;
-    EKUIPopupTableViewCell *_frequencySummaryCell;
-    UITableViewCell *_intervalSummaryCell;
-    UIPickerView *_intervalPicker;
-    _Bool _useClearBackground;
-    _Bool _prohibitsYearlyRecurrenceInterval;
-    _Bool _alwaysCallCompletionBlock;
-    CDUnknownBlockType _completionBlock;
-    UITableView *_tableView;
-    EKRecurrenceChooserController *_currentChooser;
-    EKRecurrenceWeekdayChooserController *_weeklyChooser;
-    EKRecurrenceMonthlyChooserController *_monthlyChooser;
-    EKRecurrenceMonthChooserController *_yearlyChooser;
-    EKRecurrenceOrdinalChooserController *_yearlyOrdinalChooser;
-    NSDate *_startDate;
-    NSTimeZone *_timeZone;
-    UISwitch *_yearOrdinalSwitch;
-    NSString *_recurrenceSummaryString;
 }
 
 + (_Bool);
 + (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)&s;
+- (void);
+- (void)s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void)h+s;
+- (void)+s;
 - (_Bool);
+- (id)D%s;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (struct CGSize);
-- (_Bool);
+- (struct CGSize)s;
+- (_Bool)&s;
+- (void);
+- (void)Y%s;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (long long)&s;
 - (id);
 - (id);
 - (void);
+- (void)&s;
+- (long long)&s;
 - (void);
-- (long long);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)M&s;
 - (void);
 - (void);
 - (id);
@@ -88,57 +66,36 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)TTetheringStatus";
 - (void);
 - (long long);
-- (void);
-- (_Bool);
+- (void)<;
+- (_Bool)superclass;
 - (struct CGSize);
 - (id);
+- (void)VOTEventCommandDescribeCameraScene;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool).;
 - (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void)itle;
+- (void)subtitle;
 - (void)_scrollAnimationDurationOverride;
-- (void)ookup;
+- (void)_beginOriginLocationEstimationEventKitLookup;
 - (id)T;
 - (id)_;
 
 // Remaining properties
-@property _Bool alwaysCallCompletionBlock; // @synthesize alwaysCallCompletionBlock=_alwaysCallCompletionBlock;
 @property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property __weak EKRecurrenceChooserController *currentChooser; // @synthesize currentChooser=_currentChooser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) EKRecurrenceMonthlyChooserController *monthlyChooser; // @synthesize monthlyChooser=_monthlyChooser;
-@property(nonatomic) _Bool prohibitsMultipleDaysInMonthlyRecurrence;
-@property(nonatomic) _Bool prohibitsMultipleMonthsInYearlyRecurrence;
-@property _Bool prohibitsYearlyRecurrenceInterval; // @synthesize prohibitsYearlyRecurrenceInterval=_prohibitsYearlyRecurrenceInterval;
-@property(copy) NSString *recurrenceSummaryString; // @synthesize recurrenceSummaryString=_recurrenceSummaryString;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
-@property(retain) UITableView *tableView; // @synthesize tableView=_tableView;
-@property(retain) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(retain) EKRecurrenceWeekdayChooserController *weeklyChooser; // @synthesize weeklyChooser=_weeklyChooser;
-@property(retain) UISwitch *yearOrdinalSwitch; // @synthesize yearOrdinalSwitch=_yearOrdinalSwitch;
-@property(retain) EKRecurrenceMonthChooserController *yearlyChooser; // @synthesize yearlyChooser=_yearlyChooser;
-@property(retain) EKRecurrenceOrdinalChooserController *yearlyOrdinalChooser; // @synthesize yearlyOrdinalChooser=_yearlyOrdinalChooser;
 
 @end
 

@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSOffGridEncryptionProperties, IDSURI, NSData, NSDate, NSNumber, NSString;
+@class NSData;
 
 @interface IDSOffGridEncryptedMessage
 {
     NSData *_message;
-    NSString *_identifier;
-    IDSURI *_senderURI;
-    IDSURI *_recipientURI;
-    IDSOffGridEncryptionProperties *_encryptionProperties;
-    NSDate *_date;
-    NSNumber *_pendingTotalCount;
-    NSNumber *_pendingCount;
-    NSString *_service;
-    NSString *_senderShortHandle;
-    NSString *_recipientShortHandle;
-    NSNumber *_preferredService;
 }
 
 + (id);
 + (long long);
-+ (_Bool);
++ (_Bool)\;
 - (void);
 - (void);
 - (void);
@@ -52,7 +41,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)sing CKKS attributes:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -67,20 +56,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) IDSOffGridEncryptionProperties *encryptionProperties; // @synthesize encryptionProperties=_encryptionProperties;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long maxPayloadSizeRemaining;
 @property(retain, nonatomic) NSData *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSNumber *pendingCount; // @synthesize pendingCount=_pendingCount;
-@property(retain, nonatomic) NSNumber *pendingTotalCount; // @synthesize pendingTotalCount=_pendingTotalCount;
-@property(retain, nonatomic) NSNumber *preferredService; // @synthesize preferredService=_preferredService;
-@property(readonly, nonatomic) long long preferredServiceType;
-@property(retain, nonatomic) NSString *recipientShortHandle; // @synthesize recipientShortHandle=_recipientShortHandle;
-@property(retain, nonatomic) IDSURI *recipientURI; // @synthesize recipientURI=_recipientURI;
-@property(retain, nonatomic) NSString *senderShortHandle; // @synthesize senderShortHandle=_senderShortHandle;
-@property(retain, nonatomic) IDSURI *senderURI; // @synthesize senderURI=_senderURI;
-@property(retain, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end
 

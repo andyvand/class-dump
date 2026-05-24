@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPresentationController;
 @protocol UIViewControllerAnimatedTransitioning;
 
 @protocol UIViewControllerTransitioningDelegate
 
 @optional
+- (UIPresentationController *)0;
+- (id <UIViewControllerAnimatedTransitioning>);
 - (id <UIViewControllerAnimatedTransitioning>)Ô¡è°! Fùñ?Ð1Â0@ù
 × ;
 @end

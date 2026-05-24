@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageP2
 {
     NSData *_padding;
-    NSString *_threadIdentifier;
-    unsigned int _version;
-    CDStruct_f20694ce _has;
 }
 
 - (_Bool);
@@ -19,9 +16,9 @@
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void),N,V_remoteProcessIdentifier;
+- (void)ct:(id)arg1 %@ is not supported due to lack of card on file and unknown provisioning method;
+- (void)transaction.timeout;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -31,17 +28,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id)ed;
-- (void)cStepRecoverableMessages;
+- (void)Sg;
+- (id)time_played;
+- (void)IMCloudKitSyncStepRecoverableMessages;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPadding;
-@property(readonly, nonatomic) _Bool hasThreadIdentifier;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

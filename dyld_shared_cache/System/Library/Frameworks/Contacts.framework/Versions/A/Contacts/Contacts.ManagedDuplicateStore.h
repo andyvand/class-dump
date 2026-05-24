@@ -7,12 +7,6 @@
 @interface Contacts.ManagedDuplicateStore
 {
     id inMemory;
-    id notificationToken;
-    id lastToken;
-    id lock;
-    id _container;
-    id $__lazy_storage_$_managedObjectModel;
-    id $__lazy_storage_$_persistentStoreURL;
 }
 
 @end

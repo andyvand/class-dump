@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMBLocalSQLIteratorRowRecord : HMBSQLQueryIterator
 {
     int _zoneRowBindOffset;
-    unsigned long long _returning;
-    unsigned long long _zoneRow;
 }
 
 - (int);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long returning; // @synthesize returning=_returning;
-@property(readonly, nonatomic) unsigned long long zoneRow; // @synthesize zoneRow=_zoneRow;
-@property(readonly, nonatomic) int zoneRowBindOffset; // @synthesize zoneRowBindOffset=_zoneRowBindOffset;
 
 @end
 

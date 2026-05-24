@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsRequestResponseAnalyticsData, GEOPDPlacesRequestResponseAnalyticsData, GEORedactedDirectionsClientMetadata, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventServiceMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEODirectionsRequestResponseAnalyticsData *_directionsMetadata;
-    GEOPDPlacesRequestResponseAnalyticsData *_placesMetadata;
-    GEORedactedDirectionsClientMetadata *_redactedDirectionsClientMetadata;
-    GEODirectionsRequestResponseAnalyticsData *_redactedDirectionsMetadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _serviceMetadataType;
-    struct {
-        unsigned int has_serviceMetadataType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_directionsMetadata:1;
-        unsigned int read_placesMetadata:1;
-        unsigned int read_redactedDirectionsClientMetadata:1;
-        unsigned int read_redactedDirectionsMetadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool)setHasStatusIssue:(id)arg1;
@@ -34,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (int);
@@ -46,39 +28,29 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
+- (id)@16@24q32@?40;
+- (int)̅;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)trigger candidate;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)init;
 - (_Bool);
 - (id);
-- (void);
-- (id)foObject:(struct _NSZone *)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (id)dataType;
+- (void)N;
+- (id)setUserInfoObject:(struct _NSZone *)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)hasMetadataType;
 - (id)e.routeLegs.count;
 - (id)ÿÿ;
 - (void)À3;
 
 // Remaining properties
-@property(retain, nonatomic) GEODirectionsRequestResponseAnalyticsData *directionsMetadata;
-@property(readonly, nonatomic) _Bool hasDirectionsMetadata;
-@property(readonly, nonatomic) _Bool hasPlacesMetadata;
-@property(readonly, nonatomic) _Bool hasRedactedDirectionsClientMetadata;
-@property(readonly, nonatomic) _Bool hasRedactedDirectionsMetadata;
 @property(nonatomic) _Bool hasServiceMetadataType;
-@property(retain, nonatomic) GEOPDPlacesRequestResponseAnalyticsData *placesMetadata;
-@property(retain, nonatomic) GEORedactedDirectionsClientMetadata *redactedDirectionsClientMetadata;
-@property(retain, nonatomic) GEODirectionsRequestResponseAnalyticsData *redactedDirectionsMetadata;
-@property(nonatomic) int serviceMetadataType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

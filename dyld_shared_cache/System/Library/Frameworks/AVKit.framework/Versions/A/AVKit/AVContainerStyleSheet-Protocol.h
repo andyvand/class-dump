@@ -8,8 +8,6 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSEdgeInsets contentInsets;
-@property(readonly, nonatomic) struct CGSize contentSize;
 @property(readonly, nonatomic) struct CGSize contentSpacing;
 @end
 

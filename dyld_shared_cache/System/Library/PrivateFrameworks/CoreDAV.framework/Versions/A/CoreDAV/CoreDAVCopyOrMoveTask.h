@@ -6,37 +6,30 @@
 
 #import <CoreDAV/CoreDAVTask.h>
 
-@class NSURL;
-
 @interface CoreDAVCopyOrMoveTask : CoreDAVTask
 {
     int _overwrite;
-    NSURL *_destinationURL;
-    NSURL *_priorOrderedURL;
-    _Bool _shouldSendOrder;
 }
 
 + (id);
-- (void);
+- (void)"@9;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (int);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)_showsNeighboringDays;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void)ion cannot base64URLEncode:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
 @property(nonatomic) int overwrite; // @synthesize overwrite=_overwrite;
-@property(retain, nonatomic) NSURL *priorOrderedURL; // @synthesize priorOrderedURL=_priorOrderedURL;
 
 @end
 

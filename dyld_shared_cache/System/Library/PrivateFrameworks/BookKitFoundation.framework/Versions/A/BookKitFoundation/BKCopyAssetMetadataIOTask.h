@@ -9,11 +9,10 @@
 @interface BKCopyAssetMetadataIOTask : BKAssetMetadataIOTask
 {
     _Bool _isCancelled;
-    unsigned long long _totalBytes;
 }
 
 - (id);
-- (void);
+- (void)TextRange"16@"NSArray"24;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isCancelled; // @synthesize isCancelled=_isCancelled;
-@property(nonatomic) unsigned long long totalBytes; // @synthesize totalBytes=_totalBytes;
 
 @end
 

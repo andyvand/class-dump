@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber;
+@class NSMutableArray;
 
 @interface ExclaveThread
 {
     NSMutableArray *_stackEntries;
-    NSNumber *_schedulingContextId;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)itor;
+- (void)kflowRunnerClient",&,N,V_runnerClient;
+- (void),V_icon;
+- (id)TLKStoreButton",&,N,V_viewButton;
+- (void)T@"SearchUILeadingViewController",&,N,V_currentLeadingViewController;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *schedulingContextId; // @synthesize schedulingContextId=_schedulingContextId;
 @property(retain, nonatomic) NSMutableArray *stackEntries; // @synthesize stackEntries=_stackEntries;
 
 @end

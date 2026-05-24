@@ -9,9 +9,6 @@
 @interface IMDSqlQuery
 {
     NSString *_tableName;
-    NSString *_columns;
-    NSString *_where;
-    long long _limit;
 }
 
 + (id);
@@ -19,18 +16,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)@?@"NSError">36;
+- (void)lookupArtworkForInfo:(id)arg1 forDatabase:withReply: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
 - (id)_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *columns; // @synthesize columns=_columns;
-@property(nonatomic) long long limit; // @synthesize limit=_limit;
 @property(readonly, copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
-@property(copy, nonatomic) NSString *where; // @synthesize where=_where;
 
 @end
 

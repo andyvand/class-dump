@@ -7,8 +7,6 @@
 @interface CHCutPoint
 {
     _Bool _isEndOfStroke;
-    long long _strokeIndex;
-    long long _pointIndex;
 }
 
 + (id);
@@ -16,14 +14,12 @@
 - (id);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long)LimitedPolicy:contactEditingDisabled:contactManagementEnabled: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isEndOfStroke; // @synthesize isEndOfStroke=_isEndOfStroke;
-@property(readonly, nonatomic) long long pointIndex; // @synthesize pointIndex=_pointIndex;
 @property(readonly, nonatomic) long long strokeIndex; // @synthesize strokeIndex=_strokeIndex;
 
 @end

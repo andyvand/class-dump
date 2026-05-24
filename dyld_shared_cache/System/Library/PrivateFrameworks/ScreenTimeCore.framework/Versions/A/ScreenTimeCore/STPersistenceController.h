@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSObject, NSPersistentContainer, NSPersistentStore, NSString, STDebouncer;
-@protocol OS_dispatch_queue, STPersistentStoreChangeHandler;
+@class NSPersistentContainer;
 
 @interface STPersistenceController
 {
     NSPersistentContainer *_persistentContainer;
-    NSObject<OS_dispatch_queue> *_coreDataQueue;
-    id <STPersistentStoreChangeHandler> _changeHandler;
-    STDebouncer *_changeNotificationDebouncer;
 }
 
-- (void);
-- (_Bool);
-- (void);
+- (void)DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (_Bool)store_item_pid;
+- (void)NTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id), date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (_Bool)tory_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
+- (id)token = IFNULL( (SELECT best_artwork_token FROM item_artwork WHERE item_pid = representative_item_pid), '');
+- (void)FROM item_artist;
+- (id), representative_item_pid INTEGER NOT NULL DEFAULT 0, representative_item_artwork_token TEXT NOT NULL DEFAULT '', artist_artwork_token TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id)NOT NULL DEFAULT 0, representative_item_pid INTEGER NOT NULL DEFAULT 0, representative_item_artwork_token TEXT NOT NULL DEFAULT '', grouping_key BLOB, cloud_status INTEGER NOT NULL DEFAULT 0, user_rating INTEGER NOT NULL DEFAULT 0, all_compilations INTEGER NOT NULL DEFAULT 0, feed_url TEXT, season_number INTEGER, album_year INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id)S NOT NULL;
+- (void)070;;
+- (void)E (CASE WHEN IFNULL(purchase_history_redownload_params, '') != '' AND purchase_history_id != 0 THEN 100 ELSE 0 END) END) END FROM item_store WHERE item.item_pid = item_store.item_pid);
+- (void)item SET remote_location_id = (SELECT CASE WHEN home_sharing_id != 0 THEN 300 ELSE (CASE WHEN IFNULL(match_redownload_params, '') != '' THEN 200 ELSE (CASE WHEN IFNULL(purchase_history_redownload_params, '') != '' AND purchase_history_id != 0 THEN 100 ELSE 0 END) END) END FROM item_store WHERE item.item_pid = item_store.item_pid);
+- (void)st = 1 WHERE (is_hidden = 1 AND distinguished_kind NOT IN (19, 20, 32));
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)dataSourceRemoveItems:(CDUnknownBlockType)arg1 fromSection: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -41,21 +37,7 @@
 - (id)BlueprintSchedule.m;
 
 // Remaining properties
-@property(readonly) id <STPersistentStoreChangeHandler> changeHandler; // @synthesize changeHandler=_changeHandler;
-@property(readonly) STDebouncer *changeNotificationDebouncer; // @synthesize changeNotificationDebouncer=_changeNotificationDebouncer;
-@property(readonly) NSPersistentStore *cloudStore;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *coreDataQueue; // @synthesize coreDataQueue=_coreDataQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasStoreLoaded;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSPersistentStore *localStore;
 @property(retain, nonatomic) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSManagedObjectContext *viewContext;
 
 @end
 

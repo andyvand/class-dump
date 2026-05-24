@@ -16,7 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)qn
+;
 - (void);
 - (id);
 - (id);
@@ -30,12 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *loaderId;
-@property(copy, nonatomic) NSString *mimeType;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *parentId;
-@property(copy, nonatomic) NSString *securityOrigin;
-@property(copy, nonatomic) NSString *url;
 
 @end
 

@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDNaturalLightingCurve, NSNotificationCenter, NSObject, NSString;
-@protocol HMDLightProfileDataSource, OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeNaturalLightingContextUpdater
 {
     _Bool _demoModeEnabled;
-    NSString *_logIdentifier;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDLightProfileDataSource> _dataSource;
-    long long _curveMinimumBrightness;
-    long long _curveMaximumBrightness;
-    NSNotificationCenter *_notificationCenter;
-    HMDNaturalLightingCurve *_curve;
 }
 
 + (id)h]ÿ+;
 - (void);
 - (long long);
-- (void);
-- (void);
-- (void);
+- (void)Q24@0:(long long)arg1 8Q16;
+- (void)PNavigationListenerDelegate>";
+- (void)tStatusChanged:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (long long);
 - (long long);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)point_create_bonjour_service returned NULL endpoint;
+- (id)discreteProgressWithTotalUnitCount: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -45,26 +36,11 @@ __attribute__((visibility("hidden")))
 - (id)
 × ;
 - (void)face crop to home person dataset for misclassified face classification;
-- (void)erYearDaySchedule;
+- (void)supportsMatterYearDaySchedule;
 - (id)ÈOÿ~ '?;
 
 // Remaining properties
-@property(copy) HMDNaturalLightingCurve *curve; // @synthesize curve=_curve;
-@property long long curveMaximumBrightness; // @synthesize curveMaximumBrightness=_curveMaximumBrightness;
-@property long long curveMinimumBrightness; // @synthesize curveMinimumBrightness=_curveMinimumBrightness;
-@property(readonly) id <HMDLightProfileDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, getter=isDemoModeEnabled) _Bool demoModeEnabled; // @synthesize demoModeEnabled=_demoModeEnabled;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

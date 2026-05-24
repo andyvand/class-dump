@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWNodeOutput, BWPhotoDecompressorNode, BWPipelineStage, FigCaptureMovieFileSinkPipelineConfiguration, NSArray;
+@class FigCaptureMovieFileSinkPipelineConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureMovieFileSinkTailPipelineConfiguration
 {
     FigCaptureMovieFileSinkPipelineConfiguration *_movieFileSinkPipelineConfiguration;
-    BWPipelineStage *_movieFilePipelineStage;
-    BWPhotoDecompressorNode *_irisIntermediateJPEGPhotoDecompressorNode;
-    BWNodeOutput *_videoSourceOutput;
-    BWNodeOutput *_audioSourceOutput;
-    BWNodeOutput *_cinematicAudioSourceOutput;
-    NSArray *_metadataSourceOutputs;
-    NSArray *_indexesOfDetectedObjectsInMetadataOutputs;
-    int _indexOfVideoOrientationInMetadataOutputs;
-    _Bool _vitalityScoringEnabled;
-    _Bool _delayedCompressorCleanupEnabled;
 }
 
-- (void);
+- (void)or;
 - (id);
 - (void);
 - (id);
@@ -32,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (int);
 - (void);
 - (void);
@@ -48,17 +38,7 @@ __attribute__((visibility("hidden")))
 - (id)kPressurePipelineStage];
 
 // Remaining properties
-@property(retain, nonatomic) BWNodeOutput *audioSourceOutput; // @synthesize audioSourceOutput=_audioSourceOutput;
-@property(retain, nonatomic) BWNodeOutput *cinematicAudioSourceOutput; // @synthesize cinematicAudioSourceOutput=_cinematicAudioSourceOutput;
-@property(nonatomic) _Bool delayedCompressorCleanupEnabled; // @synthesize delayedCompressorCleanupEnabled=_delayedCompressorCleanupEnabled;
-@property(nonatomic) int indexOfVideoOrientationInMetadataOutputs; // @synthesize indexOfVideoOrientationInMetadataOutputs=_indexOfVideoOrientationInMetadataOutputs;
-@property(retain, nonatomic) NSArray *indexesOfDetectedObjectsInMetadataOutputs; // @synthesize indexesOfDetectedObjectsInMetadataOutputs=_indexesOfDetectedObjectsInMetadataOutputs;
-@property(retain, nonatomic) BWPhotoDecompressorNode *irisIntermediateJPEGPhotoDecompressorNode; // @synthesize irisIntermediateJPEGPhotoDecompressorNode=_irisIntermediateJPEGPhotoDecompressorNode;
-@property(retain, nonatomic) NSArray *metadataSourceOutputs; // @synthesize metadataSourceOutputs=_metadataSourceOutputs;
-@property(retain, nonatomic) BWPipelineStage *movieFilePipelineStage; // @synthesize movieFilePipelineStage=_movieFilePipelineStage;
 @property(retain, nonatomic) FigCaptureMovieFileSinkPipelineConfiguration *movieFileSinkPipelineConfiguration; // @synthesize movieFileSinkPipelineConfiguration=_movieFileSinkPipelineConfiguration;
-@property(retain, nonatomic) BWNodeOutput *videoSourceOutput; // @synthesize videoSourceOutput=_videoSourceOutput;
-@property(nonatomic) _Bool vitalityScoringEnabled; // @synthesize vitalityScoringEnabled=_vitalityScoringEnabled;
 
 @end
 

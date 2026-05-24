@@ -7,6 +7,7 @@
 @class NSNumber;
 
 @protocol HAP2AccessoryPrivate
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *internalSleepIntervalMs;

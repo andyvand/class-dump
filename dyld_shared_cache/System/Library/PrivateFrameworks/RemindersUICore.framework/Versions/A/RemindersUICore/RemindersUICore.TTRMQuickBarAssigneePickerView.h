@@ -9,8 +9,6 @@
 @interface RemindersUICore.TTRMQuickBarAssigneePickerView : RemindersUICore.TTRMQuickBarEntryView
 {
     id delegate;
-    id assigneeName;
-    id internalIsEditingTextField;
 }
 
 - (void);
@@ -20,7 +18,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)tWithDateComponentsRange: /* Error: Ran out of types for this method. */;
+- (id)initWithDateComponentsRange: /* Error: Ran out of types for this method. */;
 - (void)x¨;
 - (id)der (on macOS);
 

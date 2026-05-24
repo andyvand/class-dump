@@ -6,46 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID, SUGSchemaSUGAutoCompleteSuggestionMetaData, SUGSchemaSUGSiriHelpSignal, SUGSchemaSUGSuppressionResult;
+@class NSString;
 
 @interface SUGSchemaSUGSuggestion : SISchemaInstrumentationMessage
 {
     NSString *_suggestionId;
-    SUGSchemaSUGSiriHelpSignal *_subscribedSignal;
-    int _deliveryVehicle;
-    int _goal;
-    unsigned int _finalRank;
-    double _goalSpecificScore;
-    double _finalScore;
-    int _suggestionTier;
-    SUGSchemaSUGSuppressionResult *_suppressionResult;
-    NSString *_loggingActionId;
-    int _channel;
-    double _channelScore;
-    double _smartSuppressionScore;
-    int _numWordsInSuggestion;
-    int _numCharactersInSuggestion;
-    SUGSchemaSUGAutoCompleteSuggestionMetaData *_autoCompleteSuggestionMetaData;
-    SISchemaUUID *_linkId;
-    struct {
-        unsigned int deliveryVehicle:1;
-        unsigned int goal:1;
-        unsigned int finalRank:1;
-        unsigned int goalSpecificScore:1;
-        unsigned int finalScore:1;
-        unsigned int suggestionTier:1;
-        unsigned int channel:1;
-        unsigned int channelScore:1;
-        unsigned int smartSuppressionScore:1;
-        unsigned int numWordsInSuggestion:1;
-        unsigned int numCharactersInSuggestion:1;
-    } _has;
-    _Bool _hasSuggestionId;
-    _Bool _hasSubscribedSignal;
-    _Bool _hasSuppressionResult;
-    _Bool _hasLoggingActionId;
-    _Bool _hasAutoCompleteSuggestionMetaData;
-    _Bool _hasLinkId;
 }
 
 - (id);
@@ -74,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -88,7 +53,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -104,7 +69,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)1	?׀;
 - (void);
 - (void);
 - (void);
@@ -119,69 +84,36 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (int);
-- (void);
+- (void)(qS
+;
 - (_Bool);
-- (void);
-- (void);
+- (void)urlRequestForMBAccoutCreation:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)trailingAnchor;
+- (id)setShouldOfferSecurityUpgrade: /* Error: Ran out of types for this method. */;
+- (_Bool)provisionedDataclasses;
 - (id);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Error">24;
+- (void)ing",C,N;
+- (_Bool)ect;
+- (_Bool)LECT ROWID, id FROM handle;
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (id)?;
 - (int);
-- (id);
-- (_Bool);
+- (id)A;
+- (_Bool)kCGColorMatrixOnlyFirstChannelInput;
 - (void)
 × ;
-- (id)sShown;
-- (id)ource;
+- (id)deleteNumberOfEntitiesShown;
+- (id)_hasUserFeedbackContentSource;
 - (void)EnrollmentFunnel;
 
 // Remaining properties
-@property(retain, nonatomic) SUGSchemaSUGAutoCompleteSuggestionMetaData *autoCompleteSuggestionMetaData; // @synthesize autoCompleteSuggestionMetaData=_autoCompleteSuggestionMetaData;
-@property(nonatomic) int channel; // @synthesize channel=_channel;
-@property(nonatomic) double channelScore; // @synthesize channelScore=_channelScore;
-@property(nonatomic) int deliveryVehicle; // @synthesize deliveryVehicle=_deliveryVehicle;
-@property(nonatomic) unsigned int finalRank; // @synthesize finalRank=_finalRank;
-@property(nonatomic) double finalScore; // @synthesize finalScore=_finalScore;
-@property(nonatomic) int goal; // @synthesize goal=_goal;
-@property(nonatomic) double goalSpecificScore; // @synthesize goalSpecificScore=_goalSpecificScore;
-@property(nonatomic) _Bool hasAutoCompleteSuggestionMetaData; // @synthesize hasAutoCompleteSuggestionMetaData=_hasAutoCompleteSuggestionMetaData;
-@property(nonatomic) _Bool hasChannel;
-@property(nonatomic) _Bool hasChannelScore;
-@property(nonatomic) _Bool hasDeliveryVehicle;
-@property(nonatomic) _Bool hasFinalRank;
-@property(nonatomic) _Bool hasFinalScore;
-@property(nonatomic) _Bool hasGoal;
-@property(nonatomic) _Bool hasGoalSpecificScore;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasLoggingActionId; // @synthesize hasLoggingActionId=_hasLoggingActionId;
-@property(nonatomic) _Bool hasNumCharactersInSuggestion;
-@property(nonatomic) _Bool hasNumWordsInSuggestion;
-@property(nonatomic) _Bool hasSmartSuppressionScore;
-@property(nonatomic) _Bool hasSubscribedSignal; // @synthesize hasSubscribedSignal=_hasSubscribedSignal;
-@property(nonatomic) _Bool hasSuggestionId; // @synthesize hasSuggestionId=_hasSuggestionId;
-@property(nonatomic) _Bool hasSuggestionTier;
-@property(nonatomic) _Bool hasSuppressionResult; // @synthesize hasSuppressionResult=_hasSuppressionResult;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *loggingActionId; // @synthesize loggingActionId=_loggingActionId;
-@property(nonatomic) int numCharactersInSuggestion; // @synthesize numCharactersInSuggestion=_numCharactersInSuggestion;
-@property(nonatomic) int numWordsInSuggestion; // @synthesize numWordsInSuggestion=_numWordsInSuggestion;
-@property(nonatomic) double smartSuppressionScore; // @synthesize smartSuppressionScore=_smartSuppressionScore;
-@property(retain, nonatomic) SUGSchemaSUGSiriHelpSignal *subscribedSignal; // @synthesize subscribedSignal=_subscribedSignal;
 @property(copy, nonatomic) NSString *suggestionId; // @synthesize suggestionId=_suggestionId;
-@property(nonatomic) int suggestionTier; // @synthesize suggestionTier=_suggestionTier;
-@property(retain, nonatomic) SUGSchemaSUGSuppressionResult *suppressionResult; // @synthesize suppressionResult=_suppressionResult;
 
 @end
 

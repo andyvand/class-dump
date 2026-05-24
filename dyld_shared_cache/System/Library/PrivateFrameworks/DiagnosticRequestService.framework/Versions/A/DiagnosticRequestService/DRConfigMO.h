@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSConfigMetadataMO, NSData, NSDate, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRConfigMO
 {
 }
 
-+ (id);
++ (id)maxLinesBeforeScroll;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *build; // @dynamic build;
-@property(copy, nonatomic) NSString *configDescription; // @dynamic configDescription;
-@property(copy, nonatomic) NSUUID *configUUID; // @dynamic configUUID;
-@property(copy, nonatomic) NSDate *endDate; // @dynamic endDate;
-@property(retain, nonatomic) DRSConfigMetadataMO *metadata; // @dynamic metadata;
-@property(retain, nonatomic) NSData *payload; // @dynamic payload;
-@property(nonatomic) _Bool payloadIsJSON; // @dynamic payloadIsJSON;
-@property(copy, nonatomic) NSDate *receivedDate; // @dynamic receivedDate;
-@property(nonatomic) _Bool skippedHysteresis; // @dynamic skippedHysteresis;
-@property(copy, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(copy, nonatomic) NSString *teamID; // @dynamic teamID;
 
 @end
 

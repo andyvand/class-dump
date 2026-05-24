@@ -4,71 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWindowController, ForYouRecommendationMediator, NSAppearance, NSArray, NSButton, NSIndexSet, NSLayoutConstraint, NSMapTable, NSMutableIndexSet, NSScrollView, NSSet, NSString, NSTrackingArea, NSView, StartPageCloudTabsSectionProvider, StartPageCollectionView, StartPageCollectionViewControllerAnimator, StartPageCollectionViewLayout, StartPageFavoritesSectionProvider, StartPageFeatureAvailabilitySectionProvider, StartPageHeadingSectionProvider, StartPageHighlightsSectionProvider, StartPageOnboardingSectionProvider, StartPagePasswordBreachSectionProvider, StartPagePopoverViewController, StartPagePrivacyReportSectionProvider, StartPagePrivateBrowsingSectionProvider, StartPagePrivateRelayInPrivateBrowsingSectionProvider, StartPageReadingListSectionProvider, StartPageRecentlyClosedTabsSectionProvider, StartPageSeparatorSectionProvider, StartPageViewController, WBSStartPageSectionManager, _StartPageCollectionLayoutEnvironment;
-@protocol StartPageCollectionSectionProvider;
+@class StartPageCollectionViewLayout;
 
 __attribute__((visibility("hidden")))
 @interface StartPageCollectionViewController
 {
     StartPageCollectionViewLayout *_collectionViewLayout;
-    NSArray *_sectionProviders;
-    NSArray *_displayedSectionProviders;
-    NSSet *_cachedVisibleSectionProviders;
-    NSMutableIndexSet *_indexesOfSectionWithHiddenItems;
-    StartPageCollectionViewControllerAnimator *_animator;
-    _StartPageCollectionLayoutEnvironment *_layoutEnvironment;
-    _Bool _cachedVisibleSectionProvidersNeedsReload;
-    _Bool _displayedSectionProvidersNeedsReload;
-    NSMapTable *_itemToProvider;
-    WBSStartPageSectionManager *_startPageSectionManager;
-    _Bool _isShowingSingleSection;
-    StartPagePopoverViewController *_customizationsPopoverViewController;
-    NSIndexSet *_sectionIndexesForDraggingSession;
-    id <StartPageCollectionSectionProvider> _sectionProviderForDraggedItem;
-    id _representedObjectForDraggedItem;
-    _Bool _shouldRefreshDraggedIndexPath;
-    unsigned long long _numberOfClientsSuppressingFullReloads;
-    NSTrackingArea *_trackingArea;
-    StartPageFavoritesSectionProvider *_favoritesSectionProvider;
-    StartPageReadingListSectionProvider *_readingListSectionProvider;
-    StartPagePrivacyReportSectionProvider *_privacyReportSectionProvider;
-    StartPageCloudTabsSectionProvider *_cloudTabsSectionProvider;
-    StartPageRecentlyClosedTabsSectionProvider *_recentlyClosedTabsSectionProvider;
-    StartPageFeatureAvailabilitySectionProvider *_startPageFeatureAvailabilitySectionProvider;
-    _Bool _didSetUpFeatureAvailabilitySection;
-    _Bool _shouldShowFeatureAvailabilitySection;
-    _Bool _shouldShowMigrationInterface;
-    StartPagePrivateRelayInPrivateBrowsingSectionProvider *_startPagePrivateRelayInPrivateBrowsingSectionProvider;
-    _Bool _didSetUpPrivateRelaySectionInPrivateBrowsing;
-    StartPagePasswordBreachSectionProvider *_startPagePasswordBreachSectionProvider;
-    StartPageOnboardingSectionProvider *_onboardingSectionProvider;
-    StartPageHighlightsSectionProvider *_highlightsSectionProvider;
-    StartPageFavoritesSectionProvider *_tabGroupFavoritesSectionProvider;
-    StartPageHeadingSectionProvider *_tabGroupHeadingSectionProvider;
-    StartPageSeparatorSectionProvider *_separatorSectionProvider;
-    StartPagePrivateBrowsingSectionProvider *_privateBrowsingSectionProvider;
-    NSView *_backgroundView;
-    NSAppearance *_backgroundAppearance;
-    NSLayoutConstraint *_backgroundViewHeightOffset;
-    double _backgroundViewHeightOffsetWhenShowingBanner;
-    NSButton *_customizationsPopoverButton;
-    _Bool _hasBackgroundImage;
-    id _backgroundImageRequestToken;
-    NSString *_currentProfileSymbolImageName;
-    _Bool _forSideBarSection;
-    _Bool _usesCompactAppearance;
-    _Bool _usesPrivateBrowsing;
-    NSView *_externalCenteringView;
-    StartPageViewController *_startPageViewController;
-    NSView *_titleView;
-    double _topContentInset;
-    ForYouRecommendationMediator *_mediator;
-    BrowserWindowController *_browserWindowController;
-    NSScrollView *_scrollView;
-    StartPageCollectionView *_collectionView;
-    long long _startPageType;
-    NSString *_deviceUUIDForStandaloneCloudTabsStartPage;
-    long long _highlightedSection;
 }
 
 + (id);
@@ -82,10 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (_Bool);
@@ -94,10 +35,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -146,7 +87,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)hD;
 - (void);
 - (void);
 - (void);
@@ -196,7 +137,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4HE;
 - (void);
 - (void);
 - (void);
@@ -208,7 +149,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (void);
@@ -228,7 +169,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Network unavailable error %@, should defer activity; xpc_activity_will invoke us again later.;
 - (void);
 - (void);
 - (id);
@@ -241,7 +182,7 @@ __attribute__((visibility("hidden")))
 - (void)
 × ;
 - (long long)g>"40@?<v@?@"NSMenu">48;
-- (id)Id:(id)arg1 database:(id)arg2;
+- (id)addItem:(id)arg1 underFolderWithServerId:(id)arg2 database: /* Error: Ran out of types for this method. */;
 - (void)°G;
 - (void)ngue. This provider should not exist.;
 - (id)ng Button (Enable iCloud Sync);
@@ -259,28 +200,7 @@ __attribute__((visibility("hidden")))
 - (id)ÂÀ@.;
 
 // Remaining properties
-@property(nonatomic) __weak BrowserWindowController *browserWindowController; // @synthesize browserWindowController=_browserWindowController;
-@property(nonatomic) __weak StartPageCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *deviceUUIDForStandaloneCloudTabsStartPage; // @synthesize deviceUUIDForStandaloneCloudTabsStartPage=_deviceUUIDForStandaloneCloudTabsStartPage;
-@property(retain, nonatomic) NSView *externalCenteringView; // @synthesize externalCenteringView=_externalCenteringView;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long highlightedSection; // @synthesize highlightedSection=_highlightedSection;
-@property(retain, nonatomic) ForYouRecommendationMediator *mediator; // @synthesize mediator=_mediator;
-@property(readonly, nonatomic) NSString *pageTitle;
-@property(nonatomic) __weak NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly, copy, nonatomic) NSString *startPageBackgroundImageIdentifier;
-@property(nonatomic) long long startPageType; // @synthesize startPageType=_startPageType;
-@property(nonatomic) __weak StartPageViewController *startPageViewController; // @synthesize startPageViewController=_startPageViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSView *titleView; // @synthesize titleView=_titleView;
-@property(readonly, nonatomic) double topContentInset; // @synthesize topContentInset=_topContentInset;
-@property(readonly, nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

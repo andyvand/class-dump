@@ -7,7 +7,6 @@
 @interface NewsUI2.UserSegmentationDetailsService
 {
     id endpointConnection;
-    id configManager;
 }
 
 @end

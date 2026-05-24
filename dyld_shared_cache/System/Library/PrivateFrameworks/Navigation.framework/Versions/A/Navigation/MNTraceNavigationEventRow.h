@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface MNTraceNavigationEventRow
 {
     double _relativeTimestamp;
-    NSDate *_date;
-    long long _eventType;
-    NSString *_eventName;
-    NSString *_eventDescription;
-    NSString *_speakableEventDescription;
 }
 
 - (id);
-- (void);
+- (void)AccessibilityAppIntentAction;
 - (void);
 - (id);
 - (id);
@@ -25,20 +18,15 @@
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)FAMILY_FAILED;
 - (double);
-- (void);
+- (void)_foregroundDateColor;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(copy, nonatomic) NSString *eventDescription; // @synthesize eventDescription=_eventDescription;
-@property(copy, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(nonatomic) long long eventType; // @synthesize eventType=_eventType;
 @property(nonatomic) double relativeTimestamp; // @synthesize relativeTimestamp=_relativeTimestamp;
-@property(copy, nonatomic) NSString *speakableEventDescription; // @synthesize speakableEventDescription=_speakableEventDescription;
 
 @end
 

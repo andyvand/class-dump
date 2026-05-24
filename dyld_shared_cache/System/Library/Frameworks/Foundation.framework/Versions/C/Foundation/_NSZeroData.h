@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (unsigned long long);
-- (oneway void);
+- (oneway void));
 - (unsigned long long);
 - (id);
 - (const void *);

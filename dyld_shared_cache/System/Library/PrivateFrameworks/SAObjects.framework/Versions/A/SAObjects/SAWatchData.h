@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString;
-
 @interface SAWatchData : AceObject
 {
 }
@@ -19,21 +17,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool configuredForLeftWrist;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *interfaceOrientation;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool victoryDevice;
 
 @end
 

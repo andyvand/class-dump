@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDPersistentStore, NSMutableDictionary, NSObject;
-@protocol HMDEventCountersManagerDelegate, HMMUptimeProvider, OS_dispatch_queue;
+@class HMDPersistentStore;
 
 __attribute__((visibility("hidden")))
 @interface HMDEventCountersManager
 {
     HMDPersistentStore *_persistentStore;
-    NSMutableDictionary *_counterGroups;
-    double _lastSaveTime;
-    _Bool _pendingSave;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    double _saveInterval;
-    id <HMMUptimeProvider> _uptimeProvider;
-    id <HMDEventCountersManagerDelegate> _delegate;
 }
 
 + (id);
 + (double)ring error:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,10 +32,10 @@ __attribute__((visibility("hidden")))
 - (void)0@ù
 × ;
 - (id)80^@88^@96;
-- (id)n;
-- (void)tWithGroup:record:data:encoding:uuid: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (id)smartBulletinBoardNotificationCondition;
+- (void)initWithGroup:record:data:encoding:uuid: /* Error: Ran out of types for this method. */;
+- (id)booleanValueKeyPaths;
+- (id)_requestCommittedTimeMS;
 - (id)	
 ;
 - (void), 	;
@@ -52,13 +43,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)iled to convert to parsed accessory topic using topic:(id)arg1 %@;
 - (void)ngStatusType %tu;
 - (void)Add accessory pairing operation;
-- (void)ve;
+- (void)valve;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMDEventCountersManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) double saveInterval; // @synthesize saveInterval=_saveInterval;
-@property(readonly, nonatomic) id <HMMUptimeProvider> uptimeProvider; // @synthesize uptimeProvider=_uptimeProvider;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

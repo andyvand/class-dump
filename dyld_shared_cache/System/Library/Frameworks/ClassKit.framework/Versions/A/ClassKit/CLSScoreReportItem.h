@@ -9,28 +9,26 @@
 @interface CLSScoreReportItem : CLSActivityReportItem
 {
     double _value;
-    double _maxValue;
 }
 
-+ (_Bool);
-- (double);
++ (_Bool)_delegate_presentProgressViewForAccount:completion: /* Error: Ran out of types for this method. */;
+- (double)NEDeviceController object:%08X /* Error: Ran out of types for this method. */;
+- (id)0x%x
+;
+- (void)GROUP;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (void);
-- (void);
 - (id);
 - (double);
+- (void);
+- (void);
+- (id);
+- (double)ng;
 - (id);
 - (void);
-- (long long);
+- (long long)/;
 
 // Remaining properties
-@property(nonatomic) double maxValue; // @synthesize maxValue=_maxValue;
-@property(readonly, nonatomic) double normalized;
 @property(nonatomic) double value; // @synthesize value=_value;
 
 @end

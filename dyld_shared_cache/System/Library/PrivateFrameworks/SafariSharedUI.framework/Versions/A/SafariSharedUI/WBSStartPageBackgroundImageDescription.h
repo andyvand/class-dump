@@ -9,7 +9,6 @@
 @interface WBSStartPageBackgroundImageDescription
 {
     NSURL *_url;
-    double _luminance;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void),R,C,N,V_monogramTitle;
 
 // Remaining properties
-@property(readonly, nonatomic) double luminance; // @synthesize luminance=_luminance;
 @property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

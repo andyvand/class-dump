@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HCHuffmanCoder, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface TIDPWordRecord
 {
     NSNumber *_wordPosition;
-    NSString *_word;
-    HCHuffmanCoder *_coder;
 }
 
++ (id)RemoteVoiceChat;
++ (id)AudioMode;
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (void);
-- (void);
+- (id)remote RTT setting:%@={%@} /* Error: Ran out of types for this method. */;
+- (void)or callID %@;
+- (void)RTTTranscriptionPrefix;
 - (id);
 - (id);
 - (id);
@@ -32,12 +30,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cleanedWord;
-@property(readonly, nonatomic) NSNumber *codedWord;
-@property(readonly, nonatomic) NSString *codedWordAsString;
-@property(retain, nonatomic) HCHuffmanCoder *coder; // @synthesize coder=_coder;
-@property(readonly, nonatomic) NSUUID *coderVersion;
-@property(copy, nonatomic) NSString *word; // @synthesize word=_word;
 @property(retain, nonatomic) NSNumber *wordPosition; // @synthesize wordPosition=_wordPosition;
 
 @end

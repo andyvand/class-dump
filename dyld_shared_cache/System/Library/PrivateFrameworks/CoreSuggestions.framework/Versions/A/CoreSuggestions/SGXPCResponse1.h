@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id)larmTriggeredForRecordId:completion: /* Error: Ran out of types for this method. */;
+- (id)reminderAlarmTriggeredForRecordId:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSSecureCoding> response1; // @synthesize response1=_response1;

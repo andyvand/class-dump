@@ -7,7 +7,7 @@
 @interface UnknownClass (PNRResourceManager)
 + (id);
 + (id);
-+ (id);
++ (id)z;
 + (id);
 @end
 

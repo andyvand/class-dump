@@ -9,9 +9,6 @@
 @interface CHSControlDescriptorsPredicate
 {
     _Bool includeHidden;
-    _Bool includeVisible;
-    _Bool includeRemote;
-    _Bool includeOnlyRemoteEligible;
 }
 
 + (id);
@@ -27,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (long long);
 - (_Bool);
@@ -36,11 +33,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool includeHidden; // @synthesize includeHidden;
-@property(nonatomic) _Bool includeOnlyRemoteEligible; // @synthesize includeOnlyRemoteEligible;
-@property(nonatomic) _Bool includeRemote; // @synthesize includeRemote;
-@property(nonatomic, readonly) _Bool includeVisible; // @synthesize includeVisible;
 
 @end
 

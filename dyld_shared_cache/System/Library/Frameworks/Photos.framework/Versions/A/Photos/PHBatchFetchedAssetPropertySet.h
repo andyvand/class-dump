@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKnownKeysDictionary, NSManagedObjectID, NSString;
+@class NSKnownKeysDictionary, NSManagedObjectID;
 
 @interface PHBatchFetchedAssetPropertySet
 {
     NSManagedObjectID *_objectID;
-    NSKnownKeysDictionary *_knownKeysDictionary;
 }
 
-+ (_Bool);
++ (_Bool)NOT EXISTS %@ (%@ TEXT PRIMARY KEY, %@ TEXT);;
 + (id);
 + (long long);
 + (_Bool)ð1Â0@ù
@@ -24,20 +23,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_sandboxExtendedImageURL;
 - (id);
 - (void)artStyleIntensity;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSKnownKeysDictionary *knownKeysDictionary; // @synthesize knownKeysDictionary=_knownKeysDictionary;
-@property(readonly, nonatomic) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly) Class superclass;
 
 @end
 

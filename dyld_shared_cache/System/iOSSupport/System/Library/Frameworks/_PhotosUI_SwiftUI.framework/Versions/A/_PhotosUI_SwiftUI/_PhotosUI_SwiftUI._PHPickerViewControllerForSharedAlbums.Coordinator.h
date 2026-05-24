@@ -7,6 +7,7 @@
 @interface _PhotosUI_SwiftUI._PHPickerViewControllerForSharedAlbums.Coordinator
 {
     id pickerViewControllerForSharedAlbums;
+    id;
 }
 
 - (void);

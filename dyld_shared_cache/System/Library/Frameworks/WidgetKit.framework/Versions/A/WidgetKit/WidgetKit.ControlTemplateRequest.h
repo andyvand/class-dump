@@ -7,17 +7,13 @@
 @interface WidgetKit.ControlTemplateRequest
 {
     id fileHandle;
-    id control;
-    id environment;
-    id hostDeviceID;
-    id isPreview;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)J;
 - (id);
-- (id);
-- (void);
+- (id),u;
+- (void)tationArbitraryToTrueNorth:(id)arg1 staticFlag:deltaPositionUncertaintyX:deltaPositionUncertaintyY:deltaPositionUncertaintyZ:deviceLocation:timestamp: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

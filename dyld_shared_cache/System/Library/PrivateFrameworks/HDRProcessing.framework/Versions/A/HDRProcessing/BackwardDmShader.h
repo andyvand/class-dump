@@ -5,20 +5,13 @@
 //
 
 @class NSString;
-@protocol MTLRenderPipelineState;
 
 @interface BackwardDmShader
 {
     NSString *_vertexKernelName;
-    NSString *_fragmentKernelName;
-    id <MTLRenderPipelineState> _renderPipeline;
-    unsigned long long _colorFormat;
-    _Bool _useCustomMatrix;
-    _Bool _p3CSC;
-    _Bool _applyYGamma;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);

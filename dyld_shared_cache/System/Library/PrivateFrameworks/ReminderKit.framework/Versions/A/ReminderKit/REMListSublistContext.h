@@ -11,9 +11,9 @@
     REMList *_list;
 }
 
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)2@?0@"NSDictionary"8@"NSString"16@"NSString"24;
+- (id)";
 - (void);
 - (id);
 - (void)áêð!äGùñr Ð1Â0@ù

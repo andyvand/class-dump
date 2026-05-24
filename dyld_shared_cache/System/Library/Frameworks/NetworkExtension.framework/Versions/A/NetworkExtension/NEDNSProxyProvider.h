@@ -19,9 +19,9 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (void);
-- (void)hID: /* Error: Ran out of types for this method. */;
+- (void)removePolicyWithID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSArray *systemDNSSettings; // @synthesize systemDNSSettings=_systemDNSSettings;

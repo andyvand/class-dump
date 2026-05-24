@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol _SFPBSportsItem
+- (void);
+- (NSData *)hLogRateLimiter",R;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int type;
 @end
 

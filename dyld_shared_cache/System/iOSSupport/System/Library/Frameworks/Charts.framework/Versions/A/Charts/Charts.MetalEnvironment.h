@@ -7,6 +7,7 @@
 @interface Charts.MetalEnvironment
 {
     id device;
+    id;
 }
 
 @end

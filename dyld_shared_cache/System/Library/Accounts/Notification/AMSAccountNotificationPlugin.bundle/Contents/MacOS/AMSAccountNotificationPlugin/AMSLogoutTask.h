@@ -9,24 +9,22 @@
 @interface AMSLogoutTask
 {
     ACAccount *_account;
-    ICCloudServiceStatusMonitor *_iCloudServiceMonitor;
 }
 
-+ (void);
-+ (void);
++ (void)w|;
++ (void)z;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)x;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
 @property(retain) ICCloudServiceStatusMonitor *iCloudServiceMonitor; // @synthesize iCloudServiceMonitor=_iCloudServiceMonitor;
 
 @end

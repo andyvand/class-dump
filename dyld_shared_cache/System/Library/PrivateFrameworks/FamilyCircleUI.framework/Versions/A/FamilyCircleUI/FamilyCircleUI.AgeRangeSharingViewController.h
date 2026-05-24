@@ -7,12 +7,10 @@
 @interface FamilyCircleUI.AgeRangeSharingViewController
 {
     id underlyingHostingController;
-    id ageRangeSharingViewModel;
-    id presentAsModal;
 }
 
 - (void);
-- (id);
+- (id)FLOWDOMAINEXECUTIONTYPE_MEDIAPLAYER_APP_SELECTION_FOREGROUP_APP_SIGNAL;
 - (id);
 - (void);
 - (void)H©ÜªÝÜ«Þä¬ß®;

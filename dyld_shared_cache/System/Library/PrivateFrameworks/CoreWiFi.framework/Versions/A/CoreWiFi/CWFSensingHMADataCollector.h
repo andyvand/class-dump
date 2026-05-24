@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, NSDictionary, NSError, NSObject, NSString;
-@protocol CWFSensingHMADataCollectorDelegate, OS_dispatch_queue;
+@class NSDictionary;
 
 @interface CWFSensingHMADataCollector
 {
     NSDictionary *__sensingParams;
-    HMAccessory *__accessory;
-    NSError *__serviceRegistrationError;
-    NSObject<OS_dispatch_queue> *__serviceQueue;
-    id <CWFSensingHMADataCollectorDelegate> __delegate;
-    long long __attempt;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,7 +26,7 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)9(;
 - (id);
 - (void);
 - (void);
@@ -40,19 +34,7 @@
 - (id)moteInterfaceManager associateNetwork:password:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) HMAccessory *_accessory; // @synthesize _accessory=__accessory;
-@property(nonatomic) long long _attempt; // @synthesize _attempt=__attempt;
-@property(retain, nonatomic) id <CWFSensingHMADataCollectorDelegate> _delegate; // @synthesize _delegate=__delegate;
 @property(retain, nonatomic) NSDictionary *_sensingParams; // @synthesize _sensingParams=__sensingParams;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_serviceQueue; // @synthesize _serviceQueue=__serviceQueue;
-@property(retain, nonatomic) NSError *_serviceRegistrationError; // @synthesize _serviceRegistrationError=__serviceRegistrationError;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

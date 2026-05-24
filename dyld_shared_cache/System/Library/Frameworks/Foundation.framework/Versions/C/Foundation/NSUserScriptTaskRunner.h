@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress, NSTask, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface NSUserScriptTaskRunner
 {
     NSXPCConnection *_connection;
-    NSTask *_task;
-    NSProgress *_progress;
 }
 
 - (_Bool);
 - (_Bool);
-- (oneway void);
-- (void);
-- (id);
+- (oneway void)!;
+- (void);
+- (id)NSt3__118__weak_result_typeIMN2LM10ParametersEKFfjjEEE;
 
 @end
 

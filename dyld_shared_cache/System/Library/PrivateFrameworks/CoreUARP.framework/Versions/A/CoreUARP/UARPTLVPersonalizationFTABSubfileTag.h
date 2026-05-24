@@ -15,12 +15,12 @@
 
 + (id);
 + (id);
-+ (id);
-+ (unsigned int);
++ (id)T;
++ (unsigned int)ll guids are already in progress. Waiting for them to complete.;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AMSURLRequestProperties;
 - (id);
 - (void);
 - (void);

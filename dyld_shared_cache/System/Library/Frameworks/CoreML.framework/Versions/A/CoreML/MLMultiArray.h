@@ -4,28 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol MTLBuffer;
-
 @interface MLMultiArray
 {
     struct unique_ptr<StorageManager, std::default_delete<StorageManager>> _storageManager;
-    NSArray *_shape;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool backingPixelBufferWasLocked;
 @property(readonly, nonatomic) const void *bytes;
-@property(readonly, nonatomic, getter=isContiguous) _Bool contiguous;
-@property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) void *dataPointer;
-@property(readonly, nonatomic) long long dataType;
-@property(readonly, nonatomic) id <MTLBuffer> mtlBuffer;
-@property(readonly, nonatomic) void *mutableBytes;
-@property(readonly, nonatomic) unsigned long long numberOfBytesPerElement;
-@property(readonly, nonatomic) struct __CVBuffer *pixelBuffer;
-@property(readonly, nonatomic) NSArray *shape; // @synthesize shape=_shape;
-@property(readonly, nonatomic) NSArray *strides;
 @end
 

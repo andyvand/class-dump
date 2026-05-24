@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSDateValue, NSString, NSURL;
+@class ICSDateValue;
 
 @interface CalDAVUpdateOwnerItem
 {
     ICSDateValue *_dtstamp;
-    NSString *_displayName;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSURL *_address;
-    NSString *_emailAddress;
-    NSString *_phoneNumber;
 }
 
 - (void);
@@ -23,33 +17,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)drain_depth_p_1_00_at_charge_start_soc_curr_dynamic_bin_8;
 - (id);
 - (void);
-- (id);
+- (id)*;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_SGSuggestionsServiceBaseProtocol;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *address; // @synthesize address=_address;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(retain, nonatomic) ICSDateValue *dtstamp; // @synthesize dtstamp=_dtstamp;
-@property(retain, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end
 

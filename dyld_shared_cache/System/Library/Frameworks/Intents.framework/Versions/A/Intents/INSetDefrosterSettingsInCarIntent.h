@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSNumber, NSString;
+@class NSNumber;
 
 @interface INSetDefrosterSettingsInCarIntent : INIntent
 {
@@ -25,27 +25,18 @@
 - (id);
 - (id);
 - (long long);
+- (void)origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}};
 - (void);
-- (void);
+- (void)r plist %s;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) INSpeakableString *carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) long long defroster;
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSNumber *enable;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

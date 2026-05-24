@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMSPISuggestionsObject
 {
     NSString *_chatGUID;
-    NSString *_displayName;
-    NSArray *_participants;
 }
 
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)ID=%llu, webPage=%p, webPageID=%llu] WebLocalFrameLoaderClient::dispatchDidFailLoad: /* Error: Ran out of types for this method. */;
+- (id)!';
 - (id);
 - (id);
 - (void)¨	ð	;
 
 // Remaining properties
 @property(readonly) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;
-@property(readonly) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly) NSArray *participants; // @synthesize participants=_participants;
 
 @end
 

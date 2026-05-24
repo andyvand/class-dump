@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCollectionCompositionalLayoutSolverBookmarkStateSnapshotter
 {
     _NSCollectionSectionSolutionBookmark *_bookmark;
-    long long _originalSectionIndex;
 }
 
 - (void);

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMSiriDictationEvent
 {
     double _absoluteTimestamp;
-    NSString *_recognizedText;
-    NSString *_correctedText;
 }
 
 + (id);
@@ -26,22 +22,12 @@
 - (double);
 - (_Bool);
 - (id);
-- (id);
+- (id)@;
 - (id)descriptor == &pg_query__execute_stmt__descriptor;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, copy, nonatomic) NSString *correctedText; // @synthesize correctedText=_correctedText;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *recognizedText; // @synthesize recognizedText=_recognizedText;
-@property(readonly) Class superclass;
 
 @end
 

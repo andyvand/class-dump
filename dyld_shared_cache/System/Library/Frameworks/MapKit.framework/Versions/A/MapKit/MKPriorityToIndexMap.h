@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface MKPriorityToIndexMap
 {
     NSMutableArray *_priorities;
-    NSMutableDictionary *_prioritiesToIndexes;
 }
 
 - (double);
@@ -22,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void)neNumberOptsOutOfAds;
-- (_Bool)ngeRegionAnimated:(id)arg1;
+- (id)VNShotflowDetectorFilterThresholdKey_Other;
+- (void)phoneNumberOptsOutOfAds;
+- (_Bool)_willChangeRegionAnimated:(id)arg1;
 
 @end
 

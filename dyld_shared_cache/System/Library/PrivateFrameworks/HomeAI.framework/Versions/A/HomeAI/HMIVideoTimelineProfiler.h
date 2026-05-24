@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMITimeIntervalAverage, HMIVideoTimeline;
+@class HMIVideoTimeline;
 
 @interface HMIVideoTimelineProfiler
 {
     HMIVideoTimeline *_timeline;
-    HMITimeIntervalAverage *_average;
 }
 
 - (void);

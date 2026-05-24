@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (id);
++ (id)u;
 + (id);
 + (id);
 + (id);
@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SCRCMathFencedExpression;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *defaultSymbols; // @synthesize defaultSymbols=_defaultSymbols;

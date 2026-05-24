@@ -7,8 +7,6 @@
 @interface NewsFeed.SportsLiveActivityCache
 {
     id _activeLiveActivityIDs;
-    id _state;
-    id task;
 }
 
 @end

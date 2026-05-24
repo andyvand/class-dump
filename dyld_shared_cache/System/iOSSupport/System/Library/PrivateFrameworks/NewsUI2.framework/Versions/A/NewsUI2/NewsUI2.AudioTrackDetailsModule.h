@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioTrackDetailsModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

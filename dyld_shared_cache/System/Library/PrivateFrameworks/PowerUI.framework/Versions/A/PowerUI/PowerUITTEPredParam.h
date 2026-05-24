@@ -7,18 +7,16 @@
 @interface PowerUITTEPredParam
 {
     float _maxPower;
-    float _minPower;
 }
 
 - (void);
 - (void);
 - (float);
-- (float);
+- (float);
 - (id);
 
 // Remaining properties
 @property(nonatomic) float maxPower; // @synthesize maxPower=_maxPower;
-@property(nonatomic) float minPower; // @synthesize minPower=_minPower;
 
 @end
 

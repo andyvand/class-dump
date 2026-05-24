@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaDestinationMessageHandler, HMMediaDestination, NSString, NSUUID;
-@protocol HMDMediaDestinationsManagerDataSource, HMDMediaDestinationsManagerDelegate;
+@class HMMediaDestination;
+@protocol HMDMediaDestinationsManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaDestinationsManager
 {
     HMMediaDestination *_destination;
-    HMDMediaDestinationMessageHandler *_messageHandler;
-    id <HMDMediaDestinationsManagerDataSource> _dataSource;
-    id <HMDMediaDestinationsManagerDelegate> _delegate;
 }
 
 + (unsigned long long);
@@ -22,54 +19,42 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
+- (void)ueryState";
+- (void)setPostedNotifications: /* Error: Ran out of types for this method. */;
+- (id)anoHistorySettingsPath;
+- (_Bool)Directory;
+- (id)ng",R,N,V_initiatorIdentifier;
 - (void);
+- (id)&,N,V_receiverRules;
+- (void)localizedStandardRangeOfString:(id)arg1;
+- (void)ate;
+- (void)g;
+- (id).o;
+- (id);
+- (id)`	;
+- (id);
+- (id)\;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)portraitEffectSchema;
+- (id)!;
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)olicies:(id)arg1;
+- (void)configureIsPrimaryResident:(id)arg1 networkAvailable:additionalPolicies: /* Error: Ran out of types for this method. */;
 - (id)ÿÿÿÿ;
 - (id)te gateway capable device;
 - (void)omeManagerReadyMSHH2;
 
 // Remaining properties
-@property(readonly) HMMediaDestination *committedDestination;
 @property __weak id <HMDMediaDestinationsManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaDestinationsManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) HMMediaDestination *destination; // @synthesize destination=_destination;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *identifier;
-@property(readonly) HMDMediaDestinationMessageHandler *messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(readonly) Class superclass;
 
 @end
 

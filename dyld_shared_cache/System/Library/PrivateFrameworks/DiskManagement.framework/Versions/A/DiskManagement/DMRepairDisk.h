@@ -19,15 +19,15 @@
 - (int);
 - (int);
 - (int);
+- (int)";
+- (int)#;
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
-- (void);
+- (void)PINLengthBitOffset;
+- (id)blockingBackgroundThread;
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property _Bool kextcacheEnabled;

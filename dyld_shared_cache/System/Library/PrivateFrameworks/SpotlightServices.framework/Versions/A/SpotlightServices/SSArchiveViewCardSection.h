@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItemAttributeSet, NSString, SFCardSection;
+@class CSSearchableItemAttributeSet;
 
 @interface SSArchiveViewCardSection
 {
     _Bool _isTopHit;
-    CSSearchableItemAttributeSet *_attributeSet;
-    NSString *_searchString;
-    SFCardSection *_fallbackCardSection;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)arrayWithArray:(id)arg1;
+- (id)pletionHandler;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)debugDescription;
 - (void)%d);
-- (id)r_distance;
+- (id)kMDItemPhotosHolidays_ordered_word_min_pair_distance;
 
 // Remaining properties
 @property(retain, nonatomic) CSSearchableItemAttributeSet *attributeSet; // @synthesize attributeSet=_attributeSet;
-@property(copy, nonatomic) SFCardSection *fallbackCardSection; // @synthesize fallbackCardSection=_fallbackCardSection;
-@property(nonatomic) _Bool isTopHit; // @synthesize isTopHit=_isTopHit;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

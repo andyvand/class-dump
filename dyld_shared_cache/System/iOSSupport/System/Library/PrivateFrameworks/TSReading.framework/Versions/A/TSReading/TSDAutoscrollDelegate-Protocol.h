@@ -7,10 +7,17 @@
 @class TSDAutoscroll, TSDInteractiveCanvasController;
 
 @protocol TSDAutoscrollDelegate
+- (void)MPCPlayerCommandRequestMediaRemoteOptionReplaceIntent;
+- (void)16@?0@"MPModelObject"8;
+- (TSDInteractiveCanvasController *);
+
+@optional
+- (double)FailedToLoadProcessor;
+- (_Bool);
+- (TSDAutoscroll *);
+- (unsigned long long)MPCPlaybackEngineEventPayloadKey;
 
 // Remaining properties
-@property(retain, nonatomic) TSDAutoscroll *autoscroll;
-@property(nonatomic) struct CGPoint autoscrollPoint;
 @property(readonly, nonatomic) TSDInteractiveCanvasController *icc;
 @end
 

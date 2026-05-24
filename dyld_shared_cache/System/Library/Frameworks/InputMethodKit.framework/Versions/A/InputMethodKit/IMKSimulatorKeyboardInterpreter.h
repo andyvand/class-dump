@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface IMKSimulatorKeyboardInterpreter
 {
     NSData *_keyboardLayoutData;
-    NSString *_keyboardLayoutIdentifier;
 }
 
 + (id);
@@ -17,13 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)q!;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *keyboardLayoutData; // @synthesize keyboardLayoutData=_keyboardLayoutData;
-@property(retain, nonatomic) NSString *keyboardLayoutIdentifier; // @synthesize keyboardLayoutIdentifier=_keyboardLayoutIdentifier;
 
 @end
 

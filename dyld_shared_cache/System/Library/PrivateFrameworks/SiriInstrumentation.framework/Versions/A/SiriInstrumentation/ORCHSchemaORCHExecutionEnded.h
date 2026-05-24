@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHExecutionEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
+- (id)$;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)R;
 - (id)1Â0@ù
 × ;
-- (id)ssets;
-- (id);
-- (_Bool)LOWMEDIAPLAYERTASKTYPE_SET_VOLUME;
-- (_Bool)TestType;
+- (id)_availableSiriAssets;
+- (id)rawNowPlayingCountCoreDuet28Day;
+- (_Bool)FLOWMEDIAPLAYERTASKTYPE_SET_VOLUME;
+- (_Bool)SUTSchemaTestType;
 - (void)ô;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

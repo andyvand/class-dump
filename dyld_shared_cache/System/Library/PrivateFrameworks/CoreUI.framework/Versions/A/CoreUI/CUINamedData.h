@@ -6,7 +6,7 @@
 
 #import <CoreUI/CUINamedLookup.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CUINamedData : CUINamedLookup
 {
@@ -18,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data;
 @property(readonly, copy, nonatomic) NSString *utiType;
 
 @end

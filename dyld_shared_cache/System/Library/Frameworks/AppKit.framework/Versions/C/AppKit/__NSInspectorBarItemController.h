@@ -4,94 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColorWell, NSComboBox, NSInspectorBar, NSInspectorBarState, NSPopUpButton, NSSegmentedControl, NSString, NSView;
-@protocol NSInspectorBarClient><NSTextInputClient;
+@class NSInspectorBar;
 
 @interface __NSInspectorBarItemController
 {
     NSInspectorBar *_inspectorBar;
-    id _client;
-    NSString *_lastAction;
-    id _lastActionConfig;
-    NSPopUpButton *stylePopup;
-    NSPopUpButton *fontFamilyPopup;
-    NSPopUpButton *fontFacePopup;
-    NSComboBox *fontSizeComboBox;
-    NSColorWell *foregroundColorWell;
-    NSColorWell *backgroundColorWell;
-    NSSegmentedControl *textStyleSwitches;
-    NSSegmentedControl *alignmentSwitches;
-    NSView *horizontalAlignmentContainer;
-    NSSegmentedControl *horizontalAlignmentLCRSwitches;
-    NSSegmentedControl *horizontalAlignmentJSwitches;
-    NSPopUpButton *lineSpacingPopup;
-    NSPopUpButton *listPopup;
-    struct {
-        unsigned int _interfaceLoaded:1;
-        unsigned int _alignment:1;
-        unsigned int _backgroundColor:1;
-        unsigned int _multipleRanges:1;
-        unsigned int _textStorage:1;
-        unsigned int _typingAttributes:1;
-        unsigned int _textView:1;
-        unsigned int _styleInvalidated:1;
-        unsigned int _userFontSectionInvalidated:1;
-        unsigned int _mainFontSectionInvalidated:1;
-        unsigned int _forceUpdatingTypeface:1;
-        unsigned int _lineSpaceSheet:1;
-        unsigned int _clientIsAsync:1;
-        unsigned int _reserved:19;
-        unsigned int _shouldConfirmLastActionBeforeCheckingFallback:1;
-    } _flags;
-    _Bool _fullyJustified;
-    NSInspectorBarState *_inspectorState;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)%02lld:%02lld /* Error: Ran out of types for this method. */;
+- (id)L
+;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Ҕ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)3;
+- (void)(%d);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (long long)k:(id)arg1 %s;
+- (id)NA;
+- (id)/ilw;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)B;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)J;
 - (id);
 - (double);
 - (id);
@@ -117,39 +82,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)q}16;
+- (void)backgroundAVAssetDownloadTask:(id)arg1 didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelectionPropertyList: /* Error: Ran out of types for this method. */;
+- (void)set_allowsTLSSessionResumption:(id)arg1;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void)yMask;
 
 // Remaining properties
-@property(retain) NSSegmentedControl *alignmentSwitches; // @synthesize alignmentSwitches;
-@property(retain) NSColorWell *backgroundColorWell; // @synthesize backgroundColorWell;
-@property(readonly) id <NSInspectorBarClient><NSTextInputClient> client;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSPopUpButton *fontFacePopup; // @synthesize fontFacePopup;
-@property(retain) NSPopUpButton *fontFamilyPopup; // @synthesize fontFamilyPopup;
-@property(retain) NSComboBox *fontSizeComboBox; // @synthesize fontSizeComboBox;
-@property(retain) NSColorWell *foregroundColorWell; // @synthesize foregroundColorWell;
 @property(nonatomic) _Bool fullyJustified; // @synthesize fullyJustified=_fullyJustified;
-@property(readonly) unsigned long long hash;
-@property(retain) NSView *horizontalAlignmentContainer; // @synthesize horizontalAlignmentContainer;
-@property __weak NSSegmentedControl *horizontalAlignmentJSwitches; // @synthesize horizontalAlignmentJSwitches;
-@property __weak NSSegmentedControl *horizontalAlignmentLCRSwitches; // @synthesize horizontalAlignmentLCRSwitches;
-@property(retain, nonatomic) NSInspectorBarState *inspectorState; // @synthesize inspectorState=_inspectorState;
-@property(retain) NSPopUpButton *lineSpacingPopup; // @synthesize lineSpacingPopup;
-@property(retain) NSPopUpButton *listPopup; // @synthesize listPopup;
-@property(retain) NSPopUpButton *stylePopup; // @synthesize stylePopup;
-@property(readonly) Class superclass;
-@property(retain) NSSegmentedControl *textStyleSwitches; // @synthesize textStyleSwitches;
 
 @end
 

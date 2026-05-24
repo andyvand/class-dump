@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCDPCodeServiceResponseAttestationResponse, CKCDPError, NSData, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKCDPCodeServiceResponse
 {
     NSMutableArray *_assetAuthorizationResponses;
-    CKCDPCodeServiceResponseAttestationResponse *_attestationResponse;
-    CKCDPError *_error;
-    NSData *_serializedResult;
 }
 
 + (Class);
@@ -24,31 +21,25 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)AmountUniqueIdentifier;
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)urce_audioConverterInputCallBack(AudioConverterRef, UInt32 *, AudioBufferList *, AudioStreamPacketDescription **, void *);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)vipManager:(id)arg1 hasVIPNotificationsEnabledWithCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)alidBytes;
+- (void)ZoneishKeyIDWithOnlyTwoValidBytes;
 - (_Bool)ceCheck,;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *assetAuthorizationResponses; // @synthesize assetAuthorizationResponses=_assetAuthorizationResponses;
-@property(retain, nonatomic) CKCDPCodeServiceResponseAttestationResponse *attestationResponse; // @synthesize attestationResponse=_attestationResponse;
-@property(retain, nonatomic) CKCDPError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool hasAttestationResponse;
-@property(readonly, nonatomic) _Bool hasError;
 @property(readonly, nonatomic) _Bool hasSerializedResult;
-@property(retain, nonatomic) NSData *serializedResult; // @synthesize serializedResult=_serializedResult;
 
 @end
 

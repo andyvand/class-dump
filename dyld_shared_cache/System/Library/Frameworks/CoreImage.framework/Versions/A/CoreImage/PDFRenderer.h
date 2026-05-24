@@ -10,16 +10,14 @@ __attribute__((visibility("hidden")))
 @interface PDFRenderer : CGRenderer
 {
     struct __CFDictionary *info;
-    struct __CFData *data;
-    struct CGDataConsumer *dataConsumer;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);;
 - (void);
 - (struct __CFData *);
 - (void);
-- (id);
+- (id));
 - (void)300
     coreimage:(id)arg1:group::destination   group::make_destination(float2 c, uint2 gid, float4 r, float4x4 m, metal::texture2d<float, access::write> t );
     coreimage::group::destination_h group::make_destination(float2 c, uint2 gid, float4 r, float4x4 m, metal::texture2d<half,  access::write> t );

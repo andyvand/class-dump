@@ -15,10 +15,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)valid because it overlaps with previous group (range = %@ overlaps with group endeing at %d) - group will be ignored;
 - (id);
 - (void);
-- (id);
+- (id)gate Did Connect;
 - (void);
 
 @end

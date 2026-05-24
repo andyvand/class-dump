@@ -6,31 +6,25 @@
 
 #import <BiomeFoundation/BMProcess.h>
 
-@class NSNumber;
-
 @interface BMProcessCurrent : BMProcess
 {
     struct os_unfair_lock_s _reliesOnLegacyDirectAccessLock;
-    NSNumber *_reliesOnLegacyDirectAccess;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ntIDs: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAccessAppleKeyStore;
 @property(readonly, nonatomic) _Bool isManagedByLaunchd;
-@property(readonly, nonatomic) _Bool isManagedByRunningBoard;
-@property(readonly, nonatomic) _Bool isRunningInUserContext;
 
 @end
 

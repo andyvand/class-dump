@@ -5,5 +5,6 @@
 //
 
 @protocol UINSWindowStateControllerDelegate
+- (void);
 @end
 

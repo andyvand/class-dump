@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (AXBrailleMapProvider)
-- (void);
-- (void);
+- (void)on;
+- (void)lock=%d;
 - (struct CGRect);
 - (CDUnknownBlockType);
 @end

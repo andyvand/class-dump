@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
-+ (void);
++ (void)__UIImageViewAccessibility__PhotosUI__UIKit_super;
 - (_Bool);
-- (id);
+- (id)superview;
 
 @end
 

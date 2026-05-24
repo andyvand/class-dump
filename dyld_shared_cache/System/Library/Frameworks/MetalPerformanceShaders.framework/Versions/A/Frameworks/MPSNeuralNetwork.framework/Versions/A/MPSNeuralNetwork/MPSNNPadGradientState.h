@@ -9,12 +9,10 @@
 @interface MPSNNPadGradientState : MPSNNGradientState
 {
     struct MPSImageCoordinate _fwdPadBefore;
-    struct MPSImageCoordinate _fwdPadAfter;
-    unsigned long long _srcImgFcCount;
 }
 
 + (id);
-- (void);
+- (void)+ ;
 - (id);
 - (id);
 

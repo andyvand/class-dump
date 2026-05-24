@@ -9,10 +9,6 @@
 @interface AccessibilitySharedSupport.AXSSRemoteDesktopViewerMac : AccessibilitySharedSupport.AXSSRemoteDesktopViewerBase
 {
     id _voiceOverManager;
-    id _visualsManager;
-    id _autoControlVoiceOver;
-    id _notificationHelper;
-    id _enabledFeatures;
 }
 
 @end

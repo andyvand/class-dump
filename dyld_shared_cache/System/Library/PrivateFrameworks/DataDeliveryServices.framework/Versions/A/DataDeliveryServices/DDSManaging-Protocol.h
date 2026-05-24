@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol DDSManagingDelegate;
 
 @protocol DDSManaging
+- (void);
+- (void)_size;
+- (void)ReduceTransparency_DefaultContrast_ReduceTransparency_Light_LTR;
+- (void);
 
 // Remaining properties
 @property __weak id <DDSManagingDelegate> delegate;
-@property(readonly, copy) NSString *xpcServiceName;
 @end
 

@@ -7,14 +7,18 @@
 @protocol UIAsyncTextInputClient
 
 @optional
+- (void);
+- (void)6;
+- (_Bool);
 - (void);
+- (void)_routeNames;
 - (void)0@ù
 × ;
 - (void)!°!Aùb°1Â0@ù
 × ;
-- (void)RL;
-- (void)view:(struct CGPoint)arg1 imageComponent:(void (^)(_Bool))arg2 sourceView: /* Error: Ran out of types for this method. */;
-- (void)lta;
+- (void)primaryPresentedItemURL;
+- (void)initWithDUIPreview:(struct CGPoint)arg1 imageComponent:(void (^)(_Bool))arg2 sourceView: /* Error: Ran out of types for this method. */;
+- (void)_preReloadAnimationTargetOffsetDelta;
 - (void),C,N,V_searchIconMatchedViewIdentifier;
 - (void)(;
 - (void)ter if necessary on main thread:(CDStruct_912cb5d2)arg1 %@;

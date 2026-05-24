@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CUIProgressBarLayer
 {
     long long _state;
-    double _value;
-    double _previousPresentedValue;
-    double _presentedValue;
-    double _animationBeginTime;
-    NSString *_animationBeginTimeMode;
-    float _animationRepeatCount;
-    CALayer *_trackLayer;
-    CALayer *_trackOutlineLayer;
-    CALayer *_indicatorClipLayer;
-    CALayer *_indicatorFillLayer;
-    _Bool _rtl;
 }
 
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
@@ -31,6 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,13 +30,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)uC;
 - (id);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
+- (id)initWithNeuralEngineDevice: /* Error: Ran out of types for this method. */;
+- (void)_allowMultipleInputsWithEnumeratedShapes;
 - (void);
 - (void);
 - (void);
@@ -64,18 +51,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isRTL) _Bool RTL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CALayer *indicatorClipLayer; // @synthesize indicatorClipLayer=_indicatorClipLayer;
-@property(retain, nonatomic) CALayer *indicatorFillLayer; // @synthesize indicatorFillLayer=_indicatorFillLayer;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CALayer *trackLayer; // @synthesize trackLayer=_trackLayer;
-@property(retain, nonatomic) CALayer *trackOutlineLayer; // @synthesize trackOutlineLayer=_trackOutlineLayer;
 @property(nonatomic) double value;
 
 @end

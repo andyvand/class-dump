@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSArray;
+@class CLPlacemark;
 
 @protocol INReportIncidentIntentResponseExport
+- (void);
 - (CLPlacemark *)%Ð!Ì@ù¾(1Â0@ù
 × ;
-- (long long)ity;
+- (long long)hasMinimumBatteryCapacity;
 - (void)×QO
 ;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) CLPlacemark *location;
-@property(copy) NSArray *supportedTypes;
-@property unsigned long long transportTypes;
 @end
 

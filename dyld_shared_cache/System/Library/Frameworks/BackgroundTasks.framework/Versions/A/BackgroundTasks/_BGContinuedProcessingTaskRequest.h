@@ -11,10 +11,6 @@
 @interface _BGContinuedProcessingTaskRequest : BGTaskRequest
 {
     NSString *_title;
-    NSString *_reason;
-    NSString *_iconBundleIdentifier;
-    NSString *_applicationBundleIdentifier;
-    NSString *_linkToBundleIdentifier;
 }
 
 + (id);
@@ -22,30 +18,26 @@
 - (id);
 - (id);
 - (id);
+- (void)40@0:(id)arg1 8@16{CGSize=dd}24;
+- (id)setHasViewedContactsAccessAlertForCalDAVSharing: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)nt in grocery relevance smart stack widget;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)updateNoteParticipants;
+- (id)@;
+- (id)$C;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
 @property(copy, nonatomic) NSString *iconBundleIdentifier; // @synthesize iconBundleIdentifier=_iconBundleIdentifier;
-@property(copy, nonatomic) NSString *linkToBundleIdentifier; // @synthesize linkToBundleIdentifier=_linkToBundleIdentifier;
-@property(copy) NSString *reason; // @synthesize reason=_reason;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

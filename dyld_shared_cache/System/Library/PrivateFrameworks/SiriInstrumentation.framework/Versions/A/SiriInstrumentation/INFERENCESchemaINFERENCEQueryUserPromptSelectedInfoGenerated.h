@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface INFERENCESchemaINFERENCEQueryUserPromptSelectedInfoGenerated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalResolutionContextId;
-    SISchemaUUID *_queryId;
-    int _disambiguationResolution;
-    int _confirmationResolution;
-    NSString *_anonymizedSelectedEntityIdentifier;
-    _Bool _hasOriginalResolutionContextId;
-    _Bool _hasQueryId;
-    _Bool _hasDisambiguationResolution;
-    _Bool _hasConfirmationResolution;
-    _Bool _hasAnonymizedSelectedEntityIdentifier;
-    unsigned long long _whichResolutiontype;
 }
 
 - (unsigned long long);
@@ -59,22 +49,11 @@
 × ;
 - (id)tcome"b1};
 - (id)Array",C,N,V_heardParticipants;
-- (id);
+- (id)PFAPreprocessorExecutionStarted;
 - (void)q;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *anonymizedSelectedEntityIdentifier; // @synthesize anonymizedSelectedEntityIdentifier=_anonymizedSelectedEntityIdentifier;
-@property(nonatomic) int confirmationResolution; // @synthesize confirmationResolution=_confirmationResolution;
-@property(nonatomic) int disambiguationResolution; // @synthesize disambiguationResolution=_disambiguationResolution;
-@property(nonatomic) _Bool hasAnonymizedSelectedEntityIdentifier; // @synthesize hasAnonymizedSelectedEntityIdentifier=_hasAnonymizedSelectedEntityIdentifier;
-@property(nonatomic) _Bool hasConfirmationResolution; // @synthesize hasConfirmationResolution=_hasConfirmationResolution;
-@property(nonatomic) _Bool hasDisambiguationResolution; // @synthesize hasDisambiguationResolution=_hasDisambiguationResolution;
-@property(nonatomic) _Bool hasOriginalResolutionContextId; // @synthesize hasOriginalResolutionContextId=_hasOriginalResolutionContextId;
-@property(nonatomic) _Bool hasQueryId; // @synthesize hasQueryId=_hasQueryId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalResolutionContextId; // @synthesize originalResolutionContextId=_originalResolutionContextId;
-@property(retain, nonatomic) SISchemaUUID *queryId; // @synthesize queryId=_queryId;
-@property(readonly, nonatomic) unsigned long long whichResolutiontype; // @synthesize whichResolutiontype=_whichResolutiontype;
 
 @end
 

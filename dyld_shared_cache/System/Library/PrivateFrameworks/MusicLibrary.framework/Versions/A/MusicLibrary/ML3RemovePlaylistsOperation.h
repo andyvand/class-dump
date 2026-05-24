@@ -10,10 +10,10 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)sitionOneTimeAction:(id *)arg1 ,V__idleStateTransitionOneTimeAction;
+- (_Bool)iteria;
+- (_Bool)setFractionOfCuratedAssetsWithEmbeddingsInVectorIndexThreshold:(id)arg1;
+- (_Bool)payloadUUIDData;
 - (_Bool);
 - (unsigned long long);
 

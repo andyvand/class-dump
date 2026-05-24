@@ -16,10 +16,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_setAccessibilityValueBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

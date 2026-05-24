@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WDCharacterProperties, WDDocument, WDParagraphProperties, WDStyle, WDTableCellProperties, WDTableRowProperties;
+@class WDDocument, WDStyle;
 
 __attribute__((visibility("hidden")))
 @interface WDTableStyleOverride
 {
     WDDocument *mDocument;
-    int mPart;
-    WDParagraphProperties *mParagraphProperties;
-    WDCharacterProperties *mCharacterProperties;
-    WDTableRowProperties *mTableRowProperties;
-    WDTableCellProperties *mTableCellStyleProperties;
-    unsigned int mParagraphPropertiesOverridden:1;
-    unsigned int mCharacterPropertiesOverridden:1;
-    unsigned int mTableRowPropertiesOverridden:1;
-    unsigned int mTableCellStylePropertiesOverridden:1;
-    WDStyle *mStyle;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id)H;
 - (id);
+- (_Bool)Z;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
+- (id)Button(==20)]|;
+- (id);
+- (void);
+- (id)DC;
 - (int)ù
 × ;
 - (void)d length;

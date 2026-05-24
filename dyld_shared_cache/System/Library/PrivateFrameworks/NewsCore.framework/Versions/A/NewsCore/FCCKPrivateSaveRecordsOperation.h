@@ -11,17 +11,13 @@
 @interface FCCKPrivateSaveRecordsOperation : FCCKPrivateDatabaseOperation
 {
     _Bool _canBypassEncryptionRequirement;
-    NSArray *_recordsToSave;
-    long long _savePolicy;
-    CDUnknownBlockType _saveRecordsCompletionBlock;
-    NSArray *_resultSavedRecords;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)iMac;
 - (id);
 - (void)DictionaryWithAccessor(NSURL *__strong, NSSet<Class> *__strong, NSURL *__strong, NSError *__strong, void (^__strong)(NSMutableDictionary *__strong));
 - (void)tate;
@@ -33,11 +29,7 @@
 - (_Bool)Oßÿ3Z<là;
 
 // Remaining properties
-@property(nonatomic) _Bool canBypassEncryptionRequirement; // @synthesize canBypassEncryptionRequirement=_canBypassEncryptionRequirement;
-@property(copy, nonatomic) NSArray *recordsToSave; // @synthesize recordsToSave=_recordsToSave;
 @property(retain, nonatomic) NSArray *resultSavedRecords; // @synthesize resultSavedRecords=_resultSavedRecords;
-@property(nonatomic) long long savePolicy; // @synthesize savePolicy=_savePolicy;
-@property(copy, nonatomic) CDUnknownBlockType saveRecordsCompletionBlock; // @synthesize saveRecordsCompletionBlock=_saveRecordsCompletionBlock;
 
 @end
 

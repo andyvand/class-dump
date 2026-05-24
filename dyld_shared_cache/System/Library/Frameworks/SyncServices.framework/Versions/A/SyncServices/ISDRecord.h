@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface ISDRecord
 {
     NSString *_recordId;
-    int _entityNumber;
-    NSMutableArray *_propertyValues;
-    NSMutableArray *_unformattedRelationshipValues;
-    unsigned int _addedGeneration;
-    unsigned int _lastChangedGeneration;
-    int _state;
-    int _lastChangedByClientNumber;
-    _Bool _deleted;
-    _Bool _propertyValuesIncludeDataReferences;
-    NSMutableDictionary *_relationshipMap;
-    NSMutableArray *_reorderOnlyPropertyNames;
 }
 
 - (id);
@@ -31,12 +20,12 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)_;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -49,7 +38,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -68,7 +57,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (void);
 - (id);

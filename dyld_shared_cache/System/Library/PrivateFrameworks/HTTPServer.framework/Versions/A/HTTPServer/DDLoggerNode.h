@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol DDLogger, OS_dispatch_queue;
+@protocol DDLogger;
 
 @interface DDLoggerNode
 {
     id <DDLogger> logger;
-    NSObject<OS_dispatch_queue> *loggerQueue;
 }
 
 + (id);

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCIDRScheduler
 {
     NSMutableDictionary *_schedulerGroups;
-    NSMutableArray *_schedulerItems;
-    NSArray *_streams;
-    unsigned int _basePeriodMs;
-    unsigned int _framesPerBasePeriod;
-    unsigned int _captureFramerate;
 }
 
 + (unsigned int);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -30,12 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int basePeriodMs; // @synthesize basePeriodMs=_basePeriodMs;
-@property(readonly, nonatomic) unsigned int captureFramerate; // @synthesize captureFramerate=_captureFramerate;
 
 @end
 

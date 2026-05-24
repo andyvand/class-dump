@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAGKDomainObject.h>
 
-@class NSArray, SAGKDirectAnswer;
+@class SAGKDirectAnswer;
 
 @interface SAGKOpenEndedDomainObject : SAGKDomainObject
 {
@@ -23,13 +23,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 
 // Remaining properties
 @property(retain, nonatomic) SAGKDirectAnswer *directAnswer;
-@property(copy, nonatomic) NSArray *image;
-@property(copy, nonatomic) NSArray *linkedAnswerGroups;
-@property(copy, nonatomic) NSArray *structuredAnswers;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface PhotosUICore.PhotosItemListSelectionChangeDetailsRepository
 {
     id historyLimit;
-    id snapshots;
 }
 
 @end

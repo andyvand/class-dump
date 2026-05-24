@@ -6,66 +6,36 @@
 
 #import <TSReading/TSWPTextHostLayout.h>
 
-@class NSString, TSTEditingState, TSTLayoutHint, TSTLayoutSpaceBundle, TSTMasterLayout, TSTTableInfo, TSTTableModel, TSWPLayout, TSWPPadding;
+@class TSTMasterLayout, TSTTableInfo;
 
 @interface TSTLayout : TSWPTextHostLayout
 {
     TSTMasterLayout *mMasterLayout;
-    TSTLayoutHint *mLayoutHint;
-    struct CGRect mCanvasVisibleRect;
-    struct CGRect mPreviousVisibleStrokeFrame;
-    _Bool mProcessChangesFiltering;
-    _Bool mTabsVisible;
-    _Bool mTableNameVisibilityIsValid;
-    _Bool mTableNameVisible;
-    _Bool mNewCanvasRevealedHorizontally;
-    _Bool mNewCanvasRevealedVertically;
-    _Bool mLayoutDirectionIsLeftToRight;
-    TSTLayoutSpaceBundle *mSpaceBundle;
-    struct {
-        double tableNameHeight;
-        struct CGSize scaleToFitParent;
-        struct CGSize scaleToFitEnclosingTextColumn;
-    } mCached;
-    struct CGRect mRenderingFrameForLayoutGeometryFromInfo;
-    TSWPLayout *mContainedTextEditingLayout;
-    struct UIEdgeInsets mCachedPaddingForEditingCell;
-    struct CGRect mComputedEditingCellContentFrame;
-    unsigned int mCachedVerticalAlignmentForEditingCell;
-    struct CGSize mTableSizeWithoutStrokes;
-    struct CGSize mStrokeDelta;
-    struct CGSize mCapturedStrokeFrameSizeForInline;
-    CDStruct_5f1f7aa9 mEditingSpillingTextRange;
-    unsigned int mContainedTextEditorParagraphAlignment;
-    _Bool mContainedTextEditorTextWraps;
-    _Bool mContainedTextEditorSpills;
-    struct CGSize mSpillingTextSize;
-    int mCoordinatesChangedMaskForChrome;
 }
 
+- (void)MetadataRequest.m;
+- (void)ist"8;
+- (void)kCore.MPCQueueControllerBehaviorMusicSharePlay;
+- (id)or;
+- (_Bool)erstitial-begin;
+- (void)pt-begin;
+- (id)provide event types to enumerate.;
+- (void)DRM:(CDStruct_bd4d8e6b)arg1 SINF;
+- (void)sic.mediaplayback.dsp.evaluation;
+- (void)n:(_Bool)arg1 in state `%@`;
 - (void);
+- (void)specified were not valid;
+- (void)configuration;
+- (_Bool)[not playing] - identifier: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (struct CGRect);
-- (int);
-- (_Bool);
-- (struct UIEdgeInsets);
-- (void);
-- (struct CGSize);
-- (void);
-- (void);
+- (struct CGRect)to load any player item;
+- (int)ask started - ;
+- (_Bool)ue to player gaining overlap support;
+- (struct UIEdgeInsets)itemDidFailToPlayToEnd: /* Error: Ran out of types for this method. */;
+- (void)a request to resolve a playback failure event for a non-failure event ;
+- (struct CGSize)initialAutoplayMode;
+- (void)networkReachableDuration;
+- (void)networkLikelyReachableDuration;
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
@@ -74,27 +44,27 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)UserEvent;
 - (id);
 - (id);
+- (struct CGPoint)SessionInitiator;
+- (id);
+- (CDStruct_f5d1269f);
+- (id);
+- (id);
+- (id)f;
+- (_Bool);
+- (_Bool);
 - (struct CGPoint);
-- (id);
-- (CDStruct_5f1f7aa9);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
@@ -114,7 +84,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)rL;
 - (double);
 - (id);
 - (id);
@@ -132,7 +102,136 @@
 - (id);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)"formatVersion":(id)arg1 "1.3.0-beta-1.3.0"
+                                    },
+                                    "data":{
+                                        "value":"https://news-assets.apple.com/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/5d93aea2-b38f-4c1f-89bd-b337bb1ac07c"
+                                    },
+                                    "type":"url"
+                                },
+                                {
+                                    "metadata":{
+                                        "formatVersion":"1.2.0-beta-1.2.0"
+                                    },
+                                    "data":{
+                                        "value":"https://news-assets.apple.com/assets/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/00b9a8ba-5bdd-4e6a-fb7b-db154b558d7f"
+                                    },
+                                    "type":"url"
+                                },
+                                {
+                                    "metadata":{
+                                        "formatVersion":"1.2.0-beta-1.8.1"
+                                    },
+                                    "data":{
+                                        "value":"https://news-assets.apple.com/assets/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/2ab70694-a5d2-4fc7-a6b7-29ac3c6a68b8"
+                                    },
+                                    "type":"url"
+                                },
+                                {
+                                    "metadata":{
+                                        "formatVersion":"1.2.0-beta-1.6.1"
+                                    },
+                                    "data":{
+                                        "value":"https://news-assets.apple.com/assets/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/17d566c4-e357-4cee-8507-caa4c72d0086"
+                                    },
+                                    "type":"url"
+                                },
+                                {
+                                    "metadata":{
+                                        "formatVersion":"1.2.0"
+                                    },
+                                    "data":{
+                                        "value":"https://news-assets.apple.com/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/c3eac686-0469-4829-83bd-75dffeb47355"
+                                    },
+                                    "type":"url"
+                                }
+                            ]
+                        }
+                    ],
+                    "themes":[
+                        {
+                            "metadata":{
+                                "formatVersion":"1.3.0-beta-1.3.0"
+                            },
+                            "data":{
+                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
+                            },
+                            "type":"url"
+                        }
+                    ]
+                }
+            },
+            {
+                "identifier":"articleList-1",
+                "paidVisibility":"both",
+                "type":"articleList",
+                "content":{
+                    "identifier":"articleList-1",
+                    "publishDate":"2020-07-28T14:22:38.370148Z",
+                    "themeReferences":[
+                        "926c29ea-3a94-492d-82fc-e534b5ba40e5"
+                    ],
+                    "subgroups":[
+                        {
+                            "layoutReferences":[
+                                "6a308130-6348-4a49-c902-8cc6545fc759"
+                            ],
+                            "contents":[
+                                {
+                                    "items":[
+                                        {
+                                            "data":{
+                                                "identifier":"articles"
+                                            },
+                                            "type":"placeholder"
+                                        }
+                                    ],
+                                    "slot":"articles-0"
+                                }
+                            ],
+                            "layouts":[
+                                {
+                                    "metadata":{
+                                        "formatVersion":"1.3.0-beta-1.3.0"
+                                    },
+                                    "data":{
+                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/f9dc851a-1837-4795-cce1-d46ad292f5b7"
+                                    },
+                                    "type":"url"
+                                },
+                                {
+                                    "metadata":{
+                                        "formatVersion":"1.2.0"
+                                    },
+                                    "data":{
+                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/c2f2a5ab-7dc3-4af4-9f0c-75f2fc4f94c7"
+                                    },
+                                    "type":"url"
+                                }
+                            ]
+                        }
+                    ],
+                    "themes":[
+                        {
+                            "metadata":{
+                                "formatVersion":"1.3.0-beta-1.3.0"
+                            },
+                            "data":{
+                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
+                            },
+                            "type":"url"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "knobsConfig":{
+        "minGroups":1,
+        "maxGroups":4294967296,
+        "groupKnobs":{}
+    }
+} /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (void);
@@ -145,38 +244,7 @@
 - (void)O;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize adjustedInsets;
-@property(readonly, nonatomic) _Bool alwaysStartsNewTarget;
-@property(readonly, nonatomic) unsigned long long columnCount;
-@property(readonly, nonatomic) _Bool columnsAreLeftToRight;
-@property(readonly, nonatomic) struct CGRect computedEditingCellContentFrame;
-@property(retain, nonatomic) TSWPLayout *containedTextEditingLayout; // @synthesize containedTextEditingLayout=mContainedTextEditingLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDStruct_5f1f7aa9 editingSpillingTextRange; // @synthesize editingSpillingTextRange=mEditingSpillingTextRange;
-@property(readonly, nonatomic) TSTEditingState *editingState;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool layoutDirectionIsLeftToRight; // @synthesize layoutDirectionIsLeftToRight=mLayoutDirectionIsLeftToRight;
-@property(retain, nonatomic) TSTLayoutHint *layoutHint; // @synthesize layoutHint=mLayoutHint;
-@property(readonly, nonatomic) TSWPPadding *layoutMargins;
-@property(retain, nonatomic) TSTMasterLayout *masterLayout; // @synthesize masterLayout=mMasterLayout;
-@property(nonatomic) _Bool newCanvasRevealedHorizontally; // @synthesize newCanvasRevealedHorizontally=mNewCanvasRevealedHorizontally;
-@property(nonatomic) _Bool newCanvasRevealedVertically; // @synthesize newCanvasRevealedVertically=mNewCanvasRevealedVertically;
-@property(readonly, nonatomic) struct UIEdgeInsets paddingForEditingCell; // @synthesize paddingForEditingCell=mCachedPaddingForEditingCell;
-@property(nonatomic) _Bool processChangesFiltering; // @synthesize processChangesFiltering=mProcessChangesFiltering;
-@property(nonatomic) struct CGSize scaleToFit;
-@property(readonly, nonatomic) _Bool shrinkTextToFit;
-@property(retain, nonatomic) TSTLayoutSpaceBundle *spaceBundle; // @synthesize spaceBundle=mSpaceBundle;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) TSTTableInfo *tableInfo;
-@property(readonly, nonatomic) TSTTableModel *tableModel;
-@property(readonly, nonatomic) double textScaleFactor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 
 @end
 

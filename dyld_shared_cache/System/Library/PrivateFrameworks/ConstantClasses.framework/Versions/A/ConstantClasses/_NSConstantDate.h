@@ -10,7 +10,7 @@
 
 + (id);
 - (unsigned long long);
-- (void);
+- (void)setInternalQueue: /* Error: Ran out of types for this method. */;
 - (oneway void);
 - (id);
 - (double);

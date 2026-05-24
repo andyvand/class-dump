@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol NURenderStatistics;
-
 @interface _PIPosterInactiveFrameLayoutResult
 {
     struct CGRect _inactiveRect;
-    struct CGRect _adaptiveInactiveRect;
 }
 
 - (void);
@@ -20,16 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGRect adaptiveInactiveRect; // @synthesize adaptiveInactiveRect=_adaptiveInactiveRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct CGRect inactiveRect; // @synthesize inactiveRect=_inactiveRect;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface IOCEventIOStopRequest
 {
     _Bool notifyIOClients;
-    unsigned int direction;
-    int reason;
 }
 
 + (_Bool);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int direction; // @synthesize direction;
-@property(nonatomic) _Bool notifyIOClients; // @synthesize notifyIOClients;
-@property(nonatomic) int reason; // @synthesize reason;
 
 @end
 

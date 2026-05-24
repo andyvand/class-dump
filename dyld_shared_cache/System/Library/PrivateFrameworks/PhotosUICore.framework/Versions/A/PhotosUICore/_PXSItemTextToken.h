@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXSItem;
+@class NSString;
 
 @interface _PXSItemTextToken
 {
     NSString *_string;
-    PXSItem *_item;
-    struct _NSRange _effectiveRange;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 - (void)rativeStoryInlineActionButtonswift_eEBHofMX48_0_33_50F63329FB2AE25A04EF0B86AB78A53BLl7PreviewfMf_15PreviewRegistryfMu_;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange effectiveRange; // @synthesize effectiveRange=_effectiveRange;
-@property(retain, nonatomic) PXSItem *item; // @synthesize item=_item;
 @property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

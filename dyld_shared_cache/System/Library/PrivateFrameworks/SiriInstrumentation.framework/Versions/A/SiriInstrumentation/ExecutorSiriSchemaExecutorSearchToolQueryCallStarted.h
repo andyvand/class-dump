@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ExecutorSiriSchemaExecutorSearchToolQueryCallStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _executorSearchToolQueryType;
-    struct {
-        unsigned int exists:1;
-        unsigned int executorSearchToolQueryType:1;
-    } _has;
 }
 
 - (void);
@@ -24,26 +17,22 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (id)IAPNavigationAccessory:(id)arg1 didEnableNavigationUpdatesForComponent: /* Error: Ran out of types for this method. */;
+- (void)oraryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/pem/pvkfmt.c;
+- (void)`;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)redDialogSelected";
-- (id)zed;
+- (id)SISchemaUEIDictationTranscriptionTokenized;
 - (id)üx;
 - (_Bool)T@¶3f#;
 - (_Bool)>È½';
 - (void)1³	Î+;
 
 // Remaining properties
-@property(nonatomic) int executorSearchToolQueryType; // @synthesize executorSearchToolQueryType=_executorSearchToolQueryType;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExecutorSearchToolQueryType;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

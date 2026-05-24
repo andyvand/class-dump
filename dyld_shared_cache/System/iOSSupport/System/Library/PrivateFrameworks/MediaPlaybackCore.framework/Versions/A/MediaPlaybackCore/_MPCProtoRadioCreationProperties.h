@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MPCProtoDelegateInfo, _MPCProtoRadioContentReference;
+@class _MPCProtoDelegateInfo;
 
 __attribute__((visibility("hidden")))
 @interface _MPCProtoRadioCreationProperties
 {
     _MPCProtoDelegateInfo *_accountInfo;
-    _MPCProtoRadioContentReference *_nowPlayingContentReference;
-    NSString *_playActivityFeatureName;
-    NSString *_playActivityQueueGroupingID;
-    NSString *_radioStationID;
-    NSString *_radioStationURLString;
-    _MPCProtoRadioContentReference *_seedContentReference;
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)p1;
 - (id);
 - (id);
 - (void):| adding data source [] position=Last section=%{public}@ /* Error: Ran out of types for this method. */;

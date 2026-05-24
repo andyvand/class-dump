@@ -9,22 +9,18 @@
 @interface PKExistingCardAuthorizationResponsePaymentCardEntry
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_redemptionToken;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void)LE;
+- (id)!;
+- (_Bool)jitterBufferResidencyTimeMean;
+- (void)GENERIC_ERROR_TITLE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(readonly, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly, nonatomic) NSString *redemptionToken; // @synthesize redemptionToken=_redemptionToken;
 
 @end
 

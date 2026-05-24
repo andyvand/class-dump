@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATTextMetadata : SISchemaInstrumentationMessage
 {
     unsigned int _characterCount;
-    struct {
-        unsigned int characterCount:1;
-    } _has;
 }
 
 - (void);
@@ -22,9 +17,9 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)outlineView:tintConfigurationForItem: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned int);
+- (unsigned int)e) SELECT ROWID, guid, handle_id, other_handle FROM ;
 - (_Bool);
 - (id);
 - (id)carPlayStatus"b1"isEnabledForHeadphones"b1"isCarPlayMuted"b1};
@@ -33,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int characterCount; // @synthesize characterCount=_characterCount;
-@property(nonatomic) _Bool hasCharacterCount;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

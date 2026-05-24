@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (void)eBusinessChatButtonTitle;
+- (id)@;
+- (void)learnMoreBusinessChatButtonTitle;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) PKVirtualCard *virtualCard; // @synthesize virtualCard=_virtualCard;

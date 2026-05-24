@@ -6,22 +6,17 @@
 
 #import <EventKitUI/EKEventDetailItem.h>
 
-@class CUIKAlarmsViewModel, EKUIRecurrenceAlertController, NSArray, NSMutableArray;
+@class CUIKAlarmsViewModel;
 
 __attribute__((visibility("hidden")))
 @interface EKEventAlarmDetailItem : EKEventDetailItem
 {
     unsigned long long _disclosedSubitem;
-    NSArray *_alarms;
-    NSMutableArray *_alarmPopupMenus;
-    EKUIRecurrenceAlertController *_recurrenceAlertController;
-    _Bool _alarmsAreEditable;
-    CUIKAlarmsViewModel *_alarmsViewModel;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)otocol>";
 - (unsigned long long);
 - (void);
 - (void);

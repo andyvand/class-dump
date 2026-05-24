@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSTimer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMDCKRampManager
 {
     NSObject<OS_dispatch_queue> *_ckQueue;
-    NSTimer *_retryTimer;
 }
 
 + (id)fier!;
@@ -21,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (id);
@@ -32,7 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *ckQueue; // @synthesize ckQueue=_ckQueue;
-@property(retain, nonatomic) NSTimer *retryTimer; // @synthesize retryTimer=_retryTimer;
 
 @end
 

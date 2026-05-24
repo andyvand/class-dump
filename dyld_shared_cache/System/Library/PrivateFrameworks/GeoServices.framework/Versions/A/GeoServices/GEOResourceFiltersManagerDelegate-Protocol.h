@@ -5,5 +5,6 @@
 //
 
 @protocol GEOResourceFiltersManagerDelegate
+- (void)(;
 @end
 

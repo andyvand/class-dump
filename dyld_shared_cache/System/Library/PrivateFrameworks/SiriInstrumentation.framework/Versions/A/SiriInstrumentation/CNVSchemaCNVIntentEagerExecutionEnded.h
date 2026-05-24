@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVIntentEagerExecutionEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void);
 - (id);
+- (void)sl.c;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)tem/Library/Frameworks/AppKit.framework/Versions/C/AppKit;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)t�;
 - (id)formTargetStarted";
 - (id)JRSchemaSegmentedTupleCount;
 - (id)Ï;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

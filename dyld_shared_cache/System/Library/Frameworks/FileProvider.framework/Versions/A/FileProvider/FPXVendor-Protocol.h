@@ -4,8 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSProgress;
+
 @protocol FPXVendor
+- (NSProgress *)4;
+- (NSProgress *);
 - (void);
+- (void)displayStringGenerator;
+- (void)AVWAVEOutputSettingsValidator;
+- (void)AVVideoMinimumFrameDuration;
+- (void)dn;
+- (void)Start;
+- (NSProgress *)t;
+- (void)h;
+- (void)5;
+- (void)B;
+- (void);
 - (void)xt beginRequestWithDomain:(void (^)(NSError *))arg1 alternateContentsDictionary:domainServicer:providerDomain:domainVersion:completionHandler:] /* Error: Ran out of types for this method. */;
 @end
 

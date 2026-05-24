@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SIRISETUPSchemaSIRISETUPOnboardingStarted : SISchemaInstrumentationMessage
 {
     int _mode;
-    struct {
-        unsigned int mode:1;
-    } _has;
 }
 
 - (void);
 - (id);
-- (int);
+- (int)erviceLocalProxy startNavigationWithDetails:activeBlock:] /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)@] Failed to query app ledger with error:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)stedSaveRequestClass(void)_block_invoke;
 - (void);
-- (_Bool);
+- (_Bool)ECT COUNT(*) FROM (SELECT 1 FROM message %@ %@ LIMIT ?);;
 - (void);
 - (id);
 - (id);
 - (_Bool)0@ù
 × ;
-- (id)edEventStatistics;
+- (id)clearRedactedEventStatistics;
 - (id)Ti,N,V_snapshotStage;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMode;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int mode; // @synthesize mode=_mode;
 
 @end

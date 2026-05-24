@@ -8,26 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIValuePredictor
 {
     unsigned long long _capacity;
-    unsigned long long _arrayCapacity;
-    double *_values;
-    double *_valueWeights;
-    double *_predictions;
-    double *_confidenceFactorsForVelocity;
-    double *_confidenceFactorsForHistoricalAccuracy;
-    double *_confidenceFactorsForDerivativeStability;
-    double *_confidenceFactors;
-    double **_derivatives;
-    double _minHistoricalAccuracyThreshold;
-    double _maxHistoricalAccuracyThreshold;
-    double _derivativeStabilityThreshold;
-    double _minVelocityThreshold;
-    double _maxVelocityThreshold;
-    double _minConstraint;
-    double _maxConstraint;
-    _Bool _wrapConstraint;
-    unsigned long long _numValues;
-    unsigned long long _numPredictions;
-    unsigned long long _numDerivatives;
 }
 
 - (_Bool);
@@ -39,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (unsigned long long);
 - (unsigned long long);
 - (double);
 - (double);
-- (double);
+- (double)@y?k!;
 - (double);
 - (double);
 - (double);
@@ -53,45 +33,35 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (double *);
-- (void);
-- (double *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double *);
+- (void)4@0:(double)arg1 8@?<v@?BQ>16;
+- (double *)eResources";
+- (void)UnreadCount:(long long)arg1 reindexMessage:isCloudImport:isIncomingMessage:didReplaceBlock: /* Error: Ran out of types for this method. */;
+- (void)setOriginalGUID:(double *)arg1;
+- (void)setInvalidationHandler:(long long)arg1;
+- (void)setIntelligentlyClassifiedAsTimeSensitive:(int)arg1;
+- (void)setInitialSyncAttempts:(int)arg1;
+- (void)setInitialGroupID:(int)arg1;
+- (void)logMessageReceivedWithGUID:fromIdentifier:toIdentifier:conversationType:messageType:messageProtocol: /* Error: Ran out of types for this method. */;
+- (void)_errorIndicatesDeviceNotGoodForSync:(double *)arg1;
+- (double *)_abandonSystemProxySettingsFetcher;
 - (void);
 - (double **);
 - (double);
 - (double *);
 - (double *);
 - (double *);
-- (double *);
+- (double *)d;
 - (double *);
 - (void);
-- (id);
-- (id);
-- (id):(struct _NSZone *)arg1;
+- (id);
+- (id)(D;
+- (id)_cancelScrollingInViewForGesture:(struct _NSZone *)arg1;
 - (void)N,V_eventAttribution;
 - (void)tþå43¨tþ;
 - (double *);
 
 // Remaining properties
-@property(nonatomic) double derivativeStabilityThreshold; // @synthesize derivativeStabilityThreshold=_derivativeStabilityThreshold;
-@property(nonatomic) double maxConstraint; // @synthesize maxConstraint=_maxConstraint;
-@property(nonatomic) double maxHistoricalAccuracyThreshold; // @synthesize maxHistoricalAccuracyThreshold=_maxHistoricalAccuracyThreshold;
-@property(nonatomic) double maxVelocityThreshold; // @synthesize maxVelocityThreshold=_maxVelocityThreshold;
-@property(nonatomic) double minConstraint; // @synthesize minConstraint=_minConstraint;
 @property(nonatomic) double minHistoricalAccuracyThreshold; // @synthesize minHistoricalAccuracyThreshold=_minHistoricalAccuracyThreshold;
-@property(nonatomic) double minVelocityThreshold; // @synthesize minVelocityThreshold=_minVelocityThreshold;
-@property(readonly, nonatomic) unsigned long long numDerivatives; // @synthesize numDerivatives=_numDerivatives;
-@property(readonly, nonatomic) unsigned long long numPredictions; // @synthesize numPredictions=_numPredictions;
-@property(readonly, nonatomic) unsigned long long numValues; // @synthesize numValues=_numValues;
-@property(nonatomic) _Bool wrapConstraint; // @synthesize wrapConstraint=_wrapConstraint;
 
 @end
 

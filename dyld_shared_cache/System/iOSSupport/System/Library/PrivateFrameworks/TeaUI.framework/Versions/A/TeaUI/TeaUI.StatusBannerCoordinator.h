@@ -7,10 +7,6 @@
 @interface TeaUI.StatusBannerCoordinator
 {
     id rootViewController;
-    id stagedTitleView;
-    id stagedSearchController;
-    id lazyBanner;
-    id statusBannerVisibility;
 }
 
 @end

@@ -6,36 +6,29 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint;
-
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardLayoutAlignmentView : UIView
 {
     struct CGRect lastKnownKeyboardRect;
-    NSLayoutConstraint *bottomConstraint;
-    NSLayoutConstraint *widthConstraint;
-    NSLayoutConstraint *heightConstraint;
-    NSLayoutConstraint *disambiguatingLeftConstraint;
-    _Bool _automaticKeyboardFrameTrackingDisabled;
 }
 
 + (_Bool);
 + (struct CGRect);
 + (struct CGRect);
 - (void);
-- (_Bool);
+- (_Bool)_mergeParticipantIDs;
+- (void)IMDeliveredQuietlyReceiptPipelineParameter;
+- (void)IMDIdentityLookupDecisioningManaging;
+- (void);
+- (_Bool)@;
+- (void)<;
+- (void)public}s;
+- (void)t path %@ with error %@;
+- (struct CGRect)e URL retrieval operation was unsuccessful.;
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)_dynamicCatalogColorForNibEncodingWithName:(struct CGRect)arg1 genericColor: /* Error: Ran out of types for this method. */;
 - (void)¸ÐôÐøÔ;
 - (void)are used inside it. Custom view:(id)arg1 %@;
 - (void);

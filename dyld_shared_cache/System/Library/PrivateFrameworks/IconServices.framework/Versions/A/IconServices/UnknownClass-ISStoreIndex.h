@@ -5,19 +5,19 @@
 //
 
 @interface UnknownClass (ISStoreIndex)
++ (id)ddResultFromQuery: /* Error: Ran out of types for this method. */;
++ (id)dateFromReferenceDate:referenceTimezone:timezoneRef:allDayRef: /* Error: Ran out of types for this method. */;
++ (id)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
++ (id)anguageHighConfidence;
++ (id)e;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)؞;
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)__objc_classlist__DATA_CONST;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (unsigned long long);

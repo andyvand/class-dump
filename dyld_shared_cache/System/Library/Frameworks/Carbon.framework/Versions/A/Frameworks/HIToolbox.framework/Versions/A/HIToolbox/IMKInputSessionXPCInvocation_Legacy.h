@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKInputSessionInvocationSentinel_Legacy, IMKInputSession_Legacy;
-
 __attribute__((visibility("hidden")))
 @interface IMKInputSessionXPCInvocation_Legacy
 {
     _Bool _request_reply_done;
-    _Bool _timedOut;
-    _Bool _invocationInterruptAttempted;
-    _Bool _otherInnerRunLoopDetected;
-    long long _innerRunLoopCount;
-    SEL _callerSelector;
-    struct __CFRunLoopTimer *_replyTimer;
-    struct __CFRunLoopObserver *_replyObserver;
-    IMKInputSessionInvocationSentinel_Legacy *_sentinel;
-    IMKInputSession_Legacy *_imkInputSession;
 }
 
-+ (id);
++ (id))A;
 - (void);
 - (void);
 - (void);

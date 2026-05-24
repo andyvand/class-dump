@@ -6,26 +6,18 @@
 
 #import <CalendarUIKit/CUIKDescriptionGenerator.h>
 
-@class NSDateFormatter, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUIKDateDescriptionGenerator : CUIKDescriptionGenerator
 {
     NSObject<OS_dispatch_queue> *_serialFormatterEditQueue;
-    NSDateFormatter *_dayFormatter;
-    NSDateFormatter *_abbrevDayFormatter;
-    NSDateFormatter *_timeFormatter;
-    NSDateFormatter *_standardTimeFormatter;
-    NSDateFormatter *_customFormatter;
-    NSDateFormatter *_fullStyleDateFormatter;
-    NSDateFormatter *_dayOfWeekFormatter;
-    NSMutableDictionary *_longFormatters;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
@@ -46,9 +38,9 @@
 - (id);
 - (id);
 - (id);
+- (id)LI;
 - (id);
-- (id);
-- (id);
+- (id)T@"_PKColorPickerSimpleCrosshairView",&,N,V_baseView;
 - (void)saveCompleteChangeWithImpliedCommitDecision: /* Error: Ran out of types for this method. */;
 
 @end

@@ -12,18 +12,14 @@ __attribute__((visibility("hidden")))
 @interface AVAssetWriterFinishWritingHelper : AVAssetWriterHelper
 {
     NSArray *_finishWritingOperations;
-    NSOperation *_transitionToTerminalStatusOperation;
-    void *_figAssetWriterCallbackContextToken;
-    struct OpaqueFigAssetWriter *_figAssetWriter;
-    _Bool _figAssetWriterIsRemote;
 }
 
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (void);
-- (long long);
-- (void)utSettings: /* Error: Ran out of types for this method. */;
+- (long long)r;
+- (void)assetWriterInputWithMediaType:outputSettings: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOperation *transitionToTerminalStatusOperation; // @synthesize transitionToTerminalStatusOperation=_transitionToTerminalStatusOperation;

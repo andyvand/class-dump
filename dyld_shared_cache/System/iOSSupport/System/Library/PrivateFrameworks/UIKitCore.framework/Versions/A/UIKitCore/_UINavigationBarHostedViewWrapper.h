@@ -9,11 +9,10 @@
 @interface _UINavigationBarHostedViewWrapper : _UITouchPassthroughView
 {
     id id;
-    id itemView;
-    id model;
 }
 
-- (id);
+- (id)J
+;
 - (id)_UITableViewSubviewManagerDelegate;
 - (void)*é°;
 

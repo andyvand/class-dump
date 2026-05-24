@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INFile, NSString, NSURL, PHAsset;
-
 @interface INSendMessageAttachment
 {
     _Bool _currentLocation;
-    INFile *_audioMessageFile;
-    INFile *_file;
-    NSURL *_speechDataURL;
-    NSURL *_sharedLink;
-    NSString *_phAssetId;
 }
 
 + (id);
@@ -22,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)"QLThumbnailRepresentation",&,N,V_mostRepresentativeThumbnail;
 + (id);
 + (_Bool);
 - (id);
@@ -32,32 +25,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)predicateWithBlock:(id)arg1;
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
+- (id)B;
+- (_Bool)queryIPv4RouterWithRequestParams:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)state for interface %@ (age:(id)arg1 %.1fs);
 - (id);
 - (id);
 - (_Bool)Class;
-- (void)NumberOptionsCollectionForSetRadioStation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)providePresetNumberOptionsCollectionForSetRadioStation:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)m?NG÷;
 
 // Remaining properties
-@property(readonly, copy) INFile *audioMessageFile; // @synthesize audioMessageFile=_audioMessageFile;
-@property(readonly) _Bool currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INFile *file; // @synthesize file=_file;
 @property(readonly) unsigned long long hash;
-@property(readonly) PHAsset *phAsset;
-@property(readonly, copy) NSString *phAssetId; // @synthesize phAssetId=_phAssetId;
-@property(readonly, copy) NSURL *sharedLink; // @synthesize sharedLink=_sharedLink;
-@property(readonly, copy) NSURL *speechDataURL; // @synthesize speechDataURL=_speechDataURL;
-@property(readonly) Class superclass;
 
 @end
 

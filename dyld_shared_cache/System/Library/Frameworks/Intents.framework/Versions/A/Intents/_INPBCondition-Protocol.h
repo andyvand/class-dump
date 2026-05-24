@@ -5,9 +5,9 @@
 //
 
 @protocol _INPBCondition
+- (void)};
 
 // Remaining properties
 @property(nonatomic) int conditionalOperator;
-@property(nonatomic) _Bool hasConditionalOperator;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class MLNonMaximumSuppressionParameters, NSString;
+@class MLNonMaximumSuppressionParameters;
 
 @interface MLNonMaximumSuppression : MLModelEngine
 {
@@ -14,21 +14,14 @@
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long)ü;
 - (void)er:Mismatch between the input rank and the number of elements in end_masks. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) MLNonMaximumSuppressionParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, NSString;
-@protocol HMDBackgroundSystemTaskSchedulerInterfacing, HMDKeyRollOrchestratorDataSource;
+@class HMDHomeManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDKeyRollOrchestrator
 {
     HMDHomeManager *_homeManager;
-    id <HMDBackgroundSystemTaskSchedulerInterfacing> _scheduler;
-    id <HMDKeyRollOrchestratorDataSource> _dataSource;
 }
 
 + (id);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)nAttributeValue"b1"iconType"b1};
+- (_Bool)setWithCapacity:(id)arg1;
+- (_Bool)oad | loaded identifiers from sync:(id)arg1 %@;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)initWithPixelBuffer: /* Error: Ran out of types for this method. */;
 - (id)n (%.2f > %.2f);
 - (void)ccessory description %@ matches accessory pending to be paired %@ - aborting the operation;
-- (void)Method;
+- (void)enhancedAuthMethod;
 - (id)PðÀÿÅ8?;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMDKeyRollOrchestratorDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) id <HMDBackgroundSystemTaskSchedulerInterfacing> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
 
 @end
 

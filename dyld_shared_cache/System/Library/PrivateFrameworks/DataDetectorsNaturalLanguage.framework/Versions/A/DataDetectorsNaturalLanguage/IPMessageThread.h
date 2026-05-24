@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface IPMessageThread
 {
     NSMutableArray *_threadRoots;
-    NSMutableArray *_allUnits;
-    NSArray *_allUnitsSorted;
 }
 
 - (id);
-- (void);
+- (void)K;
 - (id);
 - (void);
 

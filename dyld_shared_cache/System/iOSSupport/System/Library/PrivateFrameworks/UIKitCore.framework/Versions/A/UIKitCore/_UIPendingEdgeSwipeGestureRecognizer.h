@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)geInDirection:(id)arg1;
+- (void)queuingScrollView:(id)arg1 attemptToPageInDirection:(id)arg2;
 - (void)_uikit_stringByTrimmingWhitespaceAndNewlines;
-- (void);
-- (void);
+- (void)_endRight;
+- (void)UIBlurEffectStyleSystemUltraThinMaterialDark;
 
 @end
 

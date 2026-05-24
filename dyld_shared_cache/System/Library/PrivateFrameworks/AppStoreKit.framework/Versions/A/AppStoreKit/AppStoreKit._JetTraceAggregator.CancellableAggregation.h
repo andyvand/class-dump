@@ -7,8 +7,6 @@
 @interface AppStoreKit._JetTraceAggregator.CancellableAggregation
 {
     id _isCancelled;
-    id lock;
-    id currentEventStream;
 }
 
 @end

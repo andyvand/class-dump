@@ -6,17 +6,17 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INSearchForAccountsIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -26,7 +26,7 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)saveBestRepresentationForRequest:(id)arg1 toFileAtURL:asContentType:allowingThumbnailDownloads:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
@@ -38,16 +38,6 @@
 
 // Remaining properties
 @property(readonly, copy) INSpeakableString *accountNickname;
-@property(readonly) long long accountType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) INSpeakableString *organizationName;
-@property(readonly) long long requestedBalanceType;
-@property(readonly) Class superclass;
 
 @end
 

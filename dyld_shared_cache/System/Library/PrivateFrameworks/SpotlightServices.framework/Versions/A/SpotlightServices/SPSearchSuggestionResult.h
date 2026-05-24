@@ -6,43 +6,41 @@
 
 #import <SpotlightServices/SFSearchResult_SpotlightExtras.h>
 
-@class CSSuggestion, NSArray, NSString, SFSearchSuggestion;
+@class NSString;
 
 @interface SPSearchSuggestionResult : SFSearchResult_SpotlightExtras
 {
     NSString *_query;
-    SFSearchSuggestion *_suggestion;
-    CSSuggestion *_spotlightSuggestion;
-    NSArray *_searchEntities;
 }
 
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (void)v28@0:(id)arg1 8@"CAAnimation"16B24;
++ (id)setLeadingGlyph:(id)arg1;
++ (id)setLatestAssetDate:(id)arg1;
++ (id)setJITEnabled:(id)arg1;
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)0:8Q16@24 /* Error: Ran out of types for this method. */;
+- (id)tweetBackgroundColor;
+- (id)shouldApplyBackground;
+- (id)ignoreSafeAreaInset;
 - (long long);
+- (void));
+- (id);
+- (id)guid;
+- (id)t y = dot(stopDown, vec3(0.299, 0.587, 0.114)); 
+  y = smoothstep(0.0, 1.0, sqrt(clamp(y, 0.0, 4.0))); 
+  return vec4(y,y,y,1.0); 
+}
+;
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id)otosGroupName: /* Error: Ran out of types for this method. */;
-- (void)ns:error: /* Error: Ran out of types for this method. */;
+- (id)isPhotosGroupName: /* Error: Ran out of types for this method. */;
+- (void)dataWithJSONObject:options:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *query; // @synthesize query=_query;
-@property(readonly, nonatomic) NSArray *searchEntities; // @synthesize searchEntities=_searchEntities;
-@property(readonly, nonatomic) CSSuggestion *spotlightSuggestion; // @synthesize spotlightSuggestion=_spotlightSuggestion;
-@property(copy, nonatomic) SFSearchSuggestion *suggestion; // @synthesize suggestion=_suggestion;
 
 @end
 

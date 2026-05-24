@@ -7,10 +7,9 @@
 @interface _CDCandidateInteractionTaxonomy
 {
     long long _direction;
-    long long _mechanism;
 }
 
-- (id);
+- (id)RV(R%1&8/04;
 - (id);
 - (unsigned long long);
 - (_Bool);

@@ -17,27 +17,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)ebStorageNamespaceProvider>, WTF:(id)arg1:WeakRef<WebKit::WebStorageNamespaceProvider>, WTF::IdentityExtractor, WTF::DefaultHash<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>>::validateKey(const ValueType &) [Key = WTF::WeakRef<WebKit::WebStorageNamespaceProvider>, Value = WTF::WeakRef<WebKit::WebStorageNamespaceProvider>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Traits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)40@0:8@"NSArray"16Q24@?<v@?@"SGXPCResponse1">32 /* Error: Ran out of types for this method. */;
+- (void);
 - (int);
-- (_Bool);
-- (void);
+- (_Bool)se is provided (using ALWAYS_FALSE_NODE) with llmParse:(id)arg1 '%@';
+- (void)sistent<A>:(id)arg1:value, int> IVFVectorIndexTemplate<_Float16, 768>::VectorStore<vi_onefixedsize_disk_allocator, vi_disk_postings>::indexVersion(int, const std::string &) [ELEM_TYPE = _Float16, D = 768, ALLOCATOR = vi_onefixedsize_disk_allocator, POSTINGS_DATA = vi_disk_postings, A = vi_onefixedsize_disk_allocator] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *inputString; // @synthesize inputString=_inputString;
-@property(readonly) Class superclass;
 
 @end
 

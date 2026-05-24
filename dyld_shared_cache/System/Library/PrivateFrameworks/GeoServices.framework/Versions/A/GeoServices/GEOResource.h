@@ -4,62 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOResource
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOTileSetRegion *_regions;
-    unsigned long long _regionsCount;
-    unsigned long long _regionsSpace;
-    NSData *_checksum;
-    NSString *_filename;
-    NSMutableArray *_filters;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _alternateResourceURLIndex;
-    int _connectionType;
-    unsigned int _preferWiFiAllowedStaleThreshold;
-    int _resourceSource;
-    int _resourceType;
-    unsigned int _timeToLiveSeconds;
-    int _updateMethod;
-    int _validationMethod;
-    struct {
-        unsigned int has_alternateResourceURLIndex:1;
-        unsigned int has_connectionType:1;
-        unsigned int has_preferWiFiAllowedStaleThreshold:1;
-        unsigned int has_resourceSource:1;
-        unsigned int has_resourceType:1;
-        unsigned int has_timeToLiveSeconds:1;
-        unsigned int has_updateMethod:1;
-        unsigned int has_validationMethod:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_regions:1;
-        unsigned int read_checksum:1;
-        unsigned int read_filename:1;
-        unsigned int read_filters:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setLongitudeHint:(id)arg1;
 + (Class)_±dCé;
 - (int);
-- (void);
+- (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void));
 - (unsigned int);
 - (void);
 - (struct GEOTileSetRegion *);
@@ -69,11 +35,11 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)possibleShortTitles;
 - (_Bool);
 - (id);
-- (int);
-- (void);
+- (int)ider";
+- (void)rceType;
 - (id);
 - (unsigned long long);
 - (void);
@@ -86,18 +52,18 @@
 - (id);
 - (_Bool);
 - (id);
+- (_Bool)ng"56;
+- (id);
+- (void);
+- (_Bool)80@0:8^{CGPoint=dd}16^{CGRect={CGPoint=dd}{CGSize=dd}}24{CGPoint=dd}32{CGRect={CGPoint=dd}{CGSize=dd}}48 /* Error: Ran out of types for this method. */;
+- (int)alphaValue;
+- (int)_mapkit_userLocationAccuracyRingStrokeColorSatellite;
+- (id)_MKPlaceEnrichmentTicket;
+- (int);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (int);
-- (int);
-- (id);
-- (int);
-- (_Bool);
-- (id);
-- (void);
-- (int);
+- (int);
 - (void);
 - (unsigned int);
 - (id);
@@ -105,19 +71,19 @@
 - (_Bool)Ð1Â0@ù
 × ;
 - (id)lylineCoordinate=If}}16@?32@40;
-- (id)Date;
-- (struct GEOTileSetRegion)CategorySuggestionParameters;
+- (id)dodgeballOutsideOfMapsPredictedExitDate;
+- (struct GEOTileSetRegion)_browseCategorySuggestionParameters;
 - (void)GEOVenueFilterItem;
 - (id)DJäKTNàORRS;
 - (id)t able to create a GEOCollectionResult from.;
-- (id)_THAN_2GB;
+- (id)OfflineDownloadSize_LESS_THAN_2GB;
 - (void)batch_reference;
-- (void)ULT_SORT_ORDER_CLIENT_ALPHABETIC;
-- (id)pPhoto;
-- (_Bool)IURLLegacy;
-- (_Bool);
+- (void)BROWSE_RESULT_SORT_ORDER_CLIENT_ALPHABETIC;
+- (id)shouldLimitToPoisWithVendorTopPhoto;
+- (_Bool)bluePOIURLLegacy;
+- (_Bool)_col;
 - (id)alled once per object;
-- (void)ileInfo;
+- (void)transitLineTileInfo;
 - (void)nd ;
 - (unsigned int);
 - (_Bool);
@@ -131,30 +97,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int alternateResourceURLIndex;
-@property(retain, nonatomic) NSData *checksum;
-@property(nonatomic) int connectionType;
-@property(retain, nonatomic) NSString *filename;
-@property(retain, nonatomic) NSMutableArray *filters;
-@property(nonatomic) _Bool hasAlternateResourceURLIndex;
-@property(readonly, nonatomic) _Bool hasChecksum;
-@property(nonatomic) _Bool hasConnectionType;
-@property(readonly, nonatomic) _Bool hasFilename;
-@property(nonatomic) _Bool hasPreferWiFiAllowedStaleThreshold;
 @property(nonatomic) _Bool hasResourceSource;
-@property(nonatomic) _Bool hasResourceType;
-@property(nonatomic) _Bool hasTimeToLiveSeconds;
-@property(nonatomic) _Bool hasUpdateMethod;
-@property(nonatomic) _Bool hasValidationMethod;
-@property(nonatomic) unsigned int preferWiFiAllowedStaleThreshold;
-@property(readonly, nonatomic) struct GEOTileSetRegion *regions;
-@property(readonly, nonatomic) unsigned long long regionsCount;
-@property(nonatomic) int resourceSource;
-@property(nonatomic) int resourceType;
-@property(nonatomic) unsigned int timeToLiveSeconds;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int updateMethod;
-@property(nonatomic) int validationMethod;
 
 @end
 

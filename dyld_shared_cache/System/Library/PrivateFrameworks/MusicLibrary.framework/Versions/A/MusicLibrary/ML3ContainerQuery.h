@@ -6,16 +6,14 @@
 
 #import <MusicLibrary/ML3Query.h>
 
-@class ML3Container, ML3Predicate, NSArray;
+@class ML3Predicate, NSArray;
 
 @interface ML3ContainerQuery : ML3Query
 {
     ML3Predicate *_containerPredicate;
-    ML3Container *_container;
-    NSArray *_limitedPersistentIDs;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -24,18 +22,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)/C/Foundation;
 - (id)dVideoQuality;
 - (unsigned long long)l;
 - (id)ublic}@, position_uuid=%s for for pin_pid=%lld, type=%{public}@, saga_id_id=%lld, cloud_id=%s;
 - (void)ist_pid FROM item_artist WHERE item_artist_pid NOT IN (SELECT item_artist_pid FROM item);
-- (_Bool)ion;
+- (_Bool)base_location;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) ML3Container *container; // @synthesize container=_container;
 @property(readonly, nonatomic) NSArray *limitedPersistentIDs; // @synthesize limitedPersistentIDs=_limitedPersistentIDs;
-@property(readonly, nonatomic) _Bool requiresSmartLimiting;
 
 @end
 

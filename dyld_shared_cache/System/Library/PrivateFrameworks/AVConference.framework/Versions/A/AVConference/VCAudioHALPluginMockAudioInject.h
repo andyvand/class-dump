@@ -4,36 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VCAudioInjector, VCDispatchTimer;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioHALPluginMockAudioInject
 {
     struct tagVCAudioFrameFormat _sinkFormat;
-    id _sinkContext;
-    CDUnknownFunctionPointerType _sinkProc;
-    struct AudioTimeStamp _audioTimestamp;
-    struct tagVCAudioHALPluginCaptureSourceAudioData _audioSourceBuffer;
-    VCAudioInjector *_audioInjector;
-    struct opaqueVCAudioBufferList *_audioBufferList;
-    VCDispatchTimer *_audioInjectTimer;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id)e(AudioProcessing) pullDecodedMeshMode:(struct tagVCAudioHALPluginConfiguration *)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

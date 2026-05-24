@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputContext, AVOutputDeviceDiscoverySession, NSArray, NSDate, NSString;
-@protocol MPAVLightweightRoutingControllerDelegate;
+@class AVOutputDeviceDiscoverySession;
 
 @interface MPAVLightweightRoutingController
 {
     AVOutputDeviceDiscoverySession *_avDiscoverySession;
-    AVOutputContext *_avOutputContext;
-    _Bool _notificationScheduled;
-    NSDate *_lastOutputContextNotificationDate;
-    long long _discoveryMode;
-    NSString *_name;
-    id <MPAVLightweightRoutingControllerDelegate> _delegate;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)schemaname;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)destinationFeatureName;
+- (void)smokeAlarmDetectorE5RT;
 - (void);
-- (void);
-- (void);
-- (void)illMoveToParentViewController: /* Error: Ran out of types for this method. */;
+- (void)willMoveToParentViewController: /* Error: Ran out of types for this method. */;
 - (long long)Ø;
 
 // Remaining properties
-@property(nonatomic) __weak id <MPAVLightweightRoutingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isDevicePresenceDetected) _Bool devicePresenceDetected;
 @property(nonatomic) long long discoveryMode; // @synthesize discoveryMode=_discoveryMode;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *pickedRoutes;
 
 @end
 

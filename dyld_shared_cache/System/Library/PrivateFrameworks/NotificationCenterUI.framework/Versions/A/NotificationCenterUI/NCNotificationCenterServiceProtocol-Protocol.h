@@ -5,5 +5,6 @@
 //
 
 @protocol NCNotificationCenterServiceProtocol
+- (void)˿;
 @end
 

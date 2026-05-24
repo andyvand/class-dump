@@ -5,18 +5,18 @@
 //
 
 @interface UnknownClass (WFSiriExecution)
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id){;
++ (id)2|;
++ (id)6z;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)7z;
+- (_Bool)3|;
 - (_Bool);
 @end
 

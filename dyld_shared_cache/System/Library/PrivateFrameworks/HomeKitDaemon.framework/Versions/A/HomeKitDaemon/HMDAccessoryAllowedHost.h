@@ -4,39 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterFirewallRuleWAN, NSSet, NSString;
+@class HMDNetworkRouterFirewallRuleWAN;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryAllowedHost
 {
     HMDNetworkRouterFirewallRuleWAN *_cachedWANRule;
-    NSString *_jsonWANRule;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool)(®9TTL;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ask"24@"NSURLRequest"32@?<v@?q@"NSURLRequest">40;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id)ia system handler with no media systems;
 - (unsigned long long)ng"8@"NSAttributeDescription"16^B24;
 - (void);
 
 // Remaining properties
-@property(readonly) NSSet *addresses;
-@property(readonly) NSString *jsonWANRule; // @synthesize jsonWANRule=_jsonWANRule;
-@property(readonly) NSString *name;
-@property(readonly) unsigned long long purpose;
 @property(readonly, nonatomic) HMDNetworkRouterFirewallRuleWAN *wanRule;
 
 @end

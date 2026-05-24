@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface CNObservableEvent
 {
 }
@@ -13,17 +11,14 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSError *error;
 @property(readonly, nonatomic) unsigned long long eventType;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) id value;
 
 @end
 

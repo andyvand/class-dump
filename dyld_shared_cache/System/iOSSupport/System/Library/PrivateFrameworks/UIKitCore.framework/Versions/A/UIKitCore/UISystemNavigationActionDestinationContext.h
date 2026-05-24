@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface UISystemNavigationActionDestinationContext
 {
     NSString *_title;
-    NSString *_bundleId;
-    NSURL *_URL;
-    NSString *_sceneIdentifier;
 }
 
 + (id);
 + (id)Ô¡°!èBùñ]1Â0@ù
 × ;
-+ (id)yModeForToolbar:(id)arg1;
++ (id)_persistDisplayModeForToolbar:(id)arg1;
 + (id);
 - (void);
 - (void);
@@ -25,7 +22,7 @@
 - (id)±[°1Â0@ù
 × ;
 - (id)@32@40;
-- (void)tRect:(id)arg1 inView:arrowDirections:slideDuration:expandDuration: /* Error: Ran out of types for this method. */;
+- (void)_beginMapsTransitionToNewViewController:(id)arg1 newTargetRect:inView:arrowDirections:slideDuration:expandDuration: /* Error: Ran out of types for this method. */;
 - (void),G_isDefaultSystemInteraction,V__defaultSystemInteraction;
 - (void);
 - (id)ntView+TransitionContainer.swift;
@@ -34,16 +31,6 @@
 - (void)À¸ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

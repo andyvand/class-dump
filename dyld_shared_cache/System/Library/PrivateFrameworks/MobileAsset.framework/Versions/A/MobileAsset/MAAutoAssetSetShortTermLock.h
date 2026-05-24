@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface MAAutoAssetSetShortTermLock
 {
     int _lockedFileDescriptor;
-    NSString *_assetSetAtomicInstance;
-    NSString *_lockedFilename;
-    NSMutableDictionary *_lockCountByReason;
-    long long _totalLockCount;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (int);
 - (id);
 - (id);
@@ -25,15 +21,11 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)u;
 - (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *assetSetAtomicInstance; // @synthesize assetSetAtomicInstance=_assetSetAtomicInstance;
-@property(retain, nonatomic) NSMutableDictionary *lockCountByReason; // @synthesize lockCountByReason=_lockCountByReason;
-@property(nonatomic) int lockedFileDescriptor; // @synthesize lockedFileDescriptor=_lockedFileDescriptor;
-@property(readonly, retain, nonatomic) NSString *lockedFilename; // @synthesize lockedFilename=_lockedFilename;
-@property(nonatomic) long long totalLockCount; // @synthesize totalLockCount=_totalLockCount;
 
 @end
 

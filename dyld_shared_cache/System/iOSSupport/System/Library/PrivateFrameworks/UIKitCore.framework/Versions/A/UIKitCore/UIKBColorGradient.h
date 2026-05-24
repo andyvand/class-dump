@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)ot from self (%@), receipt was sent from (%@);
 - (struct CGGradient *);
 - (void);ÿ$ÕAg;
 

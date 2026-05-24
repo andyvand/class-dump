@@ -6,15 +6,13 @@
 
 #import <TimeMachine/TMLoggingHandler.h>
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface TMOSLogHandler : TMLoggingHandler
 {
     NSObject<OS_os_log> *_generalLogObject;
-    NSMutableDictionary *_categoryLogObjects;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);

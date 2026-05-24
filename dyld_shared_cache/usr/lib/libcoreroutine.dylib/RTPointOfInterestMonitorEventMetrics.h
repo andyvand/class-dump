@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSMutableDictionary, RTDistanceCalculator, RTLocation;
+@class NSDate, RTDistanceCalculator;
 
 @interface RTPointOfInterestMonitorEventMetrics
 {
     NSDate *_locationRequestTimerStartDate;
-    NSDate *_highAccuracyLocationRequestStartDate;
-    RTLocation *_arrivalEventLocation;
-    NSDate *_arrivalEventDate;
-    RTDistanceCalculator *_distanceCalculator;
-    NSMutableDictionary *_metrics;
-    NSMutableArray *_buildingPolygons;
 }
 
 - (void);
@@ -25,14 +19,14 @@
 - (void);
 - (id);
 - (id);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
+- (double)data;
+- (double),V_newHSMContent;
+- (id)ssertion;
+- (id)ecord;
+- (id)ord",&,V_lrcSerializedEscrowRecord;
 - (void);
 - (id);
-- (id);
+- (id)tainer {error:%{public}@, dict:%{private}@, container:%{private}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -42,13 +36,7 @@
 - (void)passes dependent's keep alive check;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *arrivalEventDate; // @synthesize arrivalEventDate=_arrivalEventDate;
-@property(retain, nonatomic) RTLocation *arrivalEventLocation; // @synthesize arrivalEventLocation=_arrivalEventLocation;
-@property(readonly, nonatomic) NSMutableArray *buildingPolygons; // @synthesize buildingPolygons=_buildingPolygons;
 @property(readonly, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) NSDate *highAccuracyLocationRequestStartDate; // @synthesize highAccuracyLocationRequestStartDate=_highAccuracyLocationRequestStartDate;
-@property(retain, nonatomic) NSDate *locationRequestTimerStartDate; // @synthesize locationRequestTimerStartDate=_locationRequestTimerStartDate;
-@property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;
 
 @end
 

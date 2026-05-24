@@ -7,19 +7,17 @@
 @interface CTIntTuple
 {
     long long _CTindex;
-    long long _CTdistance;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)b;
 - (_Bool);
 - (id);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long distance;
 @property(readonly, nonatomic) long long index;
 
 @end

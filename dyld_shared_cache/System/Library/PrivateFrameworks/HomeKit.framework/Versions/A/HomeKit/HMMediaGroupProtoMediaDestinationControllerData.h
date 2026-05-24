@@ -4,59 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface HMMediaGroupProtoMediaDestinationControllerData
 {
     unsigned long long _supportedOptions;
-    NSMutableArray *_availableDestinations;
-    NSString *_destinationIdentifier;
-    NSString *_identifier;
-    NSString *_parentIdentifier;
-    CDStruct_cd391d02 _has;
 }
 
 + (Class);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)bytesDownloaded;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)/;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)treacle;
+- (id)_number_availability;
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)h;
 - (_Bool);
 - (void)4T;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *availableDestinations; // @synthesize availableDestinations=_availableDestinations;
-@property(retain, nonatomic) NSString *destinationIdentifier; // @synthesize destinationIdentifier=_destinationIdentifier;
-@property(readonly, nonatomic) _Bool hasDestinationIdentifier;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasParentIdentifier;
-@property(nonatomic) _Bool hasSupportedOptions;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(nonatomic) unsigned long long supportedOptions; // @synthesize supportedOptions=_supportedOptions;
 
 @end
 

@@ -7,10 +7,9 @@
 @interface ChatKit.GroupIdentityViewController.Coordinator
 {
     id parent;
-    id groupIdentityController;
 }
 
-- (void);
+- (void)ShareMetrics;
 - (void);
 - (void);
 - (void);

@@ -7,12 +7,11 @@
 @class NSNumber, NSString;
 
 @protocol ISResourceMetadata
-- (NSNumber *)uncherIcon2x;
+- (NSNumber *);
+- (_Bool)x{;
+- (NSNumber *)LIIconVariantMessagesExtensionLauncherIcon2x;
 
 // Remaining properties
-@property(readonly) NSNumber *dimension;
 @property(readonly) NSString *name;
-@property(readonly) NSNumber *scale;
-@property(readonly) _Bool selectedVariant;
 @end
 

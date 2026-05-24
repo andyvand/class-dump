@@ -6,7 +6,7 @@
 
 #import <TSReading/TSKApplicationDelegate.h>
 
-@class NSArray, NSString;
+@class NSString;
 @protocol TSADownloadDelegate;
 
 @interface TSABaseApplicationDelegate : TSKApplicationDelegate
@@ -20,22 +20,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (id)ʬ;
+- (id);
+- (id);
 - (double);
 - (double);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (Class);
+- (Class)[;
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -45,17 +45,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *applicationTemplateVariants;
-@property(retain, nonatomic) id <TSADownloadDelegate> downloadDelegate; // @synthesize downloadDelegate=_downloadDelegate;
-@property(readonly, nonatomic) NSArray *importableDocumentTypes;
-@property(readonly, nonatomic) NSString *nativeDocumentExtension;
 @property(readonly, nonatomic) NSString *nativeDocumentType;
-@property(readonly, nonatomic) NSString *nativeSFFDocumentType;
-@property(readonly, nonatomic) NSArray *readableDocumentTypes;
-@property(readonly, nonatomic) NSString *tangierEditingFormatDocumentType;
-@property(readonly, nonatomic) NSString *templateDocumentExtension;
-@property(readonly, nonatomic) NSString *templateDocumentType;
-@property(readonly, nonatomic) NSString *templateSFFDocumentType;
 
 @end
 

@@ -7,12 +7,10 @@
 @interface NewsArticles.AudioRemoteCommandCenterManager
 {
     id lazyCenter;
-    id playingItemState;
-    id commandCenter;
 }
 
 - (id);
-- (void)urceId;
+- (void)missingEndOFArticleFeedConfigurationResourceId;
 
 @end
 

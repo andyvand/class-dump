@@ -7,8 +7,6 @@
 @interface Network.NWApplicationServiceGroup
 {
     id groupAddresses;
-    id groupID;
-    id _nw;
 }
 
 @end

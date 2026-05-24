@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void)øÅç;
 
 // Remaining properties

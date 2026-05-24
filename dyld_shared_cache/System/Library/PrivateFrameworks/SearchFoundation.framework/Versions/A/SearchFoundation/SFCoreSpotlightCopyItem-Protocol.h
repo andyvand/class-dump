@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSData, NSString;
 
 @protocol SFCoreSpotlightCopyItem
+- (NSString *)annotatedQueryString;
+- (NSData *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier;
 @property(copy, nonatomic) NSArray *dataProviderTypeIdentifiers;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *fileProviderTypeIdentifiers;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

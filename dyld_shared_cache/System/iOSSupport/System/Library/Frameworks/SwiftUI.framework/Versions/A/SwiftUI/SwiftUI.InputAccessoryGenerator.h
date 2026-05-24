@@ -7,8 +7,6 @@
 @interface SwiftUI.InputAccessoryGenerator
 {
     id barItems;
-    id root;
-    id host;
 }
 
 @end

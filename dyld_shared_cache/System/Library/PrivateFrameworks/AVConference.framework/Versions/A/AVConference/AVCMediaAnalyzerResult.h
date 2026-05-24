@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface AVCMediaAnalyzerResult
 {
     double _analysisStartTimestamp;
-    double _analysisDuration;
-    NSDictionary *_analysisResult;
-    long long _analysisType;
 }
 
 - (id);
 - (double);
 - (id);
-- (double);
+- (double);
 - (long long);
-- (void);
+- (void)";
 
 // Remaining properties
-@property(readonly, nonatomic) double analysisDuration; // @synthesize analysisDuration=_analysisDuration;
-@property(readonly, nonatomic) NSDictionary *analysisResult; // @synthesize analysisResult=_analysisResult;
-@property(readonly, nonatomic) double analysisStartTimestamp; // @synthesize analysisStartTimestamp=_analysisStartTimestamp;
 @property(readonly, nonatomic) long long analysisType; // @synthesize analysisType=_analysisType;
 
 @end

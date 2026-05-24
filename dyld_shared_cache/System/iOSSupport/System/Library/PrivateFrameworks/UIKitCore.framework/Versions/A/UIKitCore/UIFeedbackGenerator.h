@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSSet, NSString, UIView, _UIFeedbackGeneratorConfiguration;
-@protocol OS_dispatch_source, UICoordinateSpace, UITraitChangeRegistration;
+@protocol UICoordinateSpace;
 
 @interface UIFeedbackGenerator
 {
     long long _styleActivationCount[3];
-    long long _autoDeactivationCount[3];
-    NSObject<OS_dispatch_source> *_autoDeactivateTimer;
-    NSMutableDictionary *_preparationTimers;
-    CDUnknownBlockType _feedbackWarmingBlock;
-    double _currentDelay;
-    NSSet *_usedFeedbacks;
-    _Bool _activated;
-    _Bool _disabledByView;
-    id <UITraitChangeRegistration> _traitChangeRegistration;
-    _Bool _usesCustomActivation;
-    long long _activationCount;
-    long long _externalActivationCount;
-    UIView *_view;
-    _UIFeedbackGeneratorConfiguration *_configuration;
-    NSSet *_engines;
 }
 
 + (id);
@@ -36,23 +20,13 @@
 + (void);
 + (Class)0@ù
 × ;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool);
+- (void)t is the most optimal path. payload=%{sensitive}@ reachability results=%@;
+- (void)room:(long long)arg1 %@  account:%@  chatIdentifier:%@  guid:%@ /* Error: Ran out of types for this method. */;
+- (void)s message was likely from a local device, looking for fromID:(double)arg1 %@;
+- (id)PKPeerPaymentMessageDictionaryRepresentationFromDataURL;
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,10 +37,20 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)C;
+- (void);
 - (id);
 - (long long);
 - (_Bool);
@@ -91,18 +75,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void)Ñ]ð1Â0@ù
 × ;
 - (void)1Â0@ù
 × ;
 - (_Bool)>";
-- (void)lIndex: /* Error: Ran out of types for this method. */;
+- (void)finalGlobalIndexForInitialGlobalIndex: /* Error: Ran out of types for this method. */;
 - (void)apsedAffinity: /* Error: Ran out of types for this method. */;
-- (id)ators;
+- (id)_extraSeparators;
 - (void)troller:(id)arg1 ,V__shouldIgnoreDelegateTransitionController;
 - (id)",&,N,V_lightEffectsTransitionBackdrop;
-- (void)g_Private;
+- (void)UIViewControllerPreviewing_Private;
 - (id)Hbb;
 - (void);
 - (void)Dictionary"8Q16@"NSString"24;
@@ -117,25 +101,7 @@
 - (id)óÓ¬Òn;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_stats_key;
-@property(nonatomic) long long activationCount; // @synthesize activationCount=_activationCount;
-@property(readonly, nonatomic, getter=_isAutoDeactivated) _Bool autoDeactivated;
-@property(readonly, nonatomic, getter=_autoDeactivationTimeout) double autoDeactivationTimeout;
-@property(retain, nonatomic, getter=_configuration, setter=_setConfiguration:) _UIFeedbackGeneratorConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) __weak id <UICoordinateSpace> coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=_isEnabled) _Bool enabled;
-@property(readonly, nonatomic) NSSet *engines; // @synthesize engines=_engines;
-@property(nonatomic) long long externalActivationCount; // @synthesize externalActivationCount=_externalActivationCount;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=_isMuted, setter=_setMuted:) _Bool muted;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesCustomActivation; // @synthesize usesCustomActivation=_usesCustomActivation;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

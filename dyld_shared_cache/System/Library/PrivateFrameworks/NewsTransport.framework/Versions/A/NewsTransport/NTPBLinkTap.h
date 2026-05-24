@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NTPBLinkTap
 {
     NSString *_articleId;
-    NSData *_articleViewingSessionId;
-    int _groupType;
-    int _linkType;
-    NSString *_referencedArticleId;
-    int _tapLocationType;
-    NSString *_tappedLinkUrl;
-    NSString *_webEmbedId;
-    int _webEmbedLocation;
-    struct {
-        unsigned int groupType:1;
-        unsigned int linkType:1;
-        unsigned int tapLocationType:1;
-        unsigned int webEmbedLocation:1;
-    } _has;
 }
 
-- (id);
-- (int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (int);
-- (int);
+- (id)enumerateWindowsWithOptions:(int)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (int)enumerateVisibleAssetsSectionSublayoutsUsingBlock: /* Error: Ran out of types for this method. */;
+- (id)enqueuePixelBuffer: /* Error: Ran out of types for this method. */;
+- (void)enableDetailsEffect;
+- (void)distanceFromTopEdgeToTopButtonCenter;
+- (void)distanceBetweenWidgetContentBottomAndFooterBaseline;
+- (void)digitalZoomRatio;
+- (void)customStoryViewDurationChangeHandler;
+- (void)curatedLibraryTransitionToolbarBlurRadius;
+- (void)constraintWithItem:(_Bool)arg1 attribute:relatedBy:toItem:attribute:multiplier:constant: /* Error: Ran out of types for this method. */;
+- (id)cardBodySpec;
+- (_Bool)badgeSystemImageWeight;
+- (_Bool)audioQueue_audioWriterWithoutMusicTrack;
+- (_Bool)audioQueue_assetReader;
+- (_Bool)assetType;
+- (_Bool)allSubscribersForAlbumWithObjectID:includingCurrentUser:managedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)actionPerformerClassForActionType:(int)arg1;
+- (int)_updateTimelineTranslationYAnimator;
+- (int)_updateQueue_viewModelConfigurationWithStatus:(id)arg1 counts:photoLibrary: /* Error: Ran out of types for this method. */;
+- (int)_updateIsInCloudIfNeeded;
 - (_Bool);
 - (void);
 - (id);
@@ -57,8 +43,8 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)isSportsSyncingSupported;
+- (void)ng user info zone:(id)arg1 %@;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -66,29 +52,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)DidScroll: /* Error: Ran out of types for this method. */;
+- (void)setDidScroll: /* Error: Ran out of types for this method. */;
 - (int);
 - (int)ñÿ0C;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(retain, nonatomic) NSData *articleViewingSessionId; // @synthesize articleViewingSessionId=_articleViewingSessionId;
-@property(nonatomic) int groupType; // @synthesize groupType=_groupType;
-@property(readonly, nonatomic) _Bool hasArticleId;
-@property(readonly, nonatomic) _Bool hasArticleViewingSessionId;
-@property(nonatomic) _Bool hasGroupType;
-@property(nonatomic) _Bool hasLinkType;
-@property(readonly, nonatomic) _Bool hasReferencedArticleId;
 @property(nonatomic) _Bool hasTapLocationType;
-@property(readonly, nonatomic) _Bool hasTappedLinkUrl;
-@property(readonly, nonatomic) _Bool hasWebEmbedId;
-@property(nonatomic) _Bool hasWebEmbedLocation;
-@property(nonatomic) int linkType; // @synthesize linkType=_linkType;
-@property(retain, nonatomic) NSString *referencedArticleId; // @synthesize referencedArticleId=_referencedArticleId;
-@property(nonatomic) int tapLocationType; // @synthesize tapLocationType=_tapLocationType;
-@property(retain, nonatomic) NSString *tappedLinkUrl; // @synthesize tappedLinkUrl=_tappedLinkUrl;
-@property(retain, nonatomic) NSString *webEmbedId; // @synthesize webEmbedId=_webEmbedId;
-@property(nonatomic) int webEmbedLocation; // @synthesize webEmbedLocation=_webEmbedLocation;
 
 @end
 

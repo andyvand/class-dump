@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface PDFTilePoolPrivate
 {
     NSObject<OS_dispatch_queue> *workQueue;
-    NSObject<OS_dispatch_semaphore> *workQueueThrottle;
-    struct os_unfair_lock_s surfacesLock;
-    NSMutableDictionary *surfaces;
-    int surfaceType;
 }
 
 - (void);

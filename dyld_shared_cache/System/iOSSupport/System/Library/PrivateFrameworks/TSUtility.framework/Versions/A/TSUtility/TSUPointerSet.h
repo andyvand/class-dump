@@ -16,13 +16,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)interactivePuzzleTeaserEngagementData;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)j;
 - (id);
 
 @end

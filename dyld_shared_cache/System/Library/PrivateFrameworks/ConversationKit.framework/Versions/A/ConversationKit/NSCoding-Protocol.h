@@ -5,5 +5,7 @@
 //
 
 @protocol NSCoding
+- (id);
+- (void)Turn On %1$@ Until %2$@ Ends;
 @end
 

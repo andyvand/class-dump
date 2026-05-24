@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsNavigationModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

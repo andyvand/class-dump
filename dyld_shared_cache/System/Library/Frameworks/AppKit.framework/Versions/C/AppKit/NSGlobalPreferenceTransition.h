@@ -13,7 +13,7 @@
 + (id)é
 Ì½G;
 - (void);
-- (id);
+- (id)set_protocolForTask: /* Error: Ran out of types for this method. */;
 - (void)ÐÿÕØÐrA;
 
 @end

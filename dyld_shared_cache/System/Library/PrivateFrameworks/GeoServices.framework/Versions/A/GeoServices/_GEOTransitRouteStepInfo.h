@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStep, GEOTransitStep;
-
 __attribute__((visibility("hidden")))
 @interface _GEOTransitRouteStepInfo
 {
     long long _routeSegmentType;
-    struct _NSRange _pointRange;
-    GEOTransitStep *_transitStep;
-    unsigned int _duration;
-    GEOStep *_walkingStep;
-    struct _NSRange _maneuverPointRange;
 }
 
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
@@ -25,22 +18,16 @@ __attribute__((visibility("hidden")))
 - (struct _NSRange);
 - (unsigned long long);
 - (struct _NSRange);
-- (void);
+- (void)"NSMutableArray",&,N,V_containers;
 - (id);
 - (unsigned int);
 - (void);
 - (void);
-- (double);
+- (double)a dictionary;
 - (void)ÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double distance;
-@property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
-@property(nonatomic) struct _NSRange maneuverPointRange; // @synthesize maneuverPointRange=_maneuverPointRange;
-@property(nonatomic) struct _NSRange pointRange; // @synthesize pointRange=_pointRange;
 @property(nonatomic) long long routeSegmentType; // @synthesize routeSegmentType=_routeSegmentType;
-@property(retain, nonatomic) GEOTransitStep *transitStep; // @synthesize transitStep=_transitStep;
-@property(retain, nonatomic) GEOStep *walkingStep; // @synthesize walkingStep=_walkingStep;
 
 @end
 

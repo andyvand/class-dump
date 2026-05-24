@@ -4,80 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPAppearanceDependentValue, LPCaptionBarStyle, LPContactsBadgeStyle, LPImageViewStyle, LPIndeterminateProgressSpinnerStyle, LPLinkRendererSizeClassParameters, LPPointUnit, LPQuotedTextViewStyle, LPTapToLoadViewStyle, LPVisualMediaViewStyle, UIColor, UIFont;
+@class LPPointUnit;
 
 @interface LPTheme
 {
     long long _style;
-    unsigned long long _sizeClass;
-    LPLinkRendererSizeClassParameters *_sizeClassParameters;
-    long long _platform;
-    _Bool _isFallbackIcon;
-    _Bool _hasButton;
-    double _leadingScalingFactor;
-    LPPointUnit *_cornerRadius;
-    UIColor *_backgroundColor;
-    UIColor *_highlightColor;
-    LPAppearanceDependentValue *_highlightCompositingFilter;
-    long long _backgroundMaterial;
-    LPCaptionBarStyle *_captionBar;
-    LPQuotedTextViewStyle *_quotedText;
-    LPImageViewStyle *_mediaImage;
-    LPImageViewStyle *_placeholderImage;
-    LPVisualMediaViewStyle *_mediaVideo;
-    UIColor *_mediaBackgroundColor;
-    LPCaptionBarStyle *_mediaTopCaptionBar;
-    LPCaptionBarStyle *_mediaBottomCaptionBar;
-    LPTapToLoadViewStyle *_tapToLoad;
-    UIFont *_domainNameIndicatorFont;
-    UIFont *_domainNameIndicatorIconFont;
-    LPImageViewStyle *_backgroundImage;
-    LPContactsBadgeStyle *_contactsBadgeStyle;
-    LPIndeterminateProgressSpinnerStyle *_progressSpinner;
-    LPPointUnit *_maximumWidth;
-    double _widthFractionForTallMedia;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (double);
++ (id)supportsCounterSampling:(long long)arg1;
++ (id)stickerDetailViewController:didRequestSaveSticker: /* Error: Ran out of types for this method. */;
++ (id)statusUpdateWithLocationText:isLocationAvailableForDisplay: /* Error: Ran out of types for this method. */;
++ (double)stateWithName:(long long)arg1;
 + (long long);
-+ (double);
-+ (double);
-+ (void);
-+ (double);
-+ (id);
-+ (double);
++ (double)stateRestorationActivity;
++ (double)startCollaborationWithFileURL:metadata:participants:timeout:completion: /* Error: Ran out of types for this method. */;
++ (void)stackCount;
++ (double)siri_unfilledBalloonColor;
++ (id)simulatedAccount;
++ (double)showUnreadConversationsWithLastConversation:ignoringMessages: /* Error: Ran out of types for this method. */;
 + (id);
 + (void);
 + (void)Ö;
 - (void);
-- (double);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
+- (double)transcriptCollectionViewControllerPlayingAudioDidChange: /* Error: Ran out of types for this method. */;
+- (id)n:(id)arg1;
+- (id)transcriptCollectionViewController:styleForContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(double)arg1 didDeselectItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)transcriptBalloonCell:(id)arg1 didLayoutTextBalloonView: /* Error: Ran out of types for this method. */;
+- (void)transcriptBackground:(id)arg1 convertRect:toView: /* Error: Ran out of types for this method. */;
+- (id)toolbarDefaultItemIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)titleForBackButton;
+- (id)titleDisplayModeChange;
+- (id)titleBarMaskImageForWidth: /* Error: Ran out of types for this method. */;
+- (id)titleAttributedString;
+- (id)tipViewCornerRadius;
+- (id)textViewWidthForWidth:(long long)arg1;
+- (id)textOnly;
+- (id)textContainerOverlayView;
+- (id)textContainerInset;
+- (id)teardownCamera;
+- (id)Provider:adaptiveImageGlyphProvider:effectString: /* Error: Ran out of types for this method. */;
+- (void)taillessBalloonMaskAlignmentRectInsets;
+- (void)stringWithUTF8String: /* Error: Ran out of types for this method. */;
+- (void)stringIdentifier;
+- (void)stringFromNumber: /* Error: Ran out of types for this method. */;
+- (id)stopCachingImagesForAssets:(id)arg1 targetSize:(id)arg2 contentMode:options: /* Error: Ran out of types for this method. */;
+- (id)stickerPickerWasHiddenPreservingChatItem:(id)arg1;
+- (long long)SheetType;
 - (id);
 - (id);
 - (void);
@@ -95,27 +68,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) LPImageViewStyle *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(nonatomic) long long backgroundMaterial; // @synthesize backgroundMaterial=_backgroundMaterial;
-@property(readonly, nonatomic) LPCaptionBarStyle *captionBar; // @synthesize captionBar=_captionBar;
-@property(readonly, nonatomic) LPContactsBadgeStyle *contactsBadgeStyle; // @synthesize contactsBadgeStyle=_contactsBadgeStyle;
 @property(retain, nonatomic) LPPointUnit *cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, nonatomic) UIFont *domainNameIndicatorFont; // @synthesize domainNameIndicatorFont=_domainNameIndicatorFont;
-@property(readonly, nonatomic) UIFont *domainNameIndicatorIconFont; // @synthesize domainNameIndicatorIconFont=_domainNameIndicatorIconFont;
-@property(retain, nonatomic) UIColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(retain, nonatomic) LPAppearanceDependentValue *highlightCompositingFilter; // @synthesize highlightCompositingFilter=_highlightCompositingFilter;
-@property(retain, nonatomic) LPPointUnit *maximumWidth; // @synthesize maximumWidth=_maximumWidth;
-@property(retain, nonatomic) UIColor *mediaBackgroundColor; // @synthesize mediaBackgroundColor=_mediaBackgroundColor;
-@property(readonly, nonatomic) LPCaptionBarStyle *mediaBottomCaptionBar; // @synthesize mediaBottomCaptionBar=_mediaBottomCaptionBar;
-@property(readonly, nonatomic) LPImageViewStyle *mediaImage; // @synthesize mediaImage=_mediaImage;
-@property(readonly, nonatomic) LPCaptionBarStyle *mediaTopCaptionBar; // @synthesize mediaTopCaptionBar=_mediaTopCaptionBar;
-@property(readonly, nonatomic) LPVisualMediaViewStyle *mediaVideo; // @synthesize mediaVideo=_mediaVideo;
-@property(readonly, nonatomic) LPImageViewStyle *placeholderImage; // @synthesize placeholderImage=_placeholderImage;
-@property(readonly, nonatomic) LPIndeterminateProgressSpinnerStyle *progressSpinner; // @synthesize progressSpinner=_progressSpinner;
-@property(readonly, nonatomic) LPQuotedTextViewStyle *quotedText; // @synthesize quotedText=_quotedText;
-@property(readonly, nonatomic) LPTapToLoadViewStyle *tapToLoad; // @synthesize tapToLoad=_tapToLoad;
-@property(nonatomic) double widthFractionForTallMedia; // @synthesize widthFractionForTallMedia=_widthFractionForTallMedia;
 
 @end
 

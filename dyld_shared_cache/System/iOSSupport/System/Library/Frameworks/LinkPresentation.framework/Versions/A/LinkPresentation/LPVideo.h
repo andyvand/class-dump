@@ -6,69 +6,49 @@
 
 #import <LinkPresentation/LPVisualMedia.h>
 
-@class AVAsset, AVURLAsset, LPVideoProperties, NSItemProvider, NSObject, NSString, NSURL;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class AVAsset, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface LPVideo : LPVisualMedia
 {
     NSObject<OS_dispatch_queue> *_mediaLoadingQueue;
-    NSItemProvider *_itemProvider;
-    LPVideo *_videoLoadedFromItemProvider;
-    NSObject<OS_dispatch_group> *_itemProviderLoadGroup;
-    struct CGSize _intrinsicSize;
-    _Bool _startedFetchingIntrinsicSize;
-    AVURLAsset *_asset;
-    id _mediaServicesResetNotificationHandler;
-    NSURL *_streamingURL;
 }
 
 + (_Bool);
+- (id)transcriptContactImage;
+- (_Bool)toggleShareFocusStatusWithReload: /* Error: Ran out of types for this method. */;
+- (void)titleLabelLineBreakMode;
+- (id)thumbnailSizeForAppIconInCollaborationLinks;
+- (id)thumbnailImageData;
+- (id)thumbnailAtIndex:(id)arg1 forWidth:(id)arg2 imageData:isSticker:orientation: /* Error: Ran out of types for this method. */;
+- (id)throwAnimationKeyboardFrame:(id)arg1;
+- (id)throwAnimationContainerSuperview:(id)arg1;
+- (id)textViewTrailingAnchorConstraintToExpansionButton;
+- (id)textView:(id)arg1 shouldInteractWithTextAttachment:(id)arg2 inRange:(id)arg3 interaction: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)textStylePaletteMenuWithHandler:(id)arg1;
+- (_Bool)textStorage:willProcessEditing:range:changeInLength: /* Error: Ran out of types for this method. */;
+- (_Bool)supportsFunctionPointers;
+- (void)supportsControllerReuse;
+- (struct CGSize)supportsContiguousAttachments;
+- (_Bool)suggestedRepliesViewBackgroundColor;
+- (id)string:(id)arg1 hasPrefix: /* Error: Ran out of types for this method. */;
+- (id)stopSelection;
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (id)filterSubCategorySMSPromotionalOthers;
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (struct CGSize);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void)Q1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) AVAsset *_asset;
-@property(readonly, retain, nonatomic) NSItemProvider *_itemProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAudio;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) LPVideoProperties *properties; // @dynamic properties;
-@property(readonly, retain, nonatomic) NSURL *streamingURL; // @synthesize streamingURL=_streamingURL;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSURL *youTubeURL;
 
 @end
 

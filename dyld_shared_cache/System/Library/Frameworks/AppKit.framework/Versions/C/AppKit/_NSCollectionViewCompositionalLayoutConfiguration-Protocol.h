@@ -7,12 +7,11 @@
 @class NSArray;
 
 @protocol _NSCollectionViewCompositionalLayoutConfiguration
-- (long long)sesAdaptiveColorMappingForDarkAppearance;
-- (double)onderBarIndex;
+- (NSArray *)enumerateTextLayoutFragmentInTextRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (long long)usesAdaptiveColorMappingForDarkAppearance;
+- (double)_currentResponderBarIndex;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *boundarySupplementaryItems;
-@property(readonly, nonatomic) double interSectionSpacing;
 @property(readonly, nonatomic) long long scrollDirection;
 @end
 

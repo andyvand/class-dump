@@ -6,29 +6,17 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class LPFileMetadata, LPImage, LPLinkMetadata, NSObject, NSString, NSURL;
-@protocol OS_dispatch_group;
-
 __attribute__((visibility("hidden")))
 @interface LPFileMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     _Bool _cancelled;
-    NSURL *_temporaryFileURL;
-    LPImage *_originalImage;
-    LPImage *_quickLookThumbnail;
-    LPImage *_smallQuickLookThumbnail;
-    NSString *_MIMEType;
-    NSString *_UTI;
-    LPLinkMetadata *_metadata;
-    LPFileMetadata *_fileMetadata;
-    NSObject<OS_dispatch_group> *_fetchGroup;
 }
 
 + (id);
 + (id);
 + (id);
 + (unsigned long long);
-- (void);
+- (void)f;
 - (_Bool);
 - (void);
 - (void);
@@ -40,18 +28,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)registerDisplayedResponses:config: /* Error: Ran out of types for this method. */;
 - (void)°!CùHÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

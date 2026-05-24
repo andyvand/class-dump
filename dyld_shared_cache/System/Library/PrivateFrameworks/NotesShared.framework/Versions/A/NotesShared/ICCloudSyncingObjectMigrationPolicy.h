@@ -8,7 +8,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)RENAME_TAG_CONFIRMATION_MESSAGE_REMINDERS_ONLY;
 
 @end
 

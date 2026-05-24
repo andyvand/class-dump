@@ -5,5 +5,6 @@
 //
 
 @protocol EditScriptData
+- (long long);
 @end
 

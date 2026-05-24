@@ -7,28 +7,133 @@
 @class NSDictionary, NSString, NSTextStorage, UIColor;
 
 @protocol AKTextAnnotationProtocol
+- (_Bool)com;
+- (_Bool)google.vu;
+- (_Bool)tp;
+- (_Bool)iew"8@"UITraitCollection"16;
+- (void)neverShowIcon;
+- (void)dio/x-mpegurl;
+- (void)ying to update a text stack after it has been laid out.;
+- (void)upResult"8@"NSError"16;
+- (void)isHiddenFromSpringboard;
+- (void)username;
+- (void)curatorName;
+- (unsigned long long);
+- (_Bool);
+- (void)list PUBLIC "-
+<plist version="1.0">
+<dict>
+	<key>symbols</key>
+	<dict>
+		<key>a_position-symbol</key>
+		<dict>
+			<key>semantic</key>
+			<string>vertex</string>
+		</dict>
+		<key>color</key>
+		<dict>
+			<key>semantic</key>
+			<string>none</string>
+		</dict>
+	</dict>
+	<key>sequence</key>
+	<array>
+		<string>authoring-overlay</string>
+		<string>authoringBlend</string>
+	</array>
+	<key>targets</key>
+	<dict>
+		<key>authoring-color</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>rgba</string>
+		</dict>
+		<key>authoring-depth</key>
+		<dict>
+			<key>type</key>
+			<string>depth</string>
+		</dict>
+	</dict>
+	<key>passes</key>
+	<dict>
+		<key>authoring-overlay</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>authoring-color</string>
+				<key>depth</key>
+				<string>authoring-depth</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_SCENE</string>
+			<key>layerMask</key>
+			<integer>4</integer>
+			<key>depthStates</key>
+			<dict>
+				<key>clear</key>
+				<true/>
+			</dict>
+			<key>colorStates</key>
+			<dict>
+				<key>clearColor</key>
+				<string>0 0 0 0</string>
+				<key>clear</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>authoringBlend</key>
+		<dict>
+			<key>clientProgram</key>
+			<string>NO</string>
+			<key>program</key>
+			<string>C3D-BlendAuthoring</string>
+			<key>metalVertexShader</key>
+			<string>blendAuthoring_vert</string>
+			<key>metalFragmentShader</key>
+			<string>authoring_blendfrag</string>
+			<key>inputs</key>
+			<dict>
+				<key>authoringColor</key>
+				<string>authoring-color</string>
+				<key>sceneColor</key>
+				<string>COLOR</string>
+			</dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>COLOR</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>depthStates</key>
+			<dict>
+				<key>clear</key>
+				<false/>
+			</dict>
+			<key>colorStates</key>
+			<dict>
+				<key>clear</key>
+				<true/>
+				<key>clearColor</key>
+				<string>sceneBackground</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
+- (NSString *)dismissNativeRecoveryUIWithCompletion: /* Error: Ran out of types for this method. */;
 - (_Bool)ð!DùÑé°1Â0@ù
 × ;
 - (void)iew"16@"NSIndexPath"24@"<UISpringLoadedInteractionContext>"32;
 - (void)mTB;
-- (UIColor *)outLineWidth: /* Error: Ran out of types for this method. */;
-- (NSDictionary *)ler;
+- (UIColor *)_newRectanglePathForAnnotation:withPageController:outLineWidth: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)AKPageModelController;
 
 // Remaining properties
 @property(retain) NSTextStorage *annotationText;
-@property(copy) UIColor *foregroundColor;
-@property(retain) UIColor *foregroundColorHDR;
-@property(retain) UIColor *foregroundColorSDR;
-@property unsigned long long formContentType;
-@property(getter=isHighlighted) _Bool highlighted;
-@property _Bool isDetectedSignature;
-@property _Bool isEditingText;
-@property unsigned long long maximumNumberOfCharacters;
-@property _Bool shouldUsePlaceholderText;
-@property NSString *textContentType;
-@property _Bool textIsClipped;
-@property _Bool textIsFixedHeight;
-@property _Bool textIsFixedWidth;
-@property(copy) NSDictionary *typingAttributes;
 @end
 

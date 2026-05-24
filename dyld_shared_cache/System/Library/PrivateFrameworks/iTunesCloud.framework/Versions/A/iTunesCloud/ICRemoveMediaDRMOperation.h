@@ -6,19 +6,17 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ICRemoveMediaDRMOperation : ICRequestOperation
 {
     NSString *_mediaFilePath;
-    NSArray *_sinfs;
-    NSString *_newFileExtension;
 }
 
 - (id);
 - (void);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)i;
+- (void)setRequestName: /* Error: Ran out of types for this method. */;
 
 @end
 

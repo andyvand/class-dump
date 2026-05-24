@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADMListenerRegistrationResults, ADMNotificationVendor, NSDictionary, NSString, RPBHost, RPBItem;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface DSPProcessor
 {
     NSDictionary *_nsDescription;
-    struct HostDescription _hostDescription;
-    struct SystemConfiguration _systemConfiguration;
-    struct optional<adm::graph::GraphBuilder> _graphBuilder;
-    struct optional<adm::graph::NodeManager> _nodeManager;
-    struct optional<adm::CustomPropertyManager> _customPropertyManager;
-    struct optional<std::vector<adm::DeviceConfiguration>> _pendingDeviceConfigChanges;
-    struct optional<std::vector<adm::DeviceConfiguration>> _activeDeviceConfigChanges;
-    NSDictionary *_pendingConfiguration;
-    struct optional<adm::ConfigurationChangeRequest> _pendingChangeRequest;
-    NSDictionary *_activeConfiguration;
-    struct optional<adm::ConfigurationChangeRequest> _activeChangeRequest;
-    _Bool _hasRegisteredUIOrientation;
-    ADMNotificationVendor *_notificationVendor;
-    ADMListenerRegistrationResults *_coexNotificationRegistrationResults;
-    RPBItem *_remoteProcessingBlockItem;
-    RPBHost *_remoteProcessingBlockHost;
-    RPBHost *_remoteProcessingBlockRootHost;
 }
 
 - (_Bool);
@@ -44,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -52,13 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

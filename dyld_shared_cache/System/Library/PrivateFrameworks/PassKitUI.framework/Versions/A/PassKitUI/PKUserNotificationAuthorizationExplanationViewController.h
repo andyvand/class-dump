@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSTextField, PKMobileAssetManager;
-@protocol PKUserNotificationAuthorizationExplanationViewControllerDelegate;
+@class NSImageView;
 
 @interface PKUserNotificationAuthorizationExplanationViewController
 {
     unsigned long long _contentType;
-    PKMobileAssetManager *_assetManager;
-    id <PKUserNotificationAuthorizationExplanationViewControllerDelegate> _delegate;
-    NSImageView *_imageView;
-    NSTextField *_titleLabel;
-    NSTextField *_bodyLabel;
-    NSButton *_enableButton;
-    NSButton *_notNowButton;
 }
 
 - (void);
@@ -27,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (void);
 - (id);
 - (void);
@@ -38,7 +30,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (id);
@@ -47,12 +39,7 @@
 - (id);
 
 // Remaining properties
-@property __weak NSTextField *bodyLabel; // @synthesize bodyLabel=_bodyLabel;
-@property(nonatomic) __weak id <PKUserNotificationAuthorizationExplanationViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property __weak NSButton *enableButton; // @synthesize enableButton=_enableButton;
 @property __weak NSImageView *imageView; // @synthesize imageView=_imageView;
-@property __weak NSButton *notNowButton; // @synthesize notNowButton=_notNowButton;
-@property __weak NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

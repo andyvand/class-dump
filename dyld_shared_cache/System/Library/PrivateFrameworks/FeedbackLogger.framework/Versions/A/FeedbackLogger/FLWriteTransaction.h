@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RBSAssertion;
-@protocol OS_os_log, OS_os_transaction;
+@class NSObject;
+@protocol OS_os_transaction;
 
 @interface FLWriteTransaction
 {
     NSObject<OS_os_transaction> *_transaction;
-    RBSAssertion *_rbsAssertion;
-    NSObject<OS_os_log> *_log;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)%@;
 - (id);
 - (void);
 - (id);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) RBSAssertion *rbsAssertion; // @synthesize rbsAssertion=_rbsAssertion;
 @property(retain, nonatomic) NSObject<OS_os_transaction> *transaction; // @synthesize transaction=_transaction;
 
 @end

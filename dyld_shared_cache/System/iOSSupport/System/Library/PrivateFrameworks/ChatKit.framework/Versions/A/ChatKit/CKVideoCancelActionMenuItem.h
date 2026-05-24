@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)styleText:(unsigned long long)arg1 inExactRange:fixModelAttributes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long touchDownCount; // @synthesize touchDownCount=_touchDownCount;

@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString, SCNOrderedDictionary;
-@protocol MTLLibrary;
+@class NSDictionary;
 
 @interface SCNTechnique
 {
     unsigned int _isPresentationInstance:1;
-    struct __C3DFXTechnique *_technique;
-    NSMutableDictionary *_valueForSymbol;
-    struct os_unfair_lock_s _valueForSymbolLock;
-    struct os_unfair_lock_s _animationsLock;
-    SCNOrderedDictionary *_animations;
-    NSMutableDictionary *_bindings;
-    id <MTLLibrary> _library;
-    NSArray *_passes;
 }
 
++ (id)T;
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)Range:inControl:inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (struct __C3DFXTechnique *);
@@ -49,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (_Bool);
 - (struct __C3DScene *);
 - (void);
@@ -60,18 +51,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)sparseTileSizeWithTextureType:pixelFormat:sampleCount:sparsePageSize: /* Error: Ran out of types for this method. */;
+- (id)sparseTileSizeInBytes;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)3CalendarUIKit14EditDataSourceP;
 - (void);
 - (id);
-- (void);
+- (void)@0:(id)arg1 8;
 - (id);
 - (void);
 - (id);
@@ -609,16 +600,7 @@ __DoFragmentModifier__
 ;
 
 // Remaining properties
-@property(readonly) NSArray *animationKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <MTLLibrary> library;
-@property(readonly) Class superclass;
 
 @end
 

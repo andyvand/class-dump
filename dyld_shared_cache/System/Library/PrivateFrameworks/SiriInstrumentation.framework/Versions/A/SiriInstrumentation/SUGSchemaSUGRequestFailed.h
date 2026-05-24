@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGRequestFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)ptpClock_removeAllRemotePortsForPeer_block_invoke;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)SError">40;
+- (_Bool)removeObserver:(id)arg1;
+- (_Bool)or_guid is not null and ck_sync_state=1;
 - (id);
 - (id);
-- (id)ntencesAccepted;
-- (id)arCommandContext;
-- (_Bool)RIGGER_PHRASE;
-- (_Bool)ERPERSONA_3P_FOCUS_MIXED;
-- (void)cationRequestAuthenticationLevel;
+- (id)deleteNumSentencesAccepted;
+- (id)_hasUeiSiriCarCommandContext;
+- (_Bool)DISMISSALREASON_USER_GOODBYE_TRIGGER_PHRASE;
+- (_Bool)INFERENCEAPPSELECTIONUSERPERSONA_3P_FOCUS_MIXED;
+- (void)IFTSchemaIFTSystemRequirementAuthenticationRequestAuthenticationLevel;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,11 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class CUICommonAssetStorage, CUINamedRenditionInfo, NSArray, NSDictionary, NSString;
 
 @protocol CUIStructuredThemeStorage2
+- (unsigned short);
+- (_Bool)@p;
+- (NSArray *)!;
 - (NSDictionary *)
 × ;
 - (NSDictionary *)|;
+
+@optional
+- (CUICommonAssetStorage *);
+- (CUINamedRenditionInfo *);
+- (NSString *)%@' SET entryCount = entryCount - 1 WHERE tableID = "%@";;
+- (void)e_PKSubsystem _beginUsing:(NSString *)arg1 withBundle:] /* Error: Ran out of types for this method. */;
 @end
 

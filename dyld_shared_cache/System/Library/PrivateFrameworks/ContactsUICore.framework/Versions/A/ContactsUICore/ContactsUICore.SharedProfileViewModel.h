@@ -7,11 +7,6 @@
 @interface ContactsUICore.SharedProfileViewModel
 {
     id _contact;
-    id _actionsProvider;
-    id sharedProfileOracle;
-    id nameFormatter;
-    id _isMeCard;
-    id _$observationRegistrar;
 }
 
 @end

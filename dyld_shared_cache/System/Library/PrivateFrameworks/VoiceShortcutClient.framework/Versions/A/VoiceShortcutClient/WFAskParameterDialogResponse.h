@@ -15,12 +15,12 @@
 
 + (_Bool);
 + (_Bool);
+- (id)s#z;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)@;
+- (void)@0:(id)arg1 8i16@20;
 - (void);
 - (void)0@ù
 × ;

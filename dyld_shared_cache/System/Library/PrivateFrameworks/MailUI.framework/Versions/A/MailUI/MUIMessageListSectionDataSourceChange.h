@@ -4,53 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MUIMessageListSectionDataSourceChange
 {
     id change;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
+- (_Bool)`;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id)TP;
+- (_Bool)@@y	?%@q!;
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void)thFormat: /* Error: Ran out of types for this method. */;
+- (void)localizedStringWithFormat: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *ef_publicDescription;
-@property(nonatomic, readonly) _Bool failed;
-@property(nonatomic, readonly) _Bool hasChanges;
 @property(nonatomic, readonly) _Bool isAddition;
-@property(nonatomic, readonly) _Bool isCleanSnapshot;
-@property(nonatomic, readonly) _Bool isFirstChange;
-@property(nonatomic, readonly) _Bool isMove;
-@property(nonatomic, readonly) _Bool isRemoval;
-@property(nonatomic, readonly) _Bool isSectionRemoval;
-@property(nonatomic, readonly) _Bool isUpdate;
-@property(nonatomic, readonly) long long numberOfChanges;
-@property(nonatomic, readonly) _Bool skipped;
 
 @end
 

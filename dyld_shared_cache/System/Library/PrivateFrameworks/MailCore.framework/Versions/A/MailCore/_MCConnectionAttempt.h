@@ -7,11 +7,9 @@
 @interface _MCConnectionAttempt
 {
     long long _securityLayer;
-    long long _port;
-    double _connectTimeout;
 }
 
-- (void);
+- (void);
 - (void);
 - (double);
 - (long long);
@@ -20,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double connectTimeout; // @synthesize connectTimeout=_connectTimeout;
-@property(nonatomic) long long port; // @synthesize port=_port;
 @property(nonatomic) long long securityLayer; // @synthesize securityLayer=_securityLayer;
 
 @end

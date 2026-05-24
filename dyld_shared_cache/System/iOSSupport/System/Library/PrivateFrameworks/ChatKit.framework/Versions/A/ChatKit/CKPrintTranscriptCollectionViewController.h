@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)setHighlightedMultiplier: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

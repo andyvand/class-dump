@@ -5,13 +5,13 @@
 //
 
 @interface UnknownClass (AppSupportMessagingProxy)
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 @end
 

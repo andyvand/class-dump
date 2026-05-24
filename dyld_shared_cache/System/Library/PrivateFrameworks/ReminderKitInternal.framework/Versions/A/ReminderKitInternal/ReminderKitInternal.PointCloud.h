@@ -7,11 +7,6 @@
 @interface ReminderKitInternal.PointCloud
 {
     id points;
-    id center;
-    id variance;
-    id numOfPoints;
-    id dimension;
-    id metric;
 }
 
 @end

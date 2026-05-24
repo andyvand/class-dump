@@ -4,8 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UITableConstants;
+
 @protocol UITableConstants
-+ (id)tiveTransitionWithProgress: /* Error: Ran out of types for this method. */;
++ (id)_startInteractiveTransitionWithProgress: /* Error: Ran out of types for this method. */;
+- (double);
 - (struct _UITableConstantsBackgroundProperties)ÚíÿLþÿ;
+
+@optional
+- (id <UITableConstants>);
+- (double);
 @end
 

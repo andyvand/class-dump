@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationPresentationContext, NSString, UIViewController;
-@protocol AKAuthorizationContainerViewControllerDelegate, AKAuthorizationPaneViewControllerDelegate;
+@class UIViewController;
 
 @interface AKAuthorizationContainerViewController
 {
     UIViewController *_rootViewController;
-    AKAuthorizationPresentationContext *_presentationContext;
-    id <AKAuthorizationContainerViewControllerDelegate> _delegate;
-    id <AKAuthorizationPaneViewControllerDelegate> _paneDelegate;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)cuik_drawImageWithSize:(id)arg1 drawBlock:(id)arg2;
+- (id);
+- (id)IS;
+- (void)SCNPhysicsVehicleWheel;
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKAuthorizationContainerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <AKAuthorizationPaneViewControllerDelegate> paneDelegate; // @synthesize paneDelegate=_paneDelegate;
-@property(readonly, nonatomic) AKAuthorizationPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
 @property(retain, nonatomic) UIViewController *rootViewController; // @synthesize rootViewController=_rootViewController;
-@property(readonly) Class superclass;
 
 @end
 

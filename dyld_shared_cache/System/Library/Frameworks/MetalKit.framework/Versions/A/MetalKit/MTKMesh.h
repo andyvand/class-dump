@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLVertexDescriptor, NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface MTKMesh
 {
     NSMutableArray *_submeshes;
-    NSMutableArray *_vertexBuffers;
-    MDLVertexDescriptor *_vertexDescriptor;
-    unsigned long long _vertexCount;
-    NSString *_name;
 }
 
 + (id);
@@ -27,11 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *submeshes; // @synthesize submeshes=_submeshes;
 @property(readonly, nonatomic) NSArray *vertexBuffers; // @synthesize vertexBuffers=_vertexBuffers;
-@property(readonly, nonatomic) unsigned long long vertexCount; // @synthesize vertexCount=_vertexCount;
-@property(readonly, nonatomic) MDLVertexDescriptor *vertexDescriptor; // @synthesize vertexDescriptor=_vertexDescriptor;
 
 @end
 

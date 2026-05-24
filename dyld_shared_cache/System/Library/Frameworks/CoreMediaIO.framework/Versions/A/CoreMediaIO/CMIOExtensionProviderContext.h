@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionClient, NSObject, NSString;
-@protocol OS_os_transaction, OS_voucher, OS_xpc_object;
+@class NSObject;
+@protocol OS_os_transaction, OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface CMIOExtensionProviderContext
 {
     NSObject<OS_os_transaction> *_transaction;
-    NSString *_description;
-    NSString *_redactedDescription;
-    NSObject<OS_voucher> *_voucher;
-    _Bool _invalidated;
-    _Bool _clientSourcedByNonStreamingProxyFrontedExtension;
-    NSObject<OS_xpc_object> *_connection;
-    CMIOExtensionClient *_clientInfo;
 }
 
 - (void);
@@ -27,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -40,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)attemptCount;
 - (void);
 - (id);
 - (id);
@@ -58,17 +51,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CMIOExtensionClient *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(nonatomic, getter=isClientSourcedByNonStreamingProxyFrontedExtension) _Bool clientSourcedByNonStreamingProxyFrontedExtension; // @synthesize clientSourcedByNonStreamingProxyFrontedExtension=_clientSourcedByNonStreamingProxyFrontedExtension;
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly) Class superclass;
 
 @end
 

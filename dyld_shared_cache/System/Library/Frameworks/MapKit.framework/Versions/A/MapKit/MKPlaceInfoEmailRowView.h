@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (Class);
+- (Class)C;
 - (id);
-- (int);
+- (int)setLoggingHandle: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)preinstalledMeta.json;
 
 @end
 

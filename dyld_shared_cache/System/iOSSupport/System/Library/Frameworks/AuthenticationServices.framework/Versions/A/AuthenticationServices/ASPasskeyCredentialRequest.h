@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASPasskeyAssertionCredentialExtensionInput, ASPasskeyRegistrationCredentialExtensionInput, NSArray, NSData, NSString;
+@class NSData;
 @protocol ASCredentialIdentity;
 
 @interface ASPasskeyCredentialRequest
 {
     id <ASCredentialIdentity> _credentialIdentity;
-    long long _credentialType;
-    NSData *_clientDataHash;
-    NSString *_userVerificationPreference;
-    NSArray *_supportedAlgorithms;
-    NSArray *_excludedCredentials;
-    ASPasskeyAssertionCredentialExtensionInput *_assertionExtensionInput;
-    ASPasskeyRegistrationCredentialExtensionInput *_registrationExtensionInput;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,25 +31,11 @@
 - (id);
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id)fetchMessageRecordWithGUID:(struct _NSZone *)arg1 excludeRecoverableMessages:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)__DATA_CONST;
 
 // Remaining properties
-@property(readonly, nonatomic) ASPasskeyAssertionCredentialExtensionInput *assertionExtensionInput; // @synthesize assertionExtensionInput=_assertionExtensionInput;
 @property(readonly, nonatomic) NSData *clientDataHash; // @synthesize clientDataHash=_clientDataHash;
-@property(readonly, nonatomic) id <ASCredentialIdentity> credentialIdentity; // @synthesize credentialIdentity=_credentialIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *excludedCredentials; // @synthesize excludedCredentials=_excludedCredentials;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ASPasskeyRegistrationCredentialExtensionInput *registrationExtensionInput; // @synthesize registrationExtensionInput=_registrationExtensionInput;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *supportedAlgorithms; // @synthesize supportedAlgorithms=_supportedAlgorithms;
-@property(readonly, nonatomic) long long type; // @synthesize type=_credentialType;
-@property(retain, nonatomic) NSString *userVerificationPreference; // @synthesize userVerificationPreference=_userVerificationPreference;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface _DPHCMSWordRecord : _DPCMSWordRecord
 {
     int _fragmentBitIndex;
-    int _sequenceBitIndex;
 }
 
 + (id)0@ù
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) int fragmentBitIndex; // @synthesize fragmentBitIndex=_fragmentBitIndex;
-@property(nonatomic) int sequenceBitIndex; // @synthesize sequenceBitIndex=_sequenceBitIndex;
 
 @end
 

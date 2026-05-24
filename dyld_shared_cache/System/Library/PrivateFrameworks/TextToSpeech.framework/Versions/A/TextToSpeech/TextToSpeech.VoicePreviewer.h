@@ -7,15 +7,6 @@
 @interface TextToSpeech.VoicePreviewer
 {
     id $defaultActor;
-    id voiceDbClient;
-    id sampleAssetUrl;
-    id $__lazy_storage_$_synth;
-    id currentPlayer;
-    id currentPreviewContinuation;
-    id initialized;
-    id initializationTask;
-    id $__lazy_storage_$_xpcClient;
-    id siriQueue;
 }
 
 - (void);

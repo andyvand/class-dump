@@ -11,10 +11,6 @@
 @interface IKCacheVRamNode : IKLinkedListNode
 {
     IKCacheNode *_parent;
-    unsigned int _session;
-    unsigned int _memoryUsage;
-    unsigned int _packerID;
-    struct CGRect _textureRect;
 }
 
 - (struct CGRect);
@@ -28,7 +24,7 @@
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)initWithString:(id)arg1 locale: /* Error: Ran out of types for this method. */;
 
 @end
 

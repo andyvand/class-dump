@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, NSString;
+@class NSString;
 
 @interface INTrainTrip
 {
     NSString *_provider;
-    NSString *_trainName;
-    NSString *_trainNumber;
-    INDateComponentsRange *_tripDuration;
-    CLPlacemark *_departureStationLocation;
-    NSString *_departurePlatform;
-    CLPlacemark *_arrivalStationLocation;
-    NSString *_arrivalPlatform;
 }
 
 + (id);
@@ -23,39 +16,25 @@
 - (id);
 - (id);
 - (id);
+- (id)l;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)userHasPairedGameController;
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setPasswordSharingDisabled:(id)arg1;
+- (void)] AUTO-JOIN:(id)arg1 Join failed due to BSS not found (%ld), will perform scan to discover BSS and retry association;
 - (id);
 - (id);
 - (id);
-- (id)bleBookings:(unsigned long long)arg1 code:userActivity: /* Error: Ran out of types for this method. */;
-- (void): /* Error: Ran out of types for this method. */;
+- (id)initWithAvailableBookings:(unsigned long long)arg1 code:userActivity: /* Error: Ran out of types for this method. */;
+- (void)provideWorkoutNameOptionsForPauseWorkout:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)ù;
 
 // Remaining properties
-@property(readonly, copy) NSString *arrivalPlatform; // @synthesize arrivalPlatform=_arrivalPlatform;
-@property(readonly, copy) CLPlacemark *arrivalStationLocation; // @synthesize arrivalStationLocation=_arrivalStationLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *departurePlatform; // @synthesize departurePlatform=_departurePlatform;
-@property(readonly, copy) CLPlacemark *departureStationLocation; // @synthesize departureStationLocation=_departureStationLocation;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *trainName; // @synthesize trainName=_trainName;
-@property(readonly, copy) NSString *trainNumber; // @synthesize trainNumber=_trainNumber;
-@property(readonly, copy) INDateComponentsRange *tripDuration; // @synthesize tripDuration=_tripDuration;
 
 @end
 

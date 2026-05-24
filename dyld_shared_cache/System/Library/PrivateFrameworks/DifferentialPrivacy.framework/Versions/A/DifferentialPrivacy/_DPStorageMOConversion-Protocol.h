@@ -9,9 +9,9 @@
 @protocol _DPStorageMOConversion
 + (NSString *)0@ù
 × ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSManagedObjectID *objectId;
-@property(nonatomic) _Bool submitted;
 @end
 

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayLayout;
+@protocol BSInvalidatable;
 
 @protocol FBSDisplayLayoutPublishing
+- (id <BSInvalidatable>);
+- (id <BSInvalidatable>)";
 
 // Remaining properties
-@property(nonatomic) long long backlightLevel;
-@property(readonly, nonatomic) FBSDisplayLayout *currentLayout;
 @property(nonatomic) long long interfaceOrientation;
-@property(readonly, nonatomic, getter=isTransitioning) _Bool transitioning;
 @end
 

@@ -6,33 +6,11 @@
 
 #import <PodcastServices/PODContentEntity.h>
 
-@class NSDate, NSString, NSURL;
-@protocol PODEpisodePlayMetadataProtocol;
+@class NSString;
 
 @interface PODEpisode : PODContentEntity
 {
     _Bool _isExplicit;
-    _Bool _doNotAutoDelete;
-    NSString *_title;
-    NSString *_category;
-    NSString *_shortDescription;
-    NSString *_longDescription;
-    NSURL *_feedUrl;
-    NSString *_externalGuid;
-    unsigned long long _storeTrackId;
-    unsigned long long _byteSize;
-    unsigned long long _episodeNumber;
-    unsigned long long _seasonNumber;
-    NSURL *_mediaDownloadableUrl;
-    NSURL *_mediaFileUrl;
-    NSDate *_pubDate;
-    NSDate *_addedDate;
-    double _duration;
-    id <PODEpisodePlayMetadataProtocol> _playMetadata;
-    NSURL *_episodePageUrl;
-    long long _showSyncID;
-    long long _priceType;
-    NSString *_episodeDescription;
 }
 
 + (_Bool);
@@ -42,59 +20,30 @@
 - (id);
 - (id);
 - (id);
+- (id)*h6;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)6@9I	*i6;
+- (id)�;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_10shared_ptrINS2_14abstract_batchEEERNS2_10layer_dataESA_E3$_0FZNS3_8__launchES8_SA_SA_E19nms_box_coordinatesZNS3_8__launchES8_SA_SA_E27implementation_agnostic_boxEEE;
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)updateLimit:forActivity:forLimiterWithName:handler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)cord with signature 0x%02hhx%02hhx%02hhx%02hhx at offset %lld;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *addedDate; // @synthesize addedDate=_addedDate;
-@property(readonly, nonatomic) unsigned long long byteSize; // @synthesize byteSize=_byteSize;
-@property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool doNotAutoDelete; // @synthesize doNotAutoDelete=_doNotAutoDelete;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic) NSString *episodeDescription; // @synthesize episodeDescription=_episodeDescription;
-@property(readonly, nonatomic) unsigned long long episodeNumber; // @synthesize episodeNumber=_episodeNumber;
-@property(readonly, nonatomic) NSURL *episodePageUrl; // @synthesize episodePageUrl=_episodePageUrl;
-@property(readonly, nonatomic) NSString *externalGuid; // @synthesize externalGuid=_externalGuid;
-@property(readonly, nonatomic) NSURL *feedUrl; // @synthesize feedUrl=_feedUrl;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isExplicit; // @synthesize isExplicit=_isExplicit;
-@property(readonly, nonatomic) NSString *longDescription; // @synthesize longDescription=_longDescription;
-@property(readonly, nonatomic) NSURL *mediaDownloadableUrl; // @synthesize mediaDownloadableUrl=_mediaDownloadableUrl;
-@property(readonly, nonatomic) NSURL *mediaFileUrl; // @synthesize mediaFileUrl=_mediaFileUrl;
-@property(readonly, nonatomic) id <PODEpisodePlayMetadataProtocol> playMetadata; // @synthesize playMetadata=_playMetadata;
-@property(readonly, nonatomic) long long priceType; // @synthesize priceType=_priceType;
-@property(readonly, nonatomic) NSDate *pubDate; // @synthesize pubDate=_pubDate;
-@property(readonly, nonatomic) unsigned long long seasonNumber; // @synthesize seasonNumber=_seasonNumber;
-@property(readonly, nonatomic) NSString *shortDescription; // @synthesize shortDescription=_shortDescription;
-@property(readonly, nonatomic) long long showSyncID; // @synthesize showSyncID=_showSyncID;
-@property(readonly, nonatomic) unsigned long long storeTrackId; // @synthesize storeTrackId=_storeTrackId;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long syncID;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

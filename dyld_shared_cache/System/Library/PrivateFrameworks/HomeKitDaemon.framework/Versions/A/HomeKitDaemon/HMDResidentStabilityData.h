@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMDateProvider, NSDate, NSUUID;
+@class HMMDateProvider, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentStabilityData
 {
     HMMDateProvider *_dateProvider;
-    NSUUID *_residentIDSIdentifier;
-    long long _dropoffCount;
-    NSDate *_firstDropoffTime;
-    NSDate *_lastDropoffTime;
-    NSDate *_unstableSince;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (void)orks/SafariShared.framework/Versions/A/SafariShared;
+- (_Bool)setStorageController: /* Error: Ran out of types for this method. */;
+- (id)_performBlockWhenCheckinCompleted:(id)arg1;
 - (id);
 - (long long);
 - (_Bool);
@@ -31,11 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)st=%@, destinationIPAddress=%@, icmpTypeList=%@>;
 
 // Remaining properties
-@property(readonly, nonatomic) long long dropoffCount; // @synthesize dropoffCount=_dropoffCount;
-@property(readonly, nonatomic) NSDate *firstDropoffTime; // @synthesize firstDropoffTime=_firstDropoffTime;
-@property(readonly, nonatomic) NSDate *lastDropoffTime; // @synthesize lastDropoffTime=_lastDropoffTime;
 @property(readonly, nonatomic) NSUUID *residentIDSIdentifier; // @synthesize residentIDSIdentifier=_residentIDSIdentifier;
-@property(readonly, nonatomic) NSDate *unstableSince; // @synthesize unstableSince=_unstableSince;
 
 @end
 

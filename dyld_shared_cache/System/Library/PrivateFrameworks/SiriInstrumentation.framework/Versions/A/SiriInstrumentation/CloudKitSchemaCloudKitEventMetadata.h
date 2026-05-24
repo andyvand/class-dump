@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CloudKitSchemaCloudKitEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ckId;
-    _Bool _hasCkId;
 }
 
 - (void);
@@ -27,14 +26,12 @@
 - (_Bool);
 - (id);
 - (id)chemaIFTRequestContentHeadGestureContent";
-- (id)ressionFailed;
+- (id)MHSchemaMHUnintendedResponseSuppressionFailed;
 - (id)¼«;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *ckId; // @synthesize ckId=_ckId;
-@property(nonatomic) _Bool hasCkId; // @synthesize hasCkId=_hasCkId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,35 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaAudioStopRecording : SISchemaInstrumentationMessage
 {
     int _endpointType;
-    struct {
-        unsigned int endpointType:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
-- (void);
+- (void)experiment_id;
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (id);
-- (id)tRankerScoreKeeperAtIndex:(id)arg1;
-- (id)zedLocationNameId;
+- (unsigned long long)ASDServiceProvider;
+- (_Bool)vityAlertClass(void)_block_invoke;
+- (_Bool)ELECT COUNT(*) FROM chat_message_join AS cmj JOIN message AS m ON cmj.message_id = m.ROWID JOIN chat AS c ON cmj.chat_id = c.ROWID WHERE c.guid = ? AND NOT (m.group_action_type IN (1,3) AND (m.ROWID IN (SELECT message_id FROM message_attachment_join)));
+- (int)ownload for GUID %@;
+- (id);
+- (id)%8.8x
+;
+- (id)crossIntentRankerScoreKeeperAtIndex:(id)arg1;
+- (id)_anonymizedLocationNameId;
 
 // Remaining properties
 @property(nonatomic) int endpointType; // @synthesize endpointType=_endpointType;
-@property(nonatomic) _Bool hasEndpointType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

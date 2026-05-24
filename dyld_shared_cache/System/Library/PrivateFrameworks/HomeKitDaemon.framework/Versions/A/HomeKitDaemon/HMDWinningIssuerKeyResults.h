@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface HMDWinningIssuerKeyResults
 {
     HAPKeychainItem *_keychainItem;
-    long long _highestGeneration;
 }
 
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)_purgeExpiredIdentifiersIn: /* Error: Ran out of types for this method. */;
 - (void)ssory1,1;
 
 // Remaining properties
-@property long long highestGeneration; // @synthesize highestGeneration=_highestGeneration;
 @property(retain) HAPKeychainItem *keychainItem; // @synthesize keychainItem=_keychainItem;
 
 @end

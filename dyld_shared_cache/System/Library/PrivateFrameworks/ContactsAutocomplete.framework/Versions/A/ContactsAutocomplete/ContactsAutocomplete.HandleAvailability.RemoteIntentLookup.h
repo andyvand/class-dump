@@ -7,7 +7,6 @@
 @interface ContactsAutocomplete.HandleAvailability.RemoteIntentLookup
 {
     id logger;
-    id clientLabel;
 }
 
 @end

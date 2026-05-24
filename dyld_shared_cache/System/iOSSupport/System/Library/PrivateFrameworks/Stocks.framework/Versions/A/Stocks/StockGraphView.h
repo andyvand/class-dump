@@ -4,56 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GraphRenderOperation, LineGraphView, NSArray, NSMutableArray, StockChartData, StockChartDisplayMode, UIView, VolumeGraphView;
+@class LineGraphView, UIView;
 @protocol StockGraphViewContainer;
 
 @interface StockGraphView
 {
     LineGraphView *_lineView;
-    VolumeGraphView *_volumeView;
-    UIView<StockGraphViewContainer> *_chartViewDelegate;
-    StockChartData *_chartData;
-    int _valueIndex;
-    int _valueCount;
-    struct CGPoint *_points;
-    struct CGPoint *_values;
-    NSMutableArray *_linePointCounts;
-    NSArray *_dottedLinePositions;
-    NSArray *_dottedLinePositionsForStyleOnly;
-    unsigned int _dataSize;
-    unsigned int _dataCount;
-    CDStruct_b5bb7d6f *_volumeBars;
-    unsigned int _volumeSize;
-    unsigned int _volumeCount;
-    double _volumeBarWidth;
-    unsigned long long _maxVolume;
-    GraphRenderOperation *_renderOperation;
-    _Bool _isRendered;
-    StockChartDisplayMode *_displayMode;
-    struct UIEdgeInsets _graphInsets;
 }
 
-- (struct CGRect);
+- (struct CGRect)=z;
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
+- (void)l|;
+- (void)"z;
 - (void);
 - (void);
-- (void);
-- (void);
-- (CDStruct_d4d9707c);
-- (void);
+- (CDStruct_8cc9ba3e);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
 - (id);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)m;
 - (double);
-- (void);
-- (float);
+- (void)m;
+- (float)m;
 - (unsigned long long);
 - (struct CGRect);
 - (void);
@@ -68,15 +47,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)g",C,N,V_rawCharacters;
 - (id);
 
 // Remaining properties
 @property(nonatomic) __weak UIView<StockGraphViewContainer> *chartViewDelegate; // @synthesize chartViewDelegate=_chartViewDelegate;
-@property(retain, nonatomic) StockChartDisplayMode *displayMode; // @synthesize displayMode=_displayMode;
-@property(nonatomic) struct UIEdgeInsets graphInsets; // @synthesize graphInsets=_graphInsets;
-@property(readonly, nonatomic) _Bool isRendered; // @synthesize isRendered=_isRendered;
-@property(readonly, nonatomic) _Bool isRendering;
 
 @end
 

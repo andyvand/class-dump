@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface QCSCN_SceneSource
 {
@@ -14,13 +14,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (long long);
 - (struct __C3DSceneSource *);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -32,16 +32,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setAllowsCopyingIndicator:(id)arg1;
 
 // Remaining properties
-@property(readonly) NSData *data;
 @property(readonly) NSURL *url;
 
 @end

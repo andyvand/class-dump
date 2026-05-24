@@ -6,22 +6,17 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class NSMatrix, NSTextField;
+@class NSMatrix;
 
 @interface QCNetworkPatchUI : QCInspector
 {
     NSMatrix *protocolMatrix;
-    NSTextField *ipField_1;
-    NSTextField *ipField_2;
-    NSTextField *ipField_3;
-    NSTextField *ipField_4;
-    NSTextField *portField;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 
 @end
 

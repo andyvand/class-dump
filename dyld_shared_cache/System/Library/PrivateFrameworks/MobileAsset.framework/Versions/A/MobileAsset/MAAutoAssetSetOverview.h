@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MAAutoAssetSetOverview
 {
     NSString *_clientDomainName;
-    NSString *_assetSetIdentifier;
-    NSArray *_configuredAssetEntries;
-    NSString *_latestDownloadedAtomicInstance;
-    NSArray *_downloadedAtomicInstances;
-    NSString *_discoveredAtomicInstance;
-    long long _activeClientCount;
-    long long _maximumClientCount;
-    long long _totalClientCount;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (long long);
@@ -30,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -45,23 +37,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)managerObjectFactory;
 - (id);
 - (void);
-- (id)tAtIndex: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id)removeObjectAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long activeClientCount; // @synthesize activeClientCount=_activeClientCount;
-@property(retain, nonatomic) NSString *assetSetIdentifier; // @synthesize assetSetIdentifier=_assetSetIdentifier;
 @property(retain, nonatomic) NSString *clientDomainName; // @synthesize clientDomainName=_clientDomainName;
-@property(retain, nonatomic) NSArray *configuredAssetEntries; // @synthesize configuredAssetEntries=_configuredAssetEntries;
-@property(readonly, retain, nonatomic) NSString *discoveredAtomicInstance; // @synthesize discoveredAtomicInstance=_discoveredAtomicInstance;
-@property(retain, nonatomic) NSArray *downloadedAtomicInstances; // @synthesize downloadedAtomicInstances=_downloadedAtomicInstances;
-@property(retain, nonatomic) NSString *latestDownloadedAtomicInstance; // @synthesize latestDownloadedAtomicInstance=_latestDownloadedAtomicInstance;
-@property(nonatomic) long long maximumClientCount; // @synthesize maximumClientCount=_maximumClientCount;
-@property(nonatomic) long long totalClientCount; // @synthesize totalClientCount=_totalClientCount;
 
 @end
 

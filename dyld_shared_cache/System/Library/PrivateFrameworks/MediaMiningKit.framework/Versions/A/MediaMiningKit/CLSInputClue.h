@@ -13,7 +13,7 @@
 
 - (void);
 - (void);
-- (id);
+- (id)ures OR (%d/%d) FRC requests OR (%d/%d) timeouts allowed. %d untried. %.3fs processing time left.;
 
 @end
 

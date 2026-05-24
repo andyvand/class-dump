@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLLocationManager, NSString;
+@class CLLocation;
 
 @interface CalLocationManagerDelegate
 {
     CLLocation *_currentLocation;
-    CDUnknownBlockType _completionBlock;
-    CLLocationManager *_manager;
-    NSString *_currentBundleID;
-    _Bool _didFinish;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)userInfoFromGUID:outUserName:outUserUID: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)ess = %d;
 - (void);
 - (void);
-- (void);
-- (void)tems:(id)arg1;
+- (void)_resultsForSearchableItems:(id)arg1;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(retain) CLLocation *currentLocation; // @synthesize currentLocation=_currentLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool didFinish; // @synthesize didFinish=_didFinish;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

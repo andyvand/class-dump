@@ -6,22 +6,20 @@
 
 #import <TemplateKit/TLKObject.h>
 
-@class NSArray, TLKMultilineText;
+@class TLKMultilineText;
 
 @interface TLKDetailsSection : TLKObject
 {
     TLKMultilineText *_title;
-    NSArray *_details;
 }
 
-- (void);
-- (id);
+- (void);
+- (id)EAPClientConfiguration";
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *details; // @synthesize details=_details;
 @property(retain, nonatomic) TLKMultilineText *title; // @synthesize title=_title;
 
 @end

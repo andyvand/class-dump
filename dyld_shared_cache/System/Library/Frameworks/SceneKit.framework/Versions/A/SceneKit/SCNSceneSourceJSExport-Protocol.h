@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @protocol SCNSceneSourceJSExport
 
 // Remaining properties
-@property(readonly) NSData *data;
 @property(readonly) NSURL *url;
 @end
 

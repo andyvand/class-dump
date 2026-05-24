@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFNetworkProfile, NSArray;
-
 @interface CWFAutoJoinParameters
 {
     long long _trigger;
-    long long _mode;
-    CWFNetworkProfile *_targetNetworkProfile;
-    NSArray *_preferredChannels;
 }
 
 + (_Bool);
@@ -26,16 +21,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ile-system;
 - (_Bool);
-- (void)WFAssetSetManager;
+- (void)CWFAssetSetManager;
 - (long long);
 - (void)ng password did not change for network %{public}@, will not update %{public}s keychain;
 
 // Remaining properties
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(copy, nonatomic) NSArray *preferredChannels; // @synthesize preferredChannels=_preferredChannels;
-@property(copy, nonatomic) CWFNetworkProfile *targetNetworkProfile; // @synthesize targetNetworkProfile=_targetNetworkProfile;
 @property(nonatomic) long long trigger; // @synthesize trigger=_trigger;
 
 @end

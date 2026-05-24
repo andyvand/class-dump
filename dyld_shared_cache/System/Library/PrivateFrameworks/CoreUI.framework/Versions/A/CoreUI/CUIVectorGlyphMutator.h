@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIVectorGlyphPath, NSData;
+@class CUIVectorGlyphPath;
 
 @interface CUIVectorGlyphMutator
 {
     CUIVectorGlyphPath *_originPath;
-    CUIVectorGlyphPath *_ultralightPath;
-    CUIVectorGlyphPath *_blackPath;
-    double _pointSize;
-    NSData *_originClipStrokeKeyframes;
-    NSData *_ultralightClipStrokeKeyframes;
-    NSData *_blackClipStrokeKeyframes;
-    CDStruct_5450d214 _originPoints;
-    CDStruct_351aa1f6 _ultralightDeltas;
-    CDStruct_351aa1f6 _blackDeltas;
 }
 
-+ (id);
++ (id);
 + (id);
 + (double *);
 + (CDStruct_c3b9c2ee);
 + (CDStruct_c3b9c2ee);
 + (CDStruct_c3b9c2ee);
-+ (id);
-+ (CDStruct_f92c8eab);
++ (id)M;
++ (CDStruct_5450d214);
 + (CDStruct_c3b9c2ee);
-+ (CDStruct_f92c8eab);
-+ (CDStruct_f92c8eab);
++ (CDStruct_5450d214)!p;
++ (CDStruct_5450d214);
 + (CDStruct_c3b9c2ee);
 - (void);
 - (void);
@@ -40,40 +31,31 @@
 - (id);
 - (void);
 - (struct CGPath *);
-- (CDStruct_f92c8eab);
-- (CDStruct_f92c8eab);
-- (CDStruct_f92c8eab);
+- (CDStruct_5450d214);
+- (CDStruct_5450d214);
+- (CDStruct_5450d214);
+- (void);
+- (id);
+- (void);
+- (void)$;
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (CDStruct_f92c8eab);
+- (CDStruct_5450d214);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (CDStruct_f92c8eab);
+- (CDStruct_5450d214);
 - (id);
 - (double);
 - (void)!¨-°!àAù111Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *blackClipStrokeKeyframes; // @synthesize blackClipStrokeKeyframes=_blackClipStrokeKeyframes;
-@property(nonatomic) CDStruct_f92c8eab blackDeltas; // @synthesize blackDeltas=_blackDeltas;
-@property(retain, nonatomic) CUIVectorGlyphPath *blackPath; // @synthesize blackPath=_blackPath;
-@property(retain, nonatomic) NSData *originClipStrokeKeyframes; // @synthesize originClipStrokeKeyframes=_originClipStrokeKeyframes;
 @property(retain, nonatomic) CUIVectorGlyphPath *originPath; // @synthesize originPath=_originPath;
-@property(nonatomic) CDStruct_f92c8eab originPoints; // @synthesize originPoints=_originPoints;
-@property(nonatomic) double pointSize; // @synthesize pointSize=_pointSize;
-@property(retain, nonatomic) NSData *ultralightClipStrokeKeyframes; // @synthesize ultralightClipStrokeKeyframes=_ultralightClipStrokeKeyframes;
-@property(nonatomic) CDStruct_f92c8eab ultralightDeltas; // @synthesize ultralightDeltas=_ultralightDeltas;
-@property(retain, nonatomic) CUIVectorGlyphPath *ultralightPath; // @synthesize ultralightPath=_ultralightPath;
 
 @end
 

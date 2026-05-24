@@ -7,19 +7,6 @@
 @interface NewsFeed.FormatNodeBinderContext
 {
     id inventory;
-    id namespace;
-    id slotIdentifier;
-    id config;
-    id layoutContext;
-    id blocks;
-    id debugData;
-    id logger;
-    id auxiliary;
-    id bindingStack;
-    id options;
-    id selectors;
-    id lazyContextLayoutOptions;
-    id commandCenter;
 }
 
 @end

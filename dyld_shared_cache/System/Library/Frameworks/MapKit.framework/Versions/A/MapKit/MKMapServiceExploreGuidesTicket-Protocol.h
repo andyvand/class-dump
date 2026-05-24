@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceExploreGuidesTicket
+- (void)__TEXT;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

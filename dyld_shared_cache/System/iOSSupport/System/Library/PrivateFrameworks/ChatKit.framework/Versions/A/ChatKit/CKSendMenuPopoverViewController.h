@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSendMenuPresentationPopoverView, UIViewController;
+@class UIViewController;
 @protocol CKSendMenuPopoverViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CKSendMenuPopoverViewController
 {
     UIViewController *_sendMenuViewController;
-    UIViewController *_appContainerViewController;
-    id <CKSendMenuPopoverViewControllerDelegate> _delegate;
 }
 
-- (void);
-- (void);
+- (void)ic_encryptedInlineableDataAssetForKeyPrefix:(id)arg1;
+- (void)addToTagsInTextView:(id)arg1 forRange: /* Error: Ran out of types for this method. */;
+- (id)mpletionHandler: /* Error: Ran out of types for this method. */;
+- (id)d;
 - (id);
+- (id)i;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)eturn ranges for visiblity due to missing text storage;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)n;
+- (id)CKMessageBalloonMaskConfiguration;
 
 // Remaining properties
-@property(retain, nonatomic) UIViewController *appContainerViewController; // @synthesize appContainerViewController=_appContainerViewController;
 @property(nonatomic) __weak id <CKSendMenuPopoverViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) CKSendMenuPresentationPopoverView *popoverView;
-@property(retain, nonatomic) UIViewController *sendMenuViewController; // @synthesize sendMenuViewController=_sendMenuViewController;
 
 @end
 

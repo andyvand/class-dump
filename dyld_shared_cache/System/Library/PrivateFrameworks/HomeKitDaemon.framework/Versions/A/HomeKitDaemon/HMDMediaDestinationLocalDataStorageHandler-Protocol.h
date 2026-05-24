@@ -5,7 +5,7 @@
 //
 
 @protocol HMDMediaDestinationLocalDataStorageHandler
-- (void)tureAutomations;
+- (void)isAllowedToEnableAdaptiveTemperatureAutomations;
 - (void)DäD;
 @end
 

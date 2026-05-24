@@ -4,51 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, HMDDevice, HMDFeaturesDataSource, HMDHome, HMDMessageDispatcher, HMDModernTransportDeviceReachabilityObserver, HMDPreferredResidentsList, HMDPrimaryElectionCoordinationAddOn, HMDRemoteDeviceMonitor, HMDResidentDevice, HMDResidentSelectionInfo, HMDResidentSelectionStatusKit, HMDResidentStatusChannel, HMFFuture, HMFOSTransaction, HMFPromise, NSArray, NSDate, NSHashTable, NSMutableSet, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDPrimaryResidentDiscoveryManager, HMDResidentDeviceManagerDelegate, HMDResidentDeviceManagerRoarBackingStore, HMDResidentDeviceManagerRoarDataSource, OS_dispatch_queue, OS_os_log;
+@class NSNotificationCenter;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentDeviceManagerRoar
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableSet *_residentDevices;
-    HMFOSTransaction *_primaryResidentTransaction;
-    NSObject<OS_os_log> *_logger;
-    _Bool _residentAvailable;
-    _Bool _residentSupported;
-    _Bool _actingAsResident;
-    _Bool _residentCapable;
-    _Bool _homeSupportsResidentSelection;
-    _Bool hasReachableAccessories;
-    NSUUID *_primaryResidentUUID;
-    HMDMessageDispatcher *_messageDispatcher;
-    HMDModernTransportDeviceReachabilityObserver *_reachabilityObserver;
-    HMDPrimaryElectionCoordinationAddOn *_localNetworkElection;
-    NSUUID *_messageTargetUUID;
-    NSString *_logIdentifier;
-    NSUUID *_primaryResidentGenerationID;
-    HMFFuture *_firstPrimaryResidentDiscoveryAttemptCompletionFuture;
-    id <HMDResidentDeviceManagerDelegate> delegate;
-    HMDAppleAccountManager *_appleAccountManager;
-    NSDate *_primaryResidentSelectionTimestamp;
-    HMDResidentDevice *_userSelectedPreferredResident;
-    NSArray *_autoSelectedPreferredResidents;
-    NSArray *_residentsPresentOnStatusKit;
-    HMDResidentStatusChannel *_residentStatusChannel;
-    unsigned long long _residentSelectionMode;
-    double _blockPrimaryTakeoverDuration;
-    unsigned long long myLocation;
-    unsigned long long ourNetworkConnectionType;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDResidentDeviceManagerRoarDataSource> _dataSource;
-    id <HMDResidentDeviceManagerRoarBackingStore> _backingStore;
-    HMDRemoteDeviceMonitor *_deviceMonitor;
-    id <HMDPrimaryResidentDiscoveryManager> _primaryDiscoveryManager;
-    NSHashTable *_primaryDiscoveryRequesters;
-    HMFPromise *_firstPrimaryResidentDiscoveryAttemptCompletionPromise;
-    HMDFeaturesDataSource *_featuresDataSource;
-    HMDHome *_home;
 }
 
 + (id);
@@ -71,40 +32,40 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)C;
+- (id);
+- (void)eworks/GeoServices.framework/Versions/A/GeoServices;
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (unsigned long long)!;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (id)setHasRemainingDistance: /* Error: Ran out of types for this method. */;
+- (id)setHasNavigationInterrupted: /* Error: Ran out of types for this method. */;
+- (_Bool)nextStopIDs;
+- (_Bool)navigationSessionIdentifier;
+- (_Bool)navigationListenerStopped: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithLocation:isCurrentLocation: /* Error: Ran out of types for this method. */;
+- (_Bool)identifierForObjectAtopAddedImmutableObject: /* Error: Ran out of types for this method. */;
+- (_Bool)e ETA user enabled flag:%d /* Error: Ran out of types for this method. */;
+- (_Bool)ber"24@?0@"GEOArrivalTimeInfo"8Q16;
+- (_Bool)"<MSPMutableObject>"8;
+- (_Bool)MSPContainerErrorUnkownStorageIdentifierKey;
+- (_Bool)collectionDescription;
+- (void)ShareETABlocklistMigration2022;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -120,7 +81,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (id);
 - (void);
 - (long long);
@@ -128,40 +89,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)2m;
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -169,7 +130,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)sResolver service:(id)arg1 linkedDevicesChanged:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -185,7 +146,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)0@ù
 × ;
-- (id)unterGroupsForPredicate: /* Error: Ran out of types for this method. */;
+- (id)counterGroupsForPredicate: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)	
 ;
@@ -196,9 +157,9 @@ __attribute__((visibility("hidden")))
 - (id)event from trigger;
 - (void){public}@Nil session identifier - dropping update for endpoint %@;
 - (id)È·÷ÿP;
-- (id)tion_holdDuration_enabled_value;
+- (id)root_general_accessibility_interaction_holdDuration_enabled_value;
 - (void)n.speakingRateSection.speakingRate;
-- (id)pointEnabled;
+- (id)siriEndpointEnabled;
 - (void);
 - (void);
 - (id)ã=;
@@ -208,73 +169,7 @@ __attribute__((visibility("hidden")))
 - (void)à¤?;
 
 // Remaining properties
-@property(getter=isActingAsResident) _Bool actingAsResident; // @synthesize actingAsResident=_actingAsResident;
-@property(readonly) HMDAppleAccountManager *appleAccountManager; // @synthesize appleAccountManager=_appleAccountManager;
-@property(readonly) long long atHomeLevel;
-@property(readonly) NSArray *autoSelectedPreferredResidents; // @synthesize autoSelectedPreferredResidents=_autoSelectedPreferredResidents;
-@property(readonly, copy) NSArray *availableResidentDevices;
-@property(readonly) id <HMDResidentDeviceManagerRoarBackingStore> backingStore; // @synthesize backingStore=_backingStore;
-@property(readonly) double blockPrimaryTakeoverDuration; // @synthesize blockPrimaryTakeoverDuration=_blockPrimaryTakeoverDuration;
-@property(readonly) HMFFuture *cloudReady;
-@property(readonly, nonatomic) HMDDevice *confirmedPrimaryResidentDevice;
-@property(readonly, nonatomic, getter=isCurrentDeviceAvailableResident) _Bool currentDeviceAvailableResident;
-@property(readonly, nonatomic, getter=isCurrentDeviceConfirmedPrimaryResident) _Bool currentDeviceConfirmedPrimaryResident;
-@property(readonly, nonatomic, getter=isCurrentDevicePrimaryResident) _Bool currentDevicePrimaryResident;
-@property(readonly) HMDResidentDevice *currentResidentDevice;
-@property(readonly) id <HMDResidentDeviceManagerRoarDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDResidentDeviceManagerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) HMDRemoteDeviceMonitor *deviceMonitor; // @synthesize deviceMonitor=_deviceMonitor;
-@property(readonly) HMDPreferredResidentsList *electorsPreferredResidentsList;
-@property(readonly) HMDFeaturesDataSource *featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) HMFFuture *firstPrimaryResidentDiscoveryAttemptCompletionFuture; // @synthesize firstPrimaryResidentDiscoveryAttemptCompletionFuture=_firstPrimaryResidentDiscoveryAttemptCompletionFuture;
-@property(retain) HMFPromise *firstPrimaryResidentDiscoveryAttemptCompletionPromise; // @synthesize firstPrimaryResidentDiscoveryAttemptCompletionPromise=_firstPrimaryResidentDiscoveryAttemptCompletionPromise;
-@property(readonly) _Bool hasActivePrimaryResidentTransaction;
-@property(readonly, nonatomic) _Bool hasAnyResident;
-@property(readonly) _Bool hasReachableAccessories; // @synthesize hasReachableAccessories;
-@property(readonly, nonatomic) _Bool hasTrustZoneCapableResident;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) _Bool homeSupportsResidentSelection; // @synthesize homeSupportsResidentSelection=_homeSupportsResidentSelection;
-@property(readonly) _Bool isCurrentDeviceAvailableResident;
-@property(readonly) _Bool isOwnerUser;
-@property(readonly, nonatomic) _Bool isResidentElectionV2Enabled;
-@property(readonly) _Bool isResidentEnabled;
-@property(readonly) _Bool isResidentSupported;
-@property(retain) HMDPrimaryElectionCoordinationAddOn *localNetworkElection; // @synthesize localNetworkElection=_localNetworkElection;
-@property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) HMDMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly) unsigned long long myLocation; // @synthesize myLocation;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) unsigned long long ourNetworkConnectionType; // @synthesize ourNetworkConnectionType;
-@property(readonly) HMDResidentSelectionStatusKit *presentResidentsStatuses;
-@property(readonly) id <HMDPrimaryResidentDiscoveryManager> primaryDiscoveryManager; // @synthesize primaryDiscoveryManager=_primaryDiscoveryManager;
-@property(readonly, nonatomic) NSHashTable *primaryDiscoveryRequesters; // @synthesize primaryDiscoveryRequesters=_primaryDiscoveryRequesters;
-@property(readonly) HMDResidentDevice *primaryResidentDevice;
-@property(readonly) NSUUID *primaryResidentGenerationID; // @synthesize primaryResidentGenerationID=_primaryResidentGenerationID;
-@property(readonly) NSDate *primaryResidentSelectionTimestamp; // @synthesize primaryResidentSelectionTimestamp=_primaryResidentSelectionTimestamp;
-@property(readonly) NSUUID *primaryResidentUUID; // @synthesize primaryResidentUUID=_primaryResidentUUID;
-@property(readonly) NSObject<OS_dispatch_queue> *queue;
-@property(retain) HMDModernTransportDeviceReachabilityObserver *reachabilityObserver; // @synthesize reachabilityObserver=_reachabilityObserver;
-@property(readonly, nonatomic, getter=isResidentAvailable) _Bool residentAvailable; // @synthesize residentAvailable=_residentAvailable;
-@property(readonly) _Bool residentCapable; // @synthesize residentCapable=_residentCapable;
-@property(readonly, copy, nonatomic) NSArray *residentDevices;
-@property(readonly) HMDResidentSelectionInfo *residentSelectionInfo;
-@property(readonly) unsigned long long residentSelectionMode; // @synthesize residentSelectionMode=_residentSelectionMode;
-@property(readonly) HMDResidentStatusChannel *residentStatusChannel; // @synthesize residentStatusChannel=_residentStatusChannel;
-@property(nonatomic, getter=isResidentSupported) _Bool residentSupported; // @synthesize residentSupported=_residentSupported;
-@property(readonly) NSArray *residentsPresentOnStatusKit; // @synthesize residentsPresentOnStatusKit=_residentsPresentOnStatusKit;
-@property(readonly) Class superclass;
-@property(readonly) HMDResidentDevice *userSelectedPreferredResident; // @synthesize userSelectedPreferredResident=_userSelectedPreferredResident;
 
 @end
 

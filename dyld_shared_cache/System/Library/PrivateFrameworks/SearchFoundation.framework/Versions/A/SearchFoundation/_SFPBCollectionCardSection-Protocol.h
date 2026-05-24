@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBCollectionStyle, _SFPBColor, _SFPBCommandButtonItem, _SFPBRichText;
+@class NSArray, NSData, _SFPBColor, _SFPBCommandButtonItem;
 
 @protocol _SFPBCollectionCardSection
+- (void);
+- (_Bool)A*;
+- (NSArray *)Ӻ;
+- (_Bool)getSharedUserIdForHomeUserId:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)getCookieWithName:userIdentifier: /* Error: Ran out of types for this method. */;
+- (_SFPBCommandButtonItem *)NSString"24;
+- (void)c
+;
+- (void)_applyAudioVolume:(_SFPBColor *)arg1 forAlert:isForMusicPlayback:phase: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSData *)PHFetchResultInstrumentation;
 - (_SFPBCommandButtonItem *)yHeaderRichCardSection"16@0:8 /* Error: Ran out of types for this method. */;
-- (int);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(retain, nonatomic) _SFPBCommandButtonItem *buttonItem;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSArray *cardSections;
-@property(retain, nonatomic) _SFPBCollectionStyle *collectionStyle;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(retain, nonatomic) _SFPBCommandButtonItem *titleButtonItem;
-@property(copy, nonatomic) NSString *type;
 @end
 

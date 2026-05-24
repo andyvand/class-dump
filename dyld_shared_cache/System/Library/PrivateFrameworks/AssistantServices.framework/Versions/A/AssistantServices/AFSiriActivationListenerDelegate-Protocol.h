@@ -5,5 +5,9 @@
 //
 
 @protocol AFSiriActivationListenerDelegate
+
+@optional
+- (void)P;
+- (void);
 @end
 

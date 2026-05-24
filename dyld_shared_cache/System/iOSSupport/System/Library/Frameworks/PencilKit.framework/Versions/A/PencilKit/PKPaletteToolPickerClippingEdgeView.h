@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, NSString, PKPaletteToolPickerClippingEdgeBackdropLayerView, UIVisualEffectView;
+@class CAGradientLayer;
 
 @interface PKPaletteToolPickerClippingEdgeView
 {
     CAGradientLayer *_gradientLayer;
-    PKPaletteToolPickerClippingEdgeBackdropLayerView *_bottomBackdropLayerView;
-    PKPaletteToolPickerClippingEdgeBackdropLayerView *_topBackdropLayerView;
-    UIVisualEffectView *_visualEffectView;
-    _Bool _isRTL;
-    unsigned long long _edge;
-    _Bool _flipHorizontally;
-    _Bool _magicPocketEffectHidden;
-    double _scalingFactor;
-    long long _axis;
 }
 
 - (void);
@@ -35,20 +26,10 @@
 - (void);
 - (long long);
 - (double);
-- (void)eractionFeedbackHostView;
+- (void)PKPalettePencilInteractionFeedbackHostView;
 
 // Remaining properties
 @property(nonatomic) long long axis; // @synthesize axis=_axis;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool flipHorizontally; // @synthesize flipHorizontally=_flipHorizontally;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool magicPocketEffectHidden; // @synthesize magicPocketEffectHidden=_magicPocketEffectHidden;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(readonly) Class superclass;
 
 @end
 

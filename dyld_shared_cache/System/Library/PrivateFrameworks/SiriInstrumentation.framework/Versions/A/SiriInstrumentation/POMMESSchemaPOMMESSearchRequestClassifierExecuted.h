@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESSearchRequestClassifierExecuted : SISchemaInstrumentationMessage
 {
     _Bool _isPegasusSearchPerformed;
-    int _mitigationResponseDecision;
-    struct {
-        unsigned int isPegasusSearchPerformed:1;
-        unsigned int mitigationResponseDecision:1;
-    } _has;
 }
 
 - (void);
@@ -24,26 +17,22 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)	;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJob_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ssage PTask Table:(id)arg1 %@;
 - (id);
-- (id);
-- (id)gTrained;
+- (id)($;
+- (id)_satBeingTrained;
 - (id)le;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsPegasusSearchPerformed;
-@property(nonatomic) _Bool hasMitigationResponseDecision;
 @property(nonatomic) _Bool isPegasusSearchPerformed; // @synthesize isPegasusSearchPerformed=_isPegasusSearchPerformed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mitigationResponseDecision; // @synthesize mitigationResponseDecision=_mitigationResponseDecision;
 
 @end
 

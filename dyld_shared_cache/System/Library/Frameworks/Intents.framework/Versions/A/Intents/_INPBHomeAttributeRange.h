@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBHomeAttributeRange
 {
     struct {
         unsigned int lowerValue:1;
         unsigned int upperValue:1;
     } _has;
-    double _lowerValue;
-    double _upperValue;
 }
 
 + (_Bool);
@@ -27,25 +23,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)E PORTAL CREDS] request;
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasLowerValue;
-@property(nonatomic) _Bool hasUpperValue;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double lowerValue; // @synthesize lowerValue=_lowerValue;
-@property(readonly) Class superclass;
-@property(nonatomic) double upperValue; // @synthesize upperValue=_upperValue;
 
 @end
 

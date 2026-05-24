@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)@;
+- (void)_moveSenderWithDatabaseID:(NSCoder *)arg1 toBucket:connection: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,38 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCDevice, MLCLayer, MLCTensorDescriptor, NSArray, NSData, NSMutableArray, NSString;
-
 @interface MLCTensor
 {
     _Bool _isLayerParameter;
-    _Bool _skipWritingToDevice;
-    int _multiDeviceReductionType;
-    int _computeFlags;
-    unsigned long long _tensorID;
-    MLCTensorDescriptor *_descriptor;
-    NSData *_data;
-    NSString *_label;
-    MLCDevice *_device;
-    NSArray *_optimizerData;
-    NSArray *_optimizerDeviceData;
-    NSMutableArray *_parentLayers;
-    NSMutableArray *_childLayers;
-    NSMutableArray *_deviceMemory;
-    unsigned long long _deviceIndex;
-    NSMutableArray *_broadcastabledeviceMemory;
-    MLCTensor *_sharedMemoryTensor;
-    unsigned long long _concatOffset;
-    unsigned long long _concatDimension;
-    unsigned long long _splitOffset;
-    unsigned long long _splitDimension;
-    unsigned long long _rootSourceGradientTensorIndexStart;
-    unsigned long long _rootSourceGradientTensorCount;
-    unsigned long long _rootSourceGradientTensorIndex;
-    MLCLayer *_intermediateSumLayer;
-    unsigned long long _interleave;
-    id _deviceDataSources;
-    unsigned long long _readCount;
 }
 
 + (id);
@@ -51,12 +22,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)A;
 + (id);
 + (id);
 + (id);
@@ -76,6 +47,7 @@
 - (id);
 - (void);
 - (void);
+- (void)U];
 - (void);
 - (void);
 - (void);
@@ -86,8 +58,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -108,7 +79,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
@@ -122,8 +93,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
@@ -135,47 +106,19 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)k;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *broadcastabledeviceMemory; // @synthesize broadcastabledeviceMemory=_broadcastabledeviceMemory;
-@property(retain, nonatomic) NSMutableArray *childLayers; // @synthesize childLayers=_childLayers;
-@property(nonatomic) int computeFlags; // @synthesize computeFlags=_computeFlags;
-@property(nonatomic) unsigned long long concatDimension; // @synthesize concatDimension=_concatDimension;
-@property(nonatomic) unsigned long long concatOffset; // @synthesize concatOffset=_concatOffset;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(copy, nonatomic) MLCTensorDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) MLCDevice *device; // @synthesize device=_device;
-@property(retain, nonatomic) id deviceDataSources; // @synthesize deviceDataSources=_deviceDataSources;
-@property(nonatomic) unsigned long long deviceIndex; // @synthesize deviceIndex=_deviceIndex;
-@property(retain, nonatomic) NSMutableArray *deviceMemory; // @synthesize deviceMemory=_deviceMemory;
-@property(readonly, nonatomic) _Bool hasValidNumerics;
-@property(nonatomic) unsigned long long interleave; // @synthesize interleave=_interleave;
-@property(retain, nonatomic) MLCLayer *intermediateSumLayer; // @synthesize intermediateSumLayer=_intermediateSumLayer;
-@property(nonatomic) _Bool isLayerParameter; // @synthesize isLayerParameter=_isLayerParameter;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) int multiDeviceReductionType; // @synthesize multiDeviceReductionType=_multiDeviceReductionType;
-@property(copy, nonatomic) NSArray *optimizerData; // @synthesize optimizerData=_optimizerData;
-@property(copy, nonatomic) NSArray *optimizerDeviceData; // @synthesize optimizerDeviceData=_optimizerDeviceData;
-@property(retain, nonatomic) NSMutableArray *parentLayers; // @synthesize parentLayers=_parentLayers;
-@property(nonatomic) unsigned long long readCount; // @synthesize readCount=_readCount;
-@property(nonatomic) unsigned long long rootSourceGradientTensorCount; // @synthesize rootSourceGradientTensorCount=_rootSourceGradientTensorCount;
-@property(nonatomic) unsigned long long rootSourceGradientTensorIndex; // @synthesize rootSourceGradientTensorIndex=_rootSourceGradientTensorIndex;
-@property(nonatomic) unsigned long long rootSourceGradientTensorIndexStart; // @synthesize rootSourceGradientTensorIndexStart=_rootSourceGradientTensorIndexStart;
-@property(retain, nonatomic) MLCTensor *sharedMemoryTensor; // @synthesize sharedMemoryTensor=_sharedMemoryTensor;
-@property(nonatomic) _Bool skipWritingToDevice; // @synthesize skipWritingToDevice=_skipWritingToDevice;
-@property(nonatomic) unsigned long long splitDimension; // @synthesize splitDimension=_splitDimension;
-@property(nonatomic) unsigned long long splitOffset; // @synthesize splitOffset=_splitOffset;
 @property(nonatomic) unsigned long long tensorID; // @synthesize tensorID=_tensorID;
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZone, HMBCloudZoneRebuilderStatus, NAFuture, NSString;
+@class HMBCloudZone, HMBCloudZoneRebuilderStatus;
 
 __attribute__((visibility("hidden")))
 @interface HMBSharedCloudZoneRebuilder
 {
     HMBCloudZoneRebuilderStatus *_rebuilderStatus;
-    NAFuture *_rebuildCompleteFuture;
-    HMBCloudZone *_cloudZone;
 }
 
 + (id)f_unfair_data_lock_s="lock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
@@ -23,25 +21,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)ramework/Versions/A/CoreFoundation;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NAFuture *rebuildCompleteFuture; // @synthesize rebuildCompleteFuture=_rebuildCompleteFuture;
-@property(copy) HMBCloudZoneRebuilderStatus *rebuilderStatus; // @synthesize rebuilderStatus=_rebuilderStatus;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isZoneRebuildInProgress) _Bool zoneRebuildInProgress;
 
 @end
 

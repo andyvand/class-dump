@@ -16,12 +16,12 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)fp_splitKeyPathInProperty:(id)arg1 remainder: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void)zontal;
+- (void)VNImageBufferAugmentationFlipHorizontal;
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;

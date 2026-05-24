@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDEndPointAddress, HMDSRTPParameters, NSData, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSetupEndPointWrite
 {
     NSUUID *_sessionUUID;
-    HMDEndPointAddress *_address;
-    HMDSRTPParameters *_videoSrtpParameters;
-    HMDSRTPParameters *_audioSrtpParameters;
 }
 
 + (_Bool)äø;
 - (id);
-- (id);
+- (id)hasRoutingIncidentBadge;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -25,18 +22,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)te2 %d;
+- (void);
 - (id)Preset;
-- (void)atterAccessoryThreadCapabilitiesKey;
+- (void)HMDMatterAccessoryThreadCapabilitiesKey;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDEndPointAddress *address; // @synthesize address=_address;
-@property(readonly, copy, nonatomic) HMDSRTPParameters *audioSrtpParameters; // @synthesize audioSrtpParameters=_audioSrtpParameters;
 @property(readonly, copy, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(readonly, copy) NSData *tlvData;
-@property(readonly, copy, nonatomic) HMDSRTPParameters *videoSrtpParameters; // @synthesize videoSrtpParameters=_videoSrtpParameters;
 
 @end
 

@@ -6,30 +6,15 @@
 
 #import <MapKit/MKPlaceSectionRowView.h>
 
-@class CNLabeledValue, MKPlaceSectionHeaderView, NSArray, NSLayoutConstraint, NSString, UIColor, _MKUILabel;
-@protocol NSItemProviderWriting;
+@class MKPlaceSectionHeaderView, _MKUILabel;
 
 __attribute__((visibility("hidden")))
 @interface MKPlaceInfoContactRowView : MKPlaceSectionRowView
 {
     MKPlaceSectionHeaderView *_headerView;
-    NSLayoutConstraint *_topToTitleConstraint;
-    NSLayoutConstraint *_topToIconConstraint;
-    NSLayoutConstraint *_titleToValueConstraint;
-    NSLayoutConstraint *_valueToTrailingViewConstraint;
-    NSArray *_iconConstraints;
-    NSArray *_titleConstraints;
-    _Bool _isInRightMouseDownEvent;
-    _Bool _textIsSelectable;
-    CNLabeledValue *_labeledValue;
-    _MKUILabel *_titleLabel;
-    _MKUILabel *_valueLabel;
-    CDUnknownBlockType _iconSelectedBlock;
-    NSLayoutConstraint *_valueToBottomConstraint;
-    UIColor *_labelColor;
 }
 
-+ (id);
++ (id)daemon to find potential chat rawAddressSet set %@ of count %lu;
 - (id);
 - (id);
 - (void);
@@ -46,27 +31,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
-- (void)ection;
-- (id)ut;
+- (void)closeLoaderConnection;
+- (id)_useCondensedWidthLayout;
 
 // Remaining properties
-@property(readonly, nonatomic) int analyticsTarget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <NSItemProviderWriting> draggableContent;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType iconSelectedBlock; // @synthesize iconSelectedBlock=_iconSelectedBlock;
-@property(retain, nonatomic) UIColor *labelColor; // @synthesize labelColor=_labelColor;
-@property(retain, nonatomic) CNLabeledValue *labeledValue; // @synthesize labeledValue=_labeledValue;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _MKUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(readonly, nonatomic) _MKUILabel *valueLabel; // @synthesize valueLabel=_valueLabel;
-@property(retain, nonatomic) NSLayoutConstraint *valueToBottomConstraint; // @synthesize valueToBottomConstraint=_valueToBottomConstraint;
 
 @end
 

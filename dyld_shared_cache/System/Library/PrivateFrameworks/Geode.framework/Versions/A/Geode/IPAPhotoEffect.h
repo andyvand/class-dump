@@ -9,15 +9,6 @@
 @interface IPAPhotoEffect
 {
     _Bool _template;
-    _Bool _is3D;
-    _Bool _isPortrait;
-    _Bool _isLegacy;
-    NSString *_name;
-    long long _version;
-    long long _number;
-    NSString *_portraitGlyphPrefix;
-    NSString *_portraitV1Name;
-    NSString *_portraitV2Name;
 }
 
 + (id);
@@ -35,19 +26,19 @@
 + (id);
 + (id);
 + (id);
-+ (void)teOperation;
++ (void)IPASmartBlackAndWhiteOperation;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)9#Ț;
 - (id);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (long long);
@@ -58,17 +49,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *filterName;
-@property(readonly, nonatomic) _Bool is3D; // @synthesize is3D=_is3D;
-@property(readonly, nonatomic) _Bool isIdentity;
-@property(readonly, nonatomic) _Bool isLegacy; // @synthesize isLegacy=_isLegacy;
-@property(readonly, nonatomic) _Bool isPortrait; // @synthesize isPortrait=_isPortrait;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long number; // @synthesize number=_number;
-@property(readonly, nonatomic) NSString *portraitGlyphPrefix; // @synthesize portraitGlyphPrefix=_portraitGlyphPrefix;
-@property(readonly, nonatomic) NSString *portraitV1Name; // @synthesize portraitV1Name=_portraitV1Name;
-@property(readonly, nonatomic) NSString *portraitV2Name; // @synthesize portraitV2Name=_portraitV2Name;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

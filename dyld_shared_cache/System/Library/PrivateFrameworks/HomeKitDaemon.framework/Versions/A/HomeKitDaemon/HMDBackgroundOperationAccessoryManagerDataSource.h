@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)ntStatusChannelsRelationWithModelID: /* Error: Ran out of types for this method. */;
+- (id)findResidentStatusChannelsRelationWithModelID: /* Error: Ran out of types for this method. */;
 
 @end
 

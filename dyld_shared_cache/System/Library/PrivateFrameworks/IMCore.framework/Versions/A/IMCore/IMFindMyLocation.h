@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFLocation, FMLLocation, NSString;
+@class FMFLocation;
 
 @interface IMFindMyLocation
 {
     FMFLocation *_fmfLocation;
-    FMLLocation *_fmlLocation;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)config provided.;
++ (id)No source config provided.;
++ (id)e config provided.;
+- (id)D A NEW RELIABLE PACKET SERIALNUMBER (%08X:(id)arg1 %02d:(id)arg2 %02d) to (%08X)...;
+- (id)%fs);
+- (id)e timePeriod=%fs < (AUDIO_TRANSMITTER_MIN_BITRATE_REPORT_PERIOD=%fs);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -25,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FMFLocation *fmfLocation; // @synthesize fmfLocation=_fmfLocation;
-@property(readonly, nonatomic) FMLLocation *fmlLocation; // @synthesize fmlLocation=_fmlLocation;
-@property(readonly, nonatomic) NSString *shortAddress;
 
 @end
 

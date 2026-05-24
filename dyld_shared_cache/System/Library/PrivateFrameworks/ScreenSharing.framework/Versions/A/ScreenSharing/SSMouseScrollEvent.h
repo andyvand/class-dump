@@ -9,18 +9,6 @@
 @interface SSMouseScrollEvent : SSMouseEvent
 {
     short mDeltaX;
-    short mDeltaY;
-    short mDeltaZ;
-    int mFixedDeltaX;
-    int mFixedDeltaY;
-    int mFixedDeltaZ;
-    int mPointDeltaX;
-    int mPointDeltaY;
-    int mPointDeltaZ;
-    unsigned int mScrollPhase;
-    unsigned int mMomentumPhase;
-    int mScrollCount;
-    unsigned int mFlags;
 }
 
 + (id);
@@ -41,18 +29,6 @@
 
 // Remaining properties
 @property(readonly) short deltaX; // @synthesize deltaX=mDeltaX;
-@property(readonly) short deltaY; // @synthesize deltaY=mDeltaY;
-@property(readonly) short deltaZ; // @synthesize deltaZ=mDeltaZ;
-@property(readonly) int fixedDeltaX; // @synthesize fixedDeltaX=mFixedDeltaX;
-@property(readonly) int fixedDeltaY; // @synthesize fixedDeltaY=mFixedDeltaY;
-@property(readonly) int fixedDeltaZ; // @synthesize fixedDeltaZ=mFixedDeltaZ;
-@property(readonly) unsigned int flags; // @synthesize flags=mFlags;
-@property(readonly) unsigned int momentumPhase; // @synthesize momentumPhase=mMomentumPhase;
-@property(readonly) int pointDeltaX; // @synthesize pointDeltaX=mPointDeltaX;
-@property(readonly) int pointDeltaY; // @synthesize pointDeltaY=mPointDeltaY;
-@property(readonly) int pointDeltaZ; // @synthesize pointDeltaZ=mPointDeltaZ;
-@property(readonly) int scrollCount; // @synthesize scrollCount=mScrollCount;
-@property(readonly) unsigned int scrollPhase; // @synthesize scrollPhase=mScrollPhase;
 
 @end
 

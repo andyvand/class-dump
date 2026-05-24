@@ -11,9 +11,9 @@
     unsigned long long mValue;
 }
 
+- (id)pendingRequest;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)MRXPC_ROUTE_VOLUME_CONTROL_CAPABILITIES_KEY;
 
 // Remaining properties
 @property(readonly) unsigned long long value; // @synthesize value=mValue;

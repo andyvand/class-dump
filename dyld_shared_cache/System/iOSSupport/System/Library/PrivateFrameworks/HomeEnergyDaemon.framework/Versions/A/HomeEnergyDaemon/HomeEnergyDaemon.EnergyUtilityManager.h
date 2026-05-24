@@ -8,8 +8,6 @@
 {
     id $defaultActor;
     id defaults;
-    id utilityEKSitesKey;
-    id utilityEKSites;
 }
 
 @end

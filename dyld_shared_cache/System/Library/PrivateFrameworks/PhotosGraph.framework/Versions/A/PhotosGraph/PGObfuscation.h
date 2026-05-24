@@ -8,12 +8,12 @@
 {
 }
 
++ (id)crypto_decryptText;
++ (id)crypto_generateKey;
++ (id)ization.c;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)fffff@ ;
 
 @end
 

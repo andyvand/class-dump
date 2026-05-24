@@ -8,8 +8,6 @@
 {
     id $defaultActor;
     id state;
-    id observer;
-    id id;
 }
 
 @end

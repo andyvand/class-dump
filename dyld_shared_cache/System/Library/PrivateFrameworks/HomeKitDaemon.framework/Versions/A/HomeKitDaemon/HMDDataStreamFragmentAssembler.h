@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDataStreamFragment, NSMutableData, NSNumber, NSString;
+@class NSNumber, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamFragmentAssembler
 {
     NSNumber *_sequenceNumber;
-    HMDDataStreamFragment *_assembledFragment;
-    NSString *_type;
-    NSMutableData *_data;
-    NSNumber *_currentChunkSequenceNumber;
 }
 
-- (void);
-- (void);
+- (void)@;
+- (void)patch group;
 - (id);
 - (id);
 - (id);
@@ -29,10 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)imaryResident;
 
 // Remaining properties
-@property(copy) HMDDataStreamFragment *assembledFragment; // @synthesize assembledFragment=_assembledFragment;
-@property(copy) NSNumber *currentChunkSequenceNumber; // @synthesize currentChunkSequenceNumber=_currentChunkSequenceNumber;
-@property(readonly, copy) NSMutableData *data; // @synthesize data=_data;
-@property(readonly, copy) NSNumber *sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 @property(readonly, copy) NSString *type; // @synthesize type=_type;
 
 @end

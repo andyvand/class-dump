@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSDispatchGroup, NSObject, OS_remote_device, OS_xpc_remote_connection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SSRRemoteControlClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    OS_xpc_remote_connection *_connection;
-    CSDispatchGroup *_deviceWaitingGroup;
-    OS_remote_device *_device;
 }
 
 - (id);
@@ -24,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)orPredicateWithSubpredicates: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

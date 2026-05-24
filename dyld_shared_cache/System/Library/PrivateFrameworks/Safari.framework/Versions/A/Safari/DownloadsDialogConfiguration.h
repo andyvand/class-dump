@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface DownloadsDialogConfiguration : AlertDialogConfiguration
 {
     NSString *_domain;
-    NSString *_parentDomain;
 }
 
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)skipAnimationsWhenDismissingPendingTabDialogs;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSString *parentDomain; // @synthesize parentDomain=_parentDomain;
 
 @end
 

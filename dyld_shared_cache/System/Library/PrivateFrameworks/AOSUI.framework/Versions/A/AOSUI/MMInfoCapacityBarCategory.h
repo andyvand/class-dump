@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSByteCountFormatter, NSColor, NSLayoutConstraint, NSString, NSTextField;
+@class NSTextField;
 
 @interface MMInfoCapacityBarCategory
 {
     _Bool _showsSizeInLabel;
-    unsigned long long _sizeInBytes;
-    NSString *_displayName;
-    NSString *_categoryIdentifier;
-    NSString *_accessibilityDescription;
-    NSArray *_alternateDisplayNames;
-    NSString *_toolTipLabel;
-    NSString *_sizeDescription;
-    CALayer *_layer;
-    NSTextField *_label;
-    NSColor *_color;
-    NSByteCountFormatter *_byteCountFormatter;
-    NSLayoutConstraint *_widthLayoutConstraint;
-    NSLayoutConstraint *_leadingLayoutConstraint;
 }
 
 - (id);
@@ -34,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)	j;
 - (id);
 - (id);
 - (void);
@@ -49,29 +36,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id));
+- (id)fter compression:%{errno}d /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 - (long long)dicator",W,V_spinner;
 - (void)window:(long long)arg1 completion:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *accessibilityDescription; // @synthesize accessibilityDescription=_accessibilityDescription;
-@property(copy) NSArray *alternateDisplayNames; // @synthesize alternateDisplayNames=_alternateDisplayNames;
-@property(retain, nonatomic) NSByteCountFormatter *byteCountFormatter; // @synthesize byteCountFormatter=_byteCountFormatter;
-@property(copy) NSString *categoryIdentifier; // @synthesize categoryIdentifier=_categoryIdentifier;
-@property(readonly) NSColor *color; // @synthesize color=_color;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) NSTextField *label; // @synthesize label=_label;
-@property(readonly, nonatomic) CALayer *layer; // @synthesize layer=_layer;
-@property(retain, nonatomic) NSLayoutConstraint *leadingLayoutConstraint; // @synthesize leadingLayoutConstraint=_leadingLayoutConstraint;
-@property(nonatomic) _Bool showsSizeInLabel; // @synthesize showsSizeInLabel=_showsSizeInLabel;
-@property(retain, nonatomic) NSString *sizeDescription; // @synthesize sizeDescription=_sizeDescription;
-@property unsigned long long sizeInBytes; // @synthesize sizeInBytes=_sizeInBytes;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) NSString *toolTipLabel; // @synthesize toolTipLabel=_toolTipLabel;
-@property(retain, nonatomic) NSLayoutConstraint *widthLayoutConstraint; // @synthesize widthLayoutConstraint=_widthLayoutConstraint;
 
 @end
 

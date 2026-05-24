@@ -7,14 +7,13 @@
 @class NSProgressIndicator;
 
 @protocol NSProgressIndicatorVisualProvider
+- (struct CGSize)\(;
 - (void)hð;
-- (void)tionForKey;
-- (struct NSEdgeInsets)FetchingArray;
-- (void)lor;
+- (void)NSSplitViewItemConsiderChildrenLayersActionForKey;
+- (struct NSEdgeInsets)_NSLazyFetchingArray;
+- (void)NSImageFallbackBackgroundColor;
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(readonly) struct CGSize intrinsicContentSize;
 @property __weak NSProgressIndicator *progressIndicator;
 @end
 

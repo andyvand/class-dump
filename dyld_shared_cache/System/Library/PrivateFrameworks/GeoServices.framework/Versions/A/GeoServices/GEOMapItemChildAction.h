@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOGuideLocation, GEOMapItemChildActionSearch;
-
 @interface GEOMapItemChildAction
 {
     long long _childActionType;
-    GEOMapItemChildActionSearch *_childActionSearch;
-    GEOGuideLocation *_guideLocation;
 }
 
 - (void);
@@ -19,13 +15,11 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)_cn_mapRanges: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOMapItemChildActionSearch *childActionSearch; // @synthesize childActionSearch=_childActionSearch;
 @property(nonatomic) long long childActionType; // @synthesize childActionType=_childActionType;
-@property(readonly, nonatomic) GEOGuideLocation *guideLocation; // @synthesize guideLocation=_guideLocation;
 
 @end
 

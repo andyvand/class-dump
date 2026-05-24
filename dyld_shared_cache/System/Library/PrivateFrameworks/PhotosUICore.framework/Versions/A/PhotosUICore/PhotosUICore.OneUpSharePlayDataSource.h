@@ -7,8 +7,6 @@
 @interface PhotosUICore.OneUpSharePlayDataSource
 {
     id assets;
-    id transientAssetCollection;
-    id hostIdentifier;
 }
 
 - (id);
@@ -18,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (long long)ller:mediaProvider:dataSourceManager:selectionManager:delegate: /* Error: Ran out of types for this method. */;
+- (long long)initWithTilingController:mediaProvider:dataSourceManager:selectionManager:delegate: /* Error: Ran out of types for this method. */;
 - (long long)üþ;
 - (void))N$: /* Error: Ran out of types for this method. */;
 

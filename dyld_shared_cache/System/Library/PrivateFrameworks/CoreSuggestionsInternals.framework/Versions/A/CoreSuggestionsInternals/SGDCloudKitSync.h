@@ -4,43 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, CKContainer, CKDatabase, NSError, NSMutableArray, NSObject, NSOperation, NSOperationQueue, NSString, SGFuture, _PASKVOHandler, _SGDCloudKitSyncPersistedState;
-@protocol OS_dispatch_queue;
+@class _PASKVOHandler;
 
 @interface SGDCloudKitSync
 {
     _PASKVOHandler *_kvoHandler;
-    CKDatabase *_database;
-    CDUnknownBlockType _callback;
-    CDUnknownBlockType _deleteAllSyncedItemsCallback;
-    _Bool _readyForNewEntities;
-    APSConnection *_apsConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSOperationQueue *_opQueue;
-    NSMutableArray *_operationsToAddToOpQueue;
-    CKContainer *_container;
-    SGFuture *_accountInfoFuture;
-    _Bool _accountInfoInFlight;
-    _SGDCloudKitSyncPersistedState *_persistedState;
-    long long _suspendCount;
-    _Bool _noZone;
-    _Bool _disabledBecauseOutOfDateSoftware;
-    NSOperation *_inProgressProcureSaltOperation;
-    NSOperation *_inProgressCreateZoneOperation;
-    NSOperation *_inProgressDeleteZoneOperation;
-    NSOperation *_inProgressFetchNewEntitiesOperation;
-    _Bool _requestedFetchNewEntitiesWhileRequestAlreadyInFlight;
-    NSError *_createZoneError;
-    NSError *_deleteZoneError;
-    NSError *_procureSaltError;
-    _Bool _processingStateChanges;
-    _Bool _pendingProcessStateChanges;
-    SGFuture *_privacySaltFuture;
 }
 
-+ (id);
-+ (id);
-+ (void);
++ (id);
++ (id)timeoutInterval;
++ (void)";
 + (id);
 + (id)X;
 - (void);
@@ -51,61 +24,55 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)framework/Versions/A/ExtensionFoundation;
+- (id)setHideCardAlignmentRect: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)setWorkingPeriodArray:(id)arg1;
+- (id)responsedescription;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)std:(CDUnknownBlockType)arg1:(CDUnknownBlockType)arg2 less<int>>, std:(unsigned long long)arg3:allocator<std::pair<const int, unsigned long>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
+- (void)fontWithExtendedFeatures:lfWidth:lfEscapement:lfOrientation:lfWeight:lfItalic:lfUnderline:lfStrikeOut:lfCharSet:lfOutPrecision:lfClipPrecision:lfQuality:pitch:family:lfFaceName:elfFullName:elfStyle:elfVersion:elfStyleSize:elfMatch:elfVendorId:elfCulture: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id)*@9;
+- (id);
+- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)ion.framework/Versions/C/Foundation;
+- (void);
+- (id)y"16@"NSArray"24@?<v@?@"NSArray"@"NSError">32;
+- (void)sfully migrated existing persistentStore!";
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id)tifiers:(id)arg1;
-- (void)ct:(id)arg1 fromEntity:(id)arg2 normalizedName:error: /* Error: Ran out of types for this method. */;
+- (id)deleteInteractionsWithBundleId:(id)arg1 identifiers: /* Error: Ran out of types for this method. */;
+- (void)_realtimeContactWithContactStore:(id)arg1 forPseudoContact:(id)arg2 fromEntity:normalizedName:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ÿ;
 - (id);
 - (void)tId, deploymentId, treatmentId;
-- (void)artWarningExposition;
+- (void)defaultTimeIntervalToStartWarningExposition;
 - (void)cordId2, type, strength FROM identityLink;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

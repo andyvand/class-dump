@@ -15,7 +15,7 @@
 + (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)_axSetShouldMoveFocusToNavigationButton: /* Error: Ran out of types for this method. */;
 
 @end
 

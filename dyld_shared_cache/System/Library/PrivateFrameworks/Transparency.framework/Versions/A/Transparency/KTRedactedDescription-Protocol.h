@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol KTRedactedDescription
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy) NSString *redactedDescription;

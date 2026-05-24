@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CATextLayer, NSFont, NSString;
+@class CAShapeLayer;
 
 @interface AXVBorderedLayer
 {
     unsigned long long _borderStyle;
-    double _borderThickness;
-    double _highlightRatio;
-    NSString *_title;
-    NSFont *_titleFont;
-    CAShapeLayer *__borderShapeLayer;
-    CAShapeLayer *__highlightShapeLayer;
-    CATextLayer *__titleLayer;
-    struct CGPoint _borderedFrameCenter;
-    struct CGSize _borderedFrameSize;
-    struct CGSize _titlePadding;
-    struct CGRect _borderedFrame;
 }
 
 - (void);
@@ -27,11 +16,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (struct CGSize);
-- (struct CGPoint);
+- (struct CGPoint))	;
 - (struct CGRect);
 - (void);
 - (id);
@@ -44,14 +33,14 @@
 - (void);
 - (id);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)ineNumber"B"exceptionWasRaisedExpectsHasHandlerFlag"B"didParseSourceFunc"^?"failedToParseSourceFunc"^?"exceptionWasRaisedFunc"^?};
+- (void)compiler for CSS selectors;
 - (void);
 - (void);
 - (struct CGColor *);
 - (struct CGColor *);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -59,18 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *_borderShapeLayer; // @synthesize _borderShapeLayer=__borderShapeLayer;
-@property(retain, nonatomic) CAShapeLayer *_highlightShapeLayer; // @synthesize _highlightShapeLayer=__highlightShapeLayer;
-@property(retain, nonatomic) CATextLayer *_titleLayer; // @synthesize _titleLayer=__titleLayer;
-@property(nonatomic) unsigned long long borderStyle; // @synthesize borderStyle=_borderStyle;
-@property(nonatomic) double borderThickness; // @synthesize borderThickness=_borderThickness;
-@property(nonatomic) struct CGRect borderedFrame; // @synthesize borderedFrame=_borderedFrame;
-@property(nonatomic) struct CGPoint borderedFrameCenter; // @synthesize borderedFrameCenter=_borderedFrameCenter;
-@property(nonatomic) struct CGSize borderedFrameSize; // @synthesize borderedFrameSize=_borderedFrameSize;
-@property(nonatomic) struct CGColor *highlightColor;
-@property(nonatomic) double highlightRatio; // @synthesize highlightRatio=_highlightRatio;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSFont *titleFont; // @synthesize titleFont=_titleFont;
-@property(nonatomic) struct CGSize titlePadding; // @synthesize titlePadding=_titlePadding;
 
 @end
 

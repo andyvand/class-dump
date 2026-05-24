@@ -4,41 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface DSIDRecord
 {
     _Bool _dirty;
-    int _nextReconcileTimestamp;
-    _Bool _accountIsT13;
-    _Bool _accountIsU13;
-    _Bool _accountIsU18;
-    _Bool _sensitiveContentEligible;
-    _Bool _isProtoU13;
-    _Bool _isProtoTeen;
-    _Bool _accountAgeUnknown;
-    _Bool _isActiveRecord;
-    _Bool _isPlaceholderAccount;
-    _Bool _isDPIDManatee;
-    _Bool _isDPIDLocal;
-    _Bool _lastSentPersonalizedAdsStatus;
-    _Bool _notificationRequired;
-    int _effectiveBirthYear;
-    int _actualBirthYear;
-    int _noiseAppliedVersion;
-    int _personalizedAdsTimestamp;
-    int _segmentDataTimestamp;
-    int _lastSentSegmentDataTimestamp;
-    int _lastSegmentServedTimestamp;
-    int _deviceIDRotationTimestamp;
-    int _lastSentPersonalizedAdsTimestamp;
-    NSString *_DSID;
-    NSString *_iCloudDSID;
-    NSString *_iso3166Code;
-    NSString *_segmentData;
-    NSString *_iAdIDBeforeReset;
-    NSMutableDictionary *_ADIDRecords;
-    long long _lastJingleAccountStatus;
 }
 
 @end

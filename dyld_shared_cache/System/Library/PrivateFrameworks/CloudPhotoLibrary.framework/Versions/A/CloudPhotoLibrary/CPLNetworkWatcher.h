@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLNetworkState, NSObject, NSString;
-@protocol CPLNetworkWatcherDelegate, OS_dispatch_queue, OS_nw_path_monitor;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface CPLNetworkWatcher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_nw_path_monitor> *_monitor;
-    NSString *_endPoint;
-    CPLNetworkState *_networkState;
-    id <CPLNetworkWatcherDelegate> _delegate;
 }
 
 - (void);
@@ -24,14 +20,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)võ÷;
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <CPLNetworkWatcherDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSString *endPoint; // @synthesize endPoint=_endPoint;
-@property(readonly, nonatomic) CPLNetworkState *networkState; // @synthesize networkState=_networkState;
 
 @end
 

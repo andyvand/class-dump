@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface MTL4StaticLinkingDescriptor
 {
     NSArray *_functionDescriptors;
-    NSArray *_privateFunctionDescriptors;
-    NSDictionary *_groups;
 }
 
 - (void);
@@ -22,13 +20,11 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)OneMinusDestinationAlpha;
 - (void)TLSimDriver.framework/MTLSimDriver;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *functionDescriptors; // @synthesize functionDescriptors=_functionDescriptors;
-@property(copy, nonatomic) NSDictionary *groups; // @synthesize groups=_groups;
-@property(copy, nonatomic) NSArray *privateFunctionDescriptors; // @synthesize privateFunctionDescriptors=_privateFunctionDescriptors;
 
 @end
 

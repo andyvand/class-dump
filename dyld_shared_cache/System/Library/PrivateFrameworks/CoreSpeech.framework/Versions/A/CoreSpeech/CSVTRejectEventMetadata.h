@@ -7,27 +7,21 @@
 @interface CSVTRejectEventMetadata
 {
     float _score;
-    float _threshold;
-    unsigned long long _eventType;
-    double _deltaTimeFromActivation;
 }
 
 - (void);
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)scheduling;
 - (unsigned long long);
 - (void);
-- (float);
-- (void);
+- (float);
+- (void)__clientDelegate;
 - (float)e:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double deltaTimeFromActivation; // @synthesize deltaTimeFromActivation=_deltaTimeFromActivation;
 @property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(nonatomic) float score; // @synthesize score=_score;
-@property(nonatomic) float threshold; // @synthesize threshold=_threshold;
 
 @end
 

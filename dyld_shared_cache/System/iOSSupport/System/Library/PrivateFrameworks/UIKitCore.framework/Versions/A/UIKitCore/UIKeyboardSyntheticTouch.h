@@ -4,55 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIWindow;
-
 __attribute__((visibility("hidden")))
 @interface UIKeyboardSyntheticTouch
 {
     double timestamp;
-    long long phase;
-    unsigned long long tapCount;
-    UIWindow *window;
-    struct CGPoint locationInWindow;
-    unsigned char _pathIndex;
-    unsigned char _pathIdentity;
-    float _pathMajorRadius;
 }
 
 + (id);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)p, failing to send non-critical message;
 - (void);
 - (float);
 - (unsigned char);
 - (unsigned char);
-- (id);
+- (id)(;
 - (void);
-- (void);
+- (void);
 - (struct CGPoint);
-- (long long);
+- (long long)setPayloadAllowSpellCheck: /* Error: Ran out of types for this method. */;
 - (double)ÁÿÐ!8CùÑX1Â0@ù
 × ;
 - (id)
 × ;
 - (struct CGPoint)ÑaÐ1Â0@ù
 × ;
-- (struct CGPoint)derBurnColor;
-- (void)thBuilder:(long long)arg1 appDidCustomizeMenu: /* Error: Ran out of types for this method. */;
-- (void)elFlags;
-- (void)ter;
-- (unsigned long long)nvironment;
+- (struct CGPoint)_vibrantLightSectionDelimiterDividerBurnColor;
+- (void)_reparentFindMenuItemsIfNeededWithBuilder:(long long)arg1 appDidCustomizeMenu: /* Error: Ran out of types for this method. */;
+- (void)_textLabelFlags;
+- (void)UISplitViewControllerSeparatorTrackingAdapter;
+- (unsigned long long)hostEnvironment;
 - (void)`²e;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char _pathIdentity; // @synthesize _pathIdentity;
-@property(readonly, nonatomic) unsigned char _pathIndex; // @synthesize _pathIndex;
-@property(nonatomic) float _pathMajorRadius; // @synthesize _pathMajorRadius;
-@property(nonatomic) struct CGPoint locationInWindow; // @synthesize locationInWindow;
-@property(nonatomic) long long phase; // @synthesize phase;
-@property(nonatomic) unsigned long long tapCount; // @synthesize tapCount;
 @property(nonatomic) double timestamp; // @synthesize timestamp;
-@property(retain, nonatomic) UIWindow *window; // @synthesize window;
 
 @end
 

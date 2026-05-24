@@ -4,30 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionViewItem, NSCollectionViewLayoutAttributes, NSMutableArray, NSView;
+@class NSCollectionViewItem;
 
 __attribute__((visibility("hidden")))
 @interface NSCollectionViewAnimation
 {
     NSCollectionViewItem *_item;
-    NSView *_view;
-    NSCollectionViewLayoutAttributes *_finalLayoutAttributes;
-    double _startFraction;
-    double _endFraction;
-    long long _viewType;
-    NSMutableArray *_completionHandlers;
-    NSMutableArray *_startupHandlers;
-    CDUnknownBlockType _animationBlock;
-    struct {
-        unsigned int animateFromCurrentPosition:1;
-        unsigned int deleteAfterAnimation:1;
-        unsigned int rasterizeAfterAnimation:1;
-        unsigned int resetRasterizationAfterAnimation:1;
-        unsigned int updateZIndexAfterAnimation:1;
-    } _collectionViewAnimationFlags;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -35,31 +20,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (_Bool);
-- (id);
+- (id)llectionSession";
 - (void);
 - (_Bool);
 - (id);
 - (long long);
 - (double);
-- (void);
+- (void)heightTracksTextView;
 - (_Bool);
 - (_Bool)× ;
-- (id)ionaries:wordCount:usingSpellServer: /* Error: Ran out of types for this method. */;
-- (id)entData;
+- (id)_chunkAndFindMisspelledWordInString:language:learnedDictionaries:wordCount:usingSpellServer: /* Error: Ran out of types for this method. */;
+- (id)_NSDatePickerFieldElementData;
 - (void)üìäC;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool animateFromCurrentPosition;
-@property(readonly, nonatomic) _Bool deleteAfterAnimation;
-@property(readonly, nonatomic) double endFraction; // @synthesize endFraction=_endFraction;
-@property(readonly, nonatomic) NSCollectionViewLayoutAttributes *finalLayoutAttributes; // @synthesize finalLayoutAttributes=_finalLayoutAttributes;
 @property(readonly, nonatomic) NSCollectionViewItem *item; // @synthesize item=_item;
-@property(nonatomic) _Bool rasterizeAfterAnimation;
-@property(nonatomic) _Bool resetRasterizationAfterAnimation;
-@property(readonly, nonatomic) double startFraction; // @synthesize startFraction=_startFraction;
-@property(readonly, nonatomic) _Bool updateZIndexAfterAnimation;
-@property(readonly, nonatomic) NSView *view; // @synthesize view=_view;
-@property(readonly, nonatomic) long long viewType; // @synthesize viewType=_viewType;
 
 @end
 

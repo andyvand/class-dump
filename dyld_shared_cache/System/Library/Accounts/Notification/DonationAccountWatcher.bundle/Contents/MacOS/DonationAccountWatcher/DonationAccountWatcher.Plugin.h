@@ -7,12 +7,11 @@
 @interface DonationAccountWatcher.Plugin
 {
     id store;
-    id logger;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void);
 
 @end

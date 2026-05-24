@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMComputePublisherClientDomainConfiguration
 {
     unsigned long long _domain;
-    NSString *_machServiceName;
-    NSString *_XPCPublisherStreamName;
-    NSString *_biomeLaunchNotification;
 }
 
+- (id)	?׵";
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (void)p;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *XPCPublisherStreamName; // @synthesize XPCPublisherStreamName=_XPCPublisherStreamName;
-@property(readonly, copy, nonatomic) NSString *biomeLaunchNotification; // @synthesize biomeLaunchNotification=_biomeLaunchNotification;
 @property(readonly, nonatomic) unsigned long long domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
 
 @end
 

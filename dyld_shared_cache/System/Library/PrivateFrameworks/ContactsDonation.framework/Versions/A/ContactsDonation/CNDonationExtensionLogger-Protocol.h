@@ -5,5 +5,14 @@
 //
 
 @protocol CNDonationExtensionLogger
+- (void)contentReceived;
+- (void)ionary",&,N,V_pendingCommands;
+- (void)V_creationDate;
+- (void)meraFile",&,N,V_pairedRawImage;
+- (void)gate>",V_delegate;
+- (void),N,V_internalName;
+- (void)connectionID;
+- (void)nectionLock;
+- (void)t;
 @end
 

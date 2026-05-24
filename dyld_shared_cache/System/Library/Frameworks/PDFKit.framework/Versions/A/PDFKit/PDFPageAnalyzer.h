@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, VKImageAnalyzer;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageAnalyzer
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_analyzerCallbackQueue;
-    VKImageAnalyzer *_imageAnalyzer;
-    NSObject<OS_dispatch_semaphore> *_workloadSemaphore;
-    NSMutableSet *_requestedPages;
-    struct mutex _requestedPagesMutex;
-    double _imageScale;
-    _Bool _drawQuads;
 }
 
 + (struct CGAffineTransform);
@@ -32,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

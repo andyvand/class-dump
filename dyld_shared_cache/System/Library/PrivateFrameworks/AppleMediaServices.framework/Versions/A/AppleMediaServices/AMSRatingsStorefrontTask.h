@@ -6,15 +6,9 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class NSString;
-@protocol AMSBagProtocol;
-
 @interface AMSRatingsStorefrontTask : AMSTask
 {
     unsigned long long mediaType;
-    void clientIdentifier;
-    id <AMSBagProtocol> bag;
-    void logKey;
 }
 
 + (id)÷¡ÌUÁf2çÈT¨uG;,¾¥ÑäÚ;
@@ -39,9 +33,6 @@
 Apple Inc.10UApple FairPlay100.U'StoreAgentStub.4caf201221af0001af00000100	*H÷;
 
 // Remaining properties
-@property(nonatomic, readonly) id <AMSBagProtocol> bag; // @synthesize bag;
-@property(nonatomic, readonly) NSString *clientIdentifier;
-@property(nonatomic, readonly) NSString *logKey;
 @property(nonatomic, readonly) unsigned long long mediaType; // @synthesize mediaType;
 
 @end

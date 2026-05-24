@@ -7,14 +7,12 @@
 @interface SwiftUI.TableGlobalHeader
 {
     id globalHeader;
-    id headerLeadingMargin;
-    id barInteraction;
 }
 
 - (void);
 - (id);
 - (id);
-- (void)onProvider;
+- (void)PhaseContextActionProvider;
 
 @end
 

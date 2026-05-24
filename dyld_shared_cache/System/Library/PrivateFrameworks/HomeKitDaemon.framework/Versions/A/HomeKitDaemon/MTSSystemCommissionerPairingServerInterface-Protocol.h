@@ -5,5 +5,6 @@
 //
 
 @protocol MTSSystemCommissionerPairingServerInterface
+- (void)rInfo";
 @end
 

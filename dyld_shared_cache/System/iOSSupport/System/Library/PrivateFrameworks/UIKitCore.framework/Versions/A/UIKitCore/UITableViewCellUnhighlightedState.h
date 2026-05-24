@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 __attribute__((visibility("hidden")))
 @interface UITableViewCellUnhighlightedState
 {
     _Bool _opaque;
-    _Bool _highlighted;
-    UIColor *_backgroundColor;
 }
 
 - (_Bool)1eÐ1Â0@ù
 × ;
-- (void)peDown;
-- (void)oupedListCellConfigurationForState:(id)arg1 traitCollection: /* Error: Ran out of types for this method. */;
+- (void)swipeDown;
+- (void)defaultInsetGroupedListCellConfigurationForState:(id)arg1 traitCollection: /* Error: Ran out of types for this method. */;
 - (_Bool)p¦@§;
-- (void);
-- (id)VE;
+- (void)secondaryEdgeColumnIndex;
+- (id)MACMENUITEM_FILE_MOVE;
 - (void)³;
 
 // Remaining properties
-@property(retain) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property _Bool highlighted; // @synthesize highlighted=_highlighted;
 @property _Bool opaque; // @synthesize opaque=_opaque;
 
 @end

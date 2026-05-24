@@ -6,14 +6,11 @@
 
 #import <IOGPU/IOGPUMetalResource.h>
 
-@class MTLTensorExtents, NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap, MTLTensor;
+@protocol MTLTensor;
 
 @interface IOGPUMetalTensor : IOGPUMetalResource
 {
     id <MTLTensor> _parentTensor;
-    id <MTLBuffer> _buffer;
-    unsigned long long _allocatedSize;
 }
 
 - (id);
@@ -36,9 +33,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (struct __IOSurface *);
-- (struct MTLResourceID);
+- (unsigned long long)H?;
+- (struct __IOSurface *);
+- (struct MTLResourceID)CPU_SUBTYPE_POWERPC_970;
 - (unsigned long long);
 - (void);
 - (long long);
@@ -47,40 +44,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)SYDDaemonProtocol;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize; // @synthesize allocatedSize=_allocatedSize;
-@property(readonly) unsigned long long allocationID;
-@property(readonly) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;
-@property(readonly) unsigned long long bufferOffset;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) long long dataType; // @dynamic dataType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) MTLTensorExtents *dimensions; // @dynamic dimensions;
 @property(readonly) struct MTLResourceID gpuResourceID; // @dynamic gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly) unsigned long long offset; // @dynamic offset;
-@property(readonly) id <MTLTensor> parentTensor; // @synthesize parentTensor=_parentTensor;
-@property(readonly) unsigned long long plane; // @dynamic plane;
-@property(readonly) unsigned long long protectionOptions;
-@property(readonly, nonatomic) unsigned long long resourceIndex; // @dynamic resourceIndex;
-@property(readonly) unsigned long long resourceOptions;
-@property int responsibleProcess;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) MTLTensorExtents *strides; // @dynamic strides;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long unfilteredResourceOptions;
-@property(readonly) unsigned long long usage; // @dynamic usage;
 
 @end
 

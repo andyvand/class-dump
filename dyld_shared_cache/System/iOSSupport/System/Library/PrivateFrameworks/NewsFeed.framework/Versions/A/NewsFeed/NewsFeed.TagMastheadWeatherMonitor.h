@@ -7,10 +7,6 @@
 @interface NewsFeed.TagMastheadWeatherMonitor
 {
     id channelLocation;
-    id interval;
-    id weatherHandler;
-    id weatherService;
-    id monitorTask;
 }
 
 @end

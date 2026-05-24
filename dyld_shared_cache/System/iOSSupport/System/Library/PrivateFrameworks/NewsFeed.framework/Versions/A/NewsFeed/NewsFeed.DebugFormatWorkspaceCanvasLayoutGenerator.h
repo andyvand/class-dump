@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceCanvasLayoutGenerator
 {
     id generator;
-    id bindTasks;
-    id viewTasks;
 }
 
 @end

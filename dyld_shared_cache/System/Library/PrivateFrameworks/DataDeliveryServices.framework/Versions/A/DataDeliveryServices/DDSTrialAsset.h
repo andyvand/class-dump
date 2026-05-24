@@ -11,15 +11,14 @@
 @interface DDSTrialAsset : DDSAsset
 {
     NSString *_description;
-    DDSTrialExperimentIdentifiers *_experimentIdentifiers;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
++ (id)setHasCirAlertRespectIsFollowUpHeuristicFlag:(id)arg1;
++ (id)setHasCirAlertDomainFallback:(id)arg1;
+- (id)setHasCountOfAlternativesAvailable:(id)arg1;
+- (id)$;
 - (unsigned long long);
-- (id);
+- (id)`;
 - (_Bool);
 - (void);
 

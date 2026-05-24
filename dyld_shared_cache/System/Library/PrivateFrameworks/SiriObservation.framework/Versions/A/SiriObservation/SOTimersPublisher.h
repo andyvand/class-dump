@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString, SOTimersSnapshot;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface SOTimersPublisher
 {
     NSObject<OS_dispatch_queue> *_timersPublisherQueue;
-    NSObject<OS_dispatch_group> *_timersPublisherDispatchGroup;
-    NSHashTable *_subscribers;
-    SOTimersSnapshot *_timerSnapshot;
-    NSString *_typeName;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)I{;
+- (void)` o;
+- (void)n;
+- (void)<o;
 - (void);
 - (void);
 - (id);

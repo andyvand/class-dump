@@ -10,8 +10,6 @@
 @interface AKSidecarSignatureRequest
 {
     SidecarRequest *_request;
-    _Bool _registeredObserver;
-    id <AKSidecarSignatureRequestDelegate> _delegate;
 }
 
 + (id);
@@ -28,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 
 // Remaining properties

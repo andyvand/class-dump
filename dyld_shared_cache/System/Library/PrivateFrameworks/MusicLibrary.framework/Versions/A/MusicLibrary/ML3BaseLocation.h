@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
-+ (_Bool);
++ (id)autoSharePolicy;
++ (_Bool)comparePayloadValue:toObjectDictionaryValue:forPayloadProperty: /* Error: Ran out of types for this method. */;
 + (id)&-;
-- (void);
+- (void)ename;
 
 @end
 

@@ -12,15 +12,11 @@ __attribute__((visibility("hidden")))
 @interface CIContrastEnhancer : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputIntensity;
-    NSNumber *inputScale;
-    NSNumber *inputLocal;
-    NSNumber *inputPerceptual;
 }
 
-+ (id);
++ (id)R;
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (id);
@@ -31,9 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity;
-@property(retain, nonatomic) NSNumber *inputLocal; // @synthesize inputLocal;
-@property(retain, nonatomic) NSNumber *inputPerceptual; // @synthesize inputPerceptual;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
 
 @end
 

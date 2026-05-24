@@ -4,51 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
-
 @interface PODContentChangeSetBuilder
 {
     CDUnknownBlockType _episodeSource;
-    CDUnknownBlockType _playlistSource;
-    CDUnknownBlockType _showSource;
-    CDUnknownBlockType _showArtworkSource;
-    NSMutableArray *_orderedChangeSyncIDs;
-    NSMutableDictionary *_changeBySyncID;
-    NSMutableDictionary *_artworkChangesByShowSyncID;
-    NSMutableDictionary *_episodesBySyncID;
-    NSMutableDictionary *_playlistsBySyncID;
-    NSMutableDictionary *_showsBySyncID;
-    NSMutableDictionary *_showArtworksBySyncID;
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)9(*h6;
+- (void)(;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void)*i6;
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
+- (id);
+- (CDUnknownBlockType);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -69,21 +57,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)�h%;
+- (void)statistics;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *artworkChangesByShowSyncID; // @synthesize artworkChangesByShowSyncID=_artworkChangesByShowSyncID;
-@property(retain, nonatomic) NSMutableDictionary *changeBySyncID; // @synthesize changeBySyncID=_changeBySyncID;
 @property(copy, nonatomic) CDUnknownBlockType episodeSource; // @synthesize episodeSource=_episodeSource;
-@property(retain, nonatomic) NSMutableDictionary *episodesBySyncID; // @synthesize episodesBySyncID=_episodesBySyncID;
-@property(retain, nonatomic) NSMutableArray *orderedChangeSyncIDs; // @synthesize orderedChangeSyncIDs=_orderedChangeSyncIDs;
-@property(copy, nonatomic) CDUnknownBlockType playlistSource; // @synthesize playlistSource=_playlistSource;
-@property(retain, nonatomic) NSMutableDictionary *playlistsBySyncID; // @synthesize playlistsBySyncID=_playlistsBySyncID;
-@property(copy, nonatomic) CDUnknownBlockType showArtworkSource; // @synthesize showArtworkSource=_showArtworkSource;
-@property(retain, nonatomic) NSMutableDictionary *showArtworksBySyncID; // @synthesize showArtworksBySyncID=_showArtworksBySyncID;
-@property(copy, nonatomic) CDUnknownBlockType showSource; // @synthesize showSource=_showSource;
-@property(retain, nonatomic) NSMutableDictionary *showsBySyncID; // @synthesize showsBySyncID=_showsBySyncID;
 
 @end
 

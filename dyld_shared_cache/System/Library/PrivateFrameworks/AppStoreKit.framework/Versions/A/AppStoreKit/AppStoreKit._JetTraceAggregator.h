@@ -7,21 +7,6 @@
 @interface AppStoreKit._JetTraceAggregator
 {
     id didFinishEvent;
-    id shouldRecordActivity;
-    id signpostPredicate;
-    id aggregationWindow;
-    id signpostTimeout;
-    id activityTimeout;
-    id lock;
-    id eventQueue;
-    id bootstrapObserver;
-    id openIntervals;
-    id openActivities;
-    id ignoredActivityIds;
-    id openIntervalDeletionQueue;
-    id openActivityDeletionQueue;
-    id ignoredActivityDeletionQueue;
-    id currentAggregation;
 }
 
 @end

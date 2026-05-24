@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICURLAggregatedPerformanceMetrics, NSArray, NSDate, NSMutableDictionary;
+@class NSArray;
 
 @interface MPStoreItemMetadataResponse
 {
     NSArray *_cacheMissItemIdentifiers;
-    NSMutableDictionary *_itemIdentifierToStoreItemMetadata;
-    _Bool _finalResponse;
-    NSArray *_lastBatchItemIdentifiers;
-    NSArray *_requestItemIdentifiers;
-    ICURLAggregatedPerformanceMetrics *_performanceMetrics;
 }
 
 - (id);
 - (id);
+- (void)P
+;
 - (void);
-- (void);
-- (void);
+- (void)$;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)tag length;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)rArtworkCatalog: /* Error: Ran out of types for this method. */;
-- (id)hange;
+- (void)_addLoadingRequestForArtworkCatalog: /* Error: Ran out of types for this method. */;
+- (id)_usersDidChange;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cacheMissItemIdentifiers; // @synthesize cacheMissItemIdentifiers=_cacheMissItemIdentifiers;
-@property(readonly, copy, nonatomic) NSDate *earliestExpirationDate;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
 @property(nonatomic, getter=isFinalResponse) _Bool finalResponse; // @synthesize finalResponse=_finalResponse;
-@property(readonly, copy, nonatomic) NSArray *itemIdentifiers;
-@property(copy, nonatomic) NSArray *lastBatchItemIdentifiers; // @synthesize lastBatchItemIdentifiers=_lastBatchItemIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *lastBatchStoreItemDictionaries;
-@property(retain, nonatomic) ICURLAggregatedPerformanceMetrics *performanceMetrics; // @synthesize performanceMetrics=_performanceMetrics;
-@property(copy, nonatomic) NSArray *requestItemIdentifiers; // @synthesize requestItemIdentifiers=_requestItemIdentifiers;
 
 @end
 

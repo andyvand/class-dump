@@ -9,8 +9,6 @@
 @interface ICSDateTimeValue : ICSDateValue
 {
     long long _hour;
-    long long _minute;
-    long long _second;
 }
 
 + (_Bool);
@@ -22,13 +20,11 @@
 - (void);
 - (id);
 - (long long);
-- (long long);
+- (long long)#;
 - (long long);
 
 // Remaining properties
 @property(readonly) long long hour; // @synthesize hour=_hour;
-@property(readonly) long long minute; // @synthesize minute=_minute;
-@property(readonly) long long second; // @synthesize second=_second;
 
 @end
 

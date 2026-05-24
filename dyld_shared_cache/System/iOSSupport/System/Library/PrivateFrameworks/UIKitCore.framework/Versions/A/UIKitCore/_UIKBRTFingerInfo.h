@@ -8,34 +8,25 @@ __attribute__((visibility("hidden")))
 @interface _UIKBRTFingerInfo
 {
     _Bool _unknownSeen;
-    double _radius;
-    double _lastSeenTimestamp;
-    unsigned long long _identity;
-    struct CGPoint _location;
 }
 
 - (_Bool);
 - (void);
-- (double);
-- (double);
-- (void);
+- (double)setTaskExpiredWithRetryAfter:error: /* Error: Ran out of types for this method. */;
+- (double)guidForNewOutgoingTransferWithFilename:isDirectory:totalBytes:hfsType:hfsCreator:hfsFlags: /* Error: Ran out of types for this method. */;
+- (void)kname;
 - (id);
 - (void);
 - (void);
-- (_Bool)omponent;
-- (unsigned long long)fLinesForSidebar:traitCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)ui_viewServiceComponent;
+- (unsigned long long)defaultLabelNumberOfLinesForSidebar:traitCollection: /* Error: Ran out of types for this method. */;
 - (id)tating;
 - (double)electionGestureRecognizer;
-- (struct CGPoint)al;
+- (struct CGPoint)_UIFocusScrollOffsetResolverTypeDifferential;
 - (void)p;b;
 
 // Remaining properties
-@property(readonly, nonatomic) double feedbackAlpha;
-@property(nonatomic) unsigned long long identity; // @synthesize identity=_identity;
-@property(nonatomic) double lastSeenTimestamp; // @synthesize lastSeenTimestamp=_lastSeenTimestamp;
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
-@property(nonatomic) _Bool unknownSeen; // @synthesize unknownSeen=_unknownSeen;
 
 @end
 

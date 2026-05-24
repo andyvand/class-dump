@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatSupplementaryNode
 {
     id _identifier;
-    id supplementaryIdentifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id _styles;
-    id _selectors;
-    id _options;
-    id _blocks;
-    id zIndex;
-    id flex;
 }
 
 @end

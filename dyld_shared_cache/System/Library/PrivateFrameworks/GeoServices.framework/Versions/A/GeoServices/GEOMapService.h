@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache;
-@protocol NSCacheDelegate;
-
 @interface GEOMapService
 {
     struct os_unfair_lock_s _preferredLanguagesLock;
-    NSArray *_preferredLanguages;
-    int _overriddenResultProviderID;
-    int _additionalEnabledMarketsChangedToken;
-    int _experimentsChangedToken;
-    struct os_unfair_lock_s _handleCacheLock;
-    NSCache *_handleCache;
-    id <NSCacheDelegate> _handleCacheDelegate;
 }
 
 + (void);
-+ (_Bool);
++ (_Bool)_;
 + (void);
 + (id);
 - (id);
@@ -35,7 +25,7 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)t;
 - (id);
 - (id);
 - (id);
@@ -75,19 +65,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)policyDescriptionFor:(unsigned long long)arg1;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)setHeadphoneListeningMode:(id)arg1 completion:(CDUnknownBlockType)arg2;
+- (void)loggingHeartbeatRate;
+- (id)blic}d;
 - (id);
-- (id);
+- (id)!8	;
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -97,11 +87,41 @@
 - (id);
 - (id);
 - (id);
+- (id)C;
+- (id)m subfactor dimension (%d).
+;
+- (id);
+- (id);
+- (id)C0;
+- (id);
+- (id);
+- (id){;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id)e2D=dd}16i32@36;
+- (id)52@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16B48;
+- (id)externalTransitStationCode;
+- (id)_updatePuckVisibilityForRadius:(id)arg1 previousRadius:(_Bool)arg2 duration:(_Bool)arg3;
+- (id)_selectionPriority;
+- (id)_captureUserAction:(id)arg1 onTarget:(id)arg2 withAnalyticsMessageValues:(id)arg3;
+- (id)d (%u)>;
+- (void)raffic Reported;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -110,38 +130,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id)work/Versions/A/ApplicationServices;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ions/C/Foundation;
 - (void)× ;
 - (id)
 × ;
@@ -151,24 +142,24 @@
 - (id)DTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16q24Q32;
 - (id)GEOPDLabelFrame=fIf{?=b1b1b1}}16;
 - (id)"d"remainingDistance"d};
-- (id)velTimes;
-- (id)er:(id)arg1 additionalPlaceTypes:(id)arg2 additionalPlaceTypesCount:(id)arg3 placeTypeLimit:traits: /* Error: Ran out of types for this method. */;
-- (id)es:(id)arg1;
-- (id)chPositionFirstQueryToken:(id)arg1;
+- (id)transitTravelTimes;
+- (id)ticketForBatchReverseGeocodeLocations:(id)arg1 locationShifter:(id)arg2 additionalPlaceTypes:(id)arg3 additionalPlaceTypesCount:placeTypeLimit:traits: /* Error: Ran out of types for this method. */;
+- (id)setTripTimes:(id)arg1;
+- (id)setPrefixTokenMatchPositionFirstQueryToken:(id)arg1;
 - (id)stryCategory:(unsigned long long)arg1 industryCode:(id)arg2 paymentNetwork:transactionDate:transactionLocation:terminalId:transactionCurrencyCode:transactionType:transactionId:warsawMerchantDomain:warsawMerchantName:warsawMerchantId:adamId:merchantId:merchantDoingBizAsName:merchantEnhancedName:merchantCity:merchantRawCity:merchantState:merchantRawState:merchantZip:merchantAddress:merchantRawAddress:merchantCountryCode:merchantType:merchantCleanConfidenceLevel:merchantAdditionalData:merchantCanl:fuzzyMatched:coarseLocationUsed:traits: /* Error: Ran out of types for this method. */;
 - (id)hasRemainingTravelRange;
-- (id)ings;
-- (id)nt;
-- (id)nlyTransitRoute;
-- (id);
+- (id)_unmatchedStrings;
+- (id)_mapFeatureLicensePlateCount;
+- (id)_isWalkingOnlyTransitRoute;
+- (id)_bookmarkOffset;
 - (id)b¤bxc¸cTeèe¼füfhiìiÔj¨kldmm;
 - (id)àe	,i;
 - (id)zèz;
 - (id)s empty from task:(id)arg1 %{public}@;
 - (void)VALUES (@start_time, @end_time, @transport_type, @tiles_preloaded, @tiles_used, @tiles_missed);;
 - (id)untry Code;
-- (id)HOTOS_UNSUPPORTED;
-- (void)TOCOMPLETE_RESULT_SUBTYPE_HISTORY_PLACE;
+- (id)PLACECARD_ENRICHMENT_SUPPRESSION_REASON_ARP_PHOTOS_UNSUPPORTED;
+- (void)AUTOCOMPLETE_RESULT_SUBTYPE_HISTORY_PLACE;
 - (id);
 - (id);
 - (id);

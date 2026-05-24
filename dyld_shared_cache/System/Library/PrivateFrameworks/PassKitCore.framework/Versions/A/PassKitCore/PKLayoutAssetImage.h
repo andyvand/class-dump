@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PKOSVersionRequirementRange, PKRemoteImageSet;
+@class NSString, PKOSVersionRequirementRange;
 
 @interface PKLayoutAssetImage
 {
     PKOSVersionRequirementRange *_osVersionRange;
-    NSDictionary *_configuration;
-    NSString *_name;
-    NSArray *_subimages;
-    PKRemoteImageSet *_remoteImage;
 }
 
 + (id);
@@ -21,29 +17,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)J;
+- (id)(;
 - (id);
 - (void);
+- (id);
+- (id)a;
+- (void)g=;
 - (void)4S;
 - (void)24;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) PKOSVersionRequirementRange *osVersionRange; // @synthesize osVersionRange=_osVersionRange;
-@property(retain, nonatomic) PKRemoteImageSet *remoteImage; // @synthesize remoteImage=_remoteImage;
-@property(retain, nonatomic) NSArray *subimages; // @synthesize subimages=_subimages;
-@property(readonly) Class superclass;
 
 @end
 

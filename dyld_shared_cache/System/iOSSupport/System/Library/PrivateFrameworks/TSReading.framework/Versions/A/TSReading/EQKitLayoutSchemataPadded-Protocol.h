@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol EQKitLayoutNode;
+
 @protocol EQKitLayoutSchemataPadded
+- (id <EQKitLayoutNode>)s unknown type:%@] /* Error: Ran out of types for this method. */;
 @end
 

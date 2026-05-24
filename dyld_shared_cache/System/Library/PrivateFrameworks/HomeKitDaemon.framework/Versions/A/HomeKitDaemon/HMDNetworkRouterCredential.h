@@ -4,39 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterCredential
 {
     NSData *_macAddress;
-    NSData *_psk;
 }
 
-+ (id);
-- (id);
++ (id)momentNodeFingerprintsDataFrameWithVersion:(id)arg1 forMomentNodes:(id *)arg2 withGraph:progressReporter:error: /* Error: Ran out of types for this method. */;
+- (id)ago;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)olor c0, __color c1) {
+float l = dot(s.rgb, vec3(0.299, 0.587, 0.114));
+vec3 cw;
+if (l <= 0.75) {
+cw = mix(c0.rgb, c1.rgb, l/0.75);
+} else {
+cw = mix(c1.rgb, vec3(1), 4*(l-0.75));
+}
+return vec4(cw, s.a);
+}
+kernel vec4 rgb_color_wash_duo_variable(__sample s, __color c0, __color c1) {
+float l = dot(s.rgb, vec3(0.299, 0.587, 0.114));
+float l0 = dot(c0.rgb, vec3(0.299, 0.587, 0.114));
+float l1 = dot(c1.rgb, vec3(0.299, 0.587, 0.114));
+vec3 cw;
+if (l <= l1) {
+cw = mix(c0.rgb, c1.rgb, l/l1);
+} else {
+cw = mix(c1.rgb, vec3(1), (l-l1)/(1-l1));
+}
+return vec4(cw, s.a);
+}
+
+;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)ngWithCompletion:(struct _NSZone *)arg1;
-- (void)ricsEventAnalyzerHAPIPSentHTTPMessagesCounter;
+- (id)isCoordinatingWithCompletion:(struct _NSZone *)arg1;
+- (void)HMDLogEventHAPMetricsEventAnalyzerHAPIPSentHTTPMessagesCounter;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *macAddress; // @synthesize macAddress=_macAddress;
-@property(retain, nonatomic) NSData *psk; // @synthesize psk=_psk;
-@property(readonly) Class superclass;
 
 @end
 

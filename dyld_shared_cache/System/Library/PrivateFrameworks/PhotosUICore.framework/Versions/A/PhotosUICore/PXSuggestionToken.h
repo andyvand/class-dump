@@ -7,7 +7,6 @@
 @interface PXSuggestionToken
 {
     _Bool _canceled;
-    unsigned long long _token;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canceled; // @synthesize canceled=_canceled;
 @property(nonatomic) unsigned long long token; // @synthesize token=_token;
 
 @end

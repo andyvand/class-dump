@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary, NSPersistentUIKeyedUnarchiver, NSString, NSWindow, NSWindowRestorationOptions;
-
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIWindowRestoration
 {
     unsigned int _windowID;
-    NSWindow *_restoredWindow;
-    NSMutableDictionary *_persistentIDToRecord;
-    NSPersistentUIKeyedUnarchiver *_windowCoder;
-    NSData *_lastMinuteWindowData;
-    NSDictionary *_talagentWindowDictionary;
-    NSWindowRestorationOptions *_options;
-    _Bool _talagentWindowTransferredOwnership;
-    _Bool _restoredWindowPinned;
-    _Bool _finishedRestoring;
-    _Bool _requireSecureCoding;
 }
 
-+ (void);
++ (void)XISTS cookies (        name text NOT NULL,        value text NOT NULL,        domain text NOT NULL,        path text NOT NULL,        partition text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
 - (id);
 - (void);
 - (id);
@@ -32,33 +20,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)nse:%s /* Error: Ran out of types for this method. */;
 - (id);
+- (_Bool)I;
+- (id);
+- (void);
+- (void);
+- (void)set_requiresDNSSECValidation: /* Error: Ran out of types for this method. */;
+- (unsigned int)_initWithLoadingConnection:request:response:delegate:proxy: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (unsigned int);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (_Bool)utesForAttributes: /* Error: Ran out of types for this method. */;
+- (id)capHeight;
+- (_Bool)textHighlightRenderingAttributesForAttributes: /* Error: Ran out of types for this method. */;
 - (void)£;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSData *lastMinuteWindowData; // @synthesize lastMinuteWindowData=_lastMinuteWindowData;
-@property(readonly, copy) NSWindowRestorationOptions *options; // @synthesize options=_options;
-@property(readonly) _Bool requiresSecureCoding; // @synthesize requiresSecureCoding=_requireSecureCoding;
-@property(readonly) NSWindow *restoredWindow; // @synthesize restoredWindow=_restoredWindow;
-@property(readonly) Class superclass;
-@property(copy) NSDictionary *talagentWindowDictionary; // @synthesize talagentWindowDictionary=_talagentWindowDictionary;
 @property(readonly) unsigned int windowID; // @synthesize windowID=_windowID;
 
 @end

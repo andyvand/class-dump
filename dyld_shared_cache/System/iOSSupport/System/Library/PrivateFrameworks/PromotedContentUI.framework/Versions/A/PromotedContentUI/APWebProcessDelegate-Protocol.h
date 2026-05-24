@@ -5,5 +5,14 @@
 //
 
 @protocol APWebProcessDelegate
+
+@optional
+- (void);
+- (void)_TtP9JetEngineP33_3B280445E2AC6E2542A3DCC2FD82BB2C19JSHostObjectExports_;
+- (void);
+- (void);
+- (void)@?@"MPCPlaybackEngineEvent"@"<MPCPlaybackEngineEventStreamCursor>">24;
+- (void)[] action=%{public}@;
+- (void)AutoPlayPlaceholderArtworkVisualIdenticality;
 @end
 

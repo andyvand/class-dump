@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void)ction:preferences:decisionHandler: /* Error: Ran out of types for this method. */;
+- (void)webView:decidePolicyForNavigationAction:preferences:decisionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSImage *iconImage; // @synthesize iconImage=_iconImage;

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface IFTSchemaIFTParameterDisambiguation : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_parameterId;
-    long long _parameterIndex;
-    NSArray *_items;
-    CDStruct_0c7be3b3 _has;
-    _Bool _hasParameterId;
 }
 
 - (void);
@@ -33,7 +26,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)$;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -41,11 +34,11 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)@56@0:(unsigned long long)arg1 8@16@24@32B40B44B48B52;
 - (id)!t!;
-- (void)ary: /* Error: Ran out of types for this method. */;
+- (void)setSessionSummary: /* Error: Ran out of types for this method. */;
 - (id)tionAlternativesSelected;
-- (void)emaORCHRequestCancelled;
+- (void)ORCHSchemaORCHRequestCancelled;
 - (id)	
 ;
 - (_Bool)h!;
@@ -55,13 +48,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasParameterId; // @synthesize hasParameterId=_hasParameterId;
-@property(nonatomic) _Bool hasParameterIndex;
-@property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *parameterId; // @synthesize parameterId=_parameterId;
-@property(nonatomic) long long parameterIndex; // @synthesize parameterIndex=_parameterIndex;
 
 @end
 

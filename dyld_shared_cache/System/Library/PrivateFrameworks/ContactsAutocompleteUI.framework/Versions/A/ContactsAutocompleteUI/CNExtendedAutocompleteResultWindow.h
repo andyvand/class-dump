@@ -11,8 +11,6 @@
 @interface CNExtendedAutocompleteResultWindow : CNMixedModelAutocompleteResultWindow
 {
     _Bool _hideAccountColumn;
-    _Bool _iconInColumn;
-    NSArray *_columnNames;
 }
 
 + (id);
@@ -38,8 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *columnNames; // @synthesize columnNames=_columnNames;
-@property(nonatomic) _Bool hideAccountColumn; // @synthesize hideAccountColumn=_hideAccountColumn;
-@property(nonatomic) _Bool iconInColumn; // @synthesize iconInColumn=_iconInColumn;
 
 @end
 

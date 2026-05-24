@@ -13,17 +13,17 @@
     CKContainerIDTableEntry *_cachedEntry;
 }
 
-+ (_Bool);
++ (_Bool)A;
 + (Class);
-+ (id);
-+ (id);
++ (id);
++ (id)ɚh&;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

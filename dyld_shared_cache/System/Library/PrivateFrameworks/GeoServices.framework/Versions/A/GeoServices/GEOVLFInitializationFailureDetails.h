@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOVLFInitializationFailureDetails
 {
     PBUnknownFields *_unknownFields;
-    NSString *_arkitUnderlyingErrorDomain;
-    int _arkitErrorCode;
-    int _arkitUnderlyingErrorCode;
-    struct {
-        unsigned int has_arkitErrorCode:1;
-        unsigned int has_arkitUnderlyingErrorCode:1;
-    } _flags;
 }
 
-+ (_Bool)tNumberOfMapsWindows:(id)arg1;
++ (_Bool)setNumberOfMapsWindows:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -26,36 +19,30 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ficationSource;
 - (int);
-- (int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (int)e;
+- (void)_requestedContainerIdentifierCount;
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void)setAnnounceCallsEnabled:(id)arg1 withStreamHandleID: /* Error: Ran out of types for this method. */;
+- (id)ddMacBargeInConditions]_block_invoke;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)º*°1Â0@ù
 × ;
-- (id)WithPlaceDataLocalizedString: /* Error: Ran out of types for this method. */;
-- (id)ID:near:stationHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)initWithPlaceDataLocalizedString: /* Error: Ran out of types for this method. */;
+- (id)findTransitStationWithID:near:stationHandler:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)ifier, url, size, data, errorMessage    FROM logs    WHERE type == @type AND timestamp >= @begin AND timestamp <= @end    ORDER BY timestamp ASC;;
 - (void)F¶óýÔ8@?ÆÜµb@;
 
 // Remaining properties
-@property(nonatomic) int arkitErrorCode;
-@property(nonatomic) int arkitUnderlyingErrorCode;
-@property(retain, nonatomic) NSString *arkitUnderlyingErrorDomain;
 @property(nonatomic) _Bool hasArkitErrorCode;
-@property(nonatomic) _Bool hasArkitUnderlyingErrorCode;
-@property(readonly, nonatomic) _Bool hasArkitUnderlyingErrorDomain;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

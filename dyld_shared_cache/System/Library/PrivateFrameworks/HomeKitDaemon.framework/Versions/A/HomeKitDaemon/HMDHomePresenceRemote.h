@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePresenceRemote
@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSDictionary *_userPresenceMap;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)_searchRequest;
+- (_Bool)placeBookmark;
+- (_Bool)};
+- (_Bool)MSPDuplicateStorageIdentifiersObjects;
 - (id);
 - (id);
 - (_Bool);
@@ -24,19 +24,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (void)0@"MTRSetupPayload"8;
 
 // Remaining properties
-@property(readonly, getter=isAnyUserAtHome) _Bool anyUserAtHome;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isNoUserAtHome) _Bool noUserAtHome;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSDictionary *userPresenceMap; // @synthesize userPresenceMap=_userPresenceMap;
 
 @end

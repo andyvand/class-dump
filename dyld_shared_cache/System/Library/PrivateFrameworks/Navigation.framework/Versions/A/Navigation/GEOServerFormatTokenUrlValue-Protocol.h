@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol GEOServerFormatTokenUrlValue
+- (NSString *)];
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayTitle;
 @property(readonly, nonatomic) NSString *url;
 @end
 

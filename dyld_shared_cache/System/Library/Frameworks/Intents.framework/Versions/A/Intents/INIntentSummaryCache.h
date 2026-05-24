@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface INIntentSummaryCache
 {
     int _systemLanguageChangeNotificationToken;
-    NSObject<OS_dispatch_queue> *_resourceAccessQueue;
-    NSMutableDictionary *_allBundlesCache;
 }
 
 + (id);
@@ -21,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void)tream;
+- (void)IPFeatureTextMessageScannerConfidenceDistanceToDates;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -35,13 +33,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)g:(id)arg1;
-- (void)lectionForOpenFile:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)_vocabularyItemWithString:(id)arg1;
+- (void)provideScopeEntityNameOptionsCollectionForOpenFile:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *allBundlesCache; // @synthesize allBundlesCache=_allBundlesCache;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *resourceAccessQueue; // @synthesize resourceAccessQueue=_resourceAccessQueue;
-@property(readonly, nonatomic) int systemLanguageChangeNotificationToken; // @synthesize systemLanguageChangeNotificationToken=_systemLanguageChangeNotificationToken;
 
 @end
 

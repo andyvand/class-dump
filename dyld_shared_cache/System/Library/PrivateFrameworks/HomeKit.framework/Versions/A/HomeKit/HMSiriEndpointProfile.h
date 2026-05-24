@@ -6,7 +6,6 @@
 
 #import <HomeKit/HMAccessoryProfile.h>
 
-@class HMSiriEndpointProfileAssistant, NSArray, NSNumber, NSString, NSUUID;
 @protocol HMSiriEndpointProfileDelegate;
 
 @interface HMSiriEndpointProfile : HMAccessoryProfile
@@ -21,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,8 +36,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)&q;
+- (id)!;
 - (id);
 - (id);
 - (void);
@@ -48,45 +47,15 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
+- (void)pologyLogDelegate>";
+- (id)attuned;
 - (id);
 - (id);
 - (long long);
-- (void)ributeWriteRequest;
+- (void)HMAttributeWriteRequest;
 
 // Remaining properties
-@property(readonly) NSNumber *activeIdentifier;
-@property(readonly) NSArray *assistants;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property(readonly) unsigned long long capability;
-@property(readonly) NSString *capabilityToString;
-@property(readonly) HMSiriEndpointProfileAssistant *currentAssistant;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMSiriEndpointProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool manuallyDisabled;
-@property(readonly) long long multifunctionButton;
-@property(readonly, getter=isNeedsOnboarding) _Bool needsOnboarding;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSUUID *sessionHubIdentifier;
-@property(readonly) long long sessionState;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) NSString *siriEndpointVersion;
-@property(readonly) NSString *siriEngineVersion;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsOnboarding;
 
 @end
 

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     int _iconType;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)_updateCacheForMessageGUID:(id)arg1 fromMessage:(int)arg2 toMessage:updateLastMessage:calculateUnreadCount: /* Error: Ran out of types for this method. */;
+- (id)played receipt processing;
 - (id);
 - (id)á¤i;
 

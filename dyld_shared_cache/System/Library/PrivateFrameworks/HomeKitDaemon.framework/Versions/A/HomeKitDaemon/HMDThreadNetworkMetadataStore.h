@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDThreadNetworkMetadataStore
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_workQueueNetworkChanged;
-    unsigned long long _networkChangedHandlingLastUpdatedTime;
-    CDUnknownBlockType _threadClientFactory;
 }
 
 + (id);
@@ -28,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)r">16@?<v@?B>24;
 - (void);
 - (void);
 - (void);
@@ -45,20 +42,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)256_AUTH_NONE;
+- (void)AVC_CIPHER_AES_256_AUTH_NONE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long networkChangedHandlingLastUpdatedTime; // @synthesize networkChangedHandlingLastUpdatedTime=_networkChangedHandlingLastUpdatedTime;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType threadClientFactory; // @synthesize threadClientFactory=_threadClientFactory;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueueNetworkChanged; // @synthesize workQueueNetworkChanged=_workQueueNetworkChanged;
 
 @end
 

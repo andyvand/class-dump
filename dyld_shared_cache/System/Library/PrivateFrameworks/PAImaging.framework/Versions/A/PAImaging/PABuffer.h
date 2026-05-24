@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PAPixelFormat;
-@protocol PAPixelFormat;
-
 @interface PABuffer
 {
     struct PFIntSize_st _size;
-    PAPixelFormat *_format;
-    long long _bytesPerRow;
-    const void *_bytes;
 }
 
 - (id);
 - (id);
 - (id);
 - (struct CGImage *);
-- (long long);
+- (long long);
 - (void);
 - (const void *);
-- (unsigned long long);
+- (unsigned long long)rLibraryScope(PHLibraryScope *__strong, PHLibraryScopeAutoSharePolicy, PHPhotoLibrary * _Nullable __strong, NSDate * _Nullable __strong, NSArray<NSString *> *__strong, NSArray<NSString *> *__strong, NSArray<NSString *> *__strong, void (^ _Nullable __strong)(BOOL, NSError * _Nullable __strong));
 - (long long);
 - (unsigned long long);
 - (struct PFIntSize_st);
@@ -32,12 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) const void *bytes; // @synthesize bytes=_bytes;
-@property(readonly, nonatomic) unsigned long long bytesPerPixel;
-@property(readonly, nonatomic) long long bytesPerRow; // @synthesize bytesPerRow=_bytesPerRow;
-@property(readonly, nonatomic) int format;
-@property(readonly, nonatomic) unsigned long long length;
-@property(readonly, nonatomic) id <PAPixelFormat> pixelFormat; // @synthesize pixelFormat=_format;
 @property(readonly, nonatomic) struct PFIntSize_st size; // @synthesize size=_size;
 
 @end

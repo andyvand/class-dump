@@ -7,32 +7,24 @@
 @interface GEORPVisibleTileSet
 {
     struct GEORPVisibleTileKey *_tileKeys;
-    unsigned long long _tileKeysCount;
-    unsigned long long _tileKeysSpace;
-    unsigned int _identifier;
-    int _style;
-    struct {
-        unsigned int has_identifier:1;
-        unsigned int has_style:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setLocalizedNames:(id)arg1;
 - (unsigned long long);
 - (struct GEORPVisibleTileKey *);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)serviceName;
 - (void);
 - (void);
 - (struct GEORPVisibleTileKey);
 - (void);
-- (int);
+- (int)`;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)version;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -41,21 +33,16 @@
 - (void);
 - (void);
 - (id)tes"b1"read_internalDetourInfo"b1"read_mapsURL"b1"read_originatingCoordinate"b1"read_placeData"b1"read_placeResult"b1"read_place"b1"read_userValues"b1"wrote_anyField"b1};
-- (id)g;
-- (unsigned int)laceData:type: /* Error: Ran out of types for this method. */;
+- (id)defaultTag;
+- (unsigned int)categoryNamesForPlaceData:type: /* Error: Ran out of types for this method. */;
 - (id)ÁÃÜÃÅLÅxÆ¼ÆhÇÐÈÉÄÊ;
 - (_Bool)8~;
-- (id)rl;
-- (void);
+- (id)attributionUrl;
+- (void)REQUEST_TYPE_EXPLORE_GUIDES_LOOKUP;
 - (int)÷2;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIdentifier;
 @property(nonatomic) _Bool hasStyle;
-@property(nonatomic) unsigned int identifier;
-@property(nonatomic) int style;
-@property(readonly, nonatomic) struct GEORPVisibleTileKey *tileKeys;
-@property(readonly, nonatomic) unsigned long long tileKeysCount;
 
 @end
 

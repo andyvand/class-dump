@@ -5,5 +5,8 @@
 //
 
 @protocol VCRemoteVideoManagerDelegate
+- (void);
+- (void);
+- (void));
 @end
 

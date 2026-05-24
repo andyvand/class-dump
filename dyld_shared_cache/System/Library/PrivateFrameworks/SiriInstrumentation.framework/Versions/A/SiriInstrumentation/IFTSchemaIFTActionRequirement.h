@@ -6,26 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTAppRequirement, IFTSchemaIFTPermissionRequirement, IFTSchemaIFTSystemRequirement, NSData;
-
 @interface IFTSchemaIFTActionRequirement : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    _Bool _unsupported;
-    IFTSchemaIFTAppRequirement *_appRequirement;
-    IFTSchemaIFTPermissionRequirement *_permissionRequirement;
-    IFTSchemaIFTSystemRequirement *_systemRequirement;
-    CDStruct_b33ad018 _has;
-    _Bool _hasUnsupported;
-    _Bool _hasAppRequirement;
-    _Bool _hasPermissionRequirement;
-    _Bool _hasSystemRequirement;
-    unsigned long long _whichOneof_Actionrequirement;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,13 +34,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)#;
+- (void)+;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)<v@?@"NSString">16;
 - (id)!tð!ØBùqàð1Â0@ù
 × ;
 - (id)V_responseGenerationCatalogTime;
@@ -63,18 +51,7 @@
 - (void)²t%*;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTAppRequirement *appRequirement; // @synthesize appRequirement=_appRequirement;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasAppRequirement; // @synthesize hasAppRequirement=_hasAppRequirement;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasPermissionRequirement; // @synthesize hasPermissionRequirement=_hasPermissionRequirement;
-@property(nonatomic) _Bool hasSystemRequirement; // @synthesize hasSystemRequirement=_hasSystemRequirement;
-@property(nonatomic) _Bool hasUnsupported; // @synthesize hasUnsupported=_hasUnsupported;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTPermissionRequirement *permissionRequirement; // @synthesize permissionRequirement=_permissionRequirement;
-@property(retain, nonatomic) IFTSchemaIFTSystemRequirement *systemRequirement; // @synthesize systemRequirement=_systemRequirement;
-@property(nonatomic) _Bool unsupported; // @synthesize unsupported=_unsupported;
-@property(readonly, nonatomic) unsigned long long whichOneof_Actionrequirement; // @synthesize whichOneof_Actionrequirement=_whichOneof_Actionrequirement;
 
 @end
 

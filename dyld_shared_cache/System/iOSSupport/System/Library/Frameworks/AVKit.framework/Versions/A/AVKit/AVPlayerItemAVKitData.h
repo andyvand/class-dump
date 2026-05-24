@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface AVPlayerItemAVKitData
 {
     NSMutableDictionary *_customPropertyStorage;
-    long long _interstitialPolicyEnforcement;
 }
 
 - (void);
-- (long long);
+- (long long);
 - (id);
-- (id);
+- (id)uf/CoreNavigationCLPRavenOutput.pb.cc;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *customPropertyStorage; // @synthesize customPropertyStorage=_customPropertyStorage;
-@property(nonatomic) long long interstitialPolicyEnforcement; // @synthesize interstitialPolicyEnforcement=_interstitialPolicyEnforcement;
 
 @end
 

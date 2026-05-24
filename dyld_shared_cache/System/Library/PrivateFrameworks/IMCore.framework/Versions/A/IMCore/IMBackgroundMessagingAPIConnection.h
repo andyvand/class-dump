@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface IMBackgroundMessagingAPIConnection
 {
     NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (id);
+- (id)ctive = %d;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 

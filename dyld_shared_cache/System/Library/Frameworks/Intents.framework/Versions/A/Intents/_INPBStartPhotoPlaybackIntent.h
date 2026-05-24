@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContactList, _INPBDateTimeRange, _INPBIntentMetadata, _INPBLocation, _INPBString, _INPBStringList;
+@class _INPBString;
 
 @interface _INPBStartPhotoPlaybackIntent
 {
     CDStruct_95bda58d _excludedAttributes;
-    CDStruct_95bda58d _includedAttributes;
-    struct _has;
-    _INPBString *_albumName;
-    _INPBDateTimeRange *_dateCreated;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBLocation *_locationCreated;
-    _INPBContactList *_peopleInPhoto;
-    _INPBStringList *_searchTerm;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)};
 - (id);
 - (int *);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -48,7 +40,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -60,35 +52,13 @@
 - (id);
 - (id);
 - (void);
-- (void)learDeletedTasks;
+- (void)clearDeletedTasks;
 - (_Bool)D;
-- (id)pAnnouncementIntentResponse;
-- (void)eFailure;
+- (id)_INPBSkipAnnouncementIntentResponse;
+- (void)INFindEventsIntentResponseCodeFailure;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *albumName; // @synthesize albumName=_albumName;
-@property(retain, nonatomic) _INPBDateTimeRange *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) int *excludedAttributes;
-@property(readonly, nonatomic) unsigned long long excludedAttributesCount;
-@property(readonly, nonatomic) _Bool hasAlbumName;
-@property(readonly, nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLocationCreated;
-@property(readonly, nonatomic) _Bool hasPeopleInPhoto;
-@property(readonly, nonatomic) _Bool hasSearchTerm;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int *includedAttributes;
-@property(readonly, nonatomic) unsigned long long includedAttributesCount;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBLocation *locationCreated; // @synthesize locationCreated=_locationCreated;
-@property(retain, nonatomic) _INPBContactList *peopleInPhoto; // @synthesize peopleInPhoto=_peopleInPhoto;
-@property(retain, nonatomic) _INPBStringList *searchTerm; // @synthesize searchTerm=_searchTerm;
-@property(readonly) Class superclass;
 
 @end
 

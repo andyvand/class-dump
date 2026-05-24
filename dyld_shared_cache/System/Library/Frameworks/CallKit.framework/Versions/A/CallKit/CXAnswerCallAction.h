@@ -11,12 +11,6 @@
 @interface CXAnswerCallAction : CXCallAction
 {
     _Bool _downgradeToAudio;
-    _Bool _pauseVideoToStart;
-    _Bool _screening;
-    _Bool _receptionist;
-    NSDate *_dateConnected;
-    struct CGSize _localPortraitAspectRatio;
-    struct CGSize _localLandscapeAspectRatio;
 }
 
 + (_Bool);
@@ -36,21 +30,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (void);
-- (void);
-- (struct CGSize);
+- (void)IdentifiersForQueryCriteria:(id)arg1 ordered:cancelBlock:usingBlock:] /* Error: Ran out of types for this method. */;
+- (struct CGSize)remote process;
 - (id);
 - (struct CGSize);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *dateConnected; // @synthesize dateConnected=_dateConnected;
-@property(nonatomic) _Bool downgradeToAudio; // @synthesize downgradeToAudio=_downgradeToAudio;
-@property(nonatomic) _Bool pauseVideoToStart; // @synthesize pauseVideoToStart=_pauseVideoToStart;
-@property(nonatomic) _Bool receptionist; // @synthesize receptionist=_receptionist;
-@property(nonatomic) _Bool screening; // @synthesize screening=_screening;
 
 @end
 

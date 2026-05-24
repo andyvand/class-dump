@@ -5,5 +5,8 @@
 //
 
 @protocol SGSuggestionList
+
+@optional
+- (_Bool)i;
 @end
 

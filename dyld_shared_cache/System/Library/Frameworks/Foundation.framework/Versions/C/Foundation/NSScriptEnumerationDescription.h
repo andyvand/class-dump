@@ -16,7 +16,7 @@
 + (id);
 + (id);
 - (SEL);
-- (SEL);
+- (SEL)B;
 - (_Bool);
 - (id);
 - (id);

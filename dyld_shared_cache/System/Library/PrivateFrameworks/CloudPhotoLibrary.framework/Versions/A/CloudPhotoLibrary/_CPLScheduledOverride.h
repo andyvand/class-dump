@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, _CPLScheduledOverrideDelegate;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface _CPLScheduledOverride
 {
     NSObject<OS_dispatch_source> *_timer;
-    NSString *_expirationDateStorageKey;
-    NSString *_overrideReasonKey;
-    unsigned long long _budget;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _reason;
-    NSDate *_endDate;
-    id <_CPLScheduledOverrideDelegate> _delegate;
 }
 
 + (double);
 + (id);
 + (unsigned long long);
-+ (_Bool)ýª×
-ô;
++ (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (double);
++ (id)22WordStatesRecogGrammar;
++ (double)h;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -36,21 +28,16 @@
 - (id);
 - (id);
 - (id);
-- (void)BPÁÚð/©à'©á;
 - (void);
+- (void);
+- (id)n: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)|;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long budget; // @synthesize budget=_budget;
-@property(nonatomic) __weak id <_CPLScheduledOverrideDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) NSString *status;
 
 @end
 

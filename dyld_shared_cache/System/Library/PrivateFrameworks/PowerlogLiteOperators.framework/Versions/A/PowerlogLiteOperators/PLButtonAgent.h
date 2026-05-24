@@ -14,21 +14,21 @@
 + (id);
 + (id);
 + (id);
++ (id)(;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)Q;
 + (id);
 + (void)WakeAgent.fakeWakeBB;
 - (id);
-- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (void);
 - (void)äÁPÃ°Ã`ÄÄÆäÆPÈøÈ;
-- (id)odeFS1_2b_fast;
+- (id)passWithTmodeFS1_2b_fast;
 - (void)ts;
 
 // Remaining properties

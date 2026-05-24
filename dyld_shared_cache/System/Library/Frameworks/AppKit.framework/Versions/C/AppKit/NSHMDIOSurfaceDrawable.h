@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurface, NSHMDIOSurfaceSession;
+@class NSHMDIOSurfaceSession;
 
 @interface NSHMDIOSurfaceDrawable
 {
     NSHMDIOSurfaceSession *_session;
-    struct _SLSHMDDrawable *_drawable;
-    double _inputTimestamp;
-    double _presentedTime;
 }
 
-- (void);
-- (void);
+- (void)__DATA_CONST;
+- (void)ferent credentials;
 - (void);
 - (double);
-- (unsigned long long);
+- (unsigned long long)__TLSMaximumSupportedProtocolVersion;
 - (id);
 - (void);
 - (id);
@@ -26,10 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) IOSurface *IOSurface;
-@property unsigned long long debugSignpost;
-@property double inputTimeStamp;
-@property(readonly) double presentedTime;
 @property(readonly) NSHMDIOSurfaceSession *session;
 
 @end

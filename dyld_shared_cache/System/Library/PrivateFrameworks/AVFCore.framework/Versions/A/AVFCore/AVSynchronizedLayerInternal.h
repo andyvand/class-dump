@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVSynchronizedLayerInternal
 {
     NSObject<OS_dispatch_queue> *serialQueue;
-    NSObject<OS_dispatch_queue> *ivarAccessQueue;
-    AVPlayerItem *playerItem;
-    NSMutableSet *oldPlayerItems;
-    _Bool isVisible;
 }
 
 @end

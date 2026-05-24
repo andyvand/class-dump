@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface ILMessageFilterQueryResponse
 {
     long long _action;
-    long long _subAction;
-    NSString *_version;
-    NSError *_error;
 }
 
-+ (_Bool);
++ (_Bool),R,N,V_debugAssistant;
 - (_Bool);
 - (long long);
 - (void);
+- (id)P;
+- (id)eceiverTaiTime,unexpected band from SV with decoded time,SV,%s,band,%i;
+- (id)nchors,%zu,%zu;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)!m;
 - (unsigned long long);
-- (void);
+- (void)sionDescriptorId integer NOT NULL, label integer NOT NULL, covariatesLength integer NOT NULL, covariatesIndices blob, covariatesValues blob, isAppleInternal integer(1) NOT NULL DEFAULT 0, source blob, FOREIGN KEY (sessionDescriptorId) REFERENCES sessionsDescriptors (id) ON DELETE CASCADE );
 - (_Bool);
 - (void);
 - (void);
@@ -33,9 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long action; // @synthesize action=_action;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) long long subAction; // @synthesize subAction=_subAction;
 @property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

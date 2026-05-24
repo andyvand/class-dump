@@ -8,12 +8,11 @@
 
 @protocol PHASEStreamInfo
 
+@optional
+- (NSDictionary *)p1GT
+GPU GDDR5 Proximity 1 raw temp (DegC) (TG1p);
+
 // Remaining properties
 @property(readonly, nonatomic) AVAudioFormat *format;
-@property(readonly, nonatomic) unsigned int latencyInFrames;
-@property(readonly, nonatomic) NSDictionary *streamDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
 @end
 

@@ -7,9 +7,6 @@
 @interface AppStoreKit.PrivacyDefinition
 {
     id title;
-    id definition;
-    id id;
-    id automationMetadata;
 }
 
 @end

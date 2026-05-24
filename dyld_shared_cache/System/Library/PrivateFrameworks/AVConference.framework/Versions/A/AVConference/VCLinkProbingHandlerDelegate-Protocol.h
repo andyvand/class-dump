@@ -5,5 +5,9 @@
 //
 
 @protocol VCLinkProbingHandlerDelegate
+- (void);
+
+@optional
+- (void)H;
 @end
 

@@ -4,80 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NSParagraphStyle
 {
     double _lineSpacing;
-    double _paragraphSpacing;
-    double _headIndent;
-    double _tailIndent;
-    double _firstLineHeadIndent;
-    double _minimumLineHeight;
-    double _maximumLineHeight;
-    NSArray *_tabStops;
-    struct {
-        unsigned int alignment:4;
-        unsigned int lineBreakMode:4;
-        unsigned int tabStopsIsMutable:1;
-        unsigned int isNaturalDirection:1;
-        unsigned int rightToLeftDirection:1;
-        unsigned int fixedMultiple:2;
-        unsigned int tightensForTruncation:1;
-        unsigned int refCount:18;
-        unsigned int :32;
-    } _flags;
-    double _defaultTabInterval;
-    id _extraData;
 }
 
 
 // Remaining properties
-@property(readonly) long long _listIntentOrdinal;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly, copy) NSArray *_presentationIntents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
-@property(readonly) long long alignment;
-@property(readonly) _Bool allowsDefaultTighteningForTruncation;
-@property(readonly) long long baseWritingDirection;
 @property(readonly, copy) NSString *codeBlockIntentLanguageHint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) double defaultTabInterval;
-@property(readonly, copy) NSString *description;
-@property(readonly) double firstLineHeadIndent;
-@property(readonly) unsigned long long hash;
-@property(readonly) double headIndent;
-@property(readonly) long long headerLevel;
-@property(readonly) float hyphenationFactor;
-@property(readonly) unsigned long long lineBreakMode;
-@property(readonly) unsigned long long lineBreakStrategy;
-@property(readonly) double lineHeightMultiple;
-@property(readonly) double lineSpacing;
-@property(readonly) long long listIntentOrdinal;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) double maximumLineHeight;
-@property(readonly) double minimumLineHeight;
-@property(readonly) double paragraphSpacing;
-@property(readonly) double paragraphSpacingBefore;
-@property(readonly, copy) NSArray *presentationIntents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *tabStops;
-@property(readonly) double tailIndent;
-@property(readonly, copy) NSArray *textBlocks;
-@property(readonly, copy) NSArray *textLists;
-@property(readonly) float tighteningFactorForTruncation;
-@property(readonly) _Bool usesDefaultHyphenation;
 @end
 

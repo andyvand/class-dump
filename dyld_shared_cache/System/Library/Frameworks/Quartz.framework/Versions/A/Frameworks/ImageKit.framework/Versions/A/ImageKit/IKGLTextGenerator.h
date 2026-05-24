@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKGLTextCacheFragHandler;
-@protocol IKTextDriver;
-
 @interface IKGLTextGenerator
 {
     struct CGContext *_offscreenBuffer;
-    id <IKTextDriver> _textDriver;
-    IKGLTextCacheFragHandler *_cache;
-    struct CGSize _cacheSize;
 }
 
 - (id);

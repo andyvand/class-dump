@@ -7,9 +7,9 @@
 @protocol GCMotionXPCProxyServiceRemoteServerInterface, _GCIPCEndpointConnection;
 
 @protocol GCMotionXPCProxyServiceClient
+- (id <GCMotionXPCProxyServiceRemoteServerInterface>));
 
 // Remaining properties
 @property(readonly) id <_GCIPCEndpointConnection> motionXPCProxyServiceConnection;
-@property(readonly) id <GCMotionXPCProxyServiceRemoteServerInterface> motionXPCProxyServiceRemoteServer;
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol TSKScrollViewDelegate
+
+@optional
+- (void);
+- (void)q;
+- (void)T9;
 @end
 

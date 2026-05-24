@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVCalendarServerActionItem, CoreDAVLeafItem;
+@class CoreDAVLeafItem;
 
 @interface CalDAVCalendarServerScheduleChangesItem
 {
     CoreDAVLeafItem *_dtstamp;
-    CalDAVCalendarServerActionItem *_action;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)charge_duration_var_at_charge_start_soc_curr_dynamic_bin_1;
+- (id)@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CalDAVCalendarServerActionItem *action; // @synthesize action=_action;
 @property(retain, nonatomic) CoreDAVLeafItem *dtstamp; // @synthesize dtstamp=_dtstamp;
 
 @end

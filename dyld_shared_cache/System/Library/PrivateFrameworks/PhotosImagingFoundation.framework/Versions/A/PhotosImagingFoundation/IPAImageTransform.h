@@ -9,21 +9,20 @@
 @interface IPAImageTransform
 {
     id <IPAImageGeometry> _inputGeometry;
-    id <IPAImageGeometry> _intrinsicGeometry;
 }
 
 + (id);
-+ (id);
++ (id)NAVTrackAssociationType;
 - (struct Vector2d);
 - (struct CGPoint);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)removeItemAtURL:error: /* Error: Ran out of types for this method. */;
 
 @end
 

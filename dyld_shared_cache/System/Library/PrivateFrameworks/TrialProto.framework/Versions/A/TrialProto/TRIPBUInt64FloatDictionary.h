@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBUInt64FloatDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (unsigned long long);
@@ -31,7 +30,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)entEnvironmentPcc;
+- (void)DeploymentEnvironmentPcc;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

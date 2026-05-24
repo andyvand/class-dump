@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class DDSAssetQuery, MAAssetQuery;
+
 @protocol DDSMobileAssetv2ProviderDataSource
+- (long long)setHasDeltaTimeInNsFromlastPHSReject: /* Error: Ran out of types for this method. */;
+- (MAAssetQuery *)setHasDeleteTrigger:(DDSAssetQuery *)arg1;
+- (long long)setHasDecompressions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long linguisticAssetCompatabilityVersion;
-@property(readonly) long long mecabraDictionaryRapidUpdatesAssetCompatabilityVersion;
 @end
 

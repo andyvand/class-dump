@@ -9,22 +9,19 @@
 @interface AppKit._NSTextFormattingColorComponentView__priv_B20AA1257E16D4018E27D921D92487C8 : NSColorWell
 {
     id forBackgroundColor;
-    id componentKey;
-    id componentSize;
-    id sizeConstraints;
 }
 
 + (Class);
 - (_Bool);
-- (void);
+- (void)_kCFNetworkCFStreamSSLErrorOriginalValue;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (void)ñá3°1Â0@ù
 × ;
-- (id)AtZ:(struct CGRect)arg1;
+- (id)_stackOffsetAtZ:(struct CGRect)arg1;
 - (void)h\E;
 
 // Remaining properties

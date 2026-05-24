@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristicValueTransition, HAPCharacteristicValueTransitionState, NSString;
+@class HAPCharacteristicValueTransition;
 
 @interface HAPCharacteristicValueTransitionControlResponse
 {
     HAPCharacteristicValueTransition *_valueTransition;
-    HAPCharacteristicValueTransitionState *_transitionState;
 }
 
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPCharacteristicValueTransitionState *transitionState; // @synthesize transitionState=_transitionState;
 @property(retain, nonatomic) HAPCharacteristicValueTransition *valueTransition; // @synthesize valueTransition=_valueTransition;
 
 @end

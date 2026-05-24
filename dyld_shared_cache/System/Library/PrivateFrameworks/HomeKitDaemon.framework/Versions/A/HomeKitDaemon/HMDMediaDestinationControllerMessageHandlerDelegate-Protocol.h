@@ -5,5 +5,6 @@
 //
 
 @protocol HMDMediaDestinationControllerMessageHandlerDelegate
+- (void);
 @end
 

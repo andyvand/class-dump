@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (void);
-+ (void);
++ (void)IndexSet"32@0:8@"NSOutlineView"16@"NSIndexSet"24 /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -8,11 +8,11 @@
 {
 }
 
+- (id)nBlockCalledWhenFetchFailed %@;
 - (id);
 - (id);
-- (id);
-- (void)erConstraintRightAnchor;
-- (id)action;
+- (void)coverConstraintRightAnchor;
+- (id)_UITableViewSpringLoadedInteraction;
 
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, STBlueprint;
-@protocol STSerializableManagedObject;
+@class NSString;
 
 @interface STBlueprintConfiguration
 {
@@ -13,23 +12,23 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)_handleMusicUserTokensDidChangeDistributedNotification:(id)arg1;
 + (id);
 + (id);
++ (id)initWithResponse:(id)arg1 data:(id)arg2 userInfo:(_Bool)arg3 storagePolicy: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (void)OT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
+- (id)tifier, metadata_timestamp, metadata_entity_revision) SELECT item_pid, storebookmark_identifier, store_bookmark_timestamp, store_bookmark_entity_revision FROM item JOIN item_storebookmark_identifier USING(item_pid) JOIN item_stats USING(item_pid);;
+- (_Bool)ownload_action_params ELSE '' END);
+- (_Bool)edownload_action_params END);
+- (void)skipped INTEGER DEFAULT 0, date_accessed INTEGER DEFAULT 0, is_alarm INTEGER NOT NULL DEFAULT 0, skip_count_user INTEGER DEFAULT 0, skip_count_recent INTEGER DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL, store_bookmark_timestamp REAL DEFAULT NULL, store_bookmark_entity_revision INTEGER DEFAULT NULL, hidden INTEGER DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0;
+- (id)nes_Control/Music/F%02d');
+- (void)tem_pid FROM item JOIN base_location USING(base_location_id) WHERE path = 'iTunes_Control/Music/F%02d');
+- (id)ache_id INTEGER NOT NULL DEFAULT 0, disc_count INTEGER DEFAULT 0, track_count INTEGER DEFAULT 0, total_time_ms REAL NOT NULL DEFAULT 0, year INTEGER DEFAULT 0, location TEXT NOT NULL DEFAULT '', file_size INTEGER NOT NULL DEFAULT 0, integrity BLOB, is_temporary_cloud_download INTEGER NOT NULL DEFAULT 0, is_streaming_quality INTEGER NOT NULL DEFAULT 0, is_compilation INTEGER NOT NULL DEFAULT 0, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_created INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0;
+- (_Bool)s_rental, has_chapter_data, season_number, episode_id, network_name, extended_content_rating, movie_info, has_alternate_audio, has_subtitles, audio_language, audio_track_index, audio_track_id, subtitle_language, subtitle_track_index, rental_duration, rental_playback_duration, rental_playback_date_started, rental_date_started, is_demo FROM item_extra;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,18 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) STBlueprint *blueprint; // @dynamic blueprint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSData *payloadPlist; // @dynamic payloadPlist;
-@property(readonly) Class superclass;
-@property(readonly) id <STSerializableManagedObject> syncableRootObject;
-@property(copy, nonatomic) NSString *type; // @dynamic type;
 
 @end
 

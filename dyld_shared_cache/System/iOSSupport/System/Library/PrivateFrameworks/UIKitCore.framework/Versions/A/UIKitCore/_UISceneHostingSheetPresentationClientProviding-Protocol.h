@@ -7,6 +7,8 @@
 @class UISheetPresentationController;
 
 @protocol _UISceneHostingSheetPresentationClientProviding
+- (void)storeEditedMessage:(UISheetPresentationController *)arg1 editedPartIndexes:editType:previousMessage:chat:updatedAssociatedMessageItems: /* Error: Ran out of types for this method. */;
+- (UISheetPresentationController *)changeRequestForAsset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setLocalSheetPresentationController:) __weak UISheetPresentationController *_localSheetPresentationController;

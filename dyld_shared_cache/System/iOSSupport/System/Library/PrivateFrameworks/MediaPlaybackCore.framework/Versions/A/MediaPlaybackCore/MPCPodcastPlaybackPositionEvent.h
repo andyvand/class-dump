@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface MPCPodcastPlaybackPositionEvent
 {
     _Bool _subscribable;
-    _Bool _completed;
-    NSString *_podcastAdamID;
-    NSString *_episodeAdamID;
-    NSString *_episodeUUID;
-    NSString *_feedURL;
-    NSNumber *_accountID;
-    double _timestamp;
-    double _duration;
-    double _position;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (_Bool)appStateForBundleID: /* Error: Ran out of types for this method. */;
+- (void)g Apple Account change:(_Bool)arg1 No new dataclasses to enable;
+- (void)al;
 - (void);
 - (id);
+- (id);
+- (id)"NSArray"24;
+- (void);
+- (void);
+- (id)�@;
 - (void);
 - (double);
 - (void);
@@ -37,23 +28,14 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (_Bool)`ð1Â0@ù
 × ;
 - (void);
 - (void)yloadForSessionStart:Invalid item start event. type=%{public}@ date=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *accountID; // @synthesize accountID=_accountID;
-@property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSString *episodeAdamID; // @synthesize episodeAdamID=_episodeAdamID;
-@property(retain, nonatomic) NSString *episodeUUID; // @synthesize episodeUUID=_episodeUUID;
-@property(retain, nonatomic) NSString *feedURL; // @synthesize feedURL=_feedURL;
 @property(retain, nonatomic) NSString *podcastAdamID; // @synthesize podcastAdamID=_podcastAdamID;
-@property(nonatomic) double position; // @synthesize position=_position;
-@property(nonatomic) _Bool subscribable; // @synthesize subscribable=_subscribable;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

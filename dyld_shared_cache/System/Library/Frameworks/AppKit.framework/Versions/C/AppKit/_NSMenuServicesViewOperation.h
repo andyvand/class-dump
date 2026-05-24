@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSMutableArray, NSString, _NSServiceEntry;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSMenuServicesViewOperation
 {
     NSString *path;
-    _NSServiceEntry *entry;
-    NSMutableArray *objectsToNotify;
-    NSMutableArray *completionBlocksToInvoke;
-    NSImage *resultImage;
-    _Bool imageIsLoaded;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void)Aï/ð!@ùqå3Ð1Â0@ù
 × ;
 - (void)mpletionBlock:(CDUnknownBlockType)arg1;
-- (id)wOrdering;
+- (id)NSCGSWindowOrdering;
 
 // Remaining properties
-@property(retain) _NSServiceEntry *entry; // @synthesize entry;
 @property(copy) NSString *path; // @synthesize path;
 
 @end

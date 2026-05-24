@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)icsEnvelopeManager _handleOutcomeOfUploadAttemptWithPayload:(id)arg1 success:error:willRetry:hitEndpoint:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

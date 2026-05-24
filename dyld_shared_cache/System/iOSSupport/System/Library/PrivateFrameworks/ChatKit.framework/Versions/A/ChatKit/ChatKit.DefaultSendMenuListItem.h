@@ -7,14 +7,6 @@
 @interface ChatKit.DefaultSendMenuListItem
 {
     id $__lazy_storage_$_title;
-    id cachedLightModeImage;
-    id cachedDarkModeImage;
-    id lightModeImageCompositingFilter;
-    id darkModeImageCompositingFilter;
-    id customIconLayer;
-    id isEnabled;
-    id extensionIdentifier;
-    id $__lazy_storage_$_plugin;
 }
 
 @end

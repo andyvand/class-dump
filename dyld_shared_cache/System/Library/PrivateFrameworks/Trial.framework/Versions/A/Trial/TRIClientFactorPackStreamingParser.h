@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, TRIClientSelectedNamespace;
+@class NSString;
 
 @interface TRIClientFactorPackStreamingParser
 {
     NSString *_factorPackId;
-    TRIClientSelectedNamespace *_selectedNamespace;
-    _Bool _emittedUnrecognizedFieldWarning;
-    NSData *_data;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -28,11 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSString *factorPackId;
 @property(readonly, nonatomic) _Bool hasFactorPackId;
-@property(readonly, nonatomic) _Bool hasSelectedNamespace;
-@property(readonly, nonatomic) TRIClientSelectedNamespace *selectedNamespace;
 
 @end
 

@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
-
 @interface RTCLLocationMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)cancelled;
++ (id)plugincontrol_request;
 
 // Remaining properties
 @property(nonatomic) double altitude; // @dynamic altitude;
-@property(nonatomic) double course; // @dynamic course;
-@property(nonatomic) double courseAccuracy; // @dynamic courseAccuracy;
-@property(nonatomic) double horizontalAccuracy; // @dynamic horizontalAccuracy;
-@property(retain, nonatomic) NSNumber *integrity; // @dynamic integrity;
-@property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(retain, nonatomic) NSNumber *signalEnvironmentType; // @dynamic signalEnvironmentType;
-@property(nonatomic) double speed; // @dynamic speed;
-@property(nonatomic) double speedAccuracy; // @dynamic speedAccuracy;
-@property(copy, nonatomic) NSDate *timestamp; // @dynamic timestamp;
-@property(copy, nonatomic) NSNumber *type; // @dynamic type;
-@property(nonatomic) double verticalAccuracy; // @dynamic verticalAccuracy;
 
 @end
 

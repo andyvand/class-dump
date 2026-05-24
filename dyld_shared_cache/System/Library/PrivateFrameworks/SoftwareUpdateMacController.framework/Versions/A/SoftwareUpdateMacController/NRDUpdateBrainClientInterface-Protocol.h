@@ -7,21 +7,10 @@
 @class NSString;
 
 @protocol NRDUpdateBrainClientInterface
+- (void);
 
 // Remaining properties
-@property(readonly) NSString *brainTimeStamp;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *brainUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
 @property(readonly) NSString *brainVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *dylibUUID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R
 

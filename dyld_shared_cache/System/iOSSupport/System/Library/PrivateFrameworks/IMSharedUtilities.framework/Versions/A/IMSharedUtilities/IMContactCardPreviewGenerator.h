@@ -13,14 +13,14 @@
 + (id);
 + (_Bool);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *);
 + (struct CGImage *);
 + (struct CGImage *);
 + (struct CGImage *);
 + (id);
 + (double);
 + (id);
-+ (id);
++ (id);
 + (id);
 
 @end

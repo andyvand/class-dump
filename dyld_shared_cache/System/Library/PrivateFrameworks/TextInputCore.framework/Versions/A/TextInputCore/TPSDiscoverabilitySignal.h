@@ -10,24 +10,20 @@ __attribute__((visibility("hidden")))
 @interface TPSDiscoverabilitySignal
 {
     NSString *_identifier;
-    NSString *_bundleIdentifier;
-    NSString *_context;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)I*	H*H*!H*AH*;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *context; // @synthesize context=_context;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

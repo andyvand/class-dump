@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath;
+
 @protocol MPCPlayerReorderItemsCommand
+- (NSIndexPath *):(NSIndexPath *)arg1 8;
+- (NSIndexPath *)0:(NSIndexPath *)arg1 8@16@24;
 @end
 

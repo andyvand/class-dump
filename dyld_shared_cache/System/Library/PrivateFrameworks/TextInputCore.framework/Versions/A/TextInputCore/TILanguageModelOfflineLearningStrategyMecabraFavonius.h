@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TILanguageModelOfflineLearningTask;
+@class TILanguageModelOfflineLearningTask;
 
 __attribute__((visibility("hidden")))
 @interface TILanguageModelOfflineLearningStrategyMecabraFavonius
@@ -12,25 +12,18 @@ __attribute__((visibility("hidden")))
     TILanguageModelOfflineLearningTask *_learningTask;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (id)ces:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)%@;
+- (_Bool)axtty_is_viewcontrollervisible_key;
+- (id)Accessibility;
+- (void)ե;
 - (id);
 - (id);
 - (void)Qið1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) TILanguageModelOfflineLearningTask *learningTask; // @synthesize learningTask=_learningTask;
-@property(readonly) Class superclass;
 
 @end
 

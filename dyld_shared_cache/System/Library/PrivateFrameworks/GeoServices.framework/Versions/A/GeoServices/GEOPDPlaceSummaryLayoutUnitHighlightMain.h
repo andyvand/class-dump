@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)setIncidentLocation:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Monitoring :(id)arg1 AudioSession notification from corespeechd;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)1b1b1}};
-- (id)FormOfWay;
+- (id)_legacyFormOfWay;
 - (id)<ÚØÚôÛÜLÝÞÈÞ	Ôæ4ç;
-- (id)cache_key;
+- (id)natural_search_supported_language_cache_key;
 
 @end
 

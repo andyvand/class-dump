@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBBillDetailsValue, _INPBDateTimeRange, _INPBFinancialAccountValue, _INPBPaymentAmountValue, _INPBString;
+@class _INPBBillDetailsValue;
 
 @protocol _INPBPayBillIntentResponse
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBBillDetailsValue *billDetails;
-@property(retain, nonatomic) _INPBFinancialAccountValue *fromAccount;
-@property(readonly, nonatomic) _Bool hasBillDetails;
-@property(readonly, nonatomic) _Bool hasFromAccount;
-@property(readonly, nonatomic) _Bool hasTransactionAmount;
-@property(readonly, nonatomic) _Bool hasTransactionNote;
-@property(readonly, nonatomic) _Bool hasTransactionScheduledDate;
-@property(retain, nonatomic) _INPBPaymentAmountValue *transactionAmount;
-@property(retain, nonatomic) _INPBString *transactionNote;
-@property(retain, nonatomic) _INPBDateTimeRange *transactionScheduledDate;
 @end
 

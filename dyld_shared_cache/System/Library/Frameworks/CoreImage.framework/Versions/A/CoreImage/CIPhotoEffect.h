@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPhotoEffect : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputExtrapolate;
 }
 
 + (id);
@@ -24,13 +23,12 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (void);
-- (int);
+- (void);
+- (int);
 - (id)\miooomoWhcm`gbkkkkkkkkkmmmmvvvv¥¥¥¥µµµµ¶¶¶¶¥¥¥¥mr|{extd~|qs|xktqucc^cPZP[eeeewwww}m|xQld|{vuov@YKm;
 - (void)png;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputExtrapolate; // @synthesize inputExtrapolate;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

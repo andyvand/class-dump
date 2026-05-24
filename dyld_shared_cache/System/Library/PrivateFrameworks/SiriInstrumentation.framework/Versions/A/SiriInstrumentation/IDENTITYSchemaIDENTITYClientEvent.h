@@ -6,34 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class IDENTITYSchemaIDENTITYAskUserForDisambiguationDecisionReported, IDENTITYSchemaIDENTITYClientEventMetadata, IDENTITYSchemaIDENTITYFirstIdentityReceived, IDENTITYSchemaIDENTITYFirstVoiceObservationSubmitted, IDENTITYSchemaIDENTITYIdentityRequestContext, IDENTITYSchemaIDENTITYResultCandidateReceived, IDENTITYSchemaIDENTITYScoreCardsGenerated, IDENTITYSchemaIDENTITYUserPresenceSourceCaptured, IDENTITYSchemaIDENTITYUsersPresencesCaptured, NSData, SISchemaInstrumentationMessage;
+@class IDENTITYSchemaIDENTITYClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface IDENTITYSchemaIDENTITYClientEvent : SISchemaTopLevelUnionType
 {
     IDENTITYSchemaIDENTITYClientEventMetadata *_eventMetadata;
-    IDENTITYSchemaIDENTITYScoreCardsGenerated *_scoreCardsGenerated;
-    IDENTITYSchemaIDENTITYIdentityRequestContext *_entityKitRequestContext;
-    IDENTITYSchemaIDENTITYFirstVoiceObservationSubmitted *_firstVoiceIdSubmitted;
-    IDENTITYSchemaIDENTITYFirstIdentityReceived *_firstIdentityReceived;
-    IDENTITYSchemaIDENTITYResultCandidateReceived *_resultCandidateReceived;
-    IDENTITYSchemaIDENTITYUserPresenceSourceCaptured *_userPresenceSourceCaptured;
-    IDENTITYSchemaIDENTITYAskUserForDisambiguationDecisionReported *_userDisambiguationDecisionReported;
-    IDENTITYSchemaIDENTITYUsersPresencesCaptured *_usersPresencesCaptured;
-    _Bool _hasEventMetadata;
-    _Bool _hasScoreCardsGenerated;
-    _Bool _hasEntityKitRequestContext;
-    _Bool _hasFirstVoiceIdSubmitted;
-    _Bool _hasFirstIdentityReceived;
-    _Bool _hasResultCandidateReceived;
-    _Bool _hasUserPresenceSourceCaptured;
-    _Bool _hasUserDisambiguationDecisionReported;
-    _Bool _hasUsersPresencesCaptured;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (id);
 - (id);
 - (id);
@@ -48,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,15 +42,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool)4;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)R;
+- (id);
+- (id)T;
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -78,7 +60,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)lback:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -86,40 +68,20 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)didUpdateFollowing: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
-- (id)oGraphNodeDataCount;
+- (id)linkedUsoGraphNodeDataCount;
 - (unsigned long long)chemaPEGASUSDeviceExpertExecutionTier1",&,N,V_deviceExpertExecutionTier1;
 - (id)stReported",&,N,V_assetAvailabilityFromBootDigestReported;
 - (id)X1;
-- (int)NOWN;
+- (int)INFERENCEPROMPTTAG_UNKNOWN;
 - (void)¿;
 
 // Remaining properties
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYIdentityRequestContext *entityKitRequestContext; // @synthesize entityKitRequestContext=_entityKitRequestContext;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYFirstIdentityReceived *firstIdentityReceived; // @synthesize firstIdentityReceived=_firstIdentityReceived;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYFirstVoiceObservationSubmitted *firstVoiceIdSubmitted; // @synthesize firstVoiceIdSubmitted=_firstVoiceIdSubmitted;
-@property(nonatomic) _Bool hasEntityKitRequestContext; // @synthesize hasEntityKitRequestContext=_hasEntityKitRequestContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasFirstIdentityReceived; // @synthesize hasFirstIdentityReceived=_hasFirstIdentityReceived;
-@property(nonatomic) _Bool hasFirstVoiceIdSubmitted; // @synthesize hasFirstVoiceIdSubmitted=_hasFirstVoiceIdSubmitted;
-@property(nonatomic) _Bool hasResultCandidateReceived; // @synthesize hasResultCandidateReceived=_hasResultCandidateReceived;
-@property(nonatomic) _Bool hasScoreCardsGenerated; // @synthesize hasScoreCardsGenerated=_hasScoreCardsGenerated;
-@property(nonatomic) _Bool hasUserDisambiguationDecisionReported; // @synthesize hasUserDisambiguationDecisionReported=_hasUserDisambiguationDecisionReported;
-@property(nonatomic) _Bool hasUserPresenceSourceCaptured; // @synthesize hasUserPresenceSourceCaptured=_hasUserPresenceSourceCaptured;
-@property(nonatomic) _Bool hasUsersPresencesCaptured; // @synthesize hasUsersPresencesCaptured=_hasUsersPresencesCaptured;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYResultCandidateReceived *resultCandidateReceived; // @synthesize resultCandidateReceived=_resultCandidateReceived;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYScoreCardsGenerated *scoreCardsGenerated; // @synthesize scoreCardsGenerated=_scoreCardsGenerated;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYAskUserForDisambiguationDecisionReported *userDisambiguationDecisionReported; // @synthesize userDisambiguationDecisionReported=_userDisambiguationDecisionReported;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYUserPresenceSourceCaptured *userPresenceSourceCaptured; // @synthesize userPresenceSourceCaptured=_userPresenceSourceCaptured;
-@property(retain, nonatomic) IDENTITYSchemaIDENTITYUsersPresencesCaptured *usersPresencesCaptured; // @synthesize usersPresencesCaptured=_usersPresencesCaptured;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

@@ -9,29 +9,21 @@
 @interface GEOLogMsgStateDetailLookAroundLogRecord
 {
     PBUnknownFields *_unknownFields;
-    double _relativeTimestamp;
-    int _action;
-    int _target;
-    struct {
-        unsigned int has_relativeTimestamp:1;
-        unsigned int has_action:1;
-        unsigned int has_target:1;
-    } _flags;
 }
 
-+ (_Bool)ar:(id)arg1;
++ (_Bool)setHasSupportAppleAccountAvatar:(id)arg1;
+- (void);
+- (_Bool);
+- (int)CNHandleStringsClassificationBuilder;
+- (id)_CNObservableSkipUntilSignalObserver;
 - (void);
 - (_Bool);
 - (int);
 - (id);
-- (void);
-- (_Bool);
-- (int);
-- (id);
 - (int);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -46,7 +38,7 @@
 - (double)a'!\Gù¸*1Â0@ù
 × ;
 - (id)startingRequestWithTask:(struct _NSZone *)arg1;
-- (id)onInfo;
+- (id)restrictionInfo;
 - (id)or destination %{private}@;
 - (id);
 - (int);
@@ -55,13 +47,7 @@
 - (void)ìê;
 
 // Remaining properties
-@property(nonatomic) int action;
 @property(nonatomic) _Bool hasAction;
-@property(nonatomic) _Bool hasRelativeTimestamp;
-@property(nonatomic) _Bool hasTarget;
-@property(nonatomic) double relativeTimestamp;
-@property(nonatomic) int target;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTMessageQueue, IDSBaseMessage, IMTimer, NSArray, NSHashTable, NSNumber, NSString;
-@protocol FTMessageDeliveryAPSConnection, _FT_IDSBAASigner;
+@protocol FTMessageDeliveryAPSConnection;
 
 @interface FTMessageDelivery
 {
     unsigned int _retries;
-    FTMessageQueue *_queue;
-    NSString *_userAgent;
-    unsigned long long _maxConcurrentMessages;
-    _Bool _retryInAirplaneMode;
-    _Bool _logToRegistration;
-    IMTimer *_timer;
-    _Bool _disallowRetry;
-    id <FTMessageDeliveryAPSConnection> _connection;
-    id <_FT_IDSBAASigner> _baaSigner;
-    NSHashTable *_observerMap;
 }
 
-+ (id);
++ (id)kIKCameraDeviceView_DeleteItemNamed;
 + (id);
 + (Class);
 + (Class);
 + (id)size of:%d  which doesn't pass our sanity size of:%ld   ignoring /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (id);
@@ -39,30 +28,30 @@
 - (void);
 - (id);
 - (void);
+- (void)g>",R,N,V_log_t;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)toCNPostalAddress;
+- (_Bool)calendar;
+- (void)archFeedbackListener:(id)arg1 reportFeedback, engagement feedback:(id)arg2 %{sensitive}@, queryId:(CDUnknownBlockType)arg3 %lld;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)[_;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (void);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -75,22 +64,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSArray *allMessages;
-@property(readonly) id <_FT_IDSBAASigner> baaSigner; // @synthesize baaSigner=_baaSigner;
-@property(readonly) _Bool busy;
 @property(readonly) id <FTMessageDeliveryAPSConnection> connection; // @synthesize connection=_connection;
-@property(readonly) IDSBaseMessage *currentMessage;
-@property(nonatomic) _Bool disallowRetry; // @synthesize disallowRetry=_disallowRetry;
-@property(readonly) _Bool hasQueuedItems;
-@property _Bool logToRegistration; // @synthesize logToRegistration=_logToRegistration;
-@property unsigned long long maxConcurrentMessages; // @synthesize maxConcurrentMessages=_maxConcurrentMessages;
-@property(readonly) long long maxLargeMessageSize;
-@property(readonly) long long maxMessageSize;
-@property(readonly) NSHashTable *observerMap; // @synthesize observerMap=_observerMap;
-@property(copy) NSNumber *protocolVersion;
-@property(readonly) NSArray *queuedMessages;
-@property _Bool retryInAirplaneMode; // @synthesize retryInAirplaneMode=_retryInAirplaneMode;
-@property(copy) NSString *userAgent; // @synthesize userAgent=_userAgent;
 
 @end
 

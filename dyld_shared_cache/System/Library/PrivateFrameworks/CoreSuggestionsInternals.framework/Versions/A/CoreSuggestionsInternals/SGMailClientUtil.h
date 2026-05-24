@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECDKIMVerifier, EMDaemonInterface;
+@class EMDaemonInterface;
 
 @interface SGMailClientUtil
 {
     EMDaemonInterface *_emailDaemon;
-    ECDKIMVerifier *_dkimVerifier;
 }
 
-+ (id);
++ (id)sharedHTTPCookieStorage;
 + (id)ä;
 - (long long);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
-- (id);
-- (id);
+- (id);
+- (id)__swift5_fieldmd__TEXT;
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Y;
+- (id)initWithContext: /* Error: Ran out of types for this method. */;
+- (id)@9]A�;
 - (void)L;
 
 // Remaining properties
-@property(readonly, nonatomic) ECDKIMVerifier *dkimVerifier; // @synthesize dkimVerifier=_dkimVerifier;
 @property(readonly, nonatomic) EMDaemonInterface *emailDaemon; // @synthesize emailDaemon=_emailDaemon;
 
 @end

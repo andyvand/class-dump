@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 @interface BMFileBackedDictionary
 {
     NSURL *_fileURL;
-    NSDictionary *_dictionary;
-    int _protectionClass;
 }
 
 + (id);
@@ -23,10 +21,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
+- (id);
+- (id)v@?B>24;
+- (_Bool);
+- (unsigned long long)]_block_invoke;
 - (void);
 
 @end

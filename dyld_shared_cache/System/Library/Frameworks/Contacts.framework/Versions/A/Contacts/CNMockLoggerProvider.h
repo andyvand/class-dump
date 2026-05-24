@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNAPITriageLogger, CNContactsLogger, CNFavoritesLogger, CNGeminiLogger, CNImageUtilitiesLogger, CNRegulatoryLogger, CNSpotlightIndexingLogger;
+@protocol CNContactsLogger;
 
 __attribute__((visibility("hidden")))
 @interface CNMockLoggerProvider
 {
     id <CNContactsLogger> _contactsLogger;
-    id <CNSpotlightIndexingLogger> _spotlightIndexingLogger;
-    id <CNRegulatoryLogger> _regulatoryLogger;
-    id <CNFavoritesLogger> _favoritesLogger;
-    id <CNAPITriageLogger> _apiTriageLogger;
-    id <CNImageUtilitiesLogger> _imageUtilitiesLogger;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -26,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)supportedFileTypes;
 - (id);
 - (id);
 - (id);
@@ -35,20 +29,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <CNAPITriageLogger> apiTriageLogger; // @synthesize apiTriageLogger=_apiTriageLogger;
 @property(retain, nonatomic) id <CNContactsLogger> contactsLogger; // @synthesize contactsLogger=_contactsLogger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <CNFavoritesLogger> favoritesLogger; // @synthesize favoritesLogger=_favoritesLogger;
-@property(readonly, nonatomic) id <CNGeminiLogger> geminiLogger;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CNImageUtilitiesLogger> imageUtilitiesLogger; // @synthesize imageUtilitiesLogger=_imageUtilitiesLogger;
-@property(retain, nonatomic) id <CNRegulatoryLogger> regulatoryLogger; // @synthesize regulatoryLogger=_regulatoryLogger;
-@property(retain, nonatomic) id <CNSpotlightIndexingLogger> spotlightIndexingLogger; // @synthesize spotlightIndexingLogger=_spotlightIndexingLogger;
-@property(readonly) Class superclass;
 
 @end
 

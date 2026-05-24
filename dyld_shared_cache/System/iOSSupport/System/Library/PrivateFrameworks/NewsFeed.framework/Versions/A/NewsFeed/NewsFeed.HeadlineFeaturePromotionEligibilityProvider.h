@@ -7,7 +7,6 @@
 @interface NewsFeed.HeadlineFeaturePromotionEligibilityProvider
 {
     id headlineEligibility;
-    id paidAccessChecker;
 }
 
 @end

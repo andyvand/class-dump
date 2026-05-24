@@ -4,61 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEODataRequestThrottlerToken, GEOMapServiceTraits, GEOPeer, NSError, NSObject, NSProgress, NSString;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface GEOXPCRequest
 {
     unsigned char _flags;
-    NSObject<OS_xpc_object> *_object;
-    NSError *_error;
-    NSString *_service;
-    NSString *_method;
-    GEOPeer *_peer;
-    GEOMapServiceTraits *_traits;
-    GEODataRequestThrottlerToken *_throttleToken;
-    NSProgress *_progressToMirrorOverXPC;
-    GEOApplicationAuditToken *_preferredAuditToken;
-    unsigned long long _signpostId;
 }
 
 + (_Bool);
-- (void);
+- (void);
+- (id);
+- (id)ions:(id)arg1 %@ %@;
+- (void)&=;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id)logMHAssistantDaemonAudioConfigureContextWithMHUUID:withConfigureStarted: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)mapStyle;
 - (id);
 - (unsigned long long);
-- (void)StationStyleAttributes;
+- (void)transitStationStyleAttributes;
 - (id);
 - (void);
 - (void)`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *method; // @synthesize method=_method;
-@property(retain, nonatomic) GEOPeer *peer; // @synthesize peer=_peer;
-@property(readonly, nonatomic) GEOApplicationAuditToken *preferredAuditToken; // @synthesize preferredAuditToken=_preferredAuditToken;
 @property(retain, nonatomic) NSString *service; // @synthesize service=_service;
-@property(nonatomic) unsigned long long signpostId; // @synthesize signpostId=_signpostId;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) GEODataRequestThrottlerToken *throttleToken; // @synthesize throttleToken=_throttleToken;
-@property(readonly, nonatomic) GEOMapServiceTraits *traits; // @synthesize traits=_traits;
 
 @end
 

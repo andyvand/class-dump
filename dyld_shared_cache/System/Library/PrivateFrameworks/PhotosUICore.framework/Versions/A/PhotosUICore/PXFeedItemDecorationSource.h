@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXFeedSectionContentLayout, PXGLayout, PXSectionedDataSource, PXSelectionSnapshot;
+@class PXFeedSectionContentLayout, PXGLayout;
 
 @interface PXFeedItemDecorationSource
 {
     PXGLayout *_decoratedLayout;
-    PXSectionedDataSource *_dataSource;
-    long long _section;
-    PXSelectionSnapshot *_selectionSnapshot;
-    PXFeedSectionContentLayout *_decoratedSectionContentLayout;
 }
 
 - (void);
@@ -20,31 +16,20 @@
 - (long long);
 - (unsigned long long);
 - (id);
-- (CDStruct_0054b44d);
+- (CDStruct_818bb265);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)brandBarConfigManager;
 - (long long)
 × ;
 - (void)©¶;
 
 // Remaining properties
-@property(readonly, nonatomic) PXSectionedDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak PXGLayout *decoratedLayout; // @synthesize decoratedLayout=_decoratedLayout;
 @property(readonly, nonatomic) PXFeedSectionContentLayout *decoratedSectionContentLayout; // @synthesize decoratedSectionContentLayout=_decoratedSectionContentLayout;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long section; // @synthesize section=_section;
-@property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
-@property(readonly) Class superclass;
 
 @end
 

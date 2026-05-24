@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBReservation, _INPBSeat, _INPBTrainTrip;
+@class _INPBReservation;
 
 @protocol _INPBTrainReservation
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly, nonatomic) _Bool hasReservedSeat;
-@property(readonly, nonatomic) _Bool hasTrainTrip;
 @property(retain, nonatomic) _INPBReservation *reservation;
-@property(retain, nonatomic) _INPBSeat *reservedSeat;
-@property(retain, nonatomic) _INPBTrainTrip *trainTrip;
 @end
 

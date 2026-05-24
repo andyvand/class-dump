@@ -6,39 +6,35 @@
 
 #import <TelephonyUtilities/TUMutableCallDisplayContext.h>
 
-@class NSObject, TUFeatureFlags;
+@class NSObject;
 @protocol OS_dispatch_queue, TUDynamicCallDisplayContextDelegate;
 
 @interface TUDynamicCallDisplayContext : TUMutableCallDisplayContext
 {
     id <TUDynamicCallDisplayContextDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    TUFeatureFlags *_featureFlags;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void)ueProxyIdentifier: /* Error: Ran out of types for this method. */;
-- (id)ueryItemName:prefix: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)setTTYType:forCallWithUniqueProxyIdentifier: /* Error: Ran out of types for this method. */;
+- (id)queryItemName:prefix: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <TUDynamicCallDisplayContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) TUFeatureFlags *featureFlags; // @synthesize featureFlags=_featureFlags;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 
 @end

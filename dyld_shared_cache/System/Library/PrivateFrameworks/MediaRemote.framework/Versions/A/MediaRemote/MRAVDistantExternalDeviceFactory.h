@@ -9,16 +9,15 @@
 @interface MRAVDistantExternalDeviceFactory
 {
     NSMutableDictionary *_distantExternalDevices;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);
-- (void);
+- (void);
+- (id)q{;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)isticState;
+- (void)MROptimisticState;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *externalDevices;

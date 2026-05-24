@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface AdMetricsEventPayload
 {
     _Bool _isTest;
-    NSString *_productId;
-    NSString *_impressionId;
-    NSString *_renderedLanguage;
-    NSString *_requestId;
-    NSNumber *_slotIndexRawValue;
-    NSArray *_priceSetters;
-    long long _placementTypeRawValue;
-    long long _templateTypeRawValue;
-    long long _duplicateOrganicPositionRawValue;
-    NSString *_anonymousSessionId;
-    long long _position;
-    NSString *_metadata;
 }
 
 + (_Bool);
@@ -54,19 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anonymousSessionId; // @synthesize anonymousSessionId=_anonymousSessionId;
-@property(nonatomic) long long duplicateOrganicPositionRawValue; // @synthesize duplicateOrganicPositionRawValue=_duplicateOrganicPositionRawValue;
-@property(retain, nonatomic) NSString *impressionId; // @synthesize impressionId=_impressionId;
-@property(nonatomic) _Bool isTest; // @synthesize isTest=_isTest;
-@property(retain, nonatomic) NSString *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) long long placementTypeRawValue; // @synthesize placementTypeRawValue=_placementTypeRawValue;
-@property(nonatomic) long long position; // @synthesize position=_position;
-@property(retain, nonatomic) NSArray *priceSetters; // @synthesize priceSetters=_priceSetters;
 @property(retain, nonatomic) NSString *productId; // @synthesize productId=_productId;
-@property(retain, nonatomic) NSString *renderedLanguage; // @synthesize renderedLanguage=_renderedLanguage;
-@property(retain, nonatomic) NSString *requestId; // @synthesize requestId=_requestId;
-@property(retain, nonatomic) NSNumber *slotIndexRawValue; // @synthesize slotIndexRawValue=_slotIndexRawValue;
-@property(nonatomic) long long templateTypeRawValue; // @synthesize templateTypeRawValue=_templateTypeRawValue;
 
 @end
 

@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)deleteTextAtTextMarkerRange:(id)arg1;
 - (void);
 - (void);
 - (void);

@@ -11,12 +11,11 @@
 @interface CKStaticPhotoStackBalloonView : CKBalloonView
 {
     NSArray *_mediaObjects;
-    CKStaticImageStackView *_stackView;
 }
 
-- (double);
-- (void);
-- (void);
+- (double)preferredLanguages;
+- (void)indexableTextRepresentation;
+- (void)o;
 - (void);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 - (void)ä;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *mediaObjects; // @synthesize mediaObjects=_mediaObjects;
 @property(retain, nonatomic) CKStaticImageStackView *stackView; // @synthesize stackView=_stackView;
 
 @end

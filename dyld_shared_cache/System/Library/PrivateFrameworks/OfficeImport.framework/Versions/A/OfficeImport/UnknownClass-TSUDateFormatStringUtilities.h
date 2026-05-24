@@ -11,13 +11,13 @@
 + (unsigned long long);
 + (unsigned long long);
 + (_Bool);
++ (id)Q=;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@y;
 + (id);
 + (id);
 + (id);
@@ -36,11 +36,11 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)#;
 + (id);
 - (unsigned int);
-- (unsigned int);
-- (id);
+- (unsigned int)(;
+- (id)<;
 - (id);
 - (id);
 - (struct _NSRange);
@@ -52,7 +52,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -101,12 +101,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)#;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -118,10 +118,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (id));
+- (_Bool);
+- (id)k@];
+- (unsigned long long)8I;
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -161,7 +161,7 @@
 - (id);
 - (id);
 - (int);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool tswp_NSDetectorMatchStringIsStrictPhoneNumber;

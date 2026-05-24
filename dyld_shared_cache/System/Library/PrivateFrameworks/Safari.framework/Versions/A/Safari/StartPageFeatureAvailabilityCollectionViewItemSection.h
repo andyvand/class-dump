@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGridCell, NSImageView, NSTextField;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface StartPageFeatureAvailabilityCollectionViewItemSection
 {
     NSImageView *_icon;
-    NSTextField *_title;
-    NSTextField *_subtitle;
-    NSGridCell *_cell;
 }
 
 - (void);
@@ -31,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSGridCell *cell; // @synthesize cell=_cell;
-@property(nonatomic) _Bool hidden;
 @property(nonatomic) __weak NSImageView *icon; // @synthesize icon=_icon;
-@property(nonatomic) __weak NSTextField *subtitle; // @synthesize subtitle=_subtitle;
-@property(nonatomic) __weak NSTextField *title; // @synthesize title=_title;
 
 @end
 

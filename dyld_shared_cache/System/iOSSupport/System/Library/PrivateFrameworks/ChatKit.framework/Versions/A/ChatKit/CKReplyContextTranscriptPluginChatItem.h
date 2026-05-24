@@ -13,17 +13,17 @@
     LPLinkMetadata *_linkMetadata;
 }
 
-- (void);
-- (Class);
-- (BOOL);
-- (id);
+- (void)n;
+- (Class)o;
+- (BOOL)nnot convert activity digest string to text {error:%s} /* Error: Ran out of types for this method. */;
+- (id)Thumbnails;
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (BOOL);
+- (BOOL)@;
 - (void)è;
 
 // Remaining properties

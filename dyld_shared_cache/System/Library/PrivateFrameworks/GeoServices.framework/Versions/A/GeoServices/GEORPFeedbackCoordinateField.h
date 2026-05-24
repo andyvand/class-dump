@@ -4,67 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEORPFeedbackTileFeatureInfo, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackCoordinateField
 {
     PBDataReader *_reader;
-    GEORPFeedbackTileFeatureInfo *_editedTile;
-    GEOLatLng *_edited;
-    GEORPFeedbackTileFeatureInfo *_originalTile;
-    GEOLatLng *_original;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_editedTile:1;
-        unsigned int read_edited:1;
-        unsigned int read_originalTile:1;
-        unsigned int read_original:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ansitPossible:(id)arg1;
++ (_Bool)setIsTransitPossible:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)_permissions;
+- (id)ner is not writable (%d/%d) (%{public}@);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void).mm;
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (void)P;
+- (id)setProcessedAudioDurMs: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)"b1"read_labelTextString"b1"wrote_anyField"b1};
 - (id)OS_dispatch_queue>"24;
-- (id)onalPlaceType;
+- (id)additionalPlaceType;
 - (id)Ô¤\DøÈ°LÔÄ;
-- (id)nt_in_updates;
+- (id)preserve_event_in_updates;
 - (void)öðe¢9M@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOLatLng *edited;
-@property(retain, nonatomic) GEORPFeedbackTileFeatureInfo *editedTile;
-@property(readonly, nonatomic) _Bool hasEdited;
-@property(readonly, nonatomic) _Bool hasEditedTile;
 @property(readonly, nonatomic) _Bool hasOriginal;
-@property(readonly, nonatomic) _Bool hasOriginalTile;
-@property(retain, nonatomic) GEOLatLng *original;
-@property(retain, nonatomic) GEORPFeedbackTileFeatureInfo *originalTile;
 
 @end
 

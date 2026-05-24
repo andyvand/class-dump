@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IDSAccount, IDSService;
+
 @protocol IDSServiceDelegate
 
 @optional
+- (void);
+- (void)set_workout_location_type;
+- (void)(1;
+- (void)d);
+- (void)Archiver) saveToURL:(IDSService *)arg1 error:(IDSAccount *)arg2 ];
 - (void)q7Ð1Â0@ù
 × ;
 @end

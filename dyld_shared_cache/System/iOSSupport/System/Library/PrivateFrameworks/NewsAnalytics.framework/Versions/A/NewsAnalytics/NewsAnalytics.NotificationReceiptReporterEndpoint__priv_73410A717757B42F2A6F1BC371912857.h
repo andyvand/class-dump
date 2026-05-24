@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface NewsAnalytics.NotificationReceiptReporterEndpoint__priv_73410A717757B42F2A6F1BC371912857
 {
     void name;
-    id defaultURL;
-    id notificationReceiptURL;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *sharedContainerIdentifier;
-@property(nonatomic, readonly) NSURL *url;
 
 @end
 

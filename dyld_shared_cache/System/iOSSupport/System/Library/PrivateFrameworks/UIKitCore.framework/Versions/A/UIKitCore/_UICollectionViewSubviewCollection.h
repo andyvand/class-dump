@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSMutableDictionary;
+@class NSArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewSubviewCollection
 {
     NSMutableDictionary *_cells;
-    NSMutableDictionary *_supplementaries;
-    NSMutableDictionary *_decorations;
-    _Bool _indexPathValidationEnabled;
 }
 
 - (_Bool);
@@ -21,15 +18,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)aderWriter failed because it is already opening;
+- (void);
+- (void);
+- (void)xPath"32@40;
+- (void)addStoreItemWithAdamID:(CDUnknownBlockType)arg1 referral:toPlaylistWithPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)MPVolumeSliderVolumeControlCapabilitiesDidChangeNotification;
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (void);
@@ -43,18 +40,18 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)Aùg°1Â0@ù
 × ;
-- (_Bool)out;
-- (void):(CDUnknownBlockType)arg1;
-- (void)geInView:(id)arg1;
+- (_Bool)shouldMergeAssistantBarWithKeyboardLayout;
+- (void)offsetsByRebasingOnOffsets:(CDUnknownBlockType)arg1;
+- (void)_externalDotImageInView:(id)arg1;
 - (void)ehaviorSettings",N,&,VcontentMorph;
-- (void)on;
-- (id)llTestTableViewDataSource;
+- (void)UIPDFMarkupAnnotation;
+- (id)UIKBAutoFillTestTableViewDataSource;
 - (id)0ÖØ;
 - (id)ä;
 - (void)ìÌ;
 - (id)tring=%@ pasteTextRange=%@;
 - (void);
-- (void)iveDetents;
+- (void)activeDetents;
 - (void)¾¢î;
 - (id)¿;
 - (id)¡yG|a;
@@ -62,13 +59,7 @@ __attribute__((visibility("hidden")))
 - (id)¹Øìb;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allViews;
-@property(readonly, nonatomic) NSHashTable *allViewsHashTable;
 @property(readonly, nonatomic) NSArray *cells;
-@property(readonly, nonatomic) NSArray *decorationViews;
-@property(nonatomic) _Bool indexPathValidationEnabled; // @synthesize indexPathValidationEnabled=_indexPathValidationEnabled;
-@property(readonly, nonatomic) NSArray *indexPathsForCells;
-@property(readonly, nonatomic) NSArray *supplementaryViews;
 
 @end
 

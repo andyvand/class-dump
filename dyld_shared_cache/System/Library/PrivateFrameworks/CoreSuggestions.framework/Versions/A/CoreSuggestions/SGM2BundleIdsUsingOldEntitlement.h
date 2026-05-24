@@ -9,31 +9,27 @@
 @interface SGM2BundleIdsUsingOldEntitlement
 {
     NSString *_bundleId;
-    NSString *_key;
 }
 
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)%s:(id)arg1 called with null colorXYZ; returning error;
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)n;
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)(1;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) _Bool hasBundleId;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

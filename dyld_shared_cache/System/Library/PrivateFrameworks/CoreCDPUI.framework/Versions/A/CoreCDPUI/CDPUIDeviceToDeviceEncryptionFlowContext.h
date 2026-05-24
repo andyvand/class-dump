@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPLocalSecret, NSImage, NSString, NSWindow;
+@class CDPContext;
 
 @interface CDPUIDeviceToDeviceEncryptionFlowContext
 {
     _Bool _forceInlinePresentation;
-    _Bool _requiresSynchronousRepair;
-    _Bool _shouldSuppressPasscodeCreationCancelPrompt;
-    _Bool _isDemoDevice;
-    NSWindow *_hostWindow;
-    NSImage *_displayImage;
-    long long _deviceToDeviceEncryptionUpgradeUIStyle;
-    long long _deviceToDeviceEncryptionUpgradeType;
-    NSString *_securityUpgradeContext;
-    NSString *_featureName;
-    CDPLocalSecret *_cachedLocalSecret;
-    CDPContext *_repairContext;
-    NSString *_telemetryFlowID;
-    CDPContext *_cdpContext;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -35,9 +22,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)^;
+- (long long)lloc:%zu/%zu (CO)/%zu (CT)/%zu (R); Frag:%zu (%.0lf%%) /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
 - (void);
 - (id);
 - (void);
@@ -47,31 +34,17 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)salWithContext:(id)arg1;
+- (void)M;
+- (void)upsellViewModelDidRequestCFUDismissalWithContext:(id)arg1;
 - (id)electedDevice;
 - (id)4;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *altDSID;
-@property(copy, nonatomic) CDPLocalSecret *cachedLocalSecret; // @synthesize cachedLocalSecret=_cachedLocalSecret;
 @property(readonly, nonatomic) CDPContext *cdpContext; // @synthesize cdpContext=_cdpContext;
-@property(nonatomic) long long deviceToDeviceEncryptionUpgradeType; // @synthesize deviceToDeviceEncryptionUpgradeType=_deviceToDeviceEncryptionUpgradeType;
-@property(nonatomic) long long deviceToDeviceEncryptionUpgradeUIStyle; // @synthesize deviceToDeviceEncryptionUpgradeUIStyle=_deviceToDeviceEncryptionUpgradeUIStyle;
-@property(retain) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(copy, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
-@property(nonatomic) _Bool forceInlinePresentation; // @synthesize forceInlinePresentation=_forceInlinePresentation;
-@property __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(nonatomic) _Bool isDemoDevice; // @synthesize isDemoDevice=_isDemoDevice;
-@property(retain, nonatomic) CDPContext *repairContext; // @synthesize repairContext=_repairContext;
-@property(nonatomic) _Bool requiresSynchronousRepair; // @synthesize requiresSynchronousRepair=_requiresSynchronousRepair;
-@property(copy, nonatomic) NSString *securityUpgradeContext; // @synthesize securityUpgradeContext=_securityUpgradeContext;
-@property(nonatomic) _Bool shouldSuppressPasscodeCreationCancelPrompt; // @synthesize shouldSuppressPasscodeCreationCancelPrompt=_shouldSuppressPasscodeCreationCancelPrompt;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

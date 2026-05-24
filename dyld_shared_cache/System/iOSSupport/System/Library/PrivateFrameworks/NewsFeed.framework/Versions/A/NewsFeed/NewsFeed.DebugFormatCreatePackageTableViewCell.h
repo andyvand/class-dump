@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatCreatePackageTableViewCell
 {
     id onChange;
-    id textField;
-    id disallowedCharacterSet;
 }
 
 - (void);

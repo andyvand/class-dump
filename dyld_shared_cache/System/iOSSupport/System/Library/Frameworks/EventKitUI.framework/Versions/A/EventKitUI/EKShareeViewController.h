@@ -5,32 +5,25 @@
 //
 
 @class EKSharee, UIAlertController;
-@protocol EKShareeViewControllerDelegate;
 
 @interface EKShareeViewController
 {
     UIAlertController *_removeAlertController;
-    _Bool _allowEditing;
-    _Bool _allowStopSharing;
-    _Bool _allowResendInvitations;
-    _Bool _allowLocalDelete;
-    EKSharee *_sharee;
-    id <EKShareeViewControllerDelegate> _delegate;
 }
 
+- (void)s;
 - (void);
+- (void)s;
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)s;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)s;
 - (int);
-- (_Bool);
+- (_Bool);
+- (void)&s;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)s;
 - (id);
 - (id);
 - (double);
@@ -39,25 +32,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)skUsage";
 - (long long);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)debugDescription;
 - (void);
 - (id);
 - (void);
-- (void)uldAllDayTextUseTwoLines;
+- (void)shouldAllDayTextUseTwoLines;
 
 // Remaining properties
-@property(nonatomic) _Bool allowEditing; // @synthesize allowEditing=_allowEditing;
-@property(nonatomic) _Bool allowLocalDelete; // @synthesize allowLocalDelete=_allowLocalDelete;
-@property(nonatomic) _Bool allowResendInvitations; // @synthesize allowResendInvitations=_allowResendInvitations;
-@property(nonatomic) _Bool allowStopSharing; // @synthesize allowStopSharing=_allowStopSharing;
-@property(nonatomic) __weak id <EKShareeViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) EKSharee *sharee; // @synthesize sharee=_sharee;
 
 @end

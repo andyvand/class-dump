@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMNicknameAvatarImage, IMNicknameAvatarRecipe, IMWallpaper, NSData, NSDate, NSDictionary, NSString, _NSAttributedStringGrammarInflection;
+@class IMNicknameAvatarImage;
 
 @interface IMNickname
 {
     IMNicknameAvatarImage *_avatar;
-    NSData *_imageHash;
-    NSData *_wallpaperImageHash;
-    NSData *_wallpaperLowResImageHash;
-    NSString *_concatenatedImageHash;
-    NSString *_nameHash;
-    NSDate *_archivedDate;
-    NSString *_firstName;
-    NSString *_lastName;
-    IMNicknameAvatarRecipe *_avatarRecipe;
-    IMWallpaper *_wallpaper;
-    _NSAttributedStringGrammarInflection *_pronouns;
-    NSString *_displayName;
-    NSString *_handle;
-    NSString *_recordID;
-    NSDictionary *_preBlastDoorPayloadData;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 
 @end

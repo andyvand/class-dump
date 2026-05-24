@@ -6,33 +6,31 @@
 
 #import <AppKit/NSPasteboard.h>
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface NSFilterServicesPasteboard : NSPasteboard
 {
     NSData *_data;
-    NSString *_type;
-    NSPasteboard *_pb;
 }
 
 + (id);
 + (_Bool);
 + (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (_Bool)C;
+- (id);
+- (unsigned long long)initWithRequest:(id)arg1 delegate:startImmediately: /* Error: Ran out of types for this method. */;
+- (long long)connection:(id)arg1 _willSendRequestForEstablishedConnection:(id)arg2 completion: /* Error: Ran out of types for this method. */;
+- (id)_taskIdentifier;
 - (long long);
-- (id);
-- (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)`L`;
 - (id);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)`B;
 - (id)E;
 - (long long)æE;
 

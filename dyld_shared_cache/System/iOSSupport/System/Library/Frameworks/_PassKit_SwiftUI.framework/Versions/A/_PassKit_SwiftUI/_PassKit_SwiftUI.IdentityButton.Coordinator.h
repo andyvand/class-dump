@@ -7,6 +7,7 @@
 @interface _PassKit_SwiftUI.IdentityButton.Coordinator
 {
     id action;
+    id;
 }
 
 - (id);

@@ -7,20 +7,19 @@
 @interface EFLinearFunction
 {
     double _slope;
-    double _intercept;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)B
+;
 - (double);
-- (double);
+- (double);
 - (double);
 - (void);
-- (double);
+- (double)meterValueConsumerTarget;
 
 // Remaining properties
-@property(nonatomic) double intercept; // @synthesize intercept=_intercept;
 @property(nonatomic) double slope; // @synthesize slope=_slope;
 
 @end

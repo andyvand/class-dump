@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUserDefaults, TUContactsDataProviderAppleCareHandles;
-@protocol TUContactsDataSource;
-
 @interface TUContactsDataProvider
 {
     _Bool _useGivenName;
-    _Bool _useFamilyNameFirst;
-    CDUnknownBlockType _localeSupportsPrefixHintForFetchRequest;
-    id <TUContactsDataSource> _contactsDataSource;
-    TUContactsDataProviderAppleCareHandles *_appleCareHandles;
-    NSDate *_deviceSetupDate;
-    NSUserDefaults *_userDefaults;
 }
 
 + (id);
@@ -41,7 +32,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -57,17 +48,11 @@
 - (id);
 - (id);
 - (void)completion: /* Error: Ran out of types for this method. */;
-- (void)tionManager:(id)arg1 conversation:didChangeSceneAssociationForActivitySession: /* Error: Ran out of types for this method. */;
-- (id)ableRoutesForTTYWithForceNewRequest:(id)arg1;
+- (void)conversationManager:(id)arg1 conversation:didChangeSceneAssociationForActivitySession: /* Error: Ran out of types for this method. */;
+- (id)_pickableRoutesForTTYWithForceNewRequest:(id)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) TUContactsDataProviderAppleCareHandles *appleCareHandles; // @synthesize appleCareHandles=_appleCareHandles;
-@property(readonly, nonatomic) id <TUContactsDataSource> contactsDataSource; // @synthesize contactsDataSource=_contactsDataSource;
-@property(copy, nonatomic) NSDate *deviceSetupDate; // @synthesize deviceSetupDate=_deviceSetupDate;
-@property(copy, nonatomic) CDUnknownBlockType localeSupportsPrefixHintForFetchRequest; // @synthesize localeSupportsPrefixHintForFetchRequest=_localeSupportsPrefixHintForFetchRequest;
 @property(nonatomic, getter=shouldUseFamilyNameFirst) _Bool useFamilyNameFirst; // @synthesize useFamilyNameFirst=_useFamilyNameFirst;
-@property(nonatomic, getter=shouldUseGivenName) _Bool useGivenName; // @synthesize useGivenName=_useGivenName;
-@property(retain, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

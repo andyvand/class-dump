@@ -9,11 +9,6 @@
 @interface NewsUI2.TodayFeedWithCarouselAdsScrollTestCase
 {
     void testName;
-    double timeoutInSeconds;
-    unsigned long long aggregate;
-    long long iterations;
-    long long offset;
-    long long numberOfScreens;
 }
 
 - (long long);
@@ -21,18 +16,13 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long));
 - (void)ý^$÷Tÿ;
 - (id)t[±	9)a ½;
-- (long long)sorType;
+- (long long)ContinueReadingEligibilityProcessorType;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;
-@property(nonatomic, readonly) long long iterations; // @synthesize iterations;
-@property(nonatomic, readonly) long long numberOfScreens; // @synthesize numberOfScreens;
-@property(nonatomic, readonly) long long offset; // @synthesize offset;
 @property(nonatomic, readonly) NSString *testName;
-@property(nonatomic, readonly) double timeoutInSeconds; // @synthesize timeoutInSeconds;
 
 @end
 

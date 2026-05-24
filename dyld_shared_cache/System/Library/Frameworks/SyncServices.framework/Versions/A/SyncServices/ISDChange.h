@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString;
-
 @interface ISDChange
 {
     int _type;
-    NSString *_recordId;
-    NSString *_entityName;
-    NSMutableArray *_propertyChanges;
-    NSString *_clientId;
-    unsigned int _fromGeneration;
-    unsigned int _toGeneration;
-    long long _changeSourceIndex;
-    NSDate *_modificationDate;
-    NSString *_identityHash;
 }
 
-+ (void)ndDeleteChange: /* Error: Ran out of types for this method. */;
++ (void)appendDeleteChange: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (void);
@@ -45,10 +34,10 @@
 - (int);
 - (long long);
 - (id);
+- (id);
+- (void)*;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)#Q;
 - (void);
 - (void);
 - (int);

@@ -7,9 +7,6 @@
 @interface MLCActivationDescriptor
 {
     int _activationType;
-    float _a;
-    float _b;
-    float _c;
 }
 
 + (id);
@@ -28,10 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) float a; // @synthesize a=_a;
 @property(readonly, nonatomic) int activationType; // @synthesize activationType=_activationType;
-@property(readonly, nonatomic) float b; // @synthesize b=_b;
-@property(readonly, nonatomic) float c; // @synthesize c=_c;
 
 @end
 

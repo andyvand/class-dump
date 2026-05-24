@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue, TRIBase64Encoding, TRITimeProviding;
-
 @interface TRIBAACertManager
 {
     unsigned long long _requestTime;
-    unsigned long long _responseTime;
-    struct __SecKey *_cachedKey;
-    NSArray *_cachedCertArray;
-    unsigned long long _cachedTime;
-    unsigned long long _cachedCertExpiryTime;
-    id <TRIBase64Encoding> _base64Encoder;
-    id <TRITimeProviding> _timeProvider;
-    NSObject<OS_dispatch_queue> *_certManagerQueue;
-    NSObject<OS_dispatch_queue> *_deviceIdentityCallbackQueue;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)ction:(struct __SecKey **)arg1 layoutVariant:hasTopEdgeContact:maxClockShift:debugLayouts: /* Error: Ran out of types for this method. */;
+- (id)inactiveBackgroundLayer;
+- (id)enumerateAssetsWithKind:(_Bool)arg1 usingBlock:(struct __SecKey **)arg2;
+- (void)complementaryColor;
+- (id)clockIntersectionFromTopRectMatteCoverage:(struct __SecKey **)arg1 bottomRectMatteCoverage: /* Error: Ran out of types for this method. */;
+- (id)bottomRight;
+- (void);
 - (id);
 - (_Bool);
 - (void)Q!°1Â0@ù

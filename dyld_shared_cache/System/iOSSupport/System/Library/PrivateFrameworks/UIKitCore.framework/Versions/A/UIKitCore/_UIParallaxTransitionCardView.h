@@ -6,23 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class _UIVisualEffectBackdropView, _UIVisualEffectViewBackdropCaptureGroup;
-
 @interface _UIParallaxTransitionCardView : UIView
 {
     UIView *contentView;
-    _UIVisualEffectBackdropView *backdropView;
-    _Bool roundsCorners;
-    _Bool hasShadow;
 }
 
-- (void);
+- (void)invoke;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id)ap;
+- (id)UITableViewUpdateGap;
 - (_Bool);
 - (id);
 - (void)'ÿ;
@@ -31,11 +26,7 @@
 - (id)Ú×\r;
 
 // Remaining properties
-@property(nonatomic, retain) _UIVisualEffectViewBackdropCaptureGroup *backdropCaptureGroup;
-@property(nonatomic, retain) _UIVisualEffectBackdropView *backdropView; // @synthesize backdropView;
 @property(nonatomic, readonly) UIView *contentView; // @synthesize contentView;
-@property(nonatomic) _Bool hasShadow; // @synthesize hasShadow;
-@property(nonatomic) _Bool roundsCorners; // @synthesize roundsCorners;
 
 @end
 

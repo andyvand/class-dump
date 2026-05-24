@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (struct CGRect);
-- (struct CGRect);
-- (void)tLevel;
+- (struct CGRect)erver:(id)arg1 withProxyServerPort:(id)arg2 withProxyUsername:(id)arg3 withProxyPassword:(struct CGRect)arg4 withProxyPACURL:(struct CGPoint)arg5 withProxyPACFallbackAllowed: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_videoArtworkIdentifier;
+- (void)_colorMatrixGrayscaleTintLevel;
 - (void);
 
 @end

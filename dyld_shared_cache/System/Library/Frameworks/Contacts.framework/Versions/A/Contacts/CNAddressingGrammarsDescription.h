@@ -20,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)?);
+- (id);
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);

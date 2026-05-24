@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSError, NSString;
+@class GEOMapRegion;
 @protocol GEOMapServiceSpatialPlaceLookupTicket;
 
 __attribute__((visibility("hidden")))
 @interface _MKSpatialPlaceLookupTicket
 {
     id <GEOMapServiceSpatialPlaceLookupTicket> _spatialPlaceLookupTicket;
-    NSError *_error;
-    GEOMapRegion *_resultBoundingRegion;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)e:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
-- (void)onDelegate: /* Error: Ran out of types for this method. */;
+- (void)setStackAnimationDelegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapRegion *boundingRegion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

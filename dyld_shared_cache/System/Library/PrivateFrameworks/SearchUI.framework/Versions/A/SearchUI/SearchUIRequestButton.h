@@ -6,19 +6,15 @@
 
 #import <SearchUI/SearchUIAccessoryViewController.h>
 
-@class SFCommand, TLKImageView, TLKStackView, TLKStoreButton;
+@class TLKStoreButton;
 
 @interface SearchUIRequestButton : SearchUIAccessoryViewController
 {
     int _lastState;
-    TLKStoreButton *_viewButton;
-    TLKImageView *_imageView;
-    TLKStackView *_stackView;
-    SFCommand *_command;
 }
 
 - (id);
-- (void);
+- (void)C;
 - (_Bool);
 - (void);
 - (void);
@@ -27,18 +23,14 @@
 - (int);
 - (id);
 - (void);
-- (id);
+- (id)#L";
 - (void);
+- (void)TRIRolloutTargeter;
+- (id)MAAutoAssetWithId;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)D;
 
 // Remaining properties
-@property(retain, nonatomic) SFCommand *command; // @synthesize command=_command;
-@property(retain, nonatomic) TLKImageView *imageView; // @synthesize imageView=_imageView;
-@property int lastState; // @synthesize lastState=_lastState;
-@property(retain, nonatomic) TLKStackView *stackView; // @synthesize stackView=_stackView;
 @property(retain, nonatomic) TLKStoreButton *viewButton; // @synthesize viewButton=_viewButton;
 
 @end

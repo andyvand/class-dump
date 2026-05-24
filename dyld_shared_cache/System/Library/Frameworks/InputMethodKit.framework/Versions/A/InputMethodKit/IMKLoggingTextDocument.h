@@ -6,13 +6,11 @@
 
 #import <InputMethodKit/IMKDecorator.h>
 
-@class IMKTextDocumentTraits, NSMutableArray, NSString;
-@protocol IMKCandidateMenu, IMKTextDocument;
+@class IMKTextDocumentTraits, NSString;
 
 @interface IMKLoggingTextDocument : IMKDecorator
 {
     NSString *_documentId;
-    NSString *_prefix;
 }
 
 - (void);
@@ -20,10 +18,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)i;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,15 +53,15 @@
 - (id);
 - (id);
 - (id);
+- (unsigned int);
+- (id);
+- (void);
 - (unsigned int);
-- (id);
-- (void);
-- (unsigned int);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)fffffffS[9f][9f][9f]f}}40^{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}48^{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}56i64;
+- (_Bool)shouldAppendEntry:appendedVideoEncoderGroups:is1080pCameraAvailable: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -73,21 +71,6 @@
 - (id)rænÂ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <IMKCandidateMenu> candidateMenu;
-@property(readonly, nonatomic) id <IMKTextDocument> composingText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) _Bool hasSelection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *selectedText;
-@property(nonatomic) _Bool showsWithMarking;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *text;
-@property(readonly, nonatomic) NSMutableArray *textSegmentationCharacterCounts;
 @property(readonly, nonatomic) IMKTextDocumentTraits *traits;
 
 @end

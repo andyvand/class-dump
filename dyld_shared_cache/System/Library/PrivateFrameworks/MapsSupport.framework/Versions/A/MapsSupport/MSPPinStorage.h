@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPDroppedPin, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPPinStorage
 {
     PBUnknownFields *_unknownFields;
-    double _position;
-    double _timestamp;
-    MSPDroppedPin *_droppedPin;
-    NSString *_identifier;
-    int _type;
-    CDStruct_dd13975a _has;
 }
 
-- (void);
+- (void)l;
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)peration.m;
 - (id);
 - (void);
 - (void);
@@ -31,15 +25,15 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (double);
+- (double);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`b;
 - (id);
 - (int);
 - (_Bool);
@@ -50,17 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MSPDroppedPin *droppedPin; // @synthesize droppedPin=_droppedPin;
-@property(readonly, nonatomic) _Bool hasDroppedPin;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasPosition;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) double position; // @synthesize position=_position;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

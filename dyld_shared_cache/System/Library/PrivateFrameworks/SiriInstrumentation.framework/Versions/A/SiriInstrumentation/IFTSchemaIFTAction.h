@@ -6,25 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSArray, NSData, NSString, SISchemaUUID;
-
 @interface IFTSchemaIFTAction : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_statementId;
-    NSString *_toolId;
-    NSString *_bundleId;
-    _Bool _isConfirmed;
-    NSArray *_actionParameterValues;
-    SISchemaUUID *_planEventId;
-    struct {
-        unsigned int exists:1;
-        unsigned int isConfirmed:1;
-    } _has;
-    _Bool _hasStatementId;
-    _Bool _hasToolId;
-    _Bool _hasBundleId;
-    _Bool _hasPlanEventId;
 }
 
 - (id);
@@ -41,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,14 +47,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)== 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.date DESC, m.ROWID DESC LIMIT ?;;
 - (_Bool);
-- (id);
+- (id)v48@0:8@16@24@32@?40 /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
-- (void)tationVoiceCommandExecuted;
+- (void)deleteUeiDictationVoiceCommandExecuted;
 - (id)SuggesterSuggestionRedundancyReported",&,N,V_plusSuggesterSuggestionRedundancyReported;
-- (_Bool)tifier;
+- (_Bool)SISchemaHardwareInterfaceIdentifier;
 - (id)äXÄYZ0[x[è\0]^X^8__¤`ì`bXb8ccef<ggôh<ikXkm\m<nnpTpxqÀqär,sPttvPv0wxwxäxzPz0{x{è|0}~X~|0À èTxt¼à(PÀ,L(pà(à¼t¼pPèxX ¼ª«À¬p®,°L±T³t´ µèµ8··¹Ð¹üºD»p¼¸¼ä½,¾X¿ ¿ÌÀÁ@Â¨ÃdÅ¬ÅÆÇüÇDÈ$ÉlÉLÊÜÊ¼ËÌÎTÎpÒ¸ÒÓàÓÀÔÕèÕ0Ö\×¤×ÈØÙ4Ú|ÚÈÛÜ<ÝÝ¨ÞðÞà\àÌáâ8ãã`ä¨äÌåæðæ8ç$êlê¼ëìîî¸ï;
 - (_Bool)Î!;
 - (void)!­#;
@@ -78,20 +62,7 @@
 - (void)e²~6*;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionParameterValues; // @synthesize actionParameterValues=_actionParameterValues;
-@property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasIsConfirmed;
-@property(nonatomic) _Bool hasPlanEventId; // @synthesize hasPlanEventId=_hasPlanEventId;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(nonatomic) _Bool isConfirmed; // @synthesize isConfirmed=_isConfirmed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *planEventId; // @synthesize planEventId=_planEventId;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
 
 @end
 

@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _NSFullScreenSpace;
+@class _NSFullScreenSpace;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenBackdropController
 {
     _NSFullScreenSpace *_space;
-    NSMutableArray *_backgroundWindows;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ateWithFormat failed;
+- (void)ENZu+wbg7PUprwNwBWg;
 - (id);
-- (id);
+- (id)connection:(id)arg1 _willSendRequestForEstablishedConnection:completion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

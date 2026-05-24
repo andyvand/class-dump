@@ -15,10 +15,10 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)ggerEvent:searchType:indexType:queryId:originatingApp:coreSpotlightIndexUsed: /* Error: Ran out of types for this method. */;
+- (id)Q16Q24;
+- (void)targetAttenuationRampOutDuration;
+- (id)t;
+- (void)initWithInput:triggerEvent:searchType:indexType:queryId:originatingApp:coreSpotlightIndexUsed: /* Error: Ran out of types for this method. */;
 - (void)&,N,V_text_8;
 
 // Remaining properties

@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol MultipleTabClosingContext
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) long long pageUnloadReason;
 @property(readonly, copy, nonatomic) NSString *undoActionName;
-@property(readonly, copy, nonatomic) NSString *unsavedEditedTextConfirmationPromptActionButtonLabel;
-@property(readonly, copy, nonatomic) NSString *unsavedEditedTextConfirmationPromptTitle;
 @end
 

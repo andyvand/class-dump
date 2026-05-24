@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)0;
 - (void);
 
 // Remaining properties

@@ -9,33 +9,11 @@
 @interface IKCameraItem
 {
     NSString *_copiedName;
-    _Bool _fetchHiResThumbnail;
-    _Bool _downloadedViaDragAndDrop;
-    _Bool _downloadedViaDoubleClick;
-    _Bool _hasLocation;
-    unsigned char _thumbnailOrientation;
-    _Bool _forceNextDownload;
-    unsigned char _thumbnailState;
-    unsigned char _metadataState;
-    ICCameraFile *_cameraFile;
-    unsigned long long _index;
-    double _aperture;
-    double _longitude;
-    double _latitude;
-    NSString *_colorSpace;
-    NSString *_locationString;
-    NSString *_maker;
-    NSString *_model;
-    NSString *_shutterSpeed;
-    NSString *_locationPriv;
-    NSString *_downloadedToPath;
-    long long _imageVersion;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (_Bool);
 - (unsigned char);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (void);
 - (void);
@@ -44,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,58 +53,34 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)faceprintVersion;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)7j;
 - (void);
 - (double);
-- (void);
+- (void){;
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (double);
 - (_Bool);
 - (void);
 - (void)jÐ!¨@ùñîÐ1Â0@ù
 × ;
-- (_Bool)ent:childIndex:cellIndex: /* Error: Ran out of types for this method. */;
-- (void)KGetComponentsRed:(double)arg1 green:blue:alpha: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool)currentDropOperationParent:childIndex:cellIndex: /* Error: Ran out of types for this method. */;
+- (void)IKGetComponentsRed:(double)arg1 green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (void)kIKScannerDeviceView_Advanced_FormatJPEG2000;
 - (double)ScansToURLs:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alreadyDownloaded;
-@property(nonatomic) double aperture; // @synthesize aperture=_aperture;
 @property(nonatomic) ICCameraFile *cameraFile; // @synthesize cameraFile=_cameraFile;
-@property(copy, nonatomic) NSString *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) NSString *downloadedToPath; // @synthesize downloadedToPath=_downloadedToPath;
-@property _Bool downloadedViaDoubleClick; // @synthesize downloadedViaDoubleClick=_downloadedViaDoubleClick;
-@property _Bool downloadedViaDragAndDrop; // @synthesize downloadedViaDragAndDrop=_downloadedViaDragAndDrop;
-@property(nonatomic) _Bool fetchHiResThumbnail; // @synthesize fetchHiResThumbnail=_fetchHiResThumbnail;
-@property _Bool forceNextDownload; // @synthesize forceNextDownload=_forceNextDownload;
-@property(readonly, nonatomic) _Bool hasAperture;
-@property _Bool hasLocation; // @synthesize hasLocation=_hasLocation;
-@property long long imageVersion; // @synthesize imageVersion=_imageVersion;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) _Bool isRaw;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(copy) NSString *locationPriv; // @synthesize locationPriv=_locationPriv;
-@property(copy, nonatomic) NSString *locationString; // @synthesize locationString=_locationString;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(copy, nonatomic) NSString *maker; // @synthesize maker=_maker;
-@property unsigned char metadataState; // @synthesize metadataState=_metadataState;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *shutterSpeed; // @synthesize shutterSpeed=_shutterSpeed;
-@property(nonatomic) unsigned char thumbnailOrientation; // @synthesize thumbnailOrientation=_thumbnailOrientation;
-@property unsigned char thumbnailState; // @synthesize thumbnailState=_thumbnailState;
 
 @end
 

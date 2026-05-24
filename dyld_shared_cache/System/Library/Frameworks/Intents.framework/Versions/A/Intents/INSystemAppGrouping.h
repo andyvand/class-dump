@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INSystemAppGrouping
 {
     NSString *_key;
-    NSArray *_iOS;
-    NSArray *_macOS;
-    NSArray *_watchOS;
-    NSArray *_tvOS;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
+- (id)1;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id)6;
-- (void)tTriggerUnsupportedReasonAsString:(id)arg1;
-- (void)UserCurrentRestaurantReservationBookingsIntent;
-- (void)rdDateOptionsForSaveHealthSample:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)setTaskAttributeIntentContactEventTriggerUnsupportedReasonAsString:(id)arg1;
+- (void)INGetUserCurrentRestaurantReservationBookingsIntent;
+- (void)provideRecordDateOptionsForSaveHealthSample:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *iOS; // @synthesize iOS=_iOS;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSArray *macOS; // @synthesize macOS=_macOS;
-@property(retain, nonatomic) NSArray *tvOS; // @synthesize tvOS=_tvOS;
-@property(retain, nonatomic) NSArray *watchOS; // @synthesize watchOS=_watchOS;
 
 @end
 

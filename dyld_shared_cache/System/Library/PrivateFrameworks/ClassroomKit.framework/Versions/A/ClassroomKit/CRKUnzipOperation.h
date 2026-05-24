@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSURL;
+@class NSURL;
 
 @interface CRKUnzipOperation
 {
     NSURL *_zipFileURL;
-    NSURL *_destinationDirectoryURL;
-    struct _BOMCopier *_copier;
-    NSError *_stashedError;
 }
 
 + (id);
@@ -22,16 +19,25 @@
 - (id);
 - (void);
 - (struct _BOMCopier *);
-- (id);
+- (id)ue (2.google.protobuf.EnumValue(
+options (2.google.protobuf.Option6
+source_context (2.google.protobuf.SourceContext'
+syntax (2.google.protobuf.Syntax"S
+	EnumValue
+name (	
+number ((
+options (2.google.protobuf.Option";
+Option
+name (	#
+value (2.google.protobuf.Any*.
+Syntax
+SYNTAX_PROTO2;
+- (void)A;
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 
 // Remaining properties
-@property struct _BOMCopier *copier; // @synthesize copier=_copier;
-@property(readonly, nonatomic) NSURL *destinationDirectoryURL; // @synthesize destinationDirectoryURL=_destinationDirectoryURL;
-@property(retain, nonatomic) NSError *stashedError; // @synthesize stashedError=_stashedError;
 @property(readonly, nonatomic) NSURL *zipFileURL; // @synthesize zipFileURL=_zipFileURL;
 
 @end

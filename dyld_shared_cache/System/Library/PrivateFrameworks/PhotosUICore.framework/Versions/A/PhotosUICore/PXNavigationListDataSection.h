@@ -6,26 +6,17 @@
 
 #import <PhotosUICore/PXDataSection.h>
 
-@class NSArray, NSDictionary, NSIndexSet, NSNumber, NSString, PXCollectionsDataSection;
+@class NSIndexSet, PXCollectionsDataSection;
 
 @interface PXNavigationListDataSection : PXDataSection
 {
     NSIndexSet *_dataSubsectionIndexes;
-    NSArray *_dataSubsections;
-    NSNumber *_countNumber;
-    _Bool _skipAssetCountFetches;
-    long long _indentationLevel;
-    NSString *_topLevelIdentifier;
-    NSDictionary *_childDataSections;
-    NSDictionary *_childIndexHints;
-    PXCollectionsDataSection *_collectionsDataSection;
-    NSArray *_sectionRangeMap;
 }
 
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (long long);
@@ -37,21 +28,16 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)setTranslatesAutoresizingMaskIntoConstraints: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ed:%@ /* Error: Ran out of types for this method. */;
 - (long long)LayoutItemController init];
-- (id)CollectionCustomizationCreate;
+- (id)LemonadeCollectionCustomizationCreate;
 - (void)erMaterialTitleCell;
 - (unsigned long long)US¼â<;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *childDataSections; // @synthesize childDataSections=_childDataSections;
-@property(readonly, copy, nonatomic) NSDictionary *childIndexHints; // @synthesize childIndexHints=_childIndexHints;
 @property(readonly, nonatomic) PXCollectionsDataSection *collectionsDataSection; // @synthesize collectionsDataSection=_collectionsDataSection;
-@property(readonly, nonatomic) long long indentationLevel; // @synthesize indentationLevel=_indentationLevel;
-@property(readonly, nonatomic) NSArray *sectionRangeMap; // @synthesize sectionRangeMap=_sectionRangeMap;
-@property(readonly, copy, nonatomic) NSString *topLevelIdentifier; // @synthesize topLevelIdentifier=_topLevelIdentifier;
 
 @end
 

@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PKPaymentOfferDynamicContent;
+@class NSString, NSURL;
 
 @interface PKPaymentOfferAction
 {
     NSURL *_actionURL;
-    _Bool _useAuthenticationSession;
-    NSString *_identifier;
-    PKPaymentOfferDynamicContent *_dynamicContent;
-    NSString *_challenge;
-    NSString *_verifier;
 }
 
 + (_Bool)0@ù
 × ;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setIsInterestingRegion:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)meIntervalSinceReferenceDate:(id)arg1;
+- (id)dateWithTimeIntervalSinceReferenceDate:(id)arg1;
 - (id)t:%li. Setting back to 0 /* Error: Ran out of types for this method. */;
 - (void)document;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *actionURL;
-@property(readonly, copy, nonatomic) NSString *challenge; // @synthesize challenge=_challenge;
-@property(readonly, nonatomic) PKPaymentOfferDynamicContent *dynamicContent; // @synthesize dynamicContent=_dynamicContent;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool useAuthenticationSession; // @synthesize useAuthenticationSession=_useAuthenticationSession;
-@property(readonly, copy, nonatomic) NSString *verifier; // @synthesize verifier=_verifier;
 
 @end
 

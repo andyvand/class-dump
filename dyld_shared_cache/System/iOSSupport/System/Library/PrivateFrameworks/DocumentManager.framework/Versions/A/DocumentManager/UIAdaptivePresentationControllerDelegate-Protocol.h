@@ -7,6 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (void);
+- (long long)_;
 - (long long)
 × ;
 - (void)uct;

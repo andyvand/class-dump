@@ -5,5 +5,7 @@
 //
 
 @protocol OspreyDeviceAuthenticating
+- (void);
+- (unsigned long long));
 @end
 

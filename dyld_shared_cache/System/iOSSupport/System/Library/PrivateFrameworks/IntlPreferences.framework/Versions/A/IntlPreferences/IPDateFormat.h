@@ -11,25 +11,23 @@
 @interface IPDateFormat : IPFormat
 {
     NSString *_option;
-    NSString *_title;
 }
 
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);
-+ (double);
-- (id);
++ (double)copyItemAtURL:toURL:error: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *option; // @synthesize option=_option;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

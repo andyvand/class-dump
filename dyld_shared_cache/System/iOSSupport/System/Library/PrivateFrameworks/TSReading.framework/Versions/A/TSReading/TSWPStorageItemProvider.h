@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TSWPStorageItemProvider
 {
@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void)x';
 - (id);
 - (void);
 - (id);
@@ -21,18 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 
 @end
 

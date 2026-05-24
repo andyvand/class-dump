@@ -10,20 +10,10 @@ __attribute__((visibility("hidden")))
 @interface VCAudioInjectorConfig
 {
     NSString *_path;
-    NSString *_fileName;
-    _Bool _fromBeginning;
-    double _startHostTime;
-    double _loopLength;
-    struct AudioStreamBasicDescription _audioFormat;
-    unsigned int _loopCount;
-    unsigned int _sineWaveFrequencyHz;
-    double _sineWaveAmplitude;
-    _Bool _forceVoiceActive;
-    id _reportingAgent;
 }
 
 - (double);
-- (unsigned int);
+- (unsigned int)!;
 - (double);
 - (void);
 - (void);
@@ -38,11 +28,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (id)@32;
@@ -50,17 +40,7 @@ __attribute__((visibility("hidden")))
 - (struct AudioStreamBasicDescription)ified;
 
 // Remaining properties
-@property(nonatomic) struct AudioStreamBasicDescription audioFormat; // @synthesize audioFormat=_audioFormat;
-@property(retain, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(nonatomic) _Bool forceVoiceActive; // @synthesize forceVoiceActive=_forceVoiceActive;
-@property(nonatomic) _Bool fromBeginning; // @synthesize fromBeginning=_fromBeginning;
-@property(nonatomic) unsigned int loopCount; // @synthesize loopCount=_loopCount;
-@property(nonatomic) double loopLength; // @synthesize loopLength=_loopLength;
 @property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) id reportingAgent; // @synthesize reportingAgent=_reportingAgent;
-@property(nonatomic) double sineWaveAmplitude; // @synthesize sineWaveAmplitude=_sineWaveAmplitude;
-@property(nonatomic) unsigned int sineWaveFrequencyHz; // @synthesize sineWaveFrequencyHz=_sineWaveFrequencyHz;
-@property(nonatomic) double startHostTime; // @synthesize startHostTime=_startHostTime;
 
 @end
 

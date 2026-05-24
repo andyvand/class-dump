@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface CXDatabase
 {
     NSURL *_url;
-    struct sqlite3 *_database;
-    NSMutableDictionary *_sqlQueryToStatements;
 }
 
 - (void);
@@ -24,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)works/SidecarCore.framework/Versions/A/SidecarCore;
 - (_Bool);
 - (id);
 - (void);
@@ -40,16 +38,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct sqlite3 *);
 - (id);
-- (void);
+- (void)setShouldRefreshRefetchedObjects:(struct sqlite3 *)arg1;
 - (_Bool);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int countOfRecordsModifiedByLastQuery;
-@property(nonatomic) struct sqlite3 *database; // @synthesize database=_database;
-@property(readonly, nonatomic) long long lastInsertedRowID;
-@property(retain, nonatomic) NSMutableDictionary *sqlQueryToStatements; // @synthesize sqlQueryToStatements=_sqlQueryToStatements;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

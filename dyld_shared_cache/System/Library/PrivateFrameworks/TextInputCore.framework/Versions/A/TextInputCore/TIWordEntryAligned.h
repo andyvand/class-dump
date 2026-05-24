@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TIWordEntry;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface TIWordEntryAligned
 {
     _Bool _isContinuousPathConversion;
-    int _inSessionAlignmentConfidence;
-    NSArray *_alignedTouches;
-    NSArray *_alignedKeyboardInputs;
-    NSString *_expectedString;
-    TIWordEntry *_originalWord;
-    NSString *_completeString;
 }
 
 + (_Bool);
@@ -26,27 +20,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)stopTranscribingForCallUUID: /* Error: Ran out of types for this method. */;
+- (int)activateTTYDictionary;
+- (id)cancelDownload: /* Error: Ran out of types for this method. */;
 - (id);
-- (int);
+- (id)r Emergency RTT;
 - (id);
+- (_Bool)ageModel=%@ dynamicVocabulary=%@ detectMultipleUtterances=%d onDeviceOnly=%d enableAutoPunctuation=%d;
+- (id)leafy truncated frame %s not leaf:(id)arg1 %lu more to go (%s is next);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)`;
+- (void)appResultBuilderSupportsResult:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alignedKeyboardInputs; // @synthesize alignedKeyboardInputs=_alignedKeyboardInputs;
 @property(retain, nonatomic) NSArray *alignedTouches; // @synthesize alignedTouches=_alignedTouches;
-@property(copy, nonatomic) NSString *completeString; // @synthesize completeString=_completeString;
-@property(copy, nonatomic) NSString *expectedString; // @synthesize expectedString=_expectedString;
-@property(nonatomic) int inSessionAlignmentConfidence; // @synthesize inSessionAlignmentConfidence=_inSessionAlignmentConfidence;
-@property(nonatomic) _Bool isContinuousPathConversion; // @synthesize isContinuousPathConversion=_isContinuousPathConversion;
-@property(retain, nonatomic) TIWordEntry *originalWord; // @synthesize originalWord=_originalWord;
 
 @end
 

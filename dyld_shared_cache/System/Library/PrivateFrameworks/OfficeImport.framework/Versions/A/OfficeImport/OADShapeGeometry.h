@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface OADShapeGeometry
 {
     _Bool mIsEscher;
-    NSMutableDictionary *mAdjustValues;
 }
 
 - (void);
@@ -20,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (int);
+- (int);
 - (id);
-- (id);
+- (id)ppKit;
 - (int);
 - (void);
 

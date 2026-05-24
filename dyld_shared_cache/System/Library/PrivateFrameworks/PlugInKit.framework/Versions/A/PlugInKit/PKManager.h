@@ -5,30 +5,18 @@
 //
 
 @class PKDaemonClient;
-@protocol PKExternalProviders;
 
 @interface PKManager
 {
     PKDaemonClient *_client;
-    id <PKExternalProviders> _external;
 }
 
 + (id);
-+ (id);
++ (id):(unsigned int)arg1:__value_type<UDefaults::RegistryID, TNotificationCenterObserver>, std::__map_value_compare<UDefaults::RegistryID, std::pair<const UDefaults::RegistryID, TNotificationCenterObserver>, std::less<UDefaults::RegistryID>>, std::allocator<std::pair<const UDefaults::RegistryID, TNotificationCenterObserver>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)AutoExposureControlStream;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -36,24 +24,33 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id)nts;
+- (void);
+- (id);
+- (id)motePool- %s:(id)arg1 mxSystemRemotePool:(long long)arg2 endpointName = %{public}@, inActivationSeed=%llu, err = %d, inFeatures=%d, correlationID=%{public}@. Time taken to activateEndpoint:(id *)arg3 %f ms. Time taken to run callback %f ms. Total round trip time:%f ms. /* Error: Ran out of types for this method. */;
+- (void)masterVolumeKey_CanSetMasterVolume;
+- (id);
+- (id);
+- (id);
+- (void)XXXXXXXXXXXXXX;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) PKDaemonClient *client; // @synthesize client=_client;
-@property(readonly) id <PKExternalProviders> external; // @synthesize external=_external;
 
 @end
 

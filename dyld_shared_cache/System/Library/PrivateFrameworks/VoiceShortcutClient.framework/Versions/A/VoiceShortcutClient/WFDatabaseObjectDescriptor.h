@@ -9,7 +9,6 @@
 @interface WFDatabaseObjectDescriptor
 {
     NSString *_identifier;
-    unsigned long long _objectType;
 }
 
 + (id);

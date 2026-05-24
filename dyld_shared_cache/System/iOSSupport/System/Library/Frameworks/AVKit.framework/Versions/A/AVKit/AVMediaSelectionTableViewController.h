@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVMediaSelectionTableViewController
 {
     AVMediaSelectionOption *_selectedAudioMediaSelectionOption;
-    AVMediaSelectionOption *_selectedLegibleMediaSelectionOption;
-    AVPlayerController *_playerController;
 }
 
 - (void);

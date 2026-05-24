@@ -8,31 +8,19 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraAccessorySettingsConfiguration
 {
     _Bool _isRecordingCapable;
-    _Bool _isRecordingEnabled;
-    _Bool _inclusionZone;
-    _Bool _smartBulletinBoardNotificationEnabled;
-    _Bool _reachabilityNotificationEnabled;
-    unsigned long long _recordingEventTriggers;
-    unsigned long long _numActivityZones;
 }
 
-- (_Bool);
+- (_Bool)a;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (_Bool)q@;
+- (unsigned long long)izedString"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool inclusionZone; // @synthesize inclusionZone=_inclusionZone;
 @property(readonly) _Bool isRecordingCapable; // @synthesize isRecordingCapable=_isRecordingCapable;
-@property(readonly) _Bool isRecordingEnabled; // @synthesize isRecordingEnabled=_isRecordingEnabled;
-@property(readonly) unsigned long long numActivityZones; // @synthesize numActivityZones=_numActivityZones;
-@property(readonly) _Bool reachabilityNotificationEnabled; // @synthesize reachabilityNotificationEnabled=_reachabilityNotificationEnabled;
-@property(readonly) unsigned long long recordingEventTriggers; // @synthesize recordingEventTriggers=_recordingEventTriggers;
-@property(readonly) _Bool smartBulletinBoardNotificationEnabled; // @synthesize smartBulletinBoardNotificationEnabled=_smartBulletinBoardNotificationEnabled;
 
 @end
 

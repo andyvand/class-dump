@@ -9,22 +9,18 @@
 @interface HMWeekdayScheduleEntry
 {
     NSDateComponents *_startTime;
-    NSDateComponents *_endTime;
-    unsigned long long _weekdays;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)lletKeySupressionAssertion;
+- (void)HMAutoAddWalletKeySupressionAssertion;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDateComponents *endTime; // @synthesize endTime=_endTime;
-@property(readonly, nonatomic) NSDateComponents *startTime; // @synthesize startTime=_startTime;
 @property(readonly) unsigned long long weekdays; // @synthesize weekdays=_weekdays;
 
 @end

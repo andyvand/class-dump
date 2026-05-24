@@ -6,22 +6,13 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class NSButton, NSImage, NSLayoutConstraint, NSObject, NSTextField, TextFieldWithEnforcedPrefixFormatter;
+@class NSObject, NSTextField;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface WebAppGeneralPreferences : PreferencesModule
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSImage *_updatedImage;
-    TextFieldWithEnforcedPrefixFormatter *_prefixFormatter;
-    NSTextField *_appNameTextField;
-    NSTextField *_appURLTextField;
-    NSButton *_setToCurrentPageButton;
-    NSButton *_appIconButton;
-    NSButton *_showNavigationControlsCheckbox;
-    NSButton *_showColorInTitleBarCheckbox;
-    NSLayoutConstraint *_gridViewHeightConstraint;
 }
 
 - (void);
@@ -41,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -59,13 +50,7 @@ __attribute__((visibility("hidden")))
 - (void)h;
 
 // Remaining properties
-@property __weak NSButton *appIconButton; // @synthesize appIconButton=_appIconButton;
 @property __weak NSTextField *appNameTextField; // @synthesize appNameTextField=_appNameTextField;
-@property __weak NSTextField *appURLTextField; // @synthesize appURLTextField=_appURLTextField;
-@property __weak NSLayoutConstraint *gridViewHeightConstraint; // @synthesize gridViewHeightConstraint=_gridViewHeightConstraint;
-@property __weak NSButton *setToCurrentPageButton; // @synthesize setToCurrentPageButton=_setToCurrentPageButton;
-@property __weak NSButton *showColorInTitleBarCheckbox; // @synthesize showColorInTitleBarCheckbox=_showColorInTitleBarCheckbox;
-@property __weak NSButton *showNavigationControlsCheckbox; // @synthesize showNavigationControlsCheckbox=_showNavigationControlsCheckbox;
 
 @end
 

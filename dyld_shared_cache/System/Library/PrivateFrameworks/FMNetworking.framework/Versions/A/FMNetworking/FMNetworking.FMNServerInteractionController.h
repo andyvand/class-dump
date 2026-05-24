@@ -7,11 +7,6 @@
 @interface FMNetworking.FMNServerInteractionController
 {
     id authenticationProvider;
-    id httpClient;
-    id httpClientQueue;
-    id redirectHostStore;
-    id mockingPreferences;
-    id urlSessionFactory;
 }
 
 @end

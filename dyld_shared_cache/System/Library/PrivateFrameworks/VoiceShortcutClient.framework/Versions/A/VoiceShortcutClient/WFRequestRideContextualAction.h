@@ -6,13 +6,11 @@
 
 #import <VoiceShortcutClient/WFContextualAction.h>
 
-@class CLLocation, NSString;
+@class NSString;
 
 @interface WFRequestRideContextualAction : WFContextualAction
 {
     NSString *_applicationBundleIdentifier;
-    CLLocation *_destination;
-    NSString *_destinationName;
 }
 
 + (_Bool);

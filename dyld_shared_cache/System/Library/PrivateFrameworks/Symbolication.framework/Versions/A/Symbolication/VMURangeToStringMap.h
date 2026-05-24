@@ -9,29 +9,26 @@
 @interface VMURangeToStringMap
 {
     NSMutableArray *_strings;
-    struct unordered_map<NSString *, unsigned int, NSStringHashFunctor, NSStringEqualsFunctor, std::allocator<std::pair<NSString *const, unsigned int>>> _stringToIndexMap;
-    struct vector<RangeAndString, std::allocator<RangeAndString>> _rangeAndStringVector;
-    _Bool _sorted;
 }
 
 + (_Bool);
 - (id);
+- (id)»;
+- (id)t2;
+- (void);
+- (void)u got it from this session or from the session's snapshot?  If so, perhaps it has been deleted?;
+- (struct _VMURange);
 - (id);
-- (id);
+- (unsigned int)berArtworkTextTertiaryColor;
 - (void);
 - (void);
 - (struct _VMURange);
-- (id);
-- (unsigned int);
-- (void);
-- (void);
-- (struct _VMURange);
 - (unsigned int);
 - (id);
 - (void);
 - (id);
 - (unsigned int);
-- (void);
+- (void)_actionRemindMeInOneHourWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)M:Symbolication  PROJECT:Symbolication-64575.70.1
  /* Error: Ran out of types for this method. */;
 

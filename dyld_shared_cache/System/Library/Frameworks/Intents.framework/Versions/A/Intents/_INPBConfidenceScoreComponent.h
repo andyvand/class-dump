@@ -4,45 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBConfidenceScoreComponent
 {
     CDStruct_4b1634df _has;
-    float _score;
-    NSString *_source;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)nterface>"16@?<v@?@"<GCAdaptiveTriggersXPCProxyServiceRemoteServerInterface>"@"NSError">24;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)<v@?@"NSError"q>40;
+- (void)lete/unused known networks eligible for removal;
 - (void);
 - (id);
 - (id);
 - (id);
 - (float);
 - (void)initWithDelegate:(float)arg1;
-- (_Bool)lue;
-- (void)ponseCodeReady;
+- (_Bool)INIntentParameterMetadataDefaultValue;
+- (void)INRequestRideIntentResponseCodeReady;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasScore;
-@property(readonly, nonatomic) _Bool hasSource;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) float score; // @synthesize score=_score;
-@property(copy, nonatomic) NSString *source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 
 @end
 

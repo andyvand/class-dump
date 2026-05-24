@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TRIServerContext, _PASLock;
-@protocol OS_dispatch_queue;
+@class _PASLock;
 
 @interface TRIBGSTManager
 {
     _PASLock *_lock;
-    TRIServerContext *_serverContext;
-    NSObject<OS_dispatch_queue> *_expirationQueue;
 }
 
-+ (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
++ (void)dictedSize:(long long)arg1;
+- (void)initWithVisibleRect:(id)arg1 inactiveRect:(long long)arg2 zoomStrategy:overlapStrategy:parallaxStrategy:inactiveStrategy:headroomStrategy:cropScore:layoutScore:timeBottomOverlap:timeTopOverlap:unsafeAreaOverlap:uninflatedUnsafeAreaOverlap:hasTopEdgeContact: /* Error: Ran out of types for this method. */;
+- (void)initWithImageURL:(id)arg1 adjustmentData: /* Error: Ran out of types for this method. */;
+- (void)initWithImageSourceProxyOrEncodedImagePropertyData:contentType:timeZoneLookup: /* Error: Ran out of types for this method. */;
+- (id)initWithEncodedImagePropertyData:(id)arg1 contentType:timeZoneLookup: /* Error: Ran out of types for this method. */;
+- (void)getHOAChannelCount:(id)arg1 BEDChannelCount: /* Error: Ran out of types for this method. */;
 - (void)×ð!h@ùQ!°1Â0@ù
 × ;
 

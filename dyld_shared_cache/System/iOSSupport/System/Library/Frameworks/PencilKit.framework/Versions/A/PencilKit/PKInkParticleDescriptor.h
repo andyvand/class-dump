@@ -9,23 +9,6 @@
 @interface PKInkParticleDescriptor
 {
     double _dynamicStep;
-    unique_ptr_51dafc34 _particleSpacingFunction;
-    _Bool _initialRandomRotation;
-    _Bool _maskInitialRandomOffset;
-    _Bool _adjustEndCapParticleAlpha;
-    NSString *_textureName;
-    struct CGImage *_textureImage;
-    NSString *_maskTextureName;
-    struct CGImage *_maskTextureImage;
-    double _particleSpacing;
-    long long _particleCount;
-    unsigned long long _particleRotation;
-    double _maskScale;
-    double _maskScaleConstant;
-    double _maskMovement;
-    double _maskDepth;
-    unsigned long long _particleBlendMode;
-    struct CGSize _particleSize;
 }
 
 + (id);
@@ -49,7 +32,7 @@
 - (void);
 - (void *);
 - (double);
-- (struct CGSize);
+- (struct CGSize);
 - (unsigned long long);
 - (long long);
 - (unsigned long long);
@@ -57,7 +40,7 @@
 - (double);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)#;
 - (double);
 - (_Bool);
 - (id);
@@ -74,21 +57,6 @@
 - (void)´Ö;
 
 // Remaining properties
-@property(nonatomic, getter=adjustEndCapParticleAlpha, setter=setAdjustEndCapParticleAlpha:) _Bool adjustEndCapParticleAlpha; // @synthesize adjustEndCapParticleAlpha=_adjustEndCapParticleAlpha;
-@property(nonatomic) _Bool initialRandomRotation; // @synthesize initialRandomRotation=_initialRandomRotation;
-@property(nonatomic) double maskDepth; // @synthesize maskDepth=_maskDepth;
-@property(nonatomic) _Bool maskInitialRandomOffset; // @synthesize maskInitialRandomOffset=_maskInitialRandomOffset;
-@property(nonatomic) double maskMovement; // @synthesize maskMovement=_maskMovement;
-@property(nonatomic) double maskScale; // @synthesize maskScale=_maskScale;
-@property(nonatomic) double maskScaleConstant; // @synthesize maskScaleConstant=_maskScaleConstant;
-@property(retain, nonatomic) struct CGImage *maskTextureImage; // @synthesize maskTextureImage=_maskTextureImage;
-@property(copy, nonatomic) NSString *maskTextureName; // @synthesize maskTextureName=_maskTextureName;
-@property(nonatomic) unsigned long long particleBlendMode; // @synthesize particleBlendMode=_particleBlendMode;
-@property(nonatomic) long long particleCount; // @synthesize particleCount=_particleCount;
-@property(nonatomic) unsigned long long particleRotation; // @synthesize particleRotation=_particleRotation;
-@property(nonatomic) struct CGSize particleSize; // @synthesize particleSize=_particleSize;
-@property(nonatomic) double particleSpacing; // @synthesize particleSpacing=_particleSpacing;
-@property(retain, nonatomic) struct CGImage *textureImage; // @synthesize textureImage=_textureImage;
 @property(copy, nonatomic) NSString *textureName; // @synthesize textureName=_textureName;
 
 @end

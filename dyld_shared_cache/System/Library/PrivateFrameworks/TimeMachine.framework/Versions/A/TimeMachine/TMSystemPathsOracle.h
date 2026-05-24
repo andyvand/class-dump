@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSURL, TMPathTreeNode;
+@class NSURL;
 @protocol TMSystemPathsProvider;
 
 @interface TMSystemPathsOracle
 {
     NSURL *_mountPointURL;
-    NSLock *_discoveryLock;
-    TMPathTreeNode *_systemPathsTreeRoot;
-    id <TMSystemPathsProvider> _pathsProvider;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (void);
 

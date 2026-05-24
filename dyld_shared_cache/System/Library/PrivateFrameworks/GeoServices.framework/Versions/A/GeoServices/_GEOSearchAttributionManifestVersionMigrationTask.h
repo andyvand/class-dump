@@ -4,57 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOActiveTileGroup, GEOActiveTileGroupMigrationTaskOptions, GEOReportedProgress, GEOSearchAttributionManifest, GEOSearchAttributionManifestVersionMigrator, NSObject, NSProgress, NSString, NSURL, NSURLSession, NSURLSessionDataTask;
-@protocol GEORequestCounterTicket, NSObject, OS_dispatch_queue;
+@class GEOSearchAttributionManifestVersionMigrator;
 
 __attribute__((visibility("hidden")))
 @interface _GEOSearchAttributionManifestVersionMigrationTask
 {
     GEOSearchAttributionManifestVersionMigrator *_migrator;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    _Bool _running;
-    NSURL *_newSearchAttributionManifestURL;
-    GEOActiveTileGroup *_oldTileGroup;
-    CDUnknownBlockType _completionHandler;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    GEOReportedProgress *_progress;
-    NSURLSession *_urlSession;
-    NSURLSessionDataTask *_downloadTask;
-    id <GEORequestCounterTicket> _requestCounterTicket;
-    GEOSearchAttributionManifest *_attributionManifest;
-    id <NSObject> _transaction;
-    GEOActiveTileGroupMigrationTaskOptions *_options;
 }
 
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
+- (long long)ectID",R,C,V_objectID;
+- (void)gacyIdentifierRegistration>",&,D;
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (id);
+- (void)(;
+- (id)A;
 - (void);
-- (id)P;
+- (id)ARTWORK_USE_TRIP;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) long long estimatedWeight;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOActiveTileGroupMigrationTaskOptions *options; // @synthesize options=_options;
-@property(readonly) NSProgress *progress;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <NSObject> transaction; // @synthesize transaction=_transaction;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <AvatarKit/AVTAvatarDescriptor.h>
 
-@class AVTColorPreset, NSString;
+@class NSString;
 
 @interface AVTMemojiDescriptor : AVTAvatarDescriptor
 {
     NSString *_presetIdentifiers[40];
-    AVTColorPreset *_colorPresets[40][3];
 }
 
 + (id);
@@ -22,15 +21,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)c;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ID:(id)arg1 %@;
+- (void)@) for globalMessageID:(id)arg1 %lld into message_attachments table;
 - (id);
 - (id);
-- (id);
+- (id)rom_solution_to_check_against check failed after recently exiting tunnel, difference, %.2lf, tolerance, %.2lf, consistency, %.2lf, threshold, %.2lf, solution_to_check_against_position_unc, %.2f, sol_position_unc, %.2f. Marking the RavenSolution as unhealthy. Exiting with check passed return value.;
 - (void);
 - (id);
 - (id);

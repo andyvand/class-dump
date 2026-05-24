@@ -7,9 +7,10 @@
 @class NSString, NSUUID;
 
 @protocol HMDBulletinIdentifiers
+- (NSUUID *)tion | - Finished migrating blocked trip identifiers;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contextID;
-@property(readonly, copy, nonatomic) NSUUID *contextSPIUniqueIdentifier;
 @end
 

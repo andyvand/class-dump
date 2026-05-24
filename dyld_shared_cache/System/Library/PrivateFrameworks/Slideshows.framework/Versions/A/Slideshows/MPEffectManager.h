@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MPEffectManager
 {
     NSMutableDictionary *mEffects;
-    NSMutableDictionary *mCategories;
-    NSMutableDictionary *mCachedAspectRatios;
-    NSMutableDictionary *mCachedBreakInfo;
-    NSLock *mLock;
-    NSMutableArray *mRegisteredFonts;
 }
 
-+ (void);
++ (void)QI}S);
 + (void);
 + (id);
 + (void)øZ&;
-- (id);
+- (id)NSURLSessionTaskDelegate;
 - (_Bool);
+- (id)isSportsOnboarded;
+- (_Bool)G;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)So29FCNewsAppConfigurationManager_p;
 - (id);
 - (id);
 - (_Bool);
@@ -40,7 +35,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (double);
 - (double);
 - (double);
@@ -55,17 +50,17 @@
 - (id);
 - (id);
 - (id);
+- (_Bool)S;
 - (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
 - (double);
 - (id);
 - (id);
 - (id);
+- (double);
 - (double);
-- (double);
-- (double);
+- (double);
 - (double);
 - (void);
 - (id);

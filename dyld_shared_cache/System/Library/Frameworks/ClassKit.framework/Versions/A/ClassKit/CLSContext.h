@@ -6,58 +6,72 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class CLSActivity, NSArray, NSSet, NSString, NSURL;
+@class CLSActivity;
 
 @interface CLSContext : CLSObject
 {
     _Bool _active;
-    NSURL *_universalLinkURL;
-    NSString *_title;
-    NSString *_topic;
-    NSArray *_path;
-    NSString *_currentActivityID;
-    NSString *_contentStoreIdentifier;
-    long long _displayOrder;
-    NSString *_summary;
-    NSString *_customTypeName;
-    struct _NSRange _suggestedAge;
-    struct _NSRange _suggestedCompletionTime;
-    _Bool _assignable;
-    NSString *_identifier;
-    long long _type;
-    NSString *_stableObjectID;
-    NSString *_storeTeamID;
-    NSString *_storeIdentifier;
-    long long _authorizationStatus;
 }
 
 + (id);
++ (id)H;
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (_Bool)_configurationCacheInvalidatingIfNecessary;
 + (id);
 + (_Bool);
-+ (id);
-+ (_Bool);
+- (id)ܜ;
+- (id);
+- (id);
+- (struct _NSRange)to init shared service thread
+;
+- (struct _NSRange)ce thread struct
+;
+- (id)service thread
+;
+- (id)to create work processor:%08X
+ /* Error: Ran out of types for this method. */;
+- (void)Id:(id)arg1 %u processId:%u procedureId:%u, StartTime:%llu, nFinishTime:%llu
+ /* Error: Ran out of types for this method. */;
+- (void)fer is not allocated
+;
+- (void)ServicesClientCallback;
+- (void)kANEDeviceSleep
+;
+- (void)ogramHandle:(id)arg1 0x%llx
+;
+- (void)equestReceiver->ProgramProcessRequest failed status=0x%x
+;
+- (void)iority to kANEProgramPriority7 0x%08X;
+- (void)haredEvents->numWaitEvents:(id)arg1 %u,  programRequest->numSignalEvents:%u
+ /* Error: Ran out of types for this method. */;
+- (void)LL 
+;
+- (void)):%.3f /* Error: Ran out of types for this method. */;
+- (void)%d;
+- (void)nt program!! programHandle:(id)arg1 0x%llx, req->transactionID=0x%llx, reqCb->transactionID=0x%llx
+;
+- (id)ction:0x%x
+ /* Error: Ran out of types for this method. */;
+- (id)]
+;
+- (void)LAYER;
+- (_Bool)PerfTracerCategory;
+- (id)ne_cycle;
+- (id)l2_read_intra_conflict_cycle;
+- (id)ProgramCompareCompilerVersion(const char *, const char *, int32_t *);
+- (long long)-;
+- (void);
 - (id);
 - (id);
 - (id);
-- (struct _NSRange);
-- (struct _NSRange);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -66,25 +80,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)`<;
 - (void);
 - (void);
 - (void);
@@ -95,10 +91,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)(}�(;
 - (_Bool);
 - (long long);
-- (id);
+- (id)nfigurationName must be initialized.;
 - (void);
 - (void);
 - (void);
@@ -107,47 +103,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)_loadRequest:responseHandler: /* Error: Ran out of types for this method. */;
+- (id)MY_ACCOUNT_CONTACTS;
 - (id);
 - (void);
 - (_Bool);
 - (struct CGImage *);
 - (long long);
 - (void);
-- (id)ompatibleWithItem: /* Error: Ran out of types for this method. */;
+- (id)convertToItemCompatibleWithItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(nonatomic, getter=isAssignable) _Bool assignable; // @synthesize assignable=_assignable;
-@property(nonatomic) long long authorizationStatus; // @synthesize authorizationStatus=_authorizationStatus;
-@property(copy, nonatomic) NSString *contentStoreIdentifier;
 @property(readonly, nonatomic) CLSActivity *currentActivity;
-@property(copy, nonatomic) NSString *currentActivityID;
-@property(copy, nonatomic) NSString *customTypeName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayOrder;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSArray *identifierPath;
-@property(copy, nonatomic) NSArray *path; // @synthesize path=_path;
-@property(readonly, copy, nonatomic) NSSet *progressReportingCapabilities;
-@property(copy, nonatomic) NSString *stableObjectID; // @synthesize stableObjectID=_stableObjectID;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(copy, nonatomic) NSString *storeTeamID; // @synthesize storeTeamID=_storeTeamID;
-@property(nonatomic) struct _NSRange suggestedAge;
-@property(nonatomic) struct _NSRange suggestedCompletionTime;
-@property(copy, nonatomic) NSString *summary;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGImage *thumbnail;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *topic;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSURL *universalLinkURL;
 
 @end
 

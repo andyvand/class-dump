@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDCategorizedPhotos, NSArray, NSMapTable, NSString;
+@class GEOPDCategorizedPhotos, NSString;
 
 @interface GEOCaptionedPhotoAlbum
 {
     GEOPDCategorizedPhotos *_categorizedPhotos;
-    NSMapTable *_attributionMap;
-    NSArray *_photoList;
 }
 
 - (unsigned long long);
-- (id);
+- (id)flushDelayedBlock;
 - (id);
 - (id);
 - (void);
@@ -23,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *categoryId;
 @property(readonly, nonatomic) NSString *categoryName;
-@property(readonly, nonatomic) NSArray *photoList; // @synthesize photoList=_photoList;
-@property(readonly, nonatomic) unsigned long long totalNumberOfPhotosAvailable;
 
 @end
 

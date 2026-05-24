@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (unsigned long long);
-- (CDStruct_d1a7ebee);
+- (CDStruct_026435ec);
 
 @end
 

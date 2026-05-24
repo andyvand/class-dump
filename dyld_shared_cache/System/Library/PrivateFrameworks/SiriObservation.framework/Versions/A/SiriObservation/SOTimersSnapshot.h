@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
+@class NSDate;
 
 @interface SOTimersSnapshot
 {
     NSDate *_date;
-    NSDictionary *_timersByID;
 }
 
 + (id);
@@ -24,14 +23,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)@@"BMResourceSpecifier";
+- (void);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy, nonatomic) NSDictionary *timersByID; // @synthesize timersByID=_timersByID;
 
 @end
 

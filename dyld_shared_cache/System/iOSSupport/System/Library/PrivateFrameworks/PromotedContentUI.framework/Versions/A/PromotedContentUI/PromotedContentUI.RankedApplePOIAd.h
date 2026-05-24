@@ -9,11 +9,6 @@
 @interface PromotedContentUI.RankedApplePOIAd : PromotedContentUI.RankableApplePOIAd
 {
     id curationFailureReasons;
-    id clientRequestId;
-    id anonymousSessionId;
-    id isTest;
-    id placementType;
-    id timestamp;
 }
 
 @end

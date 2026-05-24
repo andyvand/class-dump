@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBFinancialAccountValue, _INPBIntentMetadata, _INPBPaymentAmountValue;
+@class _INPBFinancialAccountValue;
 
 @interface _INPBTransferMoneyIntent
 {
     struct _has;
-    _INPBFinancialAccountValue *_fromAccount;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBFinancialAccountValue *_toAccount;
-    _INPBPaymentAmountValue *_transactionAmount;
-    NSString *_transactionNote;
-    _INPBDateTimeRange *_transactionScheduledDate;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,8 +25,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)h;
+- (void)B;
 - (id);
 - (id);
 - (void);
@@ -43,29 +37,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)ptionTemplateKey;
-- (void)ipientCannotReceiveAnnouncements;
+- (_Bool)__INCodableDescriptionTemplateKey;
+- (void)INSendAnnouncementIntentResponseCodeFailureRecipientCannotReceiveAnnouncements;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBFinancialAccountValue *fromAccount; // @synthesize fromAccount=_fromAccount;
-@property(readonly, nonatomic) _Bool hasFromAccount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasToAccount;
-@property(readonly, nonatomic) _Bool hasTransactionAmount;
-@property(readonly, nonatomic) _Bool hasTransactionNote;
-@property(readonly, nonatomic) _Bool hasTransactionScheduledDate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBFinancialAccountValue *toAccount; // @synthesize toAccount=_toAccount;
-@property(retain, nonatomic) _INPBPaymentAmountValue *transactionAmount; // @synthesize transactionAmount=_transactionAmount;
-@property(copy, nonatomic) NSString *transactionNote; // @synthesize transactionNote=_transactionNote;
-@property(retain, nonatomic) _INPBDateTimeRange *transactionScheduledDate; // @synthesize transactionScheduledDate=_transactionScheduledDate;
 
 @end
 

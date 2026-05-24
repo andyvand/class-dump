@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMutableArray, NSArray, NSObject, NSString, NSUUID, _HMContext;
-@protocol HMAccessoryBrowserDelegate, OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMAccessoryBrowser
 {
     struct os_unfair_lock_s _lock;
-    _Bool _browsing;
-    id <HMAccessoryBrowserDelegate> _delegate;
-    _HMContext *_context;
-    NSUUID *_uuid;
-    HMMutableArray *_accessories;
-    unsigned long long _generationCounter;
 }
 
 + (id)HMAccessory _updateName:forService:completionHandler:] /* Error: Ran out of types for this method. */;
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -39,36 +32,18 @@
 - (void);
 - (id);
 - (id);
+- (void)t",&,N,V_resultSet;
+- (id)$M0/;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void)ceAccess:(id)arg1 camerasAccess:restrictedGuest:restrictedGuestAccessSettings: /* Error: Ran out of types for this method. */;
 - (void)g selections:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) HMMutableArray *accessories; // @synthesize accessories=_accessories;
-@property(nonatomic, getter=isBrowsing) _Bool browsing; // @synthesize browsing=_browsing;
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMAccessoryBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *discoveredAccessories;
-@property(nonatomic) unsigned long long generationCounter; // @synthesize generationCounter=_generationCounter;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

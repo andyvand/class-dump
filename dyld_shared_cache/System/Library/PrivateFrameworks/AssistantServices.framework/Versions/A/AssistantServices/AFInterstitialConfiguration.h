@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFInterstitialConfiguration
 {
     _Bool _isVoiceTrigger;
-    _Bool _isDucking;
-    _Bool _isTwoShot;
-    long long _style;
-    NSString *_languageCode;
-    long long _gender;
-    NSString *_recordRoute;
-    unsigned long long _speechEndHostTime;
 }
 
 + (id);
 + (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)T_q ;
 - (id);
 - (_Bool);
-- (id);
-- (long long);
+- (id)supportsHandoff;
+- (long long)CARD_TYPE_IDENTITY_RETRY_AUTH_CODE;
 - (id);
 - (id);
 - (id);
@@ -37,19 +28,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (long long)veMultiUserWithSharedUserID:completion: /* Error: Ran out of types for this method. */;
+- (long long)removeMultiUserWithSharedUserID:completion: /* Error: Ran out of types for this method. */;
 - (void),C,N,V_route;
 - (id)dôg
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long gender; // @synthesize gender=_gender;
-@property(readonly, nonatomic) _Bool isDucking; // @synthesize isDucking=_isDucking;
-@property(readonly, nonatomic) _Bool isTwoShot; // @synthesize isTwoShot=_isTwoShot;
-@property(readonly, nonatomic) _Bool isVoiceTrigger; // @synthesize isVoiceTrigger=_isVoiceTrigger;
-@property(readonly, copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly, copy, nonatomic) NSString *recordRoute; // @synthesize recordRoute=_recordRoute;
-@property(readonly, nonatomic) unsigned long long speechEndHostTime; // @synthesize speechEndHostTime=_speechEndHostTime;
 @property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end

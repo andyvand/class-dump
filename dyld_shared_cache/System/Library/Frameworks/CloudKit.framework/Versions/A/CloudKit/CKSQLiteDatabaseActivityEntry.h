@@ -6,25 +6,15 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSNumber;
 
 @interface CKSQLiteDatabaseActivityEntry : CKSQLiteTableEntry
 {
     NSNumber *_activityID;
-    NSNumber *_databaseID;
-    NSNumber *_groupID;
-    NSString *_tableName;
-    NSDate *_activityEarliestDate;
-    NSNumber *_coalescingInterval;
-    NSNumber *_separationInterval;
-    NSDate *_activityLatestDate;
-    NSDate *_activityNotBeforeDate;
-    NSDate *_activityStartDate;
-    NSString *_groupName;
 }
 
 + (Class);
-- (void);
+- (void)	K;
 - (void);
 - (void);
 - (void);
@@ -36,10 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)0;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)cator<std::pair<unsigned long, float>>>=^v^v{?=^v}}24@0:8@16 /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -49,20 +39,10 @@
 - (id);
 - (id);
 - (void);
-- (void)tionState;
+- (void)FetchChangesPageIterationState;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *activityEarliestDate; // @synthesize activityEarliestDate=_activityEarliestDate;
 @property(retain, nonatomic) NSNumber *activityID; // @synthesize activityID=_activityID;
-@property(retain, nonatomic) NSDate *activityLatestDate; // @synthesize activityLatestDate=_activityLatestDate;
-@property(retain, nonatomic) NSDate *activityNotBeforeDate; // @synthesize activityNotBeforeDate=_activityNotBeforeDate;
-@property(retain, nonatomic) NSDate *activityStartDate; // @synthesize activityStartDate=_activityStartDate;
-@property(retain, nonatomic) NSNumber *coalescingInterval; // @synthesize coalescingInterval=_coalescingInterval;
-@property(retain, nonatomic) NSNumber *databaseID; // @synthesize databaseID=_databaseID;
-@property(retain, nonatomic) NSNumber *groupID; // @synthesize groupID=_groupID;
-@property(retain, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(retain, nonatomic) NSNumber *separationInterval; // @synthesize separationInterval=_separationInterval;
-@property(retain, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end
 

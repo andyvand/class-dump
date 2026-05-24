@@ -9,35 +9,24 @@
 @interface PIMsgImageBuffer
 {
     unsigned long long elementByteSize;
-    unsigned long long rowElements;
-    unsigned long long width;
-    unsigned long long height;
-    int format;
-    struct CGColorSpace *bufferColorspace;
-    NSMutableData *data;
 }
 
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void *);
 - (unsigned long long);
-- (id);
-- (int);
-- (void)y: /* Error: Ran out of types for this method. */;
+- (id)TraitsForPromptSuggestionsHelper storytellingGatedPersonalTraits;
+- (int)ionary"8@"NSError"16;
+- (void)setInactiveStrategy: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSMutableData *data; // @synthesize data;
-@property(readonly) unsigned long long elementByteSize; // @synthesize elementByteSize;
-@property(readonly) int format; // @synthesize format;
-@property(readonly) unsigned long long height; // @synthesize height;
-@property(readonly) unsigned long long rowElements; // @synthesize rowElements;
-@property(readonly) unsigned long long width; // @synthesize width;
 
 @end
 

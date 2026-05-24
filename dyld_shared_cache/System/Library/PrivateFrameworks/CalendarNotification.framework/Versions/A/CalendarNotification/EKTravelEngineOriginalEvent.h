@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSData, NSDate, NSString;
+@class NSString;
 
 @interface EKTravelEngineOriginalEvent
 {
     _Bool _locationIsAConferenceRoom;
-    _Bool _automaticGeocodingAllowed;
-    int _transportTypeOverride;
-    NSString *_eventExternalURL;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_locationString;
-    CLLocation *_geoLocation;
-    NSData *_locationMapKitHandle;
 }
 
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)?q;
 - (void);
 - (void);
 - (id);
@@ -31,26 +23,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)u;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)9#;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool automaticGeocodingAllowed; // @synthesize automaticGeocodingAllowed=_automaticGeocodingAllowed;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(retain, nonatomic) NSString *eventExternalURL; // @synthesize eventExternalURL=_eventExternalURL;
-@property(retain, nonatomic) CLLocation *geoLocation; // @synthesize geoLocation=_geoLocation;
-@property(nonatomic) _Bool locationIsAConferenceRoom; // @synthesize locationIsAConferenceRoom=_locationIsAConferenceRoom;
-@property(retain, nonatomic) NSData *locationMapKitHandle; // @synthesize locationMapKitHandle=_locationMapKitHandle;
-@property(retain, nonatomic) NSString *locationString; // @synthesize locationString=_locationString;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) int transportTypeOverride; // @synthesize transportTypeOverride=_transportTypeOverride;
 
 @end
 

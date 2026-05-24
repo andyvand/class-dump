@@ -22,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *mcc;
-@property(readonly, nonatomic) NSString *mnc;
 
 @end
 

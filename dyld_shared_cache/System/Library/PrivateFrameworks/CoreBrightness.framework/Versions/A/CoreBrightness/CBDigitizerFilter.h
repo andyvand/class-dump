@@ -6,39 +6,32 @@
 
 #import <CoreBrightness/CBFilter.h>
 
-@class CBDigitizerHotspot;
-
 __attribute__((visibility("hidden")))
 @interface CBDigitizerFilter : CBFilter
 {
     _Bool _firstDigitizerEvent;
-    struct CBDigitizerFilterTouchProperties _props;
-    long long _behavior;
-    CBDigitizerHotspot *_hotspot;
-    _Bool _isActive;
-    int _orientation;
 }
 
 + (struct CBDigitizerFilterTouchProperties);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`
+;
 - (int);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)t transition from %ld to %ld;
 - (void)ARMDisplay;
 - (id)1¬<¼t=`åP=L7=ï§=ð§Æ=Ñ"Û=hí=;
 
 // Remaining properties
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
 @property(readonly, nonatomic) int orientation; // @synthesize orientation=_orientation;
 
 @end

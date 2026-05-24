@@ -14,7 +14,7 @@
 + (_Bool)class is not meant to be archived.;
 - (id);
 - (id);
-- (id);
+- (id)&;
 - (unsigned long long);
 - (_Bool);
 - (void);

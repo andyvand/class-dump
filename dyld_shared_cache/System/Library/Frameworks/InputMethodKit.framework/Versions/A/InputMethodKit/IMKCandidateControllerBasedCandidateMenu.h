@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, IMKCandidateList, IMKCandidates, NSString;
-@protocol IMKCandidateMenuDelegate, IMKTextInput;
+@class IMKCandidateList;
+@protocol IMKCandidateMenuDelegate;
 
 @interface IMKCandidateControllerBasedCandidateMenu
 {
     id <IMKCandidateMenuDelegate> _delegate;
-    IMKCandidates *_candidateController;
-    IMKCandidateList *_candidateList;
-    unsigned long long _candidateStyle;
-    id <IMKTextInput> _textInput;
 }
 
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -25,9 +21,9 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
@@ -36,10 +32,10 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)C;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)q@;
 - (id);
 - (void);
 - (id);
@@ -55,21 +51,7 @@
 - (id)ÇõÿÏ°;;
 
 // Remaining properties
-@property(readonly, nonatomic) IMKCandidates *candidateController; // @synthesize candidateController=_candidateController;
 @property(retain, nonatomic) IMKCandidateList *candidateList; // @synthesize candidateList=_candidateList;
-@property(nonatomic) unsigned long long candidateStyle; // @synthesize candidateStyle=_candidateStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMKCandidateMenuDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IMKCandidate *focusedCandidate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isShown;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <IMKTextInput> textInput; // @synthesize textInput=_textInput;
-@property(readonly, nonatomic) IMKCandidateList *visibleCandidates;
 
 @end
 

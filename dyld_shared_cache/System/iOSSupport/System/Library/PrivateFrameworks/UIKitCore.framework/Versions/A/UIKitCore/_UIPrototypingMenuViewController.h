@@ -6,29 +6,26 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UITableView, _UIContentUnavailableView;
+@class NSArray, UITableView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPrototypingMenuViewController : UIViewController
 {
     NSArray *_allSettings;
-    UITableView *_tableView;
-    NSString *_domain;
-    _UIContentUnavailableView *_noContentView;
 }
 
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)record from recordID because it is nil %@;
+- (void)ordZoneError %@;
 - (void);
 - (id);
 - (long long);
-- (void);
-- (id)letionLength;
-- (void)adius:thickness:rounded: /* Error: Ran out of types for this method. */;
-- (id)troller_Internal;
+- (void)?;
+- (id)_largestSessionDeletionLength;
+- (void)_barImageWithSize:forScale:distance:angle:centerPoint:cornerRadius:thickness:rounded: /* Error: Ran out of types for this method. */;
+- (id)UIPopoverController_Internal;
 - (void)ging priorities must be >= 1.;
 - (void);
 - (void);
@@ -36,16 +33,6 @@ __attribute__((visibility("hidden")))
 - (void)T}ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allSettings; // @synthesize allSettings=_allSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIContentUnavailableView *noContentView; // @synthesize noContentView=_noContentView;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
 
 @end

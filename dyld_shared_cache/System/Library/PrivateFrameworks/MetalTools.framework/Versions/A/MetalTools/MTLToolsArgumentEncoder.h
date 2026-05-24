@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString, _MTLIndirectArgumentBufferLayout;
-@protocol MTLDevice;
+@class _MTLIndirectArgumentBufferLayout;
 
 @interface MTLToolsArgumentEncoder : MTLToolsObject
 {
@@ -39,27 +38,16 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (id);
+- (id)j ;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long alignment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long encodedLength;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
 @property(readonly, nonatomic) _MTLIndirectArgumentBufferLayout *layout;
-@property(readonly) Class superclass;
 
 @end
 

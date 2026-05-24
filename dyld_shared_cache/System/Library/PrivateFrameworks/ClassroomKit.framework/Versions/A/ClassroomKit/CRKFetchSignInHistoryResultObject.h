@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CRKFetchSignInHistoryResultObject
 {
     _Bool _isTruncated;
-    NSArray *_history;
-    unsigned long long _limit;
-    unsigned long long _historyVersion;
-    NSString *_ownerAppleID;
 }
 
 + (_Bool);
@@ -28,14 +24,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id)nt:transport: /* Error: Ran out of types for this method. */;
+- (id)browser:didFindInvitationSessionWithEndpoint:transport: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *history; // @synthesize history=_history;
-@property(nonatomic) unsigned long long historyVersion; // @synthesize historyVersion=_historyVersion;
-@property(nonatomic) _Bool isTruncated; // @synthesize isTruncated=_isTruncated;
-@property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(copy, nonatomic) NSString *ownerAppleID; // @synthesize ownerAppleID=_ownerAppleID;
 
 @end
 

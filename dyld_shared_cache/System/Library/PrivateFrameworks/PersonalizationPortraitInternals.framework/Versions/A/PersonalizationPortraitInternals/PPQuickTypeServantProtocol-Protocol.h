@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol PPQuickTypeServantProtocol
+- (NSArray *)em failed 0x%X;
+
+@optional
+- (void)/;
 @end
 

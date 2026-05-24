@@ -11,7 +11,6 @@
 @interface PFImageMetadataChangePolicyAddPFMetadata : PFImageMetadataChangePolicy
 {
     NSString *_key;
-    id _value;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain) NSString *key; // @synthesize key=_key;
-@property(retain) id value; // @synthesize value=_value;
 
 @end
 

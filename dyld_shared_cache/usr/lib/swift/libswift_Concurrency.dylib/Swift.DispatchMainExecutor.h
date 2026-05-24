@@ -7,6 +7,7 @@
 @interface Swift.DispatchMainExecutor
 {
     id threaded;
+    id;
 }
 
 @end

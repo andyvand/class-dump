@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCAgentProxy, ASExportViewController, NSObject, NSString, NSXPCListener, PMAuthorizationViewController, _ASAgentCredentialExchangeListenerProxy;
-@protocol ASCAuthorizationPresenterDelegate, ASCAuthorizationPresenterHostProtocol, AuthenticationServicesHelperProtocol, OS_dispatch_queue, OS_os_activity;
+@class ASCAgentProxy;
+@protocol ASCAuthorizationPresenterDelegate;
 
 __attribute__((visibility("hidden")))
 @interface ASAuthorizationServiceViewController
 {
     ASCAgentProxy *_agentProxy;
-    PMAuthorizationViewController *_authorizationViewController;
-    id <ASCAuthorizationPresenterHostProtocol> _presenterProxy;
-    NSXPCListener *_daemonListener;
-    CDUnknownBlockType _authorizationCompletionHandler;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_os_activity> *_authorizationActivity;
-    _ASAgentCredentialExchangeListenerProxy *_credentialExchangeListenerProxy;
-    ASExportViewController *_exportViewController;
-    CDUnknownBlockType _exportCompletionHandler;
-    id <AuthenticationServicesHelperProtocol> _helperProxy;
-    id <ASCAuthorizationPresenterDelegate> _delegate;
 }
 
 + (id);
@@ -39,8 +28,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -58,20 +47,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <ASCAuthorizationPresenterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

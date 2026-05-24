@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXPhotosViewModel;
-@protocol PXPhotosSectionHeaderLayoutProviderInvalidationDelegate, PXPhotosSectionHeaderLayoutViewProvider;
+@class PXPhotosViewModel;
 
 @interface PXContentSyndicationSectionHeaderLayoutProvider
 {
     PXPhotosViewModel *_viewModel;
-    id <PXPhotosSectionHeaderLayoutViewProvider> _viewProvider;
 }
 
 - (void);
@@ -22,27 +20,7 @@
 - (id)iQ½>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PXPhotosSectionHeaderLayoutProviderInvalidationDelegate> invalidationDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXPhotosSectionHeaderLayoutProviderInvalidationDelegate>",?,W,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <PXPhotosSectionHeaderLayoutProviderInvalidationDelegate> topHeaderInvalidationDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXPhotosSectionHeaderLayoutProviderInvalidationDelegate>",?,W,N
-
-@property(readonly, nonatomic) double topHeaderMinimumHeight;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @property(readonly, nonatomic) PXPhotosViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(readonly, nonatomic) __weak id <PXPhotosSectionHeaderLayoutViewProvider> viewProvider; // @synthesize viewProvider=_viewProvider;
 
 @end
 

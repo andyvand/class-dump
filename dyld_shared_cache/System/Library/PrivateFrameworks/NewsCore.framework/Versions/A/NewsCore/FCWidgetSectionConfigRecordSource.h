@@ -17,7 +17,7 @@
 × ;
 - (unsigned long long)initWithContext:recipeListIDs: /* Error: Ran out of types for this method. */;
 - (id)y",R,N,V_shadowDefaultOntologyLevelConfig;
-- (unsigned long long)ThrottlerDelegate;
+- (unsigned long long)FCOperationThrottlerDelegate;
 - (id);
 - (int)¯ ;
 

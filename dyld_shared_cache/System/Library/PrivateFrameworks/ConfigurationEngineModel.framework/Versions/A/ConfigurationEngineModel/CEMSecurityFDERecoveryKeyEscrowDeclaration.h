@@ -11,8 +11,6 @@
 @interface CEMSecurityFDERecoveryKeyEscrowDeclaration : CEMConfigurationBase
 {
     NSString *_payloadLocation;
-    NSString *_payloadEncryptCertPayloadUUID;
-    NSString *_payloadDeviceKey;
 }
 
 + (id);
@@ -27,27 +25,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)localizedEffectDescription;
 - (id);
-- (void);
+- (void)nt certificate B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadDeviceKey; // @synthesize payloadDeviceKey=_payloadDeviceKey;
-@property(copy, nonatomic) NSString *payloadEncryptCertPayloadUUID; // @synthesize payloadEncryptCertPayloadUUID=_payloadEncryptCertPayloadUUID;
 @property(copy, nonatomic) NSString *payloadLocation; // @synthesize payloadLocation=_payloadLocation;
-@property(readonly) Class superclass;
 
 @end
 

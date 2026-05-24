@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString, _EAREmojiRecognition;
+@class NSString;
 
 @interface _EARFormatter
 {
     struct unique_ptr<SpeechITN, std::default_delete<SpeechITN>> _itn;
-    _EAREmojiRecognition *_emojiFormatter;
-    double _firstCandidateItnDurationSum;
-    long long _firstCandidateItnCount;
-    NSArray *_firstCandidateItnIntervalInTicks;
-    NSMutableArray *_recognizedEmojis;
-    NSMutableDictionary *_emojiMetrics;
-    NSString *_language;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (vector_9a34c3e7);
-+ (vector_9a34c3e7);
++ (vector_fa1a2223);
++ (vector_fa1a2223)#;
 + (void)Î;
 - (void);
 - (_Bool);
@@ -37,34 +30,34 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (vector_9a34c3e7);
-- (id);
-- (id);
+- (id);
+- (vector_fa1a2223);
 - (id);
 - (id);
 - (id);
-- (vector_9a34c3e7);
-- (vector_9a34c3e7);
-- (id);
-- (unordered_set_5ba7d335);
 - (id);
 - (id);
-- (vector_64acebbd);
+- (vector_fa1a2223);
+- (vector_fa1a2223);
+- (id);
+- (unordered_set_18d18e9c);
+- (id);
+- (id);
+- (vector_64acebbd)A;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ITSTokenListRemoveAllTokens;
+- (id)ITSTokenListGetTokenCollationKeyLengthAtIndex;
+- (id)ITSTokenListGetTokenCollationKeyAtIndex;
+- (id)ITSTokenListGetTokenStartByteOffsetAtIndex;
 - (basic_string_cc40eacf);
-- (vector_9a34c3e7);
+- (vector_fa1a2223);
 - (id);
 - (id);
 - (id);
 - (void)È;
-- (void)eINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE;
+- (void)N6quasar11OptionValueINSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEE;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *language; // @synthesize language=_language;

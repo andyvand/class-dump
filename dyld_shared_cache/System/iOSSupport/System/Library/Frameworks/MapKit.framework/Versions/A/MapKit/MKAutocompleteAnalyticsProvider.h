@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKAutocompleteAnalyticsState, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MKAutocompleteAnalyticsProvider
 {
     NSObject<OS_dispatch_queue> *_isolationQueue;
-    MKAutocompleteAnalyticsState *_currentState;
 }
 
 - (void);
@@ -18,12 +17,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)`";
 - (id);
-- (void)ImageView;
+- (void)_plusImageView;
 
 // Remaining properties
-@property(retain, nonatomic) MKAutocompleteAnalyticsState *currentState; // @synthesize currentState=_currentState;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *isolationQueue; // @synthesize isolationQueue=_isolationQueue;
 
 @end

@@ -16,9 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)HE9)HE9	kA
+;
 - (id);
-- (id)eatureSubmittedRatingsCount;
+- (id)_mapFeatureSubmittedRatingsCount;
 - (id)l&;
 - (void)þÒ¢>É)F@;
 

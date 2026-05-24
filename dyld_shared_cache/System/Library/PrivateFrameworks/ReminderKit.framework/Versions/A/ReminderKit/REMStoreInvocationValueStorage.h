@@ -11,13 +11,13 @@
     NSMutableDictionary *_valueStorage;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)9;
 - (id);
 - (unsigned long long);
 - (_Bool);

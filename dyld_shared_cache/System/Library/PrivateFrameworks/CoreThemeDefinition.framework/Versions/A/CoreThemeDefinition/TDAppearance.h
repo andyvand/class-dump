@@ -9,16 +9,14 @@
 @interface TDAppearance
 {
     NSString *_name;
-    unsigned short _identifier;
 }
 
-- (id);
-- (void);
+- (id)t";
+- (void)t;
 - (unsigned short);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned short identifier;
 @property(copy, nonatomic) NSString *name;
 
 @end

@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface TITypologyRecord
 {
     double _timestamp;
-    NSUUID *_recordID;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
-- (id);
+- (id)g;
+- (id)to record %@;
+- (void)used_groupids SELECT ROWID FROM groups WHERE owning_groupid IN (SELECT ROWID FROM tmp_used_groupids);;
+- (id)Ҭ;
 - (double);
 - (id);
 - (void);
@@ -43,7 +40,6 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *recordID; // @synthesize recordID=_recordID;
 @property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end

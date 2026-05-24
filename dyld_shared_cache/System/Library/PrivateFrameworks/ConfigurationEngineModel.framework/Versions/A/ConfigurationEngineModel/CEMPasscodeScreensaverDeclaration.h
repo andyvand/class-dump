@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMPasscodeScreensaverDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAskForPassword;
-    NSNumber *_payloadAskForPasswordDelay;
-    NSNumber *_payloadLoginWindowIdleTime;
-    NSString *_payloadLoginWindowModulePath;
 }
 
 + (id);
@@ -25,7 +22,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (id);
@@ -35,23 +32,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
-- (_Bool);
+- (int)b;
+- (_Bool)lQ2ReselM/Library/Caches/com.apple.xbs/TemporaryDirectory.Tvrvxe/Sources/TextToSpeech/TextToSpeech/Source/SSML/Source/Parsing/PlainTalkParser/PlainTalkParser.swift;
 - (id);
-- (void);
+- (void)issing rsa certificate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadAskForPassword; // @synthesize payloadAskForPassword=_payloadAskForPassword;
-@property(copy, nonatomic) NSNumber *payloadAskForPasswordDelay; // @synthesize payloadAskForPasswordDelay=_payloadAskForPasswordDelay;
-@property(copy, nonatomic) NSNumber *payloadLoginWindowIdleTime; // @synthesize payloadLoginWindowIdleTime=_payloadLoginWindowIdleTime;
-@property(copy, nonatomic) NSString *payloadLoginWindowModulePath; // @synthesize payloadLoginWindowModulePath=_payloadLoginWindowModulePath;
-@property(readonly) Class superclass;
 
 @end
 

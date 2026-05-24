@@ -4,61 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLogMsgEventRefineSearchSession
 {
     PBDataReader *_reader;
-    NSString *_searchString;
-    NSMutableArray *_suggestionItems;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _refineSearchType;
-    int _searchType;
-    struct {
-        unsigned int has_refineSearchType:1;
-        unsigned int has_searchType:1;
-        unsigned int read_searchString:1;
-        unsigned int read_suggestionItems:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)asStateValue:(id)arg1;
++ (_Bool)setHasStateValue:(id)arg1;
+- (unsigned long long)`;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (int)P;
+- (_Bool);
+- (_Bool);
+- (void)primitiveBoolValueForKey:keyExists: /* Error: Ran out of types for this method. */;
+- (void)blockObserverOfClass:(id)arg1 withResultBlock:completionBlock:failureBlock: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (int);
+- (id);
+- (int)bug report with type %{public}s; subtype:(id)arg1 %{public}s; name:%{public}s; value:%{public}s /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (int);
+- (void);
+- (id)%s SelfTriggerDetector in ASMac with AVVC cannot be turned on since Siri enabled policy is disabled;
+- (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (int);
-- (id);
-- (int);
-- (void);
-- (id);
-- (id);
-- (int);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)allocateDownstreamBusCurrentWithWakeUnits:(id)arg1 sleepUnits:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id)tedTextField:(struct _NSZone *)arg1;
-- (id);
+- (id)setTranslatedTextField:(struct _NSZone *)arg1;
+- (id)hasExpectedTime;
 - (id)thm;
 - (id);
 - (void)~É3;
@@ -66,13 +52,7 @@
 - (id)ø5ÿr;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRefineSearchType;
-@property(readonly, nonatomic) _Bool hasSearchString;
 @property(nonatomic) _Bool hasSearchType;
-@property(nonatomic) int refineSearchType;
-@property(retain, nonatomic) NSString *searchString;
-@property(nonatomic) int searchType;
-@property(retain, nonatomic) NSMutableArray *suggestionItems;
 
 @end
 

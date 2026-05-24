@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SASyncAppIdentifyingInfo;
+@class NSString;
 
 @interface SAIntentGroupSiriKitAppSelectionState : AceObject
 {
@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,16 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appConfirmationState;
-@property(copy, nonatomic) NSString *appCorrectionState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *eligibleApps;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SASyncAppIdentifyingInfo *requestedApp;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)private}.3lf,hunc,%{private}.3lf,cunc,%{private}.3lf,projection,%{public}.8lf,score,%{public}.12lf,dE,%{public}.2lf,dN,%{public}.2lf,dCourse,%{public}.2lf,mode,%{public}d,type,%{public}d;
 + (void);
 + (id);
 + (_Bool);
@@ -20,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)J;
 + (id);
 + (id);
 + (id);

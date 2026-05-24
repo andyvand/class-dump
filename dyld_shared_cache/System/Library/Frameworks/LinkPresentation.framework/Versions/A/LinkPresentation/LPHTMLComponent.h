@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMElement, LPLinkHTMLGenerator, NSMutableArray, NSString;
+@class LPLinkHTMLGenerator, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface LPHTMLComponent
 {
     NSMutableArray *_children;
-    LPLinkHTMLGenerator *_generator;
-    DOMElement *_element;
-    NSString *_themePath;
 }
 
 + (id);
@@ -25,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)°!;
 
 // Remaining properties
-@property(readonly, nonatomic) DOMElement *element; // @synthesize element=_element;
 @property(readonly, nonatomic) __weak LPLinkHTMLGenerator *generator; // @synthesize generator=_generator;
-@property(readonly, nonatomic) NSString *themePath; // @synthesize themePath=_themePath;
 
 @end
 

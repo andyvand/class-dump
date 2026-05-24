@@ -8,11 +8,16 @@
 @protocol CKConversationListCellDelegate;
 
 @protocol CKConversationListEmbeddedTableViewCellProtocol
+- (_Bool)ate2D=dd}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)updateHighlightAttributesForRange:(_Bool)arg1 inTextStorage: /* Error: Ran out of types for this method. */;
+- (void)shouldAuthenticateWithDevicePasswordForObject:(struct UIEdgeInsets)arg1;
+- (void)setHasEditedCharactersAfterTextSelection:(_Bool)arg1;
+- (struct UIEdgeInsets)attachmentNeedsPostProcessingNotification: /* Error: Ran out of types for this method. */;
+- (void)fallbackPDFData;
+- (void);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) struct CGRect containerBounds;
 @property(nonatomic) __weak NSObject<CKConversationListCellDelegate> *delegate;
-@property(nonatomic) struct UIEdgeInsets marginInsets;
-@property(nonatomic) _Bool shouldHidePreviewSummary;
 @end
 

@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.HomeActivityStateAdapter__priv_748D0C001171CDD48878909A76481E90
 {
     id events;
-    id continuation;
 }
 
 - (void);

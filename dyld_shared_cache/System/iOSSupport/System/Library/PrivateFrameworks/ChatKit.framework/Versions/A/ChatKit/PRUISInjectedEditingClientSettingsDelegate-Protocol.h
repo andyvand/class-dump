@@ -5,5 +5,8 @@
 //
 
 @protocol PRUISInjectedEditingClientSettingsDelegate
+
+@optional
+- (void)archiveDictionary;
 @end
 

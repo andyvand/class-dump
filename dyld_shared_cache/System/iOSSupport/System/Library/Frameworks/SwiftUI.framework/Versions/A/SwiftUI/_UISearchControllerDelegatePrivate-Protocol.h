@@ -5,5 +5,9 @@
 //
 
 @protocol _UISearchControllerDelegatePrivate
+
+@optional
+- (void);
+- (void);
 @end
 

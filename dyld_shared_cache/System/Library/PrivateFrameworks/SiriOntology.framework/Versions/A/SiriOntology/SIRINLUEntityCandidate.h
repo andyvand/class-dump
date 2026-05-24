@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SIRINLURRGroupIdentifier, USOSerializedGraph;
+@class USOSerializedGraph;
 
 @interface SIRINLUEntityCandidate
 {
     USOSerializedGraph *_entity;
-    double _score;
-    NSString *_entityId;
-    NSString *_appBundleId;
-    SIRINLURRGroupIdentifier *_groupId;
-    NSArray *_annotations;
 }
 
 + (_Bool);
@@ -27,22 +22,17 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)applyPropertiesToClass: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)dAlternative:(id)arg1;
-- (id)art_common_SafetySession;
-- (void)e_Off;
+- (void)addAlternative:(id)arg1;
+- (id)_TtC12SiriOntology36UsoTask_restart_common_SafetySession;
+- (void)common_ActivationValue_Off;
 - (void)n_NavigationMenu;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *annotations; // @synthesize annotations=_annotations;
-@property(retain, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
 @property(retain, nonatomic) USOSerializedGraph *entity; // @synthesize entity=_entity;
-@property(retain, nonatomic) NSString *entityId; // @synthesize entityId=_entityId;
-@property(retain, nonatomic) SIRINLURRGroupIdentifier *groupId; // @synthesize groupId=_groupId;
-@property double score; // @synthesize score=_score;
 
 @end
 

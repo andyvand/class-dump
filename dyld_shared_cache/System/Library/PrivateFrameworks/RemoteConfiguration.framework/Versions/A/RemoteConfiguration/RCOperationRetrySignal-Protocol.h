@@ -5,5 +5,6 @@
 //
 
 @protocol RCOperationRetrySignal
+- (void);
 @end
 

@@ -9,24 +9,12 @@
 @interface AppKit.NSScrollPocket.LuminanceAdjustment__priv_EC3F85FAB7755D56E669206D2B17725B : NSView
 {
     id backgroundGroupName;
-    id backgroundScale;
-    id container;
-    id backgroundViewsContainer;
-    id backgroundReplay;
-    id backgroundColorReplay;
-    id luminanceAdjustmentViewsContainer;
-    id darkeningView;
-    id lighteningView;
-    id luminanceAdjustmentAlphas;
-    id captureColor;
-    id _captureColorLuma;
-    id pocketMaskPortal;
 }
 
 - (id);
 - (void);
 - (void);
-- (id)nimation;
+- (id)_startLiveAnimation;
 - (void);
 - (void)ÅÈ÷·E;
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMHTMLElement, NoteAttachmentPresentation;
+@class NoteAttachmentPresentation;
 
 @interface NoteAttachmentPresentationOccurence
 {
     NoteAttachmentPresentation *_presentation;
-    DOMHTMLElement *_element;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)erLiteralAtLocation: /* Error: Ran out of types for this method. */;
-- (void)iew:byDelta: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)numberLiteralAtLocation: /* Error: Ran out of types for this method. */;
+- (void)canIndentTextView:byDelta: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) DOMHTMLElement *element; // @synthesize element=_element;
 @property(readonly, nonatomic) NoteAttachmentPresentation *presentation; // @synthesize presentation=_presentation;
 
 @end

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarEditorColorDefaultsProvider, AVTEditingModelColors, NSArray;
+@class NSArray;
 
 @interface AVTCoreModel
 {
     NSArray *_groups;
-    AVTEditingModelColors *_colors;
-    AVTAvatarEditorColorDefaultsProvider *_colorDefaultsProvider;
-    unsigned long long _platform;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -24,10 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) AVTAvatarEditorColorDefaultsProvider *colorDefaultsProvider; // @synthesize colorDefaultsProvider=_colorDefaultsProvider;
-@property(readonly, copy, nonatomic) AVTEditingModelColors *colors; // @synthesize colors=_colors;
 @property(readonly, copy, nonatomic) NSArray *groups; // @synthesize groups=_groups;
-@property(readonly, nonatomic) unsigned long long platform; // @synthesize platform=_platform;
 
 @end
 

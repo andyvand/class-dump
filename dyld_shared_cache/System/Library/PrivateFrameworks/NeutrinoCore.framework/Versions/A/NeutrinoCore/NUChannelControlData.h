@@ -25,15 +25,15 @@
 - (id);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)D;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
-- (void)ufferRegion:withBlock: /* Error: Ran out of types for this method. */;
+- (void)writeBufferRegion:withBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannelControlFormat *controlFormat;

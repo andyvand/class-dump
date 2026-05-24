@@ -9,18 +9,16 @@
 @interface MLComputePlanDeviceUsageSupportInfo
 {
     long long _state;
-    id <MLComputeDeviceProtocol> _computeDevice;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)g: /* Error: Ran out of types for this method. */;
+- (id)K;
 - (long long);
 - (void)n<uint8_t>.Size() bytes.;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MLComputeDeviceProtocol> computeDevice; // @synthesize computeDevice=_computeDevice;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

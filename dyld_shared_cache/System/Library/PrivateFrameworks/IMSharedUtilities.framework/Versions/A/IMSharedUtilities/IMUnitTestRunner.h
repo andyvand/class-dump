@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMUnitTestBundleLoader, IMUnitTestFrameworkLoader, IMUnitTestLogger, NSArray, NSMutableArray, NSString;
+@class NSMutableArray;
 @protocol IMUnitTestRunnerDelegate;
 
 @interface IMUnitTestRunner
 {
     NSMutableArray *_failedTests;
-    id <IMUnitTestRunnerDelegate> _delegate;
-    IMUnitTestBundleLoader *_bundleLoader;
-    IMUnitTestLogger *_logger;
-    IMUnitTestFrameworkLoader *_frameworkLoader;
 }
 
 - (void);
@@ -25,8 +21,8 @@
 - (void);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long);
+- (id)*@;
 - (void);
 - (id);
 - (id);
@@ -35,8 +31,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)c;
+- (id)untFeatureDescriptor"8;
 - (id);
 - (void);
 - (void);
@@ -44,18 +40,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) IMUnitTestBundleLoader *bundleLoader; // @synthesize bundleLoader=_bundleLoader;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <IMUnitTestRunnerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) NSArray *failedTests; // @synthesize failedTests=_failedTests;
-@property(readonly) IMUnitTestFrameworkLoader *frameworkLoader; // @synthesize frameworkLoader=_frameworkLoader;
-@property(readonly) unsigned long long hash;
-@property(readonly) IMUnitTestLogger *logger; // @synthesize logger=_logger;
-@property(readonly) Class superclass;
 
 @end
 

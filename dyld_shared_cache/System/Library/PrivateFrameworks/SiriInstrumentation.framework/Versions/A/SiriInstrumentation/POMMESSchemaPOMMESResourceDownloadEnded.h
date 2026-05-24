@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESResourceDownloadEnded : SISchemaInstrumentationMessage
 {
     unsigned int _resourceDownloadSizeInBytes;
-    struct {
-        unsigned int resourceDownloadSizeInBytes:1;
-    } _has;
 }
 
 - (void);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)k9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDRestoreApplicationsRequestOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)lled on the database thread because it may lead to egregiously long blocking of other requests.;
 - (id);
 - (id);
-- (id)rttBest;
+- (id)_rttBest;
 - (id)dy;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResourceDownloadSizeInBytes;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int resourceDownloadSizeInBytes; // @synthesize resourceDownloadSizeInBytes=_resourceDownloadSizeInBytes;
 
 @end

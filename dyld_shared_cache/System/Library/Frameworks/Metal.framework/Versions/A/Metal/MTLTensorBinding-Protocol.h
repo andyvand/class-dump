@@ -7,12 +7,11 @@
 @class MTLTensorExtents;
 
 @protocol MTLTensorBinding
+- (unsigned long long)(;
 - (MTLTensorExtents *),!Cùñs0ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) MTLTensorExtents *dimensions;
-@property(readonly) unsigned long long indexType;
 @property(readonly) long long tensorDataType;
 @end
 

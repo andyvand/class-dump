@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     TIHandwritingStrokes *_strokes;
 }
 
-- (id);
-- (void);
+- (id)g chats as reviewed:(double)arg1 %@;
+- (void)t;
 - (id);
 - (id);
 - (void);

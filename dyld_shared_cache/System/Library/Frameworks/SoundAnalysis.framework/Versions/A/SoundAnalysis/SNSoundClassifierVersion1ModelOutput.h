@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
+@class NSDictionary;
 
 @interface SNSoundClassifierVersion1ModelOutput
 {
     NSDictionary *__9;
-    NSString *_classLabel;
 }
 
 - (void);
@@ -23,8 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *_9; // @synthesize _9=__9;
-@property(retain, nonatomic) NSString *classLabel; // @synthesize classLabel=_classLabel;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

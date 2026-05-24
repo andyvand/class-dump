@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCECommsAppSelectionTrainingContactDependentMessageSignals, INFERENCESchemaINFERENCECommsAppSelectionTrainingContactDependentPhoneCallSignals, NSData;
+@class INFERENCESchemaINFERENCECommsAppSelectionTrainingContactDependentMessageSignals;
 
 @interface INFERENCESchemaINFERENCECommsAppSelectionTrainingContactDependentSignals : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCECommsAppSelectionTrainingContactDependentMessageSignals *_contactDependentMessageSignals;
-    INFERENCESchemaINFERENCECommsAppSelectionTrainingContactDependentPhoneCallSignals *_contactDependentPhoneCallSignals;
-    _Bool _hasContactDependentMessageSignals;
-    _Bool _hasContactDependentPhoneCallSignals;
 }
 
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (_Bool);
@@ -28,22 +25,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)me;
-- (id)SchemaMHOdldFalseTriggerMitigated;
+- (id)_intentTypeName;
+- (id)MHSchemaMHOdldFalseTriggerMitigated;
 - (void)ÌØÿpm²±´";
 
 // Remaining properties
 @property(retain, nonatomic) INFERENCESchemaINFERENCECommsAppSelectionTrainingContactDependentMessageSignals *contactDependentMessageSignals; // @synthesize contactDependentMessageSignals=_contactDependentMessageSignals;
-@property(retain, nonatomic) INFERENCESchemaINFERENCECommsAppSelectionTrainingContactDependentPhoneCallSignals *contactDependentPhoneCallSignals; // @synthesize contactDependentPhoneCallSignals=_contactDependentPhoneCallSignals;
-@property(nonatomic) _Bool hasContactDependentMessageSignals; // @synthesize hasContactDependentMessageSignals=_hasContactDependentMessageSignals;
-@property(nonatomic) _Bool hasContactDependentPhoneCallSignals; // @synthesize hasContactDependentPhoneCallSignals=_hasContactDependentPhoneCallSignals;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

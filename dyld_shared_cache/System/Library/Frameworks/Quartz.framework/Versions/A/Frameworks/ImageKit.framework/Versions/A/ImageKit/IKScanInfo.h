@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface IKScanInfo
 {
     struct CGImage *_icon;
-    _Bool _scanDone;
-    NSURL *_url;
-    NSString *_name;
-    long long _percentageComplete;
-    long long _pageCount;
 }
 
 - (void);
@@ -26,22 +21,18 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)_combinedQueryKeyPath;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)newBookmark:hasDelta:addedInstancesBlock:] /* Error: Ran out of types for this method. */;
 - (void);
-- (long long)ForUID:size:createIfNeeded: /* Error: Ran out of types for this method. */;
+- (long long)nodeForUID:size:createIfNeeded: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property long long pageCount; // @synthesize pageCount=_pageCount;
-@property(nonatomic) long long percentageComplete; // @synthesize percentageComplete=_percentageComplete;
-@property(nonatomic) _Bool scanDone; // @synthesize scanDone=_scanDone;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

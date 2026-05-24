@@ -10,28 +10,25 @@ __attribute__((visibility("hidden")))
 @interface CKImageAttachmentItem : CKAttachmentItem
 {
     _Bool _backgroundEnqueued;
-    _Bool _useDefaultSize;
-    struct CGSize _imageSize;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)ic_emphasisBackgroudColorFromColor: /* Error: Ran out of types for this method. */;
+- (void)ndler: /* Error: Ran out of types for this method. */;
+- (void)inedView;
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)ier"8@"NSOrderedSet"16^B24;
+- (id)sUI  PROJECT:Ironcade-3146.121.7
+ /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (struct CGSize);
 - (id);
-- (struct CGSize);
+- (struct CGSize)89;
 - (void)tIndexPath for indexPath {%@}.;
 
 // Remaining properties
-@property(nonatomic) _Bool backgroundEnqueued; // @synthesize backgroundEnqueued=_backgroundEnqueued;
 @property struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(nonatomic) _Bool useDefaultSize; // @synthesize useDefaultSize=_useDefaultSize;
 
 @end
 

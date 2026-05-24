@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface IFTSchemaIFTToolDisambiguation : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_assistantSchemaKind;
-    NSArray *_tools;
-    CDStruct_b33ad018 _has;
-    _Bool _hasAssistantSchemaKind;
 }
 
 - (unsigned long long);
@@ -32,28 +26,23 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)=;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (id)0@ù
 × ;
 - (id)TB,N,V_hasWatchDeviceAttributes;
-- (id)emaFLInteractionDonationContext;
-- (_Bool);
+- (id)FLSchemaFLInteractionDonationContext;
+- (_Bool)RGSiriSchemaRGFallbackReason;
 - (void)¤Õÿ@³;
 - (_Bool)q;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assistantSchemaKind; // @synthesize assistantSchemaKind=_assistantSchemaKind;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasAssistantSchemaKind; // @synthesize hasAssistantSchemaKind=_hasAssistantSchemaKind;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *tools; // @synthesize tools=_tools;
 
 @end
 

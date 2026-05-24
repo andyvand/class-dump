@@ -7,31 +7,15 @@
 @interface NewsSubscription.SubscriptionOffersViewController
 {
     id routeModel;
-    id styler;
-    id eventHandler;
-    id coverViewManager;
-    id purchasingSpinnerViewControllerFactory;
-    id $__lazy_storage_$_verificationSpinner;
-    id $__lazy_storage_$_purchasingSpinner;
-    id purchasePresenter;
-    id purchaseController;
-    id subscriptionOffersView;
-    id renderer;
-    id layoutAttributesFactory;
-    id viewModelFactory;
-    id offers;
-    id viewModel;
-    id tag;
-    id webOptinFlowManager;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)5˿;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void)À;
 - (void)Æ,;

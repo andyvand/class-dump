@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOMapAssetMetadata, GEOTileKeyList, GEOTileLoader, geo_isolater;
+@class GEOApplicationAuditToken;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapAssetMetadataFetcher
 {
     GEOApplicationAuditToken *_auditToken;
-    GEOTileLoader *_tileLoader;
-    _Bool _enableASTCTextures;
-    geo_isolater *_isolation;
-    GEOTileKeyList *_lastLoadedKeys;
-    GEOMapAssetMetadata *_lastLoadedMetadata;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)t read contents of directory:%@, err:%@ /* Error: Ran out of types for this method. */;
 - (void)PZ3;
 
 @end

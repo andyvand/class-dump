@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableSet, NSSet;
+@class NSSet;
 @protocol WBSHistoryStore;
 
 @interface WBSHistoryDeletionPlan
 {
     id <WBSHistoryStore> _store;
-    NSSet *_excludedItems;
-    NSSet *_excludedVisits;
-    NSMutableSet *_discoveredItemsToDelete;
-    _Bool _wasPrepared;
-    NSSet *_triggeringItems;
-    NSSet *_triggeringVisits;
-    NSSet *_discoveredVisitsToDelete;
-    NSMapTable *_updatedLastVisitsByItem;
 }
 
 - (_Bool);
@@ -36,15 +28,7 @@
 - (void)ô;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allItemsToDelete;
-@property(readonly, nonatomic) NSMapTable *allVisitsToDeleteByItemExcludingItemsBeingDeleted;
-@property(readonly, nonatomic) NSSet *allVisitsToDeleteExcludingVisitsFromItemsBeingDeleted;
-@property(readonly, nonatomic) NSSet *discoveredItemsToDelete; // @synthesize discoveredItemsToDelete=_discoveredItemsToDelete;
-@property(readonly, nonatomic) NSSet *discoveredVisitsToDelete; // @synthesize discoveredVisitsToDelete=_discoveredVisitsToDelete;
 @property(readonly, nonatomic) NSSet *triggeringItems; // @synthesize triggeringItems=_triggeringItems;
-@property(readonly, nonatomic) NSSet *triggeringVisits; // @synthesize triggeringVisits=_triggeringVisits;
-@property(readonly, nonatomic) NSMapTable *updatedLastVisitsByItem; // @synthesize updatedLastVisitsByItem=_updatedLastVisitsByItem;
-@property(readonly, nonatomic) _Bool wasPrepared; // @synthesize wasPrepared=_wasPrepared;
 
 @end
 

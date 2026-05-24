@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _DUITargetLayerDescriptor
 {
     unsigned int _contextID;
-    unsigned int _setDownAnimationContextID;
-    unsigned long long _renderID;
-    NSString *_systemShellHostingSpaceIdentifier;
-    unsigned long long _setDownAnimationRenderID;
 }
 
 + (_Bool)title of an alert presented when a document could not be opened.;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned int);
+- (id)synchronousDatabaseQueryProvider;
+- (void)protobufForUpdateT3:(id)arg1;
+- (void)noteBatchSetCompleteForAccountID:(unsigned long long)arg1;
+- (void)noteBatchMessage:(unsigned int)arg1 fromAccount:usingService: /* Error: Ran out of types for this method. */;
+- (void)SyncingAttachments:(unsigned long long)arg1 didCompleteRecoverableMessageSync:didSucceedSyncingRecoverableMessageSync:syncAttemptCount: /* Error: Ran out of types for this method. */;
+- (unsigned long long)deleteScheduledMessageZone;
+- (unsigned int)deleteReplayDBIfNotUnderFirstUnlock;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int)
 × ;
 - (_Bool)setLineLabel:(id)arg1;
-- (void)s:(id)arg1 startingAt:endingAt: /* Error: Ran out of types for this method. */;
+- (void)movieScrubber:(id)arg1 evenlySpacedTimestamps:startingAt:endingAt: /* Error: Ran out of types for this method. */;
 - (id)tonAppearance;
 - (void)erent user interface idiom. Current idiom is %@, idiom from restoration archive is %@;
 - (void)£Ì$ _;
 
 // Remaining properties
 @property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;
-@property(nonatomic) unsigned long long renderID; // @synthesize renderID=_renderID;
-@property(nonatomic) unsigned int setDownAnimationContextID; // @synthesize setDownAnimationContextID=_setDownAnimationContextID;
-@property(nonatomic) unsigned long long setDownAnimationRenderID; // @synthesize setDownAnimationRenderID=_setDownAnimationRenderID;
-@property(copy, nonatomic) NSString *systemShellHostingSpaceIdentifier; // @synthesize systemShellHostingSpaceIdentifier=_systemShellHostingSpaceIdentifier;
 
 @end
 

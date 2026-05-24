@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
 @protocol MFMailComposeViewControllerHelperDelegate;
 
 @protocol MFMailComposeViewControllerHelper
+- (void)fc_isNewsURL;
+- (void)fallbackToReverseChronSorting;
+- (void)executeWithContext:(NSString *)arg1 delegate:qualityOfService: /* Error: Ran out of types for this method. */;
+- (void)emailSignupRequiredAppLaunchCount;
+- (void)channelPickerLocalSearchConfigurationProfiles;
+- (void)CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}}8r^{CGRect={CGPoint=dd}{CGSize=dd}}16;
+- (void)?0{CGSize=dd}8;
 
 // Remaining properties
 @property(nonatomic) __weak id <MFMailComposeViewControllerHelperDelegate> delegate;

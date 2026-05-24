@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ChatKit.TapbackPickerInputController
 {
     id inputControllerDelegate;
-    id previousPayloadDelegate;
 }
 
 - (void);
@@ -23,14 +20,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)iguration;
-- (_Bool)A;
+- (void)Configuration;
+- (_Bool)4A;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-@property(nonatomic, readonly) _Bool supportsImagePaste;
-@property(nonatomic, readonly) NSString *textInputContextIdentifier;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface HMAccessoryAllowedHost
 {
     _Bool _unrestricted;
-    NSString *_name;
-    unsigned long long _purpose;
-    NSSet *_addresses;
 }
 
 + (_Bool);
@@ -22,15 +19,11 @@
 - (void);
 - (unsigned long long)Ýð!XDùZ°1Â0@ù
 × ;
-- (id)eWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)reportJunkInviteWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)%{public}@Cannot determine media session;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *address;
-@property(readonly, nonatomic) NSSet *addresses; // @synthesize addresses=_addresses;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long purpose; // @synthesize purpose=_purpose;
-@property(readonly, nonatomic, getter=isUnrestricted) _Bool unrestricted; // @synthesize unrestricted=_unrestricted;
 
 @end
 

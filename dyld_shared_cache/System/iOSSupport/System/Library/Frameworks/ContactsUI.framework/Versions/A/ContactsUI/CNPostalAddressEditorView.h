@@ -4,46 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMutablePostalAddress, CNPostalAddress, CNPostalAddressEditorTableView, CNPostalAddressFormattingSpecification, NSArray, NSDictionary, NSMutableDictionary, NSString, UIColor;
-@protocol CNPresenterDelegate;
+@class CNMutablePostalAddress, CNPostalAddressEditorTableView;
 
 __attribute__((visibility("hidden")))
 @interface CNPostalAddressEditorView
 {
     CNMutablePostalAddress *_address;
-    NSDictionary *_valueTextAttributes;
-    id <CNPresenterDelegate> _delegate;
-    CNPostalAddressEditorTableView *_tableView;
-    NSArray *_cellsLayout;
-    CNPostalAddressFormattingSpecification *_formatSpecification;
-    NSMutableDictionary *_textFields;
 }
 
 - (void);
 - (void);
+- (void);
+- (id);
+- (id)R
+ja;
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)nM;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (long long);
+- (void);
+- (void);
+- (void)remoteApprovalCompletion;
+- (id);
+- (long long)removeLockDirectoryAndReturnError:(id)arg1;
 - (_Bool);
 - (long long);
 - (void);
@@ -53,34 +47,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)v@?^v>20;
 - (id)ÑuÐ1Â0@ù
 × ;
-- (void)ct: /* Error: Ran out of types for this method. */;
-- (void)ewControllerDelegate;
+- (void)_primaryPropertyStringForContact: /* Error: Ran out of types for this method. */;
+- (void)CNContactGroupPickerViewControllerDelegate;
 - (id)0 ;
 - (id)tem"8;
 - (void);
 - (_Bool)t#æÿÁ!ôà;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ab_text;
-@property(copy, nonatomic) NSDictionary *ab_textAttributes;
-@property(copy, nonatomic) CNPostalAddress *address;
-@property(copy, nonatomic) NSArray *cellsLayout; // @synthesize cellsLayout=_cellsLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNPresenterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNPostalAddressFormattingSpecification *formatSpecification; // @synthesize formatSpecification=_formatSpecification;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long lineCount;
-@property(copy, nonatomic) UIColor *separatorColor;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CNPostalAddressEditorTableView *tableView; // @synthesize tableView=_tableView;
-@property(readonly, nonatomic) NSMutableDictionary *textFields; // @synthesize textFields=_textFields;
 
 @end
 

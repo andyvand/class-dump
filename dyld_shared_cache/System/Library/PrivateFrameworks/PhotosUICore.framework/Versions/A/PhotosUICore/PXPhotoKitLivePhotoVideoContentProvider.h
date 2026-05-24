@@ -6,17 +6,15 @@
 
 #import <PhotosUICore/PXPhotoKitVideoContentProvider.h>
 
-@class NSString, PXPhotoKitLivePhotoVideoContentProviderSpec, PXVideoStabilizeOperation;
+@class PXPhotoKitLivePhotoVideoContentProviderSpec;
 
 @interface PXPhotoKitLivePhotoVideoContentProvider : PXPhotoKitVideoContentProvider
 {
     PXPhotoKitLivePhotoVideoContentProviderSpec *_spec;
-    long long _assetPlaybackStyle;
-    PXVideoStabilizeOperation *_stabilizeOperation;
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -28,14 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PXPhotoKitLivePhotoVideoContentProviderSpec *spec; // @dynamic spec;
-@property(readonly) Class superclass;
 
 @end
 

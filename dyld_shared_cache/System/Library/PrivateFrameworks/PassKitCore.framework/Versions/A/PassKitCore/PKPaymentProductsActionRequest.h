@@ -11,7 +11,6 @@
 @interface PKPaymentProductsActionRequest : PKPaymentWebServiceRequest
 {
     NSString *_action;
-    NSString *_productIdentifier;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -20,14 +19,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)nTask:downloadRecord:data: /* Error: Ran out of types for this method. */;
-- (void)tCardDetails:(id)arg1;
+- (void),N,V_rxfilter;
+- (id)_handleDeviceCheckInTask:downloadRecord:data: /* Error: Ran out of types for this method. */;
+- (void)setCardDetails:(id)arg1;
 - (void)st-card-session-token;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(retain, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
 
 @end
 

@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CNVSchemaCNVExecutionCommitEnded, CNVSchemaCNVExecutionCommitStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CNVSchemaCNVExecutionCommitContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    CNVSchemaCNVExecutionCommitStarted *_startedOrChanged;
-    CNVSchemaCNVExecutionCommitEnded *_ended;
-    SISchemaUUID *_hypothesisId;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasHypothesisId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -48,7 +40,7 @@
 - (_Bool);
 - (id);
 - (id)"SISchemaGradingOptInStateChange";
-- (id)on;
+- (id)IFTSchemaIFTToolDisambiguation;
 - (id)À;
 - (void)&;
 - (void);
@@ -56,15 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) CNVSchemaCNVExecutionCommitEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasHypothesisId; // @synthesize hasHypothesisId=_hasHypothesisId;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *hypothesisId; // @synthesize hypothesisId=_hypothesisId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CNVSchemaCNVExecutionCommitStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

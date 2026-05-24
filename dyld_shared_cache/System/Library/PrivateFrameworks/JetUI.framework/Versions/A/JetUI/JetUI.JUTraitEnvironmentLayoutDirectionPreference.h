@@ -7,12 +7,11 @@
 @interface JetUI.JUTraitEnvironmentLayoutDirectionPreference
 {
     id userDefaults;
-    id preferredLayoutDirection;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)pple.Maps;
 - (void);
 
 @end

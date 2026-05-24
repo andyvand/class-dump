@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface PXImportAssetsDataSource
 {
     _Bool _startsAtEnd;
-    NSArray *_assetCollections;
-    NSDictionary *_assetCollectionsById;
-    NSDictionary *_assetsMap;
 }
 
 - (long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)6;
 - (unsigned long long);
 - (id);
 - (struct PXSimpleIndexPath);
@@ -40,15 +37,13 @@
 - (id);
 - (id);
 - (id);
-- (long long)owWithTitle:childSettings: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ument;
+- (long long)rowWithTitle:childSettings: /* Error: Ran out of types for this method. */;
+- (unsigned long long)PhotosView_genericDocument;
 - (long long)¤P;
 - (void)?Ò;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *assetCollections; // @synthesize assetCollections=_assetCollections;
-@property(readonly, nonatomic) NSDictionary *assetCollectionsById; // @synthesize assetCollectionsById=_assetCollectionsById;
-@property(readonly, nonatomic) NSDictionary *assetsMap; // @synthesize assetsMap=_assetsMap;
 
 @end
 

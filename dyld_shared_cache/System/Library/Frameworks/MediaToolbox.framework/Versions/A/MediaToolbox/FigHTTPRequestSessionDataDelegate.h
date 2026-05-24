@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface FigHTTPRequestSessionDataDelegate
 {
     NSMutableDictionary *_taskToFigHTTPRequest;
-    struct OpaqueFigReentrantMutex *_taskToFigHTTPRequestMutex;
-    unsigned char _doesIgnoreDidReceiveResponseDisposition;
 }
 
 - (void);
+- (void)h;
 - (void);
-- (void);
-- (struct FigRetainProxy *);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (struct FigRetainProxy *)actions;
+- (void)on:(id)arg1 Fetched pending follow up items:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)wA;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

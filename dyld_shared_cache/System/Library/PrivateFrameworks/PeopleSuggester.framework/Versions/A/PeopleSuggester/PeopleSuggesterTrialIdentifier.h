@@ -9,37 +9,31 @@
 @interface PeopleSuggesterTrialIdentifier
 {
     NSString *_deployment;
-    NSString *_task;
-    NSString *_treatment;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)_endPointType;
+- (void)_contactSuggestionHeartbeatReported;
+- (_Bool)_answerId;
+- (_Bool)_actionCandidatesGenerated;
+- (_Bool)numServicesCompleted;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)J*J
+;
 - (id);
-- (id);
+- (id)j.@�?;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deployment; // @synthesize deployment=_deployment;
-@property(readonly, nonatomic) _Bool hasDeployment;
 @property(readonly, nonatomic) _Bool hasTask;
-@property(readonly, nonatomic) _Bool hasTreatment;
-@property(retain, nonatomic) NSString *task; // @synthesize task=_task;
-@property(retain, nonatomic) NSString *treatment; // @synthesize treatment=_treatment;
 
 @end
 

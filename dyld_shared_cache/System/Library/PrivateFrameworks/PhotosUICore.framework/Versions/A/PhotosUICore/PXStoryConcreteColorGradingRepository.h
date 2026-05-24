@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject, PXStoryColorGradingConfiguration;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PXStoryConcreteColorGradingRepository
 {
     NSObject<OS_os_log> *_log;
-    NSCache *_colorLookupCubeCache;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
@@ -36,10 +35,7 @@
 - (void)w¨;
 
 // Remaining properties
-@property(readonly, nonatomic) NSCache *colorLookupCubeCache; // @synthesize colorLookupCubeCache=_colorLookupCubeCache;
-@property(readonly, nonatomic) PXStoryColorGradingConfiguration *configuration;
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) unsigned long long minimumCategoryKindFallbacks;
 
 @end
 

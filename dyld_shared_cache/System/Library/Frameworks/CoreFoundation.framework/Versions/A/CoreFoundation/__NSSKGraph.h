@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface __NSSKGraph
 {
     struct edge *_edges;
-    struct vertex *_vertices;
-    unsigned long long _numV;
-    unsigned long long _numE;
-    unsigned long long _currE;
-    unsigned long long _dump;
-    unsigned long long _l_end;
 }
 
 - (void);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSString;
-@protocol CNFavoritesLogger;
+@class CNContactStore;
 
 __attribute__((visibility("hidden")))
 @interface CNFavoritesLegacyStore
 {
     CNContactStore *_contactStore;
-    id <CNFavoritesLogger> _logger;
 }
 
 - (_Bool);
@@ -20,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)Aq&! Cù1*ð1Â0@ù
 × ;
@@ -33,14 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CNFavoritesLogger> logger; // @synthesize logger=_logger;
-@property(readonly) Class superclass;
 
 @end
 

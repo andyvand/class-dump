@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVSQLStatement, NSString;
+@class MSVSQLStatement;
 
 @interface MSVSQLRowEnumerator
 {
@@ -18,32 +18,25 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_controlContainer;
 - (id);
 - (double);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)reAnalyticsDictionary;
 - (id);
 - (_Bool);
 - (id);
 - (float);
 - (id);
+- (id)VarI4FromDec;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long columnCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

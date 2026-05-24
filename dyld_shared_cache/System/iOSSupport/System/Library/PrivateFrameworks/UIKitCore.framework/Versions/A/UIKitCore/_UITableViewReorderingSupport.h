@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSTimer, UIShadowView, UITableViewCell;
+@class UITableViewCell;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewReorderingSupport
 {
     UITableViewCell *_reorderedCell;
-    NSIndexPath *_initialIndexPath;
-    NSIndexPath *_targetIndexPath;
-    unsigned int _oldShowHorizontalScrollIndicator:1;
-    unsigned int _oldShowVerticalScrollIndicator:1;
-    unsigned int _reloadDataCalled:1;
-    unsigned int _reorderingCancelled:1;
-    NSTimer *_autoscrollTimer;
-    UIShadowView *_topShadowView;
-    UIShadowView *_bottomShadowView;
-    _Bool _wasScrollingEnabled;
-    _Bool _hadAdjustsContentInsetWhenScrollDisabled;
 }
 
-- (void)erInteractionAssistantCSg;
+- (void)So30_UIPointerInteractionAssistantCSg;
 
 @end
 

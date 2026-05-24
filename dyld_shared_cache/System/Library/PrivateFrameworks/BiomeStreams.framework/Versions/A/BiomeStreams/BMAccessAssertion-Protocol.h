@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessDescriptor, BMResourceContainer, NSString;
+@class BMAccessDescriptor, BMResourceContainer;
 
 @protocol BMAccessAssertion
 - (BMAccessDescriptor *)_infer;
 - (BMResourceContainer *);
 
 // Remaining properties
-@property(readonly, nonatomic) BMResourceContainer *container;
 @property(readonly, nonatomic) BMAccessDescriptor *descriptor;
-@property(readonly, nonatomic) NSString *path;
 @end
 

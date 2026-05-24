@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDPublisherFilter
 {
     PBUnknownFields *_unknownFields;
-    _Bool _partiallyClientize;
-    struct {
-        unsigned int has_partiallyClientize:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)I;
+- (_Bool)`;
 - (_Bool);
 - (id)16@0:(struct _NSZone *)arg1 8;
-- (id)mapsServer;
+- (id)_mapsServer;
 - (id)8©	0ª	;
 - (void)F	ú=jF@;
 

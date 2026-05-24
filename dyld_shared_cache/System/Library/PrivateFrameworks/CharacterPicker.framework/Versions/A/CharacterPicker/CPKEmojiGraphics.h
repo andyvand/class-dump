@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPKEmojiGraphics
 {
     NSFont *_font;
-    double _fontSize;
 }
 
 + (id);
@@ -20,14 +19,11 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGSize emojiCellBounds;
-@property(readonly) struct CGSize emojiSize;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
 @property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
 
 @end

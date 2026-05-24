@@ -6,79 +6,47 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UIAlertAction, UIAlertController, UIAlertControllerVisualStyle, UIImageView, UILabel, _UIAlertControllerActionViewMetrics;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface _UIAlertControllerActionView : UIView
 {
     _Bool _highlighted;
-    UIView *_labelContainerView;
-    UILabel *_label;
-    NSLayoutConstraint *_axLabelContainerWidthConstraint;
-    NSLayoutConstraint *_labelContainerLeadingConstraint;
-    NSLayoutConstraint *_labelContainerTrailingConstraint;
-    NSLayoutConstraint *_labelContainerCenterXConstraint;
-    NSLayoutConstraint *_labelContainerLeadingPinConstraint;
-    NSLayoutConstraint *_labelContainerTrailingPinConstraint;
-    NSLayoutConstraint *_labelWidthConstraint;
-    NSLayoutConstraint *_labelCenterLeadingConstraint;
-    UIView *_contentViewControllerContainerView;
-    NSArray *_contentViewControllerConstraints;
-    UILabel *_descriptiveLabel;
-    NSArray *_havingDescriptiveLabelConstraints;
-    NSArray *_notHavingDescriptiveLabelConstraints;
-    NSLayoutConstraint *_descriptiveLabelWidthConstraint;
-    NSLayoutConstraint *_descriptiveLabelTrailingToLabelLeadingLabelConstraint;
-    NSLayoutConstraint *_descriptiveLabelTrailingToContainerCenterConstraint;
-    UIImageView *_checkView;
-    NSLayoutConstraint *_checkToMarginConstraint;
-    UIImageView *_imageView;
-    NSLayoutConstraint *_marginToImageConstraint;
-    NSLayoutConstraint *_imageViewBaselineOrCenterYConstraint;
-    NSLayoutConstraint *_imageViewTopConstraint;
-    NSLayoutConstraint *_imageViewBottomConstraint;
-    NSLayoutConstraint *_minimumHeightConstraint;
-    UIAlertAction *_action;
-    UIAlertControllerVisualStyle *_visualStyle;
-    _UIAlertControllerActionViewMetrics *_metrics;
-    _Bool _hasDescriptiveText;
-    double _axEnforcedWidth;
-    UIAlertController *_alertController;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)q40q48@"NSArray"56B64B68;
+- (void)initWithSender:(id)arg1 time:body:attributes:fileTransferGUIDs:flags:error:guid:associatedMessageGUID:associatedMessageType:associatedMessageRange:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
+- (void)ifier:(id)arg1;
+- (void)iatedMessageEmoji:(id)arg1 messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
+- (void)checksForSensitivityOnSend;
+- (id)tachmentRecordZoneID;
+- (id)R,N;
 - (_Bool);
 - (double);
 - (double);
+- (void)1%;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ification;
+- (void)TrustKit inference;
+- (void)cisionResult enabled, returning forced junk result instead of performing TrustKit inference;
+- (void)zation %s, falling back to system lookup behavior;
+- (void)ailed to find localized string for key %s with localization %s, falling back to system lookup behavior;
+- (void):%f, number of messages:%ld /* Error: Ran out of types for this method. */;
+- (void)at slices for guid with guid %s;
+- (void)nd on service:%s /* Error: Ran out of types for this method. */;
+- (void)f OTP(%s) and returning:%ld /* Error: Ran out of types for this method. */;
+- (void)et with UUID %@;
+- (void)n't download assets, we are optimizing attachment storage.;
+- (void)ng to retrieve attachment at index:(id)arg1 %u for transfer ID:%@, failing /* Error: Ran out of types for this method. */;
+- (void)%@  fileSizeString:(_Bool)arg1 %@;
+- (void)(%@) that isn't IMDIDS (%@), can't determine region -- falling through.;
+- (void)%@) with country code (%@) is a candidate for Oscar filtering.;
+- (void)isn't IMDIDS (%@), can't determien region -- falling through.;
+- (void)not a candidate for spam filtering.;
+- (void)code (%@) is not a candidate for spam filtering.;
+- (id)MarcoLoggingStringForMessageData;
 - (long long);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -99,9 +67,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)StorageContainerSizeHint;
 - (void);
-- (id)tionContentView;
+- (id)_actionContentView;
 - (void)lEffectView",&,N,V_presentationContainerEffectView;
 - (void);
 - (id)alpha;
@@ -113,22 +81,7 @@ __attribute__((visibility("hidden")))
 - (void)yõþÀÌ;
 
 // Remaining properties
-@property(copy, nonatomic) UIAlertAction *action;
-@property(nonatomic) __weak UIAlertController *alertController; // @synthesize alertController=_alertController;
-@property(readonly) double currentDescriptiveLabelTextWidth;
-@property(readonly) double currentLabelTextWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted;
 @property(retain) NSLayoutConstraint *labelContainerCenterXConstraint; // @synthesize labelContainerCenterXConstraint=_labelContainerCenterXConstraint;
-@property(retain) NSLayoutConstraint *labelContainerLeadingPinConstraint; // @synthesize labelContainerLeadingPinConstraint=_labelContainerLeadingPinConstraint;
-@property(retain) NSLayoutConstraint *labelContainerTrailingPinConstraint; // @synthesize labelContainerTrailingPinConstraint=_labelContainerTrailingPinConstraint;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIAlertControllerVisualStyle *visualStyle; // @synthesize visualStyle=_visualStyle;
 
 @end
 

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     unsigned long long _newStepProgressions;
 }
 
-- (id);
+- (id)setMainBundleIdentifier:(id)arg1;
 - (_Bool);
-- (double);
-- (double);
+- (double)5;
+- (double);
 - (void);
 - (id);
 

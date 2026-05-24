@@ -10,30 +10,21 @@ __attribute__((visibility("hidden")))
 @interface _UIDragEventSample
 {
     _Bool _isApplicationEnter;
-    _Bool _isApplicationWithin;
-    _Bool _isApplicationExit;
-    _Bool _isPolicyDriven;
-    _Bool _isDragEnd;
-    _Bool _hasBeenDelivered;
-    unsigned int _windowServerHitTestContextID;
-    UIWindow *_window;
-    struct CAPoint3D _sceneLocation;
-    struct CAPoint3D _locationInWindow;
 }
 
 + (id);
 - (unsigned int);
-- (void);
-- (struct CAPoint3D);
-- (CDStruct_59622bbb);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (void)n"32;
+- (struct CAPoint3D)setKnownRecordIDsFromList: /* Error: Ran out of types for this method. */;
+- (CDStruct_59622bbb)setHandleParametersOfMessageItem:usingAccount:usingMessageItem:junkChatStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)eventStreamHandler:didReceiveEventWithName:userInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)dispatcher:didReceiveDismissalRequest:fromID: /* Error: Ran out of types for this method. */;
+- (_Bool)didReceiveMessagePlayedForMessageID:date:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)didReceiveMessagePlayedForMessageID:date:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)didReceiveMessageError: /* Error: Ran out of types for this method. */;
+- (id)_sendOptionsForRelayMessage:(id)arg1 command:guid: /* Error: Ran out of types for this method. */;
+- (_Bool)_pwRequestID;
+- (id)ingSatelliteMessagesPerService;
 - (id);
 - (id);
 - (struct CAPoint3D)1Â0@ù
@@ -41,16 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)9^;
 
 // Remaining properties
-@property(nonatomic) _Bool hasBeenDelivered; // @synthesize hasBeenDelivered=_hasBeenDelivered;
-@property(readonly, nonatomic) _Bool isApplicationEnter; // @synthesize isApplicationEnter=_isApplicationEnter;
-@property(readonly, nonatomic) _Bool isApplicationExit; // @synthesize isApplicationExit=_isApplicationExit;
-@property(readonly, nonatomic) _Bool isApplicationWithin; // @synthesize isApplicationWithin=_isApplicationWithin;
-@property(readonly, nonatomic) _Bool isDragEnd; // @synthesize isDragEnd=_isDragEnd;
-@property(readonly, nonatomic) _Bool isPolicyDriven; // @synthesize isPolicyDriven=_isPolicyDriven;
-@property(readonly, nonatomic) struct CAPoint3D locationInWindow; // @synthesize locationInWindow=_locationInWindow;
-@property(readonly, nonatomic) struct CAPoint3D sceneLocation; // @synthesize sceneLocation=_sceneLocation;
 @property(readonly, nonatomic) UIWindow *window; // @synthesize window=_window;
-@property(readonly, nonatomic) unsigned int windowServerHitTestContextID; // @synthesize windowServerHitTestContextID=_windowServerHitTestContextID;
 
 @end
 

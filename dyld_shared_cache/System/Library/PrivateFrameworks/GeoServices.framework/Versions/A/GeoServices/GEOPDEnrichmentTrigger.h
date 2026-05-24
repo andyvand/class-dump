@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDEnrichmentTrigger
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_experimentId;
-    NSString *_treatmentId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_experimentId:1;
-        unsigned int read_treatmentId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)version;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ode"b1};
-- (id)Count;
+- (id)_currentRequestCount;
 - (id)Ì+;
 - (void);
 

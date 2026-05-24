@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface DOCProtectedApp
 {
     NSString *_appContainerBundleID;
-    NSSet *_oids;
 }
 
 - (void);
@@ -18,13 +17,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)+;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSString *appContainerBundleID; // @synthesize appContainerBundleID=_appContainerBundleID;
-@property(retain) NSSet *oids; // @synthesize oids=_oids;
 
 @end
 

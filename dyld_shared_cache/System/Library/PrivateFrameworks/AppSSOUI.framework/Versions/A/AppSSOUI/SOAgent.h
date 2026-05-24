@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, NSXPCListener, POAgentAuthenticationProcess, SOAgentWindowController, SOAuthorizationRequestParameters, SOExtension, SORemoteExtensionViewController;
-
 @interface SOAgent
 {
     CDUnknownBlockType _authorizationCompletion;
-    SOExtension *_extension;
-    SOAgentWindowController *_agentWindow;
-    SORemoteExtensionViewController *_extensionViewController;
-    NSString *_requestQueueIdentifier;
-    NSString *_requestThatPresentedViewController;
-    SOAuthorizationRequestParameters *_requestParameters;
-    NSXPCListener *_extensionXpcListener;
-    NSXPCConnection *_xpcExtensionConnection;
-    NSXPCConnection *_xpcConnection;
-    POAgentAuthenticationProcess *_pssoAgentAuthenticationProcess;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _authenticationCompletion;
-    NSObject *_authenticationObserver;
 }
 
 + (CDUnknownBlockType);
@@ -31,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)K;
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
@@ -40,25 +25,25 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)	ka;
+- (void);
+- (void));
+- (void)S;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)?);
 - (_Bool);
 - (void);
 - (void);
@@ -70,16 +55,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType authenticationCompletion; // @synthesize authenticationCompletion=_authenticationCompletion;
-@property(retain) NSObject *authenticationObserver; // @synthesize authenticationObserver=_authenticationObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain) POAgentAuthenticationProcess *pssoAgentAuthenticationProcess; // @synthesize pssoAgentAuthenticationProcess=_pssoAgentAuthenticationProcess;
-@property(readonly) Class superclass;
 
 @end
 

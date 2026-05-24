@@ -9,45 +9,36 @@
 @interface NSTouchBarCustomizableConfiguration
 {
     NSString *_identifier;
-    NSArray *_defaultItemIdentifiers;
-    NSArray *_allowedItemIdentifiers;
-    NSArray *_requiredItemIdentifiers;
-    NSArray *_customizedItemIdentifiers;
 }
 
-+ (id);
++ (id)ry, %@ isn't implemented yet;
+- (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)tribution;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)lowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (void)setResumeCallback: /* Error: Ran out of types for this method. */;
+- (void)initWithLoggableName:(id)arg1;
+- (void)_onqueue_handleConnectionsAtAPSleep;
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id)s;
 - (_Bool);
 - (void)
 × ;
-- (id)rticalDistance:(struct _NSZone *)arg1;
+- (id)alignVerticalDistance:(struct _NSZone *)arg1;
 - (id)ì©`ª¬;
-- (id)Offset;
+- (id)popupButtonLabelOffset;
 
 // Remaining properties
-@property(copy, getter=_customizedItemIdentifiers, setter=_setCustomizedItemIdentifiers:) NSArray *_customizedItemIdentifiers;
-@property(copy) NSArray *allowedItemIdentifiers;
-@property(copy) NSArray *defaultItemIdentifiers;
-@property(copy) NSString *identifier;
 @property(readonly, copy) NSArray *presentedItemIdentifiers;
-@property(copy) NSArray *requiredItemIdentifiers;
 
 @end
 

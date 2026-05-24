@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PHPhotoLibrary, PXSharedLibraryStatusProvider;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXSharedLibrarySourceLibraryInfoPhotoKit
 {
     NSObject<OS_dispatch_queue> *_queue;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 - (_Bool);
@@ -36,27 +35,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_animationPaths;
 - (id)RBoostBehavior;
 - (void);
 - (id);
 - (_Bool)Æ0RÑH?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCloudPhotoLibraryEnabled;
-@property(readonly, nonatomic) _Bool isCloudPhotoLibraryExiting;
-@property(readonly, nonatomic) _Bool isCloudPhotoLibraryInitialSyncCompleted;
-@property(readonly, nonatomic) _Bool isSystemPhotoLibrary;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) PXSharedLibraryStatusProvider *sharedLibraryStatusProvider;
-@property(readonly) Class superclass;
 
 @end
 

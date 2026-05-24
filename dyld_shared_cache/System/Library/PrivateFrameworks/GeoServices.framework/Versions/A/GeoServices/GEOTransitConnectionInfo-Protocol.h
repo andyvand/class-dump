@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemIdentifier, NSArray, NSString, NSURL;
+@class GEOMapItemIdentifier, NSString;
 
 @protocol GEOTransitConnectionInfo
 - (int)®BA~SX© 4M@;
 - (GEOMapItemIdentifier *)ä¡BA¡.áÐqF@;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapItemIdentifier *itemIdentifier;
-@property(readonly, nonatomic) NSArray *labelItems;
-@property(readonly, nonatomic) unsigned long long muid;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) int providerID;
-@property(readonly, nonatomic) NSURL *urlToOpen;
 @end
 

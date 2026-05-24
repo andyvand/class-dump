@@ -7,19 +7,14 @@
 @interface AWDSafariUsingPrivateBrowsingEvent
 {
     unsigned long long _timestamp;
-    _Bool _inPrivateBrowsing;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int inPrivateBrowsing:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -33,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasInPrivateBrowsing;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool inPrivateBrowsing; // @synthesize inPrivateBrowsing=_inPrivateBrowsing;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

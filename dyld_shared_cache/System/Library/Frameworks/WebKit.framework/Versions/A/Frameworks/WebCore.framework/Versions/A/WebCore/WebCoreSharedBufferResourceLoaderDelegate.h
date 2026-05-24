@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface WebCoreSharedBufferResourceLoaderDelegate
 {
     struct ThreadSafeWeakPtr<WebCore::ImageDecoderAVFObjC, WTF::NoTaggingTraits<WebCore::ImageDecoderAVFObjC>> _parent;
-    long long _expectedContentSize;
-    struct RetainPtr<NSData> _data;
-    _Bool _complete;
-    struct Vector<WTF::RetainPtr<AVAssetResourceLoadingRequest>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _requests;
-    struct Lock _dataLock;
 }
 
 - (void);
@@ -24,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)c9�H;
 - (void);
 - (id);
 - (id);
@@ -38,13 +33,6 @@ mâ xøo;
 
 // Remaining properties
 @property(readonly) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

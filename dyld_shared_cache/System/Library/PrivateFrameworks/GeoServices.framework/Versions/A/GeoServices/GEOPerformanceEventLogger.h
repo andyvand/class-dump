@@ -9,8 +9,6 @@
 @interface GEOPerformanceEventLogger
 {
     NSString *_className;
-    _Bool _enableSignposts;
-    id _enableSignpostsListener;
 }
 
 - (void);

@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSArray, NSString;
 
 @protocol TransparencySettingsProtocol
+- (NSArray *);
+- (NSArray *)O;
+- (double)銹;
+- (unsigned long long)ic}@ attribute %{public}@ contains no valid subattributes;
 - (NSString *)@ù
 × ;
 - (NSString *)SError"28@"NSDictionary"36;

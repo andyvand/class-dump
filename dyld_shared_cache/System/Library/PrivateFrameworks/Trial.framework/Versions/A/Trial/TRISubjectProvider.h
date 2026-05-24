@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASLock;
+@class NSString;
 
 @interface TRISubjectProvider
 {
     NSString *_path;
-    _PASLock *_lock;
 }
 
 + (id);
 + (_Bool);
-- (id);
-- (_Bool);
+- (id)p;
+- (_Bool)sh}@', %@;
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)default;
+- (id),;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);

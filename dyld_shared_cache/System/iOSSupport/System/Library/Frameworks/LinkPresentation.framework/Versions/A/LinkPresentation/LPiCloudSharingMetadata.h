@@ -6,49 +6,43 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSDictionary, NSString;
+@class NSString;
 
 @interface LPiCloudSharingMetadata : LPSpecializationMetadata
 {
     NSString *_applicationBundleIdenfier;
-    NSString *_application;
-    NSString *_kind;
-    NSString *_title;
-    LPImage *_icon;
-    LPImage *_thumbnail;
-    NSDictionary *_encodedTokens;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)startDate;
++ (id)skipOnboardingWithOnboardingSuggestions:(id)arg1;
++ (id)skipBackwardCommand;
++ (id)skinnyReplyBalloonMaskSizeWithTailShape:(id)arg1;
++ (id)skinnyReplyBalloonMaskSizeWithTailShape:(id)arg1;
++ (id)shouldDuckOthers;
 + (_Bool);
-- (id);
-- (id);
+- (id)transcriptCollectionViewControllerWillScrollToBottom:(id)arg1;
+- (id)transcriptCollectionViewControllerWillDisplayLastBalloon:(id)arg1;
+- (_Bool)transcriptCollectionViewControllerWillBeginFullscreenEffectAnimationForOutgoingMessage:(id)arg1;
+- (id)transcriptCollectionViewControllerWantsCurrentDesiredIntent:(id)arg1;
+- (void)transcriptCollectionViewController:(id)arg1 didScroll: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 balloonView:showInlineReplyForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (id)transcriptBackgroundPath;
+- (id)transcriptBackgroundLuminosity;
+- (id)transcriptBackgroundGUID;
+- (void)transcriptBackgroundChannelController;
+- (id)touchUpInsideUnknownSenderButton:forChatItem: /* Error: Ran out of types for this method. */;
+- (id)touchUpInsideShowHideTranslationButton:(id)arg1;
+- (_Bool)topConversationListSpace;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)throwAnimationKeyboardFrame: /* Error: Ran out of types for this method. */;
+- (id)thinkingDotsOffset;
+- (id)textStyleCommandsWithAction:configureImages:configureAttributedTitles:selectedText: /* Error: Ran out of types for this method. */;
+- (_Bool)textInputContextIdentifierForPreviewController:(id)arg1;
+- (id)textEffectCoordinator:didChangeStateOfAnimator:textView: /* Error: Ran out of types for this method. */;
+- (id)templateImageWithType:(id)arg1;
+- (void)suppressAnimationsForFailureBadgeUpdate;
+- (id)supportedPayloadIds;
+- (id)summaryFrameIfAccessoryIndicatorVisible;
 - (id);
 - (id);
 - (void);
@@ -69,20 +63,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *application; // @synthesize application=_application;
-@property(copy, nonatomic) NSString *applicationBundleIdenfier; // @synthesize applicationBundleIdenfier=_applicationBundleIdenfier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *encodedTokens; // @synthesize encodedTokens=_encodedTokens;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) LPImage *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

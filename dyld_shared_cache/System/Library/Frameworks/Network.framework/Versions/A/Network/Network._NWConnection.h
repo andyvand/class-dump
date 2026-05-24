@@ -7,9 +7,6 @@
 @interface Network._NWConnection
 {
     id _nw;
-    id lock;
-    id endpoint;
-    id parameters;
 }
 
 @end

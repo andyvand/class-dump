@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSMutableSet, PHPhotoLibrary;
+@class NSMutableDictionary, PHPhotoLibrary;
 
 @interface PHImportDuplicateChecker
 {
     NSMutableDictionary *_avchdAssetIdentifierCache;
-    NSMutableDictionary *_sizeNameCache;
-    NSMutableDictionary *_assetIdentifierCache;
-    NSDate *_lastChange;
-    NSMutableSet *_updatedDupInfos;
-    PHPhotoLibrary *_library;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -30,7 +25,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id)orType: /* Error: Ran out of types for this method. */;
+- (id)preferredFileExtensionForType: /* Error: Ran out of types for this method. */;
 - (void)setForceLocationMetadataBaking: /* Error: Ran out of types for this method. */;
 
 // Remaining properties

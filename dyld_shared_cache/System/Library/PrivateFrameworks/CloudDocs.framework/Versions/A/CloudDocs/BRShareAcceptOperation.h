@@ -11,13 +11,12 @@
 @interface BRShareAcceptOperation : BROperation
 {
     NSURL *_shareLink;
-    CDUnknownBlockType _shareAcceptCompletionBlock;
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void)_;
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 

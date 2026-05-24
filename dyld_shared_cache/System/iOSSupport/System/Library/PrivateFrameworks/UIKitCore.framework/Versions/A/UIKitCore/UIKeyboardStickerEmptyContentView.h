@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)toCheck is set to IMCheckNoDeviceConditions, changing it to IMCheckAllDeviceConditions;
 - (id);
 - (void);
-- (id)ity;
+- (id)opacity;
 - (void)p Ôþq;
 
 // Remaining properties

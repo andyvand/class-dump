@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBCKRecordIdentifier, NTPBCKRequestedFields;
+@class NSString;
 
 @interface NTPBCKRecordRetrieveRequest
 {
     NSString *_clientVersionETag;
-    NTPBCKRecordIdentifier *_recordIdentifier;
-    NTPBCKRequestedFields *_requestedFields;
-    NSString *_versionETag;
 }
 
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)convertLHS:toRGB: /* Error: Ran out of types for this method. */;
+- (void)P;
 - (void);
 - (void);
 - (id);
@@ -25,26 +22,19 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)GD;
 - (id);
 - (_Bool);
-- (void);
+- (void)P;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)eet;
+- (void)hasSawSubscriptionSheet;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientVersionETag; // @synthesize clientVersionETag=_clientVersionETag;
-@property(readonly, nonatomic) _Bool hasClientVersionETag;
 @property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(readonly, nonatomic) _Bool hasRequestedFields;
-@property(readonly, nonatomic) _Bool hasVersionETag;
-@property(retain, nonatomic) NTPBCKRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(retain, nonatomic) NTPBCKRequestedFields *requestedFields; // @synthesize requestedFields=_requestedFields;
-@property(retain, nonatomic) NSString *versionETag; // @synthesize versionETag=_versionETag;
 
 @end
 

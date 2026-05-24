@@ -6,21 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPageCurlWithShadowTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    CIImage *inputBacksideImage;
-    CIVector *inputExtent;
-    NSNumber *inputTime;
-    NSNumber *inputAngle;
-    NSNumber *inputRadius;
-    NSNumber *inputShadowSize;
-    NSNumber *inputShadowAmount;
-    CIVector *inputShadowExtent;
 }
 
 + (id);
@@ -35,9 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)xZkf{bqnyqxxxoonoEZPeNYMidvtynywbpl|lyy|zzzzqqqq>XNcGVK_mmmm ¨­°¯°°¤¤¤¤}}~||~e}z|xt|Shao?\SiRc[nUrn~io~~~~bjej/K;_;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputBacksideImage; // @synthesize inputBacksideImage;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
 
 @end
 

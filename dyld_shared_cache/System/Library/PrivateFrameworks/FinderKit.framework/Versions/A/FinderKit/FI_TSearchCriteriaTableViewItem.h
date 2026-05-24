@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TSearchCriteriaTableViewItem : FI_TTableViewItem
 {
     _Bool _inMenu;
-    NSString *_attributeName;
-    NSString *_localizedAttributeName;
-    NSString *_localizedAttributeDescription;
-    unsigned long long _dataType;
 }
 
 - (void);
@@ -25,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)qA;
 - (id);
 - (unsigned long long);
 - (void)ð;
@@ -33,10 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *attributeName; // @synthesize attributeName=_attributeName;
-@property(nonatomic) unsigned long long dataType; // @synthesize dataType=_dataType;
-@property(nonatomic) _Bool inMenu; // @synthesize inMenu=_inMenu;
-@property(copy, nonatomic) NSString *localizedAttributeDescription; // @synthesize localizedAttributeDescription=_localizedAttributeDescription;
-@property(copy, nonatomic) NSString *localizedAttributeName; // @synthesize localizedAttributeName=_localizedAttributeName;
 
 @end
 

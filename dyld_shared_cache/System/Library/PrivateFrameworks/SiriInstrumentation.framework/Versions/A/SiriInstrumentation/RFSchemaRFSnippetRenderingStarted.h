@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RFSchemaRFSnippetRenderingStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)C;
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)?	;
+- (unsigned long long)t supported on macOS;
 - (_Bool);
-- (_Bool);
+- (_Bool)ETE FROM chat WHERE guid = ?;;
 - (id);
-- (id);
-- (id)CandidateEvaluations:(id)arg1;
+- (id);
+- (id)addCandidateEvaluations:(id)arg1;
 - (id)Q,N,V_status;
-- (_Bool)NGUSECASE_FOUNDATION_MODELS;
+- (_Bool)ODDINTELLIGENCEFEATUREREPORTINGUSECASE_FOUNDATION_MODELS;
 - (_Bool);
 - (void)æ";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

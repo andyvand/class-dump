@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, NSURL;
+@class NSString;
 
 @interface FPUIActionExtensionContext
 {
     NSString *_domainIdentifier;
-    NSURL *_initialURL;
-    NSError *_setupError;
 }
 
 + (id);
 + (id);
+- (id)_classificationFromAMSClassification: /* Error: Ran out of types for this method. */;
+- (void)_clampTimestamp:(id)arg1;
+- (void)_cachedPaymentSheetResponse;
+- (void)_cachedAuthenticateResponse;
+- (id)_boolFromDatabaseForKey:defaultValue:domain:error: /* Error: Ran out of types for this method. */;
+- (void)_baseKeychainQueryDictionaryWithLabel: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)requestCheckingOfString:(id)arg1 range:types:options:inSpellDocumentWithTag:completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
 - (id)°Z;
 
 // Remaining properties
 @property(copy) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(copy) NSURL *initialURL; // @synthesize initialURL=_initialURL;
-@property(retain, nonatomic) NSError *setupError; // @synthesize setupError=_setupError;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface WFTreeXMLDocumentStripper
 {
     NSString *pageTitle;
-    NSMutableDictionary *metaTagsLabeled;
-    NSMutableArray *metaTagsUnlabeled;
-    NSMutableArray *scriptBlocks;
-    NSMutableArray *images;
-    NSString *pageContent;
-    NSMutableArray *links;
-    _Bool hasFrameset;
-    _Bool hasShortRefresh;
 }
 
 + (id);
@@ -34,7 +26,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (id);

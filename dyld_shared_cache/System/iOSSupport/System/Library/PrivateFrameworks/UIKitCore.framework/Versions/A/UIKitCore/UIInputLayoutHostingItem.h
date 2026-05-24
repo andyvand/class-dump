@@ -6,44 +6,12 @@
 
 #import <UIKitCore/UIInputWindowControllerHostingItem.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UIInputViewSet, UIInputViewSetPlacement, UIInputWindowControllerHosting, UIKBBackdropView, UIKBInputBackdropView, UIKeyboardItemContainerView, UIPinchGestureRecognizer, UIView;
-@protocol UIInputViewSetPlacementApplicator;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface UIInputLayoutHostingItem : UIInputWindowControllerHostingItem
 {
     _Bool _isOnScreen;
-    _Bool _isFloating;
-    UIKBInputBackdropView *_inputAccessoryBackdropView;
-    NSLayoutConstraint *_assistantTopConstraint;
-    NSLayoutConstraint *_assistantSpacingConstraint;
-    NSLayoutConstraint *_bottomMostGuideConstraint;
-    NSLayoutConstraint *_leftConstraint;
-    NSLayoutConstraint *_rightConstraint;
-    NSLayoutConstraint *_keyplaneWidthConstraint;
-    NSLayoutConstraint *_accessoryViewHeightConstraint;
-    NSLayoutConstraint *_accessoryToGuideConstraint;
-    NSArray *_accessoryEmbedConstraints;
-    NSArray *_accessoryBackdropConstraints;
-    NSArray *_assistantViewEmbedConstraints;
-    NSLayoutConstraint *_assistantHeight;
-    NSArray *_inputViewEmbedConstraints;
-    NSArray *_backgroundConstraints;
-    NSLayoutConstraint *_inputViewHeight;
-    NSArray *_dockViewEmbedConstraints;
-    NSLayoutConstraint *_dockHeight;
-    UIKeyboardItemContainerView *_containerView;
-    UIView *_inputLayoutView;
-    UIView *_inputLayoutAssistantView;
-    UIKBBackdropView *_backdropView;
-    NSArray *_assistantHostViewConstraints;
-    UIInputViewSet *_inputViewSet;
-    UIInputWindowControllerHosting *_hosting;
-    UIKBInputBackdropView *_standardBackgroundView;
-    UIView *_platterView;
-    UIView *_pillView;
-    UIPinchGestureRecognizer *_pinchGesture;
-    struct CGPoint _persistentOffset;
 }
 
 + (_Bool)16^f20^f28^f36;
@@ -53,15 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)assetWriterInputPixelBufferAdaptorWithAssetWriterInput:sourcePixelBufferAttributes: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)addStoreItemWithAdamID:referral:toPlaylistWithPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)T@"MPCloudServiceStatusController",R,N;
 - (void);
-- (void);
-- (id);
+- (id)P;
 - (void);
 - (double);
 - (void);
@@ -78,25 +46,25 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)edLayerStack>";
 - (id)dd}{CGSize=dd}}80@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48 /* Error: Ran out of types for this method. */;
-- (id):withTranslation:touchCount: /* Error: Ran out of types for this method. */;
-- (void)elativeRangeBefore:(id)arg1 withLanguage: /* Error: Ran out of types for this method. */;
-- (id)ctAutofillModeWithAutofillGroup:responders: /* Error: Ran out of types for this method. */;
-- (void)timatedHeightForHeaderInSection:(id)arg1;
-- (void)wTransformForInterfaceOrientation:(id)arg1;
+- (id)longPressGestureWithState:withTranslation:touchCount: /* Error: Ran out of types for this method. */;
+- (void)didInsertText:(id)arg1 relativeRangeBefore:withLanguage: /* Error: Ran out of types for this method. */;
+- (id)contactAutofillModeWithAutofillGroup:responders: /* Error: Ran out of types for this method. */;
+- (void)collectionView:(id)arg1 tableLayout:estimatedHeightForHeaderInSection: /* Error: Ran out of types for this method. */;
+- (void)_viewTransformForInterfaceOrientation:(id)arg1;
 - (void)LayoutFrame;
 - (void),V_usesVariableMargins;
 - (id)Layout;
 - (void)ckWidth;
-- (id)repared;
+- (id)_stats_prepared;
 - (void)Â;
 - (void),Ç;
 - (void)¥;
 - (void),Ê;
 - (id)ä;
-- (_Bool)nu_DarkModeBackgroundHairlineWhite;
+- (_Bool)TVContextMenu_DarkModeBackgroundHairlineWhite;
 - (void)to present a split view controller with a modal presentation style other than full screen or custom %@.;
 - (id);
-- (void)ListMetricsViewStyle;
+- (void)CoreListMetricsViewStyle;
 - (id);
 - (void)¹ ÿcÐSÀc_;
 - (void);
@@ -191,53 +159,7 @@ Kÿ7n;
 - (void)øMÿ;
 
 // Remaining properties
-@property(retain, nonatomic, setter=setInputAccessoryBackdropView:) UIKBInputBackdropView *_inputAccessoryBackdropView; // @synthesize _inputAccessoryBackdropView;
-@property(retain, nonatomic) NSArray *accessoryBackdropConstraints; // @synthesize accessoryBackdropConstraints=_accessoryBackdropConstraints;
-@property(retain, nonatomic) NSArray *accessoryEmbedConstraints; // @synthesize accessoryEmbedConstraints=_accessoryEmbedConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *accessoryToGuideConstraint; // @synthesize accessoryToGuideConstraint=_accessoryToGuideConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *accessoryViewHeightConstraint; // @synthesize accessoryViewHeightConstraint=_accessoryViewHeightConstraint;
-@property(readonly, nonatomic) id <UIInputViewSetPlacementApplicator> applicator;
-@property(retain, nonatomic) NSLayoutConstraint *assistantHeight; // @synthesize assistantHeight=_assistantHeight;
-@property(retain, nonatomic) NSArray *assistantHostViewConstraints; // @synthesize assistantHostViewConstraints=_assistantHostViewConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *assistantSpacingConstraint; // @synthesize assistantSpacingConstraint=_assistantSpacingConstraint;
 @property(retain, nonatomic) NSLayoutConstraint *assistantTopConstraint; // @synthesize assistantTopConstraint=_assistantTopConstraint;
-@property(retain, nonatomic) NSArray *assistantViewEmbedConstraints; // @synthesize assistantViewEmbedConstraints=_assistantViewEmbedConstraints;
-@property(retain, nonatomic) UIKBBackdropView *backdropView; // @synthesize backdropView=_backdropView;
-@property(retain, nonatomic) NSArray *backgroundConstraints; // @synthesize backgroundConstraints=_backgroundConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *bottomMostGuideConstraint; // @synthesize bottomMostGuideConstraint=_bottomMostGuideConstraint;
-@property(retain, nonatomic) UIKeyboardItemContainerView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSLayoutConstraint *dockHeight; // @synthesize dockHeight=_dockHeight;
-@property(retain, nonatomic) NSArray *dockViewEmbedConstraints; // @synthesize dockViewEmbedConstraints=_dockViewEmbedConstraints;
-@property(readonly) unsigned long long hash;
-@property _Bool hideInputView;
-@property _Bool hideInputViewBackdrops;
-@property(readonly) UIView *hostView;
-@property(nonatomic) __weak UIInputWindowControllerHosting *hosting; // @synthesize hosting=_hosting;
-@property(retain, nonatomic) UIView *inputLayoutAssistantView; // @synthesize inputLayoutAssistantView=_inputLayoutAssistantView;
-@property(retain, nonatomic) UIView *inputLayoutView; // @synthesize inputLayoutView=_inputLayoutView;
-@property(readonly) long long inputViewBackdropStyle;
-@property(retain, nonatomic) NSArray *inputViewEmbedConstraints; // @synthesize inputViewEmbedConstraints=_inputViewEmbedConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *inputViewHeight; // @synthesize inputViewHeight=_inputViewHeight;
-@property(readonly) struct UIEdgeInsets inputViewPadding;
-@property(retain, nonatomic) UIInputViewSet *inputViewSet; // @synthesize inputViewSet=_inputViewSet;
-@property(nonatomic) _Bool isFloating; // @synthesize isFloating=_isFloating;
-@property(nonatomic) _Bool isOnScreen; // @synthesize isOnScreen=_isOnScreen;
-@property(readonly) _Bool keyboardController;
-@property(retain, nonatomic) NSLayoutConstraint *keyplaneWidthConstraint; // @synthesize keyplaneWidthConstraint=_keyplaneWidthConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *leftConstraint; // @synthesize leftConstraint=_leftConstraint;
-@property(nonatomic) struct CGPoint persistentOffset; // @synthesize persistentOffset=_persistentOffset;
-@property(retain, nonatomic) UIView *pillView; // @synthesize pillView=_pillView;
-@property(retain, nonatomic) UIPinchGestureRecognizer *pinchGesture; // @synthesize pinchGesture=_pinchGesture;
-@property(readonly) UIInputViewSetPlacement *placement;
-@property(retain, nonatomic) UIView *platterView; // @synthesize platterView=_platterView;
-@property(retain, nonatomic) NSLayoutConstraint *rightConstraint; // @synthesize rightConstraint=_rightConstraint;
-@property(retain, nonatomic) UIKBInputBackdropView *standardBackgroundView; // @synthesize standardBackgroundView=_standardBackgroundView;
-@property(readonly) Class superclass;
 
 @end
 

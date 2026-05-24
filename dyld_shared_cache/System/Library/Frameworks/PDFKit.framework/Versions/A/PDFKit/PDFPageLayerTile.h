@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFPageLayer, PDFRenderingProperties, PDFTileSurface;
+@class PDFPageLayer, PDFRenderingProperties;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageLayerTile
 {
     PDFPageLayer *pageLayer;
-    struct CGAffineTransform renderingTransform;
-    double tileContentsScale;
-    PDFTileSurface *pageSurface;
-    int generationID;
-    _Atomic _Bool isWorking;
-    _Atomic _Bool hasContent;
-    struct CGRect originalFrame;
-    PDFRenderingProperties *_renderingProperties;
-    struct CGRect _rootViewFrame;
 }
 
 - (void);
@@ -36,7 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) PDFRenderingProperties *renderingProperties; // @synthesize renderingProperties=_renderingProperties;
-@property struct CGRect rootViewFrame; // @synthesize rootViewFrame=_rootViewFrame;
 
 @end
 

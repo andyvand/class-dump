@@ -5,7 +5,7 @@
 //
 
 @protocol INSetMessageAttributeIntentResponseExport
-- (long long)e;
+- (long long)icaoCode;
 
 // Remaining properties
 @property(readonly) long long code;

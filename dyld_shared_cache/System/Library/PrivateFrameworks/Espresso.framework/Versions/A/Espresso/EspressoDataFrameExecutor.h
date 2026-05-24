@@ -9,9 +9,6 @@
 @interface EspressoDataFrameExecutor
 {
     struct vector<void *, std::allocator<void *>> pointers_to_free;
-    struct vector<__CVBuffer *, std::allocator<__CVBuffer *>> pixelbuffers_to_release;
-    int _use_cvpixelbuffer;
-    NSArray *_outputMatchingBuffers;
 }
 
 - (int);
@@ -33,7 +30,6 @@
 
 // Remaining properties
 @property(retain) NSArray *outputMatchingBuffers; // @synthesize outputMatchingBuffers=_outputMatchingBuffers;
-@property(nonatomic) int use_cvpixelbuffer; // @synthesize use_cvpixelbuffer=_use_cvpixelbuffer;
 
 @end
 

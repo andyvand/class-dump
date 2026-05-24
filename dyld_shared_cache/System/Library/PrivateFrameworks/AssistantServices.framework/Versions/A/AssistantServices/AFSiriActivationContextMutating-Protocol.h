@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol AFSiriActivationContextMutating
+- (void)shouldUpdateSMSFilterSyncDeviceParamsForDeviceID:(NSDictionary *)arg1 smsFilterCapabilitiesOptions:filterExtensionName: /* Error: Ran out of types for this method. */;
 - (void);
 @end
 

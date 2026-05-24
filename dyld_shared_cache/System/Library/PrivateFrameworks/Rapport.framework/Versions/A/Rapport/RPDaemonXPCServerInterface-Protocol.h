@@ -5,5 +5,8 @@
 //
 
 @protocol RPDaemonXPCServerInterface
+- (void)dual-adapt failed to generate lm;
+- (void)N3fst3FstINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEiEELNS_10GallicTypeE4EEEEE;
+- (void);
 @end
 

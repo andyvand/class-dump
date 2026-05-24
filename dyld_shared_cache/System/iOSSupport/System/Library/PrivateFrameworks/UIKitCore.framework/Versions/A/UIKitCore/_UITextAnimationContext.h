@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id);
+- (id)PHFetchResult";
+- (id)ditionLock",&,V_writingDoneLock;
 - (void)7V#¿7G;
 
 // Remaining properties

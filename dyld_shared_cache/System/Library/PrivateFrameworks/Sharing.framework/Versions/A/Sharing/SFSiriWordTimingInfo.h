@@ -9,9 +9,6 @@
 @interface SFSiriWordTimingInfo
 {
     NSString *_localizedText;
-    double _timeOffset;
-    NSString *_wordID;
-    struct _NSRange _textRange;
 }
 
 + (id);
@@ -20,19 +17,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (struct _NSRange);
 - (id);
-- (double);
-- (void);
+- (double)p based preview:%@ /* Error: Ran out of types for this method. */;
+- (void)PCSMTTPoint;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *localizedText; // @synthesize localizedText=_localizedText;
-@property(nonatomic) struct _NSRange textRange; // @synthesize textRange=_textRange;
-@property(nonatomic) double timeOffset; // @synthesize timeOffset=_timeOffset;
-@property(copy, nonatomic) NSString *wordID; // @synthesize wordID=_wordID;
 
 @end
 

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
+- (void)0@"NSString"28@"NSError"36;
+- (id)collaborationInitiationRequestInfo;
 - (void);
 - (void);
 

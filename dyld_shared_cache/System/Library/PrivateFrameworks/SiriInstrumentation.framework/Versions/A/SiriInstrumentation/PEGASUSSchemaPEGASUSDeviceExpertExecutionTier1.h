@@ -6,22 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSDeviceExpertExecutionTier1 : SISchemaInstrumentationMessage
 {
     NSString *_qnaId;
-    _Bool _isLlmGeneratedAnswer;
-    struct {
-        unsigned int isLlmGeneratedAnswer:1;
-    } _has;
-    _Bool _hasQnaId;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)";
 - (id);
 - (_Bool);
 - (_Bool);
@@ -33,19 +28,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)upIDOnService;
 - (id);
 - (id)
 × ;
-- (id)val;
+- (id)_hasAggregationInterval;
 - (id)",R,N;
 - (void)alue.enumeration.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsLlmGeneratedAnswer;
-@property(nonatomic) _Bool hasQnaId; // @synthesize hasQnaId=_hasQnaId;
-@property(nonatomic) _Bool isLlmGeneratedAnswer; // @synthesize isLlmGeneratedAnswer=_isLlmGeneratedAnswer;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *qnaId; // @synthesize qnaId=_qnaId;
 
 @end

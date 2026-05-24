@@ -7,18 +7,6 @@
 @interface NewsFeed.FormatViewController
 {
     id isBeingUsedAsPlugin;
-    id pluggableDelegate;
-    id pluginIdentifier;
-    id blueprintViewController;
-    id blueprintLayoutProvider;
-    id eventHandler;
-    id lastComputedSize;
-    id selectionProvider;
-    id commands;
-    id eventManager;
-    id tipManager;
-    id tracker;
-    id blueprintHorizontalShimView;
 }
 
 - (void);
@@ -28,7 +16,7 @@
 - (void);
 - (void);
 - (void)Pæ;
-- (void)Date;
+- (void)publisherSpecifiedArticleIDsModifiedDate;
 - (void);
 - (void)m.:Æ$ÿm.:øwþm.:ÄÆ$ÿ /* Error: Ran out of types for this method. */;
 - (void);

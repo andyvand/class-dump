@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLOWSchemaFLOWPhoneCallEmergencyContext : SISchemaInstrumentationMessage
 {
     int _emergencyCallType;
-    struct {
-        unsigned int emergencyCallType:1;
-    } _has;
 }
 
 - (void);
@@ -21,20 +16,18 @@
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)lvf.encryption.context;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)rClass"b1"numHighlights"b1"numCallouts"b1"numLinkedCallouts"b1};
-- (id)celed;
+- (id)_actionCanceled;
 - (id)àëî;
 
 // Remaining properties
 @property(nonatomic) int emergencyCallType; // @synthesize emergencyCallType=_emergencyCallType;
-@property(nonatomic) _Bool hasEmergencyCallType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

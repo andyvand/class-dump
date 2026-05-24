@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSExtension, NSMapTable, NSObject, NSString, NSUUID, SORemoteExtensionViewController;
-@protocol OS_dispatch_queue;
+@class NSObject, NSUUID;
 
 @interface SOExtension
 {
     NSUUID *_sessionID;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_pssoQueue;
-    SORemoteExtensionViewController *_remoteViewController;
-    NSMapTable *_extensionDelegates;
-    int _requestCount;
-    NSExtension *_extension;
-    NSArray *_associatedDomains;
-    NSObject *_sessionIDLock;
-    NSObject *_requestCountLock;
-    NSObject *_associatedDomainLock;
-    NSObject *_extensionDelegatesLock;
 }
 
 - (void);
@@ -32,37 +20,37 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)@�?;
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)%d;
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void));
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -78,22 +66,22 @@
 - (void);
 - (CDStruct_6ad76789);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)firstObject;
+- (_Bool)st - breaking out;
+- (void)top.horizontal;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void)tter";
+- (void)dataWithContentsOfURL:(id)arg1 options:(id)arg2 error:(id)arg3;
+- (void);
+- (id);
+- (id)to delete in progress backup on '%@', error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -101,27 +89,7 @@
 - (int);
 
 // Remaining properties
-@property(retain) NSObject *associatedDomainLock; // @synthesize associatedDomainLock=_associatedDomainLock;
-@property(retain, nonatomic) NSArray *associatedDomains; // @synthesize associatedDomains=_associatedDomains;
-@property(readonly, nonatomic) NSArray *authenticationMethods;
-@property(readonly, nonatomic) NSString *containerAppBundleIdentifier;
-@property(readonly, nonatomic) NSString *containerAppPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly, nonatomic) NSString *extensionBundleIdentifier;
-@property(retain) NSObject *extensionDelegatesLock; // @synthesize extensionDelegatesLock=_extensionDelegatesLock;
-@property(readonly, nonatomic) long long extensionRequestsMode;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *localizedExtensionDisplayName;
-@property(readonly, nonatomic) int requestCount; // @synthesize requestCount=_requestCount;
-@property(retain) NSObject *requestCountLock; // @synthesize requestCountLock=_requestCountLock;
-@property(readonly, nonatomic) NSUUID *sessionID;
 @property(retain) NSObject *sessionIDLock; // @synthesize sessionIDLock=_sessionIDLock;
-@property(readonly) Class superclass;
 
 @end
 

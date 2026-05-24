@@ -7,11 +7,6 @@
 @interface NewsFeed.FeedLoadingGate
 {
     id deferredPromise;
-    id seal;
-    id waitingForLift;
-    id waitingForPopDepth;
-    id lock;
-    id log;
 }
 
 @end

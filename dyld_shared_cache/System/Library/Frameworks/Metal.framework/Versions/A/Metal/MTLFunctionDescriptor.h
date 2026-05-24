@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLFunctionConstantValues, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface MTLFunctionDescriptor
 {
     struct MTLFunctionDescriptorPrivate _private;
-    unsigned long long _pipelineOptions;
-    NSDictionary *_pluginData;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (id);
 - (CDStruct_41a22ec7);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -36,19 +34,15 @@
 - (id);
 - (void);
 - (id);
-- (void)2_RGB8_sRGB;
+- (void)ETC2_RGB8_sRGB;
 - (void);
-- (id)iltInArgumentBaseVertex;
-- (id)KED_HLG;
+- (id)MTLBuiltInArgumentBaseVertex;
+- (id)MTLPixelFormatYCBCR10_420_2P_PACKED_HLG;
 - (void);
 - (unsigned long long)ÿØ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *binaryArchives;
-@property(copy, nonatomic) MTLFunctionConstantValues *constantValues; // @dynamic constantValues;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) unsigned long long options; // @dynamic options;
-@property(copy, nonatomic) NSString *specializedName; // @dynamic specializedName;
 
 @end
 

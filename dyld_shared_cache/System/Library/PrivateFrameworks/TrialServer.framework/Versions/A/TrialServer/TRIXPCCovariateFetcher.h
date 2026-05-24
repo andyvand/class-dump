@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface TRIXPCCovariateFetcher
 {
     NSXPCConnection *xpcConnection;
-    struct os_unfair_lock_s connectionLock;
-    NSObject<OS_dispatch_queue> *inFlightConnectionQueue;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)typeWithFilenameExtension: /* Error: Ran out of types for this method. */;
+- (void)timeRectCollectionLandscape;
+- (id)shouldLoadTrackMetadata;
+- (id)setKeySpace: /* Error: Ran out of types for this method. */;
+- (long long)removeObjectsForKeys:(id)arg1;
+- (id)remakeWithProgressHandler:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
-- (id);
-- (id);
-- (long long);
-- (void);
+- (void)Z;
 - (id);
 - (void)0@ù
 × ;

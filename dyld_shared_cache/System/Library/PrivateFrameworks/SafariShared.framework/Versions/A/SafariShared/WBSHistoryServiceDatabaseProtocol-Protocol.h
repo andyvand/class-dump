@@ -5,5 +5,9 @@
 //
 
 @protocol WBSHistoryServiceDatabaseProtocol
+- (void);
+- (void);
+- (void);
+- (void)#;
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)4;
 - (struct _NSRange);
 - (_Bool);
-- (void);
-- (void);
+- (void)(shOrder) == (size_t)shLength;
+- (void)h";
 - (void)ä1Â0@ù
 × ;
 

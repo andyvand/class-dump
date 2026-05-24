@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIColor, UIHoverStyle, UIShape, _UIContextMenuCellContentView;
+@class NSArray, _UIContextMenuCellContentView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuLargePaletteCellLayout
@@ -14,46 +14,29 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (unsigned long long);
-- (void);
-- (id);
+- (void)updateStateForChat:(id)arg1 hintMessage:shouldRebuildFailedMessageDate:shouldCalculateUnreadCount: /* Error: Ran out of types for this method. */;
+- (void)service:(unsigned long long)arg1 activeAccountsChanged:(id)arg2;
+- (void)isTimeSensitiveCustomModelAvailable;
+- (id)handleMessageReadReceiptWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)handleMarkAsReviewedCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)checkForSpamWithExtensionInChat:forMessageBody:sender:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)batchCompletedWithTransfers: /* Error: Ran out of types for this method. */;
+- (unsigned long long)backgroundVersion;
+- (void)_shouldShowFailureString;
+- (id)_broadcastMessageEventWithCommand:eventName:forGUID:messageExtras:shouldFilterRecipients:forcedCallerID: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
 - (void)!èAùa1Â0@ù
 × ;
-- (void)r:(id)arg1 shouldQueryForSnapshotForExpandingParentItem: /* Error: Ran out of types for this method. */;
+- (void)sectionController:(id)arg1 shouldQueryForSnapshotForExpandingParentItem: /* Error: Ran out of types for this method. */;
 - (long long)3Ø½þ­·03h½þ­·03ø½þ;
 - (id)@ÂR0íÛ33;
 - (void)|a];
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UIShape *contentShape;
 @property(nonatomic) __weak _UIContextMenuCellContentView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long focusStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIHoverStyle *hoverStyle;
-@property(readonly, nonatomic) unsigned long long labelMaximumNumberOfLines;
-@property(readonly, nonatomic) long long labelTextAlignment;
-@property(readonly, nonatomic) long long layoutSize;
-@property(retain, nonatomic) NSArray *managedConstraints; // @synthesize managedConstraints=_managedConstraints;
-@property(readonly, nonatomic) UIColor *preferredBackgroundColorForCurrentState;
-@property(readonly, nonatomic) UIColor *preferredContentColorForCurrentState;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useContentShapeForSelectionHighlight;
 
 @end
 

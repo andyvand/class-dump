@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaJREntitySimilarityScores : SISchemaInstrumentationMessage
 {
@@ -16,11 +16,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(=;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -29,12 +29,11 @@
 - (id)0@ù
 × ;
 - (id)rId;
-- (id)ontext;
+- (id)SISchemaCarPlayInvocationContext;
 - (void)";
 - (id)%;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *rows; // @synthesize rows=_rows;
 
 @end

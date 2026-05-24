@@ -14,10 +14,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void)ver_messages.deleted, server_messages.replied, server_messages.flagged, server_messages.draft, server_messages.forwarded, server_messages.redirected, server_messages.junk_level_set_by_user, server_messages.junk_level, server_messages.flag_color, server_messages.remote_id, messages.message_id AS message_id_header, messages.ROWID AS message_row_id FROM messages INNER JOIN server_messages ON messages.ROWID = server_messages.message WHERE (server_messages.mailbox = %lld AND messages.message_id IN (%@) AND server_messages.remote_id < 0);
 - (void);
-- (void);
-- (void)es;
+- (void)fetchServerCertificates;
 - (void)iption fails conversion:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

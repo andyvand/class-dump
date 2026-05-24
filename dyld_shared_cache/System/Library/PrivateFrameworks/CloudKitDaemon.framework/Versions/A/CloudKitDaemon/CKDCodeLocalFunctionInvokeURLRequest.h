@@ -6,15 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSData, NSString, NSURL;
+@class NSString;
 
 @interface CKDCodeLocalFunctionInvokeURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _serializedResultsCallback;
-    NSString *_serviceName;
-    NSString *_functionName;
-    NSData *_serializedParameters;
-    NSURL *_resolvedBaseURL;
 }
 
 - (_Bool);
@@ -23,22 +19,22 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (Class);
+- (Class);
 - (void);
 - (id);
 - (Class);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)common_TemperatureUnit_MinutePerKilometer;
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void)eDelete;
+- (void)RollZoneAndZoneishPCSForShareDelete;
 - (id)led to read bytes for %@;
 - (_Bool)Couldn't encrypt data:%@ /* Error: Ran out of types for this method. */;
 - (id)n %{public}@;
@@ -48,10 +44,6 @@
 - (_Bool)ìÛùÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(copy, nonatomic) NSURL *resolvedBaseURL; // @synthesize resolvedBaseURL=_resolvedBaseURL;
-@property(retain, nonatomic) NSData *serializedParameters; // @synthesize serializedParameters=_serializedParameters;
-@property(copy, nonatomic) CDUnknownBlockType serializedResultsCallback; // @synthesize serializedResultsCallback=_serializedResultsCallback;
 @property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage;
+@class NSColor;
 
 @interface CNAutocompletePresentation
 {
     NSColor *_resultLabelColor;
-    NSImage *_image;
 }
 
 + (id);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
 @property(readonly, nonatomic) NSColor *resultLabelColor; // @synthesize resultLabelColor=_resultLabelColor;
 
 @end

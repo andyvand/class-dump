@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue, WAXPCConnectionDelegate;
 
 @interface WAXPCConnection
 {
     id <WAXPCConnectionDelegate> _delegate;
-    NSXPCConnection *_connection;
-    NSString *_token;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)/libSystem.B.dylib;
 - (void);
 - (void);
 - (void);
@@ -43,6 +28,18 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)x_cwnd > 0 is null or 0;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)workoutManager:(CDUnknownBlockType)arg1 didResumeWorkout:withOverview: /* Error: Ran out of types for this method. */;
+- (void)fLatestAudioAccessoryHeartRateSample;
 - (void);
 - (void);
 - (id);
@@ -52,10 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(nonatomic) __weak id <WAXPCConnectionDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end
 

@@ -6,20 +6,16 @@
 
 #import <BoardServices/BSXPCServiceConnectionContext.h>
 
-@class NSString;
-
 @interface BSXPCServiceConnectionRootContext : BSXPCServiceConnectionContext
 {
     unsigned long long _unique;
-    _Atomic unsigned long long __uniqueChildCounter;
-    NSString *_eDesc;
 }
 
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)37TDwarfReadDW_FORM_Ref4AttributeActionI5DwarfI7Dwarf329Pointer3212LittleEndianEE;
+- (id)evaluatePolicy:options:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

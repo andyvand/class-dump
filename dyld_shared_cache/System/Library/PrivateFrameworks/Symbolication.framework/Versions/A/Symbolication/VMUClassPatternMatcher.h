@@ -7,16 +7,10 @@
 @interface VMUClassPatternMatcher
 {
     CDStruct_d5ae6b26 *_classesRegex;
-    CDStruct_d5ae6b26 *_vmRegionsRegex;
-    struct __CFDictionary *_memoizedRegexResult;
-    _Bool _matchingKindOfClass;
-    _Bool _patternMatchesNonObjects;
-    unsigned long long _allocationSizeLowerBound;
-    unsigned long long _allocationSizeUpperBound;
 }
 
 - (void);
-- (void);
+- (void)?;
 - (_Bool);
 - (_Bool);
 - (id);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber;
 
 @interface AVAudioSessionDataSourceDescription
 {
@@ -13,18 +13,18 @@
 
 + (id);
 - (void);
+- (id)SD_visit_duration_weekend_others;
+- (id)isfying:delay >= 0 /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (struct DataSourceDescriptionImpl *);
+- (struct DataSourceDescriptionImpl *)";
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -33,12 +33,6 @@
 
 // Remaining properties
 @property(readonly) NSNumber *dataSourceID;
-@property(readonly) NSString *dataSourceName;
-@property(readonly) NSString *location;
-@property(readonly) NSString *orientation;
-@property(readonly) NSString *preferredPolarPattern;
-@property(readonly) NSString *selectedPolarPattern;
-@property(readonly) NSArray *supportedPolarPatterns;
 
 @end
 

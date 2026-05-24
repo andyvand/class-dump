@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SXContentScaleManagerDelegate;
-
 @protocol SXContentScaleManager
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentScale;
-@property(readonly, nonatomic) double contentScaleFactor;
-@property(nonatomic) __weak id <SXContentScaleManagerDelegate> delegate;
 @end
 

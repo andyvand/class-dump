@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBStopAnnouncementIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (_Bool)tionKey;
-- (void)SetRelationshipIntentResponseCodeUnspecified;
+- (void)C;
+- (_Bool)__DescriptionKey;
+- (void)INSetRelationshipIntentResponseCodeUnspecified;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

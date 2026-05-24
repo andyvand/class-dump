@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScrollView, NSString, NSTextField, NSTextView;
-@protocol AccountManagerEditSheetNotesViewControllerDelegate;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AccountManagerEditSheetNotesViewController
 {
     NSTextField *_label;
-    NSScrollView *_textViewScrollView;
-    NSTextView *_textView;
-    id <AccountManagerEditSheetNotesViewControllerDelegate> _delegate;
 }
 
 - (id);
@@ -26,22 +22,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)te:tabGroups:encryptionProvider: /* Error: Ran out of types for this method. */;
+- (id)initWithBrowserState:tabGroups:encryptionProvider: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)<°;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AccountManagerEditSheetNotesViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NSTextField *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTextView *textView; // @synthesize textView=_textView;
-@property(nonatomic) __weak NSScrollView *textViewScrollView; // @synthesize textViewScrollView=_textViewScrollView;
 
 @end
 

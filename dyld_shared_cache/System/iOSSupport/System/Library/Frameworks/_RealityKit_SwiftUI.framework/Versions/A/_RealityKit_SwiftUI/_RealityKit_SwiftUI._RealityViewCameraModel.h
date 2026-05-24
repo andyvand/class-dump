@@ -8,8 +8,6 @@
 {
     id content;
     id makeTaskBegun;
-    id idealSize;
-    id _makeTaskComplete;
 }
 
 @end

@@ -7,22 +7,22 @@
 @interface MNTracePreparedStatement
 {
     struct sqlite3 *_db;
-    struct sqlite3_stmt *_preparedStatement;
 }
 
 + (id);
 - (struct sqlite3_stmt *);
 - (id);
-- (id);
-- (id);
+- (id)Z7,o
+;
+- (id);
 - (id);
 - (int);
 - (double);
 - (id);
+- (void)IsSearchImplementedModifier;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ResponderGestureContainerFactory;
 - (void);
 - (void);
 - (void);
@@ -40,11 +40,10 @@
 - (_Bool);
 - (id);
 - (_Bool)o;
-- (_Bool)eStatus_description_early;
+- (_Bool)TransitDepartureLiveStatus_description_early;
 
 // Remaining properties
 @property(readonly, nonatomic) struct sqlite3 *db;
-@property(readonly, nonatomic) struct sqlite3_stmt *rawStatement;
 
 @end
 

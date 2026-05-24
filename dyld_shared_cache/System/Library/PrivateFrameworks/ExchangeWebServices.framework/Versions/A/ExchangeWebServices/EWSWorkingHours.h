@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSSerializableTimeZone, NSArray, NSString;
+@class EWSSerializableTimeZone;
 
 @interface EWSWorkingHours
 {
     EWSSerializableTimeZone *_TimeZone;
-    NSArray *_WorkingPeriodArray;
 }
 
 + (id);
@@ -21,14 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EWSSerializableTimeZone *TimeZone; // @synthesize TimeZone=_TimeZone;
-@property(copy, nonatomic) NSArray *WorkingPeriodArray; // @synthesize WorkingPeriodArray=_WorkingPeriodArray;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

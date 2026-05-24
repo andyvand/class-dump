@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXDataTableElementStyle, SXJSONDataTableSelector;
+@class SXDataTableElementStyle;
 
 @interface SXDataTableStyleMatch
 {
     SXDataTableElementStyle *_style;
-    SXJSONDataTableSelector *_selector;
 }
 
-+ (id);
++ (id)(=;
 - (id);
 - (id);
 - (id);
 - (void)GSize=dd}}16{CGPoint=dd}48;
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDataTableSelector *selector; // @synthesize selector=_selector;
 @property(readonly, nonatomic) SXDataTableElementStyle *style; // @synthesize style=_style;
 
 @end

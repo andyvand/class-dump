@@ -14,9 +14,9 @@
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)R9;
 - (id);
-- (void);
+- (void)rite Request Failed!!;
 
 @end
 

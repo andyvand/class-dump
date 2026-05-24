@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNCDDatabaseCompatibilityAnalysis
 {
     _Bool _needsMovedAside;
-    NSString *_message;
-    NSString *_reason;
 }
 
 + (id);
@@ -20,21 +16,19 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)B;
+- (id)acquire document ID for %@;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
 @property(readonly, nonatomic) _Bool needsMovedAside; // @synthesize needsMovedAside=_needsMovedAside;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

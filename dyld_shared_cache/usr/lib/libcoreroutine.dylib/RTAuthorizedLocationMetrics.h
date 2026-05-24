@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, RTAuthorizedLocationCurationMetrics, RTAuthorizedLocationDatabaseInitializationMetrics, RTAuthorizedLocationQueryMetrics, RTAuthorizedLocationZDRLocationCurationMetrics, RTAuthorizedLocationZDRLocationLiveMetrics;
+@class RTAuthorizedLocationCurationMetrics;
 
 @interface RTAuthorizedLocationMetrics
 {
     _Bool _locationServicesEnabled;
-    _Bool _routineEnabled;
-    RTAuthorizedLocationCurationMetrics *_curationMetrics;
-    RTAuthorizedLocationDatabaseInitializationMetrics *_initializationMetrics;
-    RTAuthorizedLocationQueryMetrics *_queryMetrics;
-    RTAuthorizedLocationZDRLocationCurationMetrics *_zdrLocationsCurationMetrics;
-    RTAuthorizedLocationZDRLocationLiveMetrics *_zdrLocationsLiveMetrics;
-    NSDate *_daemonStartDate;
-    NSDate *_lastQueryMetricSubmissionDate;
 }
 
 - (id);
 - (id);
 - (double);
-- (double);
-- (void);
+- (double);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,29 +23,21 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)Data}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)setEvent: /* Error: Ran out of types for this method. */;
+- (id)9;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ror:%{public}s, sync:%{bool}d} /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)local connection ID!;
 - (void);
 - (_Bool);
 - (void)ameter not satisfying:ownerName /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) RTAuthorizedLocationCurationMetrics *curationMetrics; // @synthesize curationMetrics=_curationMetrics;
-@property(readonly, nonatomic) NSDate *daemonStartDate; // @synthesize daemonStartDate=_daemonStartDate;
-@property(retain, nonatomic) RTAuthorizedLocationDatabaseInitializationMetrics *initializationMetrics; // @synthesize initializationMetrics=_initializationMetrics;
-@property(retain, nonatomic) NSDate *lastQueryMetricSubmissionDate; // @synthesize lastQueryMetricSubmissionDate=_lastQueryMetricSubmissionDate;
-@property _Bool locationServicesEnabled; // @synthesize locationServicesEnabled=_locationServicesEnabled;
-@property(retain, nonatomic) RTAuthorizedLocationQueryMetrics *queryMetrics; // @synthesize queryMetrics=_queryMetrics;
-@property _Bool routineEnabled; // @synthesize routineEnabled=_routineEnabled;
-@property(retain, nonatomic) RTAuthorizedLocationZDRLocationCurationMetrics *zdrLocationsCurationMetrics; // @synthesize zdrLocationsCurationMetrics=_zdrLocationsCurationMetrics;
-@property(retain, nonatomic) RTAuthorizedLocationZDRLocationLiveMetrics *zdrLocationsLiveMetrics; // @synthesize zdrLocationsLiveMetrics=_zdrLocationsLiveMetrics;
 
 @end
 

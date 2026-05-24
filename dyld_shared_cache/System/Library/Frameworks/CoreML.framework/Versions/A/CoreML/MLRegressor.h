@@ -6,15 +6,15 @@
 
 #import <CoreML/MLModel.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, NSString;
+@class MLModelDescription;
 
 @interface MLRegressor : MLModel
 {
 }
 
 + (id);
-- (id);
-- (id);
+- (id)objectPreloadedLibraries;
+- (id);
 - (id);
 - (id);
 - (id)¾÷mP´÷-P¶÷íOÀ÷­O¶÷mO¼÷-O¾÷íNÀ÷­N¾÷mNÄ÷-NÆ÷íMÀ÷­MÆ÷mM¼÷-M¾÷íLÀ÷­L¾÷mL´÷-\¶÷í[À÷­[¶÷m[¼÷-[¾÷íZÀ÷­Z¾÷mZ¤÷-Z¦÷íYÀ÷­Y¦÷mY¼÷-Y¾÷íXÀ÷­X¾÷mX´÷-X¶÷íWÀ÷­W¶÷mW¼÷-W¾÷íVÀ÷­V¾÷mV÷-V÷íUÀ÷­U÷mU¼÷-U¾÷íTÀ÷­T¾÷mT´ø-D¶øíCÀø­C¶ømC¼ø-C¾øíBÀø­B¾ømB¤ø-B¦øíAÀø­A¦ømA¼ø-A¾øí@Àø­@¾øm@´ø-@¶øí?Àø­?¶øm?¼ø-?¾øí>Àø­>¾øm>Dø->Føí=Àø­=Føm=¼ø-=¾øí<Àø­<¾øm<´ø-L¶øíKÀø­K¶ømK¼ø-K¾øíJÀø­J¾ømJ¤ø-J¦øíIÀø­I¦ømI¼ø-I¾øíHÀø­H¾ømH´ø-H¶øíGÀø­G¶ømG¼ø-G¾øíFÀø­F¾ømFø-FøíEÀø­EømE¼ø-E¾øíDÀø­D¾ømD´ø-4¶øí3Àø­3¶øm3¼ø-3¾øí2Àø­2¾øm2¤ø-2¦øí1Àø­1¦øm1¼ø-1¾øí0Àø­0¾øm0´ø-0¶øí/Àø­/¶øm/¼ø-/¾øí.Àø­.¾øm.Ä÷-.Æ÷í-Àø­-Æ÷m-¼ø--¾øí,Àø­,¾øm,´ø-<¶øí;Àø­;¶øm;¼ø-;¾øí:(id)arg1 Àø­:(id)arg2 ¾øm:(id *)arg3 ¤ø-:¦øí9Àø­9¦øm9¼ø-9¾øí8Àø­8¾øm8´ø-8¶øí7Àø­7¶øm7¼ø-7¾øí6Àø­6¾øm6ø-6øí5Àø­5øm5¼ø-5¾øí4Àø­4¾øm4%0znÔ#µ~ó®m`áD«¼,3ÖV6È³ØÝÃoÎZÊ'
@@ -23,20 +23,7 @@
 ï.·ÉÛ`4ïÁß+=bÈµÉ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
 @property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 
 @end
 

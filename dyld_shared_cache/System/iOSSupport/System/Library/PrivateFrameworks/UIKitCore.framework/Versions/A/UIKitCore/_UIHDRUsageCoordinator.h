@@ -13,22 +13,22 @@ __attribute__((visibility("hidden")))
     UITraitCollection *_disableHDRTraitCollection;
 }
 
-+ (_Bool);
++ (_Bool)D %@ and style %@;
 + (_Bool);
 + (id);
 + (id)èáÿ;
 - (void);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)__kIMPersonStatusKey;
+- (void)"NSString"40@"IDSMessageContext"48;
+- (void)ontext"56;
+- (long long)B36@40@48;
+- (void)updateDisplayName:(id)arg1 sender: /* Error: Ran out of types for this method. */;
+- (void)chatForChatIdentifier:(_Bool)arg1 style:(id)arg2 updatingAccount: /* Error: Ran out of types for this method. */;
+- (void)_firstUnlockTriggered;
+- (void)originalCommand;
+- (void)ionDelegates;
+- (void)sForTransferGUIDs;
+- (id)assignDomainIdentifiers:(long long)arg1 toChatRecordWithGUID:(id)arg2 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0[[;
 

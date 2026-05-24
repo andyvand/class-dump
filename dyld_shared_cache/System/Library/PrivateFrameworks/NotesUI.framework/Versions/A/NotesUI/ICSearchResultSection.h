@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet;
+@class NSMutableOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface ICSearchResultSection
 {
     NSMutableOrderedSet *_searchResults;
-    NSMutableDictionary *_identifierToSearchResult;
-    NSMutableDictionary *_hiddenSearchResults;
-    NSMutableDictionary *_unhiddenSearchResults;
 }
 
 - (id);
@@ -21,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -33,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)tifierMap:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *hiddenSearchResults; // @synthesize hiddenSearchResults=_hiddenSearchResults;
-@property(retain, nonatomic) NSMutableDictionary *identifierToSearchResult; // @synthesize identifierToSearchResult=_identifierToSearchResult;
 @property(retain, nonatomic) NSMutableOrderedSet *searchResults; // @synthesize searchResults=_searchResults;
-@property(retain, nonatomic) NSMutableDictionary *unhiddenSearchResults; // @synthesize unhiddenSearchResults=_unhiddenSearchResults;
 
 @end
 

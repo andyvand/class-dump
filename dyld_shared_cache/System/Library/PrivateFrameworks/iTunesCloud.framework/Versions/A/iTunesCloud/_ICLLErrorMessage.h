@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _ICLLErrorMessage
 {
     int _code;
-    int _contentTypeCode;
-    NSString *_message;
-    struct {
-        unsigned int code:1;
-        unsigned int contentTypeCode:1;
-    } _has;
 }
 
-- (id);
+- (id)o;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);

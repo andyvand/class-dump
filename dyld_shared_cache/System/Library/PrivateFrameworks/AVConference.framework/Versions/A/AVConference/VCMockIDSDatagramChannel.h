@@ -4,55 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLock, NSObject, NSString, VCMockIDSDataChannelLinkContext;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCMockIDSDatagramChannel
 {
     NSDictionary *_subscribedStreamsByParticipantID;
-    int _socket;
-    _Bool _isValid;
-    VCMockIDSDataChannelLinkContext *_linkContext;
-    CDUnknownBlockType _eventHandler;
-    CDUnknownBlockType _readHandler;
-    CDUnknownBlockType _sharedWriteCompletionHandler;
-    CDUnknownBlockType _readHandlerWithOptions;
-    CDUnknownBlockType _writeDatagramsBlock;
-    CDUnknownBlockType _writeDatagramBlock;
-    CDUnknownBlockType _readyToReadBlock;
-    NSLock *_blockSettingLock;
-    NSLock *_writeDirectPathIDSLock;
-    NSLock *_flushDatagramPacketsLock;
-    struct _VCSingleLinkedList _datagramPackets;
-    struct _VCSingleLinkedList _datagramPacketsDirectIDSPath;
-    struct __CFAllocator *_datagramPacketAllocator;
-    unsigned long long _datagramPacketNextSequenceNumber;
-    _Bool _usingOptions;
-    double _emulatedRxPLR;
-    _Bool _doNotDropNackOrRetransmitted;
-    struct _opaque_pthread_mutex_t _streamSubscriptionLock;
-    long long _participantGenerationCounter;
-    unsigned short numPacketSent;
-    unsigned short numPacketReceived;
-    int _dataPath;
-    _Bool _isNackEnabled;
-    unsigned char _packetBuffer[2048][1500];
-    unsigned short _packetBufferDataSize[2048];
-    CDStruct_9bf45fcd _packetDatagramOptions[2048];
-    _Bool _isServerStatsCached;
-    CDStruct_9bf45fcd _datagramOptionsCached;
-    NSObject<OS_dispatch_queue> *_directPathReadQueue;
-    NSObject<OS_dispatch_queue> *_directPathRTXQueue;
-    _Bool _isSourceParticipantIDOnFanOutPacketsEnabled;
-    _Bool _isWrongParticipantIDOnFanOutPacketsEnabled;
-    _Bool _isECNEnabled;
-    _Bool _isShortMKIEnabled;
-    NSString *_destination;
-    _Bool _isTestNetworkRouterEnabled;
-    _Bool _isTwoWayFaceTimeTestUsingSocketsEnabled;
-    struct tagVCRealTimeThread *_packetReceiveThread;
-    _Atomic _Bool _isReceiveThreadTerminating;
 }
 
 + (void);
@@ -67,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -83,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool));
 - (id);
 - (int);
 - (void);
@@ -92,6 +49,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (void)^;
+- (void);
+- (void);
+- (int);
+- (void);
+- (void)1;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -103,18 +69,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(=;
 - (void)å<bà?mþ<ÕÙ?Æ=©Ò?U=àÊ?ã$=yÂ?Çq1=u¹?ÿ==Ò¯?ÒJ=¥?¡W=´?ê¥c=9?¨1p=?Ñ¼|=iv?¯£=i?¤è="[?C-=L?q=f=?pµ=-?÷ø£=4?<ª=/?Ò~°=ú~?Á¶=Lè~?ø½=oÕ~?_DÃ=õÁ~?MÉ=Þ­~?¿ÅÏ=)~?°Ö=Ø~?EÜ=êm~?â=^W~?]Âè=6@~?(;
 
 // Remaining properties

@@ -4,43 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, TPPBPeerStableInfoSetting, TPPBSecureElementIdentity;
-
 @interface TPPBPeerStableInfo
 {
     unsigned long long _clock;
-    unsigned long long _flexiblePolicyVersion;
-    unsigned long long _frozenPolicyVersion;
-    NSMutableArray *_custodianRecoveryKeys;
-    NSString *_deviceName;
-    NSString *_flexiblePolicyHash;
-    NSString *_frozenPolicyHash;
-    NSString *_osVersion;
-    NSMutableArray *_policySecrets;
-    NSData *_recoveryEncryptionPublicKey;
-    NSData *_recoverySigningPublicKey;
-    TPPBSecureElementIdentity *_secureElementIdentity;
-    NSString *_serialNumber;
-    int _userControllableViewStatus;
-    TPPBPeerStableInfoSetting *_walrus;
-    TPPBPeerStableInfoSetting *_webAccess;
-    _Bool _isInheritedAccount;
-    _Bool _supportsRepudiation;
-    struct {
-        unsigned int clock:1;
-        unsigned int flexiblePolicyVersion:1;
-        unsigned int frozenPolicyVersion:1;
-        unsigned int userControllableViewStatus:1;
-        unsigned int isInheritedAccount:1;
-        unsigned int supportsRepudiation:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
-- (void);
+- (void)MSASModel:(id)arg1 didFinishAcceptingInvitation:forAlbum:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)a};
 - (id);
 - (_Bool);
 - (_Bool);
@@ -49,18 +22,18 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)atarSnapshotBuilderRenderingQueue;
+- (id))$;
 - (_Bool);
-- (_Bool);
+- (_Bool)setBatteryLevel: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
@@ -69,7 +42,7 @@
 - (_Bool);
 - (unsigned long long);
 - (int);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -81,27 +54,27 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)found (unexpected);
+- (unsigned long long);
+- (id)sionRef);
+- (void)ef *, APSCryptorRef *);
+- (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)Rc;
 - (unsigned long long);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)setPendingWatchdogs:(id)arg1;
+- (void)_columnNames;
+- (void)vailabilityEngine _setupSourceCallbacks:(id)arg1 ];
+- (id)fBuffer:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -115,43 +88,10 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void)56:(_Bool)arg1;
+- (void)SHA256:(_Bool)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clock; // @synthesize clock=_clock;
-@property(retain, nonatomic) NSMutableArray *custodianRecoveryKeys; // @synthesize custodianRecoveryKeys=_custodianRecoveryKeys;
-@property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(retain, nonatomic) NSString *flexiblePolicyHash; // @synthesize flexiblePolicyHash=_flexiblePolicyHash;
-@property(nonatomic) unsigned long long flexiblePolicyVersion; // @synthesize flexiblePolicyVersion=_flexiblePolicyVersion;
-@property(retain, nonatomic) NSString *frozenPolicyHash; // @synthesize frozenPolicyHash=_frozenPolicyHash;
-@property(nonatomic) unsigned long long frozenPolicyVersion; // @synthesize frozenPolicyVersion=_frozenPolicyVersion;
 @property(nonatomic) _Bool hasClock;
-@property(readonly, nonatomic) _Bool hasDeviceName;
-@property(readonly, nonatomic) _Bool hasFlexiblePolicyHash;
-@property(nonatomic) _Bool hasFlexiblePolicyVersion;
-@property(readonly, nonatomic) _Bool hasFrozenPolicyHash;
-@property(nonatomic) _Bool hasFrozenPolicyVersion;
-@property(nonatomic) _Bool hasIsInheritedAccount;
-@property(readonly, nonatomic) _Bool hasOsVersion;
-@property(readonly, nonatomic) _Bool hasRecoveryEncryptionPublicKey;
-@property(readonly, nonatomic) _Bool hasRecoverySigningPublicKey;
-@property(readonly, nonatomic) _Bool hasSecureElementIdentity;
-@property(readonly, nonatomic) _Bool hasSerialNumber;
-@property(nonatomic) _Bool hasSupportsRepudiation;
-@property(nonatomic) _Bool hasUserControllableViewStatus;
-@property(readonly, nonatomic) _Bool hasWalrus;
-@property(readonly, nonatomic) _Bool hasWebAccess;
-@property(nonatomic) _Bool isInheritedAccount; // @synthesize isInheritedAccount=_isInheritedAccount;
-@property(retain, nonatomic) NSString *osVersion; // @synthesize osVersion=_osVersion;
-@property(retain, nonatomic) NSMutableArray *policySecrets; // @synthesize policySecrets=_policySecrets;
-@property(retain, nonatomic) NSData *recoveryEncryptionPublicKey; // @synthesize recoveryEncryptionPublicKey=_recoveryEncryptionPublicKey;
-@property(retain, nonatomic) NSData *recoverySigningPublicKey; // @synthesize recoverySigningPublicKey=_recoverySigningPublicKey;
-@property(retain, nonatomic) TPPBSecureElementIdentity *secureElementIdentity; // @synthesize secureElementIdentity=_secureElementIdentity;
-@property(retain, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(nonatomic) _Bool supportsRepudiation; // @synthesize supportsRepudiation=_supportsRepudiation;
-@property(nonatomic) int userControllableViewStatus; // @synthesize userControllableViewStatus=_userControllableViewStatus;
-@property(retain, nonatomic) TPPBPeerStableInfoSetting *walrus; // @synthesize walrus=_walrus;
-@property(retain, nonatomic) TPPBPeerStableInfoSetting *webAccess; // @synthesize webAccess=_webAccess;
 
 @end
 

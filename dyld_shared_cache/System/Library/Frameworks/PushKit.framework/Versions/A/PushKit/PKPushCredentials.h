@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKPushCredentials
 {
     NSString *_type;
-    NSData *_token;
 }
 
-- (id);
-- (id);
+- (id)@;
+- (id)-;
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy) NSData *token; // @synthesize token=_token;
 @property(copy) NSString *type; // @synthesize type=_type;
 
 @end

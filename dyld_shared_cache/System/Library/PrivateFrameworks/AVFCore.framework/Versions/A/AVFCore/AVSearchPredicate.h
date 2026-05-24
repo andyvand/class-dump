@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-- (unsigned long long);
++ (id)|e;
+- (unsigned long long)(;
 - (_Bool);
 - (id);
 

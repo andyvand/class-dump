@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSTCellStyle, TSWPParagraphStyle;
+@class TSTCellStyle;
 
 @interface TSTTableHeaderInfo
 {
     TSTCellStyle *mCellStyle;
-    TSWPParagraphStyle *mTextStyle;
-    double mSize;
-    unsigned char mHidingState;
-    unsigned short mNumberOfCells;
 }
 
-- (void);
-- (unsigned char);
+- (void)mediaPlayerTime;
+- (unsigned char)PodcastsPlayActivityFeedConsumer;
 - (void);
 - (void);
 - (id);
 - (unsigned short);
-- (void);
+- (void)@;
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (id)okoLineAtCharIndex(TSWPCharIndex, CGFloat &, CGFloat &, CGFloat &, CGFloat &, CGFloat &) const;
 
 // Remaining properties
 @property(retain, nonatomic) TSTCellStyle *cellStyle; // @synthesize cellStyle=mCellStyle;
-@property(nonatomic) unsigned char hidingState; // @synthesize hidingState=mHidingState;
-@property(nonatomic) unsigned short numberOfCells; // @synthesize numberOfCells=mNumberOfCells;
-@property(nonatomic) double size; // @synthesize size=mSize;
-@property(retain, nonatomic) TSWPParagraphStyle *textStyle; // @synthesize textStyle=mTextStyle;
 
 @end
 

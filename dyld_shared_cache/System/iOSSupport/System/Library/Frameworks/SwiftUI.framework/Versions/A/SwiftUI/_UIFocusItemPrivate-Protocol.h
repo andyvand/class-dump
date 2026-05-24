@@ -6,6 +6,9 @@
 
 @protocol _UIFocusItemPrivate
 
+@optional
+- (unsigned long long);
+
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _focusSpeedBumpEdges;
 // Preceding property had unknown attributes: ?

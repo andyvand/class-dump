@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+
 @protocol CNContactActionDelegate
+- (void);
+- (void);
+- (void)
+kȵ;
+- (void);
+
+@optional
+- (UIViewController *);
 @end
 

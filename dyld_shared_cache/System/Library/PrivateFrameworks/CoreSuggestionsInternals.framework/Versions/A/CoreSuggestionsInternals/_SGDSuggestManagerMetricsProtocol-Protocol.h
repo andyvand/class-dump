@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol _SGDSuggestManagerMetricsProtocol
+- (void)B;
+- (void)isTetheredSyncingEnabledForDataclass:(unsigned long long)arg1 completion:(unsigned long long)arg2;
 - (void);
 - (void)TABLE IF NOT EXISTS statsCounters (key TEXT NOT NULL,value REAL NOT NULL);
 - (void)entitySocialProfileIdentifiers                WHERE socialProfileIdentifier IN _pas_nsarray(:(NSString *)arg1 socialProfileIdentifiers)        );

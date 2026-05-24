@@ -6,27 +6,22 @@
 
 #import <SiriUI/SiriUIContentCollectionViewCell.h>
 
-@class NSTextField, NSView;
+@class NSTextField;
 
 @interface SiriUIReviewItemCell : SiriUIContentCollectionViewCell
 {
     NSTextField *_commentLabel;
-    NSTextField *_authorLabel;
-    NSView *_ratingView;
-    struct UIOffset _ratingOffset;
-    long long _characterLimit;
-    struct NSEdgeInsets _contentInsets;
 }
 
 + (struct CGSize);
 + (long long);
 + (id);
-+ (struct NSEdgeInsets);
++ (struct NSEdgeInsets);
 + (id);
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -42,7 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) long long characterLimit; // @synthesize characterLimit=_characterLimit;
-@property(nonatomic) struct NSEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
 
 @end
 

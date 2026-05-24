@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateFormatter, NSString;
-
 @interface WBSOfflineSearchSuggestionsModelUpdateManager
 {
     _Bool _googleWasADefaultSearchProvider;
-    _Bool _googleIsADefaultSearchProvider;
-    _Bool _offlineSuggestionsRemotelyDisabled;
-    NSDateFormatter *_dateFormatter;
-    NSString *_lastUsedLocaleIdentifier;
 }
 
 - (void);
@@ -27,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)àÄ;

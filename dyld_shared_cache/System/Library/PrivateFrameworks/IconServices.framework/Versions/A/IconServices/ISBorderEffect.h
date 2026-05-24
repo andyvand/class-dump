@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSString;
+@class IFColor;
 
 __attribute__((visibility("hidden")))
 @interface ISBorderEffect
 {
     IFColor *_color;
-    double _lineWidth;
 }
 
-- (id);
-- (id);
+- (id)t=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}24@0:(double)arg1 8^{__DDScanQuery={__CFRuntimeBase=QAQ}^{__DDQueryFragment}qq^?^v}16;
+- (id)urlIfyNode:(id)arg1 phoneNumberTypes:(id)arg2;
 - (id);
 - (void);
 - (double);
@@ -23,14 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) IFColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property double lineWidth; // @synthesize lineWidth=_lineWidth;
-@property(readonly) Class superclass;
 
 @end
 

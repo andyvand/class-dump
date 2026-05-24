@@ -7,13 +7,6 @@
 @interface PGGraphSearchEntity
 {
     id type;
-    id label;
-    id identifier;
-    id confidence;
-    id rankingScore;
-    id localeIdentifier;
-    id dateInterval;
-    id synonyms;
 }
 
 - (id);

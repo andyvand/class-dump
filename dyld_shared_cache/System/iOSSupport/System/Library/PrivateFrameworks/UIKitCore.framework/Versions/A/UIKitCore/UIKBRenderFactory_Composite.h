@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 
 - (struct UIEdgeInsets);
 - (id);
-- (id);
+- (id)chat:(id)arg1 %@;
 - (Class);
 - (struct UIEdgeInsets);
 - (_Bool);
 - (struct UIEdgeInsets);
 - (struct CGPoint);
-- (struct CGPoint)lectionView;
-- (struct CGPoint)AcceptedCandidateCorrected;
+- (struct CGPoint)shouldDelayActivatingSelectionView;
+- (struct CGPoint)lastAcceptedCandidateCorrected;
 - (struct UIEdgeInsets)îÿð~þÿjÎîÿ;
 - (double)@?0@"UICellAccessory"8Q16^B24;
 - (void)L\aþÝ8;

@@ -5,5 +5,6 @@
 //
 
 @protocol CKEffectSelectionViewControllerDelegate
+- (_Bool)LPAudioPlayer;
 @end
 

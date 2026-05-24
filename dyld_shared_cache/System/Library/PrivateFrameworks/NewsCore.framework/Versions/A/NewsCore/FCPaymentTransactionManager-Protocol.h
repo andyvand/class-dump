@@ -8,6 +8,7 @@
 
 @protocol FCPaymentTransactionManager
 - (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <FCPaymentTransactionManagerDelegate> delegate;

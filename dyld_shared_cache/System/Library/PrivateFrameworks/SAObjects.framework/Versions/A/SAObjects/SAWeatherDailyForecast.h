@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *highTemperature;
-@property(copy, nonatomic) NSNumber *lowTemperature;
 
 @end
 

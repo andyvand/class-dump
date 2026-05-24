@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDEnqueuedDonation, EDPersistedMessageID, NSDate, NSString;
+@class NSString;
 
 @protocol EDIndexableItem
+- (unsigned long long)!;
+- (NSString *)nMB:logLifespanInDays:dispatchQueue:] /* Error: Ran out of types for this method. */;
 - (NSString *)[;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysMarkAsIndexed;
-@property(readonly, nonatomic) NSDate *dateReceived;
-@property(readonly, copy, nonatomic) NSString *domainIdentifier;
-@property(retain) EDEnqueuedDonation *enqueuedDonation;
-@property(readonly, nonatomic) unsigned long long estimatedSizeInBytes;
-@property(readonly, nonatomic) _Bool hasCompleteData;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(nonatomic) long long indexingType;
-@property(readonly, nonatomic) unsigned long long itemInstantiationTime;
-@property(readonly, copy, nonatomic) EDPersistedMessageID *messagePersistentID;
-@property(readonly, nonatomic) _Bool requiresPreprocessing;
-@property(readonly, nonatomic) _Bool shouldExcludeFromIndex;
-@property(readonly, nonatomic) _Bool shouldIndexImmediatelyPostPreprocessing;
 @end
 

@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface DODMLASRSchemaDODMLASRUserEditExperimentStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)IAPAppAuthCertSerialStringForConnectionID;
+- (void)nInfo;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)emaRequestLinkInfo";
-- (id)r1;
+- (id)PEGASUSSchemaPEGASUSAudioUnderstandingTier1;
 - (id)h®;
 - (_Bool)®´#;
 - (_Bool)(;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TRIMAAssetMetadata
 {
     unsigned long long _downloadSize;
-    NSString *_namespaceNameForEncryptionKey;
 }
 
-+ (id);
++ (id)firstVideoTrackCodec;
 - (id);
 - (id);
 - (id);
@@ -21,15 +18,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id), std:(unsigned long long)arg1:allocator<MDLLight *>>="__begin_"^@"__end_"^@""{?="__cap_"^@}} /* Error: Ran out of types for this method. */;
+- (_Bool)N,V_tv_usec;
 - (void)!ÈGù1!°1Â0@ù
 × ;
-- (unsigned long long)letedLinks;
+- (unsigned long long)_deferredDeletedLinks;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long downloadSize; // @synthesize downloadSize=_downloadSize;
-@property(readonly, nonatomic) NSString *namespaceNameForEncryptionKey; // @synthesize namespaceNameForEncryptionKey=_namespaceNameForEncryptionKey;
 
 @end
 

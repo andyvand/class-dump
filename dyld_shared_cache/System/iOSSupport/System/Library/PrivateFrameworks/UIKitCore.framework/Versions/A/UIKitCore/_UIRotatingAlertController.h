@@ -6,35 +6,29 @@
 
 #import <UIKitCore/UIAlertController.h>
 
-@class UIViewController;
-@protocol UIPopoverPresentationControllerDelegate, _UIRotatingAlertControllerDelegate;
+@protocol _UIRotatingAlertControllerDelegate;
 
 @interface _UIRotatingAlertController : UIAlertController
 {
     unsigned long long _arrowDirections;
-    _Bool _isRotating;
-    _Bool _readyToPresentAfterRotation;
-    UIViewController *_presentedViewControllerWhileRotating;
-    id <UIPopoverPresentationControllerDelegate> _popoverPresentationControllerDelegateWhileRotating;
-    id <_UIRotatingAlertControllerDelegate> _rotatingSheetDelegate;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (void)systemDidWake;
+- (void)compressedProtobufDataForUpdateT3: /* Error: Ran out of types for this method. */;
+- (_Bool),C,N,V_service;
 - (void);
+- (void);
+- (void)one ID present!;
+- (unsigned long long)es from peer device;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)MPModelRelationshipGenericPlaylist;
 - (_Bool)¡°!Aùd°1Â0@ù
 × ;
-- (void)erValue;
+- (void)_numberValue;
 - (_Bool)ä;
 - (void)þ;
 - (void);

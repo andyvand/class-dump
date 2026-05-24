@@ -11,7 +11,6 @@
 @interface ABMetadataMarkViewedOperation : ABMetadataOperation
 {
     NSArray *_uniqueIds;
-    _Bool _oneShot;
 }
 
 - (void);

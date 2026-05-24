@@ -6,12 +6,11 @@
 
 #import <AccessibilityKit/AXKBaseAction.h>
 
-@class AXFUIElement, NSString;
+@class NSString;
 
 @interface AXKFoundationAction : AXKBaseAction
 {
     NSString *_accessibilityActionName;
-    AXFUIElement *_axfUIElement;
 }
 
 + (id);
@@ -20,14 +19,13 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)setFloatValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityActionName; // @synthesize accessibilityActionName=_accessibilityActionName;
-@property(copy, nonatomic) AXFUIElement *axfUIElement; // @synthesize axfUIElement=_axfUIElement;
 
 @end
 

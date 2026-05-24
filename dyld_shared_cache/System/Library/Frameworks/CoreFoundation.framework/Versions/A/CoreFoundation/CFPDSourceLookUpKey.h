@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface CFPDSourceLookUpKey
 {
     struct __CFString *uncanonicalizedPath;
-    struct __CFString *cloudPath;
 }
 
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 
 @end
 

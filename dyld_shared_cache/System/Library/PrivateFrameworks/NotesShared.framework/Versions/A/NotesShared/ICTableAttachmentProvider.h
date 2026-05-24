@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAttachment, ICCRTTCompatibleDocument, ICTable, NSManagedObjectContext;
-@protocol ICTableAttachmentProviderDelegate;
+@class ICAttachment;
 
 @interface ICTableAttachmentProvider
 {
     _Bool _needsToUpdateTableFromBackgroundAttachment;
-    ICAttachment *_attachment;
-    ICTable *_table;
-    ICCRTTCompatibleDocument *_tableDoc;
-    id <ICTableAttachmentProviderDelegate> _delegate;
-    ICAttachment *_backgroundAttachment;
-    NSManagedObjectContext *_overriddenBackgroundMOC;
 }
 
 + (id);
 + (void);
-+ (void);
++ (void)bundleForClass:(id)arg1;
 + (id);
 + (id);
 + (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ble to update login time for %s:(id)arg1 %ld %s;
+- (void)al name from array for principal;
+- (void)No attributes returned for keychain item at index %ld
+;
+- (void)lastFailedLoginTime;
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (id);
 - (void);
@@ -48,14 +42,7 @@
 - (void)zR;
 
 // Remaining properties
-@property(nonatomic) __weak ICAttachment *attachment; // @synthesize attachment=_attachment;
 @property(retain, nonatomic) ICAttachment *backgroundAttachment; // @synthesize backgroundAttachment=_backgroundAttachment;
-@property(nonatomic) __weak id <ICTableAttachmentProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isBeingEditedLocallyOnDevice;
-@property(nonatomic) _Bool needsToUpdateTableFromBackgroundAttachment; // @synthesize needsToUpdateTableFromBackgroundAttachment=_needsToUpdateTableFromBackgroundAttachment;
-@property(nonatomic) __weak NSManagedObjectContext *overriddenBackgroundMOC; // @synthesize overriddenBackgroundMOC=_overriddenBackgroundMOC;
-@property(readonly, nonatomic) ICTable *table; // @synthesize table=_table;
-@property(readonly, nonatomic) ICCRTTCompatibleDocument *tableDoc; // @synthesize tableDoc=_tableDoc;
 
 @end
 

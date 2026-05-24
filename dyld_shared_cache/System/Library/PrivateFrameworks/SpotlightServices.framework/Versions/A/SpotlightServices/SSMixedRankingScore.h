@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary;
-
 @interface SSMixedRankingScore
 {
     float _score;
-    float _scoreText;
-    float _scoreEngagement;
-    float _scoreContext;
-    float _scoreResultType;
-    float _bestTokenMatchRatio;
-    double _scoreFreshness;
-    NSDate *_freshnessDate;
-    NSMutableDictionary *_textScores;
-    unsigned long long _bestTokenMatchCount;
-    NSMutableDictionary *_fieldMatchCount;
 }
 
 - (id);
@@ -33,31 +21,21 @@
 - (void);
 - (void);
 - (float);
-- (id);
-- (float);
-- (unsigned long long);
-- (float);
-- (id);
+- (id)updatePreliminaryMetadata;
+- (float)setForceImageLoadingScaleFactor: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setForceIgnoreAllTCCChecks: /* Error: Ran out of types for this method. */;
+- (float)requestSourceApplicationMetadataForBundleIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)needsDominantBackgroundColor;
 - (float);
 - (double);
 - (float);
 - (id);
-- (float);
+- (float)P;
 - (void);
-- (void)orTesting: /* Error: Ran out of types for this method. */;
+- (void)getAllDirectivesArraysForTesting: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bestTokenMatchCount; // @synthesize bestTokenMatchCount=_bestTokenMatchCount;
-@property(nonatomic) float bestTokenMatchRatio; // @synthesize bestTokenMatchRatio=_bestTokenMatchRatio;
-@property(retain, nonatomic) NSMutableDictionary *fieldMatchCount; // @synthesize fieldMatchCount=_fieldMatchCount;
-@property(retain, nonatomic) NSDate *freshnessDate; // @synthesize freshnessDate=_freshnessDate;
 @property(nonatomic) float score; // @synthesize score=_score;
-@property(nonatomic) float scoreContext; // @synthesize scoreContext=_scoreContext;
-@property(nonatomic) float scoreEngagement; // @synthesize scoreEngagement=_scoreEngagement;
-@property(nonatomic) double scoreFreshness; // @synthesize scoreFreshness=_scoreFreshness;
-@property(nonatomic) float scoreResultType; // @synthesize scoreResultType=_scoreResultType;
-@property(nonatomic) float scoreText; // @synthesize scoreText=_scoreText;
-@property(retain, nonatomic) NSMutableDictionary *textScores; // @synthesize textScores=_textScores;
 
 @end
 

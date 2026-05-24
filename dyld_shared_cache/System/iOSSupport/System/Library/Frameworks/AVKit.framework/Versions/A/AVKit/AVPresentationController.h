@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPresentationContainerView, AVPresentationContext, UIPresentationController, UIView, UIViewController, UIWindow;
+@class AVObservationController, UIPresentationController;
 
 __attribute__((visibility("hidden")))
 @interface AVPresentationController
 {
     UIPresentationController *_presentationController;
-    AVPresentationContainerView *_presentedPresentationContainerView;
-    AVPresentationContext *_context;
-    AVObservationController *_observationController;
-    UIWindow *_presentationWindowForDisablingAutorotation;
 }
 
 - (void);
 - (id);
-- (id);
+- (id).G;
 - (id);
 - (void);
 - (void);
@@ -30,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)70;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -40,18 +36,12 @@ __attribute__((visibility("hidden")))
 - (void)1[ð1Â0@ù
 × ;
 - (void);
-- (id)ysisInteractionInProgress;
+- (id)analysisInteractionInProgress;
 - (void)w;
 - (void)V_mediaSelectionMenuController;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *containerView;
-@property(readonly, nonatomic) AVPresentationContext *context; // @synthesize context=_context;
 @property(readonly, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(nonatomic) __weak UIWindow *presentationWindowForDisablingAutorotation; // @synthesize presentationWindowForDisablingAutorotation=_presentationWindowForDisablingAutorotation;
-@property(readonly, nonatomic) __weak AVPresentationContainerView *presentedPresentationContainerView;
-@property(readonly, nonatomic) UIViewController *presentedViewController;
-@property(readonly, nonatomic) UIViewController *presentingViewController;
 
 @end
 

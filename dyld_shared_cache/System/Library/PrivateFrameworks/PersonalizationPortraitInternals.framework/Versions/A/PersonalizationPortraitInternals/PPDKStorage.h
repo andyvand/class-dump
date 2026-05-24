@@ -4,47 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _PASLock;
-@protocol OS_dispatch_semaphore;
+@class _PASLock;
 
 @interface PPDKStorage
 {
     _PASLock *_entityLock;
-    _PASLock *_topicLock;
-    NSObject<OS_dispatch_semaphore> *_entityWriteSem;
-    NSObject<OS_dispatch_semaphore> *_topicWriteSem;
 }
 
-+ (id)thRules:namedEntityStore:topicStore:locationStore: /* Error: Ran out of types for this method. */;
++ (id)initWithRules:namedEntityStore:topicStore:locationStore: /* Error: Ran out of types for this method. */;
+- (double)pg_query__scalar_array_op_expr__free_unpacked;
+- (_Bool)	;
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (unsigned int)fied.;
+- (id);
 - (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (double);
-- (id);
-- (id);
+- (id)adReceiptsForMissingMessage cache:(id)arg1 %@ (size:%lu) /* Error: Ran out of types for this method. */;
+- (id)es;
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (double);
-- (unsigned int);
-- (id);
+- (double)hasCapability: /* Error: Ran out of types for this method. */;
+- (unsigned int)zR;
+- (id)NIMClientCapabilities;
 - (double);
 - (_Bool);
 - (unsigned int);
 - (id);
 - (id)Tokenizer=};
-- (void)ionWithHandle:block: /* Error: Ran out of types for this method. */;
+- (void)writeTransactionWithHandle:block: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double entityStreamCooldownTimeRemaining;
 @property(readonly, nonatomic) double topicStreamCooldownTimeRemaining;
 
 @end

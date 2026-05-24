@@ -5,5 +5,6 @@
 //
 
 @protocol CUIKSingleDayTimelineLayoutScreenUtils
+- (double)1%{;
 @end
 

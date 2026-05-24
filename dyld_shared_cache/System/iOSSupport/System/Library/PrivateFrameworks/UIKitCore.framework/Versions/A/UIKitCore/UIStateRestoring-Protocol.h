@@ -9,8 +9,8 @@
 @protocol UIStateRestoring
 
 @optional
-- (void)entry_pathname;
 - (void);
+- (void)archive_entry_pathname;
 
 // Remaining properties
 @property(readonly, nonatomic) Class objectRestorationClass;

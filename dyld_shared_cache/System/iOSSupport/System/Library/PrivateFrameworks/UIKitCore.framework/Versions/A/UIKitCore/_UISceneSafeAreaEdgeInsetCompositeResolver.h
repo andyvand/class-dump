@@ -16,11 +16,11 @@
 + (_Bool)8¿7y+8¿7GSg;
 - (struct UIEdgeInsets);
 - (id);
-- (id);
+- (id)setStorefrontIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)v24@0:(id)arg1 8@"NSURL"16;
-- (_Bool)ormUndoingRemoteRootLayerTransform:(id)arg1 frame: /* Error: Ran out of types for this method. */;
-- (void)emplateStorage;
+- (_Bool)applyTransformUndoingRemoteRootLayerTransform:(id)arg1 frame: /* Error: Ran out of types for this method. */;
+- (void)_previewingSegueTemplateStorage;
 - (void)àP¥ÿ×0Ol;
 
 // Remaining properties

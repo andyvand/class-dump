@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface FCTodayFeedConfigCKResult
 {
     NSData *_configData;
-    NSDictionary *_recordsByType;
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)weakClickClickValue;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *configData; // @synthesize configData=_configData;
-@property(readonly, nonatomic) NSDictionary *recordsByType; // @synthesize recordsByType=_recordsByType;
 
 @end
 

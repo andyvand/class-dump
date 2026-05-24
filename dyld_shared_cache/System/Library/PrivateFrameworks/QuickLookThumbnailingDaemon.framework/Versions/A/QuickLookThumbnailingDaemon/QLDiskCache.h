@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, NSString, QLCacheIndexDatabase, QLCacheMMAPBlobDatabase;
-@protocol QLDiskCacheDelegate;
+@class NSString;
 
 @interface QLDiskCache
 {
     NSString *_path;
-    QLCacheIndexDatabase *_indexDatabase;
-    QLCacheMMAPBlobDatabase *_blobDatabase;
-    NSString *_metaDataFilePath;
-    NSString *_dirtyFilePath;
-    NSString *_exclusivePath;
-    NSString *_resetFilePath;
-    NSString *_resetReasonPath;
-    _Bool _dirtyForDelegate;
-    NSLock *_databaseLock;
-    _Bool _opened;
-    NSMutableDictionary *_metaData;
-    _Bool _metaDataDirty;
-    long long _writingCount;
-    int _exclusiveFD;
-    _Bool _hasDirtyLock;
-    id <QLDiskCacheDelegate> _delegate;
 }
 
 + (id);
@@ -34,7 +17,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (unsigned long long);
@@ -46,84 +29,69 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)@;
 - (id);
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
-- (void);
+- (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
+- (_Bool);
+- (void);
 - (id);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)equestHeaders=%@;
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long)z;
+- (id);
+- (_Bool);
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (unsigned long long)g;
 - (unsigned long long)Eù11Â0@ù
 × ;
 - (void),V_successfullyHandldedRequestedTypes;
 - (float)n a View. This will always read the default value and will not update.;
 
 // Remaining properties
-@property __weak id <QLDiskCacheDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) unsigned long long fileEntryCount;
-@property(readonly) float fragmentation;
-@property(readonly, nonatomic) _Bool hasDirtyLock; // @synthesize hasDirtyLock=_hasDirtyLock;
-@property(readonly) _Bool isOpened; // @synthesize isOpened=_opened;
-@property(readonly) unsigned long long maxSize;
-@property(readonly) unsigned long long maxThumbnailLifeTime;
-@property(retain) NSMutableDictionary *metaData; // @synthesize metaData=_metaData;
 @property _Bool metaDataDirty; // @synthesize metaDataDirty=_metaDataDirty;
-@property(retain) NSString *metaDataFilePath; // @synthesize metaDataFilePath=_metaDataFilePath;
-@property(readonly) NSString *path; // @synthesize path=_path;
-@property(readonly) unsigned long long reserveBufferCount;
-@property(readonly) unsigned long long reserveBufferSize;
-@property(readonly) unsigned long long size;
-@property(readonly) unsigned long long thumbnailCount;
-@property(readonly) long long writingCount; // @synthesize writingCount=_writingCount;
 
 @end
 

@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface shallow_modelInput
 {
     double _plugin_battery_level;
-    double _battery_duration_1;
-    double _battery_duration_2;
-    double _battery_duration_3;
-    double _battery_duration_4;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
@@ -28,14 +22,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (id);
-- (id)t_secs_curr_dynamic_bin_8;
+- (id)_drain_duration_p_0_00_at_charge_start_secs_curr_dynamic_bin_8;
 
 // Remaining properties
-@property(nonatomic) double battery_duration_1; // @synthesize battery_duration_1=_battery_duration_1;
-@property(nonatomic) double battery_duration_2; // @synthesize battery_duration_2=_battery_duration_2;
-@property(nonatomic) double battery_duration_3; // @synthesize battery_duration_3=_battery_duration_3;
-@property(nonatomic) double battery_duration_4; // @synthesize battery_duration_4=_battery_duration_4;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) double plugin_battery_level; // @synthesize plugin_battery_level=_plugin_battery_level;
 
 @end

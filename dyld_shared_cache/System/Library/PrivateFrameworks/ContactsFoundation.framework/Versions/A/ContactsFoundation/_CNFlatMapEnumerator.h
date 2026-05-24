@@ -9,8 +9,6 @@
 @interface _CNFlatMapEnumerator
 {
     NSEnumerator *_enumerator;
-    CDUnknownBlockType _transform;
-    NSEnumerator *_buffer;
 }
 
 - (void);

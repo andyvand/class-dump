@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BSServiceListenerConnection;
+
 @protocol BSServiceListenerConnectionEventObserver
+
+@optional
+- (void)itMirroringDelegate _performExportWithRequest:(BSServiceListenerConnection *)arg1 ]_block_invoke;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAudioStreamInterfaceDataSource
 {
@@ -13,24 +11,15 @@ __attribute__((visibility("hidden")))
 
 + (id)ÐÿD
 ;
-- (_Bool);
-- (_Bool);
+- (_Bool)routingPathLegs;
+- (_Bool)ps;
 - (void);
 - (void);
 - (void)ublic}@Resident selection info has updated in the working store.;
-- (_Bool)TH_DETAIL;
+- (_Bool)ACCESSORY_NOAUTH_DETAIL;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(getter=isMuted) _Bool muted;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsPHASE;
-@property(readonly) _Bool usesGlobalMuting;
 
 @end
 

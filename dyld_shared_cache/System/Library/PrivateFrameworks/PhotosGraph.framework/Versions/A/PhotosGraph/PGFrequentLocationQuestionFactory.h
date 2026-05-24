@@ -13,7 +13,7 @@
     PHFetchResult *_existingFrequentLocationQuestions;
 }
 
-- (void);
+- (void)hasAncestor:(id)arg1;
 - (id);
 - (id);
 - (_Bool);
@@ -21,7 +21,7 @@
 - (id);
 - (long long);
 - (unsigned short);
-- (void)ContextConsistencyUpdate;
+- (void)PGGraphUpdateManagerExecutionContextConsistencyUpdate;
 
 // Remaining properties
 @property(retain, nonatomic) PHFetchResult *existingFrequentLocationQuestions; // @synthesize existingFrequentLocationQuestions=_existingFrequentLocationQuestions;

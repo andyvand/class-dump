@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_nw_activity;
 
 @interface SiriCoreNetworkActivity
 {
     NSObject<OS_nw_activity> *_activity;
-    long long _state;
-    long long _parentLabel;
-    NSMutableSet *_connections;
-    _Bool _hasStarted;
 }
 
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (int);
+- (void)DisableAutomaticMessageSummarization;
+- (long long).m;
+- (void).apple.Email.kMailAccountDirectoryLock;
+- (void)sk"8@"PARResponse"16@"NSError"24;
+- (void)Date, date is nil;
+- (int)EMConnectionInvalidated;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

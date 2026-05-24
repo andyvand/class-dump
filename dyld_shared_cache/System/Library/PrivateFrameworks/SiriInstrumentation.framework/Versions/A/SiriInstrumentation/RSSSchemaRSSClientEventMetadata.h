@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RSSSchemaRSSClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_rssId;
-    _Bool _hasRssId;
 }
 
 - (void);
@@ -21,19 +20,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)@;
+- (unsigned long long)ory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDSystemAppRequest_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)hmentRecordRef, BOOL);
 - (id);
-- (id);
-- (id)rSpeechTranslationEvent;
+- (id)i~;
+- (id)asrSpeechTranslationEvent;
 - (id)V_adBlockerSource;
-- (void)erCandidatesNotFounds;
+- (void)parameterCandidatesNotFounds;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRssId; // @synthesize hasRssId=_hasRssId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *rssId; // @synthesize rssId=_rssId;
 
 @end

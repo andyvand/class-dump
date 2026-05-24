@@ -22,27 +22,20 @@
     } *_version;
 }
 
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)ExtrinsicsRotation;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)P;
 - (id)tion,"%{private}@";
 
 // Remaining properties
-@property(readonly) unsigned long long calibrationDataVersion;
-@property(readonly) _Bool debugVariant;
-@property(readonly) unsigned long long hardwareVersion;
-@property(readonly) unsigned long long roseAPVersion;
-@property(readonly) unsigned long long roseDSPVersion;
-@property(readonly) NSString *rtKitVersion;
-@property(readonly) NSString *specificationVersion;
 @property(readonly) NSString *vanBurenVersion;
 
 @end

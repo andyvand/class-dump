@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAssetCollection, PHObject, PHPhotoLibrary;
+@class PHAssetCollection;
 
 @interface PXStoryPhotoKitAssetContainer
 {
     PHAssetCollection *_assetCollection;
-    PHObject *_originalContainer;
-    PHPhotoLibrary *_photoLibrary;
-    NSString *_identifier;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)aryRebuild:(struct _NSZone *)arg1;
+- (id)setPercentCompletedForLibraryRebuild:(struct _NSZone *)arg1;
 - (id)SwitcherChromeButtonSpec;
 - (id)Show Chapter Titles;
 - (void);
@@ -29,10 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) PHObject *container;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) PHObject *originalContainer; // @synthesize originalContainer=_originalContainer;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end
 

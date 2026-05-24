@@ -7,14 +7,13 @@
 @class NSArray, _INPBIntentMetadata;
 
 @protocol _INPBStopShareETAIntent
-- (_Bool)ponents:displayName:image:contactIdentifier: /* Error: Ran out of types for this method. */;
-- (void)sPrivateMediaItemValueData;
-- (NSArray *)asBusTrip;
+- (void)_extractFromBackupPath: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *)SDisk",R;
+- (_Bool)initWithHandle:nameComponents:displayName:image:contactIdentifier: /* Error: Ran out of types for this method. */;
+- (void)hasPrivateMediaItemValueData;
+- (NSArray *)hasBusTrip;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
 @end
 

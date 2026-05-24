@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKRendererTile;
+@class NSArray;
 
 @interface PKTileTask
 {
     NSArray *_renderStrokes;
-    NSArray *_additionalStrokes;
-    PKRendererTile *_tile;
-    long long _renderCount;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)Sherwood Forest.m4r;
 - (id);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additionalStrokes; // @synthesize additionalStrokes=_additionalStrokes;
-@property(readonly, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, nonatomic) long long renderCount; // @synthesize renderCount=_renderCount;
 @property(readonly, nonatomic) NSArray *renderStrokes; // @synthesize renderStrokes=_renderStrokes;
-@property(readonly, nonatomic) PKRendererTile *tile; // @synthesize tile=_tile;
 
 @end
 

@@ -6,9 +6,6 @@
 
 #import <AppKit/NSTextField.h>
 
-@class NSArray;
-@protocol NSComboBoxDataSource, NSComboBoxDelegate;
-
 @interface NSComboBox : NSTextField
 {
     id _dataSource;
@@ -16,18 +13,6 @@
 
 
 // Remaining properties
-@property(getter=isButtonBordered) _Bool buttonBordered;
-@property _Bool completes;
-@property id <NSComboBoxDataSource> dataSource;
-@property __weak id <NSComboBoxDelegate> delegate;
 @property _Bool hasVerticalScroller;
-@property(readonly) long long indexOfSelectedItem;
-@property struct CGSize intercellSpacing;
-@property double itemHeight;
-@property(readonly) long long numberOfItems;
-@property long long numberOfVisibleItems;
-@property(readonly) id objectValueOfSelectedItem;
-@property(readonly, copy) NSArray *objectValues;
-@property _Bool usesDataSource;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSString;
 
 @interface SWURLSchemeHandlerSession
 {
     NSString *_identifier;
-    CDUnknownBlockType _startCallbackBlock;
-    CDUnknownBlockType _endCallbackBlock;
-    NSMutableSet *_trackingTasks;
 }
 
 - (id);
@@ -25,10 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType endCallbackBlock; // @synthesize endCallbackBlock=_endCallbackBlock;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) CDUnknownBlockType startCallbackBlock; // @synthesize startCallbackBlock=_startCallbackBlock;
-@property(readonly, nonatomic) NSMutableSet *trackingTasks; // @synthesize trackingTasks=_trackingTasks;
 
 @end
 

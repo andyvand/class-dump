@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface OADCustomPattern : OADPattern
 {
     OADBlipRef *mBlipRef;
-    _Bool mIsBlipRefOverridden;
 }
 
 + (id);

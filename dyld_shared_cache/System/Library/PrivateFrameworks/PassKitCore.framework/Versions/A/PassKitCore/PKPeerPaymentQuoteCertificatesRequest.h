@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)MUPayloadEncryption:%lu bytes encrypted /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

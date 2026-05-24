@@ -7,8 +7,17 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void);
+- (void);
+- (void)z$|;
+- (_Bool)L%';
+- (void)CKConversationListCollectionViewController_Syncing;
+- (struct CGRect)SuggestionStore;
+- (void);
+- (unsigned long long){PWMoreAccessFeatures=II[64c]IIb1b1b1b1b1b1b1b1b3b1b1b1b1b1}[37c]}16[16C]24B32;
 - (void)i24@28;
-- (_Bool)mber;
+- (_Bool)buttonNumber;
 - (void)%;
 - (void)$þ@þþ\¢`  ø  "ÀÀ;
 - (struct CGSize)B;

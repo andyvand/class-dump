@@ -7,8 +7,6 @@
 @interface AXCoreUtilities.AXMainActorSerialQueue
 {
     id $defaultActor;
-    id continuation;
-    id parentTask;
 }
 
 @end

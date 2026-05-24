@@ -5,5 +5,8 @@
 //
 
 @protocol CNDuplicateContactsControllerDelegate
+
+@optional
+- (void);
 @end
 

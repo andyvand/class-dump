@@ -9,22 +9,20 @@
 @interface SIRINLUTask
 {
     USOSerializedGraph *_task;
-    double _score;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (double);
+- (double)bundleIdentifierByLocatingWebClipBundleIdentifierInString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)SiriOntology.UsoTaskBuilder_pause_common_Recipe;
 
 // Remaining properties
-@property(nonatomic) double score; // @synthesize score=_score;
 @property(retain, nonatomic) USOSerializedGraph *task; // @synthesize task=_task;
 
 @end

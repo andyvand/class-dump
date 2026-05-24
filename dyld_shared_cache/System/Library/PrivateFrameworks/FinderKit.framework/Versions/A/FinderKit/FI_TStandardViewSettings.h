@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TIconViewSettings, FI_TListViewSettings, NSMutableDictionary;
+@class FI_TIconViewSettings, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FI_TStandardViewSettings
 {
     NSMutableDictionary *_settings;
-    FI_TIconViewSettings *_iconViewSettings;
-    FI_TListViewSettings *_listViewSettings;
 }
 
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -30,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) FI_TIconViewSettings *iconViewSettings;
-@property(retain, nonatomic) FI_TListViewSettings *listViewSettings;
 
 @end
 

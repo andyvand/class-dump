@@ -5,5 +5,7 @@
 //
 
 @protocol FormCompletionDelegate
+- (void);
+- (void)P;
 @end
 

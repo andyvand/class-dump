@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXAppleMusicStatusProvider;
-
 @interface PXAppleMusicPrompter
 {
     CDUnknownBlockType _completion;
-    id <PXAppleMusicStatusProvider> _appleMusicStatusProvider;
 }
 
 + (void);
 - (id);
+- (void)�#;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (CDUnknownBlockType)ler: /* Error: Ran out of types for this method. */;
-- (void)reMinimumSize: /* Error: Ran out of types for this method. */;
+- (id);
+- (CDUnknownBlockType)autoConfirmedCountForSummaryViewController: /* Error: Ran out of types for this method. */;
+- (void)_ensureMinimumSize: /* Error: Ran out of types for this method. */;
 - (void)o;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXAppleMusicStatusProvider> appleMusicStatusProvider; // @synthesize appleMusicStatusProvider=_appleMusicStatusProvider;
 @property(readonly, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 
 @end

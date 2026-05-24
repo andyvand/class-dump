@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _IMMemoryCacheItem
 {
     id _item;
-    unsigned long long _cost;
-    unsigned long long _timeStamp;
-    NSString *_keyString;
-    _Bool _conformsToProtocol;
 }
 
 + (id);
@@ -21,7 +15,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -30,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool conformsToProtocol; // @synthesize conformsToProtocol=_conformsToProtocol;
-@property(nonatomic) unsigned long long cost; // @synthesize cost=_cost;
 @property(retain, nonatomic) id item; // @synthesize item=_item;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_keyString;
-@property(nonatomic) unsigned long long timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end
 

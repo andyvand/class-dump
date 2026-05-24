@@ -6,13 +6,11 @@
 
 #import <GameController/GCExtendedGamepad.h>
 
-@class GCControllerButtonInput, GCControllerDirectionPad;
+@class GCControllerButtonInput;
 
 @interface GCDualShockGamepad : GCExtendedGamepad
 {
     GCControllerButtonInput *_touchpadButton;
-    GCControllerDirectionPad *_touchpadPrimary;
-    GCControllerDirectionPad *_touchpadSecondary;
 }
 
 + (_Bool);
@@ -20,16 +18,14 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)initWithFPItem:(id)arg1 size:minimumDimension:scale:iconMode: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) GCControllerButtonInput *touchpadButton; // @synthesize touchpadButton=_touchpadButton;
-@property(readonly, nonatomic) GCControllerDirectionPad *touchpadPrimary; // @synthesize touchpadPrimary=_touchpadPrimary;
-@property(readonly, nonatomic) GCControllerDirectionPad *touchpadSecondary; // @synthesize touchpadSecondary=_touchpadSecondary;
 
 @end
 

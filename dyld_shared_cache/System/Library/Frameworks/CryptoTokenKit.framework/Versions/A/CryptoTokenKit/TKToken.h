@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TKTokenConfiguration, TKTokenDriver, TKTokenID, TKTokenKeychainContents;
-@protocol TKTokenDelegate;
+@class TKTokenConfiguration, TKTokenKeychainContents;
 
 @interface TKToken
 {
     TKTokenConfiguration *_configuration;
-    TKTokenDriver *_tokenDriver;
-    id <TKTokenDelegate> _delegate;
-    TKTokenKeychainContents *_keychainContents;
-    TKTokenID *_tokenID;
 }
 
 - (id);
@@ -21,19 +16,15 @@
 - (id);
 - (id);
 - (id);
+- (id)h;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)sswordHash.swift;
 - (id);
 
 // Remaining properties
-@property(readonly) TKTokenConfiguration *configuration;
-@property __weak id <TKTokenDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) TKTokenKeychainContents *keychainContents; // @synthesize keychainContents=_keychainContents;
-@property(readonly) TKTokenDriver *tokenDriver; // @synthesize tokenDriver=_tokenDriver;
-@property(readonly) TKTokenID *tokenID; // @synthesize tokenID=_tokenID;
 
 @end
 

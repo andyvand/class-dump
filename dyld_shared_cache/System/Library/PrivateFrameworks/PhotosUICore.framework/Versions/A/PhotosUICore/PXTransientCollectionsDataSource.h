@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (long long)ose: /* Error: Ran out of types for this method. */;
+- (long long)windowWillClose: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);

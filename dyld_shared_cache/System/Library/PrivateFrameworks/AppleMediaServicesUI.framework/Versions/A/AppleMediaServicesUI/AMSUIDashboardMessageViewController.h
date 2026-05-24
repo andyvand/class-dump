@@ -6,12 +6,11 @@
 
 #import <AppleMediaServicesUI/AMSUIBaseMessageViewController.h>
 
-@class AMSBinaryPromise, AMSUIDashboardMessageAppearance, NSString;
+@class AMSUIDashboardMessageAppearance;
 
 @interface AMSUIDashboardMessageViewController : AMSUIBaseMessageViewController
 {
     AMSUIDashboardMessageAppearance *_preferredAppearance;
-    AMSUIDashboardMessageAppearance *_requestAppearance;
 }
 
 - (void);
@@ -26,27 +25,15 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)Initiated: /* Error: Ran out of types for this method. */;
+- (void)setUserInitiated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long engagementImpressionsReportingFrequency;
-@property(readonly) unsigned long long hash;
-@property unsigned long long impressionsReportingFrequency;
-@property(retain) AMSBinaryPromise *loadPromise;
-@property(retain) AMSUIDashboardMessageAppearance *preferredAppearance; // @synthesize preferredAppearance=_preferredAppearance;
 @property(retain) AMSUIDashboardMessageAppearance *requestAppearance; // @synthesize requestAppearance=_requestAppearance;
-@property _Bool shouldAutomaticallyReportMetrics;
-@property(readonly) Class superclass;
 
 @end
 

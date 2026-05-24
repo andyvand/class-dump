@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWReactionAnalyticsPayload
 {
     NSString *_clientApplicationID;
-    int _continuityCameraClientDeviceClass;
-    _Bool _uiTriggeredReaction;
-    NSString *_reactionType;
 }
 
 - (_Bool);
@@ -23,24 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ature.;
 - (id);
 - (id);
 - (int);
 - (id)ufferPool >>>> Fig;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(nonatomic) int continuityCameraClientDeviceClass; // @synthesize continuityCameraClientDeviceClass=_continuityCameraClientDeviceClass;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *reactionType; // @synthesize reactionType=_reactionType;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool uiTriggeredReaction; // @synthesize uiTriggeredReaction=_uiTriggeredReaction;
 
 @end
 

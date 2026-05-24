@@ -10,9 +10,9 @@
 {
 }
 
+- (id);
 - (id);
-- (id);
-- (id)ultiplier;
+- (id)MPSCNNConvolutionChannelMultiplier;
 
 @end
 

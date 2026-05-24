@@ -6,54 +6,17 @@
 
 #import <FinderKit/FI_TBaseBrowserViewController.h>
 
-@class FI_TContainerLayoutManager, FI_TICloudNoDocumentsViewController, FI_TLoadingViewController, FI_TRenameOperation, NSArray, NSMutableArray, NSString, NSView;
+@class FI_TContainerLayoutManager;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBrowserViewController : FI_TBaseBrowserViewController
 {
     struct TFENodeVector _resolvedTargetPath;
-    struct TFENodeVector _unResolvedTargetPath;
-    struct TFENode _nodeBeingEdited;
-    _Bool _isShowingICloudDriveContent;
-    _Bool _closingTarget;
-    NSArray *_minimumSizeConstraints;
-    NSMutableArray *_layoutConstraints;
-    struct vector<TKeyValueBinder, std::allocator<TKeyValueBinder>> _viewSettingsBinders;
-    NSView *_browserView;
-    struct unordered_map<TFENode, ContainerObservingOptions, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, ContainerObservingOptions>>> _openContainerMap;
-    int _sortBy;
-    FI_TContainerLayoutManager *_containerLayoutManager;
-    _Bool _shouldSuspendPendingSelectionsAndRenamesDuringAnimation;
-    struct TFENodeVector _pendingNodesToSelect;
-    _Bool _shouldEditPendingNodesToSelect;
-    FI_TRenameOperation *_editPendingNodesToSelectRenameOp;
-    _Bool _shouldAnimateNewFolder;
-    struct TFENodeVector _nodesBeingDragged;
-    _Bool _isInitialConfigInProgress;
-    _Bool _grouping;
-    _Bool _userHasInteractedWithView;
-    _Bool _forceScrollToTop;
-    double _scrollDistanceFromTop;
-    _Bool _shouldRestoreScrollDistance;
-    _Bool _unbindingViewSettings;
-    _Bool _selectionHasBeenHandled;
-    _Bool _delayNextPreviewPaneRetarget;
-    double _lastArrowKeyDownTimeSince1970;
-    FI_TICloudNoDocumentsViewController *_iCloudNoDocumentsViewController;
-    FI_TLoadingViewController *_loadingViewController;
-    struct TKeyValueObserver _viewSettingsObserver;
-    struct TKeyValueBinder _sortByBinder;
-    struct TKeyValueObserver _contentInsetsDidChangeObserver;
-    struct TNotificationCenterObserver _scrollViewWillLiveScrollObserver;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _notificationObservers;
-    _Bool _allowAppCentricLibraryIcons;
-    struct optional_bool _cloudSyncedLocation;
-    unsigned long long _itemCount;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -81,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -108,7 +71,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)(;
 - (void);
 - (void);
 - (void);
@@ -118,7 +81,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (const void *);
-- (void);
+- (void)q`;
 - (void);
 - (void);
 - (void);
@@ -126,11 +89,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (duration_c14d506d);
+- (duration_c14d506d);
 - (void);
 - (_Bool);
-- (struct TFENodeVector);
-- (_Bool);
+- (struct TFENodeVector)R;
+- (_Bool);
 - (struct TFENodeVector);
 - (void);
 - (void);
@@ -141,7 +104,7 @@ __attribute__((visibility("hidden")))
 - (struct TFENodeVector);
 - (struct TFENodeVector);
 - (const void *);
-- (unsigned int);
+- (unsigned int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -153,17 +116,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ĀR(;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)J;
 - (_Bool);
 - (const struct TFENode *);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -172,16 +135,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct optional_bool);
+- (struct optional_bool);
 - (_Bool);
 - (void);
 - (struct TFENodeVector);
@@ -195,11 +158,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (const struct TFENode *);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -223,30 +186,30 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (struct TFENode);
+- (struct TFENode);
 - (_Bool);
 - (_Bool);
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)zoomDisplayID;
 - (const void *);
 - (void);
 - (int);
 - (void);
-- (void);
+- (void)Tl;
 - (void);
 - (_Bool);
 - (id);
 - (const struct TFENode *);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void)°1Â0@ù
 × ;
-- (unsigned long long)lumnsForContainer:upToColumn: /* Error: Ran out of types for this method. */;
+- (unsigned long long)columnsForContainer:upToColumn: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÿÿ;
 - (void);
@@ -256,42 +219,7 @@ __attribute__((visibility("hidden")))
 - (void)Íÿ;
 
 // Remaining properties
-@property(setter=_setWantsPageAlignedHorizontalAxis:) _Bool _wantsPageAlignedHorizontalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedHorizontalAxis:
-
-@property(setter=_setWantsPageAlignedVerticalAxis:) _Bool _wantsPageAlignedVerticalAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,S_setWantsPageAlignedVerticalAxis:
-
-@property _Bool allowAppCentricLibraryIcons; // @synthesize allowAppCentricLibraryIcons=_allowAppCentricLibraryIcons;
-@property(nonatomic) __weak NSView *browserView; // @synthesize browserView=_browserView;
-@property(readonly) _Bool closingTarget; // @synthesize closingTarget=_closingTarget;
-@property(readonly) struct optional_bool cloudSyncedLocation; // @synthesize cloudSyncedLocation=_cloudSyncedLocation;
 @property(retain, nonatomic) FI_TContainerLayoutManager *containerLayoutManager; // @synthesize containerLayoutManager=_containerLayoutManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property _Bool delayNextPreviewPaneRetarget; // @synthesize delayNextPreviewPaneRetarget=_delayNextPreviewPaneRetarget;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool downloadsUbiquitousContents;
-@property(nonatomic) _Bool forceScrollToTop; // @synthesize forceScrollToTop=_forceScrollToTop;
-@property(nonatomic, getter=isGrouping) _Bool grouping; // @synthesize grouping=_grouping;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInitialConfigInProgress) _Bool initialConfigInProgress; // @synthesize initialConfigInProgress=_isInitialConfigInProgress;
-@property(readonly, nonatomic) _Bool isBackupBrowser;
-@property(readonly, nonatomic) _Bool isSnapshotImageBrowser;
-@property(readonly, nonatomic) unsigned long long itemCount; // @synthesize itemCount=_itemCount;
-@property(nonatomic) double scrollDistanceFromTop; // @synthesize scrollDistanceFromTop=_scrollDistanceFromTop;
-@property(nonatomic) _Bool selectionHasBeenHandled; // @synthesize selectionHasBeenHandled=_selectionHasBeenHandled;
-@property _Bool shouldRestoreScrollDistance; // @synthesize shouldRestoreScrollDistance=_shouldRestoreScrollDistance;
-@property(readonly) const struct TFENode *snapshotNode;
-@property(nonatomic) int sortBy;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAutomaticallyAdjustingSafeAreaInsets;
-@property(readonly) _Bool unbindingViewSettings; // @synthesize unbindingViewSettings=_unbindingViewSettings;
-@property(nonatomic) _Bool userHasInteractedWithView; // @synthesize userHasInteractedWithView=_userHasInteractedWithView;
 
 @end
 

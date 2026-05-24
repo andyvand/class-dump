@@ -8,40 +8,24 @@ __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutSectionDescriptor
 {
     _Bool _clipsContentToBounds;
-    _Bool _excludesBoundarySupplementariesFromClipping;
-    unsigned long long _axis;
-    long long _orthogonalScrollingBehavior;
-    double _orthogonalScrollingDecelerationRate;
-    long long _orthogonalScrollingBounce;
-    double _cornerRadius;
-    double _pagingDimension;
-    double _groupDimension;
-    double _interPageDimension;
-    struct CGVector _scrollingUnitVector;
-    struct CGPoint _contentOffset;
-    struct CGRect _layoutFrame;
-    struct CGRect _contentFrame;
-    struct NSDirectionalEdgeInsets _contentInsets;
-    struct CGRect _orthogonalScrollViewLayoutFrame;
-    struct CGRect _containerLayoutFrame;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGVector);
-- (double);
-- (long long);
-- (_Bool);
-- (double);
-- (double);
+- (void)timeRecovered;
+- (void)setSenderHandle:(double)arg1;
+- (void)setPurgedAttachmentHandler:(double)arg1;
+- (void)setProtobufAction:(long long)arg1 forIncomingRequestsOfType: /* Error: Ran out of types for this method. */;
+- (void)setProperties:(struct CGRect)arg1 ofParticipant:inChatID:identifier:style:account: /* Error: Ran out of types for this method. */;
+- (void)sendCommand:(double)arg1 withProperties:toPerson:account: /* Error: Ran out of types for this method. */;
+- (void)replaceCountryCodes:(double)arg1;
+- (void)recoverableMessagesMetadataPendingCloudKitSaveWithLimit:(_Bool)arg1;
+- (void)metricAttachmentValidation:(struct CGRect)arg1 attachmentSize:operationalErrorDomain:operationalErrorCode:validationErrorDomain:validationErrorCode: /* Error: Ran out of types for this method. */;
+- (void)messageActionChangeProtobufForCompressedData:(_Bool)arg1;
+- (struct CGVector)initWithBundle:subServiceName: /* Error: Ran out of types for this method. */;
+- (double)addPersistentTaskExecutorMonitor:withID: /* Error: Ran out of types for this method. */;
+- (long long)addParticipants: /* Error: Ran out of types for this method. */;
+- (_Bool)_handleSyncFailureType:(id)arg1 step:(_Bool)arg2 activity:attemptCount:startTime:error:retry: /* Error: Ran out of types for this method. */;
+- (double)Name:participants:toIdentifier:outNewestSiblingChat: /* Error: Ran out of types for this method. */;
+- (double)spatchDelegate;
 - (_Bool);
 - (struct CGRect);
 - (_Bool);
@@ -59,7 +43,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (unsigned long long)
 × ;
-- (struct CGPoint)utton: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_didTapRightArrowButton: /* Error: Ran out of types for this method. */;
 - (struct CGRect)jëíÿ;
 - (double)shot.numberOfItems;
 - (void)¸;
@@ -67,22 +51,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;
-@property(nonatomic) _Bool clipsContentToBounds; // @synthesize clipsContentToBounds=_clipsContentToBounds;
-@property(nonatomic) struct CGRect containerLayoutFrame; // @synthesize containerLayoutFrame=_containerLayoutFrame;
-@property(nonatomic) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
-@property(nonatomic) struct NSDirectionalEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(nonatomic) struct CGPoint contentOffset; // @synthesize contentOffset=_contentOffset;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) _Bool excludesBoundarySupplementariesFromClipping; // @synthesize excludesBoundarySupplementariesFromClipping=_excludesBoundarySupplementariesFromClipping;
-@property(nonatomic) double groupDimension; // @synthesize groupDimension=_groupDimension;
-@property(nonatomic) double interPageDimension; // @synthesize interPageDimension=_interPageDimension;
-@property(nonatomic) struct CGRect layoutFrame; // @synthesize layoutFrame=_layoutFrame;
-@property(nonatomic) struct CGRect orthogonalScrollViewLayoutFrame; // @synthesize orthogonalScrollViewLayoutFrame=_orthogonalScrollViewLayoutFrame;
-@property(nonatomic) long long orthogonalScrollingBehavior; // @synthesize orthogonalScrollingBehavior=_orthogonalScrollingBehavior;
-@property(nonatomic) long long orthogonalScrollingBounce; // @synthesize orthogonalScrollingBounce=_orthogonalScrollingBounce;
-@property(nonatomic) double orthogonalScrollingDecelerationRate; // @synthesize orthogonalScrollingDecelerationRate=_orthogonalScrollingDecelerationRate;
-@property(nonatomic) double pagingDimension; // @synthesize pagingDimension=_pagingDimension;
-@property(nonatomic) struct CGVector scrollingUnitVector; // @synthesize scrollingUnitVector=_scrollingUnitVector;
 
 @end
 

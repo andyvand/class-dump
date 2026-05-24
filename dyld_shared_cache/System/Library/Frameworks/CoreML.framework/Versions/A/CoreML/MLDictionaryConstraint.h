@@ -11,13 +11,13 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)vp9_kbps;
+- (long long)y?!;
 - (void);
-- (id);
+- (id);
 - (_Bool);
 
 // Remaining properties

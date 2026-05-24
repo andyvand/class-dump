@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     _Bool _isEligibleForFocusWithZeroAlpha;
 }
 
-- (void);
+- (void)ming local message read push:(_Bool)arg1 %@;
 - (_Bool);
 - (_Bool);
-- (id)ateSearchFieldForDynamicType;
+- (id)updateSearchFieldForDynamicType;
 
 // Remaining properties
 @property(nonatomic) _Bool isEligibleForFocusWithZeroAlpha; // @synthesize isEligibleForFocusWithZeroAlpha=_isEligibleForFocusWithZeroAlpha;

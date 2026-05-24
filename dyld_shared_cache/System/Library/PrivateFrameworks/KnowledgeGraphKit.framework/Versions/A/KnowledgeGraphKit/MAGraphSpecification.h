@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAGraphReference;
-
 @interface MAGraphSpecification
 {
     long long _persistenceOptions;
-    Class _defaultNodeClass;
-    Class _defaultEdgeClass;
-    MAGraphReference *_rootGraphReference;
 }
 
-- (void);
-- (void);
-- (id);
-- (long long);
-- (Class);
-- (Class);
-- (id);
-- (void);
-- (void);
-- (void);
-- (Class);
+- (void);
 - (void);
 - (id);
+- (long long)q
+;
+- (Class);
+- (Class)_doubleClickHandler;
+- (id);
+- (void);
+- (void);
+- (void);
 - (Class);
 - (void);
+- (id);
+- (Class)J);
+- (void)_TtC13ControlCenter16ClockPreferences;
 
 // Remaining properties
-@property(retain) Class defaultEdgeClass; // @synthesize defaultEdgeClass=_defaultEdgeClass;
-@property(retain) Class defaultNodeClass; // @synthesize defaultNodeClass=_defaultNodeClass;
 @property long long persistenceOptions; // @synthesize persistenceOptions=_persistenceOptions;
-@property(retain, nonatomic) MAGraphReference *rootGraphReference; // @synthesize rootGraphReference=_rootGraphReference;
 
 @end
 

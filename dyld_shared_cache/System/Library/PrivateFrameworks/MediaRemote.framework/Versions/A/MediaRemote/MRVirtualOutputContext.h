@@ -6,29 +6,28 @@
 
 #import <MediaRemote/MRAVOutputContext.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface MRVirtualOutputContext : MRAVOutputContext
 {
     NSString *_uniqueIdentifier;
-    NSMutableArray *_outputDevices;
 }
 
 - (id);
+- (void)TB,N,V_needsGathering;
+- (id)^;
 - (void);
-- (id);
-- (void);
-- (unsigned int);
+- (unsigned int)ent date, failed sanity;
 - (void);
 - (float);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)`;
+- (_Bool)startSpeechPronunciationRequestWithOptions:context:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)d;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)supportsACL;
 

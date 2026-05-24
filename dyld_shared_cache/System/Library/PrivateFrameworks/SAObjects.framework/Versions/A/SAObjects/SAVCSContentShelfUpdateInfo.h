@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, NSURL;
-
 @interface SAVCSContentShelfUpdateInfo : AceObject
 {
 }
@@ -21,22 +19,12 @@
 - (void);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)`;
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long pageNumber;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *targetShelfViewId;
-@property(copy, nonatomic) NSString *targetViewId;
-@property(copy, nonatomic) NSURL *url;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol NSFindPatternManager
+
+@optional
+- (void)�;
 @end
 

@@ -7,9 +7,9 @@
 @class NSArray;
 
 @protocol ABCardCollectionViewPresentation
+- (NSArray *)localizedStringForKey:value:table:localization: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long contentInset;
 @property(readonly, nonatomic) NSArray *items;
 @end
 

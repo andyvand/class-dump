@@ -13,15 +13,13 @@
     AVCaptureSynchronizedSampleBufferDataInternal_Tundra *_internal;
 }
 
-- (_Bool);
+- (_Bool)_dictionaryOpeningTagData;
 - (long long);
-- (void);
+- (void)ACCredentialItem"16@?<v@?B@"NSError">24;
 - (struct opaqueCMSampleBuffer *);
 
 // Remaining properties
-@property(readonly) long long droppedReason;
 @property(readonly) struct opaqueCMSampleBuffer *sampleBuffer;
-@property(readonly) _Bool sampleBufferWasDropped;
 
 @end
 

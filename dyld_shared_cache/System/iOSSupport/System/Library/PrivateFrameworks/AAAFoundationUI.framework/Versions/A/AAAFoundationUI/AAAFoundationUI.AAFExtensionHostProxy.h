@@ -7,6 +7,7 @@
 @interface AAAFoundationUI.AAFExtensionHostProxy
 {
     id messageSenderFactory;
+    id;
 }
 
 @end

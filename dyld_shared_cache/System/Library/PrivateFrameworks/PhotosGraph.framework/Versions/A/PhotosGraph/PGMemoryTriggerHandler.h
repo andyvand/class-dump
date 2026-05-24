@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSHolidayCalendarEventService, NSArray, NSObject, NSString, PHPhotoLibrary;
-@protocol OS_os_log;
+@class CLSHolidayCalendarEventService, NSArray;
 
 @interface PGMemoryTriggerHandler
 {
     NSArray *_allMemoryTriggers;
-    NSObject<OS_os_log> *_loggingConnection;
-    PHPhotoLibrary *_photoLibrary;
-    CLSHolidayCalendarEventService *_holidayService;
 }
 
++ (double)AXKTextNavigator;
++ (id)is abstract, and therefore not implemented.;
++ (id);
++ (unsigned long long);
++ (id);
++ (id);
 + (double);
-+ (id);
-+ (id);
-+ (unsigned long long);
-+ (id);
-+ (id);
-+ (double);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)keyboardFocusTracker:(id)arg1 sharedKeyboardFocusedElementSelectedElementsChanged:(id)arg2 elementInfo: /* Error: Ran out of types for this method. */;
+- (id)V__previousCursorLocation;
+- (id)ationController;
 - (id);
 - (id);
 - (void)atching moments:%lu
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CLSHolidayCalendarEventService *holidayService; // @synthesize holidayService=_holidayService;
-@property(readonly) Class superclass;
 
 @end
 

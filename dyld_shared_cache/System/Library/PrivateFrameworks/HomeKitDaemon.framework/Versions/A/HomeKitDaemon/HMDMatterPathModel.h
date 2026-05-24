@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDMatterPathModel : HMDBackingStoreModelObject
 {
@@ -19,18 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *attributeID; // @dynamic attributeID;
-@property(copy, nonatomic) NSNumber *clusterID; // @dynamic clusterID;
-@property(copy, nonatomic) NSNumber *commandID; // @dynamic commandID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *endpointID; // @dynamic endpointID;
-@property(copy, nonatomic) NSNumber *eventID; // @dynamic eventID;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

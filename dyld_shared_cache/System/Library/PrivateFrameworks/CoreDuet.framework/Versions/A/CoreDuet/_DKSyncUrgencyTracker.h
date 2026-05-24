@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface _DKSyncUrgencyTracker
 {
     unsigned long long _urgency;
-    NSMutableDictionary *_urgencies;
 }
 
 - (void);

@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ICPBDGSPlayerDelegateInfoToken
 {
     double _expirationTimeInterval;
-    unsigned long long _sessionID;
-    NSString *_storefrontIdentifier;
-    NSData *_token;
-    struct {
-        unsigned int expirationTimeInterval:1;
-        unsigned int sessionID:1;
-    } _has;
 }
 
 - (id);

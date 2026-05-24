@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CNTestQuickActionView
 {
     _Bool _enabled;
-    NSString *_title;
-    NSMutableArray *_titlesAssigned;
-    NSMutableArray *_statesAssigned;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setKeyCertificateURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)addContactsOptionsSheetForFamilyMember:delegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *statesAssigned; // @synthesize statesAssigned=_statesAssigned;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSMutableArray *titlesAssigned; // @synthesize titlesAssigned=_titlesAssigned;
 
 @end

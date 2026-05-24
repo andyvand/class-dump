@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTUIEnvironment, AVTUIStickerPlaceholderProviderFactory, AVTUIStickerRenderer, NSArray;
-@protocol AVTAvatarRecord, AVTTaskScheduler;
+@protocol AVTAvatarRecord;
 
 @interface AVTStickerSheetModel
 {
     id <AVTAvatarRecord> _avatarRecord;
-    id <AVTTaskScheduler> _taskScheduler;
-    AVTUIStickerRenderer *_stickerRenderer;
-    AVTUIEnvironment *_environment;
-    AVTUIStickerPlaceholderProviderFactory *_placeholderProviderFactory;
-    NSArray *_stickerItems;
 }
 
 + (id);
@@ -29,11 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) AVTUIStickerPlaceholderProviderFactory *placeholderProviderFactory; // @synthesize placeholderProviderFactory=_placeholderProviderFactory;
-@property(readonly, copy, nonatomic) NSArray *stickerItems; // @synthesize stickerItems=_stickerItems;
-@property(readonly, nonatomic) AVTUIStickerRenderer *stickerRenderer; // @synthesize stickerRenderer=_stickerRenderer;
-@property(readonly, nonatomic) id <AVTTaskScheduler> taskScheduler; // @synthesize taskScheduler=_taskScheduler;
 
 @end
 

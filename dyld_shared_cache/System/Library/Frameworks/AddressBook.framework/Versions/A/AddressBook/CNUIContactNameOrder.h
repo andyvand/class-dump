@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *nameKeys;
-@property(readonly, nonatomic) NSArray *phoneticNameKeys;
 
 @end
 

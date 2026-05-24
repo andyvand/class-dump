@@ -6,19 +6,15 @@
 
 #import <Silex/SXSceneComponentAnimationHandler.h>
 
-@class SXComponentView, UIView;
+@class UIView;
 
 @interface SXParallaxFadeSceneAnimationHandler : SXSceneComponentAnimationHandler
 {
     UIView *_overlayView;
-    SXComponentView *_headerComponentView;
-    double _scrollDistance;
-    double _alphaDistance;
-    unsigned long long _attachmentType;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -38,11 +34,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double alphaDistance; // @synthesize alphaDistance=_alphaDistance;
-@property(nonatomic) unsigned long long attachmentType; // @synthesize attachmentType=_attachmentType;
-@property(retain, nonatomic) SXComponentView *headerComponentView; // @synthesize headerComponentView=_headerComponentView;
 @property(retain, nonatomic) UIView *overlayView; // @synthesize overlayView=_overlayView;
-@property(nonatomic) double scrollDistance; // @synthesize scrollDistance=_scrollDistance;
 
 @end
 

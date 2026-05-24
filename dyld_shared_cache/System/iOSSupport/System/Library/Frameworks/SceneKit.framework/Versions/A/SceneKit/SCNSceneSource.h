@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface SCNSceneSource
 {
     struct __C3DSceneSource *_sceneSource;
-    struct __C3DScene *_lastLoadedScene;
-    NSDictionary *_lastOptions;
-    _Bool _sceneLoaded;
-    NSDictionary *_sceneSourceOptions;
 }
 
 + (_Bool);
 + (void);
 + (id);
-+ (void);
++ (void)5;
 + (id);
 + (id);
 + (id);
@@ -38,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
@@ -49,24 +45,16 @@
 - (id);
 - (void);
 - (Class);
+- (id)chatID;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setParentRequests:(id)arg1;
 - (id);
 - (struct __C3DLibrary *)dge-verts;
 - (id)make an invalid tetrahedron valid;
 
 // Remaining properties
-@property(readonly) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSURL *url;
 
 @end

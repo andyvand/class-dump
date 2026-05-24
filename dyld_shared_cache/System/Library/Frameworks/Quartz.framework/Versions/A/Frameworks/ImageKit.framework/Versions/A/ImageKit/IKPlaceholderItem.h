@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCameraFile, NSFilePromiseProvider;
+@class ICCameraFile;
 
 @interface IKPlaceholderItem
 {
     _Bool _selected;
-    ICCameraFile *_cameraItem;
-    NSFilePromiseProvider *_promise;
-    unsigned long long _objectID;
 }
 
+- (void)*;
+- (id);
+- (id);
+- (void)A;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)T;
 - (unsigned long long);
 - (void);
 - (void);
@@ -32,9 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ICCameraFile *cameraItem; // @synthesize cameraItem=_cameraItem;
-@property(nonatomic) unsigned long long objectID; // @synthesize objectID=_objectID;
-@property(retain, nonatomic) NSFilePromiseProvider *promise; // @synthesize promise=_promise;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

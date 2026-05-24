@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIUserSpeakingEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)getPurchaseHistoryServiceWithError: /* Error: Ran out of types for this method. */;
+- (_Bool)P#%;
+- (_Bool)Failure;
 - (id);
 - (id);
-- (id)onType;
-- (id)ortedAll;
-- (_Bool)TALOG;
-- (_Bool)YCODE_PM;
+- (id)deleteGeoAppResolutionType;
+- (id)_hasCountsReportedAll;
+- (_Bool)RGRESPONSESOURCE_RESPONSE_CATALOG;
+- (_Bool)COUNTRYCODE_PM;
 - (void)¶:(_Bool)arg1 !;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

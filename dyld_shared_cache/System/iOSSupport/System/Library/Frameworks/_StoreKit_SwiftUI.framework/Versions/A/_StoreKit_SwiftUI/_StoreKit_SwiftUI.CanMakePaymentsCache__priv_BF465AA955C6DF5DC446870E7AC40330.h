@@ -8,7 +8,6 @@
 {
     id _canMakePayments;
     id task;
-    id log;
 }
 
 @end

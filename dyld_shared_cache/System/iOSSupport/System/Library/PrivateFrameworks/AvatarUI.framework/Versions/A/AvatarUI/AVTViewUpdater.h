@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatar, AVTView, NSObject;
-@protocol AVTAvatarRecord, AVTUILogger, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AVTViewUpdater
 {
     struct os_unfair_lock_s _lock;
-    double _lastUpdateTimestamp;
-    AVTView *_avtView;
-    id <AVTAvatarRecord> _avatarRecord;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    id <AVTUILogger> _logger;
-    AVTAvatar *_currentAvatar;
 }
 
 - (void);
@@ -30,16 +24,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(readonly, nonatomic) AVTView *avtView; // @synthesize avtView=_avtView;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(retain, nonatomic) AVTAvatar *currentAvatar; // @synthesize currentAvatar=_currentAvatar;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
 
 @end
 

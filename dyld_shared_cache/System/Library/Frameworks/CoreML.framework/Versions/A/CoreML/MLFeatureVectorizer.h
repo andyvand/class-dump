@@ -6,18 +6,15 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MLFeatureVectorizer : MLModelEngine
 {
     NSArray *_output_array_shape;
-    struct vector<std::pair<unsigned long, unsigned long>, std::allocator<std::pair<unsigned long, unsigned long>>> index_mapping;
-    NSArray *_columnNameEncoding;
-    NSArray *_dimensionEncoding;
 }
 
 + (id);
-- (id);
+- (id),;
 - (id);
 - (id);
 - (id);
@@ -28,14 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *columnNameEncoding; // @synthesize columnNameEncoding=_columnNameEncoding;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *dimensionEncoding; // @synthesize dimensionEncoding=_dimensionEncoding;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

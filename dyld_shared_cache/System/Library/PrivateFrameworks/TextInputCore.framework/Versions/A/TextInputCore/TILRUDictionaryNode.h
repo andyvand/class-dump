@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface TILRUDictionaryNode
 {
     id _key;
-    id _object;
-    TILRUDictionaryNode *next;
-    TILRUDictionaryNode *prev;
 }
 
 - (id);
@@ -22,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id key; // @synthesize key=_key;
-@property(retain, nonatomic) id object; // @synthesize object=_object;
 
 @end
 

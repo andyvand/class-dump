@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAction, NSDictionary;
+@class MRAction;
 
 @interface MRAnimationTrigger
 {
     MRAction *_action;
-    double _startValue;
-    double _lastValue;
-    NSDictionary *_animationAttributes;
 }
 
-- (double);
+- (double)V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NAUAnalyticsEnvelopeTracker.m;
 - (id);
 - (void);
 - (_Bool);
@@ -22,17 +19,13 @@
 - (double);
 - (void);
 - (double);
-- (void);
+- (void)s;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) MRAction *action; // @synthesize action=_action;
-@property(readonly) NSDictionary *animationAttributes; // @synthesize animationAttributes=_animationAttributes;
-@property(readonly) _Bool isArmed;
-@property double lastValue; // @synthesize lastValue=_lastValue;
-@property double startValue; // @synthesize startValue=_startValue;
 
 @end
 

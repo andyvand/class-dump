@@ -14,9 +14,9 @@
 }
 
 + (Class);
+- (id)cord;
 - (id);
-- (id);
-- (void)ionInfo:forIdentifier:forAltDSID:completion: /* Error: Ran out of types for this method. */;
+- (void)setConfigurationInfo:forIdentifier:forAltDSID:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,22 +6,11 @@
 
 #import <Mail/MFMessageRule.h>
 
-@class EMBlockedSenderManager, MFMailbox, NSColor, NSString;
+@class EMBlockedSenderManager;
 
 @interface MFBlockedSenderRule : MFMessageRule
 {
     _Bool _shouldTransferMessage;
-    _Bool _shouldNotifyUser;
-    _Bool _shouldSendNotification;
-    _Bool _isDefaultRule;
-    int _autoResponseType;
-    NSString *_ruleName;
-    long long _flagsToApply;
-    NSString *_appleScriptPath;
-    NSColor *_color;
-    NSString *_playSound;
-    MFMailbox *_destinationMailbox;
-    EMBlockedSenderManager *_blockedSenderManager;
 }
 
 + (id)#y%8,)G;
@@ -30,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
@@ -52,7 +41,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)accessibilityVerticalScrollBar;
 - (void);
 - (id);
 - (void);

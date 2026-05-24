@@ -7,11 +7,6 @@
 @interface IDSFoundation.IDSGLLinkEngineTwoWayConnectionStrategy
 {
     id linkEngine;
-    id sorter;
-    id twoWayConnectorPlugin;
-    id portOverridePlugin;
-    id qualityMonitorPlugin;
-    id metricsPlugin;
 }
 
 @end

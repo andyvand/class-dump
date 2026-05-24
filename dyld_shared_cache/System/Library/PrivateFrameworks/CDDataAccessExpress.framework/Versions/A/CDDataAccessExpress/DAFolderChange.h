@@ -4,53 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol DAFolderChangeConsumer;
-
 @interface DAFolderChange
 {
     _Bool _renameOnCollision;
-    unsigned int _taskId;
-    unsigned long long _changeType;
-    NSString *_folderId;
-    NSString *_parentFolderId;
-    NSString *_displayName;
-    long long _dataclass;
-    id <DAFolderChangeConsumer> _consumer;
 }
 
-+ (_Bool);
++ (_Bool)ressTaskingSubmission;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)S2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEEE;
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void)ة;
 - (unsigned long long);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long changeType; // @synthesize changeType=_changeType;
-@property(nonatomic) __weak id <DAFolderChangeConsumer> consumer; // @synthesize consumer=_consumer;
-@property(nonatomic) long long dataclass; // @synthesize dataclass=_dataclass;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(retain, nonatomic) NSString *folderId; // @synthesize folderId=_folderId;
-@property(retain, nonatomic) NSString *parentFolderId; // @synthesize parentFolderId=_parentFolderId;
-@property(nonatomic) _Bool renameOnCollision; // @synthesize renameOnCollision=_renameOnCollision;
-@property(nonatomic) unsigned int taskId; // @synthesize taskId=_taskId;
 
 @end
 

@@ -7,28 +7,16 @@
 @interface PodcastsFoundation.TranscriptModelBuilder
 {
     id currentParagraph;
-    id parsedParagraphs;
-    id currentSentence;
-    id numberOfOpenSpansSinceStartOfSentence;
-    id currentWord;
-    id numberOfOpenSpansSinceStartOfWord;
-    id speakers;
-    id currentSpeakerID;
-    id isParsingSpeakerName;
-    id isParsingDescriptor;
-    id duration;
-    id lockedPhase;
-    id interval;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)qa;
 - (id);
 - (void);
-- (void);
+- (void)c@9;
 - (void)ySiGÃVGACy_ÙUy_ÒUSo17OS_dispatch_queueCGSiGGGSiSgGUyArHGGG;
 
 @end

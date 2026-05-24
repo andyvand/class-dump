@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPNowPlayingInfoLyricsItemToken, NSString;
-
 @interface MPNowPlayingInfoLyricsItem
 {
     void *_mediaRemoteLyricsItem;
@@ -17,14 +15,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)r;
 - (id)ß9Û;èt=Iýû£ð8§ªÍð+¸DçèbSÌC»¨6Ãyé72û$£ÔBÈX[{á&cP¨CÆ~Íûjæw)ÂãY>`,Êv¢7\`}ÃuV·õµ@ ­> Ç6«Å¼H_Ä¯Ø7|(ÿ3 öþ´}ðñ3GpëÎºß8AçATY<P³Ï;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *lyrics;
 @property(readonly, nonatomic) void *mediaRemoteLyricsItem; // @synthesize mediaRemoteLyricsItem=_mediaRemoteLyricsItem;
-@property(readonly, nonatomic) MPNowPlayingInfoLyricsItemToken *token;
-@property(readonly, nonatomic) _Bool userProvided;
 
 @end
 

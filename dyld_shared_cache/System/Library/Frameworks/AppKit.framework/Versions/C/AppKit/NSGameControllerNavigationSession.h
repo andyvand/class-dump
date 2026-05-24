@@ -6,38 +6,32 @@
 
 #import <AppKit/NSResponder.h>
 
-@class GCUINavigationSession, NSGameControllerNavigationDispatcher;
-
 __attribute__((visibility("hidden")))
 @interface NSGameControllerNavigationSession : NSResponder
 {
     int _dispatchToken;
-    long long _state;
-    long long _resumeCount;
-    GCUINavigationSession *_session;
-    NSGameControllerNavigationDispatcher *_dispatcher;
 }
 
 + (unsigned long long);
-+ (int);
++ (int)cookies_deleted_handler_queue_default;
 + (void);
-+ (id)chBariCloudTemplate;
++ (id)NSTouchBariCloudTemplate;
 - (void);
 - (long long);
 - (void);
-- (int);
+- (int)_daemon_responseBodyTransferSize;
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (id)ke successful;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (long long);
@@ -50,12 +44,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿËtôÉH;
 
 // Remaining properties
-@property int dispatchToken; // @synthesize dispatchToken=_dispatchToken;
-@property(retain) NSGameControllerNavigationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(readonly, getter=isIdle) _Bool idle;
 @property long long resumeCount; // @synthesize resumeCount=_resumeCount;
-@property(retain) GCUINavigationSession *session; // @synthesize session=_session;
-@property long long state; // @synthesize state=_state;
 
 @end
 

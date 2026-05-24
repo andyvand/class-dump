@@ -7,23 +7,15 @@
 @interface CKGroupTypingAvatarAnimationCoordinator
 {
     id toCell;
-    id fromTypingCell;
-    id hostingView;
-    id avatarView;
-    id overlayView;
-    id fromFrame;
-    id senderContact;
-    id completion;
-    id animator;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (void)essage.;
-- (void)t;
+- (void)CKConversationListTipManagerSwift;
 
 @end
 

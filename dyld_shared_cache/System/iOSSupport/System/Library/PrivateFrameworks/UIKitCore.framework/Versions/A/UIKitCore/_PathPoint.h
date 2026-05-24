@@ -8,23 +8,17 @@ __attribute__((visibility("hidden")))
 @interface _PathPoint
 {
     _Bool _sentinelPoint;
-    double _force;
-    double _relativeTime;
-    double _absoluteTime;
-    double _decay;
-    double _length;
-    struct CGPoint _point;
 }
 
-- (void);
+- (void)objectForKey:(_Bool)arg1 inDomain: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
+- (void)RecordStorageHelper:(double)arg1 not executing first sources query due to deferral request.;
+- (double)record for Duet event.;
 - (void);
 - (double);
 - (void);
-- (double);
-- (void);
-- (id);
+- (id)le chunk references failed to discover chunk_info;
 - (double);
 - (void);
 - (void)ription:(double)arg1 %@ reason:%@ /* Error: Ran out of types for this method. */;
@@ -33,12 +27,6 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(nonatomic) double absoluteTime; // @synthesize absoluteTime=_absoluteTime;
-@property(nonatomic) double decay; // @synthesize decay=_decay;
-@property(nonatomic) double force; // @synthesize force=_force;
-@property(nonatomic) double length; // @synthesize length=_length;
-@property(nonatomic) struct CGPoint point; // @synthesize point=_point;
-@property(nonatomic) double relativeTime; // @synthesize relativeTime=_relativeTime;
 @property(nonatomic, getter=isSentinelPoint) _Bool sentinelPoint; // @synthesize sentinelPoint=_sentinelPoint;
 
 @end

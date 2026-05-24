@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     struct OpaqueVTPixelTransferSession *_pixelTransferSession;
 }
 
-- (void);
+- (void)h;
 
 @end
 

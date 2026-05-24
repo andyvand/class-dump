@@ -9,22 +9,20 @@
 @interface QLThumbnailReplyAttachment
 {
     NSData *_data;
-    UTType *_contentType;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) UTType *contentType; // @synthesize contentType=_contentType;
-@property(retain) NSData *data; // @synthesize data=_data;
 
 @end
 

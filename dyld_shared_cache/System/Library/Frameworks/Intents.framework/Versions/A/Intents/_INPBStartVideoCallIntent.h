@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata, _INPBStartCallRequestMetadata;
-
 @interface _INPBStartVideoCallIntent
 {
     CDStruct_fbf2c6cd _has;
-    int _audioRoute;
-    _INPBStartCallRequestMetadata *_callRequestMetadata;
-    NSArray *_contacts;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_targetContacts;
 }
 
 + (Class);
-+ (Class);
++ (Class);
 + (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -33,7 +26,7 @@
 - (void);
 - (id);
 - (int);
-- (unsigned long long);
+- (unsigned long long)l;
 - (id);
 - (_Bool);
 - (id);
@@ -42,7 +35,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)k/Versions/A/BaseBoard;
 - (void);
 - (int);
 - (id);
@@ -50,27 +43,11 @@
 - (id);
 - (void);
 - (_Bool)essageEffectType;
-- (void)istCarsIntentResponseCodeSuccess;
-- (void)ssory;
+- (void)INListCarsIntentResponseCodeSuccess;
+- (void)accessory;
 
 // Remaining properties
 @property(nonatomic) int audioRoute; // @synthesize audioRoute=_audioRoute;
-@property(retain, nonatomic) _INPBStartCallRequestMetadata *callRequestMetadata; // @synthesize callRequestMetadata=_callRequestMetadata;
-@property(copy, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, nonatomic) unsigned long long contactsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(readonly, nonatomic) _Bool hasCallRequestMetadata;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *targetContacts; // @synthesize targetContacts=_targetContacts;
-@property(readonly, nonatomic) unsigned long long targetContactsCount;
 
 @end
 

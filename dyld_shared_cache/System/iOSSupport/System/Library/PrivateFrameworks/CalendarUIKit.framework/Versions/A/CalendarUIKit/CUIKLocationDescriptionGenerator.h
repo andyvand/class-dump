@@ -21,9 +21,9 @@
 + (_Bool);
 + (id);
 + (id);
++ (id)L;
 + (id);
-+ (id);
-+ (id);
++ (id)pY;
 
 @end
 

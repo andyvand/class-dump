@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSServerBag, NSString, PDSCDCacheContainer, PDSConfiguration, PDSCoordinator, PDSEntryStore, PDSRequestQueue, PDSUserTracker, PDSXPCServer;
-@protocol PDSCDCache><PDSKVStore;
+@class PDSConfiguration;
 
 @interface PDSDaemon
 {
     PDSConfiguration *_configuration;
-    PDSXPCServer *_XPCServer;
-    PDSCDCacheContainer *_cacheContainer;
-    IDSServerBag *_bag;
-    PDSEntryStore *_entryStore;
-    id <PDSCDCache><PDSKVStore> _underlyingStorage;
-    PDSUserTracker *_userTracker;
-    PDSCoordinator *_coordinator;
-    PDSRequestQueue *_requestQueue;
 }
 
 - (id);
@@ -25,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)4@0:8@16 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -33,9 +24,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)dle RT tile:(id)arg1 Missing tile latitude span, tile centroid ID,%llu;
+- (id)NSt3__114default_deleteINS_13__empty_stateIcEEEE;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -49,22 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PDSXPCServer *XPCServer; // @synthesize XPCServer=_XPCServer;
-@property(retain, nonatomic) IDSServerBag *bag; // @synthesize bag=_bag;
-@property(retain, nonatomic) PDSCDCacheContainer *cacheContainer; // @synthesize cacheContainer=_cacheContainer;
 @property(retain, nonatomic) PDSConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) PDSCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak PDSEntryStore *entryStore; // @synthesize entryStore=_entryStore;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PDSRequestQueue *requestQueue; // @synthesize requestQueue=_requestQueue;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <PDSCDCache><PDSKVStore> underlyingStorage; // @synthesize underlyingStorage=_underlyingStorage;
-@property(retain, nonatomic) PDSUserTracker *userTracker; // @synthesize userTracker=_userTracker;
 
 @end
 

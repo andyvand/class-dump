@@ -7,15 +7,6 @@
 @interface BiomeSQLParser.PgQuery_Var._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _varno;
-    id _varattno;
-    id _vartype;
-    id _vartypmod;
-    id _varcollid;
-    id _varlevelsup;
-    id _varnosyn;
-    id _varattnosyn;
-    id _location;
 }
 
 @end

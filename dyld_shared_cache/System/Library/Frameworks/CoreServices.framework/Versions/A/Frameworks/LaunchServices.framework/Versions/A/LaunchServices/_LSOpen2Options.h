@@ -4,44 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface _LSOpen2Options
 {
     unsigned char _preferRunningInstance;
-    _Bool _captureDiagnostics;
-    _Bool _allowErrorUI;
-    _Bool _requiresUniversalLinks;
-    _Bool _skipWaitForCheckIn;
-    _Bool _launchWhenThisProcessExits;
-    _Bool _notRelaunchedForTAL;
-    _Bool _launchOutOfProcess;
-    _Bool _inheritCurrentEnvironment;
-    _Bool _launchWithMTE;
-    _Bool _launchedWithUserIntent;
-    NSString *_launchReason;
-    NSDictionary *_launchInfo;
-    NSURL *_referrerURL;
-    id _userInfo;
-    NSString *_overrideBackgroundPriorityName;
-    NSNumber *_launchUID;
-    NSNumber *_launchSessionID;
-    NSString *_overrideApplicationType;
-    NSURL *_stdInPath;
-    NSURL *_stdOutPath;
-    NSURL *_stdErrPath;
-    NSData *_launcherAuditTokenData;
-    NSArray *_requestedArchitectures;
-    NSDictionary *_overriddenSpawnConstraints;
-    NSDictionary *_spawnConstraints;
-    NSURL *_templateApplicationBundleURL;
-    NSDictionary *__creationDictionary;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)h_data>"16@"NSMutableDictionary"24;
 - (id);
 - (id);
 - (id);
@@ -71,13 +42,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)�(;
+- (void);
 - (_Bool);
+- (id)Ta;
+- (unsigned char)M;
 - (id);
-- (unsigned char);
-- (id);
-- (id);
+- (id)];
 - (id);
 - (_Bool);
 - (id);
@@ -98,7 +69,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (id);
@@ -106,35 +77,7 @@ __attribute__((visibility("hidden")))
 - (id)h;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *_creationDictionary; // @synthesize _creationDictionary=__creationDictionary;
-@property(nonatomic) _Bool allowErrorUI; // @synthesize allowErrorUI=_allowErrorUI;
-@property(nonatomic) _Bool captureDiagnostics; // @synthesize captureDiagnostics=_captureDiagnostics;
-@property(nonatomic) _Bool inheritCurrentEnvironment; // @synthesize inheritCurrentEnvironment=_inheritCurrentEnvironment;
-@property(copy, nonatomic) NSDictionary *launchInfo; // @synthesize launchInfo=_launchInfo;
-@property(nonatomic) _Bool launchOutOfProcess; // @synthesize launchOutOfProcess=_launchOutOfProcess;
-@property(copy, nonatomic) NSString *launchReason; // @synthesize launchReason=_launchReason;
-@property(copy, nonatomic) NSNumber *launchSessionID; // @synthesize launchSessionID=_launchSessionID;
-@property(copy, nonatomic) NSNumber *launchUID; // @synthesize launchUID=_launchUID;
-@property(nonatomic) _Bool launchWhenThisProcessExits; // @synthesize launchWhenThisProcessExits=_launchWhenThisProcessExits;
-@property(nonatomic) _Bool launchWithMTE; // @synthesize launchWithMTE=_launchWithMTE;
-@property(nonatomic) _Bool launchedWithUserIntent; // @synthesize launchedWithUserIntent=_launchedWithUserIntent;
-@property(nonatomic) const CDStruct_4c969caf *launcherAuditToken; // @dynamic launcherAuditToken;
-@property(copy, nonatomic) NSData *launcherAuditTokenData; // @synthesize launcherAuditTokenData=_launcherAuditTokenData;
-@property(nonatomic) _Bool notRelaunchedForTAL; // @synthesize notRelaunchedForTAL=_notRelaunchedForTAL;
-@property(copy, nonatomic) NSDictionary *overriddenSpawnConstraints; // @synthesize overriddenSpawnConstraints=_overriddenSpawnConstraints;
-@property(copy, nonatomic) NSString *overrideApplicationType; // @synthesize overrideApplicationType=_overrideApplicationType;
-@property(copy, nonatomic) NSString *overrideBackgroundPriorityName; // @synthesize overrideBackgroundPriorityName=_overrideBackgroundPriorityName;
 @property(nonatomic) unsigned char preferRunningInstance; // @synthesize preferRunningInstance=_preferRunningInstance;
-@property(copy, nonatomic) NSURL *referrerURL; // @synthesize referrerURL=_referrerURL;
-@property(copy, nonatomic) NSArray *requestedArchitectures; // @synthesize requestedArchitectures=_requestedArchitectures;
-@property(nonatomic) _Bool requiresUniversalLinks; // @synthesize requiresUniversalLinks=_requiresUniversalLinks;
-@property(nonatomic) _Bool skipWaitForCheckIn; // @synthesize skipWaitForCheckIn=_skipWaitForCheckIn;
-@property(copy, nonatomic) NSDictionary *spawnConstraints; // @synthesize spawnConstraints=_spawnConstraints;
-@property(copy, nonatomic) NSURL *stdErrPath; // @synthesize stdErrPath=_stdErrPath;
-@property(copy, nonatomic) NSURL *stdInPath; // @synthesize stdInPath=_stdInPath;
-@property(copy, nonatomic) NSURL *stdOutPath; // @synthesize stdOutPath=_stdOutPath;
-@property(copy, nonatomic) NSURL *templateApplicationBundleURL; // @synthesize templateApplicationBundleURL=_templateApplicationBundleURL;
-@property(copy, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

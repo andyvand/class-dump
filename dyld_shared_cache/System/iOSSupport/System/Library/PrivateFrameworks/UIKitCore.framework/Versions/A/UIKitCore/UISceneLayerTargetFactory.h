@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id);
 + (id)eir values from this app's domain.;
 
 @end

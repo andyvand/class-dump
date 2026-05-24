@@ -6,13 +6,11 @@
 
 #import <VoiceShortcutClient/WFObservableResult.h>
 
-@class NSArray, WFDatabaseResultState, WFResultQuery;
+@class NSArray, WFDatabaseResultState;
 
 @interface WFObservableArrayResult : WFObservableResult
 {
     NSArray *_values;
-    WFDatabaseResultState *_resultState;
-    WFResultQuery *_query;
 }
 
 + (void);
@@ -23,14 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WFResultQuery *query;
 @property(readonly, nonatomic) WFDatabaseResultState *resultState; // @synthesize resultState=_resultState;
-@property(readonly, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

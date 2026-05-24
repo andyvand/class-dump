@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchHomeBlueprintViewSupplementaryViewProvider
 {
     id delegate;
-    id sectionTitleViewRenderer;
 }
 
 @end

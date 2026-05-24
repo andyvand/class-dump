@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKAnnotatedMapSnapshotter, MKMapCamera, MKMapItem, MKPlaceInlineMapViewControllerConfiguration, NSArray, NSString, _MKPlaceInlineMapContentView;
-@protocol MKPlaceInlineMapViewControllerDelegate;
+@class MKPlaceInlineMapViewControllerConfiguration, _MKPlaceInlineMapContentView;
 
 @interface MKPlaceInlineMapViewController
 {
     _MKPlaceInlineMapContentView *_contentView;
-    MKMapItem *_updatingInlineMapItem;
-    MKAnnotatedMapSnapshotter *_collectionSnapshotter;
-    struct CGSize _currentSize;
-    _Bool _bottomHairlineHidden;
-    MKMapItem *_mapItem;
-    id <MKPlaceInlineMapViewControllerDelegate> _delegate;
-    MKPlaceInlineMapViewControllerConfiguration *_configuration;
-    MKMapCamera *_mapCamera;
 }
 
 + (id);
 - (id);
 - (long long);
+- (void)9;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (void);
@@ -43,28 +34,16 @@
 - (id);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
+- (id)?;
 - (void);
-- (id);
-- (void);
-- (void)ath: /* Error: Ran out of types for this method. */;
+- (void)collectionView:didEndDisplayingCell:forItemAtIndexPath: /* Error: Ran out of types for this method. */;
 - (id)lable;
 
 // Remaining properties
-@property(nonatomic, getter=isBottomHairlineHidden) _Bool bottomHairlineHidden; // @synthesize bottomHairlineHidden=_bottomHairlineHidden;
 @property(retain, nonatomic) MKPlaceInlineMapViewControllerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MKPlaceInlineMapViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKMapCamera *mapCamera; // @synthesize mapCamera=_mapCamera;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *visibleMapItems;
 
 @end
 

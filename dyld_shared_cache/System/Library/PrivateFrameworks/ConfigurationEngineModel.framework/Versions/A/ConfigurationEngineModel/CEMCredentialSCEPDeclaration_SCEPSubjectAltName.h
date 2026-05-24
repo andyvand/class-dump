@@ -11,9 +11,6 @@
 @interface CEMCredentialSCEPDeclaration_SCEPSubjectAltName : CEMPayloadBase
 {
     NSString *_payloadRfc822Name;
-    NSString *_payloadDNSName;
-    NSString *_payloadUniformResourceIdentifier;
-    NSString *_payloadNtPrincipalName;
 }
 
 + (id);
@@ -33,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadDNSName; // @synthesize payloadDNSName=_payloadDNSName;
-@property(copy, nonatomic) NSString *payloadNtPrincipalName; // @synthesize payloadNtPrincipalName=_payloadNtPrincipalName;
 @property(copy, nonatomic) NSString *payloadRfc822Name; // @synthesize payloadRfc822Name=_payloadRfc822Name;
-@property(copy, nonatomic) NSString *payloadUniformResourceIdentifier; // @synthesize payloadUniformResourceIdentifier=_payloadUniformResourceIdentifier;
 
 @end
 

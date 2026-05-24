@@ -6,35 +6,25 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SANPVideoLanguageOption : AceObject
 {
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)7;
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)ttingOpenKeyboardSettings;
+- (id);
+- (void);
+- (id)SASettingOpenKeyboardSettings;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *characteristics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *languageTag;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <IDSFoundation/IDSSocketPairMessage.h>
 
-@class NSData, NSDate, NSString;
-
 @interface IDSSocketPairAckMessage : IDSSocketPairMessage
 {
     unsigned int _sequenceNumber;
@@ -17,43 +15,11 @@
 - (id);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int)PRODID: /* Error: Ran out of types for this method. */;
 - (unsigned char);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) _Bool didWakeHint;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool expectsPeerResponse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) NSDate *expiryDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,&,N
-
-@property(readonly, nonatomic) NSString *messageUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *peerResponseIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
 @property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(nonatomic) unsigned short streamID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TS,?,N
-
-@property(readonly, nonatomic) _Bool wantsAppAck;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

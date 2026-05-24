@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSInstantAnswers, NSArray, NSAttributedString, NSString, _CSSuggestionToken;
+@class NSString;
 
 @interface CSSuggestion
 {
     NSString *_searchString;
-    NSString *_displayString;
-    NSString *_userQueryString;
-    NSArray *_previousSuggestionTokens;
-    NSArray *_updatedSuggestionTokens;
-    NSAttributedString *_localizedAttributedString;
-    NSArray *_suggestionTokens;
-    _CSSuggestionToken *_currentSuggestionToken;
-    long long _rank;
-    long long _version;
-    long long _resultCount;
-    _Bool _enableFragments;
-    _Bool _updated;
-    CSInstantAnswers *_instantAnswer;
 }
 
 @end

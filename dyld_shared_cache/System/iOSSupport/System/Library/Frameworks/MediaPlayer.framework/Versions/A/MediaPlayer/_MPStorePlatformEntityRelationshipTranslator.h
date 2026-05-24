@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void)tinationPlayerPath;
+- (void)_destinationPlayerPath;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType payloadTransformBlock; // @synthesize payloadTransformBlock=_payloadTransformBlock;

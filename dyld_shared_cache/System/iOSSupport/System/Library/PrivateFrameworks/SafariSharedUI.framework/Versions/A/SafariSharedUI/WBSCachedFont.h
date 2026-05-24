@@ -9,9 +9,6 @@
 @interface WBSCachedFont
 {
     UIFont *_font;
-    double _size;
-    long long _fontWeight;
-    long long _fontDesign;
 }
 
 - (long long);
@@ -19,16 +16,13 @@
 - (long long);
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)linkButton;
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(nonatomic) long long fontDesign; // @synthesize fontDesign=_fontDesign;
-@property(nonatomic) long long fontWeight; // @synthesize fontWeight=_fontWeight;
-@property(nonatomic) double size; // @synthesize size=_size;
 
 @end
 

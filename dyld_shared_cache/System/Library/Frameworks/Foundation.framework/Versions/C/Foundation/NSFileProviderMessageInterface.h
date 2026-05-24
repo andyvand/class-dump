@@ -9,25 +9,21 @@
 @interface NSFileProviderMessageInterface
 {
     NSString *_name;
-    NSString *_itemIdentifier;
-    NSString *_providerIdentifier;
 }
 
 + (_Bool)gressPublisherProxy"8;
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)isplayID, CFDictionaryRef);
 - (void);
 - (void)vwxyzz{|||}}~~ ¡¡¡¡¡¡¢¢¢¢¢¢¢£¤¤¤¤¤¤¥¥¦§¨©©ªªªªªª«¬­­®®¯°°°±±±²²²³³³´µµµµ¶¶········¸¹¹ºº»»¼¼¼¼½¾¾¾¿¿¿¿¿¿¿¿ÀÀÀÁÁÂÂÂÂÂÂÂÃÃÃÄÄÄÄÄÄÄÄÅÅÆÇÇÇÈÉÊÊÊËËÌÌÌÌÌÌÍÍÎÏÏÏÏÏÏÐÑÒÒÒÒÒÒÒÒÓÓÓÔÔÔÕÖÖ×ØØÙÙÙÙÙÙÙÙÙÚÛÜÜÝÝÝÝÞÞßßßàààààáââââããäååæçççççèééééêêêëììììíííííííîîîïïïïïïððññòóôôõõöö÷÷øùùúûûüüüüýþþþÿ;
 - (id)@t Ok;
 - (id);
 
 // Remaining properties
-@property(copy) NSString *itemIdentifier;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(copy) NSString *providerIdentifier;
+@property(copy) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
 
 @end
 

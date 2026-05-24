@@ -4,15 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDIDSActivityMonitorBroadcaster, HMDIDSActivityMonitorObserver;
+@class HMDIDSActivityMonitorBroadcaster, OS_dispatch_queue;
 @protocol HMDIDSService;
 
 @protocol HMDIDSServiceManager
-- (id <HMDIDSService>)ancellingComingHomeAndEstimatedArrivalTime;
+- (id <HMDIDSService>)~�(;
+- (void)addChildWindow:(OS_dispatch_queue *)arg1 ordered:(void (^)(IDSFirewall *, NSError *))arg2;
+- (void)rino/PhotoImaging/Autocalculators/PISemanticStyleAutoCalculator.m;
+- (HMDIDSActivityMonitorBroadcaster *);
+- (id <HMDIDSService>)_durationBetweenCancellingComingHomeAndEstimatedArrivalTime;
 
 // Remaining properties
-@property(readonly) HMDIDSActivityMonitorBroadcaster *activityBroadcaster;
-@property(readonly) HMDIDSActivityMonitorObserver *activityObserver;
 @property(readonly) id <HMDIDSService> service;
 @end
 

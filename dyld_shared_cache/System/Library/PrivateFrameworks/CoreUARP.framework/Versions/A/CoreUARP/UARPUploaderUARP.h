@@ -6,89 +6,79 @@
 
 #import <CoreUARP/UARPUploader.h>
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSURL;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface UARPUploaderUARP : UARPUploader
 {
     NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct uarpPlatformEndpoint _uarpEndpoint;
-    struct uarpPlatformEndpointApple _uarpVendorExtension;
-    NSMutableArray *_accessories;
-    NSObject<OS_os_log> *_tokens[9];
-    _Bool _isInternalBuild;
-    NSMutableDictionary *_lastReportedProgressTime;
-    NSURL *_ttrDirectory;
-    _Bool _isTapToRadarMode;
-    NSMutableArray *_unprocessedDynamicAssets;
 }
 
 - (void);
+- (void),;
+- (void)s;
 - (void);
+- (void)f;
+- (void)t;
+- (void)y;
+- (void)a;
+- (void)a;
+- (void)i;
+- (void)a;
+- (void)s;
+- (void)t;
+- (void)n;
+- (void)a;
+- (void)tosFormats.framework/PhotosFormats;
+- (void)h:(unsigned long long)arg1 /System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats;
+- (void)orks/AvatarUI.framework/AvatarUI;
+- (void)link:(unsigned long long)arg1 r:(id)arg2 path:/System/Library/PrivateFrameworks/AvatarUI.framework/AvatarUI /* Error: Ran out of types for this method. */;
+- (void)ary/PrivateFrameworks/IMFoundation.framework/IMFoundation;
+- (void)rameworks/SafetyMonitor.framework/SafetyMonitor;
+- (void)enterFoundation;
+- (_Bool)m/Library/PrivateFrameworks/GameCenterFoundation.framework/GameCenterFoundation;
+- (struct uarpPlatformEndpointApple *)path:/System/Library/PrivateFrameworks/SmartReplies.framework/SmartReplies /* Error: Ran out of types for this method. */;
+- (struct uarpPlatformEndpoint *)tem/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeCore;
+- (id)ence.framework/IMDPersistence;
+- (_Bool)ath:(id)arg1 /System/Library/PrivateFrameworks/IMDPersistence.framework/IMDPersistence;
+- (void)oftlink:(id)arg1 r:path:/System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats /* Error: Ran out of types for this method. */;
+- (void)mework/MediaAnalysisServices;
+- (_Bool)T;
+- (void)T;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)x;
+- (_Bool);
+- (_Bool)x;
 - (void);
 - (_Bool);
-- (struct uarpPlatformEndpointApple *);
-- (struct uarpPlatformEndpoint *);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)};
 - (void);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)a;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (id);
-- (_Bool);
+- (_Bool)X;
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id)}};
 - (void);
 - (void);
 - (_Bool);
@@ -101,28 +91,28 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)L;
 - (long long);
 - (void);
+- (void)};
+- (void);
+- (void)};
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)nseDecoder;
 - (_Bool);
 - (void);
 - (void);
@@ -132,10 +122,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool isTapToRadarMode; // @synthesize isTapToRadarMode=_isTapToRadarMode;
-@property(readonly) NSURL *ttrDirectory; // @synthesize ttrDirectory=_ttrDirectory;
 @property(readonly) struct uarpPlatformEndpoint *uarpEndpoint;
-@property(readonly) struct uarpPlatformEndpointApple *uarpVendorExtension;
 
 @end
 

@@ -6,18 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IASchemaIAClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_iaId;
-    _Bool _hasIaId;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -25,17 +24,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)appAuthTokenStatus;
 - (id)
 × ;
-- (id)sSnippetAceId;
+- (id)hasSnippetAceId;
 - (id)¸Û;
 - (void)DÉÿ#®òñ#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIaId; // @synthesize hasIaId=_hasIaId;
 @property(retain, nonatomic) SISchemaUUID *iaId; // @synthesize iaId=_iaId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

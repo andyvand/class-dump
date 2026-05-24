@@ -9,15 +9,13 @@
 @interface (extension in HomeKitDaemon):__C.HMDEventCountersManager.CountersManagerDelegate
 {
     void context;
-    id countersManager;
-    id dateProvider;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)vingKey;
+- (void)groupResolvingKey;
 
 // Remaining properties
 @property(nonatomic) __weak id <HMDEventCounterContext> context; // @synthesize context;

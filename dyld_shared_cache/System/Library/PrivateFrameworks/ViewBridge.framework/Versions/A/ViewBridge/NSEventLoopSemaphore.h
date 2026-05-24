@@ -11,9 +11,9 @@
     unsigned long long _eventMask;
 }
 
-- (id);
+- (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)internalSubset;
 - (void);
 
 // Remaining properties

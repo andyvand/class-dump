@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDCoreSpotlightIndexingJobQueue, IMDIndexingContext, NSError, NSObject, NSString;
-@protocol IMDSpotlightIndex, OS_dispatch_group, OS_dispatch_queue;
+@protocol IMDSpotlightIndex;
 
 @interface IMDCoreSpotlightBaseIndexingJob
 {
     _Bool _finished;
-    _Bool _executing;
-    IMDIndexingContext *_context;
-    id <IMDSpotlightIndex> _index;
-    NSString *_transactionID;
-    NSError *_error;
-    NSObject<OS_dispatch_group> *_workGroup;
-    IMDCoreSpotlightIndexingJobQueue *_jobQueue;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
+- (id)=;
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool)setSuggestionSearchSubscription: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)A foreign_keys = OFF;;
@@ -46,13 +38,7 @@
 - (_Bool)0;
 
 // Remaining properties
-@property(readonly, nonatomic) IMDIndexingContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) id <IMDSpotlightIndex> index; // @synthesize index=_index;
-@property(readonly, nonatomic) IMDCoreSpotlightIndexingJobQueue *jobQueue; // @synthesize jobQueue=_jobQueue;
-@property(retain, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *workGroup; // @synthesize workGroup=_workGroup;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue;
 
 @end
 

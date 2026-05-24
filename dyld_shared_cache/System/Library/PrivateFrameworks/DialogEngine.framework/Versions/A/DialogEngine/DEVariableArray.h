@@ -13,7 +13,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)c;
 - (void);
 - (id);
 

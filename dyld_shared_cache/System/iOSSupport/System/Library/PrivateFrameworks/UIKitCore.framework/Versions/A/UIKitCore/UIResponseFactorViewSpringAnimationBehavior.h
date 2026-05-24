@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     double _responseFactor;
 }
 
-- (void);
-- (void);
-- (double);
+- (void);
+- (void)?;
+- (double)p;
+- (id)SReceivedRelayDeleteRequest;
 - (id);
-- (id);
-- (CDStruct_aa45ca86)sentationSuperview:(int)arg1;
+- (CDStruct_aa45ca86)_frameForTransitionViewInPresentationSuperview:(int)arg1;
 - (void)ð:d /* Error: Ran out of types for this method. */;
 
 // Remaining properties

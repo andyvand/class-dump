@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IMSafetyMonitorCoordinator_Impl
 {
@@ -36,7 +36,6 @@
 - (void)incorrect.;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *appPayload;
 @property(nonatomic, readonly) NSString *appPayloadID;
 
 @end

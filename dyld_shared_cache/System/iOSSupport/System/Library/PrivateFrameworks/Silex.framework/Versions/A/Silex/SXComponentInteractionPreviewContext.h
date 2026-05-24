@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class UIViewController;
 
 @interface SXComponentInteractionPreviewContext
 {
     UIViewController *_viewController;
-    struct CGRect _sourceRect;
 }
 
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (void)@"SXFullscreenCanvasController"16@"UIView"24@"<SXFullscreenCanvasShowable>"32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

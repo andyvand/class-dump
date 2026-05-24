@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface MHSchemaMHAssistantDaemonAudioRecordingStarted : SISchemaInstrumentationMessage
 {
     int _audioInputRoute;
-    int _source;
-    NSString *_audioInterfaceVendorId;
-    NSString *_audioInterfaceProductId;
-    struct {
-        unsigned int audioInputRoute:1;
-        unsigned int source:1;
-    } _has;
-    _Bool _hasAudioInterfaceVendorId;
-    _Bool _hasAudioInterfaceProductId;
 }
 
 - (void);
@@ -31,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -39,7 +28,7 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)NETSCAPE_ENCRYPTED_PKEY;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -49,20 +38,12 @@
 - (id);
 - (id)_eventMetadata;
 - (id)OWLINKSchemaFLOWLINKActionTier1",&,N,V_linkActionTier1;
-- (_Bool)QDDataProtectionClass;
+- (_Bool)QDSchemaQDDataProtectionClass;
 - (void)}§!;
 - (void)8ßÿ;
 
 // Remaining properties
 @property(nonatomic) int audioInputRoute; // @synthesize audioInputRoute=_audioInputRoute;
-@property(copy, nonatomic) NSString *audioInterfaceProductId; // @synthesize audioInterfaceProductId=_audioInterfaceProductId;
-@property(copy, nonatomic) NSString *audioInterfaceVendorId; // @synthesize audioInterfaceVendorId=_audioInterfaceVendorId;
-@property(nonatomic) _Bool hasAudioInputRoute;
-@property(nonatomic) _Bool hasAudioInterfaceProductId; // @synthesize hasAudioInterfaceProductId=_hasAudioInterfaceProductId;
-@property(nonatomic) _Bool hasAudioInterfaceVendorId; // @synthesize hasAudioInterfaceVendorId=_hasAudioInterfaceVendorId;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

@@ -7,17 +7,6 @@
 @interface SiriOntologyProtobuf.Google_Protobuf_FileDescriptorProto._StorageClass__priv_B62C77B489B1F84E4650498C184D5180
 {
     id _name;
-    id _package;
-    id _dependency;
-    id _publicDependency;
-    id _weakDependency;
-    id _messageType;
-    id _enumType;
-    id _service;
-    id _extension;
-    id _options;
-    id _sourceCodeInfo;
-    id _syntax;
 }
 
 @end

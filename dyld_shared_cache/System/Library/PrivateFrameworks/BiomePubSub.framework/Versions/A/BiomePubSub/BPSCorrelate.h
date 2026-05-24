@@ -6,23 +6,20 @@
 
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
-@class BPSCorrelateHandler, BPSCorrelateOrderedMerge;
+@class BPSCorrelateOrderedMerge;
 @protocol BPSPublisher;
 
 @interface BPSCorrelate : BMBookmarkablePublisher
 {
     BPSCorrelateOrderedMerge *_merger;
-    id <BPSPublisher> _prior;
-    id <BPSPublisher> _current;
-    BPSCorrelateHandler *_correlateHandler;
 }
 
 + (id);
 + (long long);
 + (id);
-+ (id);
++ (id)UseVoiceOverAtLoginwindow;
 - (id);
-- (id);
+- (id)sendMessage:withData:forIDSDeviceIDs:localIDSDeviceIDs:isResponse: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -33,8 +30,6 @@
 - (id)eeÔf;
 
 // Remaining properties
-@property(readonly, nonatomic) BPSCorrelateHandler *correlateHandler; // @synthesize correlateHandler=_correlateHandler;
-@property(readonly, nonatomic) id <BPSPublisher> current; // @synthesize current=_current;
 @property(readonly, nonatomic) id <BPSPublisher> prior; // @synthesize prior=_prior;
 
 @end

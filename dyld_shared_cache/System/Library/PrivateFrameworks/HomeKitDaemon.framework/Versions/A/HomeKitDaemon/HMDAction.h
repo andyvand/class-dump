@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDActionSet, NSArray, NSDictionary, NSString, NSUUID;
+@class HMDActionSet, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAction
 {
     NSUUID *_uuid;
-    HMDActionSet *_actionSet;
 }
 
 + (id);
 + (_Bool)øl;
 + (id);
-- (void);
+- (void)handles have all services checked;
 - (void);
 - (id);
 - (_Bool);
@@ -28,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)setNumberOfMeaningfulMomentsEntertainmentPerformance: /* Error: Ran out of types for this method. */;
+- (id)meaningLabelsByChildHighlightUUID;
 - (id);
 - (id);
 - (id);
@@ -37,41 +36,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)°1Â0@ù
 × ;
-- (id)hClass:(unsigned long long)arg1 logging:(long long)arg2 readOnly: /* Error: Ran out of types for this method. */;
-- (id)baseID;
-- (id)egate;
+- (id)infoWithClass:(unsigned long long)arg1 logging:(long long)arg2 readOnly: /* Error: Ran out of types for this method. */;
+- (id)MKFActionSetDatabaseID;
+- (id)HMDCameraSnapshotRemoteRelaySenderDelegate;
 - (void)ation failed:(id)arg1 %@;
 - (id)%@ ;
 - (id)ing targets %@;
 - (id)sion;
 - (Class)account capabilities;
 - (void)$j,G;
-- (id)ceAtHome;
-- (void)annel;
+- (id)isDeviceAtHome;
+- (void)ResidentChannel;
 - (void);
 - (id)>;
 - (id)ð@;
 
 // Remaining properties
 @property(nonatomic) __weak HMDActionSet *actionSet; // @synthesize actionSet=_actionSet;
-@property(readonly, copy) NSArray *associatedAccessories;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long entitlementsForNotification;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isUnsecuringAction;
-@property(readonly) Class modelClass;
-@property(readonly, copy, nonatomic) NSUUID *modelIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *modelParentIdentifier;
-@property(readonly) _Bool requiresDeviceUnlock;
-@property(readonly, nonatomic) NSString *stateDump;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long type;
-@property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

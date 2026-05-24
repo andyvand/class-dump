@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface HMBLocalSQLContextRowQueryTuple
 {
     unsigned long long _queryRow;
-    NSData *_queryData;
 }
 
 - (unsigned long long);
@@ -18,7 +15,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *queryData; // @synthesize queryData=_queryData;
 @property(readonly, nonatomic) unsigned long long queryRow; // @synthesize queryRow=_queryRow;
 
 @end

@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFeatureStyleAttributes, NSColor;
+@class GEOFeatureStyleAttributes;
 
 __attribute__((visibility("hidden")))
 @interface MKMarkerStyleConfiguration
 {
     _Bool _glyphHidden;
-    _Bool _selected;
-    _Bool _increasedContrast;
-    _Bool _darkMode;
-    _Bool _elevated;
-    GEOFeatureStyleAttributes *_styleAttributes;
-    NSColor *_fillColor;
-    NSColor *_glyphColor;
-    double _scale;
 }
 
 + (id);
 + (double);
-+ (_Bool);
-+ (double);
-+ (_Bool);
++ (_Bool);
++ (double);
++ (_Bool)a
+;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)4;
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)VNTrackMaskRequestConfiguration;
+- (id)VNANFDMultiDetectorProcessingOption_HumanFaceDetectorOriginatingRequestSpecifier;
 - (unsigned long long);
 - (double);
 - (void);
@@ -43,22 +36,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)CalCalendarsChangedNotification;
 - (void);
-- (id);
-- (void);
-- (void)eet:crossStreet: /* Error: Ran out of types for this method. */;
+- (id)_baseLightingColor;
+- (void)GLKTextureInfoAlphaStateNone;
+- (void)localizedSubtitleForStreet:crossStreet: /* Error: Ran out of types for this method. */;
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool darkMode; // @synthesize darkMode=_darkMode;
-@property(nonatomic) _Bool elevated; // @synthesize elevated=_elevated;
-@property(retain, nonatomic) NSColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(retain, nonatomic) NSColor *glyphColor; // @synthesize glyphColor=_glyphColor;
-@property(nonatomic) _Bool glyphHidden; // @synthesize glyphHidden=_glyphHidden;
-@property(nonatomic) _Bool increasedContrast; // @synthesize increasedContrast=_increasedContrast;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 @property(retain, nonatomic) GEOFeatureStyleAttributes *styleAttributes; // @synthesize styleAttributes=_styleAttributes;
 
 @end

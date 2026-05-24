@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class JRSchemaJRInferenceEnded, JRSchemaJRInferenceFailed, JRSchemaJRInferenceStarted, NSData;
+@class JRSchemaJRInferenceStarted;
 
 @interface JRSchemaJRInferenceContext : SISchemaInstrumentationMessage
 {
     JRSchemaJRInferenceStarted *_started;
-    JRSchemaJRInferenceFailed *_failed;
-    JRSchemaJRInferenceEnded *_ended;
-    _Bool _hasStarted;
-    _Bool _hasFailed;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -32,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)6;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -40,8 +34,8 @@
 - (id);
 - (id)
 × ;
-- (id)entences;
-- (id)tationEndPointCancel;
+- (id)hasNumSentences;
+- (id)SISchemaDictationEndPointCancel;
 - (void);
 - (void)²";
 - (id)2U";
@@ -49,14 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) JRSchemaJRInferenceEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) JRSchemaJRInferenceFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) JRSchemaJRInferenceStarted *started; // @synthesize started=_started;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

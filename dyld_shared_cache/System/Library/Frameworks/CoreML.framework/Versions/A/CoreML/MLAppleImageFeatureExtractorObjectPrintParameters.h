@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MLAppleImageFeatureExtractorObjectPrintParameters
 {
     unsigned long long _objectPrintVersion;
-    NSArray *_expectedShapes;
-    NSArray *_expectedKeys;
 }
 
 - (unsigned long long);
@@ -20,8 +16,6 @@
 - (void)ror:%d. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *expectedKeys; // @synthesize expectedKeys=_expectedKeys;
-@property(readonly) NSArray *expectedShapes; // @synthesize expectedShapes=_expectedShapes;
 @property(readonly) unsigned long long objectPrintVersion; // @synthesize objectPrintVersion=_objectPrintVersion;
 
 @end

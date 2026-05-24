@@ -6,7 +6,7 @@
 
 #import <EventKit/EKObject.h>
 
-@class EKCalendar, NSArray, NSPredicate, NSString;
+@class NSArray, NSString;
 
 @interface EKSharee : EKObject
 {
@@ -15,34 +15,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UUID;
-@property(copy, nonatomic) NSString *address;
-@property(readonly, nonatomic) NSPredicate *contactPredicate; // @dynamic contactPredicate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *emailAddress;
-@property(copy, nonatomic) NSString *externalID;
-@property(retain, nonatomic) NSArray *familyEmailAddressAliases; // @synthesize familyEmailAddressAliases=_familyEmailAddressAliases;
-@property(copy, nonatomic) NSString *firstName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCurrentUserForScheduling;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool isCurrentUserForSharing;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic) NSString *lastName;
 @property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) EKCalendar *owner;
-@property(readonly, nonatomic) NSString *phoneNumber;
-@property(nonatomic) unsigned long long shareeAccessLevel;
-@property(nonatomic) _Bool shareeMuteRemoval;
-@property(nonatomic) unsigned long long shareeStatus;
-@property(readonly) Class superclass;
 @end
 

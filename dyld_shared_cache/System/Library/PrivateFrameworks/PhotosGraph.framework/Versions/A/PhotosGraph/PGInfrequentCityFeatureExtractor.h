@@ -8,10 +8,10 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)becomeFrontmostApplication;
+- (id)_mutateDescription:(long long)arg1 appendString:(id)arg2 withPause:(id *)arg3 type: /* Error: Ran out of types for this method. */;
+- (id)_insertRange:(id)arg1 intoArray:(long long)arg2 atIndex:(id)arg3;
+- (id)_hasValidReason;
 - (id);
 
 @end

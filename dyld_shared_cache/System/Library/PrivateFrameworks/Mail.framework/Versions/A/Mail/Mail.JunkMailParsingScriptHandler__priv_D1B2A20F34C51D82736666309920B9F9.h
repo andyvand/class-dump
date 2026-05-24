@@ -7,8 +7,6 @@
 @interface Mail.JunkMailParsingScriptHandler__priv_D1B2A20F34C51D82736666309920B9F9
 {
     id name;
-    id webView;
-    id handler;
 }
 
 - (void);

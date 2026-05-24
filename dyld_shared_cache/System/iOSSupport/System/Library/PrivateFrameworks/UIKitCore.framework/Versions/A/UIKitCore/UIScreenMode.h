@@ -9,18 +9,16 @@
 @interface UIScreenMode
 {
     FBSDisplayMode *_mode;
-    _Bool _isMainScreen;
-    double _scale;
 }
 
-+ (id);
++ (id)lObject.m;
 - (struct CGSize);
 - (id);
 - (struct CGSize)0@ù
 × ;
 - (double)dingBarState";
-- (id)edSubviewAdded: /* Error: Ran out of types for this method. */;
-- (id)FullHeightUntransformedFrameForDepthLevel;
+- (id)_managedSubviewAdded: /* Error: Ran out of types for this method. */;
+- (id)_hostParentFullHeightUntransformedFrameForDepthLevel;
 - (void):Ùþ^÷×Hd /* Error: Ran out of types for this method. */;
 
 // Remaining properties

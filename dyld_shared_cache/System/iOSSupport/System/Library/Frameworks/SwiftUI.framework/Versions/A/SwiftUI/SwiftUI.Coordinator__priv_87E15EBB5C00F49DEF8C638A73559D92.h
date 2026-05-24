@@ -9,9 +9,6 @@
 @interface SwiftUI.Coordinator__priv_87E15EBB5C00F49DEF8C638A73559D92 : SwiftUI.PlatformViewCoordinator
 {
     id state;
-    id isViewUpdating;
-    id selection;
-    id expectedSelectionVersion;
 }
 
 - (void);

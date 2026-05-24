@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISAuthenticationContext, ISStoreClient, NSNumber, NSString, NSURL, NSWindow;
+@class NSString;
 
 @interface ISSignInPromptSettings
 {
     NSString *titleString;
-    NSString *messageString;
-    NSString *defaultButtonString;
-    NSString *alternateButtonString;
-    NSString *otherButtonString;
-    NSString *suppressionCheckboxString;
-    NSNumber *suppressionCheckboxState;
-    NSURL *authenticateAccountURL;
-    ISAuthenticationContext *context;
-    ISStoreClient *storeClient;
-    _Bool needsDedicatedUI;
-    _Bool shouldUseAppStoreUI;
-    _Bool forceActivate;
-    NSWindow *_sheetWindow;
 }
 
 + (id);
@@ -30,52 +17,39 @@
 + (_Bool);
 - (id);
 - (id);
+- (_Bool)";
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)P;
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)G%;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *alternateButtonString; // @synthesize alternateButtonString;
-@property(retain) NSURL *authenticateAccountURL; // @synthesize authenticateAccountURL;
-@property(retain) ISAuthenticationContext *context; // @synthesize context;
-@property(retain) NSString *defaultButtonString; // @synthesize defaultButtonString;
-@property _Bool forceActivate; // @synthesize forceActivate;
-@property(retain) NSString *messageString; // @synthesize messageString;
-@property _Bool needsDedicatedUI; // @synthesize needsDedicatedUI;
-@property(retain) NSString *otherButtonString; // @synthesize otherButtonString;
-@property(retain) NSWindow *sheetWindow; // @synthesize sheetWindow=_sheetWindow;
-@property _Bool shouldUseAppStoreUI; // @synthesize shouldUseAppStoreUI;
-@property(retain) ISStoreClient *storeClient; // @synthesize storeClient;
-@property(retain) NSNumber *suppressionCheckboxState; // @synthesize suppressionCheckboxState;
-@property(retain) NSString *suppressionCheckboxString; // @synthesize suppressionCheckboxString;
 @property(retain) NSString *titleString; // @synthesize titleString;
 
 @end

@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, STLockoutAlertController;
-
 __attribute__((visibility("hidden")))
 @interface STLockoutAlertAction
 {
     CDUnknownBlockType _handler;
-    _Bool _enabled;
-    NSString *_title;
-    long long _style;
-    NSArray *_actions;
-    STLockoutAlertController *__alertController;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)�A;
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void)cachedRemoteParentForContextID;
 
 // Remaining properties
-@property(nonatomic) __weak STLockoutAlertController *_alertController; // @synthesize _alertController=__alertController;
-@property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

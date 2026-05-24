@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-@protocol PKScribbleInteractionDelegate, PKScribbleInteractionElementSource, PKScribbleInteractionWrapper;
+@protocol PKScribbleInteractionWrapper;
 
 @interface PKScribbleInteraction
 {
     id <PKScribbleInteractionWrapper> _cachedWrapper;
-    UIView *_view;
-    _Bool _requestElementsShouldCallBackSynchronously;
-    id <PKScribbleInteractionDelegate> _delegate;
-    id <PKScribbleInteractionElementSource> _elementSource;
 }
 
 - (id);
@@ -22,24 +17,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)lueArrayMut:%04X, cfArrayCnt:%02lX
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void)eplies;
+- (void)_pendingElementContainerReplies;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKScribbleInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <PKScribbleInteractionElementSource> elementSource; // @synthesize elementSource=_elementSource;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool requestElementsShouldCallBackSynchronously; // @synthesize requestElementsShouldCallBackSynchronously=_requestElementsShouldCallBackSynchronously;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view;
 
 @end
 

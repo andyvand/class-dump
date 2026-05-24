@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PKProtobufAutomaticReloadPaymentRequest, PKProtobufDeferredPaymentRequest, PKProtobufRecurringPaymentRequest, PKProtobufShippingMethods;
+@class PKProtobufAutomaticReloadPaymentRequest;
 
 @interface PKProtobufPaymentClientUpdate
 {
     PKProtobufAutomaticReloadPaymentRequest *_automaticReloadPaymentRequest;
-    PKProtobufShippingMethods *_availableShippingMethods;
-    PKProtobufDeferredPaymentRequest *_deferredPaymentRequest;
-    NSMutableArray *_multiTokenContexts;
-    NSMutableArray *_paymentSummaryItems;
-    PKProtobufRecurringPaymentRequest *_recurringPaymentRequest;
-    NSString *_remotePaymentRequestIdentifier;
-    NSString *_selectedAID;
-    unsigned int _selectedPaymentType;
-    NSMutableArray *_shippingMethods;
-    unsigned int _status;
-    struct {
-        unsigned int selectedPaymentType:1;
-        unsigned int status:1;
-    } _has;
 }
 
 + (Class);
@@ -33,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
@@ -43,66 +29,48 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)c;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void)C;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (void));
+- (void)3;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)nStatusUpdateDelayBin2"b1"nStatusUpdateDelayBin3"b1"nStatusUpdateDelayBin4"b1"nStatusUpdateDelayBin5"b1"nStatusUpdateDelayBin6"b1"nVehicular"b1"nVoice"b1"nWalking"b1"nWifiGood"b1};
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool)ountRequest:account:request:taskID:responseClass:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)_performAccountRequest:account:request:taskID:responseClass:completion: /* Error: Ran out of types for this method. */;
 - (void)tifier:(_Bool)arg1 %@;
-- (void)ORTED_PAYMENT_CURRENCY_ERROR_TITLE;
+- (void)ACCOUNT_SERVICE_UNSUPPORTED_PAYMENT_CURRENCY_ERROR_TITLE;
 
 // Remaining properties
-@property(retain, nonatomic) PKProtobufAutomaticReloadPaymentRequest *automaticReloadPaymentRequest; // @synthesize automaticReloadPaymentRequest=_automaticReloadPaymentRequest;
-@property(retain, nonatomic) PKProtobufShippingMethods *availableShippingMethods; // @synthesize availableShippingMethods=_availableShippingMethods;
-@property(retain, nonatomic) PKProtobufDeferredPaymentRequest *deferredPaymentRequest; // @synthesize deferredPaymentRequest=_deferredPaymentRequest;
-@property(readonly, nonatomic) _Bool hasAutomaticReloadPaymentRequest;
-@property(readonly, nonatomic) _Bool hasAvailableShippingMethods;
-@property(readonly, nonatomic) _Bool hasDeferredPaymentRequest;
-@property(readonly, nonatomic) _Bool hasRecurringPaymentRequest;
 @property(readonly, nonatomic) _Bool hasRemotePaymentRequestIdentifier;
-@property(readonly, nonatomic) _Bool hasSelectedAID;
-@property(nonatomic) _Bool hasSelectedPaymentType;
-@property(nonatomic) _Bool hasStatus;
-@property(retain, nonatomic) NSMutableArray *multiTokenContexts; // @synthesize multiTokenContexts=_multiTokenContexts;
-@property(retain, nonatomic) NSMutableArray *paymentSummaryItems; // @synthesize paymentSummaryItems=_paymentSummaryItems;
-@property(retain, nonatomic) PKProtobufRecurringPaymentRequest *recurringPaymentRequest; // @synthesize recurringPaymentRequest=_recurringPaymentRequest;
-@property(retain, nonatomic) NSString *remotePaymentRequestIdentifier; // @synthesize remotePaymentRequestIdentifier=_remotePaymentRequestIdentifier;
-@property(retain, nonatomic) NSString *selectedAID; // @synthesize selectedAID=_selectedAID;
-@property(nonatomic) unsigned int selectedPaymentType; // @synthesize selectedPaymentType=_selectedPaymentType;
-@property(retain, nonatomic) NSMutableArray *shippingMethods; // @synthesize shippingMethods=_shippingMethods;
-@property(nonatomic) unsigned int status; // @synthesize status=_status;
 
 @end
 

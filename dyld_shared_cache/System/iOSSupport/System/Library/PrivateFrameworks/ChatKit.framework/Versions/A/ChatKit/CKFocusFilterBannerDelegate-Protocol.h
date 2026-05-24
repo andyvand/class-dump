@@ -5,5 +5,6 @@
 //
 
 @protocol CKFocusFilterBannerDelegate
+- (void)T@"NSDate",&,N,V_lastAccessibilityAnnouncementDate;
 @end
 

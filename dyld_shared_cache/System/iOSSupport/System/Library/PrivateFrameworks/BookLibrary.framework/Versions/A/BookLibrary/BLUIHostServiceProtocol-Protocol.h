@@ -5,5 +5,9 @@
 //
 
 @protocol BLUIHostServiceProtocol
+- (void)keyPathsForValuesAffectingFeedbackIDString;
+- (void)keyPathsForValuesAffectingFeedbackIDAndTitleString;
+- (void)keyPathsForValuesAffectingDisplayTitle;
+- (void)keyPathsAffectingClosedOrOpenString;
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol AFCommandExecutionInfoMutating
+- (void)setOtherUnformattedID:(NSDictionary *)arg1;
 @end
 

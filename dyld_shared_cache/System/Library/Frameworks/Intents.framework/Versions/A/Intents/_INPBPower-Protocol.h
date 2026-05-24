@@ -7,11 +7,13 @@
 @class NSArray, _INPBPowerValue;
 
 @protocol _INPBPower
-- (void)pletion:(_INPBPowerValue *)arg1;
++ (Class)etrieved from system keychain
+;
+- (NSArray *);
+- (void)provideAlarmsOptionsForDeleteAlarm:(_INPBPowerValue *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
 - (_INPBPowerValue *)a for identifier %@ at file path %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, WCMessage;
+@class WCMessage;
 
 __attribute__((visibility("hidden")))
 @interface WCQueuedMessage
 {
     WCMessage *_message;
-    CDUnknownBlockType _completionHandler;
-    NSDate *_creationDate;
-    long long _retryCount;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -25,13 +22,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)rary/PrivateFrameworks/TeaSettings.framework/Versions/A/TeaSettings;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly) NSDate *creationDate; // @synthesize creationDate=_creationDate;
 @property(retain) WCMessage *message; // @synthesize message=_message;
-@property long long retryCount; // @synthesize retryCount=_retryCount;
 
 @end
 

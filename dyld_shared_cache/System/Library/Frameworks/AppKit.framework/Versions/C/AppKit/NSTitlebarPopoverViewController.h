@@ -6,40 +6,31 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSError, NSViewBridge;
-@protocol NSDocumentTitlebarPopoverViewControllerDelegate, NSTitlebarPopoverViewControllerDataSource;
+@protocol NSTitlebarPopoverViewControllerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface NSTitlebarPopoverViewController : NSViewController
 {
     id <NSTitlebarPopoverViewControllerDataSource> _dataSource;
-    id <NSDocumentTitlebarPopoverViewControllerDelegate> _delegate;
-    _Bool _lockStatusObserverAttemptedRegistration;
-    NSError *_nonModalError;
-    _Bool _isPerformingOperation;
-    CDUnknownBlockType _operationWaiter;
-    CDUnknownBlockType _advanceToRunPhaseWaiter;
-    CDUnknownBlockType _invalidationHandler;
-    NSViewBridge *_bridgeForUnregisteringKVO;
 }
 
 + (Class);
 + (Class);
 + (void),4ìª@;
-- (void);
-- (void);
-- (_Bool);
+- (void)gps_time-mark;
+- (void)NEpjOcuQrO5/Yrbw;
+- (_Bool)ArtworkDynamicDisplayMode;
 - (void);
 - (id);
 - (void);
+- (void)<;
+- (void);
+- (_Bool)tor}i}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ionWithEvent:offset:slideBack: /* Error: Ran out of types for this method. */;
+- (void)P;
+- (void);
+- (void)dragSelectionWithEvent:offset:slideBack: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)ð;
 - (id){hyIÑhôhyÞhGGACG;
 - (void);
@@ -47,10 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

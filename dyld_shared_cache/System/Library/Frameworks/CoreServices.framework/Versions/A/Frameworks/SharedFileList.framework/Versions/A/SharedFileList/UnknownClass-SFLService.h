@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SFLService)
-+ (id);
++ (id);
 @end
 

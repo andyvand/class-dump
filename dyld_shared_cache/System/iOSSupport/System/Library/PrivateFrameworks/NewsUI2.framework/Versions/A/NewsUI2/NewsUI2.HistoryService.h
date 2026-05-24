@@ -7,17 +7,11 @@
 @interface NewsUI2.HistoryService
 {
     id observers;
-    id readingHistory;
-    id issueReadingHistory;
-    id clearUserDataManager;
-    id headlineStreamingResults;
-    id headlineModelFactory;
-    id headlineService;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

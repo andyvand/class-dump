@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSTableViewDataSource
+
+@optional
+- (_Bool)K;
+- (unsigned long long);
+- (void)9
+;
+- (NSArray *);
+- (long long)gth must be non 0;
 @end
 

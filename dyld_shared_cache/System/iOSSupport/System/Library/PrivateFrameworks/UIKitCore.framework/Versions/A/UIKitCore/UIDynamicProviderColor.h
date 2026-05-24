@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool):(id)arg1;
+- (_Bool)forceKeyboardAlpha:(id)arg1;
 - (id)	
 ;
 - (id)on;

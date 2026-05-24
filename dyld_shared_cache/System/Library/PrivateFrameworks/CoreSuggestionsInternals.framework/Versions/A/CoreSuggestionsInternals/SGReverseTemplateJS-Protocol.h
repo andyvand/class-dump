@@ -5,5 +5,9 @@
 //
 
 @protocol SGReverseTemplateJS
+- (void)vices.framework/Versions/A/CoreServices;
+- (void);
+- (void)__oslogstring;
+- (void);
 @end
 

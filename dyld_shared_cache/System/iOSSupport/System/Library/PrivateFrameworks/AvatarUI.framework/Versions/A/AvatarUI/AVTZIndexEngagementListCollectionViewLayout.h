@@ -6,15 +6,11 @@
 
 #import <AvatarUI/AVTEngagementListCollectionViewLayout.h>
 
-@class AVTUIEnvironment, NSIndexPath, UICollectionViewUpdateItem;
+@class NSIndexPath, UICollectionViewUpdateItem;
 
 @interface AVTZIndexEngagementListCollectionViewLayout : AVTEngagementListCollectionViewLayout
 {
     NSIndexPath *_backIndexPath;
-    NSIndexPath *_plusButtonIndexPath;
-    UICollectionViewUpdateItem *_currentUpdateItem;
-    double _minAlphaFactor;
-    AVTUIEnvironment *_environment;
 }
 
 - (void);
@@ -33,19 +29,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)'t get our own task to get memory use;
+- (id)remoteMessagesToRedonate;
 - (id);
 - (void);
 - (void);
 - (id)i;
 
 // Remaining properties
-@property(retain, nonatomic) NSIndexPath *backIndexPath; // @synthesize backIndexPath=_backIndexPath;
 @property(retain, nonatomic) UICollectionViewUpdateItem *currentUpdateItem; // @synthesize currentUpdateItem=_currentUpdateItem;
-@property(retain, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(nonatomic) double minAlphaFactor; // @synthesize minAlphaFactor=_minAlphaFactor;
-@property(retain, nonatomic) NSIndexPath *plusButtonIndexPath; // @synthesize plusButtonIndexPath=_plusButtonIndexPath;
 
 @end
 

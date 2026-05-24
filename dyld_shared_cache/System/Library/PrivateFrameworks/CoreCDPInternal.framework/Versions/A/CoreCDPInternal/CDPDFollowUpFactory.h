@@ -11,20 +11,20 @@
     LAEnvironment *_currentUser;
 }
 
-+ (id);
++ (id)OneTimeCodeUIAppearanceInformation;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)MainShootingMode;
+- (_Bool)R;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)initWithType:(id)arg1 stringValue:range:itemizingComponentRange: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)K~0B;
 - (id);
 - (void);
 - (id);
@@ -37,20 +37,21 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)K;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)1
+K;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)?kl>;
 - (_Bool);
 - (void);
 - (id);

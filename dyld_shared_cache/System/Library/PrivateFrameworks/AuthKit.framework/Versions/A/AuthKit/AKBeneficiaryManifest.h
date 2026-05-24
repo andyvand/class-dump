@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface AKBeneficiaryManifest
 {
     NSArray *_accessibleBundleInformation;
-    long long _manifestOptions;
 }
 
 + (_Bool);
@@ -18,16 +17,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (long long);
-- (id);
+- (long long)�!;
+- (id)i;
 - (void);
 - (id);
-- (void)nk:o:fw:SystemAdministration /* Error: Ran out of types for this method. */;
+- (void)softlink:o:fw:SystemAdministration /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accessibleBundleInformation; // @synthesize accessibleBundleInformation=_accessibleBundleInformation;
-@property(readonly, nonatomic) long long manifestOptions; // @synthesize manifestOptions=_manifestOptions;
-@property(readonly, nonatomic) NSDictionary *parsableRepresentation;
 
 @end
 

@@ -6,30 +6,27 @@
 
 #import <AXMediaUtilities/AXMOutputComponent.h>
 
-@class AVAudioEngine, AVAudioPlayerNode, NSMutableArray;
+@class AVAudioEngine;
 
 @interface AXMSoundComponent : AXMOutputComponent
 {
     AVAudioEngine *_engine;
-    AVAudioPlayerNode *_oneShotSoundPlayer;
-    NSMutableArray *_activeSounds;
-    id _configChangedObserverToken;
 }
 
-+ (_Bool);
++ (_Bool)q;
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)t;
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id configChangedObserverToken; // @synthesize configChangedObserverToken=_configChangedObserverToken;

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue;
 
 @interface FPItemManager
 {
     NSOperationQueue *_operationQueue;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSMutableSet *_activeCollections;
 }
 
-+ (_Bool);
-+ (void);
++ (_Bool);
++ (void)T3;
 + (id);
 
 @end

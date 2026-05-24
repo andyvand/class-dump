@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSIntegerArray
 {
     long long *_data;
-    unsigned long long _count;
-    unsigned long long _capacity;
 }
 
 - (void);

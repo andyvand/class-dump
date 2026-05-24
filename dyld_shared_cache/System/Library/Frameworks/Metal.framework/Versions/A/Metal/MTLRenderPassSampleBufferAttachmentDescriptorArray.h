@@ -10,7 +10,7 @@
 
 + (id);
 + (id)¯ãÿù};
-- (void)nNoObjectPrefixSumPSO;
+- (void)_emulationNoObjectPrefixSumPSO;
 - (id);
 
 @end

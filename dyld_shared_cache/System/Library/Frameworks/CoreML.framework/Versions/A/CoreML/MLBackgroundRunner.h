@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLBackgroundTask, NSObject, NSString, _DASActivity;
-@protocol NSObject, OS_dispatch_queue;
-
 @interface MLBackgroundRunner
 {
     _Bool _shouldStop;
-    _DASActivity *_activity;
-    MLBackgroundTask *_task;
-    id <NSObject> _dataSource;
-    NSObject<OS_dispatch_queue> *_watchdogQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)4;
+- (_Bool)$;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)unpairFromDeviceWithAddress: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)(;
+- (void)D;
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (id);
 - (void);
 - (id);
@@ -37,19 +29,7 @@
 - (void)an be an invalid input data or broken/unsupported model.;
 
 // Remaining properties
-@property(retain, nonatomic) _DASActivity *activity; // @synthesize activity=_activity;
-@property(retain, nonatomic) id <NSObject> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool shouldStop; // @synthesize shouldStop=_shouldStop;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MLBackgroundTask *task; // @synthesize task=_task;
-@property(retain) NSObject<OS_dispatch_queue> *watchdogQueue; // @synthesize watchdogQueue=_watchdogQueue;
 
 @end
 

@@ -8,9 +8,9 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
++ (void)avPlayer;
++ (void)automaticallyNotifiesObserversForKey: /* Error: Ran out of types for this method. */;
++ (void)automaticallyAdjustsZRange;
 
 @end
 

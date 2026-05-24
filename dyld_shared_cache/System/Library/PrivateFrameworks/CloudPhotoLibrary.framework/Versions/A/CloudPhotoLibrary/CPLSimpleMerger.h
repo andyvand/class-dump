@@ -9,7 +9,7 @@
     CDUnknownBlockType _block;
 }
 
-- (_Bool);
+- (_Bool)root_owned_by_existing_domain;
 - (id);
 - (void)aÂ°!D@ùÑ1Â0@ù
 × ;

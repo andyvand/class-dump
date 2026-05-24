@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDAnimationTarget;
-
 __attribute__((visibility("hidden")))
 @interface PDTimeCondition
 {
     _Bool mHasDelay;
-    int mDelay;
-    _Bool mHasTriggerEvent;
-    int mTriggerEvent;
-    PDAnimationTarget *mTarget;
 }
 
 - (int);
 - (_Bool);
 - (_Bool);
+- (id)setDoNotPassdownExpandedState: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (int);
-- (void);
+- (int)c]}[64c][0C]}16@?0^{os_state_hints_s=I*II}8;
+- (void)initWithCurrentChangeHistoryToken:(id)arg1 identifiersOfAffectedContacts: /* Error: Ran out of types for this method. */;
 - (void)$ü	;
 - (void);
 - (int)M;

@@ -9,8 +9,6 @@
 @protocol GPURawCounter
 
 // Remaining properties
-@property(readonly) unsigned long long counterValueType;
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSString *name;
 @end
 

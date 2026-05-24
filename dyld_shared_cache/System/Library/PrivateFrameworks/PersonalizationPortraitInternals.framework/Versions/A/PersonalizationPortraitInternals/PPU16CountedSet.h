@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface PPU16CountedSet
 {
     void *_vectorStorage;
-    NSMutableDictionary *_dictStorage;
-    union type _vectorInlineStorage;
 }
 
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)`;
 - (unsigned short);
 - (id);
 - (void);
-- (void)ailHarvestingEligiblityInterval;
+- (void)MaxEmailHarvestingEligiblityInterval;
 
 @end
 

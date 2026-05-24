@@ -10,9 +10,6 @@
 - (NSArray *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *durations;
-@property(readonly, nonatomic) NSArray *frames;
-@property(readonly, nonatomic) double scale;
 @property(readonly, nonatomic) struct CGSize size;
 @end
 

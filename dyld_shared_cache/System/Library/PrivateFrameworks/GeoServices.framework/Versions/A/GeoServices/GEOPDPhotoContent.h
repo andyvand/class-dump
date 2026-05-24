@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPhotoContent
 {
     PBUnknownFields *_unknownFields;
-    NSString *_url;
-    unsigned int _height;
-    int _urlType;
-    unsigned int _width;
-    struct {
-        unsigned int has_height:1;
-        unsigned int has_urlType:1;
-        unsigned int has_width:1;
-    } _flags;
 }
 
 - (unsigned long long);
@@ -28,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)@40;
-- (id)questedTilesAndUpdateGlobalListWithNonDuplicatesForTileKeyList: /* Error: Ran out of types for this method. */;
+- (id)_ignoreAlreadyRequestedTilesAndUpdateGlobalListWithNonDuplicatesForTileKeyList: /* Error: Ran out of types for this method. */;
 - (id)¬f<g;
 - (void);
 

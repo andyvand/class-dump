@@ -6,25 +6,23 @@
 
 #import <UIKitCore/UIFocusSystem.h>
 
-@class _UIHostedFocusSystemDelegateProxy, _UIHostedFocusSystemItemContainer;
-@protocol UIFocusEnvironment, _UIHostedFocusSystemDelegate;
+@class _UIHostedFocusSystemItemContainer;
+@protocol UIFocusEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface _UIHostedFocusSystem : UIFocusSystem
 {
     id <UIFocusEnvironment> _hostEnvironment;
-    _UIHostedFocusSystemItemContainer *_itemContainerProxy;
-    _UIHostedFocusSystemDelegateProxy *_delegateProxy;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)relayPartsFor:overridingAttachmentData: /* Error: Ran out of types for this method. */;
+- (_Bool)e:(id)arg1 %s;
+- (_Bool)g early;
+- (id)path! Asset from ckrecord with guid %@ has path %@, finalAssetPath %@ and asset fileURL %@;
+- (id)cript background command %@;
+- (_Bool)type provided for plist.;
+- (id)tion was unsuccessful.;
+- (_Bool)IMDCKMessageSyncCKOperationFactory;
 - (id);
 - (_Bool);
 - (void);
@@ -37,9 +35,6 @@ __attribute__((visibility("hidden")))
 - (void)#ÖTm[;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIHostedFocusSystemDelegate> delegate;
-@property(retain, nonatomic) _UIHostedFocusSystemDelegateProxy *delegateProxy; // @synthesize delegateProxy=_delegateProxy;
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> hostEnvironment; // @synthesize hostEnvironment=_hostEnvironment;
 @property(readonly, nonatomic) _UIHostedFocusSystemItemContainer *itemContainerProxy; // @synthesize itemContainerProxy=_itemContainerProxy;
 
 @end

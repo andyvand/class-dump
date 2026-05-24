@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIResponder, UITextInteractionAssistant, UITextPosition, UITextRange, UITextSelection, UIView;
-@protocol UISelectionInteractionAssistant, UITextInput;
-
 __attribute__((visibility("hidden")))
 @interface _UIKeyboardTextSelectionController
 {
     _Bool _hasInteractionAssistant;
-    _Bool _hasSelectionInteractionAssistant;
-    _Bool _hasTextInputView;
-    UITextPosition *_cursorPosition;
-    UITextSelection *_selection;
-    UITextRange *_initialSelection;
-    long long _selectionGranularity;
-    UITextRange *_selectionBase;
-    UIResponder<UITextInput> *_inputDelegate;
-    struct CGRect _caretRectForCursorPosition;
 }
 
 - (_Bool);
@@ -37,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void)@40;
 - (struct CGRect);
 - (_Bool);
 - (void);
@@ -64,9 +52,9 @@ __attribute__((visibility("hidden")))
 - (void)troller<UIForcePresentationController>";
 - (void)"UIKeyboardStickerEditorViewController";
 - (void);
-- (long long)r;
-- (void)alSnapshot:(struct CGPoint)arg1 batchUpdateItems: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ForValue: /* Error: Ran out of types for this method. */;
+- (long long)multiselectBackgroundColor;
+- (void)mapForInitialSnapshot:(struct CGPoint)arg1 finalSnapshot:batchUpdateItems: /* Error: Ran out of types for this method. */;
+- (struct CGRect)codeStringForValue: /* Error: Ran out of types for this method. */;
 - (void)ring",R,N,G_identifier;
 - (void)fectView",R,W,N,V_captureSource;
 - (void);
@@ -105,21 +93,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct CGRect caretRectForCursorPosition; // @synthesize caretRectForCursorPosition=_caretRectForCursorPosition;
-@property(readonly, nonatomic) struct CGRect caretRectForFirstSelectedPosition;
-@property(readonly, nonatomic) struct CGRect caretRectForLastSelectedPosition;
-@property(readonly, nonatomic) struct CGRect caretRectForLeftmostSelectedPosition;
-@property(readonly, nonatomic) struct CGRect caretRectForRightmostSelectedPosition;
-@property(retain, nonatomic) UITextPosition *cursorPosition;
-@property(readonly, nonatomic) _Bool hasCaretSelection;
-@property(readonly, nonatomic) _Bool hasRangedSelection;
-@property(retain, nonatomic) UITextRange *initialSelection; // @synthesize initialSelection=_initialSelection;
-@property(readonly, nonatomic) __weak UIResponder<UITextInput> *inputDelegate; // @synthesize inputDelegate=_inputDelegate;
-@property(readonly, nonatomic) UITextInteractionAssistant *interactionAssistant;
-@property(readonly, nonatomic) UITextSelection *selection;
-@property(retain, nonatomic) UITextRange *selectionBase; // @synthesize selectionBase=_selectionBase;
-@property(nonatomic) long long selectionGranularity; // @synthesize selectionGranularity=_selectionGranularity;
-@property(readonly, nonatomic) id <UISelectionInteractionAssistant> selectionInteractionAssistant;
-@property(readonly, nonatomic) UIView *textInputView;
 
 @end
 

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     NSString *_itemIdentifier;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)ivity %{public}@ fired!;
+- (id)Cannot accept the new update request for an asset as update is already in progress;
+- (void)�;
 - (void)IWebJSPropertiesDelegate>";
 - (id)[%{public}@] Failed to encode content rules. %{public}@;
 

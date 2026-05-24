@@ -4,37 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLFollowUpNotification, NSArray, NSData, NSDate, NSDictionary, NSString;
-
 @interface FLFollowUpItem
 {
     _Bool _showInSettings;
-    _Bool _shouldPersistWhenActivated;
-    _Bool _shouldPersistWhenDismissed;
-    NSString *_uniqueIdentifier;
-    NSString *_groupIdentifier;
-    NSString *_collectionIdentifier;
-    FLFollowUpNotification *_notification;
-    NSString *_targetBundleIdentifier;
-    NSString *_title;
-    NSString *_informativeText;
-    NSString *_informativeFooterText;
-    NSString *_representingBundlePath;
-    NSString *_bundleIconName;
-    unsigned long long _displayStyle;
-    NSString *_categoryIdentifier;
-    NSString *_extensionIdentifier;
-    NSString *_accountIdentifier;
-    NSString *_typeIdentifier;
-    NSArray *_actions;
-    NSDictionary *_userInfo;
-    NSDate *_expirationDate;
-    unsigned long long _sqlID;
-    NSString *_clientIdentifier;
-    NSString *_delegateMachServiceName;
 }
 
-+ (long long);
++ (long long)#;
 + (id);
 + (_Bool);
 - (id);
@@ -46,8 +21,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)Manager _locationsOfInterestNearLocation:error:] /* Error: Ran out of types for this method. */;
+- (id)invalidLocation;
 - (_Bool);
 - (void);
 - (void);
@@ -68,37 +43,37 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)setLastPostedMDMUpdateLaterNotificationDate:(id)arg1;
+- (void)8B52;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)torIcEEEENS_5tupleIJN3ctu8TimeTypeENS_6chrono8durationIxNS_5ratioILl1ELl1000000EEEEEEEE11qos_class_tN8dispatch5queueENSJ_5blockIU13block_pointerFvvEEEEUb1_E3$_3SM_EE;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)successfullyStagedCount;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void);
+- (id)~;
 - (id);
 - (_Bool);
+- (id)bient cooked temp (DegC) (TA0P);
+- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)87ps;
+- (void)onnection is invalidated;
+- (unsigned long long)soleSessionChanged) failed;
+- (id)eBuffer=}8i16;
+- (id)H;
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -106,32 +81,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *_userInfoData;
-@property(copy) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy) NSArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) NSString *bundleIconName; // @synthesize bundleIconName=_bundleIconName;
-@property(copy) NSString *categoryIdentifier; // @synthesize categoryIdentifier=_categoryIdentifier;
-@property(copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(copy, nonatomic) NSString *collectionIdentifier; // @synthesize collectionIdentifier=_collectionIdentifier;
-@property(copy, nonatomic) NSString *delegateMachServiceName; // @synthesize delegateMachServiceName=_delegateMachServiceName;
-@property unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(copy) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(copy) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(copy, nonatomic) NSString *informativeFooterText; // @synthesize informativeFooterText=_informativeFooterText;
-@property(copy, nonatomic) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property(readonly) _Bool isExpired;
-@property(retain, nonatomic) FLFollowUpNotification *notification; // @synthesize notification=_notification;
-@property(copy, nonatomic) NSString *representingBundlePath; // @synthesize representingBundlePath=_representingBundlePath;
-@property _Bool shouldPersistWhenActivated; // @synthesize shouldPersistWhenActivated=_shouldPersistWhenActivated;
-@property _Bool shouldPersistWhenDismissed; // @synthesize shouldPersistWhenDismissed=_shouldPersistWhenDismissed;
-@property(nonatomic) _Bool showInSettings; // @synthesize showInSettings=_showInSettings;
 @property(nonatomic) unsigned long long sqlID; // @synthesize sqlID=_sqlID;
-@property(copy, nonatomic) NSString *targetBundleIdentifier; // @synthesize targetBundleIdentifier=_targetBundleIdentifier;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
-@property(copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

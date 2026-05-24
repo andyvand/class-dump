@@ -11,7 +11,7 @@
     NSDictionary *_map;
 }
 
-+ (id)rKey:transaction: /* Error: Ran out of types for this method. */;
++ (id)removeBlobForKey:transaction: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);

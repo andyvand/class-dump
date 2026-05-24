@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct UIEdgeInsets)ù±cÐ1Â0@ù
 × ;
-- (void)fiers:(id)arg1;
-- (id)avoriteOrder;
-- (void)pearingViewController;
+- (void)setManagedEndpointLaunchIdentifiers:(id)arg1;
+- (id)_listItemsFromOverrideFavoriteOrder;
+- (void)_disappearingViewController;
 
 @end
 

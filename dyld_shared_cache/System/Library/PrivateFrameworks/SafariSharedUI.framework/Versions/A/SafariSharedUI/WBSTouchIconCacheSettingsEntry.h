@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface WBSTouchIconCacheSettingsEntry
 {
     _Bool _lastRequestWasInUserLoadedWebpage;
-    _Bool _iconInCache;
-    _Bool _requestDidSucceed;
-    _Bool _higherPriorityIconDownloadFailedDueToNetworkError;
-    long long _databaseID;
-    NSString *_host;
-    NSString *_UUIDString;
-    NSDate *_lastRequestDate;
-    long long _requestCount;
-    long long _transparencyAnalysisResult;
-    long long _lastResponseStatusCode;
 }
 
 + (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)q;
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -48,25 +38,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *UUIDString; // @synthesize UUIDString=_UUIDString;
-@property(readonly, nonatomic) long long databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long downloadStatusFlags;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool higherPriorityIconDownloadFailedDueToNetworkError; // @synthesize higherPriorityIconDownloadFailedDueToNetworkError=_higherPriorityIconDownloadFailedDueToNetworkError;
 @property(readonly, copy, nonatomic) NSString *host; // @synthesize host=_host;
-@property(readonly, nonatomic, getter=isIconInCache) _Bool iconInCache; // @synthesize iconInCache=_iconInCache;
-@property(readonly, nonatomic) NSDate *lastRequestDate; // @synthesize lastRequestDate=_lastRequestDate;
-@property(readonly, nonatomic) _Bool lastRequestWasInUserLoadedWebpage; // @synthesize lastRequestWasInUserLoadedWebpage=_lastRequestWasInUserLoadedWebpage;
-@property(readonly, nonatomic) long long lastResponseStatusCode; // @synthesize lastResponseStatusCode=_lastResponseStatusCode;
-@property(readonly, nonatomic) long long requestCount; // @synthesize requestCount=_requestCount;
-@property(readonly, nonatomic) _Bool requestDidSucceed; // @synthesize requestDidSucceed=_requestDidSucceed;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long transparencyAnalysisResult; // @synthesize transparencyAnalysisResult=_transparencyAnalysisResult;
 
 @end
 

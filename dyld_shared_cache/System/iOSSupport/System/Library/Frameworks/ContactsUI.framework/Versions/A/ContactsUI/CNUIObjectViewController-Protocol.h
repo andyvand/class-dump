@@ -5,12 +5,10 @@
 //
 
 @class UIView;
-@protocol CNUIObjectViewControllerDelegate;
 
 @protocol CNUIObjectViewController
 
 // Remaining properties
-@property(nonatomic) __weak id <CNUIObjectViewControllerDelegate> objectViewControllerDelegate;
 @property(readonly, nonatomic) UIView *view;
 @end
 

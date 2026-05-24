@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)ture-update;
++ (id)receive;
 + (_Bool);
 
 @end

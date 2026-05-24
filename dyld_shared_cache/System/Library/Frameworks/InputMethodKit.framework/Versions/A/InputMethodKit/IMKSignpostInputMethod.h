@@ -6,8 +6,7 @@
 
 #import <InputMethodKit/IMKDecorator.h>
 
-@class NSString;
-@protocol IMKCandidateEngine, IMKKeyboard, IMKTextDocument;
+@protocol IMKKeyboard;
 
 @interface IMKSignpostInputMethod : IMKDecorator
 {
@@ -18,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)x!!8"b8"!";
 - (void);
 - (id);
 - (id);
@@ -27,15 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <IMKKeyboard> attachedKeyboard;
-@property(retain, nonatomic) id <IMKTextDocument> attachedTextDocument;
-@property(retain, nonatomic) id <IMKCandidateEngine> candidateEngine;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

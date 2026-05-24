@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVConferencePreview, NSArray, NSString, TUVideoEffect, VideoAttributes;
-@protocol TUVideoDeviceControllerProviderDelegate;
+@class AVConferencePreview, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface TUVideoDeviceControllerProvider
 {
     NSArray *_cachedInputDevices;
-    _Bool _isAVCaptureDeviceReady;
-    id <TUVideoDeviceControllerProviderDelegate> _delegate;
-    TUVideoEffect *_currentVideoEffect;
-    AVConferencePreview *_preview;
 }
 
-+ (void)dation;
++ (void)IMFoundation;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)˪C;
+- (void);
+- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -44,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -53,13 +48,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -72,7 +67,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -83,30 +78,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)ideoAttributes"16;
 - (void)NSString",R,C,N,V_preferredSceneSessionRole;
-- (void)leRoutesForTTY;
+- (void)pickableRoutesForTTY;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableVideoEffects;
-@property(nonatomic, getter=isCameraBlurEnabled) _Bool cameraBlurEnabled;
-@property(nonatomic, getter=isCinematicFramingEnabled) _Bool cinematicFramingEnabled;
-@property(retain, nonatomic) TUVideoEffect *currentVideoEffect; // @synthesize currentVideoEffect=_currentVideoEffect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TUVideoDeviceControllerProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAvailableDeskViewCameras;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *inputDevices;
-@property(readonly, copy, nonatomic) NSString *localCameraUID;
-@property(copy, nonatomic) VideoAttributes *localVideoAttributes;
 @property(readonly, nonatomic) AVConferencePreview *preview; // @synthesize preview=_preview;
-@property(readonly, nonatomic, getter=isPreviewRunning) _Bool previewRunning;
-@property(nonatomic, getter=isReactionEffectGestureEnabled) _Bool reactionEffectGestureEnabled;
-@property(nonatomic, getter=isStudioLightEnabled) _Bool studioLightEnabled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) AVCaptureDevice *userPreferredCamera;
 
 @end
 

@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString, NSURL, WBSFormControlMetadata, WBSFormMetadataPasswordRules;
+@class NSNumber, WBSFormMetadataPasswordRules;
 
 @interface WBSFormMetadata
 {
     NSNumber *_containsAtLeastOneSecureTextField;
-    unsigned long long _type;
-    NSArray *_controls;
-    NSString *_userNameElementUniqueID;
-    NSString *_passwordElementUniqueID;
-    NSString *_confirmPasswordElementUniqueID;
-    NSString *_oldPasswordElementUniqueID;
-    NSString *_firstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID;
-    _Bool _allowsAutocomplete;
-    _Bool _containsActiveElement;
-    _Bool _bestForPageLevelAutoFill;
-    _Bool _bestForStreamlinedLogin;
-    _Bool _eligibleForAutomaticLogin;
-    _Bool _visible;
-    _Bool _usesRelAsync;
-    _Bool _usesGeneratedPassword;
-    _Bool _isSearchForm;
-    NSDictionary *_annotations;
-    NSURL *_action;
-    long long _uniqueID;
-    NSString *_logicalFormElementSelector;
-    NSString *_textSample;
-    unsigned long long _requestType;
-    WBSFormMetadataPasswordRules *_passwordRules;
-    NSDictionary *_passwordRequirements;
 }
 
 + (CDUnknownBlockType);
@@ -42,14 +18,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)';
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -67,7 +43,7 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
+- (void)GImage=}20;
 - (id);
 - (id);
 - (id);
@@ -95,38 +71,7 @@ ReaderArticleFinder=function(e){this.contentDocument=e,this.didSearchForArticleN
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *action; // @synthesize action=_action;
-@property(readonly, nonatomic) _Bool allowsAutocomplete; // @synthesize allowsAutocomplete=_allowsAutocomplete;
-@property(readonly, copy, nonatomic) NSDictionary *annotations; // @synthesize annotations=_annotations;
-@property(readonly, nonatomic) WBSFormControlMetadata *bestControlForStreamlinedLoginFocus;
-@property(readonly, nonatomic, getter=isBestForPageLevelAutoFill) _Bool bestForPageLevelAutoFill; // @synthesize bestForPageLevelAutoFill=_bestForPageLevelAutoFill;
-@property(readonly, nonatomic, getter=isBestForStreamlinedLogin) _Bool bestForStreamlinedLogin; // @synthesize bestForStreamlinedLogin=_bestForStreamlinedLogin;
-@property(readonly, copy, nonatomic) NSString *confirmPasswordElementUniqueID;
-@property(readonly, nonatomic) _Bool containsActiveElement; // @synthesize containsActiveElement=_containsActiveElement;
-@property(readonly, nonatomic) _Bool containsAtLeastOneSecureTextField;
-@property(readonly, nonatomic) _Bool containsClassifications;
-@property(readonly, copy, nonatomic) NSArray *controls;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic, getter=isEligibleForAutomaticLogin) _Bool eligibleForAutomaticLogin; // @synthesize eligibleForAutomaticLogin=_eligibleForAutomaticLogin;
-@property(readonly, copy, nonatomic) NSString *firstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID;
-@property(readonly, nonatomic) _Bool isSearchForm; // @synthesize isSearchForm=_isSearchForm;
-@property(readonly, nonatomic) NSString *logicalFormElementSelector; // @synthesize logicalFormElementSelector=_logicalFormElementSelector;
-@property(readonly, copy, nonatomic) NSString *oldPasswordElementUniqueID;
-@property(readonly, copy, nonatomic) NSString *passwordElementUniqueID;
-@property(readonly, nonatomic) NSString *passwordFieldValue;
-@property(copy, nonatomic) NSDictionary *passwordRequirements; // @synthesize passwordRequirements=_passwordRequirements;
 @property(copy, nonatomic) WBSFormMetadataPasswordRules *passwordRules; // @synthesize passwordRules=_passwordRules;
-@property(readonly, nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
-@property(readonly, copy, nonatomic) NSData *serializedData;
-@property(readonly, copy, nonatomic) NSString *textSample; // @synthesize textSample=_textSample;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) long long uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(readonly, nonatomic) NSArray *uniqueIDsOfPasswordControlAndRelatedControls;
-@property(readonly, copy, nonatomic) NSString *userNameElementUniqueID;
-@property(readonly, nonatomic) NSString *userNameFieldValue;
-@property(readonly, nonatomic) _Bool usesGeneratedPassword; // @synthesize usesGeneratedPassword=_usesGeneratedPassword;
-@property(readonly, nonatomic) _Bool usesRelAsync; // @synthesize usesRelAsync=_usesRelAsync;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

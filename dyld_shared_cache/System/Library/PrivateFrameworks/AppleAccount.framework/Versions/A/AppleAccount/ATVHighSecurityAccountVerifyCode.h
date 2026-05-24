@@ -14,9 +14,9 @@
 }
 
 + (Class);
+- (id)P_SetupACMContextWithBootstrapToken:(id)arg1 Error %d (0x%08x) adding ACM Credential;
 - (id);
-- (id);
-- (void)aclassesEnabledIfPossibleWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)signInFlowController:saveAccount:withAllDataclassesEnabledIfPossibleWithCompletion: /* Error: Ran out of types for this method. */;
 - (id)sFinalizeSetupMessage;
 
 @end

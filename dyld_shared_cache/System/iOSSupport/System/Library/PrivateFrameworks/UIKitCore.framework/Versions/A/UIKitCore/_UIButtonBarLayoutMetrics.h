@@ -4,48 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutDimension, NSString;
+@class NSLayoutDimension;
 
 __attribute__((visibility("hidden")))
 @interface _UIButtonBarLayoutMetrics
 {
     _Bool _locked;
-    _Bool _allowsViewWrappers;
-    NSLayoutDimension *_verticalSizeGuide;
-    NSLayoutDimension *_minimumSpaceGuide;
-    NSLayoutDimension *_flexibleSpaceGuide;
-    NSLayoutDimension *_groupSizeGuide;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_connections;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id)Ð1Â0@ù
 × ;
-- (_Bool)AppliesPreferredTrackTransform: /* Error: Ran out of types for this method. */;
-- (void)ller;
+- (_Bool)setAppliesPreferredTrackTransform: /* Error: Ran out of types for this method. */;
+- (void)_globalSearchController;
 - (id)TextRange;
 - (id);
 - (void)`|^;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsViewWrappers; // @synthesize allowsViewWrappers=_allowsViewWrappers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSLayoutDimension *flexibleSpaceGuide; // @synthesize flexibleSpaceGuide=_flexibleSpaceGuide;
-@property(retain, nonatomic) NSLayoutDimension *groupSizeGuide; // @synthesize groupSizeGuide=_groupSizeGuide;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSLayoutDimension *minimumSpaceGuide; // @synthesize minimumSpaceGuide=_minimumSpaceGuide;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSLayoutDimension *verticalSizeGuide; // @synthesize verticalSizeGuide=_verticalSizeGuide;
 
 @end

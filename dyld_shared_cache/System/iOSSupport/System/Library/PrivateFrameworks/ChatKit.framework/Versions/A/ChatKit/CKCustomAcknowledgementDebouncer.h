@@ -9,14 +9,11 @@
 @interface CKCustomAcknowledgementDebouncer
 {
     id debounceInterval;
-    id currentTasks;
-    id currentMessages;
-    void conversation;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)`D;
 - (id)1Â0@ù
 × ;
 - (void)SendMenuDismissingCollectionViewLayout;

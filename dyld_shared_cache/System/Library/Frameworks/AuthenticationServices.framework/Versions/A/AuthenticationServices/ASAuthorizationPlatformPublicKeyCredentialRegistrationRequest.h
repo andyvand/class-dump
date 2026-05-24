@@ -6,23 +6,11 @@
 
 #import <AuthenticationServices/ASAuthorizationRequest.h>
 
-@class ASAuthorizationPublicKeyCredentialLargeBlobRegistrationInput, ASAuthorizationPublicKeyCredentialPRFRegistrationInput, ASCPublicKeyCredentialCreationOptions, ASCPublicKeyCredentialRegistrationExtensionInputs, ASPublicKeyCredentialClientData, NSArray, NSData, NSString;
+@class ASAuthorizationPublicKeyCredentialLargeBlobRegistrationInput;
 
 @interface ASAuthorizationPlatformPublicKeyCredentialRegistrationRequest : ASAuthorizationRequest
 {
     struct os_unfair_lock_s _internalLock;
-    _Bool _shouldShowHybridTransport;
-    NSString *_relyingPartyIdentifier;
-    NSData *_userID;
-    NSString *_displayName;
-    NSString *_name;
-    NSData *_challenge;
-    NSString *_userVerificationPreference;
-    NSString *_attestationPreference;
-    ASPublicKeyCredentialClientData *_clientData;
-    NSArray *_excludedCredentials;
-    long long _requestStyle;
-    ASCPublicKeyCredentialRegistrationExtensionInputs *_extensions;
 }
 
 + (id);
@@ -48,12 +36,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)accessibilityDisplayShouldShowToolbarButtonShapes;
 - (id);
 - (void);
 - (id);
@@ -61,34 +49,11 @@
 - (void);
 - (id);
 - (long long);
-- (void);
-- (void)viceName:(long long)arg1 serviceType:destinationSiteForCrossSiteAssertion:cableAuthenticatorRequirement:loginChoice:securityKeyLoginChoice: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)initWithMode:(long long)arg1 serviceName:serviceType:destinationSiteForCrossSiteAssertion:cableAuthenticatorRequirement:loginChoice:securityKeyLoginChoice: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) ASAuthorizationPublicKeyCredentialLargeBlobRegistrationInput *__largeBlobSwift;
-@property(nonatomic, retain) ASAuthorizationPublicKeyCredentialPRFRegistrationInput *__prfSwift;
-@property(retain, nonatomic) NSString *attestationPreference; // @synthesize attestationPreference=_attestationPreference;
-@property(copy, nonatomic) NSData *challenge; // @synthesize challenge=_challenge;
-@property(readonly, nonatomic) ASPublicKeyCredentialClientData *clientData; // @synthesize clientData=_clientData;
-@property(readonly, nonatomic) ASCPublicKeyCredentialCreationOptions *coreCredentialCreationOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSArray *excludedCredentials; // @synthesize excludedCredentials=_excludedCredentials;
-@property(readonly, nonatomic) ASCPublicKeyCredentialRegistrationExtensionInputs *extensions; // @synthesize extensions=_extensions;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ASAuthorizationPublicKeyCredentialLargeBlobRegistrationInput *largeBlob;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) ASAuthorizationPublicKeyCredentialPRFRegistrationInput *prf;
-@property(readonly, copy, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(nonatomic) long long requestStyle; // @synthesize requestStyle=_requestStyle;
-@property(nonatomic) _Bool shouldShowHybridTransport; // @synthesize shouldShowHybridTransport=_shouldShowHybridTransport;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSData *userID; // @synthesize userID=_userID;
-@property(retain, nonatomic) NSString *userVerificationPreference; // @synthesize userVerificationPreference=_userVerificationPreference;
 
 @end
 

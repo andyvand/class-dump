@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBusinessInfoView, NSString;
+@class CKBusinessInfoView;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsBusinessInfoHeaderFooterView
@@ -17,17 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)w;
+- (void)StateView;
 
 // Remaining properties
 @property(retain, nonatomic) CKBusinessInfoView *businessInfoView; // @synthesize businessInfoView=_businessInfoView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

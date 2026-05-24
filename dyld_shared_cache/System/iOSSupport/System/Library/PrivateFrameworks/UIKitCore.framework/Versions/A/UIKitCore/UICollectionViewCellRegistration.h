@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICollectionView, UINib;
+@class UICollectionView;
 
 @interface UICollectionViewCellRegistration
 {
     Class _cellClass;
-    UINib *_cellNib;
-    CDUnknownBlockType _configurationHandler;
-    UICollectionView *__collectionViewRequestingViewWhenCreated;
-    NSString *_reuseIdentifier;
 }
 
 + (id);
 + (id);
-- (_Bool);
-- (CDUnknownBlockType);
+- (_Bool)newLibraryWithFile:error: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
 - (id);
 - (id)!ÄBùQ^1Â0@ù
 × ;
 - (id);
 - (Class)Ôáð!@ùQb°1Â0@ù
 × ;
-- (_Bool)ardActiveInputModesDidChange;
+- (_Bool)UIKeyboardActiveInputModesDidChange;
 - (id),Üh;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UICollectionView *_collectionViewRequestingViewWhenCreated; // @synthesize _collectionViewRequestingViewWhenCreated=__collectionViewRequestingViewWhenCreated;
-@property(readonly, nonatomic) Class cellClass; // @synthesize cellClass=_cellClass;
-@property(readonly, nonatomic) UINib *cellNib; // @synthesize cellNib=_cellNib;
-@property(readonly, nonatomic) CDUnknownBlockType configurationHandler; // @synthesize configurationHandler=_configurationHandler;
-@property(readonly, nonatomic) _Bool hasCellClass;
-@property(readonly, nonatomic) _Bool hasCellNib;
-@property(readonly, nonatomic) NSString *reuseIdentifier; // @synthesize reuseIdentifier=_reuseIdentifier;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface TeaUI.ContextMenu
 {
     id groups;
-    id lazyActivityItemConfiguration;
 }
 
 @end

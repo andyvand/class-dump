@@ -7,11 +7,10 @@
 @class NSData, NSDictionary, NSString;
 
 @protocol SFExecuteToolCommand
+- (NSData *)A3;
+- (NSDictionary *)(!`;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *toolIdentifier;
-@property(copy, nonatomic) NSData *toolInvocationData;
 @end
 

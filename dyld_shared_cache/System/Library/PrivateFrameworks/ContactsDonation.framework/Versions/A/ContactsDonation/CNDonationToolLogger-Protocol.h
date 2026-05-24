@@ -5,5 +5,6 @@
 //
 
 @protocol CNDonationToolLogger
+- (void)CaptureEnabled;
 @end
 

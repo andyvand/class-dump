@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface _DPPreambleRandomizer
 {
     NSDictionary *_plistParameters;
-    double _maxCentralEpsilon;
 }
 
 + (id);
@@ -22,18 +21,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)performSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double maxCentralEpsilon; // @synthesize maxCentralEpsilon=_maxCentralEpsilon;
-@property(readonly, nonatomic) NSDictionary *plistParameters; // @synthesize plistParameters=_plistParameters;
-@property(readonly) Class superclass;
 
 @end
 

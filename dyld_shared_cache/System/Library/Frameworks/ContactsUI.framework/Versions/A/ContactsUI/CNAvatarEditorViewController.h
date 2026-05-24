@@ -4,63 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarPickerViewController, CNMutableContact, CNPhotoLikenessEditorViewController, NSViewController;
+@class NSViewController;
 @protocol CNAvatarEditorDelegate;
 
 @interface CNAvatarEditorViewController
 {
     id <CNAvatarEditorDelegate> _delegate;
-    NSViewController *_activeViewController;
-    CNPhotoLikenessEditorViewController *_photoLikenessEditor;
-    CNAvatarPickerViewController *_avatarPickerViewController;
-    CNMutableContact *_editorContact;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool)T;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)" ) ;
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)R;
 - (void);
-- (_Bool);
-- (id);
 - (void);
+- (void);
+- (void);
+- (id)confirmed;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)_cn_containsSubstring: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
 @property __weak NSViewController *activeViewController; // @synthesize activeViewController=_activeViewController;
-@property(retain, nonatomic) CNAvatarPickerViewController *avatarPickerViewController; // @synthesize avatarPickerViewController=_avatarPickerViewController;
-@property __weak id <CNAvatarEditorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) CNMutableContact *editorContact; // @synthesize editorContact=_editorContact;
-@property(retain) CNPhotoLikenessEditorViewController *photoLikenessEditor; // @synthesize photoLikenessEditor=_photoLikenessEditor;
 
 @end
 

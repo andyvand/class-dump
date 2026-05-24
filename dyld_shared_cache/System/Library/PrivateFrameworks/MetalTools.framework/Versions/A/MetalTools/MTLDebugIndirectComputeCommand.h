@@ -7,29 +7,25 @@
 #import <MetalTools/MTLToolsIndirectComputeCommand.h>
 
 @class MTLIndirectCommandBufferDescriptor;
-@protocol MTLIndirectCommandBuffer, MTLIndirectCommandBufferSPI;
 
 @interface MTLDebugIndirectComputeCommand : MTLToolsIndirectComputeCommand
 {
     MTLIndirectCommandBufferDescriptor *_desc;
-    unsigned long long _index;
-    id <MTLIndirectCommandBufferSPI> _iCB;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (void);
+- (id);
+- (void);
+- (void);
+- (unsigned long long) ;
 
 // Remaining properties
 @property(readonly) unsigned long long index;
-@property(readonly) id <MTLIndirectCommandBuffer> indirectCommandBuffer;
 
 @end
 

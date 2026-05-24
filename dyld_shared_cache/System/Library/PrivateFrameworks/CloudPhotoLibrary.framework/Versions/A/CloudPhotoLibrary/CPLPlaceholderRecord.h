@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLScopedIdentifier, NSString;
-
 @interface CPLPlaceholderRecord
 {
     Class _recordClass;
-    CPLScopedIdentifier *_scopedIdentifier;
-    Class _relatedRecordClass;
-    NSString *_relatedIdentifier;
 }
 
 - (id);
+- (id);
+- (id);
+- (Class);
 - (id);
 - (id);
 - (Class);
 - (id);
 - (id);
-- (Class);
 - (id);
-- (id)ñ@;
-- (id);
-- (id);
+- (id)r;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) Class recordClass; // @synthesize recordClass=_recordClass;
-@property(readonly, nonatomic) NSString *relatedIdentifier; // @synthesize relatedIdentifier=_relatedIdentifier;
-@property(readonly, nonatomic) Class relatedRecordClass; // @synthesize relatedRecordClass=_relatedRecordClass;
-@property(readonly, nonatomic) CPLScopedIdentifier *relatedScopedIdentifier;
-@property(readonly, nonatomic) CPLScopedIdentifier *scopedIdentifier; // @synthesize scopedIdentifier=_scopedIdentifier;
 
 @end
 

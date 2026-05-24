@@ -11,8 +11,6 @@
 @interface PXActionGroup : PXAction
 {
     NSString *actionNameLocalizationKey;
-    NSString *localizedActionName;
-    NSArray *_actions;
 }
 
 - (void);
@@ -28,12 +26,10 @@
 - (id);
 - (void);
 - (id);
-- (void)showContentViewModel;
+- (void)PhotosPreviewHeaderSlideshowContentViewModel;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionNameLocalizationKey; // @synthesize actionNameLocalizationKey;
 @property(readonly, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) NSString *localizedActionName; // @synthesize localizedActionName;
 
 @end
 

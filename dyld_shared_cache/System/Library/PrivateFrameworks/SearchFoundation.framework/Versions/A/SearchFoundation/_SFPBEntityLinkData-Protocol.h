@@ -7,9 +7,10 @@
 @class NSData, _SFPBCommand;
 
 @protocol _SFPBEntityLinkData
+- (NSData *),R,C,N,V_videoComposition;
+- (id)1;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBCommand *command;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

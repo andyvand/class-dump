@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, TranscriptStyleController;
+@class TranscriptStyleController;
 
 @interface BuddyCSSProvider
 {
     unsigned int _iconSize;
-    TranscriptStyleController *_styleController;
-    NSMutableSet *_visibleIMHandles;
 }
 
 - (id);
-- (void);
+- (void))&;
 - (void);
 - (void);
 - (void);
@@ -24,14 +22,12 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void)elegateTypeP;
 - (void);
 - (void)ation",R,N;
 
 // Remaining properties
-@property(nonatomic, setter=setIconSize:) unsigned int iconSize; // @synthesize iconSize=_iconSize;
 @property(nonatomic) TranscriptStyleController *styleController; // @synthesize styleController=_styleController;
-@property(readonly, nonatomic) NSMutableSet *visibleIMHandles; // @synthesize visibleIMHandles=_visibleIMHandles;
 
 @end
 

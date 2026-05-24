@@ -16,7 +16,7 @@
 + (const CDStruct_3a02d5a8 *);
 + (_Bool);
 - (id);
-- (id);
+- (id)I9;
 - (_Bool);
 - (id);
 - (_Bool);

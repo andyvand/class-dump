@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessCodeUserInformation, HMAccessCodeValue, NSArray, NSString;
+@class HMAccessCodeValue;
 
 @interface HMHomeAccessCode
 {
     HMAccessCodeValue *_accessCodeValue;
-    HMAccessCodeUserInformation *_userInformation;
 }
 
 + (id);
@@ -17,33 +16,15 @@
 - (id);
 - (id);
 - (id);
+- (id)discardUnsupportedLimitedLibraryChangeRequests;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)bacon;
 - (id);
 - (void)he;
 
 // Remaining properties
 @property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly) HMAccessCodeUserInformation *userInformation; // @synthesize userInformation=_userInformation;
 
 @end
 

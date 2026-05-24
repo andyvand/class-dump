@@ -12,11 +12,11 @@
 {
 }
 
+- (void)#;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -24,15 +24,7 @@
 - (void)respondence:(long long)arg1;
 
 // Remaining properties
-@property(copy) NSString *cnContactFullname; // @dynamic cnContactFullname;
-@property(copy) NSString *cnContactIdentifier; // @dynamic cnContactIdentifier;
-@property(getter=isCNContactIdentifierSuggested) _Bool cnContactIdentifierSuggested; // @dynamic cnContactIdentifierSuggested;
-@property(copy) NSString *customIdentifier; // @dynamic customIdentifier;
-@property(copy) NSString *displayName; // @dynamic displayName;
-@property(getter=isDisplayNameSuggested) _Bool displayNameSuggested; // @dynamic displayNameSuggested;
 @property(copy) NSString *handle; // @dynamic handle;
-@property long long handleType; // @dynamic handleType;
-@property(copy) NSString *serviceName; // @dynamic serviceName;
 
 @end
 

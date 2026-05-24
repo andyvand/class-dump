@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableArray, UIFocusAnimationCoordinator;
+@class NSHashTable, UIFocusAnimationCoordinator;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusAnimationCoordinatorManager
 {
     UIFocusAnimationCoordinator *_activeFocusAnimationCoordinator;
-    NSHashTable *_unfocusingItems;
-    double _lastFocusUpdateTime;
-    UIFocusAnimationCoordinator *_lastFocusingItemAnimationCoordinator;
-    NSMutableArray *_inheritedAnimationCoordinatorActiveAnimationStack;
 }
 
 + (id);
@@ -22,24 +18,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)44@0:(id)arg1 8@16@24S32q36;
+- (id)metricAttachmentsToPurge:withActivity: /* Error: Ran out of types for this method. */;
+- (double)Code: /* Error: Ran out of types for this method. */;
+- (id)defuseSatelliteSMSTextMessageDictionary:error: /* Error: Ran out of types for this method. */;
+- (void)_participantChangeGUIDs;
+- (void)_messageDictionaryToRelayWithIncomingMessageDictionary:(id)arg1 smsMessage: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)d Size to tiny size %@;
+- (id)_SMSServiceRelayToWatchOnly;
 - (id);
 - (id);
 - (void)§\;
 
 // Remaining properties
-@property(retain, nonatomic) UIFocusAnimationCoordinator *activeFocusAnimationCoordinator; // @synthesize activeFocusAnimationCoordinator=_activeFocusAnimationCoordinator;
-@property(retain, nonatomic) NSMutableArray *inheritedAnimationCoordinatorActiveAnimationStack; // @synthesize inheritedAnimationCoordinatorActiveAnimationStack=_inheritedAnimationCoordinatorActiveAnimationStack;
-@property(nonatomic) double lastFocusUpdateTime; // @synthesize lastFocusUpdateTime=_lastFocusUpdateTime;
-@property(retain, nonatomic) UIFocusAnimationCoordinator *lastFocusingItemAnimationCoordinator; // @synthesize lastFocusingItemAnimationCoordinator=_lastFocusingItemAnimationCoordinator;
 @property(readonly, nonatomic) NSHashTable *unfocusingItems; // @synthesize unfocusingItems=_unfocusingItems;
 
 @end

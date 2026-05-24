@@ -11,16 +11,16 @@
 @interface NWStatisticsRouteSource : NWStatisticsSource
 {
     struct nstat_route_descriptor _descriptor;
-    NSData *_destination;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)mpute tangent, face normal will be computed first.
+;
+- (id)ingErrors;
+- (id);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(retain) NSData *destination; // @synthesize destination=_destination;

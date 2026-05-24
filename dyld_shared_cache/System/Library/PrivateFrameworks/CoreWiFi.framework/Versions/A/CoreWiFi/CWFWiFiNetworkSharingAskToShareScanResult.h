@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CWFWiFiNetworkSharingAskToShareScanResult
 {
     _Bool _isConnected;
-    _Bool _wasFoundOnAccessory;
-    _Bool _isConnectedOnAccessory;
-    NSData *_SSID;
-    double _signalStrength;
-    double _signalStrengthOnAccessory;
 }
 
 + (_Bool);
@@ -25,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -33,20 +28,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)ontroller;
 - (_Bool);
 - (id);
 - (void)sInclude6GHzPSCChannels;
 - (void)-f45c89abb0d9;
 
 // Remaining properties
-@property(copy) NSData *SSID; // @synthesize SSID=_SSID;
-@property _Bool isConnected; // @synthesize isConnected=_isConnected;
-@property _Bool isConnectedOnAccessory; // @synthesize isConnectedOnAccessory=_isConnectedOnAccessory;
 @property(readonly) NSString *networkName;
-@property double signalStrength; // @synthesize signalStrength=_signalStrength;
-@property double signalStrengthOnAccessory; // @synthesize signalStrengthOnAccessory=_signalStrengthOnAccessory;
-@property _Bool wasFoundOnAccessory; // @synthesize wasFoundOnAccessory=_wasFoundOnAccessory;
 
 @end
 

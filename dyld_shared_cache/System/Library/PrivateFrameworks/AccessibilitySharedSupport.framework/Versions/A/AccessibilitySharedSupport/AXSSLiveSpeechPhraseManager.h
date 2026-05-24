@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol AXSSLiveSpeechPhraseManagerDelegate;
 
 @interface AXSSLiveSpeechPhraseManager
 {
     id <AXSSLiveSpeechPhraseManagerDelegate> _delegate;
-    id _favoritePhraseObserverToken;
 }
 
 - (void);
@@ -23,13 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void),R,C;
 
 // Remaining properties
-@property(nonatomic) __weak id <AXSSLiveSpeechPhraseManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) id favoritePhraseObserverToken; // @synthesize favoritePhraseObserverToken=_favoritePhraseObserverToken;
-@property(retain, nonatomic) NSArray *savedPhrases;
 
 @end
 

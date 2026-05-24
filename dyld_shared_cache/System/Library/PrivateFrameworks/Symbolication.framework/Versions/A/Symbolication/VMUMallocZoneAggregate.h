@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMapTable, NSString, VMUHeapAndVMAggregatorOptions;
+@class VMUHeapAndVMAggregatorOptions;
 
 @interface VMUMallocZoneAggregate
 {
     VMUHeapAndVMAggregatorOptions *_heapAndVMOptions;
-    NSString *_zoneName;
-    unsigned long long _virtualSize;
-    unsigned long long _allocatedSize;
-    unsigned int _blockCount;
-    NSCountedSet *_quantaCounter;
-    NSMapTable *_classInfoToClassCountDataMap;
-    NSMapTable *_binaryNameToBinaryCountDataMap;
 }
 
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ԁ;
 - (void);
 - (void);
 - (void);
@@ -36,8 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allocatedSize; // @synthesize allocatedSize=_allocatedSize;
-@property(readonly, nonatomic) unsigned int blockCount; // @synthesize blockCount=_blockCount;
 @property(readonly, nonatomic) unsigned long long virtualSize; // @synthesize virtualSize=_virtualSize;
 
 @end

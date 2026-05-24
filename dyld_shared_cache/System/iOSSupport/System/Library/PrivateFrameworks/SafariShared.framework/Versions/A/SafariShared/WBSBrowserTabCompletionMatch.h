@@ -6,16 +6,9 @@
 
 #import <SafariShared/WBSTabCompletionMatch.h>
 
-@class NSString, NSUUID;
-
 @interface WBSBrowserTabCompletionMatch : WBSTabCompletionMatch
 {
     _Bool _highlyRelevant;
-    NSUUID *_tabUUID;
-    NSUUID *_tabGroupUUID;
-    NSString *_tabGroupTitle;
-    NSUUID *_windowUUID;
-    unsigned long long _tabIndex;
 }
 
 - (id);
@@ -26,19 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)itionController";
 - (id);
 - (id);
 - (void)¼;
 
 // Remaining properties
 @property(nonatomic, getter=isHighlyRelevant) _Bool highlyRelevant; // @synthesize highlyRelevant=_highlyRelevant;
-@property(readonly, nonatomic, getter=isLessRelevant) _Bool lessRelevant;
-@property(readonly, copy, nonatomic) NSString *tabGroupTitle; // @synthesize tabGroupTitle=_tabGroupTitle;
-@property(readonly, nonatomic) NSUUID *tabGroupUUID; // @synthesize tabGroupUUID=_tabGroupUUID;
-@property(readonly, nonatomic) unsigned long long tabIndex; // @synthesize tabIndex=_tabIndex;
-@property(readonly, nonatomic) NSUUID *tabUUID; // @synthesize tabUUID=_tabUUID;
-@property(readonly, nonatomic) NSUUID *windowUUID; // @synthesize windowUUID=_windowUUID;
 
 @end
 

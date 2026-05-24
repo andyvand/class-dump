@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSObject, NSSet;
+@class NSArray, NSObject;
 
 @interface REMChangedKeysObserver
 {
     NSObject *_target;
-    NSArray *_keysToObserve;
-    NSMutableSet *_mutableChangedKeys;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (void)ëÐ!äGùs Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *changedKeys;
 @property(retain, nonatomic) NSArray *keysToObserve; // @synthesize keysToObserve=_keysToObserve;
-@property(retain, nonatomic) NSMutableSet *mutableChangedKeys; // @synthesize mutableChangedKeys=_mutableChangedKeys;
-@property(readonly, nonatomic) NSObject *target; // @synthesize target=_target;
 
 @end
 

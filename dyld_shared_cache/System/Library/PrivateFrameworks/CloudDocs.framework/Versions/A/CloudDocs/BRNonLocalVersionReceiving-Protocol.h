@@ -5,5 +5,6 @@
 //
 
 @protocol BRNonLocalVersionReceiving
+- (oneway void);
 @end
 

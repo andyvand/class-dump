@@ -13,7 +13,7 @@
     NSURL *_url;
 }
 
-- (id);
+- (id)computeSimilarityOfFirstImage:(id)arg1 with:(id)arg2 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

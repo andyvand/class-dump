@@ -6,35 +6,22 @@
 
 #import <AppKit/NSView.h>
 
-@class NSFormatter, NSScrubber, NSString, _NSStepperModel;
-
 __attribute__((visibility("hidden")))
 @interface _NSStepperTouchBarItemView : NSView
 {
     long long _numberOfStepperItems;
-    _NSStepperModel *_stepperModel;
-    NSScrubber *_scrubber;
-    long long _selectedIndexAtStartOfScroll;
-    id _originalScrollViewTarget;
-    SEL _originalScrollViewAction;
-    id _target;
-    SEL _action;
-    double _increment;
-    long long _mode;
-    NSFormatter *_formatter;
-    CDUnknownBlockType _drawingHandler;
 }
 
 - (void);
-- (void);
-- (id);
-- (void);
-- (long long);
+- (void)roperty(IODeviceTree:(CDUnknownBlockType)arg1 /product %@);
+- (id)n NULL and publicKeyLsignatureLengthength must be non 0;
+- (void)licKeyLength must be non 0;
+- (long long)UZyrJHlX635ocWEjBkt9YA;
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)owner;
 - (double);
-- (void);
+- (void)initInNSMemoryHTTPCookie2Storage;
 - (double);
 - (id);
 - (void);
@@ -48,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id)d"b21};
-- (double)rsor;
+- (double)_topRightResizeCursor;
 - (double);
 - (SEL)ÿÿ;
 - (void)HWÿÿ;
@@ -58,22 +45,7 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType drawingHandler; // @synthesize drawingHandler=_drawingHandler;
-@property(retain) NSFormatter *formatter; // @synthesize formatter=_formatter;
 @property(readonly) unsigned long long hash;
-@property double increment; // @synthesize increment=_increment;
-@property double maxValue;
-@property double minValue;
-@property long long mode; // @synthesize mode=_mode;
-@property(readonly) Class superclass;
-@property __weak id target; // @synthesize target=_target;
-@property double value;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface FCBundleEntitlementsProviderResult
 {
     _Bool _inTrialPeriod;
-    _Bool _isPurchaser;
-    _Bool _isAmplifyUser;
-    NSString *_bundlePurchaseID;
-    NSString *_servicesBundlePurchaseID;
-    NSString *_vendorAdHocOfferID;
-    NSNumber *_initialPurchaseTimestamp;
 }
 
 - (id);
@@ -26,16 +20,10 @@
 - (id);
 - (id);
 - (void)bs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCObservable.m;
-- (_Bool)WHXa4uozS56byn3tXiPvWQ;
+- (_Bool)TWHXa4uozS56byn3tXiPvWQ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundlePurchaseID; // @synthesize bundlePurchaseID=_bundlePurchaseID;
-@property(readonly, nonatomic) _Bool inTrialPeriod; // @synthesize inTrialPeriod=_inTrialPeriod;
-@property(readonly, nonatomic) NSNumber *initialPurchaseTimestamp; // @synthesize initialPurchaseTimestamp=_initialPurchaseTimestamp;
-@property(readonly, nonatomic) _Bool isAmplifyUser; // @synthesize isAmplifyUser=_isAmplifyUser;
-@property(readonly, nonatomic) _Bool isPurchaser; // @synthesize isPurchaser=_isPurchaser;
-@property(readonly, nonatomic) NSString *servicesBundlePurchaseID; // @synthesize servicesBundlePurchaseID=_servicesBundlePurchaseID;
-@property(readonly, nonatomic) NSString *vendorAdHocOfferID; // @synthesize vendorAdHocOfferID=_vendorAdHocOfferID;
 
 @end
 

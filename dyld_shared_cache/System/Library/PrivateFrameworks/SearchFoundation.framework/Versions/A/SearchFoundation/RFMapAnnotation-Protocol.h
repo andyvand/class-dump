@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFMapPoint, RFTextProperty, RFVisualProperty, SFLatLng;
+@class NSDictionary, RFMapPoint, SFLatLng;
 
 @protocol RFMapAnnotation
+- (SFLatLng *);
+- (NSDictionary *)	ja;
 - (RFMapPoint *):8@16 /* Error: Ran out of types for this method. */;
 - (void)=;
 
 // Remaining properties
-@property(retain, nonatomic) RFMapPoint *anchor;
-@property(retain, nonatomic) RFVisualProperty *content;
 @property(retain, nonatomic) SFLatLng *coordinate;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFTextProperty *label;
-@property(copy, nonatomic) NSString *title;
 @end
 

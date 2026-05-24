@@ -6,34 +6,21 @@
 
 #import <SampleAnalysis/SACallTreeNode.h>
 
-@class NSArray, NSMutableArray, NSString, SAFrame;
-
 @interface SACallTreeFrame : SACallTreeNode
 {
     _Bool _isLeafFrame;
-    SAFrame *_frame;
-    NSMutableArray *_children;
 }
 
-+ (id);
++ (id)}};
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *childFrames;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) SAFrame *frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
 @property(readonly) _Bool isTruncatedLeafCallstack;
-@property(readonly) Class superclass;
 
 @end
 

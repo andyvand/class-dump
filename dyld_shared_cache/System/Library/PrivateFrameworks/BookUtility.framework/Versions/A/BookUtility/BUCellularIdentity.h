@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BUCellularIdentity
 {
     _Bool _roaming;
-    NSString *_defaultsKey;
-    NSString *_simIdentity;
 }
 
 + (id);
@@ -25,9 +21,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *defaultsKey; // @synthesize defaultsKey=_defaultsKey;
 @property(nonatomic, getter=isRoaming) _Bool roaming; // @synthesize roaming=_roaming;
-@property(readonly, nonatomic) NSString *simIdentity; // @synthesize simIdentity=_simIdentity;
 
 @end
 

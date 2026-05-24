@@ -12,18 +12,16 @@ __attribute__((visibility("hidden")))
 @interface NSDocumentRevisionsWindowTransformAnimationGroup : NSAnimation
 {
     NSArray *_animations;
-    _Bool _resizesWindow;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
-- (void);
+- (void);
 - (CDUnknownBlockType)
 × ;
 - (void)tObject) returned %ld;
 - (void)ctangle;
 - (id)utedString *, NSMutableAttributedString **, ThemeDrawState, BOOL);
-- (void)fication;
+- (void)NSMouseDraggedNotification;
 - (void)0;
 
 // Remaining properties

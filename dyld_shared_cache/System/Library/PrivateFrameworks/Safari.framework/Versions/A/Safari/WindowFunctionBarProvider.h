@@ -4,49 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTouchBarScrubber, AccordionHostViewController, ButtonFunctionBarItem, FavoritesPickerFunctionBarProvider, MediaPlaybackControlsHostViewController, NSButton, NSCustomTouchBarItem, NSGroupTouchBarItem, NSMutableArray, NSString, NSTouchBar, NSWindow, PopoverTouchBarItemPlus, UnifiedFieldButtonHostViewController, VisualScrubberViewController;
-@protocol WindowFunctionBarProviderDataSource, WindowFunctionBarProviderDelegate;
+@class NSWindow, VisualScrubberViewController;
 
 __attribute__((visibility("hidden")))
 @interface WindowFunctionBarProvider
 {
     VisualScrubberViewController *_visualTabScrubbingViewController;
-    NSButton *_focusUnifiedFieldPopoverButton;
-    NSButton *_openNewTabButton;
-    AccordionHostViewController *_combinedAccordionHostViewController;
-    MediaPlaybackControlsHostViewController *_mediaPlaybackControlsViewController;
-    UnifiedFieldButtonHostViewController *_unifiedFieldButtonHostViewController;
-    AccordionHostViewController *_accordionHostViewControllerForCustomization;
-    PopoverTouchBarItemPlus *_combinedTabScrubberItem;
-    NSGroupTouchBarItem *_mirroredGroupBarItem;
-    NSCustomTouchBarItem *_backForwardButtonBarItem;
-    ButtonFunctionBarItem *_readerButtonBarItem;
-    ButtonFunctionBarItem *_newTabButtonBarItem;
-    ButtonFunctionBarItem *_addBookmarkButtonBarItem;
-    ButtonFunctionBarItem *_shareMenuButtonBarItem;
-    ButtonFunctionBarItem *_visualTabPickerButtonBarItem;
-    ButtonFunctionBarItem *_homeButtonBarItem;
-    ButtonFunctionBarItem *_toggleHistoryButtonBarItem;
-    ButtonFunctionBarItem *_sidebarButtonBarItem;
-    ButtonFunctionBarItem *_favoritesBarButtonBarItem;
-    ButtonFunctionBarItem *_autoFillButtonBarItem;
-    ButtonFunctionBarItem *_webInspectorButtonBarItem;
-    FavoritesPickerFunctionBarProvider *_favoritesPickerFunctionBarProvider;
-    _Bool _favoritesPickerAvailable;
-    _Bool _ignoreNextFunctionBarDidHideNotificationForFavoritesPicker;
-    _Bool _isInteractingWithTabScrubber;
-    _Bool _ignoreMediaControlsExpandedOrCollapsed;
-    _Bool _isInsertingMediaPlaybackControls;
-    _Bool _deferAccordionUpdatesUntilTabUpdatesFinish;
-    NSMutableArray *_deferredAccordionUpdates;
-    _Bool _isCustomizingFunctionBar;
-    unsigned long long _tabScrubberCountBeforeBatchTabInsertion;
-    _Bool _readerActive;
-    NSTouchBar *_functionBar;
-    NSWindow *_window;
-    id <WindowFunctionBarProviderDataSource> _dataSource;
-    id <WindowFunctionBarProviderDelegate> _delegate;
-    unsigned long long _selectedTabIndex;
 }
 
 - (void);
@@ -57,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,16 +43,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -108,36 +71,36 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
 - (void);
+- (id);
+- (id);
+- (id)ting task to download from remote path:%s /* Error: Ran out of types for this method. */;
+- (void)or %s;
+- (void);
+- (void);
+- (void)�;
 - (void)&(Ì(;
 - (void)X;
 - (void);
@@ -145,19 +108,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) __weak id <WindowFunctionBarProviderDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WindowFunctionBarProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak AVTouchBarScrubber *mediaPlaybackControlsView;
-@property(nonatomic, getter=isReaderActive) _Bool readerActive; // @synthesize readerActive=_readerActive;
-@property(nonatomic) unsigned long long selectedTabIndex; // @synthesize selectedTabIndex=_selectedTabIndex;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar; // @synthesize touchBar=_functionBar;
 @property(nonatomic) __weak NSWindow *window; // @synthesize window=_window;
 
 @end

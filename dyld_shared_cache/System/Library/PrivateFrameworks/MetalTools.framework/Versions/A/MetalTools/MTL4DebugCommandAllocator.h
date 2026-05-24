@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentGeneration; // @synthesize currentGeneration=_currentGeneration;

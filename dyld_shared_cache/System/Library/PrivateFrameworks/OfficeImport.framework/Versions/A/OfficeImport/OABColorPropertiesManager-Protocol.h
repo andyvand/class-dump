@@ -5,5 +5,6 @@
 //
 
 @protocol OABColorPropertiesManager
+- (_Bool);
 @end
 

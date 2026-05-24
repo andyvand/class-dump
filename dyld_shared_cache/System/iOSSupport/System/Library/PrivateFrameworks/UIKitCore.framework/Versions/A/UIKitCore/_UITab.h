@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UITab.h>
 
-@class NSString, _UITabElementGroup;
+@class _UITabElementGroup;
 
 @interface _UITab : UITab
 {
@@ -15,13 +15,13 @@
 }
 
 - (void);
-- (long long);
-- (void);
-- (void);
+- (long long)fetchCuratedAssetsInAssetCollection:options: /* Error: Ran out of types for this method. */;
+- (void)_validatePersonalStatusSubscriptionMatchesSubscriptionValidationToken:(long long)arg1 encryptionValidationToken:fromSender:completion: /* Error: Ran out of types for this method. */;
+- (void)_convertDeletedPartsDict:(_Bool)arg1 toIndexSet:toMap: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)d scheduled message %@ with scheduleState %@;
 - (_Bool);
 - (void);
 - (id);
@@ -33,13 +33,7 @@
 - (long long)£^;
 
 // Remaining properties
-@property(nonatomic, setter=_setAllowsHiding:) _Bool _allowsHiding;
-@property(nonatomic, setter=_setAttributes:) long long _attributes; // @synthesize _attributes=__attributes;
-@property(copy, nonatomic, setter=_setBadgeValue:) NSString *_badgeValue;
-@property(readonly, nonatomic) NSString *_identifier;
 @property(nonatomic) __weak _UITabElementGroup *_parent; // @synthesize _parent=__parent;
-@property(nonatomic, setter=_setTabBarPlacement:) long long _tabBarPlacement;
-@property(nonatomic, getter=_isVisible, setter=_setVisible:) _Bool _visible;
 
 @end
 

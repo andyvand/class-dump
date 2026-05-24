@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI, NSData, NSString;
+@class NSData, NSString;
 
 @interface IDSOffGridMessage
 {
     NSData *_message;
-    IDSURI *_senderURI;
-    IDSURI *_recipientURI;
-    NSString *_service;
 }
 
 + (_Bool);
@@ -30,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *message; // @synthesize message=_message;
-@property(readonly, nonatomic) IDSURI *recipientURI; // @synthesize recipientURI=_recipientURI;
-@property(retain, nonatomic) IDSURI *senderURI; // @synthesize senderURI=_senderURI;
 @property(retain, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end

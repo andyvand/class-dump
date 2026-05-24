@@ -9,27 +9,25 @@
 @interface PHAPrivateFederatedLearningModelValidator
 {
     NSURL *_espressoModelURL;
-    NSURL *_espressoModelShapeURL;
 }
 
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (_Bool);
-- (void)flationContext:photoLibrary: /* Error: Ran out of types for this method. */;
+- (void)cacheMusicAudioAndArtworkForEnrichedMemories:inflationContext:photoLibrary: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *espressoModelShapeURL; // @synthesize espressoModelShapeURL=_espressoModelShapeURL;
 @property(readonly, nonatomic) NSURL *espressoModelURL; // @synthesize espressoModelURL=_espressoModelURL;
 
 @end

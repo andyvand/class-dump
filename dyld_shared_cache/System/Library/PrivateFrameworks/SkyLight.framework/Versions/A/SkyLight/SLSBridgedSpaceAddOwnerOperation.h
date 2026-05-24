@@ -9,19 +9,17 @@
 @interface SLSBridgedSpaceAddOwnerOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     int _owner;
-    unsigned long long _spaceID;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)ON) VALUES (999);
+- (id)leDictionary"8;
 - (unsigned long long);
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly) int owner; // @synthesize owner=_owner;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

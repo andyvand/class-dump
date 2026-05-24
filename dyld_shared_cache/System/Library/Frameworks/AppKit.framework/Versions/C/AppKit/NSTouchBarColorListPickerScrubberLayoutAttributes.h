@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarColorListPickerScrubberLayoutAttributes : NSScrubberLayoutAttributes
 {
     _Bool _isLeftmostItem;
-    _Bool _isRightmostItem;
 }
 
 - (void);
@@ -19,11 +18,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)SiblingWindow:(struct _NSZone *)arg1 position:responseHandler: /* Error: Ran out of types for this method. */;
+- (id)addSiblingWindow:(struct _NSZone *)arg1 position:responseHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool isLeftmostItem; // @synthesize isLeftmostItem=_isLeftmostItem;
-@property _Bool isRightmostItem; // @synthesize isRightmostItem=_isRightmostItem;
 
 @end
 

@@ -7,7 +7,7 @@
 @class NSProgress;
 
 @protocol NSProgressReporting
-- (NSProgress *)liaryView;
+- (NSProgress *)auxiliaryView;
 
 // Remaining properties
 @property(readonly) NSProgress *progress;

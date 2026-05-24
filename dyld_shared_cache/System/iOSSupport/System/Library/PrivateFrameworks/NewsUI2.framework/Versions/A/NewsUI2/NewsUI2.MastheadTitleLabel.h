@@ -9,10 +9,9 @@
 @interface NewsUI2.MastheadTitleLabel
 {
     id model;
-    id cachedAccessibilityLabel;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

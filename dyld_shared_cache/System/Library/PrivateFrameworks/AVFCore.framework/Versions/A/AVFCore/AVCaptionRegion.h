@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptionLength, AVCaptionPosition, AVCaptionRegionInternal, NSString;
+@class AVCaptionRegionInternal;
 
 @interface AVCaptionRegion
 {
@@ -28,7 +28,7 @@
 - (id);
 - (long long);
 - (int);
-- (int);
+- (int)D;
 - (int);
 - (void);
 - (void);
@@ -39,37 +39,27 @@
 - (void);
 - (_Bool);
 - (struct OpaqueFigCaptionRegion *);
+- (id)i;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)a;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (struct AVCaptionSize);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (struct AVCaptionPoint);
+- (struct AVCaptionPoint)<LAKeyStoreGenericPassword>"8Q16^B24;
 - (id);
 - (void)'îÿ©II±=;
 
 // Remaining properties
 @property(readonly, nonatomic) struct OpaqueFigCaptionRegion *_figCaptionRegion;
-@property(nonatomic, setter=_setPredefinedRegionPositionShouldBeNil:) _Bool _predefinedRegionPositionShouldBeNil;
-@property(readonly, nonatomic) long long displayAlignment;
-@property(readonly, nonatomic) AVCaptionPosition *endPosition;
-@property(readonly, nonatomic) AVCaptionLength *height;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) struct AVCaptionPoint origin;
-@property(readonly, nonatomic) AVCaptionPosition *position;
-@property(readonly, nonatomic) long long scroll;
-@property(readonly, nonatomic) struct AVCaptionSize size;
-@property(readonly, nonatomic) long long writingMode;
 
 @end
 

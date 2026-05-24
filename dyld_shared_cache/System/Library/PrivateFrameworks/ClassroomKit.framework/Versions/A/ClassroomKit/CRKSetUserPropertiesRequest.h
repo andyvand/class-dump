@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSData, NSNumber, NSString;
+@class NSString;
 
 @interface CRKSetUserPropertiesRequest
 {
     NSString *_userIdentifier;
-    DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_displayName;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSString *_phoneticGivenName;
-    NSString *_phoneticFamilyName;
-    NSString *_userSource;
-    NSData *_imageData;
-    NSNumber *_useMeCardIfAvailable;
 }
 
 + (_Bool);
@@ -37,26 +28,17 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (id)updateDerivedMeAll:group:order:aliasName:fullName:nameTokens:givenNameTokens:nonGivenNameTokens:emails:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id)tWithProperties:requirements: /* Error: Ran out of types for this method. */;
+- (id)initWithProperties:requirements: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(copy, nonatomic) NSString *phoneticFamilyName; // @synthesize phoneticFamilyName=_phoneticFamilyName;
-@property(copy, nonatomic) NSString *phoneticGivenName; // @synthesize phoneticGivenName=_phoneticGivenName;
-@property(retain, nonatomic) NSNumber *useMeCardIfAvailable; // @synthesize useMeCardIfAvailable=_useMeCardIfAvailable;
 @property(copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(copy, nonatomic) NSString *userSource; // @synthesize userSource=_userSource;
 
 @end
 

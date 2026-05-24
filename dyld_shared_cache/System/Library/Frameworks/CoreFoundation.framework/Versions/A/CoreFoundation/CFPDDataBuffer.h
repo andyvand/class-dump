@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)o OSType tags.;
 + (id);
 + (id)eDesigniPadMiniRotatedSideApp.pdf;
 - (unsigned long long);
@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (struct __CFData *);
-- (_Bool);
+- (_Bool)signal %{public}d to %{public}d;
 - (void);
 
 @end

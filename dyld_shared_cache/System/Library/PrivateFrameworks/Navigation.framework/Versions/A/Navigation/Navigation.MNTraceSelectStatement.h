@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)oupContent;
 - (id);
 - (double);
 - (void)Að!4Fù1Ð1Â0@ù

@@ -11,7 +11,7 @@
     float _playbackRate;
 }
 
-- (id);
+- (id)viewStmt;
 - (float);
 
 // Remaining properties

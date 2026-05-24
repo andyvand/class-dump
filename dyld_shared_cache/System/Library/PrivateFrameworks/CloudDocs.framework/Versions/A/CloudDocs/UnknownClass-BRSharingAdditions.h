@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (BRSharingAdditions)
-- (_Bool);
+- (_Bool)rii8;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool br_isCloudDocsShare;

@@ -6,44 +6,35 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGError;
-
 @interface RGSiriSchemaRGCacheManagerCallFailed : SISchemaInstrumentationMessage
 {
     int _fatalError;
-    RGSiriSchemaRGError *_error;
-    CDStruct_bed9e062 _has;
-    _Bool _hasError;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (void);
 - (void);
+- (id)M0;
 - (id);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)@;
+- (unsigned long long)Unimplemented at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAppCapabilityMetadata_macOS.m:17 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)o the attachment table.;
+- (_Bool)imestamp) VALUES (?, ?, ?);;
 - (void);
 - (id);
 - (id);
-- (id)ConnectedBtDevices:(id)arg1;
+- (id)addConnectedBtDevices:(id)arg1;
 - (id)s;
-- (void)ity;
+- (void)deviceProximity;
 - (void)ome.valueDisambiguation.items.value.query.typeIdentifier.custom.bundleId;
-- (_Bool)aRFGClientEvent;
+- (_Bool)RFGSchemaRFGClientEvent;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGError *error; // @synthesize error=_error;
 @property(nonatomic) int fatalError; // @synthesize fatalError=_fatalError;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasFatalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

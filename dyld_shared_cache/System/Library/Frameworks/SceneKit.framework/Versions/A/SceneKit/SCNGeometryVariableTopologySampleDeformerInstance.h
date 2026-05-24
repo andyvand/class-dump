@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SCNMTLComputePipeline, SCNMTLMesh;
-@protocol MTLBuffer;
-
 __attribute__((visibility("hidden")))
 @interface SCNGeometryVariableTopologySampleDeformerInstance
 {
     unsigned long long _mode;
-    SCNMTLMesh *_deformedMesh;
-    NSMutableArray *_meshElementData;
-    id <MTLBuffer> _positionBuffer;
-    id <MTLBuffer> _deformedPrimitiveCountBuffer;
-    id <MTLBuffer> _drawIndexedPrimitivesIndirectBuffer;
-    SCNMTLComputePipeline *_finalizeComputePipeline;
 }
 
 - (unsigned long long);
@@ -24,13 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

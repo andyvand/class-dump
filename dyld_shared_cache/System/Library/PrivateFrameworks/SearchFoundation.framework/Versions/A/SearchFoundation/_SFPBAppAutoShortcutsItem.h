@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBAppAutoShortcutsItem
 {
     NSString *_bundleIdentifier;
 }
 
+- (id);
+- (id);
+- (void);
+- (unsigned long long):) /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)B;
+- (id)initWithLocalIdentifier:(id)arg1 libraryURL:type:subtype:assetReferences:transientIdentifier:transientTitle: /* Error: Ran out of types for this method. */;
+- (id)etsForMediaProcessingTaskID:%tu priority:%tu versions:%{public}@ confidence:%f /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)ext:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)loadImage:context:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

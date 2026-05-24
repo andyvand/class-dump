@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @protocol GEOTransitTimeRange
 - (_Bool)ä@;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) NSDate *startDate;
 @property(readonly, nonatomic) double startTime;
 @end
 

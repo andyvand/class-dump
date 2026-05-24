@@ -11,9 +11,9 @@
     id sourceView;
 }
 
+- (id)on %llu:timed out with error(%ld:%d) /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)rchShowingFirstMatch:(struct CGRect)arg1;
+- (id)_startIncrementalAsynchronousDocumentSearchShowingFirstMatch:(struct CGRect)arg1;
 - (void)Ð.ÿIE;
 
 @end

@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)qA;
 + (id);
 + (id);
 - (id);
@@ -24,13 +24,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)ist and item disposition (disabled, allowed, notified);
 - (unsigned long long);
 - (id);
 

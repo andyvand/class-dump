@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface ML3MigrationMisgroupedAlbum
 {
     NSMutableArray *_misgroupedTracks;
-    long long _albumPID;
-    long long _albumArtistPID;
 }
 
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (void);
-- (void)t_info;
+- (id)ChangeType;
+- (id)ad;
+- (long long)D,N;
+- (long long)photosFaceRepresentationCenterY;
+- (void),R,V_cacheDeleteRegistration;
+- (void)podcast_info;
 
 // Remaining properties
-@property(readonly, nonatomic) long long albumArtistPID; // @synthesize albumArtistPID=_albumArtistPID;
 @property(readonly, nonatomic) long long albumPID; // @synthesize albumPID=_albumPID;
-@property(readonly, nonatomic) NSArray *misgroupedTracks;
 
 @end
 

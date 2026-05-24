@@ -6,15 +6,11 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICContentKeyNonceResponse, ICStoreRequestContext, NSNumber, NSURL;
+@class ICStoreRequestContext;
 
 @interface ICContentKeyNonceRequest : ICRequestOperation
 {
     ICStoreRequestContext *_storeRequestContext;
-    NSNumber *_adamID;
-    NSNumber *_accountDSID;
-    NSURL *_keyServerURL;
-    ICContentKeyNonceResponse *_response;
 }
 
 - (id);

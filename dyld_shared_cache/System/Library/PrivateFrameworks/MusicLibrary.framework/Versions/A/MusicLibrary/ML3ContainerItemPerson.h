@@ -10,9 +10,9 @@
 {
 }
 
-+ (long long);
-+ (id);
-+ (id);
++ (long long)V_suggestionTemplateKey;
++ (id)covered:legacyImport:collectionShare:unrecognized: /* Error: Ran out of types for this method. */;
++ (id)utableOrderedSet",?,R,&,N;
 + (id)0@ù
 × ;
 + (void)NULL DEFAULT '', sort_item_artist TEXT, series_name TEXT NOT NULL DEFAULT '', sort_series_name TEXT, grouping_key BLOB, cloud_status INTEGER NOT NULL DEFAULT 0, store_id INTEGER NOT NULL DEFAULT 0, artist_artwork_token TEXT NOT NULL DEFAULT '', representative_item_pid INTEGER NOT NULL DEFAULT 0, representative_item_artwork_token TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);

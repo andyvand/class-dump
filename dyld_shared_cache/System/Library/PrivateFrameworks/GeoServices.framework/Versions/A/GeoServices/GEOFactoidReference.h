@@ -13,12 +13,11 @@
 
 - (int);
 - (id);
-- (unsigned int);
+- (unsigned int)onProxy"24@?<v@?B@"NSError">32;
 - (void)8&pþS¡8zÐ4;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int indexInFactoidComponent;
-@property(readonly, nonatomic) int linkStyle;
 
 @end
 

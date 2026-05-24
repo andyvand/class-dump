@@ -7,7 +7,6 @@
 @interface PhotosUICore.LemonadeFixedShelvesDataSource
 {
     id photoLibrary;
-    id availableShelves;
 }
 
 @end

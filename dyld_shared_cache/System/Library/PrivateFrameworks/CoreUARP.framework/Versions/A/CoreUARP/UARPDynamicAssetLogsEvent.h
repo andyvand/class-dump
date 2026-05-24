@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, UARPSuperBinaryAsset;
-@protocol OS_os_log;
+@class NSURL;
 
 @interface UARPDynamicAssetLogsEvent
 {
     NSURL *_url;
-    UARPSuperBinaryAsset *_asset;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)AMSBiometricsSignatureResult;
 - (id);
-- (id);
-- (void);
+- (void)E;
 
 @end
 

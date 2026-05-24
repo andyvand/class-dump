@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCECommonAppDependentSignals, NSData;
+@class INFERENCESchemaINFERENCECommonAppDependentSignals;
 
 @interface INFERENCESchemaINFERENCEWorkoutsAppSelectionTrainingDependentSignals : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCECommonAppDependentSignals *_commonDependent;
-    int _workoutType;
-    _Bool _isIndoorWorkout;
-    struct {
-        unsigned int workoutType:1;
-        unsigned int isIndoorWorkout:1;
-    } _has;
-    _Bool _hasCommonDependent;
 }
 
 - (void);
@@ -44,18 +37,12 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)asAssetSetStatusDigestReported;
-- (id)entMetadata;
+- (id)hasAssetSetStatusDigestReported;
+- (id)RGSiriSchemaRGClientEventMetadata;
 - (void)À®1";
 
 // Remaining properties
 @property(retain, nonatomic) INFERENCESchemaINFERENCECommonAppDependentSignals *commonDependent; // @synthesize commonDependent=_commonDependent;
-@property(nonatomic) _Bool hasCommonDependent; // @synthesize hasCommonDependent=_hasCommonDependent;
-@property(nonatomic) _Bool hasIsIndoorWorkout;
-@property(nonatomic) _Bool hasWorkoutType;
-@property(nonatomic) _Bool isIndoorWorkout; // @synthesize isIndoorWorkout=_isIndoorWorkout;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int workoutType; // @synthesize workoutType=_workoutType;
 
 @end
 

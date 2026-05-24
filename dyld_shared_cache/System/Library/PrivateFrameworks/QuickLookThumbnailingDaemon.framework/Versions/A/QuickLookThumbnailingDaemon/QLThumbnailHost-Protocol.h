@@ -5,5 +5,6 @@
 //
 
 @protocol QLThumbnailHost
+- (void)setHasUemThreshold:(struct CGSize)arg1;
 @end
 

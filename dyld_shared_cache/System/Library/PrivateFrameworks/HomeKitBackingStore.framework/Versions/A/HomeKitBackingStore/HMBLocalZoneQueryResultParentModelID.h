@@ -6,13 +6,10 @@
 
 #import <HomeKitBackingStore/HMBLocalZoneQueryResultRecordColumns.h>
 
-@class NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneQueryResultParentModelID : HMBLocalZoneQueryResultRecordColumns
 {
     int _parentModelIDOffset;
-    NSUUID *_parentModelID;
 }
 
 - (int);
@@ -22,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *parentModelID; // @synthesize parentModelID=_parentModelID;
 @property(readonly, nonatomic) int parentModelIDOffset; // @synthesize parentModelIDOffset=_parentModelIDOffset;
 
 @end

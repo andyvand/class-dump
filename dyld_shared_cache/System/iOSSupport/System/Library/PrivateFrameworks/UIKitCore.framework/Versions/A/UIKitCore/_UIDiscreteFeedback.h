@@ -6,8 +6,6 @@
 
 #import <UIKitCore/_UIFeedback.h>
 
-@class NSString;
-
 @interface _UIDiscreteFeedback : _UIFeedback
 {
     _Bool _highPriority;
@@ -16,7 +14,7 @@
 
 + (id);
 + (id)3AC7BD163D47CACAD0711PlatterView";
-+ (_Bool);
++ (_Bool)UICTFontTextStyleSubtitle3;
 - (id);
 - (_Bool);
 - (unsigned int);
@@ -24,22 +22,14 @@
 - (id);
 - (long long)0@ù
 × ;
-- (_Bool)wsTransliterationCandidates;
+- (_Bool)showsTransliterationCandidates;
 - (id)ewControllerTransition",&,N,S_setPreferredTransition:(struct _NSZone *)arg1 ,V_spiTransition;
-- (void)ttributes;
+- (void)UICollectionViewTableLayoutAttributes;
 - (id)à;
-- (id)plicationLaunchOptionsPasteSharingTokenKey;
+- (id)UIApplicationLaunchOptionsPasteSharingTokenKey;
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHighPriority) _Bool highPriority; // @synthesize highPriority=_highPriority;
-@property(readonly) Class superclass;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

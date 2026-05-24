@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)setMemoryCacheTotalCostLimit:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)edNbest:(id)arg1 recognizedText:correctedText:selectedAlternatives:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)e"b1"has_throttleCount"b1"has_throttleMode"b1"has_throttleTriggerCount"b1"has_throttleTriggerDuration"b1"has_throttleType"b1"has_tilesetId"b1"read_unknownFields"b1"read_manifestEnv"b1"read_requestAppIdentifier"b1"read_throttleReqType"b1"wrote_anyField"b1};
 - (id)hasShouldEnableGrayscaleHighlighting;
-- (id)m;
-- (id)oblem;
+- (id)GEOResourceManifestGetMaximumZoom;
+- (id)placeProblem;
 
 @end
 

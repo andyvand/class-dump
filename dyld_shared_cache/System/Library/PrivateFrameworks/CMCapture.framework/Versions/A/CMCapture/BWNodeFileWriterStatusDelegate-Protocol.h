@@ -5,5 +5,8 @@
 //
 
 @protocol BWNodeFileWriterStatusDelegate
+- (void);
+- (void)_activityQueue;
+- (void)/;
 @end
 

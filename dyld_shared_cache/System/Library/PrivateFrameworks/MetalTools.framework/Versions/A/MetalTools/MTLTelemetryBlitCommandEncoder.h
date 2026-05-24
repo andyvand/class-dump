@@ -6,16 +6,15 @@
 
 #import <MetalTools/MTLToolsBlitCommandEncoder.h>
 
-@class MTLTelemetryCommandBuffer, MTLTelemetryDevice;
+@class MTLTelemetryDevice;
 
 @interface MTLTelemetryBlitCommandEncoder : MTLToolsBlitCommandEncoder
 {
     MTLTelemetryDevice *_telemetryDevice;
-    MTLTelemetryCommandBuffer *_telemetryCommandBuffer;
-    unsigned int _beBlits;
 }
 
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -23,14 +22,13 @@
 - (void);
 - (void);
 - (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 
 @end
 

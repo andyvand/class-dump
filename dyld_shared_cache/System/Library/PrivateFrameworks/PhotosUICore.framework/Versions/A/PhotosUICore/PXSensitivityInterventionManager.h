@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHAsset, PhotosUICore.PXSensitivityInterventionManagerDelegateHandler__priv_AEF562763F3BEE3B23D6075681351350, SCNSInterventionPanelController, UXViewController;
+@class SCNSInterventionPanelController, UXViewController;
 
 @interface PXSensitivityInterventionManager
 {
     SCNSInterventionPanelController *internalInterventionFlow;
-    PHAsset *asset;
-    long long analysisMediaType;
-    long long interventionType;
-    PhotosUICore.PXSensitivityInterventionManagerDelegateHandler__priv_AEF562763F3BEE3B23D6075681351350 *delegateHandler;
 }
 
 - (id);
@@ -31,17 +27,11 @@
 - (id);
 - (id);
 - (id);
-- (void)ngPreferences;
+- (void)FirstCheckDateForCameraSharingPreferences;
 - (id)atedLibraryZoomLevel, PXFeatureSpec *__strong _Nonnull);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long analysisMediaType; // @synthesize analysisMediaType;
-@property(nonatomic, retain) PHAsset *asset; // @synthesize asset;
-@property(nonatomic, readonly) _Bool canPresentIntervention;
-@property(nonatomic, retain) PhotosUICore.PXSensitivityInterventionManagerDelegateHandler__priv_AEF562763F3BEE3B23D6075681351350 *delegateHandler; // @synthesize delegateHandler;
-@property(nonatomic, retain) SCNSInterventionPanelController *internalInterventionFlow; // @synthesize internalInterventionFlow;
-@property(nonatomic) long long interventionType; // @synthesize interventionType;
 @property(nonatomic, readonly) UXViewController *viewControllerToPresent;
 
 @end

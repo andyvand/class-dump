@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HAPAccessCodeCharacterSetWrapper
 {
     unsigned long long _value;
@@ -13,23 +11,16 @@
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
+- (_Bool)%d in segment:(id)arg1 %@;
 - (_Bool);
-- (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end

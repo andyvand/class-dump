@@ -11,15 +11,13 @@
 @interface WiFiUsageLQMKernelSampleRC1Coex : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
-    unsigned long long _rc1DurationPerc;
 }
 
 + (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (double);
+- (double)multicolorAuxiliaryPickerForDictionary:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -27,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned long long rc1DurationPerc; // @synthesize rc1DurationPerc=_rc1DurationPerc;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

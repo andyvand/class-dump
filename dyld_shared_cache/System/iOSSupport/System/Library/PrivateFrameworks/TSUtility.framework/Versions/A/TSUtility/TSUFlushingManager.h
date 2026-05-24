@@ -4,36 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSThread, TSUMemoryWatcher, TSUPointerKeyDictionary, TSURetainedPointerKeyDictionary;
-@protocol TSUFlushable;
+@class TSURetainedPointerKeyDictionary;
 
 @interface TSUFlushingManager
 {
     TSURetainedPointerKeyDictionary *_objects;
-    void *_sortedObjects;
-    void *_sortedNewObjects;
-    TSUPointerKeyDictionary *_inactiveObjects;
-    unsigned int _clock;
-    _Bool _alwaysFlushing;
-    _Bool _stopFlushing;
-    _Bool _stopFlushingWhenQueueEmpty;
-    _Bool _isFlushing;
-    id <TSUFlushable> _flushingObject;
-    NSCondition *_cond;
-    NSCondition *_isFlushingCond;
-    TSUMemoryWatcher *_memoryWatcher;
-    NSThread *_bgThread;
-    unsigned long long _backgroundTransitionTaskId;
-    unsigned long long _activeBgThreadTask;
 }
 
 + (id);
 + (id);
 + (id)ÑÏ1Â0@ù
 × ;
+- (void)metadata;
 - (void);
-- (void);
-- (void);
+- (void)useFineGrainedNewsletterManagement;
 - (void);
 - (void);
 - (void);
@@ -45,8 +29,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,12 +39,12 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)!;
 - (oneway void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setUsePackageFormat: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);

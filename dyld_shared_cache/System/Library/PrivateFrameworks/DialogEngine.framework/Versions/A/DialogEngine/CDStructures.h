@@ -13,9 +13,9 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CC_SHA256state_st {
-    unsigned int count[2];
-    unsigned int hash[8];
-    unsigned int wbuf[16];
+    unsigned int _field1[2];
+    unsigned int _field2[8];
+    unsigned int _field3[16];
 };
 
 struct Context;
@@ -78,21 +78,21 @@ struct ObjectInput {
 };
 
 struct ObjectProperty {
-    CDUnknownFunctionPointerType *_vptr$PropertyBase;
-    basic_string_cc40eacf mName;
-    basic_string_cc40eacf mType;
-    basic_string_cc40eacf mDescription;
-    basic_string_cc40eacf mSampleValue;
-    basic_string_cc40eacf mVersionAdded;
-    basic_string_cc40eacf mDeprecated;
-    _Bool mProfanityFilter;
-    _Bool mOptional;
-    _Bool mRedacted;
-    basic_string_cc40eacf mSemanticConcept;
-    basic_string_cc40eacf mValueFromCat;
-    basic_string_cc40eacf mDefaultValue;
-    _Bool mIsIterator;
-    _Bool mCanOverride;
+    CDUnknownFunctionPointerType *_field1;
+    basic_string_cc40eacf _field2;
+    basic_string_cc40eacf _field3;
+    basic_string_cc40eacf _field4;
+    basic_string_cc40eacf _field5;
+    basic_string_cc40eacf _field6;
+    basic_string_cc40eacf _field7;
+    _Bool _field8;
+    _Bool _field9;
+    _Bool _field10;
+    basic_string_cc40eacf _field11;
+    basic_string_cc40eacf _field12;
+    basic_string_cc40eacf _field13;
+    _Bool _field14;
+    _Bool _field15;
 };
 
 struct ObjectSchema;
@@ -168,10 +168,10 @@ struct optional<siri::dialogengine::ObjectInput> {
 
 struct optional<siri::dialogengine::ObjectProperty> {
     union {
-        char __null_state_;
-        struct ObjectProperty __val_;
-    } ;
-    _Bool __engaged_;
+        char _field1;
+        struct ObjectProperty _field2;
+    } _field1;
+    _Bool _field2;
 };
 
 struct optional<unsigned long> {
@@ -191,8 +191,8 @@ struct set<std::string, std::less<std::string>, std::allocator<std::string>> {
 };
 
 struct shared_ptr<siri::dialogengine::Context> {
-    struct Context *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct Context *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<siri::dialogengine::Dialog> {
@@ -259,20 +259,20 @@ struct vector<double, std::allocator<double>> {
 };
 
 struct z_stream_s {
-    char *next_in;
-    unsigned int avail_in;
-    unsigned long long total_in;
-    char *next_out;
-    unsigned int avail_out;
-    unsigned long long total_out;
-    char *msg;
-    struct internal_state *state;
-    CDUnknownFunctionPointerType zalloc;
-    CDUnknownFunctionPointerType zfree;
-    void *opaque;
-    int data_type;
-    unsigned long long adler;
-    unsigned long long reserved;
+    char *_field1;
+    unsigned int _field2;
+    unsigned long long _field3;
+    char *_field4;
+    unsigned int _field5;
+    unsigned long long _field6;
+    char *_field7;
+    struct internal_state *_field8;
+    CDUnknownFunctionPointerType _field9;
+    CDUnknownFunctionPointerType _field10;
+    void *_field11;
+    int _field12;
+    unsigned long long _field13;
+    unsigned long long _field14;
 };
 
 #pragma mark Typedef'd Structures
@@ -282,8 +282,8 @@ typedef struct {
 } CDStruct_a7186859;
 
 typedef struct {
-    unsigned int ctx[96];
-} CDStruct_43cfb2c2;
+    unsigned int _field1[96];
+} CDStruct_39d5974f;
 
 typedef struct {
     struct __tree_end_node<std::__tree_node_base<void *>*> {
@@ -320,16 +320,16 @@ typedef struct optional<siri::dialogengine::ObjectInput> {
 
 typedef struct optional<siri::dialogengine::ObjectProperty> {
     union {
-        char __null_state_;
-        struct ObjectProperty __val_;
-    } ;
-    _Bool __engaged_;
-} optional_a079f55f;
+        char _field1;
+        struct ObjectProperty _field2;
+    } _field1;
+    _Bool _field2;
+} optional_7693a7bf;
 
 typedef struct shared_ptr<siri::dialogengine::Context> {
-    struct Context *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_3beef14e;
+    struct Context *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_296881ae;
 
 typedef struct shared_ptr<siri::dialogengine::Dialog> {
     struct Dialog *__ptr_;

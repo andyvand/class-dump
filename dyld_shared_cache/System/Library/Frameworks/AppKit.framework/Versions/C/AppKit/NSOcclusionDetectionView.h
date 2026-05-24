@@ -6,19 +6,9 @@
 
 #import <AppKit/NSView.h>
 
-@class CAContext;
-
 @interface NSOcclusionDetectionView : NSView
 {
     struct NSEdgeInsets _regionOfInterestInsets;
-    _Bool _registeredForNotifications;
-    CAContext *_context;
-    _Bool _ignoresWindowOcclusion;
-    _Bool _roiIsUnoccluded;
-    unsigned long long _lastUnoccludedValidationToken;
-    _Bool _clientThinksWeAreOccluded;
-    long long _clientOcclusionReason;
-    _Bool _disableDetection;
 }
 
 + (_Bool);
@@ -28,30 +18,26 @@
 - (void);
 - (void);
 - (void);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)in - label must be consisted of alphanumeric or hyphen;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)equest"24@?<v@?@"NSURLRequest"@"NSFileHandle">32;
+- (void)_;
+- (void)_ZN12SocketStream5writeEP15__CFWriteStreamPKhlP13CFStreamError;
 - (void);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)%;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)Size:(struct CGRect)arg1 contentInsets: /* Error: Ran out of types for this method. */;
+- (id)initWithContentSize:(struct CGRect)arg1 contentInsets: /* Error: Ran out of types for this method. */;
 - (void)É)ä@;
 
 // Remaining properties
 @property(nonatomic) _Bool disableDetection; // @synthesize disableDetection=_disableDetection;
-@property _Bool ignoresWindowOcclusion;
-@property(readonly) _Bool isOccluded;
-@property(readonly) long long occlusionReason;
-@property struct NSEdgeInsets regionOfInterestInsets;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock;
-
 @interface NSPrefPaneSearchCenter
 {
     struct __SKIndex *mIndexRef;
-    _Bool mValidated;
-    _Bool mDebug;
-    NSLock *mSKLock;
 }
 
 + (id);

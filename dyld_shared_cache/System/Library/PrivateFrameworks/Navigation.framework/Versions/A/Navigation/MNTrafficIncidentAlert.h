@@ -4,77 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCameraInput, GEOComposedRoute, GEONavigabilityInfo, GEOPBTransitArtwork, GEORouteIncident, GEOTrafficBannerText, MNActiveRouteInfo, MNNavigationAlertButtonInfo, MNTrafficIncidentTriggerRange, NSArray, NSData, NSDate, NSMutableArray, NSString;
+@class GEOTrafficBannerText;
 
 @interface MNTrafficIncidentAlert
 {
     GEOTrafficBannerText *_geoTrafficBannerText;
-    NSString *_analyticsMessage;
-    _Bool _shouldShowTimer;
-    _Bool _persistAcrossUpdates;
-    _Bool _isAutomaticReroute;
-    _Bool _includeDismissButton;
-    NSData *_alertID;
-    NSData *_etaResponseID;
-    NSString *_bannerID;
-    unsigned long long _alertType;
-    NSString *_bannerDescription;
-    double _distanceToIncident;
-    GEORouteIncident *_incident;
-    MNActiveRouteInfo *_mainRouteInfo;
-    MNActiveRouteInfo *_alternateRouteInfo;
-    CDStruct_3f2a7a20 _incidentCoordinate;
-    GEOCameraInput *_cameraInput;
-    CDStruct_3f2a7a20 _startValidCoordinateRange;
-    CDStruct_3f2a7a20 _endValidCoordinateRange;
-    CDStruct_3f2a7a20 _alternateEndValidCoordinateRange;
-    MNTrafficIncidentTriggerRange *_triggerRange;
-    MNTrafficIncidentTriggerRange *_progressBarTriggerRange;
-    unsigned long long _priority;
-    double _minDisplayTime;
-    double _overlapDelayTime;
-    NSDate *_alertDate;
-    double _alertDisplayDuration;
-    NSArray *_buttonInfos;
-    double _distanceToDestination;
-    NSData *_eventInfo;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)1E;
 + (id);
 + (void);
 + (_Bool);
 - (void);
-- (CDStruct_3f2a7a20);
+- (CDStruct_3f2a7a20)2
+;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (double);
 - (double);
 - (id);
+- (_Bool)4;
 - (_Bool);
-- (_Bool);
 - (CDStruct_3f2a7a20);
+- (id);
+- (CDStruct_3f2a7a20);
+- (double);;
 - (id);
-- (CDStruct_3f2a7a20);
+- (id);
+- (id)NavigationSearchDisabledAdjustmentModifier;
+- (id);
+- (id);
+- (CDStruct_3f2a7a20)IsSearchImplementedModifier;
+- (id)ontainerFactory;
 - (double);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDStruct_3f2a7a20);
-- (id);
-- (double);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)SearchField;
+- (void)SearchScopeActivationKey;
 - (void);
 - (void);
 - (id);
@@ -100,7 +72,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)P8	;
 - (id);
 - (id);
 - (id);
@@ -112,52 +84,7 @@
 - (unsigned long long)MBBIi4IGhAAIICangEoADAASgVhcHBsZUoGZndkZ2VvSgJVU1ABYAKBfSEixcow2MBBIn4IBBAAIICangEoADABQk4iTAokKZnz623PqkJAMQB2A0udgF7AOb9Vid3sqkJAQWIKQciKgF7AEiQp7bmn90qqQkAxS1pul/CAXsA5a4/NU3GrQkBBFybWezeAXsBKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiaggpEAAggJqeASgAMAFCT8oCTILxBEgKCgoIbWFwaXRlbXM4AkI4EjYKNDEgQXBwbGUgUGFyayBXYXksIEN1cGVydGlubywgQ0EgOTUwMTQsIFVuaXRlZCBTdGF0ZXNgAoF9ISLFyjDYwEEiLggPEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiGQgQEAAggJqeASgAMABgAoF9ISLFyjDYwEEiLggeEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLgghEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLggmEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLggwEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLggyEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLgg2EAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLgg5EAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLghBEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLghCEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEo2TLADAHKDD4IAhI6EjgKNDEgQXBwbGUgUGFyayBXYXksIEN1cGVydGlubywgQ0EgOTUwMTQsIFVuaXRlZCBTdGF0ZXMQARoSCaykuiXeqkJAETFAogmUgF7A;
 
 // Remaining properties
-@property(readonly, nonatomic) MNNavigationAlertButtonInfo *acceptButtonInfo;
-@property(readonly, nonatomic) NSDate *alertDate; // @synthesize alertDate=_alertDate;
-@property(readonly, nonatomic) NSArray *alertDescriptions;
-@property(nonatomic) double alertDisplayDuration; // @synthesize alertDisplayDuration=_alertDisplayDuration;
-@property(readonly, nonatomic) NSData *alertID; // @synthesize alertID=_alertID;
-@property(readonly, nonatomic) NSArray *alertTitles;
-@property(readonly, nonatomic) unsigned long long alertType; // @synthesize alertType=_alertType;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 alternateEndValidCoordinateRange; // @synthesize alternateEndValidCoordinateRange=_alternateEndValidCoordinateRange;
-@property(readonly, nonatomic) GEOComposedRoute *alternateRoute;
-@property(readonly, nonatomic) MNActiveRouteInfo *alternateRouteInfo; // @synthesize alternateRouteInfo=_alternateRouteInfo;
-@property(readonly, nonatomic) NSString *analyticsMessage; // @synthesize analyticsMessage=_analyticsMessage;
-@property(readonly, nonatomic) GEOPBTransitArtwork *artwork;
-@property(readonly, nonatomic) NSString *bannerDescription; // @synthesize bannerDescription=_bannerDescription;
-@property(readonly, nonatomic) NSString *bannerID; // @synthesize bannerID=_bannerID;
-@property(readonly, nonatomic) NSArray *buttonInfos; // @synthesize buttonInfos=_buttonInfos;
-@property(readonly, nonatomic) GEOCameraInput *cameraInput; // @synthesize cameraInput=_cameraInput;
-@property(readonly, nonatomic) MNNavigationAlertButtonInfo *defaultButtonInfo;
-@property(readonly, nonatomic) _Bool defaultToNewRoute;
-@property(nonatomic) double distanceToDestination; // @synthesize distanceToDestination=_distanceToDestination;
-@property(nonatomic) double distanceToIncident; // @synthesize distanceToIncident=_distanceToIncident;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 endValidCoordinateRange; // @synthesize endValidCoordinateRange=_endValidCoordinateRange;
-@property(readonly, nonatomic) NSData *etaResponseID; // @synthesize etaResponseID=_etaResponseID;
-@property(readonly, nonatomic) NSData *eventInfo; // @synthesize eventInfo=_eventInfo;
-@property(readonly, nonatomic) GEORouteIncident *incident; // @synthesize incident=_incident;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 incidentCoordinate; // @synthesize incidentCoordinate=_incidentCoordinate;
-@property(readonly, nonatomic) _Bool includeDismissButton; // @synthesize includeDismissButton=_includeDismissButton;
-@property(readonly, nonatomic) _Bool isAutomaticReroute; // @synthesize isAutomaticReroute=_isAutomaticReroute;
-@property(readonly, nonatomic) _Bool isReroute;
-@property(readonly, nonatomic) MNActiveRouteInfo *mainRouteInfo; // @synthesize mainRouteInfo=_mainRouteInfo;
-@property(readonly, nonatomic) double minDisplayTime; // @synthesize minDisplayTime=_minDisplayTime;
 @property(readonly, nonatomic) double newEstimatedTime;
-@property(readonly, nonatomic) double oldEstimatedTime;
-@property(readonly, nonatomic) double oldHistoricTime;
-@property(readonly, nonatomic) NSMutableArray *oldRouteIncidents;
-@property(readonly, nonatomic) GEOComposedRoute *originalRoute;
-@property(readonly, nonatomic) GEONavigabilityInfo *originalRouteNavigability;
-@property(readonly, nonatomic) double overlapDelayTime; // @synthesize overlapDelayTime=_overlapDelayTime;
-@property(readonly, nonatomic) _Bool persistAcrossUpdates; // @synthesize persistAcrossUpdates=_persistAcrossUpdates;
-@property(readonly, nonatomic) int previousBannerChange;
-@property(readonly, nonatomic) unsigned long long priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) MNTrafficIncidentTriggerRange *progressBarTriggerRange; // @synthesize progressBarTriggerRange=_progressBarTriggerRange;
-@property(readonly, nonatomic) unsigned long long secondsSaved;
-@property(nonatomic) _Bool shouldShowTimer; // @synthesize shouldShowTimer=_shouldShowTimer;
-@property(readonly, nonatomic) NSArray *spokenTexts;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 startValidCoordinateRange; // @synthesize startValidCoordinateRange=_startValidCoordinateRange;
-@property(readonly, nonatomic) MNTrafficIncidentTriggerRange *triggerRange; // @synthesize triggerRange=_triggerRange;
 
 @end
 

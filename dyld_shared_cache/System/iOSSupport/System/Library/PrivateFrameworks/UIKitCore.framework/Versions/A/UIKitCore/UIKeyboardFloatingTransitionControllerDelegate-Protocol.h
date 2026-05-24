@@ -5,8 +5,9 @@
 //
 
 @protocol UIKeyboardFloatingTransitionControllerDelegate
+- (void)Array",C,N,V_payloadBundleIdentifiers;
 - (_Bool)1Â0@ù
 × ;
-- (void)eCurrency;
+- (void)UIKBKeyVariantsTypeCurrency;
 @end
 

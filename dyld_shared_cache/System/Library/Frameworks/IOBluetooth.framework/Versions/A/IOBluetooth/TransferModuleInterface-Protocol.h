@@ -5,6 +5,7 @@
 //
 
 @protocol TransferModuleInterface
+- (_Bool)P;
 - (void)× ;
 @end
 

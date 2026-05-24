@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTRecordView;
 @protocol AVTRecordingCarouselControllerDelegate;
 
 @protocol AVTRecordingCarouselController
+- (void)C;
 
 // Remaining properties
-@property(readonly, nonatomic) AVTRecordView *focusedRecordingView;
 @property(nonatomic) __weak id <AVTRecordingCarouselControllerDelegate> recordingDelegate;
 @end
 

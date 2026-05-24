@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurfaceMemoryPool, MMAssertion, NSObject, NSSet;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BWMemoryPool
 {
     NSObject<OS_dispatch_queue> *_queue;
-    IOSurfaceMemoryPool *_pool;
-    unsigned long long _poolId;
-    unsigned int _flushAssertionCount;
-    struct os_unfair_lock_s _flushAssertionLock;
-    MMAssertion *_modelManagerAssertion;
-    NSSet *_clientDenyList;
 }
 
 + (id);
@@ -26,9 +20,9 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (int);
-- (id);
+- (id)initWithBytes:(id)arg1 length:encoding: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

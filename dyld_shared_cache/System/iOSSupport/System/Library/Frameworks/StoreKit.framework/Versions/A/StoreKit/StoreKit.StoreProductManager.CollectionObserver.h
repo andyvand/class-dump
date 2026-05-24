@@ -7,7 +7,6 @@
 @interface StoreKit.StoreProductManager.CollectionObserver
 {
     id _error;
-    id _storage;
 }
 
 @end

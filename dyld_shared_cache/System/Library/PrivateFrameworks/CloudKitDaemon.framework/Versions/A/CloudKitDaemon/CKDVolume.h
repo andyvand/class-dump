@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 @interface CKDVolume
 {
     NSUUID *_volumeUUID;
-    NSNumber *_deviceID;
-    NSString *_mountPath;
 }
 
 + (id);
 + (id);
 - (id);
+- (id)setRealtimeCoexStarted:type:reasons: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)ServerMetadataValue;
 - (id);
 - (_Bool);
 - (void)ELFXH;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) _Bool isRootVolume;
-@property(readonly, nonatomic) NSString *mountPath; // @synthesize mountPath=_mountPath;
 @property(readonly, nonatomic) NSUUID *volumeUUID; // @synthesize volumeUUID=_volumeUUID;
 
 @end

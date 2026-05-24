@@ -7,9 +7,6 @@
 @interface Speech.EARLanguageDetectorResultStream
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
-    id delegate;
 }
 
 @end

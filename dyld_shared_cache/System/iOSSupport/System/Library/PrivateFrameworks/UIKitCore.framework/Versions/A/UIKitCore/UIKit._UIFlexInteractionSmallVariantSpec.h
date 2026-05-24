@@ -10,7 +10,7 @@
 {
 }
 
-- (void)ySeparators: /* Error: Ran out of types for this method. */;
+- (void)_setInsetsForBoundarySeparators: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

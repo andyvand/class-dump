@@ -7,9 +7,9 @@
 @class NSData, _SFPBURL;
 
 @protocol _SFPBQuickLookCommand
+- (NSData *),N,V_variants;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBURL *url;
 @end
 

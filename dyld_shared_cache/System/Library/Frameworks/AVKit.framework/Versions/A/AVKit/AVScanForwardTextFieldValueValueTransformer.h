@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSNumberFormatter *_numberFormatter;
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class);
-- (id);
+- (id)$;
 - (void);
 
 @end

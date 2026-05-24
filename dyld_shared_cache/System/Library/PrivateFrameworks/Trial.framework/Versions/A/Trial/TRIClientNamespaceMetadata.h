@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIPBStringEnumDictionary;
-
 @interface TRIClientNamespaceMetadata
 {
 }
@@ -14,9 +12,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int compatibilityVersion; // @dynamic compatibilityVersion;
-@property(retain, nonatomic) TRIPBStringEnumDictionary *factorNamePurgeabilityLevels; // @dynamic factorNamePurgeabilityLevels;
-@property(readonly, nonatomic) unsigned long long factorNamePurgeabilityLevels_Count; // @dynamic factorNamePurgeabilityLevels_Count;
-@property(nonatomic) _Bool hasCompatibilityVersion; // @dynamic hasCompatibilityVersion;
 
 @end
 

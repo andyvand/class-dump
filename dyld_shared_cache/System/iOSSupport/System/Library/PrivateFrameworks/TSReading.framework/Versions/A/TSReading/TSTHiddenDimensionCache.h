@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableIndexSet;
+@class NSIndexSet;
 
 @interface TSTHiddenDimensionCache
 {
     unsigned long long mCount;
-    NSMutableIndexSet *mCachedVisible;
-    NSMutableIndexSet *mCachedUserVisible;
-    NSMutableIndexSet *mInvalidRanges;
-    unsigned long long mMarkIndex;
 }
 
-- (void);
-- (void);
+- (void)eUIDs;
+- (void)n be turned into an event [;
 - (void);
 - (unsigned short);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)PlayerItemPublisher;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -38,7 +34,7 @@
 - (id);
 - (id);
 - (void);
-- (void)eDrawable:(struct _NSRange)arg1;
+- (void)willRemoveDrawable:(struct _NSRange)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *visibleIndices; // @synthesize visibleIndices=mCachedVisible;

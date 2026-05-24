@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFSearchResult;
+@class SFSearchResult;
 
 @interface WBSParsecSearchResult
 {
     SFSearchResult *_sfSearchResult;
-    NSString *_imageURL;
-    NSString *_serverCompletion;
 }
 
 + (long long);

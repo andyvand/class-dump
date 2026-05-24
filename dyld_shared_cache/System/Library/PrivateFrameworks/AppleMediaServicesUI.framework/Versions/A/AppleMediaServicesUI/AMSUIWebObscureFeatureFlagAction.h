@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)nge: /* Error: Ran out of types for this method. */;
+- (void)rangeOfFirstMatchInString:options:range: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface FCAudioUpsellConfig
 {
     NSString *_identifier;
-    NSURL *_URL;
-    double _duration;
-    unsigned long long _playPosition;
 }
 
 - (unsigned long long);
 - (id);
-- (double);
+- (double)@;
+- (id)h;
 - (id);
-- (id);
-- (void)idget;
+- (void)TagWidget;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long playPosition; // @synthesize playPosition=_playPosition;
 
 @end
 

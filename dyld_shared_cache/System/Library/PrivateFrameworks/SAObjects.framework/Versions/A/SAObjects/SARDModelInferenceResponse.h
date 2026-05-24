@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SARDModelInferenceResponse : SABaseClientBoundCommand
 {
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *modelInferenceRequestId;
-@property(copy, nonatomic) NSData *protobufMessageResponse;
 
 @end
 

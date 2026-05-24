@@ -4,24 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSURL;
+@class NSSet, NSURL;
 
 @protocol NSFilePresenter
-- (NSURL *)oData;
+- (NSURL *)PDAnimationInfoData;
 
 @optional
+- (NSURL *)32LazuliComponentsFactoryInterface;
+- (void)22LazuliManagerInterface;
+- (void)27NetworkListFactoryInterface;
+- (void)30TelephonyCapabilitiesInterface;
+- (void)35NanoPreferencesSyncFactoryInterface;
+- (void)24AttachApnModuleInterface;
+- (void)27DataNetworkMonitorInterface;
+- (void)25RegistrationTimeInterface;
+- (void)N20CellMonitorInterface9getCellIdEN3xpc10auto_replyEE3$_0;
+- (void)lIdEN3xpc10auto_replyEE3$_0FvyEEE;
+- (NSSet *)ace15sendTrafficInfoEtN3ctu2cf11CFSharedRefIK8__CFDataEEN3xpc10auto_replyEE3$_0;
+- (void);
 - (void)eader=}24@0:(void (^)(NSError *))arg1 8^@16;
 
 // Remaining properties
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
 @property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
 @end
 

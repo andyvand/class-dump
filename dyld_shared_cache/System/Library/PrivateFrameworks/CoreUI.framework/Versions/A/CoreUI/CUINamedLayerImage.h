@@ -6,20 +6,12 @@
 
 #import <CoreUI/CUINamedImage.h>
 
-@class CUINamedGradient, NSString;
-
 @interface CUINamedLayerImage : CUINamedImage
 {
     struct CGRect _frame;
-    double _opacity;
-    int _blendMode;
-    _Bool _fixedFrame;
-    double _blurStrength;
-    NSString *_gradientOrColorName;
-    _Bool _hasLightingEffects;
 }
 
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -27,7 +19,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (double);
+- (double))A;
 - (_Bool);
 - (void);
 - (void);
@@ -37,12 +29,12 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
 - (int);
+- (void)_MLSNVGGishFeatureEmbedding;
 - (void);
-- (void);
-- (int);
+- (int)t time;
 - (id);
 - (struct CGColor *);
 - (struct CGRect);
@@ -53,24 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(nonatomic) double blurStrength; // @synthesize blurStrength=_blurStrength;
-@property(readonly, nonatomic) struct CGColor *color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fixedFrame; // @synthesize fixedFrame=_fixedFrame;
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) CUINamedGradient *gradient;
-@property(copy, nonatomic) NSString *gradientOrColorName; // @synthesize gradientOrColorName=_gradientOrColorName;
-@property(nonatomic) _Bool hasLightingEffects; // @synthesize hasLightingEffects=_hasLightingEffects;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGImage *image;
-@property(nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(readonly, nonatomic) double scale;
-@property(readonly) Class superclass;
 
 @end
 

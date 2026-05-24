@@ -5,5 +5,7 @@
 //
 
 @protocol EscrowRequestXPCProtocol
+- (void);
+- (void)A;
 @end
 

@@ -6,22 +6,11 @@
 
 #import <PhotosUICore/PXStoryDerivedTimeline.h>
 
-@class NSMutableDictionary, NSMutableIndexSet, PXCArrayStore;
+@class NSMutableIndexSet;
 
 @interface PXStoryTransitionTimeline : PXStoryDerivedTimeline
 {
     NSMutableIndexSet *_clipIdentifiersInTransition;
-    struct CGPoint _fromSegmentClipOffset;
-    CDStruct_e83c9415 _fromSegmentTimeRange;
-    long long _duplicateSegmentIdentifier;
-    NSMutableDictionary *_originalClipIdentifiersByDuplicateClipIdentifiers;
-    NSMutableDictionary *_duplicateClipIdentifiersByOriginalClipIdentifiers;
-    PXCArrayStore *_segmentTimeRanges;
-    PXCArrayStore *_segmentInfos;
-    PXCArrayStore *_clipTimeRanges;
-    PXCArrayStore *_clipFrames;
-    PXCArrayStore *_clipInfos;
-    CDStruct_b1a1f14e _transitionInfo;
 }
 
 - (id);
@@ -34,22 +23,17 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_c0304e72);
+- (CDStruct_58af7e62);
 - (void);
 - (struct CGPoint);
 - (void);
 - (void);
 - (long long);
-- (CDStruct_b1a1f14e);
+- (CDStruct_912cb5d2);
 - (void)ì"zÿ#zÿsaveCurationInFolder;
 
 // Remaining properties
-@property(readonly, nonatomic) PXCArrayStore *clipFrames; // @synthesize clipFrames=_clipFrames;
-@property(readonly, nonatomic) PXCArrayStore *clipInfos; // @synthesize clipInfos=_clipInfos;
-@property(readonly, nonatomic) PXCArrayStore *clipTimeRanges; // @synthesize clipTimeRanges=_clipTimeRanges;
-@property(readonly, nonatomic) PXCArrayStore *segmentInfos; // @synthesize segmentInfos=_segmentInfos;
-@property(readonly, nonatomic) PXCArrayStore *segmentTimeRanges; // @synthesize segmentTimeRanges=_segmentTimeRanges;
-@property(readonly, nonatomic) CDStruct_b1a1f14e transitionInfo; // @synthesize transitionInfo=_transitionInfo;
+@property(readonly, nonatomic) CDStruct_912cb5d2 transitionInfo; // @synthesize transitionInfo=_transitionInfo;
 
 @end
 

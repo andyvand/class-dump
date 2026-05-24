@@ -7,26 +7,23 @@
 #import <Metal/MTL4FunctionDescriptor.h>
 
 @class NSString;
-@protocol MTLLibrary;
 
 @interface MTL4LibraryFunctionDescriptor : MTL4FunctionDescriptor
 {
     NSString *_name;
-    id <MTLLibrary> _library;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id)tructType:doRetain: /* Error: Ran out of types for this method. */;
+- (id)setStructType:doRetain: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLLibrary> library; // @synthesize library=_library;
 @property(copy) NSString *name; // @synthesize name=_name;
 
 @end

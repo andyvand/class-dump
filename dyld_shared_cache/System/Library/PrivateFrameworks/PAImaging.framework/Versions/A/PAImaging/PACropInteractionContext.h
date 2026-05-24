@@ -7,9 +7,6 @@
 @interface PACropInteractionContext
 {
     _Bool _shouldPreserveTargetArea;
-    _Bool _shouldUpdateTargetAreaOnBeginInteractive;
-    _Bool _shouldUpdateViewportOnEndInteractive;
-    unsigned long long _keyModificationMask;
 }
 
 + (id);
@@ -23,10 +20,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long keyModificationMask; // @synthesize keyModificationMask=_keyModificationMask;
 @property(readonly, nonatomic) _Bool shouldPreserveTargetArea; // @synthesize shouldPreserveTargetArea=_shouldPreserveTargetArea;
-@property(readonly, nonatomic) _Bool shouldUpdateTargetAreaOnBeginInteractive; // @synthesize shouldUpdateTargetAreaOnBeginInteractive=_shouldUpdateTargetAreaOnBeginInteractive;
-@property(readonly, nonatomic) _Bool shouldUpdateViewportOnEndInteractive; // @synthesize shouldUpdateViewportOnEndInteractive=_shouldUpdateViewportOnEndInteractive;
 
 @end
 

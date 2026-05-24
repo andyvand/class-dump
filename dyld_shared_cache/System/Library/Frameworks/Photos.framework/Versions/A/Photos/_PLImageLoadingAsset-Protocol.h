@@ -5,5 +5,11 @@
 //
 
 @protocol _PLImageLoadingAsset
+- (_Bool);
+- (_Bool)*`;
+- (_Bool)%;
+- (void);
+- (_Bool)loadScreenshotInfoForPurchaseHistoryIDs:completionHandler: /* Error: Ran out of types for this method. */;
+- (double);
 @end
 

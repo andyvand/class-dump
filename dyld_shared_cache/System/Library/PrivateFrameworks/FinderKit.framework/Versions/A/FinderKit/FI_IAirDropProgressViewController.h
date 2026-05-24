@@ -6,40 +6,20 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TAirDropAskUserViewController, FI_TAirDropProgressController, FI_TAirDropStatusViewController, FI_TUpdateLayerView, NSImage, NSObject, NSString;
-@protocol TAirDropTransfer;
-
 __attribute__((visibility("hidden")))
 @interface FI_IAirDropProgressViewController : FI_TViewController
 {
     struct TNSWeakPtr<FI_TAirDropProgressController> _weakProgressController;
-    FI_TUpdateLayerView *_contentView;
-    FI_TAirDropAskUserViewController *_askUserViewController;
-    FI_TAirDropStatusViewController *_statusViewController;
-    struct TFENode _targetNode;
-    long long _bytesToCopy;
-    long long _bytesCopied;
-    double _percentComplete;
-    struct recursive_mutex _operationControllerLock;
-    _Bool _isTornDown;
-    _Bool _shouldEnableButtons;
-    _Bool _hasBlockedBeenShown;
-    _Bool _canceledByUser;
-    NSObject<TAirDropTransfer> *_transfer;
-    FI_IAirDropProgressViewController *_selfReference;
-    FI_TAirDropAskUserViewController *_userInputViewController;
-    NSImage *_mediumImage;
-    NSImage *_smallImage;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -47,13 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (struct recursive_mutex *);
 - (shared_ptr_466d67c7);
 - (void);
-- (id);
+- (id)_;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -66,23 +46,23 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (_Bool)q!;
+- (id);
+- (void);
+- (void)setKeyboardShortcut:(_Bool)arg1;
+- (id)rted.;
+- (void)LibCall_ACMContextSetData;
 - (_Bool);
+- (void);
+- (void);
+- (void)numberWithInteger: /* Error: Ran out of types for this method. */;
+- (void)to create SFClearInputFeedback;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)setShouldDisableGroupingInUpdatesUserDefaultsObserver:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -94,29 +74,7 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) long long bytesCopied; // @synthesize bytesCopied=_bytesCopied;
-@property(readonly, nonatomic) long long bytesToCopy; // @synthesize bytesToCopy=_bytesToCopy;
-@property(nonatomic) _Bool canceledByUser; // @synthesize canceledByUser=_canceledByUser;
-@property(readonly, nonatomic) long long currentSFOperationEvent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasBlockedBeenShown; // @synthesize hasBlockedBeenShown=_hasBlockedBeenShown;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSImage *mediumImage; // @synthesize mediumImage=_mediumImage;
-@property(readonly, nonatomic) struct recursive_mutex *operationControllerLock; // @synthesize operationControllerLock=_operationControllerLock;
-@property(readonly, nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
-@property(nonatomic) __weak FI_TAirDropProgressController *progressController;
 @property(retain, nonatomic) FI_IAirDropProgressViewController *selfReference; // @synthesize selfReference=_selfReference;
-@property _Bool shouldEnableButtons; // @synthesize shouldEnableButtons=_shouldEnableButtons;
-@property(copy, nonatomic) NSImage *smallImage; // @synthesize smallImage=_smallImage;
-@property(readonly, retain, nonatomic) FI_TAirDropStatusViewController *statusViewController; // @synthesize statusViewController=_statusViewController;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
-@property(retain, nonatomic) NSObject<TAirDropTransfer> *transfer; // @synthesize transfer=_transfer;
-@property(readonly, retain, nonatomic) FI_TAirDropAskUserViewController *userInputViewController; // @synthesize userInputViewController=_userInputViewController;
 
 @end
 

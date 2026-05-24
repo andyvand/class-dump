@@ -5,9 +5,9 @@
 //
 
 @protocol MKMapConfigurationHiking
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool showsHiking;
-@property(nonatomic) _Bool showsTopographicFeatures;
 @end
 

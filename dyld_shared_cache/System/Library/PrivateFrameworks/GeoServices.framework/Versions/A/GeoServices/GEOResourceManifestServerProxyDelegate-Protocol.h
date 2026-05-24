@@ -5,5 +5,6 @@
 //
 
 @protocol GEOResourceManifestServerProxyDelegate
+- (void)isCompactVersion;
 @end
 

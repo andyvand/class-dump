@@ -6,19 +6,19 @@
 
 #import <Intents/INIntent.h>
 
-@class INDateComponentsRange, NSArray, NSString;
+@class NSArray;
 
 @interface INShowHomeIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)q;
 - (id);
 - (id);
 - (long long);
@@ -31,18 +31,10 @@
 - (id);
 - (void)!Gùq¾(°1Â0@ù
 × ;
-- (void)rvationActionSlotValueTransformer;
+- (void)INIntentReservationActionSlotValueTransformer;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSArray *filters;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) INDateComponentsRange *time;
 
 @end
 

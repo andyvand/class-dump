@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, retain) NSFileHandle *fileHandleForReading;
-@property(readonly, retain) NSFileHandle *fileHandleForWriting;
 
 @end
 

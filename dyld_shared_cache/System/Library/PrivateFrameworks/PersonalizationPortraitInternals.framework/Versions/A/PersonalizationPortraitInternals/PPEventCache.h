@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PPCalendarInternPool, PPEventStorage, _PASLock;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class PPEventStorage;
 
 @interface PPEventCache
 {
     PPEventStorage *_storage;
-    _PASLock *_data;
-    PPCalendarInternPool *_calendarInternPool;
-    struct atomic_flag _cacheBackingFileUpdateScheduled;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_memoryPressureSource;
-    unsigned long long _memoryPressureStatus;
 }
 
 - (void);
-- (id);
+- (id)&;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void)?0;
 
 @end

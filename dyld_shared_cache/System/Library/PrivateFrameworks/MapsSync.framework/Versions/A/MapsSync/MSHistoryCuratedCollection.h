@@ -9,13 +9,12 @@
 @interface MSHistoryCuratedCollection : MSHistoryItem
 {
     id _curatedCollectionIdentifier;
-    id _resultProviderIdentifier;
 }
 
 + (Class);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (unsigned long long);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long curatedCollectionIdentifier;
-@property(nonatomic) int resultProviderIdentifier;
 
 @end
 

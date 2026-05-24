@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterWANFirewall
 {
     long long _type;
 }
 
-+ (id);
++ (id)momentOfSceneFeature;
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
-- (id)on;
+- (id)isNaturalLightingAllowedBasedOnSpecVersion;
 - (void)Tq,N,R;
 - (id)uired information uuid:(long long)arg1 %@, builderID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

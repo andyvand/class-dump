@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, _SFPBGraphicalFloat;
+@class NSData, NSString;
 
 @protocol _SFPBSearchSuggestion
+- (void)B;
+- (NSString *);
+- (void)/;
+- (NSString *)hasProperNetworkConditionsToShowCloudMedia;
+- (void)GSize=dd}64@0:(NSString *)arg1 8{CGSize=dd}16{CGSize=dd}32{CGSize=dd}48;
+- (NSData *)URL;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(copy, nonatomic) NSString *detailText;
-@property(copy, nonatomic) NSArray *duplicateSuggestions;
-@property(copy, nonatomic) NSString *fbr;
 @property(copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool previouslyEngaged;
-@property(copy, nonatomic) NSString *query;
-@property(copy, nonatomic) NSString *scopedSearchApplicationBundleIdentifier;
-@property(retain, nonatomic) _SFPBGraphicalFloat *score;
-@property(copy, nonatomic) NSDictionary *serverFeatures;
-@property(copy, nonatomic) NSString *suggestion;
-@property(copy, nonatomic) NSString *topicIdentifier;
-@property(nonatomic) int type;
-@property(copy, nonatomic) NSString *utteranceText;
 @end
 

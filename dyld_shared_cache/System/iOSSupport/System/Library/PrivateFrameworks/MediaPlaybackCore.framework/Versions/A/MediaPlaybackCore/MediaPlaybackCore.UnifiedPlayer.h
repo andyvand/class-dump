@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVQueuePlayer, NSDictionary;
+@class AVQueuePlayer;
 
 @interface MediaPlaybackCore.UnifiedPlayer
 {
     id main;
-    AVQueuePlayer *current;
-    id interstitialObserver;
-    id interstitialObserverToken;
-    id reporter;
 }
 
 - (_Bool);
@@ -31,12 +27,7 @@
 - (id)Ù]ðá;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsExternalPlayback;
 @property(nonatomic, retain) AVQueuePlayer *current; // @synthesize current;
-@property(nonatomic, readonly) long long playbackType;
-@property(nonatomic, readonly) NSDictionary *stateDictionary;
-@property(nonatomic) _Bool usesAudioOnlyModeForExternalPlayback;
-@property(nonatomic) _Bool usesExternalPlaybackWhileExternalScreenIsActive;
 
 @end
 

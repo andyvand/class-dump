@@ -5,5 +5,6 @@
 //
 
 @protocol PKTextInputDebugRadarEntryCellDelegate
+- (void);
 @end
 

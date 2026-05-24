@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCMediaStreamConfig, AVConferenceXPCClient, NSDictionary, NSObject, VCVideoStream;
-@protocol OS_dispatch_queue;
+@class AVConferenceXPCClient;
 
 @interface AVCVideoStream
 {
     AVConferenceXPCClient *_connection;
-    AVCMediaStreamConfig *_configuration;
-    id _delegate;
-    VCVideoStream *_opaqueStream;
-    long long _streamToken;
-    NSDictionary *_capabilities;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    _Bool _isInProcess;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,31 +36,31 @@
 - (void);
 - (_Bool);
 - (void);
+- (void));
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)ĉR	;
 - (_Bool);
 - (void);
 - (long long);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)9;
+- (void)q;
+- (_Bool)L;
 - (id);
 - (_Bool);
 - (void);
@@ -82,7 +74,7 @@
 - (void);
 - (void);
 - (id);
-- (long long)nitialMemoryUsageMB: /* Error: Ran out of types for this method. */;
+- (long long)setInitialMemoryUsageMB: /* Error: Ran out of types for this method. */;
 - (void)for ssrc=%u ssrc_hex=%x and seq=%u seq_hex=%x nCount=%u cached_ssrc2=%u cached_ssrc2_hex=%x cached_seqNum2=%u cached_seqNum2_hex=%x packetLen=%u packetBufferIndex=%d index=%d;
 - (void);
 

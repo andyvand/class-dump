@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface CommunicationFilterItemCache
 {
     CommunicationFilterItem *_filterItem;
-    long long _isInList;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

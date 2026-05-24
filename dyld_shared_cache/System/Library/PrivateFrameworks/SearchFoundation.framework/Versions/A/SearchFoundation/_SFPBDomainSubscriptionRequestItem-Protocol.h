@@ -7,10 +7,11 @@
 @class NSData, _SFPBSportsSubscriptionRequestItem;
 
 @protocol _SFPBDomainSubscriptionRequestItem
+- (unsigned long long)_;
+- (NSData *)rray",N,R;
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBSportsSubscriptionRequestItem *sportsSubscriptionRequestItem;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

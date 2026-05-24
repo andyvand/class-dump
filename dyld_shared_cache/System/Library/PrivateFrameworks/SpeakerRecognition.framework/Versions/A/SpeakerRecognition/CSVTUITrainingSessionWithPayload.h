@@ -6,18 +6,11 @@
 
 #import <SpeakerRecognition/CSVTUITrainingSession.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CSVTUITrainingSessionWithPayload : CSVTUITrainingSession
 {
     _Bool _detectBOS;
-    _Bool _ASRResultReceived;
-    _Bool _reportedStopListening;
-    _Bool _utteranceStored;
-    unsigned long long _numSamplesFed;
-    unsigned long long _bestTriggerSampleStart;
-    unsigned long long _extraSamplesAtStart;
-    NSDictionary *_voiceTriggerEventInfo;
 }
 
 - (void);
@@ -52,13 +45,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSDictionary *voiceTriggerEventInfo; // @synthesize voiceTriggerEventInfo=_voiceTriggerEventInfo;
 
 @end

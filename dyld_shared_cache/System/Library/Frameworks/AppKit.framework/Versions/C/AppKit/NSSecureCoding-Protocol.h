@@ -5,6 +5,6 @@
 //
 
 @protocol NSSecureCoding
-+ (_Bool)stanceToReorder;
++ (_Bool)_mustDragExtraDistanceToReorder;
 @end
 

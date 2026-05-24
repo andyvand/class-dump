@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKDocumentContent, NSImage, NSString, _STKSticker;
+@class NSString;
 
 @interface IMKCandidate
 {
     NSString *_displayText;
-    NSString *_annotation;
-    NSString *_text;
-    NSImage *_icon;
-    IMKDocumentContent *_documentContentToReplace;
-    unsigned long long _type;
-    long long _style;
-    _STKSticker *_sticker;
 }
 
 + (id);
@@ -37,21 +30,21 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)R9;
 - (id);
 - (_Bool);
 - (long long);
 - (void);
-- (id);
+- (id):(id)arg1 8Q16Q24@32;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)_remoteIOInfo;
 - (id);
-- (id);
-- (void);
+- (void) `a;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -60,26 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *annotation; // @synthesize annotation=_annotation;
-@property(readonly, nonatomic) NSString *axDescriptionString;
-@property(readonly, nonatomic) NSString *axHelpString;
-@property(readonly, nonatomic) NSString *axValueString;
 @property(readonly, nonatomic) _Bool canCacheSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(readonly, copy, nonatomic) IMKDocumentContent *documentContentToReplace; // @synthesize documentContentToReplace=_documentContentToReplace;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) _STKSticker *sticker; // @synthesize sticker=_sticker;
-@property(readonly, nonatomic) NSString *stringIdentifier;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface PFParallaxLayoutConfiguration
 {
     double _screenScale;
-    struct CGSize _screenSize;
-    struct CGSize _parallaxPadding;
-    struct CGRect _timeRect;
-    struct CGRect _inactiveTimeRect;
 }
 
 + (id);
@@ -26,11 +22,11 @@
 + (id);
 + (_Bool);
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)lugInKit.framework/Versions/A/PlugInKit;
+- (struct CGRect)taUtilities;
+- (struct CGRect)ties.framework/Versions/A/MetadataUtilities;
+- (struct CGRect)amework/Versions/A/Intents;
+- (struct CGRect)ystem/Library/Frameworks/Intents.framework/Versions/A/Intents;
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGSize);
@@ -42,10 +38,10 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect),;
 - (struct CGSize);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (_Bool);
@@ -56,16 +52,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect inactiveTimeRect; // @synthesize inactiveTimeRect=_inactiveTimeRect;
-@property(readonly, nonatomic) _Bool isPortrait;
-@property(readonly, nonatomic) struct CGSize parallaxPadding; // @synthesize parallaxPadding=_parallaxPadding;
-@property(readonly, nonatomic) struct CGSize parallaxPaddingPct;
-@property(readonly, nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
 @property(readonly, nonatomic) struct CGSize screenSize; // @synthesize screenSize=_screenSize;
-@property(readonly, nonatomic) struct CGRect timeOverlapCheckBottom;
-@property(readonly, nonatomic) struct CGRect timeOverlapCheckTop;
-@property(readonly, nonatomic) struct CGRect timeRect; // @synthesize timeRect=_timeRect;
-@property(readonly, nonatomic) struct CGRect unsafeRect;
 
 @end
 

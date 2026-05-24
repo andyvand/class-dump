@@ -4,49 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSPolicy, CSSelfTriggerDetector, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class CSPolicy;
 
 @interface CSSelfTriggerController
 {
     CSPolicy *_enabledPolicyWithAVVCAudioSource;
-    CSPolicy *_enabledPolicyWithTapAudioSource;
-    CSSelfTriggerDetector *_selfTriggerWithAVVCAudioSource;
-    CSSelfTriggerDetector *_selfTriggerWithTapAudioSource;
-    NSMutableArray *_enabledStates;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (_Bool);
 + (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id)T;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)knownObjectIdentifiersRecognizedByRequestRevision:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
-- (void)imeoutConfig;
+- (void)getAttendingTimeoutConfig;
 
 // Remaining properties
 @property(retain, nonatomic) CSPolicy *enabledPolicyWithAVVCAudioSource; // @synthesize enabledPolicyWithAVVCAudioSource=_enabledPolicyWithAVVCAudioSource;
-@property(retain, nonatomic) CSPolicy *enabledPolicyWithTapAudioSource; // @synthesize enabledPolicyWithTapAudioSource=_enabledPolicyWithTapAudioSource;
-@property(retain, nonatomic) NSMutableArray *enabledStates; // @synthesize enabledStates=_enabledStates;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CSSelfTriggerDetector *selfTriggerWithAVVCAudioSource; // @synthesize selfTriggerWithAVVCAudioSource=_selfTriggerWithAVVCAudioSource;
-@property(retain, nonatomic) CSSelfTriggerDetector *selfTriggerWithTapAudioSource; // @synthesize selfTriggerWithTapAudioSource=_selfTriggerWithTapAudioSource;
 
 @end
 

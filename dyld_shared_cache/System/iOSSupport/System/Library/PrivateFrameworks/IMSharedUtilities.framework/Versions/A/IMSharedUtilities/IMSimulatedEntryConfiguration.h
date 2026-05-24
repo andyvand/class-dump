@@ -7,8 +7,6 @@
 @interface IMSimulatedEntryConfiguration
 {
     _Bool _indexImmediately;
-    long long _clientBatchSize;
-    long long _daemonBatchSize;
 }
 
 + (_Bool);
@@ -17,14 +15,12 @@
 - (void);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long clientBatchSize; // @synthesize clientBatchSize=_clientBatchSize;
-@property(nonatomic) long long daemonBatchSize; // @synthesize daemonBatchSize=_daemonBatchSize;
 @property(nonatomic) _Bool indexImmediately; // @synthesize indexImmediately=_indexImmediately;
 
 @end

@@ -9,7 +9,6 @@
 @interface AppStoreKit.ProductMediaGalleryPage : AppStoreKit.BasePage
 {
     id productMedia;
-    id selectedProductMediaItem;
 }
 
 @end

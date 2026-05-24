@@ -7,19 +7,6 @@
 @interface Foundation._CalendarGregorian
 {
     id kSecondsInWeek;
-    id kSecondsInDay;
-    id kSecondsInHour;
-    id kSecondsInMinute;
-    id kDefaultJulianCutoverDay;
-    id julianCutoverDay;
-    id gregorianStartYear;
-    id gregorianStartDate;
-    id inf_ti;
-    id identifier;
-    id locale;
-    id timeZone;
-    id _firstWeekday;
-    id _minimumDaysInFirstWeek;
 }
 
 @end

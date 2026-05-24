@@ -7,7 +7,6 @@
 @interface AppStoreKit.GameCenterGameplayHistoryRecord
 {
     id playerId;
-    id timestamp;
 }
 
 @end

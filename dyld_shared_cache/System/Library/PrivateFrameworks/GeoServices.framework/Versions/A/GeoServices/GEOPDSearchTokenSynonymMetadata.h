@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)setStaticTitle:(id)arg1;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)ad_timezone"b1"wrote_anyField"b1};
-- (id)IdMajorVer;
+- (id)_requestAppIdMajorVer;
 - (id)ÐÕøÜLã;
 - (void);
 

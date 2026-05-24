@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SNAudioConfiguration
 {
@@ -23,12 +23,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)�@;
+- (id)@    Received Packet Discard No Domain Count:%u
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id) ;
 - (long long);
 - (unsigned long long);
 - (void);
@@ -40,19 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool allowHapticsAndSystemSoundsDuringRecording;
-@property(nonatomic, readonly) NSArray *audioHWControlFlags;
 @property(nonatomic, copy) NSString *category;
-@property(nonatomic, copy) NSArray *channelMap;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, copy) NSString *mode;
-@property(nonatomic) unsigned long long options;
-@property(nonatomic, readonly) _Bool preferDecoupledIO;
-@property(nonatomic, readonly) _Bool prefersNoInterruptions;
-@property(nonatomic) _Bool prefersNoMicrophoneUsageIndicator;
-@property(nonatomic, readonly) _Bool smartRoutingConsideration;
-@property(nonatomic) _Bool useSiriAudioRouting;
 
 @end
 

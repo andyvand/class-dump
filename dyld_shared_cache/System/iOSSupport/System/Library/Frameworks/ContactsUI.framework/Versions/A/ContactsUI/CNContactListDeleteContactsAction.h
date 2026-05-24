@@ -6,17 +6,12 @@
 
 #import <ContactsUI/CNContactListUndoableAction.h>
 
-@class CNContactFormatter, CNContactStore, CNUICoreRecentsManager, CNUIExternalComponentsFactory, NSArray;
+@class CNUIExternalComponentsFactory;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListDeleteContactsAction : CNContactListUndoableAction
 {
     CNUIExternalComponentsFactory *_componentsFactory;
-    CNUICoreRecentsManager *_recentsManager;
-    CNContactFormatter *_contactFormatter;
-    CNContactStore *_contactStore;
-    long long _originalContactCount;
-    NSArray *_actions;
 }
 
 + (id);
@@ -24,7 +19,7 @@ __attribute__((visibility("hidden")))
 × ;
 + (id)setUserActivity: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)q`;
 - (void);
 - (void);
 - (long long);
@@ -35,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)DRSConfigError;
 - (id);
 - (void),&,N,V_actionsContainerView;
 - (void);
@@ -44,12 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)=j"è;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
 @property(readonly, nonatomic) CNUIExternalComponentsFactory *componentsFactory; // @synthesize componentsFactory=_componentsFactory;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-@property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(nonatomic) long long originalContactCount; // @synthesize originalContactCount=_originalContactCount;
-@property(readonly, nonatomic) CNUICoreRecentsManager *recentsManager; // @synthesize recentsManager=_recentsManager;
 
 @end
 

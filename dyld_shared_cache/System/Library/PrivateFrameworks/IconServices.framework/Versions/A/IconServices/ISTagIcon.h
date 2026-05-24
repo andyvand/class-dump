@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface ISTagIcon : ISBindableIcon
 {
     NSString *_tag;
-    NSString *_tagClass;
-    NSString *_baseType;
 }
 
-+ (_Bool);
++ (_Bool)Q;
 - (id);
 - (id);
+- (id);
+- (id)CadenceIndex;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)/a;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -34,9 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *baseType; // @synthesize baseType=_baseType;
 @property(readonly) NSString *tag; // @synthesize tag=_tag;
-@property(readonly) NSString *tagClass; // @synthesize tagClass=_tagClass;
 
 @end
 

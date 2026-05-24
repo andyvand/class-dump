@@ -4,60 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
-@protocol GEOTransitArtworkDataSource;
+@class PBDataReader;
 
 @interface GEOCompanionGenericStep
 {
     PBDataReader *_reader;
-    struct GEOJunctionElement *_junctionElements;
-    unsigned long long _junctionElementsCount;
-    unsigned long long _junctionElementsSpace;
-    NSMutableArray *_maneuverNames;
-    NSMutableArray *_signposts;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _junctionType;
-    int _maneuverType;
-    int _transportType;
-    struct {
-        unsigned int has_junctionType:1;
-        unsigned int has_maneuverType:1;
-        unsigned int has_transportType:1;
-        unsigned int read_junctionElements:1;
-        unsigned int read_maneuverNames:1;
-        unsigned int read_signposts:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (id);
-+ (_Bool)rOfMatches:(id)arg1;
++ (_Bool)setHasNumberOfMatches:(id)arg1;
 + (Class)@N;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (int);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (unsigned long long);
-- (struct GEOJunctionElement *);
-- (struct GEOJunctionElement);
-- (void);
+- (id)localizedDescriptionForAddressingGrammars:(int)arg1 uppercased: /* Error: Ran out of types for this method. */;
+- (int)localizedDescriptionForAddressingGrammars: /* Error: Ran out of types for this method. */;
+- (unsigned long long)listenerDelegateWithExportedObject:exportedInterfaceProtocol: /* Error: Ran out of types for this method. */;
+- (id)listenerDelegateWithExportedObject:exportedInterfaceProtocol: /* Error: Ran out of types for this method. */;
+- (id)listener:(unsigned long long)arg1 shouldAcceptNewConnection: /* Error: Ran out of types for this method. */;
+- (id)keys;
+- (id)initWithBytes:(int)arg1 length:encoding: /* Error: Ran out of types for this method. */;
+- (int)initWithBundleIdentifier:teamIdentifier:localizedName:activityTypes: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithBundleIdentifier:localizedName:recordType:authorizationStatus: /* Error: Ran out of types for this method. */;
+- (struct GEOJunctionElement *)initWithBundleIdentifier:localizedName:recordType:authorizationStatus: /* Error: Ran out of types for this method. */;
+- (struct GEOJunctionElement)initWithBufferingStrategy:(unsigned long long)arg1 observable: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,14 +47,14 @@
 - (int);
 - (int);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)injectAudio:(id)arg1 toDeviceWithUUID:withfadingTimeWindowLength:handlingDaemon:completion: /* Error: Ran out of types for this method. */;
+- (id)fo:] /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)r;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -84,33 +63,16 @@
 - (id)homeFavoriteSet"b1"has_schoolFavoriteSet"b1"has_transitFavoriteSet"b1"has_workFavoriteSet"b1};
 - (int)d}16d32d40;
 - (void)4b4b36})}16I24@28Q36C44@48@56@?64@?72;
-- (id)thSegments:(struct _NSZone *)arg1;
+- (id)segmentIndexForPointIndex:(struct _NSZone *)arg1 withSegments: /* Error: Ran out of types for this method. */;
 - (id)þôþ;
-- (id)sEvent;
+- (id)directionsEvent;
 - (id);
 - (void)|{× /×K@;
 - (void)Ìû®þV6¼;
 - (int)~Î7;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasJunctionType;
 @property(nonatomic) _Bool hasManeuverType;
-@property(nonatomic) _Bool hasTransportType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct GEOJunctionElement *junctionElements;
-@property(readonly, nonatomic) unsigned long long junctionElementsCount;
-@property(nonatomic) int junctionType;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> maneuverArtworkOverride;
-@property(retain, nonatomic) NSMutableArray *maneuverNames;
-@property(nonatomic) int maneuverType;
-@property(retain, nonatomic) NSMutableArray *signposts;
-@property(readonly) Class superclass;
-@property(nonatomic) int transportType;
 
 @end
 

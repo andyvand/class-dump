@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOGeoServiceTag
 {
     PBUnknownFields *_unknownFields;
-    NSString *_tag;
-    int _serviceType;
-    struct {
-        unsigned int has_serviceType:1;
-    } _flags;
 }
 
 + (id);
-+ (_Bool)ction:(id)arg1;
++ (_Bool)setHasReusedConnection:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -25,29 +20,26 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)4;
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (int)rLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@32Q40;
-- (id)tsInRoutes:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
-- (id)estClientMetaData;
+- (id)setIncidentEndOffsetsInRoutes:(struct _NSZone *)arg1 count: /* Error: Ran out of types for this method. */;
+- (id)GEOABSecondPartyPlaceRequestClientMetaData;
 - (id)terfaces != 0;
-- (_Bool)attribution;
+- (_Bool)suppress_results_requiring_attribution;
 - (id);
 - (void)<ÚqÿPu5N´4;
 - (void)$iÓþ@³;
 
 // Remaining properties
 @property(nonatomic) _Bool hasServiceType;
-@property(nonatomic) int serviceType;
-@property(retain, nonatomic) NSString *tag;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

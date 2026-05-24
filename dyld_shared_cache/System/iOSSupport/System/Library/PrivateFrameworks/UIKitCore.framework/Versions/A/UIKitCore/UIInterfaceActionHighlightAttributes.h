@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
-
 @interface UIInterfaceActionHighlightAttributes
 {
     double _opacity;
-    NSArray *_filters;
-    UIColor *_backgroundColor;
 }
 
+- (id)ishedFetchingAttachmentsFromCloudKit and kicking off a write;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id)ation: /* Error: Ran out of types for this method. */;
-- (_Bool)exPathForItem:(id)arg1;
+- (id)setExifOrientation: /* Error: Ran out of types for this method. */;
+- (_Bool)indexPathForItem:(id)arg1;
 - (void)_trackWidthProportion;
-- (double)itCollectionChanged;
-- (id)wMonitoring;
+- (double)_notifyVisualElementTraitCollectionChanged;
+- (id)_UIVisualEffectViewSubviewMonitoring;
 - (void)<%@:(double)arg1 %p>; backtrace:%@ /* Error: Ran out of types for this method. */;
 - (id)selectedDetentIdentifier;
 - (void)]13ýÿE13ÀönþE13ÔþM13¸õ¸þ;
 - (void)¬yÝþ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) NSArray *filters; // @synthesize filters=_filters;
 @property(nonatomic) double opacity; // @synthesize opacity=_opacity;
 
 @end

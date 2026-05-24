@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTAppRequirement : SISchemaInstrumentationMessage
 {
     _Bool _signInRequired;
-    _Bool _accountSetupRequired;
-    _Bool _userConfirmationRequired;
-    _Bool _hasSignInRequired;
-    _Bool _hasAccountSetupRequired;
-    _Bool _hasUserConfirmationRequired;
-    unsigned long long _whichOneof_Apprequirement;
 }
 
 - (unsigned long long);
@@ -25,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)kC;
 - (_Bool);
 - (void);
 - (void);
@@ -34,27 +26,20 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ؿ;
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)eteFingerprint;
-- (id);
+- (void)deleteFingerprint;
+- (id)setHasLanguage:(id)arg1;
 - (id)´S;
 
 // Remaining properties
-@property(nonatomic) _Bool accountSetupRequired; // @synthesize accountSetupRequired=_accountSetupRequired;
-@property(nonatomic) _Bool hasAccountSetupRequired; // @synthesize hasAccountSetupRequired=_hasAccountSetupRequired;
-@property(nonatomic) _Bool hasSignInRequired; // @synthesize hasSignInRequired=_hasSignInRequired;
-@property(nonatomic) _Bool hasUserConfirmationRequired; // @synthesize hasUserConfirmationRequired=_hasUserConfirmationRequired;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool signInRequired; // @synthesize signInRequired=_signInRequired;
-@property(nonatomic) _Bool userConfirmationRequired; // @synthesize userConfirmationRequired=_userConfirmationRequired;
-@property(readonly, nonatomic) unsigned long long whichOneof_Apprequirement; // @synthesize whichOneof_Apprequirement=_whichOneof_Apprequirement;
 
 @end
 

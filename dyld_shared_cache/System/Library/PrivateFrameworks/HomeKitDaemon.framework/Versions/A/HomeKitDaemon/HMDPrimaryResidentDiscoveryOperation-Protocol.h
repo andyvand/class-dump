@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDPrimaryResidentDiscoveryLogEvent, HMDResidentDevice, HMFFuture, NSError, NSUUID;
+@class HMDResidentDevice, HMFFuture, NSUUID;
 
 @protocol HMDPrimaryResidentDiscoveryOperation
+- (NSUUID *)MSPSharedTripSenderStrategyController;
+- (HMDResidentDevice *)MSPContainerEditReplacedEntirely;
+- (HMFFuture *)%{public}@;
 - (_Bool)public}@Retrying fetching share metadata for URL %{mask.hash}@ in %{public}@s due to error:%@ /* Error: Ran out of types for this method. */;
-- (void)orSuspendedAccessory;
+- (void)AccessoryReaderWriterMessageWriteTimeoutForSuspendedAccessory;
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly) HMFFuture *completionFuture;
-@property(readonly) HMDResidentDevice *currentPrimaryResident;
-@property(readonly) NSUUID *currentPrimaryResidentGenerationID;
-@property(readonly) NSError *error;
 @property(readonly) HMFFuture *initialDiscoveryAttemptCompletionFuture;
-@property(readonly) HMDPrimaryResidentDiscoveryLogEvent *logEvent;
 @end
 

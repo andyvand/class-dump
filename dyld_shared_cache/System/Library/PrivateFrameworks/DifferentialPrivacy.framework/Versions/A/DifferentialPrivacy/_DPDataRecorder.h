@@ -4,49 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _DPKeyProperties;
+@class NSString;
 
 @interface _DPDataRecorder
 {
     _Bool _directUpload;
-    NSObject *_randomizer;
-    double _privacyParameter;
-    unsigned long long _range;
-    NSString *_keyName;
-    _DPKeyProperties *_keyProperties;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)P;
 - (void);
 - (id);
-- (double);
+- (id);
+- (void);
+- (id);
+- (double);
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (void)sharedProfilePictureStoreForAccount:(id)arg1;
+- (void);
+- (id);
+- (void)';
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)SPSystemAutoFillServiceViewControllerProtocol;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool directUpload; // @synthesize directUpload=_directUpload;
 @property(readonly, copy, nonatomic) NSString *keyName; // @synthesize keyName=_keyName;
-@property(readonly, nonatomic) _DPKeyProperties *keyProperties; // @synthesize keyProperties=_keyProperties;
-@property(readonly, nonatomic) double privacyParameter; // @synthesize privacyParameter=_privacyParameter;
-@property(readonly, nonatomic) NSObject *randomizer; // @synthesize randomizer=_randomizer;
-@property(readonly, nonatomic) unsigned long long range; // @synthesize range=_range;
 
 @end
 

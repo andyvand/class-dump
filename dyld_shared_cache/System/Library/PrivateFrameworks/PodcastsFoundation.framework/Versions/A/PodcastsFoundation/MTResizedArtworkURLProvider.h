@@ -12,7 +12,7 @@
 + (id)ogUGSo15SHCustomCatalogCG;
 - (id);
 - (id);
-- (void)_;
+- (void)SbIegr_;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol CAAnimationDelegate
+
+@optional
+- (void);
+- (void)ks/CoreVideo.framework/Versions/A/CoreVideo;
 @end
 

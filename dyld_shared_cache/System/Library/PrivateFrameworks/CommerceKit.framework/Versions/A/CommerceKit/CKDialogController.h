@@ -7,12 +7,10 @@
 #import <CommerceKit/CKServiceInterface.h>
 
 @class NSLock;
-@protocol ISUIHostProtocol;
 
 @interface CKDialogController : CKServiceInterface
 {
     NSLock *_lock;
-    id <ISUIHostProtocol> _delegate;
 }
 
 + (id);

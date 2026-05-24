@@ -8,29 +8,1457 @@
 {
 }
 
++ (void)Retina"B}"lineHeight"d"characterWidth_texture"s"characterWidth_typography"^d"characterHeight_texture"s"symbolRects"^{?}};
++ (void)2              = is_function_constant_defined(use_light2) && dummy_iesCube2;
+
+constant bool dummy_ies3                = LIGHT_TYPE(use_light3) == kC3DLightTypeIES;
+constant bool dummy_iesType2d3          = (LIGHT_IES_TYPE(use_light3) != kC3DLightIESTypeCubemap);
+constant bool dummy_iesTypeCube3        = (LIGHT_IES_TYPE(use_light3) == kC3DLightIESTypeCubemap);
+constant bool dummy_ies2d3              = dummy_ies3 && dummy_iesType2d3;
+constant bool dummy_iesCube3            = dummy_ies3 && dummy_iesTypeCube3;
+constant bool use_ies3                  = is_function_constant_defined(use_light3) && dummy_ies2d3;
+constant bool use_iesCube3              = is_function_constant_defined(use_light3) && dummy_iesCube3;
+
+constexpr sampler linearSampler(filter::linear, mip_filter::linear);
+constexpr sampler shadowSampler(filter::linear, mip_filter::none, compare_func::greater_equal);
+
+
+
+#define MAX_LIGHT_COUNT 8
+
+typedef struct {
+
+    
+    float4x4 modelViewTransform;            
+    
+    float4x4 normalTransform;               
+    
+    float4x4 modelTransform;            
+
+    uint8_t lightIndices[MAX_LIGHT_COUNT];  
+    float nodeOpacity;                      
+    
+} scn_std_node;
+
+typedef struct {
+    float3 position         [[ attribute(SCNVertexSemanticPosition)]];
+    float3 normal           [[ attribute(SCNVertexSemanticNormal),      function_constant(need_normal) ]];
+    float4 tangent          [[ attribute(SCNVertexSemanticTangent),     function_constant(need_tangent) ]];
+    float4 color            [[ attribute(SCNVertexSemanticColor)        function_constant(need_vertex_color) ]];
+    float2 texcoord0        [[ attribute(SCNVertexSemanticTexcoord0),   function_constant(need_texcoord0) ]];
+    float2 texcoord1        [[ attribute(SCNVertexSemanticTexcoord1),   function_constant(need_texcoord1) ]];
+    float2 texcoord2        [[ attribute(SCNVertexSemanticTexcoord2),   function_constant(need_texcoord2) ]];
+    float2 texcoord3        [[ attribute(SCNVertexSemanticTexcoord3),   function_constant(need_texcoord3) ]];
+    float2 texcoord4        [[ attribute(SCNVertexSemanticTexcoord4),   function_constant(need_texcoord4) ]];
+    float2 texcoord5        [[ attribute(SCNVertexSemanticTexcoord5),   function_constant(need_texcoord5) ]];
+    float2 texcoord6        [[ attribute(SCNVertexSemanticTexcoord6),   function_constant(need_texcoord6) ]];
+    float2 texcoord7        [[ attribute(SCNVertexSemanticTexcoord7),   function_constant(need_texcoord7) ]];
+} scn_vertex_t; 
+
+
+
+typedef struct {
+    float4 fragmentPosition [[position]]; 
+    
+    float fragmentSize  [[ point_size, function_constant(use_point_rendering) ]];
+    float4 vertexColor  [[ function_constant(use_io_vertex_color) ]];
+    float3 position     [[ function_constant(use_io_position) ]];
+    float3 normal       [[ function_constant(use_io_normal) ]];
+    float3 tangent      [[ function_constant(need_tangent) ]];
+    float3 bitangent    [[ function_constant(need_tangent) ]];
+
+    
+    float2 texcoord0    [[ function_constant(use_io_texcoord0) ]];
+    float2 texcoord1    [[ function_constant(use_io_texcoord1) ]];
+    float2 texcoord2    [[ function_constant(use_io_texcoord2) ]];
+    float2 texcoord3    [[ function_constant(use_io_texcoord3) ]];
+    float2 texcoord4    [[ function_constant(use_io_texcoord4) ]];
+    float2 texcoord5    [[ function_constant(use_io_texcoord5) ]];
+    float2 texcoord6    [[ function_constant(use_io_texcoord6) ]];
+    float2 texcoord7    [[ function_constant(use_io_texcoord7) ]];
+
+    float3 diffuse      [[ function_constant(use_per_vertex_diffuse) ]];
+    float3 specular     [[ function_constant(use_per_vertex_specular) ]];
+    
+#ifdef USE_EXTRA_VARYINGS
+    __ExtraVaryingsDecl__
+#endif
+    
+} commonprofile_io;
+
+struct SCNShaderSurface {
+    float3 view;                
+    float3 position;            
+    float3 normal;              
+    float3 geometryNormal;      
+    float2 normalTexcoord;      
+    float3 tangent;             
+    float3 bitangent;           
+    float4 ambient;             
+    float2 ambientTexcoord;     
+    float4 diffuse;             
+    float2 diffuseTexcoord;     
+    float4 specular;            
+    float2 specularTexcoord;    
+    float4 emission;            
+    float2 emissionTexcoord;    
+    float4 multiply;            
+    float2 multiplyTexcoord;    
+    float4 transparent;         
+    float2 transparentTexcoord; 
+    float4 reflective;          
+    float  metalness;           
+    float2 metalnessTexcoord;   
+    float  roughness;           
+    float2 roughnessTexcoord;   
+    float shininess;            
+    float fresnel;              
+    float ambientOcclusion;     
+    float3 _normalTS;           
+    
+#ifdef USE_SURFACE_EXTRA_DECL
+    __SurfaceExtraDecl__
+#endif
+};
+
+struct SCNShaderGeometry
+{
+    float4 position;
+    float3 normal;
+    float4 tangent;
+    float4 color;
+    float2 texcoords[8]; 
+};
+
+struct commonprofile_uniforms {
+    float4 diffuseColor;
+    float4 specularColor;
+    float4 ambientColor;
+    float4 emissionColor;
+    float4 reflectiveColor;
+    float4 multiplyColor;
+    float4 transparentColor;
+    float metalness;
+    float roughness;
+    
+    float diffuseIntensity;
+    float specularIntensity;
+    float normalIntensity;
+    float ambientIntensity;
+    float emissionIntensity;
+    float reflectiveIntensity;
+    float multiplyIntensity;
+    float transparentIntensity;
+    float metalnessIntensity;
+    float roughnessIntensity;
+    float displacementIntensity;
+    
+    float materialShininess;
+    float selfIlluminationOcclusion;
+    float transparency;
+    float3 fresnel; 
+    
+    
+    float4x4 textureTransforms[1];
+};
+
+
+#ifdef USE_SHADER_MODIFIERS
+__ShaderModifiersDecl__
+#endif
+
+
+
+
+struct SCNShaderLightingContribution {
+    float3 ambient;
+    float3 diffuse;
+    float3 specular;
+    float3 modulate;
+};
+
+
+
+
+struct SCNLightingParameters {
+    
+    SCNLightData        lightData;
+    uint                lightInfo;
+    float3              lightDirection;
+    float3              attenuation;
+    SCNShaderSurface    surface;
+};
+
+
+static float3 scn_lighting_direction(SCNLightData lightData, uint lightInfo, thread SCNShaderSurface& surface)
+{
+    uint lightType = LIGHT_TYPE(lightInfo);
+    if (lightType == kC3DLightTypeDirectional) {
+        return lightData.direction;
+    }
+    return normalize(lightData.position - surface.position);
+}
+
+    
+static void scn_lambert_lighting(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContribution)
+{
+    SCNLightData lightData      = params.lightData;
+    SCNShaderSurface surface    = params.surface;
+    float3 l                    = params.lightDirection;
+    
+    float3 intensity = lightData.color.rgb * max(0.f, dot(surface.normal, l));
+    lightingContribution.diffuse += intensity;
+}
+
+static void scn_blinn_lighting(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContribution)
+{
+    SCNLightData lightData      = params.lightData;
+    SCNShaderSurface surface    = params.surface;
+    float3 l                    = params.lightDirection;
+
+    float3 intensity =  lightData.color.rgb * max(0.f, dot(surface.normal, l));
+    lightingContribution.diffuse += intensity;
+
+    float3 h = normalize(l + surface.view);
+    lightingContribution.specular += powr(max(0.f, dot(surface.normal, h)), surface.shininess) * intensity;
+}
+
+static void scn_phong_lighting(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContribution)
+{
+    SCNLightData lightData      = params.lightData;
+    SCNShaderSurface surface    = params.surface;
+    float3 l                    = params.lightDirection;
+    
+    float3 intensity = lightData.color.rgb * max(0.f, dot(surface.normal, l));
+    lightingContribution.diffuse += intensity;
+    
+    float3 r = reflect(-l, surface.normal);
+    lightingContribution.specular += pow(max(0.f, dot(r, surface.view)), surface.shininess) * intensity;
+}
+
+inline void scn_pbr_lightingContribution_pointLight(float3         l,
+                                                    float3         n,
+                                                    float3         v,
+                                                    float3         albedo,
+                                                    float          metalness,
+                                                    float          roughness,
+                                                    thread float3& lightingContributionDiffuse,
+                                                    thread float3& lightingContributionSpecular)
+{
+    float3 h = normalize(l + v);
+    
+    float NoL = saturate(dot(n, l));
+    float NoH = saturate(dot(n, h));
+    float LoH = saturate(dot(l, h));
+    
+    float  effectiveAlbedo = (1.f - metalness); 
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    float alpha = roughness * roughness; 
+    
+    float D   = scn_brdf_D(alpha, NoH);
+    float3 F  = scn_brdf_F_opt(reflectance, LoH);
+#if 0 
+    float Vis = scn_brdf_V_opt(alpha, LoH);
+#else
+    float NoV = saturate(dot(n, v));
+    float Vis = scn_brdf_V(alpha, NoL, NoV);
+#endif
+    
+    lightingContributionDiffuse = NoL * effectiveAlbedo * M_1_PI_F;
+    lightingContributionSpecular = NoL * D * F * Vis;
+}
+
+static void scn_pbr_lighting(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContribution)
+{
+    SCNLightData lightData      = params.lightData;
+    SCNShaderSurface surface    = params.surface;
+    float3 l                    = params.lightDirection;
+    
+    float3 diffuseOut, specularOut;
+    scn_pbr_lightingContribution_pointLight(l, surface.normal.xyz, surface.view, surface.diffuse.rgb, surface.metalness, surface.roughness, diffuseOut, specularOut);
+    
+    lightingContribution.diffuse    += diffuseOut  * lightData.pbrColor.rgb;
+    lightingContribution.specular   += specularOut * lightData.pbrColor.rgb;
+}
+
+static float scn_distance_attenuation(SCNLightingParameters params)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+
+    float3 l = params.surface.position - lightData.position;
+
+    if (use_pbr) {
+        uint lightType = LIGHT_TYPE(lightInfo);
+        if (lightType == kC3DLightTypeDirectional) { 
+            return 1.f;
+        }
+        return scn_pbr_distanceAttenuation(l);
+    } else {
+        uint distAttType = LIGHT_DIST_ATT(lightInfo);
+        if (distAttType != kC3DLightAttenuationTypeNone) {
+            
+            float3 att = lightData.distanceAttenuation;
+            float dist = length(l);
+            switch (distAttType) {
+                case kC3DLightAttenuationTypeConstant:return step(dist, att.x);
+                case kC3DLightAttenuationTypeLinear:return saturate(dist * att.x + att.y);
+                case kC3DLightAttenuationTypeQuadratic:return scn::sq(saturate(dist * att.x + att.y));
+                case kC3DLightAttenuationTypeExponent:return pow(saturate(dist * att.x + att.y), att.z);
+            }
+        }
+    }
+    return 1.f;
+}
+
+static float scn_spot_attenuation(SCNLightingParameters params)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    float3 l                = params.lightDirection;
+    
+    uint spotAttType = LIGHT_SPOT_ATT(lightInfo);
+    if (spotAttType != kC3DLightAttenuationTypeNone) {
+        
+        float3 spotFactors = lightData.spotAttenuation;
+        switch (spotAttType) {
+            case kC3DLightAttenuationTypeConstant:return step(spotFactors.x, dot(l, lightData.direction));
+            case kC3DLightAttenuationTypeLinear:return saturate(dot(l, lightData.direction) * spotFactors.x + spotFactors.y);
+            case kC3DLightAttenuationTypeQuadratic:return scn::sq(saturate(dot(l, lightData.direction) * spotFactors.x + spotFactors.y));
+            case kC3DLightAttenuationTypeExponent:return pow(saturate(dot(l, lightData.direction) * spotFactors.x + spotFactors.y), spotFactors.z);
+        }
+    }
+    return 1.f;
+}
+
+
+
+static void scn_do_gobo(thread SCNLightingParameters& params, texture2d<float> goboMap)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    float goboIntensity = lightData.color.a; 
+    float3 goboColor = texture2DProj(goboMap, linearSampler, (lightData.shadowMatrix * float4(params.surface.position, 1.f))).rgb;
+    if (LIGHT_IS_MODULATE(lightInfo)) {
+        params.attenuation *= mix(float3(1.), goboColor, goboIntensity);
+    } else {
+        params.attenuation *= goboColor * goboIntensity;
+    }
+}
+
+
+static void scn_do_ies(thread SCNLightingParameters& params, texture2d<float> iesMap, sampler iesSampler)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    
+    params.lightDirection   = scn_lighting_direction(params.lightData, lightInfo, params.surface);
+    float3 spotFactors      = lightData.spotAttenuation;
+
+    float att = 0.f;
+    switch (LIGHT_IES_TYPE(lightInfo)) {
+        case kC3DLightIESType1D:att = iesMap.sample(iesSampler, float2(acos(dot(params.lightDirection, lightData.direction))*spotFactors.x, 0.f)).r;
+            break;
+            
+        case kC3DLightIESType2D:{
+            
+            float vertAngle     = acos(dot(params.lightDirection, lightData.direction));
+            
+            float3 surfaceRay   = params.surface.position - lightData.position;
+            float3 projPos = normalize(surfaceRay - dot(surfaceRay, lightData.direction) * lightData.direction);
+            float2 texCoord = float2(dot(projPos, lightData.right), dot(projPos, lightData.up)) * vertAngle * spotFactors.x;
+            att = iesMap.sample(iesSampler, texCoord * 0.5f + 0.5f).r;
+            
+        } break;
+    }
+    params.attenuation.rgb *= att;
+}
+
+
+static void scn_do_ies(thread SCNLightingParameters& params, texturecube<float> iesMap, sampler iesSampler)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    
+    params.lightDirection   = scn_lighting_direction(params.lightData, lightInfo, params.surface);
+
+    if (LIGHT_IES_TYPE(lightInfo) == kC3DLightIESTypeCubemap) {
+        float att = iesMap.sample(iesSampler, (lightData.shadowMatrix * float4(params.surface.position, 1.f)).xyz).r;
+        params.attenuation.rgb *= att;
+    } 
+}
+
+static void scn_do_shadow(thread SCNLightingParameters& params, depth2d<float> shadowMap, constant float4* u_shadowKernel)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    
+    uchar sampleCount = LIGHT_SHADOW_SAMPLE(lightInfo);
+    
+    float4 lightScreen = lightData.shadowMatrix * float4(params.surface.position, 1.f);
+    
+    float shadowRadius = lightData.shadowRadius;
+    
+    float shadowingTerm = 0.f;
+    if (sampleCount > 1) { 
+        float filteringSizeFactor = shadowRadius * lightScreen.w;
+        for (int i = 0; i < sampleCount; i++) {
+            
+            shadowingTerm += shadow2DProj(shadowSampler, shadowMap, lightScreen + (u_shadowKernel[i] * filteringSizeFactor));
+        }
+        shadowingTerm /= float(sampleCount);
+    } else {
+        shadowingTerm = shadow2DProj(shadowSampler, shadowMap, lightScreen);
+    }
+    
+    
+    
+    params.attenuation *= (1.f - shadowingTerm * lightData.color.a);
+}
+
+static void scn_do_light(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContrib)
+{
+    uint lightInfo          = params.lightInfo;
+
+    
+    params.lightDirection   = scn_lighting_direction(params.lightData, lightInfo, params.surface);
+    
+    
+
+    
+    float attenuation = scn_distance_attenuation(params);
+    
+    
+    uint lightType = LIGHT_TYPE(lightInfo);
+    if (lightType == kC3DLightTypeSpot) {
+        attenuation *= scn_spot_attenuation(params);
+    }
+
+    params.attenuation *= attenuation;
+
+    
+    params.lightData.color.rgb *= params.attenuation;
+    params.lightData.pbrColor.rgb *= params.attenuation;
+
+    switch (lighting_model) {
+        case C3DLightingModelLambert:scn_lambert_lighting(params, lightingContrib);
+            break;
+        case C3DLightingModelBlinn:scn_blinn_lighting(params, lightingContrib);
+            break;
+        case C3DLightingModelPhong:scn_phong_lighting(params, lightingContrib);
+            break;
+        case C3DLightingModelPhysicallyBased:scn_pbr_lighting(params, lightingContrib);
+            break;
+        default:break;
+            
+            
+    }
+}
+
+
+
+inline SCNPBRSurface SCNShaderSurfaceToSCNPBRSurface(SCNShaderSurface surface)
+{
+    SCNPBRSurface s;
+    
+    s.n = surface.normal;
+    s.v = surface.view;
+    s.albedo = surface.diffuse.xyz;
+    
+    if (use_emission)
+        s.emission = surface.emission.xyz;
+    else
+        s.emission = float3(0.);
+    
+    s.metalness = surface.metalness;
+    s.roughness = surface.roughness;
+    s.ao = surface.ambientOcclusion;
+    return s;
+}
+
+
+static float4 scn_pbr_combine_cubemap(SCNPBRSurface                      surface,
+                                     SCNShaderLightingContribution      lighting,
+                                     texture2d<float, access::sample>   specularDFG,
+                                     texturecube<float, access::sample> specularLD,
+                                     texturecube<float, access::sample> irradianceTexture,
+                                     constant SCNSceneBuffer&           scn_frame)
+{
+    
+    float4x4 localDirToWorldCubemapDir = scn_frame.viewToCubeTransform;
+    float environmentIntensity = scn_frame.environmentIntensity;
+    
+    float3 n = surface.n;
+    float3 v = surface.v;
+    float3 albedo = surface.albedo;
+    float metalness = surface.metalness;
+    float roughness = surface.roughness;
+    float ambientOcclusion = surface.ao;
+    
+    float3 r = reflect(-v, n); 
+    float NoV = saturate(dot(n, v));
+    
+    float3 diffuseDominantNDirection = n;
+    float3 specularDominantNDirection = r;
+    
+    
+    diffuseDominantNDirection = scn::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+    
+    float3 irradiance;
+    if (use_emission_as_selfIllumination) {
+        irradiance = surface.emission;
+    } else {
+        
+        irradiance = irradianceTexture.sample(linearSampler, diffuseDominantNDirection).rgb * environmentIntensity;
+    }
+    
+    
+    float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+    
+    float3 LD = specularLD.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection), level(mipLevel)).rgb * environmentIntensity;
+    float2 DFG = specularDFG.sample(linearSampler, float2(NoV, roughness)).rg;
+    
+    float3 effectiveAlbedo = mix(albedo, float3(0.0), metalness);
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    float3 diffuse = effectiveAlbedo * irradiance;
+    float3 specular = LD * (reflectance * DFG.r + DFG.g);
+    
+    
+    float3 ibl_color;
+    if (use_emission_as_selfIllumination) { 
+        
+        float selfIlluminationAmbientOcclusion = saturate(mix(1., ambientOcclusion, surface.selfIlluminationOcclusion));
+        ibl_color = selfIlluminationAmbientOcclusion * diffuse + ambientOcclusion * specular;
+    } else {
+        ibl_color = ambientOcclusion * (diffuse + specular);
+    }
+    
+    float4 color;
+    color.rgb = (lighting.ambient * surface.ao + lighting.diffuse) * surface.albedo.rgb + lighting.specular + ibl_color;
+    
+    if (use_emission && !use_emission_as_selfIllumination)
+        color.rgb += surface.emission.rgb;
+    
+    return color;
+}
+
+static float4 scn_pbr_combine_probes(SCNPBRSurface                      surface,
+                              SCNShaderLightingContribution      lighting,
+                              texture2d<float, access::sample>   specularDFG,
+                              texturecube<float, access::sample> specularLD,
+                              sh3_coefficients                   shCoefficients,
+                              constant SCNSceneBuffer&           scn_frame)
+{
+    
+    float4x4 localDirToWorldCubemapDir = scn_frame.viewToCubeTransform;
+    float environmentIntensity = scn_frame.environmentIntensity;
+    
+    float3 n = surface.n;
+    float3 v = surface.v;
+    float3 albedo = surface.albedo;
+    float metalness = surface.metalness;
+    float roughness = surface.roughness;
+    float ambientOcclusion = surface.ao;
+    
+    float3 r = reflect(-v, n); 
+    float NoV = saturate(dot(n, v));
+    
+    float3 diffuseDominantNDirection = n;
+    float3 specularDominantNDirection = r;
+    
+    
+    diffuseDominantNDirection = scn::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+    
+    float3 irradiance;
+    if (use_emission_as_selfIllumination) {
+        irradiance = surface.emission;
+    } else {
+        irradiance = shEvalDirection(float4(diffuseDominantNDirection, 1.), shCoefficients) * environmentIntensity;
+    }
+    
+    
+    float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+    
+    float3 LD = specularLD.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection), level(mipLevel)).rgb * environmentIntensity;
+    float2 DFG = specularDFG.sample(linearSampler, float2(NoV, roughness)).rg;
+    
+    float3 effectiveAlbedo = mix(albedo, float3(0.0), metalness);
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    float3 diffuse = effectiveAlbedo * irradiance;
+    float3 specular = LD * (reflectance * DFG.r + DFG.g);
+    
+    
+    float3 ibl_color;
+    if (use_emission_as_selfIllumination) { 
+        
+        float selfIlluminationAmbientOcclusion = saturate(mix(1., ambientOcclusion, surface.selfIlluminationOcclusion));
+        ibl_color = selfIlluminationAmbientOcclusion * diffuse + ambientOcclusion * specular;
+    } else {
+        ibl_color = ambientOcclusion * (diffuse + specular);
+    }
+    
+    float4 color;
+    color.rgb = (lighting.ambient * surface.ao + lighting.diffuse) * surface.albedo.rgb + lighting.specular + ibl_color;
+    
+    if (use_emission && !use_emission_as_selfIllumination)
+        color.rgb += surface.emission.rgb;
+    
+    return color;
+}
+
+inline float4 illuminate(SCNShaderSurface surface, SCNShaderLightingContribution lighting)
+{
+    float4 color = {0.,0.,0., surface.diffuse.a};
+    
+    float3 D = lighting.diffuse;
+    if (use_ambient_lighting)
+        D += lighting.ambient * surface.ambientOcclusion;
+    if (use_emission_as_selfIllumination)
+        D += surface.emission.rgb;
+
+    
+    color.rgb = surface.diffuse.rgb * D;
+    if (use_specular || use_reflective) {
+        float3 S = (use_specular) ? lighting.specular :float3(0.);
+        if (use_reflective)
+            S += surface.reflective.rgb * surface.ambientOcclusion;
+        if (use_specular)
+            S *= surface.specular.rgb;
+        color.rgb += S;
+    }
+    
+    if (use_ambient && !use_ambient_as_ambientOcclusion)
+        color.rgb += surface.ambient.rgb * lighting.ambient;
+    if (use_emission && !use_emission_as_selfIllumination)
+        color.rgb += surface.emission.rgb;
+    if (use_multiply)
+        color.rgb *= surface.multiply.rgb;
+    if (use_modulate_lighting)
+        color.rgb *= lighting.modulate;
+    return color;
+}
+
+
+
+struct scn_patch_t {
+    patch_control_point<scn_vertex_t> controlPoints;
+};
+
+static void standard_initalize_surface(thread SCNShaderSurface&  surface,
+                                       thread SCNShaderGeometry& geometry,
+                                       thread scn_std_node&      in_node)
+{
+    
+    surface.position = (in_node.modelViewTransform * geometry.position).xyz;
+    
+    if (use_io_normal)
+        surface.normal = normalize(scn::mat3(in_node.normalTransform) * geometry.normal);
+    
+    if (need_tangent) {
+        surface.tangent = normalize(scn::mat3(in_node.normalTransform) * geometry.tangent.xyz);
+        
+        surface.bitangent = geometry.tangent.w * cross(surface.tangent, surface.normal);
+    }
+   
+    if (use_io_view)
+        surface.view = normalize(-surface.position);
+}
+
+static void standard_initalize_geometry(thread scn_vertex_t&      in,
+                                        thread SCNShaderGeometry& geometry)
+{
+    geometry.position = float4(in.position, 1.f);
+    
+    if (need_normal)
+        geometry.normal = in.normal;
+    
+    if (need_tangent)
+        geometry.tangent = in.tangent;
+    
+    if (need_texcoord0)
+        geometry.texcoords[0] = in.texcoord0;
+    if (need_texcoord1)
+        geometry.texcoords[1] = in.texcoord1;
+    if (need_texcoord2)
+        geometry.texcoords[2] = in.texcoord2;
+    if (need_texcoord3)
+        geometry.texcoords[3] = in.texcoord3;
+    if (need_texcoord4)
+        geometry.texcoords[4] = in.texcoord4;
+    if (need_texcoord5)
+        geometry.texcoords[5] = in.texcoord5;
+    if (need_texcoord6)
+        geometry.texcoords[6] = in.texcoord6;
+    if (need_texcoord7)
+        geometry.texcoords[7] = in.texcoord7;
+    
+    geometry.color = (need_vertex_color) ? in.color :float4(1.f);
+}
+
+static void standard_initalize_geometry_post_tessellation(thread scn_patch_t&       in,
+                                                          thread SCNShaderGeometry& geometry,
+                                                          float3                    patchCoord)
+{
+    geometry.position = float4(scn::barycentric_mix(in.controlPoints[0].position, in.controlPoints[1].position, in.controlPoints[2].position, patchCoord), 1.0);
+    
+    if (need_normal)
+        geometry.normal = normalize(scn::barycentric_mix(in.controlPoints[0].normal, in.controlPoints[1].normal, in.controlPoints[2].normal, patchCoord));
+    
+    if (need_tangent)
+        geometry.tangent = normalize(scn::barycentric_mix(in.controlPoints[0].tangent, in.controlPoints[1].tangent, in.controlPoints[2].tangent, patchCoord));
+    
+    if (need_texcoord0)
+        geometry.texcoords[0] = scn::barycentric_mix(in.controlPoints[0].texcoord0, in.controlPoints[1].texcoord0, in.controlPoints[2].texcoord0, patchCoord);
+    if (need_texcoord1)
+        geometry.texcoords[1] = scn::barycentric_mix(in.controlPoints[0].texcoord1, in.controlPoints[1].texcoord1, in.controlPoints[2].texcoord1, patchCoord);
+    if (need_texcoord2)
+        geometry.texcoords[2] = scn::barycentric_mix(in.controlPoints[0].texcoord2, in.controlPoints[1].texcoord2, in.controlPoints[2].texcoord2, patchCoord);
+    if (need_texcoord3)
+        geometry.texcoords[3] = scn::barycentric_mix(in.controlPoints[0].texcoord3, in.controlPoints[1].texcoord3, in.controlPoints[2].texcoord3, patchCoord);
+    if (need_texcoord4)
+        geometry.texcoords[4] = scn::barycentric_mix(in.controlPoints[0].texcoord4, in.controlPoints[1].texcoord4, in.controlPoints[2].texcoord4, patchCoord);
+    if (need_texcoord5)
+        geometry.texcoords[5] = scn::barycentric_mix(in.controlPoints[0].texcoord5, in.controlPoints[1].texcoord5, in.controlPoints[2].texcoord5, patchCoord);
+    if (need_texcoord6)
+        geometry.texcoords[6] = scn::barycentric_mix(in.controlPoints[0].texcoord6, in.controlPoints[1].texcoord6, in.controlPoints[2].texcoord6, patchCoord);
+    if (need_texcoord7)
+        geometry.texcoords[7] = scn::barycentric_mix(in.controlPoints[0].texcoord7, in.controlPoints[1].texcoord7, in.controlPoints[2].texcoord7, patchCoord);
+    
+    geometry.color = (need_vertex_color) ? scn::barycentric_mix(in.controlPoints[0].color, in.controlPoints[1].color, in.controlPoints[2].color, patchCoord) :float4(1.f);
+}
+
+static void standard_configure_out(constant commonprofile_uniforms& commonprofile,
+                                   thread SCNShaderSurface&         surface,
+                                   thread SCNShaderGeometry&        geometry,
+                                   thread commonprofile_io&         out)
+{
+    if (use_io_position)
+        out.position = surface.position;
+    
+    if (use_io_normal)
+        out.normal = surface.normal;
+    
+    if (need_tangent) {
+        out.tangent = surface.tangent;
+        out.bitangent = surface.bitangent;
+    }
+    
+    if (use_io_vertex_color)
+        out.vertexColor = geometry.color;
+    
+    float2 uvOut[kSCNTexcoordCount];
+    
+    if (is_function_constant_defined(diffuse_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ diffuse_channel ];
+        if (is_function_constant_defined(diffuse_transform_index))
+            uv = (commonprofile.textureTransforms[diffuse_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ diffuse_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(normal_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ normal_channel ];
+        if (is_function_constant_defined(normal_transform_index))
+            uv = (commonprofile.textureTransforms[normal_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ normal_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(transparent_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ transparent_channel ];
+        if (is_function_constant_defined(transparent_transform_index))
+            uv = (commonprofile.textureTransforms[transparent_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ transparent_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(emission_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ emission_channel ];
+        if (is_function_constant_defined(emission_transform_index))
+            uv = (commonprofile.textureTransforms[emission_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ emission_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(ambient_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ ambient_channel ];
+        if (is_function_constant_defined(ambient_transform_index))
+            uv = (commonprofile.textureTransforms[ambient_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ ambient_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(multiply_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ multiply_channel ];
+        if (is_function_constant_defined(multiply_transform_index))
+            uv = (commonprofile.textureTransforms[multiply_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ multiply_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(specular_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ specular_channel ];
+        if (is_function_constant_defined(specular_transform_index))
+            uv = (commonprofile.textureTransforms[specular_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ specular_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(roughness_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ roughness_channel ];
+        if (is_function_constant_defined(roughness_transform_index))
+            uv = (commonprofile.textureTransforms[roughness_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ roughness_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(metalness_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ metalness_channel ];
+        if (is_function_constant_defined(metalness_transform_index))
+            uv = (commonprofile.textureTransforms[metalness_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ metalness_texcoord_io_index ] = uv;
+    }
+    
+    switch (io_texcoord_count - 1) {
+        case 7 :out.texcoord7 = uvOut[7];
+        case 6 :out.texcoord6 = uvOut[6];
+        case 5 :out.texcoord5 = uvOut[5];
+        case 4 :out.texcoord4 = uvOut[4];
+        case 3 :out.texcoord3 = uvOut[3];
+        case 2 :out.texcoord2 = uvOut[2];
+        case 1 :out.texcoord1 = uvOut[1];
+        case 0 :out.texcoord0 = uvOut[0];
+    }
+}
+
+vertex commonprofile_io standard_vert(scn_vertex_t                      in                        [[ stage_in ]],
+                                      constant SCNSceneBuffer&          scn_frame                 [[ buffer(0) ]],
+                                      constant scn_std_node&            scn_node                  [[ buffer(1), function_constant(use_no_instancing) ]],
+                                      
+                                      device scn_std_node*              scn_nodes                 [[ buffer(1), function_constant(use_instancing) ]],
+                                      device SCNLightData*              scn_lights                [[ buffer(2), function_constant(use_per_vertex_lighting) ]],
+                                      constant commonprofile_uniforms&  scn_commonprofile         [[ buffer(3) ]],
+                                      uint                              instanceID                [[ instance_id, function_constant(use_instancing) ]]
+                                      
+#ifdef USE_VERTEX_EXTRA_ARGUMENTS
+                                      __VertexExtraArguments__
+#endif
+                                      )
+{
+    scn_std_node in_node;
+    if (use_instancing) {
+        in_node = scn_nodes[instanceID];
+    } else {
+        in_node = scn_node;
+    }
+
+    SCNShaderGeometry _geometry;
+    standard_initalize_geometry(in, _geometry);
+    
+#ifdef USE_GEOMETRY_MODIFIER
+
+__DoGeometryModifier__
+
+#endif
+    
+    
+    SCNShaderSurface _surface;
+    standard_initalize_surface(_surface, _geometry, in_node);
+
+    commonprofile_io out;
+    
+    
+    if (use_per_vertex_lighting) {
+        SCNShaderLightingContribution _lightingContribution;
+        _lightingContribution.diffuse = 0.;
+        _lightingContribution.specular = 0.;
+        _surface.shininess = scn_commonprofile.materialShininess;
+
+        
+        
+
+        out.diffuse = _lightingContribution.diffuse;
+        if (use_specular)
+            out.specular = _lightingContribution.specular;
+    }
+
+    standard_configure_out(scn_commonprofile, _surface, _geometry, out);
+    
+    
+    
+
+    out.fragmentPosition = scn_frame.projectionTransform * float4(_surface.position, 1.f);
+    
+    if (use_point_rendering) 
+        out.fragmentSize = 1.f;
+    return out;
+}
+
+[[ patch(triangle, 3) ]]
+vertex commonprofile_io standard_post_tessellation_vert(scn_patch_t                       in                        [[ stage_in ]],
+                                                        float3                            patchCoord                [[ position_in_patch ]],
+                                                        constant SCNSceneBuffer&          scn_frame                 [[ buffer(0) ]],
+                                                        constant scn_std_node&            scn_node                  [[ buffer(1), function_constant(use_no_instancing) ]],
+                                                        
+                                                        device scn_std_node*              scn_nodes                 [[ buffer(1), function_constant(use_instancing) ]],
+                                                        device SCNLightData*              scn_lights                [[ buffer(2), function_constant(use_per_vertex_lighting) ]],
+                                                        constant commonprofile_uniforms&  scn_commonprofile         [[ buffer(3) ]],
+                                                        
+
+                                                        uint                              instanceID                [[ instance_id, function_constant(use_instancing) ]]
+                                                        
+#ifdef USE_VERTEX_EXTRA_ARGUMENTS
+                                      __VertexExtraArgumentsPostTessellation__
+#endif
+                                      )
+{
+    scn_std_node in_node;
+    if (use_instancing) {
+        in_node = scn_nodes[instanceID];
+    } else {
+        in_node = scn_node;
+    }
+    
+    SCNShaderGeometry _geometry;
+    standard_initalize_geometry_post_tessellation(in, _geometry, patchCoord);
+    
+#ifdef USE_GEOMETRY_MODIFIER
+    
+    __DoGeometryModifierPostTessellation__
+    
+#endif
+    
+    
+    SCNShaderSurface _surface;
+    standard_initalize_surface(_surface, _geometry, in_node);
+    
+    commonprofile_io out;
+    
+    
+    if (use_per_vertex_lighting) {
+        SCNShaderLightingContribution _lightingContribution;
+        _lightingContribution.diffuse = 0.;
+        _lightingContribution.specular = 0.;
+        _surface.shininess = scn_commonprofile.materialShininess;
+        
+        
+        
+        
+        out.diffuse = _lightingContribution.diffuse;
+        if (use_specular)
+            out.specular = _lightingContribution.specular;
+    }
+    
+    standard_configure_out(scn_commonprofile, _surface, _geometry, out);
+    
+    
+    
+    
+    out.fragmentPosition = scn_frame.projectionTransform * float4(_surface.position, 1.f);
+    
+    if (use_point_rendering) 
+        out.fragmentSize = 1.f;
+    return out;
+}
+
+struct SCNOutput
+{
+    float4 color;
+};
+
+
+
+fragment half4 standard_frag(commonprofile_io in [[stage_in]],
+                             constant commonprofile_uniforms& scn_commonprofile [[buffer(0)]],
+                             constant SCNSceneBuffer& scn_frame [[buffer(1)]]
+                             
+                             , device SCNLightData* scn_lights                     [[ buffer(2),  function_constant(use_per_pixel_lighting) ]]
+                             , constant scn_std_node& scn_node                     [[ buffer(3), function_constant(use_no_instancing) ]]
+                             , device scn_std_node* scn_nodes                      [[ buffer(3), function_constant(use_instancing) ]]
+                             , constant float4* u_shadowKernel                     [[ buffer(4) ]] 
+                             , constant sh3_coefficients& scn_shCoefficients       [[ buffer(5), function_constant(use_probes_lighting) ]]
+
+                             , texture2d<float> u_emissionTexture                  [[ texture(0), function_constant(use_emission_map)]]
+                             , sampler          u_emissionTextureSampler           [[ sampler(0), function_constant(use_emission_map)]]
+                             , texture2d<float> u_ambientTexture                   [[ texture(1), function_constant(use_ambient_map)]]
+                             , sampler          u_ambientTextureSampler            [[ sampler(1), function_constant(use_ambient_map)]]
+                             , texture2d<float> u_diffuseTexture                   [[ texture(2), function_constant(use_diffuse_map)]]
+                             , sampler          u_diffuseTextureSampler            [[ sampler(2), function_constant(use_diffuse_map)]]
+                             , texture2d<float> u_specularTexture                  [[ texture(3), function_constant(use_specular_map)]]
+                             , sampler          u_specularTextureSampler           [[ sampler(3), function_constant(use_specular_map)]]
+                             , texture2d<float> u_reflectiveTexture                [[ texture(4), function_constant(use_reflective_map)]]
+                             , sampler          u_reflectiveTextureSampler         [[ sampler(4), function_constant(use_reflective_map)]]
+                             , texturecube<float> u_reflectiveCubeTexture          [[ texture(4), function_constant(use_reflectivecube_map)]]
+                             , sampler            u_reflectiveCubeTextureSampler   [[ sampler(4), function_constant(use_reflectivecube_map)]]
+                             , texture2d<float> u_transparentTexture               [[ texture(5), function_constant(use_transparent_map)]]
+                             , sampler          u_transparentTextureSampler        [[ sampler(5), function_constant(use_transparent_map)]]
+                             , texture2d<float> u_multiplyTexture                  [[ texture(6), function_constant(use_multiply_map)]]
+                             , sampler          u_multiplyTextureSampler           [[ sampler(6), function_constant(use_multiply_map)]]
+                             , texture2d<float> u_normalTexture                    [[ texture(7), function_constant(use_normal_map)]]
+                             , sampler          u_normalTextureSampler             [[ sampler(7), function_constant(use_normal_map)]]
+                             , texture2d<float> u_metalnessTexture                 [[ texture(3), function_constant(use_metalness_map) ]]
+                             , sampler          u_metalnessTextureSampler          [[ sampler(3), function_constant(use_metalness_map) ]]
+                             , texture2d<float> u_roughnessTexture                 [[ texture(4), function_constant(use_roughness_map) ]]
+                             , sampler          u_roughnessTextureSampler          [[ sampler(4), function_constant(use_roughness_map) ]]
+                             , texturecube<float> u_irradianceTexture              [[ texture(8), function_constant(use_pbr) ]]
+                             
+                             , texturecube<float> u_radianceTexture                [[ texture(9), function_constant(use_pbr) ]]
+                             , texture2d<float>   u_specularDFGTexture             [[ texture(10), function_constant(use_pbr) ]]
+                             , texture2d<float> u_ssaoTexture                      [[ texture(11), function_constant(use_ssao) ]]
+
+                             
+                             , depth2d<float> u_shadowTexture0                     [[ texture(12), function_constant(use_shadow0) ]]
+                             , depth2d<float> u_shadowTexture1                     [[ texture(13), function_constant(use_shadow1) ]]
+                             , depth2d<float> u_shadowTexture2                     [[ texture(14), function_constant(use_shadow2) ]]
+                             , depth2d<float> u_shadowTexture3                     [[ texture(15), function_constant(use_shadow3) ]]
+                             
+                             
+                             , texture2d<float> u_goboTexture0                     [[ texture(16), function_constant(use_gobo0) ]]
+                             , texture2d<float> u_goboTexture1                     [[ texture(17), function_constant(use_gobo1) ]]
+                             , texture2d<float> u_goboTexture2                     [[ texture(18), function_constant(use_gobo2) ]]
+                             , texture2d<float> u_goboTexture3                     [[ texture(19), function_constant(use_gobo3) ]]
+
+                             
+                             
+                             
+                             
+                             
+                             , texture2d<float> u_iesTexture0                      [[ texture(16), function_constant(use_ies0) ]]
+                             , texture2d<float> u_iesTexture1                      [[ texture(17), function_constant(use_ies1) ]]
+                             , texture2d<float> u_iesTexture2                      [[ texture(18), function_constant(use_ies2) ]]
+                             , texture2d<float> u_iesTexture3                      [[ texture(19), function_constant(use_ies3) ]]
+
+                             
+                             , texturecube<float> u_iesCubeTexture0                [[ texture(16), function_constant(use_iesCube0) ]]
+                             , texturecube<float> u_iesCubeTexture1                [[ texture(17), function_constant(use_iesCube1) ]]
+                             , texturecube<float> u_iesCubeTexture2                [[ texture(18), function_constant(use_iesCube2) ]]
+                             , texturecube<float> u_iesCubeTexture3                [[ texture(19), function_constant(use_iesCube3) ]]
+                             
+                             , bool isFrontFacing                                  [[ front_facing, function_constant(use_double_sided) ]]
+
+#ifdef USE_FRAGMENT_EXTRA_ARGUMENTS
+__FragmentExtraArguments__
+#endif
+                             )
+{
+    
+    
+    scn_std_node in_node;
+    if (use_instancing) {
+        
+        in_node = scn_nodes[0];
+    } else {
+        in_node = scn_node;
+    }
+
+    SCNShaderSurface _surface;
+
+    float2 uv[kSCNTexcoordCount];
+    switch (io_texcoord_count - 1) {
+        case 7 :uv[7] = in.texcoord7;
+        case 6 :uv[6] = in.texcoord6;
+        case 5 :uv[5] = in.texcoord5;
+        case 4 :uv[4] = in.texcoord4;
+        case 3 :uv[3] = in.texcoord3;
+        case 2 :uv[2] = in.texcoord2;
+        case 1 :uv[1] = in.texcoord1;
+        case 0 :uv[0] = in.texcoord0;
+    }
+
+    if (is_function_constant_defined(diffuse_texcoord_io_index))
+        _surface.diffuseTexcoord = uv[diffuse_texcoord_io_index];
+    
+    if (is_function_constant_defined(normal_texcoord_io_index))
+        _surface.normalTexcoord = uv[normal_texcoord_io_index];
+    
+    if (is_function_constant_defined(transparent_texcoord_io_index))
+        _surface.transparentTexcoord = uv[transparent_texcoord_io_index];
+    
+    if (is_function_constant_defined(emission_texcoord_io_index))
+        _surface.emissionTexcoord = uv[emission_texcoord_io_index];
+    
+    if (is_function_constant_defined(ambient_texcoord_io_index))
+        _surface.ambientTexcoord = uv[ambient_texcoord_io_index];
+    
+    if (is_function_constant_defined(multiply_texcoord_io_index))
+        _surface.multiplyTexcoord = uv[multiply_texcoord_io_index];
+    
+    if (is_function_constant_defined(specular_texcoord_io_index))
+        _surface.specularTexcoord = uv[specular_texcoord_io_index];
+    
+    if (is_function_constant_defined(roughness_texcoord_io_index))
+        _surface.roughnessTexcoord = uv[roughness_texcoord_io_index];
+
+    if (is_function_constant_defined(metalness_texcoord_io_index))
+        _surface.metalnessTexcoord = uv[metalness_texcoord_io_index];
+
+    _surface.ambientOcclusion = 1.f; 
+    if (use_ambient_map) {
+        float4 c = u_ambientTexture.sample(u_ambientTextureSampler, _surface.ambientTexcoord);
+        if (is_function_constant_defined(ambient_texture_component)) {
+            c = c[ambient_texture_component];
+        }
+        
+        if (use_ambient_as_ambientOcclusion) {
+            _surface.ambientOcclusion = c.r;
+            if (use_ambient_intensity)
+                _surface.ambientOcclusion = saturate(mix(1.f, _surface.ambientOcclusion, scn_commonprofile.ambientIntensity));
+        } else {
+            _surface.ambient = c;
+            if (use_ambient_intensity)
+                _surface.ambient *= scn_commonprofile.ambientIntensity;
+        }
+    } else {
+        _surface.ambient = scn_commonprofile.ambientColor;
+    }
+    if (use_ambient && use_io_vertex_color)
+        _surface.ambient *= in.vertexColor;
+    if (use_ssao)
+        _surface.ambientOcclusion *= u_ssaoTexture.sample( linearSampler, in.fragmentPosition.xy * scn_frame.inverseResolution.xy ).x;
+    
+    if (use_diffuse_map) {
+        _surface.diffuse = u_diffuseTexture.sample(u_diffuseTextureSampler, _surface.diffuseTexcoord);
+        if (is_function_constant_defined(diffuse_texture_component))
+            _surface.diffuse = _surface.diffuse[diffuse_texture_component];
+        if (use_diffuse_intensity)
+            _surface.diffuse.rgb *= scn_commonprofile.diffuseIntensity;
+    } else {
+        _surface.diffuse = scn_commonprofile.diffuseColor;
+    }
+    if (use_diffuse && use_io_vertex_color) {
+        _surface.diffuse *= in.vertexColor;
+    }
+    
+    if (use_specular_map) {
+        _surface.specular = u_specularTexture.sample(u_specularTextureSampler, _surface.specularTexcoord);
+        if (is_function_constant_defined(specular_texture_component))
+            _surface.specular = _surface.specular[specular_texture_component];
+        if (use_specular_intensity)
+            _surface.specular *= scn_commonprofile.specularIntensity;
+    } else {
+        _surface.specular = scn_commonprofile.specularColor;
+    }
+
+    if (use_emission_map) {
+        _surface.emission = u_emissionTexture.sample(u_emissionTextureSampler, _surface.emissionTexcoord);
+        if (is_function_constant_defined(emission_texture_component))
+            _surface.emission = float4(_surface.emission[emission_texture_component]);
+        if (use_emission_intensity)
+            _surface.emission *= scn_commonprofile.emissionIntensity;
+    } else {
+        _surface.emission = scn_commonprofile.emissionColor;
+    }
+
+    if (use_multiply_map) {
+        _surface.multiply = u_multiplyTexture.sample(u_multiplyTextureSampler, _surface.multiplyTexcoord);
+        if (is_function_constant_defined(multiply_texture_component))
+            _surface.multiply = float4(_surface.multiply[multiply_texture_component]);
+        if (use_multiply_intensity)
+            _surface.multiply = mix(float4(1.f), _surface.multiply, scn_commonprofile.multiplyIntensity);
+    } else {
+        _surface.multiply = scn_commonprofile.multiplyColor;
+    }
+    
+    if (use_transparent_map) {
+        _surface.transparent = u_transparentTexture.sample(u_transparentTextureSampler, _surface.transparentTexcoord);
+        if (is_function_constant_defined(transparent_texture_component))
+            _surface.transparent = float4(_surface.transparent[transparent_texture_component]);
+        if (use_transparent_intensity)
+            _surface.transparent *= scn_commonprofile.transparentIntensity;
+    } else {
+        _surface.transparent = scn_commonprofile.transparentColor;
+    }
+
+    if (use_metalness_map) {
+        float4 c = u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord);
+        if (is_function_constant_defined(metalness_texture_component))
+            _surface.metalness = c[metalness_texture_component];
+        else 
+            _surface.metalness = c.r;
+        if (use_metalness_intensity)
+            _surface.metalness *= scn_commonprofile.metalnessIntensity;
+    } else {
+        _surface.metalness = scn_commonprofile.metalness;
+    }
+    
+    if (use_roughness_map) {
+        float4 c = u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord).r;
+        if (is_function_constant_defined(roughness_texture_component))
+            _surface.roughness = c[roughness_texture_component];
+        else 
+            _surface.roughness = c.r;
+        if (use_roughness_intensity)
+            _surface.roughness *= scn_commonprofile.roughnessIntensity;
+    } else {
+        _surface.roughness = scn_commonprofile.roughness;
+    }
+    
+    
+    if (use_io_normal) {
+        if (use_double_sided)
+            _surface.geometryNormal = normalize(in.normal.xyz) * (in.normal.z >= 0.f ? 1.f :-1.f );
+        else
+            _surface.geometryNormal = normalize(in.normal.xyz);
+        _surface.normal = _surface.geometryNormal;
+    }
+    if (need_tangent) {
+        _surface.tangent = in.tangent;
+        _surface.bitangent = in.bitangent;
+    }
+    if (use_io_position)
+        _surface.position = in.position;
+    if (use_io_view)
+        _surface.view = normalize(-in.position);
+
+    if (use_normal_map) {
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.normal);
+        _surface._normalTS = u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord).rgb;
+        if (is_function_constant_defined(normal_texture_component)) { 
+            _surface._normalTS.xy = _surface._normalTS.xy * 2.f - 1.f;
+            _surface._normalTS.z = sqrt(1 - length_squared(_surface._normalTS.xy));
+        } else {
+            _surface._normalTS = _surface._normalTS * 2.f - 1.f;
+        }
+        if (use_normal_intensity)
+            _surface._normalTS = mix(float3(0.f, 0.f, 1.f), _surface._normalTS, scn_commonprofile.normalIntensity);
+        
+        _surface.normal.rgb = normalize(ts2vs * _surface._normalTS);
+    } else {
+        _surface._normalTS = float3(0.f);
+    }
+    
+    if (use_reflective_map) {
+        
+        float3 refl = reflect( -_surface.view, _surface.normal );
+        float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + scn::sq(refl.z + 1.f));
+        _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else if (use_reflectivecube_map) {
+    
+        float3 refl = reflect( _surface.position, _surface.normal );
+        _surface.reflective = u_reflectiveCubeTexture.sample(u_reflectiveCubeTextureSampler, scn::mat4_mult_float3(scn_frame.viewToCubeTransform, refl)); 
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else {
+        _surface.reflective = scn_commonprofile.reflectiveColor;
+    }
+    
+    if (use_fresnel) {
+        _surface.fresnel = scn_commonprofile.fresnel.x + scn_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), scn_commonprofile.fresnel.z);
+        _surface.reflective *= _surface.fresnel;
+    }
+    _surface.shininess = scn_commonprofile.materialShininess;
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+
+    SCNShaderLightingContribution _lightingContribution = {0};
+    if (use_ambient_lighting)
+        _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+    
+    if (use_lighting) {
+        if (use_per_pixel_lighting) {
+            _lightingContribution.diffuse = float3(0.f);
+            if (use_modulate_lighting)
+                _lightingContribution.modulate = float3(1.f);
+            if (use_specular)
+                _lightingContribution.specular = float3(0.f);
+            
+            if (is_function_constant_defined(use_light0)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light0;
+                params.lightData = scn_lights[ in_node.lightIndices[0] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow0) scn_do_shadow(params, u_shadowTexture0, u_shadowKernel);
+                if (use_gobo0)   scn_do_gobo(params, u_goboTexture0);
+                if (use_ies0)    scn_do_ies(params, u_iesTexture0, linearSampler );
+                if (use_iesCube0)    scn_do_ies(params, u_iesCubeTexture0, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light1)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light1;
+                params.lightData = scn_lights[ in_node.lightIndices[1] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow1) scn_do_shadow(params, u_shadowTexture1, u_shadowKernel);
+                if (use_gobo1)   scn_do_gobo(params, u_goboTexture1);
+                if (use_ies1)    scn_do_ies(params, u_iesTexture1, linearSampler );
+                if (use_iesCube1)    scn_do_ies(params, u_iesCubeTexture1, linearSampler );
+
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light2)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light2;
+                params.lightData = scn_lights[ in_node.lightIndices[2] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow2) scn_do_shadow(params, u_shadowTexture2, u_shadowKernel);
+                if (use_gobo2)   scn_do_gobo(params, u_goboTexture2);
+                if (use_ies2)    scn_do_ies(params, u_iesTexture2, linearSampler );
+                if (use_iesCube2)    scn_do_ies(params, u_iesCubeTexture2, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+            if (is_function_constant_defined(use_light3)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light3;
+                params.lightData = scn_lights[ in_node.lightIndices[3] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow3) scn_do_shadow(params, u_shadowTexture3, u_shadowKernel);
+                if (use_gobo3)   scn_do_gobo(params, u_goboTexture3);
+                if (use_ies3)    scn_do_ies(params, u_iesTexture3, linearSampler );
+                if (use_iesCube3)    scn_do_ies(params, u_iesCubeTexture3, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+        } else { 
+            _lightingContribution.diffuse = in.diffuse;
+            if (use_specular)
+                _lightingContribution.specular = in.specular;
+        }
+
+        if (avoid_overlighting) {
+            _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+            if (use_specular)
+                _lightingContribution.specular = saturate(_lightingContribution.specular);
+        }
+    } else { 
+        _lightingContribution.diffuse = float3(1.f);
+    }
+    
+    
+    SCNOutput _output;
+    if (use_pbr) {
+        SCNPBRSurface pbr_surface = SCNShaderSurfaceToSCNPBRSurface(_surface);
+        pbr_surface.selfIlluminationOcclusion = scn_commonprofile.selfIlluminationOcclusion;
+
+        if (use_probes_lighting) {
+            _output.color = scn_pbr_combine_probes(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, scn_shCoefficients, scn_frame);
+        } else {
+            _output.color = scn_pbr_combine_cubemap(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, u_irradianceTexture, scn_frame);
+        }
+
+        _output.color.a = _surface.diffuse.a;
+    } else {
+        _output.color = illuminate(_surface, _lightingContribution);
+    }
+    
+    if (use_fog) {
+        float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+        _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+    }
+
+    if (!diffuse_premultiplied)
+        _output.color.rgb *= _surface.diffuse.a;
+
+    float nodeOpacity = use_node_opacity ? in_node.nodeOpacity :1.f;
+    if (use_transparent) {
+
+        if (use_transparency)
+            _surface.transparent *= scn_commonprofile.transparency;
+        
+        if (use_transparency_rgbzero) {
+            
+            _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+            _output.color *= nodeOpacity * (float4(1.f) - _surface.transparent);
+        } else { 
+            _output.color *= (nodeOpacity * _surface.transparent.a);
+        }
+    } else {
+        if (use_transparency) { 
+            _output.color *= (nodeOpacity * scn_commonprofile.transparency);
+        }
+    }
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+
+
+
+    
+    if (use_discard && _output.color.a == 0.) 
+        discard_fragment();
+
+    return half4(_output.color);
+}
+ /* Error: Ran out of types for this method. */;
++ (id)= vec3(texels[6],texels[7],texels[8]);
+    tmp = equal(a,b);
+    vec3 retCol = mix( vec3(tmp), vec3(not(tmp)), vec3(equal(b,vec3(0.))) );
+    
+    
+
+
+    vec4 last = step(vec4(0.002), vec4(texels[5],texels[7],texels[8], min(retLin.x, retCol.x)) );
+    
+    
+    float x = last.w + 2.*retLin.y + retLin.z - retCol.z - 2.*last.x - last.z;
+    float y = last.w + 2.*retCol.y + retCol.z - retLin.z- 2.*last.y - last.z;
+    float magnitude = sqrt( x*x + y*y );
+    
+    
+    
+    
+    float depth = 1.;
+    for(int i=-1; i<2; i++)
+    for(int j=-1; j<2; j++)
+        depth = min(depth, texture2D(pickedDepthBuffer, uv + u_inverseResolution*vec2(i,j)).r);
+    
+    
+    
+    if( texture2D(depthBuffer, uv).x < depth-0.0000001 &&  texture2D(pickedColorBuffer, uv).r > 0.  )
+        gl_FragColor = vec4(.25);
+    else
+        gl_FragColor = vec4( min(magnitude/4.,1.) );
+    
+}
+
+;
++ (id)_@x?;
++ (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (id);
++ (void)m/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore;
++ (id)ory database.;
++ (id)ElementById("tableOfContents-list"),C=f&&f.children.length;!c||p||C||setTableOfContentsWith(n,i,o,l,a,r),document.getElementById("sidebarButton")||setSidebarButton(),layoutAssistantContent()}function updateArticleLayout(){ReaderAppearanceJS.layOutElements()}function setSidebarButton(){let e=document.getElementById("assistant-container"),t=document.createElementNS("http:(id)arg1 //www.w3.org/2000/svg","svg");t.setAttribute("width","1.5em"),t.setAttribute("height","1.5em"),t.setAttribute("viewbox","0 0 24 24"),t.setAttribute("fill","#000000"),t.setAttribute("xmlns","http:(id)arg2 //www.w3.org/2000/svg");let n=document.createElementNS("http:(_Bool)arg3 //www.w3.org/2000/svg","path");n.setAttribute("d","M3.06641 17.998L19.9609 17.998C22.0117 17.998 23.0273 16.9824 23.0273 14.9707L23.0273 3.04688C23.0273 1.03516 22.0117 0.0195312 19.9609 0.0195312L3.06641 0.0195312C1.02539 0.0195312 0 1.02539 0 3.04688L0 14.9707C0 16.9922 1.02539 17.998 3.06641 17.998ZM3.08594 16.4258C2.10938 16.4258 1.57227 15.9082 1.57227 14.8926L1.57227 3.125C1.57227 2.10938 2.10938 1.5918 3.08594 1.5918L19.9414 1.5918C20.9082 1.5918 21.4551 2.10938 21.4551 3.125L21.4551 14.8926C21.4551 15.9082 20.9082 16.4258 19.9414 16.4258ZM14.082 16.7285L15.6152 16.7285L15.6152 1.29883L14.082 1.29883ZM17.4902 5.21484L19.5801 5.21484C19.8828 5.21484 20.1367 4.95117 20.1367 4.66797C20.1367 4.375 19.8828 4.12109 19.5801 4.12109L17.4902 4.12109C17.1973 4.12109 16.9336 4.375 16.9336 4.66797C16.9336 4.95117 17.1973 5.21484 17.4902 5.21484ZM17.4902 7.74414L19.5801 7.74414C19.8828 7.74414 20.1367 7.48047 20.1367 7.1875C20.1367 6.89453 19.8828 6.65039 19.5801 6.65039L17.4902 6.65039C17.1973 6.65039 16.9336 6.89453 16.9336 7.1875C16.9336 7.48047 17.1973 7.74414 17.4902 7.74414ZM17.4902 10.2637L19.5801 10.2637C19.8828 10.2637 20.1367 10.0195 20.1367 9.72656C20.1367 9.43359 19.8828 9.17969 19.5801 9.17969L17.4902 9.17969C17.1973 9.17969 16.9336 9.43359 16.9336 9.72656C16.9336 10.0195 17.1973 10.2637 17.4902 10.2637Z"),n.setAttribute("fill","var(--body-font-color)"),t.appendChild(n);let i=t;isPlatformVision&&(t.setAttribute("width","24px"),t.setAttribute("height","24px"),i=document.createElement("button"),i.style.borderStyle="none",i.style.borderRadius="8px",i.style.backgroundColor="#00000001",i.style.paddingTop="0.8em",i.appendChild(t)),i.id="sidebarButton",i.setAttribute("data-isHidingSidebar","false"),i.addEventListener("click",(function(){let e="true"===i.getAttribute("data-isHidingSidebar");i.setAttribute("data-isHidingSidebar",(!e).toString()),ReaderJSController.reportReaderEvent(ReaderEventType.ClickOnSideBarButton,{expanded:e}),layoutAssistantContent()})),e.parentNode.appendChild(i)}function resetToSummarizeButton(){let e=document.getElementById("onDeviceSummaryButton"),t=document.getElementById("summary-collapsible"),n=document.getElementById("summary-collapsedContent");n.parentNode.removeChild(n),t&&t.parentNode.removeChild(t),e&&(e.classList.remove("hiddenButton"),e.style.display="block");let i=document.getElementById("innerAssistantContainer");i&&i.remove()}function setOnDeviceSummaryButtonWithTitle(e){let t=document.getElementById("summary-collapsible"),n=document.getElementById("summary-collapsible-text-id-1"),i=n&&n.innerText.includes("\udbc2\udfb7"),o=n&&n.innerText.length;if(t&&o&&!i)return;let l=document.getElementById("onDeviceSummaryButton");if(i||!o&&t)return void resetToSummarizeButton();if(null!=l&&null!=l)return l.classList.remove("hiddenButton"),void(l.style.display="block");l=document.createElement("button"),removeAllZeroWidthSpace(),l.id="onDeviceSummaryButton";let a='<svg width="1em" height="1em" viewBox="0 -7.5 30 30"><g><path d="M7.34375 19.6293L16.5723 19.6293L16.5723 21.6215C16.5723 22.4222 17.3438 22.6859 17.9883 22.2269L21.7676 19.5316C22.2852 19.1605 22.2754 18.4183 21.7676 18.0472L17.9883 15.3129C17.3047 14.8148 16.5723 15.1078 16.5723 15.9281L16.5723 17.8812L7.34375 17.8812C3.68164 17.8812 1.74805 15.9281 1.74805 12.4418L1.74805 3.63318C1.74805 3.15466 1.35742 2.75427 0.869141 2.75427C0.390625 2.75427 0 3.15466 0 3.63318L0 12.4222C0 17.0414 2.55859 19.6293 7.34375 19.6293Z" fill="var(--body-font-color)"/><path d="M6.46484 4.3363L17.6172 4.3363C18.0566 4.3363 18.3984 3.98474 18.3984 3.54529C18.3984 3.10584 18.0566 2.76404 17.6172 2.76404L6.46484 2.76404C6.02539 2.76404 5.67383 3.10584 5.67383 3.54529C5.67383 3.98474 6.02539 4.3363 6.46484 4.3363ZM6.46484 9.14099L17.6172 9.14099C18.0566 9.14099 18.3984 8.7992 18.3984 8.35974C18.3984 7.92029 18.0566 7.56873 17.6172 7.56873L6.46484 7.56873C6.02539 7.56873 5.67383 7.92029 5.67383 8.35974C5.67383 8.7992 6.02539 9.14099 6.46484 9.14099ZM6.46484 13.9554L12.627 13.9554C13.0664 13.9554 13.4082 13.6039 13.4082 13.1644C13.4082 12.725 13.0664 12.3832 12.627 12.3832L6.46484 12.3832C6.02539 12.3832 5.67383 12.725 5.67383 13.1644C5.67383 13.6039 6.02539 13.9554 6.46484 13.9554Z" fill="var(--body-font-color)"/></g></svg>';l.innerHTML=a+" "+e;let r=articleTitleContainer();r.parentNode.insertBefore(l,r.nextSibling);let s="\u200b",d=document.createElement("p");d.innerText=s,d.style.height="0px",d.style.width="0px",d.style.margin="0px";let c=document.createElement("p");c.innerText=s,c.style.height="0px",c.style.width="0px",c.style.margin="0px",l.parentNode.insertBefore(d,l),l.parentNode.insertBefore(c,l.nextSibling),l.addEventListener("click",(function(e){l.classList.add("hiddenButton"),showOnDeviceSummaryPlaceholderWithTitle(),setSummaryTextWith(" ",getLocalizedString("Summary")),layoutAssistantContent(),ReaderJSController.requestOnDeviceSummary(),e.preventDefault()}))}function showOnDeviceSummaryPlaceholderWithTitle(){if(document.getElementById("first-placeholder-line"))return void resetToSummarizeButton();let e=document.createElement("button");e.classList.toggle("collapsible"),e.classList.toggle("vision",isPlatformVision),e.classList.toggle("eligible-for-border-corner",isPlatformVision),e.id="summary-collapsible";let t='<svg width="1em" height="1em" viewBox="0 -7.5 30 30"><g><path d="M7.34375 19.6293L16.5723 19.6293L16.5723 21.6215C16.5723 22.4222 17.3438 22.6859 17.9883 22.2269L21.7676 19.5316C22.2852 19.1605 22.2754 18.4183 21.7676 18.0472L17.9883 15.3129C17.3047 14.8148 16.5723 15.1078 16.5723 15.9281L16.5723 17.8812L7.34375 17.8812C3.68164 17.8812 1.74805 15.9281 1.74805 12.4418L1.74805 3.63318C1.74805 3.15466 1.35742 2.75427 0.869141 2.75427C0.390625 2.75427 0 3.15466 0 3.63318L0 12.4222C0 17.0414 2.55859 19.6293 7.34375 19.6293Z" fill="var(--body-font-color)"/><path d="M6.46484 4.3363L17.6172 4.3363C18.0566 4.3363 18.3984 3.98474 18.3984 3.54529C18.3984 3.10584 18.0566 2.76404 17.6172 2.76404L6.46484 2.76404C6.02539 2.76404 5.67383 3.10584 5.67383 3.54529C5.67383 3.98474 6.02539 4.3363 6.46484 4.3363ZM6.46484 9.14099L17.6172 9.14099C18.0566 9.14099 18.3984 8.7992 18.3984 8.35974C18.3984 7.92029 18.0566 7.56873 17.6172 7.56873L6.46484 7.56873C6.02539 7.56873 5.67383 7.92029 5.67383 8.35974C5.67383 8.7992 6.02539 9.14099 6.46484 9.14099ZM6.46484 13.9554L12.627 13.9554C13.0664 13.9554 13.4082 13.6039 13.4082 13.1644C13.4082 12.725 13.0664 12.3832 12.627 12.3832L6.46484 12.3832C6.02539 12.3832 5.67383 12.725 5.67383 13.1644C5.67383 13.6039 6.02539 13.9554 6.46484 13.9554Z" fill="var(--body-font-color)"/></g></svg>';e.innerHTML=t+" \u200b"+getLocalizedString("Summary")+"\u200b",isPlatformVision&&(e.style.backgroundColor="#00000001");let n=document.createElement("div");n.classList.toggle("shimmer-container"),n.id="summary-collapsedContent",n.classList.toggle("collapsedContent"),n.classList.toggle("vision",isPlatformVision),n.classList.toggle("eligible-for-border-corner",isPlatformVision),n.style.overflow="visible";let i=document.getElementById("innerAssistantContainer");if(!i){i=document.createElement("div"),i.id="innerAssistantContainer",i.style.display="none";let e=articleTitleContainer();e.parentNode.insertBefore(i,e.nextSibling)}i.appendChild(e),i.appendChild(n),i.style.display="block",i.style.opacity="0",i.offsetWidth,i.offsetHeight,i.style.opacity="1",ReaderController.isShowingOnDeviceSummary=!0,e.addEventListener("click",(function(){const t=e.classList.toggle("expandedContent");n.style.overflow="auto",n.style.maxHeight?(n.style.maxHeight=null,n.style.marginBottom="0px",n.classList.toggle("eligible-for-border-corner",!1)):(n.style.maxHeight=n.scrollHeight+"px",n.style.marginBottom="0.75em",n.classList.toggle("eligible-for-border-corner",isPlatformVision)),ReaderJSController.reportReaderEvent(ReaderEventType.ClickOnSummaryHeader,{expanded:t})})),e.classList.toggle("expandedContent"),n.style.maxHeight=n.scrollHeight+"px",n.style.marginBottom="0.75em"}function handleVisibilityChange(){ReaderJS.setDocumentIsVisible(!document.hidden)}const LoadNextPageDelay=250,MaxNumberOfNextPagesToLoad=80,ReaderOperationMode={Normal:0,OffscreenFetching:1,ArchiveViewing:2},ReaderEventType={SetSummary:0,SetTableOfContents:1,ClickOnSummaryHeader:2,ClickOnTableOfContentsHeader:3,ClickOnTableOfContentsLink:4,ClickOnSideBarButton:5},LoadingMode={Normal:0,Reload:1},DelayBeforeRestoringScrollPositionInMs=1e3;String.prototype.format=function(){let e=this.split("%@");for(let t=0,n=arguments.length;t<n;++t)e.splice(2*t+1,0,arguments[t].toString());return e.join("")};const debounceTimeoutSymbol=Symbol("debounce-timeout"),debounceSoonProxySymbol=Symbol("debounce-soon-proxy");Object.defineProperty(Object.prototype,"debounce",{value(e){return new Proxy(this,{get:(t,n)=>(...i)=>{let o=t[n];o[debounceTimeoutSymbol]&&clearTimeout(o[debounceTimeoutSymbol]);let l=()=>{o[debounceTimeoutSymbol]=void 0,o.apply(t,i)};o[debounceTimeoutSymbol]=setTimeout(l,e)}})}}),Object.defineProperty(Function.prototype,"cancelDebounce",{value(){this[debounceTimeoutSymbol]&&(clearTimeout(this[debounceTimeoutSymbol]),this[debounceTimeoutSymbol]=void 0)}});const AnimationTerminationCondition={Interrupted:0,CompletedSuccessfully:1};AppleAnimator=function(e,t,n){this.startTime=0,this.duration=e,this.interval=t,this.animations=[],this.animationFinishedCallback=n,this.currentFrameRequestID=null,this._firstTime=!0;let i=this;this.animate=function(){function e(e,t,n){return e<t?t:e>n?n:e}let t,n,o,l=(new Date).getTime(),a=i.duration;t=e(l-i.startTime,0,a),l=t/a,n=.5-.5*Math.cos(Math.PI*l),o=t>=a;let r=i.animations,s=r.length,d=i._firstTime;for(let e=0;e<s;++e)r[e].doFrame(i,n,d,o,l);o?i.stop(AnimationTerminationCondition.CompletedSuccessfully):(i._firstTime=!1,this.currentFrameRequestID=requestAnimationFrame(i.animate))}},AppleAnimator.prototype={start:function(e){let t=(new Date).getTime(),n=this.interval;this.startTime=t-n,e&&(this.startTime+=e),this.currentFrameRequestID=requestAnimationFrame(this.animate)},stop:function(e){this.animationFinishedCallback&&this.animationFinishedCallback(e),this.currentFrameRequestID&&cancelAnimationFrame(this.currentFrameRequestID)},addAnimation:function(e){this.animations[this.animations.length]=e}},AppleAnimation=function(e,t,n){this.from=e,this.to=t,this.callback=n,this.now=e,this.ease=0,this.progress=0},AppleAnimation.prototype={doFrame:function(e,t,n,i,o){let l;l=i?this.to:this.from+(this.to-this.from)*t,this.now=l,this.ease=t,this.progress=o,this.callback(e,l,n,i)}};let isPlatformVision=!1;const readerViewMessageHandler=window.webkit?.messageHandlers?.SafariReaderView,isReaderViewInSeparateProcess=!!readerViewMessageHandler;class Article{#e;#t;#n;#i;#o;#l;#a;#r;#s;#d;#c;#m;constructor(e){this.#o=e.articleIsLTR,this.#e=e.articleNode,this.#t=e.articleSubhead,this.#n=e.articleTitle,this.#i=e.articleTitleInformation,this.#l=e.baseURI,this.#a=e.documentURLString,this.#r=e.heightOfArticleNode,this.#s=e.metadataBlock,this.#d=e.multiPageContentElements,this.#c=e.nextPageURL,this.#m=e.routeToArticleNode}articleIsLTR(){return this.#o}articleNode(){return this.#e}adoptableArticle(){return this.#e}adoptableMetadataBlock(){return this.#s}adoptableMultiPageContentElements(){return this.#d}hasArticle(){return!!this.#e}articleSubhead(){return this.#t}articleTitle(){return this.#n}articleTitleInformation(){return this.#i}baseURI(){return this.#l}documentURLString(){return this.#a}heightOfArticleNodeOnOriginalPage(){return this.#r}nextPageURL(){return this.#c}routeToArticleNode(){return this.#m}scrollToElementWithUniqueID(e,t){return readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"scrollToElementWithUniqueID",arguments:[e,t]})}uniqueIDAndScrollRatioOfElementPinnedToTop(){return readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"uniqueIDAndScrollRatioOfElementPinnedToTop"})}}let smoothScrollingAnimator,smoothScrollingAnimation,scrollEventIsSmoothScroll=!1;window.addEventListener("scroll",articleScrolled,{capture:!1,passive:!0});const ContentAwareNavigationMarker="reader-content-aware-navigation-marker",ContentAwareNavigationAnimationDuration=200,ContentAwareNavigationElementOffset=8,ContentAwareNavigationDirection={Up:0,Down:1};ContentAwareScroller=function(){this._numberOfContentAwareScrollAnimationsInProgress=0},ContentAwareScroller.prototype={_contentElementAtTopOfViewport:function(){let e=articleTitleElement();do{if(!(e.getBoundingClientRect().top<ContentAwareNavigationElementOffset))return e}while(e=nextReaderContentElement(e));return null},_clearTargetOfContentAwareScrolling:function(){let e=document.getElementById(ContentAwareNavigationMarker);e&&e.removeAttribute("id")},_contentAwareScrollFinished:function(e){e===AnimationTerminationCondition.CompletedSuccessfully&&(--this._numberOfContentAwareScrollAnimationsInProgress,this._numberOfContentAwareScrollAnimationsInProgress||(smoothScrollingAnimator=null,smoothScrollingAnimation=null,this._clearTargetOfContentAwareScrolling()))},scroll:function(e){let t,n,i=document.getElementById(ContentAwareNavigationMarker),o=i||this._contentElementAtTopOfViewport();if(e===ContentAwareNavigationDirection.Down){let e=Math.abs(o.getBoundingClientRect().top-ContentAwareNavigationElementOffset)<1;t=i||e?nextReaderContentElement(o):o}else if(e===ContentAwareNavigationDirection.Up)if(o===articleTitleElement()){if(0===document.scrollingElement.scrollTop)return;n=-1*document.scrollingElement.scrollTop}else t=previousReaderContentElement(o);t&&(n=t.getBoundingClientRect().top-ContentAwareNavigationElementOffset),++this._numberOfContentAwareScrollAnimationsInProgress,smoothScroll(document.scrollingElement,n,ContentAwareNavigationAnimationDuration,this._contentAwareScrollFinished.bind(this)),this._clearTargetOfContentAwareScrolling(),t&&(t.id=ContentAwareNavigationMarker)}},window.addEventListener("keydown",keyDown,!1);let initialScrollPosition,didRestoreInitialScrollPosition=!1;const ThemeSettings={White:{cssClassName:"white"},Gray:{cssClassName:"gray",tweetTheme:"dark"},Sepia:{cssClassName:"sepia"},Night:{cssClassName:"night",tweetTheme:"dark"}},ShouldRestoreReadingPosition={No:!1,Yes:!0},MinTextZoomIndex=0,MaxTextZoomIndex=11,MaximumWidthOfImageOrVideoExtendingBeyondTextContainer=1050,ReaderConfigurationJavaScriptEnabledKey="javaScriptEnabled";ReaderAppearanceController=function(){this._shouldUsePaperAppearance=function(){const e=70;return this.articleWidth()+2*e<this.documentElementWidth()},this._isOLEDDisplay=function(){return!1},this._tryApplyStaticConfiguration=function(){return!1},this._defaultFontFamilyName="System",this._defaultThemeName="White",this.configuration={},this._textSizeIndex=null,this._fontFamilyName=this._defaultFontFamilyName,this._themeName=this._defaultThemeName},ReaderAppearanceController.prototype={initialize:function(){this.applyConfiguration(ReaderJSController.initialConfiguration()),this._isOLEDDisplay()?document.body.classList.add("oled"):isPlatformVision&&document.body.classList.add("vision")},applyConfiguration:function(e){if(this._tryApplyStaticConfiguration())return void this.layOutContent();let t=this._locale();this.setLocale(t);for(let n of[e.fontFamilyNameForLanguageTag[t],e.defaultFontFamilyNameForLanguage[t],"System"])if(n&&this.setFontFamily(n))break;for(let t of[e.themeName,"White"])if(t&&this.setTheme(t))break;this.setCurrentTextSizeIndex(e.fontSizeIndex,e.defaultFontSizeIndex),this.configuration=e,this.layOutContent(),containsAssistantContent()&&layoutAssistantContent(),isPlatformVision=!!e.isPlatformVision},articleWidth:function(){return document.getElementById("article").getBoundingClientRect().width},_textColumnWidthInPoints:function(){return parseFloat(getComputedStyle(document.querySelector("#article .page")).width)},documentElementWidth:function(){return document.documentElement.clientWidth},setCurrentTextSizeIndex:function(e,t){this._textSizeIndex=e,this._defaultTextSizeIndex=t,this._rebuildDynamicStyleSheet()},currentFontCSSClassName:function(){return this._currentFontSettings().cssClassName},currentFontCSSFontFamilyName:function(){return this._currentFontSettings().fontFamilyName},currentFontUsesSystemFont:function(){return this._currentFontSettings().usesSystemFont},_currentFontSettings:function(){return fontSettings(this._fontFamilyName)},setLocale:function(e){if(e===this._lastSetLocale)return;let t=document.body.classList;const n="locale-";t.remove(n+this._lastSetLocale),t.add(n+e),this._lastSetLocale=e},setFontFamily:function(e){let t=document.body,n=fontSettings(e);if(!n)return!1;if(this._fontFamilyName){let e=fontSettings(this._fontFamilyName);t.classList.remove(e.cssClassName),t.style.fontFamily=null,e.usesSystemFont&&t.classList.remove("system")}return"function"==typeof ReaderJSController.makeFontAvailableIfNecessary&&ReaderJSController.makeFontAvailableIfNecessary(e),t.classList.add(n.cssClassName),n.fontFamilyName&&(t.style.fontFamily=n.fontFamilyName),n.usesSystemFont&&t.classList.add("system"),this._fontFamilyName=e,!0},_theme:function(){return ThemeSettings[this._themeName]},setTheme:function(e){let t=document.body,n=ThemeSettings[e];return!!n&&(t.classList.contains(n.cssClassName)||(this._theme()&&t.classList.remove(this._theme().cssClassName),t.classList.add(n.cssClassName),this._themeName=e),!0)},usesPaperAppearance:function(){return document.documentElement.classList.contains("paper")},usesSpatialAppearance:function(){return document.body.classList.contains("spatial")},layOutContent:function(e=ShouldRestoreReadingPosition.Yes){document.querySelector("#article .page")&&(this._shouldUsePaperAppearance()?document.documentElement.classList.add("paper"):document.documentElement.classList.remove("paper"),this.layOutElements(),e===ShouldRestoreReadingPosition.Yes&&ReadingPositionStabilizerJS.restorePosition())},layOutElements:function(){makeWideElementsScrollable(),this._layOutImagesAndVideoElementsBeyondTextColumn(),this._layOutElementsContainingTextBeyondTextColumn(),this._layOutVideos(),this._layOutMetadataBlock()},_layOutMetadataBlock:function(){let e=document.querySelector(".metadata");if(!e)return;let t=e.querySelector(".byline"),n=e.querySelector(".date");if(!t||!n)return void e.classList.add("singleline");let i=0;for(let e of t.getClientRects())i+=e.width;for(let e of n.getClientRects())i+=e.width;i+25>this._textColumnWidthInPoints()?e.classList.remove("singleline"):e.classList.add("singleline")},_layOutImagesAndVideoElementsBeyondTextColumn:function(){let e=this.canLayOutContentMaintainingAspectRatioBeyondTextColumn(),t=document.getElementById("article").querySelectorAll("img, video");for(let n of t)this.setImageOrVideoShouldLayOutBeyondTextColumnIfAppropriate(n,e)},_layOutElementsContainingTextBeyondTextColumn:function(){const e={PRE:!0,TABLE:!1},t=22;let n=document.querySelectorAll(".scrollable pre, .scrollable table");for(let i of n){let n=i.parentElement;for(let e=n;e;e=e.parentElement)"BLOCKQUOTE"===e.tagName&&e.classList.add("simple");stopExtendingElementBeyondTextColumn(n);let o=i.scrollWidth,l=this._textColumnWidthInPoints();if(o<=l)continue;let a=getComputedStyle(document.querySelector(".page")),r=0;if(e[i.tagName]){let e=parseFloat(a["-webkit-padding-start"])+parseFloat(a["-webkit-margin-start"]);r=Math.min(e,t)}extendElementBeyondTextColumn(n,Math.min(o,this._widthAvailableForLayout()-2*r),l)}},_layOutVideos:function(){function e(e){return e.src&&/^(.+\.)?(youtube(-nocookie)?|vimeo)\.com\.?$/.test(urlFromString(e.src).hostname)}const t=16/9;let n,i,o=ReaderAppearanceJS.canLayOutContentMaintainingAspectRatioBeyondTextColumn();for(let l of document.getElementById("article").querySelectorAll("iframe")){const a=l.parentElement.classList.contains("iframe-wrapper");if(!a&&!e(l))continue;let r;if(a?r=l.parentElement:(r=document.createElement("div"),r.className="iframe-wrapper",l.nextSibling?l.parentNode.insertBefore(r,l.nextSibling):l.parentNode.appendChild(r),r.appendChild(l)),n||(n=Math.min(MaximumWidthOfImageOrVideoExtendingBeyondTextContainer,this._widthAvailableForLayout())),i||(i=this._textColumnWidthInPoints()),o&&n>i){r.style.height=n/t+"px",extendElementBeyondTextColumn(r,n,i),l.style.height="100%";let e=this.usesPaperAppearance()?2:0;l.style.width=n-e+"px"}else stopExtendingElementBeyondTextColumn(r),r.style.width="100%",r.style.height=i/t+"px"}},canLayOutContentMaintainingAspectRatioBeyondTextColumn:function(){const e=700;if(window.innerHeight>=e)return!0;const t=1.25;return window.innerWidth/window.innerHeight<=t},setImageOrVideoShouldLayOutBeyondTextColumnIfAppropriate:function(e,t){if(t&&!e.closest("blockquote, table, .float")){let t,n=this._textColumnWidthInPoints(),i=parseFloat(e.getAttribute("width"));t=isNaN(i)?e.naturalWidth:i;let o=Math.min(t,Math.min(MaximumWidthOfImageOrVideoExtendingBeyondTextContainer,this._widthAvailableForLayout()));if(o>n)return void extendElementBeyondTextColumn(e,o,n)}stopExtendingElementBeyondTextColumn(e)},_widthAvailableForLayout:function(){return this.usesPaperAppearance()&&!this.usesSpatialAppearance()?this.articleWidth():this.documentElementWidth()},_rebuildDynamicStyleSheet:function(){let e=document.getElementById("dynamic-article-content").sheet;for(;e.cssRules.length;)e.removeRule(0);let t=this._currentFontSettings().fontSizes[this._textSizeIndex]+"px",n=this._currentFontSettings().fontSizes[this._defaultTextSizeIndex]+"px",i=this._currentFontSettings().lineHeights[this._textSizeIndex],o=this._currentFontSettings().lineHeights[this._defaultTextSizeIndex];e.insertRule(":root { --scaled-font-size:"+t+"; --scaled-line-height:"+i+"; --scaled-font-size-multiplier:calc("+t+"/"+n+"); --scaled-line-height-multiplier:calc("+i+"/"+o+"); }"),e.insertRule("#article { font-size:var(--scaled-font-size); line-height:var(--scaled-line-height); }"),e.insertRule("#assistant-container { font-size:var(--scaled-font-size); line-height:var(--scaled-line-height); }")},_locale:function(){let e=document.getElementById("article").style.webkitLocale;return e&&e.length?'"'!=e[0]?e:e.substr(1,e.length-2):""}};let lastMouseDownWasOutsideOfPaper=!1;ReaderController=function(){this.pageNumber=1,this.pageURLs=[],this.articleIsLTR=!0,this.loadingNextPage=!1,this.loadingNextPageManuallyStopped=!1,this.cachedNextPageURL=null,this.lastKnownDocumentElementWidth=0,this.cachedIframeURLMap=new Map,this._canShowAssistantSidebar=function(){return!0},this._distanceFromBottomOfArticleToStartLoadingNextPage=function(){return NaN},this._clickingOutsideOfPaperRectangleDismissesReader=!1,this._shouldSkipActivationWhenPageLoads=function(){return!1},this._shouldConvertRelativeURLsToAbsoluteURLsWhenPrintingOrMailing=!1,this._deferSendingContentIsReadyForDisplay=!1,this._isJavaScriptEnabled=function(){return!0},this._readerIsActive=!0,this._documentIsVisible=!document.hidden},ReaderController.prototype={setOriginalURL:function(e){this.originalURL=e,this.pageURLs.push(e),document.head.getElementsByTagName("base")[0].href=this.originalURL,ReaderJSController.setArticleBaseURLString(e)},setNextPageURL:function(e){if(!e||-1!==this.pageURLs.indexOf(e)||this.pageNumber+1===MaxNumberOfNextPagesToLoad)return void this.setLoadingNextPage(!1);let t;this.setLoadingNextPage(!0),this.pageURLs.push(e),t=isReaderViewInSeparateProcess?()=>{fetchNextPageArticlePromiseWithCanceller=makePromiseCancellable(readerViewMessageHandler.postMessage({command:"fetchArticle",url:e,pageInformation:{pageNumber:this.pageNumber+1,suggestedRouteToArticle:this.routeToArticle,previouslyDiscoveredPageURLStrings:this.pageURLs}})),fetchNextPageArticlePromiseWithCanceller.promise.then(nextPageLoadComplete)}:()=>{nextPageContainer().addEventListener("load",(()=>{nextPageLoadComplete(null)}),!1),nextPageContainer().src=e},this.readerOperationMode==ReaderOperationMode.OffscreenFetching?t():this.nextPageLoadTimer=setTimeout(t,LoadNextPageDelay)},pauseLoadingNextPage:function(){this.readerOperationMode==ReaderOperationMode.Normal&&(isReaderViewInSeparateProcess?(fetchNextPageArticlePromiseWithCanceller?.cancel(),fetchNextPageArticlePromiseWithCanceller=null):(nextPageContainer().removeEventListener("load",nextPageLoadComplete,!1),nextPageContainer().src=null),this.cachedNextPageURL||(this.cachedNextPageURL=this.pageURLs.pop()),this.nextPageLoadTimer&&clearTimeout(this.nextPageLoadTimer),ReaderJSController.didChangeNextPageLoadingState(!1))},stopLoadingNextPage:function(){isReaderViewInSeparateProcess?(fetchNextPageArticlePromiseWithCanceller?.cancel(),fetchNextPageArticlePromiseWithCanceller=null):(nextPageContainer().removeEventListener("load",nextPageLoadComplete,!1),nextPageContainer().src=null),this.nextPageLoadTimer&&clearTimeout(this.nextPageLoadTimer),this.isLoadingNextPage()&&(this.setLoadingNextPage(!1),this.loadingNextPageManuallyStopped=!0)},isLoadingNextPage:function(){return this.loadingNextPage},setLoadingNextPage:function(e){this.loadingNextPage!=e&&(e?addIncomingPagePlaceholder(window.navigator.onLine):removeIncomingPagePlaceholder(),this.loadingNextPage=e,ReaderJSController.didChangeNextPageLoadingState(this.loadingNextPage))},doneLoadingAllPages:function(){ReaderJSController.doneLoadingReaderPage()},updateSerializedArticle:function(e){const t=new Article(e);ReaderJSController.originalArticleFinder=function(){return t}},loadSerializedArticle:function(e){this.updateSerializedArticle(e),this.loaded()},loaded:function(){this.readerOperationMode=ReaderJSController.readerOperationMode();const e=ReaderJSController.originalArticleFinder();if(!e||this._shouldSkipActivationWhenPageLoads())return void ReaderJSController.deactivateNow();this.loadArticle();let t=ReaderJSController.cachedTopScrollOffset();t>0?document.scrollingElement.scrollTop=t:requestAnimationFrame((function(){ReadingPositionStabilizerJS.applyScrollPositionFromOriginalPage()})),ReadingPositionStabilizerJS.initialize(),this._clickingOutsideOfPaperRectangleDismissesReader&&(document.documentElement.addEventListener("mousedown",monitorMouseDownForPotentialDeactivation),document.documentElement.addEventListener("click",deactivateIfEventIsOutsideOfPaperContainer)),window.addEventListener("resize",this.windowDidResize.bind(this),!1);var n="",i=e.articleTitle();i&&(n+=i+" \n");var o=e.articleSubhead();o&&(n+=o+" \n");let l=n+e.adoptableArticle().textContent;l=l.toString().replace(/(<([^>]+)>)/gi,"");let a=function(){ReaderJSController.contentIsReadyForDisplay(l)};this._deferSendingContentIsReadyForDisplay?setTimeout(a,0):a()},windowDidResize:function(){let e=ReaderAppearanceJS.documentElementWidth();e!==this.lastKnownDocumentElementWidth&&(this.lastKnownDocumentElementWidth=e,ReaderAppearanceJS.layOutContent(),ReadingPositionStabilizerJS.windowDidResize(),layoutAssistantContent())},loadArticle:function(e=LoadingMode.Normal){const t=ReaderJSController.originalArticleFinder();if(isReaderViewInSeparateProcess||t.hasArticle()||t.articleNode(!0),!t.hasArticle())return this.setOriginalURL(t.baseURI()),void this.doneLoadingAllPages();this.routeToArticle=t.routeToArticleNode(),this.displayTitleInformation=t.articleTitleInformation(),this._snapshotOfArticleTitle=t.articleTitle(),this.displaySubhead=t.articleSubhead(),this.metadataElement=t.adoptableMetadataBlock(),this.articleIsLTR=t.articleIsLTR(),this._heightOfArticleNodeOnOriginalPage=isReaderViewInSeparateProcess?t.heightOfArticleNodeOnOriginalPage():t.heightOfArticleNode();let n,i=t.adoptableArticle();if(this._snapshotOfAdoptableArticle=i.cloneNode(!0),document.title=t.articleTitle(),this.setOriginalURL(t.baseURI()),this.readerOperationMode!=ReaderOperationMode.ArchiveViewing){if(this._isJavaScriptEnabled())n=t.nextPageURL(),this.setNextPageURL(n);else{for(let e of i.querySelectorAll("iframe"))e.remove();this.stopLoadingNextPage()}e!==LoadingMode.Reload&&ReaderAppearanceJS.initialize(),this.createAssistantElements(),this.createPageFromNode(i),n||(t.adoptableMultiPageContentElements().forEach(this.createPageFromNode,this),updatePageNumbers()),this.isLoadingNextPage()||this.doneLoadingAllPages(),e===LoadingMode.Reload&&setTimeout((function(){ReadingPositionStabilizerJS.contentWasReloaded()}),0)}else ReaderAppearanceJS.layOutContent()},reloadArticlePreservingScrollPositionIfArticleNodeContentHasChanged:async function(){const e=ReaderJSController.originalArticleFinder();if(!e)return;const t=e.documentURLString(),n=30;for(const e of document.querySelectorAll("audio, video"))if(mediaElementIsPlaying(e))return;let i;if(i=isReaderViewInSeparateProcess?await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"heightOfArticleNode"}):e.heightOfArticleNode(),!i)return;if(i<this._heightOfArticleNodeOnOriginalPage-n)return;if(this.originalURL!==t)return;let o;if(o=isReaderViewInSeparateProcess?await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"reset"}):e.reset(),!o)return;isReaderViewInSeparateProcess&&this.updateSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"}));const l=e.adoptableArticle();if(this._adoptableArticlesAreUserVisiblyEquivalent(this._snapshotOfAdoptableArticle,l))return;const a=e.articleTitle();this._snapshotOfArticleTitle===a&&this.reloadArticlePreservingScrollPosition()},_adoptableArticlesAreUserVisiblyEquivalent:function(e,t){function n(e,t){let i=e.nodeType;if(i!==t.nodeType)return!1;switch(i){case Node.ELEMENT_NODE:if(e.tagName!==t.tagName)return!1;let n=e.attributes;if(n.length!==t.attributes.length)return!1;let i=t.attributes;for(let e of n)if(e.name!==READER_UNIQUE_ID_ATTRIBUTE_KEY&&e.value!==i[e.name].value)return!1;break;case Node.TEXT_NODE:case Node.COMMENT_NODE:if(e.data!==t.data)return!1;break;default:return!1}let o=e.firstChild,l=t.firstChild;for(;o;){if(!n(o,l))return!1;o=o.nextSibling,l=l.nextSibling}return!l}return n(e,t)},reloadArticlePreservingScrollPosition:function(){this._reloadArticleAndPreserveScrollPosition(!0)},loadNewArticle:function(){this._reloadArticleAndPreserveScrollPosition(!1)},_reloadArticleAndPreserveScrollPosition:async function(e){if(!ReaderJSController.originalArticleFinder())return void ReaderJSController.deactivateNow();isReaderViewInSeparateProcess&&this.updateSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),ReadingPositionStabilizerJS.setTrackPosition(!1);const[t,n]=[scrollX,scrollY],[i,o]=ReadingPositionStabilizerJS.uniqueIDAndScrollRatioOfElementPinnedToTop();let l=document.getElementById("article");for(l.style.minHeight=l.getBoundingClientRect().height+"px";l.childNodes.length>=1;)l.removeChild(l.firstChild);if(this.reinitialize(),e||(document.scrollingElement.scrollTop=0),this.loadArticle(LoadingMode.Reload),e){let e;i&&(e=ReadingPositionStabilizerJS.tryToScrollToUniqueIDAndRatio(i,o)),e||scrollTo(t,n)}ReadingPositionStabilizerJS.setTrackPosition(!0),setTimeout((function(){l.style.minHeight=null}),0)},reinitialize:function(){this.pageNumber=1,this.pageURLs=[],this.articleIsLTR=!0,this.loadingNextPage=!1,this.loadingNextPageManuallyStopped=!1,this.routeToArticle=void 0,this.displayTitleInformation=void 0,this.displaySubhead=void 0,this.originalURL=void 0,this.nextPageLoadTimer=void 0,this.readerOperationMode=ReaderJSController.readerOperationMode(),this.cachedNextPageURL=null},createAssistantElements:function(){let e=document.createElement("div");e.id="assistant-container",e.style.display="none";let t=document.createElement("div");t.id="summary-container",t.style.display="none";let n=document.createElement("H3");n.id="summary-header",t.appendChild(n);let i=document.createElement("p");i.id="sidebar-summary-text-id-1",t.appendChild(i);let o=document.createElement("div");o.id="tableOfContents-container",o.style.display="none";let l=document.createElement("H3");l.id="tableOfContents-header",o.appendChild(l);let a=document.createElement("ol");a.id="tableOfContents-list",o.appendChild(a),e.appendChild(t),e.appendChild(o),document.body.appendChild(e)},createPageFromNode:function(e){let t=document.createElement("div");t.className="page",this.articleIsLTR||t.classList.add("rtl");let n=document.createElement("div");n.className="page-number",t.appendChild(n);let i=this.displayTitleInformation,o=document.createElement("h1");if(o.className="title",o.textContent=i.titleText,i.linkURL&&i.linkIsForExternalPage){let e=document.createElement("a");e.href=i.linkURL,i.linkIsTargetBlank&&e.setAttribute("target","_blank"),e.appendChild(o),o=e}if(o.setAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY,READER_UNIQUE_ID_TITLE),t.appendChild(o),this.displaySubhead){let e=document.createElement("h2");e.className="subhead",e.textContent=this.displaySubhead,e.setAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY,READER_UNIQUE_ID_SUBHEAD),t.appendChild(e)}if(this.metadataElement&&this.metadataElement.innerText){let e=document.createElement("div");for(e.className="metadata";this.metadataElement.firstChild;)e.appendChild(this.metadataElement.firstChild);t.appendChild(e)}let l=e.tagName;if("PRE"===l||"CODE"===l)t.appendChild(e);else for(;e.firstChild;)t.appendChild(e.firstChild);document.getElementById("article").insertBefore(t,incomingPagePlaceholder()),ReaderJS._isJavaScriptEnabled()&&ReaderJSController.replaceSimpleTweetsWithRichTweets(this.optionsForTweetCreation()),ReaderAppearanceJS.layOutContent(ShouldRestoreReadingPosition.No),updatePageNumbers(),restoreInitialArticleScrollPositionIfPossible();for(let e of t.querySelectorAll("img"))e.onload=function(e){let t=e.target;ReaderAppearanceJS.setImageOrVideoShouldLayOutBeyondTextColumnIfAppropriate(t,ReaderAppearanceJS.canLayOutContentMaintainingAspectRatioBeyondTextColumn()),t.onload=null};this._fixImageElementsWithinPictureElements()},optionsForTweetCreation:function(){let e={dnt:!0},t=ReaderAppearanceJS._theme();return t&&t.tweetTheme&&(e.theme=t.tweetTheme),e},removeAttribute:function(e,t){let n=e.querySelectorAll("["+t+"]");for(let e of n)e.removeAttribute(t)},preparePrintingMailingFrame:function(){let e=this.printingMailingFrameElementId(),t=document.getElementById(e);t&&document.body.removeChild(t),t=this.sanitizedFullArticleFrame(),t.id=e},sanitizedFullArticleFrame:function(){let e=document.createElement("iframe");e.style.display="none",e.style.position="absolute",document.body.appendChild(e);let t=e.contentDocument,n=document.createElement("base");n.href=this.originalURL,t.head.appendChild(n);let i=document.createElement("div");i.className="original-url";let o=document.createElement("a");o.href=this.originalURL,o.textContent=this.originalURL,i.appendChild(document.createElement("br")),i.appendChild(o),i.appendChild(document.createElement("br")),i.appendChild(document.createElement("br")),t.body.appendChild(i),t.body.appendChild(this.sanitizedFullArticle()),t.head.appendChild(document.getElementById("print").cloneNode(!0));let l=t.createElement("title");return l.innerText=document.title,t.head.appendChild(l),e},getArticleHeadingElements:function(){const e=ReaderJSController.originalArticleFinder();var t={};let n=e.articleSubhead();n&&(t.subheadline=n);let i=e.adoptableMetadataBlock();return i&&(t.articleMetadata=plaintextVersionOfNodeAppendingNewlinesBetweenBlockElements(i)),t},sanitizedFullArticle:function(){let e=document.getElementById("article").cloneNode(!0);e.removeAttribute("tabindex");const t=e.querySelectorAll(".title");for(let e=1,n=t.length;e<n;++e)t[e].remove();for(let t of e.querySelectorAll(".page-number, #incoming-page-placeholder, #onDeviceSummaryButton"))t.remove();if(prepareTweetsInPrintingMailingFrame(e),this._shouldConvertRelativeURLsToAbsoluteURLsWhenPrintingOrMailing){const t=/^http:\/\/|^https:\/\/|^data:/i;let n=e.querySelectorAll("img, video, audio, source");for(let e of n){let n=e.getAttribute("src");t.test(n)||e.setAttribute("src",e.src)}}for(let t of e.querySelectorAll(".extendsBeyondTextColumn"))stopExtendingElementBeyondTextColumn(t);for(let t of e.querySelectorAll(".delimeter"))t.innerText="\u2022";e.classList.add(ReaderAppearanceJS.currentFontCSSClassName());let n=ReaderAppearanceJS.currentFontCSSFontFamilyName();n&&(e.style.fontFamily=n),ReaderAppearanceJS.currentFontUsesSystemFont()&&e.classList.add("system"),e.classList.add("exported");ReaderJSController.originalArticleFinder();for(let t of e.getElementsByTagName("*"))t.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);let i=document.getElementById("article-content").sheet.cssRules,o=i.length;for(let t=0;t<o;++t){let n=i[t].selectorText,o=i[t].style;if(!o)continue;let l=o.cssText;e.matches(n)&&e.style&&(e.style.cssText+=l);for(let t of e.querySelectorAll(n))t.style&&(t.style.cssText+=l)}return e},printingMailingFrameElementId:function(){return"printing-mailing-frame"},canLoadNextPage:function(){if(this.readerOperationMode!=ReaderOperationMode.Normal)return!0;let e=document.querySelectorAll(".page"),t=e[e.length-1].getBoundingClientRect(),n=this._distanceFromBottomOfArticleToStartLoadingNextPage();return!!isNaN(n)||!(t.bottom-window.scrollY>n)},setCachedNextPageURL:function(e){e?(this.cachedNextPageURL=e,ReaderJSController.didChangeNextPageLoadingState(!1)):this.setNextPageURL(e)},loadNextPage:function(){null!=this.cachedNextPageURL&&(this.setNextPageURL(this.cachedNextPageURL),this.cachedNextPageURL=null,ReaderJSController.didChangeNextPageLoadingState(!0))},resumeCachedNextPageLoadIfNecessary:function(){ReaderJS.cachedNextPageURL&&ReaderJS.canLoadNextPage()&&ReaderJS.loadNextPage()},setDocumentIsVisible:function(e){this._documentIsVisible=e,this._readerForegroundednessMayHaveChanged(),e&&ReaderAppearanceJS.layOutContent()},setReaderIsActive:function(e){this._readerIsActive=e,this._readerForegroundednessMayHaveChanged()},readerIsForeground:function(){return this._documentIsVisible&&this._readerIsActive},_readerForegroundednessMayHaveChanged:function(){let e=this.readerIsForeground();this._readerIsForeground!==e&&(e?this.readerWillBecomeVisible():this.readerWillEnterBackground(),ReadingPositionStabilizerJS.setTrackPosition(e),this._readerIsForeground=e)},readerWillBecomeVisible:function(){document.body.classList.remove("cached"),this.resumeCachedNextPageLoadIfNecessary();for(let e of document.querySelectorAll("iframe")){let t=this.cachedIframeURLMap.get(e);t&&(e.src=t,this.cachedIframeURLMap.delete(e))}this._readerIsActive&&requestAnimationFrame((function(){ReadingPositionStabilizerJS.applyScrollPositionFromOriginalPage()}))},readerWillEnterBackground:function(){(ReaderJS.isLoadingNextPage()||ReaderJS.loadingNextPageManuallyStopped)&&this.pauseLoadingNextPage();for(let e of document.querySelectorAll("audio"))e.pause();for(let e of document.querySelectorAll("video"))e.hasAttribute("data-reader-silent-looped-animation")||e.pause();for(let e of document.querySelectorAll("iframe")){e.src&&(this.cachedIframeURLMap.set(e,e.src),e.removeAttribute("src"))}},_fixImageElementsWithinPictureElements:function(){requestAnimationFrame((function(){let e=!1,t=document.querySelectorAll("#article picture img");for(let n of t){let t=n.previousElementSibling;if(t)n.remove(),t.after(n),e=!0;else{let t=n.parentElement;n.remove(),t.appendChild(n),e=!0}}e&&ReaderAppearanceJS.layOutContent()}))},serializedDocumentElementForPrintingOrMailing:async function(e){const t=Promise.withResolvers();globalThis.ReaderJSController=new class{readerOperationMode(){return ReaderOperationMode.OffscreenFetching}doneLoadingReaderPage(){t.resolve()}initialConfiguration(){return e}articleScrolled(){}cachedTopScrollOffset(){return 0}clearNextPageArticleFinder(){}contentIsReadyForDisplay(){}didChangeNextPageLoadingState(){}goBack(){}goForward(){}initialArticleScrollPosition(){return null}isInStickyMode(){return!1}log(){}makeFontAvailableIfNecessary(){}maxDistanceForLoadingNextPage(){}nextPageArticleFinder(){}nextPageLoadComplete(){}prepareNextPageFrame(){}setArticleBaseURLString(e){}replaceSimpleTweetsWithRichTweets(){}requestDeactivationFromUserAction(){}requestOnDeviceSummary(){}reportReaderEvent(){}},ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),await t.promise;const n=ReaderJS.sanitizedFullArticleFrame();if(!n?.contentDocument?.documentElement)throw new Error("Unable to render article");return webkit.serializeNode(n.contentDocument.documentElement,{deep:!0})}};let fetchNextPageArticlePromiseWithCanceller=null;ReadingPositionStabilizer=function(){this.elementTouchingTopOfViewport=null,this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio=0,this._trackingScrolling=!1,this._hasEverScrolled=!1},ReadingPositionStabilizer.prototype={initialize:function(){this.setTrackPosition(!0);const e=250;this._checkForUpdatedContentSoon=this.debounce(e)._checkForUpdatedContentNow,this.windowDidResize=this.debounce(e)._windowDidResize},setTrackPosition:function(e){if(e===this._trackingScrolling)return;this._trackingScrolling=e;const t=250;this._debouncedDidScroll||(this._debouncedDidScroll=this.debounce(t)._didScroll),e?window.addEventListener("scroll",this._debouncedDidScroll,{capture:!1,passive:!0}):window.removeEventListener("scroll",this._debouncedDidScroll,{capture:!1,passive:!0})},_windowDidResize:function(){this._hasEverScrolled&&this._updatePosition(!1)},contentWasReloaded:function(){this._updatePosition(!1)},_didScroll:function(){this._trackingScrolling&&(this._hasEverScrolled=!0,this._updatePosition(!1))},_updatePosition:function(e=!0){let t=firstContentElementAfterTopOfViewport();if(!t)return void(this.elementTouchingTopOfViewport=null);this.elementTouchingTopOfViewport=t;let n=this.elementTouchingTopOfViewport.getBoundingClientRect();this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio=n.height>0?n.top/n.height:0,this._originalPageScrollSyncAndContentRefreshIsAllowed()&&ReaderJS.readerIsForeground()&&(this._pushScrollPositionToOriginalPage(),e&&this._checkForUpdatedContentSoon())},_pushScrollPositionToOriginalPage:function(){const e=ReaderJSController.originalArticleFinder(),[t,n]=this.uniqueIDAndScrollRatioOfElementPinnedToTop();t&&e.scrollToElementWithUniqueID(t,n)},applyScrollPositionFromOriginalPage:async function(){let e=ReaderJSController.originalArticleFinder().uniqueIDAndScrollRatioOfElementPinnedToTop();e instanceof Promise&&(e=await e);const[t,n]=e;t&&this.tryToScrollToUniqueIDAndRatio(t,n)},_checkForUpdatedContentNow:async function(){await ReaderJS.reloadArticlePreservingScrollPositionIfArticleNodeContentHasChanged()},restorePosition:function(){if(!this.elementTouchingTopOfViewport)return;let e=this.elementTouchingTopOfViewport.getBoundingClientRect(),t=document.scrollingElement.scrollTop+e.top-e.height*this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio;t>0&&(document.scrollingElement.scrollTop=t),this._updatePosition()},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){if(!this.elementTouchingTopOfViewport)return[null,null];return[this.elementTouchingTopOfViewport.getAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY),this.elementTouchingTopOfViewportOffsetFromTopOfElementRatio]},tryToScrollToUniqueIDAndRatio:function(e,t){const n=document.querySelector("["+READER_UNIQUE_ID_ATTRIBUTE_KEY+"='"+e+"']");if(!n)return!1;const i=n.getBoundingClientRect();return!!i.height&&(document.scrollingElement.scrollTop=i.top-t*i.height+window.scrollY,this._updatePosition(!1),!0)},_originalPageScrollSyncAndContentRefreshIsAllowed:function(){return!document.body.classList.contains("watch")}},document.addEventListener("visibilitychange",handleVisibilityChange,!1);var ContentAwareScrollerJS=new ContentAwareScroller,ReaderAppearanceJS=new ReaderAppearanceController,ReadingPositionStabilizerJS=new ReadingPositionStabilizer,ReaderJS=new ReaderController;window.addEventListener("load",(async function(){function e(){window.dispatchEvent(new CustomEvent("readerLoaded"))}if(!isReaderViewInSeparateProcess)return ReaderJS.loaded(),void e();ReaderJS.setOriginalURL(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"baseURI"})),ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),e()}),!1);
+0; /* Error: Ran out of types for this method. */;
++ (id)ight+ReaderArticleFinderJS._cachedScrollX,bottom:t.bottom+ReaderArticleFinderJS._cachedScrollY,left:t.left+ReaderArticleFinderJS._cachedScrollX,width:t.width,height:t.height},e._cachedElementBoundingRect):(e._cachedElementBoundingRect=t,e._cachedElementBoundingRect)}function clearCachedElementBoundingRects(){for(var e=ReaderArticleFinderJS._elementsWithCachedBoundingRects,t=e.length,n=0;n<t;++n)e[n]._cachedElementBoundingRect=null;ReaderArticleFinderJS._elementsWithCachedBoundingRects=[]}function trimmedInnerTextIgnoringTextTransform(e){var t=e.innerText;if(!/\S/.test(t))return e.textContent.trim();var n=getComputedStyle(e).textTransform;return"uppercase"===n||"lowercase"===n?e.textContent.trim():t?t.trim():""}function levenshteinDistance(e,t){for(var n=e.length,r=t.length,i=new Array(n+1),a=0;a<n+1;++a)i[a]=new Array(r+1),i[a][0]=a;for(var o=0;o<r+1;++o)i[0][o]=o;for(o=1;o<r+1;++o)for(a=1;a<n+1;++a)if(e[a-1]===t[o-1])i[a][o]=i[a-1][o-1];else{var l=i[a-1][o]+1,s=i[a][o-1]+1,c=i[a-1][o-1]+1;i[a][o]=Math.min(l,s,c)}return i[n][r]}function stringSimilarity(e,t){var n=Math.max(e.length,t.length);return n?(n-levenshteinDistance(e,t))/n:0}function stringsAreNearlyIdentical(e,t){return e===t||stringSimilarity(e,t)>StringSimilarityToDeclareStringsNearlyIdentical}function elementIsCommentBlock(e){if(/(^|\s)comment/.test(e.className))return!0;var t=e.getAttribute("id");return!(!t||0!==t.indexOf("comment")&&0!==t.indexOf("Comment"))}function elementLooksLikeEmbeddedTweet(e){var t=null;if("iframe"===normalizedElementTagName(e)){if(!e.contentDocument)return elementLooksLikeEmbeddedIframeTweetWithSrc(e);t=e.contentDocument.documentElement}else"twitter-widget"===normalizedElementTagName(e)&&(t=e.shadowRoot);if(!t)return!1;if(e.closest(".twitter-video")&&t.querySelector("[data-tweet-id]"))return!0;let n=0,r=t.querySelector("blockquote");r&&TweetURLRegex.test(r.getAttribute("cite"))&&++n;let i=t.querySelector("[data-iframe-title]");return i&&TweetIframeTitleRegex.test(i.getAttribute("data-iframe-title"))&&++n,e.classList.contains("twitter-tweet")&&++n,t.querySelector("[data-tweet-id]")&&++n,n>2}function elementLooksLikeEmbeddedIframeTweetWithSrc(e){if(!EmbeddedTwitterIframeSrcRegEx.test(e.getAttribute("src")))return!1;const t=e.getAttribute("title");return"X Post"===t||"Twitter Tweet"===t}function elementLooksLikeACarousel(e){const t=/carousel-|carousel_|-carousel|_carousel|swiper-/;return t.test(e.className)||t.test(e.getAttribute("data-analytics"))}function elementLooksLikePartOfACarousel(e){const t=3;for(var n=e,r=0;r<t;++r){if(!n)return!1;if(elementLooksLikeACarousel(n))return!0;n=n.parentElement}return!1}function urlIsHTTPFamilyProtocol(e){let t=e.protocol;return"http:"===t||"https:"===t}function shouldPruneIframe(e){if(e.srcdoc)return!0;let t=urlFromString(e.src);if(t){if(!urlIsHTTPFamilyProtocol(t))return!0;if(hostnameMatchesHostKnownToContainEmbeddableMedia(t.hostname))return!1}return!elementLooksLikeEmbeddedTweet(e.originalElement)}function textContentAppearsToBeCJK(e,t){if(!e||!e.length)return!1;let n=e.length;t&&!isNaN(t)&&(n=Math.min(n,t));let r=0;for(let t=0;t<n;t++)characterAppearsToBeCJK(e[t])&&r++;return r>=n*MinimumRatioOfCharactersForLanguageMultiplier}function languageScoreMultiplierForTextNodes(e){if(!e||!e.length)return 1;for(var t=Math.min(e.length,DefaultNumberOfTextNodesToCheckForLanguageMultiplier),n=0,r=0,i=0;i<t;i++){for(var a=e[i].nodeValue.trim(),o=Math.min(a.length,NumberOfCharactersPerTextNodeToEvaluateForLanguageMultiplier),l=0;l<o;l++)characterAppearsToBeCJK(a[l])&&n++;r+=o}return n>=r*MinimumRatioOfCharactersForLanguageMultiplier?ScoreMultiplierForChineseJapaneseKorean:1}function scoreMultiplierForElementTagNameAndAttributes(e){for(var t=1,n=e;n;n=n.parentElement){var r=n.getAttribute("id");r&&(ArticleRegEx.test(r)&&(t+=ArticleMatchBonus),CommentRegEx.test(r)&&(t-=CommentMatchPenalty),CarouselRegEx.test(r)&&(t-=CarouselMatchPenalty));var i=n.className;i&&(ArticleRegEx.test(i)&&(t+=ArticleMatchBonus),CommentRegEx.test(i)&&(t-=CommentMatchPenalty),CarouselRegEx.test(i)&&(t-=CarouselMatchPenalty)),"article"===normalizedElementTagName(n)&&(t+=ArticleMatchBonus)}return t<0?0:t}function elementAtPoint(e,t,n){if("undefined"!=typeof ReaderArticleFinderJSController&&ReaderArticleFinderJSController.nodeAtPoint){var r=ReaderArticleFinderJSController.nodeAtPoint(e,t);return r&&r.nodeType!==Node.ELEMENT_NODE&&(r=r.parentElement),r}return n.elementFromPoint(e,t)}function userVisibleURLString(e){return"undefined"!=typeof ReaderArticleFinderJSController&&ReaderArticleFinderJSController.userVisibleURLString?ReaderArticleFinderJSController.userVisibleURLString(e):e}function urlFromString(e,t){try{return null!=t?new URL(e,t):new URL(e)}catch(e){return null}}function urlStringShouldHaveItsAnchorMadeNonFunctional(e,t){if(!e)return!0;var n=urlFromString(e);if(n||(n=urlFromString(e,t)),!n||!n.href||!n.href.length)return!0;let r=n.href;return"javascript:"===r.trim().substring(0,11).toLowerCase()||"data:"===r.trim().substring(0,5).toLowerCase()}function anchorLinksToAttachment(e){return/\battachment\b/i.test(e.getAttribute("rel"))}function anchorLinksToTagOrCategoryPage(e){return/\bcategory|tag\b/i.test(e.getAttribute("rel"))}function anchorLooksLikeDownloadFlashLink(e){return/^https?:\/\/(www\.|get\.)(adobe|macromedia)\.com\/(((products|[a-zA-Z]{1,2}|)\/flashplayer|flashplayer|go\/getflash(player)?)|(shockwave\/download\/(index|download)\.cgi\?P1_Prod_Version=ShockwaveFlash)\/?$)/i.test(e.href)}function elementsHaveSameTagAndClassNames(e,t){return normalizedElementTagName(e)===normalizedElementTagName(t)&&e.className===t.className}function selectorForElement(e){let t=normalizedElementTagName(e);for(var n=e.classList,r=n.length,i=0;i<r;i++)t+="."+n[i];return t}function elementFingerprintForDepth(e,t){function n(e,t){if(!e)return"";var o=[];o.push(selectorForElement(e));var l=e.children,s=l.length;if(s&&t>0){o.push(r);for(var c=0;c<s;++c)o.push(n(l[c],t-1)),c!==s-1&&o.push(a);o.push(i)}return o.join("")}const r=" / ",i=" \\",a=" | ";return n(e,t)}function childrenOfParentElement(e){var t=e.parentElement;return t?t.children:[]}function arrayOfKeysAndValuesOfObjectSortedByValueDescending(e){var t=[];for(var n in e)e.hasOwnProperty(n)&&t.push({key:n,value:e[n]});return t.sort((function(e,t){return t.value-e.value})),t}function walkElementSubtree(e,t,n){if(!(t<0)){for(var r=e.children,i=r.length,a=t-1,o=0;o<i;++o)walkElementSubtree(r[o],a,n);n(e,t)}}function elementIndicatesItIsASchemaDotOrgArticleContainer(e){var t=e.getAttribute("itemtype");return/^https?:\/\/schema\.org\/((News)?Article|APIReference)$/.test(t)}function elementIndicatesItIsASchemaDotOrgImageObject(e){var t=e.getAttribute("itemtype");return"https://schema.org/ImageObject"===t||"http://schema.org/ImageObject"===t}function elementWouldAppearBetterAsFigureOrAuxiliary(e,t){const n=/caption/i;if(!e)return!1;if(t.closest("figure, .auxiliary"))return!1;if(elementIndicatesItIsASchemaDotOrgImageObject(e)&&!t.querySelector("figure, .auxiliary"))return!0;var r=t.ownerDocument.createTreeWalker(t,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT,{acceptNode:function(){return NodeFilter.FILTER_ACCEPT}});r.currentNode=t;for(var i=!1,a=!1;r.nextNode();){var o=r.currentNode;if(o.nodeType===Node.TEXT_NODE){if(!i&&/\S/.test(o.nodeValue))return!1;continue}if(o.nodeType!==Node.ELEMENT_NODE)return!1;let e=normalizedElementTagName(o);if("figure"===e||"table"===e)return!1;if(o.classList.contains("auxiliary"))return!1;if("img"===e){if(i)return!1;i=!0}var l=o.originalElement;a||l&&!hasClassMatchingRegexp(o.originalElement,n)||!/\S/.test(o.innerText)||(a=!0)}return i&&a}function cleanStyleAndClassList(e){e.classList.length||e.removeAttribute("class"),e.getAttribute("style")||e.removeAttribute("style")}function getVisibleNonWhitespaceTextNodes(e,t,n,r,i){function a(e){var t=e.children[0];if(t)for(var n=t.children,r=n.length,i=0;i<r;++i)if("none"!==getComputedStyle(n[i]).float)return!1;return!0}function o(e,r){if(e.nodeType===Node.TEXT_NODE)return void(/\S/.test(e.nodeValue)&&s.push(e));if(e.nodeType!==Node.ELEMENT_NODE)return;if(!isElementVisible(e))return;if(n&&++l>n)return;if(i&&i.has(e))return;let u=normalizedElementTagName(e);if("iframe"!==u&&"form"!==u){if(c.has(u))r--;else if("ul"!==u&&"ol"!==u||!a(e)){var m=e.parentElement;if(m)"section"!==normalizedElementTagName(m)||e.previousElementSibling||e.nextElementSibling||r--}else r--;var d=r+1;if(d<t)for(var h=e.childNodes,g=h.length,f=0;f<g;++f)o(h[f],d)}}var l=0,s=[];let c=new Set(["p","strong","b","em","i","span","section"]);return r&&(c.add("center"),c.add("font")),o(e,0),s}function mapOfVisibleTextNodeComputedStyleReductionToNumberOfMatchingCharacters(e,t){for(var n={},r=getVisibleNonWhitespaceTextNodes(e,100),i=r.length,a=0;a<i;++a){var o=r[a],l=o.length,s=o.parentElement,c=t(getComputedStyle(s));n[c]?n[c]+=l:n[c]=l}return n}function keyOfMaximumValueInDictionary(e){var t,n;for(var r in e){var i=e[r];(!n||i>n)&&(t=r,n=i)}return t}function elementIsProtected(e){return e.classList.contains("protected")||e.querySelector(".protected")}function dominantFontFamilyAndSizeForElement(e){return keyOfMaximumValueInDictionary(mapOfVisibleTextNodeComputedStyleReductionToNumberOfMatchingCharacters(e,(function(e){return e.fontFamily+"|"+e.fontSize})))}function dominantFontSizeInPointsFromFontFamilyAndSizeString(e){return e?parseInt(e.split("|")[1]):null}function canvasElementHasNoUserVisibleContent(e){if(!e.width||!e.height)return!0;for(var t=e.getContext("2d").getImageData(0,0,e.width,e.height).data,n=0,r=t.length;n<r;n+=4){if(t[n+3])return!1}return!0}function findArticleNodeSelectorsInQuirksListForHostname(e,t){const n=[[AppleDotComAndSubdomainsRegex,"*[itemprop='articleBody']"],[/^(.+\.)?buzzfeed\.com\.?$/,"article #buzz_sub_buzz"],[/^(.+\.)?mashable\.com\.?$/,".parsec-body .parsec-container"],[/^(.+\.)?cnet\.com\.?$/,"#rbContent.container"],[/^(.+\.)?engadget\.com\.?$/,"main article #page_body"],[/^(.*\.)?m\.wikipedia\.org\.?$/,"#content #bodyContent"],[/^(.*\.)?theintercept\.com\.?$/,".PostContent"],[/^(.*\.)?tools\.ietf\.org\.?$/,"div.content"],[/^(.*\.)?cntraveler\.com\.?$/,"article.gallery"],[/^(.+\.)?meteoinfo\.ru\.?$/,"#jm-content-bottom"],[/^(.*\.)?tmd\.go\.th\.?$/,"#sidebar"]];for(var r=n.length,i=0;i<r;++i){var a=n[i];if(a[0].test(e.toLowerCase()))if(t(a[1]))return}}function functionToPreventPruningDueToInvisibilityInQuirksListForHostname(e){const t=[[/^mobile\.nytimes\.com\.?$/,function(e,t){var n=e;if(!t)return!1;for(;n&&n!==t;){if(n.classList.contains("hidden"))return!0;n=n.parentElement}return!1}]];for(var n=t.length,r=0;r<n;++r){var i=t[r];if(i[0].test(e.toLowerCase()))return i[1]}return null}function elementIsAHeader(e){return!!{h1:1,h2:1,h3:1,h4:1,h5:1,h6:1}[normalizedElementTagName(e)]}function leafElementForElementAndDirection(e,t){var n=e.ownerDocument,r=n.createTreeWalker(n.body,NodeFilter.SHOW_ELEMENT,{acceptNode:function(e){return 0===e.children.length?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_SKIP}});return r.currentNode=e,r[t]()}function previousLeafElementForElement(e){return leafElementForElementAndDirection(e,"previousNode")}function nextLeafElementForElement(e){return leafElementForElementAndDirection(e,"nextNode")}function nextNonFloatingVisibleElementSibling(e){for(var t=e;t=t.nextElementSibling;)if(isElementVisible(t)&&"none"===getComputedStyle(t).float)return t;return null}function elementWithLargestAreaFromElements(e){var t,n=e.length;if(!n)return null;for(var r=0,i=0;i<n;++i){var a=e[i],o=cachedElementBoundingRect(a),l=o.width*o.height;l>r&&(t=a,r=l)}return t}function unwrappedArticleContentElement(e){for(var t=e;;){for(var n=t.childNodes,r=n.length,i=null,a=0;a<r;++a){var o=n[a],l=o.nodeType;if(l===Node.ELEMENT_NODE||l===Node.TEXT_NODE&&!isNodeWhitespace(o)){if(i)return t;var s=normalizedElementTagName(o);if("div"!==s&&"article"!==s&&"section"!==s)return t;i=o}}if(!i)break;t=i}return t}function elementsMatchingClassesInClassList(e,t){return elementsOfSameClassIgnoringClassNamesMatchingRegexp(e,t)}function elementsMatchingClassesInClassListIgnoringCommonLayoutClassNames(e,t){return elementsOfSameClassIgnoringClassNamesMatchingRegexp(e,t,/clearfix/i)}function elementsMatchingClassesInClassListIgnoringClassesWithNumericSuffix(e,t){return elementsOfSameClassIgnoringClassNamesMatchingRegexp(e,t,/\d+$/)}function elementsOfSameClassIgnoringClassNamesMatchingRegexp(e,t,n){for(var r="",i=e.length,a=0;a<i;++a){var o=e[a];n&&n.test(o)||(r+="."+o)}try{return t.querySelectorAll(r)}catch(e){return[]}}function imageIsContainedByContainerWithImageAsBackgroundImage(e){var t=e.parentElement;if(!t||!t.style||!t.style.backgroundImage)return!1;var n=/url\((.*)\)/.exec(t.style.backgroundImage);return!(!n||2!==n.length)&&n[1]===e.src}function pseudoElementContent(e,t){var n=getComputedStyle(e,t).content,r=/^\"(.*)\"$/.exec(n);return r&&2==r.length?r[1]:null}function hasClassMatchingRegexp(e,t){for(var n=e.classList,r=n.length,i=0;i<r;++i)if(t.test(n[i]))return!0;return!1}function elementLooksLikeDropCap(e){return hasClassMatchingRegexp(e,DropCapRegex)&&1===e.innerText.length}function changeElementType(e,t){for(var n=e.ownerDocument.createElement(t),r=attributesForElement(e),i=r.length,a=0;a<i;++a){var o=r.item(a);n.setAttribute(o.nodeName,o.nodeValue)}for(;e.firstChild;)n.appendChild(e.firstChild);return e.replaceWith(n),n}function pathComponentsForAnchor(e){var t=e.pathname.substring(1).split("/");return t[t.length-1]||t.pop(),t}function lastPathComponentFromAnchor(e){var t=pathComponentsForAnchor(e);return t.length?t[t.length-1]:null}function clamp(e,t,n){return Math.min(Math.max(e,t),n)}function childrenWithParallelStructure(e){var t=e.children;if(!t)return[];var n=t.length;if(!n)return[];for(var r={},i=0;i<n;++i){var a=t[i];if(!SetOfCandidateTagNamesToIgnore.has(normalizedElementTagName(a))&&a.className)for(var o=a.classList,l=o.length,s=0;s<l;++s){(m=r[u=o[s]])?m.push(a):r[u]=[a]}}var c=Math.floor(n/2);for(var u in r){var m;if((m=r[u]).length>c)return m}return[]}function elementAppearsToBeCollapsed(e){return!(!ReaderArticleFinderJS.isMediaWikiPage()||!/collaps/.test(e.className))||"false"===e.getAttribute("aria-expanded")&&!isElementVisible(e)}const ReaderMinimumScore=1600,ReaderMinimumAdvantage=15,ArticleMinimumScoreDensity=4.25,CandidateMinimumWidthPortionForIndicatorElements=.5,CandidateMinumumListItemLineCount=4,SetOfCandidateTagNamesToIgnore=new Set(["a","embed","form","html","iframe","object","ol","option","script","style","svg","ul"]),PrependedArticleCandidateMinimumHeight=50,AppendedArticleCandidateMinimumHeight=200,AppendedArticleCandidateMaximumVerticalDistanceFromArticle=150,StylisticClassNames={justfy:1,justify:1,left:1,right:1,small:1},CommentRegEx=/[Cc]omment|meta|footer|footnote|talkback/,CommentMatchPenalty=.75,ArticleRegEx=/(?:(?:^|\s)(?:(post|hentry|entry)[-_]{0,2}(?:content|text|body)?|article[-_]{0,2}(?:content|text|body|page|copy)?)(?:\s|$))/i,ArticleMatchBonus=.5,CarouselRegEx=/carousel/i,CarouselMatchPenalty=.75,SectionRegex=/section|content.*component/i,DropCapRegex=/first.*letter|drop.*cap/i,ProgressiveLoadingRegex=/progressive/i,DensityExcludedElementSelector="#disqus_thread, #comments, .userComments",PositiveRegEx=/article|body|content|entry|hentry|page|pagination|post|related-asset|text/i,NegativeRegEx=/advertisement|breadcrumb|combx|comment|contact|disqus|footer|link|meta|mod-conversations|promo|related|scroll|share|shoutbox|sidebar|social|sponsor|spotim|subscribe|talkback|tags|toolbox|widget|[-_]ad$|zoom-(in|out)/i,VeryPositiveClassNameRegEx=/instapaper_body/,VeryNegativeClassNameRegEx=/instapaper_ignore/,SharingRegex=/email|print|rss|digg|slashdot|delicious|reddit|share|twitter|facebook|pinterest|whatsapp/i,VeryLiberalCommentRegex=/comment/i,AdvertisementHostRegex=/^adserver\.|doubleclick.net$/i,SidebarRegex=/sidebar/i,MinimumAverageDistanceBetweenHRElements=400,MinimumAverageDistanceBetweenHeaderElements=400,PortionOfCandidateHeightToIgnoreForHeaderCheck=.1,DefaultNumberOfTextNodesToCheckForLanguageMultiplier=3,NumberOfCharactersPerTextNodeToEvaluateForLanguageMultiplier=12,MinimumRatioOfCharactersForLanguageMultiplier=.5,ScoreMultiplierForChineseJapaneseKorean=3,MinimumContentMediaHeight=150,MinimumContentMediaWidthToArticleWidthRatio=.25,MaximumContentMediaAreaToArticleAreaRatio=.2,LinkContinueMatchRegEx=/continue/gi,LinkNextMatchRegEx=/next/gi,LinkPageMatchRegEx=/page/gi,LinkListItemBonus=5,LinkPageMatchBonus=10,LinkNextMatchBonus=15,LinkContinueMatchBonus=15,LinkNextOrdinalValueBase=3,LinkMismatchValueBase=2,LinkMatchWeight=200,LinkMaxVerticalDistanceFromArticle=200,LinkVerticalDistanceFromArticleWeight=150,LinkCandidateXPathQuery="descendant-or-self::*[(not(@id) or (@id!='disqus_thread' and @id!='comments')) and (not(@class) or @class!='userComments')]/a",LinkDateRegex=/\D(?:\d\d(?:\d\d)?[\-\/](?:10|11|12|0?[1-9])[\-\/](?:30|31|[12][0-9]|0?[1-9])|\d\d(?:\d\d)?\/(?:10|11|12|0[1-9])|(?:10|11|12|0?[1-9])\-(?:30|31|[12][0-9]|0?[1-9])\-\d\d(?:\d\d)?|(?:30|31|[12][0-9]|0?[1-9])\-(?:10|11|12|0?[1-9])\-\d\d(?:\d\d)?)\D/,LinkURLSearchParameterKeyMatchRegex=/(page|^p$|^pg$)/i,LinkURLPageSlashNumberMatchRegex=/\/.*page.*\/\d+/i,LinkURLSlashDigitEndMatchRegex=/\/\d+\/?$/,LinkURLArchiveSlashDigitEndMatchRegex=/archives?\/\d+\/?$/,LinkURLBadSearchParameterKeyMatchRegex=/author|comment|feed|id|nonce|related/i,LinkURLSemanticMatchBonus=100,LinkMinimumURLSimilarityRatio=.75,SubheadRegex=/sub(head|title)|description|dec?k|abstract/i,HeaderMinimumDistanceFromArticleTop=200,HeaderLevenshteinDistanceToLengthRatio=.75,MinimumRatioOfListItemsBeingRelatedToSharingToPruneEntireList=.5,FloatMinimumHeight=130,ImageSizeTiny=32,ToleranceForLeadingMediaWidthToArticleWidthForFullWidthPresentation=80,MaximumFloatWidth=325,AnchorImageMinimumWidth=100,AnchorImageMinimumHeight=100,MinimumHeightForImagesAboveTheArticleTitle=50,MainImageMinimumWidthAndHeight=83,BaseFontSize=16,BaseLineHeightRatio=1.125,MaximumExactIntegralValue=9007199254740992,TitleCandidateDepthScoreMultiplier=.1,TextNodeLengthPower=1.25,LazyLoadRegex=/lazy/i,HeaderElementsSelector="h1, h2, h3, h4, h5, h6",StringSimilarityToDeclareStringsNearlyIdentical=.97,FindArticleMode={Element:!1,ExistenceOfElement:!0},AppleDotComAndSubdomainsRegex=/.*\.apple\.com\.?$/,SchemaDotOrgArticleContainerSelector="*[itemtype='https://schema.org/Article'], *[itemtype='https://schema.org/NewsArticle'], *[itemtype='https://schema.org/APIReference'], *[itemtype='http://schema.org/Article'], *[itemtype='http://schema.org/NewsArticle'], *[itemtype='http://schema.org/APIReference']",CleaningType={MainArticleContent:0,MetadataContent:1,LeadingMedia:2},MaximumWidthOrHeightOfImageInMetadataSection=20;var attributesForElement=function(){var e=Element.prototype.__lookupGetter__("attributes");return function(t){return e.call(t)}}();const TweetURLRegex=/^https?:\/\/(.+\.)?twitter\.com\/.*\/status\/(.*\/)*[0-9]+\/?$/i,TweetIframeTitleRegex=/tweet/i,EmbeddedTwitterIframeSrcRegEx=/^https?:\/\/platform\.twitter\.com\/embed\/Tweet\.html/i;CandidateElement=function(e,t){this.element=e,this.contentDocument=t,this.textNodes=this.usableTextNodesInElement(this.element),this.rawScore=this.calculateRawScore(),this.tagNameAndAttributesScoreMultiplier=this.calculateElementTagNameAndAttributesScoreMultiplier(),this.languageScoreMultiplier=0,this.depthInDocument=0},CandidateElement.extraArticleCandidateIfElementIsViable=function(e,t,n,r){const i="a, b, strong, i, em, u, span";var a=cachedElementBoundingRect(e),o=cachedElementBoundingRect(t.element);if((r&&a.height<PrependedArticleCandidateMinimumHeight||!r&&a.height<AppendedArticleCandidateMinimumHeight)&&e.childElementCount&&e.querySelectorAll("*").length!==e.querySelectorAll(i).length)return null;if(r){if(a.bottom>o.top)return null}else if(a.top<o.bottom)return null;if(!r&&a.top-o.bottom>AppendedArticleCandidateMaximumVerticalDistanceFromArticle)return null;if(a.left>o.right||a.right<o.left)return null;if(elementLooksLikePartOfACarousel(e))return null;var l=new CandidateElement(e,n);return l.isPrepended=r,l},CandidateElement.candidateIfElementIsViable=function(e,t,n){var r=cachedElementBoundingRect(e),i=ReaderArticleFinderJS.candidateElementFilter;return r.width<i.minimumWidth||r.height<i.minimumHeight||r.width*r.height<i.minimumArea||!n&&r.top>i.maximumTop||CandidateElement.candidateElementAdjustedHeight(e)<i.minimumHeight?null:new CandidateElement(e,t)},CandidateElement.candidateElementAdjustedHeight=function(e){for(var t=cachedElementBoundingRect(e),n=t.height,r=e.getElementsByTagName("form"),i=r.length,a=0;a<i;++a){var o=cachedElementBoundingRect(r[a]);o.width>t.width*CandidateMinimumWidthPortionForIndicatorElements&&(n-=o.height)}var l=e.querySelectorAll("ol, ul"),s=l.length,c=null;for(a=0;a<s;++a){var u=l[a];if(!(c&&c.compareDocumentPosition(u)&Node.DOCUMENT_POSITION_CONTAINED_BY)){var m=u.getElementsByTagName("li"),d=m.length,h=cachedElementBoundingRect(u);if(d){var g=h.height/d,f=getComputedStyle(m[0]),p=parseInt(f.lineHeight);if(isNaN(p))p=fontSizeFromComputedStyle(f)*BaseLineHeightRatio;h.width>t.width*CandidateMinimumWidthPortionForIndicatorElements&&g/p<CandidateMinumumListItemLineCount&&(n-=h.height,c=u)}else n-=h.height}}return n},CandidateElement.prototype={calculateRawScore:function(){for(var e=0,t=this.textNodes,n=t.length,r=0;r<n;++r)e+=this.rawScoreForTextNode(t[r]);return e},calculateElementTagNameAndAttributesScoreMultiplier:function(){return scoreMultiplierForElementTagNameAndAttributes(this.element)},calculateLanguageScoreMultiplier:function(){0===this.languageScoreMultiplier&&(this.languageScoreMultiplier=languageScoreMultiplierForTextNodes(this.textNodes))},depth:function(){return this.depthInDocument||(this.depthInDocument=elementDepth(this.element)),this.depthInDocument},finalScore:function(){return this.calculateLanguageScoreMultiplier(),this.basicScore()*this.languageScoreMultiplier},basicScore:function(){return this.rawScore*this.tagNameAndAttributesScoreMultiplier},scoreDensity:function(){var e=0,t=this.element.querySelector(DensityExcludedElementSelector);t&&(e=t.clientWidth*t.clientHeight);for(var n=this.element.children||[],r=n.length,i=0;i<r;++i){var a=n[i];elementIsCommentBlock(a)&&(e+=a.clientWidth*a.clientHeight)}var o=cachedElementBoundingRect(this.element).width*cachedElementBoundingRect(this.element).height,l=o*MaximumContentMediaAreaToArticleAreaRatio,s=cachedElementBoundingRect(this.element).width*MinimumContentMediaWidthToArticleWidthRatio,c=this.element.querySelectorAll("img, video"),u=c.length;for(i=0;i<u;++i){var m=cachedElementBoundingRect(c[i]);if(m.width>=s&&m.height>MinimumContentMediaHeight){var d=m.width*m.height;d<l&&(e+=d)}}var h=this.basicScore(),g=o-e,f=this.textNodes.length,p=0,E=0;for(i=0;i<f;++i){var v=this.textNodes[i].parentNode;v&&(E+=fontSizeFromComputedStyle(getComputedStyle(v)),p++)}var N=BaseFontSize;return p&&(N=E/=p),this.calculateLanguageScoreMultiplier(),h/g*1e3*(N/BaseFontSize)*this.languageScoreMultiplier},usableTextNodesInElement:function(e){var t=[];if(!e)return t;const n=new Set(["a","dd","dt","noscript","ol","option","pre","script","style","td","ul","iframe"]);var r=this.contentDocument,i=function(e){const i="text()|*/text()|*/a/text()|*/li/text()|*/li/p/text()|*/span/text()|*/em/text()|*/i/text()|*/strong/text()|*/b/text()|*/font/text()|blockquote/*/text()|div[count(./p)=count(./*)]/p/text()|div[count(*)=1]/div/p/text()|div[count(*)=1]/div/p/*/text()|div/div/text()";for(var a=r.evaluate(i,e,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null),o=a.snapshotLength,l=0;l<o;++l){var s=a.snapshotItem(l);n.has(normalizedElementTagName(s.parentNode))||s._countedTextNode||isNodeWhitespace(s)||(s._countedTextNode=!0,t.push(s))}};i(e);for(var a=childrenWithParallelStructure(e),o=a.length,l=0;l<o;++l){i(a[l])}var s=t.length;for(l=0;l<s;++l)delete t[l]._countedTextNode;return t},addTextNodesFromCandidateElement:function(e){for(var t=this.textNodes.length,n=0;n<t;++n)this.textNodes[n].alreadyCounted=!0;var r=e.textNodes,i=r.length;for(n=0;n<i;++n)r[n].alreadyCounted||this.textNodes.push(r[n]);for(t=this.textNodes.length,n=0;n<t;++n)this.textNodes[n].alreadyCounted=null;this.rawScore=this.calculateRawScore()},rawScoreForTextNode:function(e){const t=20;if(!e)return 0;var n=e.length;if(n<t)return 0;var r=e.parentNode;if(!isElementVisible(r))return 0;for(var i=1;r&&r!==this.element;)i-=.1,r=r.parentNode;return Math.pow(n*i,TextNodeLengthPower)},shouldDisqualifyDueToScoreDensity:function(){return this.scoreDensity()<ArticleMinimumScoreDensity},shouldDisqualifyDueToHorizontalRuleDensity:function(){for(var e=this.element.getElementsByTagName("hr"),t=e.length,n=0,r=cachedElementBoundingRect(this.element),i=.7*r.width,a=0;a<t;++a)e[a].clientWidth>i&&n++;if(n&&r.height/n<MinimumAverageDistanceBetweenHRElements)return!0;return!1},shouldDisqualifyDueToHeaderDensity:function(){var e="(h1|h2|h3|h4|h5|h6|*/h1|*/h2|*/h3|*/h4|*/h5|*/h6)[a[@href]]",t=this.contentDocument.evaluate(e,this.element,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null),n=t.snapshotLength;if(n>2){for(var r=0,i=cachedElementBoundingRect(this.element),a=i.height*PortionOfCandidateHeightToIgnoreForHeaderCheck,o=0;o<n;++o){var l=t.snapshotItem(o);if("#"!==l.querySelector("a[href]").getAttribute("href").substring(0,1)){var s=cachedElementBoundingRect(l);s.top-i.top>a&&i.bottom-s.bottom>a&&r++}}if(i.height/r<MinimumAverageDistanceBetweenHeaderElements)return!0}return!1},shouldDisqualifyDueToSimilarElements:function(e){function t(e,t){if(!e||!t)return!1;var n=1;return e.className?e.className===t.className:elementFingerprintForDepth(e,n)===elementFingerprintForDepth(t,n)}var n=function(e){const t=/related-posts/i;for(var n=e.parentElement;n&&n!==this.contentDocument.body;n=n.parentElement)if(t.test(n.className))return!0;return!1}.bind(this),r=this.element;if("article"===normalizedElementTagName(r.parentElement))return!1;let i=normalizedElementTagName(r);if("li"===i||"dd"===i)for(var a=r.parentNode,o=a.children.length,l=0;l<o;++l){var s=a.children[l];if(normalizedElementTagName(s)===i&&s.className===r.className&&s!==r)return!0}var c=r.classList;if(c.length||(r=r.parentElement)&&((c=r.classList).length||(r=r.parentElement)&&(c=r.classList)),c.length){e||(e=[]);var u=e.length;for(l=0;l<u;++l)e[l].element.candidateElement=e[l];var m=elementsMatchingClassesInClassListIgnoringCommonLayoutClassNames(c,this.contentDocument),d=!1,h=elementDepth(r),g=n(r),f=m.length;for(l=0;l<f;++l){if((s=m[l])!==r&&(s.parentElement!==r&&r.parentElement!==s&&isElementVisible(s))){var p=s.candidateElement;if((p||(p=new CandidateElement(s,this.contentDocument)))&&p.basicScore()*ReaderMinimumAdvantage>this.basicScore()){if(s.closest("section")&&r.closest("section"))return!1;if(SectionRegex.test(s.className)&&SectionRegex.test(r.className))return!1;if(n(s)&&!g)return!1;if(!d&&cachedElementBoundingRect(s).bottom<cachedElementBoundingRect(this.element).top){d=!0;continue}if(t(r.previousElementSibling,s.previousElementSibling)||t(r.nextElementSibling,s.nextElementSibling)){var E=r.querySelector(HeaderElementsSelector),v=s.querySelector(HeaderElementsSelector);if(E&&v&&elementsHaveSameTagAndClassNames(E,v))return!0;if(E=r.previousElementSibling,v=s.previousElementSibling,E&&v&&elementIsAHeader(E)&&elementIsAHeader(v)&&elementsHaveSameTagAndClassNames(E,v))return!0}if(elementDepth(s)===h)for(;s.parentElement&&r.parentElement&&s.parentElement!==r.parentElement;)s=s.parentElement,r=r.parentElement;for(;r.childElementCount<=1;){if(!r.childElementCount||!s.childElementCount)return!1;if(s.childElementCount>1)return!1;if(normalizedElementTagName(r.firstElementChild)!==normalizedElementTagName(s.firstElementChild))return!1;r=r.firstElementChild,s=s.firstElementChild}if(s.childElementCount<=1)return!1;v=s.firstElementChild;var N=s.lastElementChild,C=(E=r.firstElementChild,r.lastElementChild);if(normalizedElementTagName(v)!==normalizedElementTagName(E))return!1;if(normalizedElementTagName(N)!==normalizedElementTagName(C))return!1;var A=v.className,S=N.className,b=E.className,y=N.className,T=y===b?2:1;if(A.length||b.length){if(!A.length||!b.length)return!1;if(A===b&&elementsMatchingClassesInClassList(E.classList,r).length<=T)return!0}if(S.length||y.length){if(!S.length||!y.length)return!1;if(S===y&&elementsMatchingClassesInClassList(N.classList,r).length<=T)return!0}var x=E.clientHeight,R=C.clientHeight;return!(!x||!v.clientHeight)&&(!(!R||!N.clientHeight)&&(x===v.clientHeight||R===N.clientHeight))}}}for(l=0;l<u;++l)e[l].element.candidateElement=null}return!1},shouldDisqualifyForDeepLinking:function(){const e=5;for(var t=this.element,n=this.contentDocument.location,r=pathComponentsForAnchor(n).length,i=[],a=t.getElementsByTagName("a"),o=a.length,l=0;l<o;l++){var s=a[l];if(n.host===s.host&&!(pathComponentsForAnchor(s).length<=r||0!==(s.host+s.pathname).indexOf(n.host+n.pathname)||anchorLinksToAttachment(s)||(i.push(s),i.length<e))){var c=t.offsetTop+t.offsetHeight/e;return i[0].offsetTop<c}}return!1}},String.prototype.lastInteger=function(){const e=/[0-9]+/g;var t=this.match(e);return t?parseInt(t[t.length-1]):NaN};
+ReaderArticleFinder=function(e){this.contentDocument=e,this.didSearchForArticleNode=!1,this.didChangeContentDocumentToFrameOnPage=!1,this.article=null,this.didSearchForExtraArticleNode=!1,this.extraArticle=null,this._leadingMediaElement=null,this._isMediaWikiPage=void 0,this._cachedScrollY=0,this._cachedScrollX=0,this._elementsWithCachedBoundingRects=[],this._cachedContentTextStyle=null,this.pageNumber=1,this.prefixWithDateForNextPageURL=null,this.previouslyDiscoveredPageURLStrings=[],this.candidateElementFilter={minimumWidth:280,minimumHeight:295,minimumArea:17e4,maxTop:1300};let t=0;this._nextUniqueID=function(){return t+++""},this._mapOfUniqueIDToOriginalElement=new Map,this._weakMapOfOriginalElementToUniqueID=new WeakMap},ReaderArticleFinder.prototype={setConfigurationForTesting:function(e){this.configurationForTesting=e},setCandidateElementFilter:function(e){let[t,n]=this._validityAndValidCandidateElementFilterFromFilter(e);t&&(this.candidateElementFilter=n)},_validityAndValidCandidateElementFilterFromFilter:function(e){let t={},n=!1;for(let i of["minimumWidth","minimumHeight","minimumArea","maxTop"]){let r=(e||{})[i];if(void 0===r||"number"!=typeof r||r<0){t={},n=!1;break}t[i]=r,n=!0}return[n,t]},pointsForDominantIframeHitTest:function(){const e=60;return[[e,e],[window.innerWidth-e,e],[e,window.innerHeight-e],[window.innerWidth-e,window.innerHeight-e]]},dominantContentIframe:function(){let e,t=this.pointsForDominantIframeHitTest(),n=t.length;for(let i=0;i<n;i++){if(cornerElement=document.elementFromPoint(t[i][0],t[i][1]),!cornerElement||"IFRAME"!==cornerElement.tagName)return null;if(e){if(e!==cornerElement)return null}else e=cornerElement}return e},checkForIframeCoveringMostOfWebpage:function(){let e=this.dominantContentIframe();e&&!this.didChangeContentDocumentToFrameOnPage&&(this.contentDocument=e.contentDocument,this.resetArticleInformation(),this.didChangeContentDocumentToFrameOnPage=!0)},isReaderModeAvailable:function(){return this.setSuppressBoundingRectCalculationForSkippedElements(!0),this.checkForIframeCoveringMostOfWebpage(),!!this.findArticleBySearchingQuirksList()||(this.cacheWindowScrollPosition(),!!this.findArticleFromMetadata(FindArticleMode.ExistenceOfElement)||(this.article=this.findArticleByVisualExamination(),this.article&&this.articleIsLTR(),!!this.article))},hasDominantContentIframe:function(){return document!==this.contentDocument},previewReaderImageURL:function(){const e=this.adoptableArticle(!0);if(!e)return null;const t=e.querySelectorAll("img");if(!t.length)return null;const n=window.innerWidth/2,i=window.innerHeight/2,r=this.contentDocument.elementsFromPoint(n,i).find((e=>"IMG"===e.tagName)),a=t[0].currentSrc;if(!r)return a;const l=[...t].find((e=>e.currentSrc===r.currentSrc));return l?l.currentSrc:a},resetArticleInformation:function(){this.didSearchForArticleNode=!1,this.didSearchForExtraArticleNode=!1,delete this.article,delete this.extraArticle,delete this._articleTitleInformation,delete this._articleTitleElement,delete this._leadingMediaElement,delete this._cachedContentTextStyle,delete this._adoptableArticle,delete this._articleIsLTR,delete this._nextPageURL,delete this._cachedScrollY,delete this._cachedScrollX,clearCachedElementBoundingRects()},reset:function(){const e=this.articleNode();this.resetArticleInformation(),this.prepareToTransitionToReader();const t=this.articleNode();return e===t||t.contains(e)},prepareToTransitionToReader:function(){this.adoptableArticle(!0),this.nextPageURL(),this.articleIsLTR()},nextPageURL:function(){if(!this._nextPageURL){var e=this.nextPageURLString();"undefined"!=typeof ReaderArticleFinderJSController&&e&&(e=ReaderArticleFinderJSController.substituteURLForNextPageURL(e)),this._nextPageURL=e}return this._nextPageURL},containerElementsForMultiPageContent:function(){const e=/(.*page[^0-9]*|.*article.*item[^0-9]*)(\d{1,2})(.*)/i,t=3;for(var n,i=[],r=this.articleNode(),a=0;!(n=e.exec(r.getAttribute("id")));)if(!(r=r.parentElement)||a++===t)return[];for(var l=childrenOfParentElement(r),o=l.length,s=0;s<o;++s){var c=l[s];if(c!==r){var m=e.exec(c.getAttribute("id"));m&&m[1]===n[1]&&m[3]===n[3]&&(isElementVisible(c)&&!isElementPositionedOffScreen(c)||i.push(c))}}return i},adoptableMultiPageContentElements:function(){return this.containerElementsForMultiPageContent().map((function(e){return this.cleanArticleNode(e,e.cloneNode(!0),CleaningType.MainArticleContent,!1)}),this)},classNameIsSignificantInRouteComputation:function(e){return!!e&&!(e.toLowerCase()in StylisticClassNames)},shouldIgnoreInRouteComputation:function(e){let t=normalizedElementTagName(e);return"script"===t||"link"===t||"style"===t||"tr"===t&&!e.offsetHeight},routeToArticleNode:function(){for(var e=[],t=this.articleNode();t;){var n={};n.tagName=normalizedElementTagName(t);var i=t.getAttribute("id");i&&(n.id=i),this.classNameIsSignificantInRouteComputation(t.className)&&(n.className=t.className),n.index=1;for(var r=t.previousElementSibling;r;r=r.previousElementSibling)this.shouldIgnoreInRouteComputation(r)||n.index++;e.unshift(n),t=t.parentElement}return e},adjustArticleNodeUpwardIfNecessary:function(){if(!this.article)return;var e=this.article.element;if(!e.parentElement)return;for(var t=e;t;t=t.parentElement)if(VeryPositiveClassNameRegEx.test(t.className))return void(this.article.element=t);if("header"===normalizedElementTagName(e)&&"article"===normalizedElementTagName(e.parentElement))return void(this.article.element=e.parentElement);var n=e.previousElementSibling;if(n&&"figure"===normalizedElementTagName(n)&&"article"===normalizedElementTagName(e.parentElement))return void(this.article.element=e.parentElement);var i="section"===normalizedElementTagName(e)?e:nearestAncestorElementWithTagName(e,"section",["article"]);if(i){var r=i.parentElement,a=function(){for(var e=r.children,t=e.length,n=0;n<t;++n){var a=e[n],l=normalizedElementTagName(a);if(a!==i&&("section"===l||"header"===l))return!0}return!1}();if(a&&(/\barticleBody\b/.test(r.getAttribute("itemprop"))||"main"===normalizedElementTagName(r)||"main"===r.getAttribute("role")||"article"===normalizedElementTagName(r)||r===this.contentDocument.body||r.classList.contains("entry-content")))return void(this.article.element=r)}const l=/intro/i,o=/body|content/i;if(e=this.article.element,l.test(e.className)&&e.nextElementSibling&&o.test(e.nextElementSibling.className)||o.test(e.className)&&e.previousElementSibling&&l.test(e.previousElementSibling.className))return void(this.article.element=e.parentElement);if("article"!==normalizedElementTagName(e)){var s=e.parentElement.closest("*[itemprop='articleBody']");if(s&&s.parentElement.closest(SchemaDotOrgArticleContainerSelector))return void(this.article.element=s)}var c=e.closest("article");if(c){e=unwrappedArticleContentElement(e);var m,d=elementDepth(e);"p"!==normalizedElementTagName(e)||e.className||(e=e.parentElement,d--),e.classList.length?1===(m=elementsMatchingClassesInClassListIgnoringCommonLayoutClassNames(e.classList,this.contentDocument)).length&&(m=elementsMatchingClassesInClassListIgnoringClassesWithNumericSuffix(e.classList,this.contentDocument)):m=e.parentElement.children;for(var h=m.length,u=0;u<h;++u){var g=m[u];if(e!==g&&d===elementDepth(g)&&(isElementVisible(g)&&!g.querySelector("article")&&Object.keys(e.dataset).join()===Object.keys(g.dataset).join()&&dominantFontFamilyAndSizeForElement(e)===dominantFontFamilyAndSizeForElement(g)))return void(this.article.element=c)}}let f=this.findExtraArticle(),p=f?f.element:null;if(p&&p.parentElement&&e.parentElement===p.parentElement&&ArticleRegEx.test(e.parentElement.className)){if(dominantFontFamilyAndSizeForElement(e)===dominantFontFamilyAndSizeForElement(p))return void(this.article.element=e.parentElement)}let E=e.parentElement;if(elementIsCommentBlock(e)&&!elementIsCommentBlock(E)&&ArticleRegEx.test(E.className)){let e=CandidateElement.candidateIfElementIsViable(E,this.contentDocument,!0);if(e&&e.finalScore()>=ReaderMinimumScore)return void(this.article.element=E)}if(!(e=this.article.element).getAttribute("id")&&e.className){var v=normalizedElementTagName(e),T=e.className,S=e.parentElement;if(S)for(var A=S.children,N=(u=0,A.length);u<N;++u){var y=A[u];if(y!==e&&(normalizedElementTagName(y)===v&&y.className===T)){var b=CandidateElement.candidateIfElementIsViable(y,this.contentDocument,!0);if(b&&!(b.finalScore()<ReaderMinimumScore))return void(this.article.element=S)}}}},findArticleBySearchingQuirksList:function(){var e,t=this.contentDocument;return findArticleNodeSelectorsInQuirksListForHostname(t.location.hostname,(function(n){var i=t.querySelectorAll(n);if(1===i.length)return e=new CandidateElement(i[0],t),!0})),e},articleNode:function(e){return this.checkForIframeCoveringMostOfWebpage(),this.didSearchForArticleNode||(this.article=this.findArticleBySearchingQuirksList(),this.article||(this.article=this.findArticleBySearchingAllElements()),this.article||(this.article=this.findArticleByVisualExamination()),this.article||(this.article=this.findArticleFromMetadata()),!this.article&&e&&(this.article=this.findArticleBySearchingAllElements(!0)),this.didSearchForArticleNode=!0,this.adjustArticleNodeUpwardIfNecessary(),this.article&&(this.article.element=unwrappedArticleContentElement(this.article.element)),this.article&&this.articleIsLTR()),this.article?this.article.element:null},extraArticleNode:function(){return this.didSearchForArticleNode||this.articleNode(),this.didSearchForExtraArticleNode||(this.extraArticle=this.findExtraArticle(),this.didSearchForExtraArticleNode=!0),this.extraArticle?this.extraArticle.element:null},cacheWindowScrollPosition:function(){this._cachedScrollY=window.scrollY,this._cachedScrollX=window.scrollX},contentTextStyle:function(){return this._cachedContentTextStyle||(this._cachedContentTextStyle=contentTextStyleForNode(this.contentDocument,this.articleNode()),this._cachedContentTextStyle||(this._cachedContentTextStyle=getComputedStyle(this.articleNode()))),this._cachedContentTextStyle},commaCountIsLessThan:function(e,t){for(var n=0,i=e.textContent,r=-1;n<t&&(r=i.indexOf(",",r+1))>=0;)n++;return n<t},calculateLinkDensityForPruningElement:function(e,t){var n=removeWhitespace(e.textContent).length;if(!n)return 0;for(var i=this.article.element,r=function(){for(var t=e.originalElement;t&&t!==i;t=t.parentElement)if("none"!==getComputedStyle(t).float)return t;return null}(),a=e.getElementsByTagName("a"),l=0,o=a.length,s=0;s<o;++s){var c=a[s];!r&&c.href&&t&&t===dominantFontFamilyAndSizeForElement(c.originalElement)||(l+=removeWhitespace(c.textContent).length)}return l/n},shouldPruneElement:function(e,t,n){const i=.33,r=.5,a=.2,l=25,o=4e4;let s=normalizedElementTagName(e);if(!e.parentElement)return!1;if(t.classList.contains("footnotes"))return!1;if(e.querySelector(".tweet-wrapper"))return!1;if("figure"===normalizedElementTagName(e.parentElement)&&e.querySelector("img"))return!1;if("iframe"===s)return shouldPruneIframe(e);if("canvas"!==s){for(var c=!1,m=e.childNodes.length,d=0;d<m;++d){var h=e.childNodes[d],u=h.nodeType;if(u===Node.ELEMENT_NODE||u===Node.TEXT_NODE&&!isNodeWhitespace(h)){c=!0;break}}if(!c){if("p"===s){var g=e.previousSibling,f=e.nextSibling;if(g&&g.nodeType===Node.TEXT_NODE&&!isNodeWhitespace(g)&&f&&f.nodeType===Node.TEXT_NODE&&!isNodeWhitespace(f))return!1}return!0}if("p"===s)return!1}if("canvas"===s)return window.innerWidth===t.width&&window.innerHeight===t.height||(!(!ProgressiveLoadingRegex.test(t.className)||"img"!==normalizedElementTagName(t.nextElementSibling))||(!!canvasElementHasNoUserVisibleContent(t)||"cufon"===normalizedElementTagName(e.parentNode)));if(e.closest("figure")&&e.querySelector("picture"))return!1;var p=0;if(t){if(VeryNegativeClassNameRegEx.test(t.className))return!0;var E=t.className,v=t.getAttribute("id");PositiveRegEx.test(E)&&p++,PositiveRegEx.test(v)&&p++,NegativeRegEx.test(E)&&p--,NegativeRegEx.test(v)&&p--}let T=this.isMediaWikiPage();if(p<0&&!T)return!0;if(elementIsProtected(e))return!1;if("ul"===s||"ol"===s){if(t.querySelector("iframe")&&t.querySelector("script"))return!0;var S=t.children,A=S.length;if(!A&&!/\S/.test(e.innerText))return!0;var N=0,y=0;for(d=0;d<A;++d){var b=S[d];if(SharingRegex.test(b.className))N++;else{var x=b.children;1===x.length&&SharingRegex.test(x[0].className)&&N++}NegativeRegEx.test(S[d].className)&&y++}return N/A>=MinimumRatioOfListItemsBeingRelatedToSharingToPruneEntireList||y/A>=MinimumRatioOfListItemsBeingRelatedToSharingToPruneEntireList}if(1===e.childElementCount){var D=e.firstElementChild;if("a"===normalizedElementTagName(D))return!1;if("span"===normalizedElementTagName(D)&&"converted-anchor"===D.className&&nearestAncestorElementWithTagName(D,"table"))return!1}var I=e.getElementsByTagName("img"),C=I.length;if(C){var R=0;for(d=0;d<C;++d){var L=I[d].originalElement;if(isElementVisible(L)){var M=cachedElementBoundingRect(L);R+=M.width/C*(M.height/C)}}if(R>o)return!1}if(!this.commaCountIsLessThan(e,10))return!1;var _=e.getElementsByTagName("p").length,w=e.getElementsByTagName("br").length,F=_+Math.floor(w/2);if(C>F&&"table"!==s)return!0;if(!e.closest("table")&&!e._originalElementDepthInCollapsedArea&&!T){if(e.getElementsByTagName("li").length>F&&dominantFontFamilyAndSizeForElement(t.querySelector("li"))!==n)return!0;if(e.textContent.length<l&&1!==C)return!0;let i=this.calculateLinkDensityForPruningElement(e,n);if(p>=1&&i>r)return!0;if(p<1&&i>a)return!0}if(e.getElementsByTagName("input").length/F>i)return!0;if("table"===s){if(removeWhitespace(e.innerText).length<=.5*removeWhitespace(t.innerText).length)return!0;if(T&&t.classList.contains("toc"))return!0}return!1},wordCountIsLessThan:function(e,t){for(var n=0,i=e.textContent,r=-1;(r=i.indexOf(" ",r+1))>=0&&n<t;)n++;return n<t},leadingMediaIsAppropriateWidth:function(e){return!(!this.article||!e)&&e.getBoundingClientRect().width>=this.article.element.getBoundingClientRect().width-ToleranceForLeadingMediaWidthToArticleWidthForFullWidthPresentation},newDivFromNode:function(e){var t=this.contentDocument.createElement("div");return e&&(t.innerHTML=e.innerHTML),t},headerElement:function(){if(!this.article)return null;var e=this.article.element.previousElementSibling;if(e&&"header"===normalizedElementTagName(e))return e;var t=this._articleTitleElement;if(!t)return null;var n=t.parentElement;if(n&&"header"===normalizedElementTagName(n)&&!this.article.element.contains(n))for(var i=n.querySelectorAll("img"),r=i.length,a=0;a<r;++a){var l=i[a],o=cachedElementBoundingRect(l);if(o.width>=MainImageMinimumWidthAndHeight&&o.height>=MainImageMinimumWidthAndHeight)return n}return null},adoptableLeadingMedia:function(){if(!this.article||!this._leadingMediaElement)return null;var e=this._leadingMediaElement.closest("figure");if(e)return this.cleanArticleNode(e,e.cloneNode(!0),CleaningType.LeadingMedia,!0);if(!this.leadingMediaIsAppropriateWidth(this._leadingMediaElement))return null;if("img"!==normalizedElementTagName(this._leadingMediaElement))return this.cleanArticleNode(this._leadingMediaElement,this._leadingMediaElement.cloneNode(!0),CleaningType.LeadingMedia,!0);const t=5,n=/credit/,i=/caption/,r=/src|alt/;var a=this._leadingMediaElement.parentNode,l=null,o=null,s=a.children.length;if("div"===normalizedElementTagName(a)&&s>1&&s<t)for(var c=a.cloneNode(!0).querySelectorAll("p, div"),m=c.length,d=0;d<m;++d){var h=c[d];n.test(h.className)?l=h.cloneNode(!0):i.test(h.className)&&(o=h.cloneNode(!0))}var u=this._leadingMediaElement.cloneNode(!1),g=lazyLoadingImageURLForElement(u,u.className);g&&u.setAttribute("src",g),!g&&u.hasAttribute("src")||!u.hasAttribute("data-srcset")||u.setAttribute("srcset",u.getAttribute("data-srcset"));var f=attributesForElement(u);for(d=0;d<f.length;++d){var p=f[d].nodeName;r.test(p)||(u.removeAttribute(p),d--)}var E=this.contentDocument.createElement("div");if(E.className="leading-image",E.appendChild(u),l){var v=this.newDivFromNode(l);v.className="credit",E.appendChild(v)}if(o){var T=this.newDivFromNode(o);T.className="caption",E.appendChild(T)}return E},articleBoundingRect:function(){return this._articleBoundingRect||(this._articleBoundingRect=cachedElementBoundingRect(this.article.element)),this._articleBoundingRect},updatePageInformation:function(e){this.pageNumber=e.pageNumber,this.suggestedRouteToArticle=e.suggestedRouteToArticle,this.previouslyDiscoveredPageURLStrings=e.previouslyDiscoveredPageURLStrings},hasArticle:function(){return!!this.article},serializableArticle:function(){const e=this.adoptableArticle(!0);if(!e)return null;let t;const n=this.adoptableMetadataBlock();return n&&(t=webkit.serializeNode(n,{deep:!0})),{articleIsLTR:this.articleIsLTR(),articleNode:webkit.serializeNode(e,{deep:!0}),articleTitle:this.articleTitle(),articleTitleInformation:this.articleTitleInformation(),articleSubhead:this.articleSubhead(),baseURI:this.contentDocument.baseURI,documentURLString:this.documentURLString(),heightOfArticleNode:this.heightOfArticleNode(),metadataBlock:t,multiPageContentElements:this.adoptableMultiPageContentElements().map((()=>webkit.serializeNode(multiPageContentElements,{deep:!0}))),nextPageURL:this.nextPageURL(),routeToArticleNode:this.routeToArticleNode()}},updatePageInformation:function(e){this.pageNumber=e.pageNumber,this.suggestedRouteToArticle=e.suggestedRouteToArticle,this.previouslyDiscoveredPageURLStrings=e.previouslyDiscoveredPageURLStrings},heightOfArticleNode:function(){return this.articleNode()?.getBoundingClientRect()?.height},adoptableArticle:function(e){if(this._adoptableArticle)return this._adoptableArticle.cloneNode(!0);this.setSuppressBoundingRectCalculationForSkippedElements(!1),clearCachedElementBoundingRects(),this.cacheWindowScrollPosition();var t=this.articleNode(e);if(this._adoptableArticle=t?t.cloneNode(!0):null,!this._adoptableArticle)return this._adoptableArticle;if(this._adoptableArticle=this.cleanArticleNode(t,this._adoptableArticle,CleaningType.MainArticleContent,!1),"p"===normalizedElementTagName(this._adoptableArticle)){var n=document.createElement("div");n.appendChild(this._adoptableArticle),this._adoptableArticle=n}var i=this.extraArticleNode();if(i){var r=this.cleanArticleNode(i,i.cloneNode(!0),CleaningType.MainArticleContent,!0);r?this.extraArticle.isPrepended?this._adoptableArticle.insertBefore(r,this._adoptableArticle.firstChild):this._adoptableArticle.appendChild(r):i=null;var a=cachedElementBoundingRect(this.article.element),l=cachedElementBoundingRect(this.extraArticle.element),o={top:Math.min(a.top,l.top),right:Math.max(a.right,l.right),bottom:Math.max(a.bottom,l.bottom),left:Math.min(a.left,l.left)};o.width=o.right-o.left,o.height=o.bottom-o.top,this._articleBoundingRect=o}this._articleTextContent=this._adoptableArticle.innerText;var s=this.headerElement();if(this._leadingMediaElement&&(!s||!s.contains(this._leadingMediaElement))){var c=this.adoptableLeadingMedia();c&&this._adoptableArticle.insertBefore(c,this._adoptableArticle.firstChild)}var m=!!s;if(m&&i&&(i===s&&(m=!1),m)){var d=i.compareDocumentPosition(s);(d&Node.DOCUMENT_POSITION_CONTAINS||d&Node.DOCUMENT_POSITION_CONTAINED_BY)&&(m=!1)}if(m){var h=this.cleanArticleNode(s,s.cloneNode(!0),CleaningType.MainArticleContent,!0);h&&this._adoptableArticle.insertBefore(h,this._adoptableArticle.firstChild)}return this._adoptableArticle},dominantContentSelectorAndDepth:function(e){var t,n={},i={};walkElementSubtree(e,2,(function(e,t){if(isElementVisible(e)){var r=selectorForElement(e)+" | "+t;i[r]?i[r]+=1:(i[r]=1,n[r]=e)}}));var r=arrayOfKeysAndValuesOfObjectSortedByValueDescending(i);switch(r.length){case 0:break;case 1:t=r[0].key;break;default:var a=r[0];a.value>r[1].value&&(t=a.key)}if(!t)return null;var l=n[t];return{selector:selectorForElement(l),depth:depthOfElementWithinElement(l,e)}},functionToPreventPruningElementDueToInvisibility:function(){return functionToPreventPruningDueToInvisibilityInQuirksListForHostname(this.contentDocument.location.hostname)||function(){return!1}},cleanArticleNode:function(e,t,n,i){function r(e){v+=e,T&&(T+=e),S&&(S+=e),A&&(A+=e),N&&(N+=e),y&&(y+=e)}function a(){1===T&&(T=0),1===S&&(S=0),1===A&&(A=0),1===N&&(N=0),1===y&&(y=0)}function l(){const t=.8;var n=cachedElementBoundingRect(e);if(0===n.width||0===n.height)return!0;var i,r=childrenWithParallelStructure(e),a=r.length;if(a){i=[];for(var l=0;l<a;++l){var o=r[l];if("none"===getComputedStyle(o).float)for(var s=o.children,c=s.length,m=0;m<c;++m)i.push(s[m]);else i.push(o)}}else i=e.children;var d=i.length,h=0;for(l=0;l<d;++l){var u=i[l];"none"!==getComputedStyle(u).float&&(h+=u.innerText.length)}return h/e.innerText.length>t}function o(t){const n=50;if(cachedElementBoundingRect(t).height>n)return!1;return!!new Set(["ul","li","nav"]).has(normalizedElementTagName(t))||t.parentElement===e&&!t.nextElementSibling}function s(e,t){const n=.9;return!(cachedElementBoundingRect(e).height>n*cachedElementBoundingRect(t).height)}function c(e,t){const n=1.1,i=1.4;t&&W&&(e.matches(HeaderElementsSelector)||(t>i*W||H.test(b.className)&&t>n*W)&&!e.closest(".pullquote")&&(e.classList.add("pullquote"),e.classList.contains("float")||(e.style.width=null,cleanStyleAndClassList(e))))}function m(e,t){for(var n=e[t];n;n=n[t])if(!isNodeWhitespace(n)&&n.nodeType!==Node.COMMENT_NODE)return!1;return!0}const d=new Set(["form","script","style","link","button","object","embed","applet"]),h=new Set(["div","table","ul","canvas","p","iframe","aside","section","footer","nav","ol","menu","svg"]),u=new Set(["i","em"]),g=new Set(["b","strong","h1","h2","h3","h4","h5","h6"]),f=new Set(["i-amphtml-sizer"]),p=/lightbox/i;var E=[],v=0,T=0,S=0,A=0,N=0,y=0,b=e,x=(b.ownerDocument.defaultView,t),D=this.articleTitle(),I=this._articleTitleElement,C=(this.articleSubhead(),this._articleSubheadElement),R=I&&cachedElementBoundingRect(I).top>cachedElementBoundingRect(e).bottom,L=isElementVisible(e),M=new Set([I,C]),_=new Set;if(n===CleaningType.MainArticleContent){this.updateArticleBylineAndDateElementsIfNecessary();var w=this.articleBylineElement();w&&_.add(w);var F=this.articleDateElement();F&&_.add(F)}var O=this.dominantContentSelectorAndDepth(e),B=l(),P=new Set;this.previouslyDiscoveredPageURLStrings.forEach((function(e){P.add(e)}));var k=this.nextPageURL();k&&P.add(k);var q=null;this._articleTitleElement&&(q=cachedElementBoundingRect(this._articleTitleElement));var U=this.functionToPreventPruningElementDueToInvisibility(),z=dominantFontFamilyAndSizeForElement(e),W=dominantFontSizeInPointsFromFontFamilyAndSizeString(z);const H=/pull(ed)?quote/i;for(var V=[],j=[],Y=[],G=[],Q=[];b;){try{var X,J=null,K=normalizedElementTagName(x),$=!1,Z=elementLooksLikeDropCap(b);if(x.originalElement=b,!y&&elementAppearsToBeCollapsed(b)&&(y=1),(d.has(K)||this.isAMPPage()&&f.has(K))&&(J=x),!J&&b!==e&&M.has(b)?J=x:!J&&b!==e&&_.has(b)?(x.parentElementBeforePruning=x.parentElement,J=x,V.push(x)):elementIsAHeader(x)&&previousLeafElementForElement(b)===I&&x.classList.add("protected"),"twitter-widget"===K&&x.classList.add("protected"),!J&&("h1"===K||"h2"===K))if(b.offsetTop-e.offsetTop<HeaderMinimumDistanceFromArticleTop){var ee=trimmedInnerTextIgnoringTextTransform(b),te=ee.length*HeaderLevenshteinDistanceToLengthRatio;levenshteinDistance(D,ee)<=te&&(J=x)}if(J||this.isMediaWikiPage()&&/editsection|icon-edit|edit-page|mw-empty-elt/.test(b.className)&&(J=x),"video"===K)if(x.getAttribute("src")){x.classList.add("protected");var ne=cachedElementBoundingRect(b);x.setAttribute("width",ne.width),x.setAttribute("height",ne.height),x.removeAttribute("style");b.hasAttribute("autoplay")&&b.hasAttribute("muted")&&b.hasAttribute("loop")?x.setAttribute("data-reader-silent-looped-animation",""):(x.setAttribute("controls",!0),x.removeAttribute("autoplay"),x.removeAttribute("preload"))}else J=x;J||(X=getComputedStyle(b));let t=function(){if("div"!==K&&"span"!==K)return!1;if(LazyLoadRegex.test(b.className))return!0;for(let e of attributesForElement(b))if(/^data-/.test(e.name)&&LazyLoadRegex.test(e.value)&&cachedElementBoundingRect(b).height)return!0;return!1}();if(!J&&t&&(!b.innerText||b.previousElementSibling&&"noscript"===normalizedElementTagName(b.previousElementSibling)))if(xe=lazyLoadingImageURLForElement(x,b.className)){var ie=this.contentDocument.createElement("img");ie.setAttribute("src",xe),x.parentNode.replaceChild(ie,x),(x=ie).originalElement=b,K=normalizedElementTagName(x),J=x,x.classList.add("protected")}if(!J&&"img"!==K&&/img/.test(K)){lazyLoadingImageURLForElement(x,b.className)&&((x=changeElementType(x,"img")).originalElement=b,K="img")}if(!J&&"div"===K&&x.parentNode){var re=b.querySelectorAll("a, blockquote, dl, div, img, ol, p, pre, table, ul"),ae=T||"none"!==X.float,le=null;if(ae||re.length?elementIndicatesItIsASchemaDotOrgImageObject(b)&&!x.querySelector("figure, .auxiliary")?le="figure":Z&&(le="span"):le="p",le){for(var oe=x.parentNode,se=this.contentDocument.createElement(le);x.firstChild;){var ce=x.firstChild;se.appendChild(ce)}oe.replaceChild(se,x),(x=se).originalElement=b,K=normalizedElementTagName(x)}}if(b.dataset&&b.dataset.mathml&&b.querySelector("math")&&Y.push(x),!J&&x.parentNode&&h.has(K)&&(x._originalElementDepthInCollapsedArea=y,E.push(x)),J||(isElementPositionedOffScreen(b)?J=x:b===e||T||"none"===X.float||B||!(cachedElementBoundingRect(b).height>=FloatMinimumHeight||b.childElementCount>1)||(T=1)),!J){if(sanitizeElementByRemovingAttributes(x),n===CleaningType.MetadataContent)if("|"===x.innerText)x.innerText="",x.classList.add("delimiter");else if("time"===normalizedElementTagName(x)){var me=x.previousElementSibling;if(me&&"span"===normalizedElementTagName(me)&&!me.classList.contains("delimiter")){var de=this.contentDocument.createElement("span");de.classList.add("delimiter"),x.before(de)}}else"figure"===K&&(J=x);if("both"===X.clear&&x.classList.add("clear"),"ul"===K||"ol"===K||"menu"===K){if(q&&!y&&cachedElementBoundingRect(b).top<q.top)J=x;else if("none"===X["list-style-type"]&&"none"===X["background-image"]){for(var he=b.children,ue=he.length,ge=!0,fe=0;fe<ue;++fe){var pe=he[fe],Ee=getComputedStyle(pe);if("none"!==Ee["list-style-type"]||0!==parseInt(Ee["-webkit-padding-start"])){ge=!1;break}var ve=getComputedStyle(pe,":before").content;if(/\u2022|\u25e6|\u2023|\u2219|counter/.test(ve)){ge=!1;break}}ge&&x.classList.add("list-style-type-none")}if(b.querySelector("code")){const e=/monospace|menlo|courier/i;var Te=dominantFontFamilyAndSizeForElement(b);e.test(Te)&&(x.classList.add("code-block"),x.classList.add("protected"))}}if(A||"normal"===X.fontStyle||(u.has(K)||x.style&&(x.style.fontStyle=X.fontStyle),A=1),!N&&"normal"!==X.fontWeight){if(!g.has(K)){var Se=parseInt(X.fontWeight),Ae=null;isNaN(Se)?Ae=X.fontWeight:Se<=400||Se>=500&&(Ae="bold"),Ae&&x.style&&(x.style.fontWeight=Ae)}N=1}if(T&&"section"!==K&&s(b,e)||"aside"===K){Te=dominantFontFamilyAndSizeForElement(b);var Ne=dominantFontSizeInPointsFromFontFamilyAndSizeString(Te),ye=Te&&Te===z;if(1!==T||Z||(cachedElementBoundingRect(b).width<=MaximumFloatWidth?x.setAttribute("class","auxiliary float "+X.float):ye||x.classList.add("auxiliary")),x.closest(".auxiliary")&&b.style){var be=b.style.getPropertyValue("width");"table"===X.display&&/%/.test(be)&&parseInt(be)<2?x.style.width=X.width:be?x.style.width=be:J=x,1!==T||be||(x.style.width=cachedElementBoundingRect(b).width+"px")}Z||c(x,Ne)}if("table"===K)S||(S=1);else if("img"===K){var xe;if(xe=lazyLoadingImageURLForElement(x,b.className)){x.setAttribute("src",xe);var De=!!x.closest("figure");if(!De){var Ie=attributesForElement(b),Ce=Ie.length;for(fe=0;fe<Ce;++fe)if(p.test(Ie[fe].nodeName)){De=!0;break}}De&&x.classList.add("protected"),$=!0}!xe&&x.hasAttribute("src")||!b.hasAttribute("data-srcset")||x.setAttribute("srcset",b.getAttribute("data-srcset")),x.removeAttribute("border"),x.removeAttribute("hspace"),x.removeAttribute("vspace");var Re=x.getAttribute("align");if(x.removeAttribute("align"),"left"!==Re&&"right"!==Re||(x.classList.add("float"),x.classList.add(Re)),!T&&!$){var Le,Me=(Le=cachedElementBoundingRect(b)).width,_e=Le.height;hasClassMatchingRegexp(b,ProgressiveLoadingRegex)&&b.nextElementSibling&&"img"===normalizedElementTagName(b.nextElementSibling)?J=x:imageIsContainedByContainerWithImageAsBackgroundImage(b)?x.classList.add("protected"):1===Me&&1===_e||q&&_e<MinimumHeightForImagesAboveTheArticleTitle&&Le.bottom<q.top?J=x:Me<ImageSizeTiny&&_e<ImageSizeTiny&&x.setAttribute("class","reader-image-tiny")}if(n===CleaningType.MetadataContent)((Le=cachedElementBoundingRect(b)).width>MaximumWidthOrHeightOfImageInMetadataSection||Le.height>MaximumWidthOrHeightOfImageInMetadataSection)&&(J=x);if(b.classList.contains("emoji")){let e=urlFromString(x.src);if(e&&"s.w.org"===e.hostname&&e.pathname.startsWith("/images/core/emoji/")){let e=this.replaceImageWithAltText(x);e&&((x=e).originalElement=b,K=normalizedElementTagName(x),J=x,x.classList.add("protected"))}}}else if("font"===K)x.removeAttribute("size"),x.removeAttribute("face"),x.removeAttribute("color");else if("a"===K&&x.parentNode){let e,t;x instanceof HTMLAnchorElement?(e=x.getAttribute("href"),t=HTMLAnchorElement):x instanceof SVGAElement&&(e=x.getAttribute("xlink:href"),t=SVGAElement);let i=x.originalElement.ownerDocument.location,r=urlStringShouldHaveItsAnchorMadeNonFunctional(e,i);if(t===HTMLAnchorElement&&"author"===b.getAttribute("itemprop"))x.classList.add("protected");else if(e&&e.length&&("#"===e[0]||r)){const e=new Set(["li","sup"]);if(!S&&!x.childElementCount&&1===x.parentElement.childElementCount&&!e.has(normalizedElementTagName(x.parentElement)))this.contentDocument.evaluate("text()",x.parentElement,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength||(J=x);if(!J){se=this.contentDocument.createElement("span");if(1===x.childElementCount&&"img"===normalizedElementTagName(x.firstElementChild)){var we=x.firstElementChild;we.width>AnchorImageMinimumWidth&&we.height>AnchorImageMinimumHeight&&se.setAttribute("class","converted-image-anchor")}for(se.className||se.setAttribute("class","converted-anchor");x.firstChild;)se.appendChild(x.firstChild);x.parentNode.replaceChild(se,x),(x=se).originalElement=b}}else if(AdvertisementHostRegex.test(x.host)&&!x.innerText)J=x;else if(n!==CleaningType.MetadataContent&&I&&!R&&I.compareDocumentPosition(b)&document.DOCUMENT_POSITION_PRECEDING&&cachedElementBoundingRect(b).top<cachedElementBoundingRect(I).top)j.push(x);else{var Fe=b.children;1===Fe.length&&"img"===normalizedElementTagName(Fe[0])&&!b.innerText&&anchorLooksLikeDownloadFlashLink(b)&&(J=x)}r&&(x.removeAttribute("xlink:href"),x.removeAttribute("href"))}else if("aside"===K||"blockquote"===K||"q"===K||"div"===K&&H.test(b.className)){Te=dominantFontFamilyAndSizeForElement(b),Ne=dominantFontSizeInPointsFromFontFamilyAndSizeString(Te);Z||c(x,Ne)}else if("cite"===K){var Oe=pseudoElementContent(b,":after")??"",Be=document.createElement("span");Be.innerText=Oe,x.after(Be)}else"pre"===K?x.style.whiteSpace=X.whiteSpace:"source"===K&&b.hasAttribute("data-srcset")?(x.setAttribute("srcset",b.getAttribute("data-srcset")),x.classList.add("protected")):x instanceof SVGAnimateElement&&"xlink:href"===x.attributes.attributeName.value&&(J=x)}if(X&&L&&!$){var Pe="none"===X.display||"visible"!==X.visibility||computedStyleIndicatesElementIsInvisibleDueToClipping(X);if(Pe||"img"===K||(Pe="0"===X.opacity&&"absolute"===X.position&&!x.closest("figure")),Pe&&!y)!!O&&(v===O.depth&&selectorForElement(b)===O.selector)||U(b,e)||(J=x)}if(!J&&elementIsCommentBlock(b)&&(J=x),!J&&q&&cachedElementBoundingRect(b).top<q.top&&VeryLiberalCommentRegex.test(b.className)&&x.parentElement&&(J=x),!J&&"a"===K&&P.has(b.href)){for(var ke,qe,Ue=b,ze=x;(Ue=Ue.parentElement)&&(ze=ze.parentElement);){const t=10;if(cachedElementBoundingRect(Ue).top-cachedElementBoundingRect(b).top>t)break;if(Ue===e)break;o(Ue)&&(ke=Ue,qe=ze)}ke&&(J=qe,b=ke,(x=qe).originalElement=b,K=normalizedElementTagName(x)),Ue=null,ze=null,ke=null,qe=null}}catch(e){J=x}if(!J||J.parentElement||i||(J=null),"div"===K?G.push(x):"aside"===K&&Q.push(x),!J){let e=this._weakMapOfOriginalElementToUniqueID.get(x.originalElement);e||(e=this._nextUniqueID()),this._mapOfUniqueIDToOriginalElement.set(e,x.originalElement),x.setAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY,e),this._weakMapOfOriginalElementToUniqueID.set(x.originalElement,e)}var We=J?null:b.firstElementChild;if(We)b=We,x=x.firstElementChild,r(1);else{for(var He;b!==e&&!(He=b.nextElementSibling);)b=b.parentElement,x=x.parentElement,r(-1);if(b===e){if(J&&!elementIsProtected(J))if(J.parentElement)J.remove();else if(i)return null;break}b=He,x=x.nextElementSibling,a()}if(J&&!elementIsProtected(J))if(J.parentElement)J.remove();else if(i)return null}for(let e of t.querySelectorAll("iframe")){if(elementLooksLikeEmbeddedTweet(e.originalElement))(Ve=this.adoptableSimpleTweetFromTwitterElement(e))&&e.parentElement.replaceChild(Ve,e);e.classList.add("protected"),e.setAttribute("sandbox","allow-scripts allow-same-origin")}for(let e of t.querySelectorAll("twitter-widget")){var Ve;if(elementLooksLikeEmbeddedTweet(e.originalElement))(Ve=this.adoptableSimpleTweetFromTwitterElement(e))&&e.parentElement.replaceChild(Ve,e);e.classList.add("protected")}const je=t.querySelectorAll("blockquote"),Ye=je.length;for(fe=0;fe<Ye;++fe){const e=je[fe],t=e.originalElement;t&&this.convertBlockquoteTweetToSimpleTweetIfAppropriate(e,t)}for(fe=E.length-1;fe>=0;--fe){(ft=E[fe]).parentNode&&this.shouldPruneElement(ft,ft.originalElement,z)&&ft.remove(),delete ft._originalElementDepthInCollapsedArea}var Ge=j.length;for(fe=0;fe<Ge;++fe)j[fe].remove();var Qe=t.querySelectorAll(".float");for(fe=0;fe<Qe.length;++fe){var Xe=!1,Je=Qe[fe];if(!Xe){var Ke=Je.querySelectorAll("a, span.converted-image-anchor"),$e=Je.querySelectorAll("span.converted-anchor");Xe=Je.parentNode&&$e.length>Ke.length}if(!Xe){var Ze=Je.querySelectorAll("embed, object").length,et=Je.originalElement.querySelectorAll("embed, object").length;!Ze&&et&&(Xe=!0)}if(!Xe){for(var tt=Je.originalElement.getElementsByTagName("img"),nt=tt.length,it=0,rt=0;rt<nt&&(L&&isElementVisible(tt[rt])&&it++,!(it>1));++rt);if(1===it)Je.getElementsByTagName("img").length||(Xe=!0)}if(!Xe){const e="img, video, embed, iframe, object, svg";/\S/.test(Je.innerText)||Je.matches(e)||Je.querySelector(e)||(Xe=!0)}Xe&&!elementIsProtected(Je)&&Je.remove()}var at=t.querySelectorAll("br");for(fe=at.length-1;fe>=0;--fe){var lt=at[fe];lt.originalElement&&"block"===getComputedStyle(lt.originalElement.parentElement).display&&(m(lt,"nextSibling")||m(lt,"previousSibling"))&&lt.remove()}if(i&&!removeWhitespace(t.innerText).length&&(n!==CleaningType.LeadingMedia||!t.querySelector("video, iframe, img")))return null;var ot={},st=(Ke=t.querySelectorAll("a")).length;for(fe=0;fe<st;++fe){ot[ct=(ht=Ke[fe]).style.fontWeight]||(ot[ct]=[]),ot[ct].push(ht)}for(var ct in ot){var mt=ot[ct],dt=mt.length;if(dt>.7*st)for(fe=0;fe<dt;++fe){var ht;(ht=mt[fe]).style.fontWeight=null,ht.getAttribute("style")||ht.removeAttribute("style")}}var ut=t.querySelectorAll(".protected"),gt=ut.length;for(fe=0;fe<gt;++fe){var ft;(ft=ut[fe]).classList.remove("protected"),ft.classList.length||ft.removeAttribute("class")}var pt=t.querySelectorAll("p.auxiliary"),Et=pt.length;for(fe=0;fe<Et;++fe){for(var vt=pt[fe],Tt=[vt],St=vt.nextElementSibling;St&&"p"===normalizedElementTagName(St)&&St.classList.contains("auxiliary");)Tt.push(St),St=St.nextElementSibling;var At=Tt.length;if(At>1){for(rt=0;rt<At;++rt){var Nt=Tt[rt];Nt.classList.remove("auxiliary"),Nt.style&&(Nt.style.width=null),cleanStyleAndClassList(Nt)}fe+=At-1}}for(fe=G.length-1;fe>=0;--fe){var yt=G[fe];yt!==t&&elementWouldAppearBetterAsFigureOrAuxiliary(yt.originalElement,yt)&&changeElementType(yt,"figure")}for(fe=Q.length-1;fe>=0;--fe){var bt=Q[fe];bt!==t&&elementWouldAppearBetterAsFigureOrAuxiliary(bt.originalElement,bt)&&bt.classList.add("auxiliary")}var xt=V.length;for(fe=0;fe<xt;++fe){var Dt=V[fe],It=Dt.parentElementBeforePruning,Ct=null,Rt=null;if(It)Ct=depthOfElementWithinElement(It,t),Rt=selectorForElement(It);var Lt=It?It.closest("ul"):null;if(Lt)Lt.remove();else{const e=40;It&&cachedElementBoundingRect(It.originalElement).height<e&&(!O||O.selector!==Rt||O.depth!==Ct)?It.remove():Dt.remove()}}var Mt=Y.length;for(fe=0;fe<Mt;++fe){var _t=Y[fe],wt=this.contentDocument.createElement("div");wt.innerHTML=_t.dataset?_t.dataset.mathml:"",_t.parentNode.replaceChild(wt,_t)}return t},convertBlockquoteTweetToSimpleTweetIfAppropriate:function(e,t){const n=t.classList;if(!n.contains("twitter-tweet")&&!n.contains("twitter-video"))return;const i=t.getElementsByTagName("a"),r=i.length;if(r<1)return;const a=i[r-1];if("twitter.com"!==a.host)return;const l=lastPathComponentFromAnchor(a);if(isNaN(parseInt(l)))return;const o=this.contentDocument.createElement("div");o.setAttribute("data-reader-tweet-id",l),o.classList.add("tweet-wrapper"),e.parentElement.replaceChild(o,e),e.classList.add("simple-tweet"),o.appendChild(e)},adoptableSimpleTweetFromTwitterElement:function(e){var t=function(e){var t=this.contentDocument.createElement("div"),n=this.contentDocument.createTextNode(e);return t.appendChild(n),t.innerHTML}.bind(this);let n=null,i=e.originalElement;if("iframe"===normalizedElementTagName(e)?n=i.contentDocument?i.contentDocument.documentElement:null:"twitter-widget"===normalizedElementTagName(e)&&(n=i.shadowRoot),!n)return null;var r=n.querySelector("[data-tweet-id].expanded")||n.querySelector("[data-tweet-id]");if(!r)return null;var a=this.contentDocument.createElement("div");a.classList.add("tweet-wrapper");var l=this.contentDocument.createElement("blockquote");l.classList.add("simple-tweet"),a.appendChild(l);var o=r.getAttribute("data-tweet-id");a.setAttribute("data-reader-tweet-id",o);var s=r.querySelector(".dateline"),c=r.querySelector('[data-scribe="element:screen_name"]'),m=r.querySelector('[data-scribe="element:name"]'),d=r.querySelector(".e-entry-title");if(!(s&&c&&m&&d))return a;var h="&mdash; "+t(m.innerText)+" ("+t(c.innerText)+")",u=this.contentDocument.createElement("p");u.innerHTML=d.innerHTML,l.appendChild(u),l.insertAdjacentHTML("beforeend",h);var g=this.contentDocument.createElement("span");g.innerHTML=s.innerHTML,l.appendChild(g);for(let e of l.querySelectorAll("img.twitter-emoji"))this.replaceImageWithAltText(e);for(var f=l.getElementsByTagName("*"),p=f.length,E=0;E<p;++E){e=f[E];"script"===normalizedElementTagName(e)?e.remove():sanitizeElementByRemovingAttributes(e)}return a},replaceImageWithAltText:function(e){var t=e.getAttribute("alt");if(!t||t.length<1)return null;let n=this.contentDocument.createElement("span");return n.innerText=t,e.parentNode.replaceChild(n,e),n},leadingVideoNode:function(){var e=this.leadingContentNodeWithSelector("video, iframe");return e&&e.parentElement&&!e.previousElementSibling&&!e.nextElementSibling?e.parentElement:null},leadingImageNode:function(){return this.leadingContentNodeWithSelector("figure img, img")},ancestorsOfElement:function(e){let t=[],n=e.parentNode;for(;n;)t.push(n),n=n.parentNode;return t},leadingContentNodeWithSelector:function(e){const t=250,n=.5,i=.9,r=3;if(!this.article||!this.article.element)return null;let a=0;if(this._articleTitleElement){let e,t=this.ancestorsOfElement(this.article.element);for(let n of t)if(n.contains(this._articleTitleElement)){e=n;break}a=t.length-this.ancestorsOfElement(e).length+2}let l=Math.max(r,a);for(var o=this.article.element,s=0;s<l&&o.parentNode;++s){var c=(o=o.parentNode).querySelectorAll(e);for(var m of c)if(m&&isElementVisible(m)){var d=cachedElementBoundingRect(m);if(!(d.width>=window.innerWidth*i)&&d.height<t)continue;if(d.width<this._articleWidth*n)continue;var h=this.article.element.compareDocumentPosition(m);if(!(h&Node.DOCUMENT_POSITION_PRECEDING)||h&Node.DOCUMENT_POSITION_CONTAINED_BY)continue;var u=this.extraArticle?this.extraArticle.element:null;if(u&&this.article.element.compareDocumentPosition(u)&Node.DOCUMENT_POSITION_FOLLOWING&&(h=u.compareDocumentPosition(m))&&(!(h&Node.DOCUMENT_POSITION_PRECEDING)||h&Node.DOCUMENT_POSITION_CONTAINED_BY))continue;return m}}return null},pageImageURLFromMetadata:function(e){var t=e["property:og:image"];if(t||(t=e["property:twitter:image"]),t||(t=e["property:twitter:image:src"]),t){let e=urlFromString(t);if(e){let n=e.href;n&&urlIsHTTPFamilyProtocol(e)&&(t=n)}}return t},mainImageNode:function(){var e=this.leadingImageNode();if(e)return e;if(this.article&&this.article.element)for(var t=this.article.element.querySelectorAll("img"),n=t.length,i=0;i<n;++i){var r=t[i],a=r._cachedElementBoundingRect;if(a||(a=r.getBoundingClientRect()),a.width>=MainImageMinimumWidthAndHeight&&a.height>=MainImageMinimumWidthAndHeight)return r}return null},schemaDotOrgMetadataObjectForArticle:function(){if(this._schemaDotOrgMetadataObjectForArticle)return this._schemaDotOrgMetadataObjectForArticle;const e=new Set(["Article","NewsArticle","Report","ScholarlyArticle","SocialMediaPosting","BlogPosting","LiveBlogPosting","DiscussionForumPosting","TechArticle","APIReference"]);var t=this.contentDocument.querySelectorAll("script[type='application/ld+json']"),n=t.length;try{for(var i=0;i<n;++i){var r=t[i],a=JSON.parse(r.textContent),l=a["@context"];if("https://schema.org"===l||"http://schema.org"===l){var o=a["@type"];if(e.has(o))return this._schemaDotOrgMetadataObjectForArticle=a,a}}return null}catch(e){return null}},articleTitle:function(){var e=this.articleTitleInformation();return e?e.titleText:""},articleTitleInformation:function(){function e(e,t){var n=e?t.indexOf(e):-1;return-1!==n&&(0===n||n+e.length===t.length)}function t(e,t){return e.host===t.host&&e.pathname===t.pathname&&e.hash===t.hash}function n(e){let t=nearestAncestorElementWithTagName(e,"a")||e.querySelector("a");return t?urlStringShouldHaveItsAnchorMadeNonFunctional(t.href,t.ownerDocument.location)?null:t:null}if(!this.articleNode())return;if(this._articleTitleInformation)return this._articleTitleInformation;const i=/((article|post).*title|headline|instapaper_title|inside-head)/i,r=600,a=20,l=8,o=1.1,s=1.25,c=/header|title|headline|instapaper_title/i,m=1.5,d=1.8,h=1.5,u=.6,g=3,f=1.5,p=.8,E=.8,v=9,T=1.5,S=/byline|author/i;var A=function(e,t){var n=this.contentFromUniqueMetadataSelector(e,t);if(n){var i=this.articleTitleAndSiteNameFromTitleString(n);i&&(n=i.articleTitle)}return n}.bind(this),N=function(){for(var e=this.articleNode();e;e=e.parentElement)if(elementIndicatesItIsASchemaDotOrgArticleContainer(e))return e;return null}.bind(this)(),y=N?this.contentFromUniqueMetadataSelector(N,"meta[itemprop=headline]"):"",b=N?this.contentFromUniqueMetadataSelector(N,"meta[itemprop=alternativeHeadline]"):"",x=this.contentDocument,D=x.location,I=x.title,C=A(x,"meta[property='og:title']"),R=this.contentFromUniqueMetadataSelector(x,"meta[property='og:site_name']"),L=A(x,"meta[name='twitter:title']"),M=A(x,"meta[name='sailthru.headline']"),_=this.schemaDotOrgMetadataObjectForArticle(),w=_?_.headline:null,F=this.articleNode(),O=cachedElementBoundingRect(F);this.extraArticleNode()&&this.extraArticle.isPrepended&&(O=cachedElementBoundingRect(this.extraArticleNode()));var B=O.left+O.width/2,P=O.top,k=P;(this._articleWidth=O.width,this._leadingMediaElement=this.leadingImageNode(),this._leadingMediaElement||(this._leadingMediaElement=this.leadingVideoNode()),this._leadingMediaElement)&&(k=(cachedElementBoundingRect(this._leadingMediaElement).top+P)/2);var q="h1, h2, h3, h4, h5, a:not(svg a), p, div, span",U=normalizedElementTagName(this.article.element);"dl"!==U&&"dd"!==U||(q+=", dt");for(var z=[],W=x.querySelectorAll(q),H=W.length,V=0;V<H;++V){var j=W[V],Y=normalizedElementTagName(j);if("a"===Y)j.innerText===C&&t(j,D)&&(j.previousElementSibling||j.nextElementSibling?z.push(j):z.push(j.parentElement));else if("div"===Y||"span"===Y||"p"===Y){if(hasClassMatchingRegexp(j,i)||i.test(j.getAttribute("id"))){var G=j.parentElement;elementIsAHeader(G)||z.push(j)}}else z.push(j)}z=Array.prototype.slice.call(z,0);const Q=2;var X=this.article.element;for(V=0;V<Q;++V)X.parentElement&&(X=X.parentElement);for(var J,K=X.querySelectorAll("a:not(svg a)"),$=(V=0,K.length);V<$;++V){var Z=K[V];if(Z.offsetTop>F.offsetTop+a)break;if(t(Z,D)&&"#"!==Z.getAttribute("href")){z.push(Z);break}}var ee=z.map(trimmedInnerTextIgnoringTextTransform),te=z.length,ne=0,ie=[],re=[],ae=[],le=[],oe=[],se=[],ce=[];const me={},de=e=>{const t=me[e];if(t)return t;const n=stringSimilarity(I,e);return me[e]=n,n};for(V=0;V<te;++V){var he=z[V],ue=ee[V];const e={},t=t=>{const n=e[t];if(n)return n;const i=stringSimilarity(ue,t);return e[t]=i,i};let n=de(ue);if(C){const e=t(C);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&re.push(he)}if(L){const e=t(L);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&ae.push(he)}if(y){const e=t(y);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&le.push(he)}if(b){const e=t(b);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&oe.push(he)}if(M){const e=t(M);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&se.push(he)}if(w){const e=t(w);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&ce.push(he)}n===ne?ie.push(he):n>ne&&(ne=n,ie=[he])}let ge=[];for(let e of z){let t=e.nextElementSibling;t&&SubheadRegex.test(t.className)&&ge.push(e)}if(1===re.length?(J=re[0]).headerText=trimmedInnerTextIgnoringTextTransform(J):1===ae.length?(J=ae[0]).headerText=trimmedInnerTextIgnoringTextTransform(J):1===le.length?(J=le[0]).headerText=trimmedInnerTextIgnoringTextTransform(J):1===se.length?(J=se[0]).headerText=trimmedInnerTextIgnoringTextTransform(J):1===ce.length&&((J=ce[0]).headerText=trimmedInnerTextIgnoringTextTransform(J)),!J)for(V=0;V<te;++V){he=z[V];if(!isElementVisible(he))continue;var fe=cachedElementBoundingRect(he),pe=fe.left+fe.width/2,Ee=pe-B,ve=fe.top+fe.height/2-k,Te=-1!==re.indexOf(he),Se=-1!==ae.indexOf(he),Ae=he.classList.contains("instapaper_title"),Ne=/\bheadline\b/.test(he.getAttribute("itemprop")),ye=-1!==le.indexOf(he),be=-1!==oe.indexOf(he),xe=-1!==se.indexOf(he),De=-1!==ce.indexOf(he);let t=ge.includes(he)&&ve<0;var Ie=Te||Se||Ae||Ne||ye||be||xe||De||t,Ce=Math.sqrt(Ee*Ee+ve*ve),Re=Ie?r:Math.max(r-Ce,0),Le=(ue=ee[V],he.getAttribute("property"));if(Le){var Me=/dc.title/i.exec(Le);if(Me&&Me[0])if(1===this.contentDocument.querySelectorAll('*[property~="'+Me[0]+'"]').length){(J=he).headerText=ue;break}}if(!S.test(he.className)){if(!Ie){if(Ce>r)continue;if(pe<O.left||pe>O.right)continue}if(I&&stringsAreNearlyIdentical(ue,I))Re*=g;else if(e(ue,I))Re*=f;else if(ue.length<l)continue;if(ue!==R||!C){var _e=!1;if(ze=n(he)){if("author"===ze.getAttribute("rel"))continue;var we=ze.host===D.host,Fe=ze.pathname===D.pathname;if(we&&Fe)Re*=h;else{if(we&&nearestAncestorElementWithTagName(he,"li"))continue;Re*=u,_e=!0}}var Oe=fontSizeFromComputedStyle(getComputedStyle(he));_e||(Re*=Oe/BaseFontSize),Re*=1+TitleCandidateDepthScoreMultiplier*elementDepth(he);var Be=parseInt(this.contentTextStyle().fontSize);parseInt(Oe)>Be*o&&(Re*=s),(c.test(he.className)||c.test(he.getAttribute("id")))&&(Re*=m);var Pe=he.parentElement;Pe&&(c.test(Pe.className)||c.test(Pe.getAttribute("id")))&&(Re*=m),-1!==ie.indexOf(he)&&(Re*=d);F=this.article.element;for(var ke=he;ke&&ke!==F;ke=ke.parentElement)if(SidebarRegex.test(ke.className)){Re*=p;break}he.closest("li")&&(Re*=E),(!J||Re>J.headerScore)&&((J=he).headerScore=Re,J.headerText=ue)}}}var qe;if(J&&domDistance(J,F,v+1)>v&&parseInt(getComputedStyle(J).fontSize)<T*Be&&(J=null),J){this._articleTitleElement=J;var Ue=J.headerText.trim();qe=C&&e(C,Ue)?C:I&&e(I,Ue)?I:Ue}this._leadingMediaElement||(this._leadingMediaElement=this.leadingImageNode()),this._leadingMediaElement||(this._leadingMediaElement=this.leadingVideoNode()),qe||(qe=C&&e(C,I)?C:I);var ze,We=null,He=!1,Ve=!1;J&&((ze=n(J))&&(We=ze.href,He="_blank"===ze.getAttribute("target"),Ve=ze.host!==D.host||ze.pathname!==D.pathname));let je={titleText:qe,linkURL:We,linkIsTargetBlank:He,linkIsForExternalPage:Ve};return this._articleTitleElement&&(this._mapOfUniqueIDToOriginalElement.set(READER_UNIQUE_ID_TITLE,J),this._weakMapOfOriginalElementToUniqueID.set(J,READER_UNIQUE_ID_TITLE)),this._articleTitleInformation=je,je},contentFromUniqueMetadataSelector:function(e,t){var n=e.querySelectorAll(t);if(1!==n.length)return null;var i=n[0];return i?this.elementAttributesContainImproperQuote(i)?null:i.content:null},elementAttributesContainImproperQuote:function(e){for(var t=attributesForElement(e),n=t.length,i=0;i<n;++i)if(/['"]/.test(t[i].name))return!0;return!1},articleSubhead:function(){function e(e){return elementIsAHeader(e)?parseInt(/h(\d)?/.exec(normalizedElementTagName(e))[1]):NaN}function t(e){if(!e)return null;var t=e.content;return t?t.trim():null}const n=/author|kicker/i;if(this._articleSubhead)return this._articleSubhead;var i=this.articleNode();if(!i)return;var r=this._articleTitleElement;if(!r)return;var a=this.contentDocument,l=a.location,o=e(r),s=cachedElementBoundingRect(r),c=new Set,m=t(a.querySelector("meta[property='og:description']"));m&&c.add(m);var d=t(a.querySelector("meta[name=description]"));d&&c.add(d);var h,u=this.schemaDotOrgMetadataObjectForArticle();if(u){var g=u.description;g&&"string"==typeof g&&c.add(g.trim())}var f=this.contentFromUniqueMetadataSelector(a,"head meta.swiftype[name=dek]");f&&(h=f);let p=[],E=nextNonFloatingVisibleElementSibling(r);E&&p.push(E);let v=nextLeafElementForElement(r);if(v&&r&&r.contains(v)&&v.innerText&&v.innerText.trim()===r.innerText.trim()&&(v=nextLeafElementForElement(v)),v&&p.push(v),c.size)for(var T=a.querySelectorAll(HeaderElementsSelector+", *[itemprop=description]"),S=T.length,A=0;A<S;++A){var N=T[A];c.has(N.innerText.trim())&&p.push(N)}var y=p.length;for(A=0;A<y;++A){var b=p[A];if(b&&b!==i){var x=b.className;if(!n.test(x)){var D=b.closest("a");if(D){var I=D.host===l.host,C=D.pathname===l.pathname;if(!I||!C)continue}var R=!1;if(elementIsAHeader(b))if(isNaN(o))R=!0;else e(b)-1===o&&(R=!0);if(!R&&SubheadRegex.test(x)&&(R=!0),!R){const e=b.getAttribute("itemprop");/\bdescription\b/.test(e)&&!/\barticleBody\b/.test(e)&&(R=!0)}if(!R&&c.has(b.innerText)&&(R=!0),!R&&h&&h===b.innerText&&(R=!0),R||"summary"!==b.getAttribute("itemprop")||(R=!0),R){var L;if("meta"===normalizedElementTagName(b)){var M=b.getAttribute("content");L=M?M.trim():"";var _=b.nextElementSibling;if(!_||trimmedInnerTextIgnoringTextTransform(_)!==L)continue;b=_}else{if(cachedElementBoundingRect(b).top<(s.bottom+s.top)/2)continue;L=trimmedInnerTextIgnoringTextTransform(b).trim()}if(L.length){this._articleSubheadElement=b,this._mapOfUniqueIDToOriginalElement.set(READER_UNIQUE_ID_SUBHEAD,b),this._weakMapOfOriginalElementToUniqueID.set(b,READER_UNIQUE_ID_SUBHEAD),this._articleSubhead=L;break}}}}}return this._articleSubhead},adoptableMetadataBlock:function(){function e(e){function t(e,i){if(e.nodeType!==Node.TEXT_NODE){if(e.nodeType===Node.ELEMENT_NODE){var r=e.childNodes,a=r.length;0!==a&&(1!==a?(i!==n.Right&&t(r[0],n.Left),i!==n.Left&&t(r[a-1],n.Right)):t(r[0],i))}}else i===n.Left?e.textContent=e.textContent.trimLeft():i===n.Right?e.textContent=e.textContent.trimRight():e.textContent=e.textContent.trim()}const n={Left:1,Right:2,Both:3};t(e)}this.updateArticleBylineAndDateElementsIfNecessary();var t=this.articleBylineElement(),n=this.articleDateElement();if(!t&&!n)return null;if(t&&n){var i=t.compareDocumentPosition(n);i&Node.DOCUMENT_POSITION_CONTAINS&&(t=null),i&Node.DOCUMENT_POSITION_CONTAINED_BY&&(n=null),t===n&&(n=null)}var r,a=this.contentDocument.createElement("div"),l=!1,o=!1;t&&(e(r=this.cleanArticleNode(t,t.cloneNode(!0),CleaningType.MetadataContent,!1)),r.innerText.trim()&&(l=!0,r.classList.add("byline")));if(n){var s=this.cleanArticleNode(n,n.cloneNode(!0),CleaningType.MetadataContent,!1);e(s),s.innerText.trim()&&(o=!0,s.classList.add("date"))}if(l&&a.appendChild(r),l&&o){var c=document.createElement("span");c.classList.add("delimiter"),a.appendChild(c)}return o&&a.appendChild(s),a},articleBylineElement:function(){return this._articleBylineElement},findArticleBylineElement:function(){var e=this.findArticleBylineElementWithoutRejection();return e&&("footer"===normalizedElementTagName(e)||e.closest("figure"))?null:e},findArticleBylineElementWithoutRejection:function(){function e(e){if(!e.length)return null;e=e.filter(isElementVisible);for(var t=new Set,n=new Set,r=e.length,o=0;o<r-1;++o){var s=e[o],c=e[o+1];if(isElementVisible(s)&&isElementVisible(c)){var m=s.parentElement;m===c.parentElement&&(m.contains(i)||(n.add(s.parentElement),t.add(s),t.add(c)))}}var d=new Set(e);n.forEach((function(e){d.add(e)})),t.forEach((function(e){d.delete(e)})),e=[],d.forEach((function(t){e.push(t)}));var h,u=null;r=e.length;for(o=0;o<r;++o){s=e[o];if(isElementVisible(s)){var g=cachedElementBoundingRect(s),f=g.left+g.width/2,p=g.top+g.height/2,E=a-f,v=l-p,T=Math.sqrt(E*E+v*v);(!u||T<h)&&(u=s,h=T)}}return u}const t="[itemprop~=author], a[rel='author']:not(svg a)",n="#byline, .byline, .article-byline, .byline__author, .entry-meta, .author-name, .byline-dateline, .article-author, [itemprop~=author], a[rel='author']:not(svg a)";var i=this._articleSubheadElement||this._articleTitleElement;if(i)var r,a=(r=i?cachedElementBoundingRect(i):null).left+r.width/2,l=r.top+r.height/2;var o=this.contentFromUniqueMetadataSelector(this.contentDocument,"head meta[name=author]");if(o||(o=this.contentFromUniqueMetadataSelector(this.contentDocument,"head meta[property=author]")),!o){var s=this.schemaDotOrgMetadataObjectForArticle();if(s){var c=s.author;c&&"object"==typeof c&&(o=c.name)}}var m=this.article.element,d=m.querySelectorAll(n);if(1===d.length)return d[0];var h=i?i.nextElementSibling:null;if(h){if(h.matches(n)||h.innerText===o||(h=h.querySelector(n)),h)if(h.querySelector("li")){var u=h.querySelector(n);u&&(h=u)}if(h)return h}for(var g=this.contentDocument.getElementsByTagName("a"),f=0,p=g.length;f<p;++f){var E=g[f];if(trimmedInnerTextIgnoringTextTransform(E)===o)return E}var v=m.closest("article");if(i&&v){if(S=e(Array.from(v.querySelectorAll(t))))return S;if(S=e(Array.from(v.querySelectorAll(n))))return S}var T=m.previousElementSibling;if(T){var S;if(S=e(Array.from(T.querySelectorAll(t))))return S;if(S=e(Array.from(T.querySelectorAll(n))))return S}return null},articleDateElement:function(){return this._articleDateElement},findArticleDateElement:function(){function e(e){for(var t=e;t&&t!==l;t=t.parentElement)if(elementIsCommentBlock(t)||elementLooksLikeACarousel(t))return!0;return!1}function t(t){for(var n,i=null,r=t.length,a=0;a<r;++a){var l=t[a];if(isElementVisible(l)&&!e(l)){var o=cachedElementBoundingRect(l),s=o.left+o.width/2,d=o.top+o.height/2,h=c-s,u=m-d,g=Math.sqrt(h*h+u*u);(!i||g<n)&&(i=l,n=g)}}return i}const n=/date/i,i="time, .dateline, .entry-date";var r,a=this._articleSubheadElement||this._articleTitleElement,l=this.article.element,o=a?a.nextElementSibling:null;if(o&&1===(r=o.querySelectorAll(i)).length&&(o=r[0]),!o||o.matches(i)||hasClassMatchingRegexp(o,n)||o.querySelector(i)||(o=null),o&&o.contains(l)&&(o=null),o)return o;if(a)var s,c=(s=a?cachedElementBoundingRect(a):null).left+s.width/2,m=s.top+s.height/2;if((r=l.querySelectorAll(i)).length)return t(r);if((l=l.closest("article"))&&(r=l.querySelectorAll(i)).length)return t(r);return null},articleDateElementWithBylineElementHint:function(e){function t(e){return/date/.test(e.className)||/\bdatePublished\b/.test(e.getAttribute("itemprop"))}var n=e.nextElementSibling;if(n&&t(n))return n;var i=nextLeafElementForElement(e);return i&&t(i)?i:null},updateArticleBylineAndDateElementsIfNecessary:function(){this.article&&(this._didArticleBylineAndDateElementDetection||(this.updateArticleBylineAndDateElements(),this._didArticleBylineAndDateElementDetection=!0))},updateArticleBylineAndDateElements:function(){var e=this.findArticleBylineElement(),t=this.findArticleDateElement();!t&&e&&(t=this.articleDateElementWithBylineElementHint(e)),this._articleDateElement=t,this._articleBylineElement=e},articleIsLTR:function(){if(!this._articleIsLTR){var e=getComputedStyle(this.article.element);this._articleIsLTR=!e||"ltr"===e.direction}return this._articleIsLTR},findSuggestedCandidate:function(){var e,t,n=this.suggestedRouteToArticle;if(!n||!n.length)return null;for(t=n.length-1;t>=0&&(!n[t].id||!(e=this.contentDocument.getElementById(n[t].id)));--t);for(t++,e||(e=this.contentDocument);t<n.length;){for(var i=n[t],r=e.nodeType===Node.DOCUMENT_NODE?e.documentElement:e.firstElementChild,a=1;r&&a<i.index;r=r.nextElementSibling)this.shouldIgnoreInRouteComputation(r)||a++;if(!r)return null;if(normalizedElementTagName(r)!==normalizedElementTagName(i))return null;if(i.className&&r.className!==i.className)return null;e=r,t++}return isElementVisible(e)?new CandidateElement(e,this.contentDocument):null},findArticleBySearchingAllElements:function(e){var t=this.findSuggestedCandidate(),n=this.findCandidateElements();if(!n||!n.length)return t;if(t&&t.basicScore()>=ReaderMinimumScore)return t;for(var i=this.highestScoringCandidateFromCandidates(n),r=i.element;r!==this.contentDocument;r=r.parentNode)if("blockquote"===normalizedElementTagName(r)){for(var a=r.parentNode,l=n.length,o=0;o<l;++o){var s=n[o];if(s.element===a){i=s;break}}break}if(t&&i.finalScore()<ReaderMinimumScore)return t;if(!e){if(i.shouldDisqualifyDueToScoreDensity())return null;if(i.shouldDisqualifyDueToHorizontalRuleDensity())return null;if(i.shouldDisqualifyDueToHeaderDensity())return null;if(i.shouldDisqualifyDueToSimilarElements(n))return null}return i},findExtraArticle:function(){if(!this.article)return null;for(var e=0,t=this.article.element;e<3&&t;++e,t=t.parentNode){var n=this.findExtraArticleCandidateElements(t);if(n&&n.length)for(var i,r=this.sortCandidateElementsInDescendingScoreOrder(n),a=0;a<r.length&&((i=r[a])&&i.basicScore());a++)if(!i.shouldDisqualifyDueToScoreDensity()&&!i.shouldDisqualifyDueToHorizontalRuleDensity()&&!(i.shouldDisqualifyDueToHeaderDensity()||cachedElementBoundingRect(i.element).height<PrependedArticleCandidateMinimumHeight&&cachedElementBoundingRect(this.article.element).width!==cachedElementBoundingRect(i.element).width)){var l=contentTextStyleForNode(this.contentDocument,i.element);if(l&&l.fontFamily===this.contentTextStyle().fontFamily&&l.fontSize===this.contentTextStyle().fontSize&&i)return i}}return null},highestScoringCandidateFromCandidates:function(e){for(var t=0,n=null,i=e.length,r=0;r<i;++r){var a=e[r],l=a.basicScore();l>=t&&(t=l,n=a)}return n},sortCandidateElementsInDescendingScoreOrder:function(e){function t(e,t){return e.basicScore()!==t.basicScore()?t.basicScore()-e.basicScore():t.depth()-e.depth()}return e.sort(t)},findCandidateElements:function(){const e=1e3;for(var t=Date.now()+e,n=this.contentDocument.getElementsByTagName("*"),i=n.length,r=[],a=0;a<i;++a){var l=n[a];if(!SetOfCandidateTagNamesToIgnore.has(normalizedElementTagName(l))){var o=CandidateElement.candidateIfElementIsViable(l,this.contentDocument);if(o&&r.push(o),Date.now()>t){r=[];break}}}var s=r.length;for(a=0;a<s;++a)r[a].element.candidateElement=r[a];for(a=0;a<s;++a){var c=r[a];if("blockquote"===normalizedElementTagName(c.element)){var m=c.element.parentElement.candidateElement;m&&m.addTextNodesFromCandidateElement(c)}}for(a=0;a<s;++a)r[a].element.candidateElement=null;return r},findExtraArticleCandidateElements:function(e){if(!this.article)return[];e||(e=this.article.element);for(var t="preceding-sibling::*/descendant-or-self::*",n=this.contentDocument.evaluate(t,e,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null),i=n.snapshotLength,r=[],a=0;a<i;++a){var l=n.snapshotItem(a);if(!SetOfCandidateTagNamesToIgnore.has(normalizedElementTagName(l)))(o=CandidateElement.extraArticleCandidateIfElementIsViable(l,this.article,this.contentDocument,!0))&&r.push(o)}t="following-sibling::*/descendant-or-self::*",i=(n=this.contentDocument.evaluate(t,e,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null)).snapshotLength;for(a=0;a<i;++a){var o;l=n.snapshotItem(a);if(!SetOfCandidateTagNamesToIgnore.has(normalizedElementTagName(l)))(o=CandidateElement.extraArticleCandidateIfElementIsViable(l,this.article,this.contentDocument,!1))&&r.push(o)}return r},isGeneratedBy:function(e){var t=this.contentDocument.head?this.contentDocument.head.querySelector("meta[name=generator]"):null;if(!t)return!1;var n=t.content;return!!n&&e.test(n)},isMediaWikiPage:function(){return void 0===this._isMediaWikiPage&&(this._isMediaWikiPage=this.isGeneratedBy(/^MediaWiki /)),this._isMediaWikiPage},isWordPressSite:function(){return this.isGeneratedBy(/^WordPress/)},isAMPPage:function(){return this.contentDocument.documentElement.hasAttribute("amp-version")},nextPageURLString:function(){if(!this.article)return null;if(this.isMediaWikiPage())return null;var e,t=0,n=this.article.element;n.parentNode&&"inline"===getComputedStyle(n).display&&(n=n.parentNode);for(var i=n,r=cachedElementBoundingRect(n).bottom+LinkMaxVerticalDistanceFromArticle;isElementNode(i)&&cachedElementBoundingRect(i).bottom<=r;)i=i.parentNode;i===n||i!==this.contentDocument&&!isElementNode(i)||(n=i);var a=this.contentDocument.evaluate(LinkCandidateXPathQuery,n,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null),l=a.snapshotLength;if(this.pageNumber<=2&&!this.prefixWithDateForNextPageURL){var o=this.contentDocument.location.pathname,s=o.match(LinkDateRegex);s&&(s=s[0],this.prefixWithDateForNextPageURL=o.substring(0,o.indexOf(s)+s.length))}for(var c=0;c<l;++c){var m=a.snapshotItem(c),d=this.scoreNextPageLinkCandidate(m);d>t&&(e=m,t=d)}return e?e.href:null},scoreNextPageLinkCandidate:function(e){function t(e,t,n,i){t.substring(0,e.length)===e&&(t=t.substring(e.length),e="");var r=t.lastInteger();if(isNaN(r))return!1;var a=e?e.lastInteger():NaN;return(isNaN(a)||a>=MaximumExactIntegralValue)&&(a=i),r===a?n.lastInteger()===a+1:r===a+1}function n(e){for(var t={},n=e.substring(1).split("&"),i=n.length,r=0;r<i;++r){var a=n[r],l=a.indexOf("=");-1===l?t[a]=null:t[a.substring(0,l)]=a.substring(l+1)}return t}var i=this.contentDocument.location;if(e.host!==i.host)return 0;if(e.pathname===i.pathname&&e.search===i.search)return 0;if(-1!==e.toString().indexOf("#"))return 0;if(anchorLinksToAttachment(e)||anchorLinksToTagOrCategoryPage(e))return 0;if(!isElementVisible(e))return 0;var r=cachedElementBoundingRect(e),a=this.articleBoundingRect(),l=Math.max(0,Math.max(a.top-(r.top+r.height),r.top-(a.top+a.height)));if(r.top<a.top)return 0;if(l>LinkMaxVerticalDistanceFromArticle)return 0;if(Math.max(0,Math.max(a.left-(r.left+r.width),r.left-(a.left+a.width)))>0)return 0;var o=i.pathname,s=e.pathname;if(this.prefixWithDateForNextPageURL){if(-1===e.pathname.indexOf(this.prefixWithDateForNextPageURL))return 0;o=o.substring(this.prefixWithDateForNextPageURL.length),s=s.substring(this.prefixWithDateForNextPageURL.length)}var c=s.substring(1).split("/");c[c.length-1]||c.pop();var m=c.length,d=o.substring(1).split("/"),h=!1;d[d.length-1]||(h=!0,d.pop());var u=d.length;if(m<u)return 0;for(var g=0,f=0,p=e.textContent,E=0;E<m;++E){var v=c[E],T=E<u?d[E]:"";if(T!==v){if(E<u-2)return 0;if(v.length>=T.length){for(var S=0;v[v.length-1-S]===T[T.length-1-S];)S++;S&&(v=v.substring(0,v.length-S),T=T.substring(0,T.length-S));var A=v.indexOf(T);-1!==A&&(v=v.substring(A))}t(T,v,p,this.pageNumber)?f=Math.pow(LinkNextOrdinalValueBase,E-m+1):g++}if(g>1)return 0}var N=!1;if(e.search)for(var y in linkParameters=n(e.search),referenceParameters=n(i.search),linkParameters){var b=linkParameters[y],x=y in referenceParameters?referenceParameters[y]:null;if(x!==b)if(null===x&&(x=""),null===b&&(b=""),b.length<x.length)g++;else if(t(x,b,p,this.pageNumber)){if(LinkURLSearchParameterKeyMatchRegex.test(y)){if(o.toLowerCase()!==s.toLowerCase())return 0;if(this.isWordPressSite()&&h)return 0;N=!0}if(LinkURLBadSearchParameterKeyMatchRegex.test(y)){g++;continue}f=Math.max(f,1/LinkNextOrdinalValueBase)}else g++}if(!f)return 0;if((LinkURLPageSlashNumberMatchRegex.test(e.href)||LinkURLSlashDigitEndMatchRegex.test(e.href))&&(N=!0),!N&&m===u&&stringSimilarity(o,s)<LinkMinimumURLSimilarityRatio)return 0;if(LinkURLArchiveSlashDigitEndMatchRegex.test(e))return 0;var D=LinkMatchWeight*(Math.pow(LinkMismatchValueBase,-g)+f)+LinkVerticalDistanceFromArticleWeight*l/LinkMaxVerticalDistanceFromArticle;N&&(D+=LinkURLSemanticMatchBonus),"li"===normalizedElementTagName(e.parentNode)&&(D+=LinkListItemBonus);p=e.innerText;return LinkNextMatchRegEx.test(p)&&(D+=LinkNextMatchBonus),LinkPageMatchRegEx.test(p)&&(D+=LinkPageMatchBonus),LinkContinueMatchRegEx.test(p)&&(D+=LinkContinueMatchBonus),D},elementContainsEnoughTextOfSameStyle:function(e,t,n){const i=110;var r="body"===normalizedElementTagName(e),a=getVisibleNonWhitespaceTextNodes(e,r?2:3,i,r,t);const l=.2,o=n/clamp(scoreMultiplierForElementTagNameAndAttributes(e),l,1/0)/languageScoreMultiplierForTextNodes(a);for(var s={},c=a.length,m=0;m<c;++m){var d=a[m],h=d.length,u=d.parentElement,g=window.getComputedStyle(u),f=g.fontFamily+"|"+g.fontSize,p=Math.pow(h,TextNodeLengthPower);if(s[f]){if((s[f]+=p)>o)break}else s[f]=p}for(var f in s)if(s[f]>o)return!0;return!1},openGraphMetadataClaimsPageTypeIsArticle:function(){if(!this._openGraphMetadataClaimsPageTypeIsArticle){var e=this.contentDocument.querySelector("head meta[property='og:type']");this._openGraphMetadataClaimsPageTypeIsArticle=e&&"article"===e.content}return this._openGraphMetadataClaimsPageTypeIsArticle},prismGenreClaimsPageIsHomepage:function(){return"homePage"===this.contentFromUniqueMetadataSelector(this.contentDocument,"head meta[name='prism.genre']")},pointsToUseForHitTesting:function(){const e=window.innerWidth,t=e/4,n=e/2,i=128,r=320;var a=[[n,800],[n,600],[t,800],[n,400],[n-i,1100],[r,700],[3*t,800],[e-r,700]];return this.openGraphMetadataClaimsPageTypeIsArticle()&&a.push([n-i,1400]),a},findArticleByVisualExamination:function(){for(var e=new Set,t=this.pointsToUseForHitTesting(),n=t.length,i=AppleDotComAndSubdomainsRegex.test(this.contentDocument.location.hostname.toLowerCase())?7200:1800,r=this.candidateElementFilter,a=0;a<n;a++)for(var l=t[a][0],o=t[a][1],s=elementAtPoint(l,o,this.contentDocument);s&&!e.has(s);s=s.parentElement){if(VeryPositiveClassNameRegEx.test(s.className))return new CandidateElement(s,this.contentDocument);if(!SetOfCandidateTagNamesToIgnore.has(normalizedElementTagName(s))){var c=s.offsetWidth,m=s.offsetHeight;if(!c&&!m){var d=cachedElementBoundingRect(s);c=d.width,m=d.height}if(!(c<r.minimumWidth||m<r.minimumHeight||c*m<r.minimumArea)){var h=this.elementContainsEnoughTextOfSameStyle(s,e,i);if(e.add(s),h&&!(CandidateElement.candidateElementAdjustedHeight(s)<r.minimumHeight)){var u=new CandidateElement(s,this.contentDocument);if(!u.shouldDisqualifyDueToSimilarElements()){if(u.shouldDisqualifyDueToHorizontalRuleDensity())return null;if(u.shouldDisqualifyDueToHeaderDensity())return null;if(!u.shouldDisqualifyForDeepLinking())return u}}}}}return null},findTextSamplesByVisualExamination:function(){function e(e){if(!e||!e.innerText)return null;let n=t(e.innerText.trim());return n&&a.add(e),n}function t(e){const t=10;let i=textContentAppearsToBeCJK(e,d)?d:m,r=e.length;if(r<i)return null;if(r>f*c)return null;let a=n(e);return(a.match(/\n/g)||[]).length>t?null:a}function n(e){return e.substring(0,h)}function i(t,n){let i=[],r=s.querySelectorAll(t);for(let t of r){if(i.length>=n)break;if(elementDescendsFromElementInSet(t,l))continue;let r=e(t);r&&i.push([t,r])}return i}function r(e){const n=document.querySelectorAll("div"),i=new Set;for(let r of n){if(r.firstElementChild)continue;let n=t(r.textContent);if(n&&(i.add(n),i.size>=e))break}return i}this.setSuppressBoundingRectCalculationForSkippedElements(!0);var a=new Set,l=new Set,o=new Set,s=this.contentDocument,c=s.body.innerText.length;const m=20,d=10,h=200,u=5,g=5,f=.8;let p=s.title,E=t(p);E&&(o.add(E),l.add(p));let v=this.pointsToUseForHitTesting(),T=v.length;for(var S=0;S<T;S++){let t=v[S][0],n=v[S][1],i=0;for(let r=elementAtPoint(t,n,this.contentDocument);r&&!a.has(r)&&!(i>u);r=r.parentElement,i++){let t=e(r);if(t){if(elementDescendsFromElementMatchingSelector(r,"code, form"))break;o.add(t),l.add(r);break}}}let A={p:3,h1:2,h2:2,h3:1};for(let[e,t]of Object.entries(A)){let n=i(e,t);for(let[e,t]of n)e&&t&&(o.add(t),l.add(e))}if(o.size<g){let e=["article","header","a","footer","body"];for(let t of e){let e=i(t,1)||[],[n,r]=e.length>0?e[0]:[null,null];if(n&&r){o.add(r),l.add(n);break}}}if(o.size<g){const e=r(g-o.size);o=o.union(e)}return Array.from(o)},findArticleFromMetadata:function(e){var t=this.contentDocument.querySelectorAll(SchemaDotOrgArticleContainerSelector);if(1===t.length){var n=t[0];if(n.matches("article, *[itemprop=articleBody]"))if(o=CandidateElement.candidateIfElementIsViable(n,this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o;var i=n.querySelectorAll("article, *[itemprop=articleBody]"),r=elementWithLargestAreaFromElements(i);if(r)if(o=CandidateElement.candidateIfElementIsViable(r,this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o;return new CandidateElement(n,this.contentDocument)}if(this.openGraphMetadataClaimsPageTypeIsArticle()&&!this.prismGenreClaimsPageIsHomepage()){var a=this.contentDocument.querySelectorAll("main article"),l=elementWithLargestAreaFromElements(a);if(l)if(o=CandidateElement.candidateIfElementIsViable(l,this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o;var o,s=this.contentDocument.querySelectorAll("article");if(1===s.length)if(o=CandidateElement.candidateIfElementIsViable(s[0],this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o}return null},articleTextContent:function(){return this._articleTextContent||this.adoptableArticle(),this._articleTextContent},unformattedArticleTextContentIncludingMetadata:function(e){this.setSuppressBoundingRectCalculationForSkippedElements(!0);var t=this.articleNode();if(t){if(!e)return t.innerText;var n="",i=this.articleTitle();i&&(n+=i+"\n");var r=this.articleSubhead();r&&(n+=r+"\n");var a=this.adoptableMetadataBlock();return a&&(n+=plaintextVersionOfNodeAppendingNewlinesBetweenBlockElements(a)+"\n"),n+t.innerText}},pageDescription:function(e){var t=e["name:description"]||e["property:og:description"];return t&&(t=t.trim()).length?t:null},articleTitleAndSiteNameFromTitleString:function(e){const t=[" - "," \u2013 "," \u2014 ",":"," | "," \xbb "],n=t.length,i=.6;for(var r,a,l=this.contentDocument.location.host.replace(/^(www|m|secure)\./,""),o=l.replace(/\.(com|info|net|org|edu|gov)$/,"").toLowerCase(),s=0;s<n;++s){var c=e.split(t[s]);if(2===c.length){var m=c[0].trim(),d=c[1].trim(),h=m.toLowerCase(),u=d.toLowerCase(),g=Math.max(stringSimilarity(h,l),stringSimilarity(h,o)),f=Math.max(stringSimilarity(u,l),stringSimilarity(u,o)),p=Math.max(g,f);(!a||p>a)&&(a=p,r=g>f?{siteName:m,articleTitle:d}:{siteName:d,articleTitle:m})}}return r&&a>=i?r:null},pageInformation:function(e,t){var n,i=this.buildMapOfMetaTags(),r=this.pageDescription(i),a=!1;this.adoptableArticle()?(n=this.articleTitle(),r=r||this.articleTextContent(),a=!0):(n=this.contentDocument.title,this.contentDocument.body&&(r=r||this.contentDocument.body.innerText));var l="",o=this.pageImageURLFromMetadata(i);if(o)l=o;else{var s=this.mainImageNode();s&&(l=s.src)}n||(n=userVisibleURLString(this.contentDocument.location.href)),n=n.trim(),e&&(n=n.substring(0,e));var c=this.contentFromUniqueMetadataSelector(this.contentDocument,"head meta[property='og:site_name']");if(!c){var m=this.articleTitleAndSiteNameFromTitleString(this.contentDocument.title);m&&m.articleTitle===n&&(c=m.siteName)}return c||(c=""),r=r?r.trim():"",t&&(r=r.substring(0,t)),{title:n,previewText:r=r.replace(/[\s]+/g," "),siteName:c,mainImageURL:l,isReaderAvailable:a}},readingListItemInformation:function(){const e=220,t=220;return this.pageInformation(e,t)},buildMapOfMetaTags:function(){var e={};const t=this.contentDocument.head.getElementsByTagName("meta"),n=t.length;for(var i=0;i<n;++i){const n=t[i],r=n.content;if(!r)continue;if(this.elementAttributesContainImproperQuote(n))continue;n.name&&(e["name:"+n.name.toLowerCase()]=r);const a=n.getAttribute("property");a&&(e["property:"+a.toLowerCase()]=r)}return e},pageTitleForTextAnalysis:function(e){const t=this.contentDocument;var n=e["property:og:title"];return n||(n=e["name:twitter:title"]),n||(n=e["name:sailthru.headline"]),n||(n=t.title),n},pageAuthorForTextAnalysis:function(e){return e["name:author"]||e["property:author"]},pageMetadataCommonToTextAnalysisAndArticleContent:function(){var e={};const t=this.buildMapOfMetaTags(),n=this.pageTitleForTextAnalysis(t);n&&(e.title=n);const i=this.pageAuthorForTextAnalysis(t);i&&(e.author=i);const r=this.pageImageURLFromMetadata(t);return r&&(e.imageURL=r),e},extractedArticleContent:function(){try{const e=this.adoptableArticle(!0);for(let t of e.getElementsByTagName("*"))t.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);let t=this.pageMetadataCommonToTextAnalysisAndArticleContent();if(e){const n=e.innerHTML;t.body=n}this.updateArticleBylineAndDateElementsIfNecessary();const n=this.articleDateElement();n&&(t.publishedDate=trimmedInnerTextIgnoringTextTransform(n));const i=this.articleBylineElement();return!t.author&&i&&(t.author=trimmedInnerTextIgnoringTextTransform(i)),t}catch(e){let t={};const n=e.message,i=e.stack;return n&&(t.error=n),i&&(t.stack=i),t}},readerUniqueIDOfElementPinnedToTopOfViewport:function(){const e=120;if(window.scrollY<e)return null;const t=this.articleNode();if(!t)return null;const n=t.getBoundingClientRect(),i=(n.left+n.right)/2;for(const e of[0,15,35,50,80,110]){const n=t.ownerDocument.elementFromPoint(i,e);if(n!==t&&(t.contains(n)||n===this._articleTitleElement||n===this._articleSubheadElement)){const e=this._weakMapOfOriginalElementToUniqueID.get(n);if(e)return e}}return null},scrollToElementWithUniqueID:function(e,t){const n=this._rectOfElementWithReaderUniqueID(e);if(!n||!n.top||isNaN(n.top)||!n.height||isNaN(n.height))return;const i=-t*n.height;this.scrollToOffset(n.top+i)},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){const e=this.readerUniqueIDOfElementPinnedToTopOfViewport();if(!e)return[null,null];const t=this._rectOfElementWithReaderUniqueID(e);if(!t||!t.top||isNaN(t.top)||!t.height||isNaN(t.height))return[null,null];return[e,(t.top-this.scrollY())/t.height]},_rectOfElementWithReaderUniqueID:function(e){function t(e){return{top:e.top+window.scrollY,right:e.right+window.scrollX,bottom:e.bottom+window.scrollY,left:e.left+window.scrollX,width:e.width,height:e.height}}if(!this._mapOfUniqueIDToOriginalElement)return null;let n=this._mapOfUniqueIDToOriginalElement.get(e);return n&&n.parentElement?t(n.getBoundingClientRect()):null},scrollY:function(){return window.scrollY},scrollToOffset:function(e){if("number"==typeof e)try{clearCachedElementBoundingRects(),this.cacheWindowScrollPosition(),this.contentDocument.scrollingElement.scrollTop=e}catch(e){}},documentURLString:function(){return this.contentDocument.location.href},baseURI:function(){return this.contentDocument.baseURI},usesSearchEngineOptimizationMetadata:function(){return!!document.head.querySelector('meta[property^="og:"]')},extractCanonicalLink:function(){var e=document.head.querySelector("link[rel='canonical']");if(!e)return null;var t=e.getAttribute("href");if(!t)return null;var n=document.baseURI,i=urlFromString(t,n);return"/"!==document.location.pathname&&"/"===i.pathname||"localhost"===i.hostname&&"localhost"!==document.location.hostname?null:i.href},setSuppressBoundingRectCalculationForSkippedElements:function(e){this._shouldSuppressBoundingRectCalculationForSkippedElements=e},shouldSuppressBoundingRectCalculationForSkippedElements:function(){return!!this._shouldSuppressBoundingRectCalculationForSkippedElements},handleNavigation:function(e){e.hashChange||this.resetArticleInformation()}};var ReaderArticleFinderJS=new ReaderArticleFinder(document);navigation.addEventListener("navigate",(e=>{ReaderArticleFinderJS.handleNavigation(e)}));
+0; /* Error: Ran out of types for this method. */;
 + (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
 + (id);
 + (void);
-+ (id);
++ (id)extMenuInteractionAnimating>"32;
++ (id)selectionInteraction:(id)arg1 replaceStrokes:(id)arg2 withString:proofreadingItem:inBounds:inAttachment: /* Error: Ran out of types for this method. */;
++ (id)indexPathForPreferredFocusedViewInCollectionView: /* Error: Ran out of types for this method. */;
 + (void);
 + (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
++ (id)FPItemCollectionIndexPathBasedDelegate;
 + (id);
 + (id);
 + (id);

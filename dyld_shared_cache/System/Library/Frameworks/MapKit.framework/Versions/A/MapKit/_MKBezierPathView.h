@@ -10,24 +10,23 @@ __attribute__((visibility("hidden")))
 @interface _MKBezierPathView
 {
     NSColor *_fillColor;
-    NSColor *_strokeColor;
 }
 
++ (struct CGPath *);
 + (struct CGPath *);
-+ (struct CGPath *);
-- (void);
-- (void);
+- (void)ermissionWorkQueue;
+- (void)logs, srcPath = %@;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)makeServiceAuthorizationCheck;
+- (id)_shouldDeferFullSync;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)p Donating recorded audio at %@...;
 - (void);
-- (void)istancePriority:forOrientation: /* Error: Ran out of types for this method. */;
+- (void)setContentCompressionResistancePriority:forOrientation: /* Error: Ran out of types for this method. */;
 
 @end
 

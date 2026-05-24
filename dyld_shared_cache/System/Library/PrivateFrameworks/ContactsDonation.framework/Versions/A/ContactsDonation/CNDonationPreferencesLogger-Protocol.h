@@ -5,5 +5,7 @@
 //
 
 @protocol CNDonationPreferencesLogger
+- (void)vices;
+- (void)_operationQueue;
 @end
 

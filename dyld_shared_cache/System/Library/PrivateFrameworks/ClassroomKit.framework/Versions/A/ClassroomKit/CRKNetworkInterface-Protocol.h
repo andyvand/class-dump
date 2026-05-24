@@ -5,13 +5,10 @@
 //
 
 @class NSString;
-@protocol CRKNetworkEndpoint;
 
 @protocol CRKNetworkInterface
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKNetworkEndpoint> ipv4Endpoint;
-@property(readonly, nonatomic) id <CRKNetworkEndpoint> ipv6Endpoint;
 @property(readonly, copy, nonatomic) NSString *name;
 @end
 

@@ -4,54 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface PKServiceProviderOrder
 {
     NSString *_identifier;
-    NSString *_itemDescription;
-    NSString *_serviceProviderIdentifier;
-    NSDictionary *_serviceProviderData;
-    unsigned long long _paymentInstrumentType;
-    NSData *_appletValue;
-    NSString *_transactionIdentifier;
-    NSDictionary *_issuerRegions;
 }
 
-+ (_Bool);
++ (_Bool)2;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
+- (id)k@;
+- (id);
+- (id);
+- (void)C;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)_serviceType;
 - (void);
 - (id);
 - (id);
 - (void)asskit.assertion;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *appletValue; // @synthesize appletValue=_appletValue;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDictionary *issuerRegions; // @synthesize issuerRegions=_issuerRegions;
-@property(copy, nonatomic) NSString *itemDescription; // @synthesize itemDescription=_itemDescription;
-@property(nonatomic) unsigned long long paymentInstrumentType; // @synthesize paymentInstrumentType=_paymentInstrumentType;
 @property(copy, nonatomic) NSDictionary *serviceProviderData; // @synthesize serviceProviderData=_serviceProviderData;
-@property(copy, nonatomic) NSString *serviceProviderIdentifier; // @synthesize serviceProviderIdentifier=_serviceProviderIdentifier;
-@property(copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end
 

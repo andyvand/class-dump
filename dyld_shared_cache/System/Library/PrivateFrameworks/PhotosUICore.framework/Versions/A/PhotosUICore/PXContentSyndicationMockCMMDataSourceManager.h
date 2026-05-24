@@ -6,19 +6,16 @@
 
 #import <PhotosUICore/PXContentSyndicationDataSourceManager.h>
 
-@class NSString, PXCMMInvitationsDataSourceManager, PXContentSyndicationMockCMMDataSource;
-@protocol PXContentSyndicationAssetFetchResultProvider, PXContentSyndicationSocialLayerHighlightProvider, PXUIImageProvider;
+@class PXCMMInvitationsDataSourceManager;
+@protocol PXContentSyndicationAssetFetchResultProvider;
 
 @interface PXContentSyndicationMockCMMDataSourceManager : PXContentSyndicationDataSourceManager
 {
     id <PXContentSyndicationAssetFetchResultProvider> _assetFetchResultProvider;
-    id <PXUIImageProvider> _imageProvider;
-    id <PXContentSyndicationSocialLayerHighlightProvider> _highlightProvider;
-    PXCMMInvitationsDataSourceManager *_cmmDataSourceManager;
 }
 
 + (id);
-- (id);
+- (id)5;
 - (void);
 - (id);
 - (id);
@@ -26,20 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void)^¸As;
 
 // Remaining properties
 @property(retain, nonatomic) PXCMMInvitationsDataSourceManager *cmmDataSourceManager; // @synthesize cmmDataSourceManager=_cmmDataSourceManager;
-@property(readonly, nonatomic) PXContentSyndicationMockCMMDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

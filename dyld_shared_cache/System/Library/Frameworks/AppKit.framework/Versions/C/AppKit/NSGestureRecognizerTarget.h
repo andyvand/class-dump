@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface NSGestureRecognizerTarget
 {
     id _target;
-    SEL _action;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (SEL)0@8{_NSRange=QQ}16;
 - (void)ps:(SEL)arg1 %@>;
 - (void)t]A;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
 @property __weak id target; // @synthesize target=_target;
 
 @end

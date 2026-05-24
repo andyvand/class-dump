@@ -19,14 +19,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)� ;
 - (void);
 - (_Bool);
 - (struct CGRect);
 - (id);
 - (_Bool);
 - (id);
-- (id)ecMin:(id)arg1;
+- (id)setInputSpecMin:(id)arg1;
 - (_Bool)el vec4 _smarttone_brightness_pos(vec4 c, float gamma) {
   vec3 neg = min(c.rgb, 0.0);
   vec3 pos = max(c.rgb, 1.0) - 1.0;
@@ -44,8 +44,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool perservesAlpha;
-@property(readonly, nonatomic) _Bool preservesOpacity;
-@property(nonatomic) _Bool preservesRange;
 
 @end
 

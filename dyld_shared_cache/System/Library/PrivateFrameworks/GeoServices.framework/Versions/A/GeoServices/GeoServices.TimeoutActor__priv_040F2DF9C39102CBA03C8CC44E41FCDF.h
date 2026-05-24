@@ -7,7 +7,6 @@
 @interface GeoServices.TimeoutActor__priv_040F2DF9C39102CBA03C8CC44E41FCDF
 {
     id $defaultActor;
-    id isCompleted;
 }
 
 @end

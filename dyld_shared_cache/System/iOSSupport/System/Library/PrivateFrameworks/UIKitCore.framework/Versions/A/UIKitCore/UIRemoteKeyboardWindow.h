@@ -6,24 +6,19 @@
 
 #import <UIKitCore/UITextEffectsWindow.h>
 
-@class CAContext, FBSScene, FBSSceneIdentityToken, FBSSceneLayer, NSDictionary, NSString, UIScreen, _UIContextBinder;
+@class FBSSceneIdentityToken, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UIRemoteKeyboardWindow : UITextEffectsWindow
 {
     NSDictionary *_perScreenOptions;
-    UIScreen *_intendedScreen;
-    _Bool _arePlaceholdersInitialised;
-    FBSSceneLayer *_keyboardSceneLayer;
-    FBSScene *_activeScene;
-    _Bool _resetRequired;
 }
 
-+ (id)ategoryControlKeyActiveTraits;
++ (id)_emojiCategoryControlKeyActiveTraits;
 + (_Bool)<>p;
+- (_Bool)o3;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)PPathPrefix:withIncomingCredentials:withOutgoingCredentials:withSMIMESigningOverrideable:withSMIMESigningCertificateUUIDOverrideable:withSMIMEEncryptByDefault:withSMIMEEncryptByDefaultOverrideable:withSMIMEEncryptionCertificateUUIDOverrideable:withSMIMEEnableEncryptionPerMessageSwitch: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -34,21 +29,21 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)dð1Â0@ù
 × ;
-- (id)rceList: /* Error: Ran out of types for this method. */;
-- (_Bool)tionHandler: /* Error: Ran out of types for this method. */;
-- (void)pertiesRequiringFencing:(id)arg1;
-- (_Bool)tingView;
+- (id)setIsSourceList: /* Error: Ran out of types for this method. */;
+- (_Bool)removeAllDynamicDictionariesWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)_isEqual:(id)arg1 onlyCheckPropertiesRequiringFencing:(long long)arg2;
+- (_Bool)UIKeyboardHostedCandidateInlineFloatingView;
 - (id);
 - (void);
-- (long long)ayoutFeedbackLoopDebuggingThreshold;
+- (long long)UIViewLayoutFeedbackLoopDebuggingThreshold;
 - (void)Pad;
 - (_Bool)alid attempt to use functionality specifically for UIKit testing apps by:(id)arg1 %@;
 - (void)¶Ýþÿº¬þÿ*¬þÿ&¢þÿ"¬þÿÂÓþÿ;
-- (_Bool)ollPocketElementFrameCacheC;
+- (_Bool)So32_UIScrollPocketElementFrameCacheC;
 - (_Bool)ÿvøoþ;
 - (_Bool)pþ;
 - (_Bool);
-- (void);
+- (void)NUIButtonConfigurationCornerStyle;
 - (id)¤^;
 - (_Bool)6;
 - (_Bool)*Äb;
@@ -64,19 +59,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Hzþ*;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_c8d2f6fa _bindingDescription;
-@property(nonatomic, setter=_setBoundContext:) __weak CAContext *_boundContext;
-@property(nonatomic, setter=_setContextBinder:) __weak _UIContextBinder *_contextBinder;
-@property(readonly) UIScreen *_intendedScreen;
-@property(readonly) NSDictionary *_options;
 @property(readonly, nonatomic) FBSSceneIdentityToken *activeSceneIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

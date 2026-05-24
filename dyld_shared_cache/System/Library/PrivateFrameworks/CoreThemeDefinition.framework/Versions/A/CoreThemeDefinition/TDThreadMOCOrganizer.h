@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreThemeDocument, NSThread;
+@class NSThread;
 
 @interface TDThreadMOCOrganizer
 {
     NSThread *mainThread;
-    CoreThemeDocument *document;
 }
 
 - (id);

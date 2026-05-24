@@ -6,19 +6,11 @@
 
 #import <MediaRemote/MRProtocolClientConnection.h>
 
-@class MRCryptoPairingSession, NSArray;
+@class NSArray;
 
 @interface MRExternalClientConnection : MRProtocolClientConnection
 {
     NSArray *_subscribedPlayerPaths;
-    _Bool _registeredToNowPlayingUpdates;
-    _Bool _registeredToVolumeUpdates;
-    _Bool _registeredKeyboardUpdates;
-    _Bool _registeredToOutputDeviceUpdates;
-    _Bool _registeredToSystemEndpointUpdates;
-    _Bool _cryptoEnabled;
-    unsigned int _voiceRecordingState;
-    MRCryptoPairingSession *_cryptoSession;
 }
 
 - (unsigned int);
@@ -27,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)hhx;
 - (void);
 - (void);
 - (void);
@@ -40,18 +32,10 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void):completion: /* Error: Ran out of types for this method. */;
+- (void)addOutputDevices:initiator:fadeAudio:withReplyQueue:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool cryptoEnabled; // @synthesize cryptoEnabled=_cryptoEnabled;
-@property(retain, nonatomic) MRCryptoPairingSession *cryptoSession; // @synthesize cryptoSession=_cryptoSession;
-@property(nonatomic) _Bool registeredKeyboardUpdates; // @synthesize registeredKeyboardUpdates=_registeredKeyboardUpdates;
-@property(nonatomic) _Bool registeredToNowPlayingUpdates; // @synthesize registeredToNowPlayingUpdates=_registeredToNowPlayingUpdates;
-@property(nonatomic) _Bool registeredToOutputDeviceUpdates; // @synthesize registeredToOutputDeviceUpdates=_registeredToOutputDeviceUpdates;
-@property(nonatomic) _Bool registeredToSystemEndpointUpdates; // @synthesize registeredToSystemEndpointUpdates=_registeredToSystemEndpointUpdates;
-@property(nonatomic) _Bool registeredToVolumeUpdates; // @synthesize registeredToVolumeUpdates=_registeredToVolumeUpdates;
 @property(copy, nonatomic) NSArray *subscribedPlayerPaths;
-@property(nonatomic) unsigned int voiceRecordingState; // @synthesize voiceRecordingState=_voiceRecordingState;
 
 @end
 

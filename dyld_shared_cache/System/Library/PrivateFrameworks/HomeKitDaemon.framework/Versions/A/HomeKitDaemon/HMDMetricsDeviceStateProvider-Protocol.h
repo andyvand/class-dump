@@ -5,13 +5,13 @@
 //
 
 @protocol HMDMetricsDeviceStateProvider
+- (_Bool)PSharedTripGroupSession"16@"NSError"24;
+- (long long)oppedPinCoordinate;
+- (unsigned long long)MSPSenderVirtualMinimalStrategy;
+- (unsigned long long)at indexes = %@ };
+- (unsigned long long)editableObjects;
 
 // Remaining properties
-@property(readonly) unsigned long long bitMappedDuplicateKeys;
-@property(readonly) unsigned long long bitMappedMissingKeys;
 @property(readonly) unsigned long long currentDataSyncState;
-@property(readonly) unsigned long long currentHomeManagerStatus;
-@property(readonly) long long deviceDaysSinceSoftwareUpdate;
-@property(readonly) _Bool hh2SentinelZoneExists;
 @end
 

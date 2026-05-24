@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCListenerEndpoint, RPBroadcastExtensionHostContext;
+@class RPBroadcastExtensionHostContext;
 
 @interface RPBroadcastHostViewController
 {
     RPBroadcastExtensionHostContext *_hostContext;
-    NSXPCListenerEndpoint *_listenerEndpoint;
 }
 
 - (void);
 - (oneway void);
 - (void);
 - (id);
-- (void);
+- (void)ʬ;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) RPBroadcastExtensionHostContext *hostContext; // @synthesize hostContext=_hostContext;
-@property(retain, nonatomic) NSXPCListenerEndpoint *listenerEndpoint; // @synthesize listenerEndpoint=_listenerEndpoint;
 
 @end
 

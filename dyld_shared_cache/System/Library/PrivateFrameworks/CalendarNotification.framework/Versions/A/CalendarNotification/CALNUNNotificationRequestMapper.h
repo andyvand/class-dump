@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNUNNotificationContentMapper, CALNUNNotificationIconMapper;
+@class CALNUNNotificationContentMapper;
 
 @interface CALNUNNotificationRequestMapper
 {
     CALNUNNotificationContentMapper *_notificationContentMapper;
-    CALNUNNotificationIconMapper *_notificationIconMapper;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)>28;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CALNUNNotificationContentMapper *notificationContentMapper; // @synthesize notificationContentMapper=_notificationContentMapper;
-@property(readonly, nonatomic) CALNUNNotificationIconMapper *notificationIconMapper; // @synthesize notificationIconMapper=_notificationIconMapper;
 
 @end
 

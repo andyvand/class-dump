@@ -12,9 +12,9 @@
 + (void);
 + (id);
 + (unsigned long long);
-+ (void);
++ (void);
 + (id);
-+ (void)eTransactionWithCallback:numberOfAttempts:interval: /* Error: Ran out of types for this method. */;
++ (void)beginImmediateTransactionWithCallback:numberOfAttempts:interval: /* Error: Ran out of types for this method. */;
 
 @end
 

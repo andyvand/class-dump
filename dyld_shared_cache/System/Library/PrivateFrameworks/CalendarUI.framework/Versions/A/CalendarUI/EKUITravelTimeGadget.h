@@ -6,23 +6,11 @@
 
 #import <CalendarUI/EKUILabeledGadget.h>
 
-@class CalLocation, EKUIPopUpButton, EKUITravelTimeSpinnerView, NSMenuItem, NSMutableDictionary, NSMutableSet, NSSet, NSString;
+@class EKUIPopUpButton;
 
 @interface EKUITravelTimeGadget : EKUILabeledGadget
 {
     EKUIPopUpButton *_popUpButton;
-    NSMutableDictionary *_validRoutes;
-    NSMutableSet *_currentlyCalculatingRoutes;
-    NSMutableSet *_errorRoutes;
-    NSSet *_supportedRouteTypes;
-    long long _selectedDuration;
-    NSString *_lastEventIdentifier;
-    NSString *_lastLocation;
-    CalLocation *_startLocation;
-    EKUITravelTimeSpinnerView *_spinnerView;
-    NSMenuItem *_calculatingRoutesPlaceholderMenuItem;
-    NSMenuItem *_routesSectionTopSeparator;
-    NSMenuItem *_routesSectionBottomSeparator;
 }
 
 + (id);
@@ -45,7 +33,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (double);
 - (id);
 - (id);
@@ -55,22 +43,22 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)	;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)׈b;
+- (id)R;
 - (id);
 - (id);
 - (id);
@@ -81,24 +69,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool)QÄ#1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSMenuItem *calculatingRoutesPlaceholderMenuItem; // @synthesize calculatingRoutesPlaceholderMenuItem=_calculatingRoutesPlaceholderMenuItem;
-@property(retain) NSMutableSet *currentlyCalculatingRoutes; // @synthesize currentlyCalculatingRoutes=_currentlyCalculatingRoutes;
-@property(retain) NSMutableSet *errorRoutes; // @synthesize errorRoutes=_errorRoutes;
-@property(copy) NSString *lastEventIdentifier; // @synthesize lastEventIdentifier=_lastEventIdentifier;
-@property(retain) NSString *lastLocation; // @synthesize lastLocation=_lastLocation;
 @property(retain) EKUIPopUpButton *popUpButton; // @synthesize popUpButton=_popUpButton;
-@property(retain) NSMenuItem *routesSectionBottomSeparator; // @synthesize routesSectionBottomSeparator=_routesSectionBottomSeparator;
-@property(retain) NSMenuItem *routesSectionTopSeparator; // @synthesize routesSectionTopSeparator=_routesSectionTopSeparator;
-@property long long selectedDuration; // @synthesize selectedDuration=_selectedDuration;
-@property(retain) EKUITravelTimeSpinnerView *spinnerView; // @synthesize spinnerView=_spinnerView;
-@property(retain) CalLocation *startLocation; // @synthesize startLocation=_startLocation;
-@property(retain) NSSet *supportedRouteTypes; // @synthesize supportedRouteTypes=_supportedRouteTypes;
-@property(retain) NSMutableDictionary *validRoutes; // @synthesize validRoutes=_validRoutes;
 
 @end
 

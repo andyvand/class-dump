@@ -9,31 +9,19 @@
 @interface PGMemoryMomentRequirementsBuilder : PGConfiguration
 {
     _Bool _filterUninterestingWithAlternateJunking;
-    _Bool _filterUninterestingForMemories;
-    _Bool _filterMomentsWithNotEnoughScenesProcessed;
-    unsigned long long _minimumNumberOfRelevantAssets;
-    unsigned long long _minimumNumberOfAssetsInExtendedCuration;
-    double _aboveContentScoreThreshold;
-    unsigned long long _minimumNumberOfPersons;
 }
 
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id)@"<AXKActionDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)_readableDescendantsForElement: /* Error: Ran out of types for this method. */;
+- (_Bool)_originalSharedElement;
+- (_Bool)rkingSessionRange;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double aboveContentScoreThreshold; // @synthesize aboveContentScoreThreshold=_aboveContentScoreThreshold;
-@property(readonly, nonatomic) _Bool filterMomentsWithNotEnoughScenesProcessed; // @synthesize filterMomentsWithNotEnoughScenesProcessed=_filterMomentsWithNotEnoughScenesProcessed;
-@property(readonly, nonatomic) _Bool filterUninterestingForMemories; // @synthesize filterUninterestingForMemories=_filterUninterestingForMemories;
 @property(readonly, nonatomic) _Bool filterUninterestingWithAlternateJunking; // @synthesize filterUninterestingWithAlternateJunking=_filterUninterestingWithAlternateJunking;
-@property(readonly, nonatomic) unsigned long long minimumNumberOfAssetsInExtendedCuration; // @synthesize minimumNumberOfAssetsInExtendedCuration=_minimumNumberOfAssetsInExtendedCuration;
-@property(readonly, nonatomic) unsigned long long minimumNumberOfPersons; // @synthesize minimumNumberOfPersons=_minimumNumberOfPersons;
-@property(readonly, nonatomic) unsigned long long minimumNumberOfRelevantAssets; // @synthesize minimumNumberOfRelevantAssets=_minimumNumberOfRelevantAssets;
 
 @end
 

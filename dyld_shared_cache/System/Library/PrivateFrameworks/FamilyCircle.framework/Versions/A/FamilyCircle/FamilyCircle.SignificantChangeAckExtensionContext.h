@@ -7,9 +7,6 @@
 @interface FamilyCircle.SignificantChangeAckExtensionContext
 {
     id devDescription;
-    id hostAppName;
-    id hostBundleIdentifier;
-    id _$observationRegistrar;
 }
 
 @end

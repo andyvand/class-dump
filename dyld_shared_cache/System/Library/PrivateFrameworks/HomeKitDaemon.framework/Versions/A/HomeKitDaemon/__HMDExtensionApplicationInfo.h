@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     HMDApplicationInfo *_hostApplicationInfo;
 }
 
-- (id);
+- (id)service:account:incomingPendingMessageOfType:fromID:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)ent;
+- (id)subscriptionDetailsEvent;
 - (id)bility. Resident Available:%@, Current Device Primary Resident:%@, Current Device Management Active:%@, Primary Managing Device:%@ /* Error: Ran out of types for this method. */;
 - (void)aster WHERE type='table' AND name='xact_block';
 

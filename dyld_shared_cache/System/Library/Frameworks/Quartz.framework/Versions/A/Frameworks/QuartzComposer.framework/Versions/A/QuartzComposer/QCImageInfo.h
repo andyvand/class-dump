@@ -6,22 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCBooleanPort, QCImagePort, QCNumberPort, QCStringPort, QCStructurePort;
+@class QCImagePort;
 
 @interface QCImageInfo : QCPatch
 {
     QCImagePort *inputImage;
-    QCStringPort *outputSourceRepresentation;
-    QCNumberPort *outputPixelsOriginX;
-    QCNumberPort *outputPixelsOriginY;
-    QCNumberPort *outputPixelsSizeH;
-    QCNumberPort *outputPixelsSizeV;
-    QCImagePort *outputDomainOfDefinition;
-    QCStringPort *outputColorSpace;
-    QCBooleanPort *outputHasAlpha;
-    QCStringPort *outputTransformation;
-    QCStructurePort *outputStaticMetadata;
-    QCStructurePort *outputForwardMetadata;
 }
 
 + (_Bool);

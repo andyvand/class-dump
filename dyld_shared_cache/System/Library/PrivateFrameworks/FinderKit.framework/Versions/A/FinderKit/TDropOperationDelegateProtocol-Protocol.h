@@ -5,5 +5,8 @@
 //
 
 @protocol TDropOperationDelegateProtocol
+
+@optional
+- (void);
 @end
 

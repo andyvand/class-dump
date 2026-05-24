@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface INFERENCESchemaINFERENCEVideoSmartAppSelectionDisambiguationIndependentSignals : SISchemaInstrumentationMessage
 {
     int _disambiguationAppsOrder;
-    int _disambiguationReasons;
-    long long _modelVersion;
-    int _numDisambiguationApps;
-    long long _trialDeploymentId;
-    SISchemaUUID *_trialTreatmentId;
-    struct {
-        unsigned int disambiguationAppsOrder:1;
-        unsigned int disambiguationReasons:1;
-        unsigned int modelVersion:1;
-        unsigned int numDisambiguationApps:1;
-        unsigned int trialDeploymentId:1;
-    } _has;
-    _Bool _hasTrialTreatmentId;
 }
 
 - (void);
@@ -52,7 +37,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)p;
 - (void);
 - (void);
 - (unsigned long long);
@@ -62,8 +47,8 @@
 - (id)1Â0@ù
 × ;
 - (id)g",C,N,V_assetPath;
-- (id)backSessionEnded;
-- (void)ORREASON_REMOTE_ACCESS_NOT_SET_UP;
+- (id)READSchemaREADPlaybackSessionEnded;
+- (void)FLOWHOMEAUTOMATIONCOMMANDERRORREASON_REMOTE_ACCESS_NOT_SET_UP;
 - (void)D5";
 - (long long)Ñ3³]É%;
 - (id)ÿI¬Ê'(;
@@ -71,18 +56,6 @@
 
 // Remaining properties
 @property(nonatomic) int disambiguationAppsOrder; // @synthesize disambiguationAppsOrder=_disambiguationAppsOrder;
-@property(nonatomic) int disambiguationReasons; // @synthesize disambiguationReasons=_disambiguationReasons;
-@property(nonatomic) _Bool hasDisambiguationAppsOrder;
-@property(nonatomic) _Bool hasDisambiguationReasons;
-@property(nonatomic) _Bool hasModelVersion;
-@property(nonatomic) _Bool hasNumDisambiguationApps;
-@property(nonatomic) _Bool hasTrialDeploymentId;
-@property(nonatomic) _Bool hasTrialTreatmentId; // @synthesize hasTrialTreatmentId=_hasTrialTreatmentId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) long long modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) int numDisambiguationApps; // @synthesize numDisambiguationApps=_numDisambiguationApps;
-@property(nonatomic) long long trialDeploymentId; // @synthesize trialDeploymentId=_trialDeploymentId;
-@property(retain, nonatomic) SISchemaUUID *trialTreatmentId; // @synthesize trialTreatmentId=_trialTreatmentId;
 
 @end
 

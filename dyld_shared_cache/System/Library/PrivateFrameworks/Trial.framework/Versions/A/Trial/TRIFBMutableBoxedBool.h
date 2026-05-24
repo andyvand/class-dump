@@ -9,8 +9,6 @@
 @interface TRIFBMutableBoxedBool : TRIFBBoxedBool
 {
     struct BoxedBool *_ptr;
-    _Bool _deleteWhenDone;
-    _Bool _allowMutation;
 }
 
 + (id);

@@ -6,16 +6,12 @@
 
 #import <AppKit/NSCollectionViewItem.h>
 
-@class NSArray, NSLayoutConstraint, NSRoundedRectView;
+@class NSLayoutConstraint;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPalettePresetItem : NSCollectionViewItem
 {
     NSLayoutConstraint *_maxTextWidthConstraint;
-    double _paletteScaleFactor;
-    NSLayoutConstraint *_textSpacingConstraint;
-    NSArray *_insetConstraints;
-    NSRoundedRectView *_roundedRectView;
 }
 
 - (id);
@@ -27,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)nabledController;
+- (void)focusLoggingEnabledController;
 - (void);
 - (id)Ì3ÿÿ*ñÿ;
 - (id)Qh;

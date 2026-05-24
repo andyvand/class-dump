@@ -15,10 +15,10 @@
 + (_Bool); string length %lu;
 + (void);
 - (unsigned int);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

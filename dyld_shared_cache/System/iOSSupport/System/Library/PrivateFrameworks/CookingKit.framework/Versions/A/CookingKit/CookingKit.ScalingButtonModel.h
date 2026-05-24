@@ -8,11 +8,6 @@
 {
     id _$scope;
     id _recipeID;
-    id _isScalingEnabled;
-    id _isScaled;
-    id _scaleFactor;
-    id _popover;
-    id _$observationRegistrar;
 }
 
 @end

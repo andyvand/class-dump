@@ -6,22 +6,11 @@
 
 #import <CoreHandwriting/CHRemoteRecognizer.h>
 
-@class NSArray, NSCharacterSet, NSDictionary, NSLocale, NSSet, NSString;
+@class NSArray;
 
 @interface CHRemoteTextRecognizer : CHRemoteRecognizer
 {
     _Bool _shouldUseStrokeReordering;
-    _Bool _enableGen2ModelIfAvailable;
-    _Bool _enableGen2CharacterLMIfAvailable;
-    _Bool _shouldUseTextReplacements;
-    int _recognitionMode;
-    int _contentType;
-    int _autoCapitalizationMode;
-    int _autoCorrectionMode;
-    int _baseWritingDirection;
-    NSSet *_declaredVariables;
-    NSArray *_locales;
-    NSDictionary *_activeCharacterSetPerLocale;
 }
 
 + (id);
@@ -59,29 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSCharacterSet *activeCharacterSet;
-@property(readonly, copy, nonatomic) NSDictionary *activeCharacterSetPerLocale; // @synthesize activeCharacterSetPerLocale=_activeCharacterSetPerLocale;
-@property(nonatomic) int autoCapitalizationMode; // @synthesize autoCapitalizationMode=_autoCapitalizationMode;
-@property(nonatomic) int autoCorrectionMode; // @synthesize autoCorrectionMode=_autoCorrectionMode;
-@property(nonatomic) int baseWritingDirection; // @synthesize baseWritingDirection=_baseWritingDirection;
-@property(nonatomic) int contentType; // @synthesize contentType=_contentType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSSet *declaredVariables; // @synthesize declaredVariables=_declaredVariables;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enableCachingIfAvailable;
-@property(readonly, nonatomic) _Bool enableGen2CharacterLMIfAvailable; // @synthesize enableGen2CharacterLMIfAvailable=_enableGen2CharacterLMIfAvailable;
-@property(readonly, nonatomic) _Bool enableGen2ModelIfAvailable; // @synthesize enableGen2ModelIfAvailable=_enableGen2ModelIfAvailable;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSLocale *locale;
 @property(readonly, copy, nonatomic) NSArray *locales; // @synthesize locales=_locales;
-@property(nonatomic) unsigned long long maxRecognitionResultCount;
-@property(nonatomic) struct CGSize minimumDrawingSize;
-@property(readonly, nonatomic) int recognitionMode; // @synthesize recognitionMode=_recognitionMode;
-@property(nonatomic) _Bool shouldUseTextReplacements; // @synthesize shouldUseTextReplacements=_shouldUseTextReplacements;
-@property(readonly) Class superclass;
 
 @end
 

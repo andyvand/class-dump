@@ -12,8 +12,8 @@
 
 + (Class);
 + (id);
-+ (void);
-- (_Bool);
++ (void)ics.framework/Versions/A/CoreGraphics;
+- (_Bool)P;
 - (_Bool);
 - (struct CGRect);
 - (struct _NSRange);

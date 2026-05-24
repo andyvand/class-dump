@@ -9,9 +9,6 @@
 @interface SFVoiceAnalytics
 {
     SFAcousticFeature *_jitter;
-    SFAcousticFeature *_shimmer;
-    SFAcousticFeature *_pitch;
-    SFAcousticFeature *_voicing;
 }
 
 + (_Bool);
@@ -22,15 +19,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)SSRSpeakerRecognitionLocale;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SFAcousticFeature *jitter; // @synthesize jitter=_jitter;
-@property(readonly, copy, nonatomic) SFAcousticFeature *pitch; // @synthesize pitch=_pitch;
-@property(readonly, copy, nonatomic) SFAcousticFeature *shimmer; // @synthesize shimmer=_shimmer;
-@property(readonly, copy, nonatomic) SFAcousticFeature *voicing; // @synthesize voicing=_voicing;
 
 @end
 

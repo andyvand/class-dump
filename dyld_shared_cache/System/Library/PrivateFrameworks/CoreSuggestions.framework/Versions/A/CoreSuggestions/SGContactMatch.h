@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SGContact, SGMatchedDetails, SGObject, SGRecordId;
+@class SGContact, SGRecordId;
 
 @interface SGContactMatch
 {
     SGRecordId *_matchingFieldRecordId;
-    long long _matchingFieldType;
-    SGContact *_contact;
-    NSArray *_matchTokens;
-    SGMatchedDetails *_matchedDetails;
 }
 
 + (_Bool);
@@ -36,14 +32,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);;
 
 // Remaining properties
 @property(readonly, nonatomic) SGContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSArray *matchTokens; // @synthesize matchTokens=_matchTokens;
-@property(readonly, nonatomic) SGMatchedDetails *matchedDetails; // @synthesize matchedDetails=_matchedDetails;
-@property(readonly, nonatomic) SGObject *matchingField;
-@property(readonly, nonatomic) long long matchingFieldType; // @synthesize matchingFieldType=_matchingFieldType;
 
 @end
 

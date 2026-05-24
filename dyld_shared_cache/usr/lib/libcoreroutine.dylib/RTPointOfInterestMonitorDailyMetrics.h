@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, RTDefaultsManager;
+@class RTDefaultsManager;
 
 @interface RTPointOfInterestMonitorDailyMetrics
 {
     RTDefaultsManager *_defaultsManager;
-    NSMutableDictionary *_metrics;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)dentityContainer {error:%{public}@, container:%{private}@} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id)tartDate;
+- (void)!;
+- (id)requestStartDate;
 - (void)ck; minimum expected expiration date, %@, actual expiration date, %@;
 - (id)ions count, %lu, toLocations count, %lu, dtw threshold, %.5f, dtw distance, %.5f, latency, %.4f sec, footprint, %.4f MB;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;
 
 @end
 

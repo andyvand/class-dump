@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @protocol INCurrencyAmountExport
+- (NSDecimalNumber *);
 
 // Remaining properties
 @property(copy) NSDecimalNumber *amount;
-@property(copy) NSString *currencyCode;
 @end
 

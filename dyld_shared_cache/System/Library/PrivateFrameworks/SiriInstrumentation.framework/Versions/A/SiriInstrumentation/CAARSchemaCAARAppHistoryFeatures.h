@@ -6,32 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CAARSchemaCAARAppHistoryFeatures : SISchemaInstrumentationMessage
 {
     unsigned int _numMinutesSinceAppInstalled;
-    unsigned int _numMinutesSinceAppLastLaunched;
-    unsigned int _numAppLaunchesLastTwoMinutes;
-    unsigned int _numAppLaunchesLastTenMinutes;
-    unsigned int _numAppLaunchesLastOneHour;
-    unsigned int _numAppLaunchesLastSixHours;
-    unsigned int _numAppLaunchesLastOneDay;
-    unsigned int _numAppLaunchesLastSevenDays;
-    unsigned int _numAppLaunchesLastTwentyEightDays;
-    unsigned int _numAppLaunchesLastInfinity;
-    struct {
-        unsigned int numMinutesSinceAppInstalled:1;
-        unsigned int numMinutesSinceAppLastLaunched:1;
-        unsigned int numAppLaunchesLastTwoMinutes:1;
-        unsigned int numAppLaunchesLastTenMinutes:1;
-        unsigned int numAppLaunchesLastOneHour:1;
-        unsigned int numAppLaunchesLastSixHours:1;
-        unsigned int numAppLaunchesLastOneDay:1;
-        unsigned int numAppLaunchesLastSevenDays:1;
-        unsigned int numAppLaunchesLastTwentyEightDays:1;
-        unsigned int numAppLaunchesLastInfinity:1;
-    } _has;
 }
 
 - (void);
@@ -42,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R";
 - (void);
 - (void);
 - (void);
@@ -58,8 +35,8 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)v;
+- (unsigned int);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -95,27 +72,7 @@
 - (id){÷ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumAppLaunchesLastInfinity;
-@property(nonatomic) _Bool hasNumAppLaunchesLastOneDay;
-@property(nonatomic) _Bool hasNumAppLaunchesLastOneHour;
-@property(nonatomic) _Bool hasNumAppLaunchesLastSevenDays;
-@property(nonatomic) _Bool hasNumAppLaunchesLastSixHours;
-@property(nonatomic) _Bool hasNumAppLaunchesLastTenMinutes;
-@property(nonatomic) _Bool hasNumAppLaunchesLastTwentyEightDays;
-@property(nonatomic) _Bool hasNumAppLaunchesLastTwoMinutes;
-@property(nonatomic) _Bool hasNumMinutesSinceAppInstalled;
-@property(nonatomic) _Bool hasNumMinutesSinceAppLastLaunched;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numAppLaunchesLastInfinity; // @synthesize numAppLaunchesLastInfinity=_numAppLaunchesLastInfinity;
-@property(nonatomic) unsigned int numAppLaunchesLastOneDay; // @synthesize numAppLaunchesLastOneDay=_numAppLaunchesLastOneDay;
-@property(nonatomic) unsigned int numAppLaunchesLastOneHour; // @synthesize numAppLaunchesLastOneHour=_numAppLaunchesLastOneHour;
-@property(nonatomic) unsigned int numAppLaunchesLastSevenDays; // @synthesize numAppLaunchesLastSevenDays=_numAppLaunchesLastSevenDays;
-@property(nonatomic) unsigned int numAppLaunchesLastSixHours; // @synthesize numAppLaunchesLastSixHours=_numAppLaunchesLastSixHours;
-@property(nonatomic) unsigned int numAppLaunchesLastTenMinutes; // @synthesize numAppLaunchesLastTenMinutes=_numAppLaunchesLastTenMinutes;
-@property(nonatomic) unsigned int numAppLaunchesLastTwentyEightDays; // @synthesize numAppLaunchesLastTwentyEightDays=_numAppLaunchesLastTwentyEightDays;
-@property(nonatomic) unsigned int numAppLaunchesLastTwoMinutes; // @synthesize numAppLaunchesLastTwoMinutes=_numAppLaunchesLastTwoMinutes;
 @property(nonatomic) unsigned int numMinutesSinceAppInstalled; // @synthesize numMinutesSinceAppInstalled=_numMinutesSinceAppInstalled;
-@property(nonatomic) unsigned int numMinutesSinceAppLastLaunched; // @synthesize numMinutesSinceAppLastLaunched=_numMinutesSinceAppLastLaunched;
 
 @end
 

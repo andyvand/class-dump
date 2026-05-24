@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAStartRequest.h>
 
-@class SADomainObject, SAUIDomainObjectPicker;
+@class SAUIDomainObjectPicker;
 
 @interface SAUIDomainObjectPickerSelection : SAStartRequest
 {
@@ -14,17 +14,16 @@
 
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)|�;
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) SAUIDomainObjectPicker *domainObjectPicker;
-@property(retain, nonatomic) SADomainObject *selectedItem;
 
 @end
 

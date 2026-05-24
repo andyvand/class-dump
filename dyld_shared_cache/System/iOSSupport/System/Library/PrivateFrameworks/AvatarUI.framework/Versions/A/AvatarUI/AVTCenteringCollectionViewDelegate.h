@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UICollectionView, UICollectionViewLayoutAttributes, UISelectionFeedbackGenerator;
-@protocol AVTUILogger, UICollectionViewDelegate;
+@class UICollectionView;
 
 @interface AVTCenteringCollectionViewDelegate
 {
     UICollectionView *_collectionView;
-    id <UICollectionViewDelegate> _delegate;
-    UISelectionFeedbackGenerator *_feedbackGenerator;
-    NSIndexPath *_lastHapticOnScrollIndexPath;
-    id <AVTUILogger> _logger;
-    struct CGPoint _previousOffset;
 }
 
 - (id);
 - (id);
 - (id);
+- (void);
+- (struct CGPoint)validateFile:locale: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct CGPoint);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
+- (void);
+- (id)-> err:0x%x, {%@:%@}
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)initWithParentDirectoryPath:(id)arg1 corespotlight:(id)arg2 heartbeatIndex:resourcesCallback: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (void)! @ùIÐ1Â0@ù
 × ;
@@ -40,20 +35,7 @@
 - (void)`;
 
 // Remaining properties
-@property(readonly, nonatomic) UICollectionViewLayoutAttributes *centerItemAttributes;
 @property(readonly, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <UICollectionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UISelectionFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSIndexPath *lastHapticOnScrollIndexPath; // @synthesize lastHapticOnScrollIndexPath=_lastHapticOnScrollIndexPath;
-@property(retain, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(nonatomic) struct CGPoint previousOffset; // @synthesize previousOffset=_previousOffset;
-@property(readonly) Class superclass;
 
 @end
 

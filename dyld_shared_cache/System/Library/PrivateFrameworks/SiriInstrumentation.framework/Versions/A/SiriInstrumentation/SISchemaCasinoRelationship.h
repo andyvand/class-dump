@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaCasinoRelationship : SISchemaInstrumentationMessage
 {
     NSString *_viewIDFrom;
-    NSString *_viewIDTo;
-    int _casinoFromType;
-    struct {
-        unsigned int casinoFromType:1;
-    } _has;
-    _Bool _hasViewIDFrom;
-    _Bool _hasViewIDTo;
 }
 
 - (id);
@@ -33,27 +26,22 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)!;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ASDPurchaseResponse;
+- (_Bool)_nameViewTaglinePlaceholderAttributes;
+- (_Bool)JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.is_read == 0  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.ROWID DESC;;
 - (id);
-- (id);
-- (id)ed;
-- (id)neralizedExecutionUsed;
-- (void)L_CAPTURE;
+- (id)ffer:12-bit per component pixels currently require that the pixel be a multiple of 12 bits in size
+ /* Error: Ran out of types for this method. */;
+- (id)deleteActionCancelled;
+- (id)_appShortcutGeneralizedExecutionUsed;
+- (void)MHAUDIOSESSIONMODE_SPATIAL_CAPTURE;
 
 // Remaining properties
-@property(nonatomic) int casinoFromType; // @synthesize casinoFromType=_casinoFromType;
-@property(nonatomic) _Bool hasCasinoFromType;
-@property(nonatomic) _Bool hasViewIDFrom; // @synthesize hasViewIDFrom=_hasViewIDFrom;
-@property(nonatomic) _Bool hasViewIDTo; // @synthesize hasViewIDTo=_hasViewIDTo;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *viewIDFrom; // @synthesize viewIDFrom=_viewIDFrom;
-@property(copy, nonatomic) NSString *viewIDTo; // @synthesize viewIDTo=_viewIDTo;
 
 @end
 

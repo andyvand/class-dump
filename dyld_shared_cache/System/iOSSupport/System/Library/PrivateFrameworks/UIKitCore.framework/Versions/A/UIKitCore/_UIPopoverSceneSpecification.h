@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (Class);
+- (Class)T;
 - (_Bool);
 - (_Bool)ÔÔÉ_;
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IDSAccount, IDSAccountController;
+
 @protocol IDSAccountControllerDelegate
+
+@optional
+- (void)containerURLForApplicationAtURL:(IDSAccountController *)arg1 error:(IDSAccount *)arg2;
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableSet;
+@class NSCountedSet;
 @protocol WBSTranslationErrorControllerDelegate;
 
 @interface WBSTranslationErrorController
 {
     NSCountedSet *_errorCounter;
-    NSMutableSet *_errorKeysReachingThreshold;
-    id <WBSTranslationErrorControllerDelegate> _delegate;
 }
 
+- (id)y;
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)aryDirectory;
+- (void)safari_safariLibraryDirectory;
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSTranslationErrorControllerDelegate> delegate; // @synthesize delegate=_delegate;

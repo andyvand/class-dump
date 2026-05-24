@@ -7,8 +7,8 @@
 @interface UnknownClass (SyncServicesDeepCopyExtensions)
 - (id);
 - (int);
-- (id);
-- (id);
+- (id);
+- (id);
 - (int);
 @end
 

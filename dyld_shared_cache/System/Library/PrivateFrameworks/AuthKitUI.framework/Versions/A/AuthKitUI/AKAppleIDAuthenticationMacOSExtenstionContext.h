@@ -6,18 +6,17 @@
 
 #import <AuthKitUI/AKAppleIDAuthenticationInAppContext.h>
 
-@class AKAuthWebTabView, NSString, NSView, NSWindow;
+@class AKAuthWebTabView;
 @protocol AKAppleIDAuthenticationMacOSExtenstionContextDelegate;
 
 @interface AKAppleIDAuthenticationMacOSExtenstionContext : AKAppleIDAuthenticationInAppContext
 {
     id <AKAppleIDAuthenticationMacOSExtenstionContextDelegate> _delegate;
-    NSWindow *_parentWindow;
-    AKAuthWebTabView *_webviewController;
-    NSView *_webView;
 }
 
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,29 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)uggestionID:(id)arg1 %@ failed with error %@;
+- (void)rk/CrashReporterSupport;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKAppleIDAuthenticationMacOSExtenstionContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSView *webView; // @synthesize webView=_webView;
 @property(retain, nonatomic) AKAuthWebTabView *webviewController; // @synthesize webviewController=_webviewController;
 
 @end

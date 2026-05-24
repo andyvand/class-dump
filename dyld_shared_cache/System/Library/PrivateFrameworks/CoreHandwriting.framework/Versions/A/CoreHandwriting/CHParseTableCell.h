@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHNonTerminal, CHParseTree, CHProductionRule, CHTerminal, NSMutableArray;
+@class CHNonTerminal;
 
 @interface CHParseTableCell
 {
     CHNonTerminal *_nonTerminal;
-    long long _combinations;
-    long long _order;
-    long long _terminalsCount;
-    double _probability;
-    CHProductionRule *_rule;
-    CHTerminal *_terminal;
-    CHParseTableCell *_leftChild;
-    CHParseTableCell *_rightChild;
-    CHParseTree *_parseTree;
-    NSMutableArray *_replacedCells;
-    struct _NSRange _inputRange;
-    struct _NSRange _terminalsRange;
-    struct _NSRange _originalRange;
 }
 
 + (struct _NSRange);
-+ (id);
++ (id)k;
 - (struct _NSRange);
 - (long long);
 - (void);
@@ -45,11 +32,11 @@
 - (void);
 - (struct _NSRange);
 - (struct _NSRange);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
+- (void)setDevNotificationQueue:(id)arg1;
+- (void)scanCanceled;
+- (id)operationQueue;
+- (id)ceProtocol;
+- (double)5!;
 - (id);
 - (id);
 - (long long);
@@ -62,21 +49,7 @@
 - (void)T°;
 
 // Remaining properties
-@property(nonatomic) long long combinations; // @synthesize combinations=_combinations;
-@property(nonatomic) struct _NSRange inputRange; // @synthesize inputRange=_inputRange;
-@property(retain, nonatomic) CHParseTableCell *leftChild; // @synthesize leftChild=_leftChild;
-@property(readonly, nonatomic) long long length;
 @property(retain, nonatomic) CHNonTerminal *nonTerminal; // @synthesize nonTerminal=_nonTerminal;
-@property(nonatomic) long long order; // @synthesize order=_order;
-@property(nonatomic) struct _NSRange originalRange; // @synthesize originalRange=_originalRange;
-@property(retain, nonatomic) CHParseTree *parseTree; // @synthesize parseTree=_parseTree;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
-@property(retain, nonatomic) NSMutableArray *replacedCells; // @synthesize replacedCells=_replacedCells;
-@property(retain, nonatomic) CHParseTableCell *rightChild; // @synthesize rightChild=_rightChild;
-@property(retain, nonatomic) CHProductionRule *rule; // @synthesize rule=_rule;
-@property(retain, nonatomic) CHTerminal *terminal; // @synthesize terminal=_terminal;
-@property(nonatomic) long long terminalsCount; // @synthesize terminalsCount=_terminalsCount;
-@property(nonatomic) struct _NSRange terminalsRange; // @synthesize terminalsRange=_terminalsRange;
 
 @end
 

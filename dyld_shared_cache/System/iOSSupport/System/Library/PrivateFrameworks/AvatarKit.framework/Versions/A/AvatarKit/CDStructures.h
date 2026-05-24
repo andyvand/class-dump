@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -25,6 +23,12 @@ struct CGRect {
 struct CGSize {
     double width;
     double height;
+};
+
+struct SCNVector3 {
+    float _field1;
+    float _field2;
+    float _field3;
 };
 
 struct UIEdgeInsets {
@@ -48,10 +52,6 @@ typedef struct {
 } CDStruct_8932552d;
 
 typedef struct {
-    id vector;
-} CDStruct_da14d750;
-
-typedef struct {
     _Bool _field1;
     double _field2;
     double _field3;
@@ -59,27 +59,27 @@ typedef struct {
 } CDStruct_0c9855c6;
 
 typedef struct {
-    unsigned long long color0PixelFormat;
-    unsigned long long depthPixelFormat;
-    _Bool colorBlendingEnabled;
-    unsigned long long colorRGBBlendOperation;
-    unsigned long long colorSourceRGBBlendFactor;
-    unsigned long long colorDestinationRGBBlendFactor;
-    unsigned long long colorAlphaBlendOperation;
-    unsigned long long colorSourceAlphaBlendFactor;
-    unsigned long long colorDestinationAlphaBlendFactor;
-    NSString *vertexFunctionName;
-    NSString *fragmentFunctionName;
-    unsigned long long rasterSampleCount;
-} CDStruct_bf23ece6;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    _Bool _field3;
+    unsigned long long _field4;
+    unsigned long long _field5;
+    unsigned long long _field6;
+    unsigned long long _field7;
+    unsigned long long _field8;
+    unsigned long long _field9;
+    id _field10;
+    id _field11;
+    unsigned long long _field12;
+} CDStruct_90f2b98e;
 
 typedef struct {
-    id columns[3];
-} CDStruct_1fe29af2;
+    id _field1[3];
+} CDStruct_c27faaab;
 
 typedef struct {
-    id columns[4];
-} CDStruct_95fa7c00;
+    id _field1[4];
+} CDStruct_34f00414;
 
 typedef struct {
     double timestamp;
@@ -91,17 +91,17 @@ typedef struct {
 } CDStruct_32896d86;
 
 typedef struct {
-    double totalLatency;
-    double arKitLatency;
-    double updateSyncLatency;
-    double metalLatency;
-    double timeBetweenARFrame;
-    unsigned int fps;
-    double audioTime;
-    unsigned int droppedFrame;
-    _Bool doubleBuffer;
-    unsigned int onlineShaderCompilationCount;
-} CDStruct_53ba08a1;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    unsigned int _field6;
+    double _field7;
+    unsigned int _field8;
+    _Bool _field9;
+    unsigned int _field10;
+} CDStruct_74d554cd;
 
 typedef struct {
     float _field1;
@@ -117,7 +117,7 @@ typedef struct {
 } CDStruct_198678f7;
 
 typedef struct {
-    _Bool mirroringEnabled;
-    CDStruct_1fe29af2 transform;
-} CDStruct_ccff9734;
+    _Bool _field1;
+    CDStruct_c27faaab _field2;
+} CDStruct_b062b2f2;
 

@@ -7,7 +7,7 @@
 @interface UnknownClass (CKUtilsAdditions)
 + (id);
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 @end

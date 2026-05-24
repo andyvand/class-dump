@@ -15,7 +15,7 @@
 + (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)__MUOverallRatingPlatterViewAccessibility_super;
 
 @end
 

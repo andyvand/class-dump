@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface HomeUtilityServices.UtilityCustomerAgreement
 {
     void customerAgreementID;
     void accountID;
-    void programs;
-    void meters;
-    void alternateSupplier;
 }
 
 - (void);
@@ -27,10 +24,7 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *accountID;
-@property(nonatomic, copy) NSString *alternateSupplier;
 @property(nonatomic, readonly) NSString *customerAgreementID;
-@property(nonatomic, readonly) NSArray *meters;
-@property(nonatomic, readonly) NSArray *programs;
 
 @end
 

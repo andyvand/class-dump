@@ -13,21 +13,20 @@
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)ted-exit;
 - (void);
-- (void)rrentPlaybackSessionTypes;
-- (_Bool)tIdentifier;
+- (void)clearCurrentPlaybackSessionTypes;
+- (_Bool)contentIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRequest;
-@property(retain, nonatomic) _MRUpdateActiveSystemEndpointRequestProtobuf *request; // @synthesize request=_request;
 
 @end
 

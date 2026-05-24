@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface MXRoutingContextModificationMetrics
 {
     NSString *_figEndpointType;
-    NSString *_correlationID;
-    NSNumber *_clientModificationStartedTimestamp;
-    NSNumber *_clientModificationFinishedTimestamp;
-    NSNumber *_serverModificationStartedTimestamp;
-    NSNumber *_serverModificationFinishedTimestamp;
-    NSArray *_previousRouteDescriptors;
-    NSArray *_currentRouteDescriptors;
-    NSNumber *_routeChangeFailed;
-    NSNumber *_didRequireAuthorization;
-    NSNumber *_numberOfEndpoints;
 }
 
 - (void);
@@ -45,23 +35,13 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id)mber of values(%lu), expected 2;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)LWLStopProgressBar;
 
 // Remaining properties
-@property(retain) NSNumber *clientModificationFinishedTimestamp; // @synthesize clientModificationFinishedTimestamp=_clientModificationFinishedTimestamp;
-@property(retain) NSNumber *clientModificationStartedTimestamp; // @synthesize clientModificationStartedTimestamp=_clientModificationStartedTimestamp;
-@property(readonly, retain, nonatomic) NSString *correlationID; // @synthesize correlationID=_correlationID;
-@property(retain) NSArray *currentRouteDescriptors; // @synthesize currentRouteDescriptors=_currentRouteDescriptors;
-@property(retain) NSNumber *didRequireAuthorization; // @synthesize didRequireAuthorization=_didRequireAuthorization;
 @property(retain, nonatomic) NSString *figEndpointType; // @synthesize figEndpointType=_figEndpointType;
-@property(retain) NSNumber *numberOfEndpoints; // @synthesize numberOfEndpoints=_numberOfEndpoints;
-@property(retain) NSArray *previousRouteDescriptors; // @synthesize previousRouteDescriptors=_previousRouteDescriptors;
-@property(retain) NSNumber *routeChangeFailed; // @synthesize routeChangeFailed=_routeChangeFailed;
-@property(retain) NSNumber *serverModificationFinishedTimestamp; // @synthesize serverModificationFinishedTimestamp=_serverModificationFinishedTimestamp;
-@property(retain) NSNumber *serverModificationStartedTimestamp; // @synthesize serverModificationStartedTimestamp=_serverModificationStartedTimestamp;
 
 @end
 

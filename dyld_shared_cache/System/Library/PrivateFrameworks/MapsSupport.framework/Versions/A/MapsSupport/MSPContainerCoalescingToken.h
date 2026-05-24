@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPContainer, NSString;
-@protocol NSObject><NSCopying;
+@class MSPContainer;
 
 __attribute__((visibility("hidden")))
 @interface MSPContainerCoalescingToken
 {
     MSPContainer *_container;
-    id <NSObject><NSCopying> _context;
-    _Bool _invalidated;
 }
 
 - (void);
@@ -22,13 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

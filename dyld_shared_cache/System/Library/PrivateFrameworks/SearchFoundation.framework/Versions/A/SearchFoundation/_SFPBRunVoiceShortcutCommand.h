@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBRunVoiceShortcutCommand
 {
     NSString *_voiceShortcutIdentifier;
-    NSString *_applicationBundleIdentifier;
 }
 
 - (id);
@@ -19,24 +18,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)searchIndexSceneTaxonomyForSceneAnalysisVersion:(id)arg1;
+- (id)_lock_clearsOIDCacheAfterFetchResultDealloc;
+- (id)deoProcessing timed out;
 - (id);
 - (id);
 - (void);
 - (void)temPairNumberCardSection";
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *voiceShortcutIdentifier; // @synthesize voiceShortcutIdentifier=_voiceShortcutIdentifier;
 
 @end

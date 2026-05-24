@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestPrefetchEventProcessor
 {
@@ -12,19 +12,13 @@
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)set_roleDescriptionToInclude:(id)arg1;
+- (void)enableThreadingAssertions;
+- (id)�%;
 - (void)ources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Suggestions/Suggesters/Autobahn/PGAmbientCityWallpaperSuggester.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UICollectionViewListCellReorderControl;
+
 @protocol _UICollectionViewListCellReorderControlDelegate
+- (_Bool)initWithTimeInterval:(_UICollectionViewListCellReorderControl *)arg1 name:shouldWake:target:selector:userInfo: /* Error: Ran out of types for this method. */;
+- (void)initWithSyndicationType:(_UICollectionViewListCellReorderControl *)arg1 messagePartRange:(_Bool)arg2 syndicationStartDate:syndicationStatus:assetDescriptor: /* Error: Ran out of types for this method. */;
+- (void)initWithSyncedSettingsManager:(_UICollectionViewListCellReorderControl *)arg1 spamFilterHelper:(struct CGPoint)arg2;
+- (void)initWithSyncTokenStore:(_UICollectionViewListCellReorderControl *)arg1;
 @end
 

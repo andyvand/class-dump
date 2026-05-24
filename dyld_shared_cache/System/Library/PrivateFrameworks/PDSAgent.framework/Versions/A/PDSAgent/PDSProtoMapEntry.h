@@ -9,19 +9,18 @@
 @interface PDSProtoMapEntry
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_handleRecords:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)k!;
 - (id);
 - (id);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

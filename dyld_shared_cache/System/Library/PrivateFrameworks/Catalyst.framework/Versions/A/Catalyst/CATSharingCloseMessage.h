@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
+@class NSError;
 
 __attribute__((visibility("hidden")))
 @interface CATSharingCloseMessage
@@ -16,20 +16,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (void);
-- (id)zedStringsForKey:value:table: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)cat_localizedStringsForKey:value:table: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *closeError; // @synthesize closeError=_closeError;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long messageType;
-@property(readonly) Class superclass;
 
 @end
 

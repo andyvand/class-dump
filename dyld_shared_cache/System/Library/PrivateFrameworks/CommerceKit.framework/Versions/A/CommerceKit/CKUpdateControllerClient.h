@@ -7,8 +7,6 @@
 @interface CKUpdateControllerClient
 {
     CDUnknownBlockType _osUpdateProgressHandler;
-    CDUnknownBlockType _availableUpdatesObserverBlock;
-    CDUnknownBlockType _osUpdateScanObserverBlock;
 }
 
 - (void);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType availableUpdatesObserverBlock; // @synthesize availableUpdatesObserverBlock=_availableUpdatesObserverBlock;
 @property(copy) CDUnknownBlockType osUpdateProgressHandler; // @synthesize osUpdateProgressHandler=_osUpdateProgressHandler;
-@property(copy) CDUnknownBlockType osUpdateScanObserverBlock; // @synthesize osUpdateScanObserverBlock=_osUpdateScanObserverBlock;
 
 @end
 

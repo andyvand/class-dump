@@ -9,23 +9,21 @@
 @interface TSDScalarPathSource : TSDPathSource
 {
     int mType;
-    double mScalar;
-    struct CGSize mNaturalSize;
 }
 
++ (id)H;
 + (id);
++ (id)M;
++ (id)x;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
+- (id)ssing URL for action key:(SEL)arg1;
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
-- (struct CGPath *);
-- (struct CGPath *);
+- (struct CGPath *);
+- (struct CGPath *)PlayerBoundaryTimePublisher;
 - (struct CGPath *);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -33,8 +31,8 @@
 - (struct CGPath *);
 - (long long);
 - (id);
-- (double);
-- (id);
+- (double);
+- (id)61;
 - (id);
 - (struct CGPoint);
 - (id);
@@ -45,7 +43,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)u;
 - (id);
 - (unsigned long long);
 - (int);
@@ -57,10 +55,6 @@
 - (struct CGSize)x;
 
 // Remaining properties
-@property(readonly, nonatomic) double maxScalar;
-@property(nonatomic) struct CGSize naturalSize; // @synthesize naturalSize=mNaturalSize;
-@property(readonly) unsigned long long numberOfControlKnobs;
-@property(nonatomic) double scalar; // @synthesize scalar=mScalar;
 @property(nonatomic) int type; // @synthesize type=mType;
 
 @end

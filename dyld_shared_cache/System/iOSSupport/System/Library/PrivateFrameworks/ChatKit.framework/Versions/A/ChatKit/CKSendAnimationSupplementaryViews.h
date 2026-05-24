@@ -4,53 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UIView;
+@class UIView;
 
 @interface CKSendAnimationSupplementaryViews
 {
     UIView *_whiteTextFadeView;
-    UIView *_imageFadeoutView;
-    UIView *_sendButtonSnapshot;
-    UIView *_textViewContainerView;
-    UIView *_behindGlassTextViewContainerView;
-    UIView *_quickReplySnapshot;
-    UIView *_audioMessagePillViewSnapshot;
-    UIView *_whiteTextFadeViewRTL;
-    UIView *_blueTextFadeViewRTL;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)atisfiesFilterMode: /* Error: Ran out of types for this method. */;
+- (id):filterPastedAttributes:isReadingSelectionFromPasteboard: /* Error: Ran out of types for this method. */;
+- (id)updateCellInTable:atColumnIndex:rowIndex:fromAttributedString:andTextTableBlock:filterPastedAttributes:isReadingSelectionFromPasteboard: /* Error: Ran out of types for this method. */;
+- (id)requestFileMetadataIfNecessary;
+- (void)initWithBool:(id)arg1;
+- (void)initWithAudioTracks:(id)arg1 audioSettings: /* Error: Ran out of types for this method. */;
+- (void)ic_shouldIgnoreObserveValue:(id)arg1 ofObject:forKeyPath: /* Error: Ran out of types for this method. */;
+- (void)ic_attributedStringByFlatteningInlineAttachmentsWithContext:(id)arg1 flattenUnsupportedInlineAttachmentsOnly:updateRangeValueToObjectMapBlock:replacementAttributedStringBlock: /* Error: Ran out of types for this method. */;
+- (void)hasMarkedText;
+- (void)createMarkdownStringFrom:(id)arg1 context:rangeMapping: /* Error: Ran out of types for this method. */;
+- (void)annotations;
+- (void)ancestorObjectID;
+- (void)addPeriodicTimeObserverForInterval:(id)arg1 queue:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)_textLayoutManager;
+- (id)sBeingUpdated;
+- (id)attachmentModel;
+- (id)m;
+- (id)o;
+- (id)t;
+- (id)unreadReport:satisfiesFilterMode: /* Error: Ran out of types for this method. */;
 - (void)P;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *audioMessagePillViewSnapshot; // @synthesize audioMessagePillViewSnapshot=_audioMessagePillViewSnapshot;
-@property(retain, nonatomic) UIView *behindGlassTextViewContainerView; // @synthesize behindGlassTextViewContainerView=_behindGlassTextViewContainerView;
-@property(retain, nonatomic) UIView *blueTextFadeViewRTL; // @synthesize blueTextFadeViewRTL=_blueTextFadeViewRTL;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) UIView *imageFadeoutView; // @synthesize imageFadeoutView=_imageFadeoutView;
-@property(retain, nonatomic) UIView *quickReplySnapshot; // @synthesize quickReplySnapshot=_quickReplySnapshot;
-@property(retain, nonatomic) UIView *sendButtonSnapshot; // @synthesize sendButtonSnapshot=_sendButtonSnapshot;
-@property(retain, nonatomic) UIView *textViewContainerView; // @synthesize textViewContainerView=_textViewContainerView;
 @property(retain, nonatomic) UIView *whiteTextFadeView; // @synthesize whiteTextFadeView=_whiteTextFadeView;
-@property(retain, nonatomic) UIView *whiteTextFadeViewRTL; // @synthesize whiteTextFadeViewRTL=_whiteTextFadeViewRTL;
 
 @end
 

@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurface, NSArray, NSDictionary;
-
 @interface SLContentStreamUpdate
 {
     int _status;
-    unsigned long long _displayTime;
-    IOSurface *_frameSurface;
-    struct CGDisplayStreamUpdate *_updateRef;
-    NSDictionary *_metaData;
 }
 
-- (struct CGDisplayStreamUpdate *);
-- (void);
-- (struct CGRect);
-- (id);
-- (id);
+- (struct CGDisplayStreamUpdate *)supportsRecordSharing;
+- (void)Roots/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/NSCloudKitMirroringRequestManager.m;
+- (struct CGRect)pointer value:%@
+	pointer:%p /* Error: Ran out of types for this method. */;
+- (id)igration time (on connection);
+- (id)ligible for checkpointing in -disconnect due to its large size (%lld);
 - (unsigned long long);
-- (unsigned long long);
-- (double);
-- (id);
-- (id);
+- (unsigned long long)h the read only option at path:%@ /* Error: Ran out of types for this method. */;
+- (double)qGTC):%d /* Error: Ran out of types for this method. */;
+- (id)ma %@='%@';
+- (id)d;
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)maximumBitDepth;
 - (double);
 - (int);
 - (struct CGRect);
@@ -35,18 +30,6 @@
 - (struct CGRect)P ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) struct CGRect contentRect;
-@property(readonly, nonatomic) double contentScale;
-@property(readonly, nonatomic) double cornerRadius;
-@property(readonly, nonatomic) NSArray *dirtyRects;
-@property(readonly, nonatomic) double displayResolution;
-@property(readonly) unsigned long long displayTime; // @synthesize displayTime=_displayTime;
-@property(readonly, nonatomic) unsigned long long dropCount;
-@property(readonly) IOSurface *frameSurface; // @synthesize frameSurface=_frameSurface;
-@property(nonatomic) NSDictionary *metaData; // @synthesize metaData=_metaData;
-@property(readonly, nonatomic) struct CGRect screenRect;
-@property(readonly) int status; // @synthesize status=_status;
 @property(nonatomic) struct CGDisplayStreamUpdate *updateRef; // @synthesize updateRef=_updateRef;
 
 @end

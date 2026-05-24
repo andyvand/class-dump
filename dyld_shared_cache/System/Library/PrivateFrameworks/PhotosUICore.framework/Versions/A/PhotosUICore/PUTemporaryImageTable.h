@@ -9,7 +9,7 @@
     _Atomic int _indexCounter;
 }
 
-- (int);
+- (int);
 
 @end
 

@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
 @protocol UIViewControllerContextTransitioning;
 
 __attribute__((visibility("hidden")))
 @interface UIViewControllerBuiltinTransitionViewAnimator
 {
     id <UIViewControllerContextTransitioning> _transitionContext;
-    _Bool _removeFromView;
-    int _transition;
-    id _delegate;
-    UIView *_toView;
-    UIView *_fromView;
 }
 
 - (double);
 - (id);
 - (void);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)iled to redo. err=%{public}@;
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct CGPoint);
-- (id);
+- (id)es;
 - (double)@ù
 × ;
 - (void);
 - (void)Qg1Â0@ù
 × ;
 - (void)zer"16;
-- (struct CGPoint):(id)arg1;
-- (void):(id)arg1 forValueAtIndex: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)setMaskView:(id)arg1;
+- (void)_getPriorPredictions:(id)arg1 forValueAtIndex: /* Error: Ran out of types for this method. */;
 - (void)_boldForAllLocales;
 - (void)"NSString",&,N,V_persistentSceneIdentifier;
 - (struct CGPoint)iterClientSpringBoard userSelectedApp:(id)arg1 onCompletion:(id)arg2 ]  Focus bundle:(int)arg3 %@, focusedSceneIdentity:(struct CGPoint)arg4 %@;
@@ -47,38 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)þæÔ¬<f;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *_navigationBarTransitionOverlay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) long long _navigationBarTransitionVariant;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool _shouldAnimateBottomBarVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool _shouldCrossFadeBottomBars;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool _shouldCrossFadeNavigationBarVisibility;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak UIView *fromView; // @synthesize fromView=_fromView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool removeFromView; // @synthesize removeFromView=_removeFromView;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIView *toView; // @synthesize toView=_toView;
-@property(nonatomic) int transition; // @synthesize transition=_transition;
 
 @end
 

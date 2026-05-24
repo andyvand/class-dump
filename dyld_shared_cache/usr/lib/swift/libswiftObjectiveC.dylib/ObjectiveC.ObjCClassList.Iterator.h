@@ -7,7 +7,6 @@
 @interface ObjectiveC.ObjCClassList.Iterator
 {
     id enumerator;
-    id namePrefix;
 }
 
 @end

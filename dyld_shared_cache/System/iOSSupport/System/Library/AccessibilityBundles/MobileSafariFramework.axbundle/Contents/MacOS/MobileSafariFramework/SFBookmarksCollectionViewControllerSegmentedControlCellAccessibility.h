@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)insertSubview:belowSubview: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (void);

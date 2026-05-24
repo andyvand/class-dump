@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTImageTransitioningContainerView, AVTStickerConfiguration, AVTView, NSString, UIImage, UIView;
-@protocol AVTAvatarRecord;
+@class AVTView;
 
 @interface AVTAvatarListCell
 {
     AVTView *_avtView;
-    id <AVTAvatarRecord> _avatar;
-    AVTStickerConfiguration *_configuration;
-    AVTImageTransitioningContainerView *_containerView;
 }
 
 + (id);
@@ -26,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -41,24 +37,11 @@
 - (void);
 - (id);
 - (void);
-- (id)plyingPresetOverrides:animated: /* Error: Ran out of types for this method. */;
+- (id)updateAvatarByApplyingPresetOverrides:animated: /* Error: Ran out of types for this method. */;
 - (struct CGSize)'Ù;
 
 // Remaining properties
-@property(nonatomic) struct CGSize aspectRatio;
-@property(retain, nonatomic) id <AVTAvatarRecord> avatar; // @synthesize avatar=_avatar;
 @property(retain, nonatomic) AVTView *avtView; // @synthesize avtView=_avtView;
-@property(readonly, nonatomic) UIView *avtViewContainer;
-@property(retain, nonatomic) AVTStickerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) AVTImageTransitioningContainerView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image;
-@property(readonly) Class superclass;
 
 @end
 

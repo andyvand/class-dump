@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol UITimingCurveProvider, UIViewImplicitlyAnimating;
+@class NSString;
 
 @interface UIPercentDrivenInteractiveTransition
 {
     double _duration;
-    _Bool _didCommitAnimations;
-    id <UIViewImplicitlyAnimating> _interruptibleAnimator;
-    NSUUID *_animationTrackingAnimatorUUID;
-    _Bool _wantsInteractiveStart;
-    _Bool __transitionInterrupted;
-    _Bool __usesPacedFractionComplete;
-    _Bool __clampsPercentComplete;
-    double _completionSpeed;
-    long long _completionCurve;
-    id <UITimingCurveProvider> _timingCurve;
-    NSString *__originalFillMode;
-    NSUUID *__uuid;
 }
 
 - (id);
@@ -29,31 +16,31 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)CloudKitDecryptionRecordKey;
+- (_Bool)bject"16@"NSError"24;
+- (void)SWHighlightCenter;
+- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (_Bool);
 - (double);
 - (void);
 - (_Bool);
-- (double);
+- (double):# /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (double);
-- (double);
-- (void);
+- (double)MPLocalPickerVideoItemTableCell;
+- (void)_MPNowPlayingCollectionInfoCollectionTypeRadio;
 - (id);
 - (void):8{CGSize=dd}16@"<UIViewControllerTransitionCoordinator>"32 /* Error: Ran out of types for this method. */;
-- (_Bool)RemoteInputSource: /* Error: Ran out of types for this method. */;
+- (_Bool)performKeyboardOutput:forwardToRemoteInputSource: /* Error: Ran out of types for this method. */;
 - (void)ed;
 - (void)°~þÿ;
 - (void)ensions. Attributes:(id)arg1 %@; new frame:%@ /* Error: Ran out of types for this method. */;
@@ -64,24 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setClampsPercentComplete:) _Bool _clampsPercentComplete; // @synthesize _clampsPercentComplete=__clampsPercentComplete;
 @property(retain, nonatomic, setter=_setOriginalFillMode:) NSString *_originalFillMode; // @synthesize _originalFillMode=__originalFillMode;
-@property(nonatomic, getter=_isTransitionInterrupted, setter=_setTransitionInterrupted:) _Bool _transitionInterrupted; // @synthesize _transitionInterrupted=__transitionInterrupted;
-@property(nonatomic, setter=_setUsesPacedFractionComplete:) _Bool _usesPacedFractionComplete; // @synthesize _usesPacedFractionComplete=__usesPacedFractionComplete;
-@property(retain, nonatomic, setter=_setUuid:) NSUUID *_uuid; // @synthesize _uuid=__uuid;
-@property(nonatomic) long long completionCurve; // @synthesize completionCurve=_completionCurve;
-@property(nonatomic) double completionSpeed; // @synthesize completionSpeed=_completionSpeed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double duration;
-@property(readonly) unsigned long long hash;
-@property(readonly) double percentComplete;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <UITimingCurveProvider> timingCurve; // @synthesize timingCurve=_timingCurve;
-@property(nonatomic) _Bool wantsInteractiveStart; // @synthesize wantsInteractiveStart=_wantsInteractiveStart;
 
 @end
 

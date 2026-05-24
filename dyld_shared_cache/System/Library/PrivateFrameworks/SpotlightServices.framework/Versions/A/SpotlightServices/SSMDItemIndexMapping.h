@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)disableAnimations;
 
 @end
 

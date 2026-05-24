@@ -6,14 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString, NSTextLayoutFragment, NSTextParagraphAnchoredAttachment, NSTextView;
+@class NSTextParagraphAnchoredAttachment, NSTextView;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextParagraphAnchoredAttachmentView : NSView
 {
     NSTextView *_textView;
-    NSTextLayoutFragment *_textLayoutFragment;
-    NSTextParagraphAnchoredAttachment *_anchoredAttachment;
 }
 
 - (_Bool);
@@ -21,23 +19,15 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)NO_SUPPORTED_VERSIONS_ENABLED;
 - (_Bool);
 - (id);
 - (void)the item programmatically or use the default identifier when created in Interface Builder;
-- (void)SavePresentedItemChangesOnMainThread;
+- (void)WillSavePresentedItemChangesOnMainThread;
 - (void);
 
 // Remaining properties
 @property(readonly) __weak NSTextParagraphAnchoredAttachment *anchoredAttachment; // @synthesize anchoredAttachment=_anchoredAttachment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property __weak NSTextLayoutFragment *textLayoutFragment; // @dynamic textLayoutFragment;
 
 @end
 

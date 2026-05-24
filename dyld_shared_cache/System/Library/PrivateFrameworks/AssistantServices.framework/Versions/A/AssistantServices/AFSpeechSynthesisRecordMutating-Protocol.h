@@ -5,5 +5,6 @@
 //
 
 @protocol AFSpeechSynthesisRecordMutating
+- (void);
 @end
 

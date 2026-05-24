@@ -5,5 +5,8 @@
 //
 
 @protocol SVVideoPlayerViewControllerDelegate
+
+@optional
+- (void);
 @end
 

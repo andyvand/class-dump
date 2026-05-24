@@ -5,5 +5,6 @@
 //
 
 @protocol TUCallHistoryManagerDataSource
+- (void)@;
 @end
 

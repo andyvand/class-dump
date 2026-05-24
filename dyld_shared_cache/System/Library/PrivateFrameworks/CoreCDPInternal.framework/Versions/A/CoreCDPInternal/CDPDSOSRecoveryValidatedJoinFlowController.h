@@ -6,49 +6,41 @@
 
 #import <CoreCDPInternal/CDPDRecoveryFlowController.h>
 
-@class NSString;
-
 @interface CDPDSOSRecoveryValidatedJoinFlowController : CDPDRecoveryFlowController
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)UnifiedTabBar;
+- (void)UnifiedFieldPasteboardEngine;
+- (void)_UnifiedFieldContainerViewCell;
+- (_Bool)UnifiedFieldCompletionListParsecResultValidator;
+- (void)WBSCompletionListRankingObserverDelegate;
+- (void)TabsPreferences;
+- (void)TabSnapshotOnDiskImageStorageMetadataStore;
+- (void)SingleLineStartPageViewItem;
+- (void)SidebarPlaceholderViewController;
+- (void)SidebarButton;
+- (id)NSScrollViewDelegate;
+- (id)SafeAutoFillChoicesConfirmationPopoverViewController;
+- (void)SafariWebExtensionPerSitePreferenceManager;
+- (id)SafariFrameworkBundleLocator;
+- (void)RolloverActionButtonTableCellView;
+- (id)RemoteNotificationPackageController;
+- (id)RemoteNotificationRegistrationRequest;
+- (id)_NSUserNotificationCenterDelegatePrivate;
+- (id)ReadingListItemPruningData;
+- (id)ReadingListTableViewContentProvider;
+- (void)ReaderAppearanceViewControllerDelegate;
+- (void)ReaderAppearanceViewController;
+- (void)ProgressReceiver;
+- (unsigned long long)PrivacyProxyStatusSection;
+- (id)PrintSheetSuppressionManager;
+- (id)PreferencesPopoverPopUpItemViewController;
+- (id)PopupWindowUnifiedFieldContainerView;
+- (id)TabDraggingInfo;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

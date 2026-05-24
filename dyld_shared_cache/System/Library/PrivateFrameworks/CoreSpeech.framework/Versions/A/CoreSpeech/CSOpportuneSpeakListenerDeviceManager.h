@@ -14,7 +14,7 @@
 + (id);
 - (void);
 - (id);
-- (void)udioSource;
+- (void)enabledPolicyWithAVVCAudioSource;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;

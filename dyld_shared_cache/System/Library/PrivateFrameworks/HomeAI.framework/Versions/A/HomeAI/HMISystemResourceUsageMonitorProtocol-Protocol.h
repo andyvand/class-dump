@@ -8,11 +8,10 @@
 @protocol HMISystemResourceUsageMonitorDelegate;
 
 @protocol HMISystemResourceUsageMonitorProtocol
+- (HMISystemResourceUsage *);
+- (id <HMISystemResourceUsageMonitorDelegate>)+;
 
 // Remaining properties
 @property(readonly) HMISystemResourceUsage *currentSystemResourceUsage;
-@property __weak id <HMISystemResourceUsageMonitorDelegate> delegate;
-@property(readonly) float maxAnalysisFPS;
-@property(readonly) unsigned long long maxNumberOfAnalyzers;
 @end
 

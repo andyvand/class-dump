@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, _UITypedStorage;
-@protocol UIInteraction;
+@class NSMapTable, _UITypedStorage;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneScrollPocketHostComponent
 {
     NSMapTable *_pocketElements;
-    id <UIInteraction> _registrationInteraction;
-    _UITypedStorage *_typedStorage;
 }
 
 + (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (long long);
-- (void);
-- (id);
+- (void)primaryAuthKitAccount;
+- (long long)primaryAccountHasiCloudBackupEnabledWithCompletion:(unsigned long long)arg1;
+- (void)$;
+- (id)dated %@;
 - (void);
 - (id);
 - (void);
@@ -31,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)!´GùñcÐ1Â0@ù
 × ;
 - (id);
-- (void)ithRubberBandCoefficient:(id)arg1;
+- (void)_hostSheetInteractionDraggingDidBeginWithRubberBandCoefficient:(id)arg1;
 - (id)tonItemData",&,N,V_plainItemAppearance;
 - (id)t>?l?;
 - (void)@;
@@ -39,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)0,¸þÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *_pocketElements; // @synthesize _pocketElements;
 @property(readonly, nonatomic) _UITypedStorage *_typedStorage; // @synthesize _typedStorage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <UIInteraction> registrationInteraction; // @synthesize registrationInteraction=_registrationInteraction;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface PluginParser
 {
     NSArray *_linesOfFile;
-    NSDictionary *_keysAndEncodings;
-    NSMutableDictionary *_dict;
 }
 
 - (void);
@@ -21,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id).;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)layerWithDescriptor: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

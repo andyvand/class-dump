@@ -14,8 +14,8 @@
 + (id);
 + (void);
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long)!;
+- (id)@0:8@16B24 /* Error: Ran out of types for this method. */;
 
 @end
 

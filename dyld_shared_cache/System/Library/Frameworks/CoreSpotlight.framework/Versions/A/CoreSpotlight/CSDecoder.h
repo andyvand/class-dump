@@ -9,32 +9,26 @@
 @interface CSDecoder
 {
     NSData *_data;
-    id _backingStore;
-    struct __CFAllocator *_contentDeallocator;
-    CDStruct_ab85f6a0 _obj;
 }
 
 + (id);
 - (struct __CFAllocator *);
 - (void);
 - (id);
+- (id)n;
+- (id);
+- (CDStruct_04aed232)�;
 - (id);
 - (id);
-- (CDStruct_ab85f6a0);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
+- (id)le;
+- (void)libcompiler_rt.dylib;
 
 // Remaining properties
-@property(retain, nonatomic) id backingStore; // @synthesize backingStore=_backingStore;
-@property(readonly, nonatomic) struct __CFAllocator *contentDeallocator; // @synthesize contentDeallocator=_contentDeallocator;
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) CDStruct_ab85f6a0 obj; // @synthesize obj=_obj;
+@property(readonly, nonatomic) CDStruct_04aed232 obj; // @synthesize obj=_obj;
 
 @end
 

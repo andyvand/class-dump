@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)kCPInformationRatingItemMaximumRatingKey;
 + (id);
 + (void);
 - (void);

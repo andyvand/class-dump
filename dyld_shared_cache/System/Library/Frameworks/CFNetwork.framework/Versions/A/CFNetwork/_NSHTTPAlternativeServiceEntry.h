@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface _NSHTTPAlternativeServiceEntry
 {
     NSString *_host;
-    NSString *_alternateHost;
-    long long _port;
-    long long _alternatePort;
-    NSString *_partition;
-    NSDate *_expirationDate;
-    long long _serviceType;
 }
 
 - (void);
@@ -36,16 +30,10 @@
 - (id);
 - (void)èÜ;
 - (void)ýéÿ;
-- (void)r;
+- (void):(long long)arg1 Zr;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *alternateHost; // @synthesize alternateHost=_alternateHost;
-@property(nonatomic) long long alternatePort; // @synthesize alternatePort=_alternatePort;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(retain, nonatomic) NSString *host; // @synthesize host=_host;
-@property(retain, nonatomic) NSString *partition; // @synthesize partition=_partition;
-@property(nonatomic) long long port; // @synthesize port=_port;
-@property(nonatomic) long long serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

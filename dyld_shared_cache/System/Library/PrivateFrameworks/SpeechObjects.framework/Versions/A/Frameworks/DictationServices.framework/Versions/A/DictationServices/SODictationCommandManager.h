@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSSet, NSString;
+@class NSArray, NSString;
 
 @interface SODictationCommandManager
 {
     NSArray *_commandItems;
-    NSArray *_commandsOnly;
-    NSMutableArray *_newCommandItems;
-    NSMutableArray *_deletedCommandIdentifiers;
-    NSArray *_commandGroups;
-    NSArray *_allCommandGroups;
-    NSString *_searchString;
-    NSString *_locale;
-    NSArray *_externalCommandGroups;
-    NSArray *_relevantCommandIdentifiers;
-    NSDictionary *_additionalCommandInfo;
-    NSSet *_excludedSearchWordSet;
-    NSDictionary *_conflictDictionary;
-    _Bool _usedByPreferences;
 }
 
 - (_Bool);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -53,21 +40,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)shouldEnqueueMirrorOutput;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalCommandInfo; // @synthesize additionalCommandInfo=_additionalCommandInfo;
-@property(retain, nonatomic) NSArray *externalCommandGroups; // @synthesize externalCommandGroups=_externalCommandGroups;
-@property(readonly, nonatomic) NSArray *flattenedCommandGroupsAndItems;
-@property(readonly) _Bool isSearching;
 @property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSArray *nestedCommandGroupsAndItems;
-@property(retain, nonatomic) NSArray *relevantCommandIdentifiers; // @synthesize relevantCommandIdentifiers=_relevantCommandIdentifiers;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(nonatomic) _Bool usedByPreferences; // @synthesize usedByPreferences=_usedByPreferences;
 
 @end
 

@@ -9,15 +9,11 @@
 @interface TSDDragInsertionContext : TSDInsertionContext
 {
     struct CGPoint mPreferredCenter;
-    _Bool mPreferredCenterRequired;
-    _Bool mShouldEndEditing;
-    _Bool mFromDragToInsertController;
-    _Bool mInsertWillBeDiscarded;
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -25,7 +21,7 @@
 - (_Bool);
 - (struct CGPoint);
 - (id);
-- (_Bool)troke;
+- (_Bool)TSDMutableCalligraphyStroke;
 
 @end
 

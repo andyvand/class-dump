@@ -9,7 +9,6 @@
 @interface AppStoreKit.UpsellGridPresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id contentDictionary;
 }
 
 @end

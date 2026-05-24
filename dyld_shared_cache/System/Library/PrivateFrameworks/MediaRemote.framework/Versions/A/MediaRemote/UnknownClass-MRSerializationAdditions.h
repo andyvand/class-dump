@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDeviceInfo, MROrigin, MRPlaybackQueue, MRPlayerPath;
+@class MRPlayerPath;
 
 @interface UnknownClass (MRSerializationAdditions)
 - (id);
@@ -14,10 +14,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MRDeviceInfo *mr_deviceInfo;
-@property(readonly, nonatomic) MROrigin *mr_origin;
-@property(readonly, nonatomic) MRPlaybackQueue *mr_playbackQueue;
-@property(readonly, nonatomic) MRDeviceInfo *mr_previousDeviceInfo;
 @property(readonly, nonatomic) MRPlayerPath *playerPath;
 @end
 

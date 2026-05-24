@@ -4,54 +4,1633 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPBundleId, CLPCellConnectivityInfo, CLPIndoorCMAttitude, CLPIndoorCMPedometer, CLPIndoorMotionActivity, CLPIndoorPressure, CLPIndoorWifiScan, CLPInertialOdometry, CLPLOGENTRYVISIONVIOEstimation, CLPLOGENTRYVISIONVLLocalizationResult, CLPLocation, CLPOutdoorUpdate, CLPPassKitEvent, CLPWorkoutUpdateMotionActivity;
+@class CLPBundleId;
 
 @interface CLPIndoorEvent
 {
     CLPBundleId *_bundleId;
-    CLPCellConnectivityInfo *_cellConnectivity;
-    CLPIndoorCMAttitude *_cmAttitude;
-    CLPIndoorCMPedometer *_cmPedometer;
-    CLPInertialOdometry *_inertialOdometry;
-    CLPLocation *_location;
-    CLPIndoorMotionActivity *_motionActivity;
-    CLPOutdoorUpdate *_outdoorUpdate;
-    CLPPassKitEvent *_passkitEvent;
-    CLPIndoorPressure *_pressure;
-    int _type;
-    CLPLOGENTRYVISIONVIOEstimation *_vioEstimation;
-    CLPLOGENTRYVISIONVLLocalizationResult *_vlLocalizationResult;
-    CLPIndoorWifiScan *_wifiScan;
-    CLPWorkoutUpdateMotionActivity *_workoutUpdateMotionActivity;
-    CDStruct_f953fb60 _has;
 }
 
+- (_Bool)WBSJavaScriptInjectionControllerScriptMessageHandler;
+- (id)ratedSignInAffordance(R,i,a,s)&&(t[WBSAutoFillFormTypeAutoFillableLogin]=2);var oe=this._isLabeledEmailField(R);if(ne&&(re.ControlClaimsToBeUsernameViaAutocompleteAttribute||re.ControlIsLabeledUsernameField||oe||this._isLabeledLoginField(R))&&!this._matchesNonUsernameFieldLabelPattern(R)&&!this._matchSearchFieldLabelPattern(R)&&!R.readOnly&&"INPUT"===R.tagName&&!this._isLabeledSignUpField(R)){this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeAutoFillableLogin],oe?WBSAutoFillFormTypeNewAccount:WBSAutoFillFormTypeAutoFillableLogin,t)===WBSAutoFillFormTypeAutoFillableLogin&&(Z=R,X=re,Q=WBSAutoFillFormTypeAutoFillableLogin)}const r=re.AutocompleteTokens;if(r){const n=r.includes("username"),o=r.includes("email");if(r.includes("webauthn")&&(n||o)){Z=R,X=re,Q=WBSAutoFillFormTypeAutoFillableLogin;continue}n&&oe&&(Z=R,X=re,Q=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeAutoFillableLogin],WBSAutoFillFormTypeAutoFillableLogin,t))}}1===ee&&X&&Q&&!controlAppearsToBePartOfPhotoTaggingInterface(Z)&&(l.AutoFillFormType=Q,l.UsernameElementUniqueID=X.ControlUniqueID)}l.IsVisible||=l.FormControls.some((e=>e.IsVisible)),l.AutoFillFormType===WBSAutoFillFormTypeNewAccount&&l.FirstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID===l.UsernameElementUniqueID&&(l.UsernameElementUniqueID=void 0),!l.UsernameElementUniqueID&&K&&this._extractMetadataForHiddenUsernameElement(K,l,k),l.AutoFillFormType!=WBSAutoFillFormTypeAutoFillableLogin&&l.AutoFillFormType!=WBSAutoFillFormTypeNewAccount&&l.AutoFillFormType!=WBSAutoFillFormTypeChangePassword&&(l.UsernameElementUniqueID=void 0,l.OldPasswordElementUniqueID=void 0,l.PasswordElementUniqueID=void 0,l.ConfirmPasswordElementUniqueID=void 0),l.IsVisible||l.AutoFillFormType==WBSAutoFillFormTypeAutoFillableLogin||l.AutoFillFormType==WBSAutoFillFormTypeNewAccount||l.AutoFillFormType==WBSAutoFillFormTypeChangePassword||(l.AutoFillFormType=WBSAutoFillFormTypeNonAutoFillable),t!==WBSFormMetadataRequestPreFill&&(l.TextSample=this._collectTextSample(e.formElement)),l.FormIsEligibleForAutomaticLogin=this._formIsEligibleForAutomaticLogin(l,e.backingElement);for(let e of l.FormControls)if(e.ControlLooksLikeOneTimeCodeField&&this._oneTimeCodeIsEligibleForAutomaticLogin(e,l)){e.OneTimeCodeIsEligibleForAutomaticLogin=!0;break}if(l.IsVisible&&!FormMetadataJSController.collectAllFields)for(U=(te=k.length)-1;U>=0;--U)this._shouldIncludeControlMetadata(l,k[U],l.FormControls[U])||(t!==WBSFormMetadataRequestCollectMetadataFromDebugMenu?(l.FormControls.splice(U,1),k.splice(U,1)):l.FormControls[U].WOULD_NORMALLY_NOT_BE_SENT_TO_UI_PROCESS=!0);return this._removePlaceholderTextForFormMetadata(k,l),delete this._pageScanContext,t!==WBSFormMetadataRequestPreFill&&globalThis.FormMetadataClassificationJS&&globalThis.FormMetadataClassificationJS.classify(l),addPasswordRequirementsToFormMetadata(l),l}_formIsEligibleForAutomaticLogin(e,t){if(e.AutoFillFormType!==WBSAutoFillFormTypeAutoFillableLogin)return!1;let r=!1;for(const t of e.FormControls){const n=t.ControlUniqueID;if(n===e.UsernameElementUniqueID||n===e.PasswordElementUniqueID)continue;if(t.ControlIsDisabled)continue;if(t.ControlIsReadOnly)continue;if(!t.IsVisible)continue;const o=this.formControlWithUniqueID(n);if(!o)continue;if(this._isTextArea(o))return!1;if(isSelectElement(o))return!1;if(this._isSubmitButton(o))continue;if(this._looksLikeShowHidePasswordButton(o))continue;if(!isInputElement(o))continue;const i=o.type;if("button"!==i&&"reset"!==i&&"submit"!==i&&"image"!==i){if(!this._isCheckboxInputElement(o))return!1;if(r)return!1;r=!0}}return!t||!elementAppearsToContinueCaptchaWidget(t)}_oneTimeCodeIsEligibleForAutomaticLogin(e,t){for(const e of t.FormControls){if(e.ControlLooksLikeOneTimeCodeField)continue;if(e.ControlIsDisabled)continue;if(e.ControlIsReadOnly)continue;if(!e.IsVisible)continue;const t=this.formControlWithUniqueID(e.ControlUniqueID);if(!t)continue;if(this._isTextArea(t))return!1;if(isSelectElement(t))return!1;if(this._isSubmitButton(t))continue;if(this._looksLikeShowHidePasswordButton(t))continue;if(!isInputElement(t))continue;const r=t.type;if("button"!==r&&"reset"!==r&&"submit"!==r&&"image"!==r)return!1}return!0}_shouldIncludeControlMetadata(e,t,r){if(t._relatesToCredentials)return!0;if(r.IsVisible){if(formControlHasBeenClassifiedInAnInterestingWay(r))return!0;if(r.ControlValue)return!0}return!(!e.UsernameElementUniqueID||r.ControlUniqueID!==e.UsernameElementUniqueID)}_isElementAHiddenUsername(e){const t=/user|email/i;return"hidden"===e.type&&(!(!t.test(e.getAttribute("id"))&&!t.test(e.getAttribute("name")))&&!!isValidUsernameOrEmail(e.value))}_findHiddenUsernameElement(e,t,r){var n=e.formElement;if(!(n instanceof HTMLElement))return;let o=queryAllBySelector(n,"input"),i=o.length;for(let e=0;e<i;++e){let t=o[e];if(this._isElementAHiddenUsername(t))return t}return null}_extractMetadataForHiddenUsernameElement(e,t,r){var n={ControlTagName:this._getTagName(e),ControlFieldName:this._getNameOrId(e),ControlUniqueID:this.controlUniqueID(e),ControlIsReadOnly:!0,ControlValue:e.value};t.UsernameElementUniqueID=n.ControlUniqueID,t.FormControls.push(n),r.push(e)}_cachedMetadataForLogicalForm(e){var t=e.metadata,r=t?.FormControls,n=r?.length??0;if(!n)return null;const o=innermostActiveElement();for(var i=0;i<n;++i){var l=r[i],a=this.formControlWithUniqueID(l.ControlUniqueID);a&&(l.ControlIsActiveElement=a===o,l.ControlValue=a.value,l.ControlIsAutoFilledTextField=this._isAutoFilledTextField(a))}return t.UsesGeneratedPassword=this._usesGeneratedPassword(e),t.Annotations=e.annotations,t}_markFormIsBestForPageLevelAutoFill(){function e(e){switch(e){case WBSAutoFillFormTypeAutoFillableLogin:return 30;case WBSAutoFillFormTypeNewAccount:case WBSAutoFillFormTypeChangePassword:return 20;case WBSAutoFillFormTypeAutoFillableStandard:return 10;case WBSAutoFillFormTypeUndetermined:case WBSAutoFillFormTypeNonAutoFillable:return 0}return-100}function t(e){return e?50:0}let r=this._logicalFormWithHighestScoreIfGreaterThanZero((function(r){var n=r.PasswordElementUniqueID?0:-1;return e(r.AutoFillFormType)+t(r.IsVisible)+n}));null!==r&&(r.metadata.FormIsBestForPageLevelAutoFill=!0)}_markFormIsBestForStreamlinedLogin(){let e=this._logicalFormWithHighestScoreIfGreaterThanZero((function(e,t){if(!e.IsVisible)return 0;let r=t.getBoundingClientRect();if(!rectIsWithinDocumentViewport(r))return 0;if(r.bottom+window.scrollY<80){let e=!(location.hash||location.pathname&&"/"!==location.pathname||location.search),t=r.width/r.height;if(!e&&t>4)return 0}if(t.closest("footer"))return 0;let n=e.AutoFillFormType===WBSAutoFillFormTypeAutoFillableLogin,o=0,i=e.FormControls,l=i.length;for(var a=0;a<l;++a){let t=i[a],r=FormMetadataJS.formControlWithUniqueID(t.ControlUniqueID);if(!r)continue;const l=parseInt(r.tabIndex,10);if(!(isFiniteNumber(l)&&l<0)){if(n){t.ControlIsAutofocusedTextField&&(o+=1);let r=t.ControlUniqueID;if(r===e.UsernameElementUniqueID||r===e.PasswordElementUniqueID){o+=10;continue}}t.OneTimeCodeIsEligibleForAutomaticLogin&&(o+=5)}}return o}));null!==e&&(e.metadata.FormIsBestForStreamlinedLogin=!0)}_logicalFormWithHighestScoreIfGreaterThanZero(e){let t=null,r=null;for(let o of this._logicalFormsCache.allForms()){var n=e(o.metadata,o.backingElement);(null===t||n>t)&&(r=o,t=n)}return t>0?r:null}isAnyFormAnnotated(){return this._logicalFormsCache.allForms().some((e=>e.isAnnotated))}annotateFormWithID(e,t){let r=this._logicalFormsCache.logicalFormWithUniqueID(e);r&&r.annotate(t)}_collectMetadata(e){const t=100,r=10;var n=this._logicalFormsInPage(t,r);this._logicalFormsCache.clearCacheAndAdd(n);for(var o=n.length,i=0;i<o;++i)n[i].metadata=this._collectFormMetadata(n[i],e);this._markFormIsBestForPageLevelAutoFill(),e!==WBSFormMetadataRequestNormal&&this._markFormIsBestForStreamlinedLogin()}_collectAndCacheFormMetadata(e,t){let r=this._collectFormMetadata(e,t),n=this._logicalFormsCache.logicalFormWithUniqueID(e.formUniqueID);return n?n.metadata=r:(e.metadata=r,this._logicalFormsCache.addOrUpdate(e)),r}_metadataForFormWithID(e){return this._logicalFormsCache.logicalFormWithUniqueID(e)?.metadata}_recollectMetadataForFormWithID(e){const t=this._logicalFormsCache.logicalFormWithUniqueID(e);return t?this._collectAndCacheFormMetadata(t,WBSFormMetadataRequestNormal):null}async _fillControlWithGeneratedPassword(e,t){var r=this._elementsWithGeneratedPasswords.indexOf(e);-1===r&&(this._elementsWithGeneratedPasswords.push(e),r=this._elementsWithGeneratedPasswords.length-1),this._generatedPasswords[r]=t;const n=!0;await this._fillControl(e,t,n)}async fillFormWithPassword(e,t,r){var n=this._metadataForFormWithID(e);if(null===n)return null;const o=n.PasswordElementUniqueID,i=o?this.formControlWithUniqueID(o):void 0,l=r?this.formControlWithUniqueID(r):void 0;var a=i||l;const s=o||r;if(!a)return null;await this._fillControlWithGeneratedPassword(a,t);let u=n.ConfirmPasswordElementUniqueID;u||n.AutoFillFormType!==WBSAutoFillFormTypeChangePassword&&n.AutoFillFormType!==WBSAutoFillFormTypeNewAccount||(u=(n=this._recollectMetadataForFormWithID(e)||n).ConfirmPasswordElementUniqueID);let c=u?this.formControlWithUniqueID(u):null;return c?(await this._fillControlWithGeneratedPassword(c,t),[s,u]):[s]}clearField(e){const t=this.formControlWithUniqueID(e),r=!0;this._clearControl(t,r)}async _clearControl(e,t=!1){if(!e)return;if(isSelectElement(e))return void(e.selectedIndex=0);if(isDateTimeInputElement(e))return void(e.value="");if(isRadioButtonElement(e)){const t=this._logicalFormsCache.logicalFormForControl(e).radioButtonsWithName(e.name);for(let e of t)e.checked=!1;return}if(!this._isTextField(e))return;if(!e.value.length)return;let r=innermostActiveElement();e!==r&&e.focus({preventScroll:!0,focusVisible:!1}),e.select(),e.dispatchEvent(new Event("select",{bubbles:!0,cancelable:!1}));const n=KeyInfo.BackspaceKeyInfo;e.dispatchEvent(n.keyEvent("keydown"));const o="deleteContentBackward";e.dispatchEvent(new InputEvent("beforeinput",{bubbles:!0,cancelable:!0,inputType:o,data:null})),e.value="",e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1,inputType:o,data:null})),e.dispatchEvent(n.keyEvent("keyup")),e.dispatchEvent(new Event("change",{bubbles:!0,cancelable:!1})),t||await yieldToEventLoopAfterAnimationFrameAndDelay(),r&&e!==r&&r.focus({preventScroll:!0})}focusFormForStreamlinedLogin(e){const t=function(e){for(const t of e.FormControls){const r=t.ControlUniqueID;if(r===e.UsernameElementUniqueID||r===e.PasswordElementUniqueID||t.ControlLooksLikeOneTimeCodeField){let e=this.formControlWithUniqueID(r);if(e.isVisible()&&!e.disabled)return e}}return null}.bind(this);var r=this._metadataForFormWithID(e);null!==r&&this._focusControlForStreamlinedLogin(t(r))}focusControlForStreamlinedLogin(e){this._focusControlForStreamlinedLogin(this.formControlWithUniqueID(e))}_focusControlForStreamlinedLogin(e){e&&rectIsWithinDocumentViewport(e.getBoundingClientRect())&&e.focus()}formsAndMetadata(e){visibilityCacheGeneration++,this._collectMetadata(e);let t=[],r=[];for(let e of this._logicalFormsCache.allForms())t.push(e.formElement),r.push(e.metadata);return[t,r]}formControlWithUniqueID(e){let t=this._controlUniqueIDToWeakControlMap.get(e)?.deref();return t}formElementWithFormID(e){return this._logicalFormsCache.logicalFormWithUniqueID(e)?.formElement}selectIfTextField(e){this._isTextField(e)&&e.select()}_getOrCreateCachedMetadataForLogicalForm(e,t){var r=this._cachedMetadataForLogicalForm(e);return!r||null!=t&&r.RequestType===WBSFormMetadataRequestPreFill&&t!==WBSFormMetadataRequestPreFill?this._collectAndCacheFormMetadata(e,t):r}_getOrCreateLogicalFormForTextFieldOrSelectElement(e){let t=this._logicalFormsCache.logicalFormForControl(e);if(t)for(var r=t.metadata,n=r?.FormControls,o=n?.length??0,i=e._controlUniqueID,l=0;l<o;++l)if(n[l].ControlUniqueID===i)return t;var a=this._logicalFormsInPage(),s=a.length;for(l=0;l<s;++l){var u=a[l];if(u.containsControl(e))return this._logicalFormsCache.addOrUpdate(u),u.metadata=this._collectFormMetadata(u,WBSFormMetadataRequestNormal),u}return null}_cachedMetadataForFormWithTextFieldOrSelectElement(e,t){if(!this._isTextField(e)&&!isSelectElement(e))return null;var r=this._getOrCreateLogicalFormForTextFieldOrSelectElement(e);return r?this._getOrCreateCachedMetadataForLogicalForm(r,t):null}_isAnyPasswordElementUniqueID(e,t){return e.PasswordElementUniqueID===t||e.ConfirmPasswordElementUniqueID===t||e.OldPasswordElementUniqueID===t}_isCurrentPasswordElementUniqueID(e,t){switch(e.AutoFillFormType){case WBSAutoFillFormTypeNewAccount:case WBSAutoFillFormTypeChangePassword:return e.OldPasswordElementUniqueID===t;default:return e.PasswordElementUniqueID===t}}_isNewPasswordElementUniqueID(e,t){switch(e.AutoFillFormType){case WBSAutoFillFormTypeNewAccount:case WBSAutoFillFormTypeChangePassword:return e.PasswordElementUniqueID===t||e.ConfirmPasswordElementUniqueID===t;default:return!1}}_updateAnnotationsForField(e){var t=this._getOrCreateLogicalFormForTextFieldOrSelectElement(e);if(t){var r=this._getOrCreateCachedMetadataForLogicalForm(t);if(r){var n=e._controlUniqueID;this._isCurrentPasswordElementUniqueID(r,n)?t.annotate({CurrentPassword:e.value}):this._isNewPasswordElementUniqueID(r,n)?t.annotate({NewPassword:e.value}):r.UsernameElementUniqueID===n&&t.annotate({Username:e.value}),isCredentialElementUniqueID(r,n)&&(e._relatesToCredentials=""!==e.value)}}}textFieldOrSelectElementMetadata(e,t,r){visibilityCacheGeneration++,this._logicalFormsCache.removeUnparentedLogicalFormsFromCache();var n=[null,null],o=this._cachedMetadataForFormWithTextFieldOrSelectElement(e,t);if(!o)return n;this._pageScanContext={backwardScanCache:new WeakMap,forwardScanCache:new WeakMap};let i=this._logicalFormsCache.logicalFormWithUniqueID(o.FormID),l=formActionAsAnchorElement(i.formElement),[a,s,u,c,d]=this._trailingArgumentsForCollectControlMetadataFunction(i,t,l);const h=!0;var m=this._collectControlMetadata(e,WBSFormMetadataRequestNormal,a,s,u,c,d,h);if(delete this._pageScanContext,m.ControlLooksLikeOneTimeCodeField&&this._oneTimeCodeIsEligibleForAutomaticLogin(m,o)&&(m.OneTimeCodeIsEligibleForAutomaticLogin=!0),m.SelectionStart=e.selectionStart,m.SelectionLength=e.selectionEnd-e.selectionStart,t===WBSFormMetadataRequestTextChange&&(!o.UsernameElementUniqueID&&this._isAnyPasswordElementUniqueID(o,m.ControlUniqueID)&&i.isAnnotated&&i.annotate({Username:null}),this._updateAnnotationsForField(e)),o.RequestType!==WBSFormMetadataRequestPreFill)for(let e of o.FormControls)if(m.ControlUniqueID===e.ControlUniqueID){m.ControlClassification=e.ControlClassification,m.ControlClassificationHints=e.ControlClassificationHints,m.ControlOrderedParts=e.ControlOrderedParts,m.ControlContinuationID=e.ControlContinuationID,m.ControlContinuationIndex=e.ControlContinuationIndex,m.ControlNextFieldUniqueID=e.ControlNextFieldUniqueID;break}if(r){for(const e of o.FormControls)e.ControlUniqueID==m.ControlUniqueID&&(e.ControlValue=null);this._cachedFormMetadata=JSON.stringify(o)}return n[0]=m,n[1]=o,n}clearTextFieldOrSelectElementMetadataCache(){this._cachedFormMetadata=null}disableSpellCheckInFieldIfNeeded(e){if(e){var t=this.formControlWithUniqueID(e);t&&this._isAutoFillableTextField(t)&&FormMetadataJSController.setInputElementSpellCheckEnabled(t,!1)}}selectionRangeInField(e){var t=this.formControlWithUniqueID(e);return t&&this._isTextField(t)?[t.selectionStart,t.selectionEnd-t.selectionStart]:null}setFormFieldSelection(e,t,r){var n=this.formControlWithUniqueID(e);n&&this._isTextField(n)&&(n.selectionStart=t,n.selectionEnd=t+r)}replaceFormFieldRangeAndSelectTail(e,t,r,n,o){var i=this.formControlWithUniqueID(e);if(i&&this._isTextField(i)){var l=i.value,a=l.substr(0,t)+n+l.substr(t+r);i.value=a,i.selectionStart=o,i.selectionEnd=a.length,i.dispatchEvent(createCustomEventThatBubbles("input")),i.dispatchEvent(createCustomEventThatBubbles("change"))}}_collectVisibleNonEmptyTextFieldsAndTextAreasInForm(e,t,r){visibilityCacheGeneration++;for(var n=elementsInFormPiercingShadowDOM(e),o=n.length,i=0;i<o;++i){var l=n[i];l.isVisible()&&(null!=l.value&&l.value.length&&(this._isTextField(l)?t.push(l):this._isTextArea(l)&&r.push(l)))}}visibleNonEmptyFormTextControls(){var e=[],t=[];let r=queryAllBySelector(document,"form");for(let n=0;n<r.length;++n)this._collectVisibleNonEmptyTextFieldsAndTextAreasInForm(r[n],e,t);return[e,t]}visibleNonEmptyFormTextControlsInForm(e){var t=[],r=[];return this._collectVisibleNonEmptyTextFieldsAndTextAreasInForm(e,t,r),[t,r]}async _fillRadioButtonInGroupStartingWithControl(e,t){const r=this._logicalFormsCache.logicalFormForControl(e);let n=r?.radioButtonsWithName(e.name);if(!n)return null;for(let e of n)if(e.value===t)return dispatchEventsSimulatingClickOnElement(e),e.checked=!0,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1})),e.dispatchEvent(new Event("change",{bubbles:!0,cancelable:!1})),await yieldToEventLoop(),e;return null}_controlContainsAllCharactersFromValue(e,t){let r=[...e.value.normalize()],n=[...t.normalize()];if(r.length<n.length)return!1;for(let e of r){e===n[0]&&n.shift()}return!n.length}async _fillSelectControlWithBestOptionFromSynonyms(e,t){const r=this._collectSelectElementInfo(e),n=FormMetadataUtilitiesJS.bestIndexToFillSelectControl(r,t);-1!==n&&e.selectedIndex!==n&&(e.dispatchEvent(createCustomEventThatBubbles("focus")),e.dispatchEvent(createCustomEventThatBubbles("pointerdown")),e.dispatchEvent(createCustomEventThatBubbles("mousedown")),e.selectedIndex=n,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1})),e.dispatchEvent(new Event("change",{bubbles:!0,cancelable:!1})),e.dispatchEvent(createCustomEventThatBubbles("blur")),await yieldToEventLoop())}delayBetweenFillingCharactersForFillingOneTimeCode(e){const t=10,r=100;for(let n=e;n;n=n.parentElementIncludingShadowDOMHost()){const e=n.getAttribute("debounce");if(!e)continue;const o=parseFloat(e);if(0<o&&o<=r)return o+t;break}return t}async autoFillOneTimeCodeFieldsWithValue(e,t){let r=!1;try{const t=innermostActiveElement();if(!this._isAutoFillableTextField(t))return{value:e,shouldSubmit:!1,codeAppearsToHaveBeenFilledInItsEntirety:!1};const n=this.delayBetweenFillingCharactersForFillingOneTimeCode(t),o={waitForSingleCharacterFieldsToAdvanceToNextField:{durationToCheckBeforeGivingUpInMilliseconds:400}},i=await this._executeWhilePreventingUserInteraction((async()=>await this._fillTextControl(null,e,n,o)));if(r=this._oneTimeCodeAppearsToHaveFilledProperly(e,i),!r){const o=allControlsForSingleCharacterLogicalFieldForControl(t),i=o.length;o.length&&e.length===i&&(await this._executeWhilePreventingUserInteraction((async()=>{for(let t=0;t<i;++t)await this._fillTextControl(o[t],e[t],n)})),r=this._oneTimeCodeAppearsToHaveFilledProperly(e,o))}}catch(e){}return{value:e,shouldSubmit:t,codeAppearsToHaveBeenFilledInItsEntirety:r}}_oneTimeCodeAppearsToHaveFilledProperly(e,t){if(!RegExp.escape)return!0;let r=!0;const n=t.map((e=>e.value)).join(""),o=new RegExp(e.replaceAll("-","").split("").map((e=>RegExp.escape(e))).join(".*"),"s");if(r=o.test(n),!r){const e=this._logicalFormsCache.logicalFormForControl(t[0])?.backingElement;e&&(r=o.test(e.innerText))}return r}async _fillTextControl(e,t,r=0,n={}){if(e&&this._controlContainsAllCharactersFromValue(e,t))return;if(e&&userIsOnDomain("m.facebook.com")&&document.location.pathname.startsWith("/login")&&"m_login_email"===e.id)return void await this._fillGenericControl(e,t);let o=new Set;const i=!e;e??=innermostActiveElement(),await this._clearControl(e);const l=!!n.waitForSingleCharacterFieldsToAdvanceToNextField;let a=0;l&&(a=n.waitForSingleCharacterFieldsToAdvanceToNextField.durationToCheckBeforeGivingUpInMilliseconds);let s=!0;for(let n of t){if(l&&!s&&(1===e.maxLength||controlIsPartOfSingleCharacterLogicalField(e))&&e===innermostActiveElement()){const t=Date.now();await yieldUntilEventOrTimeout("focusin",a,{eventTargetToIgnore:e,requireEventTargetBeDocumentActiveElement:!0});Date.now()}const t=innermostActiveElement();if(t!==e){if(!i)break;e=t,await this._clearControl(e)}const u=KeyInfo.forCharacter(n);u.isShifted&&e.dispatchEvent(KeyInfo.shiftKeyEvent("keydown"));let c=!e.dispatchEvent(u.keyEvent("keydown"));if(c||(c=!e.dispatchEvent(u.keyEvent("keypress"))),!c)if(this.canUseTextInputEventsToFill)e.dispatchEvent(createTextInputEvent(n));else{const t=e.value+n;e.dispatchEvent(new InputEvent("beforeinput",{bubbles:!0,cancelable:!0,inputType:insertTextInputType,data:t})),e.value=t,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1,inputType:insertTextInputType,data:t}))}e.dispatchEvent(u.keyEvent("keyup")),u.isShifted&&e.dispatchEvent(KeyInfo.shiftKeyEvent("keyup")),o.add(e),s=!1,await yieldToEventLoop(r)}return i||this._controlContainsAllCharactersFromValue(e,t)||(await yieldToEventLoopAfterAnimationFrameAndDelay(),await this._fillGenericControl(e,t)),Array.from(o)}async _fillGenericControl(e,t){await this._clearControl(e),this.canUseTextInputEventsToFill&&e===innermostActiveElement()&&(e.dispatchEvent(createTextInputEvent(t)),await yieldToEventLoop(),this._controlContainsAllCharactersFromValue(e,t))||(e.dispatchEvent(new InputEvent("beforeinput",{bubbles:!0,cancelable:!0,inputType:insertTextInputType,data:t})),e.value=t,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1,inputType:insertTextInputType,data:t})),e.dispatchEvent(new Event("change",{bubbles:!0,cancelable:!1})),await yieldToEventLoop(),this._controlContainsAllCharactersFromValue(e,t))}async _fillControl(e,t,r,n){if(e.isDisabledOrReadOnly())return;if(e.shouldFocusDuringFilling()){let t=!1;document.hasFocus()||(await yieldUntilDocumentIsFocusedOrTimeout(100),t=!0),e!==innermostActiveElement()&&(e.focus({preventScroll:!0,focusVisible:!1}),t=!0),t&&await yieldToEventLoopAfterAnimationFrameAndDelay(20)}let o=!1;if(isRadioButtonElement(e)){if(!(e=await this._fillRadioButtonInGroupStartingWithControl(e,t)))return}else isSelectElement(e)?await this._fillSelectControlWithBestOptionFromSynonyms(e,t):(o=!0,this._isTextField(e)?await this._fillTextControl(e,t):await this._fillGenericControl(e,t));const i=t.length&&r;o&&n?FormMetadataJSController.setInputElementAutofilledAndObscured(e,i):FormMetadataJSController.setInputElementAutofilled(e,i)}async _executeWhilePreventingUserInteraction(e){const t=new AbortController,r=["keydown","keyup","keypress","pointerdown","pointerup","touchstart","touchend","mousedown","mouseup","click","dblclick"];for(const e of r)window.addEventListener(e,(e=>{e.isTrusted&&(e.preventDefault(),e.stopImmediatePropagation())}),{capture:!0,signal:t.signal});try{return await e()}finally{t.abort(null)}}async autoFillControlsByID(e,t,r,n,o,i,l){let a=arguments[arguments.length-1],s=n;if(s){let e=s.getAttribute("onfocus");e&&e.length&&/this\.value/.test(e)&&(s=null)}else s=innermostActiveElement();var u=null;for(let t in e){u=this._logicalFormsCache.logicalFormForControl(this.formControlWithUniqueID(t));break}const c=Object.entries(e).map((([e,t])=>[this.formControlWithUniqueID(e),t])).sort(((e,t)=>{const r=e[0],n=t[0],o=r.compareDocumentPosition(n);return o&(Node.DOCUMENT_POSITION_PRECEDING|Node.DOCUMENT_POSITION_CONTAINS)?1:o&(Node.DOCUMENT_POSITION_FOLLOWING|Node.DOCUMENT_POSITION_CONTAINED_BY)?-1:0}));return await this._executeWhilePreventingUserInteraction((async()=>{const e=new Set(i);for(let[t,n]of c){const o=e.has(t._controlUniqueID);await this._fillControl(t,n,r,o)}})),o?innermostActiveElement().blur():s&&setTimeout((()=>{this.selectIfTextField(s)}),0),u?.backingElement&&elementAppearsToContinueCaptchaWidget(u.backingElement)&&(a=!1),{formMetadata:this._getOrCreateCachedMetadataForLogicalForm(u),shouldSubmit:a}}_isInputAllowedInSearchForm(e,t){var r=this._getTagName(e).toLowerCase();if("button"===r||"fieldset"===r)return!0;if("select"===r)return!t||isSelectInDefaultState(e);if("input"!==r&&!this._textAreaElementLookLikeItIsPartOfASearchForm(e))return!1;var n=e.type;return"radio"===n||"checkbox"===n?!t||isCheckboxOrRadioButtonInDefaultState(e):"hidden"===n||"reset"===n||"submit"===n||"button"===n||"image"===n||this._isTextField(e)&&!this._isSecureTextField(e)}isSearchForm(e,t){if("get"!==e.method)return!1;for(var r=elementsInFormPiercingShadowDOM(e),n=r.length,o=0;o<n;++o)if(!this._isInputAllowedInSearchForm(r[o],t))return!1;return!0}_textAreaElementLookLikeItIsPartOfASearchForm(e){return!!this._isTextArea(e)&&("search"===e.getAttribute("type")||("search"===e.inputMode||"search"===e.getAttribute("enterkeyhint")))}_shouldInputBeIncludedInSearchURLQuery(e){if(e.disabled)return!1;if(!e.name.length)return!1;if(!e.value.length)return!1;if(isSelectElement(e))return!0;var t=this._getTagName(e).toLowerCase(),r=e.type;return"button"===t?"submit"===r:"input"===t&&("submit"===r||("checkbox"===r||"radio"===r?e.checked:"hidden"===r||this._isTextField(e)))}_isSubmitButton(e){return(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)&&(e.type&&"submit"===e.type)}_isCustomFormButton(e){return"button"===e.type&&(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)}_isCheckboxInputElement(e){return"checkbox"===e.type&&e instanceof HTMLInputElement}_setQueryString(e,t){var r=document.createElement("a");return r.href=e,r.search=t,r.href}searchTextFieldFormSubmissionURLString(e,t){if(visibilityCacheGeneration++,!this._isTextField(e)||this._isSecureTextField(e)||!e.isVisible())return null;var r=e.form;if(!r)return null;var n=r.getAttribute("action");if(!n||!n.length)return null;if(!/^https?:/i.test(r.action))return null;if(!this.isSearchForm(r,t))return null;for(var o=null,i="",l=elementsInFormPiercingShadowDOM(r),a=l.length,s=0;s<a;++s){var u=l[s];if((u===e||this._shouldInputBeIncludedInSearchURLQuery(u))&&(!this._isSubmitButton(u)||(o||(o=u),u===o))){i.length&&(i+="&");var c=u===e?"{searchTerms}":urlEncode(u.value);i+=urlEncode(u.name)+"="+c}}return this._setQueryString(r.action,i)}_collectExtraControlMetadata(e,t){let r=e.getAttribute("passwordrules");r?t.ControlPasswordRules=r:"\\d*"===e.pattern&&(t.ControlPasswordRules="allowed:digit;")}removeAutomaticStrongPasswordFromPasswordElement(e){let t=this.formControlWithUniqueID(e);t&&this._isTextField(t)&&(this.clearField(e),this._updateAnnotationsForField(t),FormMetadataJSController.setInputElementAutofilled(t,!1))}}var FormMetadataJS=new FormMetadata;
+0; /* Error: Ran out of types for this method. */;
+- (id)y.length)return t[y[0]];if(y.length>1){var w=y[0];if(d[w]>d[y[1]])return t[w]}return r}_matchesNonUsernameFieldLabelPattern(e){if(this._nonUsernameFieldPatternMatchers||(this._nonUsernameFieldPatternMatchers=FormMetadataJSController.nonUsernameFieldLabelPatternMatchers),this._bestMatchForElement(e,this._nonUsernameFieldPatternMatchers))return!0;const t=e.value;if(!e.id&&!e.name&&t&&e.disabled)for(const e of this._nonUsernameFieldPatternMatchers)if(this._matchPatternAgainstString(e,t))return!0;return!1}_matchSearchFieldLabelPattern(e){if(this._searchFieldLabelPatternMatchers||(this._searchFieldLabelPatternMatchers=FormMetadataJSController.searchFieldLabelPatternMatchers),this._bestMatchForElement(e,this._searchFieldLabelPatternMatchers,!0))return!0;const t=e.value;if(!e.id&&!e.name&&t&&e.disabled)for(const e of this._searchFieldLabelPatternMatchers)if(this._matchPatternAgainstString(e,t))return!0;return!1}_matchesNonEmailFieldLabelPattern(e){return this._nonEmailFieldPatternMatchers||(this._nonEmailFieldPatternMatchers=FormMetadataJSController.nonEmailFieldLabelPatternMatchers),!!this._bestMatchForElement(e,this._nonEmailFieldPatternMatchers)}_scoreForUsernameFieldCandidateFromLabelingAndPositionOfField(e,t,r){return this._isLabeledUsernameField(e)?t?UsernameCandidateScoreForUsernameLabeledFieldBelowPasswordField:UsernameCandidateScoreForUsernameLabeledFieldAbovePasswordField:this._isLabeledEmailField(e)&&!this._matchesNonEmailFieldLabelPattern(e)?t?UsernameCandidateScoreForEmailLabeledFieldBelowPasswordField:UsernameCandidateScoreForEmailLabeledFieldAbovePasswordField:r?UsernameCandidateScoreForPlainTextFieldDirectlyBeforePasswordField:UsernameCandidateScoreForPlainTextField}_scoreForUsernameFieldCandidate(e,t,r){var n=this._scoreForUsernameFieldCandidateFromLabelingAndPositionOfField(e,t,r);return e.isVisible()&&(n+=UsernameCandidateScoreBonusForVisibleElement),this._matchesNonUsernameFieldLabelPattern(e)&&(n-=UsernameCandidateScorePenaltyForMatchingNonUsernameFieldLabelPattern),this._matchSearchFieldLabelPattern(e)&&(n-=UsernameCandidateScorePenaltyForMatchingSearchFieldLabelPattern),e.readOnly&&(n-=UsernameCandidateScorePenaltyForReadOnlyElement),e.id||e.name||(n-=UsernameCandidateScorePenaltyForAnonymousElement),n}_matchesPasswordFieldLabelPattern(e){return this._passwordFieldPatternMatchers||(this._passwordFieldPatternMatchers=FormMetadataJSController.passwordFieldLabelPatternMatchers),!!this._bestMatchForElement(e,this._passwordFieldPatternMatchers)}_matchesConfirmPasswordFieldLabelPattern(e,t=!1){return this._confirmPasswordFieldPatternMatchers||(this._confirmPasswordFieldPatternMatchers=FormMetadataJSController.confirmPasswordFieldLabelPatternMatchers),!!this._bestMatchForElement(e,this._confirmPasswordFieldPatternMatchers,t)}_matchesConfirmEmailFieldLabelPattern(e){return!!this._isLabeledEmailField(e)&&(this._confirmEmailFieldPatternMatchers||(this._confirmEmailFieldPatternMatchers=FormMetadataJSController.confirmEmailFieldLabelPatternMatchers),!!this._bestMatchForElement(e,this._confirmEmailFieldPatternMatchers))}_collectRadioButtonInfo(e,t){function r(e,t){var r=e.trim();r&&t.push(r)}function n(e,t){r(e.alt,t),r(e.title,t),r(lastPathComponentForURLString(e.src),t)}function o(e){let t=[];r(e.innerText,t);let o=queryAllBySelector(e,"img"),i=o.length;for(let e=0;e<i;++e)n(o[e],t);return t.length?t:null}for(var i=e.radioButtonsWithName(t),l=i.length,a=!1,s={},u=0;u<l;++u){s[(f=i[u]).value]=[f.value];for(var c=this._labelsForElement(f),d=c.length,h=0;h<d;++h){a=!0;var m=o(c[h]);m&&(s[f.value]=s[f.value].concat(m))}}if(a)return s;const F=64;for(u=0;u<l;++u){for(var f,g="",p=(f=i[u]).traverseNextNode();p&&!this._isRenderedFormControl(p);p=p.traverseNextNode()){var C=p.localName;if("td"===C||"tr"===C||"ul"===C||"ol"===C||"dl"===C)break;if(p instanceof HTMLImageElement)n(p,s[f.value]);else if(p.nodeType===Node.TEXT_NODE){var y=p.nodeValue.trim();if(y&&(g+=y.substr(0,F-g.length)),g.length>=F)break}}g&&s[f.value].push(g)}return s}_bestUsernameFieldCandidate(e,t,r){var n=t.FormControls,o=n.filter((function(e){return e.ControlClaimsToBeUsernameViaAutocompleteAttribute}));if(1===o.length)return o[0];for(var i=0,l=[],a=!1,s=n.indexOf(r),u=n.length,c=0;c<u;++c){var d=n[c];if(d===r){a=!0;continue}if(!d.ControlIsTextField||d.ControlIsSecureTextField)continue;if(t.IsVisible&&!n[c].IsVisible&&!d.ControlValue)continue;const o=100;let F=e[c];if(!(F.value.length>o)){var h=c+1<u&&c+1===s,m=this._scoreForUsernameFieldCandidate(F,a,h);m>i?(l=[c],i=m):m===i&&l.push(c)}}var F=l.length;if(i<LowestScoreForLabeledUsernameFieldCandidate&&F>1)return null;if(i<LowestScoreForUsernameFieldCandidate)return null;switch(F){case 0:return null;case 1:return n[l[0]];default:var f=e[s].getBoundingClientRect(),g={};return l.forEach((function(t){g[t]=f.distanceToRect(e[t].getBoundingClientRect())})),n[l.sort((function(e,t){return g[e]-g[t]}))[0]]}}_autoFillFormTypeFromCandidateFormTypes(e,t,r){switch(t.length){case 1:return t[0];case 2:return this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[t[0],t[1]],r);default:return WBSAutoFillFormTypeAutoFillableStandard}}_shouldTrustElementThatClaimsToBeCurrentPasswordViaAutocompleteAttribute(e){return!e.dataset.valRegexPattern}_identifyFormTypeAndPasswordFieldIndicesFromAutocompleteAttributes(e,t){const r=[null,null];if(/^(.+\.)?roll20\.net\.?$/.test(document.location.hostname))return r;var n=t.length;if(n>3)return r;for(var o=[],i=[],l=0;l<n;++l){var a=t[l];a.ControlClaimsToBeCurrentPasswordViaAutocompleteAttribute&&this._shouldTrustElementThatClaimsToBeCurrentPasswordViaAutocompleteAttribute(e[l])?o.push(l):a.ControlClaimsToBeNewPasswordViaAutocompleteAttribute&&i.push(l)}var s=o.length,u=i.length;if(s+u!==n)return r;switch(n){case 0:return r;case 1:if(s)return[null,null,WBSAutoFillFormTypeAutoFillableLogin];if(u)return[null,null,WBSAutoFillFormTypeNewAccount];case 2:if(1===s&&1===u)return[[WBSAutoFillFormTypeChangePassword],{OldPasswordFieldIndex:o[0],PasswordFieldIndex:i[0]}];if(0===s&&2===u)return[[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeChangePassword],{PasswordFieldIndex:i[0],ConfirmationFieldIndex:i[1]}];break;case 3:if(1===s&&2===u)return[[WBSAutoFillFormTypeChangePassword],{OldPasswordFieldIndex:o[0],PasswordFieldIndex:i[0],ConfirmationFieldIndex:i[1]}]}return r}_identifyPasswordFieldIndices(e,t){var r=e.length;if(0===r)return{};if(1===r)return{PasswordFieldIndex:0};if(this._oldPasswordPatternMatchers||(this._oldPasswordPatternMatchers=FormMetadataJSController.oldPasswordFieldLabelPatternMatchers),2===r){return this._bestMatchForElement(t[0],this._oldPasswordPatternMatchers)?{OldPasswordFieldIndex:0,PasswordFieldIndex:1}:this._bestMatchForElement(t[1],this._oldPasswordPatternMatchers)?{OldPasswordFieldIndex:1,PasswordFieldIndex:0}:{PasswordFieldIndex:0,ConfirmationFieldIndex:1}}return this._bestMatchForElement(t[r-1],this._oldPasswordPatternMatchers)?{PasswordFieldIndex:r-3,ConfirmationFieldIndex:r-2,OldPasswordFieldIndex:r-1}:{PasswordFieldIndex:r-2,ConfirmationFieldIndex:r-1,OldPasswordFieldIndex:r-3}}_removePlaceholderTextForFormMetadata(e,t){for(var r=e.length,n=0;n<r;++n){var o=t.FormControls[n];if(o.ControlValue&&o.ControlIsTextField&&!o.ControlIsSecureTextField&&!o.ControlIsReadOnly){var i=legacyPlaceholderInfoForInputElement(e[n]);i&&(i.AttributeMatchedWasValue&&o.ControlUniqueID===t.UsernameElementUniqueID||(o.ControlValue=""))}}}_isPasswordConfirmPair(e,t){var r=this._matchesPasswordFieldLabelPattern(e),n=this._matchesConfirmPasswordFieldLabelPattern(t);return r&&n}_trailingArgumentsForCollectControlMetadataFunction(e,t,r){let n=isElementPositionedToBeEffectivelyInvisible(e.backingElement),o=!1,i=!1,l=!1;if(innermostActiveElement()||t===WBSFormMetadataRequestTesting){let e=documentTitleWithoutHostNamePrefix(),t=this._cachedOneTimeCodePatternMatcher();o=!!this._matchPatternAgainstString(t,e);let n=this._cachedLoginFormTypePatternMatcher();if(i=!!this._matchPatternAgainstString(n,e),r){let e=location.pathname.split("/"),n=stripCommonPrefix(r.pathname.split("/"),e)[0].join("/");n.length&&(l=!!this._matchPatternAgainstString(t,n))}}let a=!1;for(let t of e.elements)if(this._isTextField(t)&&t.isVisible()){if(a){a=!1;break}a=!0}return[n,l,o,i,a]}_collectFormMetadata(e,t){var r,n,o=(n=0,{backwardScanCache:new WeakMap,forwardScanCache:new WeakMap,shouldUsePageScan:function(){return n<numberOfConsecutiveElementsWithoutSuccessfulPageScanAfterWhichPageScanIsAbandoned},willStartCollectingMetadataForControl:function(){r=null},reportPageScanUsedSuccessfully:function(e){r=!(!e&&!r)},didFinishCollectingMetadataForControl:function(){!0===r?n=0:!1===r&&n++}});this._pageScanContext=o;var i=e.formElement,l={FormID:e.formUniqueID,ContainsActiveElement:!1,FormControls:[],AutoFillFormType:WBSAutoFillFormTypeAutoFillableStandard,UsernameElementUniqueID:void 0,OldPasswordElementUniqueID:void 0,PasswordElementUniqueID:void 0,ConfirmPasswordElementUniqueID:void 0,UsesGeneratedPassword:this._usesGeneratedPassword(e),FirstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID:void 0,IsVisible:i.isVisible(),TextSample:void 0,RequestType:t};const a=queryAllBySelector(i,"a:not(svg a)"),s=queryAllBySelector(i,"button"),u=queryAllBySelector(e.backingElement,"a:not(svg a)"),c=queryAllBySelector(e.backingElement,"button");this._elementDisallowsAutocomplete(i)&&(l.DisallowsAutocomplete=!0),i instanceof HTMLFormElement&&(l.FormIsSearchForm=this.isSearchForm(i,!0)),e.isAnnotated&&(l.Annotations=e.annotations);var d=i.getAttribute("rel");d&&"async"===d.toLowerCase()&&(l.FormUsesRelAsync=!0);let h=formActionAsAnchorElement(i);if(h&&h.href&&(l.FormAction=h.href),t==WBSFormMetadataRequestCollectMetadataFromDebugMenu||t==WBSFormMetadataRequestTesting){let e=selectorForElement(i);e&&e.length&&(l.LogicalFormElementSelector=e)}var m=e.elements,F=!m.some(this._isSecureTextField.bind(this));let[f,g,p,C,y]=this._trailingArgumentsForCollectControlMetadataFunction(e,t,h);var b=0,A=!1,w=[],E=[],_=[],T=[],S=void 0,I=void 0,P=void 0,v=void 0,L=!1,M=!1,x={},k=[];let B=!1;for(var D=m.length,U=0;U<D;++U){var R=m[U];if(F&&!R.isVisible()&&!R._relatesToCredentials)continue;var O=isRadioButtonElement(R),N=R.name;if(O&&x[N])continue;o.willStartCollectingMetadataForControl();const r=!B;var W=this._collectControlMetadata(R,t,f,g,p,C,y,r);if(o.didFinishCollectingMetadataForControl(),B=!0,U+1<D&&(W.ControlNextFieldUniqueID=this.controlUniqueID(m[U+1])),l.FormControls.push(W),k.push(R),W.IsVisible||!l.IsVisible||R._relatesToCredentials)if(W.ControlIsActiveElement&&(l.ContainsActiveElement=!0),N&&O)x[N]=1,W.ControlValue="",W.RadioButtonInfo=this._collectRadioButtonInfo(e,N);else if(W.ControlIsTextField||W.SelectElementInfo)if(!M&&W.ControlLooksLikeCreditCardSecurityCodeField&&(M=!0),L||!W.ControlLooksLikeCreditCardCardholderField&&!W.ControlLooksLikeCreditCardNumberField){if(!(W.ControlLooksLikeDayField||W.ControlLooksLikeMonthField||W.ControlLooksLikeYearField||W.ControlLooksLikeCreditCardCompositeExpirationDateField)){if(W.ControlLooksLikePasswordCredentialField){if(W.ControlLooksLikeCreditCardSecurityCodeField||W.ControlLooksLikeCreditCardNumberField||W.ControlLooksLikeIgnoredDataTypeField)continue;R.isHiddenFromAccessibilityTree()?(_.push(R),T.push(W)):(w.push(R),E.push(W))}if(this._isLabeledEmailField(R)){if(++b>2){A=!1;continue}if(!(U+1<D&&this._matchesConfirmEmailFieldLabelPattern(m[U+1])))continue;A=!0}}}else L=!0,l.FirstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID=W.ControlUniqueID}!w.length&&_.length&&(w=_,E=T);var q,K,V=this._identifyFormTypeAndPasswordFieldIndicesFromAutocompleteAttributes(w,E),H=V[0],G=V[1],J=V[2],j=G||this._identifyPasswordFieldIndices(E,w);if(void 0!==j.PasswordFieldIndex&&(S=E[j.PasswordFieldIndex],l.PasswordElementUniqueID=S.ControlUniqueID,I=this._explicitMaxLength(w[j.PasswordFieldIndex])),void 0!==j.ConfirmationFieldIndex&&(P=E[j.ConfirmationFieldIndex],l.ConfirmPasswordElementUniqueID=P.ControlUniqueID,v=this._explicitMaxLength(w[j.ConfirmationFieldIndex])),void 0!==j.OldPasswordFieldIndex){var Y=E[j.OldPasswordFieldIndex];l.OldPasswordElementUniqueID=Y.ControlUniqueID}if(S&&(q=this._bestUsernameFieldCandidate(k,l,S)),q?l.UsernameElementUniqueID=q.ControlUniqueID:K=this._findHiddenUsernameElement(e,l,k),H)l.AutoFillFormType=this._autoFillFormTypeFromCandidateFormTypes(e,H,H[0]);else if(1===w.length&&A)l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeChangePassword],WBSAutoFillFormTypeNewAccount);else if(l.UsernameElementUniqueID)switch(w.length){case 0:break;case 1:if(M&&l.UsernameElementUniqueID===l.FirstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID&&E[0].ControlLooksLikeCreditCardNumberField)break;if(this._matchesConfirmPasswordFieldLabelPattern(w[0])){let t={};this._isElementFollowedByForgotPasswordAffordance(R,i,a,s)&&(t[WBSAutoFillFormTypeAutoFillableLogin]=2),l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeChangePassword],J||WBSAutoFillFormTypeAutoFillableLogin,t)}else{let t=w[0],r={};const n=2*this._numberOfForgotUserNameEmailOrPasswordAffordancesFollowingElement(t,e.backingElement,u,c);n&&(r[WBSAutoFillFormTypeAutoFillableLogin]=n),l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeAutoFillableLogin],J||WBSAutoFillFormTypeAutoFillableLogin,r)}break;case 2:I===v?l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeChangePassword],WBSAutoFillFormTypeNewAccount):v?this._isPasswordConfirmPair(w[0],w[1])?l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeChangePassword],WBSAutoFillFormTypeNonAutoFillable):l.AutoFillFormType=WBSAutoFillFormTypeNonAutoFillable:l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeChangePassword],WBSAutoFillFormTypeNonAutoFillable);break;case 3:I===v||!v||this._isPasswordConfirmPair(w[j.PasswordFieldIndex],w[j.ConfirmationFieldIndex])?l.AutoFillFormType=WBSAutoFillFormTypeChangePassword:l.AutoFillFormType=WBSAutoFillFormTypeNonAutoFillable;break;default:l.AutoFillFormType=WBSAutoFillFormTypeNonAutoFillable}else if(2===w.length||3===w.length)if(I!==v&&v)2===w.length?this._isPasswordConfirmPair(w[0],w[1])?l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeChangePassword],WBSAutoFillFormTypeNonAutoFillable):l.AutoFillFormType=WBSAutoFillFormTypeNonAutoFillable:this._isPasswordConfirmPair(w[j.PasswordFieldIndex],w[j.ConfirmationFieldIndex])?l.AutoFillFormType=WBSAutoFillFormTypeChangePassword:l.AutoFillFormType=WBSAutoFillFormTypeNonAutoFillable;else{let t={};this._isPasswordConfirmPair(w[j.PasswordFieldIndex],w[j.ConfirmationFieldIndex])&&(t[WBSAutoFillFormTypeChangePassword]=2),l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeChangePassword],WBSAutoFillFormTypeChangePassword,t)}else if(1===w.length){var z=w[0];let t={};this._isElementFollowedByForgotPasswordAffordance(R,i,a,s)&&(t[WBSAutoFillFormTypeAutoFillableLogin]=2);const r=!0;if(this._matchesConfirmPasswordFieldLabelPattern(z,r))l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeAutoFillableLogin,WBSAutoFillFormTypeChangePassword],WBSAutoFillFormTypeChangePassword,t);else if(this._matchesPasswordFieldLabelPattern(z))if(this._isElementFollowedByForgotPasswordAffordance(z,i,a,s))l.AutoFillFormType=WBSAutoFillFormTypeAutoFillableLogin;else{var $=[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeAutoFillableLogin,WBSAutoFillFormTypeChangePassword];l.AutoFillFormType=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,$,WBSAutoFillFormTypeNonAutoFillable,t),l.AutoFillFormType===WBSAutoFillFormTypeNonAutoFillable&&K&&(l.AutoFillFormType=WBSAutoFillFormTypeNewAccount)}else l.AutoFillFormType=WBSAutoFillFormTypeNonAutoFillable}else 0!==w.length&&(l.AutoFillFormType=WBSAutoFillFormTypeNonAutoFillable);if(l.AutoFillFormType===WBSAutoFillFormTypeAutoFillableStandard&&this._shouldDetectStandaloneUserNameFields()){var Z=null,X=null,Q=null,ee=0,te=k.length;for(U=0;U<te;++U){R=k[U];var re=l.FormControls[U],ne=re.IsVisible;if(ne&&re.ControlIsTextField&&ee++,ee>1)break;if(R.closest("footer"))continue;let t={};this._isElementFollowedByForgotUserNameOrEmailOrFederatedSignInAffordance(R,i,a,s)&&(t[WBSAutoFillFormTypeAutoFillableLogin]=2);var oe=this._isLabeledEmailField(R);if(ne&&(re.ControlClaimsToBeUsernameViaAutocompleteAttribute||re.ControlIsLabeledUsernameField||oe||this._isLabeledLoginField(R))&&!this._matchesNonUsernameFieldLabelPattern(R)&&!this._matchSearchFieldLabelPattern(R)&&!R.readOnly&&"INPUT"===R.tagName&&!this._isLabeledSignUpField(R)){this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeAutoFillableLogin],oe?WBSAutoFillFormTypeNewAccount:WBSAutoFillFormTypeAutoFillableLogin,t)===WBSAutoFillFormTypeAutoFillableLogin&&(Z=R,X=re,Q=WBSAutoFillFormTypeAutoFillableLogin)}const r=re.AutocompleteTokens;if(r){const n=r.includes("username"),o=r.includes("email");if(r.includes("webauthn")&&(n||o)){Z=R,X=re,Q=WBSAutoFillFormTypeAutoFillableLogin;continue}n&&oe&&(Z=R,X=re,Q=this._autoFillFormTypeOfTypesUsingKeywordMatching(e,[WBSAutoFillFormTypeNewAccount,WBSAutoFillFormTypeAutoFillableLogin],WBSAutoFillFormTypeAutoFillableLogin,t))}}1===ee&&X&&Q&&!controlAppearsToBePartOfPhotoTaggingInterface(Z)&&(l.AutoFillFormType=Q,l.UsernameElementUniqueID=X.ControlUniqueID)}l.IsVisible||=l.FormControls.some((e=>e.IsVisible)),l.AutoFillFormType===WBSAutoFillFormTypeNewAccount&&l.FirstCreditCardCardholderFieldOrCreditCardNumberFieldUniqueID===l.UsernameElementUniqueID&&(l.UsernameElementUniqueID=void 0),!l.UsernameElementUniqueID&&K&&this._extractMetadataForHiddenUsernameElement(K,l,k),l.AutoFillFormType!=WBSAutoFillFormTypeAutoFillableLogin&&l.AutoFillFormType!=WBSAutoFillFormTypeNewAccount&&l.AutoFillFormType!=WBSAutoFillFormTypeChangePassword&&(l.UsernameElementUniqueID=void 0,l.OldPasswordElementUniqueID=void 0,l.PasswordElementUniqueID=void 0,l.ConfirmPasswordElementUniqueID=void 0),l.IsVisible||l.AutoFillFormType==WBSAutoFillFormTypeAutoFillableLogin||l.AutoFillFormType==WBSAutoFillFormTypeNewAccount||l.AutoFillFormType==WBSAutoFillFormTypeChangePassword||(l.AutoFillFormType=WBSAutoFillFormTypeNonAutoFillable),t!==WBSFormMetadataRequestPreFill&&(l.TextSample=this._collectTextSample(e.formElement)),l.FormIsEligibleForAutomaticLogin=this._formIsEligibleForAutomaticLogin(l,e.backingElement);for(let e of l.FormControls)if(e.ControlLooksLikeOneTimeCodeField&&this._oneTimeCodeIsEligibleForAutomaticLogin(e,l)){e.OneTimeCodeIsEligibleForAutomaticLogin=!0;break}if(l.IsVisible&&!FormMetadataJSController.collectAllFields)for(U=(te=k.length)-1;U>=0;--U)this._shouldIncludeControlMetadata(l,k[U],l.FormControls[U])||(t!==WBSFormMetadataRequestCollectMetadataFromDebugMenu?(l.FormControls.splice(U,1),k.splice(U,1)):l.FormControls[U].WOULD_NORMALLY_NOT_BE_SENT_TO_UI_PROCESS=!0);return this._removePlaceholderTextForFormMetadata(k,l),delete this._pageScanContext,t!==WBSFormMetadataRequestPreFill&&globalThis.FormMetadataClassificationJS&&globalThis.FormMetadataClassificationJS.classify(l),addPasswordRequirementsToFormMetadata(l),l}_formIsEligibleForAutomaticLogin(e,t){if(e.AutoFillFormType!==WBSAutoFillFormTypeAutoFillableLogin)return!1;let r=!1;for(const t of e.FormControls){const n=t.ControlUniqueID;if(n===e.UsernameElementUniqueID||n===e.PasswordElementUniqueID)continue;if(t.ControlIsDisabled)continue;if(t.ControlIsReadOnly)continue;if(!t.IsVisible)continue;const o=this.formControlWithUniqueID(n);if(!o)continue;if(this._isTextArea(o))return!1;if(isSelectElement(o))return!1;if(this._isSubmitButton(o))continue;if(this._looksLikeShowHidePasswordButton(o))continue;if(!isInputElement(o))continue;const i=o.type;if("button"!==i&&"reset"!==i&&"submit"!==i&&"image"!==i){if(!this._isCheckboxInputElement(o))return!1;if(r)return!1;r=!0}}return!t||!elementAppearsToContinueCaptchaWidget(t)}_oneTimeCodeIsEligibleForAutomaticLogin(e,t){for(const e of t.FormControls){if(e.ControlLooksLikeOneTimeCodeField)continue;if(e.ControlIsDisabled)continue;if(e.ControlIsReadOnly)continue;if(!e.IsVisible)continue;const t=this.formControlWithUniqueID(e.ControlUniqueID);if(!t)continue;if(this._isTextArea(t))return!1;if(isSelectElement(t))return!1;if(this._isSubmitButton(t))continue;if(this._looksLikeShowHidePasswordButton(t))continue;if(!isInputElement(t))continue;const r=t.type;if("button"!==r&&"reset"!==r&&"submit"!==r&&"image"!==r)return!1}return!0}_shouldIncludeControlMetadata(e,t,r){if(t._relatesToCredentials)return!0;if(r.IsVisible){if(formControlHasBeenClassifiedInAnInterestingWay(r))return!0;if(r.ControlValue)return!0}return!(!e.UsernameElementUniqueID||r.ControlUniqueID!==e.UsernameElementUniqueID)}_isElementAHiddenUsername(e){const t=/user|email/i;return"hidden"===e.type&&(!(!t.test(e.getAttribute("id"))&&!t.test(e.getAttribute("name")))&&!!isValidUsernameOrEmail(e.value))}_findHiddenUsernameElement(e,t,r){var n=e.formElement;if(!(n instanceof HTMLElement))return;let o=queryAllBySelector(n,"input"),i=o.length;for(let e=0;e<i;++e){let t=o[e];if(this._isElementAHiddenUsername(t))return t}return null}_extractMetadataForHiddenUsernameElement(e,t,r){var n={ControlTagName:this._getTagName(e),ControlFieldName:this._getNameOrId(e),ControlUniqueID:this.controlUniqueID(e),ControlIsReadOnly:!0,ControlValue:e.value};t.UsernameElementUniqueID=n.ControlUniqueID,t.FormControls.push(n),r.push(e)}_cachedMetadataForLogicalForm(e){var t=e.metadata,r=t?.FormControls,n=r?.length??0;if(!n)return null;const o=innermostActiveElement();for(var i=0;i<n;++i){var l=r[i],a=this.formControlWithUniqueID(l.ControlUniqueID);a&&(l.ControlIsActiveElement=a===o,l.ControlValue=a.value,l.ControlIsAutoFilledTextField=this._isAutoFilledTextField(a))}return t.UsesGeneratedPassword=this._usesGeneratedPassword(e),t.Annotations=e.annotations,t}_markFormIsBestForPageLevelAutoFill(){function e(e){switch(e){case WBSAutoFillFormTypeAutoFillableLogin:return 30;case WBSAutoFillFormTypeNewAccount:case WBSAutoFillFormTypeChangePassword:return 20;case WBSAutoFillFormTypeAutoFillableStandard:return 10;case WBSAutoFillFormTypeUndetermined:case WBSAutoFillFormTypeNonAutoFillable:return 0}return-100}function t(e){return e?50:0}let r=this._logicalFormWithHighestScoreIfGreaterThanZero((function(r){var n=r.PasswordElementUniqueID?0:-1;return e(r.AutoFillFormType)+t(r.IsVisible)+n}));null!==r&&(r.metadata.FormIsBestForPageLevelAutoFill=!0)}_markFormIsBestForStreamlinedLogin(){let e=this._logicalFormWithHighestScoreIfGreaterThanZero((function(e,t){if(!e.IsVisible)return 0;let r=t.getBoundingClientRect();if(!rectIsWithinDocumentViewport(r))return 0;if(r.bottom+window.scrollY<80){let e=!(location.hash||location.pathname&&"/"!==location.pathname||location.search),t=r.width/r.height;if(!e&&t>4)return 0}if(t.closest("footer"))return 0;let n=e.AutoFillFormType===WBSAutoFillFormTypeAutoFillableLogin,o=0,i=e.FormControls,l=i.length;for(var a=0;a<l;++a){let t=i[a],r=FormMetadataJS.formControlWithUniqueID(t.ControlUniqueID);if(!r)continue;const l=parseInt(r.tabIndex,10);if(!(isFiniteNumber(l)&&l<0)){if(n){t.ControlIsAutofocusedTextField&&(o+=1);let r=t.ControlUniqueID;if(r===e.UsernameElementUniqueID||r===e.PasswordElementUniqueID){o+=10;continue}}t.OneTimeCodeIsEligibleForAutomaticLogin&&(o+=5)}}return o}));null!==e&&(e.metadata.FormIsBestForStreamlinedLogin=!0)}_logicalFormWithHighestScoreIfGreaterThanZero(e){let t=null,r=null;for(let o of this._logicalFormsCache.allForms()){var n=e(o.metadata,o.backingElement);(null===t||n>t)&&(r=o,t=n)}return t>0?r:null}isAnyFormAnnotated(){return this._logicalFormsCache.allForms().some((e=>e.isAnnotated))}annotateFormWithID(e,t){let r=this._logicalFormsCache.logicalFormWithUniqueID(e);r&&r.annotate(t)}_collectMetadata(e){const t=100,r=10;var n=this._logicalFormsInPage(t,r);this._logicalFormsCache.clearCacheAndAdd(n);for(var o=n.length,i=0;i<o;++i)n[i].metadata=this._collectFormMetadata(n[i],e);this._markFormIsBestForPageLevelAutoFill(),e!==WBSFormMetadataRequestNormal&&this._markFormIsBestForStreamlinedLogin()}_collectAndCacheFormMetadata(e,t){let r=this._collectFormMetadata(e,t),n=this._logicalFormsCache.logicalFormWithUniqueID(e.formUniqueID);return n?n.metadata=r:(e.metadata=r,this._logicalFormsCache.addOrUpdate(e)),r}_metadataForFormWithID(e){return this._logicalFormsCache.logicalFormWithUniqueID(e)?.metadata}_recollectMetadataForFormWithID(e){const t=this._logicalFormsCache.logicalFormWithUniqueID(e);return t?this._collectAndCacheFormMetadata(t,WBSFormMetadataRequestNormal):null}async _fillControlWithGeneratedPassword(e,t){var r=this._elementsWithGeneratedPasswords.indexOf(e);-1===r&&(this._elementsWithGeneratedPasswords.push(e),r=this._elementsWithGeneratedPasswords.length-1),this._generatedPasswords[r]=t;const n=!0;await this._fillControl(e,t,n)}async fillFormWithPassword(e,t,r){var n=this._metadataForFormWithID(e);if(null===n)return null;const o=n.PasswordElementUniqueID,i=o?this.formControlWithUniqueID(o):void 0,l=r?this.formControlWithUniqueID(r):void 0;var a=i||l;const s=o||r;if(!a)return null;await this._fillControlWithGeneratedPassword(a,t);let u=n.ConfirmPasswordElementUniqueID;u||n.AutoFillFormType!==WBSAutoFillFormTypeChangePassword&&n.AutoFillFormType!==WBSAutoFillFormTypeNewAccount||(u=(n=this._recollectMetadataForFormWithID(e)||n).ConfirmPasswordElementUniqueID);let c=u?this.formControlWithUniqueID(u):null;return c?(await this._fillControlWithGeneratedPassword(c,t),[s,u]):[s]}clearField(e){const t=this.formControlWithUniqueID(e),r=!0;this._clearControl(t,r)}async _clearControl(e,t=!1){if(!e)return;if(isSelectElement(e))return void(e.selectedIndex=0);if(isDateTimeInputElement(e))return void(e.value="");if(isRadioButtonElement(e)){const t=this._logicalFormsCache.logicalFormForControl(e).radioButtonsWithName(e.name);for(let e of t)e.checked=!1;return}if(!this._isTextField(e))return;if(!e.value.length)return;let r=innermostActiveElement();e!==r&&e.focus({preventScroll:!0,focusVisible:!1}),e.select(),e.dispatchEvent(new Event("select",{bubbles:!0,cancelable:!1}));const n=KeyInfo.BackspaceKeyInfo;e.dispatchEvent(n.keyEvent("keydown"));const o="deleteContentBackward";e.dispatchEvent(new InputEvent("beforeinput",{bubbles:!0,cancelable:!0,inputType:o,data:null})),e.value="",e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1,inputType:o,data:null})),e.dispatchEvent(n.keyEvent("keyup")),e.dispatchEvent(new Event("change",{bubbles:!0,cancelable:!1})),t||await yieldToEventLoopAfterAnimationFrameAndDelay(),r&&e!==r&&r.focus({preventScroll:!0})}focusFormForStreamlinedLogin(e){const t=function(e){for(const t of e.FormControls){const r=t.ControlUniqueID;if(r===e.UsernameElementUniqueID||r===e.PasswordElementUniqueID||t.ControlLooksLikeOneTimeCodeField){let e=this.formControlWithUniqueID(r);if(e.isVisible()&&!e.disabled)return e}}return null}.bind(this);var r=this._metadataForFormWithID(e);null!==r&&this._focusControlForStreamlinedLogin(t(r))}focusControlForStreamlinedLogin(e){this._focusControlForStreamlinedLogin(this.formControlWithUniqueID(e))}_focusControlForStreamlinedLogin(e){e&&rectIsWithinDocumentViewport(e.getBoundingClientRect())&&e.focus()}formsAndMetadata(e){visibilityCacheGeneration++,this._collectMetadata(e);let t=[],r=[];for(let e of this._logicalFormsCache.allForms())t.push(e.formElement),r.push(e.metadata);return[t,r]}formControlWithUniqueID(e){let t=this._controlUniqueIDToWeakControlMap.get(e)?.deref();return t}formElementWithFormID(e){return this._logicalFormsCache.logicalFormWithUniqueID(e)?.formElement}selectIfTextField(e){this._isTextField(e)&&e.select()}_getOrCreateCachedMetadataForLogicalForm(e,t){var r=this._cachedMetadataForLogicalForm(e);return!r||null!=t&&r.RequestType===WBSFormMetadataRequestPreFill&&t!==WBSFormMetadataRequestPreFill?this._collectAndCacheFormMetadata(e,t):r}_getOrCreateLogicalFormForTextFieldOrSelectElement(e){let t=this._logicalFormsCache.logicalFormForControl(e);if(t)for(var r=t.metadata,n=r?.FormControls,o=n?.length??0,i=e._controlUniqueID,l=0;l<o;++l)if(n[l].ControlUniqueID===i)return t;var a=this._logicalFormsInPage(),s=a.length;for(l=0;l<s;++l){var u=a[l];if(u.containsControl(e))return this._logicalFormsCache.addOrUpdate(u),u.metadata=this._collectFormMetadata(u,WBSFormMetadataRequestNormal),u}return null}_cachedMetadataForFormWithTextFieldOrSelectElement(e,t){if(!this._isTextField(e)&&!isSelectElement(e))return null;var r=this._getOrCreateLogicalFormForTextFieldOrSelectElement(e);return r?this._getOrCreateCachedMetadataForLogicalForm(r,t):null}_isAnyPasswordElementUniqueID(e,t){return e.PasswordElementUniqueID===t||e.ConfirmPasswordElementUniqueID===t||e.OldPasswordElementUniqueID===t}_isCurrentPasswordElementUniqueID(e,t){switch(e.AutoFillFormType){case WBSAutoFillFormTypeNewAccount:case WBSAutoFillFormTypeChangePassword:return e.OldPasswordElementUniqueID===t;default:return e.PasswordElementUniqueID===t}}_isNewPasswordElementUniqueID(e,t){switch(e.AutoFillFormType){case WBSAutoFillFormTypeNewAccount:case WBSAutoFillFormTypeChangePassword:return e.PasswordElementUniqueID===t||e.ConfirmPasswordElementUniqueID===t;default:return!1}}_updateAnnotationsForField(e){var t=this._getOrCreateLogicalFormForTextFieldOrSelectElement(e);if(t){var r=this._getOrCreateCachedMetadataForLogicalForm(t);if(r){var n=e._controlUniqueID;this._isCurrentPasswordElementUniqueID(r,n)?t.annotate({CurrentPassword:e.value}):this._isNewPasswordElementUniqueID(r,n)?t.annotate({NewPassword:e.value}):r.UsernameElementUniqueID===n&&t.annotate({Username:e.value}),isCredentialElementUniqueID(r,n)&&(e._relatesToCredentials=""!==e.value)}}}textFieldOrSelectElementMetadata(e,t,r){visibilityCacheGeneration++,this._logicalFormsCache.removeUnparentedLogicalFormsFromCache();var n=[null,null],o=this._cachedMetadataForFormWithTextFieldOrSelectElement(e,t);if(!o)return n;this._pageScanContext={backwardScanCache:new WeakMap,forwardScanCache:new WeakMap};let i=this._logicalFormsCache.logicalFormWithUniqueID(o.FormID),l=formActionAsAnchorElement(i.formElement),[a,s,u,c,d]=this._trailingArgumentsForCollectControlMetadataFunction(i,t,l);const h=!0;var m=this._collectControlMetadata(e,WBSFormMetadataRequestNormal,a,s,u,c,d,h);if(delete this._pageScanContext,m.ControlLooksLikeOneTimeCodeField&&this._oneTimeCodeIsEligibleForAutomaticLogin(m,o)&&(m.OneTimeCodeIsEligibleForAutomaticLogin=!0),m.SelectionStart=e.selectionStart,m.SelectionLength=e.selectionEnd-e.selectionStart,t===WBSFormMetadataRequestTextChange&&(!o.UsernameElementUniqueID&&this._isAnyPasswordElementUniqueID(o,m.ControlUniqueID)&&i.isAnnotated&&i.annotate({Username:null}),this._updateAnnotationsForField(e)),o.RequestType!==WBSFormMetadataRequestPreFill)for(let e of o.FormControls)if(m.ControlUniqueID===e.ControlUniqueID){m.ControlClassification=e.ControlClassification,m.ControlClassificationHints=e.ControlClassificationHints,m.ControlOrderedParts=e.ControlOrderedParts,m.ControlContinuationID=e.ControlContinuationID,m.ControlContinuationIndex=e.ControlContinuationIndex,m.ControlNextFieldUniqueID=e.ControlNextFieldUniqueID;break}if(r){for(const e of o.FormControls)e.ControlUniqueID==m.ControlUniqueID&&(e.ControlValue=null);this._cachedFormMetadata=JSON.stringify(o)}return n[0]=m,n[1]=o,n}clearTextFieldOrSelectElementMetadataCache(){this._cachedFormMetadata=null}disableSpellCheckInFieldIfNeeded(e){if(e){var t=this.formControlWithUniqueID(e);t&&this._isAutoFillableTextField(t)&&FormMetadataJSController.setInputElementSpellCheckEnabled(t,!1)}}selectionRangeInField(e){var t=this.formControlWithUniqueID(e);return t&&this._isTextField(t)?[t.selectionStart,t.selectionEnd-t.selectionStart]:null}setFormFieldSelection(e,t,r){var n=this.formControlWithUniqueID(e);n&&this._isTextField(n)&&(n.selectionStart=t,n.selectionEnd=t+r)}replaceFormFieldRangeAndSelectTail(e,t,r,n,o){var i=this.formControlWithUniqueID(e);if(i&&this._isTextField(i)){var l=i.value,a=l.substr(0,t)+n+l.substr(t+r);i.value=a,i.selectionStart=o,i.selectionEnd=a.length,i.dispatchEvent(createCustomEventThatBubbles("input")),i.dispatchEvent(createCustomEventThatBubbles("change"))}}_collectVisibleNonEmptyTextFieldsAndTextAreasInForm(e,t,r){visibilityCacheGeneration++;for(var n=elementsInFormPiercingShadowDOM(e),o=n.length,i=0;i<o;++i){var l=n[i];l.isVisible()&&(null!=l.value&&l.value.length&&(this._isTextField(l)?t.push(l):this._isTextArea(l)&&r.push(l)))}}visibleNonEmptyFormTextControls(){var e=[],t=[];let r=queryAllBySelector(document,"form");for(let n=0;n<r.length;++n)this._collectVisibleNonEmptyTextFieldsAndTextAreasInForm(r[n],e,t);return[e,t]}visibleNonEmptyFormTextControlsInForm(e){var t=[],r=[];return this._collectVisibleNonEmptyTextFieldsAndTextAreasInForm(e,t,r),[t,r]}async _fillRadioButtonInGroupStartingWithControl(e,t){const r=this._logicalFormsCache.logicalFormForControl(e);let n=r?.radioButtonsWithName(e.name);if(!n)return null;for(let e of n)if(e.value===t)return dispatchEventsSimulatingClickOnElement(e),e.checked=!0,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1})),e.dispatchEvent(new Event("change",{bubbles:!0,cancelable:!1})),await yieldToEventLoop(),e;return null}_controlContainsAllCharactersFromValue(e,t){let r=[...e.value.normalize()],n=[...t.normalize()];if(r.length<n.length)return!1;for(let e of r){e===n[0]&&n.shift()}return!n.length}async _fillSelectControlWithBestOptionFromSynonyms(e,t){const r=this._collectSelectElementInfo(e),n=FormMetadataUtilitiesJS.bestIndexToFillSelectControl(r,t);-1!==n&&e.selectedIndex!==n&&(e.dispatchEvent(createCustomEventThatBubbles("focus")),e.dispatchEvent(createCustomEventThatBubbles("pointerdown")),e.dispatchEvent(createCustomEventThatBubbles("mousedown")),e.selectedIndex=n,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1})),e.dispatchEvent(new Event("change",{bubbles:!0,cancelable:!1})),e.dispatchEvent(createCustomEventThatBubbles("blur")),await yieldToEventLoop())}delayBetweenFillingCharactersForFillingOneTimeCode(e){const t=10,r=100;for(let n=e;n;n=n.parentElementIncludingShadowDOMHost()){const e=n.getAttribute("debounce");if(!e)continue;const o=parseFloat(e);if(0<o&&o<=r)return o+t;break}return t}async autoFillOneTimeCodeFieldsWithValue(e,t){let r=!1;try{const t=innermostActiveElement();if(!this._isAutoFillableTextField(t))return{value:e,shouldSubmit:!1,codeAppearsToHaveBeenFilledInItsEntirety:!1};const n=this.delayBetweenFillingCharactersForFillingOneTimeCode(t),o={waitForSingleCharacterFieldsToAdvanceToNextField:{durationToCheckBeforeGivingUpInMilliseconds:400}},i=await this._executeWhilePreventingUserInteraction((async()=>await this._fillTextControl(null,e,n,o)));if(r=this._oneTimeCodeAppearsToHaveFilledProperly(e,i),!r){const o=allControlsForSingleCharacterLogicalFieldForControl(t),i=o.length;o.length&&e.length===i&&(await this._executeWhilePreventingUserInteraction((async()=>{for(let t=0;t<i;++t)await this._fillTextControl(o[t],e[t],n)})),r=this._oneTimeCodeAppearsToHaveFilledProperly(e,o))}}catch(e){}return{value:e,shouldSubmit:t,codeAppearsToHaveBeenFilledInItsEntirety:r}}_oneTimeCodeAppearsToHaveFilledProperly(e,t){if(!RegExp.escape)return!0;let r=!0;const n=t.map((e=>e.value)).join(""),o=new RegExp(e.replaceAll("-","").split("").map((e=>RegExp.escape(e))).join(".*"),"s");if(r=o.test(n),!r){const e=this._logicalFormsCache.logicalFormForControl(t[0])?.backingElement;e&&(r=o.test(e.innerText))}return r}async _fillTextControl(e,t,r=0,n={}){if(e&&this._controlContainsAllCharactersFromValue(e,t))return;if(e&&userIsOnDomain("m.facebook.com")&&document.location.pathname.startsWith("/login")&&"m_login_email"===e.id)return void await this._fillGenericControl(e,t);let o=new Set;const i=!e;e??=innermostActiveElement(),await this._clearControl(e);const l=!!n.waitForSingleCharacterFieldsToAdvanceToNextField;let a=0;l&&(a=n.waitForSingleCharacterFieldsToAdvanceToNextField.durationToCheckBeforeGivingUpInMilliseconds);let s=!0;for(let n of t){if(l&&!s&&(1===e.maxLength||controlIsPartOfSingleCharacterLogicalField(e))&&e===innermostActiveElement()){const t=Date.now();await yieldUntilEventOrTimeout("focusin",a,{eventTargetToIgnore:e,requireEventTargetBeDocumentActiveElement:!0});Date.now()}const t=innermostActiveElement();if(t!==e){if(!i)break;e=t,await this._clearControl(e)}const u=KeyInfo.forCharacter(n);u.isShifted&&e.dispatchEvent(KeyInfo.shiftKeyEvent("keydown"));let c=!e.dispatchEvent(u.keyEvent("keydown"));if(c||(c=!e.dispatchEvent(u.keyEvent("keypress"))),!c)if(this.canUseTextInputEventsToFill)e.dispatchEvent(createTextInputEvent(n));else{const t=e.value+n;e.dispatchEvent(new InputEvent("beforeinput",{bubbles:!0,cancelable:!0,inputType:insertTextInputType,data:t})),e.value=t,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1,inputType:insertTextInputType,data:t}))}e.dispatchEvent(u.keyEvent("keyup")),u.isShifted&&e.dispatchEvent(KeyInfo.shiftKeyEvent("keyup")),o.add(e),s=!1,await yieldToEventLoop(r)}return i||this._controlContainsAllCharactersFromValue(e,t)||(await yieldToEventLoopAfterAnimationFrameAndDelay(),await this._fillGenericControl(e,t)),Array.from(o)}async _fillGenericControl(e,t){await this._clearControl(e),this.canUseTextInputEventsToFill&&e===innermostActiveElement()&&(e.dispatchEvent(createTextInputEvent(t)),await yieldToEventLoop(),this._controlContainsAllCharactersFromValue(e,t))||(e.dispatchEvent(new InputEvent("beforeinput",{bubbles:!0,cancelable:!0,inputType:insertTextInputType,data:t})),e.value=t,e.dispatchEvent(new InputEvent("input",{bubbles:!0,cancelable:!1,inputType:insertTextInputType,data:t})),e.dispatchEvent(new Event("change",{bubbles:!0,cancelable:!1})),await yieldToEventLoop(),this._controlContainsAllCharactersFromValue(e,t))}async _fillControl(e,t,r,n){if(e.isDisabledOrReadOnly())return;if(e.shouldFocusDuringFilling()){let t=!1;document.hasFocus()||(await yieldUntilDocumentIsFocusedOrTimeout(100),t=!0),e!==innermostActiveElement()&&(e.focus({preventScroll:!0,focusVisible:!1}),t=!0),t&&await yieldToEventLoopAfterAnimationFrameAndDelay(20)}let o=!1;if(isRadioButtonElement(e)){if(!(e=await this._fillRadioButtonInGroupStartingWithControl(e,t)))return}else isSelectElement(e)?await this._fillSelectControlWithBestOptionFromSynonyms(e,t):(o=!0,this._isTextField(e)?await this._fillTextControl(e,t):await this._fillGenericControl(e,t));const i=t.length&&r;o&&n?FormMetadataJSController.setInputElementAutofilledAndObscured(e,i):FormMetadataJSController.setInputElementAutofilled(e,i)}async _executeWhilePreventingUserInteraction(e){const t=new AbortController,r=["keydown","keyup","keypress","pointerdown","pointerup","touchstart","touchend","mousedown","mouseup","click","dblclick"];for(const e of r)window.addEventListener(e,(e=>{e.isTrusted&&(e.preventDefault(),e.stopImmediatePropagation())}),{capture:!0,signal:t.signal});try{return await e()}finally{t.abort(null)}}async autoFillControlsByID(e,t,r,n,o,i,l){let a=arguments[arguments.length-1],s=n;if(s){let e=s.getAttribute("onfocus");e&&e.length&&/this\.value/.test(e)&&(s=null)}else s=innermostActiveElement();var u=null;for(let t in e){u=this._logicalFormsCache.logicalFormForControl(this.formControlWithUniqueID(t));break}const c=Object.entries(e).map((([e,t])=>[this.formControlWithUniqueID(e),t])).sort(((e,t)=>{const r=e[0],n=t[0],o=r.compareDocumentPosition(n);return o&(Node.DOCUMENT_POSITION_PRECEDING|Node.DOCUMENT_POSITION_CONTAINS)?1:o&(Node.DOCUMENT_POSITION_FOLLOWING|Node.DOCUMENT_POSITION_CONTAINED_BY)?-1:0}));return await this._executeWhilePreventingUserInteraction((async()=>{const e=new Set(i);for(let[t,n]of c){const o=e.has(t._controlUniqueID);await this._fillControl(t,n,r,o)}})),o?innermostActiveElement().blur():s&&setTimeout((()=>{this.selectIfTextField(s)}),0),u?.backingElement&&elementAppearsToContinueCaptchaWidget(u.backingElement)&&(a=!1),{formMetadata:this._getOrCreateCachedMetadataForLogicalForm(u),shouldSubmit:a}}_isInputAllowedInSearchForm(e,t){var r=this._getTagName(e).toLowerCase();if("button"===r||"fieldset"===r)return!0;if("select"===r)return!t||isSelectInDefaultState(e);if("input"!==r&&!this._textAreaElementLookLikeItIsPartOfASearchForm(e))return!1;var n=e.type;return"radio"===n||"checkbox"===n?!t||isCheckboxOrRadioButtonInDefaultState(e):"hidden"===n||"reset"===n||"submit"===n||"button"===n||"image"===n||this._isTextField(e)&&!this._isSecureTextField(e)}isSearchForm(e,t){if("get"!==e.method)return!1;for(var r=elementsInFormPiercingShadowDOM(e),n=r.length,o=0;o<n;++o)if(!this._isInputAllowedInSearchForm(r[o],t))return!1;return!0}_textAreaElementLookLikeItIsPartOfASearchForm(e){return!!this._isTextArea(e)&&("search"===e.getAttribute("type")||("search"===e.inputMode||"search"===e.getAttribute("enterkeyhint")))}_shouldInputBeIncludedInSearchURLQuery(e){if(e.disabled)return!1;if(!e.name.length)return!1;if(!e.value.length)return!1;if(isSelectElement(e))return!0;var t=this._getTagName(e).toLowerCase(),r=e.type;return"button"===t?"submit"===r:"input"===t&&("submit"===r||("checkbox"===r||"radio"===r?e.checked:"hidden"===r||this._isTextField(e)))}_isSubmitButton(e){return(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)&&(e.type&&"submit"===e.type)}_isCustomFormButton(e){return"button"===e.type&&(e instanceof HTMLButtonElement||e instanceof HTMLInputElement)}_isCheckboxInputElement(e){return"checkbox"===e.type&&e instanceof HTMLInputElement}_setQueryString(e,t){var r=document.createElement("a");return r.href=e,r.search=t,r.href}searchTextFieldFormSubmissionURLString(e,t){if(visibilityCacheGeneration++,!this._isTextField(e)||this._isSecureTextField(e)||!e.isVisible())return null;var r=e.form;if(!r)return null;var n=r.getAttribute("action");if(!n||!n.length)return null;if(!/^https?:/i.test(r.action))return null;if(!this.isSearchForm(r,t))return null;for(var o=null,i="",l=elementsInFormPiercingShadowDOM(r),a=l.length,s=0;s<a;++s){var u=l[s];if((u===e||this._shouldInputBeIncludedInSearchURLQuery(u))&&(!this._isSubmitButton(u)||(o||(o=u),u===o))){i.length&&(i+="&");var c=u===e?"{searchTerms}":urlEncode(u.value);i+=urlEncode(u.name)+"="+c}}return this._setQueryString(r.action,i)}_collectExtraControlMetadata(e,t){let r=e.getAttribute("passwordrules");r?t.ControlPasswordRules=r:"\\d*"===e.pattern&&(t.ControlPasswordRules="allowed:digit;")}removeAutomaticStrongPasswordFromPasswordElement(e){let t=this.formControlWithUniqueID(e);t&&this._isTextField(t)&&(this.clearField(e),this._updateAnnotationsForField(t),FormMetadataJSController.setInputElementAutofilled(t,!1))}}var FormMetadataJS=new FormMetadata;
+0; /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
+- (void)= -1;
+            }
+            for (int k=0, tk = start; k<4; ++k, tk+=step) {
+                if (isBoundary[1])
+                {
+                    P  += Mi[tj][tk]*Hi[k];
+                    P1 += Mj[tj][tk]*Hj[k];
+                    P2 += Ms[tj][tk]*Hs[k];
+                }
+                else
+                {
+                    P  += Q[j][k]*Hi[k];
+                    P1 += Q[j][k]*Hj[k];
+                    P2 += Q[j][k]*Hs[k];
+                }
+            }
+        }
+
+#if C3D_OPTIMIZE_OPENSUBDIV_STORAGE
+    result.P  = half3(P);
+    result.P1 = half3(P1);
+    result.P2 = half3(P2);
+#else
+    result.P  = P;
+    result.P1 = P1;
+    result.P2 = P2;
+#endif //C3D_OPTIMIZE_OPENSUBDIV_STORAGE
+    } else {
+#if USE_PTVS_SHARPNESS
+#else
+#if C3D_OPTIMIZE_OPENSUBDIV_STORAGE
+        result.vSegments = half2(0, 0);
+#else
+        result.vSegments = float2(0, 0);
+#endif //C3D_OPTIMIZE_OPENSUBDIV_STORAGE
+#endif
+
+        OsdComputeBSplineBoundaryPoints(cv, patchParam);
+
+    float3 Hi[4];
+    for (int l=0; l<4; ++l) {
+        Hi[l] = float3(0,0,0);
+        for (int k=0; k<4; ++k) {
+            Hi[l] += Q[i][k] * cv[l*4 + k].GetPosition();
+        }
+    }
+    for (int k=0; k<4; ++k) {
+        P += Q[j][k]*Hi[k];
+    }
+        
+#if C3D_OPTIMIZE_OPENSUBDIV_STORAGE
+    result.P  = half3(P);
+    result.P1 = half3(P);
+    result.P2 = half3(P);
+#else
+    result.P  = P;
+    result.P1 = P;
+    result.P2 = P;
+#endif //C3D_OPTIMIZE_OPENSUBDIV_STORAGE
+}
+#else
+    OsdComputeBSplineBoundaryPoints(cv, patchParam);
+
+    float3 H[4];
+    for (int l=0; l<4; ++l) {
+        H[l] = float3(0,0,0);
+        for(int k=0; k<4; ++k) {
+            H[l] += Q[i][k] * (cv + l*4 + k)->GetPosition();
+        }
+    }
+
+    {
+        float3 P = float3(0,0,0);
+        for (int k=0; k<4; ++k){
+            P += Q[j][k]*H[k];
+        }
+#if C3D_OPTIMIZE_OPENSUBDIV_STORAGE
+        result.P = half3(P);
+#else
+        result.P = P;
+#endif
+    }
+#endif
+}
+
+template<typename PerPatchVertexBezier>
+static void OsdEvalPatchBezier(int3 patchParam, float2 UV,
+                   PerPatchVertexBezier cv,
+                   thread float3& P, thread float3& dPu, thread float3& dPv,
+                   thread float3& N, thread float3& dNu, thread float3& dNv,
+                   thread float2& vSegments)
+{
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    float B[4], D[4], C[4];
+    float3 BUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)},
+    DUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)},
+    CUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)};
+    OsdUnivar4x4(UV.x, B, D, C);
+#else
+    float B[4], D[4];
+    float3 BUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)},
+    DUCP[4] = {float3(0,0,0),float3(0,0,0),float3(0,0,0),float3(0,0,0)};
+    OsdUnivar4x4(UV.x, B, D);
+#endif
+
+    // ----------------------------------------------------------------
+#if OSD_PATCH_ENABLE_SINGLE_CREASE
+#if USE_PTVS_SHARPNESS
+    float sharpness = OsdGetPatchSharpness(patchParam);
+    float Sf = floor(sharpness);
+    float Sc = ceil(sharpness);
+    float s0 = 1 - exp2(-Sf);
+    float s1 = 1 - exp2(-Sc);
+
+    vSegments = float2(s0, s1);
+#else //USE_PTVS_SHARPNESS
+    vSegments = cv[0].vSegments;
+#endif //USE_PTVS_SHARPNESS
+
+    float s = OsdGetPatchSingleCreaseSegmentParameter(patchParam, UV);
+
+    for (int i=0; i<4; ++i) {
+        for (int j=0; j<4; ++j) {
+            int k = 4*i + j;
+
+            float3 A = (s <= vSegments.x) ? float3(cv[k].P)
+            :(id)arg1 ((s <= vSegments.y) ?  float3(cv[k].P1)
+                 :float3(cv[k].P2));
+
+            BUCP[i] += A * B[j];
+            DUCP[i] += A * D[j];
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+            CUCP[i] += A * C[j];
+#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
+        }
+    }
+#else //OSD_PATCH_ENABLE_SINGLE_CREASE
+    // ----------------------------------------------------------------
+    for (int i=0; i<4; ++i) {
+        for (int j=0; j<4; ++j) {
+            float3 A = float3(cv[4*i + j].P);
+            BUCP[i] += A * B[j];
+            DUCP[i] += A * D[j];
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+            CUCP[i] += A * C[j];
+#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
+        }
+    }
+#endif //OSD_PATCH_ENABLE_SINGLE_CREASE
+    // ----------------------------------------------------------------
+
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    // used for weingarten term
+    OsdUnivar4x4(UV.y, B, D, C);
+
+    P = B[0] * BUCP[0];
+    dPu = B[0] * DUCP[0];
+    dPv = D[0] * BUCP[0];
+
+    float3 dUU = B[0] * CUCP[0];
+    float3 dVV = C[0] * BUCP[0];
+    float3 dUV = D[0] * DUCP[0];
+
+    for (int k=1; k<4; ++k) {
+        P   += B[k] * BUCP[k];
+        dPu += B[k] * DUCP[k];
+        dPv += D[k] * BUCP[k];
+
+        dUU += B[k] * CUCP[k];
+        dVV += C[k] * BUCP[k];
+        dUV += D[k] * DUCP[k];
+    }
+
+    int level = OsdGetPatchFaceLevel(patchParam);
+    dPu *= 3 * level;
+    dPv *= 3 * level;
+    dUU *= 6 * level;
+    dVV *= 6 * level;
+    dUV *= 9 * level;
+
+    float3 n = cross(dPu, dPv);
+    float ln = 1.0 / length(n);
+    N = ln * n;
+
+    float E = dot(dPu, dPu);
+    float F = dot(dPu, dPv);
+    float G = dot(dPv, dPv);
+    float e = dot(N, dUU);
+    float f = dot(N, dUV);
+    float g = dot(N, dVV);
+    float EGFF = 1.0 / (E*G - F*F);
+
+    dNu = (f*F-e*G) * EGFF * dPu + (e*F-f*E) * EGFF * dPv;
+    dNv = (g*F-f*G) * EGFF * dPu + (f*F-g*E) * EGFF * dPv;
+
+    float powrn = 1.0 / powr(dot(n,n), 1.5);
+
+    dNu = dNu * ln - n * (dot(dNu,n) * powrn);
+    dNv = dNv * ln - n * (dot(dNv,n) * powrn);
+#else //OSD_COMPUTE_NORMAL_DERIVATIVES
+    OsdUnivar4x4(UV.y, B, D);
+
+    P = B[0] * BUCP[0];
+    dPu = B[0] * DUCP[0];
+    dPv = D[0] * BUCP[0];
+
+    for (int k=1; k<4; ++k) {
+        P   += B[k] * BUCP[k];
+        dPu += B[k] * DUCP[k];
+        dPv += D[k] * BUCP[k];
+    }
+    int level = OsdGetPatchFaceLevel(patchParam);
+    dPu *= 3 * level;
+    dPv *= 3 * level;
+
+    N = normalize(cross(dPu, dPv));
+    dNu = float3(0,0,0);
+    dNv = float3(0,0,0);
+#endif //OSD_COMPUTE_NORMAL_DERIVATIVES
+}
+
+// compute single-crease patch matrix
+static float4x4 OsdComputeMs(float sharpness)
+{
+    float s = exp2(sharpness);
+    float s2 = s*s;
+    float s3 = s2*s;
+
+    float4x4 m(
+        float4(0, s + 1 + 3*s2 - s3, 7*s - 2 - 6*s2 + 2*s3, (1-s)*(s-1)*(s-1)),
+        float4(0,       (1+s)*(1+s),        6*s - 2 - 2*s2,       (s-1)*(s-1)),
+        float4(0,               1+s,               6*s - 2,               1-s),
+        float4(0,                 1,               6*s - 2,                 1));
+
+    m[0] /= (s*6.0);
+    m[1] /= (s*6.0);
+    m[2] /= (s*6.0);
+    m[3] /= (s*6.0);
+
+    m[0][0] = 1.0/6.0;
+
+    return m;
+}
+
+// flip matrix orientation
+static float4x4 OsdFlipMatrix(float4x4 m)
+{
+    return float4x4(float4(m[3][3], m[3][2], m[3][1], m[3][0]),
+                    float4(m[2][3], m[2][2], m[2][1], m[2][0]),
+                    float4(m[1][3], m[1][2], m[1][1], m[1][0]),
+                    float4(m[0][3], m[0][2], m[0][1], m[0][0]));
+}
+
+static void OsdFlipMatrix(threadgroup float * src, threadgroup float * dst)
+{
+    for (int i = 0; i < 16; i++) dst[i] = src[15-i];
+}
+
+
+// ----------------------------------------------------------------------------
+// Legacy Gregory
+// ----------------------------------------------------------------------------
+#if OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+#if OSD_MAX_VALENCE<=10
+constant float ef[7] = {
+    0.813008, 0.500000, 0.363636, 0.287505,
+    0.238692, 0.204549, 0.179211
+};
+#else
+constant float ef[27] = {
+    0.812816, 0.500000, 0.363644, 0.287514,
+    0.238688, 0.204544, 0.179229, 0.159657,
+    0.144042, 0.131276, 0.120632, 0.111614,
+    0.103872, 0.09715, 0.0912559, 0.0860444,
+    0.0814022, 0.0772401, 0.0734867, 0.0700842,
+    0.0669851, 0.0641504, 0.0615475, 0.0591488,
+    0.0569311, 0.0548745, 0.0529621
+};
+#endif
+
+static float cosfn(int n, int j) {
+    return cospi((2.0f * j)/float(n));
+}
+
+static float sinfn(int n, int j) {
+    return sinpi((2.0f * j)/float(n));
+}
+
+#ifndef OSD_MAX_VALENCE
+#define OSD_MAX_VALENCE 4
+#endif
+
+
+template<typename OsdVertexBuffer>
+static float3 OsdReadVertex(int vertexIndex, OsdVertexBuffer osdVertexBuffer)
+{
+    int index = (vertexIndex /*+ OsdBaseVertex()*/);
+    return osdVertexBuffer[index].position;
+}
+
+template<typename OsdValenceBuffer>
+static int OsdReadVertexValence(int vertexID, OsdValenceBuffer osdValenceBuffer)
+{
+    int index = int(vertexID * (2 * OSD_MAX_VALENCE + 1));
+    return osdValenceBuffer[index];
+}
+
+template<typename OsdValenceBuffer>
+static int OsdReadVertexIndex(int vertexID, int valenceVertex, OsdValenceBuffer osdValenceBuffer)
+{
+    int index = int(vertexID * (2 * OSD_MAX_VALENCE + 1) + 1 + valenceVertex);
+    return osdValenceBuffer[index];
+}
+
+template<typename OsdQuadOffsetBuffer>
+static int OsdReadQuadOffset(int primitiveID, int offsetVertex, OsdQuadOffsetBuffer osdQuadOffsetBuffer)
+{
+    int index = int(4*primitiveID + offsetVertex);
+    return osdQuadOffsetBuffer[index];
+}
+
+
+static void OsdComputePerVertexGregory(unsigned vID, float3 P, threadgroup OsdPerVertexGregory& v, OsdPatchParamBufferSet osdBuffers)
+{
+    v.clipFlag = short3(0,0,0);
+
+    int ivalence = OsdReadVertexValence(vID, osdBuffers.valenceBuffer);
+    v.valence = ivalence;
+    int valence = abs(ivalence);
+
+    float3 f[OSD_MAX_VALENCE];
+    float3 pos = P;
+    float3 opos = float3(0,0,0);
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    v.org = pos;
+    int boundaryEdgeNeighbors[2];
+    int currNeighbor = 0;
+    int ibefore = 0;
+    int zerothNeighbor = 0;
+#endif
+
+    for (int i=0; i<valence; ++i) {
+        int im = (i+valence-1)%valence;
+        int ip = (i+1)%valence;
+
+        int idx_neighbor = OsdReadVertexIndex(vID, 2*i, osdBuffers.valenceBuffer);
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+        bool isBoundaryNeighbor = false;
+        int valenceNeighbor = OsdReadVertexValence(idx_neighbor, osdBuffers.valenceBuffer);
+
+        if (valenceNeighbor < 0) {
+            isBoundaryNeighbor = true;
+            if (currNeighbor<2) {
+                boundaryEdgeNeighbors[currNeighbor] = idx_neighbor;
+            }
+            currNeighbor++;
+            if (currNeighbor == 1) {
+                ibefore = i;
+                zerothNeighbor = i;
+            } else {
+                if (i-ibefore == 1) {
+                    int tmp = boundaryEdgeNeighbors[0];
+                    boundaryEdgeNeighbors[0] = boundaryEdgeNeighbors[1];
+                    boundaryEdgeNeighbors[1] = tmp;
+                    zerothNeighbor = i;
+                }
+            }
+        }
+#endif
+
+        float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
+
+        int idx_diagonal = OsdReadVertexIndex(vID, 2*i + 1, osdBuffers.valenceBuffer);
+        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+        int idx_neighbor_p = OsdReadVertexIndex(vID, 2*ip, osdBuffers.valenceBuffer);
+        float3 neighbor_p = OsdReadVertex(idx_neighbor_p, osdBuffers.vertexBuffer);
+
+        int idx_neighbor_m = OsdReadVertexIndex(vID, 2*im, osdBuffers.valenceBuffer);
+        float3 neighbor_m = OsdReadVertex(idx_neighbor_m, osdBuffers.vertexBuffer);
+
+        int idx_diagonal_m = OsdReadVertexIndex(vID, 2*im + 1, osdBuffers.valenceBuffer);
+        float3 diagonal_m = OsdReadVertex(idx_diagonal_m, osdBuffers.vertexBuffer);
+
+        f[i] = (pos * float(valence) + (neighbor_p + neighbor)*2.0f + diagonal) / (float(valence)+5.0f);
+
+        opos += f[i];
+        v.r[i] = (neighbor_p-neighbor_m)/3.0f + (diagonal - diagonal_m)/6.0f;
+    }
+
+    opos /= valence;
+    v.P = float4(opos, 1.0f).xyz;
+
+    float3 e;
+    v.e0 = float3(0,0,0);
+    v.e1 = float3(0,0,0);
+
+    for(int i=0; i<valence; ++i) {
+        int im = (i + valence -1) % valence;
+        e = 0.5f * (f[i] + f[im]);
+        v.e0 += cosfn(valence, i)*e;
+        v.e1 += sinfn(valence, i)*e;
+    }
+    v.e0 *= ef[valence - 3];
+    v.e1 *= ef[valence - 3];
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    v.zerothNeighbor = zerothNeighbor;
+    if (currNeighbor == 1) {
+        boundaryEdgeNeighbors[1] = boundaryEdgeNeighbors[0];
+    }
+
+    if (ivalence < 0) {
+        if (valence > 2) {
+            v.P = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
+                   OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
+                   4.0f * pos)/6.0f;
+        } else {
+            v.P = pos;
+        }
+
+        v.e0 = (OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) -
+                OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer))/6.0;
+
+        float k = float(float(valence) - 1.0f);    //k is the number of faces
+        float c = cospi(1.0/k);
+        float s = sinpi(1.0/k);
+        float gamma = -(4.0f*s)/(3.0f*k+c);
+        float alpha_0k = -((1.0f+2.0f*c)*sqrt(1.0f+c))/((3.0f*k+c)*sqrt(1.0f-c));
+        float beta_0 = s/(3.0f*k + c);
+
+        int idx_diagonal = OsdReadVertexIndex(vID, 2*zerothNeighbor + 1, osdBuffers.valenceBuffer);
+        float3 diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+        v.e1 = gamma * pos +
+            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[0], osdBuffers.vertexBuffer) +
+            alpha_0k * OsdReadVertex(boundaryEdgeNeighbors[1], osdBuffers.vertexBuffer) +
+            beta_0 * diagonal;
+
+        for (int x=1; x<valence - 1; ++x) {
+            int curri = ((x + zerothNeighbor)%valence);
+            float alpha = (4.0f*sinpi((float(x))/k))/(3.0f*k+c);
+            float beta = (sinpi((float(x))/k) + sinpi((float(x+1))/k))/(3.0f*k+c);
+
+            int idx_neighbor = OsdReadVertexIndex(vID, 2*curri, osdBuffers.valenceBuffer);
+            float3 neighbor = OsdReadVertex(idx_neighbor, osdBuffers.vertexBuffer);
+
+            idx_diagonal = OsdReadVertexIndex(vID, 2*curri + 1, osdBuffers.valenceBuffer);
+            diagonal = OsdReadVertex(idx_diagonal, osdBuffers.vertexBuffer);
+
+            v.e1 += alpha * neighbor + beta * diagonal;
+        }
+
+        v.e1 /= 3.0f;
+    }
+#endif
+}
+
+static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsigned primitiveID,
+                                threadgroup OsdPerVertexGregory* v,
+                                device OsdPerPatchVertexGregory& result,
+                                OsdPatchParamBufferSet osdBuffers)
+{
+    result.P = v[ID].P;
+
+    int i = ID;
+    int ip = (i+1)%4;
+    int im = (i+3)%4;
+    int valence = abs(v[i].valence);
+    int n = valence;
+
+    int start = OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev = (OsdReadQuadOffset(primitiveID, i, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int start_m = OsdReadQuadOffset(primitiveID, im, osdBuffers.quadOffsetBuffer) & 0xff;
+    int prev_p = (OsdReadQuadOffset(primitiveID, ip, osdBuffers.quadOffsetBuffer) >> 8) & 0xff;
+
+    int np = abs(v[ip].valence);
+    int nm = abs(v[im].valence);
+
+    // Control Vertices based on :// "Approximating Subdivision Surfaces with Gregory Patches
+    //  for Hardware Tessellation"
+    // Loop, Schaefer, Ni, Castano (ACM ToG Siggraph Asia 2009)
+    //
+    //  P3         e3-      e2+         P2
+    //     O--------O--------O--------O
+    //     |        |        |        |
+    //     |        |        |        |
+    //     |        | f3-    | f2+    |
+    //     |        O        O        |
+    // e3+ O------O            O------O e2-
+    //     |     f3+          f2-     |
+    //     |                          |
+    //     |                          |
+    //     |      f0-         f1+     |
+    // e0- O------O            O------O e1+
+    //     |        O        O        |
+    //     |        | f0+    | f1-    |
+    //     |        |        |        |
+    //     |        |        |        |
+    //     O--------O--------O--------O
+    //  P0         e0+      e1-         P1
+    //
+
+#if OSD_PATCH_GREGORY_BOUNDARY
+    float3 Em_ip;
+    if (v[ip].valence < -2) {
+        int j = (np + prev_p - v[ip].zerothNeighbor) % np;
+        Em_ip = v[ip].P + cospi(j/float(np-1))*v[ip].e0 + sinpi(j/float(np-1))*v[ip].e1;
+    } else {
+        Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    }
+
+    float3 Ep_im;
+    if (v[im].valence < -2) {
+        int j = (nm + start_m - v[im].zerothNeighbor) % nm;
+        Ep_im = v[im].P + cospi(j/float(nm-1))*v[im].e0 + sinpi(j/float(nm-1))*v[im].e1;
+    } else {
+        Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+    }
+
+    if (v[i].valence < 0) {
+        n = (n-1)*2;
+    }
+    if (v[im].valence < 0) {
+        nm = (nm-1)*2;
+    }
+    if (v[ip].valence < 0) {
+        np = (np-1)*2;
+    }
+
+    if (v[i].valence > 2) {
+        result.Ep = v[i].P + (v[i].e0*cosfn(n, start) + v[i].e1*sinfn(n, start));
+        result.Em = v[i].P + (v[i].e0*cosfn(n, prev) +  v[i].e1*sinfn(n, prev));
+
+        float s1=3-2*cosfn(n,1)-cosfn(np,1);
+        float s2=2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+    } else if (v[i].valence < -2) {
+        int j = (valence + start - v[i].zerothNeighbor) % valence;
+
+        result.Ep = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+        j = (valence + prev - v[i].zerothNeighbor) % valence;
+        result.Em = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+
+        float3 Rp = ((-2.0f * v[i].org - 1.0f * v[im].org) + (2.0f * v[ip].org + 1.0f * v[(i+2)%4].org))/3.0f;
+        float3 Rm = ((-2.0f * v[i].org - 1.0f * v[ip].org) + (2.0f * v[im].org + 1.0f * v[(i+2)%4].org))/3.0f;
+
+        float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+        float s2 = 2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+        if (v[im].valence < 0) {
+            s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+            result.Fp = result.Fm = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        } else if (v[ip].valence < 0) {
+            s1 = 3.0f-2.0f*cospi(2.0f/n)-cospi(2.0f/nm);
+            result.Fm = result.Fp = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+        }
+
+    } else if (v[i].valence == -2) {
+        result.Ep = (2.0f * v[i].org + v[ip].org)/3.0f;
+        result.Em = (2.0f * v[i].org + v[im].org)/3.0f;
+        result.Fp = result.Fm = (4.0f * v[i].org + v[(i+2)%n].org + 2.0f * v[ip].org + 2.0f * v[im].org)/9.0f;
+    }
+
+#else // not OSD_PATCH_GREGORY_BOUNDARY
+
+    result.Ep = v[i].P + v[i].e0 * cosfn(n, start) + v[i].e1*sinfn(n, start);
+    result.Em = v[i].P + v[i].e0 * cosfn(n, prev ) + v[i].e1*sinfn(n, prev );
+
+    float3 Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    float3 Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+
+    float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+    float s2 = 2*cosfn(n,1);
+
+    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
+
+#endif
+}
+
+#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+
+
+
+
+
+
+ /* Error: Ran out of types for this method. */;
+- (void)/string>
+			<key>samples</key>
+			<integer>1</integer>
+			<key>overridesCustomProgram</key>
+			<true/>
+			<key>colorStates</key>
+			<dict>
+				<key>clear</key>
+				<true/>
+				<key>clearColor</key>
+				<string>&quot;0. 0. 0. 1.&quot;</string>
+			</dict>
+			<key>depthStates</key>
+			<dict>
+				<key>clear</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>Outline-outline</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>outline-color</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>a_position</key>
+				<string>a_position-symbol</string>
+				<key>pickedColorBuffer</key>
+				<string>pickedObjects-color</string>
+				<key>pickedDepthBuffer</key>
+				<string>pickedObjects-depth</string>
+				<key>colorBuffer</key>
+				<string>COLOR</string>
+				<key>depthBuffer</key>
+				<string>DEPTH</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>program</key>
+			<string>C3D-OutlineRetina</string>
+			<key>clientProgram</key>
+			<string>NO</string>
+			<key>metalVertexShader</key>
+			<string>outlineRetina_vert</string>
+			<key>metalFragmentShader</key>
+			<string>outlineRetina_frag</string>
+		</dict>
+		<key>Outline-max</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>COLOR</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>a_position</key>
+				<string>a_position-symbol</string>
+				<key>outlineColorBuffer</key>
+				<string>outline-color</string>
+				<key>colorBuffer</key>
+				<string>COLOR</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>program</key>
+			<string>C3D-OutlineMax</string>
+			<key>clientProgram</key>
+			<string>NO</string>
+			<key>metalVertexShader</key>
+			<string>outlineMax_vert</string>
+			<key>metalFragmentShader</key>
+			<string>outlineMax_frag</string>
+		</dict>
+	</dict>
+	<key>symbols</key>
+	<dict>
+		<key>a_position-symbol</key>
+		<dict>
+			<key>semantic</key>
+			<string>vertex</string>
+		</dict>
+		<key>u_modelViewProjectionTransform-symbol</key>
+		<dict>
+			<key>semantic</key>
+			<string>modelViewProjectionTransform</string>
+		</dict>
+		<key>u_modelTransform-symbol</key>
+		<dict>
+			<key>semantic</key>
+			<string>modelTransform</string>
+		</dict>
+		<key>color</key>
+		<dict>
+			<key>semantic</key>
+			<string>none</string>
+		</dict>
+	</dict>
+	<key>targets</key>
+	<dict>
+		<key>outline-color</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>r8</string>
+			<key>scaleFactor</key>
+			<integer>1</integer>
+		</dict>
+		<key>pickedObjects-depth</key>
+		<dict>
+			<key>type</key>
+			<string>depth</string>
+			<key>format</key>
+			<string>depth24</string>
+			<key>scaleFactor</key>
+			<integer>1</integer>
+		</dict>
+		<key>pickedObjects-color</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>format</key>
+			<string>r8</string>
+			<key>scaleFactor</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
+- (void)diffuse  += color * (NoL * M_1_PI_F * intensity);
+        specular += color * F * (NoL * D * Vis * intensity);
+        
+        #ifdef USE_CLEARCOAT
+            n = surface.clearCoatNormal;
+
+            roughness = max(surface.clearCoatRoughness, 0.089f);
+            alpha = roughness * roughness; 
+        
+            
+            
+            float NoH_coat = saturate(dot(n, h));
+            float NoL_coat = saturate(dot(n, l));
+            D   = scn_brdf_D(alpha, NoH_coat);
+            F   = scn_brdf_F_opt(0.04, LoH) * surface.clearCoat;
+            Vis = scn_brdf_V(alpha, NoL_coat, saturate(dot(n,v)));
+        
+            float attenuation = 1.0 - F.r;
+            specular *=  (attenuation * attenuation);
+            specular += color * F * ( NoL_coat * D * Vis * intensity);
+        #endif
+    }
+#endif
+
+    void custom(float3 _l, float3 _color, float _intensity)
+    {
+#ifdef USE_LIGHT_MODIFIER
+        thread SCNShaderLightingContribution &_lightingContribution = *this;
+        thread SCNShaderSurface& _surface = surface;
+        SCNShaderLight _light = {.direction = _l, .intensity = float4(_color, 1.f), ._att = _intensity };
+        
+        __DoLightModifier__
+        
+#endif
+    }
+
+    void shade(float3 l, float3 color, float intensity)
+    {
+#ifdef LIGHTING_MODEL
+        switch (LIGHTING_MODEL) {
+#ifdef USE_SHADOWONLY
+            case SCNLightingModelShadowOnly:(id)arg1 shadowFactor *= intensity; break;
+#endif
+            case SCNLightingModelLambert:lambert(l, color, intensity); break;
+            case SCNLightingModelBlinn:blinn(l, color, intensity);   break;
+            case SCNLightingModelPhong:phong(l, color, intensity);   break;
+#ifdef USE_PBR
+            case SCNLightingModelPhysicallyBased:physicallyBased(l, color, intensity); break;
+#endif
+            case SCNLightingModelCustom:custom(l, color, intensity);  break;
+            default:break; 
+        }
+#endif
+    }
+
+    
+    
+    
+    float pbr_dist_attenuation_alternate(float3 l, float cutoff) {
+        
+        float radius = 0.1f; 
+        float factor = 1.f / (1.f + length(l)/radius);
+        float attenuation = saturate(factor * factor); 
+        return saturate((attenuation - cutoff) / (1.f - cutoff));
+    }
+
+    float pbr_dist_attenuation(float3 l, float inv_square_radius) {
+        float sqr_dist = length_squared(l);
+        float atten = 1.f / max(sqr_dist, 0.0001f);
+
+        
+        float factor = saturate(1.f - scn::sq(sqr_dist * inv_square_radius));
+        return atten * factor * factor;
+    }
+
+    float non_pbr_dist_attenuation(float3 l, float4 att)
+    {
+        return powr(saturate(length(l) * att.x + att.y), att.z);
+    }
+
+    float dist_attenuation(float3 unnormalized_l, scn_light light)
+    {
+#ifdef USE_PBR
+        return 1000.f * pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors.w);
+        
+        
+#else
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        return non_pbr_dist_attenuation(unnormalized_l, light.parameters.omni.attenuationFactors);
+#endif
+    }
+
+    float spot_attenuation(float3 l, scn_light light)
+    {
+#ifdef USE_SHADOWONLY
+        return 1.f;
+#endif
+        
+        return saturate(dot(l, light.dir) * light.parameters.spot.scaleBias.x + light.parameters.spot.scaleBias.y);
+    }
+
+    void shade_modulate(float3 l, float4 color, float intensity)
+    {
+        constexpr half3 white = half3(1.h);
+        
+        modulate *= float3(mix(white, half3(color.rgb), half(color.a * intensity)));
+    }
+
+    float3 gobo(float3 pos, scn_light light, texture2d<half> goboTexture, sampler goboSampler)
+    {
+        half3 g = texture2DProj(goboTexture, goboSampler, (light.shadowMatrix * float4(pos, 1.f))).rgb;
+        return light.color.rgb * float3(mix(1.h, g, half(light.color.a)));
+    }
+
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap)
+    {
+        float shadow = ComputeShadow(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+        float shadow = ComputeSoftShadow(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowKernel, light.shadowSampleCount, light.shadowRadius, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int shadowSampleCount)
+    {
+        float shadow = ComputeSoftShadow(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowKernel, shadowSampleCount, light.shadowRadius, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow(float3 pos, scn_light light, depth2d<float> shadowMap, int shadowSampleCount)
+    {
+        float shadow = ComputeSoftShadowGrid(scn_shadow_sampler, pos, light.shadowMatrix, shadowMap, shadowSampleCount, reverseZ);
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow_omni(float3 pos_vs, float3 nrm_vs, scn_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        
+#define USE_TANGENT_SAMPLING 0
+
+        float2 scaleBias = light.parameters.omni.shadowScaleBias.xy;
+        float  depthBias = light.parameters.omni.shadowScaleBias.z;
+
+        
+        pos_vs += nrm_vs * depthBias;
+
+        
+        float3 pos_ls = (light.shadowMatrix * float4(pos_vs, 1.f)).xyz;
+
+        
+        float z_lin = scn::reduce_max(abs(pos_ls));
+
+        
+        
+        
+
+        
+        float z_ndc = (z_lin * scaleBias.x + scaleBias.y) / z_lin - depthBias;
+
+        
+        float shadow;
+        if (sampleCount <= 1) {
+            shadow = shadowMap.sample_compare(scn_shadow_sampler, pos_ls.xyz, z_ndc);
+        } else {
+            
+            float filteringSizeFactor = light.shadowRadius;
+
+#if USE_TANGENT_SAMPLING
+            float3 tgt_x, tgt_y;
+            scn::orthogonal_basis(pos_ls, tgt_x, tgt_y);
+#else
+            float3 nrm_ls = (light.shadowMatrix * float4(nrm_vs, 0.f)).xyz;
+#endif
+
+            
+            float totalAccum = 0.0;
+            for(int i=0; i < sampleCount; i++){
+
+#if USE_TANGENT_SAMPLING
+                float2 scale = shadowKernel[i].xy * filteringSizeFactor * 2.f;
+                float3 smp_ls = pos_ls.xyz + tgt_x * scale.x + tgt_y * scale.y;
+#else
+                float3 smp_ls = pos_ls.xyz + scn::randomHemisphereDir(nrm_ls, shadowKernel[i].xy) * filteringSizeFactor;
+#endif
+
+                
+                
+                
+
+                totalAccum += shadowMap.sample_compare(scn_shadow_sampler, smp_ls, z_ndc);
+            }
+            shadow = totalAccum / float(sampleCount);
+        }
+
+        return 1.f - shadow * light.color.a; 
+    }
+
+    float shadow(float3 pos, constant scn_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount)
+    {
+        float shadow = ComputeCascadedShadow(scn_shadow_sampler, pos, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius).a;
+        return 1.f - shadow * light.color.a; 
+    }
+
+    
+
+    void add_directional(scn_light light)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(scn_light light, texture2d<half> goboTexture, sampler goboSampler, bool modulated)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        if (modulated) {
+            shade_modulate(light.dir, light.color, 1.f);
+        } else {
+            shade(light.dir, light.color.rgb, intensity);
+        }
+    }
+
+    
+    void add_directional(scn_light light, depth2d<float> shadowMap)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap, shadowKernel);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    void add_directional(scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(scn_light light, depth2d<float> shadowMap, int sampleCount)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        intensity *= shadow(surface.position, light, shadowMap, sampleCount);
+        shade(light.dir, light.color.rgb, intensity);
+    }
+
+    
+    void add_directional(constant scn_light& light, depth2d_array<float> shadowMaps, int cascadeCount, bool blendCascade, constant float4* shadowKernel, int sampleCount, bool debugCascades)
+    {
+#ifdef USE_PBR
+        float intensity = M_PI_F;
+#else
+        float intensity = 1.f;
+#endif
+        if (debugCascades) {
+            float4 shadowDebug = ComputeCascadedShadow(scn_shadow_sampler, surface.position, light.shadowMatrix, light.parameters.directional.cascadeScale, light.parameters.directional.cascadeBias, cascadeCount, shadowMaps, blendCascade, shadowKernel, sampleCount, light.shadowRadius);
+            intensity *= (1.f - shadowDebug.a);
+            shade(light.dir, light.color.rgb, intensity);
+            diffuse.rgb = mix(diffuse.rgb, shadowDebug.rgb, light.color.a);
+        } else {
+            intensity *= shadow(surface.position, light, shadowMaps, cascadeCount, blendCascade, shadowKernel, sampleCount);
+            shade(light.dir, light.color.rgb, intensity);
+        }
+    }
+
+    
+
+    void add_omni(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light));
+    }
+
+    void add_omni(scn_light light, depthcube<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity *= shadow_omni(surface.position, surface.normal, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_local_omni(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        shade(l, light.color.rgb, dist_attenuation(unnormalized_l, light));
+    }
+
+    
+
+    void add_spot(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_spot(scn_light light, texture2d<half> goboTexture, sampler goboSampler, bool modulated)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        if (modulated) {
+            shade_modulate(l, light.color, intensity);
+        } else {
+            shade(l, light.color.rgb, intensity);
+        }
+    }
+
+    void add_local_spot(scn_light light)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+    void add_spot(scn_light light, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+    
+    void add_spot(scn_light light, 
+                  depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount,
+                  texture2d<half> goboTexture, sampler goboSampler)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= spot_attenuation(l, light);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        light.color.rgb = gobo(surface.position, light, goboTexture, goboSampler);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+
+#ifdef USE_PBR
+
+    
+
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+    void add_local_probe(scn_light light, texturecube_array<half> probeTextureArray)
+#else
+    void add_local_probe(scn_light light, texture2d_array<half> probeTextureArray)
+#endif
+    {
+#if !PROBES_NORMALIZATION
+        if (probeRadianceRemainingFactor <= 0.f)
+            return;
+#endif
+
+        bool parallaxCorrection = light.parameters.probe.parallaxCorrection;
+        int    probeIndex       = light.parameters.probe.index;
+        float3 probeExtents     = light.parameters.probe.halfExtents.xyz;
+        float  blendDist        = light.parameters.probe.halfExtents.w;
+        float3 probeOffset      = light.parameters.probe.offset;
+        float3 parallaxExtents  = light.parameters.probe.parallaxExtents;
+        float3 parallaxCenter   = light.parameters.probe.parallaxCenter;
+
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+
+        float3 specDir = scn::mat4_mult_float3(light.shadowMatrix, r);
+
+        
+        float3 pos_ls = (light.shadowMatrix * float4(surface.position, 1.f)).xyz;
+
+        
+        float3 d = abs(pos_ls) - probeExtents;
+#if PROBES_OUTER_BLENDING
+        if (any(d > blendDist))
+#else
+        if (any(d > 0.f))
+#endif
+        {
+            return;
+        }
+
+#if PROBES_NORMALIZATION
+        
+        
+#if PROBES_OUTER_BLENDING
+        float3 nd = saturate(-(d / blendDist) * 0.5f + 0.5f);
+#else
+        float3 nd = saturate(-(d / blendDist));
+#endif
+        float probeFactor = (nd.x * nd.y * nd.z) * light.color.r;
+#else
+        
+        float sd = min(max(d.x,max(d.y,d.z)),0.0) + length(max(d,0.0));
+#if PROBES_OUTER_BLENDING
+        float probeFactor = saturate(1.f - sd / blendDist);
+#else
+        float probeFactor = saturate(-sd / blendDist);
+#endif
+        
+        
+        
+        probeFactor *= probeRadianceRemainingFactor * light.color.r; 
+#endif
+
+        if (parallaxCorrection ) {
+            
+            float3 pos_off = pos_ls + parallaxCenter;
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+
+        float mipd = float(probeTextureArray.get_num_mip_levels()) - 1.f;
+        const float intensity = surface.ambientOcclusion * probeFactor;
+
+        float mips = surface.roughness * mipd;
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        float2 specUV = scn::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+
+        
+
+        
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectance, probeFactor);
+#else
+        probeRadianceRemainingFactor = saturate(probeRadianceRemainingFactor - probeFactor);
+        specular += LD * intensity * pbr.probeReflectance;
+#endif
+        
+#ifdef USE_CLEARCOAT
+        n = surface.clearCoatNormal;
+        r = reflect(-v, n);
+        specDir = scn::mat4_mult_float3(light.shadowMatrix, r);
+        if (parallaxCorrection ) {
+            float3 pos_off = pos_ls + parallaxCenter;
+            
+            float3 t1 = ( parallaxExtents - pos_off) / specDir;
+            float3 t2 = (-parallaxExtents - pos_off) / specDir;
+            float3 tmax = max(max(0, t1), t2); 
+            float t = min(tmax.x, min(tmax.y, tmax.z));
+            
+            
+            float3 hit_ls = pos_ls + specDir * t;
+            specDir = hit_ls - probeOffset;
+        }
+        mips = surface.clearCoatRoughness * mipd;
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+        LD = float3(probeTextureArray.sample(scn::linearSampler, specDir, probeIndex, level(mips)).rgb);
+#else
+        specUV = scn::dual_paraboloid_from_cartesian(normalize(specDir));
+        LD = float3(probeTextureArray.sample(scn::linearSampler, specUV, probeIndex, level(mips)).rgb);
+#endif
+#if PROBES_NORMALIZATION
+        probesWeightedSum += float4(LD * intensity * pbr.probeReflectanceClearCoat, probeFactor) * surface.clearCoat;
+#else
+        specular += LD * intensity * pbr.probeReflectanceClearCoat * surface.clearCoat;
+#endif
+#endif
+    }
+
+    void add_global_probe(float4x4 localDirToWorldCubemapDir,
+                          float environmentIntensity,
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+                          texturecube_array<half> probeTextureArray
+#else
+                          texture2d_array<half> probeTextureArray
+#endif
+                          )
+    {
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        float3 r = reflect(-v, n); 
+        
+        float3 specDir = scn::mat4_mult_float3(localDirToWorldCubemapDir, r);
+        float mips = surface.roughness * float(probeTextureArray.get_num_mip_levels() - 1);
+#ifdef C3D_SUPPORT_CUBE_ARRAY
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specDir, 0, level(mips)).rgb);
+#else
+        float2 specUV = scn::dual_paraboloid_from_cartesian(normalize(specDir));
+        float3 LD = float3(probeTextureArray.sample(scn::linearSampler, specUV, 0, level(mips)).rgb);
+#endif
+        
+        
+        specular += pbr.probeReflectance * LD * surface.ambientOcclusion * environmentIntensity;
+    }
+
+    void add_global_probe(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n        = surface.normal;
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.roughness;
+
+#if USE_PBR_DOMINANT_DIRECTION
+        float alpha = roughness * roughness;
+        float smoothness = 1.0f - alpha;
+        float specularLerpFactor = (1. - smoothness * (sqrt(smoothness) + alpha));
+        float3 specularDominantNDirection = mix(r, n, specularLerpFactor); 
+#else
+        float3 specularDominantNDirection = r;
+#endif
+        
+        
+        float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+        float3 dir = scn::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection);
+        float3 LD = specularLD.sample(scn::linearSampler, dir, level(mipLevel)).rgb;
+        pbr.envSpecular += pbr.probeReflectance * LD * surface.ambientOcclusion * environmentIntensity;
+    }
+
+#ifdef USE_CLEARCOAT
+    void add_global_probeClearCoat(texturecube<float, access::sample> specularLD,
+                          float4x4                           localDirToWorldCubemapDir,
+                          float                              environmentIntensity)
+    {
+        float3 n = surface.clearCoatNormal;
+        
+        float3 v        = surface.view;
+        float3 r        = reflect(-v, n); 
+        float roughness = surface.clearCoatRoughness;
+
+        
+        float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+        float3 LD = specularLD.sample(scn::linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, r), level(mipLevel)).rgb;
+
+        LD *= surface.ambientOcclusion;
+        
+        
+        float Fc = scn_brdf_F_opt(0.04f, pbr.NoVClearCoat).r * surface.clearCoat;
+        float attenuation = 1.0f - Fc;
+        specular *= (attenuation * attenuation);
+        
+        specular += LD * environmentIntensity * pbr.probeReflectanceClearCoat * surface.clearCoat;
+    }
+#endif
+    
+    
+
+    void add_irradiance_from_selfIllum()
+    {
+        float selfIlluminationAO = saturate(mix(1.f, surface.ambientOcclusion, pbr.selfIlluminationOcclusion));
+        float3 irradiance = surface.selfIllumination.rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += selfIlluminationAO * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_from_sh(float4x4         localDirToWorldCubemapDir,
+#if defined(USE_PROBES_LIGHTING) && (USE_PROBES_LIGHTING == 2)
+                                       sh2_coefficients shCoefficients)
+#else
+    sh3_coefficients shCoefficients)
+#endif
+    {
+        float3 n_sh_space = scn::mat4_mult_float3(localDirToWorldCubemapDir, surface.normal);
+        float3 irradiance = shEvalDirection(float4(n_sh_space, 1.), shCoefficients);
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += surface.ambientOcclusion * irradiance * diffuseReflectance;
+#endif
+    }
+
+    void add_global_irradiance_probe(texturecube<float, access::sample> irradianceTexture,
+                                     float4x4                           localDirToWorldCubemapDir,
+                                     float                              environmentIntensity)
+    {
+#if USE_PBR_DOMINANT_DIRECTION
+        float3 n = surface.normal;
+        float3 v = surface.view;
+        
+        
+        const half a = 1.02341h * surface.roughness - 1.51174h; 
+        const half b = -0.511705h * surface.roughness + 0.755868h;
+        const half diffuseBendFactor = saturate((pbr.NoV * a + b) * surface.roughness);
+        float3 diffuseDominantNDirection = mix(n, v, diffuseBendFactor);
+#else
+        float3 diffuseDominantNDirection = n;
+#endif
+        
+        float3 n_cube_space = scn::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+        float3 irradiance = irradianceTexture.sample(scn::linearSampler, n_cube_space).rgb;
+        
+        float3 diffuseAlbedo = mix(pbr.albedo, float3(0.0), surface.metalness);
+#ifdef USE_PBR_LAMBERTIAN_REFLECTION
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseAlbedo;
+#else
+        float3 diffuseReflectance = diffuseAlbedo * (pbr.diffuseHammonFactors.x + diffuseAlbedo * pbr.diffuseHammonFactors.y);
+        pbr.envDiffuse += (surface.ambientOcclusion * environmentIntensity) * irradiance * diffuseReflectance;
+#endif
+    }
+
+#endif 
+
+    
+
+    static constexpr sampler iesSampler = sampler(filter::linear, mip_filter::none, address::clamp_to_edge);
+    
+    float ies_attenuation(float3 l, scn_light light, texture2d<half> iesTexture)
+    {
+#if USE_QUAT_FOR_IES
+        float3 v    = scn::quaternion_rotate_vector(light.parameters.ies.light_from_view_quat, -l);
+#else
+        float3 v    = scn::matrix_rotate(light.parameters.ies.light_from_view, -l);
+#endif
+        float phi   = (v.z * light.parameters.ies.scaleBias.x + light.parameters.ies.scaleBias.y);
+        float theta = atan2(v.y, v.x) * 0.5f * M_1_PI_F;
+        return iesTexture.sample(iesSampler, float2(phi, abs(theta))).r;
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    void add_ies(scn_light light, texture2d<half> iesTexture, depth2d<float> shadowMap, constant float4* shadowKernel, int sampleCount)
+    {
+        float3 unnormalized_l = light.pos - surface.position;
+        float3 l = normalize(unnormalized_l);
+        float intensity = dist_attenuation(unnormalized_l, light);
+        intensity      *= ies_attenuation(l, light, iesTexture);
+        intensity      *= shadow(surface.position, light, shadowMap, shadowKernel, sampleCount);
+        shade(l, light.color.rgb, intensity);
+    }
+
+    
+
+    void add_area_rectangle(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.rectangle.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * light.parameters.area.rectangle.halfExtents.x * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz * light.parameters.area.rectangle.halfExtents.y;
+        
+        float4x3 cornerDirections = float4x3((lightCenter + lightRight + lightTop) - p,
+                                             (lightCenter + lightRight - lightTop) - p,
+                                             (lightCenter - lightRight - lightTop) - p,
+                                             (lightCenter - lightRight + lightTop) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+        cornerDirections[2] = shadingSpaceTransform * cornerDirections[2];
+        cornerDirections[3] = shadingSpaceTransform * cornerDirections[3];
+
+        float diffuseAmount = pbr_area_light_eval_rectangle(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+        cornerDirections[2] = inverseLTCMatrix * cornerDirections[2];
+        cornerDirections[3] = inverseLTCMatrix * cornerDirections[3];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_rectangle(cornerDirections);
+
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+        
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_polygon(scn_light light, texture2d_array<float> bakedDataTexture, device packed_float2 *vertexPositions)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        
+        
+        float sidedness = dot(light.dir, lightCenter - p);
+        if (light.parameters.area.polygon.doubleSided == false && sidedness <= 0.f)
+            return;
+        
+        float3 lightRight = light.shadowMatrix[0].xyz * sign(sidedness);
+        float3 lightTop   = light.shadowMatrix[1].xyz;
+
+        p           = shadingSpaceTransform * p;
+        lightCenter = shadingSpaceTransform * lightCenter;
+        lightRight  = shadingSpaceTransform * lightRight;
+        lightTop    = shadingSpaceTransform * lightTop;
+
+        float diffuseAmount = pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        p           = inverseLTCMatrix * p;
+        lightCenter = inverseLTCMatrix * lightCenter;
+        lightRight  = inverseLTCMatrix * lightRight;
+        lightTop    = inverseLTCMatrix * lightTop;
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_polygon(p, lightCenter, lightRight, lightTop, light.parameters.area.polygon.vertexCount, vertexPositions);
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_line(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+        float3 v = surface.view;
+        float3 n = surface.normal;
+        float3 p = surface.position;
+
+        
+        float3 tangent = normalize(v - n * dot(v, n));
+        float3 bitangent = cross(n, tangent);
+        float3x3 shadingSpaceTransform = transpose(float3x3(tangent, n, bitangent));
+
+        float3 lightCenter = light.shadowMatrix[3].xyz;
+        float3 lightRight  = light.shadowMatrix[0].xyz * light.parameters.area.line.halfLength;
+
+        float2x3 cornerDirections = float2x3((lightCenter + lightRight) - p,
+                                             (lightCenter - lightRight) - p);
+
+        cornerDirections[0] = shadingSpaceTransform * cornerDirections[0];
+        cornerDirections[1] = shadingSpaceTransform * cornerDirections[1];
+
+        float diffuseAmount = pbr_area_light_eval_line(cornerDirections);
+
+        float brdfNorm = 1.f;
+        float3x3 inverseLTCMatrix = scn_sample_area_light_precomputed_data(v, n, surface.roughness, &brdfNorm, bakedDataTexture);
+
+        cornerDirections[0] = inverseLTCMatrix * cornerDirections[0];
+        cornerDirections[1] = inverseLTCMatrix * cornerDirections[1];
+
+        float specularAmount = brdfNorm * pbr_area_light_eval_line(cornerDirections);
+
+        float3 ortho = normalize(cross(cornerDirections[0], cornerDirections[1]));
+        float ltcWidthFactor = 1.0 / length(scn_ltc_matrix_invert_transpose(inverseLTCMatrix) * ortho);
+        specularAmount *= ltcWidthFactor;
+        
+        float3 effectiveAlbedo = mix(float3(1.0), float3(0.0), surface.metalness); 
+
+        float3 lightColor = light.color.rgb;
+        diffuse  += diffuseAmount * lightColor * effectiveAlbedo;
+        specular += specularAmount * lightColor * pbr.reflectance;
+#endif
+    }
+
+    void add_area_ellipse(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+
+    void add_area_ellipsoid(scn_light light, texture2d_array<float> bakedDataTexture)
+    {
+#ifdef USE_PBR
+#endif
+    }
+};
+
+#endif 
+ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)h;
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)beginLoadingQuirksFromDisk;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)undingRect(e),o=cachedElementBoundingRect(t.element);if((r&&a.height<PrependedArticleCandidateMinimumHeight||!r&&a.height<AppendedArticleCandidateMinimumHeight)&&e.childElementCount&&e.querySelectorAll("*").length!==e.querySelectorAll(i).length)return null;if(r){if(a.bottom>o.top)return null}else if(a.top<o.bottom)return null;if(!r&&a.top-o.bottom>AppendedArticleCandidateMaximumVerticalDistanceFromArticle)return null;if(a.left>o.right||a.right<o.left)return null;if(elementLooksLikePartOfACarousel(e))return null;var l=new CandidateElement(e,n);return l.isPrepended=r,l},CandidateElement.candidateIfElementIsViable=function(e,t,n){var r=cachedElementBoundingRect(e),i=ReaderArticleFinderJS.candidateElementFilter;return r.width<i.minimumWidth||r.height<i.minimumHeight||r.width*r.height<i.minimumArea||!n&&r.top>i.maximumTop||CandidateElement.candidateElementAdjustedHeight(e)<i.minimumHeight?null:(id)arg1 new CandidateElement(e,t)},CandidateElement.candidateElementAdjustedHeight=function(e){for(var t=cachedElementBoundingRect(e),n=t.height,r=e.getElementsByTagName("form"),i=r.length,a=0;a<i;++a){var o=cachedElementBoundingRect(r[a]);o.width>t.width*CandidateMinimumWidthPortionForIndicatorElements&&(n-=o.height)}var l=e.querySelectorAll("ol, ul"),s=l.length,c=null;for(a=0;a<s;++a){var u=l[a];if(!(c&&c.compareDocumentPosition(u)&Node.DOCUMENT_POSITION_CONTAINED_BY)){var m=u.getElementsByTagName("li"),d=m.length,h=cachedElementBoundingRect(u);if(d){var g=h.height/d,f=getComputedStyle(m[0]),p=parseInt(f.lineHeight);if(isNaN(p))p=fontSizeFromComputedStyle(f)*BaseLineHeightRatio;h.width>t.width*CandidateMinimumWidthPortionForIndicatorElements&&g/p<CandidateMinumumListItemLineCount&&(n-=h.height,c=u)}else n-=h.height}}return n},CandidateElement.prototype={calculateRawScore:function(){for(var e=0,t=this.textNodes,n=t.length,r=0;r<n;++r)e+=this.rawScoreForTextNode(t[r]);return e},calculateElementTagNameAndAttributesScoreMultiplier:function(){return scoreMultiplierForElementTagNameAndAttributes(this.element)},calculateLanguageScoreMultiplier:function(){0===this.languageScoreMultiplier&&(this.languageScoreMultiplier=languageScoreMultiplierForTextNodes(this.textNodes))},depth:function(){return this.depthInDocument||(this.depthInDocument=elementDepth(this.element)),this.depthInDocument},finalScore:function(){return this.calculateLanguageScoreMultiplier(),this.basicScore()*this.languageScoreMultiplier},basicScore:function(){return this.rawScore*this.tagNameAndAttributesScoreMultiplier},scoreDensity:function(){var e=0,t=this.element.querySelector(DensityExcludedElementSelector);t&&(e=t.clientWidth*t.clientHeight);for(var n=this.element.children||[],r=n.length,i=0;i<r;++i){var a=n[i];elementIsCommentBlock(a)&&(e+=a.clientWidth*a.clientHeight)}var o=cachedElementBoundingRect(this.element).width*cachedElementBoundingRect(this.element).height,l=o*MaximumContentMediaAreaToArticleAreaRatio,s=cachedElementBoundingRect(this.element).width*MinimumContentMediaWidthToArticleWidthRatio,c=this.element.querySelectorAll("img, video"),u=c.length;for(i=0;i<u;++i){var m=cachedElementBoundingRect(c[i]);if(m.width>=s&&m.height>MinimumContentMediaHeight){var d=m.width*m.height;d<l&&(e+=d)}}var h=this.basicScore(),g=o-e,f=this.textNodes.length,p=0,E=0;for(i=0;i<f;++i){var v=this.textNodes[i].parentNode;v&&(E+=fontSizeFromComputedStyle(getComputedStyle(v)),p++)}var N=BaseFontSize;return p&&(N=E/=p),this.calculateLanguageScoreMultiplier(),h/g*1e3*(N/BaseFontSize)*this.languageScoreMultiplier},usableTextNodesInElement:function(e){var t=[];if(!e)return t;const n=new Set(["a","dd","dt","noscript","ol","option","pre","script","style","td","ul","iframe"]);var r=this.contentDocument,i=function(e){const i="text()|*/text()|*/a/text()|*/li/text()|*/li/p/text()|*/span/text()|*/em/text()|*/i/text()|*/strong/text()|*/b/text()|*/font/text()|blockquote/*/text()|div[count(./p)=count(./*)]/p/text()|div[count(*)=1]/div/p/text()|div[count(*)=1]/div/p/*/text()|div/div/text()";for(var a=r.evaluate(i,e,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null),o=a.snapshotLength,l=0;l<o;++l){var s=a.snapshotItem(l);n.has(normalizedElementTagName(s.parentNode))||s._countedTextNode||isNodeWhitespace(s)||(s._countedTextNode=!0,t.push(s))}};i(e);for(var a=childrenWithParallelStructure(e),o=a.length,l=0;l<o;++l){i(a[l])}var s=t.length;for(l=0;l<s;++l)delete t[l]._countedTextNode;return t},addTextNodesFromCandidateElement:function(e){for(var t=this.textNodes.length,n=0;n<t;++n)this.textNodes[n].alreadyCounted=!0;var r=e.textNodes,i=r.length;for(n=0;n<i;++n)r[n].alreadyCounted||this.textNodes.push(r[n]);for(t=this.textNodes.length,n=0;n<t;++n)this.textNodes[n].alreadyCounted=null;this.rawScore=this.calculateRawScore()},rawScoreForTextNode:function(e){const t=20;if(!e)return 0;var n=e.length;if(n<t)return 0;var r=e.parentNode;if(!isElementVisible(r))return 0;for(var i=1;r&&r!==this.element;)i-=.1,r=r.parentNode;return Math.pow(n*i,TextNodeLengthPower)},shouldDisqualifyDueToScoreDensity:function(){return this.scoreDensity()<ArticleMinimumScoreDensity},shouldDisqualifyDueToHorizontalRuleDensity:function(){for(var e=this.element.getElementsByTagName("hr"),t=e.length,n=0,r=cachedElementBoundingRect(this.element),i=.7*r.width,a=0;a<t;++a)e[a].clientWidth>i&&n++;if(n&&r.height/n<MinimumAverageDistanceBetweenHRElements)return!0;return!1},shouldDisqualifyDueToHeaderDensity:function(){var e="(h1|h2|h3|h4|h5|h6|*/h1|*/h2|*/h3|*/h4|*/h5|*/h6)[a[@href]]",t=this.contentDocument.evaluate(e,this.element,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null),n=t.snapshotLength;if(n>2){for(var r=0,i=cachedElementBoundingRect(this.element),a=i.height*PortionOfCandidateHeightToIgnoreForHeaderCheck,o=0;o<n;++o){var l=t.snapshotItem(o);if("#"!==l.querySelector("a[href]").getAttribute("href").substring(0,1)){var s=cachedElementBoundingRect(l);s.top-i.top>a&&i.bottom-s.bottom>a&&r++}}if(i.height/r<MinimumAverageDistanceBetweenHeaderElements)return!0}return!1},shouldDisqualifyDueToSimilarElements:function(e){function t(e,t){if(!e||!t)return!1;var n=1;return e.className?e.className===t.className:elementFingerprintForDepth(e,n)===elementFingerprintForDepth(t,n)}var n=function(e){const t=/related-posts/i;for(var n=e.parentElement;n&&n!==this.contentDocument.body;n=n.parentElement)if(t.test(n.className))return!0;return!1}.bind(this),r=this.element;if("article"===normalizedElementTagName(r.parentElement))return!1;let i=normalizedElementTagName(r);if("li"===i||"dd"===i)for(var a=r.parentNode,o=a.children.length,l=0;l<o;++l){var s=a.children[l];if(normalizedElementTagName(s)===i&&s.className===r.className&&s!==r)return!0}var c=r.classList;if(c.length||(r=r.parentElement)&&((c=r.classList).length||(r=r.parentElement)&&(c=r.classList)),c.length){e||(e=[]);var u=e.length;for(l=0;l<u;++l)e[l].element.candidateElement=e[l];var m=elementsMatchingClassesInClassListIgnoringCommonLayoutClassNames(c,this.contentDocument),d=!1,h=elementDepth(r),g=n(r),f=m.length;for(l=0;l<f;++l){if((s=m[l])!==r&&(s.parentElement!==r&&r.parentElement!==s&&isElementVisible(s))){var p=s.candidateElement;if((p||(p=new CandidateElement(s,this.contentDocument)))&&p.basicScore()*ReaderMinimumAdvantage>this.basicScore()){if(s.closest("section")&&r.closest("section"))return!1;if(SectionRegex.test(s.className)&&SectionRegex.test(r.className))return!1;if(n(s)&&!g)return!1;if(!d&&cachedElementBoundingRect(s).bottom<cachedElementBoundingRect(this.element).top){d=!0;continue}if(t(r.previousElementSibling,s.previousElementSibling)||t(r.nextElementSibling,s.nextElementSibling)){var E=r.querySelector(HeaderElementsSelector),v=s.querySelector(HeaderElementsSelector);if(E&&v&&elementsHaveSameTagAndClassNames(E,v))return!0;if(E=r.previousElementSibling,v=s.previousElementSibling,E&&v&&elementIsAHeader(E)&&elementIsAHeader(v)&&elementsHaveSameTagAndClassNames(E,v))return!0}if(elementDepth(s)===h)for(;s.parentElement&&r.parentElement&&s.parentElement!==r.parentElement;)s=s.parentElement,r=r.parentElement;for(;r.childElementCount<=1;){if(!r.childElementCount||!s.childElementCount)return!1;if(s.childElementCount>1)return!1;if(normalizedElementTagName(r.firstElementChild)!==normalizedElementTagName(s.firstElementChild))return!1;r=r.firstElementChild,s=s.firstElementChild}if(s.childElementCount<=1)return!1;v=s.firstElementChild;var N=s.lastElementChild,C=(E=r.firstElementChild,r.lastElementChild);if(normalizedElementTagName(v)!==normalizedElementTagName(E))return!1;if(normalizedElementTagName(N)!==normalizedElementTagName(C))return!1;var A=v.className,S=N.className,b=E.className,y=N.className,T=y===b?2:1;if(A.length||b.length){if(!A.length||!b.length)return!1;if(A===b&&elementsMatchingClassesInClassList(E.classList,r).length<=T)return!0}if(S.length||y.length){if(!S.length||!y.length)return!1;if(S===y&&elementsMatchingClassesInClassList(N.classList,r).length<=T)return!0}var x=E.clientHeight,R=C.clientHeight;return!(!x||!v.clientHeight)&&(!(!R||!N.clientHeight)&&(x===v.clientHeight||R===N.clientHeight))}}}for(l=0;l<u;++l)e[l].element.candidateElement=null}return!1},shouldDisqualifyForDeepLinking:function(){const e=5;for(var t=this.element,n=this.contentDocument.location,r=pathComponentsForAnchor(n).length,i=[],a=t.getElementsByTagName("a"),o=a.length,l=0;l<o;l++){var s=a[l];if(n.host===s.host&&!(pathComponentsForAnchor(s).length<=r||0!==(s.host+s.pathname).indexOf(n.host+n.pathname)||anchorLinksToAttachment(s)||(i.push(s),i.length<e))){var c=t.offsetTop+t.offsetHeight/e;return i[0].offsetTop<c}}return!1}},String.prototype.lastInteger=function(){const e=/[0-9]+/g;var t=this.match(e);return t?parseInt(t[t.length-1]):NaN};
+ReaderArticleFinder=function(e){this.contentDocument=e,this.didSearchForArticleNode=!1,this.didChangeContentDocumentToFrameOnPage=!1,this.article=null,this.didSearchForExtraArticleNode=!1,this.extraArticle=null,this._leadingMediaElement=null,this._isMediaWikiPage=void 0,this._cachedScrollY=0,this._cachedScrollX=0,this._elementsWithCachedBoundingRects=[],this._cachedContentTextStyle=null,this.pageNumber=1,this.prefixWithDateForNextPageURL=null,this.previouslyDiscoveredPageURLStrings=[],this.candidateElementFilter={minimumWidth:280,minimumHeight:295,minimumArea:17e4,maxTop:1300};let t=0;this._nextUniqueID=function(){return t+++""},this._mapOfUniqueIDToOriginalElement=new Map,this._weakMapOfOriginalElementToUniqueID=new WeakMap},ReaderArticleFinder.prototype={setConfigurationForTesting:function(e){this.configurationForTesting=e},setCandidateElementFilter:function(e){let[t,n]=this._validityAndValidCandidateElementFilterFromFilter(e);t&&(this.candidateElementFilter=n)},_validityAndValidCandidateElementFilterFromFilter:function(e){let t={},n=!1;for(let i of["minimumWidth","minimumHeight","minimumArea","maxTop"]){let r=(e||{})[i];if(void 0===r||"number"!=typeof r||r<0){t={},n=!1;break}t[i]=r,n=!0}return[n,t]},pointsForDominantIframeHitTest:function(){const e=60;return[[e,e],[window.innerWidth-e,e],[e,window.innerHeight-e],[window.innerWidth-e,window.innerHeight-e]]},dominantContentIframe:function(){let e,t=this.pointsForDominantIframeHitTest(),n=t.length;for(let i=0;i<n;i++){if(cornerElement=document.elementFromPoint(t[i][0],t[i][1]),!cornerElement||"IFRAME"!==cornerElement.tagName)return null;if(e){if(e!==cornerElement)return null}else e=cornerElement}return e},checkForIframeCoveringMostOfWebpage:function(){let e=this.dominantContentIframe();e&&!this.didChangeContentDocumentToFrameOnPage&&(this.contentDocument=e.contentDocument,this.resetArticleInformation(),this.didChangeContentDocumentToFrameOnPage=!0)},isReaderModeAvailable:function(){return this.setSuppressBoundingRectCalculationForSkippedElements(!0),this.checkForIframeCoveringMostOfWebpage(),!!this.findArticleBySearchingQuirksList()||(this.cacheWindowScrollPosition(),!!this.findArticleFromMetadata(FindArticleMode.ExistenceOfElement)||(this.article=this.findArticleByVisualExamination(),this.article&&this.articleIsLTR(),!!this.article))},hasDominantContentIframe:function(){return document!==this.contentDocument},previewReaderImageURL:function(){const e=this.adoptableArticle(!0);if(!e)return null;const t=e.querySelectorAll("img");if(!t.length)return null;const n=window.innerWidth/2,i=window.innerHeight/2,r=this.contentDocument.elementsFromPoint(n,i).find((e=>"IMG"===e.tagName)),a=t[0].currentSrc;if(!r)return a;const l=[...t].find((e=>e.currentSrc===r.currentSrc));return l?l.currentSrc:a},resetArticleInformation:function(){this.didSearchForArticleNode=!1,this.didSearchForExtraArticleNode=!1,delete this.article,delete this.extraArticle,delete this._articleTitleInformation,delete this._articleTitleElement,delete this._leadingMediaElement,delete this._cachedContentTextStyle,delete this._adoptableArticle,delete this._articleIsLTR,delete this._nextPageURL,delete this._cachedScrollY,delete this._cachedScrollX,clearCachedElementBoundingRects()},reset:function(){const e=this.articleNode();this.resetArticleInformation(),this.prepareToTransitionToReader();const t=this.articleNode();return e===t||t.contains(e)},prepareToTransitionToReader:function(){this.adoptableArticle(!0),this.nextPageURL(),this.articleIsLTR()},nextPageURL:function(){if(!this._nextPageURL){var e=this.nextPageURLString();"undefined"!=typeof ReaderArticleFinderJSController&&e&&(e=ReaderArticleFinderJSController.substituteURLForNextPageURL(e)),this._nextPageURL=e}return this._nextPageURL},containerElementsForMultiPageContent:function(){const e=/(.*page[^0-9]*|.*article.*item[^0-9]*)(\d{1,2})(.*)/i,t=3;for(var n,i=[],r=this.articleNode(),a=0;!(n=e.exec(r.getAttribute("id")));)if(!(r=r.parentElement)||a++===t)return[];for(var l=childrenOfParentElement(r),o=l.length,s=0;s<o;++s){var c=l[s];if(c!==r){var m=e.exec(c.getAttribute("id"));m&&m[1]===n[1]&&m[3]===n[3]&&(isElementVisible(c)&&!isElementPositionedOffScreen(c)||i.push(c))}}return i},adoptableMultiPageContentElements:function(){return this.containerElementsForMultiPageContent().map((function(e){return this.cleanArticleNode(e,e.cloneNode(!0),CleaningType.MainArticleContent,!1)}),this)},classNameIsSignificantInRouteComputation:function(e){return!!e&&!(e.toLowerCase()in StylisticClassNames)},shouldIgnoreInRouteComputation:function(e){let t=normalizedElementTagName(e);return"script"===t||"link"===t||"style"===t||"tr"===t&&!e.offsetHeight},routeToArticleNode:function(){for(var e=[],t=this.articleNode();t;){var n={};n.tagName=normalizedElementTagName(t);var i=t.getAttribute("id");i&&(n.id=i),this.classNameIsSignificantInRouteComputation(t.className)&&(n.className=t.className),n.index=1;for(var r=t.previousElementSibling;r;r=r.previousElementSibling)this.shouldIgnoreInRouteComputation(r)||n.index++;e.unshift(n),t=t.parentElement}return e},adjustArticleNodeUpwardIfNecessary:function(){if(!this.article)return;var e=this.article.element;if(!e.parentElement)return;for(var t=e;t;t=t.parentElement)if(VeryPositiveClassNameRegEx.test(t.className))return void(this.article.element=t);if("header"===normalizedElementTagName(e)&&"article"===normalizedElementTagName(e.parentElement))return void(this.article.element=e.parentElement);var n=e.previousElementSibling;if(n&&"figure"===normalizedElementTagName(n)&&"article"===normalizedElementTagName(e.parentElement))return void(this.article.element=e.parentElement);var i="section"===normalizedElementTagName(e)?e:nearestAncestorElementWithTagName(e,"section",["article"]);if(i){var r=i.parentElement,a=function(){for(var e=r.children,t=e.length,n=0;n<t;++n){var a=e[n],l=normalizedElementTagName(a);if(a!==i&&("section"===l||"header"===l))return!0}return!1}();if(a&&(/\barticleBody\b/.test(r.getAttribute("itemprop"))||"main"===normalizedElementTagName(r)||"main"===r.getAttribute("role")||"article"===normalizedElementTagName(r)||r===this.contentDocument.body||r.classList.contains("entry-content")))return void(this.article.element=r)}const l=/intro/i,o=/body|content/i;if(e=this.article.element,l.test(e.className)&&e.nextElementSibling&&o.test(e.nextElementSibling.className)||o.test(e.className)&&e.previousElementSibling&&l.test(e.previousElementSibling.className))return void(this.article.element=e.parentElement);if("article"!==normalizedElementTagName(e)){var s=e.parentElement.closest("*[itemprop='articleBody']");if(s&&s.parentElement.closest(SchemaDotOrgArticleContainerSelector))return void(this.article.element=s)}var c=e.closest("article");if(c){e=unwrappedArticleContentElement(e);var m,d=elementDepth(e);"p"!==normalizedElementTagName(e)||e.className||(e=e.parentElement,d--),e.classList.length?1===(m=elementsMatchingClassesInClassListIgnoringCommonLayoutClassNames(e.classList,this.contentDocument)).length&&(m=elementsMatchingClassesInClassListIgnoringClassesWithNumericSuffix(e.classList,this.contentDocument)):m=e.parentElement.children;for(var h=m.length,u=0;u<h;++u){var g=m[u];if(e!==g&&d===elementDepth(g)&&(isElementVisible(g)&&!g.querySelector("article")&&Object.keys(e.dataset).join()===Object.keys(g.dataset).join()&&dominantFontFamilyAndSizeForElement(e)===dominantFontFamilyAndSizeForElement(g)))return void(this.article.element=c)}}let f=this.findExtraArticle(),p=f?f.element:null;if(p&&p.parentElement&&e.parentElement===p.parentElement&&ArticleRegEx.test(e.parentElement.className)){if(dominantFontFamilyAndSizeForElement(e)===dominantFontFamilyAndSizeForElement(p))return void(this.article.element=e.parentElement)}let E=e.parentElement;if(elementIsCommentBlock(e)&&!elementIsCommentBlock(E)&&ArticleRegEx.test(E.className)){let e=CandidateElement.candidateIfElementIsViable(E,this.contentDocument,!0);if(e&&e.finalScore()>=ReaderMinimumScore)return void(this.article.element=E)}if(!(e=this.article.element).getAttribute("id")&&e.className){var v=normalizedElementTagName(e),T=e.className,S=e.parentElement;if(S)for(var A=S.children,N=(u=0,A.length);u<N;++u){var y=A[u];if(y!==e&&(normalizedElementTagName(y)===v&&y.className===T)){var b=CandidateElement.candidateIfElementIsViable(y,this.contentDocument,!0);if(b&&!(b.finalScore()<ReaderMinimumScore))return void(this.article.element=S)}}}},findArticleBySearchingQuirksList:function(){var e,t=this.contentDocument;return findArticleNodeSelectorsInQuirksListForHostname(t.location.hostname,(function(n){var i=t.querySelectorAll(n);if(1===i.length)return e=new CandidateElement(i[0],t),!0})),e},articleNode:function(e){return this.checkForIframeCoveringMostOfWebpage(),this.didSearchForArticleNode||(this.article=this.findArticleBySearchingQuirksList(),this.article||(this.article=this.findArticleBySearchingAllElements()),this.article||(this.article=this.findArticleByVisualExamination()),this.article||(this.article=this.findArticleFromMetadata()),!this.article&&e&&(this.article=this.findArticleBySearchingAllElements(!0)),this.didSearchForArticleNode=!0,this.adjustArticleNodeUpwardIfNecessary(),this.article&&(this.article.element=unwrappedArticleContentElement(this.article.element)),this.article&&this.articleIsLTR()),this.article?this.article.element:null},extraArticleNode:function(){return this.didSearchForArticleNode||this.articleNode(),this.didSearchForExtraArticleNode||(this.extraArticle=this.findExtraArticle(),this.didSearchForExtraArticleNode=!0),this.extraArticle?this.extraArticle.element:null},cacheWindowScrollPosition:function(){this._cachedScrollY=window.scrollY,this._cachedScrollX=window.scrollX},contentTextStyle:function(){return this._cachedContentTextStyle||(this._cachedContentTextStyle=contentTextStyleForNode(this.contentDocument,this.articleNode()),this._cachedContentTextStyle||(this._cachedContentTextStyle=getComputedStyle(this.articleNode()))),this._cachedContentTextStyle},commaCountIsLessThan:function(e,t){for(var n=0,i=e.textContent,r=-1;n<t&&(r=i.indexOf(",",r+1))>=0;)n++;return n<t},calculateLinkDensityForPruningElement:function(e,t){var n=removeWhitespace(e.textContent).length;if(!n)return 0;for(var i=this.article.element,r=function(){for(var t=e.originalElement;t&&t!==i;t=t.parentElement)if("none"!==getComputedStyle(t).float)return t;return null}(),a=e.getElementsByTagName("a"),l=0,o=a.length,s=0;s<o;++s){var c=a[s];!r&&c.href&&t&&t===dominantFontFamilyAndSizeForElement(c.originalElement)||(l+=removeWhitespace(c.textContent).length)}return l/n},shouldPruneElement:function(e,t,n){const i=.33,r=.5,a=.2,l=25,o=4e4;let s=normalizedElementTagName(e);if(!e.parentElement)return!1;if(t.classList.contains("footnotes"))return!1;if(e.querySelector(".tweet-wrapper"))return!1;if("figure"===normalizedElementTagName(e.parentElement)&&e.querySelector("img"))return!1;if("iframe"===s)return shouldPruneIframe(e);if("canvas"!==s){for(var c=!1,m=e.childNodes.length,d=0;d<m;++d){var h=e.childNodes[d],u=h.nodeType;if(u===Node.ELEMENT_NODE||u===Node.TEXT_NODE&&!isNodeWhitespace(h)){c=!0;break}}if(!c){if("p"===s){var g=e.previousSibling,f=e.nextSibling;if(g&&g.nodeType===Node.TEXT_NODE&&!isNodeWhitespace(g)&&f&&f.nodeType===Node.TEXT_NODE&&!isNodeWhitespace(f))return!1}return!0}if("p"===s)return!1}if("canvas"===s)return window.innerWidth===t.width&&window.innerHeight===t.height||(!(!ProgressiveLoadingRegex.test(t.className)||"img"!==normalizedElementTagName(t.nextElementSibling))||(!!canvasElementHasNoUserVisibleContent(t)||"cufon"===normalizedElementTagName(e.parentNode)));if(e.closest("figure")&&e.querySelector("picture"))return!1;var p=0;if(t){if(VeryNegativeClassNameRegEx.test(t.className))return!0;var E=t.className,v=t.getAttribute("id");PositiveRegEx.test(E)&&p++,PositiveRegEx.test(v)&&p++,NegativeRegEx.test(E)&&p--,NegativeRegEx.test(v)&&p--}let T=this.isMediaWikiPage();if(p<0&&!T)return!0;if(elementIsProtected(e))return!1;if("ul"===s||"ol"===s){if(t.querySelector("iframe")&&t.querySelector("script"))return!0;var S=t.children,A=S.length;if(!A&&!/\S/.test(e.innerText))return!0;var N=0,y=0;for(d=0;d<A;++d){var b=S[d];if(SharingRegex.test(b.className))N++;else{var x=b.children;1===x.length&&SharingRegex.test(x[0].className)&&N++}NegativeRegEx.test(S[d].className)&&y++}return N/A>=MinimumRatioOfListItemsBeingRelatedToSharingToPruneEntireList||y/A>=MinimumRatioOfListItemsBeingRelatedToSharingToPruneEntireList}if(1===e.childElementCount){var D=e.firstElementChild;if("a"===normalizedElementTagName(D))return!1;if("span"===normalizedElementTagName(D)&&"converted-anchor"===D.className&&nearestAncestorElementWithTagName(D,"table"))return!1}var I=e.getElementsByTagName("img"),C=I.length;if(C){var R=0;for(d=0;d<C;++d){var L=I[d].originalElement;if(isElementVisible(L)){var M=cachedElementBoundingRect(L);R+=M.width/C*(M.height/C)}}if(R>o)return!1}if(!this.commaCountIsLessThan(e,10))return!1;var _=e.getElementsByTagName("p").length,w=e.getElementsByTagName("br").length,F=_+Math.floor(w/2);if(C>F&&"table"!==s)return!0;if(!e.closest("table")&&!e._originalElementDepthInCollapsedArea&&!T){if(e.getElementsByTagName("li").length>F&&dominantFontFamilyAndSizeForElement(t.querySelector("li"))!==n)return!0;if(e.textContent.length<l&&1!==C)return!0;let i=this.calculateLinkDensityForPruningElement(e,n);if(p>=1&&i>r)return!0;if(p<1&&i>a)return!0}if(e.getElementsByTagName("input").length/F>i)return!0;if("table"===s){if(removeWhitespace(e.innerText).length<=.5*removeWhitespace(t.innerText).length)return!0;if(T&&t.classList.contains("toc"))return!0}return!1},wordCountIsLessThan:function(e,t){for(var n=0,i=e.textContent,r=-1;(r=i.indexOf(" ",r+1))>=0&&n<t;)n++;return n<t},leadingMediaIsAppropriateWidth:function(e){return!(!this.article||!e)&&e.getBoundingClientRect().width>=this.article.element.getBoundingClientRect().width-ToleranceForLeadingMediaWidthToArticleWidthForFullWidthPresentation},newDivFromNode:function(e){var t=this.contentDocument.createElement("div");return e&&(t.innerHTML=e.innerHTML),t},headerElement:function(){if(!this.article)return null;var e=this.article.element.previousElementSibling;if(e&&"header"===normalizedElementTagName(e))return e;var t=this._articleTitleElement;if(!t)return null;var n=t.parentElement;if(n&&"header"===normalizedElementTagName(n)&&!this.article.element.contains(n))for(var i=n.querySelectorAll("img"),r=i.length,a=0;a<r;++a){var l=i[a],o=cachedElementBoundingRect(l);if(o.width>=MainImageMinimumWidthAndHeight&&o.height>=MainImageMinimumWidthAndHeight)return n}return null},adoptableLeadingMedia:function(){if(!this.article||!this._leadingMediaElement)return null;var e=this._leadingMediaElement.closest("figure");if(e)return this.cleanArticleNode(e,e.cloneNode(!0),CleaningType.LeadingMedia,!0);if(!this.leadingMediaIsAppropriateWidth(this._leadingMediaElement))return null;if("img"!==normalizedElementTagName(this._leadingMediaElement))return this.cleanArticleNode(this._leadingMediaElement,this._leadingMediaElement.cloneNode(!0),CleaningType.LeadingMedia,!0);const t=5,n=/credit/,i=/caption/,r=/src|alt/;var a=this._leadingMediaElement.parentNode,l=null,o=null,s=a.children.length;if("div"===normalizedElementTagName(a)&&s>1&&s<t)for(var c=a.cloneNode(!0).querySelectorAll("p, div"),m=c.length,d=0;d<m;++d){var h=c[d];n.test(h.className)?l=h.cloneNode(!0):i.test(h.className)&&(o=h.cloneNode(!0))}var u=this._leadingMediaElement.cloneNode(!1),g=lazyLoadingImageURLForElement(u,u.className);g&&u.setAttribute("src",g),!g&&u.hasAttribute("src")||!u.hasAttribute("data-srcset")||u.setAttribute("srcset",u.getAttribute("data-srcset"));var f=attributesForElement(u);for(d=0;d<f.length;++d){var p=f[d].nodeName;r.test(p)||(u.removeAttribute(p),d--)}var E=this.contentDocument.createElement("div");if(E.className="leading-image",E.appendChild(u),l){var v=this.newDivFromNode(l);v.className="credit",E.appendChild(v)}if(o){var T=this.newDivFromNode(o);T.className="caption",E.appendChild(T)}return E},articleBoundingRect:function(){return this._articleBoundingRect||(this._articleBoundingRect=cachedElementBoundingRect(this.article.element)),this._articleBoundingRect},updatePageInformation:function(e){this.pageNumber=e.pageNumber,this.suggestedRouteToArticle=e.suggestedRouteToArticle,this.previouslyDiscoveredPageURLStrings=e.previouslyDiscoveredPageURLStrings},hasArticle:function(){return!!this.article},serializableArticle:function(){const e=this.adoptableArticle(!0);if(!e)return null;let t;const n=this.adoptableMetadataBlock();return n&&(t=webkit.serializeNode(n,{deep:!0})),{articleIsLTR:this.articleIsLTR(),articleNode:webkit.serializeNode(e,{deep:!0}),articleTitle:this.articleTitle(),articleTitleInformation:this.articleTitleInformation(),articleSubhead:this.articleSubhead(),baseURI:this.contentDocument.baseURI,documentURLString:this.documentURLString(),heightOfArticleNode:this.heightOfArticleNode(),metadataBlock:t,multiPageContentElements:this.adoptableMultiPageContentElements().map((()=>webkit.serializeNode(multiPageContentElements,{deep:!0}))),nextPageURL:this.nextPageURL(),routeToArticleNode:this.routeToArticleNode()}},updatePageInformation:function(e){this.pageNumber=e.pageNumber,this.suggestedRouteToArticle=e.suggestedRouteToArticle,this.previouslyDiscoveredPageURLStrings=e.previouslyDiscoveredPageURLStrings},heightOfArticleNode:function(){return this.articleNode()?.getBoundingClientRect()?.height},adoptableArticle:function(e){if(this._adoptableArticle)return this._adoptableArticle.cloneNode(!0);this.setSuppressBoundingRectCalculationForSkippedElements(!1),clearCachedElementBoundingRects(),this.cacheWindowScrollPosition();var t=this.articleNode(e);if(this._adoptableArticle=t?t.cloneNode(!0):null,!this._adoptableArticle)return this._adoptableArticle;if(this._adoptableArticle=this.cleanArticleNode(t,this._adoptableArticle,CleaningType.MainArticleContent,!1),"p"===normalizedElementTagName(this._adoptableArticle)){var n=document.createElement("div");n.appendChild(this._adoptableArticle),this._adoptableArticle=n}var i=this.extraArticleNode();if(i){var r=this.cleanArticleNode(i,i.cloneNode(!0),CleaningType.MainArticleContent,!0);r?this.extraArticle.isPrepended?this._adoptableArticle.insertBefore(r,this._adoptableArticle.firstChild):this._adoptableArticle.appendChild(r):i=null;var a=cachedElementBoundingRect(this.article.element),l=cachedElementBoundingRect(this.extraArticle.element),o={top:Math.min(a.top,l.top),right:Math.max(a.right,l.right),bottom:Math.max(a.bottom,l.bottom),left:Math.min(a.left,l.left)};o.width=o.right-o.left,o.height=o.bottom-o.top,this._articleBoundingRect=o}this._articleTextContent=this._adoptableArticle.innerText;var s=this.headerElement();if(this._leadingMediaElement&&(!s||!s.contains(this._leadingMediaElement))){var c=this.adoptableLeadingMedia();c&&this._adoptableArticle.insertBefore(c,this._adoptableArticle.firstChild)}var m=!!s;if(m&&i&&(i===s&&(m=!1),m)){var d=i.compareDocumentPosition(s);(d&Node.DOCUMENT_POSITION_CONTAINS||d&Node.DOCUMENT_POSITION_CONTAINED_BY)&&(m=!1)}if(m){var h=this.cleanArticleNode(s,s.cloneNode(!0),CleaningType.MainArticleContent,!0);h&&this._adoptableArticle.insertBefore(h,this._adoptableArticle.firstChild)}return this._adoptableArticle},dominantContentSelectorAndDepth:function(e){var t,n={},i={};walkElementSubtree(e,2,(function(e,t){if(isElementVisible(e)){var r=selectorForElement(e)+" | "+t;i[r]?i[r]+=1:(i[r]=1,n[r]=e)}}));var r=arrayOfKeysAndValuesOfObjectSortedByValueDescending(i);switch(r.length){case 0:break;case 1:t=r[0].key;break;default:var a=r[0];a.value>r[1].value&&(t=a.key)}if(!t)return null;var l=n[t];return{selector:selectorForElement(l),depth:depthOfElementWithinElement(l,e)}},functionToPreventPruningElementDueToInvisibility:function(){return functionToPreventPruningDueToInvisibilityInQuirksListForHostname(this.contentDocument.location.hostname)||function(){return!1}},cleanArticleNode:function(e,t,n,i){function r(e){v+=e,T&&(T+=e),S&&(S+=e),A&&(A+=e),N&&(N+=e),y&&(y+=e)}function a(){1===T&&(T=0),1===S&&(S=0),1===A&&(A=0),1===N&&(N=0),1===y&&(y=0)}function l(){const t=.8;var n=cachedElementBoundingRect(e);if(0===n.width||0===n.height)return!0;var i,r=childrenWithParallelStructure(e),a=r.length;if(a){i=[];for(var l=0;l<a;++l){var o=r[l];if("none"===getComputedStyle(o).float)for(var s=o.children,c=s.length,m=0;m<c;++m)i.push(s[m]);else i.push(o)}}else i=e.children;var d=i.length,h=0;for(l=0;l<d;++l){var u=i[l];"none"!==getComputedStyle(u).float&&(h+=u.innerText.length)}return h/e.innerText.length>t}function o(t){const n=50;if(cachedElementBoundingRect(t).height>n)return!1;return!!new Set(["ul","li","nav"]).has(normalizedElementTagName(t))||t.parentElement===e&&!t.nextElementSibling}function s(e,t){const n=.9;return!(cachedElementBoundingRect(e).height>n*cachedElementBoundingRect(t).height)}function c(e,t){const n=1.1,i=1.4;t&&W&&(e.matches(HeaderElementsSelector)||(t>i*W||H.test(b.className)&&t>n*W)&&!e.closest(".pullquote")&&(e.classList.add("pullquote"),e.classList.contains("float")||(e.style.width=null,cleanStyleAndClassList(e))))}function m(e,t){for(var n=e[t];n;n=n[t])if(!isNodeWhitespace(n)&&n.nodeType!==Node.COMMENT_NODE)return!1;return!0}const d=new Set(["form","script","style","link","button","object","embed","applet"]),h=new Set(["div","table","ul","canvas","p","iframe","aside","section","footer","nav","ol","menu","svg"]),u=new Set(["i","em"]),g=new Set(["b","strong","h1","h2","h3","h4","h5","h6"]),f=new Set(["i-amphtml-sizer"]),p=/lightbox/i;var E=[],v=0,T=0,S=0,A=0,N=0,y=0,b=e,x=(b.ownerDocument.defaultView,t),D=this.articleTitle(),I=this._articleTitleElement,C=(this.articleSubhead(),this._articleSubheadElement),R=I&&cachedElementBoundingRect(I).top>cachedElementBoundingRect(e).bottom,L=isElementVisible(e),M=new Set([I,C]),_=new Set;if(n===CleaningType.MainArticleContent){this.updateArticleBylineAndDateElementsIfNecessary();var w=this.articleBylineElement();w&&_.add(w);var F=this.articleDateElement();F&&_.add(F)}var O=this.dominantContentSelectorAndDepth(e),B=l(),P=new Set;this.previouslyDiscoveredPageURLStrings.forEach((function(e){P.add(e)}));var k=this.nextPageURL();k&&P.add(k);var q=null;this._articleTitleElement&&(q=cachedElementBoundingRect(this._articleTitleElement));var U=this.functionToPreventPruningElementDueToInvisibility(),z=dominantFontFamilyAndSizeForElement(e),W=dominantFontSizeInPointsFromFontFamilyAndSizeString(z);const H=/pull(ed)?quote/i;for(var V=[],j=[],Y=[],G=[],Q=[];b;){try{var X,J=null,K=normalizedElementTagName(x),$=!1,Z=elementLooksLikeDropCap(b);if(x.originalElement=b,!y&&elementAppearsToBeCollapsed(b)&&(y=1),(d.has(K)||this.isAMPPage()&&f.has(K))&&(J=x),!J&&b!==e&&M.has(b)?J=x:!J&&b!==e&&_.has(b)?(x.parentElementBeforePruning=x.parentElement,J=x,V.push(x)):elementIsAHeader(x)&&previousLeafElementForElement(b)===I&&x.classList.add("protected"),"twitter-widget"===K&&x.classList.add("protected"),!J&&("h1"===K||"h2"===K))if(b.offsetTop-e.offsetTop<HeaderMinimumDistanceFromArticleTop){var ee=trimmedInnerTextIgnoringTextTransform(b),te=ee.length*HeaderLevenshteinDistanceToLengthRatio;levenshteinDistance(D,ee)<=te&&(J=x)}if(J||this.isMediaWikiPage()&&/editsection|icon-edit|edit-page|mw-empty-elt/.test(b.className)&&(J=x),"video"===K)if(x.getAttribute("src")){x.classList.add("protected");var ne=cachedElementBoundingRect(b);x.setAttribute("width",ne.width),x.setAttribute("height",ne.height),x.removeAttribute("style");b.hasAttribute("autoplay")&&b.hasAttribute("muted")&&b.hasAttribute("loop")?x.setAttribute("data-reader-silent-looped-animation",""):(x.setAttribute("controls",!0),x.removeAttribute("autoplay"),x.removeAttribute("preload"))}else J=x;J||(X=getComputedStyle(b));let t=function(){if("div"!==K&&"span"!==K)return!1;if(LazyLoadRegex.test(b.className))return!0;for(let e of attributesForElement(b))if(/^data-/.test(e.name)&&LazyLoadRegex.test(e.value)&&cachedElementBoundingRect(b).height)return!0;return!1}();if(!J&&t&&(!b.innerText||b.previousElementSibling&&"noscript"===normalizedElementTagName(b.previousElementSibling)))if(xe=lazyLoadingImageURLForElement(x,b.className)){var ie=this.contentDocument.createElement("img");ie.setAttribute("src",xe),x.parentNode.replaceChild(ie,x),(x=ie).originalElement=b,K=normalizedElementTagName(x),J=x,x.classList.add("protected")}if(!J&&"img"!==K&&/img/.test(K)){lazyLoadingImageURLForElement(x,b.className)&&((x=changeElementType(x,"img")).originalElement=b,K="img")}if(!J&&"div"===K&&x.parentNode){var re=b.querySelectorAll("a, blockquote, dl, div, img, ol, p, pre, table, ul"),ae=T||"none"!==X.float,le=null;if(ae||re.length?elementIndicatesItIsASchemaDotOrgImageObject(b)&&!x.querySelector("figure, .auxiliary")?le="figure":Z&&(le="span"):le="p",le){for(var oe=x.parentNode,se=this.contentDocument.createElement(le);x.firstChild;){var ce=x.firstChild;se.appendChild(ce)}oe.replaceChild(se,x),(x=se).originalElement=b,K=normalizedElementTagName(x)}}if(b.dataset&&b.dataset.mathml&&b.querySelector("math")&&Y.push(x),!J&&x.parentNode&&h.has(K)&&(x._originalElementDepthInCollapsedArea=y,E.push(x)),J||(isElementPositionedOffScreen(b)?J=x:b===e||T||"none"===X.float||B||!(cachedElementBoundingRect(b).height>=FloatMinimumHeight||b.childElementCount>1)||(T=1)),!J){if(sanitizeElementByRemovingAttributes(x),n===CleaningType.MetadataContent)if("|"===x.innerText)x.innerText="",x.classList.add("delimiter");else if("time"===normalizedElementTagName(x)){var me=x.previousElementSibling;if(me&&"span"===normalizedElementTagName(me)&&!me.classList.contains("delimiter")){var de=this.contentDocument.createElement("span");de.classList.add("delimiter"),x.before(de)}}else"figure"===K&&(J=x);if("both"===X.clear&&x.classList.add("clear"),"ul"===K||"ol"===K||"menu"===K){if(q&&!y&&cachedElementBoundingRect(b).top<q.top)J=x;else if("none"===X["list-style-type"]&&"none"===X["background-image"]){for(var he=b.children,ue=he.length,ge=!0,fe=0;fe<ue;++fe){var pe=he[fe],Ee=getComputedStyle(pe);if("none"!==Ee["list-style-type"]||0!==parseInt(Ee["-webkit-padding-start"])){ge=!1;break}var ve=getComputedStyle(pe,":before").content;if(/\u2022|\u25e6|\u2023|\u2219|counter/.test(ve)){ge=!1;break}}ge&&x.classList.add("list-style-type-none")}if(b.querySelector("code")){const e=/monospace|menlo|courier/i;var Te=dominantFontFamilyAndSizeForElement(b);e.test(Te)&&(x.classList.add("code-block"),x.classList.add("protected"))}}if(A||"normal"===X.fontStyle||(u.has(K)||x.style&&(x.style.fontStyle=X.fontStyle),A=1),!N&&"normal"!==X.fontWeight){if(!g.has(K)){var Se=parseInt(X.fontWeight),Ae=null;isNaN(Se)?Ae=X.fontWeight:Se<=400||Se>=500&&(Ae="bold"),Ae&&x.style&&(x.style.fontWeight=Ae)}N=1}if(T&&"section"!==K&&s(b,e)||"aside"===K){Te=dominantFontFamilyAndSizeForElement(b);var Ne=dominantFontSizeInPointsFromFontFamilyAndSizeString(Te),ye=Te&&Te===z;if(1!==T||Z||(cachedElementBoundingRect(b).width<=MaximumFloatWidth?x.setAttribute("class","auxiliary float "+X.float):ye||x.classList.add("auxiliary")),x.closest(".auxiliary")&&b.style){var be=b.style.getPropertyValue("width");"table"===X.display&&/%/.test(be)&&parseInt(be)<2?x.style.width=X.width:be?x.style.width=be:J=x,1!==T||be||(x.style.width=cachedElementBoundingRect(b).width+"px")}Z||c(x,Ne)}if("table"===K)S||(S=1);else if("img"===K){var xe;if(xe=lazyLoadingImageURLForElement(x,b.className)){x.setAttribute("src",xe);var De=!!x.closest("figure");if(!De){var Ie=attributesForElement(b),Ce=Ie.length;for(fe=0;fe<Ce;++fe)if(p.test(Ie[fe].nodeName)){De=!0;break}}De&&x.classList.add("protected"),$=!0}!xe&&x.hasAttribute("src")||!b.hasAttribute("data-srcset")||x.setAttribute("srcset",b.getAttribute("data-srcset")),x.removeAttribute("border"),x.removeAttribute("hspace"),x.removeAttribute("vspace");var Re=x.getAttribute("align");if(x.removeAttribute("align"),"left"!==Re&&"right"!==Re||(x.classList.add("float"),x.classList.add(Re)),!T&&!$){var Le,Me=(Le=cachedElementBoundingRect(b)).width,_e=Le.height;hasClassMatchingRegexp(b,ProgressiveLoadingRegex)&&b.nextElementSibling&&"img"===normalizedElementTagName(b.nextElementSibling)?J=x:imageIsContainedByContainerWithImageAsBackgroundImage(b)?x.classList.add("protected"):1===Me&&1===_e||q&&_e<MinimumHeightForImagesAboveTheArticleTitle&&Le.bottom<q.top?J=x:Me<ImageSizeTiny&&_e<ImageSizeTiny&&x.setAttribute("class","reader-image-tiny")}if(n===CleaningType.MetadataContent)((Le=cachedElementBoundingRect(b)).width>MaximumWidthOrHeightOfImageInMetadataSection||Le.height>MaximumWidthOrHeightOfImageInMetadataSection)&&(J=x);if(b.classList.contains("emoji")){let e=urlFromString(x.src);if(e&&"s.w.org"===e.hostname&&e.pathname.startsWith("/images/core/emoji/")){let e=this.replaceImageWithAltText(x);e&&((x=e).originalElement=b,K=normalizedElementTagName(x),J=x,x.classList.add("protected"))}}}else if("font"===K)x.removeAttribute("size"),x.removeAttribute("face"),x.removeAttribute("color");else if("a"===K&&x.parentNode){let e,t;x instanceof HTMLAnchorElement?(e=x.getAttribute("href"),t=HTMLAnchorElement):x instanceof SVGAElement&&(e=x.getAttribute("xlink:href"),t=SVGAElement);let i=x.originalElement.ownerDocument.location,r=urlStringShouldHaveItsAnchorMadeNonFunctional(e,i);if(t===HTMLAnchorElement&&"author"===b.getAttribute("itemprop"))x.classList.add("protected");else if(e&&e.length&&("#"===e[0]||r)){const e=new Set(["li","sup"]);if(!S&&!x.childElementCount&&1===x.parentElement.childElementCount&&!e.has(normalizedElementTagName(x.parentElement)))this.contentDocument.evaluate("text()",x.parentElement,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null).snapshotLength||(J=x);if(!J){se=this.contentDocument.createElement("span");if(1===x.childElementCount&&"img"===normalizedElementTagName(x.firstElementChild)){var we=x.firstElementChild;we.width>AnchorImageMinimumWidth&&we.height>AnchorImageMinimumHeight&&se.setAttribute("class","converted-image-anchor")}for(se.className||se.setAttribute("class","converted-anchor");x.firstChild;)se.appendChild(x.firstChild);x.parentNode.replaceChild(se,x),(x=se).originalElement=b}}else if(AdvertisementHostRegex.test(x.host)&&!x.innerText)J=x;else if(n!==CleaningType.MetadataContent&&I&&!R&&I.compareDocumentPosition(b)&document.DOCUMENT_POSITION_PRECEDING&&cachedElementBoundingRect(b).top<cachedElementBoundingRect(I).top)j.push(x);else{var Fe=b.children;1===Fe.length&&"img"===normalizedElementTagName(Fe[0])&&!b.innerText&&anchorLooksLikeDownloadFlashLink(b)&&(J=x)}r&&(x.removeAttribute("xlink:href"),x.removeAttribute("href"))}else if("aside"===K||"blockquote"===K||"q"===K||"div"===K&&H.test(b.className)){Te=dominantFontFamilyAndSizeForElement(b),Ne=dominantFontSizeInPointsFromFontFamilyAndSizeString(Te);Z||c(x,Ne)}else if("cite"===K){var Oe=pseudoElementContent(b,":after")??"",Be=document.createElement("span");Be.innerText=Oe,x.after(Be)}else"pre"===K?x.style.whiteSpace=X.whiteSpace:"source"===K&&b.hasAttribute("data-srcset")?(x.setAttribute("srcset",b.getAttribute("data-srcset")),x.classList.add("protected")):x instanceof SVGAnimateElement&&"xlink:href"===x.attributes.attributeName.value&&(J=x)}if(X&&L&&!$){var Pe="none"===X.display||"visible"!==X.visibility||computedStyleIndicatesElementIsInvisibleDueToClipping(X);if(Pe||"img"===K||(Pe="0"===X.opacity&&"absolute"===X.position&&!x.closest("figure")),Pe&&!y)!!O&&(v===O.depth&&selectorForElement(b)===O.selector)||U(b,e)||(J=x)}if(!J&&elementIsCommentBlock(b)&&(J=x),!J&&q&&cachedElementBoundingRect(b).top<q.top&&VeryLiberalCommentRegex.test(b.className)&&x.parentElement&&(J=x),!J&&"a"===K&&P.has(b.href)){for(var ke,qe,Ue=b,ze=x;(Ue=Ue.parentElement)&&(ze=ze.parentElement);){const t=10;if(cachedElementBoundingRect(Ue).top-cachedElementBoundingRect(b).top>t)break;if(Ue===e)break;o(Ue)&&(ke=Ue,qe=ze)}ke&&(J=qe,b=ke,(x=qe).originalElement=b,K=normalizedElementTagName(x)),Ue=null,ze=null,ke=null,qe=null}}catch(e){J=x}if(!J||J.parentElement||i||(J=null),"div"===K?G.push(x):"aside"===K&&Q.push(x),!J){let e=this._weakMapOfOriginalElementToUniqueID.get(x.originalElement);e||(e=this._nextUniqueID()),this._mapOfUniqueIDToOriginalElement.set(e,x.originalElement),x.setAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY,e),this._weakMapOfOriginalElementToUniqueID.set(x.originalElement,e)}var We=J?null:b.firstElementChild;if(We)b=We,x=x.firstElementChild,r(1);else{for(var He;b!==e&&!(He=b.nextElementSibling);)b=b.parentElement,x=x.parentElement,r(-1);if(b===e){if(J&&!elementIsProtected(J))if(J.parentElement)J.remove();else if(i)return null;break}b=He,x=x.nextElementSibling,a()}if(J&&!elementIsProtected(J))if(J.parentElement)J.remove();else if(i)return null}for(let e of t.querySelectorAll("iframe")){if(elementLooksLikeEmbeddedTweet(e.originalElement))(Ve=this.adoptableSimpleTweetFromTwitterElement(e))&&e.parentElement.replaceChild(Ve,e);e.classList.add("protected"),e.setAttribute("sandbox","allow-scripts allow-same-origin")}for(let e of t.querySelectorAll("twitter-widget")){var Ve;if(elementLooksLikeEmbeddedTweet(e.originalElement))(Ve=this.adoptableSimpleTweetFromTwitterElement(e))&&e.parentElement.replaceChild(Ve,e);e.classList.add("protected")}const je=t.querySelectorAll("blockquote"),Ye=je.length;for(fe=0;fe<Ye;++fe){const e=je[fe],t=e.originalElement;t&&this.convertBlockquoteTweetToSimpleTweetIfAppropriate(e,t)}for(fe=E.length-1;fe>=0;--fe){(ft=E[fe]).parentNode&&this.shouldPruneElement(ft,ft.originalElement,z)&&ft.remove(),delete ft._originalElementDepthInCollapsedArea}var Ge=j.length;for(fe=0;fe<Ge;++fe)j[fe].remove();var Qe=t.querySelectorAll(".float");for(fe=0;fe<Qe.length;++fe){var Xe=!1,Je=Qe[fe];if(!Xe){var Ke=Je.querySelectorAll("a, span.converted-image-anchor"),$e=Je.querySelectorAll("span.converted-anchor");Xe=Je.parentNode&&$e.length>Ke.length}if(!Xe){var Ze=Je.querySelectorAll("embed, object").length,et=Je.originalElement.querySelectorAll("embed, object").length;!Ze&&et&&(Xe=!0)}if(!Xe){for(var tt=Je.originalElement.getElementsByTagName("img"),nt=tt.length,it=0,rt=0;rt<nt&&(L&&isElementVisible(tt[rt])&&it++,!(it>1));++rt);if(1===it)Je.getElementsByTagName("img").length||(Xe=!0)}if(!Xe){const e="img, video, embed, iframe, object, svg";/\S/.test(Je.innerText)||Je.matches(e)||Je.querySelector(e)||(Xe=!0)}Xe&&!elementIsProtected(Je)&&Je.remove()}var at=t.querySelectorAll("br");for(fe=at.length-1;fe>=0;--fe){var lt=at[fe];lt.originalElement&&"block"===getComputedStyle(lt.originalElement.parentElement).display&&(m(lt,"nextSibling")||m(lt,"previousSibling"))&&lt.remove()}if(i&&!removeWhitespace(t.innerText).length&&(n!==CleaningType.LeadingMedia||!t.querySelector("video, iframe, img")))return null;var ot={},st=(Ke=t.querySelectorAll("a")).length;for(fe=0;fe<st;++fe){ot[ct=(ht=Ke[fe]).style.fontWeight]||(ot[ct]=[]),ot[ct].push(ht)}for(var ct in ot){var mt=ot[ct],dt=mt.length;if(dt>.7*st)for(fe=0;fe<dt;++fe){var ht;(ht=mt[fe]).style.fontWeight=null,ht.getAttribute("style")||ht.removeAttribute("style")}}var ut=t.querySelectorAll(".protected"),gt=ut.length;for(fe=0;fe<gt;++fe){var ft;(ft=ut[fe]).classList.remove("protected"),ft.classList.length||ft.removeAttribute("class")}var pt=t.querySelectorAll("p.auxiliary"),Et=pt.length;for(fe=0;fe<Et;++fe){for(var vt=pt[fe],Tt=[vt],St=vt.nextElementSibling;St&&"p"===normalizedElementTagName(St)&&St.classList.contains("auxiliary");)Tt.push(St),St=St.nextElementSibling;var At=Tt.length;if(At>1){for(rt=0;rt<At;++rt){var Nt=Tt[rt];Nt.classList.remove("auxiliary"),Nt.style&&(Nt.style.width=null),cleanStyleAndClassList(Nt)}fe+=At-1}}for(fe=G.length-1;fe>=0;--fe){var yt=G[fe];yt!==t&&elementWouldAppearBetterAsFigureOrAuxiliary(yt.originalElement,yt)&&changeElementType(yt,"figure")}for(fe=Q.length-1;fe>=0;--fe){var bt=Q[fe];bt!==t&&elementWouldAppearBetterAsFigureOrAuxiliary(bt.originalElement,bt)&&bt.classList.add("auxiliary")}var xt=V.length;for(fe=0;fe<xt;++fe){var Dt=V[fe],It=Dt.parentElementBeforePruning,Ct=null,Rt=null;if(It)Ct=depthOfElementWithinElement(It,t),Rt=selectorForElement(It);var Lt=It?It.closest("ul"):null;if(Lt)Lt.remove();else{const e=40;It&&cachedElementBoundingRect(It.originalElement).height<e&&(!O||O.selector!==Rt||O.depth!==Ct)?It.remove():Dt.remove()}}var Mt=Y.length;for(fe=0;fe<Mt;++fe){var _t=Y[fe],wt=this.contentDocument.createElement("div");wt.innerHTML=_t.dataset?_t.dataset.mathml:"",_t.parentNode.replaceChild(wt,_t)}return t},convertBlockquoteTweetToSimpleTweetIfAppropriate:function(e,t){const n=t.classList;if(!n.contains("twitter-tweet")&&!n.contains("twitter-video"))return;const i=t.getElementsByTagName("a"),r=i.length;if(r<1)return;const a=i[r-1];if("twitter.com"!==a.host)return;const l=lastPathComponentFromAnchor(a);if(isNaN(parseInt(l)))return;const o=this.contentDocument.createElement("div");o.setAttribute("data-reader-tweet-id",l),o.classList.add("tweet-wrapper"),e.parentElement.replaceChild(o,e),e.classList.add("simple-tweet"),o.appendChild(e)},adoptableSimpleTweetFromTwitterElement:function(e){var t=function(e){var t=this.contentDocument.createElement("div"),n=this.contentDocument.createTextNode(e);return t.appendChild(n),t.innerHTML}.bind(this);let n=null,i=e.originalElement;if("iframe"===normalizedElementTagName(e)?n=i.contentDocument?i.contentDocument.documentElement:null:"twitter-widget"===normalizedElementTagName(e)&&(n=i.shadowRoot),!n)return null;var r=n.querySelector("[data-tweet-id].expanded")||n.querySelector("[data-tweet-id]");if(!r)return null;var a=this.contentDocument.createElement("div");a.classList.add("tweet-wrapper");var l=this.contentDocument.createElement("blockquote");l.classList.add("simple-tweet"),a.appendChild(l);var o=r.getAttribute("data-tweet-id");a.setAttribute("data-reader-tweet-id",o);var s=r.querySelector(".dateline"),c=r.querySelector('[data-scribe="element:screen_name"]'),m=r.querySelector('[data-scribe="element:name"]'),d=r.querySelector(".e-entry-title");if(!(s&&c&&m&&d))return a;var h="&mdash; "+t(m.innerText)+" ("+t(c.innerText)+")",u=this.contentDocument.createElement("p");u.innerHTML=d.innerHTML,l.appendChild(u),l.insertAdjacentHTML("beforeend",h);var g=this.contentDocument.createElement("span");g.innerHTML=s.innerHTML,l.appendChild(g);for(let e of l.querySelectorAll("img.twitter-emoji"))this.replaceImageWithAltText(e);for(var f=l.getElementsByTagName("*"),p=f.length,E=0;E<p;++E){e=f[E];"script"===normalizedElementTagName(e)?e.remove():sanitizeElementByRemovingAttributes(e)}return a},replaceImageWithAltText:function(e){var t=e.getAttribute("alt");if(!t||t.length<1)return null;let n=this.contentDocument.createElement("span");return n.innerText=t,e.parentNode.replaceChild(n,e),n},leadingVideoNode:function(){var e=this.leadingContentNodeWithSelector("video, iframe");return e&&e.parentElement&&!e.previousElementSibling&&!e.nextElementSibling?e.parentElement:null},leadingImageNode:function(){return this.leadingContentNodeWithSelector("figure img, img")},ancestorsOfElement:function(e){let t=[],n=e.parentNode;for(;n;)t.push(n),n=n.parentNode;return t},leadingContentNodeWithSelector:function(e){const t=250,n=.5,i=.9,r=3;if(!this.article||!this.article.element)return null;let a=0;if(this._articleTitleElement){let e,t=this.ancestorsOfElement(this.article.element);for(let n of t)if(n.contains(this._articleTitleElement)){e=n;break}a=t.length-this.ancestorsOfElement(e).length+2}let l=Math.max(r,a);for(var o=this.article.element,s=0;s<l&&o.parentNode;++s){var c=(o=o.parentNode).querySelectorAll(e);for(var m of c)if(m&&isElementVisible(m)){var d=cachedElementBoundingRect(m);if(!(d.width>=window.innerWidth*i)&&d.height<t)continue;if(d.width<this._articleWidth*n)continue;var h=this.article.element.compareDocumentPosition(m);if(!(h&Node.DOCUMENT_POSITION_PRECEDING)||h&Node.DOCUMENT_POSITION_CONTAINED_BY)continue;var u=this.extraArticle?this.extraArticle.element:null;if(u&&this.article.element.compareDocumentPosition(u)&Node.DOCUMENT_POSITION_FOLLOWING&&(h=u.compareDocumentPosition(m))&&(!(h&Node.DOCUMENT_POSITION_PRECEDING)||h&Node.DOCUMENT_POSITION_CONTAINED_BY))continue;return m}}return null},pageImageURLFromMetadata:function(e){var t=e["property:og:image"];if(t||(t=e["property:twitter:image"]),t||(t=e["property:twitter:image:src"]),t){let e=urlFromString(t);if(e){let n=e.href;n&&urlIsHTTPFamilyProtocol(e)&&(t=n)}}return t},mainImageNode:function(){var e=this.leadingImageNode();if(e)return e;if(this.article&&this.article.element)for(var t=this.article.element.querySelectorAll("img"),n=t.length,i=0;i<n;++i){var r=t[i],a=r._cachedElementBoundingRect;if(a||(a=r.getBoundingClientRect()),a.width>=MainImageMinimumWidthAndHeight&&a.height>=MainImageMinimumWidthAndHeight)return r}return null},schemaDotOrgMetadataObjectForArticle:function(){if(this._schemaDotOrgMetadataObjectForArticle)return this._schemaDotOrgMetadataObjectForArticle;const e=new Set(["Article","NewsArticle","Report","ScholarlyArticle","SocialMediaPosting","BlogPosting","LiveBlogPosting","DiscussionForumPosting","TechArticle","APIReference"]);var t=this.contentDocument.querySelectorAll("script[type='application/ld+json']"),n=t.length;try{for(var i=0;i<n;++i){var r=t[i],a=JSON.parse(r.textContent),l=a["@context"];if("https://schema.org"===l||"http://schema.org"===l){var o=a["@type"];if(e.has(o))return this._schemaDotOrgMetadataObjectForArticle=a,a}}return null}catch(e){return null}},articleTitle:function(){var e=this.articleTitleInformation();return e?e.titleText:""},articleTitleInformation:function(){function e(e,t){var n=e?t.indexOf(e):-1;return-1!==n&&(0===n||n+e.length===t.length)}function t(e,t){return e.host===t.host&&e.pathname===t.pathname&&e.hash===t.hash}function n(e){let t=nearestAncestorElementWithTagName(e,"a")||e.querySelector("a");return t?urlStringShouldHaveItsAnchorMadeNonFunctional(t.href,t.ownerDocument.location)?null:t:null}if(!this.articleNode())return;if(this._articleTitleInformation)return this._articleTitleInformation;const i=/((article|post).*title|headline|instapaper_title|inside-head)/i,r=600,a=20,l=8,o=1.1,s=1.25,c=/header|title|headline|instapaper_title/i,m=1.5,d=1.8,h=1.5,u=.6,g=3,f=1.5,p=.8,E=.8,v=9,T=1.5,S=/byline|author/i;var A=function(e,t){var n=this.contentFromUniqueMetadataSelector(e,t);if(n){var i=this.articleTitleAndSiteNameFromTitleString(n);i&&(n=i.articleTitle)}return n}.bind(this),N=function(){for(var e=this.articleNode();e;e=e.parentElement)if(elementIndicatesItIsASchemaDotOrgArticleContainer(e))return e;return null}.bind(this)(),y=N?this.contentFromUniqueMetadataSelector(N,"meta[itemprop=headline]"):"",b=N?this.contentFromUniqueMetadataSelector(N,"meta[itemprop=alternativeHeadline]"):"",x=this.contentDocument,D=x.location,I=x.title,C=A(x,"meta[property='og:title']"),R=this.contentFromUniqueMetadataSelector(x,"meta[property='og:site_name']"),L=A(x,"meta[name='twitter:title']"),M=A(x,"meta[name='sailthru.headline']"),_=this.schemaDotOrgMetadataObjectForArticle(),w=_?_.headline:null,F=this.articleNode(),O=cachedElementBoundingRect(F);this.extraArticleNode()&&this.extraArticle.isPrepended&&(O=cachedElementBoundingRect(this.extraArticleNode()));var B=O.left+O.width/2,P=O.top,k=P;(this._articleWidth=O.width,this._leadingMediaElement=this.leadingImageNode(),this._leadingMediaElement||(this._leadingMediaElement=this.leadingVideoNode()),this._leadingMediaElement)&&(k=(cachedElementBoundingRect(this._leadingMediaElement).top+P)/2);var q="h1, h2, h3, h4, h5, a:not(svg a), p, div, span",U=normalizedElementTagName(this.article.element);"dl"!==U&&"dd"!==U||(q+=", dt");for(var z=[],W=x.querySelectorAll(q),H=W.length,V=0;V<H;++V){var j=W[V],Y=normalizedElementTagName(j);if("a"===Y)j.innerText===C&&t(j,D)&&(j.previousElementSibling||j.nextElementSibling?z.push(j):z.push(j.parentElement));else if("div"===Y||"span"===Y||"p"===Y){if(hasClassMatchingRegexp(j,i)||i.test(j.getAttribute("id"))){var G=j.parentElement;elementIsAHeader(G)||z.push(j)}}else z.push(j)}z=Array.prototype.slice.call(z,0);const Q=2;var X=this.article.element;for(V=0;V<Q;++V)X.parentElement&&(X=X.parentElement);for(var J,K=X.querySelectorAll("a:not(svg a)"),$=(V=0,K.length);V<$;++V){var Z=K[V];if(Z.offsetTop>F.offsetTop+a)break;if(t(Z,D)&&"#"!==Z.getAttribute("href")){z.push(Z);break}}var ee=z.map(trimmedInnerTextIgnoringTextTransform),te=z.length,ne=0,ie=[],re=[],ae=[],le=[],oe=[],se=[],ce=[];const me={},de=e=>{const t=me[e];if(t)return t;const n=stringSimilarity(I,e);return me[e]=n,n};for(V=0;V<te;++V){var he=z[V],ue=ee[V];const e={},t=t=>{const n=e[t];if(n)return n;const i=stringSimilarity(ue,t);return e[t]=i,i};let n=de(ue);if(C){const e=t(C);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&re.push(he)}if(L){const e=t(L);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&ae.push(he)}if(y){const e=t(y);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&le.push(he)}if(b){const e=t(b);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&oe.push(he)}if(M){const e=t(M);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&se.push(he)}if(w){const e=t(w);n+=e,e>StringSimilarityToDeclareStringsNearlyIdentical&&ce.push(he)}n===ne?ie.push(he):n>ne&&(ne=n,ie=[he])}let ge=[];for(let e of z){let t=e.nextElementSibling;t&&SubheadRegex.test(t.className)&&ge.push(e)}if(1===re.length?(J=re[0]).headerText=trimmedInnerTextIgnoringTextTransform(J):1===ae.length?(J=ae[0]).headerText=trimmedInnerTextIgnoringTextTransform(J):1===le.length?(J=le[0]).headerText=trimmedInnerTextIgnoringTextTransform(J):1===se.length?(J=se[0]).headerText=trimmedInnerTextIgnoringTextTransform(J):1===ce.length&&((J=ce[0]).headerText=trimmedInnerTextIgnoringTextTransform(J)),!J)for(V=0;V<te;++V){he=z[V];if(!isElementVisible(he))continue;var fe=cachedElementBoundingRect(he),pe=fe.left+fe.width/2,Ee=pe-B,ve=fe.top+fe.height/2-k,Te=-1!==re.indexOf(he),Se=-1!==ae.indexOf(he),Ae=he.classList.contains("instapaper_title"),Ne=/\bheadline\b/.test(he.getAttribute("itemprop")),ye=-1!==le.indexOf(he),be=-1!==oe.indexOf(he),xe=-1!==se.indexOf(he),De=-1!==ce.indexOf(he);let t=ge.includes(he)&&ve<0;var Ie=Te||Se||Ae||Ne||ye||be||xe||De||t,Ce=Math.sqrt(Ee*Ee+ve*ve),Re=Ie?r:Math.max(r-Ce,0),Le=(ue=ee[V],he.getAttribute("property"));if(Le){var Me=/dc.title/i.exec(Le);if(Me&&Me[0])if(1===this.contentDocument.querySelectorAll('*[property~="'+Me[0]+'"]').length){(J=he).headerText=ue;break}}if(!S.test(he.className)){if(!Ie){if(Ce>r)continue;if(pe<O.left||pe>O.right)continue}if(I&&stringsAreNearlyIdentical(ue,I))Re*=g;else if(e(ue,I))Re*=f;else if(ue.length<l)continue;if(ue!==R||!C){var _e=!1;if(ze=n(he)){if("author"===ze.getAttribute("rel"))continue;var we=ze.host===D.host,Fe=ze.pathname===D.pathname;if(we&&Fe)Re*=h;else{if(we&&nearestAncestorElementWithTagName(he,"li"))continue;Re*=u,_e=!0}}var Oe=fontSizeFromComputedStyle(getComputedStyle(he));_e||(Re*=Oe/BaseFontSize),Re*=1+TitleCandidateDepthScoreMultiplier*elementDepth(he);var Be=parseInt(this.contentTextStyle().fontSize);parseInt(Oe)>Be*o&&(Re*=s),(c.test(he.className)||c.test(he.getAttribute("id")))&&(Re*=m);var Pe=he.parentElement;Pe&&(c.test(Pe.className)||c.test(Pe.getAttribute("id")))&&(Re*=m),-1!==ie.indexOf(he)&&(Re*=d);F=this.article.element;for(var ke=he;ke&&ke!==F;ke=ke.parentElement)if(SidebarRegex.test(ke.className)){Re*=p;break}he.closest("li")&&(Re*=E),(!J||Re>J.headerScore)&&((J=he).headerScore=Re,J.headerText=ue)}}}var qe;if(J&&domDistance(J,F,v+1)>v&&parseInt(getComputedStyle(J).fontSize)<T*Be&&(J=null),J){this._articleTitleElement=J;var Ue=J.headerText.trim();qe=C&&e(C,Ue)?C:I&&e(I,Ue)?I:Ue}this._leadingMediaElement||(this._leadingMediaElement=this.leadingImageNode()),this._leadingMediaElement||(this._leadingMediaElement=this.leadingVideoNode()),qe||(qe=C&&e(C,I)?C:I);var ze,We=null,He=!1,Ve=!1;J&&((ze=n(J))&&(We=ze.href,He="_blank"===ze.getAttribute("target"),Ve=ze.host!==D.host||ze.pathname!==D.pathname));let je={titleText:qe,linkURL:We,linkIsTargetBlank:He,linkIsForExternalPage:Ve};return this._articleTitleElement&&(this._mapOfUniqueIDToOriginalElement.set(READER_UNIQUE_ID_TITLE,J),this._weakMapOfOriginalElementToUniqueID.set(J,READER_UNIQUE_ID_TITLE)),this._articleTitleInformation=je,je},contentFromUniqueMetadataSelector:function(e,t){var n=e.querySelectorAll(t);if(1!==n.length)return null;var i=n[0];return i?this.elementAttributesContainImproperQuote(i)?null:i.content:null},elementAttributesContainImproperQuote:function(e){for(var t=attributesForElement(e),n=t.length,i=0;i<n;++i)if(/['"]/.test(t[i].name))return!0;return!1},articleSubhead:function(){function e(e){return elementIsAHeader(e)?parseInt(/h(\d)?/.exec(normalizedElementTagName(e))[1]):NaN}function t(e){if(!e)return null;var t=e.content;return t?t.trim():null}const n=/author|kicker/i;if(this._articleSubhead)return this._articleSubhead;var i=this.articleNode();if(!i)return;var r=this._articleTitleElement;if(!r)return;var a=this.contentDocument,l=a.location,o=e(r),s=cachedElementBoundingRect(r),c=new Set,m=t(a.querySelector("meta[property='og:description']"));m&&c.add(m);var d=t(a.querySelector("meta[name=description]"));d&&c.add(d);var h,u=this.schemaDotOrgMetadataObjectForArticle();if(u){var g=u.description;g&&"string"==typeof g&&c.add(g.trim())}var f=this.contentFromUniqueMetadataSelector(a,"head meta.swiftype[name=dek]");f&&(h=f);let p=[],E=nextNonFloatingVisibleElementSibling(r);E&&p.push(E);let v=nextLeafElementForElement(r);if(v&&r&&r.contains(v)&&v.innerText&&v.innerText.trim()===r.innerText.trim()&&(v=nextLeafElementForElement(v)),v&&p.push(v),c.size)for(var T=a.querySelectorAll(HeaderElementsSelector+", *[itemprop=description]"),S=T.length,A=0;A<S;++A){var N=T[A];c.has(N.innerText.trim())&&p.push(N)}var y=p.length;for(A=0;A<y;++A){var b=p[A];if(b&&b!==i){var x=b.className;if(!n.test(x)){var D=b.closest("a");if(D){var I=D.host===l.host,C=D.pathname===l.pathname;if(!I||!C)continue}var R=!1;if(elementIsAHeader(b))if(isNaN(o))R=!0;else e(b)-1===o&&(R=!0);if(!R&&SubheadRegex.test(x)&&(R=!0),!R){const e=b.getAttribute("itemprop");/\bdescription\b/.test(e)&&!/\barticleBody\b/.test(e)&&(R=!0)}if(!R&&c.has(b.innerText)&&(R=!0),!R&&h&&h===b.innerText&&(R=!0),R||"summary"!==b.getAttribute("itemprop")||(R=!0),R){var L;if("meta"===normalizedElementTagName(b)){var M=b.getAttribute("content");L=M?M.trim():"";var _=b.nextElementSibling;if(!_||trimmedInnerTextIgnoringTextTransform(_)!==L)continue;b=_}else{if(cachedElementBoundingRect(b).top<(s.bottom+s.top)/2)continue;L=trimmedInnerTextIgnoringTextTransform(b).trim()}if(L.length){this._articleSubheadElement=b,this._mapOfUniqueIDToOriginalElement.set(READER_UNIQUE_ID_SUBHEAD,b),this._weakMapOfOriginalElementToUniqueID.set(b,READER_UNIQUE_ID_SUBHEAD),this._articleSubhead=L;break}}}}}return this._articleSubhead},adoptableMetadataBlock:function(){function e(e){function t(e,i){if(e.nodeType!==Node.TEXT_NODE){if(e.nodeType===Node.ELEMENT_NODE){var r=e.childNodes,a=r.length;0!==a&&(1!==a?(i!==n.Right&&t(r[0],n.Left),i!==n.Left&&t(r[a-1],n.Right)):t(r[0],i))}}else i===n.Left?e.textContent=e.textContent.trimLeft():i===n.Right?e.textContent=e.textContent.trimRight():e.textContent=e.textContent.trim()}const n={Left:1,Right:2,Both:3};t(e)}this.updateArticleBylineAndDateElementsIfNecessary();var t=this.articleBylineElement(),n=this.articleDateElement();if(!t&&!n)return null;if(t&&n){var i=t.compareDocumentPosition(n);i&Node.DOCUMENT_POSITION_CONTAINS&&(t=null),i&Node.DOCUMENT_POSITION_CONTAINED_BY&&(n=null),t===n&&(n=null)}var r,a=this.contentDocument.createElement("div"),l=!1,o=!1;t&&(e(r=this.cleanArticleNode(t,t.cloneNode(!0),CleaningType.MetadataContent,!1)),r.innerText.trim()&&(l=!0,r.classList.add("byline")));if(n){var s=this.cleanArticleNode(n,n.cloneNode(!0),CleaningType.MetadataContent,!1);e(s),s.innerText.trim()&&(o=!0,s.classList.add("date"))}if(l&&a.appendChild(r),l&&o){var c=document.createElement("span");c.classList.add("delimiter"),a.appendChild(c)}return o&&a.appendChild(s),a},articleBylineElement:function(){return this._articleBylineElement},findArticleBylineElement:function(){var e=this.findArticleBylineElementWithoutRejection();return e&&("footer"===normalizedElementTagName(e)||e.closest("figure"))?null:e},findArticleBylineElementWithoutRejection:function(){function e(e){if(!e.length)return null;e=e.filter(isElementVisible);for(var t=new Set,n=new Set,r=e.length,o=0;o<r-1;++o){var s=e[o],c=e[o+1];if(isElementVisible(s)&&isElementVisible(c)){var m=s.parentElement;m===c.parentElement&&(m.contains(i)||(n.add(s.parentElement),t.add(s),t.add(c)))}}var d=new Set(e);n.forEach((function(e){d.add(e)})),t.forEach((function(e){d.delete(e)})),e=[],d.forEach((function(t){e.push(t)}));var h,u=null;r=e.length;for(o=0;o<r;++o){s=e[o];if(isElementVisible(s)){var g=cachedElementBoundingRect(s),f=g.left+g.width/2,p=g.top+g.height/2,E=a-f,v=l-p,T=Math.sqrt(E*E+v*v);(!u||T<h)&&(u=s,h=T)}}return u}const t="[itemprop~=author], a[rel='author']:not(svg a)",n="#byline, .byline, .article-byline, .byline__author, .entry-meta, .author-name, .byline-dateline, .article-author, [itemprop~=author], a[rel='author']:not(svg a)";var i=this._articleSubheadElement||this._articleTitleElement;if(i)var r,a=(r=i?cachedElementBoundingRect(i):null).left+r.width/2,l=r.top+r.height/2;var o=this.contentFromUniqueMetadataSelector(this.contentDocument,"head meta[name=author]");if(o||(o=this.contentFromUniqueMetadataSelector(this.contentDocument,"head meta[property=author]")),!o){var s=this.schemaDotOrgMetadataObjectForArticle();if(s){var c=s.author;c&&"object"==typeof c&&(o=c.name)}}var m=this.article.element,d=m.querySelectorAll(n);if(1===d.length)return d[0];var h=i?i.nextElementSibling:null;if(h){if(h.matches(n)||h.innerText===o||(h=h.querySelector(n)),h)if(h.querySelector("li")){var u=h.querySelector(n);u&&(h=u)}if(h)return h}for(var g=this.contentDocument.getElementsByTagName("a"),f=0,p=g.length;f<p;++f){var E=g[f];if(trimmedInnerTextIgnoringTextTransform(E)===o)return E}var v=m.closest("article");if(i&&v){if(S=e(Array.from(v.querySelectorAll(t))))return S;if(S=e(Array.from(v.querySelectorAll(n))))return S}var T=m.previousElementSibling;if(T){var S;if(S=e(Array.from(T.querySelectorAll(t))))return S;if(S=e(Array.from(T.querySelectorAll(n))))return S}return null},articleDateElement:function(){return this._articleDateElement},findArticleDateElement:function(){function e(e){for(var t=e;t&&t!==l;t=t.parentElement)if(elementIsCommentBlock(t)||elementLooksLikeACarousel(t))return!0;return!1}function t(t){for(var n,i=null,r=t.length,a=0;a<r;++a){var l=t[a];if(isElementVisible(l)&&!e(l)){var o=cachedElementBoundingRect(l),s=o.left+o.width/2,d=o.top+o.height/2,h=c-s,u=m-d,g=Math.sqrt(h*h+u*u);(!i||g<n)&&(i=l,n=g)}}return i}const n=/date/i,i="time, .dateline, .entry-date";var r,a=this._articleSubheadElement||this._articleTitleElement,l=this.article.element,o=a?a.nextElementSibling:null;if(o&&1===(r=o.querySelectorAll(i)).length&&(o=r[0]),!o||o.matches(i)||hasClassMatchingRegexp(o,n)||o.querySelector(i)||(o=null),o&&o.contains(l)&&(o=null),o)return o;if(a)var s,c=(s=a?cachedElementBoundingRect(a):null).left+s.width/2,m=s.top+s.height/2;if((r=l.querySelectorAll(i)).length)return t(r);if((l=l.closest("article"))&&(r=l.querySelectorAll(i)).length)return t(r);return null},articleDateElementWithBylineElementHint:function(e){function t(e){return/date/.test(e.className)||/\bdatePublished\b/.test(e.getAttribute("itemprop"))}var n=e.nextElementSibling;if(n&&t(n))return n;var i=nextLeafElementForElement(e);return i&&t(i)?i:null},updateArticleBylineAndDateElementsIfNecessary:function(){this.article&&(this._didArticleBylineAndDateElementDetection||(this.updateArticleBylineAndDateElements(),this._didArticleBylineAndDateElementDetection=!0))},updateArticleBylineAndDateElements:function(){var e=this.findArticleBylineElement(),t=this.findArticleDateElement();!t&&e&&(t=this.articleDateElementWithBylineElementHint(e)),this._articleDateElement=t,this._articleBylineElement=e},articleIsLTR:function(){if(!this._articleIsLTR){var e=getComputedStyle(this.article.element);this._articleIsLTR=!e||"ltr"===e.direction}return this._articleIsLTR},findSuggestedCandidate:function(){var e,t,n=this.suggestedRouteToArticle;if(!n||!n.length)return null;for(t=n.length-1;t>=0&&(!n[t].id||!(e=this.contentDocument.getElementById(n[t].id)));--t);for(t++,e||(e=this.contentDocument);t<n.length;){for(var i=n[t],r=e.nodeType===Node.DOCUMENT_NODE?e.documentElement:e.firstElementChild,a=1;r&&a<i.index;r=r.nextElementSibling)this.shouldIgnoreInRouteComputation(r)||a++;if(!r)return null;if(normalizedElementTagName(r)!==normalizedElementTagName(i))return null;if(i.className&&r.className!==i.className)return null;e=r,t++}return isElementVisible(e)?new CandidateElement(e,this.contentDocument):null},findArticleBySearchingAllElements:function(e){var t=this.findSuggestedCandidate(),n=this.findCandidateElements();if(!n||!n.length)return t;if(t&&t.basicScore()>=ReaderMinimumScore)return t;for(var i=this.highestScoringCandidateFromCandidates(n),r=i.element;r!==this.contentDocument;r=r.parentNode)if("blockquote"===normalizedElementTagName(r)){for(var a=r.parentNode,l=n.length,o=0;o<l;++o){var s=n[o];if(s.element===a){i=s;break}}break}if(t&&i.finalScore()<ReaderMinimumScore)return t;if(!e){if(i.shouldDisqualifyDueToScoreDensity())return null;if(i.shouldDisqualifyDueToHorizontalRuleDensity())return null;if(i.shouldDisqualifyDueToHeaderDensity())return null;if(i.shouldDisqualifyDueToSimilarElements(n))return null}return i},findExtraArticle:function(){if(!this.article)return null;for(var e=0,t=this.article.element;e<3&&t;++e,t=t.parentNode){var n=this.findExtraArticleCandidateElements(t);if(n&&n.length)for(var i,r=this.sortCandidateElementsInDescendingScoreOrder(n),a=0;a<r.length&&((i=r[a])&&i.basicScore());a++)if(!i.shouldDisqualifyDueToScoreDensity()&&!i.shouldDisqualifyDueToHorizontalRuleDensity()&&!(i.shouldDisqualifyDueToHeaderDensity()||cachedElementBoundingRect(i.element).height<PrependedArticleCandidateMinimumHeight&&cachedElementBoundingRect(this.article.element).width!==cachedElementBoundingRect(i.element).width)){var l=contentTextStyleForNode(this.contentDocument,i.element);if(l&&l.fontFamily===this.contentTextStyle().fontFamily&&l.fontSize===this.contentTextStyle().fontSize&&i)return i}}return null},highestScoringCandidateFromCandidates:function(e){for(var t=0,n=null,i=e.length,r=0;r<i;++r){var a=e[r],l=a.basicScore();l>=t&&(t=l,n=a)}return n},sortCandidateElementsInDescendingScoreOrder:function(e){function t(e,t){return e.basicScore()!==t.basicScore()?t.basicScore()-e.basicScore():t.depth()-e.depth()}return e.sort(t)},findCandidateElements:function(){const e=1e3;for(var t=Date.now()+e,n=this.contentDocument.getElementsByTagName("*"),i=n.length,r=[],a=0;a<i;++a){var l=n[a];if(!SetOfCandidateTagNamesToIgnore.has(normalizedElementTagName(l))){var o=CandidateElement.candidateIfElementIsViable(l,this.contentDocument);if(o&&r.push(o),Date.now()>t){r=[];break}}}var s=r.length;for(a=0;a<s;++a)r[a].element.candidateElement=r[a];for(a=0;a<s;++a){var c=r[a];if("blockquote"===normalizedElementTagName(c.element)){var m=c.element.parentElement.candidateElement;m&&m.addTextNodesFromCandidateElement(c)}}for(a=0;a<s;++a)r[a].element.candidateElement=null;return r},findExtraArticleCandidateElements:function(e){if(!this.article)return[];e||(e=this.article.element);for(var t="preceding-sibling::*/descendant-or-self::*",n=this.contentDocument.evaluate(t,e,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null),i=n.snapshotLength,r=[],a=0;a<i;++a){var l=n.snapshotItem(a);if(!SetOfCandidateTagNamesToIgnore.has(normalizedElementTagName(l)))(o=CandidateElement.extraArticleCandidateIfElementIsViable(l,this.article,this.contentDocument,!0))&&r.push(o)}t="following-sibling::*/descendant-or-self::*",i=(n=this.contentDocument.evaluate(t,e,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null)).snapshotLength;for(a=0;a<i;++a){var o;l=n.snapshotItem(a);if(!SetOfCandidateTagNamesToIgnore.has(normalizedElementTagName(l)))(o=CandidateElement.extraArticleCandidateIfElementIsViable(l,this.article,this.contentDocument,!1))&&r.push(o)}return r},isGeneratedBy:function(e){var t=this.contentDocument.head?this.contentDocument.head.querySelector("meta[name=generator]"):null;if(!t)return!1;var n=t.content;return!!n&&e.test(n)},isMediaWikiPage:function(){return void 0===this._isMediaWikiPage&&(this._isMediaWikiPage=this.isGeneratedBy(/^MediaWiki /)),this._isMediaWikiPage},isWordPressSite:function(){return this.isGeneratedBy(/^WordPress/)},isAMPPage:function(){return this.contentDocument.documentElement.hasAttribute("amp-version")},nextPageURLString:function(){if(!this.article)return null;if(this.isMediaWikiPage())return null;var e,t=0,n=this.article.element;n.parentNode&&"inline"===getComputedStyle(n).display&&(n=n.parentNode);for(var i=n,r=cachedElementBoundingRect(n).bottom+LinkMaxVerticalDistanceFromArticle;isElementNode(i)&&cachedElementBoundingRect(i).bottom<=r;)i=i.parentNode;i===n||i!==this.contentDocument&&!isElementNode(i)||(n=i);var a=this.contentDocument.evaluate(LinkCandidateXPathQuery,n,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null),l=a.snapshotLength;if(this.pageNumber<=2&&!this.prefixWithDateForNextPageURL){var o=this.contentDocument.location.pathname,s=o.match(LinkDateRegex);s&&(s=s[0],this.prefixWithDateForNextPageURL=o.substring(0,o.indexOf(s)+s.length))}for(var c=0;c<l;++c){var m=a.snapshotItem(c),d=this.scoreNextPageLinkCandidate(m);d>t&&(e=m,t=d)}return e?e.href:null},scoreNextPageLinkCandidate:function(e){function t(e,t,n,i){t.substring(0,e.length)===e&&(t=t.substring(e.length),e="");var r=t.lastInteger();if(isNaN(r))return!1;var a=e?e.lastInteger():NaN;return(isNaN(a)||a>=MaximumExactIntegralValue)&&(a=i),r===a?n.lastInteger()===a+1:r===a+1}function n(e){for(var t={},n=e.substring(1).split("&"),i=n.length,r=0;r<i;++r){var a=n[r],l=a.indexOf("=");-1===l?t[a]=null:t[a.substring(0,l)]=a.substring(l+1)}return t}var i=this.contentDocument.location;if(e.host!==i.host)return 0;if(e.pathname===i.pathname&&e.search===i.search)return 0;if(-1!==e.toString().indexOf("#"))return 0;if(anchorLinksToAttachment(e)||anchorLinksToTagOrCategoryPage(e))return 0;if(!isElementVisible(e))return 0;var r=cachedElementBoundingRect(e),a=this.articleBoundingRect(),l=Math.max(0,Math.max(a.top-(r.top+r.height),r.top-(a.top+a.height)));if(r.top<a.top)return 0;if(l>LinkMaxVerticalDistanceFromArticle)return 0;if(Math.max(0,Math.max(a.left-(r.left+r.width),r.left-(a.left+a.width)))>0)return 0;var o=i.pathname,s=e.pathname;if(this.prefixWithDateForNextPageURL){if(-1===e.pathname.indexOf(this.prefixWithDateForNextPageURL))return 0;o=o.substring(this.prefixWithDateForNextPageURL.length),s=s.substring(this.prefixWithDateForNextPageURL.length)}var c=s.substring(1).split("/");c[c.length-1]||c.pop();var m=c.length,d=o.substring(1).split("/"),h=!1;d[d.length-1]||(h=!0,d.pop());var u=d.length;if(m<u)return 0;for(var g=0,f=0,p=e.textContent,E=0;E<m;++E){var v=c[E],T=E<u?d[E]:"";if(T!==v){if(E<u-2)return 0;if(v.length>=T.length){for(var S=0;v[v.length-1-S]===T[T.length-1-S];)S++;S&&(v=v.substring(0,v.length-S),T=T.substring(0,T.length-S));var A=v.indexOf(T);-1!==A&&(v=v.substring(A))}t(T,v,p,this.pageNumber)?f=Math.pow(LinkNextOrdinalValueBase,E-m+1):g++}if(g>1)return 0}var N=!1;if(e.search)for(var y in linkParameters=n(e.search),referenceParameters=n(i.search),linkParameters){var b=linkParameters[y],x=y in referenceParameters?referenceParameters[y]:null;if(x!==b)if(null===x&&(x=""),null===b&&(b=""),b.length<x.length)g++;else if(t(x,b,p,this.pageNumber)){if(LinkURLSearchParameterKeyMatchRegex.test(y)){if(o.toLowerCase()!==s.toLowerCase())return 0;if(this.isWordPressSite()&&h)return 0;N=!0}if(LinkURLBadSearchParameterKeyMatchRegex.test(y)){g++;continue}f=Math.max(f,1/LinkNextOrdinalValueBase)}else g++}if(!f)return 0;if((LinkURLPageSlashNumberMatchRegex.test(e.href)||LinkURLSlashDigitEndMatchRegex.test(e.href))&&(N=!0),!N&&m===u&&stringSimilarity(o,s)<LinkMinimumURLSimilarityRatio)return 0;if(LinkURLArchiveSlashDigitEndMatchRegex.test(e))return 0;var D=LinkMatchWeight*(Math.pow(LinkMismatchValueBase,-g)+f)+LinkVerticalDistanceFromArticleWeight*l/LinkMaxVerticalDistanceFromArticle;N&&(D+=LinkURLSemanticMatchBonus),"li"===normalizedElementTagName(e.parentNode)&&(D+=LinkListItemBonus);p=e.innerText;return LinkNextMatchRegEx.test(p)&&(D+=LinkNextMatchBonus),LinkPageMatchRegEx.test(p)&&(D+=LinkPageMatchBonus),LinkContinueMatchRegEx.test(p)&&(D+=LinkContinueMatchBonus),D},elementContainsEnoughTextOfSameStyle:function(e,t,n){const i=110;var r="body"===normalizedElementTagName(e),a=getVisibleNonWhitespaceTextNodes(e,r?2:3,i,r,t);const l=.2,o=n/clamp(scoreMultiplierForElementTagNameAndAttributes(e),l,1/0)/languageScoreMultiplierForTextNodes(a);for(var s={},c=a.length,m=0;m<c;++m){var d=a[m],h=d.length,u=d.parentElement,g=window.getComputedStyle(u),f=g.fontFamily+"|"+g.fontSize,p=Math.pow(h,TextNodeLengthPower);if(s[f]){if((s[f]+=p)>o)break}else s[f]=p}for(var f in s)if(s[f]>o)return!0;return!1},openGraphMetadataClaimsPageTypeIsArticle:function(){if(!this._openGraphMetadataClaimsPageTypeIsArticle){var e=this.contentDocument.querySelector("head meta[property='og:type']");this._openGraphMetadataClaimsPageTypeIsArticle=e&&"article"===e.content}return this._openGraphMetadataClaimsPageTypeIsArticle},prismGenreClaimsPageIsHomepage:function(){return"homePage"===this.contentFromUniqueMetadataSelector(this.contentDocument,"head meta[name='prism.genre']")},pointsToUseForHitTesting:function(){const e=window.innerWidth,t=e/4,n=e/2,i=128,r=320;var a=[[n,800],[n,600],[t,800],[n,400],[n-i,1100],[r,700],[3*t,800],[e-r,700]];return this.openGraphMetadataClaimsPageTypeIsArticle()&&a.push([n-i,1400]),a},findArticleByVisualExamination:function(){for(var e=new Set,t=this.pointsToUseForHitTesting(),n=t.length,i=AppleDotComAndSubdomainsRegex.test(this.contentDocument.location.hostname.toLowerCase())?7200:1800,r=this.candidateElementFilter,a=0;a<n;a++)for(var l=t[a][0],o=t[a][1],s=elementAtPoint(l,o,this.contentDocument);s&&!e.has(s);s=s.parentElement){if(VeryPositiveClassNameRegEx.test(s.className))return new CandidateElement(s,this.contentDocument);if(!SetOfCandidateTagNamesToIgnore.has(normalizedElementTagName(s))){var c=s.offsetWidth,m=s.offsetHeight;if(!c&&!m){var d=cachedElementBoundingRect(s);c=d.width,m=d.height}if(!(c<r.minimumWidth||m<r.minimumHeight||c*m<r.minimumArea)){var h=this.elementContainsEnoughTextOfSameStyle(s,e,i);if(e.add(s),h&&!(CandidateElement.candidateElementAdjustedHeight(s)<r.minimumHeight)){var u=new CandidateElement(s,this.contentDocument);if(!u.shouldDisqualifyDueToSimilarElements()){if(u.shouldDisqualifyDueToHorizontalRuleDensity())return null;if(u.shouldDisqualifyDueToHeaderDensity())return null;if(!u.shouldDisqualifyForDeepLinking())return u}}}}}return null},findTextSamplesByVisualExamination:function(){function e(e){if(!e||!e.innerText)return null;let n=t(e.innerText.trim());return n&&a.add(e),n}function t(e){const t=10;let i=textContentAppearsToBeCJK(e,d)?d:m,r=e.length;if(r<i)return null;if(r>f*c)return null;let a=n(e);return(a.match(/\n/g)||[]).length>t?null:a}function n(e){return e.substring(0,h)}function i(t,n){let i=[],r=s.querySelectorAll(t);for(let t of r){if(i.length>=n)break;if(elementDescendsFromElementInSet(t,l))continue;let r=e(t);r&&i.push([t,r])}return i}function r(e){const n=document.querySelectorAll("div"),i=new Set;for(let r of n){if(r.firstElementChild)continue;let n=t(r.textContent);if(n&&(i.add(n),i.size>=e))break}return i}this.setSuppressBoundingRectCalculationForSkippedElements(!0);var a=new Set,l=new Set,o=new Set,s=this.contentDocument,c=s.body.innerText.length;const m=20,d=10,h=200,u=5,g=5,f=.8;let p=s.title,E=t(p);E&&(o.add(E),l.add(p));let v=this.pointsToUseForHitTesting(),T=v.length;for(var S=0;S<T;S++){let t=v[S][0],n=v[S][1],i=0;for(let r=elementAtPoint(t,n,this.contentDocument);r&&!a.has(r)&&!(i>u);r=r.parentElement,i++){let t=e(r);if(t){if(elementDescendsFromElementMatchingSelector(r,"code, form"))break;o.add(t),l.add(r);break}}}let A={p:3,h1:2,h2:2,h3:1};for(let[e,t]of Object.entries(A)){let n=i(e,t);for(let[e,t]of n)e&&t&&(o.add(t),l.add(e))}if(o.size<g){let e=["article","header","a","footer","body"];for(let t of e){let e=i(t,1)||[],[n,r]=e.length>0?e[0]:[null,null];if(n&&r){o.add(r),l.add(n);break}}}if(o.size<g){const e=r(g-o.size);o=o.union(e)}return Array.from(o)},findArticleFromMetadata:function(e){var t=this.contentDocument.querySelectorAll(SchemaDotOrgArticleContainerSelector);if(1===t.length){var n=t[0];if(n.matches("article, *[itemprop=articleBody]"))if(o=CandidateElement.candidateIfElementIsViable(n,this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o;var i=n.querySelectorAll("article, *[itemprop=articleBody]"),r=elementWithLargestAreaFromElements(i);if(r)if(o=CandidateElement.candidateIfElementIsViable(r,this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o;return new CandidateElement(n,this.contentDocument)}if(this.openGraphMetadataClaimsPageTypeIsArticle()&&!this.prismGenreClaimsPageIsHomepage()){var a=this.contentDocument.querySelectorAll("main article"),l=elementWithLargestAreaFromElements(a);if(l)if(o=CandidateElement.candidateIfElementIsViable(l,this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o;var o,s=this.contentDocument.querySelectorAll("article");if(1===s.length)if(o=CandidateElement.candidateIfElementIsViable(s[0],this.contentDocument,!0))return e===FindArticleMode.ExistenceOfElement||o}return null},articleTextContent:function(){return this._articleTextContent||this.adoptableArticle(),this._articleTextContent},unformattedArticleTextContentIncludingMetadata:function(e){this.setSuppressBoundingRectCalculationForSkippedElements(!0);var t=this.articleNode();if(t){if(!e)return t.innerText;var n="",i=this.articleTitle();i&&(n+=i+"\n");var r=this.articleSubhead();r&&(n+=r+"\n");var a=this.adoptableMetadataBlock();return a&&(n+=plaintextVersionOfNodeAppendingNewlinesBetweenBlockElements(a)+"\n"),n+t.innerText}},pageDescription:function(e){var t=e["name:description"]||e["property:og:description"];return t&&(t=t.trim()).length?t:null},articleTitleAndSiteNameFromTitleString:function(e){const t=[" - "," \u2013 "," \u2014 ",":"," | "," \xbb "],n=t.length,i=.6;for(var r,a,l=this.contentDocument.location.host.replace(/^(www|m|secure)\./,""),o=l.replace(/\.(com|info|net|org|edu|gov)$/,"").toLowerCase(),s=0;s<n;++s){var c=e.split(t[s]);if(2===c.length){var m=c[0].trim(),d=c[1].trim(),h=m.toLowerCase(),u=d.toLowerCase(),g=Math.max(stringSimilarity(h,l),stringSimilarity(h,o)),f=Math.max(stringSimilarity(u,l),stringSimilarity(u,o)),p=Math.max(g,f);(!a||p>a)&&(a=p,r=g>f?{siteName:m,articleTitle:d}:{siteName:d,articleTitle:m})}}return r&&a>=i?r:null},pageInformation:function(e,t){var n,i=this.buildMapOfMetaTags(),r=this.pageDescription(i),a=!1;this.adoptableArticle()?(n=this.articleTitle(),r=r||this.articleTextContent(),a=!0):(n=this.contentDocument.title,this.contentDocument.body&&(r=r||this.contentDocument.body.innerText));var l="",o=this.pageImageURLFromMetadata(i);if(o)l=o;else{var s=this.mainImageNode();s&&(l=s.src)}n||(n=userVisibleURLString(this.contentDocument.location.href)),n=n.trim(),e&&(n=n.substring(0,e));var c=this.contentFromUniqueMetadataSelector(this.contentDocument,"head meta[property='og:site_name']");if(!c){var m=this.articleTitleAndSiteNameFromTitleString(this.contentDocument.title);m&&m.articleTitle===n&&(c=m.siteName)}return c||(c=""),r=r?r.trim():"",t&&(r=r.substring(0,t)),{title:n,previewText:r=r.replace(/[\s]+/g," "),siteName:c,mainImageURL:l,isReaderAvailable:a}},readingListItemInformation:function(){const e=220,t=220;return this.pageInformation(e,t)},buildMapOfMetaTags:function(){var e={};const t=this.contentDocument.head.getElementsByTagName("meta"),n=t.length;for(var i=0;i<n;++i){const n=t[i],r=n.content;if(!r)continue;if(this.elementAttributesContainImproperQuote(n))continue;n.name&&(e["name:"+n.name.toLowerCase()]=r);const a=n.getAttribute("property");a&&(e["property:"+a.toLowerCase()]=r)}return e},pageTitleForTextAnalysis:function(e){const t=this.contentDocument;var n=e["property:og:title"];return n||(n=e["name:twitter:title"]),n||(n=e["name:sailthru.headline"]),n||(n=t.title),n},pageAuthorForTextAnalysis:function(e){return e["name:author"]||e["property:author"]},pageMetadataCommonToTextAnalysisAndArticleContent:function(){var e={};const t=this.buildMapOfMetaTags(),n=this.pageTitleForTextAnalysis(t);n&&(e.title=n);const i=this.pageAuthorForTextAnalysis(t);i&&(e.author=i);const r=this.pageImageURLFromMetadata(t);return r&&(e.imageURL=r),e},extractedArticleContent:function(){try{const e=this.adoptableArticle(!0);for(let t of e.getElementsByTagName("*"))t.removeAttribute(READER_UNIQUE_ID_ATTRIBUTE_KEY);let t=this.pageMetadataCommonToTextAnalysisAndArticleContent();if(e){const n=e.innerHTML;t.body=n}this.updateArticleBylineAndDateElementsIfNecessary();const n=this.articleDateElement();n&&(t.publishedDate=trimmedInnerTextIgnoringTextTransform(n));const i=this.articleBylineElement();return!t.author&&i&&(t.author=trimmedInnerTextIgnoringTextTransform(i)),t}catch(e){let t={};const n=e.message,i=e.stack;return n&&(t.error=n),i&&(t.stack=i),t}},readerUniqueIDOfElementPinnedToTopOfViewport:function(){const e=120;if(window.scrollY<e)return null;const t=this.articleNode();if(!t)return null;const n=t.getBoundingClientRect(),i=(n.left+n.right)/2;for(const e of[0,15,35,50,80,110]){const n=t.ownerDocument.elementFromPoint(i,e);if(n!==t&&(t.contains(n)||n===this._articleTitleElement||n===this._articleSubheadElement)){const e=this._weakMapOfOriginalElementToUniqueID.get(n);if(e)return e}}return null},scrollToElementWithUniqueID:function(e,t){const n=this._rectOfElementWithReaderUniqueID(e);if(!n||!n.top||isNaN(n.top)||!n.height||isNaN(n.height))return;const i=-t*n.height;this.scrollToOffset(n.top+i)},uniqueIDAndScrollRatioOfElementPinnedToTop:function(){const e=this.readerUniqueIDOfElementPinnedToTopOfViewport();if(!e)return[null,null];const t=this._rectOfElementWithReaderUniqueID(e);if(!t||!t.top||isNaN(t.top)||!t.height||isNaN(t.height))return[null,null];return[e,(t.top-this.scrollY())/t.height]},_rectOfElementWithReaderUniqueID:function(e){function t(e){return{top:e.top+window.scrollY,right:e.right+window.scrollX,bottom:e.bottom+window.scrollY,left:e.left+window.scrollX,width:e.width,height:e.height}}if(!this._mapOfUniqueIDToOriginalElement)return null;let n=this._mapOfUniqueIDToOriginalElement.get(e);return n&&n.parentElement?t(n.getBoundingClientRect()):null},scrollY:function(){return window.scrollY},scrollToOffset:function(e){if("number"==typeof e)try{clearCachedElementBoundingRects(),this.cacheWindowScrollPosition(),this.contentDocument.scrollingElement.scrollTop=e}catch(e){}},documentURLString:function(){return this.contentDocument.location.href},baseURI:function(){return this.contentDocument.baseURI},usesSearchEngineOptimizationMetadata:function(){return!!document.head.querySelector('meta[property^="og:"]')},extractCanonicalLink:function(){var e=document.head.querySelector("link[rel='canonical']");if(!e)return null;var t=e.getAttribute("href");if(!t)return null;var n=document.baseURI,i=urlFromString(t,n);return"/"!==document.location.pathname&&"/"===i.pathname||"localhost"===i.hostname&&"localhost"!==document.location.hostname?null:i.href},setSuppressBoundingRectCalculationForSkippedElements:function(e){this._shouldSuppressBoundingRectCalculationForSkippedElements=e},shouldSuppressBoundingRectCalculationForSkippedElements:function(){return!!this._shouldSuppressBoundingRectCalculationForSkippedElements},handleNavigation:function(e){e.hashChange||this.resetArticleInformation()}};var ReaderArticleFinderJS=new ReaderArticleFinder(document);navigation.addEventListener("navigate",(e=>{ReaderArticleFinderJS.handleNavigation(e)}));
+0; /* Error: Ran out of types for this method. */;
+- (void)lContinuationID=o,t.ControlContinuationIndex=n++,r&&(t.ControlClassificationHints=[r]);2===e.length?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken,WBSTelephoneLocalSuffixOrderedPartToken]):(id)arg1 3===e.length?(e[0].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):4===e.length?(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken]):(e[0].ControlOrderedParts=[WBSTelephoneCountryCodeOrderedPartToken],e[1].ControlOrderedParts=[WBSTelephoneAreaCodeOrderedPartToken],e[2].ControlOrderedParts=[WBSTelephoneLocalPrefixOrderedPartToken],e[3].ControlOrderedParts=[WBSTelephoneLocalSuffixOrderedPartToken],e[4].ControlOrderedParts=[WBSTelephoneExtensionOrderedPartToken]),k=e.length;continue}if(B===WBSContactBirthdayClassificationToken){const o=this.continuingFieldsInFormControls(t,S,!1,!1),r=o.length>1?++u:void 0,n=e.RequestType===WBSFormMetadataRequestTesting?"en-US":void 0;this.classifyDateFields(o,WBSContactBirthdayClassificationToken,WBSDateYearOrderedPartToken,WBSDateMonthOrderedPartToken,WBSDateDayOrderedPartToken,r,n),k=o.length;continue}o.ControlClassification=B}else o.ControlLooksLikeEIDField?o.ControlClassification=WBSDeviceEIDClassificationToken:o.ControlLooksLikeIMEIField&&(o.ControlClassification=WBSDeviceIMEIClassificationToken);else f=!0,o.ControlClassification=WBSCreditCardTypeClassificationToken;else h=!0,o.ControlClassification=WBSCreditCardSecurityCodeClassificationToken}}}globalThis.FormMetadataClassificationJS=new FormMetadataClassification;
+0; /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -64,20 +1643,20 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)ted to set nil as the default downloads location. Call resetDefaultDownloadsLocationItem instead.;
 - (id);
 - (void);
 - (void);
 - (id);
 - (int);
 - (_Bool);
-- (void);
+- (void)ock_invoke;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)?;
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -86,36 +1665,7 @@
 - (void)eU;
 
 // Remaining properties
-@property(retain, nonatomic) CLPBundleId *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) CLPCellConnectivityInfo *cellConnectivity; // @synthesize cellConnectivity=_cellConnectivity;
-@property(retain, nonatomic) CLPIndoorCMAttitude *cmAttitude; // @synthesize cmAttitude=_cmAttitude;
-@property(retain, nonatomic) CLPIndoorCMPedometer *cmPedometer; // @synthesize cmPedometer=_cmPedometer;
-@property(readonly, nonatomic) _Bool hasBundleId;
-@property(readonly, nonatomic) _Bool hasCellConnectivity;
-@property(readonly, nonatomic) _Bool hasCmAttitude;
-@property(readonly, nonatomic) _Bool hasCmPedometer;
-@property(readonly, nonatomic) _Bool hasInertialOdometry;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasMotionActivity;
-@property(readonly, nonatomic) _Bool hasOutdoorUpdate;
-@property(readonly, nonatomic) _Bool hasPasskitEvent;
-@property(readonly, nonatomic) _Bool hasPressure;
 @property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasVioEstimation;
-@property(readonly, nonatomic) _Bool hasVlLocalizationResult;
-@property(readonly, nonatomic) _Bool hasWifiScan;
-@property(readonly, nonatomic) _Bool hasWorkoutUpdateMotionActivity;
-@property(retain, nonatomic) CLPInertialOdometry *inertialOdometry; // @synthesize inertialOdometry=_inertialOdometry;
-@property(retain, nonatomic) CLPLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) CLPIndoorMotionActivity *motionActivity; // @synthesize motionActivity=_motionActivity;
-@property(retain, nonatomic) CLPOutdoorUpdate *outdoorUpdate; // @synthesize outdoorUpdate=_outdoorUpdate;
-@property(retain, nonatomic) CLPPassKitEvent *passkitEvent; // @synthesize passkitEvent=_passkitEvent;
-@property(retain, nonatomic) CLPIndoorPressure *pressure; // @synthesize pressure=_pressure;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) CLPLOGENTRYVISIONVIOEstimation *vioEstimation; // @synthesize vioEstimation=_vioEstimation;
-@property(retain, nonatomic) CLPLOGENTRYVISIONVLLocalizationResult *vlLocalizationResult; // @synthesize vlLocalizationResult=_vlLocalizationResult;
-@property(retain, nonatomic) CLPIndoorWifiScan *wifiScan; // @synthesize wifiScan=_wifiScan;
-@property(retain, nonatomic) CLPWorkoutUpdateMotionActivity *workoutUpdateMotionActivity; // @synthesize workoutUpdateMotionActivity=_workoutUpdateMotionActivity;
 
 @end
 

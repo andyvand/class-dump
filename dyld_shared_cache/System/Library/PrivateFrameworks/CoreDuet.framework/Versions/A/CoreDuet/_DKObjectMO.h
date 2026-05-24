@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, _DKEventMO, _DKSourceMO;
+@class NSDate;
 
 @interface _DKObjectMO
 {
@@ -14,11 +14,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) _DKEventMO *event; // @dynamic event;
-@property(copy, nonatomic) NSDate *localCreationDate; // @dynamic localCreationDate;
-@property(retain, nonatomic) _DKSourceMO *source; // @dynamic source;
-@property(copy, nonatomic) NSString *uuid; // @dynamic uuid;
-@property(copy, nonatomic) NSNumber *uuidHash; // @dynamic uuidHash;
 
 @end
 

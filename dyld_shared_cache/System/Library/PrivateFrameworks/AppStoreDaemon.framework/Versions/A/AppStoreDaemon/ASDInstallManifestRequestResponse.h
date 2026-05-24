@@ -13,10 +13,10 @@
     NSArray *_results;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)Box"@"BSAction"@"NSError">16;
 - (void);
 
 // Remaining properties

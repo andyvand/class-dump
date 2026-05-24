@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface NSDisplayCycle
 {
     struct _opaque_pthread_mutex_t _mutex;
-    NSMapTable *_observersByPhase;
-    unsigned int _seed;
-    unsigned long long _changeCount;
-    unsigned int _enabledLoggingUntilEndOfCycle:1;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (id);
-- (id);
++ (_Bool)eamTask.mm;
++ (_Bool)alStreamTask _onqueue_processWriteWork:(id)arg1 ];
++ (id)treams;
+- (id)initWithConfiguration:(unsigned int)arg1 delegate:delegateQueue:delegateDispatchQueue: /* Error: Ran out of types for this method. */;
+- (void)",R;
 - (void);
-- (void);
 - (id);
 - (id);
-- (_Bool)etSet:(id)arg1;
+- (_Bool)setSet:(id)arg1;
 - (unsigned long long)ÿÿ;
-- (void)ssfade;
+- (void)NSSegmentBezelCrossfade;
 
 // Remaining properties
 @property(readonly) unsigned long long identifier;

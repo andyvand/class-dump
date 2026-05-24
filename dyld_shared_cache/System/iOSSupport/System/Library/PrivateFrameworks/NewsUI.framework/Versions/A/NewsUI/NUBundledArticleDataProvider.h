@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticle, NSArray, NSString, NULinkedContentManager;
+@class FCArticle;
 @protocol NUEmbedDataManager;
 
 @interface NUBundledArticleDataProvider
 {
     FCArticle *_article;
-    NSArray *_linkedContentProviders;
-    long long _relativePriority;
-    id <NUEmbedDataManager> _embedDataManager;
-    NULinkedContentManager *_linkedContentManager;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,25 +27,13 @@
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)H;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) FCArticle *article; // @synthesize article=_article;
-@property(readonly, copy, nonatomic) NSString *articleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <NUEmbedDataManager> embedDataManager; // @synthesize embedDataManager=_embedDataManager;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NULinkedContentManager *linkedContentManager; // @synthesize linkedContentManager=_linkedContentManager;
-@property(readonly, nonatomic) NSArray *linkedContentProviders; // @synthesize linkedContentProviders=_linkedContentProviders;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(readonly) Class superclass;
 
 @end
 

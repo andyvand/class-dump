@@ -6,30 +6,27 @@
 
 #import <UIKitCore/UIKBKeyView.h>
 
-@class NSArray, NSString, UICollectionView, UICollectionViewFlowLayout;
+@class UICollectionViewFlowLayout;
 
 __attribute__((visibility("hidden")))
 @interface UIKBRecentInputsView : UIKBKeyView
 {
     _Bool _verticalLayout;
-    UICollectionView *_collectionView;
-    NSArray *_recentInputStrings;
-    UICollectionViewFlowLayout *_flowLayout;
 }
 
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (void)ng:(id)arg1 %@;
+- (id)tachment at %@, %@;
+- (void)for chat with identifier:%@ account:%@ result:%@ /* Error: Ran out of types for this method. */;
+- (id)ndProcessingPipelineComponent> Started processing priority message command for message GUIDs:%@ /* Error: Ran out of types for this method. */;
+- (id)egory %ld, extensionName %@;
+- (unsigned long long)IMDMessageHistorySyncNotifyReplayControllerWantsSync;
+- (id)eceiptPipelineParameter %p> { guid:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
 - (void);
 - (id)sDefaultTighteningForTruncation"b1"adjustsFontForContentSizeCategory"b1"isEnabled"b1"isHighlighted"b1"hasCustomized_text"b1"hasCustomized_attributedText"b1"hasCustomized_defaultAttributes"b1"hasCustomized_font"b1"hasCustomized_textColor"b1"hasCustomized_highlightedTextColor"b1"hasCustomized_textBackgroundColor"b1"hasCustomized_shadow"b1"hasCustomized_backgroundColor"b1"hasCustomized_textAlignment"b1"hasCustomized_lineBreakMode"b1"hasCustomized_lineBreakStrategy"b1"hasCustomized_numberOfLines"b1"hasCustomized_adjustsFontSizeToFitWidth"b1"hasCustomized_minimumScaleFactor"b1"hasCustomized_allowsDefaultTighteningForTruncation"b1"hasCustomized_adjustsFontForContentSizeCategory"b1"hasCustomized_bounds"b1"hasCustomized_preferredMaxLayoutWidth"b1"hasCustomized_semanticContentAttribute"b1"hasCustomized_isEnabled"b1"hasCustomized_isHighlighted"b1"hasCustomized_internal"b1};
-- (struct CGSize);
-- (void)pector;
+- (struct CGSize)setPreferredContentSizeInPopover:(id)arg1;
+- (void)_carPlayDiffInspector;
 - (long long)Unable to find an appropriate hosting environment for a scene that appears to be in a view service.;
 - (void);
 - (void)´ðd;
@@ -38,16 +35,7 @@ __attribute__((visibility("hidden")))
 - (id)DÿànÜüøk;
 
 // Remaining properties
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UICollectionViewFlowLayout *flowLayout; // @synthesize flowLayout=_flowLayout;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *recentInputStrings; // @synthesize recentInputStrings=_recentInputStrings;
-@property(readonly) Class superclass;
 
 @end
 

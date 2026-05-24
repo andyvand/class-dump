@@ -6,21 +6,18 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2Lock, NSOperation, NSOperationQueue, NSString;
+@class HAP2Lock, NSOperation;
 
 __attribute__((visibility("hidden")))
 @interface HAP2SerializedOperationQueue : HAP2LoggingObject
 {
     NSOperation *_lastOperation;
-    NSString *_name;
-    HAP2Lock *_lock;
-    NSOperationQueue *_queue;
 }
 
 + (id);
 - (void);
-- (void);
-- (id);
+- (void)textLabel;
+- (id)_transitionProgress;
 - (id);
 - (id);
 - (id);
@@ -36,10 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)setCategory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak NSOperation *lastOperation; // @synthesize lastOperation=_lastOperation;
 @property(readonly, nonatomic) HAP2Lock *lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
 
 @end
 

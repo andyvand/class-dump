@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFStateMachineState, NSSet, NSString;
+@class NSString;
 
 @interface NFStateMachineEvent
 {
     NSString *_name;
-    NSSet *_states;
-    NFStateMachineState *_destinationState;
-    CDUnknownBlockType _fireBlock;
 }
 
 - (void);
@@ -26,15 +23,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)8ԪN;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NFStateMachineState *destinationState; // @synthesize destinationState=_destinationState;
-@property(copy, nonatomic) CDUnknownBlockType fireBlock; // @synthesize fireBlock=_fireBlock;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSSet *states; // @synthesize states=_states;
 
 @end
 

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOLatLngE7, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWiFiBSS
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _attributes;
-    NSString *_identifier;
-    GEOLatLngE7 *_latLngE7;
-    GEOLatLng *_location;
-    NSMutableArray *_qualities;
-    long long _uniqueIdentifier;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_uniqueIdentifier:1;
-        unsigned int read_attributes:1;
-        unsigned int read_identifier:1;
-        unsigned int read_latLngE7:1;
-        unsigned int read_location:1;
-        unsigned int read_qualities:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 @end

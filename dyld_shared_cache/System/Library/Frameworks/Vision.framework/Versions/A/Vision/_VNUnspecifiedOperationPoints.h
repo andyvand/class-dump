@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)itemPendingReconciliationIsLockedInDB;
 - (_Bool);
-- (void);
+- (void);
 
 @end
 

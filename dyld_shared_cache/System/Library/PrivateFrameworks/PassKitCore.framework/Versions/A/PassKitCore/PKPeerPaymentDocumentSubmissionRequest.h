@@ -6,23 +6,18 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface PKPeerPaymentDocumentSubmissionRequest : PKPeerPaymentWebServiceRequest
 {
     _Bool _devSigned;
-    NSData *_frontImageData;
-    NSData *_backImageData;
-    NSString *_documentCountryCode;
-    unsigned long long _documentType;
-    NSArray *_certificates;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (unsigned long long);
 - (id);
 - (id);
@@ -34,11 +29,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backImageData; // @synthesize backImageData=_backImageData;
-@property(copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(nonatomic) _Bool devSigned; // @synthesize devSigned=_devSigned;
-@property(copy, nonatomic) NSString *documentCountryCode; // @synthesize documentCountryCode=_documentCountryCode;
-@property(nonatomic) unsigned long long documentType; // @synthesize documentType=_documentType;
 @property(copy, nonatomic) NSData *frontImageData; // @synthesize frontImageData=_frontImageData;
 
 @end

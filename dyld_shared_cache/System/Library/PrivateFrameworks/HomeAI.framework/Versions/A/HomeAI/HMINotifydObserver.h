@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HMINotifydObserver
 {
     int _token;
-    const char *_notificationName;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _callback;
 }
 
 + (id)L;
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)H;
 - (int);
 - (void);
 - (id);
@@ -29,17 +26,7 @@
 - (const char *);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) const char *notificationName; // @synthesize notificationName=_notificationName;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(nonatomic) int token; // @synthesize token=_token;
 
 @end
 

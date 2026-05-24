@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface RTPredicateInspector
 {
     _Bool _predicateContainsSubstitutionVariables;
-    NSSet *_substitutionVariables;
 }
 
 - (void);
@@ -25,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool predicateContainsSubstitutionVariables; // @synthesize predicateContainsSubstitutionVariables=_predicateContainsSubstitutionVariables;
-@property(retain, nonatomic) NSSet *substitutionVariables; // @synthesize substitutionVariables=_substitutionVariables;
 
 @end
 

@@ -7,7 +7,7 @@
 @class NSIndexPath;
 
 @interface UnknownClass (XCTConvenience)
-- (id);
+- (id)#;
 
 // Remaining properties
 @property(readonly, copy) NSIndexPath *_xct_indexPathByRemovingFirstIndex;

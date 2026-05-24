@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface CTLazuliGroupChatCapabilities
 {
     _Bool _autoAcceptGroupChat;
-    _Bool _supportsComposingIndicator;
-    NSNumber *_maxGroupSize;
 }
 
-+ (_Bool);
++ (_Bool)iant:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)LACEnvironmentMechanism",R,N,V_coreMechanism;
 - (id);
 - (void)ª)Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) _Bool autoAcceptGroupChat; // @synthesize autoAcceptGroupChat=_autoAcceptGroupChat;
-@property(retain, nonatomic) NSNumber *maxGroupSize; // @synthesize maxGroupSize=_maxGroupSize;
-@property(nonatomic) _Bool supportsComposingIndicator; // @synthesize supportsComposingIndicator=_supportsComposingIndicator;
 
 @end
 

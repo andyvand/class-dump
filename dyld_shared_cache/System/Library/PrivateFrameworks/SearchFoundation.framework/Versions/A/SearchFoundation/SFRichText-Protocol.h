@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSData;
 
 @protocol SFRichText
+- (NSArray *)nd call source %@;
+- (NSData *)H~;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contentAdvisory;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *formattedTextPieces;
-@property(copy, nonatomic) NSArray *icons;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) double starRating;
 @end
 

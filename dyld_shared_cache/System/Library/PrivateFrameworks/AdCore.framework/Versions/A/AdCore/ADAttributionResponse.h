@@ -12,7 +12,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)P;
 - (unsigned long long);
 - (id);
 - (id);

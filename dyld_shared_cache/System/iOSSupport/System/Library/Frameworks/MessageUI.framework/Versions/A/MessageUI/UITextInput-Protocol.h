@@ -4,56 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, UITextPosition, UITextRange, UIView;
+@class NSDictionary, UITextPosition, UITextRange;
 @protocol UITextInputDelegate, UITextInputTokenizer;
 
 @protocol UITextInput
+- (UITextRange *);
 - (id <UITextInputDelegate>)0@ù
 × ;
-- (id <UITextInputTokenizer>)ion: /* Error: Ran out of types for this method. */;
-- (void)ngeOfCharacterFromSet:(id <UITextInputDelegate>)arg1 options: /* Error: Ran out of types for this method. */;
-- (struct CGRect)Mode;
-- (void)ertGlyphRect: /* Error: Ran out of types for this method. */;
-- (UITextRange *)AtIndexPath:(struct CGPoint)arg1;
-- (UITextRange *)oFillDidInsertWithExplicitInvocationMode:(UITextPosition *)arg1;
+- (id <UITextInputTokenizer>)setObscuresBackgroundDuringPresentation: /* Error: Ran out of types for this method. */;
+- (void)rangeOfCharacterFromSet:(id <UITextInputDelegate>)arg1 options: /* Error: Ran out of types for this method. */;
+- (struct CGRect)lineBreakMode;
+- (void)convertGlyphRect: /* Error: Ran out of types for this method. */;
+- (UITextRange *)collectionView:(struct CGPoint)arg1 performPrimaryActionForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (UITextRange *)autoFillDidInsertWithExplicitInvocationMode:(UITextPosition *)arg1;
 - (UITextPosition *)C,D,N;
 - (void)t<OS_os_log>",R;
 
 @optional
+- (void)T@"NSURL",C,N,V_albumURL;
+- (NSDictionary *)initWithDatabaseID:(UITextPosition *)arg1 itemCountLimit:(long long)arg2 historyAgeLimit:historyItemClass: /* Error: Ran out of types for this method. */;
+- (void)setViewServiceConnection: /* Error: Ran out of types for this method. */;
+- (void);
 - (struct CGRect)@?0@"NSNumber"8@"NSMutableArray"16^B24;
-- (UITextPosition *);
+- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
-@property(readonly, nonatomic, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,GisEditable
-
-@property(readonly, nonatomic) UITextPosition *endOfDocument;
-@property(nonatomic) __weak id <UITextInputDelegate> inputDelegate;
-@property(readonly, nonatomic) id insertDictationResultPlaceholder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R,N
-
-@property(readonly, nonatomic) UITextRange *markedTextRange;
-@property(copy, nonatomic) NSDictionary *markedTextStyle;
 @property(copy) UITextRange *selectedTextRange;
-@property(nonatomic) long long selectionAffinity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,N
-
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly, nonatomic) UIView *textInputView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
-@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
 @end
 

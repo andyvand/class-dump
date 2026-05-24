@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)vel: /* Error: Ran out of types for this method. */;
++ (long long)StringAsAsrConfidenceLevel: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)lictAlarms;
+- (id)_conflictAlarms;
 
 @end
 

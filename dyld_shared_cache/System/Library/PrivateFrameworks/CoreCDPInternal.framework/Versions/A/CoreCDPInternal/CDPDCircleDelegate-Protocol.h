@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CDPContext, CDPDSecureChannelContext;
+
 @protocol CDPDCircleDelegate
+- (CDPDSecureChannelContext *)_TtC6Safari32CompletionListCollectionViewItem;
+- (CDPContext *)SHA256Hash;
+- (void)UnifiedFieldBezelView;
 @end
 

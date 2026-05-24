@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSMutableDictionary, NSString;
+@class NSManagedObjectContext;
 
 __attribute__((visibility("hidden")))
 @interface CNCDRecordSaveCache
 {
     NSManagedObjectContext *_context;
-    NSString *_entityName;
-    NSMutableDictionary *_recordsByIdentifier;
 }
 
 + (id);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)teRequest: /* Error: Ran out of types for this method. */;
+- (void)visitImageCreateRequest: /* Error: Ran out of types for this method. */;
 
 @end
 

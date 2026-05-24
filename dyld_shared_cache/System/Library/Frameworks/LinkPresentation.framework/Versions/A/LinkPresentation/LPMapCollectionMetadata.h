@@ -6,37 +6,41 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSArray, NSString;
-
 @interface LPMapCollectionMetadata : LPSpecializationMetadata
 {
     unsigned int _numberOfItems;
-    NSString *_name;
-    LPImage *_icon;
-    LPImage *_image;
-    LPImage *_darkImage;
-    NSArray *_addresses;
-    NSString *_publisherName;
-    LPImage *_publisherIcon;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)e;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)G;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)M undonated_updates
+    ),
+    update_age AS (
+        SELECT AVG(age) AS update_age_mean,
+               (SELECT MIN(age) FROM undonated_update_percentiles WHERE percentile=11) as update_age_p50,
+               (SELECT MIN(age) FROM undonated_update_percentiles WHERE percentile=19) as update_age_p95
+          FROM undonated_updates
+    ),
+    donated_updates AS (
+        SELECT *
+          FROM with_age
+         WHERE is_update
+           AND is_donated
+           AND ;
+- (void)em>"16;
 - (void);
 - (id);
 - (void);
@@ -49,27 +53,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *addresses; // @synthesize addresses=_addresses;
-@property(retain, nonatomic) LPImage *darkImage; // @synthesize darkImage=_darkImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(retain, nonatomic) LPImage *publisherIcon; // @synthesize publisherIcon=_publisherIcon;
-@property(copy, nonatomic) NSString *publisherName; // @synthesize publisherName=_publisherName;
-@property(readonly) Class superclass;
 
 @end
 

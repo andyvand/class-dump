@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCTransport
 {
     struct tagHANDLE *tpHandle;
-    NSMutableDictionary *iceBlocks;
-    NSObject<OS_dispatch_queue> *delegateQueue;
-    NSMutableDictionary *dataReceivedHandlers;
-    NSObject<OS_dispatch_queue> *dataReceivedHandlerQueue;
 }
 
 + (id)eFramerate:] /* Error: Ran out of types for this method. */;
+- (int)T!;
 - (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (void);
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (void);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
 - (void);
 - (void);
-- (void);
-- (int);
+- (int)B;
 - (void);
 - (void);
 - (void);
@@ -43,12 +36,12 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (void);
 - (_Bool);
-- (int);
+- (int);
 - (void);
 - (id);
 - (void)¨>ìQ¸>®Ç>=

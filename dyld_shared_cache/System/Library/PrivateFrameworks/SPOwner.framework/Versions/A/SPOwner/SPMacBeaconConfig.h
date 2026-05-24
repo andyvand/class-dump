@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SPMacBeaconConfig
 {
     double _initialNoBeaconDuration;
-    double _fastRollAdvertisementDuration;
-    double _fastRollAdvertisementInterval;
-    double _slowRollAdvertisementDuration;
-    double _slowRollNoAdvertisementDuration;
-    double _noAdvertisementDurationDecayFactor;
-    NSArray *_postInitialDayAdvertisementTimes;
 }
 
 + (_Bool);
@@ -37,18 +29,12 @@
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)broadcastEncodings;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double fastRollAdvertisementDuration; // @synthesize fastRollAdvertisementDuration=_fastRollAdvertisementDuration;
-@property(nonatomic) double fastRollAdvertisementInterval; // @synthesize fastRollAdvertisementInterval=_fastRollAdvertisementInterval;
 @property(nonatomic) double initialNoBeaconDuration; // @synthesize initialNoBeaconDuration=_initialNoBeaconDuration;
-@property(nonatomic) double noAdvertisementDurationDecayFactor; // @synthesize noAdvertisementDurationDecayFactor=_noAdvertisementDurationDecayFactor;
-@property(copy, nonatomic) NSArray *postInitialDayAdvertisementTimes; // @synthesize postInitialDayAdvertisementTimes=_postInitialDayAdvertisementTimes;
-@property(nonatomic) double slowRollAdvertisementDuration; // @synthesize slowRollAdvertisementDuration=_slowRollAdvertisementDuration;
-@property(nonatomic) double slowRollNoAdvertisementDuration; // @synthesize slowRollNoAdvertisementDuration=_slowRollNoAdvertisementDuration;
 
 @end
 

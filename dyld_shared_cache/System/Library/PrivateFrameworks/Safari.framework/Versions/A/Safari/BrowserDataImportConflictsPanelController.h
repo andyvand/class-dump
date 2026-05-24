@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSLayoutConstraint, NSStackView, NSString, NSTextField, NSView, WBSBrowsingDataImportData;
+@class NSStackView, NSString;
 
 __attribute__((visibility("hidden")))
 @interface BrowserDataImportConflictsPanelController
 {
     NSString *_successfullyImportedText;
-    WBSBrowsingDataImportData *_passwordsConflictData;
-    WBSBrowsingDataImportData *_extensionsConflictData;
-    NSStackView *_passwordsView;
-    NSView *_extensionsView;
-    NSStackView *_extensionAppLockupViewsStackView;
-    NSTextField *_importTitle;
-    NSTextField *_importDescriptionText;
-    NSLayoutConstraint *_importDescriptionTextTopConstraint;
-    NSLayoutConstraint *_notImportedTextTopConstraint;
-    NSTextField *_passwordsNumberOfItemsFailedToImportLabel;
-    NSTextField *_extensionsNumberOfItemsFailedToImportLabel;
-    NSBox *_magicPocketDividingLine;
-    NSView *_scrollViewContentView;
-    NSLayoutConstraint *_scrollViewMaxHeightConstraint;
 }
 
 - (void);
@@ -41,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
@@ -53,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -63,18 +49,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak NSStackView *extensionAppLockupViewsStackView; // @synthesize extensionAppLockupViewsStackView=_extensionAppLockupViewsStackView;
-@property(nonatomic) __weak NSTextField *extensionsNumberOfItemsFailedToImportLabel; // @synthesize extensionsNumberOfItemsFailedToImportLabel=_extensionsNumberOfItemsFailedToImportLabel;
-@property(nonatomic) __weak NSView *extensionsView; // @synthesize extensionsView=_extensionsView;
-@property(nonatomic) __weak NSTextField *importDescriptionText; // @synthesize importDescriptionText=_importDescriptionText;
-@property __weak NSLayoutConstraint *importDescriptionTextTopConstraint; // @synthesize importDescriptionTextTopConstraint=_importDescriptionTextTopConstraint;
-@property(nonatomic) __weak NSTextField *importTitle; // @synthesize importTitle=_importTitle;
-@property __weak NSBox *magicPocketDividingLine; // @synthesize magicPocketDividingLine=_magicPocketDividingLine;
-@property __weak NSLayoutConstraint *notImportedTextTopConstraint; // @synthesize notImportedTextTopConstraint=_notImportedTextTopConstraint;
-@property(nonatomic) __weak NSTextField *passwordsNumberOfItemsFailedToImportLabel; // @synthesize passwordsNumberOfItemsFailedToImportLabel=_passwordsNumberOfItemsFailedToImportLabel;
 @property(nonatomic) __weak NSStackView *passwordsView; // @synthesize passwordsView=_passwordsView;
-@property __weak NSView *scrollViewContentView; // @synthesize scrollViewContentView=_scrollViewContentView;
-@property __weak NSLayoutConstraint *scrollViewMaxHeightConstraint; // @synthesize scrollViewMaxHeightConstraint=_scrollViewMaxHeightConstraint;
 
 @end
 

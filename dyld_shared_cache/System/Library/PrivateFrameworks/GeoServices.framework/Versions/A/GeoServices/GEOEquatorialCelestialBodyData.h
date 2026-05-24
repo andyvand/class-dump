@@ -7,7 +7,6 @@
 @interface GEOEquatorialCelestialBodyData
 {
     double _rightAscension;
-    double _declination;
 }
 
 - (double);
@@ -15,10 +14,9 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)er>",R,N,V_jumpToMainScheduler;
 
 // Remaining properties
-@property(readonly, nonatomic) double declination; // @synthesize declination=_declination;
 @property(readonly, nonatomic) double rightAscension; // @synthesize rightAscension=_rightAscension;
 
 @end

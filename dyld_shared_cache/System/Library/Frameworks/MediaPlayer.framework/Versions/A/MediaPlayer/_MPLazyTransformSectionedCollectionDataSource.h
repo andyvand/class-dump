@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSectionedCollection, NSString;
+@class MPSectionedCollection;
 
 __attribute__((visibility("hidden")))
 @interface _MPLazyTransformSectionedCollectionDataSource
 {
     MPSectionedCollection *_collection;
-    CDUnknownBlockType _sectionTransform;
-    CDUnknownBlockType _itemTransform;
 }
 
 - (CDUnknownBlockType);
@@ -20,21 +18,12 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (unsigned long long);
-- (unsigned long long)estHandler:(unsigned long long)arg1 artworkAssetFileURLRequestHandler: /* Error: Ran out of types for this method. */;
-- (void)volumeAudioCategory;
+- (unsigned long long)initWithPreviewFrameDataRequestHandler:(unsigned long long)arg1 artworkAssetFileURLRequestHandler: /* Error: Ran out of types for this method. */;
+- (void)_volumeAudioCategory;
 - (id)ityLimit;
 
 // Remaining properties
 @property(readonly, nonatomic) MPSectionedCollection *collection; // @synthesize collection=_collection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CDUnknownBlockType itemTransform; // @synthesize itemTransform=_itemTransform;
-@property(readonly, copy, nonatomic) CDUnknownBlockType sectionTransform; // @synthesize sectionTransform=_sectionTransform;
-@property(readonly) Class superclass;
 
 @end
 

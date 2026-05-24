@@ -4,37 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableLocalizationTable, NSString;
+@class INCodableLocalizationTable;
 
 @interface INParameterCombination
 {
     _Bool _primary;
-    _Bool _supportsBackgroundExecution;
-    INCodableLocalizationTable *_localizationTable;
-    NSString *_titleFormatString;
-    NSString *_titleFormatStringLocID;
-    NSString *_subtitleFormatString;
-    NSString *_subtitleFormatStringLocID;
 }
 
 + (_Bool);
-+ (id)tadata:(id)arg1 searchQuery:(id *)arg2;
++ (id)initWithSettingMetadata:(id)arg1 searchQuery:(id *)arg2;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)adaptiveTriggersXPCProxyServiceRemoteServer;
+- (id)_componentOfClass:(id)arg1;
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)URLHostAllowedCharacterSet;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void), isSSIDBroadcast:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -44,27 +38,12 @@
 - (void);
 - (id);
 - (void)line";
-- (id)mpletion:(unsigned long long)arg1;
-- (void)letion: /* Error: Ran out of types for this method. */;
+- (id)confirmAddCallParticipant:(unsigned long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)provideMediaItemsOptionsForSearchForMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setLocalizationTable:) INCodableLocalizationTable *_localizationTable; // @synthesize _localizationTable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *localizedSubtitleFormatString;
-@property(readonly, copy) NSString *localizedTitleFormatString;
-@property(nonatomic, getter=isPrimary) _Bool primary; // @synthesize primary=_primary;
-@property(copy, nonatomic) NSString *subtitleFormatString; // @synthesize subtitleFormatString=_subtitleFormatString;
-@property(copy, nonatomic) NSString *subtitleFormatStringLocID; // @synthesize subtitleFormatStringLocID=_subtitleFormatStringLocID;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsBackgroundExecution; // @synthesize supportsBackgroundExecution=_supportsBackgroundExecution;
-@property(copy, nonatomic) NSString *titleFormatString; // @synthesize titleFormatString=_titleFormatString;
-@property(copy, nonatomic) NSString *titleFormatStringLocID; // @synthesize titleFormatStringLocID=_titleFormatStringLocID;
 
 @end
 

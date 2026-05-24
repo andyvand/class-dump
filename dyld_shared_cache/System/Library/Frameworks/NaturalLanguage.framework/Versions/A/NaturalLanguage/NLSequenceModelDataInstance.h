@@ -11,17 +11,16 @@
 @interface NLSequenceModelDataInstance : NLDataInstance
 {
     NSArray *_tokens;
-    NSArray *_labels;
 }
 
 + (id);
+- (id)om.apple.DiskManagement;
+- (id)aracters.;
+- (struct __CFDictionary *),-;
 - (id);
 - (id);
-- (struct __CFDictionary *);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id));
 - (id);
 - (id);
 - (id);

@@ -7,7 +7,6 @@
 @interface _AXMSettingObserver
 {
     id observer;
-    CDUnknownBlockType callback;
 }
 
 - (void);

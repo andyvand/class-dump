@@ -6,12 +6,9 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSSet;
-
 @interface PKPaymentSendOwnershipTokensRequest : PKPaymentWebServiceRequest
 {
     unsigned long long _reason;
-    NSSet *_passOwnershipTokens;
 }
 
 - (void);
@@ -22,7 +19,6 @@
 - (void)m-background-task-fire;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *passOwnershipTokens; // @synthesize passOwnershipTokens=_passOwnershipTokens;
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
 
 @end

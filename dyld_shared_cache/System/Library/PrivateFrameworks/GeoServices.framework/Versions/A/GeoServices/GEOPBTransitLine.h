@@ -4,57 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitArtwork, GEOPBTransitLineDisplayHints, GEOStyleAttributes, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBTransitLine
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOPBTransitTimeRange *_operatingHours;
-    unsigned long long _operatingHoursCount;
-    unsigned long long _operatingHoursSpace;
-    GEOPBTransitArtwork *_alternateArtwork;
-    GEOPBTransitArtwork *_artwork;
-    GEOPBTransitLineDisplayHints *_displayHints;
-    GEOPBTransitArtwork *_headerArtwork;
-    NSString *_lineColor;
-    GEOPBTransitArtwork *_modeArtwork;
-    unsigned long long _muid;
-    NSString *_nameDisplayString;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _guidanceSnappingType;
-    unsigned int _lineIndex;
-    int _placeDisplayStyle;
-    int _preferredDepartureTimeStyle;
-    unsigned int _systemIndex;
-    int _transitType;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_guidanceSnappingType:1;
-        unsigned int has_lineIndex:1;
-        unsigned int has_placeDisplayStyle:1;
-        unsigned int has_preferredDepartureTimeStyle:1;
-        unsigned int has_systemIndex:1;
-        unsigned int has_transitType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_operatingHours:1;
-        unsigned int read_alternateArtwork:1;
-        unsigned int read_artwork:1;
-        unsigned int read_displayHints:1;
-        unsigned int read_headerArtwork:1;
-        unsigned int read_lineColor:1;
-        unsigned int read_modeArtwork:1;
-        unsigned int read_nameDisplayString:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)EndTime:(id)arg1;
++ (_Bool)setHasValidEndTime:(id)arg1;
 - (int);
+- (void)HF;
 - (void);
 - (void);
 - (void);
@@ -64,8 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)&p;
 - (void);
 - (void);
 - (void);
@@ -88,10 +46,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (_Bool);
 - (id);
 - (int);
@@ -106,26 +64,26 @@
 - (int);
 - (int);
 - (void);
-- (_Bool);
-- (int);
+- (_Bool)tr"^Q"extra"[5Q]};
+- (int)0@0:(id)arg1 8^{__SecTask=}16@24^@32;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) ;
 - (unsigned int);
-- (void);
-- (void);
+- (void)@24@32;
+- (void)ions/A/Accelerate;
 - (id);
-- (void);
+- (void)ent acousticSLResultForContext:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void)long;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ticketForTransitDeparturesAtStation:line:referenceTripID:includeAllDirectionNames:traits: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -145,46 +103,7 @@
 2;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *alternateArtwork;
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) GEOPBTransitLineDisplayHints *displayHints;
-@property(nonatomic) int guidanceSnappingType;
-@property(readonly, nonatomic) _Bool hasAlternateArtwork;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(readonly, nonatomic) _Bool hasDisplayHints;
-@property(nonatomic) _Bool hasGuidanceSnappingType;
-@property(readonly, nonatomic) _Bool hasHeaderArtwork;
-@property(readonly, nonatomic) _Bool hasLineColor;
-@property(nonatomic) _Bool hasLineIndex;
-@property(readonly, nonatomic) _Bool hasModeArtwork;
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasNameDisplayString;
-@property(nonatomic) _Bool hasPlaceDisplayStyle;
-@property(nonatomic) _Bool hasPreferredDepartureTimeStyle;
-@property(readonly, nonatomic) _Bool hasStyleAttributes;
-@property(nonatomic) _Bool hasSystemIndex;
-@property(nonatomic) _Bool hasTransitType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOPBTransitArtwork *headerArtwork;
-@property(retain, nonatomic) NSString *lineColor;
-@property(nonatomic) unsigned int lineIndex;
-@property(retain, nonatomic) GEOPBTransitArtwork *modeArtwork;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *nameDisplayString;
-@property(readonly, nonatomic) struct GEOPBTransitTimeRange *operatingHours;
-@property(readonly, nonatomic) unsigned long long operatingHoursCount;
-@property(nonatomic) int placeDisplayStyle;
-@property(nonatomic) int preferredDepartureTimeStyle;
-@property(retain, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int systemIndex;
-@property(nonatomic) int transitType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

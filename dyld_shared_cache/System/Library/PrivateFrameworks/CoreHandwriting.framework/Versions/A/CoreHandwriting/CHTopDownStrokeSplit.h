@@ -9,15 +9,6 @@
 @interface CHTopDownStrokeSplit
 {
     NSArray *_strokeGroup1;
-    NSArray *_strokeGroup2;
-    double _transitionTime;
-    NSArray *_orderedStrokes;
-    NSArray *_orderedStrokesGroup1;
-    NSArray *_orderedStrokesGroup2;
-    long long _substrokeCount1;
-    long long _substrokeCount2;
-    struct CGRect _groupBounds1;
-    struct CGRect _groupBounds2;
 }
 
 + (id);
@@ -35,16 +26,7 @@
 - (void)c;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect groupBounds1; // @synthesize groupBounds1=_groupBounds1;
-@property(readonly, nonatomic) struct CGRect groupBounds2; // @synthesize groupBounds2=_groupBounds2;
-@property(readonly, nonatomic) NSArray *orderedStrokes; // @synthesize orderedStrokes=_orderedStrokes;
-@property(readonly, nonatomic) NSArray *orderedStrokesGroup1; // @synthesize orderedStrokesGroup1=_orderedStrokesGroup1;
-@property(readonly, nonatomic) NSArray *orderedStrokesGroup2; // @synthesize orderedStrokesGroup2=_orderedStrokesGroup2;
 @property(readonly, nonatomic) NSArray *strokeGroup1; // @synthesize strokeGroup1=_strokeGroup1;
-@property(readonly, nonatomic) NSArray *strokeGroup2; // @synthesize strokeGroup2=_strokeGroup2;
-@property(readonly, nonatomic) long long substrokeCount1; // @synthesize substrokeCount1=_substrokeCount1;
-@property(readonly, nonatomic) long long substrokeCount2; // @synthesize substrokeCount2=_substrokeCount2;
-@property(readonly, nonatomic) double transitionTime; // @synthesize transitionTime=_transitionTime;
 
 @end
 

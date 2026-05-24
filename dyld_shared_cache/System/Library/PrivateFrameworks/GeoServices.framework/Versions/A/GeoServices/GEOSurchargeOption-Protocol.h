@@ -5,13 +5,10 @@
 //
 
 @class NSArray;
-@protocol GEOSurchargeType;
 
 @protocol GEOSurchargeOption
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOSurchargeType> selectedSurchargeType;
-@property(readonly, nonatomic) unsigned long long selectedSurchargeTypeIndex;
 @property(readonly, nonatomic) NSArray *surchargeTypes;
 @end
 

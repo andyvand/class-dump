@@ -7,8 +7,6 @@
 @interface PromotedContentUI.AppStoreSession
 {
     id context;
-    id apContentData;
-    id start;
 }
 
 - (id);

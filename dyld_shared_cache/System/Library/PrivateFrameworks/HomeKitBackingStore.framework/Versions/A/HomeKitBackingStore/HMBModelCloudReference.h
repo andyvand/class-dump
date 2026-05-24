@@ -6,18 +6,16 @@
 
 #import <HomeKitBackingStore/HMBModelReference.h>
 
-@class CKReference, HMBCloudZone, NSString;
+@class HMBCloudZone;
 
 @interface HMBModelCloudReference : HMBModelReference
 {
     unsigned long long _action;
-    CKReference *_reference;
-    HMBCloudZone *_cloudZone;
 }
 
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool)AND version NOT LIKE "%&FV=%"               );
 + (_Bool);
 - (void);
 - (id);
@@ -28,26 +26,17 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)incomplete, have pending fetcher before first successful fetcher;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long action; // @synthesize action=_action;
 @property(nonatomic) __weak HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKReference *reference; // @synthesize reference=_reference;
-@property(readonly) Class superclass;
 
 @end
 

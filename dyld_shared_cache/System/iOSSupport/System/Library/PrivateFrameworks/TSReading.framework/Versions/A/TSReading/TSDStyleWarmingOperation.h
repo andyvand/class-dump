@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSKAccessController, TSSStyle;
+@class TSSStyle;
 
 @interface TSDStyleWarmingOperation
 {
     TSSStyle *mStyle;
-    int mProperty;
-    TSKAccessController *mAccessController;
 }
 
 - (id);
-- (void);
+- (void)"B9;
 - (void);
 
 @end

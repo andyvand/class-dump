@@ -9,12 +9,11 @@
 @interface TRIFBTrialManagedAssetBuilder
 {
     AFBBufferBuilder *_owner;
-    struct TrialManagedAssetBuilder *_bldr;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)b;
+- (void)@9*;
 - (void);
 - (void);
 - (void);

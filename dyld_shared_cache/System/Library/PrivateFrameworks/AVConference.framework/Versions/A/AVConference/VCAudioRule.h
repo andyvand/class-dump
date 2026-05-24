@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCAudioRule
 {
     int _payload;
-    _Bool _isSecondary;
-    _Bool _sbr;
-    unsigned int _samplesPerBlock;
-    unsigned long long _hash;
 }
 
 - (id);
@@ -21,14 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (int);
+- (int);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSecondary; // @synthesize isSecondary=_isSecondary;
 @property(readonly, nonatomic) int payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) unsigned int samplesPerBlock; // @synthesize samplesPerBlock=_samplesPerBlock;
-@property(readonly, nonatomic) _Bool sbr; // @synthesize sbr=_sbr;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AKBiometricRatchetProtocol
+- (void)+;
 @end
 

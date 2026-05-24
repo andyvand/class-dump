@@ -5,5 +5,8 @@
 //
 
 @protocol PLJournalEntryPayload
++ (id);
+- (id);
+- (id)q;
 @end
 

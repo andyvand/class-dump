@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2TLVErrorsWrapper, HAP2TLVPairingStateWrapper, NSString;
+@class HAP2TLVPairingStateWrapper;
 
 __attribute__((visibility("hidden")))
 @interface HAP2TLVAddOrRemovePairingResponse
 {
     HAP2TLVPairingStateWrapper *_state;
-    HAP2TLVErrorsWrapper *_responseError;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)h bookmark for stream:(id)arg1 %@ %@ error:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (void)ristics: /* Error: Ran out of types for this method. */;
+- (void)setCharacteristics: /* Error: Ran out of types for this method. */;
 - (void)ked Services :(id)arg1 %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAP2TLVErrorsWrapper *responseError; // @synthesize responseError=_responseError;
 @property(retain, nonatomic) HAP2TLVPairingStateWrapper *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

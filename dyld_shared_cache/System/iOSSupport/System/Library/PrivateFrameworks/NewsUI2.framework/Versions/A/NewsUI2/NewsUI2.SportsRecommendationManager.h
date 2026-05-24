@@ -7,12 +7,6 @@
 @interface NewsUI2.SportsRecommendationManager
 {
     id recommendationService;
-    id tagService;
-    id appConfigurationManager;
-    id fetchDeduper;
-    id refreshIfNeededDeduper;
-    id _cachedResult;
-    id lazyStore;
 }
 
 @end

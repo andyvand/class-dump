@@ -10,15 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCVideoQualityInfo : VCObject
 {
     _Bool _videoIsExpected;
-    _Bool _isVideoQualityDegraded;
-    double _lastGoodVideoQualityTime;
-    double _lastBadVideoQualityTime;
-    double _lastVideoQualityDegradedSwitchTime;
-    double _firstDegradedMeasure;
-    double _videoDegradedThreshold;
-    double _videoImprovedThreshold;
-    double _videoMinFrameRate;
-    _Bool _shouldUseExitHysteresis;
 }
 
 - (_Bool);
@@ -31,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isVideoQualityDegraded; // @synthesize isVideoQualityDegraded=_isVideoQualityDegraded;
-@property(nonatomic) _Bool videoIsExpected; // @synthesize videoIsExpected=_videoIsExpected;
 
 @end
 

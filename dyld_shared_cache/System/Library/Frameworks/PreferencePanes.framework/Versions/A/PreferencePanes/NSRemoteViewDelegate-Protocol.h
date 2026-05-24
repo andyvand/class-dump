@@ -6,6 +6,9 @@
 
 @protocol NSRemoteViewDelegate
 
+@optional
+- (void);
+
 // Remaining properties
 @property(readonly) _Bool shouldRetainExportedObject;
 // Preceding property had unknown attributes: ?

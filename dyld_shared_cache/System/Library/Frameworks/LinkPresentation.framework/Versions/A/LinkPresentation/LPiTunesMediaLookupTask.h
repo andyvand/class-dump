@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaLookupTask
 {
     NSArray *_identifiers;
-    NSArray *_bundleIdentifiers;
-    NSString *_storefrontCountryCode;
 }
 
 - (id);
@@ -20,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 @end

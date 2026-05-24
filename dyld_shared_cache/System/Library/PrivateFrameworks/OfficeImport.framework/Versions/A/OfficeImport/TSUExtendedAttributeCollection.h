@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)r;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)ntralDirectoryFromInputStream:(id)arg1 offset: /* Error: Ran out of types for this method. */;
+- (id)searchForEndOfCentralDirectoryFromInputStream:(id)arg1 offset: /* Error: Ran out of types for this method. */;
 - (void)Utilities) tsu_indexOfFirstNonPrefixCharacterInNumberFormatSubpattern];
 
 @end

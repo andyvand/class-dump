@@ -6,14 +6,12 @@
 
 #import <AVConference/AVConferenceXPCClient.h>
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCXPCClientShared : AVConferenceXPCClient
 {
     NSMutableDictionary *_registeredUUIDServiceBlocks;
-    NSObject<OS_dispatch_queue> *_registeredBlocksQueue;
 }
 
 - (id);
@@ -25,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *registeredBlocksQueue; // @synthesize registeredBlocksQueue=_registeredBlocksQueue;
 @property(readonly, nonatomic) NSMutableDictionary *registeredUUIDServiceBlocks; // @synthesize registeredUUIDServiceBlocks=_registeredUUIDServiceBlocks;
 
 @end

@@ -9,7 +9,7 @@
     unsigned long long _diagnostics;
 }
 
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -18,18 +18,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)not have children.
+;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysAuthorizationDenied;
 @property(readonly, nonatomic) _Bool authorizationDenied;
-@property(readonly, nonatomic) _Bool authorizationDeniedGlobally;
-@property(readonly, nonatomic) _Bool authorizationRequestInProgress;
-@property(readonly, nonatomic) _Bool authorizationRestricted;
-@property(readonly, nonatomic) _Bool fullAccuracyDenied;
-@property(readonly, nonatomic) _Bool insufficientlyInUse;
-@property(readonly, nonatomic) _Bool serviceSessionRequired;
 
 @end
 

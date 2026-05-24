@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMappedBundleInfo, NSData, NSNumber, NSString, NSURL;
+@class AMSMappedBundleInfo;
 
 @interface AMSProcessInfo
 {
     struct os_unfair_lock_s _lock;
-    NSString *_partnerHeader;
-    CDUnknownBlockType _treatmentCanonicalAccountIdentifierProvider;
-    NSString *_accountMediaType;
-    NSData *_auditTokenData;
-    NSString *_bundleIdentifier;
-    NSURL *_bundleURL;
-    NSString *_clientVersion;
-    NSString *_executableName;
-    NSString *_localizedName;
-    NSString *_proxyAppBundleID;
-    NSString *_treatmentNamespace;
-    NSString *_userAgentSuffix;
-    AMSMappedBundleInfo *_mappedBundleInfo;
-    NSNumber *_processIdentifier;
 }
 
 + (_Bool);
 + (_Bool);
++ (void)pointerAtIndex:(id)arg1;
++ (id)%@;
++ (id);
 + (void);
-+ (id);
-+ (id);
-+ (void);
-+ (_Bool);
-+ (id);
-+ (id);
++ (_Bool)locale;
++ (id)AFAssertionContext:(id)arg1:expirationDuration /* Error: Ran out of types for this method. */;
++ (id)";
 + (void);
 + (void);
 + (id);
@@ -47,7 +33,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)a total of %.04f minutes over the past %@ days <EndPowerAndWifiConnectedStats>;
 - (id);
 - (id);
 - (id);
@@ -60,7 +46,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)updateMediaControlsWithConfiguration:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -71,10 +57,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -91,22 +77,7 @@ PB:qYêéc}­fÙBÅ°ZJgÇÁ¤·P ­ôaã`ïnÌA`Áík(<:ñs[Ú
 - (void)!zlMàB;
 
 // Remaining properties
-@property(retain) NSString *accountMediaType; // @synthesize accountMediaType=_accountMediaType;
-@property(readonly, getter=isAccountsDaemon) _Bool accountsDaemon;
-@property(readonly, getter=isAMSAccountsDaemon) _Bool amsAccountsDaemon;
-@property(retain) NSData *auditTokenData; // @synthesize auditTokenData=_auditTokenData;
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;
-@property(retain) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(retain) NSString *executableName; // @synthesize executableName=_executableName;
-@property(retain) NSString *localizedName; // @synthesize localizedName=_localizedName;
 @property(readonly) AMSMappedBundleInfo *mappedBundleInfo; // @synthesize mappedBundleInfo=_mappedBundleInfo;
-@property(retain) NSString *partnerHeader;
-@property(retain) NSNumber *processIdentifier; // @synthesize processIdentifier=_processIdentifier;
-@property(retain) NSString *proxyAppBundleID; // @synthesize proxyAppBundleID=_proxyAppBundleID;
-@property(copy) CDUnknownBlockType treatmentCanonicalAccountIdentifierProvider;
-@property(copy) NSString *treatmentNamespace; // @synthesize treatmentNamespace=_treatmentNamespace;
-@property(retain) NSString *userAgentSuffix; // @synthesize userAgentSuffix=_userAgentSuffix;
 
 @end
 

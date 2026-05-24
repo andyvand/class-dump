@@ -7,14 +7,12 @@
 @class _INPBString;
 
 @protocol _INPBUncompressFileIntentResponse
+- (void)J;
 - (_Bool)diaIntentData"16@0:8 /* Error: Ran out of types for this method. */;
 - (void)¨·8¸¹È¹;
-- (_INPBString *)chTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBString *)provideDateTimeOptionsForSearchForNotebookItems:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *entityName;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool success;
 @end
 

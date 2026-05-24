@@ -5,15 +5,10 @@
 //
 
 @class NSMutableSet;
-@protocol DDActionsManagerDelegateProtocol;
 
 @interface DDActionsManager
 {
     NSMutableSet *_uiElementsInUse;
-    _Bool _forceWindowAnimationsFromRight;
-    _Bool _containsAnchoredElement;
-    long long _requestCount;
-    id _delegate;
 }
 
 + (void);
@@ -23,9 +18,9 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool){;
 + (void);
-+ (id);
++ (id)%lu years on the %@ %@ of %@.;
 - (void);
 - (void);
 - (void);
@@ -44,24 +39,23 @@
 - (id);
 - (id);
 - (void);
+- (id)R7;
+- (void);
+- (id);
+- (_Bool);
+- (id)4;
+- (void);
 - (id);
 - (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)<v@?BQ@"NSError">32;
 - (void);
 
 // Remaining properties
-@property __weak id <DDActionsManagerDelegateProtocol> delegate; // @synthesize delegate=_delegate;
 @property _Bool forceWindowAnimationsFromRight; // @synthesize forceWindowAnimationsFromRight=_forceWindowAnimationsFromRight;
 
 @end

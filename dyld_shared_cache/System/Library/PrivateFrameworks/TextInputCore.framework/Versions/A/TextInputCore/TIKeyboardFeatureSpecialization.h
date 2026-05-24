@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, TIInputMode;
+@class NSString, TIInputMode;
 
 @interface TIKeyboardFeatureSpecialization
 {
     NSString *m_softwareLayout;
-    struct USet *m_precomposedCharacterSet;
-    struct USet *m_acceptableCharacterSet;
-    NSMutableDictionary *m_compositionMaps;
-    NSMutableDictionary *m_reverseCompositionMaps;
-    _Bool _useRelaxedOVSPolicy;
-    _Bool _skipCandidateQualityFilter;
-    TIInputMode *_inputMode;
-    long long _currentUserInterfaceIdiom;
 }
 
 + (id);
 + (id);
 + (struct USet *);
+- (_Bool),&,N,V_telephonyUpdateQueue;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (const struct USet *);
+- (void)ously:(void *)arg1 %@;
+- (_Bool)aving convo because no object:%@, %@ /* Error: Ran out of types for this method. */;
+- (_Bool)ing for callUUID %@;
+- (_Bool)ription for callUUID %@;
+- (_Bool)request;
+- (void)sending remote device received text %@, %@;
+- (void)= %@;
+- (void)axtty_message_type;
+- (const struct USet *)v32@?0@"RPCompanionLinkClient"8Q16^B24;
 - (id);
 - (id);
 - (id);
@@ -54,11 +46,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id));
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)`T;
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -81,10 +73,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) long long currentUserInterfaceIdiom; // @synthesize currentUserInterfaceIdiom=_currentUserInterfaceIdiom;
 @property(readonly, nonatomic) TIInputMode *inputMode; // @synthesize inputMode=_inputMode;
-@property(nonatomic) _Bool skipCandidateQualityFilter; // @synthesize skipCandidateQualityFilter=_skipCandidateQualityFilter;
-@property(nonatomic) _Bool useRelaxedOVSPolicy; // @synthesize useRelaxedOVSPolicy=_useRelaxedOVSPolicy;
 
 @end
 

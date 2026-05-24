@@ -7,6 +7,7 @@
 @class NSObject;
 
 @protocol HMFTimerManagerTimerContext
+- (NSObject *).	M	.	K	9		;
 
 // Remaining properties
 @property(readonly) NSObject *object;

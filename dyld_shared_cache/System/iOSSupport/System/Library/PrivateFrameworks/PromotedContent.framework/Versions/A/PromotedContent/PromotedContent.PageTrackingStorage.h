@@ -7,8 +7,6 @@
 @interface PromotedContent.PageTrackingStorage
 {
     id lock;
-    id adInstanceMap;
-    id pageMap;
 }
 
 @end

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)0@ù
 × ;
-- (id)TypesMask;
+- (id)_allowedScrollTypesMask;
 - (void)3UIBridgedAnimationValueP;
 
 // Remaining properties

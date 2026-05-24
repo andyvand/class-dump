@@ -9,10 +9,6 @@
 @interface CSOCRTextLine
 {
     NSString *_strings[3];
-    double _scores[3];
-    struct CGRect _textBounds;
-    long long _count;
-    _Bool _isTitle;
 }
 
 - (struct CGRect);

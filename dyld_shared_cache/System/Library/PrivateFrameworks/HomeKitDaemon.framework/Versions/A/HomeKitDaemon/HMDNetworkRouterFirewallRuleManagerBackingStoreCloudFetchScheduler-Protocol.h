@@ -5,17 +5,36 @@
 //
 
 @class NSString;
-@protocol HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchSchedulerDelegate;
 
 @protocol HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchScheduler
-- (NSString *);
+- (double)eChangedWithFrame %s;
+- (void)oat intensity)
+{
+float sl = (s.r + s.g + s.b);
+float bl = (b.r + b.g + b.b);
+float dl = sl + (sl - bl) * intensity;
+float mult = dl / max(sl, 0.0001);
+mult = 1.571 * (mult - 1.0);
+mult = mult / (1.0 + abs(mult));
+mult += 1.0;
+mult = clamp(mult, 1.0 - 0.5 * abs(intensity), 1.0 + 1.0 * abs(intensity));
+s.rgb = s.rgb * mult;
+return s;
+}
+kernel vec4 definition(sampler image, sampler blur, float intensity)
+{
+vec4 imgSample = sample(image, samplerCoord(image));
+vec4 blurSample = sample(blur, samplerCoord(blur));
+vec4 meaning = meaningBlur(imgSample, blurSample);
+vec4 clarity = clarityNew(imgSample, meaning, intensity);
+return clarity;
+}
+
+;
+- (NSString *)IDSAvailable_INT;
 - (_Bool)cúþðfúþ<íúþþúþ`	ûþ¸ûþ\ûþü"ûþÐ1ûþXQûþx[ûþ8tûþ}ûþûþtûþ,ûþàûþºûþ0ÅûþÐûþÔüþ°¢üþü®üþ¼¹üþXÇüþãüþ¬ýþ "ýþtHýþÌQýþ$kýþ|rýþ zýþýþôòýþ øýþýýþä þþàíþþhÿþìÿþÿþÿþ Èþ°	ÈþÈþ´VÈþ|nÈþ |ÈþÈþÈÈþ¬ýÈþ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <HMDNetworkRouterFirewallRuleManagerBackingStoreCloudFetchSchedulerDelegate> delegate;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) double interval;
-@property(readonly, nonatomic) double retryInterval;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
 @end
 

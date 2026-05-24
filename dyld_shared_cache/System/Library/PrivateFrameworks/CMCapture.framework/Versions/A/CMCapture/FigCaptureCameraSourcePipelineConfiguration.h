@@ -4,113 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSmartStyle, FigCaptureSourceConfiguration, FigDepthDataCaptureConnectionConfiguration, FigVideoCaptureConnectionConfiguration, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureCameraSourcePipelineConfiguration
 {
     int _motionAttachmentsSource;
-    NSArray *_videoStabilizationTypes;
-    _Bool _actionCameraEnabled;
-    int _multiCamClientCompositingPrimaryCameraVideoStabilizationStrength;
-    int _depthType;
-    float _maxContinuousZoomFactorForDepthDataDelivery;
-    CDStruct_79c71658 _depthDimensionsOverride;
-    _Bool _strictDepthModePreferred;
-    unsigned int _RGBIRStereoFusionMinDepthThresholdMM;
-    unsigned int _RGBIRStereoFusionMaxDepthThresholdMM;
-    unsigned int _RGBIRStereoFusionFixedDepthThresholdMM;
-    unsigned int _RGBIRStereoFusionFixedDepthValueMM;
-    _Bool _RGBIRStereoFusionEnabled;
-    CDStruct_1b6d18a9 _maxExposureDurationClientOverride;
-    CDStruct_1b6d18a9 _maxExposureDurationFrameworkOverride;
-    _Bool _forceCNRDisabled;
-    _Bool _coreMediaFaceTrackingEnabled;
-    _Bool _ispFaceTrackingEnabled;
-    _Bool _stillImageGeometricDistortionCorrectionEnabled;
-    _Bool _videoCaptureGeometricDistortionCorrectionEnabled;
-    _Bool _previewGeometricDistortionCorrectionEnabled;
-    _Bool _stillImageGeometricDistortionCorrectionExpansionCoversOverscan;
-    _Bool _stillImageLocalHistogramClippingDataMetadataEnabled;
-    _Bool _offlineVISEnabled;
-    _Bool _zeroShutterLagEnabled;
-    _Bool _configureForZeroShutterLagSupport;
-    _Bool _configureForSIFRStillImageCaptureIfAvailable;
-    _Bool _softISPEnabled;
-    _Bool _sensorRawStillImageOutputsEnabledIfAvailable;
-    _Bool _enableStillImageSensorOverscanIfAvailable;
-    float _overCapturePercentage;
-    _Bool _configureForSpatialOverCaptureSupport;
-    _Bool _configureForDigitalFlashSupport;
-    _Bool _configureForSoftISPSupport;
-    _Bool _configureForDepthDataDeliverySupport;
-    _Bool _configureForStereoPhotoCaptureSupport;
-    _Bool _clockSynchronizationEnabled;
-    _Bool _depthConversionEnabled;
-    _Bool _midFrameSynchronizationEnabled;
-    int _stillImageFocusPixelDataRetainedBufferCount;
-    int _stillImageSashimiRawRetainedBufferCount;
-    int _stillImageSensorInterfaceRawRetainedBufferCount;
-    int _stillImageOutputRetainedBufferCountOverride;
-    _Bool _stillImageOutputSushiRawAttachmentOptionEnabled;
-    _Bool _streamingForegroundSegmentationEnabled;
-    _Bool _streamingCameraCalibrationDataDeliveryEnabled;
-    int _autoImageControlMode;
-    FigCaptureSourceConfiguration *_cameraConfiguration;
-    NSArray *_connectionConfigurations;
-    FigVideoCaptureConnectionConfiguration *_videoPreviewSinkConnectionConfiguration;
-    NSArray *_previewDerivedConnectionConfigurations;
-    NSArray *_videoCaptureConnectionConfigurations;
-    FigVideoCaptureConnectionConfiguration *_stillImageConnectionConfiguration;
-    FigDepthDataCaptureConnectionConfiguration *_depthDataConnectionConfiguration;
-    NSArray *_visionDataConnectionConfigurations;
-    NSArray *_metadataObjectConnectionConfigurations;
-    NSArray *_movieFileDetectedObjectMetadataConnectionConfigurations;
-    NSArray *_pointCloudDataConnectionConfigurations;
-    _Bool _clientIsCameraOrDerivative;
-    _Bool _deferredTimeOfFlightNodePrepareEnabled;
-    _Bool _videoHDRImageStatisticsEnabled;
-    float _additionalVISOverscanWhenRecording;
-    _Bool _videoSTFMetadataEnabled;
-    int _previewMaxLossyCompressionLevel;
-    int _videoDataMaxLossyCompressionLevel;
-    int _movieFileMaxLossyCompressionLevel;
-    int _stillImageMaxLossyCompressionLevel;
-    _Bool _depthOutputEnabled;
-    _Bool _lumaHistogramsEnabled;
-    _Bool _continuityCameraIsWired;
-    int _continuityCameraClientDeviceClass;
-    _Bool _clientIsVOIP;
-    _Bool _suppressVideoEffects;
-    _Bool _zoomPIPSingleStreamModeEnabled;
-    float _zoomPIPMinimumUIZoomFactor;
-    float _zoomPIPSlaveStreamingFrameRate;
-    NSString *_preferredMasterPortType;
-    _Bool _smartStyleLearningEnabled;
-    _Bool _smartStyleReversibilityEnabled;
-    FigCaptureSmartStyle *_smartStyle;
-    _Bool _rebuildingGraphForTrueVideoTransition;
-    float _trueVideoTransitionPreviousPhotoGraphZoomFactor;
-    int _targetFrameRateWhenNotRecording;
-    _Bool _preLTMThumbnailEnabled;
-    _Bool _postLTMThumbnailEnabled;
-    _Bool _postColorProcessingThumbnailEnabled;
-    _Bool _weightSegmentMapEnabled;
-    _Bool _smartFramingEnabled;
-    _Bool _lowLatencyStabilizationEnabledInSourcePipeline;
-    _Bool _stereoVideoCaptureEnabled;
-    _Bool _graphContainsMultipleVideoSources;
-    _Bool _structuredLightAFAssistEnabled;
-    _Bool _temporalNoiseReductionStrengthHighEnabled;
-    _Bool _audioMixWithOthersEnabled;
-    unsigned int _weightSegmentMapNumberOfSegments;
-    unsigned int _weightSegmentMapSmoothingSigma;
-    CDStruct_79c71658 _ltmThumbnailOutputDimensions;
-    CDStruct_79c71658 _weightSegmentMapOutputDimensions;
-    CDStruct_79c71658 _captureDimensionsForFSDNetSecondary;
 }
 
-- (void);
+- (void)initWithIntSet: /* Error: Ran out of types for this method. */;
 
 @end
 

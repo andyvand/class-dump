@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PRSiriSchemaPRResponseGenerationRequestEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_transcriptEventId;
-    _Bool _hasTranscriptEventId;
 }
 
 - (id);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)mplemented at /AppleInternal/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDIAPInfoResponse_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)tRecordCounter with DatabaseInspector:(id)arg1;
 - (id);
 - (id);
-- (id)tachmentMetadata;
+- (id)_smsAttachmentMetadata;
 - (id)TB,N,V_isWarmStart;
-- (void)WAIT;
+- (void)FLOWSTATETYPE_WAIT;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTranscriptEventId; // @synthesize hasTranscriptEventId=_hasTranscriptEventId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *transcriptEventId; // @synthesize transcriptEventId=_transcriptEventId;
 
 @end

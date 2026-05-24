@@ -5,5 +5,6 @@
 //
 
 @protocol FamilyCircle.XPCStreamHandling
+- (void)canPlaySound;
 @end
 

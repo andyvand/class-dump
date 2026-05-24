@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, MRTransactionPacketizer, NSMutableArray;
-@protocol MRTransactionSourceDelegate;
-
 @interface MRTransactionSource
 {
     unsigned long long _name;
-    MRTransactionPacketizer *_packetizer;
-    NSMutableArray *_packets;
-    id <MRTransactionSourceDelegate> _delegate;
-    MRPlayerPath *_playerPath;
 }
 
 - (id);
@@ -26,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long name; // @synthesize name=_name;
-@property(readonly, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

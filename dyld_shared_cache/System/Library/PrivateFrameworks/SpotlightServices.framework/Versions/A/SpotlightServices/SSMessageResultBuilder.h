@@ -6,23 +6,11 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface SSMessageResultBuilder : SSResultBuilder
 {
     _Bool _isGroupThread;
-    NSString *_groupDisplayName;
-    NSString *_groupPhotoPath;
-    NSString *_message;
-    NSString *_messageId;
-    NSArray *_attachmentNames;
-    NSArray *_attachmentPaths;
-    NSArray *_attachmentTypes;
-    NSArray *_recipients;
-    NSArray *_recipientContactIds;
-    NSDate *_sendDate;
-    NSArray *_senders;
-    NSArray *_senderContactIds;
 }
 
 + (_Bool);
@@ -33,14 +21,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setEarliestAssetDate: /* Error: Ran out of types for this method. */;
+- (id)setDuration: /* Error: Ran out of types for this method. */;
+- (id)setContentImages: /* Error: Ran out of types for this method. */;
+- (id)setClassName:forClass: /* Error: Ran out of types for this method. */;
+- (id)setCanDrawSubviewsIntoLayer: /* Error: Ran out of types for this method. */;
+- (id)setButton: /* Error: Ran out of types for this method. */;
+- (id)setBrandingText: /* Error: Ran out of types for this method. */;
+- (id)];
 - (void);
 - (id);
 - (void);
@@ -59,25 +47,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)initWithNamespaceNames:(id)arg1 experimentStatus:userId:experimentId:deploymentId:treatmentId: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)iersForIndex:interaction: /* Error: Ran out of types for this method. */;
+- (void)extractIdentifiersForIndex:interaction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attachmentNames; // @synthesize attachmentNames=_attachmentNames;
-@property(retain, nonatomic) NSArray *attachmentPaths; // @synthesize attachmentPaths=_attachmentPaths;
-@property(retain, nonatomic) NSArray *attachmentTypes; // @synthesize attachmentTypes=_attachmentTypes;
 @property(retain, nonatomic) NSString *groupDisplayName; // @synthesize groupDisplayName=_groupDisplayName;
-@property(retain, nonatomic) NSString *groupPhotoPath; // @synthesize groupPhotoPath=_groupPhotoPath;
-@property(nonatomic) _Bool isGroupThread; // @synthesize isGroupThread=_isGroupThread;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSString *messageId; // @synthesize messageId=_messageId;
-@property(retain, nonatomic) NSArray *recipientContactIds; // @synthesize recipientContactIds=_recipientContactIds;
-@property(retain, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(retain, nonatomic) NSDate *sendDate; // @synthesize sendDate=_sendDate;
-@property(retain, nonatomic) NSArray *senderContactIds; // @synthesize senderContactIds=_senderContactIds;
-@property(retain, nonatomic) NSArray *senders; // @synthesize senders=_senders;
 
 @end
 

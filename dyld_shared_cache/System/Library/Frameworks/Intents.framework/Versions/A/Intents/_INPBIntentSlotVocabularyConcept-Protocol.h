@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray, NSString, _INPBIntentSlotVocabularyValue;
 
 @protocol _INPBIntentSlotVocabularyConcept
+- (_INPBIntentSlotVocabularyValue *);
+- (void)(;
 - (NSArray *).intent.calendar.CreateEventIntentResponse;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasRequiresUserIdentification;
 @property(copy, nonatomic) NSString *identifier;
-@property(nonatomic) _Bool requiresUserIdentification;
-@property(copy, nonatomic) NSArray *synonyms;
-@property(readonly, nonatomic) unsigned long long synonymsCount;
 @end
 

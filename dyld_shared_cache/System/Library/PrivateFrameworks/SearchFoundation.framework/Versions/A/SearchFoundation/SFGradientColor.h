@@ -6,37 +6,19 @@
 
 #import <SearchFoundation/SFColor.h>
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface SFGradientColor : SFColor
 {
     struct {
         unsigned int gradientType:1;
     } _has;
-    int _gradientType;
-    NSArray *_colors;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(nonatomic) double alphaComponent;
-@property(nonatomic) double blueComponent;
-@property(nonatomic) int colorTintStyle;
 @property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(retain, nonatomic) SFColor *darkModeColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int gradientType; // @synthesize gradientType=_gradientType;
-@property(nonatomic) double greenComponent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double redComponent;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AppStoreKit.LockupsResponse
 {
     id lockups;
-    id missingIds;
 }
 
 @end

@@ -6,32 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class EXPSiriSchemaEXPSiriPegasusResponseSummary, NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface EXPSiriSchemaEXPServerCounterfactualTriggered : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_pegasusId;
-    NSString *_resultCandidateId;
-    SISchemaUUID *_codepathId;
-    _Bool _isCounterfactualDifferent;
-    int _diffOutcome;
-    EXPSiriSchemaEXPSiriPegasusResponseSummary *_treatmentSummary;
-    EXPSiriSchemaEXPSiriPegasusResponseSummary *_counterfactualSummary;
-    struct {
-        unsigned int isCounterfactualDifferent:1;
-        unsigned int diffOutcome:1;
-    } _has;
-    _Bool _hasPegasusId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasCodepathId;
-    _Bool _hasTreatmentSummary;
-    _Bool _hasCounterfactualSummary;
 }
 
-- (id);
+- (id)S;
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -51,46 +36,32 @@
 - (_Bool);
 - (int);
 - (void);
+- (void)|;
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (id)on] ### - (void)__iap2dServerLaunched, post kiAP2ServerDidLaunchNotification;
+- (id)ader.internal;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)4(;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)b1"threshold"b1"speakerIDThreshold"b1"speakerIdScoreThreshold"b1};
-- (id)lContext;
+- (id)PRSiriSchemaPRJointResolverCallContext;
 - (id)Ü7l8;
 - (void)ÔÍ¹ÿ0;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *codepathId; // @synthesize codepathId=_codepathId;
-@property(retain, nonatomic) EXPSiriSchemaEXPSiriPegasusResponseSummary *counterfactualSummary; // @synthesize counterfactualSummary=_counterfactualSummary;
-@property(nonatomic) int diffOutcome; // @synthesize diffOutcome=_diffOutcome;
-@property(nonatomic) _Bool hasCodepathId; // @synthesize hasCodepathId=_hasCodepathId;
-@property(nonatomic) _Bool hasCounterfactualSummary; // @synthesize hasCounterfactualSummary=_hasCounterfactualSummary;
-@property(nonatomic) _Bool hasDiffOutcome;
-@property(nonatomic) _Bool hasIsCounterfactualDifferent;
-@property(nonatomic) _Bool hasPegasusId; // @synthesize hasPegasusId=_hasPegasusId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasTreatmentSummary; // @synthesize hasTreatmentSummary=_hasTreatmentSummary;
-@property(nonatomic) _Bool isCounterfactualDifferent; // @synthesize isCounterfactualDifferent=_isCounterfactualDifferent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *pegasusId; // @synthesize pegasusId=_pegasusId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(retain, nonatomic) EXPSiriSchemaEXPSiriPegasusResponseSummary *treatmentSummary; // @synthesize treatmentSummary=_treatmentSummary;
 
 @end
 

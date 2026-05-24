@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NWPBBrowseDescriptor, NWPBParameters;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NWPBStartBrowse
 {
     NSString *_clientUUID;
-    NWPBBrowseDescriptor *_descriptor;
-    NWPBParameters *_parameters;
 }
 
 - (id);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)fallbackDelegateWrapper;
+- (id)_fallbackDelegateWrapper;
 - (id)b;
 - (void)@;
 

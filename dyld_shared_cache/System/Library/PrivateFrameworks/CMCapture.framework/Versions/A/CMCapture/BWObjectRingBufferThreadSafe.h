@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (CDStruct_1b6d18a9);
 - (void);
 - (id);

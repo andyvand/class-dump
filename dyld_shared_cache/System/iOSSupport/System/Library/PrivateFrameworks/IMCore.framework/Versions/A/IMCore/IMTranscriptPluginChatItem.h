@@ -6,39 +6,15 @@
 
 #import <IMCore/IMMessagePartChatItem.h>
 
-@class IMBalloonPluginDataSource, IMPluginPayload, NSString;
+@class IMBalloonPluginDataSource;
 
 @interface IMTranscriptPluginChatItem : IMMessagePartChatItem
 {
     _Bool _isLastChatItemOfPluginType;
-    _Bool _hasSetIsLastChatItemOfPluginType;
-    _Bool _parentChatHasKnownParticipants;
-    IMPluginPayload *_initialPayload;
-    NSString *_bundleIdentifier;
-    IMBalloonPluginDataSource *_dataSource;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(retain, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasSetIsLastChatItemOfPluginType; // @synthesize hasSetIsLastChatItemOfPluginType=_hasSetIsLastChatItemOfPluginType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMPluginPayload *initialPayload; // @synthesize initialPayload=_initialPayload;
-@property(readonly, nonatomic) _Bool isDataSourceInitialized;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(nonatomic, setter=setLastChatItemOfPluginType:) _Bool isLastChatItemOfPluginType; // @synthesize isLastChatItemOfPluginType=_isLastChatItemOfPluginType;
-@property(readonly, nonatomic) _Bool isPlayed;
-@property(readonly, nonatomic) _Bool isSaved;
-@property(readonly, nonatomic) _Bool parentChatHasKnownParticipants; // @synthesize parentChatHasKnownParticipants=_parentChatHasKnownParticipants;
-@property(readonly, nonatomic) unsigned long long playbackType;
-@property(readonly, nonatomic) NSString *pluginSessionGUID;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSString *type;
 @end
 

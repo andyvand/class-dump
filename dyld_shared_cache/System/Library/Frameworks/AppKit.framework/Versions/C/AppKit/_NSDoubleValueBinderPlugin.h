@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _NSDoubleValueBinderPlugin : _NSValueBinderPlugin
 {
     NSNumber *_originalMinValue;
-    NSNumber *_originalMaxValue;
 }
 
 - (_Bool);
@@ -24,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (Class);
-- (void);
+- (void)X;
 
 @end
 

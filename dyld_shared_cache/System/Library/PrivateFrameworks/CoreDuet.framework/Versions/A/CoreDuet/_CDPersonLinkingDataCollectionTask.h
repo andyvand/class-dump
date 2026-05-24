@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PersonLinkingLinkedPairEvent;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface _CDPersonLinkingDataCollectionTask
 {
     NSObject<OS_xpc_object> *_activity;
-    NSString *_file;
-    PersonLinkingLinkedPairEvent *_event;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)%;
 - (id);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *activity; // @synthesize activity=_activity;
-@property(retain, nonatomic) PersonLinkingLinkedPairEvent *event; // @synthesize event=_event;
-@property(readonly, nonatomic) NSString *file; // @synthesize file=_file;
 
 @end
 

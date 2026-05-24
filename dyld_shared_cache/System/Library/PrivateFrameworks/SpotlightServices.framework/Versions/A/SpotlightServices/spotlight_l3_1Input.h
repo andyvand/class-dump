@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface spotlight_l3_1Input
 {
     MLMultiArray *_id_features;
-    MLMultiArray *_dense_features;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)simplifiedTitleFromTitle:(id)arg1 forMetadata: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)lToString: /* Error: Ran out of types for this method. */;
-- (id)xact;
+- (void)isEqualToString: /* Error: Ran out of types for this method. */;
+- (id)enum_parsec_completed_exact;
 
 // Remaining properties
-@property(retain, nonatomic) MLMultiArray *dense_features; // @synthesize dense_features=_dense_features;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *id_features; // @synthesize id_features=_id_features;
 
 @end

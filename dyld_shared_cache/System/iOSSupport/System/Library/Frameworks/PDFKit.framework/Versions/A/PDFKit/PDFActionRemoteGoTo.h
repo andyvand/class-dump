@@ -6,7 +6,7 @@
 
 #import <PDFKit/PDFAction.h>
 
-@class NSURL, PDFActionRemoteGoToPrivateVars;
+@class PDFActionRemoteGoToPrivateVars;
 
 @interface PDFActionRemoteGoTo : PDFAction
 {
@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (struct __CFDictionary *);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -25,15 +25,13 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (struct CGPoint);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL;
 @property(nonatomic) unsigned long long pageIndex;
-@property(nonatomic) struct CGPoint point;
 
 @end
 

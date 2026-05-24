@@ -9,7 +9,6 @@
 @interface AMSPromiseResult
 {
     NSError *_error;
-    id _result;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(copy) NSError *error; // @synthesize error=_error;
-@property(retain) id result; // @synthesize result=_result;
 
 @end
 

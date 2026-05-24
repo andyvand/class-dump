@@ -6,16 +6,11 @@
 
 #import <ContactsUI/CNContactFilter.h>
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface CNContactStoreFilter : CNContactFilter
 {
     _Bool _isServerFilter;
-    int _limitedAccessFilterMode;
-    NSSet *_groupIdentifiers;
-    NSSet *_containerIdentifiers;
-    NSSet *_limitedAccessIdentifiers;
-    NSString *_customDisplayName;
 }
 
 + (id);
@@ -29,12 +24,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)clearAllFastSyncInfos;
+- (void)eys;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -43,23 +38,17 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)>D;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_foundNewUnreadInboxMessage;
 - (int);
 - (void)EÐ!ÄAùñt1Â0@ù
 × ;
 - (void)ayMode;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *containerIdentifiers; // @synthesize containerIdentifiers=_containerIdentifiers;
-@property(retain, nonatomic) NSString *customDisplayName; // @synthesize customDisplayName=_customDisplayName;
 @property(retain, nonatomic) NSSet *groupIdentifiers; // @synthesize groupIdentifiers=_groupIdentifiers;
-@property(nonatomic) _Bool isServerFilter; // @synthesize isServerFilter=_isServerFilter;
-@property(nonatomic) int limitedAccessFilterMode; // @synthesize limitedAccessFilterMode=_limitedAccessFilterMode;
-@property(retain, nonatomic) NSSet *limitedAccessIdentifiers; // @synthesize limitedAccessIdentifiers=_limitedAccessIdentifiers;
-@property(readonly, nonatomic) _Bool showsEverything;
 
 @end
 

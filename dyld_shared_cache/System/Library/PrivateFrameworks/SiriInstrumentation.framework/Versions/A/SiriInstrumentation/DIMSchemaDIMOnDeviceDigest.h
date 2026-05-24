@@ -6,13 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface DIMSchemaDIMOnDeviceDigest : SISchemaInstrumentationMessage
 {
     unsigned int _daysWithTwoValidAssistantTurnsPerWeek;
-    unsigned int _daysWithTwoAssistantSpeechRequestsPerWeek;
-    CDStruct_d0dd3291 _has;
 }
 
 - (void);
@@ -22,7 +18,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)?׼;
 - (unsigned int);
 - (unsigned int);
 - (id);
@@ -32,15 +28,11 @@
 - (_Bool);
 - (id);
 - (id)b1"sirikitResponseCode"b1"appSelectionUses"b1"modelVersion"b1};
-- (id)aCDMClientWarmupEnded;
+- (id)NLXSchemaCDMClientWarmupEnded;
 - (id)0lm;
 
 // Remaining properties
-@property(nonatomic) unsigned int daysWithTwoAssistantSpeechRequestsPerWeek; // @synthesize daysWithTwoAssistantSpeechRequestsPerWeek=_daysWithTwoAssistantSpeechRequestsPerWeek;
 @property(nonatomic) unsigned int daysWithTwoValidAssistantTurnsPerWeek; // @synthesize daysWithTwoValidAssistantTurnsPerWeek=_daysWithTwoValidAssistantTurnsPerWeek;
-@property(nonatomic) _Bool hasDaysWithTwoAssistantSpeechRequestsPerWeek;
-@property(nonatomic) _Bool hasDaysWithTwoValidAssistantTurnsPerWeek;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

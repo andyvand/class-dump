@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PGMusicCuration
 {
     id curatorVersion;
-    id bestMusicSuggestions;
-    id musicForYou;
-    id musicForLocation;
-    id musicForTime;
-    id musicForPerformer;
-    id musicCurationInfo;
-    id musicCurationDebugInfo;
 }
 
+- (id)/A/CoreFoundation;
+- (id)onServices;
+- (id)boardFocusSearchDelegate>";
+- (id)spaceManager"16;
+- (id)ApplicationController"24;
+- (id)AXKWorkspaceManager"16@"AXKApplicationController"24;
+- (id)r"16@"NSArray"24;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void)day's Memories are worth notifying:%@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSString *keySongAdamID;
-@property(nonatomic, readonly) NSNumber *keySongArousal;
-@property(nonatomic, readonly) NSString *keySongArtist;
-@property(nonatomic, readonly) NSString *keySongTitle;
-@property(nonatomic, readonly) NSNumber *keySongValence;
 
 @end
 

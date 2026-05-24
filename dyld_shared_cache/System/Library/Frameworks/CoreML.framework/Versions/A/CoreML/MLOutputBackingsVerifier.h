@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSDictionary *_outputDescriptions;
 }
 
-- (_Bool);
+- (_Bool)@?0r^*8;
+- (id)tring must not be nil.;
 - (id);
-- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void)l buffer type.;
 

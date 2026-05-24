@@ -6,32 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface MHSchemaMHVoiceTriggerRejectDetected : SISchemaInstrumentationMessage
 {
     unsigned int _phsRejectBeforeActivationCount;
-    unsigned int _checkerHSRejectBeforeActivationCount;
-    unsigned int _checkerJSRejectBeforeActivationCount;
-    NSArray *_phsRejectBeforeActivationScores;
-    NSArray *_checkerHSRejectBeforeActivationScores;
-    NSArray *_checkerJSRejectBeforeActivationScores;
-    NSArray *_phsRejectBeforeActivationTimeDiffInNs;
-    NSArray *_checkerHSRejectBeforeActivationTimeDiffInNs;
-    NSArray *_checkerJSRejectBeforeActivationTimeDiffInNs;
-    float _phsThreshold;
-    float _pjsThreshold;
-    float _checkerHSThreshold;
-    float _checkerJSThreshold;
-    struct {
-        unsigned int phsRejectBeforeActivationCount:1;
-        unsigned int checkerHSRejectBeforeActivationCount:1;
-        unsigned int checkerJSRejectBeforeActivationCount:1;
-        unsigned int phsThreshold:1;
-        unsigned int pjsThreshold:1;
-        unsigned int checkerHSThreshold:1;
-        unsigned int checkerJSThreshold:1;
-    } _has;
 }
 
 - (void);
@@ -56,7 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -76,28 +53,28 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (float);
-- (id);
-- (unsigned int);
-- (float);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (float);
+- (float)R";
 - (id);
 - (unsigned int);
+- (float);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (float);
+- (id);
+- (unsigned int)";
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)_֒;
 - (void);
 - (void);
 - (void);
@@ -112,8 +89,8 @@
 - (float);
 - (float);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)CAMELLIA256;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -121,30 +98,10 @@
 × ;
 - (id)aemonAudioRecordingFailureInsufficientPriority;
 - (id)eadUnitsActiveWithinLast24Hours;
-- (void)ntactGroundTruthSource;
+- (void)PLUSSchemaPLUSContactGroundTruthSource;
 
 // Remaining properties
-@property(nonatomic) unsigned int checkerHSRejectBeforeActivationCount; // @synthesize checkerHSRejectBeforeActivationCount=_checkerHSRejectBeforeActivationCount;
-@property(copy, nonatomic) NSArray *checkerHSRejectBeforeActivationScores; // @synthesize checkerHSRejectBeforeActivationScores=_checkerHSRejectBeforeActivationScores;
-@property(copy, nonatomic) NSArray *checkerHSRejectBeforeActivationTimeDiffInNs; // @synthesize checkerHSRejectBeforeActivationTimeDiffInNs=_checkerHSRejectBeforeActivationTimeDiffInNs;
-@property(nonatomic) float checkerHSThreshold; // @synthesize checkerHSThreshold=_checkerHSThreshold;
-@property(nonatomic) unsigned int checkerJSRejectBeforeActivationCount; // @synthesize checkerJSRejectBeforeActivationCount=_checkerJSRejectBeforeActivationCount;
-@property(copy, nonatomic) NSArray *checkerJSRejectBeforeActivationScores; // @synthesize checkerJSRejectBeforeActivationScores=_checkerJSRejectBeforeActivationScores;
-@property(copy, nonatomic) NSArray *checkerJSRejectBeforeActivationTimeDiffInNs; // @synthesize checkerJSRejectBeforeActivationTimeDiffInNs=_checkerJSRejectBeforeActivationTimeDiffInNs;
-@property(nonatomic) float checkerJSThreshold; // @synthesize checkerJSThreshold=_checkerJSThreshold;
-@property(nonatomic) _Bool hasCheckerHSRejectBeforeActivationCount;
-@property(nonatomic) _Bool hasCheckerHSThreshold;
-@property(nonatomic) _Bool hasCheckerJSRejectBeforeActivationCount;
-@property(nonatomic) _Bool hasCheckerJSThreshold;
-@property(nonatomic) _Bool hasPhsRejectBeforeActivationCount;
-@property(nonatomic) _Bool hasPhsThreshold;
-@property(nonatomic) _Bool hasPjsThreshold;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int phsRejectBeforeActivationCount; // @synthesize phsRejectBeforeActivationCount=_phsRejectBeforeActivationCount;
-@property(copy, nonatomic) NSArray *phsRejectBeforeActivationScores; // @synthesize phsRejectBeforeActivationScores=_phsRejectBeforeActivationScores;
-@property(copy, nonatomic) NSArray *phsRejectBeforeActivationTimeDiffInNs; // @synthesize phsRejectBeforeActivationTimeDiffInNs=_phsRejectBeforeActivationTimeDiffInNs;
-@property(nonatomic) float phsThreshold; // @synthesize phsThreshold=_phsThreshold;
-@property(nonatomic) float pjsThreshold; // @synthesize pjsThreshold=_pjsThreshold;
 
 @end
 

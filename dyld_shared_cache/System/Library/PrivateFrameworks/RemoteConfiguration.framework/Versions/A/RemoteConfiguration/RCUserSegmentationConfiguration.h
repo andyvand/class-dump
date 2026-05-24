@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RCUserSegmentationConfiguration
 {
     unsigned long long _foregroundRefreshRate;
-    unsigned long long _backgroundRefreshRate;
-    unsigned long long _modThreshold;
-    unsigned long long _modMax;
-    NSString *_endpointURLString;
-    NSString *_widgetEndpointURLString;
-    NSString *_todayEndpointURLString;
 }
 
 + (id);
@@ -36,13 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long backgroundRefreshRate; // @synthesize backgroundRefreshRate=_backgroundRefreshRate;
-@property(readonly, copy, nonatomic) NSString *endpointURLString; // @synthesize endpointURLString=_endpointURLString;
 @property(readonly, nonatomic) unsigned long long foregroundRefreshRate; // @synthesize foregroundRefreshRate=_foregroundRefreshRate;
-@property(readonly, nonatomic) unsigned long long modMax; // @synthesize modMax=_modMax;
-@property(readonly, nonatomic) unsigned long long modThreshold; // @synthesize modThreshold=_modThreshold;
-@property(readonly, copy, nonatomic) NSString *todayEndpointURLString; // @synthesize todayEndpointURLString=_todayEndpointURLString;
-@property(readonly, copy, nonatomic) NSString *widgetEndpointURLString; // @synthesize widgetEndpointURLString=_widgetEndpointURLString;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol PluginProtocol
+- (void);
+- (void);
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.AppDiscardedStateRestorationActivityHandler
 {
     id continueReadingEligibilityProcessor;
-    id continueReadingPromptPresenter;
 }
 
 @end

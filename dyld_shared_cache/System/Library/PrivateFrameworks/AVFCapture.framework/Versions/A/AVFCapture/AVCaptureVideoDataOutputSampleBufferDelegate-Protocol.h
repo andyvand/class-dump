@@ -5,5 +5,9 @@
 //
 
 @protocol AVCaptureVideoDataOutputSampleBufferDelegate
+
+@optional
+- (void)yricsWord",W,N,V_parentWord;
+- (void)V_mode;
 @end
 

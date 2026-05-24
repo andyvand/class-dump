@@ -7,10 +7,9 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBRetrieveParkingLocationIntent
-- (_Bool)ere;
+- (_Bool)hasIsInHere;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

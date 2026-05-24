@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString;
+@class NSString;
 
 @interface CKVTokenChain
 {
     NSString *_normalizedString;
-    NSLocale *_locale;
-    NSArray *_tokens;
 }
 
 + (id);
@@ -20,19 +18,17 @@
 - (id);
 - (id);
 - (id);
+- (id)io;
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long)validateAdjustmentData:formatIdentifier:formatVersion:error: /* Error: Ran out of types for this method. */;
+- (_Bool)CardSection"16@0:(id)arg1 8;
+- (id)_didTakeoverGo;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 @property(readonly, nonatomic) NSString *normalizedString; // @synthesize normalizedString=_normalizedString;
-@property(readonly, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

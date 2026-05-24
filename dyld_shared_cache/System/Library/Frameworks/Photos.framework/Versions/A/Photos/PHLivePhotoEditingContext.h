@@ -15,25 +15,20 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (float);
-- (void);
+- (void)t;
 - (unsigned int);
 - (void)N,V_monthKeyAssetSharedHelper;
 
 // Remaining properties
-@property float audioVolume;
-@property(readonly) CDStruct_1b6d18a9 duration;
-@property(copy) CDUnknownBlockType frameProcessor;
 @property(readonly) CIImage *fullSizeImage;
-@property(readonly) unsigned int orientation;
-@property(readonly) CDStruct_1b6d18a9 photoTime;
 
 @end
 

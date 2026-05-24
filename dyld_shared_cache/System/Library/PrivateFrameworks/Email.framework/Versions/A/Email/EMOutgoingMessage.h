@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMessageObjectID, NSData, NSString;
+@class NSData;
 
 @interface EMOutgoingMessage
 {
     _Bool _shouldSign;
-    _Bool _shouldEncrypt;
-    NSData *_messageData;
-    long long _action;
-    EMMessageObjectID *_originalMessageID;
-    long long _conversationNotificationLevel;
 }
 
 + (_Bool);
@@ -21,10 +16,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (long long);
+- (id)AccessoryNetworkInfo;
+- (id)Identity;
+- (void)@;
+- (long long)FA;
 - (_Bool);
 - (id);
 - (void);
@@ -33,29 +28,12 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)oType %{public}@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long action; // @synthesize action=_action;
-@property(nonatomic) long long conversationNotificationLevel; // @synthesize conversationNotificationLevel=_conversationNotificationLevel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *messageData; // @synthesize messageData=_messageData;
-@property(retain, nonatomic) EMMessageObjectID *originalMessageID; // @synthesize originalMessageID=_originalMessageID;
-@property(nonatomic) _Bool shouldEncrypt; // @synthesize shouldEncrypt=_shouldEncrypt;
-@property(nonatomic) _Bool shouldSign; // @synthesize shouldSign=_shouldSign;
-@property(readonly) Class superclass;
 
 @end
 

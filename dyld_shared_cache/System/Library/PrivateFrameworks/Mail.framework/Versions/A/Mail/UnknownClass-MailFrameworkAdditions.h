@@ -13,12 +13,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)a@9)+;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Th;
 - (_Bool);
 - (id);
 - (id);
@@ -26,7 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *betterStringByResolvingSymlinksInPath;
 @property(readonly, copy, nonatomic) NSString *stringByReallyAbbreviatingWithTildeInPath;
 @end
 

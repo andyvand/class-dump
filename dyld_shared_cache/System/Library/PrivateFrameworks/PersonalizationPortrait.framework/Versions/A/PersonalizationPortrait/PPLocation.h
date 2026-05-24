@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, NSSet, NSString, PPLocationRecord;
+@class NSString;
 
 @interface PPLocation
 {
     unsigned short _category;
-    CLPlacemark *_placemark;
-    PPLocationRecord *_mostRelevantRecord;
-    NSString *_clusterIdentifier;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)addSecondaryBuffer:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
@@ -37,11 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short category; // @synthesize category=_category;
 @property(readonly, nonatomic) NSString *clusterIdentifier; // @synthesize clusterIdentifier=_clusterIdentifier;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly, nonatomic) PPLocationRecord *mostRelevantRecord; // @synthesize mostRelevantRecord=_mostRelevantRecord;
-@property(readonly, nonatomic) CLPlacemark *placemark; // @synthesize placemark=_placemark;
 
 @end
 

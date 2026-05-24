@@ -14,28 +14,28 @@ __attribute__((visibility("hidden")))
     id <_NSServiceAction> _legacyServiceAction;
 }
 
-+ (id);
-- (_Bool);
++ (id)_resumeCallback;
+- (_Bool)t;
+- (void)Data with file data;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (Class);
-- (Class);
+- (Class);
+- (Class);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)oes not want to continue load;
+- (id).iu;
+- (_Bool)ging = %{BOOL}d and isOnAC = %{BOOL}d so isOnPower = %{BOOL}d;
 - (id);
 - (long long);
-- (id)lidationRecords;
+- (id)invalidationRecords;
 - (void)palette is permanent.;
 
 // Remaining properties

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
     SEL _action;
 }
 
-+ (SEL);
++ (SEL)7;
 - (void);
 - (id);
 - (void)CollectionViewCellC¬È;

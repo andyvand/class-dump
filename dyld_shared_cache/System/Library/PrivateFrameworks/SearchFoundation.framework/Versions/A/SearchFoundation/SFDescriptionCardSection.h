@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFTitleCardSection.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSNumber, NSString, NSURL, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFImage, SFText, SFUserReportRequest;
+@class SFText;
 
 @interface SFDescriptionCardSection : SFTitleCardSection
 {
@@ -16,89 +16,12 @@
         unsigned int imageAlign:1;
         unsigned int textAlign:1;
     } _has;
-    _Bool _titleNoWrap;
-    _Bool _descriptionExpand;
-    int _imageAlign;
-    int _textAlign;
-    SFText *_descriptionText;
-    NSString *_expandText;
-    SFImage *_image;
-    NSNumber *_titleWeight;
-    NSNumber *_descriptionSize;
-    NSNumber *_descriptionWeight;
-    NSString *_attributionText;
-    NSURL *_attributionURL;
-    SFImage *_attributionGlyph;
-    NSArray *_richDescriptions;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFImage *attributionGlyph; // @synthesize attributionGlyph=_attributionGlyph;
-@property(copy, nonatomic) NSString *attributionText; // @synthesize attributionText=_attributionText;
-@property(copy, nonatomic) NSURL *attributionURL; // @synthesize attributionURL=_attributionURL;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool descriptionExpand; // @synthesize descriptionExpand=_descriptionExpand;
-@property(copy, nonatomic) NSNumber *descriptionSize; // @synthesize descriptionSize=_descriptionSize;
 @property(retain, nonatomic) SFText *descriptionText; // @synthesize descriptionText=_descriptionText;
-@property(copy, nonatomic) NSNumber *descriptionWeight; // @synthesize descriptionWeight=_descriptionWeight;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(copy, nonatomic) NSString *expandText; // @synthesize expandText=_expandText;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideDivider;
-@property(retain, nonatomic) SFImage *image; // @synthesize image=_image;
-@property(nonatomic) int imageAlign; // @synthesize imageAlign=_imageAlign;
-@property(nonatomic) int increasedContrastMode;
-@property(nonatomic) _Bool isCentered;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFCard *nextCard;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
-@property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(copy, nonatomic) NSArray *richDescriptions; // @synthesize richDescriptions=_richDescriptions;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
-@property(copy, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(nonatomic) int textAlign; // @synthesize textAlign=_textAlign;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) _Bool titleNoWrap; // @synthesize titleNoWrap=_titleNoWrap;
-@property(copy, nonatomic) NSNumber *titleWeight; // @synthesize titleWeight=_titleWeight;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
-@property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 
 @end
 

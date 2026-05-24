@@ -13,9 +13,9 @@
     NSString *_effectStyleID;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)R (%08X:%02d:%02d)... /* Error: Ran out of types for this method. */;
+- (id)d Switching audio bitrates without changing tier %d -> %d;
+- (id)cipantUUID=%@ mediaType=%@ mediaState=%@;
 - (id);
 - (void)¨s|tÄu|vPw	ÄxyPzz$ðÜpè;
 

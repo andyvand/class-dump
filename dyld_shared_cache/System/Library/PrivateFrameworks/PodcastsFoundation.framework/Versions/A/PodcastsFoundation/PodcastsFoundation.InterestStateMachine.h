@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.InterestStateMachine
 {
     id lock;
-    id identifier;
-    id state;
-    id observers;
 }
 
 @end

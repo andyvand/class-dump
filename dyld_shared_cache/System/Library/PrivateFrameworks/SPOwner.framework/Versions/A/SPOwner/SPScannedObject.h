@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, SPAccessoryInformation, SPIndexInformation;
-
 @interface SPScannedObject
 {
     unsigned char _poshNetwork;
-    _Bool _nearOwner;
-    unsigned char _status;
-    unsigned char _ek;
-    long long _advertisementType;
-    NSData *_vendorPayload;
-    NSDate *_scanDate;
-    NSData *_address;
-    NSData *_advertisement;
-    NSNumber *_hint;
-    long long _rssi;
-    SPAccessoryInformation *_accessoryInformation;
-    SPIndexInformation *_indexInformation;
 }
 
 + (_Bool);
@@ -32,44 +18,31 @@
 - (void);
 - (id);
 - (unsigned char);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned char);
 - (long long);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id)P;
 - (id);
+- (void);
+- (void);
+- (void);
+- (id)tsResponse(_:(struct _NSZone *)arg1 identifier:) /* Error: Ran out of types for this method. */;
 - (unsigned char);
 - (long long);
 - (id);
-- (void);
+- (void)";
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) SPAccessoryInformation *accessoryInformation; // @synthesize accessoryInformation=_accessoryInformation;
-@property(copy, nonatomic) NSData *address; // @synthesize address=_address;
-@property(copy, nonatomic) NSData *advertisement; // @synthesize advertisement=_advertisement;
 @property(nonatomic) long long advertisementType; // @synthesize advertisementType=_advertisementType;
-@property(nonatomic) unsigned char ek; // @synthesize ek=_ek;
-@property(readonly, copy, nonatomic) NSNumber *hint; // @synthesize hint=_hint;
-@property(readonly, copy, nonatomic) SPIndexInformation *indexInformation; // @synthesize indexInformation=_indexInformation;
-@property(nonatomic) _Bool nearOwner; // @synthesize nearOwner=_nearOwner;
-@property(readonly, copy, nonatomic) NSData *optional;
-@property(nonatomic) unsigned char poshNetwork; // @synthesize poshNetwork=_poshNetwork;
-@property(nonatomic) long long rssi; // @synthesize rssi=_rssi;
-@property(copy, nonatomic) NSDate *scanDate; // @synthesize scanDate=_scanDate;
-@property(nonatomic) unsigned char status; // @synthesize status=_status;
-@property(copy, nonatomic) NSData *vendorPayload; // @synthesize vendorPayload=_vendorPayload;
 
 @end
 

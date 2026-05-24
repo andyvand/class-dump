@@ -6,19 +6,13 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSString, UIColor, UIImageView, UILongPressGestureRecognizer;
-@protocol UITableConstants, _UICollectionViewListCellReorderControlDelegate;
+@class UIImageView;
+@protocol _UICollectionViewListCellReorderControlDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewListCellReorderControl : UIControl
 {
     UIImageView *_imageView;
-    UILongPressGestureRecognizer *_reorderRecognizer;
-    _Bool _tracking;
-    _Bool _needsImageViewUpdate;
-    id <_UICollectionViewListCellReorderControlDelegate> _delegate;
-    id <UITableConstants> _constants;
-    UIColor *_accessoryTintColor;
 }
 
 - (_Bool);
@@ -32,11 +26,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)CGPoint=dd}{CGSize=dd}}24@56{CGRect={CGPoint=dd}{CGSize=dd}}64;
 - (void)fromOrientation: /* Error: Ran out of types for this method. */;
-- (void)r:(id)arg1 month:(id)arg2 assignedMonth: /* Error: Ran out of types for this method. */;
-- (void)g:(_Bool)arg1 displayInsets: /* Error: Ran out of types for this method. */;
-- (id)ngUnderlinesForRange:inContext:forProofreadingSuggestionID:recordDecorationInfo: /* Error: Ran out of types for this method. */;
+- (void)initWithDate:(id)arg1 calendar:(id)arg2 month:assignedMonth: /* Error: Ran out of types for this method. */;
+- (void)_initWithKey:(_Bool)arg1 style:renderConfig:displayInsets: /* Error: Ran out of types for this method. */;
+- (id)_drawProofreadingUnderlinesForRange:inContext:forProofreadingSuggestionID:recordDecorationInfo: /* Error: Ran out of types for this method. */;
 - (struct CGSize)w",&,N;
-- (void)ollerItems:(id)arg1;
+- (void)set_includeMenuControllerItems:(id)arg1;
 - (id)@L<MüM	DO;
 - (void);
 - (_Bool)secondaryLandscapeX;
@@ -46,16 +40,7 @@ __attribute__((visibility("hidden")))
 - (id)_áÿ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *accessoryTintColor; // @synthesize accessoryTintColor=_accessoryTintColor;
-@property(retain, nonatomic) id <UITableConstants> constants; // @synthesize constants=_constants;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UICollectionViewListCellReorderControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

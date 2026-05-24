@@ -4,113 +4,65 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWGraphLiveExtension, BWMemoryAnalyticsPayload, BWMemoryPool, BWMemoryPoolFlushAssertion, NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol BWGraphStatusDelegate, FigCaptureInterruptionDelegate, OS_dispatch_group, OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface BWGraph
 {
     NSMutableArray *_nodes;
-    NSMutableArray *_sourceNodes;
-    NSMutableArray *_sinkNodes;
-    NSMutableArray *_connections;
-    NSMutableArray *_outputsWithSharedPools;
-    NSMutableArray *_nodesToBypassUntilPrepared;
-    NSMutableDictionary *_outputsWithSharedPoolsForAttachedMedia;
-    NSMutableArray *_nodesToPrepareConcurrently;
-    NSArray *_nodesToPrepareAfterGraphStart;
-    NSMutableArray *_deferredPreparePrioritySinks;
-    _Bool _deferredNodePrepareSupported;
-    _Bool _deferredNodePrepareCancelled;
-    _Bool _resumesConnectionsAsNodesArePrepared;
-    NSMutableArray *_deferredStartSourceNodes;
-    NSMutableArray *_deferredStartSourceNodesThatMustStartAfterNonDeferred;
-    _Bool _haveStartedOrCancelledDeferredSourceNodes;
-    _Atomic int _deferredPrepareState;
-    _Atomic unsigned long long _asyncPrepareActiveNode;
-    _Bool _running;
-    _Bool _beingConfigured;
-    BWGraphLiveExtension *_activeLiveExtension;
-    long long _inflightConfigurationID;
-    NSObject<OS_dispatch_group> *_sourceNodesStartGroup;
-    NSObject<OS_dispatch_group> *_nonDeferredSourceNodesStartGroup;
-    NSObject<OS_dispatch_queue> *_sourceStartQueue;
-    NSObject<OS_dispatch_group> *_startGroup;
-    NSObject<OS_dispatch_group> *_commitGroup;
-    NSObject<OS_dispatch_group> *_sinkNodesIdleGroupForParallelGraphRebuild;
-    _Bool _supportsLiveReconfiguration;
-    NSObject<OS_dispatch_queue> *_liveReconfigNodeConnectionsResumeQueue;
-    NSObject<OS_dispatch_queue> *_liveReconfigPrepareQueue;
-    int _errorStatus;
-    id <BWGraphStatusDelegate> _statusDelegate;
-    _Bool _classicRetainedBufferCount;
-    BWMemoryPool *_memoryPool;
-    NSString *_clientApplicationID;
-    int _clientPID;
-    NSString *_userFriendlyClientName;
-    NSString *_modeDescription;
-    NSString *_sourceDescription;
-    int _graphStateTransitionTimeoutSeconds;
-    unsigned int _configurationQueuePriority;
-    BWMemoryPoolFlushAssertion *_flushAssertion;
-    _Bool _memoryAnalyticsReportingEnabled;
-    BWMemoryAnalyticsPayload *_memoryAnalyticsPayload;
-    _Bool _runningForContinuityCapture;
-    _Bool _clientExpectsCameraMountedInLandscapeOrientation;
-    id <FigCaptureInterruptionDelegate> _interruptionDelegate;
 }
 
 + (void)rator;
 - (_Bool);
 - (void);
+- (void)v48@0:(id)arg1 8@"CHDMarker"16@"OADGraphicProperties"24Q32@?<@@?@"OADGraphicProperties"@"NSArray">40;
+- (id)mFootnoteContinuationNotice;
+- (id)keepNextParagraphTogether;
+- (_Bool)initWithWDCharacterRun:parent:isInEmptyStylingParagraph: /* Error: Ran out of types for this method. */;
+- (void)initWithExpressionString:options: /* Error: Ran out of types for this method. */;
+- (_Bool)extractFromEDFill:(id)arg1 foreColorReference:(id)arg2 backColorReference:(id)arg3 fillPatternEnum: /* Error: Ran out of types for this method. */;
+- (void)allTextDefaultProperties;
+- (int)TCCancelDelegate;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (int)uginManager";
+- (id)canRemoveAccount:inStore:error: /* Error: Ran out of types for this method. */;
+- (void)E;
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
+- (id)e %@ after %@ batches;
+- (void)or event classification;
+- (_Bool)nvalid magic number:(id)arg1 expected 0x%x, got 0x%x:(id *)arg2 %@;
+- (_Bool)32;
 - (_Bool);
+- (void);
+- (id);
 - (void);
 - (int);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (int);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (int);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -121,8 +73,8 @@
 - (void);
 - (id);
 - (id)16f24f28;
-- (id)Frame:isPrimary: /* Error: Ran out of types for this method. */;
-- (int)cProcessor;
+- (id)receivedFrame:isPrimary: /* Error: Ran out of types for this method. */;
+- (int)_vcProcessor;
 - (_Bool)ÿAvÿGwÿLwÿRw ÿXw"ÿ^x$ÿex&ÿkx'ÿry)ÿyy*ÿz+ÿz-ÿz.ÿ{/ÿ{0ÿ¥|2ÿ¬|3ÿ´}4ÿ»}6ÿÃ~8ÿÊ9ÿÒ;ÿÙ<ÿá>ÿ)~ÿ+~ÿ,~ÿ/~ÿ2~ÿ6~ÿ:(long long)arg1 ~ÿ>~ÿCÿIÿNÿT!ÿZ#ÿ`%ÿg'ÿm)ÿs*ÿz,ÿ-ÿ.ÿ0ÿ1ÿ2ÿ¦4ÿ­5ÿ´6ÿ¼8ÿÄ9ÿË;ÿÒ<ÿÙ>ÿá@ÿ-ÿ/ÿ0ÿ2ÿ5ÿ9ÿ=ÿAÿFÿKÿQÿV!ÿ\$ÿb&ÿi(ÿo*ÿu+ÿ|-ÿ/ÿ0ÿ2ÿ3ÿ4ÿ§6ÿ®7ÿµ8ÿ¼:(id *)arg2 ÿÄ;ÿÌ=ÿÓ>ÿÚ@ÿâBÿ2
 ÿ3ÿ4ÿ6ÿ9ÿ=ÿ@ÿDÿIÿNÿT ÿY"ÿ_$ÿd'ÿk)ÿq+ÿw-ÿ~/ÿ1ÿ2ÿ4ÿ5ÿ 6ÿ¨8ÿ¯9ÿ¶:ÿ½<ÿÅ=ÿÌ?ÿÔ@ÿÛBÿãCÿ6ÿ7
 ÿ8ÿ:ÿ=ÿ@ÿDÿHÿLÿQÿV ÿ\#ÿa%ÿg'ÿm*ÿs,ÿy.ÿ0ÿ2ÿ4ÿ5ÿ7ÿ¡8ÿ©:ÿ°;ÿ·<ÿ¾>ÿÆ?ÿÍ @ÿÔ BÿÜ Cÿä¡Eÿ:ÿ; ÿ< 
@@ -141,27 +93,7 @@
 - (void)ÿq;
 
 // Remaining properties
-@property(nonatomic) _Bool clientExpectsCameraMountedInLandscapeOrientation; // @synthesize clientExpectsCameraMountedInLandscapeOrientation=_clientExpectsCameraMountedInLandscapeOrientation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) _Bool deferredNodePrepareEnabled;
-@property(nonatomic) _Bool deferredNodePrepareSupported; // @synthesize deferredNodePrepareSupported=_deferredNodePrepareSupported;
-@property(readonly, nonatomic) NSArray *deferredPreparePrioritySinks; // @synthesize deferredPreparePrioritySinks=_deferredPreparePrioritySinks;
-@property(readonly, copy) NSString *description;
 @property int errorStatus; // @synthesize errorStatus=_errorStatus;
-@property(nonatomic) int graphStateTransitionTimeoutSeconds; // @synthesize graphStateTransitionTimeoutSeconds=_graphStateTransitionTimeoutSeconds;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) id <FigCaptureInterruptionDelegate> interruptionDelegate; // @synthesize interruptionDelegate=_interruptionDelegate;
-@property(readonly, nonatomic) BWMemoryAnalyticsPayload *memoryAnalyticsPayload; // @synthesize memoryAnalyticsPayload=_memoryAnalyticsPayload;
-@property(nonatomic) _Bool memoryAnalyticsReportingEnabled; // @synthesize memoryAnalyticsReportingEnabled=_memoryAnalyticsReportingEnabled;
-@property(retain, nonatomic) BWMemoryPool *memoryPool; // @synthesize memoryPool=_memoryPool;
-@property(nonatomic) _Bool resumesConnectionsAsNodesArePrepared; // @synthesize resumesConnectionsAsNodesArePrepared=_resumesConnectionsAsNodesArePrepared;
-@property(readonly, nonatomic, getter=isRunningForContinuityCapture) _Bool runningForContinuityCapture; // @synthesize runningForContinuityCapture=_runningForContinuityCapture;
-@property(nonatomic) id <BWGraphStatusDelegate> statusDelegate; // @synthesize statusDelegate=_statusDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsLiveReconfiguration;
 
 @end
 

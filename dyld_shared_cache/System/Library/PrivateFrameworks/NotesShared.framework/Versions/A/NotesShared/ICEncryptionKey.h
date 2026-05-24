@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICEncryptionMetadata, NSData;
+@class NSData;
 
 @interface ICEncryptionKey
 {
     unsigned long long _hash;
-    NSData *_keyData;
-    ICEncryptionMetadata *_metadata;
-    NSData *_serializedData;
 }
 
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)cellularRadioAccessTechnology;
+- (_Bool)lic}@;
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)_enableDataGatheringQueryPassesRandomRejection;
 - (id);
 - (id);
 - (void)ð;
@@ -30,8 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *keyData; // @synthesize keyData=_keyData;
-@property(readonly, nonatomic) ICEncryptionMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSData *serializedData; // @synthesize serializedData=_serializedData;
 
 @end
 

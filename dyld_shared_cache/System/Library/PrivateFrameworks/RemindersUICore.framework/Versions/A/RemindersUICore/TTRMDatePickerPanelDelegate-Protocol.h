@@ -5,5 +5,7 @@
 //
 
 @protocol TTRMDatePickerPanelDelegate
+- (void)__objc_superrefs__DATA_CONST;
+- (void);
 @end
 

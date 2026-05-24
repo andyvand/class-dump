@@ -6,27 +6,12 @@
 
 #import <AppKit/_NSKeyLoopSplicingContainerView.h>
 
-@class CABackdropLayer, NSColor, NSGlassEffectView, NSString, NSView, _NSViewActionForwardingLayerDelegate;
+@class _NSViewActionForwardingLayerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSTabBarViewButton : _NSKeyLoopSplicingContainerView
 {
     _NSViewActionForwardingLayerDelegate *_layerDelegate;
-    NSColor *_backgroundColor;
-    NSView *_backgroundView;
-    NSView *_topBorderView;
-    NSView *_leadingTopBorderView;
-    NSView *_trailingTopBorderView;
-    NSView *_leftBorderView;
-    NSView *_rightBorderView;
-    NSGlassEffectView *_tabButtonGlassView;
-    NSView *_containerView;
-    CABackdropLayer *_backdropLayer;
-    _Bool _forcesActiveWindowState;
-    _Bool _active;
-    _Bool _hasMouseOverHighlight;
-    _Bool _useModalCollapsedLayout;
-    _Bool _deferringKeyStateChangeUpdateUntilVisible;
 }
 
 - (_Bool);
@@ -36,38 +21,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool)ytes = %lu, total memory size %lu fd %d);
+- (id)R;
+- (void);
+- (void)8Q16@?24;
+- (void)_downloadTaskWithURL:delegate:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)NSMemoryHTTPCookie2Storage;
+- (id)tate:copyMessageForRequest with state:%@ /* Error: Ran out of types for this method. */;
+- (id)ateResumeData archiver error:%@ /* Error: Ran out of types for this method. */;
+- (id)pe;
+- (id)u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (_Bool);
+- (double)= "%s");
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)d;
+- (void);
 - (_Bool);
-- (double);
-- (_Bool);
+- (void)setTrackingRect:(_Bool)arg1 inside:owner:userData:useTrackingNum: /* Error: Ran out of types for this method. */;
+- (id)rasterizeImageUsingScaleFactor:(struct CGRect)arg1 forTargetSize: /* Error: Ran out of types for this method. */;
+- (void)_NSColorListAvailableColorSyncProfileColorListsChangedNotification;
 - (void);
-- (void);
-- (_Bool);
-- (void)er:(_Bool)arg1 userData:useTrackingNum: /* Error: Ran out of types for this method. */;
-- (id)etSize:(struct CGRect)arg1;
-- (void)angedNotification;
-- (void);
-- (void)dentifier;
+- (void)ElementIdentifier;
 - (void)tQd?;
 - (id)BÌAA;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @dynamic active;
-@property(copy, nonatomic) NSString *backdropGroupName;
-@property(retain, nonatomic) NSView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) _Bool forcesActiveWindowState; // @dynamic forcesActiveWindowState;
-@property(nonatomic) _Bool hasMouseOverHighlight; // @dynamic hasMouseOverHighlight;
-@property(nonatomic) _Bool useModalCollapsedLayout; // @dynamic useModalCollapsedLayout;
 
 @end
 

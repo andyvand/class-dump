@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSAccountCachedServerDataFields, NSError;
+@class AMSAccountCachedServerDataFields;
 
 @interface AMSAccountCachedServerDataAccountResult
 {
     AMSAccountCachedServerDataFields *_fields;
-    NSError *_error;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)ments;
+- (void)ical Device IDs set:(id)arg1 %{public}@;
+- (void)migratedPrivacyAcknowledgements;
 - (void)ÙëÝÑ>ÌÊ½)4Øá'À3#P\´G%Çù¥¹+øÙdn5
 o^m9Ì;
 - (id)'øÿ8aH3;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) AMSAccountCachedServerDataFields *fields; // @synthesize fields=_fields;
 
 @end

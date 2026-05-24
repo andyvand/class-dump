@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, NSMutableDictionary, NSString;
+@class GEOObserverHashTable;
 
 __attribute__((visibility("hidden")))
 @interface MNAudioSystemOptions
 {
     GEOObserverHashTable *_observers;
-    NSMutableDictionary *_guidanceLevels;
-    NSMutableDictionary *_guidanceLevelOverrides;
-    _Bool _useHFP;
-    _Bool _pauseSpokenAudio;
 }
 
-- (_Bool);
+- (_Bool)TextFieldAdaptor;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (id);
-- (void);
+- (void)stringByReplacingOccurrencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void):8Q16@?<v@?B>24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool pauseSpokenAudio; // @synthesize pauseSpokenAudio=_pauseSpokenAudio;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool useHFP; // @synthesize useHFP=_useHFP;
 
 @end

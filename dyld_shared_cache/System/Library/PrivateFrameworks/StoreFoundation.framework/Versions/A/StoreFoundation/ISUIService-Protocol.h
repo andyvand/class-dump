@@ -5,5 +5,8 @@
 //
 
 @protocol ISUIService
+- (void);
+- (void);
+- (void)!;
 @end
 

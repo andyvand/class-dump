@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristic, NSString;
+@class HAPCharacteristic;
 
 __attribute__((visibility("hidden")))
 @interface HAPCharacteristicTuple
 {
     HAPCharacteristic *_hapCharacteristic;
-    NSString *_serverIdentifier;
-    long long _linkType;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (long long)àdWÿÒK0ÀC;
 
 // Remaining properties
 @property(retain, nonatomic) HAPCharacteristic *hapCharacteristic; // @synthesize hapCharacteristic=_hapCharacteristic;
-@property long long linkType; // @synthesize linkType=_linkType;
-@property(retain, nonatomic) NSString *serverIdentifier; // @synthesize serverIdentifier=_serverIdentifier;
 
 @end
 

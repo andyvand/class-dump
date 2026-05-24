@@ -5,5 +5,7 @@
 //
 
 @protocol GFGestureNodeDelegate
+- (void);
+- (_Bool)k;
 @end
 

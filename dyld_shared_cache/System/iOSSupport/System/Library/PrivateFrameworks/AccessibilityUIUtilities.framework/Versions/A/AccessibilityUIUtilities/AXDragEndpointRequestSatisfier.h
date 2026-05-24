@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 @protocol AXDragEndpointRequestSatisfierDelegate;
 
 @interface AXDragEndpointRequestSatisfier
 {
     NSXPCConnection *_connection;
-    id <AXDragEndpointRequestSatisfierDelegate> _delegate;
 }
 
-- (void);
+- (void)|;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AXDragEndpointRequestSatisfierDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

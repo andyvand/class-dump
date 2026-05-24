@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSData;
 
 @interface APSSignDataWithIdentityRequest
 {
     NSData *_data;
-    NSNumber *_time;
 }
 
 + (_Bool);
-- (id);
+- (id)padTensor:(id)arg1 withPaddingMode:leftPadding:rightPadding:constantValue:name: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSNumber *time; // @synthesize time=_time;
 
 @end
 

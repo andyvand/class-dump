@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDocument, NSFileVersion, NSMutableArray;
+@class NSDocument, NSFileVersion;
 
 __attribute__((visibility("hidden")))
 @interface _NSDocumentRevisionsLoadingOperation
 {
     NSFileVersion *version;
-    NSMutableArray *documentConsumers;
-    CDUnknownBlockType finalCompletionBlock;
-    _Bool documentLoadingComplete;
-    _Bool hasWaiter;
-    NSDocument *_document;
 }
 
 - (void);
-- (void);
+- (void)_copySocketStreamProperties;
 - (void)aï/ð!¬Cù±å31Â0@ù
 × ;
 - (void)azy_storage_$__patternImage;

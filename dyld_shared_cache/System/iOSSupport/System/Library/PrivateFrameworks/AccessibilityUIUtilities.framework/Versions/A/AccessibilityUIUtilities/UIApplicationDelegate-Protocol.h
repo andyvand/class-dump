@@ -8,6 +8,20 @@
 
 @protocol UIApplicationDelegate
 
+@optional
+- (void);
+- (unsigned long long);
+- (_Bool){;
+- (_Bool)kjz;
+- (void)o;
+- (id)Wo;
+- (void)Vo;
+- (void)To;
+- (void)Qo;
+- (void) {;
+- (void);
+- (_Bool)C;
+
 // Remaining properties
 @property(retain, nonatomic) UIWindow *window;
 // Preceding property had unknown attributes: ?

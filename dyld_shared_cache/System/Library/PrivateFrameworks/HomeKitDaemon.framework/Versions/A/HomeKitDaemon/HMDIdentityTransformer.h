@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)r:(id)arg1 index:(id *)arg2 name:ecosystem: /* Error: Ran out of types for this method. */;
-+ (Class)s;
++ (id)initWithIdentifier:(id)arg1 index:(id *)arg2 name:ecosystem: /* Error: Ran out of types for this method. */;
++ (Class)_zoneNames;
 + (Class);
 - (id);
-- (id)tics:(id)arg1;
+- (id)setBulletinSnapshotCharacteristics:(id)arg1;
 
 @end
 

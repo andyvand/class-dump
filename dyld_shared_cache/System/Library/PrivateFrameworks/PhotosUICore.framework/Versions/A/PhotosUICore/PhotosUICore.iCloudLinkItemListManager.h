@@ -7,19 +7,6 @@
 @interface PhotosUICore.iCloudLinkItemListManager
 {
     id photoLibrary;
-    id libraryFilterState;
-    id _libraryFilterStateObservation;
-    id _accountStoreChangeObservation;
-    id invitationSpec;
-    id maxICloudLinks;
-    id dataSourceManager;
-    id _dataSourceManagerObservation;
-    id _iCloudLinkItemContexts;
-    id _dataSourceCoalescer;
-    id _itemList;
-    id _changeDetailsRepository;
-    id observable;
-    id _$observationRegistrar;
 }
 
 - (void);

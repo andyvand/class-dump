@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatLogEntry
 {
     id text;
-    id severity;
-    id timestamp;
-    id message;
-    id normalizedMessage;
 }
 
 @end

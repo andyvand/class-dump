@@ -6,8 +6,6 @@
 
 #import <AppKit/NSTextFieldCell.h>
 
-@class NSData;
-
 @interface NSSecureTextFieldCell : NSTextFieldCell
 {
     _Bool _echosBullets;
@@ -25,29 +23,27 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (const void *);
+- (id)48@0:8@"__NSCFURLSessionConnection"16@"NSHTTPURLResponse"24@"NSURLRequest"32@?<v@?@"NSURLRequest">40 /* Error: Ran out of types for this method. */;
+- (id)nsportConnection>=^{TransportConnection}^{__shared_weak_count}}24@40;
+- (id)ponse="_vptr$CoreLoggable"^^?"fURL"^{__CFURL}"fMIMEType"^{__CFString}"fTextEncodingName"^{__CFString}"fExpectedContentLength"q"fExpiration"d"fCreationTime"d"fDownloadAssessment"^{__CFDictionary}"fSSLCertContext"^{__CFDictionary}"fRecommendedPolicy"i"fPeerAddress"^{__CFData}"fHTTP"^{HTTPResponse}"fLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (id)Credentials:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)task:_willSendRequestForEstablishedConnection:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)stringWithUTF8String: /* Error: Ran out of types for this method. */;
+- (id)set_httpConnectionInfoCompletionBlock:(struct CGPoint)arg1;
+- (id)setTaskDependencyDescription: /* Error: Ran out of types for this method. */;
+- (id)setState:(id)arg1;
+- (id)setResourceValue:forKey:error: /* Error: Ran out of types for this method. */;
+- (long long)licy;
+- (void)ssionTaskHTTPAuthenticator requires a sub class.;
+- (const void *)ceptionString failed;
 - (unsigned short);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property _Bool echosBullets;
 @property(getter=isKernelSecureMode) _Bool kernelSecureMode; // @dynamic kernelSecureMode;
-@property(readonly) NSData *passwordSessionValue; // @dynamic passwordSessionValue;
 
 @end
 

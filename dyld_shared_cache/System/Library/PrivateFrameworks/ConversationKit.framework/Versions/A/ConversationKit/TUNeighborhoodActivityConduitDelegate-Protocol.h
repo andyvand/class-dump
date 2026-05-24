@@ -5,5 +5,8 @@
 //
 
 @protocol TUNeighborhoodActivityConduitDelegate
+
+@optional
+- (void);
 @end
 

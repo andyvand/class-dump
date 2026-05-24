@@ -9,11 +9,10 @@
 @interface CHTextInputTarget
 {
     NSNumber *_inputTargetIdentifier;
-    struct CGRect _frame;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)_indexToVisibleIndex;
+- (_Bool)1Ja;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 - (void)¬;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 @property(readonly, copy, nonatomic) NSNumber *inputTargetIdentifier; // @synthesize inputTargetIdentifier=_inputTargetIdentifier;
 
 @end

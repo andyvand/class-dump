@@ -5,5 +5,6 @@
 //
 
 @protocol _UIViewServiceViewControllerOperator_Connection
+- (void)failedRowIDs;
 @end
 

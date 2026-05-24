@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSDMessagingHandle, NSData, NSString, TUVoucher;
+@class NSData, TUVoucher;
 
 __attribute__((visibility("hidden")))
 @interface CSDMessagingVoucher
 {
     NSData *_encryptedData;
-    CSDMessagingHandle *_handle;
-    NSString *_tokenPrefixedURI;
-    NSData *_unsafeData;
 }
 
 + (id);
@@ -21,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)J;
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -37,19 +34,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)ory;
-- (void)eralASRMigration;
+- (void)localizedHandoffRecipientDeviceCategory;
+- (void)LVMGeneralASRMigration;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *encryptedData; // @synthesize encryptedData=_encryptedData;
-@property(retain, nonatomic) CSDMessagingHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool hasEncryptedData;
-@property(readonly, nonatomic) _Bool hasHandle;
-@property(readonly, nonatomic) _Bool hasTokenPrefixedURI;
-@property(readonly, nonatomic) _Bool hasUnsafeData;
-@property(retain, nonatomic) NSString *tokenPrefixedURI; // @synthesize tokenPrefixedURI=_tokenPrefixedURI;
 @property(readonly, nonatomic) TUVoucher *tuVoucher;
-@property(retain, nonatomic) NSData *unsafeData; // @synthesize unsafeData=_unsafeData;
 
 @end
 

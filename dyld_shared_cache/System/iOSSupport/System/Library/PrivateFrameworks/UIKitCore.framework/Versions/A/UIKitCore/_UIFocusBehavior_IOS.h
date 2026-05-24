@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusBehavior_IOS
 {
@@ -18,28 +16,28 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)$Z;
+- (_Bool)_payloadAllowUIAppInstallation;
+- (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)numberOfRowsInTableView: /* Error: Ran out of types for this method. */;
+- (_Bool)m;;
+- (long long);
 - (_Bool);
+- (_Bool)h_geom_trans_y_absmax;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)String}qdCCCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16r^{mmcs_http_context_options=^{__CFString}^{__CFHTTPMessage}^{_mmcs_http_request_options}ddQQ^?^?^?^?^?^?^?^v^?^vCd^{os_activity_s}}24^{os_activity_s=}32;
+- (_Bool)stQueue;
+- (long long)of working directory failed:%s /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
-- (long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (long long)a;
 - (_Bool);
 - (_Bool);
 - (_Bool)0@ù
@@ -63,35 +61,29 @@ __attribute__((visibility("hidden")))
 - (long long)"all"@"NSMutableArray""html"@"NSMutableArray""javascript"@"NSMutableArray""css"@"NSMutableArray""error"@"NSMutableArray""warning"@"NSMutableArray""tip"@"NSMutableArray""log"@"NSMutableArray"};
 - (long long)Configuration"24@"<UIEditMenuInteractionAnimating>"32;
 - (long long)Adjustment"b1"hasCustomized_overallWritingDirectionFollowsLayoutDirection"b1"hasCustomized_supportMultilineShrinkToFit"b1"hasCustomized_disabledTextColor"b1};
-- (_Bool)nts:(id)arg1;
-- (long long)Required: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ideSystemWithPreference: /* Error: Ran out of types for this method. */;
-- (long long)eractionTypes: /* Error: Ran out of types for this method. */;
+- (_Bool)setRecents:(id)arg1;
+- (long long)setContentViewRequired: /* Error: Ran out of types for this method. */;
+- (unsigned long long)overrideSystemWithPreference: /* Error: Ran out of types for this method. */;
+- (long long)keysWithInteractionTypes: /* Error: Ran out of types for this method. */;
 - (_Bool)grammarAlternativesForString: /* Error: Ran out of types for this method. */;
-- (_Bool)thAnimationCoordinator:animated: /* Error: Ran out of types for this method. */;
-- (_Bool)tle;
-- (_Bool)dedSetOverrideSettings:(id)arg1;
+- (_Bool)_updateFloatingContentControlState:context:withAnimationCoordinator:animated: /* Error: Ran out of types for this method. */;
+- (_Bool)_hasAttributedTitle;
+- (_Bool)_guardedSetOverrideSettings:(id)arg1;
 - (_Bool),R,VanimationProgress;
-- (_Bool)on;
+- (_Bool)stopInteraction;
 - (_Bool)N,V_animationMode;
-- (_Bool)ncelled:withEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)_componentsCancelled:withEvent: /* Error: Ran out of types for this method. */;
 - (_Bool)|FDGðG;
 - (unsigned long long)ior in double-column UISVC;
 - (_Bool)internal inconsistency:(id)arg1 UICollectionView %@ asked layout to prepare for update %@ without computing deleted sections;
 - (_Bool)Ìîÿ;
 - (_Bool)in navigation controller. Split view controller:(id)arg1 %@;
 - (_Bool)øÊ;
-- (unsigned long long)tSTQZ;
-- (long long)tatisticsC;
+- (unsigned long long)_7ElementSTQZ;
+- (long long)So25_UIViewPowerLogStatisticsC;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

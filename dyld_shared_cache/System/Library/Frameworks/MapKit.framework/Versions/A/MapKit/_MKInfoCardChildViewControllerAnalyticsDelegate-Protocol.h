@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol _MKInfoCardChildViewControllerAnalyticsDelegate
+- (NSArray *)cache reached the limit, flushing cache now;
+- (NSArray *)to flush, dropping last event %@;
 @end
 

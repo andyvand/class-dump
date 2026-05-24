@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureGameModeMonitor, FigCaptureOSStateHandle, NSArray, NSDateFormatter, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction;
+@class NSArray;
 
 @interface BWFigCaptureDeviceVendor
 {
     CDUnknownFunctionPointerType _defaultDeviceCreateFunction;
-    NSMutableDictionary *_devicesStatesByDeviceID;
-    NSMutableArray *_registeredDeviceClients;
-    NSMutableArray *_activeDeviceClients;
-    NSMutableArray *_victimizedDeviceClients;
-    NSObject<OS_dispatch_queue> *_deviceQueue;
-    NSObject<OS_dispatch_source> *_defaultDeviceOpenTimer;
-    double _deviceCloseTimeoutSeconds;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSObject<OS_os_transaction> *_activeForClientAssertion;
-    _Bool _preventingSystemSleep;
-    unsigned int _preventSystemSleepAssertion;
-    NSMutableDictionary *_cameraPoseMatricesByPortTypeByDeviceID;
-    struct os_unfair_lock_s _calibrationStatusLock;
-    _Bool _calibrationStatusQueried;
-    _Bool _rearCameraCalibrationValid;
-    int _createDeviceTime;
-    FigCaptureOSStateHandle *_osStateHandle;
-    NSMutableArray *_defaultDeviceCreationHistory;
-    NSDateFormatter *_deviceDateFormatter;
-    FigCaptureGameModeMonitor *_gameModeMonitor;
 }
 
 + (_Bool);
@@ -37,27 +16,27 @@
 + (id)upported with GPU or ISP Mesh renderer types;
 + (void);
 - (int);
-- (void);
-- (void);
-- (_Bool);
+- (void)initWithPropertiesClass:(id)arg1;
+- (void)edCellFromXmlCellElement:edRowInfo:edRowBlock:edRowBlocks:state: /* Error: Ran out of types for this method. */;
+- (_Bool)TC,N,V_numberOfHashDecimalPlaceholders;
 - (_Bool);
 - (id);
 - (void);
-- (int);
-- (int);
+- (int)m;
+- (int)(l;
 - (float);
 - (int);
+- (id)!;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (int);
@@ -70,10 +49,10 @@
 - (id);
 - (id);
 - (id);
-- (int);
+- (int)P;
+- (id)Z;
 - (id);
-- (id);
-- (_Bool)onTimeFrom60To30;
+- (_Bool)_integrationTimeFrom60To30;
 - (id)er rect of %{public}@ attached to %{public}@ from %{public}@ to %{public}@;
 - (id)ßzÿÿç{ÿÿyêÿyêÿyêÿyêÿ#yêÿ*zêÿ1zêÿ7zéÿ>zéÿGzéÿN{éÿU{éÿ]{éÿd|éÿm|éÿt|êÿ{}ëÿ}ìÿ~îÿ~ðÿ~òÿ ôÿ¦öÿ®øÿµúÿ¼üÿÃþÿËÿÿÒÿÿÙÿÿàÿÿèÿÿëÿëÿëÿëÿ%ëÿ+ëÿ2ëÿ9êÿ@êÿHéÿOéÿVéÿ^éÿeéÿnéÿuêÿ}êÿëÿíÿîÿðÿ¡òÿ¨ôÿ°÷ÿ¶ùÿ½ûÿÄüÿÌþÿÓÿÿÚÿÿáÿÿéÿÿìÿìÿìÿ!ìÿ&ìÿ-ìÿ3ëÿ:(id)arg1 ëÿAëÿIêÿPêÿWéÿ_éÿféÿoéÿvéÿ~êÿêÿëÿíÿïÿ¢ñÿ©óÿ±õÿ¸÷ÿ¿ùÿÅûÿÍýÿÔÿÿÛÿÿâÿÿêÿÿîÿîÿîÿ#îÿ(îÿ.íÿ4íÿ;ìÿBìÿJëÿQëÿXêÿ`êÿhéÿpéÿxéÿéÿéÿêÿëÿíÿ¤ïÿ«ñÿ²óÿ¹õÿÀøÿÇúÿÏüÿÕýÿÜÿÿãÿÿëÿÿïÿïÿ!ïÿ%ïÿ)ïÿ/ïÿ6ïÿ<îÿCîÿKíÿRìÿYëÿaëÿhêÿqéÿyéÿéÿéÿéÿêÿëÿ¥ íÿ¬ ïÿ´ ñÿ»¡ôÿÁ¡öÿÈ¡øÿÐ¡úÿÖ¢üÿÝ¢þÿä¢ÿÿì¢ÿÿ£ñÿ£ñÿ"£òÿ&£òÿ+¤ñÿ1¤ñÿ6¤ñÿ=¤ðÿC¤ðÿK¤ïÿR¥îÿZ¥íÿa¥ìÿi¥ëÿr¥êÿy¦éÿ¦éÿ¦èÿ§èÿ§éÿ §éÿ§§ëÿ®¨íÿµ¨ïÿ¼¨òÿÃ©ôÿÉ©öÿÑ©ùÿØ©ûÿÞªýÿåªþÿíªÿÿ¬ôÿ!¬ôÿ$¬ôÿ'¬ôÿ,¬ôÿ2¬ôÿ7¬óÿ=¬óÿD­òÿL­ñÿS­ðÿZ­ïÿb­îÿi­íÿr®ìÿz®ëÿ®êÿ®éÿ¯èÿ¯èÿ¡¯èÿ©¯éÿ°°êÿ·°íÿ¾°ïÿÄ±òÿË±õÿÒ±÷ÿÙ±ùÿß±ûÿæ²ýÿî²ÿÿ ´÷ÿ#´÷ÿ%´÷ÿ)´÷ÿ-´÷ÿ2´÷ÿ8µöÿ>µöÿDµõÿLµôÿSµóÿZµòÿb¶ñÿi¶ðÿr¶îÿz¶íÿ¶ìÿ¶êÿ·éÿ·èÿ£·çÿª·çÿ±¸èÿ¹¸êÿ¿¸ìÿÆ¹ïÿÌ¹òÿÓ¹õÿÚ¹øÿá¹úÿç¹ûÿïºýÿ"½úÿ$½úÿ'¾úÿ*¾ûÿ.¾ûÿ3¾úÿ9¾úÿ?¾úÿE¾ùÿL¾øÿS¿÷ÿZ¿öÿa¿õÿi¿ôÿr¿òÿy¿ñÿÀïÿÀíÿÀëÿÀéÿ£Àèÿ«Àæÿ³Àæÿ»ÁçÿÂÁéÿÈÁìÿÎÂïÿÕÂóÿÛÂõÿâÂøÿèÂúÿðÂüÿ#Æýÿ&Æýÿ(Æþÿ+Æþÿ/Æþÿ4Æþÿ9Æþÿ?ÇýÿEÇýÿLÇüÿSÇûÿZÇúÿaÇùÿhÇøÿqÈ÷ÿyÈõÿÈôÿÈòÿÈðÿÈíÿ£Èëÿ«Èèÿ´Èæÿ½ÉäÿÄÉåÿÊÉèÿÐÉìÿÖÊðÿÝÊóÿãÊöÿéÊøÿñÊúÿ%Îÿÿ'Îÿÿ)Îÿÿ,Îÿÿ0Îÿÿ5Ïÿÿ:(int)arg2 Ïÿÿ?ÏÿÿEÏÿÿLÏÿÿSÏÿÿZÐþÿaÐýÿhÐüÿpÐûÿxÐúÿÐøÿÐ÷ÿÑõÿÑóÿ¡Ñðÿ©Ñîÿ²Ñëÿ¼ÑçÿÆÑãÿÍÑâÿÒÑçÿØÑíÿÞÒñÿäÒôÿêÒöÿòÒøÿ'Öÿÿ)×ÿÿ+×ÿÿ-×ÿÿ1×ÿÿ6×ÿÿ;×ÿÿ@×ÿÿF×ÿÿMØÿÿSØÿÿZØÿÿaØÿÿhØÿÿpØÿÿwØýÿÙüÿÙûÿÙùÿÙ÷ÿÙöÿ§Ùôÿ°Ùñÿ¹ÙîÿÂÙëÿËÙçÿÙÙÙÿÚÙéÿßÙîÿåÙòÿëÙõÿóÙ÷ÿ)àÿÿ*àÿÿ,àÿÿ/àÿÿ2àÿÿ7àÿÿ<àÿÿAàÿÿGáÿÿMáÿÿSáÿÿZáÿÿaáÿÿháÿÿpâÿÿwâÿÿ~âÿÿâÿÿâýÿâüÿâúÿ¦âøÿ®âöÿ·âôÿÀãðÿÊâìÿÓâèÿÛâçÿáâìÿæâïÿìâóÿôâõÿ*èÿÿ,èÿÿ.èÿÿ1èÿÿ4èÿÿ8èÿÿ=èÿÿBéÿÿGéÿÿNéÿÿTéÿÿZéÿÿaéÿÿhêÿÿpêÿÿwêÿÿ~êÿÿêÿÿêÿÿêþÿêýÿ¦ëúÿ¯ë÷ÿ¸ëõÿÁêòÿÊêïÿÓêìÿÛêëÿáêìÿçêîÿíêñÿôêôÿ,ðÿÿ.ðÿÿ0ðÿÿ2ðÿÿ5ðÿÿ:(int)arg3 ðÿÿ>ñÿÿCñÿÿHñÿÿOñÿÿUñÿÿ[ñÿÿbñÿÿhòÿÿpòÿÿwòÿÿ~òÿÿóÿÿóÿÿóþÿóüÿ¨óúÿ°óøÿ¹òöÿÂòóÿÊòñÿÓòïÿÛñîÿâñîÿèñïÿîññÿõñóÿ.øÿÿ0øÿÿ2øÿÿ4øÿÿ7øÿÿ;øÿÿ@ùÿÿDùÿÿJùÿÿPùÿÿYúÿÿ_úÿÿeúÿÿlûÿÿtûÿÿ{ûÿÿûÿÿûÿÿûÿÿûþÿ¡ûýÿ©ûûÿ±úùÿºú÷ÿÃúõÿËúóÿÓùñÿÛùðÿâùðÿèùðÿîùñÿõùóÿ:(int)arg4 ÿÿÿ;ÿÿÿ<ÿÿÿ>ÿÿÿAÿÿÿEÿÿÿIÿÿÿMÿÿÿRÿÿÿWÿÿÿ]ÿÿÿcÿÿÿiÿÿÿoÿÿÿwÿÿÿ~ÿÿÿÿÿÿÿÿÿÿÿÿÿþÿ£ÿüÿ«ÿûÿ³ÿùÿ¼ÿ÷ÿÄÿõÿÌÿôÿÓÿóÿÜÿòÿâÿñÿéÿñÿïÿòÿõÿóÿ;
 - (id)HSÿFPÿDLÿ¤AIÿ®>Eÿ·:(id)arg1 Bÿ¿7>ÿÈ3:(id)arg2 ÿÐ.6ÿ×+3ÿÝ)1ÿà(0ÿà(0ÿ\mÿ\lÿ\lÿ\lÿ[kÿ#[kÿ,[jÿ5Zjÿ=ZiÿEZiÿLZhÿSZhÿZZhÿ`ZgÿhZgÿnXdÿuVaÿ|U]ÿSYÿPVÿNSÿLOÿ¤ILÿ®EHÿ¶BEÿ¿>AÿÇ:(id)arg3 =ÿÐ69ÿ×36ÿÜ03ÿß/2ÿà02ÿ!enÿ enÿ emÿ dmÿ dlÿ%clÿ.clÿ7ckÿ?ckÿGbjÿNbjÿUbiÿ\biÿbbiÿibiÿoafÿu_cÿ|]`ÿ[\ÿYYÿVVÿSSÿ£PPÿ­MKÿ¶IHÿ¿FDÿÇB@ÿÐ>;ÿ×;8ÿÜ96ÿß75ÿß75ÿ%ooÿ%ooÿ%ooÿ%nnÿ%nnÿ'mmÿ0mmÿ8mmÿ@llÿIllÿPllÿWkkÿ^kkÿekkÿkkkÿpjiÿuhgÿ|feÿdaÿb^ÿ_[ÿ\Wÿ£YTÿ­VOÿ¶RKÿ¾OGÿÇKCÿÐG>ÿ×D;ÿÜB9ÿÞA7ÿÞA7ÿ&vnÿ&vnÿ&vnÿ&unÿ&umÿ&tmÿ.tlÿ7tlÿ?slÿHslÿOslÿWrkÿ^rkÿerlÿlrlÿrrlÿwpjÿ}ohÿleÿjbÿg^ÿe[ÿ£bWÿ­^Rÿµ[Nÿ¾WJÿÇTEÿÐPAÿ×M=ÿÜK;ÿÞJ:(int *)arg4 ÿÞI9ÿ'}mÿ'}mÿ'}mÿ'}mÿ'|lÿ'|lÿ+{lÿ4{kÿ={kÿFzkÿNzkÿUzkÿ]ykÿdykÿlykÿrylÿyykÿ~wjÿugÿsdÿpaÿn]ÿ£kYÿ¬gUÿµdPÿ¾`LÿÇ]GÿÐYCÿÖV?ÿÛT=ÿÞS;ÿÞS;ÿ(lÿ(lÿ(lÿ(lÿ(kÿ(kÿ'kÿ1jÿ:jÿCjÿKjÿSjÿ[jÿbjÿjjÿqjÿyjÿjÿ~hÿ|eÿzbÿw_ÿ£t[ÿ¬qVÿµmRÿ¾jMÿÆgIÿÏcDÿÖa@ÿÛ_>ÿÝ^<ÿÝ]<ÿ(jÿ(jÿ(jÿ(jÿ(jÿ(iÿ(iÿ+iÿ5hÿ?hÿHhÿPhÿXhÿ`hÿhhÿphÿxhÿhÿhÿeÿcÿ`ÿ¤\ÿ­|WÿµySÿ¾vOÿÆrJÿÏoEÿÖmAÿÛk?ÿÝj=ÿÝi=ÿ'hÿ'hÿ'hÿ'hÿ'hÿ'gÿ'gÿ'gÿ0gÿ;fÿDfÿLfÿUfÿ]fÿffÿnfÿvfÿ~fÿeÿeÿbÿ_ÿ¦\ÿ®Xÿ¶Tÿ¾OÿÇ}KÿÏzFÿÖxBÿÛv?ÿÝu>ÿÝu=ÿ&fÿ&fÿ&fÿ&fÿ&eÿ&eÿ&eÿ&eÿ*dÿ6dÿ?dÿHdÿQcÿZcÿccÿkcÿtcÿ|cÿbÿbÿaÿ ^ÿ§[ÿ°Wÿ·Sÿ¿OÿÇKÿÐFÿ×BÿÜ?ÿÞ=ÿÞ=ÿ%£dÿ%£cÿ%£cÿ%£cÿ%£cÿ%¢cÿ%¢bÿ%¢bÿ%¡bÿ0¡aÿ:¡aÿD¡aÿM aÿV `ÿ` `ÿh `ÿq `ÿz _ÿ _ÿ¡^ÿ¡]ÿ¢¡]ÿ©Yÿ²Uÿ¹RÿÁNÿÉJÿÒEÿØAÿÝ?ÿß=ÿß<ÿ#«aÿ#«aÿ#ªaÿ#ªaÿ#ª`ÿ#ª`ÿ#ª`ÿ#©`ÿ#©_ÿ)©_ÿ4©^ÿ?©^ÿH¨^ÿR¨]ÿ\¨]ÿe¨]ÿn¨\ÿw¨\ÿ©[ÿ©Zÿ©Yÿ ªYÿªªXÿ³§Tÿ»¤PÿÃ¢LÿËHÿÔCÿÚ@ÿß=ÿá<ÿá;ÿ!³^ÿ!³^ÿ!³^ÿ!³^ÿ!³]ÿ!³]ÿ!²]ÿ!²\ÿ!²\ÿ!²\ÿ-²[ÿ8²[ÿC±ZÿM±ZÿW±Yÿa²Yÿj²Xÿt²Wÿ²Wÿ³Vÿ³Uÿ´Tÿ¨´Sÿµ´Rÿ½²NÿÅ¯IÿÎ­EÿÖ«AÿÝª=ÿâ©;ÿä¨9ÿä¨8ÿ»[ÿ»[ÿº[ÿº[ÿº[ÿºZÿºZÿºZÿºYÿºYÿ&¹Xÿ3¹Xÿ>¹WÿHºVÿSºVÿ]ºUÿgºTÿqºTÿ|»Sÿ»Rÿ¼Qÿ¼Oÿ¦½Nÿ³¾Mÿ¿¾LÿÇ¼GÿÏºCÿØ¸>ÿß·;ÿä¶8ÿæµ7ÿæµ6ÿÂYÿÂYÿÂYÿÂYÿÂXÿÂXÿÂXÿÂWÿÁWÿÁVÿÁVÿ-ÁUÿ9ÁTÿDÁSÿOÂSÿZÂRÿdÂQÿnÃPÿyÃOÿÄNÿÄLÿÅKÿ¤ÆJÿ±ÇHÿ½ÇGÿÈÈEÿÑÆAÿÚÄ<ÿáÃ8ÿæÃ6ÿéÂ4ÿéÂ3ÿÉWÿÉWÿÉWÿÉVÿÉVÿÉVÿÉVÿÉUÿÉUÿÉTÿÉSÿ'ÉSÿ4ÉRÿ@ÉQÿLÉPÿVÊOÿaÊNÿkËMÿwËKÿÌJÿÍIÿÍGÿ£ÎEÿ°ÏDÿ¼ÐBÿÇÑ@ÿÒÒ?ÿÜÐ:ÿãÐ6ÿèÏ4ÿëÏ2ÿëÏ1ÿÐUÿÐUÿÐUÿÐUÿÐTÿÐTÿÐTÿÐSÿÐSÿÐRÿÐQÿ"ÐQÿ0ÑPÿ<ÑOÿIÑMÿSÒLÿ^ÒKÿhÓJÿtÔHÿÔGÿÕEÿÖDÿ¡×Bÿ¯Ù@ÿ»Ú>ÿÆÛ<ÿÒÜ:ÿÝÝ8ÿåÜ5ÿêÜ2ÿíÜ1ÿíÜ0ÿÖTÿÖTÿÖTÿÖTÿÖTÿÖSÿÖSÿÖRÿÖRÿÖQÿÖPÿÖPÿ.×Oÿ:×MÿG×LÿQØKÿ\ÙJÿgÙHÿsÚGÿ~ÛEÿÜCÿÝAÿ Þ?ÿ®à=ÿºá;ÿÆâ9ÿÑã7ÿÝå6ÿæå4ÿëå2ÿîå0ÿîå/ÿÚUÿÚTÿÚTÿÚTÿÛTÿÛSÿÛSÿÛSÿÛRÿÛQÿÛPÿÛPÿ-ÛNÿ9ÜMÿFÜLÿQÝKÿ[ÞIÿfÞHÿrßFÿ}àDÿáBÿâAÿ ä>ÿ­å<ÿºç:ÿÆè8ÿÑé6ÿÝë4ÿæì3ÿìí2ÿïí0ÿðí0ÿÞVÿÞVÿÞVÿÞUÿÞUÿÞUÿÞTÿÞTÿÞSÿÞRÿÞRÿ"ÞPÿ/ßOÿ;ßNÿGàMÿQàKÿ\áJÿfâHÿrãGÿ}äEÿåCÿæAÿ ç?ÿ­é=ÿºê:ÿÆì8ÿÑí7ÿÝî5ÿæï3ÿíð2ÿðñ2ÿðñ1ÿàYÿàYÿàXÿàXÿàXÿàXÿàWÿàWÿàVÿàUÿàTÿ)àSÿ4áRÿ?áQÿJâOÿTâNÿ^ãLÿhãKÿtäIÿåGÿæFÿçDÿ¡èAÿ®ê?ÿºë=ÿÆì;ÿÑî9ÿÝï7ÿæð6ÿíñ5ÿðñ4ÿññ4ÿ /* Error: Ran out of types for this method. */;
@@ -90,17 +69,7 @@
 - (id)data time machine;
 
 // Remaining properties
-@property(readonly) int activeClientPriority;
-@property(readonly, nonatomic) int createDeviceTime; // @synthesize createDeviceTime=_createDeviceTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *deviceIDs;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool rearCameraCalibrationValid;
-@property(readonly) Class superclass;
 
 @end
 

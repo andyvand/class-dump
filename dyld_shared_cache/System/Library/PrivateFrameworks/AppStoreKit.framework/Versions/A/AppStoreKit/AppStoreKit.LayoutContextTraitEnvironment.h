@@ -11,8 +11,8 @@
     JUTraitCollection *traitCollection;
 }
 
-- (void);
-- (id);
+- (void)o;
+- (id)o;
 - (id);
 - (void)tails_t;
 

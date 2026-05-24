@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCoreDataCloudShareService, NSString;
+@class HMDCoreDataCloudShareService;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeSharedUserCloudShareManager
@@ -13,37 +13,31 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)Z]ÿ;
+- (void)persistenceFileURL;
+- (void)getSnapshot:(id)arg1 data:mergingCurrentState:withState:mergeOptions:error: /* Error: Ran out of types for this method. */;
+- (void)geoMapItem;
+- (id)te:(id)arg1 %@;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)';
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)nnectedNotification;
+- (void)HMDAccessoryDisconnectedNotification;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

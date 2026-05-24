@@ -13,13 +13,13 @@
     NSDictionary *_groupingResultsByStrategyIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)_findInCacheMapWithRadius:scaleFactor:strokeColor:fillColor:mode:lineWidth: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)B;
+- (void)Cannot extract graph data for match:(id)arg1 %@ error:%@ /* Error: Ran out of types for this method. */;
 - (void)ÜÌ%;
 
 // Remaining properties

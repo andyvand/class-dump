@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PDFAnnotation, PDFPage, PDFPageView, PDFView;
+@class PDFPageView;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageViewAnnotationControllerPrivate
 {
     PDFPageView *pageView;
-    PDFPage *page;
-    PDFView *view;
-    PDFAnnotation *activeAnnotation;
-    NSMutableDictionary *activeControls;
 }
 
 - (void);

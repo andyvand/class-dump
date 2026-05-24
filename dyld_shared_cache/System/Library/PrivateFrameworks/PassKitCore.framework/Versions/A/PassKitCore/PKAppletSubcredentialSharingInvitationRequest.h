@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface PKAppletSubcredentialSharingInvitationRequest
 {
     NSString *_credentialIdentifier;
-    NSString *_sharedCredentialIdentifier;
-    NSUUID *_sharingSessionIdentifier;
-    long long _deviceType;
 }
 
 + (_Bool)X"ð!ÐBùî%ð1Â0@ù
 × ;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -26,14 +23,11 @@
 - (id);
 - (void);
 - (long long)age",&,N,V_stripImage;
-- (void)_REASON_WRONG_PIN;
+- (void)TRANSACTION_DECLINED_REASON_WRONG_PIN;
 - (void)[%Û!;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *credentialIdentifier; // @synthesize credentialIdentifier=_credentialIdentifier;
-@property(nonatomic) long long deviceType; // @synthesize deviceType=_deviceType;
-@property(copy, nonatomic) NSString *sharedCredentialIdentifier; // @synthesize sharedCredentialIdentifier=_sharedCredentialIdentifier;
-@property(retain, nonatomic) NSUUID *sharingSessionIdentifier; // @synthesize sharingSessionIdentifier=_sharingSessionIdentifier;
 
 @end
 

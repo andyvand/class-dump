@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRRequestDetails, NSString;
+@class NSString;
 
 @interface MRSetVolumeMessage : MRProtocolMessage
 {
@@ -14,15 +14,13 @@
 
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)isMergeBusinessSenderIndiaEnabled;
+- (unsigned long long)t to generate workout preview to BlastDoor for %@;
 - (float);
 - (id)<;
 
 // Remaining properties
-@property(readonly, nonatomic) MRRequestDetails *details;
 @property(readonly, nonatomic) NSString *outputDeviceUID;
-@property(readonly, nonatomic) float volume;
 
 @end
 

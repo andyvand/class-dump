@@ -5,5 +5,6 @@
 //
 
 @protocol WBSHistoryExporterProtocol
+- (void)R;
 @end
 

@@ -7,7 +7,6 @@
 @interface TextToSpeech.AXOnDiskVoiceLoader
 {
     id $defaultActor;
-    id _cachedDirectory;
 }
 
 @end

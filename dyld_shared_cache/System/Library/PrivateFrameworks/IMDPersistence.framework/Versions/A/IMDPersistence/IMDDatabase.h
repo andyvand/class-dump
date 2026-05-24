@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMDDatabase
 {
     _Bool _synchronous;
@@ -17,9 +15,9 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)4@"NSString"32;
 + (id);
-+ (id);
++ (id)rphans and folders;
 + (id)WHERE m.guid = ?);;
 - (void);
 - (void);
@@ -36,12 +34,40 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@9;
+- (void);
+- (id);
+- (void)T ;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)a;
+- (void);
+- (void)˿;
 - (void);
 - (void);
 - (void);
@@ -50,42 +76,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@9	;
 - (void);
 - (void);
 - (void);
@@ -127,10 +125,10 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)qc;
 - (void);
 - (id);
 - (id);
@@ -155,10 +153,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)?;
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -167,14 +165,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, getter=isSynchronous) _Bool synchronous; // @synthesize synchronous=_synchronous;
 
 @end
 

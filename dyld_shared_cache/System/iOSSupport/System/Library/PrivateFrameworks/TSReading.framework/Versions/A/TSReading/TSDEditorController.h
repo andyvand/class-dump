@@ -4,59 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, TSKDocumentRoot;
-@protocol TSDEditor;
+@class TSKDocumentRoot;
 
 @interface TSDEditorController
 {
     TSKDocumentRoot *mDocumentRoot;
-    NSMutableArray *mEditorStack;
-    NSObject<TSDEditor> *mTextInputEditor;
-    unsigned long long mTransactionLevel;
-    _Bool mDidChangeTextInputEditor;
-    _Bool mDidChangeCurrentEditors;
-    _Bool mNotifiedWillChangeTextInputEditor;
-    _Bool mNotifiedWillChangeCurrentEditors;
-    _Bool mIsReentrantResigningTextInputEditors;
-    NSMutableArray *mResignedTextInputEditors;
-    NSMutableDictionary *mInspectorPropertyValueMap;
-    unsigned long long mChangingCurrentEditorsWhenCommittingInspectorChangesCount;
 }
 
+- (void)nterval;
+- (void);
+- (void);
+- (void):(id)arg1;
+- (void);
+- (void)AppType;
+- (void);
+- (void)PlaybackHistoryConsumer;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id)r;
+- (void)Lo;
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)|;
 - (id);
 - (void);
 - (void);

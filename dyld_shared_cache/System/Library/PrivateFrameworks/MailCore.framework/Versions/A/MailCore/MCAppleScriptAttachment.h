@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAttachment, NSScriptClassDescription, NSScriptObjectSpecifier, NSString;
+@class MCAttachment, NSString;
 
 @interface MCAppleScriptAttachment
 {
     NSString *_uuidString;
-    MCAttachment *_attachment;
-    NSScriptObjectSpecifier *_messageContainer;
-    NSScriptClassDescription *_messageClassDescription;
 }
 
 - (void);
@@ -22,20 +19,17 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)qa;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)unionSet: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)taSource.m;
 
 // Remaining properties
 @property(retain, nonatomic) MCAttachment *attachment; // @synthesize attachment=_attachment;
-@property(retain, nonatomic) NSScriptClassDescription *messageClassDescription; // @synthesize messageClassDescription=_messageClassDescription;
-@property(retain, nonatomic) NSScriptObjectSpecifier *messageContainer; // @synthesize messageContainer=_messageContainer;
-@property(readonly, copy, nonatomic) NSString *uniqueID;
 
 @end
 

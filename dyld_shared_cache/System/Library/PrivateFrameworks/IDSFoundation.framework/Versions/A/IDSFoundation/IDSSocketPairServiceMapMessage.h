@@ -6,13 +6,9 @@
 
 #import <IDSFoundation/IDSSocketPairMessage.h>
 
-@class NSString;
-
 @interface IDSSocketPairServiceMapMessage : IDSSocketPairMessage
 {
     unsigned char _reason;
-    unsigned short _mappedStreamID;
-    NSString *_serviceName;
 }
 
 - (unsigned short);
@@ -21,13 +17,11 @@
 - (id);
 - (id);
 - (unsigned char);
-- (unsigned char);
+- (unsigned char);
 - (void)eceiver:init called with filesystem-free-size %llu header %@ expiryDate %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short mappedStreamID; // @synthesize mappedStreamID=_mappedStreamID;
 @property(readonly, nonatomic) unsigned char reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

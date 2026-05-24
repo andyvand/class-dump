@@ -5,5 +5,8 @@
 //
 
 @protocol AVCaptureMetadataOutputObjectsDelegateInternal
+
+@optional
+- (void)Node",&,N,V_tail;
 @end
 

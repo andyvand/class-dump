@@ -9,10 +9,9 @@
 @interface PLGameModeService
 {
     _Bool _previousGameModeState;
-    PLCFNotificationOperatorComposition *_consoleModeListener;
 }
 
-+ (void)ats;
++ (void)DCPscanoutstats;
 - (void);
 - (void);
 - (_Bool);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain) PLCFNotificationOperatorComposition *consoleModeListener; // @synthesize consoleModeListener=_consoleModeListener;
-@property _Bool previousGameModeState; // @synthesize previousGameModeState=_previousGameModeState;
 
 @end
 

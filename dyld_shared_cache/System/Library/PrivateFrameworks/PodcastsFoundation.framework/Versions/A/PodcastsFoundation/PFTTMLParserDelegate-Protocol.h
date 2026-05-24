@@ -5,5 +5,7 @@
 //
 
 @protocol PFTTMLParserDelegate
+- (void)#;
+- (void)S);
 @end
 

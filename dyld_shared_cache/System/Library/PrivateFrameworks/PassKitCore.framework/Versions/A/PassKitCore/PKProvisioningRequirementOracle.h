@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void)onNumeric;
+- (void)transactionAmountNonNumeric;
 
 @end
 

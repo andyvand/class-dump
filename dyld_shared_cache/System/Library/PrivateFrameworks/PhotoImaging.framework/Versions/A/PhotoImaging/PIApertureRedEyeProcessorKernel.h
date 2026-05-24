@@ -10,11 +10,11 @@
 
 + (void);
 + (void);
-+ (CDStruct_996ac03c);
-+ (int);
++ (CDStruct_0973877e);
++ (int)_normalizedDeviationForVeryImportantPersons;
 + (int);
 + (_Bool);
-+ (struct CGRect);
++ (struct CGRect)fixedDeltaX;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSUUID;
-@protocol OS_xpc_object;
-
 @interface BSXPCServiceConnectionEndpoint
 {
     _Bool _nonLaunching;
-    int _targetPID;
-    NSObject<OS_xpc_object> *_xpcEndpoint;
-    NSUUID *_oneshot;
-    NSString *_targetDescription;
 }
 
 - (id);
@@ -21,7 +14,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)errorWithCode:message: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

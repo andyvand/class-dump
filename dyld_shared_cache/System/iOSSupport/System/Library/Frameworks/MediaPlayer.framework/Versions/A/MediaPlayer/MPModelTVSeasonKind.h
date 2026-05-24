@@ -13,15 +13,15 @@
     MPModelTVEpisodeKind *_episodeKind;
 }
 
++ (id)_fromClause;
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)$;
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)nonMigratingToolsInstance;
+- (id)8;
 - (_Bool);
 - (void);
 - (void)stinationOffset;

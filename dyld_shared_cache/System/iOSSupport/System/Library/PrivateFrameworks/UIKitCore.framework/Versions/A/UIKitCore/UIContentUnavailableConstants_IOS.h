@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIContentUnavailableConstants_IOS
 {
@@ -14,10 +12,10 @@ __attribute__((visibility("hidden")))
 + (id),V_maximumWidthConstraint;
 - (double);
 - (id);
-- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets)Y;
 - (double);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (id);
@@ -25,22 +23,16 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)× ;
 - (id)sets=dddd}88@0:(id)arg1 8Q16{CGRect={CGPoint=dd}{CGSize=dd}}24{UIEdgeInsets=dddd}56;
-- (id)eteAfterAnimation;
-- (id);
-- (id)preventsAppearanceProxyCustomization;
-- (double)eUpButtonUpNotification;
+- (id)shouldDeleteAfterAnimation;
+- (id)clearGestureRecognizers: /* Error: Ran out of types for this method. */;
+- (id)_preventsAppearanceProxyCustomization;
+- (double)_UIApplicationVolumeUpButtonUpNotification;
 - (id)hat we're supposed to be ignoring!;
 - (id)work.bundle;
 - (double)¼òg;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

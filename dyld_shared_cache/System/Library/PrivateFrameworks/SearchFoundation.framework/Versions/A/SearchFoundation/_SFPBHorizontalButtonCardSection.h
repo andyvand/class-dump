@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @interface _SFPBHorizontalButtonCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSArray *_buttonCardSections;
 }
 
 - (void);
@@ -40,8 +31,8 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)ICMediaRedownloadRequest;
+- (_Bool)ICUserAuthenticationValidationRequest;
 - (id);
 - (void);
 - (void);
@@ -50,34 +41,17 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)mediaProcessingDeviceIndependentFacesSortDescriptors;
+- (id)syndication identifier %{public}@;
 - (void);
+- (id)7;
 - (id);
 - (id);
-- (id);
-- (void)reItem: /* Error: Ran out of types for this method. */;
+- (void)setSpotlightShareItem: /* Error: Ran out of types for this method. */;
 - (int)7üÿìê;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) NSArray *buttonCardSections; // @synthesize buttonCardSections=_buttonCardSections;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

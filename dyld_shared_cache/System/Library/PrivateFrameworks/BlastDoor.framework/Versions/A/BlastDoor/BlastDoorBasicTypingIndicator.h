@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorBasicTypingIndicator
 {
@@ -12,15 +12,13 @@
 }
 
 - (id);
-- (id);
+- (id)h8;
 - (id);
 - (_Bool);
-- (void)tionCodingKeys;
+- (void)NotificationCodingKeys;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool isFinished;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
 
 @end
 

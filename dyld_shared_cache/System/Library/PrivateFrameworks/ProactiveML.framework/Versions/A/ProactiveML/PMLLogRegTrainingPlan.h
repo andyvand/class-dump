@@ -4,44 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PMLModelWeights, PMLSessionDescriptor, PMLTrainingStore;
-@protocol PMLLogRegTrackerProtocol, PMLNoiseStrategy;
+@class PMLTrainingStore;
 
 @interface PMLLogRegTrainingPlan
 {
     PMLTrainingStore *_store;
-    id <PMLLogRegTrackerProtocol> _tracker;
-    id <PMLNoiseStrategy> _noiseStrategy;
-    PMLSessionDescriptor *_sessionDescriptor;
-    unsigned long long _maxSessionsLimit;
-    unsigned long long _sessionsInBatch;
-    unsigned long long _currentServerIteration;
-    PMLModelWeights *_currentModelWeights;
-    unsigned long long _localGradientIterations;
-    float _localLearningRate;
-    float _stoppingThreshold;
-    unsigned long long _localMinimumIterations;
-    _Bool _useOnlyAppleInternalSessions;
-    double _skew;
-    double _threshold;
-    _Bool _isMultiLabel;
-    unsigned long long _positiveLabel;
-    unsigned long long _evaluationLevel;
-    _Bool _reportScale;
-    _Bool _intercept;
-    NSString *_planId;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (float);
 - (unsigned long long);
-- (void);
+- (void)C;
 - (_Bool);
 - (id);
 - (id);
@@ -53,39 +32,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)unregisterUnscopedIdentityChangeWatcher: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (float);
-- (id);
+- (float)5;
+- (id)B;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PMLModelWeights *currentModelWeights; // @synthesize currentModelWeights=_currentModelWeights;
-@property(readonly, nonatomic) unsigned long long currentServerIteration; // @synthesize currentServerIteration=_currentServerIteration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long evaluationLevel; // @synthesize evaluationLevel=_evaluationLevel;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool intercept; // @synthesize intercept=_intercept;
-@property(readonly, nonatomic) _Bool isMultiLabel; // @synthesize isMultiLabel=_isMultiLabel;
-@property(readonly, nonatomic) unsigned long long localGradientIterations; // @synthesize localGradientIterations=_localGradientIterations;
-@property(readonly, nonatomic) float localLearningRate; // @synthesize localLearningRate=_localLearningRate;
-@property(readonly, nonatomic) unsigned long long localMinimumIterations; // @synthesize localMinimumIterations=_localMinimumIterations;
-@property(readonly, nonatomic) unsigned long long maxSessionsLimit; // @synthesize maxSessionsLimit=_maxSessionsLimit;
-@property(readonly, nonatomic) NSString *planId; // @synthesize planId=_planId;
-@property(readonly, nonatomic) unsigned long long positiveLabel; // @synthesize positiveLabel=_positiveLabel;
-@property(readonly, nonatomic) _Bool reportScale; // @synthesize reportScale=_reportScale;
-@property(readonly, nonatomic) PMLSessionDescriptor *sessionDescriptor; // @synthesize sessionDescriptor=_sessionDescriptor;
-@property(readonly, nonatomic) float stoppingThreshold; // @synthesize stoppingThreshold=_stoppingThreshold;
 @property(readonly, nonatomic) PMLTrainingStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PMLLogRegTrackerProtocol> tracker; // @synthesize tracker=_tracker;
-@property(readonly, nonatomic) _Bool useOnlyAppleInternalSessions; // @synthesize useOnlyAppleInternalSessions=_useOnlyAppleInternalSessions;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MHSchemaMHClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_mhId;
-    _Bool _hasMhId;
 }
 
 - (void);
@@ -19,7 +18,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)oIAiI/Sources/libressl/libressl-2.2/crypto/bn/bn_add.c;
 - (id);
 - (unsigned long long);
 - (void);
@@ -28,13 +27,11 @@
 - (id);
 - (id)
 × ;
-- (id)nBytes:(id)arg1;
-- (id)vents;
+- (id)setResourceDownloadSizeInBytes:(id)arg1;
+- (id)_events;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasMhId; // @synthesize hasMhId=_hasMhId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *mhId; // @synthesize mhId=_mhId;
 
 @end

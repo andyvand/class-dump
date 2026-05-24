@@ -5,5 +5,6 @@
 //
 
 @protocol RTDaemonClientRegistrarVehicleEventProtocol
+- (void)%d;
 @end
 

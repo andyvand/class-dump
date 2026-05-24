@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDPersistenceContext, NSPredicate;
+@class NSPredicate;
 
 @interface CNCDContainerFetcher
 {
     NSPredicate *_predicate;
-    CNCDPersistenceContext *_persistenceContext;
 }
 
 + (id);
@@ -24,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (void)erDataUpdates;
+- (void)updatesAsPosterDataUpdates;
 
 @end
 

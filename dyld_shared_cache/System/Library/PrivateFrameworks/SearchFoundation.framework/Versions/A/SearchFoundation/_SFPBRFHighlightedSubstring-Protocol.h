@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBRFHighlightedSubstring
+- (NSData *)_didSetPackedAcceptableCropRect;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *substring;
 @end
 

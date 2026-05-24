@@ -6,20 +6,18 @@
 
 #import <Intents/INCodableAttribute.h>
 
-@class INCodableEnum, NSString;
+@class INCodableEnum;
 
 @interface INCodableEnumAttribute : INCodableAttribute
 {
     INCodableEnum *_codableEnum;
-    NSString *_enumNamespace;
 }
 
 + (_Bool);
-+ (id)t:(id)arg1 sender:(id *)arg2 recipients:groupName:dateMessageWasLastRead:numberOfAttachments:messageType:messageEffectType: /* Error: Ran out of types for this method. */;
++ (id)initWithIdentifier:(id)arg1 conversationIdentifier:(id *)arg2 content:dateSent:sender:recipients:groupName:dateMessageWasLastRead:numberOfAttachments:messageType:messageEffectType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) INCodableEnum *codableEnum; // @synthesize codableEnum=_codableEnum;
-@property(copy, nonatomic) NSString *enumNamespace; // @synthesize enumNamespace=_enumNamespace;
 
 @end
 

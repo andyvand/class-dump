@@ -6,23 +6,20 @@
 
 #import <Email/EMMessageChangeAction.h>
 
-@class ECMessageFlagChange, NSURL;
+@class NSURL;
 
 @interface EMMessageTransferAction : EMMessageChangeAction
 {
     _Bool _copyMessages;
-    NSURL *_destinationMailboxURL;
-    long long _specialDestinationMailboxType;
-    ECMessageFlagChange *_flagChange;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)BiomeLogEvent;
 - (long long);
-- (id);
-- (_Bool);
+- (id)@;
+- (_Bool)A;
 - (id);
 - (id);
 - (id);
@@ -31,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool copyMessages; // @synthesize copyMessages=_copyMessages;
 @property(readonly, nonatomic) NSURL *destinationMailboxURL; // @synthesize destinationMailboxURL=_destinationMailboxURL;
-@property(readonly, nonatomic) ECMessageFlagChange *flagChange; // @synthesize flagChange=_flagChange;
-@property(readonly, nonatomic) long long specialDestinationMailboxType; // @synthesize specialDestinationMailboxType=_specialDestinationMailboxType;
 
 @end
 

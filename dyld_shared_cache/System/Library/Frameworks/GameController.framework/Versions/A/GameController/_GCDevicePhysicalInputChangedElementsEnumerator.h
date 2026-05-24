@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputChangedElementsEnumerator
 {
     _GCDevicePhysicalInputTransaction *_implementation;
-    unsigned long long _currentIndex;
 }
 
 - (oneway void);

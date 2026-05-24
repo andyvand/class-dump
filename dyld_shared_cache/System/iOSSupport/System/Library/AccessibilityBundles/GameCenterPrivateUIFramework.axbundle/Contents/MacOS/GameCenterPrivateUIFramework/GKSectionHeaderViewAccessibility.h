@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
-+ (void);
++ (void)initWithFormat:(id)arg1;
 - (id);
 
 @end

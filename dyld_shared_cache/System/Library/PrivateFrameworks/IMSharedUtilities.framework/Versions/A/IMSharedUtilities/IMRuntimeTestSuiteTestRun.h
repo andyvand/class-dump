@@ -11,12 +11,11 @@
 @interface IMRuntimeTestSuiteTestRun : IMRuntimeTestRun
 {
     NSMutableArray *_testRuns;
-    NSArray *_testRun;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)Setup;
 - (void)jLÿÿ"<ÿÿ;
 
 // Remaining properties

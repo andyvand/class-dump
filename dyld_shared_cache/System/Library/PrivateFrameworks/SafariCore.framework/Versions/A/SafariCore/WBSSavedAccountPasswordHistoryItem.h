@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface WBSSavedAccountPasswordHistoryItem
 {
     NSDictionary *_originalKeychainDictionary;
-    NSString *_identifier;
-    NSString *_password;
-    NSString *_oldPassword;
-    NSDate *_date;
-    NSString *_type;
 }
 
 - (id);
@@ -22,30 +17,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)accessoryDidUpdateSupportsCompanionInitiatedObliterate: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)g"48q56;
+- (id)MPModelPropertyPodcastEpisodeItemType;
 - (id);
 - (id);
 - (void)Xð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *oldPassword; // @synthesize oldPassword=_oldPassword;
 @property(readonly, copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

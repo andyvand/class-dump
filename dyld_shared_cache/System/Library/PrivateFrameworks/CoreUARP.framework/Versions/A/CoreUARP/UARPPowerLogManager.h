@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_os_log;
+@class NSMutableSet;
 
 @interface UARPPowerLogManager
 {
     NSMutableSet *_accessories;
-    NSMutableSet *_pendingReachableEvents;
-    NSObject<OS_os_log> *_log;
-    unsigned int _stagingWindowPeriodSeconds;
 }
 
-- (id);
+- (id)alDeviceCopyName(MRExternalDeviceRef);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)AMSEngagementAppData;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

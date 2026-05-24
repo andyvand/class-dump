@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSData, NSString;
+@class AFBBufRef, NSString;
 
 @interface _CHSExtensionIdentityBuf
 {
     AFBBufRef *_br;
-    const struct ExtensionIdentityBuf *_ptr;
 }
 
 - (id);
-- (const char *);
+- (const char *)kJ?;
 - (const char *);
 - (id);
 - (const char *);
@@ -29,28 +28,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)
+;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *containerBundleIdentifier;
-@property(readonly, nonatomic) const char *containerBundleIdentifierAsCString;
-@property(readonly, nonatomic) NSData *containerBundleIdentifierAsData;
-@property(readonly, nonatomic) NSString *deviceIdentifier;
-@property(readonly, nonatomic) const char *deviceIdentifierAsCString;
-@property(readonly, nonatomic) NSData *deviceIdentifierAsData;
-@property(readonly, nonatomic) NSString *extensionBundleIdentifier;
-@property(readonly, nonatomic) const char *extensionBundleIdentifierAsCString;
-@property(readonly, nonatomic) NSData *extensionBundleIdentifierAsData;
 @property(readonly, nonatomic) NSString *tokenString;
-@property(readonly, nonatomic) const char *tokenStringAsCString;
-@property(readonly, nonatomic) NSData *tokenStringAsData;
 
 @end
 

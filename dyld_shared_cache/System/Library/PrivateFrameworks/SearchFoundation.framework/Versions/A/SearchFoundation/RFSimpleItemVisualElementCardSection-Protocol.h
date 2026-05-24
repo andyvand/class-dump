@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class RFTextProperty, RFVisualProperty;
 
 @protocol RFSimpleItemVisualElementCardSection
-- (void);
+- (RFTextProperty *);
+- (RFTextProperty *)_getNearestOutline:forDestination: /* Error: Ran out of types for this method. */;
+- (void)pping playback checks. Route:(RFVisualProperty *)arg1 %{public}@, playbackDataSource:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int attribution_style;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) RFTextProperty *footnote;
-@property(nonatomic) int horizontal_alignment;
 @property(retain, nonatomic) RFVisualProperty *image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
 @end
 

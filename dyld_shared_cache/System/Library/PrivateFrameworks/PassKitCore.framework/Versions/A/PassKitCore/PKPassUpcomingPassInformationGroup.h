@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPassUpcomingPassInformationGroup
 {
     NSString *_identifier;
-    NSString *_name;
-    NSArray *_entries;
 }
 
-+ (id);
++ (id)`;
 + (_Bool)qî%ð1Â0@ù
 × ;
+- (id)+&;
 - (id);
 - (id);
+- (void)numMeasurements;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void)ExpressEnabled;
+- (void)isUWBExpressEnabled;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *entries; // @synthesize entries=_entries;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

@@ -9,31 +9,26 @@
 @interface NTPBVanityURLPath
 {
     NSString *_destinationParameters;
-    NSString *_destinationPath;
-    NSString *_sourcePath;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)֭;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (unsigned long long)playbackState"B};
+- (void)encryptDiskWithiCloudUser:(id)arg1 iCloudPassword:localUser:localPassword:andBag:returningError: /* Error: Ran out of types for this method. */;
+- (_Bool)torageKitUsersForUsers:(id)arg1 ];
 - (id);
-- (_Bool);
+- (_Bool)ished with feed responses:(id)arg1 %@;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)�.#;
 - (void)"b1"paidNonpaidSubscriptionCtr"b1"personalizationScore"b1"subscribedChannelCtr"b1"userFeedbackScore"b1"displayRank"b1"groupType"b1"parentFeedType"b1"adSupportedChannel"b1"isPaidSubscriberToSourceChannel"b1};
 
 // Remaining properties
-@property(retain, nonatomic) NSString *destinationParameters; // @synthesize destinationParameters=_destinationParameters;
-@property(retain, nonatomic) NSString *destinationPath; // @synthesize destinationPath=_destinationPath;
-@property(readonly, nonatomic) _Bool hasDestinationParameters;
 @property(retain, nonatomic) NSString *sourcePath; // @synthesize sourcePath=_sourcePath;
 
 @end

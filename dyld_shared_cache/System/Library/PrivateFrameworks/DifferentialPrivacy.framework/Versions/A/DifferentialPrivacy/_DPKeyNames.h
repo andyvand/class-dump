@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)setWebsiteNameConsumer:(id)arg1;
 + (id);
 
 @end

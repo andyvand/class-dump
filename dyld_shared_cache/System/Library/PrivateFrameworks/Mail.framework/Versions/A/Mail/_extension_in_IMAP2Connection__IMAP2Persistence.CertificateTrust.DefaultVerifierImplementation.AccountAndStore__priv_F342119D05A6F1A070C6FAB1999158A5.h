@@ -7,8 +7,6 @@
 @interface (extension in IMAP2Connection):IMAP2Persistence.CertificateTrust.DefaultVerifierImplementation.AccountAndStore__priv_F342119D05A6F1A070C6FAB1999158A5
 {
     id account;
-    id store;
-    id logger;
 }
 
 @end

@@ -6,15 +6,11 @@
 
 #import <DaemonUtils/LAAnalytics.h>
 
-@class NSArray, NSDate, NSString;
+@class NSDate;
 
 @interface LAAnalyticsPasscodeFallbackPeriod : LAAnalytics
 {
     NSDate *_passcodePresentedTime;
-    NSDate *_biometrySuccessTime;
-    long long _policyGroup;
-    long long _passcodeCount;
-    long long _biometryAttempts;
 }
 
 + (id);
@@ -28,19 +24,14 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)0;
 - (long long);
 - (id);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long biometryAttempts; // @synthesize biometryAttempts=_biometryAttempts;
-@property(readonly, nonatomic) long long passcodeCount; // @synthesize passcodeCount=_passcodeCount;
-@property(readonly, nonatomic) NSArray *policies;
 @property(readonly, nonatomic) long long policyGroup; // @synthesize policyGroup=_policyGroup;
-@property(readonly, nonatomic) NSString *policyGroupName;
-@property(readonly, nonatomic) long long timeInterval;
 
 @end
 

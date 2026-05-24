@@ -19,7 +19,7 @@
 - (void);
 - (void)tCount:%lld /* Error: Ran out of types for this method. */;
 - (void)eration requires channel IDs;
-- (void)ionProfile;
+- (void)SharedPersonalizationProfile;
 
 @end
 

@@ -6,58 +6,37 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSData, NSString, NSURL, PKAccountPaymentScheduleDetails, PKAccountScheduledPaymentList, PKAccountWebServiceCertificatesResponse, PKApplePayTrustHashResponse, PKPaymentDeviceMetadata;
+@class NSURL, PKAccountScheduledPaymentList;
 
 @interface PKAccountWebServiceSchedulePaymentRequest : PKAccountWebServiceRequest
 {
     NSURL *baseURL;
-    PKApplePayTrustHashResponse *hashResponse;
-    NSData *_publicKeyHash;
-    PKAccountScheduledPaymentList *_scheduledPayments;
-    PKAccountPaymentScheduleDetails *_scheduleDetails;
-    NSString *_accountIdentifier;
-    PKAccountWebServiceCertificatesResponse *_certificatesResponse;
-    PKPaymentDeviceMetadata *_deviceMetadata;
 }
 
 - (Class);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (id)8;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)@;
 - (id);
 - (id)Received errors in couponCodeChanged:%s /* Error: Ran out of types for this method. */;
-- (void);
+- (void)associatedIntent;
 - (void);
 - (id)u¯jûZ;
 - (void)Õÿ©i´;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL;
-@property(retain, nonatomic) PKAccountWebServiceCertificatesResponse *certificatesResponse; // @synthesize certificatesResponse=_certificatesResponse;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKApplePayTrustHashResponse *hashResponse; // @synthesize hashResponse;
-@property(copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(retain, nonatomic) PKAccountPaymentScheduleDetails *scheduleDetails; // @synthesize scheduleDetails=_scheduleDetails;
 @property(retain, nonatomic) PKAccountScheduledPaymentList *scheduledPayments; // @synthesize scheduledPayments=_scheduledPayments;
-@property(readonly) Class superclass;
 
 @end
 

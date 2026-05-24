@@ -19,7 +19,7 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)nContextStageUnknown;
+- (id)REMDatabaseMigrationContextStageUnknown;
 
 // Remaining properties
 @property(readonly, nonatomic) REMStore *store; // @synthesize store=_store;

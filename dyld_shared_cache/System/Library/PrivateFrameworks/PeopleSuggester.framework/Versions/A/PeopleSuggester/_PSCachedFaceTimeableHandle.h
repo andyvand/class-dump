@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface _PSCachedFaceTimeableHandle
 {
     NSDate *_expirationDate;
-    NSString *_handle;
 }
 
-- (id);
-- (id);
+- (id)_audioSpeechPacketArrivalContext;
+- (id)s;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
 
 @end
 

@@ -6,29 +6,21 @@
 
 #import <EventKit/EKCalendarItem.h>
 
-@class EKObjectID, NSDate, NSDateComponents, NSTimeZone;
+@class NSDateComponents, NSTimeZone;
 
 @interface EKReminder : EKCalendarItem
 {
     NSDateComponents *_startDateComponents;
-    NSDateComponents *_dueDateComponents;
-    EKObjectID *_parentID;
 }
 
-+ (id);
-+ (void);
++ (id)evice %{public}@;
++ (void)IncludeSections(MRPlaybackQueueRequestRef);
 + (id);
 + (Class);
 + (id);
 
 // Remaining properties
-@property(nonatomic, getter=isCompleted) _Bool completed;
-@property(copy, nonatomic) NSDate *completionDate;
-@property(copy, nonatomic) NSDateComponents *dueDateComponents; // @synthesize dueDateComponents=_dueDateComponents;
 @property(readonly, nonatomic) NSTimeZone *dueDateTimeZone;
-@property(retain, nonatomic) EKObjectID *parentID; // @synthesize parentID=_parentID;
-@property(nonatomic) unsigned long long priority; // @dynamic priority;
-@property(copy, nonatomic) NSDateComponents *startDateComponents; // @synthesize startDateComponents=_startDateComponents;
 
 @end
 

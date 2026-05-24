@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoCaptureConverter
 {
     unsigned int _destinationFramerate;
-    unsigned int _sourceFramerate;
-    double _throttleRate;
-    unsigned int _sourceFrameCount;
-    unsigned int _lastDestinationFrameCount;
-    _Bool _isThrottling;
-    id _convertedFrameHandlerContext;
-    CDUnknownFunctionPointerType _convertedFrameHandler;
 }
 
 - (void);
@@ -30,21 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (id);
-- (void);
+- (void)Y)1;
 - (void);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int destinationFramerate; // @synthesize destinationFramerate=_destinationFramerate;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned int sourceFramerate; // @synthesize sourceFramerate=_sourceFramerate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCListenerEndpoint;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface SOExtensionServiceConnection
 {
     NSXPCConnection *_xpcConnection;
-    NSXPCListenerEndpoint *_serviceXpcEndpoint;
 }
 
 - (void);
@@ -18,19 +17,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id)associatedDomains=%@>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSXPCListenerEndpoint *serviceXpcEndpoint; // @synthesize serviceXpcEndpoint=_serviceXpcEndpoint;
-@property(readonly) Class superclass;
 @property(retain) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

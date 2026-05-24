@@ -6,16 +6,11 @@
 
 #import <NeutrinoCore/NURenderJob.h>
 
-@class CIRenderTask, NUImageHistogram, NUPurgeableStoragePool;
-@protocol NUPurgeableStorage, NUScalePolicy;
+@class NUPurgeableStoragePool;
 
 @interface NUHistogramRenderJob : NURenderJob
 {
     NUPurgeableStoragePool *_storagePool;
-    id <NUPurgeableStorage> _renderDestination;
-    NUImageHistogram *_histogram;
-    CIRenderTask *_renderTask;
-    id <NUScalePolicy> _scalePolicy;
 }
 
 - (_Bool);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool):(out id *)arg1 channel:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

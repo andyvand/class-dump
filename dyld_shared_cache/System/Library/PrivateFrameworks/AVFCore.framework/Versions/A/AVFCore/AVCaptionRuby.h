@@ -13,7 +13,7 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id),+;
 - (struct OpaqueFigCaptionData *);
 - (void);
 - (id);
@@ -22,14 +22,12 @@
 - (id);
 - (id);
 - (long long);
-- (long long);
-- (_Bool);
-- (void);
+- (long long)21CSCppDwarfAbbrevTable;
+- (_Bool);
+- (void)�;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long alignment;
-@property(readonly, nonatomic) long long position;
 @property(readonly, nonatomic) NSString *text;
 
 @end

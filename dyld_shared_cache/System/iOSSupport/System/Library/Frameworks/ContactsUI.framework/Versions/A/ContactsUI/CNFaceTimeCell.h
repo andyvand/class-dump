@@ -6,28 +6,12 @@
 
 #import <ContactsUI/CNLabeledCell.h>
 
-@class CNActionMenuHelper, CNActionView, CNContact, CNContactActionsController, CNUIUserActionListDataSource, NSArray, NSDictionary, NSString, UIContextMenuInteraction, UILabel;
-@protocol CNCustomPresentation, CNPropertyCellDelegate, CNSchedulerProvider;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CNFaceTimeCell : CNLabeledCell
 {
     _Bool _isFaceTimeAudioAvailable;
-    CNUIUserActionListDataSource *_actionsDataSource;
-    id <CNPropertyCellDelegate> _delegate;
-    CNContact *_contact;
-    UILabel *_faceTimeLabel;
-    CNActionView *_actionView1;
-    CNActionView *_actionView2;
-    NSArray *_supportedActionTypes;
-    id <CNCustomPresentation> _actionsControllerPresentation;
-    CNContactActionsController *_actionsController;
-    CNActionMenuHelper *_actionMenuHelper;
-    UIContextMenuInteraction *_contextMenuInteraction;
-    NSArray *_tokens;
-    id <CNSchedulerProvider> _schedulerProvider;
-    double _throttleDelay;
-    NSDictionary *_defaultActionPerType;
 }
 
 - (id);
@@ -36,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (id);
-- (void);
+- (void);
 - (double);
 - (void);
 - (id);
@@ -53,8 +37,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)	;
 - (void);
 - (id);
 - (void);
@@ -63,10 +47,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void)playActivityFeedMetadata;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)playbackRate;
 - (id);
 - (id);
 - (void);
@@ -75,36 +59,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)kImage: /* Error: Ran out of types for this method. */;
-- (id)ingProfileOnboardingAudienceCatalystViewController;
+- (void)_checkmarkImage: /* Error: Ran out of types for this method. */;
+- (id)CNSharingProfileOnboardingAudienceCatalystViewController;
 
 // Remaining properties
-@property(retain, nonatomic) CNActionMenuHelper *actionMenuHelper; // @synthesize actionMenuHelper=_actionMenuHelper;
-@property(readonly, nonatomic) CNActionView *actionView1; // @synthesize actionView1=_actionView1;
-@property(readonly, nonatomic) CNActionView *actionView2; // @synthesize actionView2=_actionView2;
-@property(retain, nonatomic) CNContactActionsController *actionsController; // @synthesize actionsController=_actionsController;
-@property(retain, nonatomic) id <CNCustomPresentation> actionsControllerPresentation; // @synthesize actionsControllerPresentation=_actionsControllerPresentation;
-@property(retain, nonatomic) CNUIUserActionListDataSource *actionsDataSource; // @synthesize actionsDataSource=_actionsDataSource;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) UIContextMenuInteraction *contextMenuInteraction; // @synthesize contextMenuInteraction=_contextMenuInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSDictionary *defaultActionPerType; // @synthesize defaultActionPerType=_defaultActionPerType;
-@property(nonatomic) __weak id <CNPropertyCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) UILabel *faceTimeLabel; // @synthesize faceTimeLabel=_faceTimeLabel;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isFaceTimeAudioAvailable; // @synthesize isFaceTimeAudioAvailable=_isFaceTimeAudioAvailable;
-@property(retain, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *supportedActionTypes; // @synthesize supportedActionTypes=_supportedActionTypes;
-@property(readonly, nonatomic) double throttleDelay; // @synthesize throttleDelay=_throttleDelay;
-@property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

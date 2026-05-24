@@ -10,7 +10,7 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long):) /* Error: Ran out of types for this method. */;
 
 @end
 

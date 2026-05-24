@@ -15,10 +15,10 @@
 
 + (_Bool);
 + (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

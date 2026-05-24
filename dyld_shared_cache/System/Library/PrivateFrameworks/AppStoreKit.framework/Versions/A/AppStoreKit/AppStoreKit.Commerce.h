@@ -7,11 +7,6 @@
 @interface AppStoreKit.Commerce
 {
     id objectGraph;
-    id appStateController;
-    id purchaseHistory;
-    id metricsRecorder;
-    id intentDispatcher;
-    id rootViewController;
 }
 
 @end

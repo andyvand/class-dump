@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, NSCache, NSMutableDictionary, NSNotificationCenter;
+@class NSCache, NSNotificationCenter;
 
 @interface MCDisplayNameManager
 {
     NSCache *_parsedDisplayNameInfos;
-    NSMutableDictionary *_queriedDisplayNameInfos;
-    NSNotificationCenter *_displayNameNotificationCenter;
-    CNContactFormatter *_fullNameFormatter;
-    CNContactFormatter *_shortNameFormatter;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)ption:(struct _NSZone *)arg1;
++ (id)setAccessibilityDescription:(struct _NSZone *)arg1;
 - (id);
 - (id);
 - (void);
@@ -39,13 +35,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)5;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNotificationCenter *displayNameNotificationCenter; // @synthesize displayNameNotificationCenter=_displayNameNotificationCenter;
-@property(readonly, nonatomic) CNContactFormatter *fullNameFormatter; // @synthesize fullNameFormatter=_fullNameFormatter;
-@property(readonly, nonatomic) CNContactFormatter *shortNameFormatter; // @synthesize shortNameFormatter=_shortNameFormatter;
-@property(readonly, nonatomic) NSNotificationCenter *test_notificationCenter;
 
 @end
 

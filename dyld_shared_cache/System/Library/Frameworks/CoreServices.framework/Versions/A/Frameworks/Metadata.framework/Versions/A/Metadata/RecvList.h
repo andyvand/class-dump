@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     struct __CFArray *waits;
 }
 
-- (void);
-- (_Bool);
+- (void)tlement or com.apple.private.accounts.allaccounts entitlement;
+- (_Bool)ck failed:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (void);

@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)XX;
 
 @end
 

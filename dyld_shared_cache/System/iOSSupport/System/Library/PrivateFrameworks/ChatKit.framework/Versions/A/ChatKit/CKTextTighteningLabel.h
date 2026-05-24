@@ -9,29 +9,25 @@
 @interface CKTextTighteningLabel
 {
     NSString *_managedText;
-    NSAttributedString *_tightenedAttributedText;
-    double _tightenedAttributedTextBoundsWidth;
-    NSAttributedString *_untightenedAttributedText;
-    double _untightenedAttributedTextBoundsWidth;
 }
 
 + (_Bool);
 + (void);
 + (id);
-- (double);
+- (double)undoneHeightConstraint;
+- (id)undoablyReplaceSelectionWithAttachmentPresentations:undoManager: /* Error: Ran out of types for this method. */;
+- (double)setNeedsToSaveLastViewedTimestamp: /* Error: Ran out of types for this method. */;
+- (id)setNeedsToBeSaved: /* Error: Ran out of types for this method. */;
+- (void)legacyNoteFetchedResultsController;
+- (void)legacyNoteAirDropDocumentWithWebArchive:(id)arg1;
+- (void)isKindOfClass:(double)arg1;
+- (void)isKeyboardMathSolvingAllowedObservation;
 - (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)o;
+- (void)t check for persisted thumbnail {key:(_Bool)arg1 %@, error:(struct CGSize)arg2 %s};
+- (void)achment;
+- (id)erate System Paper backdrop thumbnail;
+- (void)alid save delay time;
 - (struct CGSize);
 - (void);
 - (void)8@"CKHandwritingPresentationController"16;
@@ -39,11 +35,7 @@
 - (void)7;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *managedText; // @synthesize managedText=_managedText;
 @property(retain, nonatomic) NSAttributedString *tightenedAttributedText; // @synthesize tightenedAttributedText=_tightenedAttributedText;
-@property(nonatomic) double tightenedAttributedTextBoundsWidth; // @synthesize tightenedAttributedTextBoundsWidth=_tightenedAttributedTextBoundsWidth;
-@property(retain, nonatomic) NSAttributedString *untightenedAttributedText; // @synthesize untightenedAttributedText=_untightenedAttributedText;
-@property(nonatomic) double untightenedAttributedTextBoundsWidth; // @synthesize untightenedAttributedTextBoundsWidth=_untightenedAttributedTextBoundsWidth;
 
 @end
 

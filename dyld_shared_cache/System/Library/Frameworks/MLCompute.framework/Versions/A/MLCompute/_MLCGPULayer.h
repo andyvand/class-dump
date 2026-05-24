@@ -14,8 +14,8 @@
 + (_Bool);
 + (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)Z;
+- (void)__gcc_except_tab__TEXT;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *deviceOps; // @synthesize deviceOps=_deviceOps;

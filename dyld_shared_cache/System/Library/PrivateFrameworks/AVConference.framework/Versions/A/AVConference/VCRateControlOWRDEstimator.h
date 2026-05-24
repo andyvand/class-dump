@@ -8,30 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCRateControlOWRDEstimator
 {
     unsigned int _mode;
-    _Bool _useUINT16;
-    unsigned int _firstSendTimestamp;
-    unsigned int _previousSendTimestamp;
-    unsigned int _previousOOOSendTimestamp;
-    unsigned int _previousSendTimestampDiff;
-    unsigned long long _sendTimestampWrappedAround;
-    double _firstSendTime;
-    unsigned int _firstReceiveTimestamp;
-    unsigned int _previousReceiveTimestamp;
-    unsigned int _previousOOOReceiveTimestamp;
-    unsigned int _previousReceiveTimestampDiff;
-    unsigned long long _receiveTimestampWrappedAround;
-    double _firstReceiveTime;
-    double _shortAverageLag;
-    double _longAverageLag;
-    double _owrd;
-    unsigned int _abnormalOWRDSampleCount;
-    unsigned int _sendTimestampOOORecoveredCount;
-    unsigned int _receiveTimestampOOORecoveredCount;
-    unsigned int _spuriousLagWithoutSpikeCount;
-    _Bool _sendTimestampSpikeDetected;
-    _Bool _receiveTimestampSpikeDetected;
-    double _averageSendInterval;
-    double _averageReceiveInterval;
 }
 
 - (_Bool);
@@ -48,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int mode; // @synthesize mode=_mode;
 @property(readonly, nonatomic) double owrd; // @synthesize owrd=_owrd;
 
 @end

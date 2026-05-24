@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistedMessageID, EDPersistedRichLinkID, NSString;
+@class EDPersistedMessageID;
 
 @interface EDSearchableIndexPersistenceRichLinkDatum
 {
     EDPersistedMessageID *_messageID;
-    EDPersistedRichLinkID *_richLinkID;
-    long long _mailboxID;
-    NSString *_title;
-    NSString *_url;
 }
 
 - (id);
@@ -24,11 +20,7 @@
 - (id)Ì;
 
 // Remaining properties
-@property(readonly, nonatomic) long long mailboxID; // @synthesize mailboxID=_mailboxID;
 @property(readonly, copy, nonatomic) EDPersistedMessageID *messageID; // @synthesize messageID=_messageID;
-@property(readonly, copy, nonatomic) EDPersistedRichLinkID *richLinkID; // @synthesize richLinkID=_richLinkID;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _GCCControllerHIDServiceInfoDescription, _GCMotionEventHIDAdapter;
 @protocol _GCHIDEventSourceDescription;
 
 __attribute__((visibility("hidden")))
 @interface _GCMotionEventHIDAdapterDescription
 {
     id <_GCHIDEventSourceDescription> _sourceDescription;
-    _GCCControllerHIDServiceInfoDescription *_serviceDescription;
-    _GCMotionEventHIDAdapter *_materializedObject;
 }
 
 + (_Bool);
@@ -24,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

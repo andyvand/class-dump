@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CALNAlarmEngineMonitor, CALNEmailSender, EKEventStoreProvider;
+@protocol EKEventStoreProvider;
 
 @interface CALNTriggeredEmailHandler
 {
     id <EKEventStoreProvider> _storeProvider;
-    id <CALNAlarmEngineMonitor> _alarmEngineMonitor;
-    id <CALNEmailSender> _emailSender;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)";
 - (id);
 - (void);
-- (void);
+- (id)?k";
+- (void)#;
+- (void)assMethods:(id)arg1;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CALNAlarmEngineMonitor> alarmEngineMonitor; // @synthesize alarmEngineMonitor=_alarmEngineMonitor;
-@property(readonly, nonatomic) id <CALNEmailSender> emailSender; // @synthesize emailSender=_emailSender;
 @property(readonly, nonatomic) id <EKEventStoreProvider> storeProvider; // @synthesize storeProvider=_storeProvider;
 
 @end

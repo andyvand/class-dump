@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface SUPreferenceManager
 {
     NSXPCConnection *_connection;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (_Bool);
@@ -26,6 +26,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)1:(id)arg1 p;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)Ʋ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -33,34 +39,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -77,32 +77,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)ildSA;
 
 // Remaining properties
-@property(readonly) _Bool allowAnyCatalogCertificate;
-@property(readonly) _Bool allowSameOrOlderMajorOSVersion;
-@property(readonly) _Bool automaticallyCheckForUpdates;
-@property(readonly) _Bool automaticallyInstallBackgroundSecurityImprovements;
-@property(readonly) _Bool automaticallyInstallConfigDataAndSecurityUpdates;
-@property(readonly) _Bool automaticallyInstallMacOSUpdates;
-@property(readonly) _Bool automaticallyInstallRestartRequiredUpdates;
-@property(readonly) NSString *baseSystemDiskImageOverridePath;
-@property(readonly) NSString *bridgeVersionOverride;
-@property(readonly) NSString *catalogURL;
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) NSString *customPersonalizationSigningServerURLString;
-@property(readonly) _Bool disableSeedUI;
-@property(readonly) _Bool downloadUpdatesInBackground;
-@property(readonly) _Bool ignoreMinimumBridgeVersionCheck;
-@property(readonly) _Bool isLastScanResultSuccess;
-@property(readonly) NSDate *lastCatalogChangedDate;
-@property(readonly) NSDate *lastFullScanSuccessfulDate;
-@property(readonly) long long lastScanResultCode;
-@property(readonly) NSDate *lastScanSuccessfulDate;
-@property(readonly) _Bool onlyConsiderStagedUpdates;
-@property(readonly) _Bool specialTestMode;
 
 @end
 

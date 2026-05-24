@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSOperationQueue;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, NSOperationQueue;
 
 @interface _NSRecentItemsMenuController
 {
     NSMutableDictionary *_recents;
-    int _recentsLimit;
-    NSMutableDictionary *_orderedPendingRecentDocumentURLsPerKey;
-    NSObject<OS_dispatch_queue> *_pendingRecentsQueue;
-    NSOperationQueue *_backgroundRecentDocumentResolutionQueue;
-    NSMutableDictionary *_cachedRecentDocumentInfoPerKey;
-    NSOperationQueue *_recentDocumentAccessQueue;
 }
 
-+ (id);
++ (id)@;
 + (id);
 - (void);
-- (id);
-- (id);
+- (id)k-dynamic-displaymode;
+- (id)RegionalBehaviorNoVOIP;
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (SEL);
@@ -36,8 +29,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)+;
 - (void);
 - (unsigned long long);
 - (void);
@@ -49,16 +42,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)ctCookieArray=}16q24;
+- (void)unsignedIntegerValue;
+- (void):(id)arg1;
+- (void)_setServerTrust:(id)arg1;
+- (id)_explicitlySetAllowsConstrainedNetworkAccess;
+- (void)HTTPMaximumConnectionsPerHost;
+- (id)V;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)psedFSTabBackgroundColor;
+- (void)_NSTabBarCollapsedFSTabBackgroundColor;
 - (_Bool);
 
 // Remaining properties

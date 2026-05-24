@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)connectionInfoAtIndex:(id)arg1;
 - (id);
 
 @end

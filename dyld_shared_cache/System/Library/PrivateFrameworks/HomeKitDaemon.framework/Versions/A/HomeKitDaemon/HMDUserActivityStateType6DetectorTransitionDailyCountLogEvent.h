@@ -4,78 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserActivityStateType6DetectorTransitionDailyCountLogEvent
 {
     NSNumber *_countNotStartedAndEndedAtHome;
-    NSNumber *_countStartedAndEndedAtHome;
-    NSNumber *_durationBetweenInitialETAAndActualArrivalTime;
-    NSNumber *_durationBetweenStartingComingHomeAndActualArrivalTime;
-    NSNumber *_countStartedAndEndedNotAtHome;
-    NSNumber *_durationBetweenStartingComingHomeAndCancellingComingHome;
-    NSNumber *_durationBetweenCancellingComingHomeAndEstimatedArrivalTime;
-    NSNumber *_countEndDateUpdated;
-    NSNumber *_countPausedNotMakingProgress;
-    NSNumber *_durationBetweenStartingComingHomeAndPausingComingHome;
-    NSNumber *_durationBetweenPausingComingHomeAndEstimatedArrivalTime;
-    NSNumber *_countResumedAfterPaused;
 }
 
+- (id)editObjectsWithIdentifiers:(id)arg1 usingBarrierBlock:(id)arg2 completionQueue:(id)arg3 completion:(id)arg4;
+- (id)e removeSendingObserver:] /* Error: Ran out of types for this method. */;
+- (id)r:] /* Error: Ran out of types for this method. */;
+- (id)dReceivingObserver:] /* Error: Ran out of types for this method. */;
+- (id)SharedTripSubscriptionToken"8@"NSString"16;
+- (id)tactController:didUpdateActiveContactsValues:] /* Error: Ran out of types for this method. */;
+- (id)@"NSError"24;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id)u set refresh rate to %f;
 - (id);
-- (id);
-- (void)ionStateChangeReasonUnknown;
+- (void)HMDHomeActivityVacationStateChangeReasonUnknown;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, nonatomic) NSNumber *countEndDateUpdated; // @synthesize countEndDateUpdated=_countEndDateUpdated;
 @property(readonly, nonatomic) NSNumber *countNotStartedAndEndedAtHome; // @synthesize countNotStartedAndEndedAtHome=_countNotStartedAndEndedAtHome;
-@property(readonly, nonatomic) NSNumber *countPausedNotMakingProgress; // @synthesize countPausedNotMakingProgress=_countPausedNotMakingProgress;
-@property(readonly, nonatomic) NSNumber *countResumedAfterPaused; // @synthesize countResumedAfterPaused=_countResumedAfterPaused;
-@property(readonly, nonatomic) NSNumber *countStartedAndEndedAtHome; // @synthesize countStartedAndEndedAtHome=_countStartedAndEndedAtHome;
-@property(readonly, nonatomic) NSNumber *countStartedAndEndedNotAtHome; // @synthesize countStartedAndEndedNotAtHome=_countStartedAndEndedNotAtHome;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSNumber *durationBetweenCancellingComingHomeAndEstimatedArrivalTime; // @synthesize durationBetweenCancellingComingHomeAndEstimatedArrivalTime=_durationBetweenCancellingComingHomeAndEstimatedArrivalTime;
-@property(readonly, nonatomic) NSNumber *durationBetweenInitialETAAndActualArrivalTime; // @synthesize durationBetweenInitialETAAndActualArrivalTime=_durationBetweenInitialETAAndActualArrivalTime;
-@property(readonly, nonatomic) NSNumber *durationBetweenPausingComingHomeAndEstimatedArrivalTime; // @synthesize durationBetweenPausingComingHomeAndEstimatedArrivalTime=_durationBetweenPausingComingHomeAndEstimatedArrivalTime;
-@property(readonly, nonatomic) NSNumber *durationBetweenStartingComingHomeAndActualArrivalTime; // @synthesize durationBetweenStartingComingHomeAndActualArrivalTime=_durationBetweenStartingComingHomeAndActualArrivalTime;
-@property(readonly, nonatomic) NSNumber *durationBetweenStartingComingHomeAndCancellingComingHome; // @synthesize durationBetweenStartingComingHomeAndCancellingComingHome=_durationBetweenStartingComingHomeAndCancellingComingHome;
-@property(readonly, nonatomic) NSNumber *durationBetweenStartingComingHomeAndPausingComingHome; // @synthesize durationBetweenStartingComingHomeAndPausingComingHome=_durationBetweenStartingComingHomeAndPausingComingHome;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

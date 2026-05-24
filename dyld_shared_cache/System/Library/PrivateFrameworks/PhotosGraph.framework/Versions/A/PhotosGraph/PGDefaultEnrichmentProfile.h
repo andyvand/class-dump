@@ -4,70 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString, PGCurationManager, PGCurationOptions, PGDejunkerDeduperOptions, PGKeyAssetCurationOptions;
+@class NSObject, PGCurationManager;
 @protocol OS_os_log;
 
 @interface PGDefaultEnrichmentProfile
 {
     NSObject<OS_os_log> *_loggingConnection;
-    NSMutableDictionary *_debugInfos;
-    _Bool _collectsDebugInfo;
-    PGCurationManager *_curationManager;
-    PGDejunkerDeduperOptions *_extendedCurationOptions;
 }
 
-+ (double);
-+ (double);
++ (double)__didRegisterMenuClosedNotification;
++ (double)__didRegisterFocusedUIElementNotification;
 + (double);
 + (double);
 + (unsigned long long);
 - (id);
+- (unsigned short)QQ}16Q32@40;
+- (id)"NSOperationQueue";
+- (void)_signalForElement:(id)arg1 stringDeleted:differenceFromPreviousString:wasSelected:editTracker: /* Error: Ran out of types for this method. */;
+- (void)_setKeyboardFocusedApplicationController:(_Bool)arg1;
+- (double)N,V__batteryStatus;
+- (id)nUtil.c;
+- (id)fMLZQ/Library/Caches/com.apple.xbs/TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c;
+- (id);
+- (id);
+- (id)@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned short);
 - (id);
-- (void);
-- (void);
-- (double);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned short);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)g;
+- (void)dog;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool collectsDebugInfo; // @synthesize collectsDebugInfo=_collectsDebugInfo;
 @property(readonly, nonatomic) PGCurationManager *curationManager; // @synthesize curationManager=_curationManager;
-@property(readonly, nonatomic) PGCurationOptions *curationOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSDictionary *debugInfos; // @synthesize debugInfos=_debugInfos;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PGDejunkerDeduperOptions *extendedCurationOptions; // @synthesize extendedCurationOptions=_extendedCurationOptions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) PGKeyAssetCurationOptions *keyAssetCurationOptions;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned short targetEnrichmentState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TS,?,R,N
-
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol NSVB_ViewServiceImplicitAnimationDecodingProxy_EncodingProxyInterface
+
+@optional
+- (void);
 @end
 

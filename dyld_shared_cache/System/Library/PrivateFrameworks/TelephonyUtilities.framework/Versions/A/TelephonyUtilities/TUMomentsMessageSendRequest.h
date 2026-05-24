@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSUUID, TUHandle;
+@class NSUUID;
 
 @interface TUMomentsMessageSendRequest
 {
     NSUUID *_sessionUUID;
-    NSUUID *_conversationID;
-    TUHandle *_senderHandle;
-    NSSet *_destinationHandles;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)x;
+- (id)<;
 - (id);
-- (id);
-- (void)tionsReloadForSelectedRecipients;
+- (void)suggestionsReloadForSelectedRecipients;
 - (id)ntifier localProvidersByIdentifier:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSUUID *conversationID; // @synthesize conversationID=_conversationID;
-@property(readonly, copy, nonatomic) NSSet *destinationHandles; // @synthesize destinationHandles=_destinationHandles;
-@property(readonly, copy, nonatomic) TUHandle *senderHandle; // @synthesize senderHandle=_senderHandle;
 @property(readonly, copy, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 
 @end

@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentRequest, PKRemoteDevice;
+@class PKRemoteDevice;
 
 @interface PKRemotePaymentRequest
 {
     PKRemoteDevice *_device;
-    PKPaymentRequest *_paymentRequest;
-    NSString *_selectedApplicationIdentifier;
-    NSString *_identifier;
-    unsigned long long _selectedPaymentMethodType;
 }
 
-+ (_Bool);
++ (_Bool)__TEXT;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)T!;
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_lTEDataLQM;
 - (id);
 - (id);
 - (void)om.apple.passkit.paymentoptionsdefaultschanged;
-- (id)kenNotificationURL;
+- (id)tokenNotificationURL;
 
 // Remaining properties
 @property(readonly, nonatomic) PKRemoteDevice *device; // @synthesize device=_device;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PKPaymentRequest *paymentRequest; // @synthesize paymentRequest=_paymentRequest;
-@property(copy, nonatomic) NSString *selectedApplicationIdentifier; // @synthesize selectedApplicationIdentifier=_selectedApplicationIdentifier;
-@property(nonatomic) unsigned long long selectedPaymentMethodType; // @synthesize selectedPaymentMethodType=_selectedPaymentMethodType;
 
 @end
 

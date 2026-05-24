@@ -12,7 +12,7 @@
 - (CDStruct_87dc826d);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (unsigned long long);

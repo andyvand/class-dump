@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (void)wContactPhotos: /* Error: Ran out of types for this method. */;
+- (void)setShowContactPhotos: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *preferredAccessibilityValue; // @synthesize preferredAccessibilityValue=_preferredAccessibilityValue;

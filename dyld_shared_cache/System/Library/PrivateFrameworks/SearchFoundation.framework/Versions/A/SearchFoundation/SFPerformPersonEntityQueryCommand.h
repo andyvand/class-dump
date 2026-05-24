@@ -6,30 +6,18 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFPerson, SFTopic;
+@class SFPerson;
 
 @interface SFPerformPersonEntityQueryCommand : SFCommand
 {
     SFPerson *_person;
 }
 
-+ (_Bool);
++ (_Bool)
+;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
 @property(retain, nonatomic) SFPerson *person; // @synthesize person=_person;
-@property(readonly) Class superclass;
 
 @end
 

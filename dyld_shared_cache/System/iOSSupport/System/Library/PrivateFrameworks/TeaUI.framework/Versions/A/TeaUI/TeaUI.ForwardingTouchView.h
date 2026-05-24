@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)setTopicFeedChannelTopicDiversificationInitialPenalty:(struct CGRect)arg1;
 - (_Bool);
 
 @end

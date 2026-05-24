@@ -4,86 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface _CLVIOEstimation
 {
     int _trackingState;
-    double _originTimestamp;
-    double _timestamp;
-    NSData *_inertialState;
-    NSData *_inertialCovariance;
-    struct CGSize _cameraImageResolution;
-    struct {
-        unsigned long long stateLengthInBytes;
-        unsigned char stateLength;
-        unsigned char orientationOffset;
-        unsigned char orientationLength;
-        unsigned char gyroBiasOffset;
-        unsigned char gyroBiasLength;
-        unsigned char velocityOffset;
-        unsigned char velocityLength;
-        unsigned char accelBiasOffset;
-        unsigned char accelBiasLength;
-        unsigned char positionOffset;
-        unsigned char positionLength;
-    } _inertialStateInfo;
-    struct {
-        unsigned long long covarianceSizeInBytes;
-        unsigned char covarianceSize;
-        unsigned char orientationCovOffset;
-        unsigned char orientationDof;
-        unsigned char gyroBiasCovOffset;
-        unsigned char gyroBiasDof;
-        unsigned char velocityCovOffset;
-        unsigned char velocityDof;
-        unsigned char accelBiasCovOffset;
-        unsigned char accelBiasDof;
-        unsigned char positionCovOffset;
-        unsigned char positionDof;
-    } _inertialCovarianceInfo;
-    CDStruct_1fe29af2 _cameraIntrinsics;
-    CDStruct_95fa7c00 _cameraPose;
 }
 
 + (_Bool);
 - (int);
 - (void);
+- (void)i;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)f;
 - (void);
 - (void);
 - (void);
 - (CDStruct_789f8997);
 - (id);
-- (CDStruct_789f8997);
+- (CDStruct_789f8997)
+w;
 - (id);
 - (id);
-- (CDStruct_95fa7c00);
-- (CDStruct_1fe29af2);
+- (CDStruct_34f00414);
+- (CDStruct_c27faaab);
 - (struct CGSize);
+- (double);
+- (void)8-bit
+;
+- (id)W!;
+- (id);
 - (double);
 - (void);
-- (id);
-- (id);
-- (double);
 - (void);
-- (void);
-- (id);
+- (id)setSkipSampleValidationAndApplySampleAtTileGranularity:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(nonatomic) struct CGSize cameraImageResolution; // @synthesize cameraImageResolution=_cameraImageResolution;
-@property(nonatomic) CDStruct_1fe29af2 cameraIntrinsics; // @synthesize cameraIntrinsics=_cameraIntrinsics;
-@property(nonatomic) CDStruct_95fa7c00 cameraPose; // @synthesize cameraPose=_cameraPose;
-@property(copy, nonatomic) NSData *inertialCovariance; // @synthesize inertialCovariance=_inertialCovariance;
-@property(nonatomic) CDStruct_789f8997 inertialCovarianceInfo; // @synthesize inertialCovarianceInfo=_inertialCovarianceInfo;
-@property(copy, nonatomic) NSData *inertialState; // @synthesize inertialState=_inertialState;
-@property(nonatomic) CDStruct_789f8997 inertialStateInfo; // @synthesize inertialStateInfo=_inertialStateInfo;
-@property(nonatomic) double originTimestamp; // @synthesize originTimestamp=_originTimestamp;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 @property(nonatomic) int trackingState; // @synthesize trackingState=_trackingState;
 
 @end

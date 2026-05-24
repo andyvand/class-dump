@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface IDSDeliveryControllerTimeMetric
 {
     double _timeToSend;
-    long long _endpointCount;
-    _Bool _usedPipeline;
-    _Bool _usedMMCS;
-    long long _responseCode;
 }
 
 - (_Bool);
@@ -26,21 +22,7 @@
 - (long long)c×ÿUÒáWèYÐÿuÒáWtÑÿuÒáWÌÑÿUÒáW!Ñÿ%ÒáWLc×ÿÒáW\c×ÿeÒáW\YÐÿÒáWdc×ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) long long endpointCount; // @synthesize endpointCount=_endpointCount;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long responseCode; // @synthesize responseCode=_responseCode;
-@property(readonly, nonatomic) unsigned short rtcType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeToSend; // @synthesize timeToSend=_timeToSend;
-@property(readonly, nonatomic) _Bool usedMMCS; // @synthesize usedMMCS=_usedMMCS;
-@property(readonly, nonatomic) _Bool usedPipeline; // @synthesize usedPipeline=_usedPipeline;
 
 @end
 

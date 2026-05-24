@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognitionSession, CHRecognitionSessionResult, NSObject, NSString;
-@protocol CHQueryDelegate, CHStrokeProviderVersion, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CHQuery
 {
     NSObject<OS_dispatch_queue> *_processingQueue;
-    CHRecognitionSessionResult *_currentProcessingSessionResult;
-    double _lastProcessedTime;
-    _Bool _isTearingDown;
-    _Bool __queryActive;
-    id <CHQueryDelegate> _delegate;
-    CHRecognitionSession *_recognitionSession;
-    id <CHStrokeProviderVersion> _lastProcessedStrokeProviderVersion;
-    double _preferredUpdatesInterval;
 }
 
 - (_Bool);
@@ -26,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -36,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)"16@?0@"PHExternalAssetResource"8;
 - (id);
 - (id);
 - (void);
@@ -47,19 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *debugName;
-@property(nonatomic) __weak id <CHQueryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) id <CHStrokeProviderVersion> lastProcessedStrokeProviderVersion;
-@property(nonatomic) double preferredUpdatesInterval; // @synthesize preferredUpdatesInterval=_preferredUpdatesInterval;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *processingQueue;
-@property(readonly, nonatomic) CHRecognitionSession *recognitionSession; // @synthesize recognitionSession=_recognitionSession;
-@property(readonly) Class superclass;
 
 @end
 

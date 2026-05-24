@@ -4,54 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface OS_remote_device
 {
     char *device_name;
-    char *device_alias;
-    _Bool _remotexpc_tls_enabled;
-    unsigned int _state;
-    unsigned int _type;
-    NSObject<OS_dispatch_queue> *_dq;
-    NSObject<OS_xpc_object> *_properties;
-    char *_uuid;
-    unsigned long long _device_id;
-    unsigned long long _messaging_protocol_version;
-    NSObject<OS_xpc_object> *_connection;
-    CDUnknownBlockType _connected_callback;
-    NSObject<OS_dispatch_queue> *_connected_callback_queue;
-    OS_remote_device *_connected_callback_self_retain;
-    CDUnknownBlockType _disconnected_callback;
-    NSObject<OS_dispatch_queue> *_disconnected_callback_queue;
-    OS_remote_device *_disconnected_callback_self_retain;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)&8;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ionResponse"@"NSDictionary"@"NSError">32;
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)aa_dictionaryByAddingEntriesFromDictionary: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (unsigned int);
 - (CDUnknownBlockType);
@@ -59,31 +40,15 @@
 - (char *);
 - (unsigned long long);
 - (char *);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)dataServer:executeQuery:issueServerRequest: /* Error: Ran out of types for this method. */;
 - (void);
 - (char *);
 - (void);
 - (id);
-- (void);
+- (void)c;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType connected_callback; // @synthesize connected_callback=_connected_callback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *connected_callback_queue; // @synthesize connected_callback_queue=_connected_callback_queue;
-@property(retain, nonatomic) OS_remote_device *connected_callback_self_retain; // @synthesize connected_callback_self_retain=_connected_callback_self_retain;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) char *device_alias;
-@property(nonatomic) unsigned long long device_id; // @synthesize device_id=_device_id;
 @property(readonly, nonatomic) const char *device_name;
-@property(copy, nonatomic) CDUnknownBlockType disconnected_callback; // @synthesize disconnected_callback=_disconnected_callback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *disconnected_callback_queue; // @synthesize disconnected_callback_queue=_disconnected_callback_queue;
-@property(retain, nonatomic) OS_remote_device *disconnected_callback_self_retain; // @synthesize disconnected_callback_self_retain=_disconnected_callback_self_retain;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dq; // @synthesize dq=_dq;
-@property(nonatomic) unsigned long long messaging_protocol_version; // @synthesize messaging_protocol_version=_messaging_protocol_version;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *properties; // @synthesize properties=_properties;
-@property(nonatomic) _Bool remotexpc_tls_enabled; // @synthesize remotexpc_tls_enabled=_remotexpc_tls_enabled;
-@property(nonatomic) unsigned int state; // @synthesize state=_state;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
-@property(nonatomic) char *uuid; // @synthesize uuid=_uuid;
 
 @end
 

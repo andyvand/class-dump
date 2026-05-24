@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)entHeight;
+- (id)searchController:didAddRecipientByKeyboardSuggestionsController: /* Error: Ran out of types for this method. */;
+- (id)cachedCompactDetentHeight;
 
 @end
 

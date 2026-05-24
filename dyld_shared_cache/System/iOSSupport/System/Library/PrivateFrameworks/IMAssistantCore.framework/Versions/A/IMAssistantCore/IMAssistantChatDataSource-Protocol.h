@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class IMChat, NSArray;
 
 @protocol IMAssistantChatDataSource
+- (IMChat *);
+- (IMChat *)lain;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allExistingChats;

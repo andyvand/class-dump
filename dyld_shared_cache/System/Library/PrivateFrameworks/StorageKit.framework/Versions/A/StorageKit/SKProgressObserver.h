@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface SKProgressObserver
 {
     NSMutableArray *_messages;
-    NSProgress *_progress;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)usesSizeCacheForChineseCharacters;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *messages; // @synthesize messages=_messages;
 @property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
 
 @end

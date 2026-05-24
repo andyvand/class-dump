@@ -5,33 +5,27 @@
 //
 
 @class CKMessagePartChatItem;
-@protocol ChatKit.CKTapbackAttributionViewDelegate;
 
 @interface ChatKit.CKTapbackAttributionView
 {
     CKMessagePartChatItem *messagePartChatItem;
-    void delegate;
-    id viewModel;
-    id hostedView;
-    id transitionController;
 }
 
 - (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (void);
-- (id);
+- (id)cellFrameForTextContainer:proposedLineFragment:glyphPosition:characterIndex: /* Error: Ran out of types for this method. */;
+- (id)V_undoneEdgeConstraint;
+- (struct CGSize)ICTTUndoManager_135534566;
 - (id);
 - (void);
+- (id);
+- (id)`;
+- (void)@;
 - (void);
 - (id);
-- (void);
+- (void)Genmoji;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <ChatKit.CKTapbackAttributionViewDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) CKMessagePartChatItem *messagePartChatItem; // @synthesize messagePartChatItem;
 
 @end

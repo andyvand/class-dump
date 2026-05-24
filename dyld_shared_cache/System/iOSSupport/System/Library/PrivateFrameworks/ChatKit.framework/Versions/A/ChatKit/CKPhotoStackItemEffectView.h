@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChatKit.CKBalloonLayer, ChatKit.CKPhotoStackPhotoContentContainerView, UIView;
+@class ChatKit.CKPhotoStackPhotoContentContainerView;
 
 __attribute__((visibility("hidden")))
 @interface CKPhotoStackItemEffectView
 {
     ChatKit.CKPhotoStackPhotoContentContainerView *_contentContainerView;
-    ChatKit.CKBalloonLayer *_contentBackdropLayer;
 }
 
-- (void);
+- (void)_NSRange=QQ},N,V_beforeEndEditedRange;
 - (struct CKBalloonDescriptor_t);
-- (id);
+- (id)e;
 - (void);
 - (id);
 - (void);
@@ -26,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (id)<wpÿ­`6à@/;
 
 // Remaining properties
-@property(retain, nonatomic) ChatKit.CKBalloonLayer *contentBackdropLayer; // @synthesize contentBackdropLayer=_contentBackdropLayer;
-@property(readonly, nonatomic) struct CKBalloonDescriptor_t contentBalloonDescriptorForCurrentTraitCollection;
 @property(retain, nonatomic) ChatKit.CKPhotoStackPhotoContentContainerView *contentContainerView; // @synthesize contentContainerView=_contentContainerView;
-@property(readonly, nonatomic) UIView *contentView;
 
 @end
 

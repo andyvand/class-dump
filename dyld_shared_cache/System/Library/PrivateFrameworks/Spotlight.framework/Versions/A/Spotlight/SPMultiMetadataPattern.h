@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SPMultiMetadataPattern : SPMetadataPattern
 {
     NSArray *_patterns;
-    long long _bitCount;
 }
 
 - (void);

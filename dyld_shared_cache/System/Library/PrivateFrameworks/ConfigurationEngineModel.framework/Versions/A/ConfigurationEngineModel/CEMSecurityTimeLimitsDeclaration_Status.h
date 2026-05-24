@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)t;
 - (id);
-- (_Bool);
+- (_Bool)ssed in %@;
 
 @end
 

@@ -9,25 +9,6 @@
 @interface NewsArticles.RecipeViewerViewController
 {
     id config;
-    id styler;
-    id eventHandler;
-    id pageViewController;
-    id pageBlueprintProvider;
-    id blueprintProvider;
-    id eventManager;
-    id bundleSubscriptionManager;
-    id barButtonItemFactory;
-    id commands;
-    id navigationTitleView;
-    id _windowTitle;
-    id currentRecipeViewController;
-    id mostVisibleRecipeViewController;
-    id prewarm;
-    id _isPagingEnabled;
-    id observableScrollView;
-    id radarReporter;
-    id externalRecipeTheme;
-    id featureAvailability;
 }
 
 - (id);
@@ -36,11 +17,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)maxGroups;
 - (id)b location.;
 
 // Remaining properties
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarStyle;
 
 @end

@@ -18,9 +18,9 @@
 - (id);
 - (void);
 - (unsigned int);
+- (id)%;
 - (id);
-- (id);
-- (id);
+- (id)AMSUserNotificationAction;
 
 // Remaining properties
 @property(readonly) unsigned int logicalUnitNumber; // @synthesize logicalUnitNumber=_logicalUnitNumber;

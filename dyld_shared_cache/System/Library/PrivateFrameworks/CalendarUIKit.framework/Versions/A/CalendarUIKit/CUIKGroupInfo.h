@@ -4,54 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKSource, NSArray, NSMutableArray, NSSet, NSString;
+@class EKSource, NSMutableArray;
 
 @interface CUIKGroupInfo
 {
     NSMutableArray *_calendars;
-    unsigned long long _customGroupType;
-    NSString *_customTitle;
-    NSString *_customTitleAtBeginningOfSentence;
-    NSString *_typeTitle;
-    NSString *_title;
-    NSString *_titleForBeginningOfSentence;
-    _Bool _selected;
-    _Bool _showSelectAllButton;
-    _Bool _showAccountErrorActionButton;
-    _Bool _showAccountErrorActionButtonSpinner;
-    EKSource *_source;
-    NSString *_footer;
-    unsigned long long _accountError;
 }
 
 - (id);
-- (id))Ë©ø?;
-- (_Bool)©úgA©üoÆ¨ÿ_Öh¹v&E©(ihø¨;
-- (_Bool)ÖBÊÿÿ;
-- (_Bool)@ùi.@ùÁ"	àª!8ÿuÐµ6Ö;
+- (id);
 - (_Bool);
-- (_Bool)
-$îýw"@ù´ü7t
-@ùàªA²´ø;
-- (void)­`
-­;
-- (void)#Î<t¢<Ç<È<É<b­Ê<b­;
-- (void)È<É<b­Ê<b­;
-- (void)8Ôùªèª	Cøàª!;
-- (void)ÁÚñªñGÁÚë@;
-- (id)àªáª²òýâ;
-- (void)ö;
-- (unsigned long long)Ë?;
-- (unsigned long long)@ùéªÚð10@ù
-?×é;
-- (unsigned long long)ªñGÁÚë@;
-- (void)ªõª÷;
-- (id)ªý{G©ôOF©÷[E©ùcD©ûkC©ü@ùÿÿ_Ö#Õüøûk©ùc©÷[©ôO©ý{©ýCÿÑôªøªùªúªö;
-- (id)ëj;
-- (id)ªáªâªñªQwüò1	?×4	;
-- (id)ù
-?×è;
-- (id)ºù;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
@@ -61,8 +43,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (int);
-- (void);
+- (int)d in "/AppleInternal/Library/BuildRoots/4~CNqRugD-iyv6YGTkX35bTGSZommcUtxVPEtFxhE/Library/Caches/com.apple.xbs/TemporaryDirectory.vrZUgA/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm" at line 1145
+;
+- (void);
 - (id);
 - (void)2B40;
 - (id)´`ô;
@@ -70,25 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long accountError; // @synthesize accountError=_accountError;
-@property(readonly, retain, nonatomic) NSArray *calendarInfos;
-@property(readonly, copy, nonatomic) NSSet *calendarSet;
-@property(retain, nonatomic) NSString *footer; // @synthesize footer=_footer;
-@property(readonly, nonatomic) _Bool isSubscribed;
-@property(readonly, nonatomic) unsigned long long numCalendars;
-@property(readonly, nonatomic) unsigned long long numSelectableCalendars;
-@property(readonly, nonatomic) unsigned long long numSelectedCalendars;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(readonly, copy, nonatomic) NSSet *selectedCalendarSet;
-@property(nonatomic) _Bool showAccountErrorActionButton; // @synthesize showAccountErrorActionButton=_showAccountErrorActionButton;
-@property(nonatomic) _Bool showAccountErrorActionButtonSpinner; // @synthesize showAccountErrorActionButtonSpinner=_showAccountErrorActionButtonSpinner;
-@property(readonly, nonatomic) _Bool showAddCalendarButton;
-@property(readonly, nonatomic) _Bool showCalendarNameIfSolitary;
-@property(nonatomic) _Bool showSelectAllButton; // @synthesize showSelectAllButton=_showSelectAllButton;
-@property(readonly, nonatomic) int sortOrder;
 @property(retain, nonatomic) EKSource *source; // @synthesize source=_source;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, copy, nonatomic) NSString *typeTitle;
 
 @end
 

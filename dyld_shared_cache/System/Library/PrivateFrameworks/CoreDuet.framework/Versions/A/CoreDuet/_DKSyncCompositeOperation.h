@@ -6,28 +6,24 @@
 
 #import <CoreDuet/_DKSyncOperation.h>
 
-@class NSHashTable, NSMutableArray;
+@class NSMutableArray;
 
 @interface _DKSyncCompositeOperation : _DKSyncOperation
 {
     _DKSyncCompositeOperation *_parent;
-    _Atomic _Bool _isReadyToStart;
-    NSHashTable *_children;
-    struct os_unfair_lock_s _lock;
-    NSMutableArray *_errors;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)a#;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)twWCmmM9I0dxwv7Zs9v48Q;
 - (void)
 × ;
 - (_Bool)t';

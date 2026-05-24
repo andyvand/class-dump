@@ -4,13 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TSUColor;
+@class NSArray, TSDGradientStop;
 
 @protocol TSDGradientStopContainer
+- (void)CannotLoadAutoPlayArtwork;
+- (void)aredListening.m;
+- (void)QueueEventContentAdded:(unsigned long long)arg1 %p container=%@ items=%@>;
+- (void)missing underlyingError;
+- (void)rack"8q16^B24;
+- (void)failed;
+- (void)Download:%@ /* Error: Ran out of types for this method. */;
+- (TSDGradientStop *)e accumulated result from legacy PIA;
+- (void)r_Legacy.m;
+- (void);
+- (TSDGradientStop *);
+- (void)ed;
 
 // Remaining properties
-@property(retain, nonatomic) TSUColor *firstColor;
 @property(retain, nonatomic) NSArray *gradientStops;
-@property(retain, nonatomic) TSUColor *lastColor;
 @end
 

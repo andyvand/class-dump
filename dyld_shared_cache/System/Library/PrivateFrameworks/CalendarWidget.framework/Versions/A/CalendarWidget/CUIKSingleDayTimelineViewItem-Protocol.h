@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @protocol CUIKSingleDayTimelineViewItem
+- (struct CGRect);
+- (struct CGRect);
+- (void);
+- (NSDate *);
+- (double)FirstFrameMin;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *end;
-@property(readonly, nonatomic) double enoughHeightForOneLine;
-@property(readonly, nonatomic) NSString *eventIdentifier;
-@property(readonly, nonatomic) _Bool hideTravelTime;
-@property(readonly, nonatomic) NSDate *start;
 @property(readonly, nonatomic) NSDate *startWithTravelTime;
-@property struct CGRect unPinnedViewFrame;
-@property(readonly, nonatomic) double viewMaxNaturalTextHeight;
-@property(readonly) _Bool visibleHeightLocked;
 @end
 

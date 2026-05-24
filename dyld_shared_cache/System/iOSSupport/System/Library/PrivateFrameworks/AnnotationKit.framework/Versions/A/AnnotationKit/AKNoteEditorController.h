@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKNoteEditorViewController, AKPopupAnnotation, NSString;
-@protocol AKNoteEditorControllerDelegate;
+@class AKNoteEditorViewController, AKPopupAnnotation;
 
 @interface AKNoteEditorController
 {
     AKPopupAnnotation *_annotation;
-    id <AKNoteEditorControllerDelegate> _delegate;
-    AKNoteEditorViewController *_contentViewController;
 }
 
+- (void)9	;
 - (void);
-- (void);
+- (id)@9	;
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (double);
 - (void);
-- (id);
-- (void);
+- (id)c;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,17 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AKPopupAnnotation *annotation; // @synthesize annotation=_annotation;
 @property(retain) AKNoteEditorViewController *contentViewController; // @synthesize contentViewController=_contentViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKNoteEditorControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *editedText;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

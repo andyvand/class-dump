@@ -7,7 +7,6 @@
 @interface SoundAnalysis.SNVGGishExtractor
 {
     id graphImpl;
-    id blockSize;
 }
 
 - (id);

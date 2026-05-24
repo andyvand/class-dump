@@ -6,48 +6,34 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIResponder, UITextMagnifierTimeWeightedPoint;
-@protocol UITextInput;
-
 __attribute__((visibility("hidden")))
 @interface UITextMagnifier : UIView
 {
     UIView *_target;
-    struct CGPoint _magnificationPoint;
-    struct CGPoint _animationPoint;
-    struct CGPoint _terminalPoint;
-    _Bool _terminalPointPlacedCarefully;
-    UIResponder<UITextInput> *_text;
-    UITextMagnifierTimeWeightedPoint *_weightedPoint;
-    UIView *_magnifierRenderer;
-    UIView *_autoscrollRenderer;
-    int _autoscrollDirections;
-    _Bool _isAnimating;
-    long long _delayedAnimationType;
 }
 
 + (Class);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)requestWatchdogForMessageGuid:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)etionHandler:(id)arg1;
+- (void)moveAssetFromRecord: /* Error: Ran out of types for this method. */;
+- (_Bool)imageForDescriptor: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)image;
+- (void)account:registrationStatusInfoChanged: /* Error: Ran out of types for this method. */;
+- (void)_errorIndicatesDeviceNotGoodForSync:(struct CGPoint)arg1;
+- (void)initWithAccount:(int)arg1 idsTrustedData: /* Error: Ran out of types for this method. */;
+- (void)egistry",&,N,V_chatRegistry;
 - (void);
 - (double);
 - (struct CGPoint);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
-- (struct CGPoint);
+- (void)te, and we stopped syncing due to bad account status.;
+- (void)enabled:(CDUnknownBlockType)arg1 %@;
+- (void)token "%@" from senderHandleID "%@";
+- (void)limits due to default TranscodeSizeLimitsKB:(%lu, %lu) to (%lu, %lu) /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ing file transfer GUID, using 0 as the message part index.;
+- (void)tartFMLSessionMonitoring:kicking off initial updates. /* Error: Ran out of types for this method. */;
+- (void)ck. updateFriend:%@, updateType:%lu /* Error: Ran out of types for this method. */;
+- (struct CGPoint)k;
 - (void);
 - (void);
 - (_Bool);
@@ -58,19 +44,12 @@ __attribute__((visibility("hidden")))
 - (id)N,V_imageReservation;
 - (void)w;
 - (void)Rîÿ;
-- (void)UsableForVFD;
+- (void)velocityUsableForVFD;
 - (void)@e;
 - (void)A;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint animationPoint; // @synthesize animationPoint=_animationPoint;
-@property(readonly, nonatomic) _Bool isHorizontal;
-@property(nonatomic) struct CGPoint magnificationPoint; // @synthesize magnificationPoint=_magnificationPoint;
-@property(readonly, nonatomic) double offsetFromMagnificationPoint;
 @property(retain, nonatomic) UIView *target; // @synthesize target=_target;
-@property(readonly, nonatomic) struct CGPoint terminalPoint; // @synthesize terminalPoint=_terminalPoint;
-@property(readonly, nonatomic) _Bool terminalPointPlacedCarefully; // @synthesize terminalPointPlacedCarefully=_terminalPointPlacedCarefully;
-@property(retain, nonatomic) UIResponder<UITextInput> *text; // @synthesize text=_text;
 
 @end
 

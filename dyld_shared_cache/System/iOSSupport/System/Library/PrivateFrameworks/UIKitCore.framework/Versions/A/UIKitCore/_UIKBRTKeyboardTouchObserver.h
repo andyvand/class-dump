@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _UIKBRTKeyboardTouchObserver
 {
     int _homeRowOffsetIndex;
-    NSArray *_rowOffsets;
-    NSArray *_rowXEdges;
-    NSArray *_rowYEdgesLeft;
-    NSArray *_rowYEdgesRight;
-    struct CGPoint _fCenter;
-    struct CGPoint _jCenter;
-    struct CGSize _keySize;
 }
 
 - (void);
@@ -34,25 +25,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (void)updateAttachment:(id)arg1;
+- (int)isValidJSONObject: /* Error: Ran out of types for this method. */;
+- (void)_addSnapNameKeysToReportMessageDictionary:(struct CGPoint)arg1 forSender:(double)arg2;
+- (void)_addOriginatedMessage:(struct CGPoint)arg1;
+- (struct CGPoint)entifier = %@; toIdentifier = %@; isFromMe = %@; command = %ld>;
+- (struct CGPoint)downloading but allowDownload was %@.;
 - (void);
 - (struct CGSize);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint fCenter; // @synthesize fCenter=_fCenter;
-@property(nonatomic) int homeRowOffsetIndex; // @synthesize homeRowOffsetIndex=_homeRowOffsetIndex;
-@property(nonatomic) struct CGPoint jCenter; // @synthesize jCenter=_jCenter;
-@property(nonatomic) struct CGSize keySize; // @synthesize keySize=_keySize;
-@property(retain, nonatomic) NSArray *rowOffsets; // @synthesize rowOffsets=_rowOffsets;
-@property(retain, nonatomic) NSArray *rowXEdges; // @synthesize rowXEdges=_rowXEdges;
-@property(retain, nonatomic) NSArray *rowYEdgesLeft; // @synthesize rowYEdgesLeft=_rowYEdgesLeft;
-@property(retain, nonatomic) NSArray *rowYEdgesRight; // @synthesize rowYEdgesRight=_rowYEdgesRight;
 
 @end
 

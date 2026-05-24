@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, CKUserIdentityLookupInfo, NSArray, NSData, NSPersonNameComponents, NSString;
-
 @interface CKUserIdentity
 {
     _Bool _hasiCloudAccount;
-    _Bool _isCached;
-    CKUserIdentityLookupInfo *_lookupInfo;
-    NSArray *_contactIdentifiers;
-    CKRecordID *_userRecordID;
-    NSPersonNameComponents *_nameComponents;
-    NSData *_publicSharingKey;
-    unsigned long long _publicKeyVersion;
-    NSData *_outOfNetworkPrivateKey;
-    NSData *_encryptedPersonalInfo;
-    NSString *_firstName;
-    NSString *_lastName;
 }
 
 + (_Bool);

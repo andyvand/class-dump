@@ -7,32 +7,24 @@
 @interface _PSBackgroundProcessingMetrics
 {
     double _processingTime;
-    long long _status;
-    unsigned long long _fetchedInteractionCount;
-    unsigned long long _processedInteractionCount;
-    unsigned long long _updatedInteractionCount;
 }
 
-+ (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
++ (void)_appFreqForPhoneCall;
+- (unsigned long long)_executorAppIntentTask;
+- (void)_entitiesCollected;
+- (void)_editDistance;
+- (void)_eagerStatus;
+- (void)_correctedPronunciation;
+- (double)_componentInvocationSource;
+- (unsigned long long)_componentIds;
+- (unsigned long long)_accessibility;
+- (void)P;
 - (id);
-- (id);
+- (id)e;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long fetchedInteractionCount; // @synthesize fetchedInteractionCount=_fetchedInteractionCount;
-@property(nonatomic) unsigned long long processedInteractionCount; // @synthesize processedInteractionCount=_processedInteractionCount;
 @property(nonatomic) double processingTime; // @synthesize processingTime=_processingTime;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long updatedInteractionCount; // @synthesize updatedInteractionCount=_updatedInteractionCount;
 
 @end
 

@@ -6,27 +6,19 @@
 
 #import <AppKit/NSPopoverTouchBarItem.h>
 
-@class NSArray, _NSUserDefinedTouchBarItem;
-
 __attribute__((visibility("hidden")))
 @interface _NSLastActionPopoverTouchBarItem : NSPopoverTouchBarItem
 {
     long long _lastIndex;
-    _NSUserDefinedTouchBarItem *_mainItem;
-    NSArray *_internalItems;
-    _Bool _remembersLastAction;
-    _Bool _hasGroupImage;
-    _Bool _dynamicItems;
-    SEL _selector;
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)) failed;
+- (_Bool)x;
 - (void);
 - (void);
+- (void)dTask"24@0:(id)arg1 8@"NSURLRequest"16;
+- (void)est">40;
 - (void);
 - (id);
 

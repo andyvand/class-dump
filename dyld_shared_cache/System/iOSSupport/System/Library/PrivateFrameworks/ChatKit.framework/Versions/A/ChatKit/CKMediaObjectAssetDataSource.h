@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL;
-@protocol PXDisplayAssetCollection;
+@class NSString;
 
 @interface CKMediaObjectAssetDataSource
 {
     _Bool _hasCheckedForMomentShareURL;
-    _Bool _hasCollectedItemsCount;
-    NSURL *_momentShareURL;
-    NSArray *_mediaObjects;
-    NSString *_parentChatItemGUID;
-    NSArray *_chatItems;
-    NSDictionary *_chatItemGUIDMap;
-    NSArray *_displayAssets;
-    id <PXDisplayAssetCollection> _assetCollection;
-    CDStruct_aa0b146f _assetTypeCounts;
 }
 
+- (id)descendantRangeForUUID:(id)arg1;
+- (void)setBorderWidth:(id)arg1;
+- (void)SArray",C,N,V_attachmentsToLoad;
+- (void)tePicker",W,V_datePicker;
 - (id);
-- (void);
-- (void);
-- (void);
+- (id)Body;
 - (id);
 - (id);
+- (id)e;
+- (struct PXSimpleIndexPath)n;
+- (id);
+- (id)o;
 - (id);
 - (id);
-- (id);
+- (id)rge;
 - (struct PXSimpleIndexPath);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (struct PXSimpleIndexPath);
-- (CDStruct_aa0b146f);
+- (CDStruct_14f26992);
 - (long long);
 - (id);
-- (void);
+- (void)';
 - (id);
 - (void);
 - (id);
@@ -51,13 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <PXDisplayAssetCollection> assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) CDStruct_aa0b146f assetTypeCounts; // @synthesize assetTypeCounts=_assetTypeCounts;
-@property(retain, nonatomic) NSDictionary *chatItemGUIDMap; // @synthesize chatItemGUIDMap=_chatItemGUIDMap;
-@property(retain, nonatomic) NSArray *chatItems; // @synthesize chatItems=_chatItems;
-@property(retain, nonatomic) NSArray *displayAssets; // @synthesize displayAssets=_displayAssets;
-@property(readonly, nonatomic) NSArray *mediaObjects; // @synthesize mediaObjects=_mediaObjects;
-@property(readonly, nonatomic) NSURL *momentShareURL; // @synthesize momentShareURL=_momentShareURL;
 @property(retain, nonatomic) NSString *parentChatItemGUID; // @synthesize parentChatItemGUID=_parentChatItemGUID;
 
 @end

@@ -12,29 +12,27 @@
     NSObject<OS_os_log> *_loggingConnection;
 }
 
-+ (id);
-+ (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)modifiers;
++ (unsigned long long)extrasMenuBarController;
++ (id)addPointer:(unsigned long long)arg1;
++ (id)_signalSharedKeyboardFocusedElementSelectedElementsChanged:(id)arg1 elementInfo: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id)C;
 - (_Bool);
+- (id)__AUTH_CONST;
 - (id);
+- (id)_signalForElement:(id)arg1 stringDeleted:wasSelected:editTracker: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)t Less from Bookmarks;
 - (void)lu
 ;
 - (id)¿;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(readonly, nonatomic) _Bool supportsFutureLookup;
 @property(readonly, nonatomic) unsigned long long triggerType;
 
 @end

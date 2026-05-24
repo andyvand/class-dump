@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOURLCamera, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOStorageCameraView
 {
     PBUnknownFields *_unknownFields;
-    GEOURLCamera *_camera;
-    int _mapType;
-    struct {
-        unsigned int has_mapType:1;
-    } _flags;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)setMatchedUsingName:(id)arg1;
+- (_Bool)Set;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)audioSessionActivated;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -35,20 +30,16 @@
 - (void);
 - (void);
 - (id)"read_layers"b1"read_region"b1"read_supportedLanguages"b1"wrote_anyField"b1};
-- (id)gEventName;
-- (id)ePath;
-- (id)_TRAILING_ENTITY_TYPE_ADD_STOP;
-- (_Bool);
+- (id)hasMatchedUsingEventName;
+- (id)_GEOCoordinatePath;
+- (id)PLACE_SUMMARY_LAYOUT_TRAILING_ENTITY_TYPE_ADD_STOP;
+- (_Bool)address_recommendation_result;
 - (void);
 - (void)ø;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOURLCamera *camera;
 @property(readonly, nonatomic) _Bool hasCamera;
-@property(nonatomic) _Bool hasMapType;
-@property(nonatomic) int mapType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

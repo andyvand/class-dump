@@ -11,8 +11,6 @@
 @interface BRShareCopyDocumentURLForRecordID : BRShareOperation
 {
     CKRecordID *_recordID;
-    _Bool _withServerLookup;
-    CDUnknownBlockType _copyDocumentURLCompletionBlock;
 }
 
 - (void);

@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (id);
+- (id)tQ;
 - (id);
 - (void)Suica Card - Transfer;
 

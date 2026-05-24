@@ -20,32 +20,26 @@
 - (void);
 - (void);
 - (void);
+- (id)ventKitImporter:deleted all extractions /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)meForKeyplaneName:(id)arg1;
-- (id)inItemSet:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ModifierFlags:(id)arg1 keyEquivalent: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)endIncreasingRelativeVolume;
+- (id)nStatus has not been determined, %{public}@;
+- (void)splitNameForKeyplaneName:(id)arg1;
+- (id)detectValuesForPatterns:inItemSet:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)combinationWithModifierFlags:(id)arg1 keyEquivalent: /* Error: Ran out of types for this method. */;
 - (void)ür<s;
 - (id)¬$;
 - (void)Æ%îÿþÿ;
-- (unsigned long long)Entry;
+- (unsigned long long)locationEntry;
 - (id);
 - (id);
 - (id)pØÐu];
 
 // Remaining properties
-@property(copy, nonatomic) NSString *familyName;
 @property(copy, nonatomic) NSString *givenName;
-@property(copy, nonatomic) NSString *nickname;
-@property(copy, nonatomic) NSString *organizationName;
-@property(copy, nonatomic) NSString *phoneticFamilyName;
-@property(copy, nonatomic) NSString *phoneticGivenName;
-@property(copy, nonatomic) NSString *phoneticOrganizationName;
 
 @end
 

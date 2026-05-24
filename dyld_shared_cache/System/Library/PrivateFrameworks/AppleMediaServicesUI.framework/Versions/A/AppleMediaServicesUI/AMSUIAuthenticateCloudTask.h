@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSAuthenticateRequest, CDPStateUIController, NSViewController;
+@class CDPStateUIController;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIAuthenticateCloudTask
 {
     CDPStateUIController *_cdpUIController;
-    AMSAuthenticateRequest *_authRequest;
-    NSViewController *_presentingViewController;
 }
 
 - (void);
@@ -23,12 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)tFallbackBlock: /* Error: Ran out of types for this method. */;
+- (void)setFallbackBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) AMSAuthenticateRequest *authRequest; // @synthesize authRequest=_authRequest;
 @property(retain) CDPStateUIController *cdpUIController; // @synthesize cdpUIController=_cdpUIController;
-@property(retain) NSViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
 
 @end
 

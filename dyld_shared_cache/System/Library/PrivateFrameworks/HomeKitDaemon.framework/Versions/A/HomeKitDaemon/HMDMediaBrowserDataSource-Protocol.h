@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2AccessoryServerDiscoveryBonjour, HMDDevice, HMFProductInfo, HMFSystemInfo, NSString;
+@class HAP2AccessoryServerDiscoveryBonjour, HMDDevice, HMFProductInfo, NSString;
+@protocol HMDMRAVRoutingDiscoverySession;
 
 @protocol HMDMediaBrowserDataSource
+- (unsigned long long)Tq,N,V_startYear;
+- (NSString *)nconsistency, quitting Screen Sharing;
+- (HMFProductInfo *);
+- (id <HMDMRAVRoutingDiscoverySession>)?2;
 - (unsigned long long);
 - (_Bool)
 × ;
@@ -15,16 +20,6 @@
 - (HAP2AccessoryServerDiscoveryBonjour *)ry found for removed service notification:%s for service:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) HAP2AccessoryServerDiscoveryBonjour *airPlayBonjourBrowser;
-@property(readonly) unsigned long long appleMediaAccessoryVariant;
 @property(readonly) NSString *currentAccessoryMediaRouteIdentifier;
-@property(readonly) HMDDevice *currentDevice;
-@property(readonly) _Bool isAppleMediaAccessory;
-@property(readonly) HMFProductInfo *productInfo;
-@property(readonly) _Bool requiresHH2Pairing;
-@property(readonly) _Bool requiresHomePodGeneration2Pairing;
-@property(readonly) _Bool requiresHomePodMiniPairing;
-@property(readonly) unsigned long long supportedStereoPairVersions;
-@property(readonly) HMFSystemInfo *systemInfo;
 @end
 

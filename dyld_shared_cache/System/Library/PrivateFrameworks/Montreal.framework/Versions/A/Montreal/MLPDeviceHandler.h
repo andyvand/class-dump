@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLCommandQueue, MTLDevice;
+@protocol MTLDevice;
 
 @interface MLPDeviceHandler
 {
     struct mersenne_twister_engine<unsigned int, 32UL, 624UL, 397UL, 31UL, 2567483615U, 11UL, 4294967295U, 7UL, 2636928640U, 15UL, 4022730752U, 18UL, 1812433253U> weightSeed;
-    id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    unsigned long long _dataLayout;
 }
 
 - (id);
@@ -33,13 +30,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (void);
-- (id)r: /* Error: Ran out of types for this method. */;
+- (id)setDestinationArrayAllocator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
-@property(readonly) unsigned long long dataLayout; // @synthesize dataLayout=_dataLayout;
 @property(readonly) id <MTLDevice> device; // @synthesize device=_device;
 
 @end

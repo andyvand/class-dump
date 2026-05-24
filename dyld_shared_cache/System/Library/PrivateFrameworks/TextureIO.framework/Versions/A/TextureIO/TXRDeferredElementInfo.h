@@ -11,12 +11,11 @@ __attribute__((visibility("hidden")))
 @interface TXRDeferredElementInfo
 {
     NSObject<OS_dispatch_semaphore> *_infoLoaded;
-    NSMutableArray *_faces;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)H1E1H'F;
+- (id)/1H;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *faces; // @synthesize faces=_faces;

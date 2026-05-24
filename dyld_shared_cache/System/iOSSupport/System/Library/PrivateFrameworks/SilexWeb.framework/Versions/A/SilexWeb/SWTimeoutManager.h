@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFStateMachine, NSMutableArray, NSString, NSTimer;
+@class NSMutableArray;
 
 @interface SWTimeoutManager
 {
     NSMutableArray *_timeoutBlocks;
-    NFStateMachine *_stateMachine;
-    NSTimer *_timer;
 }
 
-- (id);
+- (id)-Am;
 - (void);
 - (id);
 - (void);
@@ -23,16 +21,7 @@
 - (id)ü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NFStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMutableArray *timeoutBlocks; // @synthesize timeoutBlocks=_timeoutBlocks;
-@property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

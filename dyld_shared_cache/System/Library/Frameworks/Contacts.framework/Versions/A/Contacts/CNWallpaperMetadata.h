@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CNWallpaperMetadata
 {
     _Bool _vertical;
-    NSDictionary *_fontDescription;
-    NSDictionary *_fontColorDescription;
-    NSDictionary *_backgroundColorDescription;
-    NSString *_extensionBundleID;
-    NSString *_identifier;
 }
 
 + (_Bool);
@@ -25,29 +20,23 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)۟;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)ingForContainer:(id)arg1 size:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id))4;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *backgroundColorDescription; // @synthesize backgroundColorDescription=_backgroundColorDescription;
-@property(readonly, nonatomic) NSData *dataRepresentation;
-@property(retain, nonatomic) NSString *extensionBundleID; // @synthesize extensionBundleID=_extensionBundleID;
-@property(retain, nonatomic) NSDictionary *fontColorDescription; // @synthesize fontColorDescription=_fontColorDescription;
 @property(retain, nonatomic) NSDictionary *fontDescription; // @synthesize fontDescription=_fontDescription;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=isVertical) _Bool vertical; // @synthesize vertical=_vertical;
 
 @end
 

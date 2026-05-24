@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface _DPPINEShardResult
 {
     void publicShare;
-    void inputShares;
-    void nonce;
-    unsigned int dimension;
-    unsigned int chunkLength;
-    unsigned int chunkLengthNormEquality;
-    unsigned long long l2NormBoundInt;
-    long long fractionalBitCount;
 }
 
 - (unsigned long long);
@@ -24,20 +17,13 @@
 - (long long);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id)_getAllProviders:userVisibleProviders:newDefaultProvider:newPrivateProvider: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (unsigned int)must be provided, and cannot be 0.;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned int chunkLength; // @synthesize chunkLength;
-@property(nonatomic, readonly) unsigned int chunkLengthNormEquality; // @synthesize chunkLengthNormEquality;
-@property(nonatomic, readonly) unsigned int dimension; // @synthesize dimension;
-@property(nonatomic, readonly) long long fractionalBitCount; // @synthesize fractionalBitCount;
-@property(nonatomic, readonly) NSArray *inputShares;
-@property(nonatomic, readonly) unsigned long long l2NormBoundInt; // @synthesize l2NormBoundInt;
-@property(nonatomic, readonly) NSData *nonce;
 @property(nonatomic, readonly) NSData *publicShare;
 
 @end

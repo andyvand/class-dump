@@ -9,8 +9,6 @@
 @interface CXSetMutedCallAction : CXCallAction
 {
     _Bool _muted;
-    _Bool _bottomUpMute;
-    _Bool _systemInitiated;
 }
 
 + (_Bool);
@@ -23,15 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)shows;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isBottomUpMute) _Bool bottomUpMute; // @synthesize bottomUpMute=_bottomUpMute;
-@property(nonatomic, getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property(nonatomic, getter=isSystemInitiated) _Bool systemInitiated; // @synthesize systemInitiated=_systemInitiated;
 
 @end
 

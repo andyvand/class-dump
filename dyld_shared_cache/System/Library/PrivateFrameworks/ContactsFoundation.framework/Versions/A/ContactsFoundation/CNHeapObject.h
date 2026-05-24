@@ -9,9 +9,6 @@
 @interface CNHeapObject
 {
     NSString *_className;
-    NSString *_binary;
-    unsigned long long _count;
-    unsigned long long _bytes;
 }
 
 - (void);
@@ -27,10 +24,7 @@
 - (id)ýÿ±È;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *binary; // @synthesize binary=_binary;
-@property(nonatomic) unsigned long long bytes; // @synthesize bytes=_bytes;
 @property(retain, nonatomic) NSString *className; // @synthesize className=_className;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
 
 @end
 

@@ -4,33 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, AMSUIWebAction, AMSUIWebClientContext, AMSUIWebNavigationBarModel, NSArray, NSNumber, NSString;
+@class AMSUIWebClientContext, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebDiagnosticsPageModel
 {
     NSString *_backgroundColor;
-    AMSMetricsEvent *_impressionEvent;
-    AMSUIWebNavigationBarModel *_navigationBar;
-    long long _userInterfaceStyle;
-    NSString *_sessionToken;
-    NSArray *_requiredSerialNumbers;
-    NSArray *_selectableSerialNumbers;
-    NSNumber *_destination;
-    NSString *_flowSessionID;
-    NSString *_flowSerialNumber;
-    NSString *_passcode;
-    NSString *_countryCode;
-    AMSUIWebClientContext *_context;
-    struct CGSize _windowSize;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)d in query;
+- (void)for query:(id)arg1 %{public}@;
+- (void)'s handled elsewhere);
+- (void)}@ (is this the region dict? that's handled elsewhere);
+- (id)ASSET_VERSION_DOWNLOADED;
+- (id)pple.keyboard.dataDeliveryServices.;
 - (id);
 - (id);
 - (id);
@@ -38,16 +25,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
+- (void)wnloadForAsset:(id)arg1 resourceType:masterResourceOnly:highPriority:track:notify:transient:proposedTaskIdentifier:doneToken:error:] /* Error: Ran out of types for this method. */;
+- (id)cameraModel;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);س;
 - (void);
 - (void)RLSessionTask"24@"NSError"32;
 - (id)D;
@@ -56,32 +43,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)(Äòÿ5)=ïÿý(=ïÿ=)=ïÿý(=;
 
 // Remaining properties
-@property(readonly) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(retain) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(retain) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSNumber *destination; // @synthesize destination=_destination;
-@property(readonly) _Bool disableReappearPlaceholder;
-@property(retain) NSString *flowSerialNumber; // @synthesize flowSerialNumber=_flowSerialNumber;
-@property(retain) NSString *flowSessionID; // @synthesize flowSessionID=_flowSessionID;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSMetricsEvent *impressionEvent; // @synthesize impressionEvent=_impressionEvent;
-@property(readonly) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
-@property(retain) NSString *passcode; // @synthesize passcode=_passcode;
-@property(retain) NSArray *requiredSerialNumbers; // @synthesize requiredSerialNumbers=_requiredSerialNumbers;
-@property(retain) NSArray *selectableSerialNumbers; // @synthesize selectableSerialNumbers=_selectableSerialNumbers;
-@property(retain) NSString *sessionToken; // @synthesize sessionToken=_sessionToken;
-@property(readonly) Class superclass;
-@property(readonly) AMSUIWebAction *swipeToDismissAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSUIWebAction",?,R
-
-@property(readonly) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
-@property(readonly) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end
 

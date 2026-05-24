@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.AssetReader.StateController
 {
     id value;
-    id stateDidChange;
 }
 
 @end

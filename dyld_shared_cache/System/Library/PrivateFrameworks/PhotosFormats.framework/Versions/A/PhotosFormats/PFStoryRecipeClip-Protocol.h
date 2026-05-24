@@ -7,17 +7,11 @@
 @class NSString;
 
 @protocol PFStoryRecipeClip
+- (CDStruct_198678f7);
+- (CDStruct_198678f7)meworks/CoreAnalytics.framework/Versions/A/CoreAnalytics;
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *assetIdentifier;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 idealDuration;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 maximumDuration;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 minimumDuration;
-@property(readonly, nonatomic) long long motionStyle;
-@property(readonly, nonatomic) long long playbackStyle;
-@property(readonly, nonatomic) long long transition;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 videoCueOffset;
 @end
 

@@ -22,13 +22,13 @@
 - (unsigned long long);
 - (void *);
 - (void);
+- (void)decomposedStringWithCompatibilityMapping;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)EWSBaseMessageResponseType;
 
 // Remaining properties
 @property(readonly) unsigned long long encodedLength;

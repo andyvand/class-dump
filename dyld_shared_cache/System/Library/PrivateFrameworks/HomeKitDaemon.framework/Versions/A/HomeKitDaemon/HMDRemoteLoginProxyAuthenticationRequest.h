@@ -6,31 +6,28 @@
 
 #import <HomeKitDaemon/HMDRemoteLoginAuthenticationRequest.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginProxyAuthenticationRequest : HMDRemoteLoginAuthenticationRequest
 {
     NSString *_username;
-    NSString *_rawPassword;
-    NSString *_passwordToken;
-    NSString *_altDSID;
 }
 
-+ (id);
-+ (id);
++ (id)musicCurationAllowExplicitMusicContent;
++ (id)enumerateSignalsFromAsset:(id)arg1 fullHierarchyName:usingBlock: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id)SSConnectionAuthenticationGuestlessViewController;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)ngActivity:(id)arg1;
+- (void)9qF;
+- (void)setRunningActivity:(id)arg1;
 - (id)oing invite for user %@;
 - (void);
 - (void)ccess power assertion
@@ -38,18 +35,6 @@ __attribute__((visibility("hidden")))
 - (id);é=;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *messageName;
-@property(readonly, nonatomic) NSDictionary *messagePayload;
-@property(retain, nonatomic) NSString *passwordToken; // @synthesize passwordToken=_passwordToken;
-@property(retain, nonatomic) NSString *rawPassword; // @synthesize rawPassword=_rawPassword;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

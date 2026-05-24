@@ -4,54 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BCInternalAuthenticationRequest, NSString;
+@class BCInternalAuthenticationRequest;
 @protocol ACAccountProtocol, ACAccountStoreProtocol;
 
 @interface BCInternalAuthenticationManager
 {
     BCInternalAuthenticationRequest *_authenticationRequest;
     id <ACAccountProtocol> _account;
-    id <ACAccountStoreProtocol> _accountStore;
 }
 
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)numberWithDouble: /* Error: Ran out of types for this method. */;
+- (id)moduleSummarySlotsForState:(id)arg1 keyPath:(id)arg2;
+- (id)moduleSummaryShowsAddButtonForState:(id)arg1;
+- (void)messageComposeViewController:(CDUnknownBlockType)arg1 didFinishWithResult: /* Error: Ran out of types for this method. */;
+- (id)loginWithUsername:password:blogURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)loadFiles;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)si;
 - (id);
 - (id);
 - (void);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)nvironment",W,N,V_templateEnvironment;
+- (void)ArrivalBatteryLevel;
 - (id)t-person-identifier;
 
 // Remaining properties
 @property(retain, nonatomic) id <ACAccountProtocol> account; // @synthesize account=_account;
 @property(retain, nonatomic) id <ACAccountStoreProtocol> accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, copy, nonatomic) NSString *action;
-@property(retain, nonatomic) BCInternalAuthenticationRequest *authenticationRequest; // @synthesize authenticationRequest=_authenticationRequest;
-@property(readonly, copy, nonatomic) NSString *firstName;
-@property(readonly, nonatomic) _Bool isUserSignedIn;
-@property(readonly, copy, nonatomic) NSString *lastName;
-@property(readonly, copy, nonatomic) NSString *middleName;
-@property(readonly, nonatomic) long long state;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, copy, nonatomic) NSString *username;
 
 @end
 

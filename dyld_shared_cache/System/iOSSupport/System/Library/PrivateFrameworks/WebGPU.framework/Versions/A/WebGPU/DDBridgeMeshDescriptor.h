@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface DDBridgeMeshDescriptor
 {
     long long vertexBufferCount;
     long long vertexCapacity;
-    void vertexAttributes;
-    void vertexLayouts;
-    long long indexCapacity;
-    unsigned long long indexType;
 }
 
 - (id);
@@ -27,12 +21,8 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long indexCapacity; // @synthesize indexCapacity;
-@property(nonatomic, readonly) unsigned long long indexType; // @synthesize indexType;
-@property(nonatomic, readonly) NSArray *vertexAttributes;
 @property(nonatomic, readonly) long long vertexBufferCount; // @synthesize vertexBufferCount;
 @property(nonatomic, readonly) long long vertexCapacity; // @synthesize vertexCapacity;
-@property(nonatomic, readonly) NSArray *vertexLayouts;
 
 @end
 

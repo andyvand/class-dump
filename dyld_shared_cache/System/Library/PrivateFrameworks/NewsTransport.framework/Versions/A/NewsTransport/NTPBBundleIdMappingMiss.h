@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (void);
+- (void)ci;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -22,10 +22,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (void)oriesMaxCount;
+- (void)hasPaywalledStoriesMaxCount;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
 @property(readonly, nonatomic) _Bool hasBundleId;
 
 @end

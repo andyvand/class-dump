@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCKServerChangeToken, NSArray;
+@class IDSCKServerChangeToken;
 
 @interface IDSCKFetchRecordZoneChangesOptions
 {
     IDSCKServerChangeToken *_previousServerChangeToken;
-    unsigned long long _resultsLimit;
-    NSArray *_desiredKeys;
 }
 
 + (Class);
 + (id)Õ±ÿ;
 - (void);
-- (id);
+- (id)4@"NSUUID"32;
 - (void);
 - (id);
-- (void)QuickSwitch;
+- (void)MessagesQuickSwitch;
 - (unsigned long long);
 - (void)ègÖÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
 @property(copy, nonatomic) IDSCKServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
 
 @end
 

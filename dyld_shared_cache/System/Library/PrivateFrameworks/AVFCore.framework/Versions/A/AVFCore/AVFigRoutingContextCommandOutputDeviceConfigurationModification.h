@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVFigRoutingContextCommandOutputDeviceConfigurationModification
 {
@@ -15,23 +13,16 @@ __attribute__((visibility("hidden")))
 + (void)at are numerically greater than %@;
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct __CFDictionary *);
 - (void);
-- (void);
+- (void)|o;
 - (void);
 - (id);
 - (void)andling>",W;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct __CFDictionary *routingContextCommandPayload; // @synthesize routingContextCommandPayload=_payload;
-@property(readonly) Class superclass;
 
 @end
 

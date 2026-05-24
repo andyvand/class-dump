@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 
 - (struct UIEdgeInsets);
 - (double);
-- (double);
-- (id);
-- (double);
-- (double);
+- (double)ipeline;
+- (id)rking row %lld as failed to upload ***;
+- (double), filtered to %lu;
+- (double)__kIMDManagedPreferencesChangedNotification;
 - (double);
 
 @end

@@ -7,12 +7,13 @@
 @class NSView;
 
 @protocol NSTextFinderBarContainer
+- (_Bool)s7nuHoZIYNoOHCqT9iyZkQ;
+- (NSView *);
 
 @optional
 - (NSView *);
 
 // Remaining properties
 @property(retain) NSView *findBarView;
-@property(getter=isFindBarVisible) _Bool findBarVisible;
 @end
 

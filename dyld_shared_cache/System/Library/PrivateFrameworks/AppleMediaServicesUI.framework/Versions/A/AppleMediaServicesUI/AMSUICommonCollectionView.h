@@ -5,7 +5,6 @@
 //
 
 @class AMSUICommonCollectionViewHandler;
-@protocol AMSUICommonCollectionViewDelegate, NSCollectionViewDelegate;
 
 @interface AMSUICommonCollectionView
 {
@@ -19,12 +18,10 @@
 - (void);
 - (id);
 - (id);
-- (void)nt: /* Error: Ran out of types for this method. */;
-- (void)SecureCoding_p;
+- (void)setPlacement: /* Error: Ran out of types for this method. */;
+- (void)So14NSSecureCoding_p;
 
 // Remaining properties
-@property __weak id <AMSUICommonCollectionViewDelegate> commonDelegate;
-@property __weak id <NSCollectionViewDelegate> delegate; // @dynamic delegate;
 @property(readonly) AMSUICommonCollectionViewHandler *handler; // @synthesize handler=_handler;
 
 @end

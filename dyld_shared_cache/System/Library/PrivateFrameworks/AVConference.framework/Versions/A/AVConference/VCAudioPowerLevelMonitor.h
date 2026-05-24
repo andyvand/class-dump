@@ -11,13 +11,6 @@ __attribute__((visibility("hidden")))
 @interface VCAudioPowerLevelMonitor
 {
     unsigned int startDetectRemoteAudioLowPowerTime;
-    float audioPowerThreshold;
-    unsigned int audioLowPowerTimeInterval;
-    _Bool isAudioPowerBelowThreshold;
-    _Bool isAudioPowerMovingAverage;
-    float audioPowerMovingAverageCoefficient;
-    float currentAudioAverage;
-    NSObject<VCAudioPowerLevelMonitorDelegate> *delegate;
 }
 
 - (void);

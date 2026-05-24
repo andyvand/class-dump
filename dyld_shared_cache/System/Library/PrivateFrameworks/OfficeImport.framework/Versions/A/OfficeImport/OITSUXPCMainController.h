@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCountedSet;
 
 __attribute__((visibility("hidden")))
 @interface OITSUXPCMainController
 {
     NSCountedSet *mConnectionHandlers;
-    NSObject<OS_dispatch_queue> *mConnectionHandlersQueue;
-    CDUnknownBlockType mConnectionHandlerBlock;
 }
 
 + (id);

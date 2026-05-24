@@ -7,7 +7,7 @@
 @class NSDictionary;
 
 @protocol AXDictionaryRepresentable
-- (NSDictionary *)idConfigurationWithSize: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)_computeGridConfigurationWithSize: /* Error: Ran out of types for this method. */;
 - (id)è;
 @end
 

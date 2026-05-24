@@ -11,19 +11,17 @@
 @interface MUIMessageListInstantAnswerSectionDataSource : MUIMessageListSearchSectionDataSource
 {
     _Bool _didAddInstantAnswer;
-    EMInstantAnswer *_instantAnswer;
 }
 
 - (void);
-- (id);
+- (id)H;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)DraggedTypes: /* Error: Ran out of types for this method. */;
+- (void)registerForDraggedTypes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool didAddInstantAnswer; // @synthesize didAddInstantAnswer=_didAddInstantAnswer;
 @property(retain, nonatomic) EMInstantAnswer *instantAnswer; // @synthesize instantAnswer=_instantAnswer;
 
 @end

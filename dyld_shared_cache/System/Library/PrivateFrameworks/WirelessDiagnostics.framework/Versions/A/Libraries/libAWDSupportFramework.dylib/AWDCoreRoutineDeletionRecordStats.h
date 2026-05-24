@@ -7,18 +7,15 @@
 @interface AWDCoreRoutineDeletionRecordStats
 {
     unsigned int _ageInDays;
-    struct {
-        unsigned int ageInDays:1;
-    } _has;
 }
 
-- (void);
+- (void)kaR;
 - (void);
 - (_Bool);
 - (unsigned int);
 - (id);
 - (void);
-- (void);
+- (void)y;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -27,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int ageInDays; // @synthesize ageInDays=_ageInDays;
 @property(nonatomic) _Bool hasAgeInDays;
 
 @end

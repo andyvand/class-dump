@@ -12,21 +12,20 @@
 }
 
 - (void);
-- (void);
-- (void);
+- (void)t;
+- (void)tion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (void)OPLE_CREATED_N_COLLABORATIONS;
+- (void)N_PEOPLE_CREATED_N_COLLABORATIONS;
 - (void)Ì¨ÿekÈ¨ÿekÄ¨ÿkð/²ÿ;
 - (id)Ø9¨10;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBecomeFirstResponder;
 @property(nonatomic, readonly) NSArray *keyCommands;
 
 @end

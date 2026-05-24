@@ -6,17 +6,11 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSString, TLKLabel, TLKRichText, TLKStackView;
+@class TLKLabel;
 
 @interface TLKAuxilliaryTextView : TLKView
 {
     _Bool _useCompactMode;
-    TLKRichText *_topText;
-    TLKRichText *_middleText;
-    TLKRichText *_bottomText;
-    TLKLabel *_topLabel;
-    TLKLabel *_middleLabel;
-    TLKLabel *_bottomLabel;
 }
 
 - (_Bool);
@@ -32,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)G;
 - (void);
 - (id);
 - (id);
@@ -43,21 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TLKLabel *bottomLabel; // @synthesize bottomLabel=_bottomLabel;
-@property(retain, nonatomic) TLKRichText *bottomText; // @synthesize bottomText=_bottomText;
-@property(retain, nonatomic) TLKStackView *contentView; // @dynamic contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TLKLabel *middleLabel; // @synthesize middleLabel=_middleLabel;
-@property(retain, nonatomic) TLKRichText *middleText; // @synthesize middleText=_middleText;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) TLKLabel *topLabel; // @synthesize topLabel=_topLabel;
-@property(retain, nonatomic) TLKRichText *topText; // @synthesize topText=_topText;
-@property(nonatomic) _Bool useCompactMode; // @synthesize useCompactMode=_useCompactMode;
 
 @end
 

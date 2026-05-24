@@ -7,18 +7,6 @@
 @interface BiomeSQLParser.PgQuery_TableFunc._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _nsUris;
-    id _nsNames;
-    id _docexpr;
-    id _rowexpr;
-    id _colnames;
-    id _coltypes;
-    id _coltypmods;
-    id _colcollations;
-    id _colexprs;
-    id _coldefexprs;
-    id _notnulls;
-    id _ordinalitycol;
-    id _location;
 }
 
 @end

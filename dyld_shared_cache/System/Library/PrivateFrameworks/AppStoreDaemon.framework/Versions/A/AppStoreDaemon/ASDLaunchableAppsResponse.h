@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
-- (id)onseHandler: /* Error: Ran out of types for this method. */;
+- (id)processPurchases:withResponseHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;

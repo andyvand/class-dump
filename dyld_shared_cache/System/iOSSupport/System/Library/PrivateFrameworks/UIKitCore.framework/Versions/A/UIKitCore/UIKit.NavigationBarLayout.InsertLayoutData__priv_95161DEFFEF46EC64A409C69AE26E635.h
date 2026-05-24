@@ -4,45 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UIKit.NavigationBarLayout.InsertLayoutData__priv_95161DEFFEF46EC64A409C69AE26E635
 {
     id identifier;
-    double minimumHeight;
-    double preferredHeight;
-    _Bool isCollapsible;
-    _Bool prefersExpanded;
-    id bottomInsetForTransitionProgress;
-    id assignedHeight;
-    id collapsingHeight;
-    id _verticalOrigin;
-    id priority;
-    id order;
-    id ignoredForCollapsingBehaviors;
-    id active;
 }
 
 - (_Bool);
 - (void);
-- (id);
+- (id)setMItemCountLabel: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)ñX1Â0@ù
 × ;
 - (void)88@0:(_Bool)arg1 8@16{CGPoint=dd}24{CGAffineTransform=dddddd}40;
-- (_Bool)entViewConfigurationForState: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateContentViewConfigurationForState: /* Error: Ran out of types for this method. */;
 - (double)¢Î`;
 - (void)ù»ÿ;
 - (void)äÉfþÎÎÌDÀl;
 - (double)ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool collapsible; // @synthesize collapsible=isCollapsible;
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic) double minimumHeight; // @synthesize minimumHeight;
-@property(nonatomic) double preferredHeight; // @synthesize preferredHeight;
-@property(nonatomic) _Bool prefersExpanded; // @synthesize prefersExpanded;
 
 @end
 

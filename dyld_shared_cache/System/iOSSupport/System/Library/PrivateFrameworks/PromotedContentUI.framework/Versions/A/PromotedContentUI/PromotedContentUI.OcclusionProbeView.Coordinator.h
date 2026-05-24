@@ -7,7 +7,6 @@
 @interface PromotedContentUI.OcclusionProbeView.Coordinator
 {
     id detector;
-    id hasAttached;
 }
 
 @end

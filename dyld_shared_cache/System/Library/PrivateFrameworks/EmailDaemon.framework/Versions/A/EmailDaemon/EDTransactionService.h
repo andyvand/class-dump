@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface EDTransactionService
 {
     NSString *_serviceName;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)\[;
 - (void);
 - (id);
-- (_Bool);
+- (id);
+- (void);
+- (id);
+- (_Bool)h;
 - (void);
 - (void)nalytics_rich_link_donations_identified table;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
 @property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

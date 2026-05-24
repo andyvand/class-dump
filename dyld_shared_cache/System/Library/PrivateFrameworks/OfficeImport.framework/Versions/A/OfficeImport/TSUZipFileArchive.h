@@ -6,28 +6,24 @@
 
 #import <OfficeImport/TSUZipArchive.h>
 
-@class NSObject, NSURL, TSUZipFileDescriptorWrapper;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface TSUZipFileArchive : TSUZipArchive
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    unsigned long long _archiveLength;
-    TSUZipFileDescriptorWrapper *_fdWrapper;
-    NSURL *_temporaryDirectoryURL;
-    NSURL *_URL;
 }
 
 + (id);
 + (void);
 + (_Bool);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)s";
 - (void);
 - (_Bool);
 - (unsigned long long);

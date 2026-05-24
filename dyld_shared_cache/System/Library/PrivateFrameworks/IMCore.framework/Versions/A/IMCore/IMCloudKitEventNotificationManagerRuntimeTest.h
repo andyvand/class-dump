@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitHookTestSingleton, NSString;
-
 @interface IMCloudKitEventNotificationManagerRuntimeTest
 {
     double _previousInterval;
-    double _defaultTestDuration;
-    IMCloudKitHookTestSingleton *_cloudKitHooks;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)notified client %p RTP packet timeout;
+- (void)ume [%d];
+- (void)deoStream-resume;
+- (void)etsProc starting;
+- (void)nel count mismatch! sampleBufferChannelCount=%hhu audioPlayerChannelCount=%d;
+- (void)d=%d, payload=%d, history=%x lastSeq=%x seq=%d reset=%d;
+- (double)d AVCRemoteVideoClient callback:remoteScreenAttributesDidChange for streamToken=%d (streamToken=%u), delegate=%p /* Error: Ran out of types for this method. */;
+- (id)urrently;
+- (id)for streamToken=%u doesn't exist;
+- (void)oken=%ld;
+- (void)eoClient-init;
 - (void);
 - (void)3;
 - (void)chatGUID:%@ /* Error: Ran out of types for this method. */;
 - (void)erUserInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IMCloudKitHookTestSingleton *cloudKitHooks; // @synthesize cloudKitHooks=_cloudKitHooks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property double defaultTestDuration; // @synthesize defaultTestDuration=_defaultTestDuration;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

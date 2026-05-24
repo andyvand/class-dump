@@ -6,8 +6,8 @@
 
 @interface UnknownClass (ADCoreExtensions)
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 @end
 

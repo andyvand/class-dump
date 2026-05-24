@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     MNNavigationServicePeer *_peer;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)initWithBundleIdentifiers:(id)arg1 adamIDs:keyProfile: /* Error: Ran out of types for this method. */;
+- (id)e with defaultsPath of an unsupported class:(SEL)arg1 %{public}@;
 - (void)r"16;
 
 @end

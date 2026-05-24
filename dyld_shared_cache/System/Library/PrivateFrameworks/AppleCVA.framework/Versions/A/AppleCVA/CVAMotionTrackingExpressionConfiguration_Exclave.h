@@ -10,12 +10,12 @@
 }
 
 + (CDStruct_22a87f94);
-+ (float);
-+ (_Bool);
-+ (id);
-- (void);
-- (CDStruct_22a87f94);
-- (CDStruct_22a87f94);
++ (float)/4~CN9ougCMFlWK-bQ6x4VpErDymejfsBXW5gK4DTQ/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/System/iOSSupport/usr/local/include/wtf/RefPtr.h;
++ (_Bool)AppleIntelMEUserClient;
++ (id)edBase::~RefCountedBase() /* Error: Ran out of types for this method. */;
+- (void)aluePairKeyExtractor<WTF:(CDStruct_22a87f94)arg1:KeyValuePair<WebCore::RegistrableDomain, WTF::OptionSet<WebCore::WindowProxyProperty>>>, WTF::DefaultHash<WebCore::RegistrableDomain>, WTF::HashMap<WebCore::RegistrableDomain, WTF::OptionSet<WebCore::WindowProxyProperty>>::KeyValuePairTraits, WTF::HashTraits<WebCore::RegistrableDomain>>::validateKey(const ValueType &) [Key = WebCore::RegistrableDomain, Value = WTF::KeyValuePair<WebCore::RegistrableDomain, WTF::OptionSet<WebCore::WindowProxyProperty>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::RegistrableDomain, WTF::OptionSet<WebCore::WindowProxyProperty>>>, HashFunctions = WTF::DefaultHash<WebCore::RegistrableDomain>, Traits = WTF::HashMap<WebCore::RegistrableDomain, WTF::OptionSet<WebCore::WindowProxyProperty>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::RegistrableDomain>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (CDStruct_22a87f94)TF:(CDStruct_4dcbcf9b)arg1:HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebURLSchemeHandler>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (CDStruct_22a87f94)ePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebURLSchemeHandler>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::WebURLSchemeHandler>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebURLSchemeHandlerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) CDStruct_22a87f94 previousExpressions; // @synthesize previousExpressions=_previousExpressions;

@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CDPDAccount, NSString;
+@class CDPDAccount;
 
 @interface CDPDDefaultKeychainSyncPolicyProvider
 {
     CDPDAccount *_account;
-    CDPContext *_context;
 }
 
+- (_Bool)StartPagePrivateRelayInPrivateBrowsingCollectionViewItemDelegate;
+- (void)StartPageHighlightsSectionProvider;
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
 - (_Bool);
 - (id);
+- (_Bool)overlayFeaturesPolygonVertices:onImage:showSubFeatures: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)�;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDPDAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) CDPContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isBuddyFinished;
-@property(readonly, nonatomic) _Bool keychainSyncAllowedByMDM;
-@property(readonly, nonatomic) _Bool keychainSyncAllowedByServer;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userHasExplicitlyDisabledSync;
 
 @end
 

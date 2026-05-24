@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSDate;
 
 @interface _EFBackgroundProcessingAssertion
 {
     NSDate *_currentExpiry;
-    unsigned long long _count;
-    unsigned long long _resetCount;
-    struct os_unfair_lock_s _lock;
-    NSArray *_protectedFiles;
 }
 
 - (_Bool);

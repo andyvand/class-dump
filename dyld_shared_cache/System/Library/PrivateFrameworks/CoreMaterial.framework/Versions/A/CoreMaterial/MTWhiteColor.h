@@ -9,25 +9,23 @@
 @interface MTWhiteColor : MTColor
 {
     double _white;
-    double _alpha;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (double);
-- (double);
+- (double){	;
 - (struct CGColor *);
 - (struct CAColorMatrix);
 - (id);
 - (id);
-- (id);
+- (id)Node}^{_xmlNode}^{_xmlDoc}ii^{_xmlDtd}^{_xmlDtd}^{_xmlNs}**^v^v*i^{_xmlDict}^vii}16;
 
 // Remaining properties
-@property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;
 @property(readonly, nonatomic) double white; // @synthesize white=_white;
 
 @end

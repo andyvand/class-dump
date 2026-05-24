@@ -7,15 +7,13 @@
 @interface NewsArticles.PDFReplicaBarVisibilityAnimator
 {
     id delegate;
-    id tapGestureRecognizer;
-    id barHider;
 }
 
-- (void);
+- (void)0;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)kgroundColor;
+- (void)backgroundColor;
 
 @end
 

@@ -5,14 +5,11 @@
 //
 
 @class NSArray;
-@protocol PXStoryCompanionTimelineSegmentTransition;
 
 @protocol PXStoryCompanionTimelineSegment
-- (NSArray *)ssfadeTransitionToRelated;
+- (NSArray *)_isPerformingCrossfadeTransitionToRelated;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets;
-@property(readonly, nonatomic) id <PXStoryCompanionTimelineSegmentTransition> orderOutTransition;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 preferredDuration;
 @end
 

@@ -9,17 +9,13 @@
 @interface PHAssetPhotoCommentProperties : PHAssetPropertySet
 {
     _Bool _hasUserLiked;
-    _Bool _cloudIsMyAsset;
-    _Bool _cloudHasCommentsByMe;
-    unsigned long long _commentCount;
-    unsigned long long _likeCount;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)col;
 + (id)tifier:%@> /* Error: Ran out of types for this method. */;
 + (id)e;
 - (unsigned long long);
@@ -30,11 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cloudHasCommentsByMe; // @synthesize cloudHasCommentsByMe=_cloudHasCommentsByMe;
-@property(readonly, nonatomic) _Bool cloudIsMyAsset; // @synthesize cloudIsMyAsset=_cloudIsMyAsset;
 @property(readonly, nonatomic) unsigned long long commentCount; // @synthesize commentCount=_commentCount;
-@property(readonly, nonatomic) _Bool hasUserLiked; // @synthesize hasUserLiked=_hasUserLiked;
-@property(readonly, nonatomic) unsigned long long likeCount; // @synthesize likeCount=_likeCount;
 
 @end
 

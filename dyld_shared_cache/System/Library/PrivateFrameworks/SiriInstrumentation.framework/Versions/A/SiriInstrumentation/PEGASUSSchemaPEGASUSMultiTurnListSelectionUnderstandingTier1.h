@@ -6,20 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSMultiTurnListSelectionUnderstandingTier1 : SISchemaInstrumentationMessage
 {
     NSString *_followupQuery;
-    NSArray *_results;
-    NSArray *_recommendations;
-    _Bool _hasFollowupQuery;
 }
 
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)T!;
 - (int);
 - (_Bool);
 - (id);
@@ -36,24 +33,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)notification request for identifier %@ with category identifier %@;
 - (id);
 - (id);
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
-- (void)hDataOptOutState: /* Error: Ran out of types for this method. */;
-- (id)sCaptureFilePath;
-- (id);
+- (void)setSearchDataOptOutState: /* Error: Ran out of types for this method. */;
+- (id)_hasCaptureFilePath;
+- (id)userScoreIdHash;
 - (void)RCHSchemaNLRouterRewrittenUtteranceTier1",&,N,V_routerRewrittenUtterance;
 - (void)nTier1.appBundleId;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *followupQuery; // @synthesize followupQuery=_followupQuery;
-@property(nonatomic) _Bool hasFollowupQuery; // @synthesize hasFollowupQuery=_hasFollowupQuery;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *recommendations; // @synthesize recommendations=_recommendations;
-@property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end
 

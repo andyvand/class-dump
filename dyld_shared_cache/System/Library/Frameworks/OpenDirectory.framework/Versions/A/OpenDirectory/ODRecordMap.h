@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface ODRecordMap
 {
     NSString *native;
-    NSDictionary *odPredicate;
-    NSMutableDictionary *attributes;
 }
 
 + (id);
@@ -21,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)atorConstructorsERN3MIL10MILContextEE3$_0;
 - (id);
 - (id);
 - (id);
@@ -30,10 +28,6 @@
 
 // Remaining properties
 @property(copy) NSMutableDictionary *attributes; // @synthesize attributes;
-@property(readonly, copy) NSDictionary *dictionary;
-@property(copy) NSString *native; // @synthesize native;
-@property(copy) NSDictionary *odPredicate; // @synthesize odPredicate;
-@property(readonly, copy) NSArray *standardAttributeTypes; // @dynamic standardAttributeTypes;
 
 @end
 

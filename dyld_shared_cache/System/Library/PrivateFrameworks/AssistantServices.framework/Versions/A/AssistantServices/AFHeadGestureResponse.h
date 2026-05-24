@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface AFHeadGestureResponse
 {
     long long _userIntent;
-    long long _gestureType;
-    unsigned long long _activeContexts;
-    NSDate *_timestamp;
 }
 
 + (id);
@@ -19,7 +14,7 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id)nsertAfterSection;
 - (id);
 - (id);
 - (id);
@@ -31,12 +26,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)pletion: /* Error: Ran out of types for this method. */;
+- (void)getConversationAwarenessForCurrentlyRoutedDeviceWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activeContexts; // @synthesize activeContexts=_activeContexts;
-@property(readonly, nonatomic) long long gestureType; // @synthesize gestureType=_gestureType;
-@property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, nonatomic) long long userIntent; // @synthesize userIntent=_userIntent;
 
 @end

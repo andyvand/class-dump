@@ -13,15 +13,15 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (id)Ij;
-- (unsigned long long);
+- (unsigned long long): /* Error: Ran out of types for this method. */;
 - (void);
 - (oneway void);
 - (id);
 - (id);
+- (id)m ;
 - (id);
 - (id);
-- (id);
-- (void)Columns:(id *)arg1;
+- (void)ViewAsColumns:(id *)arg1;
 - (id);
 - (unsigned long long);
 - (id);

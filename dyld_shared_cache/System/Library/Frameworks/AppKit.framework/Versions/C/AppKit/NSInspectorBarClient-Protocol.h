@@ -7,9 +7,10 @@
 @class NSArray, NSWindow;
 
 @protocol NSInspectorBarClient
+- (NSArray *)TotalSystemAvailable;
+- (NSWindow *)A;
 
 // Remaining properties
 @property(readonly) NSArray *inspectorBarItemIdentifiers;
-@property(readonly) NSWindow *window;
 @end
 

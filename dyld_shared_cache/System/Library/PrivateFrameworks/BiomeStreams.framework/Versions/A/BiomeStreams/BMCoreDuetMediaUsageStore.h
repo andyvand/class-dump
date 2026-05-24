@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _CDClientContext;
 @protocol _DKKnowledgeSaving;
 
 @interface BMCoreDuetMediaUsageStore
 {
     id <_DKKnowledgeSaving> _knowledgeStore;
-    _CDClientContext *_contextStore;
 }
 
 - (_Bool);
@@ -22,7 +20,6 @@
 - (id)P;
 
 // Remaining properties
-@property(readonly, nonatomic) _CDClientContext *contextStore; // @synthesize contextStore=_contextStore;
 @property(readonly, nonatomic) id <_DKKnowledgeSaving> knowledgeStore; // @synthesize knowledgeStore=_knowledgeStore;
 
 @end

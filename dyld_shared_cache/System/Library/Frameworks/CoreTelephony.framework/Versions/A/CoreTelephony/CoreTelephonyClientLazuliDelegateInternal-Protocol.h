@@ -5,5 +5,11 @@
 //
 
 @protocol CoreTelephonyClientLazuliDelegateInternal
+
+@optional
+- (void)`;
+- (void)7@;
+- (void);
+- (void);
 @end
 

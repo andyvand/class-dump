@@ -7,6 +7,10 @@
 @protocol IAMMessageEntryProviderDelegate;
 
 @protocol IAMMessageEntryProvider
+- (void);
+- (id <IAMMessageEntryProviderDelegate>)c8b;
+- (void);
+- (void)fixFileProtectionForAssetStoreWithCompletion:(id <IAMMessageEntryProviderDelegate>)arg1;
 
 // Remaining properties
 @property(nonatomic) __weak id <IAMMessageEntryProviderDelegate> delegate;

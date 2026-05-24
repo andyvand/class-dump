@@ -4,51 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMMissingWalletKeyValue
 {
     NSUUID *_accessoryUUID;
-    NSUUID *_userUUID;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)VisionOSCodingKeys;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)consequently;
+- (id)capitalist;
+- (id)linoleum;
 - (void);
 - (id);
 - (id);
 - (void)Ht;
-- (id)heduleScheduleEntriesKey;
+- (id)HMHomeActivityStateScheduleScheduleEntriesKey;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end
 

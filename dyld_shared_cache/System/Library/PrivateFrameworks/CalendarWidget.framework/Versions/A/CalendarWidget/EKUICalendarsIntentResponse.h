@@ -14,14 +14,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)lowerTextBottomConstraint;
 - (long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *calendars; // @dynamic calendars;
-@property(nonatomic) long long code; // @synthesize code;
 
 @end
 

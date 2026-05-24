@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, STMFilesConfiguration, STMSummaryDetails;
+@class NSString;
 @protocol STMInfoStorageUsageReporting;
 
 @interface STMInfoSidebarItem
 {
     id <STMInfoStorageUsageReporting> _representedObject;
-    NSString *_extensionIdentifier;
-    NSString *_alternateIdentifier;
-    NSString *_localizedTitle;
-    NSNumber *_size;
-    STMSummaryDetails *_summaryDetails;
-    STMFilesConfiguration *_filesConfiguration;
 }
 
 + (_Bool);
@@ -23,29 +17,23 @@
 - (void);
 - (void);
 - (void);
+- (id)Q6;
 - (id);
 - (id);
-- (id);
+- (void)berCardSection",&,N;
 - (void);
-- (void);
 - (id);
 - (id);
+- (id)H;
 - (id);
-- (id);
+- (void)setOriginalImageSizeCache:(id)arg1;
+- (void)_ikSetNeedsDisplay;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSString *alternateIdentifier; // @synthesize alternateIdentifier=_alternateIdentifier;
 @property(copy) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(retain) STMFilesConfiguration *filesConfiguration; // @synthesize filesConfiguration=_filesConfiguration;
-@property(copy) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(retain) id <STMInfoStorageUsageReporting> representedObject; // @synthesize representedObject=_representedObject;
-@property(retain) NSNumber *size; // @synthesize size=_size;
-@property(retain) STMSummaryDetails *summaryDetails; // @synthesize summaryDetails=_summaryDetails;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSiriClientSetupLink : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_requestId;
-    _Bool _hasRequestId;
 }
 
 - (void);
@@ -19,7 +18,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ndex too large;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -33,8 +32,6 @@
 - (id)&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 
 @end

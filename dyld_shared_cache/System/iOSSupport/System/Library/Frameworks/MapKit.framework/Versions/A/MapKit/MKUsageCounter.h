@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void)enterARModeAtCoordinate: /* Error: Ran out of types for this method. */;

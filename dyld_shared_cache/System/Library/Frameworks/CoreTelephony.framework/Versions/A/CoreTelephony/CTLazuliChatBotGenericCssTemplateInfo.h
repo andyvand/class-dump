@@ -11,9 +11,9 @@
     NSString *_cssUrl;
 }
 
-+ (_Bool);
-- (void);
-- (_Bool);
++ (_Bool)<AVMetricErrorEvent:%p %@, didRecover:%d error:%@> /* Error: Ran out of types for this method. */;
+- (void)Iz@;
+- (_Bool)m;
 - (id);
 - (id);
 - (id);

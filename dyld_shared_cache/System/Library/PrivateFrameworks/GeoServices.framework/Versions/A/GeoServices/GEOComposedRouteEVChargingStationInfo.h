@@ -4,42 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface GEOComposedRouteEVChargingStationInfo
 {
     unsigned long long _muid;
-    NSString *_name;
-    double _chargingTime;
-    double _batteryChargeAfterCharging;
-    double _batteryPercentageAfterCharging;
-    NSArray *_suggestedChargerPlugs;
-    NSArray *_supportedChargerPlugs;
 }
 
 + (_Bool)at "%@":%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)dictionaryWithObjects:(id)arg1 forKeys:(unsigned long long)arg2 count:(id)arg3;
 - (double);
 - (double);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)ServiceInterface:withServiceObject:withDelegateInterface:queue:delegate:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
 - (void)ø;
 
 // Remaining properties
-@property(readonly, nonatomic) double batteryChargeAfterCharging; // @synthesize batteryChargeAfterCharging=_batteryChargeAfterCharging;
-@property(readonly, nonatomic) double batteryPercentageAfterCharging; // @synthesize batteryPercentageAfterCharging=_batteryPercentageAfterCharging;
-@property(readonly, nonatomic) double chargingTime; // @synthesize chargingTime=_chargingTime;
 @property(readonly, nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSArray *suggestedChargerPlugs; // @synthesize suggestedChargerPlugs=_suggestedChargerPlugs;
-@property(readonly, nonatomic) NSArray *supportedChargerPlugs; // @synthesize supportedChargerPlugs=_supportedChargerPlugs;
 
 @end
 

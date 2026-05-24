@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, TKTokenConfigurationConnection;
+@class NSString, TKTokenConfigurationConnection;
 
 @interface TKTokenDriverConfiguration
 {
     TKTokenConfigurationConnection *_configurationConnection;
-    NSString *_classID;
 }
 
 + (id);
@@ -17,18 +16,17 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)meworks/LocalAuthentication.framework/LocalAuthentication;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *classID; // @synthesize classID=_classID;
-@property(readonly, copy, nonatomic) NSDictionary *tokenConfigurations;
 
 @end
 

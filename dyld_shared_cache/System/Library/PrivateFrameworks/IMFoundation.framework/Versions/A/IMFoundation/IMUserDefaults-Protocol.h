@@ -5,5 +5,7 @@
 //
 
 @protocol IMUserDefaults
+- (void);
+- (void);
 @end
 

@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPPoiEnrichmentQueryParameters, GEORPRapQueryParameters, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackComponentQueryParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPPoiEnrichmentQueryParameters *_poiEnrichmentQueryParameters;
-    GEORPRapQueryParameters *_rapQueryParameters;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_poiEnrichmentQueryParameters:1;
-        unsigned int read_rapQueryParameters:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)MapRegion:(id)arg1;
++ (_Bool)setIsStrictMapRegion:(id)arg1;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)@ %{public}@;
+- (id)rned while trying to save the managed object context after migrating legacy iOS identifiers.;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
+- (id)setOpportuneSpeakListnerTestService: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)"b1"read_image"b1"read_name"b1"wrote_anyField"b1};
-- (id)TrafficSignal: /* Error: Ran out of types for this method. */;
+- (id)addTrafficSignal: /* Error: Ran out of types for this method. */;
 - (id)lÿT;
-- (id)nData;
+- (id)countdownData;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPoiEnrichmentQueryParameters;
-@property(readonly, nonatomic) _Bool hasRapQueryParameters;
-@property(retain, nonatomic) GEORPPoiEnrichmentQueryParameters *poiEnrichmentQueryParameters;
-@property(retain, nonatomic) GEORPRapQueryParameters *rapQueryParameters;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -9,19 +9,19 @@
 @interface SLSBridgedSpaceSetFrontPSNOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    struct CPSProcessSerNum _psn;
 }
 
 + (_Bool);
-- (void);
-- (id);
-- (struct CPSProcessSerNum);
+- (void)ry objectID for metadata link:%@
+%@
+%@ /* Error: Ran out of types for this method. */;
+- (id)message;
+- (struct CPSProcessSerNum)value %lu at %d;
 - (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) struct CPSProcessSerNum psn; // @synthesize psn=_psn;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

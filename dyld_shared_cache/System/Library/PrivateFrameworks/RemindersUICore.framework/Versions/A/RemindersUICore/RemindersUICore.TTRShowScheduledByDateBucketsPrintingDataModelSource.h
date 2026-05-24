@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRShowScheduledByDateBucketsPrintingDataModelSource
 {
     id store;
-    id showCompleted;
-    id sortingStyle;
 }
 
 @end

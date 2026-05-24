@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKProtobufPaymentInstrumentThumbnailRequest
 {
     double _height;
-    double _width;
-    NSString *_manifestHash;
-    NSString *_passIdentifier;
-    struct {
-        unsigned int height:1;
-        unsigned int width:1;
-    } _has;
 }
 
 - (void);
@@ -28,7 +19,8 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)
+;
 - (unsigned int);
 - (double);
 - (double);
@@ -41,20 +33,13 @@
 - (_Bool)1Â0@ù
 × ;
 - (Class)request to '%@' with identifier:%@ /* Error: Ran out of types for this method. */;
-- (void)CARD_INVALID_ACTIVATION_CODE;
+- (void)ACCOUNT_SERVICE_PHYSICAL_CARD_INVALID_ACTIVATION_CODE;
 - (void)cip.success;
 - (void)N_9v NG;
 - (_Bool)Î;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeight;
-@property(readonly, nonatomic) _Bool hasManifestHash;
 @property(readonly, nonatomic) _Bool hasPassIdentifier;
-@property(nonatomic) _Bool hasWidth;
-@property(nonatomic) double height; // @synthesize height=_height;
-@property(retain, nonatomic) NSString *manifestHash; // @synthesize manifestHash=_manifestHash;
-@property(retain, nonatomic) NSString *passIdentifier; // @synthesize passIdentifier=_passIdentifier;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

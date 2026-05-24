@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSURL;
+@class NSNumber;
 
 @interface NFVASRequest
 {
     NSNumber *_terminalCap;
-    NSNumber *_terminalProtocol;
-    NSString *_merchantId;
-    NSURL *_signupUrl;
-    NSData *_filter;
 }
 
-+ (_Bool);
++ (_Bool)H;
+- (id)_datumValuePlaceholderAttributes;
+- (id)_datumValueMouseOverHighlightColor;
+- (void)linkedContacts;
+- (void)phoneticOrganizationName;
+- (void)`;
+- (id);
+- (void)deleteCountAttributeQPQUprefixMatch;
+- (id)_requestStartOffsetInMS;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)Info no computer graph found;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *filter; // @synthesize filter=_filter;
-@property(retain, nonatomic) NSString *merchantId; // @synthesize merchantId=_merchantId;
-@property(retain, nonatomic) NSURL *signupUrl; // @synthesize signupUrl=_signupUrl;
 @property(retain, nonatomic) NSNumber *terminalCap; // @synthesize terminalCap=_terminalCap;
-@property(retain, nonatomic) NSNumber *terminalProtocol; // @synthesize terminalProtocol=_terminalProtocol;
 
 @end
 

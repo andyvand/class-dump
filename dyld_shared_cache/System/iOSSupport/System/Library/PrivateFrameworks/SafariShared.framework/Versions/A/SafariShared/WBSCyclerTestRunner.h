@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-@protocol WBSCyclerTestSuite, WBSCyclerTestTarget;
+@protocol WBSCyclerTestSuite;
 
 @interface WBSCyclerTestRunner
 {
     _Bool _stopRequested;
-    NSMutableArray *_pendingRequestQueue;
-    NSMutableArray *_pendingRequestCompletionHandlerQueue;
-    _Bool _running;
-    id <WBSCyclerTestSuite> _testSuite;
-    id <WBSCyclerTestTarget> _target;
 }
 
 - (void);
-- (void);
+- (void)&;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)setToolViewTopAnchor:(id)arg1;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)addAKAnnotation:toAnnotationDictionary: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void)¨È;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;
-@property(readonly, nonatomic) id <WBSCyclerTestTarget> target; // @synthesize target=_target;
 @property(readonly, nonatomic) id <WBSCyclerTestSuite> testSuite; // @synthesize testSuite=_testSuite;
 
 @end

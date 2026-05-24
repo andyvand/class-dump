@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface NSDeferredPageSpoolingOperation
 {
     struct CGDisplayList *_pageDisplayList;
-    struct CGContext *_pageContext;
-    struct CGRect _bounds;
 }
 
 - (struct CGContext *);
-- (void);
+- (void)sumableUploadState;
 - (struct CGDisplayList *);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)H;
 - (void)ingServicePicker"40@0:(struct CGRect)arg1 8@"NSTextView"16@"NSSharingServicePicker"24@"NSArray"32;
 
 // Remaining properties
 @property struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly) struct CGContext *pageContext; // @synthesize pageContext=_pageContext;
-@property(readonly) struct CGDisplayList *pageDisplayList; // @synthesize pageDisplayList=_pageDisplayList;
 
 @end
 

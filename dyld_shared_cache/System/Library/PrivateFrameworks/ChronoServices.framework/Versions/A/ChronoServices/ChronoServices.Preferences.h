@@ -7,55 +7,6 @@
 @interface ChronoServices.Preferences
 {
     id _userWantsWidgetDataWhenPasscodeLocked;
-    id _userWantsLiveActivityDataWhenPasscodeLocked;
-    id _widgetKitDeveloperModeEnabled;
-    id _remoteWidgetsEnabled;
-    id _hasMigratedRemoteWidgetsEnabledState;
-    id _replicateAllVisibleControls;
-    id _secondHandFPS;
-    id _lastEffectiveSignificantTimeChange;
-    id _effectiveRemoteWidgetsEnabled;
-    id _taskServiceMaximumPoolSize;
-    id _taskServiceWatchdogSecondsTimeout;
-    id _appIntentActivityInterval;
-    id _debugIsSnapshotting;
-    id _debugAnimationsPaused;
-    id _debugPlaceholderViews;
-    id _debugAlwaysOnDisplay;
-    id _debugLabels;
-    id _debugLabelsVerbose;
-    id _disableAnimations;
-    id _disableLiveActivities;
-    id _disableSnapshots;
-    id _snapshotExpirationOverride;
-    id _disablePlaceholders;
-    id _disableTimelines;
-    id _disableArchiveReaper;
-    id _enableCAMLLayerSnapshots;
-    id _delayStartup;
-    id _rendererDelayStartup;
-    id _simulateSystemDataMigration;
-    id _simulateMemoryWarning;
-    id _overrideDate;
-    id _showInternalWidgets;
-    id _debugViewIdentity;
-    id _debugMargins;
-    id _debugSceneMask;
-    id _primaryOverrideTintColor;
-    id _secondaryOverrideTintColor;
-    id _glassM44;
-    id _subduedOpacity;
-    id _useAlternateGlassColorMatrix;
-    id _emulateFallbackTreatment;
-    id _forceCARendering;
-    id _highlightMisconfiguredScenes;
-    id _highlightSceneContentOverload;
-    id _widgetDiagnosticTriggersLogCoreAnalytics;
-    id _widgetDiagnosticTriggersLogFault;
-    id _widgetDiagnosticTriggersTapToRadar;
-    id _widgetDiagnosticsBootSession;
-    id _extensionWatchdogTailspinDebounceInterval;
-    id _tailspinOnWatchdogBundleIDs;
 }
 
 @end

@@ -7,9 +7,6 @@
 @interface AppStoreKit.AccountDeviceList
 {
     id accountStore;
-    id bag;
-    id activeStoreAccount;
-    id allowFetches;
 }
 
 - (void);

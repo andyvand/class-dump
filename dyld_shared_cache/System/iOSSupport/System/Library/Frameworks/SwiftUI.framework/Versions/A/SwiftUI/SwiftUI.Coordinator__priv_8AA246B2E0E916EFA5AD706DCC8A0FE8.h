@@ -9,12 +9,10 @@
 @interface SwiftUI.Coordinator__priv_8AA246B2E0E916EFA5AD706DCC8A0FE8 : SwiftUI.PlatformViewCoordinator
 {
     id configuration;
-    id _symbolEffectState;
-    id isUpdating;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)`;
 

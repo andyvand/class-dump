@@ -4,61 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOExperimentMetadata
 {
     PBDataReader *_reader;
-    NSString *_experimentDescription;
-    NSString *_experimentId;
-    NSString *_treatmentId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _deploymentId;
-    CDStruct_bfee45b8 _flags;
 }
 
-+ (_Bool)resentativePointQuality:(id)arg1;
++ (_Bool)setHasRepresentativePointQuality:(id)arg1;
 - (void);
+- (void);
+- (_Bool)SError"16;
+- (_Bool)initWithAccountSource:accountSink:accountStore: /* Error: Ran out of types for this method. */;
+- (id)_authorizationStatus;
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)nS^T^U^!8;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)TriggerFirstPassMetrics";
+- (id)Trigger _startAPVoiceTriggerWithCompletion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)e/;
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)HasSupportsArMode:(struct _NSZone *)arg1;
-- (id)iption;
-- (id)quest;
+- (void)eDSInvalidNativeMapping;
+- (id)setHasSupportsArMode:(struct _NSZone *)arg1;
+- (id)_trafficDensityDescription;
+- (id)_GEOMapFeatureAccessRequest;
 - (id)ray.;
-- (void)_NAME_UNAVAILABLE;
+- (void)PHOTO_ATTRIBUTION_PREFERENCES_UPDATE_ERROR_NAME_UNAVAILABLE;
 - (id);
 - (unsigned int);
 - (void)Ù4;
 
 // Remaining properties
-@property(nonatomic) unsigned int deploymentId;
-@property(retain, nonatomic) NSString *experimentDescription;
-@property(retain, nonatomic) NSString *experimentId;
-@property(nonatomic) _Bool hasDeploymentId;
-@property(readonly, nonatomic) _Bool hasExperimentDescription;
 @property(readonly, nonatomic) _Bool hasExperimentId;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(retain, nonatomic) NSString *treatmentId;
 
 @end
 

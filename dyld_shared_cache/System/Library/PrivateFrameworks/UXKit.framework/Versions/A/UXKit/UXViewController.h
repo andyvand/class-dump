@@ -4,50 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UXNavigationItem, UXTabBarItem, UXView;
-@protocol UXLayoutSupport;
+@class UXNavigationItem;
 
 @interface UXViewController
 {
     UXNavigationItem *_navigationItem;
-    UXTabBarItem *_tabBarItem;
-    UXViewController *_accessoryViewController;
-    UXViewController *_inspectorViewController;
-    NSArray *_accessoryBarItems;
-    UXViewController *_toolbarViewController;
-    NSArray *_toolbarItems;
-    NSArray *_subtoolbarItems;
-    NSArray *_scopeBarItems;
-    _Bool _hidesBottomBarWhenPushed;
-    struct CGSize _ux_preferredContentSize;
-    _Bool _ignoreViewController;
-    id <UXLayoutSupport> _topLayoutGuide;
-    id <UXLayoutSupport> _bottomLayoutGuide;
-    _Bool _transitioningIntoFullScreen;
-    _Bool _transitioningOutOfFullScreen;
-    _Bool _isEditing;
-    _Bool _automaticallyAdjustsScrollViewInsets;
-    long long _modalPresentationStyle;
-    unsigned long long _edgesForExtendedLayout;
-    UXView *_observedView;
-    UXView *_presentedViewControllerContainerView;
-    double _preferredToolbarHeight;
-    double _preferredToolbarBaselineOffsetFromBottom;
-    long long _preferredSubtoolbarPosition;
-    double _preferredSubtoolbarHeight;
-    double _preferredSubtoolbarBaselineOffsetFromBottom;
-    double _preferredScopeBarHeight;
-    double _preferredScopeBarBaselineOffsetFromBottom;
-    long long _preferredToolbarStyle;
-    UXNavigationItem *_navigationItemIfLoaded;
-    struct CGRect _preferredInitialFrame;
-    struct NSEdgeInsets _preferredToolbarDecorationInsets;
-    struct NSEdgeInsets _additionalToolbarInsets;
 }
 
 + (id);
 + (double);
-+ (Class);
++ (Class)Tq,N,V_viewMode;
 
 @end
 

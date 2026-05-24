@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (void)eshowAddToiPhotoToolTip;
+- (void)kSlideshowAddToiPhotoToolTip;
 
 @end
 

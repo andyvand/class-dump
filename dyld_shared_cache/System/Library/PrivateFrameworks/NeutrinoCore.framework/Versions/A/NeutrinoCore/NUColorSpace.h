@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface NUColorSpace
 {
     struct CGColorSpace *_CGColorSpace;
-    NSString *_descriptionName;
 }
 
 + (_Bool);
@@ -29,28 +26,28 @@
 + (id);
 + (id);
 + (id);
++ (id)DQ;
++ (id)_setBridgingWindowSize: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Q16^B24;
++ (id)AVCanDisplayContentInDetachedWindow;
 - (void);
 - (void);
-- (id);
+- (id)56;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)T;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)entPlayButtonLayoutView;
 - (id);
 - (struct CGColorSpace *);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -62,16 +59,7 @@
 - (_Bool)ûõ?;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGColorSpace *CGColorSpace; // @synthesize CGColorSpace=_CGColorSpace;
-@property(readonly, nonatomic) NSDictionary *cvPixelBufferAttachments;
-@property(readonly, nonatomic) NSString *descriptionName; // @synthesize descriptionName=_descriptionName;
 @property(readonly, nonatomic) _Bool hasCICP;
-@property(readonly, nonatomic) float headroom;
-@property(readonly, nonatomic) _Bool isExtended;
-@property(readonly, nonatomic) _Bool isHDR;
-@property(readonly, nonatomic) _Bool isRGB;
-@property(readonly, nonatomic) _Bool isWideGamut;
-@property(readonly, nonatomic) NSString *name;
 
 @end
 

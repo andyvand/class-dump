@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFToggleButtonConfiguration, SFWatchListItem;
+@class SFWatchListItem;
 
 @protocol SFWatchListButtonItem
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFToggleButtonConfiguration *toggleButtonConfiguration;
 @property(retain, nonatomic) SFWatchListItem *watchListItem;
 @end
 

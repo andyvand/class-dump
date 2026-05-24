@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _EARConfusionPair
 {
     long long _recognizedTokenStartIndex;
-    long long _correctedTokenStartIndex;
-    NSMutableArray *_recognizedTokens;
-    NSMutableArray *_correctedTokens;
 }
 
 - (void);
@@ -21,16 +16,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (long long);
+- (long long)y/Frameworks/QuickLookThumbnailing.framework/Versions/A/QuickLookThumbnailing;
 - (id);
 - (id);
 - (void)ÿäÎ;
 
 // Remaining properties
-@property(nonatomic) long long correctedTokenStartIndex; // @synthesize correctedTokenStartIndex=_correctedTokenStartIndex;
-@property(copy, nonatomic) NSMutableArray *correctedTokens; // @synthesize correctedTokens=_correctedTokens;
 @property(nonatomic) long long recognizedTokenStartIndex; // @synthesize recognizedTokenStartIndex=_recognizedTokenStartIndex;
-@property(copy, nonatomic) NSMutableArray *recognizedTokens; // @synthesize recognizedTokens=_recognizedTokens;
 
 @end
 

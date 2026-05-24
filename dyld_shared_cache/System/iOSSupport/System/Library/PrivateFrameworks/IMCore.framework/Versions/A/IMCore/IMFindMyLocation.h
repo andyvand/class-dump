@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFLocation, FMLLocation, NSString;
+@class FMFLocation;
 
 @interface IMFindMyLocation
 {
     FMFLocation *_fmfLocation;
-    FMLLocation *_fmlLocation;
 }
 
 + (id);
-+ (id);
++ (id)A;
 + (id);
 - (id);
 - (id);
@@ -25,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FMFLocation *fmfLocation; // @synthesize fmfLocation=_fmfLocation;
-@property(readonly, nonatomic) FMLLocation *fmlLocation; // @synthesize fmlLocation=_fmlLocation;
-@property(readonly, nonatomic) NSString *shortAddress;
 
 @end
 

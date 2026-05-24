@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSPredicate;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _OSLogCatalogFilter
 {
     NSMutableSet *_processLookupSubstr;
-    NSMutableSet *_senderLookupSubstr;
-    char *_uuidtext_path;
-    _Bool _hasItems;
-    _Bool _hasSharedCacheItems;
-    NSPredicate *_structuredPredicate;
-    NSMutableDictionary *_processNameToUUIDs;
-    NSMutableDictionary *_senderNameToUUIDs;
 }
 
 - (void);
 - (id);
-- (void);
-- (void)ingBlock:(id)arg1;
+- (void);
+- (void)enumerateEntriesFrom:(id)arg1 to:options:usingBlock: /* Error: Ran out of types for this method. */;
 - (void)amework/MobileDevice;
 - (void){þÿ;
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFPerson
 {
     NSString *_personIdentifier;
-    NSString *_contactIdentifier;
-    NSString *_displayName;
-    NSArray *_phoneNumbers;
-    NSArray *_emailAddresses;
-    NSString *_photosIdentifier;
 }
 
 + (_Bool);
@@ -22,39 +17,25 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setSoundCheckEnabled:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)_initWithAudioSessionReporterID:isForMusicPlayback: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)ces of feedback to the same memory is not supported. Will not add feedback for memory feature %@;
+- (id)PHPhotosErrorClientSandboxExtensionConsumeFailed;
+- (id)e request:(struct _NSZone *)arg1 %@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)_streaming_state;
 - (id)×X;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
-@property(copy, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(copy, nonatomic) NSString *photosIdentifier; // @synthesize photosIdentifier=_photosIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

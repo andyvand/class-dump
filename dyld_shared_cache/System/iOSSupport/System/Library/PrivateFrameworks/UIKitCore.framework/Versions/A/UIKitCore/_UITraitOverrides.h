@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, UIColor, UITraitCollection, _UITraitTokenSet;
-@protocol _UITraitOverrideDelegate;
+@class UITraitCollection;
 
 __attribute__((visibility("hidden")))
 @interface _UITraitOverrides
 {
     UITraitCollection *_overrides;
-    _UITraitTokenSet *_defaultValueOverrides;
-    struct vector<_UIIdentifiedTraitCollectionTransform, std::allocator<_UIIdentifiedTraitCollectionTransform>> _traitCollectionTransforms;
-    struct vector<_UIIdentifiedChildTraitCollectionTransform, std::allocator<_UIIdentifiedChildTraitCollectionTransform>> _childTraitCollectionTransforms;
-    struct {
-        unsigned int delegateImplementsWillChange:1;
-    } _flags;
-    id <_UITraitOverrideDelegate> _delegate;
-    _UITraitOverrides *_overridesAppliedBefore;
-    _UITraitOverrides *_overridesAppliedAfter;
 }
 
-+ (_Bool)ceViewRect;
++ (_Bool)sourceViewRect;
 - (unsigned long long);
 - (long long);
 - (double);
@@ -42,74 +32,74 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (void);
 - (long long);
 - (_Bool);
-- (long long);
-- (long long);
-- (unsigned long long);
-- (long long);
-- (double);
-- (double);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (long long)16C24@?28;
+- (long long)4@0:8@16@24C32@36 /* Error: Ran out of types for this method. */;
+- (unsigned long long)updateNumberOfTimesRespondedToThread;
+- (long long)updateNotificationUnreadCountForChat:(id)arg1;
+- (double)updateMessagesSyncedSyndicationRangesForGUIDs:(id)arg1 toStatus: /* Error: Ran out of types for this method. */;
+- (double)resultsLimit;
+- (void)replaceMessageAcknowledgmentsWithNewMessageAcknowledgment:(id)arg1 associatedMessageGUID:(CDUnknownBlockType)arg2 sender: /* Error: Ran out of types for this method. */;
+- (void)replaceFileTransferGUIDsForMessageItem:withPermanentFileTransferGUIDs: /* Error: Ran out of types for this method. */;
+- (id)replaceDataExpirationHandler:(id)arg1;
+- (id)relayPriorityMessageFor:(id)arg1;
+- (id)relayMessageGUID:(id)arg1 completion:(id)arg2;
+- (id)nicknameForRecordID:handle: /* Error: Ran out of types for this method. */;
+- (void)generatePreview:(double)arg1 previewURL:senderContext:constraints:balloonBundleID:transferGUID:completionBlock:blockUntilReply: /* Error: Ran out of types for this method. */;
+- (void)deleteInteractionsWithMessageGUIDs:(id)arg1;
+- (void)deleteInteractionsWithChatGUIDs:(id)arg1;
+- (void)deleteAllDataWithCompletionHandler:(id)arg1;
+- (void)createRecoverableMessageZoneIfNeededWithCompletionBlock:(unsigned long long)arg1;
+- (void)createNewOutgoingTransferWithLocalFileURL:(long long)arg1 guid:(id)arg2;
+- (void)checkAuthorizationStatusForRecipients:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)_markChatAsDefferedForSyncingUsingRecord:(id)arg1;
+- (void)_makeAllAttachmentsClassC;
+- (void)_itemType;
+- (void)_hasCancellableScheduledMessageForChat:(id)arg1;
+- (id)_createProcessBatchBlockWithServiceSession:(id)arg1;
+- (id)"CKRecordZone",R,N,V_updateRecordZone;
+- (id)cordZone;
+- (id)cordZone",R,N,V_recoverableMessageRecordZone;
+- (id)DupeSaltRecordZone;
+- (id)_isEmergencySOS;
+- (id),N,V_exitRecordID;
+- (id)ber;
 - (_Bool);
 - (_Bool);
+- (_Bool)6;
+- (_Bool)T>?;
 - (_Bool);
+- (void)L;
+- (void);
+- (void);
+- (void);
+- (void),;
+- (void);
+- (void);
+- (void)ngKeys:(long long)arg1 %{public}ld;
+- (id)ate, no verification manager action required. Subscription:(Class)arg1 %@;
+- (long long)@" for old message from %@ with date:%@ /* Error: Ran out of types for this method. */;
+- (void)g settings message:(double)arg1 %@;
+- (void)dling message sent push:(id)arg1 %@;
+- (void);
+- (long long)c;
+- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (long long);
+- (void)SSL_use_PrivateKey;
+- (void)IncomingMailServerPortNumber;
+- (id);
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (long long);
+- (void)setAppliesPreferredTrackTransform:(long long)arg1;
+- (long long)lFileAsset;
 - (unsigned long long);
 - (void)1Â0@ù
 × ;
@@ -124,62 +114,23 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)CrossSpeedBump"b1"isContinuingTouchWithMomentum"b1"isPerformingJoystickRollback"b1"isJoystickInRepeatMode"b1"isPendingJoystickRepeat"b1"isFastScrolling"b1"shouldApplyAcceleration"b1"shouldSupressActiveIndirectMotionUpdates"b1"startDeferingFocusOnTapHoldEnded"b1};
 - (void)tickStyle;
-- (double)w: /* Error: Ran out of types for this method. */;
-- (id)eColor;
-- (id)oupType;
+- (double)_removeContentInView: /* Error: Ran out of types for this method. */;
+- (id)_rangeColor;
+- (id)_currentUndoGroupType;
 - (void)d;
-- (void)ics;
+- (void)metrics;
 - (long long)_setLayoutEngine:,V_layoutEngine /* Error: Ran out of types for this method. */;
 - (void){public}@;
 - (void)nvalidation with index %{public}ld had %ld change(s). %{public}s. %{public}s;
 - (id)tyContinuationManager handleActivityContinuation:isSuspended:] /* Error: Ran out of types for this method. */;
 - (void)emGroupCGG;
 - (long long)e\43+À;
-- (void)UIFluidSliderDriverState;
+- (void)_UIFluidSliderDriverState;
 - (id);
 - (long long);
 
 // Remaining properties
-@property(nonatomic, setter=_setDelegate:) __weak id <_UITraitOverrideDelegate> _delegate; // @synthesize _delegate;
-@property(readonly, nonatomic) NSObject *_environmentWrapper;
-@property(readonly, nonatomic) _Bool _hasChildTransforms;
 @property(readonly, nonatomic) _Bool _hasTransforms;
-@property(readonly, nonatomic) _Bool _isEmpty;
-@property(readonly, nonatomic) UITraitCollection *_overrideTraitCollectionRepresentation;
-@property(readonly, nonatomic) _UITraitOverrides *_overridesAppliedAfter; // @synthesize _overridesAppliedAfter;
-@property(readonly, nonatomic) _UITraitOverrides *_overridesAppliedAfterIfExist;
-@property(readonly, nonatomic) _UITraitOverrides *_overridesAppliedBefore; // @synthesize _overridesAppliedBefore;
-@property(readonly, nonatomic) _UITraitOverrides *_overridesAppliedBeforeIfExist;
-@property(readonly, nonatomic) UIColor *_tintColor;
-@property(nonatomic, setter=_setTypesettingLanguageAwareLineHeightRatio:) double _typesettingLanguageAwareLineHeightRatio;
-@property(nonatomic) long long accessibilityContrast; // @dynamic accessibilityContrast;
-@property(nonatomic) long long activeAppearance; // @dynamic activeAppearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayGamut; // @dynamic displayGamut;
-@property(nonatomic) double displayScale; // @dynamic displayScale;
-@property(nonatomic) long long forceTouchCapability; // @dynamic forceTouchCapability;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long horizontalSizeClass; // @dynamic horizontalSizeClass;
-@property(nonatomic) long long imageDynamicRange;
-@property(nonatomic) long long layoutDirection; // @dynamic layoutDirection;
-@property(nonatomic) long long legibilityWeight; // @dynamic legibilityWeight;
-@property(nonatomic) long long listEnvironment;
-@property(copy, nonatomic) NSString *preferredContentSizeCategory; // @dynamic preferredContentSizeCategory;
-@property(nonatomic) _Bool resolvesNaturalAlignmentWithBaseWritingDirection;
-@property(nonatomic) long long sceneCaptureState;
-@property(nonatomic) long long splitViewControllerLayoutEnvironment;
-@property(readonly) Class superclass;
-@property(nonatomic) long long tabAccessoryEnvironment;
-@property(nonatomic) long long toolbarItemPresentationSize; // @dynamic toolbarItemPresentationSize;
-@property(copy, nonatomic) NSString *typesettingLanguage;
-@property(nonatomic) long long userInterfaceIdiom; // @dynamic userInterfaceIdiom;
-@property(nonatomic) long long userInterfaceLevel; // @dynamic userInterfaceLevel;
-@property(nonatomic) long long userInterfaceStyle; // @dynamic userInterfaceStyle;
-@property(nonatomic) long long verticalSizeClass; // @dynamic verticalSizeClass;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PXStoryColorGradingRepository, PXStoryCompanionColorEffect, PXStoryTimeline;
+@protocol PXStoryTimeline;
 
 @interface PXStoryConcreteCompanionTimeline
 {
     id <PXStoryTimeline> _timeline;
-    long long _colorGradeKind;
-    id <PXStoryColorGradingRepository> _colorGradingRepository;
 }
 
 - (id);
@@ -26,11 +23,6 @@
 - (void)]§;
 
 // Remaining properties
-@property(readonly, nonatomic) long long colorGradeKind; // @synthesize colorGradeKind=_colorGradeKind;
-@property(readonly, nonatomic) id <PXStoryCompanionColorEffect> colorGradingEffect;
-@property(readonly, nonatomic) id <PXStoryColorGradingRepository> colorGradingRepository; // @synthesize colorGradingRepository=_colorGradingRepository;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) long long numberOfSegments;
 @property(readonly, nonatomic) id <PXStoryTimeline> timeline; // @synthesize timeline=_timeline;
 
 @end

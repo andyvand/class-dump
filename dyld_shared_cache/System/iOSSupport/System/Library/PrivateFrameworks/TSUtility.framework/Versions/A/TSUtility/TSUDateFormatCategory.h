@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface TSUDateFormatCategory
 {
     struct __CFDateFormatter *mInitialFormatter;
-    NSMutableArray *mEntries;
 }
 
 - (struct __CFDate *);

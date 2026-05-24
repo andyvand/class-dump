@@ -5,5 +5,6 @@
 //
 
 @protocol HMDCameraSettingProactiveReaderDelegate
+- (void)tination.;
 @end
 

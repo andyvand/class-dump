@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, UIButton;
+
 @protocol TSDPlatformButtonProtocol
++ (UIButton *)mpt to share QueueController with two players:(struct CGRect)arg1 %@ != %@;
+- (void)to load request:(NSString *)arg1 %@;
+- (void)msc_offlinePBkeys;
 - (void)È;
 @end
 

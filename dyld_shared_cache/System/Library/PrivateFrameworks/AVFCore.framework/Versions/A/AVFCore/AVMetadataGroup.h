@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AVMetadataGroup
 {
@@ -12,14 +12,12 @@
 
 + (void)VVideoAverageBitRateKey;
 - (struct opaqueCMFormatDescription *);
-- (id);
-- (id);
+- (id)T[d;
+- (id)speechRecognitionId;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *classifyingLabel;
-@property(readonly, copy, nonatomic) NSArray *items;
-@property(readonly, nonatomic) NSString *uniqueID;
 
 @end
 

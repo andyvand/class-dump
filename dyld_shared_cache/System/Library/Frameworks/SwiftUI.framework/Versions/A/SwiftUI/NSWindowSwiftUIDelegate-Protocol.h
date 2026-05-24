@@ -5,5 +5,9 @@
 //
 
 @protocol NSWindowSwiftUIDelegate
+
+@optional
+- (void);
+- (void)izedDisplayName;
 @end
 

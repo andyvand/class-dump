@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetricsEvent, AMSUIWebAction, AMSUIWebNavigationBarModel, NSString;
+@class AMSBinaryPromise, AMSMetricsEvent, AMSUIWebAction, AMSUIWebNavigationBarModel, NSString, NSViewController;
+@protocol AMSUIWebPagePresenter;
 
 @protocol AMSUIWebPageProvider
-- (AMSUIWebNavigationBarModel *)vicesUIP33_71CDCD57A2FD6FC6824D50B1224AC39B25PresentEngagementTaskView18TaskViewController;
+- (AMSBinaryPromise *)te abandoned (due to unexpected welf=nil during update);
+- (_Bool)ublic}@;
+- (NSViewController<AMSUIWebPagePresenter> *)ockOnNetworkStatusSetter=YES, possibly resulting in hangs.;
+- (NSString *);
+- (AMSUIWebNavigationBarModel *)_TtCV20AppleMediaServicesUIP33_71CDCD57A2FD6FC6824D50B1224AC39B25PresentEngagementTaskView18TaskViewController;
 - (long long)=yyXlXpG;
 - (AMSMetricsEvent *)icon.;
-- (struct CGSize);
+
+@optional
+- (AMSUIWebAction *)_string:matches:acceptUnspecifiedValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *backgroundColor;
-@property(readonly) _Bool disableReappearPlaceholder;
-@property(readonly) AMSMetricsEvent *impressionEvent;
 @property(readonly) AMSUIWebNavigationBarModel *navigationBar;
-@property(readonly) AMSUIWebAction *swipeToDismissAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSUIWebAction",?,R
-
-@property(readonly) long long userInterfaceStyle;
-@property(readonly) struct CGSize windowSize;
 @end
 

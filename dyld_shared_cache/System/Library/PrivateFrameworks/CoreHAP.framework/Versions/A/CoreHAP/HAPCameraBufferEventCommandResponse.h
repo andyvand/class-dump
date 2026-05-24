@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface HAPCameraBufferEventCommandResponse
 {
@@ -12,26 +12,19 @@
 }
 
 + (id);
-- (id);
+- (id)B};
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)enumerateEventsFrom:(id)arg1 to:options:usingBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (void)B16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

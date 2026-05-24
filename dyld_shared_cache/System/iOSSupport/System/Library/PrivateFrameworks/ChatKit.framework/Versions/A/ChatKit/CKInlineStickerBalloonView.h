@@ -12,11 +12,11 @@
 {
 }
 
-+ (_Bool);
++ (_Bool);
+- (void),&,N,V_groupTouchBar;
+- (void),V_selectedSizeAction;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)nd hash %lu;
 - (void);
 - (_Bool);
 - (void);

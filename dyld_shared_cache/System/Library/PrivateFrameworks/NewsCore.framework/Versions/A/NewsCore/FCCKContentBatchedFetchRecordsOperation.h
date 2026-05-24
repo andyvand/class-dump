@@ -6,21 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCKContentDatabase, FCThreadSafeMutableArray, FCThreadSafeMutableSet, NSArray;
+@class FCCKContentDatabase;
 
 @interface FCCKContentBatchedFetchRecordsOperation : FCOperation
 {
     FCCKContentDatabase *_database;
-    NSArray *_recordIDs;
-    NSArray *_desiredKeys;
-    unsigned long long _maxBatchSize;
-    unsigned long long _maxParallelBatches;
-    long long _optimizationPolicy;
-    CDUnknownBlockType _perRecordCompletionBlock;
-    CDUnknownBlockType _fetchRecordsCompletionBlock;
-    FCThreadSafeMutableArray *_remainingRecordIDBatches;
-    FCThreadSafeMutableSet *_handledRecordIDs;
-    FCThreadSafeMutableArray *_allOperationErrors;
 }
 
 - (id);

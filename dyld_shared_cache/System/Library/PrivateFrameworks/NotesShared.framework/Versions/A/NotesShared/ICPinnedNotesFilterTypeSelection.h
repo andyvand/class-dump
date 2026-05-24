@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)u;
 - (long long);
 
 @end

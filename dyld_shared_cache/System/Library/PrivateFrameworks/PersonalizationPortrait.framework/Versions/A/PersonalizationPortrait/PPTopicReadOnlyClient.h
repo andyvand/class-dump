@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPXPCClientHelper, PPXPCClientPipelinedBatchQueryManager;
+@class PPXPCClientHelper;
 
 @interface PPTopicReadOnlyClient
 {
     PPXPCClientHelper *_clientHelper;
-    PPXPCClientPipelinedBatchQueryManager *_queryManager;
 }
 
 + (id);
@@ -23,13 +22,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
+- (void)7;
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)ithDelegate:(id *)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)loadEventNameRecordsAndMonitorChangesWithDelegate:(id *)arg1 error: /* Error: Ran out of types for this method. */;
 - (void)contactHandles;
 
 @end

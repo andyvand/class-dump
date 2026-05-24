@@ -7,8 +7,6 @@
 @interface SOFlexibleScrollView
 {
     struct CGSize _lastRecordedDocumentSize;
-    _Bool _hasHorizontalIntrinsicSize;
-    _Bool _hasVerticalIntrinsicSize;
 }
 
 + (_Bool);
@@ -24,8 +22,6 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(nonatomic) _Bool hasHorizontalIntrinsicSize; // @synthesize hasHorizontalIntrinsicSize=_hasHorizontalIntrinsicSize;
-@property(nonatomic) _Bool hasVerticalIntrinsicSize; // @synthesize hasVerticalIntrinsicSize=_hasVerticalIntrinsicSize;
 @property(nonatomic) struct CGSize lastRecordedDocumentSize; // @synthesize lastRecordedDocumentSize=_lastRecordedDocumentSize;
 
 @end

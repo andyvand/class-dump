@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface ICLibraryAuthServiceBulkClientTokenResponse
 {
     NSDictionary *_responseDictionary;
-    NSMutableDictionary *_parsedTokenResults;
 }
 
 - (id);
@@ -17,11 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void)tityProperties;
+- (void)ICMutableUserIdentityProperties;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *serverInstance;
-@property(readonly, copy, nonatomic) NSDictionary *tokenResults;
 
 @end
 

@@ -11,9 +11,9 @@
     _Bool _shouldAssertOnFingerprinting;
 }
 
-+ (id)localResource:error: /* Error: Ran out of types for this method. */;
++ (id)willUploadCloudResource:localResource:error: /* Error: Ran out of types for this method. */;
 - (void **);
-- (id);
+- (id)-tool;
 - (id);
 - (id);
 

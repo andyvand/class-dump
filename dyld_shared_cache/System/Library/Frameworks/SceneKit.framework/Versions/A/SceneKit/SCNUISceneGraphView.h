@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOutlineView, NSString, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface SCNUISceneGraphView
 {
     NSView *_mainView;
-    NSOutlineView *_outlineView;
-    id _typeInspector;
-    void *_rootNode;
 }
 
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)C;
 - (long long);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)bookmark_sync_timestamp;
 - (void);
 - (void)eCount, blendCascade, shadowKernel, sampleCount);
             shade(light.dir, light.color.rgb, intensity);
@@ -588,13 +585,7 @@ __attribute__((visibility("hidden")))
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

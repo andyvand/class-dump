@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPhoto, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPictureItem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDPhoto *_photo;
-    NSString *_primaryText;
-    NSString *_secondaryText;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _photoItemType;
-    struct {
-        unsigned int has_photoItemType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_photo:1;
-        unsigned int read_primaryText:1;
-        unsigned int read_secondaryText:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)";
+- (id)_firstPassTriggerInfo;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)1"has_type"b1"has_enableQueryAcceleratorAffordance"b1"read_unknownFields"b1"read_address"b1"read_brandProfile"b1"read_business"b1"read_category"b1"read_clientResolved"b1"read_collection"b1"read_directionIntent"b1"read_highlightExtra"b1"read_highlightMain"b1"read_offlineArea"b1"read_parsecRankingFeatures"b1"read_publisher"b1"read_queryAcceleratorCompletionString"b1"read_query"b1"read_retainSearch"b1"read_serverResultScoreMetadata"b1"wrote_anyField"b1};
-- (id)inProgressTasks;
+- (id)_inProgressTasks;
 - (id)Ìçè;
 - (void)q=
 ×£p@;

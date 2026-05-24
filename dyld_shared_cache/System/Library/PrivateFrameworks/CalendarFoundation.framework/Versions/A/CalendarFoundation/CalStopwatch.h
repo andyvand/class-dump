@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CalStopwatch
 {
     _Bool _isRunning;
-    unsigned long long _lastStartTime;
-    unsigned long long _elapsedTime;
-    _Bool _hasValidElapsedTime;
-    NSMutableDictionary *_events;
-    _Bool _usesSignalFlags;
 }
 
-- (void);
+- (void)qA;
 - (id);
-- (id);
+- (id)$;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (double);
+- (double)Z;
 - (unsigned long long);
 - (double);
 - (void);

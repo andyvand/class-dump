@@ -4,46 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEONameInfo, GEOPBTransitArtwork, NSMutableArray, NSString, PBDataReader;
-@protocol GEOTransitArtworkDataSource;
+@class PBDataReader;
 
 @interface GEOCompanionCyclingStep
 {
     PBDataReader *_reader;
-    struct GEOJunctionElement *_junctionElements;
-    unsigned long long _junctionElementsCount;
-    unsigned long long _junctionElementsSpace;
-    GEOPBTransitArtwork *_artworkOverride;
-    GEONameInfo *_exitNumber;
-    NSMutableArray *_maneuverNames;
-    NSString *_shield;
-    NSMutableArray *_signposts;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _drivingSide;
-    int _junctionType;
-    int _maneuverType;
-    int _shieldType;
-    _Bool _toFreeway;
-    struct {
-        unsigned int has_drivingSide:1;
-        unsigned int has_junctionType:1;
-        unsigned int has_maneuverType:1;
-        unsigned int has_shieldType:1;
-        unsigned int has_toFreeway:1;
-        unsigned int read_junctionElements:1;
-        unsigned int read_artworkOverride:1;
-        unsigned int read_exitNumber:1;
-        unsigned int read_maneuverNames:1;
-        unsigned int read_shield:1;
-        unsigned int read_signposts:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)sts:(id)arg1;
++ (Class)\w;
++ (_Bool)setHasNumberOfDoomRoutingRequests:(id)arg1;
 + (Class)Ð;
 - (_Bool);
 - (unsigned long long);
@@ -63,92 +32,64 @@
 - (void);
 - (void);
 - (void);
+- (id)isDirectory;
+- (int)isDeviceUnlockedSinceBoot;
+- (unsigned long long)isClientTCCRegionalAllowed;
+- (id)isClientTCCKilledOnAuthorizationChange;
+- (id)isClientTCCAllowedImpl;
+- (id)isAuthorizationRestricted;
+- (id)givenLocalizedString:(int)arg1 forKey:table:bundleForClass: /* Error: Ran out of types for this method. */;
+- (int)givenLocalizedString:forKey:table:bundleForClass: /* Error: Ran out of types for this method. */;
+- (unsigned long long)getObjectValue:forString:errorDescription: /* Error: Ran out of types for this method. */;
+- (struct GEOJunctionElement *)getDefaultCountryCode;
+- (struct GEOJunctionElement)getCurrentCountryCode;
+- (_Bool)_CNObservableTakeUntilSignalObserverDelegate;
+- (_Bool);
+- (_Bool)|;
+- (_Bool)red bug report successfully;
+- (_Bool)to unlock local lock;
+- (_Bool)?;
+- (id)Uzbekistan;
+- (id)ountry, State, City, SubLocality, Street, ZIP;
+- (int)honetic China mainland;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
 - (int);
+- (int);
+- (int);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)lenceDuration:(id)arg1 rcEndOfSentenceLikelihood:rcWordCount:rcServerFeaturesLatency:silencePosterior:acousticEndpointerScore:silencePosteriorNF: /* Error: Ran out of types for this method. */;
+- (id)SVoiceTriggerFirstPassHearst activationEventNotificationHandler:event:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (unsigned long long);
-- (struct GEOJunctionElement *);
-- (struct GEOJunctionElement);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (int);
-- (int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (int)aceCardCategory: /* Error: Ran out of types for this method. */;
-- (id)ion;
+- (int)setPlaceCardPlaceCardCategory: /* Error: Ran out of types for this method. */;
+- (id)screenResolution;
 - (id)Ä;
 - (id),¸-ð-;
-- (id)eRoutes;
+- (id)incidentsOffReRoutes;
 - (id);
 - (void):¯þ`Ú6L
 6 /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artworkOverride;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int drivingSide;
-@property(retain, nonatomic) GEONameInfo *exitNumber;
-@property(readonly, nonatomic) _Bool hasArtworkOverride;
-@property(nonatomic) _Bool hasDrivingSide;
-@property(readonly, nonatomic) _Bool hasExitNumber;
-@property(nonatomic) _Bool hasJunctionType;
 @property(nonatomic) _Bool hasManeuverType;
-@property(readonly, nonatomic) _Bool hasShield;
-@property(nonatomic) _Bool hasShieldType;
-@property(nonatomic) _Bool hasToFreeway;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct GEOJunctionElement *junctionElements;
-@property(readonly, nonatomic) unsigned long long junctionElementsCount;
-@property(nonatomic) int junctionType;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> maneuverArtworkOverride;
-@property(retain, nonatomic) NSMutableArray *maneuverNames;
-@property(nonatomic) int maneuverType;
-@property(retain, nonatomic) NSString *shield;
-@property(nonatomic) int shieldType;
-@property(retain, nonatomic) NSMutableArray *signposts;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool toFreeway;
-@property(readonly, nonatomic) int transportType;
 
 @end
 

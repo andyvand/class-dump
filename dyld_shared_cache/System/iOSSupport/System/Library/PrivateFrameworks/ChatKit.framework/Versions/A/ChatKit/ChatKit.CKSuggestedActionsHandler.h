@@ -12,8 +12,10 @@
 }
 
 + (id);
-- (void);
-- (void);
+- (void)password—not even Apple.
+
+Do you still want to know more about how your information is secured? ;
+- (void)kwebview.setAccentColor("%@");;
 - (id);
 - (id);
 - (void);

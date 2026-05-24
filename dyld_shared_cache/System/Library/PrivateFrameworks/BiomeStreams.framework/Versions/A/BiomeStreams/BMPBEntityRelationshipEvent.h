@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPBEntity, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface BMPBEntityRelationshipEvent
 {
     NSMutableArray *_attributes;
-    NSString *_clientId;
-    NSString *_relationship;
-    BMPBEntity *_sourceEntity;
-    NSString *_sourceId;
-    BMPBEntity *_targetEntity;
 }
 
 + (Class);
@@ -23,9 +18,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)tisticsUpdateOnly"B""(?="baseband"{?="queueDepth1"I"queueDepth2"I"txBitrate"I"averageBitrate"I"averageBitrateShort"I"averageBitrateLong"I"transmittedBytes"I"averageQueueDepth"d"expectedQueuingDelay"d"bdcd"d"normalizedBDCD"d"normalizedDelay"d"bbString"[64c]"radioTechnology"i}"feedback"{?="sendTimestamp"I"queuingDelay"I"remoteBWEstimation"I"remoteBWEStability"I"maxVideoBurstyLoss"I"audioConsecutiveLoss"I"mostBurstyLoss"I"audioReceivedPackets"I"videoReceivedPackets"I"totalReceivedKBytes"I"totalSentPackets"I"echoedSendTimestamp"I"mediaTimestamp"I"owrd"d"packetLossRate"d"actualBitrate"I"instantBitrate"I"roundTripTime"d"receiveQueueTarget"I"isPacketReceivedValid"B"packetReceived"{?="packetType"i"packetId"I"sampleRate"I"totalPacketsReceived"I"totalReceivedKBytes"I"receiveTimestamp"d"owrd"d"targetJitterQueueSize"d"bandwidthEstimation"I"localBurstyLoss"I}"connectionStats"{?="sequenceNumber"S"isDuplicatePacket"B"isReceivedOnPrimary"B"connectionStatsBuffer"I}"ecnStats"{tagVCStatisticsECNStats="ecnECT1Count"S"ecnCECount"S}"ecnRecvd"{tagVCStatisticsECNStats="ecnECT1Count"S"ecnCECount"S}"isECNEnabled"B"isOverRelay"B"remoteSSRC"I}"network"{?="packetLossPercentage"d"packetLossPercentageAudio"d"packetLossPercentageVideo"d"burstPacketLoss"I"roundTripTimeMilliseconds"I"isNetworkCongested"I"owrd"I"targetBitrate"I"statisticsID"Q"videoPacketsReceived"I}"probing"{?="estimatorID"I"deregisterEstimator"B"isProbingSequence"B"isEndOfProbingSequence"B"probingSequenceID"I"messageLength"I"arrivalTime"d"mediaTimestamp"I"isPacketReceivedValid"B"packetReceived"{?="packetType"i"packetId"I"sampleRate"I"totalPacketsReceived"I"totalReceivedKBytes"I"receiveTimestamp"d"owrd"d"targetJitterQueueSize"d"bandwidthEstimation"I"localBurstyLoss"I}}"serverStats"{?="linkID"C"sendTimestamp"I"receiveTimestamp"I"totalPacketSent"I"totalPacketReceived"I"totalByteSent"I"totalByteReceived"I"serverStatsByteUsed"I"bandwidthSample"I"bandwidthEstimation"I"roundTripTime"d"owrd"d"packetLossRate"d"packetLossRateShortWindow"d"actualBitrate"I"instantBitrate"I"serverStatsBitrate"I"expectedBitrate"I}"packetSent"{?="packetId"I"totalPacketsSent"I"totalBytesSent"I"sendTimestamp"d}"packetReceived"{?="packetType"i"packetId"I"sampleRate"I"totalPacketsReceived"I"totalReceivedKBytes"I"receiveTimestamp"d"owrd"d"targetJitterQueueSize"d"bandwidthEstimation"I"localBurstyLoss"I}"rtcpRR"{?="ssrc"I"packetLossPercentage"I"lastSequenceNumber"I"roundTripTimeMilliseconds"I}"config"{?="mode"I"remoteRadioAccessTechnology"I"localRadioAccessTechnology"I"maxBitrate"I"minBitrate"I"initialBitrate"I"isTrafficBursty"B"isTrafficSpatial"B"featureFlags"I"configType"i}"mediaEvent"{?="mediaEventType"I"additionalFlushCount"I"transactionID"I"audioStallBitrate"I"audioErasure"f"isKeyFrame"B"isTransitionToFEC"B"videoStallTimeDelta"d"videoStallTimeTotal"d"refreshFrameTimestamp"I"refreshFramePayloadType"I"refreshFramePacketCount"I"idsParticipantID"Q}"nwConnection"{?="version"C"direction"C"interfaceType"C"notificationType"C"timestamp"Q"maxThroughputBps"Q"totalByteCount"Q"flushableQueueSize"I"nonFlushableQueueSize"I"averageDelayMillisecond"I"averageThroughputBps"Q"rateTrendSuggestion"i"packetLossPerFrame"I"sequenceNumber"S""(?="wifi"{?="frequencyBand"C"intermittentState"C"estimatedIntermittentPeriod"S"singleOutagePeriod"S"btCoex"C"radioCoex"C"qualityScoreDelayRx"C"qualityScoreDelayTx"C"qualityScoreLossRx"C"qualityScoreLossTx"C"qualityScoreChannel"C"offChannelTimeRatio"f"detectedFrequentOffChannelActivity"B"wlanDutyCycle"S"wifiObservedTxBitrate"[6I]"maxRadioCoex"C"accumulatedOffChannelTime"q"maxSingleOutagePeriod"S"qualityScoreDelayRxAverage"f"qualityScoreDelayTxAverage"f"qualityScoreLossRxAverage"f"qualityScoreLossTxAverage"f"qualityScoreChannelAverage"f}"baseband"{?="radioAccessTechnology"C"referenceSignalLevel"s"signalLevel"s"signalQuality"c"uplinkBLER"C"downlinkBLER"C"bandwidthLimitationIndication"C"cdrxState"C"cdrxCycle"S"estimatedOutagePeriod"S"outageState"C})}"videoLossFeedback"{tagVCStatisticsVideoLossFeedback="frameRTPTimestamp"I"packetsReceived"S"frameSize"C"packetsLost"C}"localRCEvent"{tagVCStatisticsLocalRCEvent="recentSendTime"d"recentFeedbackTime"d"bytesInFlight"I}"receiveTimeReport"{tagVCStatisticsReceiveTimeReport="reportTimestamp"I"packetSendTimestamp"I"packetReceiveTimestamp"I"packetLength"S"packetSeqNumber"S"probingSequenceID"I"isProbingSequence"B"owrd"d"bandwidthEstimation"I"sendBitrate"I"receiveBitrate"I}"addRemoveEndPoint"{tagVCStatisticsAddRemoveEndPoint="remoteSSRC"I"isAdd"B})};
+- (void)videoConference:(id)arg1 inititiateRelayRequest:requestDict: /* Error: Ran out of types for this method. */;
+- (void)by remote duplication.;
 - (id);
 - (id);
 - (void);
@@ -41,7 +36,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)hasPrefix:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -50,17 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
 @property(readonly, nonatomic) _Bool hasClientId;
-@property(readonly, nonatomic) _Bool hasRelationship;
-@property(readonly, nonatomic) _Bool hasSourceEntity;
-@property(readonly, nonatomic) _Bool hasSourceId;
-@property(readonly, nonatomic) _Bool hasTargetEntity;
-@property(retain, nonatomic) NSString *relationship; // @synthesize relationship=_relationship;
-@property(retain, nonatomic) BMPBEntity *sourceEntity; // @synthesize sourceEntity=_sourceEntity;
-@property(retain, nonatomic) NSString *sourceId; // @synthesize sourceId=_sourceId;
-@property(retain, nonatomic) BMPBEntity *targetEntity; // @synthesize targetEntity=_targetEntity;
 
 @end
 

@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOrderedSet, PKPaymentProvisioningResponse;
+@class PKPaymentProvisioningResponse;
 
 @interface PKProvisionedPassBundle
 {
     _Bool _expressModeSetupOptional;
-    _Bool _expressEnabled;
-    _Bool _ampEnrollmentAvailable;
-    PKPaymentProvisioningResponse *_provisioningResponse;
-    NSOrderedSet *_provisionedPasses;
-    NSArray *_moreInfoItems;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (id);
 - (id);
-- (void)ideMyEmail_cached;
+- (void)hideMyEmail_cached;
 
 // Remaining properties
-@property(nonatomic) _Bool ampEnrollmentAvailable; // @synthesize ampEnrollmentAvailable=_ampEnrollmentAvailable;
-@property(nonatomic) _Bool expressEnabled; // @synthesize expressEnabled=_expressEnabled;
-@property(nonatomic) _Bool expressModeSetupOptional; // @synthesize expressModeSetupOptional=_expressModeSetupOptional;
-@property(retain, nonatomic) NSArray *moreInfoItems; // @synthesize moreInfoItems=_moreInfoItems;
-@property(retain, nonatomic) NSOrderedSet *provisionedPasses; // @synthesize provisionedPasses=_provisionedPasses;
 @property(retain, nonatomic) PKPaymentProvisioningResponse *provisioningResponse; // @synthesize provisioningResponse=_provisioningResponse;
 
 @end

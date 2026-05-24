@@ -15,21 +15,12 @@ struct _NSRange {
     unsigned long long length;
 };
 
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
 struct chunk_s {
     unsigned int _field1;
     unsigned int _field2;
 };
 
 #pragma mark Typedef'd Structures
-
-typedef struct {
-    unsigned long long s[2];
-} CDStruct_9981aeec;
 
 typedef struct {
     unsigned int _field1;

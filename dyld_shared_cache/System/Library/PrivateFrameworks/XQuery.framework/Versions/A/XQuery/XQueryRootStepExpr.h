@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, XQueryTypeDeclaration;
+@class XQueryTypeDeclaration;
 
 __attribute__((visibility("hidden")))
 @interface XQueryRootStepExpr
@@ -14,19 +14,14 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)
+5;
+- (void)!;
+- (id)E;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

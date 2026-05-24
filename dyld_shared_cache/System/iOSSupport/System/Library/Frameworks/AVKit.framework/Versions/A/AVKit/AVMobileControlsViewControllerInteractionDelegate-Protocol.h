@@ -5,5 +5,6 @@
 //
 
 @protocol AVMobileControlsViewControllerInteractionDelegate
+- (void)C;
 @end
 

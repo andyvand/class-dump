@@ -6,18 +6,9 @@
 
 #import <IMDaemonCore/IMDCKAbstractSyncController.h>
 
-@class IMStateCaptureAssistant, IMSyncResumer, NSDate, NSString, NSTimer;
-
 @interface IMDCKSyncController : IMDCKAbstractSyncController
 {
     _Bool _shouldReloadConversations;
-    _Bool _isFetchingExitForEnablement;
-    NSDate *_syncStartDate;
-    NSTimer *_longRunningSyncTimer;
-    long long _initialSyncAttempts;
-    NSTimer *_reloadTimer;
-    IMSyncResumer *_syncResumer;
-    IMStateCaptureAssistant *_stateCaptureAssistant;
 }
 
 + (_Bool);
@@ -31,21 +22,21 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void)`A;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
+- (void)kGroupNewAirPlayDeviceKey;
+- (void)kSnowAirPortDialogSecurityTypeWPA2_PSK_Mixed;
+- (id);
+- (_Bool);
+- (_Bool)redactedDescription;
 - (void);
 - (void);
 - (void);
@@ -64,18 +55,18 @@
 - (double);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)P;
+- (void)32@0:8@16@24 /* Error: Ran out of types for this method. */;
+- (void)isPersonalVoice;
+- (void)d;
 - (void);
 - (_Bool);
-- (void);
+- (void)HD;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -91,12 +82,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)ySiri"b1};
+- (id)actionSetName;
 - (long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)ause":(id)arg1;
+- (id)COERCION_FORM_UNDEFINED;
 - (long long);
 - (void);
 - (double);
@@ -106,7 +97,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)$Lz;
 - (id);
 - (void);
 - (double);
@@ -115,7 +106,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -129,7 +120,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ROptionUseSikDataInstance is set to false;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -139,27 +130,13 @@
 × ;
 - (void)a[Ð!\Bù°°1Â0@ù
 × ;
-- (void)sitionStickerCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)handleRepositionStickerCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)t¸È<Ð;
 - (void)with group chat %@ is a chat guid %@. This is never expected!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) long long initialSyncAttempts; // @synthesize initialSyncAttempts=_initialSyncAttempts;
-@property(nonatomic) _Bool isFetchingExitForEnablement; // @synthesize isFetchingExitForEnablement=_isFetchingExitForEnablement;
-@property(retain, nonatomic) NSTimer *longRunningSyncTimer; // @synthesize longRunningSyncTimer=_longRunningSyncTimer;
-@property(retain) NSTimer *reloadTimer; // @synthesize reloadTimer=_reloadTimer;
-@property _Bool shouldReloadConversations; // @synthesize shouldReloadConversations=_shouldReloadConversations;
-@property(retain, nonatomic) IMStateCaptureAssistant *stateCaptureAssistant; // @synthesize stateCaptureAssistant=_stateCaptureAssistant;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) IMSyncResumer *syncResumer; // @synthesize syncResumer=_syncResumer;
-@property(retain, nonatomic) NSDate *syncStartDate; // @synthesize syncStartDate=_syncStartDate;
 
 @end
 

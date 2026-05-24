@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface MTSchemaMTLanguageDisambiguationUIShown : SISchemaInstrumentationMessage
 {
@@ -21,18 +21,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/objects/obj_dat.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)];
 - (id);
 - (id)viceDimensions;
 - (id)",C,N,V_appBundleId;
-- (void)ntType;
+- (void)GMSSchemaGMSPartnerAccountType;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *locales; // @synthesize locales=_locales;
 
 @end

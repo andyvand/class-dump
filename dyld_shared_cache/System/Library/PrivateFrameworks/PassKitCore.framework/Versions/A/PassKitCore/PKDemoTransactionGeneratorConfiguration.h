@@ -9,13 +9,6 @@
 @interface PKDemoTransactionGeneratorConfiguration
 {
     NSString *_accountIdentifier;
-    NSString *_transactionSourceIdentifier;
-    long long _accountType;
-    NSString *_altDSID;
-    long long _demoMerchant;
-    long long _demoPerson;
-    long long _transactionCount;
-    unsigned long long _redemptionType;
 }
 
 - (id);
@@ -24,28 +17,21 @@
 - (void);
 - (unsigned long long);
 - (long long);
-- (long long);
+- (long long);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id)s locations;
 - (long long).payment.continuity.cloudpairing.missing;
-- (void)nContentIdentifier;
+- (void)adverseActionContentIdentifier;
 - (void);
 - (id)/Hk¼h;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(nonatomic) long long accountType; // @synthesize accountType=_accountType;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(nonatomic) long long demoMerchant; // @synthesize demoMerchant=_demoMerchant;
-@property(nonatomic) long long demoPerson; // @synthesize demoPerson=_demoPerson;
-@property(nonatomic) unsigned long long redemptionType; // @synthesize redemptionType=_redemptionType;
-@property(nonatomic) long long transactionCount; // @synthesize transactionCount=_transactionCount;
-@property(copy, nonatomic) NSString *transactionSourceIdentifier; // @synthesize transactionSourceIdentifier=_transactionSourceIdentifier;
 
 @end
 

@@ -6,28 +6,24 @@
 
 #import <Accessibility/AXMathExpression.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AXMathExpressionFenced : AXMathExpression
 {
     NSArray *_expressions;
-    NSString *_openString;
-    NSString *_closeString;
 }
 
-- (void);
+- (void)ountDisk:(id)arg1 entireDisk:atPath:readOnly:otherArguments:timeout:errorDict:] /* Error: Ran out of types for this method. */;
+- (id)th:readOnly:otherArguments:timeout:errorDict:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)irements=(0=norvt/1=decryptrvt/2=quickrvt/3=err)=%d;
+- (id)THIS LV:PausedProp=%d && BootVol=%d = NoHopeOfResumeUntilReboot=%d /* Error: Ran out of types for this method. */;
+- (void).corestorage.lvf.revertState;
+- (void)eCrypto=%d PasswdReqToUnlock=%d;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *closeString; // @synthesize closeString=_closeString;
 @property(retain, nonatomic) NSArray *expressions; // @synthesize expressions=_expressions;
-@property(retain, nonatomic) NSString *openString; // @synthesize openString=_openString;
 
 @end
 

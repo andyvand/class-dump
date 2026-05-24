@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)eaningSceneCriteria;
+- (id)requestWithTitle:url:minimumIconSize:maximumIconSize: /* Error: Ran out of types for this method. */;
+- (id)PGMeaningSceneCriteria;
 
 @end
 

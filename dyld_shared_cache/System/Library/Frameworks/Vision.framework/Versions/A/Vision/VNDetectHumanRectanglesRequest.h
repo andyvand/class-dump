@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNDetectHumanRectanglesRequest : VNImageBasedRequest
 {
 }
@@ -17,19 +15,18 @@
 + (Class);
 + (const CDStruct_3a02d5a8 *);
 + (id);
-+ (_Bool);
-- (_Bool);
++ (_Bool)(;
+- (_Bool)H;
 - (void);
 - (id);
 - (void);
 - (void);
 - (long long)Xl½ÿ!Ò¦Tl½ÿ!Ò¦T`®ÿ!Ò¦TÔ)°ÿ;
 - (_Bool)¹ÿ;
-- (id)ingKeys;
+- (id)CodingKeys;
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSArray *results; // @dynamic results;
 @property(nonatomic) _Bool upperBodyOnly;
 
 @end

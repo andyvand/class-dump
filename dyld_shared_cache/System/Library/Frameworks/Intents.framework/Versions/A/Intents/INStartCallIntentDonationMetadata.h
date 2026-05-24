@@ -6,17 +6,12 @@
 
 #import <Intents/INIntentDonationMetadata.h>
 
-@class NSNumber;
-
 @interface INStartCallIntentDonationMetadata : INIntentDonationMetadata
 {
     double _callDuration;
-    double _timeToEstablish;
-    NSNumber *_recentCallStatus;
-    NSNumber *_disconnectedReason;
 }
 
-+ (Class);
++ (Class)setSearchResultIdentifier: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (void);
@@ -25,21 +20,18 @@
 - (id);
 - (id);
 - (double);
-- (double);
-- (id);
+- (double)yb;
+- (id)setTouchedSources:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setDispatchQueue:(id)arg1;
+- (void)k transition is not allowed (%{public}@);
 - (id);
-- (void)ideAppTitlesOptionsCollectionForListShortcuts:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideAppTitlesOptionsCollectionForListShortcuts:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property double callDuration; // @synthesize callDuration=_callDuration;
-@property(copy) NSNumber *disconnectedReason; // @synthesize disconnectedReason=_disconnectedReason;
-@property(copy) NSNumber *recentCallStatus; // @synthesize recentCallStatus=_recentCallStatus;
-@property double timeToEstablish; // @synthesize timeToEstablish=_timeToEstablish;
 
 @end
 

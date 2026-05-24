@@ -7,7 +7,7 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (_Bool);
-- (long long)tProvider;
+- (void);
+- (long long)BannerContentProvider;
 @end
 

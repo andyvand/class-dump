@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPeerPaymentService;
-@protocol PKPeerPaymentTargetDeviceDelegate;
+@class PKPeerPaymentService;
 
 @interface PKPeerPaymentWebServiceTargetDevice
 {
     PKPeerPaymentService *_peerPaymentService;
-    id <PKPeerPaymentTargetDeviceDelegate> _targetDeviceDelegate;
 }
 
 - (void);
@@ -19,17 +17,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)setHasChangeDirection: /* Error: Ran out of types for this method. */;
+- (void)setMessageGuid:(CDUnknownBlockType)arg1;
 - (void);
 - (id);
 - (id);
@@ -38,16 +36,10 @@
 × ;
 - (void)1Â0@ù
 × ;
-- (void)ton;
+- (void)resetPaymentPINCancelButton;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

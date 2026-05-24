@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageBrowserView, NSDate;
+@class IKImageBrowserView;
 
 @interface IKImageBrowserVMScheduler
 {
     IKImageBrowserView *_browser;
-    _Bool _pause;
-    _Bool _idle;
-    _Bool _scheduleShouldAbort;
-    _Bool _needScheduleVMForScrolling;
-    int _scrollScheduleIndex;
-    id _firstImageScheduled;
-    int _vramBindedCount;
-    struct _NSRange _zoomScheduleItemRange;
-    NSDate *_lastDebugDisplay;
 }
 
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
@@ -32,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (id);

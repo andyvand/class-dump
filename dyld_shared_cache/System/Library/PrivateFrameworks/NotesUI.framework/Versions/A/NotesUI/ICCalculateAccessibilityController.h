@@ -9,12 +9,6 @@
 @interface ICCalculateAccessibilityController
 {
     void note;
-    id isVoiceOverEnabledObservation;
-    id isSwitchControlEnabledObservation;
-    id lastAnnouncement;
-    id hasInitializedStateCache;
-    id stateErrorsCache;
-    id stateResultsCache;
 }
 
 - (id);

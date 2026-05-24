@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_CaseExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _casetype;
-    id _casecollid;
-    id _arg;
-    id _args;
-    id _defresult;
-    id _location;
 }
 
 @end

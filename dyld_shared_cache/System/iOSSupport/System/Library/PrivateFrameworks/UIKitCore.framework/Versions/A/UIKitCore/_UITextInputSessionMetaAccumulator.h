@@ -12,14 +12,12 @@ __attribute__((visibility("hidden")))
 @interface _UITextInputSessionMetaAccumulator : _UITextInputSessionAccumulator
 {
     NSArray *_accumulators;
-    long long _lastSuccessfulIndex;
-    unsigned long long _actionCountWithoutIncrease;
 }
 
 + (id);
 - (void);
 - (void);
-- (id)ndTaskWithName:(struct _NSZone *)arg1 expirationHandler: /* Error: Ran out of types for this method. */;
+- (id)_beginBackgroundTaskWithName:(struct _NSZone *)arg1 expirationHandler: /* Error: Ran out of types for this method. */;
 - (void)#;
 
 @end

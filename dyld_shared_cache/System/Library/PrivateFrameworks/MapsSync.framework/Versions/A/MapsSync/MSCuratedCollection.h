@@ -11,14 +11,12 @@
 @interface MSCuratedCollection : MapsSync.MapsSyncObject
 {
     id _curatedCollectionIdentifier;
-    id _positionIndex;
-    id _resultProviderIdentifier;
 }
 
 + (Class);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -26,13 +24,10 @@
 - (long long);
 - (void);
 - (int);
-- (id);
+- (id)_accumulatedLengthOfCandidates;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *allowedClasses;
-@property(nonatomic) unsigned long long curatedCollectionIdentifier;
-@property(nonatomic) long long positionIndex;
-@property(nonatomic) int resultProviderIdentifier;
 
 @end
 

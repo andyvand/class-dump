@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAUserActivity : SADomainObject
 {
@@ -20,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)Q;
 - (id);
 - (void);
 - (_Bool);
@@ -35,13 +35,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *eligibileFunctions;
-@property(copy, nonatomic) NSString *internalGUID;
-@property(nonatomic) _Bool isEligibleForAppPunchout;
-@property(nonatomic) _Bool isEligibleForDirections;
-@property(nonatomic) _Bool isEligibleForHandoff;
-@property(nonatomic) _Bool isEligibleForPublicIndexing;
-@property(nonatomic) _Bool isEligibleForReminders;
-@property(nonatomic) _Bool isEligibleForSearch;
 
 @end
 

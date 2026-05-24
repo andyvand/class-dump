@@ -7,12 +7,10 @@
 @interface MDLBufferViewAllocator
 {
     struct vector<__IOSurface *, std::allocator<__IOSurface *>> _sharedRegions;
-    struct vector<bool, std::allocator<bool>> _owned;
-    struct vector<long, std::allocator<long>> _regionIndices;
 }
 
 + (_Bool);
-- (id);
+- (id)TH;
 - (id);
 - (id);
 - (void);
@@ -20,12 +18,12 @@
 - (id);
 - (struct __IOSurface *);
 - (void);
-- (struct __IOSurface *);
-- (void);
+- (struct __IOSurface *)!;
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)applyAttachmentsToCVPixelBuffer:(id)arg1;
+- (void);
 
 @end
 

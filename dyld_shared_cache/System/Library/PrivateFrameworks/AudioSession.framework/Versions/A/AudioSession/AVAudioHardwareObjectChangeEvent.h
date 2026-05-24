@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioHardwareObject, NSArray;
+@class AVAudioHardwareObject;
 
 @interface AVAudioHardwareObjectChangeEvent
 {
     AVAudioHardwareObject *changedObject;
-    NSArray *namedProperties;
-    NSArray *customProperties;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)NEPvDFetcher;
+- (void)NENetworkAgent;
+- (void)NEIPv4Settings;
+- (id)_TtP16NetworkExtension46NEHotspotAuthenticationProviderHostXPCProtocol_;
+- (id)_TtC16NetworkExtensionP33_8A6EAEC7B0CD28E3C1D36D746A66647F42NEIKEv2KeyExchangeHandlerCryptoKitMLKEM768;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVAudioHardwareObject *changedObject; // @synthesize changedObject;
-@property(retain, nonatomic) NSArray *customProperties; // @synthesize customProperties;
-@property(retain, nonatomic) NSArray *namedProperties; // @synthesize namedProperties;
 
 @end
 

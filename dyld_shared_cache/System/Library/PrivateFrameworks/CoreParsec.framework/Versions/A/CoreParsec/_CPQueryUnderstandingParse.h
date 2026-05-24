@@ -4,67 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPQueryUnderstandingParse
 {
     _Bool _hasUnspecifiedTokens;
-    _Bool _hasSortCriteriaTokens;
-    _Bool _hasLocationTokens;
-    _Bool _hasActionTokens;
-    _Bool _hasMediaTypeTokens;
-    _Bool _hasVisualQualityTokens;
-    _Bool _hasNounTokens;
-    _Bool _hasTimeTokens;
-    _Bool _hasEventTokens;
-    _Bool _hasGenericLocationTokens;
-    _Bool _hasCaptureDeviceTokens;
-    _Bool _hasFavoritedTokens;
-    _Bool _hasSourceAppTokens;
-    _Bool _hasPersonTokens;
-    _Bool _hasPersonSenderTokens;
-    _Bool _isUnsafeQuery;
-    _Bool _isBlocklistedQuery;
-    int _queryIntentType;
-    int _spotlightQueryIntent;
 }
 
+- (void)gned long long>, WTF:(int)arg1:WeakPtr<WebKit::WebExtensionController>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ge WHERE key in (;
+- (void)cannot be parsed because it doesn't have a host.;
+- (void)ecause it doesn't have a scheme.;
+- (void)scheme "%s" is invalid.;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)LECT COUNT(*) FROM ;
+- (void)ER PRIMARY KEY NOT NULL, rule BLOB NOT NULL);
+- (void)questRules.db;
+- (void)o add ;
+- (void)_rules;
+- (void)ValidateKey:(_Bool)arg1:Yes] /* Error: Ran out of types for this method. */;
+- (void)_t>, unsigned long long>>, Malloc = WTF:(_Bool)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)tifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF:(_Bool)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)IdentifierType, WTF:(_Bool)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)Traits<WTF:(_Bool)arg1:ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)nsionContext>>:(_Bool)arg1:KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)ExtensionContext::PermissionState>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<URL>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)ebExtension::ModifierFlags>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (_Bool)TF::String, WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WebKit::WebExtension::ModifierFlags>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WebKit::WebExtension::ModifierFlags>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)suggested_key;
+- (_Bool)default_icon;
+- (_Bool)action;
+- (_Bool)externally_connectable;
+- (_Bool)run_at;
+- (_Bool)exclude_globs;
+- (_Bool)match_origin_as_fallback;
+- (int)ExtensionStoreRef.cpp;
+- (_Bool)ry/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/API/C/WKUserContentExtensionStoreRef.cpp;
+- (_Bool)-lucuns1EyaU8WzebByK7E/Library/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/API/C/WKUserContentExtensionStoreRef.cpp;
 - (void);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -74,33 +54,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasActionTokens; // @synthesize hasActionTokens=_hasActionTokens;
-@property(nonatomic) _Bool hasCaptureDeviceTokens; // @synthesize hasCaptureDeviceTokens=_hasCaptureDeviceTokens;
-@property(nonatomic) _Bool hasEventTokens; // @synthesize hasEventTokens=_hasEventTokens;
-@property(nonatomic) _Bool hasFavoritedTokens; // @synthesize hasFavoritedTokens=_hasFavoritedTokens;
-@property(nonatomic) _Bool hasGenericLocationTokens; // @synthesize hasGenericLocationTokens=_hasGenericLocationTokens;
-@property(nonatomic) _Bool hasLocationTokens; // @synthesize hasLocationTokens=_hasLocationTokens;
-@property(nonatomic) _Bool hasMediaTypeTokens; // @synthesize hasMediaTypeTokens=_hasMediaTypeTokens;
-@property(nonatomic) _Bool hasNounTokens; // @synthesize hasNounTokens=_hasNounTokens;
-@property(nonatomic) _Bool hasPersonSenderTokens; // @synthesize hasPersonSenderTokens=_hasPersonSenderTokens;
-@property(nonatomic) _Bool hasPersonTokens; // @synthesize hasPersonTokens=_hasPersonTokens;
-@property(nonatomic) _Bool hasSortCriteriaTokens; // @synthesize hasSortCriteriaTokens=_hasSortCriteriaTokens;
-@property(nonatomic) _Bool hasSourceAppTokens; // @synthesize hasSourceAppTokens=_hasSourceAppTokens;
-@property(nonatomic) _Bool hasTimeTokens; // @synthesize hasTimeTokens=_hasTimeTokens;
-@property(nonatomic) _Bool hasUnspecifiedTokens; // @synthesize hasUnspecifiedTokens=_hasUnspecifiedTokens;
-@property(nonatomic) _Bool hasVisualQualityTokens; // @synthesize hasVisualQualityTokens=_hasVisualQualityTokens;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isBlocklistedQuery; // @synthesize isBlocklistedQuery=_isBlocklistedQuery;
-@property(nonatomic) _Bool isUnsafeQuery; // @synthesize isUnsafeQuery=_isUnsafeQuery;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
 @property(nonatomic) int queryIntentType; // @synthesize queryIntentType=_queryIntentType;
-@property(nonatomic) int spotlightQueryIntent; // @synthesize spotlightQueryIntent=_spotlightQueryIntent;
-@property(readonly) Class superclass;
 
 @end
 

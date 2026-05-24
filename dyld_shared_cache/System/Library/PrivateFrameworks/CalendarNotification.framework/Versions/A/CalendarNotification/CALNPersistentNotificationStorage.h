@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNInMemoryNotificationStorage, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CALNPersistentNotificationStorage
 {
     _Bool _protected;
-    NSString *_path;
-    CALNInMemoryNotificationStorage *_inMemoryStorage;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -21,26 +17,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@
+;
 - (void);
 - (void);
-- (id);
+- (id)_mapKitHandle;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CALNInMemoryNotificationStorage *inMemoryStorage; // @synthesize inMemoryStorage=_inMemoryStorage;
 @property(readonly, copy, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (id);
+- (id)EnabledPreferencePanes;
 
 @end
 

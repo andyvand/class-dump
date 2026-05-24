@@ -5,5 +5,9 @@
 //
 
 @protocol CHSControlsXPCServer
+- (oneway void)N?;
+- (oneway void)*aN?;
+- (oneway void)*?;
+- (oneway void);
 @end
 

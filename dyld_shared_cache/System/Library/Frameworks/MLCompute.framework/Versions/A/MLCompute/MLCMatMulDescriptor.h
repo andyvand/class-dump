@@ -7,12 +7,10 @@
 @interface MLCMatMulDescriptor
 {
     _Bool _transposesX;
-    _Bool _transposesY;
-    float _alpha;
 }
 
 + (id);
-+ (id);
++ (id)?;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(readonly, nonatomic) _Bool transposesX; // @synthesize transposesX=_transposesX;
-@property(readonly, nonatomic) _Bool transposesY; // @synthesize transposesY=_transposesY;
 
 @end
 

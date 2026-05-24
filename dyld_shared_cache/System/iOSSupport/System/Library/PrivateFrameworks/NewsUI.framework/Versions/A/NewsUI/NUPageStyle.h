@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface NUPageStyle
 {
     _Bool _hideToolbar;
-    NSString *_title;
-    UIImage *_titleImage;
-    NSString *_nextButtonTitle;
 }
 
 - (_Bool);
@@ -22,15 +19,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)_TtC7NewsAds18AdPendingLoadToken;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hideToolbar; // @synthesize hideToolbar=_hideToolbar;
-@property(copy, nonatomic) NSString *nextButtonTitle; // @synthesize nextButtonTitle=_nextButtonTitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) UIImage *titleImage; // @synthesize titleImage=_titleImage;
 
 @end
 

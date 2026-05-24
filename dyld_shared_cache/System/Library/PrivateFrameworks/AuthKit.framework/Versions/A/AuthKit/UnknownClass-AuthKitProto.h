@@ -4,10 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (AuthKitProto)
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
@@ -21,6 +19,5 @@
 
 // Remaining properties
 @property(nonatomic, setter=proto_setAgeRange:) unsigned long long proto_ageRange;
-@property(copy, nonatomic, setter=proto_setGivenName:) NSString *proto_givenName;
 @end
 

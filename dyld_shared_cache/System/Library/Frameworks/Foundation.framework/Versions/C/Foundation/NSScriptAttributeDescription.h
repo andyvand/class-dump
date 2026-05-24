@@ -6,14 +6,9 @@
 
 #import <Foundation/NSScriptPropertyDescription.h>
 
-@class NSArray, NSObject, NSString;
-
 @interface NSScriptAttributeDescription : NSScriptPropertyDescription
 {
     unsigned int _appleEventCode;
-    NSString *_presentableDescription;
-    NSObject *_presentableNameOrNames;
-    NSArray *_synonymDescriptions;
 }
 
 + (id);
@@ -21,13 +16,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (id);
 - (id);
 - (unsigned int);
 - (unsigned short);
-- (id);
+- (id)h;
 - (id);
 - (void);
 

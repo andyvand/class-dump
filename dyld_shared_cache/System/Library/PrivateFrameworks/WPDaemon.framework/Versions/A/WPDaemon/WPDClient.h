@@ -4,62 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, NSUUID, NSXPCConnection, WPDAdvertisingManager, WPDObjectDiscoveryManager, WPDPipeManager, WPDScanManager, WPDZoneManager, WPDaemonServer;
-@protocol OS_dispatch_queue, OS_voucher, WPDClientDelegate;
-
 @interface WPDClient
 {
     unsigned long long _wpDClientSignPostID;
-    _Bool _isTestModeClient;
-    _Bool _canDisableScans;
-    _Bool _registered;
-    _Bool _portTickled;
-    _Bool _listeningToBluetoothBandwdith;
-    _Bool _entitledForZones;
-    _Bool _entitledForObjectDiscovery;
-    _Bool _entitledForRanging;
-    _Bool _pendingSent;
-    _Bool _scanDenylisted;
-    _Bool _scansOff;
-    _Bool _isObjectDiscovery;
-    _Bool _supportsObjectDiscovery;
-    _Bool _supportsRanging;
-    int _processID;
-    id <WPDClientDelegate> _delegate;
-    NSUUID *_clientUUID;
-    NSString *_clientTypeString;
-    NSString *_processName;
-    NSMutableSet *_endpointsSet;
-    NSString *_bundleID;
-    NSXPCConnection *_conn;
-    NSObject<OS_dispatch_queue> *_messageQueue;
-    WPDaemonServer *_server;
-    NSObject<OS_dispatch_queue> *_serverQueue;
-    NSString *_machName;
-    long long _holdVouchers;
-    WPDScanManager *_scanManager;
-    WPDAdvertisingManager *_advertisingManager;
-    WPDZoneManager *_zoneManager;
-    WPDPipeManager *_pipeManager;
-    WPDObjectDiscoveryManager *_objectDiscoveryManager;
-    NSMutableDictionary *_connections;
-    NSUUID *_identifier;
-    NSMutableDictionary *_advertTimers;
-    NSMutableDictionary *_advertTimerState;
-    NSMutableDictionary *_scanTimers;
-    NSMutableDictionary *_connectionTimer;
-    double _scanTimeout;
-    double _advTimeout;
-    NSMutableSet *_lePipePeersSet;
-    NSObject<OS_voucher> *_scanVoucher;
-    NSObject<OS_voucher> *_advertVoucher;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)!;
 + (void);
 - (void);
 - (id);
@@ -69,7 +23,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (void);
@@ -80,7 +34,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -101,28 +55,28 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (void);
@@ -160,12 +114,12 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)cachedFormattedHandle;
+- (void)t",&,N,V_imBlockItemList;
+- (void)IMInternalPayloadUtilities;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Fetching completed state since this interface is for Unit Testing only.;
 - (id);
 - (void);
 - (void);
@@ -174,19 +128,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -198,10 +145,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void)@0:(unsigned char)arg1 8@16@24@32@40;
+- (void)peripheralManager:(_Bool)arg1 central:didUnsubscribeFromCharacteristic: /* Error: Ran out of types for this method. */;
+- (void)aconManager:(unsigned char)arg1 repairDataStore: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -211,14 +165,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
@@ -230,10 +184,10 @@
 × ;
 - (id)@ù
 × ;
-- (void)nchronisePrefs;
-- (void)kingPeerWithRequest:(id)arg1;
-- (void)ithState:(id)arg1 objects:(id)arg2 count:(id)arg3;
-- (void)mer;
+- (void)synchronisePrefs;
+- (void)startTrackingPeerWithRequest:(id)arg1;
+- (void)countByEnumeratingWithState:(id)arg1 objects:(id)arg2 count:(id)arg3;
+- (void)cancelExitTimer;
 - (void),V_types;
 - (_Bool)ptor;
 - (void)ype %ld beyond bounds WPClientMax = %ld;
@@ -244,56 +198,7 @@
 - (void)ÌÉoÐ;
 
 // Remaining properties
-@property double advTimeout; // @synthesize advTimeout=_advTimeout;
-@property(retain) NSMutableDictionary *advertTimerState; // @synthesize advertTimerState=_advertTimerState;
-@property(retain) NSMutableDictionary *advertTimers; // @synthesize advertTimers=_advertTimers;
-@property(retain, nonatomic) NSObject<OS_voucher> *advertVoucher; // @synthesize advertVoucher=_advertVoucher;
-@property __weak WPDAdvertisingManager *advertisingManager; // @synthesize advertisingManager=_advertisingManager;
-@property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property _Bool canDisableScans; // @synthesize canDisableScans=_canDisableScans;
-@property(retain) NSString *clientTypeString; // @synthesize clientTypeString=_clientTypeString;
-@property(retain) NSUUID *clientUUID; // @synthesize clientUUID=_clientUUID;
-@property(retain) NSXPCConnection *conn; // @synthesize conn=_conn;
-@property(retain) NSMutableDictionary *connectionTimer; // @synthesize connectionTimer=_connectionTimer;
-@property(retain) NSMutableDictionary *connections; // @synthesize connections=_connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <WPDClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableSet *endpointsSet; // @synthesize endpointsSet=_endpointsSet;
-@property _Bool entitledForObjectDiscovery; // @synthesize entitledForObjectDiscovery=_entitledForObjectDiscovery;
-@property _Bool entitledForRanging; // @synthesize entitledForRanging=_entitledForRanging;
-@property _Bool entitledForZones; // @synthesize entitledForZones=_entitledForZones;
-@property(readonly) unsigned long long hash;
-@property long long holdVouchers; // @synthesize holdVouchers=_holdVouchers;
-@property(retain) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property _Bool isObjectDiscovery; // @synthesize isObjectDiscovery=_isObjectDiscovery;
-@property _Bool isTestModeClient; // @synthesize isTestModeClient=_isTestModeClient;
-@property(retain) NSMutableSet *lePipePeersSet; // @synthesize lePipePeersSet=_lePipePeersSet;
-@property _Bool listeningToBluetoothBandwdith; // @synthesize listeningToBluetoothBandwdith=_listeningToBluetoothBandwdith;
-@property(retain) NSString *machName; // @synthesize machName=_machName;
-@property(retain) NSObject<OS_dispatch_queue> *messageQueue; // @synthesize messageQueue=_messageQueue;
-@property __weak WPDObjectDiscoveryManager *objectDiscoveryManager; // @synthesize objectDiscoveryManager=_objectDiscoveryManager;
-@property _Bool pendingSent; // @synthesize pendingSent=_pendingSent;
-@property __weak WPDPipeManager *pipeManager; // @synthesize pipeManager=_pipeManager;
 @property _Bool portTickled; // @synthesize portTickled=_portTickled;
-@property int processID; // @synthesize processID=_processID;
-@property(retain) NSString *processName; // @synthesize processName=_processName;
-@property _Bool registered; // @synthesize registered=_registered;
-@property _Bool scanDenylisted; // @synthesize scanDenylisted=_scanDenylisted;
-@property __weak WPDScanManager *scanManager; // @synthesize scanManager=_scanManager;
-@property double scanTimeout; // @synthesize scanTimeout=_scanTimeout;
-@property(retain) NSMutableDictionary *scanTimers; // @synthesize scanTimers=_scanTimers;
-@property(retain, nonatomic) NSObject<OS_voucher> *scanVoucher; // @synthesize scanVoucher=_scanVoucher;
-@property _Bool scansOff; // @synthesize scansOff=_scansOff;
-@property(readonly) __weak WPDaemonServer *server; // @synthesize server=_server;
-@property(readonly) __weak NSObject<OS_dispatch_queue> *serverQueue; // @synthesize serverQueue=_serverQueue;
-@property(readonly) Class superclass;
-@property(readonly) _Bool supportsObjectDiscovery; // @synthesize supportsObjectDiscovery=_supportsObjectDiscovery;
-@property(readonly) _Bool supportsRanging; // @synthesize supportsRanging=_supportsRanging;
-@property __weak WPDZoneManager *zoneManager; // @synthesize zoneManager=_zoneManager;
 
 @end
 

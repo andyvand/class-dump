@@ -6,19 +6,17 @@
 
 #import <TextInput/TIMecabraCandidate.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface TICompositeMecabraCandidate : TIMecabraCandidate
 {
     NSString *_remainderCandidateString;
-    NSArray *_autoconvertedCandidatePointerValues;
 }
 
 + (int);
-+ (_Bool);
++ (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *autoconvertedCandidatePointerValues; // @synthesize autoconvertedCandidatePointerValues=_autoconvertedCandidatePointerValues;
 @property(copy, nonatomic) NSString *remainderCandidateString; // @synthesize remainderCandidateString=_remainderCandidateString;
 
 @end

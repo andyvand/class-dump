@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
 @protocol CKKnowledgeStoreDelegate;
 
 @interface CKKnowledgeStore
 {
     id backingStore;
-    id sparqlQueue;
-    id location;
-    void delegate;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)light",&,N;
 - (id);
 - (void);
 - (_Bool);
@@ -35,45 +31,42 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (long long);
-- (void);
+- (long long)uniformTypeIdentifier;
+- (void)vateFileURL;
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool)24@0:(id)arg1 8@"_SFPBContactButtonItem"16;
+- (_Bool)setFlightCheckinCommand:(id)arg1;
+- (id)dSection;
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKKnowledgeStoreDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) NSURL *filePathURL;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *name;
 
 @end
 

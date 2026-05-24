@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _GCDigitizerEventImpl
 {
     unsigned long long timestamp;
-    float x;
-    float y;
 }
 
 - (id);
 - (unsigned long long);
+- (void)e.start.Unknown;
 - (void);
+- (id)setupBeneficiaryAliasWithAccessKey:(struct _NSZone *)arg1 password:firstName:lastName:authToken:completion: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (float);
-- (float)estamp;
-
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
+- (float)rA;
 @property(nonatomic) unsigned long long timestamp; // @synthesize timestamp;
-@property(nonatomic) float x; // @synthesize x;
-@property(nonatomic) float y; // @synthesize y;
 
 @end
 

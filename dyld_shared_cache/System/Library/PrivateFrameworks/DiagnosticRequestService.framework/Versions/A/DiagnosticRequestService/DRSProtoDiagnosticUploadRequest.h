@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoRequestDescription, NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoDiagnosticUploadRequest
 {
     NSString *_issueDescription;
-    NSMutableArray *_logs;
-    DRSProtoRequestDescription *_requestDescription;
 }
 
 + (Class);
@@ -25,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)0;
 - (void);
 - (void);
 - (unsigned long long);
@@ -35,15 +33,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)iledWithFailures:(id)arg1;
+- (void)connection:(id)arg1 channelSubscriptionsFailedWithFailures: /* Error: Ran out of types for this method. */;
 - (id)g due to config %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIssueDescription;
 @property(readonly, nonatomic) _Bool hasRequestDescription;
-@property(retain, nonatomic) NSString *issueDescription; // @synthesize issueDescription=_issueDescription;
-@property(retain, nonatomic) NSMutableArray *logs; // @synthesize logs=_logs;
-@property(retain, nonatomic) DRSProtoRequestDescription *requestDescription; // @synthesize requestDescription=_requestDescription;
 
 @end
 

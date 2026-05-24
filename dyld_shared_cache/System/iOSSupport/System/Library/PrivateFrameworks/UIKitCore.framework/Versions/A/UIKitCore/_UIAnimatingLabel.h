@@ -11,11 +11,11 @@
     _Bool _shouldAnimateVariantWeight;
 }
 
-+ (Class);
++ (Class)_lookupDictionary;
 - (_Bool)0@ù
 × ;
 - (void)ntedObject for item %@;
-- (void)howingMasterView;
+- (void)SplitViewControllerShowingMasterView;
 
 @end
 

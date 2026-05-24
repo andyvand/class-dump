@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _EARProfiler
 {
     unsigned long long _n_samples;
-    double _max_rss;
-    double _jetsam_max;
-    double _jetsam_tot;
-    struct vector<float, std::allocator<float>> _background_power;
-    struct vector<void *, std::allocator<void *>> _networks;
-    struct powerSummary _power_summary;
-    double _start_time;
-    double _end_time;
-    double _ane_time;
-    NSString *_power_profiler_name;
-    NSString *_background_power_logfile_name;
-    NSString *_runtime_power_logfile_name;
-    _Bool __memoryProfiler;
-    _Bool __perfProfiler;
-    _Bool __powerProfiler;
-    _Bool __hasPMP;
-    _Bool __keepLogFiles;
 }
 
 + (id);
@@ -40,28 +21,24 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)__objc_superrefs__DATA_CONST;
 - (_Bool);
-- (_Bool);
+- (_Bool)__objc_selrefs;
 - (void);
-- (void);
+- (void)yF;
 - (id);
 - (id);
 - (void);
 - (void)è;
 
 // Remaining properties
-@property _Bool _hasPMP; // @synthesize _hasPMP=__hasPMP;
-@property _Bool _keepLogFiles; // @synthesize _keepLogFiles=__keepLogFiles;
 @property _Bool _memoryProfiler; // @synthesize _memoryProfiler=__memoryProfiler;
-@property _Bool _perfProfiler; // @synthesize _perfProfiler=__perfProfiler;
-@property _Bool _powerProfiler; // @synthesize _powerProfiler=__powerProfiler;
 
 @end
 

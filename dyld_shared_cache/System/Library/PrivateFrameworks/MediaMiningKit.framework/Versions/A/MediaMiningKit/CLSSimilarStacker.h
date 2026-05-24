@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CLSSimilarStacker
 {
     Class _similarityModelClass;
-    NSMutableDictionary *_similarityModelByVersion;
-    double _distanceThresholdForIdenticalSimilarity;
-    double _distanceThresholdForIdenticalSimilarityWithPeople;
-    double _distanceThresholdForSemanticalSimilarity;
-    double _distanceThresholdForSemanticalSimilarityWithPeople;
-    double _distanceThresholdForSemanticalSimilarityWithPersons;
-    CDUnknownBlockType _sceneprintGetterBlock;
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -27,7 +18,7 @@
 - (id);
 - (double);
 - (double);
-- (double);
+- (double);
 - (id);
 - (id);
 - (void);

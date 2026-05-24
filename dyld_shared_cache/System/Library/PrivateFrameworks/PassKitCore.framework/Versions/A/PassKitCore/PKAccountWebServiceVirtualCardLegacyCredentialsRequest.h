@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL, PKVirtualCardEncryptionFields;
+@class NSString;
 
 @interface PKAccountWebServiceVirtualCardLegacyCredentialsRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSString *_virtualCardIdentifier;
-    PKVirtualCardEncryptionFields *_encryptionFields;
 }
 
 - (id);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) PKVirtualCardEncryptionFields *encryptionFields; // @synthesize encryptionFields=_encryptionFields;
-@property(copy, nonatomic) NSString *virtualCardIdentifier; // @synthesize virtualCardIdentifier=_virtualCardIdentifier;
 
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     UIColor *_lp_indicatorColor;
 }
 
-- (id);
+- (id)destinationLocaleIdentifier;
 - (void);
 - (id);
 - (id);

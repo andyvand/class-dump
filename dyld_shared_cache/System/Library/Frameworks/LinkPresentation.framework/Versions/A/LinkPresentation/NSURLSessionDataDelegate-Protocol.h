@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void)0;
+- (void)?;
+- (void)setPongDiscovery:(NSURLSession *)arg1;
 @end
 

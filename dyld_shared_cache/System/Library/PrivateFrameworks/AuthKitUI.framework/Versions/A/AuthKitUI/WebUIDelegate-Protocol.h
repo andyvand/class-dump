@@ -4,6 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSResponder, NSString, WebView;
+
 @protocol WebUIDelegate
+
+@optional
+- (NSString *)(SPResultValueItem, SPResultValueItem)>=(type=[24C])^v}}{vector<SPResultValueItem, std:(WebView *)arg1:allocator<SPResultValueItem>>=^{SPResultValueItem}^{SPResultValueItem}{?=^{SPResultValueItem}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std::allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std::allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}}8{SPResultValueItem=Tdif@fff@@}160 /* Error: Ran out of types for this method. */;
+- (void)Item)>={__value_func<bool (SPResultValueItem, SPResultValueItem)>=(type=[24C])^v}}{vector<SPResultValueItem, std:(WebView *)arg1:allocator<SPResultValueItem>>=^{SPResultValueItem}^{SPResultValueItem}{?=^{SPResultValueItem}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std::allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std::allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}}8{SPResultValueItem=Tdif@fff@@}160 /* Error: Ran out of types for this method. */;
+- (void)esultValueItem, SPResultValueItem)>={__value_func<bool (SPResultValueItem, SPResultValueItem)>=(type=[24C])^v}}{vector<SPResultValueItem, std:(WebView *)arg1:allocator<SPResultValueItem>>=^{SPResultValueItem}^{SPResultValueItem}{?=^{SPResultValueItem}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std::allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std::allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}}8{SPResultValueItem=Tdif@fff@@}160 /* Error: Ran out of types for this method. */;
+- (_Bool)?0{IndexResults=I@@@{function<bool (SPResultValueItem, SPResultValueItem)>={__value_func<bool (SPResultValueItem, SPResultValueItem)>=(type=[24C])^v}}{vector<SPResultValueItem, std:(WebView *)arg1:allocator<SPResultValueItem>>=^{SPResultValueItem}^{SPResultValueItem}{?=^{SPResultValueItem}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std::allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}{tt_hash_table<SPResultValueItemHashTableEntry>=I{vector<SPResultValueItemHashTableEntry, std::allocator<SPResultValueItemHashTableEntry>>=^{SPResultValueItemHashTableEntry}^{SPResultValueItemHashTableEntry}{?=^{SPResultValueItemHashTableEntry}}}}}8{SPResultValueItem=Tdif@fff@@}160 /* Error: Ran out of types for this method. */;
+- (_Bool)r;
+- (float)SSToolParameterizedTitle;
+- (struct CGRect)ndexed-tool;
+- (float)kMDQueryResultNewMatchedExtraQueriesField;
+- (NSResponder *)ks;
+- (struct CGRect)(**="%@*"cwdt);
+- (void)v32@?0@"NSString"8@"NSArray"16@"NSArray"24;
+- (_Bool)e.managedcorespotlightd;
+- (void)l/Applications;
+- (void)System/Volumes/Preboot/Cryptexes/App/System/Applications;
+- (_Bool)kMDItemAppStoreCategoryType;
+- (_Bool)ames;
+- (void)n.sh;
+- (void)_kMDItemDisplayNameWithExtensions;
+- (void)eference.prefpane;
+- (void)ionQuery direct;
+- (void)ry/PreferencePanes/;
+- (void)nQuery settings direct;
+- (void)[LocalApps];
+- (void)_kMDItemIsTemplateApp;
+- (NSString *)nternal/Spotlight/AppleSystem.plist;
+- (NSString *)list;
+- (_Bool)weather;
+- (_Bool)rtcuts;
+- (void)intcenter;
+- (void)bilephone;
+- (_Bool)apple.keychainaccess;
+- (void)inder.Open-Recents;
+- (void)apple.finder.Open-AllMyFiles;
+- (void)inder;
+- (void)apple.clock;
+- (unsigned long long)e.backup.launcher;
+- (unsigned long long)m.apple.archiveutility;
+- (WebView *)pple.Stickies;
+- (WebView *)processing-droplet-template;
 @end
 

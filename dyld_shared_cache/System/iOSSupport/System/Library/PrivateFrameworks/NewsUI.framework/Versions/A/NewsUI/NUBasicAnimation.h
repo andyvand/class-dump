@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NUBasicAnimation
 {
     CDUnknownBlockType _completion;
 }
 
 + (id);
+- (void)CIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/kit/TSKApplicationDelegate.m;
+- (CDUnknownBlockType)setMaxSize: /* Error: Ran out of types for this method. */;
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void)tentOffset:(id)arg1;
+- (void)scrollViewWillEndDragging:(id)arg1 withVelocity:(_Bool)arg2 targetContentOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

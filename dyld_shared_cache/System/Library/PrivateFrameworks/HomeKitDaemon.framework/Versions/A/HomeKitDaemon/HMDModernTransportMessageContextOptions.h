@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernTransportMessageContextOptions
 {
     _Bool _expectsMultipleResponses;
-    _Bool _trackingDeviceReachability;
-    _Bool _expectRapportSuccess;
-    NSSet *_transports;
-    double _timeoutOverride;
-    double _timeToLive;
-    NSString *_requestStartTimeHeaderKey;
-    NSString *_timeToLiveHeaderKey;
 }
 
 + (id);
-- (_Bool);
+- (_Bool),N,GisCancelled,V_cancelled;
 - (_Bool);
 - (_Bool);
 - (double);
@@ -32,13 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)ftwareVersion = %@, pairingRequiredSoftwareVersion = %@, requiredPairingCapabilities = %@, idsIdentifier = %@, Device = %@, supportedStereoPairVersions = %@;
 
 // Remaining properties
-@property(readonly) _Bool expectRapportSuccess; // @synthesize expectRapportSuccess=_expectRapportSuccess;
-@property(readonly) _Bool expectsMultipleResponses; // @synthesize expectsMultipleResponses=_expectsMultipleResponses;
-@property(readonly) NSString *requestStartTimeHeaderKey; // @synthesize requestStartTimeHeaderKey=_requestStartTimeHeaderKey;
-@property(readonly) double timeToLive; // @synthesize timeToLive=_timeToLive;
-@property(readonly) NSString *timeToLiveHeaderKey; // @synthesize timeToLiveHeaderKey=_timeToLiveHeaderKey;
-@property(readonly) double timeoutOverride; // @synthesize timeoutOverride=_timeoutOverride;
-@property(readonly, getter=isTrackingDeviceReachability) _Bool trackingDeviceReachability; // @synthesize trackingDeviceReachability=_trackingDeviceReachability;
 @property(readonly) NSSet *transports; // @synthesize transports=_transports;
 
 @end

@@ -6,27 +6,19 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOCountryConfigFetchGeoIPRequest : GEOXPCRequest
 {
 }
 
-+ (Class);
++ (Class)SLGoogleOAuth2TokenResponse;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)eResult:(id)arg1;
+- (_Bool)readStateSourceData:toBuffer:offset:maxLength: /* Error: Ran out of types for this method. */;
+- (void)_currentTimeResult:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

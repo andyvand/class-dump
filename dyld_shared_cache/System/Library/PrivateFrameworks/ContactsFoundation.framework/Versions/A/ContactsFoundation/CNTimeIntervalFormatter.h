@@ -9,7 +9,6 @@
 @interface CNTimeIntervalFormatter
 {
     NSNumberFormatter *_numberFormatterWith3SigFigs;
-    NSNumberFormatter *_numberFormatterWith4SigFigs;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumberFormatter *numberFormatterWith3SigFigs; // @synthesize numberFormatterWith3SigFigs=_numberFormatterWith3SigFigs;
-@property(readonly, nonatomic) NSNumberFormatter *numberFormatterWith4SigFigs; // @synthesize numberFormatterWith4SigFigs=_numberFormatterWith4SigFigs;
 
 @end
 

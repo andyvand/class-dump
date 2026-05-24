@@ -6,20 +6,9 @@
 
 #import <SystemMigration/SMSystem_Daemon_Network.h>
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface SMSystem_Daemon_Windows : SMSystem_Daemon_Network
 {
     _Bool sizingIsCancelled;
-    _Bool hasSystemProfile;
-    NSDictionary *versionDictionary;
-    NSString *driveLetter;
-    NSArray *components;
-    NSArray *allUsers;
-    NSString *_windowsSessionID;
-    NSObject<OS_dispatch_queue> *_systemProfileQueue;
-    NSMutableDictionary *_componentDictionary;
 }
 
 + (id);
@@ -28,12 +17,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void))`;
 - (void);
 - (_Bool);
 - (void);
@@ -55,7 +44,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (_Bool);
 - (id);
@@ -65,30 +54,22 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)6 ;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)DefaultScreenSaverPhotoCollection;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allUsers; // @synthesize allUsers;
-@property(retain) NSMutableDictionary *componentDictionary; // @synthesize componentDictionary=_componentDictionary;
-@property(retain, nonatomic) NSArray *components; // @synthesize components;
-@property(retain) NSString *driveLetter; // @synthesize driveLetter;
-@property _Bool hasSystemProfile; // @synthesize hasSystemProfile;
 @property _Bool sizingIsCancelled; // @synthesize sizingIsCancelled;
-@property(retain) NSObject<OS_dispatch_queue> *systemProfileQueue; // @synthesize systemProfileQueue=_systemProfileQueue;
-@property(retain, nonatomic) NSDictionary *versionDictionary; // @synthesize versionDictionary;
-@property(retain) NSString *windowsSessionID; // @synthesize windowsSessionID=_windowsSessionID;
 
 @end
 

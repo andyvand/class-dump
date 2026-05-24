@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, CHStrokeGroup, CHStrokeGroupRecognitionResult, CHTokenizedTextResult, NSArray, NSIndexSet;
+@class CHStrokeGroup, NSArray;
 
 @interface CHRecognitionSessionAutoRefineResult
 {
     NSArray *_recognitionIndexesToOrderedIndexes;
-    CHStrokeGroup *_strokeGroup;
-    CHTokenizedTextResult *_textResult;
-    NSArray *_tokenOriginalBounds;
-    NSArray *_strokeIdentifiers;
-    CHStrokeGroupRecognitionResult *_strokeGroupResult;
-    NSIndexSet *_refinedTokenColumns;
-    CHDrawing *_drawing;
-    NSIndexSet *_syntheticStrokeIndexes;
 }
 
 - (id);
@@ -32,14 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly, copy, nonatomic) NSIndexSet *refinedTokenColumns; // @synthesize refinedTokenColumns=_refinedTokenColumns;
 @property(readonly, copy, nonatomic) CHStrokeGroup *strokeGroup; // @synthesize strokeGroup=_strokeGroup;
-@property(readonly, copy, nonatomic) CHStrokeGroupRecognitionResult *strokeGroupResult; // @synthesize strokeGroupResult=_strokeGroupResult;
-@property(readonly, copy, nonatomic) NSArray *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
-@property(readonly, copy, nonatomic) NSIndexSet *syntheticStrokeIndexes; // @synthesize syntheticStrokeIndexes=_syntheticStrokeIndexes;
-@property(readonly, copy, nonatomic) CHTokenizedTextResult *textResult; // @synthesize textResult=_textResult;
-@property(readonly, copy, nonatomic) NSArray *tokenOriginalBounds; // @synthesize tokenOriginalBounds=_tokenOriginalBounds;
 
 @end
 

@@ -5,10 +5,9 @@
 //
 
 @protocol PXMutableLivePhotoViewModulator
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) struct CGImage *gainMapImage;
-@property(nonatomic) float gainMapValue;
-@property(nonatomic) _Bool revealsGainMapImage;
 @end
 

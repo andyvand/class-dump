@@ -9,13 +9,12 @@
 @interface MTBaseFeedRequest : MTBaseMAPIRequest
 {
     id storeID;
-    id showMetadata;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)B7;
 
 @end
 

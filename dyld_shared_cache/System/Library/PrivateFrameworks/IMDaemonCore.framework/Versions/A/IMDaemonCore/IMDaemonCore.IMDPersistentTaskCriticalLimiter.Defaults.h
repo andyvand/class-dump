@@ -7,10 +7,6 @@
 @interface IMDaemonCore.IMDPersistentTaskCriticalLimiter.Defaults
 {
     id valueForKey;
-    id setValueForKey;
-    id $__lazy_storage_$_maxSecondsPerWindow;
-    id $__lazy_storage_$_windowDuration;
-    id $__lazy_storage_$_ttrWindow;
 }
 
 @end

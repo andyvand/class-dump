@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSHashTable;
 
 @interface CSVoiceTriggerEventsCoordinator
 {
     NSHashTable *_observers;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    long long _hearstRouteStatus;
-    _Bool _hasStarted;
-    unsigned long long _splitterState;
 }
 
-+ (id)utputAudioChannel;
++ (id)_outputAudioChannel;
 - (void);
 - (void);
 - (void);
@@ -31,34 +25,28 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)tch orphan properties for %{public}@:(id)arg1 %{public}@ %{public}@;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)_;
+- (void);
+- (id)'!';
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
+- (void)__cstring;
 - (void);
-- (void);
-- (void)Listener:(id)arg1 hasVADAvailable: /* Error: Ran out of types for this method. */;
-- (void)ureMonitor:didStartAudioCaptureSuccessfully:option:eventUUID: /* Error: Ran out of types for this method. */;
+- (void)opportuneSpeakListener:(id)arg1 hasVADAvailable: /* Error: Ran out of types for this method. */;
+- (void)intuitiveConvAudioCaptureMonitor:didStartAudioCaptureSuccessfully:option:eventUUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

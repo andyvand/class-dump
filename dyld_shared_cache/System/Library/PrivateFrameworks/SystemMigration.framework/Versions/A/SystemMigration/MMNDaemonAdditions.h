@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCListener, SMDMigrateFrom_XPCClientConnection;
+@class NSXPCListener;
 
 @interface MMNDaemonAdditions
 {
     NSXPCListener *_migrateFromListener;
-    NSXPCListener *_networkEventsListener;
-    SMDMigrateFrom_XPCClientConnection *_vendedMigrateFrom;
 }
 
 - (id);
@@ -20,17 +18,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)	1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain) NSXPCListener *migrateFromListener; // @synthesize migrateFromListener=_migrateFromListener;
-@property(retain) NSXPCListener *networkEventsListener; // @synthesize networkEventsListener=_networkEventsListener;
-@property(retain) SMDMigrateFrom_XPCClientConnection *vendedMigrateFrom; // @synthesize vendedMigrateFrom=_vendedMigrateFrom;
 
 @end
 

@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)iolation:(id)arg1 %s;
+- (id)Z_DA_;
 - (id);
 - (unsigned long long);
 - (id);

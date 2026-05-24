@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface _CATArbitratorWaitToken
 {
     _Atomic int mState;
-    NSMutableDictionary *mTokenByKey;
-    NSObject<OS_dispatch_queue> *mDelegateQueue;
-    NSObject<OS_dispatch_group> *mGroup;
-    CDUnknownBlockType mCompletionBlock;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);;
 - (_Bool);
 - (void);
 - (void);

@@ -6,13 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class NSString;
 @protocol AMSBagProtocol;
 
 @interface AMSCardEnrollmentEligibilityTask : AMSTask
 {
     id <AMSBagProtocol> _bag;
-    NSString *_countryCode;
 }
 
 - (id);
@@ -22,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id)0@ù
@@ -36,7 +34,6 @@
 
 // Remaining properties
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *countryCode; // @synthesize countryCode=_countryCode;
 
 @end
 

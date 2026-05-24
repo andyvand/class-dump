@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SiriTTSPreviewRequest, SiriTTSServiceSession;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SiriUIVoicePreviewManager
 {
     NSObject<OS_dispatch_queue> *_previewPlaybackQueue;
-    SiriTTSServiceSession *_voicePreviewPlayer;
-    SiriTTSPreviewRequest *_previewRequest;
-    long long _mode;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (id);
+- (void);
+- (void)!;
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (id)_TtC7ChatKit28CKBalloonStrokeMaterialLayer;
+- (long long)Environment:datasourceItemIndex:allDatasourceItems:] /* Error: Ran out of types for this method. */;
+- (id)o;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -35,11 +31,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property long long mode; // @synthesize mode=_mode;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *previewPlaybackQueue; // @synthesize previewPlaybackQueue=_previewPlaybackQueue;
-@property(retain, nonatomic) SiriTTSPreviewRequest *previewRequest; // @synthesize previewRequest=_previewRequest;
-@property(retain, nonatomic) SiriTTSServiceSession *voicePreviewPlayer; // @synthesize voicePreviewPlayer=_voicePreviewPlayer;
 
 @end
 

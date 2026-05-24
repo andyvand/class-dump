@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBURLValue;
+@class _INPBURLValue;
 
 @interface _INPBCallInvite
 {
     struct {
         unsigned int inviteType:1;
     } _has;
-    int _inviteType;
-    _INPBURLValue *_callURL;
-    NSArray *_participants;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class);
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (int);
 - (id);
 - (int);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)GCHIDSystemServiceProviding>";
 - (void);
 - (void);
 - (unsigned long long);
@@ -37,26 +34,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)CWFAutoJoinStatistics">24;
+- (void)blic}s (%{public}s:(id)arg1 %u) [wifi-network-sharing] Received accessory scan response from appex (clientID=%{public}@, error=%{publiv}@, results=%{public}@);
 - (id);
 - (id);
-- (void)cess;
+- (void)INResumeWorkoutIntentResponseCodeSuccess;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBURLValue *callURL; // @synthesize callURL=_callURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCallURL;
-@property(nonatomic) _Bool hasInviteType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int inviteType; // @synthesize inviteType=_inviteType;
-@property(copy, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(readonly) Class superclass;
 
 @end
 

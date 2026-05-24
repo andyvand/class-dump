@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString;
-
 @interface SACancelCrossDeviceRequest : SABaseClientBoundCommand
 {
 }
@@ -17,12 +15,11 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)K;
 - (id)ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool cancelAssociatedRequests;
-@property(copy, nonatomic) NSString *requestId;
 
 @end
 

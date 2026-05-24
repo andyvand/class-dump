@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
 @protocol TRIXPCStatusServiceProtocol;
 
 @interface TRIExperimentHistorySysdiagnoseProvider
 {
     id <TRIXPCStatusServiceProtocol> _syncStatusProvider;
-    NSError *_xpcError;
 }
 
 + (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)<;
 - (id);
 - (id);
 - (id);
@@ -27,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <TRIXPCStatusServiceProtocol> syncStatusProvider; // @synthesize syncStatusProvider=_syncStatusProvider;
-@property(retain, nonatomic) NSError *xpcError; // @synthesize xpcError=_xpcError;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISEmbossedFolder
 {
@@ -16,20 +14,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
+- (id)dateWithTimeIntervalSinceNow: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)device not present for endpointName:(unsigned long long)arg1 %{public}@;
 - (unsigned long long);
 
 // Remaining properties
 @property unsigned long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

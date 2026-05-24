@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AMSBagProtocol, AMSPurchaseResponseProtocol;
+@protocol AMSBagProtocol;
 
 @interface AMSPurchaseQueueConfiguration
 {
     id <AMSBagProtocol> _bag;
-    id <AMSPurchaseResponseProtocol> _delegate;
-    Class _purchaseTaskClass;
 }
 
-- (id);
-- (Class);
+- (id)startSpeechRequestWithSpeechFileAtURL: /* Error: Ran out of types for this method. */;
+- (Class)sharedUserId;
 - (void);
 - (void);
 - (void)<#0üUý?s¢íTµç|:`:¹rºk
@@ -24,8 +22,6 @@ V7õ­í{-\ãB¡~Jf%Êªö|8Äur¥`þÍ>@×,Ð<<°Ü¹"kÏX©GúÚ
 
 // Remaining properties
 @property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) id <AMSPurchaseResponseProtocol> delegate; // @synthesize delegate=_delegate;
-@property(retain) Class purchaseTaskClass; // @synthesize purchaseTaskClass=_purchaseTaskClass;
 
 @end
 

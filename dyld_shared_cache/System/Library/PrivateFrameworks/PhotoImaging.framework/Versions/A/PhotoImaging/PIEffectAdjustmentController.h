@@ -13,20 +13,18 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (void);
 - (long long);
 - (void);
 - (double);
-- (void);
+- (void)];
 - (id);
 
 // Remaining properties
-@property(nonatomic) double intensity;
 @property(copy, nonatomic) NSString *kind;
-@property(nonatomic) long long version;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMailbox;
-
 @protocol EMMailboxBuilder
+- (void);
+- (void);
+- (_Bool)LogEventAnalyzerDataSource;
 
 // Remaining properties
 @property(nonatomic) _Bool canContainMessages;
-@property(nonatomic) _Bool descriptionUsesRealName;
-@property(nonatomic) __weak EMMailbox *parent;
 @end
 

@@ -6,46 +6,33 @@
 
 #import <UIKitCore/UIKBTutorialModalDisplay.h>
 
-@class AVPlayerLayer, AVPlayerLooper, AVQueuePlayer, NSArray, NSLayoutConstraint, UIButton, UILabel, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIContinuousPathIntroductionView : UIKBTutorialModalDisplay
 {
     struct CGSize _videoSize;
-    double _textMargin;
-    double _paddingAdjust;
-    AVPlayerLooper *_playerLooper;
-    AVQueuePlayer *_player;
-    UIView *_textVideoContainer;
-    UILabel *_landscapeTextBody;
-    UIView *_keyboardView;
-    UIButton *_landscapeButton;
-    NSArray *_portraitConstraints;
-    NSArray *_landscapeConstraints;
-    AVPlayerLayer *_videoLayer;
-    NSLayoutConstraint *_videoWidth;
-    NSLayoutConstraint *_videoHeight;
 }
 
 - (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ckSwitchControllerCommandQuickSwitchCompleted;
+- (id)Switch;
+- (long long)** Received account enabled for account:%@, but we can't find an account for it /* Error: Ran out of types for this method. */;
+- (id)an account for it;
+- (void)message played on linked device:%@ /* Error: Ran out of types for this method. */;
+- (void)oud DSID is %@, imessage DSID is %@;
+- (void)at many, so retrieving all chats, range (%ld,%ld).;
+- (void)sationID:(id)arg1 %ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)seenMention:(id)arg1 %{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)%{BOOL}d isSpam:(id)arg1 %{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (void)untry=%@; roomName='%@'; flags=0x%llx; messageID:(id)arg1 %lld sortID:%lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)nID returning with error:%@ /* Error: Ran out of types for this method. */;
+- (double)Array"8;
+- (id)DidMarkGroupPhotosAsUnpurgeable;
+- (id)outgoingRelayMessage;
+- (id)anslation-data;
+- (id)FTCommandIDPlayedReceipt;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -61,15 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)¼Æÿk××¨ùh;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *keyboardView; // @synthesize keyboardView=_keyboardView;
-@property(retain, nonatomic) UIButton *landscapeButton; // @synthesize landscapeButton=_landscapeButton;
-@property(retain, nonatomic) NSArray *landscapeConstraints; // @synthesize landscapeConstraints=_landscapeConstraints;
-@property(retain, nonatomic) UILabel *landscapeTextBody; // @synthesize landscapeTextBody=_landscapeTextBody;
-@property(retain, nonatomic) NSArray *portraitConstraints; // @synthesize portraitConstraints=_portraitConstraints;
 @property(retain, nonatomic) UIView *textVideoContainer; // @synthesize textVideoContainer=_textVideoContainer;
-@property(retain, nonatomic) NSLayoutConstraint *videoHeight; // @synthesize videoHeight=_videoHeight;
-@property(retain, nonatomic) AVPlayerLayer *videoLayer; // @synthesize videoLayer=_videoLayer;
-@property(retain, nonatomic) NSLayoutConstraint *videoWidth; // @synthesize videoWidth=_videoWidth;
 
 @end
 

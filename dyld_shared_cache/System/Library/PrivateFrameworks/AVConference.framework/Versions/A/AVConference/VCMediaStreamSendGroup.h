@@ -6,30 +6,10 @@
 
 #import <AVConference/VCMediaStreamGroup.h>
 
-@class NSMutableArray, NSMutableDictionary;
-@protocol VCRedundancyControllerProtocol;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaStreamSendGroup : VCMediaStreamGroup
 {
     _Bool _isRedundancyEnabled;
-    unsigned int _uplinkBitrateCapWifi;
-    unsigned int _uplinkBitrateCapCell;
-    unsigned int _currentUplinkTargetBitrate;
-    NSMutableArray *_peerSubscribedStreams;
-    _Bool _isRemoteOnPeace;
-    NSMutableDictionary *_sendGroupConfigForMode;
-    unsigned int _streamGroupMode;
-    id <VCRedundancyControllerProtocol> _redundancyController;
-    unsigned int _currentUplinkTotalBitrate;
-    _Bool _shouldSynchronizeWithSourceRTPTimestamps;
-    struct _opaque_pthread_rwlock_t _sourceTimestampRWLock;
-    unsigned int _lastSentSourceSampleTime;
-    double _lastSentSourceHostTime;
-    _Bool _isSourceTimestampInfoAvailable;
-    double _sourceSampleRate;
-    _Bool _isRetransmissionEnabled;
-    _Bool _isSuspended;
 }
 
 - (_Bool);
@@ -37,26 +17,12 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)HK=;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
@@ -66,8 +32,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
+- (_Bool)C;
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool)1`;
 - (void);
 - (void);
 - (void);
@@ -79,20 +59,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)ed in file - %s line - %i;
 - (void);
 - (_Bool);
-- (id)or_ValidateAuthenticationTag;
+- (id)_VCCryptor_ValidateAuthenticationTag;
 
 // Remaining properties
 @property(nonatomic) unsigned int currentUplinkTargetBitrate; // @synthesize currentUplinkTargetBitrate=_currentUplinkTargetBitrate;
-@property(nonatomic) unsigned int currentUplinkTotalBitrate; // @synthesize currentUplinkTotalBitrate=_currentUplinkTotalBitrate;
-@property(nonatomic, setter=setRetransmissionEnabled:) _Bool isRetransmissionEnabled; // @synthesize isRetransmissionEnabled=_isRetransmissionEnabled;
-@property(nonatomic) _Bool isSuspended; // @synthesize isSuspended=_isSuspended;
-@property(retain, nonatomic) id <VCRedundancyControllerProtocol> redundancyController; // @synthesize redundancyController=_redundancyController;
-@property(nonatomic) unsigned int uplinkBitrateCapCell; // @synthesize uplinkBitrateCapCell=_uplinkBitrateCapCell;
-@property(nonatomic) unsigned int uplinkBitrateCapWifi; // @synthesize uplinkBitrateCapWifi=_uplinkBitrateCapWifi;
 
 @end
 

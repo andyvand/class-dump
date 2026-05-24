@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol EFCancelable;
+
 @protocol EFScheduler
+- (void)ions;
+- (id <EFCancelable>)setAutomaticallyRiseToVoiceOverLevelWhenEncounteringSecurityAgent:(double)arg1;
+- (void);
 @end
 

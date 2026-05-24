@@ -4,48 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2MetricOptions, NSData, NSNumber, NSObject, NSString, NSURL;
-@protocol C2NetworkingDelegate;
-
 @interface C2RequestOptions
 {
     _Bool _allowsCellularAccess;
-    _Bool __allowsExpensiveAccess;
-    _Bool __allowsPowerNapScheduling;
-    _Bool _tlsPinning;
-    _Bool _allowRouting;
-    _Bool _allowExpiredDNSBehavior;
-    _Bool __allowsRetryForBackgroundDataTasks;
-    _Bool _redactRemoteEndpointFromNetworkMetrics;
-    _Bool _redactUniformResourceIdentifierFromNetworkMetrics;
-    _Bool __optIntoDisableAPWakeOnIdleConnections;
-    _Bool _allowsUCA;
-    _Bool _useAdaptiveTimeouts;
-    _Bool _outOfProcessDiscretionary;
-    _Bool _hasAllowsCellularAccess;
-    _Bool _metricRequest;
-    NSString *_outOfProcessPoolName;
-    double __timeoutIntervalForRequest;
-    double __timeoutIntervalForResource;
-    NSString *__sourceApplicationBundleIdentifier;
-    NSString *__sourceApplicationSecondaryIdentifier;
-    NSData *__sourceApplicationAuditTokenData;
-    NSString *__appleIDContextSessionIdentifier;
-    unsigned long long _discretionaryNetworkBehavior;
-    unsigned long long _duetPreClearedMode;
-    NSNumber *_privacyProxyFailClosedOverride;
-    NSNumber *_useNWLoaderOverride;
-    NSString *_identifier;
-    C2MetricOptions *_metricOptions;
-    long long _containerType;
-    NSURL *_c2MetricsEndpoint;
-    unsigned long long _c2MetricsReportFrequency;
-    unsigned long long _c2MetricsReportFrequencyBase;
-    long long _qualityOfService;
-    NSString *_originalHost;
-    CDUnknownBlockType _testBehavior_sessionGroupCreated;
-    NSURL *_invokedURL;
-    NSObject<C2NetworkingDelegate> *_networkingDelegate;
 }
 
 + (id);
@@ -55,17 +16,17 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (void);
++ (void)[G;
 - (void);
 - (void);
+- (void)ionaryContext";
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (double);
 - (void);
@@ -83,8 +44,8 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)R;
+- (void)�H;
 - (void);
 - (void);
 - (void);
@@ -94,7 +55,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
 - (void);
@@ -109,7 +70,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)k!;
 - (id);
 - (double);
 - (id);
@@ -121,7 +82,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (_Bool);
@@ -130,12 +91,12 @@
 - (void);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)permanentStorageForItemAtURL:(long long)arg1 allocateIfNone:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -149,46 +110,7 @@
 - (unsigned long long)eers to ask for chunks.;
 
 // Remaining properties
-@property(nonatomic) _Bool _allowsExpensiveAccess; // @synthesize _allowsExpensiveAccess=__allowsExpensiveAccess;
-@property(nonatomic) _Bool _allowsPowerNapScheduling; // @synthesize _allowsPowerNapScheduling=__allowsPowerNapScheduling;
-@property(nonatomic) _Bool _allowsRetryForBackgroundDataTasks; // @synthesize _allowsRetryForBackgroundDataTasks=__allowsRetryForBackgroundDataTasks;
-@property(copy, nonatomic) NSString *_appleIDContextSessionIdentifier; // @synthesize _appleIDContextSessionIdentifier=__appleIDContextSessionIdentifier;
-@property(nonatomic) _Bool _optIntoDisableAPWakeOnIdleConnections; // @synthesize _optIntoDisableAPWakeOnIdleConnections=__optIntoDisableAPWakeOnIdleConnections;
-@property(copy, nonatomic) NSData *_sourceApplicationAuditTokenData; // @synthesize _sourceApplicationAuditTokenData=__sourceApplicationAuditTokenData;
-@property(copy, nonatomic) NSString *_sourceApplicationBundleIdentifier; // @synthesize _sourceApplicationBundleIdentifier=__sourceApplicationBundleIdentifier;
-@property(copy, nonatomic) NSString *_sourceApplicationSecondaryIdentifier; // @synthesize _sourceApplicationSecondaryIdentifier=__sourceApplicationSecondaryIdentifier;
-@property(nonatomic) double _timeoutIntervalForRequest; // @synthesize _timeoutIntervalForRequest=__timeoutIntervalForRequest;
-@property(nonatomic) double _timeoutIntervalForResource; // @synthesize _timeoutIntervalForResource=__timeoutIntervalForResource;
-@property(nonatomic) _Bool allowExpiredDNSBehavior; // @synthesize allowExpiredDNSBehavior=_allowExpiredDNSBehavior;
-@property(nonatomic) _Bool allowRouting; // @synthesize allowRouting=_allowRouting;
-@property(nonatomic) _Bool allowsCellularAccess; // @synthesize allowsCellularAccess=_allowsCellularAccess;
-@property(nonatomic) _Bool allowsUCA; // @synthesize allowsUCA=_allowsUCA;
-@property(copy, nonatomic) NSURL *c2MetricsEndpoint; // @synthesize c2MetricsEndpoint=_c2MetricsEndpoint;
-@property(nonatomic) unsigned long long c2MetricsReportFrequency; // @synthesize c2MetricsReportFrequency=_c2MetricsReportFrequency;
-@property(nonatomic) unsigned long long c2MetricsReportFrequencyBase; // @synthesize c2MetricsReportFrequencyBase=_c2MetricsReportFrequencyBase;
-@property(nonatomic) long long containerType; // @synthesize containerType=_containerType;
-@property(nonatomic) unsigned long long discretionaryNetworkBehavior; // @synthesize discretionaryNetworkBehavior=_discretionaryNetworkBehavior;
-@property(nonatomic) unsigned long long duetPreClearedMode; // @synthesize duetPreClearedMode=_duetPreClearedMode;
-@property(readonly, nonatomic) double emptySessionExpiryInSeconds;
 @property(nonatomic) _Bool hasAllowsCellularAccess; // @synthesize hasAllowsCellularAccess=_hasAllowsCellularAccess;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSURL *invokedURL; // @synthesize invokedURL=_invokedURL;
-@property(copy, nonatomic) C2MetricOptions *metricOptions; // @synthesize metricOptions=_metricOptions;
-@property(nonatomic) _Bool metricRequest; // @synthesize metricRequest=_metricRequest;
-@property(nonatomic) __weak NSObject<C2NetworkingDelegate> *networkingDelegate; // @synthesize networkingDelegate=_networkingDelegate;
-@property(copy, nonatomic) NSString *originalHost; // @synthesize originalHost=_originalHost;
-@property(readonly, nonatomic) _Bool outOfProcess;
-@property(nonatomic) _Bool outOfProcessDiscretionary; // @synthesize outOfProcessDiscretionary=_outOfProcessDiscretionary;
-@property(copy, nonatomic) NSString *outOfProcessPoolName; // @synthesize outOfProcessPoolName=_outOfProcessPoolName;
-@property(copy, nonatomic) NSNumber *privacyProxyFailClosedOverride; // @synthesize privacyProxyFailClosedOverride=_privacyProxyFailClosedOverride;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) _Bool redactRemoteEndpointFromNetworkMetrics; // @synthesize redactRemoteEndpointFromNetworkMetrics=_redactRemoteEndpointFromNetworkMetrics;
-@property(nonatomic) _Bool redactUniformResourceIdentifierFromNetworkMetrics; // @synthesize redactUniformResourceIdentifierFromNetworkMetrics=_redactUniformResourceIdentifierFromNetworkMetrics;
-@property(readonly, nonatomic) double taskCallbackConsideredHangInSeconds;
-@property(copy, nonatomic) CDUnknownBlockType testBehavior_sessionGroupCreated; // @synthesize testBehavior_sessionGroupCreated=_testBehavior_sessionGroupCreated;
-@property(nonatomic) _Bool tlsPinning; // @synthesize tlsPinning=_tlsPinning;
-@property(nonatomic) _Bool useAdaptiveTimeouts; // @synthesize useAdaptiveTimeouts=_useAdaptiveTimeouts;
-@property(copy, nonatomic) NSNumber *useNWLoaderOverride; // @synthesize useNWLoaderOverride=_useNWLoaderOverride;
 
 @end
 

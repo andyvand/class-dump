@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class DonationSchemaSDSpeechDonationEventMetaData, DonationSchemaSDSpeechSampleDonation, NSData, SISchemaInstrumentationMessage;
+@class DonationSchemaSDSpeechDonationEventMetaData, SISchemaInstrumentationMessage;
 
 @interface DonationSchemaSDSpeechDonationEvent : SISchemaTopLevelUnionType
 {
     DonationSchemaSDSpeechDonationEventMetaData *_eventMetaData;
-    DonationSchemaSDSpeechSampleDonation *_speechSampleDonation;
-    _Bool _hasEventMetaData;
-    _Bool _hasSpeechSampleDonation;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -31,29 +27,23 @@
 - (void);
 - (void);
 - (int);
-- (id);
-- (int);
-- (id);
+- (id)IAPAudioTransportLineinStateKey;
+- (int)tion;
+- (id)totalCEEnabledWithNoFieldDetected;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)"MHSchemaMHAssistantDaemonAudioRecordingInterruptionContext";
-- (id)upeHashBytes;
+- (id)hasEnrollmentDataDedupeHashBytes;
 - (unsigned long long)ShownTier1;
-- (id);
+- (id)PLUSSchemaPLUSSendMessageMetadataExtracted;
 - (id)TØÔ;
 - (void)h¹ÿ@³;
 
 // Remaining properties
-@property(retain, nonatomic) DonationSchemaSDSpeechDonationEventMetaData *eventMetaData; // @synthesize eventMetaData=_eventMetaData;
-@property(nonatomic) _Bool hasEventMetaData; // @synthesize hasEventMetaData=_hasEventMetaData;
-@property(nonatomic) _Bool hasSpeechSampleDonation; // @synthesize hasSpeechSampleDonation=_hasSpeechSampleDonation;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) DonationSchemaSDSpeechSampleDonation *speechSampleDonation; // @synthesize speechSampleDonation=_speechSampleDonation;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

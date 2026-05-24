@@ -5,6 +5,7 @@
 //
 
 @protocol _UIKeyboardEventModifierListenerDelegate
+- (void)eIdentifier;
 - (void)Q;
 @end
 

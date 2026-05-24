@@ -4,49 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSASAssetDownloader, MSASAssetUploader, MSASPersonModel, MSASPhoneInvitations, MSASProtocol, MSAlbumSharingDaemon, MSBackoffManager, MSImageScalingSpecification, NSArray, NSDictionary, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface MSASStateMachine
 {
     int _commandState;
-    MSASPersonModel *_model;
-    NSString *_currentCommand;
-    long long _currentCommandID;
-    NSDictionary *_currentCommandParams;
-    double _startOfUpload;
-    MSBackoffManager *_metadataBackoffManager;
-    MSBackoffManager *_MMCSBackoffManager;
-    MSASAssetUploader *_assetUploader;
-    MSASAssetDownloader *_assetDownloader;
-    _Bool _isRetryingOutstandingActivities;
-    _Bool _hasShutDown;
-    int _maxMetadataRetryCount;
-    MSAlbumSharingDaemon *_daemon;
-    NSString *_personID;
-    id _delegate;
-    NSDictionary *_serverSideConfiguration;
-    NSString *_serverSideConfigurationVersion;
-    NSString *_focusAlbumGUID;
-    NSString *_focusAssetCollectionGUID;
-    NSMutableArray *_assetInfoToReauthForDownload;
-    CDUnknownBlockType _stopHandlerBlock;
-    MSASProtocol *_protocol;
-    MSASPhoneInvitations *_phoneInvitations;
-    MSImageScalingSpecification *_derivativeImageScalingSpecification;
-    MSImageScalingSpecification *_thumbnailImageScalingSpecification;
-    NSArray *_derivativeSpecifications;
-    NSDictionary *_metadataBackoffManagerParameters;
-    NSDictionary *_MMCSBackoffManagerParameters;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    NSObject<OS_dispatch_queue> *_serverSideConfigQueue;
-    NSObject<OS_dispatch_queue> *_memberQueue;
-    CDUnknownBlockType _postCommandCompletionBlock;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
@@ -55,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -70,69 +34,70 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)g=*Qb63b1})}}{basic_string<char, std:(id)arg1:(id)arg2 char_traits<char>, std:(id)arg3:(id)arg4 allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}BBB{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}BB})B}16@0:8 /* Error: Ran out of types for this method. */;
+- (void)_name;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)ี่ยๆ;
+- (id)pilluksi;
+- (void)s not implemented;
+- (void);
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)qa;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (void)@;
+- (void);
+- (id);
+- (void);
+- (void)h
+;
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)BufferToCxt:(int)arg1 dspExceptionParameter137(4274):(id)arg2 cfg 1 elements; (1*4) cfg bytes != (%d) buffer bytes;
+- (void)nnot add 1 element to context;
 - (void);
 - (id);
 - (id);
@@ -140,7 +105,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -159,52 +124,52 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)__oslogstring;
+- (void)setBuddyDidFinishHandler:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
+- (id)aph sample rate;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void)A;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)%;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)x;
 - (void)@ù
 × ;
 - (void)Ð1Â0@ù
@@ -217,37 +182,7 @@
 - (_Bool)t order by albumGUID asc, batchCreationDate asc, photoCreationDate asc limit:lim; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *MMCSBackoffManagerParameters; // @synthesize MMCSBackoffManagerParameters=_MMCSBackoffManagerParameters;
-@property(retain, nonatomic, setter=_setAssetInfoToReauthForDownload:) NSMutableArray *_assetInfoToReauthForDownload; // @synthesize _assetInfoToReauthForDownload;
-@property(copy, nonatomic, setter=_setStopHandlerBlock:) CDUnknownBlockType _stopHandlerBlock; // @synthesize _stopHandlerBlock;
-@property(nonatomic) __weak MSAlbumSharingDaemon *daemon; // @synthesize daemon=_daemon;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, retain, nonatomic) MSImageScalingSpecification *derivativeImageScalingSpecification; // @synthesize derivativeImageScalingSpecification=_derivativeImageScalingSpecification;
-@property(readonly, retain, nonatomic) NSArray *derivativeSpecifications; // @synthesize derivativeSpecifications=_derivativeSpecifications;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *eventQueue; // @synthesize eventQueue=_eventQueue;
-@property(retain, nonatomic) NSString *focusAlbumGUID; // @synthesize focusAlbumGUID=_focusAlbumGUID;
-@property(retain, nonatomic) NSString *focusAssetCollectionGUID; // @synthesize focusAssetCollectionGUID=_focusAssetCollectionGUID;
-@property(nonatomic) _Bool hasShutDown; // @synthesize hasShutDown=_hasShutDown;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isRetryingOutstandingActivities; // @synthesize isRetryingOutstandingActivities=_isRetryingOutstandingActivities;
-@property(nonatomic) int maxMetadataRetryCount; // @synthesize maxMetadataRetryCount=_maxMetadataRetryCount;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *memberQueue; // @synthesize memberQueue=_memberQueue;
-@property(retain, nonatomic) NSDictionary *metadataBackoffManagerParameters; // @synthesize metadataBackoffManagerParameters=_metadataBackoffManagerParameters;
-@property(retain, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(retain, nonatomic) MSASPhoneInvitations *phoneInvitations; // @synthesize phoneInvitations=_phoneInvitations;
-@property(copy, nonatomic) CDUnknownBlockType postCommandCompletionBlock; // @synthesize postCommandCompletionBlock=_postCommandCompletionBlock;
-@property(retain, nonatomic) MSASProtocol *protocol; // @synthesize protocol=_protocol;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serverSideConfigQueue; // @synthesize serverSideConfigQueue=_serverSideConfigQueue;
-@property(retain, nonatomic) NSDictionary *serverSideConfiguration; // @synthesize serverSideConfiguration=_serverSideConfiguration;
-@property(readonly, retain, nonatomic) NSString *serverSideConfigurationVersion; // @synthesize serverSideConfigurationVersion=_serverSideConfigurationVersion;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) MSImageScalingSpecification *thumbnailImageScalingSpecification; // @synthesize thumbnailImageScalingSpecification=_thumbnailImageScalingSpecification;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

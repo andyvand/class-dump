@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, NSURLSession;
+@class NSURLSession;
 
 @interface MKMapItemMetadataRequester
 {
     NSURLSession *_session;
-    NSMapTable *_requestsForURLs;
-    NSMapTable *_tasksForURLs;
-    NSMapTable *_dataForTasks;
 }
 
-+ (id)ormat: /* Error: Ran out of types for this method. */;
++ (id)appendFormat: /* Error: Ran out of types for this method. */;
+- (void)P;
 - (void);
 - (void);
 - (void);
+- (id)VNCreateTorsoprintRequestPrivateRevision5MD2;
 - (void);
-- (id);
-- (void);
-- (void)pItem:system:direction: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItem:system:direction: /* Error: Ran out of types for this method. */;
 - (void)icle. You can view driving directions without EV information.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

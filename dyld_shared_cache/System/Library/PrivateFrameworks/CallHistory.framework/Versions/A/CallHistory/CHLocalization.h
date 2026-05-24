@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id);
-+ (id)lls;
++ (id){;
++ (id)_remoteParticipantCalls;
 
 @end
 

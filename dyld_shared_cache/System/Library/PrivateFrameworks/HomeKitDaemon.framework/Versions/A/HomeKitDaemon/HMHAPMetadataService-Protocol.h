@@ -7,11 +7,12 @@
 @class NSString;
 
 @protocol HMHAPMetadataService
+- (NSString *)e drag to remote;
+- (void);
 - (void)eamInterfaceDelegate>",W,V_delegate;
 - (NSString *)name %@ to namespace %@ error %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *svcDescription;
 @property(retain, nonatomic) NSString *uuidStr;
 @end
 

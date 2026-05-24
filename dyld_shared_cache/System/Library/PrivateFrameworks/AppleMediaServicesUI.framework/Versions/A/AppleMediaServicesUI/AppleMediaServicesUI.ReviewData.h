@@ -7,17 +7,14 @@
 @interface AppleMediaServicesUI.ReviewData
 {
     id title;
-    id body;
-    id nickname;
-    id rating;
 }
 
-+ (void);
++ (void)isRegisteredForAccount:(_Bool)arg1 andMask: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)9;
 - (id);
-- (id);
-- (void);
-- (void)WithErrorHandler: /* Error: Ran out of types for this method. */;
+- (void)ortsRestrictedGuest;
+- (void)remoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

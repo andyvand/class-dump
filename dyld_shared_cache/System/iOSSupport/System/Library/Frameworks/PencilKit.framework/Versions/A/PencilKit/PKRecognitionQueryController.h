@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PKRecognitionSessionManager;
+@class NSMutableDictionary;
 
 @interface PKRecognitionQueryController
 {
     double _preferredMathUpdatesInterval;
-    NSMutableDictionary *_drawingQueries;
-    NSMutableDictionary *_visibleStrokeQueries;
-    NSMutableDictionary *_queriesToCreate;
-    NSMutableDictionary *_suffixes;
-    PKRecognitionSessionManager *_recognitionManager;
 }
 
 - (id);
@@ -41,14 +36,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_backgroundView;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *drawingQueries; // @synthesize drawingQueries=_drawingQueries;
-@property(retain) NSMutableDictionary *queriesToCreate; // @synthesize queriesToCreate=_queriesToCreate;
-@property(nonatomic) __weak PKRecognitionSessionManager *recognitionManager; // @synthesize recognitionManager=_recognitionManager;
-@property(retain) NSMutableDictionary *suffixes; // @synthesize suffixes=_suffixes;
-@property(retain) NSMutableDictionary *visibleStrokeQueries; // @synthesize visibleStrokeQueries=_visibleStrokeQueries;
 
 @end
 

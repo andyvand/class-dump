@@ -11,23 +11,6 @@
 @interface MLCNormalizationGPUDeviceOps : MLCGPUDeviceOps
 {
     _Bool _isFusedWithArithmeticLayer;
-    float _varianceEpsilon;
-    float _momentum;
-    NSArray *_normalizedShape;
-    unsigned long long _groupCount;
-    id _normalizationGammaGradient;
-    id _normalizationBetaGradient;
-    id _normalizationInverseSqrtVariance;
-    id _normalizationInputNormalized;
-    id _normalizationComputedMean;
-    id _normalizationComputedVariance;
-    id _batchNormMeanKernel;
-    id _batchNormVarianceKernel;
-    id _batchNormBetaGammaDeltaKernel;
-    id _instanceNormMovingMeanVarianceKernel;
-    id _normalizationRecomputeResultKernel;
-    id _normalizationSumBetaGammaDeltaKernel;
-    id _normalizationMultiGPUChildOps;
 }
 
 + (id);
@@ -38,13 +21,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)`];
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -68,27 +51,10 @@
 - (id);
 - (void);
 - (float);
-- (void);
+- (void)nfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}}24@0:8^v16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id batchNormBetaGammaDeltaKernel; // @synthesize batchNormBetaGammaDeltaKernel=_batchNormBetaGammaDeltaKernel;
-@property(retain, nonatomic) id batchNormMeanKernel; // @synthesize batchNormMeanKernel=_batchNormMeanKernel;
-@property(retain, nonatomic) id batchNormVarianceKernel; // @synthesize batchNormVarianceKernel=_batchNormVarianceKernel;
-@property(nonatomic) unsigned long long groupCount; // @synthesize groupCount=_groupCount;
-@property(retain, nonatomic) id instanceNormMovingMeanVarianceKernel; // @synthesize instanceNormMovingMeanVarianceKernel=_instanceNormMovingMeanVarianceKernel;
-@property(nonatomic) _Bool isFusedWithArithmeticLayer; // @synthesize isFusedWithArithmeticLayer=_isFusedWithArithmeticLayer;
-@property(nonatomic) float momentum; // @synthesize momentum=_momentum;
-@property(retain, nonatomic) id normalizationBetaGradient; // @synthesize normalizationBetaGradient=_normalizationBetaGradient;
-@property(retain, nonatomic) id normalizationComputedMean; // @synthesize normalizationComputedMean=_normalizationComputedMean;
-@property(retain, nonatomic) id normalizationComputedVariance; // @synthesize normalizationComputedVariance=_normalizationComputedVariance;
-@property(retain, nonatomic) id normalizationGammaGradient; // @synthesize normalizationGammaGradient=_normalizationGammaGradient;
-@property(retain, nonatomic) id normalizationInputNormalized; // @synthesize normalizationInputNormalized=_normalizationInputNormalized;
-@property(retain, nonatomic) id normalizationInverseSqrtVariance; // @synthesize normalizationInverseSqrtVariance=_normalizationInverseSqrtVariance;
-@property(retain, nonatomic) id normalizationMultiGPUChildOps; // @synthesize normalizationMultiGPUChildOps=_normalizationMultiGPUChildOps;
-@property(retain, nonatomic) id normalizationRecomputeResultKernel; // @synthesize normalizationRecomputeResultKernel=_normalizationRecomputeResultKernel;
-@property(retain, nonatomic) id normalizationSumBetaGammaDeltaKernel; // @synthesize normalizationSumBetaGammaDeltaKernel=_normalizationSumBetaGammaDeltaKernel;
 @property(retain, nonatomic) NSArray *normalizedShape; // @synthesize normalizedShape=_normalizedShape;
-@property(nonatomic) float varianceEpsilon; // @synthesize varianceEpsilon=_varianceEpsilon;
 
 @end
 

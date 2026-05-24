@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSSet, SMPaths, SMSystem_Daemon;
-@protocol OS_dispatch_queue;
+@class SMPaths;
 
 @interface SMPathsAppDownloadScanner
 {
     _Bool _scanned;
-    NSSet *_systemAppDownloadBundles;
-    NSMutableDictionary *_userAppDownloadBundles;
-    SMPaths *_pather;
-    NSDictionary *_longTermSystemIdentifier;
-    NSObject<OS_dispatch_queue> *_scanQueue;
 }
 
-- (id);
+- (id)%z;
 - (id);
 - (void);
 - (void);
@@ -36,13 +30,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSDictionary *longTermSystemIdentifier; // @synthesize longTermSystemIdentifier=_longTermSystemIdentifier;
 @property(retain) SMPaths *pather; // @synthesize pather=_pather;
-@property(retain) NSObject<OS_dispatch_queue> *scanQueue; // @synthesize scanQueue=_scanQueue;
-@property _Bool scanned; // @synthesize scanned=_scanned;
-@property(readonly) SMSystem_Daemon *system;
-@property(retain) NSSet *systemAppDownloadBundles; // @synthesize systemAppDownloadBundles=_systemAppDownloadBundles;
-@property(retain) NSMutableDictionary *userAppDownloadBundles; // @synthesize userAppDownloadBundles=_userAppDownloadBundles;
 
 @end
 

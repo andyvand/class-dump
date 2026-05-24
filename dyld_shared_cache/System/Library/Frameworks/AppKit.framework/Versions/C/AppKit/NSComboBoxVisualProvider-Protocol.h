@@ -5,6 +5,8 @@
 //
 
 @protocol NSComboBoxVisualProvider
+- (struct CGRect)yTDh1w;
+- (double)_onqueue_stopSecureConnection;
 
 // Remaining properties
 @property(readonly) double _buttonWidth;

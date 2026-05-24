@@ -11,7 +11,6 @@
 @interface PKShareablePassMetadataPreview : PKAddPassMetadataPreview
 {
     NSString *_ownerDisplayName;
-    NSString *_provisioningTemplateIdentifier;
 }
 
 + (id);
@@ -24,12 +23,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_tcpECNIntConnRecvCE;
 - (id);
 - (void)age-;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ownerDisplayName; // @synthesize ownerDisplayName=_ownerDisplayName;
 @property(retain, nonatomic) NSString *provisioningTemplateIdentifier; // @synthesize provisioningTemplateIdentifier=_provisioningTemplateIdentifier;
 
 @end

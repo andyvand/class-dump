@@ -4,41 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContextClient, NSArray, NSDictionary, NSNumber, NSOrderedSet, NSSet, NSString;
+@class CKContextClient;
 
 @interface CKContextRequest
 {
     CKContextClient *_client;
-    _Bool _textIsRaw;
-    _Bool _includeHigherLevelTopics;
-    _Bool _includeStructuredExtractionResults;
-    _Bool _includePartsOfSpeech;
-    _Bool _dontSkip;
-    _Bool _timing;
-    _Bool _overrideEnableCoreNLPTagging;
-    _Bool _incPending;
-    _Bool _debug;
-    _Bool _includeRequestInResponse;
-    int _overrideConstellationMinCount;
-    int _overrideConstellationMinWeight;
-    unsigned int _topk;
-    unsigned long long _type;
-    NSArray *_urls;
-    NSDictionary *_itemIds;
-    long long _maxConstellationTopics;
-    NSSet *_allowedTopicTypeTags;
-    unsigned long long _fingerprintMax;
-    double _donationTimeout;
-    NSSet *_preferredSceneIdentifiers;
-    NSNumber *_overrideBlendAlpha;
-    NSNumber *_overrideBlendBeta;
-    NSNumber *_overrideBlendGamma;
-    NSOrderedSet *_desiredLanguageTags;
-    NSArray *_donorBundleIdentifiers;
 }
 
-+ (_Bool);
-+ (void);
++ (_Bool)_synchronousMode;
++ (void)H/;
 + (void);
 + (id);
 + (id);
@@ -48,8 +22,8 @@
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
++ (void)bindStringValue:(CDUnknownBlockType)arg1 toParameterNamed: /* Error: Ran out of types for this method. */;
++ (void)ranslator was missing mapping for MPModelPropertyPlaylistHasAnyCleanTracks;
 + (_Bool);
 + (id);
 + (void);
@@ -63,22 +37,22 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)C3DAppendPointToBoundary;
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
 - (unsigned long long);
 - (unsigned int);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (_Bool)accessoryDidUpdateHomeLevelLocationServiceSettingSupport: /* Error: Ran out of types for this method. */;
+- (void)code %{public}@ successful - retrying request;
 - (void);
 - (int);
 - (_Bool);
@@ -87,7 +61,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)P;
 - (id);
 - (_Bool);
 - (void);
@@ -95,13 +69,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)J1;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)	?;
+- (_Bool)MPModelPropertyCuratorBrandLogoArtwork;
 - (void);
 - (double);
 - (id);
@@ -109,16 +83,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)rivate}@;
 - (void);
 - (void);
 - (_Bool);
@@ -129,34 +103,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *allowedTopicTypeTags; // @synthesize allowedTopicTypeTags=_allowedTopicTypeTags;
-@property(nonatomic) _Bool debug; // @synthesize debug=_debug;
-@property(retain, nonatomic) NSOrderedSet *desiredLanguageTags; // @synthesize desiredLanguageTags=_desiredLanguageTags;
-@property(nonatomic) double donationTimeout; // @synthesize donationTimeout=_donationTimeout;
-@property(copy, nonatomic) NSArray *donorBundleIdentifiers; // @synthesize donorBundleIdentifiers=_donorBundleIdentifiers;
 @property(nonatomic) _Bool dontSkip; // @synthesize dontSkip=_dontSkip;
-@property(nonatomic) unsigned long long fingerprintMax; // @synthesize fingerprintMax=_fingerprintMax;
-@property(nonatomic) _Bool incPending; // @synthesize incPending=_incPending;
-@property(nonatomic) _Bool includeHigherLevelTopics; // @synthesize includeHigherLevelTopics=_includeHigherLevelTopics;
-@property(nonatomic) _Bool includePartsOfSpeech; // @synthesize includePartsOfSpeech=_includePartsOfSpeech;
-@property(nonatomic) _Bool includeRequestInResponse; // @synthesize includeRequestInResponse=_includeRequestInResponse;
-@property(nonatomic) _Bool includeStructuredExtractionResults; // @synthesize includeStructuredExtractionResults=_includeStructuredExtractionResults;
-@property(retain, nonatomic) NSDictionary *itemIds; // @synthesize itemIds=_itemIds;
-@property(nonatomic) long long maxConstellationTopics; // @synthesize maxConstellationTopics=_maxConstellationTopics;
-@property(retain, nonatomic) NSNumber *overrideBlendAlpha; // @synthesize overrideBlendAlpha=_overrideBlendAlpha;
-@property(retain, nonatomic) NSNumber *overrideBlendBeta; // @synthesize overrideBlendBeta=_overrideBlendBeta;
-@property(retain, nonatomic) NSNumber *overrideBlendGamma; // @synthesize overrideBlendGamma=_overrideBlendGamma;
-@property(nonatomic) int overrideConstellationMinCount; // @synthesize overrideConstellationMinCount=_overrideConstellationMinCount;
-@property(nonatomic) int overrideConstellationMinWeight; // @synthesize overrideConstellationMinWeight=_overrideConstellationMinWeight;
-@property(nonatomic) _Bool overrideEnableCoreNLPTagging; // @synthesize overrideEnableCoreNLPTagging=_overrideEnableCoreNLPTagging;
-@property(copy, nonatomic) NSSet *preferredSceneIdentifiers; // @synthesize preferredSceneIdentifiers=_preferredSceneIdentifiers;
-@property(readonly, nonatomic, getter=isRequestingContentFromActiveApplications) _Bool requestingContentFromActiveApplications;
-@property(nonatomic) _Bool textIsRaw; // @synthesize textIsRaw=_textIsRaw;
-@property(nonatomic) _Bool timing; // @synthesize timing=_timing;
-@property(nonatomic) unsigned int topk; // @synthesize topk=_topk;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *url;
-@property(copy, nonatomic) NSArray *urls; // @synthesize urls=_urls;
 
 @end
 

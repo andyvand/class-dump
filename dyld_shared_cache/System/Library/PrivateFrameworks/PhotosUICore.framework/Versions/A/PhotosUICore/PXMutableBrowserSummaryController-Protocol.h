@@ -7,16 +7,10 @@
 @class NSDictionary;
 
 @protocol PXMutableBrowserSummaryController
+- (void);
 - (NSDictionary *)ple.photos.CPAnalytics.slideshowPlaybackEnded;
 
 // Remaining properties
-@property(nonatomic) unsigned long long containerDateFormatGranularity;
-@property(copy, nonatomic) NSDictionary *defaultAttributes;
-@property(copy, nonatomic) NSDictionary *emphasizedAttributes;
-@property(copy, nonatomic) NSDictionary *selectionAttributes;
-@property(nonatomic) _Bool shouldShowLocationNames;
-@property(nonatomic) _Bool shouldUseAbbreviatedDates;
-@property(nonatomic) _Bool shouldUseNavigationTitle;
 @property(nonatomic) _Bool shouldUseSubtitles;
 @end
 

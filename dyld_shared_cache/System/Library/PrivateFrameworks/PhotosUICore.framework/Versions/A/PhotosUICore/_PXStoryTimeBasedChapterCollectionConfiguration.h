@@ -9,7 +9,6 @@
 @interface _PXStoryTimeBasedChapterCollectionConfiguration
 {
     _Bool _usesAssetLocalCreationDates;
-    NSMutableArray *_chapters;
 }
 
 - (_Bool);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *chapters; // @synthesize chapters=_chapters;
-@property(nonatomic) _Bool usesAssetLocalCreationDates; // @synthesize usesAssetLocalCreationDates=_usesAssetLocalCreationDates;
 
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface RTDevice
 {
     NSUUID *_identifier;
-    NSString *_deviceName;
-    NSString *_deviceClass;
-    NSString *_deviceModel;
-    NSDate *_creationDate;
 }
 
++ (id)nd data required;
 + (id);
-+ (id);
+- (id)logSoftFailureForEventNamed:(id)arg1 withAttributes:(id)arg2;
 - (id);
-- (id);
-- (id);
+- (id)ator:%@, localRAT:%s, remoteRAT:%s, invite_time:%d ms, session_connected:%d ms, wait_after:%d ms, realloc:%@). /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -28,18 +24,7 @@
 - (id)ö°-tÑ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(readonly, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

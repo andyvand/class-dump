@@ -5,5 +5,6 @@
 //
 
 @protocol HMUserActionPredictionProviderDataSource
+- (_Bool);
 @end
 

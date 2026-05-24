@@ -9,31 +9,27 @@
 @interface CKDPWebAuthTokenRetrieveResponse
 {
     NSString *_containerScopedUserId;
-    NSString *_token;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)rPlayAudioEngine.%{ptr}.tas.hoses;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *containerScopedUserId; // @synthesize containerScopedUserId=_containerScopedUserId;
-@property(readonly, nonatomic) _Bool hasContainerScopedUserId;
 @property(readonly, nonatomic) _Bool hasToken;
-@property(retain, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end
 

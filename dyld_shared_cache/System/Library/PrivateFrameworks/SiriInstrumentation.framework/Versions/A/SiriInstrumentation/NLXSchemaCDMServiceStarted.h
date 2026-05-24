@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMServiceStarted : SISchemaInstrumentationMessage
 {
     int _serviceName;
-    struct {
-        unsigned int serviceName:1;
-    } _has;
 }
 
 - (void);
@@ -29,11 +24,9 @@
 - (id);
 - (id)ntext;
 - (id)SSSchemaRSSSiriVocabSyncCompanionSyncUploadStarted",&,N,V_companionSyncUploadStarted;
-- (_Bool)hemaFLOWLINKAppShortcutFirstRunConfirmationEnded;
+- (_Bool)FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationEnded;
 
 // Remaining properties
-@property(nonatomic) _Bool hasServiceName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int serviceName; // @synthesize serviceName=_serviceName;
 
 @end

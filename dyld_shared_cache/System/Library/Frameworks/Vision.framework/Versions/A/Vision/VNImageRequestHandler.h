@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VNImageBuffer, VNObservationsCache, VNRequestPerformer, VNSession;
+@class VNImageBuffer, VNSession;
 
 @interface VNImageRequestHandler
 {
     VNSession *_session;
-    VNImageBuffer *_imageBuffer;
-    VNRequestPerformer *_requestPerformer;
-    VNObservationsCache *_observationsCache;
 }
 
 + (void);
@@ -24,16 +21,13 @@
 - (id);
 - (id);
 - (id);
+- (id)_createdOrFailedRoots;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)ersions/A/ProtocolBuffer;
+- (id)mFrameAvailable gStreamRunLoopMutex:unlocked /* Error: Ran out of types for this method. */;
+- (id)callbackPort;
+- (id)];
+- (id)c@9;
 - (id);
 - (id);
 - (id);
@@ -41,6 +35,9 @@
 - (id);
 - (id);
 - (id);
+- (id)storeIdentifierFromContactIdentifier:(struct __CVBuffer *)arg1;
+- (id)ultForHandle - availableChannels:(struct opaqueCMSampleBuffer *)arg1 %@;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -59,7 +56,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) VNImageBuffer *imageBuffer; // @synthesize imageBuffer=_imageBuffer;
-@property(readonly, nonatomic) VNSession *session; // @synthesize session=_session;
 
 @end
 

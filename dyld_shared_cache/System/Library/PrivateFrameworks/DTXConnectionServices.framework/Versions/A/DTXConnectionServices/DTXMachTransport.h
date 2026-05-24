@@ -6,21 +6,9 @@
 
 #import <DTXConnectionServices/DTXTransport.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface DTXMachTransport : DTXTransport
 {
     unsigned int _receivePort;
-    unsigned int _sendPort;
-    NSObject<OS_dispatch_queue> *_inputQueue;
-    NSObject<OS_dispatch_queue> *_outputQueue;
-    NSObject<OS_dispatch_source> *_listenSource;
-    NSObject<OS_dispatch_source> *_deadPortSource;
-    CDUnknownBlockType _inputReaderBlock;
-    CDUnknownBlockType _disconnectBlock;
-    struct DTXMachMessage *_sendBuffer;
-    unsigned int _bufferedLength;
 }
 
 + (id);

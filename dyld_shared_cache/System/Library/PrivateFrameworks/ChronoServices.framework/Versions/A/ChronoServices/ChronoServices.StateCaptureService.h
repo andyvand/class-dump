@@ -7,8 +7,6 @@
 @interface ChronoServices.StateCaptureService
 {
     id itemsByIdentifier;
-    id subitemsByIdentifier;
-    id queue;
 }
 
 - (id);

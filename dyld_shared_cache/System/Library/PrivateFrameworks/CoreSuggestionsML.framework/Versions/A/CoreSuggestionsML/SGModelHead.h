@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SGModelHead
 {
     NSString *_name;
-    unsigned long long _numberOfDimensions;
-    NSArray *_labels;
 }
 
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)lu entries;
+- (id);
+- (id)s, error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *labels; // @synthesize labels=_labels;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long numberOfDimensions; // @synthesize numberOfDimensions=_numberOfDimensions;
 
 @end
 

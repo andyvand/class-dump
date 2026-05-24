@@ -5,5 +5,6 @@
 //
 
 @protocol AADOBRepairStateUpdaterProtocol
+- (void)launch;
 @end
 

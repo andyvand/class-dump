@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSTableHeaderView;
+@class NSTableHeaderView;
 
 __attribute__((visibility("hidden")))
 @interface NSTableHeaderData
 {
     NSTableHeaderView *_headerView;
-    NSMutableArray *_views;
 }
 
 - (void);
@@ -18,15 +17,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void)n result;
+- (void);
 - (void);
 - (void);
+- (void)}16@0:(_Bool)arg1 8;
+- (struct CGRect)for stream %llu has become unblocked;
 - (void);
 - (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
+- (void)i;
 - (void);
 - (void)_enterFullScreenIfNeededAfterMiniturized;
 - (id)$¾ ªD;

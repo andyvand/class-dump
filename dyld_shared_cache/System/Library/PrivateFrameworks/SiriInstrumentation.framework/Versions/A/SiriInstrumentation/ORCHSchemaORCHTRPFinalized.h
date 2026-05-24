@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHTRPFinalized : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_trpId;
-    _Bool _hasTrpId;
 }
 
 - (id);
@@ -21,19 +20,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_k@;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)te messages for guids:(id)arg1 %@;
 - (id);
 - (id);
-- (id)ics;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)_envelopeStatistics;
+- (id)setHasRuleType: /* Error: Ran out of types for this method. */;
 - (void)outcome.parameterDisambiguation.items.collection.values.primitive.app.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end

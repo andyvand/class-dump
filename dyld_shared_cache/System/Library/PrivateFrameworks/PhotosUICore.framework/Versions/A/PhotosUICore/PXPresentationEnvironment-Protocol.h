@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSViewController, NSWindow;
+@class NSViewController;
 
 @protocol PXPresentationEnvironment
+- (void);
+- (void);
+
+@optional
+- (void)tr;
 
 // Remaining properties
-@property(readonly, nonatomic) NSWindow *alertWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSWindow",?,R,N
-
-@property(readonly, nonatomic) _Bool canPushViewController;
 @property(readonly, nonatomic) NSViewController *presentingViewController;
-@property(retain, nonatomic) id sensitivityInterventionManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,&,N
-
 @end
 

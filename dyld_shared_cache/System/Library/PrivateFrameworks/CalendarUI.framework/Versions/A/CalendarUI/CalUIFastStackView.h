@@ -4,42 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSMutableArray;
+@class NSMutableArray;
 
 @interface CalUIFastStackView
 {
     NSMutableArray *_views;
-    long long _orientation;
-    long long _distribution;
-    double _spacing;
-    NSLayoutConstraint *_firstConstraint;
-    NSLayoutConstraint *_lastConstraint;
-    struct NSEdgeInsets _edgeInsets;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void)N;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)?;
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)nM9;
 - (void);
 - (struct NSEdgeInsets);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (long long);
+- (long long)`;
 - (double);
 - (void);
 - (void);
@@ -47,12 +41,6 @@
 - (void)t",&,V_bottomConstraint;
 
 // Remaining properties
-@property long long distribution; // @synthesize distribution=_distribution;
-@property struct NSEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(retain) NSLayoutConstraint *firstConstraint; // @synthesize firstConstraint=_firstConstraint;
-@property(retain) NSLayoutConstraint *lastConstraint; // @synthesize lastConstraint=_lastConstraint;
-@property long long orientation; // @synthesize orientation=_orientation;
-@property double spacing; // @synthesize spacing=_spacing;
 @property(retain) NSMutableArray *views; // @synthesize views=_views;
 
 @end

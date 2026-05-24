@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFCharacteristicBulletinRegistrationDatabaseID;
 @protocol MKFCharacteristic, MKFHome;
 
 @protocol MKFCharacteristicBulletinRegistration
@@ -12,7 +11,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <MKFCharacteristic> characteristic;
-@property(readonly, copy, nonatomic) MKFCharacteristicBulletinRegistrationDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @end
 

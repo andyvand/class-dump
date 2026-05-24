@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AVResolvedDecompressionSettings
 {
     NSMutableDictionary *_decompressionAttributes;
-    _Bool _useDefaultPixelBufferAttributes;
-    NSMutableArray *_outputCodecTypes;
 }
 
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)stream;
+- (void)initWithMaximumCapacity:(id)arg1;
+- (id)destinationCompressionQuality;
+- (_Bool)MSVLyricsTTMLParser;
+- (void)eilotrmapdnsIcufkMShjTRxgC4013bDNvwyUL2O856PB79AFKEWVzGJHYX;
 - (void);
 - (_Bool);
 - (CDStruct_1b6d18a9);
@@ -26,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (CDStruct_1b6d18a9);
 - (id);
-- (id);
+- (id)> %s:Failed to create Dolby Vision RPU with error code %d from hdrStats %{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

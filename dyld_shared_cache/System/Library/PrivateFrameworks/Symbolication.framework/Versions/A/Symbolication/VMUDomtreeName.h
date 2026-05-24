@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (id);
 - (id);

@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemAllowMultipleLinesKey;
 + (id);
 + (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (id);

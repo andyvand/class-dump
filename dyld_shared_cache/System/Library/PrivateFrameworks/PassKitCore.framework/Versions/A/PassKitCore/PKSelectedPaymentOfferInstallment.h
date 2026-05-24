@@ -6,16 +6,9 @@
 
 #import <PassKitCore/PKSelectedPaymentOffer.h>
 
-@class PKCurrencyAmount, PKPaymentOfferInstallmentAssessment;
-
 @interface PKSelectedPaymentOfferInstallment : PKSelectedPaymentOffer
 {
     _Bool _isPreconfiguredOffer;
-    long long _selectionType;
-    PKPaymentOfferInstallmentAssessment *_installmentAssessment;
-    PKCurrencyAmount *_userEnteredAmount;
-    double _setupAfterPurchaseStickyDuration;
-    double _setupAfterPurchaseActiveDuration;
 }
 
 + (id);
@@ -25,10 +18,10 @@
 - (id);
 - (void);
 - (double);
-- (double);
+- (double)U;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -42,18 +35,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)setHasTestThroughput:(long long)arg1;
+- (void)_scoRetransmission1DenyCount;
 - (id);
-- (void)ATION_CHOOSE_YOUR_PAYMENT_PLAN;
+- (void)TRANSACTION_NOTIFICATION_CHOOSE_YOUR_PAYMENT_PLAN;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentOfferInstallmentAssessment *installmentAssessment; // @synthesize installmentAssessment=_installmentAssessment;
-@property(nonatomic) _Bool isPreconfiguredOffer; // @synthesize isPreconfiguredOffer=_isPreconfiguredOffer;
 @property(nonatomic) long long selectionType; // @synthesize selectionType=_selectionType;
-@property(nonatomic) double setupAfterPurchaseActiveDuration; // @synthesize setupAfterPurchaseActiveDuration=_setupAfterPurchaseActiveDuration;
-@property(nonatomic) double setupAfterPurchaseStickyDuration; // @synthesize setupAfterPurchaseStickyDuration=_setupAfterPurchaseStickyDuration;
-@property(copy, nonatomic) PKCurrencyAmount *userEnteredAmount; // @synthesize userEnteredAmount=_userEnteredAmount;
 
 @end
 

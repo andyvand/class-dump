@@ -9,45 +9,33 @@
 @interface CWFRemoteInterfaceNetworkInfo
 {
     int _state;
-    NSString *_SSID;
-    NSString *_BSSID;
-    unsigned long long _securityType;
-    long long _RSSI;
-    NSString *_networkName;
-    NSString *_macAddress;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (int);
-- (unsigned long long);
+- (unsigned long long)̧;
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)SSL_RSA_WITH_NULL_SHA;
 - (id);
 - (void)ing",C,N,V_displayName;
 - (void)T] %s:(id)arg1 Begin:Asset discovered completion handler /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *BSSID; // @synthesize BSSID=_BSSID;
-@property(nonatomic) long long RSSI; // @synthesize RSSI=_RSSI;
 @property(copy, nonatomic) NSString *SSID; // @synthesize SSID=_SSID;
-@property(copy, nonatomic) NSString *macAddress; // @synthesize macAddress=_macAddress;
-@property(copy, nonatomic) NSString *networkName; // @synthesize networkName=_networkName;
-@property(nonatomic) unsigned long long securityType; // @synthesize securityType=_securityType;
-@property(nonatomic) int state; // @synthesize state=_state;
 
 @end
 

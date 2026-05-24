@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBLatLng;
+@class NSArray, NSData, _SFPBColor;
 
 @protocol _SFPBWorldMapCardSection
-- (int)entifier;
+- (void)#;
+- (void)R$;
+- (void)y;
+- (_Bool)setTargetId: /* Error: Ran out of types for this method. */;
+- (_Bool)setShouldAllowDataForCellularNetworkTypes: /* Error: Ran out of types for this method. */;
+- (void)- Firing notification timer %p [%ld of %ld notifications received] - received=[%{public}@] - expected=[%{public}@];
+- (void)_connectContextToSessionWithRequestIdentifier:(_SFPBColor *)arg1 remoteController:completion: /* Error: Ran out of types for this method. */;
+- (NSData *)ndicationIdentifierIsTrashed;
+- (int)entityIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(copy, nonatomic) NSString *highlightedTimeZoneName;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBLatLng *pinLocation;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
 @end
 

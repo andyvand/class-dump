@@ -5,5 +5,6 @@
 //
 
 @protocol _RWIRelayConnectionToApplicationDelegate
+- (void)?%@qa;
 @end
 

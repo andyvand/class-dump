@@ -6,18 +6,11 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSArray, NSMutableDictionary;
-@protocol CKModifySubscriptionsOperationCallbacks><CKDOperationCallbackProxy;
+@class NSArray;
 
 @interface CKDModifySubscriptionsOperation : CKDDatabaseOperation
 {
     _Bool _hasSubscriptionsToSave;
-    _Bool _hasSubscriptionsToDelete;
-    CDUnknownBlockType _saveCompletionBlock;
-    CDUnknownBlockType _deleteCompletionBlock;
-    NSArray *_subscriptionsToSave;
-    NSArray *_subscriptionIDsToDelete;
-    NSMutableDictionary *_subscriptionsByServerID;
 }
 
 + (long long);
@@ -26,12 +19,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (int);
+- (int);
 - (id);
 - (void)recordsAndShares;
 - (id)vor of preceding error:%@ /* Error: Ran out of types for this method. */;
@@ -43,11 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CKModifySubscriptionsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CDUnknownBlockType deleteCompletionBlock; // @synthesize deleteCompletionBlock=_deleteCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType saveCompletionBlock; // @synthesize saveCompletionBlock=_saveCompletionBlock;
-@property(retain, nonatomic) NSArray *subscriptionIDsToDelete; // @synthesize subscriptionIDsToDelete=_subscriptionIDsToDelete;
-@property(retain, nonatomic) NSMutableDictionary *subscriptionsByServerID; // @synthesize subscriptionsByServerID=_subscriptionsByServerID;
 @property(retain, nonatomic) NSArray *subscriptionsToSave; // @synthesize subscriptionsToSave=_subscriptionsToSave;
 
 @end

@@ -7,11 +7,6 @@
 @interface AppStoreKit.SearchAd
 {
     id instanceId;
-    id iAdObject;
-    id impressionId;
-    id adTransparencyAction;
-    id advertisingText;
-    id id;
 }
 
 @end

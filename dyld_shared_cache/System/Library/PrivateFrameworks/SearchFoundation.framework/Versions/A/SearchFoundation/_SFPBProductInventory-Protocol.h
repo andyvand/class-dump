@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate;
+@class NSData, NSString;
 
 @protocol _SFPBProductInventory
+- (void);
+- (void);
+- (float)ecs must be +ve;
+- (void)e",R,C,N;
+- (NSData *)Against",&,N,V_clientLinkedAgainst;
 - (void)#°!Gùq§°1Â0@ù
 × ;
 - (void)ction"16@0:(NSString *)arg1 8;
 
 // Remaining properties
-@property(nonatomic) int availabilityStatus;
-@property(nonatomic) float distance;
-@property(nonatomic) int distanceUnit;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *storeAddress;
-@property(copy, nonatomic) NSString *storeId;
-@property(copy, nonatomic) NSString *storeName;
-@property(retain, nonatomic) _SFPBDate *timestamp;
 @property(nonatomic) int type;
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIRunLoopSemaphore, NSString;
+@class NSString;
 
 @interface NSCFRunLoopSemaphore
 {
     struct os_unfair_lock_s _retainReleaseLock;
-    HIRunLoopSemaphore *_underlyingSemaphore;
-    NSString *_loggingDomain;
 }
 
 + (struct __CFString *);
@@ -21,9 +19,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Mq-7;
 - (id);
-- (struct __CFString *);
+- (struct __CFString *)H;
 - (oneway void);
 - (_Bool);
 - (id);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(copy) NSString *legend;
-@property(copy) NSString *loggingDomain; // @synthesize loggingDomain=_loggingDomain;
-@property(readonly) struct __CFString *mode;
 
 @end
 

@@ -11,11 +11,11 @@
     BrightnessSystemInternal *bsi;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)AutoFocusCalibrationData;
 - (_Bool);
 - (void);
 

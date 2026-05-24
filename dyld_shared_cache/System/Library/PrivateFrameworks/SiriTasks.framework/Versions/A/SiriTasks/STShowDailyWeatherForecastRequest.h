@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, STCity, STWeatherAttributes;
+@class STWeatherAttributes;
 
 @interface STShowDailyWeatherForecastRequest
 {
     STWeatherAttributes *_currentAttributes;
-    NSArray *_dailyAttributes;
-    STCity *_city;
-    long long _startWeekday;
 }
 
 + (_Bool);
@@ -19,11 +16,11 @@
 - (id);
 - (id);
 - (id);
+- (id)p;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)ir<unsigned int *, std:(id)arg1:__1::allocator<unsigned int> >=^I}} /* Error: Ran out of types for this method. */;
+- (void)@;
 
 @end
 

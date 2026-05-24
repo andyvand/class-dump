@@ -7,14 +7,13 @@
 @interface EFLocked
 {
     struct os_unfair_lock_s _lock;
-    id _object;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)synchronize;
 - (struct os_unfair_lock_s *);
 - (id);
 - (id);

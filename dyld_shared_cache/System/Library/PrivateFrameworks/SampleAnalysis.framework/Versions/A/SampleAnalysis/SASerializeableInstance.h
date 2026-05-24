@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SASerializable;
-
 __attribute__((visibility("hidden")))
 @interface SASerializeableInstance
 {
     _Bool _populated;
-    id <SASerializable> _instance;
 }
 
 - (void);

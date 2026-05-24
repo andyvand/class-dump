@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_content;
 }
 
-- (void);
+- (void)c;
 - (id);
-- (id);
+- (id)dback to parsecd:(id)arg1 %p (paired with search start feedback:%p) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

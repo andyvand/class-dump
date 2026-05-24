@@ -7,6 +7,8 @@
 @class _UIFindNavigatorViewController;
 
 @protocol _UIFindNavigatorHosting
+- (_UIFindNavigatorViewController *);
+- (_Bool)A;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIFindNavigatorViewController *findNavigatorViewController;

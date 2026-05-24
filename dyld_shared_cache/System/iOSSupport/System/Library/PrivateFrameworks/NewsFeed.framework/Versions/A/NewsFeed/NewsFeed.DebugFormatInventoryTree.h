@@ -7,14 +7,6 @@
 @interface NewsFeed.DebugFormatInventoryTree
 {
     id editor;
-    id onPackageTap;
-    id onManageWorkspaceTap;
-    id _workspace;
-    id _packages;
-    id _group;
-    id _isWorkspaceExpanded;
-    id _expanded;
-    id _filter;
 }
 
 @end

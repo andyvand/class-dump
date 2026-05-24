@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, UIWindowScene, _UIBannerContainerView, _UIBannerWindow;
+@class UIWindowScene;
 
 @interface _UIBannerManager
 {
     UIWindowScene *_windowScene;
-    _UIBannerWindow *_window;
-    _UIBannerContainerView *_containerView;
 }
 
 - (id)!üEù1YÐ1Â0@ù
@@ -28,16 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;
-@property(retain, nonatomic) _UIBannerContainerView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UIBannerWindow *window; // @synthesize window=_window;
 @property(retain, nonatomic) UIWindowScene *windowScene; // @synthesize windowScene=_windowScene;
 
 @end

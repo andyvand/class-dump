@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id)Done: /* Error: Ran out of types for this method. */;
-+ (id)egisterUserNotificationSettings: /* Error: Ran out of types for this method. */;
++ (id)֠;
++ (id)dataWithBytesNoCopy:length:freeWhenDone: /* Error: Ran out of types for this method. */;
++ (id)application:didRegisterUserNotificationSettings: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

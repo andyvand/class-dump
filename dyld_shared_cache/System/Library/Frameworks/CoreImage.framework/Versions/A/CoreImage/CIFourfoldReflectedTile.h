@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)ka;
 - (id)f{zyzw{{w~rOng{{{{{[srzUgbsnmjnffffR[W[TTRTSSPS>PB\frnx£££uMa[iVXN_KZQbA[SiTf_sr}}bur|^kdoKd[pTql««««¥¥¥x}y~w}d{{{{pppp[`\`OQHUWWSW\`_`iiiippppQictMjcz{³³³³¶¶¶¶¦¦¦¦brn{Of`ttpmtxxxx{{{{zzzzuvt}w;
 
 @end

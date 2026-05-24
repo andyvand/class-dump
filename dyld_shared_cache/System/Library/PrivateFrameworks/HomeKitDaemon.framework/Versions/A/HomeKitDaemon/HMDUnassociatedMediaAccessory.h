@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDUnassociatedAccessory.h>
 
-@class HMDAccessoryAdvertisement, NSString;
+@class HMDAccessoryAdvertisement;
 
 __attribute__((visibility("hidden")))
 @interface HMDUnassociatedMediaAccessory : HMDUnassociatedAccessory
@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 + (id)kB;
 - (void);
-- (id);
+- (id)tem/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices;
 - (_Bool);
-- (id);
-- (id);
+- (id)mapsApplicationContainerPaths;
+- (id)_invalidationHandler;
 - (id);
 - (long long);
 - (id);
@@ -27,19 +27,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Builtin_float.dylib;
 - (id)4@"NSDictionary"32;
 - (void)rationManagerDataSource"8Q16^B24;
 
 // Remaining properties
 @property(retain) HMDAccessoryAdvertisement *advertisement; // @synthesize advertisement=_advertisement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

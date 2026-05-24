@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSString;
-
 @interface SAUserProfileItem : AceObject
 {
 }
@@ -20,21 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)qa;
+- (void)construct;
 
 // Remaining properties
 @property(nonatomic) _Bool activeProfile;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *fullName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *profileIdentifier;
-@property(copy, nonatomic) NSData *profileImage;
-@property(readonly) Class superclass;
 
 @end
 

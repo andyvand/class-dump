@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISAuthenticationContext, ISStoreClient, NSNumber, NSString, NSURL;
+@class ISAuthenticationContext, ISStoreClient;
 
 @interface ISDataProvider
 {
     ISAuthenticationContext *_authenticationContext;
-    NSNumber *_authenticatedAccountDSID;
-    long long _contentLength;
-    NSString *_contentType;
-    id _output;
-    NSURL *_redirectURL;
-    int _bagType;
-    ISStoreClient *_storeClient;
 }
 
 + (id);
-+ (id);
++ (id)*1GF
+;
 - (long long);
 - (void);
 - (void);
@@ -28,7 +22,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (int);
 - (void);
@@ -39,26 +33,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_includeDevicePrefixInTitle;
+- (id)cancelAllOperations;
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSNumber *authenticatedAccountDSID; // @synthesize authenticatedAccountDSID=_authenticatedAccountDSID;
-@property(retain) ISAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property int bagType; // @synthesize bagType=_bagType;
-@property long long contentLength; // @synthesize contentLength=_contentLength;
-@property(retain) NSString *contentType; // @synthesize contentType=_contentType;
-@property(retain) id output; // @synthesize output=_output;
-@property(retain) NSURL *redirectURL; // @synthesize redirectURL=_redirectURL;
 @property(readonly) ISStoreClient *storeClient; // @synthesize storeClient=_storeClient;
-@property(readonly, getter=isStream) _Bool stream;
-@property(readonly) long long streamedBytes;
 
 @end
 

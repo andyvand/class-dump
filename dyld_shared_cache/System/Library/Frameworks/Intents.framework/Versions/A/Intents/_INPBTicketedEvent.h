@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBLocationValue;
-
 @interface _INPBTicketedEvent
 {
     CDStruct_74e42c4c _has;
-    int _category;
-    _INPBDateTimeRange *_eventDuration;
-    _INPBLocationValue *_location;
-    NSString *_name;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (int);
-- (void);
-- (id);
+- (int)Rc;
+- (void)_setupEditableScopeChoices;
+- (id)SString",C,N,V_helpAnchor;
 - (id);
 - (_Bool);
 - (void);
@@ -38,26 +32,12 @@
 - (id)Ñ¾(1Â0@ù
 × ;
 - (void);
-- (void)viderBundleIdentifier;
-- (_Bool)eCodeFailurePreviousRideNeedsFeedback;
+- (void)alternativeProviderBundleIdentifier;
+- (_Bool)INListRideOptionsIntentResponseCodeFailurePreviousRideNeedsFeedback;
 - (void)ïêM2;
 
 // Remaining properties
 @property(nonatomic) int category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _INPBDateTimeRange *eventDuration; // @synthesize eventDuration=_eventDuration;
-@property(nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasEventDuration;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBLocationValue *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

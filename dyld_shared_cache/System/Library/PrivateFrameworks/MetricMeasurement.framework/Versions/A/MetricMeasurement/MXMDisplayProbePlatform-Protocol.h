@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol MXMDisplayProbePlatformDelegate;
 
 @protocol MXMDisplayProbePlatform
++ (NSArray *);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <MXMDisplayProbePlatformDelegate> delegate;

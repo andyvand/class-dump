@@ -7,15 +7,6 @@
 @interface NewsPersonalization.AutoFavoritesService
 {
     id localNewsAutoFavoritesProvider;
-    id eventHistoryAutoFavoritesProvider;
-    id externalSignalAutoFavoritesProvider;
-    id configurationProvider;
-    id userContextProvider;
-    id allowlistProvider;
-    id tagService;
-    id userHasEventHistory;
-    id persistence;
-    id eligibilityPolicy;
 }
 
 - (void);

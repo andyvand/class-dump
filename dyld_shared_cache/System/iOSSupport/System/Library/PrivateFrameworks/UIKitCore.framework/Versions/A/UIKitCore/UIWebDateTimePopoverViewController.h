@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     id <UIWebFormControl> _innerWebDateTimeControl;
 }
 
-- (void);
+- (void)messageSummaryInfoDictionaryWithBlastDoorMessage:(id)arg1;
 - (id);
 - (id);
-- (void);
+- (void)sl/libressl-2.2/ssl/s3_enc.c;
 - (void)pover;
 
 // Remaining properties

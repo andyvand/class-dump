@@ -9,28 +9,21 @@
 @interface NewsUI2.ChannelTagView
 {
     id iconImageView;
-    id nameLabel;
-    id customizeButton;
-    id accessoryButton;
-    id separatorView;
-    id token;
 }
 
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)accessibilityElements;
-- (void)ineFeedsManifest;
+- (void)OfflineFeedsManifest;
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityHint;
 @property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic, copy) NSString *accessibilityValue;
 
 @end
 

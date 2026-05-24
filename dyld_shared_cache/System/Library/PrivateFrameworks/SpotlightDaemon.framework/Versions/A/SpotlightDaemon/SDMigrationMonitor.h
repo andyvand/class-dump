@@ -10,11 +10,6 @@
 @interface SDMigrationMonitor
 {
     _Bool _unlocked;
-    _Bool _foundExtensions;
-    _Bool _finishedDataMigration;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _completionBlock;
-    CDUnknownBlockType _eventHandler;
 }
 
 + (id);
@@ -24,15 +19,15 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)honde kutjes;
+- (void)enderFemale;
+- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)removePendingAccountSetup;
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
@@ -42,12 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(copy, nonatomic) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(nonatomic) _Bool finishedDataMigration; // @synthesize finishedDataMigration=_finishedDataMigration;
-@property(nonatomic) _Bool foundExtensions; // @synthesize foundExtensions=_foundExtensions;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool unlocked; // @synthesize unlocked=_unlocked;
 
 @end
 

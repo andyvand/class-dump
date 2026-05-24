@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSVBHostAppAuxiliaryConnection : NSVBHasClientAuxiliaryConnection
 {
     BOOL _accepted;
-    int _auxServicePID;
 }
 
 - (void);

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id)¥
 ;
 - (id);
-- (id);
+- (id)stead, error:%@ /* Error: Ran out of types for this method. */;
 - (unsigned char);
 - (void)Í
 £

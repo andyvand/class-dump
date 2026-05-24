@@ -9,22 +9,21 @@
 @interface CTCellularPlanCrossPlatformLabel
 {
     NSString *_phoneNumber;
-    NSString *_labelName;
 }
 
-+ (_Bool);
++ (_Bool)cription:%@
+} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)n %{public}@ cid:(id)arg1 %u;
 - (void)±ª)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *labelName; // @synthesize labelName=_labelName;
 @property(readonly, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end

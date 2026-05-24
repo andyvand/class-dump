@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, Protocol;
+@class Protocol;
 
 @interface MPProtocolProxy
 {
     Protocol *_protocol;
-    NSHashTable *_objects;
 }
 
-+ (id);
++ (id)objectForeignTable;
 + (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)G__;
+- (void)__MPModelPropertySocialPersonArtwork__MAPPING_MISSING__;
 - (id)oint to:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)moteOptionDialogOptions;
+- (void)kMRMediaRemoteOptionDialogOptions;
 
 // Remaining properties
-@property(retain, nonatomic) NSHashTable *objects; // @synthesize objects=_objects;
 @property(retain, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end

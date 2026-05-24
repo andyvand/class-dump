@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (int);
+- (id) ;
+- (int);
 - (id);
 - (void);
-- (void)ckAddress;
+- (void)logBacktrace_lastStackAddress;
 
 @end
 

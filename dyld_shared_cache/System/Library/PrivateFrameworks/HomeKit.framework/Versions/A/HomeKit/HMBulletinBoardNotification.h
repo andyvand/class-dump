@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMService, NSObject, NSPredicate, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMBulletinBoardNotification
 {
     struct os_unfair_lock_s _lock;
-    _Bool _enabled;
-    NSPredicate *_condition;
-    NSUUID *_uniqueIdentifier;
-    NSUUID *_messageTargetUUID;
-    HMService *_service;
-    _HMContext *_context;
 }
 
-+ (_Bool);
++ (_Bool)
+;
 + (id)F0;
 - (_Bool);
 - (id);
@@ -33,35 +27,19 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)aF;
+- (id)M	*	0	M	'	>	;
 - (void);
+- (id)fetchCallsWithPredicate:sortDescriptors:limitsDictionary:limit:offset:batchSize: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSPredicate *condition; // @synthesize condition=_condition;
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly, nonatomic) __weak HMService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

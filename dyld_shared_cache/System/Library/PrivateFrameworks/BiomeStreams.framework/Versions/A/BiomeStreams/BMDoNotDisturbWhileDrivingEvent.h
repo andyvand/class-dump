@@ -6,15 +6,12 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString;
-
 @interface BMDoNotDisturbWhileDrivingEvent : BMEventBase
 {
     _Bool _isStart;
-    unsigned long long _reason;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (_Bool);
@@ -25,23 +22,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Y3;
 - (id);
 - (id);
 - (id);
 - (id)TABASE ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isStart; // @synthesize isStart=_isStart;
-@property(readonly, nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 
 @end
 

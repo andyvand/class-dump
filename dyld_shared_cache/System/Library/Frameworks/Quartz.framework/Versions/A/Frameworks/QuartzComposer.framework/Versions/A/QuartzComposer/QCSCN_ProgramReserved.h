@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface QCSCN_ProgramReserved
 {
     NSString *_vertexShader;
-    NSString *_fragmentShader;
-    NSString *_name;
-    id _delegate;
-    NSMutableDictionary *_parameters;
 }
 
-- (void);
+- (void);
 
 @end
 

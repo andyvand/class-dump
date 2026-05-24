@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface SFAuthenticateAccountsServiceConfiguration
 {
     _Bool _isHomeSharingSetupNeeded;
-    _Bool _isHomeKitSetupNeeded;
-    unsigned int _serviceType;
-    unsigned int _targetedAccountTypes;
-    NSSet *_existingAccountsIdentifiers;
 }
 
 - (unsigned int);
@@ -30,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *existingAccountsIdentifiers; // @synthesize existingAccountsIdentifiers=_existingAccountsIdentifiers;
-@property(nonatomic) _Bool isHomeKitSetupNeeded; // @synthesize isHomeKitSetupNeeded=_isHomeKitSetupNeeded;
-@property(nonatomic) _Bool isHomeSharingSetupNeeded; // @synthesize isHomeSharingSetupNeeded=_isHomeSharingSetupNeeded;
 @property(nonatomic) unsigned int serviceType; // @synthesize serviceType=_serviceType;
-@property(nonatomic) unsigned int targetedAccountTypes; // @synthesize targetedAccountTypes=_targetedAccountTypes;
 
 @end
 

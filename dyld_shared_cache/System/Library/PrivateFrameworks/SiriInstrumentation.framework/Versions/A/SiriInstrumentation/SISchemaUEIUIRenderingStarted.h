@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIUIRenderingStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)getIAPHistoryServiceWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)L%;
+- (_Bool)im_reconcile_ptask_user_info_with_shadowed_reason;
 - (id);
 - (id);
-- (id)eqAnyGroup7DayTo28Day;
-- (id)sContactQueryMetadata;
+- (id)deleteFreqAnyGroup7DayTo28Day;
+- (id)_hasContactQueryMetadata;
 - (_Bool)GClientEvent.RGRequestEndedTier1;
-- (_Bool)RYCODE_GW;
+- (_Bool)COUNTRYCODE_GW;
 - (void)&äÿÿ®!;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

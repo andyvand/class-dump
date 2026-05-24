@@ -6,30 +6,11 @@
 
 #import <IDSFoundation/IDSSocketPairMessage.h>
 
-@class NSData, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface IDSSocketPairResourceTransferSender : IDSSocketPairMessage
 {
     NSString *_resourcePath;
-    NSDictionary *_metadata;
-    NSDictionary *_resourceAttributes;
-    _Bool _sentFirstMessage;
-    unsigned long long _totalBytes;
-    unsigned long long _nextByte;
-    _Bool _done;
-    int _fileDescriptor;
-    unsigned int _maxChunkSize;
-    _Bool _resumeResourceTransfers;
-    unsigned int _sequenceNumber;
-    unsigned short _streamID;
-    _Bool _expectsPeerResponse;
-    _Bool _wantsAppAck;
-    _Bool _compressPayload;
-    _Bool _compressed;
-    _Bool _didWakeHint;
-    NSString *_peerResponseIdentifier;
-    NSString *_messageUUID;
-    NSDate *_expiryDate;
 }
 
 - (void);
@@ -41,7 +22,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int)6;
 - (id);
 - (void);
 - (id);
@@ -53,45 +34,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned int);
-- (unsigned char);
+- (unsigned int)HIDDefaultBehavior;
+- (unsigned char)y;
 - (void)ransfer cancel message does not have enought bytes for reason;
-- (id)ng;
+- (id)StewieMessaging;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,N
-
-@property(readonly, nonatomic) _Bool didWakeHint;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool expectsPeerResponse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) NSDate *expiryDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,&,N
-
-@property(readonly, nonatomic) _Bool isDone; // @synthesize isDone=_done;
-@property(nonatomic) unsigned int maxChunkSize; // @synthesize maxChunkSize=_maxChunkSize;
-@property(readonly, nonatomic) NSString *messageUUID; // @synthesize messageUUID=_messageUUID;
-@property(nonatomic) unsigned long long nextByte; // @synthesize nextByte=_nextByte;
-@property(readonly, nonatomic) NSString *peerResponseIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(nonatomic) _Bool resumeResourceTransfers; // @synthesize resumeResourceTransfers=_resumeResourceTransfers;
 @property(readonly, nonatomic) _Bool sentFirstMessage; // @synthesize sentFirstMessage=_sentFirstMessage;
-@property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(nonatomic) unsigned short streamID; // @synthesize streamID=_streamID;
-@property(readonly, nonatomic) unsigned long long totalBytes; // @synthesize totalBytes=_totalBytes;
-@property(readonly, nonatomic) _Bool wantsAppAck;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

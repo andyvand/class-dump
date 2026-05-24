@@ -7,7 +7,6 @@
 @interface NewsUI2.NewIssueNotificationBackgroundAppRefreshRequester
 {
     id activityScheduler;
-    id paidBundleConfigManager;
 }
 
 @end

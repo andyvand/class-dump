@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol CALNTravelEngine;
+
 @protocol CALNTravelEngineDelegate
+- (void)h;
+- (void);
+- (void)setBackgroundHasRoundedCorners:(id <CALNTravelEngine>)arg1;
 @end
 

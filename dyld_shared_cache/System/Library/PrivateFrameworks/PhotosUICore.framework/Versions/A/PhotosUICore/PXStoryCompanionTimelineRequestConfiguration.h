@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PHAssetCollection;
-@protocol OS_dispatch_queue;
+@class PHAssetCollection;
 
 @interface PXStoryCompanionTimelineRequestConfiguration
 {
     PHAssetCollection *_assetCollection;
-    NSObject<OS_dispatch_queue> *_queue;
-    long long _songsProducerKind;
-    struct CGSize _viewportSize;
 }
 
 - (long long);
@@ -24,15 +20,12 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (id):(struct _NSZone *)arg1;
+- (id)setGridShadowBlurRadius:(struct _NSZone *)arg1;
 - (id)}}{CGRect={CGPoint=dd}{CGSize=dd}}{CGRect={CGPoint=dd}{CGSize=dd}}}{NSEdgeInsets=dddd}{?={?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?={?=ddd}{?=ddd}{?=ddd}{?=ddd}}{?=qiIq}}{?={?={CGAffineTransform=dddddd}}{?={CGAffineTransform=dddddd}}{?=qiIq}}{?=cC{?=qiIq}c(?=cccc)(?=ddc)}{?=qqfdddd}},R,N,V_info;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(nonatomic) long long songsProducerKind; // @synthesize songsProducerKind=_songsProducerKind;
-@property(nonatomic) struct CGSize viewportSize; // @synthesize viewportSize=_viewportSize;
 
 @end
 

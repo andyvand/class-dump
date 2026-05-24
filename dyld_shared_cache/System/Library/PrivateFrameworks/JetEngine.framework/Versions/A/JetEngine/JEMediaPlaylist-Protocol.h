@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol JEMediaPlaylist
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *eventData;

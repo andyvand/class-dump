@@ -10,10 +10,10 @@
 }
 
 - (void);
+- (void)4;
 - (void);
-- (void);
-- (id);
-- (void)elModifier;
+- (id)�C;
+- (void)AudioFeedUpdatePluginModelModifier;
 
 @end
 

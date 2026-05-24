@@ -5,5 +5,7 @@
 //
 
 @protocol SiriSharedUICompactViewModelControllerDelegate
+- (_Bool)=;
+- (_Bool)P;
 @end
 

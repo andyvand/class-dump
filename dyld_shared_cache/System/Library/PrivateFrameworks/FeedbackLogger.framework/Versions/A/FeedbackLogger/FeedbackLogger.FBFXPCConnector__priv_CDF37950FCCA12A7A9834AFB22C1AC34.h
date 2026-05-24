@@ -7,10 +7,6 @@
 @interface FeedbackLogger.FBFXPCConnector__priv_CDF37950FCCA12A7A9834AFB22C1AC34
 {
     id notificationCenter;
-    id connectionLock;
-    id proxyLock;
-    id connectionFailure;
-    id connectionInvalid;
 }
 
 - (id);

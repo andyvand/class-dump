@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
-
 @interface _UIMenuLeafKeyCombination
 {
     _Bool _hasDisplayKeyEquivalentOverride;
-    long long _modifierFlags;
-    NSString *_keyEquivalent;
-    NSIndexSet *_keyCodes;
 }
 
 + (id);
 + (id);
 + (_Bool)/Caches/DateFormats.plist;
-- (id);
-- (id);
+- (id)setServiceCapabilityCache:(long long)arg1;
+- (id)initWithiMessageService:bizChatService:incomingMessageHandler:messageStore:chatRegistry:accountController:storageController:recentsController:attachmentStore: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
-- (struct __GSKeyboard *);
-- (id);
+- (id)update after re-inferencing with guid %s;
+- (struct __GSKeyboard *)erying db for last message:%@ /* Error: Ran out of types for this method. */;
+- (id)d parts:(long long)arg1 %@;
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)tes:(id)arg1 objCType: /* Error: Ran out of types for this method. */;
-- (void)xtAttributes:(id)arg1;
+- (_Bool)valueWithBytes:(id)arg1 objCType: /* Error: Ran out of types for this method. */;
+- (void)setLargeTitleTextAttributes:(id)arg1;
 - (id),V_azimuthAngle;
 - (void)ûÃ7;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayKeyEquivalentOverride;
-@property(readonly, nonatomic) NSIndexSet *keyCodes; // @synthesize keyCodes=_keyCodes;
-@property(readonly, nonatomic) NSString *keyEquivalent; // @synthesize keyEquivalent=_keyEquivalent;
 @property(readonly, nonatomic) long long modifierFlags; // @synthesize modifierFlags=_modifierFlags;
 
 @end

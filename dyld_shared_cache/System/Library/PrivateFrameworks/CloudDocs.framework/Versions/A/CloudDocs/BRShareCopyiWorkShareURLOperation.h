@@ -11,10 +11,9 @@
 @interface BRShareCopyiWorkShareURLOperation : BROperation
 {
     CKShare *_share;
-    CDUnknownBlockType _shareCopyURLCompletionBlock;
 }
 
-+ (id);
++ (id)R;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
-@property(copy) CDUnknownBlockType shareCopyURLCompletionBlock; // @synthesize shareCopyURLCompletionBlock=_shareCopyURLCompletionBlock;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface SGSignatureDissector : SGPipelineDissector
 {
@@ -15,34 +15,28 @@
 
 + (id);
 - (id);
+- (_Bool)h;
+- (struct _NSRange);
+- (id);
+- (struct _NSRange)h;
+- (void)peekObjectForKey:(id)arg1;
 - (_Bool);
 - (struct _NSRange);
-- (id);
+- (id)_InternetMessageHeaders;
+- (struct _NSRange)Ĝ;
 - (struct _NSRange);
-- (void);
-- (_Bool);
-- (struct _NSRange);
-- (id);
+- (struct _NSRange)pointerValue;
 - (struct _NSRange);
 - (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
+- (struct _NSRange)P;
 - (struct _NSRange);
 - (id);
 - (id);
 - (id);
-- (void)delScore;
+- (void)SGM2SelfIdModelScore;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

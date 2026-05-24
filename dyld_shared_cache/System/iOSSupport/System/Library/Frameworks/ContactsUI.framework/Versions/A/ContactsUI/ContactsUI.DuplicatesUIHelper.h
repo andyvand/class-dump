@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (id);
+- (id)getVMRegionDataExtra:(id)arg1;
 - (id);
 - (void)delegate;
 

@@ -11,7 +11,7 @@
     NSString *_phoneNumber;
 }
 
-+ (_Bool);
++ (_Bool)mediaResourceRequestCount;
 - (_Bool);
 - (id);
 - (id);
@@ -19,7 +19,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)_updateState;
 - (id);
 - (void)0@ù
 × ;

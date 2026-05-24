@@ -10,19 +10,12 @@ __attribute__((visibility("hidden")))
 @interface HMDHH2MigratorRecord
 {
     _Bool _isMigrationInProgress;
-    _Bool _dryRun;
-    _Bool _isAutoMigration;
-    _Bool _shouldSkipKeyRollOperations;
-    _Bool _forceMigrationFailureForTesting;
-    _Bool _migrateFromTestDirectory;
-    unsigned int _currentMigrationAttempt;
-    NSString *_hh2MigratorRecordDataStorePath;
 }
 
++ (id)captureDefaultNameFormat;
 + (id);
 + (id);
-+ (id);
-+ (void);
++ (void);
 + (_Bool)Bùð1Â0@ù
 × ;
 + (id)ic:%@ /* Error: Ran out of types for this method. */;
@@ -32,18 +25,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)UpdateVideoConfiguration:error:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)Q;
 - (_Bool);
 - (id);
 - (_Bool)Manager";
-- (void)questForInvitation:(id)arg1 homeUUID:payload:invitationState:responseHandler: /* Error: Ran out of types for this method. */;
+- (void)sendRequestForInvitation:(id)arg1 homeUUID:payload:invitationState:responseHandler: /* Error: Ran out of types for this method. */;
 - (void),;
 - (void);
 - (void)â9ä¯Z;
@@ -54,26 +47,12 @@ __attribute__((visibility("hidden")))
 - (unsigned int)nceUpdate %@, activation is set to %@;
 - (_Bool)ateHoldEndDate (%@) indicates that hold has expired);
 - (id)to device %@ with options:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ent;
-- (void);
+- (_Bool)Sent;
+- (void)kHomeDataSyncRequestKey;
 - (_Bool)p{?;
 
 // Remaining properties
-@property(nonatomic) unsigned int currentMigrationAttempt; // @synthesize currentMigrationAttempt=_currentMigrationAttempt;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dryRun; // @synthesize dryRun=_dryRun;
-@property(nonatomic) _Bool forceMigrationFailureForTesting; // @synthesize forceMigrationFailureForTesting=_forceMigrationFailureForTesting;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *hh2MigratorRecordDataStorePath; // @synthesize hh2MigratorRecordDataStorePath=_hh2MigratorRecordDataStorePath;
-@property(nonatomic) _Bool isAutoMigration; // @synthesize isAutoMigration=_isAutoMigration;
-@property(nonatomic) _Bool isMigrationInProgress; // @synthesize isMigrationInProgress=_isMigrationInProgress;
-@property(nonatomic) _Bool migrateFromTestDirectory; // @synthesize migrateFromTestDirectory=_migrateFromTestDirectory;
-@property(nonatomic) _Bool shouldSkipKeyRollOperations; // @synthesize shouldSkipKeyRollOperations=_shouldSkipKeyRollOperations;
-@property(readonly) Class superclass;
 
 @end
 

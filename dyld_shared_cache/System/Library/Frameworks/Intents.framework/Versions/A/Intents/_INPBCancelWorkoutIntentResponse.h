@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBCancelWorkoutIntentResponse
 {
     struct _has;
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)tionEventHIDAdapter";
+- (void)3;
+- (unsigned long long)+;
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)v@?@"NSError">32;
+- (void){public}s:(id)arg1 %u) CWFEAP8021X not found with interface name %{public}@;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

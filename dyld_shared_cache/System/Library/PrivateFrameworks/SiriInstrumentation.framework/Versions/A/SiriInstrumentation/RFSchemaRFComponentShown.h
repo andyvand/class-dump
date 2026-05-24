@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface RFSchemaRFComponentShown : SISchemaInstrumentationMessage
 {
     int _component;
-    NSString *_componentName;
-    NSString *_componentIndex;
-    CDStruct_1513a5fc _has;
-    _Bool _hasComponentName;
-    _Bool _hasComponentIndex;
 }
 
 - (void);
@@ -34,24 +27,18 @@
 - (id);
 - (void);
 - (int);
-- (unsigned long long);
+- (unsigned long long)Daemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeableApp_macOS.m:46 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)chat_message_join j   ON c.rowid = j.chat_id INNER JOIN message m   ON m.rowid = j.message_id WHERE m.guid = ?;;
 - (id);
 - (id);
 - (id)aceViewClass;
 - (id)decompressions;
 - (id)d;
-- (void)t;
+- (void)outputTokensCount;
 
 // Remaining properties
 @property(nonatomic) int component; // @synthesize component=_component;
-@property(copy, nonatomic) NSString *componentIndex; // @synthesize componentIndex=_componentIndex;
-@property(copy, nonatomic) NSString *componentName; // @synthesize componentName=_componentName;
-@property(nonatomic) _Bool hasComponent;
-@property(nonatomic) _Bool hasComponentIndex; // @synthesize hasComponentIndex=_hasComponentIndex;
-@property(nonatomic) _Bool hasComponentName; // @synthesize hasComponentName=_hasComponentName;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

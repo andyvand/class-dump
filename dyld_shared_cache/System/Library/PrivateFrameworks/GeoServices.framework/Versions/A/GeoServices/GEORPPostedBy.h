@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPPostedBy
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_nickname;
-    NSString *_userDsid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _role;
-    struct {
-        unsigned int has_role:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_nickname:1;
-        unsigned int read_userDsid:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)inal:(id)arg1;
++ (_Bool)setLevelOrdinal:(id)arg1;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)initWithIdentifier:(int)arg1 name:type:persistentStoreURL:persistentStoreIdentifier:iOSLegacyIdentifier: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -37,34 +23,28 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)FH;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)6Q24;
+- (void)SRFeatures",&,N,V_lastKnownRCFeatures;
+- (id)!;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id)RPWatchAuxiliaryControl";
-- (id)learSupportedElevationModels;
+- (id)clearSupportedElevationModels;
 - (id)È0ä¸À;
-- (void);
-- (id)tional_attribute;
+- (void)tokenizerType;
+- (id)is_optional_attribute;
 - (int)ÿÿG;
 - (void)uqªO@;
 - (void)ïÿÿÿñÿÿÿ÷ÿÿÿüÿÿÿúÿÿÿõÿÿÿôÿÿÿöÿÿÿùÿÿÿòÿÿÿóÿÿÿ÷ÿÿÿùÿÿÿøÿÿÿûÿÿÿýÿÿÿöÿÿÿúÿÿÿòÿÿÿõÿÿÿóÿÿÿôÿÿÿñÿÿÿðÿÿÿòÿÿÿëÿÿÿïÿÿÿöÿÿÿñÿÿÿìÿÿÿôÿÿÿóÿÿÿîÿÿÿíÿÿÿêÿÿÿÕÿÿÿÿÿÿÿÜÿÿÿÿÿÿÿÑÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿìÿÿÿëÿÿÿäÿÿÿöÿÿÿßÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿãÿÿÿÙÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿàÿÿÿÿÿÿÿòÿÿÿâÿÿÿæÿÿÿñÿÿÿäÿÿÿôÿÿÿêÿÿÿìÿÿÿðÿÿÿîÿÿÿçÿÿÿåÿÿÿóÿÿÿïÿÿÿãÿÿÿèÿÿÿÜÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿËÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿïÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿØÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿßÿÿÿÿÿÿÿìÿÿÿîÿÿÿäÿÿÿòÿÿÿãÿÿÿêÿÿÿðÿÿÿëÿÿÿÿÿÿÿÿÿÿ;
 - (id)9¼N3;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasNickname;
 @property(nonatomic) _Bool hasRole;
-@property(readonly, nonatomic) _Bool hasUserDsid;
-@property(retain, nonatomic) NSString *nickname;
-@property(nonatomic) int role;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *userDsid;
 
 @end
 

@@ -6,16 +6,14 @@
 
 #import <NeutrinoCore/NURenderRequest.h>
 
-@class NSArray;
 @protocol NUScalePolicy;
 
 @interface NUVisionInstanceSegmentationRequest : NURenderRequest
 {
     id <NUScalePolicy> _scalePolicy;
-    NSArray *_targetSamplePoints;
 }
 
-+ (long long);
++ (long long)m_responses.reply;
 - (id);
 - (void);
 - (id);
@@ -30,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
-@property(retain, nonatomic) NSArray *targetSamplePoints; // @synthesize targetSamplePoints=_targetSamplePoints;
 
 @end
 

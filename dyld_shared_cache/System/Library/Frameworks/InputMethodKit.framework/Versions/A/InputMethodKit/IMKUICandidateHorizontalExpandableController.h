@@ -9,7 +9,6 @@
 @interface IMKUICandidateHorizontalExpandableController : IMKUICandidateHorizontalController
 {
     _Bool _expandedInternal;
-    long long _UIState;
 }
 
 - (void);
@@ -27,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (struct CGRect);
 - (void);
@@ -36,7 +35,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (_Bool);
 - (void);
 - (id);
@@ -44,14 +43,14 @@
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)R*;
 - (long long);
 - (void);
 - (void);
@@ -66,7 +65,6 @@
 - (double)÷`;
 
 // Remaining properties
-@property(nonatomic) long long UIState; // @synthesize UIState=_UIState;
 @property(nonatomic) _Bool expandedInternal; // @synthesize expandedInternal=_expandedInternal;
 
 @end

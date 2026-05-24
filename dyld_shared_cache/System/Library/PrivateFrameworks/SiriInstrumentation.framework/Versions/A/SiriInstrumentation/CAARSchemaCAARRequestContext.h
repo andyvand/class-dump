@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CAARSchemaCAARRequestFailed, CAARSchemaCAARRequestReceived, CAARSchemaCAARResponseGenerated, NSData;
+@class CAARSchemaCAARRequestReceived;
 
 @interface CAARSchemaCAARRequestContext : SISchemaInstrumentationMessage
 {
     CAARSchemaCAARRequestReceived *_startedOrChanged;
-    CAARSchemaCAARResponseGenerated *_ended;
-    CAARSchemaCAARRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,17 +18,17 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)unsignedLongLongAtIndex: /* Error: Ran out of types for this method. */;
+- (id)_ERROR_CONNECTION_INTERRUPTED error.;
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -48,14 +42,7 @@
 - (void)4­­ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CAARSchemaCAARResponseGenerated *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) CAARSchemaCAARRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CAARSchemaCAARRequestReceived *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

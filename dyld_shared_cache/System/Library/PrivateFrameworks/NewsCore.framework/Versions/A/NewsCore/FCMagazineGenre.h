@@ -9,7 +9,6 @@
 @interface FCMagazineGenre
 {
     NSString *_genre;
-    NSString *_localizedDescription;
 }
 
 + (id);
@@ -22,12 +21,11 @@
 - (id);
 - (id);
 - (void)onEndpoint",&,N,V_feedPersonalizationEndpoint;
-- (void)ItemSecure;
+- (void)PuzzleHistoryItemSecure;
 - (id)°¾ÿýj¬¾ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 
 @end
 

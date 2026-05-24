@@ -6,7 +6,7 @@
 
 #import <Vision/VNEntityIdentificationModel.h>
 
-@class NSString, VNEntityIdentificationModelTrainedModel;
+@class VNEntityIdentificationModelTrainedModel;
 
 __attribute__((visibility("hidden")))
 @interface VNReadOnlyEntityIdentificationModel : VNEntityIdentificationModel
@@ -28,16 +28,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void)torType;
+- (void)VNCoreSceneUnderstandingDetectorType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

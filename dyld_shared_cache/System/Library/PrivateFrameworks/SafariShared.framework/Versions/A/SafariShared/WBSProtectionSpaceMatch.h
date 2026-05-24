@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURLCredential, NSURLProtectionSpace;
+@class NSURLProtectionSpace;
 
 @interface WBSProtectionSpaceMatch
 {
     NSURLProtectionSpace *_protectionSpace;
-    NSDictionary *_credentials;
-    NSURLCredential *_defaultCredential;
-    long long _matchLevel;
 }
 
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id){public}@;
+- (id)
+dE;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *credentials; // @synthesize credentials=_credentials;
-@property(readonly, nonatomic) NSURLCredential *defaultCredential; // @synthesize defaultCredential=_defaultCredential;
-@property(readonly, nonatomic) long long matchLevel; // @synthesize matchLevel=_matchLevel;
 @property(readonly, nonatomic) NSURLProtectionSpace *protectionSpace; // @synthesize protectionSpace=_protectionSpace;
 
 @end

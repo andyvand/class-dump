@@ -10,11 +10,11 @@
 {
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (id);
 - (id);
 - (void);
-- (id)at;
+- (id)MPSRNNImageCombine_2d_2d_2d_float;
 
 @end
 

@@ -9,17 +9,15 @@
 @interface RTEventLocationIdentifier
 {
     NSString *_name;
-    unsigned long long _source;
-    NSString *_calendarIdentifier;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)logRecoverableError:(id)arg1 forEvent:(unsigned long long)arg2 withAttributes:(_Bool)arg3;
+- (id)incomingL2CAPChannel:channel: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)e %d over active QUIC link for IDSSessionID:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -30,9 +28,7 @@
 - (void)anager,locations not available in recent history;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
 
 @end
 

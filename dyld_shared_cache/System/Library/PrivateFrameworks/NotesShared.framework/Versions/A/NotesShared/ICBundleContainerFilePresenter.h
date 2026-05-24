@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSSet, NSString, NSURL;
+@class NSOperationQueue, NSURL;
 
 @interface ICBundleContainerFilePresenter
 {
     NSURL *_url;
-    CDUnknownBlockType _subitemBundleDidChange;
-    NSOperationQueue *_operationQueue;
 }
 
 - (CDUnknownBlockType);
@@ -18,34 +16,15 @@
 - (void);
 - (id);
 - (void);
+- (id)generateImageForAttachment:(id)arg1 fromDrawing:fullResolution:appearanceInfo: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (id)ficationsWithIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)removeDeliveredNotificationsWithIdentifiers: /* Error: Ran out of types for this method. */;
 - (void)Ø\,Xh@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
 @property(retain, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(copy, nonatomic) CDUnknownBlockType subitemBundleDidChange; // @synthesize subitemBundleDidChange=_subitemBundleDidChange;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

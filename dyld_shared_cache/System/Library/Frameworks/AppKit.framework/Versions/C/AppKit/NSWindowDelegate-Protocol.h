@@ -9,29 +9,32 @@
 @protocol NSWindowDelegate
 
 @optional
-- (void)nuLocalUserKEsDidChange;
+- (void)j;
+- (void);
+- (void);
+- (void)_childAssetDownloadTasks;
+- (void)NSMenuLocalUserKEsDidChange;
 - (void)erOfTabs >= numberOfPinnedTabs;
-- (void)nInBrowserTemplate;
+- (void)NSTouchBarOpenInBrowserTemplate;
 - (void)idRemoveItemAtIndex:(NSNotification *)arg1 ];
-- (void)heckAutosaving;
+- (void)WillCheckAutosaving;
 - (id)oURL:(NSWindow *)arg1 completionHandler:(id)arg2 ]_block_invoke_2;
-- (void)inearExposure;
+- (void)NSLinearExposure;
 - (void)FStringRef, NULL, sizeof(attribute), NULL, &attribute);
-- (NSArray *)ilename:(NSWindow *)arg1 confirmed: /* Error: Ran out of types for this method. */;
-- (void)sIndicatorBinder;
-- (void)tAutomaticTerminationBackgrounding;
+- (NSArray *)panel:(NSWindow *)arg1 userEnteredFilename:confirmed: /* Error: Ran out of types for this method. */;
+- (void)NSProgressIndicatorBinder;
+- (void)PreventAutomaticTerminationBackgrounding;
 - (void)e Other Tabs;
 - (void)Limit:(NSNotification *)arg1 %f afterShrinkLimit:%f growFlags:%d shrinkFlags:%d)
 
  /* Error: Ran out of types for this method. */;
 - (void)eForSelectedSegment is only valid for trackingMode=NSSegmentSwitchTrackingMomentaryAccelerator;
-- (void)ullScreenNotification;
+- (void)NSWindowWillExitFullScreenNotification;
 - (unsigned long long)rivateFrameworks/WritingToolsUI.framework/WritingToolsUI;
-- (void);
 - (void)mûh`ÿuûh`ÿMûh¨`ÿûh´`ÿ-ûhÀ`ÿ-ûhdÿuûhÄ`ÿ­ûh[ÿ}ûhÄ`ÿ;
 - (void)ÙhÄÎÿÙhS.ÿ;
 - (struct CGRect)ÿ½Úh<k>ÿ;
-- (void)ttribute;
+- (void)ToolTipAttribute;
 - (void);
 - (void)h¸ÿíhÈÿ}hÄÿ}h´ÿÅhÐÿýhÜÿÍhÄÿ;
 - (struct CGSize)h­;

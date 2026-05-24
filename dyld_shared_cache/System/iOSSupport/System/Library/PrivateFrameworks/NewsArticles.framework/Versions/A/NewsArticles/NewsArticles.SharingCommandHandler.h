@@ -7,12 +7,6 @@
 @interface NewsArticles.SharingCommandHandler
 {
     id defaultSharingActivityProviderFactory;
-    id audioSharingActivityProviderFactory;
-    id paidAccessChecker;
-    id recipeAccessProvider;
-    id fallbackTracker;
-    id sceneProvider;
-    id recipeCoordinator;
 }
 
 @end

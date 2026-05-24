@@ -10,31 +10,28 @@ __attribute__((visibility("hidden")))
 @interface NGMPBPublicDeviceIdentity
 {
     NSData *_signingKey;
-    unsigned int _tetraVersion;
-    CDStruct_7506e59d _has;
 }
 
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)mp> Removing description for %@, contents is now %@.
+;
 - (_Bool);
+- (void)xpire state;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)firstRowExecutionTimeStats;
+- (id)m;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasTetraVersion;
 @property(retain, nonatomic) NSData *signingKey; // @synthesize signingKey=_signingKey;
-@property(nonatomic) unsigned int tetraVersion; // @synthesize tetraVersion=_tetraVersion;
 
 @end
 

@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SMSuggestionMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)0:(unsigned long long)arg1 8@16i24@28;
++ (id)eryEscrowKeysAll;
++ (id)eviceIdentity unsealMessage:signedByPublicIdentity:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *buddyEmail; // @dynamic buddyEmail;
-@property(copy, nonatomic) NSString *buddyPhoneNumber; // @dynamic buddyPhoneNumber;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(nonatomic) double destinationLocationLatitude; // @dynamic destinationLocationLatitude;
-@property(nonatomic) double destinationLocationLongitude; // @dynamic destinationLocationLongitude;
-@property(copy, nonatomic) NSDate *endDate; // @dynamic endDate;
-@property(nonatomic) short sessionType; // @dynamic sessionType;
-@property(nonatomic) double sourceLocationLatitude; // @dynamic sourceLocationLatitude;
-@property(nonatomic) double sourceLocationLongitude; // @dynamic sourceLocationLongitude;
-@property(copy, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(nonatomic) short suggestionTrigger; // @dynamic suggestionTrigger;
-@property(nonatomic) short suggestionUserType; // @dynamic suggestionUserType;
-@property(nonatomic) short suppressionReason; // @dynamic suppressionReason;
 
 @end
 

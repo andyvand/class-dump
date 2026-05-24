@@ -11,9 +11,6 @@
 @interface NSStoryboardPopoverSegueTemplate : NSStoryboardSegueTemplate
 {
     NSView *_anchorView;
-    long long _popoverBehavior;
-    unsigned long long _preferredEdge;
-    _Bool _hasFullSizeContent;
 }
 
 - (void);
@@ -22,18 +19,15 @@
 - (void);
 - (unsigned long long);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)__TEXT;
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void)¬6ÿåhÐAÿåhÐ6ÿ;
 
 // Remaining properties
 @property __weak NSView *anchorView; // @synthesize anchorView=_anchorView;
-@property _Bool hasFullSizeContent; // @synthesize hasFullSizeContent=_hasFullSizeContent;
-@property long long popoverBehavior; // @synthesize popoverBehavior=_popoverBehavior;
-@property unsigned long long preferredEdge; // @synthesize preferredEdge=_preferredEdge;
 
 @end
 

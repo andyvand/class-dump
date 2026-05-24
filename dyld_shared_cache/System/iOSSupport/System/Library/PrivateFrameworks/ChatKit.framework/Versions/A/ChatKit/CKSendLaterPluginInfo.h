@@ -9,29 +9,24 @@
 @interface CKSendLaterPluginInfo
 {
     id observers;
-    id minFutureTimeInterval;
-    id updateTimer;
-    id _selectedDate;
-    _Bool showingDatePicker;
 }
 
-+ (_Bool)anscriptTextAttributes;
++ (_Bool)ckShouldUpdatereplySenderTranscriptTextAttributes;
 - (_Bool);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)@9(;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)NT_TO_REMOVE_THESE_CONVERSATIONS_FROM_JUNK;
+- (void)ARE_YOU_SURE_WANT_TO_REMOVE_THESE_CONVERSATIONS_FROM_JUNK;
 - (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *selectedDate;
-@property(nonatomic) _Bool showingDatePicker; // @synthesize showingDatePicker;
 
 @end
 

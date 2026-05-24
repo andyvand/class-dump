@@ -7,6 +7,6 @@
 @class UIColor;
 
 @protocol _UIInterfaceActionPresenting
-- (UIColor *)rState:traitCollection: /* Error: Ran out of types for this method. */;
+- (UIColor *)_defaultListSidebarPlainCellConfigurationForState:traitCollection: /* Error: Ran out of types for this method. */;
 @end
 

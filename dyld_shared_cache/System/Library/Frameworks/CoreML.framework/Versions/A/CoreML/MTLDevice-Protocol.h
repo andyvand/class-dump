@@ -4,17 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTL4ArgumentTableDescriptor, MTL4CommandAllocatorDescriptor, MTLArchitecture, MTLCommandQueueDescriptor, MTLRasterizationRateMapDescriptor, MTLRenderPipelineDescriptor, NSArray, NSString, NSURL;
-@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTLAccelerationStructure, MTLBuffer, MTLCommandQueue, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSharedEvent;
+@class MTL4ArgumentTableDescriptor, MTL4CommandAllocatorDescriptor, MTLCommandQueueDescriptor, MTLRasterizationRateMapDescriptor, MTLRenderPipelineDescriptor, NSString, NSURL;
+@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTLAccelerationStructure, MTLBinaryArchive, MTLBuffer, MTLCommandQueue, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSharedEvent, MTLTexture;
 
 @protocol MTLDevice
+- (id <MTLTexture>);
+- (unsigned long long);
+- (id <MTLBinaryArchive>)IOSurfaceHostOnly;
+- (id <MTLIOFileHandle>);
+- (void)certificateHold;
+- (id <MTLLibrary>)ial_framedrop_ due to changed stream parameters;
+- (_Bool)nelOrError:(unsigned long long)arg1 PeerConnection is closed.;
+- (unsigned long long)NO_CIPHERS_AVAILABLE;
+- (_Bool)@@@@FFFFNNXXX`jjjjjjjjjjpppxxx|||||||||;
+- (_Bool)	K(;
+- (id <MTLIOFileHandle>)E;
+- (CDStruct_14f26992)I;
+- (unsigned long long)Th;
+- (CDStruct_4bcfbbae);
+- (_Bool)7;
 - (id <MTLBuffer>);
 - (unsigned long long)1Â0@ù
 × ;
 - (id <MTLIOFileHandle>);
 - (id <MTLAccelerationStructure>);
 - (unsigned int);
-- (unsigned long long);
 - (_Bool)ÿÿå
 ;
 - (id <MTLIOCommandQueue>)setting weights in Core ML custom layer "%s".;
@@ -79,49 +93,10 @@ a&ÊÒÁ¤r2æä:ã r#F-Ó/jÝgãk.E #ð.®£àÂal5>Ï'Æ%o¹�
 - (unsigned long long);
 - (id <MTLLibrary>);
 
+@optional
+- (void)?;
+
 // Remaining properties
-@property(readonly) MTLArchitecture *architecture;
-@property(readonly) unsigned long long argumentBuffersSupport;
-@property(readonly, getter=areBarycentricCoordsSupported) _Bool barycentricCoordsSupported;
-@property(readonly) NSArray *counterSets;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly, getter=isDepth24Stencil8PixelFormatSupported) _Bool depth24Stencil8PixelFormatSupported;
-@property(readonly) _Bool hasUnifiedMemory;
-@property(readonly, getter=isHeadless) _Bool headless;
-@property(readonly) unsigned long long location;
-@property(readonly) unsigned long long locationNumber;
-@property(readonly, getter=isLowPower) _Bool lowPower;
-@property(readonly) unsigned long long maxArgumentBufferSamplerCount;
-@property(readonly) unsigned long long maxBufferLength;
-@property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) struct maxThreadsPerThreadgroup;
-@property(readonly) unsigned long long maxTransferRate;
-@property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
-@property(readonly) unsigned int peerCount;
-@property(readonly) unsigned long long peerGroupID;
-@property(readonly) unsigned int peerIndex;
-@property(readonly, getter=areProgrammableSamplePositionsSupported) _Bool programmableSamplePositionsSupported;
-@property(readonly, getter=areRasterOrderGroupsSupported) _Bool rasterOrderGroupsSupported;
-@property(readonly) unsigned long long readWriteTextureSupport;
-@property(readonly) unsigned long long recommendedMaxWorkingSetSize;
-@property(readonly) unsigned long long registryID;
-@property(readonly, getter=isRemovable) _Bool removable;
-@property _Bool shouldMaximizeConcurrentCompilation;
-@property(readonly) unsigned long long sparseTileSizeInBytes;
-@property(readonly) _Bool supports32BitFloatFiltering;
-@property(readonly) _Bool supports32BitMSAA;
-@property(readonly) _Bool supportsBCTextureCompression;
-@property(readonly) _Bool supportsDynamicLibraries;
-@property(readonly) _Bool supportsFunctionPointers;
-@property(readonly) _Bool supportsFunctionPointersFromRender;
-@property(readonly) _Bool supportsPlacementSparse;
-@property(readonly) _Bool supportsPrimitiveMotionBlur;
-@property(readonly) _Bool supportsPullModelInterpolation;
-@property(readonly) _Bool supportsQueryTextureLOD;
-@property(readonly) _Bool supportsRaytracing;
-@property(readonly) _Bool supportsRaytracingFromRender;
-@property(readonly) _Bool supportsRenderDynamicLibraries;
-@property(readonly) _Bool supportsShaderBarycentricCoordinates;
 @end
 

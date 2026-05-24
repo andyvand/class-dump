@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString;
+@class NSString;
 
 @interface UnknownClass (PLMomentProcessingProtocol)
 - (id);
@@ -17,20 +17,6 @@
 - (short);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D pl_coordinate;
-@property(readonly, nonatomic) NSDate *pl_endDate;
-@property(readonly, nonatomic) CLLocation *pl_location;
-@property(readonly, nonatomic) unsigned short pl_locationType;
-@property(readonly, nonatomic) unsigned long long pl_numberOfAssets;
-@property(readonly, nonatomic) short pl_originatorState;
-@property(readonly, nonatomic) NSDate *pl_startDate;
 @property(readonly, nonatomic) NSString *pl_uuid;
-@property(readonly) Class superclass;
 @end
 

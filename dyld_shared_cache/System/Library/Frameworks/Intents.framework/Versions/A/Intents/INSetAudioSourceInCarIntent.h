@@ -6,8 +6,6 @@
 
 #import <Intents/INIntent.h>
 
-@class NSString;
-
 @interface INSetAudioSourceInCarIntent : INIntent
 {
 }
@@ -19,29 +17,21 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)NSURL"16@?<v@?@"NSURL"@"NSDictionary"@"NSString"@"NSError">24;
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)T;
+- (id);
 
 // Remaining properties
 @property(readonly) long long audioSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long relativeAudioSourceReference;
-@property(readonly) Class superclass;
 
 @end
 

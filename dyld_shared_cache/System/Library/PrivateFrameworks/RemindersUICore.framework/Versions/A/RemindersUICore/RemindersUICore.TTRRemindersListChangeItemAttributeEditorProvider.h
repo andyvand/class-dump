@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRRemindersListChangeItemAttributeEditorProvider
 {
     id reminderChangeItems;
-    id didEdit;
-    id undoContext;
 }
 
 @end

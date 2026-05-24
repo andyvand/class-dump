@@ -6,22 +6,15 @@
 
 #import <CloudKit/CKSQLiteTableGroupEntry.h>
 
-@class CKSQLiteDatabase, CKSQLiteDatabaseManager, CKSQLiteTOCTableGroup, NSDictionary, NSObject;
+@class CKSQLiteTOCTableGroup, NSDictionary;
 
 @interface CKSQLiteTableGroup : CKSQLiteTableGroupEntry
 {
     NSDictionary *_tablesByName;
-    unsigned long long _options;
-    CKSQLiteDatabaseManager *_databaseManager;
-    _Bool _isNew;
-    CKSQLiteDatabase *_db;
-    CKSQLiteDatabase *_activityPersistenceDatabase;
-    CKSQLiteTOCTableGroup *_tocTableGroup;
-    NSObject *_databaseManagerData;
 }
 
 + (id);
-+ (id);
++ (id)NkA;
 + (id);
 + (id);
 + (_Bool);
@@ -38,10 +31,10 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)x;
 - (id);
 - (id);
 - (id);
@@ -64,31 +57,31 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)Th;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)!#;
+- (void)R;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)�	;
 - (id);
 - (void);
 - (id);
@@ -96,13 +89,6 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) CKSQLiteDatabase *activityPersistenceDatabase; // @synthesize activityPersistenceDatabase=_activityPersistenceDatabase;
-@property(retain, nonatomic) NSObject *databaseManagerData; // @synthesize databaseManagerData=_databaseManagerData;
-@property(readonly, nonatomic) CKSQLiteDatabase *db; // @synthesize db=_db;
-@property(readonly, nonatomic) _Bool isFirstInstanceInProcess;
-@property(readonly, nonatomic) _Bool isFirstInstanceSinceBoot;
-@property(readonly, nonatomic) _Bool isNew; // @synthesize isNew=_isNew;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) CKSQLiteTOCTableGroup *tocTableGroup; // @synthesize tocTableGroup=_tocTableGroup;
 
 @end

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol MLMediaLibraryResourcesServiceProtocol
+- (NSString *)_archiveFilePath:(id *)arg1;
+- (NSString *)_appendSceneClassificationsToAsset:(id *)arg1 sceneTaxonomyProvider:forAsset:fetchHelper: /* Error: Ran out of types for this method. */;
 @end
 

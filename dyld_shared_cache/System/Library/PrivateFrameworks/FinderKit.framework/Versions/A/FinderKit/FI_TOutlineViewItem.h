@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TOutlineViewItem : FI_TTableViewItem
 {
     NSMutableArray *_children;
-    _Bool _isLeaf;
 }
 
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *children;
-@property(nonatomic) _Bool isLeaf; // @synthesize isLeaf=_isLeaf;
 
 @end
 

@@ -7,11 +7,9 @@
 @interface Safari.CompletionListCollectionViewSearchUIItem.BackingView__priv_3E02F67DE46C7ECE4006B5957ECEB529
 {
     id viewsInSearchUIResultsViewController;
-    id shouldBeAccessibilitySelected;
-    id collectionViewItem;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);

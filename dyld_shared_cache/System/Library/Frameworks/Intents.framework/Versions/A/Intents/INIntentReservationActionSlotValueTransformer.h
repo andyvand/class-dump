@@ -13,7 +13,7 @@
 + (Class);
 + (long long)ponents;
 - (id);
-- (id)tringAsOperation:(id)arg1;
+- (id)StringAsOperation:(id)arg1;
 
 @end
 

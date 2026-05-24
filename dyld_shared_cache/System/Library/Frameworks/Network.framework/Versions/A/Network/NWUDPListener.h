@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NWEndpoint, NWParameters;
-@protocol NWUDPListenerDelegate, OS_nw_listener;
+@class NSObject, NWEndpoint;
+@protocol OS_nw_listener;
 
 @interface NWUDPListener
 {
     NWEndpoint *_localEndpoint;
-    NSError *_error;
-    NSObject<OS_nw_listener> *_internalListener;
-    NWParameters *_parameters;
-    NWEndpoint *_endpoint;
-    id <NWUDPListenerDelegate> _delegate;
 }
 
 - (void);
 - (id);
 - (void);
+- (id)content view %@ is not remote;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void){CVSMPTETime=ssIIIssss}QQ}40;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -35,12 +30,7 @@
 - (void)@;
 
 // Remaining properties
-@property __weak id <NWUDPListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NWEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain) NSObject<OS_nw_listener> *internalListener; // @synthesize internalListener=_internalListener;
-@property(retain, nonatomic) NWEndpoint *localEndpoint; // @synthesize localEndpoint=_localEndpoint;
-@property(retain) NWParameters *parameters; // @synthesize parameters=_parameters;
 
 @end
 

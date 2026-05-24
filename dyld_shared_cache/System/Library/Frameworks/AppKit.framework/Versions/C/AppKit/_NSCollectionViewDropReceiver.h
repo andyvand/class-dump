@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionView, NSString, NSView;
+@class NSCollectionView;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewDropReceiver
 {
     NSCollectionView *collectionView;
-    long long sessionNumber;
-    unsigned long long _currentDragOperation;
-    long long _currentDropOperation;
-    NSView *_dropTargetGapIndicatorView;
-    NSView *_dropTargetSectionFrameView;
-    _Bool _sourceIsThisCollectionView;
-    _Bool _acceptedDrop;
-    _Bool _exitedDrag;
-    struct CGPoint _lastDraggingLocation;
-    unsigned long long _lastDraggingSourceOperationMask;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)WirelessBoardSnum;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -32,23 +22,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
+- (void)6 ;
+- (void)#;
+- (_Bool)searchForAllDomains;
+- (id)_cachedResponseDataArray;
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (id)(¼;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

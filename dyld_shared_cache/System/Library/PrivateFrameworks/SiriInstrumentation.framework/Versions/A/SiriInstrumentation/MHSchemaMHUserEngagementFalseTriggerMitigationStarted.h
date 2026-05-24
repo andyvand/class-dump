@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHUserEngagementAccumulatedAggregationStats, NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHUserEngagementFalseTriggerMitigationStarted : SISchemaInstrumentationMessage
 {
     NSString *_modelVersion;
-    double _uiWaitTimeInSeconds;
-    MHSchemaMHUserEngagementAccumulatedAggregationStats *_accumulatedAggregationStats;
-    struct {
-        unsigned int uiWaitTimeInSeconds:1;
-    } _has;
-    _Bool _hasModelVersion;
-    _Bool _hasAccumulatedAggregationStats;
 }
 
 - (double);
@@ -31,11 +24,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)0;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)i2d_ECPKParameters;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -44,18 +37,12 @@
 × ;
 - (id)SSchemaTTSClientSpeechContext",&,N,V_speechContext;
 - (id)hemaMTAppNextButtonTappedTier1",&,N,V_appNextButtonTapped;
-- (void)ntityFromSiri1Hr;
+- (void)appUsageCountForEntityFromSiri1Hr;
 - (void);
 - (id)¢Ï$;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHUserEngagementAccumulatedAggregationStats *accumulatedAggregationStats; // @synthesize accumulatedAggregationStats=_accumulatedAggregationStats;
-@property(nonatomic) _Bool hasAccumulatedAggregationStats; // @synthesize hasAccumulatedAggregationStats=_hasAccumulatedAggregationStats;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasUiWaitTimeInSeconds;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) double uiWaitTimeInSeconds; // @synthesize uiWaitTimeInSeconds=_uiWaitTimeInSeconds;
 
 @end
 

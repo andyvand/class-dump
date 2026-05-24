@@ -11,9 +11,9 @@
     id <GEOAnalyticsDataServiceProxy> _proxyObj;
 }
 
-+ (void);
++ (void)E;
 + (id);
-- (int);
+- (int),R,N;
 - (id);
 - (void);
 

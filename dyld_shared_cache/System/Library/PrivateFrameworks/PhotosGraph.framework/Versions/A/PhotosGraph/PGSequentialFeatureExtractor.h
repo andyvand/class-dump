@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAFeatureExtractor, NSArray;
+@class MAFeatureExtractor;
 
 @interface PGSequentialFeatureExtractor
 {
     MAFeatureExtractor *_featureExtractor;
-    NSArray *_featureTransformers;
 }
 
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (id)setTextElementFrame:(id)arg1;
+- (id)accessibilityMaxValue;
+- (id)_roleDescriptionToExclude;
+- (long long)_rebuildColumnAtIndex:inColumns:inRanges: /* Error: Ran out of types for this method. */;
+- (id)"NSObservation<NSObservable><NSObserver>",&,N,S_setMainScreenObserver:(id *)arg1 ,V__mainScreenObserver;
+- (id)FUIElement"8^B16;
+- (id);
 - (id);
 - (id);
 - (id)ing;
-- (void)SemanticalDeduping;
+- (void)doSemanticalDeduping;
 
 // Remaining properties
 @property(readonly, nonatomic) MAFeatureExtractor *featureExtractor; // @synthesize featureExtractor=_featureExtractor;
-@property(readonly, nonatomic) NSArray *featureTransformers; // @synthesize featureTransformers=_featureTransformers;
 
 @end
 

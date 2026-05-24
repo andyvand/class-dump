@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BackgroundColorView, BrowserViewController, NSArray, NSBox, NSButton, NSImageView, NSLayoutConstraint, NSOutlineView, NSScrollView, NSString, NSTextField, NSView;
+@class NSArray, NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface PrivacyReportPopoverViewController
 {
     NSArray *_knownTrackingDomains;
-    long long _numberOfBlockedTrackingDomains;
-    NSArray *_knownTrackingDomainsOutlineItems;
-    BrowserViewController *_webViewController;
-    NSImageView *_shieldOrWarningImage;
-    NSTextField *_bodyText;
-    NSTextField *_firstPartyDomainLabel;
-    NSTextField *_numberOfTrackersLabel;
-    NSButton *_fullReportInfoButton;
-    NSBox *_knownTrackingDomainsSeparator;
-    NSScrollView *_knownTrackingDomainsScrollView;
-    NSOutlineView *_knownTrackingDomainsOutlineView;
-    NSLayoutConstraint *_knownTrackingDomainsScrollViewHeightConstraint;
-    NSView *_trackingStatisticsView;
-    NSView *_crossSiteTrackingPreventionDisabledViewContainer;
-    NSTextField *_crossSiteTrackingPreventionTitle;
-    NSTextField *_crossSiteTrackingPreventionDetailText;
-    BackgroundColorView *_crossSiteTrackingPreventionDisabledTile;
-    NSButton *_enableCrossSiteTrackingPreventionButton;
 }
 
 - (id);
@@ -62,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,29 +78,7 @@ __attribute__((visibility("hidden")))
 - (void)¼;
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *bodyText; // @synthesize bodyText=_bodyText;
-@property(nonatomic) __weak NSTextField *crossSiteTrackingPreventionDetailText; // @synthesize crossSiteTrackingPreventionDetailText=_crossSiteTrackingPreventionDetailText;
-@property(nonatomic) __weak BackgroundColorView *crossSiteTrackingPreventionDisabledTile; // @synthesize crossSiteTrackingPreventionDisabledTile=_crossSiteTrackingPreventionDisabledTile;
-@property(nonatomic) __weak NSView *crossSiteTrackingPreventionDisabledViewContainer; // @synthesize crossSiteTrackingPreventionDisabledViewContainer=_crossSiteTrackingPreventionDisabledViewContainer;
-@property(nonatomic) __weak NSTextField *crossSiteTrackingPreventionTitle; // @synthesize crossSiteTrackingPreventionTitle=_crossSiteTrackingPreventionTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSButton *enableCrossSiteTrackingPreventionButton; // @synthesize enableCrossSiteTrackingPreventionButton=_enableCrossSiteTrackingPreventionButton;
-@property(nonatomic) __weak NSTextField *firstPartyDomainLabel; // @synthesize firstPartyDomainLabel=_firstPartyDomainLabel;
-@property(nonatomic) __weak NSButton *fullReportInfoButton; // @synthesize fullReportInfoButton=_fullReportInfoButton;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSOutlineView *knownTrackingDomainsOutlineView; // @synthesize knownTrackingDomainsOutlineView=_knownTrackingDomainsOutlineView;
-@property(nonatomic) __weak NSScrollView *knownTrackingDomainsScrollView; // @synthesize knownTrackingDomainsScrollView=_knownTrackingDomainsScrollView;
-@property(nonatomic) __weak NSLayoutConstraint *knownTrackingDomainsScrollViewHeightConstraint; // @synthesize knownTrackingDomainsScrollViewHeightConstraint=_knownTrackingDomainsScrollViewHeightConstraint;
-@property(nonatomic) __weak NSBox *knownTrackingDomainsSeparator; // @synthesize knownTrackingDomainsSeparator=_knownTrackingDomainsSeparator;
-@property(nonatomic) __weak NSTextField *numberOfTrackersLabel; // @synthesize numberOfTrackersLabel=_numberOfTrackersLabel;
 @property(nonatomic) __weak NSImageView *shieldOrWarningImage; // @synthesize shieldOrWarningImage=_shieldOrWarningImage;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSView *trackingStatisticsView; // @synthesize trackingStatisticsView=_trackingStatisticsView;
-@property(nonatomic) __weak BrowserViewController *webViewController; // @synthesize webViewController=_webViewController;
 
 @end
 

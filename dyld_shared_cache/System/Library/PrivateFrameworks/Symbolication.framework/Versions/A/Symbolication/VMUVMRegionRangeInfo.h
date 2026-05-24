@@ -7,28 +7,22 @@
 @interface VMUVMRegionRangeInfo
 {
     unsigned long long address;
-    unsigned long long size;
-    unsigned long long stackIdentifier;
-    unsigned int userTag;
 }
 
 - (void);
 - (void);
 - (unsigned int);
 - (unsigned long long);
-- (void);
-- (id);
+- (void)yS
+k;
+- (id),;
 - (unsigned long long);
-- (void);
-- (struct _VMURange);
+- (void)!;
+- (struct _VMURange)predicateForHasAnyVisualPlayState;
 - (unsigned long long);
 
 // Remaining properties
 @property unsigned long long address; // @synthesize address;
-@property(readonly) struct _VMURange range;
-@property unsigned long long size; // @synthesize size;
-@property unsigned long long stackIdentifier; // @synthesize stackIdentifier;
-@property unsigned int userTag; // @synthesize userTag;
 
 @end
 

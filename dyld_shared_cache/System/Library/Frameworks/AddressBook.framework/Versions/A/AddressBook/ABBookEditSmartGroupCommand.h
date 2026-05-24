@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, ABGroupEntriesList, ABSearchElement, NSString;
+@class ABAddressBook;
 
 @interface ABBookEditSmartGroupCommand
 {
     ABAddressBook *_addressBook;
-    NSString *_smartGroupUid;
-    NSString *_name;
-    ABSearchElement *_searchElement;
-    _Bool _tracksModification;
-    NSString *_oldName;
-    ABSearchElement *_oldSearchElement;
-    _Bool _oldTracksModification;
-    ABGroupEntriesList *_groupEntriesList;
 }
 
 - (id);

@@ -6,16 +6,9 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSString, UIImage;
-
 @interface AKImageAnnotation : AKAnnotation
 {
     _Bool _hasShadow;
-    _Bool _verticallyFlipped;
-    _Bool _horizontallyFlipped;
-    UIImage *_image;
-    double _rotationAngle;
-    struct CGRect _rectangle;
 }
 
 + (id);
@@ -25,7 +18,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (struct CGRect);
 - (void);
@@ -37,28 +30,16 @@
 - (void);
 - (double);
 - (void);
+- (id)e selected occurrences of these events.;
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)!`�;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(readonly) unsigned long long hash;
-@property _Bool horizontallyFlipped; // @synthesize horizontallyFlipped=_horizontallyFlipped;
-@property(retain) UIImage *image; // @synthesize image=_image;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(readonly) Class superclass;
-@property _Bool verticallyFlipped; // @synthesize verticallyFlipped=_verticallyFlipped;
 
 @end
 

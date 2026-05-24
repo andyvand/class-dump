@@ -10,7 +10,6 @@
 @interface SXConditionalObjectResolver
 {
     SXJSONObjectMerger *_objectMerger;
-    id <SXConditionValidating> _conditionValidator;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXConditionValidating> conditionValidator; // @synthesize conditionValidator=_conditionValidator;
-@property(readonly, nonatomic) SXJSONObjectMerger *objectMerger; // @synthesize objectMerger=_objectMerger;
 
 @end
 

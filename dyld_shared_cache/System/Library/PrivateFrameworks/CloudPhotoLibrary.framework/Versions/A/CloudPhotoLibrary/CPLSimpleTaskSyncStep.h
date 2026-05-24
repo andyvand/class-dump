@@ -6,15 +6,12 @@
 
 #import <CloudPhotoLibrary/CPLSyncStep.h>
 
-@class CPLEngineSyncTask;
-
 @interface CPLSimpleTaskSyncStep : CPLSyncStep
 {
     Class _taskClass;
-    CPLEngineSyncTask *_currentTask;
 }
 
-- (Class);
+- (Class)appEntityRelevanceUserFocusModeAndDayOfWeekFeatures;
 - (void);
 - (_Bool);
 - (id);
@@ -23,13 +20,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void)Ñ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLEngineSyncTask *currentTask; // @synthesize currentTask=_currentTask;
 @property(readonly, nonatomic) Class taskClass; // @synthesize taskClass=_taskClass;
 
 @end

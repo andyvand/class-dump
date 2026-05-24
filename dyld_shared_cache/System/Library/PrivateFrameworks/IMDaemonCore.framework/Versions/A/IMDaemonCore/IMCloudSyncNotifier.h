@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)Nh;
+- (void)kAirPortSecurityTypeWEPEnterpriseKey;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol CPProfileDomainServiceRequestProtocol
+
+@optional
+- (_Bool)e;
+- (_Bool)e;
 @end
 

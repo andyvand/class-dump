@@ -9,7 +9,6 @@
 @interface BSEventQueueEvent
 {
     CDUnknownBlockType _handler;
-    NSString *_name;
 }
 
 + (id);

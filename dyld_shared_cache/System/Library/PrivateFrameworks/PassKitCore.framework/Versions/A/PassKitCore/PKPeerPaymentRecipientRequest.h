@@ -11,13 +11,11 @@
 @interface PKPeerPaymentRecipientRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_recipientAddress;
-    NSString *_senderAddress;
-    unsigned long long _recipientAddressSource;
 }
 
 - (void);
 - (unsigned long long);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *recipientAddress; // @synthesize recipientAddress=_recipientAddress;
-@property(nonatomic) unsigned long long recipientAddressSource; // @synthesize recipientAddressSource=_recipientAddressSource;
-@property(copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
 
 @end
 

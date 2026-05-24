@@ -5,6 +5,7 @@
 //
 
 @protocol MRMediaControlsProtocol
+- (void)T ;
 - (void)V_hasInfoAvailable;
 @end
 

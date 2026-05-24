@@ -15,9 +15,9 @@
 
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
-+ (id);
++ (id)_grayColorSpace;
 + (id)ForAssetsForPerson:options:] /* Error: Ran out of types for this method. */;
 + (id)"ÿÚe;
 - (id);

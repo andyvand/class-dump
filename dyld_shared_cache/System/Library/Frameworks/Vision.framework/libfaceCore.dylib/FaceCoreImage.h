@@ -7,26 +7,18 @@
 @interface FaceCoreImage
 {
     char *_rawDataBuffer;
-    char *_alignedDataBuffer;
-    _Bool _freeWhenDone;
-    unsigned long long _width;
-    unsigned long long _height;
-    unsigned long long _bytesPerRow;
 }
 
 - (id);
 - (char *);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)rgetBuildVersion:%@|minorTargetBuildVersion:%@|super:%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) char *alignedImageData;
-@property(readonly) unsigned long long bytesPerRow; // @synthesize bytesPerRow=_bytesPerRow;
-@property(readonly) unsigned long long height; // @synthesize height=_height;
 @property(readonly) unsigned long long width; // @synthesize width=_width;
 
 @end

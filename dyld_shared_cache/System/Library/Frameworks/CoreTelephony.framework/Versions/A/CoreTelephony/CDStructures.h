@@ -145,19 +145,17 @@ struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
 
 struct dispatch_object_s;
 
-struct map<__CTAssertionType *, std::pair<dispatch::queue, void (^)(NSError *)>, std::less<__CTAssertionType *>, std::allocator<std::pair<__CTAssertionType *const, std::pair<dispatch::queue, void (^)(NSError *)>>>> {
-    struct __tree<std::__value_type<__CTAssertionType *, std::pair<dispatch::queue, void (^)(NSError *)>>, std::__map_value_compare<__CTAssertionType *, std::pair<__CTAssertionType *const, std::pair<dispatch::queue, void (^)(NSError *)>>, std::less<__CTAssertionType *>>, std::allocator<std::pair<__CTAssertionType *const, std::pair<dispatch::queue, void (^)(NSError *)>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct map<__unsafe_unretained id, (anonymous namespace)::DelegateContext, std::less<__unsafe_unretained id>, std::allocator<std::pair<const __unsafe_unretained id, (anonymous namespace)::DelegateContext>>> {
     struct __tree<std::__value_type<__unsafe_unretained id, (anonymous namespace)::DelegateContext>, std::__map_value_compare<__unsafe_unretained id, std::pair<const __unsafe_unretained id, (anonymous namespace)::DelegateContext>, std::less<__unsafe_unretained id>>, std::allocator<std::pair<const __unsafe_unretained id, (anonymous namespace)::DelegateContext>>> {
         void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
+        struct {
+            struct __tree_end_node<std::__tree_node_base<void *>*> {
+                void *__left_;
+            } __end_node_;
+        } ;
+        struct {
+            unsigned long long __size_;
+        } ;
     } __tree_;
 };
 
@@ -172,17 +170,7 @@ struct queue {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
     int _field1;
     int _field2;
 } CDStruct_1ef3fb1f;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
 

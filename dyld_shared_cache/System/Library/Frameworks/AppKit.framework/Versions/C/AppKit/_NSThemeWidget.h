@@ -9,33 +9,31 @@
 @interface _NSThemeWidget : NSButton
 {
     id _eventMonitor;
-    unsigned int _ignoreRentry:1;
-    unsigned int _didSetTranslatesAutoresizingMask:1;
 }
 
 + (id);
-+ (Class);
++ (Class);
 + (void)Æ4ÖG;
-- (_Bool);
+- (_Bool)T%;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)XA;
+- (void)x+kAw;
 - (id);
 - (id);
 - (void);
 - (id);
-- (long long);
-- (_Bool);
+- (long long)%d;
+- (_Bool)essionDelegateWrapper";
 - (void);
-- (void);
-- (void);
+- (void)#;
+- (void)q ;
 - (void);
 - (void)40@0:(_Bool)arg1 8{_NSRange=QQ}16Q32;
-- (void);
+- (void)scrollable;
 - (id)ToolsUI.framework/WritingToolsUI;
 - (void)xpected previous menu;
-- (void)reviousSavedVersion;
+- (void)NSDocumentPreviousSavedVersion;
 
 @end
 

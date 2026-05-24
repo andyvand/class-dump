@@ -12,19 +12,18 @@ __attribute__((visibility("hidden")))
 @interface MKPlaceInfoPhoneNumberView : MKPlaceInfoContactRowView
 {
     _MKUILabel *_optsOutOfAdsView;
-    _Bool _optsOutOfAds;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (Class);
 - (id);
-- (int);
+- (int)setRemoteObjectInterface: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)ew;
+- (id)rrentLocale:(struct CGRect)arg1 ];
+- (void)moveToCloseUpView;
 
 // Remaining properties
 @property(nonatomic) _Bool optsOutOfAds; // @synthesize optsOutOfAds=_optsOutOfAds;

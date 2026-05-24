@@ -5,5 +5,7 @@
 //
 
 @protocol CKImpactEffectAnimationProvider
+- (void)GtGGA_GtGGA_GA1_tGG;
+- (void)79;
 @end
 

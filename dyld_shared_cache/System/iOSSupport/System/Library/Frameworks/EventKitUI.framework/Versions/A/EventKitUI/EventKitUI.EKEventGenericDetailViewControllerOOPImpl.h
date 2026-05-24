@@ -9,21 +9,18 @@
 @interface EventKitUI.EKEventGenericDetailViewControllerOOPImpl
 {
     id hostingController;
-    id hostView;
-    id hostViewModel;
-    UIColor *oopContentBackgroundColor;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)[%s;
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)Response>"B@"NSError">;
+- (id):(id)arg1:(id)arg2 __1::char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}}} /* Error: Ran out of types for this method. */;
 - (void);
-- (void)itWithContentItem:viewContent: /* Error: Ran out of types for this method. */;
+- (void)initWithContentItem:viewContent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *oopContentBackgroundColor; // @synthesize oopContentBackgroundColor;

@@ -18,13 +18,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (_Bool);
 - (id);
 - (void);
+- (void)";
 - (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (void);
@@ -38,7 +38,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);

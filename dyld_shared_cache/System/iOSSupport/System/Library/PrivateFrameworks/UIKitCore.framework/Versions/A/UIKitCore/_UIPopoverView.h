@@ -6,30 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIActionSheet, UIColor, UIPopoverBackgroundView, UIPopoverController, UITraitCollection, UIVisualEffect, _UIRoundedRectShadowView;
-
 __attribute__((visibility("hidden")))
 @interface _UIPopoverView : UIView
 {
     UIView *_contentView;
-    UIPopoverBackgroundView *_backgroundView;
-    UIView *_clipView;
-    Class _backgroundViewClass;
-    _Bool _showsBackgroundComponentHighlights;
-    _Bool _showsBackgroundViewHighlight;
-    _Bool _showsContentViewHighlight;
-    _Bool _contentExtendsOverArrow;
-    _Bool _chromeHidden;
-    _Bool _chromeHiddenForSizeTransition;
-    _Bool _useZoomTransition;
-    double _customCornerRadius;
-    UIActionSheet *_presentedActionSheet;
-    UIPopoverController *_popoverController;
-    long long _backgroundBlurEffectStyle;
-    UIVisualEffect *_backgroundEffect;
-    _UIRoundedRectShadowView *_shadowView;
-    double _animationOvershootHeight;
-    struct CGSize _contentSize;
 }
 
 + (id);
@@ -38,16 +18,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)LP;
+- (void)setContentTaste:forPlaylistGlobalID:persistentID:timeStamp:configuration:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)MPMediaGroupingGenreRecentlyAdded;
 - (void);
 - (struct UIEdgeInsets);
 - (id);
@@ -63,40 +43,40 @@ __attribute__((visibility("hidden")))
 - (void)× ;
 - (id)
 × ;
-- (void);
-- (_Bool)derColor: /* Error: Ran out of types for this method. */;
-- (_Bool)dKeyboard:forScene:forSuppressionAssertion:updatePlacement:wantsAssistant:keepAccessories: /* Error: Ran out of types for this method. */;
-- (double)sPreparingForDisplay;
-- (void)thRegion:(id)arg1;
-- (void)AndObserveScrollView:(id)arg1 viewController:(id)arg2 forEdges: /* Error: Ran out of types for this method. */;
-- (id)ansition;
-- (void)gIndexPathForIdentityTrackerIdentifier:(id)arg1;
-- (void)lier;
-- (double)gPathForRemoteViewService;
+- (void)shouldAllowInputViewsRestoredForId:(id)arg1;
+- (_Bool)setSectionBorderColor: /* Error: Ran out of types for this method. */;
+- (_Bool)setDeactivatedKeyboard:forScene:forSuppressionAssertion:updatePlacement:wantsAssistant:keepAccessories: /* Error: Ran out of types for this method. */;
+- (double)removeAllViewsPreparingForDisplay;
+- (void)regionByUnionWithRegion:(id)arg1;
+- (void)_updateAndObserveScrollView:(id)arg1 viewController:(id)arg2 forEdges: /* Error: Ran out of types for this method. */;
+- (id)_hasOngoingExpandTransition;
+- (void)_existingIndexPathForIdentityTrackerIdentifier:(id)arg1;
+- (void)_currentTouchForceMultiplier;
+- (double)_boundingPathForRemoteViewService;
 - (_Bool),V_overrideContentRectForPinning;
 - (void)referredPreviewType;
 - (id)setUnconstrainedPointGetter:,V__unconstrainedPointGetter /* Error: Ran out of types for this method. */;
-- (void);
+- (void)setEra: /* Error: Ran out of types for this method. */;
 - (id)äa;
 - (id)t;
 - (id);
 - (void);
-- (void)SolariumStackedImageContainerDefaultMaxDepth;
+- (void)UISolariumStackedImageContainerDefaultMaxDepth;
 - (_Bool)otation with keyboard test;
 - (void)roller=%p;
-- (id)ontrollerAllowStillDuringVideo;
-- (void)yTagged;
+- (id)_UIImagePickerControllerAllowStillDuringVideo;
+- (void)QueryTagged;
 - (void)oothing;
 - (void)items;
 - (void)PinchCP;
 - (id)r;
 - (unsigned long long);
 - (void);
-- (void)ewHeaderFooterB0CSo24UIViewConfigurationStateCIeyByy_;
+- (void)So023UITableViewHeaderFooterB0CSo24UIViewConfigurationStateCIeyByy_;
 - (id)O;
 - (void){[;
 - (void)U&137y;
-- (void);
+- (void)SwiftUIGlassInfo;
 - (int)3°´þ5Ï23¬´þ=Ï23¨´þ;
 - (double);
 - (long long)T)tþ;
@@ -107,27 +87,7 @@ __attribute__((visibility("hidden")))
 - (id)Ø©ÿã@Ða;
 
 // Remaining properties
-@property(nonatomic, setter=_setCustomCornerRadius:) double _customCornerRadius; // @synthesize _customCornerRadius;
-@property(readonly, nonatomic) UITraitCollection *_traitCollectionForGlassContent;
-@property(nonatomic) double animationOvershootHeight; // @synthesize animationOvershootHeight=_animationOvershootHeight;
-@property(copy, nonatomic) UIColor *arrowBackgroundColor;
-@property(nonatomic) unsigned long long arrowDirection;
-@property(nonatomic) double arrowOffset;
-@property(nonatomic) long long backgroundBlurEffectStyle; // @synthesize backgroundBlurEffectStyle=_backgroundBlurEffectStyle;
-@property(copy, nonatomic) UIVisualEffect *backgroundEffect; // @synthesize backgroundEffect=_backgroundEffect;
-@property(nonatomic) long long backgroundStyle;
-@property(nonatomic) _Bool chromeHidden; // @synthesize chromeHidden=_chromeHidden;
-@property(nonatomic) _Bool chromeHiddenForSizeTransition; // @synthesize chromeHiddenForSizeTransition=_chromeHiddenForSizeTransition;
-@property(readonly, nonatomic) _Bool contentExtendsOverArrow; // @synthesize contentExtendsOverArrow=_contentExtendsOverArrow;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(copy, nonatomic) UIColor *popoverBackgroundColor;
-@property(nonatomic) UIPopoverController *popoverController; // @synthesize popoverController=_popoverController;
-@property(retain, nonatomic) UIActionSheet *presentedActionSheet; // @synthesize presentedActionSheet=_presentedActionSheet;
-@property(retain, nonatomic) _UIRoundedRectShadowView *shadowView; // @synthesize shadowView=_shadowView;
 @property(nonatomic) _Bool showsBackgroundComponentHighlights; // @synthesize showsBackgroundComponentHighlights=_showsBackgroundComponentHighlights;
-@property(nonatomic) _Bool showsBackgroundViewHighlight; // @synthesize showsBackgroundViewHighlight=_showsBackgroundViewHighlight;
-@property(nonatomic) _Bool showsContentViewHighlight; // @synthesize showsContentViewHighlight=_showsContentViewHighlight;
-@property(nonatomic) _Bool useZoomTransition; // @synthesize useZoomTransition=_useZoomTransition;
 
 @end
 

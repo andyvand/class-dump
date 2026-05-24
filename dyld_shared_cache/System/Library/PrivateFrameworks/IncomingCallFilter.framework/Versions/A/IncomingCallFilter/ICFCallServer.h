@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface ICFCallServer
 {
     NSObject<OS_xpc_object> *_connection;
-    NSMutableArray *_clients;
-    _Bool _hasRegistered;
 }
 
 + (id);

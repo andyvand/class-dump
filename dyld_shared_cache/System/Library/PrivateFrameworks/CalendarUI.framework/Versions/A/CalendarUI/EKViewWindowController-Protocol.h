@@ -5,5 +5,8 @@
 //
 
 @protocol EKViewWindowController
+
+@optional
+- (void);
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)ionStructuralRegionData}^{CGXSessionHMDData}^{WSSessionDisplayUpdateData}^{DesktopEffectsSessionData}^{SchedulerSessionData}^vQ^{WSSessionCaptureData}iiB^{CGXWindow}^{CGXWindow}^{CGXWindow}IBIdBB^{CGXSessionWindowOverrideResolutionData}^{CGXSessionWindowPixelDimensionsHintData}^{CGXSessionUtilityDisplayControllerData}ii};
 + (id);
 
 @end

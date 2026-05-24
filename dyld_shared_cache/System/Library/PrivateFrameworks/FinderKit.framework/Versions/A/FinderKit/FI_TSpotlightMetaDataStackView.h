@@ -6,40 +6,25 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FI_TTitleAndValueView, NSArray, NSDictionary, NSFont, NSMutableArray, NSSet, NSStackView, NSView;
+@class FI_TTitleAndValueView, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FI_TSpotlightMetaDataStackView : FI_TUpdateLayerView
 {
     FI_TTitleAndValueView *_genericTitleAndValueView;
-    NSMutableArray *_filterViews;
-    _Bool _populateForAnimating;
-    _Bool _filterActive;
-    _Bool _addLabelSuffix;
-    _Bool _showAttributesWithNoData;
-    _Bool _useRelativeDates;
-    _Bool _centerAligned;
-    NSStackView *_stackView;
-    NSDictionary *_spotlightMetaData;
-    NSArray *_metaDataOrder;
-    NSSet *_filteredMetadata;
-    long long _hiddenAttributesCountDelta;
-    double _interRowGap;
-    unsigned long long _maxAttributesToDisplay;
-    NSView *_viewForTitleWidth;
 }
 
 - (id);
 - (double);
-- (double);
+- (double);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void)h;
 - (void);
-- (void);
-- (void);
+- (void)nM9;
 - (void);
 - (void);
 - (void);
@@ -48,13 +33,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)h;
+- (_Bool);
 - (double);
 - (long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -69,23 +54,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool addLabelSuffix; // @synthesize addLabelSuffix=_addLabelSuffix;
-@property(readonly, nonatomic) _Bool centerAligned; // @synthesize centerAligned=_centerAligned;
-@property(nonatomic, getter=isFilterActive) _Bool filterActive; // @synthesize filterActive=_filterActive;
-@property(retain, nonatomic) NSSet *filteredMetadata; // @synthesize filteredMetadata=_filteredMetadata;
-@property(retain, nonatomic) NSFont *font;
-@property(readonly, nonatomic) long long hiddenAttributesCountDelta; // @synthesize hiddenAttributesCountDelta=_hiddenAttributesCountDelta;
-@property(nonatomic) double interRowGap; // @synthesize interRowGap=_interRowGap;
-@property(nonatomic) unsigned long long maxAttributesToDisplay; // @synthesize maxAttributesToDisplay=_maxAttributesToDisplay;
-@property(retain, nonatomic) NSArray *metaDataOrder; // @synthesize metaDataOrder=_metaDataOrder;
-@property(readonly, nonatomic) unsigned long long numRows;
-@property(nonatomic) _Bool showAttributesWithNoData; // @synthesize showAttributesWithNoData=_showAttributesWithNoData;
 @property(retain, nonatomic) NSDictionary *spotlightMetaData; // @synthesize spotlightMetaData=_spotlightMetaData;
-@property(readonly, retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(nonatomic) _Bool useRelativeDates; // @synthesize useRelativeDates=_useRelativeDates;
-@property(nonatomic) double valueViewBottomInset;
-@property(nonatomic) double valueViewTopInset;
-@property(retain, nonatomic) NSView *viewForTitleWidth; // @synthesize viewForTitleWidth=_viewForTitleWidth;
 
 @end
 

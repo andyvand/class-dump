@@ -9,9 +9,6 @@
 @interface MPSNNOptimizerRMSProp : MPSNNOptimizer
 {
     double _decay;
-    double _momentumScale;
-    float _epsilon;
-    _Bool _centered;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -29,16 +26,13 @@
 - (void);
 - (_Bool);
 - (double);
-- (id);
-- (id);
+- (id);
+- (id)#;
 - (void);
 - (float);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool centered; // @synthesize centered=_centered;
-@property(readonly, nonatomic) double decay; // @synthesize decay=_decay;
-@property(readonly, nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
 @property(readonly, nonatomic) double momentumScale; // @synthesize momentumScale=_momentumScale;
 
 @end

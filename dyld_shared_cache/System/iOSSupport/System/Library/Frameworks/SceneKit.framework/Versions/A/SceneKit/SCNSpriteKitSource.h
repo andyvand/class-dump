@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) SKScene *scene; // @synthesize scene=_scene;

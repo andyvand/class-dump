@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCKeyValueStore, NSMutableDictionary;
-@protocol FCTagSettingsDelegate;
+@class NSMutableDictionary;
 
 @interface FCTagSettings
 {
     NSMutableDictionary *_tagSettingsEntriesByTagID;
-    FCKeyValueStore *_localStore;
-    id <FCTagSettingsDelegate> _delegate;
 }
 
 + (id);
@@ -21,18 +18,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)8@"NSNotification"16;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)enableSoftwareUpdateScanning;
 - (id);
 - (id)Gù±(	ð1Â0@ù
 × ;
-- (void)lue;
+- (void)subscribeImpressionValue;
 
 @end
 

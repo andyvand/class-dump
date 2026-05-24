@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCDataDetectorElementView;
 + (void);
 - (_Bool);
 - (unsigned long long);

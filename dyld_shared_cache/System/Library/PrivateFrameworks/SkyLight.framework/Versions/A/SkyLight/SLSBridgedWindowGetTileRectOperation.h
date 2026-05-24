@@ -11,9 +11,9 @@
     unsigned int _windowID;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)*;
+- (id)itMetadataModel.m;
+- (id)ause the store was removed from the coordinator.;
 - (id);
 - (id);
 - (unsigned int);

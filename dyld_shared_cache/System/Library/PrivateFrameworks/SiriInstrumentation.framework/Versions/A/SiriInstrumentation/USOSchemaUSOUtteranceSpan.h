@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface USOSchemaUSOUtteranceSpan : SISchemaInstrumentationMessage
 {
     unsigned int _startIndex;
-    unsigned int _endIndex;
-    unsigned int _startUnicodeScalarIndex;
-    unsigned int _endUnicodeScalarIndex;
-    int _startMilliseconds;
-    int _endMilliseconds;
-    struct {
-        unsigned int startIndex:1;
-        unsigned int endIndex:1;
-        unsigned int startUnicodeScalarIndex:1;
-        unsigned int endUnicodeScalarIndex:1;
-        unsigned int startMilliseconds:1;
-        unsigned int endMilliseconds:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -31,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)qI;
 - (void);
 - (void);
 - (void);
@@ -44,42 +29,31 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)�
+;
 - (_Bool);
 - (void);
 - (unsigned int);
-- (id);
-- (void);
+- (id)E;
+- (void)Dodgeball_ETAU_FakeIncidentProgressBarDistanceOffset;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_preferredForPhotoUID;
+- (_Bool)other_handle, group_title, group_action_type, share_status, share_direction, is_expirable, expire_state, message_action_type, message_source, associated_message_guid, associated_message_type, balloon_bundle_id, payload_data, expressive_send_style_id, associated_message_range_location, associated_message_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE rowID >= ?   AND rowID <= ?   AND item_type == 0 ORDER BY message.ROWID ASC;;
 - (unsigned int);
 - (id);
-- (void);
+- (void)Є;
 - (id);
-- (id)leteSubText;
-- (id)idatesNotFounds;
+- (id)deleteSubText;
+- (id)_parameterCandidatesNotFounds;
 
 // Remaining properties
-@property(nonatomic) unsigned int endIndex; // @synthesize endIndex=_endIndex;
-@property(nonatomic) int endMilliseconds; // @synthesize endMilliseconds=_endMilliseconds;
-@property(nonatomic) unsigned int endUnicodeScalarIndex; // @synthesize endUnicodeScalarIndex=_endUnicodeScalarIndex;
-@property(nonatomic) _Bool hasEndIndex;
-@property(nonatomic) _Bool hasEndMilliseconds;
-@property(nonatomic) _Bool hasEndUnicodeScalarIndex;
-@property(nonatomic) _Bool hasStartIndex;
-@property(nonatomic) _Bool hasStartMilliseconds;
-@property(nonatomic) _Bool hasStartUnicodeScalarIndex;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int startIndex; // @synthesize startIndex=_startIndex;
-@property(nonatomic) int startMilliseconds; // @synthesize startMilliseconds=_startMilliseconds;
-@property(nonatomic) unsigned int startUnicodeScalarIndex; // @synthesize startUnicodeScalarIndex=_startUnicodeScalarIndex;
 
 @end
 

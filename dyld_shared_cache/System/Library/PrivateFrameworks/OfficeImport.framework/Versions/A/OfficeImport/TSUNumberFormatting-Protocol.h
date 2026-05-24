@@ -4,7 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol TSUNumberFormatting
+- (_Bool);
+- (NSArray *);
+- (unsigned short)A;
+- (_Bool);
+- (NSString *)_stringSuitableForHTML: /* Error: Ran out of types for this method. */;
+- (NSString *);
 - (unsigned short),;
 @end
 

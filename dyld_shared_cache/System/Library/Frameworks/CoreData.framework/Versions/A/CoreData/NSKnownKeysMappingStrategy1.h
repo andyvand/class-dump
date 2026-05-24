@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSKnownKeysMappingStrategy1 : NSKnownKeysMappingStrategy
 {
     int _cd_rc;
-    int _reserved64;
-    void *_table;
-    unsigned long long _length;
-    id _reserved1;
-    id *_keys;
 }
 
 + (_Bool);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (unsigned long long);
 - (Class);
 - (unsigned long long);

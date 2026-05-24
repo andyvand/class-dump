@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable;
-
 @interface _CDMemoryUsageIntervalTracker
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _counter;
-    unsigned long long _activeMemoryLimit;
-    NSHashTable *_activeIntervals;
-    unsigned long long _intervalTimeout;
 }
 
 - (id);

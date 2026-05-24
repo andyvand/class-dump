@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUStateEvent, CUStateMachine;
+@class CUStateMachine;
 
 @interface CKUploadRequestManagerStateMachine
 {
     CDUnknownBlockType _actionHandler;
-    CDUnknownBlockType _enterStateHandler;
-    CDUnknownBlockType _exitStateHandler;
-    CUStateMachine *_stateMachine;
-    CUStateEvent *_eventCausingTransition;
-    CDUnknownBlockType _internalActionHandler;
 }
 
 + (id);
@@ -31,7 +26,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
@@ -39,16 +34,11 @@
 - (id);
 - (id);
 - (void);
-- (void)grationTableGroupTable;
+- (void)CKSQLiteTOCMigrationTableGroupTable;
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(copy, nonatomic) CDUnknownBlockType enterStateHandler; // @synthesize enterStateHandler=_enterStateHandler;
-@property(retain, nonatomic) CUStateEvent *eventCausingTransition; // @synthesize eventCausingTransition=_eventCausingTransition;
-@property(copy, nonatomic) CDUnknownBlockType exitStateHandler; // @synthesize exitStateHandler=_exitStateHandler;
-@property(copy, nonatomic) CDUnknownBlockType internalActionHandler; // @synthesize internalActionHandler=_internalActionHandler;
 @property(retain, nonatomic) CUStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
 
 @end

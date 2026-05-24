@@ -7,8 +7,6 @@
 @protocol MPCQueueControllerBehaviorTransitionTogglableImplementation
 
 // Remaining properties
-@property(readonly, nonatomic) double crossfadeDuration;
-@property(readonly, nonatomic) long long transitionStyle;
 @property(readonly, nonatomic) _Bool transitionsEnabled;
 @end
 

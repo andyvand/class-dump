@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface AVCameraCalibrationDataInternal
 {
     struct {
         id columns[3];
     } intrinsicMatrix;
-    struct CGSize intrinsicMatrixReferenceDimensions;
-    struct {
-        id columns[4];
-    } extrinsicMatrix;
-    float pixelSize;
-    NSData *lensDistortionCoefficients;
-    NSData *inverseLensDistortionCoefficients;
-    struct CGPoint lensDistortionCenter;
-    NSData *lensDistortionLookupTable;
-    NSData *inverseLensDistortionLookupTable;
-    NSDictionary *cameraCalibrationDataDictionary;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol BKAgentService
+- (void);
 @end
 

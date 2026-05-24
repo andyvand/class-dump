@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBDateTime;
+@class _INPBDataString, _INPBDateTime, _INPBTask;
 
 @protocol _INPBTaskList
+- (unsigned long long)K;
+- (_INPBTask *);
+- (_INPBDateTime *);
+- (void);
+- (_INPBDataString *)(;
 - (void)ent;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTime *createdDateTime;
-@property(retain, nonatomic) _INPBDataString *groupName;
-@property(readonly, nonatomic) _Bool hasCreatedDateTime;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasModifiedDateTime;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(copy, nonatomic) NSString *identifier;
-@property(retain, nonatomic) _INPBDateTime *modifiedDateTime;
-@property(copy, nonatomic) NSArray *tasks;
-@property(readonly, nonatomic) unsigned long long tasksCount;
-@property(retain, nonatomic) _INPBDataString *title;
 @end
 

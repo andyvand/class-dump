@@ -9,16 +9,14 @@
 @interface PSIDSLinkHBHEncryptedPayload
 {
     NSData *_authenticationTag;
-    NSData *_cipherText;
-    NSData *_initializationVector;
 }
 
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -31,8 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authenticationTag; // @synthesize authenticationTag=_authenticationTag;
-@property(retain, nonatomic) NSData *cipherText; // @synthesize cipherText=_cipherText;
 @property(retain, nonatomic) NSData *initializationVector; // @synthesize initializationVector=_initializationVector;
 
 @end

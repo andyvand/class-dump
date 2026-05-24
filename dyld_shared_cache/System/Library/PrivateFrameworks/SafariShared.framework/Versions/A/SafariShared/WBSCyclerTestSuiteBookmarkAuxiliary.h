@@ -9,11 +9,6 @@
 @interface WBSCyclerTestSuiteBookmarkAuxiliary
 {
     WBSCyclerOperation *_initialClearOperation;
-    WBSCyclerOperation *_resetToDAVModeOperation;
-    WBSCyclerOperation *_generateDAVServerIDsForExistingBookmarksOperation;
-    WBSCyclerOperation *_cloudKitMigrationOperation;
-    WBSCyclerOperation *_clearLocalDataOperation;
-    float _operationBackoffRatio;
 }
 
 - (id);
@@ -21,7 +16,7 @@
 - (void);
 - (float);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

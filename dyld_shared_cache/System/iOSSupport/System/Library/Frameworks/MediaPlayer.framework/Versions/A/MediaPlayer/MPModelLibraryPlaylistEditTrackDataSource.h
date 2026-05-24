@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface MPModelLibraryPlaylistEditTrackDataSource : MPModelLibraryPlaylistEditDataSource
 {
     NSArray *_playlistEntries;
-    NSArray *_tracks;
 }
 
 - (void);

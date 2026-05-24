@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, OITSUNoCopyDictionary;
+@class OITSUNoCopyDictionary;
 
 __attribute__((visibility("hidden")))
 @interface WDFontTable
 {
     OITSUNoCopyDictionary *mFontTable;
-    NSMutableArray *mFontsInOrderOfInsertion;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (unsigned long long);

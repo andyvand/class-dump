@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface MKFLocalSettings
@@ -15,7 +15,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *accessAllowedWhenLocked; // @dynamic accessAllowedWhenLocked;
-@property(copy, nonatomic) NSDictionary *mobileAssetUpdateInfo; // @dynamic mobileAssetUpdateInfo;
 
 @end
 

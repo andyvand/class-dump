@@ -5,5 +5,6 @@
 //
 
 @protocol XPCSignpostReaderProtocol
+- (void).;
 @end
 

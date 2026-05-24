@@ -6,29 +6,25 @@
 
 #import <AppKit/NSView.h>
 
-@class NSDebugTDInspectorResultsHeaderView, NSStackView, NSTableView, _NSDebugTDLineView;
+@class NSDebugTDInspectorResultsHeaderView, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDInspectorResultsView : NSView
 {
     NSStackView *_vertStack;
-    _NSDebugTDLineView *_line;
-    NSDebugTDInspectorResultsHeaderView *_headerView;
-    NSTableView *_inspectorTableView;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id)onents;
+- (id)lengthOfBytesUsingEncoding: /* Error: Ran out of types for this method. */;
+- (void).WBOEkW/Sources/boringssl/crypto/fipsmodule/ec/p256.c.inc;
+- (id)components;
 - (void)¦¨ B;
 - (id)&;
 
 // Remaining properties
 @property(retain, nonatomic) NSDebugTDInspectorResultsHeaderView *headerView; // @synthesize headerView=_headerView;
-@property(retain, nonatomic) NSTableView *inspectorTableView; // @synthesize inspectorTableView=_inspectorTableView;
 
 @end
 

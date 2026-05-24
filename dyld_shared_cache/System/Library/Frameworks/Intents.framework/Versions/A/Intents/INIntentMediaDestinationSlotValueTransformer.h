@@ -13,7 +13,7 @@
 + (Class);
 + (long long)Names;
 - (id);
-- (id)ringAsEnergyUnit:(id)arg1;
+- (id)StringAsEnergyUnit:(id)arg1;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface FCFeedCursor
 {
     unsigned long long _order;
@@ -24,21 +22,18 @@
 - (id);
 - (long long);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)setGrayColor:(id)arg1;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)hedRecordsLookupBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setCachedRecordsLookupBlock: /* Error: Ran out of types for this method. */;
 - (_Bool)explicitContent;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *date;
-@property(readonly, nonatomic) _Bool isBottomOfFeed;
-@property(readonly, nonatomic) _Bool isTopOfFeed;
 @property(nonatomic) unsigned long long order; // @synthesize order=_order;
 
 @end
